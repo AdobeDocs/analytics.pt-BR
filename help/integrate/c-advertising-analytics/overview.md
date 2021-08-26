@@ -2,9 +2,9 @@
 description: Descubra tudo o que você pode fazer com o Advertising Analytics neste manual detalhado, incluindo permissões necessárias e dimensões e métricas disponíveis.
 title: Um manual para o Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1261'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '1232'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,6 @@ Esta integração é destinada para os públicos-alvo a seguir:
 
 * Esta funcionalidade está disponível para aqueles que não são clientes da Advertising Cloud e AMO.
 * É necessário ser um administrador do Adobe Analytics para ter acesso ao Advertising Analytics. Posteriormente, é possível [conceder permissões de acesso](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) a não administradores.
-* Qualquer conjunto de relatórios do Analytics no qual deseja exibir os dados de pesquisa do Google/Bing deve ser [mapeado para sua organização Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * Em qualquer conjunto de relatórios que deseja exibir os dados de pesquisa do Google/Bing, é necessário [habilitar esses conjuntos de relatórios para o Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Configuração do Advertising Analytics]**).
 
 * Você precisa de credenciais de logon para um usuário com permissões de edição das contas de pesquisa que deseja integrar com o Adobe Analytics, como ID e senha da conta do Google.

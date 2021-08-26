@@ -1,13 +1,13 @@
 ---
 description: Perguntas frequentes sobre segmentação.
 title: Perguntas frequentes
-feature: Segmentação
+feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: ht
-source-wordcount: '2071'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '2080'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Responde perguntas frequentes sobre recursos de segmentação, acesso, permissõ
 * Você pode criar [Segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * O contêiner de Visualização de página foi renomeado para contêiner de Ocorrência para indicar que esse contêiner segmenta todos os tipos de dados e não apenas visualizações de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências. Observe que não houve uma alteração no funcionamento deste contêiner; ele foi apenas renomeado.
 
-Consulte a publicação [Melhorias na segmentação do Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) no Blog de marketing digital para obter mais detalhes.
+Consulte a publicação [Melhorando a segmentação no Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) no Blog do Adobe para obter mais detalhes.
 
 ## Acesse as Ferramentas de segmentação {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,9 +39,9 @@ Consulte a publicação [Melhorias na segmentação do Adobe Analytics](https://
 
 Para acessar o Construtor de segmentos, basta:
 
-* Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]** ou
+* Exiba um relatório existente e clicar no ícone Segmentos ![Ícone de Segmento](assets/segment_icon.png) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]** ou
 
-* Clique em **[!UICONTROL Adicionar]** mais, na parte superior do Gerenciador de segmentos.  ![](assets/add_button.png)
+* Clique em **[!UICONTROL Adicionar]** mais, na parte superior do Gerenciador de segmentos.  ![Botão Adicionar](assets/add_button.png)
 
    ou
 
@@ -53,13 +53,13 @@ Para acessar o Gerenciador de segmentos:
 
 * Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** na navegação superior e, Em seguida, clique em **[!UICONTROL Segmentos]** ou
 
-* Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]** ou
+* Exiba um relatório existente e clicar no ícone Segmentos ![Ícone de Segmento](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]** ou
 
 * Pressione a tecla “/” em qualquer lugar na interface e pesquisando pelo gerenciador de segmentos.
 
 **Para onde foi o menu suspenso de segmentos herdados?**
 
-O menu suspenso de segmentos em Reports &amp; Analytics foi substituído por uma interface do [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone de Segmentos ![](assets/segment_icon.png)
+O menu suspenso de segmentos em Reports &amp; Analytics foi substituído por uma interface do [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone de Segmentos ![Ícone do segmento](assets/segment_icon.png)
 
 no painel de navegação esquerdo e no painel de segmentos.
 
@@ -67,7 +67,7 @@ no painel de navegação esquerdo e no painel de segmentos.
 
 O menu suspenso do conjunto de relatórios foi movido para o lado do seletor de datas, no canto superior direito de cada relatório ou painel.
 
-![](assets/report_suite_selector.png)
+![Seletor de conjunto de relatórios](assets/report_suite_selector.png)
 
 ## Permissões {#section_648DFA3A882146C485A84ED014EEC707}
 

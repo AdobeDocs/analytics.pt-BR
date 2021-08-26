@@ -2,14 +2,14 @@
 title: Cross-Device Analytics
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
-workflow-type: ht
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Cross-Device Analytics
+# Análise entre dispositivos
 
 O Cross-Device Analytics é um recurso que transforma o Analytics de uma exibição centrada em dispositivos para uma exibição centrada em pessoas. Como resultado, os analistas podem entender o comportamento do usuário que passa pelos navegadores, dispositivos ou aplicativos. A Adobe comporta dois workflows abrangentes para vincular dados do dispositivo:
 
@@ -28,7 +28,7 @@ Quando os dispositivos são compilados, a persistência variável é transferida
 
 Com um espírito de parceria e transparência, queremos que nossos clientes estejam cientes de nosso uso do Microsoft Azure em associação com o Cross-Device Analytics. A Adobe usa o Azure para armazenar os dados de gráficos de dispositivos e realizar a compilação entre dispositivos. Dessa forma, os dados do Adobe Analytics são transmitidos de um lado para o outro, entre o centro de processamento de dados da Adobe e as instâncias provisionadas da Adobe do Microsoft Azure.
 
-Consulte a página [Journey IQ: Cross-Device Analytics Spark](http://adobe.ly/aacda) para saber mais sobre os recursos e as funções do Cross-Device Analytics.
+Consulte a página [Journey IQ: Cross-Device Analytics Spark](https://adobe.ly/aacda) para saber mais sobre os recursos e as funções do Cross-Device Analytics.
 
 ## Pré-requisitos
 

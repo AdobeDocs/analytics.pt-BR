@@ -2,10 +2,10 @@
 title: Como configurar uma conta publicitária no Advertising Analytics
 description: Permite criar novas contas publicitárias e mapear várias contas a vários conjuntos de relatórios.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '863'
-ht-degree: 100%
+source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -64,24 +64,24 @@ Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instru�
 
    >[!IMPORTANT]
    >
-   >Somente conjuntos de relatórios que foram [mapeados para uma organização da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) estarão disponíveis para seleção. Caso não veja seu conjunto de relatórios listado, consulte [Solução de problemas do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Somente conjuntos de relatórios mapeados para uma organização do Experience Cloud estão disponíveis para seleção. Caso não veja seu conjunto de relatórios listado, consulte [Solução de problemas do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    Para as **[!UICONTROL Configurações de mapeamento]** que seguem essas instruções:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Configuração </th> 
-      <th colname="col2" class="entry"> Descrição </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Mapeamento do conjunto de relatórios </p> </td> 
-      <td colname="col2"> <p>O mapeamento do conjunto de relatórios determina o conjunto de dados que é vinculado a esta conta de mecanismo de pesquisa. Ou seja, determina a quais conjuntos de relatórios os dados do mecanismo de pesquisa são enviados. </p> <p>Caso não veja o conjunto de relatórios listado, você pode <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >mapear seu conjunto de relatórios para uma organização da Experience Cloud</a> usando essa ferramenta. </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> Configuração </th> 
+   <th colname="col2" class="entry"> Descrição </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>Mapeamento do conjunto de relatórios </p> </td> 
+   <td colname="col2"> <p>O mapeamento do conjunto de relatórios determina o conjunto de dados que é vinculado a esta conta de mecanismo de pesquisa. Ou seja, determina a quais conjuntos de relatórios os dados do mecanismo de pesquisa são enviados. </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. Clique em **[!UICONTROL Salvar]**.
 1. Depois de salvar, um aviso de isenção de responsabilidade exibe uma lista de advertências. É solicitado que confirme que leu e entendeu este contrato. Clique na caixa de seleção, em seguida em **[!UICONTROL OK]**.

@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre como gerenciar usuários e produtos no Experience Cloud Admin Console, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '723'
+ht-degree: 99%
 
 ---
 
@@ -125,7 +125,6 @@ ht-degree: 0%
    + [Compartilhamento de marcas](company/co-branding-admin.md)
    + [Ocultar conjuntos de relatórios](company/c-hide-report-suites.md)
    + [Gerenciador de segurança](company/security-manager.md)
-   + [Fim da vida útil para &quot;Impor restrições de logon de IP&quot;](company/login-restrictions-eol.md)
 + Gerenciar Conjuntos de relatórios {#manage-report-suites}
    + [Gerenciador do Conjunto de relatórios](c-manage-report-suites/report-suites-admin.md)
    + [Conjuntos de relatórios globais e de acumulado](c-manage-report-suites/rollup-report-suite.md)

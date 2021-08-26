@@ -2,11 +2,10 @@
 title: Solução de problemas de sessões no Adobe Analytics
 description: Saiba mais sobre como resolver problemas ao desconectar-se do Adobe Analytics.
 exl-id: 191250ef-8313-47be-9717-046cce870998
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +23,7 @@ Para determinar se a rede corporativa à qual você está conectado está causan
 
 ## Problemas de proxy
 
-A Adobe usa um cabeçalho de autorização ao fazer solicitações à Adobe. Alguns proxies, como o Bluecat (que agora pertence à Symantec), removem informações críticas do cabeçalho de autorização usadas pelo Adobe Analytics. Quando a Adobe não vê o cabeçalho de autorização, a sessão expira.
+A Adobe usa um cabeçalho de autorização ao fazer solicitações à Adobe. Alguns proxies, como o Edge Secure Web Gateway (antigo Bluecat), removem informações críticas do cabeçalho de autorização usadas pela Adobe Analytics. Quando a Adobe não vê o cabeçalho de autorização, a sessão expira.
 
 Para resolver esse problema, a Adobe recomenda trabalhar com a equipe de TI de sua organização para permitir o cabeçalho de autorização no proxy de sua organização.
 
@@ -32,7 +31,7 @@ Para resolver esse problema, a Adobe recomenda trabalhar com a equipe de TI de s
 >
 >Embora os membros da comunidade do Analytics tenham considerado os seguintes links úteis, eles não são de propriedade da Adobe. Leve isso em consideração ao exibir o conteúdo.
 
-Informações sobre proxies da Symantec e cabeçalhos de autenticação podem ser encontradas aqui:
+Informações sobre proxies da e cabeçalhos de autenticação podem ser encontradas aqui:
 
-* [Configurar a autenticação upstream em proxy em uma Implantação da cadeia de proxy em um equipamento ProxySG ou ASG](https://support.symantec.com/en_US/article.TECH246122.html)
-* [Permitir que o ProxySG sempre encaminhe a autorização do servidor em direção upstream](https://support.symantec.com/en_US/article.TECH244708.html)
+* [Configurar a autenticação upstream em proxy em uma Implantação da cadeia de proxy em um equipamento ProxySG ou ASG](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [Como encaminhar credenciais do usuário para um servidor por trás do utilitário ProxySG](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)

@@ -3,9 +3,9 @@ description: Este documento descreve o que precisa ser feito no Adobe Analytics 
 title: Adobe Analytics e o GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '613'
 ht-degree: 97%
 
 ---
@@ -46,7 +46,6 @@ Consulte [Rotular dados do conjunto de relatórios](/help/admin/c-data-governanc
 
 * Familiarizar-se com a [terminologia do GDPR.](/help/admin/c-data-governance/gdpr-terminology.md)
 * Vincular sua empresa de logon a uma organização da Experience Cloud, se ainda não estiver vinculada. Entrar em contato com o Atendimento ao cliente da Adobe e consultar [Vinculação de organizações e contas.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=pt-BR)
-* Mapear qualquer conjunto de relatórios do Adobe Analytics que deseje configurar para governança de dados para a [sua organização da Experience Cloud.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 * Definir uma política de retenção de dados para cada conjunto de relatórios para que as solicitações de exclusão e de acesso do GDPR possam ser atendidas.
 
    >[!NOTE]

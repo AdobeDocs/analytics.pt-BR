@@ -3,10 +3,10 @@ description: 'Saiba mais sobre '
 title: Atribuição e tipo de métrica
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 97%
 
 ---
 
@@ -27,13 +27,11 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 
 >[!IMPORTANT]
 >
->[O Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) mudou a maneira como os modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
+>[O Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) mudou a maneira como os modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
 >
->* Para obter uma lista completa de modelos de atribuição não padrão e janelas de lookback com suporte, consulte a documentação do [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
+>* Para obter uma lista completa de modelos de atribuição não padrão e janelas de pesquisa suportadas, consulte [Modelos de atribuição e janelas de pesquisa](/help/analyze/analysis-workspace/attribution/models.md).
 >* Os modelos de alocação &quot;Último contato do canal de marketing&quot; e &quot;Primeiro contato do canal de marketing&quot; serão migrados para os novos modelos de atribuição &quot;Último contato&quot; e &quot;Primeiro contato&quot;, respectivamente (Observe que &quot;Canais de marketing&quot; não será descontinuado - apenas os dois modelos de alocação que aparecem nas métricas calculadas o serão).
 >* Além disso, corrigiremos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas será refletida no Analysis Workspace, Reports &amp; Analytics, na API de relatórios e no Report Builder. Para obter mais informações, consulte **Como a alocação linear funciona (desde 19 de julho de 2018)** abaixo.
->
-
 
 
 ## Como a alocação linear funciona (desde 19 de julho de 2018)

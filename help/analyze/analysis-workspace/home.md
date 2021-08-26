@@ -1,12 +1,12 @@
 ---
 title: O que é o Analysis Workspace e como usá-lo?
 description: O Analysis Workspace é a principal ferramenta de análise do Adobe Analytics. Ele permite usar painéis, tabelas, visualizações e outros componentes para dar vida aos dados, preparar um conjunto de dados, compartilhar e agendar projetos, entre outros recursos.
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '557'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '555'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Se você tiver apenas alguns minutos, assista a esta breve visão geral para ver
 
 ## Faça logon no Adobe Analytics {#login}
 
-Para começar a usar o Analysis Workspace, faça logon no Adobe Analytics acessando [experience.adobe.com/analytics](http://experience.adobe.com/analytics). Você será direcionado para a página inicial de lista de projetos do Workspace se um projeto específico não tiver sido selecionado anteriormente para você.
+Para começar a usar o Analysis Workspace, faça logon no Adobe Analytics acessando [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Você será direcionado para a página inicial de lista de projetos do Workspace se um projeto específico não tiver sido selecionado anteriormente para você.
 
 ![](assets/login-analytics.png)
 

@@ -3,9 +3,9 @@ description: A caixa de diálogo Governança de dados nas Ferramentas administra
 title: Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '553'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
@@ -37,9 +37,8 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
    <td colname="col1"> <p>Mapeamento da organização </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
-     <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mapeado</b>: esse conjunto de relatórios já foi mapeado para a mesma organização da Experience Cloud que a empresa de logon do Analytics na qual você está conectado. Somente conjuntos de relatórios com essa configuração podem ser rotulados. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapear conjunto de relatórios</b>: ao clicar neste link, você <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html">mapeia um conjunto de relatórios</a> para uma organização da Experience Cloud. <p>Isso significa que você será redirecionado para a página Organização da Experience Cloud - Administração de mapeamento do conjunto de relatórios, na qual terá que encontrar o conjunto de relatórios e atribuí-lo à ID da organização apropriada. Feito isso, retorne a essa interface do usuário de Governança de dados. </p> </li> 
-     <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mapeado para outra organização</b>: outra organização da Experience Cloud já mapeou esse conjunto de relatórios para uma organização. </li> 
+     <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mapeado</b>: esse conjunto de relatórios já foi mapeado para a mesma organização da Experience Cloud que a empresa de logon do Analytics na qual você está conectado. Somente conjuntos de relatórios com essa configuração podem ser rotulados. </li>
+     <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mapeado a outra organização</b>: outra organização da Experience Cloud já mapeou esse conjunto de relatórios para uma organização. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

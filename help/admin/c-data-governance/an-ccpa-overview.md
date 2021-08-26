@@ -3,9 +3,9 @@ description: Este documento descreve o que precisa ser feito no Adobe Analytics 
 title: Adobe Analytics e a CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '637'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,6 @@ Consulte [Rotular dados do conjunto de relatórios](/help/admin/c-data-governanc
 
 * Familiarizar-se com a [terminologia do GDPR.](/help/admin/c-data-governance/gdpr-terminology.md)
 * Vincular sua empresa de logon a uma organização da Experience Cloud, se ainda não estiver vinculada. Entrar em contato com o Atendimento ao cliente da Adobe e consultar [Vinculação de organizações e contas.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=pt-BR)
-* Mapear qualquer conjunto de relatórios do Adobe Analytics que deseje configurar para governança de dados para a [sua organização da Experience Cloud.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 * Defina uma política de retenção de dados para cada conjunto de relatórios para que as solicitações de exclusão e de acesso da CCPA possam ser atendidas.
 
    O Adobe Analytics não pode ajudá-lo com o processamento de solicitações para a API da Privacidade de dados, ou seja, com o processamento de solicitações de acesso ou de exclusão recebidas dos usuários finais, se um período de retenção de dados não tiver sido definido no Adobe Analytics. Entre em contato com o gerente de sucesso do cliente para definir o período de retenção de dados.

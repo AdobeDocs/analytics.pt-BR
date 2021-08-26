@@ -2,7 +2,7 @@
 title: Término da vida útil das fontes de dados de processamento completo
 description: Motivos para o fim da vida útil e comparações entre a API de inserção de dados em massa e as fontes de dados de processamento completo.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 31%
@@ -13,7 +13,7 @@ ht-degree: 31%
 
 Por vários anos, as Fontes de dados de processamento completo permitiram enviar dados a nível de ocorrência para a Adobe Analytics. Esses dados foram processados da mesma forma que os dados coletados por meio das bibliotecas JavaScript e do SDK do aplicativo móvel. Em 2020, o Adobe lançou a [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), que executa as mesmas funções que as Fontes de dados de processamento completo, mas com recursos adicionais. Este tópico fornece detalhes sobre a funcionalidade adicional fornecida pela API de inserção de dados em massa e descreve as diferenças nos formatos de arquivo.
 
-A partir de 25 de março de 2021, o Adobe impedirá a criação de novas conexões das Fontes de dados de processamento completo. As conexões existentes continuarão a ser compatíveis até que o serviço seja totalmente descontinuado em 31 de julho de 2021. Além de nossa documentação padrão, estamos fornecendo uma apresentação das etapas [necessárias para enviar dados por meio da API de inserção de dados em massa](http://adobe.ly/aabdia).
+A partir de 25 de março de 2021, o Adobe impedirá a criação de novas conexões das Fontes de dados de processamento completo. As conexões existentes continuarão a ser compatíveis até que o serviço seja totalmente descontinuado em 31 de julho de 2021. Além de nossa documentação padrão, estamos fornecendo uma apresentação das etapas [necessárias para enviar dados por meio da API de inserção de dados em massa](https://adobe.ly/aabdia).
 
 ## Por que vamos acabar com esse recurso?
 
@@ -23,7 +23,7 @@ A API de inserção de dados em massa (BDIA) fornece funcionalidade adicional en
 
 * A inserção de dados em massa permite o envio de vários arquivos que podem ser processados em paralelo. É possível usar Grupos de visitantes para garantir a continuidade do visitante e a atribuição do eVar.
 * A inserção de dados em massa tem validação de dados, bem como recursos de tratamento de erros, removendo assim parte do trabalho administrativo de envio de dados de ocorrência.
-* A inserção de dados em massa é compatível com várias opções para IDs de visitante. Você pode enviar a ID do Analytics e a ID do Marketing Cloud (consulte [Serviço de identidade](https://experienceleague.adobe.com/docs/id-service/using/home.html) para saber mais). Além disso, você pode usar sua própria ID como uma [seed para gerar um ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
+* A inserção de dados em massa é compatível com várias opções para IDs de visitante. Você pode enviar a ID do Analytics e a ID do Marketing Cloud (consulte [Serviço de identidade](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) para saber mais). Além disso, você pode usar sua própria ID como uma [seed para gerar um ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
 * A inserção de dados em massa é compatível com as Variáveis de lista e de dados de contexto.
 * A inserção de dados em massa não é compatível com dados de Activity Map.
 

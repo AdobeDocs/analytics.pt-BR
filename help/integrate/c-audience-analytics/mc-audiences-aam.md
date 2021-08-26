@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Visão geral do Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '460'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Verifique se você atende a estes pré-requisitos:
 * Você é um cliente do Audience Manager e do Adobe Analytics.
 * Você é um administrador do Audience Manager.
 * Você está usando o Serviço de identidade v1.5 ou posterior.
-* Conjuntos de relatórios do AAM e do Adobe Analytics são [mapeados para a mesma organização da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
+* Conjuntos de relatórios do AAM e do Adobe Analytics são mapeados para a mesma organização da Experience Cloud.
 * Você usa [encaminhamento pelo lado do servidor](/help/admin/admin/c-server-side-forwarding/ssf.md) e implantou o [módulo de Gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR) (sem código DIL) - AppMeasurement 1.5 ou posterior.
 
 Esses pré-requisitos estão descritos no [Fluxo de trabalho do Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
