@@ -2,11 +2,10 @@
 title: Como funcionam as repetições
 description: Entenda o conceito de “repetição” no Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 95%
 
 ---
 
@@ -48,6 +47,10 @@ As ocorrências não autenticadas e autenticadas em novos dispositivos são cont
 * **Se estiver usando a compilação em campo,** as ocorrências não autenticadas em dispositivos reconhecidos serão compiladas em tempo real a partir desse ponto.
 
    A atribuição funciona assim que a variável personalizada de identificação se vincula a um dispositivo. No exemplo acima, todas as ocorrências, exceto as 1 e 3, são compiladas em tempo real (todas usam o identificador `Bob`). A atribuição funciona nas ocorrências 1 e 3 após a repetição da compilação.
+
+>[!NOTE]
+>
+>As ocorrências com carimbo de data e hora com mais de 12 horas não são compiladas no fluxo ativo. No entanto, essas ocorrências são incluídas na Compilação de repetição, desde que caiam na janela de retrospectiva de repetição.
 
 ### Repetir a compilação
 

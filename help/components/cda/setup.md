@@ -2,10 +2,10 @@
 title: Configurar o Cross-Device Analytics
 description: Configure um conjunto de relatórios virtual para ativar o CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,7 @@ O CDA é provisionado em seu conjunto de relatórios entre dispositivos pela eng
 * Qual método de CDA você deseja usar (costura baseada em campo, gráfico privado da Adobe ou gráfico cooperativo da Adobe)
 * Se você pretende usar a costura baseada em campo, a propriedade ou eVar que contém a ID do usuário
 * Sua preferência por frequência de repetição e duração da retrospectiva. As opções incluem uma repetição uma vez por semana com uma janela de retrospectiva de sete dias ou uma repetição todos os dias com uma janela de retrospectiva de um dia.
+O padrão é a repetição semanal com janela de retrospectiva de 7 dias. Neste caso, os dados da última semana estão sujeitos a alterações (uma vez que estão a ser progressivamente compilados e atualizados).
 
 Depois que você fornecer essas informações ao Atendimento ao cliente, eles trabalharão com a engenharia da Adobe para ativar o conjunto de relatórios escolhido para processamento do CDA.
 
@@ -50,7 +51,7 @@ Os administradores com acesso para criar conjuntos de relatórios virtuais podem
 Quando o Cross-Device Analytics estiver ativado em um conjunto de relatórios virtual, observe as seguintes alterações:
 
 * Um novo ícone entre dispositivos é exibido ao lado do nome do conjunto de relatórios virtual. Esse ícone é exclusivo para conjuntos de relatórios virtuais entre dispositivos.
-* Uma nova dimensão chamada [Estado identificado](../dimensions/identified-state.md) está disponível. Essa dimensão determina se a Experience Cloud ID dessa ocorrência é conhecida pelo gráfico do dispositivo nesse momento.
-* Novas métricas chamadas [Pessoas](../metrics/people.md) e [Dispositivos únicos](../metrics/unique-devices.md) estão disponíveis.
+* Uma nova dimensão chamada [Estado identificado](../dimensions/identified-state.md) está disponível.
+* Novas métricas chamadas [People](../metrics/people.md), [Dispositivos únicos](../metrics/unique-devices.md), Pessoas identificadas, Pessoas não identificadas e Pessoas com Experience Cloud ID estão disponíveis.
 * A métrica [Visitantes únicos](../metrics/unique-visitors.md) não está disponível, pois foi substituída por Pessoas e Dispositivos únicos.
 * Ao criar segmentos, o contêiner de segmento &quot;Visitante&quot; é substituído pelo contêiner &quot;Pessoa&quot;.

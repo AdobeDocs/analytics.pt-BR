@@ -2,10 +2,10 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
-workflow-type: ht
-source-wordcount: '1674'
-ht-degree: 100%
+source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
+workflow-type: tm+mt
+source-wordcount: '1780'
+ht-degree: 94%
 
 ---
 
@@ -114,3 +114,11 @@ As vantagens de usar a janela de lookback de reprodução de um dia são 1) as e
 ## O que acontecerá com os dados compilados em meus conjuntos de relatórios virtuais do CDA se minha empresa decidir fazer downgrade do Analytics Ultimate?
 
 Se um cliente fizer o downgrade do Ultimate, ele não terá mais acesso aos dados compilados. Todos os dados compilados anteriormente serão removidos. Isso significa que os conjuntos de relatórios virtuais do CDA agora não refletirão compilações entre dispositivos. Os dados serão semelhantes ao conjunto de relatórios não compilado original.
+
+## Por que o número total de ocorrências é diferente entre meu conjunto de relatórios de origem e o conjunto de relatórios virtual do CDA?
+
+O CDA usa um pipeline de processamento paralelo complexo, com vários componentes dependentes. É esperada uma incompatibilidade de dados de aproximadamente 1% para o número total de ocorrências entre o conjunto de relatórios original e o conjunto de relatórios virtual do CDA. Ele tem impacto mínimo nos recursos entre dispositivos.
+
+## Por que a métrica &quot;Pessoas identificadas&quot; está inflada?
+
+Se a contagem for ligeiramente maior do que o esperado, um valor de eVar pode pertencer a mais de uma pessoa identificada devido a [colisões de hash](/help/implement/validate/hash-collisions.md). Se a contagem for muito maior do que o esperado, entre em contato com o Atendimento ao cliente para obter etapas adicionais de solução de problemas.

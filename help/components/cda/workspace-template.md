@@ -2,11 +2,10 @@
 title: Modelo do CDA Workspace
 description: Descreve cada campo no modelo CDA no Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ A Adobe oferece um modelo para ver dados essenciais de desempenho entre disposit
 1. Navegue até [experience.adobe.com](https://experiencecloud.adobe.com) e faça logon usando as credenciais da Adobe ID.
 1. Clique no ícone de 9-grid na parte superior e clique em Analytics.
 1. Clique em [!UICONTROL Workspace] na parte superior e em seguida em [!UICONTROL Criar novo projeto].
-1. Localize o &quot;IQ da jornada: Análise entre dispositivos&quot; e, em seguida, clique em [!UICONTROL Criar].
+1. Localize o modelo &quot;Análise entre dispositivos&quot; e clique em [!UICONTROL Criar].
 1. Se solicitado, altere o conjunto de relatórios para um compatível com CDA.
 
 É criado um projeto do Analysis Workspace com vários painéis. Na parte superior, um índice e uma introdução são mostrados, permitindo o contexto do relatório e a navegação para relatórios individuais. Clique em um link dentro do índice ou expanda a tabela de um painel para visualizar esses relatórios.
