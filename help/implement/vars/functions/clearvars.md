@@ -3,9 +3,9 @@ title: clearVars
 description: Apaga os valores a seguir do objeto da instância. Essa função remove os elementos (define-os como "indefinidos").
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ Algumas implementações, como aquelas em aplicativos de página única, exigem 
 Esse método não aceita argumentos e não retorna nenhum valor. Sua única finalidade é apagar valores de variáveis do objeto instanciado. Esse método define os seguintes elementos como `undefined`:
 
 * `prop1` - `prop75`
-* `eVar` -  `eVar250`
-* `hier1` -  `hier5`
-* `list1` -  `list3`
+* `eVar` - `eVar250`
+* `hier1` - `hier5`
+* `list1` - `list3`
 * `events`
 * `products`
 * `channel`
@@ -28,11 +28,11 @@ Esse método não aceita argumentos e não retorna nenhum valor. Sua única fina
 * `zip`
 * `campaign`
 
-## Limpar variáveis usando tags no Adobe Experience Platform
+## Limpar variáveis usando tags na Adobe Experience Platform
 
 Defina a ação Limpar variáveis ao configurar uma regra.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique no ícone “+”
