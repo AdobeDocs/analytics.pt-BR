@@ -3,9 +3,9 @@ title: Dimensões móveis
 description: Dimensões com base no endereço IP do dispositivo.
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ As dimensões móveis fornecem insight sobre as propriedades dos dispositivos m�
 ## Preencher essas dimensões com dados
 
 Essas dimensões se referem às regras de pesquisa internas da Adobe. As pesquisas em [!UICONTROL Operadoras de celular] são determinadas pelo endereço IP, usando dados que recebemos do NetAcuity (um produto da Digital Elements).
-Se você usar uma biblioteca do AppMeasurement (por meio de tags no Adobe Experience Platform), todas as dimensões móveis funcionarão imediatamente.
+Se você utilizar uma biblioteca do AppMeasurement (por meio da Adobe Experience Platform ), todas as dimensões móveis funcionarão imediatamente.
 
 ## Descrições de dimensões móveis
 
