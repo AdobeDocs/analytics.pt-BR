@@ -3,9 +3,9 @@ title: contextData
 description: As variáveis de dados de contexto permitem definir variáveis personalizadas em cada página que podem ser lidas pelas regras de processamento.
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ As variáveis de dados de contexto permitem definir variáveis personalizadas em
 
 As variáveis de dados de contexto são úteis para as equipes de desenvolvimento coletarem dados em elementos nomeados em vez de coletar nas variáveis numeradas. Por exemplo, em vez de solicitar que as equipes de desenvolvimento atribuam o autor da página a `eVar10`, você pode solicitar que elas o atribuam a `s.contextData["author"]`. Um administrador do Analytics em sua organização pode criar regras de processamento para mapear variáveis de dados de contexto como variáveis do Analytics para relatórios. No fim, as equipes de desenvolvimento só se preocupariam com as variáveis de dados de contexto em vez das muitas variáveis de página oferecidas pela Adobe.
 
-## Variáveis de dados de contexto que usam tags no Adobe Experience Platform
+## Variáveis de dados de contexto que usam tags na Adobe Experience Platform
 
-A interface do usuário da Coleta de dados não tem um local dedicado para definir variáveis de dados de contexto. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+A interface do usuário da Coleção de dados não tem um local dedicado para definir variáveis de dados de contexto. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.contextData no AppMeasurement e no editor de código personalizado do 
 
