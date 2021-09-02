@@ -3,9 +3,9 @@ title: Util.getQueryParam
 description: Retorna o valor de um parâmetro da string de consulta.
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 90%
 
 Parâmetros de string de consulta em um URL do navegador frequentemente contêm dados importantes para o Analytics. Use o método `Util.getQueryParam()` para recuperar dados da string de consulta.
 
-## Obter dados de parâmetro da string de consulta usando tags no Adobe Experience Platform
+## Obter dados de parâmetro da sequência de consulta na Adobe Experience Platform
 
 É possível obter dados de parâmetro da string de consulta definindo valores em elementos de dados.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Elementos de dados] e clique no elemento de dados desejado (ou crie um elemento de dados).
 4. Defina a lista suspensa [!UICONTROL Extensão] como [!UICONTROL Principal] e o [!UICONTROL Tipo de elemento de dados] como [!UICONTROL Parâmetro de string de consulta].
