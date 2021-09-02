@@ -3,9 +3,9 @@ title: Mapear elementos de dados de tag para variáveis do Analytics
 description: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões no Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -14,32 +14,32 @@ ht-degree: 67%
 Depois de ter um repositório de elementos de dados de tags, você pode atribuí-los às dimensões do Analytics.
 
 >[!NOTE]
->A Adobe Experience Platform Launch foi reformulada como um conjunto de tecnologias de coleta de dados no Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o seguinte [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) para obter uma referência consolidada das alterações de terminologia.
+>A Adobe Experience Platform Launch está sendo reformulada como um conjunto de tecnologias de coleção de dados na Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o seguinte [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=pt-BR) para obter uma referência consolidada das alterações de terminologia.
 
 ## Pré-requisitos
 
-[Mapear objetos de camada de dados para elementos](layer-to-elements.md) de dados: Certifique-se de entender os elementos de dados da tag e de ter vários elementos para trabalhar.
+[Mapear objetos da camada de dados para elementos de dados](layer-to-elements.md): compreenda os elementos de dados da tag e de que você tem vários com os quais trabalhar.
 
 [Criar um documento de design de solução](../prepare/solution-design.md): um documento de design de solução é essencial para se manter organizado. O documento de design de solução simplifica a atribuição de elementos de dados às variáveis do Analytics.
 
 ## Atribuir elementos de dados às variáveis do Analytics
 
-Publicar uma biblioteca de tags após seguir essas etapas permite usar dimensões personalizadas no Analysis Workspace. É possível definir as variáveis do Analytics globalmente ou em regras individuais.
+A publicação de uma biblioteca de tags após seguir essas etapas permite usar dimensões personalizadas no Analysis Workspace. É possível definir as variáveis do Analytics globalmente ou em regras individuais.
 
 ### Definir variáveis globais
 
 As variáveis globais são ideais nos casos em que você deseja definir valores variáveis em todas as páginas em que o elemento de dados existe.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface do usuário da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Clique na [!UICONTROL guia Extensões] e, em seguida, clique em [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Clique na opção [!UICONTROL Variáveis globais], que revela a interface para atribuir variáveis globais.
 
 ### Definir variáveis em regras
 
-As variáveis definidas em regras são ideais nos casos em que as variáveis não são definidas em cada página. Você define os critérios na regra. Consulte [Regras](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) na documentação de tags do Adobe Experience Platform.
+As variáveis definidas em regras são ideais nos casos em que as variáveis não são definidas em cada página. Você define os critérios na regra. Consulte [Regras](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=pt-BR) na documentação de tags da Adobe Experience Platform.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Clique na guia [!UICONTROL Regras] e, em seguida, clique na regra desejada (ou crie uma).
 1. Clique no botão [!UICONTROL Adicionar] em [!UICONTROL Ações].
