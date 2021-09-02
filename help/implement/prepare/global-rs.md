@@ -3,9 +3,9 @@ title: Conjuntos de relatórios globais no Adobe Analytics
 description: Entenda as vantagens e os requisitos para usar um conjunto de relatórios global.
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Use as diretrizes gerais a seguir para entender o processo de implementação de
    >
    >Verifique se determinada variável personalizada é usada de forma semelhante nos domínios. Não use a mesma eVar ou evento para fins diferentes em seus sites.
 1. Verifique se cada domínio tem uma camada de dados para simplificar a coleta de dados. Os dados ainda podem ser coletados sem uma camada de dados, mas a confiabilidade e a longevidade de sua implementação diminuem, especialmente quando o site passa por reformulações.
-1. Use tags no Adobe Experience Platform para implementar o Analytics. Sites diferentes provavelmente exigirão elementos de dados diferentes. Use regras específicas de cada domínio para garantir que cada elemento de dados seja preenchido corretamente e, em seguida, atribua esses elementos de dados às respectivas eVars e eventos. Consulte a [visão geral das tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+1. Use tags na Adobe Experience Platform para implementar o Analytics. Sites diferentes provavelmente exigirão elementos de dados diferentes. Use regras específicas de cada domínio para garantir que cada elemento de dados seja preenchido corretamente e, em seguida, atribua esses elementos de dados às respectivas eVars e eventos. Consulte a [visão geral das tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR).
 1. Inclua o [Serviço da Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) e use a função [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=pt-BR). Essa função une os dados do visitante quando os usuários clicam de um domínio para outro.
 
 ## Modificar uma implementação existente com um conjunto de relatórios global
@@ -50,8 +50,8 @@ O processo de mover uma implementação existente em vários sites para um únic
 
 1. Determine se deseja usar um de seus conjuntos de relatórios existentes ou começar a usar um novo conjunto de relatórios. Caso queira alterar os usos das variáveis existentes na implementação, é recomendável começar com um novo conjunto de relatórios.
 2. Determine uma data limite para quando deseja fazer a mudança para um conjunto de relatórios global. O melhor momento para fazer uma transferência é entre dois períodos significativos de relatório ou junto com as principais alterações no site. Os exemplos incluem o início de um trimestre ou ano fiscal, durante a atualização de um site ou a alteração para um novo sistema de gerenciamento de tags.
-3. Siga as etapas acima (crie um conjunto de relatórios, reúna os requisitos de relatório em um documento de design de solução e estabeleça uma camada de dados em cada site). Ao implementar tags no Adobe Experience Platform, valide sua implementação usando uma versão de desenvolvimento do site.
-4. Depois de confirmar que sua implementação está funcionando no dev, coloque sua implementação de tags em funcionamento na data limite.
+3. Siga as etapas acima (crie um conjunto de relatórios, reúna os requisitos de relatório em um documento de design de solução e estabeleça uma camada de dados em cada site). Ao implementar tags na Adobe Experience Platform, valide sua implementação usando uma versão de desenvolvimento do site.
+4. Depois de confirmar que a implementação está funcionando no desenvolvimento, coloque a implementação de tags em funcionamento na data limite.
 
 ## Páginas relacionadas
 
