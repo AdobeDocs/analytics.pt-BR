@@ -5,9 +5,9 @@ title: Gerenciar canais de marketing
 feature: Noções básicas do Reports & Analytics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Há várias configurações que podem ser aplicadas a cada canal na página [!UI
 
 Antes de ser possível exibir canais e dados de canal no relatório, é preciso criar os canais e as regras subjacentes que processam os dados. Você também pode especificar quanto tempo você deseja que o [período de envolvimento do visitante](/help/components/c-marketing-channels/visitor-engagement.md) dure.
 
-A Adobe fornece vários canais predefinidos durante uma [configuração automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md) que você pode editar para atender às suas necessidades. Além disso, você pode modificar essa configuração e definir regras personalizadas em [Regras de processamento de Canal de marketing](/help/components/c-marketing-channels/c-rules.md).
+A Adobe fornece vários canais predefinidos durante uma [configuração automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md) que você pode editar para atender às suas necessidades. Além disso, você pode modificar essa configuração e definir regras personalizadas nas [Regras de processamento de canal de marketing](/help/components/c-marketing-channels/c-rules.md).
 
 >[!NOTE]
 >
