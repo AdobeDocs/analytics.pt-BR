@@ -5,16 +5,16 @@ title: Modelo de classificação
 feature: Ferramentas administrativas
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Modelo de classificação
 
-(Opcional) Antes de importar classificações em relatórios e projetos, é possível baixar um modelo que ajuda a criar um arquivo de dados de classificações. O arquivo de dados usa suas classificações desejadas como cabeçalho de coluna, e então organiza o conjunto de dados do relatório dentro dos cabeçalhos de classificação apropriados.
+(Opcional) Antes de importar classificações para relatórios e projetos, você pode baixar um modelo que ajuda a criar um arquivo de dados de classificações. O arquivo de dados usa suas classificações desejadas como cabeçalho de coluna, e então organiza o conjunto de dados do relatório dentro dos cabeçalhos de classificação apropriados.
 
 ## Modelo de classificação {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
@@ -26,8 +26,8 @@ ht-degree: 85%
 | --- | ---|
 | Selecione o Conjunto de relatórios | Selecione o conjunto de relatórios que será usado no modelo. O conjunto de relatórios deve corresponder ao conjunto de dados. |
 | Conjunto de dados a ser classificado | Selecione o tipo de dados para o arquivo de dados. O menu inclui todos os relatórios em seus conjuntos de relatórios configurados para classificações. |
-| Exportar numérico 2 | **Importante**: Essa opção não está disponível para conjuntos de relatórios habilitados para a Nova arquitetura de classificação. |
-| Codificação | Selecione a codificação de caracteres para o arquivo de dados. O formato de codificação padrão é UTF-8.<br>**Importante**: Essa opção não está disponível para conjuntos de relatórios habilitados para a Nova arquitetura de classificação. |
+| Exportar numérico 2 | **Importante**: essa opção não está disponível para conjuntos de relatórios habilitados para a Nova arquitetura de classificação. |
+| Codificação | Selecione a codificação de caracteres para o arquivo de dados. O formato de codificação padrão é UTF-8.<br>**Importante**: essa opção não está disponível para conjuntos de relatórios habilitados para a Nova arquitetura de classificação. |
 | Baixar | Faz o download do arquivo modelo. |
 
 O modelo inclui as classificações atualmente definidas (cabeçalhos de coluna) de um conjunto de dados específico, sem incluir os dados associados a cada classificação.
