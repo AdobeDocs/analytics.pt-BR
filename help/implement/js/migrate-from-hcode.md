@@ -3,15 +3,15 @@ title: Migrar para o AppMeasurement para JavaScript
 description: Determine o que é necessário para migrar a implementação do Código H.
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Migrar para o AppMeasurement para JavaScript
 
-Se sua implementação ainda usar o Código H, a Adobe recomenda migrar para a versão mais recente do AppMeasurement. A implementação do Analytics por meio de [tags no Adobe Experience Platform](../launch/overview.md) é recomendada, no entanto, uma implementação atualizada do JavaScript pode ser usada.
+Se sua implementação ainda usar o Código H, a Adobe recomenda migrar para a versão mais recente do AppMeasurement. Recomendamos a implementação do Analytics por meio de [tags na Adobe Experience Platform](../launch/overview.md). No entanto, uma implementação de JavaScript atualizada pode ser usada.
 
 As seguintes alterações notáveis estão presentes no AppMeasurement quando comparadas ao Código H:
 
