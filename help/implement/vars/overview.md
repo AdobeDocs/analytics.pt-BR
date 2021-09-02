@@ -4,9 +4,9 @@ description: Saiba quais variáveis podem ser incluídas nos dados enviados à A
 keywords: appmeasurement,variáveis,vars,configuração,página,implementação
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ O Analytics oferece diversas variáveis para coletar dados do Analytics. As vari
 
 ## Variáveis e métodos de implementação
 
-A Adobe oferece várias maneiras de implementar o Adobe Analytics. Cada página oferece uma seção sobre como implementar a variável usando tags no Adobe Experience Platform e no AppMeasurement para JavaScript.
+A Adobe oferece várias maneiras de implementar o Adobe Analytics. Cada página oferece uma seção sobre como implementar a variável usando tags na Adobe Experience Platform e o AppMeasurement para JavaScript.
 
 ## Ordem das operações
 
 As bibliotecas do AppMeasurement publicadas pelo Adobe Analytics seguem uma ordem específica ao enviar dados à Adobe. Se você executar essas tarefas fora de ordem, os dados poderão ficar incompletos.
 
 1. Se o site usar uma camada de dados, verifique se todas as variáveis aplicáveis foram preenchidas primeiro. Consulte [Camada de dados](../prepare/data-layer.md) para obter mais informações.
-2. Use a camada de dados para preencher as variáveis do Analytics. Se você usar tags no Adobe Experience Platform, essa tarefa será facilmente realizada usando elementos de dados e, em seguida, atribuindo o elemento de dados a uma variável. Consulte [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html).
+2. Use a camada de dados para preencher as variáveis do Analytics. Se você usar tags na Adobe Experience Platform, essa tarefa será facilmente realizada usando elementos de dados e, em seguida, atribuindo o elemento de dados a uma variável. Consulte [Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=pt-BR).
 3. Chame a função de rastreamento. A maioria das bibliotecas do AppMeasurement usam o método `t()`, no entanto, alguns SDKs móveis usam `track()`. Quando a função de rastreamento é chamada, todas as variáveis compatíveis definidas no objeto do Analytics são enviadas à Adobe na forma de uma solicitação de imagem.
 
 ## Caracteres inválidos
