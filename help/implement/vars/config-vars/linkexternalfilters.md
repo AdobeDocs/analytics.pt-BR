@@ -3,9 +3,9 @@ title: linkExternalFilters
 description: Use a variável linkExternalFilters para ajudar no rastreamento automático do link de saída.
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Se essa variável tiver um valor, o rastreamento automático do link de saída s
 
 Se você usar `linkInternalFilters` e `linkExternalFilters` simultaneamente, o link clicado deverá corresponder a `linkExternalFilters` **e** não corresponder a `linkInternalFilters` para ser considerado um link de saída. Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
-## Links de saída - Rastrear usando tags no Adobe Experience Platform
+## Links de saída — Rastrear usando tags na Adobe Experience Platform
 
 O campo Rastrear é uma lista de filtros separados por vírgulas (geralmente domínios) da opção [!UICONTROL Rastreamento de links] ao configurar a extensão Adobe Analytics.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela o campo [!UICONTROL Links de saída - Rastrear].
