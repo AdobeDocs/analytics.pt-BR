@@ -3,9 +3,9 @@ title: cookieLifetime
 description: Substituir a expiração dos cookies criados pelo AppMeasurement.
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Os cookies definidos pelo AppMeasurement normalmente expiram em 2 anos. Use a va
 >
 >Essa variável afeta a contagem e atribuição de visitantes únicos. Tenha cuidado ao definir essa variável.
 
-## Duração do cookie usando tags no Adobe Experience Platform
+## Duração do cookie usando tags na Adobe Experience Platform
 
 A Vida útil do cookie é uma lista suspensa da opção [!UICONTROL Cookies] ao configurar a extensão Adobe Analytics.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 1. Expanda a opção [!UICONTROL Cookies], que revela a lista suspensa [!UICONTROL Vida útil do cookie].
