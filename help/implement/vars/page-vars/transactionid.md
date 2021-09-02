@@ -3,9 +3,9 @@ title: transactionID
 description: Use essa variável para vincular dados online e offline.
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Quando você configura `transactionID` em uma ocorrência, a Adobe captura uma &
 
 Por padrão, a Adobe lembra de todos os valores de IDs de transação (vinculados e desvinculados) por até 90 dias. Se o processo de interação offline for superior a 90 dias, entre em contato com o Atendimento ao cliente para ampliar esse limite.
 
-## ID de transação usando tags no Adobe Experience Platform
+## ID de transação usando tags na Adobe Experience Platform
 
 Você pode definir o ID de transação ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
