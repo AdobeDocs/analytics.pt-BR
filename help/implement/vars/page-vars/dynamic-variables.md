@@ -3,9 +3,9 @@ title: Variáveis dinâmicas
 description: Copie variáveis sem aumentar a duração da solicitação de imagem.
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Quando a Adobe reconhece um prefixo de variável dinâmica, ela copia automatica
 >
 >Considere os limites máximos de caracteres ao copiar variáveis. Por exemplo, se copiar `eVar1` para `prop1`, `prop1` pode ter um valor truncado, pois tem um limite de 100 bytes (enquanto `eVar1` tem um limite de 255 bytes).
 
-## Variáveis dinâmicas usando tags no Adobe Experience Platform
+## Variáveis dinâmicas usando tags na Adobe Experience Platform
 
 É possível usar variáveis dinâmicas em qualquer campo de dimensão que aceite uma string. Os itens de dimensão normalmente são definidos durante a configuração da extensão do Analytics (variáveis globais) ou em regras.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
