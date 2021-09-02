@@ -3,9 +3,9 @@ title: s_gi()
 description: Crie e rastreie instâncias do AppMeasurement.
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 93%
 
 A função `s_gi()` instancia ou encontra uma instância do AppMeasurement pelo ID de conjunto de relatórios. O AppMeasurement acompanha cada instância criada e `s_gi()` retorna a instância existente para um conjunto de relatórios, se existir. Se uma instância não existe, uma nova instância é criada.
 
-## s_gi() usando tags no Adobe Experience Platform
+## s_gi() usando tags na Adobe Experience Platform
 
 A extensão do Analytics instancia e gerencia o objeto de rastreamento para você. No entanto, também é possível definir um objeto de rastreamento global na opção [!UICONTROL Gerenciamento de biblioteca] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Gerenciamento de biblioteca] e selecione qualquer botão de opção diferente de [!UICONTROL Gerenciar a biblioteca para mim].
