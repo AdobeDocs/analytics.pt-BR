@@ -3,9 +3,9 @@ title: Perguntas frequentes sobre implementação
 description: Perguntas frequentes sobre a implantação e links para mais informações.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Consulte [Avaliação de áudio e vídeo no Adobe Analytics](https://experiencel
 
 ## Uma interrupção de serviço na Adobe pode afetar o desempenho?
 
-Não. O arquivo JavaScript não fica hospedado nos servidores da Adobe, de forma que uma interrupção da Adobe não afete a biblioteca do AppMeasurement. Se você usar tags no Adobe Experience Platform, o arquivo JavaScript será hospedado pela Akamai ou em um local de servidor determinado pela organização.
+Não. O arquivo JavaScript não fica hospedado nos servidores da Adobe, de forma que uma interrupção da Adobe não afete a biblioteca do AppMeasurement. Se você usar tags na Adobe Experience Platform, o arquivo JavaScript será hospedado pelo Akamai ou em um local de servidor determinado pela organização.
 
 ## O envio de dados de um navegador para os serviços da Adobe pode reduzir o desempenho?
 
@@ -33,7 +33,7 @@ O AppMeasurement cria um objeto de imagem na página HTML e, em seguida, o naveg
 
 Às vezes, uma organização quer remover uma implementação devido à expiração do contrato ou reduzir o número de chamadas do servidor.
 
-* **Implementações que usam tags no Adobe Experience Platform**: Desative ou desinstale a extensão Adobe Analytics na guia   Extensões e, em seguida, publique.
+* **Implementações usando tags na Adobe Experience Platform**: desative ou desinstale a extensão Adobe Analytics na guia [!UICONTROL Extensões] e publique.
 * **Implementações herdadas do AppMeasurement**: substitua todo o conteúdo do arquivo `s_code.js` pela seguinte linha de código:
 
 ```js
