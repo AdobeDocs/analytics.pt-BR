@@ -3,9 +3,9 @@ title: tl
 description: Envie uma chamada de rastreamento de link para a Adobe.
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,18 +15,18 @@ O método `tl()` é um componente principal importante do Adobe Analytics. Ele c
 
 Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExternalLinks`](../config-vars/trackexternallinks.md) estiverem ativados, o AppMeasurement chama o método `tl()` automaticamente para enviar dados de rastreamento de links de download e de saída. Se sua organização preferir ter mais controle sobre os links a serem rastreados e o comportamento deles, você pode chamar o método `tl()` manualmente. Os links personalizados só podem ser acompanhados manualmente.
 
-## Chamada de rastreamento de link usando tags no Adobe Experience Platform
+## Chamada de rastreamento de link usando tags na Adobe Experience Platform
 
-A interface do usuário da Coleta de dados tem um local dedicado definido para uma chamada de rastreamento de link.
+A interface da Coleção de dados tem um local dedicado definido para uma chamada de rastreamento de link.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 1. Em [!UICONTROL Ações], clique no ícone “+”.
 1. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e Enviar beacon no [!UICONTROL Tipo de ação].
 1. Clique no botão de opção `s.tl()`.
 
-Não é possível definir argumentos opcionais na interface do usuário da coleta de dados.
+Não é possível definir argumentos opcionais na interface da coleção de dados.
 
 ## Método s.tl() no AppMeasurement e no editor de código personalizado do 
 
