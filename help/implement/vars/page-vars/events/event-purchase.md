@@ -3,9 +3,9 @@ title: Evento de compra
 description: Use o evento de compra para coletar dados das métricas "Pedidos", "Unidades" e "Receita".
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,16 +23,16 @@ Quando você define um evento de compra, ele afeta as seguintes métricas:
 >
 >A receita não é multiplicada pelo campo de quantidade. Por exemplo, `s.products="Womens;Socks;5;4.50"` não passa US$ 22,50 para o relatório, mas sim US$ 4,50. Verifique se a implementação passa a receita total para a quantidade listada. Por exemplo,`s.products="Womens;Socks;5;22.50"`.
 
-## Definir o evento de compra usando tags no Adobe Experience Platform
+## Definir o evento de compra usando tags na Adobe Experience Platform
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
 5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Eventos] e selecione [!UICONTROL compra] na lista suspensa de eventos.
 
-Outras variáveis dependentes, como `products` e `purchaseID`, não têm campos dedicados na interface do usuário da coleta de dados. Use o editor de código personalizado siga a sintaxe do AppMeasurement para essas variáveis.
+Outras variáveis dependentes, como `products` e `purchaseID`, não têm campos dedicados na interface da coleção de dados. Use o editor de código personalizado siga a sintaxe do AppMeasurement para essas variáveis.
 
 ## Definir o evento de compra no AppMeasurement e no editor de código personalizado do 
 
