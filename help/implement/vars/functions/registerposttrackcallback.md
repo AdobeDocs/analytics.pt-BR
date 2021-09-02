@@ -3,9 +3,9 @@ title: registerPostTrackCallback
 description: Cria funções de retorno de chamada após enviar uma ocorrência para a Adobe.
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Cada vez que chama a variável `registerPostTrackCallback`, você faz com que es
 >
 >O tempo e a ordem das funções disparadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` não são garantidos. Evite dependências entre essas duas funções.
 
-## Registrar retorno de chamada pós-rastreamento usando tags no Adobe Experience Platform
+## Registrar retorno de chamada pós-rastreamento na Adobe Experience Platform
 
-Não há um campo dedicado na interface do usuário da coleta de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.registerPostTrackCallback no AppMeasurement e no editor de código personalizado do 
 
