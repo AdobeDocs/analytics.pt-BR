@@ -4,8 +4,8 @@ description: Garanta que determinadas rotinas sejam acionadas apenas uma vez por
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 82%
 
 O plug-in `p_fo` é um utilitário que verifica a existência de um objeto JavaScript específico. Se o objeto não existir, o plug-in criará o objeto e retornará `true`. Se o objeto JavaScript já existir na página, ele retornará `false`. Esse plug-in é útil para executar um código exatamente uma vez em uma página. Vários outros plug-ins dependem desse código para funcionar. Esse plug-in é desnecessário se você não estiver preocupado com quantas vezes o código é executado em uma página ou se não usar plug-ins dependentes.
 
-## Instalar o plug-in usando tags no Adobe Experience Platform
+## Instalar o plug-in usando tags na Adobe Experience Platform
 
 A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
 1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
@@ -37,7 +37,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].

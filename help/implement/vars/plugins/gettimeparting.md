@@ -4,8 +4,8 @@ description: Meça o tempo em que uma ação específica ocorre.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +23,11 @@ O Analysis Workspace fornece dimensões semelhantes e predefinidas formatadas de
 >
 >A versão 4.0+ desse plug-in é bem diferente das versões anteriores. A Adobe recomenda implementar esse plug-in &quot;do zero&quot;. O código que faz referência ao plug-in antes da versão 4.0 não é compatível com a versão atual desse plug-in.
 
-## Instalar o plug-in usando tags no Adobe Experience Platform
+## Instalar o plug-in usando tags na Adobe Experience Platform
 
 A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
 1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
@@ -43,7 +43,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].

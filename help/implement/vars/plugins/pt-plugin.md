@@ -4,8 +4,8 @@ description: Executa uma função em uma lista de variáveis.
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 87%
 
 O plug-in `pt` executa uma função ou um método em uma lista de variáveis do Analytics. Por exemplo, você pode executar seletivamente a função [`clearVars`](../functions/clearvars.md) em várias variáveis sem chamar manualmente a função sempre. Vários outros plug-ins dependem desse código para serem executados corretamente. Esse plug-in não é necessário se você não precisar executar uma função específica em mais de uma variável do Analytics por vez ou se não estiver usando plug-ins dependentes.
 
-## Instalar o plug-in usando tags no Adobe Experience Platform
+## Instalar o plug-in usando tags na Adobe Experience Platform
 
 A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
 1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
@@ -37,7 +37,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].

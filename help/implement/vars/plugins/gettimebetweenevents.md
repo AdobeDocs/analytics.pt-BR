@@ -4,8 +4,8 @@ description: Meça a quantidade de tempo entre dois eventos.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 91%
 
 O plug-in `getTimeBetweenEvents` permite rastrear a quantidade de tempo entre dois eventos do Analytics, incluindo o carrinho de compras e eventos personalizados. É útil para rastrear a quantidade de tempo que um processo de finalização leva para ser concluído, ou para qualquer outro processo que você deseja medir o tempo. Este plug-in é desnecessário se não houver nenhum processo de conversão cujo tempo de execução você queira medir.
 
-## Instalar o plug-in usando tags no Adobe Experience Platform
+## Instalar o plug-in usando tags na Adobe Experience Platform
 
 A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
 1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
@@ -37,7 +37,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].
