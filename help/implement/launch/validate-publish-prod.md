@@ -1,20 +1,20 @@
 ---
 title: Validar uma implementação de desenvolvimento e publicar na produção
-description: Saiba como usar tags Adobe Experience Platform para implantar o Adobe Analytics no ambiente de produção.
+description: Saiba como usar tags da Adobe Experience Platform para implantar o Adobe Analytics no ambiente de produção.
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Validar uma implementação de desenvolvimento e publicar na produção
 
-Assim que sua biblioteca de tags for enviada para produção, sua organização poderá começar a usar o Adobe Analytics para obter relatórios básicos.
+Assim que a biblioteca de tags for enviada para produção, a empresa poderá começar a usar o Adobe Analytics para receber relatórios básicos.
 
 >[!NOTE]
->A Adobe Experience Platform Launch foi reformulada como um conjunto de tecnologias de coleta de dados no Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o seguinte [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) para obter uma referência consolidada das alterações de terminologia.
+>A Adobe Experience Platform Launch está sendo reformulada como um conjunto de tecnologias de coleção de dados na Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o seguinte [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=pt-BR) para obter uma referência consolidada das alterações de terminologia.
 
 ## Pré-requisitos
 
@@ -25,9 +25,9 @@ Assim que sua biblioteca de tags for enviada para produção, sua organização 
 O Experience Cloud Debugger é um plug-in do Chrome que mostra todas as tags da Experience Cloud presentes em uma página.
 
 1. Abra o [navegador da Web Chrome](https://www.google.com/intl/pt-BR/chrome/) e acesse o [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) na Chrome Web Store para instalar a extensão.
-2. Navegue até o site de desenvolvimento no qual você implementou tags.
+2. Navegue até o site de desenvolvimento em que você implementou as tags.
 3. Clique no ícone do Adobe Experience Cloud Debugger na parte superior direita do Chrome.
-4. Se tudo estiver implementado corretamente, você verá o conteúdo dentro do Adobe Analytics, tags e o serviço de ID de visitante da Adobe Experience Cloud:
+4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, nas tags e no serviço de ID de visitante da Adobe Experience Cloud:
 
 ![depurador][assets/debugger.png]
 
@@ -35,14 +35,14 @@ O Experience Cloud Debugger é um plug-in do Chrome que mostra todas as tags da 
 
 Após a validação dos dados, você pode enviar a implementação para a versão ao vivo do site.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
-1. Clique na propriedade de tag que você pretende implementar em seu site.
-1. Clique na guia **[!UICONTROL Publishing]** e localize a biblioteca na coluna de desenvolvimento.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Clique na propriedade da tag que pretende implementar no site.
+1. Clique na guia **[!UICONTROL Publicação]** e localize a biblioteca na coluna de desenvolvimento.
 1. Clique na lista suspensa da biblioteca e selecione **[!UICONTROL Enviar para aprovação]**. Clique em **[!UICONTROL Enviar]** na janela modal.
 1. Clique na lista suspensa da biblioteca novamente (agora na coluna Enviado) e selecione **[!UICONTROL Criar para preparo]**.
 1. Após alguns instantes, a luz amarela na biblioteca fica verde, indicando uma criação bem-sucedida.
 1. Clique na lista suspensa da biblioteca novamente e selecione **[!UICONTROL Aprovar para publicação]**.
-1. Clique na lista suspensa da biblioteca novamente (agora na coluna [!UICONTROL Aprovado]) e selecione **[!UICONTROL Criar e publicar na produção]**.
+1. Clique na lista suspensa da biblioteca novamente (agora na coluna [!UICONTROL Aprovado]) e selecione **[!UICONTROL Criar e publicar para produção]**.
 1. Vá para a guia Ambientes e clique em **[!UICONTROL Ambiente de produção]**.
 1. Copie o cabeçalho de produção + código do rodapé e forneça aos proprietários do site. Solicite que eles implementem esse código no ambiente de produção do site.
 
@@ -50,7 +50,7 @@ Após a validação dos dados, você pode enviar a implementação para a versã
 
 Confirme se você está vendo os dados na versão ao vivo do site e comece a coleta de dados oficial do Adobe Analytics.
 
-1. Depois de confirmar com os proprietários do site que eles enviaram o código da tag para produção, navegue até a página inicial do site no Chrome e abra o [!UICONTROL Adobe Experience Cloud Debugger].
+1. Depois de confirmar com os proprietários do site que eles enviaram o código da tag para produção, navegue até a página inicial do site no Chrome e abra o [!UICONTROL Depurador da Adobe Experience Cloud].
 2. Se tudo estiver funcionando, você verá dados semelhantes aos seus testes no ambiente de desenvolvimento. Neste ponto, você está coletando dados no site e agora pode começar a usar o Adobe Analytics para relatórios.
 
 ## Solução de problemas
