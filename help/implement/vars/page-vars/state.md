@@ -3,9 +3,9 @@ title: Estado
 description: Preencha o "Relatório de estado do visitante" em Reports and Analytics.
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 90%
 
 Em versões anteriores do Adobe Analytics, a variável `state` era usada quando os visitantes preenchiam as informações de envio em sites de varejo. É funcionalmente idêntica a uma prop, mas não está disponível no Analysis Workspace.
 
-## Estado usando tags no Adobe Experience Platform
+## Estado usando tags na Adobe Experience Platform
 
 Você pode definir o estado ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
