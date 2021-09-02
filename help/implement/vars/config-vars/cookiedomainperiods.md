@@ -3,9 +3,9 @@ title: cookieDomainPeriods
 description: Ajude o AppMeasurement a entender em qual domínio armazenar cookies se o domínio tiver um ponto no sufixo.
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ A variável `cookieDomainPeriods` ajuda o AppMeasurement a determinar onde os co
 >
 >Não considere subdomínios para essa variável. Por exemplo, não defina `cookieDomainPeriods` no URL de exemplo `store.toys.example.com`. O AppMeasurement reconhece por padrão que os cookies devem ser armazenados no `example.com`, mesmo em URLs com vários subdomínios.
 
-## Períodos de domínio usando tags no Adobe Experience Platform
+## Períodos de domínio usando tags na Adobe Experience Platform
 
 Pontos de domínio é um campo da opção [!UICONTROL Cookies] ao configurar a extensão Adobe Analytics.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 1. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL Períodos de domínio].
