@@ -1,20 +1,20 @@
 ---
-title: Criar uma propriedade do Analytics nas tags
-description: Crie um espaço para personalizar como os dados são coletados, usando tags .
+title: Criar uma propriedade do Analytics em tags
+description: Crie um espaço para personalizar como os dados são coletados, usando tags.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # Criar uma propriedade de tag do Adobe Analytics
 
-As tags no Adobe Experience Platform permitem integrar soluções do Experience Cloud em seu site (incluindo o Analytics). Esta página descreve especificamente como um administrador de tags pode configurar uma implementação básica do Adobe Analytics corretamente.
+As tags na Adobe Experience Platform permitem integrar soluções da Experience Cloud em seu site (incluindo o Analytics). Esta página descreve especificamente como um administrador de tags pode configurar uma implementação básica do Adobe Analytics corretamente.
 
 >[!NOTE]
->A Adobe Experience Platform Launch foi reformulada como um conjunto de tecnologias de coleta de dados no Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o seguinte [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) para obter uma referência consolidada das alterações de terminologia.
+>A Adobe Experience Platform Launch está sendo reformulada como um conjunto de tecnologias de coleção de dados na Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o seguinte [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=pt-BR) para obter uma referência consolidada das alterações de terminologia.
 
 ## Pré-requisitos
 
@@ -24,7 +24,7 @@ As tags no Adobe Experience Platform permitem integrar soluções do Experience 
 
 As propriedades são contêineres abrangentes que você usa para gerenciar tags. As extensões permitem instalar tags específicas do produto e configurá-las.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique em **[!UICONTROL Nova propriedade]**.
 1. Dê um nome à Propriedade, como o título do site, e insira o domínio em que você pretende implementar o Analytics. Clique em **[!UICONTROL Salvar]**.
 1. Clique na propriedade de tag recém-criada para inserir as configurações.
@@ -37,8 +37,8 @@ As propriedades são contêineres abrangentes que você usa para gerenciar tags.
 
 Os elementos de dados são referências a partes específicas do site para coletar valores de variável.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
-1. Clique na propriedade de tag que você pretende implementar em seu site.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Clique na propriedade da tag que pretende implementar no site.
 1. Clique na guia **[!UICONTROL Elementos de dados]** e, em seguida, clique em **[!UICONTROL Criar novo elemento de dados]**.
 1. Atribua ao elemento de dados as seguintes configurações:
 
@@ -58,8 +58,8 @@ Os elementos de dados são referências a partes específicas do site para colet
 
 As regras mapeiam os elementos de dados para os valores de variáveis do Analytics e determinam quando esses valores são enviados para os servidores da Adobe.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
-1. Clique na propriedade de tag que você pretende implementar em seu site.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Clique na propriedade da tag que pretende implementar no site.
 1. Clique em **[!UICONTROL Criar nova regra]** e a nomeie como `Global Rule`.
 1. Clique em **[!UICONTROL Adicionar]** ao lado dos eventos e insira as seguintes configurações:
    * Extensão: principal
@@ -83,9 +83,9 @@ As regras mapeiam os elementos de dados para os valores de variáveis do Analyti
 
 ## Documentação e recursos adicionais
 
-* [Documentação](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) da extensão do Adobe Analytics: Documentação completa específica para a extensão do Adobe Analytics nas tags.
-* [Introdução às tags](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Documentação completa para tags, incluindo um guia de introdução mais detalhado
-* [Canal](https://experienceleague.adobe.com?tag=Launch&amp;lang=pt-BR#recommended/solutions/experience-platform) Adobe Experience Platform Launch: Saiba como usar tags por meio de vídeos
+* [ Documentação da extensão do Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=pt-BR): documentação completa específica para a extensão do Adobe Analytics em tags.
+* [Introdução às tags](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=pt-BR): documentação completa para tags, incluindo um guia de introdução mais aprofundado
+* [ Canal do Adobe Experience Platform Launch](https://experienceleague.adobe.com/?tag=Launch&amp;lang=pt-BR#recommended/solutions/experience-platform): saiba como usar tags por meio de vídeos
 
 ## Próximas etapas
 
