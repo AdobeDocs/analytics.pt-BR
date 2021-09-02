@@ -3,9 +3,9 @@ title: listar
 description: Variáveis personalizadas que contêm vários valores na mesma ocorrência.
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Certifique-se de registrar a forma como você usa cada variável de lista e a l�
 
 Certifique-se de configurar cada variável de lista nas configurações do conjunto de relatórios antes de usá-las na implementação. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/list-var-admin.md) no Guia de administração.
 
-## Variáveis de lista usando tags no Adobe Experience Platform
+## Variáveis de lista usando tags na Adobe Experience Platform
 
-Não há um campo dedicado na interface do usuário da coleta de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.list1 e s.list3 no AppMeasurement e no editor de código personalizado do 
 
