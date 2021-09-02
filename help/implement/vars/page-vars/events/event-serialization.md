@@ -3,9 +3,9 @@ title: Serialização de eventos
 description: Ajude a desduplicar métricas em seu site.
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 >
 >Se você quiser desduplicar o evento [`purchase`](event-purchase.md), use a variável [`purchaseID`](../purchaseid.md).
 
-## Usar IDs de evento usando tags no Adobe Experience Platform
+## Usar IDs de evento usando tags na Adobe Experience Platform
 
 É possível definir o campo de ID de evento ao configurar a extensão do Analytics (variáveis globais) ou como uma ação em uma regra.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
