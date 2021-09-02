@@ -3,9 +3,9 @@ title: useLinkTrackSessionStorage
 description: Armazene dados de rastreamento de link no armazenamento da sessão em vez de um cookie.
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ O uso do armazenamento de sessão de um navegador para o rastreamento de link ap
 
 O AppMeasurement remove os dados de rastreamento do link do armazenamento da sessão após enviar uma ocorrência para a Adobe. Ela também expira automaticamente quando a guia do navegador é fechada.
 
-## Usar o armazenamento de sessão de rastreamento de link usando tags no Adobe Experience Platform
+## Usar o armazenamento de sessão de rastreamento de link na Adobe Experience Platform
 
-Não há um campo dedicado na interface do usuário da coleta de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.useLinkTrackSessionStorage no AppMeasurement e no editor de código personalizado do 
 
