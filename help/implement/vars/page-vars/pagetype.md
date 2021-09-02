@@ -3,9 +3,9 @@ title: pageType
 description: Determine se a página atual é um erro 404.
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ A variável `pageType` é um sinalizador usado para designar páginas de erro, c
 >
 >Não defina essa variável em páginas sem erros.
 
-## Tipo de página usando tags no Adobe Experience Platform
+## Tipo de página usando tags na Adobe Experience Platform
 
-Não há um campo dedicado na interface do usuário da coleta de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.pageType no AppMeasurement e no editor de código personalizado do 
 
