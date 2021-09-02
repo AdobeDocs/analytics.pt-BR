@@ -3,9 +3,9 @@ title: produtos
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ A variável `products` rastreia produtos e propriedades associadas a eles. Norma
 
 >[!NOTE]
 >
->Se essa variável for definida em uma ocorrência sem a variável [`events`](events/events-overview.md), a métrica [Exibições do produto](/help/components/metrics/product-views.md) será incrementada em 1. Defina os eventos apropriados em cada ocorrência com a variável `products` .
+>Se essa variável for definida em uma ocorrência sem a [`events`](events/events-overview.md) variável, a métrica [Visualizações de produto](/help/components/metrics/product-views.md) será incrementada em 1. Defina os eventos apropriados em cada ocorrência com a variável `products`.
 
-## Produtos que usam tags no Adobe Experience Platform
+## Produtos que usam tags na Adobe Experience Platform
 
-Não há um campo dedicado na interface do usuário da coleta de dados para definir essa variável; no entanto, existem várias extensões de terceiros para ajudar.
+Não há um campo dedicado na Interface da coleção de dados para definir essa variável; no entanto, várias extensões de terceiros podem ajudar.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique em [!UICONTROL Catálogo] para ver todas as extensões disponíveis.
 4. Pesquise usando o termo &quot;produto&quot;, que revela várias extensões disponíveis para ajudar a definir essa variável.
@@ -44,7 +44,7 @@ A variável `s.products` é uma string que contém vários campos delimitados po
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Essa variável suporta vários produtos na mesma ocorrência. Ela é valiosa para carrinhos de compras e compras que contêm vários produtos. O comprimento máximo para toda a cadeia `products` é de 64K. Separe cada produto usando uma vírgula (`,`) na string.
+Essa variável suporta vários produtos na mesma ocorrência. Ela é valiosa para carrinhos de compras e compras que contêm vários produtos. O comprimento máximo para toda a cadeia de caracteres `products` é de 64K. Separe cada produto usando uma vírgula (`,`) na string.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
