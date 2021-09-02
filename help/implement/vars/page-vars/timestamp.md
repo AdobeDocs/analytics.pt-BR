@@ -3,9 +3,9 @@ title: carimbo de data e hora
 description: Defina manualmente o carimbo de data e hora da ocorrência.
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ A variável `timestamp` define manualmente o carimbo de data e hora da ocorrênc
 >
 >Não use essa variável se o conjunto de relatórios não estiver configurado explicitamente para aceitar ocorrências com carimbo de data e hora. O AppMeasurement define automaticamente a hora de uma ocorrência para conjuntos de relatórios que não suportam ocorrências com carimbo de data e hora. Se você enviar uma ocorrência com essa variável para um conjunto de relatórios não compatível com carimbos de data e hora, esses dados serão perdidos permanentemente.
 
-## Carimbo de data e hora usando tags no Adobe Experience Platform
+## Carimbo de data e hora usando tags na Adobe Experience Platform
 
-Não há um campo dedicado na interface do usuário da coleta de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.timestamp no AppMeasurement e no editor de código personalizado do 
 
@@ -41,7 +41,7 @@ s.timestamp = new Date().toISOString();
 
 ## Valores em ISO 8601
 
-As datas e horas expressas em [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) podem assumir várias formas diferentes. A Adobe não é compatível com todos os recursos do ISO 8601.
+As datas e horas expressas em [ISO 8601](https://pt.wikipedia.org/wiki/ISO_8601) podem assumir várias formas diferentes. A Adobe não é compatível com todos os recursos do ISO 8601.
 
 * A data e a hora devem ser fornecidas, separadas por `T`.
 * São necessárias horas e minutos; segundos são opcionais, porém recomendados.
