@@ -3,9 +3,9 @@ title: t
 description: Envie uma chamada de rastreamento de exibição de página para a Adobe.
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 A Adobe recebe a solicitação de imagem e analisa o cabeçalho da solicitação, o URL e os parâmetros da string de consulta. Os servidores de coleta de dados retornam uma imagem transparente com 1x1 pixels, exibida de maneira invisível em seu site.
 
-## Chamada de rastreamento de exibição de página usando tags no Adobe Experience Platform
+## Chamada de rastreamento de exibição de página usando tags na Adobe Experience Platform
 
-A interface do usuário da Coleta de dados tem um local dedicado definido para uma chamada de rastreamento de exibição de página.
+A interface da Coleção de dados tem um local dedicado definido para uma chamada de rastreamento de exibição de página.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique no ícone “+”.
