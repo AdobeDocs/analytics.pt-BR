@@ -3,9 +3,9 @@ title: doPlugins
 description: Configure a lógica antes de uma ocorrência ser compilada e enviada para a Adobe.
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ A variável `doPlugins` atua como uma &quot;última chamada&quot; para definir v
 
 Use a variável `doPlugins` para chamar o código do plug-in e definir os valores finais da variável antes que uma solicitação de imagem seja compilada e enviada para a Adobe.
 
-## Plug-ins usando tags no Adobe Experience Platform
+## Plug-ins usando tags na Adobe Experience Platform
 
-Não há um campo dedicado na interface do usuário da coleta de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.doPlugins no AppMeasurement e no código personalizado do 
 
