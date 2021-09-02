@@ -6,9 +6,9 @@ feature: Ferramentas administrativas
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,4 +24,4 @@ Os dados importados por meio da ferramenta de importação devem estar em um for
 >
 >A Adobe recomenda limitar a quantidade de colunas de importações e exportações para 30.
 
-Consulte [Resolução de problemas do importador de classificação](/help/components/classifications/importer/troubleshooting.md). Este tópico descreve problemas resultantes de formatos de arquivo incorretos e conteúdo de arquivos.
+Consulte [Resolução de problemas do importador de classificação](/help/components/classifications/importer/troubleshooting.md). Este tópico descreve problemas resultantes de formatos de arquivo e conteúdo de arquivos incorretos.
