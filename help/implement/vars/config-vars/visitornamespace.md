@@ -3,9 +3,9 @@ title: visitorNameSpace
 description: Variável removida que determinava o domínio do cookie.
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Em versões anteriores do Adobe Analytics, o AppMeasurement usava a variável `v
 >
 >A Adobe recomenda usar cookies próprios no site. Os cookies próprios não usam essa variável.
 
-## Namespace do visitante usando tags no Adobe Experience Platform
+## Namespace do visitante usando tags na Adobe Experience Platform
 
 [!UICONTROL Namespace do visitante] é um campo sob a opção [!UICONTROL Cookies] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 2. Clique na propriedade desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL Namespace do visitante].
