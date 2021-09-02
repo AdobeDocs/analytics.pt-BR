@@ -3,9 +3,9 @@ title: useBeacon
 description: useBeacon permite forçar o AppMeasurement a usar a API sendBeacon dos navegadores
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Se `useBeacon` estiver ativado, a próxima ocorrência enviada para a Adobe usar
 
 A variável `useBeacon` é ignorada quando o visitante usa um navegador sem suporte a `navigator.sendBeacon()`. O uso dessa variável exige o AppMeasurement 2.16.0 ou posterior.
 
-## Usar beacon usando tags no Adobe Experience Platform
+## Usar beacon com tags na Adobe Experience Platform
 
-Não há um campo dedicado na interface do usuário da coleta de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.useBeacon no AppMeasurement e no editor de código personalizado do 
 
