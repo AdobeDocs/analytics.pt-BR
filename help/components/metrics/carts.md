@@ -2,17 +2,16 @@
 title: Carrinhos
 description: O número de ocorrências em que um visitante adicionou seu primeiro produto ao carrinho.
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 86%
 
 ---
 
 # Carrinhos
 
-A métrica “Remoções do carrinho” mostra o número de vezes que um visitante removeu algo do carrinho. Essa métrica ajuda a entender a parte do funil de conversão em que os clientes não estão mais interessados em um produto.
+A métrica &quot;Carrinhos&quot; mostra o número de ocorrências em que um visitante adicionou seu primeiro produto ao carrinho.
 
 ## Como essa métrica é calculada
 
