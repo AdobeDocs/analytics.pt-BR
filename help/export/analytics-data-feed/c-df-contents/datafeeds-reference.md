@@ -3,12 +3,12 @@ description: Dados da tabela que descrevem as colunas no feed de dados.
 keywords: Feed de dados;colunas
 subtopic: data feeds
 title: Referência da coluna de dados
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
+source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3420'
 ht-degree: 98%
 
 ---
@@ -156,7 +156,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `page_event_var2` | Somente usado em solicitações de imagem de rastreamento de link. O nome personalizado (se especificado) do link. | varchar(100) |
 | `page_event_var3` | Não está mais em uso. Continha dados de módulo de Pesquisa e de Mídia. Preenchia relatórios herdados de vídeo em versões anteriores do Adobe Analytics. | texto |
 | `page_type` | Usado para preencher a dimensão [Páginas não encontradas](/help/components/dimensions/pages-not-found.md). Usado exclusivamente para páginas 404. Essa variável deve estar vazia ou conter o valor `ErrorPage`. | char(20) |
-| `page_url` | O URL da ocorrência. Em sua pós-variante (post_page_url), o valor é removido para solicitações de imagem de rastreamento de link. | varchar(255) |
+| `page_url` | O URL da ocorrência. Observe que `post_page_url` é removido para solicitações de imagem de rastreamento de link e usa um tipo de dados de varchar(255). | texto |
 | `pagename` | Usado para preencher a dimensão [Página](/help/components/dimensions/page.md). Se a variável [`pagename`](/help/implement/vars/page-vars/pagename.md) estiver vazia, o Analytics usa `page_url`. | varchar(100) |
 | `paid_search` | Sinalizador que é definido se a ocorrência corresponder à detecção de pesquisa paga. | tinyint unsigned |
 | `partner_plugins` | Não usado. Parte de um recurso raspado. | varchar(255) |
@@ -211,7 +211,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `user_hash` | Não está em uso. Hash na ID do report suite. Use `username` no lugar dela. | int unsigned |
 | `user_server` | Usado na dimensão [Servidor](/help/components/dimensions/server.md). | varchar(100) |
 | `userid` | Não está em uso. A ID numérica da ID do conjunto de relatórios. Use `username` no lugar dela. | int unsigned |
-| `username` | A ID do conjunto de relatórios para a ocorrência. | char(40) |
+| `username` | A ID de conjunto de relatórios da ocorrência. | char(40) |
 | `va_closer_detail` | Variável usada na dimensão [Detalhe do último contato](/help/components/dimensions/last-touch-detail.md). | varchar(255) |
 | `va_closer_id` | ID numérica que identifica a dimensão [Canal de último contato](/help/components/dimensions/last-touch-channel.md). A pesquisa desta ID pode ser encontrada no Gerenciador de canais de marketing. | tinyint unsigned |
 | `va_finder_detail` | Variável usada na dimensão [Detalhe de primeiro contato](/help/components/dimensions/first-touch-detail.md). | varchar(255) |
@@ -274,7 +274,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `visit_referrer` | O primeiro referenciador da visita. | varchar(255) |
 | `visit_search_engine` | ID numérica do primeiro mecanismo de pesquisa da ocorrência. Usa a pesquisa `search_engines.tsv`. | smallint unsigned |
 | `visit_start_page_url` | O primeiro URL da visita. | varchar(255) |
-| `visit_start_pagename` | O valor do Nome da página na primeira ocorrência da visita. | varchar(100) |
+| `visit_start_pagename` | O valor Nome da página na primeira ocorrência da visita. | varchar(100) |
 | `visit_start_time_gmt` | Carimbo de data e hora (em horário Unix) da primeira ocorrência da visita. | int |
 | `weekly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante semanal. | tinyint unsigned |
 | `yearly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante anual. | tinyint unsigned |
