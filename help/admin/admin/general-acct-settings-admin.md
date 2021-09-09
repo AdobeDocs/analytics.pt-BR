@@ -4,11 +4,10 @@ title: Configurações gerais da conta
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d509de3ff49d996f821803f0a93c3184db4af1d3
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 88%
+source-wordcount: '802'
+ht-degree: 83%
 
 ---
 
@@ -30,3 +29,8 @@ Essas configurações contêm opções de edição para a funcionalidade básica
 | Ofuscação de IP | Transforma endereços IP em sequências de caracteres não reconhecidas, removendo-as dos armazenamentos de dados da Adobe. Quando o Obscurecimento de IP estiver ativado, os endereços IP originais são perdidos permanentemente.  <br> **Observação**: os endereços IP são ofuscados em todo o Analytics, incluindo o Data Warehouse. Contudo, a configuração de IP no Target é controlada separadamente, de modo que a configuração não é afetada no Target.<br> Se a ofuscação de IP estiver ativada, todo o processamento necessário, incluindo filtragem/exclusão de IP, regras de bot e pesquisas de geosegmentação, será feito antes que o endereço IP seja ofuscado. Não é necessário alterar nada ao ativar a ofuscação de IP.<ul><li>Marcar **Desativado** deixa o endereço IP nos dados.</li><li>Marcar **Ofuscar endereço IP** altera o IP para dois pontos, seguido de um valor com hash (por exemplo, `::1932023538`).</li><li>Marcar **Remover endereço IP**`::X.X.X.X` substitui o endereço IP por nos dados após a pesquisa geográfica.</li></ul>**Observação**: essa configuração pode exigir alterações nas [regras de bot](/help/admin/admin/bot-removal/bot-rules.md) personalizadas ou [exclusões de IP](/help/admin/admin/exclude-ip.md). |
 | Armazenamento de ID de transação | Permite usar fontes de dados da [ID de transação](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md). |
 | Habilitar o Data Warehouse | Habilita a interface do usuário do Data Warehouse em Analytics > Ferramentas > Data Warehouse. |
+| Opções de Zip | Permite que você especifique o código postal em vez de usar o que a pesquisa de IP geográfico produz. |
+| Suporte a caracteres com vários bytes | O suporte a caracteres com vários bytes armazena caracteres no conjunto de relatórios usando UTF-8. No recebimento, o sistema converte os dados do conjunto de caracteres de sua página da Web para o conjunto de caracteres UTF-8, de modo a permitir o uso de qualquer idioma em seus relatórios de marketing. Entre em contato com seu Gerente de Conta ou com o atendimento ao cliente para alterar o suporte a caracteres com vários bytes de um conjunto de relatórios existente. |
+| Ativado | Especifica se este conjunto de relatórios está ativado ou não. |
+| Moeda de base | Permite que você especifique a base [currency](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=en) para este conjunto de relatórios. |
+| ID da organização | A ID associada à empresa provisionada do Experience Cloud. A ID é uma sequência de 24 caracteres alfanuméricos seguidos por (e deve incluir) @AdobeOrg. |
