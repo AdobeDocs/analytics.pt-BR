@@ -2,13 +2,13 @@
 description: Use a visualização de mapa em um projeto do Workspace.
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: Visualizações
+feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '626'
-ht-degree: 100%
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,9 @@ Se você clicar no **ícone de engrenagem**, aparecerão as configurações de v
 | Estilos: Estilo do mapa | É possível optar por Básico, Ruas, Brilho, Claro, Escuro e Satélite. |
 | Raio do cluster | Agrupa os pontos de dados que estão dentro do número especificado de pixels. O padrão é 50. |
 | Valor máximo personalizado | Permite alterar o limite para o valor máximo do mapa; a definição desse valor ajusta a escala para os valores de propagações/mapa de calor (cor e tamanho) relacionados ao valor máximo personalizado que foi definido. |
+
+## Criar um mapa de calor de separação de tempo
+
+Aqui está um vídeo sobre o tópico:
+
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
