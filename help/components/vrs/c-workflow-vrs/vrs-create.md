@@ -2,13 +2,13 @@
 description: Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das informações a seguir.
 keywords: Conjunto de relatórios virtuais
 title: Criar conjuntos de relatórios virtuais
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
-workflow-type: ht
-source-wordcount: '663'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,10 @@ Na guia [!UICONTROL Configurações], defina essas configurações e clique em *
 Na guia [!UICONTROL Definição de visita], defina essas configurações e clique em **[!UICONTROL Continuar]**.
 
 ![](assets/visit-definition.png)
+
+Este é um vídeo sobre como ajustar a definição de visita em um conjunto de relatórios virtual:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 | Elemento | Descrição |
 | --- |--- |

@@ -2,14 +2,18 @@
 description: Visão geral do fluxo de trabalho do Advertising Analytics.
 title: Visão geral do fluxo de trabalho
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 68%
+source-wordcount: '137'
+ht-degree: 64%
 
 ---
 
 # Visão geral do fluxo de trabalho
+
+Esta é uma visão geral em vídeo da configuração do Advertising Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
 
 1. [Habilitar relatórios do Advertising Analytics por conjunto de relatórios](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Habilite os relatórios do [!UICONTROL Advertising Analytics] para conjuntos de relatórios habilitados pela Experience Cloud.
 2. [Configurar uma conta do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Configuração nas Ferramentas administrativas do Analytics.

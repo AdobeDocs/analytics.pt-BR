@@ -4,10 +4,10 @@ description: Saiba mais sobre os dados do seu público-alvo e os divida em grupo
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 98%
+source-wordcount: '505'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,10 @@ Este é um vídeo sobre o cálculo da retenção do acumulado:
 A coorte de [!UICONTROL churn] é o inverso da tabela de retenção e mostra os visitantes que abandonaram ou que nunca atenderam aos critérios de retorno da sua coorte ao longo do tempo. É possível incluir até 3 métricas e 10 segmentos.
 
 ![](assets/churn-report.png)
+
+Este é um vídeo sobre análise de rotatividade:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
 
 ### [!UICONTROL Cálculo contínuo]
 
