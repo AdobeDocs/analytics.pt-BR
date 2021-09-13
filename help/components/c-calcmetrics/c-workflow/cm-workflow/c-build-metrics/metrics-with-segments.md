@@ -3,11 +3,10 @@ description: 'Segmentar métricas individuais permite comparar métricas em um m
 title: Métricas segmentadas
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '449'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +41,10 @@ Suponha que você deseje comparar diferentes aspectos dos segmentos de &quot;Vis
 1. Na Analysis Workspace, arraste a dimensão **[!UICONTROL Página]** para uma Tabela de forma livre e arraste as 2 novas métricas calculadas para ficarem próximas na parte superior:
 
    ![](assets/workspace-pages.png)
+
+Esta é uma visão geral do vídeo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 ## Porcentagem do total de métricas {#percent-total}
 

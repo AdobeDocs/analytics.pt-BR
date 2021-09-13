@@ -5,10 +5,10 @@ title: Visão geral das visualizações
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 100%
+source-wordcount: '1082'
+ht-degree: 98%
 
 ---
 
@@ -100,3 +100,9 @@ A funcionalidade adicional para uma visualização está disponível clicando co
 Se não tiver certeza sobre qual visualização selecionar, clique no ícone **[!UICONTROL Criar visual]** em qualquer linha da tabela (disponível ao passar o mouse). Essa é a maneira mais rápida de adicionar uma visualização. Ao clicar no ícone, o Analysis Workspace é exibido e recomenda uma visualização que se adequaria ao seus dados. Por exemplo, se você tiver uma linha selecionada, ela criará um gráfico de linhas de tendência. Se você tiver três linhas de segmento selecionadas, ele criará um diagrama Venn.
 
 ![](assets/quick-viz.png)
+
+## Alterar o eixo de escala em visualizações
+
+Esta é uma visão geral do vídeo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)

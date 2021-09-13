@@ -1,13 +1,13 @@
 ---
 title: O que é a Análise de coorte e como ela funciona?
 description: Saiba mais sobre os dados do seu público-alvo e os divida em grupos relacionados com a Análise de coorte. Saiba mais sobre a análise de coorte no Analysis Workspace.
-feature: Visualizações
+feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 98%
 
 ---
 
@@ -45,6 +45,10 @@ Os seguintes recursos permitem o controle ajustado dos coortes que você está c
 Um relatório de coorte de [!UICONTROL retenção] registram os visitantes: cada célula de dados mostra o número bruto e a porcentagem de visitantes da coorte que realizaram a ação durante esse período. É possível incluir até 3 métricas e 10 segmentos.
 
 ![](assets/retention-report.png)
+
+Este é um vídeo sobre o cálculo da retenção do acumulado:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
 
 ### [!UICONTROL Tabela de abandono]
 
