@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Ajuda a organizar seus dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais e alertas.
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 98%
+source-wordcount: '658'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 98%
    + [Eventos personalizados](metrics/custom-events.md)
    + [Entradas](metrics/entries.md)
    + [Saídas](metrics/exits.md)
+   + [Pessoas identificadas](metrics/identified-people.md)
    + [Instâncias](metrics/instances.md)
    + [Exibições para dispositivos móveis](metrics/mobile-views.md)
    + [Novos engajamentos](metrics/new-engagements.md)
@@ -127,6 +128,7 @@ ht-degree: 98%
    + [Eventos de página](metrics/page-events.md)
    + [Exibições de página](metrics/page-views.md)
    + [Páginas não encontradas](metrics/pages-not-found.md)
+   + [Pessoas com Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
    + [Pessoas](metrics/people.md)
    + [Visualizações de produto](metrics/product-views.md)
    + [Recargas](metrics/reloads.md)
@@ -138,6 +140,7 @@ ht-degree: 98%
    + [Tempo gasto por visitante](metrics/time-spent-per-visitor.md)
    + [Visão geral do tempo gasto](metrics/time-spent.md)
    + [Total de segundos gastos](metrics/total-seconds-spent.md)
+   + [Pessoas não identificadas](metrics/unidentified-people.md)
    + [Dispositivos únicos](metrics/unique-devices.md)
    + [Visitantes únicos](metrics/unique-visitors.md)
    + [Unidades](metrics/units.md)
@@ -232,7 +235,7 @@ ht-degree: 98%
       + [Modelo de classificação](classifications/importer/c-download-saint-data.md)
       + [Importação de navegador e FTP](classifications/importer/import-file.md)
       + [Importação de navegador](classifications/importer/browser-import.md)
-      + [Exportação de navegador](classifications/importer/browser-export.md)
+      + [Exportação do navegador](classifications/importer/browser-export.md)
       + [Importação de FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Exportação de FTP](classifications/importer/ftp-export.md)
       + [Tempo de processamento](classifications/importer/processing-time.md)
