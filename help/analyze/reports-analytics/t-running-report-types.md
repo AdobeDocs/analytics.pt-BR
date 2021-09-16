@@ -2,12 +2,12 @@
 description: Etapas para executar os diferentes tipos de relatório.
 title: Executar tipos de relatórios diferentes
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1283'
 ht-degree: 97%
 
 ---
@@ -79,7 +79,7 @@ Descreve como visualizar e interpretar relatórios em tempo real.
 
 Os relatórios em tempo real oferecem dois relatórios principais - um relatório de visão geral e um relatório detalhado. Cada um consiste em vários reportlets.
 
-Para obter informações sobre como configurar relatórios em tempo real, consulte o [Guia de referência do Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
+Consulte [Visão geral do relatório em tempo real](/help/components/c-real-time-reporting/realtime.md) para obter mais informações.
 
 1. Consulte o relatório **[!UICONTROL Visão geral]** e seus componentes:  ![](assets/rtr_overview_report.png)
 
@@ -145,7 +145,7 @@ Para obter informações sobre como configurar relatórios em tempo real, consul
    </tr> 
    </table>
 
-1. Clique um item de lista no Reportlet primário para iniciar a visualização de **[!UICONTROL Detalhes]** para o item de lista:  ![](assets/rtr_detail_report.png)
+2. Clique um item de lista no Reportlet primário para iniciar a visualização de **[!UICONTROL Detalhes]** para o item de lista:  ![](assets/rtr_detail_report.png)
 
    | **Reportlet de tendência do item** | Apresenta a linha de tendência do item selecionado no Relatório de visão geral nos últimos N minutos. N é configurável através do seletor de Intervalo de tempo. |
    |---|---|
