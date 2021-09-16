@@ -2,17 +2,16 @@
 title: Estado identificado
 description: Um sinalizador que determina o reconhecimento pelo gráfico do dispositivo.
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '120'
-ht-degree: 100%
+source-git-commit: 1a58c3e87f5918c91b891faa6027f5ad8b6024b9
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 61%
 
 ---
 
 # Estado identificado
 
-A dimensão &quot;Estado identificado&quot; é específica para conjuntos de relatórios virtuais do [Cross-Device Analytics](../cda/overview.md). Ele relata se a Experience Cloud ID é reconhecida pelo gráfico do dispositivo no momento em que o relatório é executado. Essa dimensão é útil para entender o quão bem o CDA costuma compilar ou &quot;compactar&quot; dados.
+A dimensão &quot;Estado identificado&quot; é específica para conjuntos de relatórios virtuais do [Cross-Device Analytics](../cda/overview.md). Ele relata se as ocorrências são identificadas (compiladas) ou não pelo sistema no momento em que o relatório é executado. Essa dimensão é útil para entender o quão bem o CDA costuma compilar ou &quot;compactar&quot; dados.
 
 ## Preencher esta dimensão com dados
 
@@ -22,5 +21,5 @@ Se o [Cross-Device Analytics](../cda/overview.md) estiver configurado para um co
 
 Os itens de dimensão incluem `"Identified"` e `"Unidentified"`.
 
-* **`"Identified"`**: O gráfico do dispositivo reconhece a Experience Cloud ID vinculada ao hit.
-* **`"Unidentified"`**: O gráfico do dispositivo não reconhece a Experience Cloud ID ou o hit não tem uma Experience Cloud ID.
+* **`"Identified"`**: A ocorrência é mapeada para uma pessoa.
+* **`"Unidentified"`**: A ocorrência não está mapeada a uma pessoa e não pode ser mapeada por nenhum método de atribuição.

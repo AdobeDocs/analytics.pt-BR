@@ -2,10 +2,10 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
+source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
 workflow-type: tm+mt
-source-wordcount: '1780'
-ht-degree: 94%
+source-wordcount: '1961'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ Você pode usar uma visualização de [!UICONTROL Fluxo] com a dimensão Tipo de
 
 ## Posso ver como as pessoas se movem entre diferentes experiências de usuário (por exemplo, navegador de desktop vs. navegador móvel vs. aplicativo móvel)?
 
-Usar o Tipo de dispositivo móvel como ilustrado acima permite ver como as pessoas se movem entre tipos de dispositivo móvel e tipos de dispositivo de desktop. Entretanto, talvez você queira distinguir os navegadores de desktop dos navegadores móveis. Uma maneira de fazer isso é criar uma eVar que registre se a experiência ocorreu em um navegador de desktop, navegador móvel ou aplicativo móvel. Em seguida, crie um Fluxograma conforme descrito acima, usando sua eVar &quot;experiência&quot;, em vez da dimensão Tipo de dispositivo móvel. Isso fornece uma visão um pouco diferente sobre o comportamento entre dispositivos.
+O exemplo de Tipo de dispositivo móvel ilustrado acima permite que você veja como as pessoas se movem entre tipos de dispositivo móvel e tipos de dispositivo de desktop. No entanto, isso não permite distinguir navegadores de desktop de navegadores móveis. Se você quiser esse insight, poderá criar uma variável personalizada (como uma prop ou eVar) que registra se a experiência aconteceu em um navegador de desktop, navegador móvel ou aplicativo móvel. Em seguida, você pode criar um diagrama de Fluxo conforme descrito acima, usando a variável personalizada em vez da dimensão Tipo de dispositivo móvel . Esse método fornece uma visão um pouco diferente sobre o comportamento entre dispositivos.
 
 ## Até que ponto o CDA compila os visitantes?
 
@@ -53,7 +53,7 @@ Os clientes que já usam a ID de visitante personalizada podem atualizar para o 
 Em algumas situações, é possível que várias pessoas façam logon no mesmo dispositivo. Os exemplos incluem um dispositivo compartilhado em casa, PCs compartilhados em uma biblioteca ou um quiosque em uma loja de varejo.
 
 * **Se estiver usando um gráfico de dispositivos**, a capacidade de lidar com dispositivos compartilhados é limitada. O gráfico de dispositivos usa um algoritmo para determinar a propriedade de um “cluster” e pode ser alterado sempre que o cluster for publicado. Os usuários do dispositivo compartilhado estão sujeitos ao cluster ao qual pertencem.
-* **Se estiver usando a compilação em campo**, a prop ou eVar escolhida para ajudar a identificar usuários conectados substituirá outros identificadores. Os dispositivos compartilhados são considerados pessoas separadas, mesmo se forem originários do mesmo dispositivo.
+* **Se estiver usando a compilação em campo**, a prop ou eVar escolhido para ajudar a identificar usuários conectados substituirá outros identificadores. Os dispositivos compartilhados são considerados pessoas separadas, mesmo se forem originários do mesmo dispositivo.
 
 ## Como o CDA lida com situações em que uma única pessoa tem MUITOS dispositivos/ECIDs?
 
@@ -64,11 +64,16 @@ Em algumas situações, um usuário individual pode ser associado a um grande n�
 
 ## Qual é a diferença entre a métrica Pessoas no CDA e a métrica “Visitantes únicos” fora do CDA?
 
-A métrica [Pessoas](/help/components/metrics/people.md) é semelhante à métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) na medida em que ela relata o número de indivíduos únicos. No entanto, ao usar o Cross-Device Analytics, visitantes únicos são combinados quando, de outra forma, são registrados como dois visitantes únicos separados fora do CDA. A métrica &quot;Pessoas&quot; substitui a métrica &quot;Visitantes únicos&quot; quando o Cross-Device Analytics está ativado. Uma nova métrica, [Dispositivos únicos](/help/components/metrics/unique-devices.md), está disponível e é aproximadamente igual aos Visitantes únicos fora do Cross-Device Analytics.
+As métricas [People](/help/components/metrics/people.md) e [Visitantes únicos](/help/components/metrics/unique-visitors.md) têm como objetivo contar visitantes distintos (individuais). No entanto, considere a possibilidade de dois dispositivos diferentes pertencerem à mesma pessoa. O CDA mapeia os 2 dispositivos para a mesma pessoa, enquanto os 2 dispositivos são registrados como 2 &quot;Visitantes únicos&quot; separados fora do CDA.
 
 ## Qual é a diferença entre a métrica “Dispositivos únicos” no CDA e a métrica “Visitantes únicos” fora do CDA?
 
-Essas duas métricas são aproximadamente equivalentes umas às outras.
+Essas duas métricas são aproximadamente equivalentes umas às outras. As diferenças entre as duas métricas ocorrem quando:
+
+* Um dispositivo compartilhado mapeia várias pessoas. Nesse cenário, um visitante único é contado, enquanto vários dispositivos únicos são contados.
+* Um dispositivo tem tráfego não corrigido e compilado do mesmo visitante. Por exemplo, um navegador gerado identificou tráfego compilado + tráfego anônimo histórico que não foi compilado. Nesse caso, 1 visitante único é contado, enquanto 2 dispositivos únicos são contados.
+
+Consulte [Dispositivos únicos](/help/components/metrics/unique-devices.md) para obter mais exemplos e detalhes sobre como funciona.
 
 ## É possível incluir métricas do CDA usando a API 2.0?
 
@@ -93,9 +98,9 @@ Ambos os identificadores são calculados pela Adobe no momento em que o relatór
 
 A mudança do gráfico de dispositivos para a compilação em campo ou vice-versa pode ser solicitada por meio do Atendimento ao cliente. No entanto, essa alteração pode levar algumas semanas ou mais para ser concluída e *dados históricos compilados do método anterior são perdidos.*
 
-## Como a Adobe manipula limites exclusivos para uma eVar usada na compilação em campo?
+## Como o Adobe trata limites exclusivos para uma prop ou eVar usado na compilação em campo?
 
-O CDA extrai itens de dimensão de eVar antes de serem otimizados para o relatórios. Você não precisa se preocupar com limites únicos para fins de CDA. No entanto, se você tentou usar essa prop/eVar em um projeto do Workspace, ainda é possível ver o item de dimensão [(tráfego baixo)](/help/technotes/low-traffic.md).
+O CDA extrai os itens de dimensão da variável de identificador antes de serem otimizados para o relatório. Você não precisa se preocupar com limites únicos para fins de CDA. No entanto, se você tentou usar essa prop ou eVar em um projeto do Workspace, ainda é possível ver o item de dimensão [(Tráfego baixo)](/help/technotes/low-traffic.md) .
 
 ## Quantos conjuntos de relatórios da minha empresa podem ser habilitados para o CDA?
 
@@ -121,4 +126,10 @@ O CDA usa um pipeline de processamento paralelo complexo, com vários componente
 
 ## Por que a métrica &quot;Pessoas identificadas&quot; está inflada?
 
-Se a contagem for ligeiramente maior do que o esperado, um valor de eVar pode pertencer a mais de uma pessoa identificada devido a [colisões de hash](/help/implement/validate/hash-collisions.md). Se a contagem for muito maior do que o esperado, entre em contato com o Atendimento ao cliente para obter etapas adicionais de solução de problemas.
+O número da métrica &quot;Pessoas identificadas&quot; pode ser um pouco maior se o valor de eVar/prop do identificador for executado em uma [colisão de hash](/help/implement/validate/hash-collisions.md).
+
+O número da métrica &quot;Pessoas identificadas&quot; pode ser significativamente maior se o identificador prop/eVar distingue maiúsculas de minúsculas. Por exemplo, `bob` e `Bob` devem ser a mesma pessoa, mas a diferenciação de maiúsculas e minúsculas força esses dois valores a serem distintos.
+
+## Por que vejo valores ao visualizar a propriedade/eVar do identificador com a métrica &quot;Pessoas não identificadas&quot;?
+
+Essa situação geralmente ocorre quando um visitante gera ocorrências autenticadas e não autenticadas na janela de relatório e [Reproduzir](replay.md) ainda não foi executado. Antes da repetição, o visitante pertence a &quot;Não identificado&quot; e &quot;Identificado&quot; na dimensão [Estado identificado](/help/components/dimensions/identified-state.md), fazendo com que alguns visitantes atribuam ocorrências não identificadas a um identificador. Os visitantes permanecem nesse estado até que a repetição seja executada (diariamente ou semanalmente, dependendo de como sua organização configurou o CDA). A execução de relatórios somente em dados de repetição posterior atenua essa situação.

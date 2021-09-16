@@ -2,10 +2,10 @@
 title: Cross-Device Analytics
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
+source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 95%
+source-wordcount: '808'
+ht-degree: 86%
 
 ---
 
@@ -13,7 +13,8 @@ ht-degree: 95%
 
 O Cross-Device Analytics é um recurso que transforma o Analytics de uma exibição centrada em dispositivos para uma exibição centrada em pessoas. Como resultado, os analistas podem entender o comportamento do usuário que passa pelos navegadores, dispositivos ou aplicativos. A Adobe comporta dois workflows abrangentes para vincular dados do dispositivo:
 
-* [**Compilação em campo**](field-based-stitching.md): permite escolher uma variável do Analytics como base para a compilação entre dispositivos em um conjunto de relatórios virtual. Usa a correspondência determinística para vincular dispositivos. A Adobe recomenda usar a compilação em campo para a maioria dos casos de uso determinísticos correspondentes.
+* [**Compilação em campo**](field-based-stitching.md): Opção de compilação recomendada porque ela usa apenas a correspondência determinística para vincular dispositivos.
+Permite escolher uma variável do Analytics como base para a compilação entre dispositivos em um conjunto de relatórios virtual.
 * [**Gráfico de dispositivos**](device-graph.md): o CDA se comunica com um gráfico de dispositivos para compilar dispositivos. O gráfico cooperativo usa correspondência determinística e probabilística.
 
 >[!NOTE]
@@ -56,3 +57,5 @@ O Cross-Device Analytics é um recurso inovador e robusto, mas tem limitações 
 * No momento, o CDA não é compatível com a [API de reparo de dados](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) do Adobe Analytics.
 * Os dados históricos no conjunto de relatórios virtual são alterados com base no reconhecimento e na compilação de dispositivos pela Adobe. Os dados no conjunto de relatórios de origem não são alterados.
 * Os dados agrupados seguem uma latência de 8 a 12 horas.
+* Os dados do histórico de mapeamento de um determinado dispositivo são armazenados por até 1 ano.
+* Se um dispositivo atingir um número muito alto de entradas do histórico de mapeamento em um ano, o histórico de mapeamento será truncado. O limite exato depende da opção de costura usada.
