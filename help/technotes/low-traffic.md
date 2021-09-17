@@ -1,13 +1,13 @@
 ---
 description: Quando um relatório possuir um grande número de valores únicos, a Adobe fornece funcionalidades para assegurar que os valores mais importantes apareçam em seu relatório.
 title: Valor de tráfego baixo no Adobe Analytics
-feature: Métricas
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,9 @@ Quando um relatório tem muitos valores únicos, a Adobe fornece funcionalidade 
    * Se um valor ainda não for visto nos relatórios, ele aparecerá no item da linha [!UICONTROL Tráfego baixo]. Se um valor que foi incluído no item da linha [!UICONTROL Tráfego baixo] for visto por um número significativo de vezes em um curto período, ele começará a ser reconhecido como seu próprio item da linha. O número significativo de vezes que um item deve ser visualizado tem muitas dependências, como o número de servidores de processamento e daemons que estão processando dados para esse conjunto de relatórios específico.
 
 Por que a Adobe move um item da linha [!UICONTROL Tráfego baixo] para seu próprio item da linha? Por exemplo, esse movimento pode reconhecer uma nova página popular ou um novo item que foi adicionado posteriormente no mês (depois que únicos foram excedidos) e que recebe muitas ocorrências/exibições. A movimentação não tem como objetivo capturar tudo o que recebe um determinado número de ocorrências/exibições por dia ou por mês.
+
+>[!NOTE]
+>A contagem de pesquisa de página não inclui apenas valores para o [!UICONTROL pagename]/[!UICONTROL page_url]. A tabela de pesquisa de página inclui várias colunas/campos como [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] e o contexto de clique (o clique antigo dados do mapa).
 
 ## Alterar limites exclusivos
 
