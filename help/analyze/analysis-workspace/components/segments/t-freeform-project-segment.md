@@ -5,24 +5,42 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 8cd5d5ec1525e29779a13330dfeaeae120dfdd56
+source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 96%
+source-wordcount: '500'
+ht-degree: 76%
 
 ---
 
 # Segmentos {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
-É possível criar
+Você pode criar diferentes tipos de segmentos, dependendo da complexidade que eles precisam ser, se eles devem se aplicar somente a este projeto etc. Este é um resumo dos tipos de segmentos:
 
-## Painel de segmentos {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
+| Tipo de segmento | Onde foi criado? | Onde aplicável? | Vários contêineres? | Cor da interface do usuário |
+| --- | --- | --- | --- |
+| Segmento da lista de componentes | [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Para todos os projetos, no painel esquerdo | Sim | Azul |
+| Segmento rápido | [Construtor de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Somente nível do projeto | Não | Cinza? |
+| Segmentos ad hoc: | Consulte abaixo | Somente nível do projeto | Não | ? |
+| - Segmento de projeto Ad Hoc Workspace | Arrastar e soltar no segmento ? em um novo projeto |  |  |  |
+| - Segmento calculado com base em métricas | Construtor de métrica calculada |  |  |  |
+| - Segmento baseado em VRS | Construtor do conjunto de relatórios virtual |  |  |  |
+| - Construtor de segmentos &quot;aplique&quot; &quot; | Construtor de segmentos |  |  |  |
+
+Para obter uma discussão detalhada da segmentação no Adobe Analytics, acesse [aqui](/help/components/segmentation/seg-overview.md).
+
+## Segmentos da lista de componentes no painel esquerdo {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 O painel de segmentos do Menu de componentes mostra segmentos e modelos de segmentos, indicados por estes ícones:
 
 ![](assets/segment_icons.png)
 
 [Usando segmentos na Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html?lang=pt-BR) (6:46)
+
+## Segmentos ad hoc (temporários) no Analysis Workspace
+
+Este é um vídeo sobre segmentos ad hoc:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
 ## Criar segmentos {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -62,8 +80,4 @@ Existem vários outros métodos para aplicar os segmentos em um projeto de forma
 | Compartilhar > Compartilhar projeto ou compartilhar > Preparar dados do projeto | Veja em [Preparar e compartilhar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=pt-BR#concept_4A9726927E7C44AFA260E2BB2721AFC6) como os segmentos aplicados ao projeto ficam disponíveis para o destinatário em análise compartilhada. |
 | Usar segmentos como Dimensões | Vídeo: [Usar segmentos como Dimensões no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=pt-BR) |
 
-## Segmentos ad hoc (temporários) no Analysis Workspace
 
-Este é um vídeo sobre segmentos ad hoc:
-
->[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
