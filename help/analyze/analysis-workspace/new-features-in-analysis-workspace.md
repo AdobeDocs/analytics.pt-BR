@@ -2,12 +2,12 @@
 description: Novos recursos do Analysis Workspace.
 keywords: Analysis Workspace
 title: Novidades no Analysis Workspace
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
-source-wordcount: '8288'
+source-wordcount: '8286'
 ht-degree: 99%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 99%
 # Novidades no Analysis Workspace
 
 >[!IMPORTANT]
->Outras atualizações do Analysis Workspace foram inseridas na página [Adobe Analytics Documentation Updates](/help/technotes/doc-updates.md).
+>Outras atualizações do Analysis Workspace foram inseridas na página [Atualizações de documentação do Adobe Analytics](/help/technotes/doc-updates.md).
 
 Consulte [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR) para obter atualizações para o produto abrangente.
 
@@ -359,7 +359,7 @@ Novos recursos e melhorias lançados em 10 de maio de 2018.
    <td colname="col2"> <p>Oferecemos Dicas do dia (junto a um breve vídeo) no canto inferior direito da interface. Essas dicas são uma maneira de deixá-lo familiarizado com a multitude de recursos interessantes do Analysis Workspace. Você pode optar por descartar as Dicas ou acessá-las em <span class="uicontrol"> Ajuda </span> &gt; <span class="uicontrol"> Dicas </span> a qualquer momento. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Modelos de segmentos </a> e <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > modelos de métricas calculadas </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Modelos de segmentos </a> e <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > modelos de métricas calculadas </a></b> </p> </td> 
    <td colname="col2"> <p>O painel esquerdo agora apresenta modelos de segmentos e modelos de métricas calculadas. </p> </td> 
   </tr> 
   <tr> 
@@ -605,7 +605,7 @@ Novos recursos lançados em 26 de outubro de 2017.
    <td colname="col2"> <p>Agora é possível alternar facilmente entre as granularidades de tempo quando a dimensão na fonte de dados for uma dimensão de tempo. É possível alternar granularidades a partir de um menu suspenso nas configurações de visualização. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Dimensões e eventos completos na área de soltar de segmentos</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Dimensões e eventos completos na área de soltar de segmentos</a> </p> </td> 
    <td colname="col2"> <p>Anteriormente, você podia soltar somente itens de dimensão, intervalos de datas ou segmentos em uma área de soltura de segmentos. Agora é possível soltar uma dimensão completa ou evento em uma área de segmento. Em ambos os casos, o Analysis Workspace criará segmentos de ocorrências “existentes”. </p> <p>Exemplos: “Ocorrência em que eVar1 existe” ou “Ocorrência em que event1 existe”. </p> <p>Observação: não é possível soltar métricas calculadas em uma área de segmento. Apenas as dimensões/métricas para as quais você pode criar segmentos podem ser soltas na área de segmentos. </p> </td> 
   </tr> 
   <tr> 
@@ -935,7 +935,7 @@ Novo recurso lançado em 19 de janeiro de 2017:
    <td colname="col2"> <p>Adicionado suporte para a visualização de fallout no formato CSV. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Intervalos de datas em segmentos </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Intervalos de datas em segmentos </a> </p> </td> 
    <td colname="col2"> <p>É possível colocar intervalos de data nas “zonas para soltar” do segmento (por exemplo, “zonas para soltar” de segmentos e painéis, da visualização de Fallout segmento etc.). Os intervalos de data são convertidos em segmentos automaticamente. Os intervalos de data podem ser personalizados ou padrão, mas não podem ser granularidades como hora/dia/semana/mês/trimestre/ano. </p> </td> 
   </tr> 
   <tr> 
@@ -1058,7 +1058,7 @@ Novos recursos lançados em 16 de junho de 2016:
 * A opção [Colocar seleção em tendência](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (gráfico de linhas) em uma tabela classificada agora é vinculada.
 * [Ícone “Criar visual”](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): se clicamos nesse ícone, é criada uma visualização inteligente de acordo com nossas ações anteriores (gráfico de barras, de Venn...).
 * Funcionalidade [Linhas do manual](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) ampliada.
-* Zona [Adicionar segmento](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+* Zona [Adicionar segmento](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 * Atualizações secundárias:
 
    * Capacidade de excluir todas as visualizações em um painel e todos os painéis em um projeto. (Anteriormente, era necessário manter pelo menos uma visualização ou um painel.)

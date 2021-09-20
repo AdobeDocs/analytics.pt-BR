@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Criar um projeto do Workspace
 feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -118,7 +118,7 @@ Esse artigo explica os elementos da interface do Analysis Workspace e mostra com
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segmentos </a> para obter mais informações. </p> </td> 
+   <td colname="col2"> <p>Podem ser arrastados somente no nível do painel, mas você pode criar segmentos em linha na tabela de dados. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Segmentos </a> para obter mais informações. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de datas e granularidades (roxo) </td> 
@@ -194,7 +194,7 @@ O menu de opções permite executar as seguintes ações, que dependem da célul
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Criar segmento a partir da seleção</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Criar segmento a partir da seleção</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
