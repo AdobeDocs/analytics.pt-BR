@@ -4,9 +4,9 @@ description: Os analisadores de pacote permitem exibir os dados enviados pela im
 keywords: sniffer de pacote, status http, 200, 302, charles
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
