@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 76%
+source-wordcount: '496'
+ht-degree: 79%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 76%
 
 Você pode criar diferentes tipos de segmentos, dependendo da complexidade que eles precisam ser, se eles devem se aplicar somente a este projeto etc. Este é um resumo dos tipos de segmentos:
 
-| Tipo de segmento | Onde foi criado? | Onde aplicável? | Vários contêineres? | Cor da interface do usuário |
-| --- | --- | --- | --- |
-| Segmento da lista de componentes | [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Para todos os projetos, no painel esquerdo | Sim | Azul |
-| Segmento rápido | [Construtor de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Somente nível do projeto | Não | Cinza? |
-| Segmentos ad hoc: | Consulte abaixo | Somente nível do projeto | Não | ? |
-| - Segmento de projeto Ad Hoc Workspace | Arrastar e soltar no segmento ? em um novo projeto |  |  |  |
-| - Segmento calculado com base em métricas | Construtor de métrica calculada |  |  |  |
-| - Segmento baseado em VRS | Construtor do conjunto de relatórios virtual |  |  |  |
-| - Construtor de segmentos &quot;aplique&quot; &quot; | Construtor de segmentos |  |  |  |
+| Tipo de segmento | Criado onde? | Onde aplicável? | Vários contêineres? |
+| --- | --- | --- | 
+| Segmento da lista de componentes | [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Todos os projetos, no painel esquerdo | Sim | Azul |
+| Segmento rápido | [Construtor de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Somente nível do projeto | Não |
+| Segmentos ad hoc: | Consulte abaixo | Somente nível do projeto | Não |
+| - Segmento de projeto Ad Hoc Workspace | Arrastar e soltar no segmento ? em um novo projeto |  |  |
+| - Segmento calculado com base em métricas | Construtor de métrica calculada |  |  |
+| - Segmento baseado em VRS | Construtor do conjunto de relatórios virtual |  |  |
+| - Construtor de segmentos &quot;aplique&quot; &quot; | Construtor de segmentos |  |  |
 
 Para obter uma discussão detalhada da segmentação no Adobe Analytics, acesse [aqui](/help/components/segmentation/seg-overview.md).
 
@@ -36,7 +36,7 @@ O painel de segmentos do Menu de componentes mostra segmentos e modelos de segme
 
 [Usando segmentos na Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html?lang=pt-BR) (6:46)
 
-## Segmentos ad hoc (temporários) no Analysis Workspace
+## Segmentos Ad hoc (temporários) no Analysis Workspace
 
 Este é um vídeo sobre segmentos ad hoc:
 

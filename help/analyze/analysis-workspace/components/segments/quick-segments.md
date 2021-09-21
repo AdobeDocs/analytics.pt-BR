@@ -3,9 +3,9 @@ description: Use segmentos rápidos no Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8cd5d5ec1525e29779a13330dfeaeae120dfdd56
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,11 @@ Você pode criar segmentos rápidos em um projeto para ignorar a complexidade do
 
    Este é um exemplo de um segmento que combina dimensões e métricas:
 
+   ![](assets/quick-seg2.png)
+
+1. Clique em **[!UICONTROL Aplicar]** para aplicar este segmento ao painel.
+O segmento aparece na parte superior. Observe sua barra cinza, em vez da barra azul para segmentos em nível de componente à esquerda.
+
+   ![](assets/quick-seg3.png)
+
+1. No segmento rápido
