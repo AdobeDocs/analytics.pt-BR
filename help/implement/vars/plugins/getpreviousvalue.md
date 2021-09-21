@@ -3,9 +3,9 @@ title: getPreviousValue
 description: Obtenha o último valor transmitido a uma variável.
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 62%
 
 O plug-in `getPreviousValue` permite que você defina uma variável como um valor definido em uma ocorrência anterior. Esse plug-in não é necessário se sua implementação já contiver todos os valores desejados na ocorrência atual.
 
-## Instalar o plug-in usando tags no Adobe Experience Platform
+## Instalar o plug-in usando tags na Adobe Experience Platform
 
 A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
 1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
@@ -37,7 +37,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].
@@ -61,7 +61,7 @@ A função `getPreviousValue` usa os seguintes argumentos:
 * **`v`** (string, obrigatório): a variável que tem o valor que você deseja transmitir para a próxima solicitação de imagem. Uma variável comumente usada para recuperar o valor da página anterior é `s.pageName`.
 * **`c`** (string, opcional): o nome do cookie que armazena o valor.  Se esse argumento não estiver definido, ele assumirá `"s_gpv"` como padrão.
 
-Quando você chama essa função, ela retorna o valor da string contido no cookie. Em seguida, o plug-in redefine a validade do cookie e atribui a ele o valor de variável no argumento `v`. O cookie expira após 30 minutos de inatividade.
+Quando essa função é chamada, ela retorna o valor da string contido no cookie. Em seguida, o plug-in redefine a validade do cookie e atribui a ele o valor de variável no argumento `v`. O cookie expira após 30 minutos de inatividade.
 
 ## Exemplos
 
@@ -83,7 +83,7 @@ s.eVar10 = getPreviousValue(s.eVar1);
 
 ## Peculiaridades improváveis
 
-Se a variável associada ao argumento `v` estiver definida com um novo valor e o plug-in `getPreviousValue` for executado, MAS uma chamada de servidor do Analytics NÃO for enviada ao mesmo tempo, o novo valor do argumento `v` ainda será considerado o &quot;valor anterior&quot; na próxima vez que o plug-in for executado.
+Se a variável associada ao argumento `v` estiver definida com um novo valor e o plug-in `getPreviousValue` for executado, MAS uma chamada de servidor do Analytics NÃO for enviada ao mesmo tempo, o novo valor do argumento `v` ainda será considerado como o “valor anterior” na próxima vez que o plug-in for executado.
 Por exemplo, suponha que o código a seguir seja executado na primeira página da visita:
 
 ```js
@@ -92,14 +92,14 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Este código produz uma chamada de servidor onde `pageName` é &quot;Home&quot; e prop7 não está definido.  No entanto, a chamada para `getPreviousValue` armazena o valor de `pageName` no cookie `gpv_Page`. Suponha que, imediatamente depois, na mesma página, o seguinte código seja executado:
+Esse código produz uma chamada de servidor, em que `pageName` é “Início” e prop7 não está definido.  No entanto, a chamada para `getPreviousValue` armazena o valor do `pageName` no cookie `gpv_Page`. Suponha que, logo em seguida, na mesma página, o seguinte código seja executado:
 
 ```js
 s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-Como a função `t()` não é executada neste bloco de código, outra solicitação de imagem não é enviada.  No entanto, quando o código da função `getPreviousValue` é executado dessa vez, `prop7` é definido como o valor anterior de `pageName` (&quot;Home&quot;), em seguida, armazena o novo valor de `pageName` (&quot;New value&quot;) no cookie `gpv_Page`. Em seguida, suponha que o visitante navegue para uma página diferente e o seguinte código seja executado nesta página:
+Como a função `t()` não é executada nesse bloco de código, outra solicitação de imagem não será enviada.  No entanto, dessa vez, quando o código da função `getPreviousValue` é executado, `prop7` é definido como o valor anterior do `pageName` (“Início”) e, em seguida, armazena o novo valor do `pageName` (“Novo valor”) no cookie `gpv_Page`. Agora, suponha que o visitante navegue para uma página diferente e o seguinte código seja executado nessa página:
 
 ```js
 s.pageName = "Page 2";
@@ -107,7 +107,7 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Quando a função `t()` é executada, ela cria uma solicitação de imagem onde `pageName` é &quot;Página 2&quot; e `prop7` é &quot;Novo valor&quot;, que era o valor de `pageName` quando a última chamada para `getPreviousValue` ocorreu. O valor `prop7` de `"Home"` nunca estava contido em uma solicitação de imagem, mesmo que &quot;Home&quot; fosse o primeiro valor passado para `pageName`.
+Quando a função `t()` é executada, ela cria uma solicitação de imagem onde `pageName` é “Página 2” e `prop7` é o “Novo valor”, que era o valor do `pageName` quando a última chamada para `getPreviousValue` ocorreu. O valor `prop7` de `"Home"` nunca esteve contido em uma solicitação de imagem, mesmo que “Início” fosse o primeiro valor passado para `pageName`.
 
 ## Histórico da versão
 
