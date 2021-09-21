@@ -3,9 +3,9 @@ title: Como configurar uma conta publicitária no Advertising Analytics
 description: Permite criar novas contas publicitárias e mapear várias contas a vários conjuntos de relatórios.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instru�
 
    >[!IMPORTANT]
    >
-   >Somente conjuntos de relatórios mapeados para uma organização do Experience Cloud estão disponíveis para seleção. Caso não veja seu conjunto de relatórios listado, consulte [Solução de problemas do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Somente conjuntos de relatórios que foram mapeados para uma organização da Experience Cloud estarão disponíveis para seleção. Caso não veja seu conjunto de relatórios listado, consulte [Solução de problemas do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    Para as **[!UICONTROL Configurações de mapeamento]** que seguem essas instruções:
 
