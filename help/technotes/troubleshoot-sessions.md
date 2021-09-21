@@ -3,9 +3,9 @@ title: Solução de problemas de sessões no Adobe Analytics
 description: Saiba mais sobre como resolver problemas ao desconectar-se do Adobe Analytics.
 exl-id: 191250ef-8313-47be-9717-046cce870998
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Para determinar se a rede corporativa à qual você está conectado está causan
 
 ## Problemas de proxy
 
-A Adobe usa um cabeçalho de autorização ao fazer solicitações à Adobe. Alguns proxies, como o Edge Secure Web Gateway (antigo Bluecat), removem informações críticas do cabeçalho de autorização usadas pela Adobe Analytics. Quando a Adobe não vê o cabeçalho de autorização, a sessão expira.
+A Adobe usa um cabeçalho de autorização ao fazer solicitações à Adobe. Alguns proxies, como o Edge Secure Web Gateway (antigo Bluecat), removem informações críticas do cabeçalho de autorização usadas pelo Adobe Analytics. Quando a Adobe não vê o cabeçalho de autorização, a sessão expira.
 
 Para resolver esse problema, a Adobe recomenda trabalhar com a equipe de TI de sua organização para permitir o cabeçalho de autorização no proxy de sua organização.
 
@@ -34,4 +34,4 @@ Para resolver esse problema, a Adobe recomenda trabalhar com a equipe de TI de s
 Informações sobre proxies da e cabeçalhos de autenticação podem ser encontradas aqui:
 
 * [Configurar a autenticação upstream em proxy em uma Implantação da cadeia de proxy em um equipamento ProxySG ou ASG](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
-* [Como encaminhar credenciais do usuário para um servidor por trás do utilitário ProxySG](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
+* [Como encaminhar credenciais de usuário para um servidor por meio do equipamento ProxySG](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
