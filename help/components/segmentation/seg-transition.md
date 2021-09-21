@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2080'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Responde perguntas frequentes sobre recursos de segmentação, acesso, permissõ
 * Você pode criar [Segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * O contêiner de Visualização de página foi renomeado para contêiner de Ocorrência para indicar que esse contêiner segmenta todos os tipos de dados e não apenas visualizações de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências. Observe que não houve uma alteração no funcionamento deste contêiner; ele foi apenas renomeado.
 
-Consulte a publicação [Melhorando a segmentação no Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) no Blog do Adobe para obter mais detalhes.
+Consulte a publicação [Como melhorar a segmentação no Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) no Blog da Adobe para obter mais detalhes.
 
 ## Acesse as Ferramentas de segmentação {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,7 +39,7 @@ Consulte a publicação [Melhorando a segmentação no Adobe Analytics](https://
 
 Para acessar o Construtor de segmentos, basta:
 
-* Exiba um relatório existente e clicar no ícone Segmentos ![Ícone de Segmento](assets/segment_icon.png) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]** ou
+* Exibir um relatório existente e clicar no ![ícone de Segmentos](assets/segment_icon.png) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]** ou
 
 * Clique em **[!UICONTROL Adicionar]** mais, na parte superior do Gerenciador de segmentos.  ![Botão Adicionar](assets/add_button.png)
 
@@ -53,13 +53,13 @@ Para acessar o Gerenciador de segmentos:
 
 * Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** na navegação superior e, Em seguida, clique em **[!UICONTROL Segmentos]** ou
 
-* Exiba um relatório existente e clicar no ícone Segmentos ![Ícone de Segmento](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]** ou
+* Exibir um relatório existente e clicar no ![ícone de Segmentos](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]** ou
 
 * Pressione a tecla “/” em qualquer lugar na interface e pesquisando pelo gerenciador de segmentos.
 
 **Para onde foi o menu suspenso de segmentos herdados?**
 
-O menu suspenso de segmentos em Reports &amp; Analytics foi substituído por uma interface do [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone de Segmentos ![Ícone do segmento](assets/segment_icon.png)
+O menu suspenso de segmentos em Reports &amp; Analytics foi substituído por uma interface do [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone de Segmentos ![Ícone de segmento](assets/segment_icon.png)
 
 no painel de navegação esquerdo e no painel de segmentos.
 
