@@ -4,9 +4,9 @@ title: Visão geral dos conjuntos de relatórios virtuais
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Os conjuntos de relatórios virtuais segmentam seus dados do Adobe Analytics para que você possa controlar o acesso a cada segmento.
 
-Muitos clientes têm dados que fluem para um conjunto de relatórios global, mas também dados que fluem para conjuntos de relatórios menores. Eles definem uma variável para vários conjuntos de relatórios e enviam seus dados para mais de um conjunto de relatórios. Isso é chamado de *marcação de vários conjuntos* ou *conjuntos de relatórios base/pai*.
+Muitos clientes têm dados que fluem para um conjunto de relatórios global, mas também dados que fluem para conjuntos de relatórios menores. Eles definem uma variável para vários conjuntos de relatórios e enviam seus dados para mais de um conjunto de relatórios. Isso é mencionado como *marcação de vários relatórios* ou *conjuntos de relatórios de base/primários*.
 
 Por exemplo, todos os dados podem ser coletados em um único conjunto de relatórios; porém, você pode configurar conjuntos de relatórios secundários para que as pessoas da empresa tenham acesso a parte dos dados, mas não a todos eles. Os dados podem ser divididos por região. Você pode ter sites diferentes para diferentes países. Outros exemplos podem ser marcas específicas que pertencem a uma empresa maior, mas que possuem suas próprias equipes de marketing.
 

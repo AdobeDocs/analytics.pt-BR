@@ -2,13 +2,13 @@
 description: Esta visualização do Workspace se parece com um gráfico de linhas, mas apresenta uma área colorida abaixo da linha.
 title: Área e área empilhada
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: Visualizações
+feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -30,6 +30,6 @@ Uma nova configuração de visualização nas visualizações empilhadas por ár
 
 ![](assets/areastacked100.png)
 
-Aqui está um vídeo sobre &quot;Visualizações 100% empilhadas&quot;:
+Esse é um vídeo sobre “Visualizações 100% empilhadas”:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)

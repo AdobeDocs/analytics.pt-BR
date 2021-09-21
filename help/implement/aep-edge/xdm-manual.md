@@ -3,7 +3,7 @@ title: Mapear dados do XDM para o Analytics manualmente
 description: Mapear manualmente dados do XDM da Experience Platform para o Adobe Analytics
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Para serem utilizados pelo Analytics, os dados do XDM são nivelados através de
 
 ## Regras de processamento
 
-Todos os dados coletados pela rede de borda podem ser acessados pelas [regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). No Analytics, você pode utilizar as regras de processamento para incorporar dados de contexto às variáveis do Analytics.
+Todos os dados coletados pela rede de borda podem ser acessados pelas [regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=pt-BR). No Analytics, você pode utilizar as regras de processamento para incorporar dados de contexto às variáveis do Analytics.
 
 Por exemplo, na regra a seguir, o Analytics é definido para preencher **termos de pesquisa interna (eVar2)** com os dados associados a **a.x_atag.search.term(Dados de contexto)**.
 
@@ -82,4 +82,4 @@ alloy("event",{
 });
 ```
 
-Para obter mais informações sobre o rastreamento de eventos com o SDK da Web da AEP, consulte [Rastreamento de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html).
+Para obter mais informações sobre o rastreamento de eventos com o SDK da Web da AEP, consulte [Rastreamento de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR).

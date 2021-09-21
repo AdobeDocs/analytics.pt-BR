@@ -3,9 +3,9 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2554'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
    * Ferramentas administrativas herdadas, onde as configurações do conjunto de relatórios no Adobe Analytics são gerenciadas. Em versões anteriores do Adobe Analytics, as permissões de usuário também eram gerenciadas aqui. Consulte [Ferramentas administrativas](/help/admin/admin/c-admin-tools.md) no guia do usuário Administração.
    * O Admin Console da Adobe, onde o acesso ao produto é provisionado e as permissões do usuário são gerenciadas. Consulte [Admin Console](/help/admin/admin-console/home.md) no guia do usuário Administração.
 * **Alocação:** se uma variável de conversão encontrar mais de um valor durante uma visita, a configuração de alocação da variável determinará qual valor será mantido. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no guia do usuário Administração.
-* **Analysis Workspace:** solução de navegador para criar projetos de análise avançados e personalizados e democratizar insights. Oferece mais flexibilidade de relatórios do que a Reports and Analytics.
+* **Analysis Workspace:** solução de navegador para desenvolvimento de projetos de análise avançados e personalizados, bem como para democratização de insights. Oferece mais flexibilidade de relatórios que o Reports and Analytics.
 * **Anomalia:** é detectada com modelagem estatística para que encontre automaticamente tendências inesperadas em seus dados. O modelo analisa métricas e determina um limite inferior, um limite superior e o intervalo esperado de valores. Consulte [Detecção de anomalias](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) no guia do usuário Analisar.
 * **AppMeasurement:** a biblioteca de códigos usada para coletar dados e enviá-los para a Adobe. Consulte a [Página inicial](/help/implement/home.md) do guia do usuário Implementar.
 * **Slot ASI:** não existe mais. Em versões anteriores do Adobe Analytics, os slots ASI forneciam um contêiner temporário de conjunto de relatórios para exibir dados segmentados. Na versão atual do Adobe Analytics, os segmentos podem ser aplicados instantaneamente a qualquer relatório.
@@ -45,9 +45,9 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Atributos do cliente:** um recurso da Experience Cloud que permite o upload de dados de atributos. Consulte [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR) no guia do usuário dos Serviços principais.
 * **Representante de suporte ao cliente:** um usuário designado autorizado a interagir diretamente com o Atendimento ao cliente da Adobe. Consulte [Delegados de suporte ao cliente](https://helpx.adobe.com/br/experience-cloud/supported-users.html) na Base de conhecimento da Experience Cloud.
 * **Servidor de coleta de dados:** servidores da Adobe que recebem e processam dados. As solicitações de imagem são enviadas aos servidores de coleta de dados da Adobe para uso nos relatórios.
-* **Conectores de dados:** uma solução completa de desenvolvimento que permite a terceiros automatizar o carregamento de dados no Adobe Analytics. Os clientes desse terceiro podem usar um conector de dados para enriquecer seus dados no Adobe Analytics. A maioria dos conectores de dados usa um fluxo de trabalho semelhante usado nas Fontes de dados. Consulte [Data Connectors](/help/import/data-connectors/data-connectors-eol.md) no guia do usuário Importar.
+* **Conectores de dados:** uma solução completa de desenvolvimento que permite a terceiros automatizar o carregamento de dados no Adobe Analytics. Os clientes desse terceiro podem usar um conector de dados para enriquecer seus dados no Adobe Analytics. A maioria dos conectores de dados usa um fluxo de trabalho semelhante usado nas Fontes de dados. Consulte [Data Sources](/help/import/data-connectors/data-connectors-eol.md) no Guia de importação do usuário.
 * **Feed de dados:** uma exportação de dados brutos que lista cada hit como uma linha e variáveis como colunas separadas. Usado mais frequentemente para exportar dados do Adobe Analytics para um banco de dados de terceiros. Consulte [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) no guia do usuário Exportar.
-* **Fontes de dados:** permite que um usuário carregue dados de um arquivo no Adobe Analytics. O arquivo normalmente é extraído de um site FTP. Consulte [Fontes de dados](/help/import/c-data-sources/datasrc-home.md) no guia do usuário Importar.
+* **Fontes de dados:** permite que um usuário carregue dados de um arquivo no Adobe Analytics. O arquivo normalmente é extraído de um site FTP. Consulte [Data Sources](/help/import/c-data-sources/datasrc-home.md) no guia do usuário Importar.
 * **Data Warehouse:** um recurso no Adobe Analytics que permite solicitar relatórios maiores. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) no guia do usuário Exportar.
 * **Data Workbench:** anteriormente conhecido como Insight. Desenvolvido para coletar, processar, analisar e visualizar dados de interações online e offline do cliente em vários canais.
 * **Dimensão:** um tipo de componente que contém valores variáveis, como texto. Os exemplos incluem Nome da página, Código de rastreamento ou Domínio de referência. Normalmente, uma métrica é sua contrapartida.
@@ -67,13 +67,13 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
    * Custom Insight, um nome histórico para variável de tráfego personalizada.
 * **KPI:** abreviação do indicador principal de desempenho. Métricas que ajudam uma empresa a entender o desempenho de seu site. Cada organização tem KPIs diferentes que medem diferentes aspectos de seus negócios. Consulte [Criar um documento de design de solução](/help/implement/prepare/solution-design.md) no guia do usuário Implementar.
 * **Latência:** o atraso entre quando os dados são coletados e quando estão disponíveis nos relatórios. A latência típica em um conjunto de relatórios é de 30 a 90 minutos. Consulte [Latência](/help/technotes/latency.md) no guia do usuário do Technotes.
-* **Launch:** não é mais usado como termo. O nome abreviado das tags no Adobe Experience Platform, anteriormente chamado de solução de implementação atual do Adobe. Consulte [Visão geral das tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) no guia do usuário do Adobe Experience Platform.
+* **Launch:** não é mais usado como termo. O antigo nome abreviado de tags na Adobe Experience Platform, a solução de implementação atual da Adobe. Consulte [Visão geral de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR) no guia do usuário da Adobe Experience Platform.
 * **Prop de lista:** uma configuração que converte uma variável de tráfego típica para suportar vários valores na mesma ocorrência. Qualquer variável de tráfego personalizada pode se tornar uma propriedade de lista se a configuração estiver ativada. Consulte [prop](../implement/vars/page-vars/prop.md) no guia de usuário Implementar.
 * **Var de lista:** uma variável distinta separada para variáveis de conversão. Vars de lista suportam vários valores no mesmo hit, e os valores variáveis são preservados em uma visita, de modo semelhante às variáveis de conversão. Somente três variável de lista estão disponíveis para uma organização. Consulte [Lista](/help/implement/vars/page-vars/list.md) no guia de usuário Implementar.
 * **Empresa de logon:** uma coleção de conjuntos de relatórios utilizada pela organização. Algumas organizações possuem várias empresas de logon, que se aplicam a setores diferentes da organização.
 * **Canal de marketing:** um recurso no Adobe Analytics que categoriza os hits de acordo com a forma como elas chegaram ao site. A lógica usada para categorizar hits pode ser personalizada usando as regras de processamento do canal de marketing. Consulte [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) no guia do usuário Componentes.
 * **Métrica:** um tipo de componente que contém dados quantitativos. Os valores de métricas normalmente contêm números, como Exibições de página, Visitas e Receita. Uma dimensão é normalmente sua contrapartida.
-* **Mobile Services:** reúne recursos de marketing móvel para aplicativos móveis em toda a Adobe Experience Cloud, permitindo que você entenda e aprimore o envolvimento do usuário com seus aplicativos. Consulte [Visão geral do Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=pt-BR).
+* **Mobile Services:** reúne recursos de marketing para aplicativos móveis de toda a Adobe Experience Cloud, permitindo que você entenda e aprimore o engajamento do usuário com seus aplicativos. Consulte [Visão geral do Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=pt-BR).
 * **Marcação de vários relatórios:** a prática de enviar a mesma ocorrência para vários conjuntos de relatórios. Com a introdução aos conjuntos de relatórios virtuais, essa prática não é mais necessária. A maioria dos esforços de marcação de vários relatórios ajuda a acomodar um conjunto de relatórios global.
 * **Normalização:** uma maneira de organizar uma visualização que utiliza todas as métricas e as força a proporções iguais, permitindo uma comparação mais fácil das tendências.
 * **Ocorrências:** um tipo de métrica que mostra em quantas ocorrências um item de dimensão foi definido ou persistiu. Consulte a métrica [Ocorrências](/help/components/metrics/occurrences.md) no guia do usuário Componentes.
@@ -88,9 +88,9 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Prop:** consulte Variável de tráfego.
 * **Relatório classificado:** um formato de relatório que normalmente segue uma dimensão com uma métrica. Esse tipo de relatório permite que você veja os principais itens, como as páginas mais visualizadas do site. Consulte também Relatório de tendências.
 * **Tempo real:** exibe as variáveis configuradas assim que são coletadas com pouca ou nenhuma latência. Consulte [Relatórios em tempo real](/help/admin/admin/realtime/realtime.md) no guia do usuário Administração
-* **Report Builder:** um complemento do Microsoft Excel que permite criar solicitações personalizadas a partir de dados do Adobe Analytics.
+* **Report Builder:** um complemento do Microsoft Excel que permite criar solicitações personalizadas com base em dados do Adobe Analytics.
 * **Conjunto de relatórios:** um contêiner abrangente para o qual você envia dados. Todos os relatórios no Adobe Analytics fazem referência a um conjunto de relatórios.
-* **Reports &amp; Analytics:**  antigo SiteCatalyst. Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics.
+* **Reports &amp; Analytics:** anteriormente conhecido como SiteCatalyst. Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics.
 * **Intervalo de datas em andamento:** um tipo de intervalo de datas relativo que muda conforme o tempo passa. Por exemplo, um relatório que mostra os últimos 7 dias pode ser considerado um intervalo de datas em andamento. Consulte também intervalo de datas estático.
 * **RSID:** abreviação da ID do conjunto de relatórios. Um conjunto de relatórios tem um nome amigável e uma ID de conjunto de relatórios.
 * **s.t():** o nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de exibição de página. Algumas bibliotecas do AppMeasurement usam `s.track()`. Consulte [t](../implement/vars/functions/t-method.md) no guia de usuário Implementar.

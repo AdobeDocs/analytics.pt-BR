@@ -3,9 +3,9 @@ title: getPageName
 description: Crie um pageName fácil de ler a partir do caminho do site atual.
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 83%
 
 O plug-in `getPageName` cria uma versão formatada amigável e fácil de ler do URL atual. A Adobe recomenda usar esse plug-in se você quiser um valor de [`pageName`](../page-vars/pagename.md) fácil de definir e de entender nos relatórios. Esse plug-in será desnecessário se você já tiver uma estrutura de nomeação para a variável `pageName`, como por meio de uma camada de dados. Ele é melhor usado quando você não tem outra solução para definir a variável `pageName`.
 
-## Instalar o plug-in usando tags no Adobe Experience Platform
+## Instalar o plug-in usando tags na Adobe Experience Platform
 
 A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
 1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
@@ -37,7 +37,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].
@@ -64,7 +64,7 @@ A função `getPageName` usa os seguintes argumentos:
 * **`hv`** (opcional, string): uma lista de parâmetros delimitada por vírgulas encontrada no hash do URL que, se encontrados no URL, são adicionados à string
 * **`de`** (opcional, string): o delimitador usado para dividir partes individuais da string. O padrão é uma barra vertical (`|`).
 
-A função retorna uma string contendo uma versão amigável do URL. Normalmente, essa string é atribuída à variável `pageName`, mas também pode ser usada em outras variáveis.
+A função retorna uma string que contém uma versão amigável da URL. Normalmente, essa string é atribuída à variável `pageName`, mas também pode ser usada em outras variáveis.
 
 ## Exemplos
 
@@ -93,7 +93,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## Melhorias em relação às versões anteriores
 
-A versão 4.0+ do plug-in `getPageName` não depende da existência do objeto AppMeasurement do Adobe Analytics (ou seja, do objeto `s` ). Se você atualizar para essa versão, altere o código que chama o plug-in removendo qualquer instância do objeto `s` da chamada. Por exemplo, altere `s.getPageName();` para `getPageName();`.
+A versão 4.0+ do plug-in `getPageName` não depende da existência do objeto AppMeasurement do Adobe Analytics (ou seja, do objeto `s`). Se você atualizar para esta versão, altere o código que chama o plug-in removendo qualquer instância do objeto `s` da chamada. Por exemplo, altere `s.getPageName();` para `getPageName();`.
 
 ## Histórico da versão
 

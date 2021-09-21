@@ -3,15 +3,15 @@ title: Uso de dados XDM com o Analytics
 description: Visão geral do uso de dados XDM da Experience Platform no Adobe Analytics
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
 source-git-commit: 3def20b348713b580429e342ad3319963cae6549
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Uso de dados da borda da Adobe Experience Platform com o Analytics
 
-Você pode usar o [SDK da Web da Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) para enviar dados ao Adobe Analytics. Funciona traduzindo o [Modelo de dados de experiência (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR) em um formato usado pelo Analytics.
+Você pode usar o [SDK da Web da Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=pt-BR) para enviar dados ao Adobe Analytics. Funciona traduzindo o [Modelo de dados de experiência (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR) em um formato usado pelo Analytics.
 
 O Analytics coleta dados XDM por meio de dois métodos:
 
@@ -20,7 +20,7 @@ O Analytics coleta dados XDM por meio de dois métodos:
 
 ## Mapeamento automático
 
-O mapeamento automático depende de um [esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR) padrão no XDM que preenche automaticamente os objetos JSON incluídos na coleta de dados típica do Analytics. As variáveis do Analytics que são mapeadas automaticamente do XDM para seus conjuntos de relatórios configurados não exigem suporte de desenvolvedor para serem incorporadas. Consulte [Variáveis mapeadas automaticamente no Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html) no guia do usuário do SDK da Web da plataforma.
+O mapeamento automático depende de um [esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR) padrão no XDM que preenche automaticamente os objetos JSON incluídos na coleta de dados típica do Analytics. As variáveis do Analytics que são mapeadas automaticamente do XDM para seus conjuntos de relatórios configurados não exigem suporte de desenvolvedor para serem incorporadas. Consulte [Variáveis mapeadas automaticamente no Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html?lang=pt-BR) no guia do usuário do SDK da Web do Platform.
 
 ## Mapeamento manual
 

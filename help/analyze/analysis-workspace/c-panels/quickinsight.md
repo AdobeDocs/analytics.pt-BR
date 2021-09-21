@@ -1,13 +1,13 @@
 ---
 description: O Quick Insights é uma ferramenta para novos usuários do Workspace que os orienta na criação de tabelas e visualizações de dados
 title: Painel do Quick Insights
-feature: Painéis
+feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1058'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ O [!UICONTROL Quick insights] ajuda a
 * Fazer detalhamentos simples de dimensões, adicionar várias métricas ou comparar segmentos facilmente em uma [!UICONTROL tabela de forma livre].
 * Alterar ou experimentar vários tipos de visualização para encontrar a ferramenta para sua análise de forma rápida e intuitiva.
 
-Esta é uma visão geral em vídeo do painel [!UICONTROL Quick Insights]:
+Essa é uma visão geral em vídeo do painel [!UICONTROL Quick Insights]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 

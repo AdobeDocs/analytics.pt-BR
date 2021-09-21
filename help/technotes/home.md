@@ -3,7 +3,7 @@ title: Notas técnicas do Analytics
 description: Este guia fornece informações úteis sobre tópicos que não pertencem a uma ferramenta ou componente de análise específico.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
 ht-degree: 100%
 

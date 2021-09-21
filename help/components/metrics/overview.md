@@ -3,9 +3,9 @@ title: Visão geral das métricas
 description: Visualize quantidades de itens ou dados da dimensão ao longo do tempo.
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ Se não for possível localizar uma determinada métrica na página de ajuda, el
 
 ## Adicionar descrições de métrica
 
-Este é um vídeo que descreve como adicionar descrições de métrica (e dimensão) no Adobe Analytics:
+Este vídeo demonstra como adicionar descrições de métrica (e dimensão) no Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)

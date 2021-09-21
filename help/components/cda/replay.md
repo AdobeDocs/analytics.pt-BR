@@ -3,9 +3,9 @@ title: Como funcionam as repetições
 description: Entenda o conceito de “repetição” no Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ As ocorrências não autenticadas e autenticadas em novos dispositivos são cont
 
 >[!NOTE]
 >
->As ocorrências com carimbo de data e hora com mais de 12 horas não são compiladas no fluxo ativo. No entanto, essas ocorrências são incluídas na Compilação de repetição, desde que caiam na janela de retrospectiva de repetição.
+>As ocorrências com carimbo de data e hora com mais de 12 horas não são compiladas no fluxo ativo. No entanto, essas ocorrências são incluídas na repetição da compilação, desde que estejam na janela de retrospectiva de repetição.
 
 ### Repetir a compilação
 
