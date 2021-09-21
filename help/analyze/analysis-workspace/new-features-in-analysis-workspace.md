@@ -8,7 +8,7 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
 source-wordcount: '8286'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 >[!IMPORTANT]
 >Outras atualizações do Analysis Workspace foram inseridas na página [Atualizações de documentação do Adobe Analytics](/help/technotes/doc-updates.md).
 
-Consulte [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR) para obter atualizações para o produto abrangente.
+Consulte [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR) para saber sobre atualizações do produto abrangente.
 
 ## Março de 2021
 
@@ -811,7 +811,7 @@ Novos recursos lançados em 8 de junho de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Melhorias do <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>Fluxo</b></a> </td> 
+   <td colname="col1"> Melhorias do <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>Fluxo</b> </a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Foi adicionada uma nova configuração de visualização chamada <span class="wintitle"> Desativar o truncamento de rótulos </span> (padrão = desmarcado). </li> 

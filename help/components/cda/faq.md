@@ -5,7 +5,7 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
 workflow-type: tm+mt
 source-wordcount: '1961'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
@@ -120,9 +120,9 @@ As vantagens de usar a janela de lookback de reprodução de um dia são 1) as e
 
 Se um cliente fizer o downgrade do Ultimate, ele não terá mais acesso aos dados compilados. Todos os dados compilados anteriormente serão removidos. Isso significa que os conjuntos de relatórios virtuais do CDA agora não refletirão compilações entre dispositivos. Os dados serão semelhantes ao conjunto de relatórios não compilado original.
 
-## Por que o número total de ocorrências é diferente entre meu conjunto de relatórios de origem e o conjunto de relatórios virtual do CDA?
+## Por que o número total de hits no conjunto de relatórios de origem é diferente do conjunto de relatórios virtual do CDA?
 
-O CDA usa um pipeline de processamento paralelo complexo, com vários componentes dependentes. É esperada uma incompatibilidade de dados de aproximadamente 1% para o número total de ocorrências entre o conjunto de relatórios original e o conjunto de relatórios virtual do CDA. Ele tem impacto mínimo nos recursos entre dispositivos.
+O CDA usa um pipeline de processamento paralelo complexo, com vários componentes dependentes. É esperada uma incompatibilidade de dados de aproximadamente 1% entre o número total de ocorrências do conjunto de relatórios original e o do conjunto de relatórios virtual do CDA. Isso tem impacto mínimo nos recursos entre dispositivos.
 
 ## Por que a métrica &quot;Pessoas identificadas&quot; está inflada?
 

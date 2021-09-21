@@ -4,8 +4,8 @@ description: Determine qual layout de um site está sendo exibido no momento.
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '528'
+ht-degree: 100%
 
 ---
 
@@ -61,9 +61,9 @@ A função `getResponsiveLayout` usa os seguintes argumentos:
 
 * **`ppw`** (obrigatório, número inteiro): a largura máxima de pixels que uma janela do navegador pode ter antes que a página alterne do layout no modo retrato de telefone para o layout no modo paisagem de telefone
 * **`plw`** (obrigatório, número inteiro): a largura máxima de pixels que uma janela de navegador pode ter antes que a página alterne de um layout no modo paisagem para um layout de tablet
-* **`tw`** (obrigatório, número inteiro): A largura máxima de pixels que uma janela de navegador pode ter antes que a página alterne de um layout de tablet para um layout de desktop
+* **`tw`** (obrigatório, inteiro): a largura máxima em pixels que uma janela de navegador pode ter antes que a página mude de um layout de tablet para um layout de desktop
 
-Chamar essa função retorna uma string que contém duas partes delimitadas por dois pontos (`:`). A primeira parte da cadeia de caracteres contém um dos seguintes valores, dependendo da largura do navegador e dos argumentos acima:
+Chamar essa função retorna uma string que contém duas partes delimitadas por dois pontos (`:`). Dependendo da largura do navegador e dos argumentos acima, a primeira parte da string conterá um dos seguintes valores:
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`

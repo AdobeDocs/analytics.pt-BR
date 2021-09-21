@@ -5,7 +5,7 @@ exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ O CDA é provisionado em seu conjunto de relatórios entre dispositivos pela eng
 * Qual método de CDA você deseja usar (costura baseada em campo, gráfico privado da Adobe ou gráfico cooperativo da Adobe)
 * Se você pretende usar a costura baseada em campo, a propriedade ou eVar que contém a ID do usuário
 * Sua preferência por frequência de repetição e duração da retrospectiva. As opções incluem uma repetição uma vez por semana com uma janela de retrospectiva de sete dias ou uma repetição todos os dias com uma janela de retrospectiva de um dia.
-O padrão é a repetição semanal com janela de retrospectiva de 7 dias. Neste caso, os dados da última semana estão sujeitos a alterações (uma vez que estão a ser progressivamente compilados e atualizados).
+O padrão é a repetição semanal com uma janela de retrospectiva de 7 dias. Neste caso, os dados da última semana estão sujeitos a alterações (uma vez que estão sendo progressivamente compilados e atualizados).
 
 Depois que você fornecer essas informações ao Atendimento ao cliente, eles trabalharão com a engenharia da Adobe para ativar o conjunto de relatórios escolhido para processamento do CDA.
 

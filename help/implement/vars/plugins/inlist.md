@@ -4,8 +4,8 @@ description: Verifique se um valor está contido em outro valor delimitado por c
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -57,14 +57,14 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## Usar o plug-in
 
-A função `inList` retorna um booleano dependendo de suas entradas. Ele usa os seguintes argumentos:
+A função `inList` retorna uma operação booleana dependendo de suas entradas. Ela usa os seguintes argumentos:
 
 * **`lv`** (obrigatório, string ou array): uma lista delimitada de valores ou um objeto de matriz JavaScript que passará por pesquisa
 * **`vtc`** (obrigatório, string): o valor a ser pesquisado
 * **`d`** (opcional, string): o delimitador usado para separar valores individuais no argumento `lv`. O padrão é uma vírgula (`,`) quando um valor não está definido.
-* **`cc`** (opcional, booleano): Se definido como  `true` ou  `1`, é feita uma verificação que diferencia maiúsculas de minúsculas. Se definido como `false` ou omitido, então é feita uma verificação que não diferencia maiúsculas de minúsculas. O padrão é `false`.
+* **`cc`** (opcional, booleano): se definido como `true` ou `1`, uma verificação que diferencia maiúsculas de minúsculas é realizada. Se definido como `false` ou omitido, então é feita uma verificação que não diferencia maiúsculas de minúsculas. O padrão é `false`.
 
-Chamar essa função retornará `true` se encontrar uma correspondência e `false` se não encontrar uma correspondência.
+Chamar essa função retornará `true` se uma correspondência for encontrada e `false` se uma correspondência não for encontrada.
 
 ## Exemplos
 

@@ -4,8 +4,8 @@ description: Produza e manipule números para uso em outras variáveis JavaScrip
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '644'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 A função `zeroPad` usa os seguintes argumentos:
 
-* **num** (obrigatório, inteiro): o número a ser arredondado. A função arredonda o valor desse argumento para baixo se contiver decimais.
+* **num** (obrigatório, inteiro): o número a ser arredondado. A função arredondará para baixo o valor desse argumento se este contiver decimais.
 * **nod** (obrigatório, inteiro): o número de dígitos no valor final de retorno. Se o número a ser arredondado tiver menos dígitos do que o número limite de dígitos, o plug-in adicionará zeros no início do argumento `num`.
 
 A função `randomNumber` usa os seguintes argumentos:

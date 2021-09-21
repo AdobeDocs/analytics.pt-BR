@@ -7,7 +7,7 @@ user-guide-description: Ajuda a organizar seus dados usando componentes como seg
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -198,7 +198,7 @@ ht-degree: 97%
       + [Totais de métricas calculadas](c-calcmetrics/cm-totals.md)
 + Conjuntos de relatórios virtuais {#virtual-report-suites}
    + [Visão geral dos conjuntos de relatórios virtuais](vrs/vrs-about.md)
-   + [Conjunto de relatórios virtual - curadoria de componentes](vrs/vrs-components.md)
+   + [Curadoria do componente do conjunto de relatórios virtual](vrs/vrs-components.md)
    + [Suporte a VRS no Mobile Services](vrs/vrs-mobile-services.md)
    + [Sessões sensíveis ao contexto](vrs/vrs-mobile-visit-processing.md)
    + [Processamento de tempo do relatório](vrs/vrs-report-time-processing.md)

@@ -9,7 +9,7 @@ exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
 source-wordcount: '3420'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -85,8 +85,8 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `hier1 - hier5` | Usado em variáveis de hierarquia. Contém uma lista delimitada de valores. O delimitador é escolhido nas configurações do conjunto de relatórios. | varchar(255) |
 | `hit_source` | Indica a origem da ocorrência. As fontes de ocorrência 1, 2 e 6 são faturadas. <br>1: Solicitação de imagem padrão sem carimbo de data e hora <br>2: Solicitação de imagem padrão com carimbo de data e hora <br>3: Carregamento de fonte de dados ao vivo com carimbos de data e hora <br>4: Não utilizado <br>5: Upload de fonte de dados genérica <br>6: Carregamento completo da fonte de dados de processamento <br>7: Carregamento da fonte de dados TransactionID <br>8: Deixar de ser utilizado; Versões anteriores das fontes de dados da Adobe Advertising Cloud <br>9: Deixar de ser utilizado; Métricas de resumo do Adobe Social <br>10: Encaminhamento do lado do servidor do Audience Manager usado | tinyint unsigned |
 | `hit_time_gmt` | O carimbo de data e hora dos servidores de coleta de dados da Adobe de ocorrência recebeu a ocorrência, com base no horário Unix. | int |
-| `hitid_high` | Usado em combinação com `hitid_low` para identificar uma ocorrência. | bigint unsigned |
-| `hitid_low` | Usado em combinação com `hitid_high` para identificar uma ocorrência. | bigint unsigned |
+| `hitid_high` | Usado em combinação com `hitid_low` para identificar um hit. | bigint unsigned |
+| `hitid_low` | Usado em combinação com `hitid_high` para identificar um hit. | bigint unsigned |
 | `homepage` | Não está mais em uso. Indica se o URL atual é a página inicial do navegador. | char(1) |
 | `hourly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante por hora. | tinyint unsigned |
 | `ip` | Endereço IP, com base no cabeçalho HTTP da solicitação de imagem. | char(20) |
@@ -199,8 +199,8 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `state` | Variável de estado. | varchar(50) |
 | `stats_server` | Não está em uso. Servidor interno da Adobe que processou o hit. | char(30) |
 | `t_time_info` | Horário local do visitante. O formato é: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Usado em integrações do Adobe Target. Representa todos os testes qualificados no momento. O formato é: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | texto |
-| `tnt_action` | Usado em integrações do Adobe Target. Representa todos os testes para os quais a ocorrência se qualificou. | texto |
+| `tnt` | Usado em integrações do Adobe Target. Representa todos os testes qualificados até o momento. O formato é: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | texto |
+| `tnt_action` | Usado em integrações do Adobe Target. Representa todos os testes para os quais o hit se qualificou. | texto |
 | `tnt_post_vista` | Não está mais em uso. Use `post_tnt` no lugar dela. | texto |
 | `transactionid` | Um identificador exclusivo, em que vários pontos de dados podem ser carregados posteriormente via fontes de dados. Coletado usando a variável [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | texto |
 | `truncated_hit` | Um sinalizador que indica que a solicitação de imagem estava truncada. Indica que uma ocorrência parcial foi recebida. <br>Y: Ocorrência truncada; ocorrência parcial recebida <br>N: Ocorrência não truncada; ocorrência total recebida | char(1) |
