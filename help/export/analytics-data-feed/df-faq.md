@@ -4,9 +4,9 @@ keywords: Feed de dados;coluna pré;coluna pós;diferencia maiúsculas de minús
 title: Perguntas frequentes sobre feeds de dados
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ A Adobe recomenda não abrir automaticamente arquivos `hit_data.tsv` no Microsof
 
 ## Colunas como `hitid_high`, `hitid_low`, `visid_high` e `visid_low` são garantidas como exclusivas para a ocorrência ou visita?
 
-Em quase todos os casos, a concatenação de `hitid_high` e `hitid_low` identifica exclusivamente uma ocorrência. O mesmo conceito se aplica à concatenação de `visid_high` e `visid_low` para visitas. No entanto, o processamento de anomalias raramente pode fazer com que duas ocorrências compartilhem a mesma ID de ocorrência. O Adobe recomenda não criar workflows do feed de dados que dependam de forma inflexível de cada ocorrência ser exclusiva.
+Em quase todos os casos, a concatenação de `hitid_high` e `hitid_low` identifica exclusivamente uma ocorrência. O mesmo conceito se aplica à concatenação de `visid_high` e `visid_low` para visitas. No entanto, o processamento de anomalias raramente pode fazer com que dois hits compartilhem a mesma ID. A Adobe recomenda não criar fluxos de trabalho de feed de dados que dependam unicamente de cada hit ser exclusivo.
 
 ## Por que as informações estão faltando na coluna de domínio para algumas operadoras? {#section_B7508D65370442C7A314EAED711A2C75}
 
