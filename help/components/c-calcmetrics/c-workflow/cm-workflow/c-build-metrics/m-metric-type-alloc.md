@@ -4,9 +4,9 @@ title: Atribuição e tipo de métrica
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o 
 >
 >[O Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) mudou a maneira como os modelos de alocação em métricas calculadas são avaliados. Como parte dessa alteração, as métricas calculadas que usam um modelo de alocação não padrão foram migradas para novos modelos de atribuição melhorados:
 >
->* Para obter uma lista completa de modelos de atribuição não padrão e janelas de pesquisa suportadas, consulte [Modelos de atribuição e janelas de pesquisa](/help/analyze/analysis-workspace/attribution/models.md).
+>* Para obter uma lista completa de modelos de atribuição não padrão e janelas de retrospectiva com suporte, consulte [Modelos de atribuição e janelas de retrospectiva](/help/analyze/analysis-workspace/attribution/models.md).
 >* Os modelos de alocação &quot;Último contato do canal de marketing&quot; e &quot;Primeiro contato do canal de marketing&quot; serão migrados para os novos modelos de atribuição &quot;Último contato&quot; e &quot;Primeiro contato&quot;, respectivamente (Observe que &quot;Canais de marketing&quot; não será descontinuado - apenas os dois modelos de alocação que aparecem nas métricas calculadas o serão).
 >* Além disso, corrigiremos a maneira como a alocação linear é calculada. Para clientes que usam métricas calculadas com modelos de alocação &quot;linear&quot;, os relatórios podem ser levemente alterados para refletir o novo modelo de atribuição corrigido. Essa alteração nas métricas calculadas será refletida no Analysis Workspace, Reports &amp; Analytics, na API de relatórios e no Report Builder. Para obter mais informações, consulte **Como a alocação linear funciona (desde 19 de julho de 2018)** abaixo.
 
@@ -43,9 +43,9 @@ O seguinte exemplo ilustra como as métricas calculadas com alocação linear se
 |  | Ocorrência 1 | Ocorrência 2 | Ocorrência 3 | Ocorrência 4 | Ocorrência 5 | Ocorrência 6 | Ocorrência 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Dados de entrada | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | $10 |
-| eVar de último contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO B | PROMOÇÃO B | PROMOÇÃO C | US$ 10 |
-| eVar de primeiro contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | US$ 10 |
-| Exemplo de propriedade | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | US$ 10 |
+| eVar de último contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO B | PROMOÇÃO B | PROMOÇÃO C | $10 |
+| eVar de primeiro contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | $10 |
+| Exemplo de propriedade | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | $10 |
 
 Neste exemplo, os valores A, B e C foram enviados para uma variável nas ocorrências 1, 3, 4 e 6 antes de uma compra de US$10 ser feita na ocorrência 7. Na segunda linha, esses valores persistem entre as ocorrências com base na visita do último contato. A terceira linha ilustra uma persistência na visita do primeiro contato. Por fim, a última linha ilustra como os dados seriam relatados para uma propriedade que não tenha persistência.
 
@@ -66,7 +66,7 @@ Para a eVar primeiro contato acima, todos os US$10 seriam dados a A. Para a prop
 |---|---|---|---|
 | PROMOÇÃO A | US$5,00 | US$10,00 | US$5,00 |
 | PROMOÇÃO B | US$3,33 | $0 | US$2,50 |
-| PROMOÇÃO C | US$1,67 | US$ 0 | US$2,50 |
+| PROMOÇÃO C | US$1,67 | $0 | US$2,50 |
 | Total | US$10,00 | US$10,00 | US$10,00 |
 
 **Resumo de como a alocação linear funciona atualmente**
