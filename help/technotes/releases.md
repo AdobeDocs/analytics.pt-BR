@@ -3,9 +3,9 @@ description: Explica a nova estratégia de lançamento de recursos contínuos do
 title: Versões de recursos do Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Com cada versão de recurso, a linha do tempo de RTP para GA pode variar. O obje
 
 ## Sinalizadores de recurso
 
-Sinalizadores de recursos são usados para controlar a visibilidade de novos recursos durante o lançamento. O Adobe recomenda adicionar `app.launchdarkly.com` ao [lista de permissões](/help/technotes/ip-addresses.md) do firewall para obter uma experiência ideal durante o lançamento. Logo após a GA ser atingida, o sinalizador é removido.
+Sinalizadores de recursos são usados para controlar a visibilidade de novos recursos durante o lançamento. A Adobe recomenda adicionar `app.launchdarkly.com` à [lista de permissões](/help/technotes/ip-addresses.md) do seu firewall para ter uma experiência ideal durante o lançamento. Logo após a GA ser atingida, o sinalizador é removido.
 
 Você pode visualizar os sinalizadores de recursos ativos a qualquer momento em **Ajuda > Sobre o Workspace > Sinalizadores de recursos ativos**.
 
@@ -40,4 +40,4 @@ As versões por fases permitem que a Adobe dimensione melhor o processo de impla
 | Pergunta | Resposta |
 | --- | --- |
 | Posso solicitar acesso antecipado a um recurso? | Não. O acesso antecipado não será concedido.<br>Se você quiser testar os conceitos iniciais do Analytics, recomendamos que você experimente o [Adobe Analytics Labs](/help/analyze/labs.md) para fornecer feedback sobre as inovações líderes do setor. |
-| Essa estratégia de lançamento afeta meu acesso aos recursos? | Não. Depois que um recurso chegar à GA, você terá acesso ao recurso se ele fizer parte do seu pacote do Analytics.<br>Você pode visualizar detalhes do seu pacote do Analytics em Níveis de acesso a  [recursos](/help/admin/company/feature-access-levels.md). |
+| Essa estratégia de lançamento afeta meu acesso aos recursos? | Não. Depois que um recurso chegar à GA, você terá acesso ao recurso se ele fizer parte do seu pacote do Analytics.<br>Você pode ver os detalhes do seu pacote do Analytics em [Níveis de acesso ao recurso](/help/admin/company/feature-access-levels.md). |
