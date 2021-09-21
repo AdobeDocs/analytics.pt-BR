@@ -3,9 +3,9 @@ title: rfl
 description: Remova um valor específico de uma string delimitada por caracteres.
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ O plug-in usa a seguinte lógica:
 * Se o valor que você deseja remover existir, o plug-in manterá tudo na variável, exceto o valor a ser removido.
 * Se o valor que você deseja remover não existir, o plug-in manterá a string original como está.
 
-## Instalar o plug-in usando tags no Adobe Experience Platform
+## Instalar o plug-in usando tags na Adobe Experience Platform
 
 A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
 1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
@@ -42,7 +42,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].
@@ -70,7 +70,7 @@ A função `rfl` usa os seguintes argumentos:
 * **`d2`** (opcional, string): o delimitador que você deseja que a string de retorno use. O padrão é o mesmo valor do argumento `d1`.
 * **`df`** (opcional, booleano): se `true`, força apenas instâncias duplicadas do argumento `vr` a partir do argumento `lv` em vez de todas as instâncias. O valor padrão é `false` quando um valor não está definido.
 
-Chamar essa função retorna uma string modificada que contém o argumento `lv`, mas sem nenhuma instância (ou instâncias duplicadas) do valor especificado no argumento `vr`.
+Chamar essa função retorna uma string modificada que contém o argumento `lv`, porém, sem nenhuma instância (ou instâncias duplicadas) do valor especificado no argumento `vr`.
 
 ## Exemplos de chamadas
 
@@ -164,7 +164,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = "hello|today";
 ```
 
-Lembre-se de que o plug-in retorna apenas um valor; na verdade, ela não &quot;redefine&quot; a variável transmitida pelo argumento `lv`.
+Lembre-se que o plug-in retorna apenas um valor; na verdade, ele não “redefine” a variável transmitida pelo argumento `lv`.
 
 ### Exemplo #5
 
@@ -186,7 +186,7 @@ s.prop4 = rfl(s.prop4,"people");
 s.prop4 = "hello|people|today";
 ```
 
-Certifique-se de definir o argumento `d1` nos casos em que o valor do argumento `lv` contém um delimitador diferente do valor padrão (ou seja, vírgula).
+Defina o argumento `d1` nos casos em que o valor do argumento `lv` contém um delimitador diferente do valor padrão (ou seja, vírgula).
 
 ### Exemplo #6
 
@@ -250,7 +250,7 @@ s.events = rfl(s.events,"event23:12345");
 s.events = "event22,event23:12345,event25";
 ```
 
-Quando for necessário remover um evento que use serialização e/ou sintaxe numérica/de moeda, você deverá especificar somente o próprio evento (ou seja, sem os valores serialização/numérico/de moeda) na chamada `rfl` .
+Quando for necessário remover um evento que use serialização e/ou sintaxe numérica/de moeda, você deverá especificar somente o evento em si (ou seja, sem os valores de serialização/numérico/de moeda) na chamada `rfl`.
 
 ### Exemplo #9
 
@@ -332,7 +332,7 @@ s.events = rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-Não há suporte para a configuração de vários valores no argumento `vr`. A lógica `rfl` no exemplo acima dividiria primeiro os valores no argumento `lv` (ou seja, s.events) e, em seguida, tentaria corresponder cada valor delimitado ao valor do argumento `vr` completo (ou seja, `"event23,event24"`).
+Não há suporte para a configuração de vários valores no argumento `vr` A lógica do `rfl` no exemplo acima dividiria primeiro os valores no argumento `lv` (ou seja, s.events) e, em seguida, tentaria corresponder cada valor delimitado ao valor completo do argumento `vr` (ou seja, `"event23,event24"`).
 
 ### Exemplo #13
 
@@ -355,7 +355,7 @@ s.events = rfl(s.events,"event24");
 s.events = "event22,event25");
 ```
 
-Cada valor a ser removido da lista deve estar contido em sua própria chamada `rfl` .
+Cada valor a ser removido da lista deve estar contido em sua própria chamada `rfl`.
 
 ### Exemplo #14
 
@@ -377,7 +377,7 @@ s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-Os três últimos argumentos (ou seja, &quot;,&quot;,&quot;,&quot;,false) no final desta chamada `rfl` não são necessárias, mas também não estão &quot;prejudicando nada&quot; por estarem presentes, pois correspondem às configurações padrão.
+Os três últimos argumentos (ou seja, &quot;,&quot;,&quot;,&quot;,false) no final desta chamada `rfl` não são necessários, mas também não estão “prejudicando em nada” por estarem presentes, pois correspondem às configurações padrão.
 
 ### Exemplo #15
 
@@ -399,7 +399,7 @@ rfl(s.events,"event23");
 s.events = "event22,event23,event24";
 ```
 
-Novamente, lembre-se de que o plug-in retorna apenas um valor; na verdade, ela não &quot;redefine&quot; a variável transmitida pelo argumento `lv`.
+Novamente, lembre-se de que o plug-in retorna apenas um valor; na verdade, ele não “redefine” a variável transmitida pelo argumento `lv`.
 
 ## Histórico da versão
 
