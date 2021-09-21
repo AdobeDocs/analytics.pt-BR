@@ -3,9 +3,9 @@ title: getTimeParting
 description: Meça o tempo em que uma ação específica ocorre.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '718'
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Valores válidos comuns incluem:
 * `"America/Denver"` para Mountain Time (horário das montanhas)
 * `"America/Los_Angeles"` para Pacific Time (horário do pacífico)
 
-Chamar essa função retorna uma string que contém o seguinte delimitado por uma barra vertical (`|`):
+Chamar essa função retorna uma string que contém os itens a seguir delimitados por uma barra vertical (`|`):
 
 * O ano atual
 * O mês atual
