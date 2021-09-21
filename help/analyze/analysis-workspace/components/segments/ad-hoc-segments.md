@@ -3,10 +3,10 @@ description: Use segmentos ad-hoc no Analysis Workspace.
 title: Segmentos ad-hoc
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 27c9a3f8f8faeda934827eac6797dd39ba7dd2ca
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 45%
+source-wordcount: '278'
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,8 @@ Este é um exemplo de como criar um segmento para o domínio de referência do T
 
    O painel obtém esse segmento automaticamente e você pode ver os resultados instantaneamente.
 
-1. Para
+1. Adicione até 3 segmentos ad hoc a um painel.
+1. Se decidir que deseja salvar esse segmento, consulte a seção &quot;Tornar os segmentos ad-hoc públicos&quot;.
 
 Lembre-se:
 
@@ -46,3 +47,4 @@ Você pode escolher se deseja tornar os segmentos públicos (globais) seguindo e
 1. No painel de informações que é exibido, clique em **[!UICONTROL Tornar público]**.
 
    ![](assets/segment-info.png)
+
