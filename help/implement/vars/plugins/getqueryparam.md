@@ -3,9 +3,9 @@ title: getQueryParam
 description: Extraia o valor de um parâmetro de string de consulta do URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '666'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ A função `getQueryParam` usa os seguintes argumentos:
 * **`de`** (opcional): o delimitador a ser usado se vários parâmetros da string de consulta corresponderem. O padrão é uma string vazia.
 * **`url`** (opcional): um URL, string ou variável personalizados usados para extrair os valores de parâmetro da string de consulta. O padrão é `window.location`.
 
-Chamar essa função retorna um valor dependendo dos argumentos acima e do URL:
+Chamar essa função retorna um valor diferente dependendo dos argumentos acima e da URL:
 
 * Se um parâmetro de string de consulta correspondente não for encontrado, a função retornará uma string vazia.
 * Se um parâmetro de string de consulta correspondente for encontrado, a função retornará o valor do parâmetro da string de consulta.
