@@ -3,9 +3,9 @@ title: getNewRepeat
 description: Acompanhe a atividade de visitantes novos e repetidos.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 87%
 
 O plug-in `getNewRepeat` permite determinar se um visitante do site é um novo visitante ou um visitante repetido dentro de um número desejado de dias. A Adobe recomenda usar esse plug-in se você quiser identificar os visitantes como &quot;novos&quot; usando um número personalizado de dias. Esse plug-in é desnecessário se as dimensões Novo/Repetir do visitante no Analysis Workspace atenderem às necessidades da sua organização.
 
-## Instalar o plug-in usando tags no Adobe Experience Platform
+## Instalar o plug-in usando tags na Adobe Experience Platform
 
 A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
 1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
@@ -37,7 +37,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon na [Interface do usuário da coleta de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon na [Interface da Coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].
@@ -61,7 +61,7 @@ A função `getNewRepeat` usa os seguintes argumentos:
 
 * **`d`** (número inteiro, opcional): o número mínimo de dias necessários entre visitas que redefine os visitantes novamente como `"New"`. Se esse argumento não for definido, o padrão será 30 dias.
 
-Essa função retornará o valor `"New"` se o cookie definido pelo plug-in não existir ou tiver expirado. Ele retorna o valor `"Repeat"` se o cookie definido pelo plug-in existe e o se tempo desde a ocorrência atual e o tempo definido no cookie forem maiores que 30 minutos. Essa função retorna o mesmo valor para uma visita inteira.
+Essa função retornará o valor de `"New"` se o cookie definido pelo plug-in não existir ou tiver expirado. Ele retorna o valor `"Repeat"` se o cookie definido pelo plug-in existe e o se tempo desde a ocorrência atual e o tempo definido no cookie forem maiores que 30 minutos. Essa função retorna o mesmo valor para uma visita inteira.
 
 Esse plug-in usa um cookie chamado `"s_nr[LENGTH]"`, onde `[LENGTH]` é igual ao argumento `d`. O cookie contém um carimbo de data e hora Unix que representa a hora atual e o status atual do visitante (`"New"` ou `"Repeat"`).
 
