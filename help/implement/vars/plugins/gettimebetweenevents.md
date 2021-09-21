@@ -3,9 +3,9 @@ title: getTimeBetweenEvents
 description: Meça a quantidade de tempo entre dois eventos.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '800'
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ A função `getTimeBetweenEvents` usa os seguintes argumentos:
 * **`bml`** (opcional, número): a quantidade de tempo do referencial de arredondamento de acordo com o formato do argumento `fmt`. Por exemplo, se o argumento `fmt` for `"s"` e esse argumento for `2`, o valor de retorno será arredondado para o referencial de 2 segundos que estiver mais próximo. Se o argumento `fmt` for `"m"` e esse argumento for `0.5`, o valor de retorno será arredondado para o referencial de meio minuto que estiver mais próximo.
 * **`rte`** (opcional, string): string delimitada por vírgulas com eventos do Analytics que removem ou excluem o cronômetro. O padrão é não ter valor.
 
-Chamar essa função retorna um número inteiro que representa a quantidade de tempo entre o evento de início de cronômetro e o evento de parada de cronômetro no formato desejado.
+A chamada dessa função retorna um número inteiro que representa o tempo decorrido entre o evento de início de cronômetro e o evento de parada de cronômetro no formato desejado.
 
 ## Exemplos de chamadas
 
