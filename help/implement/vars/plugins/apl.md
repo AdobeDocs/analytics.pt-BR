@@ -3,9 +3,9 @@ title: apl (appendToList)
 description: Anexe valores a variáveis que suportam vários valores.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '695'
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ A função `apl` usa os seguintes argumentos:
 * **`d2`** (opcional, string): o delimitador de saída. O padrão é o mesmo valor de `d1` quando não está definido.
 * **`cc`** (opcional, booleano): um sinalizador que indica se uma verificação que diferencia maiúsculas e minúsculas é usada. Se `true`, a verificação de duplicação faz distinção entre maiúsculas e minúsculas. Se definida `false` ou não definida, a verificação de duplicação não diferencia maiúsculas de minúsculas. O padrão é `false`.
 
-A função `apl` retorna o valor do argumento `lv` mais quaisquer valores não duplicados no argumento `vta`.
+A função `apl` retorna o valor do argumento `lv` somado a quaisquer valores não duplicados no argumento `vta`.
 
 ## Exemplos
 
@@ -151,7 +151,7 @@ s.list3 = apl(s.list3,"value1");
 
 ### 2.5 (18 de fevereiro de 2016)
 
-* Agora usa a função `inList` para processamento de comparação
+* A função `inList` agora é usada para processamento de comparação
 
 ### 2.0 (26 de janeiro de 2016)
 
