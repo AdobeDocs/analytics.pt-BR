@@ -3,9 +3,9 @@ title: p_fo (uma vez na página)
 description: Garanta que determinadas rotinas sejam acionadas apenas uma vez por página.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '635'
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ if(p_fo("myobject"))
 }
 ```
 
-**OBSERVAÇÃO:** sempre que um novo objeto de página/DOM é carregado (ou sempre que a página atual é recarregada), o objeto especificado no argumento on não existirá mais e, portanto, o plug-in p_fo retornará true na primeira vez que for executado depois que a página terminar de ser carregada.
+**NOTA:** sempre que um novo objeto de página/DOM for carregado (ou sempre que a página atual for recarregada), o objeto especificado no argumento “on” não existirá mais e, portanto, o plug-in “p_fo” retornará “true” na primeira vez que for executado depois que a página terminar de ser carregada.
 
 ## Histórico da versão
 
