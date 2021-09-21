@@ -3,10 +3,10 @@ description: Use segmentos rápidos no Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
+source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -42,8 +42,22 @@ Você pode criar segmentos rápidos em um projeto para ignorar a complexidade do
    ![](assets/quick-seg2.png)
 
 1. Clique em **[!UICONTROL Aplicar]** para aplicar este segmento ao painel.
-O segmento aparece na parte superior. Observe sua barra cinza, em vez da barra azul para segmentos em nível de componente à esquerda.
+O segmento aparece na parte superior. Observe sua barra lateral cinza, em oposição à barra azul para segmentos em nível de componente à esquerda.
 
    ![](assets/quick-seg3.png)
 
-1. No segmento rápido
+## Tornar os segmentos rápidos públicos
+
+Você pode escolher se deseja tornar os segmentos públicos (globais) seguindo estas etapas:
+
+1. Passe o mouse sobre o segmento rápido e clique no ícone &quot;i&quot;.
+1. Clique em **[!UICONTROL Abrir construtor]**.
+Isso abre o segmento no Construtor de segmentos.
+   >[!NOTE]
+   >Depois de aplicar ou salvar o segmento no Construtor de segmentos, não é mais possível editá-lo no Construtor de segmentos rápidos.
+1. Clique em **[!UICONTROL OK]**.
+1. No Construtor de segmentos, clique em **[!UICONTROL Aplicar]**.
+1. Retorne ao Workspace e observe como o segmento agora tem uma barra lateral azul, sinalizando que faz parte da biblioteca de componentes.
+
+   ![](assets/quick-seg4.png)
+
