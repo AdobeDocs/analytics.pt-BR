@@ -3,9 +3,9 @@ description: Use segmentos rápidos no Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Segmentos rápidos
 
-Você pode criar segmentos rápidos em um projeto para ignorar a complexidade do [construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) completo. Para uma comparação do que os segmentos rápidos podem fazer em relação aos segmentos de nível de componente completos, acesse [aqui](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+Você pode criar segmentos rápidos em um projeto para ignorar a complexidade do [construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) completo. Para uma comparação do que os segmentos rápidos podem fazer em relação aos segmentos da lista de componentes completos, acesse [aqui](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 >[!IMPORTANT]
 > Os segmentos rápidos estão atualmente em testes limitados e ainda não estão disponíveis no geral.
@@ -56,7 +56,7 @@ O segmento aparece na parte superior. Observe sua barra lateral cinza, em oposi�
 Você pode optar por salvar segmentos rápidos seguindo essas etapas.
 
 >[!IMPORTANT]
->Depois de salvar o segmento, não é mais possível editá-lo no Construtor de segmentos rápido, somente no Construtor de segmentos comum.
+>Depois de salvar ou aplicar o segmento, não é mais possível editá-lo no Construtor de segmentos rápido, somente no Construtor de segmentos comum.
 
 1. Passe o mouse sobre o segmento rápido e selecione o ícone de informações (&quot;i&quot;).
 1. Selecione **[!UICONTROL Salvar segmento]**
@@ -65,13 +65,11 @@ Você pode optar por salvar segmentos rápidos seguindo essas etapas.
 
 1. Deixe o nome como está ou renomeie o segmento.
 
-1. Retorne ao Workspace e observe como o segmento agora tem uma barra lateral azul, sinalizando que faz parte da biblioteca de componentes.
+   Retorne ao Workspace e observe como o segmento agora tem uma barra lateral azul. Isso indica que ele não pode mais ser editado/aberto no Construtor de segmento rápido. E ao salvá-lo, ele se torna parte da lista de componentes.
 
    ![](assets/quick-seg4.png)
 
-## Disponibilizar segmentos para todos os seus projetos
-
-Depois de salvar o segmento, você pode optar por adicioná-lo à lista de componentes do segmento e disponibilizá-lo para todos os seus projetos.
+Depois de aplicar o segmento, você pode optar por adicioná-lo à lista de componentes do segmento e disponibilizá-lo para todos os seus projetos.
 
 1. Passe o mouse sobre o segmento salvo e selecione o ícone de lápis.
 
@@ -81,13 +79,9 @@ Depois de salvar o segmento, você pode optar por adicioná-lo à lista de compo
 
 1. Marque a caixa de seleção ao lado de **[!UICONTROL Disponibilize este segmento para todos os projetos e adicione-o à lista de componentes.]**
 1. Clique em **[!UICONTROL Salvar]**.
-1. O segmento agora aparecerá na lista de componentes do segmento para todos os seus projetos.
-1. Você também pode [compartilhar o segmento](/help/components/segmentation/segmentation-workflow/t-seg-share.md).
+1. O segmento agora aparece na lista de componentes do segmento para todos os seus projetos.
+1. Você também pode [compartilhar o segmento](/help/components/segmentation/segmentation-workflow/t-seg-share.md) com outras pessoas em sua organização.
 
-## Transformar um segmento rápido em um segmento ad-hoc
+## O que são segmentos somente de projeto?
 
-1. Passe o mouse sobre o segmento salvo e selecione o ícone de lápis.
-
-1. Na parte superior do Construtor de segmentos, clique em **[!UICONTROL Aplicar]**.
-
-Para obter mais informações sobre segmentos ad hoc, acesse [aqui](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
+Os segmentos somente do projeto são segmentos rápidos ou segmentos de projeto ad-hoc do Workspace. Ao editá-los/abri-los no construtor de segmentos, a caixa somente do projeto será exibida. Se eles APLICAREM um segmento rápido no construtor, mas não marcarem a caixa disponibilizar , ele ainda será um segmento somente de projeto, mas não poderá mais ser aberto no construtor de QS. Se eles marcarem a caixa e SALVAR, agora é um segmento da lista de componentes.
