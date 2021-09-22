@@ -3,21 +3,23 @@ description: Use segmentos ad-hoc no Analysis Workspace.
 title: Segmentos ad-hoc
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 27c9a3f8f8faeda934827eac6797dd39ba7dd2ca
+source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 41%
+source-wordcount: '287'
+ht-degree: 32%
 
 ---
 
 
 # Segmentos ad-hoc
 
-Este é um vídeo sobre a criação de segmentos ad hoc:
+Este é um vídeo sobre como criar segmentos ad-hoc:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-Você pode criar segmentos ad hoc se quiser explorar rapidamente como um segmento pode afetar seu projeto, sem acessar o Construtor de segmentos. Considere esses segmentos como segmentos temporários em nível de projeto. Normalmente, eles não farão parte da &quot;biblioteca&quot; do segmento, como segmentos de componentes no painel esquerdo. No entanto, é possível torná-las públicas, conforme mostrado abaixo.
+Você pode criar segmentos ad hoc se quiser explorar rapidamente como um segmento pode afetar seu projeto, sem acessar o Construtor de segmentos. Considere esses segmentos como segmentos temporários em nível de projeto. Normalmente, eles não farão parte da &quot;biblioteca&quot; do segmento, como segmentos de componentes no painel esquerdo. No entanto, você pode salvá-las, conforme mostrado abaixo.
+
+Para uma comparação do que os segmentos ad-hoc podem fazer em relação aos segmentos de nível de componente completos, acesse [aqui](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 1. Solte qualquer tipo de componente (dimensão, item de dimensão, evento, métrica, segmento, modelo de segmento, intervalo de datas) na área de soltar segmentos no topo de um painel. Os tipos de componentes são convertidos automaticamente em segmentos.
 Este é um exemplo de como criar um segmento para o domínio de referência do Twitter:
@@ -26,8 +28,8 @@ Este é um exemplo de como criar um segmento para o domínio de referência do T
 
    O painel obtém esse segmento automaticamente e você pode ver os resultados instantaneamente.
 
-1. Adicione até 3 segmentos ad hoc a um painel.
-1. Se decidir que deseja salvar esse segmento, consulte a seção &quot;Tornar os segmentos ad-hoc públicos&quot;.
+1. Você pode adicionar um número ilimitado de componentes a um painel.
+1. Se decidir que deseja salvar esse segmento, consulte a seção abaixo.
 
 Lembre-se:
 
@@ -39,12 +41,12 @@ Lembre-se:
 >
 >Segmentos criados desse modo são internos no projeto.
 
-## Tornar os segmentos ad-hoc públicos {#ad-hoc-public}
+## Salvar segmentos ad-hoc {#ad-hoc-save}
 
-Você pode escolher se deseja tornar os segmentos públicos (globais) seguindo estas etapas:
+Você pode optar por salvar esses segmentos seguindo estas etapas:
 
 1. Passe o mouse sobre o segmento no local onde os segmentos são colocados e clique no ícone “i”.
-1. No painel de informações que é exibido, clique em **[!UICONTROL Tornar público]**.
+1. No painel de informações que é exibido, clique em **[!UICONTROL Salvar]**.
 
    ![](assets/segment-info.png)
 
