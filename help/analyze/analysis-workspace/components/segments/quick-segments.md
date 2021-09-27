@@ -3,7 +3,7 @@ description: Use segmentos rápidos no Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
+source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 1%
@@ -65,7 +65,7 @@ O segmento aparece na parte superior. Observe a barra lateral com listras azuis,
 
 ## Salvar segmentos rápidos
 
-Você pode optar por salvar segmentos rápidos no construtor de Segmentos rápidos ou no Construtor de segmentos.
+Você pode optar por salvar segmentos rápidos no [!UICONTROL Construtor de segmentos rápido] ou no [!UICONTROL Construtor de segmentos].
 
 >[!IMPORTANT]
 >Depois de salvar ou aplicar o segmento, não é mais possível editá-lo no Construtor de segmentos rápido, somente no Construtor de segmentos comum.
