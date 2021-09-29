@@ -2,9 +2,9 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1949'
 ht-degree: 76%
 
 ---
@@ -128,8 +128,8 @@ O CDA usa um pipeline de processamento paralelo complexo, com vários componente
 
 O número da métrica &quot;Pessoas identificadas&quot; pode ser um pouco maior se o valor de eVar/prop do identificador for executado em uma [colisão de hash](/help/implement/validate/hash-collisions.md).
 
-O número da métrica &quot;Pessoas identificadas&quot; pode ser significativamente maior se o identificador prop/eVar distingue maiúsculas de minúsculas. Por exemplo, `bob` e `Bob` devem ser a mesma pessoa, mas a diferenciação de maiúsculas e minúsculas força esses dois valores a serem distintos.
+Para a compilação em campo, a variável personalizada do identificador diferencia maiúsculas e minúsculas. O número da métrica &quot;Pessoas identificadas&quot; pode ser significativamente maior se os valores do identificador não corresponderem às letras maiúsculas e minúsculas. Por exemplo, se `bob` e `Bob` forem enviadas e esperadas como a mesma pessoa, o CDA interpreta esses dois valores como distintos.
 
-## Por que vejo valores ao visualizar a propriedade/eVar do identificador com a métrica &quot;Pessoas não identificadas&quot;?
+## Ao visualizar o identificador prop/eVar, por que vejo valores diferentes de zero para a métrica &quot;Pessoas não identificadas&quot;?
 
-Essa situação geralmente ocorre quando um visitante gera ocorrências autenticadas e não autenticadas na janela de relatório e [Reproduzir](replay.md) ainda não foi executado. Antes da repetição, o visitante pertence a &quot;Não identificado&quot; e &quot;Identificado&quot; na dimensão [Estado identificado](/help/components/dimensions/identified-state.md), fazendo com que alguns visitantes atribuam ocorrências não identificadas a um identificador. Os visitantes permanecem nesse estado até que a repetição seja executada (diariamente ou semanalmente, dependendo de como sua organização configurou o CDA). A execução de relatórios somente em dados de repetição posterior atenua essa situação.
+Essa situação geralmente ocorre quando um visitante gera ocorrências autenticadas e não autenticadas na janela de relatório. O visitante pertence a &quot;Não identificado&quot; e &quot;Identificado&quot; na dimensão [Estado identificado](/help/components/dimensions/identified-state.md), causando uma atribuição de ocorrências não identificadas a um identificador. Esse cenário pode mudar após a execução de [Reproduzir](replay.md), dependendo da frequência de repetição e da taxa de sucesso.

@@ -5,9 +5,9 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 63f833ffb3578614d7148bfcc6c786d4ddc8a2a8
+source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 42%
 
 ---
@@ -22,7 +22,7 @@ Você pode criar diferentes tipos de segmentos no Workspace, dependendo da compl
 | Segmento de lista de componentes | Clique em +, o que leva você ao [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Todos os projetos do Workspace | Para segmentos mais complexos, segmentos sequenciais |
 | Segmento rápido | [Construtor de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Somente projeto, mas pode salvar e adicionar à lista de segmentos. | Flexibilidade para adicionar/editar uma ou mais regras |
 | Segmentos ad-hoc: |  |  |  |
-| - Segmento de projeto ad-hoc do Workspace | [Arrastar e soltar na área de soltar de segmentos em um projeto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Somente projeto, mas pode salvar e adicionar à lista de segmentos. | Para segmentos de regra única (sem limite) |
+| - Segmento de projeto ad-hoc do Workspace | [Arrastar e soltar na área de soltar de segmentos em um projeto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Somente projeto, mas pode salvar e adicionar à lista de segmentos. | Para segmentos de regra única |
 | - Segmento calculado com base em métricas | [Construtor de métrica calculada](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Para métrica calculada individual | Aplicar segmentos na definição de métricas |
 | - Segmento baseado em VRS | [Construtor do conjunto de relatórios virtual](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Para um conjunto de relatórios virtual individual | Aplicar segmentos na definição de VRS |
 

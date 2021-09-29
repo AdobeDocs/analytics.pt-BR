@@ -2,10 +2,10 @@
 title: Dispositivos únicos
 description: O número de dispositivos exclusivos.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
+source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 6%
+source-wordcount: '252'
+ht-degree: 5%
 
 ---
 
@@ -29,8 +29,7 @@ Observe que essa métrica não é igual a [Visitantes únicos](unique-visitors.m
 
 ![Contagem de dispositivos únicos](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-A visualização desses dados em um conjunto de relatórios virtual do CDA antes de [Reproduzir](/help/components/cda/replay.md) mostraria:
+A visualização desses dados em um conjunto de relatórios virtual do CDA antes de [Reproduzir](/help/components/cda/replay.md) possivelmente une os hits não autenticados mostraria:
 
 * **5 dispositivos** exclusivos: 1 para Bob + 2 não autenticado para Bob + 1 para Alice + 1 para Charles
 * **4  [Pessoas](people.md)**: 1 Pessoas  [Não Identificadas](unidentified-people.md)  + 3 Pessoas  [Identificadas](identified-people.md).
-

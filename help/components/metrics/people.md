@@ -2,10 +2,10 @@
 title: Pessoas
 description: O número de indivíduos únicos, geralmente com vários dispositivos.
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 7f9442d6be7930b9e040539dc683c62953aba342
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 53%
+source-wordcount: '161'
+ht-degree: 49%
 
 ---
 
@@ -17,4 +17,4 @@ Para membros do [Device Co-op](https://experienceleague.adobe.com/docs/device-co
 
 Em um conjunto de relatórios virtual [Cross-Device analytics](../cda/overview.md), a métrica &quot;Pessoas&quot; não é uma derivação estatística. Em vez disso, é a soma dos indivíduos identificados no relatório, mais o número de dispositivos que não são identificados como pertencentes a uma pessoa.
 
-Se um visitante for identificado no meio da visita, ele poderá contar como 2 Pessoas até que [Reproduzir](/help/components/cda/replay.md) seja executado (1 pessoa não identificada e 1 pessoa identificada). Consulte [Dispositivos exclusivos](unique-devices.md) para obter mais informações.
+Se um visitante for identificado no meio da visita, ele poderá contar como 2 Pessoas (1 pessoa não identificada e 1 pessoa identificada). [](/help/components/cda/replay.md) A repetição reduz essa dupla contagem, dependendo da janela de relatório, da frequência de repetição e da taxa de sucesso. Consulte [Dispositivos exclusivos](unique-devices.md) para obter mais informações.
