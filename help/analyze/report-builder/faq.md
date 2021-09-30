@@ -4,10 +4,10 @@ description: Perguntas frequentes sobre o Report Builder.
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,6 @@ Como alternativa ao uso dessas funções do Excel, a Adobe recomenda usar interv
 
 O Report Builder aceita pastas de trabalho até os seguintes limites:
 
-* **1000 solicitações**: uma única pasta de trabalho pode conter até 1000 solicitações de dados. Se você tem relatórios ou projetos que exigem mais de 1000 solicitações, a Adobe recomenda separá-las em várias pastas de trabalho.
+* **1000 pedidos**: Uma única pasta de trabalho pode conter até 1000 solicitações de dados. Se você tem relatórios ou projetos que exigem mais de 1000 solicitações, a Adobe recomenda separá-las em várias pastas de trabalho.
 * **Vinte mil solicitações por hora por empresa**: o Report Builder usa a API de relatórios do Analytics para recuperar dados. Cada solicitação individual usa uma chamada de API sempre que é criada ou atualizada. Se sua organização acumular mais de 20.000 chamadas de API em determinada hora, você deverá aguardar até a próxima hora para recuperar os dados novamente.
-* **Tempo de processamento de 4 horas**: o tempo limite dos relatórios agendados expira após o processamento das últimas 4 horas. Se sua pasta de trabalho contiver muitas solicitações complexas usando grandes conjuntos de dados, o relatório agendado poderá falhar.
+* **Tempo** de processamento de 4 horas: Os relatórios agendados expiram após o processamento por mais de 4 horas. Se sua pasta de trabalho contiver muitas solicitações complexas usando grandes conjuntos de dados, o relatório agendado poderá falhar.
