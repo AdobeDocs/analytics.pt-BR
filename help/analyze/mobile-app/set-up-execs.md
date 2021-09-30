@@ -3,10 +3,10 @@ description: Como criar um scorecard de painéis do Analytics
 title: Criar um scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 81%
+source-wordcount: '1037'
+ht-degree: 74%
 
 ---
 
@@ -15,15 +15,20 @@ ht-degree: 81%
 
 Em alguns casos, os usuários executivos podem precisar de assistência adicional para acessar e usar o aplicativo. Esta seção fornece informações para ajudá-lo a prestar essa assistência.
 
-## Pré-requisitos do sistema dos usuários executivos
+## Garantir que os usuários do aplicativo tenham acesso ao Adobe Analytics
+
+1. Configure novos usuários no [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md).
+
+1. Para compartilhar scorecards, você deve conceder permissões aos usuários do aplicativo para acessar componentes do scorecard, como o Analysis Workspace, os conjuntos de relatórios nos quais os scorecards são baseados, bem como segmentos, métricas e dimensões.
+
+## Pré-requisitos do sistema dos usuários do aplicativo
 
 Para garantir que os usuários executivos tenham acesso aos seus scorecards no aplicativo, verifique se:
 
 * Os requisitos mínimos do sistema operacional móvel dos dispositivos são iOS versão 10 ou superior ou Android versão 4.4 (KitKat) ou superior
-* Eles possuem um logon válido no Adobe Analytics
-* Você criou corretamente os Scorecards para dispositivos móveis para eles e compartilhou esses Scorecards com eles
-* Eles têm acesso à Analysis Workspace e ao conjunto de relatórios em o Scorecard se baseia
-* Eles têm acesso aos Componentes incluídos no Scorecard. Observe que é possível selecionar uma opção ao compartilhar os Scorecards para **[!UICONTROL Compartilhar componentes inseridos]**.
+* Eles possuem um logon válido no Adobe Analytics.
+* Você criou corretamente os scorecards para dispositivos móveis para eles e compartilhou esses scorecards com eles.
+* Eles têm acesso aos Componentes incluídos no scorecard. Observe que é possível selecionar uma opção ao compartilhar os scorecards para **[!UICONTROL Compartilhar componentes inseridos]**.
 
 ## Aplicativos de download e instalação dos executivos de ajuda
 
