@@ -3,15 +3,19 @@ description: Como criar um scorecard dos painéis do Adobe Analytics
 title: Criar um scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 86%
+source-wordcount: '1016'
+ht-degree: 77%
 
 ---
 
 
 # Criar um scorecard
+
+As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para começar, você pode exibir o vídeo Construtor de scorecard dos painéis do Adobe Analytics :
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 Um scorecard do Adobe Analytics exibe as principais visualizações de dados para usuários executivos em um layout lado a lado, como mostrado abaixo:
 
@@ -28,9 +32,9 @@ Para criar o Scorecard, é necessário fazer o seguinte:
 
 ## Acesse o modelo de [!UICONTROL Scorecard para dispositivos móveis em branco]
 
-Você pode acessar o modelo de [!UICONTROL Scorecard para dispositivos móveis em branco] de uma das seguintes maneiras:
+Você pode acessar o modelo [!UICONTROL Scorecard para dispositivos móveis em branco] criando um novo projeto ou no menu Ferramentas .
 
-**Criar um novo projeto**
+### Criar um novo projeto
 
 1. Abra o Adobe Analytics e clique na guia **[!UICONTROL Workspace]**.
 1. Clique em **[!UICONTROL Criar projeto]** e selecione o modelo de projeto **[!UICONTROL Scorecard para dispositivos móveis em branco]**.
@@ -38,7 +42,7 @@ Você pode acessar o modelo de [!UICONTROL Scorecard para dispositivos móveis e
 
 ![Modelo de Scorecard](assets/new_template.png)
 
-Ou
+### Modelo Ferramentas
 
 1. No menu **[!UICONTROL Ferramentas]** selecione **[!UICONTROL Painéis do Analytics (Aplicativo móvel)]**.
 1. Na tela seguinte, clique no botão **[!UICONTROL Criar novo scorecard]**.
@@ -58,52 +62,71 @@ Para implementar o modelo de Scorecard:
 
    *Em cada bloco, é possível acessar uma exibição detalhada que mostra informações adicionais sobre a métrica, como itens principais para uma lista de dimensões relacionadas.*
 
+### Adicionar dimensões ou métricas
 
-1. Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco. Por exemplo, você pode adicionar dimensões apropriadas (como **[!DNL DMA Region]**, neste exemplo) às métricas **[!UICONTROL Visitantes únicos]** arrastando e soltando no bloco; as dimensões que você adicionar aparecerão na seção de detalhamento das **[!UICONTROL Propriedades]** específicas do bloco. É possível adicionar várias dimensões a cada bloco.
+Para adicionar uma dimensão relacionada a uma métrica:
 
-   ![Adicionar dimensões](assets/layer_dimensions.png)
+Arraste uma dimensão do painel esquerdo e solte-a em um bloco.
 
-   Quando você clica em um bloco no Construtor de scorecards, o painel direito exibe as propriedades e características associadas a esse bloco. Nesse painel, você pode fornecer um novo **[!UICONTROL Título]** para o bloco e, como alternativa, configurá-lo especificando os componentes, em vez de arrastá-los e soltá-los no painel esquerdo.
+Por exemplo, você pode adicionar dimensões apropriadas (como **[!DNL DMA Region]**, neste exemplo) às métricas **[!UICONTROL Visitantes únicos]** arrastando e soltando no bloco; as dimensões que você adicionar aparecerão na seção de detalhamento das **[!UICONTROL Propriedades]** específicas do bloco. É possível adicionar várias dimensões a cada bloco.
 
-   ![Bloco de propriedades](assets/properties_tile.png)
+![Adicionar dimensões](assets/layer_dimensions.png)
 
-   Além disso, se você clicar nos blocos, um pop-up dinâmico mostrará como a exibição Detalhamento aparecerá para o usuário executivo no aplicativo. Se nenhuma dimensão tiver sido aplicada ao bloco, a dimensão de detalhamento será a **hora** ou os **dias**, dependendo do intervalo de datas padrão.
+### Exibir e configurar propriedades de blocos
 
-   ![Detalhamento_exibição](assets/break_view.png)
+Ao clicar em um bloco no Construtor de scorecards, o painel direito exibe as propriedades e características associadas a esse bloco. Nesse painel, você pode fornecer um novo **[!UICONTROL Título]** para o bloco e, como alternativa, configurá-lo especificando os componentes, em vez de arrastá-los e soltá-los no painel esquerdo.
 
-   Cada dimensão adicionada ao bloco será mostrada em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
+![Bloco de propriedades](assets/properties_tile.png)
 
-1. Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco. Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco em cima do scorecard. Ou você também pode aplicar segmentos selecionando segmentos no menu de filtro abaixo dos intervalos de datas. Você [configura e aplica filtros para seus Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR) da mesma forma que faria no Adobe Analytics Workspace.
+Além disso, se você clicar nos blocos, um pop-up dinâmico mostrará como a exibição Detalhamento aparecerá para o usuário executivo no aplicativo. Se nenhuma dimensão tiver sido aplicada ao bloco, a dimensão de detalhamento será a **hora** ou os **dias**, dependendo do intervalo de datas padrão.
 
-   ![Criar segmentos para filtro](assets/segment_ui.png)
+![Detalhamento_exibição](assets/break_view.png)
 
-1. Da mesma forma, para remover um componente aplicado a todo o cartão de pontuação, clique em qualquer lugar do cartão de pontuação fora dos blocos e remova-o clicando no **x** exibido ao passar o mouse sobre o componente, como mostrado abaixo para o segmento **Primeiras visitas**:
+Cada dimensão adicionada ao bloco será mostrada em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
 
-   ![Remover_componentes](assets/new_remove.png)
+### Aplicar segmentos
 
-1. Adicione e remova combinações de intervalo de datas que podem ser selecionadas no cartão de pontuação selecionando o menu suspenso Intervalo de datas.
+Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco.
 
-   ![Novo cartão de pontuação](assets/new_score_card.png)
+Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco em cima do scorecard. Ou você também pode aplicar segmentos selecionando segmentos no menu de filtro abaixo dos intervalos de datas. Você [configura e aplica filtros para seus Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR) da mesma forma que faria no Adobe Analytics Workspace.
 
-   Cada novo cartão de pontuação começa com seis combinações de intervalo de datas, com foco nos dados de hoje e ontem. Você pode remover intervalos de datas desnecessários clicando no x ou editar cada combinação de intervalo de datas clicando no lápis.
+![Criar segmentos para filtro](assets/segment_ui.png)
 
-   ![Novo cartão de pontuação2](assets/new_score_card2.png)
+### Remover componentes
 
-   Para criar ou alterar uma data principal, use o menu suspenso para selecionar intervalos de datas disponíveis ou arraste e solte um componente de data do painel direito na área designada.
+Da mesma forma, para remover um componente aplicado a todo o cartão de pontuação, clique em qualquer lugar do cartão de pontuação fora dos blocos e remova-o clicando no **x** exibido ao passar o mouse sobre o componente, como mostrado abaixo para o segmento **Primeiras visitas**:
 
-   ![Novo cartão de pontuação3](assets/new_score_card3.png)
+![Remover_componentes](assets/new_remove.png)
 
-   Para criar uma data de comparação, você pode selecionar entre predefinições convenientes para comparações de tempo comuns no menu suspenso. Você também pode arrastar e soltar um componente de data no painel direito.
+### Intervalos de data
 
-   ![Novo cartão de pontuação4](assets/new_score_card4.png)
+Adicione e remova combinações de intervalo de datas que podem ser selecionadas no cartão de pontuação selecionando o menu suspenso Intervalo de datas.
 
-   Se o intervalo de datas desejado ainda não tiver sido criado, será possível criar um novo clicando no ícone do calendário.
+![Novo cartão de pontuação](assets/new_score_card.png)
 
-   ![Novo cartão de pontuação4](assets/new_score_card5.png)
+Cada novo cartão de pontuação começa com seis combinações de intervalo de datas, com foco nos dados de hoje e ontem. Você pode remover intervalos de datas desnecessários clicando no x ou editar cada combinação de intervalo de datas clicando no lápis.
 
-1. Você será direcionado ao construtor de intervalo de datas, em que é possível criar e salvar um novo componente de intervalo de datas. Para nomear o Scorecard, clique no namespace no canto superior esquerdo da tela e digite o novo nome.
+![Novo cartão de pontuação2](assets/new_score_card2.png)
 
-   ![Nomeação_Scorecards](assets/new_name.png)
+Para criar ou alterar uma data principal, use o menu suspenso para selecionar intervalos de datas disponíveis ou arraste e solte um componente de data do painel direito na área designada.
+
+![Novo cartão de pontuação3](assets/new_score_card3.png)
+
+Para criar uma data de comparação, você pode selecionar entre predefinições convenientes para comparações de tempo comuns no menu suspenso. Você também pode arrastar e soltar um componente de data no painel direito.
+
+![Novo cartão de pontuação4](assets/new_score_card4.png)
+
+Se o intervalo de datas desejado ainda não tiver sido criado, será possível criar um novo clicando no ícone do calendário.
+
+![Novo cartão de pontuação5](assets/new_score_card5.png)
+
+Você será direcionado ao construtor de intervalo de datas, em que é possível criar e salvar um novo componente de intervalo de datas.
+
+## Nomear um scorecard
+
+Para nomear o Scorecard, clique no namespace no canto superior esquerdo da tela e digite o novo nome.
+
+![Nomeação_Scorecards](assets/new_name.png)
 
 ## Compartilhar o scorecard
 

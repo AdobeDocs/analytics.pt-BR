@@ -1,13 +1,13 @@
 ---
 description: Instruções para usar os scorecards de painéis.
 title: Guia executivo de painéis do Adobe Analytics
-feature: Painéis do Analytics
+feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1293'
-ht-degree: 100%
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+workflow-type: tm+mt
+source-wordcount: '1287'
+ht-degree: 98%
 
 ---
 
@@ -15,14 +15,11 @@ ht-degree: 100%
 
 As informações a seguir fornecem aos usuários executivos informações sobre as práticas recomendadas para usar e exibir painéis do Adobe Analytics. Para ver um vídeo demonstrando essas informações, consulte [painéis do Adobe Analytics na experiência no aplicativo](https://youtu.be/QXqQ_PkArbA).
 
-
 ## Introdução
 
 Os painéis do Adobe Analytics fornecem insights a qualquer hora e em qualquer lugar do Adobe Analytics.  O aplicativo permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. Os painéis são aceitos em sistemas operacionais iOS e Android.
 
-## Mais informações sobre este guia
-
-Este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards nos painéis do Analytics. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de importantes dados resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
+Este guia tem como objetivo ajudar usuários executivos a ler e interpretar scorecards nos painéis do Analytics. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de importantes dados resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
 
 ## Glossário de termos
 
