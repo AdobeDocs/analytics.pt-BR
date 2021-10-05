@@ -3,9 +3,9 @@ title: Estado identificado
 description: Um sinalizador que determina o reconhecimento pelo gráfico do dispositivo.
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
 source-git-commit: 1a58c3e87f5918c91b891faa6027f5ad8b6024b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -21,5 +21,5 @@ Se o [Cross-Device Analytics](../cda/overview.md) estiver configurado para um co
 
 Os itens de dimensão incluem `"Identified"` e `"Unidentified"`.
 
-* **`"Identified"`**: A ocorrência é mapeada para uma pessoa.
-* **`"Unidentified"`**: A ocorrência não está mapeada a uma pessoa e não pode ser mapeada por nenhum método de atribuição.
+* **`"Identified"`**: o hit é mapeado para uma pessoa.
+* **`"Unidentified"`**: o hit não é mapeado para uma pessoa e não pode ser mapeado por nenhum método de atribuição.
