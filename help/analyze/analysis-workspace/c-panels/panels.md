@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ Arraste e solte qualquer segmento do painel esquerdo na área suspensa do painel
 
 ### Filtros de segmento Ad-hoc
 
-Componentes não segmentados também podem ser arrastados diretamente para a área de soltar para criar segmentos ad-hoc, economizando tempo e esforço de ir para o Construtor de segmentos. Segmentos criados dessa forma são definidos automaticamente como segmentos de nível de ocorrência. Essa definição pode ser modificada clicando no ícone de informações (i) ao lado do segmento e, em seguida, no ícone de edição em forma de lápis e editando-os no Construtor de segmento.
+Os componentes que não são de segmentos também podem ser arrastados diretamente para a zona suspensa para criar segmentos ad-hoc, economizando tempo e esforço de abrir o Criador de segmentos. Segmentos criados dessa forma são definidos automaticamente como segmentos de nível de ocorrência. Essa definição pode ser modificada clicando no ícone de informações (i) ao lado do segmento e, em seguida, no ícone de edição em forma de lápis e editando-os no Construtor de segmento.
 
-Segmentos ad-hoc são locais para o projeto e não são exibidos no painel esquerdo, a menos que você os torne públicos.
+Os segmentos ad-hoc são locais ao projeto e não são exibidos no painel esquerdo, a menos que você os torne públicos.
 
 ![](assets/adhoc-segment-filter.png)
 
