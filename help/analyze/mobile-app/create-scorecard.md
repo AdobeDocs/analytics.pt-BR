@@ -3,9 +3,9 @@ description: Como criar um scorecard dos painéis do Adobe Analytics
 title: Criar um scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
+source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1195'
 ht-degree: 60%
 
 ---
@@ -104,7 +104,7 @@ Você será direcionado ao construtor de intervalo de datas, em que é possível
 
 ### Aplicar visualizações
 
-Os painéis do Analytics agora oferecem quatro visualizações que oferecem excelente insight sobre itens de dimensão. Aplique uma visualização diferente alterando o [!UICONTROL tipo de gráfico] das propriedades de um bloco:
+Os painéis do Analytics oferecem quatro visualizações que proporcionam um excelente insight sobre itens de dimensão e métricas. Altere para uma visualização diferente alterando o [!UICONTROL tipo de gráfico] das propriedades de um bloco:
 
 ![Propriedades do mosaico](assets/properties.png)
 
@@ -117,6 +117,8 @@ Semelhante ao gráfico de pizza, essa visualização mostra os dados como partes
 **Visualização de linha**
 
 A visualização de linha representa as métricas que usam uma linha para mostrar como os valores são alterados em um período. Um gráfico de linha pode ser usado apenas quando o horário é usado como uma dimensão.
+
+
 
 **[!UICONTROL Visualização ] de Barras Horizontais**
 
