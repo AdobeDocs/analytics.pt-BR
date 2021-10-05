@@ -3,7 +3,7 @@ title: linkDownloadFileTypes
 description: Determine as extensões de arquivo que são automaticamente rastreadas como links de download.
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -23,6 +23,7 @@ Use `linkDownloadFileTypes` para personalizar quais extensões de arquivo deseja
 >* Downloads acionados após um redirecionamento
 >* Clicar com o botão direito do mouse e selecionar &#39;Salvar destino como...&#39;
 >* Links que usam JavaScript, como `javascript:openLink()`
+
 >
 >Nesses tipos de download, você pode chamar o método [`tl()`](../functions/tl-method.md) manualmente.
 
