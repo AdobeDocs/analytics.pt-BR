@@ -3,9 +3,9 @@ description: Saiba quando e por que os conectores de dados do Analytics serão e
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 82%
 
 Por mais de uma década, o Adobe Analytics tem como objetivo oferecer a melhor solução analítica de marketing na Web para atender às necessidades dos clientes. À medida que as necessidades tecnológicas e empresariais evoluem, nos esforçamos para fornecer e atender continuamente os mais altos padrões.  Infelizmente, as APIs que potencializam essa integração não atendem mais a esses padrões e não são sustentáveis na infraestrutura moderna da tecnologia do Adobe Analytics.
 
-**A partir de 19 de agosto de 2021**, o Adobe descontinuou as Integrações dos Data Connectors. O fim da vida útil faz parte do ciclo de vida de qualquer produto tecnológico, e a Adobe visa tornar a transição o mais simples possível para nossos clientes e parceiros. Muitas dessas integrações estão disponíveis via Adobe Exchange e podem continuar sendo usadas.
+**A partir de 19 de agosto de 2021**, a Adobe descontinuou as integrações de conectores de dados. O fim da vida útil faz parte do ciclo de vida de qualquer produto tecnológico, e a Adobe visa tornar a transição o mais simples possível para nossos clientes e parceiros. Muitas dessas integrações estão disponíveis via Adobe Exchange e podem continuar sendo usadas.
 
 ## Por que vamos acabar com esse recurso?
 
@@ -23,7 +23,7 @@ Este recurso é alimentado por tecnologia herdada que não é mais viável ou co
 
 Se você é um Parceiro da Adobe, os detalhes sobre como migrar sua integração para nosso novo programa Adobe Exchange podem ser encontrados [aqui](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) em nossa documentação.
 
-Se for cliente do Conector de dados e quiser solicitar que a integração usada seja migrada, você deverá *encaminhar todas as solicitações diretamente ao Parceiro de integração*. O parceiro precisa se comprometer a mudar para as novas APIs. Infelizmente, o Atendimento ao cliente do Adobe não pode obrigar os parceiros a migrar para as novas APIs.
+Se for cliente do Conector de dados e quiser solicitar que a integração usada seja migrada, você deverá *encaminhar todas as solicitações diretamente ao Parceiro de integração*. O parceiro precisa se comprometer a mudar para as novas APIs. Infelizmente, o Atendimento ao cliente da Adobe não pode obrigar os parceiros a migrar para as novas APIs.
 
 A cada empresa que oferecia uma integração foi dada a opção de migrar sua integração para o Adobe Exchange ou descontinuá-la. Abaixo está um resumo de cada integração atual e suas respectivas decisões.
 
