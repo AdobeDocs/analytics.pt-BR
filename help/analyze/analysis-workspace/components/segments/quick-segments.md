@@ -6,14 +6,14 @@ role: User, Admin
 source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
 
 # Segmentos rápidos
 
-Você pode criar segmentos rápidos em um projeto para ignorar a complexidade do [construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) completo. Segmentos rápidos
+Você pode criar segmentos rápidos em um projeto para ignorar a complexidade do [Criador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) completo. Segmentos rápidos
 
 * Aplique-se somente aos projetos em que foram criados (é possível alterar isso).
 * Permitir até 3 regras.
@@ -40,7 +40,7 @@ Em uma tabela de Forma livre, clique no ícone filter+ no cabeçalho do painel:
 | Nome | O nome padrão de um segmento é uma combinação dos nomes das regras no segmento. Você pode renomear o segmento. |
 | Incluir/excluir | Você pode incluir ou excluir componentes na definição do seu segmento, mas não ambos. |
 | Contêiner de Ocorrência/Visita/Visitante | Os segmentos rápidos incluem um [contêiner de segmento](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) somente que permite incluir uma dimensão/métrica/intervalo de datas no (ou excluí-lo) segmento.  O Visitante contém dados abrangentes específicos para visitantes em visitas e visualizações de página. Um contêiner de [!UICONTROL Visita] permite definir regras para detalhar os dados do visitante com base em visitas e um contêiner de [!UICONTROL Ocorrência] permite detalhar as informações do visitante com base em visualizações de página individuais. O contêiner padrão é [!UICONTROL Hit]. |
-| Componentes (Dimension/métrica/intervalo de datas) | Defina até 3 regras adicionando dimensões e/ou métricas de componentes e/ou intervalos de datas e seus valores. Há 3 maneiras de encontrar o componente correto:<ul><li>Comece a digitar e o construtor [!UICONTROL Quick Segment] encontra automaticamente o componente apropriado.</li><li>Use a lista suspensa para localizar o componente.</li><li>Arraste e solte componentes do painel esquerdo.</li></ul> |
+| Componentes (Dimension/métrica/intervalo de datas) | Defina até 3 regras adicionando dimensões e/ou métricas de componentes e/ou intervalos de datas e seus valores. Há 3 maneiras de encontrar o componente correto:<ul><li>Comece a digitar e o construtor [!UICONTROL Quick Segment] encontra automaticamente o componente apropriado.</li><li>Use a lista suspensa para localizar o componente.</li><li>Arraste e solte-os do painel esquerdo.</li></ul> |
 | Operador | Use o menu suspenso para encontrar operadores padrão e operadores [!UICONTROL Distinct Count]. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=en) |
 | Sinal de mais (+) | Adicionar outra regra |
 | Qualificadores E/OU | Você pode adicionar qualificadores &quot;AND&quot; ou &quot;OR&quot; às regras, mas não pode misturar &quot;AND&quot; e &quot;OR&quot; em uma única definição de segmento. |

@@ -5,7 +5,7 @@ exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,6 +52,6 @@ Quando o Cross-Device Analytics estiver ativado em um conjunto de relatórios vi
 
 * Um novo ícone entre dispositivos é exibido ao lado do nome do conjunto de relatórios virtual. Esse ícone é exclusivo para conjuntos de relatórios virtuais entre dispositivos.
 * Uma nova dimensão chamada [Estado identificado](../dimensions/identified-state.md) está disponível.
-* Novas métricas chamadas [People](../metrics/people.md), [Dispositivos únicos](../metrics/unique-devices.md), [Pessoas identificadas](../metrics/identified-people.md), [Pessoas não identificadas](../metrics/unidentified-people.md) e [Pessoas com Experience Cloud ID](../metrics/people-with-exp-cloud-id.md) estão disponíveis.
+* Novas métricas chamadas [Pessoas](../metrics/people.md), [Dispositivos exclusivos](../metrics/unique-devices.md), [Pessoas identificadas](../metrics/identified-people.md), [Pessoas não identificadas](../metrics/unidentified-people.md) e [Pessoas com Experience Cloud ID](../metrics/people-with-exp-cloud-id.md) estão disponíveis.
 * A métrica [Visitantes únicos](../metrics/unique-visitors.md) não está disponível, pois foi substituída por Pessoas e Dispositivos únicos.
 * Ao criar segmentos, o contêiner de segmento &quot;Visitante&quot; é substituído pelo contêiner &quot;Pessoa&quot;.

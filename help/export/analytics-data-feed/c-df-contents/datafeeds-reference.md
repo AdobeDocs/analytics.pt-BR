@@ -9,7 +9,7 @@ exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
 source-wordcount: '3420'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -154,7 +154,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `page_event` | O tipo de ocorrência que é enviado na solicitação da imagem (ocorrência padrão, link de download, link personalizado, link de saída). [Pesquisa de evento da página](datafeeds-page-event.md). | tinyint unsigned |
 | `page_event_var1` | Somente usado em solicitações de imagem de rastreamento de link. O URL dos links clicados, seja de download, de saída ou personalizados. | texto |
 | `page_event_var2` | Somente usado em solicitações de imagem de rastreamento de link. O nome personalizado (se especificado) do link. | varchar(100) |
-| `page_event_var3` | Não está mais em uso. Continha dados de módulo de Pesquisa e de Mídia. Preenchia relatórios herdados de vídeo em versões anteriores do Adobe Analytics. | texto |
+| `page_event_var3` | Não está mais em uso. Contenía los datos de los módulos Encuesta y Medios.  Preenchia relatórios herdados de vídeo em versões anteriores do Adobe Analytics. | texto |
 | `page_type` | Usado para preencher a dimensão [Páginas não encontradas](/help/components/dimensions/pages-not-found.md). Usado exclusivamente para páginas 404. Essa variável deve estar vazia ou conter o valor `ErrorPage`. | char(20) |
 | `page_url` | O URL da ocorrência. Observe que `post_page_url` é removido para solicitações de imagem de rastreamento de link e usa um tipo de dados de varchar(255). | texto |
 | `pagename` | Usado para preencher a dimensão [Página](/help/components/dimensions/page.md). Se a variável [`pagename`](/help/implement/vars/page-vars/pagename.md) estiver vazia, o Analytics usa `page_url`. | varchar(100) |

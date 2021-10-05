@@ -811,7 +811,7 @@ Novos recursos lançados em 8 de junho de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Melhorias do <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>Fluxo</b> </a> </td> 
+   <td colname="col1"> Melhorias do <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>Fluxo</b></a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Foi adicionada uma nova configuração de visualização chamada <span class="wintitle"> Desativar o truncamento de rótulos </span> (padrão = desmarcado). </li> 
@@ -848,7 +848,7 @@ Novos recursos lançados em 8 de junho de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Melhorias no <b> <a href="/help/components/c-alerts/alert-manager.md"  >Gerenciador de alerta</a> </b> </p> </td> 
+   <td colname="col1"> <p>Melhorias no <b><a href="/help/components/c-alerts/alert-manager.md"  >Gerenciador de alerta</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Adicionada a capacidade de ativar ou desativar alertas. </li> 

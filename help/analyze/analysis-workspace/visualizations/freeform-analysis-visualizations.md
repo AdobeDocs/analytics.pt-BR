@@ -8,7 +8,7 @@ exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
 workflow-type: tm+mt
 source-wordcount: '1082'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Se não tiver certeza sobre qual visualização selecionar, clique no ícone **[
 
 ![](assets/quick-viz.png)
 
-## Alterar o eixo de escala em visualizações
+## Alteração da escala/eixo nas visualizações
 
 Esta é uma visão geral do vídeo:
 

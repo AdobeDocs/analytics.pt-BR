@@ -6,7 +6,7 @@ exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
 workflow-type: tm+mt
 source-wordcount: '2201'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Baixe a versão mais recente do AppMeasurement no [Gerenciador de código](/help
 
 Data de lançamento: **7 de setembro de 2021**
 
-* Essa atualização faz com que `opt.dmp` e `opt.sell` sempre sejam incluídas no rastreamento de links. Esta é uma [lista completa de variáveis de consentimento](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+* Essa atualização faz com que `opt.dmp` e `opt.sell` sempre sejam incluídas no rastreamento de links. Esta é uma [lista completa de variáveis de consentimento](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=pt-BR).
 
 ## Versão 2.22.1
 
@@ -264,7 +264,7 @@ Data de lançamento: **21 de julho de 2016**
 
 * Inclusão da API de Visitante 1.6.0.
 * Correção de um problema que fazia com que [!DNL AppMeasurement] chamasse o método ofuscado errado na API do visitante. (AN-126006)
-* Correção de um problema que causava o erro [!DNL JavaScript]: &quot;Atributo válido apenas na v:image&quot;. (AN-124009)
+* Correção de um problema que causava o erro :[!DNL JavaScript] &quot;Atributo válido apenas na v:image&quot;. (AN-124009)
 
 ## Versão 1.6.1
 
@@ -462,7 +462,7 @@ Data de lançamento: **15 de agosto de 2013**
 
 Data de lançamento: **18 de julho de 2013**
 
-* Agora, o hash/fragmento é omitido pelo rastreamento automático de link. Antes, o URL a seguir era rastreado automaticamente se o `href` inteiro terminasse em `.pdf`:
+* Agora, o hash/fragmento é omitido pelo rastreamento automático de link. Antes, o URL a seguir era rastreado automaticamente se o `href` inteiro terminasse em :`.pdf`
 
    ```js
    <a href="index.htm#anchor.pdf">Test Link</a>

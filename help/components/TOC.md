@@ -7,7 +7,7 @@ user-guide-description: Ajuda a organizar seus dados usando componentes como seg
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
