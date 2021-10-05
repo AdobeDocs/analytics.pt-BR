@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ A visualização de mapa no Analysis Workspace
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Lat/long móveis</b> </p> </td> 
-   <td colname="col2"> <p>Esta opção representa dados do aplicativo móvel. </p> <p>Você verá esta opção se ela estiver ativada para o conjunto de relatórios em <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Conjuntos de relatórios </span> &gt; <span class="uicontrol"> &lt;selecionar conjunto de relatórios&gt; </span> &gt; <span class="uicontrol"> Editar configurações </span> &gt; <span class="uicontrol"> Gerenciamento móvel </span> &gt; <span class="uicontrol"> Ativar rastreamento de localização</span> </span>. </p> <p>Esta é a configuração padrão (caso o rastreamento de localização esteja ativado). </p> </td> 
+   <td colname="col2"> <p>Esta opção representa dados do aplicativo móvel. </p> <p>Você verá esta opção se ela estiver ativada para o conjunto de relatórios em <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Conjuntos de relatórios </span> &gt; <span class="uicontrol"> &lt;selecionar conjunto de relatórios&gt; </span> &gt; <span class="uicontrol"> Editar configurações </span> &gt; <span class="uicontrol"> Gerenciamento móvel </span> &gt; <span class="uicontrol"> Ativar rastreamento de localização</span></span>. </p> <p>Esta é a configuração padrão (caso o rastreamento de localização esteja ativado). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Dimensão geográfica</b> </p> </td> 
@@ -90,8 +90,8 @@ Se você clicar no **ícone de engrenagem**, aparecerão as configurações de v
 | Raio do cluster | Agrupa os pontos de dados que estão dentro do número especificado de pixels. O padrão é 50. |
 | Valor máximo personalizado | Permite alterar o limite para o valor máximo do mapa; a definição desse valor ajusta a escala para os valores de propagações/mapa de calor (cor e tamanho) relacionados ao valor máximo personalizado que foi definido. |
 
-## Criar um mapa de calor de separação de tempo
+## Criar um mapa de calor de divisão de tempo
 
-Aqui está um vídeo sobre o tópico:
+Esta é uma visão geral em vídeo sobre este tópico:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
