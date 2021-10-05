@@ -3,15 +3,15 @@ title: Carrinhos
 description: O número de ocorrências em que um visitante adicionou seu primeiro produto ao carrinho.
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
 source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Carrinhos
 
-A métrica &quot;Carrinhos&quot; mostra o número de ocorrências em que um visitante adicionou seu primeiro produto ao carrinho.
+A métrica &quot;Carrinhos&quot; mostra o número de hits em que um visitante adicionou o primeiro produto ao carrinho.
 
 ## Como essa métrica é calculada
 
