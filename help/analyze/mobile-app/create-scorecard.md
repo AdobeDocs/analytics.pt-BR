@@ -3,9 +3,9 @@ description: Como criar um scorecard dos painéis do Adobe Analytics
 title: Criar um scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
+source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1338'
 ht-degree: 54%
 
 ---
@@ -112,32 +112,32 @@ Ou clique no ícone [!UICONTROL Visualizações] no painel à esquerda e arraste
 
 ![Visualizações](assets/vizs.png)
 
-**[!UICONTROL Número do resumo]**
+### [!UICONTROL Número do resumo]
 
 Use a visualização Número do resumo para realçar um grande número que é importante em um projeto.
 
-![Número do resumo](assets/sparkline.png)
+![Número do resumo](assets/summary-number.png)
 
-** Rosvisualização**
+### [!UICONTROL Rosca]
 
 Semelhante ao gráfico de pizza, essa visualização mostra os dados como partes ou segmentos de um todo. Use um gráfico de rosca ao comparar porcentagens de um total. Por exemplo, digamos que você queira ver qual plataforma de anúncio contribuiu para o número total de visitantes únicos:
 
 ![Visualização de rosca](assets/donut-viz.png)
 
-**Visualização de linha**
+### [!UICONTROL Linha]
 
 A visualização de linha representa as métricas que usam uma linha para mostrar como os valores são alterados em um período. Um gráfico de linha mostra dimensões ao longo do tempo, mas funciona com qualquer visualização. Você está visualizando a dimensão categoria do produto neste exemplo.
 
 ![Visualização de linha](assets/line.png)
 
 
-**[!UICONTROL Visualização ] de Barras Horizontais**
+### [!UICONTROL Barra horizontal]
 
 Esta visualização mostra barras horizontais que representam vários valores de uma ou mais métricas. Por exemplo, para ver facilmente os principais produtos, use a [!UICONTROL Barra horizontal] para visualizar de preferência.
 
 ![barra horizontal](assets/horizontal.png)
 
-**Remover itens de dimensão   não especificados**
+### Remover itens de dimensão [!UICONTROL Não especificado]
 
 Se quiser remover [!UICONTROL Unspecified] itens de dimensão de seus dados, faça o seguinte:
 
