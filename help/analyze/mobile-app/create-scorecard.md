@@ -3,10 +3,10 @@ description: Como criar um scorecard dos painéis do Adobe Analytics
 title: Criar um scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
+source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 60%
+source-wordcount: '1341'
+ht-degree: 54%
 
 ---
 
@@ -62,7 +62,7 @@ Para implementar o modelo de Scorecard:
 
 1. Em cada bloco, é possível acessar uma exibição detalhada que mostra informações adicionais sobre a métrica, como itens principais para uma lista de dimensões relacionadas.
 
-### Adicionar dimensões ou métricas
+## Adicionar dimensões ou métricas
 
 Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco.
 
@@ -70,7 +70,7 @@ Por exemplo, é possível adicionar dimensões apropriadas (como **[!DNL Marketi
 
 ![Adicionar dimensões](assets/layer_dimensions.png)
 
-### Aplicar segmentos
+## Aplicar segmentos
 
 Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco.
 
@@ -78,7 +78,7 @@ Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco
 
 ![Criar segmentos para filtro](assets/segment_ui.png)
 
-### Adicionar intervalos de datas
+## Adicionar intervalos de datas
 
 Adicione e remova combinações de intervalo de datas que podem ser selecionadas no cartão de pontuação selecionando o menu suspenso Intervalo de datas.
 
@@ -102,13 +102,23 @@ Se o intervalo de datas desejado ainda não tiver sido criado, será possível c
 
 Você será direcionado ao construtor de intervalo de datas, em que é possível criar e salvar um novo componente de intervalo de datas.
 
-### Aplicar visualizações
+## Aplicar visualizações
 
-Os painéis do Analytics oferecem quatro visualizações que proporcionam um excelente insight sobre itens de dimensão e métricas. Altere para uma visualização diferente alterando o [!UICONTROL tipo de gráfico] das propriedades de um bloco:
+Os painéis do Analytics oferecem quatro visualizações que proporcionam um excelente insight sobre itens de dimensão e métricas. Altere para uma visualização diferente alterando o [!UICONTROL tipo de gráfico] de [!UICONTROL Propriedades] de um bloco. Basta selecionar o bloco direito e alterar o tipo de gráfico.
 
 ![Propriedades do mosaico](assets/properties.png)
 
-** Visualização de rosca**
+Ou clique no ícone [!UICONTROL Visualizações] no painel à esquerda e arraste e solte a visualização à direita no bloco :
+
+![Visualizações](assets/vizs.png)
+
+**[!UICONTROL Número do resumo]**
+
+Use a visualização Número do resumo para realçar um grande número que é importante em um projeto.
+
+![Número do resumo](assets/sparkline.png)
+
+** Rosvisualização**
 
 Semelhante ao gráfico de pizza, essa visualização mostra os dados como partes ou segmentos de um todo. Use um gráfico de rosca ao comparar porcentagens de um total. Por exemplo, digamos que você queira ver qual plataforma de anúncio contribuiu para o número total de visitantes únicos:
 
@@ -116,15 +126,29 @@ Semelhante ao gráfico de pizza, essa visualização mostra os dados como partes
 
 **Visualização de linha**
 
-A visualização de linha representa as métricas que usam uma linha para mostrar como os valores são alterados em um período. Um gráfico de linha pode ser usado apenas quando o horário é usado como uma dimensão.
+A visualização de linha representa as métricas que usam uma linha para mostrar como os valores são alterados em um período. Um gráfico de linha mostra dimensões ao longo do tempo, mas funciona com qualquer visualização. Você está visualizando a dimensão categoria do produto neste exemplo.
 
+![Visualização de linha](assets/line.png)
 
 
 **[!UICONTROL Visualização ] de Barras Horizontais**
 
-Esta visualização mostra barras horizontais que representam vários valores de uma ou mais métricas.
+Esta visualização mostra barras horizontais que representam vários valores de uma ou mais métricas. Por exemplo, para ver facilmente os principais produtos, use a [!UICONTROL Barra horizontal] para visualizar de preferência.
 
-### Exibir e configurar propriedades de blocos
+![barra horizontal](assets/horizontal.png)
+
+**Remover itens de dimensão   não especificados**
+
+Se quiser remover [!UICONTROL Unspecified] itens de dimensão de seus dados, faça o seguinte:
+
+1. Selecione o mosaico correto.
+1. No painel direito, em **[!UICONTROL Drill ins]**, selecione a seta para a direita ao lado do item de dimensão cujos itens **[!UICONTROL Não especificado]** você deseja remover.
+
+   ![não especificado](assets/unspecified.png)
+
+1. Clique no ícone ao lado de **[!UICONTROL Unspecified]** para remover dados não especificados de seus relatórios. (Também é possível remover qualquer outro item de dimensão.)
+
+## Exibir e configurar propriedades de blocos
 
 Ao clicar em um bloco no Construtor de scorecards, o painel direito exibe as propriedades e características associadas a esse bloco. Nesse painel, você pode fornecer um novo **[!UICONTROL Título]** para o bloco e, como alternativa, configurá-lo especificando os componentes, em vez de arrastá-los e soltá-los no painel esquerdo.
 
@@ -142,7 +166,7 @@ Detalhamentos refinam sua análise ao detalhar literalmente métricas e dimensõ
 
 Cada dimensão adicionada ao bloco será mostrada em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
 
-### Remover componentes
+## Remover componentes
 
 Da mesma forma, para remover um componente aplicado a todo o cartão de pontuação, clique em qualquer lugar do cartão de pontuação fora dos blocos e remova-o clicando no **x** exibido ao passar o mouse sobre o componente, como mostrado abaixo para o segmento **Primeiras visitas**:
 
