@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Fornece instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e de visualização do Analytics, bem como ferramentas como painéis do Adobe Analytics, Report Builder e Activity Map.
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1006'
 ht-degree: 98%
 
 ---
@@ -312,8 +312,8 @@ ht-degree: 98%
 + Painéis do Adobe Analytics {#mobapp}
    + [Painéis do Adobe Analytics - Visão geral](mobile-app/home.md)
    + [Introdução do curador](mobile-app/curator.md)
-   + [Criar um scorecard](mobile-app/create-scorecard.md)
-   + [Configurar executivos para usar scorecards](mobile-app/set-up-execs.md)
+   + [Criar um scorecard móvel](mobile-app/create-scorecard.md)
+   + [Configurar executivos para usar painéis](mobile-app/set-up-execs.md)
    + [Guia de início rápido do usuário executivo](mobile-app/executive.md)
 + [API de relatórios](reporting-api.md)
 + [Labs](labs.md)

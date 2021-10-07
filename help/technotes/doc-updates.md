@@ -3,10 +3,10 @@ title: Atualizações de documentação técnica do Adobe Analytics
 description: Atualizações notáveis no conjunto de documentação do Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '2899'
-ht-degree: 100%
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+workflow-type: tm+mt
+source-wordcount: '2918'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Data | Descrição |
 | --- | --- |
+| **Outubro de 2021** |  |
+| 7 de outubro de 2021 | Nova documentação sobre [visualizações para scorecards móveis](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
 | **Agosto de 2021** |  |
 | 18 de agosto de 2021 | Estrutura de nível superior revisada e consolidada para uma única [Página de aterrisagem](https://experienceleague.adobe.com/docs/analytics.html?lang=pt-BR) |
 | 18 de agosto de 2021 | Novo tópico em [A4T e conjuntos de relatórios virtuais](/help/components/vrs/vrs-a4t.md) |
@@ -64,7 +66,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 23 de outubro de 2020 | Adição de melhorias à documentação de painéis do Adobe Analytics. No cartão de pontuação móvel no Workspace, o estilo do cartão de pontuação agora corresponde ao aplicativo. |
 | **Setembro de 2020** |  |
 | 17 de setembro de 2020 | [Baixar 50 mil itens para uma única dimensão](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR#download-items): agora é possível baixar 50.000 itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. |
-| 17 de setembro de 2020 | [Melhorias na visualização de Linha](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=pt-BR): <ul><li>Você pode exibir ou ocultar o eixo x e o eixo y de qualquer visualização de [!UICONTROL Linha]. Pode ser especialmente útil quando suas visualizações de [!UICONTROL linha] são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de linha para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de linha para ver mais facilmente a tendência nos dados. As opções incluem [!UICONTROL Linear], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potência] e [!UICONTROL Quadrático].</li></ul> |
+| 17 de setembro de 2020 | [Melhorias na visualização de Linha](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): <ul><li>Você pode exibir ou ocultar o eixo x e o eixo y de qualquer visualização de [!UICONTROL Linha]. Pode ser especialmente útil quando suas visualizações de [!UICONTROL linha] são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de linha para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de linha para ver mais facilmente a tendência nos dados. As opções incluem [!UICONTROL Linear], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potência] e [!UICONTROL Quadrático].</li></ul> |
 | 17 de setembro de 2020 | Novos intervalos de datas no Workspace: adicionamos 5 novos intervalos de datas para que você possa escolher intervalos de datas que não incluem dados parciais do dia de hoje: Últimos 7 dias completos, Últimos 14 dias completos, Últimos 30 dias completos, Últimos 60 dias completos, Últimos 90 dias completos. |
 | 17 de setembro de 2020 | Nova documentação sobre o [painel Visualizador simultâneo de mídia no Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=pt-BR) |
 | **Agosto de 2020** |  |
@@ -79,8 +81,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 18 de junho de 2020 | Nova documentação sobre o [Attribution IQ: janelas de pesquisa personalizada](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR) |
 | 18 de junho de 2020 | Nova documentação para [Funções de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) para projetos compartilhados do Workspace. Ao compartilhar um projeto do Workspace, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. |
 | 18 de junho de 2020 | Nova documentação sobre [&quot;Exibir somente&quot; projetos do Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=pt-BR). Os projetos do podem ser compartilhados com os usuários somente como “Pode exibir”. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. |
-| 18 de junho de 2020 | Nova documentação sobre [Funções de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) para projetos compartilhados do Workspace. Ao compartilhar um projeto do Workspace, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. |
-| 18 de junho de 2020 | Nova documentação sobre [Coedição de projetos no Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR). Recipient adicionados à função “Pode editar” podem ser salvos em um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. |
+| 18 de junho de 2020 | Nova documentação sobre [Funções de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) para projetos compartilhados do Workspace. Ao compartilhar um projeto do Workspace, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. |
+| 18 de junho de 2020 | Nova documentação sobre [Coedição de projetos no Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Recipient adicionados à função “Pode editar” podem ser salvos em um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. |
 | **Maio de 2020** |  |
 | 31 de maio de 2020 | Nova documentação sobre [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | 21 de maio de 2020 | Nova documentação para [painéis do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=pt-BR) |
@@ -115,7 +117,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 19 de dezembro de 2020 | O [limite de armazenamento de dados padrão FTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=pt-BR) foi alterado para 10 GB. |
 | 29 de novembro de 2019 | Reformulação da [Documentação do feed de dados](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de novembro de 2019 | Novo tópico sobre Fim da vida útil para aplicar restrições de logon de IP. |
-| 21 de novembro de 2019 | Nova documentação definida para [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=pt-BR). |
+| 21 de novembro de 2019 | Nova documentação definida para [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html). |
 | 21 de novembro de 2019 | Atualização de [Perguntas frequentes sobre o fluxo de trabalho do Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=pt-BR) para indicar a disponibilidade no LiveStream. |
 | 25 de outubro de 2019 | Atualização da página [Principais conceitos do Adobe Analytics](/help/technotes/terms.md). |
 | 10 de outubro de 2019 | Atualização dos totais das tabelas de forma livre: agora incluem dois totais, um **[!UICONTROL Total da tabela]** e um **[!UICONTROL Total geral]**. As contas de linhas totais da tabela para os [filtros de relatório](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=pt-BR) foram aplicadas. Anteriormente, somente a segmentação afetava os totais. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR)<br/>Além disso, as opções **[!UICONTROL Mostrar totais]** e **[!UICONTROL Mostrar total geral]** foram adicionadas às **[!UICONTROL Configurações de coluna]**.<br/>Com essa alteração nos totais das tabelas de forma livre, as visualizações dependentes serão atualizadas (ex: visualizações de **[!UICONTROL Número de resumo]** interligadas), bem como dados CSV e PDF exportados. |

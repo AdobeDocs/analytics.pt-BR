@@ -1,19 +1,19 @@
 ---
 description: Como criar um scorecard dos painéis do Adobe Analytics
-title: Criar um scorecard
+title: Criar um scorecard móvel
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 54%
+source-wordcount: '1349'
+ht-degree: 53%
 
 ---
 
 
-# Criar um scorecard
+# Criar um scorecard móvel
 
-As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar painéis para usuários executivos. Para começar, você pode exibir o vídeo Construtor de scorecard dos painéis do Adobe Analytics :
+As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar scorecards para dispositivos móveis para usuários executivos. Para começar, você pode exibir o vídeo Construtor de scorecard dos painéis do Adobe Analytics :
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -103,6 +103,10 @@ Se o intervalo de datas desejado ainda não tiver sido criado, será possível c
 Você será direcionado ao construtor de intervalo de datas, em que é possível criar e salvar um novo componente de intervalo de datas.
 
 ## Aplicar visualizações
+
+Exibir um vídeo sobre visualizações de scorecards para dispositivos móveis:
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 Os painéis do Analytics oferecem quatro visualizações que proporcionam um excelente insight sobre itens de dimensão e métricas. Altere para uma visualização diferente alterando o [!UICONTROL tipo de gráfico] de [!UICONTROL Propriedades] de um bloco. Basta selecionar o bloco direito e alterar o tipo de gráfico.
 
