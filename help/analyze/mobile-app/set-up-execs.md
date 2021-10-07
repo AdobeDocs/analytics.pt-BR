@@ -3,10 +3,10 @@ description: Como criar um scorecard de painéis do Analytics
 title: Criar um scorecard
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 74%
+source-wordcount: '729'
+ht-degree: 64%
 
 ---
 
@@ -111,28 +111,6 @@ Se o usuário executivo fizer logon e vir uma mensagem dizendo que nada foi comp
 * O scorecard pode não ter sido compartilhado com o usuário executivo.
 
 Verifique se o usuário executivo pode fazer logon na instância correta do Adobe Analytics e se o scorecard foi compartilhado.
-
-### Relatar um erro
-
-Toque na opção e escolha uma subcategoria do erro. No formulário para relatar um erro, informe o endereço de email no campo superior e a descrição do erro no campo abaixo. Uma captura de tela das informações da sua conta é anexada automaticamente à mensagem, mas você pode excluí-la se desejar tocando no **X** na imagem do anexo. Você também tem opções para gravar uma tela, adicionar mais capturas de tela ou anexar arquivos. Para enviar o relatório, toque no ícone de plano de papel na parte superior direita do formulário.
-
-![Relatar erro](assets/newbug.png)
-
-### Deixar feedback
-
-1. Toque no ícone de configurações no canto superior direito da tela do aplicativo.
-1. Na tela **[!UICONTROL Configurações]**, toque na opção **[!UICONTROL Feedback]**.
-1. Toque para ver as opções para deixar comentários.
-
-   ![Tela de configurações](assets/settings.png)
-
-### Sugerir uma melhoria
-
-Toque na opção e escolha uma subcategoria para a sugestão. No formulário de sugestão, informe o endereço de email no campo superior e a descrição do erro no campo abaixo. Uma captura de tela das informações da sua conta é anexada automaticamente à mensagem, mas você pode excluí-la se desejar tocando no **X** na imagem do anexo. Você também tem opções para gravar uma tela, adicionar mais capturas de tela ou anexar arquivos. Para enviar a sugestão, toque no ícone de plano de papel na parte superior direita do formulário.
-
-### Faça uma pergunta
-
-Toque na opção e informe o endereço de email no campo superior e a pergunta no campo abaixo. Uma captura de tela é anexada automaticamente à mensagem, mas você pode excluí-la se desejar tocando no **X** na imagem do anexo. Você também tem opções para gravar uma tela, adicionar mais capturas de tela ou anexar arquivos. Para enviar a pergunta, toque no ícone de plano de papel na parte superior direita do formulário.
 
 >[!IMPORTANT]
 >
