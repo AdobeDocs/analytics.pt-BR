@@ -3,10 +3,10 @@ title: AppMeasurement para notas de versão do JavaScript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
+source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
 workflow-type: tm+mt
-source-wordcount: '2201'
-ht-degree: 100%
+source-wordcount: '2218'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,12 @@ Notas de versão cumulativas do [!DNL AppMeasurement] para JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Baixe a versão mais recente do AppMeasurement no [Gerenciador de código](/help/admin/admin/code-manager-admin.md).
+
+## Versão 2.22.3
+
+Data de lançamento: **11 de outubro de 2021**
+
+* Arquivos atualizados que referenciavam a documentação da Ajuda para apontar para os locais atuais da Ajuda.
 
 ## Versão 2.22.2
 
