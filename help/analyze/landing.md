@@ -3,9 +3,9 @@ description: Uma explicação de como a página de aterrissagem reúne o Analysi
 title: Página de aterrissagem do Adobe Analytics
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3236'
 ht-degree: 92%
 
 ---
@@ -162,7 +162,7 @@ Para criar um novo relatório de Empresa ,
 
 1. Adicione todos os campos desejados ao modal e salve-os.
 
-   O relatório é adicionado à lista Relatórios da empresa e está disponível para aqueles em sua empresa.
+   O relatório é adicionado à lista Relatórios da empresa e está disponível para aqueles em sua empresa de logon.
 
 Mais opções de aprendizagem:
 
