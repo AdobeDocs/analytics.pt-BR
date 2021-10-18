@@ -7,7 +7,7 @@ user-guide-description: Fornece instruções passo a passo para o Analysis Works
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -311,7 +311,7 @@ ht-degree: 98%
    + [Solução de problemas](reports-analytics/report-troubleshooting.md)
 + Painéis do Adobe Analytics {#mobapp}
    + [Painéis do Adobe Analytics - Visão geral](mobile-app/home.md)
-   + [Introdução do curador](mobile-app/curator.md)
+   + [Apresentação do curador](mobile-app/curator.md)
    + [Criar um scorecard móvel](mobile-app/create-scorecard.md)
    + [Configurar executivos para usar painéis](mobile-app/set-up-execs.md)
    + [Guia de início rápido do usuário executivo](mobile-app/executive.md)
