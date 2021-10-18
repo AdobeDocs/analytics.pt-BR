@@ -5,7 +5,7 @@ exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Observe que essa métrica não é igual a [Visitantes únicos](unique-visitors.m
 
 ![Contagem de dispositivos exclusivos](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-A visualização desses dados em um conjunto de relatórios virtual do CDA antes de [Reproduzir](/help/components/cda/replay.md) possivelmente une os hits não autenticados mostraria:
+A visualização desses dados em um conjunto de relatórios virtuais CDA antes da [Repetição](/help/components/cda/replay.md) identifica potencialmente ocorrências não autenticadas e mostraria:
 
 * **5 dispositivos exclusivos**: 1 para João não autenticado + 2 para João + 1 para Alice + 1 para Carlos
 * **4 [Pessoas](people.md)**: 1 [pessoa não identificada](unidentified-people.md) + 3 [pessoas identificadas](identified-people.md).
