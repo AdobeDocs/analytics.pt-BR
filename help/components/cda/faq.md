@@ -5,7 +5,7 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
 source-wordcount: '1949'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -128,8 +128,8 @@ O CDA usa um pipeline de processamento paralelo complexo, com vários componente
 
 O número da métrica &quot;Pessoas identificadas&quot; pode ser um pouco maior se o valor da prop ou do eVar do identificador for executado em uma [colisão de hash](/help/implement/validate/hash-collisions.md).
 
-Para a compilação em campo, a variável personalizada do identificador diferencia maiúsculas e minúsculas. O número da métrica &quot;Pessoas identificadas&quot; pode ser significativamente maior se os valores do identificador não corresponderem às letras maiúsculas e minúsculas. Por exemplo, se `bob` e `Bob` forem enviadas e esperadas como a mesma pessoa, o CDA interpreta esses dois valores como distintos.
+Para a compilação em campo, a variável personalizada do identificador diferencia maiúsculas e minúsculas. O número da métrica &quot;Pessoas identificadas&quot; pode ser significativamente maior se os valores do identificador não corresponderem letras maiúsculas e minúsculas. Por exemplo, se `bob` e `Bob` forem enviadas e esperadas como a mesma pessoa, o CDA interpreta esses dois valores como distintos.
 
 ## Ao visualizar o identificador prop/eVar, por que vejo valores diferentes de zero para a métrica &quot;Pessoas não identificadas&quot;?
 
-Essa situação geralmente ocorre quando um visitante gera ocorrências autenticadas e não autenticadas na janela de relatório. O visitante pertence a &quot;Não identificado&quot; e &quot;Identificado&quot; na dimensão [Estado identificado](/help/components/dimensions/identified-state.md), causando uma atribuição de ocorrências não identificadas a um identificador. Esse cenário pode mudar após a execução de [Reproduzir](replay.md), dependendo da frequência de repetição e da taxa de sucesso.
+Essa situação geralmente ocorre quando um visitante gera ocorrências autenticadas e não autenticadas na janela de relatórios. O visitante pertence a &quot;Não identificado&quot; e &quot;Identificado&quot; na dimensão [Estado identificado](/help/components/dimensions/identified-state.md), causando uma atribuição de ocorrências não identificadas a um identificador. Esse cenário pode mudar após a execução de [Reproduzir](replay.md), dependendo da frequência de repetição e da taxa de sucesso.
