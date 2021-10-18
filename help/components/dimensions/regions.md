@@ -3,7 +3,7 @@ title: Regiões
 description: A região geográfica do visitante.
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
