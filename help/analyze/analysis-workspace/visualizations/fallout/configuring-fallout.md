@@ -2,13 +2,13 @@
 description: Especifique os pontos de contato para criar uma sequência de fallout multidimensional.
 title: Configurar uma visualização de fallout
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: Visualizações
+feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 92%
 
 ---
 
@@ -52,11 +52,11 @@ Você pode definir o caminho das eVars, incluindo eVars de comercialização e [
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Caminho eventual </p> <p>(Padrão) </p> </td> 
-   <td colname="col2"> <p>São contados os visitantes que serão “eventualmente” direcionados à próxima página do caminho naquela sessão, mas não necessariamente na próxima ocorrência. </p> </td> 
+   <td colname="col2"> <p>Os visitantes (ou visitas) são contados quando eventualmente chegam ao próximo ponto de contato no caminho. São permitidos despejos entre pontos de contato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Próxima ocorrência </p> </td> 
-   <td colname="col2"> <p>Visitantes contados que serão direcionados para a próxima página no caminho na próxima ocorrência. </p> </td> 
+   <td colname="col2"> <p>Os visitantes (ou visitas) são contados quando chegam imediatamente ao próximo ponto de contato no caminho. A próxima ocorrência inclui qualquer tipo de ocorrência (exibições de página ou links). Não são permitidos despejos entre pontos de contato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
