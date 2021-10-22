@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ O Activity Map é compatível com a versão mais recente da maioria dos navegado
 
 O Activity Map não envia chamadas de servidor sozinho. Em vez disso, as variáveis de dados de contexto do Activity Map são incluídas com chamadas de exibição de página do Analytics na página subsequente.
 
-## Por que algumas sobreposições de itens classificados estão ausentes?**
+## Por que algumas sobreposições de itens classificados estão ausentes?
 
 Alguns links classificados, como links de submenu, estão ocultos na página. Como consequência, as sobreposições do link correspondente não serão exibidas. A classificação é calculada para todos os links na página, incluindo links ocultos.
 
@@ -83,3 +83,16 @@ Não, os segmentos não funcionam no modo Online. A funcionalidade é equivalent
 ## O Activity Map é compatível com os conjuntos de relatórios virtuais?
 
 Sim. No entanto, devido às limitações do conjunto de relatórios virtuais, não há compatibilidade com o modo Online do Activity Map.
+
+## Como posso desativar o Activity Map?
+
+Você tem três opções:
+
+* Exclua o `AppMeasurement_Module_ActivityMap` a partir do arquivo JS
+* Adicione um código personalizado que substitua a função acima por um corpo vazio, por exemplo:
+
+   ```
+   function AppMeasurement_Module_ActivityMap() {}
+   ```
+
+* Configurar o AppMeasurement ao configurar `s.trackClickMap` e `s.trackInlineStats` para `false`

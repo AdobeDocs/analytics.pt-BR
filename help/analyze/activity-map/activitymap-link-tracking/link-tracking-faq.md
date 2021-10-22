@@ -5,9 +5,9 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '516'
 ht-degree: 44%
 
 ---
@@ -35,10 +35,10 @@ A identificação de link e região de Activity Map ocorre quando os usuários c
 
 Se um evento de clique ocorrer em um elemento, ele precisará passar por algumas verificações para determinar se o AppMeasurement o tratará como um link. Essas são as verificações:
 
-* Isso é uma tag `A` ou `AREA` com uma propriedade `href`?
-* Existe um atributo `onclick` que define uma variável `s_objectID`?
-* Isso é uma tag `INPUT` ou um botão `SUBMIT` com um valor ou texto filho?
-* Isso é uma tag `INPUT` com o tipo `IMAGE` e uma propriedade `src`?
+* Isso é um `A` ou `AREA` com uma `href` propriedade?
+* Existe um `onclick` que define um `s_objectID` variável?
+* Isso é um `INPUT` tag ou `SUBMIT` com um valor ou texto filho?
+* Isso é um `INPUT` tag com tipo `IMAGE` e `src` propriedade?
 * Isso é um `BUTTON`?
 
 Se a resposta for Sim para qualquer uma das perguntas acima, então o elemento é tratado como um link e será rastreado.
@@ -51,30 +51,30 @@ Se a resposta for Sim para qualquer uma das perguntas acima, então o elemento �
 >
 >Uma tag de âncora com um &quot;href&quot; que começa com &quot;#&quot; é considerada um local de destino interno pelo AppMeasurement, não um link (já que você não sai da página). Por padrão, o Activity Map não rastreia esses locais de destino internos. Ele rastreia somente links que levam o usuário a uma nova página.
 
-## Como o Activity Map rastreia outros elementos visuais em HTML?
+## Como o Activity Map rastreia outros elementos visuais do HTML?
 
-a. Por meio da função `s.tl()` .
+a. Por meio do `s.tl()` .
 
-Se o clique ocorreu por meio de uma invocação `s.tl()`, o Activity Map também receberá esse evento de clique e determinará se uma variável de sequência de caracteres `linkName` foi encontrada. Durante a execução de `s.tl()`, o linkName será definido como a ID do link Activity Map. O elemento clicado que originou a chamada `s.tl()` será usado para determinar a região. Exemplo:
+Se o clique tiver ocorrido por meio de um `s.tl()` chamada, Activity Map também receberá esse evento de clique e determinará se uma `linkName` variável de string encontrada. Durante `s.tl()` na execução, linkName será definido como a ID do link Activity Map. O elemento clicado que originou o `s.tl()` será usada para determinar a região. Exemplo:
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b. Com a variável `s_objectID` . Exemplo:
+b. Por meio do `s_objectID` variável. Exemplo:
 
-    &quot;
+    &quot; 
     
-    &lt;a>&lt;img>&lt;/a>
-    
-    &lt;a>Vincular texto aqui&lt;/a>
-    
+    &lt;img onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot; src=&quot;someimageurl.png&quot; />
+    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot;>
+    Texto do link aqui
+    &lt;/a>
     
     &quot;
 
 >[!IMPORTANT]
 >
->É necessário um ponto e vírgula (;) ao usar `s_objectID` no Activity Map.
+>É necessário um ponto e vírgula (;) no final da linha ao usar `s_objectID` em Activity Map.
 
 ## Você pode me dar alguns exemplos de links que serão rastreados?
 
@@ -116,7 +116,7 @@ b. Com a variável `s_objectID` . Exemplo:
 
 ## Você pode me dar alguns exemplos de links que NÃO serão rastreados?
 
-1. Motivo: A tag de âncora não tem um `href` válido:
+1. Motivo: A tag de âncora não tem um valor válido `href`:
    `<a name="innerAnchor">Section header</a>`
 
 1. Motivo: a função `s_ObjectID` e a `s.tl()` não estão presentes:
@@ -140,3 +140,4 @@ b. Com a variável `s_objectID` . Exemplo:
 1. Motivo: A propriedade &quot;src&quot; não tem um elemento de entrada de formulário:
 
    `<input type="image"/>`
+
