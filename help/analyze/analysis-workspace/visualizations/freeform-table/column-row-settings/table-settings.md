@@ -5,10 +5,10 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+source-git-commit: 3903387ac6cba1ceb45e1de35fbceb259151f4f8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,6 +24,16 @@ As configurações de linha variam de acordo com qual componente foi arrastado p
 | Detalhamento por posição | Por padrão, essa configuração é desativada e os detalhamentos são corrigidos em itens de linha estáticos. Por exemplo, vamos supor que você detalhe os 3 principais itens de dimensão de Página (Página inicial, Resultados de pesquisa, Check-out) por Canal de marketing. Você sai do projeto e retorna duas semanas depois. Ao abrir o projeto novamente, as 3 principais páginas foram alteradas e, agora, a Página inicial, os Resultados da pesquisa e o Check-out são as 4 a 6 principais páginas. Por padrão, os detalhamentos do Canal de marketing ainda aparecerão em Página inicial, Resultados de pesquisa e Check-out, mesmo que agora estejam nas linhas 4 a 6. <br> Por outro lado, o **Detalhamento por posição** sempre detalhará os três itens principais, independentemente de quais eles sejam. Voltando ao nosso exemplo, quando você reabrir o projeto, os detalhamentos do Canal de marketing serão vinculados às 3 principais páginas da tabela, não à Página inicial, aos Resultados de pesquisa e ao Check-out que estão agora nas linhas 4 a 6. |
 | Porcentagens | **Calcular porcentagens por coluna** é a configuração padrão; as porcentagens visíveis em uma coluna são calculadas com base no total da coluna. <br>**Calcular porcentagem por linha** força a tabela de forma livre a calcular as porcentagens de células na linha e não na coluna, com o total geral como denominador. Essa configuração é útil para porcentagens de tendência. Essa configuração é ativada por padrão ao usar o ícone Visualizar. |
 | Totais de colunas | Essas configurações estão disponíveis somente para [linhas estáticas](manual-vs-dynamic-rows.md). <br> **Mostrar a soma das linhas atuais**: mostra uma soma do lado do cliente das linhas na tabela, o que significa que o total *não* deduplicará métricas como visitas ou visitantes. <br> **Mostrar total geral** mostra uma soma do lado do servidor, o que significa que o total deduplicará as métricas. |
+
+## Alterar contagem de linhas
+
+Para alterar o número de linhas exibidas:
+
+1. Clique no número ao lado de [!UICONTROL Linhas] no topo da mesa.
+
+   ![](assets/row-number.png)
+
+1. Na lista suspensa, selecione o número de linhas que deseja que a tabela seja exibida.
 
 ## Vídeos
 
