@@ -3,10 +3,10 @@ title: Atualizações de documentação técnica do Adobe Analytics
 description: Atualizações notáveis no conjunto de documentação do Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+source-git-commit: 7a8a4d6c7a7addc1e5432d0f8d092caa64feb1eb
 workflow-type: tm+mt
-source-wordcount: '2918'
-ht-degree: 99%
+source-wordcount: '2957'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,9 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Data | Descrição |
 | --- | --- |
 | **Outubro de 2021** |  |
-| 7 de outubro de 2021 | Nova documentação sobre [visualizações para scorecards móveis](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
+| 21 de outubro de 2021 | Nova documentação em [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) no Analysis Workspace |
+| 21 de outubro de 2021 | Nova documentação sobre o [Tempo gasto na reprodução da mídia](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html?lang=pt-BR) no Analysis Workspace. |
+| 7 de outubro de 2021 | Nova documentação em [visualizações de scorecards para dispositivos móveis](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR#aplicar-visualizações) |
 | **Agosto de 2021** |  |
 | 18 de agosto de 2021 | Estrutura de nível superior revisada e consolidada para uma única [Página de aterrisagem](https://experienceleague.adobe.com/docs/analytics.html?lang=pt-BR) |
 | 18 de agosto de 2021 | Novo tópico em [A4T e conjuntos de relatórios virtuais](/help/components/vrs/vrs-a4t.md) |
