@@ -3,10 +3,10 @@ description: Mostra exemplos de como rotular dados de hit, solicitações de ace
 title: Exemplos de rotulagem
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: fe277bea867dc67e8693673a547adecccf169332
-workflow-type: ht
-source-wordcount: '770'
-ht-degree: 100%
+source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
+workflow-type: tm+mt
+source-wordcount: '814'
+ht-degree: 81%
 
 ---
 
@@ -26,7 +26,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 | Dados de ocorrência | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
-|  | John | 77 | D | P | W |
+|  | John | 77º | D | P | W |
 |  | John | 88 | E | N | U |
 |  | John | 44 | F | Q | V |
 |  | John | 55 | G | R | X |
@@ -56,7 +56,7 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
     <td>false</td>
     <td>dispositivo</td>
     <td>não presente</td>
-    <td>77</td>
+    <td>77º</td>
     <td>não presente</td>
     <td>M, P</td>
     <td>X, W</td>
@@ -66,7 +66,7 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
     <td>true</td>
     <td>dispositivo</td>
     <td>não presente</td>
-    <td>77</td>
+    <td>77º</td>
     <td>não presente</td>
     <td>M, P</td>
     <td>X, W</td>
@@ -179,7 +179,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>42</td>
+    <td>42º</td>
     <td>D</td>
     <td>Privacy-1866</td>
     <td>Privacy-8216</td>
@@ -193,7 +193,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>44</td>
+    <td>44º</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
@@ -207,7 +207,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Alice</td>
-    <td>66</td>
+    <td>66º</td>
     <td>A</td>
     <td>N</td>
     <td>Z</td>
@@ -231,7 +231,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Privacy-0523</td>
-    <td>77</td>
+    <td>77º</td>
     <td>Privacy-1866</td>
     <td>Privacy-3681</td>
     <td>X</td>
@@ -252,7 +252,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>77</td>
+    <td>77º</td>
     <td>D</td>
     <td>P</td>
     <td>W</td>
@@ -266,7 +266,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>44</td>
+    <td>44º</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
@@ -280,7 +280,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Alice</td>
-    <td>66</td>
+    <td>66º</td>
     <td>A</td>
     <td>N</td>
     <td>Z</td>
@@ -332,14 +332,14 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>16</td>
+    <td>16º</td>
     <td>E</td>
     <td>Privacy-2911</td>
     <td>Privacy-2930</td>
   </tr>
   <tr>
     <td>John</td>
-    <td>44</td>
+    <td>44º</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
@@ -353,7 +353,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Alice</td>
-    <td>66</td>
+    <td>66º</td>
     <td>A</td>
     <td>N</td>
     <td>Z</td>
@@ -362,8 +362,9 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 
 Observe o seguinte:
 
-* As células na linha que contêm `user=Mary` e um rótulo `DEL-DEVICE` ou `DEL-PERSON` são afetadas, assim como as células com um rótulo `DEL-DEVICE` em linhas que contêm uma ID de visitante (AAID) que ocorreu em uma linha que contém `user=Mary`.
-* A configuração expandIDs não expande a chamada para incluir valores presentes em MyEvar3, que tem um rótulo ID-DEVICE, quando `user=Mary`. ExpandIDs só se expande para incluir IDs de visitante (AAIDs neste exemplo, mas também a ECID) em linhas nas quais `user=Mary`.
-* `MyEvar2` na quarta e na quinta linhas é atualizada porque essas linhas contêm os mesmos valores de ID de visitante que os da primeira e da segunda linhas. Como resultado, a expansão de ID os inclui para exclusões no dispositivo.
-* Os valores de `MyEvar2` nas linhas dois e cinco correspondem a antes e depois da exclusão. No entanto, após a exclusão, eles não correspondem mais ao valor N que ocorre na última linha, pois essa linha não foi atualizada como parte da solicitação de exclusão.
+* Células em linhas que contêm `user=Mary` e `DEL-PERSON` serão afetadas.
+* Devido à expansão de ID, células em linhas que contêm `AAID=77`, `AAID=88` ou `AAID=99` (que são os valores AAID em linhas que contêm `user=Mary`) e a `DEL-DEVICE` serão afetadas. Isso inclui células com uma `DEL-DEVICE` em linhas onde `user=Mary`. Isso causa células nas linhas 4 e 5 (bem como nas linhas 1-3) com `DEL-DEVICE` rótulos (AAID, MyEvar2 e MyEvar3) a serem ofuscados.
+* A configuração expandIDs não expande a chamada para incluir valores presentes em MyEvar3 (`X`, `Y` e `Z`), que tem um rótulo ID-DEVICE, quando `user=Mary`. ExpandIDs só se expande para incluir IDs de visitante (AAIDs neste exemplo, mas também a ECID) em linhas nas quais `user=Mary`. Dessa forma, as duas últimas linhas, que contêm valores de MyEvar3 de `X` e `Z` não são afetados.
+* `MyEvar2` A na quarta e na quinta linha é atualizada, pois essas linhas contêm os mesmos valores de ID de visitante (`77` e `88`) como na primeira e na segunda linha. Como resultado, a expansão de ID os inclui para exclusões no dispositivo.
+* Os valores de `MyEvar2` nas linhas dois e cinco correspondem a antes e depois da exclusão. No entanto, após a exclusão, elas não correspondem mais ao valor `N` que ocorre na última linha, porque essa linha não foi atualizada como parte da solicitação de exclusão.
 * `MyEvar3` O se comporta de maneira muito diferente em relação ao comportamento sem expansão de ID, porque neste caso, não há correspondência de `ID-DEVICES`. Agora, `AAID` corresponde nas primeiras cinco linhas.
