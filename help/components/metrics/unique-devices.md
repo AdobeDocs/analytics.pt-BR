@@ -2,10 +2,10 @@
 title: Dispositivos únicos
 description: O número de dispositivos exclusivos.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
+source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 
@@ -21,9 +21,9 @@ Observe que essa métrica não é igual a [Visitantes únicos](unique-visitors.m
 
 ## Exemplo
 
-1. João acessa o seu site no celular por meio de um anúncio, mas não fez logon.
-1. Bob quer fazer uma compra, mas preferiria fazê-la no computador da família porque ele já está conectado lá. No computador da família, ele faz uma compra.
-1. No dia seguinte, ele verifica seu pedido no celular e se autentica por lá.
+1. Sally chega ao seu site pelo telefone através de um anúncio, mas não está conectado.
+1. Sally quer fazer uma compra, mas preferiria fazer isso no computador da família porque já está conectada lá. No computador da família, ela faz uma compra.
+1. No dia seguinte, ela verifica seu pedido no telefone e se autentica lá.
 1. A esposa de Bob, Alice, navega em seu site enquanto está conectada na própria conta no computador da família.
 1. O irmão de Bob, Charles, também navega em seu site enquanto efetuava login na própria conta no computador da família.
 

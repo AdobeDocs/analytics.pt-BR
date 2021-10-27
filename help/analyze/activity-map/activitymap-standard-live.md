@@ -5,10 +5,10 @@ uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
 role: User, Admin
 exl-id: 2364e7b0-443a-49a8-b084-403501f52360
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ No **Modo padrão**, é possível selecionar o intervalo de datas na barra de fe
 
 ![](assets/standard_mode.png)
 
-Nesse modo, métricas de Comércio que não tiverem “Participação” ativada são alocadas linearmente. Suponhamos que um usuário clique em um link “iPod mini” na tela inicial, e em seguida navegue por outras 3 páginas. Na quarta página, ele compra um iPod mini por $200. O link “iPod mini” receberá $200 de receita de participação e $50 ($200/4) de receita (receita alocada linearmente).
+Nesse modo, métricas de Comércio que não tiverem “Participação” ativada são alocadas linearmente. Suponhamos que um usuário clique em um link “iPod mini” na tela inicial, e em seguida navegue por outras 3 páginas. Na quarta página, o usuário compra um iPod mini por $200. O link “iPod mini” receberá $200 de receita de participação e $50 ($200/4) de receita (receita alocada linearmente).
 
 P: E se uma página tiver links com o mesmo nome em regiões separadas? Os links receberão crédito separadamente por estarem em diferentes regiões, mas terem o mesmo nome de link em uma página?
 
