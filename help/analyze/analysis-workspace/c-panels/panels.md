@@ -4,10 +4,10 @@ title: Visão geral dos painéis
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 91%
 
 ---
 
@@ -43,13 +43,16 @@ A lista dos conjuntos de relatórios é classificada de acordo com a relevância
 
 O calendário do painel controla o intervalo de relatórios para tabelas e visualizações em um painel.
 
-Observação: se um componente de intervalo de datas (roxo) for usado em uma tabela, uma visualização ou uma zona suspensa do painel, ele substituirá o calendário do painel.
+>[!NOTE]
+>Se um componente de intervalo de datas (roxo) for usado em uma tabela, visualização ou zona de soltar do painel, ele substituirá o calendário do painel.
 
 ![](assets/panel-calendar.png)
 
-## Zona suspensa {#dropzone}
+Você pode aplicar um intervalo de datas de minuto sob as configurações avançadas do calendário do painel. Se você estiver relatando um intervalo de datas que abrange muitos dias, a hora de início se aplica ao primeiro dia e a hora de término se aplica ao último dia do intervalo.
 
-A área suspensa do painel permite aplicar filtros de segmento e lista suspensa a todas as tabelas e visualizações em um painel. Você pode aplicar um ou vários filtros a um painel. O título acima de cada filtro pode ser modificado clicando no lápis de edição ou você pode clicar com o botão direito do mouse para removê-lo completamente.
+## Zona de soltar {#dropzone}
+
+A área de soltar do painel permite aplicar filtros de segmento e de soltar a todas as tabelas e visualizações em um painel. Você pode aplicar um ou vários filtros a um painel. O título acima de cada filtro pode ser modificado clicando no lápis de edição ou você pode clicar com o botão direito do mouse para removê-lo completamente.
 
 ### Filtros de segmento
 
