@@ -4,9 +4,9 @@ description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2218'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Baixe a versão mais recente do AppMeasurement no [Gerenciador de código](/help
 
 Data de lançamento: **11 de outubro de 2021**
 
-* Arquivos atualizados que referenciavam a documentação da Ajuda para apontar para os locais atuais da Ajuda.
+* Foram atualizados arquivos que fazem referência à documentação de Ajuda para apontar para os locais atuais de Ajuda.
 
 ## Versão 2.22.2
 
@@ -443,7 +443,7 @@ Data de lançamento: **15 de novembro de 2013**
 Data de lançamento: **14 de novembro de 2013**
 
 * Adição de suporte para [medição de vídeo de heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).
-* `VisitorAPI.js` foi adicionado para oferecer suporte ao [Serviço de ID do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` foi adicionado para oferecer suporte ao [Serviço de ID do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
 
 ## Versão 1.1.1
 
