@@ -2,11 +2,10 @@
 title: Gerenciar trabalhos do feed de dados
 description: Saiba como gerenciar trabalhos individuais em feeds de dados.
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '495'
-ht-degree: 100%
+source-git-commit: 963e66b05cc401956211c28b9ffeb9aad6bed604
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +60,7 @@ Cada tarefa mostra várias colunas com informações sobre ela. Clique em um cab
    * Aguardando dados: o trabalho é operacional e os dados da janela de relatório estão sendo coletados.
    * Processamento: a tarefa está criando os arquivos de dados e se preparando para enviá-los.
    * Concluído: o trabalho foi concluído sem problemas.
-   * Falha: o trabalho não foi concluído. Consulte [Solução de problemas de trabalhos](jobs-troubleshooting.md) para ajudar a determinar a causa da falha.
+   * Falha: o trabalho não foi concluído. Consulte [Solução de problemas dos feeds de dados](troubleshooting.md) para ajudar a determinar a causa da falha.
    * Aguardando exportação: os dados da janela de relatórios ainda não foram totalmente processados.
    * Sem dados: não há dados no conjunto de relatórios na janela de relatórios solicitada.
 * **Hora de conclusão**: a hora em que o trabalho terminou. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.

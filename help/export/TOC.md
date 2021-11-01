@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Use os Feeds de dados para receber uma exportação de dados brutos por hora ou por dia. Use o Data Warehouse para recuperar uma saída de dados em planilha.
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
       + [Ocorrências com atraso de chegada](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Perguntas frequentes sobre o feed de dados](analytics-data-feed/df-faq.md)
    + [Práticas recomendadas do feed de dados](analytics-data-feed/data-feeds-best-practices.md)
-   + [Solução de problemas de tarefas](analytics-data-feed/jobs-troubleshooting.md)
+   + [Solução de problemas dos feeds de dados](analytics-data-feed/troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Visão geral do Data Warehouse](data-warehouse/data-warehouse.md)
    + [Adicionar grupo de usuários do Data Warehouse](data-warehouse/t-dw-group.md)

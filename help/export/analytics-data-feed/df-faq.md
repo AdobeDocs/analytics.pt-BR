@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre feeds de dados
 keywords: Feed de dados;coluna pré;coluna pós;diferencia maiúsculas de minúsculas
 title: Perguntas frequentes sobre feeds de dados
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: ht
-source-wordcount: '1440'
-ht-degree: 100%
+source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
+workflow-type: tm+mt
+source-wordcount: '1439'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ Se uma transferência FTP falhar (devido a um logon negado, uma conexão perdida
 
 Se uma transferência falhar, você poderá executar uma tarefa novamente até que seja concluída com sucesso.
 
-Se você tiver problemas para que um feed de dados seja mostrado no site de FTP, consulte [Solucionar problemas de tarefas](jobs-troubleshooting.md).
+Se tiver problemas para que um feed de dados apareça no site FTP, consulte [Solução de problemas dos feeds de dados](troubleshooting.md).
 
 ## Como faço para reenviar um trabalho? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
@@ -99,8 +99,3 @@ No entanto, objetos não herdam permissões do bucket primário. Portanto, se o 
 >[!NOTE]
 >
 >O [!DNL Analytics] não determina se o bucket tem uma política que requer que o seu proprietário tenha total controle de novos objetos, ou mesmo se o proprietário do bucket está em uma conta diferente daquela do usuário que está gravando os dados. Em vez disso, o [!DNL Analytics] adiciona automaticamente o proprietário do bucket à ACL BucketOwnerFullControl a cada upload de feed.
-
->[!MORELIKETHIS]
->
->* [Solução de problemas de tarefas](jobs-troubleshooting.md)
-
