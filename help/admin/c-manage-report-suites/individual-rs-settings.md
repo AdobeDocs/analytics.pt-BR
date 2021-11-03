@@ -12,13 +12,13 @@ ht-degree: 100%
 
 ---
 
-# Configurações de Conjunto de relatórios individual
+# Configurações individuais de Conjunto de relatórios
 
 As Configurações individuais de conjunto de relatórios permitem alterar as configurações padrão de seus conjunto de relatórios. As ferramentas incluem um modo de remover registros de páginas indesejadas ou obsoletas, definir métricas padrão e configurar segmentos de conjunto de relatórios.
 
-Para acessar as [!UICONTROL Configurações individuais do conjunto de relatórios]:
+Para acessar as [!UICONTROL Configurações individuais de conjunto de relatórios]:
 
-1. Clique em **[!UICONTROL Administrador]** e, em seguida, clique em **[!UICONTROL Conjuntos de relatórios]**.
+1. Clique em **[!UICONTROL Admin]** e, em seguida, clique em **[!UICONTROL Conjuntos de relatórios]**.
 
 1. Selecione um conjunto de relatórios.
-1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Configurações individuais de conjunto de relatórios]** > *`<selection>`*.
+1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Configurações individuais de Conjunto de relatórios]** > *`<selection>`*.
