@@ -1,10 +1,11 @@
 ---
 title: eVars de merchandising e métodos de busca de produtos
 description: Um aprofundamento nos conceitos por trás das eVars de merchandising e como elas processam e alocam dados.
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
-workflow-type: ht
-source-wordcount: '5324'
-ht-degree: 100%
+exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+workflow-type: tm+mt
+source-wordcount: '5319'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +87,7 @@ Com a **[!UICONTROL Sintaxe de produto]**, no entanto, o eVar é definido soment
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Categoria] é um recurso obsoleto e não é mais recomendado como uma opção viável para rastrear o desempenho da categoria do produto.  Sua mera existência demonstra por que, na maioria das implementações da variável products, um único ponto e vírgula precede a parte productID do valor da variável.
+* [!UICONTROL Categoria] não é mais recomendada como uma opção viável para rastrear o desempenho da categoria do produto.  Sua mera existência demonstra por que, na maioria das implementações da variável products, um único ponto e vírgula precede a parte productID do valor da variável.
 * [!UICONTROL Quantidade] e [!UICONTROL Receita] são úteis quando uma compra de produto está sendo rastreada.
 * [!UICONTROL Eventos] são úteis para registrar valores de evento de moeda ou incrementais personalizados que não devem ser contados como receita (como frete, descontos etc.)
 
