@@ -1,17 +1,20 @@
 ---
 description: Antes de usar o Reports and Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
 title: Introdução ao Reports and Analytics
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 94%
 
 ---
 
 # Introdução ao Reports &amp; Analytics
+
+>[!NOTE]
+>Este produto está autorizado para venda na América do Norte e em outras regiões onde o produto é efetivamente vendido e pode não satisfazer os requisitos para venda noutros países ou regiões.
 
 Antes de usar o Reports &amp; Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
 
@@ -31,15 +34,10 @@ Os relatórios fornecem informações de seus canais com base na Web tradicionai
 
 Requisitos do navegador e do sistema necessários para fazer logon na interface do Reports &amp; Analytics.
 
-* Navegadores:
+>[!NOTE]
+>a Adobe encerrou o suporte ao Internet Explorer 11 no Adobe Analytics em 13 de novembro de 2018. Alterne para o Microsoft Edge ou um outro navegador compatível assim que possível.
 
-   * Preferencial: versões mais recentes do Firefox, Chrome, Safari ou do Edge.
-   * Versão mais recente do Microsoft Internet Explorer 11
-
-      >[!NOTE]
-      >
-      >a Adobe encerrou o suporte ao Internet Explorer 11 no Adobe Analytics em 13 de novembro de 2018. Alterne para o Microsoft Edge ou um outro navegador compatível assim que possível.
-
+* Navegadores preferidos: Versões mais recentes do Firefox, Chrome, Safari ou do Edge.
 * É necessário habilitar os cookies e o JavaScript.
 * Resolução do monitor de 1024 x 768 com intensidade de cor de 16 bits (ou superior).
 
