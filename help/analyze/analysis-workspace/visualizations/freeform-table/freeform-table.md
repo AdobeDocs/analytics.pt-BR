@@ -1,13 +1,13 @@
 ---
 title: Tabela de forma livre
 description: As tabelas de forma livre são a base para a análise de dados no Workspace
-feature: Tabelas de forma livre
+feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 98%
 
 ---
 
@@ -52,6 +52,20 @@ Saiba mais sobre todos os dados de [opções de exportação](https://experience
 * Clique com o botão direito do mouse em > **[!UICONTROL Baixar dados como CSV]** para baixar os dados da tabela exibidos como um CSV. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Baixar seleção como CSV]**.
 * Clique com o botão direito do mouse em > **[!UICONTROL Projeto > Baixar itens como CSV]** para exportar até 50.000 itens de dimensão para a dimensão selecionada.
 
-Saiba mais sobre todos os dados de [opções de exportação](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR) do Analysis Workspace.
+Saiba mais sobre todos os dados de [opções de exportação](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) do Analysis Workspace.
 
 ![](assets/export-options.png)
+
+## Vídeos
+
+Visão geral do criador de tabela de forma livre:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+
+Filtros da tabela de forma livre:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+
+Totais de tabelas de forma livre:
+
+>[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)

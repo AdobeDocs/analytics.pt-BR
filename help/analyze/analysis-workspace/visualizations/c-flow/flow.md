@@ -2,17 +2,17 @@
 description: Use a visualização de fluxo em um projeto do Workspace.
 title: Visão geral do Fluxo
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: Visualizações
+feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
 
-# Visão geral do Fluxo
+# Visão geral do fluxo
 
 O recurso Fluxo mostra os caminhos do cliente pelos seus sites e aplicativos.
 
@@ -37,3 +37,7 @@ Cada coluna pode exibir uma dimensão diferente. Arraste uma dimensão e solte e
 ## Exportar diagramas de fluxo como parte dos arquivos .CSV do projeto {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Os diagramas de fluxo são parte de um arquivo .CSV do projeto que podem ser criados ao acessar **[!UICONTROL Projeto]** > **[!UICONTROL Baixar CSV]**. Essa ação permite analisar os resultados de Fluxo no Microsoft Excel (exibidos como uma tabela) ou em outro lugar.
+
+## Expansão na visualização de fluxo
+
+>[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)

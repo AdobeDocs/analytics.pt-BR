@@ -5,10 +5,10 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 96%
 
 ---
 
@@ -24,21 +24,17 @@ O Activity Map é um aplicativo do Adobe Analytics projetado para classificar a 
 
 O Activity Map permite configurar diferentes exibições para identificar visualmente a aceleração da atividade do cliente, quantificar as iniciativas de marketing e agir conforme as necessidades e os comportamentos do público-alvo.
 
-Esta é uma visão geral em vídeo do Activity Map:
-
->[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
-
-**Introdução para administradores**
+## Introdução para administradores
 
 * [Habilitar o Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [Código de implementação de exemplo](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**Introdução para usuários**
+## Introdução para usuários
 
 * [Instalar os plug-ins do navegador do Activity Map ](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Inicializar o Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Recursos do Activity Map**
+## Recursos do Activity Map
 
 * [Rastreamento de links avançado](lnk-tracking-overview.md)
 * [Modo Padrão vs. modo Online](activitymap-standard-live.md)
@@ -57,3 +53,13 @@ Esta é uma visão geral em vídeo do Activity Map:
 * [Interface do usuário do Activity Map](activitymap-user-interface.md)
 * [Relatórios do Activity Map no Analytics](activitymap-reporting-analytics.md)
 * [Solução de problemas nas extensões do navegador](troubleshooting-browser-extensions.md)
+
+## Vídeos
+
+Visão geral do vídeo do Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
+
+Ativar, desativar e personalizar o Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)

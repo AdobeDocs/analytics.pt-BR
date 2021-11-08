@@ -1,13 +1,13 @@
 ---
 title: Modelos de atribuição e janelas de pesquisa
 description: Como diferentes tipos de atribuição dividem crédito entre itens de dimensão.
-feature: Atribuição
+feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1485'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '1492'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,10 @@ As janelas de retrospectiva representam quanto tempo uma conversão deve retroce
 * **Janela de retrospectiva do visitante:** verifica todas as visitas até o primeiro dia do mês do intervalo de datas atual. As janelas de retrospectiva do visitante são amplas, pois podem abranger muitas visitas. A pesquisa de Visitante considera todos os valores do início do mês do intervalo de datas do relatório. Por exemplo, se o intervalo de datas de um relatório for de 15 a 30 de setembro, o intervalo de datas da retrospectiva do visitante será de 1º a 30 de setembro.
 
 * **Janela de pesquisa personalizada:** permite expandir a janela de atribuição além do intervalo de datas do relatórios até um máximo de 90 dias. As janelas de pesquisa personalizadas são avaliadas em cada conversão no período do relatórios. Por exemplo, para uma conversão que ocorre em 20 de fevereiro, uma janela de pesquisa de 10 dias avaliaria todos os pontos de contato de dimensão de 10 a 20 de fevereiro no modelo de atribuição.
+
+   Este é um vídeo sobre janelas de retrospectiva personalizadas:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
 
 ## Exemplo
 

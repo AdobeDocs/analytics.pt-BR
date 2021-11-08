@@ -3,13 +3,13 @@ description: Analise dimensões e itens de dimensão no Analysis Workspace.
 keywords: Analysis Workspace
 title: Analisar dimensões
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 88%
 
 ---
 
@@ -30,12 +30,22 @@ Analise os seus dados de formas ilimitadas, de acordo com as suas necessidades e
    >
    >O número de detalhamentos exibidos na tabela é limitado a 200. Esse limite vai aumentar para a exportação de detalhamentos.
 
-[Adicionar dimensões e métricas ao seu projeto no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=pt-BR) (11:39)
-
-[Trabalhar com dimensões em uma tabela de forma livre](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html?lang=pt-BR) (15:35)
-
 ## Aplicar modelos de atribuição a detalhamentos
 
 Qualquer detalhamento em uma tabela também pode ter qualquer modelo de atribuição aplicado a ela. Esse modelo de atribuição pode ser o mesmo ou diferente da coluna pai. Por exemplo, você pode analisar Pedidos lineares em sua dimensão de Canais de marketing mas deseja aplicar Pedidos de forma de U aos códigos de rastreamento específicos em um Canal. Para editar o modelo de atribuição aplicado a um detalhamento, passe o mouse sobre o modelo de detalhamento e clique em **[!UICONTROL Editar]**:
 
 ![Configurações de detalhamento](assets/breakdown_settings.png)
+
+## Vídeos
+
+Adicionar dimensões e métricas ao seu projeto no Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+
+Trabalhar com dimensões em uma tabela de forma livre:
+
+>[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+
+Este é um vídeo sobre detalhamentos de dimensão por posição:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)

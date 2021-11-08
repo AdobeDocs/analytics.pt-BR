@@ -5,9 +5,9 @@ title: Usar Carimbos opcionais de data e hora
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 100%
 # Usar Carimbos opcionais de data e hora
 
 Saiba mais sobre as vantagens e desvantagens de usar a configuração Carimbos opcionais de data e hora.
+
+Esta é uma visão geral em vídeo sobre este tópico:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
 Carimbos opcionais de data e hora é uma configuração padrão para todos os conjuntos de relatórios novos.
 
@@ -34,7 +38,6 @@ Ao usar o recurso Carimbos opcionais de data e hora, é possível combinar dados
 
 * **Dados com carimbo de data e hora**. O carimbo de data e hora do lado do cliente é capturado e enviado diretamente com os dados do dispositivo, usando as variáveis do carimbo de data e hora do lado do cliente: Javascript em uma página da Web ou usando uma chamada de SDK móvel ([!DNL offlineEnabled=true]) em um aplicativo móvel.
 * **Dados sem carimbo de data e hora**. A Adobe insere um carimbo de data e hora em dados que não tinham essa informação em um conjunto de relatórios assim que os dados de ocorrências chegam aos servidores de coleta.
-
 
 Um conjunto de relatórios pode ter um dos seguintes carimbos de data e hora:
 

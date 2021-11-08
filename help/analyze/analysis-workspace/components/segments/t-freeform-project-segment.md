@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Você pode criar diferentes tipos de segmentos no Workspace, dependendo da complexidade que eles precisam ter, se eles devem se aplicar somente a este projeto etc. Este é um resumo dos tipos de segmentos:
 
-| Tipo de segmento | Criado onde? | Onde é aplicável? | Quando usar |
+| Tipo de segmento | Criado onde? | Onde ele é aplicável? | Quando usar |
 | --- | --- | --- | --- |
 | Segmento de lista de componentes | Clique em + para ser direcionado ao [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Todos os projetos do Workspace | Para segmentos mais complexos, segmentos sequenciais |
 | Segmento rápido | [Criador de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Somente projeto, mas pode salvar e adicionar à lista de segmentos. | Flexibilidade para adicionar/editar uma ou mais regras |
@@ -26,9 +26,15 @@ Você pode criar diferentes tipos de segmentos no Workspace, dependendo da compl
 | - Segmento calculado com base em métricas | [Construtor de métrica calculada](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=pt-BR) | Para métrica calculada individual | Aplicar segmentos na definição da métrica |
 | - Segmento com base em VRS | [Construtor do conjunto de relatórios virtual](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) | Para um conjunto de relatórios virtual individual | Aplicar segmentos na definição de VRS |
 
-Este é um vídeo sobre a utilização de segmentos no Analysis Workspace:
+## Vídeos
+
+Uso de segmentos no Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+
+Localizar e criar segmentos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
 ## Criar segmentos {#section_693CFADA668B4542B982446C2B4CF0F5}
 
