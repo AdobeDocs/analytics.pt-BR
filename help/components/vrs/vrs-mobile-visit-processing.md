@@ -3,11 +3,10 @@ description: As Sessões sensíveis ao contexto em conjuntos de relatórios virt
 title: Sessões sensíveis ao contexto
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1556'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '1563'
+ht-degree: 99%
 
 ---
 
@@ -16,6 +15,10 @@ ht-degree: 100%
 As sessões sensíveis ao contexto em conjuntos de relatórios virtuais mudam a forma como o Adobe Analytics calcula as visitas de dispositivos. Este artigo também descreve as implicações do processamento de ocorrências em segundo plano e dos eventos de inicialização de aplicativos (ambos definidos pelo SDK móvel) na forma como as visitas móveis são definidas.
 
 Você pode definir uma visita da maneira que quiser sem alterar os dados subjacentes, para corresponder a como seus visitantes interagem com suas experiências digitais.
+
+Este é um vídeo sobre sessões sensíveis ao contexto:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 ## Parâmetro do URL de perspectiva do cliente
 
