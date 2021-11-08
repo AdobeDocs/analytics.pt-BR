@@ -2,19 +2,23 @@
 description: Eventos bem-sucedidos são ações que podem ser rastreadas. Você determina o que é um evento bem-sucedido. Por exemplo, se um visitante comprar um item, o evento de compra pode ser considerado o evento bem-sucedido.
 keywords: evento
 title: Visão geral dos eventos bem-sucedidos
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 98%
+source-wordcount: '727'
+ht-degree: 97%
 
 ---
 
 # Visão geral dos eventos bem-sucedidos
 
-Eventos bem-sucedidos são ações que podem ser rastreadas. Você determina o que é um evento bem-sucedido. Por exemplo, se um visitante comprar um item, o evento de compra pode ser considerado o evento bem-sucedido.
+Eventos bem-sucedidos (também conhecidos como eventos de conversão ou eventos personalizados) são ações que podem ser rastreadas. Você determina o que é um evento bem-sucedido. Por exemplo, se um visitante comprar um item, o evento de compra pode ser considerado o evento bem-sucedido.
+
+Esta é uma visão geral do vídeo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
 
 Acesse a página Eventos bem-sucedidos nas configurações do conjunto de relatórios:
 
@@ -34,7 +38,7 @@ Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vár
 * **Alta tecnologia**: download de white-paper, RFP, preenchimento de formulário, solicitações de suporte
 * **Automotivo**: submissão de cliente em potencial, solicitação de cotação, download de panfleto
 
-A variável [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) define um evento bem-sucedido.
+A variável [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=pt-BR) define um evento bem-sucedido.
 
 ## Página Eventos bem-sucedidos - Descrições {#section_681ECEC981694CABBDBF00E18165B447}
 

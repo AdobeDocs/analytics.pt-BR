@@ -2,10 +2,10 @@
 title: Guia de importação do Analytics
 description: Este manual explica como obter dados no Analytics por meio de Fontes de dados, da API de inserção de dados ou pelos Data Connectors.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '132'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 94%
 
 ---
 
@@ -18,6 +18,10 @@ Este guia explica como inserir dados no Analytics. O serviço inclui:
 * **[Fontes de dados](c-data-sources/datasrc-home.md)**: carregue um arquivo para um site de FTP designado da Adobe. A Adobe recupera o arquivo e inclui os dados em seu conjunto de relatórios.
 * **[API de inserção de dados](c-data-insertion-api/c-data-insertion-api.md)**: envie dados diretamente para a coleta de dados da Adobe por meio de uma API.
 * **[Data Connectors](data-connectors/getting-started-data-connectors.md)**: trabalhe com terceiros compatíveis para trazer seus dados para o Adobe Analytics e aprimorar seu conjunto de relatórios.
+
+Esta é uma visão geral em vídeo do Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Mais guias do usuário do Analytics
 

@@ -4,10 +4,10 @@ title: Publicar segmentos na Experience Cloud
 feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '1300'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '1306'
+ht-degree: 99%
 
 ---
 
@@ -17,10 +17,13 @@ A publicação de um segmento do Adobe Analytics na Experience Cloud permite que
 
 Também aumentamos o número máximo de segmentos do Adobe Analytics publicáveis para 75 (de 20). É possível visualizar segmentos publicados em [!UICONTROL Analytics > Componentes > Segmentos].
 
+Assista a este vídeo para obter mais detalhes:
+
+>[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+
 >[!NOTE]
 >
 >O Adobe Campaign (Classic e Standard) se comporta de forma diferente, pois incorre em uma latência adicional de 24 horas acima da latência de 8 horas.
-
 
 ## Pré-requisitos
 
