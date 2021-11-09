@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 99%
+source-wordcount: '1405'
+ht-degree: 98%
 
 ---
 
@@ -123,6 +123,10 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 >[!NOTE]
 >
 >O modelo Pessoas e sua respectiva métrica Pessoas estão disponíveis para uso somente como parte do [Device Co-op da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=pt-BR).
+
+Visão geral em vídeo do modelo Pessoas:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite
 

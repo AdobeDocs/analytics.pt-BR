@@ -1,13 +1,13 @@
 ---
 description: O Construtor de segmentos fornece uma tela para arrastar e soltar Dimensões de métricas, Segmentos e Eventos para os visitantes do segmento com base na lógica, nas regras e nos operadores da hierarquia do contêiner. Essa ferramenta de desenvolvimento integrada permite construir e salvar segmentos simples ou complexos que identificam os atributos e as ações do visitante nas visitas e ocorrências da página.
 title: Construir segmentos
-feature: Segmentação
+feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2036'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '2046'
+ht-degree: 99%
 
 ---
 
@@ -120,6 +120,10 @@ Por exemplo, crie com facilidade um segmento que inclua &quot;todos que realizar
 Crie um contêiner de Visita e adicione o intervalo [!UICONTROL Últimos 60 dias] e a métrica [!UICONTROL Pedido é superior ou igual a 1], com um operador AND:
 
 ![](assets/date-ranges.png)
+
+Este é um vídeo sobre o uso de intervalos de datas flexíveis em segmentos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
 ## Empilhar segmentos {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

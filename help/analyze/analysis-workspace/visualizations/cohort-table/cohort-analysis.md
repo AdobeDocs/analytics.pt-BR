@@ -4,10 +4,10 @@ description: Saiba mais sobre os dados do seu público-alvo e os divida em grupo
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 447f03c240580462b92b04254ca682cef69b6ffc
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 90%
 
 ---
 
@@ -27,14 +27,13 @@ Exemplos do que você pode fazer com a [!UICONTROL análise de coorte]:
 
 A [!UICONTROL Análise de coorte] está disponível a todos os clientes do Adobe Analytics com direitos de acesso ao [!UICONTROL Analysis Workspace].
 
-[Tutorial em vídeo da Análise de coorte](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=pt-BR) (4:36)
+Vídeo sobre tabelas de coorte no Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL Análise de coorte]
->
->não aceita métricas não segmentáveis (incluindo métricas calculadas), métricas não inteiras (como Receita) ou Ocorrências. Somente as métricas que podem ser usadas em segmentos podem ser usadas na
->[!UICONTROL Análise de coorte], que só pode ser aumentada em 1 de cada vez.
+>[!UICONTROL Análise de coorte] não suporta métricas não segmentáveis (incluindo métricas calculadas) e métricas não inteiras (como Receita ou Ocorrências). Somente as métricas que podem ser usadas em segmentos podem ser usadas em [!UICONTROL Análise de coorte]e só podem ser aumentadas em >1 de cada vez.
 
 ## Recursos da análise de coorte
 

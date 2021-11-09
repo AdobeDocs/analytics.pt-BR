@@ -2,19 +2,23 @@
 title: Visão geral do painel de comparação de segmentos
 description: Saiba como usar o painel de comparação de segmentos, parte do Segment IQ no Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-feature: Painéis
+feature: Panels
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 99%
 
 ---
 
 # Visão geral do painel de comparação de segmentos
 
 O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../segment-iq.md) que descobre as diferenças estatisticamente mais significativas entre um número ilimitado de segmentos. Esse recurso é repetido por meio de uma análise automatizada de todas as dimensões e métricas a que você tem acesso. A análise descobre as principais características dos segmentos de público-alvo que estão liderando os indicadores de desempenho (KPIs) da sua empresa e permite que você veja o nível de sobreposição entre quaisquer segmentos.
+
+Veja um vídeo sobre a comparação de segmentos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
 ## Criação de um painel de comparação de segmentos
 
