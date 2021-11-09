@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,10 @@ A visualização de mapa no Analysis Workspace
 * Suporta exportação de PDF.
 * Aproveita WebGL para exibição de gráficos. Se os drivers de gráficos não suportarem a renderização de WebGL, talvez seja necessário atualizá-los.
 
+Esta é uma visão geral do vídeo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+
 ## Criar uma visualização de mapa {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. Na lista de visualizações, solte o **[!UICONTROL Mapa]** em um painel de Forma livre:
@@ -33,18 +37,10 @@ A visualização de mapa no Analysis Workspace
 1. Arraste uma métrica da lista de métricas (incluindo métricas calculadas).
 1. Especifique a fonte de dados da qual deseja desenhar. (Esta caixa de diálogo só será exibida se você tiver um rastreamento de localização ativado para os dados do aplicativo móvel.)
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Lat/long móveis</b> </p> </td> 
-   <td colname="col2"> <p>Esta opção representa dados do aplicativo móvel. </p> <p>Você verá esta opção se ela estiver ativada para o conjunto de relatórios em <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Conjuntos de relatórios </span> &gt; <span class="uicontrol"> &lt;selecionar conjunto de relatórios&gt; </span> &gt; <span class="uicontrol"> Editar configurações </span> &gt; <span class="uicontrol"> Gerenciamento móvel </span> &gt; <span class="uicontrol"> Ativar rastreamento de localização</span></span>. </p> <p>Esta é a configuração padrão (caso o rastreamento de localização esteja ativado). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Dimensão geográfica</b> </p> </td> 
-   <td colname="col2"> <p>Esta opção representa dados de segmentação geográfica sobre a localização do visitante com base no endereço IP do visitante. Esses dados são transformados em País, Região e Cidade. Observe que eles não atingem o nível de DMA ou Código Postal. </p> <p>Quase todos os conjuntos de relatórios têm essa dimensão ativada. Se o seu não tiver, entre em contato com o Atendimento ao cliente da Adobe para ativar os relatórios geográficos. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Configuração | Descrição |
+| --- | --- |
+| [!UICONTROL Lat/long móveis] | Esta opção representa dados do aplicativo móvel. Você verá essa opção somente se ela tiver sido ativada para seu conjunto de relatórios em [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Conjuntos de relatórios] > (selecione o conjunto de relatórios) > [!UICONTROL Editar configurações] >  [!UICONTROL Gerenciamento móvel] > [!UICONTROL Ativar o rastreamento de localização]. Esta é a configuração padrão (caso o rastreamento de localização esteja ativado). |
+| [!UICONTROL Dimensão geográfica] | Esta opção representa dados de segmentação geográfica sobre a localização do visitante com base no endereço IP do visitante. Esses dados são transformados em [!UICONTROL País], [!UICONTROL Região]e [!UICONTROL Cidade]. Observe que eles não atingem o nível de DMA ou Código Postal. Quase todos os conjuntos de relatórios têm essa dimensão ativada. Se o seu não tiver, entre em contato com o Atendimento ao cliente da Adobe para ativar os relatórios geográficos. |
 
 1. Clique em **[!UICONTROL Criar]**.
 

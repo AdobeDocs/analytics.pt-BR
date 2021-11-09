@@ -1,20 +1,24 @@
 ---
 description: O recurso de Fallout no Analysis Workspace permite combinar dimensões e métricas como pontos de contato em funis e fluxos de trabalho. Isso fornece maior flexibilidade ao definir as etapas de usuário que deseja investigar.
-title: Fallout interdimensional
+title: Fallout multidimensional
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-feature: Visualizações
+feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 93%
 
 ---
 
-# Fallout interdimensional
+# Fallout multidimensional
 
 O recurso de Fallout no Analysis Workspace permite combinar dimensões e métricas como pontos de contato em funis e fluxos de trabalho. Isso fornece maior flexibilidade ao definir as etapas de usuário que deseja investigar.
+
+Aqui está um vídeo sobre o assunto:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
 
 **Exemplo**: além de, por exemplo, uma dimensão de página, você pode adicionar itens de dimensão baseados em ação a uma visualização de fallout. Isso permite visualizar como as páginas e determinadas ações interagem nos caminhos dos clientes.
 

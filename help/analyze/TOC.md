@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Fornece instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e de visualização do Analytics, bem como ferramentas como painéis do Adobe Analytics, Report Builder e Activity Map.
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
-workflow-type: ht
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
             + [Configurações de linha](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Itens dinâmicos vs. estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Paginação, filtragem e classificação de tabelas](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Totais do Workspace](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totais do Espaço de trabalho](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabela de coorte {#cohort-table}
          + [O que é a análise de coorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar um relatório de análise de coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -60,7 +60,7 @@ ht-degree: 100%
       + Fallout {#fallout}
          + [Visão geral de fallout](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar uma visualização de fallout](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Fallout interdimensional](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Fallout multidimensional](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Aplicar segmentos na análise de fallout](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Fluxo {#flow}
          + [Visão geral do Fluxo](analysis-workspace/visualizations/c-flow/flow.md)
@@ -126,7 +126,7 @@ ht-degree: 100%
          + [Gerenciador de Alerta](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertas inteligentes - Casos de uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Preferências do usuário](analysis-workspace/user-preferences.md)
-   + Perguntas frequentes sobre o Workspace {#workspace-faq}
+   + Perguntas frequentes sobre o Espaço de trabalho {#workspace-faq}
       + [Perguntas frequentes](analysis-workspace/workspace-faq/faq.md)
       + [Otimizar o desempenho do Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Mensagens de erro](analysis-workspace/workspace-faq/error-messages.md)

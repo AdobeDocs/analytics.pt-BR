@@ -2,10 +2,10 @@
 title: Visão geral das classificações
 description: Personalizar o agrupamento de itens de dimensão.
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,10 @@ Ao classificar, você estabelece uma relação entre a variável e os metadados 
 Depois de classificado, qualquer relatório que você puder gerar usando a variável-chave também poderá ser gerado com os atributos associados. Por exemplo, é possível classificar [!UICONTROL IDs de produto] com outros atributos de produto, como nome do produto, cor, tamanho, descrição e SKU. O aumento dos dados de relatórios e análises com outros atributos oferece oportunidades de relatórios mais profundos e complexos.
 
 Após criar as classificações, você pode aproveitar os novos atributos de dados em todo o Adobe Analytics.
+
+Este é um vídeo de visão geral sobre as classificações do Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
 ## Exemplo de códigos de rastreamento
 

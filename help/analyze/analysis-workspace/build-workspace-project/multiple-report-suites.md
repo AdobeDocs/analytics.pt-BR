@@ -1,13 +1,13 @@
 ---
 title: Vários conjuntos de relatórios
 description: Saiba como e por que criar projetos no Workspace com vários conjuntos de relatórios
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,10 @@ Esse recurso é útil se você desejar, por exemplo,
 * Comparar dados de duas regiões diferentes, e os dados estão em dois conjuntos de relatórios diferentes. É possível criar tabelas e visualizações para comparar os dados lado a lado.
 
 * Criar um painel de métricas e visualizações para gerar relatórios para outras organizações. Agora é possível extrair dados de vários conjuntos de relatórios para o mesmo projeto.
+
+Aqui está um vídeo sobre o assunto:
+
+>[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
 ## Aplicar o conjunto de relatórios a todos os painéis
 
@@ -35,7 +39,7 @@ Estamos introduzindo o conceito de &quot;painel ativo&quot; x &quot;painel inati
 >Você pode arrastar e soltar em qualquer painel que esteja no mesmo conjunto de relatórios que o painel ativo. Ao arrastar para um painel inativo do mesmo conjunto de relatórios, o painel ficará ativo.
 
 | Tarefa | Painel ativo | Painel inativo |
-|---|---|---|
+| --- | --- | --- |
 | Alterar conjunto de relatórios | Sim | Não |
 | Arrastar e soltar componentes | Sim | Sim, para qualquer painel que esteja no mesmo conjunto de relatórios que o painel ativo. |
 | Visualizações de arrastar e soltar | Sim | Sim, para qualquer painel que esteja no mesmo conjunto de relatórios que o painel ativo. |
