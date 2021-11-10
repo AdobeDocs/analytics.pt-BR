@@ -2,13 +2,13 @@
 description: Fatores que afetarão o desempenho e as otimizações do Workspace que você pode fazer
 title: Fatores de desempenho e otimização do Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '2012'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '2024'
+ht-degree: 99%
 
 ---
 
@@ -77,3 +77,9 @@ Outros fatores que não estão incluídos em Ajuda > Desempenho incluem:
 | Tamanho do conjunto de relatórios | A quantidade de dados coletados em seu conjunto de relatórios. | - | Consulte sua equipe de implementação ou um especialista da Adobe para determinar se há melhorias de implementação que podem ser feitas para aperfeiçoar a experiência geral no Adobe Analytics. |
 | Queries simultâneas | O número de queries que estão sendo solicitadas pela organização à Adobe ao mesmo tempo. Cada organização tem direito a no mínimo cinco queries simultâneas. | Se um relatório está demorando muito, normalmente é devido ao fato de estar em uma fila com outros relatórios. Sua organização está tentando executar muitas solicitações simultâneas em relação a um conjunto de relatórios específico. Os queries podem vir de solicitações de API, interfaces do usuário de relatórios (Analysis Workspace, Reports &amp; Analytics, Report Builder etc.), projetos agendados, relatórios agendados, alertas agendados e usuários simultâneos que fazem solicitações de relatórios. | Espalhe suas solicitações e agendamentos no conjunto de relatórios de forma mais uniforme ao longo do dia. Além disso, mude suas solicitações para fora do horário de pico, quando possível. Segunda-feira de manhã, terça-feira de manhã e o primeiro de cada mês são horas de pico de relatórios. |
 | Capacidade do data center | A capacidade de geração de relatórios que você e outros clientes compartilham em um data center da Adobe. | Isso é afetado pelo número de queries simultâneas feitas pela sua organização e outras organizações em seu data center. | Sua organização tem direito a uma capacidade definida e, se o sistema não estiver sobrecarregado, a Adobe transferirá mais capacidade para você, acima e além da capacidade permitida a você. |
+
+## Dicas para aumentar a produtividade na Analysis Workspace
+
+Esta é uma visão geral em vídeo sobre este tópico:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)

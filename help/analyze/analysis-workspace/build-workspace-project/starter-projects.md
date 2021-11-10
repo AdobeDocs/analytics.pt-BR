@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1414'
 ht-degree: 98%
 
 ---
@@ -71,6 +71,10 @@ Esses modelos padrão orientam você pela terminologia e etapas comuns para cria
 * **Tutorial de treinamento - Análise de pesquisa interna**: o tutorial de Pesquisa interna ajuda você a entender o que seus visitantes estão procurando no site ou aplicativo, mas não estão achando. A análise desse tipo de dados pode exibir oportunidades de otimização de conteúdo.
 
 * **Tutorial de treinamento - Análise de marketing**: este tutorial mostra como fazer uma análise de marketing para seus executivos, incluindo quais dimensões e métricas personalizadas são importantes.
+
+Aqui está um vídeo sobre o [!UICONTROL Tutorial de treinamento] modelo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
 ### Publicidade
 

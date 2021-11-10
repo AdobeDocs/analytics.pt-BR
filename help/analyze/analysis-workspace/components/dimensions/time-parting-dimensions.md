@@ -2,19 +2,23 @@
 description: A separação de tempo coleta o carimbo de data e hora de ocorrências coletadas e o divide em dimensões mais significativas, como "Horas do dia" ou "Dias de semana".
 title: Dimensões de separação de tempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 97%
 
 ---
 
 # Dimensões de separação de tempo
 
 A separação de tempo coleta o carimbo de data e hora de ocorrências coletadas e o divide em dimensões mais significativas, como &quot;Horas do dia&quot; ou &quot;Dias de semana&quot;.
+
+Este é um vídeo sobre dimensões de separação de tempo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
 As dimensões de separação de tempo são baseadas no fuso horário do conjunto de relatórios ou do conjunto de relatórios virtual. Essas dimensões estão disponíveis no Analysis Workspace e podem ajudar nas seguintes questões:
 
@@ -30,7 +34,7 @@ As dimensões de separação de tempo são baseadas no fuso horário do conjunto
 As dimensões de separação de tempo no Analysis Workspace incluem:
 
 | Dimensão | Valores de exemplo |
-|--- |--- |
+| --- | --- |
 | Hora do dia | 0-23 |
 | AM/PM | AM, PM |
 | Dia da semana | Segunda, terça, quarta, quinta, sexta, sábado, domingo |
