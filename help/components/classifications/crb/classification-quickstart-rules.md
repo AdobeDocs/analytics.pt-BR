@@ -2,12 +2,12 @@
 description: As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
 subtopic: Classifications
 title: Regras de classificação
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2028'
-ht-degree: 100%
+source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ O Construtor de regras permite criar um *conjunto de regras de classificação*,
 
 As regras de classificação são úteis para:
 
-* **Email** e **Anúncios de exibição**: Crie regras de classificação para agrupar campanhas de anúncio de exibição individuais para que seja possível aprender como as campanhas de exibição são realizadas em relação às campanhas de email.
+* **Email** e **Exibir anúncios**: Crie regras de classificação para agrupar campanhas de anúncios de exibição individuais para que você possa saber como as campanhas de Exibição são realizadas em relação às campanhas de email.
 
 * **Códigos de rastreamento**: crie regras de classificação para categorizar os valores principais provenientes das sequências nos códigos de rastreamento, e corresponda as regras aos critérios específicos definidos por você.
 * **Termos de pesquisa**: use [expressões regulares](/help/components/classifications/crb/classification-quickstart-rules.md) e curingas para simplificar a classificação de termos de pesquisa. Por exemplo, se um termo de pesquisa contém *`baseball`*, é possível definir uma classificação *`Sports League`* como *`MLB`*.
@@ -328,8 +328,8 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    >Os conjuntos de relatórios são exibidos nesta página *somente* quando as seguintes condições são atendidas:
    >
    >* Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
-   >
-   >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
+      >
+      >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
    >
    >* Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
 
