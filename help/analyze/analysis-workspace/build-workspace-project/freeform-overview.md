@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1428'
+ht-degree: 96%
 
 ---
 
@@ -89,6 +89,12 @@ Os componentes (Dimensões, Métricas, Segmentos, Intervalos de datas) no painel
 
 ![](assets/left-rail.png)
 
+## Clique com o botão direito do mouse no menu
+
+Este é um vídeo sobre como usar o menu do botão direito do mouse no Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
 ## Tela do projeto {#canvas}
 
 A tela do projeto é onde você reúne painéis, tabelas, visualizações e componentes para criar sua análise. Um projeto pode conter muitos painéis, e cada painel pode conter muitas tabelas e visualizações.
@@ -101,7 +107,9 @@ Dependendo do ponto de partida escolhido para seus projetos, você terá uma [ta
 
 ## Gerente de projetos {#manager}
 
-Os projetos do Analysis Workspace podem ser gerenciados em **Analytics > Componentes >  Projetos**. O Gerenciador de projetos mostra os itens criados por um usuário específico. A propriedade do projeto pode ser transferida para um novo usuário em Admin > Usuários e ativos do Analytics > Transferir ativos.
+Os projetos da Analysis Workspace podem ser gerenciados em **[!UICONTROL Analytics] > [!UICONTROL Componentes] >  [!UICONTROL Projetos]**. O Gerenciador de projetos mostra os itens criados por um usuário específico.
+
+A propriedade do projeto pode ser transferida para um novo usuário em [!UICONTROL Administrador] > [!UICONTROL Usuários e ativos do Analytics] > [!UICONTROL Transferir ativos].
 
 No Gerenciador de projetos, você pode adicionar, marcar, compartilhar, duplicar/copiar e muito mais. Procure um projeto na barra de pesquisa ou usando as opções de filtro no painel esquerdo. Você pode filtrar por tag, proprietários, tipo de projeto e muito mais.
 

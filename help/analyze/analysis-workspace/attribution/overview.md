@@ -1,13 +1,13 @@
 ---
 title: Visão geral da atribuição
 description: O conceito de atribuição de crédito de um evento bem-sucedido a vários itens de dimensão.
-feature: Atribuição
+feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,3 +45,9 @@ O Attribution IQ inclui os seguintes recursos:
 * [Aplicar atribuição a uma métrica](../visualizations/freeform-table/column-row-settings/column-settings.md): use uma atribuição não padrão em qualquer métrica em um projeto.
 * [Aplicar atribuição a um detalhamento](../components/dimensions/t-breakdown-fa.md): use uma atribuição não padrão em um detalhamento.
 * [Comparar modelos de atribuição](../components/apply-create-metrics.md): veja rapidamente como os diferentes modelos de atribuição são comparados para qualquer métrica.
+
+## Vídeos
+
+Este é um vídeo sobre o uso de diferentes modelos de Attribution IQ com segmentos, no Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)

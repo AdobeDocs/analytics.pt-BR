@@ -2,19 +2,23 @@
 description: No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição.
 title: Visão geral do calendário e do intervalos de datas
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
 # Visão geral do calendário e do intervalos de datas
 
 No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição.
+
+Este é um vídeo sobre o uso de intervalos de datas e calendários no Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
 As seleções do calendário se aplicam a nível de painel, mas você pode aplicá-las a todos os painéis. Ao clicar em um intervalo de datas no Workspace, a interface exibe o mês atual do calendário e o mês anterior. Você pode ajustar esses dois calendários clicando nas setas para a direita e para a esquerda em cada canto superior respectivo.
 

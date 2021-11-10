@@ -2,19 +2,23 @@
 description: 'A comparação de datas no Analysis Workspace permite usar qualquer coluna que contenha um intervalo de datas e criar uma comparação de datas comum, como: ano a ano, trimestre a trimestre, mês a mês, etc.'
 title: Comparação de datas
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '663'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Comparação de datas
 
 A comparação de datas no Analysis Workspace permite pegar qualquer coluna contendo um intervalo de data e criar uma comparação de data comum, como: ano sobre ano, trimestres sobre trimestres, mês sobre mês, etc.
+
+Esta é uma visão geral em vídeo sobre este tópico:
+
+>[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
 
 ## Comparar períodos de tempo {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 

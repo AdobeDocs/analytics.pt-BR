@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Casos de uso do Analysis Workspace
 feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '592'
+ht-degree: 93%
 
 ---
 
@@ -66,3 +66,15 @@ Suponha que você é um analista de marketing de um revendedor de equipamentos p
 Aqui está um vídeo sobre este tópico:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
+
+## Usar análise entre guias para atribuição básica de marketing
+
+Há muitas maneiras de elevar o padrão da sua metodologia de atribuição com o Adobe Analytics. Neste vídeo, destacamos como você pode obter insights mais profundos do relatório de Canais de marketing usando a análise entre guias no Workspace.
+
+>[!VIDEO](https://video.tv.adobe.com/v/39237/?quality=12)
+
+## Usar métricas de participação no Analysis Workspace
+
+Este vídeo mostra como obter métricas de participação usando métricas calculadas:
+
+>[!VIDEO](https://video.tv.adobe.com/v/41266/?quality=12)

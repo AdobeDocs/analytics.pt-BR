@@ -2,13 +2,13 @@
 description: Há duas formas de utilizar as métricas no Analysis Workspace.
 title: Métricas
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '252'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 92%
 
 ---
 
@@ -16,15 +16,21 @@ ht-degree: 100%
 
 Há duas formas de utilizar as métricas no Analysis Workspace.
 
-É possível arrastar uma métrica padrão, uma métrica calculada ou um modelo de métrica calculada do menu [!UICONTROL Componentes] para a tabela:
+* É possível arrastar uma métrica padrão, uma métrica calculada ou um modelo de métrica calculada do menu [!UICONTROL Componentes] para a tabela:
 
-![](assets/metrics_icons.png)
+   ![](assets/metrics_icons.png)
 
->[!NOTE]
->
->Embora seja aparentemente simples, o uso das métricas é eficiente. É possível adicionar métricas a um relatório arrastando a métrica apropriada para a seção de métricas de uma tabela. Também é possível detalhar dimensões por métricas, fornecendo controle detalhado sobre a exibição da tabela. Além disso, você pode inserir uma métrica como uma dimensão e uma dimensão como uma métrica para criar um relatório de horas extras. Teste os vários componentes e veja o que você pode fazer. As possibilidades são infinitas.
+   >[!NOTE]
+   >
+   >Embora seja aparentemente simples, o uso das métricas é eficiente. É possível adicionar métricas a um relatório arrastando a métrica apropriada para a seção de métricas de uma tabela. Também é possível detalhar dimensões por métricas, fornecendo controle detalhado sobre a exibição da tabela. Além disso, você pode inserir uma métrica como uma dimensão e uma dimensão como uma métrica para criar um relatório de horas extras. Teste os vários componentes e veja o que você pode fazer. As possibilidades são infinitas.
 
-Ou clique em **[!UICONTROL Componentes]** > **[!UICONTROL Nova métrica]**. Você será redirecionado para o [Criador de métricas calculadas](/help/components/c-calcmetrics/cm-overview.md), que permite criar métricas personalizadas a partir das existentes.
+* Ou clique em **[!UICONTROL Componentes]** > **[!UICONTROL Nova métrica]**. Você será redirecionado para o [Criador de métricas calculadas](/help/components/c-calcmetrics/cm-overview.md), que permite criar métricas personalizadas a partir das existentes.
+
+Este é um vídeo sobre como trabalhar com métricas em uma tabela de forma livre:
+
+>[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
+
+## Métricas calculadas
 
 Para facilitar a criação rápida de métricas calculadas, a opção **[!UICONTROL Criar métrica a partir da seleção]** foi adicionada ao menu da coluna exibida quando clicamos com o botão direito do mouse nas Tabelas de forma livre. Essa opção é exibida quando uma ou mais células de coluna de cabeçalho são selecionadas.
 
@@ -39,3 +45,9 @@ Se você quiser comparar um modelo com outro de maneira fácil e rápida, clique
 ![Comparar atribuição](assets/compare-attribution.png)
 
 Esse atalho permite comparar de forma rápida e fácil um modelo de atribuição com outro, sem arrastar uma métrica e configurá-la duas vezes.
+
+## Use o [!UICONTROL média cumulativa] para aplicar a suavização de métrica
+
+Esta é uma visão geral em vídeo sobre este tópico:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)

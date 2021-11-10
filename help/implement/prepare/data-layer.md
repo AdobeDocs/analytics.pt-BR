@@ -2,16 +2,20 @@
 title: Criar uma camada de dados
 description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 98%
 
 ---
 
 # Criar uma camada de dados
 
 Uma camada de dados é uma estrutura de objetos JavaScript no site que contém todos os valores de variável usados na implementação. Permite maior controle e manutenção simplificada na implementação.
+
+Veja um vídeo sobre o uso de camadas de dados:
+
+>[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
 
 ## Pré-requisitos
 
