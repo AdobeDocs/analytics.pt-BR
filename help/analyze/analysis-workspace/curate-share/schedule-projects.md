@@ -3,11 +3,10 @@ description: Gerencie projetos do Analysis Workspace
 keywords: Analysis Workspace
 title: Gerenciador de agendamento de projetos
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 100%
+source-wordcount: '164'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +18,10 @@ Gerencie projetos do Analysis Workspace.
 **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Projetos agendados]**.
 
 ![](assets/components-scheduled-projects.png)
+
+Este é um vídeo sobre projetos agendados e baixáveis no Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24709/?quality=12)
 
 No Gerenciador de agendamento de projetos, é possível editar e excluir entregas de projetos recorrentes. Você pode criar programas de entrega que enviam seus relatórios por email para um endereço especificado. Você pode configurar esses horários para enviar automaticamente relatórios em intervalos especificados por um período de tempo ou indefinidamente, ou interromper a entrega de um projeto periódico.
 
@@ -32,6 +35,5 @@ O Gerenciador de agendamento de projetos mostra os itens criados por um usuário
 * Adicione tags a projetos agendados.
 * Especifique ou altere o proprietário de um projeto agendado.
 * Adicione outros filtros como: Aprovados, Com falhas, Favoritos, Meus, Mostrar todos e Projetos expirados.
-
 * Defina a data de expiração de um projeto agendado.
 

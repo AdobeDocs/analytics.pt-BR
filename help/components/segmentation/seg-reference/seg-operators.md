@@ -1,13 +1,13 @@
 ---
 description: O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados.
 title: Operadores de comparação para segmentos
-feature: Segmentação
+feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '1095'
+ht-degree: 99%
 
 ---
 
@@ -63,3 +63,7 @@ O único caractere genérico compatível é o asterisco: *. Caso seja necessári
 | é menor que | Retorna itens de dimensão cuja contagem específica é inferior ao valor inserido. |
 | é maior que ou igual a | Retorna itens de dimensão cuja contagem específica é superior ou igual ao valor inserido. |
 | é menor que ou igual a | Retorna itens de dimensão cuja contagem específica é inferior ou igual ao valor inserido. |
+
+Este é um vídeo sobre segmentação em contagens de dimensão distintas:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
