@@ -2,10 +2,10 @@
 title: Integração do Analytics
 description: Saiba como integrar dados de outros locais ao Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: 80698e880e2fe218525854d4ccc8dba341b1da5d
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 80%
+source-wordcount: '177'
+ht-degree: 73%
 
 ---
 
@@ -13,9 +13,7 @@ ht-degree: 80%
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
-Este guia tem como foco a integração de várias soluções da Adobe Experience Cloud. Se estiver procurando conectores de dados do Analytics, consulte a página [Data connectors](/help/import/data-connectors/getting-started-data-connectors.md) no guia do usuário Importar.
-
-Configure as integrações com outras soluções da Adobe Experience Cloud, como Audience Manager, Advertising Cloud ou Target. O serviço inclui:
+Este guia tem como foco a integração de várias soluções da Adobe Experience Cloud, como Audience Manager, Advertising Cloud ou Target. O serviço inclui:
 
 * **Análise de público-alvo:** integre o Adobe Audience Manager ao Adobe Analytics.
 * **Advertising Analytics:** consulte dados de pesquisa paga lado a lado com os dados do Adobe Analytics.
