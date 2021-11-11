@@ -1,13 +1,13 @@
 ---
 title: Painel de visualizadores simultâneos de mídia
 description: Como usar e interpretar o painel Visualizadores simultâneos de mídia no Analysis Workspace.
-feature: Painéis
+feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1005'
-ht-degree: 100%
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+workflow-type: tm+mt
+source-wordcount: '1012'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,10 @@ Os clientes do Media Analytics podem analisar visualizadores simultâneos para e
 No Analysis Workspace, Visualizadores simultâneos é o número de visitantes únicos que visualizam seus fluxos de mídia em um ponto específico do tempo, independentemente do número de sessões.
 
 O painel Visualizadores simultâneos de mídia permite a análise de visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de detalhar e comparar.  Para acessar o painel Visualizadores simultâneos de mídia, navegue até um conjunto de relatórios com os componentes do Media Analytics ativados. Em seguida, clique no ícone do painel na extremidade esquerda e arraste o painel para o Projeto do Analysis Workspace.
+
+Esta é uma visão geral em vídeo desse painel:
+
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Entradas do painel {#Input}
 
