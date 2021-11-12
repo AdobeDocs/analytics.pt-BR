@@ -3,9 +3,9 @@ description: Uma lista detalhada e descrições das variáveis de configuração
 title: Referência de dados e de código do encaminhamento pelo lado do servidor
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 4f29245a80e54f3fbc5a830075d066b31d23c628
+source-git-commit: 27af710f1ce9d85b1177fa4c5fd4d3f6e2875a48
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '520'
 ht-degree: 92%
 
 ---
@@ -36,6 +36,7 @@ Esses cabeçalhos são campos que contêm informações como solicitações de d
 | Accept-Language | Defina para o cabeçalho `Accept-Language` enviado para o Analytics. | `h_accept-language` |
 | Referer | Definido para o URL da página enviado ao Analytics ou obtido do cabeçalho `Referer` enviado ao Analytics. | `h_referer` |
 | Referenciador | Definido para o URL da página enviado ao Analytics ou obtido do cabeçalho `Referrer` enviado ao Analytics. | `h_referrer` |
+| Data | Defina para o cabeçalho `Date` enviado para o Analytics. | `h_date` |
 
 Além disso, uma `h_ip` é gerado pelo IP do host que envia a solicitação para o DCS.
 
