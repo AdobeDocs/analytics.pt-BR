@@ -4,10 +4,10 @@ description: O conceito de atribuição de crédito de um evento bem-sucedido a 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '430'
+ht-degree: 97%
 
 ---
 
@@ -48,6 +48,6 @@ O Attribution IQ inclui os seguintes recursos:
 
 ## Vídeos
 
-Este é um vídeo sobre o uso de diferentes modelos de Attribution IQ com segmentos, no Analysis Workspace:
+Este é um vídeo sobre o Attribution IQ nas tabelas de forma livre:
 
->[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
