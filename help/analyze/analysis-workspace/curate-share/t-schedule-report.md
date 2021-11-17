@@ -2,13 +2,13 @@
 description: Envie um projeto do Analysis Workspace por email ou agende o seu envio.
 keywords: Analysis Workspace
 title: Agendar projetos
-feature: Preparar e compartilhar
+feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 78%
 
 ---
 
@@ -49,7 +49,22 @@ Os projetos programados do Analysis Workspace podem ser gerenciados em **Analyti
 
 No Gerenciador de agendamento de projetos, é possível editar e excluir agendamentos de projetos recorrentes. Procure um agendamento na barra de pesquisa ou usando as opções de filtro no painel esquerdo. Você pode filtrar por tag, programação aprovada, proprietários e muito mais.
 
-![](assets/scheduled-project-manager.png)
+![](assets/scheduled-project-manager2.png)
+
+| Campo | Descrição |
+| --- | --- |
+| Favoritos | Selecionar o ícone de estrela torna este agendamento favorito. |
+| ID de agendamento | Essa ID é usada principalmente para fins de depuração. |
+| Título e descrição | Título e descrição deste projeto. |
+| Proprietário | A pessoa que criou e é proprietária do projeto. |
+| Tags | (opcional) A marcação é uma boa maneira de organizar projetos. Todos os usuários podem criar tags e aplicar uma ou mais tags a um projeto. No entanto, você pode ver tags somente para os projetos que possui ou que foram compartilhados com você. |
+| Entregue para | O(s) destinatário(s) deste projeto agendado(s). |
+| Data de validade | A data de expiração padrão é um ano após a data de criação. |
+| Frequência | Com que frequência você deseja que esse projeto de agendamento seja enviado aos recipients. |
+| Tempo de execução | Em que hora do dia esse projeto agendado é enviado. |
+| Número de Consultas | O número de queries em relação a este projeto. |
+
+## Ações comuns
 
 As ações a seguir são comuns no Gerenciador de projetos programados:
 

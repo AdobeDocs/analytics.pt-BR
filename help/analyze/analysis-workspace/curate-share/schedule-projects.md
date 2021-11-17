@@ -3,15 +3,15 @@ description: Gerencie projetos do Analysis Workspace
 keywords: Analysis Workspace
 title: Gerenciador de agendamento de projetos
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 92%
+source-wordcount: '175'
+ht-degree: 86%
 
 ---
 
 
-# Gerenciador de agendamento de projetos
+# Gerente de projeto programado
 
 Gerencie projetos do Analysis Workspace.
 
@@ -28,6 +28,10 @@ No Gerenciador de agendamento de projetos, é possível editar e excluir entrega
 O Gerenciador de agendamento de projetos mostra os itens criados por um usuário específico. Se a conta de usuário estiver desabilitada no aplicativo, todas as entregas programadas são interrompidas.
 
 ![](assets/scheduled-projects.png)
+
+## Agendar tarefas do gerenciador de projetos
+
+No [!UICONTROL Projetos agendados] Na interface do usuário, você pode:
 
 * Edite projetos agendados.
 * Exiba a ID de agenda de um projeto (usada principalmente para fins de depuração).
