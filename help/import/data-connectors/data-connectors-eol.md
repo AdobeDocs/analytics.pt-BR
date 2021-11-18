@@ -2,7 +2,7 @@
 description: Saiba quando e por que os conectores de dados do Analytics serão encerrados.
 title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 99%
@@ -11,9 +11,9 @@ ht-degree: 99%
 
 # Fim da vida útil do Adobe Data Connectors
 
-Por mais de uma década, o Adobe Analytics tem como objetivo oferecer a melhor solução analítica de marketing na Web para atender às necessidades dos clientes. À medida que as necessidades tecnológicas e empresariais evoluem, nos esforçamos para fornecer e atender continuamente os mais altos padrões.  Infelizmente, as APIs que potencializam essa integração não atendem mais a esses padrões e não são sustentáveis na infraestrutura moderna da tecnologia do Adobe Analytics.
-
 **A partir de 19 de agosto de 2021**, a Adobe descontinuou as integrações de conectores de dados. O fim da vida útil faz parte do ciclo de vida de qualquer produto tecnológico, e a Adobe visa tornar a transição o mais simples possível para nossos clientes e parceiros. Muitas dessas integrações estão disponíveis via Adobe Exchange e podem continuar sendo usadas.
+
+Por mais de uma década, o Adobe Analytics tem como objetivo oferecer a melhor solução analítica de marketing na Web para atender às necessidades dos clientes. À medida que as necessidades tecnológicas e empresariais evoluem, nos esforçamos para fornecer e atender continuamente os mais altos padrões.  Infelizmente, as APIs que potencializam essa integração não atendem mais a esses padrões e não são sustentáveis na infraestrutura moderna da tecnologia do Adobe Analytics.
 
 ## Por que vamos acabar com esse recurso?
 
@@ -62,7 +62,7 @@ Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao clie
 | Demandbase CA | Substituição |
 | Demandbase v3 | Substituição |
 | DialogTech | Migração para as APIs mais recentes |
-| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Substituição |
+| [DoubleClick for Advertisers (DFA)] | Substituição |
 | DREAM | Substituição |
 | DREAMmail 1.0, DREAMmail 2.0 | Substituição |
 | Dynamic Signal (Nital Vora) | Migração para as APIs mais recentes |
