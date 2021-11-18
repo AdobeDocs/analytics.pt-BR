@@ -2,10 +2,10 @@
 title: Coleta de dados regionais
 description: Informação sobre a coleta de dados regionais
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e020e768b7a3a5495fcc86cb3fd1fbc5a421d224
+source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 78%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
@@ -25,9 +25,11 @@ Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 |---------------------|-------------------|
 | Padrão | Oregon, Virgínia, Irlanda, Paris, Mumbai, Singapura, Tóquio, Sydney, China* |
 
-Observação: se sua solicitação de imagem do Analytics é enviada para os endpoints `adobedc` `2o7.net` ou `omtrdc.net`, você tem a coleção de dados de terceiros. É possível determinar se um desses endpoints aparecem na URL de suas solicitações.
-
 *O RDC da China exige o pacote do complemento da China. Consulte a nota &quot;Importante&quot; acima.
+
+>[!NOTE]
+>
+>Se a solicitação de imagem do Analytics for enviada para o `adobedc`, `2o7.net` ou `omtrdc.net` endpoints do , em seguida, você tem coleta de dados de terceiros. É possível determinar se um desses endpoints aparecem na URL de suas solicitações.
 
 ## Coleta de dados HTTPS de terceiros
 
@@ -43,7 +45,8 @@ Observação: se sua solicitação de imagem do Analytics é enviada para os end
 *Somente China e os tipos de RDC Global + China exigem o pacote do complemento China. Consulte a nota &quot;Importante&quot; acima. Global + China roteará os dados originários da China para nossa RDC da China, enquanto roteará os dados originários de fora da China para a RDC mais próxima fora da China.
 
 >[!NOTE]
->O Experience Edge Global e o Global + China oferecem o melhor desempenho para seus usuários finais. Se quiser usar um tipo de RDC alternativo, entre em contato com o Atendimento ao Cliente do Adobe para obter assistência.
+>
+>A Experience Edge Global oferece o melhor desempenho para seus usuários finais.  Se quiser usar um tipo de RDC alternativo, entre em contato com o Atendimento ao Cliente do Adobe para obter assistência.
 
 ## Benefícios da RDC
 
