@@ -2,10 +2,10 @@
 title: Coleta de dados regionais
 description: Informação sobre a coleta de dados regionais
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
-workflow-type: ht
-source-wordcount: '451'
-ht-degree: 100%
+source-git-commit: e020e768b7a3a5495fcc86cb3fd1fbc5a421d224
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ A Adobe Experience Cloud usa a RDC (Coleta de dados regionais) para que as inter
 
 >[!IMPORTANT]
 >
->O pacote de complemento RDC da China (Otimização de desempenho na China) é um complemento pago do Adobe Analytics. A Otimização do desempenho da Adobe na China continental permite que os clientes da China enviem dados diretamente para o nó de borda da China, em vez de outros locais globalmente. Isso melhora os tempos de carregamento de páginas e a precisão dos dados em comparação ao envio de dados para nós fora da China. Entre em contato com o representante da Adobe Sales para obter mais informações.
+>O pacote de complemento RDC da China (Otimização de desempenho na China) é um complemento pago do Adobe Analytics. A Otimização do desempenho do Adobe na China continental permite que os clientes com usuários dentro da China enviem esses dados diretamente para o nó de borda da China, em vez de outros locais globalmente. Isso melhora os tempos de carregamento de páginas e a precisão dos dados em comparação ao envio de dados para nós fora da China. Entre em contato com o representante da Adobe Sales para obter mais informações.
 
 Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 
@@ -34,20 +34,22 @@ Observação: se sua solicitação de imagem do Analytics é enviada para os end
 | Tipo da RDC | Centros de coleta de dados |
 |---------------------|-------------------|
 | Global (Padrão) | Oregon, Virgínia, Irlanda, Paris, Mumbai, Singapura, Tóquio, Sydney |
+| Global + China* | China*, Oregon, Virgínia, Irlanda, Paris, Mumbai, Singapura, Tóquio, Sydney |
 | Somente Américas | Oregon, Virgínia |
 | Somente Europa | Irlanda, Paris |
 | Somente Pacífico Asiático | Mumbai, Singapura, Tóquio, Sidney |
 | Somente China* | Pequim |
 
-*O RDC da China exige o pacote do complemento da China. Consulte a nota &quot;Importante&quot; acima.
+*Somente China e os tipos de RDC Global + China exigem o pacote do complemento China. Consulte a nota &quot;Importante&quot; acima. Global + China roteará os dados originários da China para nossa RDC da China, enquanto roteará os dados originários de fora da China para a RDC mais próxima fora da China.
 
-Observação: a Experience Edge Global oferece o melhor desempenho aos usuários finais.  Se quiser usar um tipo de RDC alternativo, entre em contato com o Atendimento ao cliente da Adobe para obter assistência.
+>[!NOTE]
+>O Experience Edge Global e o Global + China oferecem o melhor desempenho para seus usuários finais. Se quiser usar um tipo de RDC alternativo, entre em contato com o Atendimento ao Cliente do Adobe para obter assistência.
 
 ## Benefícios da RDC
 
 | Benefícios | Descrição |
 | --- | --- |
-| Desempenho | Com o RDC, seus visitantes se conectam ao DCC mais próximo. Isso fornece o tempo de resposta mais rápido, resultando em rastreamento mais preciso e em tempos de carregamento mais rápidos. |
+| Desempenho | Com a RDC, seus visitantes se conectam ao DCC mais próximo. Isso fornece o tempo de resposta mais rápido, resultando em rastreamento mais preciso e em tempos de carregamento mais rápidos. |
 | Redundância | No caso de uma interrupção na comunicação entre o DCC e a DPC, a infraestrutura da RDC da Adobe salva os dados localmente e, em seguida, os encaminha para a DPC quando as comunicações forem restauradas. |
 
 ## Como a RDC funciona
