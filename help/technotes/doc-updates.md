@@ -3,9 +3,9 @@ title: Atualizações de documentação técnica do Adobe Analytics
 description: Atualizações notáveis no conjunto de documentação do Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7a8a4d6c7a7addc1e5432d0f8d092caa64feb1eb
+source-git-commit: 579279798d67536fde182386ec0cf8db36785cc2
 workflow-type: tm+mt
-source-wordcount: '2957'
+source-wordcount: '2958'
 ht-degree: 98%
 
 ---
@@ -24,8 +24,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Outubro de 2021** |  |
 | 21 de outubro de 2021 | Nova documentação em [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) no Analysis Workspace |
-| 21 de outubro de 2021 | Nova documentação sobre o [Tempo gasto na reprodução da mídia](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html?lang=pt-BR) no Analysis Workspace. |
-| 7 de outubro de 2021 | Nova documentação em [visualizações de scorecards para dispositivos móveis](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR#aplicar-visualizações) |
+| 21 de outubro de 2021 | Nova documentação sobre o [Tempo gasto na reprodução da mídia](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) no Analysis Workspace. |
+| 7 de outubro de 2021 | Nova documentação sobre [visualizações para cartões de pontuação móveis](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR#apply-visualizations) |
 | **Agosto de 2021** |  |
 | 18 de agosto de 2021 | Estrutura de nível superior revisada e consolidada para uma única [Página de aterrisagem](https://experienceleague.adobe.com/docs/analytics.html?lang=pt-BR) |
 | 18 de agosto de 2021 | Novo tópico em [A4T e conjuntos de relatórios virtuais](/help/components/vrs/vrs-a4t.md) |
@@ -38,7 +38,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 15 de julho de 2021 | Adição de nova documentação sobre a nova [página de aterrissagem do Adobe Analytics](/help/analyze/landing.md) |
 | **Junho de 2021** |  |
 | 15 de junho de 2021 | Práticas recomendadas para [Canais de marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=pt-BR) atualizadas |
-| 3 de junho de 2021 | Atualização da documentação para explicar melhor a [Implementação do feed de dados](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=pt-BR) e [aqui](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=br#BucketOwnerFullControl). |
+| 3 de junho de 2021 | Atualização da documentação para explicar melhor a [Implementação do feed de dados](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=pt-BR) e [aqui](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=pt-BR#BucketOwnerFullControl). |
 | 25 de maio de 2021 | Atualização da documentação sobre [distinção entre maiúsculas e minúsculas de eVars em relatórios](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=pt-BR). |
 | 13 de maio de 2021 | Atualizações para [Solicitações de API do Data Warehouse](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Agora, elas são compatíveis com &quot;Horas&quot;. |
 | **Março de 2021** |  |
@@ -57,7 +57,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 7 de dezembro de 2020 | Todas as páginas relevantes foram alteradas para incluir ou substituir o ponto de extremidade &quot;adobedc.net&quot;. |
 | 8 de dezembro de 2020 | Atualizações para a página [Criar novo projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=pt-BR) no Workspace. |
 | **Novembro de 2020** |  |
-| 24 de novembro de 2020 | Atualizações para a página [Visão geral do painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR) no Workspace. |
+| 24 de novembro de 2020 | Atualizações para a página [Visão geral do painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) no Workspace. |
 | 24 de novembro de 2020 | Novos documentos de análise de implementação: <ul><li>[Análise completa da implementação](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=pt-BR)</li><li>[Análise focada da implementação](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=pt-BR)</li></ul> |
 | 24 de novembro de 2020 | Atualização da página [Visão geral das visualizações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR) do Analysis Workspace. |
 | 12 de novembro de 2020 | Nova página sobre [Implementação herdada do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=pt-BR). |
@@ -70,7 +70,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 17 de setembro de 2020 | [Baixar 50 mil itens para uma única dimensão](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR#download-items): agora é possível baixar 50.000 itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. |
 | 17 de setembro de 2020 | [Melhorias na visualização de Linha](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): <ul><li>Você pode exibir ou ocultar o eixo x e o eixo y de qualquer visualização de [!UICONTROL Linha]. Pode ser especialmente útil quando suas visualizações de [!UICONTROL linha] são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de linha para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de linha para ver mais facilmente a tendência nos dados. As opções incluem [!UICONTROL Linear], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potência] e [!UICONTROL Quadrático].</li></ul> |
 | 17 de setembro de 2020 | Novos intervalos de datas no Workspace: adicionamos 5 novos intervalos de datas para que você possa escolher intervalos de datas que não incluem dados parciais do dia de hoje: Últimos 7 dias completos, Últimos 14 dias completos, Últimos 30 dias completos, Últimos 60 dias completos, Últimos 90 dias completos. |
-| 17 de setembro de 2020 | Nova documentação sobre o [painel Visualizador simultâneo de mídia no Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=pt-BR) |
+| 17 de setembro de 2020 | Nova documentação sobre o [painel Visualizador simultâneo de mídia no Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
 | **Agosto de 2020** |  |
 | 31 de agosto de 2020 | Adição de melhorias na [documentação de compilação em campo](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=pt-BR) no Cross-Device Analytics. |
 | **Julho de 2020** |  |
@@ -123,11 +123,11 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 21 de novembro de 2019 | Atualização de [Perguntas frequentes sobre o fluxo de trabalho do Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=pt-BR) para indicar a disponibilidade no LiveStream. |
 | 25 de outubro de 2019 | Atualização da página [Principais conceitos do Adobe Analytics](/help/technotes/terms.md). |
 | 10 de outubro de 2019 | Atualização dos totais das tabelas de forma livre: agora incluem dois totais, um **[!UICONTROL Total da tabela]** e um **[!UICONTROL Total geral]**. As contas de linhas totais da tabela para os [filtros de relatório](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=pt-BR) foram aplicadas. Anteriormente, somente a segmentação afetava os totais. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR)<br/>Além disso, as opções **[!UICONTROL Mostrar totais]** e **[!UICONTROL Mostrar total geral]** foram adicionadas às **[!UICONTROL Configurações de coluna]**.<br/>Com essa alteração nos totais das tabelas de forma livre, as visualizações dependentes serão atualizadas (ex: visualizações de **[!UICONTROL Número de resumo]** interligadas), bem como dados CSV e PDF exportados. |
-| Outubro de 10,2019 | No Workspace, a capacidade de remover facilmente “Não especificado (Nenhum)” foi adicionada como uma opção de filtros de relatório. |
-| Outubro de 10,2019 | No Workspace, os componentes de granularidade violeta (minuto, hora, dia, semana, mês, trimestre, ano) foram descontinuados. **Nenhuma ação** precisa ser executada se você tiver usado anteriormente um dos componentes de tempo violeta.<br/>Com essa alteração, a seção **[!UICONTROL Tempo]** violeta, além disso, foi renomeada para **[!UICONTROL Intervalos de datas]**. |
+| 10 de outubro de 2019 | No Workspace, a capacidade de remover facilmente “Não especificado (Nenhum)” foi adicionada como uma opção de filtros de relatório. |
+| 10 de outubro de 2019 | No Workspace, os componentes de granularidade violeta (minuto, hora, dia, semana, mês, trimestre, ano) foram descontinuados. **Nenhuma ação** precisa ser executada se você tiver usado anteriormente um dos componentes de tempo violeta.<br/>Com essa alteração, a seção **[!UICONTROL Tempo]** violeta, além disso, foi renomeada para **[!UICONTROL Intervalos de datas]**. |
 | 1 de outubro de 2019 | Novo artigo em [Totais do Workspace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR#cja-workspace). |
 | 28 de setembro de 2019 | Novos artigos sobre [variáveis de configuração para a implementação do Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
-| 19 de setembro de 2019 | Documentação de segmentação revisada para explicar os [Containers do grupo lógico](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=br#logic-group-containers). |
+| 19 de setembro de 2019 | Documentação de segmentação revisada para explicar os [Containers do grupo lógico](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=pt-BR#logic-group-containers). |
 | 12 de setembro de 2019 | Nova documentação do [IQ de jornada: análise entre dispositivos](/help/components/cda/overview.md). |
 | 12 de setembro de 2019 | Atualize o documento [Totais de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=pt-BR). |
 | 28 de agosto de 2019 | Novo artigo sobre [Aplicativos da Web progressivos (PWAs) para o Analytics](/help/technotes/pwa.md). |
