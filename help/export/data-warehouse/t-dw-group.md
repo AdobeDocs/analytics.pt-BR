@@ -1,42 +1,18 @@
 ---
-description: Etapas que descrevem como os administradores podem ativar o acesso aos relatórios do Data Warehouse para um grupo de usuários.
-title: Adicionar grupo de usuários do Data Warehouse
+description: Etapas que descrevem como os administradores podem ativar o acesso aos relatórios do Data Warehouse para os usuários.
+title: Gerenciar permissões do Data Warehouse
 feature: Data Warehouse
+solution: Analytics
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 96%
+source-wordcount: '43'
+ht-degree: 0%
 
 ---
 
-# Adicionar grupo de usuários do Data Warehouse
+# Gerenciar permissões do Data Warehouse
 
-Etapas que descrevem como os administradores podem ativar o acesso aos relatórios do Data Warehouse para um grupo de usuários.
-
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de usuários]**.
-1. Clique em **[!UICONTROL Editar grupos]**.
-1. Clique em **[!UICONTROL Adicionar novo grupo de usuários]**.
-1. Na seção **[!UICONTROL Definir grupo de usuários]**, digite um nome no campo Nome do grupo. Fornecer as seguintes informações do grupo:
-
-   Por exemplo, `Data Warehouse Access`.
-1. Digite uma descrição no campo **[!UICONTROL Descrição do grupo.]**
-1. Na seção **[!UICONTROL Acesso ao conjunto de relatórios]**, selecione os conjuntos de relatórios aos quais você deseja que os membros do grupo tenham acesso.
-1. Em [!UICONTROL Ferramentas], ative **[!UICONTROL Todas as ferramentas]**.
-
-   Como opção, clique em **[!UICONTROL Personalizar]** e ative **[!UICONTROL Personalizar o relatório do Data Warehouse]**.
-
-1. Em [!UICONTROL Atribuir logons de usuário], adicionar os logons de usuário desejados.
-1. Clique em **[!UICONTROL Salvar grupo]**.
-
-   Na próxima vez em que os usuários adicionarem a esse logon de grupo, será possível visualizar a opção de Data Warehouse adicionada ao menu de [!UICONTROL Reports &amp; Analytics].
-
-   >[!NOTE]
-   >
-   >No caso de permissões em conflito (como um usuário atribuído a dois grupos, um dos quais nega acesso a um recurso e o outro concede o mesmo acesso), o sistema restringe a permissão. Os usuários que pertencem a grupos que negam acesso ao data warehouse podem ter de ser removidos de tais grupos.
-
->[!MORELIKETHIS]
->
->* [Grupos](/help/admin/user-management2/c-user-groups/groups.md)
+Consulte a [Adobe Admin Console](/help/admin/admin-console/home.md) documentação sobre como configurar permissões para usuários do Data Warehouse. A permissão está listada [here](/help/admin/admin-console/permissions/report-suite-tools.md).
 

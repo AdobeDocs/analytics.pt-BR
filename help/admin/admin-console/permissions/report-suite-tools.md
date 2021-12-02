@@ -1,17 +1,17 @@
 ---
-title: Permissões de perfil de produto para Ferramentas de conjunto de relatórios
+title: Permissões de perfil de produto para Ferramentas do conjunto de relatórios no Adobe Admin Console
 description: Entenda cada item de permissão em Ferramentas do conjunto de relatórios.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 95%
 
 ---
 
 # Permissões de perfil de produto para Ferramentas de conjunto de relatórios
 
-Use esta página para entender cada item de permissão em Ferramentas de conjunto de relatórios.
+Use esta página para entender cada item de permissão em Ferramentas do conjunto de relatórios no Adobe Admin Console.
 
 | Item de permissão das Ferramentas do conjunto de relatórios | Descrição |
 |------|------|
@@ -31,7 +31,7 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | Visitante único | Concede acesso a Conversão > Variável de visitante único. Normalmente não é usado em implementações modernas. |
 | Eventos bem-sucedidos | Concede acesso a Conversão > Eventos de sucesso no Gerenciador de conjunto de relatórios. |
 | Variáveis da Lista | Concede acesso a Conversão > Variáveis de lista no Gerenciador de conjunto de relatórios. |
-| Métricas padrão | Concede acesso a Configurações de conjuntos de relatórios individuais > Métricas padrão no Gerenciador de conjunto de relatórios. |
+| Métricas padrão | Concede acesso a Configurações individuais do Conjunto de relatórios > Métricas padrão no Gerenciador de conjunto de relatórios. |
 | Regras de processamento | Concede acesso a Geral > Regras de processamento e Gerais > Regras de bot no Gerenciador de conjunto de relatórios. |
 | Detecção de anomalias | Concede acesso à Detecção de anomalias na Analysis Workspace. |
 | Análise de contribuição | Concede acesso ao menu de clique com o botão direito do mouse &quot;Executar Análise de contribuição&quot; na Analysis Workspace. |

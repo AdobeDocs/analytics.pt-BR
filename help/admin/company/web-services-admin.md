@@ -1,13 +1,13 @@
 ---
 description: As APIs de Serviços da Web fornecem acesso programático a relatórios de marketing e a outros serviços do Suite que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics.
 title: Serviços Web
-feature: Ferramentas administrativas
+feature: Admin Tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 96%
+source-wordcount: '241'
+ht-degree: 87%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 96%
 
 As APIs de Serviços da Web fornecem acesso programático a relatórios de marketing e a outros serviços do Suite que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics.
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Administrador]**  >  **[!UICONTROL Todos os administradores]**  > Configurações  **[!UICONTROL da empresa]**  > Serviços  **[!UICONTROL da Web]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Serviços Web]**
 
 ## Gerenciar serviços da Web
 
-Em Gerenciamento de usuários > [Grupos](/help/admin/user-management2/c-user-groups/groups.md) é possível atualizar o grupo de Acesso ao serviço da Web para incluir os usuários que precisam de acesso às APIs de serviços da Web.
+No [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html) é possível atualizar as permissões para incluir os usuários que precisam de acesso às APIs de serviços da Web.
 
 ## WSDL: Fazer o download do WSDL da API de serviços da Web para desenvolvedores de serviços da Web.
 
