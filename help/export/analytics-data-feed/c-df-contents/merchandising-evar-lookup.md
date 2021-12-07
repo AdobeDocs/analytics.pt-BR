@@ -1,9 +1,8 @@
 ---
 title: Pesquisa de instâncias de eVar de merchandising no post_product_list
 description: Localize a instância do eVar de merchandising para cada valor de pesquisa na coluna post_product_list em um feed de dados.
-exl-id: null
-source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
-workflow-type: ht
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
+workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 100%
 
