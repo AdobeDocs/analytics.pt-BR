@@ -1,19 +1,19 @@
 ---
 description: Como criar um cartão de pontuação dos painéis do Adobe Analytics
-title: Criar um scorecard móvel
+title: Criar um cartão de pontuação móvel
 feature: Analytics Dashboards
 role: User, Admin
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1349'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# Criar um scorecard móvel
+# Criar um cartão de pontuação móvel
 
-As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar scorecards para dispositivos móveis para usuários executivos. Para começar, você pode exibir o vídeo Construtor de cartão de pontuação dos painéis do Adobe Analytics:
+As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar cartões de pontuação móveis para usuários executivos. Para começar, você pode exibir o vídeo Construtor de cartão de pontuação dos painéis do Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -104,15 +104,15 @@ Você será direcionado ao construtor de intervalo de datas, em que é possível
 
 ## Aplicar visualizações
 
-Exibir um vídeo sobre visualizações de scorecards para dispositivos móveis:
+Exibir um vídeo sobre visualizações para cartões de pontuação móveis:
 
 >[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
-Os painéis do Analytics oferecem quatro visualizações que proporcionam um excelente insight sobre itens de dimensão e métricas. Altere para uma visualização diferente ao alterar o [!UICONTROL tipo de gráfico] de um bloco [!UICONTROL Propriedades]. Basta selecionar o bloco direito e alterar o tipo de gráfico.
+Os painéis do Analytics oferecem quatro visualizações que proporcionam um excelente insight sobre itens de dimensão e métricas. Mude para um visualização diferente alterando o [!UICONTROL tipo de gráfico] das [!UICONTROL Propriedades] de um bloco. Basta selecionar o bloco correto e alterar o tipo de gráfico.
 
 ![Propriedades do bloco](assets/properties.png)
 
-Ou clique no botão [!UICONTROL Visualizações] no painel à esquerda e arraste e solte a visualização à direita no bloco :
+Ou clique no ícone [!UICONTROL Visualizações] no painel à esquerda e arraste e solte a visualização correta sobre o bloco:
 
 ![Visualizações](assets/vizs.png)
 
@@ -137,20 +137,20 @@ A visualização de linha representa as métricas que usam uma linha para mostra
 
 ### [!UICONTROL Barra horizontal]
 
-Esta visualização mostra barras horizontais que representam vários valores de uma ou mais métricas. Por exemplo, para ver facilmente os principais produtos, use [!UICONTROL Barra horizontal] para sua visualização preferida.
+Esta visualização mostra barras horizontais que representam vários valores de uma ou mais métricas. Por exemplo, para ver facilmente seus principais produtos, use a [!UICONTROL Barra horizontal] como sua visualização preferida.
 
 ![barra horizontal](assets/horizontal.png)
 
-### Remover [!UICONTROL Não especificado] itens de dimensão
+### Remover os itens de dimensão [!UICONTROL Não especificados]
 
-Se desejar remover [!UICONTROL Não especificado] itens de dimensão dos dados, faça o seguinte:
+Se desejar remover itens de dimensão [!UICONTROL Não especificados] dos dados, faça o seguinte:
 
-1. Selecione o mosaico correto.
-1. No painel direito, em **[!UICONTROL Drill-ins]**, selecione a seta para a direita ao lado do item de dimensão cujo **[!UICONTROL Não especificado]** itens que deseja remover.
+1. Selecione o bloco correto.
+1. No painel direito, em **[!UICONTROL Drill-ins]**, selecione a seta para a direita ao lado do item de dimensão do qual você deseja remover itens **[!UICONTROL Não especificados]**.
 
    ![não especificado](assets/unspecified.png)
 
-1. Clique no ícone ao lado de **[!UICONTROL Não especificado]** para remover dados não especificados de seus relatórios. (Também é possível remover qualquer outro item de dimensão.)
+1. Clique no ícone ao lado de **[!UICONTROL Não especificado]** para remover dados não especificados de seus relatórios. (Também é possível remover qualquer outro item de dimensão).
 
 ## Exibir e configurar propriedades de blocos
 
