@@ -4,17 +4,14 @@ title: Introdução ao Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 94%
 
 ---
 
 # Introdução ao Reports &amp; Analytics
-
->[!NOTE]
->Este produto está autorizado para venda na América do Norte e em outras regiões onde o produto é efetivamente vendido e pode não satisfazer os requisitos para venda noutros países ou regiões.
 
 Antes de usar o Reports &amp; Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
 
@@ -102,3 +99,6 @@ Etapas que descrevem como alterar o idioma da interface. Você pode exibir a int
 1. No rodapé da página, clique no idioma ativo no menu **[!UICONTROL Idioma]** e selecione o idioma desejado.
 
 Você pode acessar a documentação e a Página inicial da Adobe Experience Cloud. (**[!UICONTROL Ajuda]** > **[!UICONTROL Página inicial da Ajuda]**.)
+
+>[!NOTE]
+>Este produto está autorizado para venda na América do Norte e em outras regiões onde o produto é realmente vendido. Não pode satisfazer as condições locais de venda noutros países ou regiões.
