@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Para enviar um arquivo por email de acordo com uma programação recorrente a re
 
 ![](assets/send-on-schedule.png)
 
-## Gerenciador de agendamento de projetos
+## Gerenciador de projetos programados
 
 Os projetos programados do Analysis Workspace podem ser gerenciados em **Analytics > Componentes > Projetos programados**.
 
@@ -53,16 +53,16 @@ No Gerenciador de agendamento de projetos, é possível editar e excluir agendam
 
 | Campo | Descrição |
 | --- | --- |
-| Favoritos | Selecionar o ícone de estrela torna este agendamento favorito. |
-| ID de agendamento | Essa ID é usada principalmente para fins de depuração. |
+| Favoritos | Selecionar o ícone de estrela torna esta programação uma favorita. |
+| ID de programação | Essa ID é usada principalmente para fins de depuração. |
 | Título e descrição | Título e descrição deste projeto. |
 | Proprietário | A pessoa que criou e é proprietária do projeto. |
-| Tags | (opcional) A marcação é uma boa maneira de organizar projetos. Todos os usuários podem criar tags e aplicar uma ou mais tags a um projeto. No entanto, você pode ver tags somente para os projetos que possui ou que foram compartilhados com você. |
-| Entregue para | O(s) destinatário(s) deste projeto agendado(s). |
-| Data de validade | A data de expiração padrão é um ano após a data de criação. |
-| Frequência | Com que frequência você deseja que esse projeto de agendamento seja enviado aos recipients. |
-| Tempo de execução | Em que hora do dia esse projeto agendado é enviado. |
-| Número de Consultas | O número de queries em relação a este projeto. |
+| Tags | (opcional) Adicionar tags é uma boa maneira de organizar projetos. Todos os usuários podem criar tags e aplicar uma ou mais tags a um projeto. No entanto, é possível visualizar tags somente para os projetos que você possui ou que foram compartilhados com você. |
+| Entregue para | O(s) recipient(s) deste projeto programado. |
+| Data de validade | Por padrão, a data de validade é de um ano após a data de criação. |
+| Frequência | Com que frequência deseja que esse projeto programado seja enviado ao(s) recipient(s). |
+| Tempo de execução | Em que hora do dia esse projeto programado é enviado. |
+| Número de consultas | O número de consultas relativas a este projeto. |
 
 ## Ações comuns
 
