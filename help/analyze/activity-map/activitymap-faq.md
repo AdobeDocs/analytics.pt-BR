@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -84,15 +84,15 @@ Não, os segmentos não funcionam no modo Online. A funcionalidade é equivalent
 
 Sim. No entanto, devido às limitações do conjunto de relatórios virtuais, não há compatibilidade com o modo Online do Activity Map.
 
-## Como posso desativar o Activity Map?
+## Como posso desabilitar o Activity Map?
 
-Você tem três opções:
+Existem três opções:
 
-* Exclua o `AppMeasurement_Module_ActivityMap` a partir do arquivo JS
+* Exclua a função `AppMeasurement_Module_ActivityMap` do arquivo JS
 * Adicione um código personalizado que substitua a função acima por um corpo vazio, por exemplo:
 
    ```
    function AppMeasurement_Module_ActivityMap() {}
    ```
 
-* Configurar o AppMeasurement ao configurar `s.trackClickMap` e `s.trackInlineStats` para `false`
+* Configurar o AppMeasurement definindo `s.trackClickMap` e `s.trackInlineStats` para `false`
