@@ -3,9 +3,9 @@ title: Notas técnicas do Analytics
 description: Este guia fornece informações úteis sobre tópicos que não pertencem a uma ferramenta ou componente de análise específico.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 Este guia fornece informações úteis sobre tópicos que não pertencem a uma ferramenta ou componente de análise específico.
 
-Esta é uma visão geral em vídeo do Adobe Analytics:
+Veja um vídeo com uma visão geral do Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
