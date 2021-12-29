@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
 source-git-commit: 3903387ac6cba1ceb45e1de35fbceb259151f4f8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '440'
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ As configurações de linha variam de acordo com qual componente foi arrastado p
 
 Para alterar o número de linhas exibidas:
 
-1. Clique no número ao lado de [!UICONTROL Linhas] no topo da mesa.
+1. Clique no número ao lado das [!UICONTROL Linhas] na parte superior da tabela.
 
    ![](assets/row-number.png)
 
-1. Na lista suspensa, selecione o número de linhas que deseja que a tabela seja exibida.
+1. Na lista suspensa, selecione o número de linhas que deseja que a tabela exiba.
 
 ## Vídeos
 
