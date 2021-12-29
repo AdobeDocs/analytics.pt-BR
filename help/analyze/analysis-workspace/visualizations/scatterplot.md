@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ A visualização do gráfico de dispersão mostra a relação entre itens de dim
 
 ![Gráfico de dispersão](assets/scatter.png)
 
-Aqui está um vídeo sobre visualizações de gráfico de dispersão:
+Veja um vídeo sobre visualizações de Gráficos de dispersão:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)
