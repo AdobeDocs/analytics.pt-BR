@@ -4,9 +4,9 @@ title: Alertas inteligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 88%
 
 O sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
 
-Esta é uma visão geral do vídeo:
+Veja um vídeo com uma visão geral:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25446/?quality=12)
 
@@ -22,7 +22,7 @@ Esta é uma visão geral do vídeo:
 
 >[!IMPORTANT]
 >
->Os alertas inteligentes estão disponíveis somente para clientes do Adobe [!DNL Analytics] Prime e do Adobe [!DNL Analytics] Ultimate.
+>Os Alertas inteligentes estão disponíveis somente para clientes do Adobe [!DNL Analytics] Prime e do Adobe [!DNL Analytics] Ultimate.
 
 Os Alertas inteligentes permitem
 
@@ -31,14 +31,14 @@ Os Alertas inteligentes permitem
 * Enviar alertas por email ou SMS com links para projetos do Analysis Workspace gerados automaticamente.
 * Criar alertas “empilhados”, capazes de capturar várias métricas de um só alerta.
 
-Os componentes do sistema de alerta incluem: Criador de alertas, Gerenciador de alertas, Visualização de alertas e melhor acesso no contexto para criar alertas. A interface do usuário do sistema de alerta anterior não estará mais disponível, mas os alertas serão migrados. Alguns recursos de alerta herdados [não estão mais disponíveis](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=pt-BR).
+Os componentes do sistema de alertas incluem: o Criador de alertas, o Gerenciador de alertas, a Pré-visualização de alertas e acesso melhorado com contexto para criar alertas. A interface de usuário do sistema de alerta anterior não estará mais disponível, mas os alertas serão migrados. Alguns recursos legados de alerta [não estão mais disponíveis](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=pt-BR).
 
 Há quatro maneiras de acessar o Criador de alertas:
 
 * Usando o seguinte atalho no Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Acessando diretamente o Criador de alertas: **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Novo alerta]** .
+* Acessando diretamente o Criador de alertas: **[!UICONTROL Espaço de trabalho]** > **[!UICONTROL Componentes]** > **[!UICONTROL Novo alerta]** .
 * Selecionando um ou mais itens de linha da tabela de forma livre, clicando com o botão direito do mouse e selecionando **[!UICONTROL Criar alerta a partir da seleção]**. Isso abrirá o Criador de alertas e pré-preencherá o criador com as métricas e filtros apropriados aplicados a partir da tabela. Você pode editar o alerta, se necessário.
 
    ![](assets/create-alert-from-selection.png)
@@ -79,7 +79,7 @@ Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Posso obter uma tabela dos "valores esperados" que contém a linha pontilhada, ou algum tipo de saída do que são esses valores? </b> </p> </td> 
-   <td colname="col2"> <p>Não na Workspace, mas é possível no Report Builder (assista a este vídeo sobre a <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=pt-BR"  >Detecção de anomalias no Report Builder </a>). </p> <p>Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, com intervalo fixo de 95%. </p> </td> 
+   <td colname="col2"> <p>Não na Espaço de trabalho, mas é possível no Report Builder (assista a este vídeo sobre a <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=pt-BR"  >Detecção de anomalias no Report Builder </a>). </p> <p>Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, com intervalo fixo de 95%. </p> </td> 
   </tr> 
  </tbody> 
 </table>
