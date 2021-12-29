@@ -1,14 +1,14 @@
 ---
-description: Projetos somente visualização no Workspace
+description: Projetos somente visualização no Espaço de trabalho
 keywords: Projetos do somente para visualização
 title: Projetos do somente para visualização
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
 source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Você pode compartilhar projetos &quot;somente para visualização&quot; com os 
 
 ![](assets/view-only-project.png)
 
-Esta é uma visão geral em vídeo de projetos somente visualização:
+Veja um vídeo com uma visão geral dos projetos somente para visualização:
 
 >[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
@@ -34,7 +34,7 @@ As interações desativadas em um projeto somente visualização incluem:
 * Configurações de linha, coluna ou visualização de forma livre
 * Segmentos do painel
 * Menus Editar, Inserir e Componente
-* Dicas do Workspace
+* Dicas do Espaço de trabalho
 
 ## Interações ativadas
 
