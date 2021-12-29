@@ -4,9 +4,9 @@ keywords: Feed de dados;coluna pré;coluna pós;diferencia maiúsculas de minús
 title: Perguntas frequentes sobre feeds de dados
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Se uma transferência FTP falhar (devido a um logon negado, uma conexão perdida
 
 Se uma transferência falhar, você poderá executar uma tarefa novamente até que seja concluída com sucesso.
 
-Se tiver problemas para que um feed de dados apareça no site FTP, consulte [Solução de problemas dos feeds de dados](troubleshooting.md).
+Se tiver problemas para que um feed de dados seja exibido no site FTP, consulte [Solução de problemas com feeds de dados](troubleshooting.md).
 
 ## Como faço para reenviar um trabalho? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
