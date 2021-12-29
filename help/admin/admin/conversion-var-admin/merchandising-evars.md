@@ -3,9 +3,9 @@ title: eVars de merchandising e métodos de busca de produtos
 description: Um aprofundamento nos conceitos por trás das eVars de merchandising e como elas processam e alocam dados.
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Por exemplo, quando um usuário pesquisa produtos usando a palavra-chave “sand
 
 ## Configurações de eVars de merchandising
 
-Estas são as diferentes configurações que você pode usar com as eVars de merchandising. A seguinte captura de tela é do Gerenciador de conjunto de relatórios. Acesse em [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Conjuntos de relatórios] > [!UICONTROL  Editar configurações] > [!UICONTROL  Conversão] > [!UICONTROL  Variáveis de conversão] > [!UICONTROL  Adicionar novo] > [!UICONTROL Habilitar merchandising].
+Estas são as diferentes configurações que você pode usar com as eVars de merchandising. A seguinte captura de tela é do Gerenciador de conjunto de relatórios. Acesse em [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Conjuntos de relatórios] > [!UICONTROL Editar configurações] > [!UICONTROL Conversão] > [!UICONTROL Variáveis de conversão] > [!UICONTROL Adicionar novo] > [!UICONTROL Habilitar merchandising].
 
 ![](assets/merch-evars1.png)
 
@@ -87,7 +87,7 @@ Com a **[!UICONTROL Sintaxe de produto]**, no entanto, o eVar é definido soment
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Categoria] não é mais recomendada como uma opção viável para rastrear o desempenho da categoria do produto.  Sua mera existência demonstra por que, na maioria das implementações da variável products, um único ponto e vírgula precede a parte productID do valor da variável.
+* [!UICONTROL Categoria] não é mais recomendado como uma opção viável para monitorar o desempenho da categoria do produto.  Sua mera existência demonstra por que, na maioria das implementações da variável products, um único ponto e vírgula precede a parte productID do valor da variável.
 * [!UICONTROL Quantidade] e [!UICONTROL Receita] são úteis quando uma compra de produto está sendo rastreada.
 * [!UICONTROL Eventos] são úteis para registrar valores de evento de moeda ou incrementais personalizados que não devem ser contados como receita (como frete, descontos etc.)
 
