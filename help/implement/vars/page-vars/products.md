@@ -3,9 +3,9 @@ title: produtos
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: 9ec16e61560dd31f5240c7dd169ae8720761fbc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,10 +30,10 @@ Você pode usar uma dessas extensões ou usar o editor de código personalizado 
 
 ## s.products no AppMeasurement e no editor de código personalizado do 
 
-A variável `s.products` é uma string que contém vários campos delimitados por produto. Delimite cada campo com um ponto e vírgula (`;`) na string.
+A variável `s.products` é uma string que contém vários campos delimitados por produto. Delimite cada campo com um ponto e vírgula (`;`) na sequência de caracteres.
 
 >[!IMPORTANT]
->**[!UICONTROL Categoria ]**não é mais recomendada como uma opção viável para rastrear o desempenho da categoria do produto. Como resultado, todas as cadeias de caracteres do produto devem começar com o ponto e vírgula, o que significa o primeiro campo vazio.
+>**[!UICONTROL Categoria ]**não é mais recomendada como uma opção viável para monitorar o desempenho da categoria do produto. Como resultado, todas as sequências de caracteres de produtos devem começar com o ponto e vírgula, o que significa o primeiro campo vazio.
 
 * **Nome do produto** (obrigatório): o nome do produto. O comprimento máximo deste campo é de 100 bytes.
 * **Quantidade** (opcional): a quantidade de produtos como esse que estão no carrinho. Esse campo se aplica somente às ocorrências com o evento de compra.
