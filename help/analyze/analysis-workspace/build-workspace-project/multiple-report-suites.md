@@ -1,19 +1,19 @@
 ---
 title: Vários conjuntos de relatórios
-description: Saiba como e por que criar projetos no Workspace com vários conjuntos de relatórios
+description: Saiba como e por que criar projetos no Espaço de trabalho com vários conjuntos de relatórios
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Vários conjuntos de relatórios
 
-Agora você pode criar projetos no Analysis Workspace usando dados de mais de um conjunto de relatórios. Os conjuntos de relatórios agora são escolhidos no nível do painel, então é possível escolher um conjunto de relatórios diferente para cada painel dentro do mesmo projeto do Workspace.
+Agora você pode criar projetos no Analysis Workspace usando dados de mais de um conjunto de relatórios. Os conjuntos de relatórios agora são escolhidos no nível do painel, então é possível escolher um conjunto de relatórios diferente para cada painel dentro do mesmo projeto do Espaço de trabalho.
 
 Esse recurso é útil se você desejar, por exemplo,
 
@@ -21,7 +21,7 @@ Esse recurso é útil se você desejar, por exemplo,
 
 * Criar um painel de métricas e visualizações para gerar relatórios para outras organizações. Agora é possível extrair dados de vários conjuntos de relatórios para o mesmo projeto.
 
-Aqui está um vídeo sobre o assunto:
+Veja um vídeo sobre este assunto:
 
 >[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
@@ -48,7 +48,7 @@ Estamos introduzindo o conceito de &quot;painel ativo&quot; x &quot;painel inati
 
 ![](assets/mrs-ui.png)
 
-1. Crie um novo projeto com 2 ou mais painéis no Workspace.
+1. Crie um novo projeto com 2 ou mais painéis no Espaço de trabalho.
 
 1. Arraste e solte componentes (métricas, dimensões, segmentos, intervalos de datas) no painel. Certifique-se de que os painéis tenham dados e visualizações específicos para o conjunto de relatórios.
 
