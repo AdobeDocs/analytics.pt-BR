@@ -5,15 +5,15 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Visão geral dos painéis
 
-Um [!UICONTROL painel] é uma coleção de tabelas e visualizações. Você pode acessar os painéis por meio do ícone superior esquerdo no Workspace ou um [painel em branco](blank-panel.md). Os painéis são úteis quando você deseja organizar seus projetos de acordo com períodos, conjuntos de relatórios ou caso de uso de análise.
+Um [!UICONTROL painel] é uma coleção de tabelas e visualizações. Você pode acessar os painéis por meio do ícone superior esquerdo no Espaço de trabalho ou um [painel em branco](blank-panel.md). Os painéis são úteis para organizar projetos de acordo com períodos, conjuntos de relatórios ou caso de uso de análise.
 
 ## Tipos de painel
 
@@ -45,18 +45,18 @@ A lista dos conjuntos de relatórios é classificada de acordo com a relevância
 
 ## Calendário {#calendar}
 
-O calendário do painel controla o intervalo de relatórios para tabelas e visualizações em um painel.
+O calendário do painel controla o intervalo de relatórios para tabelas e visualizações dentro de um painel.
 
 >[!NOTE]
->Se um componente de intervalo de datas (roxo) for usado em uma tabela, visualização ou zona de soltar do painel, ele substituirá o calendário do painel.
+>Se um componente de intervalo de datas (em roxo) for usado dentro de uma tabela, uma visualização ou uma área de arrastar e soltar do painel, ele substituirá o calendário do painel.
 
 ![](assets/panel-calendar.png)
 
-Você pode aplicar um intervalo de datas de minuto sob as configurações avançadas do calendário do painel. Se você estiver relatando um intervalo de datas que abrange muitos dias, a hora de início se aplica ao primeiro dia e a hora de término se aplica ao último dia do intervalo.
+Você pode aplicar um intervalo de datas com detalhamento de minutos nas configurações avançadas do calendário do painel. Se você estiver emitindo relatórios em um intervalo de datas que abrange muitos dias, a hora de início se aplica ao primeiro dia e a hora de término se aplica ao último dia do intervalo.
 
-## Zona de soltar {#dropzone}
+## Área de arrastar e soltar {#dropzone}
 
-A área de soltar do painel permite aplicar filtros de segmento e de soltar a todas as tabelas e visualizações em um painel. Você pode aplicar um ou vários filtros a um painel. O título acima de cada filtro pode ser modificado clicando no lápis de edição ou você pode clicar com o botão direito do mouse para removê-lo completamente.
+A área de arrastar e soltar do painel permite aplicar filtros de segmento e de lista suspensa a todas as tabelas e visualizações em um painel. Você pode aplicar um ou vários filtros a um painel. O título acima de cada filtro pode ser modificado clicando no lápis de edição ou você pode clicar com o botão direito do mouse para removê-lo completamente.
 
 ### Filtros de segmento
 
