@@ -1,14 +1,14 @@
 ---
-description: Use a visualização de fallout em um projeto do Workspace.
+description: Use a visualização de fallout em um projeto do Espaço de trabalho.
 title: Visão geral de fallout
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 As visualizações de Fallout oferecem mais opções para criar relatórios de fallout. Os relatórios de fallout mostram onde os visitantes saíram e continuaram em uma sequência predefinida de páginas.
 
-Este é um vídeo sobre a visualização de Fallout :
+Veja um vídeo sobre visualização de Fallout:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
 
@@ -46,7 +46,7 @@ Veja um exemplo de fallout de duas etapas:
 
 ![](assets/fallout_segments1.png)
 
-Se você aplicar um segmento no nível do painel do Workspace, o segmento é combinado ao fallout da seguinte forma:
+Se você aplicar um segmento no nível do painel do Espaço de trabalho, o segmento é combinado ao fallout da seguinte forma:
 
 ![](assets/fallout_seg.png)
 
