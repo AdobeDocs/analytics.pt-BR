@@ -5,15 +5,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Saiba mais sobre [!UICONTROL Análise de coorte] no Adobe Analytics
 
-A *`cohort`* é um grupo de pessoas com características comuns em um período específico. A [!UICONTROL análise de coorte] é útil, por exemplo, quando você deseja saber como uma coorte interage com uma marca. Você pode detectar facilmente as mudanças nas tendências e atuar de acordo com elas. (Há explicações sobre a [!UICONTROL análise de coorte] disponíveis na Web, por exemplo, em [Análise de coorte 101](https://pt.wikipedia.org/wiki/Análise_de_coorte).)
+A *`cohort`* é um grupo de pessoas com características comuns em um período específico. A [!UICONTROL análise de coorte] é útil, por exemplo, quando você deseja saber como uma coorte interage com uma marca. Você pode detectar facilmente as mudanças nas tendências e atuar de acordo com elas. (Há explicações sobre a [!UICONTROL análise de coorte] disponíveis na Web, por exemplo, em [Análise de coorte 101](https://pt.wikipedia.org/wiki/Cohort_analysis).)
 
 Após criar um relatório de coorte, você pode preparar seus componentes (dimensões, métricas e segmentos específicos), em seguida, compartilhá-lo com qualquer pessoa. Consulte [Preparar e compartilhar](/help/analyze/analysis-workspace/curate-share/curate.md).
 
@@ -33,7 +33,7 @@ Vídeo sobre tabelas de coorte no Analysis Workspace:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Análise de coorte] não suporta métricas não segmentáveis (incluindo métricas calculadas) e métricas não inteiras (como Receita ou Ocorrências). Somente as métricas que podem ser usadas em segmentos podem ser usadas em [!UICONTROL Análise de coorte]e só podem ser aumentadas em >1 de cada vez.
+>A [!UICONTROL Análise de coorte] não é compatível com métricas não segmentáveis (incluindo métricas calculadas), métricas não inteiras (como Receita) ou Ocorrências. Somente as métricas que podem ser usadas em segmentos podem ser usadas em [!UICONTROL Análises de coorte], e só podem ser aumentadas >1 por vez.
 
 ## Recursos da análise de coorte
 
