@@ -3,9 +3,9 @@ title: Implementar com solicitações de imagem codificadas
 description: Implementar o Adobe Analytics usando uma tag de imagem HTML (solicitação de imagem codificada)
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
 source-git-commit: a97043caa9b6d2dc24f52c599fd0caa9241af62f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Veja a seguir um exemplo de solicitação de imagem codificada usando HTML:
 * `/b/ss/` está incluído em todas as solicitações de imagem. Ele faz parte da estrutura de arquivos de imagens armazenadas nos servidores de coleta de dados da Adobe.
 * `examplersid` é a ID do conjunto de relatórios para a qual você deseja enviar dados. Para vários conjuntos de relatórios, separe as IDs com vírgulas e sem espaços (como `examplersid1,examplersid2` e assim por diante).
 * `/1/` é a origem da ocorrência. Consulte `hit_source` em [Referência da coluna de dados](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) no guia do usuário Exportar. Controla a ordem usada por cookies e outros métodos para identificar visitantes.
-* `/s234234238479` (`"s"` + um número aleatório) impede que o navegador armazene a solicitação de imagem em cache.
+* `/s234234238479` (`"s"` + um número aleatório) impede que o navegador armazene em cache a solicitação de imagem.
 * Todos os dados após o delimitador da cadeia de caracteres de consulta (`?`) são os que você deseja incluir nos relatórios. Consulte [Parâmetros de consulta de coleta de dados](../validate/query-parameters.md) para obter a lista completa de parâmetros que podem ser incluídos em uma solicitação de imagem.
 
 ## Solicitações de imagem codificada no Microsoft Outlook
