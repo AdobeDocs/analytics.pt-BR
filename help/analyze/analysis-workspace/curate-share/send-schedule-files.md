@@ -6,15 +6,15 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
 source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Menu Compartilhar
 
-Você pode preparar, compartilhar e agendar projetos do PDF/CSV para recipients em sua organização no Workspace **Menu Compartilhar**.
+É possível preparar, compartilhar e programar projetos em PDF/CSV para recipients em sua organização no **menu Compartilhar** do Espaço de trabalho.
 
 | Opção de menu | Descrição |
 |---|---|
