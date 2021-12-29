@@ -1,14 +1,14 @@
 ---
-description: Compartilhamento de projetos e funções de projeto no Workspace
+description: Compartilhamento de projetos e funções de projeto no Espaço de trabalho
 keywords: Compartilhamento no Analysis Workspace
 title: Compartilhar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1121'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 O compartilhamento disponibiliza um projeto para outros usuários do Analysis Workspace em sua organização. Qualquer [preparação](curate.md) aplicada será refletida quando os recipients abrirem o projeto.
 
-Esta é uma visão geral em vídeo do compartilhamento de projetos:
+Veja um vídeo com uma visão geral do compartilhamento de projetos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
@@ -30,7 +30,7 @@ Esta é uma visão geral em vídeo do compartilhamento de projetos:
 | Pode duplicar | Os recipients podem **[!UICONTROL Salvar como]** e ter acesso ao painel esquerdo. As interações entre projetos não são limitadas nesta função. Essa função é útil se você quiser compartilhar um projeto com usuários que entendem os dados de sua organização e como usar o Analysis Workspace, mas não deseja alterar seu projeto. |
 | Pode exibir | Os recipients não podem Salvar como e não têm acesso ao painel à esquerda. As interações são limitadas. As interações do projeto também são limitadas. Essa função é útil se você quiser compartilhar um projeto com usuários menos familiarizados com a estrutura de dados de sua organização, o Analysis Workspace ou o Adobe Analytics em geral. No entanto, você ainda deseja que eles consumam dados e insights em um ambiente seguro.<br>Saiba mais sobre a [experiência de projeto Pode visualizar](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
 
-Este é um vídeo sobre projetos somente visualização no Analysis Workspace:
+Veja um vídeo sobre projetos somente para visualização no Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
@@ -58,7 +58,7 @@ Se houver alterações não salvas, você deverá salvar o projeto primeiro.
 1. Adicione recipients ou grupos de recipients.
 Consulte o ícone de ajuda na parte superior para obter descrições de cada função.
 1. (Opcional) Compartilhar componentes de projeto incorporados (segmentos, métricas calculadas e intervalos de data) com todos os destinatários.
-Após compartilhados, esses componentes aparecem no menu suspenso de componentes do Workspace do recipient. Observe que essa configuração não persiste: é uma ação única no momento do compartilhamento.
+Após compartilhados, esses componentes aparecem no menu suspenso de componentes do Espaço de trabalho do recipient. Observe que essa configuração não persiste: é uma ação única no momento do compartilhamento.
 1. (Opcional) Defina esta página como a página inicial para recipients.
 Essa configuração não persiste: é uma ação única no momento do compartilhamento.
 1. Clique em Compartilhar.
@@ -68,14 +68,14 @@ Você também pode clicar em **[!UICONTROL Preparar e compartilhar]** para aplic
 
 ## Compartilhar em grupos de recipients {#Groups}
 
-Todos os usuários podem compartilhar projetos em grupos, que são uma coleção de recipients. No Adobe Analytics, os grupos são definidos por perfis de produtos no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Todos os usuários podem compartilhar projetos em grupos, que são uma coleção de recipients. No Adobe Analytics, os grupos são definidos por perfis de produtos no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR).
 
 * Os administradores podem compartilhar com qualquer grupo, incluindo &quot;Todos&quot;.
 * Os não administradores podem compartilhar com grupos dos quais são membros, com exceção de &quot;Todos&quot;.
 
 ## Compartilhar um link de projeto {#Links}
 
-Você pode obter um link para um projeto em **[!UICONTROL Compartilhar] > [!UICONTROL Obter link de projeto]**. Quando clicados, os recipients deverão fazer logon antes de acessar o projeto. Se o recipient não tiver sido colocado em uma função, ele receberá uma função padrão. Os administradores recebem a função **[!UICONTROL Pode editar]** e os não administradores recebem a função **[!UICONTROL Pode duplicar]**. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) sobre como criar links compartilháveis para projetos do Workspace.
+Você pode obter um link para um projeto em **[!UICONTROL Compartilhar] > [!UICONTROL Obter link de projeto]**. Quando clicados, os recipients deverão fazer logon antes de acessar o projeto. Se o recipient não tiver sido colocado em uma função, ele receberá uma função padrão. Os administradores recebem a função **[!UICONTROL Pode editar]** e os não administradores recebem a função **[!UICONTROL Pode duplicar]**. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) sobre como criar links compartilháveis para projetos do Espaço de trabalho.
 
 ## Compartilhar projetos no Gerenciador de projetos {#Manager}
 
@@ -95,7 +95,7 @@ Com os projetos A e B selecionados, os recipients 4 e 7 são adicionados às lis
 
 ## Compartilhar componentes integrados
 
-Esta é uma visão geral em vídeo sobre este tópico:
+Veja um vídeo sobre este tópico:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
 
