@@ -6,34 +6,34 @@ feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # Venn
 
-O [!UICONTROL Venn] a visualização permite que você arraste até 3 segmentos (de [!UICONTROL Componentes]) e uma métrica para criar uma [!UICONTROL Venn] diagrama.
+A visualização de [!UICONTROL Venn] permite arrastar até 3 segmentos (dos [!UICONTROL Componentes]) e uma métrica para criar um diagrama de [!UICONTROL Venn].
 
 ![](assets/venn.png)
 
-Você pode passar o mouse sobre os segmentos para visualizar as porcentagens, etc.
+É possível passar o mouse sobre os segmentos para saber mais sobre porcentagens etc.
 
 ![](assets/venn_hover.png)
 
-## Turn [!UICONTROL Venn] diagrama em [!UICONTROL Forma livre] tabela
+## Transformar um diagrama de [!UICONTROL Venn] em uma tabela de [!UICONTROL Forma livre] 
 
-Para transformar o diagrama Venn em uma tabela de forma livre, clique no ponto colorido ao lado do cabeçalho **[!UICONTROL Venn]** e selecione **[!UICONTROL Gerenciar fontes de dados]** > **[!UICONTROL Fontes de dados disponíveis]** > **[!UICONTROL Tabela de forma livre]**.
+Para transformar o diagrama de Venn em uma Tabela de forma livre, clique no ponto colorido ao lado do cabeçalho do diagrama de **[!UICONTROL Venn]** e selecione **[!UICONTROL Gerenciar fontes de dados]** > **[!UICONTROL Fontes de dados disponíveis]** > **[!UICONTROL Tabela de forma livre]**.
 
-## Normalizar [!UICONTROL Venn] diagrama
+## Normalizar diagrama de [!UICONTROL Venn] 
 
-Para normalizar o [!UICONTROL Venn] diagrama (extrair o tamanho), vá até o ícone Configurações de visualização e selecione **[!UICONTROL Normalização]**.
+Para normalizar o diagrama de [!UICONTROL Venn] (reduzir o tamanho), vá até o ícone Configurações de visualização e selecione **[!UICONTROL Normalização]**.
 
 ![](assets/normalization.png)
 
 ## Vídeo
 
-Aqui está um vídeo sobre o [!UICONTROL Venn] diagrama:
+Veja um vídeo sobre o diagrama de [!UICONTROL Venn]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)
