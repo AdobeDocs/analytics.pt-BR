@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1492'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ As janelas de retrospectiva representam quanto tempo uma conversão deve retroce
 
 * **Janela de pesquisa personalizada:** permite expandir a janela de atribuição além do intervalo de datas do relatórios até um máximo de 90 dias. As janelas de pesquisa personalizadas são avaliadas em cada conversão no período do relatórios. Por exemplo, para uma conversão que ocorre em 20 de fevereiro, uma janela de pesquisa de 10 dias avaliaria todos os pontos de contato de dimensão de 10 a 20 de fevereiro no modelo de atribuição.
 
-   Este é um vídeo sobre janelas de retrospectiva personalizadas:
+   Veja um vídeo sobre janelas de retrospectiva personalizadas:
 
    >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
 
