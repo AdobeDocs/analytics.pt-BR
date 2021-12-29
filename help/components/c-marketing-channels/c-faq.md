@@ -2,9 +2,9 @@
 title: Perguntas frequentes sobre canais de marketing
 description: Perguntas frequentes para canais de marketing.
 source-git-commit: 9d4470dd297227333c6043572820053d7eb5e899
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1486'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ O último contato interno (atualização da sessão) só pode ocorrer se também
 
 * **Limpeza de cookies no meio do site**: um visitante acessa o site e, no meio da sessão, os cookies são apagados. Os canais Primeiro e Último contato seriam redefinidos e a visita seria classificada como Atualização da sessão (porque o referenciador seria interno).
 
-Abaixo está um exemplo de Interno (atualização da sessão) sendo definido como canal de primeiro e último toque:
+A seguir, um exemplo de Interno (atualização de sessão) sendo definido como canal de primeiro e último contato:
 
 * Dia 1: o usuário acessa o site em Exibir. Os canais de primeiro e último toque serão definidos como Exibir.
 * Dia 2: o usuário acessa o site em Pesquisa natural. O primeiro toque permanece como Exibir e o Último toque é definido como Pesquisa natural.
