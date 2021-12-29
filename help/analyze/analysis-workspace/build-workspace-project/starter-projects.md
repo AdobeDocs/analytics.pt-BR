@@ -1,14 +1,14 @@
 ---
-description: Crie projetos do workspace com base em modelos padrão ou personalizados.
+description: Crie projetos do Espaço de trabalho com base em modelos padrão ou personalizados.
 title: Modelos
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Os usuários com direitos de administrador podem tornar qualquer projeto criado 
    >
    >Por padrão, os modelos de projeto estão visíveis para todos em sua organização. Você pode organizá-los aplicando tags. (Vá até **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]** para editar tags e descrições.)
 
-Este é um vídeo sobre como criar e gerenciar modelos personalizados:
+Veja um vídeo sobre como criar e gerenciar modelos personalizados:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
@@ -54,7 +54,7 @@ Este é um vídeo sobre como criar e gerenciar modelos personalizados:
 
 ## Modelos padrão
 
-Quando você abre um Workspace pela primeira vez, os modelos ficam disponíveis no painel esquerdo. Os modelos do Analysis Workspace abrangem casos usuais. São agrupados pela vertical à qual pertencem e são preenchidos com diferentes dimensões, segmentos, métricas e visualizações, dependendo do conjunto de relatórios selecionado.
+Quando você abre um Espaço de trabalho pela primeira vez, os modelos ficam disponíveis no painel esquerdo. Os modelos do Analysis Workspace abrangem casos usuais. São agrupados pela vertical à qual pertencem e são preenchidos com diferentes dimensões, segmentos, métricas e visualizações, dependendo do conjunto de relatórios selecionado.
 
 Você pode usar esses modelos pré-preenchidos como estão ou adaptá-los às suas necessidades (adicionando ou substituindo métricas ou visualizações, por exemplo) e salvá-los com um novo nome.
 
@@ -64,9 +64,9 @@ Estes são os modelos disponíveis e as perguntas que cada modelo ajuda a respon
 
 ### Treinamento
 
-Este modelo padrão orienta você pela terminologia e etapas comuns para criar sua primeira análise no Workspace. Está disponível como modelo padrão no modal Novo projeto e substitui o projeto de amostra atual para novos usuários que não têm outros projetos na lista.
+Esse novo modelo padrão o orientará sobre a terminologia comum e as etapas para criar sua primeira análise no Workspace. Está disponível como modelo padrão no modal Novo projeto e substitui o projeto de amostra atual para novos usuários que não têm outros projetos na lista.
 
-Aqui está um vídeo sobre o [!UICONTROL Tutorial de treinamento] modelo:
+Veja um vídeo sobre o modelo de [!UICONTROL Tutorial de treinamento]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
@@ -74,38 +74,38 @@ Aqui está um vídeo sobre o [!UICONTROL Tutorial de treinamento] modelo:
 
 >[!IMPORTANT]
 >
->Os modelos de publicidade estão disponíveis somente se o seu conjunto de relatórios estiver habilitado para [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
+>Os modelos de publicidade estão disponíveis somente se o conjunto de relatórios estiver habilitado para o [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html?lang=pt-BR).
 
 * **Mecanismos de pesquisa paga**: esse modelo detalha tendências de publicidade, plataformas de publicidade, palavras-chave, contas, campanhas e muito mais.
 
 ### Comércio
 
-* **Magento: Marketing e Comércio**: esse modelo detalha sua conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer informações por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais. Veja um tutorial em vídeo sobre o [Magento: Modelo de marketing e comércio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=pt-BR).
+* **Magento: Marketing e Comércio**: esse modelo detalha sua conversão de comércio eletrônico por atribuição de canal de marketing, além de fornecer informações por palavra-chave de pesquisa, página de aterrissagem, localização geográfica e muito mais. Veja um tutorial em vídeo sobre o [Magento: Modelos de marketing e comércio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=pt-BR).
 
 ### Coleta de dados
 
-* **Impacto da ITP**: Entenda como a ITP do Apple afeta seus dados e como ajustar os relatórios de acordo.
+* **Impacto do ITP**: entenda como o ITP da Apple afeta seus dados e como ajustar os relatórios adequadamente.
 
 ### Mídia
 
-* **Consumo de conteúdo**: Quem são meus leitores fiéis
-* **Recenticidade - Frequência - Fidelidade**: Qual conteúdo está sendo mais consumido e envolvendo os usuários?
-* **Consumo de mídia de transmissão**: Fornece tendências e métricas principais de consumo de mídia em todos os dispositivos digitais. Este é um vídeo sobre o modelo de consumo de mídia de transmissão:
+* **Consumo de conteúdo**: quem são meus leitores fiéis
+* **Recenticidade - Frequência - Fidelidade**: qual conteúdo está sendo mais consumido e está envolvendo os usuários?
+* **Consumo de streaming de mídia**: fornece tendências e principais métricas de consumo de mídia em todos os dispositivos digitais. Veja um vídeo sobre o modelo de consumo de streaming de mídia:
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
 
-### Dispositivo móvel
+### Publicação de conteúdo para dispositivos móveis
 
 >[!IMPORTANT]
 >
->Os modelos para dispositivos móveis estão disponíveis somente se o seu conjunto de relatórios estiver habilitado para análise de aplicativos móveis.
+>Os modelos para publicação de conteúdo para dispositivos móveis estão disponíveis somente se o conjunto de relatórios estiver habilitado para análise de aplicativos para dispositivos móveis.
 
-* **Aquisição:** você pode ver o desempenho dos links de aquisição para dispositivos móveis.
+* **Aquisição:** verifique o desempenho dos links de aquisição para publicação de conteúdo para dispositivos móveis.
 * **Uso do aplicativo:** quantos usuários, inicializações e primeiras inicializações o aplicativo teve e qual foi a duração média das sessões?
-* **Jornadas:** quais são os principais padrões de uso do meu aplicativo?
-* **Métricas principais:** permite o controle das métricas principais do seu aplicativo.
-* **Localização:** inclui um mapa que exibe os dados de localização.
-* **Mensagens:** focaliza o desempenho das mensagens no aplicativo e por push.
+* **Jornadas**: quais são os principais padrões de uso do meu aplicativo?
+* **Métricas principais**: permite o controle das métricas principais do seu aplicativo.
+* **Localização**: inclui um mapa que exibe os dados de localização.
+* **Mensagens**: focaliza o desempenho das mensagens no aplicativo e por push.
 * **Desempenho:** como está o desempenho do aplicativo e que problemas os usuários estão tendo?
 * **Retenção:** quem são meus usuários fiéis e o que eles fazem?
 
@@ -117,7 +117,7 @@ Aqui está um vídeo sobre o [!UICONTROL Tutorial de treinamento] modelo:
 ### Web
 
 * **Aquisição:** quais são os principais impulsionadores de tráfego do meu site?
-* **Visão geral do desempenho do AEM site:** Como está o desempenho do meu site Adobe Experience Manager?
+* **Visão geral do desempenho do site AEM**: como está o desempenho do meu site Adobe Experience Manager?
 * **Consumo de conteúdo:** quais são os lugares mais acessados do meu site?
 * **Retenção:** que tipo de usuário tem maior probabilidade de se tornar um usuário fiel do meu site?
 * **Tecnologia:** que tecnologia as pessoas estão usando para acessar o meu site?
@@ -138,7 +138,7 @@ O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da m�
 * Descobrir como usar o empilhamento de segmentos com a métrica de Pessoas.
 * Saber mais sobre como usar a Experience Cloud ID em seu ambiente melhora a eficácia da métrica Pessoas.
 
-### QI do Jornada: Modelo do Cross-Device Analytics
+### Journey IQ: modelo do Analytics entre dispositivos
 
 <!--This content is mirrored in the CDA doc.-->
 
