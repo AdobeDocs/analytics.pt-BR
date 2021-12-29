@@ -1,14 +1,14 @@
 ---
-description: Use a visualização de fluxo em um projeto do Workspace.
+description: Use a visualização de fluxo em um projeto do Espaço de trabalho.
 title: Visão geral do Fluxo
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Ele permite:
 >
 >Para obter informações sobre como os resultados da aplicação de segmentos ao Fluxo podem ser diferentes no Analysis Workspace e no Reports &amp; Analytics, consulte [Segmentação como base para Fluxo &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-Tutorial em vídeo sobre Visualização de fluxo:
+Veja um tutorial em vídeo sobre visualização de Fluxo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 
@@ -40,6 +40,6 @@ Cada coluna pode exibir uma dimensão diferente. Arraste uma dimensão e solte e
 
 Os diagramas de fluxo são parte de um arquivo .CSV do projeto que podem ser criados ao acessar **[!UICONTROL Projeto]** > **[!UICONTROL Baixar CSV]**. Essa ação permite analisar os resultados de Fluxo no Microsoft Excel (exibidos como uma tabela) ou em outro lugar.
 
-## Expansão na visualização de fluxo
+## Expansão da visualização de Fluxo
 
 >[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
