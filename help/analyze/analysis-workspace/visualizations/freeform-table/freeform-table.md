@@ -5,9 +5,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,20 +52,20 @@ Saiba mais sobre todos os dados de [opções de exportação](https://experience
 * Clique com o botão direito do mouse em > **[!UICONTROL Baixar dados como CSV]** para baixar os dados da tabela exibidos como um CSV. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Baixar seleção como CSV]**.
 * Clique com o botão direito do mouse em > **[!UICONTROL Projeto > Baixar itens como CSV]** para exportar até 50.000 itens de dimensão para a dimensão selecionada.
 
-Saiba mais sobre todos os dados de [opções de exportação](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) do Analysis Workspace.
+Saiba mais sobre todos os dados de [opções de exportação](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR) do Analysis Workspace.
 
 ![](assets/export-options.png)
 
 ## Vídeos
 
-Visão geral do criador de tabela de forma livre:
+Visão geral do construtor de Tabelas de forma livre:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
 
-Filtros da tabela de forma livre:
+Filtros de Tabela de forma livre:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
 
-Totais de tabelas de forma livre:
+Totais de Tabelas de forma livre:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
