@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -42,10 +42,10 @@ Adicionar dimensões e métricas ao seu projeto no Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
 
-Trabalhar com dimensões em uma tabela de forma livre:
+Trabalhar com dimensões em uma Tabela de forma livre:
 
 >[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
 
-Este é um vídeo sobre detalhamentos de dimensão por posição:
+Veja um vídeo sobre detalhamentos de dimensão por posição:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)
