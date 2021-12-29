@@ -5,7 +5,7 @@ user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre como gerenciar usuários e produtos no Experience Cloud Admin Console, configurar conjuntos de relatórios e muito mais.
 source-git-commit: 22bf5b376f1f5a5c1b6efea419cae9bd0c77991d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ ht-degree: 100%
    + Permissões {#permissions}
       + [Permissões do Analytics no Admin Console](admin-console/permissions/summary-tables.md)
       + [Perfis de produto para o Adobe Analytics](admin-console/permissions/product-profile.md)
-      + [Permissões de perfil de produto para Ferramentas de conjunto de relatórios](admin-console/permissions/report-suite-tools.md)
+      + [Permissões de perfil de produto para Ferramentas de conjuntos de relatórios](admin-console/permissions/report-suite-tools.md)
       + [Permissões de perfil de produto para as Ferramentas do Analytics](admin-console/permissions/analytics-tools.md)
    + [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md)
 + Configurações da empresa {#company-settings}
@@ -140,7 +140,7 @@ ht-degree: 100%
       + [Geração de leads](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
       + [Mídia de suporte](c-manage-report-suites/c-report-suite-templates/support-media.md)
    + [Salvar uma pesquisa do conjunto de relatórios](c-manage-report-suites/t-report-suite-saved-search.md)
-   + [Configurações individuais do Conjunto de relatórios](c-manage-report-suites/individual-rs-settings.md)
+   + [Configurações do conjunto de relatórios individuais](c-manage-report-suites/individual-rs-settings.md)
    + [Fazer download das configurações do conjunto de relatórios](c-manage-report-suites/t-download-rs-settings.md)
    + Novo Conjunto de relatórios {#new-report-suite}
       + [Criar um novo conjunto de relatórios](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
