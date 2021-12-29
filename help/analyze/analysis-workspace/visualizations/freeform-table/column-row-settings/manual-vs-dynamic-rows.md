@@ -5,9 +5,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,6 +57,6 @@ As linhas dinâmicas e estáticas se comportam de maneira diferente na linha tot
 
 ## Reordenar linhas estáticas
 
-Esta é uma visão geral em vídeo sobre este tópico:
+Veja um vídeo sobre este tópico:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
