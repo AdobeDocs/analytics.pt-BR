@@ -5,15 +5,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '223'
+ht-degree: 100%
 
 ---
 
 # Paletas de cores de visualização
 
-É possível alterar a paleta de cores da visualização usada no Workspace ao selecionar outra paleta de cores ou ao especificar sua própria paleta que poderia corresponder às cores da marca da sua empresa. Esse recurso afeta a maioria das visualizações no Workspace, mas **não** afeta o Resumo de alterações, a formatação condicional nas tabelas de Forma livre, nem a visualização de Mapa.
+É possível alterar a paleta de cores da visualização usada no Espaço de trabalho ao selecionar outra paleta de cores ou ao especificar sua própria paleta que poderia corresponder às cores da marca da sua empresa. Esse recurso afeta a maioria das visualizações no Espaço de trabalho, mas **não** afeta o Resumo de alterações, a formatação condicional nas tabelas de Forma livre, nem a visualização de Mapa.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Veja um vídeo sobre o uso de paletas de cores personalizadas:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
-1. Navegue até **[!UICONTROL Workspace]** > **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]**.
+1. Navegue até **[!UICONTROL Espaço de trabalho]** > **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]**.
 1. No menu suspenso **[!UICONTROL Paleta de cores do projeto]** você pode escolher um dos cinco esquemas de cores predefinidos.
 
    ![](assets/custom_palette.png)
