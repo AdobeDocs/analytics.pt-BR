@@ -5,7 +5,7 @@ topic-fix: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Exibe o tráfego da página da Web e classifica as visualizações da página em
 >
 >O relatório Tempo real não requer implementações ou marcações adicionais. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja [Configuração de relatórios em tempo real](/help/admin/admin/realtime/t-realtime-admin.md).
 
-Esta é uma visão geral do vídeo:
+Veja um vídeo com uma visão geral:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
