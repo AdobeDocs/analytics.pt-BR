@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -29,12 +29,12 @@ Os relatórios fornecem informações de seus canais com base na Web tradicionai
 
 ## Requisitos de sistema e navegador
 
-Requisitos do navegador e do sistema necessários para fazer logon na interface do Reports &amp; Analytics.
+Requisitos do navegador e do sistema necessários para fazer logon na interface do Reports e do Analytics.
 
 >[!NOTE]
 >a Adobe encerrou o suporte ao Internet Explorer 11 no Adobe Analytics em 13 de novembro de 2018. Alterne para o Microsoft Edge ou um outro navegador compatível assim que possível.
 
-* Navegadores preferidos: Versões mais recentes do Firefox, Chrome, Safari ou do Edge.
+* Navegadores preferenciais: versões mais recentes do Firefox, Chrome, Safari ou Edge.
 * É necessário habilitar os cookies e o JavaScript.
 * Resolução do monitor de 1024 x 768 com intensidade de cor de 16 bits (ou superior).
 
@@ -80,7 +80,7 @@ Informações sobre edição de contas de usuários, redefinição de senhas e e
 
 Você pode visualizar e editar informações de contato, especificar uma senha, visualizar informações de serviços da Web e excluir este computador da coleta de dados.
 
-Clique no ícone Conta, ![](assets/account.png) na parte superior direita e, em seguida, clique no ícone **[!UICONTROL Configurações da conta]** (uma roda), ao lado de seu nome de logon.
+Clique no ícone Conta, ![](assets/account.png)na parte superior direita e, em seguida, clique no ícone **[!UICONTROL Configurações da conta]** (uma roda), ao lado de seu nome de logon.
 
 Todos os utilizadores têm acesso à página de [!UICONTROL Informações da conta]. As informações a seguir estão disponíveis para visualização ou edição:
 

@@ -4,8 +4,8 @@ description: Este manual explica como obter dados no Analytics por meio de Fonte
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Este guia explica como inserir dados no Analytics. O serviço inclui:
 * **[API de inserção de dados](c-data-insertion-api/c-data-insertion-api.md)**: envie dados diretamente para a coleta de dados da Adobe por meio de uma API.
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: Encontre as integrações atuais disponíveis para enriquecer seu conjunto de relatórios do Adobe Analytics.
 
-Esta é uma visão geral em vídeo do Adobe Analytics:
+Veja um vídeo com uma visão geral do Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 

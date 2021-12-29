@@ -4,8 +4,8 @@ description: Informação sobre a coleta de dados regionais
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ A Adobe Experience Cloud usa a RDC (Coleta de dados regionais) para que as inter
 
 >[!IMPORTANT]
 >
->O pacote de complemento RDC da China (Otimização de desempenho na China) é um complemento pago do Adobe Analytics. A Otimização do desempenho do Adobe na China continental permite que os clientes com usuários dentro da China enviem esses dados diretamente para o nó de borda da China, em vez de outros locais globalmente. Isso melhora os tempos de carregamento de páginas e a precisão dos dados em comparação ao envio de dados para nós fora da China. Entre em contato com o representante da Adobe Sales para obter mais informações.
+>O pacote de complemento RDC da China (Otimização de desempenho na China) é um complemento pago do Adobe Analytics. A Otimização de desempenho da Adobe na China continental permite que clientes na China enviem dados diretamente para o nó mais próximo da China, em vez de outros locais ao redor do globo. Isso melhora os tempos de carregamento de páginas e a precisão dos dados em comparação ao envio de dados para nós fora da China. Entre em contato com o representante da Adobe Sales para obter mais informações.
 
 Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 
@@ -29,7 +29,7 @@ Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 
 >[!NOTE]
 >
->Se a solicitação de imagem do Analytics for enviada para o `adobedc`, `2o7.net` ou `omtrdc.net` endpoints do , em seguida, você tem coleta de dados de terceiros. É possível determinar se um desses endpoints aparecem na URL de suas solicitações.
+>Se sua solicitação de imagem do Analytics for enviada para os endpoints `adobedc` `2o7.net` ou `omtrdc.net`, ocorrerá coleta de dados por terceiros. É possível determinar se um desses endpoints aparecem na URL de suas solicitações.
 
 ## Coleta de dados primária
 
@@ -42,11 +42,11 @@ Atualmente, a RDC inclui as seguintes localidades (sujeitas a mudança)
 | Somente Pacífico Asiático | Mumbai, Singapura, Tóquio, Sidney |
 | Somente China* | Pequim |
 
-*Somente China e os tipos de RDC Global + China exigem o pacote do complemento China. Consulte a nota &quot;Importante&quot; acima. Global + China roteará os dados originários da China para nossa RDC da China, enquanto roteará os dados originários de fora da China para a RDC mais próxima fora da China.
+*Somente China e RDCs do tipo Global + China exigem o pacote de complemento para a China. Consulte a nota &quot;Importante&quot; acima. Global + China roteará os dados originados na China para nossa RDC da China, enquanto os dados originados fora da China serão roteados para a RDC mais próxima fora da China.
 
 >[!NOTE]
 >
->A Experience Edge Global oferece o melhor desempenho para seus usuários finais.  Se quiser usar um tipo de RDC alternativo, entre em contato com o Atendimento ao Cliente do Adobe para obter assistência.
+>A Experience Edge Global oferece o melhor desempenho aos usuários finais.  Se quiser usar um tipo alternativo de RDC, entre em contato com o Atendimento ao cliente da Adobe para obter assistência.
 
 ## Benefícios da RDC
 
