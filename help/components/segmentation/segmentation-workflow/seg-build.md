@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2046'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Segmentos com intervalos de datas incorporados continuarão a operar de forma di
 
 1. Defina o [operador](/help/components/segmentation/seg-reference/seg-operators.md) no menu suspenso.
 1. Digite ou selecione um valor para o item selecionado.
-1. Adicione contêineres adicionar se necessário, com as regras **[!UICONTROL E]**, **[!UICONTROL Ou]**, ou **[!UICONTROL Então]**.
+1. Adicione contêineres adicionar se necessário, com as regras **[!UICONTROL AND]**, **[!UICONTROL OR]**, ou **[!UICONTROL THEN]**.
 1. Depois de colocar os contêineres e definir as regras, consulte os resultados do segmento no gráfico de validação na parte superior à direita. O validador indica o percentual e o número absoluto de visualizações de página, visitas e visitantes únicos que corresponde ao segmento criado.
 1. Em **[!UICONTROL Tags]**, [marque](/help/components/segmentation/segmentation-workflow/seg-tag.md) o contêiner ao selecionar uma tag existente ou cria uma nova.
 1. Clique em **[!UICONTROL Salvar]** para salvar o segmento.
@@ -121,13 +121,13 @@ Crie um contêiner de Visita e adicione o intervalo [!UICONTROL Últimos 60 dias
 
 ![](assets/date-ranges.png)
 
-Este é um vídeo sobre o uso de intervalos de datas flexíveis em segmentos:
+Veja um vídeo sobre o uso de intervalos de datas contínuas em segmentos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
 ## Empilhar segmentos {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
-O empilhamento de segmentos funciona ao combinar os critérios em cada segmento com um operador &quot;and&quot;, em seguida, ao aplicar os critérios combinados. Isso pode ser feito diretamente em um projeto do Workspace ou no construtor de segmentos.
+O empilhamento de segmentos funciona ao combinar os critérios em cada segmento com um operador &quot;and&quot;, em seguida, ao aplicar os critérios combinados. Isso pode ser feito diretamente em um projeto do Espaço de trabalho ou no construtor de segmentos.
 
 Por exemplo, empilhar um segmento de &quot;usuários de telefones celulares&quot; e um segmento &quot;Geografia dos EUA&quot; retorna dados somente para usuários de telefones celulares nos EUA.
 
@@ -161,7 +161,7 @@ Ao usar o empilhamento de segmentos, você pode reduzir a contagem de segmentos 
 
 ## Modelos de segmento {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Os modelos de segmentos são fornecidos para casos de uso comum de segmentação, como &quot;Novas visitas&quot; ou &quot;Visitas de dispositivos móveis&quot;. Eles estão disponíveis em projetos do Workspace e no construtor de segmentos como blocos de construção para novos segmentos.
+Os modelos de segmentos são fornecidos para casos de uso comum de segmentação, como &quot;Novas visitas&quot; ou &quot;Visitas de dispositivos móveis&quot;. Eles estão disponíveis em projetos do Espaço de trabalho e no construtor de segmentos como blocos de construção para novos segmentos.
 
 Os modelos são indicados pelo logotipo &quot;A&quot; da Adobe. Uma amostra dos modelos está listada abaixo:
 
