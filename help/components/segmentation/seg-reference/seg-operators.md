@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,6 +64,6 @@ O único caractere genérico compatível é o asterisco: *. Caso seja necessári
 | é maior que ou igual a | Retorna itens de dimensão cuja contagem específica é superior ou igual ao valor inserido. |
 | é menor que ou igual a | Retorna itens de dimensão cuja contagem específica é inferior ou igual ao valor inserido. |
 
-Este é um vídeo sobre segmentação em contagens de dimensão distintas:
+Veja um vídeo sobre segmentação em contagens de dimensões distintas:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
