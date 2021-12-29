@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3864'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou O
 
 Além disso, é possível restringir os segmentos sequenciais a uma duração de tempo, granularidade e contagens específicas entre pontos de verificação ao usar os [operadores After e Within](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
-Este é um vídeo sobre a segmentação sequencial:
+Veja um vídeo sobre segmentação sequencial:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
 
@@ -371,7 +371,7 @@ A duração é especificada por uma única letra maiúscula representando a gran
 |--- |--- |
 | AFTER | O operador After é usado para especificar um limite mínimo na quantidade de tempo entre dois pontos de verificação. Ao definir os valores de After, o limite de tempo começará quando o segmento for aplicado. Por exemplo, se o operador After estiver definido em um contêiner para identificar visitantes que visitaram a página A, mas não retornam para visitar a página B depois de um dia, esse dia começará quando o visitante sair da página A. Para que o visitante seja incluído no segmento, no mínimo, 1440 minutos (um dia) devem se passar após sair da página A para visualizar a página B. |
 | WITHIN | O operador Within é usado para especificar um limite máximo na quantidade de tempo entre dois pontos de verificação. Por exemplo, se o operador Within estiver definido em um contêiner para identificar visitantes que visitaram a página A e retornam para visitar a página B dentro de um dia, esse dia começará quando o visitante sair da página A. Para ser incluído no segmento, o visitante terá um tempo máximo de um dia antes de abrir a página B. Para que o visitante seja incluído no segmento, a visita à página B deve ocorrer dentro de no máximo 1440 minutos (um dia) após sair da página A para visualizar a página B. |
-| AFTER/WITHIN | Ao usar ambos os operadores After e Within, é importante compreender que ambos os operadores começarão e terminarão simultaneamente, não em sequência.   Por exemplo, se você construir um segmento com o contêiner definido como: <br>`After = 1 Week(s) and Within = 2 Week(s)`<br>, as condições para identificar os visitantes no segmentos serão atendidas somente entre 1 e 2 semanas. As duas condições são aplicadas a partir da primeira ocorrência da página. |
+| AFTER/WITHIN | Ao usar ambos os operadores After e Within, é importante compreender que ambos os operadores começarão e terminarão simultaneamente, não em sequência.   Por exemplo, se você construir um segmento com o contêiner definido como:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>, as condições para identificar os visitantes no segmentos serão atendidas somente entre 1 e 2 semanas. As duas condições são aplicadas a partir da primeira ocorrência da página. |
 
 ### Usar o operador After
 
