@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Abaixo, é possível observar alguns exemplos de HTML que usam o atributo padrã
   </div>
 ```
 
-Se desejar, você pode marcar elementos com um identificador de cadeia de caracteres arbitrário, neste caso “lpos”, e depois adicionar os atributos com o nome “lpos”.
+Se desejar, é possível marcar elementos com um identificador de strings arbitrário - neste caso, “lpos” - e depois adicionar atributos com o nome “lpos”.
 
 ```
 <script language="JavaScript" type="text/javascript">
@@ -119,7 +119,7 @@ Observe que essas variáveis &#x200B;&#x200B;estão listadas apenas para fins de
 
 ### `s.ActivityMap.regionIDAttribute`
 
-Sequência de caracteres que identifica o atributo da tag para usar como ID da região de algum elemento ancestral (pai, pai.pai, ...) de `s.linkObject`, ou seja, **o elemento que foi clicado**.
+String que identifica o atributo da tag para usar como ID da região de algum elemento ascendente (pai, pai.pai, ...) de `s.linkObject`, ou seja, **o elemento que foi clicado**.
 
 **Exemplo**
 
@@ -127,7 +127,7 @@ Padrões para o parâmetro “id”. Você pode definir para outro parâmetro.
 
 ### `s.ActivityMap.link`
 
-Função que recebe a função clicada `HTMLElement` e deve retornar um valor da string que representa o link que foi clicado. Se o valor de retorno for falso (nulo, indefinido, cadeia de caracteres vazia, 0), nenhum link será rastreado.
+Função que recebe o `HTMLElement` clicado e deve retornar um valor de sequência de caracteres que representa o link que foi clicado. Se o valor de retorno for falso (nulo, indefinido, cadeia de caracteres vazia, 0), nenhum link será rastreado.
 
 **Exemplo**
 
@@ -144,7 +144,7 @@ function(clickedElement) {
 
 ### `s.ActivityMap.region`
 
-A função que recebe o HTMLElement clicado e deve retornar um valor de cadeia de caracteres que representa **a região onde o link foi encontrado, quando clicado.** Se o valor de retorno for falso (nulo, indefinido, cadeia de caracteres vazia, 0), nenhum link será rastreado.
+A função que recebe o HTMLElement clicado e deve retornar um valor de string que representa **a região onde o link foi encontrado quando clicado.** Se o valor de retorno for falso (nulo, indefinido, cadeia de caracteres vazia, 0), nenhum link será rastreado.
 
 **Exemplo**
 
