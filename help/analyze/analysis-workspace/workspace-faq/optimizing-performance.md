@@ -1,14 +1,14 @@
 ---
-description: Fatores que afetarão o desempenho e as otimizações do Workspace que você pode fazer
+description: Fatores que afetarão o desempenho e as otimizações do Espaço de trabalho que você pode fazer
 title: Fatores de desempenho e otimização do Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
 source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2024'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ Os fatores do navegador [!UICONTROL Ajuda] > [!UICONTROL Desempenho] incluem:
 | Fator | Definição | Influenciado por | Otimização |
 | --- | --- | --- | --- |
 | Velocidade de computação | A velocidade com que o computador executa um teste de processamento. A orientação é &lt; 750 ms. | O hardware e programas simultâneos afetarão esse fator. | Abra o Gerenciador de Tarefas (PC) ou o Monitor de Atividades (Mac) do seu computador para determinar se é possível fechar os programas. Em seguida, feche guias de navegador ou outros programas não usados. <br><br>Se essas ações não ajudarem, discuta os detalhes de hardware com a equipe de TI. |
-| Memória usada | Disponível somente para o Google Chrome. Cada guia do Workspace em um navegador Google Chrome compartilha 4 GB de memória no total. Representa a porcentagem da redução de memória que está sendo consumida pelo projeto atual. A diretriz é de 3500 MB, que é o ponto em que o Workspace começará a detectar erros de memória. | Trabalhar em várias guias ou baixar 50000 linhas de dados contribuirá para o aumento do uso da memória. | Se você receber um erro de memória, feche outras guias do Workspace e/ou execute o download de linha 50000 uma de cada vez. |
+| Memória usada | Disponível somente para o Google Chrome. Cada guia do Espaço de trabalho em um navegador Google Chrome compartilha 4 GB de memória no total. Representa a porcentagem da redução de memória que está sendo consumida pelo projeto atual. A diretriz é de 3500 MB, que é o ponto em que o Espaço de trabalho começará a detectar erros de memória. | Trabalhar em várias guias ou baixar 50000 linhas de dados contribuirá para o aumento do uso da memória. | Se você receber um erro de memória, feche outras guias do Espaço de trabalho e/ou execute o download de linha 50000 uma de cada vez. |
 | Armazenamento local usado | Dados armazenados localmente em seu computador para uso no navegador. Cada origem (por exemplo, experience.adobe.com) tem uma alocação de 10 MB. | O Analysis Workspace usa o armazenamento local para várias funções, inclusive para armazenar projetos salvos automaticamente (existentes), configurações do usuário e sinalizadores de recursos. | Para garantir que as funções do Analysis Workspace não sejam interrompidas, limpe o armazenamento local do domínio experience.adobe.com. |
-| Velocidade de renderização | FPS significa Quadros por segundo, que é quantas vezes por segundo o navegador desenha a página em sua tela. 24 FPS é normalmente o que o olho humano pode observar; se o FPS for menor que isso, você observará problemas de renderização no Workspace. | O FPS é afetado ao fazer diversas tarefas em vários projetos do Workspace de uma só vez e pelo tamanho do projeto que está sendo visualizado. Outros programas em execução no computador podem causar impacto, como streaming, scanners em segundo plano etc. Além disso, o hardware afetará esse fator. | Abra o Gerenciador de Tarefas (PC) ou o Monitor de Atividades (Mac) do seu computador para determinar se é possível fechar os programas. Em seguida, feche guias de navegador ou outros programas não usados. <br><br>Se essas ações não ajudarem, discuta os detalhes de hardware com a equipe de TI. |
+| Velocidade de renderização | FPS significa Quadros por segundo, que é quantas vezes por segundo o navegador desenha a página em sua tela. 24 FPS é normalmente o que o olho humano pode observar; se o FPS for menor que isso, você observará problemas de renderização no Espaço de trabalho. | O FPS é afetado ao fazer diversas tarefas em vários projetos do Espaço de trabalho de uma só vez e pelo tamanho do projeto que está sendo visualizado. Outros programas em execução no computador podem causar impacto, como streaming, scanners em segundo plano etc. Além disso, o hardware afetará esse fator. | Abra o Gerenciador de Tarefas (PC) ou o Monitor de Atividades (Mac) do seu computador para determinar se é possível fechar os programas. Em seguida, feche guias de navegador ou outros programas não usados. <br><br>Se essas ações não ajudarem, discuta os detalhes de hardware com a equipe de TI. |
 
 ## Fatores de projeto
 
@@ -58,7 +58,7 @@ Os fatores de projeto [!UICONTROL Ajuda] > [!UICONTROL Desempenho] incluem:
 
 | Fator | Definição | Otimização |
 | --- | --- | --- |
-| Número de queries | O número total de queries (solicitações) feitos à Adobe para recuperar dados exibidos no projeto. As queries incluem solicitações classificadas para tabelas, detecção de anomalias, linhas cintilantes, componentes mostrados no painel esquerdo e muito mais. Exclui painéis e visualizações recolhidos. A orientação é 100. | Sempre que possível simplifique o projeto dividindo dados em vários projetos que atendem a uma finalidade específica ou a um grupo de participantes. Use tags para organizar projetos em temas e use [links diretos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) para criar um sumário interno, de modo que as partes interessadas possam encontrar mais facilmente o que precisam. |
+| Número de consultas | O número total de queries (solicitações) feitos à Adobe para recuperar dados exibidos no projeto. As queries incluem solicitações classificadas para tabelas, detecção de anomalias, linhas cintilantes, componentes mostrados no painel esquerdo e muito mais. Exclui painéis e visualizações recolhidos. A orientação é 100. | Sempre que possível simplifique o projeto dividindo dados em vários projetos que atendem a uma finalidade específica ou a um grupo de participantes. Use tags para organizar projetos em temas e use [links diretos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) para criar um sumário interno, de modo que as partes interessadas possam encontrar mais facilmente o que precisam. |
 | Painéis expandidos (do total de painéis) | O número de painéis expandidos do número total de painéis no projeto. A orientação é 5. | Depois de seguir as etapas para simplificar seu projeto, recolha os painéis no projeto que não precisam ser exibidos quando carregados. Quando o projeto for aberto, somente os painéis expandidos serão processados. Os painéis recolhidos não serão processados até que o usuário os expanda. |
 | Visualizações expandidas (do total de visualizações) | O número de tabelas expandidas e visualizações do total no projeto, incluindo fontes de dados ocultas. A orientação é 15. | Depois de seguir as etapas para simplificar o projeto, recolha as visualizações no projeto que não precisam ser visualizadas quando carregadas. Priorize os recursos visuais mais importantes para o consumidor do relatório e separe os recursos visuais de suporte em um painel ou projeto separado e mais detalhado, se necessário. |
 | Número de células de forma livre | O número total de células da tabela de forma livre no projeto, calculado por linhas * colunas em todas as tabelas. Exclui fontes de dados ocultas. A orientação é 4000. | Reduza o número de colunas na tabela somente para os pontos de dados mais relevantes. Reduza o número de linhas na tabela ajustando o número de linhas exibidas, aplicando um filtro de tabela ou aplicando um segmento. |
@@ -78,8 +78,8 @@ Outros fatores que não estão incluídos em Ajuda > Desempenho incluem:
 | Queries simultâneas | O número de queries que estão sendo solicitadas pela organização à Adobe ao mesmo tempo. Cada organização tem direito a no mínimo cinco queries simultâneas. | Se um relatório está demorando muito, normalmente é devido ao fato de estar em uma fila com outros relatórios. Sua organização está tentando executar muitas solicitações simultâneas em relação a um conjunto de relatórios específico. Os queries podem vir de solicitações de API, interfaces do usuário de relatórios (Analysis Workspace, Reports &amp; Analytics, Report Builder etc.), projetos agendados, relatórios agendados, alertas agendados e usuários simultâneos que fazem solicitações de relatórios. | Espalhe suas solicitações e agendamentos no conjunto de relatórios de forma mais uniforme ao longo do dia. Além disso, mude suas solicitações para fora do horário de pico, quando possível. Segunda-feira de manhã, terça-feira de manhã e o primeiro de cada mês são horas de pico de relatórios. |
 | Capacidade do data center | A capacidade de geração de relatórios que você e outros clientes compartilham em um data center da Adobe. | Isso é afetado pelo número de queries simultâneas feitas pela sua organização e outras organizações em seu data center. | Sua organização tem direito a uma capacidade definida e, se o sistema não estiver sobrecarregado, a Adobe transferirá mais capacidade para você, acima e além da capacidade permitida a você. |
 
-## Dicas para aumentar a produtividade na Analysis Workspace
+## Dicas para aumentar a produtividade no Analysis Workspace
 
-Esta é uma visão geral em vídeo sobre este tópico:
+Veja um vídeo sobre este tópico:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)
