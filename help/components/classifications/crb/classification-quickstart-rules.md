@@ -5,9 +5,9 @@ title: Regras de classificação
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ O Construtor de regras permite criar um *conjunto de regras de classificação*,
 
 As regras de classificação são úteis para:
 
-* **Email** e **Exibir anúncios**: Crie regras de classificação para agrupar campanhas de anúncios de exibição individuais para que você possa saber como as campanhas de Exibição são realizadas em relação às campanhas de email.
+* **Email** e **Anúncios de exibição**: crie regras de classificação para agrupar campanhas de anúncio de exibição individuais; assim, será possível conhecer o desempenho das campanhas de exibição em comparação às campanhas de email.
 
-* **Códigos de rastreamento**: crie regras de classificação para categorizar os valores principais provenientes das sequências nos códigos de rastreamento, e corresponda as regras aos critérios específicos definidos por você.
+* **Códigos de rastreamento**: crie regras de classificação para categorizar os valores principais provenientes de sequências de caracteres nos códigos de rastreamento, e faça-os corresponder aos critérios específicos que definiu.
 * **Termos de pesquisa**: use [expressões regulares](/help/components/classifications/crb/classification-quickstart-rules.md) e curingas para simplificar a classificação de termos de pesquisa. Por exemplo, se um termo de pesquisa contém *`baseball`*, é possível definir uma classificação *`Sports League`* como *`MLB`*.
 
 Por exemplo, digamos que um código de rastreamento de uma ID de campanha de email seja:
@@ -202,10 +202,10 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 |--- |--- |--- |--- |
 | Expressão regular Para sequências de correspondência a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
 | Expressão regular Para sequências de correspondência a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expressão regular Para sequências de correspondência a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expressão regular Para sequências de correspondência a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expressão regular Para sequências de correspondência a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Expressão regular Para sequências de correspondência a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Expressão regular para correspondência das sequências de caracteres a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expressão regular para correspondência das sequências de caracteres a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expressão regular para correspondência das sequências de caracteres a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Expressão regular para correspondência das sequências de caracteres a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Expressões regulares - Exemplo &quot;Não contém&quot; {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
