@@ -1,19 +1,19 @@
 ---
-title: Entradas e saídas do painel Tempo gasto com a reprodução da mídia
-description: Quais são as configurações de entrada e saída do Tempo gasto com a reprodução de mídia?
+title: Entradas e saídas do painel Tempo gasto com reprodução de mídia
+description: Quais são as configurações de entrada e saída do Tempo gasto com reprodução de mídia?
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# Entradas e saídas do painel Tempo gasto com a reprodução da mídia {#Inputs-and-outputs}
+# Entradas e saídas do painel Tempo gasto com reprodução de mídia {#Inputs-and-outputs}
 
-Você pode personalizar o painel Tempo gasto com a reprodução de mídia usando as seguintes configurações de entrada e saída.
+É possível personalizar o painel Tempo gasto com reprodução de mídia usando as seguintes configurações de entrada e saída.
 
 ## Entradas do painel {#Input}
 
