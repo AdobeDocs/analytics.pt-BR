@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 source-git-commit: 9d0d8bc3fbba2ef83416f8230b5ed5fa9b03d019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -56,10 +56,10 @@ O Activity Map permite configurar diferentes exibições para identificar visual
 
 ## Vídeos
 
-Visão geral do vídeo do Activity Map:
+Vídeo com um visão geral do Activity Map:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
 
-Ativar, desativar e personalizar o Activity Map:
+Habilitar, desabilitar e personalizar o Activity Map:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)
