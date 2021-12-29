@@ -6,9 +6,9 @@ feature: Panels
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../segment-iq.md) que descobre as diferenças estatisticamente mais significativas entre um número ilimitado de segmentos. Esse recurso é repetido por meio de uma análise automatizada de todas as dimensões e métricas a que você tem acesso. A análise descobre as principais características dos segmentos de público-alvo que estão liderando os indicadores de desempenho (KPIs) da sua empresa e permite que você veja o nível de sobreposição entre quaisquer segmentos.
 
-Veja um vídeo sobre a comparação de segmentos:
+Veja um vídeo sobre comparação de segmentos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
@@ -24,7 +24,7 @@ Veja um vídeo sobre a comparação de segmentos:
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
 1. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
-1. Na barra de navegação superior, clique em Workspace.
+1. Na barra de navegação superior, clique em Espaço de trabalho.
 1. Clique no botão “Criar novo projeto”.
 1. No pop-up modal, verifique se “Projeto em branco” está selecionado e clique em Criar.
 1. Clique no botão Painéis à esquerda e arraste o painel Comparação de segmentos para cima ou para baixo do painel de tabela de forma livre criado automaticamente.
