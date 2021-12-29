@@ -3,9 +3,9 @@ title: Interface do usuário do feed de dados
 description: Saiba como navegar na interface do feed de dados.
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 O gerenciador de feed de dados permite criar, editar e excluir feeds de dados para sua organização. Se você tiver permissões para acessar o gerenciador de feed de dados, poderá gerenciar feeds de dados para todos os conjuntos de relatórios visíveis a você.
 
-Este é um vídeo sobre a interface do usuário do Gerenciamento de feeds de dados:
+Veja um vídeo sobre a interface do Gerenciamento de feeds de dados:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
