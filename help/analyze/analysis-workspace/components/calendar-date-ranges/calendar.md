@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 96%
 
 No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição.
 
-Este é um vídeo sobre o uso de intervalos de datas e calendários no Analysis Workspace:
+Veja um vídeo sobre o uso de intervalos de datas e calendários no Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
-As seleções do calendário se aplicam a nível de painel, mas você pode aplicá-las a todos os painéis. Ao clicar em um intervalo de datas no Workspace, a interface exibe o mês atual do calendário e o mês anterior. Você pode ajustar esses dois calendários clicando nas setas para a direita e para a esquerda em cada canto superior respectivo.
+As seleções do calendário se aplicam a nível de painel, mas existe a opção de aplicá-las a todos os painéis. Ao clicar em um intervalo de datas no Espaço de trabalho, a interface exibe o mês atual do calendário e o mês anterior. Você pode ajustar esses dois calendários clicando nas setas para a direita e para a esquerda em cada canto superior respectivo.
 
 ![Calendário](assets/aw_calendar.png)
 
 O primeiro clique em um calendário inicia uma seleção de intervalo de datas. O segundo clique conclui uma seleção de intervalo de datas, que é realçada. Se a tecla `Shift` for pressionada (ou se o clique com o botão direito do mouse for usado), ela será anexada ao intervalo selecionado no momento.
 
-Você também pode arrastar datas (e dimensões de tempo) em um projeto do Workspace. É possível selecionar dias, semanas, meses e anos específicos ou uma data do acumulado.
+Você também pode arrastar datas (e dimensões de tempo) em um projeto do Espaço de trabalho. É possível selecionar dias, semanas, meses e anos específicos ou uma data do acumulado.
 
 [Usando intervalos de data e calendário na Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=pt-BR) (4:07)
 
