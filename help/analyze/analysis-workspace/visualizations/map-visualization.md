@@ -1,14 +1,14 @@
 ---
-description: Use a visualização de mapa em um projeto do Workspace.
+description: Use a visualização de mapa em um projeto do Espaço de trabalho.
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ A visualização de mapa no Analysis Workspace
 * Suporta exportação de PDF.
 * Aproveita WebGL para exibição de gráficos. Se os drivers de gráficos não suportarem a renderização de WebGL, talvez seja necessário atualizá-los.
 
-Esta é uma visão geral do vídeo:
+Veja um vídeo com uma visão geral:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
 
@@ -39,8 +39,8 @@ Esta é uma visão geral do vídeo:
 
 | Configuração | Descrição |
 | --- | --- |
-| [!UICONTROL Lat/long móveis] | Esta opção representa dados do aplicativo móvel. Você verá essa opção somente se ela tiver sido ativada para seu conjunto de relatórios em [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Conjuntos de relatórios] > (selecione o conjunto de relatórios) > [!UICONTROL Editar configurações] >  [!UICONTROL Gerenciamento móvel] > [!UICONTROL Ativar o rastreamento de localização]. Esta é a configuração padrão (caso o rastreamento de localização esteja ativado). |
-| [!UICONTROL Dimensão geográfica] | Esta opção representa dados de segmentação geográfica sobre a localização do visitante com base no endereço IP do visitante. Esses dados são transformados em [!UICONTROL País], [!UICONTROL Região]e [!UICONTROL Cidade]. Observe que eles não atingem o nível de DMA ou Código Postal. Quase todos os conjuntos de relatórios têm essa dimensão ativada. Se o seu não tiver, entre em contato com o Atendimento ao cliente da Adobe para ativar os relatórios geográficos. |
+| [!UICONTROL Lat/long móveis] | Esta opção representa dados do aplicativo móvel. Esta opção estará visível somente se tiver sido habilitada para o conjunto de relatórios em [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Conjuntos de relatórios] > (selecione o conjunto de relatórios) > [!UICONTROL Editar configurações] >  [!UICONTROL Gerenciamento de dispositivos móveis] > [!UICONTROL Habilitar rastreamento de localização]. Esta é a configuração padrão (caso o rastreamento de localização esteja ativado). |
+| [!UICONTROL Dimensão geográfica] | Esta opção representa dados de segmentação geográfica sobre a localização do visitante com base no endereço IP do visitante. Esses dados são transformados em [!UICONTROL País], [!UICONTROL Região] e [!UICONTROL Cidade]. Observe que eles não atingem o nível de DMA ou Código postal. Quase todos os conjuntos de relatórios têm essa dimensão ativada. Se o seu não tiver, entre em contato com o Atendimento ao cliente da Adobe para ativar os relatórios geográficos. |
 
 1. Clique em **[!UICONTROL Criar]**.
 
@@ -88,6 +88,6 @@ Se você clicar no **ícone de engrenagem**, aparecerão as configurações de v
 
 ## Criar um mapa de calor de divisão de tempo
 
-Esta é uma visão geral em vídeo sobre este tópico:
+Veja um vídeo sobre este tópico:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
