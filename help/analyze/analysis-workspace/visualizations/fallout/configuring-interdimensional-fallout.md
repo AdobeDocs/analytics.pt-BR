@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 O recurso de Fallout no Analysis Workspace permite combinar dimensões e métricas como pontos de contato em funis e fluxos de trabalho. Isso fornece maior flexibilidade ao definir as etapas de usuário que deseja investigar.
 
-Aqui está um vídeo sobre o assunto:
+Veja um vídeo sobre este assunto:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
 
