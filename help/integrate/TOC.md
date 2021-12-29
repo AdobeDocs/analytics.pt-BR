@@ -5,9 +5,9 @@ user-guide-title: Guia de integração do Analytics
 breadcrumb-title: Guia de integração
 user-guide-description: Configure integrações com outras soluções da Adobe Experience Cloud, como o Audience Manager, a Advertising Cloud e o Target.
 source-git-commit: 877bb63cd96cd2d91094f7c2b39b3046c2255b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -37,10 +37,10 @@ ht-degree: 81%
       + [Gerenciar contas publicitárias](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Solução de problemas do Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Perguntas frequentes](c-advertising-analytics/aa-faq.md)
-+ [Adobe Analytics para Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
-+ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=pt-BR)
++ [Adobe Analytics para Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=pt-BR)
++ [Adobe Analytics para Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=pt-BR)
 + [Relatórios do Adobe Campaign no Adobe Analytics](adobe-campaign.md)
-+ [Integrar dados do Adobe Analytics com o Adobe Campaign Classic](analytics-to-campaign-classic.md)
++ [Integrar os dados do Adobe Analytics ao Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [Relatórios do AEM Assets](aem-assets-reporting.md)
 + [Relatórios do Activity Map](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
