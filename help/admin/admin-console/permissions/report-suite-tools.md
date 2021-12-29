@@ -1,17 +1,17 @@
 ---
-title: Permissões de perfil de produto para Ferramentas do conjunto de relatórios no Adobe Admin Console
+title: Permissões de perfil de produto para Ferramentas de conjuntos de relatórios no Adobe Admin Console
 description: Entenda cada item de permissão em Ferramentas do conjunto de relatórios.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Permissões de perfil de produto para Ferramentas de conjunto de relatórios
+# Permissões de perfil de produto para Ferramentas de conjuntos de relatórios
 
-Use esta página para entender cada item de permissão em Ferramentas do conjunto de relatórios no Adobe Admin Console.
+Use esta página para entender cada item de permissão em Ferramentas de conjunto de relatórios no Adobe Admin Console.
 
 | Item de permissão das Ferramentas do conjunto de relatórios | Descrição |
 |------|------|
@@ -42,7 +42,7 @@ Use esta página para entender cada item de permissão em Ferramentas do conjunt
 | Gerenciador de feeds de dados | Concede acesso a Administrador > Feeds de dados na navegação superior do Analytics. |
 | Relatório de Data Warehouse Personalizado | Concede acesso a Ferramentas > Data Warehouse na navegação superior do Analytics. |
 | Visitas de Retorno Diário | Concede acesso a Retenção de visitantes > Visitas de retorno diário no Reports &amp; Analytics. |
-| Gerenciador das fontes de dados | Concede acesso a Administrador > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
+| Gerenciador de Fontes de dados | Concede acesso a Administrador > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
 | Excluir por endereço IP | Concede acesso a Administração > Excluir por IP na navegação superior do Analytics. |
 | Visitas de Retorno | Concede acesso a Retenção de visitantes > Visitas de retorno no Reports &amp; Analytics. |
 | Classificações | Concede acesso a todas as configurações de classificação no Gerenciador de conjunto de relatórios. Este item de permissão inclui: <br>Tráfego > Classificações de tráfego<br>Conversão > Classificações de conversão<br>Conversão > Hierarquias de classificação<br>Canais de marketing > Classificações de canal de marketing<br>Gerenciamento de aplicativos > Classificações de aplicativos<br>Gerenciamento de mídia > Classificações de mídia<br>AEM > Classificações do AEM Assets<br>Adobe Campaign > Classificações da Adobe |
