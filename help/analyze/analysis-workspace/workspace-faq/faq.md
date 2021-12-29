@@ -1,13 +1,13 @@
 ---
-description: Perguntas frequentes sobre o Workspace
-title: Perguntas frequentes e solução de problemas no Workspace
+description: Perguntas frequentes sobre o Espaço de trabalho
+title: Perguntas frequentes e solução de problemas no Espaço de trabalho
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '546'
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Assista a este vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
 
-## Como posso rastrear o uso do Workspace?
+## Como posso monitorar o uso do Espaço de trabalho?
 
-Assista a este vídeo sobre o rastreamento de log de uso do Analysis Workspace:
+Assista a este vídeo sobre o uso do monitoramento de log do Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
 
