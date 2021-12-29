@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '668'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 A comparação de datas no Analysis Workspace permite pegar qualquer coluna contendo um intervalo de data e criar uma comparação de data comum, como: ano sobre ano, trimestres sobre trimestres, mês sobre mês, etc.
 
-Esta é uma visão geral em vídeo sobre este tópico:
+Veja um vídeo sobre este tópico:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
 
@@ -54,7 +54,7 @@ A análise demanda contexto, e esse contexto é normalmente fornecido por um per
 
    As linhas na coluna de Alteração na porcentagem aparecem em vermelho para valores negativos e em verde para positivos.
 
-1. (Opcional) Como em qualquer projeto do Workspace, é possível criar visualizações baseadas nestas comparações de tempo. Por exemplo, aqui está um gráfico de barras:
+1. (Opcional) Como em qualquer projeto do Espaço de trabalho, é possível criar visualizações baseadas nestas comparações de tempo. Por exemplo, aqui está um gráfico de barras:
 
    ![](assets/compare-time-barchart.png)
 
