@@ -2,7 +2,7 @@
 description: Saiba como implementar a marcação de vários relatórios a fim de enviar uma solicitação de imagem para vários conjuntos de relatórios.
 title: Implementação de marcação de vários relatórios
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
