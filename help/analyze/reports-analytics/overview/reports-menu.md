@@ -2,19 +2,22 @@
 description: Uma visão geral do menu Relatórios em Reports & Analytics.
 title: Menu de relatórios
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 96%
+source-wordcount: '855'
+ht-degree: 87%
 
 ---
 
 # Menu de relatórios{#reports-menu}
 
 Uma visão geral do menu Relatórios em Reports &amp; Analytics.
+
+>[!IMPORTANT]
+>Efetivo **31 de dezembro de 2023**, o Adobe pretende descontinuar o Reports &amp; Analytics e seus relatórios e recursos que o acompanham. Nesse momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararão de funcionar. Os relatórios, visualizações e tecnologia subjacente que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia do Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
 
 O menu Relatórios proporciona:
 
@@ -113,7 +116,7 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
   </tr> 
   <tr> 
    <td colname="col1">Seletor de Conjunto de relatórios<img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Permite selecionar com base nos <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >conjuntos de relatórios</a> ou <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >conjuntos de relatórios virtuais</a>. </td> 
+   <td colname="col2">Permite selecionar com base nos <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=pt-BR"  >conjuntos de relatórios</a> ou <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >conjuntos de relatórios virtuais</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendário <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 

@@ -4,10 +4,10 @@ title: Configurações e navegação da exibição de relatórios
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 99%
+source-wordcount: '1557'
+ht-degree: 94%
 
 ---
 
@@ -15,9 +15,12 @@ ht-degree: 99%
 
 Configurações que definem como todos os relatórios são exibidos e as informações que mapeiam as opções de menu padrão para o local no menu simplificado.
 
+>[!IMPORTANT]
+>Efetivo **31 de dezembro de 2023**, o Adobe pretende descontinuar o Reports &amp; Analytics e seus relatórios e recursos que o acompanham. Nesse momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararão de funcionar. Os relatórios, visualizações e tecnologia subjacente que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia do Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
+
 ## Configurações e navegação da exibição de relatórios {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Componentes]**  >  **[!UICONTROL Todos os componentes]**  > Configurações  **[!UICONTROL do relatório]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Configurações do relatório]**
 
 | Elemento | Descrição |
 |--- |--- |

@@ -1,13 +1,13 @@
 ---
 title: Relatórios
 description: As dimensões e métricas que o Reports & Analytics usa para cada relatório.
-feature: Relatórios & Noções básicas do Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 100%
+source-wordcount: '1950'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,9 @@ Cada relatório no Reports &amp; Analytics usa uma dimensão dedicada e uma mét
 >[!NOTE]
 >
 >O menu de relatórios pode parecer diferente dependendo das personalizações feitas por um administrador em sua organização. Consulte [Personalização de menu](/help/admin/admin/customize-menus.md) no Guia do usuário de administração.
+
+>[!IMPORTANT]
+>Efetivo **31 de dezembro de 2023**, o Adobe pretende descontinuar o Reports &amp; Analytics e seus relatórios e recursos que o acompanham. Nesse momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararão de funcionar. Os relatórios, visualizações e tecnologia subjacente que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia do Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
 
 ## Métricas de site
 

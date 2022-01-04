@@ -4,16 +4,19 @@ title: Introdução ao Reports and Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 95%
+source-wordcount: '790'
+ht-degree: 84%
 
 ---
 
 # Introdução ao Reports &amp; Analytics
 
 Antes de usar o Reports &amp; Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
+
+>[!IMPORTANT]
+>Efetivo **31 de dezembro de 2023**, o Adobe pretende descontinuar o Reports &amp; Analytics e seus relatórios e recursos que o acompanham. Nesse momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararão de funcionar. Os relatórios, visualizações e tecnologia subjacente que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia do Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
 
 Os relatórios fornecem informações de seus canais com base na Web tradicionais e também de canais móveis, vídeo e de redes sociais. Alguns exemplos de relatórios de incluem:
 
@@ -30,9 +33,6 @@ Os relatórios fornecem informações de seus canais com base na Web tradicionai
 ## Requisitos de sistema e navegador
 
 Requisitos do navegador e do sistema necessários para fazer logon na interface do Reports e do Analytics.
-
->[!NOTE]
->a Adobe encerrou o suporte ao Internet Explorer 11 no Adobe Analytics em 13 de novembro de 2018. Alterne para o Microsoft Edge ou um outro navegador compatível assim que possível.
 
 * Navegadores preferenciais: versões mais recentes do Firefox, Chrome, Safari ou Edge.
 * É necessário habilitar os cookies e o JavaScript.
