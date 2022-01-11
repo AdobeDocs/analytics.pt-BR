@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -80,7 +80,7 @@ Informações sobre edição de contas de usuários, redefinição de senhas e e
 
 Você pode visualizar e editar informações de contato, especificar uma senha, visualizar informações de serviços da Web e excluir este computador da coleta de dados.
 
-Clique no ícone Conta, ![](assets/account.png)na parte superior direita e, em seguida, clique no ícone **[!UICONTROL Configurações da conta]** (uma roda), ao lado de seu nome de logon.
+Clique no ícone Conta, ![](assets/account.png) na parte superior direita e, em seguida, clique no ícone **[!UICONTROL Configurações da conta]** (uma roda), ao lado de seu nome de logon.
 
 Todos os utilizadores têm acesso à página de [!UICONTROL Informações da conta]. As informações a seguir estão disponíveis para visualização ou edição:
 
@@ -101,4 +101,4 @@ Etapas que descrevem como alterar o idioma da interface. Você pode exibir a int
 Você pode acessar a documentação e a Página inicial da Adobe Experience Cloud. (**[!UICONTROL Ajuda]** > **[!UICONTROL Página inicial da Ajuda]**.)
 
 >[!NOTE]
->Este produto está autorizado para venda na América do Norte e em outras regiões onde o produto é realmente vendido. Não pode satisfazer as condições locais de venda noutros países ou regiões.
+>Este produto está autorizado para venda na América do Norte e em outras regiões onde o produto é vendido. Ele pode não atender às condições locais de venda em outros países ou regiões.
