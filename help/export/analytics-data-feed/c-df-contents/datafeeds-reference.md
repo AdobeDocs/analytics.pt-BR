@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 20a4ee51d0eace9cdcb5e0aeff5704b9a757a1eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `color` | ID de Intensidade de cor com base no valor da coluna `c_color`. Faz referência à tabela de pesquisa `color_depth.tsv`. | smallint unsigned |
 | `connection_type` | ID numérica que representa o tipo de conexão. Variável usada na dimensão [Tipo de conexão](/help/components/dimensions/connection-type.md). Faz referência à tabela de pesquisa `connection_type.tsv`. | tinyint unsigned |
 | `cookies` | Variável usada na dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md).<br>Y: Ativado<br>N: Desativado<br>U: Desconhecido | char(1) |
-| `country` | ID numérica que representa os valores encontrados na `country.tsv` pesquisa. Usado no relatório Domínios de nível superior no Reports &amp; Analytics. | smallint unsigned |
+| `country` | ID numérica que representa os valores encontrados na pesquisa por `country.tsv`. Usado no relatório Domínios de nível superior no Reports &amp; Analytics. | smallint unsigned |
 | `ct_connect_type` | Relacionado à coluna `connection_type`. Os valores mais comuns são LAN/Wifi, Operadora de celular e Modem. | char(20) |
 | `curr_factor` | Determina a posição decimal da moeda e é usado para conversão de moedas. Por exemplo, USD usa duas casas decimais, portanto o valor dessa coluna seria 2. | tinyint |
 | `curr_rate` | A taxa de câmbio de quando a transação ocorreu. A Adobe formou uma parceria com a XE para determinar a taxa de câmbio atual. | decimal(24,12) |
@@ -77,11 +77,11 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `first_hit_ref_type` | ID numérica que representa o tipo do primeiro referenciador do visitante. Usa a pesquisa `referrer_type.tsv`. | tinyint unsigned |
 | `first_hit_referrer` | O primeiro URL de referência do visitante. | varchar(255) |
 | `first_hit_time_gmt` | Carimbo de data e hora, em horário Unix, da primeira ocorrência de um visitante. | int |
-| `geo_city` | Nome da cidade de onde a ocorrência veio, com base no IP. Usada na dimensão [Cidades](/help/components/dimensions/cities.md). | char(32) |
-| `geo_country` | Abreviação do país de onde a ocorrência veio, com base no IP. Usado na dimensão [Países.](/help/components/dimensions/countries.md) | char(4) |
-| `geo_dma` | ID numérica da área demográfica de onde a ocorrência veio, com base no IP. Usado na dimensão [US DMA](/help/components/dimensions/us-dma.md). | int unsigned |
-| `geo_region` | Nome do estado ou região de onde a ocorrência veio, com base no IP. Usado na dimensão [Regiões](/help/components/dimensions/regions.md). | char(32) |
-| `geo_zip` | O código postal de origem da ocorrência, com base no IP. Ajuda a preencher a dimensão [CEP](/help/components/dimensions/zip-code.md). Consulte também `zip`. | varchar(16) |
+| `geo_city` | Nome da cidade na qual a ocorrência foi originada, com base no IP. Usada na dimensão [Cidades](/help/components/dimensions/cities.md). | char(32) |
+| `geo_country` | Abreviação do país no qual a ocorrência foi originada, com base no IP. Usado na dimensão [Países](/help/components/dimensions/countries.md). | char(4) |
+| `geo_dma` | ID numérica da área demográfica na qual a ocorrência foi originada, com base no IP. Usado na dimensão [US DMA](/help/components/dimensions/us-dma.md). | int unsigned |
+| `geo_region` | Nome do estado ou região em que a ocorrência foi originada, com base no IP. Usado na dimensão [Regiões](/help/components/dimensions/regions.md). | char(32) |
+| `geo_zip` | O código postal no qual a ocorrência foi originada, com base no IP. Ajuda a preencher a dimensão [CEP](/help/components/dimensions/zip-code.md). Consulte também `zip`. | varchar(16) |
 | `hier1 - hier5` | Usado em variáveis de hierarquia. Contém uma lista delimitada de valores. O delimitador é escolhido nas configurações do conjunto de relatórios. | varchar(255) |
 | `hit_source` | Indica a origem da ocorrência. As fontes de ocorrência 1, 2 e 6 são faturadas. <br>1: Solicitação de imagem padrão sem carimbo de data e hora <br>2: Solicitação de imagem padrão com carimbo de data e hora <br>3: Carregamento de fonte de dados ao vivo com carimbos de data e hora <br>4: Não utilizado <br>5: Upload de fonte de dados genérica <br>6: Carregamento completo da fonte de dados de processamento <br>7: Carregamento da fonte de dados TransactionID <br>8: Deixar de ser utilizado; Versões anteriores das fontes de dados da Adobe Advertising Cloud <br>9: Deixar de ser utilizado; Métricas de resumo do Adobe Social <br>10: Encaminhamento do lado do servidor do Audience Manager usado | tinyint unsigned |
 | `hit_time_gmt` | O carimbo de data e hora dos servidores de coleta de dados da Adobe de ocorrência recebeu a ocorrência, com base no horário Unix. | int |
