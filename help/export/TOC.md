@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Use os Feeds de dados para receber uma exportação de dados brutos por hora ou por dia. Use o Data Warehouse para recuperar uma saída de dados em planilha.
-source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 98%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 100%
    + [Usar o modo FTP passivo](ftp-and-sftp/ftp-passive.md)
    + [Tempos de processamento do FTP](ftp-and-sftp/ftp-processing.md)
    + Protocolo de transferência segura de arquivo {#secure-file-transfer-protocol}
+      + [Atualização de serviços SFTP - Perguntas frequentes](ftp-and-sftp/c-sftp/sftp-upgrade.md)
       + [Protocolo de transferência segura de arquivo - visão geral](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [Conexão com uma conta FTP da Adobe com SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [Enviar dados da Adobe para uma conta FTP externa com SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
