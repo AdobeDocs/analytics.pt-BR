@@ -5,9 +5,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 Antes de usar o Reports &amp; Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
 
 >[!IMPORTANT]
->Efetivo **31 de dezembro de 2023**, o Adobe pretende descontinuar o Reports &amp; Analytics e seus relatórios e recursos que o acompanham. Nesse momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararão de funcionar. Os relatórios, visualizações e tecnologia subjacente que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia do Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
+>A partir de **31 de dezembro de 2023**, a Adobe pretende descontinuar o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham. Quando isso ocorrer, o Reports &amp; Analytics e todos os seus relatórios e agendas não funcionarão mais. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
 
 Os relatórios fornecem informações de seus canais com base na Web tradicionais e também de canais móveis, vídeo e de redes sociais. Alguns exemplos de relatórios de incluem:
 
@@ -80,7 +80,7 @@ Informações sobre edição de contas de usuários, redefinição de senhas e e
 
 Você pode visualizar e editar informações de contato, especificar uma senha, visualizar informações de serviços da Web e excluir este computador da coleta de dados.
 
-Clique no ícone Conta, ![](assets/account.png) na parte superior direita e, em seguida, clique no ícone **[!UICONTROL Configurações da conta]** (uma roda), ao lado de seu nome de logon.
+Clique no ícone Conta, ![](assets/account.png) na parte superior direita e, em seguida, clique no ícone **[!UICONTROL Configurações da conta]** (uma roda), ao lado de seu nome de logon.
 
 Todos os utilizadores têm acesso à página de [!UICONTROL Informações da conta]. As informações a seguir estão disponíveis para visualização ou edição:
 
