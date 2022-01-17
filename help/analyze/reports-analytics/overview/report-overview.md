@@ -1,27 +1,27 @@
 ---
-description: Uma introdução aos recursos de um relatório, incluindo a barra de ferramentas, o calendários e a tabela de detalhes.
+description: Uma introdução aos recursos de um relatório, incluindo a barra de ferramentas, os calendários e a tabela de detalhes.
 title: Recursos do relatório
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # Recursos do relatório
 
-Uma introdução aos recursos de um relatório, incluindo a barra de ferramentas, o calendários e a tabela de detalhes.
+Uma introdução aos recursos de um relatório, incluindo a barra de ferramentas, os calendários e a tabela de detalhes.
 
 Este exemplo mostra um [!UICONTROL Relatório de páginas]. As opções de configuração podem variar, dependendo do relatório que você está executando. Por exemplo, em vez de selecionar Com Tendência ou Classificado em um [!UICONTROL Relatório de conteúdo do sie], você pode especificar a granularidade e o nome da página para um relatório de [!UICONTROL Métricas do site].
 
 >[!IMPORTANT]
->Efetivo **31 de dezembro de 2023**, o Adobe pretende descontinuar o Reports &amp; Analytics e seus relatórios e recursos que o acompanham. Nesse momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararão de funcionar. Os relatórios, visualizações e tecnologia subjacente que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia do Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
+>A partir de **31 de dezembro de 2023**, a Adobe pretende descontinuar o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham. Quando isso ocorrer, o Reports &amp; Analytics e todos os seus relatórios e agendas não funcionarão mais. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
 
-## Exemplo de relatório de páginas {#section_288CC85536684C2DB184141358481EF0}
+## Exemplo de Relatório de páginas {#section_288CC85536684C2DB184141358481EF0}
 
 Veja a seguir um exemplo de um relatório de Páginas (**[!UICONTROL Relatórios]** > **[!UICONTROL Conteúdo do site]** > **[!UICONTROL Relatórios de páginas]** > **[!UICONTROL Páginas]**).
 
@@ -61,7 +61,7 @@ Consulte [Alteração dos gráficos do relatório](/help/analyze/reports-analyti
 
 ## Exibição do gráfico {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-Dependendo do tipo de gráfico selecionado, você poderá visualizar os principais itens da lista de detalhes. Se o seu gráfico é um gráfico de tendências de diferentes períodos, todos os períodos de tempo serão exibidos:
+Dependendo do tipo de gráfico selecionado, você poderá visualizar os principais itens da lista de detalhes. Se o seu gráfico for um gráfico de tendências de diferentes períodos, todos os períodos de tempo serão exibidos:
 
 ![](assets/graph.png)
 
