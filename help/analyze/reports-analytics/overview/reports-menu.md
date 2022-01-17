@@ -1,23 +1,23 @@
 ---
 description: Uma visão geral do menu Relatórios em Reports & Analytics.
-title: Menu de relatórios
+title: 'Menu de relatórios '
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Menu de relatórios{#reports-menu}
+# Menu de relatórios {#reports-menu}
 
 Uma visão geral do menu Relatórios em Reports &amp; Analytics.
 
 >[!IMPORTANT]
->Efetivo **31 de dezembro de 2023**, o Adobe pretende descontinuar o Reports &amp; Analytics e seus relatórios e recursos que o acompanham. Nesse momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararão de funcionar. Os relatórios, visualizações e tecnologia subjacente que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia do Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
+>A partir de **31 de dezembro de 2023**, a Adobe pretende descontinuar o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham. Quando isso ocorrer, o Reports &amp; Analytics e todos os seus relatórios e agendas não funcionarão mais. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
 
 O menu Relatórios proporciona:
 
@@ -34,7 +34,7 @@ Meus favoritos, Exibidos com frequência e Histórico de relatórios são espec�
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para obter detalhes sobre relatórios individuais, consulte [Dimension](/help/components/dimensions/overview.md).
+Para obter detalhes sobre relatórios individuais, consulte as [Dimensões](/help/components/dimensions/overview.md).
 
 ## Pesquisar relatórios {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -48,7 +48,7 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
 >
 >Também é possível pesquisar a lista de relatórios por propriedade, eVar e número do evento. Na barra de pesquisa, insira a propriedade, eVar ou o número de eventos.
 
-## Visão geral da navegação {#section_A6A0A369207149BABE504753B48A42D7}
+## Visão geral de navegação {#section_A6A0A369207149BABE504753B48A42D7}
 
 <table id="table_3BA295966BBC4C94ABDC3718D1894698"> 
  <thead> 
@@ -115,8 +115,8 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
    <td colname="col2"> Permite realizar todas ou algumas das seguintes ações: imprimir, extrair dados, adicionar um alerta, criar um relatório personalizado, copiar um gráfico, criar um link para o relatório e abrir uma nova janela. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Seletor de Conjunto de relatórios<img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Permite selecionar com base nos <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=pt-BR"  >conjuntos de relatórios</a> ou <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >conjuntos de relatórios virtuais</a>. </td> 
+   <td colname="col1">Seletor de Conjunto de relatórios <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
+   <td colname="col2">Permite selecionar com base nos <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=pt-BR"  >conjuntos de relatórios</a> ou <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=pt-BR"  >conjuntos de relatórios virtuais</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendário <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -125,6 +125,6 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
  </tbody> 
 </table>
 
-## Personalização do menu de todos os relatórios {#section_7E47312747564FBE8A55EE5726B7DFF4}
+## Personalização do menu Todos os relatórios {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Os administradores podem alterar os relatórios contidos no menu Relatórios. Consulte [Personalização do menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) na Ajuda do administrador.
+Os administradores podem alterar os relatórios contidos no menu Relatórios. Consulte [Personalização do menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=pt-BR) na Ajuda do administrador.
