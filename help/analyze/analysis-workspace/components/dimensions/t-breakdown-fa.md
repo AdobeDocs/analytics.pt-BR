@@ -6,10 +6,10 @@ uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 63%
 
 ---
 
@@ -35,6 +35,14 @@ Analise os seus dados de formas ilimitadas, de acordo com as suas necessidades e
 Qualquer detalhamento em uma tabela também pode ter qualquer modelo de atribuição aplicado a ela. Esse modelo de atribuição pode ser o mesmo ou diferente da coluna pai. Por exemplo, você pode analisar Pedidos lineares em sua dimensão de Canais de marketing mas deseja aplicar Pedidos de forma de U aos códigos de rastreamento específicos em um Canal. Para editar o modelo de atribuição aplicado a um detalhamento, passe o mouse sobre o modelo de detalhamento e clique em **[!UICONTROL Editar]**:
 
 ![Configurações de detalhamento](assets/breakdown_settings.png)
+
+Esse é o comportamento esperado ao aplicar modelos de atribuição a detalhamentos ou editá-los:
+
+* Se você aplicar uma atribuição quando nenhuma outra atribuição existir, a atribuição se aplica a toda a árvore de colunas.
+
+* Se você adicionar um detalhamento depois que uma atribuição for aplicada, ele usará o padrão para o detalhamento especificado que foi adicionado, se essa dimensão tiver um padrão. Caso contrário, ele usará o detalhamento da coluna pai. Algumas dimensões têm uma alocação padrão.  Por exemplo, [!UICONTROL Hora] dimensões e [!UICONTROL Referenciador] use [!UICONTROL Mesmo contato]. O [!UICONTROL Produto] usos da dimensão [!UICONTROL Último contato]. Outras dimensões não têm um padrão e usarão a alocação de coluna pai.
+
+* Se já houver atribuições na árvore de colunas, alterar a atribuição afetará somente a que você estiver editando.
 
 ## Vídeos
 
