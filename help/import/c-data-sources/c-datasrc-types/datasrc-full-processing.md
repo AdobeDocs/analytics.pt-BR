@@ -3,10 +3,10 @@ description: A Fonte de Dados oferece suporte às seguintes variáveis no proces
 title: Processamento completo
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 94%
+source-wordcount: '718'
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. A Adobe planeja descontinuar o processamento completo de fontes de dados em 31 de julho de 2021. [Saiba mais](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>O Adobe recomenda usar a variável [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. O Adobe substituiu as fontes de dados de processamento completo em 31 de janeiro de 2022. [Saiba mais](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 A Fonte de dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
 
@@ -68,7 +68,7 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Sequência de eventos, formatada com a mesma sintaxe da variável <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Por exemplo: </p> 
+   <td colname="col3"> <p>Sequência de eventos, formatada com a mesma sintaxe da variável <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=pt-BR"  >s.events</a>. </p> <p>Por exemplo: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
