@@ -3,7 +3,7 @@ title: AppMeasurement para notas de versão do JavaScript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
+source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 98%
@@ -20,7 +20,7 @@ Baixe a versão mais recente do AppMeasurement no [Gerenciador de código](/help
 
 ## Versão 2.22.4
 
-Data de lançamento: **11 de janeiro de 2022**
+Data de lançamento: **18 de janeiro de 2022**
 
 * A chamada de rastreamento de link `s.tl()` agora verifica se o objeto passado para ele contém um `href` atributo de tipo `string`. Se não for um `string`, então ignorará normalmente a variável `href` em vez de falhar. Isso pode ocorrer ao passar `svg` para a chamada de rastreamento de link.
 
