@@ -5,9 +5,9 @@ user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Use os Feeds de dados para receber uma exportação de dados brutos por hora ou por dia. Use o Data Warehouse para recuperar uma saída de dados em planilha.
 source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
