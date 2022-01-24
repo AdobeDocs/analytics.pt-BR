@@ -123,7 +123,7 @@ Data de lançamento: **11 de fevereiro de 2019**
 
 * Adição de suporte para o novo recurso Serviços de Opt-in da Adobe no AppMeasurement. (AN-163546)
 * Adição de suporte para armazenar dados de rastreamento de link no armazenamento de sessão. (AN-162272)
-* Adição de suporte para tipo de transmissão de mídia para Análise de áudio. (AN-173265)
+* Adição de suporte para tipo de transmissão de mídia para Audio Analytics. (AN-173265)
 
 ## Versão 2.10.0
 
