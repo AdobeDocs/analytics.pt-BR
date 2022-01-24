@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 0884c5a13fba7a22589e2962a4d79f4a6525dd8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `latlon1` | Localização (abaixo de 10 km) | varchar(255) |
 | `latlon23` | Localização (abaixo de 100 m) | varchar(255) |
 | `latlon45` | Localização (abaixo de 1 m) | varchar(255) |
-| `mc_audiences` | Lista de IDs de segmento do Audience Manager à qual o visitante pertence. O `post_mc_audiences` altera o delimitador para `--**--`. | texto |
+| `mc_audiences` | Lista de IDs de segmento do Audience Manager à qual o visitante pertence. A coluna `post_mc_audiences` altera o delimitador para `--**--`. | texto |
 | `mcvisid` | ID de visitante da Experience Cloud. Número de 128 bits que consiste em dois números concatenados de 64 bits arredondados para 19 dígitos. | varchar(255) |
 | `mobile_id` | Se o visitante estiver usando um dispositivo móvel, o ID numérico do dispositivo. | int |
 | `mobileaction` | Ação em dispositivo móvel. Coletado automaticamente quando `trackAction` é chamado no Mobile Services. Permite a criação de caminhos de ação automática no aplicativo. | varchar(100) |
@@ -146,7 +146,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `mobilerelaunchcampaigntrackingcode` | Coletada da variável de dados de contexto `a.launch.campaign.trackingcode`. Usado na aquisição como o código de rastreamento para a campanha de lançamento. | varchar(255) |
 | `mobileresolution` | Resolução do dispositivo móvel. `[Width] x [Height]` em pixels. | varchar(255) |
 | `monthly_visitor` | Sinalizador indicando que o visitante é exclusivo no mês atual. | tinyint unsigned |
-| `mvvar1` - `mvvar3` | Lista de valores de variáveis. Contém uma lista delimitada de valores personalizados dependendo da implementação. O `post_mvvar1` - `post_mvvar3` colunas substituem o delimitador original por `--**--`. | texto |
+| `mvvar1` - `mvvar3` | Lista de valores de variáveis. Contém uma lista delimitada de valores personalizados dependendo da implementação. As colunas `post_mvvar1` - `post_mvvar3` substituem o delimitador original por `--**--`. | texto |
 | `namespace` | Não usado. Parte de um recurso raspado. | varchar(50) |
 | `new_visit` | Um sinalizador que determina se ocorrência atual é uma nova visita. Definido por servidores da Adobe depois de 30 minutos de inatividade da visita. | tinyint unsigned |
 | `os` | ID numérica que representa o sistema operacional do visitante. Com base na coluna `user_agent`. Usa a pesquisa `os`. | int unsigned |
