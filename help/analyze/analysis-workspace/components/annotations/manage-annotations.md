@@ -1,6 +1,6 @@
 ---
-title: Manage annotations
-description: How to manage annotations in Workspace.
+title: Gerenciar anotações
+description: Como gerenciar anotações no Workspace.
 role: User, Admin
 source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
 workflow-type: tm+mt
@@ -10,17 +10,17 @@ ht-degree: 0%
 ---
 
 
-# Manage annotations
+# Gerenciar anotações
 
+O [!UICONTROL Componentes] > [!UICONTROL Anotações] O gerenciador oferece várias maneiras de gerenciar anotações, como compartilhar, filtrar, marcar, aprovar, copiar, excluir e marcar como favoritos.
 
-
-
+O [!UICONTROL Anotações] O gerenciador mostra todas as anotações que você possui que foram segmentadas para todos os seus projetos e que foram compartilhadas com você.
 
 >[!NOTE]
 >
->
+>[!UICONTROL Anotações] que você criou para um projeto específico apenas não aparece no gerenciador.
 
-## Annotations Manager user interface
+## Interface do usuário do Gerenciador de anotações
 
-insert image
+inserir imagem
 
