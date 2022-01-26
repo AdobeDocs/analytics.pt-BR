@@ -1,30 +1,38 @@
 ---
-title: Create annotations
-description: How to create annotations in Workspace.
+title: Criar anotações
+description: Como criar anotações no Workspace.
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 5%
+source-wordcount: '290'
+ht-degree: 6%
 
 ---
 
 
-# Create annotations
+# Criar anotações
 
-To add an annotation to a project
+>[!NOTE]
+>
+>No momento, esse recurso está em testes limitados.
 
-1. Right-click a point on a table or graph. The annotation builder opens.
+1. Para criar anotações, você tem duas opções:
 
-1. Fill in the builder elements.
+   * Ir para [!UICONTROL Componentes] > [!UICONTROL Anotação]. A página Gerenciador de anotações é aberta. Clique em [!UICONTROL Criar nova anotação] e o Construtor de anotações for aberto, ou
+
+   * Clique com o botão direito do mouse em um ponto em uma tabela ou gráfico. O Construtor de anotações é aberto.
+
+1. Preencha os elementos do Construtor .
 
    | Elemento | Descrição |
    | --- | --- |
-   | Título | Name the annotation, e.g. &quot;Memorial Day&quot; |
-   | Descrição | (Optional) Provide a description for the annotation, e.g. &quot;Public holiday observed in the US&quot;. |
-   | Tags | (Optional) Organize annotations by creating or applying a tag. |
-   | Intervalo de datas aplicado | Select the date range that needs to be present for the annotation to be visible. |
-   | Cor do canal | Apply a color to the annotation. The annotation appears in the project with the selected color. Color can be used to categorize annotations, e.g. public holidays, external events, tracking issues, etc. |
-   | Escopo | Choose the metrics, dimensions, or segments that the annotation will be visible with. Choose the report suites, projects, and users where the annotation will be visible.<ul><li>****</li><li>****</li><li>**** To show the annotation to users across all of their projects, first apply it to all of your projects, then share it via the Annotations component manager.</li></ul> |
+   | [!UICONTROL Título] | Nomeie a anotação, por exemplo &quot;Dia Memorial&quot; |
+   | [!UICONTROL Descrição] | (Opcional) Forneça uma descrição para a anotação, por exemplo &quot;Feriado público observado nos EUA&quot;. |
+   | [!UICONTROL Tags] | (Opcional) Organize as anotações criando ou aplicando uma tag. |
+   | [!UICONTROL Data aplicada] | Selecione a data ou o intervalo de datas que precisa estar presente para que a anotação fique visível. |
+   | [!UICONTROL Cor do canal] | Aplicar uma cor à anotação. A anotação aparece no projeto com a cor selecionada. A cor pode ser usada para categorizar anotações, como feriados, eventos externos, problemas de rastreamento etc. |
+   | [!UICONTROL Escopo] | (Opcional) Arraste e solte as métricas que acionam a anotação. Em seguida, arraste e solte quaisquer dimensões ou segmentos que atuam como filtros (ou seja, com os quais a anotação estará visível). Se você não especificar um escopo, a anotação será aplicada a todos os seus dados. Casos de uso: Um eVar parou de coletar dados de um intervalo de datas específico. Arraste o eVar para a **Qualquer uma dessas métricas forem acionadas** caixa de diálogo. Ou seu **Visitas** não está relatando dados; siga o mesmo processo. |
+   | [!UICONTROL Aplicar a todos os conjuntos de relatórios] | Por padrão, a anotação se aplica ao conjunto de relatórios de origem. Ao marcar essa caixa de seleção, é possível fazer com que a anotação se aplique a todos os conjuntos de relatórios na empresa. |
+   | [!UICONTROL Aplicar a todos os projetos] | Por padrão, a anotação se aplica ao projeto atual. Ao marcar essa caixa de seleção, é possível fazer com que a anotação se aplique a todos os projetos que você possui. |
 
 1. Clique em [!UICONTROL Salvar].

@@ -1,35 +1,38 @@
 ---
 title: Visão geral de anotações
-description: How to use annotations in Workspace.
+description: Como usar anotações no Workspace.
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '138'
+ht-degree: 3%
 
 ---
 
 # Visão geral de anotações
 
-Annotations enable you to effectively communicate data nuances and insights about your data to your organization. [!DNL Reports & Analytics]
+>[!NOTE]
+>
+>No momento, esse recurso está em testes limitados.
+
+As anotações permitem que você comunique com eficácia nuances de dados contextuais e insights à sua organização. As anotações permitem vincular eventos de calendário a dimensões/métricas específicas. Você pode exibir graficamente os eventos e ver se as campanhas ou outros eventos afetaram o tráfego do site, a receita ou qualquer outra métrica. Anteriormente referido como [!UICONTROL Eventos de calendário] em [!DNL Reports & Analytics], você pode anotar uma data para problemas de dados, feriados, lançamentos de campanha etc.
 
 ## Visibilidade
 
-Annotations are visible in a variety of ways:
+As anotações são visíveis de várias maneiras:
 
-* Insert line viz image>
+* Inserir linha por imagem>
 
-* Insert freeform table
+* Inserir tabela de forma livre
 
-* Insert PDF
+* Inserir PDF
 
+## Ativar ou desativar anotações
 
-## Turn annotations on or off
+As anotações podem ser ativadas ou desativadas em alguns lugares:
 
-Annotations can be turned on or off in a few places:
+* Nível de visualização: Configurações de visualização > Mostrar anotações
 
-* Visualization level: Visualization settings > Show annotations
+* Nível do projeto: Informações e configurações do projeto > Mostrar anotações
 
-* Project level: Project info &amp; settings > Show annotations
-
-* User level: Components > User preferences > Data > Show annotations
+* Nível do usuário: Componentes > Preferências do usuário > Dados > Mostrar anotações
