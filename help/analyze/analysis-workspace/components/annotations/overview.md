@@ -3,9 +3,9 @@ title: Visão geral de anotações
 description: Como usar anotações no Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: 0516696ee9d51ac843c659390ae99d8337812cbb
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '355'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 >
 >No momento, esse recurso está em testes limitados.
 
-As anotações permitem que você comunique com eficácia nuances de dados contextuais e insights à sua organização. Eles permitem vincular eventos de calendário a dimensões/métricas específicas. Você pode anotar uma data ou um intervalo de datas para problemas de dados, feriados, inicializações de campanha etc. Você pode exibir graficamente os eventos e ver se as campanhas ou outros eventos afetaram o tráfego do site, a receita ou qualquer outra métrica.
+As anotações permitem que você comunique com eficácia nuances de dados contextuais e insights à sua organização. Eles permitem vincular eventos de calendário a dimensões/métricas específicas. Você pode anotar uma data ou um intervalo de datas com problemas de dados conhecidos, feriados, inicializações de campanha etc. Você pode exibir graficamente os eventos e ver se as campanhas ou outros eventos afetaram o tráfego do site, a receita ou qualquer outra métrica.
 
 Por exemplo, digamos que você esteja compartilhando projetos criados com sua organização. Você percebe uma queda ou um pico no tráfego ou outros dados e vincula uma anotação às métricas, dimensões ou segmentos afetados. Essas anotações são exibidas em uma tabela ou visualização de linha e fornecem o contexto de dados para você e os consumidores de seus projetos do Workspace.
 
@@ -38,7 +38,7 @@ No entanto, os administradores podem fornecer a variável [!UICONTROL Criação 
 
 ## Exibir anotações
 
-É possível exibir anotações de várias maneiras: como [!UICONTROL Linha] visualização (já que são dados de tendências), como uma [!UICONTROL Forma livre] tabela, a [!UICONTROL Barra] ou em um arquivo .pdf exportado.
+É possível exibir anotações de várias maneiras: em [!UICONTROL Linha] visualização (já que são dados de tendências), em uma [!UICONTROL Forma livre] tabela, a [!UICONTROL Barra] ou em um arquivo .pdf exportado.
 
 ### Visualização de linha
 

@@ -2,10 +2,10 @@
 title: Gerenciar anotações
 description: Como gerenciar anotações no Workspace.
 role: User, Admin
-source-git-commit: c4ffa987cd652b3e8f36fadf61ee6a395365fda0
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 4%
+source-wordcount: '477'
+ht-degree: 18%
 
 ---
 
@@ -47,23 +47,18 @@ Editar uma anotação significa que você pode ajustar intervalos de datas, core
 
 Ambas as opções o direcionam de volta ao Criador de anotações. Você pode fazer os ajustes necessários e salvar a nova versão.
 
-## Compartilhar anotações
+## Outras tarefas de anotações
 
-![](assets/share-ann.png)
+O Gerenciador de anotações permite aos administradores editar, adicionar, marcar, excluir, renomear, aprovar, copiar, exportar e filtrar anotações. Não é visível para usuários não administrativos.
 
-1. Selecione as anotações que deseja compartilhar e clique em [!UICONTROL Compartilhar].
+Basta selecionar uma ou mais anotações e a barra de tarefas é exibida.
 
-1. No [!UICONTROL Compartilhar componente] , pesquise os indivíduos ou grupos com os quais deseja compartilhar as anotações.
-
-1. Em [!UICONTROL Organização], ....
-
-1. Clique em [!UICONTROL Salvar].
-
-## Marcar anotações
-
-Para seguir
-
-
-
-
-
+| Tarefa | Descrição |
+| --- | --- |
+| Adicionar | Direciona para o construtor de Anotações, onde é possível criar novas anotações. |
+| Tag | Todos os usuários podem criar tags para anotações e aplicar uma ou mais tags a uma anotação. Entretanto, você pode exibir tags somente dos segmentos proprietários. Que tipos de tags você deve criar? Estas são algumas sugestões para tags úteis:<ul><li>Tags com base em nomes de equipe, como Marketing social, Marketing móvel</li><li>Tags de projeto (tags de análise), como análises de página de entrada</li><li>Tags de categoria: masculino; geografia</li><li>Tags de fluxo de trabalho: organizado para (uma unidade de negócio específica); Aprovado</li></ul> |
+| Excluir | Excluir uma anotação a remove de qualquer projeto em sua organização. |
+| Renomear | Renomear uma anotação a renomeia em todos os projetos aos quais foi aplicada. |
+| Copiar | Cria uma cópia distinta com sua própria ID de anotação, mas com o mesmo nome e a mesma definição. |
+| Exportar para CSV | Exporte a definição da anotação para um arquivo .csv. |
+| Filtro (painel esquerdo) | Filtrar por tags, conjunto de relatórios, proprietários e outros filtros (Meu, Aprovado, Favoritos, Compartilhado comigo e Mostrar tudo). |
