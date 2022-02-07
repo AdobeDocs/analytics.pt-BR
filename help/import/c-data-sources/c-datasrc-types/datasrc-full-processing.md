@@ -4,9 +4,9 @@ title: Processamento completo
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->O Adobe recomenda usar a variável [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) em vez de fontes de dados de processamento completo. O Adobe substituiu as fontes de dados de processamento completo em 31 de janeiro de 2022. [Saiba mais](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>A Adobe recomenda que os clientes usem a [API de inserção de dados em massa (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=pt-BR) em vez de fontes de dados de processamento completo. A Adobe descontinuou as fontes de dados de processamento completo em 31 de janeiro de 2022. [Saiba mais](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 A Fonte de dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
 
@@ -42,7 +42,7 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campanha </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
    <td colname="col3"> <p>Código de rastreamento de campanha de conversão. </p> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ A tabela a seguir contém variáveis de tráfego que são automaticamente preenc
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>O caractere suportado definido para seu site. Por exemplo, UTF-8, ISO-8859-1, e assim por diante. </p> <p>Para obter uma lista completa, consulte o informe <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Conjuntos de caracteres de múltiplos bytes</a> (internacionalização). </p> </td> 
+   <td colname="col2"> <p>O caractere suportado definido para seu site. Por exemplo, UTF-8, ISO-8859-1, e assim por diante. </p> <p>Para obter uma lista completa, consulte o informe <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html?lang=pt-BR"  >Conjuntos de caracteres de múltiplos bytes</a> (internacionalização). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
