@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Qualquer detalhamento em uma tabela também pode ter qualquer modelo de atribui�
 
 ![Configurações de detalhamento](assets/breakdown_settings.png)
 
-Esse é o comportamento esperado ao aplicar modelos de atribuição a detalhamentos ou editá-los:
+Este é o comportamento esperado ao aplicar modelos de atribuição a detalhamentos ou editá-los:
 
-* Se você aplicar uma atribuição quando nenhuma outra atribuição existir, a atribuição se aplica a toda a árvore de colunas.
+* Se você aplicar uma atribuição quando nenhuma outra atribuição existir, a atribuição se aplicará a toda a árvore de colunas.
 
-* Se você adicionar um detalhamento depois que uma atribuição for aplicada, ele usará o padrão para o detalhamento especificado que foi adicionado, se essa dimensão tiver um padrão. Caso contrário, ele usará o detalhamento da coluna pai. Algumas dimensões têm uma alocação padrão.  Por exemplo, [!UICONTROL Hora] dimensões e [!UICONTROL Referenciador] use [!UICONTROL Mesmo contato]. O [!UICONTROL Produto] usos da dimensão [!UICONTROL Último contato]. Outras dimensões não têm um padrão e usarão a alocação de coluna pai.
+* Se você adicionar um detalhamento depois que uma atribuição for aplicada, ele usará o padrão para o detalhamento especificado que foi adicionado, se esta dimensão tiver um padrão. Caso contrário, ele usará o detalhamento da coluna master. Algumas dimensões têm uma alocação padrão.  Por exemplo, [!UICONTROL Hora,] dimensões e [!UICONTROL indicação] usam o [!UICONTROL Mesmo contato]. A [!UICONTROL dimensão] do produto usa [!UICONTROL o último contato]. Outras dimensões não têm um padrão e usarão a alocação de coluna master.
 
 * Se já houver atribuições na árvore de colunas, alterar a atribuição afetará somente a que você estiver editando.
 
