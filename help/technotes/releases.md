@@ -1,17 +1,17 @@
 ---
-description: Explica a nova estratégia de lançamento de recursos contínuos do Adobe Analytics
+description: Explica a estratégia de lançamento de recursos contínuos do Adobe Analytics
 title: Versões de recursos do Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 492f2333d07d887ce89d549306b05ee0df02fe90
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 92%
 
 ---
 
 # Versões de recursos do Adobe Analytics
 
-Historicamente, as versões de recursos do Adobe Analytics seguiam uma programação mensal fixa. Em abril de 2020, o Adobe Analytics migrou para um modelo de delivery contínuo que permite uma abordagem mais escalável e em fases para a implantação de recursos.
+As versões do Adobe Analytics operam em um modelo de entrega contínua que permite uma abordagem mais escalável e em fases para a implantação de recursos.
 
 ## Estratégia de lançamento
 
