@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Use os Feeds de dados para receber uma exportação de dados brutos por hora ou por dia. Use o Data Warehouse para recuperar uma saída de dados em planilha.
-source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 96%
 
 ---
 
 
-# Guia de exportação do Analytics {#export}
+# Guia de exportação do Adobe Analytics {#export}
 
 + [Guia de exportação do Analytics](home.md)
++ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Feed de dados do Analytics {#analytics-data-feed}
    + [Visão geral do feed de dados](analytics-data-feed/data-feed-overview.md)
    + [Criar ou editar um feed de dados](analytics-data-feed/create-feed.md)
