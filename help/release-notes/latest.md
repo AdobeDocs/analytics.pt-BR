@@ -2,28 +2,28 @@
 title: Exibir as notas de versão atuais do Adobe Analytics
 description: Notas de versão mais recentes do Analytics
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 16e74d5374fd761af973ca7af9dd1c4022010911
+source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 70%
+source-wordcount: '649'
+ht-degree: 61%
 
 ---
 
-# Notas de versão mais recentes da Adobe Analytics
+# Notas de versão atuais do Adobe Analytics (fevereiro de 2022)
 
 >[!IMPORTANT]
 >
 >Essas notas de versão contêm informações de pré-lançamento sujeitas a alterações.
 
-**16 de fevereiro de 2022**
+**Última atualização**: 10 de fevereiro de 2022
 
 Saiba mais sobre as atualizações de versão mais recentes para [produtos Adobe Experience Cloud](https://business.adobe.com/br/products/adobe-experience-cloud-products.html). Obtenha a documentação de autoajuda, os tutoriais e os cursos mais recentes da Experience League.
 
 ## Novos recursos no Adobe Analytics {#aa-features}
 
-| Recurso | Descrição | Data Alvo |
+| Recurso | Descrição | [Data Alvo](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=pt-BR) |
 | ----------- | ---------- | ------- |
-| Nenhum recurso novo este mês | N/D | Consulte [Disponibilidade geral](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=pt-BR) |
+| Modo de visualização do projeto do scorecard móvel | Inicie uma visualização de como o scorecard móvel ficará no aplicativo de painéis do Analytics, diretamente do construtor do scorecard. O modo de visualização permite que os usuários interajam com filtros e gráficos da mesma forma que fazem no aplicativo, permitindo que visualizem a experiência antes de salvarem e compartilharem o scorecard. Os usuários também podem usar o seletor de dispositivos no modo de visualização para ver como o scorecard será exibido em diferentes dispositivos. | 16 de fevereiro de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
