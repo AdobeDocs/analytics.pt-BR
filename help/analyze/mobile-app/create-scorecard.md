@@ -3,13 +3,13 @@ description: Como criar um cartão de pontuação dos painéis do Adobe Analytic
 title: Criar um cartão de pontuação móvel
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
+source-git-commit: 7f630839ae7d75730f93588877a172f3590d5a5e
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 100%
+source-wordcount: '1461'
+ht-degree: 92%
 
 ---
-
 
 # Criar um cartão de pontuação móvel
 
@@ -30,11 +30,11 @@ Para criar o cartão de pontuação, é necessário fazer o seguinte:
 1. Acesse o modelo de [!UICONTROL Scorecard para dispositivos móveis em branco].
 2. Configure o cartão de pontuação com os dados e salve-o.
 
-## Acesse o modelo de [!UICONTROL Scorecard para dispositivos móveis em branco]
+## Acesse o modelo de [!UICONTROL Scorecard para dispositivos móveis em branco] {#template}
 
 Você pode acessar o modelo [!UICONTROL Cartão de pontuação para dispositivos móveis em branco] criando um novo projeto ou no menu Ferramentas.
 
-### Criar um novo projeto
+### Criar um novo projeto {#create}
 
 1. Abra o Adobe Analytics e clique na guia **[!UICONTROL Espaço de trabalho]**.
 1. Clique em **[!UICONTROL Criar projeto]** e selecione o modelo de projeto **[!UICONTROL Cartão de pontuação para dispositivos móveis em branco]**.
@@ -47,7 +47,7 @@ Você pode acessar o modelo [!UICONTROL Cartão de pontuação para dispositivos
 1. No menu **[!UICONTROL Ferramentas]**, selecione **[!UICONTROL Painéis do Analytics (Aplicativo para dispositivos móveis)]**.
 1. Na tela seguinte, clique em **[!UICONTROL Criar novo cartão de pontuação]**.
 
-## Configure o cartão de pontuação com os dados e salve-o
+## Configure o cartão de pontuação com os dados e salve-o {#configure}
 
 Para implementar o modelo de Scorecard:
 
@@ -62,7 +62,7 @@ Para implementar o modelo de Scorecard:
 
 1. Em cada bloco, é possível acessar uma exibição detalhada que mostra informações adicionais sobre a métrica, como itens principais para uma lista de dimensões relacionadas.
 
-## Adicionar dimensões ou métricas
+## Adicionar dimensões ou métricas {#dimsmetrics}
 
 Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco.
 
@@ -70,7 +70,7 @@ Por exemplo, é possível adicionar dimensões apropriadas (como **[!DNL Marketi
 
 ![Adicionar dimensões](assets/layer_dimensions.png)
 
-## Aplicar segmentos
+## Aplicar segmentos {#segments}
 
 Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco.
 
@@ -78,7 +78,7 @@ Se você deseja aplicar o segmento a todos os blocos no Scorecard, solte o bloco
 
 ![Criar segmentos para filtro](assets/segment_ui.png)
 
-## Adicionar intervalos de datas
+## Adicionar intervalos de datas {#dates}
 
 Adicione e remova combinações de intervalo de datas que podem ser selecionadas no cartão de pontuação selecionando o menu suspenso Intervalo de datas.
 
@@ -102,7 +102,7 @@ Se o intervalo de datas desejado ainda não tiver sido criado, será possível c
 
 Você será direcionado ao construtor de intervalo de datas, em que é possível criar e salvar um novo componente de intervalo de datas.
 
-## Aplicar visualizações
+## Aplicar visualizações {#viz}
 
 Exibir um vídeo sobre visualizações para cartões de pontuação móveis:
 
@@ -152,7 +152,7 @@ Se desejar remover itens de dimensão [!UICONTROL Não especificados] dos dados,
 
 1. Clique no ícone ao lado de **[!UICONTROL Não especificado]** para remover dados não especificados de seus relatórios. (Também é possível remover qualquer outro item de dimensão).
 
-## Exibir e configurar propriedades de blocos
+## Exibir e configurar propriedades de blocos {#tiles}
 
 Ao clicar em um bloco no Construtor de cartões de pontuação, o painel direito exibe as propriedades e características associadas a esse bloco. Nesse painel, você pode fornecer um novo **[!UICONTROL Título]** para o bloco e, como alternativa, configurá-lo especificando os componentes, em vez de arrastá-los e soltá-los no painel esquerdo.
 
@@ -170,19 +170,39 @@ Detalhamentos refinam sua análise ao detalhar literalmente métricas e dimensõ
 
 Cada dimensão adicionada ao bloco será mostrada em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
 
-## Remover componentes
+## Remover componentes {#remove}
 
 Da mesma forma, para remover um componente aplicado a todo o cartão de pontuação, clique em qualquer lugar do cartão de pontuação fora dos blocos e remova-o clicando no **x** exibido ao passar o mouse sobre o componente, como mostrado abaixo para o segmento **Primeiras visitas**:
 
 ![Remover_componentes](assets/new_remove.png)
 
-## Nomear um cartão de pontuação
+## Visualizar scorecard {#preview}
+
+Você pode visualizar como o scorecard será exibido e funcionará assim que for publicado no aplicativo de painéis do Analytics.
+
+1. Clique em **[!UICONTROL Visualizar]** no canto superior direito da tela.
+
+   ![Pré-visualização_scorecards](assets/preview.png)
+
+1. Para exibir a aparência do scorecard em diferentes dispositivos, selecione um dispositivo no [!UICONTROL Visualização do dispositivo] menu suspenso.
+
+   ![Device_preview](assets/device-preview.png)
+
+1. Para interagir com a visualização, é possível:
+
+   * Clique com o botão esquerdo do mouse para simular o toque na tela do telefone.
+
+   * Use a função de rolagem do computador para simular a rolagem da tela do telefone com o dedo.
+
+   * Clique e segure para simular pressionar e segurar o dedo na tela do telefone. Isso é útil para interagir com as visualizações na visualização detalhada.
+
+## Nomear um cartão de pontuação {#name}
 
 Para nomear o Scorecard, clique no namespace no canto superior esquerdo da tela e digite o novo nome.
 
 ![Nomeação_Scorecards](assets/new_name.png)
 
-## Compartilhar um cartão de pontuação
+## Compartilhar um cartão de pontuação {#share}
 
 Para compartilhar o Scorecard com um usuário executivo:
 
