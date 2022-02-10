@@ -5,7 +5,7 @@ title: Novidades no Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
+source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
 workflow-type: tm+mt
 source-wordcount: '8286'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Novidades no Analysis Workspace
 
 >[!IMPORTANT]
->Outras atualizações do Analysis Workspace foram inseridas na página [Atualizações de documentação do Adobe Analytics](/help/technotes/doc-updates.md).
+>Outras atualizações do Analysis Workspace foram inseridas na página [Atualizações de documentação do Adobe Analytics](/help/release-notes/doc-updates.md).
 
 Consulte [Notas de versão da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR) para saber sobre atualizações do produto abrangente.
 
@@ -23,7 +23,7 @@ Consulte [Notas de versão da Adobe Experience Cloud](https://experienceleague.a
 
 | Recurso | Data alvo | Descrição |
 | --- | --- | --- |
-| [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] | 25 de março de 2021 | A página [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] permite gerenciar as configurações do [!UICONTROL Analysis Workspace] e seus componentes relacionados para o seu usuário. [!UICONTROL As preferências do usuário] se aplicam a todos os novos projetos e painéis. <br>**Observação:** as configurações a seguir foram movidas para a página [!UICONTROL Preferências do usuário]:<ul><li>Configurações do relatório: Separador de milhares (agora chamado de _Formato de número_)</li><li>Configurações do relatório: separador CSV</li><li>Projetos do Workspace: Ajuda > Ativar dicas</li><li>Projetos do Workspace: Painel em branco _Iniciar novos projetos com esta opção de painel_</li></ul> |
+| [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] | 25 de março de 2021 | A página [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] permite gerenciar as configurações do [!UICONTROL Analysis Workspace] e seus componentes relacionados para o seu usuário. [!UICONTROL As preferências do usuário] se aplicam a todos os novos projetos e painéis. <br>**Observação:** as configurações a seguir foram movidas para a página [!UICONTROL Preferências do usuário]:<ul><li>Configurações do relatório: Separador de milhares (agora chamado de _Formato de número_)</li><li>Configurações do relatório: separador CSV</li><li>Projetos do Espaço de trabalho: Ajuda > Ativar dicas</li><li>Projetos do Espaço de trabalho: Painel em branco _Iniciar novos projetos com esta opção de painel_</li></ul> |
 | [!UICONTROL  Previsão do bucket inteligente do histograma] | 25 de março de 2021 | [!UICONTROL A Previsão do bucket inteligente do histograma] ajuda com histogramas de métricas de alta cardinalidade, identificando automaticamente a largura e o número corretos de intervalos para a disseminação de seus dados. Para métricas de baixa cardinalidade, a visualização se comporta da mesma forma que antes. |
 
 ## Fevereiro de 2021
@@ -125,7 +125,7 @@ Novo recurso lançado em 16 de janeiro de 2020.
 
 | Recurso | Descrição |
 |--- |--- |
-| [Construtor de tabelas de forma livre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=pt-BR) | Com o Construtor de tabela ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas comerciais mais complexas. Os dados não serão atualizados imediatamente. Em vez disso, as atualizações ocorrem depois que você clica em **[!UICONTROL Criar]**, economizando tempo depois de saber qual tabela deseja criar. Além disso, esse recurso oferece:<ul><li>**Visualização**: é possível visualizar o formato de uma tabela antes de gastar tempo para renderizar dados reais.</li><li>**Configurações flexíveis de linhas e detalhamento**: você pode definir seus níveis de linha e detalhamento para cada linha de dimensão. Anteriormente, o Workspace impunha padrões que não podiam ser alterados até que os dados fossem retornados.</li><li>**Detalhamento por posição**: é possível definir linhas de dimensão para sempre _detalhar por posição_ em vez de _por item específico_ (o padrão).</li><li>**Ordenação manual de linha estática**: é possível ordenar manualmente linhas estáticas para que as linhas da tabela sejam exibidas exatamente como você precisa. Anteriormente, as linhas estáticas podiam ser classificadas somente por uma coluna de métrica ou alfabeticamente.</li></ul> |
+| [Construtor de tabelas de forma livre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=pt-BR) | Com o Construtor de tabela ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas comerciais mais complexas. Os dados não serão atualizados imediatamente. Em vez disso, as atualizações ocorrem depois que você clica em **[!UICONTROL Criar]**, economizando tempo depois de saber qual tabela deseja criar. Além disso, esse recurso oferece:<ul><li>**Visualização**: é possível visualizar o formato de uma tabela antes de gastar tempo para renderizar dados reais.</li><li>**Configurações flexíveis de linhas e detalhamento**: você pode definir seus níveis de linha e detalhamento para cada linha de dimensão. Anteriormente, o Espaço de trabalho impunha padrões que não podiam ser alterados até que os dados fossem retornados.</li><li>**Detalhamento por posição**: é possível definir linhas de dimensão para sempre _detalhar por posição_ em vez de _por item específico_ (o padrão).</li><li>**Ordenação manual de linha estática**: é possível ordenar manualmente linhas estáticas para que as linhas da tabela sejam exibidas exatamente como você precisa. Anteriormente, as linhas estáticas podiam ser classificadas somente por uma coluna de métrica ou alfabeticamente.</li></ul> |
 
 ## Outubro de 2019
 

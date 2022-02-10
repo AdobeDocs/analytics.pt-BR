@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notas de versão do Analytics
 breadcrumb-title: Notas de versão
 user-guide-description: Uma lista de novos recursos e descrições de correções de erros.
-source-git-commit: 4ccda7057df7543125be8c69e92aed6c45aed80f
+source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 29%
+source-wordcount: '39'
+ht-degree: 30%
 
 ---
 
@@ -20,3 +20,5 @@ ht-degree: 29%
    + [Notas de versão de 2021](2021.md)
    + [Notas de versão de 2020](2020.md)
    + [Notas de versão de 2019](2019-earlier.md)
++ [Atualizações de documentação](doc-updates.md)
++ [Versões de recursos do Analytics](releases.md)
