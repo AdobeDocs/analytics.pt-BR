@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre governança de dados do Adobe Analytics
 title: Perguntas frequentes
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Como o Adobe Analytics suporta as solicitações de acesso e exclusão dos usuários finais (titulares de dados) validadas pelos clientes (controladores de dados)?</b> </p> </td> 
-   <td colname="col2"> <p>Quando várias regras da Privacidade de dados (GDPR, CCPA) entrarem em vigor, o Adobe Analytics suportará o processamento de solicitações verificadas, enviadas pelos Controladores de dados para a API da Privacidade de dados da Experience Cloud, para permitir um processo mais automatizado. A API da Privacidade de dados da Adobe foi projetada para ajudar a processar as solicitações de direitos individuais (por exemplo, o acesso e a exclusão de solicitações) para os dados de clientes armazenados nas soluções da Adobe Experience Cloud. Ela é flexível e escalável de acordo com o número de solicitações de acesso e exclusão de dados recebidos pela sua empresa dos titulares de dados. Além disso, a API da Privacidade de dados permite que o cliente verifique o status de como as solicitações de acesso e exclusão de dados estão sendo atendidas. </p> <p>Para obter mais detalhes, consulte a <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html"> Documentação da API da Privacidade de dados. </a> </p> </td> 
+   <td colname="col2"> <p>Quando várias regras da Privacidade de dados (GDPR, CCPA) entrarem em vigor, o Adobe Analytics suportará o processamento de solicitações verificadas, enviadas pelos Controladores de dados para a API da Privacidade de dados da Experience Cloud, para permitir um processo mais automatizado. A API da Privacidade de dados da Adobe foi projetada para ajudar a processar as solicitações de direitos individuais (por exemplo, o acesso e a exclusão de solicitações) para os dados de clientes armazenados nas soluções da Adobe Experience Cloud. Ela é flexível e escalável de acordo com o número de solicitações de acesso e exclusão de dados recebidos pela sua empresa dos titulares de dados. Além disso, a API do Privacy Service permite que o cliente verifique o status de como as solicitações de acesso e exclusão de dados estão sendo atendidas. </p> <p>Para obter mais detalhes, consulte <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Documentação da API do Privacy Service. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Quem é responsável por receber, aceitar e atender às solicitações de Privacidade de dados de usuários finais?</b> </p> </td> 
