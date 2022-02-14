@@ -5,10 +5,10 @@ title: Novidades no Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
+source-git-commit: c818db35524d6c0d416ee2560943526f19842c5e
 workflow-type: tm+mt
-source-wordcount: '8286'
-ht-degree: 100%
+source-wordcount: '8276'
+ht-degree: 99%
 
 ---
 
@@ -548,7 +548,7 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Análise de contribuição: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=pt-BR"  > notificação de tokens </a> </p> </td> 
-   <td colname="col2"> <p>Se a sua empresa tem um número limitado de tokens para análise de contribuição, a interface do usuário do Analysis Workspace agora mostra uma notificação quando você usa um token. Isso permite que você saiba quantos tokens ainda tem.  </p> <p>(Usuários administradores: podem restringir quem pode usar esses tokens editando as permissões do grupo. A permissão é chamada de "Detecção de anomalias e análise de contribuição" em <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Administrador </span> &gt; <span class="uicontrol">Todos os administradores</span> &gt; <span class="uicontrol">User management</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar acesso a todos os relatórios</span> &gt; <span class="uicontrol">Personalizar as ferramentas do conjunto de relatórios</span> &gt; <span class="uicontrol">Ferramentas e relatórios</span>.)  </p> </td> 
+   <td colname="col2"> <p>Se a sua empresa tem um número limitado de tokens para análise de contribuição, a interface do usuário do Analysis Workspace agora mostra uma notificação quando você usa um token. Isso permite que você saiba quantos tokens ainda tem. </p> <p>(Usuários administradores: podem restringir quem pode usar esses tokens editando as permissões do grupo. A permissão é chamada de "Detecção de anomalias e Análise de contribuição" em <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Administrador </span> &gt; <span class="uicontrol"> Todos os administradores </span>  &gt; <span class="uicontrol"> Gerenciamento do usuário </span>&gt; <span class="uicontrol"> Editar grupos </span> &gt; <span class="uicontrol"> Editar Todo Acesso a Relatório </span> &gt; <span class="uicontrol"> Personalizar ferramentas do Conjunto de relatórios </span> &gt; <span class="uicontrol"> Ferramentas E Relatórios </span>. ) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Arquivos CSV com caracteres de vários bytes </p> </td> 
@@ -598,7 +598,7 @@ Novos recursos lançados em 26 de outubro de 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Visualização de mapa </a> </p> </td> 
-   <td colname="col2"> <p>A nova Visualização de mapa permite ver facilmente as interações do cliente no contexto de suas localizações. De uma exibição macro (global) para micro (cidade), é possível aumentar ou diminuir o zoom facilmente nos diferentes níveis de hierarquia na visualização para ver os grupos de usuários nas regiões. </p> <p>É possível visualizar dados de localização por meio do endereço IP (para conjuntos de dados não móveis) ou você pode dar vida aos dados de latitude e longitude (para clientes que utilizam o Mobile SDK) no Analysis Workspace.  </p> </td> 
+   <td colname="col2"> <p>A nova Visualização de mapa permite ver facilmente as interações do cliente no contexto de suas localizações. De uma exibição macro (global) para micro (cidade), é possível aumentar ou diminuir o zoom facilmente nos diferentes níveis de hierarquia na visualização para ver os grupos de usuários nas regiões. </p> <p>You can visualize location data via IP address (for non-mobile data sets) or you can bring latitude and longitude data (for customers using the Mobile SDK) to life in Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Seletor de granularidade para visualizações de tendências </a> </p> </td> 
