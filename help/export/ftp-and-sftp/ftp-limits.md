@@ -2,11 +2,10 @@
 description: Todas as contas FTP da Adobe possuem um limite de armazenamento de dados de 2 GB (ou de 63 arquivos). Os arquivos ficam retidos nessas contas FTP por 90 dias.
 keywords: ftp;sftp
 title: Limites FTP e retenção de dados
-uuid: deb807c9-e988-4587-b518-881857cad1cf
+feature: FTP Export
 exl-id: ffd6bdcb-ebca-4ad3-b467-5ab2b984ca72
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 100%
 

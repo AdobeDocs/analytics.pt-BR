@@ -2,10 +2,10 @@
 description: Um painel é uma coleção de relatórios miniatura chamados de reportlets. Um painel é mais útil quando contém reportlets relacionados que completam as visões gerais de aspectos específicos de seu site como, por exemplo, localizar métodos, perfis de visitantes, etc.
 subtopic: Dashboards
 title: Painéis e reportlets
-uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 98%
@@ -24,7 +24,7 @@ Você pode adicionar a maioria dos relatórios de marketing ao painel, incluindo
 
 Você também pode configurar um painel como página inicial, compartilhar painéis com outros usuários e agendar a entrega deles. Se você não definir um painel (ou um marcador) como página de aterrissagem, o painel [!UICONTROL Meus relatórios recomendados] é exibido. **[!UICONTROL Meus relatórios recomendados]** mostra o relatório **[!UICONTROL Métricas principais]** além dos cinco relatórios vistos com mais frequência. É dinâmico e baseia-se nos relatórios reais que são mais visualizados.
 
-Alguns dos relatórios exibidos frequentemente podem não ser exibidos no painel, e portanto não estarão disponíveis para visualização. Dentre eles:
+Alguns dos relatórios exibidos frequentemente podem não ser exibidos no painel, e portanto não estarão disponíveis para visualização. As melhorias incluem:
 
 * Relatórios de detecção de anomalias
 * Relatórios de análise de contribuição
@@ -42,11 +42,11 @@ Alguns dos relatórios exibidos frequentemente podem não ser exibidos no painel
 
 Além dos painéis criados, os seguintes painéis pré-integrados são incluídos para cada usuário:
 
-**[!UICONTROL Componentes]  >  [!UICONTROL Todos os componentes]  >  [!UICONTROL Painéis]  > Painéis  [!UICONTROL compartilhados]  > Sites  [!UICONTROL locais]**
+**[!UICONTROL Componentes] > [!UICONTROL Todos os componentes] > [!UICONTROL Painéis] > [!UICONTROL Painéis compartilhados] > [!UICONTROL Sites locais]**
 
 Esse painel personalizável oferece uma maneira de colocar reportlets no modelo fornecido.
 
-**[!UICONTROL Componentes]  >  [!UICONTROL Todos os componentes]  >  [!UICONTROL Painéis]  > Painéis  [!UICONTROL compartilhados]  > Painel de operações  [!UICONTROL do site]**
+**[!UICONTROL Componentes] > [!UICONTROL Todos os componentes] > [!UICONTROL Painéis] > [!UICONTROL Painéis compartilhados] > [!UICONTROL Painel de operações do site]**
 
 Esse painel fornece uma visão geral de métricas principais relacionadas às operações de seu site. Os relatórios nesse painel incluem:
 
@@ -215,7 +215,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]**  >  **[!UICONTROL Administrador]**  >  **[!UICONTROL Todos os administradores]**  > Configurações  **[!UICONTROL da empresa]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configurações da empresa]**.
 1. Na página [!UICONTROL Configurações da empresa], clique em **[!UICONTROL Co-Brand da Adobe Experience Cloud]**.
 1. Clique em **[!UICONTROL Ativar compartilhamento de marcas]**.
 1. Localize a imagem que será carregada e clique em **[!UICONTROL Salvar]**.

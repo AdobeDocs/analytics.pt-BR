@@ -1,15 +1,14 @@
 ---
 description: Agendar solicitações no Data Warehouse para serem executadas de forma repetitiva.
 title: Agendar uma solicitação recorrente
-uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Data Warehouse
+exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 85%
 
 ---
-
 
 # Agendar uma solicitação recorrente
 
@@ -27,4 +26,3 @@ Para agendar solicitações do Data Warehouse como diárias/mensais/anuais, cert
    ![](assets/dw_schedule.png)
 
 1. Clique em **[!UICONTROL Agendamento]**.
-

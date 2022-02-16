@@ -2,10 +2,10 @@
 title: Guia de exportação do Analytics
 description: Este manual descreve maneiras de retirar dados do Adobe Analytics usando feeds de dados e o Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,7 @@ Este guia descreve maneiras de retirar dados do Adobe Analytics. O serviço incl
 
 * **Feeds de dados:** receba uma exportação por hora ou por dia de dados brutos. Cada linha é uma ocorrência individual e cada coluna é uma variável. Os feeds de dados geralmente são enviados para sites FTP.
 * **Data Warehouse:** ese um assistente de solicitações para recuperar uma saída de planilha de dados. O Data Warehouse usa uma arquitetura de processamento diferente para permitir qualquer número de linhas e de valores únicos.
+* **FTP e SFTP:** Práticas recomendadas para usar FTP e SFTP com Adobe
 
 Veja um vídeo com uma visão geral do Adobe Analytics:
 
@@ -35,6 +36,6 @@ Veja um vídeo com uma visão geral do Adobe Analytics:
 ## Principais recursos do Analytics
 
 * [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
-* [Fórum do Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
+* [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
 * [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home)
