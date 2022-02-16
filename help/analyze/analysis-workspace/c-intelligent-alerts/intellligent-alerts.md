@@ -1,14 +1,13 @@
 ---
 description: O novo sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
 title: Visão geral de Alertas inteligentes
-uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: Ferramentas de IA
+feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '365'
-ht-degree: 100%
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 84%
 
 ---
 
@@ -29,15 +28,12 @@ O novo Criador de alertas e Gerenciador de alertas no Analysis Workspace substit
 
 Há quatro maneiras de acessar o Criador de alertas:
 
-* Ir diretamente para o Criador de alertas: **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**
-* Usar o atalho de teclado do Workspace: `Ctrl + Shift + A` (Windows) ou `Cmd + Shift + A` (Mac)
-* Selecionar um ou mais itens de linha da tabela de forma livre, depois clicar com o botão direito do mouse e selecionar **[!UICONTROL Criar alerta a partir da seleção]**. Essa ação abre o Criador de alertas e preenche as métricas e os filtros automaticamente com os dados selecionados da tabela. Você pode editar o alerta, se necessário.
-
-   ![Criar alerta a partir da seleção](assets/create-alert-from-selection.png)
-
-* A partir de um relatório do Reports &amp; Analytics, acessando **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**. Essa ação abre o criador de alertas e preenche as métricas e os filtros automaticamente com os dados selecionados do relatório. Você pode editar o alerta, se necessário.
-
-   ![Adicionar alerta](assets/add-alert.png)
+| Método | Detalhes |
+| --- | --- |
+| Ir diretamente para o Criador de alertas | **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** |
+| Usar o atalho de teclado no Workspace | `Ctrl + Shift + A` (Windows) ou `Cmd + Shift + A` (Mac) |
+| Selecionar um ou mais itens de linha da tabela de forma livre | Clique com o botão direito do mouse e selecione **[!UICONTROL Criar alerta a partir da seleção]**. Isso abre o [!UICONTROL Criador de alertas] e preenche as métricas e os filtros automaticamente com os dados apropriados aplicados a partir da tabela. Você pode editar o alerta, se necessário. ![Criar alerta a partir da seleção](assets/create-alert-from-selection.png) |
+| A partir de um relatório do Reports &amp; Analytics | Ir para  **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]** . Essa ação abre o criador de alertas e preenche as métricas e os filtros automaticamente com os dados selecionados do relatório. Você pode editar o alerta, se necessário. ![Adicionar alerta](assets/add-alert.png) |
 
 Os limites de porcentagem são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, serão usados [modelos diferentes](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular a distância (a quantidade de desvios padrão) de cada dado em relação à norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias do que se definir um limite mais alto (99,75%).
 

@@ -1,13 +1,12 @@
 ---
 description: Os Controles interativos permitem que você edite segmentos e intervalos de datas para uma ou mais solicitações diretamente da planilha. Isso proporciona maior flexibilidade ao atualizar solicitações do Report Builder.
 title: Controles interativos
-uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,6 @@ Os controles interativos foram criados em resposta a um fluxo de trabalho comum,
 >* Se você estiver executando o Microsoft Excel no Windows, mas uma versão anterior do Report Builder, ou se não tiver um Report Builder instalado: é possível alterar o valor no controle interativo, mas isso não atualizará a solicitação associada, nem atualizará os parâmetros associados da solicitação.
 >* Se você estiver executando o Excel no Mac, a alteração do valor no controle resultará na seguinte mensagem: &quot;Não é possível encontrar a macro &quot;Adobe.ReportBuilder.Bridge.FormControlClick.Event&quot;&quot;.
 >
-
 
 
 >[!IMPORTANT]

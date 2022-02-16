@@ -1,13 +1,12 @@
 ---
 description: Problemas comuns ao usar o Report Builder com o Power BI.
 title: Solução de problemas de integração do Power BI
-uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 51%
 
 ---
@@ -38,8 +37,8 @@ Essas são as principais razões pelas quais visualizações quebradas podem oco
 
 ## O Report Builder precisa ser autorizado a acessar os recursos da organização. Esse acesso só pode ser concedido por um administrador. Peça a um administrador que conceda permissão.
 
-Peça a um Administrador da Microsoft que analise a configuração &quot;Os usuários podem registrar o aplicativo&quot; localizada em: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Ative Diretory]** > **[!UICONTROL As Configurações do Usuário permitem opções]**. Se essa opção estiver definida como Não, esse administrador poderá registrar esses tipos de aplicativos.
+Peça a um Administrador do Microsoft que analise a configuração &quot;Usuários podem registrar aplicativo&quot; localizada em: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Ative Diretory do Azure]** > **[!UICONTROL As Configurações do usuário permitem opções]**. Se essa opção estiver definida como Não, esse administrador poderá registrar esses tipos de aplicativos.
 
 Os usuários podem conceder o Acesso usando o seguinte [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
-Os administradores concederam acesso a cada um usando o seguinte [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Os administradores recebem acesso para cada um usando o seguinte [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).

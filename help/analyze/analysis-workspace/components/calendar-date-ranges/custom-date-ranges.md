@@ -2,13 +2,12 @@
 description: Crie intervalos de datas personalizados no Analysis Workspace e salve-os como Componentes de tempo.
 keywords: Analysis Workspace
 title: Criar intervalos de datas personalizados
-uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Fundamentos do Workspace
+feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '250'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '248'
 ht-degree: 100%
 
 ---

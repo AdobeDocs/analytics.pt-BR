@@ -1,13 +1,12 @@
 ---
 description: Descreve como o Report Builder suporta relatórios de definição de caminho e fallout, e como a implementação difere de Reports & Analytics.
 title: Relatórios de caminho e fallout de caminho no Report Builder
-uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 98%
 
 ---

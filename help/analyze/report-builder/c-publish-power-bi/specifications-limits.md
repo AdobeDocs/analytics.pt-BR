@@ -1,13 +1,12 @@
 ---
 description: Limitações ao usar o Report Builder e o Microsoft Power BI.
 title: Limitações e especificações
-uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '624'
 ht-degree: 94%
 
 ---
@@ -70,5 +69,5 @@ Por padrão, o nome será extraído do nome de arquivo da pasta de trabalho (sem
 Lembre-se
 
 * O rótulo não pode ser uma combinação de letras e números que possa ser confundida com um endereço de linha e coluna. Por exemplo, A100 não pode ser um rótulo porque é o endereço de uma célula na planilha.
-* Os seguintes caracteres não são caracteres de rótulo válidos: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; e `'~', ' '` . Eles são substituídos por um caractere sublinhado.
+* Os seguintes caracteres não são caracteres de rótulo válidos: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;, e `'~', ' '` . Eles são substituídos por um caractere sublinhado.
 * Quando um nome inválido é inserido, uma mensagem de aviso será mostrada que sugerirá um nome autogerado. Se clicar em **[!UICONTROL Sim]**, esse nome será usado. Se clicar em **[!UICONTROL Não]**, a interface do usuário do Assistente avançado permitirá que um novo nome seja inserido.
