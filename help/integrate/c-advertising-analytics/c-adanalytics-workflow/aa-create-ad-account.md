@@ -1,11 +1,12 @@
 ---
 title: Como configurar uma conta publicitária no Advertising Analytics
 description: Permite criar novas contas publicitárias e mapear várias contas a vários conjuntos de relatórios.
+feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
-workflow-type: ht
-source-wordcount: '824'
-ht-degree: 100%
+source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 93%
 
 ---
 
@@ -26,38 +27,17 @@ Além disso, os administradores podem [conceder acesso a não administradores](/
 
 1. Preencha as **[!UICONTROL Configurações do mecanismo de pesquisa]** seguindo as instruções a seguir:
 
-   <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Configuração </th> 
-      <th colname="col2" class="entry"> Descrição </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Tipo </p> </td> 
-      <td colname="col2"> <p>Há duas opções: Google AdWords e Microsoft Bing Ads. </p> <p>Observação: o Yahoo Gemini foi absorvido pelo Microsoft Bing em 31 de março de 2019. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível.  </p> </td> 
-      </tr> 
-      <tr> 
-      <td colname="col1"> <p>Nome da conta </p> </td> 
-      <td colname="col2"> <p>Há a opção para definir este nome de conta com o nome que desejar. Este é o nome amigável da conta que aparecerá na interface do usuário. </p> </td> 
-      </tr> 
-      <tr> 
-      <td colname="col1"> <p>Token de OAuth </p> </td> 
-      <td colname="col2"> <p>Observação: OAuth é um padrão aberto para delegação de acesso, geralmente usado como uma maneira de conceder a sites ou aplicativos da Web o acesso às respectivas informações em outros sites, sem fornecer as senhas. </p> <p>Observação: você perceberá que será direcionado para um URL de terceiros (efrontier.com). A Adobe usa o efrontier para potencializar o processo de autenticação do OAuth em todos os três mecanismos de pesquisa. </p> <p>Observação: se você usar o Internet Explorer 11 (ou anterior), não será possível recuperar o token OAuth para qualquer um dos três mecanismos de pesquisa. Em vez disso, use outro navegador da Web. </p> <p>Clicar em <span class="uicontrol">Recuperar token</span> inicia o processo de autenticação do OAuth2. Isso significa que você será solicitado a fazer logon em sua conta de pequisa do Google/Bing usando suas credenciais. Dependendo do mecanismo de pesquisa escolhido, o processo será um pouco diferente: </p>
-      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: fornecer ID de conta do Google. </li> 
-       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: fornecer ID de conta de cliente do Bing. </li> 
-       </ul> <p>Consulte <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar sua ID de conta</a> para obter mais informações sobre as IDs. </p> <p>Depois de fazer logon, o campo Token de OAuth exibirá <code>Retrieved</code>. </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | Configuração | Descrição |
+   | --- | --- |
+   | Tipo | Há duas opções: Google AdWords e Microsoft Bing Ads.  Observação: o Yahoo Gemini foi absorvido pelo Microsoft Bing em 31 de março de 2019. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível. |
+   | Nome da conta | Há a opção para definir este nome de conta com o nome que desejar. Este é o nome amigável da conta que aparecerá na interface do usuário. |
+   | Token de OAuth | **Observação:** OAuth é um padrão aberto para delegação de acesso, geralmente usado como uma maneira de conceder a sites ou aplicativos da Web o acesso às respectivas informações em outros sites, sem fornecer as senhas. Você observará que será direcionado para um URL de terceiros (efrontier.com). A Adobe usa o efrontier para potencializar o processo de autenticação do OAuth em todos os três mecanismos de pesquisa. Se usar o Internet Explorer 11 (ou anterior), você não poderá recuperar o token OAuth para qualquer um dos três mecanismos de pesquisa. Em vez disso, use outro navegador da Web.<p>Clicar em **[!UICONTROL Recuperar token]** inicia o processo de autenticação do OAuth2. Isso significa que você será solicitado a fazer logon em sua conta de pequisa do Google/Bing usando suas credenciais. Dependendo do mecanismo de pesquisa escolhido, o processo será um pouco diferente: <ul><li>Google AdWords: fornecer ID de conta do Google</li><li>Microsoft Bing: fornecer ID de conta de cliente do Bing.</li></ul>Consulte [Localizar sua ID de conta](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) para obter mais informações sobre as IDs. Depois de fazer logon, a variável **[!UICONTROL Token de OAuth]** exibições de campo **[!UICONTROL Recuperado]**. |
 
 1. Na seção **[!UICONTROL Rastreamento]**, forneça informações sobre como os dados do Mecanismo de pesquisa são monitorados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
 Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instruções a seguir:
 
    | Configuração | Descrição |
-   |--- |--- |
+   | --- | --- |
    | Tipo | <ul><li>**Automático**: permite que o mecanismo da Advertising Cloud decida como os parâmetros de rastreamento são anexados aos modelos de rastreamento/URLs de destino do Mecanismo de pesquisa. Essa é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.<br>**Importante:** para configurar uma conta de mecanismo de pesquisa no “Modo automático”, você é responsável por realizar as seguintes ações:<br>- O parâmetro &quot;s_kwcid&quot; e o valor serão adicionados aos modelos de rastreamento de conta ou URLs da página inicial na conta que está sendo adicionada. Ele será inserido ao final do URL. Como resultado, pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. **Observação:** saiba se você deve adicionar esse parâmetro à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=pt-BR).<br>- Além disso, palavras-chave podem ser inseridas no URL de conversão como parte do valor &quot;s_kwcid&quot;. Dessa forma, se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres (um exemplo de um caractere especial é o &quot;+&quot; usado em palavras-chave de “Grande correspondência modificada”).</li><li>**Manual**: permite gerenciar como os parâmetros de rastreamento são adicionados aos URLs de destino/modelos de rastreamento do Mecanismo de pesquisa. [Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. Na seção **[!UICONTROL Mapeamento]**, selecione quais conjuntos de relatórios vincular a esta conta de mecanismo de pesquisa. É necessário fornecer pelo menos um conjunto de relatórios antes de poder salvar a conta publicitária. É possível mapear várias contas a diversos conjuntos de relatórios (1:1, 1:Vários, Vários:Vários). Observe que os dados acessados pelo AMO do mecanismo de pesquisa são copiados para qualquer conjunto de relatório, de maneira que não há separação de dados.
@@ -68,20 +48,10 @@ Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instru�
 
    Para as **[!UICONTROL Configurações de mapeamento]** que seguem essas instruções:
 
-   <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-   <thead> 
-   <tr> 
-   <th colname="col1" class="entry"> Configuração </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-   </tr>
-   </thead>
-   <tbody> 
-   <tr> 
-   <td colname="col1"> <p>Mapeamento do conjunto de relatórios </p> </td> 
-   <td colname="col2"> <p>O mapeamento do conjunto de relatórios determina o conjunto de dados que é vinculado a esta conta de mecanismo de pesquisa. Ou seja, determina a quais conjuntos de relatórios os dados do mecanismo de pesquisa são enviados. </p> </td>
-   </tr> 
-   </tbody> 
-   </table>
+   | Configuração | Descrição |
+   | --- | --- |
+   | Mapeamento do conjunto de relatórios | O mapeamento do conjunto de relatórios determina o conjunto de dados que é vinculado a esta conta de mecanismo de pesquisa. Ou seja, determina a quais conjuntos de relatórios os dados do mecanismo de pesquisa são enviados. |
+
 
 1. Clique em **[!UICONTROL Salvar]**.
 1. Depois de salvar, um aviso de isenção de responsabilidade exibe uma lista de advertências. É solicitado que confirme que leu e entendeu este contrato. Clique na caixa de seleção, em seguida em **[!UICONTROL OK]**.
