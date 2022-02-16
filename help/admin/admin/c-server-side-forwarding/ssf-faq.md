@@ -1,12 +1,14 @@
 ---
 description: Perguntas frequentes sobre recursos, funcionalidades e problemas relacionados ao encaminhamento pelo lado do servidor.
 title: Perguntas frequentes sobre o encaminhamento pelo lado do servidor
-uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Server-Side Forwarding
+exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 100%
 
 ---
-
 
 # Perguntas frequentes sobre o encaminhamento pelo lado do servidor
 

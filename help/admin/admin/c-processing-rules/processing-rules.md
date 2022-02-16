@@ -2,13 +2,11 @@
 description: O processamento de regras simplifica a coleta de dados e o gerenciamento do conteúdo conforme é enviado para os relatórios.
 subtopic: Processing rules
 title: Visão geral das regras de processamento
-feature: Admin Tools
-uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '394'
 ht-degree: 68%
 
 ---
@@ -26,7 +24,7 @@ O processamento de regras simplifica a coleta de dados e o gerenciamento do cont
 
 >[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-## Permissões das regras de processamento {#section_8A4846688050453784DAE4D89355169A}
+## Permissões de regras de processamento {#section_8A4846688050453784DAE4D89355169A}
 
 Os administradores têm direitos para usar as regras de processamento **por padrão**. Os administradores também podem conceder esses direitos a outros usuários através da interface de Ferramentas administrativas. Para obter instruções, consulte []
 
@@ -48,17 +46,17 @@ s.contextData['genre'] = "Youth";
 
 Depois de definido no código, você pode definir regras de processamento para atribuir valores a variáveis. Por exemplo:
 
-1. Mapear `author` para `eVar2`
-2. Mapear `section` para `prop1` e `eVar3`
-3. Se `author` e `section` existirem, defina `event5`
+1. Mapa `author` para `eVar2`
+2. Mapa `section` para `prop1` e `eVar3`
+3. If `author` e `section` existe, conjunto `event5`
 
-Consulte [contextData](/help/implement/vars/page-vars/contextdata.md) no guia do usuário Implementar para obter mais informações.
+Consulte [contextData](/help/implement/vars/page-vars/contextdata.md) no guia Implementar usuário para obter mais informações.
 
-## Usar regras de processamento para transformar dados de ocorrência e eventos de acionador  {#section_8284E72E999244E091CD7FB1A22342B6}
+## Usar regras de processamento para transformar dados de ocorrência e eventos de acionador {#section_8284E72E999244E091CD7FB1A22342B6}
 
 Regras de processamento podem monitorar valores recebidos para transformar erros de ortografia comuns e definir eventos com base nos dados relatados. Props podem ser copiados em eVars, valores podem ser concatenados para relatórios e eventos podem ser definidos.
 
-## Uso das variáveis de dados de contexto em relatórios  {#section_BD098BC503024A0B8703596628071134}
+## Uso das variáveis de dados de contexto em relatórios {#section_BD098BC503024A0B8703596628071134}
 
 Após definir os dados de contexto na implementação, é necessário copiá-los para variáveis, como eVars para uso em relatórios.
 

@@ -1,10 +1,10 @@
 ---
 description: Permite que os usuários de nível administrativo vejam e gerenciem relatórios agendados dentro da organização.
 title: Relação de relatórios agendados
-topic-fix: Reports
+feature: Admin Tools
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Permite que os usuários de nível administrativo vejam e gerenciem relatórios agendados dentro da organização.
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Componentes]**  >  **[!UICONTROL Todos os componentes]**  > Relatórios  **[!UICONTROL agendados]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Relatórios agendados]**
 
 Os recursos de nível administrativo no Gerenciador de relatórios agendados incluem:
 
@@ -48,7 +48,7 @@ Essa relação permite que você gerencie e até exclua qualquer relatório agen
 
 A Relação de relatório também possibilita &quot;Pular um relatório agendado uma vez&quot;. Basta clicar no ícone azul na coluna **[!UICONTROL Gerenciar]**.
 
-## ID de agendamento {#section_568B70F4228C4229977CB85D2DCD53A1}
+## ID de programação {#section_568B70F4228C4229977CB85D2DCD53A1}
 
 Ter a **[!UICONTROL ID de agendamento]** na interface da Relação de relatório é útil quando é necessário entrar em contato com o Atendimento ao cliente da Adobe para solucionar um problema com relatórios agendados.
 

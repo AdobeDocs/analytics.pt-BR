@@ -2,14 +2,15 @@
 description: Requisitos de sistema e comparação da Analysis Workspace, Reports & Analytics, Report Builder Data Warehouse e Data Workbench
 title: Comparação e requisitos de produtos do Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+feature: Analytics Basics
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
 ---
 
-# Analytics Comparação e requisitos de produtos do
+# Comparação e requisitos de produtos do Analytics
 
 Esta página contém uma comparação de vários produtos do Adobe Analytics: Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Feeds de dados e API 2.0 do Analytics.
 

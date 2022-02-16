@@ -2,13 +2,11 @@
 description: Regras de processamento permitem alterar os dados com base em condições definidas. Quando atributos ou valores corresponderem às condições definidas, os valores poderão ser definidos e excluídos e os eventos poderão ser definidos.
 subtopic: Processing rules
 title: Como as regras de processamento funcionam
-feature: Admin Tools
-uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
+feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 100%
 
 ---
@@ -102,7 +100,7 @@ As condições verificam as variáveis da página para ver se há um valor corre
 
 Os valores das variáveis não são verificados automaticamente antes da ocorrência das ações. Por exemplo, Prop1 contém o valor &quot;algo&quot; e eVar1 está vazia. Se você definir Prop1 para ser igual a eVar1, ambos os valores ficarão vazios. Para impedir isso, adicione uma condição para verificar a presença de um valor.
 
-## Ações das regras de processamento  {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## Ações das regras de processamento {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 As ações definem variáveis de página, excluem variáveis de página ou acionam eventos. As ações também podem concatenar valores para exibição em um relatório.
 

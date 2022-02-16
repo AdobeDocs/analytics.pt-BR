@@ -2,13 +2,11 @@
 description: As dimensões que você pode ler e escrever (salvo indicação ao contrário) usando as regras de processamento.
 subtopic: Processing rules
 title: Dimensões disponíveis para as regras de processamento
-feature: Admin Tools
-uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 86%
 
 ---
@@ -91,11 +89,11 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome da página </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Observação:  As chamadas de rastreamento de link removem a variável <code>pageName</code> antes de atingirem as regras de processamento. Se você inserir novamente um valor de nome de página usando regras de processamento, a ocorrência será considerada uma exibição de página, em vez de uma chamada de rastreamento de link. O Adobe recomenda verificar se o nome da página já está definido antes de modificá-la. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Observação: As chamadas de rastreamento de link removem a <code>pageName</code> antes de atingir as regras de processamento. Se você inserir novamente um valor de nome de página usando regras de processamento, a ocorrência será considerada uma exibição de página, em vez de uma chamada de rastreamento de link. O Adobe recomenda verificar se o nome da página já está definido antes de modificá-la. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL da página </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> ou o URL da página atual, se <code> s.pageURL</code> não for especificado. <p>Observação:  As chamadas de rastreamento de link removem a variável <code>pageURL</code> antes de atingirem as regras de processamento. Se você inserir novamente um valor de URL da página usando regras de processamento, a ocorrência será considerada uma exibição de página, em vez de uma chamada de rastreamento de link. O Adobe recomenda verificar se o URL da página já está definido antes de modificá-lo. </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> ou o URL da página atual, se <code> s.pageURL</code> não for especificado. <p>Observação: As chamadas de rastreamento de link removem a <code>pageURL</code> antes de atingir as regras de processamento. Se você inserir novamente um valor de URL da página usando regras de processamento, a ocorrência será considerada uma exibição de página, em vez de uma chamada de rastreamento de link. O Adobe recomenda verificar se o URL da página já está definido antes de modificá-lo. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parâmetro da sequência de caracteres de consulta </p> </td> 
@@ -176,7 +174,7 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variáveis de lista 1 - 3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> -  <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de compra </p> </td> 
@@ -211,7 +209,7 @@ As regras de processamento podem definir eventos mas não podem lê-los como con
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Evento 1-1000 </p> <p>(Para clientes do SiteCatalyst 15, Evento 1-100.) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> -  <code> event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>compra, scView, scAdd e outros eventos do carrinho </p> </td> 

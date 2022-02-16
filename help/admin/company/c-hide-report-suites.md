@@ -2,12 +2,11 @@
 description: Permite ocultar conjuntos de relatórios na interface do usuário do Adobe Analytics.
 keywords: excluir conjunto de relatórios
 title: Ocultar conjuntos de relatórios
-feature: Ferramentas administrativas
-uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
+feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 92%
 
 ---
@@ -24,7 +23,7 @@ Ocultar um conjunto de relatórios evita que ele seja exibido no menu suspenso d
 >
 >Os dados de um site enviados para um conjunto de relatórios oculto continuam a ser coletados, processados e faturados. Em outras palavras, um conjunto de relatórios nunca é completamente excluído.
 
-Para ocultar o conjunto de relatórios, vá para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Ocultar conjuntos de relatórios]**. Marque a caixa de seleção **[!UICONTROL Oculto]** no lado esquerdo do nome do conjunto de relatórios.
+Para ocultar o conjunto de relatórios, acesse **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Ocultar conjuntos de relatórios]**. Marque a caixa de seleção **[!UICONTROL Oculto]** no lado esquerdo do nome do conjunto de relatórios.
 
 Para tornar o conjunto de relatórios visível, desmarque a caixa de seleção **[!UICONTROL Oculto]**.
 

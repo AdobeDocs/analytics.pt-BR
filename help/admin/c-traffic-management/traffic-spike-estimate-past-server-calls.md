@@ -1,9 +1,9 @@
 ---
 description: Por exemplo, é possível obter a média diária de chamadas do servidor realizadas durante um período específico, além de gerar um aumento no volume de chamadas do servidor deste ano. Você pode, então, agendar um pico de tráfego com base nesse fator de multiplicação.
 title: Estimar chamadas de servidor antigas e agendar um pico de tráfego
-uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
+feature: Traffic Management
 exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 92%
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 Por exemplo, é possível obter a média diária de chamadas do servidor realizadas durante um período específico, além de gerar um aumento no volume de chamadas do servidor deste ano. Você pode, então, agendar um pico de tráfego com base nesse fator de multiplicação.
 
-1. Faça logon no Analytics como Administrador e acesse **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de tráfego]**.
+1. Faça logon no Analytics como administrador e acesse **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciamento de tráfego]**.
 
 1. Clique em **[!UICONTROL Expandir]** para expandir a lista do conjunto de relatórios e clique em **[!UICONTROL Selecionar conjuntos de relatórios]** para selecionar vários conjuntos de relatórios.
 

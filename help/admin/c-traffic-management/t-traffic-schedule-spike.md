@@ -1,23 +1,24 @@
 ---
 title: Programar um pico de tráfego
 description: Faça parceria com o Adobe para garantir que eventos de alto tráfego não tenham latência.
+feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
 # Programar um pico de tráfego
 
-O Adobe tenta fazer parceria com clientes para garantir que um evento de alto tráfego seja bem-sucedido. Agendar picos de tráfego é o ponto de partida desse processo de parceria. A seção Programar pico permite alertar a Adobe quanto a picos temporários no tráfego, de modo que os recursos apropriados possam ser alocados para lidar com eles.
+A Adobe tenta fazer parceria com clientes para garantir que um evento de alto tráfego seja bem-sucedido. Agendar picos de tráfego é o ponto de partida desse processo de parceria. A seção Agendar pico permite alertar a Adobe sobre picos temporários de tráfego para que os recursos apropriados possam ser alocados para lidar com eles.
 
 O balanceamento de dados avançado do lado do servidor com várias equipes dedicadas é usado para garantir que todos os clientes tenham os relatórios mais atualizados possíveis. Conforme sua organização notifica Adobe de picos no tráfego, o Adobe pode garantir que o aumento súbito no tráfego seja uma experiência positiva. A falha na notificação de Adobe de aumentos no tráfego pode aumentar a latência durante os períodos críticos de relatório.
 
 Leia as informações sobre [Lead Time necessário para aumentos de tráfego](/help/admin/c-traffic-management/traffic-lead-time.md) antes de programar um pico de tráfego.
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Conjuntos de relatórios]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.
 1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Gerenciamento de tráfego]** > **[!UICONTROL Programar pico]**.
 1. No campo **[!UICONTROL Data inicial do pico]**, especifique a data quando espera que o pico de tráfego tenha início.
@@ -42,6 +43,6 @@ Quando os clientes notificam o Adobe de picos de tráfego para cada conjunto de 
 
 O Adobe quer garantir que sua experiência com relatórios atualizados seja consistente. Para fazer essa tarefa com mais eficiência, o Adobe recomenda o seguinte:
 
-* Programe todos os picos de tráfego de acordo com [Lead Time necessário para aumentos de tráfego](traffic-lead-time.md). **É especialmente importante que quaisquer picos de tráfego previstos nos meses de novembro a dezembro estejam programados até 15** de setembro. Se você perder o prazo, programe seu pico o mais rápido possível. Mais vale reduzir o lead time do que nenhum, e o Adobe trabalha com os recursos atuais para acomodar melhor seus conjuntos de relatórios.
+* Programar todos os picos de tráfego de acordo com [Lead Time necessário para aumentos de tráfego](traffic-lead-time.md). **É especialmente importante que quaisquer picos de tráfego previstos nos meses de novembro a dezembro estejam programados até 15 de setembro**. Se você perder o prazo, programe seu pico o mais rápido possível. Mais vale reduzir o lead time do que nenhum, e o Adobe trabalha com os recursos atuais para acomodar melhor seus conjuntos de relatórios.
 * Se o Adobe entrar em contato com você sobre um pico de tráfego agendado, certifique-se de comunicar se o relatório em tempo real ou o relatório de processamento completo são mais importantes. Algumas organizações dependem dos relatórios em tempo real mais do que outras. Entender qual tipo de relatório você usa pode ajudar o Adobe a priorizar de acordo.
-* Comunique-se com seu Gerente de conta com os relatórios mais importantes e quando obtê-los poderá ajudá-lo a defender seus interesses.
+* Comunique-se com seu Gerente de conta com os relatórios mais importantes e, quando obtê-los, poderá ajudá-lo a advogar por você.

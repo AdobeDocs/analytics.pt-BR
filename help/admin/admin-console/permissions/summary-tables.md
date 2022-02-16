@@ -2,8 +2,9 @@
 title: Permissões do Adobe Analytics - tabelas de resumo
 description: Tabelas que resumem as permissões do Adobe Analytics disponíveis no Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 100%
 
@@ -26,7 +27,7 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 | Gerenciador de feeds de dados | x |  |  |  | Concede acesso a Administrador > Feeds de dados na navegação superior do Analytics. |
 | API de reparo de dados | x |  |  |  | Concede acesso à API de reparo de dados |
 | Gerenciador das fontes de dados | x |  |  |  | Concede acesso a Administrador > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
-| Métricas padrão | x |  |  |  | Concede acesso a Configurações de conjuntos de relatórios individuais > Métricas padrão no Gerenciador de conjunto de relatórios. |
+| Métricas padrão | x |  |  |  | Concede acesso a Configurações individuais do Conjunto de relatórios > Métricas padrão no Gerenciador de conjunto de relatórios. |
 | Excluir por endereço IP | x |  |  |  | Concede acesso a Administração > Excluir por IP na navegação superior do Analytics. |
 | Métodos de descoberta | x |  |  |  | Concede acesso a Conversão > Métodos de descoberta no Gerenciador de conjunto de relatórios. |
 | Variáveis da lista | x |  |  |  | Concede acesso a Conversão > Variáveis de lista no Gerenciador de conjunto de relatórios. |

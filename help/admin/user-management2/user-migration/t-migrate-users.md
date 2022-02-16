@@ -1,17 +1,16 @@
 ---
 description: Migre usuários do sistema de gerenciamento de usuário herdado do Analytics para o Admin Console.
 title: Migrar contas de usuário do Analytics para Adobe IDs
-uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Admin Tools
+exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
-
-# Migrar contas de usuário do Analytics para Adobe IDs {#migrate-analytics-user-accounts-for-adobe-ids}
+# Migrar contas de usuário do Analytics para Adobe IDs{#migrate-analytics-user-accounts-for-adobe-ids}
 
 Migre usuários do sistema de gerenciamento de usuário herdado do Analytics para o Admin Console.
 
@@ -70,7 +69,7 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
    </tr> 
    <tr> 
       <td colname="col1"> <p>Domínio reivindicado </p> </td> 
-      <td colname="col2"> <p>Caso deseje migrar os usuários como Enterprise ou Federated IDs, você deve ser um Administrador do sistema e reivindicar um domínio disponível pelo Admin Console antes de migrar os usuários. Saiba mais <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> <p>Se você não deseja reivindicar domínios para Enterprise or Federated IDs, ignore este passo e migre os usuários como Adobe IDs. Saiba mais sobre os tipos de IDs <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> </td> 
+      <td colname="col2"> <p>Caso deseje migrar os usuários como Enterprise ou Federated IDs, você deve ser um Administrador do sistema e reivindicar um domínio disponível pelo Admin Console antes de migrar os usuários. Saiba mais <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> <p>Se você não deseja reivindicar domínios para Enterprise or Federated IDs, ignore este passo e migre os usuários como Adobe IDs. Saiba mais sobre os tipos de IDs <a href="https://helpx.adobe.com/enterprise/help/identity.html">aqui</a>. </p> </td> 
    </tr> 
    </tbody> 
    </table>

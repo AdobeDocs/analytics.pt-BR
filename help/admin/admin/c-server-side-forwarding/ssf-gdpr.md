@@ -1,18 +1,18 @@
 ---
 description: Explica melhorias no encaminhamento pelo lado do servidor que foram solicitadas pelo regulamento de conformidade de cookies da UE.
 title: Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor
-uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
 # Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor
 
-Esta seção explica as melhorias no encaminhamento pelo lado do servidor que foram solicitadas pelo [EU cookie Compliance regulation](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+e+similares+tecnologias), que entrou em vigor em 30 de setembro de 2017.
+Esta seção explica as melhorias no encaminhamento pelo lado do servidor que foram solicitadas pelo [Regulamento de conformidade de cookies da UE](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+e+similares+tecnologias), que entrou em vigor em 30 de setembro de 2017.
 
 O encaminhamento pelo lado do servidor é usado para compartilhar dados do Adobe Analytics com outras [!DNL Experience Cloud Solutions], como o Audience Manager, em tempo real. Quando habilitado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados a outras soluções da Experience Cloud e, consequentemente, que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
 
@@ -28,7 +28,7 @@ Dependendo do seu método de implementação, siga estas etapas.
 
 | Método de implementação | Etapas |
 |--- |--- |
-| Tags no Adobe Experience Platform | Supondo que você tenha a extensão Adobe Analytics instalada, adicione a seguinte definição de variável de dados de contexto ao editor de código personalizado na configuração Ação de uma Regra: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação:  Defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável `contextdata` como *0* para clientes que consentiram com marketing direcionado. |
+| Tags na Adobe Experience Platform | Supondo que você tenha a extensão Adobe Analytics instalada, adicione a seguinte definição de variável de dados de contexto ao editor de código personalizado na configuração Ação de uma Regra: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: Defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável `contextdata` como *0* para clientes que consentiram com marketing direcionado. |
 | AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/> Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
 
 ## Criação de relatórios (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}

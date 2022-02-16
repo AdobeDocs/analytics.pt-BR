@@ -1,13 +1,11 @@
 ---
 description: Descrições dos tipos de conjunto de relatórios e comparação de conjuntos de relatórios globais e conjuntos de relatórios de rollup.
 title: Abordagens do conjunto de relatórios
-feature: Admin Tools
-uuid: c90b8e38-2c95-4318-8165-a362106b6142
+feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '973'
 ht-degree: 27%
 
 ---
@@ -22,11 +20,11 @@ Você pode configurar seus conjuntos de relatórios como *conjuntos de relatóri
 
 Um conjunto de relatórios global coleta dados de todos os domínios e aplicativos de sua organização. Ela requer implementação para enviar todas as solicitações de imagem para um único conjunto de relatórios.
 
-A Adobe recomenda implementar um conjunto de relatórios global na maioria dos casos. Consulte &quot;[Considerações do conjunto de relatórios global](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)&quot; para obter as vantagens de implementar um conjunto de relatórios global.
+A Adobe recomenda implementar um conjunto de relatórios global na maioria dos casos. Consulte &quot;[Considerações sobre o conjunto de relatórios global](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)&quot; para as vantagens de implementar um conjunto de relatórios global.
 
-Você pode fornecer subconjuntos dos dados do conjunto de relatórios global de sua empresa para diferentes usuários finais usando as abordagens *marcação de vários conjuntos* e *conjunto de relatórios virtual*:
+Você pode fornecer subconjuntos dos dados do conjunto de relatórios global da sua empresa para diferentes usuários finais usando o *marcação de vários relatórios* e *conjunto de relatórios virtual* Abordagens:
 
-* **Marcação** de vários relatórios: A marcação de vários relatórios permite enviar solicitações de imagem não apenas para um conjunto de relatórios global, mas também para conjuntos de relatórios secundários individuais. Os dados globais do relatório são desduplicados em todos os conjuntos de relatórios.
+* **Marcação de vários relatórios**: A marcação de vários relatórios permite enviar solicitações de imagem não apenas para um conjunto de relatórios global, mas também para conjuntos de relatórios secundários individuais. Os dados globais do relatório são desduplicados em todos os conjuntos de relatórios.
 
    Por exemplo, é possível coletar todos os dados em um conjunto de relatórios global e também configurar conjuntos de relatórios secundários com base na marca, região ou outro diferencial. As diferentes equipes na empresa podem se concentrar nos dados nos conjuntos de relatórios que são relevantes para eles.
 
@@ -34,11 +32,11 @@ Você pode fornecer subconjuntos dos dados do conjunto de relatórios global de 
 
    É feita uma chamada de servidor separada para cada conjunto de relatórios na solicitação de imagem. As chamadas para os conjuntos de relatórios secundários são chamadas secundárias.
 
-* **Conjunto** de relatórios virtuais: Um conjunto de relatórios  [virtual ](/help/components/vrs/vrs-about.md) é uma consulta em segmentos especificados coletados em um conjunto de relatórios global e disponível para grupos de usuários especificados. Os conjuntos de relatórios virtuais permitem preparar elementos de relatório para diferentes usuários finais sem usar a marcação de vários conjuntos, evitando assim chamadas de servidor secundárias.
+* **Conjunto de relatórios virtual**: A [conjunto de relatórios virtual](/help/components/vrs/vrs-about.md) é uma consulta em segmentos especificados coletados em um conjunto de relatórios global e disponível para grupos específicos de usuários. Os conjuntos de relatórios virtuais permitem preparar elementos de relatório para diferentes usuários finais sem usar a marcação de vários conjuntos, evitando assim chamadas de servidor secundárias.
 
-   Para usar conjuntos de relatórios virtuais, implemente um conjunto de relatórios global e analise os dados para criar conjuntos de relatórios virtuais com segmentos específicos aplicados e com permissões de grupo específicas. Você pode criar conjuntos de relatórios virtuais no Gerenciador de conjuntos de relatórios virtuais ([!UICONTROL Components] > [!UICONTROL Conjuntos de relatórios virtuais]). Consulte &quot;[Fluxo de trabalho do conjunto de relatórios virtual](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)&quot; para obter mais informações.
+   Para usar conjuntos de relatórios virtuais, implemente um conjunto de relatórios global e analise os dados para criar conjuntos de relatórios virtuais com segmentos específicos aplicados e com permissões de grupo específicas. Você pode criar conjuntos de relatórios virtuais no Gerenciador de conjunto de relatórios virtuais ([!UICONTROL Componentes] > [!UICONTROL Conjuntos de relatórios virtuais]). Consulte &quot;[Fluxo de trabalho do Conjunto de relatórios virtuais](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)&quot; para obter mais informações.
 
-O uso de conjuntos de relatórios virtuais em vez da marcação de vários conjuntos é geralmente uma prática recomendada, mas os conjuntos de relatórios virtuais têm algumas limitações. Consulte &quot;[Conjuntos de relatórios virtuais e considerações de marcação de vários conjuntos](/help/components/vrs/vrs-considerations.md)&quot; para determinar qual abordagem de conjunto de relatórios é a melhor escolha para suas necessidades comerciais. Para obter uma comparação detalhada dos conjuntos de relatórios virtuais e da funcionalidade de marcação de vários conjuntos, consulte &quot;[Conjuntos de relatórios virtuais vs. Marcação de vários conjuntos](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot;.
+O uso de conjuntos de relatórios virtuais em vez da marcação de vários conjuntos é geralmente uma prática recomendada, mas os conjuntos de relatórios virtuais têm algumas limitações. Consulte &quot;[Considerações sobre conjuntos de relatórios virtuais e marcação de vários conjuntos](/help/components/vrs/vrs-considerations.md)&quot; para determinar qual abordagem de conjunto de relatórios é a melhor opção para suas necessidades comerciais. Para obter uma comparação detalhada dos conjuntos de relatórios virtuais e da funcionalidade de marcação de vários conjuntos, consulte &quot;[Conjuntos de relatórios virtuais versus Marcação de vários conjuntos](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
 ## Relatórios de rollup
 
@@ -46,7 +44,7 @@ O uso de conjuntos de relatórios virtuais em vez da marcação de vários conju
 >
 >[!DNL Reports & Analytics] é a única ferramenta que oferece suporte a relatórios de rollup, e o Adobe não recomenda mais usar rollups. Em vez disso, considere usar um conjunto de relatórios global com marcação de vários conjuntos ou conjuntos de relatórios virtuais.
 
-Um relatório de rollup é um simples agregado de dados de vários conjuntos de relatórios, sem desduplicação ou qualquer segmento ou detalhamento de dados. Os rollups não exigem implementação de código. Para usar relatórios de rollup, [implemente conjuntos de relatórios secundários](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) e depois [combine-os em um relatório de rollup](/help/admin/c-manage-report-suites/t-rollups.md) usando [!UICONTROL Ferramentas administrativas].
+Um relatório de rollup é um simples agregado de dados de vários conjuntos de relatórios, sem desduplicação ou qualquer segmento ou detalhamento de dados. Os rollups não exigem implementação de código. Para usar relatórios de rollup, [implementar conjuntos de relatórios secundários](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) e depois [combiná-los em um relatório de rollup](/help/admin/c-manage-report-suites/t-rollups.md) usar [!UICONTROL Ferramentas administrativas].
 
 Relatórios de rollup são gratuitos: os conjuntos de relatórios secundários incorrem em suas próprias chamadas de servidor, mas o rollup não implica chamadas adicionais. Os rollups são um recurso herdado e têm muitas limitações.
 

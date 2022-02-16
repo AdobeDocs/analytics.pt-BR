@@ -1,9 +1,10 @@
 ---
 title: Remoção de bot no Adobe Analytics
 description: Como remover bots no Adobe Analytics
+feature: Admin Tools
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 
@@ -49,7 +50,7 @@ Veja como essa ID pode ser capturada por meio do Elemento de dados. Preencha cor
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Depois que esse elemento de dados for configurado, siga [estas instruções](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=pt-BR) para transmitir IDs declaradas para a ferramenta ECID usando tags na Adobe Experience Platform.
+Depois que esse elemento de dados for configurado, siga [estas instruções](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) para transmitir IDs declaradas para a ferramenta ECID usando tags na Adobe Experience Platform.
 
 ### Etapa 2: usar segmentação para identificar bots
 

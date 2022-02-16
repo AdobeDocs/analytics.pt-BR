@@ -1,13 +1,15 @@
 ---
 description: Para verificar se o encaminhamento pelo lado do servidor está corretamente habilitado, será preciso inspecionar a resposta HTTP enviada pela solicitação de rastreamento do Analytics. Isso pode ser feito usando as ferramentas de desenvolvimento de um navegador ou usando uma ferramenta de proxy, como o Charles Web Debugger. As instruções a seguir ilustram quais indicadores devem estar presentes para garantir que o encaminhamento pelo lado do servidor seja habilitado corretamente.
-solution: Audience Manager
+solution: Analytics
 title: Como verificar a implementação do encaminhamento pelo lado do servidor
-uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Server-Side Forwarding
+exl-id: 21db4572-da3c-43aa-a774-86a089656695
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 100%
 
 ---
-
 
 # Como verificar a implementação do encaminhamento pelo lado do servidor
 

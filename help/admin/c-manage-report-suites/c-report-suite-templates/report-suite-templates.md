@@ -1,11 +1,9 @@
 ---
 description: Os modelos de Conjunto de relatórios configuram as definições mais comuns para vários tipos de conjuntos de relatórios.
 title: Visão geral dos modelos de conjunto de relatórios
-feature: Admin Tools
-uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
+feature: Report Suite Settings
 exl-id: c329f73f-af91-4f0a-9e9e-ae17fcf2899f
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
@@ -18,4 +16,4 @@ Os modelos de Conjunto de relatórios configuram as definições mais comuns par
 
 Para economizar tempo ao criar um conjunto de relatórios novo, selecione um modelo que seja parecido com a configuração de conjunto de relatórios que você definiu. Selecionar um modelo de conjunto de relatórios não limita de maneira alguma sua implementação. Qualquer configuração feita por um modelo de conjunto de relatórios pode ser alterada depois que o conjunto de relatórios é criado.
 
-<!-- Meike, links to relevant articles? -->
+[Saiba mais](/help/admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)

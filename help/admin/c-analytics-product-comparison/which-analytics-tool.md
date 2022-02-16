@@ -1,12 +1,12 @@
 ---
 description: Esta página de ajuda contém casos de uso recomendados para cada ferramenta do Adobe Analytics. As ferramentas devem ser consideradas na ordem em que estão listadas. Se uma ferramenta específica não atender à necessidade, considere a próxima.
 title: Qual ferramenta do Adobe Analytics devo usar?
-uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: ht
-source-wordcount: '1168'
-ht-degree: 100%
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 98%
 
 ---
 
@@ -62,9 +62,9 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
    * ID da transação: uploads de dados que conectam um terminal online a dados offline e associam totalmente os dados importados a um instantâneo de visitante capturado online (por exemplo, os pedidos são concluídos online e devolvidos offline).
    * Processamento completo: fontes de dados com data e hora, processadas como se fossem uma ocorrência coletada pelos servidores da Adobe. Isto é, os dados são inseridos diretamente na jornada do visitante.
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** devem ser usados:
+**[Integrações do Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** deve ser usada:
 
-* Ao ter contato com um provedor terceirizado que criou uma conexão que oferece suporte ao Adobe Analytics. Em geral, os Data Connectors incorporam dados a nível de resumo no Adobe Analytics de modo permanente e automático, em uma base recorrente.
+* Ao ter contato com um provedor terceirizado que criou uma conexão que oferece suporte ao Adobe Analytics. Os aplicativos de integração normalmente incorporam dados a nível de resumo no Adobe Analytics de forma permanente e automática, de forma recorrente.
 
 **[API da inserção de dados](/help/import/c-data-insertion-api/c-data-insertion-api.md)** deve ser usada:
 

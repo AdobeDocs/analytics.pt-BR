@@ -1,10 +1,10 @@
 ---
 description: O encaminhamento pelo lado do servidor foi projetado para clientes que desejam compartilhar dados do Analytics com outras soluções da Experience Cloud em tempo real. Quando habilitado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados a outras soluções da Experience Cloud e, consequentemente, que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
-solution: Audience Manager
+solution: Analytics
 title: Visão geral do encaminhamento pelo lado do servidor
-uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
+feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 94%
@@ -64,7 +64,7 @@ O encaminhamento pelo lado do servidor no nível do conjunto de relatórios é r
 
 Acesse **Analytics** > **Administração** > **Conjuntos de relatórios** > (selecione o **conjunto de relatórios**) > **Editar configurações** > **Geral** > **Encaminhamento pelo lado do servidor**. Se a caixa de seleção estiver:
 
-* **Inativo**  (Você não pode fazer uma seleção ou o menu não existe): você não possui os conjuntos de relatórios selecionados mapeados a uma Organização IMS. Entre em contato com o Atendimento ao cliente para verificar se o conjunto de relatórios está mapeado corretamente.
+* **Inativo** (Você não pode fazer uma seleção ou o menu não existe): você não possui os conjuntos de relatórios selecionados mapeados a uma Organização IMS. Entre em contato com o Atendimento ao cliente para verificar se o conjunto de relatórios está mapeado corretamente.
 * **Desabilitada**: você não possui o novo encaminhamento pelo lado do servidor ativado. Leia o conteúdo na página e prossiga com a ativação do recurso.
 * **Habilitada:** você está provisionado para o novo encaminhamento pelo lado do servidor. Você também pode configurar esta integração do Audience Analytics.
 

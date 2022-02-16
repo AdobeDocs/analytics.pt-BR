@@ -1,13 +1,12 @@
 ---
 description: Configura diversas variáveis comuns e eventos bem-sucedidos para um site típico.
 title: Modelo padrão
-feature: Admin Tools
+feature: Report Suite Settings
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,7 @@ Configura diversas variáveis comuns e eventos bem-sucedidos para um site típic
 |---|---|---|
 | Registros | Contador (sem sub-relações) | `event1` |
 | Registros por email | Contador (sem sub-relações) | `event2` |
-| Assinaturas | Contador (sem sub-relações) | `event3` |
+| Subscrições | Contador (sem sub-relações) | `event3` |
 | Exibições de página | Contador (sem sub-relações) | `event4` |
 | Impressões da publicidade | Contador (sem sub-relações) | `event5` |
 | Cliques de anúncios | Contador (sem sub-relações) | `event6` |

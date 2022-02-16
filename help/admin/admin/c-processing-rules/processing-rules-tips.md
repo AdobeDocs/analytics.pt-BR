@@ -2,13 +2,11 @@
 description: Esta seção contém orientações para testar as regras de processamento e uma lista de erros comuns que devem ser evitados.
 subtopic: Processing rules
 title: Dicas e truques para regras de processamento
-feature: Admin Tools
-uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
+feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -43,7 +41,7 @@ Também é importante considerar a ordem de processamento. No exemplo a seguir, 
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## Evitar a substituição de valores  {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## Evitar a substituição de valores {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 No exemplo a seguir, duas variáveis de dados de contexto são usadas no site para capturar termos de pesquisa: search_keyword e search_term. No entanto, com base na configuração, o valor de search_keyword é sempre substituído, mesmo se o search_term estiver vazio.
 
@@ -51,13 +49,13 @@ Essa regra deve ser reconfigurada para testar cada variável dos dados de contex
 
 ![](assets/tips-search-keyword.png)
 
-## Codificar os termos de pesquisa em UTF-8 ou Unicode  {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## Codificar os termos de pesquisa em UTF-8 ou Unicode {#section_3BBBE1FB8FEA48589362452DE51DB575}
 
 Os termos de pesquisa extraídos de uma sequência de consulta devem ser corretamente codificados, caso contrário, as regras de processamento não encontrarão correspondência neles.
 
 ![](assets/tips-multibyte.png)
 
-## Começa com, Contém e Termina com  {#section_80CE853244FC435B844A09EA51868D8D}
+## Começa com, Contém e Termina com {#section_80CE853244FC435B844A09EA51868D8D}
 
 Selecione a condição de correspondência certa para encontrar a condição mais restritiva que corresponda corretamente. É possível pesquisar valores em um relatório antes de criar uma regra, para ter certeza de que não há correspondências indesejadas. Por exemplo, você deve pesquisar o relatório Prop2 para encontrar todos os locais em que há correspondência com essa condição antes de habilitar essa regra.
 

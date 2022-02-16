@@ -1,13 +1,12 @@
 ---
 description: Etapas administrativas para configurar relatórios em tempo real.
 title: Configuração de relatórios em tempo real
-feature: Ferramentas administrativas
-uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
+feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 97%
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
@@ -56,6 +55,6 @@ Configurar relatórios em tempo real dentro de Reports &amp; Analytics consiste 
 
 1. Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e exibir relatório]**.
 
-   Após essa configuração inicial de relatório, pode levar até 20 minutos para que o streaming de dados tenha início. A partir de então, os dados estarão imediatamente disponíveis. Para saber mais sobre a exibição de relatórios em tempo real, consulte [Executar um Relatório em tempo real](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Após essa configuração inicial de relatório, pode levar até 20 minutos para que o streaming de dados tenha início. A partir de então, os dados estarão imediatamente disponíveis. Para saber mais sobre a exibição de relatórios em tempo real, consulte [Executar um Relatório em tempo real](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=pt-BR).
 
 1. Por padrão, todos os usuários possuem acesso aos Relatórios em tempo real.
