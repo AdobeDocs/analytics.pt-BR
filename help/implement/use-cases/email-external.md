@@ -1,10 +1,10 @@
 ---
 title: Acompanhamento de email externo
 description: Use o Adobe Analytics para rastrear conteúdo de email.
+feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 100%
 
@@ -30,9 +30,9 @@ As modificações no corpo do email HTML e a biblioteca JavaScript são necessá
 
 Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de análise da campanha por email. As etapas são descritas abaixo.
 
-1. Criar códigos de rastreamento exclusivos.
+1. Criar códigos de rastreamento únicos.
 
-   Com frequência, os usuários pedem recomendações de rastreamento para cada campanha exclusiva. Isso fica totalmente a critério deles, com base no que funciona melhor. Cada usuário é diferente. A Adobe recomenda que cada usuário gere códigos de rastreamento amigáveis, como mostrado no exemplo abaixo:
+   Com frequência, os usuários pedem recomendações de rastreamento para cada campanha única. Isso fica totalmente a critério deles, com base no que funciona melhor. Cada usuário é diferente. A Adobe recomenda que cada usuário gere códigos de rastreamento amigáveis, como mostrado no exemplo abaixo:
 
    * sc_cid=A1123A321 > &quot;A&quot; sinaliza uma campanha afiliada
    * sc_cid=EM033007 > &quot;EM&quot; sinaliza uma campanha por email
@@ -42,7 +42,7 @@ Existem várias etapas a seguir com o objetivo de exibir com êxito os dados de 
 
 1. Adicione parâmetros da cadeia de caracteres de consulta aos links de email HTML.
 
-   Para rastrear um click-through do usuário e os eventos bem-sucedidos subsequentes, um parâmetro da cadeia de caracteres de consulta deve ser adicionado a cada link dentro do email HTML. É possível rastrear cada link separadamente ou todos eles juntos. Cada link pode ter um código de rastreamento exclusivo ou todos os links podem ter o mesmo código de rastreamento. Considere o link hipotético a seguir dentro do email de um site:
+   Para rastrear um click-through do usuário e os eventos bem-sucedidos subsequentes, um parâmetro da cadeia de caracteres de consulta deve ser adicionado a cada link dentro do email HTML. É possível rastrear cada link separadamente ou todos eles juntos. Cada link pode ter um código de rastreamento único ou todos os links podem ter o mesmo código de rastreamento. Considere o link hipotético a seguir dentro do email de um site:
 
    ```js
    <a href="https://www.example.com/index.asp">Visit our home page</a>

@@ -1,9 +1,10 @@
 ---
 title: carimbo de data e hora
 description: Defina manualmente o carimbo de data e hora da ocorrência.
+feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -41,7 +42,7 @@ s.timestamp = new Date().toISOString();
 
 ## Valores em ISO 8601
 
-As datas e horas expressas em [ISO 8601](https://pt.wikipedia.org/wiki/ISO_8601) podem assumir várias formas diferentes. A Adobe não é compatível com todos os recursos do ISO 8601.
+As datas e horas expressas em [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) podem assumir várias formas diferentes. A Adobe não é compatível com todos os recursos do ISO 8601.
 
 * A data e a hora devem ser fornecidas, separadas por `T`.
 * São necessárias horas e minutos; segundos são opcionais, porém recomendados.

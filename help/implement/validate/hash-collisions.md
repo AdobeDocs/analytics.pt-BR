@@ -1,10 +1,10 @@
 ---
 title: Colisões de hash
 description: Descreve o que é uma colisão de hash e como ela pode ocorrer.
+feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -60,11 +60,11 @@ Se você criar um segmento que procura por visitas onde eVar62=&quot;valor 500&q
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Valor 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
+   <td colname="col2"> <p> 111º </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> Valor 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
+   <td colname="col2"> <p> <b> 123º</b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Valor 101 </p> </td> 
@@ -72,7 +72,7 @@ Se você criar um segmento que procura por visitas onde eVar62=&quot;valor 500&q
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> Valor 500</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
+   <td colname="col2"> <p> <b> 123º</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>

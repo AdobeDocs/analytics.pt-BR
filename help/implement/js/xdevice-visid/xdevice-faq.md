@@ -1,10 +1,10 @@
 ---
 title: Perguntas frequentes sobre a identificação de visitantes entre dispositivos
 description: Perguntas frequentes sobre identificação de visitantes entre dispositivos
+feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Perguntas frequentes sobre a identificação de visitantes entre dispositivos
 
-Perguntas frequentes sobre a identificação de visitantes entre dispositivos.
+Perguntas frequentes sobre identificação de visitantes entre dispositivos.
 
 **Qual é a diferença entre a identificação de visitantes em vários dispositivos e o Cross-Device Analytics?**
 

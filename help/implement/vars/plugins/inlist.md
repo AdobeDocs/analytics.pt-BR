@@ -1,8 +1,9 @@
 ---
 title: inList
 description: Verifique se um valor está contido em outro valor delimitado por caracteres.
+feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 100%
