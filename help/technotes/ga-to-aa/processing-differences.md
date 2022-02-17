@@ -1,10 +1,10 @@
 ---
 title: Diferenças de processamento e arquitetura entre plataformas do Analytics
 description: Saiba como alguns dados são coletados e exibidos de forma diferente entre plataformas como o Adobe Analytics e o Google Analytics.
+feature: Third-party Integration
 exl-id: 3e457915-3c2d-49f7-9b77-df18c04d49cd
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 

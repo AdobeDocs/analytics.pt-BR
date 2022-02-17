@@ -3,9 +3,9 @@ description: As fontes de dados fornecem duas outras formas de integrar os event
 subtopic: Data sources
 title: Integração de transição e de clientes
 topic-fix: Developer and implementation
-uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 79%
@@ -38,7 +38,7 @@ Acesse **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatório]** > Selec
 
  -->
 
-Para ver se a Gravação da ID de transação está ativada, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Fontes de dados]**.
+Para ver se a Gravação da ID de transação está ativada, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Fontes de dados]**.
 
 ![](assets/transaction-ID-recording-active.png)
 

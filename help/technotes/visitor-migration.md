@@ -3,10 +3,10 @@ description: A migração do visitante é um processo no qual o cookie da ID de 
 keywords: Implementação do Analytics
 title: Migração de visitante
 topic-fix: Developer and implementation
-uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
+feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%
 

@@ -3,12 +3,12 @@ description: Informações sobre os requisitos do conjunto de relatórios antes 
 subtopic: Data sources
 title: Requisitos e limites de upload
 topic-fix: Developer and implementation
-uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ As Fontes de Dados oferecem suporte para codificação de múltiplos bytes. As F
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Suportado. O conjunto de relatórios usado com as fontes de dados deve ter o suporte para caracteres de múltiplos bytes habilitado. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Novo conjunto de relatórios</a> em Ajuda </p> </td> 
+   <td colname="col2"> <p>Suportado. O conjunto de relatórios usado com as fontes de dados deve ter o suporte para caracteres de múltiplos bytes habilitado. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=pt-BR"  >Novo conjunto de relatórios</a> em Ajuda </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 com Byte Order Mark (EF BB BF) </td> 

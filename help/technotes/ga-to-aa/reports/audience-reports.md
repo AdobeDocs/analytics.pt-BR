@@ -1,10 +1,10 @@
 ---
 title: Relatórios de público-alvo no Adobe Analytics
 description: Saiba como criar relatórios baseados no público-alvo usando a Analysis Workspace.
+feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ Consulte as seguintes páginas no guia do usuário Componentes para obter mais i
 
 * [Navegador](/help/components/dimensions/browser.md)
 * [Sistema operacional](/help/components/dimensions/operating-systems.md)
-* [Resolução do Monitor](/help/components/dimensions/monitor-resolution.md)
+* [Resolução do monitor](/help/components/dimensions/monitor-resolution.md)
 * [Intensidade de cor](/help/components/dimensions/color-depth.md)
 
 ## Tecnologia - Rede

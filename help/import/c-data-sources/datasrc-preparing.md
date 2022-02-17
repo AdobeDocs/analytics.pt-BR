@@ -3,12 +3,12 @@ description: Etapas que você pode adotar como preparação para usar as fontes 
 subtopic: Data sources
 title: Preparação para usar as Fontes de dados
 topic-fix: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Etapas que você pode adotar como preparação para usar as fontes de dados
 
 Depois de determinar os mapeamentos adequados de métrica para eventos para os dados da Fonte de dados, renomeie os eventos com os nomes descritivos adequados à métrica das Fontes de dados associada.
 
-Consulte [Eventos de sucesso](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) na Ajuda das Ferramentas administrativas.
+Consulte [Eventos de sucesso](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=pt-BR) na Ajuda das Ferramentas administrativas.
 
 >[!NOTE]
 >

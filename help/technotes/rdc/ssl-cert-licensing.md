@@ -1,11 +1,12 @@
 ---
 title: Licença do certificado SSL
 description: Procedimentos de certificado para certificados gerenciados pelo cliente
+feature: Regional Data Collection
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 A Adobe recomenda que você gerencie seu certificado sem custo adicional por meio do [Programa de certificados gerenciados da Adobe](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=pt-BR). O programa de certificados gerenciados da Adobe é totalmente automatizado e garante que os certificados sejam renovados em tempo hábil para que não haja impacto por causa aos certificados expirados.
 
-Se optar por não usar o [Programa de certificados gerenciados da Adobe](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=pt-BR), você será responsável por fornecer um certificado SSL/TLS a ser usado para cookies próprios.
+Se optar por não usar o [Programa de certificados gerenciados da Adobe](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html), você será responsável por fornecer um certificado SSL/TLS a ser usado para cookies próprios.
 
 Se você fornece seus próprios certificados, é sua responsabilidade adquirir e mantê-los.  Seu certificado SSL/TLS deve incluir uma licença de servidor ilimitada.
 

@@ -2,9 +2,10 @@
 description: A Fonte de Dados oferece suporte às seguintes variáveis no processamento de dados como chamada do servidor padrão (Genérico > Processamento completo).
 title: Processamento completo
 topic-fix: Developer and implementation
+feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 100%
 
@@ -42,13 +43,13 @@ Por exemplo, um usuário com uma ID de visitante `"user@example.com"` visita seu
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
-   <td colname="col3"> <p>Código de rastreamento de campanha de conversão. </p> </td> 
+   <td colname="col2"> <p>campanha </p> </td> 
+   <td colname="col3"> <p>Código de rastreamento da campanha de conversão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>canal </p> </td> 
    <td colname="col2"> <p>canal </p> </td> 
-   <td colname="col3"> <p>Sequência de caracteres de canal (por exemplo, seção de esportes). </p> </td> 
+   <td colname="col3"> <p>Sequência de canal (por exemplo, seção de esportes). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 

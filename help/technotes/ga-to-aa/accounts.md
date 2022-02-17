@@ -1,9 +1,10 @@
 ---
 title: Contas e conjuntos de relatórios
 description: Saiba como usar uma empresa de logon e um conjunto de relatórios para manter os silos de dados organizados no Adobe Analytics.
+feature: Third-party Integration
 exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
 

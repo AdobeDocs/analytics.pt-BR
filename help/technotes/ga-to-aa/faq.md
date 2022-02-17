@@ -1,10 +1,10 @@
 ---
 title: Perguntas frequentes
 description: Obtenha respostas para perguntas frequentes ao mudar de uma plataforma de terceiros para a Adobe.
+feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 

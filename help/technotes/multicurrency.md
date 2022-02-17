@@ -1,10 +1,10 @@
 ---
 description: Descreve como definir códigos monetários de destino para que o suporte a várias moedas funcione.
 title: Suporte a várias moedas
-uuid: null
+feature: Analytics Basics
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 100%
 

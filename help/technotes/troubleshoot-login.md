@@ -1,9 +1,10 @@
 ---
 title: Solucionar problemas de logon no Adobe Analytics
 description: Etapas a serem seguidas quando não for possível fazer logon no Adobe Analytics.
+feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
 

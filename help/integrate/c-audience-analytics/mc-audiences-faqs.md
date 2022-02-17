@@ -2,12 +2,12 @@
 description: Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
 solution: Experience Cloud
 title: Perguntas frequentes
-uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1094'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: Por que vejo "Limite de público-alvo atingido" no meu relatório do Analytics? (Observação: isso também será representado como ID de público-alvo = -1 e "::max_audiences_aded::" no Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>P: Por que vejo "Limite de público-alvo atingido" no meu relatório do Analytics? (Observação: isso também será representado como ID de público-alvo = -1 e "::max_audiences_exceeded::" no Data Warehouse)</b> </p> </td> 
    <td colname="col2"> <p>Por padrão, a integração do Audience Analytics para AAM envia para o Analytics todos os segmentos para os quais um usuário é classificado, em uma base “por ocorrência”. Se um visitante pertencer a mais de 150 segmentos do AAM em uma única ocorrência, os <b>150 segmentos qualificados mais recentemente</b> serão enviados ao Analytics, e a lista restante ficará truncada. </p> <p>Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada, e é exibido como “Limite de público-alvo atingido” na dimensão Nome de público-alvo e “-1” na dimensão ID de público-alvo. </p> <p>Mesmo sendo improvável que um visitante seja qualificado para mais de 150 segmentos em uma única ocorrência, há uma pequena chance de isso ocorrer. Se você encontrar o erro “Limite de público-alvo atingido” em seu relatório, há duas opções: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Opção 1</b>: deixe a integração trabalhar em seu estado padrão, enviando os 150 segmentos qualificados mais recentemente para um certo visitante. </li> 

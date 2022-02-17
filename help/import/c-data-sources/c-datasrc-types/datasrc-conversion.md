@@ -3,10 +3,9 @@ description: As Fontes de dados oferecem suporte às seguintes dimensões e mét
 subtopic: Data sources
 title: Conversão
 topic-fix: Developer and implementation
-uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
+feature: Data Sources
 exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 As Fontes de dados oferecem suporte às seguintes dimensões e métricas de dados de conversão para os tipos de dados que são processados como conversão.
 
-## Conversão Dimensões e métricas {#section_FA1731B232B246DABEDF5A5D84159084}
+## Dimensões e métricas de conversão {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Se você especificar um evento de exibição, você também deve especificar a dimensão de dados correspondente (eVar). Por exemplo, se você incluir exibições eVar2, você deve listar eVar2 com um valor. O total de eventos personalizados e exibições eVar apoiados por um conjunto de relatórios depende de contrato, e varia de acordo com cada empresa.
 
@@ -39,14 +38,14 @@ Se você especificar um evento de exibição, você também deve especificar a d
 | Nome da coluna | Descrição |
 |--- |--- |
 | Click-throughs | Total de visualizações do Código de rastreamento. |
-| Adições ao Carrinho | Total de adições ao carrinho. |
-| Aberturas do Carrinho | Total de aberturas do carrinho. |
-| Remoções do Carrinho | Total de remoções do carrinho. |
-| Visualizações do carrinho | Total de exibições do carrinho. |
-| Check-outs | Total de finalizações. |
+| Adições ao carrinho | Total de adições ao carrinho. |
+| Aberturas do carrinho | Total de aberturas do carrinho. |
+| Remoções do carrinho | Total de remoções do carrinho. |
+| Visualizações do carrinho | Total de visualizações do carrinho. |
+| Check-outs | Total de check-outs. |
 | Evento n | Total de vezes que o evento n ocorreu. Valores válidos para n são inteiros entre 1 - 100.  Se você especificar um evento de exibição, você também deve especificar a dimensão de dados correspondente (eVar). Por exemplo, se você incluir exibições eVar2, você deve listar eVar2 com um valor. |
 | Exibições da eVarn | Total de vezes que o eVar n foi visualizado. Valores válidos para n são inteiros entre 1 - 250. |
 | Preço | Preço do produto. |
 | Pedidos | Total de pedidos feitos. |
-| Visualizações de produto | Total de exibições do produto. |
+| Visualizações de produto | Total de visualizações do produto. |
 | Quantidade | Total de unidades vendidas. |

@@ -1,10 +1,10 @@
 ---
 title: Criar um relatório básico no Analysis Workspace
 description: Saiba como criar um relatório básico no Analysis Workspace em um formato direcionado a usuários familiarizados com ferramentas de terceiros, como o Google Analytics.
+feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Crie um relatório Todas as páginas (semelhante ao do Google Analytics) arrasta
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
 1. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
-1. Na barra de navegação superior, clique em Workspace.
+1. Na barra de navegação superior, clique em Espaço de trabalho.
 1. Clique no botão “Criar novo projeto”.
 1. No pop-up modal, verifique se “Projeto em branco” está selecionado e clique em Criar.
 1. À esquerda, uma lista de dimensões, métricas, segmentos e intervalos de datas é exibida. Localize a dimensão Páginas (em laranja) e arraste-a para a tela rotulada como “Solte uma dimensão aqui”.

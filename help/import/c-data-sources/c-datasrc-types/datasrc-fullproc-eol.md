@@ -1,9 +1,10 @@
 ---
 title: Fim da vida útil do processamento completo
 description: Motivos para o fim da vida útil e comparações entre a API de inserção de dados em massa e as fontes de dados de processamento completo.
+feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -29,7 +30,7 @@ A API de inserção de dados em massa (BDIA) fornece funcionalidade adicional en
 
 ## Principais diferenças no formato e conteúdo do arquivo
 
-* A inserção de dados em massa tem alguns campos obrigatórios adicionais. Consulte a [documentação](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=pt-BR#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para obter mais detalhes.
+* A inserção de dados em massa tem alguns campos obrigatórios adicionais. Consulte a [documentação](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para obter mais detalhes.
 * Para garantir a continuidade do visitante e a atribuição, a inserção de dados em massa requer que as linhas nos arquivos sejam classificadas em ordem cronológica. Consulte [Grupos de visitantes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#?lang=pt-BR!AdobeDocs/analytics-2.0-apis/master/bdia.md) para saber mais sobre a ordem da atividade do visitante em todos os arquivos.
 * A inserção de dados em massa requer que os arquivos sejam compactados em .csv no formato .gzip.
 * O BDIA usa &quot;carimbo de hora&quot; em vez de &quot;data&quot;.
@@ -43,7 +44,7 @@ Para obter mais detalhes, consulte a seguinte comparação dos valores de campo 
 | aamlh | Não suportado | Dica de localização do Adobe Audience Manager. |
 | browserHeight | browserHeight | Altura do navegador em pixels (por exemplo, 768) |
 | browserWidth | browserWidth | Largura do navegador em pixels (por exemplo, 1024) |
-| campaign | campaign | Código de rastreamento da campanha de conversão |
+| campaign | campanha | Código de rastreamento da campanha de conversão |
 | canal | canal | Sequência de canal (por exemplo, seção de esportes) |
 | colorDepth | colorDepth | Profundidade de cores do monitor em bits (por exemplo, 24) |
 | connectionType | connectionType | Tipo de conexão do visitante (LAN ou modem) |

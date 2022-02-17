@@ -1,14 +1,14 @@
 ---
 description: As fontes de dados do Adobe Analytics permitem importar manualmente outros dados online e offline para os relatórios.
 title: O que são Fontes de dados e como elas me beneficiam?
-translation-type: tm+mt
-source-git-commit: a653fe3ad1056d5a40217d1481e8d2c5c7f849b2
+feature: Data Sources
+exl-id: 8e695f0a-06b7-4aac-8917-318ae80ce1ec
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 90%
 
 ---
-
 
 # Visão geral das fontes de dados
 
