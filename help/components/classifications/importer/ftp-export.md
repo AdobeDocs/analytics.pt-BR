@@ -1,13 +1,14 @@
 ---
 title: Exportação de dados de classificação via FTP
 description: A exportação de FTP oferece mais flexibilidade com downloads de conjuntos de dados, incluindo o download de dados de vários conjuntos de relatórios e o download de arquivos de conjuntos de dados com mais de 50.000 linhas de dados
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: ht
+feature: Classifications
+exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
 ---
-
 
 # Exportação de dados de classificação via FTP
 
@@ -47,4 +48,3 @@ Essas etapas descrevem como exportar (fazer download) classificações no Adobe 
 | [!UICONTROL Conta FTP] | Especifique as informações do servidor FTP em que deseja que a Adobe faça download do arquivo de dados, incluindo a porta e nome de host, caminho para o diretório de destino, nome de usuário e senha. |
 | [!UICONTROL Notificação] | Especifique o endereço de email para receber notificações sobre esse download do FTP. |
 | [!UICONTROL Codificação] | Selecione a codificação de caracteres para o arquivo de dados. O formato de codificação padrão é UTF-8 ou ISO-8859-1, baseado na codificação que foi enviada para classificação. UTF-8 para UTF-16 converte suas classificações codificadas UTF-8 para codificação UTF-16. ISO-8859-1 para UTF-16 converte sua classificações codificadas ISO-8859-1 para codificação UTF-16.<br>**Observação:** ao converter para UTF-16, a codificação de fonte deve ser correspondente à codificação do upload original ou resultados inesperados podem ocorrer. Recomendamos a codificação de todos os arquivos enviados no UTF-8 sem BOM. |
-

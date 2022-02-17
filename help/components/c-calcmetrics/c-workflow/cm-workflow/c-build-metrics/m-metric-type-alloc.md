@@ -1,10 +1,10 @@
 ---
 description: 'Saiba mais sobre '
 title: Atribuição e tipo de métrica
-uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 
@@ -43,9 +43,9 @@ O seguinte exemplo ilustra como as métricas calculadas com alocação linear se
 |  | Ocorrência 1 | Ocorrência 2 | Ocorrência 3 | Ocorrência 4 | Ocorrência 5 | Ocorrência 6 | Ocorrência 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Dados de entrada | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | $10 |
-| eVar de último contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO B | PROMOÇÃO B | PROMOÇÃO C | $10 |
-| eVar de primeiro contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | $10 |
-| Exemplo de propriedade | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | $10 |
+| eVar de último contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO B | PROMOÇÃO B | PROMOÇÃO C | US$ 10 |
+| eVar de primeiro contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | US$ 10 |
+| Exemplo de propriedade | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | US$ 10 |
 
 Neste exemplo, os valores A, B e C foram enviados para uma variável nas ocorrências 1, 3, 4 e 6 antes de uma compra de US$10 ser feita na ocorrência 7. Na segunda linha, esses valores persistem entre as ocorrências com base na visita do último contato. A terceira linha ilustra uma persistência na visita do primeiro contato. Por fim, a última linha ilustra como os dados seriam relatados para uma propriedade que não tenha persistência.
 
@@ -66,7 +66,7 @@ Para a eVar primeiro contato acima, todos os US$10 seriam dados a A. Para a prop
 |---|---|---|---|
 | PROMOÇÃO A | US$5,00 | US$10,00 | US$5,00 |
 | PROMOÇÃO B | US$3,33 | $0 | US$2,50 |
-| PROMOÇÃO C | US$1,67 | $0 | US$2,50 |
+| PROMOÇÃO C | US$1,67 | US$ 0 | US$2,50 |
 | Total | US$10,00 | US$10,00 | US$10,00 |
 
 **Resumo de como a alocação linear funciona atualmente**

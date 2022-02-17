@@ -1,16 +1,14 @@
 ---
 description: As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
-subtopic: Classifications
 title: Regras de classificação
-feature: Admin Tools
-uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
-workflow-type: ht
+feature: Classifications
+exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 100%
 
 ---
-
 
 # Regras de classificação
 
@@ -328,8 +326,8 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    >Os conjuntos de relatórios são exibidos nesta página *somente* quando as seguintes condições são atendidas:
    >
    >* Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
-   >
-   >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
+      >
+      >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
    >
    >* Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
 

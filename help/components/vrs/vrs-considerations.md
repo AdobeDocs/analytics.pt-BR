@@ -2,12 +2,11 @@
 description: Os conjuntos de relatórios virtuais e a marcação de vários conjuntos têm vantagens diferentes. Saiba qual é o melhor para sua organização.
 keywords: Conjunto de relatórios virtual, VRS
 title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
-feature: Configurações do Conjunto de relatórios
-uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
+feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
-source-wordcount: '1756'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '1753'
 ht-degree: 100%
 
 ---

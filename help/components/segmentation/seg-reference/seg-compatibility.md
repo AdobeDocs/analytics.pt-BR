@@ -1,12 +1,11 @@
 ---
 description: Nem todos os segmentos criados no Construtor de segmentos são compatíveis com o Data Warehouse. Essa tabela lista as funções suportadas.
 title: Compatibilidade de segmentos de Data Warehouse
-feature: Segmentação
-uuid: 370258c5-8614-4434-871c-41753ed77f5c
+feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '343'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---

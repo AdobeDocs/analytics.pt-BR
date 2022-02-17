@@ -1,13 +1,14 @@
 ---
 title: Introdução aos Canais de marketing
 description: Saiba mais sobre o fluxo de trabalho de Canais de marketing, a configuração automática e como aplicar configurações de conjunto de relatórios de modelo a vários conjuntos de relatórios.
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: ht
+feature: Marketing Channels
+exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
 ---
-
 
 # Introdução aos Canais de marketing
 
@@ -95,4 +96,3 @@ Como executar a configuração automática para os Canais de marketing.
    1. Selecione o conjunto de relatórios modelo, bem como um ou mais conjuntos de relatórios de destino.
    1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Regras de processamento de canal de marketing]**.
    1. Clique em **[!UICONTROL Salvar]**. Se o botão Salvar estiver desativado nessa etapa, ative-o expandindo uma das regras.
-

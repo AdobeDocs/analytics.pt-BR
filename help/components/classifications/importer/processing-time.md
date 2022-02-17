@@ -1,10 +1,10 @@
 ---
 title: Tempo de processamento do importador de classificação
 description: Entenda o período que a Adobe processa arquivos de classificação e como minimizar o tempo de processamento.
+feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
 

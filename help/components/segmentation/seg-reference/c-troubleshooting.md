@@ -1,11 +1,10 @@
 ---
 description: Solucione e corrija problemas relacionados a segmentos.
 title: Solução de problemas de segmentação
-uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
+feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -13,14 +12,14 @@ ht-degree: 100%
 
 # Solução de problemas de segmentação
 
-## Erro: “Elementos incompatíveis neste segmento” {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## Erro: “Elementos incompatíveis neste segmento”  {#incompatible}
 
 Esse erro ocorre quando você tenta salvar um segmento na pasta Data Warehouse, na qual o segmento contém elementos incompatíveis com o Data Warehouse. Para solucionar este erro, execute uma destas duas ações:
 
 * Salve o segmento em uma pasta diferente.
 * Remova ou altere as porções incompatíveis do segmento.
 
-## Por que o meu segmento não retorna dados? {#section_999749CBBE984142AEA49A6E68E6730A}
+## Por que o meu segmento não retorna dados? {#no-data}
 
 Possíveis motivos:
 
@@ -28,7 +27,7 @@ Possíveis motivos:
 * O relatório não oferece suporte para a segmentação.
 * Nenhum dado corresponde ao critério de segmentação.
 
-## Por que não consigo ver o segmento que criei no Gerenciador de segmentos? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Por que não consigo ver o segmento que criei no Gerenciador de segmentos? {#invisible}
 
 Possíveis motivos:
 
@@ -40,7 +39,7 @@ Possíveis motivos:
 * O segmento não foi salvo.
 * O endereço IP pode estar bloqueado na extremidade do usuário.
 
-## Por que os dados de página exibidos depois da aplicação de um segmento parecem incorretos? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Por que os dados de página exibidos depois da aplicação de um segmento parecem incorretos? {#page-data}
 
 Possíveis motivos:
 

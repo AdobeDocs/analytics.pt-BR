@@ -1,17 +1,18 @@
 ---
 title: Visitantes únicos
-description: O número do identificador de visitante único.
+description: O número de IDs de visitante exclusivas.
+feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Visitantes únicos
 
-A métrica “Visitantes únicos” mostra o número de IDs de visitante para o item de dimensão. É uma das métricas mais comuns usadas ao determinar o tráfego, pois fornece uma visão geral de alto nível da popularidade de um item de dimensão. Por exemplo, um visitante pode chegar ao seu site todos os dias por um mês, mas ainda assim contam como um visitante único exclusivo.
+A métrica &quot;Visitantes únicos&quot; mostra o número de IDs de visitante para o item de dimensão. É uma das métricas mais comuns usadas ao determinar o tráfego, pois fornece uma visão geral de alto nível da popularidade de um item de dimensão. Por exemplo, um visitante pode chegar ao seu site todos os dias por um mês, mas ainda assim contam como um visitante único exclusivo.
 
 Se você usar [Análise entre dispositivos](../cda/overview.md), essa métrica será substituída pela métrica [Dispositivos exclusivos](unique-devices.md).
 
@@ -29,8 +30,8 @@ Essa métrica conta o número de IDs de visitante exclusivas para um determinado
 | --- | --- | --- |
 | 1 | `vid` | A variável [`visitorID`](/help/implement/vars/config-vars/visitorid.md) está definida. |
 | 2 | `aid` | O Visitante tem um cookie [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente. Definido em implementações sem ou antes da implementação do serviço de ID do visitante. |
-| 3 | `mid` | O Visitante tem um cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente. Defina as implementações usando o serviço [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). |
-| 4 | `fid` | O Visitante tem um cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente, ou se `aid` e `mid` não puderem ser definidos por algum motivo. |
+| 3 | `mid` | O Visitante tem um cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) existente. Defina as implementações usando o serviço [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). |
+| 4 | `fid` | O Visitante tem um cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) existente, ou se `aid` e `mid` não puderem ser definidos por algum motivo. |
 | 5 | Endereço IP, Agente do usuário, Endereço IP de gateway | Último recurso para identificar um visitante único se o navegador do visitante não aceitar cookies. |
 
 >[!NOTE]

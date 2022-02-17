@@ -1,16 +1,14 @@
 ---
 description: Um conjunto de regras é um grupo de regras de classificação para uma variável específica. Você aplica uma variável ao conjunto de regras. Se deseja criar vários conjuntos de regras para uma variável, você deve aplicar cada conjunto de regras a vários conjuntos de relatórios.
-subtopic: Classifications
 title: Conjuntos de regras de classificação
-feature: Ferramentas administrativas
-uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+feature: Classifications
+exl-id: 5c118541-d143-4947-b693-514d7042abe6
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
-
 
 # Conjuntos de regras de classificação
 

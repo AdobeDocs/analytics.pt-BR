@@ -1,16 +1,14 @@
 ---
 description: (Opcional) Antes de importar as classificações para os relatórios de marketing, é possível fazer o download de um modelo que ajude você a criar um arquivo de dados de classificações. O arquivo de dados usa suas classificações desejadas como cabeçalho de coluna, e então organiza o conjunto de dados do relatório dentro dos cabeçalhos de classificação apropriados.
-subtopic: Classifications
 title: Modelo de classificação
-feature: Ferramentas administrativas
-uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
-source-wordcount: '353'
+feature: Classifications
+exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
-
 
 # Modelo de classificação
 
@@ -52,4 +50,3 @@ O modelo fornece o formato de arquivo que deve ser seguido para as classificaç�
 1. Salve o arquivo de modelo em seu sistema local.
 
    O arquivo de modelo é um arquivo de dados delimitado por tabulação (extensão de arquivo [!DNL .tab]) que a maioria dos aplicativos de planilha eletrônica suporta.
-

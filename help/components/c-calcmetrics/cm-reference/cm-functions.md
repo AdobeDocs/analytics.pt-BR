@@ -1,11 +1,10 @@
 ---
 description: O Criador de métricas calculadas permite aplicar funções matemáticas e estatísticas para criar Métricas calculadas avançadas.
 title: 'Referência: funções básicas'
-uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
+feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -47,7 +46,7 @@ MAXV(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | Uma métrica que você gostaria de avaliar. |
+| *métrica* | Uma métrica que você gostaria de avaliar. |
 
 ## Mínimo da coluna {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -59,7 +58,7 @@ MINV(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | Uma métrica que você gostaria de avaliar. |
+| *métrica* | Uma métrica que você gostaria de avaliar. |
 
 ## Soma da coluna {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -71,7 +70,7 @@ SUM(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica para a qual você deseja obter o valor total ou soma. |
+| *métrica* | A métrica para a qual você deseja obter o valor total ou soma. |
 
 ## Contagem (Tabela) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -83,7 +82,7 @@ COUNT(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica que deseja contar. |
+| *métrica* | A métrica que deseja contar. |
 
 ## Expoente (Linha) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
@@ -95,7 +94,7 @@ EXP(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | O exponente aplicado à base *e*. |
+| *métrica* | O exponente aplicado à base *e*. |
 
 ## Exponenciação {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -115,7 +114,7 @@ MEAN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica para a qual você deseja obter a média. |
+| *métrica* | A métrica para a qual você deseja obter a média. |
 
 ## Mediana (Tabela) {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -127,7 +126,7 @@ MEDIAN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *metric* | A métrica para a qual você deseja obter a mediana. |
+| *métrica* | A métrica para a qual você deseja obter a mediana. |
 
 ## Módulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
@@ -163,7 +162,7 @@ PERCENTILE(metric,k)
 
 | Argumento | Descrição |
 | --- | --- |
-| *metric* | A coluna de métrica que define a posição relativa. |
+| *métrica* | A coluna de métrica que define a posição relativa. |
 | *k* | O valor do percentil no intervalo de 0 a 100, inclusive. |
 
 ## Quartil (Tabela) {#concept_BFD37F0F23A24AD181407142233FA151}
@@ -176,7 +175,7 @@ QUARTILE(metric,quart)
 
 | Argumento | Descrição |
 | --- | --- |
-| *metric* | A métrica para a qual você deseja obter o valor do quartil. |
+| *métrica* | A métrica para a qual você deseja obter o valor do quartil. |
 | *quart* | Indica o *valor a retornar. |
 
 *Se *quart* = 0, QUARTILE retorna o valor mínimo. Se *quart* = 1, QUARTILE retorna o primeiro quartil (percentil 25). Se *quart* = 2, QUARTILE retorna o primeiro quartil (percentil 50). Se *quart* = 3, QUARTILE retorna o primeiro quartil (percentil 75). Se *quart* = 4, QUARTILE retorna o valor máximo.
@@ -246,7 +245,7 @@ STDEV(metric)
 
 | Argumento | Descrição |
 | --- | --- |
-| *metric* | A métrica para a qual você deseja obter o desvio padrão. |
+| *métrica* | A métrica para a qual você deseja obter o desvio padrão. |
 
 ## Variação (Tabela) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -264,7 +263,7 @@ VARIANCE(metric)
 
 | Argumento | Descrição |
 | --- | --- |
-| *metric* | A métrica para a qual você deseja obter a variação. |
+| *métrica* | A métrica para a qual você deseja obter a variação. |
 
 Para calcular uma variação, considere uma coluna inteira de números. Nessa lista de números, calcule primeiro a média. Após obter a média, faça o seguinte em cada entrada:
 

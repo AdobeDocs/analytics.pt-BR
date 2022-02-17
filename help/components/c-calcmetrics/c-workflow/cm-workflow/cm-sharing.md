@@ -1,11 +1,10 @@
 ---
 description: Dependendo das suas permissões, é possível compartilhar métricas com toda a organização, com grupos ou com usuários individuais.
 title: Compartilhar métricas calculadas
-uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
+feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
 

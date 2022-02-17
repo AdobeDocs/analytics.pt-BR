@@ -1,8 +1,9 @@
 ---
 title: Pessoas
 description: O número de indivíduos únicos, geralmente com vários dispositivos.
+feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%

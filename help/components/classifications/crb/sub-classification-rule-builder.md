@@ -1,13 +1,14 @@
 ---
 description: Não é possível combinar o Construtor de regras de classificação com subclassificações.
 title: Subclassificações e o Construtor de regras
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+feature: Classifications
+exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
 ---
-
 
 # Subclassificações e o Construtor de regras
 

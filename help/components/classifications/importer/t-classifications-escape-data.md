@@ -1,13 +1,11 @@
 ---
 description: Etapas que podem descrever como evitar os dados de classificação no arquivo de classificação.
-subtopic: Classifications
 title: Evitar os dados de classificação
-feature: Ferramentas administrativas
-uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
+feature: Classifications
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '106'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '104'
 ht-degree: 100%
 
 ---

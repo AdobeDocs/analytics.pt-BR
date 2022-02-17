@@ -2,12 +2,11 @@
 description: Clique no ícone i (Informações) ao lado do nome do conjunto de relatórios para obter informações sobre ele.
 keywords: Conjunto de relatórios virtuais
 title: Exibir informações do conjunto de relatórios virtual
-feature: Noções básicas do Reports & Analytics
-uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
+feature: VRS
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '101'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---

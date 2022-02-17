@@ -1,9 +1,10 @@
 ---
 title: Tempo antes do evento
 description: A quantidade de tempo entre a métrica e a primeira ocorrência da visita.
+feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 

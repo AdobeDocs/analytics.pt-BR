@@ -1,11 +1,10 @@
 ---
 description: O Gerenciador de métricas calculadas permite cuidar de suas métricas de várias maneiras, como compartilhar, filtrar, marcar, aprovar, copiar, excluir e marcar como favoritos.
 title: Gerenciador de métricas calculadas
-uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
+feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 100%
 

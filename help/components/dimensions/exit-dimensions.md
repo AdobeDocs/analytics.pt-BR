@@ -2,10 +2,10 @@
 title: Dimensões de saída
 description: Lista as dimensões de saída e o seu uso.
 keywords: página de saída, seção do site de saída, servidor de saída, sair do Custom Insight
+feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 

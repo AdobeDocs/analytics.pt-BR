@@ -1,12 +1,12 @@
 ---
 title: Tempo médio no site
 description: A quantidade média de tempo em que um determinado item de dimensão existia entre ocorrências.
+feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,10 +37,10 @@ Por exemplo, considere esta visita:
 
 Se você quiser ver o tempo médio no site para o item de dimensão `Product page A`, primeiro pegue a quantidade de tempo decorrido entre as ocorrências dessa dimensão:
 
-* **12:04:20 - 12:05:30** - 1 minuto 10 segundos
-* **12:05:30 - 12:07:00** - 1 minuto 30 segundos
-* **12:07:40 - 12:08:10** - 30 segundos
-* **12:25:40 - ?** - Não incluído
+* **12º:04:20 - 12:05:30º** - 1 minuto 10 segundos
+* **12º:05:30 - 12:07:00** - 1 minuto 30 segundos
+* **12º:07:40 - 12:08:10º** - 30 segundos
+* **12º:25:40 - ?** - Não incluído
 
 O tempo total gasto para `Product page A` é `00:03:10`. Houve duas sequências nessa visita; a primeira sequência para os dois valores consecutivos e a segunda antes do check-out. A última ocorrência da visita não é uma sequência, pois não há carimbo de data e hora final.
 
