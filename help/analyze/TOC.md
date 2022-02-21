@@ -7,7 +7,7 @@ user-guide-description: Fornece instruções passo a passo para o Analysis Works
 source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -295,7 +295,7 @@ ht-degree: 97%
       + [Menu de relatórios](reports-analytics/overview/reports-menu.md)
       + [Recursos do relatório](reports-analytics/overview/report-overview.md)
       + [Termos comuns](reports-analytics/overview/overview-common-terms.md)
-      + [Adobe Analytics for iOS](reports-analytics/overview/app-ios.md)
+      + [Adobe Analytics para iOS](reports-analytics/overview/app-ios.md)
    + [Configurações e navegação da exibição de relatórios](reports-analytics/report-settings.md)
    + [Agendamento e distribuição de relatórios](reports-analytics/scheduling.md)
    + [Tipos de relatórios](reports-analytics/reports.md)

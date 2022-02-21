@@ -1,12 +1,12 @@
 ---
 title: Exibir anotações
-description: Como visualizar anotações no Workspace.
+description: Como visualizar anotações no Espaço de trabalho.
 role: User, Admin
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 6%
+ht-degree: 78%
 
 ---
 
@@ -23,15 +23,15 @@ As anotações se manifestam de forma um pouco diferente, dependendo se abrangem
 | Data | Aparência |
 | --- | --- |
 | **Dia único** | ![](assets/single-day.png) |
-| **Intervalo de datas** | O ícone muda e quando você passa o mouse sobre ele, o intervalo de datas é exibido.<p>![](assets/multi-day.png)<p>Em uma tabela, um ícone é exibido em cada data no intervalo de datas.<p>![](assets/multi-day-table.png)<p>Observe o seguinte: em dias que tenham mais de uma anotação vinculada a eles, o ícone será uma cor cinza. |
+| **Intervalo de datas** | O ícone muda, e quando você passa o mouse sobre ele, o intervalo de datas é exibido.<p>![](assets/multi-day.png)<p>Em uma tabela, um ícone é exibido em cada data no intervalo de datas.<p>![](assets/multi-day-table.png)<p>Observe o seguinte: em dias que tenham mais de uma anotação vinculada a eles, o ícone será de cor cinza. |
 
-## Exibir anotações em um gráfico de Resumo
+## Exibir anotações em um gráfico de resumo
 
 ![](assets/ann-summary.png)
 
-## Exibir anotações em um arquivo .pdf
+## Exibir anotações em um arquivo PDF
 
-Como não é possível passar o mouse sobre os ícones em um arquivo .pdf, esse arquivo (após a exportação) fornece notas explicativas na parte inferior de um painel. Exemplo:
+Como não é possível passar o mouse sobre os ícones em um arquivo PDF, esse arquivo (após a exportação) fornece notas explicativas na parte inferior de um painel. Exemplo:
 
 ![](assets/ann-pdf.png)
 
