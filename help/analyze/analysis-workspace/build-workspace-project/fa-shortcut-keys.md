@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Observação:
 
 | Ação | Atalho |
 | --- | --- |
-| Criar novo projeto | ctrl + shift + p |
-| Abrir projeto existente | ctrl + o |
+| Criar novo projeto | ctrl+shift+p |
+| Abrir projeto existente | ctrl+o |
 | Ir para o painel Painéis | Alt+Shift+1 |
 | Ir para o painel Visualizações | Alt+Shift+2 |
 | Ir para o painel Componentes | Alt+Shift+3 |
@@ -39,18 +39,18 @@ Observação:
 | Ação | Atalho |
 | --- | --- |
 | Pesquisar painel esquerdo | Ctrl+/ |
-| Criar um alerta | ctrl + shift + a |
-| Criar uma anotação | ctrl + shift + o |
-| Criar métrica calculada | ctrl + shift + c |
-| Criar um intervalo de datas | ctrl + shift + d |
-| Criar um segmento | ctrl + shift + e |
+| Criar um alerta | ctrl+shift+a |
+| Criar uma anotação | Ctrl+Shift+o |
+| Criar métrica calculada | ctrl+shift+c |
+| Criar um intervalo de datas | ctrl+shift+d |
+| Criar um segmento | ctrl+shift+e |
 | Limpar tudo | Alt+W |
-| Copiar | ctrl + c |
-| Refazer | ctrl + shift + z |
-| Desfazer | ctrl + z |
+| Copiar | ctrl+c |
+| Refazer | ctrl+shift+z |
+| Desfazer | ctrl+z |
 | Atualizar componentes | Alt+Shift+R |
 | Atualizar projeto | Alt+R |
-| Definir como página inicial | ctrl + shift + l |
+| Definir como página inicial | ctrl+shift+l |
 
 ## Adicionar painéis e ações de visualização
 
@@ -71,13 +71,13 @@ Observação:
 
 | Ação | Atalho |
 | --- | --- |
-| Salvar projeto | ctrl + s |
-| Salvar projeto como | ctrl + shift + s |
+| Salvar projeto | ctrl+s |
+| Salvar projeto como | ctrl+shift+s |
 | Salvar como modelo | Alt+T |
-| Baixar como CSV | ctrl + shift + v |
-| Baixar como PDF | ctrl + shift + b |
-| Preparar dados do projeto | ctrl + shift + g |
-| Compartilhar projeto | ctrl + g |
+| Baixar como CSV | ctrl+shift+v |
+| Baixar como PDF | ctrl+shift+b |
+| Preparar dados do projeto | ctrl+shift+g |
+| Compartilhar projeto | ctrl+g |
 | Obter link do projeto | Alt+L |
 | Enviar arquivo agora | Alt+S |
 | Enviar arquivo agendado | Shift+Alt+S |
