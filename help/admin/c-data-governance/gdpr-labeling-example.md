@@ -1,10 +1,10 @@
 ---
 description: Mostra exemplos de como rotular dados de hit, solicitações de acesso, solicitações de exclusão
 title: Exemplos de rotulagem
-uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
+feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 | Dados de ocorrência | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
-|  | John | 77 | D | P | W |
+|  | John | 77º | D | P | W |
 |  | John | 88 | E | N | U |
 |  | John | 44 | F | Q | V |
 |  | John | 55 | G | R | X |
@@ -56,7 +56,7 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
     <td>false</td>
     <td>dispositivo</td>
     <td>não presente</td>
-    <td>77</td>
+    <td>77º</td>
     <td>não presente</td>
     <td>M, P</td>
     <td>X, W</td>
@@ -66,7 +66,7 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
     <td>true</td>
     <td>dispositivo</td>
     <td>não presente</td>
-    <td>77</td>
+    <td>77º</td>
     <td>não presente</td>
     <td>M, P</td>
     <td>X, W</td>
@@ -179,7 +179,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>42</td>
+    <td>42º</td>
     <td>D</td>
     <td>Privacy-1866</td>
     <td>Privacy-8216</td>
@@ -193,7 +193,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>44</td>
+    <td>44º</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
@@ -207,7 +207,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Alice</td>
-    <td>66</td>
+    <td>66º</td>
     <td>A</td>
     <td>N</td>
     <td>Z</td>
@@ -231,7 +231,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Privacy-0523</td>
-    <td>77</td>
+    <td>77º</td>
     <td>Privacy-1866</td>
     <td>Privacy-3681</td>
     <td>X</td>
@@ -252,7 +252,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>77</td>
+    <td>77º</td>
     <td>D</td>
     <td>P</td>
     <td>W</td>
@@ -266,7 +266,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>44</td>
+    <td>44º</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
@@ -280,7 +280,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Alice</td>
-    <td>66</td>
+    <td>66º</td>
     <td>A</td>
     <td>N</td>
     <td>Z</td>
@@ -332,14 +332,14 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>16</td>
+    <td>16º</td>
     <td>E</td>
     <td>Privacy-2911</td>
     <td>Privacy-2930</td>
   </tr>
   <tr>
     <td>John</td>
-    <td>44</td>
+    <td>44º</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
@@ -353,7 +353,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Alice</td>
-    <td>66</td>
+    <td>66º</td>
     <td>A</td>
     <td>N</td>
     <td>Z</td>

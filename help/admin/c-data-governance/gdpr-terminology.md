@@ -1,11 +1,10 @@
 ---
 description: Glossário de governança de dados do Adobe Analytics
 title: Terminologia do GDPR
-uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
+feature: Data Governance
 exl-id: d6e6d363-ac5e-467e-af88-f6feda9cb980
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 **Regras empresariais vinculativas (BCRs)** - um conjunto de regras vinculativas criadas para permitir que empresas e organizações multinacionais transfiram dados pessoais sob seu controle na UE para as suas afiliadas fora da UE (mas dentro da organização)
 
-**Dados biométricos** - quaisquer dados pessoais relacionados às características físicas, fisiológicas ou comportamentais de um indivíduo que permitam sua identificação exclusiva
+**Dados biométricos** - quaisquer dados pessoais relacionados às características físicas, fisiológicas ou comportamentais de um indivíduo que permitam sua identificação única
 
 **Consentimento** - consentimento explícito, informado, específico e concedido livremente por declaração ou ação, o que significa concordância com o processamento de dados pessoais
 
@@ -49,7 +48,7 @@ ht-degree: 100%
 
 **GDPR** - o Regulamento Geral sobre a Proteção de Dados (GDPR) é um framework jurídico que estabelece diretrizes para a coleta e o processamento de informações pessoais de indivíduos dentro da União Europeia (UE). O GDPR define os princípios do gerenciamento de dados e os direitos do indivíduo, além de impor multas que podem ser baseadas na receita. O GDPR abrange todas as empresas que lidam com os dados dos cidadãos da UE; por isso, é uma regulamentação crítica para os responsáveis pela conformidade corporativa em bancos, seguradoras e outras empresas financeiras. O GDPR entrará em vigor em toda a UE em 25 de maio de 2018.
 
-**Dados genéticos** - dados relativos às características de um indivíduo que são herdadas ou adquiridas e fornecem informações exclusivas sobre sua saúde ou fisiologia
+**Dados genéticos** - dados relativos às características de um indivíduo que são herdadas ou adquiridas e fornecem informações únicas sobre sua saúde ou fisiologia
 
 **Grupo de empresas** - uma empresa controladora e suas empresas controladas
 
