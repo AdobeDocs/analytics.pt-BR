@@ -3,9 +3,9 @@ description: O que você precisa saber sobre a migração de IDs de usuários do
 title: Migração de usuários do Analytics para o Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '3119'
+source-wordcount: '3115'
 ht-degree: 98%
 
 ---
@@ -280,7 +280,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
   </tr> 
   <tr> 
    <td colname="col1"> <p>APIs de gerenciamento de usuários - <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">Tipos de identidades suportadas pela Adobe</a> </p> </td> 
-   <td colname="col2"> <p> Os administradores que migrarem para o Admin Console devem configurar <a href="https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html">APIs de gerenciamento de usuários</a> oferecidas no Adobe I/O para permitir o acesso programático a contas de usuário no Admin Console. </p> <p>As APIs de permissão do Analytics serão desativadas quando você estiver apto para a migração. </p> </td> 
+   <td colname="col2"> <p> Os administradores que migrarem para o Admin Console devem configurar <a href="https://developer.adobe.com/UMAPI/">APIs de gerenciamento de usuários</a> oferecidas no Adobe I/O para permitir o acesso programático a contas de usuário no Admin Console. </p> <p>As APIs de permissão do Analytics serão desativadas quando você estiver apto para a migração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Credenciais do Serviço Web </p> </td> 

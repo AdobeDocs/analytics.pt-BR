@@ -3,10 +3,10 @@ description: Tempo de processamento de relatórios é uma configuração de conj
 title: Processamento de tempo do relatório
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 100%
+source-wordcount: '1443'
+ht-degree: 96%
 
 ---
 
@@ -30,14 +30,14 @@ Durante o processamento de dados do Analytics, os dados fluem do pipeline de col
 
 Esta arquitetura de processamento permite opções de relatórios muito mais flexíveis. Por exemplo, você pode alterar o tempo limite de visita para qualquer duração desejada de forma não destrutiva e essas alterações são refletidas em sua persistência de eVar e nos contêineres dos segmentos retroativamente como se você tivesse aplicado essas configurações antes da coleta dos dados. Além disso, você pode criar qualquer número de conjuntos de relatórios virtuais, cada um com diferentes opções de Processamento de tempo do relatório com base em um mesmo conjunto de relatórios base, sem alterar os dados no conjunto de relatórios base.
 
-[!UICONTROL O Processamento de tempo de relatório] também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e permite que o [SDK móvel](https://www.adobe.io/apis/cloudplatform/mobile.html) informe os relatórios para iniciar uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
+[!UICONTROL Processamento de tempo do relatório] O também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e permite que a variável [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) para informar aos relatórios para iniciar uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
 
 ## Opções de configuração
 
 As seguintes opções de configuração estão disponíveis atualmente para conjuntos de relatórios virtuais com o Processamento de tempo do relatório ativado:
 
 * **[!UICONTROL Tempo limite de visita]:** a configuração de tempo limite de visita define a quantidade de inatividade que um visitante único deve ter antes que uma nova visita seja iniciada automaticamente. O padrão é 30 minutos. Por exemplo, se o tempo limite de visita for definido para 15 minutos, um novo grupo de visitas será criado para cada sequência de ocorrências coletadas, separadas por 15 minutos de inatividade. Essa configuração afeta não apenas a sua visita, mas também a forma como os contêineres do segmento de visitas são avaliados e a lógica de expiração de visita para todas as eVars que expiram na visita. Diminuir o tempo limite de visita provavelmente aumentará o número total de visitas em seus relatórios, ao passo que aumentar o tempo limite provavelmente diminuirá o número total de visitas em seus relatórios.
-* **[!UICONTROL Configurações de visita de aplicativos móveis]:** para conjuntos de relatórios que contenham dados gerados por aplicativos móveis por meio dos [SDKs móveis da Adobe Mobile](https://www.adobe.io/apis/cloudplatform/mobile.html), estão disponíveis configurações de visita adicionais. Essas configurações não são destrutivas e afetam somente as ocorrências que foram coletadas por meio dos SDKs móveis. Essas configurações não têm impacto nos dados coletados fora do SDK móvel.
+* **[!UICONTROL Configurações de visita de aplicativos móveis]:** para conjuntos de relatórios que contenham dados gerados por aplicativos móveis por meio dos [SDKs móveis da Adobe Mobile](https://experienceleague.adobe.com/docs/mobile.html), estão disponíveis configurações de visita adicionais. Essas configurações não são destrutivas e afetam somente as ocorrências que foram coletadas por meio dos SDKs móveis. Essas configurações não têm impacto nos dados coletados fora do SDK móvel.
 * **[!UICONTROL Impedir ocorrências em segundo plano de iniciar uma nova visita]:** as ocorrências em segundo plano são coletadas pelos SDKs móveis quando o aplicativo está em segundo plano.
 * **[!UICONTROL Iniciar uma nova visita a cada inicialização do aplicativo]:** além do tempo limite de visita, é possível forçar o início de uma visita sempre que um evento de inicialização de aplicativo for gravado dos SDKs móveis, independentemente da janela de inatividade. Essa configuração afeta a métrica de visitas e o contêiner do segmento de visitas, bem como a lógica de expiração de visita nas eVars.
 * **[!UICONTROL Iniciar nova visita com evento]:** uma nova sessão começa quando um evento é acionado, independentemente de uma sessão ter ultrapassado o tempo limite. A sessão recentemente criada inclui o evento que a iniciou. Além disso, é possível usar vários eventos para começar uma sessão e uma nova sessão é acionada se qualquer um desses eventos for observado nos dados. Esta configuração afetará a contagem de visitas, o contêiner de segmentação de visitas e a lógica de expiração de visitas nas eVars.

@@ -3,10 +3,10 @@ description: A cada ID para a qual você deseja poder pesquisar, é atribuído u
 title: Namespaces
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ A sequência de caracteres do namespace é usada para identificar os campos que 
 * Um campo de “type” que, para a maioria das solicitações do Adobe Analytics, contém o valor “analytics”.
 * Um campo de “value” contendo a ID que o Analytics deve pesquisar nas variáveis de namespace associadas a cada um dos conjuntos de relatórios.
 
-Consulte a [documentação da API da Privacidade de dados da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) para obter mais detalhes.
+Consulte a [documentação da API da Privacidade de dados da Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) para obter mais detalhes.
 
 ## ID de cookies
 
@@ -74,7 +74,7 @@ Também é aceitável usar `"namespaceId": 4` em vez de ou além de `"namespace"
 
 Se o formato da porção do valor de qualquer uma dessas IDs de cookie não seguir o formato descrito para essa ID, ocorrerá uma falha na solicitação de Privacidade de dados, com um erro de &quot;Valor não formatado corretamente&quot;.
 
-Você normalmente coletará essas IDs de cookies com o novo [JavaScript de privacidade](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm), que fornecerá automaticamente todos os pares de chave/valor relevantes para essas IDs JSON.
+Você normalmente coletará essas IDs de cookies com o novo [JavaScript de privacidade](https://developer.adobe.com/experience-platform-apis/references/privacy-service/), que fornecerá automaticamente todos os pares de chave/valor relevantes para essas IDs JSON.
 
 Esse código JavaScript preenche o JSON com outros pares de chave/valor além dos listados acima (namespace, tipo, valor), mas os campos listados são os mais importantes para o processamento da Privacidade de dados do Analytics e os únicos que você precisa fornecer se coletar IDs de alguma outra maneira.
 
