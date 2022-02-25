@@ -4,10 +4,10 @@ description: Como visualizar anotações no Espaço de trabalho.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
+source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 66%
+source-wordcount: '228'
+ht-degree: 50%
 
 ---
 
@@ -23,8 +23,9 @@ As anotações se manifestam de forma um pouco diferente, dependendo se abrangem
 
 | Data | Aparência |
 | --- | --- |
-| **Dia único** | ![](assets/single-day.png) |
-| **Intervalo de datas** | O ícone muda, e quando você passa o mouse sobre ele, o intervalo de datas é exibido.<p>![](assets/multi-day.png)<p>Em uma tabela, um ícone é exibido em cada data no intervalo de datas.<p>![](assets/multi-day-table.png)<p>Observe o seguinte: em dias que tenham mais de uma anotação vinculada a eles, o ícone aparecerá em uma cor cinza. |
+| **Dia único** | ![](assets/single-day.png)<p>Ao passar o mouse sobre a anotação, é possível visualizar os detalhes, editá-la selecionando o ícone de caneta ou excluí-la:<p> ![](assets/hover.png) |
+| **Intervalo de datas** | O ícone muda, e quando você passa o mouse sobre ele, o intervalo de datas é exibido.<p>![](assets/multi-day.png)<p>Ao selecioná-lo no gráfico de linhas, os metadados da anotação são exibidos e você pode editá-los ou excluí-los:![](assets/multi-hover.png)<p>Em uma tabela, um ícone é exibido em cada data no intervalo de datas.<p>![](assets/multi-day-table.png) |
+| **Sobreposição de anotações** | Nos dias que tiverem mais de uma anotação vinculada a eles, o ícone aparecerá em uma cor cinza.<p>![](assets/grey.png)<p>Quando você passa o mouse sobre o ícone cinza, todas as anotações sobrepostas são exibidas:<p>![](assets/overlap.png) |
 
 ## Exibir anotações em um gráfico de resumo
 

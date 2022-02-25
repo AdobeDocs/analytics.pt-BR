@@ -1,9 +1,9 @@
 ---
 description: Classificações são usadas para categorizar valores em grupos e relatórios no nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como termos de música pop e relatar o sucesso dessa categoria com relação a métricas como Instâncias (click-throughs) e a conversão para eventos bem-sucedidos.
 title: Classificações de conversão
-feature: Admin Tools
+feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
