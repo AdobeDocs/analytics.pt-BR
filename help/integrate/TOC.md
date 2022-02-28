@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guia de integração do Analytics
 breadcrumb-title: Guia de integração
-user-guide-description: Configure integrações com outras soluções da Adobe Experience Cloud, como o Audience Manager, a Advertising Cloud e o Target.
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: Configure integrações com outras soluções da Adobe Experience Cloud, como o Audience Manager e o Advertising Cloud.
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 94%
+source-wordcount: '184'
+ht-degree: 86%
 
 ---
 
