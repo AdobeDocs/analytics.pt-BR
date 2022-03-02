@@ -3,10 +3,10 @@ title: Validar uma implementação de desenvolvimento e publicar na produção
 description: Saiba como usar tags da Adobe Experience Platform para implantar o Adobe Analytics no ambiente de produção.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 84%
 
 ---
 
@@ -14,27 +14,22 @@ ht-degree: 100%
 
 Assim que a biblioteca de tags for enviada para produção, a empresa poderá começar a usar o Adobe Analytics para receber relatórios básicos.
 
->[!NOTE]
->A Adobe Experience Platform Launch está sendo reformulada como um conjunto de tecnologias de coleção de dados na Experience Platform. Como resultado, várias alterações de terminologia foram implementadas na documentação do produto. Consulte o seguinte [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=pt-BR) para obter uma referência consolidada das alterações de terminologia.
-
 ## Pré-requisitos
 
 [Implante a implementação do Analytics no ambiente de desenvolvimento](deploy-dev.md): uma implementação do Analytics deve ser publicada no ambiente de desenvolvimento para que esta página possa ser seguida.
 
 ## Valide a implementação de desenvolvimento usando o Experience Cloud Debugger
 
-O Experience Cloud Debugger é um plug-in do Chrome que mostra todas as tags da Experience Cloud presentes em uma página.
+O Experience Cloud Debugger é uma extensão que mostra todas as tags do Experience Cloud presentes em uma página.
 
-1. Abra o [navegador da Web Chrome](https://www.google.com/intl/pt-BR/chrome/) e acesse o [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) na Chrome Web Store para instalar a extensão.
+1. Instale a extensão para [Cromo](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/adobe-experience-platform-dbg/).
 2. Navegue até o site de desenvolvimento em que você implementou as tags.
-3. Clique no ícone do Adobe Experience Cloud Debugger na parte superior direita do Chrome.
-4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, nas tags e no serviço de ID de visitante da Adobe Experience Cloud:
-
-![depurador][assets/debugger.png]
+3. Clique no ícone do Adobe Experience Cloud Debugger no navegador.
+4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, nas tags e no serviço de ID de visitante da Adobe Experience Cloud.
 
 ## Implante a implementação de desenvolvimento para preparo/produção
 
-Após a validação dos dados, você pode enviar a implementação para a versão ao vivo do site.
+Depois de validar que está vendo dados, você pode enviar sua implementação para a versão ao vivo do site.
 
 1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
 1. Clique na propriedade da tag que pretende implementar no site.
@@ -45,7 +40,7 @@ Após a validação dos dados, você pode enviar a implementação para a versã
 1. Clique na lista suspensa da biblioteca novamente e selecione **[!UICONTROL Aprovar para publicação]**.
 1. Clique na lista suspensa da biblioteca novamente (agora na coluna [!UICONTROL Aprovado]) e selecione **[!UICONTROL Criar e publicar para produção]**.
 1. Vá para a guia Ambientes e clique em **[!UICONTROL Ambiente de produção]**.
-1. Copie o cabeçalho de produção + código do rodapé e forneça aos proprietários do site. Solicite que eles implementem esse código no ambiente de produção do site.
+1. Copie o código de instalação de produção e forneça aos proprietários do site. Solicite que eles implementem esse código no ambiente de produção do site.
 
 ## Valide a implementação de produção
 
@@ -63,7 +58,7 @@ Enquanto estiver no site, abra o console de desenvolvedor do navegador (normalme
 * Não há erros de JavaScript no console. Trabalhe com os proprietários do site da empresa para garantir que todos os erros de JS sejam resolvidos.
 * O código do cabeçalho está implementado corretamente: verifique se o código do cabeçalho está dentro da tag `<head>` e se o arquivo existe.
 * A biblioteca do AppMeasurement existe: navegue diretamente para a origem de JS para verificar se o arquivo de JS contém o código. Caso contrário, verifique se cada ambiente foi criado e se a biblioteca foi publicada no respectivo ambiente.
-* Interferência de plug-ins: alguns plug-ins do Chrome podem impedir que as solicitações de imagem sejam acionadas. Desative todos os plug-ins que possam impedir o envio de dados para servidores da Adobe.
+* Interferindo extensões: Algumas extensões, como bloqueadores de anúncios, podem impedir que as solicitações de imagem sejam acionadas. Desative as extensões que podem impedir o envio de dados para o Adobe.
 
 ## Próximas etapas
 
