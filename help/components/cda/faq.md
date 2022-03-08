@@ -2,9 +2,9 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
+source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1941'
 ht-degree: 100%
 
 ---
@@ -122,7 +122,7 @@ Se um cliente fizer o downgrade do Ultimate, ele não terá mais acesso aos dado
 
 ## Por que o número total de hits no conjunto de relatórios de origem é diferente do conjunto de relatórios virtual do CDA?
 
-O CDA usa um pipeline de processamento paralelo complexo, com vários componentes dependentes. É esperada uma incompatibilidade de dados de aproximadamente 1% entre o número total de ocorrências do conjunto de relatórios original e o do conjunto de relatórios virtual do CDA. Isso tem impacto mínimo nos recursos entre dispositivos.
+O CDA usa um pipeline de processamento paralelo complexo, com vários componentes dependentes. É esperada uma incompatibilidade de dados de aproximadamente 1% entre o número total de ocorrências do conjunto de relatórios original e o do conjunto de relatórios virtual do CDA.
 
 ## Por que a métrica “Pessoas identificadas” está inflada?
 

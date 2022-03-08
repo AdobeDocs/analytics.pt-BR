@@ -4,10 +4,10 @@ description: Como gerenciar anotações no Espaço de trabalho.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 0d20c6debdb71b86aefa43e78900453f15d83e8f
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '684'
+ht-degree: 65%
 
 ---
 
@@ -46,7 +46,21 @@ Editar uma anotação significa que você pode ajustar intervalos de datas, core
 
 * No [!UICONTROL Gerenciador de anotações], clique no título da anotação.
 
-Ambas as opções o direcionam de volta ao Criador de anotações. Lá, é possível fazer os ajustes necessários e salvar a nova versão.
+Ambas as opções levam você de volta ao [!UICONTROL Construtor de anotações]. Lá, é possível fazer os ajustes necessários e salvar a nova versão.
+
+## Compartilhar anotações
+
+Ao compartilhar anotações ou trabalhar com anotações compartilhadas com você, lembre-se:
+
+* Digamos que você crie um projeto com anotações somente de projeto e, em seguida, compartilhe o projeto com outro usuário. Essas anotações serão exibidas, mas não poderão ser editadas ou excluídas por ninguém com quem você compartilha o projeto.
+
+* Se você salvar uma anotação e compartilhá-la diretamente com um usuário, ele poderá editar/excluir a anotação somente se tiver direitos de administrador.
+
+* Para recapitular, se o projeto for compartilhado com você, ele será exibido somente nesse projeto. Se a anotação for compartilhada diretamente com você, ela será exibida em todos os projetos nos quais essa anotação pode ser exibida.
+
+## Anotações e fusos horários
+
+Todas as anotações são criadas com um carimbo de data e hora, mas sem informações de horas ou fuso horário. No momento do relatório, o fuso horário do conjunto de relatórios do painel é sempre aplicado. Assim, uma anotação criada para o dia de Natal acontece em 25 de dezembro - independentemente do fuso horário do conjunto de relatórios em que você estiver. Outro exemplo é o Dia de Ano Novo. A cada hora, um fuso horário diferente dispara fogos de artifício conforme o ano novo começa. Às 22h00, Hora das Montanhas dos EUA, a costa leste dos EUA está disparando o fogo porque já é 12h da Hora do Leste.
 
 ## Outras tarefas de anotações
 
@@ -56,10 +70,10 @@ Basta selecionar uma ou mais anotações e a barra de tarefas é exibida.
 
 | Tarefa | Descrição |
 | --- | --- |
-| Adicionar | Direciona para o construtor de anotações, onde é possível criar novas anotações. |
-| Tag | Todos os usuários podem criar tags para anotações e aplicar uma ou mais tags a uma anotação. Entretanto, você pode exibir tags somente dos segmentos proprietários. Que tipos de tags você deve criar? Estas são algumas sugestões para tags úteis:<ul><li>Tags com base em nomes de equipe, como Marketing social, Marketing móvel</li><li>Tags de projeto (tags de análise), como análises de página de entrada</li><li>Tags de categoria: masculino; geografia</li><li>Tags de fluxo de trabalho: organizado para (uma unidade de negócio específica); Aprovado</li></ul> |
-| Excluir | Excluir uma anotação a remove de qualquer projeto em sua organização. |
-| Renomear | Renomear uma anotação a renomeia em todos os projetos aos quais foi aplicada. |
-| Copiar | Cria uma cópia distinta com sua própria ID de anotação, mas com o mesmo nome e definição. |
-| Exportar para CSV | Exporte a definição da anotação para um arquivo CSV. |
-| Filtro (painel esquerdo) | Filtre por tags, conjunto de relatórios, proprietários e outros filtros (Meus, Aprovados, Favoritos, Compartilhados comigo e Mostrar todos). |
+| [!UICONTROL Adicionar] | Direciona para o construtor de anotações, onde é possível criar novas anotações. |
+| [!UICONTROL Tag] | Todos os usuários podem criar tags para anotações e aplicar uma ou mais tags a uma anotação. No entanto, você pode ver tags somente para as anotações que possui. Que tipos de tags você deve criar? Estas são algumas sugestões para tags úteis:<ul><li>Tags com base em nomes de equipe, como Marketing social, Marketing móvel</li><li>Tags de projeto (tags de análise), como análises de página de entrada</li><li>Tags de categoria: masculino; geografia</li><li>Tags de fluxo de trabalho: organizado para (uma unidade de negócio específica); Aprovado</li></ul> |
+| [!UICONTROL Excluir] | Excluir uma anotação a remove de qualquer projeto em sua organização. |
+| [!UICONTROL Renomear] | Renomear uma anotação a renomeia em todos os projetos aos quais foi aplicada. |
+| [!UICONTROL Copiar] | Cria uma cópia distinta com sua própria ID de anotação, mas com o mesmo nome e definição. |
+| [!UICONTROL Exportar para CSV] | Exporte a definição da anotação para um arquivo CSV. |
+| [!UICONTROL Filtro] (painel esquerdo) | Filtre por tags, conjunto de relatórios, proprietários e outros filtros (Meus, Aprovados, Favoritos, Compartilhados comigo e Mostrar todos). |

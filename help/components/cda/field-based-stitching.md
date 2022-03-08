@@ -2,16 +2,16 @@
 title: Compilação em campo
 description: Entenda os pré-requisitos e as limitações da compilação de dados usando a compilação em campo.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
-workflow-type: ht
+source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
+workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Compilação em campo
 
-O Cross-Device Analytics fornece dois métodos distintos para compilar dados. Esse método depende de uma variável do Analytics, como uma [prop](/help/implement/vars/page-vars/prop.md) ou [eVar](/help/implement/vars/page-vars/evar.md), para conter um identificador de pessoa. Ele usa essa variável como base para vincular dispositivos. A Adobe recomenda essa opção de compilação para obter mais transparência e previsibilidade no rastreamento do visitante.
+O Cross-Device Analytics fornece dois métodos distintos para compilar dados. Esse método depende de uma variável do Analytics, como uma [prop](/help/implement/vars/page-vars/prop.md) ou [eVar](/help/implement/vars/page-vars/evar.md), para conter um identificador de pessoa. Ele usa essa variável como base para vincular dispositivos. O Adobe recomenda essa opção de costura para obter mais transparência e previsibilidade no rastreamento do visitante.
 
 ## Pré-requisitos específicos da compilação em campo
 
