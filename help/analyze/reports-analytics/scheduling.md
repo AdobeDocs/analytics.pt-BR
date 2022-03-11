@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 97%
+source-wordcount: '1717'
+ht-degree: 89%
 
 ---
 
@@ -30,16 +30,16 @@ Devido às diferenças entre os mecanismos e plataformas de processamento, os di
 
 Essas limitações referem-se a relatórios individuais agendados e baixados; os painéis são limitados à quantidade de espaço disponível em um reportlet.
 
->[!NOTE]
->
->O &quot;Tempo de entrega&quot;/&quot;Horário do dia&quot; inserido pelo usuário especifica o horário em que o relatório deve começar a ser processado, e não o horário em que ele será realmente entregue. O horário real em que o relatório será entregue baseia-se principalmente no tempo necessário para o processamento (relatórios complexos e grandes demoram mais para serem processados do que relatórios mais simples). Por exemplo, se um relatório levar 15 minutos para ser processado, o tempo de entrega real será de pelo menos 15 minutos depois do &quot;Tempo de entrega&quot;/&quot;Horário do dia&quot; especificado originalmente.
->Além disso, existem outros fatores que podem aumentar ainda mais o atraso antes que o relatório seja efetivamente entregue:
->
-> * **Execução de vários agendamentos diferentes do mesmo tipo ao mesmo tempo** (por exemplo, muitos painéis, etc.) pode sobrecarregar o sistema. O sistema de Agendamento permite que apenas alguns (5-10) relatórios de qualquer tipo sejam executados simultaneamente. Portanto, quando mais de 5-10 forem agendados de uma só vez, alguns precisarão aguardar a conclusão de outros relatórios para que possam começar o processamento. Esse problema pode ser resolvido agendando os relatórios de uma empresa em momentos alternados ao longo do dia ou da hora, em vez de simultaneamente.
-> * Além do tipo de relatório específico (Painéis, etc.), os relatórios também aguardam na fila se a empresa tiver **mais de 15 a 20 de qualquer tipo de relatório agendado de uma só vez (em todos os tipos de relatório diferentes)**. Esse problema pode ser resolvido alternando os horários de agendamento, em vez de executar muitos exatamente ao mesmo tempo.
-> * **Problemas nos serviços downstream** de que o Agendador depende também podem afetar a entrega de relatórios. Por exemplo, se você estiver usando as APIs de maneira independente para executar relatórios e preencher a fila de solicitações de API, os relatórios agendados podem ser entregues lentamente enquanto você concorre por esse recurso.
-> * A **latência do conjunto de relatórios** (um atraso na coleta de dados) também pode atrasar alguns relatórios agendados.
+## Tempo de entrega vs. Tempo de processamento
 
+O &quot;Tempo de entrega&quot; ou &quot;Horário do dia&quot; inserido pelo usuário especifica o horário em que o relatório deve começar a ser processado, não o horário em que ele será realmente entregue. Quando o relatório for entregue, será baseado principalmente no tempo necessário para o processamento. Relatórios complexos e grandes demoram mais para serem processados do que relatórios mais simples. Por exemplo, se um relatório levar 15 minutos para ser processado, o tempo de entrega real será de pelo menos 15 minutos depois do &quot;Tempo de entrega&quot; ou &quot;Hora do dia&quot; especificado originalmente.
+
+Além disso, existem outros fatores que podem aumentar ainda mais o atraso antes que o relatório seja efetivamente entregue:
+
+* **Execução de vários agendamentos diferentes do mesmo tipo ao mesmo tempo** (por exemplo, muitos painéis, etc.) pode sobrecarregar o sistema. O sistema Scheduling permite que apenas alguns (5-10) relatórios de qualquer tipo sejam executados simultaneamente. Quando mais de 5 a 10 estão agendados de uma só vez, alguns precisarão aguardar a conclusão de outros relatórios para que possam começar o processamento. Esse problema pode ser resolvido agendando os relatórios de uma empresa em momentos alternados ao longo do dia ou da hora, em vez de simultaneamente.
+* Além do tipo de relatório específico (Painéis, etc.), os relatórios também aguardam na fila se a empresa tiver **mais de 15 a 20 de qualquer tipo de relatório agendado de uma só vez (em todos os tipos de relatório diferentes)**. Esse problema pode ser resolvido alternando os horários de agendamento, em vez de executar muitos exatamente ao mesmo tempo.
+* **Problemas nos serviços downstream** de que o Agendador depende também podem afetar a entrega de relatórios. Por exemplo, se você estiver usando as APIs de maneira independente para executar relatórios e preencher a fila de solicitações de API, os relatórios agendados podem ser entregues lentamente enquanto você concorre por esse recurso.
+* A **latência do conjunto de relatórios** (um atraso na coleta de dados) também pode atrasar alguns relatórios agendados.
 
 
 ## Enviar um relatório {#task_27642CD33D484FD0BF59EBD159EEF52C}
@@ -59,7 +59,7 @@ Etapas que descrevem como fazer o download e enviar por email relatórios em vá
 1. Clique em **[!UICONTROL Opções avançadas de entrega]** para especificar um cronograma de entrega.
 
 | Opção | Descrição |
-|--- |--- |
+| --- |--- |
 | Nome do arquivo de relatório | Digite o nome do relatório. O formato padrão é `<report name> for <suite> - <report date range>`. Para especificar um nome personalizado, selecione [!UICONTROL Personalizado]. |
 | Formato do Relatório | Permite que você especifique PDF, CSV, Excel, HTML, Word, ou formatos móveis para a entrega. Se você selecionar CSV, você também pode especificar a codificação para CSV:<ul><li>Shift-JIS: codificação de caracteres japoneses.</li><li>EUC-JP: código Unix Extended, principalmente para japonês, coreano e chinês simplificado.</li></ul> |
 | Conteúdos do relatório | <ul><li>Número de linhas na tabela: especifique o número de linhas que devem ficar visíveis na tabela do relatório que você está enviando.</li><li>Idioma para cabeçalho e rodapé: especifique o idioma para o cabeçalho e rodapé.</li><li>comentários: especifique o texto a ser exibido no começo do relatório.</li></ul> |
@@ -119,7 +119,7 @@ Etapas que descrevem como compartilhar um relatório gerando um link de relatór
 
 Quando o destinatário clica no link, o sistema solicita ao as credenciais de logon (nome da empresa, nome de usuário e senha). Após o logon, o relatório gerado pelo usuário original é exibido ao destinatário. Restrições de permissão padrão se aplicam.
 
-**Compartilhamento de um link de relatório**
+Compartilhamento de um link de relatório,
 
 1. Executar um relatório.
 1. Clicar em **[!UICONTROL Mais]** > **[!UICONTROL Vincular a este relatório]**.
