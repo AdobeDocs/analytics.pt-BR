@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
-source-wordcount: '1750'
-ht-degree: 100%
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+workflow-type: tm+mt
+source-wordcount: '1714'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 Informações sobre agendamento, download e distribuição de relatórios.
 
 >[!IMPORTANT]
->A partir de **31 de dezembro de 2023**, a Adobe pretende descontinuar o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham. Quando isso ocorrer, o Reports &amp; Analytics e todos os seus relatórios e agendas não funcionarão mais. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
+>A partir de 15 de abril de 2022, o Adobe pretende pausar todos os relatórios agendados que tenham uma data de criação superior a dois anos (quaisquer tarefas criadas antes de 31 de janeiro de 2020). Nenhum relatório ou dado será excluído. Somente os relatórios identificados como com mais de dois anos serão pausados e nenhum relatório agendado adicional será enviado. [Saiba mais](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Ao agendar um relatório para entrega no aplicativo Adobe Analytics, você pode usar as ferramentas de Agendamento e Distribuição para saber quais arquivos foram enviados automaticamente e modificar ou encerrar as entregas.
 

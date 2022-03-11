@@ -3,10 +3,10 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 76%
+source-wordcount: '913'
+ht-degree: 72%
 
 ---
 
@@ -43,7 +43,8 @@ AN-268093, AN-273820, AN-274435, AN-274904, AN-275356, AN-275947, AN-276160, AN-
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| Atualizações da região ISO 2022 | 11 de março de 2021 | O Adobe executará atualizações de 2022 na região ISO em 10 de junho de 2022. Você deve esperar pequenas atualizações após esta versão. |
+| Relatórios agendados anteriores pausados | 11 de março de 2022 | Efetivo **15 de abril de 2022**, o Adobe pretende pausar todos os relatórios agendados com uma data de criação superior a dois anos (criados antes de 31 de janeiro de 2020). Nenhum relatório ou dado será excluído. Somente os relatórios identificados como com mais de dois anos serão pausados e nenhum relatório agendado adicional será enviado. [Saiba mais](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| Atualizações da região ISO 2022 | 11 de março de 2021 | O Adobe executará atualizações de 2022 da região ISO em **10 de junho de 2022**. Você deve esperar pequenas atualizações após esta versão. |
 | Alteração de como o Analytics lida com dados A4T coletados pelo Experience Edge | 25 de fevereiro de 2022 | Ligado **7 de março de 2022**, alteraremos a forma como lidamos com alguns dados relacionados ao Target enviados para o Adobe Analytics pelo Experience Edge. Ao usar o SDK da Web da Adobe Experience Platform com o Analytics e o Target, alguns eventos de personalização eram contados em [!DNL Adobe Analytics] as [!UICONTROL Exibições de página]. Isso resultou em contagens inflacionadas de exibições de página e chamadas de servidor adicionais. Com a alteração, as chamadas de personalização sem conteúdo do Analytics serão desconsideradas. As chamadas de personalização com dados A4T registrarão os dados do A4T, mas não serão registradas como chamadas de servidor faturáveis, nem afetarão as exibições de página ou as métricas de evento do link. |
 | Pausando tarefas Report Builder agendadas mais antigas | 24 de fevereiro de 2022 | **Em vigor em 15 de abril de 2022**, o Adobe pretende pausar todas as tarefas Report Builder programadas que foram criadas há mais de dois anos. Especificamente, essa pausa se aplica a qualquer tarefa criada antes de 31 de janeiro de 2020. Nenhuma tarefa, pasta de trabalho ou dados será excluída. No entanto, as tarefas identificadas como com mais de dois anos serão pausadas e nenhuma tarefa agendada adicional será enviada. [Saiba mais](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | Expiração de lista de permissões de extensão EOL para integrações OAuth/JWT herdadas do Analytics | 14 de janeiro de 2022 | Em **25 de maio de 2022**, a [API do Analytics 1.3, a API SOAP 1.4 e a extensão de lista de permissões do Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) herdado irá expirar. Ela era fornecida para que os clientes que usavam credenciais herdadas do [!DNL Adobe Analytics] OAuth/JWT tivessem mais tempo para migrar suas integrações de clientes para as [credenciais do Adobe IMS](https://developer.adobe.com/console). Essa expiração afeta (mas não se limita a) [!DNL Adobe Analytics Livestream] e [!DNL Adobe Campaign] clientes que não concluíram as migrações de IMS necessárias. Atualmente, os clientes que estão usando as [!DNL Analytics] credenciais OAuth/JWT herdadas por meio da extensão da lista de permissões e que não concluírem a migração para credenciais do IMS até o dia 25 de maio de 2022, perderão o acesso aos serviços da Adobe. Os clientes do Livestream podem se referir a essas [instruções](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) ao migrar seus aplicativos de clientes para as credenciais IMS. [!DNL Campaign] os clientes podem entrar em contato com a equipe da conta da Adobe para saber como atualizar para a versão mais recente do [!DNL Campaign]. |
