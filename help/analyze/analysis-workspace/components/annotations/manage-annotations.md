@@ -4,7 +4,7 @@ description: Como gerenciar anotações no Espaço de trabalho.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 0d20c6debdb71b86aefa43e78900453f15d83e8f
+source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 65%
@@ -60,7 +60,9 @@ Ao compartilhar anotações ou trabalhar com anotações compartilhadas com voc�
 
 ## Anotações e fusos horários
 
-Todas as anotações são criadas com um carimbo de data e hora, mas sem informações de horas ou fuso horário. No momento do relatório, o fuso horário do conjunto de relatórios do painel é sempre aplicado. Assim, uma anotação criada para o dia de Natal acontece em 25 de dezembro - independentemente do fuso horário do conjunto de relatórios em que você estiver. Outro exemplo é o Dia de Ano Novo. A cada hora, um fuso horário diferente dispara fogos de artifício conforme o ano novo começa. Às 22h00, Hora das Montanhas dos EUA, a costa leste dos EUA está disparando o fogo porque já é 12h da Hora do Leste.
+Todas as anotações são criadas com um carimbo de data e hora, mas sem informações de horas ou fuso horário. No momento do relatório, o fuso horário do conjunto de relatórios do painel é sempre aplicado. Assim, uma anotação criada para o dia de Natal acontece em 25 de dezembro - independentemente do fuso horário do conjunto de relatórios em que você estiver.
+
+Outro exemplo é o Dia de Ano Novo. A cada hora, um fuso horário diferente dispara fogos de artifício conforme o ano novo começa. Às 22h00, Hora das Montanhas dos EUA, a costa leste dos EUA está disparando o fogo porque já é 12h da Hora do Leste.
 
 ## Outras tarefas de anotações
 
