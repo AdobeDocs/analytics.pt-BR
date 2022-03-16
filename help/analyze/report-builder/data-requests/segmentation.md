@@ -1,12 +1,12 @@
 ---
 description: Como adicionar, editar, aplicar e filtrar segmentos do Adobe Analytics no Report Builder.
-title: Gerenciar segmentos
+title: Gerenciar segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 100%
 
 ---

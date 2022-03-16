@@ -1,13 +1,13 @@
 ---
 description: Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As classificações também são suportadas, caso você as tenha definido.
-title: Métricas e dimensões em tempo real compatíveis
+title: Métricas e dimensões em tempo real compatíveis (administração)
 feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -1,14 +1,14 @@
 ---
 description: Fornecem sugestões para a solução de problemas e respostas a algumas das perguntas mais frequentes sobre o Analytics.
 keywords: Solução de problemas do Analytics
-title: Perguntas frequentes
+title: Perguntas frequentes sobre relatórios e análises
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 100%
+source-wordcount: '843'
+ht-degree: 99%
 
 ---
 

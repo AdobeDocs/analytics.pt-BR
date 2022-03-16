@@ -1,12 +1,12 @@
 ---
 description: Perguntas frequentes sobre segmentação.
-title: Perguntas frequentes
+title: Perguntas frequentes sobre segmentação
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '2080'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

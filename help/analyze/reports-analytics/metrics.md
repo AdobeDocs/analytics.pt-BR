@@ -1,14 +1,14 @@
 ---
 description: As métricas são a base dos relatórios e ajudam a visualizar e compreender os relacionamentos de dados e habilitar comparações lado-a-lado de diferentes conjuntos de dados sobre seu site da Web. As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, ordens, receita, e assim por diante.
-title: Métricas
+title: Compreensão de métricas
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 99%
 
 ---
 
