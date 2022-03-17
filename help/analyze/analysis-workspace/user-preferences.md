@@ -4,9 +4,9 @@ description: É possível definir preferências gerais e de projeto para usuári
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 941b2b472301c3e99f268ab98976de348573ae1b
+workflow-type: tm+mt
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,7 @@ As preferências do projeto se aplicam a novos projetos e painéis criados no An
 |  | [Tipo de painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR) | <ul><li>Forma livre (padrão)</li><li>Em branco</li><li>Insights rápidos</li></ul> |
 |  | Formato de número | <ul><li>1.000,00 (padrão)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Separador CSV caractere | <ul><li>Vírgula (padrão)</li><li>Ponto e vírgula</li><li>Dois-pontos</li><li>Estágio</li><li>Ponto</li><li>Espaço</li><li>Tabulação</li></ul> |
+|  | Tabela de forma livre | <ul><li>Exibir anomalias </li><li>Mostrar sparklines</li><li>Exibir anotações</li></ul> |
 
 ## [!UICONTROL Tema escuro]
 
