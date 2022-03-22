@@ -3,12 +3,12 @@ description: Os marcadores concedem acesso aos relatórios que você mais usa. O
 subtopic: Bookmarks
 title: Gerenciador de marcador
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '326'
 ht-degree: 98%
 
 ---
@@ -29,12 +29,12 @@ t_bookmarks_creating.xml
 
 1. Execute um relatório e, em seguida, clique em **[!UICONTROL Marcador]**.
 
-       |Nome|Um nome amigável para este marcador.|
-       |---|---|
-       |Adicionar a|Especifica a pasta em que deseja colocar o marcador.|
-       |Tornar público| Disponibiliza este marcador para usuários com acesso ao conjunto de relatórios.|
-       |Exibir relatório ao efetuar o logon| Exibe o relatório quando você faz logon.|
-   
+   | Nome | Um nome amigável para este marcador. |
+   |---|---|
+   | Adicionar a | Especifique a pasta em que deseja colocar o marcador. |
+   | Tornar público | Disponibiliza este marcador para usuários com acesso ao conjunto de relatórios. |
+   | Exibir relatório ao fazer logon | Exibe o relatório quando você efetua logon. |
+
 ## Gerenciar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
 Após criar marcadores de relatórios, você pode gerenciá-los no [!UICONTROL Gerenciador de marcadores]. Você pode editar, excluir e organizar seus marcadores e pastas a partir de um único local. 
@@ -45,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Componentes]**  >  **[!UICONTROL Todos os componentes]**  >  **[!UICONTROL Marcadores]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Marcadores]**.
 
 **Meus marcadores**
 
