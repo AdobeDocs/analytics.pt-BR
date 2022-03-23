@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: a2d3336ec89823a764ce073526836b6af70f0b76
+source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 96%
+source-wordcount: '1521'
+ht-degree: 91%
 
 ---
 
@@ -88,3 +88,4 @@ Veja abaixo uma lista das dimensões e métricas afetadas, dependendo das config
 * **eVars não relacionadas ao merchandising/eVars reservadas:** os valores definidos em uma eVar persistem apenas se o valor tiver sido definido dentro do intervalo de datas do relatório devido à janela de data do processamento de tempo de relatório. Além disso, as expirações baseadas em tempo podem expirar uma hora antes ou depois se a persistência abranger uma mudança de horário de verão.
 * **eVars de merchandising/eVars reservadas:** consulte acima. Além disso, para a sintaxe de conversão, onde a vinculação é definida como “qualquer evento”, é usado “qualquer ocorrência” no lugar disso.
 * **Tipo de ocorrência:** essa dimensão especifica se uma ocorrência está em primeiro ou em segundo plano.
+* **Dimension com (tráfego baixo) ou &quot;Únicos excedidos&quot;:** O item de linha (tráfego baixo) é determinado de forma um pouco diferente ao usar o Processamento de tempo do relatório e não é garantido que corresponda ao que é observado ao gerar relatórios sobre o Conjunto de relatórios base. Além disso, os itens de linha de dimensão que não fazem parte de Tráfego baixo não são garantidos para representar 100% dos dados desse item de linha, ao contrário de um Conjunto de relatórios base. Essas diferenças se tornam mais acentuadas quanto maior for o número de valores únicos existentes em uma dimensão.
