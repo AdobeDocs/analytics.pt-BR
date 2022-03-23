@@ -3,9 +3,9 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f3b62096b481bda29946ccb091771157dce41d9d
+source-git-commit: a6fc5b196e91803506398816ac24ae7a495a8e0a
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1012'
 ht-degree: 46%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 46%
 
 | Recurso | Descrição | [Data Alvo](releases.md) |
 | ----------- | ---------- | ------- |
-| Anotações no Workspace | As anotações no Workspace permitem que você comunique com eficácia nuances de dados contextuais e insights à sua organização. [Saiba mais](/help/analyze/analysis-workspace/components/annotations/overview.md) | A implantação gradual começa em 23 de março de 2022 |
+| Anotações no Workspace | As anotações no Workspace permitem que você comunique com eficácia nuances de dados contextuais e insights à sua organização. [Saiba mais](/help/analyze/analysis-workspace/components/annotations/overview.md) | A implantação gradual começa em 23 de março de 2022. Disponibilidade geral: 11 de abril de 2022 |
 | Atualizações da página de aterrissagem do Adobe Analytics | Atualizações na página de aterrissagem conjunta do Workspace/Reports &amp; Analytics que melhora a usabilidade e a facilidade de navegação. [Saiba mais](/help/analyze/landing.md) | 1 de abril de 2022 |
 | [!UICONTROL Próximo item] ou [!UICONTROL Item anterior] Painel Área de trabalho | O [!UICONTROL Item seguinte ou anterior] permite explorar itens que seguem ou precedem um item de dimensão de sua escolha. Por exemplo, use-o se desejar visualizar as páginas anteriores ou seguintes de uma página de produto específica, de um canal de marketing ou até mesmo de um tipo de dispositivo. Esse painel vai além dos próximos relatórios/relatórios anteriores, pois permite que você veja qualquer dimensão e não requer nenhuma nova implementação para obter insights. | 1 de abril de 2022 |
 | [!UICONTROL Resumo da página] Painel Área de trabalho | O [!UICONTROL Resumo da página] O painel fornece uma análise detalhada para uma página de sua escolha. Ela fornece os mesmos detalhes que os Relatórios e análises herdados [!UICONTROL Resumo da página] , mais muito mais. | 1 de abril de 2022 |
