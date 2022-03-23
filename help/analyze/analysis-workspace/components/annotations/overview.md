@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: e35e437a61b925625f6dc7fa2344406c5a66e5fe
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 74%
+source-wordcount: '310'
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->No momento, esse recurso está em testes limitados.
+>A implantação gradual desse recurso terá início em 23 de março de 2022. Disponibilidade geral: 11 de abril de 2022.
 
 As anotações no Workspace permitem que você comunique com eficácia nuances de dados contextuais e insights à sua organização. Elas permitem vincular eventos de calendário a dimensões/métricas específicas. Você pode anotar uma data ou um intervalo de datas com problemas de dados conhecidos, feriados, lançamentos de campanhas etc. É possível exibir graficamente os eventos e verificar se as campanhas ou outros eventos têm afetado seu tráfego local, a receita ou qualquer outra métrica.
 
