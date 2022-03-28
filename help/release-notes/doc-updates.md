@@ -4,10 +4,10 @@ description: Atualizações notáveis no conjunto de documentação do Adobe Ana
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
 workflow-type: tm+mt
-source-wordcount: '2958'
-ht-degree: 100%
+source-wordcount: '3096'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,14 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Data | Descrição |
 | --- | --- |
+| **Março de 2022** |  |
+| Nova documentação sobre Anotações no Workspace | [Anotações no Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) permitir que você comunique com eficácia nuances e insights de dados contextuais à sua organização. |
+| Atualizações da página de aterrissagem do Adobe Analytics | [Atualizações](/help/analyze/landing.md) para a página de aterrissagem conjunta do Workspace/Reports &amp; Analytics, que melhora a usabilidade e a facilidade de navegação. |
+| [!UICONTROL Próximo item] ou [!UICONTROL Item anterior] Painel Área de trabalho | Esse painel permite explorar itens que seguem ou precedem um item de dimensão de sua escolha. |
+| [!UICONTROL Resumo da página] Painel Área de trabalho | Esse painel fornece uma análise detalhada para uma página de sua escolha. |
+| **Fevereiro de 2022** |  |
+| Modo de visualização do projeto do cartão de pontuação para dispositivos móveis | O [modo de visualização](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR#preview) permite visualizar a experiência antes de salvar e compartilhar um scorecard. |
+| Ponto de extremidade de projetos de API | Adicione, edite ou exclua projetos da Analysis Workspace usando a API. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | **Outubro de 2021** |  |
 | 21 de outubro de 2021 | Nova documentação sobre [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=pt-BR) no Analysis Workspace |
 | 21 de outubro de 2021 | Nova documentação sobre o painel [Tempo gasto na reprodução de mídia](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=pt-BR) no Analysis Workspace. |
