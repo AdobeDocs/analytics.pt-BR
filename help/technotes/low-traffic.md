@@ -1,11 +1,11 @@
 ---
-description: Quando um relatório tem um grande número de valores únicos, o Adobe usa o item de dimensão Tráfego baixo para melhorar o desempenho do relatório.
+description: Quando um relatório tem muitos valores únicos, o Adobe usa o item de dimensão Tráfego baixo para melhorar o desempenho do relatório.
 title: Valor de tráfego baixo no Adobe Analytics
 feature: Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: e087c50784a99eb4e664021b243ad38c3b95e538
+source-git-commit: ddd1473ccfe27dbcb28c0c51992628c9bf03cb5c
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '622'
 ht-degree: 49%
 
 ---
@@ -20,10 +20,10 @@ Quando um relatório tem muitos valores únicos, a Adobe fornece funcionalidade 
 * Quando uma variável atinge 500.000 valores únicos, os dados começam a ser classificados em [!UICONTROL Tráfego baixo]. Cada valor além desse limite passa pela seguinte lógica:
    * Se um valor já estiver nos relatórios, adicione-o como de costume.
    * Se um valor ainda não for visto nos relatórios, ele será inicialmente classificado na variável [!UICONTROL Tráfego baixo] item de dimensão.
-   * Se um valor estiver classificado em [!UICONTROL Tráfego baixo] for vista em algum lugar com dígitos duplos durante esse mês, ela começará a ser reconhecida como seu próprio item de dimensão. As instâncias coletadas antes de atingir o limite permanecem em [!UICONTROL Tráfego baixo]. O limite exato tem muitas dependências, como o número de servidores que processam dados do conjunto de relatórios e o tempo entre cada instância de item de dimensão.
-* Se um conjunto de relatórios atingir mais de 1.000.000 valores únicos, uma filtragem mais agressiva será aplicada. Valores únicos exigem instâncias nos três dígitos antes de serem reconhecidos como seu próprio item de dimensão.
+   * Se um valor estiver classificado em [!UICONTROL Tráfego baixo] recebe um fluxo de tráfego (normalmente instâncias nos dois dígitos em um único dia), ele começa a ser reconhecido como seu próprio item de dimensão. As instâncias coletadas antes de atingir o limite permanecem em [!UICONTROL Tráfego baixo]. O limite exato tem muitas dependências, como o número de servidores processando dados para o conjunto de relatórios e a quantidade de tempo entre cada instância de item de dimensão.
+* Se um conjunto de relatórios atingir mais de 1.000.000 valores únicos, uma filtragem mais agressiva será aplicada. Valores únicos exigem instâncias nos três dígitos em um único dia antes de serem reconhecidos como seu próprio item de dimensão.
 
-Essa lógica permite que o Adobe otimize os recursos de relatórios e, ao mesmo tempo, permita que sua organização relate itens de dimensão essenciais coletados posteriormente no mês. Por exemplo, sua organização executa um site com milhões de artigos e um novo artigo tornou-se popular no final do mês (depois de exceder ambos os limites exclusivos). Você ainda pode analisar o desempenho desse artigo sem que ele esteja classificado em [!UICONTROL Tráfego baixo]. Observe que essa lógica não tem como objetivo desfazer o bucket de tudo o que recebe um determinado número de exibições de página por dia ou por mês.
+Essa lógica permite que o Adobe otimize os recursos de relatórios e, ao mesmo tempo, permita que sua organização relate itens de dimensão essenciais coletados posteriormente no mês. Por exemplo, sua organização executa um site com milhões de artigos e um novo artigo tornou-se popular no final do mês (depois de exceder ambos os limites exclusivos). Você ainda pode analisar o desempenho desse artigo sem que ele esteja classificado em [!UICONTROL Tráfego baixo]. Essa lógica não tem o objetivo de desfazer o bucket de tudo o que recebe um determinado número de exibições de página por dia ou por mês.
 
 >[!NOTE]
 >O [Página](../components/dimensions/page.md) A dimensão usa várias colunas de backend que contam para limites exclusivos, incluindo `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`e `click_context`. Essas colunas de back-end podem causar [!UICONTROL Tráfego baixo] lógica para aplicar bem antes que o número de itens de dimensão de página exclusivos no Workspace atinja 500.000.
