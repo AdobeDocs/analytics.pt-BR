@@ -1,6 +1,6 @@
 ---
-description: Antes de usar o Reports and Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
-title: Introdução ao Reports and Analytics
+description: Antes de usar o Reports & Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
+title: Introdução ao Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
@@ -32,13 +32,13 @@ Os relatórios fornecem informações de seus canais com base na Web tradicionai
 
 ## Requisitos de sistema e navegador
 
-Requisitos do navegador e do sistema necessários para fazer logon na interface do Reports e do Analytics.
+Requisitos do navegador e do sistema necessários para fazer logon na interface do Reports &amp; Analytics.
 
 * Navegadores preferenciais: versões mais recentes do Firefox, Chrome, Safari ou Edge.
 * É necessário habilitar os cookies e o JavaScript.
 * Resolução do monitor de 1024 x 768 com intensidade de cor de 16 bits (ou superior).
 
-## Fazer logon em Reports and Analytics
+## Fazer logon no Reports &amp; Analytics
 
 Antes de acessar a interface, verifique com seu Gerente de contas ou com o Atendimento ao cliente da Adobe a configuração da conta da sua empresa.
 
@@ -88,12 +88,12 @@ Todos os utilizadores têm acesso à página de [!UICONTROL Informações da con
 | --- | --- |
 | Contato | Especifique as seguintes informações pessoais para a sua conta do<ul><li>Primeiro nome (obrigatório)</li><li>Sobrenome (obrigatório)</li><li>Título</li><li>Endereço(s) de email (obrigatório)</li><li>Número de telefone</li></ul> |
 | Logon | Exibe o nome de usuário, e permite que você altere a senha da conta. Consulte também: [Como redefinir a senha da conta de Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=pt-BR). |
-| Serviços web | Exibe o nome de usuário dos serviços da web e a senha compartilhada associada a esta conta do Use essas credenciais ao acessar a Experience Cloud por meio das APIs dos serviços da Web. Para obter mais informações, consulte o site Developer Connection. **Nota:** essas informações são exibidas somente se a conta estiver autorizada como usuário de serviços da Web. |
-| Excluir este computador | Aplica um cookie ao computador atual para excluí-lo da coleta de dados do Isso é útil se você não desejar que suas atividades online afetem as contagens de Exibição de página e Visitantes em seu domínio. **Nota:** Para usar este recurso, seu navegador deve ter os cookies ativados. Se você excluir os cookies de seu computador, é necessário redefinir o cookie de exclusão. |
+| Serviços web | Exibe o nome de usuário dos serviços da web e a senha compartilhada associada a esta conta. Use essas credenciais ao acessar a Experience Cloud por meio das APIs dos serviços da Web. Para obter mais informações, consulte o site Developer Connection. **Nota:** essas informações são exibidas somente se a conta estiver autorizada como usuário de serviços da Web. |
+| Excluir este computador | Aplica um cookie ao computador atual para excluí-lo da coleta de dados do. Isso é útil se você não desejar que suas atividades online afetem as contagens de Exibição de página e Visitantes em seu domínio. **Nota:** Para usar este recurso, seu navegador deve ter os cookies ativados. Se você excluir os cookies de seu computador, é necessário redefinir o cookie de exclusão. |
 
 ## Alterar o idioma da interface
 
-Etapas que descrevem como alterar o idioma da interface. Você pode exibir a interface do Reports and Analytics no idioma escolhido.
+Etapas que descrevem como alterar o idioma da interface. Você pode exibir a interface do Reports &amp; Analytics no idioma escolhido.
 
 1. Faça logon no Analytics e selecione a guia **[!UICONTROL Relatórios]**.
 1. No rodapé da página, clique no idioma ativo no menu **[!UICONTROL Idioma]** e selecione o idioma desejado.
