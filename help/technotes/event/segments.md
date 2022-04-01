@@ -2,7 +2,7 @@
 title: Excluir datas específicas na análise
 description: Dicas para excluir datas ou intervalos de datas se você não deseja incluí-las nos relatórios.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-source-git-commit: 84f00a330334d6f4272f35140da0fecbf43622c9
+source-git-commit: d03206b127e16cbb98d1318b0acc6c304f91ca48
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 Se você tiver dados [afetado por um evento](overview.md), você pode usar um segmento para excluir qualquer intervalo de datas que não queira incluir nos relatórios. A segmentação de datas afetadas pelo evento pode ajudar a impedir que sua organização tome decisões em dados parciais.
 
-## Isole os dias afetados
+## Isole os dias afetados {#isolate}
 
 Crie um segmento que isole o dia ou o intervalo de datas afetado. Esse segmento é útil se você quiser se concentrar apenas nos dias problemáticos para ver mais informações sobre o impacto.
 
@@ -31,7 +31,7 @@ O Adobe recomenda usar os componentes de dimensão laranja, e não os componente
 
 ![Excluir tipo de dia do segmento](assets/exclude_segment_day_type.jpg)
 
-## Excluir dias afetados
+## Excluir dias afetados {#exclude}
 
 Crie um segmento que exclua o dia ou o intervalo de datas afetado. Esse segmento é útil se você quiser excluir os dias que tiveram problemas para minimizar o impacto no relatório geral.
 
@@ -46,7 +46,7 @@ Crie um segmento que exclua o dia ou o intervalo de datas afetado. Esse segmento
 
 Após criar o segmento excluído, é possível usá-lo exatamente como usaria outros segmentos.
 
-### Comparar segmentos em um relatório de tendências
+### Comparar segmentos em um relatório de tendências {#compare}
 
 É possível aplicar o segmento &quot;Dias afetados&quot; e &quot;Excluir dias afetados&quot; em um relatório para compará-los lado a lado. Arraste ambos os segmentos acima ou abaixo de uma métrica para compará-los:
 
@@ -60,7 +60,7 @@ Se não quiser mostrar zeros na tabela ou nas visualizações (causando declíni
 
 ![Interpretar zero](assets/interpret_zero.png)
 
-### Aplicar o segmento de exclusão a um projeto
+### Aplicar o segmento de exclusão a um projeto {#apply}
 
 Você pode aplicar o segmento &quot;Excluir dias afetados&quot; a um projeto do Workspace. Arraste o segmento excluído até a seção da tela do Workspace rotulada *Solte um segmento aqui*.
 
@@ -70,9 +70,9 @@ Você pode aplicar o segmento &quot;Excluir dias afetados&quot; a um projeto do 
 
 ![Segmento aplicado a um painel](assets/exclude_segment_panel.jpg)
 
-### Usar o segmento excluído em um conjunto de relatórios virtual
+### Usar o segmento excluído em um conjunto de relatórios virtual {#use-vrs}
 
-Você pode usar o segmento em uma [Conjunto de relatórios virtual](/help/components/vrs/vrs-about.md) para excluir os dados de maneira mais conveniente. Essa opção é ideal, pois não é necessário lembrar de aplicar o segmento para cada relatório que inclui o intervalo de datas afetado. Se você já usa conjuntos de relatórios virtuais como a fonte de dados principal, é possível adicionar o segmento a um VRS existente.
+Você pode usar o segmento em uma [conjunto de relatórios virtual](/help/components/vrs/vrs-about.md) para excluir os dados de maneira mais conveniente. Essa opção é ideal, pois não é necessário lembrar de aplicar o segmento para cada relatório que inclui o intervalo de datas afetado. Se você já usa conjuntos de relatórios virtuais como a fonte de dados principal, é possível adicionar o segmento a um VRS existente.
 
 1. Navegar para **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**.
 2. Clique em **[!UICONTROL Adicionar]**.
