@@ -3,10 +3,10 @@ description: Como fazer upload de arquivos de dados via FTP.
 title: Importação de FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,8 @@ Para obter mais informações sobre como criar uma conta FTP, consulte [Criar um
    O arquivo é um arquivo vazio que tem o mesmo nome de seu arquivo de dados, com uma extensão de nome de arquivo [!DNL .fin]. Por exemplo, se seu arquivo de dados é [!DNL classdata1.tab], o nome do arquivo é [!DNL classdata1.fin] .fin.
 
 Em intervalos regulares, a Adobe recupera os arquivos de dados carregados que têm um arquivo FIN associado. A Adobe os importa para dentro dos conjuntos de relatórios e conjuntos de dados especificados na configuração da conta FTP.
+
+Depois que a Adobe Analytics tiver lido e processado arquivos carregados na pasta FTP, os arquivos serão excluídos automaticamente.
 
 ## Criar uma conta FTP {#task_C019268E6C934C7C95F4326F42A22CCF}
 
