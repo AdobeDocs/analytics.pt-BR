@@ -4,7 +4,7 @@ description: Substitua o referenciador coletado automaticamente em uma ocorrênc
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Você pode definir o referenciador ao configurar a extensão do Analytics (vari�
 
 É possível atribuir ao referenciador qualquer valor de string, incluindo elementos de dados.
 
-## s.referrer no AppMeasurement e no editor de código personalizado do 
+## s.referrer no AppMeasurement e no editor de código personalizado do
 
 A variável `s.referrer` é uma string que contém o URL da página anterior. Essa variável pode armazenar no máximo 255 bytes; valores maiores que 255 bytes são truncados. O AppMeasurement define essa variável automaticamente como `document.referrer`; não é necessário definir essa variável, a menos que você deseje substituir o valor coletado automaticamente.
 
