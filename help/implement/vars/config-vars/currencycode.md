@@ -4,7 +4,7 @@ description: Para sites de comércio eletrônico, define a moeda em que a págin
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ O código monetário é passado para os SDKs do Adobe Experience Platform Mobile
 
 É possível usar um código monetário predefinido ou personalizado. Se estiver usando um código monetário personalizado, verifique se ele é válido.
 
-## s.currencyCode no AppMeasurement e no editor de código personalizado do 
+## s.currencyCode no AppMeasurement e no editor de código personalizado do
 
 A variável `s.currencyCode` é uma cadeia de caracteres, que contém um código de 3 letras maiúsculas representando a moeda na página.
 
