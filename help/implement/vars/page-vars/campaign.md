@@ -4,13 +4,13 @@ description: Preencha a dimensão “Código de rastreamento”.
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
 ht-degree: 100%
 
 ---
 
-# campanha
+# campaign
 
 A variável `campaign` é dedicada à coleta de códigos de rastreamento no site. Em versões anteriores do Adobe Analytics, ele tinha um tratamento especial, podendo ser usado como um detalhamento na maioria das dimensões. Na versão atual do Adobe Analytics, ela age de forma idêntica a uma eVar.
 
@@ -29,7 +29,7 @@ Você pode definir a campanha ao configurar a extensão do Analytics (variáveis
 
 Você pode definir a campanha como um valor ou parâmetro do tipo string.
 
-## s.campaign no AppMeasurement e no editor de código personalizado do 
+## s.campaign no AppMeasurement e no editor de código personalizado do
 
 A variável `s.campaign` é uma string que geralmente contém um código de rastreamento usado em esforços de marketing. Seu comprimento máximo é de 255 bytes; valores com mais de 255 bytes são truncados automaticamente quando enviados para a Adobe.
 
