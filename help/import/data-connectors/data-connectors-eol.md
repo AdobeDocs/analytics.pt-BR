@@ -1,12 +1,12 @@
 ---
-description: Saiba quando e por que os conectores de dados do Analytics serão encerrados.
-title: Pré-anúncio do fim da vida útil dos conectores de dados do Analytics
+description: Saiba quando e por que os Analytics Data Connectors serão encerrados.
+title: Pré-anúncio do fim da vida útil dos Analytics Data Connectors
 feature: Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Por mais de uma década, o Adobe Analytics tem como objetivo oferecer a melhor s
 
 ## Por que terminamos a vida útil desse recurso?
 
-Esse recurso era alimentado por tecnologia herdada que não é mais viável ou compatível. O [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) agora é o local para encontrar integrações atuais para soluções Adobe.
+Este recurso é alimentado por uma tecnologia herdada que não é mais viável ou compatível. O [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) agora é o local para encontrar integrações atuais para soluções Adobe.
 
 ## Como a remoção deste recurso afeta você?
 
