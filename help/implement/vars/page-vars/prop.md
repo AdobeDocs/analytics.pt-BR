@@ -4,7 +4,7 @@ description: Variáveis personalizadas que podem ser usadas na implementação.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Você pode definir props ao configurar a extensão do Analytics (variáveis glob
 
 Você pode definir uma prop a um valor ou um elemento de dados. Também é possível copiar o valor de outra variável do Analytics.
 
-## s.prop1 e s.prop75 no AppMeasurement e no editor de código personalizado do 
+## s.prop1 e s.prop75 no AppMeasurement e no editor de código personalizado do
 
 Cada variável de prop é uma string que contém valores personalizados específicos para sua organização. O comprimento máximo delas é de 100 bytes; valores com mais de 100 bytes são truncados automaticamente quando enviados para a Adobe.
 
