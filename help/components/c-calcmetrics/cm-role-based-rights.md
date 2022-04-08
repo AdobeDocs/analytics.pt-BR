@@ -4,9 +4,9 @@ title: 'Métricas calculadas: direitos baseados em função'
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Os direitos das métricas calculadas são diferentes para usuários de nível ad
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Usuários de nível administrativo</b> </td> 
-   <td colname="col02"> Os administradores podem criar métricas calculadas e Perfis de produto no Admin Console para limitar os direitos do usuário de criar métricas calculadas. </td> 
+   <td colname="col02"> Os administradores podem criar métricas calculadas e Perfis de produto no Admin Console para limitar os direitos de usuários de criar métricas calculadas. </td> 
    <td colname="col2"> Podem compartilhar com toda a empresa, com grupos de usuários e usuários individuais. </td> 
    <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span>: podem exibir/editar/excluir/etc. suas próprias métricas calculadas e as de outros usuários. <p> <span class="keyword"> Report Builder </span>: pode exibir/editar/excluir/etc. suas próprias métricas calculadas e as compartilhadas. </p> </td> 
    <td colname="col4"> Podem aprovar métricas calculadas como canônicas. </td> 
