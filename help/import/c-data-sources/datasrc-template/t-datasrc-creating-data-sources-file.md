@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ O modelo da Fonte de Dados é um arquivo .txt que pode ser aberto em qualquer ed
 Consulte [Referência do arquivo de importação](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) para obter mais detalhes.
 
 1. Logon no Analytics.
-1. No cabeçalho do Suite, selecione **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Fontes de dados]**.
+1. No cabeçalho do Conjunto, selecione **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Fontes de dados]**.
 1. Na guia **[!UICONTROL Criar das fontes de dados]**, selecione uma categoria e um tipo de modelo.
 1. Revise as Instruções/informações de ativação, e clique em **[!UICONTROL Ativar]**.
 
