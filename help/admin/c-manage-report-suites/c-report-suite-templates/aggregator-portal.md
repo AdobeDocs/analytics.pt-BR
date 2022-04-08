@@ -4,7 +4,7 @@ title: Portal agregador
 feature: Report Suite Settings
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
 ht-degree: 100%
 
@@ -16,9 +16,9 @@ Define configurações comuns para um site que agrega conteúdo, como um portal 
 
 | Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code`variável |
 |---|---|---|---|---|---|
-| Campanha interna | String | Básica | Mais recente (último) | Visita | `evar1` |
-| Termos de pesquisa interna | String | Básica | Mais recente (último) | Visita | `evar2` |
-| Categoria de referência | String | Básica | Mais recente (último) | Visita | `evar3` |
+| Campanha interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
+| Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
+| Categoria de referência | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar3` |
 
 | Eventos bem-sucedidos | Tipo | `s_code`variável |
 |---|---|---|
