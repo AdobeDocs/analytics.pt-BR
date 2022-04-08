@@ -4,7 +4,7 @@ description: A variável cookieDomain ajuda a determinar o domínio no qual os c
 feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Somente uma pequena quantidade de implementações tem sido usada para a variáv
 
 Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.cookieDomain no AppMeasurement e no editor de código personalizado do 
+## s.cookieDomain no AppMeasurement e no editor de código personalizado do
 
 A variável `cookieDomain` é uma cadeia de caracteres definida como o domínio no qual você deseja armazenar cookies.
 
