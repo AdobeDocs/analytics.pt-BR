@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Ao clicar em **[!UICONTROL Recuperar seus painéis]** ou **[!UICONTROL Recuperar
 
 >[!NOTE]
 >
->Somente dados são importados, portanto, se o marcador contiver um gráfico, ou se o reportlet do painel consistir em apenas um gráfico, somente os dados utilizados para preencher o gráfico serão importados.
+>Somente dados são importados, portanto, se o marcador contiver um gráfico, ou se o reportlet do painel consistir de apenas um gráfico, somente os dados utilizados para preencher o gráfico serão importados.
 
 Depois de criar uma solicitação ao importar um reportlet de painel (ou um marcador), a solicitação será associada à dimensão principal do reportlet (ou do marcador). Como resultado, se você editar a solicitação, a visualização de árvore não selecionar mais o nó da visualização de árvore do reportlet de painel (ou o nó do marcador): em vez disso, seleciona a dimensão principal.
 
