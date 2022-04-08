@@ -4,7 +4,7 @@ description: O nome da página do seu site.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Você pode definir o nome da página ao configurar a extensão do Analytics (var
 
 É possível definir o nome da página como qualquer valor de string, incluindo elementos de dados.
 
-## s.pageName no AppMeasurement e no editor de código personalizado do 
+## s.pageName no AppMeasurement e no editor de código personalizado do
 
 A variável `s.pageName` é uma string que geralmente contém o nome da página. A variável tem um valor máximo de 100 bytes; valores mais longos são truncados. Esse truncamento inclui instâncias nas quais é utilizada a `pageURL` se a variável estiver em branco.
 
