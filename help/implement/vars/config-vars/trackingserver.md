@@ -4,7 +4,7 @@ description: Defina para que local as solicitações de imagens são enviadas.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Servidor de rastreamento é um campo sob a opção [!UICONTROL Geral] ao configu
 
 Se esse campo ficar em branco, o padrão será `[rsid].data.adobedc.net`.
 
-## s.trackingServer no AppMeasurement e no editor de código personalizado do 
+## s.trackingServer no AppMeasurement e no editor de código personalizado do
 
 A varável `s.trackingServer` é uma string que contém o local para o envio de dados.
 
