@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Editar uma solicitação do Report Builder após a sua publicação no Power BI 
    **Este é um exemplo de como a visualização quebrará:**
 
    1. No Report Builder, crie uma pasta de trabalho com uma solicitação, usando a dimensão da Página e a métrica de Exibições da página.
-   2. Agende esta solicitação para ser publicada no Power BI.
+   2. Programe essa solicitação para publicação no Power BI.
    3. No Power BI, crie uma visualização para a Página e as Exibições da página.
    4. Agora edite a pasta de trabalho através da remoção das Exibições de página da solicitação.
    5. Edite o agendamento com a pasta de trabalho atualizada e republique a solicitação no Power BI.
@@ -49,7 +49,7 @@ Editar uma solicitação do Report Builder após a sua publicação no Power BI 
    **Este é um exemplo de como a visualização NÃO se quebrará:**
 
    1. No Report Builder, crie uma pasta de trabalho com uma solicitação, usando a dimensão da Página e a métrica de Exibições da página.
-   2. Agende essa solicitação para publicação no Power BI.
+   2. Programe essa solicitação para publicação no Power BI.
    3. No Power BI, crie uma visualização para a Página e as Exibições da página.
    4. Agora edite a pasta de trabalho no Report Builder, adicionando a métrica Visita enquanto se mantém Página e Exibições de página.
    5. Edite o agendamento com a pasta de trabalho atualizada e republique a solicitação no Power BI.
@@ -69,5 +69,5 @@ Por padrão, o nome será extraído do nome de arquivo da pasta de trabalho (sem
 Lembre-se
 
 * O rótulo não pode ser uma combinação de letras e números que possa ser confundida com um endereço de linha e coluna. Por exemplo, A100 não pode ser um rótulo porque é o endereço de uma célula na planilha.
-* Os seguintes caracteres não são caracteres de rótulo válidos: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;, e `'~', ' '` . Eles são substituídos por um caractere sublinhado.
+* Os seguintes caracteres não são válidos para rótulos: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; e `'~', ' '` . Eles serão substituídos por um caractere de sublinhado.
 * Quando um nome inválido é inserido, uma mensagem de aviso será mostrada que sugerirá um nome autogerado. Se clicar em **[!UICONTROL Sim]**, esse nome será usado. Se clicar em **[!UICONTROL Não]**, a interface do usuário do Assistente avançado permitirá que um novo nome seja inserido.
