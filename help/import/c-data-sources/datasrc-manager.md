@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -78,4 +78,4 @@ A seleção que você faz na guia Criar determina os campos iniciais do modelo c
 
 ## Guia Log de arquivo {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
-O log de arquivo inclui um mecanismo de pesquisa que permite pesquisar informações por nome da fonte de dados, tipo da fonte de dados, nome do arquivo, data de recebimento ou status.
+O log do arquivo inclui um mecanismo de pesquisa que permite buscar informações por nome da fonte de dados, tipo da fonte de dados, nome do arquivo, data de recebimento ou status.
