@@ -4,7 +4,7 @@ description: Copie variáveis sem aumentar a duração da solicitação de image
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Quando a Adobe reconhece um prefixo de variável dinâmica, ela copia automatica
 
 Coloque o prefixo da variável dinâmica no campo de texto, seguido pelo parâmetro da string de consulta ou pelo cabeçalho HTTP que você deseja referenciar. Por padrão, o prefixo da variável dinâmica é `D=`.
 
-## Variáveis dinâmicas no AppMeasurement e no editor de código personalizado do 
+## Variáveis dinâmicas no AppMeasurement e no editor de código personalizado do
 
 As variáveis dinâmicas são strings de texto atribuídas a outras variáveis. O prefixo padrão da variável dinâmica é `D=`. As variáveis dinâmicas fazem distinção entre maiúsculas e minúsculas.
 
