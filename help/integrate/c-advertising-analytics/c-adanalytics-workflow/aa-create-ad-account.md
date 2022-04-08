@@ -4,9 +4,9 @@ description: Permite criar novas contas publicitárias e mapear várias contas a
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Além disso, os administradores podem [conceder acesso a não administradores](/
    | --- | --- |
    | Tipo | Há duas opções: Google AdWords e Microsoft Bing Ads.  Observação: o Yahoo Gemini foi absorvido pelo Microsoft Bing em 31 de março de 2019. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível. |
    | Nome da conta | Há a opção para definir este nome de conta com o nome que desejar. Este é o nome amigável da conta que aparecerá na interface do usuário. |
-   | Token de OAuth | **Observação:** OAuth é um padrão aberto para delegação de acesso, geralmente usado como uma maneira de conceder a sites ou aplicativos da Web o acesso às respectivas informações em outros sites, sem fornecer as senhas. Você observará que será direcionado para um URL de terceiros (efrontier.com). A Adobe usa o efrontier para potencializar o processo de autenticação do OAuth em todos os três mecanismos de pesquisa. Se usar o Internet Explorer 11 (ou anterior), você não poderá recuperar o token OAuth para qualquer um dos três mecanismos de pesquisa. Em vez disso, use outro navegador da Web.<p>Clicar em **[!UICONTROL Recuperar token]** inicia o processo de autenticação do OAuth2. Você será solicitado a fazer logon em sua conta de pesquisa do Google/Bing usando suas credenciais. Dependendo do mecanismo de pesquisa escolhido, o processo será um pouco diferente: <ul><li>Google AdWords: fornecer ID de conta do Google</li><li>Microsoft Bing: fornecer ID de conta de cliente do Bing.</li></ul>Consulte [Localizar sua ID de conta](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) para obter mais informações sobre as IDs. Depois de fazer logon, a variável **[!UICONTROL Token de OAuth]** exibições de campo **[!UICONTROL Recuperado]**. |
+   | Token de OAuth | **Observação:** OAuth é um padrão aberto para delegação de acesso, geralmente usado como uma maneira de conceder a sites ou aplicativos da Web o acesso às respectivas informações em outros sites, sem fornecer senhas. Você perceberá que será direcionado para um URL de terceiros (efrontier.com). A Adobe usa o efrontier para alimentar o processo de autenticação do OAuth em todos os três mecanismos de pesquisa. Se você usa o Internet Explorer 11 (ou anterior), não será possível recuperar o token OAuth em nenhum dos três mecanismos de pesquisa. Em vez disso, use outro navegador da Web.<p>Clicar em **[!UICONTROL Recuperar token]** inicia o processo de autenticação do OAuth2. Você será solicitado a fazer logon em sua conta de pesquisa do Google/Bing, usando suas credenciais. Dependendo do mecanismo de pesquisa escolhido, o processo será um pouco diferente: <ul><li>Google AdWords: fornecer ID de conta do Google</li><li>Microsoft Bing: fornecer ID de conta de cliente do Bing.</li></ul>Consulte [Localize sua ID de conta](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) para obter mais informações sobre as IDs. Depois de fazer logon, o campo **[!UICONTROL token do OAuth]** será exibido como **[!UICONTROL Recuperado]**. |
 
 1. Na seção **[!UICONTROL Rastreamento]**, forneça informações sobre como os dados do Mecanismo de pesquisa são monitorados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
 Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instruções a seguir:
