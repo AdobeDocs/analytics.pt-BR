@@ -4,7 +4,7 @@ description: Ative ou desative o rastreamento offline, o que altera a forma como
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Quando ativado, o AppMeasurement usa o seguinte processo para enviar dados para 
 
 Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.trackOffline no AppMeasurement e no editor de código personalizado do 
+## s.trackOffline no AppMeasurement e no editor de código personalizado do
 
 A variável `s.trackOffline` é do tipo booliano e ativa ou desativa o rastreamento offline. O valor padrão é `false`. Defina esse valor como `true` se desejar ativar o rastreamento offline.
 
