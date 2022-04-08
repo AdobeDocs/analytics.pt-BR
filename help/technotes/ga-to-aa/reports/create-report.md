@@ -4,7 +4,7 @@ description: Saiba como criar um relatório básico no Analysis Workspace em um 
 feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Crie o modelo de Consumo de conteúdo (semelhante ao relatório Todas as página
 
 Como o Analysis Workspace é uma ferramenta de relatórios, ela não exerce impacto na coleta de dados. Se você arrastar componentes indiscriminadamente para um projeto para ver o que acontece, não haverá nenhuma repercussão. Arraste diferentes combinações de dimensões e métricas para o projeto do seu espaço de trabalho para ver o que está disponível.
 
-Se você arrastar acidentalmente um componente inválido para o projeto do seu espaço de trabalho ou quiser voltar uma etapa, pressione ctrl+Z (Windows) ou cmd+Z (Mac) para desfazer a última ação realizada. Você também pode começar com uma tabulação limpa clicando em *[!UICONTROL Projeto] > [!UICONTROL Novo]* no menu superior esquerdo.
+Se você arrastar acidentalmente um componente inválido para o projeto do seu espaço de trabalho ou quiser voltar uma etapa, pressione ctrl + Z (Windows) ou cmd + Z (Mac) para desfazer a última ação realizada. Você também pode começar com uma tabulação limpa clicando em *[!UICONTROL Projeto] > [!UICONTROL Novo]* no menu superior esquerdo.
 
 A Adobe incluiu muitas funcionalidades ao Analysis Workspace no menu de contexto do clique com o botão direito do mouse. A maioria das visualizações e componentes pode ser clicada com o botão direito do mouse para que você obtenha análises e interações mais detalhadas. Considere a possibilidade de clicar com o botão direito do mouse nos componentes do seu espaço de trabalho para ver quais opções estão disponíveis.
 
@@ -67,7 +67,7 @@ A Adobe incluiu muitas funcionalidades ao Analysis Workspace no menu de contexto
 
 Se você estiver confortável com o Analysis Workspace e quiser recriar um relatório específico geralmente exibido no Google Analytics, localize o relatório na respectiva página:
 
-* [Relatórios em Tempo real](realtime-reports.md)
+* [Relatórios em tempo real](realtime-reports.md)
 * [Relatórios de público-alvo](audience-reports.md)
 * [Relatórios de aquisição](acquisition-reports.md)
 * [Relatórios de comportamento](behavior-reports.md)
