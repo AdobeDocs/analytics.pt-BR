@@ -4,7 +4,7 @@ description: Extraia o valor de um parâmetro de string de consulta do URL.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
    * Tipo de ação: inicializar getQueryParam
 1. Salve e publique as alterações na regra.
 
-## Instale o plug-in usando o editor de código personalizado do 
+## Instale o plug-in usando o editor de código personalizado do
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
