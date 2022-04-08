@@ -4,7 +4,7 @@ description: Anexe valores a variáveis que suportam vários valores.
 feature: Variables
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
    * Tipo de ação: inicializar apl (Anexar à lista)
 1. Salve e publique as alterações na regra.
 
-## Instale o plug-in usando o editor de código personalizado do 
+## Instale o plug-in usando o editor de código personalizado do
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
