@@ -4,7 +4,7 @@ title: Construir segmentos sequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -316,7 +316,7 @@ Usar o [!UICONTROL Grupo lógico] permite satisfazer as condições nesse grupo 
 
 **Criar este segmento**
 
-As dimensões das páginas B e C são agrupadas em um contêiner do [!UICONTROL Grupo lógico] com o operador [!UICONTROL OU] selecionado e o contêiner de [!UICONTROL Ocorrência] identificando a exibição da página A como o valor.
+As dimensões das páginas B e C são agrupadas em um contêiner do [!UICONTROL Grupo lógico] com o operador [!UICONTROL OR] selecionado e o contêiner de [!UICONTROL Ocorrência] identificando a exibição da página A como o valor.
 
 ![](assets/logic_group_1st_match.png)
 
