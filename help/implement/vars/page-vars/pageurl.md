@@ -4,7 +4,7 @@ description: Substitua o URL da página coletado automaticamente em seu site.
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ A interface da coleção de dados preenche automaticamente o URL da página. No 
 
 Você pode definir o URL da página como qualquer valor de string.
 
-## s.pageURL no AppMeasurement e no editor de código personalizado do 
+## s.pageURL no AppMeasurement e no editor de código personalizado do
 
 A variável `s.pageURL` é uma string que contém o URL da página. O AppMeasurement coleta essa variável automaticamente, no entanto, você pode substituir o valor dela, se desejar.
 
