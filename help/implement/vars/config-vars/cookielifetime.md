@@ -4,7 +4,7 @@ description: Substituir a expiração dos cookies criados pelo AppMeasurement.
 feature: Variables
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Essa lista suspensa contém os seguintes valores:
 * **Sessão**: o cookie expira ao final da sessão do visitante.
 * **Segundos**: o cookie expira após o número especificado de segundos decorrido. Por exemplo, definir essa lista suspensa como [!UICONTROL Segundos] e colocar `86400` no campo personalizado força os cookies a expirarem após exatamente 24 horas.
 
-## s.cookieLifetime no AppMeasurement e no editor de código personalizado do 
+## s.cookieLifetime no AppMeasurement e no editor de código personalizado do
 
 A variável `s.cookieLifetime` é uma cadeia de caracteres que determina a data de expiração dos cookies definidos pelo AppMeasurement.
 
