@@ -4,7 +4,7 @@ description: Ative ou desative o rastreamento automático de links para links de
 feature: Variables
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Rastrear links de download é uma caixa de seleção na opção [!UICONTROL Rast
 
 Clique na caixa de seleção para ativar o rastreamento automático de link de download.
 
-## s.trackDownloadLinks no AppMeasurement e editor de código personalizado do 
+## s.trackDownloadLinks no AppMeasurement e editor de código personalizado do
 
 `s.trackDownloadLinks` é uma variável do tipo booleano que ativa ou desativa o rastreamento automático de link de download. Se você não quiser rastrear links de download, ou se preferir chamar manualmente o método `tl()` para rastrear downloads, defina essa variável como `false`.
 
