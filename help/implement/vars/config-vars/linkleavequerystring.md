@@ -4,7 +4,7 @@ description: Permite a preservação de cadeias de caracteres de consulta em dim
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ A ativação de `linkLeaveQueryString` se aplica a todas as dimensões de rastre
 
 Marque essa caixa se desejar incluir cadeias de caracteres de consulta nas dimensões de rastreamento de link.
 
-## s.linkLeaveQueryString no AppMeasurement e no editor de código personalizado do 
+## s.linkLeaveQueryString no AppMeasurement e no editor de código personalizado do
 
 A variável `s.linkLeaveQueryString` é booleana. O valor padrão é `false`.
 
