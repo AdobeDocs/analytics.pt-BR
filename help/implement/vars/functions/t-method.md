@@ -4,7 +4,7 @@ description: Envie uma chamada de rastreamento de exibição de página para a A
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ A interface da Coleção de dados tem um local dedicado definido para uma chamad
 5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e Enviar beacon no [!UICONTROL Tipo de ação].
 6. Clique no botão de opção `s.t()`.
 
-## Método s.t() no AppMeasurement e no editor de código personalizado do 
+## Método s.t() no AppMeasurement e no editor de código personalizado do
 
 Chame o método `s.t()` quando quiser enviar uma chamada de rastreamento para a Adobe.
 
