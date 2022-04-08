@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Quando você agenda um relatório, pode escolher uma lista de publicação para 
 
 A publicação de listas é configurada nas ferramentas administrativas do Analytics.
 
-Consulte [Publicação do gerenciador de lista](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html) na referência do Analytics.
+Consulte [Publicação do gerenciador de lista](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html?lang=pt-BR) na referência do Analytics.
 
 Para ativar esse recurso, navegue até a janela [!UICONTROL Assistente de solicitações: etapa 1].
 
