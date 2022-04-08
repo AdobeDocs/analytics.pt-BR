@@ -4,7 +4,7 @@ description: A variável charSet determina qual codificação a Adobe usa para a
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ O Conjunto de caracteres é um campo da opção [!UICONTROL Geral] ao configurar
 
 É possível usar um conjunto de caracteres predefinido ou especificar um conjunto de caracteres personalizado. Evite alterar o valor de `UTF-8`, a menos que você veja valores ilegíveis nos relatórios.
 
-## s.charSet no AppMeasurement e no editor de código personalizado do 
+## s.charSet no AppMeasurement e no editor de código personalizado do
 
 A variável `charSet` é uma cadeia de caracteres. Se você tiver valores ilegíveis no Adobe Analytics, defina essa variável com o mesmo valor que a tag HTML `<meta charset="">` no site.
 
