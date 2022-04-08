@@ -4,7 +4,7 @@ description: Variável removida que determinava o domínio do cookie.
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Em versões anteriores do Adobe Analytics, o AppMeasurement usava a variável `v
 
 A Adobe recomenda não usar esse campo. Use `trackingServer` e `trackingServerSecure` no lugar dele.
 
-## s.visitorNamespace no AppMeasurement e no editor de código personalizado do 
+## s.visitorNamespace no AppMeasurement e no editor de código personalizado do
 
 A variável `s.visitorNamespace` é uma string que contém um valor único por organização. As bibliotecas antigas do AppMeasurement incluíam automaticamente esse valor único quando baixadas de versões anteriores do Adobe Analytics. As bibliotecas atuais do AppMeasurement não usam essa variável, a menos que `trackingServer` e `trackingServerSecure` não estejam definidas.
 
