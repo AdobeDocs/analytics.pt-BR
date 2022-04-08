@@ -4,7 +4,7 @@ title: Fluxo de trabalho das métricas calculadas
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Saiba mais sobre as etapas a serem seguidas para criar métricas calculadas.
 | Tarefa do fluxo de trabalho | Descrição |
 | --- | --- |
 | Planejar métricas calculadas | Especialmente para as métricas que serão “aprovadas” oficialmente, faz sentido destacar quais métricas calculadas serão amplamente usadas e como elas serão definidas. |
-| [Criar](c-build-metrics/cm-build-metrics.md) métricas calculadas | Crie e edite métricas calculadas e calculadas avançadas para usar nos componentes do [!DNL Analytics].  Consulte [exemplos](c-build-metrics/cm-build-metrics.md) de como criar métricas calculadas. |
+| [Criar](c-build-metrics/cm-build-metrics.md) métricas calculadas | Crie e edite métricas calculadas e calculadas avançadas para usar nos componentes do [!DNL Analytics]. Consulte [exemplos](c-build-metrics/cm-build-metrics.md) de como criar métricas calculadas. |
 | [Adicionar tags](cm-tagging.md) a métricas calculadas | Adicione tags a métricas calculadas para facilitar a organização e o compartilhamento. Consulte como planejar e atribuir tags para pesquisas e organização simples e avançada. |
 | [Aprovar](cm-approving.md) métricas calculadas | Aprove métricas calculadas para torná-las canônicas. |
 | Aplicação de métricas calculadas | É possível aplicar métricas diretamente de um relatório, a partir do Seletor de métricas (para acessá-lo, clique em Mostrar métricas). |
