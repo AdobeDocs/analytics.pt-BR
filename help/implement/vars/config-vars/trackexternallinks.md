@@ -4,7 +4,7 @@ description: Ative ou desative o rastreamento automático de links para links de
 feature: Variables
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Rastrear links externos é uma caixa de seleção na opção [!UICONTROL Rastrea
 
 Clique na caixa de seleção para ativar o rastreamento automático de links de saída.
 
-## s.trackExternalLinks no AppMeasurement e no editor de código personalizado do 
+## s.trackExternalLinks no AppMeasurement e no editor de código personalizado do
 
 `s.trackExternalLinks` é uma variável do tipo booleano que ativa ou desativa o rastreamento automático de links de saída. Se você não quiser rastrear links externos, ou se preferir chamar manualmente o método `tl()` para rastrear links de saída, defina essa variável como `false`.
 
