@@ -4,7 +4,7 @@ description: Obtém o valor de um cookie.
 feature: Variables
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Os cookies podem armazenar e recuperar informações em páginas no mesmo domín
 
 O valor do cookie é armazenado no elemento de dados. Você pode fazer referência ao elemento de dados nas regras para atribuir variáveis do Analytics.
 
-## s.Util.cookieRead() no AppMeasurement e no editor de código personalizado do 
+## s.Util.cookieRead() no AppMeasurement e no editor de código personalizado do
 
 Chame o método `s.Util.cookieRead()` para ler um valor de cookie desejado. Seu único argumento é uma string, que é obrigatória. Esse método retorna uma string que contém o valor do cookie. Se os cookies não existirem, uma string vazia será retornada.
 
