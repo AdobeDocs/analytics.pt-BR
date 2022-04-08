@@ -4,7 +4,7 @@ description: Crie e rastreie instâncias do AppMeasurement.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ A extensão do Analytics instancia e gerencia o objeto de rastreamento para voc�
 
 O campo de texto da variável global permite definir um objeto de rastreamento personalizado. O valor padrão é `s`.
 
-## s_gi() no AppMeasurement e no editor de código personalizado do 
+## s_gi() no AppMeasurement e no editor de código personalizado do
 
 Chame a função `s_gi()` para instanciar um objeto de rastreamento. Seu único argumento contém uma string delimitada por vírgulas com IDs de conjuntos de relatórios. O argumento ID de conjunto de relatórios é obrigatório.
 
