@@ -4,7 +4,7 @@ description: Defina manualmente o estado online do AppMeasurement.
 feature: Variables
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ O AppMeasurement detecta automaticamente o estado online do dispositivo. Você p
 
 Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.forceOffline() no AppMeasurement e no editor de código personalizado do 
+## s.forceOffline() no AppMeasurement e no editor de código personalizado do
 
 Você pode chamar o método `s.forceOffline()` em qualquer lugar na sua implementação depois de instanciar o objeto do Analytics.
 
