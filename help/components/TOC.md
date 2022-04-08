@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
-user-guide-description: Ajude a gerenciar seus dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, alertas, canais de marketing, classificações e saiba mais sobre o Cross-Device Analytics.
+user-guide-description: Ajude a gerenciar seus dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, alertas, canais de marketing, classificações e saiba mais sobre a Análise entre dispositivos.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # [!DNL Adobe Analytics] Guia de componentes {#components}
 
 + [Guia de componentes do Analytics](home.md)
-+ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
 + Dimensões {#dimensions}
    + [Visão geral das dimensões](dimensions/overview.md)
    + [Compatibilidade da dimensão](dimensions/compatibility.md)
