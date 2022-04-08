@@ -4,7 +4,7 @@ description: Uma página agregada de dimensões e métricas de tempo gasto.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1581'
 ht-degree: 100%
 
@@ -111,16 +111,16 @@ Suponha que o seguinte conjunto de chamadas de servidor seja para um único visi
 
 | Ocorrência de visita nº | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
-| **Tempo decorrido da visita (segundos)** | 0 | 30º | 80 | 180 | 190 | 230 | 290 |
-| **Segundos gastos** | 30º | 50 | 100 | 10º | 40 | 60 | - |
+| **Tempo decorrido da visita (segundos)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
+| **Segundos gastos** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo de ocorrência** | Página | Link | Página | Página | Página | Página | Página |
 | **Nome da página** | Início | - | Produto | Início | Início (recarga) | Carrinho | Confirmação de pedido |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (conjunto) | A (distribuir para a frente) | não definido | B (conjunto) | B (conjunto) | A (conjunto) | C (conjunto) |
-| **segundos gastos da prop1** | 30º | 50º | - | 10º | 40º | 60º | - |
+| **segundos gastos da prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
 |  |  |  |  |  |  |  |  |
 | **eVar1** | Vermelho (definido) | Vermelho (persistente) | (expirado) | Azul (definido) | Azul (definido) | Azul (persistente) | Vermelho (definido) |
-| **Segundos gastos da eVar1** | 30º | 50º | - | 10º | 40º | 60º | - |
+| **Segundos gastos da eVar1** | 30 | 50 | - | 10 | 40 | 60 | - |
 
 Com base na tabela acima, as métricas de Tempo gasto são calculadas da seguinte maneira:
 
