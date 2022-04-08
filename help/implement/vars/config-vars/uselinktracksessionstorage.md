@@ -4,7 +4,7 @@ description: Armazene dados de rastreamento de link no armazenamento da sessão 
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ O AppMeasurement remove os dados de rastreamento do link do armazenamento da ses
 
 Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.useLinkTrackSessionStorage no AppMeasurement e no editor de código personalizado do 
+## s.useLinkTrackSessionStorage no AppMeasurement e no editor de código personalizado do
 
 A variável `s.useLinkTrackSessionStorage` é um booleano que determina se o AppMeasurement usa o armazenamento de sessão para dados de rastreamento de link em vez do cookie `s_sq`. O valor padrão é `false`. Defina essa variável como `true` se você deseja que o AppMeasurement use o armazenamento de sessão em vez do cookie `s_sq` para rastreamento de link e Activity Map.
 
