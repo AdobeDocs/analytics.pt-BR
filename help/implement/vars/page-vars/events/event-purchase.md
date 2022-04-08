@@ -4,7 +4,7 @@ description: Use o evento de compra para coletar dados das métricas "Pedidos", 
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Quando você define um evento de compra, ele afeta as seguintes métricas:
 
 Outras variáveis dependentes, como `products` e `purchaseID`, não têm campos dedicados na interface da coleção de dados. Use o editor de código personalizado siga a sintaxe do AppMeasurement para essas variáveis.
 
-## Definir o evento de compra no AppMeasurement e no editor de código personalizado do 
+## Definir o evento de compra no AppMeasurement e no editor de código personalizado do
 
 O evento de compra é uma string definida como parte da variável de eventos.
 
