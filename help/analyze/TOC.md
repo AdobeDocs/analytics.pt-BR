@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
-user-guide-description: Instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e visualização do Analytics, bem como ferramentas como Painéis Adobe Analytics, Report Builder e Activity Map.
+user-guide-description: Instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e de visualização para o Analytics, além de ferramentas, como os painéis do Adobe Analytics, o Report Builder e o Activity Map.
 source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 # Guia de ferramentas do Adobe Analytics {#analyze}
 
 + [Guia de ferramentas do Analytics](home.md)
-+ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Visão geral do Analysis Workspace](analysis-workspace/home.md)
@@ -92,7 +92,7 @@ ht-degree: 96%
       + [Painel de atribuição](analysis-workspace/c-panels/attribution.md)
       + [Painel em branco](analysis-workspace/c-panels/blank-panel.md)
       + [Painel de forma livre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Painel Audiência média por minuto da mídia](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [Painel Audiência média por minuto de mídia](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Painel Visualizadores simultâneos de mídia](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + Tempo gasto com reprodução de mídia {#media-playback-timespent}
          + [Visão geral](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)

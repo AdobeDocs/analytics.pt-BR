@@ -1,26 +1,26 @@
 ---
 description: Criar um contêiner básico para a coleta de dados no Adobe Analytics
-title: Criar um novo conjunto de relatórios
+title: Criar um conjunto de relatórios
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 59%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Criar um novo conjunto de relatórios
 
-Um conjunto de relatórios é um silo de dados que o Adobe Analytics usa para extrair relatórios. Uma organização pode ter vários conjuntos de relatórios, cada um contendo diferentes conjuntos de dados. Embora os conjuntos de relatórios separados tenham sido importantes no passado, ter um único conjunto de relatórios se tornou mais vantajoso. A introdução do [conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) O e o processamento de tempo do relatório permitem que os administradores criem seus próprios subconjuntos de dados, permitindo a flexibilidade para obter dados globais e específicos do site.
+Um conjunto de relatórios é um silo de dados que o Adobe Analytics usa para extrair relatórios. Uma organização pode ter vários conjuntos de relatórios, cada um contendo diferentes conjuntos de dados. Embora os conjuntos de relatórios separados tenham sido importantes no passado, ter um único conjunto de relatórios se tornou mais vantajoso. A introdução aos [conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=pt-BR#virtual-report-suites) e ao processamento de tempo do relatório permite que administradores criem seus próprios subconjuntos de dados, fornecendo flexibilidade para obter dados globais e específicos do site.
 
 Este artigo foi projetado para administradores de nível de sistema ou administradores do Adobe Analytics para preparar a coleta de dados.
 
 ## Pré-requisitos
 
-[Guia do primeiro administrador do Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): Certifique-se de que um administrador de nível de sistema tenha concedido acesso ao Adobe Analytics por meio do Admin Console de Experience Cloud.
+[Guia do primeiro administrador do Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): verifique se um administrador de nível de sistema concedeu acesso ao Adobe Analytics por meio do Admin Console da Experience Cloud.
 
-## Criar um novo conjunto de relatórios {#create-report-suite}
+## Criar um conjunto de relatórios {#create-report-suite}
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Clique em **[!UICONTROL Criar novo]** > **[!UICONTROL Conjunto de relatórios]**.
@@ -43,4 +43,4 @@ Isso significa que sua conta não recebeu as permissões corretas para o Analyti
 
 ## Próximas etapas
 
-[Criar uma propriedade de tag do Adobe Analytics](/help/implement/launch/create-analytics-property.md): Crie uma área para gerenciar a implementação do Analytics.
+[Criar uma propriedade de tag do Adobe Analytics](/help/implement/launch/create-analytics-property.md): criar uma área para gerenciar a implementação do Analytics.

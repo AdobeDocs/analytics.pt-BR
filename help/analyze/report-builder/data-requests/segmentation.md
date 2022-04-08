@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,7 @@ O Report Builder tem um novo painel de segmentação na Etapa 1 do Assistente de
 
 ## Pesquisar por e aplicar segmentos {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Qualquer segmento criado em Reports &amp; Analytics, Report Builder ou Data Warehouse aparece na lista de segmentos. Para atualizar a lista, clique no ícone Atualizar (![](assets/refresh_icon.png)).
+Qualquer segmento criado no Reports &amp; Analytics, Report Builder ou Data Warehouse aparece na lista de segmentos. Para atualizar a lista, clique no ícone Atualizar (![](assets/refresh_icon.png)).
 
 Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui segmentos sequenciais.
 
@@ -64,7 +64,7 @@ Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui se
 
 >[!NOTE]
 >
->Caso seja o Administrador ou não, no Report Builder é possível visualizar apenas os segmentos de sua propriedade e aqueles que foram compartilhados com você. (na interface do usuário dos Reports &amp; Analytics de marketing, o Administrador pode visualizar todos os segmentos da organização).
+>Caso seja o Administrador ou não, no Report Builder é possível visualizar apenas os segmentos de sua propriedade e aqueles que foram compartilhados com você. (Na interface de usuário do Marketing Reports &amp; Analytics, o Administrador pode visualizar todos os segmentos da organização.)
 
 ## Filtrar segmentos {#section_376E986D3E684999A7CDB08E53854159}
 
@@ -82,7 +82,7 @@ Os filtros disponíveis incluem:
 | Outros filtros > Favoritos | Mostra todos os segmentos que você marcou como Favoritos. |
 | Outros filtros > Aprovado | Mostra todos os segmentos aprovados oficialmente. |
 
-## Adiciona um controle de segmento a uma pasta de trabalho {#section_E3E5149A8464441FA5445A98DBD520AC}
+## Adicionar um controle de segmento a uma pasta de trabalho {#section_E3E5149A8464441FA5445A98DBD520AC}
 
 Adicionar um controle de segmento permite você alternar segmentos de uma pasta de trabalho em vez de precisar ir até o Assistente de solicitação.
 
@@ -103,7 +103,7 @@ Adicionar um controle de segmento permite você alternar segmentos de uma pasta 
 
 ## Atualizar a lista de segmentos {#section_22E4A86789444B4A998532396B476EFB}
 
-Sempre que você adicionar um novo segmento ou editar um já existente, você deve clicar no ícone Atualizar (![](assets/refresh_icon.png) para atualizar a lista de segmentos em cache).
+Sempre que você adicionar um novo segmento ou editar um já existente, deve clicar no ícone Atualizar (![](assets/refresh_icon.png)) para atualizar a lista de segmentos em cache.
 
 ## Gerenciamento de segmentos em solicitações {#section_C3D63FCBE1A94369A319243313B03C93}
 

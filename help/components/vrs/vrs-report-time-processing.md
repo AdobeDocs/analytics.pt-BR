@@ -7,8 +7,8 @@ feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Durante o processamento de dados do Analytics, os dados fluem do pipeline de col
 
 Esta arquitetura de processamento permite opções de relatórios muito mais flexíveis. Por exemplo, você pode alterar o tempo limite de visita para qualquer duração desejada de forma não destrutiva e essas alterações são refletidas em sua persistência de eVar e nos contêineres dos segmentos retroativamente como se você tivesse aplicado essas configurações antes da coleta dos dados. Além disso, você pode criar qualquer número de conjuntos de relatórios virtuais, cada um com diferentes opções de Processamento de tempo do relatório com base em um mesmo conjunto de relatórios base, sem alterar os dados no conjunto de relatórios base.
 
-[!UICONTROL Processamento de tempo do relatório] O também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e permite que a variável [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) para informar aos relatórios para iniciar uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
+O [!UICONTROL Processamento de tempo de relatório] permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e que o [SDK móvel da Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR) informe os relatórios para iniciar uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
 
 ## Opções de configuração
 

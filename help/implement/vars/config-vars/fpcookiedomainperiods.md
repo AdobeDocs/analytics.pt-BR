@@ -5,8 +5,8 @@ feature: Variables
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Pontos de domínio primários é um campo da opção [!UICONTROL Cookies] ao con
 
 Defina esse campo como `3` somente em domínios que contenham um ponto no sufixo. Caso contrário, esse campo poderá ser deixado em branco.
 
-## s.fpCookieDomainPeriods no AppMeasurement e no editor de código personalizado do 
+## s.fpCookieDomainPeriods no AppMeasurement e no editor de código personalizado do
 
 A variável `fpCookieDomainPeriods` é uma cadeia de caracteres normalmente definida como `"3"`, somente em domínios que contêm um ponto no sufixo. Seu valor padrão é `"2"`, que acomoda a maioria dos domínios.
 
