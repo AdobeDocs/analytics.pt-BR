@@ -4,7 +4,7 @@ description: Retorna o valor de um parâmetro da string de consulta.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Parâmetros de string de consulta em um URL do navegador frequentemente contêm 
 
 O valor do parâmetro da string de consulta é armazenado no elemento de dados. Você pode fazer referência ao elemento de dados nas regras para atribuir variáveis do Analytics.
 
-## s.Util.getQueryParam() no AppMeasurement e no editor de código personalizado do 
+## s.Util.getQueryParam() no AppMeasurement e no editor de código personalizado do
 
 Chame o método `s.Util.getQueryParam()` para recuperar um valor de string de consulta do URL do navegador. O argumento de string que contém um parâmetro de string de consulta é obrigatório. Esse método retorna uma string, que pode ser atribuída às variáveis do Analytics:
 
