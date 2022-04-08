@@ -6,7 +6,7 @@ feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Crie intervalos de datas personalizados no Analysis Workspace e salve-os como Co
 
 Os intervalos de datas são aplicados no nível do painel. Para adicionar um intervalo de datas ao seu projeto, clique em **Painéis** > *`<select panel>`* e especifique um novo intervalo de datas.
 
-## Intervalo de datas para “dois meses atrás”  {#section_C4109C57CB444BB2A79CC8082BD67294}
+## Intervalo de datas para “dois meses atrás” {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 O intervalo de datas personalizado a seguir mostra um intervalo de datas para “dois meses atrás” com uma visualização de Alteração do resumo, que mostra a alteração direcional.
 
