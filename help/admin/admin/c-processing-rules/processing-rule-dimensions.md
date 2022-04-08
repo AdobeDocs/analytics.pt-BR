@@ -5,9 +5,9 @@ title: Dimensões disponíveis para as regras de processamento
 feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -89,11 +89,11 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome da página </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Observação: As chamadas de rastreamento de link removem a <code>pageName</code> antes de atingir as regras de processamento. Se você inserir novamente um valor de nome de página usando regras de processamento, a ocorrência será considerada uma exibição de página, em vez de uma chamada de rastreamento de link. O Adobe recomenda verificar se o nome da página já está definido antes de modificá-la. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Observação: as chamadas de rastreamento de link removem a variável <code>pageName</code> antes de atingir as regras de processamento. Se você inserir novamente um valor de nome de página usando regras de processamento, a ocorrência será considerada uma exibição de página, em vez de uma chamada de rastreamento de link. A Adobe recomenda verificar se o nome da página já está definido antes de modificá-la. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL da página </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> ou o URL da página atual, se <code> s.pageURL</code> não for especificado. <p>Observação: As chamadas de rastreamento de link removem a <code>pageURL</code> antes de atingir as regras de processamento. Se você inserir novamente um valor de URL da página usando regras de processamento, a ocorrência será considerada uma exibição de página, em vez de uma chamada de rastreamento de link. O Adobe recomenda verificar se o URL da página já está definido antes de modificá-lo. </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> ou o URL da página atual, se <code> s.pageURL</code> não for especificado. <p>Observação: as chamadas de rastreamento de link removem a variável <code>pageURL</code> antes de atingir as regras de processamento. Se você inserir novamente um valor de URL de página usando regras de processamento, a ocorrência será considerada uma exibição de página, em vez de uma chamada de rastreamento de link. A Adobe recomenda verificar se o URL da página já está definido antes de modificá-lo. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parâmetro da sequência de caracteres de consulta </p> </td> 
