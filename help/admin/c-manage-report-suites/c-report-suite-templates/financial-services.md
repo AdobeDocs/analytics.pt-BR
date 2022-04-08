@@ -4,7 +4,7 @@ title: Serviços financeiros
 feature: Report Suite Settings
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -16,9 +16,9 @@ Define configurações comuns para bancos e outras instituições que fornecem a
 
 | Variáveis de conversão (eVars) | Tipo | Sub-relações | Alocação | Expiração | `s_code`variável |
 |---|---|---|---|---|---|
-| Promoção interna | String | Básica | Mais recente (último) | Visita | `evar1` |
-| Termos de pesquisa interna | String | Básica | Mais recente (último) | Visita | `evar2` |
-| Evento tipo self-service | String | Básica | Mais recente (último) | Visita | `evar3` |
+| Promoção interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
+| Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
+| Evento tipo self-service | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar3` |
 
 Não há eventos bem-sucedidos configurados por este modelo de conjunto de relatórios.
 
