@@ -3,9 +3,9 @@ title: Guia de exportação do Analytics
 description: Este manual descreve maneiras de retirar dados do Adobe Analytics usando feeds de dados e o Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Este guia descreve maneiras de retirar dados do Adobe Analytics. O serviço incl
 
 * **Feeds de dados:** receba uma exportação por hora ou por dia de dados brutos. Cada linha é uma ocorrência individual e cada coluna é uma variável. Os feeds de dados geralmente são enviados para sites FTP.
 * **Data Warehouse:** ese um assistente de solicitações para recuperar uma saída de planilha de dados. O Data Warehouse usa uma arquitetura de processamento diferente para permitir qualquer número de linhas e de valores únicos.
-* **FTP e SFTP:** Práticas recomendadas para usar FTP e SFTP com Adobe
+* **FTP e SFTP:** práticas recomendadas para o uso de FTP e SFTP com a Adobe
 
 Veja um vídeo com uma visão geral do Adobe Analytics:
 
