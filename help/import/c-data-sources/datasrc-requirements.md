@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ As seções a seguir apresentam as limitações aplicáveis às Fontes de dados 
 * Os dados de log da Web, de tráfego e de alguns grupos de fontes de dados genéricas não estão disponíveis em Data Warehouse ou Discover. Para obter mais informações, consulte [Tipos de dados e categorias](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * As fontes de dados não comportam eventos serializados.
 
-## Suporte para múltiplos bytes {#section_96C8D26B21184C3E839865DB6F23EA22}
+## Compatibilidade com múltiplos bytes {#section_96C8D26B21184C3E839865DB6F23EA22}
 
 As Fontes de Dados oferecem suporte para codificação de múltiplos bytes. As Fontes de Dados tentam identificar o formato do arquivo de Fontes de Dados recebido e, quando necessário, converte-o para um formato compatível. A tabela a seguir apresenta os formatos comuns de caracteres e seu status de suporte.
 
@@ -94,7 +94,7 @@ Se você enviar um arquivo UTF-8 ou ISO-8859-1 e seu conjunto de relatórios nã
 * Os relatórios mais úteis para exibir os dados de log da Web são os relatórios de tráfego, como exibições de página.
 * Os nomes das páginas são exibidos como URL inteiro, incluindo a sequência de consulta.
 * Cada solicitação de arquivo aparece como uma exibição separada da página, incluindo folhas de estilo e arquivos de imagem.
-* Se você acrescentar informações no URL, os arquivos poderão ser gravados como páginas separadas. Por exemplo, o Adobe registra os seguintes URLs como duas páginas separadas:
+* Se você acrescentar informações no URL, os arquivos poderão ser gravados como páginas separadas. Por exemplo, a Adobe registra os seguintes URLs como duas páginas separadas:
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
