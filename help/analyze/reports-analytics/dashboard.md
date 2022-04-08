@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1827'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Você pode adicionar a maioria dos relatórios de marketing ao painel, incluindo
 
 Você também pode configurar um painel como página inicial, compartilhar painéis com outros usuários e agendar a entrega deles. Se você não definir um painel (ou um marcador) como página de aterrissagem, o painel [!UICONTROL Meus relatórios recomendados] é exibido. **[!UICONTROL Meus relatórios recomendados]** mostra o relatório **[!UICONTROL Métricas principais]** além dos cinco relatórios vistos com mais frequência. É dinâmico e baseia-se nos relatórios reais que são mais visualizados.
 
-Alguns dos relatórios exibidos frequentemente podem não ser exibidos no painel, e portanto não estarão disponíveis para visualização. As melhorias incluem:
+Alguns dos relatórios exibidos frequentemente podem não ser exibidos no painel, e portanto não estarão disponíveis para visualização. Isso inclui:
 
 * Relatórios de detecção de anomalias
 * Relatórios de análise de contribuição
@@ -46,7 +46,7 @@ Além dos painéis criados, os seguintes painéis pré-integrados são incluído
 
 Esse painel personalizável oferece uma maneira de colocar reportlets no modelo fornecido.
 
-**[!UICONTROL Componentes] > [!UICONTROL Todos os componentes] > [!UICONTROL Painéis] > [!UICONTROL Painéis compartilhados] > [!UICONTROL Painel de operações do site]**
+**[!UICONTROL Componentes] > [!UICONTROL Todos os componentes] > [!UICONTROL Painéis] > [!UICONTROL Painéis compartilhados] > [!UICONTROL Painel de operações do site]**
 
 Esse painel fornece uma visão geral de métricas principais relacionadas às operações de seu site. Os relatórios nesse painel incluem:
 
@@ -175,7 +175,7 @@ Você pode criar os seguintes reportlets de Conteúdo do usuário fornecendo URL
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Editar um painel de dados de reportlet {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
+## Editar dados do painel e do reportlet {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
 Você pode alterar as configurações de dados em nível de painel ou reportlet. Por exemplo, você pode alterar ou bloquear o conjunto de relatórios, alterar datas, aplicar segmentos, etc. Também é possível personalizar um painel inserindo a declaração de confidencialidade da sua empresa e incluir dados HTML, XML, Web API e CSV em reportlets personalizados.
 
@@ -205,7 +205,7 @@ t_dashboard_edit.xml
 | Imprimir um painel | No painel, clique em [!UICONTROL Mais] > Imprimir. |
 | Salvar um painel | Em um painel, clique em Salvar como e, em seguida, especifique um nome. |
 
-## Co-brand do painel {#task_603BDE7700B945699AF5514C2DEB81F7}
+## Compartilhamento de marcas em um painel {#task_603BDE7700B945699AF5514C2DEB81F7}
 
 Etapas que descrevem como fazer o upload de uma imagem para exibição em um painel.
 
