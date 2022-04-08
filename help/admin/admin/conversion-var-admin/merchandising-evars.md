@@ -4,7 +4,7 @@ description: Um aprofundamento nos conceitos por trás das eVars de merchandisin
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5319'
 ht-degree: 100%
 
@@ -170,7 +170,7 @@ Se você quiser vincular &quot;pesquisa interna de palavra-chave&quot; à ID de 
 
 `s.products=";12345;;;;eVar1=internal keyword search";`
 
-Qualquer evento bem-sucedido (adições ao carrinho, compras) capturado ao mesmo tempo que productID 12345 são creditados à ID de produto 12345 e ao valor de eVar de &quot;pesquisa interna de palavra-chave&quot;. A única maneira de um valor de eVar diferente receber crédito por eventos bem-sucedidos associados à ID de produto 12345 é se a eVar1 for posteriormente definida como um valor diferente na variável produtos (com a ID de produto 12345).
+Qualquer evento bem-sucedido (adições ao carrinho, compras) capturado ao mesmo tempo que productID 12345 são creditados à ID de produto 12345 e ao valor de eVar1 de &quot;pesquisa interna de palavra-chave&quot;. A única maneira de um valor de eVar1 diferente receber crédito por eventos bem-sucedidos associados à ID de produto 12345 é se a eVar1 for posteriormente definida como um valor diferente na variável produtos (com a ID de produto 12345).
 
 Por exemplo:
 
@@ -374,7 +374,7 @@ post_events="prodView"
 post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell"
 ```
 
-O valor contido na coluna post_products pode ser familiar para você. Role para cima neste documento e compare esse valor de post_products com o valor de s.products, como mostrado em .  Observe que a coluna post_products é definida usando a Sintaxe de variável do produto. 
+O valor contido na coluna post_products pode ser familiar para você. Role para cima neste documento e compare esse valor de post_products com o valor de s.products, como mostrado em .  Observe que a coluna post_products é definida usando a Sintaxe de variável do produto.
 
 Isso significa que o Vínculo &quot;copia&quot; os valores do eVar da Sintaxe de variável de conversão para a variável products por meio da Sintaxe de produto. Essa ação de cópia ocorre somente quando a variável products e um evento compulsório (definido por meio da configuração de eVar) estão contidos na mesma solicitação. Nesse ponto, os valores contidos nas colunas post_eVar são vinculados ao produto. Esse Vínculo é representado por meio da Sintaxe do produto, conforme armazenado na coluna post_products.
 
