@@ -4,9 +4,9 @@ title: Enviar solicitações de acesso e de exclusão
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo 
 
 ## Enviar solicitações {#submit-requests}
 
-Você pode enviar acesso à Privacidade de dados e excluir solicitações por meio de nossa [Interface do usuário do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) ou através do [API do Privacy Service.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)
+É possível conceder acesso à Privacidade de dados e excluir solicitações por meio da nossa [interface do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=pt-BR), ou pela nossa [API Privacy Service.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR)
 
 >[!NOTE]
 >
