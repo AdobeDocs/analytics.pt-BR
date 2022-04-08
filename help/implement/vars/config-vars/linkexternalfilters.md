@@ -4,7 +4,7 @@ description: Use a variável linkExternalFilters para ajudar no rastreamento aut
 feature: Variables
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ O campo Rastrear é uma lista de filtros separados por vírgulas (geralmente dom
 
 Coloque filtros que deseja sempre considerar como externos neste campo. Separe vários domínios por vírgula sem espaço.
 
-## s.linkExternalFilters no AppMeasurement e no editor de código personalizado do 
+## s.linkExternalFilters no AppMeasurement e no editor de código personalizado do
 
 A variável `s.linkExternalFilters` é uma cadeia de caracteres que contém filtros (como domínios) tidos como links de saída. Separe vários domínios usando uma vírgula sem espaços.
 
