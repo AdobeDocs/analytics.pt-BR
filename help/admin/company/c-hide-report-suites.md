@@ -5,9 +5,9 @@ title: Ocultar conjuntos de relatórios
 feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Ocultar um conjunto de relatórios evita que ele seja exibido no menu suspenso d
 >
 >Os dados de um site enviados para um conjunto de relatórios oculto continuam a ser coletados, processados e faturados. Em outras palavras, um conjunto de relatórios nunca é completamente excluído.
 
-Para ocultar o conjunto de relatórios, acesse **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Ocultar conjuntos de relatórios]**. Marque a caixa de seleção **[!UICONTROL Oculto]** no lado esquerdo do nome do conjunto de relatórios.
+Para ocultar o conjunto de relatórios, vá até **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Ocultar conjuntos de relatórios]**. Marque a caixa de seleção **[!UICONTROL Oculto]** no lado esquerdo do nome do conjunto de relatórios.
 
 Para tornar o conjunto de relatórios visível, desmarque a caixa de seleção **[!UICONTROL Oculto]**.
 
