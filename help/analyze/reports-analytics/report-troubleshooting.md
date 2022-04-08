@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Os fatores a seguir contribuem para o aumento do tempo de geração dos relatór
 
 * **Intervalo de tempo do relatório**: o fator mais importante que afeta o tempo de geração de relatório é o número de solicitações mensais. A redução do número de meses de três para um diminui bastante o tempo de geração, mas a redução do intervalo de tempo de um mês para uma semana não tem um grande impacto no tempo de geração do relatório.
 * **Quantidade de métricas**: Quando a quantidade de métricas aumenta, o tempo de execução do relatório também aumenta. A remoção das métricas pode melhorar o tempo de geração de relatórios.
-* **Número de detalhamentos**: Dentro de um relatório, cada detalhamento representa uma solicitação separada. Enquanto solicitações individuais podem ser concluídas rapidamente, a execução de milhares de interrupções em um único relatório pode retardar o tempo de geração de um relatório e afetar a relação do conjunto de relatórios.
+* **Número de detalhamentos**: dentro de um relatório, cada detalhamento representa uma solicitação separada. Enquanto solicitações individuais podem ser concluídas rapidamente, a execução de milhares de interrupções em um único relatório pode retardar o tempo de geração de um relatório e afetar a relação do conjunto de relatórios.
 * **Complexidade do segmento**: Segmentos que consideram várias dimensões ou têm muitas (mais de 24) regras aumentam o impacto do processo e aumentam o tempo de geração de relatório.
 * **Número de valores únicos**: relatórios que contêm centenas de milhares de valores únicos são gerados mais lentamente do que relatórios que contém poucos valores únicos, mesmo que o segmento ou filtro reduza o número de valores que aparecem em um relatório. Por exemplo, normalmente um relatório que exibe os termos é gerado mais lentamente do que outros relatórios, mesmo que se aplique um filtro para exibir somente os termos de pesquisa que contêm um valor específico.
 
