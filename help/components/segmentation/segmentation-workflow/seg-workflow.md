@@ -4,7 +4,7 @@ title: Visão geral do fluxo de trabalho de segmentação
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Descreve um fluxo de trabalho sugerido para segmentos criados com o Construtor d
 
 Você fez todas as perguntas apropriadas antes de construir segmentos e configurar um ambiente de gerenciamento de segmentos? Você projetou o segmento com a finalidade pretendida e uso distinto em mente?
 
-Consulte a  Lista de verificação de segmento para obter ajudar no planejamento e na organização dos segmentos.
+Consulte a Lista de verificação de segmento para obter ajudar no planejamento e na organização dos segmentos.
 
 ![](assets/step2_icon.png) [Construir segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md)
 
