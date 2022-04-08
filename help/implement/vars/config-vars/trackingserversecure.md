@@ -4,7 +4,7 @@ description: Defina para que local as solicitações de imagem são enviadas em 
 feature: Variables
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ A Adobe coleta dados em seu site recebendo uma solicitação de imagem gerada pe
 
 Se esse campo ficar em branco, o padrão será o valor na variável [`trackingServer`](trackingserver.md).
 
-## s.trackingServerSecure no AppMeasurement e no editor de código personalizado do 
+## s.trackingServerSecure no AppMeasurement e no editor de código personalizado do
 
 A varável `s.trackingServerSecure` é uma string que contém o local para o envio de solicitações de imagem. É quase sempre um subdomínio do seu site. Geralmente, práticas de privacidade modernas em navegadores tornam cookies de terceiros não confiáveis. Se essa variável estiver em branco, ela usará o valor na variável `s.trackingServer`.
 
