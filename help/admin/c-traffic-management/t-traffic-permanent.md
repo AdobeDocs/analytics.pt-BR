@@ -4,9 +4,9 @@ title: Especificar o aumento de tráfego permanente
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
