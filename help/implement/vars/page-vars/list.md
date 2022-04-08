@@ -4,7 +4,7 @@ description: Variáveis personalizadas que contêm vários valores na mesma ocor
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Certifique-se de configurar cada variável de lista nas configurações do conju
 
 Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.list1 e s.list3 no AppMeasurement e no editor de código personalizado do 
+## s.list1 e s.list3 no AppMeasurement e no editor de código personalizado do
 
 Cada variável de lista é uma string que contém valores personalizados específicos para sua organização. Elas não têm uma contagem máxima de bytes; no entanto, cada valor individual tem no máximo 255 bytes. O delimitador usado é determinado quando se configura a variável nas configurações do conjunto de relatórios. Não use espaços ao delimitar vários itens.
 
