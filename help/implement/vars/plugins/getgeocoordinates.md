@@ -4,7 +4,7 @@ description: Rastreie a localização geográfica de um visitante.
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequ
    * Tipo de ação: inicializar getGeoCoordinates
 1. Salve e publique as alterações na regra.
 
-## Instale o plug-in usando o editor de código personalizado do 
+## Instale o plug-in usando o editor de código personalizado do
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
