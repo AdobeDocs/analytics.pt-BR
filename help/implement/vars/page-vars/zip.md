@@ -4,7 +4,7 @@ description: Preencha manualmente a dimensão “CEP” se as configurações do
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Você pode definir o CEP ao configurar a extensão do Analytics (variáveis glob
 
 É possível definir o CEP como qualquer valor de string, incluindo elementos de dados.
 
-## s.zip no AppMeasurement e no editor de código personalizado do 
+## s.zip no AppMeasurement e no editor de código personalizado do
 
 A variável `s.zip` é uma string que geralmente contém um CEP, mas que pode conter qualquer valor desejado de até 50 bytes de tamanho.
 
