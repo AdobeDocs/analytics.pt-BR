@@ -3,17 +3,17 @@ title: Aviso de fim de vida útil para relatórios agendados
 description: O Adobe pretende pausar todos os relatórios agendados com uma data de criação superior a dois anos.
 feature: Reports & Analytics Basics
 role: User, Admin
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 3%
 
 ---
 
-
 # Aviso de fim de vida útil para relatórios agendados
 
-A partir de 15 de abril de 2022, o Adobe pretende pausar todos os relatórios agendados que tenham uma data de criação superior a dois anos (quaisquer tarefas criadas antes de 31 de janeiro de 2020). Nenhum relatório ou dado será excluído. Somente os relatórios identificados como com mais de dois anos serão pausados e nenhum relatório agendado adicional será enviado.
+A partir de 21 de abril de 2022, o Adobe pretende pausar todos os relatórios agendados que tenham uma data de criação superior a dois anos (quaisquer tarefas criadas antes de 31 de janeiro de 2020). Nenhum relatório ou dado será excluído. Somente os relatórios identificados como com mais de dois anos serão pausados e nenhum relatório agendado adicional será enviado.
 
 Todos os relatórios agendados que ainda não foram enviados podem ser reativados simplesmente fazendo logon no Analytics e abrindo o [!UICONTROL Relatórios agendados] gerente. Clique no botão [!UICONTROL Editar] e defina uma nova hora e expiração agendadas. Qualquer relatório que for reativado terá uma expiração padrão de 9 meses, a menos que uma data de expiração mais curta seja escolhida.
 
