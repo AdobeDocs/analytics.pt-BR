@@ -3,10 +3,10 @@ title: Visualizações de produto
 description: O número de visualizações para páginas de produtos.
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: eb13c3e828bc6d4c547f4529ee7a15182bbbf046
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '79'
+ht-degree: 88%
 
 ---
 
@@ -19,4 +19,4 @@ A métrica “Visualizações de produto” mostra o número de vezes que um pro
 Essa métrica conta o número de ocorrências que correspondem a **qualquer** uma das seguintes opções:
 
 * O valor `prodView` existe na variável [`events`](/help/implement/vars/page-vars/events/events-overview.md); ou
-* A variável [`products`](/help/implement/vars/page-vars/products.md) está definida e nenhum evento de carrinho de compras existe na variável `events`. Qualquer evento que não seja personalizado (`event1` - `event1000`) é um evento de carrinho de compras.
+* O [`products`](/help/implement/vars/page-vars/products.md) for definida e a variável `events` está vazia.
