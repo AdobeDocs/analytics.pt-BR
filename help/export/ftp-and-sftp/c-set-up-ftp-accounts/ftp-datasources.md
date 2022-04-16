@@ -4,14 +4,14 @@ keywords: ftp;sftp
 title: Visão geral das Fontes de dados
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '452'
+ht-degree: 99%
 
 ---
 
-# Fontes de dados
+# Fontes de dados baseadas em FTP
 
 É possível usar o Analytics para criar e gerenciar fontes de dados baseadas em FTP, o que impulsiona a transferência de arquivos por FTP para a importação de dados offline e de histórico na Experience Cloud.
 

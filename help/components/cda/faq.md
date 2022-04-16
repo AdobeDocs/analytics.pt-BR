@@ -2,10 +2,10 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Cross-Device Analytics
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 100%
+source-wordcount: '1937'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ O CDA extrai itens de dimensão variável do identificador antes que eles sejam 
 
 ## Quantos conjuntos de relatórios da minha empresa podem ser habilitados para o CDA?
 
-Vários conjuntos de relatórios podem estar ativados, no entanto, cada conjunto de relatórios adicional aumentará o tempo de provisionamento geral se vários conjuntos de relatórios forem solicitados ao mesmo tempo. O CDA não mescla conjuntos de relatórios. Cada conjunto de relatórios habilitado para o CDA precisa ser de natureza entre dispositivos (contendo dados de várias superfícies, como Web para desktop, Web móvel, aplicativo móvel etc.)
+A partir de 1º de maio de 2022, qualquer nova implementação do CDA será limitada a no máximo três IDs de conjunto de relatórios (RSIDs) por cliente. O CDA não mescla conjuntos de relatórios. Cada conjunto de relatórios habilitado para o CDA precisa ser de natureza entre dispositivos (contendo dados de várias superfícies, como Web para desktop, Web móvel, aplicativo móvel etc.).
 
 ## Se minha organização da Experience Cloud (também conhecida como organização IMS) tem várias empresas em diferentes regiões, posso habilitar o CDA para todas elas?
 
