@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 591c7af7fe721b94b4da0c1f09f63f88603f9af9
+source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
 workflow-type: tm+mt
 source-wordcount: '3445'
 ht-degree: 100%
@@ -198,7 +198,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `state` | Variável de estado. | varchar(50) |
 | `stats_server` | Não está em uso. Servidor interno da Adobe que processou o hit. | char(30) |
 | `t_time_info` | Horário local do visitante. O formato é: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Usado em integrações do Adobe Target. Representa todos os testes qualificados até o momento. O formato é: `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | texto |
+| `tnt` | Usado em integrações do Adobe Target. Representa todos os testes qualificados até o momento. O formato é: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | texto |
 | `tnt_action` | Usado em integrações do Adobe Target. Representa todos os testes para os quais o hit se qualificou. | texto |
 | `tnt_post_vista` | Não está mais em uso. Use `post_tnt` no lugar dela. | texto |
 | `transactionid` | Um identificador exclusivo, em que vários pontos de dados podem ser carregados posteriormente via fontes de dados. Coletado usando a variável [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | texto |
