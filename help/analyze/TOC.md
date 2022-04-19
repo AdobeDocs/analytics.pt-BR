@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e de visualização para o Analytics, além de ferramentas, como os painéis do Adobe Analytics, o Report Builder e o Activity Map.
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+source-git-commit: e865cd474b5b4a3251ed6e7cf6dae1f604f5a9c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1047'
+ht-degree: 99%
 
 ---
 
@@ -98,6 +98,8 @@ ht-degree: 0%
          + [Visão geral](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Configurações de entrada e saída](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Perguntas frequentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [Próximo painel de item ou anterior](analysis-workspace/c-panels/next-previous.md)
+      + [Painel de resumo da página](analysis-workspace/c-panels/page-summary.md)
       + [Painel do Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Painel de comparação de segmentos {#segment-comparison}
          + [Visão geral da comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
