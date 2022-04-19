@@ -3,13 +3,13 @@ description: O painel de resumo da página mostra as informações de resumo de 
 title: Painel de resumo da página
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
+source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
-
 
 # Painel de resumo da página
 
@@ -26,12 +26,12 @@ Você pode acessar o painel por meio de [!UICONTROL Relatórios] ou [!UICONTROL 
 
 ## Entradas do painel {#Input}
 
-Você pode configurar o [!UICONTROL Item seguinte ou anterior] painel usando estas configurações de entrada:
+Você pode configurar o [!UICONTROL Resumo da página] painel usando estas configurações de entrada:
 
 | Configuração | Descrição |
 | --- | --- |
 | Zona Segmento (ou outro componente) | Você pode arrastar e soltar segmentos ou outros componentes para filtrar ainda mais os resultados do painel. |
-| Item de dimensão da página | Na lista suspensa, selecione o item de dimensão cujas estatísticas principais deseja explorar. |
+| Item de dimensão da página | Na lista suspensa, selecione o item de dimensão Página cujas estatísticas principais você deseja explorar. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,3 +56,7 @@ O [!UICONTROL Resumo da página] O painel retorna um conjunto avançado de métr
 | [!UICONTROL Fluxo] | Um diagrama de Fluxo com a página selecionada como ponto focal. Você pode detalhar os dados da mesma forma que em qualquer [Diagrama de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
 
 {style=&quot;table-layout:auto&quot;}
+
+![Painel de resumo da página](assets/page-sum1.png)
+
+![Métricas e fluxo](assets/page-sum2.png)
