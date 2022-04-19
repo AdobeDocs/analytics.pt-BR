@@ -3,9 +3,9 @@ description: Um painel que mostra os itens de dimensão anteriores ou seguintes 
 title: Próximo painel de item ou anterior
 feature: Panels
 role: User, Admin
-source-git-commit: d4106324f6716139731cc6bd948ef06b35303620
+source-git-commit: 73fa048164c67c6c381ce5e223bb178f9ab1833f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '477'
 ht-degree: 8%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # Próximo painel de item ou anterior
 
-O [!UICONTROL Item seguinte ou anterior] painel iniciado como um relatório no Reports &amp; Analytics, em [!UICONTROL Relatórios] > [!UICONTROL Mais popular] > [!UICONTROL Próxima página/Página anterior]. Esse painel da Workspace contém várias tabelas e visualizações para identificar facilmente o item de dimensão anterior ou seguinte de uma dimensão específica. Por exemplo,
+O [!UICONTROL Item seguinte ou anterior] painel iniciado como um relatório no Reports &amp; Analytics, em [!UICONTROL Relatórios] > [!UICONTROL Mais popular] > [!UICONTROL Próxima página/Página anterior]. Esse painel da Workspace contém várias tabelas e visualizações para identificar facilmente o item de dimensão anterior ou seguinte de uma dimensão específica. Por exemplo, talvez você queira explorar quais páginas os clientes acessaram com mais frequência após visitarem a Página inicial.
 
 ## Acessar o painel
 
