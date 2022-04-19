@@ -3,9 +3,9 @@ description: O painel de resumo da página mostra as informações de resumo de 
 title: Painel de resumo da página
 feature: Panels
 role: User, Admin
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '469'
 ht-degree: 9%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # Painel de resumo da página
 
-O [!UICONTROL Resumo da página] painel iniciado como um relatório no Reports &amp; Analytics, em Relatórios > Envolvimento > Análise da página > Resumo da página. Este painel do Workspace permite explorar facilmente as principais estatísticas sobre páginas específicas.
+O [!UICONTROL Resumo da página] painel iniciado como um relatório no Reports &amp; Analytics, em Relatórios > Envolvimento > Análise da página > Resumo da página. Agora também é um painel do Workspace. Este painel permite que você explore facilmente as principais estatísticas sobre páginas específicas.
 
 ## Acessar o painel
 
