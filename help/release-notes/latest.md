@@ -3,9 +3,9 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '996'
 ht-degree: 40%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 40%
 | Recurso | Descrição | [Data Alvo](releases.md) |
 | ----------- | ---------- | ------- |
 | Atualizações da página de aterrissagem do Adobe Analytics | Atualizações na página de aterrissagem conjunta do Workspace/Reports &amp; Analytics que melhora a usabilidade e a facilidade de navegação. [Saiba mais](/help/analyze/landing.md) | 20 de abril de 2022 |
-| [!UICONTROL Próximo item] ou [!UICONTROL Item anterior] Painel Área de trabalho | O [!UICONTROL Item seguinte ou anterior] permite explorar itens que seguem ou precedem um item de dimensão de sua escolha. Por exemplo, use-o se desejar visualizar as páginas anteriores ou seguintes de uma página de produto específica, de um canal de marketing ou até mesmo de um tipo de dispositivo. Esse painel vai além dos próximos relatórios/relatórios anteriores, pois permite que você veja qualquer dimensão e não requer nenhuma nova implementação para obter insights. | 20 de abril de 2022 |
-| [!UICONTROL Resumo da página] Painel Área de trabalho | O [!UICONTROL Resumo da página] O painel fornece uma análise detalhada para uma página de sua escolha. Ela fornece os mesmos detalhes que os Relatórios e análises herdados [!UICONTROL Resumo da página] , mais muito mais. | 20 de abril de 2022 |
+| [!UICONTROL Próximo item] ou [!UICONTROL Item anterior] Painel Área de trabalho | O [!UICONTROL Item seguinte ou anterior] permite explorar itens que seguem ou precedem um item de dimensão de sua escolha. Por exemplo, use-o se desejar visualizar as páginas anteriores ou seguintes de uma página de produto específica, de um canal de marketing ou até mesmo de um tipo de dispositivo. Esse painel vai além dos próximos relatórios/relatórios anteriores, pois permite que você veja qualquer dimensão e não requer nenhuma nova implementação para obter insights. [Saiba mais](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 20 de abril de 2022 |
+| [!UICONTROL Resumo da página] Painel Área de trabalho | O [!UICONTROL Resumo da página] O painel fornece uma análise detalhada para uma página de sua escolha. Ela fornece os mesmos detalhes que os Relatórios e análises herdados [!UICONTROL Resumo da página] , mais muito mais. [Saiba mais](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 20 de abril de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
