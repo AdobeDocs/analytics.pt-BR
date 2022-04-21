@@ -3,10 +3,10 @@ title: Perfis de produto para o Adobe Analytics
 description: Saiba como os perfis de produtos podem ser usados como predefinições de permissão que os administradores de produtos podem atribuir aos usuários em uma organização.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '671'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,6 @@ Os itens de permissão das ferramentas do Analytics concedem acesso a recursos q
 
 ## Desenvolvedores de perfil do produto
 
-Os desenvolvedores são semelhantes aos usuários, mas eles têm a capacidade de usar a API da Experience Cloud no Adobe I/O. Consulte [Gerenciar desenvolvedores](https://helpx.adobe.com/br/enterprise/using/manage-developers.html) no guia do usuário Enterprise para obter mais informações. Se um usuário receber o Developer Access para qualquer perfil, ele poderá acessar o Dev Console (console.adobe.io) e editar integrações do Adobe Analytics. As chamadas e respostas da API do Analytics autorizadas para o usuário dependerão das permissões de rede de todos os perfis nos quais o usuário tem o Developer Access.
+Os desenvolvedores são semelhantes aos usuários, mas eles têm a capacidade de usar a API do Experience Cloud em Desenvolvedores de Adobe. Consulte [Gerenciar desenvolvedores](https://helpx.adobe.com/br/enterprise/using/manage-developers.html) no guia do usuário Enterprise para obter mais informações. Se um usuário receber o Developer Access para qualquer perfil, ele poderá acessar o Dev Console (console.adobe.io) e editar integrações do Adobe Analytics. As chamadas e respostas da API do Analytics autorizadas para o usuário dependerão das permissões de rede de todos os perfis nos quais o usuário tem o Developer Access.
 
 Por exemplo, com permissões de perfil incluindo todas as métricas, todas as dimensões e um conjunto de relatórios, um membro do Developer Access do perfil pode tornar as chamadas de API relevantes para qualquer componente do conjunto relevante. Com a Detecção de anomalias adicionada, os relatórios podem incluir respostas mais completas, adicionando os dados de anomalias. Como regra geral, se um perfil conceder acesso a um cenário na interface do Adobe Analytics, o Developer Access em um perfil definido de forma semelhante ativará as chamadas e respostas da API correspondentes.

@@ -3,10 +3,10 @@ description: O que você precisa saber sobre a migração de IDs de usuários do
 title: Migração de usuários do Analytics para o Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
-source-wordcount: '3115'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '3114'
+ht-degree: 99%
 
 ---
 
@@ -120,15 +120,15 @@ Respostas às perguntas que você pode ter antes da migração.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Verificar se você é um administrador de produto do Analytics no Admin Console. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">Comunicar a sua base de usuários de que a experiência de logon mudará quando a migração for iniciada. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">Auditar seus usuários e permissões atuais e realizar atividades de limpeza. </li> 
-    </ul> <p>Para acelerar sua migração, entre em contato com o Gerente de sucesso do cliente pelo <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a> e envie um pedido para antecipar a data de início da migração. </p> </td> 
+    </ul> <p>Para acelerar sua migração, entre em contato com o Gerente de sucesso do cliente pelo <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a> e envie um pedido para antecipar a data de início da migração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Sou um administrador do Analytics e não tenho acesso ao Admin Console. Quem pode me ajudar a obter acesso ao Admin Console? </p> </td> 
-   <td colname="col2"> <p>Qualquer administrador de sistema ou de produto que tenha acesso ao Admin Console na sua organização pode conceder o acesso a você. Se você não tem certeza de quem dentro da organização possui privilégios de administrador no Console, entre em contato com o <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a>. </p> </td> 
+   <td colname="col2"> <p>Qualquer administrador de sistema ou de produto que tenha acesso ao Admin Console na sua organização pode conceder o acesso a você. Se você não tem certeza de quem dentro da organização possui privilégios de administrador no Console, entre em contato com o <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso adiar a data de início da migração? </p> </td> 
-   <td colname="col2"> <p>Sim. Entre em contato com o <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a>. </p><p>Consulte abaixo uma descrição das alterações feitas no gerenciamento de usuários e permissões atual do Analytics na data de início. </p> </td> 
+   <td colname="col2"> <p>Sim. Entre em contato com o <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a>. </p><p>Consulte abaixo uma descrição das alterações feitas no gerenciamento de usuários e permissões atual do Analytics na data de início. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Agora que minha empresa está migrando para o Admin Console, onde posso criar novos usuários e grupos de permissão antes da data de início da migração? </p> </td> 
@@ -280,7 +280,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
   </tr> 
   <tr> 
    <td colname="col1"> <p>APIs de gerenciamento de usuários - <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">Tipos de identidades suportadas pela Adobe</a> </p> </td> 
-   <td colname="col2"> <p> Os administradores que migrarem para o Admin Console devem configurar <a href="https://developer.adobe.com/UMAPI/">APIs de gerenciamento de usuários</a> oferecidas no Adobe I/O para permitir o acesso programático a contas de usuário no Admin Console. </p> <p>As APIs de permissão do Analytics serão desativadas quando você estiver apto para a migração. </p> </td> 
+   <td colname="col2"> <p> Os administradores que migrarem para o Admin Console devem configurar<a href="https://developer.adobe.com/UMAPI/"> APIs de gerenciamento de usuários</a> oferecido no Adobe Developer para acesso programático a contas de usuário no Admin Console. </p> <p>As APIs de permissão do Analytics serão desativadas quando você estiver apto para a migração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Credenciais do Serviço Web </p> </td> 
@@ -288,7 +288,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
   </tr> 
   <tr> 
    <td colname="col1"> <p>Logon único </p> </td> 
-   <td colname="col2"> <p> As configurações de logon único do Analytics serão removidas ao concluir a migração. Elas permanecerão ativas durante a migração. Os clientes que usam o logon único do Analytics devem atualizar para a <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">Adobe Federated ID</a>. </p> <p>O Analytics recomenda primeiro migrar os usuários como Adobe IDs para facilitar a criação das contas da Experience Cloud e, em seguida, converter essas contas em usuários de logon único Federados. </p> </td> 
+   <td colname="col2"> <p> As configurações de logon único do Analytics serão removidas ao concluir a migração. Elas permanecerão ativas durante a migração. Os clientes que usam o logon único do Analytics devem atualizar para a <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe Federated ID</a>. </p> <p>O Analytics recomenda primeiro migrar os usuários como Adobe IDs para facilitar a criação das contas da Experience Cloud e, em seguida, converter essas contas em usuários de logon único Federados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Download de grupos de permissões </p> </td> 
