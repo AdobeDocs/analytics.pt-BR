@@ -4,7 +4,7 @@ title: Versões de recursos do Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Com cada versão de recurso, a linha do tempo de RTP para GA pode variar. O obje
 
 Sinalizadores de recursos são usados para controlar a visibilidade de novos recursos durante o lançamento. A Adobe recomenda adicionar `app.launchdarkly.com` à [lista de permissões](/help/technotes/ip-addresses.md) do seu firewall para ter uma experiência ideal durante o lançamento. Logo após a GA ser atingida, o sinalizador é removido.
 
-Você pode visualizar os sinalizadores de recursos ativos a qualquer momento em **Ajuda > Sobre o Workspace > Sinalizadores de recursos ativos**.
+Você pode visualizar os sinalizadores de recursos ativos a qualquer momento em **Ajuda > Sobre o Espaço de trabalho > Sinalizadores de recursos ativos**.
 
 ## Benefícios
 
