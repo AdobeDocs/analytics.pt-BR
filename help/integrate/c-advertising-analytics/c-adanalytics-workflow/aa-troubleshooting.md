@@ -3,10 +3,10 @@ description: Solucione e corrija problemas relacionados ao Advertising Analytics
 title: Solução de problemas do Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ Você está tentando [configurar uma nova conta publicitária](/help/integrate/c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. O conjunto de relatórios não está mapeado para a ID de organização Experience Cloud do logon de usuário. </p> </td> 
-   <td colname="col2"> <p>Entre em contato com o Atendimento ao cliente para mapear o conjunto de relatórios para uma organização IMS.</p> </td> 
+   <td colname="col2"> <p>Entre em contato com o Atendimento ao cliente para mapear o conjunto de relatórios para uma ID da organização.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. O conjunto de relatórios não está provisionado para os relatórios do Advertising Analytics. </p> </td> 

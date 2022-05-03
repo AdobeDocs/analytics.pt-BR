@@ -2,10 +2,10 @@
 title: Cross-Device Analytics
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 47824be19d3cc25b3120ce9aed6938f69fe0e096
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
@@ -48,7 +48,7 @@ O Cross-Device Analytics é um recurso inovador e robusto, mas tem limitações 
 
 * O CDA está disponível somente no Analysis Workspace.
 * O Cross-Device Analytics não funciona em conjuntos de relatórios, nem combina dados de vários conjuntos de relatórios.
-* Os conjuntos de relatórios do Adobe Analytics não podem mapear para mais de uma organização IMS. Como o CDA compila os dispositivos em um conjunto de relatórios específico, o CDA não pode ser usado para compilar dados em várias organizações IMS.
+* Os conjuntos de relatórios do Adobe Analytics não podem mapear para mais de uma ID de organização. Como o CDA compila os dispositivos em um determinado conjunto de relatórios, o CDA não pode ser usado para compilar dados em várias IDs da organização.
 * O CDA usa um pipeline de processamento complexo, com vários componentes dependentes. Isso é executado em paralelo com o fluxo de trabalho básico de relatórios do Analytics. Portanto, é esperada uma incompatibilidade de dados de aproximadamente 1% para o número total de ocorrências entre o conjunto de relatórios original e o conjunto de relatórios virtual do CDA.
 * O Cross-Device Analytics usa um conjunto de relatórios virtual e um processamento de tempo de relatório, que têm suas próprias limitações. Por exemplo, no momento, elas não são compatíveis com as variáveis de Canais de marketing. Consulte [Conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=pt-BR) e [Processamento de tempo de relatório](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en#report-time-processing-limitations) para obter mais informações sobre essas limitações.
 * O Gráfico privado aproveita as mesmas sincronizações de ID que as usadas pelo recurso [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=pt-BR) encontrado na Experience Cloud e no Adobe Analytics. No entanto, os conjuntos de relatórios virtuais do CDA (com base no gráfico privado ou na compilação em campo) não são compatíveis com o restante da funcionalidade de Atributos do cliente. Em outras palavras, as dimensões baseadas em Atributos do cliente não estão disponíveis para uso com os conjuntos de relatórios virtuais CDA.
