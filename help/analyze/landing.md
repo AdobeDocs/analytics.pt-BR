@@ -4,28 +4,20 @@ title: Página de aterrissagem do Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
-source-wordcount: '3610'
+source-wordcount: '3564'
 ht-degree: 83%
 
 ---
 
 # Página de aterrissagem do Adobe Analytics
 
-A landing page do Adobe Analytics reúne ambos [!DNL Analysis Workspace] e [!DNL Reports & Analytics] em uma única interface e ponto de acesso na [!DNL Workspace] guarda-chuva. Ela apresenta uma página inicial do gerente de projeto, um menu de relatórios atualizado com relatórios modernizados, bem como uma nova seção de aprendizado que ajuda você a começar de forma mais eficaz.
-
->[!IMPORTANT]
->
->Essa landing page está atualmente em Open Beta. É um ponto de partida opcional. Se preferir, você pode usar sua landing page existente, seja ela [!UICONTROL Workspace] ou [!UICONTROL Relatórios]. Se você decidir aderir ao programa beta, acesse a página e clique em **[!UICONTROL Fornecer feedback]** na parte superior da tela para registrar seu feedback e os bugs que encontrar. Você pode recusar e voltar ao programa beta a qualquer momento. Qualquer trabalho feito na interface do usuário beta é transferido para o atual/existente [!UICONTROL Workspace] experiência.
+A landing page do Adobe Analytics reúne ambos [!DNL Analysis Workspace] e [!DNL Reports & Analytics] em uma única interface e ponto de acesso na [!DNL Workspace] guarda-chuva. Ela apresenta uma página inicial do gerente de projeto, um menu de relatórios atualizado com relatórios modernizados, bem como uma nova seção de aprendizado que ajuda você a começar de forma mais eficaz. Veja um vídeo com uma visão geral:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## Novos recursos da página de aterrissagem
-
->[!NOTE]
->
->Essas adições e alterações estão disponíveis no momento [em ensaios limitados](/help/release-notes/releases.md).
+## Novos recursos da página de aterrissagem {#new-features}
 
 | Recurso | Descrição | Captura de tela |
 | --- | --- | --- |
@@ -47,7 +39,7 @@ Depois de fazer logon na Adobe Experience Cloud e no Analytics, ative o botão [
 
 ![Página de aterrissagem](assets/landing.png)
 
-## Estrutura do menu
+## Estrutura do menu superior {#top-menu}
 
 ![Menu superior](assets/top-menus.png)
 
@@ -112,7 +104,7 @@ A guia [!UICONTROL Relatório] consolida três conjuntos de relatórios:
 
 Como mencionado anteriormente, só os relatórios mais usados antes e agrupados em Reports &amp; Analytics estão disponíveis aqui. Vários relatórios raramente usados ou que não são mais relevantes não foram transferidos. Consulte as perguntas frequentes a seguir para obter mais detalhes.
 
-### Menus e submenus
+### Menus e submenus {#menus}
 
 Aqui estão os novos menus e seus submenus. Se não conseguir encontrar um relatório específico, faça uma &quot;Pesquisa na página&quot; para encontrá-lo.
 
@@ -125,7 +117,7 @@ Aqui estão os novos menus e seus submenus. Se não conseguir encontrar um relat
 | **[!UICONTROL Aquisição]** | <ul><li>Canais de marketing > Canal de primeiro contato, Detalhes do canal de primeiro contato (qual canal de primeiro contato e qual canal de primeiro contato específico está tendo o melhor desempenho?)</li><li>Canais de marketing > Primeiro último canal, Detalhes do primeiro último canal (qual canal de último contato e qual canal de último contato específico está tendo o melhor desempenho?)</li><li>Campanhas > Campanhas (quais campanhas estão impulsionando minhas principais métricas?)</li><li>Campanhas > Desempenho da campanha (que campanhas estão gerando mais receita?)</li><li>Campanhas > Código de rastreamento (quais códigos de rastreamento de campanha têm o melhor desempenho?)</li><li>[Aquisição na web](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#web)</li><li>[Aquisição por dispositivo móvel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics: pesquisa paga](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#advertising)</li><li>Palavras-chave de pesquisa — todas, pagas, naturais (quais palavras-chave de pesquisa e palavras-chave de pesquisa pagas/naturais direcionam minhas métricas principais da melhor maneira?)</li><li>Mecanismos de pesquisa — todos, pagos, naturais (quais mecanismos de pesquisa e mecanismos de pesquisa pagos/naturais direcionam minhas métricas principais da melhor maneira?)</li><li>Toda a classificação da página de pesquisa (de qual página de pesquisa meus usuários chegam?)</li><li>Domínios de referência (quais domínios estão direcionando tráfego para meu site?)</li><li>Domínios de referência originais (quais foram os primeiros usuários de domínio antes de visitar meu site?)</li><li>Referenciadores (em quais URLs meus usuários estavam antes de clicar no meu site?)</li><li>Tipos de referenciadores (a qual categoria meus URLs de referência pertencem?)</li></ul> |
 | **[!UICONTROL Relatórios da empresa]** | Relatórios criados por sua empresa para uso. Consulte &quot;Criar um relatório de empresa&quot; abaixo. |
 
-### Localização dos modelos (agora chamados de relatórios)
+### Localização dos modelos (agora chamados de relatórios) {#templates}
 
 | Nome do relatório (modelo) | Local do relatório |
 | --- | --- |
@@ -152,7 +144,7 @@ Aqui estão os novos menus e seus submenus. Se não conseguir encontrar um relat
 | Aquisição pela web | Aquisição > Aquisição pela web |
 | Advertising Analytics: pesquisa paga | Aquisição > Advertising Analytics: pesquisa paga |
 
-### Usar a guia Relatórios
+### Usar a guia Relatórios {#use-reports}
 
 Para usuários atuais do Reports &amp; Analytics, veja a seguir uma breve introdução sobre como usar os relatórios para os quais você está acostumado e que agora são exibidos no Workspace. Os relatórios funcionam como modelos existentes: se você fizer alterações, será solicitado a salvar/descartar as alterações ao sair ou para um relatório diferente. Se você quiser salvar as alterações, ele salvará o relatório como um novo projeto.
 
@@ -170,7 +162,7 @@ Para usuários atuais do Reports &amp; Analytics, veja a seguir uma breve introd
    * Você pode alterar o intervalo de datas acessando o calendário no canto superior direito.
    * Você pode adicionar detalhamentos de dimensão, arrastar outras métricas e, em geral, personalizar o relatório da maneira que desejar.
 
-### Criar um relatório de empresa (personalizado)
+### Criar um relatório de empresa (personalizado) {#company-report}
 
 Os relatórios personalizados são chamados de Relatórios da empresa e são encontrados no menu Relatórios da empresa (veja abaixo). Todos os relatórios criados anteriormente e os novos estão listados aqui.
 
@@ -199,6 +191,22 @@ A página Aprendizado contém tutoriais e visitas de vídeo práticos, além de 
 * O Tour [!UICONTROL Fundamentos do Workspace] leva você diretamente para o Workspace, o orienta no layout do Workspace e indica onde encontrar/executar as ações mais comuns. Esse Tour também pode ser reiniciado a qualquer momento diretamente no Workspace por meio do pop-over da dica de ferramenta do cabeçalho do painel.
 * Clicar em um vídeo/tour adiciona uma tag **[!UICONTROL Visualizada]**. Essa tag ajuda a rastrear o progresso pelo conteúdo de aprendizagem. Caso ainda não tenha concluído o conteúdo, você poderá clicar na tag, e ela desaparecerá.
 * O botão **[!UICONTROL Saiba mais]** no modal de vídeo leva você a uma página de documentação do Adobe Experience League com mais conteúdo de ajuda relacionado ao vídeo que você acabou de assistir.  **[!UICONTROL Ver mais vídeos]** leva você à lista de reprodução completa do Analysis Workspace YouTube.
+
+## Definir sua página de aterrissagem {#set-landing}
+
+Os usuários podem definir sua página de aterrissagem preferencial.
+
+1. Vá para Analytics > [!UICONTROL Componentes] > [!UICONTROL Preferências] > [!UICONTROL Geral].
+1. Verifique qual landing page você prefere:
+
+   ![Definir página de aterrissagem](assets/landing-pref.png)
+
+## Guia Ocultar relatório {#hide-reports}
+
+Os administradores podem ocultar a guia Relatórios para todos os usuários em sua organização.
+
+1. Ir para [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Preferências] > [!UICONTROL Empresa].
+1. Verificar **[!UICONTROL Guia Ocultar relatórios]**.
 
 ## Perguntas frequentes sobre a página de aterrissagem {#landing-faq}
 
