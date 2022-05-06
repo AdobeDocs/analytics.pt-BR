@@ -1,35 +1,36 @@
 ---
-title: Aviso de fim de vida útil para relatórios agendados
-description: O Adobe pretende pausar todos os relatórios agendados com uma data de criação superior a dois anos.
+title: End-of-life notice for scheduled reports
+description: Adobe intends to pause all scheduled reports that have a creation date greater than two years.
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: d3309815de29264c743f30a236c99a55fc731413
+source-git-commit: 35e5f056f962066a068ca1f0247c5b550efc2edc
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 13%
+source-wordcount: '350'
+ht-degree: 5%
 
 ---
 
-# Aviso de fim de vida útil para relatórios agendados
+# End-of-life notice for scheduled reports
 
-A partir de 21 de abril de 2022, o Adobe pretende pausar todos os relatórios agendados que tenham uma data de criação superior a dois anos (quaisquer tarefas criadas antes de 31 de janeiro de 2020). Nenhum relatório ou dado será excluído. Somente relatórios identificados com mais de dois anos serão pausados e nenhum relatório agendado adicional será enviado.
+**** No reports or data were deleted. Only reports identified as older than two years were paused, and no additional scheduled reports can be sent.
 
-Todos os relatórios agendados que ainda não foram enviados podem ser reativados simplesmente fazendo logon no Analytics e abrindo o [!UICONTROL Relatórios agendados] gerente. Clique no botão [!UICONTROL Editar] e defina uma nova hora e expiração agendadas. Qualquer relatório que for reativado terá uma expiração padrão de 9 meses, a menos que uma data de expiração mais curta seja escolhida.
+  Any report that gets reactivated will have a default expiration of 9 months, unless a shorter expiration date is chosen.
 
-Qualquer relatório com uma data de criação inferior a dois anos sem data de expiração (ou com uma data de expiração superior a dois anos) terá uma data de expiração padrão de 9 meses aplicada. A nova data de expiração será 15 de dezembro de 2022. É possível editar essa data de expiração para ser menor que 9 meses, mas não maior.
+Any report with a creation date less than two years with no expiration date (or with an expiration date longer than two years) will have a default 9-month expiration date applied. The new expiration date will be December 15, 2022. You can edit this expiration date to be less than 9 months, but not greater.
 
-Finalmente, qualquer edição de um relatório agendado existente sem data de expiração requer uma data de expiração de 9 meses ou menos. Caso contrário, não será possível salvar edições ou alterações no relatório.
+Finally, any edits to an existing scheduled report with no expiration date require an expiration date of 9 months or less. Otherwise, you cannot save any edits or changes to the report.
 
-No momento da expiração, o relatório agendado será pausado. No entanto, o relatório pode ser reativado com uma nova data de expiração de 9 meses. Nenhum relatório ou dado será excluído.
+At the time of expiration, the scheduled report will be paused. However, the report can be reactivated with a new 9-month expiration date. Nenhum relatório ou dado será excluído.
 
-## Nova política de governação
+## New governance policy
 
-A finalidade desta ação é gerenciar e manter efetivamente nossos relatórios agendados enquanto nos preparamos para o fim da vida útil anunciado anteriormente para o Reports &amp; Analytics. Isto servirá de base para a nossa nova política de governação:
+The purpose of this action is to effectively manage and maintain our scheduled reports as we prepare for the previously announced end-of-life for Reports &amp; Analytics. This will serve as our new governance policy moving forward:
 
-* Nenhum novo relatório agendado poderá ser criado após 15 de abril de 2022.
-* Após 15 de abril de 2022, todos os relatórios agendados terão uma data de expiração máxima de 9 meses.
-* Após 9 meses, as tarefas expiradas serão pausadas e poderão ser reativadas, se ainda forem necessárias, até 31 de dezembro de 2023.
-* Em 31 de dezembro de 2023, os Relatórios e análises serão descontinuados.
+* No new scheduled reports can be created after April 21, 2022.
+* After April 21, 2022, all scheduled reports have a maximum expiration date of 9 months.
+* After 9 months, expired tasks are paused and can be reactivated, if still needed, until December 31, 2023.
+* On December 31, 2023, Reports &amp; Analytics will be deprecated.
+* You can no longer set up new Data Extracts. Existing ones will continue to run, but no new ones can be scheduled.
 
 Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao cliente da Adobe.
