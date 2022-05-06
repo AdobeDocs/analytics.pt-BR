@@ -5,34 +5,30 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 0bab340afcffdf337d0ff6bacb0351d744c1d9a5
+source-git-commit: ec4edb257490d326ab8f8de51a4ab9412a2b4a28
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 95%
+source-wordcount: '1306'
+ht-degree: 84%
 
 ---
 
 # Processamento de tempo do relatório
 
-[!UICONTROL Processamento de tempo de relatório] é uma configuração de conjunto de relatórios virtual que permite o processamento de dados de forma não destrutiva e retroativa.
-
->[!NOTE]
->
->[!UICONTROL O Processamento de tempo de relatório] está disponível apenas para o Analysis Workspace.
+[!UICONTROL Processamento de tempo do relatório] é uma configuração de conjunto de relatórios virtual que permite que os dados no Analysis Workspace sejam processados de forma não destrutiva e retroativa.
 
 [!UICONTROL O Processamento de tempo de relatório] afeta somente os dados no conjunto de relatórios virtual e não afeta nenhum dado ou coleta de dados no conjunto de relatórios base. A diferença entre o [!UICONTROL Processamento de tempo de relatório] e o processamento tradicional do Analytics é melhor entendida por meio do seguinte diagrama:
 
-![Google1](assets/google1.jpg)
+![Gasoduto de transformação tradicional](assets/google1.jpg)
 
 Durante o processamento de dados do Analytics, os dados fluem do pipeline de coleta de dados para uma etapa de pré-processamento, que prepara os dados para os relatórios. Esta etapa de pré-processamento aplica a lógica de expiração de visita e a lógica de persistência de eVar (entre outras coisas) aos dados conforme são coletados. A principal desvantagem deste modelo de pré-processamento é que ele exige que as configurações sejam feitas antes da coleta dos dados. Isso significa que qualquer alteração nas configurações de pré-processamento se aplica somente aos novos dados a partir desse momento. Isso será um problema se os dados chegarem fora de ordem ou se as configurações estiverem incorretas.
 
 [!UICONTROL O Processamento de tempo de relatório] é uma maneira fundamentalmente diferente de processar os dados do Analytics para a geração de relatórios. Em vez de predeterminar a lógica de processamento antes da coleta de dados, o Analytics ignora o conjunto de dados durante a etapa de pré-processamento e aplica essa lógica sempre que um relatório é executado:
 
-![Google2](assets/google2.jpg)
+![pipeline de processamento de tempo do relatório](assets/google2.jpg)
 
-Esta arquitetura de processamento permite opções de relatórios muito mais flexíveis. Por exemplo, você pode alterar o tempo limite de visita para qualquer duração desejada de forma não destrutiva e essas alterações são refletidas em sua persistência de eVar e nos contêineres dos segmentos retroativamente como se você tivesse aplicado essas configurações antes da coleta dos dados. Além disso, você pode criar qualquer número de conjuntos de relatórios virtuais, cada um com diferentes opções de Processamento de tempo do relatório com base em um mesmo conjunto de relatórios base, sem alterar os dados no conjunto de relatórios base.
+Esta arquitetura de processamento permite opções de relatórios muito mais flexíveis. Por exemplo, você pode alterar o tempo limite da visita para qualquer período que desejar de forma não destrutiva e essas alterações são refletidas na persistência do eVar e nos contêineres do segmento para o período de relatório completo. Além disso, você pode criar qualquer número de conjuntos de relatórios virtuais, cada um com diferentes opções de Processamento de tempo do relatório com base em um mesmo conjunto de relatórios base, sem alterar os dados no conjunto de relatórios base.
 
-O [!UICONTROL Processamento de tempo de relatório] permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e que o [SDK móvel da Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR) informe os relatórios para iniciar uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
+[!UICONTROL Processamento de tempo do relatório] O também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e permite que a variável [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR) para iniciar uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
 
 ## Opções de configuração
 
@@ -54,23 +50,23 @@ O Processamento de tempo de relatório não suporta todas as métricas e dimens�
 
 Além disso, o Processamento de tempo do relatório somente processa os dados provenientes do intervalo de datas do relatório (referido como “janela de datas” abaixo). Isso significa que os valores de eVar configurados como “nunca expiram” para um visitante antes do intervalo de datas do relatório não persistem nas janelas de relatórios e não aparecem nos relatórios. Isso também significa que as medições de lealdade do cliente são baseadas exclusivamente nos dados presentes no intervalo de datas do relatório e não em todo o histórico antes do intervalo de datas do relatório.
 
-Abaixo está uma lista de métricas e dimensões que atualmente não são suportadas ao usar Processamento de tempo do relatório:
+As seguintes dimensões e métricas não são compatíveis com o Processamento de tempo do relatório:
 
-* **Analytics for Target:** não compatível no momento. O suporte futuro está planejado.
-* **Métricas/dimensões reservadas do Analytics para Advertising Cloud:** não compatível no momento. O suporte futuro está planejado.
-* **Métrica de acesso único:** não compatível permanentemente.
-* **List Vars:** não compatível no momento. O suporte futuro está planejado.
-* **Counter eVars**: não compatível permanentemente.
-* **Variáveis de canais de marketing:** não compatível no momento. O suporte futuro está planejado.
-* **Dimensão Dias desde a última compra:** devido à natureza da janela de datas Processamento de tempo do relatório, essa dimensão não é compatível.
-* **Dimensão Dias antes da primeira compra:** devido à natureza da janela de datas Processamento de tempo do relatório, essa dimensão não é compatível.
-* **Retornar dimensão de frequência:** devido à natureza da janela de datas do Processamento de tempo de relatório, essa dimensão não é suportada. Uma abordagem alternativa usando a métrica de contagem de visitas em um segmento é possível, ou usando a métrica de visitas em um relatório de histograma.
-* **Dimensão Dias desde a última visita:** devido à natureza da janela de datas Processamento de tempo do relatório, essa dimensão não é compatível.
-* **Inserir dimensão de original da página:** devido à natureza da janela de datas do Processamento de tempo de relatório, essa dimensão não é suportada.
-* **eVars de alocação linear:** não compatível no momento. O suporte futuro está planejado.
-* **Dimensão Domínio de referência original:** não compatível no momento. O suporte futuro está planejado.
-* **Número de visitas:** devido à natureza da janela de datas do Processamento de tempo de relatório, essa métrica não é suportada. Como alternativa em aplicativos móveis, você pode usar uma métrica calculada, incluindo visitantes/visitas com a métrica Instalação do aplicativo para identificar novos visitantes ou visitas.
-* **Fontes de dados de ID de transação:** não compatível no momento. O suporte futuro está planejado.
+* **Analytics for Target**
+* **Dimensões/métricas do Analytics para Advertising Cloud**
+* **eVars de contador**
+* **Dias Antes da Primeira Compra**
+* **Dias Desde a Última Compra**
+* **Dias desde a última visita**
+* **Página de entrada original**
+* **eVars de alocação linear**
+* **Vars de lista**
+* **Dimensões dos Canais de marketing**
+* **Domínio referenciador original**
+* **Frequência de Retorno**
+* **Único Acesso**
+* **Fontes de dados de ID de transação**
+* **Número da visita**
 
 ## Dimensões e métricas afetadas
 
