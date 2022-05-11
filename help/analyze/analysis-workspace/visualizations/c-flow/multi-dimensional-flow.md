@@ -5,8 +5,8 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 # Fluxos interdimensionais
 
-Um fluxo interdimensional permite analisar os caminhos do usuário em várias dimensões.
-
-Veja um vídeo sobre quebra automática de texto e fluxo multidimensional no Analysis Workspace:
+Um fluxo interdimensional permite analisar os caminhos do usuário em várias dimensões. Veja um vídeo sobre quebra automática de texto e fluxo multidimensional no Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -26,7 +24,7 @@ Um rótulo de dimensão na parte superior de cada coluna de Fluxo torna mais int
 
 Vamos analisar dois casos de uso: um de aplicativo e um da web.
 
-## Caso de uso 1: aplicativo {#section_3D31D37B9C9F4134AE46C96291E41294}
+## Caso de uso 1: aplicativo {#app}
 
 A dimensão de [!UICONTROL Nome da ação] foi adicionada ao fluxo, com os principais itens retornados sendo [!UICONTROL ItemAdded]:
 
@@ -56,7 +54,7 @@ Agora você pode ver como os clientes se movem pelas ações e páginas. Você p
 
 Isso permitirá insights aprofundados e possíveis alterações ao aplicativo que você está analisando.
 
-## Caso de uso 2: web {#section_8D55983FA0C84926995270052AE01CD8}
+## Caso de uso 2: web {#web}
 
 Este caso de uso mostra como você pode analisar quais campanhas impulsionam a maioria das entradas em um site.
 

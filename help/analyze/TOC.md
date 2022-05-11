@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e de visualização para o Analytics, além de ferramentas, como os painéis do Adobe Analytics, o Report Builder e o Activity Map.
-source-git-commit: e865cd474b5b4a3251ed6e7cf6dae1f604f5a9c8
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 99%
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 99%
       + Fluxo {#flow}
          + [Visão geral do Fluxo](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurar uma visualização de fluxo](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [Nova visualização de fluxo (beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Configurações de fluxo](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Fluxos interdimensionais](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histograma](analysis-workspace/visualizations/histogram.md)
@@ -98,8 +99,8 @@ ht-degree: 99%
          + [Visão geral](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Configurações de entrada e saída](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Perguntas frequentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-      + [Próximo painel de item ou anterior](analysis-workspace/c-panels/next-previous.md)
-      + [Painel de resumo da página](analysis-workspace/c-panels/page-summary.md)
+      + [Painel do item seguinte ou anterior](analysis-workspace/c-panels/next-previous.md)
+      + [Painel Resumo da página](analysis-workspace/c-panels/page-summary.md)
       + [Painel do Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Painel de comparação de segmentos {#segment-comparison}
          + [Visão geral da comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
