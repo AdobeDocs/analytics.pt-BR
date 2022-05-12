@@ -3,24 +3,24 @@ title: IPs e domínios usados pelo Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: e777313f5a46939ef5525205deaffc807f33a894
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 86%
 
 ---
 
 # IPs e domínios usados pelo Adobe Analytics
 
-Algumas configurações de firewall bloqueiam endereços IP dos servidores de coleção de dados da Adobe ou dos servidores responsáveis por acessar os dados do Você pode usar essa lista de intervalos para alterar as configurações de firewall da sua organização para permitir acesso e enviar dados de dentro da organização.
+Algumas configurações de firewall bloqueiam endereços IP dos servidores de coleção de dados da Adobe ou dos servidores responsáveis por acessar os dados do Você pode usar essa lista de intervalos para alterar as configurações de firewall da sua organização para permitir acesso e enviar dados de dentro da organização. Esta página inclui sistemas de entrada (como coleta de dados) e sistemas de saída (como feeds de dados) que o Adobe usa.
 
 >[!IMPORTANT]
 >
->Enquanto a Adobe faz o melhor para manter esse documento atualizado, não é possível garantir que a lista de intervalos IP permanecerá a mesma. As possíveis alterações incluem o crescimento e a expansão dos negócios, um registro da Internet exige alterações no espaço de endereço IP da Adobe ou um provedor de serviços de Internet deixa de funcionar.
+>Embora o Adobe faça o possível para manter esse documento atualizado, não é possível garantir que a lista de intervalos IP permaneça a mesma. As possíveis alterações incluem o crescimento e a expansão dos negócios, um registro da Internet exige alterações no espaço de endereço IP da Adobe ou um provedor de serviços de Internet deixa de funcionar.
 
 ## Permitir domínios de tecnologia dependentes
 
-O Adobe Analytics usa os seguintes hosts para melhorar o desempenho e a experiência do produto. A Adobe recomenda adicionar esses domínios à lista de permissões do firewall para obter uma experiência ideal com o Adobe Analytics.
+O Adobe Analytics usa os seguintes hosts para melhorar o desempenho e a experiência do produto. O Adobe recomenda permitir esses domínios por meio do firewall de sua organização para obter uma experiência ideal com o Adobe Analytics.
 
 | Tecnologia | Domínio |
 | --- | --- |
