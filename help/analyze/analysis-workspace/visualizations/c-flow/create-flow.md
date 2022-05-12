@@ -3,13 +3,13 @@ description: Use a visualização de fluxo em um projeto do Workspace.
 title: Configurar uma visualização de fluxo
 feature: Visualizations
 role: User, Admin
-source-git-commit: 141daf54e845970254f478e8c3e95be2239013c5
+exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
+source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 44%
+source-wordcount: '794'
+ht-degree: 40%
 
 ---
-
 
 # Configurar uma visualização de fluxo
 
@@ -17,13 +17,13 @@ ht-degree: 44%
 >
 >Esta nova versão do [!UICONTROL Fluxo] no momento, a visualização está em beta privado. Consulte [esta página](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) para a funcionalidade atual.
 
-O fluxo permite rastrear as jornadas exatas que seus clientes estão tirando em seu site ou aplicativo. Ele rastreia um caminho pelas suas dimensões (e itens de dimensão) ou métricas. Cada fluxo tem um ponto de partida e um ponto de extremidade, além de uma métrica ou dimensão (ou item) que você está rastreando.
+A visualização de Fluxo atualizada permite compreender a jornada que resulta de ou até um evento de conversão específico em seu site ou aplicativo. Ele rastreia um caminho pelas suas dimensões (e itens de dimensão) ou métricas. O fluxo permite configurar o início ou o fim do caminho em que você está interessado ou analisar todos esses caminhos que fluem por uma dimensão ou item de dimensão.
 
 O novo [!UICONTROL fluxo] A experiência aprimora o fluxo de trabalho de várias maneiras:
 
-* Permite que métricas sejam rastreadas, além de dimensões e itens de dimensão.
+* Agora é possível optar por iniciar ou terminar seu caminho com a combinação de uma métrica e uma dimensão de definição de caminho.
 * Ele contém [!UICONTROL Configurações avançadas] para permitir personalizar ainda mais a variável [!UICONTROL fluxo].
-* Ele permite configurar o [!UICONTROL fluxo] antes de construí-lo.
+* O novo botão &quot;Criar&quot; economiza tempo na análise, permitindo configurar a jornada de uma só vez, depois consultar e criar automaticamente várias colunas e nós de uma só vez &#x200B;.
 
 ![nova interface de usuário de fluxo](assets/new-flow.png)
 
@@ -53,7 +53,7 @@ O novo [!UICONTROL fluxo] A experiência aprimora o fluxo de trabalho de várias
    | --- | --- |
    | **[!UICONTROL Incluir instâncias repetidas]** | As visualizações de fluxo são baseadas em instâncias de uma dimensão. Essa configuração oferece a opção de incluir ou excluir instâncias repetidas, por exemplo, recarregamentos de página. No entanto, as repetições não podem ser removidas das Visualizações de fluxo que incluem dimensões com vários valores, como listVars, listProps, s.product, eVars de merchandising etc. Padrão = desmarcado. |
    | **[!UICONTROL Quebrar rótulos]** | Normalmente, os rótulos nos Elementos de fluxo são truncados para não poluir visualmente a tela, mas é possível tornar todos os rótulos visíveis ao selecionar esta caixa.  Padrão = desmarcado. |
-   | **[!UICONTROL Limite de entradas/saídas]** | Resultados limitados a caminhos quando o primeiro/último ponto de contato é e a entrada/saída. |
+   | **[!UICONTROL Limitar à primeira/última ocorrência]** | Limite os caminhos para aqueles que começam/terminam com a primeira/última ocorrência de uma dimensão/item/métrica. |
    | **[!UICONTROL Número de colunas]** | Determina quantas colunas você deseja incluir no diagrama de Fluxo. |
    | **[!UICONTROL Itens expandidos por coluna]** | Quantos itens você deseja em cada coluna. |
    | **[!UICONTROL Contêiner de fluxo]** | <ul><li>Visita</li><li>Visitante</li></ul> Permite alternar entre Visita e Visitante para analisar a definição do caminho do visitante. Essas configurações ajudam você a entender o envolvimento no nível dos visitantes (ao longo das visitas) ou restringir a análise a uma só visita. |
