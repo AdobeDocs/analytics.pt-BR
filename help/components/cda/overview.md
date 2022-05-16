@@ -1,17 +1,17 @@
 ---
-title: Cross-Device Analytics
+title: Análise entre dispositivos
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Análise entre dispositivos
 
-O Cross-Device Analytics é um recurso que transforma o Analytics de uma exibição centrada em dispositivos para uma exibição centrada em pessoas. Como resultado, os analistas podem entender o comportamento do usuário que passa pelos navegadores, dispositivos ou aplicativos. A Adobe comporta dois workflows abrangentes para vincular dados do dispositivo:
+O Análise entre dispositivos é um recurso que transforma o Analytics de uma exibição centrada em dispositivos para uma exibição centrada em pessoas. Como resultado, os analistas podem entender o comportamento do usuário que passa pelos navegadores, dispositivos ou aplicativos. A Adobe comporta dois workflows abrangentes para vincular dados do dispositivo:
 
 * [**Compilação em campo**](field-based-stitching.md): opção de compilação recomendada porque ela usa apenas a correspondência determinística para vincular dispositivos.
 Ela permite escolher uma variável do Analytics como base para a compilação entre dispositivos em um conjunto de relatórios virtual.
@@ -29,29 +29,29 @@ Com o CDA, você pode responder a perguntas como:
 * Quais são os caminhos mais comuns que os usuários fazem de um dispositivo para outro? Onde eles desistem? Onde eles têm sucesso?
 * Como o comportamento de usuários com vários dispositivos difere dos usuários com um único dispositivo?
 
-Quando os dispositivos são compilados, a persistência variável é transferida entre os dispositivos. Por exemplo, um usuário visita o site pela primeira vez por meio de um anúncio no computador desktop. Esse usuário encontra o aplicativo móvel, instala e eventualmente realiza uma compra pelo dispositivo móvel. Com o Cross-Device Analytics, é possível atribuir a receita no dispositivo móvel ao anúncio em que ele clicou no computador desktop.
+Quando os dispositivos são compilados, a persistência variável é transferida entre os dispositivos. Por exemplo, um usuário visita o site pela primeira vez por meio de um anúncio no computador desktop. Esse usuário encontra o aplicativo móvel, instala e eventualmente realiza uma compra pelo dispositivo móvel. Com o Análise entre dispositivos, é possível atribuir a receita no dispositivo móvel ao anúncio em que ele clicou no computador desktop.
 
-Com um espírito de parceria e transparência, queremos que nossos clientes estejam cientes de nosso uso do Microsoft Azure em associação com o Cross-Device Analytics. A Adobe usa o Azure para armazenar os dados de gráficos de dispositivos e realizar a compilação entre dispositivos. Dessa forma, os dados do Adobe Analytics são transmitidos de um lado para o outro, entre o centro de processamento de dados da Adobe e as instâncias provisionadas da Adobe do Microsoft Azure.
+Com um espírito de parceria e transparência, queremos que nossos clientes estejam cientes de nosso uso do Microsoft Azure em associação com o Análise entre dispositivos. A Adobe usa o Azure para armazenar os dados de gráficos de dispositivos e realizar a compilação entre dispositivos. Dessa forma, os dados do Adobe Analytics são transmitidos de um lado para o outro, entre o centro de processamento de dados da Adobe e as instâncias provisionadas da Adobe do Microsoft Azure.
 
-Consulte a página [Journey IQ: Cross-Device Analytics Spark](https://adobe.ly/aacda) para saber mais sobre os recursos e as funções do Cross-Device Analytics.
+Consulte a página [Journey IQ: Análise entre dispositivos Spark](https://adobe.ly/aacda) para saber mais sobre os recursos e as funções do Análise entre dispositivos.
 
 ## Pré-requisitos
 
 O uso do CDA exige todos os itens a seguir. Os métodos de [Compilação em campo](field-based-stitching.md) e [Gráfico de dispositivos](device-graph.md) também têm pré-requisitos específicos.
 
 * Um contrato deve ser assinado com a Adobe incluindo o Adobe Analytics Ultimate.
-* O Cross-Device Analytics é ativado com base no conjunto de relatórios. A Adobe recomenda que um conjunto de relatórios contenha dados entre dispositivos, ou seja, dados de vários tipos de dispositivos (Web, aplicativo, etc). Algumas organizações se referem a esse conceito como um conjunto de relatórios “global”, embora o CDA não precise ser rigorosamente global de uma perspectiva geográfica.
+* O Análise entre dispositivos é ativado com base no conjunto de relatórios. A Adobe recomenda que um conjunto de relatórios contenha dados entre dispositivos, ou seja, dados de vários tipos de dispositivos (Web, aplicativo, etc). Algumas organizações se referem a esse conceito como um conjunto de relatórios “global”, embora o CDA não precise ser rigorosamente global de uma perspectiva geográfica.
 
 ## Limitações
 
-O Cross-Device Analytics é um recurso inovador e robusto, mas tem limitações na forma de uso. Os métodos de [Compilação em campo](field-based-stitching.md) e [Gráfico de dispositivos](device-graph.md) também têm limitações específicas.
+O Análise entre dispositivos é um recurso inovador e robusto, mas tem limitações na forma de uso. Os métodos de [Compilação em campo](field-based-stitching.md) e [Gráfico de dispositivos](device-graph.md) também têm limitações específicas.
 
 * O CDA está disponível somente no Analysis Workspace.
-* O Cross-Device Analytics não funciona em conjuntos de relatórios, nem combina dados de vários conjuntos de relatórios.
-* Os conjuntos de relatórios do Adobe Analytics não podem mapear para mais de uma ID de organização. Como o CDA compila os dispositivos em um determinado conjunto de relatórios, o CDA não pode ser usado para compilar dados em várias IDs da organização.
-* O CDA usa um pipeline de processamento complexo, com vários componentes dependentes. Isso é executado em paralelo com o fluxo de trabalho básico de relatórios do Analytics. Portanto, é esperada uma incompatibilidade de dados de aproximadamente 1% para o número total de ocorrências entre o conjunto de relatórios original e o conjunto de relatórios virtual do CDA.
-* O Cross-Device Analytics usa um conjunto de relatórios virtual e um processamento de tempo de relatório, que têm suas próprias limitações. Por exemplo, no momento, elas não são compatíveis com as variáveis de Canais de marketing. Consulte [Conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=pt-BR) e [Processamento de tempo de relatório](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en#report-time-processing-limitations) para obter mais informações sobre essas limitações.
-* O Gráfico privado aproveita as mesmas sincronizações de ID que as usadas pelo recurso [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=pt-BR) encontrado na Experience Cloud e no Adobe Analytics. No entanto, os conjuntos de relatórios virtuais do CDA (com base no gráfico privado ou na compilação em campo) não são compatíveis com o restante da funcionalidade de Atributos do cliente. Em outras palavras, as dimensões baseadas em Atributos do cliente não estão disponíveis para uso com os conjuntos de relatórios virtuais CDA.
+* O Análise entre dispositivos não funciona em conjuntos de relatórios, nem combina dados de vários conjuntos de relatórios.
+* Os conjuntos de relatórios do Adobe Analytics não podem mapear para mais de uma ID de organização. Como o CDA compila os dispositivos em um conjunto de relatórios específico, o CDA não pode ser usado para compilar dados em várias IDs de organização.
+* O CDA usa um pipeline de processamento complexo, com vários componentes dependentes. Isso é executado em paralelo com o fluxo de trabalho básico de relatórios do Analytics. Portanto, é esperada uma incompatibilidade de dados de aproximadamente 1% entre o número total de ocorrências do conjunto de relatórios original e o do conjunto de relatórios virtual do CDA.
+* O Análise entre dispositivos usa um conjunto de relatórios virtual e um processamento de tempo de relatório, que têm suas próprias limitações. Por exemplo, no momento, eles não são compatíveis com as variáveis de canais de marketing. Consulte [Conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=pt-BR) e [Processamento de tempo de relatório](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=pt-BR) para obter mais informações sobre essas limitações.
+* O Gráfico privado aproveita as mesmas sincronizações de ID que as usadas pelo recurso [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=pt-BR) encontrado na Experience Cloud e no Adobe Analytics. No entanto, os conjuntos de relatórios virtuais do CDA (com base no gráfico privado ou na compilação em campo) não são compatíveis com o restante da funcionalidade de Atributos do cliente. Ou seja, as dimensões baseadas em atributos do cliente não estão disponíveis para uso nos conjuntos de relatórios virtuais do CDA.
 * No momento, o CDA não é compatível com o A4T.
 * Não há suporte para a API 1.4. Os conectores do Power BI e do Report Builder dependem da API 1.4 e, portanto, não são compatíveis com o CDA.
 * O monitoramento ativo do processo de compilação do CDA pela Adobe está limitado apenas aos conjuntos de relatórios de produção.
