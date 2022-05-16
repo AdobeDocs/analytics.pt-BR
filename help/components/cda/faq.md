@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes sobre a Análise entre dispositivos
-description: Perguntas frequentes sobre o Cross-Device Analytics
+description: Perguntas frequentes sobre o Análise entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1934'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Sim. O Analysis Workspace usa a API 2.0 para solicitar dados dos servidores da A
 2. Clique no ícone de depuração no painel desejado e selecione a visualização e a hora da solicitação.
 3. Localize a solicitação JSON, que você pode usar na chamada de API para a Adobe.
 
-## O Cross-Device Analytics pode unir visitantes únicos. É possível compilar visitas?
+## O Análise entre dispositivos pode unir visitantes únicos. É possível compilar visitas?
 
 Sim. Se um indivíduo enviar ocorrências de dois dispositivos separados dentro do tempo limite de visita do conjunto de relatórios virtual (30 minutos por padrão), eles serão agrupados na mesma visita.
 
@@ -106,9 +106,9 @@ O CDA extrai itens de dimensão variável do identificador antes que eles sejam 
 
 A partir de 1 de maio de 2022, qualquer nova implementação do CDA será limitada a no máximo três IDs de conjunto de relatórios (RSIDs) por cliente. O CDA não mescla conjuntos de relatórios. Cada conjunto de relatórios habilitado para o CDA precisa ser de natureza entre dispositivos (contendo dados de várias superfícies, como Web para desktop, Web móvel, aplicativo móvel etc.).
 
-## Se minha ID da organização tiver várias empresas em diferentes regiões, é possível habilitar o CDA para todas?
+## Se a minha ID de organização tiver várias empresas em diferentes regiões, é possível habilitar o CDA para todas elas?
 
-Não. Para a mesma ID da organização, somente uma região pode ter o CDA ativado.
+Não. Para a mesma ID de organização, somente uma região pode ter o CDA ativado.
 
 ## Quais são as vantagens e desvantagens de uma repetição de 7 dias em relação a uma repetição de 1 dia?
 
