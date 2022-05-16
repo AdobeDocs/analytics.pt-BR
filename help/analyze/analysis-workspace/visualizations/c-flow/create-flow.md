@@ -4,9 +4,9 @@ title: Configurar uma visualização de fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
+source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '808'
 ht-degree: 40%
 
 ---
@@ -45,6 +45,10 @@ O novo [!UICONTROL fluxo] A experiência aprimora o fluxo de trabalho de várias
 
    ![dimensão da definição de caminho](assets/pathing-dim.png)
 
+   >[!IMPORTANT]
+   >
+   >As métricas calculadas não podem ser soltas no  **[!UICONTROL Começa com]** ou **[!UICONTROL Termina com]** áreas para soltar.
+
 1. (Opcional) Clique em **[!UICONTROL Mostrar configurações avançadas]** para configurar as Configurações avançadas:
 
    ![configurações avançadas](assets/adv-settings.png)
@@ -53,7 +57,7 @@ O novo [!UICONTROL fluxo] A experiência aprimora o fluxo de trabalho de várias
    | --- | --- |
    | **[!UICONTROL Incluir instâncias repetidas]** | As visualizações de fluxo são baseadas em instâncias de uma dimensão. Essa configuração oferece a opção de incluir ou excluir instâncias repetidas, por exemplo, recarregamentos de página. No entanto, as repetições não podem ser removidas das Visualizações de fluxo que incluem dimensões com vários valores, como listVars, listProps, s.product, eVars de merchandising etc. Padrão = desmarcado. |
    | **[!UICONTROL Quebrar rótulos]** | Normalmente, os rótulos nos Elementos de fluxo são truncados para não poluir visualmente a tela, mas é possível tornar todos os rótulos visíveis ao selecionar esta caixa.  Padrão = desmarcado. |
-   | **[!UICONTROL Limitar à primeira/última ocorrência]** | Limite os caminhos para aqueles que começam/terminam com a primeira/última ocorrência de uma dimensão/item/métrica. |
+   | **[!UICONTROL Limite para a primeira/última ocorrência]** | Limite os caminhos para aqueles que começam/terminam com a primeira/última ocorrência de uma dimensão/item/métrica. |
    | **[!UICONTROL Número de colunas]** | Determina quantas colunas você deseja incluir no diagrama de Fluxo. |
    | **[!UICONTROL Itens expandidos por coluna]** | Quantos itens você deseja em cada coluna. |
    | **[!UICONTROL Contêiner de fluxo]** | <ul><li>Visita</li><li>Visitante</li></ul> Permite alternar entre Visita e Visitante para analisar a definição do caminho do visitante. Essas configurações ajudam você a entender o envolvimento no nível dos visitantes (ao longo das visitas) ou restringir a análise a uma só visita. |
