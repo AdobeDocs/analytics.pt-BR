@@ -4,10 +4,10 @@ title: Segmentos rápidos
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '887'
+ht-degree: 75%
 
 ---
 
@@ -85,7 +85,7 @@ Observe como a barra lateral do segmento muda de azul listrado para azul mais cl
 
 ## O que são segmentos somente de projeto?
 
-Segmentos somente de projeto são segmentos que se aplicam somente ao projeto atual em que foram criados. Eles não estarão disponíveis em outros projetos e não poderão ser compartilhados com outros usuários. Eles são destinados à exploração rápida de seus dados sem precisar criar e salvar um segmento no painel esquerdo. Segmentos somente de projeto podem ser criados na área de soltar do painel com segmentos rápidos ou [segmentos ad-hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+Segmentos somente de projeto são segmentos que se aplicam somente ao projeto atual em que foram criados. Eles não estarão disponíveis em outros projetos e não poderão ser compartilhados com outros usuários. Eles são destinados à exploração rápida de seus dados sem precisar criar e salvar um segmento no painel esquerdo. Segmentos somente de projeto podem ser criados na área de soltar do painel com segmentos rápidos ou [segmentos ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
 
 Se um segmento somente de projeto for aberto na [!UICONTROL Construtor de segmentos], uma notificação somente de projeto é exibida. Se não marcar &quot;Disponibilizar este segmento.&quot; e clique em **[!UICONTROL APLICAR]**, o segmento permanece um segmento somente de projeto. Observação: se você aplicar um segmento Rápido no Construtor de segmentos, ele não poderá mais ser aberto na [!UICONTROL Construtor de segmentos rápidos].
 
