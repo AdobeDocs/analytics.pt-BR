@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e de visualização para o Analytics, além de ferramentas, como os painéis do Adobe Analytics, o Report Builder e o Activity Map.
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1052'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 98%
       + Segmentos {#segments}
          + [Criar segmentos](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Segmentos rápidos](analysis-workspace/components/segments/quick-segments.md)
-         + [Segmentos ad-hoc](analysis-workspace/components/segments/ad-hoc-segments.md)
+         + [Segmentos ad hoc](analysis-workspace/components/segments/ad-hoc-segments.md)
       + Calendário e intervalos de datas {#calendar-date-ranges}
          + [Visão geral do calendário e do intervalos de datas](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Criar intervalos de datas personalizados](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
