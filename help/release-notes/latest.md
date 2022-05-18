@@ -3,10 +3,10 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b300ec0f40eacc43463e9e42e7ff8f7cfedc15cb
+source-git-commit: 3243780b2bb1f7507dc5815f71c448a8be7f62cd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '897'
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 | Recurso | Descrição | [Data Alvo](releases.md) |
 | ----------- | ---------- | ------- |
-| Nenhum recurso novo este mês | N/D | N/D |
+| Preencher dimensões e métricas do ciclo de vida por meio do Experience Edge | Muitos eventos do Lifecycle agora são mapeados automaticamente para campos XDM. Os eventos que não são mapeados automaticamente podem ser enviados para o Adobe por meio de pares de chave/valor de forma livre. [Saiba mais - em breve] | 27 de maio de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
