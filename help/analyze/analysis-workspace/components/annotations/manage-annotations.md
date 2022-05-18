@@ -4,9 +4,9 @@ description: Como gerenciar anotações no Espaço de trabalho.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '683'
 ht-degree: 65%
 
 ---
@@ -33,6 +33,8 @@ O gerenciador [!UICONTROL Anotações] mostra todas as anotações que você pos
 | [!UICONTROL Intervalo de datas aplicado] | A data ou o intervalo de datas ao qual essa anotação se aplica. |
 | [!UICONTROL Compartilhado com] | Lista com quantos indivíduos ou grupos a anotação foi compartilhada. Clique para obter mais detalhes. |
 | [!UICONTROL Data de modificação] | Mostra a data e a hora em que a anotação foi modificada pela última vez. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Editar anotações
 
@@ -75,3 +77,5 @@ Basta selecionar uma ou mais anotações e a barra de tarefas é exibida.
 | [!UICONTROL Copiar] | Cria uma cópia distinta com sua própria ID de anotação, mas com o mesmo nome e definição. |
 | [!UICONTROL Exportar para CSV] | Exporte a definição da anotação para um arquivo CSV. |
 | [!UICONTROL Filtro] (painel esquerdo) | Filtre por tags, conjunto de relatórios, proprietários e outros filtros (Meus, Aprovados, Favoritos, Compartilhados comigo e Mostrar todos). |
+
+{style=&quot;table-layout:auto&quot;}

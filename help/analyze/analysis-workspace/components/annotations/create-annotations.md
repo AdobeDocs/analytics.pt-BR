@@ -4,10 +4,10 @@ description: Como criar anotações no Espaço de trabalho.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 59%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 0%
 | **Clique com o botão direito do mouse em um ponto em uma [!UICONTROL Linha] gráfico.** | O [!UICONTROL Construtor de anotações] é aberto. Observe que, por padrão, as anotações criadas dessa maneira são visíveis somente no projeto em que foram criadas. Mas você pode disponibilizá-las para todos os projetos. Observe também que as datas e qualquer métrica, etc., já foram preenchidas.<p>![](assets/annotate-line.png) |
 | **No Espaço de trabalho, acesse [!UICONTROL Componentes] > [!UICONTROL Criar anotação].** | O [!UICONTROL Construtor de anotações] é aberto. |
 | **Usar esta tecla de atalho** para abrir o Construtor de anotações: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Observe que ao usar a tecla de atalho para criar uma anotação, você cria uma anotação de um dia para a data atual, sem nenhum escopo pré-selecionado (métricas ou dimensões). |
+
+{style=&quot;table-layout:auto&quot;}
 
 1. Preencha o [!UICONTROL Construtor de anotações] elementos.
 

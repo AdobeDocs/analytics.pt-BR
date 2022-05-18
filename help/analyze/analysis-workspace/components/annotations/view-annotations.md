@@ -4,10 +4,10 @@ description: Como visualizar anotações no Espaço de trabalho.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '247'
+ht-degree: 79%
 
 ---
 
@@ -22,6 +22,8 @@ As anotações se manifestam de forma um pouco diferente, dependendo se abrangem
 | **Dia único** | ![](assets/single-day.png)<p>Ao passar o mouse sobre a anotação, é possível visualizar os detalhes, editá-la selecionando o ícone de caneta ou excluí-la:<p> ![](assets/hover.png) |
 | **Intervalo de datas** | O ícone muda, e quando você passa o mouse sobre ele, o intervalo de datas é exibido.<p>![](assets/multi-day.png)<p>Ao selecioná-la no gráfico de linhas, os metadados da anotação são exibidos e você pode editá-los ou excluí-los:![](assets/multi-hover.png)<p>Em uma tabela, um ícone é exibido em cada data no intervalo de datas.<p>![](assets/multi-day-table.png) |
 | **Sobreposição de anotações** | Em dias que tenham mais de uma anotação vinculada a eles, o ícone aparece com a cor cinza.<p>![](assets/grey.png)<p>Ao passar o mouse sobre o ícone cinza, todas as anotações sobrepostas são exibidas:<p>![](assets/overlap.png) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Exibir anotações em um arquivo PDF
 
