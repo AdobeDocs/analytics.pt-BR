@@ -4,9 +4,9 @@ description: Documentação do produto e autoajuda do Analysis Workspace, painé
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: ht
-source-wordcount: '241'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Veja um vídeo com uma visão geral do Adobe Analytics:
 
 ## Principais recursos do Analytics
 
-* [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
-* [Fórum do Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
+* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=pt-BR#support)
+* [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
 * [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home)

@@ -2,9 +2,9 @@
 title: Notas técnicas do Analytics
 description: Este guia fornece informações úteis sobre tópicos que não pertencem a uma ferramenta ou componente de análise específico.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: ht
-source-wordcount: '104'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Veja um vídeo com uma visão geral do Adobe Analytics:
 
 ## Outros recursos do Analytics
 
-* [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
-* [Fórum do Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
+* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=pt-BR#support)
+* [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
 * [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home)

@@ -3,9 +3,9 @@ title: Guia de administração do Analytics
 description: Ajuda administrativa para administradores do Adobe Analytics, incluindo gerenciamento de usuários e produtos no Admin Console, configuração de conjuntos de relatórios, variáveis, classificações e coleta de dados.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Este guia não aborda muitos dos recursos genéricos oferecidos pelo Adobe Admin
 
 ## Principais recursos do Analytics
 
-* [Entre em contato com o Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
+* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=pt-BR#support)
 * [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
 * [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home)
