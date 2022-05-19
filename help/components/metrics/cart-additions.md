@@ -3,10 +3,10 @@ title: Adições ao carrinho
 description: O número de ocorrências em que um visitante adicionou um produto ao carrinho.
 feature: Metrics
 exl-id: 0617b4c4-6425-4425-b6f7-efadbd6f58b2
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 100%
+source-wordcount: '85'
+ht-degree: 92%
 
 ---
 
@@ -17,3 +17,5 @@ A métrica “Adições ao carrinho” mostra o número de vezes que um visitant
 ## Como essa métrica é calculada
 
 Essa métrica conta o número de ocorrências em que `scAdd` existe na variável [`events`](/help/implement/vars/page-vars/events/events-overview.md).
+
+Consulte [Carrinhos](carts.md) para uma comparação de métrica.

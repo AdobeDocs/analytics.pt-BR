@@ -3,10 +3,10 @@ title: Visualizações do carrinho
 description: O número de ocorrências em que um visitante visualizou seu carrinho.
 feature: Metrics
 exl-id: f181df60-4dec-47a1-ac6b-a162463c370f
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 100%
+source-wordcount: '75'
+ht-degree: 92%
 
 ---
 
@@ -17,3 +17,5 @@ A métrica “Visualizações do carrinho” mostra o número de vezes que um vi
 ## Como essa métrica é calculada
 
 Essa métrica conta o número de ocorrências em que `scView` existe na variável [`events`](/help/implement/vars/page-vars/events/events-overview.md).
+
+Consulte [Carrinhos](carts.md) para uma comparação de métrica.
