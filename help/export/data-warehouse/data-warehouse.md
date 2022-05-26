@@ -1,25 +1,25 @@
 ---
-description: El Data Warehouse hace referencia a la copia de datos de Analytics para almacenarlos y elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Você pode solicitar relatórios para exibir relações de dados avançadas a partir de dados brutos com base em suas perguntas únicas. Os relatórios de data warehouse são enviados por email ou enviados por FTP e podem demorar até 72 para serem processados. O tempo de processamento depende da complexidade da consulta e da quantidade de dados solicitada.
+description: Data Warehouse refere-se à cópia dos dados do Analytics para fins de armazenamento e relatórios personalizados, que podem ser executados ao filtrar os dados. Você pode solicitar relatórios para exibir relações avançadas de dados provenientes de dados brutos com base em suas perguntas exclusivas. Os relatórios de data warehouse são enviados por email ou enviados por FTP e podem demorar até 72 para serem processados. O tempo de processamento depende da complexidade da consulta e da quantidade de dados solicitada.
 title: Visão geral do Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '725'
+workflow-type: tm+mt
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
 
 # Visão geral do Data Warehouse
 
-El Data Warehouse hace referencia a la copia de datos de Analytics para almacenarlos y elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Você pode solicitar relatórios para exibir relações de dados avançadas a partir de dados brutos com base em suas perguntas únicas. Os relatórios de data warehouse são enviados por email ou enviados por FTP e podem demorar até 72 para serem processados. O tempo de processamento depende da complexidade da consulta e da quantidade de dados solicitada.
+Data Warehouse refere-se à cópia dos dados do Analytics para fins de armazenamento e relatórios personalizados, que podem ser executados ao filtrar os dados. Você pode solicitar relatórios para exibir relações avançadas de dados provenientes de dados brutos com base em suas perguntas exclusivas. Os relatórios de data warehouse são enviados por email ou enviados por FTP e podem demorar até 72 para serem processados. O tempo de processamento depende da complexidade da consulta e da quantidade de dados solicitada.
 
 A Adobe ativa o Data Warehouse somente para usuários com nível de administrador, para conjuntos de relatórios específicos. (Pode ser habilitado para conjuntos de relatórios globais e secundários, mas não para conjuntos de relatórios de rollup). O administrador pode criar um grupo que tem acesso ao Data Warehouse e associá-lo a usuários que não tenham direitos administrativos.
 
 O Data Warehouse compacta automaticamente todos os arquivos com mais de 1 MB. O tamanho máximo para o anexo de email é de 10 MB.
 
-O Data Warehouse pode processar uma quantidade ilimitada de linhas em uma única solicitação para relatórios agendados e baixados.
+O Data Warehouse pode processar uma quantidade ilimitada de linhas em uma única solicitação para relatórios programados e baixados.
 
 >[!NOTE]
 >
