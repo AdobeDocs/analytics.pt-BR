@@ -7,7 +7,7 @@ user-guide-description: Instruções passo a passo para o Analysis Workspace, a 
 source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 98%
          + [Visão geral](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Configurações de entrada e saída](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Perguntas frequentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-      + [Painel do item seguinte ou anterior](analysis-workspace/c-panels/next-previous.md)
+      + [Painel Item anterior ou seguinte](analysis-workspace/c-panels/next-previous.md)
       + [Painel Resumo da página](analysis-workspace/c-panels/page-summary.md)
       + [Painel do Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Painel de comparação de segmentos {#segment-comparison}
