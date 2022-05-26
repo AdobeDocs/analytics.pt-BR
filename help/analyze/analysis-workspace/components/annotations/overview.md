@@ -6,7 +6,7 @@ solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Visão geral sobre as anotações
 
-As anotações no espaço de trabalho permitem comunicar com eficiência nuances de dados contextuais e insights à sua organização. Elas permitem vincular eventos de calendário a dimensões/métricas específicas. Você pode anotar uma data ou um intervalo de datas com problemas de dados conhecidos, feriados, lançamentos de campanhas etc. É possível exibir graficamente os eventos e verificar se as campanhas ou outros eventos têm afetado seu tráfego local, a receita ou qualquer outra métrica.
+As anotações no Espaço de trabalho permitem comunicar com eficiência nuances de dados contextuais e insights à sua organização. Elas permitem vincular eventos de calendário a dimensões/métricas específicas. Você pode anotar uma data ou um intervalo de datas com problemas de dados conhecidos, feriados, lançamentos de campanhas etc. É possível exibir graficamente os eventos e verificar se as campanhas ou outros eventos têm afetado seu tráfego local, a receita ou qualquer outra métrica.
 
 Por exemplo, digamos que você esteja compartilhando projetos com sua organização. Se você tiver um grande pico no tráfego devido a uma campanha de marketing, poderá criar uma anotação de “Data de lançamento da campanha” e colocá-la no escopo de todo o conjunto de relatórios. Quando os usuários visualizam qualquer conjunto de dados que inclui essa data, eles visualizam a anotação dentro dos projetos, junto com os dados deles.
 
