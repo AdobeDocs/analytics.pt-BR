@@ -3,7 +3,7 @@ title: Integração do Analytics
 description: Saiba como integrar dados de outros locais ao Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Este guia tem como foco a integração de várias soluções da Adobe Experience Cloud, como Audience Manager, Advertising Cloud ou Target. O serviço inclui:
 
-* **Análise de público-alvo:** integre o Adobe Audience Manager ao Adobe Analytics.
+* **Audience Analytics:** integre o Adobe Audience Manager ao Adobe Analytics.
 * **Advertising Analytics:** consulte dados de pesquisa paga lado a lado com os dados do Adobe Analytics.
 * **Analytics para Advertising Cloud DSP**: integra o Adobe Analytics e o Adobe Advertising Cloud para estender e aprimorar os recursos de cada produto. Veja um vídeo com uma visão geral:
    >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
