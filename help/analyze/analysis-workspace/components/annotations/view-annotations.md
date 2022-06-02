@@ -5,9 +5,9 @@ role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -37,6 +37,6 @@ Como não é possível passar o mouse sobre os ícones em um arquivo PDF, esse a
 
 ![](assets/non-date.png)
 
-O gráfico de resumo é exibido em todos os tipos de visualização no canto, não apenas em tabelas de forma livre sem tendência e números de resumo. Também aparece em visualizações como [!UICONTROL Rosca], [!UICONTROL Fluxo],[!UICONTROL Fallout],[!UICONTROL Coorte]e assim por diante.
+O gráfico de resumo é exibido no canto em todos os tipos de visualização, não apenas em tabelas de forma livre sem tendência e em números de resumo. Ele também aparece em visualizações de [!UICONTROL Rosca], [!UICONTROL Fluxo], [!UICONTROL Fallout], [!UICONTROL Coorte], entre outras.
 
 ![](assets/ann-summary.png)
