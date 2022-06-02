@@ -3,9 +3,9 @@ title: Guia de importação do Analytics
 description: Este manual explica como obter dados no Analytics por meio de Fontes de dados, da API de inserção de dados ou pelos Data Connectors.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 Este guia explica como inserir dados no Analytics. O serviço inclui:
 
 * **[Fontes de dados](c-data-sources/datasrc-home.md)**: carregue um arquivo para um site de FTP designado da Adobe. A Adobe recupera o arquivo e inclui os dados em seu conjunto de relatórios.
-* **[API de inserção de dados em massa](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** permite carregar dados de chamadas do servidor em lotes de arquivos, em vez de usar bibliotecas do lado do cliente, como o AppMeasurement.
+* A **[API de inserção de dados em massa](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** permite carregar dados de chamadas de servidor em lotes de arquivos, em vez de usar bibliotecas do lado do cliente, como o AppMeasurement.
 * **[API de inserção de dados](c-data-insertion-api/c-data-insertion-api.md)**: envie dados diretamente para a coleta de dados da Adobe por meio de uma API.
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: encontre integrações atuais disponíveis para enriquecer seu conjunto de relatórios no Adobe Analytics.
 
