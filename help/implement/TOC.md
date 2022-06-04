@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: 'Personalize quais dados são coletados para obter mais do Adobe Analytics. '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 97%
+source-wordcount: '402'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # Guia de implementação do Adobe Analytics {#implementation}
 
 + [Implementação do Adobe Analytics](home.md)
-+ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
 + [Notas de versão do AppMeasurement](appmeasurement-updates.md)
 + Variáveis, funções e métodos do Analytics {#vars}
    + [Visão geral](vars/overview.md)
@@ -131,6 +131,22 @@ ht-degree: 97%
    + [Modal de implementação](prepare/implementation-modal.md)
    + [Criar um documento de design de solução](prepare/solution-design.md)
    + [Assumir o controle de uma implementação existente do Adobe Analytics](prepare/existing-implementation.md)
++ Implementar o Analytics usando o Experience Platform Edge {#aep-edge}
+   + [Visão geral do Experience Edge](aep-edge/overview.md)
+   + [Mapeamento de variável](aep-edge/variable-mapping.md)
+   + Web SDK {#web-sdk}
+      + [Visão geral do SDK Web](aep-edge/web-sdk/overview.md)
+   + SDK móvel {#mobile-sdk}
+      + [Visão geral do SDK móvel](aep-edge/mobile-sdk/overview.md)
+   + API Edge {#edge-api}
+      + [Visão geral da Edge API](aep-edge/edge-api/overview.md)
++ Implementar o Analytics usando tags na Adobe Experience Platform {#launch}
+   + [Visão geral das tags](launch/overview.md)
+   + [Criar uma propriedade de tag do Adobe Analytics](launch/create-analytics-property.md)
+   + [Implantar em um ambiente de desenvolvimento](launch/deploy-dev.md)
+   + [Validar e publicar na produção](launch/validate-publish-prod.md)
+   + [Mapear objetos de camada de dados para elementos de dados](launch/layer-to-elements.md)
+   + [Mapear elementos de dados de tag para variáveis do Analytics](launch/elements-to-variable.md)
 + Implementar o Analytics usando JavaScript {#js}
    + [Visão geral do JavaScript](js/overview.md)
    + [Implementar links para opção de não participação](js/opt-out.md)
@@ -150,13 +166,6 @@ ht-degree: 97%
       + [Exemplo de visita](js/xdevice-visid/visit-example.md)
       + [Perguntas frequentes sobre hereditariedade entre dispositivos](js/xdevice-visid/xdevice-faq.md)
    + [Solução de problemas do AppMeasurement](js/troubleshooting.md)
-+ Implementar o Analytics usando tags na Adobe Experience Platform {#launch}
-   + [Visão geral das tags](launch/overview.md)
-   + [Criar uma propriedade de tag do Adobe Analytics](launch/create-analytics-property.md)
-   + [Implantar em um ambiente de desenvolvimento](launch/deploy-dev.md)
-   + [Validar e publicar na produção](launch/validate-publish-prod.md)
-   + [Mapear objetos de camada de dados para elementos de dados](launch/layer-to-elements.md)
-   + [Mapear elementos de dados de tag para variáveis do Analytics](launch/elements-to-variable.md)
 + Implementar o Analytics em outras plataformas {#other}
    + [Implementar o Analytics usando solicitações de imagem codificadas](other/hardcoded.md)
    + [Implementar o Analytics usando o DTM](other/dtm-implementation-overview.md)
@@ -179,6 +188,3 @@ ht-degree: 97%
    + [Análise focada (após cada lançamento do site)](review/focused-review.md)
    + [Análise completa (a cada 6 meses)](review/full-review.md)
    + [Defina os cinco KPIs principais](review/define-kpis.md)
-+ Usar dados XDM com o Analytics {#aep-edge}
-   + [Usar o SDK da Web da AEP](aep-edge/xdmoverview.md)
-   + [Mapear dados do XDM para o Analytics manualmente](aep-edge/xdm-manual.md)

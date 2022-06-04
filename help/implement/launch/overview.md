@@ -1,16 +1,16 @@
 ---
-title: Implementar com tags na Adobe Experience Platform
+title: Implementar o Adobe Analytics com tags no Adobe Experience Platform
 description: Saiba como implementar o Adobe Analytics usando tags
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
-# Implementar com tags na Adobe Experience Platform
+# Implementar o Adobe Analytics com tags no Adobe Experience Platform
 
 Durante a vida útil do Adobe Analytics, a Adobe ofereceu vários diferentes métodos de implementação do código no site para a coleta de dados. O método recomendado atual da Adobe é por meio de tags na Adobe Experience Platform.
 
