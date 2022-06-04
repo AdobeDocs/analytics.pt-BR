@@ -4,7 +4,7 @@ keywords: Feed de dados;tarefa;métrica;coluna pré;coluna pós;bots;filtragem d
 title: Calcular métricas
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Descreve como calcular métricas comuns usando feeds de dados.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >As ocorrências normalmente excluídas do Adobe Analytics são incluídas nos feeds de dados. Use `exclude_hit > 0` para remover ocorrências excluídas de consultas em dados brutos. Os dados obtidos também são incluídos nos feeds de dados. Se desejar excluir fontes de dados, exclua todas as linhas com `hit_source = 5,7,8,9`.
 

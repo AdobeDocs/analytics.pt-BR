@@ -3,10 +3,10 @@ title: eVars de merchandising e métodos de busca de produtos
 description: Um aprofundamento nos conceitos por trás das eVars de merchandising e como elas processam e alocam dados.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
-source-wordcount: '5319'
-ht-degree: 100%
+source-git-commit: 3d9b64bd28210732c7506dbf667c5d4d50e7fb07
+workflow-type: tm+mt
+source-wordcount: '5291'
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ Por exemplo, quando um usuário pesquisa produtos usando a palavra-chave “sand
 
 Estas são as diferentes configurações que você pode usar com as eVars de merchandising. A seguinte captura de tela é do Gerenciador de conjunto de relatórios. Acesse em [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Conjuntos de relatórios] > [!UICONTROL Editar configurações] > [!UICONTROL Conversão] > [!UICONTROL Variáveis de conversão] > [!UICONTROL Adicionar novo] > [!UICONTROL Habilitar merchandising].
 
-![](assets/merch-evars1.png)
+![Merch eVars](assets/merch-evars1.png)
 
 Encontre mais detalhes sobre essas configurações nas seções abaixo da tabela.
 
@@ -86,9 +86,9 @@ Essa opção não está disponível para eVars padrão. A configuração [!UICON
 
 Com a **[!UICONTROL Sintaxe de produto]**, no entanto, o eVar é definido somente na variável de produtos do Adobe Analytics. A variável de produtos do Analytics é dividida em seis partes diferentes por produto:
 
-`s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
+`s.products="[category];[name];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Categoria] não é mais recomendado como uma opção viável para monitorar o desempenho da categoria do produto.  Sua mera existência demonstra por que, na maioria das implementações da variável products, um único ponto e vírgula precede a parte productID do valor da variável.
+* [!UICONTROL Categoria] e [!UICONTROL Nome] identificar o produto em questão.
 * [!UICONTROL Quantidade] e [!UICONTROL Receita] são úteis quando uma compra de produto está sendo rastreada.
 * [!UICONTROL Eventos] são úteis para registrar valores de evento de moeda ou incrementais personalizados que não devem ser contados como receita (como frete, descontos etc.)
 
@@ -104,7 +104,7 @@ O termo &quot;Alocação&quot; para eVars de merchandising é enganoso, especial
 
 Entender o que essa configuração faz significa entender a diferença entre a alocação de eVar e a vinculação de eVar de merchandising. Para eVars de merchandising, &quot;Vínculo de eVar de merchandising&quot; é um nome mais apropriado para essa configuração de &quot;Alocação&quot;.
 
-**Configuração padrão de alocação de eVar**
+#### Configuração padrão de alocação de eVar
 
 Sempre que qualquer eVar com sintaxe padrão é coletado de uma solicitação de imagem, os servidores de processamento do Adobe Analytics inserem dados em outra coluna de banco de dados, chamada de coluna `post_evar`. Como as eVars devem ser persistentes, elas expiram em algum ponto além da ocorrência atual na maioria dos casos. Os servidores definem essa coluna `post_evar` em cada solicitação de imagem subsequente. É definido como igual ao último valor passado para o eVar correspondente. Para eVars padrão, quando um evento bem-sucedido ocorre, o Adobe Analytics usa a coluna `post_evar` em vez da coluna de eVar regular para determinar o valor do eVar que deve receber crédito pelo evento.
 
@@ -112,7 +112,7 @@ Para eVars padrão, a configuração Alocação determina se o primeiro ou o úl
 
 Se a configuração Alocação de um eVar padrão for igual a &quot;Mais recente (último)&quot;, o valor de eVar mais recente coletado do visitante será preenchido na coluna `post_evar` para todas as solicitações de imagem subsequentes. A alocação &quot;Mais recente (último)&quot; implica que o valor `post_evar` muda sempre que o eVar correspondente é definido como um novo valor em qualquer solicitação de imagem. A alocação &quot;Valor original (primeiro)&quot; implica que a coluna `post_evar` não é alterada entre ocorrências, mesmo que seu eVar correspondente possa ser definido com um valor diferente em uma solicitação de imagem futura.
 
-**Configuração de alocação de eVar de merchandising (compulsório)**
+#### Configuração de alocação de eVar de merchandising (compulsório)
 
 Como mencionado anteriormente, todas as eVars de merchandising com Sintaxe de variável de conversão têm somente a alocação &quot;Mais recente (último)&quot;. Assim, a configuração Alocação de eVars de merchandising não determina quais valores são inseridos na coluna post_evar, pois um visitante continua usando o site. Em vez disso, essa configuração determina qual valor de eVar se vincula a um produto e como esses produtos alocam os eventos de sucesso de volta aos valores de eVar aos quais estão vinculados.
 
@@ -174,12 +174,11 @@ Qualquer evento bem-sucedido (adições ao carrinho, compras) capturado ao mesmo
 
 Por exemplo:
 
-```
+```js
 s.products=";12345;;;;eVar1=internal campaign";
 ```
 
 Essa configuração de variável altera o vínculo da ID do produto 12345 do valor de eVar1 de “pesquisa de palavra-chave interna” para o valor eVar1 de “campanha interna”. Além disso, essa mudança de revinculação ocorre quando a eVar é configurada para usar a sintaxe do produto e a configuração de alocação (vinculação) de “Mais recente (última)”. Se a configuração Alocação (vínculo) fosse definida como &quot;Valor original (primeiro)&quot;, definir a eVar1 como &quot;campanha interna&quot; ao lado da ID de produto 12345 não recuperaria a ID de produto 12345 para o valor de eVar1 de &quot;campanha interna&quot;. Em vez disso, o vínculo permaneceria com o valor originalmente vinculado - &quot;pesquisa interna de palavra-chave&quot;.
-
 
 ### Desafios de usar a sintaxe do produto
 
@@ -191,7 +190,7 @@ Se usarmos nosso exemplo original de &quot;sandálias&quot; e o adaptarmos para 
 
 Embora a sintaxe da variável products seja longa neste exemplo, ela vinculará cada um dos valores de eVar vistos à ID de produto de &quot;sandal123&quot;. A partir de então, todos os eventos bem-sucedidos (por exemplo, inclusões de carrinho, compras) capturados ao mesmo tempo que o produto &quot;sandal123&quot; são creditados aos valores de eVar que foram vinculados por último ao produto.  Este exemplo de código mostra se uma compra de uma unidade do produto &quot;sandal123&quot; (por US$ 79,95) ocorre depois que as eVars acima foram vinculadas ao produto &quot;sandal123&quot;:
 
-```
+```js
 s.products=";sandal123;1;79.95";
 s.events="purchase";
 ```
@@ -210,7 +209,7 @@ Na maioria dos casos com a Sintaxe de produto, as eVars de método de descoberta
 
 Além disso, ao visualizar uma página de método de descoberta, os visitantes podem ter a capacidade de clicar em um link que os leva para uma página de detalhes do produto individual ou adicionar um produto individual ao carrinho diretamente da página de método de descoberta. Usando nosso exemplo de palavra-chave de pesquisa &quot;sandals&quot;, se um visitante adicionar o produto &quot;sandal123&quot; ao carrinho diretamente de uma página de resultados de pesquisa por palavra-chave, o código para capturar a adição do carrinho (por meio do evento onClick do botão Adicionar ao carrinho etc.) precisará ser gerado dinamicamente no momento em que a adição do carrinho ocorrer ou &quot;codificado&quot; diretamente por meio do código da página ou de um sistema de gerenciamento de tags.  Independentemente disso, o código a ser acionado em tais casos seria semelhante a:
 
-```
+```js
 s.linkTrackVars="products,events";
 s.linkTrackEvents=s.events="scAdd";
 s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
@@ -236,9 +235,9 @@ A Sintaxe do produto ainda é útil quando
 
 Por exemplo, muitos produtos de roupas têm &quot;SKUs secundárias&quot;, que designam o tamanho, a cor, o estilo e quaisquer outros atributos. Esses atributos separam um único produto secundário de outros produtos que pertencem ao mesmo produto principal. Digamos que você decida comprar uma camiseta azul tamanho médio e uma camiseta vermelha tamanho grande. Suponha que ambas as camisetas tenham a ID de produto principal &quot;tshirt123&quot; e o `eVar10` tenha sido configurado para capturar SKUs secundárias. As variáveis definidas na página de confirmação de compra seriam definidas da seguinte maneira:
 
-```
-s.events='purchase';
-s.products=';tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tshirt123-l-red"
+```js
+s.events="purchase";
+s.products=";tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tshirt123-l-red";
 ```
 
 Nesse caso, ambos os valores `eVar10` (childSKU) de &quot;tshirt123-m-blue&quot; e &quot;tshirt123-l-red&quot; obtêm crédito pela compra das respectivas instâncias da ID de produto &quot;tshirt123&quot;.
@@ -247,17 +246,17 @@ Nesse caso, ambos os valores `eVar10` (childSKU) de &quot;tshirt123-m-blue&quot;
 
 Você pode enfrentar problemas adicionais usando a configuração Alocação (vínculo) de &quot;Mais recente (último)&quot;. Em muitas experiências de navegação na Web, os visitantes &quot;encontram novamente&quot; um produto que já viram e/ou adicionaram ao carrinho. Isso geralmente acontece por meio de uma visita subsequente ou antes de eles decidirem concluir uma compra. Suponha que, durante uma visita ao site, um visitante encontre o produto “sandal123” por meio da pesquisa de palavra-chave “sandals”. Eles imediatamente o adicionam ao carrinho por meio da página de resultados da pesquisa de palavra-chave. O código que captura a adição do carrinho seria definido da seguinte maneira:
 
-```
+```js
 s.linkTrackVars="products,events";
 s.linkTrackEvents=s.events="scAdd";
-s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross
+s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross";
 ```
 
 Como resultado, cada valor de eVar visto nessa solicitação de imagem é vinculado ao produto &quot;sandal123&quot;.
 
 Agora, imagine que o visitante não compra o produto durante essa visita, mas retorna ao site três dias depois com o produto &quot;sandals123&quot; ainda no carrinho. O visitante deseja saber mais sobre o produto antes de realizar a compra. Em vez de usar uma pesquisa por palavra-chave para encontrar o produto, o visitante navega pelo site. Ele chega à seção de navegação de merchandising &quot;mulheres > sapatos > sandálias&quot; logo antes de &quot;encontrar novamente&quot; o produto. Quando ele &quot;encontra novamente&quot; a página de detalhes do produto &quot;sandal123&quot;, as variáveis são definidas da seguinte maneira (no carregamento da página):
 
-```
+```js
 s.events="prodView";
 s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-internal campaign|eVar2=non-search|eVar5=non-cross-sell";
 ```
@@ -279,14 +278,14 @@ Por exemplo, vamos examinar a solução recomendada para rastrear o desempenho i
 A lógica adicional contida no arquivo AppMeasurement/AEP Web SDK pode preencher o restante das variáveis (eVars/dimensões de merchandising) que precisam ser definidas ao mesmo tempo.\
 Por exemplo, se um novo visitante fizesse uma pesquisa por palavra-chave por &quot;sandals&quot;, que retornasse 25 resultados na página de resultados da pesquisa, o código a ser acionado (por meio do código da página OU da captura da camada de dados) seria semelhante a:
 
-```
+```js
 s.prop4="sandals";
 s.prop5="25";
 ```
 
 A lógica no arquivo SDK do AppMeasurement/Analytics poderia transformar automaticamente esse trecho de código no seguinte:
 
-```
+```js
 s.prop4="sandals";
 s.prop5="25";
 s.eVar2="sandals";
@@ -324,7 +323,7 @@ Veja a seguir as configurações de práticas recomendadas. Eles implementam fac
 
 Quando um evento de vinculação está contido na mesma chamada de servidor que a variável products, os valores de eVar de merchandising (usando a Sintaxe de variável de conversão) em sua coluna de publicação vinculam-se à variável products. Com base no exemplo anterior, suponha que uma chamada de servidor contenha os seguintes valores de eVar de Merchandising:
 
-```
+```js
 s.eVar2="sandals";
 s.eVar1="internal keyword search";
 s.eVar3="non-internal campaign";
@@ -334,7 +333,7 @@ s.eVar5="non-cross sell";
 
 Como explicado anteriormente, as eVars acima persistem além da ocorrência atual por meio de sua respectiva coluna post_evar. Portanto, servidores Adobe transformam as eVars acima no seguinte:
 
-```
+```js
 post_eVar2="sandals";
 post_eVar1="internal keyword search";
 post_eVar3="non-internal campaign";
@@ -348,15 +347,15 @@ O vínculo que ocorre é apenas entre esses valores post_evar e o conteúdo da v
 
 Suponha que, em uma ocorrência futura, as seguintes variáveis estejam definidas:
 
-```
+```js
 s.products=";sandals123"
 s.events="prodView";
 ```
 
 Nas colunas post_evar, os servidores de processamento da Adobe veem essa ocorrência da seguinte maneira:
 
-```
-s.products=";sandals123"
+```js
+s.products=";sandals123";
 s.events="prodView";
 post_eVar2="sandals";
 post_eVar1="internal keyword search";
@@ -369,12 +368,12 @@ Suponha que eVar1, eVar2, eVar3, eVar4 e eVar5 tenham sido configurados para usa
 
 O vínculo produz alguns resultados muito interessantes, que podem ser vistos no valor da coluna post_products. O vínculo transforma o código acima e define mais algumas colunas de publicação, da seguinte maneira:
 
-```
-post_events="prodView"
-post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell"
+```js
+post_events="prodView";
+post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
 ```
 
-O valor contido na coluna post_products pode ser familiar para você. Role para cima neste documento e compare esse valor de post_products com o valor de s.products, como mostrado em .  Observe que a coluna post_products é definida usando a Sintaxe de variável do produto.
+O valor contido na coluna post_products pode ser familiar para você. Role para cima neste documento e compare esse valor de post_products com o valor de s.products, como mostrado em. Observe que a coluna post_products é definida usando a Sintaxe de variável do produto.
 
 Isso significa que o Vínculo &quot;copia&quot; os valores do eVar da Sintaxe de variável de conversão para a variável products por meio da Sintaxe de produto. Essa ação de cópia ocorre somente quando a variável products e um evento compulsório (definido por meio da configuração de eVar) estão contidos na mesma solicitação. Nesse ponto, os valores contidos nas colunas post_eVar são vinculados ao produto. Esse Vínculo é representado por meio da Sintaxe do produto, conforme armazenado na coluna post_products.
 
@@ -390,6 +389,6 @@ Por exemplo, definir `s.eVar1="Internal Keyword Search"` por si só não dá cr�
 
 Em resumo, sem configuração adicional, a métrica Instâncias pronta para uso de uma eVar de merchandising é menos que útil. Felizmente, a Adobe lançou o [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=pt-BR). Ele permite aplicar vários modelos de atribuição a qualquer métrica personalizada que o Adobe Analytics coleta. As métricas que aplicam esses modelos de atribuição não usam os valores contidos nas colunas post_evar ou os valores que estão vinculados a um produto específico. Em vez disso, essas métricas usam apenas os valores que são transmitidos por meio das próprias solicitações de imagem (ou valores capturados por meio das regras de processamento do Adobe Analytics). Você pode usar os recursos no Attribution IQ para obter uma métrica de instâncias atribuída com precisão para todas as eVars de merchandising que usam a Sintaxe de variável de conversão.
 
-![](assets/attribution-select.png)
+![Seleção de atribuição](assets/attribution-select.png)
 
 Ao adicionar uma métrica de instância para uma eVar de merchandising a um relatório, o modelo do Attribution IQ adequado seria o modelo &quot;Último contato&quot;. Nesse caso, a configuração da Janela de pesquisa do modelo não importa. O motivo é que um modelo de atribuição de Último contato &quot;forçado&quot; sempre dá crédito de instância para cada valor individual transmitido por uma solicitação. Isso ocorre independentemente de as configurações de atribuição/vínculo reais da eVar serem definidas como &quot;Mais recente (último)&quot; a &quot;Valor original (primeiro)&quot;.

@@ -3,8 +3,8 @@ description: Segmentos sequenciais são criados por meio do operador THEN, em ve
 title: Construir segmentos sequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -399,7 +399,7 @@ Ao determinar &quot;Após 2 semanas&quot;, se houver uma ocorrência na página 
 * [!UICONTROL Within] permite rastrear por ano, mês, dia, hora e minuto para corresponder visitas.
 * [!UICONTROL Within] pode ser aplicado somente a um contêiner de [!UICONTROL Ocorrência], visto que essa granularidade fina é definida somente nesse nível.
 
->[!IMPORTANT]
+>[!TIP]
 >
 >Em uma cláusula &quot;dentro&quot;, entre instruções THEN, é possível adicionar, por exemplo, &quot;dentro de uma instância de palavra-chave de pesquisa&quot;, &quot;dentro de uma instância eVar 47&quot;. Isso restringe o segmento a uma instância de uma dimensão.
 

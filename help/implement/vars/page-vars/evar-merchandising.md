@@ -3,10 +3,10 @@ title: Variáveis de eVar (merchandising)
 description: Variáveis personalizadas vinculadas a produtos individuais.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '382'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Para ver em detalhes como as eVars de merchandising funcionam, consulte [eVars d
 
 Antes de usar as eVars em sua implementação, configure a eVar com a sintaxe desejada nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >A falha na configuração correta das eVars de merchandising resulta em valores inesperados ou perda de dados para a variável. Verifique se a configuração está correta para a implementação.
 

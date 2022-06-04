@@ -3,7 +3,7 @@ title: registerPostTrackCallback
 description: Cria funções de retorno de chamada após enviar uma ocorrência para a Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 A variável `registerPostTrackCallback` permite que sua organização conecte uma função JavaScript imediatamente após uma ocorrência ser enviada com êxito para a Adobe. Se uma chamada de rastreamento falhar, essa função não será executada. Você pode usar essa variável para enviar dados coletados pelo AppMeasurement a um parceiro ou infraestrutura interna, ou para limpar valores variáveis em aplicativos de página única.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Não chame nenhuma função de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da variável `registerPostTrackCallback`. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
 

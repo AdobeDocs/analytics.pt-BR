@@ -3,7 +3,7 @@ title: contextData
 description: As variáveis de dados de contexto permitem definir variáveis personalizadas em cada página que podem ser lidas pelas regras de processamento.
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
@@ -35,7 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## Use regras de processamento para preencher variáveis do Analytics
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >As variáveis de dados de contexto são descartadas após a execução das regras de processamento. Se você não tiver ativadas regras de processamento que colocam valores em variáveis, esses dados serão perdidos permanentemente!
 

@@ -2,7 +2,7 @@
 title: Compilação em campo
 description: Entenda os pré-requisitos e as limitações da compilação de dados usando a compilação em campo.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 97%
@@ -17,7 +17,7 @@ O Cross-Device Analytics fornece dois métodos distintos para compilar dados. Es
 
 Se você pretende implementar o Cross-Device Analytics usando a compilação em campo, as seguintes etapas são obrigatórias. Trabalhe com as equipes em sua organização e com seu Gerente de conta da Adobe para atender a todos os itens a seguir.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
 

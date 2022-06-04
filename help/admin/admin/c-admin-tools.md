@@ -3,8 +3,8 @@ description: Índice de ferramentas do administrador no Adobe Analytics.
 title: Ferramentas administrativas
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]**
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Não abra várias guias Administração no mesmo navegador. Isso pode acabar salvando de forma não intencional as configurações no conjunto de relatórios errado. Por exemplo, caso seja necessário comparar conjuntos de regras e copiá-los para um novo conjunto de relatórios, sugerimos que você abra um novo navegador ou faça uma captura de tela para comparar os conjuntos de regras.
 

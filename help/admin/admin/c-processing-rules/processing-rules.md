@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: Visão geral das regras de processamento
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '394'
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,7 @@ O processamento de regras simplifica a coleta de dados e o gerenciamento do cont
 
 Os administradores têm o direito de usar as regras de processamento **por padrão**. Administradores também podem conceder esses direitos a outros usuários através da interface de Ferramentas administrativas. Para obter instruções, consulte []
 
-![](assets/processing-rules.png)
-
->[!IMPORTANT]
->
->Como as regras de processamento afetam permanentemente os dados do Analytics, a Adobe recomenda que os administradores de regras de processamento recebam treinamentos certificados no Adobe Analytics para se familiarizarem com todas as fontes de dados dos conjuntos de relatórios (sites padrão, sites para dispositivos móveis, aplicativos móveis, API de inserção de dados e assim por diante). O conhecimento das variáveis de dados de contexto e as variáveis padrão preenchidas em várias plataformas ajudará a impedir a exclusão ou alteração acidental dos dados.
+![Regras de processamento](assets/processing-rules.png)
 
 ## Usar dados de contexto para simplificar a coleção de dados {#section_09EEA03612D24C15839631AA9E9668D8}
 

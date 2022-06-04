@@ -3,7 +3,7 @@ title: Prop
 description: Uma dimensão personalizada que você pode usar nos relatórios.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
@@ -38,7 +38,7 @@ As props, por padrão, não diferenciam maiúsculas de minúsculas. Se você env
 
 É possível fazer com que qualquer prop diferencie maiúsculas e minúsculas. Você também pode desativar a diferenciação entre maiúsculas e minúsculas para qualquer prop depois que ela estiver ativada. Entre em contato com o Atendimento ao cliente da Adobe com a ID do conjunto de relatórios e as variáveis desejadas para alterar a diferenciação entre maiúsculas e minúsculas.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Alterar a diferenciação entre maiúsculas e minúsculas pode cortar itens de dimensão, causar resultados inesperados com segmentos e causar problemas com filtros. A Adobe recomenda que essa configuração seja alterada entre dois períodos principais, como o início de um mês ou ano.
 

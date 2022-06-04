@@ -4,10 +4,9 @@ title: Carimbos opcionais de data e hora
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -22,7 +21,7 @@ Os Carimbos opcionais de data e hora permitem que você:
 * Envie dados com carimbo de data e hora de um aplicativo móvel para um conjunto de relatórios global.
 * Atualize os aplicativos para usar o rastreamento offline sem precisar criar um novo conjunto de relatórios.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Se você estiver usando os Carimbos opcionais de data e hora, não defina [s.visitorID](/help/implement/vars/config-vars/visitorid.md) para os dados que já apresentarem carimbos de data e hora. Isso pode causar dados desorganizados e um impacto negativo aos cálculos temporais (como valores de tempo gasto), atribuição (persistência eVar), números e contagens de visitas e relatórios de definição de caminho.
 
