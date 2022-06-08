@@ -4,10 +4,10 @@ title: Gerenciador de tarefa agendada
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 52%
+source-wordcount: '769'
+ht-degree: 45%
 
 ---
 
@@ -17,13 +17,20 @@ O [!UICONTROL Gerenciador de tarefa agendada] permite que você veja uma lista d
 
 ## Pausando tarefas agendadas mais antigas
 
-**A partir de 21 de abril de 2022**, a Adobe pretende pausar todas as tarefas agendadas do Report Builder que foram criadas há mais de dois anos. Especificamente, essa pausa se aplica a **quaisquer tarefas criadas antes de 31 de janeiro de 2020**. Nenhuma tarefa, pasta de trabalho ou dados serão excluídos. Tarefas com mais de dois anos serão pausadas e nenhuma tarefa agendada adicional será enviada.
+Em 21 de abril de 2022, lançamos alterações em tarefas agendadas no Report Builder como parte de nossos esforços de otimização de desempenho e delivery. Essas alterações incluíam a remoção da capacidade de agendar entregas &quot;terminadas após x ocorrências&quot;. Em resposta a várias solicitações do cliente que buscam mais tempo para explorar e implementar alternativas, decidimos restaurar essa opção de forma limitada até **31 de janeiro de 2023**.
+
+Você continuará sendo capaz de agendar tarefas de Report Builder por hora e terminá-las após no máximo 99 ocorrências. Observe que a reversão se aplica somente a tarefas por hora; o &quot;fim após x ocorrências&quot; permanecerá indisponível para todos os outros intervalos de delivery (diário, semanal, mensal e anual).
+
+Observe que essa opção ficará obsoleta em 31 de janeiro de 2023.
+Para mais perguntas ou suporte, entre em contato com o Atendimento ao cliente do Adobe.
+
+Especificamente, essa pausa se aplica a **quaisquer tarefas criadas antes de 31 de janeiro de 2020**. Nenhuma tarefa, pasta de trabalho ou dados serão excluídos. Tarefas com mais de dois anos serão pausadas e nenhuma tarefa agendada adicional será enviada.
 
 Todas as tarefas que você deseja retomar o envio podem ser reativadas. Faça logon no Report Builder e inicie o [!UICONTROL Gerenciador de tarefa agendada]. Clique em **[!UICONTROL Reativar]** para a tarefa agendada, você gostaria de retomar o envio. Qualquer tarefa que for reativada terá uma expiração padrão de 18 meses, a menos que uma data de expiração mais curta seja escolhida.
 
-Além disso, qualquer tarefa com uma data de criação inferior a dois anos e sem uma data de expiração atual (ou com uma data de expiração superior a dois anos) terá uma data de expiração padrão de 18 meses aplicada a ela. A nova data de expiração será 15 de outubro de 2023. É possível editar essa data de expiração para ser menor que 18 meses, mas não maior. No momento da expiração, a tarefa será pausada. No entanto, é possível reativar a tarefa com uma nova data de expiração de 18 meses. Nenhuma tarefa, pasta de trabalho ou dados serão excluídos.
+Além disso, qualquer tarefa com uma data de criação inferior a dois anos e sem uma data de expiração atual (ou com uma data de expiração superior a dois anos) terá uma data de expiração padrão de 18 meses aplicada a ela. A nova data de expiração será 15 de outubro de 2023. É possível editar essa data de expiração para que seja menor que 18 meses, mas não maior. No momento da expiração, a tarefa será pausada. No entanto, é possível reativar a tarefa com uma nova data de expiração de 18 meses. Nenhuma tarefa, pasta de trabalho ou dados serão excluídos.
 
-A finalidade dessa pausa é gerenciar e manter efetivamente nosso banco de dados de tarefas agendadas para garantir o desempenho e a entrega ideais para tarefas e pastas de trabalho necessárias. Isto servirá de avanço para a nossa nova política de governação. Depois de 15 de abril de 2022, todas as tarefas terão uma data de expiração máxima de 18 meses. Após 18 meses, as tarefas expiradas serão pausadas e poderão ser reativadas conforme necessário.
+A finalidade dessa pausa é gerenciar e manter efetivamente nosso banco de dados de tarefas agendadas para garantir o desempenho e a entrega ideais para tarefas e pastas de trabalho necessárias. Isto servirá como nossa nova política de governança daqui em diante. Após 31 de janeiro de 2023, todas as tarefas terão uma data de expiração máxima de 18 meses. Após 18 meses, as tarefas expiradas serão pausadas e poderão ser reativadas conforme necessário.
 
 ## Configurar tarefas agendadas
 
