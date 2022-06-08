@@ -4,7 +4,7 @@ title: Configurar uma visualização de fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
+source-git-commit: 2ce17ecd45810e1c567e99423271dbc2d5288485
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 40%
@@ -15,7 +15,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->Esta nova versão do [!UICONTROL Fluxo] no momento, a visualização está em beta privado. Consulte [esta página](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) para a funcionalidade atual.
+>Esta nova versão do [!UICONTROL Fluxo] no momento, a visualização está em testes limitados. Consulte [esta página](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) para a funcionalidade atual.
 
 A visualização de Fluxo atualizada permite compreender a jornada que resulta de ou até um evento de conversão específico em seu site ou aplicativo. Ele rastreia um caminho pelas suas dimensões (e itens de dimensão) ou métricas. O fluxo permite configurar o início ou o fim do caminho em que você está interessado ou analisar todos esses caminhos que fluem por uma dimensão ou item de dimensão.
 
