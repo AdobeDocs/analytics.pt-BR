@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: 'Personalize quais dados são coletados para obter mais do Adobe Analytics. '
-source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 94%
+source-wordcount: '401'
+ht-degree: 92%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 94%
       + [Visão geral do SDK móvel](aep-edge/mobile-sdk/overview.md)
    + API Edge {#edge-api}
       + [Visão geral da Edge API](aep-edge/edge-api/overview.md)
-+ Implementar o Analytics usando tags na Adobe Experience Platform {#launch}
++ Implementar o Analytics usando a extensão Adobe Analytics {#launch}
    + [Visão geral das tags](launch/overview.md)
    + [Criar uma propriedade de tag do Adobe Analytics](launch/create-analytics-property.md)
    + [Implantar em um ambiente de desenvolvimento](launch/deploy-dev.md)

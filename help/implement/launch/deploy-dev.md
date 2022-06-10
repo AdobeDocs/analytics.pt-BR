@@ -3,10 +3,10 @@ title: Implantar o Adobe Analytics em um ambiente de desenvolvimento
 description: Saiba como usar tags para implantar o Adobe Analytics no ambiente de desenvolvimento.
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 43%
 
 ---
 
@@ -22,7 +22,7 @@ Depois de criar e configurar uma propriedade de tag, as bibliotecas estarão pro
 
 As tags acomodam muitos workflows organizacionais na implantação do código. Siga estas etapas para criar os componentes mínimos necessários para uma implementação do Analytics. Como administrador de tags, você pode trabalhar na empresa para estabelecer o fluxo de trabalho correto para implantar as soluções da Adobe.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade da tag que pretende implementar no site.
 3. Clique em **[!UICONTROL Hosts]**, depois clique em **[!UICONTROL Adicionar host]**.
 4. Nomeie-o `"Adobe managed"`e selecione **[!UICONTROL Gerenciado pelo Adobe]** na lista suspensa tipo . Clique em Salvar.
@@ -36,7 +36,7 @@ As tags acomodam muitos workflows organizacionais na implantação do código. S
 
 Apesar de todas as mudanças e configurações feitas até agora, nenhum código foi publicado. A criação de uma biblioteca, praticamente traduzida como uma coleção de alterações, permite que a publicação do código seja usada no site.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade da tag que pretende implementar no site.
 3. Clique no botão **[!UICONTROL Fluxo de publicação]** e, em seguida, clique em **[!UICONTROL Adicionar biblioteca]**. Consulte [Visão geral da publicação](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) na documentação de Tags para obter mais informações sobre esta página.
 4. Dê um nome para a biblioteca `'Initial changes'`e selecione o ambiente de desenvolvimento.

@@ -3,10 +3,10 @@ title: Permissões do Adobe Analytics - tabelas de resumo
 description: Tabelas que resumem as permissões do Adobe Analytics disponíveis no Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 100%
+source-wordcount: '1277'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 
 | Ferramenta do Analytics | Administração | Controles de acesso | Recursos somente para relatórios | Obsoleto | Descrição |
 | --- | --- | --- | --- | --- | --- |
-| Gerenciador de código | x |  |  |  | Mantido para fins herdados. Concede acesso a Administrador > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas na interface da Coleção de dados. |
+| Gerenciador de código | x |  |  |  | Mantido para fins herdados. Concede acesso a Administrador > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas na extensão do Adobe Analytics na Coleta de dados do Adobe Experience Platform. |
 | Gerenciador de código - Serviços da Web | x |  |  |  | Concede acesso ao Gerenciador de código por meio da API 1.4. |
 | Ocultar conjuntos de relatórios | x |  |  |  | Concede acesso a Administrador > Configurações da empresa > Ocultar conjuntos de relatórios. Concede a capacidade de ocultar qualquer conjunto de relatórios na organização, independente do acesso ao conjunto de relatórios. |
 | Integrações (Criar) | x |  |  |  | Concede acesso a Administrador > Conectores de dados e permite que o usuário crie conectores de dados. |

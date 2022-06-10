@@ -3,10 +3,10 @@ title: listar
 description: Variáveis personalizadas que contêm vários valores na mesma ocorrência.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 85%
 
 ---
 
@@ -24,11 +24,15 @@ Certifique-se de registrar a forma como você usa cada variável de lista e a l�
 
 Certifique-se de configurar cada variável de lista nas configurações do conjunto de relatórios antes de usá-las na implementação. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/list-var-admin.md) no Guia de administração.
 
-## Variáveis de lista usando tags na Adobe Experience Platform
+## Listar variáveis usando o SDK da Web
 
-Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+As variáveis de lista são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nos campos XDM `_experience.analytics.customDimensions.lists.list1` para `_experience.analytics.customDimensions.lists.list3`.
 
-## s.list1 e s.list3 no AppMeasurement e no editor de código personalizado do
+## Listar variáveis usando a extensão Adobe Analytics
+
+Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+
+## s.list1 - s.list3 no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 Cada variável de lista é uma string que contém valores personalizados específicos para sua organização. Elas não têm uma contagem máxima de bytes; no entanto, cada valor individual tem no máximo 255 bytes. O delimitador usado é determinado quando se configura a variável nas configurações do conjunto de relatórios. Não use espaços ao delimitar vários itens.
 

@@ -3,10 +3,10 @@ title: purchaseID
 description: Desduplicar ocorrências com base em um identificador de compra exclusivo.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 80%
 
 ---
 
@@ -18,11 +18,15 @@ Quando a Adobe reconhece uma ocorrência como uma compra duplicada, nenhum dado 
 
 As IDs de compra se aplicam a todos os visitantes e não expiram. Se um visitante definir uma determinada ID de compra e um visitante diferente definir essa mesma ID de compra um ano depois, a segunda compra será desduplicada.
 
-## ID de compra usando tags na Adobe Experience Platform
+## ID de compra usando o SDK da Web
 
-Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+A ID de compra é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) no campo XDM `commerce.order.purchaseID`.
 
-## s.purchaseID no AppMeasurement e no editor de código personalizado do 
+## ID de compra usando a extensão Adobe Analytics
+
+Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+
+## s.purchaseID no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 A variável `s.purchaseID` é uma string que contém um identificador exclusivo para uma compra. Ela é definida na mesma ocorrência que um evento de compra. Use somente caracteres alfanuméricos para preencher essa variável.
 

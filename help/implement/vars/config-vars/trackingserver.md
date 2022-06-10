@@ -3,10 +3,10 @@ title: trackingServer
 description: Defina para que local as solicitações de imagens são enviadas.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 69%
 
 ---
 
@@ -18,22 +18,47 @@ A Adobe coleta dados em seu site recebendo uma solicitação de imagem gerada pe
 >
 >Alterar esse valor faz com que o AppMeasurement procure cookies em um local diferente. A contagem de visitantes únicos pode aumentar temporariamente no relatório, já que os cookies de visitantes estão definidos para serem enviados ao novo local.
 
-## Servidor de rastreamento usando tags na Adobe Experience Platform
+## Domínio de borda usando a extensão SDK da Web
+
+O SDK da Web usa [!UICONTROL Domínio de borda] para lidar com o Servidor de rastreamento e o Servidor de rastreamento seguro. É possível definir a [!UICONTROL Domínio de borda] ao configurar a extensão do SDK da Web.
+
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Clique na propriedade de tag desejada.
+1. Vá para o [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** botão abaixo [!UICONTROL Adobe Experience Platform Web SDK].
+1. Defina as **[!UICONTROL Domínio de borda]** campo de texto.
+
+Consulte [Configurar a extensão Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) na documentação do SDK da Web para obter mais informações.
+
+>[!TIP]
+>
+>Se sua organização mudar para o SDK da Web a partir de uma implementação de extensão do AppMeasurement ou do Analytics, esse campo poderá usar o mesmo valor contido em `trackingServerSecure` ou `trackingServer`).
+
+## Domínio de borda que implementa manualmente o SDK da Web
+
+Configurar o SDK usando [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR). O campo é uma string que determina o domínio para o qual enviar dados.
+
+```json
+alloy("configure", {
+  "edgeDomain": "data.example.com"
+});
+```
+
+## Servidor de rastreamento usando a extensão Adobe Analytics
 
 Servidor de rastreamento é um campo sob a opção [!UICONTROL Geral] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
-2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+2. Clique na propriedade de tag desejada.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Geral], que revela o campo [!UICONTROL Servidor de rastreamento].
 
 Se esse campo ficar em branco, o padrão será `[rsid].data.adobedc.net`.
 
-## s.trackingServer no AppMeasurement e no editor de código personalizado do
+## s.trackingServer no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 A varável `s.trackingServer` é uma string que contém o local para o envio de dados.
 
-## Determine o valor de trackingServer
+## Determine o valor de `trackingServer`
 
 O valor dessa variável depende do uso de cookies próprios ou de cookies de terceiros. A Adobe recomenda usar cookies próprios na implementação.
 

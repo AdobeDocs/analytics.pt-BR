@@ -3,10 +3,10 @@ title: s_gi()
 description: Crie e rastreie instâncias do AppMeasurement.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '494'
+ht-degree: 68%
 
 ---
 
@@ -14,18 +14,43 @@ ht-degree: 100%
 
 A função `s_gi()` instancia ou encontra uma instância do AppMeasurement pelo ID de conjunto de relatórios. O AppMeasurement acompanha cada instância criada e `s_gi()` retorna a instância existente para um conjunto de relatórios, se existir. Se uma instância não existe, uma nova instância é criada.
 
-## s_gi() usando tags na Adobe Experience Platform
+## Instanciamento de um objeto de rastreamento usando a extensão SDK da Web
+
+A extensão SDK da Web instancia e gerencia o objeto de rastreamento para você. No entanto, é possível personalizar o nome do objeto de rastreamento nas configurações de extensão:
+
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Clique na propriedade de tag desejada.
+1. Vá para o [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** em Adobe Experience Platform Web SDK.
+1. Altere o [!UICONTROL Nome] para o valor desejado. O valor padrão é `alloy`.
+
+## Instanciamento de um objeto de rastreamento que implementa manualmente o SDK da Web
+
+O código a seguir carrega o SDK da Web e instancia um objeto de rastreamento. Você pode personalizar o nome do objeto de rastreamento alterando a string `"alloy"` no final do script em linha para o valor desejado.
+
+```js
+<script>
+  !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+  []).push(o),n[o]=function(){var u=arguments;return new Promise(
+  function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+  (window,["alloy"]);
+</script>
+<script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
+```
+
+Consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=pt-BR) na documentação do SDK da Web para obter mais informações.
+
+## Instanciamento de um objeto de rastreamento usando a extensão Adobe Analytics
 
 A extensão do Analytics instancia e gerencia o objeto de rastreamento para você. No entanto, também é possível definir um objeto de rastreamento global na opção [!UICONTROL Gerenciamento de biblioteca] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
-2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
-4. Expanda a opção [!UICONTROL Gerenciamento de biblioteca] e selecione qualquer botão de opção diferente de [!UICONTROL Gerenciar a biblioteca para mim].
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Clique na propriedade de tag desejada.
+1. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
+1. Expanda a opção [!UICONTROL Gerenciamento de biblioteca] e selecione qualquer botão de opção diferente de [!UICONTROL Gerenciar a biblioteca para mim].
 
 O campo de texto da variável global permite definir um objeto de rastreamento personalizado. O valor padrão é `s`.
 
-## s_gi() no AppMeasurement e no editor de código personalizado do
+## s_gi() no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 Chame a função `s_gi()` para instanciar um objeto de rastreamento. Seu único argumento contém uma string delimitada por vírgulas com IDs de conjuntos de relatórios. O argumento ID de conjunto de relatórios é obrigatório.
 

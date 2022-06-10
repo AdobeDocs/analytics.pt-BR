@@ -3,10 +3,10 @@ title: Serialização de eventos
 description: Ajude a desduplicar métricas em seu site.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 74%
 
 ---
 
@@ -32,12 +32,18 @@ Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 >
 >Se você quiser desduplicar o evento [`purchase`](event-purchase.md), use a variável [`purchaseID`](../purchaseid.md).
 
-## Usar IDs de evento usando tags na Adobe Experience Platform
+## Usar IDs de evento usando o SDK da Web
+
+A serialização de eventos é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) no campo XDM do evento desejado `id`. O caminho XDM completo depende de qual evento você deseja serializar.
+
+Por exemplo, se você deseja serializar a métrica Adições ao carrinho , defina a variável `commerce.productListAdds.id` Campo XDM para o valor de serialização desejado. Se quiser serializar o evento Personalizado 20, defina a variável `_experience.analytics.event1to100.event20` Campo XDM para o valor de serialização desejado.
+
+## Usar IDs de evento usando a extensão Adobe Analytics
 
 É possível definir o campo de ID de evento ao configurar a extensão do Analytics (variáveis globais) ou como uma ação em uma regra.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
-2. Clique na propriedade desejada.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
 5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
@@ -45,7 +51,7 @@ Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 
 Valores válidos são caracteres alfanuméricos de até 20 bytes de tamanho. Se você inserir um valor com mais de 20 bytes, o sistema o truncará para os primeiros 20 bytes.
 
-## Usar IDs de evento no AppMeasurement e no editor de código personalizado do 
+## Usar IDs de evento no AppMeasurement e no editor de código personalizado de extensão do Analytics
 
 A serialização de eventos faz parte da variável `s.events`. Atribua uma ID a cada evento usando o sinal de dois pontos na string.
 

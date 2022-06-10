@@ -4,10 +4,10 @@ description: Ativar ou desativar o Activity Map na implementação.
 keywords: desativar o activity map
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '217'
+ht-degree: 78%
 
 ---
 
@@ -17,18 +17,22 @@ O Activity Map é um recurso do Adobe Analytics que coleta dados sobre onde os v
 
 Quando ativado, o AppMeasurement coleta informações sobre o link e envia esses dados na próxima solicitação de imagem. As informações de cada clique são armazenadas em um cookie rotulado como `s_sq`.
 
-## Ativar o ClickMap usando tags na Adobe Experience Platform
+## Activity Map usando o SDK da Web
+
+O SDK da Web ainda não oferece suporte à coleta de dados do Activity Map.
+
+## Ativar o Clickmap usando a extensão Adobe Analytics
 
 [!UICONTROL Ativar Clickmap] é uma caixa de seleção na opção [!UICONTROL Rastreamento de link] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
-2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+2. Clique na propriedade de tag desejada.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Ativar Clickmap].
 
 Clique na caixa de seleção para ativar o rastreamento do Activity Map.
 
-## s.trackInlineStats no AppMeasurement e no editor de código personalizado do 
+## s.trackInlineStats no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 `s.trackInlineStats` é uma variável do tipo booleano que ativa ou desativa o rastreamento do Activity Map. O valor padrão é `false`. Defina esse valor como `true` se desejar ativar a coleta de dados do Activity Map.
 

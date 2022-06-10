@@ -3,10 +3,10 @@ title: Criar uma propriedade do Analytics em tags
 description: Crie um espaço para personalizar como os dados são coletados, usando tags.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ As tags na Adobe Experience Platform permitem integrar soluções da Experience 
 
 As propriedades são contêineres abrangentes que você usa para gerenciar tags. As extensões permitem instalar tags específicas do produto e configurá-las.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique em **[!UICONTROL Nova propriedade]**.
 1. Dê um nome à Propriedade, como o título do site, e insira o domínio em que você pretende implementar o Analytics. Clique em **[!UICONTROL Salvar]**.
 1. Clique na propriedade de tag recém-criada para inserir as configurações.
@@ -37,7 +37,7 @@ Veja a documentação completa para o [Extensão do Adobe Analytics](https://exp
 
 Os elementos de dados são referências a partes específicas do site para coletar valores de variável.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade da tag que pretende implementar no site.
 1. Clique na guia **[!UICONTROL Elementos de dados]** e, em seguida, clique em **[!UICONTROL Adicionar elemento de dados]**.
 1. Atribua ao elemento de dados as seguintes configurações:
@@ -58,7 +58,7 @@ Os elementos de dados são referências a partes específicas do site para colet
 
 As regras mapeiam os elementos de dados para os valores de variáveis do Analytics e determinam quando esses valores são enviados para os servidores da Adobe.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade da tag que pretende implementar no site.
 1. Clique no botão **[!UICONTROL Regras]** e, em seguida, clique em **[!UICONTROL Adicionar regra]**. Nomeie-o `Global Rule`.
 1. Clique em **[!UICONTROL Adicionar]** ao lado dos eventos e insira as seguintes configurações:

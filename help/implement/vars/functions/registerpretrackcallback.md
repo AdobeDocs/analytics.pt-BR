@@ -3,10 +3,10 @@ title: registerPreTrackCallback
 description: Crie funções de retorno de chamada após enviar uma ocorrência para a Adobe.
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 55%
 
 ---
 
@@ -24,11 +24,34 @@ Cada vez que chama a variável `registerPreTrackCallback`, você faz com que ess
 >
 >O tempo e a ordem das funções disparadas entre `registerPreTrackCallback` e `registerPostTrackCallback` não são garantidos. Evite dependências entre essas duas funções.
 
-## Registrar retorno de chamada pré-rastreamento na Adobe Experience Platform
+## Retorno de chamada de pré-rastreamento usando a extensão SDK da Web
 
-Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+O SDK da Web não tem a capacidade de conectar uma função após os dados serem compilados, mas antes de serem enviados para o Adobe. No entanto, é possível usar `onBeforeEventSend` para registrar uma função a ser executada antes do envio dos dados.
 
-## s.registerPreTrackCallback no AppMeasurement e no editor de código personalizado do 
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Clique na propriedade de tag desejada.
+1. Vá para o [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** botão abaixo [!UICONTROL Adobe Experience Platform Web SDK].
+1. Em [!UICONTROL Coleta de dados], clique no botão **[!UICONTROL Editar em antes do evento enviar o código de retorno de chamada]** botão.
+1. Coloque o código desejado no editor.
+
+## Retorno de chamada de pré-rastreamento que implementa manualmente o SDK da Web
+
+O SDK da Web não tem a capacidade de conectar uma função após os dados serem compilados, mas antes de serem enviados para o Adobe. No entanto, é possível usar `onBeforeEventSend` para registrar uma função a ser executada antes do envio dos dados, semelhante a `doPlugins`. Consulte [Modificação global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
+
+```js
+// Set the trackingCode XDM field to "New value"
+alloy("configure", {
+  "onBeforeEventSend": function(content) {
+    content.xdm.marketing.trackingCode = "New value";
+  }
+})
+```
+
+## Retorno de chamada de pré-rastreamento usando a extensão Adobe Analytics
+
+Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+
+## s.registerPreTrackCallback no AppMeasurement e no editor de código personalizado de extensão do Analytics
 
 `s.registerPreTrackCallback` é uma função que utiliza uma função como seu único argumento. A função aninhada é executada antes do envio de uma solicitação de imagem.
 

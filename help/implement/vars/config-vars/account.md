@@ -3,10 +3,10 @@ title: account
 description: Use a variável de conta para determinar o conjunto de relatórios para o qual os dados são enviados.
 feature: Variables
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '135'
+ht-degree: 47%
 
 ---
 
@@ -18,5 +18,6 @@ ht-degree: 100%
 
 Em versões anteriores do Adobe Analytics, a variável `account` determinava o conjunto de relatórios para o qual você deseja enviar dados. É necessária uma ID de conjunto de relatórios para enviar dados ao Adobe Analytics.
 
-* Se você usar tags na Adobe Experience Platform, os conjuntos de relatórios ficarão na opção [!UICONTROL  Gerenciamento de bibliotecas] ao configurar a extensão do Adobe Analytics.
-* Se você usar a função [`s_gi()`](../functions/s-gi.md) para instanciar um objeto de rastreamento do Analytics, as IDs do conjunto de relatórios já existem como um argumento obrigatório na função.
+* Se você usar o SDK da Web, os conjuntos de relatórios estarão nas configurações do serviço da Adobe Analytics no conjunto de dados para o qual o SDK da Web envia dados.
+* Se você usar a extensão Adobe Analytics, os conjuntos de relatórios ficarão sob a variável [!UICONTROL Gerenciamento de biblioteca] ao configurar a extensão do Adobe Analytics.
+* Se você usar a variável [`s_gi()`](../functions/s-gi.md) para instanciar um objeto de rastreamento do Analytics, as IDs do conjunto de relatórios já existem como um argumento obrigatório na função .

@@ -3,10 +3,10 @@ title: tl
 description: Envie uma chamada de rastreamento de link para a Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 80%
 
 ---
 
@@ -16,20 +16,38 @@ O método `tl()` é um componente principal importante do Adobe Analytics. Ele c
 
 Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExternalLinks`](../config-vars/trackexternallinks.md) estiverem ativados, o AppMeasurement chama o método `tl()` automaticamente para enviar dados de rastreamento de links de download e de saída. Se sua organização preferir ter mais controle sobre os links a serem rastreados e o comportamento deles, você pode chamar o método `tl()` manualmente. Os links personalizados só podem ser acompanhados manualmente.
 
-## Chamada de rastreamento de link usando tags na Adobe Experience Platform
+## Rastreamento de link usando o SDK da Web
 
-A interface da Coleção de dados tem um local dedicado definido para uma chamada de rastreamento de link.
+O SDK da Web não diferencia entre chamadas de exibição de página e chamadas de rastreamento de link; ambos usam a variável `sendEvent` comando. Se quiser que o Adobe Analytics conte um determinado evento como uma chamada de rastreamento de link, verifique se os dados do XDM incluem `web.webInteraction.name`, `web.webInteraction.URL`e `web.webInteraction.type`.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
-1. Clique na propriedade desejada.
+```js
+alloy("sendEvent", {
+  "xdm": {
+    "web": {
+      "webInteraction": {
+        "name": "My Custom Link",
+        "URL": "https://example.com",
+        "type": "other"
+      }
+    }
+  }
+});
+```
+
+## Rastreamento de link usando a extensão Adobe Analytics
+
+A extensão Adobe Analytics tem um local dedicado para definir uma chamada de rastreamento de link.
+
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Clique na propriedade de tag desejada.
 1. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-1. Em [!UICONTROL Ações], clique no ícone “+”.
-1. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e Enviar beacon no [!UICONTROL Tipo de ação].
+1. Em [!UICONTROL Ações], clique na ação desejada ou clique no botão **&#39;+&#39;** para adicionar uma ação.
+1. Defina as [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Adobe Analytics]** e o [!UICONTROL Tipo de ação] para **[!UICONTROL Enviar beacon]**.
 1. Clique no botão de opção `s.tl()`.
 
-Não é possível definir argumentos opcionais na interface da coleção de dados.
+Não é possível definir argumentos opcionais na extensão Analytics.
 
-## Método s.tl() no AppMeasurement e no editor de código personalizado do 
+## Método s.tl() no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 Chame o método `s.tl()` quando quiser enviar uma chamada de rastreamento para a Adobe.
 

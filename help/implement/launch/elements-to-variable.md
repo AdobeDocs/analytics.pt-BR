@@ -3,10 +3,10 @@ title: Mapear elementos de dados de tag para variáveis do Analytics
 description: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões no Analysis Workspace.
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ A publicação de uma biblioteca de tags após seguir essas etapas permite usar 
 
 As variáveis globais são ideais nos casos em que você deseja definir valores variáveis em todas as páginas em que o elemento de dados existe.
 
-1. Faça logon na [Interface do usuário da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Clique na [!UICONTROL guia Extensões] e, em seguida, clique em [!UICONTROL Configurar] na extensão do Adobe Analytics.
 1. Clique na opção [!UICONTROL Variáveis globais], que revela a interface para atribuir variáveis globais.
@@ -38,7 +38,7 @@ As variáveis globais são ideais nos casos em que você deseja definir valores 
 
 As variáveis definidas em regras são ideais nos casos em que as variáveis não são definidas em cada página. Você define os critérios na regra. Consulte [Regras](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=pt-BR) na documentação de tags da Adobe Experience Platform.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Clique na guia [!UICONTROL Regras] e, em seguida, clique na regra desejada (ou crie uma).
 1. Clique no botão [!UICONTROL Adicionar] em [!UICONTROL Ações].

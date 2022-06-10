@@ -3,10 +3,10 @@ title: Guia do primeiro administrador do Adobe Analytics
 description: Saiba como começar a usar o Adobe Analytics, os tipos de função gerais e como fazer logon na interface do usuário.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '934'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Um primeiro administrador é o ponto de partida para permitir que o restante da 
 Se sua organização adquiriu o Adobe Analytics, há várias funções principais a serem consideradas:
 
 * **Administradores do Adobe Analytics:** esses usuários têm acesso total a tudo no Adobe Analytics, incluindo configurações de conjunto de relatórios e permissões de usuário. Dependendo de como sua organização está estruturada, pessoas ou equipes diferentes podem ser responsáveis por diversos aspectos da administração do Analytics. Por exemplo, uma pessoa é responsável por designar quais variáveis usar em uma implementação. Outra pessoa pode ser responsável por permitir que os usuários extraiam os relatórios corretamente, garantindo que todos tenham as permissões corretas. Identifique pelo menos um usuário que possa ser responsável pelas configurações do conjunto de relatórios e pelas permissões de usuário do Analytics, e que possa convidar outros administradores do Analytics a partir daí.
-* **Administradores da coleção de dados:** esses usuários têm acesso total a tudo na interface da coleção de dados (antiga interface do Experience Platform Launch), incluindo permissões de publicação, criação de containers e permissões de usuário. Esses usuários não são necessariamente programadores, mas é útil ter pelo menos um conhecimento iniciante de HTML, CSS e JavaScript. Eles são responsáveis por trabalhar com os proprietários de sites de sua organização para que as tags da Experience Platform sejam implementadas no site. Identifique pelo menos um usuário responsável pela implementação de sua organização que possa convidar outros administradores de coleção de dados.
+* **Administradores da coleção de dados:** Esses usuários têm acesso total a tudo no Adobe Experience Platform Data Collection, incluindo permissões de publicação, criação de contêineres e permissões de usuário. Esses usuários não são necessariamente programadores, mas é útil ter pelo menos um conhecimento iniciante de HTML, CSS e JavaScript. Eles são responsáveis por trabalhar com os proprietários de sites da organização para implementar tags no site. Identifique pelo menos um usuário responsável pela implementação de sua organização que possa convidar outros administradores de coleção de dados.
 * **Delegados de suporte**: também conhecidos como usuários aceitos, eles não têm privilégios adicionais na interface do Analytics. Em vez disso, recebem privilégios adicionais ao se comunicarem com o Atendimento ao cliente da Adobe. Esses usuários também são quase sempre administradores do Analytics, pois ajudam o Atendimento ao cliente a solucionar problemas com eles. Identifique pelo menos um administrador do Analytics responsável por facilitar as interações entre os usuários finais e o Atendimento ao cliente da Adobe.
 * **Proprietários do site:** esses indivíduos ou equipes são responsáveis pela codificação e desenvolvimento do site. Eles não exigem contas, mas querem trabalhar com os administradores de coleção de dados para obter o código da tag e implementá-lo em seu site.
 * **Usuários finais:** esses usuários normalmente visualizam relatórios e procuram respostas para perguntas comerciais. Os administradores do Analytics concedem a esses usuários permissões para trabalhar no produto.

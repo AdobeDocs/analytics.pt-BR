@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: Cria funções de retorno de chamada após enviar uma ocorrência para a Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 75%
 
 ---
 
@@ -24,11 +24,29 @@ Cada vez que chama a variável `registerPostTrackCallback`, você faz com que es
 >
 >O tempo e a ordem das funções disparadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` não são garantidos. Evite dependências entre essas duas funções.
 
-## Registrar retorno de chamada pós-rastreamento na Adobe Experience Platform
+## Retorno de chamada pós-rastreamento usando a extensão SDK da Web
 
-Não há um campo dedicado na interface da Coleção de dados para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Em breve!
 
-## s.registerPostTrackCallback no AppMeasurement e no editor de código personalizado do 
+## Retorno de chamada pós-rastreamento que implementa manualmente o SDK da Web
+
+Você pode usar uma Promessa de JavaScript ao enviar um evento para registrar uma função depois que os dados forem enviados com êxito para o Adobe.
+
+```js
+alloy("sendEvent",{
+  "xdm": {}
+}).then(function(result) {
+  Console.Log("Data was successfully sent.");
+});
+```
+
+Consulte [Lidar com respostas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) na documentação do SDK da Web para obter mais informações.
+
+## Registrar retorno de chamada pós-rastreamento usando a extensão Adobe Analytics
+
+Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+
+## s.registerPostTrackCallback no AppMeasurement e no editor de código personalizado de extensão do Analytics
 
 `s.registerPostTrackCallback` é uma função que utiliza uma função como seu único argumento. A função aninhada é executada imediatamente após o envio bem-sucedido de uma solicitação de imagem.
 

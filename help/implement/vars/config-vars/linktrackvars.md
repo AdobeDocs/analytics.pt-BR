@@ -3,10 +3,10 @@ title: linkTrackVars
 description: Especifique quais variáveis incluir nas solicitações de imagem de rastreamento de link.
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 61%
 
 ---
 
@@ -16,15 +16,19 @@ Algumas implementações não querem incluir todas as variáveis em todas as sol
 
 Essa variável não é usada para chamadas de exibição de página (método [`t()`](../functions/t-method.md)).
 
-## Variáveis em chamadas de rastreamento de link que usam a Adobe Experience Platform
+## Determine quais variáveis devem ser incluídas em um evento XDM usando o SDK da Web
 
-A Adobe Experience Platform preenche automaticamente essa variável no backend com base nas variáveis definidas na interface, de modo que ela sempre seja definida nas implementações usando tags na Adobe Experience Platform.
+O SDK da Web não exclui determinados campos para chamadas de rastreamento de link. No entanto, é possível usar a variável `onBeforeEventSend` retorno de chamada para limpar ou definir os campos desejados antes que os dados sejam enviados para o Adobe. Consulte [Modificação global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
+
+## Variáveis em chamadas de rastreamento de link usando a extensão Adobe Analytics
+
+Essa variável é preenchida automaticamente no backend com base nas variáveis definidas na interface, de modo que é sempre definida nas implementações usando a extensão Adobe Analytics.
 
 >[!IMPORTANT]
 >
->Se você definir variáveis usando o editor de código personalizado, será necessário incluir a variável no `linkTrackVars` usando código personalizado também.
+>Se você definir variáveis usando o editor de código personalizado, deverá incluir as variáveis em `linkTrackVars` usando o código personalizado também.
 
-## s.linkTrackVars no AppMeasurement e no editor de código personalizado do 
+## s.linkTrackVars no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 A variável `s.linkTrackVars` é uma cadeia de caracteres quem contém uma lista de variáveis delimitada por vírgulas que você deseja incluir nas solicitações de imagem de rastreamento de link (método `tl()`). Ambos os critérios a seguir devem ser atendidos para incluir dimensões nas ocorrências de rastreamento de link:
 

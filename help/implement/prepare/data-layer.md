@@ -3,10 +3,10 @@ title: Criar uma camada de dados
 description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ A implementação do Adobe Analytics usando uma camada de dados geralmente segue
    >
    >As especificações recomendadas da camada de dados da Adobe são opcionais. Se já tiver uma camada de dados, ou optar por não seguir as especificações da Adobe, certifique-se de que sua organização se alinha a qual especificação seguir.
 1. **Validar a camada de dados usando um console do navegador**: depois que uma camada de dados é criada, você pode validar se ela está funcionando usando qualquer console de desenvolvedor do navegador. Abra o console do desenvolvedor na maioria dos navegadores usando a tecla `F12`. Um exemplo de valor de variável seria `digitalData.page.pageInfo.pageID`.
-1. **Use tags da Adobe Experience Platform para mapear objetos de camada de dados para elementos de dados**: crie elementos de dados na interface da Coleção de dados na Adobe Experience Platform e mapeie-os para os atributos JavaScript descritos na camada de dados.
+1. **Usar a coleta de dados do Adobe Experience Platform para mapear objetos de camada de dados para elementos de dados**: Crie elementos de dados na Coleta de dados do Adobe Experience Platform e mapeie-os para os atributos JavaScript descritos na camada de dados.
 1. **Use a extensão de tag do Adobe Analytics para mapear elementos de dados para variáveis do Analytics**: seguindo seu documento de design de solução, atribua cada elemento de dados à variável correta do Analytics.
 
 ## Especificações

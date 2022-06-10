@@ -3,10 +3,10 @@ title: websiteBot
 description: Identifique os bots dinamicamente usando o movimento do mouse.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ Esse plug-in executa duas verificações:
 
 Se o agente do usuário estiver em um desktop e nenhum movimento do mouse for detectado, o plug-in poderá
 
-* Faça uma chamada de regra de chamada direta usando tags na Adobe Experience Platform ou
+* Faça uma chamada de regra de chamada direta usando o SDK da Web ou a extensão Adobe Analytics, ou
 * Faça uma chamada de rastreamento de link para indicar que o visitante não é um bot.
 
 ## Pré-requisitos

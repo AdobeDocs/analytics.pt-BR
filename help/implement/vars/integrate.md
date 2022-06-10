@@ -3,10 +3,10 @@ title: Módulo de integração
 description: O Módulo de integração permite que os parceiros da Adobe integrem os esforços de coleta de dados à empresa.
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '888'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 96%
 
 ---
 
@@ -41,9 +41,9 @@ A obtenção do código do módulo requer um usuário com acesso de Administrado
 
 ### Coloque o Módulo de integração na implementação
 
-A implementação do Módulo de integração no site requer acesso à interface da coleção de dados na Adobe Experience Platform. Se você usar uma implementação antiga do JavaScript, será necessário acessar o código-fonte do site da empresa.
+A implementação do Módulo de integração no site requer acesso à Coleta de dados da Adobe Experience Platform. Se você usar uma implementação antiga do JavaScript, será necessário acessar o código-fonte do site da empresa.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade da tag que deseja editar.
 1. Clique na guia Extensões e, em seguida, clique em Configurar no Adobe Analytics.
 1. Abra a opção &quot;Configurar rastreador usando código personalizado&quot; e clique em &quot;Abrir editor&quot;.

@@ -3,10 +3,10 @@ title: linkLeaveQueryString
 description: Permite a preservação de cadeias de caracteres de consulta em dimensões de rastreamento de link.
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 80%
 
 ---
 
@@ -24,18 +24,22 @@ A ativação de `linkLeaveQueryString` se aplica a todas as dimensões de rastre
 >
 >Essa variável não afeta dimensões fora do rastreamento de link. Ela afeta apenas links personalizados, links de saída e links de download.
 
-## Manter parâmetros de URL usando tags na Adobe Experience Platform
+## Processar cadeias de caracteres de consulta de link usando o SDK da Web
+
+As cadeias de caracteres de consulta não são removidas do campo XDM `web.webInteraction.URL`. Se quiser remover cadeias de caracteres de consulta desse campo XDM, edite-o usando `onBeforeEventSend`.
+
+## Manter parâmetros de URL usando a extensão Adobe Analytics
 
 [!UICONTROL Manter parâmetros de URL] é uma caixa de seleção na opção [!UICONTROL Rastreamento de link] ao configurar a extensão Adobe Analytics.
 
-1. Faça logon na [Interface da coleção de dados](https://experience.adobe.com/data-collection) usando as credenciais da Adobe ID.
-2. Clique na propriedade desejada.
-3. Vá até a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Configurar], no Adobe Analytics.
+1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+2. Clique na propriedade de tag desejada.
+3. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Manter parâmetros de URL].
 
 Marque essa caixa se desejar incluir cadeias de caracteres de consulta nas dimensões de rastreamento de link.
 
-## s.linkLeaveQueryString no AppMeasurement e no editor de código personalizado do
+## s.linkLeaveQueryString no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 A variável `s.linkLeaveQueryString` é booleana. O valor padrão é `false`.
 
