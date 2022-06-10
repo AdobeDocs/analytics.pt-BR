@@ -1,17 +1,17 @@
 ---
 description: O painel de resumo da página mostra as informações de resumo de uma página de sua escolha.
-title: Painel de resumo da página
+title: Painel Resumo da página
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 9%
 
 ---
 
-# Painel de resumo da página
+# Painel Resumo da página
 
 O [!UICONTROL Resumo da página] painel iniciado como um relatório no Reports &amp; Analytics, em Relatórios > Envolvimento > Análise da página > Resumo da página. Agora também é um painel do Workspace. Este painel permite que você explore facilmente as principais estatísticas sobre páginas específicas.
 
@@ -47,16 +47,16 @@ O [!UICONTROL Resumo da página] O painel retorna um conjunto avançado de métr
 | [!UICONTROL Exibições de página] - 4 semanas antes | Número de exibições de página para essa página no último mês. |
 | [!UICONTROL Exibições de página] - 52 semanas antes | Número de exibições de página para essa página no último ano. |
 | [!UICONTROL Tendência] | Um gráfico de exibição de página com tendência para este mês, 4 semanas antes e 52 semanas antes. |
-| [!UICONTROL Porcentagem de todas as exibições da página] | Um número de resumo para a porcentagem de todas as exibições de página que foram para esta página. |
+| [!UICONTROL Porcentagem de todas as exibições de página] | Um número de resumo para a porcentagem de todas as exibições de página que foram para esta página. |
 | [!UICONTROL Tempo gasto na página] | Um gráfico de barras horizontal que lista o tempo gasto nesta página. |
 | [!UICONTROL Visitas em única página] | Um número de resumo que lista o número de exibições da página, onde esta foi a única página visitada. |
 | [!UICONTROL Recargas] | O [!UICONTROL Recargas] mostra o número de vezes que um item de dimensão esteve presente durante um recarregamento. A atualização do navegador por um visitante é a maneira mais comum de acionar um recarregamento. |
 | [!UICONTROL Entradas] | O [!UICONTROL Entradas] mostra o número de vezes que um determinado item de dimensão é capturado como o primeiro em uma visita. |
 | [!UICONTROL Saídas] | O [!UICONTROL Saídas] mostra o número de vezes que um determinado item de dimensão é capturado como o último valor em uma visita. |
-| [!UICONTROL Fluxo] | Um diagrama de Fluxo com a página selecionada como ponto focal. Você pode detalhar os dados da mesma forma que em qualquer [Diagrama de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
+| [!UICONTROL Fluxo] | Um diagrama de Fluxo com a página selecionada como ponto focal. Você pode detalhar os dados da mesma forma que em qualquer [Diagrama de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style=&quot;table-layout:auto&quot;}
 
-![Painel de resumo da página](assets/page-sum1.png)
+![Painel Resumo da página](assets/page-sum1.png)
 
 ![Métricas e fluxo](assets/page-sum2.png)
