@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e de visualização para o Analytics, além de ferramentas, como os painéis do Adobe Analytics, o Report Builder e o Activity Map.
-source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1046'
 ht-degree: 100%
 
 ---
@@ -71,7 +71,6 @@ ht-degree: 100%
       + Fluxo {#flow}
          + [Visão geral do Fluxo](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurar uma visualização de fluxo](analysis-workspace/visualizations/c-flow/create-flow.md)
-         + [Configurações de fluxo](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Fluxos interdimensionais](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histograma](analysis-workspace/visualizations/histogram.md)
       + [Mapa](analysis-workspace/visualizations/map-visualization.md)

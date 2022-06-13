@@ -3,8 +3,8 @@ title: Contar instâncias repetidas
 description: Especifica se as instâncias repetidas devem ser contadas nos relatórios.
 feature: Metrics
 exl-id: e80544c0-f030-44e7-84c5-0902cd18d467
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 
@@ -18,4 +18,4 @@ No Reports &amp; Analytics, essa configuração não pode ser definida. As inst�
 No Workspace, você pode optar por [incluir/excluir instâncias repetidas](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) em **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]**. Elas são incluídas por padrão.
 
 >[!NOTE]
->Essa configuração não se aplica a visualizações de [!UICONTROL Fluxo] ou [!UICONTROL Fallout]. No Workspace, o [!UICONTROL Fluxo] tem sua própria [configuração](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) para remover repetições. No Reports &amp; Analytics, o relatório de Fluxo sempre removeu instâncias repetidas por padrão.
+>Essa configuração não se aplica a visualizações de [!UICONTROL Fluxo] ou [!UICONTROL Fallout]. No Workspace, o [!UICONTROL Fluxo] tem sua própria [configuração](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) para remover repetições. No Reports &amp; Analytics, o relatório de Fluxo sempre removeu instâncias repetidas por padrão.

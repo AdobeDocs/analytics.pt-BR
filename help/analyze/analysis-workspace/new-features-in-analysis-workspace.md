@@ -5,7 +5,7 @@ title: Novidades no Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
 workflow-type: tm+mt
 source-wordcount: '8276'
 ht-degree: 99%
@@ -75,11 +75,11 @@ Novos recursos lançados em 18 de junho de 2020.
 | Attribution IQ: atribuição algorítmica | O modelo Atribuição algorítmica no Analysis Workspace usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. Disponível para clientes do Adobe Analytics Ultimate. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=pt-BR) |
 | Attribution IQ: janelas de pesquisa personalizadas | Agora você pode configurar qualquer modelo de atribuição no Attribution IQ para incluir pontos de contato de até 90 dias antes do período dos relatórios. Essa configuração pode aumentar a precisão da atribuição para eventos que ocorrem no início do período dos relatórios, contabilizando as interações que ocorreram no(s) mês(es) anterior(es). Disponível para clientes do Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR#lookback-windows) |
 | Funções de projeto para projetos compartilhados do Workspace | Ao compartilhar um projeto do Workspace, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) |
-| Projetos do Workspace somente para visualização | Os projetos do Workspace podem ser compartilhados com os usuários somente como “Pode visualizar”. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=pt-BR) |
+| Projetos do Workspace somente para visualização | Os projetos do espaço de trabalho podem ser compartilhados com os usuários como “Somente para visualização”. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=pt-BR) |
 | Capacidade de co-editar projetos do Workspace | Recipient adicionados à função “Pode editar” podem ser salvos em um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Painel em branco atualizado | O painel em branco agora inclui painéis e visualizações, proporcionando uma maneira mais simples de escolher o fluxo de trabalho de análise que funciona melhor para você. |
 | Painel Quick Insights (25 de junho de 2020) | O painel Quick Insights fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Painel Analytics for Target no Workspace (25 de junho de 2020) | O painel Analytics for Target (A4T) permite analisar suas atividades e experiências do Adobe Target, com leveza e confiança, no Analysis Workspace. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Painel Analytics for Target no Workspace (25 de junho de 2020) | O painel Analytics for Target (A4T) permite analisar suas atividades e experiências no Adobe Target, com leveza e confiança, no Analysis Workspace. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Sobre a página do Workspace | A página Sobre o Workspace fornece informações sobre o ambiente do Analysis Workspace, sobre os administradores do Adobe Analytics (se precisar de suporte) e uma maneira de fornecer feedback sobre o produto. Ela pode ser encontrada em Workspace > Ajuda > Sobre o Workspace. |
 
 ## Maio de 2020
@@ -169,7 +169,7 @@ Melhorias lançadas em 9 de maio de 2019.
 
 | Aprimoramento | Descrição |
 |--- |--- |
-| Uma nova configuração foi adicionada às configurações da Visualização de fluxo: Incluir instâncias repetidas. | [Configurações de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) |
+| Uma nova configuração foi adicionada às configurações da Visualização de fluxo: Incluir instâncias repetidas. | [Configurações de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 
 ## Abril de 2019
 
@@ -811,7 +811,7 @@ Novos recursos lançados em 8 de junho de 2017.
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1"> Melhorias do <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>Fluxo</b></a> </td>
+   <td colname="col1"> Melhorias do <a href="/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md"  ><b>Fluxo</b></a> </td>
    <td colname="col2">
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1">
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Foi adicionada uma nova configuração de visualização chamada <span class="wintitle"> Desativar o truncamento de rótulos </span> (padrão = desmarcado). </li>
