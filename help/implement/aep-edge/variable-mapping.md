@@ -2,7 +2,7 @@
 title: Mapeamento de variável do Analytics no Adobe Experience Edge
 description: Visualize quais campos XDM o Edge mapeia automaticamente para variáveis do Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 0%
@@ -114,7 +114,7 @@ A tabela a seguir mostra as variáveis que a Rede de borda do Adobe Experience P
 | `productListItems[].quantity` | Ajuda a determinar o [Unidades](../../components/metrics/units.md) métrica. |
 | `web.webInteraction.URL` | O [linkURL](../vars/config-vars/linkurl.md) variável de implementação. |
 | `web.webInteraction.name` | O [Link personalizado](../../components/dimensions/custom-link.md), [Link de download](../../components/dimensions/download-link.md)ou [Link de saída](../../components/dimensions/exit-link.md) , dependendo do valor em `web.webInteraction.type` |
-| `web.webInteraction.type` | Determina o tipo de link clicado. Os valores válidos incluem `lnk_o` (Links personalizados), `lnk_d` (Links de download) e `lnk_e` (Links de saída). |
+| `web.webInteraction.type` | Determina o tipo de link clicado. Os valores válidos incluem `other` (Links personalizados), `download` (Links de download) e `exit` (Links de saída). |
 | `web.webPageDetails.URL` | O [URL da página](../../components/dimensions/page-url.md) dimensão. |
 | `web.webPageDetails.errorPage` | Sinalizador que ajuda a determinar as &quot;Páginas não encontradas&quot; [dimension](../../components/dimensions/pages-not-found.md) e [métrica](../../components/metrics/pages-not-found.md). |
 | `web.webPageDetails.name` | O [Página](../../components/dimensions/page.md) dimensão. |

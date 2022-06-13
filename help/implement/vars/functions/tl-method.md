@@ -3,10 +3,10 @@ title: tl
 description: Envie uma chamada de rastreamento de link para a Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 80%
+source-wordcount: '702'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,11 @@ Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExtern
 
 ## Rastreamento de link usando o SDK da Web
 
-O SDK da Web não diferencia entre chamadas de exibição de página e chamadas de rastreamento de link; ambos usam a variável `sendEvent` comando. Se quiser que o Adobe Analytics conte um determinado evento como uma chamada de rastreamento de link, verifique se os dados do XDM incluem `web.webInteraction.name`, `web.webInteraction.URL`e `web.webInteraction.type`.
+O SDK da Web não diferencia entre chamadas de exibição de página e chamadas de rastreamento de link; ambos usam a variável `sendEvent` comando. Se você deseja que o Adobe Analytics conte um determinado evento XDM como uma chamada de rastreamento de link, verifique se os dados XDM incluem ou são mapeados para `web.webInteraction.name`, `web.webInteraction.URL`e `web.webInteraction.type`.
+
+* O nome do link mapeia para `web.webInteraction.name`.
+* Link URL mapeia para `web.webInteraction.URL`.
+* O tipo de link mapeia para `web.webInteraction.type`. Os valores válidos incluem `other` (Links personalizados), `download` (Links de download) e `exit` (Links de saída).
 
 ```js
 alloy("sendEvent", {
