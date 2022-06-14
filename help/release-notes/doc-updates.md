@@ -4,10 +4,10 @@ description: Atualizações notáveis no conjunto de documentação do Adobe Ana
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+source-git-commit: 94e9f0688de4dd5b3d2a36d8eb68b0963bc67071
 workflow-type: tm+mt
-source-wordcount: '3212'
-ht-degree: 100%
+source-wordcount: '3372'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,12 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Data | Descrição |
 | --- | --- |
+| **Junho de 2022** |  |
+| Atualização da documentação da Visualização de fluxo | Com base na [nova interface](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
+| Documentação sobre compartilhamento de anotações em scorecards para dispositivos móveis | Você pode exibir [anotações criadas no Workspace — nos Scorecards para dispositivos móveis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
+| Documentação sobre a versão da sintaxe do produto de Variáveis de comercialização com coleção de borda | Agora é possível definir variáveis de merchandising usando o equivalente da sintaxe do produto ao definir os campos XDM relevantes. Encontre mais detalhes sobre a sintaxe do produto para variáveis de comercialização [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=pt-BR). Consulte os mapeamentos para a sintaxe do produto [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
+| **Maio de 2022** |  |
+| Preencher dimensões e métricas do ciclo de vida por meio do Experience Edge | Os dados do ciclo de vida móvel enviados pelo Experience Edge agora serão exibidos nos relatórios do Analytics. Consulte a documentação para obter detalhes sobre quais campos XDM mapeiam para relatórios de ciclo de vida móvel existentes. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
 | **Abril de 2022** |  |
 | Página de aterrissagem do Adobe Analytics | Atualizações na [página de aterrissagem conjunta do Espaço de trabalho/Reports &amp; Analytics](/help/analyze/landing.md) que melhoram a usabilidade e a facilidade de navegação. |
 | Novo tópico sobre o painel [!UICONTROL Resumo da página] | [Painel Resumo da página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
@@ -39,7 +45,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Endpoint de projetos de API | Adicione, edite ou exclua projetos do Analysis Workspace usando a API. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | Tópico atualizado sobre como pausar tarefas agendadas mais antigas do Report Builder | **A partir de 15 de abril de 2022**, a Adobe pretende [pausar todas as tarefas agendadas do Report Builder que foram criadas há mais de dois anos](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **Outubro de 2021** |  |
-| 21 de outubro de 2021 | Nova documentação sobre [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=pt-BR) no Analysis Workspace |
+| 21 de outubro de 2021 | Nova documentação sobre [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) no Analysis Workspace |
 | 21 de outubro de 2021 | Nova documentação sobre o painel [Tempo gasto na reprodução de mídia](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=pt-BR) no Analysis Workspace. |
 | 7 de outubro de 2021 | Nova documentação sobre [visualizações para cartões de pontuação móveis](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR#viz) |
 | **Agosto de 2021** |  |
@@ -50,7 +56,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 5 de agosto de 2021 | Atualização da documentação de classificações em [modelos](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=pt-BR), [importação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=pt-BR) e [exportação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=pt-BR) para indicar opções indisponíveis para conjuntos de relatórios que estão habilitados para a Nova arquitetura de classificação. |
 | 2 de agosto de 2021 | Atualização de várias páginas para refletir a reformulação da identidade visual do [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=pt-BR) |
 | **Julho de 2021** |  |
-| 23 de julho de 2021 | Nova discussão detalhada de [eVars de merchandising](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=pt-BR) |
+| 23 de julho de 2021 | Nova discussão detalhada de [eVars de merchandising](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | 15 de julho de 2021 | Adição de nova documentação sobre a nova [página de aterrissagem do Adobe Analytics](/help/analyze/landing.md) |
 | **Junho de 2021** |  |
 | 15 de junho de 2021 | Práticas recomendadas para [Canais de marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=pt-BR) atualizadas |
