@@ -1,22 +1,19 @@
 ---
-title: 'Anotações do Scorecard para dispositivos móveis    '
+title: Anotações do Scorecard para dispositivos móveis
 description: Saiba como destacar anotações nos Scorecards para dispositivos móveis.
 role: User, Admin
 solution: Analytics
 feature: Components
-source-git-commit: bb6b14e2b44c0e83e6f1f0bbc5914eb86c09adc1
+exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
+source-git-commit: 0e7a9aa92c8c5b61fffae96d42bd1b258920e99d
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 3%
+source-wordcount: '377'
+ht-degree: 2%
 
 ---
 
 
 # Compartilhar anotações em Scorecards para dispositivos móveis
-
->[!NOTE]
->
->Este recurso está atualmente em [testes limitados](/help/release-notes/releases.md).
 
 Você pode exibir anotações criadas no Workspace - nos Scorecards para dispositivos móveis. Isso permite compartilhar nuances de dados contextuais e insights sobre sua organização e campanhas diretamente em projetos do Mobile Scorecard, visualizáveis no aplicativo móvel de painéis do Analytics.
 
@@ -32,17 +29,17 @@ Para obter informações sobre como criar anotações, consulte [Criar anotaçõ
 
 1. Selecionar **Mostrar anotações** para exibir a anotação nos Scorecards para dispositivos móveis.
 
-![](assets/show-annotations.png)
+<img src="assets/show-annotations.png"  width="75%">
 
 1. Confirme se a opção mostrar anotações está selecionada, vá para **Projeto** > **Informações e configurações do projeto**.
 
-![](assets/project-info-settings.png)
+<img src="assets/project-info-settings.png" width="40%">
 
 ## Exibir anotações em Scorecards para dispositivos móveis
 
 Quando as anotações são ativadas, os ícones de anotação ficam visíveis no Construtor de scorecards. As anotações são exibidas somente em gráficos e tabelas na exibição detalhada. As anotações não são visíveis na exibição principal do bloco do scorecard.
 
-![](assets/view-annotations.png)
+<img src="assets/view-annotations.png"  width="75%">
 
 Quando os ícones de anotação estão visíveis, você não pode visualizar ou interagir totalmente com as anotações na tela do construtor. Use o modo de Visualização para exibir e interagir com anotações conforme elas aparecem no aplicativo. ![](assets/preview-icon.png)
 
@@ -52,6 +49,6 @@ As cores da anotação são selecionadas quando a anotação é criada no espaç
 
 | Data | Aparência |
 | --- | --- |
-| **Dia único** | ![](assets/single-day-mobile-annotations.png)<br></br> |
-| **Intervalo de datas** | ![](assets/date-range.png) |
-| **Sobreposição de anotações** | ![](assets/overlapping-annotations.png)<br></br>Para exibir os detalhes da anotação no aplicativo de painéis do Analytics, toque em um ícone de anotação. <br></br>Ao visualizar uma anotação em um gráfico, é possível deslizar o dedo para a esquerda e para a direita para navegar por todas as anotações presentes no gráfico. Ao visualizar uma anotação na tabela, passe o dedo para a esquerda e para a direita para navegar em todas as anotações associadas a esse item de linha na tabela. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>Em gráficos que não têm uma base de tempo *eixo x*, como os gráficos de rosca ou de barra horizontal, as anotações aplicáveis ao gráfico podem ser visualizadas ao tocar no ícone localizado no canto inferior direito.<br></br> ![](assets/charts-without-timebase.png) |
+| **Dia único** | <img src="assets/single-day-mobile-annotations.png"  width="30%"><br></br> |
+| **Intervalo de datas** | <img src="assets/date-range.png"  width="30%"> |
+| **Sobreposição de anotações** | <img src="assets/overlapping-annotations.png"  width="30%"><br></br>Para exibir os detalhes da anotação no aplicativo de painéis do Analytics, toque em um ícone de anotação. <br></br>Ao visualizar uma anotação em um gráfico, é possível deslizar o dedo para a esquerda e para a direita para navegar por todas as anotações presentes no gráfico. Ao visualizar uma anotação na tabela, passe o dedo para a esquerda e para a direita para navegar em todas as anotações associadas a esse item de linha na tabela. <br></br><img src="assets/swipe-multiple-annotations.png"  width="30%"> <br></br>Em gráficos que não têm uma base de tempo *eixo x*, como os gráficos de rosca ou de barra horizontal, as anotações aplicáveis ao gráfico podem ser visualizadas ao tocar no ícone localizado no canto inferior direito.<br></br> <img src="assets/charts-without-timebase.png"  width="30%"> |
