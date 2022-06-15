@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
-workflow-type: ht
-source-wordcount: '300'
-ht-degree: 100%
+source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Por padrão, somente administradores podem criar anotações. Os usuários têm 
 
 No entanto, os administradores podem fornecer a permissão [!UICONTROL Criação de anotações] (Ferramentas do Analytics) para usuários por meio do [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=pt-BR).
 
-## Ativar ou desativar anotações {#on-off}
+## Ativar ou desativar anotações {#annotations-on-off}
 
 As anotações podem ser ativadas ou desativadas em vários níveis:
 
