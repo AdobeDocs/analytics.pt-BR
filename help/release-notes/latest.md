@@ -3,20 +3,16 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 95f05bbf620c140f3e17a070d95b21b62db58bcc
+source-git-commit: 4df57547229c9dd0f70066dd1e9ca64947eabf13
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1073'
 ht-degree: 46%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (junho de 2022)
 
->[!NOTE]
->
->Esta página contém informações de pré-lançamento e está sujeita a alterações.
-
-**Última atualização**: 15 de junho de 2022
+**Última atualização**: 16 de junho de 2022
 
 ## Recursos relacionados
 
@@ -29,7 +25,7 @@ ht-degree: 46%
 
 | Recurso | Descrição | [Data Alvo](releases.md) |
 | ----------- | ---------- | ------- |
-| **Nova interface do usuário de visualização de fluxo** | Fornece funcionalidades adicionais para nossa visualização de Fluxo para torná-la mais poderosa e capaz. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 15 de junho de 2022 |
+| **Nova interface do usuário de visualização de fluxo** | Fornece funcionalidades adicionais para nossa visualização de Fluxo para torná-la mais poderosa e capaz. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | A implantação terá início em 15 de junho de 2022; GA até 27 ou 28 de junho de 2022 |
 | **Compartilhar anotações em scorecards para dispositivos móveis** | Você pode exibir anotações criadas no Workspace - nos Scorecards para dispositivos móveis. Isso permite compartilhar nuances de dados contextuais e insights sobre sua organização e campanhas diretamente em projetos do Mobile Scorecard, visualizáveis no aplicativo móvel de painéis do Analytics. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 15 de junho de 2022 |
 | **Suporte para a versão da sintaxe do produto Variáveis de comercialização com coleção de borda** | Agora é possível definir variáveis de merchandising usando o equivalente da sintaxe do produto ao definir os campos XDM relevantes. Encontre mais detalhes sobre a sintaxe do produto para variáveis de comercialização [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=pt-BR). Consulte os mapeamentos para a sintaxe do produto [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 15 de junho de 2022 |
 | **Preencher dimensões e métricas do ciclo de vida por meio do Experience Edge** | Os dados do ciclo de vida móvel enviados pelo Experience Edge agora serão exibidos nos relatórios do Analytics. Consulte a documentação para obter detalhes sobre quais campos XDM mapeiam para relatórios de ciclo de vida móvel existentes. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 27 de maio de 2022 |
