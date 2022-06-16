@@ -4,9 +4,9 @@ title: Fatores de desempenho e otimização do Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 568000a7da84301f8a7c5a48a68a146e4af5f105
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '1956'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,6 @@ Outros fatores que não estão incluídos em Ajuda > Desempenho incluem:
 | Complexidade de visualização (segmentos, métricas, filtros) | O tipo de visualização (por exemplo, fallout ou tabela de forma livre) adicionado a um projeto não influencia muito o desempenho do projeto. É a complexidade da visualização que aumentará o tempo de processamento. | Fatores que adicionam complexidade à visualização incluem:<ul><li>Intervalo de dados solicitado</li><li>Números de segmentos aplicados, por exemplo, segmentos usados como linhas de uma tabela de forma livre</li><li>Uso de segmentos complexos</li><li>Linhas ou colunas de [itens estáticas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=pt-BR) em tabelas de forma livre</li><li>Filtros aplicados a linhas em tabelas de forma livre</li><li>Número de métricas incluídas, métricas especialmente calculadas que usam segmentos</li></ul> | Se você observar que seus projetos não estão carregando rápido como gostaria, tente substituir alguns segmentos por eVars e filtros, se possível.<br><br>Se você estiver sempre usando segmentos e métricas calculadas em dados importantes para sua empresa, tente aprimorar sua implementação para capturar esses dados de forma mais direta. O uso de tags como na Adobe Experience Platform e das regras de processamento da Adobe facilita e agiliza as alterações na implementação. |
 | Tamanho do conjunto de relatórios | A quantidade de dados coletados em seu conjunto de relatórios. | - | Consulte sua equipe de implementação ou um especialista da Adobe para determinar se há melhorias de implementação que podem ser feitas para aperfeiçoar a experiência geral no Adobe Analytics. |
 | Queries simultâneas | O número de queries que estão sendo solicitadas pela organização à Adobe ao mesmo tempo. Cada organização tem direito a no mínimo cinco queries simultâneas. | Se um relatório está demorando muito, normalmente é devido ao fato de estar em uma fila com outros relatórios. Sua organização está tentando executar muitas solicitações simultâneas em relação a um conjunto de relatórios específico. Os queries podem vir de solicitações de API, interfaces do usuário de relatórios (Analysis Workspace, Reports &amp; Analytics, Report Builder etc.), projetos agendados, relatórios agendados, alertas agendados e usuários simultâneos que fazem solicitações de relatórios. | Espalhe suas solicitações e agendamentos no conjunto de relatórios de forma mais uniforme ao longo do dia. Além disso, mude suas solicitações para fora do horário de pico, quando possível. Segunda-feira de manhã, terça-feira de manhã e o primeiro de cada mês são horas de pico de relatórios. |
-| Capacidade do data center | A capacidade de geração de relatórios que você e outros clientes compartilham em um data center da Adobe. | Isso é afetado pelo número de queries simultâneas feitas pela sua organização e outras organizações em seu data center. | Sua organização tem direito a uma capacidade definida e, se o sistema não estiver sobrecarregado, a Adobe transferirá mais capacidade para você, acima e além da capacidade permitida a você. |
 
 ## Dicas para aumentar a produtividade no Analysis Workspace
 
