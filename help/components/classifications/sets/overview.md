@@ -1,13 +1,13 @@
 ---
 title: Visão geral dos conjuntos de classificações
 description: Use Conjuntos de classificações para gerenciar os dados de classificação.
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # Visão geral dos conjuntos de classificações
 
@@ -15,7 +15,7 @@ Os Conjuntos de classificações fornecem uma única interface para gerenciar cl
 
 >[!NOTE]
 >
->Este recurso está atualmente em versão limitada. Se você quiser acessar esse recurso, entre em contato com o Atendimento ao cliente do Adobe ou com seu Gerente de conta, que pode encaminhar sua solicitação para a equipe do Conjunto de classificações para provisionamento.
+>Este recurso está atualmente em versão limitada. Se você quiser acessar esse recurso, entre em contato com o Atendimento ao cliente do Adobe ou com o Gerente de conta, que pode encaminhar sua solicitação para o provisionamento da equipe de Classificações.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]**
 
