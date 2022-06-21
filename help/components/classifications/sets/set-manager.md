@@ -2,9 +2,9 @@
 title: Gerenciador do conjunto de classificações
 description: Gerencie conjuntos de classificação no Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,7 @@ As seguintes colunas estão disponíveis no Gerenciador do conjunto de classific
 * **[!UICONTROL Subscrições]**: O número de subscrições ou o número de Report Suites aos quais este Conjunto de Classificações se aplica.
 * **[!UICONTROL Proprietário]**: O proprietário do Conjunto de classificações.
 * **[!UICONTROL Classificações]**: O número de dimensões de classificação que o Conjunto de classificações contém.
-* **[!UICONTROL Automatizado]**: Indica se o Conjunto de classificações está configurado para extrair dados automaticamente de um site FTP.
 * **[!UICONTROL Última modificação]**: A data e a hora em que o Conjunto de Classificação foi modificado pela última vez.
-* **[!UICONTROL Host FTP + Caminho]**: Se automatizado, o local FTP do qual o Conjunto de classificações extrai dados.
 
 ## Criar ou editar opções
 
