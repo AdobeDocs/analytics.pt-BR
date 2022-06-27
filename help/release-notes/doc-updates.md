@@ -4,10 +4,10 @@ description: Atualizações notáveis no conjunto de documentação do Adobe Ana
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 94e9f0688de4dd5b3d2a36d8eb68b0963bc67071
+source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
 workflow-type: tm+mt
-source-wordcount: '3372'
-ht-degree: 96%
+source-wordcount: '3420'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Data | Descrição |
 | --- | --- |
 | **Junho de 2022** |  |
+| Documentação do Experience Platform Edge | Novos artigos sobre a implementação do Adobe Analytics por meio de [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [SDK móvel](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en)e [API Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
 | Atualização da documentação da Visualização de fluxo | Com base na [nova interface](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
 | Documentação sobre compartilhamento de anotações em scorecards para dispositivos móveis | Você pode exibir [anotações criadas no Workspace — nos Scorecards para dispositivos móveis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
 | Documentação sobre a versão da sintaxe do produto de Variáveis de comercialização com coleção de borda | Agora é possível definir variáveis de merchandising usando o equivalente da sintaxe do produto ao definir os campos XDM relevantes. Encontre mais detalhes sobre a sintaxe do produto para variáveis de comercialização [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=pt-BR). Consulte os mapeamentos para a sintaxe do produto [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
@@ -54,7 +55,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 18 de agosto de 2021 | Novo tópico em [Práticas recomendadas de atribuição](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 de agosto de 2021 | Novo tópico sobre [Contar instâncias repetidas](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=pt-BR) |
 | 5 de agosto de 2021 | Atualização da documentação de classificações em [modelos](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=pt-BR), [importação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=pt-BR) e [exportação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=pt-BR) para indicar opções indisponíveis para conjuntos de relatórios que estão habilitados para a Nova arquitetura de classificação. |
-| 2 de agosto de 2021 | Atualização de várias páginas para refletir a reformulação da identidade visual do [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=pt-BR) |
+| 2 de agosto de 2021 | Atualização de várias páginas para refletir a reformulação da identidade visual do [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) |
 | **Julho de 2021** |  |
 | 23 de julho de 2021 | Nova discussão detalhada de [eVars de merchandising](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | 15 de julho de 2021 | Adição de nova documentação sobre a nova [página de aterrissagem do Adobe Analytics](/help/analyze/landing.md) |
