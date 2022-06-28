@@ -3,7 +3,7 @@ title: produtos
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 77%
@@ -22,8 +22,8 @@ A variável `products` rastreia produtos e propriedades associadas a eles. Norma
 
 Os produtos são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) em vários campos XDM:
 
-* A categoria está mapeada para `productListItems[].name`.
-* O produto é mapeado para `productListItems[]._id`.
+* A categoria está mapeada para `productListItems[].lineItemId`.
+* O produto é mapeado para `productListItems[].name`.
 * A quantidade é mapeada para `productListItems[].quantity`.
 * O preço é mapeado para `productListItems[].priceTotal`.
 * As eVars de merchandising são mapeadas para `productListItems._experience.analytics.customDimensions.eVars.eVar1` para `productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependendo de qual eVar você deseja vincular a um produto.
