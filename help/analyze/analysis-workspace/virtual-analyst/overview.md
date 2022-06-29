@@ -4,13 +4,13 @@ description: Saiba quais recursos do Adobe Analytics contribuem para o Virtual A
 role: User, Admin
 exl-id: ae4c79a4-d2eb-4383-92d3-fa5591135c73
 source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
 ht-degree: 100%
 
 ---
 
-# Analista virtual
+# Virtual Analyst
 
 O Virtual Analyst é um conjunto de recursos que faz parte do Adobe Analytics e usa algoritmos preditivos e aprendizado de máquina para fornecer insights sobre as anomalias que afetam sua empresa. Ele permite automatizar os fluxos de trabalho mais comuns e caros da ciência de dados para identificar a causa de comportamentos incomuns em seus dados.
 
