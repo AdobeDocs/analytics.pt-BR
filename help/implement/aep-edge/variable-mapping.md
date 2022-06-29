@@ -2,10 +2,10 @@
 title: Mapeamento de variável do Analytics na Adobe Experience Edge
 description: Visualize quais campos XDM a borda mapeia automaticamente para variáveis do Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 66724724788c406fff3abf30c711090accd2d632
+source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 89%
+source-wordcount: '1340'
+ht-degree: 88%
 
 ---
 
@@ -17,6 +17,8 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | --- | --- |
 | `application.id` | A dimensão móvel [ID do aplicativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=pt-BR#dimensions). |
 | `application.isClose` | Ajuda a definir a métrica móvel [Falhas](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=pt-BR#metrics). |
+| `application.isInstall` | Ajuda a determinar quando aumentar a métrica móvel [Primeiras inicializações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isLaunch` | Ajuda a determinar quando aumentar a métrica móvel [Primeiras inicializações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.closeType` | Determina se um evento de encerramento é uma falha ou não. Os valores válidos incluem `close` (Uma sessão de ciclo de vida termina e um evento de pausa foi recebido para a sessão anterior) e `unknown` (Uma sessão do ciclo de vida termina sem um evento de pausa). Ajuda a definir a variável [Falhas](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) métrica. |
 | `application.isInstall` | A métrica móvel [Instalações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | A métrica móvel [Inicializações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
@@ -28,10 +30,15 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `commerce.checkouts.value` | Aumenta a métrica [Check-outs](../../components/metrics/checkouts.md) pela quantidade desejada. |
 | `commerce.order.currencyCode` | Define a variável da configuração [currencyCode](../vars/config-vars/currencycode.md). |
 | `commerce.order.purchaseID` | Define a variável da página [purchaseID](../vars/page-vars/purchaseid.md). |
+| `commerce.productListAdds.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Adições ao carrinho](../../components/metrics/cart-additions.md). |
 | `commerce.productListAdds.value` | Aumenta o [Adições ao carrinho](../../components/metrics/cart-additions.md) métrica. |
+| `commerce.productListOpens.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Carrinhos](../../components/metrics/carts.md). |
 | `commerce.productListOpens.value` | Aumenta o [Carrinhos](../../components/metrics/carts.md) métrica. |
+| `commerce.productListRemovals.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Remoções do carrinho](../../components/metrics/cart-removals.md). |
 | `commerce.productListRemovals.value` | Aumenta o [Remoções do carrinho](../../components/metrics/cart-removals.md) métrica. |
+| `commerce.productListViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Exibições do carrinho](../../components/metrics/cart-views.md). |
 | `commerce.productListViews.value` | Aumenta o [Exibições do carrinho](../../components/metrics/cart-views.md) métrica. |
+| `commerce.productViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Exibições do produto](../../components/metrics/product-views.md). |
 | `commerce.productViews.value` | Aumenta o [Exibições do produto](../../components/metrics/product-views.md) métrica. |
 | `commerce.purchases.value` | Aumenta o [Pedidos](../../components/metrics/orders.md) métrica. |
 | `device.model` | A dimensão móvel [Nome do dispositivo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
@@ -49,7 +56,8 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `environment.connectionType` | Ajuda a definir a dimensão [Tipo de conexão](../../components/dimensions/connection-type.md). |
 | `environment.ipV4` | Usado como um método de identificação [visitante único](../../components/metrics/unique-visitors.md) de fallback. Normalmente preenchida com o uso do cabeçalho HTTP do `X-Forwarded-For`. |
 | `environment.language` | A localidade da dimensão móvel. |
-| `environment.operatingSystemVersion` | A dimensão móvel [Versão do sistema operacional](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.operatingSystem` | A dimensão móvel [Sistema operacional](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.operatingSystemVersion` | Ajuda a definir a variável [Versão do sistema operacional](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) dimensão. |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Define o respectivo [eVar](../../components/dimensions/evar.md) dimensão. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | O delimitador usado para um determinado [List Prop](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Uma matriz de string que contém os respectivos [List Prop](../vars/page-vars/prop.md#list-props) valores. |
@@ -117,12 +125,6 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 {style=&quot;table-layout:auto&quot;}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
-<!--| `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |-->
-<!--| `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |-->
-<!--| `commerce.productListRemovals.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Removals](../../components/metrics/cart-removals.md) metric. |-->
-<!--| `commerce.productListViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Views](../../components/metrics/cart-views.md) metric. |-->
-<!--| `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |-->
-<!--| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |-->
 
 ## Mapeamento de outros campos XDM para variáveis do Analytics
 
