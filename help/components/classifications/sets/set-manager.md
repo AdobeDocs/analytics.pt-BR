@@ -2,9 +2,9 @@
 title: Gerenciador do conjunto de classificações
 description: Gerencie conjuntos de classificação no Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Gerenciador do conjunto de classificações
 
 O Gerenciador do conjunto de classificações permite criar, editar ou excluir conjuntos de classificações.
+
+>[!NOTE]
+>
+>Este recurso está atualmente em versão limitada. Se você quiser acessar esse recurso, entre em contato com o Atendimento ao cliente do Adobe ou com o Gerente de conta, que pode encaminhar sua solicitação para o provisionamento da equipe de Classificações.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]** > **[!UICONTROL Conjuntos]**
 

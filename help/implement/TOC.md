@@ -7,7 +7,7 @@ user-guide-description: 'Personalize quais dados são coletados para obter mais 
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 92%
    + Variáveis de página {#page-vars}
       + [Visão geral das variáveis de página](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
-      + [canal](vars/page-vars/channel.md)
+      + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variáveis dinâmicas](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
@@ -73,8 +73,8 @@ ht-degree: 92%
       + [purchaseID](vars/page-vars/purchaseid.md)
       + [referenciador](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
-      + [servidor](vars/page-vars/server.md)
-      + [estado](vars/page-vars/state.md)
+      + [server](vars/page-vars/server.md)
+      + [state](vars/page-vars/state.md)
       + [carimbo de data e hora](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [CEP](vars/page-vars/zip.md)
@@ -131,15 +131,15 @@ ht-degree: 92%
    + [Modal de implementação](prepare/implementation-modal.md)
    + [Criar um documento de design de solução](prepare/solution-design.md)
    + [Assumir o controle de uma implementação existente do Adobe Analytics](prepare/existing-implementation.md)
-+ Implementar o Analytics usando o Experience Platform Edge {#aep-edge}
-   + [Visão geral do Experience Edge](aep-edge/overview.md)
++ Implementar o Analytics usando a Experience Platform Edge {#aep-edge}
+   + [Visão geral da Experience Edge](aep-edge/overview.md)
    + [Mapeamento de variável](aep-edge/variable-mapping.md)
-   + Web SDK {#web-sdk}
-      + [Visão geral do SDK Web](aep-edge/web-sdk/overview.md)
+   + SDK da Web {#web-sdk}
+      + [Visão geral do SDK da Web](aep-edge/web-sdk/overview.md)
    + SDK móvel {#mobile-sdk}
       + [Visão geral do SDK móvel](aep-edge/mobile-sdk/overview.md)
-   + API Edge {#edge-api}
-      + [Visão geral da Edge API](aep-edge/edge-api/overview.md)
+   + API de borda {#edge-api}
+      + [Visão geral da API de borda](aep-edge/edge-api/overview.md)
 + Implementar o Analytics usando a extensão Adobe Analytics {#launch}
    + [Visão geral das tags](launch/overview.md)
    + [Criar uma propriedade de tag do Adobe Analytics](launch/create-analytics-property.md)

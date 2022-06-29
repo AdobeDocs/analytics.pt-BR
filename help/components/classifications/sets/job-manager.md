@@ -2,9 +2,9 @@
 title: Gerenciador de trabalho do conjunto de classificações
 description: Exibir trabalhos de classificação atuais e concluídos gerados a partir dos Conjuntos de Classificação.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Gerenciador de tarefas do conjunto de classificações
 
 O Gerenciador de trabalhos do conjunto de classificações permite que você veja os trabalhos de classificação atuais e concluídos que foram gerados a partir dos conjuntos de classificações. Também é possível usar essa interface para baixar dados ou modelos de classificação para um trabalho específico ou fazer upload de dados adicionais para um trabalho.
+
+>[!NOTE]
+>
+>Este recurso está atualmente em versão limitada. Se você quiser acessar esse recurso, entre em contato com o Atendimento ao cliente do Adobe ou com o Gerente de conta, que pode encaminhar sua solicitação para o provisionamento da equipe de Classificações.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]** > **[!UICONTROL Tarefas]**
 
