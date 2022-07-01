@@ -3,14 +3,16 @@ title: Motivo da desativação do rastreamento
 description: Visualiza quais dados serão excluídos se você tiver ativado as Configurações de privacidade.
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-source-git-commit: 4c896fe930b52e440f8b91725fa6451faaa76fc8
+source-git-commit: b7209b914695423099266f5c507eaa34c2b98bc5
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 7%
+source-wordcount: '262'
+ht-degree: 9%
 
 ---
 
 # Motivo da desativação do rastreamento
+
+*Esta página se refere à dimensão que permite observar o impacto potencial dos dados ao ativar determinadas configurações do Conjunto de relatórios. Não está relacionada ao [Serviço de Opt-in da Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR).*
 
 A dimensão &quot;Rastreamento do motivo de recusa&quot; atua como uma visualização dos dados que seriam excluídos se você ativasse as Configurações de privacidade. Essa dimensão é usada principalmente para determinar se a implementação será afetada negativamente se a ativação [Configurações de privacidade](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) em Configurações do conjunto de relatórios.
 
