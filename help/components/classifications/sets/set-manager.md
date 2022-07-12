@@ -1,52 +1,52 @@
 ---
-title: Gerenciador do conjunto de classificações
-description: Gerencie conjuntos de classificação no Adobe Analytics.
+title: Gerenciador de conjuntos de classificações
+description: Gerencie conjuntos de classificações no Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Gerenciador do conjunto de classificações
+# Gerenciador de conjuntos de classificações
 
-O Gerenciador do conjunto de classificações permite criar, editar ou excluir conjuntos de classificações.
+O Gerenciador de conjuntos de classificações permite criar, editar ou excluir conjuntos de classificações.
 
 >[!NOTE]
 >
->Este recurso está atualmente em versão limitada. Se você quiser acessar esse recurso, entre em contato com o Atendimento ao cliente do Adobe ou com o Gerente de conta, que pode encaminhar sua solicitação para o provisionamento da equipe de Classificações.
+>No momento, este recurso está em período de teste limitado. Se desejar acessar esse recurso, entre em contato com o Atendimento ao cliente da Adobe ou com o gerente de conta, que poderá encaminhar sua solicitação para o provisionamento da equipe de Classificações.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]** > **[!UICONTROL Conjuntos]**
 
-Os conjuntos de classificação consistem em **Subscrições** (Conjuntos de relatórios aos quais esse conjunto de classificações se aplica) e **Nomes de classificação** (As dimensões adicionais que contêm dados de classificação).
+Os conjuntos de classificações consistem em **Assinaturas** (Conjuntos de relatórios aos quais esse Conjunto de classificações se aplica) e **Nomes de classificação** (as dimensões adicionais que contêm dados de classificação).
 
 ## Filtrar conjuntos de classificações
 
-O lado esquerdo do Gerenciador do conjunto de classificações fornece configurações de filtro para localizar o Conjunto de classificações desejado. Clicar no ícone de filtro ativa a visibilidade das configurações de filtro. Você pode filtrar Conjuntos de classificações ao **[!UICONTROL Tags]**, **[!UICONTROL Conjunto de relatórios]** ou **[!UICONTROL Proprietário]**.
+O lado esquerdo do Gerenciador de conjuntos de classificações fornece configurações de filtro para localizar o conjunto de classificações desejado. Clicar no ícone de filtro alterna a visibilidade das configurações de filtro. Você pode filtrar conjuntos de classificações por **[!UICONTROL Tags]**, **[!UICONTROL Conjunto de relatórios]** ou **[!UICONTROL Proprietário]**.
 
-![Filtros do conjunto de classificações](../assets/classification-set-filters.png)
+![Filtros de conjuntos de classificações](../assets/classification-set-filters.png)
 
-## Colunas do Gerenciador do Conjunto de Classificações
+## Colunas do Gerenciador de conjuntos de classificações
 
-As seguintes colunas estão disponíveis no Gerenciador do conjunto de classificações:
+As seguintes colunas estão disponíveis no Gerenciador de conjuntos de classificações:
 
-* **[!UICONTROL Conjunto de classificações]**: O nome do Conjunto de classificações. Clique no nome do Conjunto de classificações para [editar suas configurações](settings.md).
-* **[!UICONTROL Subscrições]**: O número de subscrições ou o número de Report Suites aos quais este Conjunto de Classificações se aplica.
-* **[!UICONTROL Proprietário]**: O proprietário do Conjunto de classificações.
-* **[!UICONTROL Classificações]**: O número de dimensões de classificação que o Conjunto de classificações contém.
-* **[!UICONTROL Última modificação]**: A data e a hora em que o Conjunto de Classificação foi modificado pela última vez.
+* **[!UICONTROL Conjunto de classificações]**: o nome do conjunto de classificações. Clique no nome do conjunto de classificações para [editar suas configurações](settings.md).
+* **[!UICONTROL Assinaturas]**: o número de assinaturas ou o número de conjuntos de relatórios aos quais este conjunto de classificações se aplica.
+* **[!UICONTROL Proprietário]**: o proprietário do conjunto de classificações.
+* **[!UICONTROL Classificações]**: o número de dimensões de classificação que o conjunto de classificações contém.
+* **[!UICONTROL Última modificação]**: a data e a hora em que o conjunto de classificações foi modificado pela última vez.
 
 ## Criar ou editar opções
 
-Os seguintes botões estão disponíveis no Gerenciador do conjunto de classificações:
+Os seguintes botões estão disponíveis no Gerenciador de conjuntos de classificações:
 
-* **[!UICONTROL Adicionar]**: [Criar](create.md) um Conjunto de classificações.
-* **[!UICONTROL Pesquisar por título]**: Pesquise por Conjuntos de classificações por nome.
-* **[!UICONTROL Carregar mais]**: O Gerenciador do conjunto de classificações exibe inicialmente até 1000 conjuntos de classificações. Clique nesse botão para carregar mais 1000 Conjuntos de classificações.
-* **Mostrar/Ocultar colunas**: Alternar visibilidade de qualquer coluna além de [!UICONTROL Conjunto de classificações].
+* **[!UICONTROL Adicionar]**: [criar](create.md) um conjunto de classificações.
+* **[!UICONTROL Pesquisar por título]**: pesquisar conjuntos de classificações por nome.
+* **[!UICONTROL Carregar mais]**: inicialmente, o Gerenciador de conjuntos de classificações exibe até 1000 conjuntos de classificações. Clique nesse botão para carregar mais 1000 conjuntos de classificações.
+* **Mostrar/Ocultar colunas**: alternar a visibilidade de qualquer coluna além do [!UICONTROL Conjunto de classificações].
 
-Selecione um ou mais Conjuntos de classificações clicando na caixa de seleção ao lado do Conjunto de classificações desejado. Selecionar um conjunto de classificações revela as seguintes opções:
+Selecione um ou mais conjuntos de classificações clicando na caixa de seleção ao lado do conjunto de classificações desejado. Selecionar um conjunto de classificações revela as seguintes opções:
 
-* **[!UICONTROL Tag]**: Adicione uma ou mais tags ao(s) conjunto(s) de classificação selecionado(s), o que permite organizar ou agrupar conjuntos de classificação para facilitar a localização no futuro.
-* **[!UICONTROL Renomear]**: Renomeie o conjunto de classificações selecionado.
+* **[!UICONTROL Tag]**: adicione uma ou mais tags ao(s) conjunto(s) de classificações selecionado(s), o que permite organizar ou agrupar conjuntos de classificações para facilitar a localização no futuro.
+* **[!UICONTROL Renomear]**: renomear o conjunto de classificações selecionado.
