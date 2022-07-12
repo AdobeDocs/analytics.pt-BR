@@ -1,69 +1,69 @@
 ---
 title: Configurações do conjunto de classificações
-description: Crie ou edite um Conjunto de classificações.
+description: Crie ou edite um conjunto de classificações.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Configurações do conjunto de classificações
 
-Configure um conjunto de classificações, faça upload de dados ou baixe dados.
+Configure um conjunto de classificações e faça upload ou download de dados.
 
 >[!NOTE]
 >
->Este recurso está atualmente em versão limitada. Se você quiser acessar esse recurso, entre em contato com o Atendimento ao cliente do Adobe ou com o Gerente de conta, que pode encaminhar sua solicitação para o provisionamento da equipe de Classificações.
+>No momento, este recurso está em período de teste limitado. Se desejar acessar esse recurso, entre em contato com o Atendimento ao cliente da Adobe ou com o gerente de conta, que poderá encaminhar sua solicitação para o provisionamento da equipe de Classificações.
 
-**[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]** > **[!UICONTROL Conjuntos]** > Clique no nome do Conjunto de classificações desejado
+**[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]** > **[!UICONTROL Conjuntos]** > Clique no nome do conjunto de classificações desejado
 
-Ao editar um Conjunto de classificações, duas guias estão disponíveis; **[!UICONTROL Esquema]** e **[!UICONTROL Configurações]**.
+Duas guias estão disponíveis ao editar um conjunto de classificações: **[!UICONTROL Esquema]** e **[!UICONTROL Configurações]**.
 
 ## Configurações 
 
-Os seguintes campos estão disponíveis na variável [!UICONTROL Configurações] e pode ser editado:
+Os seguintes campos estão disponíveis na guia [!UICONTROL Configurações] e podem ser editados:
 
-* **[!UICONTROL Nome]**: O nome do Conjunto de classificações.
-* **[!UICONTROL Descrição]**: A descrição do Conjunto de classificações.
-* **[!UICONTROL Nome do proprietário]**: O nome do proprietário.
-* **[!UICONTROL Email do proprietário]**: O endereço de email do proprietário.
-* **[!UICONTROL Notificação de problemas]**: Uma lista delimitada por vírgulas de endereços de email que são notificados sobre problemas com este Conjunto de classificações.
-* **[!UICONTROL Tags]**: Adicione uma ou mais tags ao(s) conjunto(s) de classificação selecionado(s), o que permite organizar ou agrupar conjuntos de classificação para facilitar a localização no futuro.
+* **[!UICONTROL Nome]**: o nome do conjunto de classificações.
+* **[!UICONTROL Descrição]**: a descrição do conjunto de classificações.
+* **[!UICONTROL Nome do proprietário]**: o nome do proprietário.
+* **[!UICONTROL Email do proprietário]**: o endereço de email do proprietário.
+* **[!UICONTROL Notificação de problemas]**: uma lista delimitada por vírgulas de endereços de email que são notificados sobre problemas com este conjunto de classificações.
+* **[!UICONTROL Tags]**: adicione uma ou mais tags ao(s) conjunto(s) de classificações selecionado(s), o que permite organizar ou agrupar conjuntos de classificações para facilitar a localização no futuro.
 
 Campos adicionais estão disponíveis para fins informativos e não podem ser editados:
 
-* **[!UICONTROL Tipo]**: O tipo de classificação entre [!UICONTROL Primário] e [!UICONTROL Pesquisa]. As classificações primárias são normalmente usadas.
-* **[!UICONTROL Subscrições]**: O Conjunto de relatórios e a variável à qual o Conjunto de classificações se aplica. Somente um conjunto de relatórios é compatível com um determinado conjunto de classificações no momento; o suporte para vários conjuntos de relatórios está planejado.
+* **[!UICONTROL Tipo]**: o tipo de classificação entre [!UICONTROL Primária] e [!UICONTROL Pesquisa]. Normalmente, as classificações primárias são usadas.
+* **[!UICONTROL Assinaturas]**: o conjunto de relatórios e a variável aos quais o conjunto de classificações se aplica. Somente um conjunto de relatórios é compatível com um determinado conjunto de classificações no momento; a compatibilidade com vários conjuntos de relatórios está planejada.
 
 ## Esquema
 
 Exibir dimensões de classificação atualmente configuradas para esta assinatura. Os seguintes botões estão disponíveis:
 
-* **[!UICONTROL Upload]**: Faça upload manual dos dados de classificação de uma ou mais dimensões de classificação. Arquivos JSON, CSV, TSV e TAB são compatíveis. O upload de um arquivo válido mostra uma pré-visualização de tabela de dados a serem classificados.
-   * **[!UICONTROL Codificação de arquivo]**: Selecione a codificação de arquivo correta usando essa lista suspensa. As opções válidas incluem [!UICONTROL UTF-8] e [!UICONTROL Latim1].
-   * **[!UICONTROL Delimitador de lista]**: Selecione o delimitador de lista correto. Se estiver usando um arquivo baixado ou um arquivo de modelo, verifique se a variável [!UICONTROL Delimitador de lista] corresponde ao [!UICONTROL Delimitador de lista] quando o arquivo foi baixado.
-   * **[!UICONTROL Aplicar]**: Salve os dados de classificação carregados no Conjunto de classificações.
+* **[!UICONTROL Upload]**: fazer upload manual dos dados de classificação de uma ou mais dimensões de classificação. Arquivos JSON, CSV, TSV e TAB são compatíveis. O upload de um arquivo válido mostra uma visualização em tabela dos dados que serão classificados.
+   * **[!UICONTROL Codificação de arquivo]**: selecione a codificação de arquivo correta usando essa lista suspensa. As opções válidas incluem [!UICONTROL UTF-8] e [!UICONTROL Latin1].
+   * **[!UICONTROL Delimitador de lista]**: selecione o delimitador de lista correto. Se estiver usando um arquivo baixado ou um arquivo de modelo, verifique se esse [!UICONTROL delimitador de lista] corresponde ao [!UICONTROL delimitador de lista] de quando o arquivo foi baixado.
+   * **[!UICONTROL Aplicar]**: salvar os dados de classificação carregados no conjunto de classificações.
 
-   ![Upload do Conjunto de classificações](../assets/classification-set-upload.png)
+   ![Upload do conjunto de classificações](../assets/classification-set-upload.png)
 
-* **[!UICONTROL Baixar]**: Baixe os valores da chave e suas colunas de classificação.
-   * **[!UICONTROL Linhas]**: O número máximo de linhas a serem incluídas no arquivo de download.
-   * **[!UICONTROL Fazer download de linhas entre]**: Um seletor de datas do calendário que permite filtrar os valores principais por quando eles aparecem no relatório. Se um valor principal não tiver sido coletado nesse intervalo de datas, ele não aparecerá no arquivo baixado.
-   * **[!UICONTROL Dados retornados]**: Uma lista suspensa que permite filtrar os valores principais incluídos no arquivo baixado com base nos dados de classificação associados.
-      * **[!UICONTROL Todos os valores classificados]**: Inclui linhas nas quais os dados de classificação estão incluídos em pelo menos uma coluna.
-      * **[!UICONTROL Todos os valores não classificados]**: Inclui linhas nas quais os dados de classificação estão ausentes em pelo menos uma coluna.
-   * **[!UICONTROL Formato de arquivo]**: Lista suspensa que determina o formato de arquivo no qual o arquivo de download está. As opções incluem [!UICONTROL JSON], [!UICONTROL Valores separados por vírgula]e [!UICONTROL Valores separados por tabulação do Excel].
-   * **[!UICONTROL Codificação de arquivo]**: Lista suspensa que determina a codificação do arquivo. As opções incluem [!UICONTROL UTF-8] e [!UICONTROL Latim1]. UTF-8 é recomendado.
-   * **[!UICONTROL Delimitadores de lista]**: Lista suspensa que determina o delimitador da lista que separa as colunas de classificação em cada linha.
+* **[!UICONTROL Download]**: baixar os valores principais e suas colunas de classificação.
+   * **[!UICONTROL Linhas]**: o número máximo de linhas a serem incluídas no arquivo de download.
+   * **[!UICONTROL Baixar linhas recebidas entre]**: um seletor de datas do calendário que permite filtrar os valores principais baseado em quando eles aparecem no relatório. Se um valor principal não tiver sido coletado nesse intervalo de datas, ele não aparecerá no arquivo baixado.
+   * **[!UICONTROL Dados retornados]**: uma lista suspensa que permite filtrar os valores principais incluídos no arquivo baixado com base nos dados de classificação associados.
+      * **[!UICONTROL Todos os valores classificados]**: inclui linhas em que os dados de classificação estão incluídos em pelo menos uma coluna.
+      * **[!UICONTROL Todos os valores não classificados]**: inclui linhas em que os dados de classificação estão ausentes em pelo menos uma coluna.
+   * **[!UICONTROL Formato de arquivo]**: lista suspensa que determina o formato do arquivo baixado. As opções incluem [!UICONTROL JSON], [!UICONTROL Valores separados por vírgula (CSV)] e [!UICONTROL Valores separados por tabulação do Excel].
+   * **[!UICONTROL Codificação de arquivo]**: lista suspensa que determina a codificação do arquivo. As opções incluem [!UICONTROL UTF-8] e [!UICONTROL Latin1]. É recomendado usar UTF-8.
+   * **[!UICONTROL Delimitadores de lista]**: lista suspensa que determina o delimitador da lista que separa as colunas de classificação em cada linha.
 
    ![Download do conjunto de classificações](../assets/classification-set-download.png)
 
-* **[!UICONTROL Modelo]**: Baixe um arquivo de modelo. Esse arquivo é semelhante ao [!UICONTROL Baixar] , exceto que não contém dados de classificação ou valores-chave.
-   * **[!UICONTROL Formato de arquivo]**: Lista suspensa que determina o formato de arquivo no qual o arquivo de modelo está. As opções incluem [!UICONTROL Valores separados por vírgula]e [!UICONTROL Valores separados por tabulação do Excel].
-   * **[!UICONTROL Codificação de arquivo]**: Lista suspensa que determina a codificação do arquivo. As opções incluem [!UICONTROL UTF-8] e [!UICONTROL Latim1]. UTF-8 é recomendado.
-   * **[!UICONTROL Delimitadores de lista]**: Lista suspensa que determina o delimitador da lista que separa as colunas de classificação em cada linha.
-* **[!UICONTROL Histórico de tarefas]**: Um link de atalho que direciona você ao [Gerente de emprego](job-manager.md), mostrando trabalhos somente para esse Conjunto de Classificações.
+* **[!UICONTROL Modelo]**: baixar um arquivo de modelo. Esse arquivo é semelhante ao botão [!UICONTROL Download], exceto por não conter dados de classificação ou valores principais.
+   * **[!UICONTROL Formato de arquivo]**: lista suspensa que determina o formato do arquivo de modelo. As opções incluem [!UICONTROL Valores separados por vírgula (CSV)] e [!UICONTROL Valores separados por tabulação do Excel].
+   * **[!UICONTROL Codificação de arquivo]**: lista suspensa que determina a codificação do arquivo. As opções incluem [!UICONTROL UTF-8] e [!UICONTROL Latin1]. É recomendado usar UTF-8.
+   * **[!UICONTROL Delimitadores de lista]**: lista suspensa que determina o delimitador da lista que separa as colunas de classificação em cada linha.
+* **[!UICONTROL Histórico de processos]**: um link de atalho que direciona você ao [Gerenciador de processos](job-manager.md), mostrando processos somente para esse conjunto de classificações.
 
-   ![Modelo do Conjunto de classificações](../assets/classification-set-template.png)
+   ![Modelo do conjunto de classificações](../assets/classification-set-template.png)
