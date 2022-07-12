@@ -5,7 +5,7 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `application.isClose` | Ajuda a definir a métrica móvel [Falhas](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=pt-BR#metrics). |
 | `application.isInstall` | Ajuda a determinar quando aumentar a métrica móvel [Primeiras inicializações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | Ajuda a determinar quando aumentar a métrica móvel [Primeiras inicializações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.closeType` | Determina se um evento de encerramento é uma falha ou não. Os valores válidos incluem `close` (Uma sessão de ciclo de vida termina e um evento de pausa foi recebido para a sessão anterior) e `unknown` (Uma sessão do ciclo de vida termina sem um evento de pausa). Ajuda a definir a variável [Falhas](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) métrica. |
+| `application.closeType` | Determina se um evento de encerramento é uma falha ou não. Os valores válidos incluem `close` (Uma sessão de ciclo de vida termina e um evento de pausa foi recebido para a sessão anterior) e `unknown` (Uma sessão do ciclo de vida termina sem um evento de pausa). Ajuda a definir a métrica [Falhas](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isInstall` | A métrica móvel [Instalações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | A métrica móvel [Inicializações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.name` | Ajuda a definir a dimensão móvel [ID do aplicativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
@@ -31,16 +31,16 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `commerce.order.currencyCode` | Define a variável da configuração [currencyCode](../vars/config-vars/currencycode.md). |
 | `commerce.order.purchaseID` | Define a variável da página [purchaseID](../vars/page-vars/purchaseid.md). |
 | `commerce.productListAdds.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Adições ao carrinho](../../components/metrics/cart-additions.md). |
-| `commerce.productListAdds.value` | Aumenta o [Adições ao carrinho](../../components/metrics/cart-additions.md) métrica. |
+| `commerce.productListAdds.value` | Incrementa a métrica [Adições ao carrinho](../../components/metrics/cart-additions.md). |
 | `commerce.productListOpens.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Carrinhos](../../components/metrics/carts.md). |
-| `commerce.productListOpens.value` | Aumenta o [Carrinhos](../../components/metrics/carts.md) métrica. |
+| `commerce.productListOpens.value` | Incrementa a métrica [Carrinhos](../../components/metrics/carts.md). |
 | `commerce.productListRemovals.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Remoções do carrinho](../../components/metrics/cart-removals.md). |
-| `commerce.productListRemovals.value` | Aumenta o [Remoções do carrinho](../../components/metrics/cart-removals.md) métrica. |
+| `commerce.productListRemovals.value` | Incrementa a métrica [Remoções do carrinho](../../components/metrics/cart-removals.md). |
 | `commerce.productListViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Exibições do carrinho](../../components/metrics/cart-views.md). |
-| `commerce.productListViews.value` | Aumenta o [Exibições do carrinho](../../components/metrics/cart-views.md) métrica. |
+| `commerce.productListViews.value` | Incrementa a métrica [Visualizações do carrinho](../../components/metrics/cart-views.md). |
 | `commerce.productViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Exibições do produto](../../components/metrics/product-views.md). |
-| `commerce.productViews.value` | Aumenta o [Exibições do produto](../../components/metrics/product-views.md) métrica. |
-| `commerce.purchases.value` | Aumenta o [Pedidos](../../components/metrics/orders.md) métrica. |
+| `commerce.productViews.value` | Incrementa a métrica [Visualizações de produto](../../components/metrics/product-views.md). |
+| `commerce.purchases.value` | Incrementa a métrica [Pedidos](../../components/metrics/orders.md). |
 | `device.model` | A dimensão móvel [Nome do dispositivo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `device.colorDepth` | Ajuda a definir a dimensão [Intensidade de cor](../../components/dimensions/color-depth.md). |
 | `device.screenHeight` | Ajuda a definir a dimensão [Resolução do monitor.](../../components/dimensions/monitor-resolution.md) |
@@ -58,13 +58,13 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `environment.language` | A localidade da dimensão móvel. |
 | `environment.operatingSystem` | A dimensão móvel [Sistema operacional](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | Ajuda a definir a variável [Versão do sistema operacional](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) dimensão. |
-| `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Define o respectivo [eVar](../../components/dimensions/evar.md) dimensão. |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | O delimitador usado para um determinado [List Prop](../vars/page-vars/prop.md#list-props). |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Uma matriz de string que contém os respectivos [List Prop](../vars/page-vars/prop.md#list-props) valores. |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | Define o respectivo [Variável de lista](../vars/page-vars/list.md). |
-| `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Define o respectivo [Prop](../../components/dimensions/prop.md) dimensão. |
-| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Aplica-se [serialização de eventos](../vars/page-vars/events/event-serialization.md) aos [Eventos personalizados](../../components/metrics/custom-events.md) métrica. |
-| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Aumenta o respectivo [Eventos personalizados](../../components/metrics/custom-events.md) pela quantidade desejada. |
+| `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Define a respectiva dimensão da [eVar](../../components/dimensions/evar.md). |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | O delimitador usado para uma determinada [Propriedade de lista](../vars/page-vars/prop.md#list-props). |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Uma matriz de sequência de caracteres que contém os respectivos valores da [Propriedade de lista](../vars/page-vars/prop.md#list-props). |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | Define a respectiva [Variável de lista](../vars/page-vars/list.md). |
+| `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Define a respectiva dimensão de [Propriedade](../../components/dimensions/prop.md). |
+| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Aplica a [serialização de eventos](../vars/page-vars/events/event-serialization.md) à respectiva métrica de [Eventos personalizados](../../components/metrics/custom-events.md). |
+| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Aumenta a respectiva métrica de [Eventos personalizados](../../components/metrics/custom-events.md) na quantidade desejada. |
 | `identityMap.ECID[0].id` | A [ID do serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). |
 | `marketing.trackingCode` | Define a dimensão [Código de rastreamento](../../components/dimensions/tracking-code.md). |
 | `media.mediaTimed.completes.value` | A métrica [Conteúdo concluído](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-complete) do Media Analytics. |
@@ -106,12 +106,12 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `placeContext.geo.longitude` | A longitude da dimensão móvel. |
 | `placeContext.geo.postalCode` | A dimensão [Código postal](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | A dimensão [Estados dos Estados Unidos](../../components/dimensions/us-states.md). |
-| `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Aplica-se [sintaxe do produto](../vars/page-vars/products.md) merchandising para eVars. |
-| `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Aplica-se [sintaxe do produto](../vars/page-vars/products.md) merchandising para eventos. |
-| `productListItems[].lineItemId` | A dimensão [Categoria. ](../../components/dimensions/category.md) Consulte também a [products](../vars/page-vars/products.md) variável de página. |
-| `productListItems[].name` | A dimensão [Produto. ](../../components/dimensions/product.md) Consulte também a [products](../vars/page-vars/products.md) variável de página. |
-| `productListItems[].priceTotal` | Ajuda a determinar a métrica [Receita. ](../../components/metrics/revenue.md) Consulte também a [products](../vars/page-vars/products.md) variável de página. |
-| `productListItems[].quantity` | Ajuda a determinar a métrica [Unidades. ](../../components/metrics/units.md) Consulte também a [products](../vars/page-vars/products.md) variável de página. |
+| `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eVars. |
+| `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eventos. |
+| `productListItems[].lineItemId` | A dimensão [Categoria.](../../components/dimensions/category.md) Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
+| `productListItems[].name` | A dimensão [Produto.](../../components/dimensions/product.md) Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
+| `productListItems[].priceTotal` | Ajuda a determinar a métrica [Receita](../../components/metrics/revenue.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
+| `productListItems[].quantity` | Ajuda a determinar a métrica [Unidades](../../components/metrics/units.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
 | `web.webInteraction.URL` | A variável de implementação [linkURL](../vars/config-vars/linkurl.md). |
 | `web.webInteraction.name` | A dimensão [Link personalizado](../../components/dimensions/custom-link.md), [Link de download](../../components/dimensions/download-link.md) ou [Link de saída](../../components/dimensions/exit-link.md), dependendo do valor em `web.webInteraction.type` |
 | `web.webInteraction.type` | Determina o tipo de link clicado. Os valores válidos incluem `other` (Links personalizados), `download` (Links de download) e `exit` (Links de saída). |
