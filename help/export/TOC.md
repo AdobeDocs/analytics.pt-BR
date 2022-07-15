@@ -7,7 +7,7 @@ user-guide-description: Use os Feeds de dados para receber uma exportação de d
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 # Guia de exportação do Adobe Analytics {#export}
 
 + [Guia de exportação do Analytics](home.md)
-+ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
 + Feed de dados do Analytics {#analytics-data-feed}
    + [Visão geral do feed de dados](analytics-data-feed/data-feed-overview.md)
    + [Criar ou editar um feed de dados](analytics-data-feed/create-feed.md)

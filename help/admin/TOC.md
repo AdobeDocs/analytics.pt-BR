@@ -3,11 +3,11 @@ product: analytics
 audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
-user-guide-description: Saiba mais sobre as tarefas de administração do Analytics, como gerenciar usuários e produtos no Experience Cloud, configurar conjuntos de relatórios e muito mais.
+user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # Guia do administrador do Adobe Analytics {#admin}
 
 + [Guia de administração do Analytics](home.md)
-+ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
 + Visão geral de administração do Analytics {#admin-overview}
    + [Qual ferramenta do Adobe Analytics devo usar?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Comparação e requisitos de produtos do Analytics](c-analytics-product-comparison/analytics-product-comparison.md)

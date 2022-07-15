@@ -7,7 +7,7 @@ user-guide-description: Ajude a gerenciar seus dados usando componentes como seg
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 97%
    + Conjuntos de classificações {#sets}
       + [Visão geral dos conjuntos de classificações](classifications/sets/overview.md)
       + [Gerenciador de conjuntos de classificações](classifications/sets/set-manager.md)
-      + [Gerenciador de tarefas do conjunto de classificações](classifications/sets/job-manager.md)
+      + [Gerenciador de processos do conjunto de classificações](classifications/sets/job-manager.md)
       + [Criar um conjunto de classificações](classifications/sets/create.md)
       + [Configurações do conjunto de classificações](classifications/sets/settings.md)
    + Criador de regras de classificação {#classifications-rulebuilder}
