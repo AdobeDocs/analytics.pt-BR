@@ -5,7 +5,7 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,9 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `commerce.productListOpens.value` | Incrementa a métrica [Carrinhos](../../components/metrics/carts.md). |
 | `commerce.productListRemovals.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Remoções do carrinho](../../components/metrics/cart-removals.md). |
 | `commerce.productListRemovals.value` | Incrementa a métrica [Remoções do carrinho](../../components/metrics/cart-removals.md). |
-| `commerce.productListViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Exibições do carrinho](../../components/metrics/cart-views.md). |
+| `commerce.productListViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Visualizações do carrinho](../../components/metrics/cart-views.md). |
 | `commerce.productListViews.value` | Incrementa a métrica [Visualizações do carrinho](../../components/metrics/cart-views.md). |
-| `commerce.productViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Exibições do produto](../../components/metrics/product-views.md). |
+| `commerce.productViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Visualizações do produto](../../components/metrics/product-views.md). |
 | `commerce.productViews.value` | Incrementa a métrica [Visualizações de produto](../../components/metrics/product-views.md). |
 | `commerce.purchases.value` | Incrementa a métrica [Pedidos](../../components/metrics/orders.md). |
 | `device.model` | A dimensão móvel [Nome do dispositivo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
@@ -57,7 +57,7 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `environment.ipV4` | Usado como um método de identificação [visitante único](../../components/metrics/unique-visitors.md) de fallback. Normalmente preenchida com o uso do cabeçalho HTTP do `X-Forwarded-For`. |
 | `environment.language` | A localidade da dimensão móvel. |
 | `environment.operatingSystem` | A dimensão móvel [Sistema operacional](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.operatingSystemVersion` | Ajuda a definir a variável [Versão do sistema operacional](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) dimensão. |
+| `environment.operatingSystemVersion` | Ajuda a definir a dimensão [Versão do sistema operacional](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Define a respectiva dimensão da [eVar](../../components/dimensions/evar.md). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | O delimitador usado para uma determinada [Propriedade de lista](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Uma matriz de sequência de caracteres que contém os respectivos valores da [Propriedade de lista](../vars/page-vars/prop.md#list-props). |
@@ -108,8 +108,8 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `placeContext.geo.stateProvince` | A dimensão [Estados dos Estados Unidos](../../components/dimensions/us-states.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eventos. |
-| `productListItems[].lineItemId` | A dimensão [Categoria.](../../components/dimensions/category.md) Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
-| `productListItems[].name` | A dimensão [Produto.](../../components/dimensions/product.md) Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
+| `productListItems[].lineItemId` | A dimensão [Categoria](../../components/dimensions/category.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
+| `productListItems[].name` | A dimensão [Produto](../../components/dimensions/product.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
 | `productListItems[].priceTotal` | Ajuda a determinar a métrica [Receita](../../components/metrics/revenue.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
 | `productListItems[].quantity` | Ajuda a determinar a métrica [Unidades](../../components/metrics/units.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
 | `web.webInteraction.URL` | A variável de implementação [linkURL](../vars/config-vars/linkurl.md). |
