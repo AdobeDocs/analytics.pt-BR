@@ -2,10 +2,10 @@
 title: Mapeamento de variável do Analytics na Adobe Experience Edge
 description: Visualize quais campos XDM a borda mapeia automaticamente para variáveis do Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 100%
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -15,14 +15,13 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 
 | Caminho do campo XDM | Dimensão e descrição do Analytics |
 | --- | --- |
-| `application.id` | A dimensão móvel [ID do aplicativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=pt-BR#dimensions). |
 | `application.isClose` | Ajuda a definir a métrica móvel [Falhas](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=pt-BR#metrics). |
 | `application.isInstall` | Ajuda a determinar quando aumentar a métrica móvel [Primeiras inicializações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | Ajuda a determinar quando aumentar a métrica móvel [Primeiras inicializações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.closeType` | Determina se um evento de encerramento é uma falha ou não. Os valores válidos incluem `close` (Uma sessão de ciclo de vida termina e um evento de pausa foi recebido para a sessão anterior) e `unknown` (Uma sessão do ciclo de vida termina sem um evento de pausa). Ajuda a definir a métrica [Falhas](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isInstall` | A métrica móvel [Instalações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | A métrica móvel [Inicializações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.name` | Ajuda a definir a dimensão móvel [ID do aplicativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `application.name` | Ajuda a definir a dimensão móvel [ID do aplicativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=pt-BR#dimensions). |
 | `application.isUpgrade` | A métrica móvel [Atualizações](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.version` | Ajuda a definir a dimensão móvel [ID do aplicativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `application.sessionLength` | A métrica móvel [Duração da sessão anterior](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
@@ -128,7 +127,7 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 
 ## Mapeamento de outros campos XDM para variáveis do Analytics
 
-Se houver dimensões ou métricas que você deseja adicionar ao Adobe Analytics, faça isso por meio de [Variáveis de dados de contexto](../vars/page-vars/contextdata.md). Todos os elementos de campo XDM são enviados para o Adobe Analytics como Dados de contexto com o prefixo `a.x`. Em seguida, é possível mapear essa variável de dados de contexto para a variável do Analytics desejada usando [Regras de processamento](../../admin/admin/c-processing-rules/processing-rules.md). Por exemplo, se você enviar o seguinte evento:
+Se houver dimensões ou métricas que você deseja adicionar ao Adobe Analytics, faça isso por meio de [Variáveis de dados de contexto](../vars/page-vars/contextdata.md). Quaisquer elementos de campo XDM que não são mapeados automaticamente são enviados para o Adobe Analytics como Dados de contexto com o prefixo a.x. Em seguida, é possível mapear essa variável de dados de contexto para a variável do Analytics desejada usando [Regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=pt-BR). Por exemplo, se você enviar o seguinte evento:
 
 ```js
 alloy("event",{

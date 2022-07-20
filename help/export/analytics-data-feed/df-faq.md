@@ -4,10 +4,10 @@ keywords: Feed de dados;coluna pré;coluna pós;diferencia maiúsculas de minús
 title: Perguntas frequentes sobre feeds de dados
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 98%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -97,4 +97,5 @@ No entanto, objetos não herdam permissões do bucket primário. Portanto, se o 
 
 >[!NOTE]
 >
->O [!DNL Analytics] não determina se o bucket tem uma política que requer que o seu proprietário tenha total controle de novos objetos, ou mesmo se o proprietário do bucket está em uma conta diferente daquela do usuário que está gravando os dados. Em vez disso, o [!DNL Analytics] adiciona automaticamente o proprietário do bucket à ACL BucketOwnerFullControl a cada upload de feed.
+>O Adobe Analytics não determina se o bucket tem uma política que requer fornecer ao proprietário do bucket controle total de novos objetos, ou mesmo se o proprietário do bucket estiver em uma conta diferente da do usuário que está gravando os dados. Em vez disso, o Analytics adiciona automaticamente o proprietário do compartimento ao `BucketOwnerFullControl` ACL com cada upload de feed.
+
