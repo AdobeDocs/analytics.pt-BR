@@ -3,9 +3,9 @@ title: events
 description: Defina a variável events, que governa a maioria das métricas do site.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '788'
 ht-degree: 84%
 
 ---
@@ -18,11 +18,13 @@ Antes de implementar eventos, você deve criá-los e configurá-los em [Eventos-
 
 ## Eventos que usam o SDK da Web
 
-Os eventos personalizados são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) nos seguintes campos XDM:
+Os eventos personalizados são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) nos seguintes campos XDM:
 
 * Os eventos personalizados 1-100 são mapeados para `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Os eventos personalizados 101-200 são mapeados para `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
 * Esse padrão se repete a cada 100 eventos para `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* `eventx.value` é usada para especificar o valor.
+* `eventx.id` é usada para especificar a id para serialização.
 * Os pedidos são mapeados para `commerce.purchases.value`.
 * As unidades são mapeadas para a soma de todos `productListItems[].quantity` campos.
 * A receita é mapeada para a soma de todos `productListItems[].priceTotal` campos.
