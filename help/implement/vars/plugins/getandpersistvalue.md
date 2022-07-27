@@ -3,10 +3,10 @@ title: getAndPersistValue
 description: Armazene um valor que pode ser recuperado posteriormente a qualquer momento.
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 87%
+source-wordcount: '481'
+ht-degree: 89%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 87%
 
 O plug-in `getAndPersistValue` permite armazenar um valor em um cookie que pode ser recuperado posteriormente durante uma visita. Ela desempenha um papel semelhante ao do [!UICONTROL Duração do armazenamento] na extensão Adobe Analytics na Coleta de dados do Adobe Experience Platform. A Adobe recomenda usar esse plug-in se você quiser manter automaticamente uma variável do Analytics com o mesmo valor em ocorrências subsequentes à definição da variável. Esse plug-in não é necessário se a variável [!UICONTROL Duração do armazenamento] na extensão do Analytics é suficiente. Também não é necessário usar esse plug-in se você não precisar definir e manter variáveis com o mesmo valor em ocorrências subsequentes. A persistência integrada das eVars não requer o uso desse plug-in, pois essas eVars persistem no lado do servidor por ação da Adobe.
 
-## Instalar o plug-in usando o SDK da Web ou a extensão Adobe Analytics
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
-1. Clique na propriedade de tag desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
-1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
-   * Condição: Nenhuma
-   * Evento: principal – biblioteca carregada (início da página)
-1. Adicione à regra acima uma ação com a seguinte configuração:
-   * Extensão: Plug-ins comuns do Analytics
-   * Tipo de ação: inicializar getAndPersistValue
-1. Salve e publique as alterações na regra.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getAndPersistValue
+1. Save and publish the changes to the rule.-->
 
 ## Instale o plug-in usando o editor de código personalizado do
 

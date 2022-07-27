@@ -3,10 +3,10 @@ title: rfl
 description: Remova um valor específico de uma string delimitada por caracteres.
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 96%
+source-wordcount: '934'
+ht-degree: 98%
 
 ---
 
@@ -23,21 +23,21 @@ O plug-in usa a seguinte lógica:
 * Se o valor que você deseja remover existir, o plug-in manterá tudo na variável, exceto o valor a ser removido.
 * Se o valor que você deseja remover não existir, o plug-in manterá a string original como está.
 
-## Instalar o plug-in usando o SDK da Web ou a extensão Adobe Analytics
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
-1. Clique na propriedade de tag desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
-1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
-   * Condição: Nenhuma
-   * Evento: principal – biblioteca carregada (início da página)
-1. Adicione à regra acima uma ação com a seguinte configuração:
-   * Extensão: Plug-ins comuns do Analytics
-   * Tipo de ação: inicializar RFP (Remover da lista)
-1. Salve e publique as alterações na regra.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize RFP (Remove From List)
+1. Save and publish the changes to the rule.-->
 
 ## Instale o plug-in usando o editor de código personalizado do
 

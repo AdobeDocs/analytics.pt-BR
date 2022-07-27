@@ -3,10 +3,10 @@ title: getValOnce
 description: Impeça que uma variável do Analytics seja definida com o mesmo valor duas vezes seguidas.
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 93%
+source-wordcount: '471'
+ht-degree: 97%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 93%
 
 O plug-in `getValOnce` impede que uma variável seja definida com o mesmo valor mais de uma vez. A Adobe recomenda usar esse plug-in quando você deseja desduplicar ocorrências nas quais um visitante atualiza uma página ou visita uma determinada página várias vezes. Esse plug-in é desnecessário se você não se preocupar com a métrica &quot;Ocorrências&quot; no Analysis Workspace.
 
-## Instalar o plug-in usando o SDK da Web ou a extensão Adobe Analytics
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-A Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
-1. Clique na propriedade de tag desejada.
-1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
-1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
-1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
-   * Condição: Nenhuma
-   * Evento: principal – biblioteca carregada (início da página)
-1. Adicione à regra acima uma ação com a seguinte configuração:
-   * Extensão: Plug-ins comuns do Analytics
-   * Tipo de ação: inicializar getValOnce
-1. Salve e publique as alterações na regra.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getValOnce
+1. Save and publish the changes to the rule.-->
 
 ## Instale o plug-in usando o editor de código personalizado do
 

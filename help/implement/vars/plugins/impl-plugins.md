@@ -3,10 +3,10 @@ title: Visão geral dos plug-ins
 description: Cole o código no site para introduzir uma nova funcionalidade.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 95%
+source-wordcount: '354'
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Plug-ins são trechos de código que executam várias funções avançadas que a
 
 A Adobe oferece várias maneiras de instalar um determinado plug-in:
 
-1. Use a extensão &quot;Plug-ins comuns do Analytics&quot; usando o SDK da Web ou a extensão do Adobe Analytics
-2. Colar o código do plug-in usando o editor de código personalizado do
-3. Colar o código do plug-in no seu arquivo `AppMeasurement.js`.
+<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
+1. Colar o código do plug-in usando o editor de código personalizado do
+1. Colar o código do plug-in no seu arquivo `AppMeasurement.js`.
 
 Cada organização tem necessidades de implementação diferentes, de modo que você pode decidir como deseja incluí-los na implementação. Certifique-se de atender aos seguintes critérios ao incluir o código em seu site:
 
