@@ -3,9 +3,9 @@ description: Use a visualização principal do resumo da métrica para comparar 
 title: Resumo da métrica principal
 feature: Visualizations
 role: User, Admin
-source-git-commit: a126f51c82cf7b23f4e03134c2d870d216dadc47
+source-git-commit: 73de5dca8584d8d04b57a0d50dffcb57cfeefb08
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '605'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 >
 >Esta funcionalidade está atualmente em [testes limitados](/help/release-notes/releases.md).
 
-A visualização do Resumo da métrica principal permite ver como uma métrica importante está apresentando as tendências em um único período. Também permite comparar o desempenho da métrica em dois intervalos de tempo. Ela oferece os benefícios de várias visualizações combinadas em uma única visualização:
+O [!UICONTROL Resumo da métrica principal] A visualização permite ver como uma métrica importante apresenta as tendências em um único período. Também permite comparar o desempenho da métrica em dois intervalos de tempo. Ela oferece os benefícios de várias visualizações combinadas em uma única visualização:
 
 * **[!UICONTROL Linha]** visualizações que mostram a tendência da métrica para os intervalos de datas principal e de comparação
 
@@ -62,7 +62,7 @@ Observe:
 
 * O **[!UICONTROL Período anterior]** gráfico de linha (sempre exibido em cinza) corresponde ao **[!UICONTROL Intervalo de datas de comparação]** na etapa de configuração.
 
-* Se um intervalo de datas de comparação não estiver selecionado durante a configuração ou estiver oculto nas configurações de visualização (mais sobre as configurações abaixo), somente o gráfico de linhas do intervalo de datas principal será exibido. A alteração de resumo ficará oculta.
+* Se um intervalo de datas de comparação não for especificado durante a configuração ou estiver oculto nas configurações de visualização, somente o gráfico de linhas do intervalo de datas principal será exibido. A alteração de resumo ficará oculta.
 
 * A partir daqui, você pode passar o mouse sobre os gráficos de linha para ver as estatísticas de dias individuais:
 
@@ -76,16 +76,16 @@ O resumo da métrica principal oferece várias configurações flexíveis para p
 
 | Configuração | Descrição |
 | --- | --- |
-| Realçar a alteração percentual | Exibir alteração de resumo em negrito de destaque no centro da visualização |
-| Realçar valor numérico | Exibir número do resumo em negrito de destaque no centro da visualização |
-| Legenda visível | Mostrar ou ocultar a legenda na parte inferior da visualização |
-| Mostrar anotações | Mostrar ou ocultar anotações adicionadas por um administrador |
-| Mostrar linhas cintilantes | Mostrar ou ocultar gráficos de linha na parte inferior do gráfico. Quando ocultada, a legenda será alterada para não mais fazer referência visualmente às linhas |
-| Mostrar mín. e máx. em linhas cintilantes | Mostrar ou ocultar valores mínimos e máximos em gráficos de linha primária e de comparação |
-| Mostrar comparação | Mostrar ou ocultar dados de comparação. Quando ocultos, o gráfico de linha de comparação e os objetos de alteração de resumo serão ocultos da exibição. |
-| Mostrar número total | Mostrar ou ocultar o número do resumo |
-| Mostrar diferença bruta | Mostrar ou ocultar diferença bruta entre o valor total da métrica no intervalo de datas principal e o intervalo de datas secundário |
-| Abreviar valor | Abreviar valores de números para simplificar os insights comunicados (por exemplo, 20.000 -> 20K) |
+| **[!UICONTROL Realçar a alteração percentual]** | Exibir alteração de resumo em negrito de destaque no centro da visualização |
+| **[!UICONTROL Realçar valor numérico]** | Exibir número do resumo em negrito de destaque no centro da visualização |
+| **[!UICONTROL Legenda visível]** | Mostrar ou ocultar a legenda na parte inferior da visualização |
+| **[!UICONTROL Mostrar anotações]** | Mostrar ou ocultar anotações adicionadas por um administrador |
+| **[!UICONTROL Mostrar linhas cintilantes]** | Mostrar ou ocultar gráficos de linha na parte inferior do gráfico. Quando ocultada, a legenda será alterada para não mais fazer referência visualmente às linhas |
+| **[!UICONTROL Mostrar mín. e máx. em linhas cintilantes]** | Mostrar ou ocultar valores mínimos e máximos em gráficos de linha primária e de comparação |
+| **[!UICONTROL Mostrar comparação]** | Mostrar ou ocultar dados de comparação. Quando ocultos, o gráfico de linha de comparação e os objetos de alteração de resumo serão ocultos da exibição. |
+| **[!UICONTROL Mostrar número total]** | Mostrar ou ocultar o número do resumo |
+| **[!UICONTROL Mostrar diferença bruta]** | Mostrar ou ocultar diferença bruta entre o valor total da métrica no intervalo de datas principal e o intervalo de datas secundário |
+| **[!UICONTROL Abreviar valor]** | Abreviar valores de números para simplificar os insights comunicados (por exemplo, 20.000 -> 20K) |
 
 ## Editar visualização
 
