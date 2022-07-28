@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Instruções passo a passo para o Analysis Workspace, a principal ferramenta de análise e de visualização para o Analytics, além de ferramentas, como os painéis do Adobe Analytics, o Report Builder e o Activity Map.
-source-git-commit: 6f0d92a85003537447821687bf5385b1690dc33f
+source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 100%
 
 ---
@@ -74,11 +74,12 @@ ht-degree: 100%
          + [Configurar uma visualização de fluxo](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Fluxos interdimensionais](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histograma](analysis-workspace/visualizations/histogram.md)
+      + [Resumo da métrica principal](analysis-workspace/visualizations/key-metric.md)
       + [Mapa](analysis-workspace/visualizations/map-visualization.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
       + [Área e área empilhada](analysis-workspace/visualizations/area.md)
       + [Barra e barra empilhada](analysis-workspace/visualizations/bar.md)
-      + [Gráfico de marcadores](analysis-workspace/visualizations/bullet-graph.md)
+      + [Gráfico em marcadores](analysis-workspace/visualizations/bullet-graph.md)
       + [Rosca](analysis-workspace/visualizations/donut.md)
       + [Barra horizontal e Barra horizontal empilhada](analysis-workspace/visualizations/horizontal-bar.md)
       + [Linha](analysis-workspace/visualizations/line.md)
