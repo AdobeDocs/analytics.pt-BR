@@ -24,7 +24,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Data | Descrição |
 | --- | --- |
 | **Junho de 2022** |  |
-| Variáveis de merchandising no XDM para coleção de borda | Documentação sobre [suporte para variáveis de Merchandising no XDM para coleção de borda](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) |
+| Variáveis de merchandising no XDM para coleção de borda | Documentação sobre [suporte para variáveis de Merchandising no XDM para coleção de borda](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=pt-BR) |
 | Documentação da Experience Platform Edge | Novos artigos sobre a implementação do Adobe Analytics por meio do [SDK da Web](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=pt-BR), [SDK móvel](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=pt-BR) e [API de borda](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=pt-BR). |
 | Atualização da documentação da visualização de fluxo | Com base na [nova interface](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=pt-BR) |
 | Documentação sobre compartilhamento de anotações em cartões de pontuação móveis | Você pode exibir [anotações criadas no espaço de trabalho em cartões de pontuação móveis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=pt-BR). |
