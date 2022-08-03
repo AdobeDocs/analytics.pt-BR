@@ -3,10 +3,10 @@ description: Permite visualizar facilmente os dados de comparação no Analysis 
 title: Visualização de gráficos de combinação
 feature: Visualizations
 role: User, Admin
-source-git-commit: e2cd08ae4109e037f8b54edf21239fa6fa659896
+source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 32%
+source-wordcount: '763'
+ht-degree: 34%
 
 ---
 
@@ -30,9 +30,9 @@ Use um [!UICONTROL Gráfico de combinação] para
 Lembre-se de que você pode
 
 * Adicionar várias comparações em uma única [!UICONTROL Gráfico de combinação].
-* Se você adicionar uma ou mais comparações, elas devem ser do mesmo tipo, como Período de tempo.
+* Se você adicionar uma ou mais comparações, elas devem ser do mesmo tipo, como [!UICONTROL Comparação de tempo].
 * Você pode adicionar até 5 comparações.
-* Você pode aplicar um filtro a uma métrica.
+* É possível aplicar até 3 filtros (segmentos) a uma métrica.
 
 ## Criar um gráfico de Combinação
 
@@ -46,9 +46,9 @@ Lembre-se de que você pode
 
    | Tipo de comparação de linha | Definição |
    | --- | --- |
-   | Período | O tipo de comparação mais comum - comparando esse período com 4 semanas atrás, por exemplo. Se você selecionou Período, faça uma seleção secundária sobre qual período deseja comparar.<p>![](assets/combo-time-period.png) |
-   | Métrica adicional | Você pode, por exemplo, comparar [!UICONTROL Receita] para outra métrica.<p>![](assets/combo-2metrics.png) |
-   | Função | Você poderia apresentar uma função como [!UICONTROL Média] na comparação. Consulte uma lista de funções suportadas abaixo.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Comparação de tempo]** | O tipo de comparação mais comum - comparando esse período com 4 semanas atrás, por exemplo. Se você selecionou [!UICONTROL Comparação de tempo], faça uma seleção secundária sobre qual período deseja comparar.<p>![](assets/combo-time-period.png) |
+   | **[!UICONTROL Métrica adicional]** | Você pode, por exemplo, comparar [!UICONTROL Receita] para outra métrica.<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL Função]** | Você poderia apresentar uma função como [!UICONTROL Média] na comparação. Consulte uma lista de funções suportadas abaixo.<p>![](assets/combo-functions.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -66,11 +66,13 @@ Se você escolher **[!UICONTROL Função]** como [!UICONTROL Tipo de comparaçã
 
 | Função | Definição |
 | --- | --- |
+| **[!UICONTROL Soma da coluna]** | Adiciona todos os valores numéricos de uma métrica em uma coluna (nos elementos de uma dimensão) |
 | **[!UICONTROL Média acumulada]** | Retorna a média das últimas N linhas. |
-| **[!UICONTROL Soma]** | Adiciona todos os valores numéricos de uma métrica em uma coluna (nos elementos de uma dimensão) |
-| **[!UICONTROL Expoente]** | Retorna *e* elevado à potência de um número especificado. |
+| **[!UICONTROL Medianiz]** | Retorna a mediana de uma métrica em uma coluna. A mediana é o número presente no meio de um conjunto de números, ou seja, metade dos números apresentam valores maiores ou iguais à mediana e metade são menores ou iguais à mediana. |
+| **[!UICONTROL Cumulativo]** | A soma cumulativa de N linhas. |
+| **[!UICONTROL Máximo da coluna]** | Retorna o maior valor em um conjunto de elementos de dimensão para uma coluna de métrica. |
 | **[!UICONTROL Média]** | Retorna a média aritmética, ou média, de uma métrica. |
-| **[!UICONTROL Quartil]** | Retorna o quartil de valores de uma métrica. Por exemplo, os quartis podem ser usados para encontrar a porcentagem de 25% dos produtos com maior receita. |
+| **[!UICONTROL Mínimo da coluna]** | Retorna o menor valor em um conjunto de elementos de dimensão para uma coluna de métrica. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -90,13 +92,15 @@ Clique no ícone de engrenagem na parte superior direita de um gráfico de combi
 
 | Configuração | Definição |
 | --- | --- |
+| **[!UICONTROL Tipo de visualização]** | Permite alternar para outro tipo de visualização. |
+| **[!UICONTROL Granularidade]** | Para visualizações de tendências, você pode alterar a granularidade de tempo (dia, semana, mês etc.) nesta lista suspensa. |
 | **[!UICONTROL Geral]** |  |
 | **[!UICONTROL Porcentagens]** | Exibe os valores em porcentagens. |
 | **[!UICONTROL Legenda visível]** | Permite ocultar o texto detalhado da legenda para a visualização dos Gráficos de combinação. |
-| **[!UICONTROL Granularidade]** | Para visualizações de tendências, você pode alterar a granularidade de tempo (dia, semana, mês etc.) nesta lista suspensa. |
+| **[!UICONTROL Limite máximo de itens]** | Reduz o número de itens no eixo X. Se você tiver um grande conjunto de dados, poderá mostrar apenas os primeiros 10 itens (ou qualquer valor que escolher). |
 | **[!UICONTROL Sobreposições]** | Mostrar ou ocultar os sinalizadores de barras nas linhas. |
 | **[!UICONTROL Eixo]** |  |
-| **[!UICONTROL Exibir eixo duplo]** | Somente se aplica se você tiver duas métricas. Você pode ter um eixo Y à esquerda (para uma métrica) e outro à direta (para a outra métrica). Isso é útil quando métricas projetadas têm magnitudes muito diferentes. |
+| **[!UICONTROL Exibir eixo duplo]** | Somente se aplica se você tiver duas métricas. Você pode ter um eixo Y à esquerda (para uma métrica) e outro à direta (para a outra métrica). Isso é útil quando métricas projetadas têm magnitudes muito diferentes. A cor do eixo duplo corresponde à cor da tabela, a menos que haja várias comparações. Nesse caso, a cor de todas as comparações é cinza. |
 | **[!UICONTROL Normalização]** | Força as métricas para proporções iguais. Isso é útil quando métricas projetadas têm magnitudes muito diferentes. |
 | **[!UICONTROL Mostrar eixo x]** | Exiba o eixo x ou oculte-o. |
 | **[!UICONTROL Mostrar eixo y]** | Exiba o eixo y ou oculte-o. |
