@@ -3,13 +3,13 @@ description: Permite visualizar facilmente os dados de comparação no Analysis 
 title: Visualização de gráficos de combinação
 feature: Visualizations
 role: User, Admin
-source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
+source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 34%
 
 ---
-
 
 # Gráfico de combinação
 
@@ -47,8 +47,8 @@ Lembre-se de que você pode
    | Tipo de comparação de linha | Definição |
    | --- | --- |
    | **[!UICONTROL Comparação de tempo]** | O tipo de comparação mais comum - comparando esse período com 4 semanas atrás, por exemplo. Se você selecionou [!UICONTROL Comparação de tempo], faça uma seleção secundária sobre qual período deseja comparar.<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL Métrica adicional]** | Você pode, por exemplo, comparar [!UICONTROL Receita] para outra métrica.<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL Função]** | Você poderia apresentar uma função como [!UICONTROL Média] na comparação. Consulte uma lista de funções suportadas abaixo.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Métrica secundária]** | Você pode, por exemplo, comparar [!UICONTROL Receita] para outra métrica.<p>![](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -107,5 +107,3 @@ Clique no ícone de engrenagem na parte superior direita de um gráfico de combi
 | **[!UICONTROL Âncora do eixo y em zero]** | Se todos os valores exibidos no gráfico forem consideravelmente superiores a zero, o padrão do gráfico tornará a parte inferior do eixo y DIFERENTE DE ZERO. Se marcar esta caixa, o eixo y será forçado a zero (e o gráfico será redesenhado). |
 
 {style=&quot;table-layout:auto&quot;}
-
-
