@@ -5,9 +5,9 @@ title: Perguntas frequentes sobre feeds de dados
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1437'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 94%
 
 Perguntas frequentes sobre feeds de dados.
 
-## Os nomes dos feeds devem ser exclusivos?{#unique}
+## Os nomes dos feeds devem ser exclusivos? {#unique}
 
 Os nomes de arquivos do feed de dados são criados a partir da ID do conjunto de relatórios e data. Qualquer par de feeds configurados para a mesma RSID (ID do conjunto de relatórios) e data terá o mesmo nome de arquivo. Se esses feeds forem entregues na mesma localização, um arquivo sobreporá o outro. Para evitar uma sobreposição de arquivos, não é possível criar um feed com potencial para sobrepor um feed já existente na mesma localização.
 
-Tentar criar um feed quando outro existir com o mesmo nome de arquivo resulta em uma mensagem de erro. Considere as seguintes soluções alternativas:
+Tentar criar um feed quando já existe outro com o mesmo nome de arquivo resulta em uma mensagem de erro. Considere as seguintes soluções alternativas:
 
 * Alterar o caminho de entrega
 * Alterar as datas, se possível
@@ -97,5 +97,5 @@ No entanto, objetos não herdam permissões do bucket primário. Portanto, se o 
 
 >[!NOTE]
 >
->O Adobe Analytics não determina se o bucket tem uma política que requer fornecer ao proprietário do bucket controle total de novos objetos, ou mesmo se o proprietário do bucket estiver em uma conta diferente da do usuário que está gravando os dados. Em vez disso, o Analytics adiciona automaticamente o proprietário do compartimento ao `BucketOwnerFullControl` ACL com cada upload de feed.
+>O Adobe Analytics não determina se o bucket tem uma política que requer que o seu proprietário tenha total controle de novos objetos, ou mesmo se o proprietário do bucket está em uma conta diferente daquela do usuário que está gravando os dados. Em vez disso, o Analytics adiciona automaticamente o proprietário do bucket à ACL do `BucketOwnerFullControl` a cada upload de feed.
 
