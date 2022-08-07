@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
 workflow-type: tm+mt
 source-wordcount: '3448'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,21 +24,21 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Data | Descrição |
 | --- | --- |
 | **Junho de 2022** |  |
-| Variáveis de merchandising no XDM para coleção de borda | Documentação sobre [suporte para variáveis de Merchandising no XDM para coleção de borda](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=pt-BR) |
+| Variáveis de merchandising no XDM do Edge Collection | Documentação sobre a [compatibilidade com variáveis de merchandising no XDM do Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=pt-BR) |
 | Documentação da Experience Platform Edge | Novos artigos sobre a implementação do Adobe Analytics por meio do [SDK da Web](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=pt-BR), [SDK móvel](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=pt-BR) e [API de borda](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=pt-BR). |
 | Atualização da documentação da visualização de fluxo | Com base na [nova interface](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=pt-BR) |
-| Documentação sobre compartilhamento de anotações em cartões de pontuação móveis | Você pode exibir [anotações criadas no espaço de trabalho em cartões de pontuação móveis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=pt-BR). |
+| Documentação sobre compartilhamento de anotações em cartões de pontuação móveis | Você pode exibir [anotações criadas no Analysis Workspace em cartões de pontuação móveis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=pt-BR). |
 | Documentação sobre a versão da sintaxe do produto de variáveis de merchandising com o Edge Collection | Agora é possível definir variáveis de merchandising usando o equivalente da sintaxe de produto ao definir os campos XDM relevantes. Encontre mais detalhes sobre sintaxe de produto para variáveis de merchandising [aqui](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=pt-BR). Consulte os mapeamentos para a sintaxe de produto [aqui](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR#aep-edge). |
 | **Maio de 2022** |  |
 | Preencher dimensões e métricas do ciclo de vida por meio do Experience Edge | Os dados do ciclo de vida móvel enviados pelo Experience Edge agora serão exibidos nos relatórios do Analytics. Consulte a documentação para obter detalhes sobre quais campos XDM são mapeados para relatórios de ciclo de vida móvel existentes. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) |
 | **Abril de 2022** |  |
-| Página de aterrissagem do Adobe Analytics | Atualizações na [página de aterrissagem conjunta do Espaço de trabalho/Reports &amp; Analytics](/help/analyze/landing.md) que melhoram a usabilidade e a facilidade de navegação. |
+| Página de aterrissagem do Adobe Analytics | Atualizações na [página de aterrissagem conjunta do Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md) que melhoram a usabilidade e a facilidade de navegação. |
 | Novo tópico sobre o painel [!UICONTROL Resumo da página] | [Painel Resumo da página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Novo tópico sobre o painel [!UICONTROL Item seguinte/anterior] | [Painel Item de dimensão seguinte/anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Março de 2022** |  |
 | Novo tópico sobre algoritmos de criptografia HTTPS compatíveis | [Algoritmos de criptografia HTTPS compatíveis](/help/technotes/rdc/encryption-algos.md) para clientes com nível de segurança de cifra definido como “Alto”. |
-| Nova documentação sobre anotações no espaço de trabalho | [As anotações no espaço de trabalho](/help/analyze/analysis-workspace/components/annotations/overview.md) permitem comunicar com eficiência nuances de dados contextuais e insights à sua organização. |
-| Página de aterrissagem do Adobe Analytics | [Atualizações](/help/analyze/landing.md) na página de aterrissagem conjunta do Espaço de trabalho/Reports &amp; Analytics que melhoram a usabilidade e a facilidade de navegação. |
+| Nova documentação sobre anotações no Analysis Workspace | [As anotações no Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) permitem comunicar com eficiência nuances de dados contextuais e insights à sua organização. |
+| Página de aterrissagem do Adobe Analytics | [Atualizações](/help/analyze/landing.md) na página de aterrissagem conjunta do Analysis Workspace/Reports &amp; Analytics que melhoram a usabilidade e a facilidade de navegação. |
 | [!UICONTROL Próximo item] ou [!UICONTROL Item anterior] no painel Espaço de trabalho | Esse painel permite explorar itens que seguem ou precedem um item de dimensão de sua escolha. |
 | [!UICONTROL Resumo da página] no painel Espaço de trabalho | Esse painel fornece uma análise detalhada para uma página de sua escolha. |
 | Novo tópico sobre como pausar relatórios agendados mais antigos | A partir de **15 de abril de 2022**, a Adobe pretende [pausar todos os relatórios agendados com data de criação superior a dois anos](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
@@ -131,7 +131,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 18 de fevereiro de 2020 | Variável adicionada [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
 | 12 de fevereiro de 2020 | Atualizações e reorganização da documentação de [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 | 12 de fevereiro de 2020 | Adição de novas teclas de atalho [esta página do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=pt-BR) |
-| 7 de fevereiro de 2020 | Atualizações da [Configuração de análise entre dispositivos](/help/components/cda/setup.md) e [Perguntas frequentes](/help/components/cda/faq.md). |
+| 7 de fevereiro de 2020 | Atualizações da [Configuração do Analytics entre dispositivos](/help/components/cda/setup.md) e [Perguntas frequentes](/help/components/cda/faq.md). |
 | 4 de fevereiro de 2020 | Substituição completa do [guia de usuário de implementação](/help/implement/home.md). |
 | 22 de janeiro de 2020 | Atualização da página Freeform Table para incluir informações sobre o novo [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | **Janeiro de 2020** |  |
@@ -152,7 +152,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 1 de outubro de 2019 | Novo artigo em [Totais do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR#cja-workspace). |
 | 28 de setembro de 2019 | Novos artigos sobre [variáveis de configuração para a implementação do Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 19 de setembro de 2019 | Documentação de segmentação revisada para explicar os [Containers do grupo lógico](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=pt-BR#logic-group-containers). |
-| 12 de setembro de 2019 | Nova documentação do [IQ de jornada: análise entre dispositivos](/help/components/cda/overview.md). |
+| 12 de setembro de 2019 | Nova documentação do [IQ de jornada:  Analytics entre dispositivos](/help/components/cda/overview.md). |
 | 12 de setembro de 2019 | Atualize o documento [Totais de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=pt-BR). |
 | 28 de agosto de 2019 | Novo artigo sobre [Aplicativos da Web progressivos (PWAs) para o Analytics](/help/technotes/pwa.md). |
 | 8 de agosto de 2019 | Novo artigo em [Totais de métricas calculadas](/help/components/c-calcmetrics/cm-totals.md). |
