@@ -3,10 +3,10 @@ title: produtos
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 73%
+source-wordcount: '602'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ A variável `products` rastreia produtos e propriedades associadas a eles. Norma
 
 ## Produtos que usam o SDK da Web
 
-Os produtos são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) em vários campos XDM:
+Os produtos são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) em vários campos XDM:
 
 * A categoria está mapeada para `productListItems[].lineItemId`.
 * O produto é mapeado para `productListItems[].name`.
@@ -31,8 +31,7 @@ Os produtos são [mapeado para Adobe Analytics](https://experienceleague.adobe.c
 
 >[!NOTE]
 >
->`lineItemId` precisa ser adicionado como um campo personalizado, pois não faz parte do esquema padrão de Evento do Analytics. Adicionaremos um campo &quot;category&quot; dedicado no futuro.
-
+>`lineItemId` precisa ser adicionado como um campo personalizado, pois ainda não faz parte do esquema padrão de Evento do Analytics. O Adobe planeja adicionar um campo &quot;Categoria&quot; dedicado no futuro.
 
 ## Produtos que usam a extensão Adobe Analytics
 
