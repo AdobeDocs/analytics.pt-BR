@@ -2,10 +2,10 @@
 title: Mapeamento de variável do Analytics na Adobe Experience Edge
 description: Visualize quais campos XDM a borda mapeia automaticamente para variáveis do Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 99%
+source-wordcount: '1381'
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Define a respectiva dimensão da [eVar](../../components/dimensions/evar.md). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | O delimitador usado para uma determinada [Propriedade de lista](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Uma matriz de sequência de caracteres que contém os respectivos valores da [Propriedade de lista](../vars/page-vars/prop.md#list-props). |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena tudo `value` strings em cada `list[]` à sua [Variável de lista](../vars/page-vars/list.md). |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena tudo `value` strings em cada `list[]` à sua [Variável de lista](../vars/page-vars/list.md) uso de delimitadores de vírgula. |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Define a respectiva dimensão de [Propriedade](../../components/dimensions/prop.md). |
 | `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Aplica a [serialização de eventos](../vars/page-vars/events/event-serialization.md) à respectiva métrica de [Eventos personalizados](../../components/metrics/custom-events.md). |
 | `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Aumenta a respectiva métrica de [Eventos personalizados](../../components/metrics/custom-events.md) na quantidade desejada. |
@@ -108,9 +108,10 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eventos. |
 | `productListItems[].lineItemId` | A dimensão [Categoria](../../components/dimensions/category.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
-| `productListItems[].name` | A dimensão [Produto](../../components/dimensions/product.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
+| `productListItems[].name` | A dimensão [Produto](../../components/dimensions/product.md). Consulte também a variável da página de [produtos. ](../vars/page-vars/products.md) If `productListItems[].SKU` e `productListItems[].name` ambos contêm dados, o valor em `productListItems[].SKU` é usada. |
 | `productListItems[].priceTotal` | Ajuda a determinar a métrica [Receita](../../components/metrics/revenue.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
 | `productListItems[].quantity` | Ajuda a determinar a métrica [Unidades](../../components/metrics/units.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
+| `productListItems[].SKU` | A dimensão [Produto](../../components/dimensions/product.md). Consulte também a variável da página de [produtos. ](../vars/page-vars/products.md) If `productListItems[].SKU` e `productListItems[].name` ambos contêm dados, o valor em `productListItems[].SKU` é usada. |
 | `web.webInteraction.URL` | A variável de implementação [linkURL](../vars/config-vars/linkurl.md). |
 | `web.webInteraction.name` | A dimensão [Link personalizado](../../components/dimensions/custom-link.md), [Link de download](../../components/dimensions/download-link.md) ou [Link de saída](../../components/dimensions/exit-link.md), dependendo do valor em `web.webInteraction.type` |
 | `web.webInteraction.type` | Determina o tipo de link clicado. Os valores válidos incluem `other` (Links personalizados), `download` (Links de download) e `exit` (Links de saída). |
