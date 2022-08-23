@@ -3,10 +3,10 @@ title: Criar uma camada de dados
 description: Saiba o que é uma camada de dados na implementação do Analytics e como ela pode ser usada para mapear variáveis no Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
+source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 63%
+source-wordcount: '468'
+ht-degree: 60%
 
 ---
 
@@ -36,11 +36,7 @@ A implementação do Adobe Analytics usando uma camada de dados geralmente segue
 
 O Adobe recomenda usar a variável [Camada de dados do cliente Adobe](https://github.com/adobe/adobe-client-data-layer/wiki) para implementações novas ou reestruturadas.
 
-Sua organização pode usar outras especificações de camada de dados, como [Camada de dados digitais da experiência do cliente](https://www.w3.org/2013/12/ceddl-201312.pdf)ou outra camada de dados personalizada totalmente. Alinhar com uma camada de dados consistente que atenda às necessidades de sua organização é o mais importante.
-
-
-
-Use o relatório [Camada de dados digitais da experiência do cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) para obter detalhes sobre cada objeto e objeto secundário. Nem todos os sites usam todos os objetos; por exemplo, se você hospeda um site de notícias, é improvável que use a matriz de objeto `digitalData.product`.
+Sua organização pode usar outras especificações de camada de dados, como [Camada de dados digitais da experiência do cliente](https://www.w3.org/2013/12/ceddl-201312.pdf)ou outra especificação personalizada totalmente. Alinhar com uma camada de dados consistente que atenda às necessidades de sua organização é o mais importante.
 
 As camadas de dados são extensíveis; se você tiver requisitos específicos da organização, poderá incluir objetos na camada de dados para acomodar essas necessidades.
 
