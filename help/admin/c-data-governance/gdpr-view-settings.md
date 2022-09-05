@@ -4,9 +4,9 @@ title: Exibir/gerenciar as configurações de governança de dados do conjunto d
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '517'
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
 
 >[!NOTE]
 >
->Se você não vir esse item de menu, precisará ser adicionado a um [perfil de produto no Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=pt-BR) com permissões para essa funcionalidade.
+>Se não puder ver esse item de menu, você precisará ser adicionado a um [perfil de produto no Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=pt-BR) com permissões para essa funcionalidade.
 
-1. Visualize todos os conjuntos de relatórios que fazem parte de sua empresa de logon:
+1. Ver todos os conjuntos de relatórios que fazem parte da empresa de logon:
 
    ![](assets/privacy_setup_an.png)
 
@@ -29,7 +29,7 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
 | --- | --- |
 | **[!UICONTROL Conjuntos de relatórios]** | A primeira linha lista o nome amigável do conjunto de relatórios. A segunda linha contém o nome interno do conjunto de relatórios. Se você tiver permissão para definir rótulos para um conjunto de relatórios, a primeira linha será um link clicável que encaminhará você à página de rotulagem. |
 | **[!UICONTROL Mapeamento da organização]** | <ul><li>Mapeado: esse conjunto de relatórios já foi mapeado para a mesma organização da Experience Cloud que a empresa de logon do Analytics na qual você está conectado. Somente conjuntos de relatórios com essa configuração podem ser rotulados.</li><li>Mapeado a outra organização: outra organização da Experience Cloud já mapeou esse conjunto de relatórios para uma organização.</li></ul> |
-| **[!UICONTROL Política de retenção de dados]** | A implementação da Privacidade de dados do Analytics exige que você tenha uma política de retenção de dados em vigor. Esta configuração mostra se:<ul><li>Uma política de retenção de dados está em vigor para este conjunto de relatórios e</li><li>Por quanto tempo os dados ficam retidos pela Adobe antes de serem excluídos. O período de retenção de dados padrão é de 25 meses.</li></ul>**Observação**: A Adobe Analytics não pode ajudá-lo com o processamento de solicitações para a API da Privacidade de dados, ou seja, com o processamento de solicitações de acesso ou de exclusão recebidas dos usuários finais, se um período de retenção de dados não tiver sido definido. Entre em contato com o gerente de sucesso do cliente para definir o período de retenção de dados. |
+| **[!UICONTROL Política de retenção de dados]** | A implementação da Privacidade de dados do Analytics exige que você tenha uma política de retenção de dados em vigor. Esta configuração mostra se:<ul><li>Uma política de retenção de dados está em vigor para este conjunto de relatórios e</li><li>Por quanto tempo os dados ficam retidos pela Adobe antes de serem excluídos. O período de retenção de dados padrão é de 25 meses.</li></ul>**Observação**: o Adobe Analytics não pode ajudá-lo com o processamento de solicitações da API de privacidade de dados (ou seja, com o processamento de solicitações de acesso ou de exclusão recebidas dos usuários finais) se o período de retenção de dados não tiver sido definido. Entre em contato com o gerente de sucesso do cliente para definir o período de retenção de dados. |
 | **[!UICONTROL Grupos]** | Atualmente, o recurso de agrupamento não está implementado. |
-| Barra à esquerda | Clique no ícone de funil para abrir ou fechar a barra lateral. O [!UICONTROL Mapeamento da organização] exibe o número de conjuntos de relatórios que se enquadram em cada uma das categorias descritas. O [!UICONTROL Política de retenção de dados] exibe cada política de retenção de dados exclusiva atualmente em vigor para a sua organização e o número de conjuntos de relatórios atribuídos a essa política de retenção. |
+| Barra à esquerda | Clique no ícone de funil para abrir ou fechar a barra lateral. A seção [!UICONTROL Mapeamento da organização] exibe o número de conjuntos de relatórios que se enquadram em cada uma das categorias descritas. A seção [!UICONTROL Política de retenção de dados] exibe cada política de retenção de dados exclusiva que está em vigor atualmente para a sua organização, bem como o número de conjuntos de relatórios atribuídos a essa política de retenção. |
 | **[!UICONTROL Exportar para CSV]** | Se você marcar a caixa de seleção próxima de um ou mais conjuntos de relatórios, a opção Exportar para CSV será exibida. Essa opção permite baixar um arquivo CSV que contenha todas as definições de rótulo atuais de todas as variáveis para todos os conjuntos de relatórios selecionados. Recomendamos que a sua equipe jurídica analise as escolhas de rotulagem e essa opção facilita a análise. Em vez de precisar executar a análise enquanto estiver conectado à interface do usuário na Governança de dados, você pode compartilhar o arquivo CSV com a equipe. |
