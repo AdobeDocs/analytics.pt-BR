@@ -4,10 +4,10 @@ title: Segmentos rápidos
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 75%
+source-wordcount: '909'
+ht-degree: 73%
 
 ---
 
@@ -71,7 +71,7 @@ O segmento aparece na parte superior. Observe a barra lateral com listras azuis,
 ## Salvar segmentos rápidos
 
 >[!IMPORTANT]
->Depois de salvar ou aplicar o segmento, não é mais possível editá-lo no Construtor de segmentos rápido, somente no Construtor de segmentos comum.
+>Depois de salvar ou aplicar o segmento, não é mais possível editá-lo no Construtor de segmentos rápido, somente no Construtor de segmentos comum. Somente os administradores de produtos da Adobe Analytics e o criador do segmento rápido podem salvar as alterações em um segmento rápido existente.
 
 1. Depois de aplicar o segmento rápido, passe o mouse sobre ele e selecione o ícone de informações (&quot;i&quot;).
 
