@@ -3,9 +3,9 @@ description: Os conjuntos de relatórios virtuais segmentam seus dados do Adobe 
 title: Visão geral dos conjuntos de relatórios virtuais
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,6 @@ Os conjuntos de relatórios virtuais ajudam a:
 * Simplificar a implementação ao permitir o uso de uma única ID de conjunto de relatórios (RSID) em todos os sites/domínios. A presença de todos os dados em um único conjunto de relatórios permite a análise do cliente na nova geração do Adobe Analytics.
 * Os usuários comerciais da organização a sempre observar apenas os segmentos de dados relevantes para eles.
 * Melhorar a segurança ao permitir que usuários administradores controlem o acesso aos dados de modo mais fácil e granular após a implementação.
-* Fornecer a capacidade de participar da Device Co-op
 * Métrica de pessoas
 * Uma visão de um único cliente dos dados (no futuro)
 * A capacidade de criar conjuntos de relatórios virtuais ilimitados para segmentar dados

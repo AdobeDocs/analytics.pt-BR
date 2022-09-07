@@ -2,10 +2,10 @@
 title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Análise entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '1934'
-ht-degree: 100%
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '1927'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ A compilação entre dispositivos do CDA ocorre em dois processos simultâneos.
 
 * O segundo processo é chamado de &quot;repetição&quot;. Durante a repetição, o CDA recua no tempo e reafirma os dados históricos, quando possível, em uma janela de pesquisa especificada. Essa janela de pesquisa é de 1 dia ou 7 dias, dependendo de como você solicitou a configuração do CDA. Durante a repetição, o CDA tenta reafirmar as ocorrências em que a pessoa era anteriormente desconhecida.
 
-* **Se estiver usando um gráfico de dispositivos**, a Adobe mantém os mapeamentos de dispositivo no Gráfico cooperativo e no Gráfico privado por aproximadamente 6 meses. Uma ECID que não tem atividade por mais de seis meses é removida do gráfico. Os dados já compilados no CDA não são afetados, mas as ocorrências subsequentes dessa ECID são tratadas como uma nova pessoa.
+* **Se estiver usando um gráfico de dispositivos**, o Adobe mantém os mapeamentos do Gráfico de dispositivos por aproximadamente 6 meses. Uma ECID que não tem atividade por mais de seis meses é removida do gráfico. Os dados já compilados no CDA não são afetados; as ocorrências subsequentes dessa ECID são tratadas como uma nova pessoa.
 
 ## Como o CDA trata as ocorrências com carimbos de data e hora?
 

@@ -2,9 +2,9 @@
 title: Análise entre dispositivos
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '883'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
@@ -15,11 +15,7 @@ O Análise entre dispositivos é um recurso que transforma o Analytics de uma ex
 
 * [**Compilação em campo**](field-based-stitching.md): opção de compilação recomendada porque ela usa apenas a correspondência determinística para vincular dispositivos.
 Ela permite escolher uma variável do Analytics como base para a compilação entre dispositivos em um conjunto de relatórios virtual.
-* [**Gráfico de dispositivos**](device-graph.md): o CDA se comunica com um gráfico de dispositivos para compilar dispositivos. O gráfico cooperativo usa correspondência determinística e probabilística.
-
->[!NOTE]
->
->Leia mais sobre o [fim da vida útil do Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=pt-BR).
+* [**Gráfico de dispositivos**](device-graph.md): o CDA se comunica com um gráfico de dispositivos para compilar dispositivos.
 
 Com o CDA, você pode responder a perguntas como:
 
