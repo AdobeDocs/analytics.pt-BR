@@ -2,10 +2,10 @@
 title: Configurar o Cross-Device Analytics
 description: Configure um conjunto de relatórios virtual para ativar o CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
+source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ O CDA é provisionado em seu conjunto de relatórios entre dispositivos pela eng
 
 * Sua ID organizacional da Adobe Experience Cloud (uma sequência alfanumérica terminando em @AdobeOrg)
 * A ID de conjunto de relatórios para o conjunto de relatórios entre dispositivos que você deseja ativar com o CDA
-* Qual método de CDA você deseja usar (costura baseada em campo, gráfico privado da Adobe ou gráfico cooperativo da Adobe)
+* Qual método de CDA você deseja usar (Configuração baseada em campo ou Gráfico de dispositivos Adobe)
 * Se você pretende usar a costura baseada em campo, a propriedade ou eVar que contém a ID do usuário
 * Sua preferência por frequência de repetição e duração da retrospectiva. As opções incluem uma repetição uma vez por semana com uma janela de retrospectiva de sete dias ou uma repetição todos os dias com uma janela de retrospectiva de um dia.
 O padrão é a repetição semanal com uma janela de retrospectiva de 7 dias. Neste caso, os dados da última semana estão sujeitos a alterações (uma vez que estão sendo progressivamente compilados e atualizados).
