@@ -4,10 +4,10 @@ description: Variáveis personalizadas vinculadas a produtos individuais.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 75%
+source-wordcount: '541'
+ht-degree: 71%
 
 ---
 
@@ -48,6 +48,10 @@ As variáveis de merchandising da sintaxe do produto são [mapeado para Adobe An
 
 * As eVars de merchandising da sintaxe do produto são mapeadas em `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` para `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
 * Os eventos de merchandising da sintaxe do produto são mapeados em `productListItems[]._experience.analytics.event1to100.event1.value` para `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Serialização de eventos](events/event-serialization.md) Campos XDM são mapeados em `productListItems[]._experience.analytics.event1to100.event1.id` para `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+>[!NOTE]
+>
+>Ao definir eventos em `productListItems`, não é necessário defini-los na string do evento. Se estiverem definidos em ambos os lugares, o valor na cadeia de caracteres do evento terá prioridade.
 
 O exemplo a seguir mostra um único [produto](products.md) usando várias eVars de merchandising e eventos:
 
