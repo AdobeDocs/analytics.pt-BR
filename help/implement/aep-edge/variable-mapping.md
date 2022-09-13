@@ -2,10 +2,10 @@
 title: Mapeamento de variável do Analytics na Adobe Experience Edge
 description: Visualize quais campos XDM a borda mapeia automaticamente para variáveis do Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
+source-git-commit: 610cab7cf71f178af2166133728e9152f0175c47
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 99%
+source-wordcount: '1398'
+ht-degree: 98%
 
 ---
 
@@ -106,6 +106,7 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `placeContext.geo.longitude` | A longitude da dimensão móvel. |
 | `placeContext.geo.postalCode` | A dimensão [Código postal](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | A dimensão [Estados dos Estados Unidos](../../components/dimensions/us-states.md). |
+| `placeContext.localTime` | Ajuda a preencher [Fusos horários](/help/analyze/reports-analytics/reports.md) no Reports &amp; Analytics. Aparece como `t_time_info` em [Feeds de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eventos. |
 | `productListItems[].lineItemId` | A dimensão [Categoria](../../components/dimensions/category.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
