@@ -3,10 +3,10 @@ title: produtos
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 73%
+source-wordcount: '632'
+ht-degree: 71%
 
 ---
 
@@ -27,11 +27,11 @@ Os produtos são [mapeado para Adobe Analytics](https://experienceleague.adobe.c
 * A quantidade é mapeada para `productListItems[].quantity`.
 * O preço é mapeado para `productListItems[].priceTotal`.
 * As eVars de merchandising são mapeadas para `productListItems._experience.analytics.customDimensions.eVars.eVar1` para `productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependendo de qual eVar você deseja vincular a um produto.
-* Os eventos de merchandising são mapeados para `productListItems[]._experience.analytics.event1to100.event1.value` para `productListItems._experience.analytics.event901to1000.event1000.value`, dependendo de qual evento você deseja vincular a um produto.
+* Os eventos de merchandising são mapeados para `productListItems[]._experience.analytics.event1to100.event1.value` para `productListItems._experience.analytics.event901to1000.event1000.value`, dependendo de qual evento você deseja vincular a um produto. Se você definir um evento em um desses campos, ele será incluído automaticamente na variável [evento](events/events-overview.md) string enviada ao Adobe Analytics.
 
 >[!NOTE]
 >
->`lineItemId` precisa ser adicionado como um campo personalizado, pois ainda não faz parte do esquema padrão de Evento do Analytics. O Adobe planeja adicionar um campo &quot;Categoria&quot; dedicado no futuro.
+>`lineItemId` deve ser adicionado como um campo personalizado, pois ainda não faz parte do esquema padrão de Evento do Analytics. O Adobe planeja adicionar um campo &quot;Categoria&quot; dedicado no futuro.
 
 ## Produtos que usam a extensão Adobe Analytics
 
