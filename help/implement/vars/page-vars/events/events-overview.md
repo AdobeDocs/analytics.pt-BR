@@ -3,10 +3,10 @@ title: events
 description: Defina a variável events, que governa a maioria das métricas do site.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
+source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 84%
+source-wordcount: '809'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ Os eventos personalizados são [mapeado para Adobe Analytics](https://experience
 
 * Os eventos personalizados 1-100 são mapeados para `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Os eventos personalizados 101-200 são mapeados para `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Esse padrão se repete a cada 100 eventos para `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` é usada para especificar o valor. `eventx.id` é usada para especificar a id para serialização.
+* Esse padrão se repete a cada 100 eventos para `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` é usada para especificar a quantidade a ser incrementada. `eventx.id` é usado para [serialização](event-serialization.md).
 * Os pedidos são mapeados para `commerce.purchases.value`.
 * As unidades são mapeadas para a soma de todos `productListItems[].quantity` campos.
 * A receita é mapeada para a soma de todos `productListItems[].priceTotal` campos.
@@ -32,6 +32,10 @@ Os eventos personalizados são [mapeado para Adobe Analytics](https://experience
 * As Remoções do carrinho são mapeadas para `commerce.productListRemovals.value`.
 * As exibições do carrinho são mapeadas para `commerce.productListViews.value`.
 * Os check-outs são mapeados para `commerce.checkouts.value`.
+
+>[!NOTE]
+>
+>Se um evento for definido em `productListItems` (por exemplo, `productListItems._experience.analytics.event1.value`) e o evento ainda não estiver nesse campo, ele será adicionado automaticamente a esse campo.
 
 ## Eventos que usam a extensão Adobe Analytics
 
@@ -49,7 +53,7 @@ Vários recursos estão disponíveis:
 * Uma lista suspensa permite selecionar o evento para incluir.
 * um campo de texto opcional para serialização. Consulte [Serialização de eventos](event-serialization.md) para obter mais informações.
 * Um campo de texto opcional para um valor de evento. Você pode incluir moeda para eventos de moeda, ou um número inteiro para eventos que não sejam de moeda para incrementá-lo várias vezes. Por exemplo, a seleção de `event1` na lista suspensa e a inclusão de `10` neste campo incrementa `event1` em 10 nos relatórios.
-* Um botão para adicionar outro evento. Não há um limite razoável para o número de eventos que podem ser incluídos em uma ocorrência.
+* Um botão para adicionar outro evento. Você pode adicionar quantos eventos desejar a uma única regra dentro do devido tempo.
 
 ## s.events no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
