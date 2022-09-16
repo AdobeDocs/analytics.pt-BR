@@ -1,9 +1,9 @@
 ---
 title: Ordem de processamento dos dados no Adobe Analytics
 description: Saiba a ordem dos componentes e serviços que processam dados no Adobe Analytics.
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,15 @@ ht-degree: 0%
 
 O Adobe oferece várias maneiras de alterar ou manipular dados antes de serem exibidos nos relatórios. Esta página mostra a ordem em que vários recursos do Adobe Analytics processam dados. Você pode usar esta lista para solucionar problemas de inconsistência de dados ou determinar o melhor recurso a ser usado quando os ajustes de dados forem necessários.
 
+![Processamento do pedido](assets/processing-order.png)
+
 ## Dados antes de serem enviados para o Adobe
 
 Antes de os dados serem enviados para o Adobe, eles normalmente são compilados no lado do cliente usando um dos seguintes métodos:
 
 * **AppMeasurement**: Um arquivo JavaScript hospedado em seu site e referenciado em cada página. Os dados são enviados diretamente para a Adobe Analytics.
 * **Adobe Experience Platform Web SDK**: Um arquivo JavaScript hospedado em seu site e referenciado em cada página. Os dados são enviados para o Adobe Experience Edge.
-* **Tags na coleta de dados do Adobe Experience Cloud**: Uma referência do JavaScript em cada página, contendo regras criadas na interface do usuário da coleta de dados. A extensão Adobe Analytics oferece uma maneira mais fácil de implementar o AppMeasurement. A extensão Web SDK oferece uma maneira mais fácil de implementar o SDK da Web.
+* **Tags na coleta de dados do Adobe Experience Cloud**: Um arquivo JavaScript referenciado em cada página, contendo regras criadas na interface do usuário da coleta de dados. A extensão Adobe Analytics oferece uma maneira mais fácil de implementar o AppMeasurement. A extensão Web SDK oferece uma maneira mais fácil de implementar o SDK da Web.
 
 Se você enviar dados para o Adobe Experience Edge, poderá configurá-los para encaminhá-los para o Adobe Analytics (bem como para muitas outras soluções da Adobe Experience Cloud). Independentemente do método de implementação, uma solicitação de imagem com as variáveis desejadas é enviada para os servidores de coleta de dados do Adobe.
 
