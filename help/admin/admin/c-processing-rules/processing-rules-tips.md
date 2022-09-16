@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Dicas e truques para regras de processamento
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '490'
-ht-degree: 100%
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 95%
 
 ---
 
@@ -60,3 +60,9 @@ Os termos de pesquisa extraídos de uma sequência de consulta devem ser correta
 Selecione a condição de correspondência certa para encontrar a condição mais restritiva que corresponda corretamente. É possível pesquisar valores em um relatório antes de criar uma regra, para ter certeza de que não há correspondências indesejadas. Por exemplo, você deve pesquisar o relatório Prop2 para encontrar todos os locais em que há correspondência com essa condição antes de habilitar essa regra.
 
 ![](assets/tips-startswith.png)
+
+## Como as regras de processamento são aplicadas quando se copiam ocorrências usando o VISTA
+
+Se você tiver uma regra VISTA configurada para copiar ocorrências para outro conjunto de relatórios, as ocorrências serão enviadas por meio de quaisquer regras de processamento definidas em outro conjunto de relatórios.
+
+Se você tiver regras de processamento definidas no conjunto de relatórios original, essas regras poderão ou não ser aplicadas com base em como a regra VISTA foi configurada pelos Serviços de engenharia. Para saber, você pode perguntar a seu especialista de implementação se a regra VISTA copia os valores &quot;pré&quot; e &quot;pós&quot; para o conjunto de relatórios adicional. Se o valor &quot;pré&quot; é copiado, as regras de processamento definidas no conjunto de relatórios original não são aplicadas. Se o valor &quot;pós&quot; é copiado, as regras de processamento são aplicadas antes de a ocorrência ser copiada.

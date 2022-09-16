@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Como as regras de processamento funcionam
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
+source-git-commit: 65b3a9001aa062429a870d374af20618c532de35
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
@@ -47,7 +47,7 @@ A tabela a seguir contém os principais conceitos de que você precisa compreend
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras de processamento são aplicadas antes das regras VISTA e das regras de Canal de marketing. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Ordem de processamento </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/technotes/processing-order.md"> Ordem de processamento </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ocorrências não podem ser excluídas. </p> </td> 

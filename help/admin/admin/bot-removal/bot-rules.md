@@ -3,10 +3,10 @@ description: As regras de bot permitem que você remova o tráfego que é gerado
 title: Visão geral das regras de bot
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 65b3a9001aa062429a870d374af20618c532de35
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 100%
+source-wordcount: '1369'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ O campo **[!UICONTROL contém]** limita-se a 100 caracteres. A lista de não con
 
 ### Endereço IP (inclusive correspondências curingas)
 
-Corresponde a um endereço IP ou vários endereços no mesmo bloco usando curingas (*). Forneça os valores numéricos do endereço IP que deseja encontrar. Substitua * por qualquer valor que deseja encontrar usando um curinga. A lista a seguir contém exemplos de string de correspondência do endereço IP:
+Corresponde a um endereço IP ou vários endereços no mesmo bloco usando curingas (&#42;). Forneça os valores numéricos do endereço IP que deseja encontrar. Substituto &#42; para qualquer valor que você deseja corresponder usando um curinga. A lista a seguir contém exemplos de string de correspondência do endereço IP:
 
 ```
 10.10.10.1
@@ -74,7 +74,7 @@ Corresponde a um endereço IP ou vários endereços no mesmo bloco usando curing
 
 ### Intervalo de endereço IP
 
-Forneça os valores inicial e final do intervalo de endereços IP que deseja encontrar. Substitua * por qualquer valor que deseja encontrar usando um curinga.
+Forneça os valores inicial e final do intervalo de endereços IP que deseja encontrar. Substituto &#42; para qualquer valor que você deseja corresponder usando um curinga.
 
 ### Definir uma regra de bot personalizada
 
@@ -118,12 +118,11 @@ Marque a caixa de seleção **[!UICONTROL Substituir todas as regras]** para exc
 
 O botão **[!UICONTROL Exportar o arquivo de bot carregado]** exporta todas as regras definidas na interface do usuário em um formato CSV.
 
-
 ## Impacto das regras de bot na coleta de dados {#section_F01A3130E7A04A9993371CF26F6586F2}
 
 As regras de bot são aplicadas a todos os dados de análises. Os dados removidos pelas regras de bot são visíveis apenas nos Relatórios de Páginas de bots e Bots.
 
-As regras VISTA são aplicadas após as Regras de bot (consulte [Ordem de processamento).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
+As regras VISTA são aplicadas após as Regras de bot. Consulte [Ordem de processamento](/help/technotes/processing-order.md) no guia do usuário Technotes.
 
 **Processamento de visita de alta ocorrência:** se houver mais de 100 ocorrências em uma visita, o relatório determinará se o tempo da visita em segundos é menor que ou igual ao número de ocorrências na visita. Nessa situação, devido ao custo de processar visitas longas e intensas, o relatório recomeçará com uma nova visita. Visitas de alta ocorrência são normalmente causadas por ataques de bot e não são consideradas como uma navegação do visitante normal.
 
@@ -137,4 +136,4 @@ A lista de bots IAB é baseada unicamente no agente do usuário; portanto, a fil
 
 Se a ofuscação de IP estiver ativada, a exclusão de IP ocorrerá antes de o endereço IP ser ofuscado, de modo que os clientes não precisam fazer qualquer alteração ao ativar a ofuscação de IP.
 
-Se o último octeto for removido, isso ocorrerá antes da filtragem de IP. Assim, o último octeto será substituído por um 0, e as regras de exclusão de IP devem ser atualizadas para corresponder os endereços IP com um zero no final. A correspondência de * deve corresponder a 0.
+Se o último octeto for removido, isso ocorrerá antes da filtragem de IP. Assim, o último octeto será substituído por um 0, e as regras de exclusão de IP devem ser atualizadas para corresponder os endereços IP com um zero no final. Correspondência &#42; deve corresponder a 0.
