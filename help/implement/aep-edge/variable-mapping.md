@@ -29,7 +29,7 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `commerce.checkouts.value` | Aumenta a métrica [Check-outs](../../components/metrics/checkouts.md) pela quantidade desejada. |
 | `commerce.order.currencyCode` | Define a variável da configuração [currencyCode](../vars/config-vars/currencycode.md). |
 | `commerce.order.purchaseID` | Define a variável da página [purchaseID](../vars/page-vars/purchaseid.md). |
-| `commerce.order.transactionID` | Define a variável [transactionID](../vars/page-vars/transactionid.md) variável de página. |
+| `commerce.order.transactionID` | Define a variável de página [transactionID](../vars/page-vars/transactionid.md). |
 | `commerce.productListAdds.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Adições ao carrinho](../../components/metrics/cart-additions.md). |
 | `commerce.productListAdds.value` | Incrementa a métrica [Adições ao carrinho](../../components/metrics/cart-additions.md). |
 | `commerce.productListOpens.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Carrinhos](../../components/metrics/carts.md). |
