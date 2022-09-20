@@ -3,9 +3,9 @@ title: Perguntas frequentes sobre a Análise entre dispositivos
 description: Perguntas frequentes sobre o Análise entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1927'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Você pode usar uma visualização de [!UICONTROL Fluxo] com a dimensão Tipo de
 
 1. Faça logon no Adobe Analytics e crie um novo projeto em branco da Workspace.
 2. Clique na guia Visualizações à esquerda e arraste uma visualização de Fluxo para a tela à direita.
-3. Clique na guia Componentes à esquerda e arraste a dimensão &quot;Tipo de dispositivo móvel&quot; para o local central chamado &quot;Dimensão ou item&quot;.
+3. Clique na guia Componentes à esquerda e arraste a dimensão “Tipo de dispositivo móvel” para o local central chamado “Dimensão ou item”.
 4. Este relatório de fluxo é interativo. Clique em qualquer um dos valores para expandir os fluxos para páginas subsequentes ou anteriores. Use o menu de clique com o botão direito do mouse para expandir ou recolher colunas. Dimensões diferentes também podem ser usadas no mesmo relatório de fluxo.
 
 ## Posso ver como as pessoas se movem entre diferentes experiências de usuário (por exemplo, navegador de desktop vs. navegador móvel vs. aplicativo móvel)?
@@ -28,11 +28,11 @@ O exemplo Tipo de dispositivo móvel ilustrado acima permite ver como as pessoas
 
 A compilação entre dispositivos do CDA ocorre em dois processos simultâneos.
 
-* O primeiro processo é chamado de &quot;compilação em tempo real&quot;, que ocorre à medida que os dados fluem para o Adobe Analytics. Durante a compilação em tempo real, o CDA faz o melhor que pode para reafirmar os dados no nível da pessoa. No entanto, se a pessoa for desconhecida no momento da compilação em tempo real, o CDA voltará para a ID de visitante para representar a pessoa.
+* O primeiro processo é chamado de “compilação em tempo real”, que ocorre à medida que os dados fluem para o Adobe Analytics. Durante a compilação em tempo real, o CDA faz o melhor que pode para reafirmar os dados no nível da pessoa. No entanto, se a pessoa for desconhecida no momento da compilação em tempo real, o CDA voltará para a ID de visitante para representar a pessoa.
 
-* O segundo processo é chamado de &quot;repetição&quot;. Durante a repetição, o CDA recua no tempo e reafirma os dados históricos, quando possível, em uma janela de pesquisa especificada. Essa janela de pesquisa é de 1 dia ou 7 dias, dependendo de como você solicitou a configuração do CDA. Durante a repetição, o CDA tenta reafirmar as ocorrências em que a pessoa era anteriormente desconhecida.
+* O segundo processo é chamado de “repetição”. Durante a repetição, o CDA recua no tempo e reafirma os dados históricos, quando possível, em uma janela de pesquisa especificada. Essa janela de pesquisa é de 1 dia ou 7 dias, dependendo de como você solicitou a configuração do CDA. Durante a repetição, o CDA tenta reafirmar as ocorrências em que a pessoa era anteriormente desconhecida.
 
-* **Se estiver usando um gráfico de dispositivos**, o Adobe mantém os mapeamentos do Gráfico de dispositivos por aproximadamente 6 meses. Uma ECID que não tem atividade por mais de seis meses é removida do gráfico. Os dados já compilados no CDA não são afetados; as ocorrências subsequentes dessa ECID são tratadas como uma nova pessoa.
+* **Se estiver usando um gráfico de dispositivos**, a Adobe mantém os mapeamentos do gráfico de dispositivos por aproximadamente seis meses. Uma ECID que não tenha atividade por mais de seis meses é removida do gráfico. Os dados já compilados no CDA não são afetados, mas as ocorrências subsequentes dessa ECID serão tratadas como uma nova pessoa.
 
 ## Como o CDA trata as ocorrências com carimbos de data e hora?
 
@@ -64,7 +64,7 @@ Em algumas situações, um usuário individual pode ser associado a um grande n�
 
 ## Qual é a diferença entre a métrica Pessoas no CDA e a métrica “Visitantes únicos” fora do CDA?
 
-As métricas [Pessoas](/help/components/metrics/people.md) e [Visitantes únicos](/help/components/metrics/unique-visitors.md) têm como objetivo contar visitantes distintos (individuais). No entanto, considere a possibilidade de dois dispositivos diferentes pertencerem à mesma pessoa. O CDA mapeia os dois dispositivos para a mesma pessoa, enquanto os dois dispositivos são registrados como 2 &quot;Visitantes únicos&quot; separados fora do CDA.
+As métricas [Pessoas](/help/components/metrics/people.md) e [Visitantes únicos](/help/components/metrics/unique-visitors.md) têm como objetivo contar visitantes distintos (individuais). No entanto, considere a possibilidade de dois dispositivos diferentes pertencerem à mesma pessoa. O CDA mapeia os dois dispositivos para a mesma pessoa, enquanto os dois dispositivos são registrados como 2 “Visitantes únicos” separados fora do CDA.
 
 ## Qual é a diferença entre a métrica “Dispositivos únicos” no CDA e a métrica “Visitantes únicos” fora do CDA?
 
@@ -126,10 +126,10 @@ O CDA usa um pipeline de processamento paralelo complexo, com vários componente
 
 ## Por que a métrica “Pessoas identificadas” está inflada?
 
-O número da métrica &quot;Pessoas identificadas&quot; pode ser um pouco maior se o valor da prop ou do eVar do identificador for executado em uma [colisão de hash](/help/implement/validate/hash-collisions.md).
+O número da métrica “Pessoas identificadas” pode ser um pouco maior se o valor da prop ou do eVar do identificador for executado em uma [colisão de hash](/help/implement/validate/hash-collisions.md).
 
-Para a compilação em campo, a variável personalizada do identificador diferencia maiúsculas e minúsculas. O número da métrica &quot;Pessoas identificadas&quot; pode ser significativamente maior se os valores do identificador não corresponderem letras maiúsculas e minúsculas. Por exemplo, se `bob` e `Bob` forem enviadas e esperadas como a mesma pessoa, o CDA interpreta esses dois valores como distintos.
+Para a compilação em campo, a variável personalizada do identificador diferencia maiúsculas e minúsculas. O número da métrica “Pessoas identificadas” pode ser significativamente maior se os valores do identificador não corresponderem letras maiúsculas e minúsculas. Por exemplo, se `bob` e `Bob` forem enviadas e esperadas como a mesma pessoa, o CDA interpreta esses dois valores como distintos.
 
-## Ao visualizar o identificador prop/eVar, por que vejo valores diferentes de zero para a métrica &quot;Pessoas não identificadas&quot;?
+## Ao visualizar o identificador prop/eVar, por que vejo valores diferentes de zero para a métrica “Pessoas não identificadas”?
 
-Essa situação geralmente ocorre quando um visitante gera ocorrências autenticadas e não autenticadas na janela de relatórios. O visitante pertence a &quot;Não identificado&quot; e &quot;Identificado&quot; na dimensão [Estado identificado](/help/components/dimensions/identified-state.md), causando uma atribuição de ocorrências não identificadas a um identificador. Esse cenário pode mudar após a execução de [Reproduzir](replay.md), dependendo da frequência de repetição e da taxa de sucesso.
+Essa situação geralmente ocorre quando um visitante gera ocorrências autenticadas e não autenticadas na janela de relatórios. O visitante pertence a “Não identificado” e “Identificado” na dimensão [Estado identificado](/help/components/dimensions/identified-state.md), causando uma atribuição de ocorrências não identificadas a um identificador. Esse cenário pode mudar após a execução de [Reproduzir](replay.md), dependendo da frequência de repetição e da taxa de sucesso.
