@@ -4,18 +4,14 @@ title: Visualização de gráficos de combinação
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
+source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 34%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Gráfico de combinação
-
->[!NOTE]
->
->Esta funcionalidade está atualmente em [testes limitados](/help/release-notes/releases.md).
 
 O [!UICONTROL Gráfico de combinação] A visualização facilita a criação rápida de uma visualização de comparação sem precisar criar uma tabela primeiro. Você pode ver tendências facilmente em seus dados em uma combinação de linha/barra.
 
