@@ -1,7 +1,7 @@
 ---
 title: Dicas do cliente
 description: Saiba mais sobre como as dicas do cliente substituirão gradualmente o Agente do usuário como fonte de informações do dispositivo.
-source-git-commit: cd8370f6c19e79e1a8a506e772db390708e96a44
+source-git-commit: c26012465b998b2d05bd08e8ddb064cd43940449
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -15,9 +15,9 @@ Dicas de cliente são informações individuais sobre o dispositivo de um usuár
 
 O Google divide as dicas do cliente User-Agent em duas categorias: dicas de baixa entropia e alta entropia.
 
-* As dicas de baixa entropia têm informações mais genéricas sobre dispositivos. Essas dicas são fornecidas automaticamente pelos navegadores Chromium.
+* **Dicas de baixa entropia** contém informações mais genéricas sobre dispositivos. Essas dicas são fornecidas automaticamente pelos navegadores Chromium.
 
-* As dicas de alta entropia têm informações mais detalhadas. Essas dicas estão disponíveis somente por solicitação. O AppMeasurement e o SDK da Web podem ser configurados para solicitar dicas de alta entropia. Por padrão, ambas as bibliotecas têm **not** solicite dicas de alta entropia.
+* **Alta entropia** as dicas contêm informações mais detalhadas. Essas dicas estão disponíveis somente por solicitação. O AppMeasurement e o SDK da Web podem ser configurados para solicitar dicas de alta entropia. Por padrão, ambas as bibliotecas têm **not** solicite dicas de alta entropia.
 
 >[!NOTE]
 >
