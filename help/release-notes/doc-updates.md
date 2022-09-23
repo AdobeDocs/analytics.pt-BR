@@ -4,10 +4,10 @@ description: Atualizações notáveis no conjunto de documentação do Adobe Ana
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
+source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
 workflow-type: tm+mt
-source-wordcount: '3331'
-ht-degree: 98%
+source-wordcount: '3467'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,14 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Data | Descrição |
 | --- | --- |
 | **Setembro de 2022** |  |
+| Gráficos de combinação | Novo tópico sobre [gráficos de combinação](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualização. |
+| Plug-in atualizado | Versão atualizada do [getvalonce](/help/implement/vars/plugins/getvalonce.md) plug-in de implementação. |
+| Nova variável de configuração | Documentação sobre [collectHighEntropyUserAgentHint](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
+| Dicas do cliente de alta entropia | Novo tópico sobre como o Adobe está usando [dicas do cliente](/help/technotes/client-hints.md) além do Agente do usuário para determinar as informações do dispositivo. |
 | Processamento do pedido | Várias páginas de ajuda foram agregadas para fornecer um único tópico de ajuda sobre [Ordem de processamento](/help/technotes/processing-order.md). |
+| **Agosto de 2022** |  |
+| Compatibilidade com variáveis de lista no XDM para o Edge Collection | Permite que os clientes que coletam dados por meio do Experience Edge/SDK da Web usem o XDM para especificar o conteúdo da variável de lista. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=pt-BR#list-variables-using-the-web-sdk) | 18 de agosto de 2022 |
+| Uso do campo SKU no XDM para o Edge Collection ao definir variáveis de string de produtos | Permite que os clientes que coletam dados por meio do Experience Edge/SDK da Web usem o valor do SKU para definir o campo do produto na variável products. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=pt-BR#produtos-que-usam-o-sdk-da-web) |
 | **Junho de 2022** |  |
 | Variáveis de merchandising no XDM do Edge Collection | Documentação sobre a [compatibilidade com variáveis de merchandising no XDM do Edge Collection](/help/components/dimensions/evar-merchandising.md) |
 | Documentação da Experience Platform Edge | Novos artigos sobre a implementação do Adobe Analytics por meio do [SDK da Web](/help/implement/aep-edge/web-sdk/overview.md), [SDK móvel](/help/implement/aep-edge/mobile-sdk/overview.md) e [API de borda](/help/implement/aep-edge/edge-api/overview.md). |
@@ -37,7 +44,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Novo tópico sobre o painel [!UICONTROL Resumo da página] | [Painel Resumo da página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Novo tópico sobre o painel [!UICONTROL Item seguinte/anterior] | [Painel Item de dimensão seguinte/anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Março de 2022** |  |
-| Novo tópico sobre algoritmos de criptografia HTTPS compatíveis | [Algoritmos de criptografia HTTPS compatíveis](/help/technotes/rdc/encryption-algos.md) para clientes com nível de segurança de cifra definido como “Alto”. |
+| Novo tópico sobre algoritmos de criptografia HTTPS compatíveis | [Algoritmos de criptografia HTTPS suportados](/help/technotes/rdc/encryption-algos.md) para clientes com nível de segurança de cifra definido como &quot;Alto&quot;. |
 | Nova documentação sobre anotações no Analysis Workspace | [As anotações no Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) permitem comunicar com eficiência nuances de dados contextuais e insights à sua organização. |
 | Página de aterrissagem do Adobe Analytics | [Atualizações](/help/analyze/landing.md) na página de aterrissagem conjunta do Analysis Workspace/Reports &amp; Analytics que melhoram a usabilidade e a facilidade de navegação. |
 | [!UICONTROL Próximo item] ou [!UICONTROL Item anterior] no painel Espaço de trabalho | Esse painel permite explorar itens que seguem ou precedem um item de dimensão de sua escolha. |
@@ -65,7 +72,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 15 de junho de 2021 | Práticas recomendadas para [Canais de marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=pt-BR) atualizadas |
 | 3 de junho de 2021 | Atualização da documentação para explicar melhor a [Implementação do feed de dados](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=pt-BR) e [aqui](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=pt-BR#BucketOwnerFullControl). |
 | 25 de maio de 2021 | Atualização da documentação sobre [distinção entre maiúsculas e minúsculas de eVars em relatórios](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=pt-BR). |
-| 13 de maio de 2021 | Atualizações para [Solicitações de API do Data Warehouse](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Agora, elas são compatíveis com “Horas”. |
+| 13 de maio de 2021 | Atualizações para [Solicitações de API do Data Warehouse](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Agora, elas são compatíveis com &quot;Horas&quot;. |
 | **Março de 2021** |  |
 | Março, abril de 2021 | Atualizações nos painéis do Adobe Analytics [Guia executivo](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=pt-BR) e [Guia do curador](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=pt-BR) |
 | 25 de março de 2021 | Nova documentação na página [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário]. Ela permite gerenciar as configurações do [!UICONTROL Analysis Workspace] e seus componentes relacionados para o usuário. [!UICONTROL As preferências do usuário] se aplicam a todos os novos projetos e painéis. <br>**Observação:** as configurações a seguir foram movidas para a página [!UICONTROL Preferências do usuário]:<ul><li>Configurações do relatório: Separador de milhares (agora chamado de _Formato de número_)</li><li>Configurações do relatório: separador CSV</li><li>Projetos do Espaço de trabalho: Ajuda > Ativar dicas</li><li>Projetos do Espaço de trabalho: Painel em branco _Iniciar novos projetos com esta opção de painel_</li></ul> |
@@ -107,9 +114,9 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 18 de junho de 2020 | Nova documentação sobre o [Attribution IQ: atribuição algorítmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=pt-BR) |
 | 18 de junho de 2020 | Nova documentação sobre o [Attribution IQ: janelas de pesquisa personalizada](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR#lookback-windows) |
 | 18 de junho de 2020 | Nova documentação para [Funções de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) para projetos compartilhados do Espaço de trabalho. Ao compartilhar um projeto do Espaço de trabalho, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. |
-| 18 de junho de 2020 | Nova documentação sobre [&quot;Exibir somente&quot; projetos do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=pt-BR). Os projetos do podem ser compartilhados com os usuários somente como “Pode exibir”. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. |
+| 18 de junho de 2020 | Nova documentação sobre [&quot;Exibir somente&quot; projetos do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=pt-BR). Os projetos podem ser compartilhados com os usuários somente como &quot;Pode visualizar&quot;. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. |
 | 18 de junho de 2020 | Nova documentação sobre [Funções de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) para projetos compartilhados do Espaço de trabalho. Ao compartilhar um projeto do Espaço de trabalho, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. |
-| 18 de junho de 2020 | Nova documentação sobre [Coedição de projetos no Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Recipient adicionados à função “Pode editar” podem ser salvos em um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. |
+| 18 de junho de 2020 | Nova documentação sobre [Coedição de projetos no Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Recipients adicionados à função &quot;Pode editar&quot; podem ser salvos em um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. |
 | **Maio de 2020** |  |
 | 31 de maio de 2020 | Nova documentação sobre [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | 21 de maio de 2020 | Nova documentação para [painéis do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=pt-BR) |
@@ -148,7 +155,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 21 de novembro de 2019 | Atualização de [Perguntas frequentes sobre o fluxo de trabalho do Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=pt-BR) para indicar a disponibilidade no LiveStream. |
 | 25 de outubro de 2019 | Atualização da página [Principais conceitos do Adobe Analytics](/help/technotes/terms.md). |
 | 10 de outubro de 2019 | Atualização dos totais das tabelas de forma livre: agora incluem dois totais, um **[!UICONTROL Total da tabela]** e um **[!UICONTROL Total geral]**. As contas de linhas totais da tabela para os [filtros de relatório](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=pt-BR) foram aplicadas. Anteriormente, somente a segmentação afetava os totais. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR)<br/>Além disso, as opções **[!UICONTROL Mostrar totais]** e **[!UICONTROL Mostrar total geral]** foram adicionadas às **[!UICONTROL Configurações de coluna]**.<br/>Com essa alteração nos totais das tabelas de forma livre, as visualizações dependentes serão atualizadas (ex: visualizações de **[!UICONTROL Número de resumo]** interligadas), bem como dados CSV e PDF exportados. |
-| 10 de outubro de 2019 | No Espaço de trabalho, a capacidade de remover facilmente “Não especificado (Nenhum)” foi adicionada como uma opção de filtros de relatório. |
+| 10 de outubro de 2019 | No Workspace, a capacidade de remover facilmente &quot;Não especificado (Nenhum)&quot; foi adicionada como uma opção para criar filtros de relatório. |
 | 10 de outubro de 2019 | No Espaço de trabalho, os componentes de granularidade violeta (minuto, hora, dia, semana, mês, trimestre, ano) foram descontinuados. **Nenhuma ação** precisa ser executada se você tiver usado anteriormente um dos componentes de tempo violeta.<br/>Com essa alteração, a seção **[!UICONTROL Tempo]** violeta, além disso, foi renomeada para **[!UICONTROL Intervalos de datas]**. |
 | 1 de outubro de 2019 | Novo artigo em [Totais do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR#cja-workspace). |
 | 28 de setembro de 2019 | Novos artigos sobre [variáveis de configuração para a implementação do Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
