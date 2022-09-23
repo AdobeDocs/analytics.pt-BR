@@ -1,9 +1,9 @@
 ---
 title: Dicas do cliente
-description: Saiba mais sobre
-source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
+description: Saiba mais sobre como as dicas do cliente substituirão gradualmente o Agente do usuário como fonte de informações do dispositivo.
+source-git-commit: 788ab49fec9117e0ef2a736f609a627b913b9f8c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '904'
 ht-degree: 4%
 
 ---
@@ -29,13 +29,19 @@ O Google divide as dicas do cliente Agente do usuário em duas categorias: dicas
 
 As dicas de baixa entrelinha são fornecidas automaticamente pelo navegador e incluídas no Adobe para obter informações sobre o dispositivo. As versões mais recentes do AppMeasurement (iniciando a TBD) e do SDK da Web (iniciando a TBD) podem ser configuradas para coletar dicas de alta entropia. Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativado por padrão**. Consulte aqui para obter detalhes sobre como implementar isso.
 
++++
+
 +++**Posso escolher quais dicas de alta entropia eu coletar?**
 
 Não neste momento. Você pode optar por coletar todas as dicas de alta entropia ou nenhuma.
 
++++
+
 +++**Haverá alterações nos relatórios de dispositivos no Analytics?**
 
 Os campos de dispositivo disponíveis para relatório não serão alterados. Os dados capturados para esses campos podem mudar, dependendo de qual campo e como você configurou a coleta para dicas do cliente.
+
++++
 
 +++**Quais campos de relatórios do Analytics são derivados do Agente do usuário?**
 
@@ -47,35 +53,51 @@ Os campos de dispositivo disponíveis para relatório não serão alterados. Os 
 * Feeds de dados (observe que os usuários devem atualizar para capturar esses campos. Além disso, há uma dependência em que não podemos expor a ID do dispositivo móvel juntamente com as informações do dispositivo.)
 * Conector de origem do Analytics (não pronto)
 
++++
+
 +++**Quais campos de relatórios do Analytics são derivados de valores armazenados em dicas de alta entropia?**
 
 A partir de setembro de 2022, a linha do tempo publicada pela Google para congelar dicas do agente-usuário indica que a versão do sistema operacional deixará de ser atualizada a partir de outubro de 2022. Sem dicas de alta entropia, a precisão da versão do sistema operacional, incluída na dimensão &quot;Sistema operacional&quot; do Analytics, será gradualmente degradada.
 
 Consulte a [linha do tempo publicada pela Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) para ver o tempo de congelamento do agente do usuário.
 
++++
+
 +++**Quais navegadores são afetados pelas dicas do cliente?**
 
 As dicas do cliente se aplicam somente a navegadores Chromium, como Google Chrome e Microsoft Edge. Não há alterações nos dados de outros navegadores ou aplicativos móveis.
+
++++
 
 +++**Como o Adobe usará as dicas do cliente para derivar informações do dispositivo?**
 
 O Adobe usa um Atlas de dispositivo de terceiros, que usará as dicas do cliente e o agente do usuário para derivar informações do dispositivo.
 
++++
+
 +++**As dicas do cliente estarão disponíveis nos feeds de dados?**
 
 Sim. Consulte a documentação (para seguir).
+
++++
 
 +++**As dicas do cliente estarão disponíveis nos dados enviados para o AEP e o CJA por meio do Conector de fonte do Adobe?**
 
 Planejamos incluir dicas do cliente em dados por meio do Conector de fonte do Adobe no primeiro semestre de 2023.
 
++++
+
 +++**Como as dicas do cliente são representadas no XDM?**
 
 Consulte a [documentação do schema](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121) no Adobe Experience Platform.
 
++++
+
 +++**Onde posso obter mais informações sobre dicas de clientes?**
 
 Essa [Publicação do blog do Google](https://web.dev/user-agent-client-hints/) é uma boa referência e um bom ponto de partida.
+
++++
 
 +++**Quais são os vários campos de dica? Quais afetam o relatório do dispositivo?**
 
@@ -93,6 +115,8 @@ A tabela abaixo descreve as dicas do cliente a partir de setembro de 2022.
 | Sec-CH-UA-Model | Modelo do dispositivo | Alto | &quot;Pixel 3&quot; | Nenhum? |
 | Sec-CH-UA-Platform-Version | Versão do sistema operacional/plataforma | Alto | &quot;10&quot; | [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) |
 
++++
+
 +++**Como capturo dicas de alta entropia?**
 
 Dicas de alta entropia podem ser configuradas
@@ -100,6 +124,8 @@ Dicas de alta entropia podem ser configuradas
 * Para AppMeasurement diretamente [link para a entrada do sinalizador no Guia de Implementação]
 * Na extensão Tags do Analytics
 * No SDK da Web.
+
++++
 
 +++**Quais dados estão sendo removidos do Agente do usuário e quando?**
 
