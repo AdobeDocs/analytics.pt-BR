@@ -1,10 +1,10 @@
 ---
 title: Dicas do cliente
 description: Saiba mais sobre como as dicas do cliente substituirão gradualmente o Agente do usuário como fonte de informações do dispositivo.
-source-git-commit: 788ab49fec9117e0ef2a736f609a627b913b9f8c
+source-git-commit: cd8370f6c19e79e1a8a506e772db390708e96a44
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 4%
+source-wordcount: '833'
+ht-degree: 5%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 Dicas de cliente são informações individuais sobre o dispositivo de um usuário. Eles são fornecidos por navegadores Chromium, como Google Chrome e Microsoft Edge. Nesses navegadores, as dicas do cliente substituirão gradualmente o Agente do usuário como fonte de informações do dispositivo. A Adobe Analytics atualizará seu processo de pesquisa de dispositivo para que ele use dicas de cliente além do Agente do usuário para determinar as informações do dispositivo.
 
-O Google divide as dicas do cliente Agente do usuário em duas categorias: dicas de baixa entropia e alta entropia.
+O Google divide as dicas do cliente User-Agent em duas categorias: dicas de baixa entropia e alta entropia.
 
 * As dicas de baixa entropia têm informações mais genéricas sobre dispositivos. Essas dicas são fornecidas automaticamente pelos navegadores Chromium.
 
@@ -21,13 +21,25 @@ O Google divide as dicas do cliente Agente do usuário em duas categorias: dicas
 
 >[!NOTE]
 >
->A partir de outubro de 2022, novas versões dos navegadores Chromium iniciarão o &#39;congelamento&#39; da versão do sistema operacional representada na string User Agent. Isso significa que, com o tempo, as informações da versão operacional representadas no Agente do usuário se tornarão menos precisas. A versão do sistema operacional é uma dica de alta entropia, portanto, para manter a precisão da versão do sistema operacional em seus relatórios, é necessário configurar a biblioteca de coleta para coletar essas dicas de alta entropia. Com o tempo, outras informações do dispositivo do Agente do usuário serão congeladas, o que exige que as dicas do cliente mantenham a precisão do relatório do dispositivo.
+>A partir de outubro de 2022, novas versões dos navegadores Chromium iniciarão o &#39;congelamento&#39; da versão do sistema operacional representada na string User-Agent. À medida que os usuários atualizam seus dispositivos, o sistema operacional no Agente do usuário não será alterado. Assim, com o tempo, as informações da versão operacional representadas no Agente do usuário se tornarão menos precisas. A versão do sistema operacional é uma dica de alta entropia, portanto, para manter a precisão da versão do sistema operacional em seus relatórios, é necessário configurar a biblioteca de coleta para coletar essas dicas de alta entropia. Com o tempo, outras informações do dispositivo do Agente do Usuário serão congeladas, o que exige que as dicas do cliente mantenham a precisão do relatório do dispositivo.
 
 ## Perguntas frequentes
 
++++**Onde posso obter mais informações sobre dicas de clientes?**
+
+Essa [Publicação do blog do Google](https://web.dev/user-agent-client-hints/) é uma boa referência e um bom ponto de partida.
+
++++
+
 +++**Como habilitar a coleta de dicas do cliente?**
 
-As dicas de baixa entrelinha são fornecidas automaticamente pelo navegador e incluídas no Adobe para obter informações sobre o dispositivo. As versões mais recentes do AppMeasurement (iniciando a TBD) e do SDK da Web (iniciando a TBD) podem ser configuradas para coletar dicas de alta entropia. Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativado por padrão**. Consulte aqui para obter detalhes sobre como implementar isso.
+As dicas de baixa entrelinha são fornecidas automaticamente pelo navegador e incluídas no Adobe para obter informações sobre o dispositivo e o navegador de derivação. As versões mais recentes do AppMeasurement (a partir da versão 2.23.0) e do SDK da Web (a partir da versão 2.12.0) podem ser configuradas para coletar dicas de alta entropia. Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativado por padrão**.
+
++++
+
++++**Como capturo dicas de alta entropia?**
+
+Dicas de alta entropia podem ser configuradas com o SDK da Web e as bibliotecas do AppMeasurement por meio de suas respectivas extensões de Tags ou diretamente com o sinalizador collectHighEntropyUserAgentHint.
 
 +++
 
@@ -49,35 +61,28 @@ Os campos de dispositivo disponíveis para relatório não serão alterados. Os 
 * [Tipo de navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en)
 * [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)
 * [Tipos de sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=en)
-* [Dispositivo móvel e tipo de dispositivo móvel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)??
-* Feeds de dados (observe que os usuários devem atualizar para capturar esses campos. Além disso, há uma dependência em que não podemos expor a ID do dispositivo móvel juntamente com as informações do dispositivo.)
-* Conector de origem do Analytics (não pronto)
+* [Dispositivo móvel e tipo de dispositivo móvel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)
+* [Feeds de dados](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=pt-BR)
 
 +++
 
 +++**Quais campos de relatórios do Analytics são derivados de valores armazenados em dicas de alta entropia?**
 
-A partir de setembro de 2022, a linha do tempo publicada pela Google para congelar dicas do agente-usuário indica que a versão do sistema operacional deixará de ser atualizada a partir de outubro de 2022. Sem dicas de alta entropia, a precisão da versão do sistema operacional, incluída na dimensão &quot;Sistema operacional&quot; do Analytics, será gradualmente degradada.
+A partir de setembro de 2022, a linha do tempo publicada pela Google para dicas de &quot;congelamento&quot; do agente-usuário indica que a versão do sistema operacional deixará de ser atualizada a partir de outubro de 2022. Quando os usuários atualizam o sistema operacional, a versão do sistema operacional no Agente do usuário não será atualizada. Sem dicas de alta entropia, a precisão da versão do sistema operacional, que está incluída na dimensão &quot;Sistema operacional&quot; do Analytics, será gradualmente degradada.
 
-Consulte a [linha do tempo publicada pela Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) para ver o tempo de congelamento do agente do usuário.
+Consulte a [linha do tempo publicada pela Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) para ver o tempo de congelamento de outras partes do Agente do Usuário.
+
++++
+
++++**Como o Adobe usará as dicas do cliente para derivar informações do dispositivo?**
+
+O Adobe usa um Atlas de dispositivo de terceiros, que usará as dicas do cliente e o Agente do usuário para derivar informações do dispositivo.
 
 +++
 
 +++**Quais navegadores são afetados pelas dicas do cliente?**
 
 As dicas do cliente se aplicam somente a navegadores Chromium, como Google Chrome e Microsoft Edge. Não há alterações nos dados de outros navegadores ou aplicativos móveis.
-
-+++
-
-+++**Como o Adobe usará as dicas do cliente para derivar informações do dispositivo?**
-
-O Adobe usa um Atlas de dispositivo de terceiros, que usará as dicas do cliente e o agente do usuário para derivar informações do dispositivo.
-
-+++
-
-+++**As dicas do cliente estarão disponíveis nos feeds de dados?**
-
-Sim. Consulte a documentação (para seguir).
 
 +++
 
@@ -93,41 +98,27 @@ Consulte a [documentação do schema](https://github.com/adobe/xdm/blob/master/c
 
 +++
 
-+++**Onde posso obter mais informações sobre dicas de clientes?**
-
-Essa [Publicação do blog do Google](https://web.dev/user-agent-client-hints/) é uma boa referência e um bom ponto de partida.
-
-+++
-
 +++**Quais são os vários campos de dica? Quais afetam o relatório do dispositivo?**
 
 A tabela abaixo descreve as dicas do cliente a partir de setembro de 2022.
 
-| Dica (cabeçalho) | Dica | Entrofia alta ou baixa | Exemplo | Campos de relatórios do Analytics |
-| --- | --- | --- | --- | --- |
-| Sec-CH-UA | Navegador e versão significativa | Baixo | Google Chrome 84 | [Navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=en) e [Tipo de navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en) |
-| Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixo | TRUE | [Dispositivo móvel e tipo de dispositivo móvel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)?? |
-| Sec-CH-UA-Platform | Sistema operacional/plataforma | Baixo | Android | [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) |
-| Sec-CH-UA-Arch | Arquitetura do site | Alto | &quot;braço&quot; | Nenhum? |
-| Sec-CH-UA-Bitness | Sec-CH-UA-Bitness | Alto |  | Nenhum? |
-| Sec-CH-UA-Full-Version | Versão completa do navegador | Alto | &quot;84.0.4143.2&quot; | Nenhum? |
-| Sec-CH-UA-Full-Version-List | ??? | Alto | ???? | Nenhum? |
-| Sec-CH-UA-Model | Modelo do dispositivo | Alto | &quot;Pixel 3&quot; | Nenhum? |
-| Sec-CH-UA-Platform-Version | Versão do sistema operacional/plataforma | Alto | &quot;10&quot; | [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en) |
+| Dica | Descrição | Entrofia alta ou baixa | Exemplo |
+| --- | --- | --- | --- | 
+| Sec-CH-UA | Navegador e versão significativa | Baixo | &quot;Google Chrome 84&quot; |
+| Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixo | TRUE |
+| Sec-CH-UA-Platform | Sistema operacional/plataforma | Baixo | &quot;Android&quot; |
+| Sec-CH-UA-Arch | Arquitetura do site | Alto | &quot;braço&quot; |
+| Sec-CH-UA-Bitness | Bites de arquitetura | Alto | &quot;64&quot; |
+| Sec-CH-UA-Full-Version | Versão completa do navegador | Alto | &quot;84.0.4143.2&quot; |
+| Sec-CH-UA-Full-Version-List | Lista de marcas com sua versão | Alto | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
+| Sec-CH-UA-Model | Modelo do dispositivo | Alto | &quot;Pixel 3&quot; |
+| Sec-CH-UA-Platform-Version | Versão do sistema operacional/plataforma | Alto | &quot;10&quot; |
 
 +++
 
-+++**Como capturo dicas de alta entropia?**
 
-Dicas de alta entropia podem ser configuradas
 
-* Para AppMeasurement diretamente [link para a entrada do sinalizador no Guia de Implementação]
-* Na extensão Tags do Analytics
-* No SDK da Web.
-
-+++
-
-+++**Quais dados estão sendo removidos do Agente do usuário e quando?**
++++**Que partes do Agente de Usuário estão sendo &quot;congeladas&quot; e quando?**
 
 Consulte a [linha do tempo publicada pela Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Esta situação pode estar sujeita a alterações.
 
