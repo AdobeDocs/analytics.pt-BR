@@ -1,9 +1,9 @@
 ---
 title: Dicas do cliente
 description: Saiba mais sobre como as dicas do cliente substituirão gradualmente o Agente do usuário como fonte de informações do dispositivo.
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '855'
 ht-degree: 5%
 
 ---
@@ -86,9 +86,15 @@ As dicas do cliente se aplicam somente a navegadores Chromium, como Google Chrom
 
 +++
 
+++**As dicas do cliente são suportadas em conexões inseguras?
+
+Não. As dicas do cliente só podem ser coletadas por meio de uma conexão HTTP segura, como HTTPS.
+
++++
+
 +++**As dicas do cliente estarão disponíveis nos dados enviados para o AEP e o CJA por meio do Conector de fonte do Adobe?**
 
-Planejamos incluir dicas do cliente em dados por meio do Conector de fonte do Adobe no primeiro semestre de 2023.
+O Adobe planeja incluir dicas do cliente em dados por meio do Adobe Source Connector no primeiro semestre de 2023.
 
 +++
 
