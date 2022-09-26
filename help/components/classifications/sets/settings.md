@@ -2,10 +2,10 @@
 title: Configurações do conjunto de classificações
 description: Crie ou edite um conjunto de classificações.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+source-git-commit: fa0de6241d56e10144b7eefeb72e9d6ed25a9773
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ Configure um conjunto de classificações e faça upload ou download de dados.
 
 >[!NOTE]
 >
->No momento, este recurso está em período de teste limitado. Se desejar acessar esse recurso, entre em contato com o Atendimento ao cliente da Adobe ou com o gerente de conta, que poderá encaminhar sua solicitação para o provisionamento da equipe de Classificações.
+>Esse recurso estará disponível para todos os clientes que tiverem seus conjuntos de relatórios migrados para a nova arquitetura de Classificações. Entre em contato com o Atendimento ao cliente do Adobe ou seu Gerente de conta para obter mais informações.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]** > **[!UICONTROL Conjuntos]** > Clique no nome do conjunto de classificações desejado
 
