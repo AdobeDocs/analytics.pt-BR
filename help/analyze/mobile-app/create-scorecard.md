@@ -4,10 +4,10 @@ title: Criar um cartão de pontuação móvel
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 7f630839ae7d75730f93588877a172f3590d5a5e
+source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 92%
+source-wordcount: '1747'
+ht-degree: 74%
 
 ---
 
@@ -66,7 +66,7 @@ Para implementar o modelo de Scorecard:
 
 Para adicionar uma dimensão relacionada a uma métrica, arraste uma dimensão do painel esquerdo e solte-a em um bloco.
 
-Por exemplo, é possível adicionar dimensões apropriadas (como **[!DNL Marketing Channel]**, neste exemplo) à métrica **[!UICONTROL Visitantes únicos]**, arrastando-as e soltando-as no bloco. Os detalhamentos de dimensão são exibidos na seção [!UICONTROL Detalhes] (detalhamento) do bloco específico **[!UICONTROL Propriedades]**. É possível adicionar várias dimensões a cada bloco.
+Por exemplo, é possível adicionar dimensões apropriadas (como **[!DNL Marketing Channel]**, neste exemplo) à métrica **[!UICONTROL Visitantes únicos]**, arrastando-as e soltando-as no bloco. Os detalhamentos de Dimension aparecem sob a variável [!UICONTROL Drill-Ins] seção detalhada específica do slide **[!UICONTROL Propriedades]**. É possível adicionar várias dimensões a cada bloco.
 
 ![Adicionar dimensões](assets/layer_dimensions.png)
 
@@ -154,13 +154,15 @@ Se desejar remover itens de dimensão [!UICONTROL Não especificados] dos dados,
 
 ## Exibir e configurar propriedades de blocos {#tiles}
 
-Ao clicar em um bloco no Construtor de cartões de pontuação, o painel direito exibe as propriedades e características associadas a esse bloco. Nesse painel, você pode fornecer um novo **[!UICONTROL Título]** para o bloco e, como alternativa, configurá-lo especificando os componentes, em vez de arrastá-los e soltá-los no painel esquerdo.
+Ao clicar em um bloco no Construtor de scorecards, o painel direito exibe as propriedades e características associadas a esse bloco e seu slide de detalhes. Nesse painel, você pode fornecer um novo **Título** para o bloco e, como alternativa, configure-o aplicando segmentos.
 
 ![Bloco de propriedades](assets/properties_tile.png)
 
-Ao clicar nos blocos, um pop-up dinâmico mostrará como a exibição Detalhamento aparecerá para o usuário executivo no aplicativo. Se nenhuma dimensão tiver sido aplicada ao bloco, a dimensão de detalhamento será a **hora** ou os **dias**, dependendo do intervalo de datas padrão.
+## Exibir slides de detalhes {#view-detail-slides}
 
-Detalhamentos refinam sua análise ao detalhar literalmente métricas e dimensões por outras métricas e dimensões, como neste exemplo de varejo:
+Quando você clica em blocos, uma janela pop-up dinâmica exibe como o slide detalhado é exibido para o usuário executivo no aplicativo. Você pode adicionar dimensões para analisar seus dados de acordo com suas necessidades específicas. Se nenhuma dimensão tiver sido aplicada, a dimensão de detalhamento será **hour** ou **dias**, dependendo do intervalo de datas padrão.
+
+Detalhamentos refinam sua análise ao analisar literalmente as métricas por itens de dimensão.
 
 * Métrica de Visitantes únicos detalhada por Plataforma de publicidade (AMO ID)
 * Visitas detalhadas por Categoria de produto (Varejo)
@@ -168,7 +170,31 @@ Detalhamentos refinam sua análise ao detalhar literalmente métricas e dimensõ
 
 ![Detalhamento_exibição](assets/break_view.png)
 
-Cada dimensão adicionada ao bloco será mostrada em uma lista suspensa na exibição detalhada do aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
+Cada dimensão adicionada ao slide detalhado será exibida em uma lista suspensa na exibição do slide detalhado no aplicativo. O usuário executivo pode então escolher entre as opções indicadas na lista suspensa.
+
+## Personalizar slides de detalhes {#customize-detail-slide}
+
+Os slides de detalhes personalizados permitem ter ainda mais direcionamento sobre quais informações você compartilha com seu público-alvo. Você pode modificar o layout de cada slide de detalhes e adicionar texto para explicar melhor o que o usuário final pode ver nos dados. Também é possível alterar o tipo de gráfico usando o menu suspenso.
+
+![slide de detalhes personalizado](assets/custom-detail-slide.png)
+
+### Alterar o layout do slide
+
+Altere o layout do slide para se concentrar nas informações mais importantes. Por exemplo, é possível alterar o layout para mostrar apenas um gráfico ou apenas uma tabela. Para alterar o layout do slide, selecione um dos formatos pré-projetados.
+
+![Layout do slide](assets/layout.png)
+
+Você também pode alterar o layout do slide arrastando e soltando componentes de visualização do painel esquerdo na tela. Cada slide detalhado pode acomodar apenas duas visualizações por vez.
+
+![Alteração do layout do slide](assets/slide-layout-change.png)
+
+### Adicionar texto descritivo a um slide
+
+É possível adicionar texto para fornecer informações significativas sobre o que está contido nos gráficos ou nuances dos dados.
+
+Para adicionar texto a um slide de detalhes, selecione um layout que mostre a `T` ou arraste e solte o componente de visualização de Texto do painel esquerdo. O editor de texto será aberto automaticamente ao adicionar uma nova visualização de texto ou escolher um layout de slide com texto. O Editor de texto fornece todas as opções padrão para a formatação do texto. É possível aplicar estilos de texto como parágrafo, cabeçalho e subtítulo, além de aplicar negrito e itálico à fonte. Você pode justificar o texto, adicionar listas com marcadores e numeradas e adicionar links. Quando terminar a edição, selecione o botão Minimizar no canto superior direito do editor de texto para fechá-lo. Para editar o texto já adicionado, selecione o ícone de lápis para abrir o editor de texto novamente.
+
+![Alteração do layout do slide](assets/add-descriptive-text.png)
 
 ## Remover componentes {#remove}
 
@@ -176,25 +202,25 @@ Da mesma forma, para remover um componente aplicado a todo o cartão de pontuaç
 
 ![Remover_componentes](assets/new_remove.png)
 
-## Visualizar scorecard {#preview}
+## Visualizar cartão de pontuação {#preview}
 
-Você pode visualizar como o scorecard será exibido e funcionará assim que for publicado no aplicativo de painéis do Analytics.
+Você pode visualizar como o cartão de pontuação será exibido e funcionará assim que for publicado no aplicativo de painéis do Analytics.
 
 1. Clique em **[!UICONTROL Visualizar]** no canto superior direito da tela.
 
-   ![Pré-visualização_scorecards](assets/preview.png)
+   ![Preview_scorecards](assets/preview.png)
 
-1. Para exibir a aparência do scorecard em diferentes dispositivos, selecione um dispositivo no [!UICONTROL Visualização do dispositivo] menu suspenso.
+1. Para visualizar a aparência do cartão de pontuação em diferentes dispositivos, selecione um dispositivo no menu suspenso [!UICONTROL Visualização do dispositivo].
 
    ![Device_preview](assets/device-preview.png)
 
 1. Para interagir com a visualização, é possível:
 
-   * Clique com o botão esquerdo do mouse para simular o toque na tela do telefone.
+   * Clicar com o botão esquerdo do mouse para simular o toque na tela do telefone.
 
-   * Use a função de rolagem do computador para simular a rolagem da tela do telefone com o dedo.
+   * Usar a função de rolagem do computador para simular a rolagem da tela do telefone com o dedo.
 
-   * Clique e segure para simular pressionar e segurar o dedo na tela do telefone. Isso é útil para interagir com as visualizações na visualização detalhada.
+   * Clicar e segurar para simular pressionar e segurar o dedo na tela do telefone. Isso é útil para interagir com as visualizações na visualização detalhada.
 
 ## Nomear um cartão de pontuação {#name}
 
