@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
-user-guide-description: Use os Feeds de dados para receber uma exportação de dados brutos por hora ou por dia. Use o Data Warehouse para recuperar uma saída de dados em planilha. Saiba como usar FTP e SFTP para transferir arquivos entre computadores e servidores.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+user-guide-description: Saiba mais sobre como usar os Feeds de dados para exportar dados brutos e o Data Warehouse para recuperar uma saída de planilha de dados. Saiba como usar FTP e SFTP para transferir arquivos.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 98%
+source-wordcount: '296'
+ht-degree: 88%
 
 ---
 
