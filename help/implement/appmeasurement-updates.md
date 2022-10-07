@@ -4,9 +4,9 @@ description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2321'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Baixe a versão mais recente do AppMeasurement no [Gerenciador de código](/help
 
 Data de lançamento: **23 de setembro de 2022**
 
-* O AppMeasurement agora é compatível com a coleção de dicas de cliente agente-usuário de alta entropia que os navegadores Chromium (Google Chrome e Microsoft Edge) usam para fornecer informações de dispositivo. Você pode configurar dicas do cliente por meio de Tags ou usar o sinalizador &quot;collectHighEntropyUserAgentHint&quot;. A coleta de dicas de alta entropia está desativada por padrão. Saiba mais sobre o User-Agent [dicas do cliente](/help/technotes/client-hints.md).
+* O AppMeasurement agora é compatível com a coleção de dicas do cliente de usuário-agente de alta entropia que os navegadores Chromium (Google Chrome e Microsoft Edge) usam para fornecer informações de dispositivo. Você pode configurar dicas do cliente por meio de tags ou usar o sinalizador “collectHighEntropyUserAgentHints”. A coleção de dicas de alta entropia está desativada por padrão. Saiba mais sobre as [dicas do cliente](/help/technotes/client-hints.md) de usuário-agente.
 
 
 ## Versão 2.22.4
@@ -283,7 +283,7 @@ Data de lançamento: **21 de julho de 2016**
 
 * Inclusão da API de Visitante 1.6.0.
 * Correção de um problema que fazia com que [!DNL AppMeasurement] chamasse o método ofuscado errado na API do visitante. (AN-126006)
-* Correção de um problema que causava o erro :[!DNL JavaScript] &quot;Atributo válido apenas na v:image&quot;. (AN-124009)
+* Correção de um problema que causava o erro [!DNL JavaScript]: &quot;Atributo válido apenas na v:image&quot;. (AN-124009)
 
 ## Versão 1.6.1
 
@@ -456,7 +456,7 @@ Data de lançamento: **15 de novembro de 2013**
 Data de lançamento: **14 de novembro de 2013**
 
 * Adição de suporte para [medição de vídeo de heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).
-* `VisitorAPI.js` foi adicionado para oferecer suporte ao [Serviço de ID do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` foi adicionado para oferecer suporte ao [Serviço de ID do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
 
 ## Versão 1.1.1
 
