@@ -24,7 +24,7 @@ ht-degree: 95%
       + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
       + [charSet](vars/config-vars/charset.md)
-      + [collectHighEntropyUserAgentHint](vars/config-vars/collecthighentropyuseragenthints.md)
+      + [collectHighEntropyUserAgentHints](vars/config-vars/collecthighentropyuseragenthints.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
       + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
