@@ -4,9 +4,9 @@ title: Criar um cartão de pontuação móvel
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
+source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1750'
 ht-degree: 74%
 
 ---
@@ -156,13 +156,13 @@ Se desejar remover itens de dimensão [!UICONTROL Não especificados] dos dados,
 
 Ao clicar em um bloco no Construtor de scorecards, o painel direito exibe as propriedades e características associadas a esse bloco e seu slide de detalhes. Nesse painel, você pode fornecer um novo **Título** para o bloco e, como alternativa, configure-o aplicando segmentos.
 
-![Bloco de propriedades](assets/properties_tile.png)
+![Bloco de propriedades](assets/properties-tile-new.png)
 
 ## Exibir slides de detalhes {#view-detail-slides}
 
-Quando você clica em blocos, uma janela pop-up dinâmica exibe como o slide detalhado é exibido para o usuário executivo no aplicativo. Você pode adicionar dimensões para analisar seus dados de acordo com suas necessidades específicas. Se nenhuma dimensão tiver sido aplicada, a dimensão de detalhamento será **hour** ou **dias**, dependendo do intervalo de datas padrão.
+Quando você clica em blocos, uma janela pop-up dinâmica exibe como o slide detalhado é exibido para o usuário executivo no aplicativo. Você pode adicionar dimensões para analisar seus dados de acordo com suas necessidades específicas. Se uma dimensão não tiver sido aplicada, a dimensão de detalhamento será **hour** ou **dias**, dependendo do intervalo de datas padrão.
 
-Detalhamentos refinam sua análise ao analisar literalmente as métricas por itens de dimensão.
+Detalhamentos refinam sua análise detalhando métricas por itens de dimensão, como o seguinte:
 
 * Métrica de Visitantes únicos detalhada por Plataforma de publicidade (AMO ID)
 * Visitas detalhadas por Categoria de produto (Varejo)
