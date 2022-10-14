@@ -1,10 +1,10 @@
 ---
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
-source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 78%
+source-wordcount: '948'
+ht-degree: 76%
 
 ---
 
@@ -99,7 +99,7 @@ Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021
 
 +++**Como a Adobe usará as dicas do cliente para obter informações do dispositivo?**
 
-A Adobe utiliza um Device Atlas de terceiros, que usa as dicas do cliente e o usuário-agente para obter informações do dispositivo.
+O Adobe usa um Atlas de dispositivo de terceiros, que usará as dicas do cliente e o Agente do usuário para derivar informações do dispositivo.
 
 +++
 
