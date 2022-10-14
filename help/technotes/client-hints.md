@@ -1,10 +1,10 @@
 ---
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
-source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
+source-git-commit: 72fc9f58e58ed4b43fb17cec194808268e8b6879
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 76%
+source-wordcount: '1067'
+ht-degree: 67%
 
 ---
 
@@ -18,6 +18,10 @@ O Google divide as dicas do cliente de usuário-agente em duas categorias: dicas
 * **Dicas de baixa entropia** contém informações mais genéricas sobre dispositivos. Essas dicas são fornecidas automaticamente pelos navegadores Chromium.
 
 * As dicas de **alta entropia** contêm informações mais detalhadas. Essas dicas estão disponíveis somente mediante solicitação. O AppMeasurement e o SDK da Web [podem ser configurados](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) para solicitar dicas de alta entropia. Por padrão, ambas as bibliotecas **não** solicitam dicas de alta entropia.
+
+>[!NOTE]
+>
+>As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics, a partir de meados de janeiro de 2023. Atualmente, o AppMeasurement e o SDK da Web oferecem suporte à coleta de dados de dicas, mas não serão usados na pesquisa do dispositivo até meados de janeiro. Tal destina-se a evitar uma potencial interrupção dos relatórios durante o período crítico de fim de ano. Conforme observado abaixo, a versão do sistema operacional será congelada a partir de outubro, mas devido a um lançamento gradual e ao fato de a maioria dos agentes de usuário ser congelada para a versão correta do sistema operacional, estimamos que isso afetará &lt;3% dos visitantes do Chrome.
 
 >[!NOTE]
 >
@@ -89,6 +93,12 @@ Esses campos são diretamente derivados do Agente do usuário, mas o Agente do u
 
 +++
 
++++**Que partes do usuário-agente estão sendo “congeladas” e quando?**
+
+Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Esta situação pode estar sujeita a alterações.
+
++++
+
 +++**Quais campos de relatórios do Analytics são obtidos de valores armazenados em dicas de alta entropia?**
 
 Isso será alterado com o tempo, à medida que o Google &quot;congela&quot; mais partes do Agente do usuário. O primeiro campo a ser diretamente afetado é &quot;Sistema operacional&quot;, que inclui a versão do sistema operacional De acordo com a linha do tempo publicada pela Google para dicas de &quot;congelamento&quot; do agente-usuário, a versão do sistema operacional será congelada a partir do final de outubro de 2022 com o Chromium versão 107. Nesse momento, a versão do sistema operacional no Agente do usuário estará imprecisa em alguns casos.
@@ -115,6 +125,12 @@ Não. As dicas do cliente só podem ser coletadas por meio de uma conexão HTTP 
 
 +++
 
++++**Como faço para incluir dados de dicas do cliente ao usar o envio da API?**
+
+Consulte a documentação para incluí-los em [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+
++++
+
 +++**As dicas do cliente estarão disponíveis nos dados enviados para o AEP e o CJA por meio do Conector de origem da Adobe?**
 
 A Adobe planeja incluir dicas do cliente em dados por meio do Conector de origem da Adobe no primeiro semestre de 2023.
@@ -124,12 +140,6 @@ A Adobe planeja incluir dicas do cliente em dados por meio do Conector de origem
 +++**Como as dicas do cliente são representadas no XDM?**
 
 Consulte a [documentação do esquema](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121) na Adobe Experience Platform.
-
-+++
-
-+++**Que partes do usuário-agente estão sendo “congeladas” e quando?**
-
-Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Esta situação pode estar sujeita a alterações.
 
 +++
 
