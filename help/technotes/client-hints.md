@@ -1,10 +1,10 @@
 ---
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
-source-git-commit: 72fc9f58e58ed4b43fb17cec194808268e8b6879
+source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 67%
+source-wordcount: '1073'
+ht-degree: 61%
 
 ---
 
@@ -17,7 +17,7 @@ O Google divide as dicas do cliente de usuário-agente em duas categorias: dicas
 
 * **Dicas de baixa entropia** contém informações mais genéricas sobre dispositivos. Essas dicas são fornecidas automaticamente pelos navegadores Chromium.
 
-* As dicas de **alta entropia** contêm informações mais detalhadas. Essas dicas estão disponíveis somente mediante solicitação. O AppMeasurement e o SDK da Web [podem ser configurados](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) para solicitar dicas de alta entropia. Por padrão, ambas as bibliotecas **não** solicitam dicas de alta entropia.
+* As dicas de **alta entropia** contêm informações mais detalhadas. Essas dicas estão disponíveis somente mediante solicitação. O AppMeasurement e o SDK da Web podem ser configurados para solicitar dicas de alta entropia. Por padrão, ambas as bibliotecas **não** solicitam dicas de alta entropia.
 
 >[!NOTE]
 >
@@ -41,13 +41,9 @@ Esta [publicação do blog do Google](https://web.dev/user-agent-client-hints/) 
 
 +++**Como habilitar a coleção de dicas do cliente?**
 
-As dicas de baixa entropia são fornecidas automaticamente pelo navegador e incluídas no processo da Adobe para obtenção de informações do dispositivo e do navegador. As versões mais recentes do AppMeasurement (a partir da versão 2.23.0) e do SDK da Web (a partir da versão 2.12.0) podem ser configuradas para coletar dicas de alta entropia. Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativada por padrão**.
+As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assimiladas para obter informações do dispositivo e do navegador. As versões mais recentes do SDK da Web (começando com 2.12.0) e do AppMeasurement (começando com 2.23.0) podem ser configuradas para coletar dicas de alta entropia por meio de suas respectivas extensões de Tags ou diretamente por meio de uma opção de configuração. Consulte as instruções para [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
 
-+++
-
-+++**Como capturar dicas de alta entropia?**
-
-As dicas de alta entropia podem ser configuradas com o SDK da Web e as bibliotecas do AppMeasurement por meio de suas respectivas extensões de tags ou diretamente com o sinalizador “collectHighEntropyUserAgentHints”.
+Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativada por padrão**.
 
 +++
 
