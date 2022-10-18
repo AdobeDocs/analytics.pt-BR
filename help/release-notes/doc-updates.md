@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
 workflow-type: tm+mt
 source-wordcount: '3545'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Outubro de 2022** |  |
-| Resumo da métrica principal | Novo tópico sobre [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md) visualização. |
-| Conjuntos de classificações | O novo usuário [Conjuntos de classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) A experiência oferece uma única interface para gerenciar classificações e regras e melhorar a visibilidade dos dados de classificação de propriedade do cliente. |
-| Aplicativo móvel: Exibições de detalhes personalizadas | Novo tópico sobre [exibições de detalhes personalizados](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR). |
-| Data Workbench | Data Workbench [Perguntas frequentes sobre o fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
+| Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
+| Conjuntos de classificação | A nova experiência de [conjuntos de classificação](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=pt-BR) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
+| Aplicativo móvel: exibições de detalhes personalizadas | Novo tópico sobre [exibições de detalhes personalizadas](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR). |
+| Data Workbench | [Perguntas frequentes sobre o fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) do Data Workbench. |
 | **Setembro de 2022** |  |
 | Gráficos de combinação | Novo tópico sobre a visualização de [gráficos de combinação](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
 | Plug-in atualizado | Versão atualizada do plug-in de implementação [getvalonce](/help/implement/vars/plugins/getvalonce.md). |
@@ -68,7 +68,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 18 de agosto de 2021 | Novo tópico em [A4T e conjuntos de relatórios virtuais](/help/components/vrs/vrs-a4t.md) |
 | 18 de agosto de 2021 | Novo tópico em [Práticas recomendadas de atribuição](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 de agosto de 2021 | Novo tópico sobre [Contar instâncias repetidas](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=pt-BR) |
-| 5 de agosto de 2021 | Atualização da documentação de classificações em [modelos](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [importação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) e [exportação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) para indicar opções indisponíveis para conjuntos de relatórios que estão habilitados para a Nova arquitetura de classificação. |
+| 5 de agosto de 2021 | Atualização da documentação de classificações em [modelos](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=pt-BR), [importação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=pt-BR) e [exportação do navegador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=pt-BR) para indicar opções indisponíveis para conjuntos de relatórios que estão habilitados para a Nova arquitetura de classificação. |
 | 2 de agosto de 2021 | Atualização de várias páginas para refletir a reformulação da identidade visual do [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=pt-BR) |
 | **Julho de 2021** |  |
 | 23 de julho de 2021 | Nova discussão detalhada de [eVars de merchandising](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=pt-BR) |
