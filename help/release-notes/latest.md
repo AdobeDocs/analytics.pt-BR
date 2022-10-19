@@ -3,16 +3,16 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 51fe791a0a0ea45aab3b19f9639d8cc1a10ec114
+source-git-commit: 10b0f4f99d382cbf04b63f2dc518f0d6595d689e
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 89%
+source-wordcount: '1603'
+ht-degree: 87%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (outubro de 2022)
 
-**Última atualização**: 14 de outubro de 2022
+**Última atualização**: 19 de outubro de 2022
 
 As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -27,7 +27,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 
 | Recurso | Descrição | [Data Alvo](releases.md) |
 | ----------- | ---------- | ------- |
-| Visualização do **[!UICONTROL Resumo da métrica principal]** | A visualização do [!UICONTROL Resumo da métrica principal] permite ver a tendência de uma métrica importante em um único período. Ela também permite comparar o desempenho da métrica em dois intervalos de tempo. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=pt-BR) | Implantação em fases a partir de 5 de outubro de 2022 |
+| **Pastas em projetos do Workspace** | Pastas em Projetos do Workspace ajudam os usuários a organizar e categorizar seus projetos usando pastas para obter uma melhor recuperação e acesso. Uma pasta de empresa compartilhada permite que os administradores criem e compartilhem conteúdo com todos os usuários do Workspace [Saiba mais](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) | 19 de outubro de 2022 |  | Visualização do **[!UICONTROL Resumo da métrica principal]** | A visualização do [!UICONTROL Resumo da métrica principal] permite ver a tendência de uma métrica importante em um único período. Ela também permite comparar o desempenho da métrica em dois intervalos de tempo. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=pt-BR) | Implantação em fases a partir de 5 de outubro de 2022 |
 | Nova experiência do usuário de **[!UICONTROL conjuntos de classificação]** | A nova experiência do usuário fornece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=pt-BR) | 5 de outubro de 2022 |
 | Aplicativo móvel: **exibições de detalhes personalizadas** | As exibições de detalhes personalizadas garantem ainda mais controle sobre quais informações você compartilha com seu público-alvo, permitindo que eles se concentrem no que é mais importante. Você pode alterar o layout da exibição de detalhes associada a cada bloco de cartão de pontuação e adicionar um texto para explicar melhor o que o usuário final pode ver nos dados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR) | 5 de outubro de 2022 |
 | **Variáveis de vários valores que não diferenciam maiúsculas de minúsculas** | Para variáveis de vários valores que não diferenciam maiúsculas de minúsculas, os valores são armazenados em `mvvar1` - `mvvar3` os feeds de dados não serão mais convertidos em minúsculas automaticamente. Em vez disso, os feeds de dados (e os dados transmitidos pelo Conector de origem do Analytics para o Adobe Experience Platform e CJA) refletirão o caso original passado na página. | 24 de outubro de 2022 |
