@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder e o Activity Map.
-source-git-commit: 51fcb9043b2983336bc1f5d674231eb5f2524142
+source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1063'
 ht-degree: 98%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 98%
       + [Salvar projetos](analysis-workspace/build-workspace-project/save-projects.md)
       + Pastas no Workspace {#workspace-folders}
          + [Sobre pastas no Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Criar pastas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Criar pastas e subpastas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Adicionar Projetos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Remover um projeto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Salvar um novo projeto](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
