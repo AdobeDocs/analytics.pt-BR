@@ -3,10 +3,10 @@ description: Saiba mais sobre como salvar projetos em pastas no Workspace
 keywords: Analysis Workspace
 title: Salvar projetos em pastas
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ Para salvar um novo projeto em uma pasta específica, selecione o nome da pasta 
 
 >[!NOTE]
 >
->No momento, este recurso está em período de teste limitado. Algumas telas podem mudar.
+>Esse recurso está atualmente na versão beta. Algumas telas podem mudar.
 
 1. No Workspace, crie um novo projeto.
 

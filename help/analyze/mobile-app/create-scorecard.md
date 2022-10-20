@@ -4,10 +4,10 @@ title: Criar um cartão de pontuação móvel
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -160,9 +160,9 @@ Ao clicar em um bloco no Construtor de cartões de pontuação, o painel direito
 
 ## Exibir slides de detalhes {#view-detail-slides}
 
-Ao clicar nos blocos, uma janela pop-up dinâmica mostrará como o slide de detalhes aparecerá para o usuário executivo no aplicativo. Você pode adicionar dimensões para detalhar seus dados de acordo com suas necessidades específicas. Se uma dimensão não tiver sido aplicada, a dimensão de detalhamento será **hour** ou **dias**, dependendo do intervalo de datas padrão.
+Ao clicar nos blocos, uma janela pop-up dinâmica mostrará como o slide de detalhes aparecerá para o usuário executivo no aplicativo. Você pode adicionar dimensões para detalhar seus dados de acordo com suas necessidades específicas. Se nenhuma dimensão tiver sido aplicada, a dimensão de detalhamento será a **hora** ou os **dias**, dependendo do intervalo de datas padrão.
 
-Detalhamentos refinam sua análise detalhando métricas por itens de dimensão, como o seguinte:
+Os detalhamentos refinam sua análise ao detalhar métricas por itens de dimensão, como o seguinte:
 
 * Métrica de Visitantes únicos detalhada por Plataforma de publicidade (AMO ID)
 * Visitas detalhadas por Categoria de produto (Varejo)
@@ -174,17 +174,21 @@ Cada dimensão adicionada ao slide de detalhes será exibida em uma lista suspen
 
 ## Personalizar slides de detalhes {#customize-detail-slide}
 
-Os slides de detalhes personalizados permitem ter ainda mais controle sobre quais informações você compartilha com seu público-alvo. Você pode modificar o layout de cada slide de detalhes e adicionar texto para explicar melhor o que o usuário final pode ver nos dados. Também é possível alterar o tipo de gráfico usando o menu suspenso.
+Os slides de detalhes personalizados permitem ter ainda mais controle sobre quais informações você compartilha com seu público-alvo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+Você pode modificar o layout de cada slide de detalhes e adicionar texto para explicar melhor o que o usuário final pode ver nos dados. Também é possível alterar o tipo de gráfico usando o menu suspenso.
 
 ![Slide de detalhes personalizado](assets/custom-detail-slide.png)
 
 ### Alterar o layout do slide
 
-Altere o layout do slide para se concentrar nas informações mais importantes. Por exemplo, é possível alterar o layout para mostrar apenas um gráfico ou apenas uma tabela. Para alterar o layout do slide, selecione um dos formatos predefinidos.
+Altere o layout do slide para se concentrar nas informações mais importantes. Por exemplo, é possível alterar o layout para mostrar apenas um gráfico ou apenas uma tabela. Para alterar o layout do slide, selecione um dos formatos pré-projetados.
 
 ![Layout do slide](assets/layout.png)
 
-Você também pode alterar o layout do slide arrastando e soltando componentes de visualização do painel esquerdo para a tela. Cada slide de detalhes pode acomodar apenas duas visualizações por vez.
+Você também pode alterar o layout do slide arrastando e soltando componentes de visualização do painel esquerdo na tela. Cada slide de detalhe pode acomodar apenas duas visualizações por vez.
 
 ![Alteração do layout do slide](assets/slide-layout-change.png)
 
@@ -192,7 +196,7 @@ Você também pode alterar o layout do slide arrastando e soltando componentes d
 
 É possível adicionar texto para fornecer informações significativas sobre o que está contido nos gráficos ou nuances dos dados.
 
-Para adicionar texto a um slide de detalhes, selecione um layout que mostre o símbolo `T` ou arraste e solte o componente de Visualização de texto do painel esquerdo. O editor de texto será aberto automaticamente ao adicionar uma nova visualização de texto ou escolher um layout de slide com texto. O editor de texto fornece todas as opções padrão para a formatação do texto. É possível aplicar estilos de texto como parágrafo, cabeçalho e subtítulo, além de aplicar uma fonte em negrito e itálico. Você pode justificar o texto, adicionar listas com marcadores e números e adicionar links. Quando terminar a edição, selecione o botão Minimizar no canto superior direito do editor de texto para fechá-lo. Para editar um texto que já foi adicionado, selecione o ícone de lápis para abrir o editor de texto novamente.
+Para adicionar texto a um slide de detalhes, selecione um layout que apresente o símbolo `T` ou arraste e solte o componente de visualização de texto do painel esquerdo. O editor de texto será aberto automaticamente ao adicionar uma nova visualização de texto ou escolher um layout de slide com texto. O editor de texto fornece todas as opções padrão para a formatação do texto. É possível aplicar estilos de texto como parágrafo, cabeçalho e subtítulo, além de aplicar negrito e itálico à fonte. Você pode justificar o texto, adicionar listas com marcadores, números e adicionar links. Quando terminar a edição, selecione o botão Minimizar no canto superior direito do editor de texto para fechá-lo. Para editar um texto já adicionado, selecione o ícone de lápis para abrir o editor de texto novamente.
 
 ![Alteração do layout do slide](assets/add-descriptive-text.png)
 

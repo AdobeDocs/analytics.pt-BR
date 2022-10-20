@@ -3,10 +3,10 @@ description: Saiba como adicionar pastas ao Workspace
 keywords: Analysis Workspace
 title: Adicionar pastas no Workspace
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 4%
+source-wordcount: '224'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Você pode adicionar projetos a uma pasta na exibição de tabela ou de uma past
 
 >[!NOTE]
 >
->No momento, este recurso está em período de teste limitado. Algumas telas podem mudar.
+>Esse recurso está atualmente na versão beta. Algumas telas podem mudar.
 
 ## Na exibição de tabela
 
