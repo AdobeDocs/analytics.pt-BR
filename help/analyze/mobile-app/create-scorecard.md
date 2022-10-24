@@ -160,7 +160,7 @@ Ao clicar em um bloco no Construtor de cartões de pontuação, o painel direito
 
 ## Exibir slides de detalhes {#view-detail-slides}
 
-Ao clicar nos blocos, uma janela pop-up dinâmica mostrará como o slide de detalhes aparecerá para o usuário executivo no aplicativo. Você pode adicionar dimensões para detalhar seus dados de acordo com suas necessidades específicas. Se nenhuma dimensão tiver sido aplicada, a dimensão de detalhamento será a **hora** ou os **dias**, dependendo do intervalo de datas padrão.
+Ao clicar nos blocos, uma janela pop-up dinâmica mostrará como o slide de detalhes aparecerá para o usuário executivo no aplicativo. Você pode adicionar dimensões para detalhar seus dados de acordo com suas necessidades específicas. Se nenhuma dimensão for aplicada, a dimensão de detalhamento será definida como **hora** ou **dias**, dependendo do intervalo de datas padrão.
 
 Os detalhamentos refinam sua análise ao detalhar métricas por itens de dimensão, como o seguinte:
 
