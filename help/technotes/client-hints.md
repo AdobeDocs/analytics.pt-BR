@@ -2,9 +2,9 @@
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ O Google divide as dicas do cliente de usuário-agente em duas categorias: dicas
 
 >[!NOTE]
 >
->As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics, a partir de meados de janeiro de 2023. Atualmente, o AppMeasurement e o SDK da Web oferecem suporte à coleta de dados de dicas, mas não serão usados na pesquisa do dispositivo até meados de janeiro. Tal destina-se a evitar uma potencial interrupção dos relatórios durante o período crítico de fim de ano. Conforme observado abaixo, a versão do sistema operacional será congelada a partir de outubro, mas devido a um lançamento gradual e ao fato de a maioria dos agentes de usuário ser congelada para a versão correta do sistema operacional, estimamos que isso afetará &lt;3% dos visitantes do Chrome.
+>As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics a partir de meados de janeiro de 2023. Atualmente, o AppMeasurement e o SDK da Web são compatíveis com a coleção de dados de dicas, mas esta não será usada na pesquisa de dispositivo até meados de janeiro. Isso é para evitar uma potencial interrupção dos relatórios durante o período crítico de fim de ano. Conforme observado abaixo, a versão do sistema operacional será congelada a partir de outubro, mas devido a uma implantação gradual e ao fato de a maioria dos agentes de usuário ser congelada para a versão correta do sistema operacional, estimamos que isso afetará menos de 3% dos visitantes que utilizam o Chrome.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ O Google divide as dicas do cliente de usuário-agente em duas categorias: dicas
 
 >[!NOTE]
 >
->AAM requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR) em seguida, talvez você queira ativar a coleta de dicas de alta entropia.
+>O AAM requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira ativar a coleção de dicas de alta entropia.
 
 ## Perguntas frequentes
 
@@ -41,7 +41,7 @@ Esta [publicação do blog do Google](https://web.dev/user-agent-client-hints/) 
 
 +++**Como habilitar a coleção de dicas do cliente?**
 
-As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assimiladas para obter informações do dispositivo e do navegador. As versões mais recentes do SDK da Web (começando com 2.12.0) e do AppMeasurement (começando com 2.23.0) podem ser configuradas para coletar dicas de alta entropia por meio de suas respectivas extensões de Tags ou diretamente por meio de uma opção de configuração. Consulte as instruções para [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
+As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assimiladas para a obtenção de informações do dispositivo e do navegador. As versões mais recentes do SDK da Web (começando com a 2.12.0) e do AppMeasurement (começando com a 2.23.0) podem ser configuradas para coletar dicas de alta entropia por meio de suas respectivas extensões de Tags ou diretamente por meio de uma opção de configuração. Consulte as instruções para o [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR#enabling-high-entropy-client-hints) e o [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=pt-BR).
 
 Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativada por padrão**.
 
@@ -79,7 +79,7 @@ Os campos de dispositivo disponíveis para relatório não serão alterados. Os 
 
 +++**Quais campos de relatórios do Analytics são obtidos do usuário-agente?**
 
-Esses campos são diretamente derivados do Agente do usuário, mas o Agente do usuário pode ser usado para ajudar a derivar valores para outros campos relacionados ao dispositivo, dependendo dos detalhes do dispositivo.
+Esses campos são obtidos diretamente do usuário-agente, mas o usuário-agente pode ser usado para ajudar a obter valores para outros campos relacionados ao dispositivo, dependendo dos detalhes do dispositivo.
 
 * [Navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=pt-BR)
 * [Tipo de navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=pt-BR)
@@ -97,7 +97,7 @@ Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021
 
 +++**Quais campos de relatórios do Analytics são obtidos de valores armazenados em dicas de alta entropia?**
 
-Isso será alterado com o tempo, à medida que o Google &quot;congela&quot; mais partes do Agente do usuário. O primeiro campo a ser diretamente afetado é &quot;Sistema operacional&quot;, que inclui a versão do sistema operacional De acordo com a linha do tempo publicada pela Google para dicas de &quot;congelamento&quot; do agente-usuário, a versão do sistema operacional será congelada a partir do final de outubro de 2022 com o Chromium versão 107. Nesse momento, a versão do sistema operacional no Agente do usuário estará imprecisa em alguns casos.
+Isso será alterado com o tempo, à medida que o Google “congela” mais partes do usuário-agente. O primeiro campo a ser diretamente afetado é o “Sistema operacional”, que inclui a versão do sistema operacional. De acordo com a linha do tempo de “congelamento” de dicas do usuário-agente publicada pelo Google, a versão do sistema operacional será congelada a partir do final de outubro de 2022 com a versão 107 do Chromium. Nesse momento, a versão do sistema operacional no usuário-agente será imprecisa em alguns casos.
 
 Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) para ver o tempo de congelamento de outras partes do usuário-agente.
 
@@ -105,13 +105,13 @@ Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021
 
 +++**Como a Adobe usará as dicas do cliente para obter informações do dispositivo?**
 
-O Adobe usa um Atlas de dispositivo de terceiros, que usará as dicas do cliente e o Agente do usuário para derivar informações do dispositivo.
+A Adobe utiliza um terceiro, o Device Atlas, que usará as dicas do cliente e o usuário-agente para obter informações do dispositivo.
 
 +++
 
 +++**Quais navegadores são afetados pelas dicas do cliente?**
 
-As dicas do cliente se aplicam apenas a navegadores Chromium, como Google Chrome e Microsoft Edge. Não há alterações nos dados de outros navegadores ou aplicativos móveis.
+As dicas do cliente se aplicam somente aos navegadores Chromium, como Google Chrome e Microsoft Edge. Não há alterações nos dados de outros navegadores ou aplicativos móveis.
 
 +++
 
@@ -123,7 +123,7 @@ Não. As dicas do cliente só podem ser coletadas por meio de uma conexão HTTP 
 
 +++**Como faço para incluir dados de dicas do cliente ao usar o envio da API?**
 
-Consulte a documentação para incluí-los em [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+Consulte a documentação para incluí-los por meio da [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
 
 +++
 
@@ -139,9 +139,9 @@ Consulte a [documentação do esquema](https://github.com/adobe/xdm/blob/master/
 
 +++
 
-+++**O encaminhamento pelo lado do servidor AAM dará suporte a dicas do cliente?**
++++**O encaminhamento pelo lado do servidor do AAM será compatível com as dicas do cliente?**
 
-Sim. As dicas do cliente serão incluídas nos dados encaminhados ao AAM. Observe que AAM requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) em seguida, talvez você queira ativar a coleta de dicas de alta entropia.
+Sim. As dicas do cliente serão incluídas nos dados encaminhados ao AAM. Observe que o AAM requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira ativar a coleção de dicas de alta entropia.
 
 +++
 
