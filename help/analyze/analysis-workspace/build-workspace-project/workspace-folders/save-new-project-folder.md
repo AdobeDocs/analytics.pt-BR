@@ -3,7 +3,9 @@ description: Saiba mais sobre como salvar projetos em pastas no Workspace
 keywords: Analysis Workspace
 title: Salvar projetos em pastas
 feature: Workspace Basics
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+hide: true
+hidefromtoc: true
+source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 5%
