@@ -2,11 +2,12 @@
 description: Saiba mais sobre como usar o Gerente de atividade de relatórios para diagnosticar e corrigir problemas de capacidade durante o pico dos relatórios.
 title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
+mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 6ab2f39bdfc3a50c2b91f020c98b0e81da8b2b8e
+source-git-commit: 77b3e8a1f8ebb1459eeac83f098cab92f671efe6
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '464'
 ht-degree: 3%
 
 ---
@@ -36,13 +37,20 @@ Ao abrir a página de visão geral do Gerente de atividade de relatórios , voc�
 
 | Elemento da interface | Descrição |
 | --- | --- |
-| **[!UICONTROL Conjunto de relatórios]** | O conjunto de relatórios base |
-| **[!UICONTROL Conjunto de relatórios virtuais]** | Todos os conjuntos de relatórios virtuais que são alimentados neste conjunto de relatórios base. Os conjuntos de relatórios virtuais adicionam complexidade às solicitações de relatórios devido a níveis adicionais de filtragem e segmentação aplicadas. Todas as solicitações provenientes dos conjuntos de relatórios virtuais são combinadas e desistem para o conjunto de relatórios base.<p>Se você tiver 10 solicitações provenientes de 5 VRSs, serão 50 solicitações no conjunto de relatórios base. Dessa forma, você pode atingir rapidamente a capacidade. |
+| **[!UICONTROL Conjunto de relatórios]** | O conjunto de relatórios base cuja atividade de relatório você está monitorando. |
+| **[!UICONTROL Conjunto de relatórios virtuais]** | Mostra todos os conjuntos de relatórios virtuais que são alimentados para esse conjunto de relatórios base. Os conjuntos de relatórios virtuais adicionam complexidade às solicitações de relatórios devido a níveis adicionais de filtragem e segmentação aplicadas. Todas as solicitações provenientes dos conjuntos de relatórios virtuais são combinadas e desistem para o conjunto de relatórios base.<p>Por exemplo, se você tiver 10 solicitações provenientes de 5 VRSs, são 50 solicitações no conjunto de relatórios base. Dessa forma, você pode atingir rapidamente a capacidade. |
 | **[!UICONTROL Capacidade de uso]** | Em relação à porcentagem, quanto da capacidade de relatórios do conjunto de relatórios está sendo usada, em tempo real. |
-| **[!UICONTROL Status]** | Quatro indicadores de status possíveis: <ul><li>**Vermelho - Capacidade**: O conjunto de relatórios é maximizado em termos de capacidade de relatório.</li><li>**Amarelo - Capacidade de borbulhamento**: Este conjunto de relatórios corre o risco de atingir sua capacidade máxima.</li><li>**Verde - Disponível**: Há muita capacidade de gerar relatórios.</li><li>**Cinza - Indisponível**: O conjunto de relatórios não está configurado para capacidade de relatório.</li></ul> |
+| **[!UICONTROL Status]** | Quatro indicadores de status possíveis: <ul><li>**Vermelho - Capacidade**: O conjunto de relatórios é maximizado em termos de capacidade de relatório.</li><li>**Amarelo - Capacidade de borbulhamento**: Este conjunto de relatórios corre o risco de atingir sua capacidade máxima.</li><li>**Verde - Tudo bom**: Há muita capacidade de gerar relatórios.</li><li>**[!UICONTROL Status pendente]**: ?</li><li>**Cinza - Indisponível**: O conjunto de relatórios não está configurado para capacidade de relatório.</li></ul> |
 
-Atualize a página para alterar os resultados.
+### Ações da atividade de relatórios
 
-## Filtrar conjuntos de relatórios
+* Clique em **[!UICONTROL Atualizar]** na parte superior direita para atualizar os resultados.
+* Clique na estrela à esquerda do nome do conjunto de relatórios para marcar este conjunto de relatórios como favorito.
+* Verificar **[!UICONTROL Favoritos]** no canto superior esquerdo para mostrar os favoritos.
+* Pesquise por conjuntos de relatórios por nome ou por ID na barra de pesquisa.
+* Filtre os conjuntos de relatórios por seu status.
 
-É possível filtrar os conjuntos de relatórios por
+## Exibir atividade de relatório para conjuntos de relatórios individuais
+
+
+
