@@ -1,17 +1,17 @@
 ---
-title: collectHighEntropyUserAgentHint
+title: collectHighEntropyUserAgentHints
 description: Use a variável collectHighEntropyUserAgentHint para determinar se o Adobe solicitará dicas de alta entropia de navegadores Chromium (por exemplo, Google Chrome e Microsoft Edge).
-source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
+source-git-commit: 885a8f229fa814053e4766f3b38b6e7fb209fc00
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 3%
+source-wordcount: '226'
+ht-degree: 4%
 
 ---
 
 
 # collectHighEntropyUserAgentHint
 
-Dicas de cliente de alta entropia são usadas pelo Adobe Analytics para melhorar a identificação do dispositivo e do navegador. Leia mais sobre as dicas do cliente em [esta visão geral e perguntas frequentes](/help/technotes/client-hints.md) bem como [Blog Google](https://web.dev/user-agent-client-hints/).
+Dicas de cliente de alta entropia são usadas pelo Adobe Analytics para melhorar a identificação do dispositivo e do navegador. Essa opção está disponível a partir da versão 2.23.0 do AppMeasurement.js. Leia mais sobre as dicas do cliente em [esta visão geral e perguntas frequentes](/help/technotes/client-hints.md) bem como [Blog Google](https://web.dev/user-agent-client-hints/).
 
 ## Colete dicas de alta entropia usando o SDK da Web
 
