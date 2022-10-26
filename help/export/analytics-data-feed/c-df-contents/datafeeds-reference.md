@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
+source-git-commit: 56c11dd4f35f7b2de0e124b1bcb005afb356ece6
 workflow-type: tm+mt
-source-wordcount: '3445'
-ht-degree: 100%
+source-wordcount: '3537'
+ht-degree: 96%
 
 ---
 
@@ -38,11 +38,13 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `c_color` | Profundidade de bits da paleta de cores. Usado como parte do cálculo da dimensão [Intensidade de cor](/help/components/dimensions/color-depth.md). O AppMeasurement usa a função JavaScript `screen.colorDepth()`. | char(20) |
 | `campaign` | Variável usada na dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). | varchar(255) |
 | `carrier` | Variável de integração da Adobe Advertising Cloud. Especifica a operadora de celular. Faz referência à tabela de pesquisa `carrier`. | varchar(100) |
+| `ch_hdr` | Dicas do cliente coletadas pelo cabeçalho da solicitação HTTP. | texto |
+| `ch_js` | Dicas do cliente coletadas por meio da API JavaScript de dicas do cliente do agente do usuário. | texto |
 | `channel` | Variável usada na dimensão [Seções do site](/help/components/dimensions/site-section.md). | varchar(100) |
 | `click_action` | Não está mais em uso. Endereço do link clicado na ferramenta herdada ClickMap. | varchar(100) |
 | `click_action_type` | Não está mais em uso. Tipo de link da ferramenta herdada Clickmap.<br>0: HREF URL<br>1: ID Personalizado <br>2: Evento JavaScript onClick<br>3: Elemento de formulário | tinyint unsigned |
 | `click_context` | Não está mais em uso. Nome da página em que ocorreram cliquem em links. Parte da ferramenta herdada Clickmap. | varchar(255) |
-| `click_context_type` | Não está mais em uso. Indica se click_context tinha um nome de página ou se seu padrão era um URL de página.<br>0: URL da página<br>1: Nome da página | tinyint unsigned |
+| `click_context_type` | Não está mais em uso. Indica se `click_context` tinha um nome de página ou era padronizado para o URL da página.<br>0: URL da página<br>1: Nome da página | tinyint unsigned |
 | `click_sourceid` | Não está mais em uso. ID numérica do local na página onde ocorreu o clique no link. Parte da ferramenta herdada Clickmap. | int unsigned |
 | `click_tag` | Não está mais em uso. Tipo de elemento HTML que foi clicado. | char(10) |
 | `clickmaplink` | Link para o Activity Map | varchar(255) |
@@ -64,7 +66,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `date_time` | O horário da ocorrência em formato legível, com base no fuso horário do conjunto de relatórios. | datetime |
 | `domain` | Variável usada na dimensão [Domínio](/help/components/dimensions/domain.md). Com base no ponto de acesso de Internet do visitante. | varchar(100) |
 | `duplicate_events` | Lista todos os eventos que são contados como duplicados. | varchar(255) |
-| `duplicate_purchase` | Sinalizador que indica que o evento de compra para esta ocorrência deve ser ignorado, porque está duplicado. | tinyint unsigned |
+| `duplicate_purchase` | Sinalizador que indica que o evento de compra para esta ocorrência é ignorado porque é uma duplicata. | tinyint unsigned |
 | `duplicated_from` | Somente usado em conjuntos de relatórios contendo uma cópia da ocorrência com regras VISTA. Indica de qual conjunto de relatórios a ocorrência foi copiada. | varchar(40) |
 | `ef_id` | A `ef_id` usada em integrações da Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variáveis personalizadas 1-250. Usado nas dimensões [eVar](/help/components/dimensions/evar.md). Cada organização usa eVars de maneiras diferentes. O melhor lugar para obter informações sobre como sua organização popula as respectivas eVars seria um documento de design da solução específico da sua organização. | varchar(255) |
@@ -88,8 +90,9 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `hitid_low` | Usado em combinação com `hitid_high` para identificar um hit. | bigint unsigned |
 | `homepage` | Não está mais em uso. Indica se o URL atual é a página inicial do navegador. | char(1) |
 | `hourly_visitor` | Sinalizador para determinar se a ocorrência é um novo visitante por hora. | tinyint unsigned |
-| `ip` | Endereço IP, com base no cabeçalho HTTP da solicitação de imagem. | char(20) |
+| `ip` | O endereço IPv4, com base no cabeçalho HTTP da solicitação de imagem. Mutualmente exclusivo de `ipv6`; se essa coluna contiver um endereço IP não ofuscado, `ipv6` está em branco. | char(20) |
 | `ip2` | Não usado. Variável de referência de backend para conjuntos de relatórios contendo regras VISTA com base em endereço IP. | char(20) |
+| `ipv6` | O endereço IPv6 compactado, se disponível. Se um endereço IP for semelhante a `2001:cDBa:0000:0000:0000:0000:3257:0052`, o feed de dados contém `2001:cdba::3257:52`. Mutualmente exclusivo de `ip`; se essa coluna contiver um endereço IP não ofuscado, `ip` está em branco. | varchar(40) |
 | `j_jscript` | A versão do JavaScript suportada pelo navegador. | char(5) |
 | `java_enabled` | Sinalizador indicando se o Java está habilitado. <br>Y: Ativado <br>N: Desativado <br>U: Desconhecido | char(1) |
 | `javascript` | ID de pesquisa da versão do JavaScript, com base em `j_jscript`. Usa uma tabela de pesquisa. | tinyint unsigned |
@@ -145,7 +148,8 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | `mobilerelaunchcampaigntrackingcode` | Coletada da variável de dados de contexto `a.launch.campaign.trackingcode`. Usado na aquisição como o código de rastreamento para a campanha de lançamento. | varchar(255) |
 | `mobileresolution` | Resolução do dispositivo móvel. `[Width] x [Height]` em pixels. | varchar(255) |
 | `monthly_visitor` | Sinalizador indicando que o visitante é exclusivo no mês atual. | tinyint unsigned |
-| `mvvar1` - `mvvar3` | Lista de valores de variáveis. Contém uma lista delimitada de valores personalizados dependendo da implementação. As colunas `post_mvvar1` - `post_mvvar3` substituem o delimitador original por `--**--`. | texto |
+| `mvvar1` - `mvvar3` | Listar valores de variável definidos na ocorrência atual ou persistentes em ocorrências anteriores. Contém uma lista delimitada de valores personalizados dependendo da implementação. As colunas `post_mvvar1` - `post_mvvar3` substituem o delimitador original por `--**--`. | texto |
+| `mvvar1_instances` - `mvvar3_instances` | Os valores da variável de lista que foram definidos na ocorrência atual. As colunas `post_mvvar1_instances` - `post_mvvar3_instances` substituem o delimitador original por `--**--`. | texto |
 | `namespace` | Não usado. Parte de um recurso raspado. | varchar(50) |
 | `new_visit` | Um sinalizador que determina se ocorrência atual é uma nova visita. Definido por servidores da Adobe depois de 30 minutos de inatividade da visita. | tinyint unsigned |
 | `os` | ID numérica que representa o sistema operacional do visitante. Com base na coluna `user_agent`. Usa a pesquisa `os`. | int unsigned |
