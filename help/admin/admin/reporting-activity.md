@@ -3,7 +3,7 @@ description: Saiba mais sobre como usar o Gerente de atividade de relatórios pa
 title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: eb9400e20fe6f5e4a3cecfde85e8dc1428db9d1b
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 7%
@@ -17,7 +17,9 @@ ht-degree: 7%
 >
 >Essa funcionalidade está atualmente no teste beta.
 
-O Gerente de atividade de relatórios permite visualizar a capacidade de geração de relatórios para cada conjunto de relatórios na organização. Ele oferece a você, como Administrador, visibilidade detalhada do consumo de relatórios e ajuda a diagnosticar e corrigir problemas de capacidade facilmente durante os horários de pico de relatórios. Quando sua organização atinge a capacidade de solicitação de relatórios e apresenta uma degradação no desempenho dos relatórios, você agora tem uma maneira de autodiagnosticar problemas de relatórios sem a intervenção do Atendimento ao cliente do Adobe ou da engenharia. Você pode gerenciar facilmente as filas de relatórios em uma única interface e agir imediatamente &#x200B; &#x200B; para melhorar a experiência dos usuários. Esta ferramenta:
+O Gerente de atividade de relatórios permite visualizar a capacidade de geração de relatórios para cada conjunto de relatórios na organização. Ele oferece a você, como Administrador, visibilidade detalhada do consumo de relatórios e ajuda a diagnosticar e corrigir problemas de capacidade facilmente durante os horários de pico de relatórios.
+
+Quando sua organização atinge a capacidade de solicitação de relatórios e apresenta uma degradação no desempenho dos relatórios, você agora tem uma maneira de autodiagnosticar problemas de relatórios sem a intervenção do Atendimento ao cliente do Adobe ou da engenharia. Você pode gerenciar facilmente as filas de relatórios em uma única interface e agir imediatamente &#x200B; &#x200B; para melhorar a experiência dos usuários. Esta ferramenta:
 
 * Informa você, em tempo real, sobre sua capacidade atual de geração de relatórios em seus conjuntos de relatórios.
 * Fornece informações detalhadas de consulta de relatório sobre solicitações de relatórios atuais, estejam na fila e em andamento.

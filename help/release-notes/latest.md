@@ -3,16 +3,16 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 96488440c73acfdc015560012de5481368baed8a
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 94%
+source-wordcount: '1426'
+ht-degree: 93%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (outubro/novembro de 2022)
 
-**Última atualização**: 25 de outubro de 2022
+**Última atualização**: 28 de outubro de 2022
 
 As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -21,7 +21,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | Visualização do **[!UICONTROL Resumo da métrica principal]** | A visualização do [!UICONTROL Resumo da métrica principal] permite ver a tendência de uma métrica importante em um único período. Ela também permite comparar o desempenho da métrica em dois intervalos de tempo. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=pt-BR) | 5 de outubro de 2022 | 19 de outubro de 2023 |
-| **Variáveis multivalores que não diferenciam maiúsculas de minúsculas** | Para variáveis multivalores que não diferenciam maiúsculas de minúsculas, os valores são armazenados em `mvvar1` - `mvvar3` nos feeds de dados não serão mais convertidos em minúsculas automaticamente. Em vez disso, os feeds de dados (e os dados transmitidos pelo Conector de origem do Analytics para a Adobe Experience Platform e CJA) refletirão a caixa original transmitida pela página. | N/D | 24 de outubro de 2022 |
+| **Variáveis de vários valores que não diferenciam maiúsculas de minúsculas** | Para variáveis de vários valores que não diferenciam maiúsculas de minúsculas, os valores são armazenados em `mvvar1 - mvvar3` e `post_mvvar1 - post_mvvar3` nos Feeds de dados, as letras minúsculas não serão mais automaticamente. Em vez disso, os feeds de dados (e os dados transmitidos pelo Conector de origem do Analytics para a Adobe Experience Platform e CJA) refletirão a caixa original transmitida pela página. | N/D | 24 de outubro de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
