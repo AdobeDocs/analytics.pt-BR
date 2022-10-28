@@ -4,10 +4,10 @@ title: Configurar uma visualização de fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1377'
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ A nova experiência de [!UICONTROL fluxo] aprimora o fluxo de trabalho de vária
 
    * Use o menu suspenso para selecionar métricas ou dimensões.
    * Arraste itens da lista de dimensões ou métricas.
-   * Use a pesquisa para encontrar as métricas ou dimensões que você está procurando.
+   * Use a pesquisa para encontrar a dimensão ou métrica que você está procurando.
 
    Por exemplo, vamos supor que você queira rastrear tudo o que leva a um evento de check-out. Você arrastaria uma dimensão ou métrica relacionada ao check-out (como [!UICONTROL Pedido existente]) na área **[!UICONTROL Termina com]**.
 

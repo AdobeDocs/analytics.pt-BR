@@ -5,10 +5,10 @@ title: Novidades no Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '8276'
-ht-degree: 99%
+source-wordcount: '8277'
+ht-degree: 98%
 
 ---
 
@@ -1051,7 +1051,7 @@ Novos recursos lançados em 20 de outubro de 2016:
 Novos recursos lançados em 16 de junho de 2016:
 
 * [Nova permissão de grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=pt-BR) que permite que os administradores concedam ou neguem o acesso à guia **[!UICONTROL Análises]** > **[!UICONTROL Workspace]** para usuários. A partir de 16 de junho de 2016, todos os usuários têm permissão para acessar essa aba. Para negar o acesso, basta remover os usuários do grupo Acesso à Analysis Workspace.
-* O [Painel de comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) mostra as diferenças estatisticamente mais importantes entre dois segmentos por meio de uma análise automatizada de todas as métricas e dimensões às quais você tem acesso.
+* O [Painel de comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)O descobre as diferenças estatisticamente mais importantes entre dois segmentos por meio de uma análise automatizada de todas as métricas e dimensões às quais você tem acesso.
 * Estrutura do menu [Novos projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) que reorganiza o menu principal e o torna mais expansível. Por exemplo, para criar um novo **Painel de coorte**, agora é necessário criar um painel em branco e arrastar uma visualização de Tabela de coorte.
 * [Novo painel à esquerda](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): Painéis, Visualizações, Componentes.
 * Foi incluído um novo tipo de [visualização de Venn](/help/analyze/analysis-workspace/visualizations/venn.md) que permite arrastar até três segmentos e uma métrica e criar um diagrama de Venn.

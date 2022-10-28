@@ -1,12 +1,12 @@
 ---
-description: Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com os rótulos e suas definições.
+description: Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios.
 title: Rotular dados do conjunto de relatórios
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '964'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,11 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
 **Exemplo**: você, como controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics. Para criar um rótulo para endereços de email e IDs de cookies, você deve usar o framework DULE (Data Usage Labeling &amp; Enforcement - Aplicação e rotulagem do uso de dados) da Adobe Cloud Platform no Analytics.
 
-1. No Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Governança de dados]** > **[!UICONTROL (selecione o conjunto de relatórios)]**![](assets/privacy_rs_settings.png)
+1. No Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Governança de dados]** > **[!UICONTROL (selecione o conjunto de relatórios)]**![Configurações de privacidade](assets/privacy_rs_settings.png)
 
 1. Selecione qual grupo de variáveis você deseja rotular.
 
-   ![](assets/variables.png)
+   ![Variáveis](assets/variables.png)
 
    * **Dimensões padrão** (Dimensões prontas do Adobe Analytics)
    * **Métricas padrão** (Métricas prontas do Adobe Analytics)
@@ -39,11 +39,11 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
 1. (Opcional) Clique no ícone de informações (i) ao lado de cada variável para entender melhor seus valores mais comuns nos últimos 90 dias. (Esse recurso não está disponível para as Dimensões de processamento de dados, pois elas não estão disponíveis na interface do usuário do Analytics.)
 
-   ![](assets/info.png)
+   ![Info](assets/info.png)
 
 1. Selecione uma ou mais variáveis ao clicar na caixa de seleção e, em seguida, selecione o ícone **[!UICONTROL Editar]** (à direita) para editar uma ou mais variáveis.
 
-   ![](assets/edit.png)
+   ![Editar](assets/edit.png)
 
 1. A caixa de diálogo **Dados de identidade** é exibida automaticamente. Esses rótulos classificam os dados que podem ser usados isolados ou em combinação com outros dados para identificar ou permitir o contato direto com um indivíduo. Para obter mais informações sobre essas opções, consulte [Rótulos de dados de identidade (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
@@ -51,15 +51,15 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
    >
    >A estrutura DULE (Label Usage Labeling &amp; Enforcement) foi criada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados.
 
-   ![](assets/identity_labels.png)
+   ![Rótulos de identidade](assets/identity_labels.png)
 
 1. Abra a seção **Dados sensíveis** para definir os Rótulos de dados confidenciais que categorizam os dados de localização geográfica. Para obter mais informações sobre essas opções, consulte [Rótulos de dados sensíveis (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
-   ![](assets/sensitive_data.png)
+   ![Dados confidenciais](assets/sensitive_data.png)
 
 1. Abra a seção Privacidade de dados para definir os rótulos da **Governança de dados**. Use esta seção para instruir a Adobe sobre como lidar com cada variável das solicitações de acesso e exclusão da Privacidade de dados, bem como para definir quais variáveis devem ser verificadas para encontrar as IDs do titular de dados dessas solicitações. Para obter mais informações sobre essas opções, consulte [Rótulos de governança de dados (Privacidade de dados).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
-   ![](assets/privacy_labels.png)
+   ![Rótulos de privacidade](assets/privacy_labels.png)
 
 1. Clique em **[!UICONTROL Aplicar]** após concluir toda a rotulagem.
 
@@ -71,7 +71,7 @@ Se você quiser aplicar as mesmas configurações DULE/Privacidade de dados a ma
 1. Selecione algumas ou todas as variáveis neste grupo.
 1. Clique em **[!UICONTROL Copiar rótulos para os conjuntos de relatórios]** na parte superior direita da caixa de diálogo Governança de dados.
 
-   ![](assets/apply_as_template.png)
+   ![Aplicar como modelo](assets/apply_as_template.png)
 
 1. Marque **[!UICONTROL Selecionar todos]** para copiar rótulos para as variáveis selecionadas para todos os conjuntos de relatórios ou selecione os conjuntos de relatórios individuais para os quais você deseja copiar os rótulos.
 

@@ -4,10 +4,10 @@ title: Editar métricas em várias solicitações
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Lembre-se
 
 * Métricas podem ser adicionadas somente a solicitações de Layout dinâmico. Se algumas das solicitações selecionadas forem Layouts personalizados, as métricas não serão adicionadas. Isso ocorre porque o Report Builder não sabe onde colocar a nova métrica na planilha, uma vez que o layout é personalizado.
 * Então, se você selecionar apenas solicitações de Layout personalizado, a opção **[!UICONTROL Adicionar métricas]** não estará disponível.
-* A adição de métricas aumentará o tamanho de uma solicitação e poderá fazer com que seja sobreposta a outra solicitação. Verifique se a solicitação tem espaço suficiente para adicionar métricas.
+* A adição de métricas aumentará o tamanho de uma solicitação e poderá fazer com que seja sobreposta a outra solicitação. Certifique-se de que a solicitação tenha espaço suficiente para adicionar métricas.
 * Se a métrica adicionada já estiver presente em uma das solicitações selecionadas, ela será adicionada a essa solicitação.
 
 Para adicionar uma ou mais métricas:
@@ -29,7 +29,7 @@ Para adicionar uma ou mais métricas:
 1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Ou clique em **[!UICONTROL Gerenciar]** > **[!UICONTROL Editar várias]** > `<choose metric>` > **[!UICONTROL Editar grupo]** para selecionar o grupo de solicitações a serem modificadas.)
 1. Selecione **[!UICONTROL Adicionar métricas]** e selecione as métricas a serem adicionadas.
 
-   ![](assets/add_metric.png)
+   ![Adicionar métrica](assets/add_metric.png)
 
 1. Atualize a solicitação para ver os dados reais. Serão exibidos dados offline até que você atualize.
 
@@ -52,7 +52,7 @@ Para substituir uma métrica
 
 1. Selecione **[!UICONTROL Substituir métrica]**.
 
-   ![](assets/replace_metric.png)
+   ![Substituir métrica](assets/replace_metric.png)
 
 1. Selecione a métrica que será substituída e a métrica que a substituirá.
 1. Atualize a solicitação. Serão exibidos dados offline até que você atualize.
@@ -72,7 +72,7 @@ Para remover métricas:
 
 1. Selecione **[!UICONTROL Remover métricas]**.
 
-   ![](assets/remove_metric.png)
+   ![Remover métrica](assets/remove_metric.png)
 
 1. Selecione uma ou mais métricas para remover da solicitação.
 1. Atualize a solicitação. Serão exibidos dados offline até que você atualize.

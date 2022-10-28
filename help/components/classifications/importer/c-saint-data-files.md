@@ -3,10 +3,10 @@ description: O importador permite que você faça upload em massa de dados de cl
 title: Arquivos de dados de classificação
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 100%
+source-wordcount: '1784'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Um arquivo de dados deve atender às seguintes regras de estrutura:
 * Os arquivos enviados devem usar UTF-8 sem a codificação de caracteres BOM.
 * Caracteres especiais, como tecla tab, quebras de linha e aspas podem ser incorporados a uma célula, contanto que o formato de arquivo da versão 2.1 seja especificada e a célula seja devidamente [evitada](/help/components/classifications/importer/t-classifications-escape-data.md). Caracteres especiais incluem:
 
-   ```
+   ```text
    \t     tab character 
    \r     form feed character 
    \n    newline character 
@@ -53,7 +53,7 @@ Um arquivo de dados deve atender às seguintes regras de estrutura:
    * v2.0 ignora os orçamentos e considera que todos são parte das chaves e dos valores especificados. Por exemplo, considere este valor: &quot;Este é &quot;&quot;algum valor&quot;&quot;&quot;. v2.0 interpretaria isso literalmente como: &quot;Este é &quot;&quot;algum valor&quot;&quot;&quot;.
    * v2.1 faz com que as classificações considerem os orçamentos como parte da formatação de arquivo utilizada nos arquivos Excel. Portanto, v2.1 formataria o exemplo acima como: Este é &quot;algum valor&quot;.
    * Os problemas podem surgir quando v2.1 é especificado no arquivo, mas o que é necessário é v2.0; ou seja, quando aspas são utilizadas de forma ilegal na formatação do Excel. Por exemplo, se você tem um valor: &quot;VP NO REPS&quot; S/l Dress w/ Overlay. Com v2.1, esta formatação está incorreta (o valor deve ser cercado por aspas, e as aspas que fazem parte do valor real devem estar entre aspas) e as classificações não funcionarão além deste ponto.
-   * Certifique-se de fazer o seguinte: altere o formato do arquivo para v2.0, modificando o cabeçalho (célula C1) dos arquivos enviados, OU implemente apropriadamente as aspas do Excel nos arquivos.
+   * Siga um destes procedimentos: altere o formato do arquivo para v2.0 alterando o cabeçalho (célula C1) nos arquivos carregados OU implemente corretamente as aspas do Excel nos arquivos.
 
 * A primeira linha (não comentário) do arquivo de dados contém os cabeçalhos de coluna usados para identificar os dados de classificação nessa coluna. O importador exige um formato de arquivo específico para fazer upload de dados de maneira bem-sucedida. Para obter mais informações, consulte [Formato de cabeçalho de coluna](/help/components/classifications/importer/c-saint-data-files.md).
 * As linhas de dados encontram-se logo após a linha de cabeçalho em um arquivo de dados. Cada linha de dados deve conter um campo de dados para cada cabeçalho de coluna.
@@ -155,7 +155,7 @@ Esses caracteres têm um significado especial em um arquivo de dados. Sempre que
 
 **Exemplo:** se a Campanha A custa USD$ 10.000, a coluna [!UICONTROL Campanhas^~Custo] contém um valor de 10.000 e a coluna [!UICONTROL Campanhas^~Custo~per] contém [!UICONTROL FIXO]. Ao exibir o custo para a Campanha A nos relatórios, você notará $10.000 como o valor fixo para a Campanha A para o intervalo de datas do relatório.
 
-**Exemplo:** Se a Campanha B custa aproximadamente USD$ 2 por clique, a coluna [!UICONTROL Campanhas^~Custo] contém 2 e a coluna **[!UICONTROL Campanhas^~Custo~por]** contém [!UICONTROL CLIQUE]. Ao exibir o custo para a Campanha B nos relatórios, a Adobe calcula (2 * [número de cliques]) como o valor dinâmico para o intervalo de datas do relatório. Isso dá a você um cálculo do custo total com base no número de cliques realizados na Campanha B.
+**Exemplo:** Se a Campanha B custa aproximadamente USD$ 2 por clique, a coluna [!UICONTROL Campanhas^~Custo] contém 2 e a coluna **[!UICONTROL Campanhas^~Custo~por]** contém [!UICONTROL CLIQUE]. Ao exibir o custo para a Campanha B nos relatórios, o Adobe calcula (2) &#42; [número de cliques]) em tempo real para o intervalo de datas do relatório. Isso dá a você um cálculo do custo total com base no número de cliques realizados na Campanha B.
 
 ### Data
 

@@ -1,25 +1,25 @@
 ---
-title: Variáveis de eVar (merchandising)
+title: eVar (variável Merchandising)
 description: Variáveis personalizadas vinculadas a produtos individuais.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 71%
+source-wordcount: '543'
+ht-degree: 64%
 
 ---
 
 # eVar (merchandising)
 
-*Esta página de ajuda descreve como implementar as eVars de merchandising. Para obter informações sobre como as eVars de merchandising funcionam como uma dimensão, consulte [eVars (merchandising)](/help/components/dimensions/evar-merchandising.md) no guia Componentes do usuário.*
+*Esta página de ajuda descreve como implementar as eVars de merchandising. Para obter informações sobre como as eVars de merchandising funcionam como uma dimensão, consulte [eVars (dimensão Merchandising)](/help/components/dimensions/evar-merchandising.md) no guia do usuário Componentes.*
 
 Para ver em detalhes como as eVars de merchandising funcionam, consulte [eVars de merchandising e métodos de descoberta de produtos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=pt-BR).
 
 ## Configurar eVars nas configurações do conjunto de relatórios
 
-Antes de usar as eVars em sua implementação, configure a eVar com a sintaxe desejada nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
+Antes de usar eVars na implementação, configure o eVar para a sintaxe desejada nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
 
 >[!WARNING]
 >

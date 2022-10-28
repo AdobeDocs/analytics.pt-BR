@@ -5,10 +5,10 @@ title: Preparação para usar as Fontes de dados
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Por exemplo, se uma métrica da Fonte de dados mede impressões de anúncios, a 
 
 Após definir as dimensões dos dados para usar com uma fonte de dados, integre os dados de dimensões aos relatórios de marketing por mapeá-los na variável. Use os relatórios padrão (por exemplo, Produto, Código de rastreamento, Palavra-chave de Pesquisa) ou as variáveis de Tráfego e Conversão (eVars).
 
-No caso das eVars, é possível usar tanto eVars existentes como novas, como dimensões de dados. Após selecionar uma eVar para receber uma dimensão de dados das Fontes de dados, não deixe de nomeá-la adequadamente.
+No caso das eVars, é possível usar tanto eVars existentes como novas, como dimensões de dados. Depois de selecionar um eVar para receber uma dimensão de dados das Fontes de dados, certifique-se de nomeá-lo adequadamente.
 
 Consulte [Eventos de sucesso](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) na Ajuda do Analytics.
 

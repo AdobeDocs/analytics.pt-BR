@@ -3,10 +3,10 @@ title: listar
 description: Variáveis personalizadas que contêm vários valores na mesma ocorrência.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 50e57e30a50d9c010e8b25b5a7d0afc8926525f5
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 67%
+source-wordcount: '478'
+ht-degree: 63%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 67%
 
 As variáveis de lista são variáveis personalizadas que podem ser usadas da maneira que você desejar. Elas funcionam de forma semelhante às eVars, mas podem conter vários valores na mesma ocorrência. As variáveis de lista não têm limite de caracteres.
 
-Certifique-se de registrar a forma como você usa cada variável de lista e a lógica delas no [documento de design da solução](../../prepare/solution-design.md).
+Certifique-se de registrar a forma como você usa cada variável de lista e a lógica delas em [documento de design da solução](../../prepare/solution-design.md).
 
 >[!NOTE]
 >

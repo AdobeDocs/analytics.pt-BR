@@ -3,10 +3,10 @@ title: Solução de problemas de implementação do JavaScript
 description: Saiba mais sobre problemas comuns e práticas recomendadas para solucionar problemas da implementação do JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '693'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ A maioria das variáveis enviadas para a Adobe são cadeias de caracteres. No Ja
 
 ### Misturar aspas para definir uma variável
 
-Como prática recomendada, verifique se você está em conforme com os tipos de cotações usadas. Se um aspa simples designar o início de uma cadeia de caracteres, ela deverá ser usada para fechá-la.
+Como prática recomendada, verifique se você está em conformidade com os tipos de cotações usadas. Se um aspa simples designar o início de uma cadeia de caracteres, ela deverá ser usada para fechá-la.
 
 Por exemplo, ambos `s.eVar1 = 'Value'` e `s.eVar1 = "Value"` são válidos. `s.eVar1 = 'Value"` não é válido.
 
