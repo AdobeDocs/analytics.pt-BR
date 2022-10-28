@@ -5,7 +5,7 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 97%
@@ -13,6 +13,8 @@ ht-degree: 97%
 ---
 
 # Executar tipos de relatórios diferentes
+
+{{ra-eol}}
 
 Etapas para executar os diferentes tipos de relatório.
 
@@ -69,7 +71,7 @@ Consulte o sistema de ajuda do [Marketing Channel](/help/components/c-marketing-
 
 ## Executar um relatório de Detecção de anomalias {#task_4808C96327354D789C075823F5C3A049}
 
-Você pode executar a [Detecção de anomalias e a Análise de contribuição](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=pt-BR) somente no Analysis Workspace.
+Você pode executar [Detecção de anomalias e Análise de contribuição](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=pt-BR) somente no Analysis Workspace.
 
 ## Executar um relatório em tempo real {#task_5D25929C918E40B18965222FA94176B0}
 

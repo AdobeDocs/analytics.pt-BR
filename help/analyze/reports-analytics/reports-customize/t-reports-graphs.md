@@ -2,17 +2,19 @@
 description: Etapas que descrevem como personalizar o gráfico a fim de que seja mais útil para o público-alvo desejado.
 title: Alterar gráficos de relatórios
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
 
 # Alterar gráficos de relatórios
+
+{{ra-eol}}
 
 Etapas que descrevem como personalizar o gráfico a fim de que seja mais útil para o público-alvo desejado.
 

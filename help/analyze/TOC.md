@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder e o Activity Map.
-source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1059'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
       + Pastas no Workspace {#workspace-folders}
          + [Sobre pastas no Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Criar pastas e subpastas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Adicionar Projetos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Adicionar projetos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Remover um projeto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Salvar um novo projeto](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Modelos](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -305,7 +305,6 @@ ht-degree: 0%
       + [Menu de relatórios](reports-analytics/overview/reports-menu.md)
       + [Recursos do relatório](reports-analytics/overview/report-overview.md)
       + [Termos comuns](reports-analytics/overview/overview-common-terms.md)
-      + [Adobe Analytics para iOS](reports-analytics/overview/app-ios.md)
    + [Configurações e navegação da exibição de relatórios](reports-analytics/report-settings.md)
    + [Agendamento e distribuição de relatórios](reports-analytics/scheduling.md)
    + [Aviso de fim de vida útil para relatórios agendados](reports-analytics/scheduled-reports-eol.md)

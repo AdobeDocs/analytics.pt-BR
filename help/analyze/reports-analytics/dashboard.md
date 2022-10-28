@@ -5,14 +5,16 @@ title: Painéis e reportlets
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 100%
 
 ---
 
 # Painéis e reportlets
+
+{{ra-eol}}
 
 Um painel é uma coleção de relatórios miniatura chamados de reportlets. Um painel é mais útil quando contém reportlets relacionados que completam as visões gerais de aspectos específicos de seu site como, por exemplo, localizar métodos, perfis de visitantes, etc.
 

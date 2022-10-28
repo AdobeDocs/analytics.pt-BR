@@ -2,17 +2,19 @@
 description: Após executar um relatório, você pode personalizá-lo para visualizar e analisar os dados de acordo com suas necessidades. Você pode filtrar dados do relatório, alterar como os dados são apresentados graficamente, alterar a granularidade, etc.
 title: Visão geral de Personalizar relatórios
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 99%
+source-wordcount: '921'
+ht-degree: 100%
 
 ---
 
 # Visão geral de Personalizar relatórios
+
+{{ra-eol}}
 
 Após executar um relatório, você pode personalizá-lo para visualizar e analisar os dados de acordo com suas necessidades. Você pode filtrar dados do relatório, alterar como os dados são apresentados graficamente, alterar a granularidade, etc.
 
@@ -38,7 +40,7 @@ Somente administradores podem criar um relatório personalizado. Ao criar um rel
 
 >[!MORELIKETHIS]
 >
->* [Personalização do menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
+>* [Personalização do menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=pt-BR)
 
 
 ## Selecionar um intervalo de datas ou data {#task_9BEF7D4D839A4748B76E8500D1406C34}

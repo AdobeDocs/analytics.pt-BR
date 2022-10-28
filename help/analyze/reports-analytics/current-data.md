@@ -3,17 +3,19 @@ description: A opção Incluir dados atuais do Reports & Analytics permite exibi
 subtopic: Current Data
 title: Dados atuais
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '566'
 ht-degree: 97%
 
 ---
 
 # Dados atuais
+
+{{ra-eol}}
 
 A opção Incluir dados atuais do Reports &amp; Analytics permite exibir os dados mais recentes do Analytics, geralmente antes que sejam totalmente processados e finalizados. Os dados atuais exibem a maioria das métricas comuns em minutos, fornecendo dados acionáveis para proporcionar uma tomada de decisão rápida.
 
@@ -25,7 +27,7 @@ Os dados atuais são ativados por padrão em todos os relatórios que os suporta
 
 * Use a Analysis Workspace, que utiliza dados totalmente processados.
 * Clique em &quot;Não&quot; na configuração atual do relatório de dados para usar apenas dados totalmente processados.
-* Remova o item de permissão &quot;Dados atuais&quot; de um perfil de produto no Admin Console para impedir que usuários não administradores vejam essa opção. Consulte [Permissões de perfil de produto para Ferramentas do Analytics](/help/admin/admin-console/permissions/analytics-tools.md) no Guia do usuário de administração para obter mais informações.
+* Remova o item de permissão &quot;Dados atuais&quot; de um perfil de produto no Admin Console para impedir que usuários não administradores vejam essa opção. Consulte [Permissões de perfil de produto para ferramentas do Analytics](/help/admin/admin-console/permissions/analytics-tools.md) no Guia do usuário de administração para obter mais informações.
 
 Devido à priorização da disponibilidade de dados, os dados atuais não podem ser usados no momento com segmentos, classificações, detalhamentos, definições de caminho e algumas métricas. Se um desses recursos for usado, os dados atuais serão forçados a &quot;Não&quot; no relatório e um aviso amarelo será mostrado explicando por que os dados atuais não estão disponíveis.
 

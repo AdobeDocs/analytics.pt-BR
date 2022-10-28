@@ -4,14 +4,16 @@ title: Visão geral das métricas do Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: 87d1fb0c856fa28e14861b01980f6f4c1080eacb
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
 ---
 
 # Visão geral das métricas do Reports &amp; Analytics
+
+{{ra-eol}}
 
 As métricas são a base dos relatórios e ajudam a visualizar e compreender os relacionamentos de dados e habilitar comparações lado-a-lado de diferentes conjuntos de dados sobre seu site da Web. As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, ordens, receita, e assim por diante.
 

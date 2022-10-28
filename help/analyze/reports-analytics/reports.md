@@ -4,14 +4,16 @@ description: As dimensões e métricas que o Reports & Analytics usa para cada r
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
 
 ---
 
 # Relatórios
+
+{{ra-eol}}
 
 Cada relatório no Reports &amp; Analytics usa uma dimensão dedicada e uma métrica padrão. Você pode alterar a métrica em cada relatório e adicionar detalhamentos, se desejar. As listas a seguir fornecem qual dimensão é usada em cada relatório.
 

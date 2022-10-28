@@ -5,14 +5,16 @@ keywords: práticas recomendadas, falha, tempo limite, solução de problemas, l
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
 
 ---
 
 # Relatório de práticas recomendadas e solução de problemas
+
+{{ra-eol}}
 
 *Esta página de ajuda se refere às práticas recomendadas do Reports &amp; Analytics. Para o Analysis Workspace, consulte [Otimizar o desempenho do Analysis Workspace](../analysis-workspace/workspace-faq/optimizing-performance.md).  Para o Data Warehouse, consulte [Práticas recomendadas do Data Warehouse](/help/export/data-warehouse/data-warehouse-bp.md).*
 

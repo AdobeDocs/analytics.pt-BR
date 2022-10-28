@@ -2,17 +2,19 @@
 description: Use detalhamentos quando você deseja saber mais sobre como um item ou segmento do relatório se relaciona a outros relatórios. Geralmente, isso é chamado de "detalhar" um relatório por outro relatório.
 title: Detalhamentos
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: Noções básicas do Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 100%
 
 ---
 
 # Detalhamentos
+
+{{ra-eol}}
 
 Use detalhamentos quando você deseja saber mais sobre como um item ou segmento do relatório se relaciona a outros relatórios. Geralmente, isso é chamado de &quot;detalhar&quot; um relatório por outro relatório.
 
