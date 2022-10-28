@@ -3,11 +3,9 @@ description: Saiba mais sobre como usar o Gerente de atividade de relatórios pa
 title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
-hide: true
-hidefromtoc: true
-source-git-commit: 123a2131be1a3cb23246e2ba591be645c7025b26
+source-git-commit: eb9400e20fe6f5e4a3cecfde85e8dc1428db9d1b
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '939'
 ht-degree: 7%
 
 ---
@@ -21,13 +19,17 @@ ht-degree: 7%
 
 O Gerente de atividade de relatórios permite visualizar a capacidade de geração de relatórios para cada conjunto de relatórios na organização. Ele oferece a você, como Administrador, visibilidade detalhada do consumo de relatórios e ajuda a diagnosticar e corrigir problemas de capacidade facilmente durante os horários de pico de relatórios. Quando sua organização atinge a capacidade de solicitação de relatórios e apresenta uma degradação no desempenho dos relatórios, você agora tem uma maneira de autodiagnosticar problemas de relatórios sem a intervenção do Atendimento ao cliente do Adobe ou da engenharia. Você pode gerenciar facilmente as filas de relatórios em uma única interface e agir imediatamente &#x200B; &#x200B; para melhorar a experiência dos usuários. Esta ferramenta:
 
-* Informa sobre sua capacidade atual de geração de relatórios em seus conjuntos de relatórios.
+* Informa você, em tempo real, sobre sua capacidade atual de geração de relatórios em seus conjuntos de relatórios.
 * Fornece informações detalhadas de consulta de relatório sobre solicitações de relatórios atuais, estejam na fila e em andamento.
 * Permite otimizar a fila de relatórios, priorizando algumas e cancelando outras solicitações de relatórios para liberar capacidade. Em outras palavras, você pode perguntar em tempo real: este relatório é necessário neste momento ou posso anulá-lo a favor de relatórios mais urgentes?
 
 ## Acessar o Gerenciador de atividade de relatórios
 
 No Adobe Analytics, os administradores vão para **[!UICONTROL Administrador]** > **[!UICONTROL Gerente de atividade de relatórios]**.
+
+## Permissões
+
+Você precisa de permissões de Administrador do sistema do Analytics para gerenciar a atividade de relatórios. O acesso do Administrador de produto não é suficiente.
 
 ## Exibir a fila de relatórios
 
@@ -40,7 +42,7 @@ Ao abrir a página de visão geral do Gerente de atividade de relatórios , voc�
 | **[!UICONTROL Conjunto de relatórios]** | O conjunto de relatórios base cuja atividade de relatório você está monitorando. |
 | **[!UICONTROL Conjunto de relatórios virtuais]** | Mostra todos os conjuntos de relatórios virtuais que são alimentados para esse conjunto de relatórios base. Os conjuntos de relatórios virtuais adicionam complexidade às solicitações de relatórios devido a níveis adicionais de filtragem e segmentação aplicadas. Todas as solicitações provenientes dos conjuntos de relatórios virtuais são combinadas e desistem para o conjunto de relatórios base.<p>Por exemplo, se você tiver 10 solicitações provenientes de 5 VRSs, são 50 solicitações no conjunto de relatórios base. Dessa forma, você pode atingir rapidamente a capacidade. |
 | **[!UICONTROL Capacidade de uso]** | Em relação à porcentagem, quanto da capacidade de relatórios do conjunto de relatórios está sendo usada, em tempo real. |
-| **[!UICONTROL Status]** | Quatro indicadores de status possíveis: <ul><li>**Vermelho - [!UICONTROL Capacidade]**: O conjunto de relatórios é maximizado em termos de capacidade de relatório.</li><li>**Amarelo - [!UICONTROL Capacidade de aprendizado]**: Este conjunto de relatórios corre o risco de atingir sua capacidade máxima.</li><li>**Verde - [!UICONTROL Tudo bem]**: Há muita capacidade de gerar relatórios.</li><li>**[!UICONTROL Status pendente]**: ?</li><li>**Cinza - Indisponível**: O conjunto de relatórios não está configurado para capacidade de relatório.</li></ul> |
+| **[!UICONTROL Status]** | Quatro indicadores de status possíveis: <ul><li>**Vermelho - [!UICONTROL Capacidade]**: O conjunto de relatórios é maximizado em termos de capacidade de relatório. (95% - 100%) </li><li>**Amarelo - [!UICONTROL Capacidade de aprendizado]**: Este conjunto de relatórios corre o risco de atingir sua capacidade máxima. (90% - 94%)</li><li>**Verde - [!UICONTROL Tudo bem]**: Há muita capacidade de gerar relatórios. (0% - 90%)</li><li>**Cinza - [!UICONTROL Status pendente]**: ?</li></ul> |
 
 ### Outras ações da atividade de relatório
 
@@ -81,31 +83,53 @@ Os Números do resumo mostram as seguintes informações:
 | Número do resumo | Descrição |
 | --- | --- |
 | Usuários | Quantos usuários estão enviando solicitações de relatórios para este conjunto de relatórios no momento. |
-| Projetos |  |
-| Consultas |  |
-| Tempo Médio de Espera |  |
+| Projetos | Projetos do Workspace, pastas de trabalho do Report Builder etc. |
+| Consultas | O número de consultas em execução no momento. |
+| Tempo Médio de Espera | O tempo médio de espera para todas as consultas em execução. |
 | Capacidade de uso | A capacidade de uso atual deste conjunto de relatórios. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Tabela
 
-A tabela detalhada abaixo mostra
+A tabela detalhada abaixo mostra detalhes sobre o conjunto de relatórios.
 
 | Coluna | Descrição |
 | --- | --- |
-| ID da consulta |  |
-| Tempo de execução |  |
-| Tempo de espera |  |
-| Hora inicial |  |
-| Aplicativo | Os aplicativos compatíveis com o Gerente de atividade de relatórios são: <ul><li>Interface do Analysis Workspace</li><li>Projetos agendados do Workspace</li><li>Report Builder</li><li>IUs do construtor: Segmento, métricas calculadas, anotações, públicos-alvo, etc.</li></ul> |
-| Usuário |  |
-| Projeto |  |
-| Limites do mês |
-| Colunas |  |
-| Segmentos |  |
-| Status |  |
+| ID da consulta | Pode ser usado para fins de solução de problemas. |
+| Tempo de execução | Por quanto tempo a consulta está em execução. |
+| Tempo de espera | Por quanto tempo a query está aguardando antes de ser processada. Geralmente em &quot;0&quot; quando há capacidade suficiente. |
+| Hora inicial | Quando o query iniciou o processamento (horário local do administrador). |
+| Aplicativo | Os aplicativos compatíveis com o Gerente de atividade de relatórios são: <ul><li>Interface do Analysis Workspace</li><li>Projetos agendados do Workspace</li><li>Report Builder</li><li>IUs do construtor: Segmento, métricas calculadas, anotações, públicos-alvo, etc.</li><li>Chamadas de API da API 1.4 ou 2.0 (5 solicitações simultâneas)</li><li>Alertas inteligentes</li></ul> |
+| Usuário | O usuário que iniciou a consulta. |
+| Projeto | Projetos do Workspace, pastas de trabalho do Report Builder etc. |
+| Limites do mês | Quantos limites mensais uma solicitação atravessa. Isso aumenta a complexidade da solicitação. |
+| Colunas | O número de métricas e detalhamentos no Workspace para medir a complexidade da solicitação. |
+| Segmentos | Quantos segmentos são aplicados a essa solicitação. Isso aumenta a complexidade da solicitação. |
+| Status | Quatro indicadores de status possíveis: <ul><li>**Vermelho - [!UICONTROL Capacidade]**: O conjunto de relatórios é maximizado em termos de capacidade de relatório. (95% e mais)</li><li>**Amarelo - [!UICONTROL Capacidade de aprendizado]**: Este conjunto de relatórios corre o risco de atingir sua capacidade máxima (90% - 95%).</li><li>**Verde - [!UICONTROL Tudo bem]**: Há muita capacidade de gerar relatórios.</li><li>**[!UICONTROL Status pendente]**: Status não disponível.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
+## Cancelar solicitações de relatórios
 
+Para cancelar uma solicitação
+
+1. Marque a caixa à esquerda de um ou mais **[!UICONTROL ID da consulta]** na tabela e clique em **[!UICONTROL Cancelar solicitações]** na parte inferior.
+1. No **[!UICONTROL Cancelar consulta x]** for exibida, você poderá modificar a mensagem de cancelamento, se necessário.
+1. Clique em **[!UICONTROL Continuar]**.
+
+   ![cancel-query](assets/cancel-query.png)
+
+Os usuários do aplicativo no Workspace, por exemplo, verão o seguinte aviso aparecer em seus projetos:
+
+![cancel-user-notice](assets/cancel-user-facing.png)
+
+
+## Perguntas frequentes
+
+| Pergunta | Resposta |
+| --- | --- |
+| Posso adquirir capacidade adicional de geração de relatórios? | Esse recurso estará disponível em breve. |
+| Outras perguntas? |  |
+
+{style=&quot;table-layout:auto&quot;}
