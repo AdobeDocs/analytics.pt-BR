@@ -3,10 +3,10 @@ description: Segmentos sequenciais são criados por meio do operador THEN, em ve
 title: Construir segmentos sequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
 workflow-type: tm+mt
-source-wordcount: '3864'
-ht-degree: 100%
+source-wordcount: '3827'
+ht-degree: 97%
 
 ---
 
@@ -210,14 +210,7 @@ Crie um segmento como você faria para um segmento sequencial simples, de nível
 
 Se o ponto de verificação excluído estiver no início de um segmento sequencial, isso assegura que uma exibição de página excluída não ocorreu antes da primeira ocorrência não excluída.
 
-**Exemplo**: o visitante visitou a página A e não a página B.
-
-**Casos de uso**
-
-Os seguintes exemplos de casos de uso sobre como esse tipo de segmento pode ser usado:
-
-* Visitantes que visitarem a página A e não visitaram a página B.
-* Um restaurante deseja visualizar usuários inveterados que evitam a página de aterrissagem e vão diretamente para a página de Saída de pedido.
+Por exemplo, um restaurante deseja ver usuários inveterados que evitam a página de aterrissagem principal e vão diretamente para a página Saída de pedido. Esse exemplo pode ser simplificado para um visitante, evitando visitar a página A e ir direto para a página B.
 
 **Criar este segmento**
 
@@ -229,14 +222,7 @@ Crie dois contêineres de Ocorrência separados em um contêiner de Visitante de
 
 Se o ponto de verificação excluído estiver no final de uma sequência, isso garante que o ponto de verificação não ocorreu a partir do último ponto de verificação não excluído até o final da sequência do visitante.
 
-**Exemplo**: os visitantes visitaram a página A e depois não visitaram a página B nas visitas atuais ou subsequentes.
-
-**Casos de uso**
-
-Os seguintes exemplos sobre como esse tipo de segmento pode ser usado:
-
-* Visitantes que visitarem a página A e não visitaram a página B.
-* Um restaurante deseja visualizar usuários inveterados que evitam a página de aterrissagem e vão diretamente para a página de Saída de pedido.
+Por exemplo, uma loja de roupas quer ver todos os visitantes que visualizaram uma página de produto, mas nunca visitaram o carrinho de compras depois. Esse exemplo pode ser simplificado para um visitante que vai para a página A e nunca vai para a página B nas visitas atuais ou subsequentes.
 
 **Criar este segmento**
 
