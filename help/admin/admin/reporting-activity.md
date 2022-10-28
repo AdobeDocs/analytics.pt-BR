@@ -3,9 +3,9 @@ description: Saiba mais sobre como usar o Gerente de atividade de relatórios pa
 title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '942'
 ht-degree: 7%
 
 ---
@@ -45,6 +45,8 @@ Ao abrir a página de visão geral do Gerente de atividade de relatórios , voc�
 | **[!UICONTROL Conjunto de relatórios virtuais]** | Mostra todos os conjuntos de relatórios virtuais que são alimentados para esse conjunto de relatórios base. Os conjuntos de relatórios virtuais adicionam complexidade às solicitações de relatórios devido a níveis adicionais de filtragem e segmentação aplicadas. Todas as solicitações provenientes dos conjuntos de relatórios virtuais são combinadas e desistem para o conjunto de relatórios base.<p>Por exemplo, se você tiver 10 solicitações provenientes de 5 VRSs, são 50 solicitações no conjunto de relatórios base. Dessa forma, você pode atingir rapidamente a capacidade. |
 | **[!UICONTROL Capacidade de uso]** | Em relação à porcentagem, quanto da capacidade de relatórios do conjunto de relatórios está sendo usada, em tempo real. |
 | **[!UICONTROL Status]** | Quatro indicadores de status possíveis: <ul><li>**Vermelho - [!UICONTROL Capacidade]**: O conjunto de relatórios é maximizado em termos de capacidade de relatório. (95% - 100%) </li><li>**Amarelo - [!UICONTROL Capacidade de aprendizado]**: Este conjunto de relatórios corre o risco de atingir sua capacidade máxima. (90% - 94%)</li><li>**Verde - [!UICONTROL Tudo bem]**: Há muita capacidade de gerar relatórios. (0% - 90%)</li><li>**Cinza - [!UICONTROL Status pendente]**: ?</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Outras ações da atividade de relatório
 
