@@ -3,9 +3,9 @@ description: Saiba mais sobre como usar o Gerente de atividade de relatórios pa
 title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '928'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ No Adobe Analytics, os administradores vão para **[!UICONTROL Administrador]** 
 
 ## Permissões
 
-Você precisa de permissões de Administrador do sistema do Analytics para gerenciar a atividade de relatórios. O acesso do Administrador de produto não é suficiente.
+Você precisa de permissões de Administrador de produto do Analytics para gerenciar a atividade de relatórios.
 
 ## Exibir a fila de relatórios
 
@@ -118,7 +118,7 @@ A tabela detalhada abaixo mostra detalhes sobre o conjunto de relatórios.
 
 Para cancelar uma solicitação
 
-1. Marque a caixa à esquerda de um ou mais **[!UICONTROL ID da consulta]** na tabela e clique em **[!UICONTROL Cancelar solicitações]** na parte inferior.
+1. Marque a caixa à esquerda de um ou mais **[!UICONTROL ID da consulta]** na tabela e clique em **[!UICONTROL Cancelar solicitações]** na parte inferior. (Também é possível cancelar solicitações em massa ao exibir detalhes ao [!UICONTROL Usuário], [!UICONTROL Projeto]ou [!UICONTROL Aplicativo].)
 1. No **[!UICONTROL Cancelar consulta x]** for exibida, você poderá modificar a mensagem de cancelamento, se necessário.
 1. Clique em **[!UICONTROL Continuar]**.
 
@@ -127,7 +127,6 @@ Para cancelar uma solicitação
 Os usuários do aplicativo no Workspace, por exemplo, verão o seguinte aviso aparecer em seus projetos:
 
 ![cancel-user-notice](assets/cancel-user-facing.png)
-
 
 ## Perguntas frequentes
 
