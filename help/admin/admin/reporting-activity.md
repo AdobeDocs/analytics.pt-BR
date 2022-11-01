@@ -3,7 +3,7 @@ description: Saiba mais sobre como usar o Gerente de atividade de relatórios pa
 title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
+source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 7%
@@ -17,12 +17,12 @@ ht-degree: 7%
 >
 >Essa funcionalidade está atualmente no teste beta.
 
-O Gerente de atividade de relatórios permite visualizar a capacidade de geração de relatórios para cada conjunto de relatórios na organização. Ele oferece a você, como Administrador, visibilidade detalhada do consumo de relatórios e ajuda a diagnosticar e corrigir problemas de capacidade facilmente durante os horários de pico de relatórios.
+O [!UICONTROL Gerente de atividade de relatórios] permite ver a capacidade de gerar relatórios para cada conjunto de relatórios na organização. Ele oferece a você, como Administrador, visibilidade detalhada do consumo de relatórios e ajuda a diagnosticar e corrigir problemas de capacidade facilmente durante os horários de pico de relatórios.
 
 Quando sua organização atinge a capacidade de solicitação de relatórios e apresenta uma degradação no desempenho dos relatórios, você agora tem uma maneira de autodiagnosticar problemas de relatórios sem a intervenção do Atendimento ao cliente do Adobe ou da engenharia. Você pode gerenciar facilmente as filas de relatórios em uma única interface e agir imediatamente &#x200B; &#x200B; para melhorar a experiência dos usuários. Esta ferramenta:
 
 * Informa você, em tempo real, sobre sua capacidade atual de geração de relatórios em seus conjuntos de relatórios.
-* Fornece informações detalhadas de consulta de relatório sobre solicitações de relatórios atuais, estejam na fila e em andamento.
+* Fornece informações detalhadas de consulta de relatório sobre solicitações de relatórios atuais, estejam na fila ou em andamento.
 * Permite otimizar a fila de relatórios, priorizando algumas e cancelando outras solicitações de relatórios para liberar capacidade. Em outras palavras, você pode perguntar em tempo real: este relatório é necessário neste momento ou posso anulá-lo a favor de relatórios mais urgentes?
 
 ## Acessar o Gerenciador de atividade de relatórios
@@ -35,7 +35,7 @@ Você precisa de permissões de Administrador do sistema do Analytics para geren
 
 ## Exibir a fila de relatórios
 
-Ao abrir a página de visão geral do Gerente de atividade de relatórios , você verá uma lista dos seus conjuntos de relatórios base ativados.
+Ao abrir o [!UICONTROL Atividade de relatório] Na página de visão geral do Gerenciador, você verá uma lista dos seus conjuntos de relatórios base ativados.
 
 ![fila de relatórios](assets/reporting-activity1.png)
 
@@ -104,7 +104,7 @@ A tabela detalhada abaixo mostra detalhes sobre o conjunto de relatórios.
 | [!UICONTROL Tempo de execução] | Por quanto tempo a consulta está em execução. |
 | [!UICONTROL Tempo de espera] | Por quanto tempo a query está aguardando antes de ser processada. Geralmente em &quot;0&quot; quando há capacidade suficiente. |
 | [!UICONTROL Hora inicial] | Quando o query iniciou o processamento (horário local do administrador). |
-| [!UICONTROL Aplicativo] | Os aplicativos compatíveis com o Gerente de atividade de relatórios são: <ul><li>Interface do Analysis Workspace</li><li>Projetos agendados do Workspace</li><li>Report Builder</li><li>IUs do construtor: Segmento, métricas calculadas, anotações, públicos-alvo, etc.</li><li>Chamadas de API da API 1.4 ou 2.0</li><li>Alertas inteligentes</li></ul> |
+| [!UICONTROL Aplicativo] | Os aplicativos compatíveis com a [!UICONTROL Gerente de atividade de relatórios] são: <ul><li>Interface do Analysis Workspace</li><li>Projetos agendados do Workspace</li><li>Report Builder</li><li>IUs do construtor: Segmento, métricas calculadas, anotações, públicos-alvo, etc.</li><li>Chamadas de API da API 1.4 ou 2.0</li><li>Alertas inteligentes</li></ul> |
 | [!UICONTROL Usuário] | O usuário que iniciou a consulta. |
 | [!UICONTROL Projeto] | Nomes de projeto salvos do Workspace, IDs de relatório da API etc. (Os metadados podem variar em vários aplicativos.) |
 | [!UICONTROL Limites do mês] | Quantos limites mensais uma solicitação atravessa. Isso aumenta a complexidade da solicitação. |
