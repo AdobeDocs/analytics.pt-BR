@@ -3,9 +3,9 @@ description: Saiba mais sobre como usar o Gerente de atividade de relatórios pa
 title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
+source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '919'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ Ao abrir a página de visão geral do Gerente de atividade de relatórios , voc�
 | **[!UICONTROL Conjunto de relatórios]** | O conjunto de relatórios base cuja atividade de relatório você está monitorando. |
 | **[!UICONTROL Conjunto de relatórios virtuais]** | Mostra todos os conjuntos de relatórios virtuais que são alimentados para esse conjunto de relatórios base. Os conjuntos de relatórios virtuais adicionam complexidade às solicitações de relatórios devido a níveis adicionais de filtragem e segmentação aplicadas. Todas as solicitações provenientes dos conjuntos de relatórios virtuais são combinadas e desistem para o conjunto de relatórios base.<p>Por exemplo, se você tiver 10 solicitações provenientes de 5 VRSs, são 50 solicitações no conjunto de relatórios base. Dessa forma, você pode atingir rapidamente a capacidade. |
 | **[!UICONTROL Capacidade de uso]** | Em relação à porcentagem, quanto da capacidade de relatórios do conjunto de relatórios está sendo usada, em tempo real. |
-| **[!UICONTROL Status]** | Quatro indicadores de status possíveis: <ul><li>**Vermelho - [!UICONTROL Capacidade]**: O conjunto de relatórios é maximizado em termos de capacidade de relatório. (95% - 100%) </li><li>**Amarelo - [!UICONTROL Capacidade de aprendizado]**: Este conjunto de relatórios corre o risco de atingir sua capacidade máxima. (90% - 94%)</li><li>**Verde - [!UICONTROL Tudo bem]**: Há muita capacidade de gerar relatórios. (0% - 90%)</li><li>**Cinza - [!UICONTROL Status pendente]**: ?</li></ul> |
+| **[!UICONTROL Status]** | Quatro indicadores de status possíveis: <ul><li>**Vermelho - [!UICONTROL Capacidade]**: O conjunto de relatórios é maximizado em termos de capacidade de relatório. (100%) </li><li>**Amarelo - [!UICONTROL Capacidade de aprendizado]**: Este conjunto de relatórios corre o risco de atingir sua capacidade máxima. (90% - 99%)</li><li>**Verde - [!UICONTROL Tudo bem]**: Há muita capacidade de gerar relatórios. (0% - 89%)</li><li>**Cinza - [!UICONTROL Status pendente/Não ativado]**: Capacidade do relatório não disponível.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -86,11 +86,11 @@ Os Números do resumo mostram as seguintes informações:
 
 | Número do resumo | Descrição |
 | --- | --- |
-| Usuários | Quantos usuários estão enviando solicitações de relatórios para este conjunto de relatórios no momento. |
-| Projetos | Projetos do Workspace, pastas de trabalho do Report Builder etc. |
-| Consultas | O número de consultas em execução no momento. |
-| Tempo Médio de Espera | O tempo médio de espera para todas as consultas em execução. |
-| Capacidade de uso | A capacidade de uso atual deste conjunto de relatórios. |
+| [!UICONTROL Usuários] | Quantos usuários estão enviando solicitações de relatórios para este conjunto de relatórios no momento. |
+| [!UICONTROL Projetos] | Projetos do Workspace, pastas de trabalho do Report Builder etc. |
+| [!UICONTROL Consultas] | O número de consultas em execução no momento. |
+| [!UICONTROL Tempo Médio de Espera] | O tempo médio de espera para todas as consultas em execução. |
+| [!UICONTROL Capacidade de uso] | A capacidade de uso atual deste conjunto de relatórios. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -100,17 +100,17 @@ A tabela detalhada abaixo mostra detalhes sobre o conjunto de relatórios.
 
 | Coluna | Descrição |
 | --- | --- |
-| ID da consulta | Pode ser usado para fins de solução de problemas. |
-| Tempo de execução | Por quanto tempo a consulta está em execução. |
-| Tempo de espera | Por quanto tempo a query está aguardando antes de ser processada. Geralmente em &quot;0&quot; quando há capacidade suficiente. |
-| Hora inicial | Quando o query iniciou o processamento (horário local do administrador). |
-| Aplicativo | Os aplicativos compatíveis com o Gerente de atividade de relatórios são: <ul><li>Interface do Analysis Workspace</li><li>Projetos agendados do Workspace</li><li>Report Builder</li><li>IUs do construtor: Segmento, métricas calculadas, anotações, públicos-alvo, etc.</li><li>Chamadas de API da API 1.4 ou 2.0 (5 solicitações simultâneas)</li><li>Alertas inteligentes</li></ul> |
-| Usuário | O usuário que iniciou a consulta. |
-| Projeto | Projetos do Workspace, pastas de trabalho do Report Builder etc. |
-| Limites do mês | Quantos limites mensais uma solicitação atravessa. Isso aumenta a complexidade da solicitação. |
-| Colunas | O número de métricas e detalhamentos no Workspace para medir a complexidade da solicitação. |
-| Segmentos | Quantos segmentos são aplicados a essa solicitação. Isso aumenta a complexidade da solicitação. |
-| Status | Quatro indicadores de status possíveis: <ul><li>**Vermelho - [!UICONTROL Capacidade]**: O conjunto de relatórios é maximizado em termos de capacidade de relatório. (95% e mais)</li><li>**Amarelo - [!UICONTROL Capacidade de aprendizado]**: Este conjunto de relatórios corre o risco de atingir sua capacidade máxima (90% - 95%).</li><li>**Verde - [!UICONTROL Tudo bem]**: Há muita capacidade de gerar relatórios.</li><li>**[!UICONTROL Status pendente]**: Status não disponível.</li></ul> |
+| [!UICONTROL ID da consulta] | Pode ser usado para fins de solução de problemas. |
+| [!UICONTROL Tempo de execução] | Por quanto tempo a consulta está em execução. |
+| [!UICONTROL Tempo de espera] | Por quanto tempo a query está aguardando antes de ser processada. Geralmente em &quot;0&quot; quando há capacidade suficiente. |
+| [!UICONTROL Hora inicial] | Quando o query iniciou o processamento (horário local do administrador). |
+| [!UICONTROL Aplicativo] | Os aplicativos compatíveis com o Gerente de atividade de relatórios são: <ul><li>Interface do Analysis Workspace</li><li>Projetos agendados do Workspace</li><li>Report Builder</li><li>IUs do construtor: Segmento, métricas calculadas, anotações, públicos-alvo, etc.</li><li>Chamadas de API da API 1.4 ou 2.0</li><li>Alertas inteligentes</li></ul> |
+| [!UICONTROL Usuário] | O usuário que iniciou a consulta. |
+| [!UICONTROL Projeto] | Nomes de projeto salvos do Workspace, IDs de relatório da API etc. (Os metadados podem variar em vários aplicativos.) |
+| [!UICONTROL Limites do mês] | Quantos limites mensais uma solicitação atravessa. Isso aumenta a complexidade da solicitação. |
+| [!UICONTROL Colunas] | O número de métricas e detalhamentos no Workspace para medir a complexidade da solicitação. |
+| [!UICONTROL Segmentos] | Quantos segmentos são aplicados a essa solicitação. Isso aumenta a complexidade da solicitação. |
+| [!UICONTROL Status] | Indicadores de status: <ul><li>**Em execução**: A solicitação está sendo processada no momento.</li><li>**Pending**: A solicitação está aguardando para ser processada.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -134,6 +134,5 @@ Os usuários do aplicativo no Workspace, por exemplo, verão o seguinte aviso ap
 | Pergunta | Resposta |
 | --- | --- |
 | Posso adquirir capacidade adicional de geração de relatórios? | Esse recurso estará disponível em breve. |
-| Outras perguntas? |  |
 
 {style=&quot;table-layout:auto&quot;}
