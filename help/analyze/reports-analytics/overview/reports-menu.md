@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '853'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Meus favoritos, Exibidos com frequência e Histórico de relatórios são espec�
 
 É possível navegar pelos relatórios através de uma exibição de coluna hierárquica. Clique em **[!UICONTROL Exibir todos os relatórios]**, ou pressione a tecla de barra (/) e a tecla de seta para baixo (↓) para exibir e navegar pelo menu rapidamente usando as teclas de seta. Pressione a tecla Escape para fechar o menu sem alterar o relatório atual ou pressione Enter para carregar o relatório selecionado.
 
-![](assets/reports-landing.png){width=&quot;672px&quot;}
+![](assets/reports-landing.png){width="672px"}
 
 Para obter detalhes sobre relatórios individuais, consulte as [Dimensões](/help/components/dimensions/overview.md).
 

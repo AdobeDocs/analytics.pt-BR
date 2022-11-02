@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -27,13 +27,13 @@ Este exemplo mostra um [!UICONTROL Relatório de páginas]. As opções de confi
 
 Veja a seguir um exemplo de um relatório de Páginas (**[!UICONTROL Relatórios]** > **[!UICONTROL Conteúdo do site]** > **[!UICONTROL Relatórios de páginas]** > **[!UICONTROL Páginas]**).
 
-![](assets/pages_report.png){width=&quot;672px&quot;}
+![](assets/pages_report.png){width="672px"}
 
 ## Barra de ferramentas de relatório {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Compartilhe os dados do relatório com os tomadores de decisão que podem mudar o seu site ou as estratégias de marketing com base nos dados.
 
-![](assets/toolbar.png){width=&quot;672px&quot;}
+![](assets/toolbar.png){width="672px"}
 
 Consulte também [Personalização de um relatório](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
@@ -41,7 +41,7 @@ Consulte também [Personalização de um relatório](/help/analyze/reports-analy
 
 Exibe as configurações de relatório e permite que você configure o tipo de relatório, selecione métricas e muito mais. As opções disponíveis nesse grupo variam de acordo com o relatório que você está executando.
 
-![](assets/settings_header.png){width=&quot;672px&quot;}
+![](assets/settings_header.png){width="672px"}
 
 Consulte [Personalização de um relatório](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) para obter mais informações.
 
@@ -49,7 +49,7 @@ Consulte [Personalização de um relatório](/help/analyze/reports-analytics/rep
 
 Especifique a data clicando no botão de calendário e selecionando um intervalo de datas. Você também pode selecionar dois intervalos de tempo para comparar o desempenho.
 
-![](assets/calendar_large.png){width=&quot;672px&quot;}
+![](assets/calendar_large.png){width="672px"}
 
 Consulte [Seleção de uma data ou um intervalo de datas](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) e [Comparação de datas](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
