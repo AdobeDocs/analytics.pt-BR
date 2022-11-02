@@ -3,10 +3,10 @@ description: Os conjuntos de relatórios virtuais segmentam seus dados do Adobe 
 title: Visão geral dos conjuntos de relatórios virtuais
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '804'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ Os conjuntos de relatórios virtuais têm as seguintes limitações:
 | Recurso | Conjunto de relatórios virtuais | Marcação de vários relatórios |
 |--- |--- |--- |
 | Oferece relatório de “Dados atuais” ou em tempo real | Não | Sim |
-| Funciona em todas as ferramentas do Analytics (Analysis Workspace, Report Builder etc.) | Sim. **Observação:** você pode editá-los e identificá-los como conjuntos de relatórios virtuais somente no Reports &amp; Analytics. Entretanto, é possível selecioná-los nos menus suspensos do conjunto de relatórios nas outras ferramentas. | Sim |
+| Funciona em todas as ferramentas do Analytics (Analysis Workspace, Report Builder etc.) | Sim. **Observação:** Você pode editá-los e identificá-los como conjuntos de relatórios virtuais somente em [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Conjuntos de relatórios virtuais]. Entretanto, é possível selecioná-los nos menus suspensos do conjunto de relatórios nas outras ferramentas.<p>**Importante**: No momento, os conjuntos de relatórios virtuais com processamento de tempo de relatório e personalização de variável não são compatíveis com o Adobe Report Builder. | Sim |
 | É possível enviar dados para ele (por meio de classificações, feeds de dados etc.) | Não | Sim |
 | Suporta a criação de relatórios DL, marcações, painéis, alvos, alertas, segmentos, métricas calculadas... | Sim | Sim |
 | Pode ser adicionado individualmente aos Grupos de permissões | Sim | Sim |
