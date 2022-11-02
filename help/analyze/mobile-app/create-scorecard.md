@@ -174,7 +174,7 @@ Cada dimensão adicionada ao slide de detalhes será exibida em uma lista suspen
 
 ## Personalizar slides de detalhes {#customize-detail-slide}
 
-Os slides de detalhes personalizados permitem ter ainda mais controle sobre quais informações você compartilha com seu público-alvo.
+Os slides de detalhes personalizados permitem ter ainda mais controle sobre quais informações você compartilha com seu público.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410002)
 

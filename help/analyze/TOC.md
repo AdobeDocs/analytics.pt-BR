@@ -23,10 +23,10 @@ ht-degree: 100%
    + Projetos {#build-workspace-project}
       + [Visão geral dos Projetos](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Salvar projetos](analysis-workspace/build-workspace-project/save-projects.md)
-      + Pastas no Workspace {#workspace-folders}
-         + [Sobre pastas no Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + Pastas no Espaço de trabalho {#workspace-folders}
+         + [Sobre pastas no Espaço de trabalho](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Criar pastas e subpastas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Adicionar projetos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Adicionar Projetos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Remover um projeto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Salvar um novo projeto](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Modelos](analysis-workspace/build-workspace-project/starter-projects.md)
