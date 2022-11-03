@@ -1,18 +1,34 @@
 ---
-description: Você pode ativar o relatório de privacidade.
+description: Habilite as dimensões do Gerenciamento de consentimento.
 title: Relatórios de privacidade
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 6ce83892cc3b3dd6ee818b6d00e764e892060a1b
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 100%
+source-wordcount: '87'
+ht-degree: 14%
 
 ---
 
 # Relatórios de privacidade
 
-Use essas variáveis para ser compatível com a medição de Governança de dados e o Gerenciamento de consentimento.
+Os relatórios de privacidade permitem ativar a variável [Aceitação no gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md) dimensões para usar em relatórios.
 
-Consulte [Variáveis de gerenciamento de consentimento](/help/admin/c-data-governance/consent-variables.md) para obter mais informações.
+Para acessar esta página:
+
+1. Faça logon no Adobe Analytics e navegue até **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
+1. Selecione um ou mais report suites desejados e, em seguida, selecione **[!UICONTROL Editar configurações]** > **[!UICONTROL Gerenciamento de privacidade]** > **[!UICONTROL Relatórios de privacidade]**.
+
+   ![Editar configurações](assets/rsm-privacy-select.png)
+
+1. Clique no botão **[!UICONTROL Ativar relatórios de privacidade de dados]**.
+
+   >[!NOTE]
+   >
+   >Após ativadas, essas variáveis não podem ser desativadas.
+
+   ![Ativar](assets/rsm-privacy-enable.png)
+
+1. Depois de habilitada, uma mensagem de confirmação é exibida. As dimensões estão disponíveis em relatórios.
+
+   ![Relatório](assets/consent-management.png)

@@ -3,7 +3,7 @@ description: Este documento descreve o que precisa ser feito no Adobe Analytics 
 title: Adobe Analytics e a CCPA
 feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Como o controlador de dados, você determinará os dados pessoais que a Adobe pr
 
 A Adobe Cloud Platform (ACP) fornece uma solução integrada que conecta a infraestrutura de governança de dados da sua marca às ferramentas da Adobe usadas para criar e gerenciar as experiências do consumidor. Os recursos de governança de dados da Adobe Cloud Platform permitem uma vinculação direta da política de governança de dados ao uso dos dados.
 
-Familiarize-se com a maneira [como o Adobe Analytics lida com o GDPR](https://business.adobe.com/br/products/analytics/general-data-protection-regulation.html), que apresenta as etapas de preparação da privacidade e como fazer a integração com a API do Serviço de privacidade da Adobe Experience Cloud.
+Familiarize-se com a maneira [como o Adobe Analytics lida com o GDPR](https://www.adobe.com/br/data-analytics-cloud/analytics/general-data-protection-regulation.html), que apresenta as etapas de preparação da privacidade e como fazer a integração com a API do Serviço de privacidade da Adobe Experience Cloud.
 
 ## Preparação para a CCPA e dados do Adobe Analytics
 
@@ -48,4 +48,4 @@ Consulte [Rotular dados do conjunto de relatórios](/help/admin/c-data-governanc
    O Adobe Analytics não pode ajudá-lo com o processamento de solicitações para a API da Privacidade de dados, ou seja, com o processamento de solicitações de acesso ou de exclusão recebidas dos usuários finais, se um período de retenção de dados não tiver sido definido no Adobe Analytics. Entre em contato com o gerente de sucesso do cliente para definir o período de retenção de dados.
 
 * Verifique suas permissões: para usar a interface de Gerenciamento de governança de dados no Adobe Analytics, você deve ser um administrador do Adobe Analytics.
-* Considere implementar as [Variáveis de gerenciamento de consentimento](/help/admin/c-data-governance/consent-variables.md) para rastrear o status de consentimento em um nível de ocorrência.
+* Considere implementar as [Variáveis de gerenciamento de consentimento](/help/admin/admin/privacy-reporting.md) para rastrear o status de consentimento em um nível de ocorrência.
