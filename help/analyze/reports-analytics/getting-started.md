@@ -4,10 +4,10 @@ title: Introdução ao Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
-source-wordcount: '790'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '788'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Todos os utilizadores têm acesso à página de [!UICONTROL Informações da con
 | Tipo de informação | Definição |
 | --- | --- |
 | Contato | Especifique as seguintes informações pessoais para a sua conta do<ul><li>Primeiro nome (obrigatório)</li><li>Sobrenome (obrigatório)</li><li>Título</li><li>Endereço(s) de email (obrigatório)</li><li>Número de telefone</li></ul> |
-| Logon | Exibe o nome de usuário, e permite que você altere a senha da conta. Consulte também: [Como redefinir a senha da conta de Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=pt-BR). |
+| Logon | Exibe o nome de usuário, e permite que você altere a senha da conta. Consulte também: [Como redefinir a senha da conta de Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html). |
 | Serviços web | Exibe o nome de usuário dos serviços da web e a senha compartilhada associada a esta conta. Use essas credenciais ao acessar a Experience Cloud por meio das APIs dos serviços da Web. Para obter mais informações, consulte o site Developer Connection. **Nota:** essas informações são exibidas somente se a conta estiver autorizada como usuário de serviços da Web. |
 | Excluir este computador | Aplica um cookie ao computador atual para excluí-lo da coleta de dados do. Isso é útil se você não desejar que suas atividades online afetem as contagens de Exibição de página e Visitantes em seu domínio. **Nota:** Para usar este recurso, seu navegador deve ter os cookies ativados. Se você excluir os cookies de seu computador, é necessário redefinir o cookie de exclusão. |
 

@@ -3,10 +3,10 @@ title: Política de retenção de dados
 description: Uma política de retenção de dados determina por quanto tempo a Adobe armazena os dados.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '618'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Quando os dados excederem sua política de retenção de dados, a Adobe mantém 
 
 ## Exibir/gerenciar a política atual de retenção de dados
 
-A caixa de diálogo Governança de dados em [!UICONTROL Ferramentas do] administrador fornecem uma visão geral de quais conjuntos de relatórios foram configurados para governança de dados. Ele também indica se eles foram mapeados para uma organização do Experience Cloud e se uma política de retenção de dados está em vigor para este conjunto de relatórios. [Mais informações](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=pt-BR)
+A caixa de diálogo Governança de dados em [!UICONTROL Ferramentas do] administrador fornecem uma visão geral de quais conjuntos de relatórios foram configurados para governança de dados. Ele também indica se eles foram mapeados para uma organização do Experience Cloud e se uma política de retenção de dados está em vigor para este conjunto de relatórios. [Mais informações](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html)
 
 ## Perguntas frequentes
 

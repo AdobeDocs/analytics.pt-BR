@@ -4,10 +4,10 @@ keywords: Conjunto de relatórios virtuais
 title: Criar conjuntos de relatórios virtuais
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ Este é um vídeo sobre como ajustar uma definição de visita em um conjunto de
 ![](assets/components.png)
 
 1. Na guia [!UICONTROL Componentes], marque a caixa de seleção para aplicar a curadoria a fim de incluir, excluir e renomear componentes desse conjunto de relatórios virtual no Analysis Workspace.
-Para obter mais informações sobre a curadoria de VRS, consulte [Curadoria de componente do conjunto de relatórios virtual](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=pt-BR#virtual-report-suites).
+Para obter mais informações sobre a curadoria de VRS, consulte [Curadoria de componente do conjunto de relatórios virtual](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
 
 1. Arraste os componentes (dimensões, métricas, segmentos ou intervalos de datas) que deseja incluir no VRS para a seção [!UICONTROL Componentes incluídos].
 

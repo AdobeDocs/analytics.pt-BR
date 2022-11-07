@@ -3,10 +3,10 @@ title: Análise completa
 description: Analise sua implementação a cada seis meses para garantir o alinhamento contínuo com as necessidades de negócios e os KPIs.
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 90%
+source-wordcount: '406'
+ht-degree: 86%
 
 ---
 
@@ -16,11 +16,11 @@ Por que você deve analisar sua implementação a cada seis meses? Porque é nec
 
 ## 1. Certifique-se de que a implementação ainda esteja alinhada às necessidades de nossos negócios
 
-Conheça o proprietário da empresa e/ou os analistas para analisar as necessidades de negócios em constante mudança. Para quaisquer necessidades ou oportunidades de medição que não estejam sendo atendidas por sua implementação, descubra como atualizar seus KPIs e planos de medição. Lembre-se de registrar as alterações em seu [BRD e SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=pt-BR#implementation).
+Conheça o proprietário da empresa e/ou os analistas para analisar as necessidades de negócios em constante mudança. Para quaisquer necessidades ou oportunidades de medição que não estejam sendo atendidas por sua implementação, descubra como atualizar seus KPIs e planos de medição. Lembre-se de registrar as alterações em seu [BRD e SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 2. Certifique-se de que suas métricas e variáveis ainda estejam funcionando corretamente
 
-Analise rapidamente todas as suas métricas e variáveis, em ordem de importância para os negócios, para verificar se os dados estão sendo coletados corretamente. Comece com suas métricas e variáveis mais importantes: aquelas associadas aos [cinco principais KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=pt-BR#review). Para fazer isso:
+Analise rapidamente todas as suas métricas e variáveis, em ordem de importância para os negócios, para verificar se os dados estão sendo coletados corretamente. Comece com suas métricas e variáveis mais importantes: aquelas associadas aos [cinco principais KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review). Para fazer isso:
 
 * Crie painéis para ver visualizações mensais de tendências de suas métricas e variáveis (ou configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=pt-BR#analysis-workspace) para cada uma) para garantir que você obtenha os dados esperados e que os dados estejam corretos. Se encontrar discrepâncias, examine a camada de dados, as regras do gerenciador de tags e as regras de processamento para descobrir o motivo.
 * Execute novamente o [Painel de integridade do Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) para monitorar tendências amplas de suas métricas e variáveis.

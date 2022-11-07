@@ -3,9 +3,9 @@ description: A cada ID para a qual você deseja poder pesquisar, é atribuído u
 title: Namespaces
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '890'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ A sequência de caracteres do namespace é usada para identificar os campos que 
 * Um campo de “type” que, para a maioria das solicitações do Adobe Analytics, contém o valor “analytics”.
 * Um campo de “value” contendo a ID que o Analytics deve pesquisar nas variáveis de namespace associadas a cada um dos conjuntos de relatórios.
 
-Consulte a [documentação da API da Privacidade de dados da Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) para obter mais detalhes.
+Consulte a [documentação da API da Privacidade de dados da Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) para obter mais detalhes.
 
 ## ID de cookies
 

@@ -4,10 +4,10 @@ description: O Analysis Workspace é a principal ferramenta de análise do Adobe
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Para começar a usar o Analysis Workspace, faça logon no Adobe Analytics acessa
 
 ## Usar o tutorial de treinamento {#training-tutorial}
 
-Depois de conectado, sua primeira parada deve ser o Tutorial de treinamento do Analysis Workspace, que orienta você pela terminologia e etapas comuns para a criação da sua primeira análise no Workspace. Para iniciar o tutorial, clique em **[!UICONTROL Criar novo projeto]** e selecione **Tutorial de treinamento** no novo modal do projeto.
+Depois de conectado, sua primeira parada deve ser o Tutorial de treinamento do Analysis Workspace, que orienta você pela terminologia e etapas comuns para a criação da sua primeira análise no Espaço de trabalho. Para iniciar o tutorial, clique em **[!UICONTROL Criar novo projeto]** e selecione **Tutorial de treinamento** no novo modal do projeto.
 
 ![](assets/training-tutorial.png)
 
@@ -70,4 +70,4 @@ Veja um vídeo com uma visão geral do gerenciamento de projetos:
 ## Recursos adicionais {#resources}
 
 * A Adobe oferece centenas de [tutoriais de treinamento em vídeo do Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=pt-BR).
-* Consulte [Notas da versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR#analytics) para saber mais sobre novos recursos.
+* Consulte [Notas da versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) para saber mais sobre novos recursos.

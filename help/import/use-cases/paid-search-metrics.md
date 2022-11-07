@@ -2,10 +2,10 @@
 title: Importar métricas de pesquisa paga
 description: Etapas para configurar o Adobe Analytics para monitorar suas métricas de pesquisa paga (por exemplo, Google AdWords, MSN, Yahoo etc.) usando Fontes de dados.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: 7c5bfadabe2ea851bb881d067d48b4f4700a53c7
-workflow-type: ht
-source-wordcount: '1212'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +117,7 @@ Retorne ao assistente da Fonte de dados para obter instruções e faça upload d
 
 Adicionar métricas calculadas será útil ao tomar decisões de pagamento por clique.
 
-Por exemplo, você poderia adicionar estas [métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=pt-BR#calculated-metrics):
+Por exemplo, você poderia adicionar estas [métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics):
 
 | Nome | Fórmula | Tipo de métrica | Descrição |
 | --- | --- | --- | --- |

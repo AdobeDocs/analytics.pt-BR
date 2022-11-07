@@ -4,10 +4,10 @@ title: Segmentos rápidos
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 73%
+source-wordcount: '899'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 73%
 
 Você pode criar segmentos rápidos em um projeto para ignorar a complexidade do [Criador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) completo. Segmentos rápidos
 
-* Aplicar como [segmentos somente de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
+* Aplicar como [segmentos somente de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F).
 * Permita até 3 regras.
 * Não acomode containers aninhados ou regras sequenciais.
 
@@ -43,7 +43,7 @@ Configure o segmento rápido nesta folha em branco:
 | --- | --- |
 | Nome | O nome padrão de um segmento é uma combinação dos nomes das regras no segmento. Você pode renomear o segmento. |
 | Incluir/excluir | Você pode incluir ou excluir componentes na definição do segmento, mas não ambos. |
-| Contêiner de ocorrência/visita/visitante | Os segmentos rápidos incluem apenas um [contêiner de segmento](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=pt-BR#section_AF2A28BE92474DB386AE85743C71B2D6) que permite incluir (ou excluir) uma dimensão/métrica/intervalo de datas no segmento. [!UICONTROL O Visitante] contém dados abrangentes específicos para visitantes em visitas e visualizações de página. Um container de [!UICONTROL Visita] permite definir regras para detalhar os dados do visitante com base em visitas, e um container de [!UICONTROL Ocorrência] permite detalhar as informações do visitante com base em visualizações de página individuais. O container padrão é o de [!UICONTROL Ocorrência]. |
+| Contêiner de ocorrência/visita/visitante | Os segmentos rápidos incluem apenas um [contêiner de segmento](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) que permite incluir (ou excluir) uma dimensão/métrica/intervalo de datas no segmento. [!UICONTROL O Visitante] contém dados abrangentes específicos para visitantes em visitas e visualizações de página. Um container de [!UICONTROL Visita] permite definir regras para detalhar os dados do visitante com base em visitas, e um container de [!UICONTROL Ocorrência] permite detalhar as informações do visitante com base em visualizações de página individuais. O container padrão é o de [!UICONTROL Ocorrência]. |
 | Componentes (dimensão/métrica/intervalo de datas) | Defina até três regras adicionando componentes (dimensões e/ou métricas e/ou intervalos de datas) e seus valores. Há 3 maneiras de encontrar o componente correto:<ul><li>Comece a digitar e o construtor de [!UICONTROL Segmento rápido] encontra automaticamente o componente correto.</li><li>Use a lista suspensa para localizar o componente.</li><li>Arraste os componentes do painel esquerdo e solte-os.</li></ul> |
 | Operador | Use o menu suspenso para encontrar operadores padrão e operadores de [!UICONTROL Contagem distinta]. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=pt-BR) |
 | Sinal de mais (+) | Adicionar outra regra |
@@ -85,7 +85,7 @@ Observe como a barra lateral do segmento muda de azul listrado para azul mais cl
 
 ## O que são segmentos somente de projeto?
 
-Segmentos somente de projeto são segmentos que se aplicam somente ao projeto atual em que foram criados. Eles não estarão disponíveis em outros projetos e não poderão ser compartilhados com outros usuários. Eles são destinados à exploração rápida de seus dados sem precisar criar e salvar um segmento no painel esquerdo. Segmentos somente de projeto podem ser criados na área de soltar do painel com segmentos rápidos ou [segmentos ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+Segmentos somente de projeto são segmentos que se aplicam somente ao projeto atual em que foram criados. Eles não estarão disponíveis em outros projetos e não poderão ser compartilhados com outros usuários. Eles são destinados à exploração rápida de seus dados sem precisar criar e salvar um segmento no painel esquerdo. Segmentos somente de projeto podem ser criados na área de soltar do painel com segmentos rápidos ou [segmentos ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
 
 Se um segmento somente de projeto for aberto na [!UICONTROL Construtor de segmentos], uma notificação somente de projeto é exibida. Se não marcar &quot;Disponibilizar este segmento.&quot; e clique em **[!UICONTROL APLICAR]**, o segmento permanece um segmento somente de projeto. Observação: se você aplicar um segmento Rápido no Construtor de segmentos, ele não poderá mais ser aberto na [!UICONTROL Construtor de segmentos rápidos].
 

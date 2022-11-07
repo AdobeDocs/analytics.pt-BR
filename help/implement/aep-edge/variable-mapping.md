@@ -2,9 +2,9 @@
 title: Mapeamento de variável do Analytics na Adobe Experience Edge
 description: Visualize quais campos XDM a borda mapeia automaticamente para variáveis do Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 99%
 
 ---
@@ -131,7 +131,7 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 
 ## Mapeamento de outros campos XDM para variáveis do Analytics
 
-Se houver dimensões ou métricas que você deseja adicionar ao Adobe Analytics, faça isso por meio de [Variáveis de dados de contexto](../vars/page-vars/contextdata.md). Quaisquer elementos de campo XDM que não são mapeados automaticamente são enviados para o Adobe Analytics como dados de contexto com o prefixo a.x. Em seguida, é possível mapear essa variável de dados de contexto para a variável do Analytics desejada usando [regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=pt-BR). Por exemplo, se você enviar o seguinte evento:
+Se houver dimensões ou métricas que você deseja adicionar ao Adobe Analytics, faça isso por meio de [Variáveis de dados de contexto](../vars/page-vars/contextdata.md). Quaisquer elementos de campo XDM que não são mapeados automaticamente são enviados para o Adobe Analytics como dados de contexto com o prefixo a.x. Em seguida, é possível mapear essa variável de dados de contexto para a variável do Analytics desejada usando [regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). Por exemplo, se você enviar o seguinte evento:
 
 ```js
 alloy("event",{

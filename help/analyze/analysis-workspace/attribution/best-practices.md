@@ -3,9 +3,9 @@ title: Práticas recomendadas de atribuição
 description: Quais são as práticas recomendadas ao escolher um modelo de atribuição?
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Digamos que sua hipótese é “Meu canal de primeiro contato tem mais impacto n
 
 **Exemplo 2**
 
-Sua hipótese pode ser: “Em nosso setor (como o de viagens), a janela de atribuição é de 60 ou 90 dias, não 30 dias, porque os clientes pesquisam muito antes de comprar um produto”. Em seguida, você alteraria sua [janela de retrospectiva](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR) para 90 dias.
+Sua hipótese pode ser: “Em nosso setor (como o de viagens), a janela de atribuição é de 60 ou 90 dias, não 30 dias, porque os clientes pesquisam muito antes de comprar um produto”. Em seguida, você alteraria sua [janela de retrospectiva](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR#janelas-de-retrospectiva) para 90 dias.
 
 ## Etapa 3: Uso de atribuição algorítmica
 

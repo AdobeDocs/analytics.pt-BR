@@ -4,9 +4,9 @@ title: Modelos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1311'
 ht-degree: 100%
 
 ---
@@ -123,7 +123,7 @@ Veja um vídeo sobre o modelo de [!UICONTROL Tutorial de treinamento]:
 
 ### Pessoas
 
-O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite:
+O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite 
 
 * Segmentar seus dados por EUA/Canadá vs. o resto do mundo
 * Comparar as métricas de Pessoas e de Visitantes únicos lado a lado

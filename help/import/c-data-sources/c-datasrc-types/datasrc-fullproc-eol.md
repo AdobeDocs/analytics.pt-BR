@@ -3,10 +3,10 @@ title: Fim da vida útil do processamento completo
 description: Motivos para o fim da vida útil e comparações entre a API de inserção de dados em massa e as fontes de dados de processamento completo.
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '1225'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ Para obter mais detalhes, consulte a seguinte comparação dos valores de campo 
 | aamlh | Não suportado | Dica de localização do Adobe Audience Manager. |
 | browserHeight | browserHeight | Altura do navegador em pixels (por exemplo, 768) |
 | browserWidth | browserWidth | Largura do navegador em pixels (por exemplo, 1024) |
-| campaign | campaign | Código de rastreamento da campanha de conversão |
+| campaign | campanha | Código de rastreamento da campanha de conversão |
 | canal | canal | Sequência de canal (por exemplo, seção de esportes) |
 | colorDepth | colorDepth | Profundidade de cores do monitor em bits (por exemplo, 24) |
 | connectionType | connectionType | Tipo de conexão do visitante (LAN ou modem) |
@@ -55,7 +55,7 @@ Para obter mais detalhes, consulte a seguinte comparação dos valores de campo 
 | customerID.[customerIDType].id | Não suportado | A ID do cliente a ser usada. O customerIDType pode ser qualquer sequência alfanumérica, mas deve ser considerada como a que diferencia maiúsculas de minúsculas. |
 | customerID.[customerIDType].isMCSeed | Não suportado | Se esta é ou não a seed para o ID de visitante do Experience Cloud. Os valores suportados são: 0, 1, TRUE, FALSE, &#39;&#39; (não diferencia maiúsculas de minúsculas). Usar 0, FALSE ou duas aspas simples consecutivas (&#39;&#39;) faz com que o valor seja omitido da sequência de consulta. O customerIDType pode ser qualquer sequência alfanumérica, mas deve ser considerada como a que diferencia maiúsculas de minúsculas. |
 | eVarN | eVarN, ou seja `<eVar2>`...`<eVar>` | Nome do eVar de conversão. É possível ter até 75 eVars ( (eVar1 - eVar75 ) Você pode especificar o nome do eVar (eVar12) ou um nome amigável (Campanha publicitária 3). |
-| events | events | [Sequência de eventos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=pt-BR#vars), formatada com a mesma sintaxe da variável s.events. Por exemplo: scAdd, event1, event7 |
+| events | events | [Sequência de eventos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars), formatada com a mesma sintaxe da variável s.events. Por exemplo: scAdd, event1, event7 |
 | hierN | hierN, ou seja `<hier2>`...`</hier2>` | Nome da hierarquia. É possível ter até 5 hierarquias ( hier1 - hier5 ). Você pode especificar o nome de hierarquia padrão `hier2` ou um nome amigável (Yankees). |
 | homePage | homePage | S ou N, é a página atual da página inicial do visitante. |
 | ipaddress | Não suportado | O endereço IP do visitante. |
@@ -66,7 +66,7 @@ Para obter mais detalhes, consulte a seguinte comparação dos valores de campo 
 | linkType | linkType | Tipo de link. Os valores compatíveis incluem: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF do link. |
 | listn Por exemplo, list2. | Não suportado | Uma lista delimitada de valores passados para uma variável e, em seguida, reportados como itens de linha individuais para relatório |
-| marketingCloudvisitorId | Não suportado | Experience Cloud ID. Consulte a [Identificação do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR#id-service-api) e o Serviço de ID de visitante do Experience Cloud |
+| marketingCloudvisitorId | Não suportado | Experience Cloud ID. Consulte a [Identificação do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html#id-service-api) e o Serviço de ID de visitante do Experience Cloud |
 | Não suportado | charSet | O caractere suportado definido para o seu site. Por exemplo, UTF-8, ISO-8859-1, e assim por diante. |
 | Não suportado | clickAction | Identificador de objeto para o mapa de cliques do visitante (oid) |
 | Não suportado | clickActionType | Tipo de identificador de objeto para o mapa de cliques do visitante (oidt) |
@@ -91,7 +91,7 @@ Para obter mais detalhes, consulte a seguinte comparação dos valores de campo 
 | estado | estado | Sequência de caracteres do estado de conversão. |
 | carimbo de data e hora | data | Use o formato de data AAAA-MM-DDThh:mm:ss±UTC_offset da ISO 8601: (por exemplo, 2021-09-01T12:00::00-07:00) ou o formato de hora Unix (o total de segundos decorridos desde 1° de janeiro de 1970). |
 | trackingServer | Não suportado | Só pode ser fornecido por meio do cabeçalho da coluna. |
-| transactionID | Não suportado | Valor comum usado para vincular as atividades de usuário multicanal juntamente para fins de relatório. Para obter mais informações, consulte o [Guia do Usuário das fontes de dados](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=pt-BR#data-sources). |
+| transactionID | Não suportado | Valor comum usado para vincular as atividades de usuário multicanal juntamente para fins de relatório. Para obter mais informações, consulte o [Guia do Usuário das fontes de dados](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources). |
 | userAgent | Não suportado | Sequência de agente do usuário |
-| visitorID | visitorID | ID Analytics do visitante. Consulte a [Identificação do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). |
+| visitorID | visitorID | ID Analytics do visitante. Consulte a [Identificação do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | CEP | CEP | CEP de conversão. |

@@ -3,10 +3,10 @@ description: Como enviar acesso aos dados e excluir solicitações no Adobe Anal
 title: Enviar solicitações de acesso e de exclusão
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
-source-wordcount: '1301'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1297'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo 
 
 ## Enviar solicitações {#submit-requests}
 
-É possível conceder acesso à Privacidade de dados e excluir solicitações por meio da nossa [interface do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=pt-BR), ou pela nossa [API Privacy Service.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR)
+É possível conceder acesso à Privacidade de dados e excluir solicitações por meio da nossa [interface do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html), ou pela nossa [API Privacy Service.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)
 
 >[!NOTE]
 >

@@ -3,10 +3,10 @@ description: Exemplos de rótulos de privacidade de dados para variáveis do Ado
 title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '3913'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '3909'
+ht-degree: 98%
 
 ---
 
@@ -177,7 +177,7 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
   <tr> 
    <td colname="col1"> <p>Nenhum </p> </td> 
    <td colname="col2"> <p>Esta variável não contém uma ID que será usada para solicitações de Privacidade de dados. </p> </td> 
-   <td colname="col3"> <p>Você precisa definir um desses outros rótulos somente se esse campo contiver uma ID que será usada ao enviar as solicitações de acesso ou exclusão por meio da API do Privacy Service (https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR) ou da interface. </p> </td> 
+   <td colname="col3"> <p>Você precisa definir um desses outros rótulos somente se esse campo contiver uma ID que será usada ao enviar as solicitações de acesso ou exclusão por meio da [API do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) ou da interface do usuário. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -206,7 +206,7 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
 
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
-| Nenhum | Esta variável não contém uma ID que será usada para solicitações de Privacidade de dados. | Você precisa definir um desses outros rótulos somente se esse campo contiver uma ID que será usada ao enviar as solicitações de acesso ou exclusão por meio da [API do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR) ou da interface. |
+| Nenhum | Esta variável não contém uma ID que será usada para solicitações de Privacidade de dados. | Você precisa definir um desses outros rótulos somente se esse campo contiver uma ID que será usada ao enviar as solicitações de acesso ou exclusão por meio da [API do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) ou da interface. |
 | ID-DEVICE | Este campo contém uma ID que pode ser usada para identificar um dispositivo para uma solicitação de Privacidade de dados, mas não pode distinguir entre usuários diferentes de um dispositivo compartilhado.  Você não precisa especificar este rótulo para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. | Também exige o rótulo I1 ou I2.<ul><li>Não pode ser definido em eventos</li><li>Não pode ser definido nas eVars de merchandising</li><li>Não pode ser definido nas Classificações</li></ul> |
 | ID-PERSON | Este campo contém uma ID que pode ser usada para identificar um usuário autenticado (uma pessoa específica) em uma solicitação de Privacidade de dados.  Você não precisa especificar este rótulo para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se for enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. | Também exige o rótulo I1 ou I2.<ul><li>Não pode ser definido em eventos</li><li>Não pode ser definido nas eVars de merchandising</li><li>Não pode ser definido nas Classificações</li></ul> |
 

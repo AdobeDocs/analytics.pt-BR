@@ -3,10 +3,10 @@ title: Análise focada (após cada lançamento do site)
 description: Siga estas etapas para garantir que sua implementação permaneça sem erros e em conformidade com seus KPIs.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 84%
+source-wordcount: '511'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Verifique se a versão mais recente do site não prejudicou a coleção de dados
 
 Se você tiver adicionado ou alterado alguma métrica ou variável recentemente, será preciso atualizar seu Documento de requisitos de negócios (BRD) e a Referência de design de solução (SDR).
 
-Se você não tiver a documentação de sua implementação, exporte uma lista de variáveis e crie seu BRD ou sua SDR usando [este modelo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=pt-BR#implementation).
+Se você não tiver a documentação de sua implementação, exporte uma lista de variáveis e crie seu BRD ou sua SDR usando [este modelo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 5. Corrija imediatamente qualquer problema encontrado na qualidade dos dados
 
