@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
+source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
 workflow-type: tm+mt
-source-wordcount: '3621'
+source-wordcount: '3638'
 ht-degree: 93%
 
 ---
@@ -29,6 +29,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | Nome da coluna | Descrição da coluna | Tipo de dados |
 | --- | --- | --- |
 | **`accept_language`** | Lista todas as linguagens aceitas, conforme indicado no cabeçalho Linguagem aceita de HTTP em uma solicitação de imagem. | char(20) |
+| **`adload`** | Cargas de anúncios de mídia | varchar(255) |
 | **`aemassetid`** | Uma variável multivalor correspondente a IDs de ativos (GUID&#39;s) de um conjunto de ativos do Adobe Experience Manager. Incrementa eventos de impressão. | texto |
 | **`aemassetsource`** | Identifica a origem do evento do ativo. Usado no Adobe Experience Manager. | varchar(255) |
 | **`aemclickedassetid`** | ID de ativo referente a um ativo do Adobe Experience Manager. Incrementa eventos de clique. | varchar(255) |
@@ -143,6 +144,8 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | **`mobileplaceaccuracy`** | Coletada da variável de dados de contexto `a.loc.acc`. Indica a precisão do GPS em metros no momento da coleta. | varchar(255) |
 | **`mobileplacecategory`** | Coletada da variável de dados de contexto `a.loc.category`. Descreve a categoria de um local específico. | varchar(255) |
 | **`mobileplaceid`** | Coletada da variável de dados de contexto `a.loc.id`. Identificador para um determinado ponto de interesse. | varchar(255) |
+| **`mobilepushoptin`** | Aceitação por push do Mobile Services | varchar(255) |
+| **`mobilepushpayloadid`** | ID da carga útil do Mobile Services | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Conteúdo de inicialização do Mobile Services | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Meio de lançamento do Mobile Services | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Fonte de lançamento do Mobile Services | varchar(255) |
@@ -202,7 +205,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | **`socialownedpropertyid`** | Não está mais em uso. ID de propriedade social | varchar(255) |
 | **`socialownedpropertyname`** | Não está mais em uso. Nome de propriedade social | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | Não está mais em uso. Propriedade social vs aplicativo | varchar(255) |
-| **`sourceid`** | . | int unsigned |
+| **`sourceid`** | ID da origem | int unsigned |
 | **`state`** | Variável de estado. | varchar(50) |
 | **`stats_server`** | Não está em uso. Servidor interno da Adobe que processou o hit. | char(30) |
 | **`survey`** | Não está mais em uso. Variável Adobe Survey. Somente a variável `post` está disponível. | texto |
@@ -294,6 +297,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 
 A seguinte lista de colunas não é usada e não contém dados:
 
+* `adclassificationcreative`
 * `mobileacquisitionclicks`
 * `mobileactioninapptime`
 * `mobileactiontotaltime`
