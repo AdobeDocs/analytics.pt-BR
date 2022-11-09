@@ -5,8 +5,8 @@ feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 81c7dcea2d42ee8e31140523cd43cdfd001baf28
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 49%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
