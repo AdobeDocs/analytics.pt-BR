@@ -3,13 +3,13 @@ description: Saiba mais sobre como usar o Gerente de atividade de relatórios pa
 title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
+source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '934'
 ht-degree: 7%
 
 ---
-
 
 # Gerenciador de Atividades de relatórios
 
@@ -31,7 +31,9 @@ No Adobe Analytics, os administradores vão para **[!UICONTROL Administrador]** 
 
 ## Permissões
 
-Você precisa de permissões de Administrador de produto do Analytics para gerenciar a atividade de relatórios.
+Você precisa da permissão Administrador de produto do Analytics (no Adobe Admin Console) para gerenciar a atividade de relatórios.
+
+![permissão](assets/rep-mgr-permission.png)
 
 ## Exibir a fila de relatórios
 
