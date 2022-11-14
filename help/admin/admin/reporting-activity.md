@@ -4,9 +4,9 @@ title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
+source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '962'
 ht-degree: 7%
 
 ---
@@ -88,7 +88,7 @@ Os Números do resumo mostram as seguintes informações:
 
 | Número do resumo | Descrição |
 | --- | --- |
-| [!UICONTROL Usuários] | Quantos usuários estão enviando solicitações de relatórios para este conjunto de relatórios no momento. |
+| [!UICONTROL Usuários] | O número de usuários que estão enviando solicitações de relatórios para esse conjunto de relatórios. |
 | [!UICONTROL Projetos] | Projetos do Workspace, pastas de trabalho do Report Builder etc. |
 | [!UICONTROL Consultas] | O número de consultas em execução no momento. |
 | [!UICONTROL Tempo Médio de Espera] | O tempo médio de espera para todas as consultas em execução. |
@@ -120,7 +120,10 @@ A tabela detalhada abaixo mostra detalhes sobre o conjunto de relatórios.
 
 Para cancelar uma solicitação
 
-1. Marque a caixa à esquerda de um ou mais **[!UICONTROL ID da consulta]** na tabela e clique em **[!UICONTROL Cancelar solicitações]** na parte inferior. (Também é possível cancelar solicitações em massa ao exibir detalhes ao [!UICONTROL Usuário], [!UICONTROL Projeto]ou [!UICONTROL Aplicativo].)
+1. Marque a caixa à esquerda de um ou mais **[!UICONTROL ID da consulta]** na tabela e clique em **[!UICONTROL Cancelar solicitações]** na parte inferior.
+
+   Também é possível cancelar solicitações em massa ao exibir detalhes ao [!UICONTROL Usuário], [!UICONTROL Projeto]ou [!UICONTROL Aplicativo]. As solicitações subsequentes de um projeto, usuário ou aplicativo que não estavam na fila ou em execução no momento do cancelamento ainda podem aparecer quando a atividade é atualizada.
+
 1. No **[!UICONTROL Cancelar consulta x]** for exibida, você poderá modificar a mensagem de cancelamento, se necessário.
 1. Clique em **[!UICONTROL Continuar]**.
 
