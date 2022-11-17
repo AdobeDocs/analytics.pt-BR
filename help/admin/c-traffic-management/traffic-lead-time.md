@@ -3,10 +3,10 @@ description: A Adobe exige um aviso prévio para novas configurações da conta,
 title: Tempo de lead necessário para aumentos de tráfego
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: f9462d1b8b2795bec9dab9b479d4885fcaa92b5d
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 78%
 
 ---
 
@@ -24,36 +24,30 @@ Use as diretrizes a seguir para determinar com quanta antecedência você deve e
 
 ## Prazo para alocação do hardware
 
+
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Estimativas DIÁRIAS de tráfego (ocorrências) </th>
-   <th colname="col2" class="entry"> <p>Lead time necessário (janeiro a outubro) </p> </th>
-   <th colname="col3" class="entry"> <p>Lead time necessário (novembro a dezembro) </p> </th>
+   <th colname="col1" class="entry"> Tipo de alteração de tráfego </th>
+   <th colname="col2" class="entry"> Lead time necessário </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Até 1,000,000 </td>
-   <td colname="col2"> Não requer lead time </td>
-   <td colname="col3"> Não requer lead time </td>
+   <td colname="col1"> Nova configuração de conta </td>
+   <td colname="col2"> <ul><li>3 dias úteis</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 1.000.000 - 5.000.000 </td>
-   <td colname="col2"> Dois dias ÚTEIS </td>
-   <td colname="col3" morerows="3"> Os aumentos de tráfego direcionados para novembro e dezembro devem ser enviados até 1 de setembro. Isto proporciona o tempo necessário para que a capacidade adicional para acomodar o tráfego do feriado seja adquirida. </td>
+   <td colname="col1"> Pico de tráfego ou aumento repentino do tráfego permanente de até 25% em volume diário médio em comparação com os últimos 30 dias</td>
+   <td colname="col2"> <ul><li>Conjuntos de relatórios com &lt; 100M ocorrências/dia: Nenhuma notificação necessária</li><li>Conjuntos de relatórios com &gt; 100 M ocorrências/dia: 5 dias úteis</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 5.000.000 - 10.000.000 </td>
-   <td colname="col2"> Uma semana </td>
+   <td colname="col1"> Pico de tráfego ou aumento súbito de tráfego permanente superior a 25% em volume diário médio em comparação com os últimos 30 dias</td>
+   <td colname="col2"> <ul><li>5 dias úteis</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 10.000.000 - 25.000.000 </td>
-   <td colname="col2"> Duas semanas </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Acima de 25.000.000 </p> </td>
-   <td colname="col2"> Um ou mais meses </td>
+   <td colname="col1"> Eventos de feriado outubro - dezembro </td>
+   <td colname="col2"> <ul><li>Um mês</li></ul> </td>
   </tr>
  </tbody>
 </table>
