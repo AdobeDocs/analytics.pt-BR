@@ -1,14 +1,14 @@
 ---
 description: Fornecem sugestões para a solução de problemas e respostas a algumas das perguntas mais frequentes sobre o Analytics.
 keywords: Solução de problemas do Analytics
-title: Perguntas frequentes sobre relatórios e análises
+title: Perguntas frequentes sobre o Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Para reativar uma conta, entre em contato com um administrador em sua organizaç
 Há vários itens a serem verificados para solucionar problemas de dados do relatório:
 
 * Verifique as métricas usadas: alguns relatórios são padronizados como Receita no Reports &amp; Analytics. Verifique se a métrica que você está visualizando é relevante para o relatório.
-* Verificar o intervalo de datas: os intervalos de datas, especialmente os que estão além da política de retenção de dados da organização, não podem retornar dados. Verifique se o intervalo de datas está definido corretamente.
+* Verificar o intervalo de datas: os intervalos de datas, especialmente os que estão além da política de retenção de dados da organização, não podem retornar dados. Verifique se o intervalo de datas esteja definido corretamente.
 * Verificar filtros internos de URL: alguns relatórios de fontes de tráfego não funcionam até que você defina corretamente os filtros internos de URL.
 +++
 
