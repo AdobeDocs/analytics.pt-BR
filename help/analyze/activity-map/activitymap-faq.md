@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Perguntas frequentes sobre a instalação, configuração e utilização dos recursos no Activity Map.
 
-+++Todos os clientes do Analytics têm acesso à página de Ativação das ferramentas administrativas no Activity Map?
++++Todos os clientes do Analytics têm acesso à página de Ativação das ferramentas administrativas no ActivityMap?
 Organizações com um contrato do Adobe Analytics Standard, Premium e Ultimate têm acesso ao Activity Map.
 +++
 
@@ -28,8 +28,8 @@ A cada poucos segundos, o Activity Map verifica a página da Web, procurando por
 * Quando a interação do usuário cria novo conteúdo, qualquer novo elemento encontrado pelo AppMeasurement como um link será adicionado à tabela [!UICONTROL Links na página]. O Activity Map envia uma nova solicitação de dados que inclui esses novos links. Os novos links deverão aparecer na tabela [!UICONTROL Links na página] quando a solicitação de dados for tratada pela interface do usuário.
 +++
 
-+++O Activity Map fornece dados sobre &quot;visualizações&quot;?
-Não, a Adobe não rastreia links que foram exibidos.
++++O Activity Map fornece dados sobre “visualizações”?
+Não, a Adobe não rastreia links que foram visualizados.
 +++
 
 +++Quais navegadores e versões são compatíveis com o Activity Map?
@@ -72,7 +72,7 @@ Todos os dados mostrados se baseiam nas exibições de página.
 +++
 
 +++Posso exportar variáveis de dados de contexto do Activity Map por meio de feeds de dados?
-Sim. O [Colunas de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) que o Activity Map usa `clickmaplink`, `clickmaplinkbyregion`, `clickmappage`e `clickmapregion`.
+Sim. As [colunas de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) que o Activity Map usa são: `clickmaplink`, `clickmaplinkbyregion`, `clickmappage` e `clickmapregion`.
 +++
 
 +++Os segmentos funcionam no modo Online?
