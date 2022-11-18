@@ -4,15 +4,15 @@ title: Rotular dados do conjunto de relatórios
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Rotular dados do conjunto de relatórios
 
-Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com os rótulos e suas definições.
+Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Primeiro, familiarize-se com os rótulos e suas definições.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
 **Exemplo**: você, como controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics. Para criar um rótulo para endereços de email e IDs de cookies, você deve usar o framework DULE (Data Usage Labeling &amp; Enforcement - Aplicação e rotulagem do uso de dados) da Adobe Cloud Platform no Analytics.
 
-1. No Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Governança de dados]** > **[!UICONTROL (selecione o conjunto de relatórios)]**![Configurações de privacidade](assets/privacy_rs_settings.png)
+1. No Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Governança de dados]** > **[!UICONTROL (selecione o conjunto de relatórios)]** ![Configurações de privacidade](assets/privacy_rs_settings.png)
 
 1. Selecione qual grupo de variáveis você deseja rotular.
 
