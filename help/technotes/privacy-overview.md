@@ -5,9 +5,9 @@ title: Visão geral de privacidade
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ O Adobe Analytics coleta os seguintes dados:
   </tr> 
   <tr> 
    <td colname="col1"> Alemanha </td> 
-   <td colname="col2"> <p>Se você ainda não tiver um Contrato de processamento de dados para a Adobe Analytics em vigor com o Adobe, entre em contato com seu Gerente de conta do Adobe ou Gerente de sucesso do cliente, que trabalhará com o Departamento jurídico do Adobe para colocar o DPA em vigor. </p> </td> 
+   <td colname="col2"> <p>Se você ainda não tiver um contrato de processamento de dados para o Adobe Analytics em vigor na Adobe, entre em contato com seu gerente de conta ou gerente de sucesso do cliente, que trabalhará com o departamento jurídico da Adobe para implementar esse contrato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +128,7 @@ Os seguintes centros de dados EMEA servem de host para dados do Adobe Analytics:
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>Holanda </p> </td> 
    <td colname="col3"> <p>Instalação de posicionamento </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>Análises de multicanais, </p> <p>Análises digitais </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com.br/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 
