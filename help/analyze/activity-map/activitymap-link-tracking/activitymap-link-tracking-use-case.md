@@ -1,20 +1,20 @@
 ---
-description: É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement Activity Map.
-title: Diferenciar links que fazem referência à mesma ID e Região do link
+description: É possível diferenciar os links personalizando a ID do link por meio da variável s_objectID, a região e o arquivo de módulo AppMeasurement ActivityMap.
+title: Diferenciar links que fazem referência à mesma ID e região do link
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # Diferenciar links que fazem referência à mesma ID e Região do link
 
-É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement Activity Map.
+É possível diferenciar os links com a personalização da ID do link usando a variável s_objectID, a região e o arquivo de módulo AppMeasurement ActivityMap.
 
 Como exemplo, digamos que você tenha vários links “Buy”, que são identificados pelo Activity Map sob a mesma ID de link e Região:
 
@@ -44,26 +44,26 @@ Como exemplo, digamos que você tenha vários links “Buy”, que são identifi
    <td colname="col2">
      <br/>
      <br/>
-    Comprar<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Comprar<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Comprar<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
    <td colname="col3">
      <br/>
      <br/>
-    painel de recomendação<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    painel de recomendação<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    painel de recomendação<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
    </td>
@@ -71,15 +71,15 @@ Como exemplo, digamos que você tenha vários links “Buy”, que são identifi
  </tbody>
 </table>
 
-Como é possível personalizar a página da Web e usar tags para diferenciar os valores desses links? Existem três opções: você pode personalizar a ID do link ou personalizar a região, ou personalizar o arquivo de módulo AppMeasurement Activity Map.
+Como é possível personalizar a página da Web e usar tags para diferenciar os valores desses links? Existem três opções: você pode personalizar a ID do link ou personalizar a região, ou personalizar o arquivo de módulo AppMeasurement ActivityMap.
 
 ## Personalizar a ID do link usando a variável s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Ao criar uma ID de objeto exclusiva, `s_objectID`, para um link ou localização de link em uma página, você pode melhorar o rastreamento de Activity Map ou usar o Activity Map para criar relatórios sobre um tipo de link ou localização, em vez do URL do link. Clique [aqui](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=pt-BR) para obter mais informações sobre a variável `s_objectID`
+Ao criar uma ID de objeto única (`s_objectID`) para um link ou um local de link em uma página, você pode melhorar o rastreamento do Activity Map ou usá-lo para informar sobre um tipo de link ou um local, em vez do URL do link. Clique [aqui](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=pt-BR) para obter mais informações sobre a variável `s_objectID`.
 
 >[!IMPORTANT]
 >
->Observe que um ponto e vírgula (`;`) é necessário ao usar `s_objectID` em Activity Map.
+>Observe que é necessário um ponto e vírgula (`;`) ao usar o `s_objectID` no Activity Map.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
@@ -120,13 +120,13 @@ Ao criar uma ID de objeto exclusiva, `s_objectID`, para um link ou localização
    <td colname="col3">
      <br/>
      <br/>
-    painel de recomendação<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    painel de recomendação<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    painel de recomendação<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
    </td>
@@ -136,11 +136,11 @@ Ao criar uma ID de objeto exclusiva, `s_objectID`, para um link ou localização
 
 ## Personalizar a região {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Você pode personalizar a região, garantindo que cada link &quot;Comprar&quot; tenha sua própria Região definida. Para fazer isso, adicione um `"id"` para um dos pais de cada tag de âncora &quot;Comprar&quot;.
+Você pode personalizar a região certificando-se de que cada link “Buy” tenha a sua própria região definida. Para fazer isso, adicione um parâmetro `"id"` a um dos principais de cada tag de âncora “Buy”.
 
 >[!NOTE]
 >
->Você não está estritamente limitado à variável `"id"` como um identificador de região. Também é possível definir seu próprio identificador usando a variável JavaScript `"s.ActivityMap.regionIDAttribute"`.
+>Você não está estritamente limitado ao parâmetro `"id"` como um identificador de região. Também é possível definir o seu próprio identificador usando a variável de JavaScript `"s.ActivityMap.regionIDAttribute"`.
 
 <table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
@@ -168,13 +168,13 @@ Você pode personalizar a região, garantindo que cada link &quot;Comprar&quot; 
    <td colname="col2">
      <br/>
      <br/>
-    Comprar<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Comprar<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Comprar<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
@@ -184,7 +184,7 @@ Você pode personalizar a região, garantindo que cada link &quot;Comprar&quot; 
     region a<br/>
      <br/>
      <br/>
-    região b<br/>
+    region b<br/>
      <br/>
      <br/>
     region c<br/>
@@ -195,11 +195,11 @@ Você pode personalizar a região, garantindo que cada link &quot;Comprar&quot; 
  </tbody>
 </table>
 
-## Personalizar o arquivo de módulo AppMeasurement Activity Map {#section_B933BB9F944E4D5389002908A5A881F8}
+## Personalizar o arquivo de módulo AppMeasurement ActivityMap {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
->Certifique-se de testar o código modificado para garantir seu funcionamento. A Adobe não é responsável pela forma como o código modificado se comporta.
+>Teste o código modificado para garantir seu funcionamento correto. A Adobe não é responsável pela forma como o código modificado se comporta.
 
 Veja alguns exemplos de funções de link/região **genéricas** que podem ser incluídas (em forma modificada) no arquivo AppMeasurement.js.
 
@@ -216,7 +216,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-O `linkName` é transmitido durante chamadas para `s.tl()`.
+O `linkName` é transmitido durante as chamadas para o `s.tl()`.
 
 ```js
 s.ActivityMap.region = function(ele) {
