@@ -4,9 +4,9 @@ description: Implementar o Adobe Analytics no site, propriedade ou aplicativo.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: be00ae15cfcd1afb1ecf225c9dff82e969bb5127
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -33,10 +33,10 @@ O código JavaScript envia uma solicitação de imagem para os servidores de col
 
 O Adobe Analytics requer código em seu site, aplicativo móvel ou outro aplicativo para enviar dados aos servidores de coleta de dados. Há vários métodos para implementar esse código, dependendo da plataforma e das necessidades da organização.
 
-* **Extensão do SDK da Web**: O método padronizado e recomendado para implementar o Adobe Analytics. Instale a extensão SDK da Web da Coleção de dados da Adobe Experience Platform, use um tag de carregamento em cada página e envie dados para o Adobe Experience Platform Edge em um formato conveniente para sua organização. O Experience Edge encaminha os dados de entrada para o Adobe Analytics no formato correto.
-* **Web SDK**: Você pode carregar manualmente as bibliotecas do SDK da Web no seu site se não quiser usar a Coleta de dados do Adobe Experience Platform. Faça referência à biblioteca do SDK da Web em cada página e envie as chamadas de rastreamento desejadas para o Adobe Experience Edge.
+* **Extensão SDK da Web**: o método padronizado e recomendado para implementar o Adobe Analytics. Instale a extensão SDK da Web da Coleção de dados da Adobe Experience Platform, use um tag de carregamento em cada página e envie dados para o Adobe Experience Platform Edge em um formato conveniente para sua organização. O Experience Edge encaminha os dados de entrada para o Adobe Analytics no formato correto.
+* **SDK da Web**: você pode carregar manualmente as bibliotecas do SDK da Web no seu site se não quiser usar a Coleção de dados da Adobe Experience Platform. Faça referência à biblioteca do SDK da Web em cada página e envie as chamadas de rastreamento desejadas para o Adobe Experience Edge.
 * **Extensão do Adobe Analytics**: instale a extensão do Adobe Analytics da Coleção de dados da Adobe Experience Platform. Insira uma tag de carregamento em cada página e use a extensão do Analytics para determinar como cada variável é definida.
-* **JavaScript herdado:** o método manual histórico para implementar o Adobe Analytics. Descreve as variáveis e as configurações usadas em uma implementação, que pode ser útil para implementações do usando regras com código personalizado.
+* **JavaScript herdado:** o método manual histórico para implementar o Adobe Analytics. Descreve as variáveis e as configurações usadas em uma implementação, que pode ser útil para implementações usando regras com código personalizado.
 * **SDK móvel**: bibliotecas dedicadas para enviar dados facilmente à Adobe a partir do aplicativo móvel.
 
 ## Artigos principais de implementação do Analytics
@@ -55,4 +55,4 @@ O Adobe Analytics requer código em seu site, aplicativo móvel ou outro aplicat
 * [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=pt-BR#support)
 * [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
-* [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home)
+* [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#dashboard/learning)
