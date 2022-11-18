@@ -5,13 +5,13 @@ title: Remover projetos de pastas
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
 ---
-
 
 # Remover um projeto de uma pasta
 
@@ -23,7 +23,7 @@ Para remover um projeto de uma pasta, você pode mover o projeto para outro loca
 
 >[!NOTE]
 >
->Quando um Administrador move um projeto para a Pasta da empresa, a pasta é compartilhada com todos, mesmo se os privilégios compartilhados originais foram restritos. Quando um Administrador move um projeto para fora da Pasta da empresa, os privilégios de compartilhamento originais ou anteriores são respeitados.
+>Quando um Administrador move um projeto para a Pasta da empresa, a pasta é compartilhada com todos mesmo se os privilégios compartilhados originais foram restritos. Quando um Administrador move um projeto para fora da Pasta da empresa, os privilégios de compartilhamento originais ou anteriores são respeitados.
 
 ## Mover um projeto
 

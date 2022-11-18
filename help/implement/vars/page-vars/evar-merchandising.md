@@ -1,5 +1,5 @@
 ---
-title: eVar (variável Merchandising)
+title: eVar (variável de merchandising)
 description: Variáveis personalizadas vinculadas a produtos individuais.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
@@ -7,19 +7,19 @@ mini-toc-levels: 3
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 62%
+ht-degree: 98%
 
 ---
 
 # eVar (merchandising)
 
-*Esta página de ajuda descreve como implementar as eVars de merchandising. Para obter informações sobre como as eVars de merchandising funcionam como uma dimensão, consulte [eVars (dimensão Merchandising)](/help/components/dimensions/evar-merchandising.md) no guia do usuário Componentes.*
+*Esta página de ajuda descreve como implementar as eVars de merchandising. Para obter informações sobre como as eVars de merchandising funcionam como uma dimensão, consulte [eVars (dimensão de merchandising)](/help/components/dimensions/evar-merchandising.md) no guia do usuário dos Componentes.*
 
 Para ver em detalhes como as eVars de merchandising funcionam, consulte [eVars de merchandising e métodos de descoberta de produtos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
 
 ## Configurar eVars nas configurações do conjunto de relatórios
 
-Antes de usar eVars na implementação, configure o eVar para a sintaxe desejada nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
+Antes de usar as eVars em sua implementação, configure-as com a sintaxe desejada nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
 
 >[!WARNING]
 >
@@ -44,16 +44,16 @@ O valor para `eVar1` é atribuído ao produto. Todos os eventos bem-sucedidos su
 
 ### Sintaxe do produto usando o SDK da Web
 
-As variáveis de merchandising da sintaxe do produto são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) em vários campos XDM diferentes.
+As variáveis de merchandising da sintaxe do produto são [mapeadas para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) em vários campos XDM diferentes.
 
 * As eVars de merchandising da sintaxe do produto são mapeadas em `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` para `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* Os eventos de merchandising da sintaxe do produto são mapeados em `productListItems[]._experience.analytics.event1to100.event1.value` para `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Serialização de eventos](events/event-serialization.md) Campos XDM são mapeados em `productListItems[]._experience.analytics.event1to100.event1.id` para `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* Os eventos de merchandising da sintaxe do produto são mapeados em `productListItems[]._experience.analytics.event1to100.event1.value` para `productListItems[]._experience.analytics.event901to1000.event1000.value`. Os campos XDM da [serialização de eventos](events/event-serialization.md) são mapeados em `productListItems[]._experience.analytics.event1to100.event1.id` a `productListItems[]._experience.analytics.event901to1000.event1000.id`.
 
 >[!NOTE]
 >
->Ao definir eventos em `productListItems`, não é necessário defini-los na string do evento. Se estiverem definidos em ambos os lugares, o valor na cadeia de caracteres do evento terá prioridade.
+>Ao definir eventos em `productListItems`, não é necessário defini-los na string do evento. Se estiverem definidos em ambos os lugares, o valor na string do evento terá prioridade.
 
-O exemplo a seguir mostra um único [produto](products.md) usando várias eVars de merchandising e eventos:
+O exemplo a seguir mostra um único [produto](products.md) que usa vários eventos e eVars de merchandising:
 
 ```js
 "productListItems": [
@@ -108,9 +108,9 @@ O valor `"Aviary"` para `eVar1` é atribuído ao produto `"Canary"`. Todos os ev
 
 ### Sintaxe de variável de conversão usando o SDK da Web
 
-A sintaxe da variável de conversão usando o SDK da Web opera de forma semelhante à implementação de outros [eVars](evar.md) e [events](events/events-overview.md). O espelhamento do XDM no exemplo acima seria semelhante ao seguinte:
+A Sintaxe de variável de conversão usando o SDK da Web opera de maneira semelhante à implementação de outras [eVars](evar.md) e [eventos](events/events-overview.md). O espelhamento do XDM no exemplo acima seria semelhante ao seguinte:
 
-Defina o eVar na mesma chamada de evento ou na chamada de evento anterior:
+Defina a eVar na mesma chamada de evento ou na anterior:
 
 ```js
 "_experience": {
@@ -124,7 +124,7 @@ Defina o eVar na mesma chamada de evento ou na chamada de evento anterior:
 }
 ```
 
-Defina o evento de vinculação e os valores da string de produtos:
+Defina o evento compulsório e os valores da string de produtos:
 
 ```js
 "commerce": {

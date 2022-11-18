@@ -6,19 +6,19 @@ exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 86%
+ht-degree: 95%
 
 ---
 
 # Análise completa (para analisar a implementação duas vezes por ano)
 
-Por que você deve analisar sua implementação a cada seis meses? Porque é necessário garantir que sua implementação permaneça alinhada às necessidades de sua empresa! Além disso, convém resolver qualquer problema de qualidade dos dados enquanto ele é pequeno e antes que se transforme em um grande problema de dados que possa minar a confiança das partes interessadas. Além dessas Análises completas a cada seis meses, você também deve fazer [Análises focadas](/help/implement/review/focused-review.md) após cada lançamento de site.
+Por que você deve analisar sua implementação a cada seis meses? Porque é necessário garantir que sua implementação permaneça alinhada às necessidades do negócio! Além disso, convém resolver qualquer problema de qualidade dos dados enquanto ele é pequeno e antes que se transforme em um grande problema de dados que possa minar a confiança das partes interessadas. Além dessas Análises completas a cada seis meses, você também deve fazer [Análises focadas](/help/implement/review/focused-review.md) após cada lançamento de site.
 
-## 1. Certifique-se de que a implementação ainda esteja alinhada às necessidades de nossos negócios
+## 1. Certifique-se de que sua implementação ainda esteja totalmente alinhada às nossas necessidades de negócios
 
 Conheça o proprietário da empresa e/ou os analistas para analisar as necessidades de negócios em constante mudança. Para quaisquer necessidades ou oportunidades de medição que não estejam sendo atendidas por sua implementação, descubra como atualizar seus KPIs e planos de medição. Lembre-se de registrar as alterações em seu [BRD e SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
-## 2. Certifique-se de que suas métricas e variáveis ainda estejam funcionando corretamente
+## 2. Certifique-se de que suas métricas e variáveis ainda estejam funcionando bem
 
 Analise rapidamente todas as suas métricas e variáveis, em ordem de importância para os negócios, para verificar se os dados estão sendo coletados corretamente. Comece com suas métricas e variáveis mais importantes: aquelas associadas aos [cinco principais KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review). Para fazer isso:
 

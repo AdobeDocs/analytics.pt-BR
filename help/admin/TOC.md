@@ -84,7 +84,7 @@ ht-degree: 100%
       + [Visão geral dos Relatórios em tempo real](admin/realtime/realtime.md)
       + [Configuração de relatórios em tempo real](admin/realtime/t-realtime-admin.md)
       + [Métricas e dimensões em tempo real compatíveis](admin/realtime/realtime-metrics.md)
-   + [Gerenciador de Atividades de relatórios](admin/reporting-activity.md)
+   + [Gerenciador de atividades de relatórios](admin/reporting-activity.md)
    + [Relação de relatórios agendados](admin/scheduled-reports-admin.md)
    + Encaminhamento pelo lado do servidor {#server-side-forwarding}
       + [Visão geral do encaminhamento pelo lado do servidor](admin/c-server-side-forwarding/ssf.md)
