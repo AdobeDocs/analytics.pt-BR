@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Lembre-se
 
 * Métricas podem ser adicionadas somente a solicitações de Layout dinâmico. Se algumas das solicitações selecionadas forem Layouts personalizados, as métricas não serão adicionadas. Isso ocorre porque o Report Builder não sabe onde colocar a nova métrica na planilha, uma vez que o layout é personalizado.
 * Então, se você selecionar apenas solicitações de Layout personalizado, a opção **[!UICONTROL Adicionar métricas]** não estará disponível.
-* A adição de métricas aumentará o tamanho de uma solicitação e poderá fazer com que seja sobreposta a outra solicitação. Certifique-se de que a solicitação tenha espaço suficiente para adicionar métricas.
+* A adição de métricas aumentará o tamanho de uma solicitação e poderá fazer com que seja sobreposta a outra solicitação. Verifique se a solicitação tem espaço suficiente para a adição de métricas.
 * Se a métrica adicionada já estiver presente em uma das solicitações selecionadas, ela será adicionada a essa solicitação.
 
 Para adicionar uma ou mais métricas:
@@ -70,7 +70,7 @@ Para remover métricas:
 
 1. Selecione uma ou mais solicitações no Excel e clique com o botão direito do mouse para selecionar **[!UICONTROL Editar métricas]**. (Ou clique em **[!UICONTROL Gerenciar]** > **[!UICONTROL Editar várias]** > **`<choose metric>`** > **[!UICONTROL Editar grupo]** para selecionar o grupo de solicitações a serem modificadas.)
 
-1. Selecione **[!UICONTROL Remover métricas]**.
+1. Selecione **[!UICONTROL Remover métrica(s)]**.
 
    ![Remover métrica](assets/remove_metric.png)
 
