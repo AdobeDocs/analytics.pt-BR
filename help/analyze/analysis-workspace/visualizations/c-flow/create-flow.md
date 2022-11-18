@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ A nova experiência de [!UICONTROL fluxo] aprimora o fluxo de trabalho de vária
 
 * Agora é possível optar por iniciar ou terminar seu caminho com a combinação de uma métrica e uma dimensão de definição de caminho.
 * Ele contém [!UICONTROL Configurações avançadas] para permitir personalizar ainda mais o [!UICONTROL fluxo].
-* O novo botão &quot;Criar&quot; economiza tempo na análise, permitindo configurar a jornada de uma só vez, depois consultar e criar automaticamente várias colunas e nós de uma só vez &#x200B;.
+* O novo botão “Criar” economiza tempo na análise, permitindo configurar a jornada de uma só vez, depois consultar e então criar automaticamente várias colunas e nós de uma só vez.
 
 ![Nova interface de usuário de fluxo](assets/new-flow.png)
 
@@ -37,7 +37,7 @@ A nova experiência de [!UICONTROL fluxo] aprimora o fluxo de trabalho de vária
 
    * Use o menu suspenso para selecionar métricas ou dimensões.
    * Arraste itens da lista de dimensões ou métricas.
-   * Use a pesquisa para encontrar a dimensão ou métrica que você está procurando.
+   * Use a pesquisa para encontrar as métricas ou dimensões que você está procurando.
 
    Por exemplo, vamos supor que você queira rastrear tudo o que leva a um evento de check-out. Você arrastaria uma dimensão ou métrica relacionada ao check-out (como [!UICONTROL Pedido existente]) na área **[!UICONTROL Termina com]**.
 
@@ -119,7 +119,7 @@ Ao usar essa opção, lembre-se de que:
 * Se usada com um fluxo **[!UICONTROL Começa com]**, somente a primeira ocorrência que corresponde aos critérios de início é incluída.
 * Se usada com um fluxo **[!UICONTROL Termina com]**, somente a última ocorrência que corresponde aos critérios finais será incluída.
 * As séries utilizadas diferem de acordo com o container. Se estiver usando o container **[!UICONTROL Visita]**, a série de ocorrências será a sessão. Se estiver usando o container **[!UICONTROL Visitante]**, a série de ocorrências será todas as ocorrências de um determinado usuário no intervalo de datas fornecido.
-* O **[!UICONTROL Limitar à primeira/última ocorrência]** pode ser configurada nas configurações avançadas ao usar uma Métrica ou Dimension Item nos campos &quot;Inicia com&quot; ou &quot;Termina com&quot;.
+* A opção **[!UICONTROL Limitar à primeira/última ocorrência]** pode ser definida nas configurações avançadas ao usar uma Métrica ou Item de dimensão nos campos “Inicia com” ou “Termina com”.
 
 Exemplo de série de ocorrências:
 
@@ -131,11 +131,14 @@ Início > Produtos > Adicionar ao carrinho > Produtos > Adicionar ao carrinho > 
 * Dimensão da definição de caminho de [!UICONTROL Página] 
 * Container de [!UICONTROL Visita]
 
-If **[!UICONTROL Limitar à primeira/última ocorrência]** é *desativado*, essa única série de ocorrências conta 2 ocorrências de &quot;Adicionar ao carrinho&quot;.
-Saída de fluxo esperada: &quot;Adicionar ao carrinho&quot; (2) —> &quot;Produtos&quot; (1) -> &quot;Faturamento&quot; (1)
+Se a opção **[!UICONTROL Limitar à primeira/última ocorrência]** estiver *desativada*, essa única série de ocorrências contará duas ocorrências de “Adicionar ao carrinho”.
+Saída de fluxo esperada:
+“Adicionar ao carrinho” (2) —> “Produtos” (1)
+-> “Faturamento” (1)
 
-No entanto, se **[!UICONTROL Limitar à primeira/última ocorrência]** é *ativado*, somente a primeira ocorrência de &quot;Adicionar ao carrinho&quot; é incluída na análise.
-Saída de fluxo esperada: &quot;Adicionar ao carrinho&quot; (1) —> &quot;Produtos&quot; (1)
+No entanto, se a opção **[!UICONTROL “Limitar à primeira/última ocorrência”]** estiver *ativada*, somente a primeira ocorrência de “Adicionar ao carrinho” será incluída na análise.
+Saída de fluxo esperada:
+“Adicionar ao carrinho” (1) —> “Produtos” (1)
 
 ### Considere a mesma série de ocorrências, mas use as seguintes configurações:
 
@@ -143,8 +146,10 @@ Saída de fluxo esperada: &quot;Adicionar ao carrinho&quot; (1) —> &quot;Produ
 * Dimensão da definição de caminho de [!UICONTROL Página]
 * Container de [!UICONTROL Visita]
 
-If **[!UICONTROL Limitar à primeira/última ocorrência]** é *desativado*, essa única série de ocorrências contaria 2 ocorrências de &quot;Adicionar ao carrinho&quot;.
-Saída de fluxo esperada: &quot;Produtos&quot; (2) &lt;— &quot;Adicionar ao carrinho&quot; (2)
+Se a opção **[!UICONTROL Limitar à primeira/última ocorrência]** estiver *desativada*, essa única série de ocorrências contará duas ocorrências de “Adicionar ao carrinho”.
+Saída de fluxo esperada:
+“Produtos” (2) &lt;— “Adicionar ao carrinho” (2)
 
 No entanto, se a opção **[!UICONTROL Limitar à primeira/última ocorrência]** está *ativada*, somente a última ocorrência de [!UICONTROL Adicionar ao carrinho] seria incluída na análise.
-Saída de fluxo esperada: &quot;Produtos&quot; (1) &lt;— &quot;Adicionar ao carrinho&quot; (1)
+Saída de fluxo esperada:
+“Produtos” (1) &lt;— “Adicionar ao carrinho” (1)
