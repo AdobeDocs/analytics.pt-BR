@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ Para habilitar o modo offline:
 
    >[!IMPORTANT]
    >
-   >Certifique-se de desativar o Modo offline antes de executar suas solicitações com dados reais. Para fazer isso, retorne às **[!UICONTROL Opções]** e remova a marca de seleção.
+   >Desative o Modo offline ao executar suas solicitações com dados reais. Para fazer isso, retorne às **[!UICONTROL Opções]** e remova a marca de seleção.
