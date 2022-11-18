@@ -5,9 +5,9 @@ title: Visão geral do feed de dados do Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Os feeds de dados são uma maneira avançada de obter dados brutos do Adobe Anal
 
 ## Pré-requisitos
 
-Certifique-se de atender a todos os requisitos a seguir antes de usar os feeds de dados.
+Verifique se você atende a todos os requisitos a seguir antes de utilizar os feeds de dados.
 
 * Tenha um site FTP e credenciais acessíveis. Os feeds de dados só podem ser enviados para um destino de servidor. Sua organização geralmente fornece credenciais FTP. A Adobe pode fornecer um local FTP com uma quantidade modesta de armazenamento, a seu pedido. Entre em contato com o Atendimento ao cliente para solicitar um destino FTP para feeds de dados.
 * Uma implementação em funcionamento que envia dados para os servidores de coleta de dados da Adobe. Consulte [Validar e publicar uma implementação](/help/implement/launch/validate-publish-prod.md) no guia do usuário Implementar.
