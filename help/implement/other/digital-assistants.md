@@ -4,9 +4,9 @@ description: Implemente o Adobe Analytics em Assistentes digitais, como o Amazon
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1265'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Cada um dos assistentes digitais possui algoritmos que detectam intenções e a 
 
 Por exemplo, se um usuário disser: &quot;Siri, transfira $20 para John pelo jantar de ontem à noite através do meu aplicativo bancário&quot;, a intenção pode ser algo como *sendMoney*.
 
-Ao enviar cada uma dessas solicitações como uma eVar, você poderá executar relatórios de definição de caminho cada uma das intenções para aplicativos de conversação. Certifique-se de que o aplicativo possa lidar com solicitações sem uma intenção também. A Adobe recomenda transmitir &quot;Nenhum propósito especificado&quot; para a variável de dados de contexto de intenção em vez de a omitir.
+Ao enviar cada uma dessas solicitações como uma eVar, você poderá executar relatórios de definição de caminho cada uma das intenções para aplicativos de conversação. Certifique-se de que seu aplicativo possa também lidar com solicitações sem um propósito. A Adobe recomenda transmitir &quot;Nenhum propósito especificado&quot; para a variável de dados de contexto de intenção em vez de a omitir.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
@@ -170,7 +170,7 @@ Dois pontos anteriores e posteriores ajudam a criar segmentos. Por exemplo, most
 
 ## Exemplos
 
-| Pessoa | Resposta do dispositivo | Ação/intenção | Solicitação Get |
+| Pessoa | Resposta do dispositivo | Ação/intenção | Solicitação GET |
 |---|---|---|---|
 | Instalar Spoofify | Sem resposta | Instalar | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
 | Reproduzir o Spoofify | &quot;Ok reproduzindo o Spoofify&quot; | Reproduzir | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
