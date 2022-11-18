@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Corresponde se o termo é encontrado em qualquer ponto na item de linha. Isso op
 
 **Não contém**
 
-Corresponde se o termo não é encontrado em qualquer ponto no item de linha. Você pode filtrar &quot;não especificado&quot;, &quot;nenhum&quot;, &quot;palavra-chave não disponível&quot; e outros [valores especiais](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) de relatórios que usam &quot;não contém&quot;.
+Corresponde se o termo não é encontrado em qualquer ponto no item de linha. Você pode filtrar &quot;não especificado&quot;, &quot;nenhum&quot;, &quot;palavra-chave não disponível&quot; e outros [valores especiais](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=pt-BR) de relatórios que usam &quot;não contém&quot;.
 
 Não contém: `none`
 
