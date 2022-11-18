@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Não é possível comparar datas entre relatórios de tendências.
 
 >[!NOTE]
 >
->Se você deseja executar uma comparação de datas sobre métricas principais em um painel, é possível puxar os dados no [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=pt-BR) com duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
+>Se você deseja executar uma comparação de datas sobre métricas principais em um painel, é possível transmitir os dados para o [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=pt-BR) por meio de duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
 
 Para comparar datas entre relatórios classificados em Reports &amp; Analytics:
 
@@ -211,7 +211,7 @@ Este recurso aplica-se somente a relatórios de tendências filtrados com um int
 1. Execute um relatório de tendência em um intervalo de datas especificado.
 1. Clique no link **[!UICONTROL Dias da semana]** e, em seguida, clique no dia.
 
-## Botão “Testar na Workspace”  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## Botão “Testar no Espaço de trabalho”  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 Se você clicar no botão **[!UICONTROL Testar na Workspace]** na parte superior de um relatório, isso carregará o mesmo relatório na Analysis Workspace.
 
