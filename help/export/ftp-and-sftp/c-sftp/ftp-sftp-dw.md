@@ -5,9 +5,9 @@ title: Enviar solicitações de Data Warehouse para servidores SFTP
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,16 +22,16 @@ A Adobe oferece suporte para as solicitações de Data Warehouse para servidores
 * O protocolo `sftp://` seja especificado no campo de hospedagem (por exemplo, `sftp://ftp.example.com`) e APENAS a porta 22 seja usada durante a solicitação do relatório de Data Warehouse. Você também pode usar a opção `sftp+norename://`, conforme descrito abaixo.
 * O campo `authorized_keys` da Adobe esteja no diretório `.ssh`, localizado dentro do diretório raiz do usuário com o qual você fez o logon.
 * O destino não seja `ftp.omniture.com`. O protocolo SFTP entre os servidores internos da Adobe não é compatível.
-* O destino seja compatível com a autenticação de um fator (PKI, infraestrutura de chave pública). Se a autenticação de dois fatores for executada, o envio do relatório falhará. Certifique-se de que o servidor não esteja configurado para tentar a autenticação de dois fatores. O Adobe Analytics exige que apenas a chave seja usada para fazer o logon.
+* O destino seja compatível com a autenticação de um fator (PKI, infraestrutura de chave pública). Se a autenticação de dois fatores for executada, o envio do relatório falhará. Verifique se seu servidor não está configurado para realizar a tentativa de autenticação de dois fatores. O Adobe Analytics exige que apenas a chave seja usada para fazer o logon.
 * A Adobe oferece suporte para a criptografia SSHv2, mas não para SSHv1 (apenas chave RSA).
 
 Para enviar uma solicitação de Data Warehouse via SFTP com sucesso:
 
 1. Obtenha o arquivo `authorized_keys` fazendo com que os usuários da sua organização entrem em contato com o Atendimento ao Cliente.
-1. Depois que o arquivo for obtido, faça o logon no site FTP com as mesmas credenciais usadas para a solicitação de data warehouse.
+1. Depois que o arquivo for obtido, faça o logon no site FTP com as mesmas credenciais usadas para a solicitação de Data Warehouse.
 1. No diretório raiz, navegue até a pasta de nome `.ssh` (caso essa pasta não exista, crie uma) e coloque o arquivo `authorized_keys` lá.
 
-1. Vá até o gerenciador de solicitações do data warehouse. Configure a solicitação conforme desejado e, em seguida, clique em **[!UICONTROL Opções avançadas de envio]**.
+1. Vá até o gerenciador de solicitações do Data Warehouse. Configure a solicitação conforme desejado e, em seguida, clique em **[!UICONTROL Opções avançadas de envio]**.
 
 1. Na janela pop-up, clique em **[!UICONTROL FTP]** e, em seguida, especifique o site ftp (incluindo o protocolo `sftp://`, como `sftp://ftp.omniture.com`) pela porta 22.
 
