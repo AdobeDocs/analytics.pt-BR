@@ -5,16 +5,16 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: 5bad2982cc8883701be3c63a6ca179933fb59d2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Perguntas frequentes
 
 +++Quais são os pré-requisitos para usar o Analysis Workspace?
-[Enviar dados para o Adobe Analytics usando a extensão do Adobe Analytics](/help/implement/launch/validate-publish-prod.md): usar o Analysis Workspace exige uma implementação funcional. Certifique-se de que sua organização envie dados para o Adobe antes de usar a ferramenta. Outras implementações, como implementações manuais herdadas, também podem funcionar.
+[Enviar dados para o Adobe Analytics usando a extensão do Adobe Analytics](/help/implement/launch/validate-publish-prod.md): usar o Analysis Workspace exige uma implementação funcional. Verifique se sua organização está enviando dados para a Adobe antes de usar a ferramenta. Outras implementações, como implementações manuais herdadas, também podem funcionar.
 +++
 
 +++Quais são os requisitos de administração e acesso para o Analysis Workspace?
@@ -60,7 +60,7 @@ Assista a este vídeo sobre o uso do monitoramento de log do Analysis Workspace:
 
 +++
 
-+++Quando eu arrasto uma métrica, vejo &quot;Dados inválidos&quot;. Como resolver esse problema?
++++Quando arrasto uma métrica, vejo a mensagem “Dados inválidos”. Como resolver esse problema?
 Dados inválidos significa que a Adobe não pode retornar dados usando a combinação de dimensões e métricas usadas no relatório. Por exemplo, duas métricas empilhadas uma sobre a outra não podem retornar como dados, pois não há como exibir duas métricas desse modo. Em vez disso, coloque as métricas lado a lado.
 +++
 
