@@ -1,16 +1,16 @@
 ---
-title: Defina os cinco KPIs principais
-description: Certifique-se de que os seus principais indicadores de desempenho e as métricas e dimensões associadas estejam alinhados às suas necessidades comerciais.
+title: Defina os cinco principais KPIs
+description: Verifique se os principais indicadores de desempenho e as métricas e dimensões associadas estão alinhados às suas necessidades comerciais.
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Defina os cinco KPIs principais
+# Defina os cinco principais KPIs
 
 Simplesmente não é possível medir tudo, e sua implementação do Adobe Analytics será mais bem-sucedida se você priorizar a medição do que é mais importante para os negócios. Trabalhe com seus líderes de negócios para definir os indicadores-chave de desempenho (KPIs) que têm maior impacto para os negócios. Em seguida, concentre seus esforços nas métricas e variáveis compatíveis com esses KPIs.
 
