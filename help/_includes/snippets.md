@@ -1,8 +1,8 @@
 ---
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '19'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 # Trechos
@@ -11,4 +11,4 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->Leia mais sobre Relatórios e análises [Anúncio do fim da vida útil](https://express.adobe.com/page/6WnF8JK6IRDhf/).
+>Leia mais sobre o [Anúncio do fim da vida útil](https://express.adobe.com/page/6WnF8JK6IRDhf/) do Reports &amp; Analytics.
