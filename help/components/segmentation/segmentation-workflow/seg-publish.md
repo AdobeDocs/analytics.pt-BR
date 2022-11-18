@@ -4,9 +4,9 @@ title: Publicar segmentos na Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,10 +55,10 @@ Assista a este vídeo para obter mais detalhes:
 1. Forneça um título e uma descrição para o segmento - caso contrário, você não poderá salvá-lo.
 1. Marque **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**.
 
-![Publicar Experience Cloud](assets/publish-ec.png)
+![Publicar na Experience Cloud](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Certifique-se de usar &quot;Visitantes com Experience Cloud ID&quot; ao analisar as visualizações de segmento no Analytics, em vez da visualização do segmento total de &quot;visitantes únicos&quot; ao comparar os números de Adobe Analytics com os números de Audience Manager:
+>Use “Visitantes com ID da Experience Cloud” ao consultar as visualizações de segmentos no Analytics, em vez da visualização do segmento do total de “visitantes únicos”, ao comparar os números do Adobe Analytics com os números do Audience Manager:
 >
 >![Segmentar visitantes com ECID](assets/seg-vis-ecid.png)
 
@@ -83,7 +83,7 @@ Para excluir um segmento publicado na Experience Cloud, é necessário cancelar 
 1. Navegue até [!UICONTROL Analytics > Componentes > Segmentos].
 1. Observe a nova coluna [!UICONTROL Publicado]. Sim/Não refere-se a se o segmento foi publicado na Experience Cloud ou não.
 
-![Status da publicação](assets/publish-status.png)
+![Publicar status](assets/publish-status.png)
 
 ## Recuperar a [!DNL Audience Manager] UUID
 
