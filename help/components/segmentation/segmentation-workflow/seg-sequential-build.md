@@ -4,9 +4,9 @@ title: Construir segmentos sequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3827'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -210,7 +210,7 @@ Crie um segmento como você faria para um segmento sequencial simples, de nível
 
 Se o ponto de verificação excluído estiver no início de um segmento sequencial, isso assegura que uma exibição de página excluída não ocorreu antes da primeira ocorrência não excluída.
 
-Por exemplo, um restaurante deseja ver usuários inveterados que evitam a página de aterrissagem principal e vão diretamente para a página Saída de pedido. Esse exemplo pode ser simplificado para um visitante, evitando visitar a página A e ir direto para a página B.
+Por exemplo, um restaurante deseja visualizar usuários inveterados que evitam a página de destino e vão diretamente para a página de pedidos. Esse exemplo pode ser simplificado para um visitante que evita visitar a página A e prossegue direto para a página B.
 
 **Criar este segmento**
 
@@ -222,7 +222,7 @@ Crie dois contêineres de Ocorrência separados em um contêiner de Visitante de
 
 Se o ponto de verificação excluído estiver no final de uma sequência, isso garante que o ponto de verificação não ocorreu a partir do último ponto de verificação não excluído até o final da sequência do visitante.
 
-Por exemplo, uma loja de roupas quer ver todos os visitantes que visualizaram uma página de produto, mas nunca visitaram o carrinho de compras depois. Esse exemplo pode ser simplificado para um visitante que vai para a página A e nunca vai para a página B nas visitas atuais ou subsequentes.
+Por exemplo, uma loja de roupas quer ver todos os visitantes que visualizaram uma página de produto, mas que nunca acessaram o carrinho de compras depois. Esse exemplo pode ser simplificado para um visitante que acessa a página A e nunca prossegue para a página B nas visitas atuais ou subsequentes.
 
 **Criar este segmento**
 
