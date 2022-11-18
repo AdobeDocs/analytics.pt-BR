@@ -4,40 +4,40 @@ description: Para sites de comércio eletrônico, define a moeda em que a págin
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # currencyCode
 
-Em sites que usam comércio, receita e moeda, é uma parte importante do Analytics. Muitos sites, especialmente aqueles que abrangem vários países, usam moedas diferentes. Use o `currencyCode` para garantir que a receita seja atribuída à moeda correta.
+Em sites que usam comércio, receita e moeda, é uma parte importante do Analytics. Muitos sites, especialmente aqueles que abrangem vários países, usam moedas diferentes. Use a variável `currencyCode` para verificar se os atributos de receita estão na moeda correta.
 
-A conversão de moeda usa a seguinte lógica em cada ocorrência. Essas etapas se aplicam aos valores da receita definidos pela variável [`products`](../page-vars/products.md) e todos os eventos listados como &quot;Moeda&quot; em [Eventos bem-sucedidos](/help/admin/admin/c-success-events/success-event.md) em Configurações do conjunto de relatórios.
+A conversão de moeda usa a seguinte lógica em cada ocorrência. Essas etapas se aplicam aos valores de receita definidos pela variável [`products`](../page-vars/products.md) e a todos os eventos listados como “Moeda” na seção [Eventos bem-sucedidos](/help/admin/admin/c-success-events/success-event.md) das configurações do conjunto de relatórios.
 
-* If `currencyCode` não estiver definido, o Adobe assume que todos os valores de moeda são a moeda do conjunto de relatórios. Consulte [Configurações gerais da conta](/help/admin/admin/general-acct-settings-admin.md) nas configurações do Conjunto de relatórios para ver a moeda do conjunto de relatórios.
+* Se `currencyCode` não estiver definido, a Adobe presume que todos os valores de moeda são a moeda do conjunto de relatórios. Consulte [Configurações gerais da conta](/help/admin/admin/general-acct-settings-admin.md) nas configurações do conjunto de relatórios para ver a moeda do conjunto de relatórios.
 * Se `currencyCode` for definida e corresponder à moeda do conjunto de relatórios, nenhuma conversão de moeda será aplicada.
 * Se `currencyCode` estiver definida e for diferente da moeda do conjunto de relatórios, a Adobe aplicará uma conversão de moeda com base na taxa de câmbio do dia. A Adobe tem uma parceria com o [XE](https://xe.com) para converter moeda a cada dia. Todos os valores armazenados no conjunto de relatórios estão na moeda do conjunto de relatórios.
-* If `currencyCode` está definido como um valor inválido, **a ocorrência inteira é descartada, causando perda de dados.** Certifique-se de que essa variável esteja definida corretamente sempre que for usada.
+* Se `currencyCode` contiver um valor inválido, **a ocorrência inteira será descartada, causando perda de dados.** Verifique se essa variável está definida corretamente sempre que for usada.
 
-Essa variável não persiste entre ocorrências. Certifique-se de que essa variável esteja definida em todas as páginas que envolvam eventos de receita ou moeda que não correspondam à moeda padrão do conjunto de relatórios.
+Essa variável não é mantida entre ocorrências. Verifique se essa variável está definida em todas as páginas que envolvam eventos de receita ou moeda que não correspondam à moeda padrão do conjunto de relatórios.
 
 >[!NOTE]
 >
->Embora os códigos monetários possam mudar entre páginas, todas as métricas de moeda em uma única ocorrência devem usar a mesma moeda.
+>Embora os códigos de moeda possam mudar entre páginas, todas as métricas de moeda em uma única ocorrência devem usar a mesma moeda.
 
-Um período **must** ser usada como separador de moeda para todas as moedas ao implementar essa variável. Por exemplo, a Coroa sueca, que normalmente exibe um separador de vírgula, deve ser modificada para usar um ponto no `products` e todos os eventos de moeda. Adobe exibe o separador de moeda correto no relatório.
+Um ponto **deve** ser usado como separador para todas as moedas ao implementar essa variável. Por exemplo, a coroa sueca, que normalmente exibe um separador de vírgula, deve ser modificada para usar um ponto na variável `products` e em todos os eventos de moeda. A Adobe exibe o separador de moeda correto no relatório.
 
-## Código monetário usando o SDK da Web
+## Código de moeda usando o SDK da Web
 
-O código da moeda é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `commerce.order.currencyCode`.
+O código de moeda é [mapeado para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `commerce.order.currencyCode`.
 
-## Código monetário usando a extensão Adobe Analytics
+## Código de moeda usando a extensão do Adobe Analytics
 
-O Código de moeda é um campo da opção [!UICONTROL Geral] ao configurar a extensão Adobe Analytics.
+O Código de moeda é um campo da opção [!UICONTROL Geral] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 1. Expanda a opção [!UICONTROL Geral], que revela o campo [!UICONTROL Código monetário].
@@ -54,9 +54,9 @@ O código monetário é passado para os SDKs do Adobe Experience Platform Mobile
 
 É possível usar um código monetário predefinido ou personalizado. Se estiver usando um código monetário personalizado, verifique se ele é válido.
 
-## s.currencyCode no AppMeasurement e no editor de código personalizado de extensão do Analytics
+## s.currencyCode no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-A variável `s.currencyCode` é uma cadeia de caracteres, que contém um código de 3 letras maiúsculas representando a moeda na página. Os valores diferenciam maiúsculas de minúsculas.
+A variável `s.currencyCode` é uma cadeia de caracteres que contém um código de 3 letras maiúsculas representando a moeda na página. Os valores diferenciam maiúsculas de minúsculas.
 
 ```js
 s.currencyCode = "USD";
