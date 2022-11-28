@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
+source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
 workflow-type: tm+mt
-source-wordcount: '3638'
+source-wordcount: '3641'
 ht-degree: 96%
 
 ---
@@ -125,13 +125,13 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | **`mobilecampaignterm`** | Palavras-chave pagas ou outros termos que você deseja rastrear com essa aquisição. Preenchido pela Aquisição do dispositivo móvel. | varchar(255) |
 | **`mobiledayofweek`** | Dia da semana no qual o aplicativo foi inicializado. | varchar(255) |
 | **`mobiledayssincefirstuse`** | Número de dias desde a primeira execução do aplicativo. | varchar(255) |
-| **`mobiledayssincelastupgrade`** | Coletada da variável de dados de contexto a.DaysSinceLastUpgrade. O número de dias que passaram desde a sessão anterior. | varchar(255) |
+| **`mobiledayssincelastupgrade`** | RETIRADO - Coletado da variável de dados de contexto a.DaysSinceLastUpgrade. O número de dias que passaram desde a sessão anterior. | varchar(255) |
 | **`mobiledayssincelastuse`** | Número de dias desde a execução mais recente do aplicativo. | varchar(255) |
 | **`mobiledeeplinkid`** | Coletada da variável de dados de contexto `a.deeplink.id`. Usado nos relatórios de aquisição como um identificador para o link de aquisição móvel. | varchar(255) |
 | **`mobiledevice`** | Nome do dispositivo móvel. No iOS, é armazenado em uma sequência de caracteres de 2 dígitos. O primeiro número representa a geração do dispositivo, e o segundo representa a família do dispositivo. | varchar(255) |
 | **`mobilehourofday`** | Define a hora do dia que o aplicativo foi inicializado. Segue um formato numérico de 24 horas. | varchar(255) |
 | **`mobileinstalldate`** | Data de instalação móvel. Fornece a data da primeira vez que um usuário abriu o aplicativo móvel. | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | Coletada da variável de dados de contexto a.LaunchesSinceUpgrade. Relata o número de inicializações desde a última atualização. | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | RETIRADO - Coletado da variável de dados de contexto a.LaunchesSinceUpgrade. Relata o número de inicializações desde a última atualização. | varchar(255) |
 | **`mobilelaunchnumber`** | Há um aumento de um cada vez que o aplicativo é inicializado. | varchar(255) |
 | **`mobileltv`** | Não está mais em uso. Preenchido pelos métodos trackLifetimeValue. | varchar(255) |
 | **`mobilemessagebuttonname`** | Coletada da variável de dados de contexto `a.message.button.id`. Usado para mensagens no aplicativo para identificar o botão que fechou a mensagem. | varchar(100) |
@@ -139,7 +139,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | **`mobilemessageonline`** | Mensagens no aplicativo online | varchar(255) |
 | **`mobilemessagepushoptin`** | Coletada da variável de dados de contexto `a.push.optin`. Defina como &quot;true&quot; quando o usuário optar por enviar mensagens de push; caso contrário, o valor será &quot;false&quot;. | varchar(255) |
 | **`mobilemessagepushpayloadid`** | Coletada da variável de dados de contexto `a.push.payloadid`. Usado em mensagens de push como o identificador de carga. | varchar(255) |
-| **`mobileosenvironment`** | Coletada da variável de dados de contexto `a.OSEnvironment`. Aponta o ambiente do SO, como Android ou iOS. | varchar(255) |
+| **`mobileosenvironment`** | RETIRADO - Coletado da variável de dados de contexto `a.OSEnvironment`. Aponta o ambiente do SO, como Android ou iOS. | varchar(255) |
 | **`mobileosversion`** | Versão do sistema operacional do Mobile Services | varchar(255) |
 | **`mobileplaceaccuracy`** | Coletada da variável de dados de contexto `a.loc.acc`. Indica a precisão do GPS em metros no momento da coleta. | varchar(255) |
 | **`mobileplacecategory`** | Coletada da variável de dados de contexto `a.loc.category`. Descreve a categoria de um local específico. | varchar(255) |
