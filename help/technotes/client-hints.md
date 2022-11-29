@@ -1,13 +1,13 @@
 ---
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 95%
+source-wordcount: '1134'
+ht-degree: 87%
 
 ---
-
 
 # Visão geral e perguntas frequentes sobre dicas do cliente
 
@@ -95,6 +95,14 @@ Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021
 
 +++
 
++++**De que maneiras o Analytics depende do Agente do usuário?**
+
+As informações do dispositivo no relatório são derivadas do Agente do usuário. Atualizamos nossos processos para usar o Agente do usuário e as dicas do cliente, quando disponíveis.
+
+A ID de fallback ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) é derivado do Agente do usuário e do Endereço IP. Essa ID é usada somente se não for possível definir um cookie, portanto, não é amplamente usada
+
++++
+
 +++**Quais campos de relatórios do Analytics são obtidos de valores armazenados em dicas de alta entropia?**
 
 Isso será alterado com o tempo, à medida que o Google “congela” mais partes do usuário-agente. O primeiro campo a ser diretamente afetado é o “Sistema operacional”, que inclui a versão do sistema operacional. De acordo com a linha do tempo de “congelamento” de dicas do usuário-agente publicada pelo Google, a versão do sistema operacional será congelada a partir do final de outubro de 2022 com a versão 107 do Chromium. Nesse momento, a versão do sistema operacional no usuário-agente será imprecisa em alguns casos.
@@ -105,7 +113,7 @@ Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021
 
 +++**Como a Adobe usará as dicas do cliente para obter informações do dispositivo?**
 
-A Adobe utiliza um terceiro, o Device Atlas, que usará as dicas do cliente e o usuário-agente para obter informações do dispositivo.
+O Adobe usa um Atlas de dispositivo de terceiros, que usará as dicas do cliente e o Agente do usuário para obter informações do dispositivo.
 
 +++
 
@@ -144,4 +152,3 @@ Consulte a [documentação do esquema](https://github.com/adobe/xdm/blob/master/
 Sim. As dicas do cliente serão incluídas nos dados encaminhados ao AAM. Observe que o AAM requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html), talvez você queira ativar a coleção de dicas de alta entropia.
 
 +++
-
