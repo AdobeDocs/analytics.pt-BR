@@ -3,9 +3,9 @@ title: IPs e domínios usados pelo Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 0a66bc86ee68259fdb5835bf7bccd9b5e9455990
+source-git-commit: 222ce14fd60ce5dae39a72c1a2bec4315a68b4e4
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '401'
 ht-degree: 73%
 
 ---
@@ -64,6 +64,7 @@ Se sua organização preferir permitir intervalos de endereços IP específicos,
 | Londres | `66.235.156.0/24` |
 | Londres | `185.34.188.0/22` |
 | Oregon | `66.235.132.0/22` |
+| Oregon | `130.248.160.0/21` |
 | Singapura | `130.248.170.0/23` |
 | Singapura | `130.248.240.0/24` |
 | Singapura | `63.140.44.0/22` |
