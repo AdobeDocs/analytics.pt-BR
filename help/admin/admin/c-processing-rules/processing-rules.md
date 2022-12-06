@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Visão geral das regras de processamento
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: 3d22d27a259b100cbbe8306b4d610afacb59d265
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 88%
 
 ---
 
@@ -57,3 +57,7 @@ Regras de processamento podem monitorar valores recebidos para transformar erros
 Após definir as variáveis de dados de contexto na implementação, é necessário copiá-las para variáveis como eVars, para utilização em relatórios.
 
 Consulte [Copiar uma variável de dados de contexto para um eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Definir um evento usando uma variável de dados de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obter mais informações.
+
+## Limitações conhecidas
+
+**Uso de quilates (^) nas regras de processamento.** Se você quiser usar quilates nas regras de processamento como delimitadores ou para outros fins, cada carrinho deve ser representado por dois quilates. Por exemplo, representar um único carro como ^^, um carro duplo como ^^^, etc.
