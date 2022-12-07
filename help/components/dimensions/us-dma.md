@@ -3,10 +3,10 @@ title: DMA dos EUA
 description: A área de mercado designada da ocorrência.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 89e8c9ac085d020db954790331103846c9dbc7a1
+source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 97%
+source-wordcount: '307'
+ht-degree: 85%
 
 ---
 
@@ -30,3 +30,4 @@ Como essa dimensão se baseia no endereço IP, alguns cenários podem mostrar um
 * **Endereços de IP remoto**: o direcionamento por IP móvel funciona em diferentes níveis, dependendo da localização e da rede. Um número de operadoras faz o backhaul do tráfego IP através de pontos de presença centralizados ou regionais.
 * **Usuários do ISP satélite**: identificar a localização específica desses usuários é difícil, pois eles normalmente parecem se originar do local do uplink.
 * **IPs militares ou governamentais**: representa as pessoas que viajam ao redor do mundo e entram pelo local onde moram, em vez da base ou escritório onde trabalham.
+* **Proxies que obscurecem endereços IP por motivos de privacidade**: Serviços como Apple Private Relay ocultam o endereço IP real enviando dados aleatoriamente por meio de um intermediário ou proxy. Em seguida, esse proxy substitui um endereço IP diferente antes do encaminhamento para o Adobe.

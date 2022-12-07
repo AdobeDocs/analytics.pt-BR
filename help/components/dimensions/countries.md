@@ -3,10 +3,10 @@ title: Países
 description: O país de onde a ocorrência se originou.
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 89%
+source-wordcount: '308'
+ht-degree: 77%
 
 ---
 
@@ -30,3 +30,4 @@ Como essa dimensão se baseia no endereço IP, alguns cenários podem mostrar um
 * **Endereços de IP remoto**: o direcionamento por IP móvel funciona em diferentes níveis, dependendo da localização e da rede. Um número de operadoras faz o backhaul do tráfego IP através de pontos de presença centralizados ou regionais.
 * **Usuários do ISP satélite**: identificar a localização específica desses usuários é difícil, pois eles normalmente parecem se originar do local do uplink.
 * **IPs militares ou governamentais**: representa as pessoas que viajam ao redor do mundo e entram pelo local onde moram, em vez da base ou escritório onde trabalham.
+* **Proxies que obscurecem endereços IP por motivos de privacidade**: Serviços como Apple Private Relay ocultam o endereço IP real enviando dados aleatoriamente por meio de um intermediário ou proxy. Em seguida, esse proxy substitui um endereço IP diferente antes do encaminhamento para o Adobe.
