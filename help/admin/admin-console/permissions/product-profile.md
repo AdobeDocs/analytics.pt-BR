@@ -3,10 +3,10 @@ title: Perfis de produto para o Adobe Analytics
 description: Saiba como os perfis de produtos podem ser usados como predefinições de permissão que os administradores de produtos podem atribuir aos usuários em uma organização.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 88ed2f874d680f9ed1aea9bfb60e303f123cbc37
+source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 91%
+source-wordcount: '714'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 Os perfis de produtos são predefinições de permissão que os administradores de produtos podem atribuir aos usuários em uma organização. Se você criar um perfil de produto e atribuir um usuário da Experience Cloud a esse perfil, ele herdará os itens de permissão contidos no perfil do produto.
 
-Consulte [Gerenciar perfis de produto para usuários corporativos](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) no Guia do usuário do Enterprise para obter informações gerais sobre perfis de produtos.
+Para obter informações gerais sobre perfis de produtos, incluindo a criação de perfis de produtos e a atribuição de usuários, consulte [Gerenciar perfis de produto para usuários corporativos](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) no guia do usuário Enterprise.
 
 ## Administradores do perfil do produto
 
@@ -24,6 +24,8 @@ Os administradores de perfil de produto são um grupo opcional que pode adiciona
 * Os administradores de perfis de produtos podem ajustar itens de permissões em seus perfis de produtos.
 * Os administradores de perfis de produtos podem atribuir ou remover perfis de produtos para grupos de usuários.
 * Os administradores de perfis de produtos são ideais para líderes ou gerentes de equipes que precisam apenas conceder e gerenciar acesso ao Adobe Analytics para sua equipe. Eles não precisariam incomodar administradores de sistema ou administradores de produtos para conceder acesso ao Adobe Analytics.
+
+Para obter informações sobre como atribuir administradores de perfil de produto, consulte a seção &quot;Gerenciar administradores de perfil de produto&quot; no artigo, [Gerenciar perfis de produto para usuários corporativos](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) no guia do usuário Enterprise.
 
 ## Itens de permissão do Adobe Analytics
 
