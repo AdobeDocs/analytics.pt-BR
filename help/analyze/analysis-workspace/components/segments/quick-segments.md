@@ -4,10 +4,10 @@ title: Segmentos rápidos
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 71%
+source-wordcount: '943'
+ht-degree: 65%
 
 ---
 
@@ -43,7 +43,7 @@ Configure o segmento rápido nesta folha em branco:
 | --- | --- |
 | Nome | O nome padrão de um segmento é uma combinação dos nomes das regras no segmento. Você pode renomear o segmento. |
 | Incluir/excluir | Você pode incluir ou excluir componentes na definição do segmento, mas não ambos. |
-| Contêiner de ocorrência/visita/visitante | Os segmentos rápidos incluem apenas um [contêiner de segmento](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) que permite incluir (ou excluir) uma dimensão/métrica/intervalo de datas no segmento. [!UICONTROL O Visitante] contém dados abrangentes específicos para visitantes em visitas e visualizações de página. Um container de [!UICONTROL Visita] permite definir regras para detalhar os dados do visitante com base em visitas, e um container de [!UICONTROL Ocorrência] permite detalhar as informações do visitante com base em visualizações de página individuais. O container padrão é o de [!UICONTROL Ocorrência]. |
+| Contêiner de ocorrência/visita/visitante | Os segmentos rápidos incluem apenas um [contêiner de segmento](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) que permite incluir (ou excluir) uma dimensão/métrica/intervalo de datas no segmento. [!UICONTROL O Visitante] contém dados abrangentes específicos para visitantes em visitas e visualizações de página. A [!UICONTROL Visita] permite definir regras para detalhar os dados do visitante com base em visitas e um [!UICONTROL Ocorrência] permite detalhar as informações do visitante com base em visualizações de página individuais. O container padrão é o de [!UICONTROL Ocorrência]. |
 | Componentes (dimensão/métrica/intervalo de datas) | Defina até três regras adicionando componentes (dimensões e/ou métricas e/ou intervalos de datas) e seus valores. Há 3 maneiras de encontrar o componente correto:<ul><li>Comece a digitar e o construtor de [!UICONTROL Segmento rápido] encontra automaticamente o componente correto.</li><li>Use a lista suspensa para localizar o componente.</li><li>Arraste os componentes do painel esquerdo e solte-os.</li></ul> |
 | Operador | Use o menu suspenso para encontrar operadores padrão e operadores de [!UICONTROL Contagem distinta]. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=pt-BR) |
 | Sinal de mais (+) | Adicionar outra regra |
@@ -94,3 +94,10 @@ Se um segmento somente de projeto for aberto na [!UICONTROL Construtor de segmen
 Se marcar &quot;Disponibilizar este segmento..&quot; e clique em **[!UICONTROL SALVAR]**, o segmento fica disponível na lista de componentes do painel à esquerda para uso em outros projetos. Ele também pode ser compartilhado com outros usuários no Gerenciador de segmentos.
 
 ![Somente do projeto marcado](assets/project-only-checked.png)
+
+## Problema conhecido
+
+1. Crie um segmento rápido com 2 entradas e **[!UICONTROL Salvar]** como Teste1.
+1. Clique em **[!UICONTROL Salvar como]** e salve este segmento rápido como Test2.
+1. Edite o segmento rápido Test2 e salve-o novamente como Test2.
+Observe que o segmento rápido Test1 é modificado pelo Test2.
