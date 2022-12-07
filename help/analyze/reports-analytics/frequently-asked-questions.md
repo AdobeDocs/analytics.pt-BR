@@ -5,8 +5,8 @@ title: Perguntas frequentes sobre o Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: 88df864b58cecef71aadc0314d1d2d81c5b9b72f
+workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Muitas vezes, os itens de dimensão podem ser aplicados em vários lugares, por 
 +++
 
 +++É possível excluir um conjunto de relatórios?
-Não é possível excluir um conjunto de relatórios. No entanto, um conjunto de relatórios pode ser ocultado em todas as exibições no Adobe Analytics. Observe que as chamadas do servidor enviadas para um conjunto de relatórios oculto ainda contam para o limite mensal de contratos. Consulte [Ocultar conjuntos de relatórios](/help/admin/company/c-hide-report-suites.md) no guia do usuário de Administração para obter mais informações.
+Não é possível excluir um conjunto de relatórios. No entanto, um conjunto de relatórios pode ser ocultado em todas as exibições no Adobe Analytics. Observe que as chamadas do servidor enviadas para um conjunto de relatórios oculto ainda contam para o limite mensal de contratos. Consulte [Ocultar conjuntos de relatórios](/help/admin/admin/get-started/company/c-hide-report-suites.md) no guia do usuário de Administração para obter mais informações.
 +++
 
 +++Ao usar a segmentação, qual contêiner devo usar? Exibição de página, visita ou visitante?
