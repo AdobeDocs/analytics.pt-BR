@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
+source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 97%
+source-wordcount: '679'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,15 @@ ht-degree: 97%
       + [Compartilhamento de marcas](admin/get-started/company/co-branding-admin.md)
       + [Ocultar conjuntos de relatórios](admin/get-started/company/c-hide-report-suites.md)
       + [Gerenciador de segurança](admin/get-started/company/security-manager.md)
++ Permissões de usuário no Admin Console do Adobe {#admin-console}
+   + [Analytics no Adobe Admin Console](admin-console/home.md)
+   + Permissões {#permissions}
+      + [Permissões do Analytics no Admin Console](admin-console/permissions/summary-tables.md)
+      + [Perfis de produto para o Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Permissões de perfil de produto para Ferramentas de conjuntos de relatórios](admin-console/permissions/report-suite-tools.md)
+      + [Permissões de perfil de produto para as Ferramentas do Analytics](admin-console/permissions/analytics-tools.md)
+   + [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Funções de administrador no Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Ferramentas administrativas {#admin-tools}
    + [Ferramentas administrativas](admin/c-admin-tools.md)
    + [Faturamento](admin/billing-admin.md)
@@ -118,15 +127,6 @@ ht-degree: 97%
       + [Especificar a Variável de visitante único](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Caso de uso - Extração de IDs de visitantes](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gerenciamento de vídeo](admin/video-management.md)
-+ Analytics no Adobe Admin Console {#admin-console}
-   + [Analytics no Adobe Admin Console](admin-console/home.md)
-   + Permissões {#permissions}
-      + [Permissões do Analytics no Admin Console](admin-console/permissions/summary-tables.md)
-      + [Perfis de produto para o Adobe Analytics](admin-console/permissions/product-profile.md)
-      + [Permissões de perfil de produto para Ferramentas de conjuntos de relatórios](admin-console/permissions/report-suite-tools.md)
-      + [Permissões de perfil de produto para as Ferramentas do Analytics](admin-console/permissions/analytics-tools.md)
-   + [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md)
-   + [Funções de administrador no Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Gerenciar Conjuntos de relatórios {#manage-report-suites}
    + [Gerenciador do Conjunto de relatórios](c-manage-report-suites/report-suites-admin.md)
    + [Conjuntos de relatórios globais e de acumulado](c-manage-report-suites/rollup-report-suite.md)
