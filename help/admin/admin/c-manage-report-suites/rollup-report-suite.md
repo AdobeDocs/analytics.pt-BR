@@ -3,7 +3,7 @@ description: Descrições dos tipos de conjunto de relatórios e comparação en
 title: Abordagens do conjunto de relatórios
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 100%
@@ -44,7 +44,7 @@ O uso de conjuntos de relatórios virtuais em vez da marcação de vários relat
 >
 >O [!DNL Reports & Analytics] é a única ferramenta que oferece suporte a relatórios de rollup, e a Adobe não recomenda mais a utilização de rollups. Em vez disso, considere usar um conjunto de relatórios global com a marcação de vários relatórios ou conjuntos de relatórios virtuais.
 
-Um relatório de rollup é um simples agregado de dados de vários conjuntos de relatórios, sem desduplicação ou qualquer detalhamento de segmentos ou de dados. Os rollups não exigem implementação de código. Para usar relatórios de rollup, [implemente conjuntos de relatórios secundários](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) e depois [combine-os em um relatório de rollup](/help/admin/admin/c-manage-report-suites/t-rollups.md) usando [!UICONTROL Ferramentas administrativas].
+Um relatório de rollup é um simples agregado de dados de vários conjuntos de relatórios, sem desduplicação ou qualquer detalhamento de segmentos ou de dados. Os rollups não exigem implementação de código. Para usar relatórios de rollup, [implemente conjuntos de relatórios secundários](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) e depois [combine-os em um relatório de rollup](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) usando [!UICONTROL Ferramentas administrativas].
 
 Relatórios de rollup são gratuitos: os conjuntos de relatórios secundários incorrem em suas próprias chamadas de servidor, mas o rollup não incorre em chamadas adicionais. Os rollups são um recurso herdado e têm muitas limitações.
 

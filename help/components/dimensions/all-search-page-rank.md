@@ -3,7 +3,7 @@ title: Toda a classificação da página de pesquisa
 description: Determine em qual página de um mecanismo de pesquisa um visitante clicou para acessar seu site.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
@@ -16,7 +16,7 @@ A dimensão “Toda classificação da página de pesquisa” fornece informaç�
 
 ## Preencher esta dimensão com dados
 
-Para que essa dimensão funcione, é necessário que seu conjunto de relatórios tenha [Filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md) configurados corretamente. O AppMeasurement preenche automaticamente essa dimensão sem qualquer alteração no código de implementação.
+Para que essa dimensão funcione, é necessário que seu conjunto de relatórios tenha [Filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) configurados corretamente. O AppMeasurement preenche automaticamente essa dimensão sem qualquer alteração no código de implementação.
 
 ## Itens de dimensão
 

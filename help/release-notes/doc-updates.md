@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8e6f8ecb153d5af183adee76acef0a12901bb1be
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '3517'
 ht-degree: 94%
@@ -203,7 +203,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 11 de abril de 2019 | Melhorias nas práticas recomendadas de otimização do Espaço de trabalho: [otimizar o desempenho](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11 de abril de 2019 | Atualizações em [Otimizar o desempenho do Espaço de trabalho](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 de março de 2019 | Atualização importante em [Coleta de dados regionais](/help/technotes/rdc/regional-data-collection.md). |
-| 7 de fevereiro de 2019 | Pequena atualização nas configurações de “Substituir o último octeto dos endereços IP por 0” e “Obfuscação de IP” nas [Configurações gerais da conta](/help/admin/admin/general-acct-settings-admin.md). |
+| 7 de fevereiro de 2019 | Pequena atualização nas configurações de “Substituir o último octeto dos endereços IP por 0” e “Obfuscação de IP” nas [Configurações gerais da conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1 de fevereiro de 2019 | Atualização importante no plug-in de implementação [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 de janeiro de 2019 | [Análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) — as principais melhorias na análise de coorte permitem:<ul><li>Aplicar uma inclusão de segmento e retornar métricas separadamente. </li><li>Exibir alteração (churn) em vez de retenção.</li><li>Exibir tabelas de latência (tempo decorrido antes e depois de um evento de inclusão).</li><li>Personalizar dimensão de coorte (para agrupar visitantes com base em uma eVar, não somente no tempo).</li><li>Executar um cálculo acumulado de coorte: calcule a retenção/abandono com base em um período anterior, não na coorte original. </li><li>Adicionar várias métricas em campos de inclusão e de resultados, além de aplicar segmentos. (As métricas calculadas não são aceitas)</li></ul> |
 | 17 de janeiro de 2019 | [Exibir densidade](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Essa nova configuração permite ver mais dados em uma só tela ao reduzir o preenchimento vertical do painel à esquerda em tabelas de forma livre e de coorte. Acessível em Projeto > Informações e configurações do projeto. |

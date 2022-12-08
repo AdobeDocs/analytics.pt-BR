@@ -4,8 +4,8 @@ description: As dimensões e métricas que o Reports & Analytics usa para cada r
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Cada relatório no Reports &amp; Analytics usa uma dimensão dedicada e uma mét
 
 >[!NOTE]
 >
->O menu de relatórios pode parecer diferente dependendo das personalizações feitas por um administrador em sua organização. Consulte [Personalização de menu](/help/admin/admin/customize-menus.md) no Guia do usuário de administração.
+>O menu de relatórios pode parecer diferente dependendo das personalizações feitas por um administrador em sua organização. Consulte [Personalização de menu](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) no Guia do usuário de administração.
 
 >[!IMPORTANT]
 >A partir de **31 de dezembro de 2023**, a Adobe pretende descontinuar o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham. Quando isso ocorrer, o Reports &amp; Analytics e todos os seus relatórios e agendas não funcionarão mais. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
@@ -119,7 +119,7 @@ Contém relatórios que permitem visualizar os dados de definição de caminho p
 
 ## Fontes de tráfego
 
-Contém um relatório que fornece informações de onde os visitantes vieram antes de chegar ao seu site. Esses relatórios não funcionam corretamente a menos que você defina corretamente [Filtros de URL internos](../../admin/admin/internal-url-filter-admin.md) nas configurações do conjunto de relatórios.
+Contém um relatório que fornece informações de onde os visitantes vieram antes de chegar ao seu site. Esses relatórios não funcionam corretamente a menos que você defina corretamente [Filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) nas configurações do conjunto de relatórios.
 
 * Palavras-chave de pesquisa - todas: usa a dimensão [Palavra-chave de pesquisa](/help/components/dimensions/search-keyword.md).
 * Palavras-chave de pesquisa - pagas: Usa a dimensão [Palavras-chave de pesquisa - pagas](/help/components/dimensions/search-keyword.md).
@@ -230,4 +230,4 @@ Contém públicos-alvo que você criou. Consulte [Públicos-alvo](targets.md) pa
 
 >[!NOTE]
 >
->Se você não conseguir encontrar seu relatório nesta página de ajuda, é possível que o administrador tenha renomeado ou ajustado as pastas. Consulte [Personalização de menu](/help/admin/admin/customize-menus.md) no Guia do usuário de administração.
+>Se você não conseguir encontrar seu relatório nesta página de ajuda, é possível que o administrador tenha renomeado ou ajustado as pastas. Consulte [Personalização de menu](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) no Guia do usuário de administração.

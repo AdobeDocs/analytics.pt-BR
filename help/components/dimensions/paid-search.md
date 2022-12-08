@@ -3,8 +3,8 @@ title: Pesquisa paga
 description: Distingue métricas de pesquisa paga e natural.
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ A dimensão “Pesquisa paga” permite que você veja qualquer métrica e a com
 
 ## Preencher esta dimensão com dados
 
-O único requisito para que essa dimensão funcione corretamente é ter a [Detecção de pesquisa paga](/help/admin/admin/paid-search-detection/paid-search-detection.md) definida corretamente nas configurações do conjunto de relatórios. Se a detecção de pesquisa paga estiver configurada corretamente e um conjunto de relatórios tiver dados, essa dimensão sempre funcionará.
+O único requisito para que essa dimensão funcione corretamente é ter a [Detecção de pesquisa paga](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) definida corretamente nas configurações do conjunto de relatórios. Se a detecção de pesquisa paga estiver configurada corretamente e um conjunto de relatórios tiver dados, essa dimensão sempre funcionará.
 
 ## Itens de dimensão
 

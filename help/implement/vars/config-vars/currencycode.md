@@ -3,8 +3,8 @@ title: O que é a variável currencyCode e como usá-la?
 description: Para sites de comércio eletrônico, define a moeda em que a página negocia.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Em sites que usam comércio, receita e moeda, é uma parte importante do Analyti
 
 A conversão de moeda usa a seguinte lógica em cada ocorrência. Essas etapas se aplicam aos valores de receita definidos pela variável [`products`](../page-vars/products.md) e a todos os eventos listados como “Moeda” na seção [Eventos bem-sucedidos](/help/admin/admin/c-success-events/success-event.md) das configurações do conjunto de relatórios.
 
-* Se `currencyCode` não estiver definido, a Adobe presume que todos os valores de moeda são a moeda do conjunto de relatórios. Consulte [Configurações gerais da conta](/help/admin/admin/general-acct-settings-admin.md) nas configurações do conjunto de relatórios para ver a moeda do conjunto de relatórios.
+* Se `currencyCode` não estiver definido, a Adobe presume que todos os valores de moeda são a moeda do conjunto de relatórios. Consulte [Configurações gerais da conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) nas configurações do conjunto de relatórios para ver a moeda do conjunto de relatórios.
 * Se `currencyCode` for definida e corresponder à moeda do conjunto de relatórios, nenhuma conversão de moeda será aplicada.
 * Se `currencyCode` estiver definida e for diferente da moeda do conjunto de relatórios, a Adobe aplicará uma conversão de moeda com base na taxa de câmbio do dia. A Adobe tem uma parceria com o [XE](https://xe.com) para converter moeda a cada dia. Todos os valores armazenados no conjunto de relatórios estão na moeda do conjunto de relatórios.
 * Se `currencyCode` contiver um valor inválido, **a ocorrência inteira será descartada, causando perda de dados.** Verifique se essa variável está definida corretamente sempre que for usada.

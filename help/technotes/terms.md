@@ -2,8 +2,8 @@
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Persistência:** um conceito abstrato para variáveis de conversão que permite a vinculação entre um valor variável e um evento que ocorre em hits separados. Consulte também Expiração.
 * **Chamada do servidor primário:** nome alternativo para solicitação de imagem ou hit, usado principalmente no contexto de marcação e cobrança de vários conjuntos. Quando o mesmo hit é enviado para vários conjuntos de relatórios, o primeiro conjunto de relatórios é uma chamada de servidor primário enquanto o restante são chamadas de servidor secundário. Esta regra se aplica a todos os tipos de hits, incluindo exibição de página e rastreamento de link. Consulte também Chamadas de servidor secundário.
 * **Regras de processamento:** pode se referir a:
-   * Regras de processamento, uma forma de alterar a coleta de dados usando determinadas regras no Admin Console. Consulte [Regras de Processamento](/help/admin/admin/c-processing-rules/processing-rules.md) no guia do usuário Administração
+   * Regras de processamento, uma forma de alterar a coleta de dados usando determinadas regras no Admin Console. Consulte [Regras de Processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) no guia do usuário Administração
    * Regras de processamento de canal de marketing, um conjunto de regras que determina a qual canal de marketing um hit pertence. Consulte [Regras de Processamento do canal de marketing](/help/admin/admin/marketing-channels-admin.md) no guia do usuário Administração
 * **Prop:** consulte Variável de tráfego.
 * **Relatório classificado:** um formato de relatório que normalmente segue uma dimensão com uma métrica. Esse tipo de relatório permite que você veja os principais itens, como as páginas mais visualizadas do site. Consulte também Relatório de tendências.

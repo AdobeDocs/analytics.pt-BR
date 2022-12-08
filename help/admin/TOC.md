@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 89d5c1e59e0cf5167eb7858caa0f9090d527a9c4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '680'
 ht-degree: 95%
 
 ---
@@ -42,28 +42,6 @@ ht-degree: 95%
 + Administrador do Analytics {#admin-tools}
    + [Ferramentas administrativas](admin/c-admin-tools.md)
    + [Faturamento](admin/billing-admin.md)
-   + Gerenciador do Conjunto de relatórios {#manage-report-suites}
-      + [Gerenciar Conjuntos de relatórios](admin/c-manage-report-suites/report-suites-admin.md)
-      + [Conjuntos de relatórios globais e de acumulado](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [Criar um conjunto de relatório de rollup](admin/c-manage-report-suites/t-rollups.md)
-      + [Criar um grupo de conjunto de relatórios](admin/c-manage-report-suites/t-create-rs-group.md)
-      + [Salvar uma pesquisa do conjunto de relatórios](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [Configurações do conjunto de relatórios individuais](admin/c-manage-report-suites/individual-rs-settings.md)
-      + [Fazer download das configurações do conjunto de relatórios](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + Novo Conjunto de relatórios {#new-report-suite}
-         + [Criar um novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Configurações do novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [Configurações não copiadas do conjunto de relatórios de origem](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + Modelos de Conjunto de relatórios {#report-suite-templates}
-         + [Visão geral dos modelos de conjunto de relatórios](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [Portal agregador](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [Comércio](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [Conteúdo e mídia](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [Modelo padrão](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [Serviços financeiros](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [Portal de trabalho](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [Geração de leads](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [Mídia de suporte](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + Remoção de bot {#bot-removal}
       + [Remoção de bot](admin/bot-removal/bot-removal.md)
       + [Visão geral das regras de bot](admin/bot-removal/bot-rules.md)
@@ -79,52 +57,76 @@ ht-degree: 95%
       + [eVar de merchandising](admin/conversion-var-admin/merchandising-evars.md)
    + [Códigos monetários](admin/currency.md)
    + [Descrições do relatório personalizado](admin/custom-desc-admin.md)
-   + [Personalizar calendário](admin/custom-calendar.md)
    + [Fontes de dados](admin/data-sources.md)
    + [Métricas padrão](admin/default-metrics.md)
    + [Excluir por endereço IP](admin/exclude-ip.md)
    + [Métodos de descoberta](admin/finding-methods.md)
-   + [Configurações gerais da conta](admin/general-acct-settings-admin.md)
-   + [Filtros internos do URL](admin/internal-url-filter-admin.md)
    + [Logs](admin/logs.md)
    + [Canais de marketing](admin/marketing-channels-admin.md)
-   + [Personalização do menu](admin/customize-menus.md)
    + [Visibilidade da métrica](admin/metric-visibility.md)
    + [Gerenciamento de aplicativos](admin/mobile-management.md)
-   + Detecção de pesquisa paga {#paid-search-detection}
-      + [Visão geral da detecção de pesquisa paga](admin/paid-search-detection/paid-search-detection.md)
-      + [Configurar a detecção de pesquisa paga](admin/paid-search-detection/t-paid-search-detection.md)
    + [Gerenciador de preferências](admin/preferences-manager.md)
    + [Configurações de privacidade](admin/privacy-settings.md)
    + [Relatórios de privacidade](admin/privacy-reporting.md)
-   + Regras de processamento {#processing-rules}
-      + [Visão geral das regras de processamento](admin/c-processing-rules/processing-rules.md)
-      + Configuração das regras de processamento {#processing-rules-configuration}
-         + [Como as regras de processamento funcionam](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [Criar regras de processamento](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-         + [Exibir as regras de processamento ativas](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-         + [Exibir o histórico das regras de processamento](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-         + [Restaurar as regras de processamento](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-         + [Cópia das regras de processamento para outro conjunto de relatórios](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-      + [Dimensões disponíveis para as regras de processamento](admin/c-processing-rules/processing-rule-dimensions.md)
-      + Exemplos de regras de processamento {#processing-rules-examples}
-         + [Exemplos de regras de processamento](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [Preenchimento de uma ID de campanha a partir de um parâmetro da cadeia de caracteres de consulta](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-         + [Definir o evento de exibição de produto na página Visão geral do produto](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-         + [Adicionar uma subcategoria pela concatenação da categoria e do nome da página](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-         + [Determinar um caminho copiando um valor de eVar em uma propriedade](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
-         + [Limpar valores em um relatório](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-         + [Preencher termos de pesquisa interna usando um parâmetro da cadeia de caracteres de consulta](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-         + [Copiar uma variável de dados de contexto para uma eVar](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-         + [Definir um evento usando uma variável de dados de contexto](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-         + [Remover um evento de uma ocorrência](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-      + [Dicas e truques para regras de processamento](admin/c-processing-rules/processing-rules-tips.md)
    + Relatórios em Tempo real {#real-time-reports}
       + [Visão geral dos Relatórios em tempo real](admin/realtime/realtime.md)
       + [Configuração de relatórios em tempo real](admin/realtime/t-realtime-admin.md)
       + [Métricas e dimensões em tempo real compatíveis](admin/realtime/realtime-metrics.md)
    + [Gerenciador de atividades de relatórios](admin/reporting-activity.md)
    + [Relação de relatórios agendados](admin/scheduled-reports-admin.md)
+   + Gerenciador do Conjunto de relatórios {#manage-report-suites}
+      + [Gerenciar Conjuntos de relatórios](admin/c-manage-report-suites/report-suites-admin.md)
+      + [Conjuntos de relatórios globais e de acumulado](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Salvar uma pesquisa do conjunto de relatórios](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [Configurações do conjunto de relatórios individuais](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [Fazer download das configurações do conjunto de relatórios](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + Novo Conjunto de relatórios {#c-new-report-suite}
+         + [Criar um novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [Criar um conjunto de relatório de rollup](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [Criar um grupo de conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [Configurações do novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [Configurações não copiadas do conjunto de relatórios de origem](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + Modelos de Conjunto de relatórios {#report-suite-templates}
+         + [Visão geral dos modelos de conjunto de relatórios](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [Portal agregador](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [Comércio](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [Conteúdo e mídia](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [Modelo padrão](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [Serviços financeiros](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [Portal de trabalho](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [Geração de leads](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [Mídia de suporte](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
+      + Editar configurações de um conjunto de relatórios {#edit-report-suite}
+         + Geral {#report-suite-general}
+            + [Configurações gerais da conta](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
+            + [Filtros internos do URL](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+            + Detecção de pesquisa paga {#paid-search-detection}
+               + [Visão geral da detecção de pesquisa paga](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
+               + [Configurar a detecção de pesquisa paga](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
+            + [Personalização do menu](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
+            + [Personalizar calendário](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
+            + Regras de processamento {#c-processing-rules}
+               + [Visão geral das regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
+               + Configuração das regras de processamento {#c-processing-rules-configuration}
+                  + [Como as regras de processamento funcionam](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
+                  + [Criar regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
+                  + [Exibir as regras de processamento ativas](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
+                  + [Exibir o histórico das regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
+                  + [Restaurar as regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
+                  + [Cópia das regras de processamento para outro conjunto de relatórios](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
+                  + [Dimensões disponíveis para as regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
+               + Exemplos de regras de processamento {#processing-rules-examples}
+                  + [Exemplos de regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
+                  + [Preenchimento de uma ID de campanha a partir de um parâmetro da cadeia de caracteres de consulta](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+                  + [Definir o evento de exibição de produto na página Visão geral do produto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
+                  + [Adicionar uma subcategoria pela concatenação da categoria e do nome da página](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
+                  + [Determinar um caminho copiando um valor de eVar em uma propriedade](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
+                  + [Limpar valores em um relatório](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
+                  + [Preencher termos de pesquisa interna usando um parâmetro da cadeia de caracteres de consulta](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
+                  + [Copiar uma variável de dados de contexto para uma eVar](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
+                  + [Definir um evento usando uma variável de dados de contexto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
+                  + [Remover um evento de uma ocorrência](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
+               + [Dicas e truques para regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
    + Encaminhamento pelo lado do servidor {#server-side-forwarding}
       + [Visão geral do encaminhamento pelo lado do servidor](admin/c-server-side-forwarding/ssf.md)
       + [Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor](admin/c-server-side-forwarding/ssf-gdpr.md)

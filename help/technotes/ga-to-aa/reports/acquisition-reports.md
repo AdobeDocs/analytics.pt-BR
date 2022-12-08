@@ -3,7 +3,7 @@ title: Relatórios de aquisição no Adobe Analytics
 description: Saiba como criar relatórios baseados em aquisição usando a Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 100%
@@ -127,7 +127,7 @@ O relatório Campanhas está disponível na Analysis Workspace usando a dimensã
 
 ## Campanhas - Palavras-chave pagas
 
-O relatório de palavras-chave pagas mostra o desempenho de cada palavra-chave depois que um visitante clica em um link de pesquisa paga a partir de um mecanismo de pesquisa. A dimensão **Palavras-chave de pesquisa - Pagas** está disponível na Analysis Workspace, mas requer uma configuração única da detecção de pesquisa paga para coletar dados. Consulte [Detecção de pesquisa paga](/help/admin/admin/paid-search-detection/paid-search-detection.md) no guia do usuário Administração para obter detalhes sobre a configuração.
+O relatório de palavras-chave pagas mostra o desempenho de cada palavra-chave depois que um visitante clica em um link de pesquisa paga a partir de um mecanismo de pesquisa. A dimensão **Palavras-chave de pesquisa - Pagas** está disponível na Analysis Workspace, mas requer uma configuração única da detecção de pesquisa paga para coletar dados. Consulte [Detecção de pesquisa paga](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) no guia do usuário Administração para obter detalhes sobre a configuração.
 
 1. No menu Componentes, localize a dimensão **Palavra-chave de pesquisa - Paga** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
