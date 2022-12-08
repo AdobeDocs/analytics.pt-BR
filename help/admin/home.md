@@ -3,8 +3,8 @@ title: Guia de administração do Analytics
 description: Ajuda administrativa para administradores do Adobe Analytics, incluindo gerenciamento de usuários e produtos no Admin Console, configuração de conjuntos de relatórios, variáveis, classificações e coleta de dados.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Este guia não aborda muitos dos recursos genéricos oferecidos pelo Adobe Admin
 ## Artigos principais
 
 * [Guia inicial do primeiro administrador do Analytics](admin-console/first-admin-guide.md): se sua organização for uma novidade no Adobe Analytics, siga este guia para começar a aproveitar ao máximo o Adobe Analytics.
-* [Gerenciador de conjunto de relatórios](c-manage-report-suites/report-suites-admin.md): a ferramenta de administração mais acessada no Analytics. O Gerenciador de conjunto de relatórios contém configurações para gerenciamento de classificação de gerenciamento de variáveis, fusos horários e muito mais.
+* [Gerenciador de conjunto de relatórios](admin/c-manage-report-suites/report-suites-admin.md): a ferramenta de administração mais acessada no Analytics. O Gerenciador de conjunto de relatórios contém configurações para gerenciamento de classificação de gerenciamento de variáveis, fusos horários e muito mais.
 
 ## Mais guias do usuário do Analytics
 
@@ -46,4 +46,4 @@ Este guia não aborda muitos dos recursos genéricos oferecidos pelo Adobe Admin
 * [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=pt-BR#support)
 * [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
-* [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home)
+* [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#dashboard/learning)

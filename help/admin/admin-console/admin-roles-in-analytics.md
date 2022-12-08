@@ -2,7 +2,8 @@
 title: Funções de administrador no Adobe Analytics
 description: Saiba como começar a usar o Adobe Analytics, os tipos de função gerais e como fazer logon na interface do usuário.
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 58%
@@ -69,7 +70,7 @@ Para obter informações sobre como atribuir usuários como administradores de p
 
 ## Próximas etapas
 
-[Criar um conjunto de relatórios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Faça com que o administrador do Analytics faça logon na ferramenta e crie um conjunto de relatórios para a coleta de dados
+[Criar um conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Faça com que o administrador do Analytics faça logon na ferramenta e crie um conjunto de relatórios para a coleta de dados
 
 [Criar uma propriedade de tag do Analytics](/help/implement/launch/create-analytics-property.md): peça ao administrador da Coleção de dados que faça logon na ferramenta e crie uma propriedade para implementar no site
 

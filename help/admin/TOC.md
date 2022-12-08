@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -39,9 +39,31 @@ ht-degree: 96%
       + [Perfis de produto para o Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Permissões de perfil de produto para Ferramentas de conjuntos de relatórios](admin-console/permissions/report-suite-tools.md)
       + [Permissões de perfil de produto para as Ferramentas do Analytics](admin-console/permissions/analytics-tools.md)
-+ Ferramentas administrativas {#admin-tools}
++ Administrador do Analytics {#admin-tools}
    + [Ferramentas administrativas](admin/c-admin-tools.md)
    + [Faturamento](admin/billing-admin.md)
+   + Gerenciador do Conjunto de relatórios {#manage-report-suites}
+      + [Gerenciar Conjuntos de relatórios](admin/c-manage-report-suites/report-suites-admin.md)
+      + [Conjuntos de relatórios globais e de acumulado](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Criar um conjunto de relatório de rollup](admin/c-manage-report-suites/t-rollups.md)
+      + [Criar um grupo de conjunto de relatórios](admin/c-manage-report-suites/t-create-rs-group.md)
+      + [Salvar uma pesquisa do conjunto de relatórios](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [Configurações do conjunto de relatórios individuais](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [Fazer download das configurações do conjunto de relatórios](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + Novo Conjunto de relatórios {#new-report-suite}
+         + [Criar um novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [Configurações do novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [Configurações não copiadas do conjunto de relatórios de origem](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + Modelos de Conjunto de relatórios {#report-suite-templates}
+         + [Visão geral dos modelos de conjunto de relatórios](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [Portal agregador](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [Comércio](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [Conteúdo e mídia](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [Modelo padrão](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [Serviços financeiros](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [Portal de trabalho](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [Geração de leads](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [Mídia de suporte](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + Remoção de bot {#bot-removal}
       + [Remoção de bot](admin/bot-removal/bot-removal.md)
       + [Visão geral das regras de bot](admin/bot-removal/bot-rules.md)
@@ -124,28 +146,6 @@ ht-degree: 96%
       + [Especificar a Variável de visitante único](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Caso de uso - Extração de IDs de visitantes](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gerenciamento de vídeo](admin/video-management.md)
-+ Gerenciar Conjuntos de relatórios {#manage-report-suites}
-   + [Gerenciador do Conjunto de relatórios](c-manage-report-suites/report-suites-admin.md)
-   + [Conjuntos de relatórios globais e de acumulado](c-manage-report-suites/rollup-report-suite.md)
-   + [Criar um conjunto de relatório de rollup](c-manage-report-suites/t-rollups.md)
-   + Modelos de Conjunto de relatórios {#report-suite-templates}
-      + [Visão geral dos modelos de conjunto de relatórios](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [Portal agregador](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [Comércio](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [Conteúdo e mídia](c-manage-report-suites/c-report-suite-templates/content-media.md)
-      + [Modelo padrão](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-      + [Serviços financeiros](c-manage-report-suites/c-report-suite-templates/financial-services.md)
-      + [Portal de trabalho](c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [Geração de leads](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-      + [Mídia de suporte](c-manage-report-suites/c-report-suite-templates/support-media.md)
-   + [Salvar uma pesquisa do conjunto de relatórios](c-manage-report-suites/t-report-suite-saved-search.md)
-   + [Configurações do conjunto de relatórios individuais](c-manage-report-suites/individual-rs-settings.md)
-   + [Fazer download das configurações do conjunto de relatórios](c-manage-report-suites/t-download-rs-settings.md)
-   + Novo Conjunto de relatórios {#new-report-suite}
-      + [Criar um novo conjunto de relatórios](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [Configurações do novo conjunto de relatórios](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-      + [Configurações não copiadas do conjunto de relatórios de origem](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-   + [Criar um grupo de conjunto de relatórios](c-manage-report-suites/t-create-rs-group.md)
 + Gerenciamento de usuários e produtos (herdado) {#user-product-management}
    + [Gerenciamento de usuários e produtos](user-management2/user-management.md)
    + Migrar usuários para o Adobe Admin Console {#migrate-users}

@@ -3,8 +3,8 @@ description: Saiba como implementar a marcação de vários relatórios a fim de
 title: Implementação de marcação de vários relatórios
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Implementação de marcação de vários relatórios
 
-A [marcação de vários relatórios](/help/admin/c-manage-report-suites/rollup-report-suite.md) permite enviar solicitações de imagem não apenas para um conjunto de relatórios global, mas também para conjuntos de relatórios secundários individuais, de modo que você possa fornecer subconjuntos de dados do conjunto de relatórios global de sua empresa a diferentes usuários finais.
+A [marcação de vários relatórios](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) permite enviar solicitações de imagem não apenas para um conjunto de relatórios global, mas também para conjuntos de relatórios secundários individuais, de modo que você possa fornecer subconjuntos de dados do conjunto de relatórios global de sua empresa a diferentes usuários finais.
 
 Para implementar a marcação de vários relatórios, você deve incluir a ID de conjunto de relatórios (RSID) para o conjunto de relatórios global e também as RSIDs para os conjuntos de relatórios secundários aplicáveis no código de rastreamento de suas páginas da web e aplicativos.
 
