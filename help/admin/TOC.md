@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
+source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 96%
@@ -17,19 +17,19 @@ ht-degree: 96%
 + [Guia de administração do Analytics](home.md)
 + [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
 + Introdução à administração do Analytics {#admin-overview}
-   + [Qual ferramenta do Adobe Analytics devo usar?](admin/get-started/which-analytics-tool.md)
-   + [Comparação e requisitos de produtos do Analytics](admin/get-started/analytics-product-comparison.md)
-   + [Requisitos do sistema](admin/get-started/sys-reqs.md)
+   + [Qual ferramenta do Adobe Analytics devo usar?](get-started/which-analytics-tool.md)
+   + [Comparação e requisitos de produtos do Analytics](get-started/analytics-product-comparison.md)
+   + [Requisitos do sistema](get-started/sys-reqs.md)
    + Configurações da empresa {#company-settings}
-      + [Visão geral das Configurações da empresa](admin/get-started/company/c-company-settings.md)
-      + [Níveis de acesso a recursos](admin/get-started/company/feature-access-levels.md)
-      + [Serviços Web](admin/get-started/company/web-services-admin.md)
-      + [Relatórios do Report Builder](admin/get-started/company/report-builder-reports-admin.md)
-      + [Logon único](admin/get-started/company/single-signon-admin.md)
-      + [Ações pendentes](admin/get-started/company/pending-actions-admin.md)
-      + [Compartilhamento de marcas](admin/get-started/company/co-branding-admin.md)
-      + [Ocultar conjuntos de relatórios](admin/get-started/company/c-hide-report-suites.md)
-      + [Gerenciador de segurança](admin/get-started/company/security-manager.md)
+      + [Visão geral das Configurações da empresa](get-started/company/c-company-settings.md)
+      + [Níveis de acesso a recursos](get-started/company/feature-access-levels.md)
+      + [Serviços Web](get-started/company/web-services-admin.md)
+      + [Relatórios do Report Builder](get-started/company/report-builder-reports-admin.md)
+      + [Logon único](get-started/company/single-signon-admin.md)
+      + [Ações pendentes](get-started/company/pending-actions-admin.md)
+      + [Compartilhamento de marcas](get-started/company/co-branding-admin.md)
+      + [Ocultar conjuntos de relatórios](get-started/company/c-hide-report-suites.md)
+      + [Gerenciador de segurança](get-started/company/security-manager.md)
 + Permissões de usuário no Admin Console do Adobe {#admin-console}
    + [Analytics no Adobe Admin Console](admin-console/home.md)
    + Permissões {#permissions}
