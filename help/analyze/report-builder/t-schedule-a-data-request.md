@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '994'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ Além disso, depois de criar uma programação de pastas de trabalho no Report B
 
 >[!NOTE]
 >
->Você precisa ter o Excel 2007 ou o pacote de compatibilidade instalado para programar um relatório. Você pode ter no máximo 10 pastas de trabalho programadas por licença do Report Builder. No entanto, é possível aumentar esse número ao subtrair de outras licenças. Para fazer isso, vá para **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Company settings]** > **[!UICONTROL Report Builder Reports]**. Uma pasta de trabalho programada (ou carregada na Biblioteca de pastas de trabalho) e que não foi tocada (atualizada, substituída) em mais de 28 meses, será excluída.
+>Você precisa ter o Excel 2007 ou o pacote de compatibilidade instalado para programar um relatório. Você pode ter no máximo 10 pastas de trabalho programadas por licença do Report Builder. No entanto, é possível aumentar esse número ao subtrair de outras licenças. Para fazer isso, acesse **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Relatórios do Report Builder]**. Uma pasta de trabalho programada (ou carregada na Biblioteca de pastas de trabalho) e que não foi tocada (atualizada, substituída) em mais de 28 meses, será excluída.
 
 >[!NOTE]
 >
@@ -73,7 +73,6 @@ Além disso, depois de criar uma programação de pastas de trabalho no Report B
 | Guia **Opções de arquivo** |  |
 | Formato do arquivo | Permite selecionar um formato de entrega do Excel 2007 (.xlsx) ou 2003 (.xls), .pdf, .csv, .mht, .txt e .xml. |
 | Destino do arquivo | Especifica Email ou FTP. As opções na página mudam, dependendo da sua seleção. Para FTP, você precisa garantir que o host esteja disponível externamente. |
-| Lista de Publicação | Se você enviar a pasta de trabalho agendada para várias listas de publicação, a pasta de trabalho será executada uma vez para cada lista. Conjuntos de relatórios variáveis são substituídos pelo conjunto de relatórios atribuído à lista de publicação. |
 | Idioma do conteúdo do arquivo | Especifica o idioma a ser usado na carta de apresentação. Você pode selecionar chinês (simplificado ou tradicional), alemão, francês, japonês, coreano, português brasileiro ou espanhol. |
 | Guia **Opções de publicação** |  |
 | Publicação no Power BI | <ul><li>Publicar pasta de trabalho no Power BI</li><li>Publicar todas as solicitações do Report Builder como conjuntos de dados do Power BI</li><li>Publicar todas as tabelas formatadas como conjuntos de dados do Power BI</li></ul> |

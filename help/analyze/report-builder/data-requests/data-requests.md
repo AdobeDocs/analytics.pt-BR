@@ -4,9 +4,9 @@ title: Solicitação de dados - Etapa 1 do assistente de solicitações
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '364'
 ht-degree: 97%
 
 ---
@@ -24,8 +24,6 @@ No Assistente de solicitações: etapa 1, selecione o conjunto de relatórios, o
 1. **Segmento**: Segmentos são subconjuntos personalizados de dados, ou dados filtrados por regras criadas por você. Segmentos têm por base acessos, visitas e visitantes. Consulte o [Guia de segmentação do Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=pt-BR) para obter mais informações sobre segmentos.
 
    Por exemplo, você pode executar um [!UICONTROL Relatório de páginas] e, em seguida, aplicar um segmento de Visitantes em primeira visita.
-
-1. **Permitir substituições da lista de publicação:** Quando você agenda um relatório, pode escolher uma lista de publicação para usar na distribuição. As listas de publicação são configuradas nas **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas]**. O conjunto de relatórios desta solicitação é substituído pela ID de conjunto de relatórios atribuída a cada destinatário na lista de publicação. Consulte [Permitir substituições da lista de publicação](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md).
 
 1. **Tipo de relatório:** Especifica o relatório básico que você deseja executar em sua solicitação de dados. Você executa um relatório para cada solicitação, que pode ter dimensões e métricas de um para muitos. As métricas e dimensões para um tipo de relatório são exibidas na interface do [!UICONTROL Assistente de solicitações: etapa 2]. Consulte [Selecione Tipos de relatório](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 

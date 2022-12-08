@@ -3,9 +3,9 @@ description: Índice de ferramentas do administrador no Adobe Analytics.
 title: Ferramentas administrativas
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 100%
 + [Visibilidade da métrica](metric-visibility.md)
 + [Gerenciamento móvel](mobile-management.md)
 + [Visão geral da detecção de pesquisa paga](paid-search-detection/paid-search-detection.md)
-+ [Listas de publicação](publishing-list.md)
-+ [Widget de publicação](publishing-widgets-admin.md)
 + [Gerenciador de preferências](preferences-manager.md)
 + [Configurações de privacidade](privacy-settings.md)
 + [Visão geral das regras de processamento](c-processing-rules/processing-rules.md)
@@ -46,7 +44,6 @@ ht-degree: 100%
 + [Relação de relatórios agendados](scheduled-reports-admin.md)
 + [Visão geral do encaminhamento pelo lado do servidor](c-server-side-forwarding/ssf.md)
 + [Menu Relatórios simplificado](t-simplified-menu.md)
-+ [Gerenciamento Social](social-management.md)
 + [Visão geral dos eventos bem-sucedidos](c-success-events/success-event.md)
 + [Carimbos opcionais de data e hora](timestamp-optional.md)
 + [Visão geral da variável de tráfego (prop)](c-traffic-variables/traffic-var.md)

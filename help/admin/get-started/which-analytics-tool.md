@@ -3,9 +3,9 @@ description: Esta página de ajuda contém casos de uso recomendados para cada f
 title: Qual ferramenta do Adobe Analytics devo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1164'
 ht-degree: 97%
 
 ---
@@ -32,7 +32,6 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 * Para configurar Metas.
 * Para visualizar relatórios de Bot.
 * Para acessar visualizações exclusivas de faixa horária de exibição de vídeos e de saída de espectadores de vídeos.
-* Para aproveitar Listas de publicação em relatórios agendados.
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=pt-BR)** deve ser usada:
 
