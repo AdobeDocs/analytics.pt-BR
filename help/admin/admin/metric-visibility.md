@@ -3,7 +3,7 @@ description: Você pode ocultar métricas padrão (incorporadas), eventos person
 title: Visibilidade da métrica
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Você pode ocultar métricas padrão (incorporadas), eventos personalizados e eventos incorporados no Menu, nos Seletores de métricas, no Construtor de métrica calculada e no Construtor de segmentos.
 
-1. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Eventos de sucesso]**. [Mais...](/help/admin/admin/c-success-events/t-success-events.md)
+1. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Eventos de sucesso]**. [Mais...](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
 1. Defina a coluna Visibilidade como **[!UICONTROL Visível em qualquer lugar]**, **[!UICONTROL Construtores]** ou **[!UICONTROL Oculto em todos os lugares]**.
 
 Esta configuração não afeta a coleta de dados da métrica, afeta somente sua visibilidade na interface do usuário. As configurações afetam a visibilidade das métricas na interface do usuário desta forma:

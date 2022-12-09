@@ -4,7 +4,7 @@ description: Variáveis personalizadas vinculadas a produtos individuais.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 98%
@@ -19,7 +19,7 @@ Para ver em detalhes como as eVars de merchandising funcionam, consulte [eVars d
 
 ## Configurar eVars nas configurações do conjunto de relatórios
 
-Antes de usar as eVars em sua implementação, configure-as com a sintaxe desejada nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
+Antes de usar as eVars em sua implementação, configure-as com a sintaxe desejada nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
 
 >[!WARNING]
 >

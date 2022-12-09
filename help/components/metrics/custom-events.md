@@ -3,8 +3,8 @@ title: Eventos personalizados
 description: O número de ocorrências em que um evento personalizado existe.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ As métricas de eventos personalizados mostram o número de ocorrências em que 
 
 ## Como essa métrica é calculada
 
-Os eventos personalizados são calculados de forma diferente dependendo de seu tipo. Você pode verificar o tipo de evento em [Eventos bem-sucedidos](../../admin/admin/c-success-events/success-event.md) nas configurações do conjunto de relatórios.
+Os eventos personalizados são calculados de forma diferente dependendo de seu tipo. Você pode verificar o tipo de evento em [Eventos bem-sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nas configurações do conjunto de relatórios.
 
 * **Eventos contadores**: a configuração padrão do evento. A maioria dos eventos são eventos contadores. Conta o número de ocorrências nas quais o evento personalizado correspondente `event1` - `event1000` existe na variável [`events`](/help/implement/vars/page-vars/events/events-overview.md).
 * **Eventos numéricos**: soma o valor numérico atribuído ao evento na variável `events`.

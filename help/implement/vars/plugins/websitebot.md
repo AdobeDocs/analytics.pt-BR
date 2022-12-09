@@ -3,7 +3,7 @@ title: websiteBot
 description: Identifique os bots dinamicamente usando o movimento do mouse.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 96%
@@ -32,7 +32,7 @@ Se o agente do usuário estiver em um desktop e nenhum movimento do mouse for de
 
 A Adobe recomenda o seguinte antes de usar este plug-in:
 
-* **Definir configurações da eVar**: configure uma eVar em [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md), localizadas nas configurações do conjunto de relatórios. Definir a expiração como **Nunca** ou **Visitar** e a alocação como **&quot;Valor original (primeiro)&quot;**. Esse eVar deverá ser definido em ambas as circunstâncias: quando a regra de chamada direta [!UICONTROL prevalecer] ou quando a chamada `s.tl` for efetuada.
+* **Definir configurações da eVar**: configure uma eVar em [Variáveis de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md), localizadas nas configurações do conjunto de relatórios. Definir a expiração como **Nunca** ou **Visitar** e a alocação como **&quot;Valor original (primeiro)&quot;**. Esse eVar deverá ser definido em ambas as circunstâncias: quando a regra de chamada direta [!UICONTROL prevalecer] ou quando a chamada `s.tl` for efetuada.
 * **Coletar agente do usuário em uma variável separada**: colete a sequência de agente do usuário em uma variável separada para monitorar a eficácia desse plug-in. Configure uma eVar como `navigator.UserAgent` em cada hit para coletar esses dados.
 
 ## Instale o plug-in usando o editor de código personalizado do 

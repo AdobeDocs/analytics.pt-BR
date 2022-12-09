@@ -2,7 +2,7 @@
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -17,7 +17,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Admin Console:** pode se referir a:
    * Ferramentas administrativas herdadas, onde as configurações do conjunto de relatórios no Adobe Analytics são gerenciadas. Em versões anteriores do Adobe Analytics, as permissões de usuário também eram gerenciadas aqui. Consulte [Ferramentas administrativas](/help/admin/admin/c-admin-tools.md) no guia do usuário Administração.
    * O Admin Console da Adobe, onde o acesso ao produto é provisionado e as permissões do usuário são gerenciadas. Consulte [Admin Console](/help/admin/admin-console/home.md) no guia do usuário Administração.
-* **Alocação:** se uma variável de conversão encontrar mais de um valor durante uma visita, a configuração de alocação da variável determinará qual valor será mantido. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no guia do usuário Administração.
+* **Alocação:** se uma variável de conversão encontrar mais de um valor durante uma visita, a configuração de alocação da variável determinará qual valor será mantido. Consulte [Variáveis de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) no guia do usuário Administração.
 * **Analysis Workspace:** solução de navegador para desenvolvimento de projetos de análise avançados e personalizados, bem como para democratização de insights. Oferece mais flexibilidade de relatórios que o Reports and Analytics.
 * **Anomalia:** é detectada com modelagem estatística para que encontre automaticamente tendências inesperadas em seus dados. O modelo analisa métricas e determina um limite inferior, um limite superior e o intervalo esperado de valores. Consulte [Detecção de anomalias](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) no guia do usuário Analisar.
 * **AppMeasurement:** a biblioteca de códigos usada para coletar dados e enviá-los para a Adobe. Consulte a [Página inicial](/help/implement/home.md) do guia do usuário Implementar.
@@ -55,7 +55,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **eVar:** consulte Variável de conversão.
 * **Evento:** consulte Evento bem-sucedido.
 * **ExcelClient:** não é mais usado como termo. O nome do antecessor do Report Builder.
-* **Expiração:** no contexto de uma variável de conversão, quanto tempo o valor persiste no back-end. Essa persistência permite que os eventos sejam associados a valores variáveis antes da ocorrência do evento. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) no guia do usuário Administração.
+* **Expiração:** no contexto de uma variável de conversão, quanto tempo o valor persiste no back-end. Essa persistência permite que os eventos sejam associados a valores variáveis antes da ocorrência do evento. Consulte [Variáveis de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) no guia do usuário Administração.
 * **Fluxo:** um tipo de visualização na Analysis Workspace que mostra os caminhos que os usuários fizeram em seu site. Consulte [Visualização de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) no guia do usuário Analisar.
 * **Genesis:** não é mais usado como termo. Nome antigo dos Data Connectors.
 * **Conjunto de relatórios global:** um termo informal designado para um conjunto de relatórios que coletam ocorrências de vários sites.

@@ -3,10 +3,10 @@ title: events
 description: Defina a variável events, que governa a maioria das métricas do site.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
+source-git-commit: 62f793491d2f95266a71bc217260353f8c040525
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 79%
 
 Dimensões e métricas são componentes vitais para os relatórios. A variável `events` é responsável pela coleta de dados de muitas métricas do site. Eventos normalmente incrementam [métricas](/help/components/metrics/overview.md) em relatórios.
 
-Antes de implementar eventos, você deve criá-los e configurá-los em [Eventos-bem sucedidos](/help/admin/admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios. Se você planeja usar eventos personalizados em ocorrências de rastreamento de link, verifique se [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) estão definidos corretamente.
+Antes de implementar eventos, você deve criá-los e configurá-los em [Eventos-bem sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios. Se você planeja usar eventos personalizados em ocorrências de rastreamento de link, verifique se [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) estão definidos corretamente.
 
 ## Eventos que usam o SDK da Web
 
@@ -41,7 +41,7 @@ Os eventos personalizados são [mapeado para Adobe Analytics](https://experience
 
 Você pode definir eventos ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
@@ -100,7 +100,7 @@ s.events = "event1=2,event2";
 
 Você pode alterar um evento personalizado para usar moeda em vez de números inteiros. Os eventos de moeda são convertidos automaticamente para a moeda do conjunto de relatórios se ela e a variável `currencyCode` não coincidirem. Eles são úteis para ajudar a calcular custos de envio, descontos ou reembolsos. Você pode definir eventos de moeda na variável `products` se quiser atribuir o evento somente a esse produto.
 
-Antes de implementar eventos de moeda, defina o evento desejado como “Moeda” em [Eventos bem-sucedidos](/help/admin/admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios.
+Antes de implementar eventos de moeda, defina o evento desejado como “Moeda” em [Eventos bem-sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -121,7 +121,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 É possível alterar um evento personalizado para aceitar valores decimais em vez de números inteiros. Os eventos numéricos se comportam de forma semelhante aos eventos de moeda, exceto por não usarem a conversão de moeda. Você pode definir eventos numéricos na variável `products` se quiser atribuir o evento somente a esse produto.
 
-Antes de implementar eventos numéricos, defina o evento desejado como “Numérico” em [Eventos bem-sucedidos](/help/admin/admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios.
+Antes de implementar eventos numéricos, defina o evento desejado como “Numérico” em [Eventos bem-sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings

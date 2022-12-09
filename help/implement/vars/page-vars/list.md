@@ -3,8 +3,8 @@ title: listar
 description: Variáveis personalizadas que contêm vários valores na mesma ocorrência.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 
@@ -22,11 +22,11 @@ Registre a maneira como você usa cada variável de lista e a sua lógica no [do
 
 ## Configurar variáveis de lista nas configurações do conjunto de relatórios
 
-Certifique-se de configurar cada variável de lista nas configurações do conjunto de relatórios antes de usá-las na implementação. Consulte [Variáveis de conversão](/help/admin/admin/conversion-var-admin/list-var-admin.md) no Guia de administração. Esta etapa se aplica a todos os métodos de implementação.
+Certifique-se de configurar cada variável de lista nas configurações do conjunto de relatórios antes de usá-las na implementação. Consulte [Variáveis de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) no Guia de administração. Esta etapa se aplica a todos os métodos de implementação.
 
 ## Variáveis de lista usando o SDK da Web
 
-As variáveis de lista são [mapeadas para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) nos campos XDM `_experience.analytics.customDimensions.lists.list1.list[]` a `_experience.analytics.customDimensions.lists.list3.list[]`. Cada elemento de matriz contém um objeto `"value"` que contém cada string. Não há necessidade de fornecer um delimitador; um é incluído automaticamente usando o valor especificado nas [configurações do conjunto de relatórios](/help/admin/admin/conversion-var-admin/list-var-admin.md). Por exemplo, se uma vírgula (“`,`”) estiver configurada como delimitador para a variável de lista 1, o seguinte objeto XDM preencherá a variável `list1` com `"Example value 1,Example value 2,Example value 3"`.
+As variáveis de lista são [mapeadas para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) nos campos XDM `_experience.analytics.customDimensions.lists.list1.list[]` a `_experience.analytics.customDimensions.lists.list3.list[]`. Cada elemento de matriz contém um objeto `"value"` que contém cada string. Não há necessidade de fornecer um delimitador; um é incluído automaticamente usando o valor especificado nas [configurações do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Por exemplo, se uma vírgula (“`,`”) estiver configurada como delimitador para a variável de lista 1, o seguinte objeto XDM preencherá a variável `list1` com `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -64,7 +64,7 @@ Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa vari
 
 ## s.list1 - s.list3 no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-Cada variável de lista é uma string que contém valores personalizados específicos para sua organização. Elas não têm uma contagem máxima de bytes; no entanto, cada valor individual tem no máximo 255 bytes. O delimitador usado é determinado ao configurar a variável nas [configurações do conjunto de relatórios](/help/admin/admin/conversion-var-admin/list-var-admin.md). Não use espaços ao delimitar vários itens.
+Cada variável de lista é uma string que contém valores personalizados específicos para sua organização. Elas não têm uma contagem máxima de bytes; no entanto, cada valor individual tem no máximo 255 bytes. O delimitador usado é determinado ao configurar a variável nas [configurações do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Não use espaços ao delimitar vários itens.
 
 ```js
 // A list variable configured with a comma as a delimiter
