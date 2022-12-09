@@ -4,8 +4,8 @@ description: Lista dimensões de entrada e seu uso.
 keywords: página de entrada, seção de entrada no site, servidor de entrada, insight personalizado de entrada
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 *Esta página de ajuda descreve como as entradas funcionam como uma dimensão. Para obter informações sobre como as entradas funcionam como uma métrica, consulte a [métrica Entradas](../metrics/entries.md).*
 
-As dimensões de entrada se baseiam em visitas. Elas registram o primeiro item de dimensão e o mantêm por toda a duração dessa visita. As dimensões de entrada estão disponíveis para todas as variáveis com definição de caminho ativada em [Variáveis de tráfego](/help/admin/admin/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios.
+As dimensões de entrada se baseiam em visitas. Elas registram o primeiro item de dimensão e o mantêm por toda a duração dessa visita. As dimensões de entrada estão disponíveis para todas as variáveis com definição de caminho ativada em [Variáveis de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios.
 
 ## Preencher dimensões de entrada com dados
 

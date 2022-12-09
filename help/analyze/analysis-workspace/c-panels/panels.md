@@ -4,10 +4,10 @@ title: Visão geral dos painéis
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '1098'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Os seguintes tipos de painel estão disponíveis no Analysis Workspace:
 | [Painel do Analytics for Target](a4t-panel.md) | Analisar atividades e experiências do Target no Analysis Workspace. |
 | [Painel de atribuição](attribution.md) | Compare e visualize modelos de atribuição rapidamente usando qualquer dimensão e métrica de conversão. |
 | [Painel de forma livre](freeform-panel.md) | Realize comparações e detalhamentos ilimitados e, em seguida, adicione visualizações para obter uma visão ampla dos dados. |
-| [Painel Audiência média por minuto de mídia](average-minute-audience-panel.md) | Analise o público-alvo médio de minutos ao longo do tempo, com detalhes sobre o pico de exibições e a capacidade de detalhar e comparar. |
+| [Painel Público-alvo médio por minuto de mídia](average-minute-audience-panel.md) | Analise o público-alvo médio de minutos ao longo do tempo, com detalhes sobre o pico de exibições e a capacidade de detalhar e comparar. |
 | [Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md) | Analise os visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de analisar e comparar. |
 | [Painel Tempo gasto com a reprodução de mídia](media-playback-timespent/media-playback-time-spent.md) | Analise os visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de analisar e comparar. |
 | [Painel de comparação de segmentos](c-segment-comparison/segment-comparison.md) | Compare rapidamente dois segmentos em todos os pontos de dados para encontrar automaticamente diferenças relevantes. |
@@ -64,7 +64,7 @@ A área de arrastar e soltar do painel permite aplicar filtros de segmento e de 
 
 Arraste e solte qualquer segmento do painel esquerdo na área suspensa do painel para começar a filtrar o painel.
 
-![](assets/segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Filtros de segmento ad hoc
 
@@ -72,7 +72,7 @@ Componentes não segmentados também podem ser arrastados diretamente para a ár
 
 Segmentos ad hoc são locais para o projeto e não são exibidos no painel esquerdo, a menos que você os torne públicos.
 
-![](assets/adhoc-segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Filtros suspensos {#dropdown-filter}
 

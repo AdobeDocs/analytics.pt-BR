@@ -4,8 +4,8 @@ title: Guia executivo de painéis do Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Para usar painéis:
 
    ![Sequência de logon](assets/signseq.png)
 
-1. Escolha uma empresa. Depois de fazer logon nos painéis, a tela **[!UICONTROL Escolher uma empresa]** é exibida. Esta tela lista as empresas de logon às quais você pertence. Toque no nome da empresa associado ao Scorecard compartilhado com você.
+1. Escolha uma empresa. Efetuado o logon nos painéis, a tela **[!UICONTROL Escolha uma empresa]** é exibida. Esta tela lista as empresas de logon às quais você pertence. Toque no nome da empresa associado ao Scorecard compartilhado com você.
 
 1. A lista Scorecard mostra todos os Scorecards que foram compartilhados com você. Toque no Scorecard que deseja exibir.
 
@@ -78,8 +78,8 @@ Para usar painéis:
    * A granularidade dos minigráficos depende da duração do intervalo de datas:
 
       * Um dia mostra uma tendência horária
-      * Mais de um dia e menos de um ano mostra uma tendência diária
-      * Um ano ou mais mostra uma tendência semanal
+      * Mais de um dia e menos de um ano mostra uma tendência diária.
+      * Um ano ou mais mostra uma tendência semanal.
    * A fórmula de alteração do valor percentual é o total da métrica (intervalo de datas atual) - total da métrica (intervalo de datas de comparação) / total da métrica (intervalo de datas de comparação).
 
    * Você pode puxar a tela para baixo para atualizar o Scorecard.
@@ -103,7 +103,7 @@ Para usar painéis:
 
 1. Para aplicar um filtro de segmento ao Scorecard, toque na lista suspensa de filtros e selecione um segmento que foi configurado pelo curador. [Os Filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR) no aplicativo funcionam da mesma forma que no Analytics Workspace.
 
-   ![Filtro de segmentos](assets/segment_filter.png)
+   ![Filtro de segmentos](/help/admin/admin/assets/filter.png)
 
 1. Obter atualizações do Scorecard. Se um Scorecard não incluir todas as métricas ou detalhamentos em que você possa estar interessado, entre em contato com a equipe do Analytics para atualizar o Scorecard. Depois da atualização, puxe o cartão para baixo na tela para atualizá-lo e carregar os dados adicionados recentemente.
 

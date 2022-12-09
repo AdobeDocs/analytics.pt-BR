@@ -5,9 +5,9 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ O formulário de filtro selecionado agora é preenchido com base no elemento e n
 
 Informações sobre filtros no painel **[!UICONTROL Filtro mais popular]** > **[!UICONTROL Definir filtro]**.
 
-![](assets/define_filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 As seguintes tabelas fornecem exemplos e informações sobre filtros:
 
@@ -88,7 +88,7 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
    <td colname="col1"> <p>Termina com </p> </td> 
    <td colname="col02"> <p>Retorna os resultados que terminam com um valor específico. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Corresponde a <span class="term"> wxyz</span> mas não a <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> wxyz</span> mas não <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avançado (caracteres especiais) </p> </td> 

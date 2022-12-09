@@ -3,7 +3,7 @@ description: Habilite as dimensões do Gerenciamento de consentimento.
 title: Relatórios de privacidade
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 6ce83892cc3b3dd6ee818b6d00e764e892060a1b
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 14%
@@ -19,7 +19,7 @@ Para acessar esta página:
 1. Faça logon no Adobe Analytics e navegue até **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um ou mais report suites desejados e, em seguida, selecione **[!UICONTROL Editar configurações]** > **[!UICONTROL Gerenciamento de privacidade]** > **[!UICONTROL Relatórios de privacidade]**.
 
-   ![Editar configurações](assets/rsm-privacy-select.png)
+   ![Editar configurações](/help/admin/admin/assets/rsm-privacy-select.png)
 
 1. Clique no botão **[!UICONTROL Ativar relatórios de privacidade de dados]**.
 
@@ -27,8 +27,8 @@ Para acessar esta página:
    >
    >Após ativadas, essas variáveis não podem ser desativadas.
 
-   ![Ativar](assets/rsm-privacy-enable.png)
+   ![Ativar](/help/admin/admin/assets/rsm-privacy-enable.png)
 
 1. Depois de habilitada, uma mensagem de confirmação é exibida. As dimensões estão disponíveis em relatórios.
 
-   ![Relatório](assets/consent-management.png)
+   ![Relatório](/help/admin/admin/assets/consent-management.png)

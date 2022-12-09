@@ -3,8 +3,8 @@ description: Segmentos sequenciais são criados por meio do operador THEN, em ve
 title: Construir segmentos sequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '3827'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Veja um vídeo sobre segmentação sequencial:
 
 Ao criar o segmento usando a definição &quot;Incluir todos&quot;, o segmento identifica caminhos que correspondem ao padrão como um todo. Veja abaixo um exemplo de um segmento de sequência básico procurando por uma ocorrência (Página A) seguido por outro (Página B) acessado pelo mesmo visitante. O segmento está definido como Incluir todos.
 
-![](assets/sequence-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 | Se o resultado for... | Sequência |
 |--- |--- |

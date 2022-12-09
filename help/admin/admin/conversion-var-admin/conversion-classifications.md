@@ -3,7 +3,7 @@ description: Classificações são usadas para categorizar valores em grupos e r
 title: Classificações de conversão
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 0ec9d6fd44f1f6eb565f8602cc5a2d449556d0ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Etapas que descrevem como adicionar classificações de conversão na Administra
 1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Classificações de conversão]**.
 1. Na lista suspensa **[!UICONTROL Selecionar tipo de classificação]**, selecione a variável à qual deseja adicionar uma classificação.
 
-   ![Informações da etapa](../assets/sub_class_create.png)
+   ![Informações da etapa](/help/admin/admin/assets/sub_class_create.png)
 
 1. Passe o mouse sobre o ícone **[!UICONTROL Editar classificação]**, em seguida **[!UICONTROL Adicionar classificação]**.
 1. No campo **[!UICONTROL Selecionar tipo]**, selecione o tipo de classificação que deseja adicionar à variável.

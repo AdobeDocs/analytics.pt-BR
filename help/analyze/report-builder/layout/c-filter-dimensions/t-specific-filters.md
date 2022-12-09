@@ -5,9 +5,9 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 91%
 
 ---
@@ -22,7 +22,7 @@ Você pode pesquisar por itens de dimensão específicos criando um filtro que c
 
 1. Crie ou edite uma solicitação e então acesse o [!UICONTROL Assistente de solicitações: etapa 2].
 
-   ![Resultado da etapa](assets/dimension_filter.png)
+   ![Resultado da etapa](/help/admin/admin/assets/filter.png)
 
 1. No [!UICONTROL Assistente de solicitações: etapa 2], clique no link ao lado da dimensão na grade e, em seguida, escolha **[!UICONTROL Filtro]**.
 
@@ -36,6 +36,6 @@ Você pode pesquisar por itens de dimensão específicos criando um filtro que c
    * **A partir da lista:** Permite selecionar dados de uma lista à qual você pode adicionar dados.
 1. Se você habilitar **[!UICONTROL A partir da lista]**, selecione quaisquer itens listados disponíveis ou clique em **[!UICONTROL Adicionar]**.
 
-   Quando você clica em **[!UICONTROL Adicionar]**, o formulário [!UICONTROL Selecionar da lista] exibe uma lista de itens de dimensão disponíveis para o intervalo de datas da solicitação atual, limitado aos primeiros 10.000 itens. Você pode pesquisar nesses itens ou clicar em **[!UICONTROL Mais...]** para exibir o [!UICONTROL Formulário Pesquisar], que permite criar uma pesquisa mais detalhada das dimensões.
+   Ao clicar em **[!UICONTROL Adicionar]**, o [!UICONTROL Selecionar da lista] O formulário exibe uma lista de itens de dimensão disponíveis para o intervalo de datas da solicitação atual, limitado aos primeiros 10.000 itens. Você pode pesquisar nesses itens ou clicar em **[!UICONTROL Mais...]** para exibir o [!UICONTROL Formulário Pesquisar], que permite criar uma pesquisa mais detalhada das dimensões.
 1. Em [!UICONTROL Selecionar da lista], clique em **[!UICONTROL OK]**.
 1. No formulário [!UICONTROL Escolher página], salve seu filtro Específico se desejar e, em seguida, clique em **[!UICONTROL OK]**.

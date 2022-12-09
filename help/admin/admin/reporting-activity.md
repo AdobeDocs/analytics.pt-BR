@@ -4,7 +4,7 @@ title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 94%
@@ -33,13 +33,13 @@ No Adobe Analytics, os administradores acessam **[!UICONTROL Administrador]** > 
 
 Você precisa da permissão Administrador de produto do Analytics (no Adobe Admin Console) para gerenciar a atividade de relatórios.
 
-![permissão](assets/rep-mgr-permission.png)
+![permissão](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## Exibir a fila de relatórios
 
 Ao abrir a página de visão geral do [!UICONTROL Gerente de atividades de relatórios], você verá uma lista dos seus conjuntos de relatórios base ativados.
 
-![fila de relatórios](assets/reporting-activity1.png)
+![fila de relatórios](/help/admin/admin/assets/reporting-activity1.png)
 
 | Elemento da interface | Descrição |
 | --- | --- |
@@ -62,7 +62,7 @@ Ao abrir a página de visão geral do [!UICONTROL Gerente de atividades de relat
 
 Clique no link de título de um conjunto de relatórios para o qual deseja exibir detalhes.
 
-![conjunto de relatórios](assets/indiv-report-ste.png)
+![conjunto de relatórios](/help/admin/admin/assets/indiv-report-ste.png)
 
 ### Gráfico de linhas
 
@@ -72,17 +72,17 @@ O gráfico de linhas mostra a atividade de relatório do conjunto de relatórios
 * O eixo y mostra o tempo médio de espera de uma consulta, em segundos.
 * Você pode passar o mouse sobre o gráfico de linhas para visualizar os pontos no tempo e o tempo médio de espera nesse instante.
 
-   ![detalhe](assets/detail.png)
+   ![detalhe](/help/admin/admin/assets/detail.png)
 
 ### Filtro
 
 Você pode filtrar a tabela por Aplicativo (consulte a lista na tabela abaixo), por Usuário e por Projeto.
 
-![filtro](assets/filter.png)
+![filtro](/help/admin/admin/assets/filter.png)
 
 ### Números de resumo
 
-![filtro](assets/summary_numbers.png)
+![filtro](/help/admin/admin/assets/summary_numbers.png)
 
 Os Números do resumo mostram as seguintes informações:
 
@@ -127,11 +127,11 @@ Para cancelar uma solicitação
 1. Na janela **[!UICONTROL Cancelar consulta x]** que for exibida, você poderá modificar a mensagem de cancelamento, se necessário.
 1. Clique em **[!UICONTROL Continuar]**.
 
-   ![cancel-query](assets/cancel-query.png)
+   ![cancel-query](/help/admin/admin/assets/cancel-query.png)
 
 Os usuários do aplicativo no Espaço de trabalho, por exemplo, verão o seguinte aviso aparecer em seus projetos:
 
-![cancel-user-notice](assets/cancel-user-facing.png)
+![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
 ## Perguntas frequentes
 

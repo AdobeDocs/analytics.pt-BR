@@ -4,7 +4,7 @@ description: As dimensões e métricas que o Reports & Analytics usa para cada r
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -115,7 +115,7 @@ Contém relatórios que permitem visualizar os dados de definição de caminho p
 
 >[!NOTE]
 >
->Outros relatórios podem aparecer nesta pasta. São outras dimensões, como props, nas quais a [definição de caminho está ativada](../../admin/admin/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios.
+>Outros relatórios podem aparecer nesta pasta. São outras dimensões, como props, nas quais a [definição de caminho está ativada](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios.
 
 ## Fontes de tráfego
 

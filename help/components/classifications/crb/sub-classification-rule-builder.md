@@ -3,7 +3,7 @@ description: Não é possível combinar o Construtor de regras de classificaçã
 title: Subclassificações e o Construtor de regras
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    Exemplo:
 
-   ![Informações da etapa](assets/sub_class_create.png)
+   ![Informações da etapa](/help/admin/admin/assets/sub_class_create.png)
 
 1. No [Construtor de regras de classificações](/help/components/classifications/crb/classification-rule-builder.md), classifique a chave de subclassificação do código de rastreamento original.
 
@@ -67,8 +67,8 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    | Chave | Canal | Código de campanha ampla | Código de campanha&amp;Hat;Tipo de campanha | Código de campanha&amp;Hat;Diretor de campanha | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | Marca | Suzanne |  |
-   | * |  | 222 | Marca | Frank |  |
+   | &#42; |  | 111 | Marca | Suzanne |  |
+   | &#42; |  | 222 | Marca | Frank |  |
 
 1. Para manter as tabelas de pesquisa, carregue um pequeno arquivo (como mostrado acima).
 

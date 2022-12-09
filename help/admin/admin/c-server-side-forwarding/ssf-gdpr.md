@@ -3,7 +3,7 @@ description: Explica melhorias no encaminhamento pelo lado do servidor que foram
 title: Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 80%
@@ -38,7 +38,7 @@ Use o Adobe Analytics para criar relatórios sobre qual porção de seu tráfego
 Para configurar esse tipo de relatório, mapeie a nova variável de contexto para uma variável personalizada de tráfego (prop) por meio de regras de processamento. Para fazer isso
 
 1. Implemente a variável &quot;cm.ssf&quot; (conforme mostrado acima.)
-1. [Habilite a prop.](/help/admin/admin/c-traffic-variables/traffic-var.md)
+1. [Habilite a prop.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 1. Use regras de processamento para mapear a variável de contexto para a prop.
 
    1. Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** e, em seguida, selecione um conjunto de relatórios.
