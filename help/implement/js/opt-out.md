@@ -3,10 +3,10 @@ title: Links para opção de não participação
 description: Saiba como criar e implementar links para opção de não participação para visitantes do site.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -22,14 +22,14 @@ Quando um visitante atinge um URL de opção de não participação, ele é soli
 
 >[!TIP]
 >
->A Adobe também oferece configurações de privacidade por conjunto de relatórios. Consulte [Configurações de privacidade](../../admin/admin/privacy-settings.md) no guia do usuário Administração.
+>A Adobe também oferece configurações de privacidade por conjunto de relatórios. Consulte [Configurações de privacidade](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md) no guia do usuário Administração.
 
 ## URL de não participação
 
 A página de opção de não participação da organização depende do valor da variável [`trackingServer`](../vars/config-vars/trackingserver.md) na implementação.
 
 * Na extensão do Analytics:
-   1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+   1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
    1. Clique na propriedade de tag desejada.
    1. Clique na guia [!UICONTROL Extensões] e, em seguida, clique em [!UICONTROL Configurar] no Adobe Analytics.
    1. Clique na opção [!UICONTROL Geral] e observe o valor do [!UICONTROL Servidor de rastreamento].

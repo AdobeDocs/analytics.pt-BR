@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre segmentação.
 title: Perguntas frequentes sobre segmentação
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2082'
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ no painel de navegação esquerdo e no painel de segmentos.
 
 O menu suspenso do conjunto de relatórios foi movido para o lado do seletor de datas, no canto superior direito de cada relatório ou painel.
 
-![Seletor de conjunto de relatórios](assets/report_suite_selector.png)
+![Seletor de conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
 ## Permissões {#section_648DFA3A882146C485A84ED014EEC707}
 

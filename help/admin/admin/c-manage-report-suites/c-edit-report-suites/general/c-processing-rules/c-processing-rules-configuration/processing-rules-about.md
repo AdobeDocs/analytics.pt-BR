@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Como as regras de processamento funcionam
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
@@ -39,7 +39,7 @@ A tabela a seguir contém os principais conceitos de que você precisa compreend
   </tr> 
   <tr> 
    <td colname="col1"> <p>Depois de salvas, as regras de processamento são aplicadas imediatamente ao conjunto de relatórios. </p> </td> 
-   <td colname="col2"> <p>As alterações das regras de processamento devem estar visíveis no conjunto de relatórios minutos após terem sido salvas. Ao testar as regras de processamento, recomendamos configurar <a href="/help/admin/admin/realtime/t-realtime-admin.md"> Relatórios em tempo real</a> no conjunto de relatórios de teste, para que você possa visualizar rapidamente os resultados de uma regra de processamento. </p> </td> 
+   <td colname="col2"> <p>As alterações das regras de processamento devem estar visíveis no conjunto de relatórios minutos após terem sido salvas. Ao testar as regras de processamento, recomendamos configurar <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> Relatórios em tempo real</a> no conjunto de relatórios de teste, para que você possa visualizar rapidamente os resultados de uma regra de processamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras de processamento são o único modo de acessar variáveis de dados de contexto. </p> </td> 

@@ -1,14 +1,13 @@
 ---
 title: Solução de problemas de picos e quedas nos dados
 description: Saiba mais sobre as possíveis razões pelas quais você pode ver aumentos ou reduções drásticas nos relatórios de tendências.
-translation-type: ht
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
+exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 
 ---
-
 
 # Solução de problemas de picos e quedas nos dados
 
@@ -46,7 +45,7 @@ Os picos de tráfego são classificados em duas seções: quase o dobro dos dado
 
 ### Outras possíveis causas do aumento do tráfego
 
-* **Aranhas ou bots**: se você observar um aumento súbito no tráfego, a primeira coisa a procurar é a possibilidade de uma aranha ou bot. A identificação de bots pode, às vezes, ser complicada, já que cada um tem sua própria maneira de executar o código em seu site. Crie um relatório do Data Warehouse usando IP como uma dimensão para ver quais endereços causam mais tráfego. Em seguida, você pode usar as [Regras de bot](/help/admin/admin/bot-removal/bot-rules.md) ou uma regra VISTA para eliminar o tráfego de bot nos próximos relatórios.
+* **Aranhas ou bots**: se você observar um aumento súbito no tráfego, a primeira coisa a procurar é a possibilidade de uma aranha ou bot. A identificação de bots pode, às vezes, ser complicada, já que cada um tem sua própria maneira de executar o código em seu site. Crie um relatório do Data Warehouse usando IP como uma dimensão para ver quais endereços causam mais tráfego. Em seguida, você pode usar as [Regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) ou uma regra VISTA para eliminar o tráfego de bot nos próximos relatórios.
 * **Campanhas lançadas**: as iniciativas de marketing, como campanhas por email ou otimização de mecanismo de pesquisa, podem causar um pico de tráfego no site. Analise a dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md) para pesquisar mais detalhadamente. Ela também pode ajudar a entrar em contato com sua equipe de marketing para garantir que o pico seja intencional.
 * **Causas ambientais ou circunstanciais**: se um feriado ou evento circunstancial ocorrer (um evento importante em que seu site é um recurso conhecido ou iniciativas residuais de marketing de outras organizações), o tráfego poderá aumentar no site. A solução de problemas da causa exata é difícil, pois há um número quase ilimitado de razões circunstanciais para o aumento do tráfego. Essas causas, no entanto, são algumas das mais importantes para determinar, de modo que sua organização possa se beneficiar delas e tomar decisões de negócios de acordo. Analisar a tendência da dimensão [Página](/help/components/dimensions/page.md) ou [Referenciador](/help/components/dimensions/referrer.md) é provavelmente a melhor maneira de começar a determinar a fonte do tráfego.
 

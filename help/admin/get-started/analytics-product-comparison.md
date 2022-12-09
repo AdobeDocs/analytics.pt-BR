@@ -3,7 +3,7 @@ description: Requisitos de sistema e comparação da Analysis Workspace, Reports
 title: Comparação e requisitos de produtos do Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 94%
@@ -22,8 +22,8 @@ Para obter informações sobre qual produto Adobe Analytics usar, consulte [Qual
 | **Granularidade de dados** | Agregado | Agregado | Agregado | Agregado | Ocorrência | Ocorrência | Agregado |
 | **Experience Cloud ID (ECID) disponível** | Não | Não | Não | Sim | Sim | Sim | Não |
 | **Carimbo de data e hora disponível** | Não | Não | Não | Não | Sim | Sim | Não |
-| **Nível de processamento** | Totalmente processado | Totalmente processado, com [relatório em tempo real](/help/components/c-real-time-reporting/realtime.md) separado | Totalmente processado, com [relatório em tempo real](/help/components/c-real-time-reporting/realtime.md) separado | Totalmente processado | Totalmente processado | Totalmente processado | Totalmente processado |
-| **Inclusão dos dados do filtro de bot do administrador** <br> [Saiba mais](/help/admin/admin/bot-removal/bot-removal.md) | Não | Sim - relatório de bot separado | Sim - relatório de bot separado | Não | Não | Não | Não |
+| **Nível de processamento** | Totalmente processado | Totalmente processado, com [relatório em tempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) separado | Totalmente processado, com [relatório em tempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) separado | Totalmente processado | Totalmente processado | Totalmente processado | Totalmente processado |
+| **Inclusão dos dados do filtro de bot do administrador** <br> [Saiba mais](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | Não | Sim - relatório de bot separado | Sim - relatório de bot separado | Não | Não | Não | Não |
 | **Baixo tráfego (únicos excedidos) aparece** <br> [Saiba mais](/help/technotes/low-traffic.md) | Sim | Sim | Sim | Não | Não | Não | Sim |
 | **Limite de linha visível (antes da paginação)** | 400 | 200 | 50000 | Ilimitado | Ilimitado | Ilimitado | 50000 |
 | **Vários conjuntos de relatórios** | [Sim](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sim, com limitações | Sim | Não | Sim | Não | Sim |

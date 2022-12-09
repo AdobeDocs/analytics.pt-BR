@@ -4,7 +4,7 @@ keywords: ausência de dados;lento
 title: Disponibilidade e latência de dados
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Há várias estratégias para impedir a latência ou reduzir o tempo de recupera
    * Mais de 20 valores nos produtos disponíveis
    * Serialização de eventos
 
-* Ativar a Filtragem de bot IAB: a [Filtragem de bot](/help/admin/admin/bot-removal/bot-removal.md) pode reduzir bastante a latência se o conjunto de relatórios for frequentado por bots ou crawlers. É recomendado usar a lista de bot IAB, já que é atualizada e mantida pelo [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Um usuário pode personalizar suas próprias regras de bot para complementar as da IAB.
+* Ativar a Filtragem de bot IAB: a [Filtragem de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) pode reduzir bastante a latência se o conjunto de relatórios for frequentado por bots ou crawlers. É recomendado usar a lista de bot IAB, já que é atualizada e mantida pelo [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Um usuário pode personalizar suas próprias regras de bot para complementar as da IAB.
 
 ## Como lidar com a latência
 

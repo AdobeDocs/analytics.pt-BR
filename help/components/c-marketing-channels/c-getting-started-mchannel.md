@@ -3,7 +3,7 @@ title: Introdução aos Canais de marketing
 description: Saiba mais sobre o fluxo de trabalho de Canais de marketing, a configuração automática e como aplicar configurações de conjunto de relatórios de modelo a vários conjuntos de relatórios.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Os Canais de marketing giram em torno de métricas de Primeiro e último toque, 
 
 ## Fluxo de trabalho de Canais de marketing
 
-![](assets/step1_icon.png) Definir cada canal com base nos requisitos da empresa.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Definir cada canal com base nos requisitos da empresa.
 
 Definir os canais que você usa é um dos componentes mais importantes dos Canais de marketing. Definir os canais pode exigir colaboração entre vários indivíduos em sua organização. Veja algumas questões a levar em conta:
 
@@ -35,7 +35,7 @@ Definir os canais que você usa é um dos componentes mais importantes dos Canai
 
 Há uma lista de canais recomendados em [Perguntas mais frequentes e exemplos](/help/components/c-marketing-channels/c-faq.md). Crie uma lista de canais que deseja usar para facilitar a ativação e definição dos canais durante sua criação.
 
-![](assets/step2_icon.png) Adicione canais de marketing na página [!UICONTROL Gerenciador de canal de marketing].
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) Adicione canais de marketing na página [!UICONTROL Gerenciador de canal de marketing].
 
 Após definir quais canais serão monitorados, ative-os em **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**.
 
@@ -47,7 +47,7 @@ Consulte [Adicionar canais de marketing](/help/components/c-marketing-channels/c
 >
 >Se os Canais de marketing não tiverem sido configurados anteriormente, a [configuração automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md) será exibida. Essa configuração fornece vários canais pré-configurados que podem ser personalizados. A Adobe recomenda que você use essas regras como um modelo. Contudo, se você já tiver definições sólidas de canal, poderá pular a configuração automática.
 
-![](assets/step3_icon.png) Configure e refine todas as regras de canais na página [!UICONTROL Regras de processamento de Canal de marketing].
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Configure e refine todas as regras de canais na página [!UICONTROL Regras de processamento de Canal de marketing].
 
 Após criar os canais na página [!UICONTROL Gerenciador de Canal de marketing], configure as regras para que os canais possam recuperar e relatar dados.
 

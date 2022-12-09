@@ -1,8 +1,8 @@
 ---
 description: Etapas administrativas para configurar relatórios em tempo real.
-title: Configurar relatórios em tempo real
+title: Configuração de relatórios em tempo real
 feature: Real-time
-exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '298'
@@ -10,11 +10,11 @@ ht-degree: 100%
 
 ---
 
-# Configurar relatórios em tempo real
+# Configuração de relatórios em tempo real
 
 Etapas administrativas para configurar relatórios em tempo real.
 
-Configurar relatórios em tempo real no [!UICONTROL Reports &amp; Analytics] consiste em selecionar o conjunto de relatórios e configurar até três relatórios para ele.
+Configurar relatórios em tempo real dentro de Reports &amp; Analytics consiste em selecionar o conjunto de relatórios e configurar até três relatórios para ele.
 
 1. Selecione o conjunto de relatórios para o qual você deseja ativar os relatórios em tempo real.
 
@@ -33,13 +33,13 @@ Configurar relatórios em tempo real no [!UICONTROL Reports &amp; Analytics] con
 1. Ative a configuração **[!UICONTROL Ativar tempo real]**.
 1. Configure a coleção de dados em tempo real para até três relatórios, com uma métrica e três dimensões ou classificações por relatório.
 
-   ![](assets/real_time_admin.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
    Para obter informações sobre métricas e dimensões em tempo real compatíveis, consulte [Métricas e dimensões compatíveis](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Caso tenha criado classificações, elas serão exibidas recuadas abaixo da dimensão para a qual foram definidas:
 
-   ![](assets/classifications.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
    >[!NOTE]
    >

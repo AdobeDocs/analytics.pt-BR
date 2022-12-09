@@ -4,7 +4,7 @@ keywords: Conjunto de relatórios virtual, VRS
 title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Os Conjuntos de relatórios virtuais (VRS) permitem exibir dados de um conjunto de relatórios que está coletando dados de suas propriedades digitais, mas com um segmento aplicado permanentemente.
 
-Em muitos casos, você pode usar conjuntos de relatórios virtuais para substituir a marcação de vários conjuntos. Alternar para conjuntos de relatórios virtuais pode efetivamente remover a necessidade de [chamadas de servidor secundárias](/help/admin/c-server-call-usage/overage-overview.md). Por exemplo, sua organização tem 6 sites diferentes, cada um enviando dados para seu próprio conjunto de relatórios, bem como um conjunto de relatórios global combinado. Cada site recebe uma chamada de servidor secundária; um para o conjunto de relatórios de marca individual e um segundo para o conjunto de relatórios global. Em vez disso, você pode enviar dados de todos os sites exclusivamente para o conjunto de relatórios global e, em seguida, usar vários conjuntos de relatórios virtuais para separar cada marca.
+Em muitos casos, você pode usar conjuntos de relatórios virtuais para substituir a marcação de vários conjuntos. Alternar para conjuntos de relatórios virtuais pode efetivamente remover a necessidade de [chamadas de servidor secundárias](/help/admin/admin/c-server-call-usage/overage-overview.md). Por exemplo, sua organização tem 6 sites diferentes, cada um enviando dados para seu próprio conjunto de relatórios, bem como um conjunto de relatórios global combinado. Cada site recebe uma chamada de servidor secundária; um para o conjunto de relatórios de marca individual e um segundo para o conjunto de relatórios global. Em vez disso, você pode enviar dados de todos os sites exclusivamente para o conjunto de relatórios global e, em seguida, usar vários conjuntos de relatórios virtuais para separar cada marca.
 
 Substituir a marcação de vários conjuntos pelo conjunto de relatórios global e os VRS permite simplificar sua implementação do Adobe Analytics e reduzir o consumo de chamada do servidor, o que é uma prática recomendada. No entanto, há algumas limitações importantes do VRS a serem consideradas. As orientações a seguir podem ajudá-lo a decidir se a melhor opção para você é implementar os conjuntos de relatórios virtuais integrados em um conjunto de relatórios global.
 
@@ -35,7 +35,7 @@ Os segmentos ainda não podem ser publicados na Adobe Experience Cloud a partir 
 
 Os relatórios em tempo real não são suportados nos conjuntos de relatórios virtuais, pois os dados são segmentados. Dados atuais não é compatível com os conjuntos de relatórios virtuais, pois eles não suportam segmentação. Ambos os recursos são específicos do Reports &amp; Analytics.
 
-[Relatórios em tempo real](/help/admin/admin/realtime/t-realtime-admin.md) e [Dados atuais](/help/technotes/latency.md) não estão disponíveis nos conjuntos de relatórios virtuais. Isso afeta os usuários que respondem às tendências observadas no Reports &amp; Analytics em segundos ou alguns minutos de coleta de dados. Por exemplo, isso poderia incluir editores em uma sala de notícias que ajustam manchetes com base no consumo de conteúdo em tempo real. Considere usar a marcação de vários conjuntos se tiver necessidades significativas de dados em tempo real específicas para conjuntos de relatórios individuais. Os dados atuais e em tempo real ainda podem ser usados no conjunto de relatórios global.
+[Relatórios em tempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) e [Dados atuais](/help/technotes/latency.md) não estão disponíveis nos conjuntos de relatórios virtuais. Isso afeta os usuários que respondem às tendências observadas no Reports &amp; Analytics em segundos ou alguns minutos de coleta de dados. Por exemplo, isso poderia incluir editores em uma sala de notícias que ajustam manchetes com base no consumo de conteúdo em tempo real. Considere usar a marcação de vários conjuntos se tiver necessidades significativas de dados em tempo real específicas para conjuntos de relatórios individuais. Os dados atuais e em tempo real ainda podem ser usados no conjunto de relatórios global.
 
 ### Limites únicos
 

@@ -1,7 +1,8 @@
 ---
 title: Recusa no gerenciamento de consentimento
 description: Veja quais configurações de privacidade um visitante recusou.
-source-git-commit: c305f74d5047db57509de8ff9ee03b8144009f5a
+exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 5%
@@ -26,6 +27,6 @@ Sua organização determina a lógica para implementar essas variáveis de dados
 
 Os itens de Dimension incluem os três valores a seguir:
 
-* **`SSF`**: O visitante recusou [Encaminhamento pelo lado do servidor](/help/admin/admin/c-server-side-forwarding/ssf.md). Esse item de dimensão está presente quando a variável de dados de contexto `cm.ssf` igual `1`. Consulte [Visão geral da privacidade de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) no guia do usuário do Audience Manager para obter mais informações. A ocorrência não é encaminhada ao Adobe Audience Manager.
+* **`SSF`**: O visitante recusou [Encaminhamento pelo lado do servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md). Esse item de dimensão está presente quando a variável de dados de contexto `cm.ssf` igual `1`. Consulte [Visão geral da privacidade de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) no guia do usuário do Audience Manager para obter mais informações. A ocorrência não é encaminhada ao Adobe Audience Manager.
 * **`DMP`**: O visitante recusou o compartilhamento nas plataformas de gerenciamento de dados. Esse item de dimensão está presente quando a variável de dados de contexto `opt.dmp` igual `N`. Semelhante a `SSF`, a ocorrência não é encaminhada ao Adobe Audience Manager.
 * **`SELL`**: O visitante recusou o compartilhamento ou a venda dos dados a terceiros. Essa dimensão está presente quando a variável de dados de contexto `opt.sell` igual `N`.
