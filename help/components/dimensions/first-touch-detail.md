@@ -3,8 +3,8 @@ title: Detalhes do canal de primeiro contato
 description: Detalhes do primeiro canal de marketing após a expiração do engajamento do visitante.
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ A dimensão &quot;Detalhes do canal de primeiro contato&quot; oferece detalhes s
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão copia valores de outras variáveis. A variável utilizada se refere ao valor do canal de cada [Regra de processamento de canal de marketing](/help/admin/admin/marketing-channels-admin.md). Quando uma ocorrência corresponde a uma regra de processamento de canal de marketing, a dimensão [Canal de último contato](last-touch-channel.md) é definida como o nome do canal e essa dimensão é definida como o valor do canal definido na regra.
+Essa dimensão copia valores de outras variáveis. A variável utilizada se refere ao valor do canal de cada [Regra de processamento de canal de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md). Quando uma ocorrência corresponde a uma regra de processamento de canal de marketing, a dimensão [Canal de último contato](last-touch-channel.md) é definida como o nome do canal e essa dimensão é definida como o valor do canal definido na regra.
 
 Se você quiser definir essa dimensão com um valor específico, siga os seguintes passos:
 

@@ -4,8 +4,8 @@ keywords: ausência de dados;lento
 title: Disponibilidade e latência de dados
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Alguns recursos na Adobe Experience Cloud vêm com uma latência inata além do 
 
 Há várias estratégias para impedir a latência ou reduzir o tempo de recuperação quando ocorre:
 
-* **Notifique a Adobe sobre picos de tráfego esperados:** embora seja impossível antecipar cada pico de tráfego no site, pode haver casos em que você espera receber um aumento significativo no tráfego. Os exemplos incluem um período de um feriado particularmente bem-sucedido ou pouco depois de promover uma grande campanha. Nesses casos, a Adobe fornece uma maneira de sua organização nos informar sobre os aumentos de tráfego esperados possibilitando a alocação de recursos de processamento adicionais para seu conjunto de relatórios. Consulte [Agendar um pico de tráfego](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) no guia do usuário de Administração para saber como notificar a Adobe sobre aumento de tráfego.
+* **Notifique a Adobe sobre picos de tráfego esperados:** embora seja impossível antecipar cada pico de tráfego no site, pode haver casos em que você espera receber um aumento significativo no tráfego. Os exemplos incluem um período de um feriado particularmente bem-sucedido ou pouco depois de promover uma grande campanha. Nesses casos, a Adobe fornece uma maneira de sua organização nos informar sobre os aumentos de tráfego esperados possibilitando a alocação de recursos de processamento adicionais para seu conjunto de relatórios. Consulte [Agendar um pico de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) no guia do usuário de Administração para saber como notificar a Adobe sobre aumento de tráfego.
 * **Considere processar a carga ao ativar novos recursos:** alguns recursos requerem mais processamento do que outros. Quanto mais recursos são ativados em um conjunto de relatórios, mais difícil será a recuperação da latência. Ao ativar recursos em um conjunto de relatórios, lembre-se de que os seguintes recursos aumentam a quantidade de dados para processamento:
 
    * Implementação de mais de 20 eventos na mesma página
