@@ -3,10 +3,10 @@ title: O que é a variável currencyCode e como usá-la?
 description: Para sites de comércio eletrônico, define a moeda em que a página negocia.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ O Código de moeda é um campo da opção [!UICONTROL Geral] ao configurar a ext
 O código monetário é passado para os SDKs do Adobe Experience Platform Mobile por meio de variáveis de dados de contexto na extensão do Adobe Analytics.
 
 1. Defina o código monetário em uma variável de dados de contexto durante `trackState` ou `trackAction`.
-1. Crie uma regra de processamento no Admin Console do Adobe Analytics para o conjunto de relatórios. Defina a regra para substituir a variável Código monetário.
+1. Crie uma regra de processamento nas Ferramentas administrativas do Adobe Analytics para o conjunto de relatórios. Defina a regra para substituir a variável Código monetário.
 1. Transmita o código monetário para a variável `products` na sua chamada para `trackState` ou `trackAction`.
 
 É possível usar um código monetário predefinido ou personalizado. Se estiver usando um código monetário personalizado, verifique se ele é válido.
