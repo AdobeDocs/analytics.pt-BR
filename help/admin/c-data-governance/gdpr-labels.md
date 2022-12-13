@@ -3,10 +3,10 @@ description: Exemplos de rótulos de privacidade de dados para variáveis do Ado
 title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
 workflow-type: tm+mt
-source-wordcount: '3672'
-ht-degree: 98%
+source-wordcount: '3685'
+ht-degree: 97%
 
 ---
 
@@ -144,7 +144,9 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
 | <ul><li>Variáveis de tráfego (props)</li><li>Variáveis de comércio (eVars que não são de merchandising)</li></ul> | Todos os rótulos | - |
 | Maioria das outras variáveis  (*Consulte as exceções na tabela abaixo*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
-## Variáveis às quais outros rótulos além de ACC-ALL/ACC-PERSON podem ser atribuídos ou modficados {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+{style=&quot;table-layout:auto&quot;}
+
+## Variáveis às quais outros rótulos além de ACC-ALL/ACC-PERSON podem ser atribuídos/modificados {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -213,122 +215,47 @@ O suporte do Adobe Analytics para solicitações de exclusão da Privacidade de 
 
 A tabela a seguir descreve como as variáveis são &quot;excluídas&quot;. Esta não é uma lista completa.
 
-<table id="table_A329C2E2645F4685BC208826D070A5F6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variáveis </th> 
-   <th colname="col2" class="entry"> Método de exclusão </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>* Variáveis de tráfego (props) </p> <p>* Variáveis de comércio (eVars) </p> </td> 
-   <td colname="col2"> <p>O valor existente é substituído por um novo valor com a forma "Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482", onde o valor hexadecimal de 32 dígitos que procede o prefixo "Data Privacy-" é um número aleatório de 128 bits criptograficamente forte. Como será substituído por uma sequência de caracteres aleatória, não há como determinar o valor original a partir desse novo valor, nem como derivar o novo valor sabendo o valor original. </p> <p>Para uma determinada variável, se o valor idêntico ao que está sendo substituído estiver presente em outras ocorrências que também estão sendo excluídas como parte da mesma solicitação de Privacidade de dados, todas as instâncias desse valor serão substituídas pelo mesmo valor novo. </p> <p>Se algumas instâncias de um valor forem substituídas por uma solicitação de exclusão, e uma solicitação posterior excluir outras (novas) instâncias do valor original, o novo valor de substituição será diferente do valor de substituição original. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID de compra </p> </td> 
-   <td colname="col2"> <p>O valor existente é substituído por um novo valor de forma "G-7588FCD8642718EC50", onde os 18 dígitos hexadecimais que procedem o prefixo "G-" são os primeiros 18 dígitos de um número aleatório de 128 bits criptograficamente forte. Todos os comentários que aplicam-se a variáveis de comércio e à exclusão de tráfego são aplicáveis a essa situação. </p> <p>A ID de compra é uma ID de transação cuja finalidade principal é garantir que uma compra não seja creditada duas vezes, por exemplo quando alguém atualizar a página de confirmação da compra. A ID propriamente dita pode vincular a compra a uma linha no seu próprio banco de dados, onde a compra é registrada. Na maioria dos casos, não é necessário excluir essa ID, portanto ela não é excluída por padrão. Caso ainda seja possível vincular a compra a um usuário depois da solicitação de exclusão da Privacidade de dados de seus dados, pode ser necessário excluir este campo, para que os dados do Analytics referentes ao visitante não possam ser vinculados ao comprador. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID de visitante </p> </td> 
-   <td colname="col2"> <p>O valor é um inteiro de 128 bits e é substituído por um número aleatório de 128 bits criptograficamente forte. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* MCID </p> <p>* ID de visitante personalizada </p> <p>* Endereço IP </p> <p>* Endereço IP 2 </p> </td> 
-   <td colname="col2"> <p>O valor é limpo (definido como a cadeia de caracteres vazia ou 0, dependendo do tipo da variável). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* Ação ClickMap (herdado) </p> <p>* Contexto do ClickMap (herdado) </p> <p>* Página </p> <p>* URL da página </p> <p>* URL da página de entrada original </p> <p>* Referenciador </p> <p>* URL da página de início da visita </p> </td> 
-   <td colname="col2"> <p>Os parâmetros de URL são limpos/removidos. Se o valor não tiver a aparência de um URL, ele será limpo (definido como uma sequência de caracteres em branco). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* Latitude </p> <p>* Longitude </p> </td> 
-   <td colname="col2"> <p>A precisão é reduzida para não ter mais de 1 km. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variáveis | Método de exclusão |
+| --- | --- |
+| <ul><li>Variáveis de tráfego (props)</li><li>Variáveis de comércio (eVars)</li></ul> | O valor existente é substituído por um novo valor com a forma &quot;Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482&quot;, onde o valor hexadecimal de 32 dígitos que procede o prefixo &quot;Data Privacy-&quot; é um número aleatório de 128 bits criptograficamente forte.<p>Como será substituído por uma sequência de caracteres aleatória, não há como determinar o valor original a partir desse novo valor, nem como derivar o novo valor sabendo o valor original.  Para uma determinada variável, se o valor idêntico ao que está sendo substituído estiver presente em outras ocorrências que também estão sendo excluídas como parte da mesma solicitação de Privacidade de dados, todas as instâncias desse valor serão substituídas pelo mesmo valor novo.<p>Se algumas instâncias de um valor forem substituídas por uma solicitação de exclusão, e uma solicitação posterior excluir outras (novas) instâncias do valor original, o novo valor de substituição será diferente do valor de substituição original. |
+| ID de compra | O valor existente é substituído por um novo valor de forma &quot;G-7588FCD8642718EC50&quot;, onde os 18 dígitos hexadecimais que procedem o prefixo &quot;G-&quot; são os primeiros 18 dígitos de um número aleatório de 128 bits criptograficamente forte. Todos os comentários que aplicam-se a variáveis de comércio e à exclusão de tráfego são aplicáveis a essa situação.<p>A ID de compra é uma ID de transação cuja finalidade principal é garantir que uma compra não seja creditada duas vezes, por exemplo quando alguém atualizar a página de confirmação da compra. A ID propriamente dita pode vincular a compra a uma linha no seu próprio banco de dados, onde a compra é registrada. Na maioria dos casos, não é necessário excluir essa ID, portanto ela não é excluída por padrão.<p>Caso ainda seja possível vincular a compra a um usuário depois da solicitação de exclusão da Privacidade de dados de seus dados, pode ser necessário excluir este campo, para que os dados do Analytics referentes ao visitante não possam ser vinculados ao comprador. |
+| ID de visitante | O valor é um inteiro de 128 bits e é substituído por um número aleatório de 128 bits criptograficamente forte. |
+| <ul><li>MCID</li><li>ID de visitante personalizada</li><li>Endereço IP</li><li>Endereço IP 2 | O valor é limpo (definido como a cadeia de caracteres vazia ou 0, dependendo do tipo da variável). |
+| <ul><li>Ação ClickMap (herdado)</li><li>Contexto do ClickMap (herdado)</li><li>Página</li><li>URL da página</li><li>URL da página de entrada original</li><li>Referenciador</li><li>URL da página de início da visita</li></ul> | Os parâmetros de URL são limpos/removidos. Se o valor não tiver a aparência de um URL, ele será limpo (definido como uma sequência de caracteres em branco). |
+| <ul><li>Latitude</li><li>Longitude</li></ul> | A precisão é reduzida para não ter mais de 1 km. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Variáveis sem suporte para os rótulos de exclusão esperados {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
 Esta seção pretende esclarecer informações sobre as variáveis do Analytics que não oferecem suporte à exclusão. Às vezes, essas variáveis são excluídas por usuários que não usam o Analytics (como a equipe jurídica) que não compreendem o tipo de dados contidos na variável e fazem suposições incorretas com base no nome da variável. Veja a seguir uma lista de algumas dessas variáveis e por que elas não exigem exclusão ou por que elas não exigem um rótulo de exclusão específico.
 
-<table id="table_6FECF3D654514862912D371E6BE4143B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variável </th> 
-   <th colname="col2" class="entry"> Comentários </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>ID de novo visitante </p> </td> 
-   <td colname="col2"> <p>A ID de novo visitante é um Booliano marcado como true na primeira vez que vemos uma certa ID de visitante. Não é necessário excluí-la quando a ID do visitante for tornar-se anônima. Depois da anonimização, ela corresponde à primeira vez que vimos essa ID anonimizada. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Código postal </p> <p>Código postal geográfico (Zip codes) </p> </td> 
-   <td colname="col2"> <p>Os códigos postais (Zip codes) são definidos somente para ocorrências originadas nos EUA. Eles não são definidos para ocorrências provenientes da UE. Mesmo quando definidos, eles só fornecem uma área geográfica ampla que dificulta a re-identificação dos dados. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Latitude geográfica </p> <p>Longitude geográfica </p> </td> 
-   <td colname="col2"> <p>Fornecem um local aproximado derivado do endereço IP. A precisão é geralmente semelhante à do código postal (zip code), dentro de algumas dezenas de quilômetros do local real. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Agente do usuário </p> </td> 
-   <td colname="col2"> <p>O Agente do usuário identifica a versão do navegador que foi usada. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID de usuário </p> </td> 
-   <td colname="col2"> <p> Especifica o conjunto de relatórios do Analytics (como um número) que contém os dados. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID do conjunto de relatórios </p> </td> 
-   <td colname="col2"> <p> Especifica o nome do conjunto de relatórios do Analytics que contém os dados. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID de visitante </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> Elas têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se especificar <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> Expansão de ID</a> com cada solicitação, essas IDs serão automaticamente excluídas para todas as solicitações de exclusão, mesmo aquelas que usam um ID-PERSON. </p> <p>Se você não usar a Expansão de ID, mas desejar que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID do visitante ou da ECID estão sendo anonimizadas, as contagens de visitante únicos mudarão em um relatório histórico. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID do AMO </p> </td> 
-   <td colname="col2"> <p> A Adobe Advertising Cloud ID é uma variável de solução que tem um rótulo DEL-DEVICE não modificável. Ela é preenchida a partir de um cookie, assim como a ID do visitante e a MCID. Ela deve ser excluída das ocorrências sempre que essas outras IDs forem excluídas. Consulte a descrição referente a essas variáveis para obter mais detalhes. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variável | Comentários |
+| --- | --- |
+| ID de novo visitante | A ID de novo visitante é um Booliano marcado como true na primeira vez que vemos uma certa ID de visitante. Não é necessário excluí-la quando a ID do visitante for tornar-se anônima. Depois da anonimização, ela corresponde à primeira vez que vimos essa ID anonimizada. |
+| Código postal<p>Código postal geográfico (Zip codes) | Os códigos postais (Zip codes) são definidos somente para ocorrências originadas nos EUA. Eles não são definidos para ocorrências provenientes da UE. Mesmo quando definidos, eles só fornecem uma área geográfica ampla que dificulta a re-identificação dos dados. |
+| Latitude geográfica<p>Longitude geográfica | Fornecem um local aproximado derivado do endereço IP. A precisão é geralmente semelhante à do código postal (zip code), dentro de algumas dezenas de quilômetros do local real. |
+| Agente do usuário | O Agente do usuário identifica a versão do navegador que foi usada. |
+| ID de usuário | Especifica o conjunto de relatórios do Analytics (como um número) que contém os dados. |
+| ID do conjunto de relatórios | Especifica o nome do conjunto de relatórios do Analytics que contém os dados. |
+| ID de visitante<p>MCID / ECID | Essas IDs têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se especificar [!UICONTROL  Expansão de ID] com cada solicitação, essas IDs serão automaticamente excluídas para todas as solicitações de exclusão, mesmo aquelas que usam um ID-PERSON.<p>Se você não usar a Expansão de ID, mas desejar que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID do visitante ou da ECID estão sendo anonimizadas, as contagens de visitante únicos mudarão em um relatório histórico. |
+| ID do AMO | A Adobe Advertising Cloud ID é uma variável de solução que tem uma variável não modificável [!UICONTROL DEL-DEVICE] rótulo. Ela é preenchida a partir de um cookie, assim como a ID do visitante e a MCID. Ela deve ser excluída das ocorrências sempre que essas outras IDs forem excluídas. Consulte a descrição referente a essas variáveis para obter mais detalhes. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Campos de data para solicitações de acesso {#access-requests}
 
 Há cinco variáveis padrão que contêm carimbos de data e hora:
 
-<table id="table_49A9255366254F799E1682C30CBD98EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Carimbo de data e hora </th> 
-   <th colname="col2" class="entry"> Definição </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Horário da ocorrência em UTC </p> </td> 
-   <td colname="col2"> <p>O horário que o Adobe Analytics recebeu a ocorrência. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Horário personalizado da ocorrência em UTC </p> </td> 
-   <td colname="col2"> <p>O horário da ocorrência, que para alguns aplicativos móveis e outras implementações pode ser anterior ao horário em que foi recebida. Por exemplo, se uma conexão de rede não estava disponível no momento em que ocorreu, o aplicativo pode manter a ocorrência e enviá-la quando uma conexão for disponibilizada. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Data e hora </p> </td> 
-   <td colname="col2"> <p>Mesmo valor de Horário personalizado da ocorrência em UTC, mas no fuso horário do conjunto de relatórios, em vez de GMT.</p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Horário da primeira ocorrência (GMT) </p> </td> 
-   <td colname="col2"> <p>O valor de Horário personalizado da ocorrência em UTC referente à primeira ocorrência recebida para o valor de ID de visitante desta ocorrência. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Horário inicial da visita em UTC </p> </td> 
-   <td colname="col2"> <p>O valor de Horário personalizado da ocorrência em UTC referente à primeira ocorrência recebida para a visita atual para esta ID de visitante.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Carimbo de data e hora | Definição |
+| --- | --- |
+| Horário da ocorrência em UTC | O horário que o Adobe Analytics recebeu a ocorrência. |
+| Horário personalizado da ocorrência em UTC | O horário da ocorrência, que para alguns aplicativos móveis e outras implementações pode ser anterior ao horário em que foi recebida. Por exemplo, se uma conexão de rede não estava disponível no momento em que ocorreu, o aplicativo pode manter a ocorrência e enviá-la quando uma conexão for disponibilizada. |
+| Data e hora | Mesmo valor de Horário personalizado da ocorrência em UTC, mas no fuso horário do conjunto de relatórios, em vez de GMT. |
+| Horário da primeira ocorrência (GMT) | O valor de Horário personalizado da ocorrência em UTC referente à primeira ocorrência recebida para o valor de ID de visitante desta ocorrência. |
+| Horário inicial da visita em UTC | O valor de Horário personalizado da ocorrência em UTC referente à primeira ocorrência recebida para a visita atual para esta ID de visitante. |
+
+{style=&quot;table-layout:auto&quot;}
 
 O código para geração de arquivos retornados por solicitações de Privacidade de dados de acesso exige que pelo menos uma das primeiras três variáveis de carimbo de data e hora sejam incluídas na solicitação de acesso (tenham um rótulo ACC aplicável ao tipo de solicitação). Se não forem incluídas, o Horário personalizado da ocorrência em UTC será tratado como se tivesse um rótulo ACC-ALL.
 
