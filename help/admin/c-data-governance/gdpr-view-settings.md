@@ -3,9 +3,9 @@ description: A caixa de diálogo Governança de dados nas Ferramentas administra
 title: Exibir/gerenciar as configurações de governança de dados do conjunto de relatórios
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+workflow-type: tm+mt
+source-wordcount: '520'
 ht-degree: 100%
 
 ---
@@ -33,3 +33,5 @@ A caixa de diálogo Governança de dados nas Ferramentas administrativas fornece
 | **[!UICONTROL Grupos]** | Atualmente, o recurso de agrupamento não está implementado. |
 | Barra à esquerda | Clique no ícone de funil para abrir ou fechar a barra lateral. A seção [!UICONTROL Mapeamento da organização] exibe o número de conjuntos de relatórios que se enquadram em cada uma das categorias descritas. A seção [!UICONTROL Política de retenção de dados] exibe cada política de retenção de dados exclusiva que está em vigor atualmente para a sua organização, bem como o número de conjuntos de relatórios atribuídos a essa política de retenção. |
 | **[!UICONTROL Exportar para CSV]** | Se você marcar a caixa de seleção próxima de um ou mais conjuntos de relatórios, a opção Exportar para CSV será exibida. Essa opção permite baixar um arquivo CSV que contenha todas as definições de rótulo atuais de todas as variáveis para todos os conjuntos de relatórios selecionados. Recomendamos que a sua equipe jurídica analise as escolhas de rotulagem e essa opção facilita a análise. Em vez de precisar executar a análise enquanto estiver conectado à interface do usuário na Governança de dados, você pode compartilhar o arquivo CSV com a equipe. |
+
+{style=&quot;table-layout:auto&quot;}
