@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,23 @@ As [!UICONTROL Configurações de coluna] permitem que você configure a formata
 
 ## Editar [!UICONTROL Configurações de coluna] {#edit-column-settings}
 
-Para acessar [!UICONTROL Configurações de coluna], arraste uma Tabela de forma livre para o projeto e clique no ícone de engrenagem no cabeçalho da coluna.
+É possível editar as configurações de coluna para uma coluna individual ou para várias colunas simultaneamente.
 
-![](assets/column_settings.png)
+1. No Analysis Workspace, arraste uma Tabela de forma livre para o seu projeto.
 
-É possível editar as configurações de **diversas colunas de uma só vez**. Basta selecionar várias colunas e clicar no ícone de configurações de qualquer uma dessas colunas. Todas as alterações feitas serão aplicadas a todas as colunas com as células selecionadas.
+1. (Condicional) Para editar várias colunas simultaneamente, selecione cada coluna que deseja editar enquanto mantém a tecla Shift pressionada.
+
+1. Passe o mouse sobre a coluna que deseja editar, em seguida, selecione o ícone de engrenagem.
+
+   Se você selecionou várias colunas, clique no ícone de engrenagem para qualquer uma das colunas selecionadas. Todas as alterações feitas serão aplicadas a todas as colunas selecionadas.
+
+   ![](assets/column_settings.png)
+
+1. Continue com [Configurações de coluna](#column-settings).
+
+## Configurações de coluna
+
+As seguintes configurações de coluna estão disponíveis ao editar colunas no Analysis Workspace:
 
 | Elemento | Descrição |
 | --- | --- |
