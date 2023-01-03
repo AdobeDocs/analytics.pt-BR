@@ -4,9 +4,9 @@ title: Enviar solicitações de acesso e de exclusão
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1297'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo 
 
 ## Enviar solicitações {#submit-requests}
 
-É possível conceder acesso à Privacidade de dados e excluir solicitações por meio da nossa [interface do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html), ou pela nossa [API Privacy Service.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)
+É possível conceder acesso à Privacidade de dados e excluir solicitações por meio da nossa [interface do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=pt-BR), ou pela nossa [API Privacy Service.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR)
 
 >[!NOTE]
 >
@@ -106,10 +106,10 @@ Observe que há três blocos na seção do usuário, representando três solicit
 
 Lembre-se
 
-* O valor &quot;5D7236525AA6D9580A495C6C@AdobeOrg&quot; na seção &quot;companyContexts&quot; deve ser atualizado com o valor da própria organização da Experience Cloud.
-* Os campos &quot;type&quot; e &quot;namespace&quot; são descritos em mais detalhes na seção [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md).
-* Os campos &quot;description&quot; são ignorados.
-* Os campos &quot;key&quot; podem conter qualquer valor desejado. Se tiver uma ID interna que esteja usando para rastrear as solicitações de Privacidade de dados, insira esse valor para facilitar a correspondência das solicitações do sistema da Adobe com as de seus próprios sistemas.
+* O valor “5D7236525AA6D9580A495C6C@AdobeOrg” na seção “companyContexts” deve ser atualizado com o valor da própria organização da Experience Cloud.
+* Os campos “type” e “namespace” são descritos em mais detalhes na seção [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md).
+* Os campos “description” são ignorados.
+* Os campos “key” podem conter qualquer valor desejado. Se tiver uma ID interna que esteja usando para rastrear as solicitações de Privacidade de dados, insira esse valor para facilitar a correspondência das solicitações do sistema da Adobe com as de seus próprios sistemas.
 
 ## Detalhes de resposta {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -148,4 +148,4 @@ Há algumas maneiras de testar o processamento da Privacidade de dados antes de 
 * Uma opção é configurar uma Organização da Experience Cloud separada que contenha somente conjuntos de relatórios de teste. Use essa organização da Experience Cloud para realizar testes de Privacidade de dados e sua organização normal da Experience Cloud para processamentos de Privacidade de dados.
 * Outra opção é atribuir namespaces diferentes à IDs nos conjuntos de relatórios de teste, em comparação com aqueles em seus conjuntos de relatórios de produção.
 
-   Por exemplo, você pode adicionar prefixos &quot;qa-&quot; a cada namespace nos conjuntos de relatórios de teste. Ao enviar solicitações de Privacidade de dados com apenas namespaces com o prefixo &quot;qa&quot;, essas solicitações só são executadas em relação aos conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo &quot;qa&quot;, elas eram aplicadas aos conjuntos de relatórios de produção. **Essa é a abordagem recomendada, a menos que você use os namespaces visitorId, AAID, ECID ou customVisitorId, pois esses são codificados e não podem especificar nomes alternativos para eles em seus conjuntos de relatórios de teste**.
+   Por exemplo, você pode adicionar prefixos “qa-” a cada namespace nos conjuntos de relatórios de teste. Ao enviar solicitações de Privacidade de dados com apenas namespaces com o prefixo &quot;qa&quot;, essas solicitações só são executadas em relação aos conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo &quot;qa&quot;, elas eram aplicadas aos conjuntos de relatórios de produção. **Essa é a abordagem recomendada, a menos que você use os namespaces visitorId, AAID, ECID ou customVisitorId, pois esses são codificados e não podem especificar nomes alternativos para eles em seus conjuntos de relatórios de teste**.
