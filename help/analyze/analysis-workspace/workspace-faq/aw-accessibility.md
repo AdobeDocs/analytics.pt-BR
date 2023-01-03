@@ -1,12 +1,12 @@
 ---
 description: Recursos de suporte para acessibilidade no Analysis Workspace
 title: Acessibilidade no Analysis Workspace
-feature: Fundamentos do Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: ht
-source-wordcount: '657'
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -103,4 +103,4 @@ Depois que um componente é totalmente validado, pressionar `Save` fecha o const
 
 ## Suporte para recursos de acessibilidade do sistema operacional
 
-O Analysis Workspace aceita recursos de acessibilidade do MS Windows e do MacOS incorporados, como modo de alto contraste, teclas adesivas e teclas lentas/teclas de filtro. Ele também fornece informações sobre a interface do usuário para o sistema operacional para permitir a interação com tecnologias de assistência, incluindo leitores de tela como VoiceOver para macOS e NVDA no Windows.
+O Analysis Workspace aceita recursos de acessibilidade do MS Windows e do macOS incorporados, como modo de alto contraste, teclas adesivas e teclas lentas/teclas de filtro. Ele também fornece informações sobre a interface do usuário para o sistema operacional para permitir a interação com tecnologias de assistência, incluindo leitores de tela como VoiceOver para macOS e NVDA no Windows.
