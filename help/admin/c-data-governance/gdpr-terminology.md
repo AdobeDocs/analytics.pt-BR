@@ -4,7 +4,7 @@ title: Terminologia do GDPR
 feature: Data Governance
 exl-id: d6e6d363-ac5e-467e-af88-f6feda9cb980
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 **Serviços de gerenciamento de identidade (IMS)** - a implementação da Federated ID e do OAuth 2.0 pela Adobe para a autenticação de usuários da Adobe ID e a autorização para os recursos da Adobe. É necessário integrar o IMS ao seu aplicativo ou serviço da Adobe para permitir que os usuários façam logon e acessem os serviços da Adobe. Os usuários podem fazer logon diretamente com o Renga (o provedor de serviços de identidade da Adobe) ou por meio de um domínio de autenticação confiável de terceiros (como o Google, o Facebook ou um LDAP corporativo/da organização).
 
-**ID da organização da Experience Cloud** - refere-se a um token de autorização da Adobe para autenticação entre serviços, que não exige logon do usuário. É emitida para um cliente do IMS e não possui um usuário associado. Um cliente do IMS precisa de um token de serviço para autorizar solicitações de canal de retorno entre os serviços. (O termo &quot;token do sistema&quot; é usado ocasionalmente para significar token de serviço).
+**ID da organização da Experience Cloud** - refere-se a um token de autorização da Adobe para autenticação entre serviços, que não exige logon do usuário. É emitida para um cliente do IMS e não possui um usuário associado. Um cliente do IMS precisa de um token de serviço para autorizar solicitações de canal de retorno entre os serviços. (O termo “token do sistema” é usado ocasionalmente para significar token de serviço).
 
 **Estabelecimento principal** - o local dentro da União onde são tomadas as principais decisões em relação ao processamento de dados; no que diz respeito ao processador
 
