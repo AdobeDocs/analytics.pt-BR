@@ -4,7 +4,7 @@ title: Exemplos de rotulagem
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 | Dados de ocorrência | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
-|  | John | 77º | D | P | W |
+|  | John | 77 | D | P | W |
 |  | John | 88 | E | N | U |
 |  | John | 44 | F | Q | V |
 |  | John | 55 | G | R | X |
@@ -56,7 +56,7 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
     <td>false</td>
     <td>dispositivo</td>
     <td>não presente</td>
-    <td>77º</td>
+    <td>77</td>
     <td>não presente</td>
     <td>M, P</td>
     <td>X, W</td>
@@ -66,7 +66,7 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
     <td>true</td>
     <td>dispositivo</td>
     <td>não presente</td>
-    <td>77º</td>
+    <td>77</td>
     <td>não presente</td>
     <td>M, P</td>
     <td>X, W</td>
@@ -179,7 +179,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>42º</td>
+    <td>42</td>
     <td>D</td>
     <td>Privacy-1866</td>
     <td>Privacy-8216</td>
@@ -193,7 +193,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>44º</td>
+    <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
@@ -207,7 +207,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Alice</td>
-    <td>66º</td>
+    <td>66</td>
     <td>A</td>
     <td>N</td>
     <td>Z</td>
@@ -231,7 +231,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Privacy-0523</td>
-    <td>77º</td>
+    <td>77</td>
     <td>Privacy-1866</td>
     <td>Privacy-3681</td>
     <td>X</td>
@@ -252,7 +252,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>77º</td>
+    <td>77</td>
     <td>D</td>
     <td>P</td>
     <td>W</td>
@@ -266,7 +266,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>44º</td>
+    <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
@@ -280,7 +280,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Alice</td>
-    <td>66º</td>
+    <td>66</td>
     <td>A</td>
     <td>N</td>
     <td>Z</td>
@@ -289,7 +289,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 
 >[!NOTE]
 >
->Apenas células em linhas que contêm user=Mary e um rótulo DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar. Seu valor de substituição seria uma sequência de caracteres iniciada por &quot;Privacy-&quot;, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
+>Apenas células em linhas que contêm user=Mary e um rótulo DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar. Seu valor de substituição seria uma sequência de caracteres iniciada por “Privacy-”, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
 
 <table>
   <tr>
@@ -332,14 +332,14 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>John</td>
-    <td>16º</td>
+    <td>16</td>
     <td>E</td>
     <td>Privacy-2911</td>
     <td>Privacy-2930</td>
   </tr>
   <tr>
     <td>John</td>
-    <td>44º</td>
+    <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
@@ -353,7 +353,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
   </tr>
   <tr>
     <td>Alice</td>
-    <td>66º</td>
+    <td>66</td>
     <td>A</td>
     <td>N</td>
     <td>Z</td>
