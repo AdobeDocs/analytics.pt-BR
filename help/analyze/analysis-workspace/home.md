@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,4 +70,4 @@ Veja um vídeo com uma visão geral do gerenciamento de projetos:
 ## Recursos adicionais {#resources}
 
 * A Adobe oferece centenas de [tutoriais de treinamento em vídeo do Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=pt-BR).
-* Consulte [Notas da versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) para saber mais sobre novos recursos.
+* Consulte [Notas da versão do Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR#analytics) para saber mais sobre novos recursos.
