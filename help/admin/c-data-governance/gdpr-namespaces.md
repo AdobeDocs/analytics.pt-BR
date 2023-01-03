@@ -4,9 +4,9 @@ title: Namespaces
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ A sequência de caracteres do namespace é usada para identificar os campos que 
 * Um campo de “type” que, para a maioria das solicitações do Adobe Analytics, contém o valor “analytics”.
 * Um campo de “value” contendo a ID que o Analytics deve pesquisar nas variáveis de namespace associadas a cada um dos conjuntos de relatórios.
 
-Consulte a [documentação da API da Privacidade de dados da Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) para obter mais detalhes.
+Consulte a [documentação da API da Privacidade de dados da Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR) para obter mais detalhes.
 
 ## ID de cookies
 
@@ -72,7 +72,7 @@ Também é aceitável usar `"namespaceId": 4` em vez de ou além de `"namespace"
 >
 >Essas IDs são as únicas IDs compatíveis com o Analytics que usam um valor “type” em vez de “analytics”.
 
-Se o formato da porção do valor de qualquer uma dessas IDs de cookie não seguir o formato descrito para essa ID, ocorrerá uma falha na solicitação de Privacidade de dados, com um erro de &quot;Valor não formatado corretamente&quot;.
+Se o formato da porção do valor de qualquer uma dessas IDs de cookie não seguir o formato descrito para essa ID, ocorrerá uma falha na solicitação de Privacidade de dados, com um erro de “Valor não formatado corretamente”.
 
 Você normalmente coletará essas IDs de cookies com o novo [JavaScript de privacidade](https://developer.adobe.com/experience-platform-apis/references/privacy-service/), que fornecerá automaticamente todos os pares de chave/valor relevantes para essas IDs JSON.
 
@@ -114,6 +114,6 @@ Também é possível ver os namespaces definidos anteriormente para outras vari�
 
 >[!CAUTION]
 >
->Os namespaces &quot;visitorId&quot; e &quot;customVisitorId&quot; são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
+>Os namespaces “visitorId” e “customVisitorId” são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
 
 Para obter mais informações, consulte [Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md)
