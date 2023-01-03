@@ -4,9 +4,9 @@ title: Serviços Web
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ No [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-conso
 
 ## WSDL: Fazer o download do WSDL da API de serviços da Web para desenvolvedores de serviços da Web
 
-Visita [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), que fornece documentação, exemplos de código e fóruns relacionados às APIs de serviços da Web. Clique em Visão geral das APIs de serviços da Web para obter mais informações.
+Visite o [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), que fornece documentação, exemplos de código e fóruns relacionados às APIs de serviços da Web. Clique em Visão geral das APIs de serviços da Web para obter mais informações.
 
 ## Opções de filtragem
 
