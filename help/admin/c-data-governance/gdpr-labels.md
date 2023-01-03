@@ -4,9 +4,9 @@ title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3685'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,14 +68,14 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
 
 ### Rótulos de exclusão da privacidade de dados
 
-Ao contrário dos outros rótulos, esses rótulos de Exclusão não são mutuamente exclusivos. Você pode selecionar ambos ou nenhum. Um separado [!UICONTROL Nenhum] não é necessário, pois [!UICONTROL Nenhum] é indicada simplesmente por não marcar nenhuma das opções de Exclusão .
+Ao contrário dos outros rótulos, esses rótulos de Exclusão não são mutuamente exclusivos. Você pode selecionar ambos ou nenhum. Um rótulo [!UICONTROL Nenhum] separado não é necessário, pois o valor [!UICONTROL Nenhum] pode ser indicando simplesmente por não selecionar as opções de exclusão.
 
 Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de uma ocorrência ao titular de dados (ou seja, que permita a identificação do titular de dados). Outras informações pessoais (favoritos, histórico de navegação/compras, condições de saúde, etc.) não precisam ser excluídas, pois a associação com o titular de dados será extinta.
 
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
 | DEL-DEVICE | Para solicitações de exclusão da Privacidade de dados, os valores nesse campo devem ser anonimizados apenas para as solicitações em que uma ID-DEVICE especificada esteja presente na ocorrência.  Se o mesmo valor ocorrer em outras ocorrências que não estão sendo excluídas, essas outras instâncias não serão alteradas. Isso resultará na alteração das contagens nos relatórios que processam contagens específicas neste campo. Em dispositivos compartilhados, isso pode remover identificadores de outros indivíduos, além do titular dos dados.  As contagens não são alteradas se esse campo também tiver um rótulo ID-DEVICE e o valor nele for usado como uma ID na solicitação de Privacidade de dados. | <ul><li>Também exige o rótulo I1 ou I2 ou S1</li><li>Não pode ser definido em eventos</li><li>Não pode ser definido nas eVars de merchandising</li></li><li>Não pode ser definido nas Classificações</li><li>É necessário enviar solicitações usando um ID-DEVICE ou definir expandIDs como true, ou esse rótulo nunca será aplicado.</li></ul> |
-| DEL-PERSON | Para solicitações de exclusão da Privacidade de dados, os valores nesse campo devem ser anonimizados apenas para as solicitações em que uma ID-PERSON especificada esteja presente na ocorrência.  Se o mesmo valor ocorrer em outras ocorrências que não estão sendo excluídas, esses outros valores não serão alterados. Isso resultará na alteração das contagens nos relatórios que processam contagens específicas neste campo. As contagens não são alteradas se esse campo também tiver um rótulo ID-PERSON e o valor nele for usado como uma ID na solicitação de Privacidade de dados. | <ul><li>Também exige o rótulo I1 ou I2 ou S1</li><li>Não pode ser definido em eventos</li><li>Não pode ser definido nas eVars de merchandising</li></li><li>Não pode ser definido nas Classificações</li><li>Você deve enviar solicitações usando um rótulo ID-PERSON definido em alguma variável dentro desse conjunto de relatórios e enviar solicitações usando essa ID, caso contrário esse rótulo nunca será aplicado.</li></ul> |
+| DEL-PERSON | Para solicitações de exclusão da Privacidade de dados, os valores nesse campo devem ser anonimizados apenas para as solicitações em que uma ID-PERSON especificada esteja presente na ocorrência.  Se o mesmo valor ocorrer em outras ocorrências que não estão sendo excluídas, esses outros valores não serão alterados. Isso resultará na alteração das contagens nos relatórios que processam contagens específicas neste campo. As contagens não são alteradas se esse campo também tiver um rótulo ID-PERSON e o valor nele for usado como uma ID na solicitação de Privacidade de dados. | <ul><li>Também exige o rótulo I1 ou I2 ou S1</li><li>Não pode ser definido em eventos</li><li>Não pode ser definido nas eVars de merchandising</li></li><li>Não pode ser definido nas Classificações</li><li>Você também deve enviar pedidos utilizando um rótulo ID-PERSON definido em alguma variável dentro desse conjunto de relatórios e enviar solicitações usando essa ID, caso contrário esse rótulo nunca será aplicado.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -83,7 +83,7 @@ Um rótulo de exclusão é necessário apenas para campos que contenham um valor
 
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
-| Nenhum | Esta variável não contém uma ID que será usada para solicitações de Privacidade de dados. | Você precisa definir um desses outros rótulos somente se esse campo contiver uma ID que será usada ao enviar as solicitações de acesso ou exclusão por meio da [API do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) ou da interface. |
+| Nenhum | Esta variável não contém uma ID que será usada para solicitações de Privacidade de dados. | Você precisa definir um desses outros rótulos somente se esse campo contiver uma ID que será usada ao enviar as solicitações de acesso ou exclusão por meio da [API do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR) ou da interface. |
 | ID-DEVICE | Este campo contém uma ID que pode ser usada para identificar um dispositivo para uma solicitação de Privacidade de dados, mas não pode distinguir entre usuários diferentes de um dispositivo compartilhado.  Você não precisa especificar este rótulo para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. | Também exige o rótulo I1 ou I2.<ul><li>Não pode ser definido em eventos</li><li>Não pode ser definido nas eVars de merchandising</li><li>Não pode ser definido nas Classificações</li></ul> |
 | ID-PERSON | Este campo contém uma ID que pode ser usada para identificar um usuário autenticado (uma pessoa específica) em uma solicitação de Privacidade de dados.  Você não precisa especificar este rótulo para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se for enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. | <ul><li>Também exige o rótulo I1 ou I2.</li><li>Não pode ser definido em eventos</li><li>Não pode ser definido nas eVars de merchandising</li><li>Não pode ser definido nas Classificações</li></ul> |
 
@@ -115,7 +115,7 @@ Você também pode definir um novo namespace. Recomendamos que as sequências de
 
 A sequência de caracteres especificada como namespace é a mesma que deve ser usada ao enviar solicitações por meio da API da Privacidade de dados como o valor do parâmetro “namespace”. A solicitação fará com que o Adobe Analytics pesquise todas as variáveis, em todos os conjuntos de relatórios, que compartilham esse namespace com a ID especificada na solicitação.
 
-Você não precisa especificar os rótulos de ID-DEVICE ou ID-PERSON para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se for enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. Por exemplo, se eVar1 puder conter um endereço de email e eVar2 um nome de usuário de logon, mas as solicitações serão enviadas usando somente o nome de usuário, será possível rotular eVar1 como I1, ACC-PERSON, DEL-PERSON, mas eVar2 como I2, ACC-PERSON, DEL-PERSON, ID-PERSON com o namespace &quot;nome de usuário&quot;. Em seguida, você pode enviar uma solicitação com um bloco JSON da seção do usuário, como:
+Você não precisa especificar os rótulos de ID-DEVICE ou ID-PERSON para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se for enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. Por exemplo, se eVar1 puder conter um endereço de email e eVar2 um nome de usuário de logon, mas as solicitações serão enviadas usando somente o nome de usuário, será possível rotular eVar1 como I1, ACC-PERSON, DEL-PERSON, mas eVar2 como I2, ACC-PERSON, DEL-PERSON, ID-PERSON com o namespace “nome de usuário”. Em seguida, você pode enviar uma solicitação com um bloco JSON da seção do usuário, como:
 
 ```
 {
@@ -131,7 +131,7 @@ Como outro exemplo, você pode ter uma ID do CRM que, às vezes, é enviada pela
 
 >[!CAUTION]
 >
->Os namespaces &quot;visitorId&quot; e &quot;customVisitorId&quot; são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
+>Os namespaces “visitorId” e “customVisitorId” são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
 
 ## Tipos de variáveis e rótulos de Privacidade de dados/DULE compatíveis {#variable-types}
 
@@ -146,7 +146,7 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variáveis às quais outros rótulos além de ACC-ALL/ACC-PERSON podem ser atribuídos/modificados {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variáveis às quais outros rótulos, além de ACC-ALL/ACC-PERSON, podem ser atribuídos ou modificados {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -213,20 +213,20 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
 
 O suporte do Adobe Analytics para solicitações de exclusão da Privacidade de dados foi projetado para minimizar os impactos a relatórios. Na maioria dos casos, as métricas exibidas nos relatórios não devem ser alteradas. Um relatório histórico que foi executado antes de uma exclusão da Privacidade de dados corresponderá ao mesmo relatório executado depois da exclusão. Isso é feito ao desvincular completamente os dados excluídos do titular dos dados, deixando os dados não identificáveis no lugar, de forma que os valores relatados permaneçam consistentes.
 
-A tabela a seguir descreve como as variáveis são &quot;excluídas&quot;. Esta não é uma lista completa.
+A tabela a seguir descreve como as variáveis são “excluídas”. Esta não é uma lista completa.
 
 | Variáveis | Método de exclusão |
 | --- | --- |
-| <ul><li>Variáveis de tráfego (props)</li><li>Variáveis de comércio (eVars)</li></ul> | O valor existente é substituído por um novo valor com a forma &quot;Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482&quot;, onde o valor hexadecimal de 32 dígitos que procede o prefixo &quot;Data Privacy-&quot; é um número aleatório de 128 bits criptograficamente forte.<p>Como será substituído por uma sequência de caracteres aleatória, não há como determinar o valor original a partir desse novo valor, nem como derivar o novo valor sabendo o valor original.  Para uma determinada variável, se o valor idêntico ao que está sendo substituído estiver presente em outras ocorrências que também estão sendo excluídas como parte da mesma solicitação de Privacidade de dados, todas as instâncias desse valor serão substituídas pelo mesmo valor novo.<p>Se algumas instâncias de um valor forem substituídas por uma solicitação de exclusão, e uma solicitação posterior excluir outras (novas) instâncias do valor original, o novo valor de substituição será diferente do valor de substituição original. |
-| ID de compra | O valor existente é substituído por um novo valor de forma &quot;G-7588FCD8642718EC50&quot;, onde os 18 dígitos hexadecimais que procedem o prefixo &quot;G-&quot; são os primeiros 18 dígitos de um número aleatório de 128 bits criptograficamente forte. Todos os comentários que aplicam-se a variáveis de comércio e à exclusão de tráfego são aplicáveis a essa situação.<p>A ID de compra é uma ID de transação cuja finalidade principal é garantir que uma compra não seja creditada duas vezes, por exemplo quando alguém atualizar a página de confirmação da compra. A ID propriamente dita pode vincular a compra a uma linha no seu próprio banco de dados, onde a compra é registrada. Na maioria dos casos, não é necessário excluir essa ID, portanto ela não é excluída por padrão.<p>Caso ainda seja possível vincular a compra a um usuário depois da solicitação de exclusão da Privacidade de dados de seus dados, pode ser necessário excluir este campo, para que os dados do Analytics referentes ao visitante não possam ser vinculados ao comprador. |
+| <ul><li>Variáveis de tráfego (props)</li><li>Variáveis de comércio (eVars)</li></ul> | O valor existente é substituído por um novo valor com a forma “Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482”, onde o valor hexadecimal de 32 dígitos que procede o prefixo “Data Privacy-” é um número aleatório de 128 bits de forte criptografia.<p>Como será substituído por uma sequência de caracteres aleatória, não há como determinar o valor original a partir desse novo valor, nem como derivar o novo valor sabendo o valor original.  Para uma determinada variável, se o valor idêntico ao que está sendo substituído estiver presente em outras ocorrências que também estão sendo excluídas como parte da mesma solicitação de Privacidade de dados, todas as instâncias desse valor serão substituídas pelo mesmo valor novo.<p>Se algumas instâncias de um valor forem substituídas por uma solicitação de exclusão, e uma solicitação posterior excluir outras (novas) instâncias do valor original, o novo valor de substituição será diferente do valor de substituição original. |
+| ID de compra | O valor existente é substituído por um novo valor de forma “G-7588FCD8642718EC50”, onde os 18 dígitos hexadecimais que procedem o prefixo “G-” são os primeiros 18 dígitos de um número aleatório de 128 bits criptograficamente forte. Todos os comentários que aplicam-se a variáveis de comércio e à exclusão de tráfego são aplicáveis a essa situação.<p>A ID de compra é uma ID de transação cuja finalidade principal é garantir que uma compra não seja creditada duas vezes, por exemplo quando alguém atualizar a página de confirmação da compra. A ID propriamente dita pode vincular a compra a uma linha no seu próprio banco de dados, onde a compra é registrada. Na maioria dos casos, não é necessário excluir essa ID, portanto ela não é excluída por padrão.<p>Caso ainda seja possível vincular a compra a um usuário depois da solicitação de exclusão da Privacidade de dados de seus dados, pode ser necessário excluir este campo, para que os dados do Analytics referentes ao visitante não possam ser vinculados ao comprador. |
 | ID de visitante | O valor é um inteiro de 128 bits e é substituído por um número aleatório de 128 bits criptograficamente forte. |
-| <ul><li>MCID</li><li>ID de visitante personalizada</li><li>Endereço IP</li><li>Endereço IP 2 | O valor é limpo (definido como a cadeia de caracteres vazia ou 0, dependendo do tipo da variável). |
-| <ul><li>Ação ClickMap (herdado)</li><li>Contexto do ClickMap (herdado)</li><li>Página</li><li>URL da página</li><li>URL da página de entrada original</li><li>Referenciador</li><li>URL da página de início da visita</li></ul> | Os parâmetros de URL são limpos/removidos. Se o valor não tiver a aparência de um URL, ele será limpo (definido como uma sequência de caracteres em branco). |
+| <ul><li>MCID</li><li>ID de visitante personalizada</li><li>Endereço IP</li><li>Endereço IP 2 | O valor é limpo (definido como uma cadeia de caracteres vazia ou 0, dependendo do tipo da variável). |
+| <ul><li>Ação do ClickMap (herdado)</li><li>Contexto do ClickMap (herdado)</li><li>Página</li><li>URL da página</li><li>URL da página de entrada original</li><li>Referenciador</li><li>URL da página de início da visita</li></ul> | Os parâmetros de URL são limpos/removidos. Se o valor não tiver a aparência de um URL, ele será limpo (definido como uma sequência de caracteres em branco). |
 | <ul><li>Latitude</li><li>Longitude</li></ul> | A precisão é reduzida para não ter mais de 1 km. |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variáveis sem suporte para os rótulos de exclusão esperados {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variáveis não compatíveis com os rótulos de exclusão esperados {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
 Esta seção pretende esclarecer informações sobre as variáveis do Analytics que não oferecem suporte à exclusão. Às vezes, essas variáveis são excluídas por usuários que não usam o Analytics (como a equipe jurídica) que não compreendem o tipo de dados contidos na variável e fazem suposições incorretas com base no nome da variável. Veja a seguir uma lista de algumas dessas variáveis e por que elas não exigem exclusão ou por que elas não exigem um rótulo de exclusão específico.
 
@@ -238,8 +238,8 @@ Esta seção pretende esclarecer informações sobre as variáveis do Analytics 
 | Agente do usuário | O Agente do usuário identifica a versão do navegador que foi usada. |
 | ID de usuário | Especifica o conjunto de relatórios do Analytics (como um número) que contém os dados. |
 | ID do conjunto de relatórios | Especifica o nome do conjunto de relatórios do Analytics que contém os dados. |
-| ID de visitante<p>MCID / ECID | Essas IDs têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se especificar [!UICONTROL  Expansão de ID] com cada solicitação, essas IDs serão automaticamente excluídas para todas as solicitações de exclusão, mesmo aquelas que usam um ID-PERSON.<p>Se você não usar a Expansão de ID, mas desejar que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID do visitante ou da ECID estão sendo anonimizadas, as contagens de visitante únicos mudarão em um relatório histórico. |
-| ID do AMO | A Adobe Advertising Cloud ID é uma variável de solução que tem uma variável não modificável [!UICONTROL DEL-DEVICE] rótulo. Ela é preenchida a partir de um cookie, assim como a ID do visitante e a MCID. Ela deve ser excluída das ocorrências sempre que essas outras IDs forem excluídas. Consulte a descrição referente a essas variáveis para obter mais detalhes. |
+| ID de visitante<p>MCID / ECID | Essas IDs têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se especificar a [!UICONTROL Expansão de ID] em cada solicitação, essas IDs serão automaticamente excluídas para todas as solicitações de exclusão, mesmo aquelas que usam um ID-PERSON.<p>Se você não usar a Expansão de ID, mas desejar que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID do visitante ou da ECID estão sendo anonimizadas, as contagens de visitante únicos mudarão em um relatório histórico. |
+| ID do AMO | A Adobe Advertising Cloud ID é uma variável de solução que tem um rótulo [!UICONTROL DEL-DEVICE] não modificável. Ela é preenchida a partir de um cookie, assim como a ID do visitante e a MCID. Ela deve ser excluída das ocorrências sempre que essas outras IDs forem excluídas. Consulte a descrição referente a essas variáveis para obter mais detalhes. |
 
 {style=&quot;table-layout:auto&quot;}
 
