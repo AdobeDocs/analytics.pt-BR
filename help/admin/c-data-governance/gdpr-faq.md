@@ -4,9 +4,9 @@ title: Perguntas frequentes sobre governança de dados
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1805'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Como o Adobe Analytics suporta as solicitações de acesso e exclusão dos usuários finais (titulares de dados) validadas pelos clientes (controladores de dados)?</b> </p> </td> 
-   <td colname="col2"> <p>Quando várias regras da Privacidade de dados (GDPR, CCPA) entrarem em vigor, o Adobe Analytics suportará o processamento de solicitações verificadas, enviadas pelos Controladores de dados para a API da Privacidade de dados da Experience Cloud, para permitir um processo mais automatizado. A API da Privacidade de dados da Adobe foi projetada para ajudar a processar as solicitações de direitos individuais (por exemplo, o acesso e a exclusão de solicitações) para os dados de clientes armazenados nas soluções da Adobe Experience Cloud. Ela é flexível e escalável de acordo com o número de solicitações de acesso e exclusão de dados recebidos pela sua empresa dos titulares de dados. Além disso, a API do Privacy Service permite que o cliente verifique o status de como as solicitações de acesso e exclusão de dados estão sendo atendidas. </p> <p>Para obter mais detalhes, consulte <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Documentação da API do Privacy Service. </a> </p> </td> 
+   <td colname="col2"> <p>Quando várias regras da Privacidade de dados (GDPR, CCPA) entrarem em vigor, o Adobe Analytics suportará o processamento de solicitações verificadas, enviadas pelos Controladores de dados para a API da Privacidade de dados da Experience Cloud, para permitir um processo mais automatizado. A API da Privacidade de dados da Adobe foi projetada para ajudar a processar as solicitações de direitos individuais (por exemplo, o acesso e a exclusão de solicitações) para os dados de clientes armazenados nas soluções da Adobe Experience Cloud. Ela é flexível e escalável de acordo com o número de solicitações de acesso e exclusão de dados recebidos pela sua empresa dos titulares de dados. Além disso, a API do Privacy Service permite que o cliente verifique o status de como as solicitações de acesso e exclusão de dados estão sendo atendidas. </p> <p>Para obter mais detalhes, consulte a <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Documentação da API do Privacy Service</a>.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Quem é responsável por receber, aceitar e atender às solicitações de Privacidade de dados de usuários finais?</b> </p> </td> 
@@ -48,7 +48,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Como os controladores de dados devem lidar com o consentimento relacionado ao envolvimento do usuário?</b> </p> </td> 
-   <td colname="col2"> <p>O GDPR e a CCPA são boas oportunidades para reconsiderar suas estratégias e práticas de gerenciamento de consentimento, inclusive determinar quando o consentimento é necessário e considerar a proposta de valor para o usuário. Considere a proposta de valor para a privacidade do cliente, que pode ajudar a impulsionar a conversão e a fidelidade. </p> <p>O espaço de gerenciamento de consentimento (por exemplo, ferramentas, padrões, práticas recomendadas) está evoluindo rapidamente e é uma área a ser observada. Para minimizar o impacto no envolvimento do usuário, os controladores devem trabalhar com os fornecedores neste espaço e seus advogados, e seguir as leis e orientações emergentes da UE sobre consentimento e cookies. Considere a "privacidade experiencial" usando uma experiência sobre a marca, relevante contextualmente, que define a proposta de valor de suas atividades de coleta de dados. </p> </td> 
+   <td colname="col2"> <p>O GDPR e a CCPA são boas oportunidades para reconsiderar suas estratégias e práticas de gerenciamento de consentimento, inclusive determinar quando o consentimento é necessário e considerar a proposta de valor para o usuário. Considere a proposta de valor para a privacidade do cliente, que pode ajudar a impulsionar a conversão e a fidelidade. </p> <p>O espaço de gerenciamento de consentimento (por exemplo, ferramentas, padrões, práticas recomendadas) está evoluindo rapidamente e é uma área a ser observada. Para minimizar o impacto no envolvimento do usuário, os controladores devem trabalhar com os fornecedores neste espaço e seus advogados, e seguir as leis e orientações emergentes da UE sobre consentimento e cookies. Considere a “privacidade experiencial” usando uma experiência sobre a marca, relevante contextualmente, que define a proposta de valor de suas atividades de coleta de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Como os controladores de dados devem lidar com a retenção de dados relacionada à Privacidade de dados?</b> </p> </td> 
