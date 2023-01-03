@@ -5,9 +5,9 @@ user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
 source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 95%
       + [Compartilhamento de marcas](get-started/company/co-branding-admin.md)
       + [Ocultar conjuntos de relatórios](get-started/company/c-hide-report-suites.md)
       + [Gerenciador de segurança](get-started/company/security-manager.md)
-+ Permissões de usuário no Admin Console do Adobe {#admin-console}
++ Permissões de usuário no Adobe Admin Console {#admin-console}
    + [Analytics no Adobe Admin Console](admin-console/home.md)
    + [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md)
    + [Funções de administrador no Adobe Analytics](admin-console/admin-roles-in-analytics.md)
@@ -61,14 +61,14 @@ ht-degree: 95%
    + [Relatórios de privacidade](admin/privacy-reporting.md)
    + [Gerenciador de atividades de relatórios](admin/reporting-activity.md)
    + [Relação de relatórios agendados](admin/scheduled-reports-admin.md)
-   + Gerenciador do Conjunto de relatórios {#manage-report-suites}
-      + [Gerenciar Conjuntos de relatórios](admin/c-manage-report-suites/report-suites-admin.md)
-      + [Conjuntos de relatórios globais e de acumulado](admin/c-manage-report-suites/rollup-report-suite.md)
+   + Gerenciador do conjunto de relatórios {#manage-report-suites}
+      + [Gerenciar conjuntos de relatórios](admin/c-manage-report-suites/report-suites-admin.md)
+      + [Conjuntos de relatórios globais e de rollup](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Salvar uma pesquisa do conjunto de relatórios](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [Fazer download das configurações do conjunto de relatórios](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Novo Conjunto de relatórios {#c-new-report-suite}
          + [Criar um novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Criar um conjunto de relatório de rollup](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [Criar um conjunto de relatórios de rollup](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [Criar um grupo de conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [Configurações do novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [Configurações não copiadas do conjunto de relatórios de origem](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -154,13 +154,13 @@ ht-degree: 95%
             + [Estimar chamadas de servidor antigas e agendar um pico de tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
             + [Especificar o aumento de tráfego permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
             + [Tempo de lead necessário para aumentos de tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
-         + [Configurações individuais do Conjunto de relatórios](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
+         + [Configurações individuais do conjunto de relatórios](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [Gerenciamento de aplicativos](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + Relatórios em Tempo real {#real-time-reports}
             + [Visão geral dos Relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuração de relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Métricas e dimensões em tempo real compatíveis](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
-   + [Menu Relatórios simplificado](admin/t-simplified-menu.md)
+   + [Menu de relatórios simplificado](admin/t-simplified-menu.md)
    + [Gerenciamento de vídeo](admin/video-management.md)
    + Uso de chamadas do servidor {#server-call-usage}
       + [Visão geral do uso de chamadas do servidor](admin/c-server-call-usage/overage-overview.md)
