@@ -2,10 +2,10 @@
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 87%
+source-wordcount: '1133'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ O Google divide as dicas do cliente de usuário-agente em duas categorias: dicas
 
 >[!NOTE]
 >
->As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics a partir de meados de janeiro de 2023. Atualmente, o AppMeasurement e o SDK da Web são compatíveis com a coleção de dados de dicas, mas esta não será usada na pesquisa de dispositivo até meados de janeiro. Isso é para evitar uma potencial interrupção dos relatórios durante o período crítico de fim de ano. Conforme observado abaixo, a versão do sistema operacional será congelada a partir de outubro, mas devido a uma implantação gradual e ao fato de a maioria dos agentes de usuário ser congelada para a versão correta do sistema operacional, estimamos que isso afetará menos de 3% dos visitantes que utilizam o Chrome.
+>As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics a partir de 25 de janeiro de 2023. Atualmente, o AppMeasurement e o SDK da Web são compatíveis com a coleção de dados de dicas, mas esta não será usada na pesquisa de dispositivo até meados de janeiro. Isso é para evitar uma potencial interrupção dos relatórios durante o período crítico de fim de ano. Conforme observado abaixo, a versão do sistema operacional será congelada a partir de outubro, mas devido a uma implantação gradual e ao fato de a maioria dos agentes de usuário ser congelada para a versão correta do sistema operacional, estimamos que isso afetará menos de 3% dos visitantes que utilizam o Chrome.
 
 >[!NOTE]
 >
@@ -149,6 +149,6 @@ Consulte a [documentação do esquema](https://github.com/adobe/xdm/blob/master/
 
 +++**O encaminhamento pelo lado do servidor do AAM será compatível com as dicas do cliente?**
 
-Sim. As dicas do cliente serão incluídas nos dados encaminhados ao AAM. Observe que o AAM requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html), talvez você queira ativar a coleção de dicas de alta entropia.
+Sim. As dicas do cliente serão incluídas nos dados encaminhados ao AAM. Observe que o AAM requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira ativar a coleção de dicas de alta entropia.
 
 +++
