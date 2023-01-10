@@ -6,8 +6,8 @@ breadcrumb-title: Guia de exportação
 user-guide-description: Saiba mais sobre como usar os feeds de dados para exportar dados brutos e o Data Warehouse para recuperar uma saída de dados em planilha. Saiba como usar o FTP e SFTP para transferir arquivos.
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 98%
 
 ---
 
