@@ -5,16 +5,16 @@ title: Visão geral das visualizações
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1155'
+ht-degree: 91%
 
 ---
 
 # Visão geral das visualizações
 
-O Workspace oferece várias visualizações que permitem gerar representações visuais de seus dados, como gráficos de barras, gráficos de rosca, histogramas, gráficos de linhas, mapas, gráficos de dispersão e outros. A maioria dos tipos de visualização será familiar se você usar o Adobe Analytics. Contudo, o Analysis Workspace fornece configurações de visualização e muitos tipos de visualizações exclusivos ou novos com recursos interativos.
+O Espaço de trabalho oferece várias visualizações que permitem gerar representações visuais de seus dados, como gráficos de barras, gráficos de rosca, histogramas, gráficos de linhas, mapas, gráficos de dispersão e outros. A maioria dos tipos de visualização será familiar se você usar o Adobe Analytics. Contudo, o Analysis Workspace fornece configurações de visualização e muitos tipos de visualizações exclusivos ou novos com recursos interativos.
 
 Você pode acessar as visualizações no ícone superior esquerdo do Workspace, em um [painel em branco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=pt-BR) ou pelo menu exibido ao clicar com o botão direito em seu fluxo de trabalho.
 
@@ -31,7 +31,7 @@ Os seguintes tipos de visualização estão disponíveis no Analysis Workspace:
 | [Rosca](/help/analyze/analysis-workspace/visualizations/donut.md) | Semelhante ao gráfico de pizza, essa visualização mostra os dados como partes ou segmentos de um todo. |
 | [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Os relatórios de fallout mostram onde os visitantes saíram e continuaram em uma sequência predefinida de páginas. Pode ser definido como sequências eventuais ou exatas |
 | [Fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Mostra os percursos exatos do cliente pelos sites e aplicativos. |
-| [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Uma tabela de forma livre não é apenas uma tabela de dados, mas também uma visualização interativa. É a base para a análise de dados no Workspace. |
+| [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Uma tabela de forma livre não é apenas uma tabela de dados, mas também uma visualização interativa. É a base para a análise de dados no Espaço de trabalho. |
 | [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Um histograma agrupa visitantes, visitas ou ocorrências em compartimentos com base em um volume de métrica. |
 | [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barras horizontais que representam vários valores de uma ou mais métricas. |
 | [Linha](/help/analyze/analysis-workspace/visualizations/line.md) | Representa as métricas que usam uma linha para mostrar como os valores são alterados durante um período. Um gráfico de linhas usa o tempo no eixo x. |
@@ -39,13 +39,29 @@ Os seguintes tipos de visualização estão disponíveis no Analysis Workspace:
 | [Gráfico de dispersão](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Mostra a relação entre itens de dimensão e até três métricas. |
 | [Número do resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Mostra a célula selecionada como um número grande. |
 | [Alteração de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Mostra a alteração entre as células selecionadas como um número grande/porcentagem. |
-| [Texto](/help/analyze/analysis-workspace/visualizations/text.md) | Permite adicionar texto definido pelo usuário à Workspace. Útil para adicionar contexto à análise e aos insights, além de aproveitar as descrições do painel/da visualização |
+| [Texto](/help/analyze/analysis-workspace/visualizations/text.md) | Permite adicionar texto definido pelo usuário ao Espaço de trabalho Útil para adicionar contexto à análise e aos insights, além de aproveitar as descrições do painel/da visualização |
 | [Mapas de árvore](/help/analyze/analysis-workspace/visualizations/treemap.md) | Exibe dados hierárquicos (estruturados em formato de árvore) como um conjunto de retângulos aninhados. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Usa círculos para descrever a sobreposição de métrica de até três segmentos. |
 
-## Configurações {#settings}
+## Personalizar configurações de visualização
 
-Cada visualização tem suas próprias configurações que podem ser gerenciadas. Para acessar [!UICONTROL Configurações de visualização], clique no ícone de engrenagem [!UICONTROL Configurações de visualização].
+Você pode personalizar as configurações de visualização para uma visualização individual, ou para todas as visualizações que criar.
+
+### Personalizar configurações de visualização para uma única visualização
+
+Para acessar [!UICONTROL Configurações de visualização] para uma visualização individual:
+
+1. No Analysis Workspace, passe o mouse sobre a visualização cujas configurações você deseja personalizar.
+
+1. Clique no ícone de engrenagem.
+
+   Cada tipo de visualização tem configurações exclusivas que podem ser personalizadas. Para obter informações sobre as configurações disponíveis, consulte [Configurações](#settings).
+
+### Personalizar configurações de visualização para todas as visualizações que você criar
+
+Você pode personalizar as configurações de todas as visualizações criadas. Para obter mais informações, consulte [Preferências do usuário](/help/analyze/analysis-workspace/user-preferences.md).
+
+## Configurações  {#settings}
 
 ![](assets/settings.png)
 
@@ -78,7 +94,7 @@ Para editar um rótulo de legenda:
 1. Digite o texto do novo rótulo.
 1. Pressione **[!UICONTROL Enter]** para salvar.
 
-## Clique com o botão direito do mouse no menu {#right-click}
+## Clique com o botão direito do mouse no menu  {#right-click}
 
 A funcionalidade adicional para uma visualização está disponível clicando com o botão direito do mouse no cabeçalho da visualização. As configurações variam de acordo com a visualização. Algumas das configurações disponíveis são:
 
