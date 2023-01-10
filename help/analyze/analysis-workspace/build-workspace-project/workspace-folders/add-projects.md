@@ -3,12 +3,10 @@ description: Saiba como adicionar pastas ao Espaço de trabalho
 keywords: Analysis Workspace
 title: Adicionar pastas ao Espaço de trabalho
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -17,11 +15,7 @@ ht-degree: 100%
 
 Você pode adicionar projetos a uma pasta na exibição de tabela ou de uma pasta.
 
->[!NOTE]
->
->Essa funcionalidade está atualmente na versão beta. Algumas telas podem mudar.
-
-## Na exibição de tabela
+## Na exibição de tabela {#table-view}
 
 Adicione projetos a uma pasta na exibição de tabela na página inicial.
 
@@ -47,7 +41,7 @@ Adicione projetos a uma pasta na exibição de tabela na página inicial.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## De dentro de uma pasta
+## De dentro de uma pasta {#inside-folder}
 
 Você também pode adicionar projetos de dentro de uma pasta usando o link de reticências.
 

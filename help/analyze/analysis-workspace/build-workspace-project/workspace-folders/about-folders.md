@@ -3,58 +3,55 @@ description: Saiba mais sobre Pastas no Espaço de trabalho
 keywords: Analysis Workspace
 title: Visão geral das pastas
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: 00c52c345be15522cd8f2aa30ab214ec05dc6575
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 18%
 
 ---
 
-# Sobre pastas em projetos do Espaço de trabalho
+# Sobre pastas no Analytics
 
-Pastas em Projetos do Espaço de trabalho é um sistema de gerenciamento de pastas localizado na página de destino do Espaço de trabalho.
+As pastas no Analytics são um sistema de gerenciamento de pastas exibido na página inicial da Adobe Analytics e quando **Workspace** > **Projetos** está selecionada.
 
->[!NOTE]
->
->Essa funcionalidade está atualmente na versão beta. Algumas telas podem mudar.
+As pastas no Workspace ajudam a organizar e categorizar seus projetos para obter uma melhor recuperação e acesso. Além disso, uma pasta empresarial compartilhada permite que os administradores criem e compartilhem conteúdo com todos os usuários do Workspace.
 
-Pastas em Projetos do Workspace ajudam os usuários a organizar e categorizar seus projetos para obter uma melhor recuperação e acesso. Além disso, uma Pasta de empresa compartilhada permite que Administradores criem e compartilhem conteúdo com todos os usuários do Espaço de trabalho. 
+Quando você tem uma longa lista de projetos, navegar até um projeto específico tem seus desafios. Com o recurso de pastas, é possível criar pastas e subpastas para gerenciar os projetos, facilitando a localização dos projetos quando eles são necessários.
 
-Quando você tem uma longa lista de projetos, navegar até um projeto específico tem seus desafios. Com o recurso de pastas, é possível criar pastas e subpastas para gerenciar os projetos, facilitando a localização dos projetos quando eles são necessários. 
+Há dois tipos de pastas no Workspace: a pasta Empresa e as pastas pessoais.
 
-Há dois tipos de pastas no Espaço de trabalho: a Pasta da empresa e as pastas pessoais.
+Ao fazer logon no Workspace, a página inicial de Projetos exibe uma lista de seus projetos junto com a pasta Empresa e qualquer pasta pessoal que você criou.
 
-Ao fazer logon no Workspace, a landing page exibe seus projetos ou os projetos que foram compartilhados com você. Você também verá a Pasta da empresa e qualquer pasta pessoal que você criou.
+![](/help/analyze/analysis-workspace/build-workspace-project/assets/landing-page2.png)
 
-![](/help/analyze/analysis-workspace/build-workspace-project/assets/landing-page.png)
+## Sobre a Pasta da empresa {#company-folder}
 
-## Sobre a Pasta da empresa
+A pasta Empresa é uma pasta de acesso compartilhado para projetos que os Administradores podem compartilhar com todos os usuários.
 
-Como administrador, você pode compartilhar projetos rapidamente com todos os usuários e agrupar projetos em subpastas para um grupo de usuários. Por exemplo, se você tiver um conjunto de projetos que deseja que seus profissionais de marketing usem para iniciar sua pesquisa, é possível criar uma pasta de Marketing na Pasta da empresa e, em seguida, colocar esses projetos na pasta de marketing. Isso fornece acesso direto a projetos compartilhados rapidamente e facilita para a equipe de marketing saber onde começar.
+Como administrador, você pode compartilhar projetos rapidamente com todos os usuários e agrupar projetos em subpastas para um grupo de usuários. Por exemplo, se você tiver um conjunto de projetos que deseja que seus profissionais de marketing usem para iniciar sua pesquisa, poderá criar uma pasta de Marketing na pasta Empresa e, em seguida, colocar os projetos selecionados na pasta de Marketing . Isso fornece acesso direto a projetos compartilhados rapidamente e facilita para a equipe de marketing saber onde procurar arquivos comuns.
 
-Quando um usuário faz logon no Workspace, a Pasta da empresa é adicionada automaticamente à lista de projetos e pastas. Não há permissões específicas para projetos contidos na Pasta da empresa.
+Quando um usuário faz logon no Workspace, a pasta Empresa é adicionada automaticamente à lista de projetos e pastas. Não há permissões específicas para projetos contidos na pasta Empresa.
 
-### Opções de administração
 
-Os administradores têm privilégios especiais atribuídos à Pasta da empresa. Por exemplo, somente Administradores podem adicionar ou remover pastas ou projetos na Pasta da empresa. Os usuários sem acesso de Administrador podem visualizar o conteúdo da Pasta da empresa.
+### Opções de administração {#admin-options}
 
-![](/help/analyze/analysis-workspace/build-workspace-project/assets/admin-access-co-folder.png)
+Os administradores têm privilégios especiais atribuídos à pasta Empresa. Por exemplo, somente Administradores podem adicionar ou remover pastas ou projetos na pasta Empresa. Os usuários sem acesso de Administrador podem visualizar o conteúdo da pasta Empresa .
+
+![](/help/analyze/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
 Os não administradores têm opções limitadas.
 
-![](/help/analyze/analysis-workspace/build-workspace-project/assets/non-admin-options.png)
+![](/help/analyze/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
 
-### Diretrizes da Pasta da empresa
+### Diretrizes da pasta da empresa {#company-folder-guidelines}
 
-- Os administradores podem adicionar projetos à Pasta da empresa ou criar um novo projeto e salvá-lo na Pasta da empresa. Os não administradores podem visualizar o conteúdo da Pasta da empresa.
+- Os administradores podem adicionar projetos à pasta Empresa ou criar um novo projeto e salvá-lo na pasta Empresa. Não administradores podem visualizar o conteúdo da pasta Empresa.
 
-- Administradores podem criar subpastas dentro da Pasta da empresa.
+- Administradores podem criar subpastas dentro da pasta Empresa.
 
-- Os administradores podem excluir uma pasta na Pasta da empresa criada por outro administrador. Os administradores podem precisar coordenar com outros administradores para manter as pastas e o acesso ao projeto consistentes.
+- Os administradores podem excluir uma pasta dentro da pasta Empresa criada por outro administrador. Os administradores podem precisar coordenar com outros administradores para manter o acesso à pasta e ao projeto consistente.
 
-- Quando um Administrador move um projeto para a Pasta da empresa, o projeto é compartilhado com todos, mesmo se os privilégios compartilhados originais foram restritos.
+- Quando um Administrador move um projeto para a pasta Empresa, o projeto é compartilhado com todos mesmo se os privilégios compartilhados originais foram restritos.
 
-- Quando um Administrador move um projeto para fora da Pasta da empresa, os privilégios de compartilhamento originais ou anteriores são respeitados.
+- Quando um Administrador move um projeto para fora da pasta Empresa, os privilégios de compartilhamento originais ou anteriores são respeitados.

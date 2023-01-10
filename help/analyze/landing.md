@@ -4,10 +4,10 @@ title: Página de aterrissagem do Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '3538'
-ht-degree: 100%
+source-git-commit: f13e282c83b76c28cd75dfd4964fa1a51cc60229
+workflow-type: tm+mt
+source-wordcount: '3582'
+ht-degree: 82%
 
 ---
 
@@ -21,23 +21,17 @@ A página de aterrissagem do Adobe Analytics reúne o [!DNL Analysis Workspace] 
 
 | Recurso | Descrição | Captura de tela |
 | --- | --- | --- |
-| Expandir a tabela [!UICONTROL Projetos] para tela inteira | Para expandir a tabela, basta clicar no ícone de menu de hambúrguer. Essa ação recolherá as guias do painel esquerdo. | ![Expandir tabela](assets/landing-collapse.png) |
-| Personalizar a largura da coluna | Anteriormente, a largura da coluna era fixa. Agora é possível ajustá-la arrastando o separador de colunas. |  |
+| Expandir a tabela [!UICONTROL Projetos] para tela inteira | Para expandir a tabela, basta clicar no ícone de menu de hambúrguer. Essa ação recolherá as guias do painel esquerdo. | ![Expandir tabela](assets/landing-collapse2.png) |
+| Personalizar a largura da coluna | Anteriormente, a largura da coluna era fixa. Agora é possível ajustá-la arrastando o separador de colunas. | ![Largura da coluna](assets/column-width.png) |
 | Reordenar itens fixados | Para mover os itens fixados para cima e para baixo, clique nas reticências ao lado do item fixado e selecione **[!UICONTROL Mover para cima]** ou **[!UICONTROL Mover para baixo]**. | ![Mover itens fixados](assets/move-up-down.png) |
 | Novas colunas da tabela | Clique no ícone [!UICONTROL Personalizar tabela] na parte superior direita da tabela. As novas colunas da tabela incluem: <ul><li>**[!UICONTROL Agendado]**: definido como [!UICONTROL Ativado] quando um projeto estiver agendado ou [!UICONTROL Desativado] quando não estiver. Clicar no link [!UICONTROL Ativado] permite ver informações sobre o projeto agendado. Você também pode [editar o agendamento do projeto](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) se for o proprietário do projeto.</li><li>**[!UICONTROL ID do projeto]**: a ID do projeto pode ser usada para depurar projetos.</li><li>**[!UICONTROL Intervalo de datas mais longo]**: intervalos de datas mais longos aumentam a complexidade do projeto e podem aumentar os tempos de processamento e carregamento. </li><li>**[!UICONTROL Número de consultas]**: o número total de solicitações feitas no Analytics quando o projeto é carregado. Um número maior de consultas de projeto aumenta a complexidade do projeto e pode aumentar os tempos de processamento e carregamento. Esses dados só estão disponíveis depois que um projeto é carregado ou depois que um projeto agendado é enviado. </li></ul> | ![Novas colunas](assets/new-columns.png) |
 | Clique uma vez para abrir um relatório | Anteriormente, você precisava clicar duas vezes. |  |
 | Novos links para os relatórios do **[!UICONTROL Reports &amp; Analytics]** | <ul><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Público]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Público]** > **[!UICONTROL Páginas de bot]**<li>**[!UICONTROL Relatórios]** > **[!UICONTROL Envolvimento]** > **[!UICONTROL Tempo real]**</li></ul> | ![Novos links](assets/report-links.png) |
 | Novos relatórios prontos para uso | <ul><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Mais popular]** > **[!UICONTROL Próxima página]**</li><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Mais popular]** > **[!UICONTROL Página anterior]**</li><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Envolvimento]** > **[!UICONTROL Análise de página]** > **[!UICONTROL Resumo da página]**</li></ul>Observe que esses relatórios estão no formato do [!UICONTROL Espaço de trabalho] e precisam ser configurados e criados. A saída consiste em um painel de métricas de alto nível, dados de tendências, visualização de [!UICONTROL Fluxo] e muito mais. Você pode modificar esses relatórios e alterar dimensões, itens de dimensão etc. Esses relatórios também estão disponíveis como painéis em Painéis do Espaço de trabalho. | ![Próxima página](assets/next-page.png) |
-| O modal **[!UICONTROL Criar novo]** voltou | Ao clicar em **[!UICONTROL Criar novo]** no Espaço de trabalho, você novamente terá a escolha entre um [!UICONTROL Projeto em branco] e um [!UICONTROL Cartão de pontuação móvel em branco]. Você também pode escolher a partir de qualquer modelo criado por sua empresa. | ![Criar novo](assets/create-new.png) |
-| Também disponível no CJA | Uma versão modificada dessa página de aterrissagem também estará disponível no CJA. |  |
+| **[!UICONTROL Criar projeto]** modal está de volta | Ao clicar em **[!UICONTROL Criar projeto]** no Workspace, você novamente terá a escolha entre uma [!UICONTROL Projeto em branco] e [!UICONTROL Scorecard para dispositivos móveis em branco]. Você também pode escolher a partir de qualquer modelo criado por sua empresa. | ![Criar novo](assets/create-new.png) |
+| Também disponível no Customer Journey Analytics | Essa landing page, em um formulário modificado, também está disponível no CJA. |  |
 
 {style=&quot;table-layout:auto&quot;}
-
-## Acessar a página de aterrissagem {#access-landing}
-
-Depois de fazer logon na Adobe Experience Cloud e no Analytics, ative o botão [!UICONTROL Nova página de aterrissagem — Beta] no canto inferior esquerdo. O acesso ao botão de alternância é específico ao usuário por organização, não por empresa.
-
-![Página de aterrissagem](assets/landing.png)
 
 ## Estrutura do menu superior {#top-menu}
 
@@ -48,45 +42,46 @@ Depois de fazer logon na Adobe Experience Cloud e no Analytics, ative o botão [
 
 ### Terminologia
 
-* **[!UICONTROL Projetos]** são itens que você criou ou que outra pessoa criou e compartilhou com você. [!UICONTROL Projetos] também se refere a projetos em branco e scorecards para dispositivos móveis em branco.
+* **[!UICONTROL Projetos]** são designs personalizados que combinam componentes de dados, tabelas e visualizações que você criou ou que outra pessoa criou e compartilhou com você. [!UICONTROL Projetos] também se refere a projetos em branco e scorecards para dispositivos móveis em branco.
 * **[!UICONTROL Os relatórios]** se referem a tudo que foi pré-criado pela Adobe, como os relatórios no Reports &amp; Analytics e os modelos no Espaço de trabalho.
 * **[!UICONTROL Os modelos]** não são mais usados como termo para projetos do Espaço de trabalho pré-criados pela Adobe. Agora eles estão em [!UICONTROL Relatórios]. O termo [!UICONTROL Modelos] ainda é usado para modelos criados por sua empresa.
 
 ## Navegue até a guia [!UICONTROL Projetos] {#navigate-projects}
 
-[!UICONTROL Os projetos] servem como página inicial do [!UICONTROL Espaço de trabalho]. Qualquer projeto do Espaço de trabalho é exibido aqui, incluindo scorecards para dispositivos móveis.
+[!UICONTROL Os projetos] servem como página inicial do [!UICONTROL Espaço de trabalho]. A guia Projetos exibe a pasta Empresa, qualquer pasta pessoal criada, seus projetos e scorecards para dispositivos móveis. Use esta página para exibir, criar e modificar pastas, projetos e scorecards para dispositivos móveis. Para obter mais informações, consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
-![Exibindo todos](assets/landing-all.png)
+![Exibindo todos](assets/landing-all2.png)
 
 >[!NOTE]
 >
->Várias das seguintes configurações persistem (são lembradas) durante a sessão e entre sessões. Exemplos: em qual guia você está, quais filtros foram selecionados, quais colunas foram selecionadas e a direção da classificação da coluna. No entanto, os resultados da pesquisa não são persistentes.
+>Várias das seguintes configurações persistem durante a sessão e entre sessões. Por exemplo, a guia selecionada, os filtros selecionados, as colunas selecionadas e a direção de classificação da coluna. Os resultados da pesquisa não são persistentes.
 
 | Elemento da interface | Definição |
 | --- | --- |
-| ... Mais | Permite [!UICONTROL Exibir Tutoriais] e [Editar preferências de usuário](/help/analyze/analysis-workspace/user-preferences.md). |
-| [!UICONTROL Criar projeto] | O menu suspenso permite criar um [!UICONTROL projeto do Espaço de trabalho] ou um [!UICONTROL projeto móvel]. |
-| [!UICONTROL Mostrar menos/mais] | Alterna entre não mostrar e mostrar o banner: ![Banner superior](assets/top-banner.png) |
-| [!UICONTROL Projeto em branco] | Cria um [projeto do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR) em branco para que você o preencha. |
-| [!UICONTROL Cartão de pontuação móvel em branco] | Cria um [cartão de pontuação móvel](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=pt-BR) em branco para que você o preencha. |
-| [!UICONTROL Abrir tutorial de treinamento] | Abre o tutorial de treinamento do Espaço de trabalho que orienta novos usuários por meio da criação de um projeto passo a passo. |
+| Editar preferências | Permite [!UICONTROL Exibir Tutoriais] e [Editar preferências de usuário](/help/analyze/analysis-workspace/user-preferences.md). |
+| [!UICONTROL Criar novo] | Abre o modal do projeto, onde é possível criar um projeto do Workspace ou um Scorecard móvel ou abrir um modelo de empresa. |
+| [!UICONTROL Mostrar menos<br> Mostrar mais] | Alterna entre não mostrar e mostrar o banner: ![Banner superior](assets/top-banner.png) |
+| [!UICONTROL Projeto do Espaço de trabalho] | Cria um em branco [Projeto do Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR) para que você crie e crie. |
+| [!UICONTROL Scorecard para dispositivos móveis] | Cria um em branco [scorecard móvel](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=pt-BR) para que você crie e crie. |
+| [!UICONTROL Abrir tutorial de treinamento] | Abre o tutorial de treinamento do Workspace que o orienta pelo processo de criação de um novo projeto inicial em um tutorial passo a passo. |
 | [!UICONTROL Abrir notas de versão] | Abre a seção Adobe Analytics das notas de versão mais recentes do Adobe Experience Cloud. |
-| Ícone Filtrar | Você pode filtrar por tags, conjuntos de relatórios, proprietários, tipos e outros filtros (Meus, Compartilhados comigo, Favoritos e Aprovados) |
-| Barra de pesquisa | A pesquisa agora inclui todas as colunas na tabela. |
-| Caixa de seleção | Clicar nesta caixa ao lado de um ou mais projetos exibe as ações de gerenciamento de projetos que você pode executar: Excluir, Marcar, Fixar, Aprovar, Compartilhar, Renomear, Copiar e Exportar para CSV. Talvez você não tenha permissões para executar todas essas ações. |
-| [!UICONTROL Favoritos] | Marcar um projeto como favorito coloca uma estrela junto a ele e o marca como um favorito que você pode filtrar. |
-| [!UICONTROL Nome] | O nome do projeto. |
-| Ícone Fixar | Agora é possível fixar itens de modo que eles *sempre* apareçam no topo da lista. |
-| Ícone Informações (i) | Clicar no ícone de informações mostra as seguintes informações sobre este projeto: Tipo, Função do projeto, Proprietário, Descrição e com quem ele é compartilhado. Também indica quem pode [editar ou duplicar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) o projeto. |
-| Reticências (...) | As reticências ao lado de um projeto exibem as ações de gerenciamento de projeto que você pode executar: Excluir, Marcar, Fixar, Aprovar, Compartilhar, Renomear, Copiar e Exportar para CSV. Observe que talvez você não tenha permissões para executar todas essas ações. |
-| [!UICONTROL Tipo] | Indica se é um projeto do Espaço de trabalho ou um cartão de pontuação móvel. |
-| [!UICONTROL Tags] | Você pode adicionar tags aos relatórios para organizá-los em grupos. |
-| [!UICONTROL Função do projeto] | As funções de projeto determinam se você é o proprietário do projeto e se você tem permissões para Editar ou Duplicar o projeto. |
-| [!UICONTROL Conjunto de relatórios] | Tabelas e visualizações em um painel derivam dados do conjunto de relatórios selecionado na parte superior direita do painel. O conjunto de relatórios também determina quais componentes estão disponíveis no painel esquerdo. Em um projeto, você pode usar um ou vários conjuntos de relatórios dependendo dos casos de uso da análise. A lista de conjuntos de relatórios é classificada de acordo com a relevância. O Adobe define a relevância com base na recente e frequente utilização do conjunto pelo usuário atual e na frequência com que o conjunto é usado na organização. |
-| [!UICONTROL Proprietário] | A pessoa que criou o projeto. |
-| [!UICONTROL Aberto pela última vez] | Quando este projeto foi aberto pela última vez por você. |
-| Ícone Personalizar tabela | (Parte superior direita) Se quiser adicionar ou remover colunas da lista de projetos, selecione-as ou desmarque-as. |
-| &lt; (Botão voltar) | Esse botão em um projeto do Espaço de trabalho ou em um relatório direciona você para a configuração mais recente da página de aterrissagem. Qualquer configuração de página que você tenha ao sair da página de aterrisagem persistirá ao retornar. |
+| Ícone Filtrar | Filtros por tags, conjuntos de relatórios, proprietários, tipos e outros filtros (Meus, Compartilhados comigo, Favoritos e Aprovados) |
+| Barra de pesquisa | Pesquisa todas as colunas na tabela. |
+| Caixa de seleção | Seleciona um ou mais projetos para exibir as ações de gerenciamento de projetos que você pode executar: **Excluir**, **Compartilhar**, **Renomear**, **Copiar**, **Remover**, **Mover para cima**, **Mover para baixo**, **Tag**, **Aprovar**, **Exportar CSV** e **Mover para**. Talvez você não tenha permissões para executar todas as ações listadas. |
+| [!UICONTROL Favoritos] | Adiciona uma estrela ao lado de um projeto ou pasta favorita que pode ser usada como filtro. |
+| [!UICONTROL Nome] | Identifica o nome do projeto. |
+| Ícone Fixar | Pinos itens para que eles sempre apareçam na parte superior da lista, mas você pode reajustar a ordem movendo-os para cima ou para baixo na ordem. Use o menu de opções de reticências e selecione **Mover para cima** ou **Mover para baixo** na lista. |
+| Ícone Informações (i) | Exibe as seguintes informações sobre um projeto: Tipo, Função do projeto, Proprietário, Descrição e com quem ele é compartilhado. Também indica quem pode [editar ou duplicar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) o projeto. |
+| Reticências (...) | Exibe as ações de gerenciamento de projeto que você pode executar: **Excluir**, **Compartilhar**, **Renomear**, **Copiar**, **Remover**, **Mover para cima**, **Mover para baixo**, **Tag**, **Aprovar**, **Exportar CSV** e **Mover para**. Talvez você não tenha permissões para executar todas as ações listadas. |
+| [!UICONTROL Tipo] | Indica se esse tipo é um projeto do Workspace, um scorecard móvel ou uma pasta. |
+| [!UICONTROL Tags] | Marque projetos para organizá-los em grupos. |
+| [!UICONTROL Função do projeto] | Identifica as funções do projeto: se você é o Proprietário do projeto e se tem permissões para Editar ou Duplicar o projeto. |
+| [!UICONTROL Conjunto de relatórios] | Identifica os Conjuntos de relatórios associados ao projeto.<br>Tabelas e visualizações em um painel derivam dados do conjunto de relatórios selecionado na parte superior direita do painel. O conjunto de relatórios também determina quais componentes estão disponíveis no painel esquerdo. Em um projeto, você pode usar um ou vários conjuntos de relatórios dependendo dos casos de uso da análise. A lista de conjuntos de relatórios é classificada de acordo com a relevância. O Adobe define a relevância com base na recente e frequente utilização do conjunto pelo usuário atual e na frequência com que o conjunto é usado na organização. |
+| [!UICONTROL Proprietário] | Identifica a pessoa que criou o projeto. |
+| [!UICONTROL Aberto pela última vez] | Identifica a data em que o projeto foi aberto pela última vez. |
+| Ícone Personalizar tabela | Seleciona quais colunas exibir na tabela. Para adicionar ou remover colunas da lista de projetos, clique no ícone de coluna (![Aterrissando tudo](/help/analyze/assets/select-column.png) ) no canto superior direito, em seguida, selecione ou desmarque os títulos das colunas. |
+| MOSTRAR: Pastas e projetos ou todos os projetos | Altera a configuração de exibição na tabela para mostrar pastas e projetos de acordo com a organização da pasta **ou** mostrar todos os seus projetos em uma lista não organizada. |
+| &lt; (Botão voltar) | Retorna à configuração de página inicial mais recente em um projeto do Workspace ou em um relatório. A configuração de página que você tinha ao sair da landing page persistirá ao retornar. |
 
 ## Clique na guia [!UICONTROL Relatórios] {#navigate-reports}
 
@@ -94,13 +89,12 @@ A guia [!UICONTROL Relatório] consolida três conjuntos de relatórios:
 
 * Os modelos pré-criados do [!UICONTROL Espaço de trabalho] que estavam anteriormente localizados em [!UICONTROL Espaço de trabalho] > [!UICONTROL Projeto] > [!UICONTROL Novo]. A Adobe não usa mais a palavra “modelo” neste contexto.
 * A maioria dos relatórios pré-criados no menu superior de [!UICONTROL Relatórios] do Adobe Analytics anterior. Esses relatórios agora são exibidos no [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR).
-* Tudo o que sua empresa criou para você.
 
 >[!IMPORTANT]
 >
 >Em Relatórios, uma pasta Favoritos será exibida somente se você marcar um novo relatório como favorito. Nenhum favorito preexistente do Reports &amp; Analytics é transportado.
 
-![Guia Relatórios](assets/reports-tab.png)
+![Guia Relatórios](assets/reports-tab2.png)
 
 Como mencionado anteriormente, só os relatórios mais usados antes e agrupados em Reports &amp; Analytics estão disponíveis aqui. Vários relatórios raramente usados ou que não são mais relevantes não foram transferidos. Consulte as perguntas frequentes a seguir para obter mais detalhes.
 
@@ -115,7 +109,6 @@ Aqui estão os novos menus e seus submenus. Se não conseguir encontrar um relat
 | **[!UICONTROL Conversão]** | <ul><li>Produtos > Produtos (quais produtos estão impulsionando minhas métricas principais?)</li><li>Produtos > Desempenho do produto (quais produtos estão tendo o melhor desempenho?)</li><li>Produtos > Categorias (quais são minhas categorias de produtos com melhor desempenho?)</li><li>Carrinho de compras > Carrinhos (quantos usuários adicionaram um produto ao carrinho?)</li><li>Carrinho de compras > Visualizações do carrinho (quantas vezes meus visitantes visualizaram os carrinhos?)</li><li>Carrinho de compras > Adições ao carrinho (com que frequência os usuários adicionam um produto ao carrinho?)</li><li>Carrinho de compras > Remoções do carrinho (com que frequência os usuários removem um produto do carrinho?)</li><li>Compras > Receita (como minha receita está funcionando?)</li><li>Compras > Pedidos (como meus pedidos estão se saindo?)</li><li>Compras > Unidades (quantas unidades estou vendendo?)</li><li>[Magento: marketing e comércio](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#commerce)</li></ul> |
 | **[!UICONTROL Público-alvo]** | <ul><li>Métrica de pessoas (quantas pessoas interagem com minha marca?)</li><li>Perfil do visitante > Visão geral de localização (quais locais estão promovendo mais uso entre os usuários)</li><li>Perfil do visitante > Geosegmentação > Geo Counties, Geo US States, Geo Regions, Geo Cities, Geo US DMA (quais regiões meus usuários estão visitando?)</li><li>Perfil do visitante > Idiomas (qual idioma meus usuários preferem?)</li><li>Perfil do visitante > Fusos horários (em quais fusos horários meus usuários estão visitando?)</li><li>Perfil do visitante > Domínios (quais ISPs meus visitantes estão usando para acessar meu site?)</li><li>Perfil do visitante > Domínios de nível superior (quais domínios estão direcionando o tráfego para meu site?)</li><li>Perfil do visitante > Tecnologia > Visão geral da tecnologia (que tecnologias as pessoas estão usando para acessar meu site?)</li><li>Perfil do visitante > Tecnologia > Navegadores, tipo de navegador, largura do navegador, altura do navegador (qual navegador da empresa, versão do navegador e sua largura e altura as pessoas estão usando para acessar meu site?)</li><li>Perfil do visitante > Tecnologia > Sistema operacional, Tipos de sistema operacional (qual SO e qual versão dele meus visitantes usam?)</li><li>Perfil do visitante > Tecnologia > Operadora de celular (quais operadoras de celular meus visitantes usam para acessar meu site?)</li><li>Retenção de visitante > Frequência de retorno (quanto tempo passa entre a visita atual do usuário e as visitas anteriores?)</li><li>Retenção de visitante > Visitas de retorno (quantas de minhas visitas são usuários recorrentes?)</li><li>Retenção de visitante > Número da visita (que contém o número da visita que direciona a maioria das minhas métricas principais)</li><li>Retenção de visitante > Ciclo de vendas > Fidelidade do cliente (a qual segmento de fidelidade meus usuários pertencem?)</li><li>Retenção de visitante > Ciclo de vendas > Dias antes da primeira compra (quantos dias se passaram entre a primeira visita de meus usuários e a primeira compra?)</li><li>Retenção de visitante > Ciclo de vendas > Dias desde a última compra (quantos dias se passaram entre a visita atual de meus usuários e a última compra? )</li><li>Retenção de visitante > Dispositivo móvel > Dispositivos e tipos de dispositivo (quais dispositivos e tipos de dispositivo meus visitantes estão usando?)</li><li>Retenção de visitante > Dispositivo móvel > Fabricante (qual fabricante de dispositivo móvel meus visitantes usam?)</li><li>Retenção de visitante > Dispositivo móvel > Tamanho da tela, Altura da tela, Largura da tela (que tamanho/altura/largura da tela móvel meus visitantes têm?)</li><li>Retenção de visitante > Dispositivo móvel > [Uso de aplicativo móvel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#mobile)</li><li>Retenção de visitante > Dispositivo móvel > [Jornadas de aplicativo móvel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#mobile)</li><li>Retenção de visitante > Dispositivo móvel > [Métricas de aplicativo móvel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#mobile)</li><li>Retenção de visitante > Dispositivo móvel > [Mensagens de aplicativo móvel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#mobile)</li><li>Retenção de visitante > Dispositivo móvel > [Desempenho do aplicativo móvel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#mobile)</li><li>Retenção de visitante > Dispositivo móvel > [Retenção de aplicativo móvel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#mobile)</li></ul> |
 | **[!UICONTROL Aquisição]** | <ul><li>Canais de marketing > Canal de primeiro contato, Detalhes do canal de primeiro contato (qual canal de primeiro contato e qual canal de primeiro contato específico está tendo o melhor desempenho?)</li><li>Canais de marketing > Primeiro último canal, Detalhes do primeiro último canal (qual canal de último contato e qual canal de último contato específico está tendo o melhor desempenho?)</li><li>Campanhas > Campanhas (quais campanhas estão impulsionando minhas principais métricas?)</li><li>Campanhas > Desempenho da campanha (que campanhas estão gerando mais receita?)</li><li>Campanhas > Código de rastreamento (quais códigos de rastreamento de campanha têm o melhor desempenho?)</li><li>[Aquisição na web](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#web)</li><li>[Aquisição por dispositivo móvel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#mobile)</li><li>[Advertising Analytics: pesquisa paga](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#advertising)</li><li>Palavras-chave de pesquisa — todas, pagas, naturais (quais palavras-chave de pesquisa e palavras-chave de pesquisa pagas/naturais direcionam minhas métricas principais da melhor maneira?)</li><li>Mecanismos de pesquisa — todos, pagos, naturais (quais mecanismos de pesquisa e mecanismos de pesquisa pagos/naturais direcionam minhas métricas principais da melhor maneira?)</li><li>Toda a classificação da página de pesquisa (de qual página de pesquisa meus usuários chegam?)</li><li>Domínios de referência (quais domínios estão direcionando tráfego para meu site?)</li><li>Domínios de referência originais (quais foram os primeiros usuários de domínio antes de visitar meu site?)</li><li>Referenciadores (em quais URLs meus usuários estavam antes de clicar no meu site?)</li><li>Tipos de referenciadores (a qual categoria meus URLs de referência pertencem?)</li></ul> |
-| **[!UICONTROL Relatórios da empresa]** | Relatórios criados por sua empresa para uso. Consulte “Criar um relatório de empresa” abaixo. |
 
 ### Localização dos modelos (agora chamados de relatórios) {#templates}
 
@@ -162,9 +155,9 @@ Para usuários atuais do Reports &amp; Analytics, veja a seguir uma breve introd
    * Você pode alterar o intervalo de datas acessando o calendário no canto superior direito.
    * Você pode adicionar detalhamentos de dimensão, arrastar outras métricas e, em geral, personalizar o relatório da maneira que desejar.
 
-### Criar um relatório de empresa (personalizado) {#company-report}
+### Criar um relatório de empresa personalizado {#company-report}
 
-Os relatórios personalizados são chamados de Relatórios da empresa e são encontrados no menu Relatórios da empresa (veja abaixo). Todos os relatórios criados anteriormente e os novos estão listados aqui.
+Os relatórios personalizados criados e salvos para que outras pessoas em sua empresa de logon possam usá-los são chamados de relatórios da empresa. Os relatórios da empresa criados anteriormente e os relatórios da empresa recém-criados estão listados no modal Criar projeto , como mostrado abaixo.
 
 Para criar um novo Relatório de empresa,
 
@@ -175,7 +168,7 @@ Para criar um novo Relatório de empresa,
 
 1. Adicione todos os campos desejados ao modal e salve-os.
 
-   O relatório é adicionado à lista de Relatórios da empresa e está disponível para quem está na sua empresa de logon.
+   O relatório é adicionado à lista Relatórios da empresa no modal Criar projeto e está disponível para aqueles em sua empresa de logon.
 
 Mais opções de aprendizagem:
 
@@ -192,7 +185,7 @@ A página Aprendizado contém tutoriais e visitas de vídeo práticos, além de 
 * Clicar em um vídeo/tour adiciona uma tag **[!UICONTROL Visualizada]**. Essa tag ajuda a rastrear o progresso pelo conteúdo de aprendizagem. Caso ainda não tenha concluído o conteúdo, você poderá clicar na tag, e ela desaparecerá.
 * O botão **[!UICONTROL Saiba mais]** no modal de vídeo leva você a uma página de documentação do Adobe Experience League com mais conteúdo de ajuda relacionado ao vídeo que você acabou de assistir.  **[!UICONTROL Ver mais vídeos]** leva você à lista de reprodução completa do Analysis Workspace YouTube.
 
-## Definir sua página de aterrissagem {#set-landing}
+## Definir a landing page {#set-landing}
 
 Os usuários podem definir sua página de aterrissagem preferencial.
 
@@ -213,7 +206,6 @@ Os administradores podem ocultar a guia Relatórios para todos os usuários em s
 | Pergunta | Resposta |
 | --- | --- |
 | Onde estão os modelos que estou acostumado a ver no [!UICONTROL Espaço de trabalho]? | Esses modelos estão agrupados na guia [!UICONTROL Relatórios] |
-| Posso recusar o beta? | Você pode recusar o beta a qualquer momento. |
 | O trabalho que eu realizo na interface do programa beta é transferido para a experiência do [!UICONTROL Espaço de trabalho] de produção? | Sim, qualquer trabalho realizado no beta é transferido para a experiência antiga/atual do [!UICONTROL Espaço de trabalho.] |
 | Meus favoritos atuais do [!DNL Reports & Analytics] são transferidos? | Não, eles NÃO são transferidos. No entanto, todos os favoritos de projetos do [!UICONTROL Espaço de trabalho] são transferidos. |
 | Há um número máximo de projetos que eu posso fixar? | Não, não há limite para o número de projetos que você pode fixar. |
