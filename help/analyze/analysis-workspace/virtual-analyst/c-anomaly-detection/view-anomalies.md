@@ -4,10 +4,10 @@ title: Exibir anomalias no Analysis Workspace
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
+source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 15%
+source-wordcount: '467'
+ht-degree: 16%
 
 ---
 
@@ -59,7 +59,7 @@ Para exibir anomalias em um gráfico de linhas:
 
    O **linha pontilhada** é o valor esperado exato.
 
-1. Clique em um ponto branco para exibir as seguintes informações sobre a anomalia:
+1. Clique em uma anomalia (ponto branco) para exibir as seguintes informações:
 
    * A data em que a anomalia ocorreu
 
