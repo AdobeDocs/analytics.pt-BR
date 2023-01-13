@@ -3,10 +3,10 @@ description: Exemplos de rótulos de privacidade de dados para variáveis do Ado
 title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
-workflow-type: ht
+source-git-commit: 4f7282f22cba344a86efca992ea273af0707cdcf
+workflow-type: tm+mt
 source-wordcount: '3685'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Antes de descobrir quais rótulos devem ser aplicados a quais campos/variáveis,
 
 A implementação da Privacidade de dados do Adobe Analytics oferece suporte aos seguintes rótulos para dados de identidade, dados sensíveis e governança de dados.
 
-## Rótulos de DULE {#dule-labels}
+## Rótulos DULE {#dule-labels}
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Um rótulo de exclusão é necessário apenas para campos que contenham um valor
 
 {style=&quot;table-layout:auto&quot;}
 
-## Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Forneça um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON {#provide-namespace}
 
 Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solicitação para fornecer um namespace. Você pode usar um namespace definido anteriormente ou definir um novo.
 
@@ -146,7 +146,7 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variáveis às quais outros rótulos, além de ACC-ALL/ACC-PERSON, podem ser atribuídos ou modificados {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variáveis às quais outros rótulos, além de ACC-ALL/ACC-PERSON, podem ser atribuídos ou modificados {#variables}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -202,14 +202,14 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
    <td colname="col4"> <p>Você não pode remover o rótulo de DEL, mas pode alterá-lo para DEL-DEVICE ou DEL-PERSON, ou ambos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Ação ClickMap (herdado), </p> <p>Contexto do ClickMap (herdado), </p> <p>Página, </p> <p>URL da página, </p> <p>URL da página de entrada original, </p> <p>Referenciador, </p> <p>URL da página de início da visita </p> </td> 
+   <td colname="col2"> <p>Ação do ClickMap (herdado), </p> <p>Contexto do ClickMap (herdado), </p> <p>Página, </p> <p>URL da página, </p> <p>URL da página de entrada original, </p> <p>Referenciador, </p> <p>URL da página de início da visita </p> </td> 
    <td colname="col3"> <p>Nenhum / I1 / I2 </p> <p>Nenhum/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>As variáveis podem conter parâmetros de URL, que podem incluir dados direta ou indiretamente identificáveis. Se a sua implementação não coletar dados direta ou indiretamente identificáveis nessas variáveis, elas não precisarão de rótulos de identidade ou de exclusão. </p> <p>Observe que a exclusão limpa os parâmetros de URL, mas preserva o URL de base. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Lidar com exclusões {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Lidar com exclusões {#deletion}
 
 O suporte do Adobe Analytics para solicitações de exclusão da Privacidade de dados foi projetado para minimizar os impactos a relatórios. Na maioria dos casos, as métricas exibidas nos relatórios não devem ser alteradas. Um relatório histórico que foi executado antes de uma exclusão da Privacidade de dados corresponderá ao mesmo relatório executado depois da exclusão. Isso é feito ao desvincular completamente os dados excluídos do titular dos dados, deixando os dados não identificáveis no lugar, de forma que os valores relatados permaneçam consistentes.
 
@@ -226,7 +226,7 @@ A tabela a seguir descreve como as variáveis são “excluídas”. Esta não �
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variáveis não compatíveis com os rótulos de exclusão esperados {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variáveis não compatíveis com os rótulos de exclusão esperados {#no-delete-support}
 
 Esta seção pretende esclarecer informações sobre as variáveis do Analytics que não oferecem suporte à exclusão. Às vezes, essas variáveis são excluídas por usuários que não usam o Analytics (como a equipe jurídica) que não compreendem o tipo de dados contidos na variável e fazem suposições incorretas com base no nome da variável. Veja a seguir uma lista de algumas dessas variáveis e por que elas não exigem exclusão ou por que elas não exigem um rótulo de exclusão específico.
 
