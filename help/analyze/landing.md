@@ -4,10 +4,10 @@ title: Página de aterrissagem do Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: f13e282c83b76c28cd75dfd4964fa1a51cc60229
+source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 82%
+source-wordcount: '3727'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,18 @@ A página de aterrissagem do Adobe Analytics reúne o [!DNL Analysis Workspace] 
 | Ícone Personalizar tabela | Seleciona quais colunas exibir na tabela. Para adicionar ou remover colunas da lista de projetos, clique no ícone de coluna (![Aterrissando tudo](/help/analyze/assets/select-column.png) ) no canto superior direito, em seguida, selecione ou desmarque os títulos das colunas. |
 | MOSTRAR: Pastas e projetos ou todos os projetos | Altera a configuração de exibição na tabela para mostrar pastas e projetos de acordo com a organização da pasta **ou** mostrar todos os seus projetos em uma lista não organizada. |
 | &lt; (Botão voltar) | Retorna à configuração de página inicial mais recente em um projeto do Workspace ou em um relatório. A configuração de página que você tinha ao sair da landing page persistirá ao retornar. |
+
+### Descontinuação da página do Gerenciador de projetos {#deprecate-pm-page}
+
+Com o lançamento da nova landing page, descontinuamos o Gerenciador de projetos, conforme listado no Gerenciador de componentes. A nova landing page lida com toda a funcionalidade da antiga página do Gerenciador de projetos e muito mais.
+
+Um caso de uso comum para a página Gerenciador de projetos era exibir todos os seus projetos. Para exibir todos os projetos na nova página de aterrissagem usando o painel de filtros, selecione **OUTROS FILTROS** e depois selecione **Mostrar tudo**.
+
+![Outros filtros](assets/other-filters.png)
+
+Se você estiver na visualização &quot;Pastas e projetos&quot;, aparecerá uma modal perguntando se deseja alternar para a visualização &quot;Todos os projetos&quot;, o que facilita a visualização de todos os projetos fora de qualquer pasta em que eles possam estar organizados.   Selecionar **Alternar para a exibição &quot;Todos os projetos&quot;** para visualizar melhor todos os projetos aos quais você tem acesso.
+
+![Alternar para Todos os projetos](assets/switch-all-projects-view.png)
 
 ## Clique na guia [!UICONTROL Relatórios] {#navigate-reports}
 
