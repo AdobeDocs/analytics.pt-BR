@@ -3,16 +3,16 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e4468aa0a34654395fe78e70092df77d8f7011f6
+source-git-commit: b6c22fdeab68c55f145ed72002532ed87c06a258
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 60%
+source-wordcount: '1473'
+ht-degree: 58%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics
 
-**Última atualização**: 6 de janeiro de 2023
+**Última atualização**: 12 de janeiro de 2023
 
 As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -22,6 +22,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 | ----------- | ---------- | ------- | ---- |
 | **Pastas no Espaço de trabalho** | As pastas ajudam a organizar e categorizar seus projetos para obter uma melhor recuperação e acesso. Além disso, um **[!UICONTROL Empresa]** permite que os administradores criem e compartilhem conteúdo com todos os usuários do Workspace. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | N/D | 11 de janeiro de 2023 |
 | **Página de destino padrão** | O [nova landing page](/help/analyze/landing.md) que foi introduzido anteriormente em 2022 se tornará a experiência padrão para todos os usuários no **11 de janeiro de 2023**. A landing page herdada será substituída e todos terão de usar a nova experiência. | N/D | 11 de janeiro de 2023 |
+| **Página do Gerenciador de projetos obsoleta** | Com o lançamento da nova landing page, descontinuamos o **[!UICONTROL Gerenciador de projetos]** conforme listado em **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Componentes]**. A nova landing page tem todas as funcionalidades da antiga página do Gerenciador de projetos e muito mais. Saiba mais | N/D | 11 de janeiro de 2023 |
 | **Salvar novos projetos automaticamente** | O Analysis Workspace agora salva automaticamente os projetos recém-criados. Se, por qualquer motivo, você perder inesperadamente o acesso a um projeto recém-criado antes de salvá-lo manualmente, uma versão de recuperação do projeto agora estará disponível. Anteriormente, os projetos eram salvos automaticamente somente depois de terem sido salvos manualmente inicialmente. [Saiba mais](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | N/D | 11 de janeiro de 2023 |
 | **Preferências do usuário aprimoradas** | Agora você pode configurar preferências adicionais no nível do usuário (em [!UICONTROL Componentes] > [!UICONTROL Preferências]). Ao definir a preferência do usuário, suas seleções se estendem por projetos, tabelas e visualizações. A página Preferências agora contém as novas guias a seguir, cada uma contendo muitas novas opções de configuração:<ul><li>Tabela de forma livre</li><li>Visualizações</li></ul>Além disso, agora há mais preferências disponíveis na variável **[!UICONTROL Geral]** e **[!UICONTROL Projeto]** guias.<p>Anteriormente, muitas dessas preferências eram configuráveis somente para projetos, tabelas e visualizações individuais. [Saiba mais](/help/analyze/analysis-workspace/user-preferences.md) | N/D | 11 de janeiro de 2023 |
 
