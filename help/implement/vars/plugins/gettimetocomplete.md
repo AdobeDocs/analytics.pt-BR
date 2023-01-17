@@ -3,10 +3,10 @@ title: getTimeToComplete
 description: Meça o tempo gasto para concluir uma tarefa.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].
@@ -62,7 +62,8 @@ A função `getTimeToComplete` usa os seguintes argumentos:
 
 * **`sos`** (opcional, string): defina como `"start"` quando quiser iniciar o cronômetro. Defina como `"stop"` quando quiser parar o cronômetro. O padrão é `"start"`.
 * **`cn`** (opcional, string): o nome do cookie que armazenará o tempo inicial. O padrão é `"s_gttc"`.
-* **`exp`** (opcional, número inteiro): o número de dias que dura o cookie (e o cronômetro). O padrão é `0`, que representa o fim da sessão do navegador.
+* **`exp`** (opcional, número inteiro): O número de segundos, horas ou dias (dependendo da variável `tp` argumento de separação de tempo) que o cookie (e o cronômetro) expira. O padrão é 30 minutos.
+* **`tp`** (opcional, string): A string de separação de tempo que o cookie (e o cronômetro) expira, usada com a variável `exp` argumento . Defina como &quot;d&quot; para dias, &quot;h&quot; para horas ou &quot;s&quot; para segundos. Se isso não for definido, a expiração do cookie (e do timer) é de 30 minutos, independentemente do valor da variável `exp` foi definido como.
 
 Chamar essa função retorna uma string que contém o número de dias, horas, minutos e/ou segundos decorridos entre a ação `"start"` e a ação `"stop"`.
 
@@ -80,8 +81,8 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
 // Stores each timer in their own respective cookies so they run independently
 if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
 if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
-if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
-if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7, "d");
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7, "d");
 ```
 
 ## Histórico da versão
