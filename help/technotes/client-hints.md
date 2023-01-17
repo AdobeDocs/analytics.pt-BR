@@ -2,10 +2,10 @@
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
+source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 86%
+source-wordcount: '1174'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +26,10 @@ O Google divide as dicas do cliente de usuário-agente em duas categorias: dicas
 >[!NOTE]
 >
 >A partir de outubro de 2022, novas versões dos navegadores Chromium iniciarão o “congelamento” da versão do sistema operacional representada na string do usuário-agente. A versão do sistema operacional é uma dica de alta entropia, portanto, para manter a precisão da versão do sistema operacional em seus relatórios, é necessário configurar a biblioteca de coleção para coletar essas dicas de alta entropia. Com o tempo, outras informações do dispositivo do usuário-agente serão congeladas, o que exigirá que as dicas do cliente mantenham a precisão do relatório do dispositivo.
+
+>[!NOTE]
+>
+> Desde janeiro de 2023, algumas versões dos sistemas operacionais Mac e Windows são representadas incorretamente no Agente do usuário, mas corretamente representadas em dicas de cliente de alta entropia. Consulte [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR) para obter mais informações.
 
 >[!NOTE]
 >
