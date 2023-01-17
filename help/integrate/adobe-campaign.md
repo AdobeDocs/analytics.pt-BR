@@ -3,9 +3,9 @@ description: Saiba como habilitar relatórios do Adobe Campaign no Adobe Analyti
 title: Como integrar Relatórios do Adobe Campaign ao Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '478'
+source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
+workflow-type: tm+mt
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Esta integração entre o Adobe Analytics e o Adobe Campaign
 * Enriquece fórmulas de rastreamento com parâmetros do Adobe Analytics.
 * Adiciona um novo relatório em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Adobe Campaign.]**
 * Adiciona 5 novas classificações do Adobe Campaign.
-* Adiciona 10 novas métricas do Adobe Campaign.
+* Adiciona 9 novas métricas do Adobe Campaign.
 * Adiciona 6 novas dimensões do Adobe Campaign.
 * Sincroniza dados com o Analytics a cada 15 minutos.
 
@@ -60,7 +60,6 @@ As seguintes **métricas** estão disponíveis no Campaign nos conjuntos de rela
 * Enviados do Adobe Campaign
 * Abertos no Adobe Campaign
 * Cliques no Adobe Campaign
-* Processados do Adobe Campaign
 * Entregues do Adobe Campaign
 * Aberturas únicas do Adobe Campaign
 * Cliques únicos do Adobe Campaign
