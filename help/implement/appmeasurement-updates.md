@@ -3,8 +3,8 @@ title: AppMeasurement para notas de versão do JavaScript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+workflow-type: tm+mt
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -23,7 +23,6 @@ Baixe a versão mais recente do AppMeasurement no [Gerenciador de código](/help
 Data de lançamento: **23 de setembro de 2022**
 
 * O AppMeasurement agora é compatível com a coleção de dicas do cliente de usuário-agente de alta entropia que os navegadores Chromium (Google Chrome e Microsoft Edge) usam para fornecer informações de dispositivo. Você pode configurar dicas do cliente por meio de tags ou usar o sinalizador “collectHighEntropyUserAgentHints”. A coleção de dicas de alta entropia está desativada por padrão. Saiba mais sobre as [dicas do cliente](/help/technotes/client-hints.md) de usuário-agente.
-
 
 ## Versão 2.22.4
 

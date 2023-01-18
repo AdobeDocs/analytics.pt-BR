@@ -3,10 +3,10 @@ title: Implementação do Adobe Analytics
 description: Implementar o Adobe Analytics no site, propriedade ou aplicativo.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: be00ae15cfcd1afb1ecf225c9dff82e969bb5127
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 79%
 
 ---
 
@@ -23,18 +23,16 @@ A Adobe requer código no seu site ou aplicativo para enviar dados aos servidore
 1. Quando um visitante acessa o seu site, uma solicitação é feita ao seu servidor da Web.
 2. O servidor Web do seu site envia as informações de código da página, que é exibida no navegador.
 3. A página é carregada e o código JavaScript do Analytics é executado.
-O código JavaScript envia uma solicitação de imagem para os servidores de coleta de dados da Adobe. Os dados da página definidos na implementação são enviados como parte de uma cadeia de caracteres de consulta nesta solicitação de imagem.
+4. O código JavaScript envia uma solicitação de imagem de pixel de 1x1 para os servidores de coleta de dados do Adobe. Os dados da página definidos na implementação são enviados como parte de uma cadeia de caracteres de consulta nesta solicitação de imagem.
+5. A imagem solicitada retorna
+6. Os servidores do Adobe analisam e armazenam dados coletados em um conjunto de relatórios.
+7. Os dados do conjunto de relatórios preenchem os relatórios que você pode acessar por um navegador.
 
-4. A Adobe retorna uma imagem pixelada transparente.
-5. Os servidores do Adobe armazenam dados coletados em um ou mais *conjuntos de relatórios*.
-6. Os dados do conjunto de relatórios preenchem os relatórios que você pode acessar por um navegador.
 
-   A execução do código JavaScript ocorre rapidamente e a maneira que os tempos de carregamento de uma página são afetados não é visível. Essa abordagem permite que você conte as páginas que foram exibidas quando um visitante clicou em **[!UICONTROL Recarregar]** ou **[!UICONTROL Voltar]** para acessar uma página, já que o JavaScript é executado mesmo quando a página é recuperada do cache.
+O Adobe oferece vários métodos para implementar esse código, dependendo da plataforma e das necessidades da organização.
 
-O Adobe Analytics requer código em seu site, aplicativo móvel ou outro aplicativo para enviar dados aos servidores de coleta de dados. Há vários métodos para implementar esse código, dependendo da plataforma e das necessidades da organização.
-
-* **Extensão SDK da Web**: o método padronizado e recomendado para implementar o Adobe Analytics. Instale a extensão SDK da Web da Coleção de dados da Adobe Experience Platform, use um tag de carregamento em cada página e envie dados para o Adobe Experience Platform Edge em um formato conveniente para sua organização. O Experience Edge encaminha os dados de entrada para o Adobe Analytics no formato correto.
-* **SDK da Web**: você pode carregar manualmente as bibliotecas do SDK da Web no seu site se não quiser usar a Coleção de dados da Adobe Experience Platform. Faça referência à biblioteca do SDK da Web em cada página e envie as chamadas de rastreamento desejadas para o Adobe Experience Edge.
+* **Extensão do SDK da Web**: O método atual, padronizado e recomendado para implementar o Adobe Analytics. Instale a extensão SDK da Web da Coleção de dados da Adobe Experience Platform, use um tag de carregamento em cada página e envie dados para o Adobe Experience Platform Edge em um formato conveniente para sua organização. O Experience Edge encaminha os dados de entrada para o Adobe Analytics no formato correto.
+* **Web SDK**: Você pode carregar manualmente as bibliotecas do SDK da Web no seu site se não quiser usar Tags. Faça referência à biblioteca do SDK da Web em cada página e envie as chamadas de rastreamento desejadas para o Adobe Experience Edge.
 * **Extensão do Adobe Analytics**: instale a extensão do Adobe Analytics da Coleção de dados da Adobe Experience Platform. Insira uma tag de carregamento em cada página e use a extensão do Analytics para determinar como cada variável é definida.
 * **JavaScript herdado:** o método manual histórico para implementar o Adobe Analytics. Descreve as variáveis e as configurações usadas em uma implementação, que pode ser útil para implementações usando regras com código personalizado.
 * **SDK móvel**: bibliotecas dedicadas para enviar dados facilmente à Adobe a partir do aplicativo móvel.
