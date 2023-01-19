@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5e6341663eecaa7ebc99155a9eec085a8b7acf1c
+source-git-commit: 0b693521e2daf4909859b37436751bcdc191b097
 workflow-type: tm+mt
-source-wordcount: '3550'
+source-wordcount: '3556'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Pastas | Páginas dedicadas para [Gerenciamento de pastas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferências do usuário | Várias preferências adicionais de usuário estão disponíveis no [Preferências](/help/analyze/analysis-workspace/user-preferences.md). |
 | Salvar automaticamente em projetos | Conteúdo atualizado para incluir a funcionalidade de salvamento automático em [Salvar projetos](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
+| Landing page | Novo [atualizações da página de aterrissagem](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 
