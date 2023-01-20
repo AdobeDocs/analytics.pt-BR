@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
+source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
 workflow-type: tm+mt
-source-wordcount: '3644'
+source-wordcount: '3641'
 ht-degree: 96%
 
 ---
@@ -38,7 +38,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | **`browser_width`** | Largura em pixels da janela do navegador. | smallint unsigned |
 | **`c_color`** | Profundidade de bits da paleta de cores. Usado como parte do cálculo da dimensão [Intensidade de cor](/help/components/dimensions/color-depth.md). O AppMeasurement usa a função JavaScript `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variável usada na dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). | varchar(255) |
-| **`carrier`** | Variável de integração da Adobe Advertising Cloud. Especifica a operadora de celular. Faz referência à tabela de pesquisa `carrier`. | varchar(100) |
+| **`carrier`** | Variável de integração da Adobe Advertising Especifica a operadora de celular. Faz referência à tabela de pesquisa `carrier`. | varchar(100) |
 | **`ch_hdr`** | Dicas do cliente coletadas por meio do cabeçalho de solicitação HTTP. | texto |
 | **`ch_js`** | Dicas do cliente coletadas por meio da API JavaScript de dicas do cliente de usuário-agente. | texto |
 | **`channel`** | Variável usada na dimensão [Seções do site](/help/components/dimensions/site-section.md). | varchar(100) |
@@ -71,7 +71,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | **`duplicate_events`** | Lista todos os eventos que são contados como duplicados. | varchar(255) |
 | **`duplicate_purchase`** | Sinalizador que indica que o evento de compra para esta ocorrência deve ser ignorado, porque está duplicado. | tinyint unsigned |
 | **`duplicated_from`** | Somente usado em conjuntos de relatórios contendo uma cópia da ocorrência com regras VISTA. Indica de qual conjunto de relatórios a ocorrência foi copiada. | varchar(40) |
-| **`ef_id`** | A `ef_id` usada em integrações da Adobe Advertising Cloud. | varchar(255) |
+| **`ef_id`** | A `ef_id` usada em integrações da Adobe Advertising  | varchar(255) |
 | **`evar1 - evar250`** | Variáveis personalizadas 1-250. Usado nas dimensões [eVar](/help/components/dimensions/evar.md). Cada organização usa eVars de maneiras diferentes. O melhor lugar para obter informações sobre como sua organização popula as respectivas eVars seria um documento de design da solução específico da sua organização. | varchar(255) |
 | **`event_list`** | Lista de IDs numéricas separadas por vírgulas representando eventos acionados na ocorrência. Inclui tanto eventos padrão quanto personalizados 1 - 1000. Usa a pesquisa `event.tsv`. | texto |
 | **`exclude_hit`** | Sinalizador indicando que o hit está excluído dos relatórios. A coluna `visit_num` não é incrementada para hits excluídos.<br>1: Não usado. Parte de um recurso raspado.<br>2: Não usado. Parte de um recurso raspado.<br>3: Não está mais em uso. Exclusão de agente usuário<br>4: exclusão com base no endereço IP<br>5: faltam informações essenciais do hit, como `page_url`, `pagename`, `page_event` ou `event_list`<br>6: o JavaScript não processou corretamente o hit<br>7: exclusão específica da conta, como em regras VISTA<br>8: não usada. Exclusão específica da conta alternativa.<br>9: Não usado. Parte de um recurso raspado.<br>10: Código monetário inválido<br>11: Falta um carimbo na ocorrência ou um conjunto de relatórios no carimbo, ou uma ocorrência continha um carimbo em um conjunto de relatórios sem carimbo<br>12: Não usado. Parte de um recurso raspado.<br>13: Não usado. Parte de um recurso raspado.<br>14: Ocorrência do Target que não corresponde a uma ocorrência do Analytics<br>15: Não usado no momento.<br>16: Ocorrência da Advertising Cloud que não correspondeu a uma ocorrência do Analytics | tinyint unsigned |
@@ -184,7 +184,7 @@ Use esta página para saber quais dados estão contidos em cada coluna. A maiori
 | **`ref_type`** | Uma ID numérica que representa o tipo de referência para a ocorrência. Usado na dimensão [Tipo de referenciador](/help/components/dimensions/referrer-type.md). <br>1: Dentro do site<br>2: Outros sites da web <br>3: Mecanismos de pesquisa <br>4: Disco rígido <br>5: USENET <br>6: Digitado/Marcado (sem referenciador) <br>7: E-mail <br>8: Sem JavaScript <br>9: Redes sociais | tinyint unsigned |
 | **`referrer`** | URL da página anterior. Usado na dimensão [Referenciador](/help/components/dimensions/referrer.md). Observe que, embora o `referrer` use um tipo de dados de varchar(255), o `post_referrer` usa um tipo de dados de varchar(244). | varchar(255) |
 | **`resolution`** | ID numérica que representa a resolução do monitor. Usado na dimensão [Resolução do monitor](/help/components/dimensions/monitor-resolution.md). Usa uma tabela de pesquisa `resolution.tsv`. | smallint unsigned |
-| **`s_kwcid`** | A ID de palavra-chave usada em integrações da Adobe Advertising Cloud. | varchar(255) |
+| **`s_kwcid`** | A ID de palavra-chave usada em integrações da Adobe Advertising  | varchar(255) |
 | **`s_resolution`** | Valor bruto da resolução da tela. Coletado usando a função do JavaScript `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | ID numérica que representa o Mecanismo de pesquisa que direcionou o visitante ao seu site. Usa a pesquisa `search_engines.tsv`. | smallint unsigned |
 | **`search_page_num`** | Usado pela dimensão [Todas as classificações da página de pesquisa](/help/components/dimensions/all-search-page-rank.md). Indica em qual página de resultados de pesquisa seu site foi exibido antes de o visitante clicar no seu site. | smallint unsigned |
