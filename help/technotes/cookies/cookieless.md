@@ -3,10 +3,10 @@ title: Opções para atenuar o efeito das limitações de cookies do navegador
 description: Saiba como reduzir o efeito das limitações de cookies do navegador para melhorar a coleção de dados do Adobe Analytics.
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Este documento discute opções para preservar a identificação persistente do visitante em todas as propriedades e soluções, à medida que os principais navegadores implementam medidas de prevenção de rastreamento para cookies.
 
-O Adobe Analytics depende de cookies primários para registrar a atividade de um visitante no site. O Analytics também depende de cookies de terceiros para entender a atividade de um visitante fora do site, como a atividade em outros domínios pertencentes a você. Os cookies de terceiros são bloqueados em muitos navegadores e estarão amplamente indisponíveis com a futura remoção do suporte do Chrome (planejada para 2022). Cookies primários são permitidos em todos os navegadores, mas têm uma expiração limitada no Safari e em outros navegadores nas medidas de [prevenção de rastreamento ITP](https://webkit.org/tracking-prevention) da Apple. Para obter mais informações sobre as limitações atuais de cookies do navegador, consulte [Adobe Analytics e cookies do navegador](cookies.md).
+O Adobe Analytics depende de cookies primários para registrar a atividade de um visitante no site. O Analytics também depende de cookies de terceiros para entender a atividade de um visitante fora do site, como a atividade em outros domínios pertencentes a você. Os cookies de terceiros são bloqueados em muitos navegadores e estarão amplamente indisponíveis com a futura remoção do suporte do Chrome (planejada para o final de 2024). Cookies primários são permitidos em todos os navegadores, mas têm uma expiração limitada no Safari e em outros navegadores nas medidas de [prevenção de rastreamento ITP](https://webkit.org/tracking-prevention) da Apple. Para obter mais informações sobre as limitações atuais de cookies do navegador, consulte [Adobe Analytics e cookies do navegador](cookies.md).
 
 Essas limitações do navegador refletem uma mudança maior de rastreamento anônimo de terceiros em direção ao compartilhamento explícito de informações entre usuários e marcas em que eles confiam. Para respaldar essa mudança, a Adobe fornece aos clientes maneiras de complementar os cookies tradicionais, incluindo identificadores duráveis coletados por meio de seus relacionamentos primários.
 
@@ -31,6 +31,10 @@ Essas limitações do navegador refletem uma mudança maior de rastreamento anô
 A coleção do lado do servidor fornece a flexibilidade para fornecer seu próprio identificador, em vez de depender dos mecanismos do navegador para configurar cookies.
 
 Você pode enviar dados para o lado do servidor do Analytics usando a [API de inserção de dados](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou a [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). A API de inserção de dados em massa é recomendada para novas implementações do lado do servidor. Para obter uma comparação das duas APIs, consulte &quot;[Qual ferramenta do Adobe Analytics devo usar](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=pt-BR)&quot;.
+
+## ID do dispositivo próprio (FPID) com o SDK da Web
+
+Com o SDK da Web da Adobe Experience Platform, você pode optar por definir e gerenciar seus próprios identificadores de dispositivos em vez das IDs de Experience Cloud geradas por Adobe (ECIDs). Elas são chamadas de IDs de dispositivo originais (FPIDs). Saiba mais [aqui](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=pt-BR).
 
 ## Mais informações
 
