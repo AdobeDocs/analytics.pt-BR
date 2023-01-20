@@ -4,10 +4,10 @@ title: Página de aterrissagem do Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
+source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
 workflow-type: tm+mt
-source-wordcount: '3727'
-ht-degree: 79%
+source-wordcount: '3947'
+ht-degree: 74%
 
 ---
 
@@ -87,13 +87,17 @@ A página de aterrissagem do Adobe Analytics reúne o [!DNL Analysis Workspace] 
 
 Com o lançamento da nova landing page, descontinuamos o Gerenciador de projetos, conforme listado no Gerenciador de componentes. A nova landing page lida com toda a funcionalidade da antiga página do Gerenciador de projetos e muito mais.
 
-Um caso de uso comum para a página Gerenciador de projetos era exibir todos os seus projetos. Para exibir todos os projetos na nova página de aterrissagem usando o painel de filtros, selecione **OUTROS FILTROS** e depois selecione **Mostrar tudo**.
+Um caso de uso comum para a página Gerenciador de projetos era exibir todos os seus projetos.
 
-![Outros filtros](assets/other-filters.png)
+Para exibir todos os projetos na nova página de aterrissagem usando o painel de filtros, selecione **OUTROS FILTROS** e depois selecione **Mostrar tudo**.
+
+![Mostrar todos os projetos](assets/show-all-fIlter.png)
 
 Se você estiver na visualização &quot;Pastas e projetos&quot;, aparecerá uma modal perguntando se deseja alternar para a visualização &quot;Todos os projetos&quot;, o que facilita a visualização de todos os projetos fora de qualquer pasta em que eles possam estar organizados.   Selecionar **Alternar para a exibição &quot;Todos os projetos&quot;** para visualizar melhor todos os projetos aos quais você tem acesso.
 
 ![Alternar para Todos os projetos](assets/switch-all-projects-view.png)
+
+Outro caso de uso para administradores é gerenciar relatórios da empresa para excluir, renomear, marcar ou aprovar relatórios. Para obter informações sobre como gerenciar relatórios, consulte [Gerenciamento de relatórios da empresa](#manage-company-reports).
 
 ## Clique na guia [!UICONTROL Relatórios] {#navigate-reports}
 
@@ -188,6 +192,36 @@ Mais opções de aprendizagem:
 * Para novos usuários, recomendamos o vídeo [Tutorial de treinamento](https://www.youtube.com/watch?v=lCH1Kl1q9Wk) que o orienta a criar um novo projeto.
 * Aqui está um link para a [documentação completa do Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * Esta é a [lista de reprodução completa do YouTube para Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
+
+### Gerenciamento de relatórios da empresa {#manage-company-reports}
+
+Os administradores podem filtrar a lista de projetos para exibir e gerenciar relatórios da empresa. Os itens fixados permanecem fixos, seguidos da lista de relatórios da empresa identificados pela variável ![ícone de relatório](assets/report-icon.png) ícone do relatório. Nesta visualização, é possível excluir, renomear, marcar ou aprovar um ou mais relatórios.
+
+Para exibir e gerenciar relatórios da empresa
+
+1. No painel de filtros, selecione **OUTROS FILTROS** e depois selecione **Relatórios da empresa**.
+Uma lista dos relatórios da empresa é exibida. Todos os projetos regulares, a menos que estejam presos, não são exibidos.
+
+   ![Exibir filtros de relatórios da empresa](assets/company-reports-filter.png)
+
+   Com os relatórios da empresa exibidos, os administradores podem excluir, renomear, adicionar uma tag ou aprovar o relatório.
+
+1. Na lista de relatórios, selecione um único relatório ou selecione vários relatórios.
+
+1. Clique no botão **...** ícone de reticências ao lado de um relatório para exibir as opções disponíveis (Excluir, Renomear, Tag e Aprovar).
+
+   ![Ações do relatório da empresa](assets/company-reports-actions.png)
+
+1. Selecione uma opção (Excluir, Renomear, Tag e Aprovar).
+
+1. Para retornar à visualização regular quando terminar, no painel de filtros, desmarque a opção Relatórios da empresa novamente .
+
+### Excluir um relatório de empresa
+
+Os administradores podem excluir um relatório usando a opção Lista de relatórios da empresa (descrita acima) ou excluir um relatório do modal Criar projeto .
+
+![Outros filtros](assets/delete-fr-create-project-modal.png)
+
 
 ## Navegue pela guia Aprendizagem {#navigate-learning}
 
