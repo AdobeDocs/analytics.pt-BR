@@ -4,8 +4,8 @@ title: Configurações individuais do Conjunto de relatórios
 feature: Report Suite Settings
 exl-id: 1d4cff11-f2e6-4c09-878a-763f3419ff38
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '101'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
