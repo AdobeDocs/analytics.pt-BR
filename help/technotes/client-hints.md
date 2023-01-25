@@ -2,7 +2,7 @@
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
+source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 73%
@@ -45,7 +45,7 @@ Esta [publicação do blog do Google](https://web.dev/user-agent-client-hints/) 
 
 +++**Como habilitar a coleção de dicas do cliente?**
 
-As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assimiladas para a obtenção de informações do dispositivo e do navegador. As versões mais recentes do SDK da Web (começando com a 2.12.0) e do AppMeasurement (começando com a 2.23.0) podem ser configuradas para coletar dicas de alta entropia por meio de suas respectivas extensões de Tags ou diretamente por meio de uma opção de configuração. Consulte as instruções para o [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e o [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assimiladas para a obtenção de informações do dispositivo e do navegador. As versões mais recentes do SDK da Web (começando com a 2.12.0) e do AppMeasurement (começando com a 2.23.0) podem ser configuradas para coletar dicas de alta entropia por meio de suas respectivas extensões de Tags ou diretamente por meio de uma opção de configuração. Consulte as instruções para [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativada por padrão**.
 
