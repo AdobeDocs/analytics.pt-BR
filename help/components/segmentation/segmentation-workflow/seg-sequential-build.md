@@ -4,8 +4,8 @@ title: Construir segmentos sequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
-source-wordcount: '3827'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
