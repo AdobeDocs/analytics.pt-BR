@@ -6,7 +6,7 @@ feature: Processing Rules
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '150'
 ht-degree: 100%
 
 ---
