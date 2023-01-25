@@ -4,8 +4,8 @@ title: Implementação de marcação de vários relatórios
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
-source-wordcount: '290'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
