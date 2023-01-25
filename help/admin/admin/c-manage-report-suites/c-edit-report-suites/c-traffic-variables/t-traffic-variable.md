@@ -4,8 +4,8 @@ title: Ativar os relatórios de variável de tráfego
 feature: Admin Tools
 exl-id: 6c28c1ed-76ec-4df8-a583-3b7ac923569a
 source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: tm+mt
-source-wordcount: '58'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
