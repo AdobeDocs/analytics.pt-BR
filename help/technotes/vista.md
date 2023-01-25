@@ -4,7 +4,7 @@ description: Saiba mais sobre as regras VISTA e seus recursos.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: ht
-source-wordcount: '266'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
