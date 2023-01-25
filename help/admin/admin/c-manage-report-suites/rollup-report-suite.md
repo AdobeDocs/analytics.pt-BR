@@ -4,8 +4,8 @@ title: Abordagens do conjunto de relatórios
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
-workflow-type: tm+mt
-source-wordcount: '973'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
