@@ -4,8 +4,8 @@ title: Salvar uma pesquisa do conjunto de relatórios
 feature: Report Suite Settings
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
-source-wordcount: '86'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
