@@ -3,9 +3,9 @@ title: Sistema operacional
 description: O sistema operacional do visitante.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 26de81f090cebb45473a04a2edbe281f1c8591a4
+source-git-commit: 17c441f8855b8ca0604076763817de8d4d3b8efb
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 29%
 
 ---
@@ -28,16 +28,16 @@ Abaixo está uma lista de problemas específicos com como o sistema operacional 
 
 ### Alteração na convenção de nomenclatura do sistema operacional Apple:
 
-A partir da versão 11, usaremos o OS X em vez do sistema operacional Mac para fazer referência ao sistema operacional Apple.
+A partir da versão 11, usaremos o MacOS em vez do OS X para fazer referência ao sistema operacional Apple.
 
 Exemplos:
 
-* macOS versão 10.15.7 (consulte a observação abaixo sobre a versão 10.15.7 sobre representação em cadeias de caracteres UA).
-* OS X versão 11.0.0
+* &quot;OS X 10.15&quot; (consulte a observação abaixo sobre a versão 10.15.7 sobre representação em cadeias de caracteres UA).
+* &quot;MacOS 11.0.0
 
 ### A versão do sistema operacional Mac está incorreta no Agente do usuário após a versão 10.15.7 
 
-A partir de janeiro de 2023, o Agente do usuário em todos os navegadores mostrará a versão do sistema operacional Mac como 10.15.7, mesmo para versões mais recentes. Isso foi feito porque a inclusão da versão 11 no AI aparentemente causou problemas em alguns sites. A Apple também observa que a inclusão de uma versão incorreta do SO no UA oferece alguns benefícios de privacidade.
+O Agente do Usuário em computadores Apple mostra a versão do sistema operacional como 10.15.7, mesmo que seja uma versão mais recente. Isso foi feito porque a inclusão da versão 11 no AI aparentemente causou problemas em alguns sites. Isso é verdade para *todos os navegadores* e não está relacionado ao &quot;congelamento&quot; do Agente de usuário do Google em navegadores Chromium.
 
 Observe que as dicas do cliente incluem a versão correta na dica de versão da plataforma (&quot;Sec-CH-UA-Platform-Version&quot;). Esta é uma dica de alta entropia, portanto, não é coletada automaticamente pelo Adobe. Consulte a [Perguntas frequentes sobre dicas do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) para obter detalhes sobre como coletar dicas de alta entropia.
 
