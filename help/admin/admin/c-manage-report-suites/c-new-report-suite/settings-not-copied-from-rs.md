@@ -4,8 +4,8 @@ title: Configurações não copiadas do conjunto de relatórios de origem
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
-source-wordcount: '203'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
