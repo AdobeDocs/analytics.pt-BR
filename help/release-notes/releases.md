@@ -3,9 +3,9 @@ description: Explica a estratégia de lançamento contínuo de recursos para o A
 title: Versões de recursos do Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+workflow-type: tm+mt
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -41,4 +41,4 @@ As versões por fases permitem que a Adobe dimensione melhor o processo de impla
 | Pergunta | Resposta |
 | --- | --- |
 | Posso solicitar acesso antecipado a um recurso? | Não. O acesso antecipado não será concedido.<br>Se você quiser testar os conceitos iniciais do Analytics, recomendamos que você experimente o [Adobe Analytics Labs](/help/analyze/labs.md) para fornecer feedback sobre as inovações líderes do setor. |
-| Essa estratégia de lançamento afeta meu acesso aos recursos? | Não. Depois que um recurso chegar à GA, você terá acesso ao recurso se ele fizer parte do seu pacote do Analytics.<br>Você pode ver os detalhes do seu pacote do Analytics em [Níveis de acesso ao recurso](/help/admin/get-started/company/feature-access-levels.md). |
+| Essa estratégia de lançamento afeta meu acesso aos recursos? | Não. Depois que um recurso chegar à GA, você terá acesso ao recurso se ele fizer parte do seu pacote do Analytics.<br>Você pode ver os detalhes do seu pacote do Analytics em [Níveis de acesso ao recurso](/help/admin/admin/company/feature-access-levels.md). |
