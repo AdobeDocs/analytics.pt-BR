@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
+source-git-commit: db87f32341e064343f1f233701ed04011f802d94
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '667'
+ht-degree: 96%
 
 ---
 
@@ -169,19 +169,16 @@ ht-degree: 0%
       + [Alertas de uso de chamadas do servidor](admin/c-server-call-usage/scu-alerts.md)
       + [Perguntas frequentes sobre o uso de chamadas do servidor](admin/c-server-call-usage/overage-faq.md)
 + Governança de dados {#data-governance}
-   + [Adobe Analytics e o GDPR](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics e a CCPA](c-data-governance/an-ccpa-overview.md)
-   + [Isenção de consentimento da CNIL](c-data-governance/cnil-consent-exemption.md)
-   + [Perguntas frequentes](c-data-governance/gdpr-faq.md)
    + [Fluxo de trabalho de Privacidade de dados do Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Rótulos de privacidade de dados para componentes do Analytics](c-data-governance/gdpr-labels.md)
-   + [Rotular dados do conjunto de relatórios](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Exibir/gerenciar rótulos de privacidade do conjunto de relatórios](c-data-governance/gdpr-view-settings.md)
-   + [Práticas recomendadas de rotulagem](c-data-governance/gdpr-analytics-ids.md)
-   + [Exemplo de rotulagem](c-data-governance/gdpr-labeling-example.md)
+   + [Perguntas frequentes](c-data-governance/gdpr-faq.md)
+   + Rotulação de dados {#data-labels}
+      + [Rótulos de privacidade de dados para componentes do Analytics](c-data-governance/data-labeling/gdpr-labels.md)
+      + [Rotular dados do conjunto de relatórios](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [Exibir/gerenciar rótulos de privacidade do conjunto de relatórios](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [Práticas recomendadas de rotulagem](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [Exemplo de rotulagem](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
    + [Enviar solicitações de acesso e de exclusão](c-data-governance/gdpr-submit-access-delete.md)
-   + [Namespaces](c-data-governance/gdpr-namespaces.md)
    + [Expansão de ID](c-data-governance/gdpr-id-expansion.md)
-   + [Privacidade de dados e Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [Terminologia da privacidade de dados](c-data-governance/gdpr-terminology.md)
+   + [Isenção de consentimento da CNIL](c-data-governance/cnil-consent-exemption.md)
 + [API de administração](c-admin-api/c-admin-api.md)

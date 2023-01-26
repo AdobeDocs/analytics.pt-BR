@@ -3,9 +3,9 @@ description: Como enviar acesso aos dados e excluir solicitações no Adobe Anal
 title: Enviar solicitações de acesso e de exclusão
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
+source-wordcount: '1297'
 ht-degree: 100%
 
 ---
@@ -107,7 +107,7 @@ Observe que há três blocos na seção do usuário, representando três solicit
 Lembre-se
 
 * O valor “5D7236525AA6D9580A495C6C@AdobeOrg” na seção “companyContexts” deve ser atualizado com o valor da própria organização da Experience Cloud.
-* Os campos “type” e “namespace” são descritos em mais detalhes na seção [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md).
+* Os campos “type” e “namespace” são descritos em mais detalhes na seção [Namespaces](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
 * Os campos “description” são ignorados.
 * Os campos “key” podem conter qualquer valor desejado. Se tiver uma ID interna que esteja usando para rastrear as solicitações de Privacidade de dados, insira esse valor para facilitar a correspondência das solicitações do sistema da Adobe com as de seus próprios sistemas.
 
