@@ -4,10 +4,10 @@ title: Salvar projetos
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
+source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 39%
+source-wordcount: '727'
+ht-degree: 38%
 
 ---
 
@@ -85,10 +85,6 @@ Selecionar **Não** para excluir a cópia salva automaticamente e abrir a últim
 Para **novos** projetos que nunca foram salvos, as alterações não salvas não são recuperáveis.
 
 ## Abrir uma versão anterior {#previous-version}
-
->[!NOTE]
->
->As versões anteriores do projeto estão atualmente na versão limitada.
 
 Para abrir uma versão anterior de um projeto:
 
