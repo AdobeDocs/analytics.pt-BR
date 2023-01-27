@@ -3,10 +3,10 @@ description: Entenda as IDs capturadas nos dados do Analytics e decida quais ser
 title: Práticas recomendadas de rotulagem
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '2698'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >Lembre-se de que a Rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
 
-## IDs direta ou indiretamente identificáveis {#section_030799AA1397433FBA61A2BC60A7A750}
+## IDs direta ou indiretamente identificáveis {#direct-vs-indirect}
 
 Antes de descobrir quais rótulos devem ser aplicados aos campos/variáveis, primeiro é necessário compreender as IDs que você está capturando nos dados do Analytics e decidir quais serão usadas nas solicitações de Privacidade de dados. A Privacidade de dados expande o escopo do que pode ser considerado uma ID. As IDs são classificadas em duas grandes classes: diretamente identificáveis (rótulo de identidade: I1) e indiretamente identificáveis (rótulo de identidade: I2).
 
@@ -32,7 +32,7 @@ Mesmo que sua empresa colete várias IDs diferentes nos dados do Analytics, é p
 * Algumas IDs podem corresponder a várias pessoas e você não deseja correr o risco de retornar informações sobre uma pessoa para outra com a mesma ID. Por exemplo, mesmo se for possível verificar que o nome de alguém é John Smith, talvez você não queira retornar todos os dados sobre todos os John Smiths em seu sistema.
 * Outro exemplo é uma ID de dispositivo, como a ID de cookies do Analytics. Se a ID ocorrer em um aplicativo de telefone celular, será possível decidir se todas as interações que usam essa ID devem estar disponíveis para o proprietário do telefone celular. No entanto, se acontecer em um dispositivo compartilhado, como um computador doméstico ou de uma biblioteca ou cafeteria, você pode decidir que não é possível distinguir os usuários do dispositivo e o risco de retornar dados para um usuário diferente é muito grande para permitir o uso deste tipo de ID.
 
-## Práticas recomendadas para IDs suportadas pelo Analytics {#section_B6481505FF1949498D4B4B35B780D050}
+## Práticas recomendadas para IDs compatíveis com o Analytics {#best-practices-an}
 
 Use esta tabela para determinar os tipos de IDs que serão usadas ao enviar solicitações de Privacidade de dados para o Analytics. Quando souber essas informações, será mais fácil determinar os outros rótulos que deverão ser usados para as variáveis.
 
@@ -68,7 +68,7 @@ Use esta tabela para determinar os tipos de IDs que serão usadas ao enviar soli
  </tbody> 
 </table>
 
-## Práticas recomendadas para definir rótulos de exclusão {#section_08166C99B48E49218392FAC18922C10E}
+## Práticas recomendadas para definir rótulos de exclusão {#best-practices-delete}
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Os rótulos de exclusão DEL-DEVICE e DEL-PERSON devem ser usados com moderaçã
 
    Por exemplo, se você tiver três ocorrências contendo o valor “foo” na eVar7, mas apenas uma delas também contiver uma ID em uma variável diferente que corresponde a uma exclusão, então “foo” nessa ocorrência será modificado para um valor como “Privacidade de dados-123456789” e permanecerá inalterado nas outras duas ocorrências. Um relatório que mostra o número de valores únicos para eVar7, agora, também mostrará mais um valor único. Um relatório que mostra os principais valores para eVars pode incluir “foo” com apenas duas instâncias (em vez de três, como anteriormente), e o novo valor também será exibido com uma única instância.
 
-## Práticas recomendadas para definir rótulos de acesso {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Práticas recomendadas para definir rótulos de acesso {#best-practices-access}
 
 Embora pouquíssimos campos tenham um dos outros rótulos, é comum que um grande número de campos tenha rótulos ACC. Os rótulos de acesso apropriados dependerão das IDs que você está usando nas solicitações de Privacidade de dados.
 

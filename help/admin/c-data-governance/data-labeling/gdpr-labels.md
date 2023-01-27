@@ -3,7 +3,7 @@ description: Exemplos de rótulos de privacidade de dados para variáveis do Ado
 title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '3685'
 ht-degree: 98%
@@ -133,7 +133,7 @@ Como outro exemplo, você pode ter uma ID do CRM que, às vezes, é enviada pela
 >
 >Os namespaces “visitorId” e “customVisitorId” são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
 
-## Tipos de variáveis e rótulos de Privacidade de dados/DULE compatíveis {#variable-types}
+## Tipos de variáveis e rótulos Privacidade de dados/DULE compatíveis {#variable-types}
 
 O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis do Analytics. Nem todas as variáveis suportam todos os rótulos. Esta tabela mostra quais variáveis suportam ou não quais rótulos.
 
@@ -209,7 +209,7 @@ O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis d
  </tbody> 
 </table>
 
-## Lidar com exclusões {#deletion}
+## Manuseio de exclusão {#deletion}
 
 O suporte do Adobe Analytics para solicitações de exclusão da Privacidade de dados foi projetado para minimizar os impactos a relatórios. Na maioria dos casos, as métricas exibidas nos relatórios não devem ser alteradas. Um relatório histórico que foi executado antes de uma exclusão da Privacidade de dados corresponderá ao mesmo relatório executado depois da exclusão. Isso é feito ao desvincular completamente os dados excluídos do titular dos dados, deixando os dados não identificáveis no lugar, de forma que os valores relatados permaneçam consistentes.
 

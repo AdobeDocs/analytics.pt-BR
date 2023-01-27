@@ -3,7 +3,7 @@ description: A caixa de diálogo Rotulagem de privacidade para governança de da
 title: Exibir/gerenciar a rotulagem de privacidade para a governança de dados
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 44%
@@ -75,7 +75,7 @@ Se quiser aplicar as mesmas configurações DULE/Privacidade de dados a mais de 
    >
    >Você sempre deve verificar os conjuntos de relatórios de destino para garantir que os rótulos sejam copiados corretamente. Isso é especialmente importante para variáveis com rótulos de ID ou DEL.
 
-## Exportar para um arquivo .csv
+## Exportar para um arquivo .csv {#export-csv}
 
 É possível baixar um arquivo CSV contendo todas as definições de rótulo atuais para todas as variáveis dos conjuntos de relatórios selecionados. Recomendamos que sua equipe jurídica analise suas escolhas de rotulagem e essa opção facilita essa revisão. Em vez de precisar executar a análise enquanto estiver conectado à interface do usuário na Governança de dados, você pode compartilhar o arquivo CSV com a equipe.
 
@@ -85,6 +85,6 @@ Se quiser aplicar as mesmas configurações DULE/Privacidade de dados a mais de 
 
 1. Selecione um ou mais conjuntos de relatórios para os quais deseja exportar todas as configurações de governança de dados.
 
-## Editar rótulos de privacidade
+## Editar rótulos de privacidade {#edit}
 
 Consulte [Atribuir ou editar rótulos de privacidade do conjunto de relatórios](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

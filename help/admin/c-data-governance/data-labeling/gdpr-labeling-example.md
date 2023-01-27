@@ -3,16 +3,16 @@ description: Mostra exemplos de como rotular dados de hit, solicitações de ace
 title: Exemplos de rotulagem
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: b0716d9a4ea51dc0e1e6fc024f3de6b01a9ccfd8
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Exemplos de rotulagem
 
-## Dados de ocorrência de exemplo
+## Dados de ocorrência de exemplo {#hit}
 
 Suponha que você tenha os seguintes dados de ocorrência:
 
@@ -32,7 +32,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-## Exemplo de solicitação de acesso
+## Solicitação de acesso de exemplo {#access}
 
 Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valores indicados na tabela abaixo. Uma solicitação pode retornar somente um arquivo de dispositivo, somente um arquivo de pessoa ou um de cada. Dois arquivos de resumo são retornados somente se uma ID de pessoa for usada e expandIDs for verdadeiro.
 
@@ -141,7 +141,7 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
 
 Observe que a configuração de expandIDs não faz diferença para a saída quando uma ID de cookie é usada.
 
-## Solicitações de exclusão de exemplo
+## Solicitações de exclusão de exemplo {#delete}
 
 Com uma solicitação de exclusão usando os valores da API na primeira linha da tabela, a tabela de ocorrências será atualizada para ser semelhante a esta:
 

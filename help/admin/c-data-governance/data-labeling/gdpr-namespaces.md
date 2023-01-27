@@ -3,10 +3,10 @@ description: A cada ID para a qual você deseja poder pesquisar, é atribuído u
 title: Namespaces
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ O valor deve ser especificado como dois números hexadecimais separados por um t
 
 Também é aceitável usar `"namespaceId": 10` em vez de ou além de `"namespace": "AAID"`, e você pode ver outros produtos da Adobe usarem esse formulário.
 
-## Cookie herdado de rastreamento do Analytics: forma obsoleta
+## Cookie de rastreamento herdado do Analytics: Formulário obsoleto
 
 ```
 {
@@ -90,7 +90,7 @@ Esse código JavaScript preenche o JSON com outros pares de chave/valor além do
 
 O namespace também é predefinido para a ID de visitante personalizada.
 
-## IDs nas variáveis personalizadas
+## IDs em variáveis personalizadas
 
 ```
 {
