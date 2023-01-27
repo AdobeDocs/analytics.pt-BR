@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 2ee9007bdb3e359c9d5babe81c6f64bd7d7b6e8e
+source-git-commit: 6aecf51563bfe112ac51248f45167db83fe54fd7
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 96%
@@ -75,7 +75,7 @@ ht-degree: 96%
             + Detecção de pesquisa paga {#paid-search-detection}
                + [Visão geral da detecção de pesquisa paga](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configurar a detecção de pesquisa paga](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [Personalização do menu](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
+            + [Personalizar menus](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + [Personalizar calendário](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + Regras de processamento {#c-processing-rules}
                + [Visão geral das regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
