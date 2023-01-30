@@ -2,10 +2,10 @@
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 73%
+source-wordcount: '1248'
+ht-degree: 72%
 
 ---
 
@@ -63,7 +63,7 @@ Não neste momento. Você pode optar por coletar todas as dicas de alta entropia
 
 A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 
-| Dica | Descrição | Alta ou baixa entropia | Exemplo |
+| Dica* | Descrição | Alta ou baixa entropia | Exemplo |
 | --- | --- | --- | --- | 
 | Sec-CH-UA | Navegador e versão significativa | Baixa | &quot;Google Chrome 84&quot; |
 | Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixa | TRUE |
@@ -75,7 +75,11 @@ A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 | Sec-CH-UA-Model | Modelo do dispositivo | Alta | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Versão do sistema operacional/plataforma | Alta | &quot;10&quot; |
 
-Dicas de alta entropia são coletadas por meio da chamada do JavaScript e passadas pelo parâmetro de consulta
+
+* As dicas de baixa entropia são coletadas pelo cabeçalho. As dicas de alta entropia são coletadas via JavaScript e passadas nos parâmetros da string de consulta.
+
+* As dicas de alta entropia são coletadas por meio da chamada do JavaScript e passadas pelo parâmetro de consulta
+
 
 +++
 
