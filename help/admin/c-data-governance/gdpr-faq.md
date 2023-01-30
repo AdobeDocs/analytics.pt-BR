@@ -3,71 +3,109 @@ description: Perguntas frequentes sobre governança de dados do Adobe Analytics
 title: Perguntas frequentes sobre governança de dados
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 82c69131fcc5a22795e44ed97246240aec31f4d9
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 100%
+source-wordcount: '1867'
+ht-degree: 88%
 
 ---
 
 # Perguntas frequentes
 
-<table id="table_FA37A4B3960C4181B9CCDB569A476936"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Pergunta </th> 
-   <th colname="col2" class="entry"> Resposta </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Como o Adobe Analytics suporta as solicitações de acesso e exclusão dos usuários finais (titulares de dados) validadas pelos clientes (controladores de dados)?</b> </p> </td> 
-   <td colname="col2"> <p>Quando várias regras da Privacidade de dados (GDPR, CCPA) entrarem em vigor, o Adobe Analytics suportará o processamento de solicitações verificadas, enviadas pelos Controladores de dados para a API da Privacidade de dados da Experience Cloud, para permitir um processo mais automatizado. A API da Privacidade de dados da Adobe foi projetada para ajudar a processar as solicitações de direitos individuais (por exemplo, o acesso e a exclusão de solicitações) para os dados de clientes armazenados nas soluções da Adobe Experience Cloud. Ela é flexível e escalável de acordo com o número de solicitações de acesso e exclusão de dados recebidos pela sua empresa dos titulares de dados. Além disso, a API do Privacy Service permite que o cliente verifique o status de como as solicitações de acesso e exclusão de dados estão sendo atendidas. </p> <p>Para obter mais detalhes, consulte a <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Documentação da API do Privacy Service</a>.  </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Quem é responsável por receber, aceitar e atender às solicitações de Privacidade de dados de usuários finais?</b> </p> </td> 
-   <td colname="col2"> <p>O Controlador de dados (ou seja, o cliente da Adobe) tem a responsabilidade exclusiva de fornecer dados pessoais aos titulares de dados em resposta a uma solicitação de direitos individuais, de acordo com a Privacidade de dados. O Controlador de dados também tem a responsabilidade exclusiva de receber as solicitações e aceitá-las, validando a identidade do titular de dados e atendendo à solicitação, que pode envolver o contato com a Adobe sobre as IDs dos titulares de dados que podem estar associadas aos dados armazenados no Adobe Analytics. Como Processador de dados, a Adobe deve fornecer assistência razoável ao controlador para processar as solicitações verificadas dentro de um período de tempo aceitável. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Como os clientes da Adobe (controladores de dados) saberão quais solicitações de Privacidade de dados mapear para quais IDs do Adobe Analytics para o processamento da Privacidade de dados?</b> </p> </td> 
-   <td colname="col2"> <p>Os controladores de dados determinarão como resolver a identidade de solicitações dos titulares de dados. Considere a implantação da <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Tag de recuperação de ID da Privacidade de dados da Adobe. </a> As equipes de desenvolvimento economizarão tempo usando a nossa tag de recuperação de ID da Privacidade de dados para capturar as IDs de usuário (IDs de cookies), e a nossa API da Privacidade de dados para enviar essas IDs de usuário para as soluções relevantes na Adobe Experience Cloud para o processando de solicitações de Privacidade de dados. </p> <p>A API da Privacidade de dados pode oferecer suporte a uma grande variedade de IDs de clientes em várias soluções da Adobe. Se um titular de dados enviar uma solicitação junto com um identificador (variável personalizada: prop ou eVar), o Adobe Analytics verificará todo o histórico retido dos dados coletados para o identificador especificado. Para obter mais detalhes sobre como configurar as IDs personalizadas armazenadas em props ou eVars do Analytics, consulte a documentação do Analytics em <a href="/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md">Namespaces.</a>
-    </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Como a Governança de dados do Adobe Analytics pode ajudar no processamento de solicitações de Privacidade de dados?</b> </p> </td> 
-   <td colname="col2"> <p>A Governança de dados é uma nova ferramenta do Adobe Analytics que fornece aos controladores de dados a capacidade de aplicar controles e classificações de dados nos seus dados do Analytics. Essa nova ferramenta permite que os clientes da Adobe personalizem o processamento de suas solicitações de acesso e exclusão de dados da Privacidade de dados. No console de Governança de dados, os administradores podem definir as configurações desejadas que devem ser aplicadas a várias colunas de dados que existentes no Adobe Analytics. Assim que esses rótulos forem definidos, a Adobe honrará e processará qualquer solicitação de acesso e exclusão de downstream de acordo com as configurações de rótulo desejadas pelos clientes. É responsabilidade do controlador de dados analisar e consultar seus representantes legais em relação a essas configurações de rótulo. O Adobe Analytics incentiva os clientes a configurar a rotulagem de dados corretamente antes que a Privacidade de dados entre em vigor, no dia 25 de maio de 2018, para permitir a conclusão da personalização de solicitação utilizando a API da Privacidade de dados. </p> <p>A ferramenta de Governança de dados contém os seguintes rótulos de dados: </p> 
-    <ul id="ul_F25B00EB020B4A639628FB884D0CB4F9"> 
-     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#identity-data-labels">Rótulos de dados de identidade:</a> usados para classificar os dados que podem identificar um indivíduo diretamente ou em combinação com outros dados. (Nenhum, I1, I2) </li> 
-     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#sensitive-data-labels"> Rótulos de dados confidenciais:</a> usados para classificar dados que podem ser definidos como confidenciais pela legislação aplicável. (Nenhum, S1, S2) Observe que, atualmente, o uso de dados confidenciais no Adobe Analytics é geralmente proibido, exceto para dados de localização geográfica precisos, obtidos adequadamente de acordo com a legislação aplicável, que podem ser considerados dados confidenciais em algumas jurisdições. </li> 
-     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels"> Rótulos de dados da Privacidade de dados:</a> usados para definir os campos que podem conter identificadores pessoais para uso em solicitações de Privacidade de dados ou que devem ser removidos como parte de uma solicitação de exclusão da Privacidade de dados. Em alguns casos, esses rótulos podem se sobrepor aos rótulos de identidade e dados confidenciais. </li> 
-    </ul> <p>Para obter mais informações sobre rótulos de Governança de dados, consulte <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels">Rótulos da Privacidade de dados para variáveis do Analytics. </a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Como começar a preparação para a Privacidade de dados com o Adobe Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Para obter uma apresentação passo a passo de preparação das regras da Privacidade de dados, consulte <a href="/help/admin/c-data-governance/an-gdpr-workflow.md">Fluxo de trabalho da Privacidade de dados do Adobe Analytics. </a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Como os controladores de dados devem lidar com o consentimento relacionado ao envolvimento do usuário?</b> </p> </td> 
-   <td colname="col2"> <p>O GDPR e a CCPA são boas oportunidades para reconsiderar suas estratégias e práticas de gerenciamento de consentimento, inclusive determinar quando o consentimento é necessário e considerar a proposta de valor para o usuário. Considere a proposta de valor para a privacidade do cliente, que pode ajudar a impulsionar a conversão e a fidelidade. </p> <p>O espaço de gerenciamento de consentimento (por exemplo, ferramentas, padrões, práticas recomendadas) está evoluindo rapidamente e é uma área a ser observada. Para minimizar o impacto no envolvimento do usuário, os controladores devem trabalhar com os fornecedores neste espaço e seus advogados, e seguir as leis e orientações emergentes da UE sobre consentimento e cookies. Considere a “privacidade experiencial” usando uma experiência sobre a marca, relevante contextualmente, que define a proposta de valor de suas atividades de coleta de dados. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Como os controladores de dados devem lidar com a retenção de dados relacionada à Privacidade de dados?</b> </p> </td> 
-   <td colname="col2"> <p>A Privacidade de dados geralmente determina que os dados pessoais não devem ser retidos por mais tempo do que o necessário para atingir o propósito para o qual foram coletados. </p> <p>Como a Adobe detalhou em sua comunicação com o cliente em fevereiro, um plano de retenção de dados de 25 meses será aplicado para a maioria dos clientes, a menos que outros acordos tenham sido feitos (sujeito à notificação e autorização do cliente). Os clientes precisarão definir sua política de retenção de dados para que a Adobe processe a solicitação de Privacidade de dados. </p> <p>O Adobe Analytics exige que os clientes definam sua retenção de dados para processar suas solicitações de Privacidade de dados. A politica de retenção de dados atual de cada conjunto de relatórios é exibida na nova interface do usuário do administrador da Governança de dados. Os clientes devem entrar em contato com o representante da Adobe caso precisem ajustar as políticas de retenção de dados. Consulte as <a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html?lang=pt-BR">Perguntas frequentes sobre a retenção de dados do Adobe Analytics. </a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Um cliente pode reduzir ou estender um período de retenção de dados padrão?</b> </p> </td> 
-   <td colname="col2"> <p>Os clientes podem solicitar que seus dados sejam excluídos antes de 25 meses, ligando para o atendimento ao cliente. Os clientes podem estender a retenção de dados além de 25 meses, comprando uma extensão.</p><p>
-   As extensões estão disponíveis em incrementos de 1 (um) ano adicional até no máximo 8 (oito) anos adicionais (10 anos no total). Essas extensões podem exigir termos de contrato atualizados e taxas adicionais.
- </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b> Quais critérios de privacidade devem ser considerados por um Controlador de dados ao exportar dados pessoais do Adobe Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Se um cliente usar os feeds de dados para exportar os dados do Adobe Analytics para o Data warehouse corporativo ou para outros sistemas fora da Adobe, é responsabilidade do Cliente (o controlador de dados) garantir que as solicitações de exclusão sejam aplicadas aos dados. Isso também se aplica às implementações no local do Adobe Data Workbench (Insight), em que um feed de dados do Adobe Analytics em execução preenche os dados do Data Workbench. A Adobe pode fornecer ferramentas para ajudar a encontrar e excluir os registros de determinados tipos de feeds de dados, incluindo aqueles usados para o Data Workbench, mas ainda é responsabilidade do Cliente (controlador de dados) garantir que os dados sejam excluídos de forma consistente com suas próprias políticas internas de exclusão e retenção de dados. </p> <p>Considere também casos em que os funcionários podem ter baixado relatórios do Adobe Analytics que contenham dados pessoais. Esses relatórios podem precisar ser atualizados ou excluídos se uma solicitação de Privacidade de dados ou outra de exclusão relacionada à privacidade for recebida com uma ID que possa existir neles. Os clientes devem trabalhar com o departamento jurídico da empresa para determinar os períodos de retenção e os requisitos de privacidade e segurança que devem ser aplicados a esses tipos de documentos. </p> </td> 
-  </tr> <tr> 
-   <td colname="col1"> <p><b> Alguns dados que não deveríamos coletar foram enviados para o Adobe Analytics por acidente. Podemos usar a API da Privacidade de dados para limpar esses dados?</b> </p> </td><td colname="col2"> <p>A API da Privacidade de dados foi fornecida para ajudar a atender à solicitações de Privacidade de dados, que são sensíveis ao tempo. O uso dessa API para outros propósitos não é suportado pela Adobe e pode afetar a capacidade da Adobe de fornecer solicitações de Privacidade de dados iniciadas por usuários com inversão de alta prioridade para outros clientes da Adobe. Pedimos que você não use a API da Privacidade de dados para outros propósitos, como limpar dados enviados por acidente para grandes grupos de visitantes.</p> <p>Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso. </p> <p>Entre em contato com o Gerente de conta (CSM) para coordenar com nossa equipe de consultoria de Arquiteto de engenharia para revisão adicional e para empenhar esforços para remover qualquer problema de PII ou dados.</p></td></tr> <tr> 
-   <td colname="col1"> <p><b> Nossa equipe jurídica determinou que os valores que temos coletado em uma variável durante anos não estão mais em acordo com nossa política de privacidade atualizada. Podemos usar a API da Privacidade de dados para limpar todos os valores dessa variável?</b> </p> </td><td colname="col2"> <p>A API da Privacidade de dados foi fornecida para ajudar a atender à solicitações de Privacidade de dados, que são sensíveis ao tempo. O uso dessa API para outros propósitos não é suportado pela Adobe e pode afetar a capacidade da Adobe de fornecer solicitações de Privacidade de dados iniciadas por usuários com inversão de alta prioridade para outros clientes da Adobe. Pedimos que você não use a API da Privacidade de dados para outros propósitos, como limpar dados enviados por acidente para grandes grupos de visitantes.</p> <p>Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso. </p> <p>Entre em contato com o Gerente de conta (CSM) para coordenar com nossa equipe de consultoria de Arquiteto de engenharia para revisão adicional e para empenhar esforços para remover qualquer problema de PII ou dados.</p></td>
- </tbody> 
-</table>
++++ **Como o Adobe Analytics suporta as solicitações de acesso e exclusão dos usuários finais (titulares de dados) validadas pelos clientes (controladores de dados)?**
+
+Quando várias regras da Privacidade de dados (GDPR, CCPA) entrarem em vigor, o Adobe Analytics suportará o processamento de solicitações verificadas, enviadas pelos Controladores de dados para a API da Privacidade de dados do Experience Cloud, para permitir um processo mais automatizado. A API da Privacidade de dados da Adobe foi projetada para ajudar a processar as solicitações de direitos individuais (por exemplo, o acesso e a exclusão de solicitações) para os dados de clientes armazenados nas soluções da Adobe Experience Cloud. Ela é flexível e escalável de acordo com o número de solicitações de acesso e exclusão de dados recebidos pela sua empresa dos titulares de dados.
+
+Além disso, a API do Privacy Service permite que o cliente verifique o status de como as solicitações de acesso e exclusão de dados estão sendo atendidas. Para obter mais detalhes, consulte a [](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Documentação da API do Privacy Service.
+
++++
+
++++ **Quem é responsável por receber, aceitar e atender às solicitações de Privacidade de dados de usuários finais?**
+
+O Controlador de dados (ou seja, o Cliente do Adobe) tem a responsabilidade exclusiva de fornecer dados pessoais aos titulares de dados em resposta a uma solicitação de direitos individuais, de acordo com a Privacidade de dados. O Controlador de dados também tem a responsabilidade exclusiva de receber as solicitações e aceitá-las, validando a identidade do titular de dados e atendendo à solicitação, que pode envolver o contato com a Adobe sobre as IDs dos titulares de dados que podem estar associadas aos dados armazenados no Adobe Analytics.
+
+Como Processador de dados, a Adobe deve fornecer assistência razoável ao controlador para processar as solicitações verificadas dentro de um período de tempo aceitável.
+
++++
+
++++ **Como os clientes da Adobe (controladores de dados) saberão quais solicitações de Privacidade de dados mapear para quais IDs do Adobe Analytics para o processamento da Privacidade de dados?**
+
+Os Controladores de dados determinarão como resolver a identidade de solicitações dos titulares de dados. Considere a implantação da Tag de recuperação de ID da Privacidade de dados da Adobe. As equipes de desenvolvimento economizarão tempo usando a nossa tag de recuperação de ID da Privacidade de dados para capturar as IDs de usuário (IDs de cookies), e a nossa API da Privacidade de dados para enviar essas IDs de usuário para as soluções relevantes na Adobe Experience Cloud para o processando de solicitações de Privacidade de dados. A API da Privacidade de dados pode oferecer suporte a uma grande variedade de IDs de clientes em várias soluções da Adobe.
+
+Se um titular de dados enviar uma solicitação junto com um identificador (variável personalizada: prop ou eVar), o Adobe Analytics verificará todo o histórico retido dos dados coletados para o identificador especificado. Para obter mais detalhes sobre como configurar as IDs personalizadas armazenadas em props ou eVars do Analytics, consulte o [Documentação do Analytics sobre namespaces](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
+
++++
+
++++ **Como a Governança de dados do Adobe Analytics pode ajudar no processamento de solicitações de Privacidade de dados?**
+
+A Governança de dados é uma nova ferramenta do Adobe Analytics que fornece aos controladores de dados a capacidade de aplicar controles e classificações de dados nos seus dados do Analytics. Essa nova ferramenta permite que os clientes da Adobe personalizem o processamento de suas solicitações de acesso e exclusão de dados da Privacidade de dados. No console de Governança de dados, os administradores podem definir as configurações desejadas que devem ser aplicadas a várias colunas de dados que existentes no Adobe Analytics. Assim que esses rótulos forem definidos, a Adobe honrará e processará qualquer solicitação de acesso e exclusão de downstream de acordo com as configurações de rótulo desejadas pelos clientes. É responsabilidade do controlador de dados analisar e consultar seus representantes legais em relação a essas configurações de rótulo. A Adobe Analytics incentiva os clientes a configurar a rotulagem de dados corretamente antes que o GDPR entre em vigor, em 25 de maio de 2018, para permitir a conclusão da personalização de solicitação utilizando a API da Privacidade de dados.
+
+A ferramenta de Governança de dados contém os seguintes rótulos de dados:
+
+* Rótulos de dados de identidade: usados para classificar os dados que podem identificar um indivíduo diretamente ou em combinação com outros dados. (Nenhum, I1, I2)
+
+* Rótulos de dados confidenciais: usados para classificar dados que podem ser definidos como confidenciais pela legislação aplicável. (Nenhum, S1, S2) Observe que, atualmente, o uso de dados confidenciais no Adobe Analytics é geralmente proibido, exceto para dados de localização geográfica precisos, obtidos adequadamente de acordo com a legislação aplicável, que podem ser considerados dados confidenciais em algumas jurisdições.
+
+* Rótulos de dados da Privacidade de dados: usados para definir os campos que podem conter identificadores pessoais para uso em solicitações de Privacidade de dados ou que devem ser removidos como parte de uma solicitação de exclusão da Privacidade de dados. Em alguns casos, esses rótulos podem se sobrepor aos rótulos de identidade e dados confidenciais.
+
+Para obter mais informações sobre rótulos de Governança de dados, consulte [Rótulos da Privacidade de dados para variáveis do Analytics](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
+
++++
+
++++ **Como começar a preparação para a Privacidade de dados com o Adobe Analytics?**
+
+Para obter uma apresentação passo a passo de preparação das regras da Privacidade de dados, consulte [Fluxo de trabalho da Privacidade de dados do Adobe Analytics](/help/admin/c-data-governance/an-gdpr-workflow.md).
+
++++
+
++++ **Como os controladores de dados devem lidar com o consentimento relacionado ao envolvimento do usuário?**
+
+O GDPR e a CCPA são boas oportunidades para reconsiderar suas estratégias e práticas de gerenciamento de consentimento, inclusive determinar quando o consentimento é necessário e considerar a proposta de valor para o usuário. Considere a proposta de valor para a privacidade do cliente, que pode ajudar a impulsionar a conversão e a fidelidade.  O espaço de gerenciamento de consentimento (por exemplo, ferramentas, padrões, práticas recomendadas) está evoluindo rapidamente e é uma área a ser observada. Para minimizar o impacto no envolvimento do usuário, os controladores devem trabalhar com os fornecedores neste espaço e seus advogados, e seguir as leis e orientações emergentes da UE sobre consentimento e cookies. Considere a “privacidade experiencial” usando uma experiência sobre a marca, relevante contextualmente, que define a proposta de valor de suas atividades de coleta de dados.
+
+Você, como controlador de dados, é responsável por obter o consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por implementar um [mecanismo de recusa](https://www.adobe.com/br/privacy/opt-out.html#customeruse) no seu site. Isso permite que seus titulares de dados optem por cancelar a coleta de dados futura da Adobe Experience Cloud.
+
++++
+
++++ **Como os controladores de dados devem lidar com a retenção de dados relacionada à Privacidade de dados?**
+
+A Privacidade de dados geralmente determina que os dados pessoais não devem ser retidos por mais tempo do que o necessário para atingir o propósito para o qual foram coletados.  Como a Adobe detalhou em sua comunicação com o cliente em fevereiro, um plano de retenção de dados de 25 meses será aplicado para a maioria dos clientes, a menos que outros acordos tenham sido feitos (sujeito à notificação e autorização do cliente). Os clientes precisarão definir sua política de retenção de dados para que a Adobe processe a solicitação de Privacidade de dados.
+
+O Adobe Analytics exige que os clientes definam sua retenção de dados para processar suas solicitações de Privacidade de dados. A politica de retenção de dados atual de cada conjunto de relatórios é exibida na nova interface do usuário do administrador da Governança de dados. Os clientes devem entrar em contato com o representante da Adobe caso precisem ajustar as políticas de retenção de dados. Por favor, consulte [Perguntas frequentes sobre a retenção de dados do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=en).
+
++++
+
++++ **Um cliente pode reduzir ou estender um período de retenção de dados padrão?**
+
+Os clientes podem solicitar que seus dados sejam excluídos antes de 25 meses, ligando para o atendimento ao cliente. Os clientes podem estender a retenção de dados além de 25 meses, comprando uma extensão. As extensões estão disponíveis em incrementos de 1 (um) ano adicional até no máximo 8 (oito) anos adicionais (10 anos no total). Essas extensões podem exigir termos de contrato atualizados e taxas adicionais.
+
++++
+
++++ **Quais critérios de privacidade devem ser considerados por um Controlador de dados ao exportar dados pessoais do Adobe Analytics?**
+
+Se um cliente usar os feeds de dados para exportar os dados do Adobe Analytics para o Data warehouse corporativo ou para outros sistemas fora da Adobe, é responsabilidade do Cliente (o controlador de dados) garantir que as solicitações de exclusão sejam aplicadas aos dados. Isso também se aplica às implementações locais do Adobe Data Workbench, em que um feed de dados do Adobe Analytics em andamento preenche os dados do Data Workbench. A Adobe pode fornecer ferramentas para ajudar a encontrar e excluir os registros de determinados tipos de feeds de dados, incluindo aqueles usados para o Data Workbench, mas ainda é responsabilidade do Cliente (controlador de dados) garantir que os dados sejam excluídos de forma consistente com suas próprias políticas internas de exclusão e retenção de dados.
+
+Considere também casos em que os funcionários podem ter baixado relatórios do Adobe Analytics que contenham dados pessoais. Esses relatórios podem precisar ser atualizados ou excluídos se uma solicitação de Privacidade de dados ou outra de exclusão relacionada à privacidade for recebida com uma ID que possa existir neles. Os clientes devem trabalhar com o departamento jurídico da empresa para determinar os períodos de retenção e os requisitos de privacidade e segurança que devem ser aplicados a esses tipos de documentos.
+
++++
+
++++ **Alguns dados que não deveríamos coletar foram enviados para o Adobe Analytics por acidente. Podemos usar a API da Privacidade de dados para limpar esses dados?**
+
+O [API de Privacy Service de dados](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) O foi fornecido para ajudar a atender à solicitações de Privacidade de dados, que são sensíveis ao tempo. O uso dessa API para outros propósitos não é suportado pela Adobe e pode afetar a capacidade da Adobe de fornecer solicitações de Privacidade de dados iniciadas por usuários com inversão de alta prioridade para outros clientes da Adobe. Pedimos que você não use a API da Privacidade de dados para outros propósitos, como limpar dados enviados por acidente para grandes grupos de visitantes. Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso.
+
+Entre em contato com o Gerente de conta (CSM) para coordenar com nossa equipe de consultoria de Arquiteto de engenharia para revisão adicional e para empenhar esforços para remover qualquer problema de PII ou dados.
+
++++
+
++++ **Nossa equipe jurídica determinou que os valores que temos coletado em uma variável durante anos não estão mais em acordo com nossa política de privacidade atualizada. Podemos usar a API da Privacidade de dados para limpar todos os valores dessa variável?**
+
+O [API de Privacy Service de dados](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) O foi fornecido para ajudar a atender à solicitações de Privacidade de dados, que são sensíveis ao tempo. O uso dessa API para outros propósitos não é suportado pela Adobe e pode afetar a capacidade da Adobe de fornecer solicitações de Privacidade de dados iniciadas por usuários com inversão de alta prioridade para outros clientes da Adobe. Pedimos que você não use a API da Privacidade de dados para outros propósitos, como limpar dados enviados por acidente para grandes grupos de visitantes.
+
+Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso.
+
+Entre em contato com seu Gerente de conta (CSM) para coordenar com nossa equipe de consultores de Arquitetura e engenharia para analisar e fornecer um nível de esforço e remover qualquer problemas de PII ou de dados.
+
++++
+
 
 Recursos adicionais da Privacidade de dados:
 
