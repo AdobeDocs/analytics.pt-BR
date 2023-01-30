@@ -3,9 +3,9 @@ description: As IDs enviadas nem sempre cobrem todos os dados de ocorrências qu
 title: Expansão de ID
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '1355'
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+workflow-type: tm+mt
+source-wordcount: '1338'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ As IDs enviadas nem sempre cobrem todos os dados de ocorrências que o Analytics
 "expandIds": true
 ```
 
-Consulte o [Exemplo de solicitação de JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) para saber como incluir essa opção com a solicitação. Para obter mais detalhes, consulte a [Documentação da API da Privacidade de dados](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR).
+Para obter mais detalhes, consulte a [Documentação da API da Privacidade de dados](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
