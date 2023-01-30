@@ -3,10 +3,10 @@ description: Rotular os dados do conjunto de relatórios significa que você atr
 title: Rotular dados do conjunto de relatórios
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 50%
+source-wordcount: '539'
+ht-degree: 48%
 
 ---
 
@@ -24,7 +24,7 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
 ## Atribuir ou editar rótulos de privacidade do conjunto de relatórios {#assign-edit}
 
-**Exemplo**: você, como controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics. Para criar um rótulo para endereços de email e IDs de cookies, você deve usar a estrutura DULE (Label Usage Labeling &amp; Enforcement) da Plataforma Adobe Experience Cloud no Analytics.
+**Exemplo**: você, como controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics.
 
 1. No Adobe Analytics, navegue até **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configuração e coleta de dados]** > **[!UICONTROL Governança de dados]**.
 
@@ -48,10 +48,6 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
    Esta tela mostra os rótulos aplicados no momento e permite que você aplique rótulos adicionais. Não será possível aplicar ou modificar todos os rótulos, dependendo do componente.
 
    ![Rótulos aplicados](assets/edit-labels2.png)
-
-   >[!NOTE]
-   >
-   >A estrutura DULE (Label Usage Labeling &amp; Enforcement) foi criada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados.
 
 1. Clique em **[!UICONTROL Aplicar]** após concluir toda a rotulagem.
 
