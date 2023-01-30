@@ -3,9 +3,9 @@ description: Exemplos de rótulos de privacidade de dados para variáveis do Ado
 title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '3685'
+source-wordcount: '3567'
 ht-degree: 98%
 
 ---
@@ -22,13 +22,7 @@ Antes de descobrir quais rótulos devem ser aplicados a quais campos/variáveis,
 
 A implementação da Privacidade de dados do Adobe Analytics oferece suporte aos seguintes rótulos para dados de identidade, dados sensíveis e governança de dados.
 
-## Rótulos DULE {#dule-labels}
-
->[!NOTE]
->
->A estrutura DULE (Label Usage Labeling &amp; Enforcement) foi criada para fornecer uma maneira uniforme em todas as soluções/serviços/plataformas da Adobe para capturar, comunicar e usar metadados sobre dados na Adobe Experience Cloud. Os metadados ajudam os controladores de dados a indicar quais dados são informações pessoais, quais dados são sensíveis e quais restrições de contrato estão associadas aos dados. Nesta versão inicial, o Analytics está apresentando apenas os rótulos de DULE que são relevantes para a Privacidade de dados. À medida que outros produtos da Adobe implementarem o suporte a rótulos de DULE, serão apresentadas versões futuras de rótulos de dados confidenciais adicionais, bem como rótulos contratuais, que ajudarão a garantir que os dados compartilhados entre produtos sejam usados apenas de maneiras juridicamente permitidas.
-
-## Rótulos de dados de identidade (DULE) {#identity-data-labels}
+## Rótulos de dados de identidade {#identity-data-labels}
 
 Os rótulos “I” de dados de identidade são usados para classificar dados que podem identificar ou permitir o contato com uma pessoa específica.
 
@@ -39,7 +33,7 @@ Os rótulos “I” de dados de identidade são usados para classificar dados qu
 
 {style=&quot;table-layout:auto&quot;}
 
-## Rótulos de dados sensíveis (DULE) {#sensitive-data-labels}
+## Rótulos de dados sensíveis {#sensitive-data-labels}
 
 Os rótulos “S” de dados sensíveis são usados para classificar dados sensíveis, como dados geográficos. Os rótulos de Dados confidenciais adicionais serão introduzidos no futuro para identificar outros tipos de informações confidenciais.
 
@@ -133,9 +127,9 @@ Como outro exemplo, você pode ter uma ID do CRM que, às vezes, é enviada pela
 >
 >Os namespaces “visitorId” e “customVisitorId” são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
 
-## Tipos de variáveis e rótulos Privacidade de dados/DULE compatíveis {#variable-types}
+## Tipos de variáveis e rótulos da Privacidade de dados compatíveis {#variable-types}
 
-O rútulo Privacidade de dados/DULE afeta quatro grandes classes de variáveis do Analytics. Nem todas as variáveis suportam todos os rótulos. Esta tabela mostra quais variáveis suportam ou não quais rótulos.
+A rotulagem da Privacidade de dados afeta quatro grandes classes de variáveis do Analytics. Nem todas as variáveis suportam todos os rótulos. Esta tabela mostra quais variáveis suportam ou não quais rótulos.
 
 | Tipo de variável | Rótulos suportados | Rótulos não suportados |
 |--- |--- |--- |
