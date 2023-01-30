@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre governança de dados do Adobe Analytics
 title: Perguntas frequentes sobre governança de dados
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 82c69131fcc5a22795e44ed97246240aec31f4d9
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2164'
+ht-degree: 87%
 
 ---
 
@@ -49,6 +49,20 @@ A ferramenta de Governança de dados contém os seguintes rótulos de dados:
 * Rótulos de dados da Privacidade de dados: usados para definir os campos que podem conter identificadores pessoais para uso em solicitações de Privacidade de dados ou que devem ser removidos como parte de uma solicitação de exclusão da Privacidade de dados. Em alguns casos, esses rótulos podem se sobrepor aos rótulos de identidade e dados confidenciais.
 
 Para obter mais informações sobre rótulos de Governança de dados, consulte [Rótulos da Privacidade de dados para variáveis do Analytics](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
+
++++
+
++++ **Como posso validar se as solicitações de serviço de privacidade estão funcionando corretamente para excluir dados do Adobe Analytics?**
+
+Normalmente, os clientes do Analytics configuram alguns conjuntos de relatórios de teste para verificar a funcionalidade antes que ela seja disponibilizada para o público em geral. Sites da web ou aplicativos em pré-produção enviarão dados para esses conjuntos de relatórios de teste/desenvolvimento/QA para avaliar como as coisas funcionarão quando o código for lançado antes que o tráfego real seja enviado para os conjuntos de relatórios de produção.
+
+No entanto, com uma configuração normal, o processamento de solicitação de GDPR não pode ser testado primeiro nesses conjuntos de relatórios de teste, antes de aplicar solicitações a conjuntos de relatórios de produção. O motivo é que uma solicitação de Privacidade de dados é aplicada automaticamente a todos os conjuntos de relatórios na organização da Experience Cloud, que geralmente engloba todos os conjuntos de relatórios da sua empresa.
+
+Há algumas maneiras de testar o processamento da Privacidade de dados antes de aplicá-la a todos os seus conjuntos de relatórios:
+
+* Uma opção é configurar uma Organização da Experience Cloud separada que contenha somente conjuntos de relatórios de teste. Use essa organização da Experience Cloud para realizar testes de Privacidade de dados e sua organização normal da Experience Cloud para processamentos de Privacidade de dados.
+
+* Outra opção é atribuir namespaces diferentes à IDs nos conjuntos de relatórios de teste, em comparação com aqueles em seus conjuntos de relatórios de produção. Por exemplo, você pode adicionar prefixos “qa-” a cada namespace nos conjuntos de relatórios de teste. Ao enviar solicitações de Privacidade de dados com apenas namespaces com o prefixo &quot;qa&quot;, essas solicitações só são executadas em relação aos conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo &quot;qa&quot;, elas eram aplicadas aos conjuntos de relatórios de produção. **Essa é a abordagem recomendada, a menos que você use os namespaces visitorId, AAID, ECID ou customVisitorId. Esses namespaces são codificados e não é possível especificar nomes alternativos para eles em seus conjuntos de relatórios de teste.**
 
 +++
 
