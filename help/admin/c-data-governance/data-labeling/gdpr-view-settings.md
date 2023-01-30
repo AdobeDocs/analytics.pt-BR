@@ -3,9 +3,9 @@ description: A caixa de diálogo Rotulagem de privacidade para governança de da
 title: Exibir/gerenciar a rotulagem de privacidade para a governança de dados
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 44%
 
 ---
@@ -45,7 +45,7 @@ O **[!UICONTROL Rótulo de privacidade para governança de dados]** fornece uma 
 
 ## Copiar rótulos de privacidade para um conjunto de relatórios  {#copy-to-rs}
 
-Se quiser aplicar as mesmas configurações DULE/Privacidade de dados a mais de um conjunto de relatórios, siga estas etapas:
+Se desejar aplicar as mesmas configurações de Privacidade de dados a mais de um conjunto de relatórios, siga estas etapas:
 
 1. Selecione a variável que deseja copiar. Observe que você só pode copiar os rótulos de uma variável de cada vez.
 1. Clique em **[!UICONTROL Copiar para os conjuntos de relatórios]** na parte inferior da caixa de diálogo Governança de dados.
