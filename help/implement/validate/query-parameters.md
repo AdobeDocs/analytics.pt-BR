@@ -3,10 +3,10 @@ title: Parâmetros de consulta para coleta de dados
 description: Lista todos os parâmetros da cadeia de caracteres de consulta usados em solicitações de imagem.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '718'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ A tabela a seguir lista todos os parâmetros da cadeia de caracteres de consulta
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | Os URLs maiores que 255 bytes são divididos. Os primeiros 255 bytes aparecem no parâmetro `g` e todos os bytes restantes aparecem no parâmetro `-g`. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Encurtar para a cadeia de caracteres de consulta `pageName`. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Encurtar para a cadeia de caracteres de consulta `pageType`. |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Prefixo para várias variáveis que representam [Dicas do cliente](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Dimensões de hierarquia. |
 | `hp` | Nenhum | Não está mais em uso. Em versões anteriores do Adobe Analytics, determinava se o URL atual era a página inicial do navegador. |
 | `j` | Nenhum | A versão do JavaScript instalada no navegador. |

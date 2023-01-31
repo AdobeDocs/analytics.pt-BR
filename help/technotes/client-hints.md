@@ -2,10 +2,10 @@
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 72%
+source-wordcount: '1232'
+ht-degree: 71%
 
 ---
 
@@ -63,23 +63,20 @@ Não neste momento. Você pode optar por coletar todas as dicas de alta entropia
 
 A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 
-| Dica* | Descrição | Alta ou baixa entropia | Exemplo |
+| Dica | Descrição | Alta ou baixa entropia | Exemplo |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | Navegador e versão significativa | Baixa | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixa | TRUE |
-| Sec-CH-UA-Platform | Sistema operacional/plataforma | Baixa | &quot;Android&quot; |
-| Sec-CH-UA-Arch | Arquitetura do site | Alta | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | Arquitetura de bits | Alta | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | Versão completa do navegador | Alta | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | Lista de marcas com suas versões | Alta | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | Modelo do dispositivo | Alta | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | Versão do sistema operacional/plataforma | Alta | &quot;10&quot; |
+| Sec-CH-UA | Navegador e versão significativa | Baixa | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixa | `true` |
+| Sec-CH-UA-Platform | Sistema operacional/plataforma | Baixa | `"Android"` |
+| Sec-CH-UA-Arch | Arquitetura do site | Alta | `"arm"` |
+| Sec-CH-UA-Bitness | Arquitetura de bits | Alta | `"64"` |
+| Sec-CH-UA-Full-Version | Versão completa do navegador | Alta | `"84.0.4143.2"` |
+| Sec-CH-UA-Full-Version-List | Lista de marcas com suas versões | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| Sec-CH-UA-Model | Modelo do dispositivo | Alta | `"Pixel 3"` |
+| Sec-CH-UA-Platform-Version | Versão do sistema operacional/plataforma | Alta | `"10"` |
 
-
-* As dicas de baixa entropia são coletadas pelo cabeçalho. As dicas de alta entropia são coletadas via JavaScript e passadas nos parâmetros da string de consulta.
-
-* As dicas de alta entropia são coletadas por meio da chamada do JavaScript e passadas pelo parâmetro de consulta
-
+* As dicas de baixa entropia são coletadas por meio do cabeçalho da solicitação.
+* As dicas de alta entropia são coletadas por meio do JavaScript e passadas pelos valores de parâmetro da string de consulta. Os parâmetros da cadeia de caracteres de consulta usam `h.` como um prefixo na solicitação de imagem.
 
 +++
 
