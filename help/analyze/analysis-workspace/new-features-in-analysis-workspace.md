@@ -5,10 +5,10 @@ title: Novidades no Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: f83ab75e9a3cce2dd3dc13d88be97cf97df3dc65
+workflow-type: tm+mt
 source-wordcount: '8277'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,8 +75,8 @@ Novos recursos lançados em 18 de junho de 2020.
 | Attribution IQ: atribuição algorítmica | O modelo Atribuição algorítmica no Analysis Workspace usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. Disponível para clientes do Adobe Analytics Ultimate. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=pt-BR) |
 | Attribution IQ: janelas de pesquisa personalizadas | Agora você pode configurar qualquer modelo de atribuição no Attribution IQ para incluir pontos de contato de até 90 dias antes do período dos relatórios. Essa configuração pode aumentar a precisão da atribuição para eventos que ocorrem no início do período dos relatórios, contabilizando as interações que ocorreram no(s) mês(es) anterior(es). Disponível para clientes do Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR#lookback-windows) |
 | Funções de projeto para projetos compartilhados do Workspace | Ao compartilhar um projeto do Workspace, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) |
-| Projetos do Workspace somente para visualização | Os projetos do espaço de trabalho podem ser compartilhados com os usuários como “Somente para visualização”. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=pt-BR) |
-| Capacidade de co-editar projetos do Workspace | Recipient adicionados à função “Pode editar” podem ser salvos em um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) |
+| Projetos do Workspace somente para visualização | Os projetos do Workspace podem ser compartilhados com os usuários somente como &quot;Pode visualizar&quot;. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=pt-BR) |
+| Capacidade de co-editar projetos do Workspace | Destinatários adicionados à função “Pode editar” podem salvar um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) |
 | Painel em branco atualizado | O painel em branco agora inclui painéis e visualizações, proporcionando uma maneira mais simples de escolher o fluxo de trabalho de análise que funciona melhor para você. |
 | Painel Quick Insights (25 de junho de 2020) | O painel Quick Insights fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Painel Analytics for Target no Workspace (25 de junho de 2020) | O painel Analytics for Target (A4T) permite analisar suas atividades e experiências no Adobe Target, com leveza e confiança, no Analysis Workspace. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -133,8 +133,8 @@ Melhorias lançadas em 10 de outubro de 2019.
 
 | Aprimoramento | Descrição |
 |--- |--- |
-| Atualização dos totais das tabelas de forma livre | As tabelas de forma livre agora incluem dois totais, um **[!UICONTROL total da tabela]** e um **[!UICONTROL total geral]**. As contas de linhas totais da tabela para os [filtros de relatório](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=pt-BR) foram aplicadas. Anteriormente, somente a segmentação afetava os totais. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR)<br/>Além disso, as opções **[!UICONTROL Mostrar totais]** e **[!UICONTROL Mostrar total geral]** foram adicionadas às **[!UICONTROL Configurações de coluna]**.<br/>Com essa alteração nos totais das tabelas de forma livre, as visualizações dependentes serão atualizadas (ex: visualizações de **[!UICONTROL Número de resumo]** interligadas), bem como dados CSV e PDF exportados. |
-| Opção para remover Não especificado/Nenhum | A capacidade de remover facilmente “Não especificado (Nenhum)” foi adicionada como uma opção de filtro de relatório. |
+| Atualização dos totais das tabelas de forma livre | As tabelas de forma livre agora incluem dois totais, um **[!UICONTROL total da tabela]** e um **[!UICONTROL total geral]**. As contas de linhas totais da tabela para os [filtros de relatório](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) foram aplicadas. Anteriormente, somente a segmentação afetava os totais. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR)<br/>Além disso, as opções **[!UICONTROL Mostrar totais]** e **[!UICONTROL Mostrar total geral]** foram adicionadas às **[!UICONTROL Configurações de coluna]**.<br/>Com essa alteração nos totais das tabelas de forma livre, as visualizações dependentes serão atualizadas (ex: visualizações de **[!UICONTROL Número de resumo]** interligadas), bem como dados CSV e PDF exportados. |
+| Opção para remover Não especificado/Nenhum | A capacidade de remover facilmente &quot;Não especificado (Nenhum)&quot; foi adicionada como uma opção para criar filtros de relatório. |
 | Substituição de componentes com granularidade violeta | Os componentes de tempo com granularidade violeta (minuto, hora, dia, semana, mês, trimestre, ano) foram descontinuados. Os componentes de tempo violeta sempre se comportaram exatamente como seus equivalentes na dimensão laranja, então essa alteração simplificará a experiência. **Nenhuma ação** precisa ser executada se você tiver usado anteriormente um dos componentes de tempo violeta.<br/>Com essa alteração, a seção **[!UICONTROL Tempo]** violeta, além disso, foi renomeada para **[!UICONTROL Intervalos de datas]**. |
 
 ## Agosto de 2019
@@ -504,7 +504,7 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p>Mais <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > opções de filtragem </a> de itens de dimensão em tabelas de forma livre </p> </td>
+   <td colname="col1"> <p>Mais <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md"  > opções de filtragem </a> de itens de dimensão em tabelas de forma livre </p> </td>
    <td colname="col2"> <p>Estas opções de filtragem (avançadas) para itens de dimensão foram adicionadas (além das opções atuais “contém” e “não contém”): </p>
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18">
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Contém todos os termos </li>

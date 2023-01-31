@@ -4,10 +4,10 @@ description: As tabelas de forma livre são a base para a análise de dados no W
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
+source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
+workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Se preferir adicionar primeiro vários componentes à tabela e, em seguida, rend
    * Você pode ajustar mais linhas em uma única tela ajustando a [densidade de visualização](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=pt-BR) do projeto.
    * Cada linha da dimensão pode exibir até 400 linhas antes que ocorra paginação. Clique no número ao lado de &quot;Linhas&quot; para mostrar mais linhas em uma página. Navegue até uma página diferente usando a seta de página no cabeçalho.
    * As linhas podem ser detalhadas por componentes adicionais. Para detalhar várias linhas ao mesmo tempo, basta selecionar várias linhas e arrastar o próximo componente na parte superior das linhas selecionadas. Saiba mais sobre [detalhamentos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=pt-BR).
-   * As linhas podem ser [filtradas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=pt-BR) para mostrar um conjunto reduzido de itens. Configurações adicionais estão disponíveis em [Configurações de linha](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=pt-BR).
+   * As linhas podem ser [filtradas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) para mostrar um conjunto reduzido de itens. Configurações adicionais estão disponíveis em [Configurações de linha](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=pt-BR).
 
 * **Colunas**
    * Os componentes podem ser empilhados dentro de colunas para criar métricas segmentadas, análise entre guias e muito mais.
@@ -48,7 +48,7 @@ Se preferir adicionar primeiro vários componentes à tabela e, em seguida, rend
 
 Saiba mais sobre todos os dados de [opções de exportação](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR) do Analysis Workspace.
 
-* Clique com o botão direito do mouse em > **[!UICONTROL Copiar dados para a área de transferência]** para exportar os dados da tabela exibidos. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Copiar seleção para a área de transferência]**. A tecla de atalho **Ctrl+C** também copia os dados selecionados.
+* Clique com o botão direito do mouse em > **[!UICONTROL Copiar dados para a área de transferência]** para exportar os dados da tabela exibidos. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Copiar seleção para a área de transferência]**. A tecla de atalho **Ctrl + C** também copia os dados selecionados.
 * Clique com o botão direito do mouse em > **[!UICONTROL Baixar dados como CSV]** para baixar os dados da tabela exibidos como um CSV. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Baixar seleção como CSV]**.
 * Clique com o botão direito do mouse em > **[!UICONTROL Projeto > Baixar itens como CSV]** para exportar até 50.000 itens de dimensão para a dimensão selecionada.
 
