@@ -2,11 +2,10 @@
 title: Implementar o Adobe Analytics com o AppMeasurement para JavaScript
 description: Saiba como implementar o Adobe Analytics usando JavaScript sem um sistema de gerenciamento de tags.
 feature: Implementation Basics
-exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 91%
+source-wordcount: '198'
+ht-degree: 45%
 
 ---
 
@@ -14,34 +13,79 @@ ht-degree: 91%
 
 O AppMeasurement para JavaScript tem sido um método comum para implementar o Adobe Analytics. No entanto, com o aumento da popularidade dos sistemas de Tag Management, é recomendado usar [tags na Adobe Experience Platform](../launch/overview.md).
 
-## Fluxo de trabalho geral envia dados para a Adobe usando o JavaScript
+Uma visão geral de alto nível das tarefas de implementação:
 
-1. Carregue o arquivo `AppMeasurement.js`. Esse arquivo contém as bibliotecas necessárias para enviar dados para a Adobe.
+![Implementação do Adobe Analytics com visão geral do AppMeasurement](../assets/appmeasurement-annotated.png)
 
-   ```html
-   <script src="AppMeasurement.js"></script>
-   ```
+<table>
+<tr>
+<td></td><td> <b>Tarefa</b></td><td><b>Mais Informações</b></td>
+</tr>
 
-2. Defina as variáveis de configuração em `AppMeasurement.js`. Quando o objeto do Analytics é instanciado, essas variáveis garantem que as configurações de coleta de dados estejam corretas. Consulte [Variáveis de configuração](../vars/config-vars/configuration-variables.md) para obter uma lista completa de variáveis que podem ser definidas.
+<tr>
+<td>1</td><td>Certifique-se de que <b>definiu um conjunto de relatórios</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do Conjunto de relatórios</a></td>
+</tr>
 
-   ```js
-   // Instantiate the Analytics tracking object with report suite ID
-   var s_account = "examplersid";
-   var s=s_gi(s_account);
-   // Make sure data is sent to the correct location
-   s.trackingServer = "example.data.adobedc.net";
-   ```
+<tr>
+<td>2</td><td><b>Baixe o código JavaScript necessário para AppMeasurement</b> do Gerenciador de código. Descompacte o arquivo.</td><td><a href="../../admin/admin/code-manager-admin.md">Gerenciador de código</a></td>
+</tr>
 
-3. Defina variáveis de nível de página no código de página do site. Essas variáveis determinam dimensões e métricas específicas enviadas para a Adobe. Consulte [Variáveis de página](../vars/page-vars/page-variables.md) para obter uma lista completa de variáveis que podem ser definidas.
+<tr>
+<td>3</td><td><b>Adicionar <code>AppMeasurement.js</code> para o arquivo de modelo do seu site</b>. O código contém as bibliotecas necessárias para enviar dados para o Adobe.
 
-   ```js
-   s.pageName = "Example page";
-   s.eVar1 = "Example eVar";
-   s.events = "event1";
-   ```
+```html
+<head>
+  <script src="AppMeasurement.js"></script>
+  …
+</head>
+```
 
-4. Quando todas as variáveis de nível de página forem definidas, envie os dados para a Adobe usando o método `t()`. Consulte [t](../vars/functions/t-method.md) para obter mais informações.
+</td><td></td>
+</tr>
 
-   ```js
-   s.t();
-   ```
+<tr>
+<td>4</td><td><b>Defina as variáveis de configuração em <code>AppMeasurement.js</code></b>. Quando o objeto do Analytics é instanciado, essas variáveis garantem que as configurações de coleta de dados estejam corretas.
+
+```JavaScript
+// Instantiate the Analytics tracking object with report suite ID
+var s_account = "examplersid";
+var s=s_gi(s_account);
+ 
+// Make sure data is sent to the correct tracking server
+s.trackingServer = "example.data.adobedc.net";
+```
+
+</td><td><a href="../vars/config-vars/configuration-variables.md">Variáveis de configuração</a></td>
+</tr>
+
+<tr>
+<td>5</td><td><b>Defina variáveis de nível de página no código de página do site</b>. Essas variáveis determinam dimensões e métricas específicas enviadas para a Adobe.
+
+```js
+s.pageName = "Example page";
+s.eVar1 = "Example eVar";
+s.events = "event1";
+```
+
+</td><td><a href="../vars/page-vars/page-variables.md">Variáveis de página</a></td>
+</tr>
+
+<tr>
+<td>6</td><td><b>Envie os dados para o Adobe usando o <code>t()</code> método</b>, quando todas as variáveis de página forem definidas.
+
+```js
+s.t();
+```
+
+</td><td><a href="../vars/functions/t-method.md">método t()</a></td>
+</tr>
+
+<tr>
+<td>7</td><td><b>Estender e validar sua implementação</b> antes de empurrá-lo para a produção.</b></td><td></td>
+</tr>
+
+</table>
+
+## Recursos adicionais
+
+- [Visão geral sobre variáveis, funções, métodos e plug-ins](../vars/overview.md)
