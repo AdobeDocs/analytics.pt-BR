@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+source-git-commit: 1defe0b630d9d600402dc23562d7a6af0bfa81de
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '629'
 ht-degree: 95%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 95%
                   + [Definir um evento usando uma variável de dados de contexto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Remover um evento de uma ocorrência](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Dicas e truques para regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
-            + Remoção de bot {#bot-removal}
+            + Regras de bot {#bot-removal}
                + [Remoção de bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [Visão geral das regras de bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Assinaturas comuns do bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
@@ -119,12 +119,8 @@ ht-degree: 95%
             + [Descrições do relatório personalizado](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + Variáveis de conversão {#conversion-variables}
             + [Variáveis de conversão (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
-            + [Editar variáveis de conversão](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)
-            + [Classificações de conversão](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
-            + [Hierarquias de classificação](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
-            + [Variáveis da Lista](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
-            + [eVar de merchandising](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
             + [Métodos de descoberta](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+            + [Classificações de conversão](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
             + Variável de visitante único {#unique-visitor-variable}
                + [Especificar a Variável de visitante único](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
                + [Caso de uso - Extração de IDs de visitantes](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
@@ -132,6 +128,9 @@ ht-degree: 95%
                + [Visão geral dos eventos bem-sucedidos](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
                + [Configurar os eventos bem-sucedidos](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
                + [Sobre como alterar o Tipo de evento](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+            + [Hierarquias de classificação](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
+            + [Variáveis da Lista](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+            + [eVar de merchandising](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + [Canais de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
          + Gerenciamento de tráfego {#traffic-management}
             + [Gerenciar tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)

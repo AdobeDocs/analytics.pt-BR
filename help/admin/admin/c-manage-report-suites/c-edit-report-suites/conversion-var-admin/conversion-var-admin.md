@@ -4,10 +4,10 @@ keywords: eVar
 title: Variáveis de conversão (eVar)
 feature: Admin Tools
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '1582'
-ht-degree: 100%
+source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
+workflow-type: tm+mt
+source-wordcount: '1672'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,10 @@ ht-degree: 100%
 
 A variável de conversão do Custom Insight (ou eVar) é colocada no código da Adobe em páginas da Web selecionadas do site. Seu propósito principal é segmentar métricas de sucesso de conversão em relatórios de marketing personalizados. Uma eVar pode ter por base visitas e funcionar de forma semelhante aos cookies. Os valores passados para variáveis eVar seguem o usuário por um período predeterminado.
 
-Veja um vídeo com uma visão geral:
+
+## Visão geral das Variáveis de conversão (eVars)
+
+Veja a seguir uma visão geral do vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
 
@@ -33,9 +36,9 @@ Se desejar a medida de tráfego ou de definição de caminho, é recomendado usa
 >
 >Somente um valor único pode ser armazenado em uma eVar em uma solicitação de imagem. Se vários valores forem desejados no valor de uma eVar, recomendamos a implementação de [Listar variáveis (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=pt-BR).
 
-## Variáveis de conversão - descrições {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
+### Variáveis de conversão - descrições {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descrições de campos usados ao [editar variáveis de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md).
+Descrições de campos usados ao [editar variáveis de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md).
 
 | Elemento | Descrição |
 | --- | --- |
@@ -68,3 +71,18 @@ As eVars não diferenciam maiúsculas de minúsculas. A caixa alta ou baixa usad
 ### Contadores
 
 Embora as eVars sejam usadas com mais frequência para reter valores da string, elas também podem ser configuradas para atuar como contadores. As eVars são úteis como contadores quando você está tentando contar o número de ações adotadas por um usuário antes de um evento. Por exemplo, você pode usar uma eVar para capturar o número de pesquisas internas antes da compra. Sempre que um visitante pesquisar, a eVar deverá conter um valor de &quot;+1&quot;. Se um visitante pesquisar quatro vezes antes de uma compra, você verá uma instância para cada contagem total: 1,00, 2,00, 3,00 e 4,00. No entanto, somente a 4,00 receberá crédito pelo evento da compra (Pedidos e métricas de receita). Somente números positivos são permitidos como valores de um contador eVar.
+
+## Adicionar ou editar variáveis de conversão
+
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
+1. Selecione um conjunto de relatórios.
+1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Variáveis de conversão]**.
+1. Na página [!UICONTROL Variáveis de conversão], clique em **[!UICONTROL Expandir]** [+] ao lado da variável de conversão que você deseja modificar.
+
+   Ou
+
+   Clique em **[!UICONTROL Adicionar novo]** para adicionar uma eVar não usada ao conjunto de relatórios.
+1. Selecione os campos de variável de conversão que você deseja modificar.
+
+   Consulte [Variáveis de conversão - Descrição](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF). Alguns campos permitem digitar diretamente neles. Outros permitem selecionar em uma lista suspensa com os valores compatíveis.
+1. Clique em **[!UICONTROL Salvar]**.
