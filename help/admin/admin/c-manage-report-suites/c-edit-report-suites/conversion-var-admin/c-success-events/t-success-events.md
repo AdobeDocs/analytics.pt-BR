@@ -3,10 +3,10 @@ description: Etapas que descrevem como configurar eventos bem-sucedidos.
 title: Configurar os eventos bem-sucedidos
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,15 @@ Etapas que descrevem como configurar eventos bem-sucedidos.
 1. Na coluna **[!UICONTROL Polaridade]**, especifique se uma tendência acima para essa métrica é boa ou ruim.
 1. Na coluna **[!UICONTROL Visibilidade]**, você pode ocultar métricas padrão (incorporadas), eventos personalizados e eventos incorporados no Menu, Seletores de métricas, Construtor de métricas calculadas e o Construtor de segmentos.
 
-   Essa configuração não afeta a coleta de dados da métrica ou do evento, afeta somente a visibilidade na interface do usuário. [Mais...](/help/admin/admin/metric-visibility.md)
+   Essa configuração não afeta a coleta de dados dessa métrica ou evento; afeta somente sua visibilidade na interface do usuário, como a seguir:
+
+
+   | Configuração | Visível em | Não visível em |
+   |---------|----------|---------|
+   | [!UICONTROL **Visível em todos os lugares**] | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | N/D |
+   | [!UICONTROL **Construtores**] | <ul><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Oculto em todos os lugares**] | N/D | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
+
 1. Forneça uma descrição.
 1. Verifique se o evento sempre deve ser gravado.
 1. Ative ou desative as métricas de participação.
