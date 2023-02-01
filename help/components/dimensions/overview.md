@@ -3,10 +3,10 @@ title: Visão geral das dimensões
 description: Variáveis que contêm valores de string.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '127'
-ht-degree: 100%
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 63%
 
 ---
 
@@ -22,10 +22,8 @@ Por exemplo, ao combinar a dimensão &quot;Página&quot; com a métrica &quot;Vi
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-Cada dimensão representa uma parte ou uma faceta diferente do site. É possível combinar uma ou mais dessas dimensões com uma ou mais métricas para criar um relatório.
+Cada dimensão representa uma parte ou uma faceta diferente do site. É possível combinar uma ou mais dessas dimensões com uma ou mais métricas para criar um relatório desejado.
 
 ## Adicionar descrições de dimensão
 
-Este é um vídeo que demonstra como adicionar descrições de dimensão (e métricas) no Adobe Analytics:
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Os administradores do Analytics podem adicionar descrições de dimensões e outros componentes dentro do Conjunto de relatórios ou diretamente do Analysis Workspace. Para obter informações sobre como adicionar descrições a dimensões, consulte [Adicionar descrições de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

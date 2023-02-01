@@ -3,7 +3,7 @@ description: Perguntas frequentes sobre governança de dados do Adobe Analytics
 title: Perguntas frequentes sobre governança de dados
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 87%
@@ -119,7 +119,6 @@ Além disso, esteja ciente de que os usuários que têm uma ocorrência excluíd
 Entre em contato com seu Gerente de conta (CSM) para coordenar com nossa equipe de consultores de Arquitetura e engenharia para analisar e fornecer um nível de esforço e remover qualquer problemas de PII ou de dados.
 
 +++
-
 
 Recursos adicionais da Privacidade de dados:
 

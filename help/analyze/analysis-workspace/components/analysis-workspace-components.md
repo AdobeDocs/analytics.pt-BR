@@ -1,13 +1,13 @@
 ---
-description: 'Os componentes do Analysis Workspace consistem em dimensões, métricas, segmentos e intervalos de datas que você pode arrastar e soltar em um projeto. '
+description: Os componentes do Analysis Workspace consistem em dimensões, métricas, segmentos e intervalos de datas que você pode arrastar e soltar em um projeto.
 title: Visão geral dos componentes
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 356df9e96e3b15ccb74e641e04d6a6fc26e6db62
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -53,9 +53,12 @@ Os exemplos de segmentos incluem [!UICONTROL Visitantes de dispositivo móvel], 
 
 [**Intervalos de datas**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=pt-BR) são o intervalo de datas em que você faz a análise. Eles podem ser encontrados no painel Componente à esquerda (seção roxa) e normalmente são aplicados no calendário de cada painel.
 
+Você pode tornar os componentes do intervalo de datas relativos ao calendário do painel. Para obter mais informações, consulte [Sobre intervalos de datas relativos do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+
 Exemplos de intervalos de datas incluem julho de 2019, [!UICONTROL Últimas 4 semanas] e [!UICONTROL Este mês]. Os intervalos de datas são fornecidos pela Adobe, são aplicados no [calendário do painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR) ou são criados usando o [Criador de intervalo de datas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=pt-BR).
 
 ![](assets/date-ranges.png)
+
 
 ## Ações dos componentes {#actions}
 

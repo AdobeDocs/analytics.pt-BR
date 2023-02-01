@@ -4,10 +4,10 @@ title: Criar um cartão de pontuação móvel
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+source-git-commit: a50451010a4c972d4acdc11a5229406f47bdf292
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 100%
+source-wordcount: '1789'
+ht-degree: 98%
 
 ---
 
@@ -101,6 +101,16 @@ Se o intervalo de datas desejado ainda não tiver sido criado, será possível c
 ![Novo cartão de pontuação5](assets/new_score_card5.png)
 
 Você será direcionado ao construtor de intervalo de datas, em que é possível criar e salvar um novo componente de intervalo de datas.
+
+### Mostrar intervalos de datas de comparação {#showo-comparison-dates}
+
+Para incluir intervalos de datas de comparação, alterne a variável **Incluir datas de comparação** configuração.
+
+![Incluir datas de comparação](assets/include-comparison-dates.png)
+
+A configuração é *on* por padrão. Desmarque a opção se não quiser exibir datas de comparação.
+
+![Configuração de data de comparação desmarcada](assets/no-comparison-dates.png)
 
 ## Aplicar visualizações {#viz}
 

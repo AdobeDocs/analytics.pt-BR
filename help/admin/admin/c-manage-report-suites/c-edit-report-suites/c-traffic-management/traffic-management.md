@@ -3,14 +3,14 @@ description: A página Gerenciamento de tráfego permite que você especifique a
 title: Gerenciar tráfego
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 96%
 
 ---
 
-# Gerenciar tráfego
+# Visão geral do Gerenciamento de tráfego
 
 A página Gerenciamento de tráfego permite que você especifique as alterações no volume de tráfego esperado. Essas configurações permitem à Adobe alocar os recursos apropriados para garantir que seu tráfego possa ser rastreado e processado em tempo hábil.
 

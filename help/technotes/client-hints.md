@@ -2,10 +2,10 @@
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 71%
+source-wordcount: '1245'
+ht-degree: 70%
 
 ---
 
@@ -77,6 +77,8 @@ A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 
 * As dicas de baixa entropia são coletadas por meio do cabeçalho da solicitação.
 * As dicas de alta entropia são coletadas por meio do JavaScript e passadas pelos valores de parâmetro da string de consulta. Os parâmetros da cadeia de caracteres de consulta usam `h.` como um prefixo na solicitação de imagem.
+
+Dicas de alta entropia são coletadas por meio da chamada do JavaScript e passadas pelo parâmetro de consulta
 
 +++
 

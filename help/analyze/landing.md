@@ -4,7 +4,7 @@ title: Página de aterrissagem do Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
+source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3947'
 ht-degree: 74%
@@ -195,7 +195,7 @@ Mais opções de aprendizagem:
 
 ### Gerenciamento de relatórios da empresa {#manage-company-reports}
 
-Os administradores podem filtrar a lista de projetos para exibir e gerenciar relatórios da empresa. Os itens fixados permanecem fixos, seguidos da lista de relatórios da empresa identificados pela variável ![ícone de relatório](assets/report-icon.png) ícone do relatório. Nesta visualização, é possível excluir, renomear, marcar ou aprovar um ou mais relatórios.
+Os administradores podem filtrar a lista de projetos para exibir e gerenciar relatórios da empresa. Os itens fixados permanecem fixos, seguidos da lista de relatórios da empresa identificados pela variável ![ícone de relatório](assets/report-icon.png) ícone do relatório . Nesta visualização, é possível excluir, renomear, marcar ou aprovar um ou mais relatórios.
 
 Para exibir e gerenciar relatórios da empresa
 

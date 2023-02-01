@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 1defe0b630d9d600402dc23562d7a6af0bfa81de
+source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '614'
 ht-degree: 95%
 
 ---
@@ -133,11 +133,9 @@ ht-degree: 95%
             + [eVar de merchandising](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + [Canais de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
          + Gerenciamento de tráfego {#traffic-management}
-            + [Gerenciar tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-            + [Programar um pico de tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-            + [Estimar chamadas de servidor antigas e agendar um pico de tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-            + [Especificar o aumento de tráfego permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-            + [Tempo de lead necessário para aumentos de tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
+            + [Visão geral](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [Programar pico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [Tráfego permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Configurações individuais do conjunto de relatórios](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [Gerenciamento de aplicativos](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + Relatórios em Tempo real {#real-time-reports}
@@ -171,6 +169,7 @@ ht-degree: 95%
       + [Práticas recomendadas de rotulagem](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [Exemplo de rotulagem](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
+   + [Enviar solicitações de acesso e de exclusão](c-data-governance/gdpr-submit-access-delete.md)
    + [Expansão de ID](c-data-governance/gdpr-id-expansion.md)
    + [Isenção de consentimento da CNIL](c-data-governance/cnil-consent-exemption.md)
 + [API de administração](c-admin-api/c-admin-api.md)
