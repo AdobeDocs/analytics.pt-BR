@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 96%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 96%
 + [Guia de administração do Analytics](home.md)
 + [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
 + console de administração do Adobe {#admin-console}
-   + [Analytics no Adobe Admin Console](admin-console/home.md)
+   + [Visão geral](admin-console/home.md)
    + [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md)
    + [Funções de administrador no Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-   + Permissões {#permissions}
+   + Resumo das permissões das ferramentas do Analytics {#permissions}
       + [Permissões do Analytics no Admin Console](admin-console/permissions/summary-tables.md)
       + [Perfis de produto para o Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Permissões de perfil de produto para Ferramentas de conjuntos de relatórios](admin-console/permissions/report-suite-tools.md)
@@ -156,7 +156,6 @@ ht-degree: 96%
       + [Compartilhamento de marcas](admin/company/co-branding-admin.md)
       + [Ocultar conjuntos de relatórios](admin/company/c-hide-report-suites.md)
       + [Gerenciador de segurança](admin/company/security-manager.md)
-   + [Menu de relatórios simplificado](admin/t-simplified-menu.md)
    + [Gerenciamento de vídeo](admin/video-management.md)
    + Uso de chamadas do servidor {#server-call-usage}
       + [Visão geral do uso de chamadas do servidor](admin/c-server-call-usage/overage-overview.md)
