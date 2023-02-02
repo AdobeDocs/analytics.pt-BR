@@ -3,10 +3,10 @@ description: As regras de classificação buscam regularmente termos não classi
 title: Regras de classificação
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 100%
+source-wordcount: '2015'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ As regras de classificação são úteis para:
 * **Email** e **Anúncios de exibição**: crie regras de classificação para agrupar campanhas de anúncio de exibição individuais; assim, será possível conhecer o desempenho das campanhas de exibição em comparação às campanhas de email.
 
 * **Códigos de rastreamento**: crie regras de classificação para categorizar os valores principais provenientes de sequências de caracteres nos códigos de rastreamento, e faça-os corresponder aos critérios específicos que definiu.
-* **Termos de pesquisa**: use [expressões regulares](/help/components/classifications/crb/classification-quickstart-rules.md) e curingas para simplificar a classificação de termos de pesquisa. Por exemplo, se um termo de pesquisa contém *`baseball`*, é possível definir uma classificação *`Sports League`* como *`MLB`*.
+* **Termos de pesquisa**: Use [expressões regulares](/help/components/classifications/crb/classification-quickstart-rules.md) e curingas para simplificar a classificação de termos de pesquisa. Por exemplo, se um termo de pesquisa contém *`baseball`*, é possível definir uma classificação *`Sports League`* como *`MLB`*.
 
 Por exemplo, digamos que um código de rastreamento de uma ID de campanha de email seja:
 
@@ -304,13 +304,13 @@ t_classification_rule.xml
 
  -->
 
-Etapas que descrevem como adicionar ou aditar uma regra de classificação.
-
 Adicione regras por corresponder uma condição a uma classificação e especificar a ação.
 
 >[!NOTE]
 >
 >Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](/help/components/classifications/c-sub-classifications.md).
+
+Para adicionar ou editar uma regra de classificação:
 
 1. [Criar um conjunto de regras de classificação](/help/components/classifications/crb/classification-rule-set.md).
 1. Na página do conjunto de regras, clique em **[!UICONTROL Adicionar regra]**.
@@ -326,8 +326,8 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
    >Os conjuntos de relatórios são exibidos nesta página *somente* quando as seguintes condições são atendidas:
    >
    >* Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
-   >
-   >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
+      >
+      >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
    >
    >* Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
 
@@ -363,7 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-Etapas que descrevem como testar uma regra de classificação ou um conjunto de regras. A execução de um teste verifica todas as regras em um conjunto.
+Você pode testar uma regra de classificação ou um conjunto de regras. A execução de um teste verifica todas as regras em um conjunto.
+
+Para testar um Conjunto de regras de classificação:
 
 1. [Criar um conjunto de regras de classificação](/help/components/classifications/crb/classification-rule-set.md).
 1. No [!UICONTROL Construtor de regra de classificação], clique no nome do conjunto de regras.
@@ -395,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-Etapas que descrevem como validar e ativar regras de classificação.
+Para validar e ativar regras de classificação:
 
 1. [Crie um Conjunto de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) e [adicione as regras de classificação](/help/components/classifications/crb/classification-quickstart-rules.md) ao conjunto.
 1. No editor de regras, clique em **[!UICONTROL Ativar]**.

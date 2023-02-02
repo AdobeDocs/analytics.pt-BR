@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 98%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONT
 
 ## Gerenciar painéis compartilhados
 
-Etapas que descrevem como usar as opções de gerenciamento de painel compartilhadas.
+Para gerenciar painéis compartilhados:
 
 1. Ir para **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Painéis]**.
 1. Em [!UICONTROL Painéis compartilhados], encontre o painel compartilhado (ou painel herdado) você deseja gerenciar e escolher um ou mais das seguintes opções:
@@ -92,7 +92,9 @@ Ao copiar o painel legado, o sistema abre o painel para edição, onde você pod
 
 ## Compartilhar um painel
 
-Etapas que descrevem como um administrador pode compartilhar (ou promover) um painel para vários usuários. Ao fazer o push de painéis para os usuários, os painéis ficam disponíveis no menu [!UICONTROL Painéis compartilhados] do usuário.
+Os administradores do Analytics podem compartilhar (ou enviar) um painel para vários usuários. Ao fazer o push de painéis para os usuários, os painéis ficam disponíveis no menu [!UICONTROL Painéis compartilhados] do usuário.
+
+Para compartilhar um painel com vários usuários:
 
 1. No [!UICONTROL Gerenciador de painel], localize o painel e, em seguida, habilite a opção **[!UICONTROL Compartilhado]**.
 1. Clique em **[!UICONTROL Encaminhar para usuários]**.  ![](assets/push.png)
@@ -110,18 +112,3 @@ No [!UICONTROL Gerenciador de painéis], você pode verificar se um painel está
 1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Enviar]**.
 
    Consulte [Agendamento e distribuição](/help/analyze/reports-analytics/scheduling.md) para obter mais informações.
-
-## Arquivar um painel
-
->[!NOTE]
->
->Essa funcionalidade não estará mais disponível em janeiro de 2020.
-
-Etapas que descrevem como arquivar qualquer painel enviado como um arquivo PDF. O sistema armazena o arquivo armazenado por dois anos, ou até atingir o limite máximo de 4 GB de relatórios arquivados.
-
-1. Abra um painel.
-1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Enviar]**.
-1. No grupo [!UICONTROL Relatório de email], habilite a opção **[!UICONTROL Arquivar]**.
-1. Especifique as opções de entrega e, em seguida, clique em **[!UICONTROL Enviar]**.
-
-   Você pode visualizar painéis arquivados no Gerenciador de painel. Como opção, abra um painel e clique em **[!UICONTROL Mais]** > **[!UICONTROL Exibir arquivo]**.

@@ -4,10 +4,10 @@ description: O Analysis Workspace é a principal ferramenta de análise do Adobe
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 94%
 
 ---
 
@@ -51,7 +51,7 @@ No projeto do Espaço de trabalho, **painéis, tabelas, visualizações e compon
 
 ### Visualizações
 
-**Visualizações**, como um gráfico de barras ou de linhas, são adicionadas sobre os dados para dar vida visualmente a eles. No painel à esquerda, selecione o ícone do meio de **[!UICONTROL Visualizações]** para ver a lista completa de [visualizações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR) disponíveis.
+**Visualizações**, como um gráfico de barras ou de linhas, pode ser usado para dar vida visualmente aos dados. No painel à esquerda, selecione o ícone do meio de **[!UICONTROL Visualizações]** para ver a lista completa de [visualizações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR) disponíveis.
 
 ![](assets/build-visualizations.png)
 

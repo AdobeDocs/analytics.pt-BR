@@ -5,10 +5,10 @@ title: Painéis e reportlets
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '1827'
-ht-degree: 100%
+source-git-commit: dbccae5fdfd092da40e0786aa76238f1e6c1ccb9
+workflow-type: tm+mt
+source-wordcount: '1818'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,6 @@ Consulte [Gerenciamento de painéis](/help/analyze/reports-analytics/dashboard-m
 
 ## Criar um painel {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-Etapas que descrevem como criar um painel.
 
 <!-- 
 
@@ -74,6 +73,8 @@ t_dashboard_add.xml
  -->
 
 Antes de adicionar um relatório (como um reportlet) a um painel, defina o layout do painel.
+
+Para criar um painel:
 
 1. Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Gerenciar painéis]**.
 1. Clique em **[!UICONTROL Adicionar painel]**.
@@ -96,13 +97,15 @@ Antes de adicionar um relatório (como um reportlet) a um painel, defina o layou
 
 ## Criar um reportlet {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-Etapas que descrevem como criar um reportlet. Depois de criar um reportlet, ele estará disponível para exibição em um painel.
+Após criar um reportlet, ele fica disponível para exibição em um painel.
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+Para criar um painel:
 
 1. Executar um relatório.
 1. Clique em **[!UICONTROL Painel]**.
@@ -122,13 +125,15 @@ t_dashboard_add_report.xml
 
 ## Adicionar conteúdo a um painel {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-Etapas que descrevem como adicionar conteúdo de outros painéis e painéis compartilhados. Você também pode adicionar conteúdo a partir de qualquer fonte personalizada ou externa como, por exemplo, texto e imagens.
+Você pode adicionar conteúdo de outros painéis e painéis compartilhados. Você também pode adicionar conteúdo a partir de qualquer fonte personalizada ou externa como, por exemplo, texto e imagens.
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+Adicionar conteúdo a um painel:
 
 1. Abra um painel e, em seguida, clique em **[!UICONTROL Layout]**.
 1. Clique em **[!UICONTROL Adicionar conteúdo]** e, em seguida, arraste os itens para o painel.
@@ -209,7 +214,7 @@ t_dashboard_edit.xml
 
 ## Compartilhamento de marcas em um painel {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-Etapas que descrevem como fazer o upload de uma imagem para exibição em um painel.
+Para fazer upload de uma imagem para exibir em um painel:
 
 <!-- 
 

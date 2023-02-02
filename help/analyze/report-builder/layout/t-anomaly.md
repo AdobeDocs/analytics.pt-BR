@@ -5,16 +5,16 @@ uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 94%
 
 ---
 
 # Configurar uma solicitação de detecção de anomalias
 
-Essas etapas descrevem como criar uma solicitação de detecção de anomalias no Report Builder.
+Para criar uma solicitação de detecção de anomalias no construtor de relatórios:
 
 1. Selecione um relatório de tendências, como um **[!UICONTROL relatório de Métricas do site]** > **[!UICONTROL Relatório de]** tráfego.
 1. No menu [!UICONTROL Aplicar granularidade], selecione **[!UICONTROL Dia]**.

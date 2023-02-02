@@ -3,16 +3,16 @@ description: Etapas que descrevem como configurar eventos bem-sucedidos.
 title: Configurar os eventos bem-sucedidos
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 89%
+source-wordcount: '252'
+ht-degree: 87%
 
 ---
 
 # Configurar os eventos bem-sucedidos
 
-Etapas que descrevem como configurar eventos bem-sucedidos.
+Para configurar eventos bem-sucedidos:
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.

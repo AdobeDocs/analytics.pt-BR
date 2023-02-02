@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 86%
+source-wordcount: '1761'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 Informações sobre agendamento, download e distribuição de relatórios.
 
 >[!IMPORTANT]
->Em 21 de abril de 2022, anunciamos a desativação de vários recursos específicos dos relatórios agendados, como preparação para o fim da vida útil anunciado anteriormente para o Reports &amp; Analytics. Esses recursos incluíam a capacidade de agendar novos relatórios, bem como novas extrações de dados. Em resposta às solicitações do cliente que buscam uma extensão e para facilitar a transição do Reports &amp; Analytics, decidimos estender o acesso a esses recursos até 31 de janeiro de 2023. Observe que as janelas de expiração dos relatórios e extrações de dados continuarão limitadas a nove meses; a entrega do relatório e da extração de dados será pausada no final deste período, a menos que a programação seja reativada. [Saiba mais](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>Em 21 de abril de 2022, anunciamos a desativação de vários recursos específicos dos relatórios agendados como preparação para o fim da vida útil do Reports &amp; Analytics anunciado anteriormente. Esses recursos incluíam a capacidade de agendar novos relatórios, bem como novas extrações de dados. Em resposta às solicitações de clientes que buscam uma extensão e para facilitar a transição do Reports &amp; Analytics, decidimos estender o acesso a esses recursos até 31 de janeiro de 2023. Observe que as janelas de expiração dos relatórios e extrações de dados continuarão limitadas a nove meses; a entrega de relatórios e extrações de dados será pausada no final deste período, a menos que a programação seja reativada. [Saiba mais](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Ao agendar um relatório para entrega no aplicativo Adobe Analytics, você pode usar as ferramentas de Agendamento e Distribuição para saber quais arquivos foram enviados automaticamente e modificar ou encerrar as entregas.
 
@@ -44,7 +44,7 @@ Além disso, existem outros fatores que podem aumentar ainda mais o atraso antes
 
 ## Enviar um relatório {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
-Etapas que descrevem como fazer o download e enviar por email relatórios em vários formatos, além de agendar a entrega de um relatório.
+Para baixar e enviar por email relatórios em vários formatos e agendar a entrega de um relatório:
 
 1. Execute um relatório e clique em **[!UICONTROL Mais]** > **[!UICONTROL Enviar]**.
 1. Especifique as opções de entrega:
@@ -78,7 +78,7 @@ Etapas que descrevem como fazer o download e enviar por email relatórios em vá
 
 ## Imprimir um relatório {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
-Etapas que descrevem como imprimir um relatório.
+Para imprimir um relatório:
 
 1. Executar um relatório.
 1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Imprimir]**.  ![](assets/print.png)
@@ -115,11 +115,11 @@ O [!UICONTROL Gerenciador de agendamento de relatório] mostra os itens criados 
 
 ## Compartilhar um link de relatório {#task_9711DDE9E140451B8C914EC5513E21EC}
 
-Etapas que descrevem como compartilhar um relatório gerando um link de relatório (URL) para enviar a outro usuário.
+Você pode compartilhar um relatório gerando um link de relatório (URL) para enviar a outro usuário.
 
 Quando o destinatário clica no link, o sistema solicita ao as credenciais de logon (nome da empresa, nome de usuário e senha). Após o logon, o relatório gerado pelo usuário original é exibido ao destinatário. Restrições de permissão padrão se aplicam.
 
-Compartilhamento de um link de relatório,
+Compartilhamento de um link de relatório:
 
 1. Executar um relatório.
 1. Clicar em **[!UICONTROL Mais]** > **[!UICONTROL Vincular a este relatório]**.

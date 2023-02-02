@@ -4,10 +4,10 @@ title: Introdução ao Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 99%
+source-wordcount: '782'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ Antes de acessar a interface, verifique com seu Gerente de contas ou com o Atend
 
 ## Fazer logon usando a Experience Cloud
 
-Etapas que descrevem como fazer logon por meio da Experience Cloud.
+Para fazer logon por meio da Adobe Experience Cloud:
 
 1. Em um computador com acesso à Internet, inicie o Navegador.
 1. Vá para [!DNL https://login.experiencecloud.adobe.com/].
@@ -62,7 +62,7 @@ Etapas que descrevem como fazer logon por meio da Experience Cloud.
 
 ## Executar um relatório
 
-Etapas que descrevem como gerar um relatório.
+Para gerar um relatório do 
 
 1. Faça logon em [!UICONTROL Reports &amp; Analytics].
 
@@ -93,7 +93,9 @@ Todos os utilizadores têm acesso à página de [!UICONTROL Informações da con
 
 ## Alterar o idioma da interface
 
-Etapas que descrevem como alterar o idioma da interface. Você pode exibir a interface do Reports &amp; Analytics no idioma escolhido.
+Você pode alterar o idioma da interface. Você pode exibir a interface do Reports &amp; Analytics no idioma escolhido.
+
+Para mudar o idioma da interface:
 
 1. Faça logon no Analytics e selecione a guia **[!UICONTROL Relatórios]**.
 1. No rodapé da página, clique no idioma ativo no menu **[!UICONTROL Idioma]** e selecione o idioma desejado.

@@ -4,10 +4,10 @@ title: Visão geral dos componentes
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 356df9e96e3b15ccb74e641e04d6a6fc26e6db62
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Você pode gerenciar componentes (individualmente ou selecionando mais de um) di
 
 ![](assets/component-actions.png)
 
-| Ação de componente | Descrição |
+| Ação do componente | Descrição |
 |--- |--- |
 | Tag | Organize ou gerencie componentes aplicando tags. Em seguida, você pode pesquisar por tag no painel esquerdo clicando no filtro ou digitando #. As tags também atuam como filtros nos gerenciadores de componentes. |
 | Marcar como favorito | Adicione o componente à sua lista de favoritos. Como tags, você pode pesquisar por Favoritos no painel esquerdo e filtrar por eles nos gerenciadores de componentes. |

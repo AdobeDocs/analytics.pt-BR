@@ -3,10 +3,10 @@ description: As teclas não classificadas são reunidas nos relatórios de class
 title: Chaves não classificadas
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ t_rename_classification_none.xml
 
  -->
 
-Etapas que descrevem como renomear uma tecla não classificada que é exibida como *`none`* em relatórios.
+Para renomear uma tecla não classificada que é exibida como *`none`* no relatório:
 
 1. Utilizando o importador, exporte classificações para um arquivo local.
 1. Adicione uma linha ao arquivo e digite `~none~` na coluna Tecla.

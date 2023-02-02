@@ -3,10 +3,10 @@ description: Como fazer upload de arquivos de dados via FTP.
 title: Importação de FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 97%
+source-wordcount: '733'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,9 @@ Etapas que descrevem como fazer upload de arquivos de dados por FTP.
 
 ## Importação de FTP {#concept_2F965BE873254546A61FB755F25299FD}
 
-Etapas que descrevem como fazer upload de arquivos de dados por FTP.
+Para fazer upload de arquivos de dados via FTP:
 
-**[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
+1. **[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
 
 Os seguintes limites recomendados são importantes:
 
@@ -41,9 +41,11 @@ Antes de fazer upload dos dados por FTP, crie uma conta FTP. Para obter mais inf
 
 ## Importar classificações por FTP {#task_132C36830B69418B8C929E39838EF01D}
 
-Etapas que descrevem como usar uma conta FTP para importar classificações para o Adobe Analytics.
+Você pode usar uma conta FTP para importar classificações para o Adobe Analytics.
 
 Para obter mais informações sobre como criar uma conta FTP, consulte [Criar uma conta FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+
+Para importar classificações por FTP:
 
 1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
 1. Clique em **[!UICONTROL Importar Arquivo]**, e então clique em **[!UICONTROL Importação de FTP]**.

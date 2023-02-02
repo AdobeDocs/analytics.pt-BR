@@ -3,10 +3,10 @@ description: Classificações são usadas para categorizar valores em grupos e r
 title: Classificações de conversão
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Depois de habilitar as classificações, utilize o [Importador de classificaçõ
 
 ## Adicionar classificações de conversão
 
-Etapas que descrevem como adicionar classificações de conversão na Administração.
+Para adicionar classificações de conversão em Administração:
 
 1. Clique em **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.

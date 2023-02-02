@@ -5,10 +5,10 @@ uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-Etapas que descrevem como personalizar o gráfico a fim de que seja mais útil para o público-alvo desejado.
+Você pode personalizar o gráfico para que seja mais útil para o público-alvo desejado.
 
 Os tipos de gráfico disponíveis dependem do tipo de relatório que você está executando. Por exemplo, gráficos de linha de tendência são úteis para relatórios de tendências, mas você pode também usar um gráfico de Barras verticais com linhas de tendência que ilustram claramente as tendências ao passar dos dias, semanas, meses e assim por diante. Opcionalmente, você poderia escolher um gráfico de pizza para ilustrar porcentagens das páginas visualizadas.
 
-**Para alterar um gráfico de relatório**
+Para alterar um gráfico de relatório:
 
 1. Executar um relatório.
 1. Clique em **[!UICONTROL Configurar gráfico]**.
