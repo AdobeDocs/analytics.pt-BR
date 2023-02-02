@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
@@ -134,6 +134,7 @@ ht-degree: 0%
             + [Programar pico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Tráfego permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Gerenciamento de aplicativos](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [Gerenciamento de mídia](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Relatórios de privacidade](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Relatórios em Tempo real {#real-time-reports}
             + [Visão geral dos Relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -150,7 +151,6 @@ ht-degree: 0%
       + [Gerenciador de preferências](admin/company/preferences-manager.md)
       + [Ações pendentes](admin/company/pending-actions-admin.md)
       + [Níveis de acesso a recursos](admin/company/feature-access-levels.md)
-   + [Gerenciamento de vídeo](admin/video-management.md)
    + Uso de chamadas do servidor {#server-call-usage}
       + [Visão geral do uso de chamadas do servidor](admin/c-server-call-usage/overage-overview.md)
       + [Visualizar uso de chamadas do servidor atual](admin/c-server-call-usage/server-call-usage-dashboard.md)
