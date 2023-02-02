@@ -5,10 +5,10 @@ title: Criar links compartilháveis
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 68%
+source-wordcount: '298'
+ht-degree: 80%
 
 ---
 
@@ -32,14 +32,6 @@ Você também pode compartilhar um link para uma parte específica de um projeto
 [Assista ao vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=pt-BR) sobre como criar links e usá-los para direcionar recipients para partes específicas do seu projeto.
 
 ![](assets/get-viz-link.png)
-
-## Obter link público
-
-{{release-limited-testing-section}}
-
-Você pode compartilhar projetos do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics. Isso pode incluir pessoas fora da organização ou que não estejam provisionadas com a Adobe Analytics na organização.
-
-Para obter mais informações, consulte [Compartilhar um link público com qualquer pessoa (não é necessário fazer logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) em [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
 
 ## Usar links em um índice {#TOC}
 
