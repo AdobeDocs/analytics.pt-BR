@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
+source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 95%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 95%
    + [Métricas padrão](admin/default-metrics.md)
    + [Excluir por endereço IP](admin/exclude-ip.md)
    + [Logs](admin/logs.md)
-   + [Gerenciador de preferências](admin/preferences-manager.md)
    + [Relatórios de privacidade](admin/privacy-reporting.md)
    + [Gerenciador de atividades de relatórios](admin/reporting-activity.md)
    + [Relação de relatórios agendados](admin/scheduled-reports-admin.md)
@@ -136,7 +135,6 @@ ht-degree: 95%
             + [Visão geral](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Programar pico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Tráfego permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-         + [Configurações individuais do conjunto de relatórios](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [Gerenciamento de aplicativos](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + Relatórios em Tempo real {#real-time-reports}
             + [Visão geral dos Relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -144,14 +142,15 @@ ht-degree: 95%
             + [Métricas e dimensões em tempo real compatíveis](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + Configurações da empresa {#company-settings}
       + [Visão geral das Configurações da empresa](admin/company/c-company-settings.md)
-      + [Níveis de acesso a recursos](admin/company/feature-access-levels.md)
+      + [Gerenciador de segurança](admin/company/security-manager.md)
       + [Serviços Web](admin/company/web-services-admin.md)
       + [Relatórios do Report Builder](admin/company/report-builder-reports-admin.md)
       + [Logon único](admin/company/single-signon-admin.md)
-      + [Ações pendentes](admin/company/pending-actions-admin.md)
       + [Compartilhamento de marcas](admin/company/co-branding-admin.md)
       + [Ocultar conjuntos de relatórios](admin/company/c-hide-report-suites.md)
-      + [Gerenciador de segurança](admin/company/security-manager.md)
+      + [Gerenciador de preferências](admin/company/preferences-manager.md)
+      + [Ações pendentes](admin/company/pending-actions-admin.md)
+      + [Níveis de acesso a recursos](admin/company/feature-access-levels.md)
    + [Gerenciamento de vídeo](admin/video-management.md)
    + Uso de chamadas do servidor {#server-call-usage}
       + [Visão geral do uso de chamadas do servidor](admin/c-server-call-usage/overage-overview.md)
