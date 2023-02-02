@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 95%
 
 ---
@@ -42,9 +42,7 @@ ht-degree: 95%
    + [Métricas padrão](admin/default-metrics.md)
    + [Excluir por endereço IP](admin/exclude-ip.md)
    + [Logs](admin/logs.md)
-   + [Relatórios de privacidade](admin/privacy-reporting.md)
-   + [Gerenciador de atividades de relatórios](admin/reporting-activity.md)
-   + [Relação de relatórios agendados](admin/scheduled-reports-admin.md)
+   + [Gerenciador de Atividades de relatórios](admin/reporting-activity.md)
    + Gerenciador do conjunto de relatórios {#manage-report-suites}
       + [Gerenciar conjuntos de relatórios](admin/c-manage-report-suites/report-suites-admin.md)
       + [Conjuntos de relatórios globais e de rollup](admin/c-manage-report-suites/rollup-report-suite.md)
@@ -136,6 +134,7 @@ ht-degree: 95%
             + [Programar pico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Tráfego permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Gerenciamento de aplicativos](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [Relatórios de privacidade](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Relatórios em Tempo real {#real-time-reports}
             + [Visão geral dos Relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuração de relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)

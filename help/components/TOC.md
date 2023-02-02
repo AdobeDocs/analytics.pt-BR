@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre a análise entre dispositivos.
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 97%
 
 ---
@@ -259,6 +259,7 @@ ht-degree: 97%
    + [Subclassificações](classifications/c-sub-classifications.md)
    + [Perguntas frequentes sobre classificações](classifications/faq.md)
 + [Eventos de calendário](t-calendar-event.md)
++ [Relação de relatórios agendados](scheduled-reports-admin.md)
 + Relatório em tempo real {#real-time-reporting}
    + [Visão geral do relatório em tempo real](c-real-time-reporting/realtime.md)
    + [Configurar relatórios em tempo real](c-real-time-reporting/t-realtime-admin.md)
