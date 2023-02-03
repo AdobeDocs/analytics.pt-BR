@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
+source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 95%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 95%
    + [Gerenciador de código](admin/code-manager-admin.md)
    + [Códigos monetários](admin/currency.md)
    + [Fontes de dados](admin/data-sources.md)
-   + [Métricas padrão](admin/default-metrics.md)
    + [Excluir por endereço IP](admin/exclude-ip.md)
    + [Logs](admin/logs.md)
    + [Gerenciador de Atividades de relatórios](admin/reporting-activity.md)
@@ -109,12 +108,12 @@ ht-degree: 95%
                + [Referência de dados e de código do encaminhamento pelo lado do servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
                + [Como verificar a implementação do encaminhamento pelo lado do servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [Perguntas frequentes sobre o encaminhamento pelo lado do servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
-         + Variáveis de tráfego {#traffic-variables}
+         + Tráfego {#traffic-variables}
             + [Visão geral da variável de tráfego (prop)](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Ativar os relatórios de variável de tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [Classificações de tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Descrições do relatório personalizado](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-         + Variáveis de conversão {#conversion-variables}
+         + Conversão {#conversion-variables}
             + [Variáveis de conversão (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [Métodos de descoberta](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [Classificações de conversão](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
@@ -133,10 +132,11 @@ ht-degree: 95%
             + [Visão geral](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Programar pico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Tráfego permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+         + [Métricas padrão](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [Gerenciamento de aplicativos](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Gerenciamento de mídia](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Relatórios de privacidade](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Relatórios em Tempo real {#real-time-reports}
+         + Tempo real {#real-time-reports}
             + [Visão geral dos Relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuração de relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Métricas e dimensões em tempo real compatíveis](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
