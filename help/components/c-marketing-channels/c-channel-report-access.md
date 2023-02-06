@@ -3,14 +3,20 @@ description: Este procedimento descreve como executar o Relatório de canal de m
 title: Permissões para Canal de marketing
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '253'
+ht-degree: 94%
 
 ---
 
 # Permissões para Canal de marketing
+
+>[!NOTE]
+>
+>Para maximizar a eficiência dos Canais de marketing para o Attribution IQ e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>
+>Os administradores do Analytics podem gerenciar canais de marketing para suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Estas são as permissões das Ferramentas do conjunto de relatórios necessárias no [Admin Console](https://adminconsole.adobe.com/) para trabalhar com vários aspectos dos Canais de marketing.
 

@@ -3,10 +3,10 @@ title: Práticas recomendadas para implementar os Canais de marketing do Adobe A
 description: Práticas recomendadas atualizadas para usar os Canais de marketing com o Attribution IQ e o Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 94%
+source-wordcount: '628'
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ Recomendamos usar o [Attribution IQ](https://experienceleague.adobe.com/docs/ana
 
 Os canais de Atualização direta e interna/sessão não são recomendados para uso com modelos de atribuição personalizados (Attribution IQ).
 
-E se sua organização já tiver as opções de Atualização direta e de Sessão configuradas? Nesse caso, recomendamos que você [crie uma classificação](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html) para Primeiro contato/Último contato e deixe os canais de atualização direta e de sessão sem classificação. A dimensão classificada produzirá os mesmos resultados do Attribution IQ como se esses canais nunca tivessem sido configurados.
+E se sua organização já tiver as opções de Atualização direta e de Sessão configuradas? Nesse caso, recomendamos que você [crie uma classificação](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) para Primeiro contato/Último contato e deixe os canais de atualização direta e de sessão sem classificação. A dimensão classificada produzirá os mesmos resultados do Attribution IQ como se esses canais nunca tivessem sido configurados.
 
 ![](assets/direct-session-refresh.png)
 
@@ -46,7 +46,7 @@ Modelos de atribuição personalizados usados com a dimensão Canal de marketing
 
 ## Prática recomendada nº 4: minimizar o período de envolvimento do visitante
 
-Definir o período de Envolvimento do visitante para o mínimo de &quot;1 dia&quot; minimiza a probabilidade de valores persistentes. Como os modelos de atribuição personalizados (AIQ) permitem janelas de pesquisa flexíveis, recomendamos definir o valor mínimo para minimizar o impacto dessa configuração.
+Definir o período de Envolvimento do Visitante para o mínimo de &quot;1 dia&quot; minimiza a probabilidade de valores persistentes. Como os modelos de atribuição personalizados (AIQ) permitem janelas de pesquisa flexíveis, recomendamos definir o valor mínimo para minimizar o impacto dessa configuração.
 
 ![](assets/expiration.png)
 

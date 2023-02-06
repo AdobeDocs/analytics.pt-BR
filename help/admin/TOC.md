@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '619'
 ht-degree: 95%
 
 ---
@@ -127,7 +127,11 @@ ht-degree: 95%
             + [Hierarquias de classificação](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
             + [Variáveis da Lista](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [eVar de merchandising](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
-         + [Canais de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + Canais de marketing {#marketing-channels}
+            + [Gerenciar canais de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [Regras de processamento de canais de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [Classificações em Canais de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Expiração de envolvimento do visitante](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gerenciamento de tráfego {#traffic-management}
             + [Visão geral](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Programar pico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)

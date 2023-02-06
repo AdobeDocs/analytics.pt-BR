@@ -2,8 +2,8 @@
 title: Ordem de processamento dos dados no Adobe Analytics
 description: Saiba a ordem dos componentes e serviços que processam dados no Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Quando os dados chegam ao Adobe Analytics, os seguintes recursos ajustam os dado
 3. [**Regras de bot**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): aplique a filtragem de bot padrão ou personalizada para excluir esses dados dos relatórios.
 4. [**Regras de processamento**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md): regras personalizadas aplicadas aos seus dados pela sua organização. Inclui o mapeamento de [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md) à respectiva variável.
 5. **Regras VISTA**: regras flexíveis personalizadas aplicadas aos seus dados por um consultor do Adobe. As regras VISTA podem ser executadas antes ou depois das regras de processamento, dependendo das necessidades da organização. A maioria das regras VISTA geralmente é executada após as regras de processamento, mas cada organização é configurada de forma diferente. Entre em contato com o Gerente de conta da Adobe para obter mais informações sobre as regras VISTA existentes.
-6. [**Regras de processamento de canal de marketing**](/help/components/c-marketing-channels/c-rules.md): você pode usar [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para preparar dados para uso nas regras de processamento do Canal de marketing.
+6. [**Regras de processamento de canal de marketing**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md): você pode usar [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para preparar dados para uso nas regras de processamento do Canal de marketing.
 7. **Dados de geolocalização**: dimensões que dependem da pesquisa de endereço IP (por exemplo, a variável [Países](/help/components/dimensions/countries.md) ) são preenchidas.
 8. [**Ofuscação de IP**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md): se sua organização optou por ofuscar endereços IP em dados brutos, isso será feito após a conclusão de todas as outras funções de processamento.
 
