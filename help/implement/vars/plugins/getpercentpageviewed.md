@@ -3,7 +3,7 @@ title: getPercentPageViewed
 description: Recupere a porcentagem da página que o visitante visualizou.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 2575db561c244a9b52f98355137e73f05b3b7ee4
+source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 87%
@@ -69,8 +69,7 @@ Chamar essa função não retorna nada; em vez disso, ele define as seguintes va
 * `window._ppvFinalPercentViewed`: A porcentagem da página anterior que estava visível no ponto em que o visitante foi para a página atual. Esse valor será igual ou maior que a porcentagem inicial visualizada e também será igual ou inferior à porcentagem mais alta visualizada da página.
 * `window._ppvHighestPixelsSeen`: o maior número dos pixels totais vistos (em relação à altura) quando o visitante rolou pela página anterior.
 * `window._ppvFoldsAvailable`: o número total de &quot;dobras de página&quot; disponíveis na rolagem para baixo da página anterior. Se a página inteira estiver visível quando carregada pela primeira vez, esse valor será `1`.
-* 
-   * `window._ppvFoldsSeen`: o maior número de &quot;dobras de página&quot; totais vistas (em relação à altura) quando o visitante rolou pela página anterior. Essa variável inclui a dobra do &quot;início da página&quot;. Se a página inteira estiver visível quando carregada pela primeira vez, esse valor será `1`.
+* `window._ppvFoldsSeen`: o maior número de &quot;dobras de página&quot; totais vistas (em relação à altura) quando o visitante rolou pela página anterior. Essa variável inclui a dobra do &quot;início da página&quot;. Se a página inteira estiver visível quando carregada pela primeira vez, esse valor será `1`.
 
 Atribua uma ou mais dessas variáveis a eVars para ver dados de dimensão em relatórios.
 
