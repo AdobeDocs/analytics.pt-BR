@@ -3,27 +3,27 @@ description: Saiba mais sobre as diretrizes e recomendações para o consentimen
 title: Quais são as diretrizes da CNIL para consentimento e cookies do usuário?
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 78%
 
 ---
 
 # Isenção de consentimento da CNIL
 
-Em 1º de outubro de 2020, a Autoridade Francesa de Proteção de Dados (a &quot;CNIL&quot;) publicou uma versão revisada de suas diretrizes de cookies (as &quot;Diretrizes&quot;) e de suas recomendações finais sobre como obter o consentimento dos usuários ai armazenamento ou à leitura de cookies não essenciais e tecnologias similares em dispositivos ou navegadores de usuários (as &quot;Recomendações&quot;).
+Em 1º de outubro de 2020, a Autoridade Francesa de Proteção de Dados (CNIL) publicou uma versão revisada de suas diretrizes de cookies (as &quot;Diretrizes&quot;) e suas recomendações finais sobre como obter o consentimento dos usuários para armazenar ou ler cookies não essenciais e tecnologias semelhantes em dispositivos ou navegadores de usuários (o &quot;Recommendations&quot;).
 
-As Diretrizes preveem uma isenção limitada do requisito de consentimento (&quot;Isenção de consentimento&quot;). A Isenção de consentimento aplica-se a cookies de análise cuja finalidade é limitar-se a medir o público-alvo do site ou aplicativo somente em nome do editor da Web. As Diretrizes estabelecem que, para que a Isenção do consentimento seja aplicável, as seguintes condições devem ser implementadas:
+As Orientações preveem uma isenção limitada do requisito de consentimento (&quot;Isenção de consentimento&quot;). A Isenção de consentimento aplica-se a cookies de análise cuja finalidade é limitar-se a medir o público-alvo do site ou aplicativo somente em nome do editor da Web. As Diretrizes estabelecem que, para que a Isenção do consentimento seja aplicável, as seguintes condições devem ser implementadas:
 
-* 25 meses de retenção máxima.  Você pode examinar suas configurações atuais de retenção de dados em Analytics > Admin > Governança de dados.  [Retenção de dados](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=pt-BR)
+* 25 meses de retenção máxima.  Você pode revisar as configurações atuais de retenção de dados em [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Governança de dados].  [Retenção de dados](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=pt-BR)
 * Desative cookies de terceiros na ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=pt-BR#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=pt-BR#id-service-api) e [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=pt-BR#id-service-api)
 * Limite de cookies de 13 meses.  Você pode substituir a expiração do cookie do Analytics usando a variável `cookieLifetime`.  Os cookies da Experience Cloud, incluindo o Analytics e a ECID, estendem a data de expiração do cookie com cada visita.  Para definir uma expiração de cookie estática e não cumulativa, é possível: (1) gravar o código personalizado para definir uma data na qual excluir o cookie ou (2) usar sua CMP para controlar a data da redefinição do cookie.   [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=pt-BR) e [Cookies da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=pt-BR#ec-cookies)
 * Escopo limitado. O escopo do cookie deve ser limitado a um único site ou aplicativo. [Cookies do navegador](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=pt-BR#third-party-cookie-implementations)
 * Anonimização. Torne anônimo o último octeto do endereço IP. [Configurações gerais da conta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=pt-BR)
 * Oculte a ID de visitante dos relatórios.  Por padrão, as IDs de visitante não estão visíveis no Adobe Workspace e no Adobe Reports and Analytics.  As IDs de visitante estão disponíveis nos Feeds de dados e no Data Warehouse.  O acesso aos Feeds de dados e ao Data Warehouse pode ser limitado pelas [Permissões de acesso no Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR#task_040673FE3E3E429B9531FBCB8B6A4391) e [Referência da coluna Feed de dados](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=pt-BR#columns%2C-descriptions%2C-and-data-types)
 * Parâmetros de geolocalização. A geolocalização não pode ser mais precisa do que o nível de código postal. [Opção de CEP](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=pt-BR#zip-in-adobe-experience-platform-launch) e [Configurações gerais da conta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=pt-BR#admin-tools)
-* Defina as opções de aceitação.  O Serviço de aceitação permite configurar os protocolos para o visitante a fim de determinar se você pode adicionar um cookie no dispositivo ou no navegador do usuário quando ele visitar o site. [Serviço de aceitação](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR)
+* Defina as opções de aceitação.  O serviço de opção de participação permite que você defina os protocolos dos visitantes para determinar se é possível definir um cookie no dispositivo ou no navegador do usuário ao visitar seu site. [Serviço de aceitação](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR)
 * Impedir compartilhamento de dados.  Para impedir o compartilhamento de dados com o Adobe Audience Manager, use a variável de contexto `opt.dmp` para [Relatórios de privacidade](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=pt-BR#variables) para evitar que as ocorrências sejam compartilhadas.
 * Capacidade de acesso e exclusão. Utilize o Privacy Service para acessar e excluir solicitações. [Analytics e Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html?lang=pt-BR)
 
@@ -31,7 +31,7 @@ As Diretrizes preveem uma isenção limitada do requisito de consentimento (&quo
 
 As seguintes considerações adicionais são aplicáveis:
 
-* O Adobe Analytics opera centros de processamento de dados nos Estados Unidos, Reino Unido e Cingapura para fornecer flexibilidade a todos os clientes para que possam coletar, processar e armazenar seus dados regionalmente. Ao realizar a configuração inicial do Adobe Analytics, os clientes selecionam o local do centro de processamento de dados desejado. Os dados dos clientes são armazenados na região selecionada para o produto principal do Analytics.
+* O Adobe Analytics opera centros de processamento de dados nos Estados Unidos, Reino Unido e Cingapura para fornecer flexibilidade a todos os clientes para que possam coletar, processar e armazenar seus dados regionalmente. Ao configurar a configuração inicial do Adobe Analytics, os clientes podem selecionar o local desejado do centro de processamento de dados. Os dados dos clientes são armazenados em sua região selecionada para o produto principal do Analytics.
 * Considere coletar o status de aceitação em uma variável do Analytics para separar os dados de aceitação dos dados de rejeição para segmentação, conjuntos de relatórios virtuais ou rotear para pontos finais separados.
 * Nenhuma medição fora do site ou aplicativo sem consentimento prévio, por exemplo, nenhuma campanha fora do site, campanhas de email ou iFrames.
 * A coleta de informações pessoais em variáveis não é permitida sem consentimento. [Controlar atividades da Experience Cloud com base no consentimento do usuário](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=pt-BR%22%20\l%20%22implementation#implementation)
@@ -39,5 +39,10 @@ As seguintes considerações adicionais são aplicáveis:
 * Os dados não são usados para ações de referência cruzada.
 * Os dados de geolocalização do GPS não são coletados.
 * Quando o usuário final der o consentimento, as configurações acima poderão ser modificadas e as restrições relaxadas.
+
+>[!IMPORTANT]
+>
+>Este documento não se destina a ser um aconselhamento jurídico ou regulamentar e não constitui garantia ou compromisso contratual por parte da Adobe. Recomendamos que os clientes procurem aconselhamento jurídico independente sobre as obrigações legais e regulamentares dos clientes em questões relacionadas com este assunto.
+
 
 Para obter mais informações, consulte o site [Isenção de cookies da CNIL](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications).

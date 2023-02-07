@@ -3,18 +3,14 @@ description: Rotular os dados do conjunto de relatórios significa que você atr
 title: Rotular dados do conjunto de relatórios
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 48%
+source-wordcount: '531'
+ht-degree: 44%
 
 ---
 
 # Rotular dados do conjunto de relatórios
-
->[!NOTE]
->
->Essa interface do usuário atualizada está atualmente em testes limitados.
 
 Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios. Certifique-se de se familiarizar primeiro com o [rótulos e suas definições](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
@@ -24,7 +20,7 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
 ## Atribuir ou editar rótulos de privacidade do conjunto de relatórios {#assign-edit}
 
-**Exemplo**: você, como controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics.
+**Exemplo**: Você, como o Controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics.
 
 1. No Adobe Analytics, navegue até **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configuração e coleta de dados]** > **[!UICONTROL Governança de dados]**.
 

@@ -3,30 +3,30 @@ description: Como enviar acesso aos dados e excluir solicitações no Adobe Anal
 title: Enviar solicitações de acesso e de exclusão
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 100%
+ht-degree: 68%
 
 ---
 
 # Enviar solicitações de acesso e de exclusão
 
-Se seus clientes (consumidores/titulares de dados) quiserem saber quais dados você mantém sobre eles ou decidirem que desejam ser excluídos de suas propriedades do Analytics, você, como o controlador dos dados, é responsável por responder a essas solicitações. O controlador de dados determina como sua organização interage com titulares de dados (por exemplo, por meio de um portal de usuário do titular dos dados) e gerencia as interações com eles. Também é responsabilidade do controlador fechar o ciclo com o titular dos dados quando a solicitação for atendida. Em outras palavras, a Adobe Experience Cloud, como processador de dados, não aceitará solicitações diretamente dos titulares dos dados nem retornará dados diretamente para eles. Em vez disso, a Adobe receberá solicitações e retornará dados somente para você, o controlador dos dados.
+Se seus clientes (consumidores/titulares de dados) quiserem saber quais dados você mantém sobre eles ou decidirem que desejam ser excluídos de suas propriedades do Analytics, você, como o controlador de dados, será responsável por responder a essas solicitações. O Controlador de dados determina como sua organização interage com os titulares de dados (por exemplo, por meio de um portal de usuário do titular dos dados) e gerencia as interações com eles. Também é responsabilidade do controlador fechar o ciclo com o Titular de dados quando a solicitação for atendida. Em outras palavras, a Adobe Experience Cloud, como Processador de dados, não aceitará solicitações diretamente dos titulares de dados ou retornará dados diretamente para eles. Em vez disso, o Adobe receberá solicitações e retornará dados somente para você, como o Controlador de dados.
 
-Você também pode querer garantir que seus aplicativos e sites para dispositivos móveis tenham avisos pop-up relevantes e materiais de apoio sobre os direitos dos titulares de dados em relação a seus dados direta ou indiretamente identificáveis, além de outros dados que você coletar.
+Você também pode querer garantir que seus aplicativos e sites móveis tenham avisos pop-up relevantes e materiais de suporte sobre os direitos dos titulares de dados em relação a seus dados direta ou indiretamente identificáveis, e outros dados coletados.
 
 ## Gerenciar o consentimento do consumidor {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Você, como controlador de dados, é responsável por obter o consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por implementar um [mecanismo de recusa](https://www.adobe.com/br/privacy/opt-out.html#customeruse) no seu site. Isso permite que seus titulares de dados optem por cancelar a coleta de dados futura da Adobe Experience Cloud.
+Você, como o Controlador de dados, é responsável por obter consentimento explícito de seus Titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por implementar uma [mecanismo de opção](https://www.adobe.com/br/privacy/opt-out.html#customeruse) no seu site. Isso permite que os titulares de dados optem por cancelar a coleta de dados futura da Adobe Experience Cloud.
 
 ## Validar usuários e seus dados {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-Você, como controlador de dados, é responsável por verificar se o titular dos dados é quem diz ser e se tem direito aos dados que está solicitando. Além disso, é sua responsabilidade garantir que os dados corretos sejam retornados ao titular dos dados e que ele não receba, inadvertidamente, dados sobre outros titulares.
+Você, como o Controlador de dados, é responsável por verificar se o Titular de dados é quem diz ser e se tem direito aos dados que está solicitando. Além disso, é sua responsabilidade garantir que os dados corretos sejam retornados ao Titular de dados e que ele não receba, inadvertidamente, dados sobre outros Titulares de dados.
 
-Isso inclui revisar os dados retornados pelo Adobe Analytics como parte de uma solicitação de acesso da Privacidade de dados antes de enviá-los ao titular dos dados. Cuidado especial deve ser tomado se estiver usando IDs de pessoa e retornando não somente os dados nos quais essa ID está presente, como também os dados de outras ocorrências em um dispositivo compartilhado no qual essa ID estava ocasionalmente presente. Consulte [Expansão de ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
+Isso inclui revisar os dados retornados pelo Adobe Analytics como parte de uma solicitação de acesso da Privacidade de dados antes de enviá-los ao Titular de dados. Cuidado especial deve ser tomado se estiver usando IDs de pessoa e retornando não somente os dados nos quais essa ID está presente, como também os dados de outras ocorrências em um dispositivo compartilhado no qual essa ID estava ocasionalmente presente. Consulte [Expansão de ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
-Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo automaticamente cópias adicionais de ocorrências replicadas. Você pode decidir quais desses arquivos retornar ao titular dos dados. Ou você pode extrair alguns desses dados e combiná-los com dados de outros sistemas antes de retorná-los ao titular dos dados.
+Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo automaticamente cópias adicionais de ocorrências replicadas. Você pode decidir quais desses arquivos retornar ao Titular de dados. Ou você pode extrair alguns desses dados e combiná-los com dados de outros sistemas antes de retorná-los ao Titular dos dados.
 
 ## Enviar solicitações {#submit-requests}
 
@@ -117,7 +117,7 @@ Esta seção apresenta detalhes sobre respostas de acesso e de exclusão.
 
 **Detalhes de resposta do acesso**
 
-Os dados retornados em uma solicitação de acesso fornecem a você, o controlador de dados, um URL que pode ser usado para baixar um arquivo ZIP que contenha um diretório para cada produto da Adobe que possui. Na pasta do Analytics, pode haver:
+Os dados retornados em uma solicitação de acesso fornecem a você, o Controlador de dados, um URL que pode ser usado para baixar um arquivo ZIP contendo um diretório para cada produto do Adobe que você possui. Na pasta do Analytics, pode haver:
 
 * Arquivos de pessoas - derivados de ocorrências que contêm um rótulo ID-PERSON correspondente
 
@@ -131,7 +131,7 @@ Os dados retornados em uma solicitação de acesso fornecem a você, o controlad
 
 Cada arquivo combina dados de todos os seus conjuntos de relatórios, removendo automaticamente cópias adicionais de ocorrências replicadas.
 
-Você pode decidir qual deles retornar ao titular dos dados. Ou você pode extrair alguns desses dados e combiná-los com dados de outros sistemas antes de retorná-los ao titular dos dados.
+Você pode decidir quais deles retornar ao Titular de dados. Ou você pode extrair alguns desses dados e combiná-los com dados de outros sistemas antes de retorná-los ao Titular dos dados.
 
 **Detalhes de resposta da exclusão**
 
