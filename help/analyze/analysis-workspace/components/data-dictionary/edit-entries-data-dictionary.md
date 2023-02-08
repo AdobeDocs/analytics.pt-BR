@@ -5,9 +5,9 @@ feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Para editar um componente no Dicionário de dados:
 
    ![Exibição do administrador do Dicionário de dados](assets/data-dictionary-admin.png)
 
-1. Verifique se o Conjunto de relatórios correto está selecionado no menu suspenso.
+1. Verifique se o Conjunto de relatórios correto está selecionado no menu suspenso. Por padrão, o conjunto de relatórios em que você já está é exibido.
 
 1. (Opcional) No campo de pesquisa, comece a digitar o nome do componente que deseja editar.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '604'
 ht-degree: 7%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 7%
 |---------|----------|
 | [!UICONTROL **Aprovado**] | Indica que o componente foi revisado e aprovado pelo administrador. Os administradores veem um [!UICONTROL **Aprovação necessária**] para componentes não aprovados. Selecionar essa opção marca como Aprovado. |
 | [!UICONTROL **Descrição**] | Descreve a função pretendida do componente. (Essas informações são adicionadas pelo administrador do Analytics, conforme descrito em [Adicionar descrições de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **Frequentemente usado com**] | Mostra os 5 componentes mais usados com o componente que você está visualizando nos 5 tipos de componentes principais: Métrica, Métrica calculada, Dimension, Segmento e Intervalo de datas. Esta lista é baseada em dados dos últimos 90 dias. Somente os componentes que você tem acesso para exibir são mostrados. |
-| [!UICONTROL **Semelhante a**] | Mostra até 5 componentes com rótulos semelhantes ao componente que você está visualizando nos 5 tipos de componentes principais: Métrica, Métrica calculada, Dimension, Segmento e Intervalo de datas. Somente os componentes que você tem acesso para exibir são mostrados. |
-| [!UICONTROL **Tags**] | Mostra todas as tags aplicadas ao componente. |
+| [!UICONTROL **Frequentemente usado com**] | Mostra os 5 componentes mais usados com o componente que você está visualizando nos 5 tipos de componentes principais: Métrica, Métrica calculada, Dimension, Segmento e Intervalo de datas. Esta lista é baseada em dados dos últimos 90 dias. Somente os componentes que você tem acesso para exibir são mostrados. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Semelhante a**] | Mostra até 5 componentes com rótulos semelhantes ao componente que você está visualizando nos 5 tipos de componentes principais: Métrica, Métrica calculada, Dimension, Segmento e Intervalo de datas. Somente os componentes que você tem acesso para exibir são mostrados. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Tags**] | Mostra todas as tags aplicadas ao componente. Os usuários com acesso de administrador podem adicionar tags ao editar o componente. |
 | [!UICONTROL **Tipo de componente**] | Lista o tipo de componente, seja um Dimension, uma métrica, um segmento ou um intervalo de datas. |
 | [!UICONTROL **Criado por**] | Exibe o nome do usuário que criou o componente. |
 | [!UICONTROL **Visualizar**] | Mostra uma visualização de como o componente é exibido no Analysis Workspace. |
