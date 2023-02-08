@@ -2,10 +2,10 @@
 title: Visão geral dos conjuntos de classificações
 description: Use conjuntos de classificações para gerenciar os dados de classificação.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: faa1c730e051000032b4c442b43f17bd9c4d76d1
-workflow-type: ht
-source-wordcount: '120'
-ht-degree: 100%
+source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 46%
 
 ---
 
@@ -13,11 +13,24 @@ ht-degree: 100%
 
 Os conjuntos de classificações fornecem uma única interface para gerenciar classificações e regras. Esse fluxo de trabalho combina o conceito de criação de classificações das configurações do conjunto de relatórios com o conceito do Importador de classificações para fornecer uma interface mais intuitiva para criação e gerenciamento de dados de classificação.
 
+**[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]**
+
 >[!NOTE]
 >
 >Os conjuntos de classificações estarão disponíveis para todos os clientes que tiverem seus conjuntos de relatórios migrados para a nova arquitetura de Classificações. Entre em contato com o Atendimento ao cliente da Adobe ou com seu gerente de conta para obter mais informações.
 
-**[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]**
+A arquitetura de back-end lançada com os Conjuntos de classificação contém várias melhorias notáveis:
+
+* Redução significativa do tempo de processamento (72 horas → 24 horas)
+* A capacidade de usar a interface do usuário dos conjuntos de classificação
+* A opção de usar os dados de classificação no Adobe Experience Platform no futuro por meio da variável [Conector de origem Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
+
+A arquitetura de back-end lançada com os Conjuntos de classificação também contém várias alterações importantes:
+
+* Ao usar a importação do navegador, &#39;[!UICONTROL Substituir em conflito]&#39; está sempre ativado.
+* Ao usar a importação do navegador, a opção de exportar imediatamente após a importação não é mais suportada. As exportações devem ser iniciadas separadamente.
+* A API do Analytics 2.0 `GetDimensions` endpoint agora retorna identificadores de string para classificações em vez de identificadores numéricos. Identificadores numéricos ainda podem ser usados, mas o Adobe recomenda o uso dos novos identificadores de sequência, quando possível. Os identificadores numéricos podem ser recuperados usando o `?expansion=hidden` parâmetro da string de consulta.
+
 
 Os conjuntos de classificações consistem em duas áreas principais:
 
