@@ -3,10 +3,10 @@ description: Explica a estratégia de lançamento contínuo de recursos para o A
 title: Versões de recursos do Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 7a6a7438ae6dcfd514c8de66626331f3a0e8210d
+source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 90%
+source-wordcount: '390'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ O [!UICONTROL Analysis Workspace] usa sinalizadores de recursos (também conheci
 
 * **Disponibilidade Geral (GA)**: o recurso está disponível para 100% das organizações da Experience Cloud autorizadas e a versão do recurso está concluída.
 
-Com cada versão de recurso, a linha do tempo de RTP para GA pode variar. O objetivo é manter as versões curtas, para que, dentro de 2 meses do início do lançamento (RTP), um recurso tenha GA.
+Com cada versão de recurso, a linha do tempo do Início da implantação para GA pode variar. O objetivo é manter as versões curtas, para que, dentro de 2 meses do Início da implantação, um recurso tenha GA.
 
 ## Sinalizadores de recurso
 
