@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 64a0bb6e04f4b56cd40676ea1c239f1beef8c41a
+source-git-commit: 8c4535a1811381e7a24735d7cbfffd241d5b19b9
 workflow-type: tm+mt
 source-wordcount: '3639'
 ht-degree: 96%
@@ -27,8 +27,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Fevereiro de 2023** |  |
 | Implementação | Conteúdo atualizado sobre como [implementar o Adobe Analytics para Web e dispositivos móveis](../implement/home.md). |
-| Calendários e intervalos de datas do Workspace | Conteúdo atualizado para descrever intervalos de datas relativos, atualizações de cálculo de fórmulas e alterações na interface do usuário do calendário. Consulte [Sobre intervalos de datas relativos do painel](/help/components/date-ranges/calendar.md). |
-| Scorecards para dispositivos móveis | Nova seção de documentação para descrever como mostrar e ocultar intervalos de datas de comparação. Consulte [Mostrar intervalos de datas de comparação](/help/mobile-app/create-scorecard.md) no CJA. |
+| Calendários e intervalos de datas do Workspace | Conteúdo atualizado para descrever intervalos de datas relativos, atualizações de cálculo de fórmulas e alterações na interface do usuário do calendário. Consulte [Sobre intervalos de datas relativos do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| Scorecards para dispositivos móveis | Nova seção de documentação para descrever como mostrar e ocultar intervalos de datas de comparação. Consulte [Mostrar intervalos de datas de comparação](/help/analyze/mobile-app/create-scorecard.md) no CJA. |
 | **Janeiro de 2023** |  |
 | Filtrar e classificar tabelas | Conteúdo atualizado (incluindo a adição de procedimentos e a explicação das opções disponíveis) na [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artigo 10. o Este artigo foi renomeado de &quot;Paginação, filtragem e classificação de tabelas&quot;. |
 | Pastas | Páginas dedicadas para [Gerenciamento de pastas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
