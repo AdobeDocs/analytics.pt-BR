@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: Adicionar pastas ao Espaço de trabalho
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 66%
 
 ---
 
 # Adicionar projetos a pastas
 
 Você pode adicionar projetos a uma pasta na exibição de tabela ou de uma pasta.
+
+>[!NOTE]
+>
+>Somente administradores do Analytics podem adicionar projetos à Pasta da empresa ou criar um novo projeto e salvá-lo na Pasta da empresa
 
 ## Na exibição de tabela {#table-view}
 
@@ -23,13 +27,15 @@ Adicione projetos a uma pasta na exibição de tabela na página inicial.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. Selecione **Mover para**. A caixa de diálogo Selecionar pasta é exibida.
+1. Selecione **Mover para**.
 
-1. Selecione um nome de pasta no menu suspenso.
+   A caixa de diálogo Selecionar pasta é exibida.
+
+1. No menu suspenso , selecione a pasta onde deseja mover os projetos selecionados.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. Clique em **Adicionar**.
+1. Selecionar **Mover**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -49,25 +55,19 @@ Você também pode adicionar projetos de dentro de uma pasta usando o link de re
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Clique no ícone de reticências **...** no canto superior direito.
+1. Selecione o **...** ícone de elipse no canto superior direito.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-   Um menu suspenso exibe a opção para adicionar projetos à pasta. Opções adicionais permitem renomear, mover ou excluir a pasta e gerenciar permissões da pasta.
 
 1. Clique em **Adicionar projetos** e selecione o projeto que deseja adicionar na lista suspensa.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
-   Você pode adicionar vários projetos à pasta.
+
+1. (Opcional) Selecione projetos adicionais na lista suspensa para adicionar vários projetos.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Clique em **Adicionar** para adicionar os projetos à pasta.
+1. Selecionar **Adicionar** para adicionar os projetos à pasta .
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-
-
->[!NOTE]
->
->Somente administradores podem adicionar projetos à Pasta da empresa ou criar um novo projeto e salvá-lo na Pasta da empresa
