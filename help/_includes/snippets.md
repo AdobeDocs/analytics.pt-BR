@@ -1,7 +1,7 @@
 ---
-source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
+source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '650'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 7%
    | [!UICONTROL **Segmentos**] | Mostrar somente componentes que são Segmentos. (Essa opção também está disponível na variável [!UICONTROL **Filtros rápidos**] ao acessar o Dicionário de dados pela primeira vez.) <!--this is Filters in CJA--> |
    | [!UICONTROL **Intervalos de datas**] | Mostrar somente componentes que são intervalos de datas. (Essa opção também está disponível na variável [!UICONTROL **Filtros rápidos**] ao acessar o Dicionário de dados pela primeira vez.) |
    | [!UICONTROL **Descrição ausente**] | Mostrar somente componentes que ainda não têm uma descrição no campo Descrição . Essa opção está disponível somente para administradores do . |
-   | [!UICONTROL **Duplicatas**] | Mostrar somente componentes que têm o mesmo rótulo ou a mesma descrição de outro componente no Conjunto de relatórios selecionado. Essa opção está disponível somente para administradores do . |
+   | [!UICONTROL **Duplicatas**] | Mostrar somente componentes que têm o mesmo rótulo ou a mesma descrição de outro componente no Conjunto de relatórios selecionado. Essa opção está disponível somente para administradores do . Rótulos ou descrições devem ser correspondências exatas para serem mostradas como duplicatas. |
    | [!UICONTROL **Nenhum dado recente**] | Mostrar somente componentes que não coletaram dados nos últimos 90 dias. Essa opção está disponível somente para administradores do . |
    | [!UICONTROL **Criado pelo Adobe**] | Mostrar somente componentes que foram criados pelo Adobe. Os componentes que foram criados por um administrador ou outro usuário em sua organização não são mostrados. |
    | [!UICONTROL **Aprovado**] | Mostrar somente componentes marcados como Aprovado por um administrador. |
@@ -38,8 +38,8 @@ ht-degree: 7%
 |---------|----------|
 | [!UICONTROL **Aprovado**] | Indica que o componente foi revisado e aprovado pelo administrador. Os administradores veem um [!UICONTROL **Aprovação necessária**] para componentes não aprovados. Selecionar essa opção marca como Aprovado. |
 | [!UICONTROL **Descrição**] | Descreve a função pretendida do componente. (Essas informações são adicionadas pelo administrador do Analytics, conforme descrito em [Adicionar descrições de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **Frequentemente usado com**] | Mostra os 5 componentes mais usados com o componente que você está visualizando nos 5 tipos de componentes principais: Métrica, Métrica calculada, Dimension, Segmento e Intervalo de datas. Esta lista é baseada em dados dos últimos 90 dias. Somente os componentes que você tem acesso para exibir são mostrados. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
-| [!UICONTROL **Semelhante a**] | Mostra até 5 componentes com rótulos semelhantes ao componente que você está visualizando nos 5 tipos de componentes principais: Métrica, Métrica calculada, Dimension, Segmento e Intervalo de datas. Somente os componentes que você tem acesso para exibir são mostrados. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Frequentemente usado com**] | <p>Mostra os componentes mais usados com o componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: Métrica, Métrica calculada, Dimension, Segmento e Intervalo de datas.</p><p>Esta lista é baseada em dados dos últimos 90 dias. Somente os componentes que você tem acesso para exibir são mostrados. <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
+| [!UICONTROL **Semelhante a**] | <p>Mostra componentes com rótulos semelhantes ao componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: Métrica, Métrica calculada, Dimension, Segmento e Intervalo de datas.</p><p>Somente os componentes que você tem acesso para exibir são mostrados.</p><p>Todos os componentes duplicados em seu conjunto de relatórios serão exibidos aqui. Os administradores do Analytics devem identificar e remover todos os componentes duplicados, conforme descrito em [Monitorar integridade do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **Tags**] | Mostra todas as tags aplicadas ao componente. Os usuários com acesso de administrador podem adicionar tags ao editar o componente. |
 | [!UICONTROL **Tipo de componente**] | Lista o tipo de componente, seja um Dimension, uma métrica, um segmento ou um intervalo de datas. |
 | [!UICONTROL **Criado por**] | Exibe o nome do usuário que criou o componente. |
