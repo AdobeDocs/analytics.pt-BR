@@ -3,7 +3,7 @@ description: Índice de ferramentas do administrador no Adobe Analytics.
 title: Ferramentas administrativas
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 42dba33eb77ac875fea801e8f62fa74ed564671f
+source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 13%
@@ -28,7 +28,7 @@ Segue-se um detalhamento dessas duas áreas:
 
    Use essa ferramenta para provisionar usuários e modificar permissões de acesso.
 
-   Para todas as organizações que migraram para o Adobe IMS, essas tarefas são executadas no Admin Console do Adobe. Para obter mais informações, consulte o [Guia do primeiro administrador do Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Se sua organização ainda não tiver migrado para o Adobe IMS, consulte [Migração de usuários do Analytics para o Adobe Admin Console](/help/admin/admin-console/user-management2/user-migration/c-migration-tool.md).
+   Para todas as organizações que migraram para o Adobe IMS, essas tarefas são executadas no Admin Console do Adobe. Para obter mais informações, consulte o [Guia do primeiro administrador do Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Se sua organização ainda não tiver migrado para o Adobe IMS, consulte [Migração de usuários do Analytics para o Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
 
 ## Acessar ferramentas administrativas
 
