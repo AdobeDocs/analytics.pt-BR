@@ -5,9 +5,9 @@ title: Como verificar a implementação do encaminhamento pelo lado do servidor
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Para verificar o status do encaminhamento pelo lado do servidor:
 
 >[!CAUTION]
 >
->Se a resposta contiver o par de valores `"status":"SUCCESS"` ou uma imagem 2 x 2, o encaminhamento pelo lado do servidor não será configurado corretamente. Certifique-se de que o Serviço de identidade foi devidamente implantado, que você implantou o módulo App Measurement, que o conjunto de relatórios aplicável foi mapeado para a ID correta da organização e que o encaminhamento pelo lado do servidor foi habilitado nas Ferramentas administrativas do Analytics.
+>Se a resposta contiver o par de valores `"status":"SUCCESS"` ou uma imagem 2 x 2, o encaminhamento pelo lado do servidor não será configurado corretamente. Verifique se o serviço de identidade foi implantado corretamente, se você implantou o módulo App Measurement, se o conjunto de relatórios aplicável foi mapeado para a ID da organização correto e se o encaminhamento do lado do servidor foi ativado nas ferramentas administrativas do Analytics.v
 
 >[!MORELIKETHIS]
 >
