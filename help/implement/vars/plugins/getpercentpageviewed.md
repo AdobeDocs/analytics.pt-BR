@@ -4,9 +4,9 @@ description: Recupere a porcentagem da página que o visitante visualizou.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 A função `getPercentPageViewed` usa os seguintes argumentos:
 
-* **`pid`** (opcional, string): Uma variável ou valor igual à página atual. Padrões para o AppMeasurement do Analytics `pageName` OU o URL atual se a variável pageName do AppMeasurement não estiver definida.
+* **`pid`** (opcional, string): uma variável ou valor igual à página atual. Assume o padrão da variável AppMeasurement `pageName` do Analytics OU o URL se a variável AppMeasurement pageName não estiver definida.
 * **`ch`** (opcional, booleano): defina como `false` (ou `0`) se você não quiser que o plug-in não ignore quaisquer alterações feitas no tamanho de uma página após o carregamento inicial. Se omitido, esse argumento assumirá `true` como padrão. A Adobe recomenda omitir esse argumento na maioria dos casos.
 
 Chamar essa função não retorna nada; em vez disso, ele define as seguintes variáveis:
@@ -66,7 +66,7 @@ Chamar essa função não retorna nada; em vez disso, ele define as seguintes va
 * `window._ppvPreviousPage`: o nome da página exibida anteriormente. As medições finais de rolagem da página atual não estarão disponíveis até que uma nova página seja carregada.
 * `window._ppvInitialPercentViewed`: a porcentagem da página anterior que estava visível quando a página anterior foi carregada pela primeira vez. Se a página inteira estiver visível quando carregada pela primeira vez, esse valor será `100`.
 * `window._ppvHighestPercentViewed`: a porcentagem mais alta da página anterior que o visitante visualizou (em termos de altura). O ponto mais distante que o visitante chegou quando rolou para baixo na página anterior. Se a página inteira estiver visível quando carregada pela primeira vez, esse valor será `100`.
-* `window._ppvFinalPercentViewed`: A porcentagem da página anterior que estava visível no ponto em que o visitante foi para a página atual. Esse valor será igual ou maior que a porcentagem inicial visualizada e também será igual ou inferior à porcentagem mais alta visualizada da página.
+* `window._ppvFinalPercentViewed`: a porcentagem da página anterior que estava visível no ponto em que o visitante foi para a página atual. Esse valor será igual ou maior que a porcentagem inicial visualizada e também será igual ou inferior à porcentagem mais alta visualizada da página.
 * `window._ppvHighestPixelsSeen`: o maior número dos pixels totais vistos (em relação à altura) quando o visitante rolou pela página anterior.
 * `window._ppvFoldsAvailable`: o número total de &quot;dobras de página&quot; disponíveis na rolagem para baixo da página anterior. Se a página inteira estiver visível quando carregada pela primeira vez, esse valor será `1`.
 * `window._ppvFoldsSeen`: o maior número de &quot;dobras de página&quot; totais vistas (em relação à altura) quando o visitante rolou pela página anterior. Essa variável inclui a dobra do &quot;início da página&quot;. Se a página inteira estiver visível quando carregada pela primeira vez, esse valor será `1`.
@@ -104,7 +104,7 @@ if(_ppvPreviousPage)
 
 ### 5.1 (8 de dezembro de 2022)
 
-* Adicionado o `_finalPercentViewed` solução
+* A solução `_finalPercentViewed` foi adicionada
 
 ### 5.0.1 (22 de junho de 2021)
 
