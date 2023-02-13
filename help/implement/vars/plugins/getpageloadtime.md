@@ -4,9 +4,9 @@ description: Rastreie o tempo que uma página leva para ser carregada.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: a00511d62960dc077620b2882f4e7f816267f939
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 64%
 
 O plug-in `getPageLoadTime` usa o objeto de desempenho JavaScript para permitir que você meça a quantidade de tempo que uma página leva para carregar completamente. A Adobe recomenda usar esse plug-in se você quiser medir quanto tempo as páginas levam para serem carregadas.
 
->OBSERVAÇÃO/AVISO: Se você estiver atualizando este plug-in de uma versão anterior, provavelmente precisará alterar o código que chama essa função também.  Verifique sua implementação e teste completamente antes de implantar na produção
+>OBSERVAÇÃO/AVISO: se você estiver atualizando este plug-in de uma versão anterior, provavelmente precisará alterar o código que chama essa função também. Verifique sua implementação e teste completamente antes de implantar na produção
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -62,16 +62,16 @@ Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depo
 
 A função `getPercentPageViewed` usa os seguintes argumentos:
 
-* **`pv`** (opcional, string): A dimensão com a qual correlacionar o tempo de carregamento da página.  Esse valor deve ser igual a um valor que identifique a própria página. Quando não estiver definido, esse argumento assumirá como padrão a variável pageName do Adobe AppMeasurement (ou seja, s.pageName) ou o URL quando s.pageName não estiver definido.
+* **`pv`** (opcional, string): a dimensão com a qual correlacionar o tempo de carregamento da página.  Esse valor deve ser igual a um valor que identifique a própria página. Quando não estiver definido, esse argumento assumirá como padrão a variável pageName do Adobe AppMeasurement (ou seja, s.pageName) ou o URL quando s.pageName não estiver definido.
 
 Chamar essa função não retorna nada; em vez disso, ele define as seguintes variáveis:
 
-* `window._pltPreviousPage`: O valor da página anterior (ou seja, o que foi passado para o argumento pv)
+* `window._pltPreviousPage`: o valor da página anterior (ou seja, o que foi transmitido para o argumento pv)
 * `window._pltLoadTime`: o tempo em segundos que demorou para a página anterior ser carregada.
 
 O plug-in getPageLoadTime cria um cookie próprio:
 
-* `s_plt`: o tempo em segundos que demorou para a página anterior ser carregada.  Também contém o valor do que foi passado para o argumento pv.  Expira no final da sessão do navegador.
+* `s_plt`: o tempo em segundos que demorou para a página anterior ser carregada.  Também contém o valor do que foi transmitido para o argumento pv.  Expira no final da sessão do navegador.
 
 ## Exemplo
 
@@ -94,8 +94,8 @@ if(window._pltPreviousPage)
 
 ### 3.0 (6 de dezembro de 2022)
 
-* Reescrita completa do plug-in para torná-lo independente da solução.  Por exemplo, isso agora é compatível com o SDK da Web da AEP
-* Cria o `_pltPreviousPage` e `_pltLoadTime` no objeto window (em vez de no objeto s do AppMeasurement)
+* Reescrita completa do plug-in para torná-lo independente da solução. Por exemplo, agora é compatível com o SDK da Web da AEP
+* Cria as variáveis `_pltPreviousPage` e `_pltLoadTime` no objeto janela (em vez de no objeto s do AppMeasurement)
 * Remove a necessidade do cookie s_pltp - tudo agora é armazenado somente no cookie s_plt
 * Inclui a função getVersion para ajudar na solução de problemas
 
