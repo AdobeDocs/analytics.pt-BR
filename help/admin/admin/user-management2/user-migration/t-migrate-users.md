@@ -4,9 +4,9 @@ title: Migrar contas de usuário do Analytics para Adobe IDs
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Migre usuários do sistema de gerenciamento de usuário herdado do Analytics par
    </tr> 
    <tr> 
       <td colname="col1"> <p>Domínio reivindicado </p> </td> 
-      <td colname="col2"> <p>Se quiser migrar usuários como Enterprise ou Federated IDs, será necessário ser um Administrador do sistema e reivindicar um domínio disponível pela Adobe Admin Console antes de migrar os usuários. Saiba mais <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> <p>Se você não deseja reivindicar domínios para Enterprise or Federated IDs, ignore este passo e migre os usuários como Adobe IDs. Saiba mais sobre os tipos de IDs <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> </td> 
+      <td colname="col2"> <p>Caso deseje migrar os usuários como Enterprise ou Federated IDs, você deve ser um Administrador do sistema e reivindicar um domínio disponível pelo Adobe Admin Console antes de migrar os usuários. Saiba mais <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> <p>Se você não deseja reivindicar domínios para Enterprise or Federated IDs, ignore este passo e migre os usuários como Adobe IDs. Saiba mais sobre os tipos de IDs <a href="https://helpx.adobe.com/br/enterprise/help/identity.html">aqui</a>. </p> </td> 
    </tr> 
    </tbody> 
    </table>
