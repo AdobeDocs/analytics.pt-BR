@@ -5,9 +5,9 @@ feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 *Esta página de ajuda descreve como implementar as eVars de merchandising. Para obter informações sobre como as eVars de merchandising funcionam como uma dimensão, consulte [eVars (dimensão de merchandising)](/help/components/dimensions/evar-merchandising.md) no guia do usuário dos Componentes.*
 
-Para ver em detalhes como as eVars de merchandising funcionam, consulte [eVars de merchandising e métodos de descoberta de produtos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
+Para ver em detalhes como as eVars de merchandising funcionam, consulte [eVars de merchandising e métodos de descoberta de produtos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=pt-BR).
 
 ## Configurar eVars nas configurações do conjunto de relatórios
 
