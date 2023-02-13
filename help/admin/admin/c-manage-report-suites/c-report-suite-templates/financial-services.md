@@ -4,8 +4,8 @@ title: Serviços financeiros
 feature: Report Suite Settings
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '182'
 ht-degree: 100%
 
 ---
@@ -35,9 +35,9 @@ A seguinte tabela contém uma lista de eventos padrão de comércio. A configura
 | Pedidos | Contador | `purchase` |
 | Unidades | Contador | `purchase` |
 | Carrinhos | Contador | `scOpen` |
-| Exibições do carrinho | Contador | `scView` |
+| Visualizações do carrinho | Contador | `scView` |
 | Instâncias | Contador | N/D |
-| Finalizações | Contador | `scCheckout` |
+| Check-outs | Contador | `scCheckout` |
 | Adições ao carrinho | Contador | `scAdd` |
 | Remoções do carrinho | Contador | `scRemove` |
 | Visitas | Contador (sem sub-relações) | N/D |

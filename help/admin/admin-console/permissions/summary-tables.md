@@ -1,18 +1,18 @@
 ---
 title: Permissões do Adobe Analytics - tabelas de resumo
-description: Tabelas que resumem as permissões disponíveis do Adobe Analytics no Adobe Admin Console.
+description: Tabelas que resumem as permissões do Adobe Analytics disponíveis no Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
 # Permissões do Analytics no Admin Console
 
-Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytics no Adobe Admin Console, por agrupamentos lógicos.
+Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytics no Adobe Admin Console por agrupamentos lógicos.
 
 ## Ferramentas do conjunto de relatórios
 
@@ -74,7 +74,7 @@ Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytic
 
 | Ferramenta do Analytics | Administração | Controles de acesso | Recursos somente para relatórios | Obsoleto | Descrição |
 | --- | --- | --- | --- | --- | --- |
-| Gerenciador de código | x |  |  |  | Mantido para fins herdados. Concede acesso a Administrador > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas na extensão do Adobe Analytics na Coleta de dados do Adobe Experience Platform. |
+| Gerenciador de código | x |  |  |  | Mantido para fins herdados. Concede acesso a Administrador > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas na extensão do Adobe Analytics na Coleção de dados da Adobe Experience Platform. |
 | Gerenciador de código - Serviços da Web | x |  |  |  | Concede acesso ao Gerenciador de código por meio da API 1.4. |
 | Ocultar conjuntos de relatórios | x |  |  |  | Concede acesso a Administrador > Configurações da empresa > Ocultar conjuntos de relatórios. Concede a capacidade de ocultar qualquer conjunto de relatórios na organização, independente do acesso ao conjunto de relatórios. |
 | Integrações (Criar) | x |  |  |  | Concede acesso a Administrador > Conectores de dados e permite que o usuário crie conectores de dados. |

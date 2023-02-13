@@ -7,7 +7,7 @@ exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3947'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ A página de aterrissagem do Adobe Analytics reúne o [!DNL Analysis Workspace] 
 | Clique uma vez para abrir um relatório | Anteriormente, você precisava clicar duas vezes. |  |
 | Novos links para os relatórios do **[!UICONTROL Reports &amp; Analytics]** | <ul><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Público]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Público]** > **[!UICONTROL Páginas de bot]**<li>**[!UICONTROL Relatórios]** > **[!UICONTROL Envolvimento]** > **[!UICONTROL Tempo real]**</li></ul> | ![Novos links](assets/report-links.png) |
 | Novos relatórios prontos para uso | <ul><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Mais popular]** > **[!UICONTROL Próxima página]**</li><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Mais popular]** > **[!UICONTROL Página anterior]**</li><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Envolvimento]** > **[!UICONTROL Análise de página]** > **[!UICONTROL Resumo da página]**</li></ul>Observe que esses relatórios estão no formato do [!UICONTROL Espaço de trabalho] e precisam ser configurados e criados. A saída consiste em um painel de métricas de alto nível, dados de tendências, visualização de [!UICONTROL Fluxo] e muito mais. Você pode modificar esses relatórios e alterar dimensões, itens de dimensão etc. Esses relatórios também estão disponíveis como painéis em Painéis do Espaço de trabalho. | ![Próxima página](assets/next-page.png) |
-| **[!UICONTROL Criar projeto]** modal está de volta | Ao clicar em **[!UICONTROL Criar projeto]** no Workspace, você novamente terá a escolha entre uma [!UICONTROL Projeto em branco] e [!UICONTROL Scorecard para dispositivos móveis em branco]. Você também pode escolher a partir de qualquer modelo criado por sua empresa. | ![Criar novo](assets/create-new.png) |
-| Também disponível no Customer Journey Analytics | Essa landing page, em um formulário modificado, também está disponível no CJA. |  |
+| O modal **[!UICONTROL Criar projeto]** voltou | Ao clicar em **[!UICONTROL Criar projeto]** no Espaço de trabalho, você novamente terá a escolha entre um [!UICONTROL Projeto em branco] e um [!UICONTROL Cartão de pontuação móvel em branco]. Você também pode escolher a partir de qualquer modelo criado por sua empresa. | ![Criar novo](assets/create-new.png) |
+| Também disponível no Customer Journey Analytics | Uma versão modificada dessa página de destino também estará disponível no CJA. |  |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -48,7 +48,7 @@ A página de aterrissagem do Adobe Analytics reúne o [!DNL Analysis Workspace] 
 
 ## Navegue até a guia [!UICONTROL Projetos] {#navigate-projects}
 
-[!UICONTROL Os projetos] servem como página inicial do [!UICONTROL Espaço de trabalho]. A guia Projetos exibe a pasta Empresa, qualquer pasta pessoal criada, seus projetos e scorecards para dispositivos móveis. Use esta página para exibir, criar e modificar pastas, projetos e scorecards para dispositivos móveis. Para obter mais informações, consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+[!UICONTROL Os projetos] servem como página inicial do [!UICONTROL Espaço de trabalho]. A guia Projetos exibe a pasta Empresa, qualquer pasta pessoal criada, seus projetos e cartões de pontuação para dispositivos móveis. Use esta página para exibir, criar e modificar pastas, projetos e cartões de pontuação para dispositivos móveis. Para obter mais informações, consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Exibindo todos](assets/landing-all2.png)
 
@@ -59,43 +59,43 @@ A página de aterrissagem do Adobe Analytics reúne o [!DNL Analysis Workspace] 
 | Elemento da interface | Definição |
 | --- | --- |
 | Editar preferências | Permite [!UICONTROL Exibir Tutoriais] e [Editar preferências de usuário](/help/analyze/analysis-workspace/user-preferences.md). |
-| [!UICONTROL Criar novo] | Abre o modal do projeto, onde é possível criar um projeto do Workspace ou um Scorecard móvel ou abrir um modelo de empresa. |
+| [!UICONTROL Criar novo] | Abre o modal do projeto, onde é possível criar um projeto do Espaço de trabalho ou um Cartão de pontuação para dispositivos móveis ou abrir um modelo de empresa. |
 | [!UICONTROL Mostrar menos<br> Mostrar mais] | Alterna entre não mostrar e mostrar o banner: ![Banner superior](assets/top-banner.png) |
-| [!UICONTROL Projeto do Espaço de trabalho] | Cria um em branco [Projeto do Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR) para que você crie e crie. |
-| [!UICONTROL Scorecard para dispositivos móveis] | Cria um em branco [scorecard móvel](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=pt-BR) para que você crie e crie. |
-| [!UICONTROL Abrir tutorial de treinamento] | Abre o tutorial de treinamento do Workspace que o orienta pelo processo de criação de um novo projeto inicial em um tutorial passo a passo. |
+| [!UICONTROL Projeto do Espaço de trabalho] | Cria um [Projeto do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR) em branco para que você desenvolva e crie. |
+| [!UICONTROL Cartão de pontuação para dispositivos móveis] | Cria um [cartão de pontuação para dispositivos móveis](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=pt-BR) para que você desenvolva e crie. |
+| [!UICONTROL Abrir tutorial de treinamento] | Abre o tutorial de treinamento do Espaço de trabalho que o orienta pelo processo de criação de um novo projeto inicial em um tutorial passo a passo. |
 | [!UICONTROL Abrir notas de versão] | Abre a seção Adobe Analytics das notas de versão mais recentes do Adobe Experience Cloud. |
-| Ícone Filtrar | Filtros por tags, conjuntos de relatórios, proprietários, tipos e outros filtros (Meus, Compartilhados comigo, Favoritos e Aprovados) |
+| Ícone Filtrar | Filtra por tags, conjuntos de relatórios, proprietários, tipos e outros filtros (Meus, Compartilhados comigo, Favoritos e Aprovados) |
 | Barra de pesquisa | Pesquisa todas as colunas na tabela. |
 | Caixa de seleção | Seleciona um ou mais projetos para exibir as ações de gerenciamento de projetos que você pode executar: **Excluir**, **Compartilhar**, **Renomear**, **Copiar**, **Remover**, **Mover para cima**, **Mover para baixo**, **Tag**, **Aprovar**, **Exportar CSV** e **Mover para**. Talvez você não tenha permissões para executar todas as ações listadas. |
 | [!UICONTROL Favoritos] | Adiciona uma estrela ao lado de um projeto ou pasta favorita que pode ser usada como filtro. |
 | [!UICONTROL Nome] | Identifica o nome do projeto. |
-| Ícone Fixar | Pinos itens para que eles sempre apareçam na parte superior da lista, mas você pode reajustar a ordem movendo-os para cima ou para baixo na ordem. Use o menu de opções de reticências e selecione **Mover para cima** ou **Mover para baixo** na lista. |
+| Ícone Fixar | Fixa os itens para que eles sempre apareçam na parte superior da lista, mas você pode reajustar a ordem movendo-os para cima ou para baixo. Use o menu de opções de reticências e selecione **Mover para cima** ou **Mover para baixo** na lista. |
 | Ícone Informações (i) | Exibe as seguintes informações sobre um projeto: Tipo, Função do projeto, Proprietário, Descrição e com quem ele é compartilhado. Também indica quem pode [editar ou duplicar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) o projeto. |
 | Reticências (...) | Exibe as ações de gerenciamento de projeto que você pode executar: **Excluir**, **Compartilhar**, **Renomear**, **Copiar**, **Remover**, **Mover para cima**, **Mover para baixo**, **Tag**, **Aprovar**, **Exportar CSV** e **Mover para**. Talvez você não tenha permissões para executar todas as ações listadas. |
-| [!UICONTROL Tipo] | Indica se esse tipo é um projeto do Workspace, um scorecard móvel ou uma pasta. |
+| [!UICONTROL Tipo] | Indica se é um projeto do Espaço de trabalho, um cartão de pontuação para dispositivos móveis ou uma pasta. |
 | [!UICONTROL Tags] | Marque projetos para organizá-los em grupos. |
-| [!UICONTROL Função do projeto] | Identifica as funções do projeto: se você é o Proprietário do projeto e se tem permissões para Editar ou Duplicar o projeto. |
+| [!UICONTROL Função do projeto] | Identifica as funções do projeto: se você é o proprietário do projeto e se tem permissões para editar ou duplicar o projeto. |
 | [!UICONTROL Conjunto de relatórios] | Identifica os Conjuntos de relatórios associados ao projeto.<br>Tabelas e visualizações em um painel derivam dados do conjunto de relatórios selecionado na parte superior direita do painel. O conjunto de relatórios também determina quais componentes estão disponíveis no painel esquerdo. Em um projeto, você pode usar um ou vários conjuntos de relatórios dependendo dos casos de uso da análise. A lista de conjuntos de relatórios é classificada de acordo com a relevância. O Adobe define a relevância com base na recente e frequente utilização do conjunto pelo usuário atual e na frequência com que o conjunto é usado na organização. |
 | [!UICONTROL Proprietário] | Identifica a pessoa que criou o projeto. |
 | [!UICONTROL Aberto pela última vez] | Identifica a data em que o projeto foi aberto pela última vez. |
-| Ícone Personalizar tabela | Seleciona quais colunas exibir na tabela. Para adicionar ou remover colunas da lista de projetos, clique no ícone de coluna (![Aterrissando tudo](/help/analyze/assets/select-column.png) ) no canto superior direito, em seguida, selecione ou desmarque os títulos das colunas. |
+| Ícone Personalizar tabela | Seleciona quais colunas exibir na tabela. Para adicionar ou remover colunas da lista de projetos, clique no ícone de coluna (![Aterrissando tudo](/help/analyze/assets/select-column.png)) no canto superior direito, em seguida, selecione ou desmarque os títulos das colunas. |
 | MOSTRAR: Pastas e projetos ou todos os projetos | Altera a configuração de exibição na tabela para mostrar pastas e projetos de acordo com a organização da pasta **ou** mostrar todos os seus projetos em uma lista não organizada. |
-| &lt; (Botão voltar) | Retorna à configuração de página inicial mais recente em um projeto do Workspace ou em um relatório. A configuração de página que você tinha ao sair da landing page persistirá ao retornar. |
+| &lt; (Botão voltar) | Retorna à configuração de página inicial mais recente em um projeto do Espaço de trabalho ou em um relatório. A configuração da página que você tinha quando saiu da página inicial persistirá quando você retornar. |
 
 ### Descontinuação da página do Gerenciador de projetos {#deprecate-pm-page}
 
-Com o lançamento da nova landing page, descontinuamos o Gerenciador de projetos, conforme listado no Gerenciador de componentes. A nova landing page lida com toda a funcionalidade da antiga página do Gerenciador de projetos e muito mais.
+Com o lançamento da nova página de destino, descontinuamos o Gerenciador de projetos, conforme listado no Gerenciador de componentes. A nova página de destino lida com toda a funcionalidade da antiga página do Gerenciador de projetos e muito mais.
 
 Um caso de uso comum para a página Gerenciador de projetos era exibir todos os seus projetos.
 
-Para exibir todos os projetos na nova página de aterrissagem usando o painel de filtros, selecione **OUTROS FILTROS** e depois selecione **Mostrar tudo**.
+Para exibir todos os projetos na nova página de destino usando o painel de filtros, selecione **OUTROS FILTROS** e depois selecione **Mostrar tudo**.
 
 ![Mostrar todos os projetos](assets/show-all-fIlter.png)
 
-Se você estiver na visualização &quot;Pastas e projetos&quot;, aparecerá uma modal perguntando se deseja alternar para a visualização &quot;Todos os projetos&quot;, o que facilita a visualização de todos os projetos fora de qualquer pasta em que eles possam estar organizados.   Selecionar **Alternar para a exibição &quot;Todos os projetos&quot;** para visualizar melhor todos os projetos aos quais você tem acesso.
+Se estiver na visualização “Pastas e projetos”, aparecerá um modal perguntando se você deseja alternar para a visualização “Todos os projetos”, o que facilita a visualização de todos os projetos fora de qualquer pasta em que eles possam estar organizados.   Selecione **Alternar para a exibição “Todos os projetos”** para visualizar melhor todos os projetos aos quais você tem acesso.
 
-![Alternar para Todos os projetos](assets/switch-all-projects-view.png)
+![Mudar para a visualização Todos os projetos](assets/switch-all-projects-view.png)
 
 Outro caso de uso para administradores é gerenciar relatórios da empresa para excluir, renomear, marcar ou aprovar relatórios. Para obter informações sobre como gerenciar relatórios, consulte [Gerenciamento de relatórios da empresa](#manage-company-reports).
 
@@ -173,7 +173,7 @@ Para usuários atuais do Reports &amp; Analytics, veja a seguir uma breve introd
 
 ### Criar um relatório de empresa personalizado {#company-report}
 
-Os relatórios personalizados criados e salvos para que outras pessoas em sua empresa de logon possam usá-los são chamados de relatórios da empresa. Os relatórios da empresa criados anteriormente e os relatórios da empresa recém-criados estão listados no modal Criar projeto , como mostrado abaixo.
+Os relatórios personalizados criados e salvos para que outras pessoas em sua empresa de logon possam usá-los são chamados de relatórios da empresa. Os relatórios da empresa criados anteriormente e os relatórios da empresa recém-criados estão listados no modal Criar projeto, como mostrado abaixo.
 
 Para criar um novo Relatório de empresa,
 
@@ -184,7 +184,7 @@ Para criar um novo Relatório de empresa,
 
 1. Adicione todos os campos desejados ao modal e salve-os.
 
-   O relatório é adicionado à lista Relatórios da empresa no modal Criar projeto e está disponível para aqueles em sua empresa de logon.
+   O relatório é adicionado à lista de Relatórios da empresa no modal Criar projeto e está disponível para quem está na sua empresa de logon.
 
 Mais opções de aprendizagem:
 
@@ -195,12 +195,12 @@ Mais opções de aprendizagem:
 
 ### Gerenciamento de relatórios da empresa {#manage-company-reports}
 
-Os administradores podem filtrar a lista de projetos para exibir e gerenciar relatórios da empresa. Os itens fixados permanecem fixos, seguidos da lista de relatórios da empresa identificados pela variável ![ícone de relatório](assets/report-icon.png) ícone do relatório . Nesta visualização, é possível excluir, renomear, marcar ou aprovar um ou mais relatórios.
+Os administradores podem filtrar a lista de projetos para exibir e gerenciar relatórios da empresa. Os itens fixados permanecem fixos, seguidos da lista de relatórios da empresa identificados pelo ícone de relatório ![ícone de relatório . ](assets/report-icon.png) Nesta visualização, é possível excluir, renomear, marcar ou aprovar um ou mais relatórios.
 
 Para exibir e gerenciar relatórios da empresa
 
 1. No painel de filtros, selecione **OUTROS FILTROS** e depois selecione **Relatórios da empresa**.
-Uma lista dos relatórios da empresa é exibida. Todos os projetos regulares, a menos que estejam presos, não são exibidos.
+Uma lista dos relatórios da empresa é exibida. Todos os projetos regulares, a menos que estejam fixados, não são exibidos.
 
    ![Exibir filtros de relatórios da empresa](assets/company-reports-filter.png)
 
@@ -208,17 +208,17 @@ Uma lista dos relatórios da empresa é exibida. Todos os projetos regulares, a 
 
 1. Na lista de relatórios, selecione um único relatório ou selecione vários relatórios.
 
-1. Clique no botão **...** ícone de reticências ao lado de um relatório para exibir as opções disponíveis (Excluir, Renomear, Tag e Aprovar).
+1. Clique no ícone de reticências **...** ao lado de um relatório para exibir as opções disponíveis (Excluir, Renomear, Tag e Aprovar).
 
    ![Ações do relatório da empresa](assets/company-reports-actions.png)
 
 1. Selecione uma opção (Excluir, Renomear, Tag e Aprovar).
 
-1. Para retornar à visualização regular quando terminar, no painel de filtros, desmarque a opção Relatórios da empresa novamente .
+1. Para retornar à visualização regular quando terminar, no painel de filtros, desmarque a opção Relatórios da empresa novamente.
 
 ### Excluir um relatório de empresa
 
-Os administradores podem excluir um relatório usando a opção Lista de relatórios da empresa (descrita acima) ou excluir um relatório do modal Criar projeto .
+Os administradores podem excluir um relatório usando a opção Lista de relatórios da empresa (descrita acima) ou excluir um relatório do modal Criar projeto.
 
 ![Outros filtros](assets/delete-fr-create-project-modal.png)
 
@@ -231,7 +231,7 @@ A página Aprendizado contém tutoriais e visitas de vídeo práticos, além de 
 * Clicar em um vídeo/tour adiciona uma tag **[!UICONTROL Visualizada]**. Essa tag ajuda a rastrear o progresso pelo conteúdo de aprendizagem. Caso ainda não tenha concluído o conteúdo, você poderá clicar na tag, e ela desaparecerá.
 * O botão **[!UICONTROL Saiba mais]** no modal de vídeo leva você a uma página de documentação do Adobe Experience League com mais conteúdo de ajuda relacionado ao vídeo que você acabou de assistir.  **[!UICONTROL Ver mais vídeos]** leva você à lista de reprodução completa do Analysis Workspace YouTube.
 
-## Definir a landing page {#set-landing}
+## Definir sua página de destino {#set-landing}
 
 Os usuários podem definir sua página de aterrissagem preferencial.
 

@@ -4,8 +4,8 @@ title: Sobre como alterar o Tipo de evento
 feature: Event
 exl-id: 6972431a-bb42-4b7f-b02b-ceef0ff56271
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '43'
 ht-degree: 100%
 
 ---

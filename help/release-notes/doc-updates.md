@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
 source-wordcount: '3679'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -34,9 +34,9 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Janeiro de 2023** |  |
 | Filtrar e classificar tabelas | Conteúdo atualizado (incluindo a adição de procedimentos e a explicação das opções disponíveis) na [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artigo 10. o Este artigo foi renomeado de &quot;Paginação, filtragem e classificação de tabelas&quot;. |
 | Pastas | Páginas dedicadas para [Gerenciamento de pastas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| Preferências do usuário | Várias preferências adicionais de usuário estão disponíveis no [Preferências](/help/analyze/analysis-workspace/user-preferences.md). |
+| Preferências do usuário | Várias preferências adicionais de usuário estão disponíveis em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). |
 | Salvar automaticamente em projetos | Conteúdo atualizado para incluir a funcionalidade de salvamento automático em [Salvar projetos](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
-| Landing page | Novo [atualizações da página de aterrissagem](/help/analyze/landing.md) |
+| Página de aterrissagem | Novas [atualizações da página de destino](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 

@@ -7,7 +7,7 @@ user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
    + [Qual ferramenta do Adobe Analytics devo usar?](get-started/which-analytics-tool.md)
    + [Comparação e requisitos de produtos do Analytics](get-started/analytics-product-comparison.md)
    + [Requisitos do sistema](get-started/sys-reqs.md)
-+ [Landing page](landing.md)
++ [Página de aterrissagem](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Visão geral do Analysis Workspace](analysis-workspace/home.md)
    + [Novidades no Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
@@ -178,8 +178,8 @@ ht-degree: 96%
       + [Solicitação de dados - Etapa 1 do assistente de solicitações](report-builder/data-requests/data-requests.md)
       + [Criar uma solicitação de dados](report-builder/data-requests/t-create-a-data-request.md)
       + Conjuntos de relatórios {#report-suites}
-         + [Selecione um conjunto de relatórios](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [Selecione um conjunto de relatórios de uma solicitação existente no Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [Selecione um conjunto de relatórios ](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [Seleção de um conjunto de relatórios a partir de uma solicitação existente no Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Usar o Excel para localizar uma ID de conjunto de relatórios](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Gerenciar segmentos](report-builder/data-requests/segmentation.md)
       + Tipos de relatórios {#report-types}

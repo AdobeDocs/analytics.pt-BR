@@ -4,8 +4,8 @@ description: Saiba como implementar o Adobe Analytics usando tags e extensão An
 feature: Launch Implementation
 source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 58%
 
 ---
 

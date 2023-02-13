@@ -4,8 +4,8 @@ title: Alertas de uso de chamadas do servidor
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '524'
 ht-degree: 100%
 
 ---

@@ -5,8 +5,8 @@ feature: Admin Tools
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '379'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ As alterações no menu se aplicam a todos os usuários que acessam o conjunto d
 
 >[!NOTE]
 >
->Qualquer alteração na estrutura do menu não afeta o Report Builder. Entretanto, a renomeação de um relatório se reflete nessa ferramenta.
+>Qualquer alteração na estrutura do menu não afeta o Report Builder. A renomeação de um relatório, no entanto, será refletida nesta ferramenta.
 
 Para personalizar os menus, os usuários podem ver no Reports &amp; Analytics:
 
