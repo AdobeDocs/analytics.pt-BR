@@ -4,9 +4,9 @@ description: Um aprofundamento nos conceitos por trás das eVars de merchandisin
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5289'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Para demonstrar como definir essas variáveis, aqui está um exemplo em que um v
 
 Ao definir essas duas variáveis iguais a esses valores específicos, você sabe que o visitante está usando o termo de pesquisa interna por palavra-chave “sandálias” para localizar um produto. Ao mesmo tempo, você sabe que o visitante não está usando os outros métodos de busca de produtos para localizar produtos (por exemplo, o visitante não está navegando pelas categorias de produtos exatamente ao mesmo tempo em que está realizando uma pesquisa por palavra-chave). Para garantir que a alocação adequada por produto ocorra, esses métodos não utilizados não devem receber crédito pela localização de um produto encontrado por meio de uma pesquisa interna por palavra-chave. Portanto, você deve inserir lógica no código (como AppMeasurement, AEP Web SDK e assim por diante) que define automaticamente os eVars associados a esses outros métodos de descoberta como um valor de &quot;método que não seja de descoberta&quot;.
 
-Por exemplo, quando um usuário pesquisa produtos usando a palavra-chave &quot;sandals&quot;, a lógica do código do Analytics deve definir as variáveis iguais às seguintes na página de resultados da pesquisa interna por palavra-chave:
+Por exemplo, quando um usuário pesquisa produtos usando a palavra-chave “sandálias”, a lógica do código do Analytics deve definir as variáveis na página de resultados da pesquisa interna por palavra-chave da seguinte maneira:
 
 * eVar2=&quot;sandálias&quot;: a palavra-chave “sandálias” foi usada na pesquisa interna por palavra-chave
 * eVar1=&quot;pesquisa interna por palavra-chave&quot;: o método de busca “pesquisa interna por palavra-chave” foi usado
@@ -57,7 +57,7 @@ Por exemplo, quando um usuário pesquisa produtos usando a palavra-chave &quot;s
 
 Estas são as diferentes configurações que você pode usar com as eVars de merchandising. A seguinte captura de tela é do Gerenciador de conjunto de relatórios. Acesse em [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Conjuntos de relatórios] > [!UICONTROL Editar configurações] > [!UICONTROL Conversão] > [!UICONTROL Variáveis de conversão] > [!UICONTROL Adicionar novo] > [!UICONTROL Habilitar merchandising].
 
-![Merch eVars](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/merch-evars1.png)
+![eVars Merch](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/merch-evars1.png)
 
 Encontre mais detalhes sobre essas configurações nas seções abaixo da tabela.
 
@@ -88,7 +88,7 @@ Com a **[!UICONTROL Sintaxe de produto]**, no entanto, o eVar é definido soment
 
 `s.products="[category];[name];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Categoria] e [!UICONTROL Nome] identificar o produto em questão.
+* [!UICONTROL Categoria] e [!UICONTROL Nome] identificam o produto em questão.
 * [!UICONTROL Quantidade] e [!UICONTROL Receita] são úteis quando uma compra de produto está sendo rastreada.
 * [!UICONTROL Eventos] são úteis para registrar valores de evento de moeda ou incrementais personalizados que não devem ser contados como receita (como frete, descontos etc.)
 
@@ -116,7 +116,7 @@ Se a configuração Alocação de um eVar padrão for igual a &quot;Mais recente
 
 Como mencionado anteriormente, todas as eVars de merchandising com Sintaxe de variável de conversão têm somente a alocação &quot;Mais recente (último)&quot;.  Assim, a configuração Alocação de eVars de merchandising não determina quais valores são inseridos na coluna post_evar, pois um visitante continua usando o site. Em vez disso, essa configuração determina qual valor de eVar se vincula a um produto e como esses produtos alocam os eventos de sucesso de volta aos valores de eVar aos quais estão vinculados.
 
-O seguinte acontece quando a configuração Alocação de um eVar de merchandising (ou seja, vinculação) é definida como &quot;Valor original (primeiro)&quot;: Quaisquer produtos definidos com a coluna post_evar e que não tenham sido previamente vinculados ao eVar &quot;pré-processado&quot; correspondente da coluna post_evar serão vinculados ao valor contido na coluna post_evar .  Esse vínculo entre o valor do eVar e o produto nunca muda até que o eVar expire de acordo com a configuração &quot;Expirar após&quot; nas configurações do Conjunto de relatórios.
+O seguinte acontece quando a configuração Alocação de eVar de merchandising (ou seja, vinculação) é definida como “Valor original (primeiro)”: qualquer produto definido com a coluna post_evar e que não tenha sido previamente vinculado à eVar &quot;pré-processada&quot; correspondente da coluna post_evar será vinculado ao valor contido na coluna post_evar. Esse vínculo entre o valor da eVar e o produto nunca será alterado até que a eVar expire de acordo com as definições de “Expirar após” nas configurações do Conjunto de relatórios.
 
 Sempre que uma solicitação de imagem atender aos critérios que, de outra forma, vinculariam um produto já vinculado ao valor do eVar definido mais recentemente, a configuração &quot;Valor original (primeiro)&quot; forçará os servidores de coleta de dados do Adobe Analytics a ignorar quaisquer tentativas adicionais. O oposto acontece com eVars de merchandising com a configuração Alocação (vinculação) igual a &quot;Mais recente (último)&quot;. Sempre que uma solicitação de imagem atender aos critérios que vinculam um produto a um eVar de merchandising, o produto se vinculará (e se vinculará novamente) ao valor mais recente passado para o eVar ou ao valor que está (sempre) contido na coluna `post_evar`.
 
@@ -134,7 +134,7 @@ A expiração de uma eVar pode ocorrer quando um evento bem-sucedido é registra
 
 Para o Método de descoberta de produto, a prática recomendada para definir a expiração de uma eVar de merchandising deve ser configurá-la como
 
-* O tempo que um produto permanece no carrinho de compras de um site antes do site o remove automaticamente do carrinho (por exemplo, 14 dias, 30 dias, etc.)
+* O tempo que um produto é mantido no carrinho de compras de um site antes que o site o remova automaticamente do carrinho (por exemplo, 14 dias, 30 dias etc.)
 * OU quando o evento de compra ocorre.
 
 Com qualquer configuração, todos os produtos que um visitante adquire têm o pedido/unidade/crédito de receita alocado para os valores de eVar de merchandising aos quais os produtos estavam vinculados naquele momento.
@@ -170,7 +170,7 @@ Se você quiser vincular &quot;pesquisa interna de palavra-chave&quot; à ID de 
 
 `s.products=";12345;;;;eVar1=internal keyword search";`
 
-Quaisquer eventos bem-sucedidos (inclusões ao carrinho, compras) capturados ao mesmo tempo que productID 12345 são creditados à ID de produto 12345 e ao valor eVar1 de &quot;pesquisa interna de palavra-chave&quot;. A única maneira de um valor de eVar1 diferente receber crédito por eventos bem-sucedidos associados à ID de produto 12345 é se a eVar1 for posteriormente definida como um valor diferente na variável produtos (com a ID de produto 12345).
+Qualquer evento bem-sucedido (adições ao carrinho, compras) capturado ao mesmo tempo que productID 12345 são creditados à ID de produto 12345 e ao valor de eVar1 de “pesquisa interna de palavra-chave”. A única maneira de um valor de eVar1 diferente receber crédito por eventos bem-sucedidos associados à ID de produto 12345 é se a eVar1 for posteriormente definida como um valor diferente na variável produtos (com a ID de produto 12345).
 
 Por exemplo:
 
@@ -178,7 +178,7 @@ Por exemplo:
 s.products=";12345;;;;eVar1=internal campaign";
 ```
 
-Essa configuração de variável altera o vínculo da ID de produto 12345 do valor eVar1 de &quot;pesquisa interna de palavra-chave&quot; para o valor eVar1 de &quot;campanha interna&quot;. Além disso, essa alteração de revínculo ocorre quando o eVar é configurado para usar a Sintaxe do produto e a configuração Alocação (vínculo) de &quot;Mais recente (último)&quot;. Se a configuração Alocação (vínculo) fosse definida como &quot;Valor original (primeiro)&quot;, definir o eVar1 como &quot;campanha interna&quot; ao lado da ID de produto 12345 não recuperaria a ID de produto 12345 para o valor do eVar1 de &quot;campanha interna&quot;. Em vez disso, o vínculo permaneceria com o valor originalmente vinculado - &quot;pesquisa interna de palavra-chave&quot;.
+Essa configuração de variável altera o vínculo da ID do produto 12345 do valor de eVar1 de “pesquisa de palavra-chave interna” para o valor eVar1 de “campanha interna”. Além disso, essa mudança de revinculação ocorre quando a eVar é configurada para usar a sintaxe do produto e a configuração de alocação (vinculação) de “Mais recente (última)”. Se a configuração Alocação (vínculo) fosse definida como “Valor original (primeiro)”, definir a eVar1 como “campanha interna” ao lado da ID de produto 12345 não recuperaria a ID de produto 12345 para o valor de eVar1 de “campanha interna”. Em vez disso, o vínculo permaneceria com o valor originalmente vinculado - “pesquisa interna de palavra-chave”.
 
 ### Desafios de usar a sintaxe do produto
 
@@ -201,7 +201,7 @@ Os seguintes valores teriam uma ordem, uma unidade e US$ 79,95 da receita atribu
 * Valor de eVar1 de &quot;pesquisa interna de palavra-chave&quot;
 * Valor eVar3 de &quot;campanha não interna&quot;
 * Valor eVar4 de &quot;não navegação&quot;
-* eVar5 valor de &quot;não venda cruzada&quot;
+* Valor de eVar5 de “não venda cruzada”
 
 Essa é a atribuição correta, que não é um problema. Em vez disso, o grande dilema dessa abordagem é determinar como e quando definir as eVars de método de descoberta de produto.
 
@@ -244,7 +244,7 @@ Nesse caso, ambos os valores `eVar10` (childSKU) de &quot;tshirt123-m-blue&quot;
 
 ### Desafios com a alocação &quot;mais recente&quot;
 
-Você pode enfrentar problemas adicionais usando a configuração Alocação (vínculo) de &quot;Mais recente (último)&quot;. Em muitas experiências de navegação na Web, os visitantes &quot;encontram novamente&quot; um produto que já viram e/ou adicionaram ao carrinho. Isso geralmente acontece por meio de uma visita subsequente ou antes de eles decidirem concluir uma compra. Suponha que durante uma visita ao site, um visitante encontre o produto &quot;sandal123&quot; por meio da pesquisa por palavra-chave de &quot;sandals&quot;. Eles imediatamente o adicionam ao carrinho por meio da página de resultados da pesquisa de palavra-chave. O código que captura a adição do carrinho seria definido da seguinte maneira:
+Você pode enfrentar problemas adicionais usando a configuração Alocação (vínculo) de &quot;Mais recente (último)&quot;. Em muitas experiências de navegação na Web, os visitantes &quot;encontram novamente&quot; um produto que já viram e/ou adicionaram ao carrinho. Isso geralmente acontece por meio de uma visita subsequente ou antes de eles decidirem concluir uma compra. Suponha que, durante uma visita ao site, um visitante encontre o produto “sandal123” por meio da pesquisa de palavra-chave “sandals”. Eles imediatamente o adicionam ao carrinho por meio da página de resultados da pesquisa de palavra-chave. O código que captura a adição do carrinho seria definido da seguinte maneira:
 
 ```js
 s.linkTrackVars="products,events";
@@ -254,7 +254,7 @@ s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-
 
 Como resultado, cada valor de eVar visto nessa solicitação de imagem é vinculado ao produto &quot;sandal123&quot;.
 
-Agora, imagine que o visitante não compra o produto durante essa visita, mas retorna ao site três dias depois com o produto &quot;sandals123&quot; ainda no carrinho. O visitante deseja saber mais sobre o produto antes de realizar a compra. Em vez de usar uma pesquisa por palavra-chave para encontrar o produto, o visitante navega pelo site. Ele chega à seção de navegação de comercialização &quot;mulheres > sapatos > sandálias&quot; logo antes de &quot;encontrar novamente&quot; o produto. Quando ele &quot;encontra novamente&quot; a página de detalhes do produto &quot;sandal123&quot;, as variáveis são definidas da seguinte maneira (no carregamento da página):
+Agora, imagine que o visitante não compra o produto durante essa visita, mas retorna ao site três dias depois com o produto “sandals123” ainda no carrinho. O visitante deseja saber mais sobre o produto antes de realizar a compra. Em vez de usar uma pesquisa por palavra-chave para encontrar o produto, o visitante navega pelo site. Ele chega à seção de navegação de comercialização &quot;mulheres > sapatos > sandálias&quot; logo antes de &quot;encontrar novamente&quot; o produto. Quando ele &quot;encontra novamente&quot; a página de detalhes do produto &quot;sandal123&quot;, as variáveis são definidas da seguinte maneira (no carregamento da página):
 
 ```js
 s.events="prodView";
