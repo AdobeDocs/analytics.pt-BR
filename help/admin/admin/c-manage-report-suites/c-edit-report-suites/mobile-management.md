@@ -4,7 +4,7 @@ title: Gerenciamento de aplicativos
 feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Classificações são usadas para categorizar valores em grupos e relatórios no
 | Classificação | Definição |
 |--- |--- |
 | Data da primeira inicialização | Data da primeira execução após a instalação ou reinstalação.   DD/MM/AAAA |
-| ID do aplicativo | Armazena o nome e a versão do aplicativo no seguinte formato:   `[AppName] [BundleVersion]`  Por exemplo, `myapp 1.1.` |
+| ID do aplicativo | Armazena o nome e a versão do aplicativo no seguinte formato:      `[AppName] [BundleVersion]`  Por exemplo, `myapp 1.1.` |
 | Número de Lançamento | Número de vezes em que o aplicativo foi iniciado ou trazido para o plano de fundo. |
 | Dias desde a primeira utilização | Número de dias desde a primeira execução. |
 | Dias desde a última utilização | Número de dias desde a última utilização. |
