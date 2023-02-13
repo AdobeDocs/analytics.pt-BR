@@ -4,9 +4,9 @@ description: Crie um espaço para personalizar como os dados são coletados, usa
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ As propriedades são contêineres abrangentes que você usa para gerenciar tags.
 1. Todas as configurações, incluindo a Experience Cloud Organization ID, já devem ser preenchidas. Clique em **[!UICONTROL Salvar]**.
 1. De volta ao catálogo de extensões, localize o Adobe Analytics e clique em **[!UICONTROL Instalar]**.
 
-Veja a documentação completa para o [Extensão do Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=pt-BR) para obter informações mais detalhadas.
+Veja a documentação completa da [Extensão do Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=pt-BR) para obter informações mais detalhadas.
 
 ## Criar elementos de dados do Adobe Analytics
 
@@ -51,7 +51,7 @@ Os elementos de dados são referências a partes específicas do site para colet
       >
       >Esse valor serve como exemplo para ajudar a começar. Se sua empresa definir um valor melhor para o nome da página, como um valor de camada de dados, você pode inseri-lo aqui.
    * Limpar texto marcado
-   * Duração do armazenamento: Nenhum
+   * Duração do armazenamento: nenhum
 1. Clique em **[!UICONTROL Salvar]**.
 
 ## Criar regras para o Adobe Analytics
@@ -60,7 +60,7 @@ As regras mapeiam os elementos de dados para os valores de variáveis do Analyti
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade da tag que pretende implementar no site.
-1. Clique no botão **[!UICONTROL Regras]** e, em seguida, clique em **[!UICONTROL Adicionar regra]**. Nomeie-o `Global Rule`.
+1. Clique na guia **[!UICONTROL Regras]** e, em seguida, clique em **[!UICONTROL Adicionar regra]**. Nomeie-a como `Global Rule`.
 1. Clique em **[!UICONTROL Adicionar]** ao lado dos eventos e insira as seguintes configurações:
    * Extensão: principal
    * Tipo de evento: biblioteca carregada (início da página)
