@@ -4,17 +4,17 @@ description: Use a variável linkInternalFilters para ajudar no rastreamento aut
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # linkInternalFilters
 
-O AppMeasurement oferece a capacidade de rastrear automaticamente links que apontam para fora do site. If [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) ou [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK da Web) estiver habilitado, uma solicitação de imagem será enviada para o Adobe logo que um visitante clicar em um link para sair do site. As variáveis [`linkExternalFilters`](linkexternalfilters.md) e `linkInternalFilters` determinam quais links são considerados internos/externos.
+O AppMeasurement oferece a capacidade de rastrear automaticamente links que apontam para fora do site. Se [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) ou [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK da Web) estiver ativado, uma solicitação de imagem será enviada à Adobe assim que o visitante clicar em um link para sair do site. As variáveis [`linkExternalFilters`](linkexternalfilters.md) e `linkInternalFilters` determinam quais links são considerados internos/externos.
 
-Se essa variável contiver um valor, o rastreamento automático do link de saída se comportará como uma lista de bloqueios. Se um clique em um link não corresponder a algum valor `linkInternalFilters`, ele será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. Se o [`linkLeaveQueryString`](linkleavequerystring.md) estiver ativado, a sequência de consulta também será examinada.
+Se essa variável tiver um valor, o rastreamento automático do link de saída se comportará como uma lista de bloqueios. Se um clique em um link não corresponder a algum valor `linkInternalFilters`, ele será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. Se o [`linkLeaveQueryString`](linkleavequerystring.md) estiver ativado, a sequência de consulta também será examinada.
 
 Se você usar `linkInternalFilters` e `linkExternalFilters` simultaneamente, o link clicado deverá corresponder a `linkExternalFilters` **e** não corresponder a `linkInternalFilters` para ser considerado um link de saída. Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
@@ -26,11 +26,11 @@ O Activity Map usa essa variável para ajudar a determinar quais links são inte
 
 ## Links de saída no SDK da Web
 
-Os links se qualificam automaticamente como um link de saída se o domínio de destino do link for diferente do atual `window.location.hostname`. O SDK da Web não oferece variáveis de configuração para modificar a detecção automática de link de saída. Se você precisar personalizar os domínios qualificados como um link de saída, poderá usar a lógica personalizada no `onBeforeEventSend` retorno de chamada.
+Os links se qualificam automaticamente como um link de saída se o domínio de destino do link for diferente do `window.location.hostname` atual. O SDK da Web não oferece variáveis de configuração para modificar a detecção automática de link de saída. Se você precisar personalizar os domínios qualificados como um link de saída, poderá usar a lógica personalizada no retorno de chamada do `onBeforeEventSend`.
 
-Consulte [Rastreamento automático de links](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) na documentação do SDK da Web para obter mais informações.
+Consulte [Rastreamento de link automático](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=pt-BR#automaticLinkTracking) na documentação do SDK da Web para obter mais informações.
 
-## Links de saída - Nunca rastrear usando a extensão Adobe Analytics
+## Links de saída - Nunca rastrear usando a extensão do Adobe Analytics
 
 O campo Nunca rastrear é uma lista de filtros separados por vírgulas (geralmente domínios) da opção [!UICONTROL Rastreamento de link] ao configurar a extensão Adobe Analytics.
 
