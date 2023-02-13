@@ -4,9 +4,9 @@ description: Identifique os bots dinamicamente usando o movimento do mouse.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Esse plug-in executa duas verificações:
 
 Se o agente do usuário estiver em um desktop e nenhum movimento do mouse for detectado, o plug-in poderá
 
-* Faça uma chamada de regra de chamada direta usando o SDK da Web ou a extensão Adobe Analytics, ou
+* Faça uma chamada de regra de chamada direta usando o SDK da Web ou a extensão do Adobe Analytics ou
 * Faça uma chamada de rastreamento de link para indicar que o visitante não é um bot.
 
 ## Pré-requisitos
