@@ -5,7 +5,7 @@ title: Como as regras de processamento funcionam
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Regras de processamento permitem alterar os dados com base em condições definidas. Quando atributos ou valores corresponderem às condições definidas, os valores poderão ser definidos e excluídos e os eventos poderão ser definidos.
 
-As regras de processamento são aplicadas aos dados conforme são coletadas, e as regras são aplicadas a todos os dados que vêm por meio das bibliotecas do AppMeasurement e por meio da API inserção de dados. As regras de processamento também se aplicam às fontes de dados totais e de log. Essas fontes contêm dados que representam uma *`hit`* ou uma ação que um usuário toma. Regras de processamento não se aplicam a outras fontes de dados.
+As regras de processamento são aplicadas aos dados conforme são coletadas, e as regras são aplicadas a todos os dados que vêm por meio das bibliotecas do AppMeasurement e por meio da API inserção de dados. As regras de processamento também se aplicam às fontes de dados totais e de log. Essas fontes contêm dados que representam uma  *`hit`* ou uma ação que um usuário toma. Regras de processamento não se aplicam a outras fontes de dados.
 
 ## Conceitos importantes {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -39,7 +39,7 @@ A tabela a seguir contém os principais conceitos de que você precisa compreend
   </tr> 
   <tr> 
    <td colname="col1"> <p>Depois de salvas, as regras de processamento são aplicadas imediatamente ao conjunto de relatórios. </p> </td> 
-   <td colname="col2"> <p>As alterações das regras de processamento devem estar visíveis no conjunto de relatórios minutos após terem sido salvas. Ao testar as regras de processamento, recomendamos configurar <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> Relatórios em tempo real</a> no conjunto de relatórios de teste, para que você possa visualizar rapidamente os resultados de uma regra de processamento. </p> </td> 
+   <td colname="col2"> <p>As alterações das regras de processamento devem estar visíveis no conjunto de relatórios minutos após terem sido salvas. Ao testar as regras de processamento, recomendamos configurar  <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> Relatórios em tempo real</a> no conjunto de relatórios de teste, para que você possa visualizar rapidamente os resultados de uma regra de processamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras de processamento são o único modo de acessar variáveis de dados de contexto. </p> </td> 
