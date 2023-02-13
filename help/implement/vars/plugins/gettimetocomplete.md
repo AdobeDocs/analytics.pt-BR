@@ -4,9 +4,9 @@ description: Meça o tempo gasto para concluir uma tarefa.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -62,8 +62,8 @@ A função `getTimeToComplete` usa os seguintes argumentos:
 
 * **`sos`** (opcional, string): defina como `"start"` quando quiser iniciar o cronômetro. Defina como `"stop"` quando quiser parar o cronômetro. O padrão é `"start"`.
 * **`cn`** (opcional, string): o nome do cookie que armazenará o tempo inicial. O padrão é `"s_gttc"`.
-* **`exp`** (opcional, número inteiro): O número de segundos, horas ou dias (dependendo da variável `tp` argumento de separação de tempo) que o cookie (e o cronômetro) expira. O padrão é 30 minutos.
-* **`tp`** (opcional, string): A string de separação de tempo que o cookie (e o cronômetro) expira, usada com a variável `exp` argumento . Defina como &quot;d&quot; para dias, &quot;h&quot; para horas ou &quot;s&quot; para segundos. Se isso não for definido, a expiração do cookie (e do timer) é de 30 minutos, independentemente do valor da variável `exp` foi definido como.
+* **`exp`** (opcional, número inteiro): o número de segundos, horas ou dias (dependendo do argumento `tp` de separação de tempo) em que o cookie (e o cronômetro) expira. O padrão é 30 minutos.
+* **`tp`** (opcional, string): a string de separação de tempo em que o cookie (e o cronômetro) expira, usada com o argumento `exp`. Defina como “d” para dias, “h” para horas ou “s” para segundos. Se isso não for definido, a expiração do cookie (e do cronômetro) é de 30 minutos, independentemente do valor do argumento `exp` estar definido.
 
 Chamar essa função retorna uma string que contém o número de dias, horas, minutos e/ou segundos decorridos entre a ação `"start"` e a ação `"stop"`.
 
