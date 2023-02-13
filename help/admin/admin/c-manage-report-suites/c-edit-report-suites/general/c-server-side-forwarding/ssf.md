@@ -5,9 +5,9 @@ title: Visão geral do encaminhamento pelo lado do servidor
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Verifique se o serviço da Experience Cloud ID (ECID) está implementado, ao ins
 Na guia Solicitação, verifique se um valor de ECID está definido. Isso indica que o Serviço de identidade está implementado corretamente, o que é um pré-requisito para o encaminhamento pelo lado do servidor.
 
 * Se você encontrar um valor ECID, avance para a etapa 2.
-* Se você não vir um valor de ECID, [implemente o Serviço de identidade](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) antes de prosseguir para a etapa 2.
+* Se você não vir um valor de ECID, [implemente o Serviço de identidade](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=pt-BR) antes de prosseguir para a etapa 2.
 
 ## ![step2_icon.png imagem](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) Verificar a versão de implementação do encaminhamento pelo lado do servidor
 
@@ -53,7 +53,7 @@ Na guia &quot;Resposta&quot;, verifique se a resposta contém dados do Audience 
 
       1. Remova o código DIL e instale o código de página do [módulo de Gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR).
       1. Ative o encaminhamento pelo lado do servidor na interface do usuário do Analytics, conforme descrito na etapa 3. Habilitar esta configuração antes de remover o código DIL duplicará os dados e criará chamadas de servidor cobradas adicionais no Audience Manager.
-   * **Novos clientes do AAM** - instale o código de página do [Módulo de gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) e prossiga para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
+   * **Novos clientes do AAM** - instale o código de página do [Módulo de gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR) e prossiga para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
 
 
 ## ![step3_icon.png imagem](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Verificar a implementação do encaminhamento pelo lado do servidor do conjunto de relatórios
@@ -64,7 +64,7 @@ O encaminhamento pelo lado do servidor no nível do conjunto de relatórios é r
 
 Acesse **Analytics** > **Administração** > **Conjuntos de relatórios** > (selecione o **conjunto de relatórios**) > **Editar configurações** > **Geral** > **Encaminhamento pelo lado do servidor**. Se a caixa de seleção estiver:
 
-* **Inativo** (Você não pode fazer uma seleção ou o menu não existe): você não possui os conjuntos de relatórios selecionados mapeados para uma ID de organização. Entre em contato com o Atendimento ao cliente para verificar se o conjunto de relatórios está mapeado corretamente.
+* **Inativo** (Você não pode fazer uma seleção ou o menu não existe): você não tem os conjuntos de relatórios selecionados mapeados para uma ID de organização. Entre em contato com o Atendimento ao cliente para verificar se o conjunto de relatórios está mapeado corretamente.
 * **Desabilitada**: você não possui o novo encaminhamento pelo lado do servidor ativado. Leia o conteúdo na página e prossiga com a ativação do recurso.
 * **Habilitada:** você está provisionado para o novo encaminhamento pelo lado do servidor. Você também pode configurar esta integração do Audience Analytics.
 
