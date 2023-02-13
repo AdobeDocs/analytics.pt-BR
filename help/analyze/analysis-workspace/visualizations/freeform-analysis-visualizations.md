@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Os seguintes tipos de visualização estão disponíveis no Analysis Workspace:
 
 ## Personalizar configurações de visualização
 
-Você pode personalizar as configurações de visualização para uma visualização individual, ou para todas as visualizações que criar.
+Você pode personalizar as configurações de visualização para uma visualização individual ou para todas as visualizações que criar.
 
 ### Personalizar configurações de visualização para uma única visualização
 
@@ -119,6 +119,6 @@ Se não tiver certeza sobre qual visualização selecionar, clique no ícone **[
 
 ## Alteração da escala/eixo nas visualizações
 
-Esta é uma visão geral do vídeo:
+Veja um vídeo com uma visão geral:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
