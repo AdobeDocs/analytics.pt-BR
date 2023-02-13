@@ -4,7 +4,7 @@ title: Referência de dados e de código do encaminhamento pelo lado do servidor
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Além disso, um sinal `h_ip` é gerado pelo IP do host que envia a solicitação
 
 ## Sinais definidos pelo cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Consulte também [Atributos suportados para chamadas de API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Consulte também [Atributos suportados para chamadas de API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=pt-BR).
 
 | Sinal | Descrição |
 | --- |--- |
@@ -53,12 +53,12 @@ Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Co
 | `c_colorDepth` | Especificado como uma cor de 16 ou 32 bits. |
 | `c_connectionType` | Especifica o tipo de conexão. As opções incluem:<ul><li>modem</li><li>lan</li></ul> |
 | `c_contextData.*` | Exemplos:<ul><li>AppMeasurement: `s.contextData`</li><li>[category] = &quot;news&quot;;</li><li>Sinal: `c_contextData.category=news`</li></ul> |
-| `c_cookiesEnabled` | Especifica se cookies podem ser habilitados. As opções incluem: sim, não, desconhecido |
+| `c_cookiesEnabled` | Especifica se cookies podem ser habilitados. As opções incluem:  sim, não, desconhecido |
 | `c_currencyCode` | Tipo de moeda usada na transação. |
 | `c_evar#` | eVars personalizadas |
 | `c_events` | Definido por `s.events`. |
 | `c_hier#` | Variáveis de hierarquia personalizadas. |
-| `c_javaEnabled` | Especifica se o Java pode ser habilitado. As opções incluem: sim, não, desconhecido |
+| `c_javaEnabled` | Especifica se o Java pode ser habilitado. As opções incluem:  sim, não, desconhecido |
 | `c_javaScriptVersion` | Versão do JavaScript compatível com um navegador. |
 | `c_latitude` | Latitude numérica |
 | `c_linkClick` | As opções incluem: personalizado, download, saída |
@@ -67,7 +67,7 @@ Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Co
 | `c_linkExitURL` | O URL do link de saída. |
 | `c_list#` | Variáveis personalizadas de lista. |
 | `c_longitude` | Longitude numérica. |
-| `c_mediaPlayerType` | Para solicitações de rastreamento de transmissão de mídia. As opções incluem:  other, primetime |
+| `c_mediaPlayerType` | Para solicitações de rastreamento de transmissão de mídia. As opções incluem:    outro, primetime |
 | `c_pageName` | O nome da página (se definido). |
 | `c_pageURL` | O endereço da página na barra de endereços do navegador. |
 | `c_products` | A sequência de caracteres do produto (definido por `s.products`). |
