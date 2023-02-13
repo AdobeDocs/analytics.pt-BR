@@ -5,9 +5,9 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ No Adobe Analytics, os administradores acessam **[!UICONTROL Administrador]** > 
 
 ## Permissões
 
-Você precisa da permissão Administrador de produto do Analytics (no Adobe Admin Console) para gerenciar a atividade de relatórios.
+Você precisa da permissão de Administrador de produto do Analytics (no Adobe Admin Console) para gerenciar a atividade de relatórios.
 
 ![permissão](/help/admin/admin/assets/rep-mgr-permission.png)
 
