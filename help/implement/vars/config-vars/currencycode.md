@@ -4,9 +4,9 @@ description: Para sites de comércio eletrônico, define a moeda em que a págin
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
