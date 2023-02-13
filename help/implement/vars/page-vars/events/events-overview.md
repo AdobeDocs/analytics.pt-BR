@@ -4,9 +4,9 @@ description: Defina a variável events, que governa a maioria das métricas do s
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: 62f793491d2f95266a71bc217260353f8c040525
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -16,16 +16,16 @@ Dimensões e métricas são componentes vitais para os relatórios. A variável 
 
 Antes de implementar eventos, você deve criá-los e configurá-los em [Eventos-bem sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) nas configurações do Conjunto de relatórios. Se você planeja usar eventos personalizados em ocorrências de rastreamento de link, verifique se [`linkTrackVars`](../../config-vars/linktrackvars.md) e [`linkTrackEvents`](../../config-vars/linktrackevents.md) estão definidos corretamente.
 
-## Eventos que usam o SDK da Web
+## Evento usando o SDK da Web
 
-Os eventos personalizados são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) nos seguintes campos XDM:
+Os eventos personalizados são [mapeados para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) nos seguintes campos XDM:
 
 * Os eventos personalizados 1-100 são mapeados para `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Os eventos personalizados 101-200 são mapeados para `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Esse padrão se repete a cada 100 eventos para `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` é usada para especificar a quantidade a ser incrementada. `eventx.id` é usado para [serialização](event-serialization.md).
+* Esse padrão se repete a cada 100 eventos para `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` é usado para especificar a quantidade a ser incrementada. `eventx.id` é usado para [serialização](event-serialization.md).
 * Os pedidos são mapeados para `commerce.purchases.value`.
-* As unidades são mapeadas para a soma de todos `productListItems[].quantity` campos.
-* A receita é mapeada para a soma de todos `productListItems[].priceTotal` campos.
+* As unidades são mapeadas para a soma de todos os campos `productListItems[].quantity`.
+* A receita é mapeada para a soma de todos os campos `productListItems[].priceTotal`.
 * As Exibições do produto são mapeadas para `commerce.productListViews.value`.
 * Os carrinhos são mapeados para `commerce.productListOpens.value`.
 * Adições ao carrinho são mapeadas para `commerce.productListAdds.value`.
@@ -37,7 +37,7 @@ Os eventos personalizados são [mapeado para Adobe Analytics](https://experience
 >
 >Se um evento for definido em `productListItems` (por exemplo, `productListItems._experience.analytics.event1.value`) e o evento ainda não estiver nesse campo, ele será adicionado automaticamente a esse campo.
 
-## Eventos que usam a extensão Adobe Analytics
+## Evento usando a extensão do Adobe Analytics
 
 Você pode definir eventos ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
@@ -53,7 +53,7 @@ Vários recursos estão disponíveis:
 * Uma lista suspensa permite selecionar o evento para incluir.
 * um campo de texto opcional para serialização. Consulte [Serialização de eventos](event-serialization.md) para obter mais informações.
 * Um campo de texto opcional para um valor de evento. Você pode incluir moeda para eventos de moeda, ou um número inteiro para eventos que não sejam de moeda para incrementá-lo várias vezes. Por exemplo, a seleção de `event1` na lista suspensa e a inclusão de `10` neste campo incrementa `event1` em 10 nos relatórios.
-* Um botão para adicionar outro evento. Você pode adicionar quantos eventos desejar a uma única regra dentro do devido tempo.
+* Um botão para adicionar outro evento. Você pode adicionar quantos eventos desejar a uma única regra dentro do razoável.
 
 ## s.events no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
