@@ -5,9 +5,9 @@ title: Remover projetos de pastas
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Para remover um projeto de uma pasta, você pode mover o projeto para outro loca
 
 ## Mover um projeto {#move-project-in-folder}
 
-Você pode mover projetos de uma pasta para outra pasta criada.
+Você pode mover projetos de uma pasta para outra pasta que você criou.
 
 1. Em uma pasta de projeto, selecione o ícone de reticências **...** ao lado do nome do projeto.
 
