@@ -4,9 +4,9 @@ title: Técnicas estatísticas usadas na Análise de contribuição
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
 source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ A Análise de contribuição consegue isso através da execução de um algoritm
 
    ![](assets/cramers-v.png)
 
-1. Para cada item de dimensão, o Residual de Pearson (PR) é usado para medir a associação entre a métrica anômala e cada item de dimensão. O PR segue uma distribuição normal padrão, que permite ao algoritmo comparar PRs de duas variáveis aleatórias, mesmo que os desvios não sejam comparáveis. Na prática, o erro não é conhecido e é estimado usando correção de amostra finita.
+1. Para cada item de dimensão, o Residual da pessoa (PR) é usado para medir a associação entre a métrica anômala e cada item de dimensão. O PR segue uma distribuição normal padrão, que permite ao algoritmo comparar PRs de duas variáveis aleatórias, mesmo que os desvios não sejam comparáveis. Na prática, o erro não é conhecido e é estimado usando correção de amostra finita.
 
    No exemplo anterior da Tabela 1, o PR com correção de amostra finita para o país i e o período 2 é determinado por
 
