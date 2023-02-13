@@ -4,9 +4,9 @@ title: Visão geral das regras de bot
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ O campo **[!UICONTROL contém]** limita-se a 100 caracteres. A lista de não con
 
 ### Endereço IP (inclusive correspondências curingas)
 
-Corresponde a um endereço IP ou vários endereços no mesmo bloco usando curingas (&#42;). Forneça os valores numéricos do endereço IP que deseja encontrar. Substituto &#42; para qualquer valor que você deseja corresponder usando um curinga. A lista a seguir contém exemplos de string de correspondência do endereço IP:
+Corresponde a um endereço IP ou vários endereços no mesmo bloco usando curingas (&#42;). Forneça os valores numéricos do endereço IP que deseja encontrar. Substitua &#42; por qualquer valor que você deseja encontrar usando um curinga. A lista a seguir contém exemplos de string de correspondência do endereço IP:
 
 ```
 10.10.10.1
@@ -74,7 +74,7 @@ Corresponde a um endereço IP ou vários endereços no mesmo bloco usando curing
 
 ### Intervalo de endereço IP
 
-Forneça os valores inicial e final do intervalo de endereços IP que deseja encontrar. Substituto &#42; para qualquer valor que você deseja corresponder usando um curinga.
+Forneça os valores inicial e final do intervalo de endereços IP que deseja encontrar. Substitua &#42; por qualquer valor que você deseja encontrar usando um curinga.
 
 ### Definir uma regra de bot personalizada
 
@@ -122,7 +122,7 @@ O botão **[!UICONTROL Exportar o arquivo de bot carregado]** exporta todas as r
 
 As regras de bot são aplicadas a todos os dados de análises. Os dados removidos pelas regras de bot são visíveis apenas nos Relatórios de Páginas de bots e Bots.
 
-As regras VISTA são aplicadas após as Regras de bot. Consulte [Ordem de processamento](/help/technotes/processing-order.md) no guia do usuário Technotes.
+As regras VISTA são aplicadas após as Regras de bots. Consulte [Pedido de processamento](/help/technotes/processing-order.md) no Guia do usuário da Technotes.
 
 **Processamento de visita de alta ocorrência:** se houver mais de 100 ocorrências em uma visita, o relatório determinará se o tempo da visita em segundos é menor que ou igual ao número de ocorrências na visita. Nessa situação, devido ao custo de processar visitas longas e intensas, o relatório recomeçará com uma nova visita. Visitas de alta ocorrência são normalmente causadas por ataques de bot e não são consideradas como uma navegação do visitante normal.
 
@@ -136,4 +136,4 @@ A lista de bots IAB é baseada unicamente no agente do usuário; portanto, a fil
 
 Se a ofuscação de IP estiver ativada, a exclusão de IP ocorrerá antes de o endereço IP ser ofuscado, de modo que os clientes não precisam fazer qualquer alteração ao ativar a ofuscação de IP.
 
-Se o último octeto for removido, isso ocorrerá antes da filtragem de IP. Assim, o último octeto será substituído por um 0, e as regras de exclusão de IP devem ser atualizadas para corresponder os endereços IP com um zero no final. Correspondência &#42; deve corresponder a 0.
+Se o último octeto for removido, isso ocorrerá antes da filtragem de IP. Assim, o último octeto será substituído por um 0, e as regras de exclusão de IP devem ser atualizadas para corresponder os endereços IP com um zero no final. O &#42; correspondente deve corresponder a 0.
