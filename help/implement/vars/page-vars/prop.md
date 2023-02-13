@@ -4,9 +4,9 @@ description: Variáveis personalizadas que podem ser usadas na implementação.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ As props são variáveis personalizadas que podem ser usadas da maneira que voc�
 
 Se você tiver um [documento de design de solução](/help/implement/prepare/solution-design.md), será possível alocar essas dimensões personalizadas para valores específicos da sua organização. O número de props disponíveis depende de seu contrato com a Adobe. Até 75 props estarão disponíveis se seu contrato com a Adobe permitir.
 
-## Props que usam o SDK da Web
+## Props usando o SDK da Web
 
-As props são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) nos campos XDM `_experience.analytics.customDimensions.props.prop1` para `_experience.analytics.customDimensions.props.prop75`. Propriedades de lista são especificadas em um conjunto separado de campos.
+As props são [mapeadas para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) nos campos XDM `_experience.analytics.customDimensions.props.prop1` a `_experience.analytics.customDimensions.props.prop75`. Propriedades de lista são especificadas em um conjunto separado de campos.
 
-## Props que usam a extensão Adobe Analytics
+## Props usando a extensão do Adobe Analytics
 
 Você pode definir props ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
@@ -53,17 +53,17 @@ Props de lista são uma configuração aplicada a props que permitem que a vari�
 
 ### Configurar props de lista
 
-Ativar props de lista em [Variáveis de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) em configurações do conjunto de relatórios. Verifique se o delimitador desejado está configurado corretamente. A Adobe não fornece um delimitador padrão.
+Ativar propriedade de lista em [Variáveis de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) em configurações do conjunto de relatórios. Verifique se o delimitador desejado está configurado corretamente. A Adobe não fornece um delimitador padrão.
 
 >[!TIP]
 >
 >Os delimitadores comuns usados em implementações são vírgula (`,`), dois pontos (`:`), ponto e vírgula (`;`) ou barra vertical (`|`). Você pode usar qualquer delimitador ASCII não estendido que melhor se ajuste à sua implementação.
 
-### Definir props de lista usando o SDK da Web
+### Definir propriedade de lista usando o SDK da Web
 
-Depois de configurar as props de lista nas configurações do conjunto de relatórios com o delimitador desejado, as props de lista são mapeadas para o Adobe Analytics em `_experience.analytics.customDimensions.listProps.prop1.values[]` para `_experience.analytics.customDimensions.listProps.prop75.values[]`. O SDK da Web usa automaticamente o delimitador correto listado nas configurações do conjunto de relatórios. Se você definir o delimitador no campo XDM (por exemplo, `_experience.analytics.customDimensions.props.prop1.delimiter`), que substitui o delimitador recuperado automaticamente das configurações do conjunto de relatórios e pode levar à análise incorreta da string de prop da lista.
+Depois de configurar as propriedades de lista nas configurações do conjunto de relatórios com o delimitador desejado, as propriedades de lista são mapeadas para o Adobe Analytics em `_experience.analytics.customDimensions.listProps.prop1.values[]` para `_experience.analytics.customDimensions.listProps.prop75.values[]`. O SDK da Web usa automaticamente o delimitador correto listado nas configurações do conjunto de relatórios. Se você definir o delimitador no campo XDM (por exemplo, `_experience.analytics.customDimensions.props.prop1.delimiter`), que substitui o delimitador recuperado automaticamente das configurações do conjunto de relatórios e pode levar à análise incorreta da string de propriedade da lista.
 
-### Definir props de lista usando a extensão Adobe Analytics e o AppMeasurement
+### Definir propriedades de lista usando a extensão do Adobe Analytics e o AppMeasurement
 
 Depois de configurar as props de lista nas configurações do conjunto de relatórios com o delimitador desejado, não há diferenças de implementação além do uso do delimitador.
 
