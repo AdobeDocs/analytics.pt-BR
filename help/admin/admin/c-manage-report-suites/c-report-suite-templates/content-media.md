@@ -4,7 +4,7 @@ title: Conteúdo e mídia
 feature: Report Suite Settings
 exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
 ht-degree: 100%
 
@@ -42,9 +42,9 @@ A seguinte tabela contém uma lista de eventos padrão de comércio. A configura
 | Pedidos | Contador | `purchase` |
 | Unidades | Contador | `purchase` |
 | Carrinhos | Contador | `scOpen` |
-| Exibições do carrinho | Contador | `scView` |
+| Visualizações do carrinho | Contador | `scView` |
 | Instâncias | Contador | N/D |
-| Finalizações | Contador | `scCheckout` |
+| Check-outs | Contador | `scCheckout` |
 | Adições ao carrinho | Contador | `scAdd` |
 | Remoções do carrinho | Contador | `scRemove` |
 | Visitas | Contador (sem sub-relações) | N/D |
