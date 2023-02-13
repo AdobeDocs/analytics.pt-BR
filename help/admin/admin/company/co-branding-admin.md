@@ -4,9 +4,9 @@ title: Compartilhamento de marcas
 feature: Company Settings
 exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
 source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '73'
+ht-degree: 100%
 
 ---
 
