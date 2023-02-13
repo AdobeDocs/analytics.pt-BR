@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '718'
 ht-degree: 16%
 
 ---
@@ -19,16 +19,18 @@ ht-degree: 16%
 
    | Opção | Função |
    |---------|----------|
+   | [!UICONTROL **Aprovado**] | Mostrar somente componentes marcados como Aprovado por um administrador. |
+   | [!UICONTROL **Favoritos**] | Mostrar somente componentes que estão na lista de Favoritos. Para obter informações sobre como adicionar componentes à lista de favoritos, consulte [Visão geral dos componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensões**] | Mostrar somente componentes que são Dimension. (Essa opção também está disponível na variável [!UICONTROL **Filtros rápidos**] ao acessar o Dicionário de dados pela primeira vez.) |
    | [!UICONTROL **Métricas**] | Mostrar somente componentes que são Métricas. (Essa opção também está disponível na variável [!UICONTROL **Filtros rápidos**] ao acessar o Dicionário de dados pela primeira vez.) |
    | [!UICONTROL **Segmentos**] | Mostrar somente componentes que são Segmentos. (Essa opção também está disponível na variável [!UICONTROL **Filtros rápidos**] ao acessar o Dicionário de dados pela primeira vez.) <!--this is Filters in CJA--> |
    | [!UICONTROL **Intervalos de datas**] | Mostrar somente componentes que são intervalos de datas. (Essa opção também está disponível na variável [!UICONTROL **Filtros rápidos**] ao acessar o Dicionário de dados pela primeira vez.) |
+   | [!UICONTROL **Exibir tudo**] | Mostrar todos os componentes. Essa opção está disponível somente para administradores do . |
+   | [!UICONTROL **Não aprovado**] | Mostrar somente componentes que ainda não estão marcados como Aprovado por um administrador. Como administrador, isso é útil ao identificar componentes que exigem análise e aprovação. Essa opção está disponível somente para administradores do . |
    | [!UICONTROL **Descrição ausente**] | Mostrar somente componentes que ainda não têm uma descrição no campo Descrição . Essa opção está disponível somente para administradores do . |
-   | [!UICONTROL **Duplicatas**] | Mostrar somente componentes que têm o mesmo rótulo ou a mesma descrição de outro componente no Conjunto de relatórios selecionado. Essa opção está disponível somente para administradores do . Rótulos ou descrições devem ser correspondências exatas para serem mostradas como duplicatas. |
-   | [!UICONTROL **Nenhum dado recente**] | Mostrar somente componentes que não coletaram dados nos últimos 90 dias. Essa opção está disponível somente para administradores do . |
-   | [!UICONTROL **Criado pelo Adobe**] | Mostrar somente componentes que foram criados pelo Adobe. Os componentes que foram criados por um administrador ou outro usuário em sua organização não são mostrados. |
-   | [!UICONTROL **Aprovado**] | Mostrar somente componentes marcados como Aprovado por um administrador. |
-   | Não aprovado (disponível somente para administradores) | <!--this is in the requirements doc, but I don't see this in the UI--> |
+   | [!UICONTROL **Mostrar duplicatas**] | Mostrar somente componentes que têm o mesmo rótulo ou a mesma descrição de outro componente no Conjunto de relatórios selecionado. Rótulos ou descrições devem ser correspondências exatas para serem mostradas como duplicatas. Essa opção está disponível somente para administradores do . |
+   | [!UICONTROL **Sem dados recentes**] | Mostrar somente componentes que não coletaram dados nos últimos 90 dias. Essa opção está disponível somente para administradores do . |
+   | [!UICONTROL **Criado pelo Adobe**] <!-- I don't see this option--> | Mostrar somente componentes que foram criados pelo Adobe. Os componentes que foram criados por um administrador ou outro usuário em sua organização não são mostrados. |
 
    {style=&quot;table-layout:auto&quot;}
 
