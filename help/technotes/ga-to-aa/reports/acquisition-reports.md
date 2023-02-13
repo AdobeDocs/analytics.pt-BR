@@ -4,7 +4,7 @@ description: Saiba como criar relatórios baseados em aquisição usando a Analy
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1578'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ O recurso de análise de publicidade exige configuração para retornar dados. C
 
 Os relatórios sociais fornecem informações semelhantes ao relatório Comportamento respectivo, exceto no contexto das redes sociais. Esses dados estão disponíveis na Analysis Workspace ao combinar uma dimensão a um segmento.
 
-Às vezes, os visitantes chegam ao site por meio de vários canais na mesma sessão. Por exemplo, um visitante clica em uma página de mídia social e alguns minutos depois visita um mecanismo de pesquisa para acessar o site. Nesses casos, os domínios não sociais podem aparecer neste relatório. Se desejar excluir domínios não sociais, classifique o relatório por visitas ou crie uma cópia do segmento a ser baseada em ocorrências em vez de visitas. Consulte [Contêiners de segmentação](/help/components/segmentation/seg-overview.md) no guia do usuário Componentes para obter mais informações.
+Às vezes, os visitantes chegam ao site por meio de vários canais na mesma sessão. Por exemplo, um visitante clica em uma página de redes sociais e alguns minutos depois visita um mecanismo de pesquisa para acessar o site. Nesses casos, os domínios não sociais podem aparecer neste relatório. Se desejar excluir domínios não sociais, classifique o relatório por visitas ou crie uma cópia do segmento a ser baseada em ocorrências em vez de visitas. Consulte [Contêiners de segmentação](/help/components/segmentation/seg-overview.md) no guia do usuário Componentes para obter mais informações.
 
 ### Social - Referências de rede
 
@@ -90,9 +90,9 @@ O relatório Referências de rede mostra quais domínios de rede social direcion
 2. No menu Componentes, localize o segmento **Visitas de sites sociais** e arraste até a pequena área acima da tabela de forma livre chamada &#39;Solte um segmento aqui&#39;.
 3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
 
-### Social - Páginas iniciais
+### Social - Páginas de aterrissagem
 
-O relatório de páginas iniciais mostra em quais páginas os visitantes chegaram depois de clicar em um link por meio de uma rede social. Esses dados estão disponíveis na Analysis Workspace usando a dimensão **Página de entrada** e o segmento **Visitas de sites sociais**.
+O relatório de páginas de aterrissagem mostra em quais páginas os visitantes chegaram depois de clicar em um link por meio de uma rede social. Esses dados estão disponíveis na Analysis Workspace usando a dimensão **Página de entrada** e o segmento **Visitas de sites sociais**.
 
 1. No menu Componentes, localize a dimensão **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. No menu Componentes, localize o segmento **Visitas de sites sociais** e arraste até a pequena área acima da tabela de forma livre chamada &#39;Solte um segmento aqui&#39;.
@@ -104,7 +104,7 @@ O relatório de Conversões mostra dados de comércio eletrônico no contexto da
 
 ### Social - Plug-ins
 
-O relatório Plug-ins mostra como os visitantes interagem com plug-ins de mídia social incorporados no site. É necessária uma implementação adicional para uso na Analysis Workspace. A Adobe recomenda trabalhar com um consultor de implementação para garantir que esses dados sejam coletados com precisão.
+O relatório Plug-ins mostra como os visitantes interagem com plug-ins de redes sociais incorporados no site. É necessária uma implementação adicional para uso na Analysis Workspace. A Adobe recomenda trabalhar com um consultor de implementação para garantir que esses dados sejam coletados com precisão.
 
 ### Social - Fluxo de usuários
 
