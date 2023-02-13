@@ -4,9 +4,9 @@ description: Preencha manualmente a dimensão “CEP” se as configurações do
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ A variável `zip` permite preencher manualmente a dimensão “CEP” se a [!UIC
 >
 >Verifique se a [!UICONTROL Opção de CEP] nas configurações do conjunto de relatórios está definida com o valor desejado. Não é possível usar essa variável se o [!UICONTROL CEP] for sempre usado. Consulte [Configurações gerais da conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) no Guia do usuário de administração para obter mais informações.
 
-## Zip usando a extensão Adobe Analytics
+## Zip usando a extensão do Adobe Analytics
 
 Você pode definir o CEP ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
