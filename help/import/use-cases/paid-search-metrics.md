@@ -3,9 +3,9 @@ title: Importar métricas de pesquisa paga
 description: Etapas para configurar o Adobe Analytics para monitorar suas métricas de pesquisa paga (por exemplo, Google AdWords, MSN, Yahoo etc.) usando Fontes de dados.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ O [!UICONTROL Assistente de ativação da Fonte de dados] exibe:
 1. Clique em **[!UICONTROL Próximo]** e nomeie a fonte de dados. Este nome aparecerá no Gerenciador de fonte de dados.
 1. Aceite o contrato de serviço e clique em **[!UICONTROL Próximo]**.
 1. Selecione as três métricas padrão: [!UICONTROL Impressões], [!UICONTROL Cliques] e [!UICONTROL Custo total] e clique em **[!UICONTROL Próximo]**.
-1. Agora &quot;mapeie&quot; esta nova fonte de dados para os eventos personalizados que criamos em [Configurar eventos bem-sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
+1. Agora “mapeie” esta nova fonte de dados para os eventos personalizados que criamos em [Configurar eventos bem-sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
 
    ![Mapeamento](assets/data-source-mapping.png)
 
@@ -117,7 +117,7 @@ Retorne ao assistente da Fonte de dados para obter instruções e faça upload d
 
 Adicionar métricas calculadas será útil ao tomar decisões de pagamento por clique.
 
-Por exemplo, você poderia adicionar estas [métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics):
+Por exemplo, você poderia adicionar estas [métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=pt-BR#calculated-metrics):
 
 | Nome | Fórmula | Tipo de métrica | Descrição |
 | --- | --- | --- | --- |
