@@ -1,13 +1,13 @@
 ---
 description: Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As classificações também são suportadas, caso você as tenha definido.
-title: Métricas e dimensões em tempo real compatíveis (administração)
+title: Métricas e dimensões em tempo real compatíveis  (administração)
 feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,4 +45,4 @@ Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As c
 * Link Personalizado
 * Download de arquivo
 * Link de saída
-* Variáveis de Custom Insights (props) 1-75 (se habilitado no conjunto de relatórios)
+* Variáveis de Insight personalizado (props) 1-75 (se habilitado no conjunto de relatórios)
