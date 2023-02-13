@@ -4,9 +4,9 @@ description: As variáveis de dados de contexto permitem definir variáveis pers
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ As variáveis de dados de contexto são úteis para as equipes de desenvolviment
 
 ## Variáveis de dados de contexto que usam o SDK da Web
 
-Se um campo XDM não estiver [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR), ela é incluída automaticamente como uma variável de dados de contexto. Em seguida, você pode usar [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para atribuir a variável de dados de contexto à variável do Analytics desejada.
+Se um campo XDM não estiver [mapeado para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR), ele é incluído automaticamente como uma variável de dados de contexto. Em seguida, você pode usar [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para atribuir a variável de dados de contexto à variável do Analytics desejada.
 
-Embora seja uma prática recomendada mapear dados para os campos XDM corretos no Datastream, esse método obtém resultados semelhantes.
+Embora seja uma prática recomendada mapear dados para os campos XDM corretos no Fluxo de dados, esse método obtém resultados semelhantes.
 
-## Variáveis de dados de contexto que usam a extensão Adobe Analytics
+## Variáveis de dados de contexto que usando a extensão do Adobe Analytics
 
-A Coleta de dados do Adobe Experience Platform não tem um local dedicado para definir variáveis de dados de contexto. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+A Coleção de dados da Adobe Experience Platform não tem um local dedicado para definir variáveis de dados de contexto. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.contextData no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
