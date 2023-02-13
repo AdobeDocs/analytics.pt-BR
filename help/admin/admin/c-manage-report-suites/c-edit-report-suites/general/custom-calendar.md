@@ -4,9 +4,9 @@ title: Personalizar calendário
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ Você pode usar o calendário para definir o primeiro dia da semana e ano, ou us
 | Calendário personalizado | Oferece três formatos baseados no número de semanas em cada mês. O número de semanas em cada mês depende do primeiro dia do ano selecionado.  Um ano possui 52 semanas. Divida esse valor por 4 trimestres e você terá 13 semanas por trimestre. Mas há 3 meses em um trimestre. O número 13 não é divisível por três, dessa forma você acaba colocando uma semana extra em um dos meses, de forma que seja sempre consistente.<ul><li>5/4/4 significa que o primeiro mês do trimestre recebe a semana extra. 4/5/4 significa que o segundo mês do trimestre recebe a semana extra, etc. No calendário 5-4-4, a 53ª semana é adicionada ao último trimestre do ano.</li><li>4-5-4: janeiro possui quatro semanas, fevereiro cinco, março quatro e assim por diante.</li><li>4-4-5: janeiro possui quatro semanas, fevereiro quatro, março cinco e assim por diante.</li><li>5-4-4: janeiro tem cinco semanas, fevereiro tem quatro, março tem quatro, e assim em diante.</li></ul> |
 
 >[!NOTE]
->Essas opções de calendário são compatíveis com todas as ferramentas do Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map), exceto o Data Warehouse. A Data Warehouse suporta totalmente apenas o calendário gregoriano. Ao escolher um calendário não gregoriano, o Data Warehouse usará o intervalo de datas esperado do calendário não gregoriano, no entanto, os detalhamentos de dia/semana/mês nas linhas do relatório podem não ser o esperado de um calendário não gregoriano.
+>Essas opções de calendário são compatíveis com todas as ferramentas do Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map), exceto o Data Warehouse. Data Warehouse oferece suporte total apenas ao calendário gregoriano. Ao escolher um calendário não gregoriano, o Data Warehouse usará o intervalo de datas esperado do calendário não gregoriano, no entanto, os detalhamentos de dia/semana/mês nas linhas do relatório podem não ser o esperado de um calendário não gregoriano.
