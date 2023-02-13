@@ -5,9 +5,9 @@ title: Visão geral das regras de processamento
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -60,4 +60,4 @@ Consulte [Copiar uma variável de dados de contexto para um eVar](/help/admin/ad
 
 ## Limitações conhecidas
 
-**Uso de quilates (^) nas regras de processamento.** Se você quiser usar quilates nas regras de processamento como delimitadores ou para outros fins, cada carrinho deve ser representado por dois quilates. Por exemplo, representar um único carro como ^^, um carro duplo como ^^^, etc.
+**Uso de quilates (^) nas regras de processamento.** Se você quiser usar quilates nas regras de processamento como delimitadores ou para outros fins, cada quilate deve ser representado por dois quilates. Por exemplo, representar um único quilate como ^^, um quilate duplo como ^^^, etc.
