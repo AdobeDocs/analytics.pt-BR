@@ -4,9 +4,9 @@ description: Configure as tags para ler a partir da camada de dados.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Depois que sua organização tiver estabelecido e implementado uma camada de dad
 
 ## Usar tags para criar elementos de dados
 
-[Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=pt-BR) são componentes na Coleta de dados do Adobe Experience Platform que podem ser usados na ferramenta. Você pode atribuir valores variáveis na extensão do Adobe Analytics usando elementos de dados.
+[Elementos de dados](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=pt-BR) são componentes na Coleção de dados da Adobe Experience Platform que você pode usar na ferramenta. Você pode atribuir valores variáveis na extensão do Adobe Analytics usando elementos de dados.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Clique na guia **[!UICONTROL Elementos de dados]** e, em seguida, clique em **[!UICONTROL Adicionar elemento de dados]**.
 
