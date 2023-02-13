@@ -4,9 +4,9 @@ description: Saiba como as medidas de prevenção de rastreamento afetam cookies
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1981'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Este documento explica como as principais medidas de prevenção de rastreamento
 ## Como os navegadores limitam o uso de cookies?
 
 >[!NOTE]
->[O Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) e o [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) podem unir cookies usando uma ID de pessoa, como uma ID de logon com hash, se disponível.
+>[O Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=pt-BR#cda) e o [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR#comparing-cja-to-traditional-adobe-analytics) podem unir cookies usando uma ID de pessoa, como uma ID de logon com hash, se disponível.
 
 ### Limitações de cookies de terceiros
 
@@ -51,9 +51,9 @@ As políticas da ITP estão em constante evolução. Para obter as políticas ma
 
 Todos os cookies primários definidos pela Adobe e as bibliotecas JavaScript relacionadas são afetados pelas políticas de ITP:
 
-* [Cookies &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)definidos pela biblioteca do serviço Adobe Experience Cloud Visitor ID (ECID)
+* [Cookies &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR)definidos pela biblioteca do serviço Adobe Experience Cloud Visitor ID (ECID)
 * O cookie herdado [&quot;s_vi&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) do Analytics quando configurado com a coleção de dados primários usando um CNAME
-* O cookie herdado [&quot;s_fid&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) do Analytics, que é o cookie de fallback usado quando &quot;s_vi&quot; não pode ser definido
+* O cookie herdado [&quot;s_fid&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) do Analytics, que é o cookie de fallback usado quando &quot;s_vi&quot; não pode ser definido
 
 #### Qual é o impacto da ITP no Safari para o Analytics?
 
@@ -74,7 +74,7 @@ Se essas limitações afetarem seus dados, você verá:
 
 Os cookies de terceiros não são criados por sites visitados pelos usuários.
 
-Embora atualmente os navegadores tratem todos os cookies de terceiros da mesma forma e os armazenem de acordo, os cookies de terceiros podem se comportar de maneiras diferentes. Com a implementação de cookies de terceiros do Analytics, os navegadores armazenam a Adobe ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=pt-BR) como um cookie de terceiros, mas o cliente faz chamadas somente para a Adobe e não para domínios desconhecidos ou suspeitos de terceiros. Este cookie fornece identificadores persistentes entre domínios e permite conteúdo protegido (https). Para obter mais informações, consulte [Cookies e o Serviço de identidade da Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Embora atualmente os navegadores tratem todos os cookies de terceiros da mesma forma e os armazenem de acordo, os cookies de terceiros podem se comportar de maneiras diferentes. Com a implementação de cookies de terceiros do Analytics, os navegadores armazenam a Adobe ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=pt-BR) como um cookie de terceiros, mas o cliente faz chamadas somente para a Adobe e não para domínios desconhecidos ou suspeitos de terceiros. Este cookie fornece identificadores persistentes entre domínios e permite conteúdo protegido (https). Para obter mais informações, consulte [Cookies e o Serviço de identidade da Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR).
 
 Nas implementações do Analytics, os cookies de terceiros são usados para rastreamento entre domínios e para casos de uso de anúncios, incluindo anúncios de redirecionamento. Os cookies de terceiros permitem identificar os visitantes à medida que eles visitam domínios diferentes de sua propriedade ou à medida que veem anúncios em sites que não são seus.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
