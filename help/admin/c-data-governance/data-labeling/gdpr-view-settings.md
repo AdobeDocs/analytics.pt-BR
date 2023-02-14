@@ -3,7 +3,7 @@ description: A caixa de diálogo Rotulagem de privacidade para governança de da
 title: Exibir/gerenciar a rotulagem de privacidade para a governança de dados
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 75%
@@ -17,15 +17,15 @@ A caixa de diálogo **[!UICONTROL Rotulagem de privacidade para governança de d
 ## Exibir rótulos de privacidade {#view-privacy}
 
 1. Faça logon na Adobe Experience Cloud.
-1. Navegue  **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configuração e coleção de dados]** > **[!UICONTROL Governança de dados]**.
+2. Navegue  **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configuração e coleção de dados]** > **[!UICONTROL Governança de dados]**.
 
    >[!NOTE]
    >
    >Se não puder ver esse item de menu, você precisará ser adicionado a um [perfil de produto no Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=pt-BR) com permissões para essa funcionalidade.
 
-1. Na parte superior direita, selecione um conjunto de relatórios cujos rótulos de privacidade você deseja visualizar ou gerenciar.
+3. Na parte superior direita, selecione um conjunto de relatórios cujos rótulos de privacidade você deseja visualizar ou gerenciar.
 
-   ![](assets/privacy_labeling.png)
+![](assets/privacy_labeling.png)
 
 | Configuração | Descrição |
 | --- | --- |

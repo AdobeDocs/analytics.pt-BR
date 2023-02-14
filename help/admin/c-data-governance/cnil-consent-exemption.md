@@ -3,7 +3,7 @@ description: Saiba mais sobre as diretrizes e recomendações para o consentimen
 title: Quais são as diretrizes da CNIL para consentimento e cookies do usuário?
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 75%
@@ -46,3 +46,4 @@ As seguintes considerações adicionais são aplicáveis:
 
 
 Para obter mais informações, consulte o site [Isenção de cookies da CNIL](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications).
+

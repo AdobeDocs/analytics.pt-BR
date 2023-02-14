@@ -3,7 +3,7 @@ title: Política de retenção de dados
 description: Uma política de retenção de dados determina por quanto tempo a Adobe armazena os dados.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
@@ -54,3 +54,4 @@ Sim. A Adobe pode fornecer um despejo de dados históricos de dados brutos em n�
 **Quando a Adobe exclui dados?**
 
 Entre em contato com o gerente de conta da organização para obter o horário específico agendado para a exclusão de seus dados. Normalmente, os dados são eliminados mensalmente.
+
