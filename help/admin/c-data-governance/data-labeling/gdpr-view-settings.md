@@ -3,21 +3,21 @@ description: A caixa de diálogo Rotulagem de privacidade para governança de da
 title: Exibir/gerenciar a rotulagem de privacidade para a governança de dados
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
+source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 41%
+source-wordcount: '867'
+ht-degree: 75%
 
 ---
 
 # Exibir/gerenciar a rotulagem de privacidade para a governança de dados
 
-O **[!UICONTROL Rótulo de privacidade para governança de dados]** fornece uma visão geral dos rótulos de privacidade e namespaces de um conjunto de relatórios. Também é possível exportar as configurações para um arquivo .csv a partir daqui.
+A caixa de diálogo **[!UICONTROL Rotulagem de privacidade para governança de dados]** fornece uma visão geral dos rótulos e namespaces de privacidade de um conjunto de relatórios. Também é possível exportar as configurações para um arquivo .csv a partir daqui.
 
 ## Exibir rótulos de privacidade {#view-privacy}
 
 1. Faça logon na Adobe Experience Cloud.
-1. Navegar para **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configuração e coleta de dados]** > **[!UICONTROL Governança de dados]**.
+1. Navegue  **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configuração e coleção de dados]** > **[!UICONTROL Governança de dados]**.
 
    >[!NOTE]
    >
@@ -30,11 +30,11 @@ O **[!UICONTROL Rótulo de privacidade para governança de dados]** fornece uma 
 | Configuração | Descrição |
 | --- | --- |
 | **[!UICONTROL Nome do componente]** | Essa coluna lista todos os componentes (dimensões, métricas) que fazem parte desse conjunto de relatórios. |
-| **[!UICONTROL Identidade]** | Os rótulos “I” de dados de identidade são usados para classificar dados que podem identificar ou permitir o contato com uma pessoa específica. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#identity-data-labels) |
-| **[!UICONTROL Sensibilidade]** | Os rótulos “S” de dados sensíveis são usados para classificar dados sensíveis, como dados geográficos. Os rótulos de Dados confidenciais adicionais serão introduzidos no futuro para identificar outros tipos de informações confidenciais. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#sensitive-data-labels) |
-| **[!UICONTROL Acesso ao RGPD]** | Os rótulos de Governança de dados oferecem aos usuários a capacidade de classificar dados que refletem considerações relativas à privacidade e às condições contratuais para manter a conformidade com os regulamentos e as políticas corporativas. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-access-labels) |
-| **[!UICONTROL Exclusão do RGPD]** | Um rótulo Excluir é necessário somente para campos que contêm um valor que permitiria que uma ocorrência fosse associada ao Titular de dados (ou seja, que permitiria a identificação do Titular de dados). [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
-| **[!UICONTROL Namespace]** | Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solicitação para fornecer um namespace. Você pode usar um namespace definido anteriormente ou definir um novo. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#section_F0A47AF8DA384A26BD56032D0ABFD2D7) |
+| **[!UICONTROL Identidade]** | Os rótulos “I” de dados de identidade são usados para classificar dados que podem identificar ou permitir o contato com uma pessoa específica. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
+| **[!UICONTROL Sensibilidade]** | Os rótulos “S” de dados sensíveis são usados para classificar dados sensíveis, como dados geográficos. Os rótulos de Dados confidenciais adicionais serão introduzidos no futuro para identificar outros tipos de informações confidenciais. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
+| **[!UICONTROL Acesso ao GDPR]** | Os rótulos de Governança de dados oferecem aos usuários a capacidade de classificar dados que refletem considerações relativas à privacidade e às condições contratuais para manter a conformidade com os regulamentos e as políticas corporativas. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
+| **[!UICONTROL Exclusão do GDPR]** | Um rótulo Excluir é necessário somente para campos que contêm um valor que permitiria que uma ocorrência fosse associada ao Titular de dados (ou seja, que permitiria a identificação do Titular de dados). [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
+| **[!UICONTROL Namespace]** | Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solicitação para fornecer um namespace. Você pode usar um namespace definido anteriormente ou definir um novo. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
 | **[!UICONTROL Categoria]** | Refere o tipo de componente, como Componente padrão, Variável de conversão etc. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -43,7 +43,7 @@ O **[!UICONTROL Rótulo de privacidade para governança de dados]** fornece uma 
 
 Se desejar aplicar as mesmas configurações de Privacidade de dados a mais de um conjunto de relatórios, siga estas etapas:
 
-1. Selecione a variável que deseja copiar. Observe que você só pode copiar os rótulos de uma variável de cada vez.
+1. Selecione a variável que deseja copiar. Observe que você só pode copiar os rótulos de uma variável por vez.
 1. Clique em **[!UICONTROL Copiar para os conjuntos de relatórios]** na parte inferior da caixa de diálogo Governança de dados.
 
    ![Copiar para o conjunto de relatórios](assets/copy_to_reportsuite.png)
@@ -73,7 +73,7 @@ Se desejar aplicar as mesmas configurações de Privacidade de dados a mais de u
 
 ## Exportar para um arquivo .csv {#export-csv}
 
-É possível baixar um arquivo CSV contendo todas as definições de rótulo atuais para todas as variáveis do(s) conjunto(s) de relatórios selecionado(s). Recomendamos que a sua equipe jurídica analise as escolhas de rotulagem e essa opção facilita a análise. Em vez de precisar executar a análise enquanto estiver conectado à interface do usuário na Governança de dados, você pode compartilhar o arquivo CSV com a equipe.
+É possível baixar um arquivo CSV contendo todas as definições de rótulo atuais para todas as variáveis do(s) conjunto(s) de relatórios selecionado(s). Recomendamos que sua equipe jurídica analise suas escolhas de rotulagem e essa opção facilita essa revisão. Em vez de precisar executar a análise enquanto estiver conectado à interface do usuário na Governança de dados, você pode compartilhar o arquivo CSV com a equipe.
 
 1. Clique em **[!UICONTROL Exportar CSV]** na parte superior direita e essa caixa de diálogo é exibida:
 
