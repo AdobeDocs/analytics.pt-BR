@@ -3,16 +3,16 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1bb989f3a7e1367ddc1cc2d88bcde9aa680ff963
+source-git-commit: 7c05a3364b1f1b7abaf7ac3c97edb5e590781ec3
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 48%
+source-wordcount: '1053'
+ht-degree: 50%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (Fevereiro de 2023)
 
-**Última atualização**: 13 de fevereiro de 2023
+**Última atualização**: 9 de fevereiro de 2023
 
 As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -44,7 +44,6 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 
 | Fim da vida útil do produto ou recurso | Data de adição ou atualização | Descrição |
 | --- | --- | --- |
-| **EOL do serviço de rastreamento de telefone de recursos japoneses** | 13 de fevereiro de 2023 | Somente para nossos clientes japoneses: No final de maio de 2023, o serviço de Rastreamento de telefone em recursos japoneses (mod_ktrack) será descontinuado. Pedimos desculpas pelo incômodo, mas pedimos que você desinstale ou desative os módulos instalados em seu servidor Apache. Veja as páginas 27 e 28 pol. [este documento](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) para referência. |
 | **EOL de alguns recursos de Reports &amp; Analytics e agendamento de Report Builder** | 9 de fevereiro de 2023 | Os seguintes recursos de agendamento foram encerrados em 31 de janeiro de 2023:<ul><li>A opção &quot;terminar após x ocorrências&quot; para tarefas por hora no Report Builder</li><li>A capacidade de agendar novos relatórios e baixar extrações de dados no Reports and Analytics</li></ul><p>**Observação**: Inicialmente, encerramos esses recursos em abril de 2022, mas revertemos a mudança. Também enviamos uma notificação de que esses recursos estavam sendo restaurados temporariamente e que seriam rescindidos em 31 de janeiro de 2023. |
 | **Fim da vida útil do recurso de [!UICONTROL Listas de publicação]** | 29 de setembro de 2022 | Como parte do fim da vida útil do Reports &amp; Analytics, as listas de publicação estão programadas para serem descontinuadas em **dezembro de 2023**. Você não poderá criar novas listas de publicação ou acessar listas de publicação existentes para enviar ou agendar projetos do Analysis Workspace. |
 | **Fim da vida útil do Data Workbench** | 14 de setembro de 2022 | Adobe pretende encerrar a vida útil do Data Workbench em **31 de dezembro de 2023**. Consulte [Anúncio do fim da vida útil do Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) para obter detalhes. Entre em contato com o Gerente de conta da Adobe da sua organização se tiver dúvidas. |
