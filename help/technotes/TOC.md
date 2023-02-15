@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notas técnicas do Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Navegue em uma knowledge base que contém artigos úteis que não pertencem a uma ferramenta ou componente específico do Analytics.
-source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 98%
+source-wordcount: '243'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,18 @@ ht-degree: 98%
    + [Opções para atenuar o efeito das limitações de cookies do navegador](cookies/cookieless.md)
 + [Retenção de dados](data-retention.md)
 + [Excluir dados](exclude-data.md)
++ Governança de dados {#data-governance}
+   + [Fluxo de trabalho de Privacidade de dados do Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
+   + [Perguntas frequentes](c-data-governance/gdpr-faq.md)
+   + Rotulação de dados {#data-labels}
+      + [Rótulos de privacidade de dados para componentes do Analytics](c-data-governance/data-labeling/gdpr-labels.md)
+      + [Rotular dados do conjunto de relatórios](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [Exibir/gerenciar rótulos de privacidade do conjunto de relatórios](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [Práticas recomendadas de rotulagem](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [Exemplo de rotulagem](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
+   + [Expansão de ID](c-data-governance/gdpr-id-expansion.md)
+   + [Isenção de consentimento da CNIL](c-data-governance/cnil-consent-exemption.md)
 + [IPs e domínios usados pelo Adobe Analytics](ip-addresses.md)
 + [Latência](latency.md)
 + [Valor de tráfego baixo](low-traffic.md)
@@ -55,7 +67,7 @@ ht-degree: 98%
 + Coleta de dados regionais {#rdc}
    + [Ajuda da Coleta de dados regional](rdc/regional-data-collection.md)
    + [Licenciamento de certificação SSL](rdc/ssl-cert-licensing.md)
-   + [Algoritmos de criptografia HTTPS suportados](rdc/encryption-algos.md)
+   + [Algoritmos de criptografia HTTPS aceitos](rdc/encryption-algos.md)
 + [Recursos de segurança](security.md)
 + [Termos usados (glossário)](terms.md)
 + [Carimbos opcionais de data e hora](timestamps-optional.md)

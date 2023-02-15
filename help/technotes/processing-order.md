@@ -2,7 +2,7 @@
 title: Ordem de processamento dos dados no Adobe Analytics
 description: Saiba a ordem dos componentes e serviços que processam dados no Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
@@ -45,6 +45,6 @@ Nesse ponto, a ocorrência individual é registrada nas tabelas de dados do conj
 Os dados no Adobe Analytics são em sua maioria permanentes; no entanto, há alguns recursos que podem permitir o ajuste ou a remoção seletiva de dados:
 
 * [**API de reparo de dados**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): edite determinadas colunas ou exclua as linhas de dados desejadas.
-* [**Governança de dados**](/help/admin/c-data-governance/an-gdpr-workflow.md): acomode solicitações de privacidade para excluir dados permanentemente.
+* [**Governança de dados**](/help/technotes/c-data-governance/an-gdpr-workflow.md): acomode solicitações de privacidade para excluir dados permanentemente.
 * [**Classificações**](/help/components/classifications/c-classifications.md): crie dimensões com base em regras ou dados carregados que permitem organizar os dados de forma diferente. Os dados subjacentes do conjunto de relatórios não são alterados, portanto, é possível editar ou substituir livremente os dados de classificação.
 * [**Conjuntos de relatórios virtuais**](/help/components/vrs/vrs-about.md): crie uma visualização alternativa do conjunto de relatórios que possa alterar o tempo limite da visita ou permitir [Análise entre dispositivos](/help/components/cda/overview.md).

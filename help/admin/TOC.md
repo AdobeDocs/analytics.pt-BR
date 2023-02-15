@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 94%
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -156,24 +156,12 @@ ht-degree: 94%
       + [Alertas de uso de chamadas do servidor](admin/c-server-call-usage/scu-alerts.md)
       + [Perguntas frequentes sobre o uso de chamadas do servidor](admin/c-server-call-usage/overage-faq.md)
    + Gerenciamento de usuários e produtos (herdado) {#user-product-management}
-      + [Gerenciamento de usuários e produtos (Herdado)](admin/user-management2/user-management.md)
+      + [Gerenciamento de usuários e produtos  (Legado)](admin/user-management2/user-management.md)
       + Migrar usuários para o Adobe Admin Console {#migrate-users}
          + [Migração de usuários do Analytics para o Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migrar contas de usuário do Analytics para Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)
          + [Migrar contas de usuário do Analytics para Enterprise e Federated IDs](admin/user-management2/user-migration/migrate-enterprise.md)
          + [Desabilitar logons herdados](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [APIs afetadas pela migração](admin/user-management2/user-migration/developer.md)
-+ Governança de dados {#data-governance}
-   + [Fluxo de trabalho de Privacidade de dados do Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Perguntas frequentes](c-data-governance/gdpr-faq.md)
-   + Rotulação de dados {#data-labels}
-      + [Rótulos de privacidade de dados para componentes do Analytics](c-data-governance/data-labeling/gdpr-labels.md)
-      + [Rotular dados do conjunto de relatórios](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [Exibir/gerenciar rótulos de privacidade do conjunto de relatórios](c-data-governance/data-labeling/gdpr-view-settings.md)
-      + [Práticas recomendadas de rotulagem](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-      + [Exemplo de rotulagem](c-data-governance/data-labeling/gdpr-labeling-example.md)
-      + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [Expansão de ID](c-data-governance/gdpr-id-expansion.md)
-   + [Isenção de consentimento da CNIL](c-data-governance/cnil-consent-exemption.md)
 + [API de administração](c-admin-api/c-admin-api.md)
 
