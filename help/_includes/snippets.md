@@ -1,8 +1,8 @@
 ---
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: df0d2c4687117fd00714ced56db6259e44698a20
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 16%
+source-wordcount: '751'
+ht-degree: 15%
 
 ---
 # Trechos
@@ -38,7 +38,8 @@ ht-degree: 16%
 
 | Opção | Função |
 |---------|----------|
-| [!UICONTROL **Aprovado**] | Indica que o componente foi revisado e aprovado pelo administrador. Os administradores veem um [!UICONTROL **Aprovação necessária**] para componentes não aprovados. Selecionar essa opção marca como Aprovado. |
+| [!UICONTROL **Aprovado**] | <p>Indica que o componente foi revisado e aprovado pelo administrador.</p><p>Os administradores veem uma opção para [!UICONTROL **Cancelar aprovação**]. Selecionar essa opção marca o componente como &quot;Não aprovado&quot; para os usuários.</p> |
+| [!UICONTROL **Não aprovado**] | <p>Indica que o componente ainda não foi revisado e aprovado pelo administrador.</p><p>Os administradores veem uma opção para [!UICONTROL **Aprovar**]. Selecionar essa opção marca o componente como &quot;Aprovado&quot; para os usuários.</p> |
 | [!UICONTROL **Descrição**] | Descreve a função pretendida do componente. (Essas informações são adicionadas pelo administrador do Analytics, conforme descrito em [Adicionar descrições de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
 | [!UICONTROL **Frequentemente usado com**] | <p>Mostra os componentes mais usados com o componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: Métrica, Métrica calculada, Dimension, Segmento e Intervalo de datas.</p><p>Esta lista é baseada em dados dos últimos 90 dias. Somente os componentes que você tem acesso para exibir são mostrados. <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **Semelhante a**] | <p>Mostra componentes com rótulos semelhantes ao componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: Métrica, Métrica calculada, Dimension, Segmento e Intervalo de datas.</p><p>Somente os componentes que você tem acesso para exibir são mostrados.</p><p>Todos os componentes duplicados em seu conjunto de relatórios serão exibidos aqui. Os administradores do Analytics devem identificar e remover todos os componentes duplicados, conforme descrito em [Monitorar integridade do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
