@@ -4,10 +4,10 @@ title: Gerenciamento de mídia
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
+source-git-commit: 6ddbf0821951e71d7323343104720fe60551dacb
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 5%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -17,4 +17,14 @@ Você pode ativar a mídia no Analytics para reservar um conjunto especial de Va
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Gerenciamento de mídia]**.
 
-Para obter mais informações, consulte o [Guia do Adobe Analytics para mídia de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).
+As seguintes opções de Gerenciamento de mídia estão disponíveis ao editar um conjunto de relatórios:
+
+* [!UICONTROL **Relatórios de mídia**]
+
+   Os relatórios específicos da Mídia de transmissão estão disponíveis na página Relatórios de mídia . Para obter mais informações sobre relatórios de mídia, consulte [Ativação de relatórios de mídia](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en).
+
+* [!UICONTROL **Classificações de mídia**]
+
+   As classificações específicas para mídia de transmissão estão disponíveis na página Classificações de mídia . Para obter informações sobre classificações, consulte [Classificações de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+
+Para obter informações gerais sobre o Streaming Media Analytics, consulte [Guia do Adobe Analytics para mídia de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).
