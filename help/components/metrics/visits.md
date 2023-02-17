@@ -3,10 +3,10 @@ title: Visitas
 description: Uma sequência de exibições da página em uma sessão.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: ceee6f27581abc288ff08134218ae7f6b93e9201
+workflow-type: tm+mt
+source-wordcount: '658'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ A visita é sempre associada a um período para que você saiba quando contar um
 * **30 minutos de inatividade:** quase todas as seções se encerram dessa maneira. Se houver mais de 30 minutos entre as ocorrências, uma nova visita será iniciada.
 * **12 horas de atividade**: se um usuário enviar solicitações de imagem de forma consistente sem intervalos de 30 minutos por mais de 12 horas, uma nova visita é iniciada automaticamente.
 * **2500 ocorrências:** se um usuário gerar um número grande de ocorrências sem iniciar uma nova sessão, uma nova visita é contabilizada após 2500 solicitações de imagem.
-* **100 ocorrências em 100 segundos**: se uma visita consistir em mais de 100 ocorrências que acontecem em menos de 100 segundos, a visita se encerra automaticamente. Esse comportamento normalmente indica atividade de bot e essa limitação é imposta para ajudar a aumentar o desempenho do relatório.
+* **100 ocorrências em 100 segundos**: Se uma visita tiver mais de 100 ocorrências que ocorrem nos primeiros 100 segundos da visita, a visita se encerra automaticamente. Esse comportamento normalmente indica atividade de bot e essa limitação é imposta para ajudar a aumentar o desempenho do relatório.
 
 Uma visita não necessariamente coincide com uma sessão do navegador devido aos critérios acima. Uma das diferenças mais comuns é quando um visitante navega no seu site, deixa a guia aberta por mais de 30 minutos e depois retoma a navegação. Embora essa ação seja tecnicamente parte da mesma sessão de navegação, a Adobe considera essa ação duas visitas separadas.
 
