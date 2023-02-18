@@ -3,16 +3,18 @@ title: Código de rastreamento
 description: O nome do código de rastreamento ou da campanha.
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 91%
 
 ---
 
 # Código de rastreamento
 
-A dimensão “Código de rastreamento” lista os nomes dos códigos de rastreamento no site. Normalmente, essa dimensão é coletada usando parâmetros de sequência de consulta. Você pode colocar links com diferentes valores de parâmetro de sequência de consulta em diferentes lugares na Internet. Esta dimensão relata quais links foram os mais bem-sucedidos ao direcionar o tráfego para o site.
+A dimensão “Código de rastreamento” lista os nomes dos códigos de rastreamento no site. Você pode colocar links com diferentes valores de parâmetro de sequência de consulta em diferentes lugares na Internet. Essa dimensão ajuda você a entender quais links foram os mais bem-sucedidos ao direcionar o tráfego para o site.
+
+Anexar cadeias de caracteres de consulta do código de rastreamento são comuns em emails, anúncios, postagens de redes sociais e outros esforços de marketing que sua organização usa.
 
 ## Preencher esta dimensão com dados
 
@@ -20,7 +22,7 @@ Essa dimensão recupera dados da [`v0` sequência de consulta](/help/implement/v
 
 ## Itens de dimensão
 
-Os itens de dimensão incluem os nomes dos códigos de rastreamento no site. A organização escolhe quais itens de dimensão específicos quer utilizar.
+Os itens de dimensão incluem os nomes dos códigos de rastreamento no site. A organização escolhe quais itens de dimensão específicos quer utilizar. Consulte [Rastreamento de campanha](/help/implement/use-cases/campaign-tracking.md) para obter mais informações.
 
 ## Compare a dimensão Código de rastreamento com Canais de marketing que coletam códigos de rastreamento
 
