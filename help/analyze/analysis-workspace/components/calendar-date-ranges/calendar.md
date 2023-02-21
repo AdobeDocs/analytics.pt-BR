@@ -4,10 +4,10 @@ title: Visão geral do calendário e do intervalos de datas
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: bec3ddc1f5ccf7b4baddabb0a376ed5775318df7
+source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 51%
+source-wordcount: '863'
+ht-degree: 45%
 
 ---
 
@@ -48,7 +48,7 @@ Três casos de uso comuns em que você verá datas relativas do painel entrarem 
 Para usar intervalos de datas do painel relativo
 
 1. Selecione o **Workspace** guia .
-1. Selecionar **Projeto em branco**.
+1. Selecione **Projeto em branco**.
 1. Adicione dimensões, métricas e segmentos no painel esquerdo.
 1. Clique no campo de intervalo de datas do painel para alternar a configuração de intervalo de datas do painel relativo.
 1. Selecionar **Fazer componentes do intervalo de datas em relação ao calendário do painel**.
@@ -78,3 +78,10 @@ Ao usar um calendário personalizado com base na semana e adicionar meses ou ano
 ### Sobre segmentos que usam datas do acumulado e intervalos de datas relativos do painel {#segments-relative-dates}
 
 Se você criar um segmento ou usar um segmento com uma data do acumulado, por exemplo, os Últimos 7 dias ou as Últimas 2 semanas, e clicar na visualização do segmento, a data do acumulado será iniciada a partir de *Hoje* em vez da data de início do painel. Como resultado, a visualização do segmento não corresponderá quando você realmente usar o segmento na tabela. A visualização é afetada, não o segmento propriamente dito.
+
+## Diretrizes para intervalos de datas e visualizações do painel {#guidelines-panel-dates}
+
+* A partir da versão de fevereiro, as visualizações de componentes e dados serão baseadas no intervalo de datas do painel e não nos últimos 90 dias.
+* Todos os componentes listados no painel esquerdo estarão disponíveis com base no intervalo de datas do painel.
+* Todas as visualizações de data no segmento e construtores de métrica calculada serão baseadas no intervalo de datas do painel (a menos que sejam acessadas pelos gerentes de componente, que não têm um painel associado, elas ainda serão baseadas nos últimos 90 dias).
+* Quaisquer visualizações de dados exibirão dados ou componentes com base no intervalo de datas do painel.
