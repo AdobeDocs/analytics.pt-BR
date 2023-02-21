@@ -2,10 +2,10 @@
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
+source-git-commit: 66c314d45c4ee4f15cc2e7d05ea248b95ff3c717
 workflow-type: tm+mt
 source-wordcount: '1247'
-ht-degree: 69%
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,9 @@ O Google divide as dicas do cliente de usuário-agente em duas categorias: dicas
 
 * As dicas de **alta entropia** contêm informações mais detalhadas. Essas dicas estão disponíveis somente mediante solicitação. O AppMeasurement e o SDK da Web podem ser configurados para solicitar dicas de alta entropia. Por padrão, ambas as bibliotecas **não** solicitam dicas de alta entropia.
 
-A partir de outubro de 2022, novas versões dos navegadores Chromium começaram a &quot;congelar&quot; a versão do sistema operacional representada na string User-Agent. A versão do sistema operacional é uma dica de alta entropia, portanto, para manter a precisão da versão do sistema operacional em seus relatórios, é necessário configurar a biblioteca de coleção para coletar essas dicas de alta entropia. Com o tempo, outras informações do dispositivo do usuário-agente serão congeladas, o que exigirá que as dicas do cliente mantenham a precisão do relatório do dispositivo.
+A partir de outubro de 2022, novas versões dos navegadores Chromium iniciaram o “congelamento” da versão do sistema operacional representada na string do usuário-agente. A versão do sistema operacional é uma dica de alta entropia, portanto, para manter a precisão da versão do sistema operacional em seus relatórios, é necessário configurar a biblioteca de coleção para coletar essas dicas de alta entropia. Com o tempo, outras informações do dispositivo do usuário-agente serão congeladas, o que exigirá que as dicas do cliente mantenham a precisão do relatório do dispositivo.
 
-As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics a partir de 16 de fevereiro de 2023. Atualmente, o AppMeasurement e o SDK da Web oferecem suporte à coleta de dados de dicas, mas não serão usados na pesquisa do dispositivo até meados de fevereiro. Conforme observado abaixo, a versão do sistema operacional foi congelada a partir de outubro, mas devido a um lançamento gradual e ao fato de muitos agentes de usuário já fornecerem uma versão do sistema operacional congelada (consulte mais [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR)), estimamos que isso afetará &lt;3% dos visitantes do Chrome.
+As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics a partir de março de 2023. Atualmente, o AppMeasurement e o SDK da Web são compatíveis com a coleção de dados de dicas, mas esta não será usada na pesquisa de dispositivo até meados de fevereiro. Conforme observado abaixo, a versão do sistema operacional foi congelada a partir de outubro, mas devido a um lançamento gradual e ao fato de muitos agentes de usuário já fornecerem uma versão do sistema operacional congelada (veja mais [aqui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR)), estimamos que isso afetará &lt;3% dos visitantes do Chrome.
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ Esta [publicação do blog do Google](https://web.dev/user-agent-client-hints/) 
 
 +++**Como habilitar a coleção de dicas do cliente?**
 
-As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assimiladas para a obtenção de informações do dispositivo e do navegador. As versões mais recentes do SDK da Web (começando com a 2.12.0) e do AppMeasurement (começando com a 2.23.0) podem ser configuradas para coletar dicas de alta entropia por meio de suas respectivas extensões de Tags ou diretamente por meio de uma opção de configuração. Consulte as instruções para [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assimiladas para a obtenção de informações do dispositivo e do navegador. As versões mais recentes do SDK da Web (começando com a 2.12.0) e do AppMeasurement (começando com a 2.23.0) podem ser configuradas para coletar dicas de alta entropia por meio de suas respectivas extensões de Tags ou diretamente por meio de uma opção de configuração. Consulte as instruções para o [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR#enabling-high-entropy-client-hints) e o [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=pt-BR).
 
 Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativada por padrão**.
 
-Para dados enviados por API, como via [API de inserção de dados](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou [API de inserção de dados em massa](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), as dicas devem ser incluídas explicitamente na carga. Consulte a respectiva documentação para obter detalhes.
+Para dados enviados por API, como a [API de inserção de dados](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou a [API de inserção de dados em massa](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=pt-BR), as dicas devem ser incluídas explicitamente na carga. Consulte a documentação respectiva para obter mais detalhes.
 
 +++
 
@@ -74,7 +74,7 @@ A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 * As dicas de baixa entropia são coletadas por meio do cabeçalho da solicitação.
 * As dicas de alta entropia são coletadas por meio do JavaScript e passadas pelos valores de parâmetro da string de consulta. Os parâmetros da cadeia de caracteres de consulta usam `h.` como um prefixo na solicitação de imagem.
 
-Dicas de alta entropia são coletadas por meio da chamada do JavaScript e passadas pelo parâmetro de consulta
+Dicas de alta entropia são coletadas por meio da chamada do JavaScript e transmitidas pelo parâmetro de consulta
 
 +++
 
@@ -88,11 +88,11 @@ Os campos de dispositivo disponíveis para relatório não serão alterados. Os 
 
 Esses campos são obtidos diretamente do usuário-agente, mas o usuário-agente pode ser usado para ajudar a obter valores para outros campos relacionados ao dispositivo, dependendo dos detalhes do dispositivo.
 
-* [Navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
-* [Tipo de navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
-* [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
-* [Tipos de sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
-* [Dispositivo móvel e tipo de dispositivo móvel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
+* [Navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=pt-BR)
+* [Tipo de navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=pt-BR)
+* [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR)
+* [Tipos de sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=pt-BR)
+* [Dispositivo móvel e tipo de dispositivo móvel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=pt-BR)
 
 +++
 
@@ -106,7 +106,7 @@ Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021
 
 As informações do dispositivo no relatório são derivadas do Agente do usuário. Atualizamos nossos processos para usar o Agente do usuário e as dicas do cliente, quando disponíveis.
 
-A ID de fallback ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) é derivado do Agente do usuário e do Endereço IP. Essa ID é usada somente se não for possível definir um cookie, portanto, não é amplamente usada
+A ID de fallback ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=pt-BR)) é derivada do Agente do usuário e do Endereço IP. Essa ID é usada somente se não for possível definir um cookie, portanto, não é amplamente usada
 
 +++
 
@@ -120,7 +120,7 @@ Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021
 
 +++**Como a Adobe usará as dicas do cliente para obter informações do dispositivo?**
 
-O Adobe usa um Atlas de dispositivo de terceiros, que usará as dicas do cliente e o Agente do usuário para obter informações do dispositivo.
+A Adobe utiliza um terceiro, o Device Atlas, que usará as dicas do cliente e o usuário-agente para obter informações do dispositivo.
 
 +++
 
