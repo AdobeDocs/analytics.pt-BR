@@ -3,36 +3,16 @@ description: Perguntas frequentes sobre o gerenciamento de segmentos herdados.
 title: Perguntas frequentes sobre segmentos herdados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
+source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
 # Perguntas frequentes sobre segmentos herdados
 
 Responde perguntas frequentes sobre práticas recomendadas para gerenciar segmentos herdados - segmentos criados antes de 2014.
-
-## Práticas recomendadas {#best-practices}
-
-+++ **O que devo fazer com segmentos duplicados que possuem o mesmo nome, mas podem ter definições diferentes?**
-Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode acabar descobrindo que possui vários segmentos com o mesmo nome. Recomendamos que você
-
-* Renomeie os segmentos com o mesmo nome, mas com diferentes definições, ou
-* Exclua os segmentos que não são mais necessários.
-
-+++
-
-+++ **O que a Adobe recomenda com relação à limpeza de segmentos?**
-
-* Marque todos os segmentos com uma tag legada.
-* Analise todos os seus segmentos.
-* Quando apropriado, adicione-os à biblioteca de segmentos.
-* Aprovar segmentos canônicos.
-* Marcar segmentos de acordo com as [práticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-
-+++
 
 ## Gerenciamento de segmentos herdados {#legacy}
 
@@ -70,7 +50,7 @@ Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/cons
 
 +++
 
-**O que aconteceu com os segmentos pré-configurados?**
++++ **O que aconteceu com os segmentos pré-configurados?**
 
 * **Visitas únicas à página**
 * **Visitas de dispositivos móveis**
@@ -98,7 +78,7 @@ Os relatórios com esses segmentos aplicados continuam a funcionar corretamente.
 
 +++
 
-+++ **O que acontece com os segmentos Admin (também conhecidos como segmentos “Globais”)?**
++++ **O que aconteceu com os segmentos Admin (também conhecidos como segmentos &quot;Globais&quot;)?**
 
 Os segmentos do **administrador** serão migrados na nova interface de segmentos e serão exibidos como segmentos compartilhados com todos.
 
@@ -110,6 +90,24 @@ Os segmentos existentes que usam lógica que foi alterada como descrito nesse do
 
 +++
 
++++ **O que devo fazer com segmentos duplicados que possuem o mesmo nome, mas podem ter definições diferentes?**
+Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode acabar descobrindo que possui vários segmentos com o mesmo nome. Recomendamos que você
+
+* Renomeie os segmentos com o mesmo nome, mas com diferentes definições, ou
+* Exclua os segmentos que não são mais necessários.
+
++++
+
++++ **O que a Adobe recomenda com relação à limpeza de segmentos?**
+
+* Marque todos os segmentos com uma tag legada.
+* Analise todos os seus segmentos.
+* Quando apropriado, adicione-os à biblioteca de segmentos.
+* Aprovar segmentos canônicos.
+* Marcar segmentos de acordo com as [práticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+
++++
+
 ### Dicas de migração
 
 As seguintes dicas ajudarão você a migrar dimensões comuns:
@@ -117,10 +115,7 @@ As seguintes dicas ajudarão você a migrar dimensões comuns:
 * Cidade/regiões/país geográfico - pesquise e selecione cidades, regiões ou países específicos em vez de usar uma correspondência parcial.
 * Navegadores - use a dimensão de Tipos de navegador para obter todos os navegadores em um tipo, por exemplo, Google Chrome
 * Sistemas operacionais - use as dimensões de Tipos de sistema operacional para obter todos os sistemas operacionais em um tipo, por exemplo, Microsoft Windows.
-
-* [Dimensões novas e renomeadas](/help/components/segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Alterações em Contém](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Alterações em Menor que e Maior que](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* Consulte &quot;Dimension novas e renomeadas&quot; (veja abaixo)
 
 ## Dimensões novas e renomeadas {#renamed}
 
