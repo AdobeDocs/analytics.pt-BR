@@ -1,12 +1,12 @@
 ---
-description: O Adobe Analytics permite construir, gerenciar, compartilhar e aplicar segmentos avançados de público-alvo em seus relatórios usando os recursos do Analytics, a Adobe Experience Cloud, o Adobe Target e outros produtos integrados da Adobe.
+description: Saiba mais sobre os diferentes contêineres de segmentação e como usá-los
 keywords: segmentação;segmentos
-title: Segmentação do Analytics
+title: Containers de segmentos
 feature: Segmentation
-source-git-commit: d361e9e97e9652acab317014aba53af49115c07c
+source-git-commit: 3569cea351a61eb79e1b8f5dad76905f8054982b
 workflow-type: tm+mt
-source-wordcount: '3139'
-ht-degree: 100%
+source-wordcount: '3120'
+ht-degree: 99%
 
 ---
 
