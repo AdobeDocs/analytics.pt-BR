@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre o gerenciamento de segmentos herdados.
 title: Perguntas frequentes sobre segmentos herdados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 92%
+source-wordcount: '1446'
+ht-degree: 91%
 
 ---
 
@@ -153,8 +153,9 @@ Dimensões com base em sequência de caracteres com conjunto de valores conhecid
 
 As seguintes dimensões foram alteradas para listas enumeradas:
 
+| Dimension name | Dimension name | Dimension name |
+| --- | --- | --- |
 | fabricante do dispositivo móvel | comprimento de email remoto | intensidade de cor |
-|---|---|---|
 | tamanho da tela do dispositivo móvel | número do dispositivo móvel | resolução do monitor |
 | altura da tela do dispositivo móvel | Push To Talk para dispositivo móvel | plugin |
 | Suporte a cookie em dispositivo móvel | Decoração de correio para dispositivo móvel | sistema operacional |
@@ -171,7 +172,7 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 
 ## Alterações nas dimensões com base em inteiro com valores conhecidos {#integer-based-dims}
 
-Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A seguinte tela demonstra como essas dimensões são segmentadas usando as interfaces do construtor de segmento anterior e novo:
+Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A tela a seguir mostra como essas dimensões são segmentadas usando as interfaces do construtor de segmento anterior e novo:
 
 ![](assets/seg_browser_dimension.png)
 
