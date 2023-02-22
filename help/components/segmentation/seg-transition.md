@@ -1,108 +1,30 @@
 ---
-description: Perguntas frequentes sobre segmentação.
-title: Perguntas frequentes sobre segmentação
+description: Perguntas frequentes sobre o gerenciamento de segmentos herdados.
+title: Perguntas frequentes sobre segmentos herdados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 99%
+source-wordcount: '1448'
+ht-degree: 94%
 
 ---
 
-# Perguntas frequentes
+# Perguntas frequentes sobre segmentos herdados
 
-Responde perguntas frequentes sobre recursos de segmentação, acesso, permissões, práticas recomendadas e gerenciamento de segmentos herdados.
+Responde perguntas frequentes sobre práticas recomendadas para gerenciar segmentos herdados - segmentos criados antes de 2014.
 
-## Recursos {#section_BD58629D1A9346BF879E229FA6BEC7A2}
+## Práticas recomendadas {#best-practices}
 
-* Segmentação na Analysis Workspace:
-
-   * Você pode [comparar segmentos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=pt-BR).
-   * Use [segmentos como dimensões](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR) em uma comparação.
-   * Use segmentos na [análise de fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=pt-BR).
-
-* É possível [aplicar vários segmentos a um relatório ou projeto](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-* Os segmentos são universais para todos os conjuntos de relatórios.
-* O [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifica a criação de segmentos.
-* O [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) permite que você configure [fluxos de trabalho](/help/components/segmentation/segmentation-workflow/seg-workflow.md) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
-* Você pode [adicionar tags a segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) para organizar e pesquisar depois, em vez de usar pastas.
-* Você pode criar [Segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-* O contêiner de Visualização de página foi renomeado para contêiner de Ocorrência para indicar que esse contêiner segmenta todos os tipos de dados e não apenas visualizações de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências. Observe que não houve uma alteração no funcionamento deste contêiner; ele foi apenas renomeado.
-
-Consulte a publicação [Como melhorar a segmentação no Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) no Blog da Adobe para obter mais detalhes.
-
-## Acesse as Ferramentas de segmentação {#section_088AD0E4E21943DFA8CF7206AEC485DD}
-
-**Como obtenho o Construtor de segmentos?**
-
-Para acessar o Construtor de segmentos, basta:
-
-* Exibir um relatório existente e clicar no ![ícone de Segmentos](assets/segment_icon.png) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]** ou
-
-* Clique em **[!UICONTROL Adicionar]** mais, na parte superior do Gerenciador de segmentos.  ![Botão Adicionar](assets/add_button.png)
-
-   ou
-
-* Clique em um título de segmento existente no Gerenciador de segmentos para editar o segmento no Construtor de segmentos.
-
-**Como obtenho o Gerenciador de Segmentos?**
-
-Para acessar o Gerenciador de segmentos:
-
-* Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** na navegação superior e, Em seguida, clique em **[!UICONTROL Segmentos]** ou
-
-* Exibir um relatório existente e clicar no ![ícone de Segmentos](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]** ou
-
-* Pressione a tecla “/” em qualquer lugar na interface e pesquisando pelo gerenciador de segmentos.
-
-**Para onde foi o menu suspenso de segmentos herdados?**
-
-O menu suspenso de segmentos em Reports &amp; Analytics foi substituído por uma interface do [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) mais avançada, que permite criar segmentos “universais” utilizáveis em conjuntos de relatórios e soluções do Adobe Analytics. Para exibir uma lista de segmentos existentes, clique no ícone de Segmentos ![Ícone de segmento](assets/segment_icon.png)
-
-no painel de navegação esquerdo e no painel de segmentos.
-
-**Para onde foi o menu suspenso de conjunto de relatórios herdados?**
-
-O menu suspenso do conjunto de relatórios foi movido para o lado do seletor de datas, no canto superior direito de cada relatório ou painel.
-
-![Seletor de conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
-
-## Permissões {#section_648DFA3A882146C485A84ED014EEC707}
-
-**Quais direitos e privilégios são necessários para que eu possa usar, criar e gerenciar segmentos?**
-
-Por padrão, todos os usuários podem criar e editar segmentos pessoais. Contudo, os administradores podem escolher quem deve ter [permissões para criar segmentos](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=pt-BR) e quem pode atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
-
-Os administradores podem editar qualquer segmento e compartilhar segmentos com grupos e todos na organização. [Mais...](/help/components/segmentation/seg-reference/seg-rights.md)
-
-**É possível visualizar todos os segmentos na minha empresa?**
-
-Sim, administradores podem visualizar todos os segmentos nas interfaces do usuário do [!DNL Analysis Workspace] e do [!DNL Reports & Analytics].
-
-O Report Builder e a Análise ad hoc exibem os segmentos que você possui e os segmentos que foram compartilhados com você.
-
-**É possível gerenciar todos os segmentos do Analytics no Gerenciador de segmentos?**
-
-Sim, todos os segmentos podem ser gerenciados no Gerenciador de segmentos. O Gerenciador de segmentos exibe segmentos que são visíveis para o proprietário (usuário que criou o segmento), usuários compartilhados e usuários administradores. O seletor de segmentos exibe segmentos de propriedade e compartilhados com o usuário.
-
-Administradores podem visualizar todos os segmentos nas interfaces do usuário da Analysis Workspace e do [!DNL Reports & Analytics].
-
-O Report Builder só exibe segmentos criados por você ou que tenham sido compartilhados especificamente com você.
-
-**Por que não posso excluir esse segmento?**
-
-Se o segmento foi [publicado na Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), você não pode excluí-lo ou editá-lo. Entretanto, é possível copiá-lo e editar a versão copiada.
-
-## Práticas recomendadas {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
-
-**O que devo fazer com segmentos duplicados que possuem o mesmo nome, mas podem ter definições diferentes?**
++++ **O que devo fazer com segmentos duplicados que possuem o mesmo nome, mas podem ter definições diferentes?**
 Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode acabar descobrindo que possui vários segmentos com o mesmo nome. Recomendamos que você
 
 * Renomeie os segmentos com o mesmo nome, mas com diferentes definições, ou
 * Exclua os segmentos que não são mais necessários.
 
-**O que a Adobe recomenda com relação à limpeza de segmentos?**
++++
+
++++ **O que a Adobe recomenda com relação à limpeza de segmentos?**
 
 * Marque todos os segmentos com uma tag legada.
 * Analise todos os seus segmentos.
@@ -110,9 +32,11 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 * Aprovar segmentos canônicos.
 * Marcar segmentos de acordo com as [práticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-## Gerenciamento de segmentos herdados {#section_76CF47142D1A4FB6A0718AD9073049FE}
++++
 
-**O que aconteceu com meus segmentos existentes?**
+## Gerenciamento de segmentos herdados {#legacy}
+
++++ **O que aconteceu com meus segmentos existentes?**
 
 Seus segmentos existentes continuarão a funcionar como anteriormente. Quaisquer relatórios com esses segmentos aplicados continuarão a funcionar corretamente. [Mais...](/help/components/segmentation/seg-transition.md)
 
@@ -122,7 +46,9 @@ Os modelos de segmento são marcados com um ícone especial no Construtor de seg
 
 ![](assets/seg_templates.png)
 
-**O que aconteceu com os relatórios agendados com segmentos aplicados?**
++++
+
++++ **O que aconteceu com os relatórios agendados com segmentos aplicados?**
 
 Os relatórios agendados continuar a funcionar apropriadamente com os segmentos definidos.
 
@@ -134,13 +60,17 @@ Os relatórios agendados não são atualizados quando você edita um segmento co
 
 Você tem um marcador que faz referência ao segmento para o conjunto de relatórios da produção principal. Em seguida, você exclui esse segmento, pois é uma duplicata. O marcador continuará a funcionar, com referência à definição do segmento excluído. Se você alterar a definição de segmento para o segmento de desenvolvimento principal a fim de incluir a Ilha de Catalina e Tijuana no México, o segmento aplicado ao marcador não mudará. Usará a definição antiga. Para corrigir isso, atualize o marcador para fazer referência à nova definição. Se você não tiver certeza se um marcador, painel ou relatório agendado está usando um segmento excluído, é possível alterar o nome do segmento restante para que fique mais clara se o marcador usa o segmento restante.
 
-**O que acontece com os segmentos de Data Warehouse?**
++++
+
++++ **O que aconteceu com os segmentos do Data Warehouse?**
 
 Todos os segmentos existentes no Data Warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionarão em outros componentes, como o Analysis Workspace, a e o Reports &amp; Analytics.
 
 Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/construtor de segmentos. O mecanismo de Compatibilidade do produto no Construtor de segmentos determina automaticamente se um segmento é compatível com o Data Warehouse.
 
-**O que acontece com os segmentos pré-configurados?**
++++
+
+**O que aconteceu com os segmentos pré-configurados?**
 
 * **Visitas únicas à página**
 * **Visitas de dispositivos móveis**
@@ -150,7 +80,9 @@ Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/cons
 
 Esses segmentos serão transferidos como modelos de segmento no Construtor de segmentos. Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
 
-**O que acontece com os segmentos da Experience Cloud (Suite):**
++++
+
++++ **O que aconteceu com os segmentos do Experience Cloud (Suite):**
 
 * Não compradores
 * Compradores
@@ -160,11 +92,13 @@ Esses segmentos serão transferidos como modelos de segmento no Construtor de se
 * Visitas com mais de cinco visitas anteriores*
 * Visitas do Facebook*
 
-A maioria desses segmentos (exceto os marcados com um asterisco *) serão transferidos como modelos de segmento no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados.
+A maioria desses segmentos (exceto os marcados com um asterisco *) foram migrados como modelos de segmentos no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados.
 
-Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
+Os relatórios com esses segmentos aplicados continuam a funcionar corretamente.
 
-**O que acontece com os segmentos Admin (também conhecidos como segmentos “Globais”)?**
++++
+
++++ **O que acontece com os segmentos Admin (também conhecidos como segmentos “Globais”)?**
 
 Os segmentos do **administrador** serão migrados na nova interface de segmentos e serão exibidos como segmentos compartilhados com todos.
 
@@ -172,15 +106,11 @@ O proprietário desses segmentos está definido como o administrador com a conta
 
 A interface de gerenciamento de segmento no Admin Console, onde os administradores criaram e gerenciaram esses segmentos globais, não está mais disponível. Os administradores agora devem usar o novo construtor de segmentos para criar segmentos e compartilhá-los com os grupos ou indivíduos apropriados, ou com todos.
 
-<!-- 
-
-seg_definition.xml
-
- -->
-
 Os segmentos existentes que usam lógica que foi alterada como descrito nesse documento continuam a funcionar corretamente, embora precisem ser atualizados antes de serem salvos novamente. Por exemplo, se você tem um segmento existente, onde Estados dos EUA contém &quot;Nova York&quot;, ele continua a funcionar corretamente, embora na próxima vez que você editar o segmento será necessário atualizá-lo para usar o tipo enumerado com uma condição de igual.
 
-**Dicas de migração**
++++
+
+### Dicas de migração
 
 As seguintes dicas ajudarão você a migrar dimensões comuns:
 
@@ -192,128 +122,37 @@ As seguintes dicas ajudarão você a migrar dimensões comuns:
 * [Alterações em Contém](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
 * [Alterações em Menor que e Maior que](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
-## Dimensões novas e renomeadas {#section_73CF121B64A24DEF8E6499F3167BF742}
+## Dimensões novas e renomeadas {#renamed}
 
 A tabela a seguir contém uma lista de dimensões que foram renomeadas no Construtor de segmentos.
 
-<table id="table_1A8C1940FD0446FA8414C6A7DE66E44C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Nome da nova dimensão </th> 
-   <th colname="col2" class="entry"> Nome anterior </th> 
-   <th colname="col3" class="entry"> Notas </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Tipos de sistema operacional </td> 
-   <td colname="col2"> Novo </td> 
-   <td colname="col3"> Adicionado no segundo trimestre de 2015. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Largura do navegador - Classificada </td> 
-   <td colname="col2"> Largura da janela do navegador </td> 
-   <td colname="col3"> Essa dimensão é compatível com todas as interfaces e é dividida em uma lista enumerada de intervalos em vez dos valores inteiros específicos. Se for necessário segmentar valores específicos, use a versão granular dessa dimensão no segmento de data warehouse. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Altura do navegador - Classificada </td> 
-   <td colname="col2"> Altura da janela do navegador </td> 
-   <td colname="col3"> Essa dimensão é compatível com todas as interfaces e é dividida em uma lista enumerada de intervalos em vez dos valores inteiros específicos. Se for necessário segmentar valores específicos, use a versão granular dessa dimensão no segmento de data warehouse. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Largura do navegador - Granular </td> 
-   <td colname="col2"> Largura da janela do navegador </td> 
-   <td colname="col3"> <p>Isso foi renomeado e agora é compatível somente com data warehouse. Ao definir segmentos compatíveis com todas as interfaces, use o tipo enumerado, Largura de navegador - Classificado. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Altura do navegador - Granular </td> 
-   <td colname="col2"> Altura da janela do navegador </td> 
-   <td colname="col3"> <p>Isso foi renomeado e agora é compatível somente com data warehouse. Ao definir segmentos compatíveis com todas as interfaces, use o tipo enumerado, Altura do navegador - Classificado. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Suporte a cookies </td> 
-   <td colname="col2"> Cookies </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Intensidade de cor </td> 
-   <td colname="col2"> Intensidade de cor do monitor </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> - </td> 
-   <td colname="col2"> "Aplicativo - *" </td> 
-   <td colname="col3"> Os prefixos "Aplicativo - " foram removidos de vários tipos de dimensão. Como os dados de aplicativo móvel são normalmente capturados em um conjunto de relatórios que não contém dados da Web, esses prefixos não são necessários. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Página de entrada original </td> 
-   <td colname="col2"> Página de entrada original </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Java ativado </td> 
-   <td colname="col2"> Java </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Extensão máx. do URL do navegador para dispositivo móvel </td> 
-   <td colname="col2"> Extensão do URL do navegador remoto </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Decoração de correio para dispositivo móvel </td> 
-   <td colname="col2"> Suporte a email de decoração remoto </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Dispositivo móvel </td> 
-   <td colname="col2"> Nome do dispositivo móvel </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Extensão max do marcador de dispositivo móvel </td> 
-   <td colname="col2"> Extensão Max do URL do Marcador Remoto </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Extensão máx. de email móvel </td> 
-   <td colname="col2"> Extensão Max do URL do Email Remoto </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> sistema operacional do dispositivo móvel (obsoleto) </td> 
-   <td colname="col2"> Sistema operacional móvel </td> 
-   <td colname="col3"> Use a dimensão do Sistema operacional e, em vez disso, aplique a visitas de segmentos de dispositivos móveis. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Push To Talk para dispositivo móvel </td> 
-   <td colname="col2"> PTT Remoto </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Visualizações da Pesquisa de Opinião </td> 
-   <td colname="col2"> Total de visualizações da pesquisa </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Respostas da Pesquisa de Opinião </td> 
-   <td colname="col2"> Total de respostas da pesquisa </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Profundidade da visita </td> 
-   <td colname="col2"> Comprimento do caminho </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Código postal </td> 
-   <td colname="col2"> CEP/Código postal </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
- </tbody> 
-</table>
+| Nome da nova dimensão | Nome anterior | Notas |
+|--- |--- |--- |
+| Tipos de sistema operacional | Novo | Adicionado no segundo trimestre de 2015. |
+| Largura do navegador - Classificada | Largura da janela do navegador | Essa dimensão é compatível com todas as interfaces e é dividida em uma lista enumerada de intervalos em vez dos valores inteiros específicos. Se for necessário segmentar valores específicos, use a versão granular dessa dimensão no segmento de data warehouse. |
+| Altura do navegador - Classificada | Altura da janela do navegador | Essa dimensão é compatível com todas as interfaces e é dividida em uma lista enumerada de intervalos em vez dos valores inteiros específicos. Se for necessário segmentar valores específicos, use a versão granular dessa dimensão no segmento de data warehouse. |
+| Largura do navegador - Granular | Largura da janela do navegador | Isso foi renomeado e agora é compatível somente com data warehouse. Ao definir segmentos compatíveis com todas as interfaces, use o tipo enumerado, Largura de navegador - Classificado. |
+| Altura do navegador - Granular | Altura da janela do navegador | Isso foi renomeado e agora é compatível somente com data warehouse. Ao definir segmentos compatíveis com todas as interfaces, use o tipo enumerado, Altura do navegador - Classificado. |
+| Suporte a cookies | Cookies | - |
+| Intensidade de cor | Intensidade de cor do monitor | - |
+| - | &quot;Aplicativo - *&quot; | Os prefixos &quot;Aplicativo - &quot; foram removidos de vários tipos de dimensão. Como os dados de aplicativo móvel são normalmente capturados em um conjunto de relatórios que não contém dados da Web, esses prefixos não são necessários. |
+| Página de entrada original | Página de entrada original | - |
+| Java ativado | Java | - |
+| Extensão máx. do URL do navegador para dispositivo móvel | Extensão do URL do navegador remoto | - |
+| Decoração de correio para dispositivo móvel | Suporte a email de decoração remoto | - |
+| Dispositivo móvel | Nome do dispositivo móvel | - |
+| Extensão max do marcador de dispositivo móvel | Extensão Max do URL do Marcador Remoto | - |
+| Extensão máx. de email móvel | Extensão Max do URL do Email Remoto | - |
+| sistema operacional do dispositivo móvel (obsoleto) | Sistema operacional móvel | Use a dimensão do Sistema operacional e, em vez disso, aplique a visitas de segmentos de dispositivos móveis. |
+| Push To Talk para dispositivo móvel | PTT Remoto | - |
+| Visualizações da Pesquisa de Opinião | Total de visualizações da pesquisa | - |
+| Respostas da Pesquisa de Opinião | Total de respostas da pesquisa | - |
+| Profundidade da visita | Comprimento do caminho | - |
+| Código postal | CEP/Código postal | - |
 
-## Alterações nas dimensões com base em sequência de caracteres com valores conhecidos {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+{style=&quot;table-layout:auto&quot;}
+
+## Alterações nas dimensões com base em sequência de caracteres com valores conhecidos {#string-based-dims}
 
 Dimensões com base em sequência de caracteres com conjunto de valores conhecidos foram alteradas para tipos enumerados. Ao criar um segmento com essas dimensões, a lista é pré-preenchida com todos os valores conhecidos e o único operador suportado é igual. Isso permite que você segmente rapidamente os valores exatos que você estava procurando sem selecionar valores não intencionais ao usar correspondências menos restritivas.
 
@@ -335,7 +174,7 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 | tamanho do marcador remoto | java ativado | pesquisa paga |
 | extensão do URL remoto | idioma |  |
 
-## Alterações nas dimensões com base em inteiro com valores conhecidos {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Alterações nas dimensões com base em inteiro com valores conhecidos {#integer-based-dims}
 
 Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A seguinte tela demonstra como essas dimensões são segmentadas usando as interfaces do construtor de segmento anterior e novo:
 
