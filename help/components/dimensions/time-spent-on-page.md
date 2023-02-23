@@ -3,10 +3,10 @@ title: Tempo gasto na página
 description: A quantidade de tempo que um visitante passou na página.
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 91%
 
 ---
 
@@ -36,7 +36,7 @@ Essa dimensão funciona imediatamente em todas as implementações. Se um conjun
 
 Existem várias dimensões para o tempo gasto na página:
 
-* **Tempo gasto na página - classificado**: a quantidade de tempo é classificada. Os itens de dimensão variam de `"Less than 15 seconds"` a `"More than 30 minutes"`. O tempo entre as visualizações da página normalmente não dura mais de 30 minutos. Entretanto, esse tempo pode exceder 30 minutos se forem utilizadas ocorrências com carimbo de data e hora ou fontes de dados.
+* **Tempo gasto na página - classificado**: a quantidade de tempo é classificada. Os itens de dimensão variam de `"Less than 15 seconds"` a `"More than 30 minutes"`. O tempo entre as ocorrências normalmente não dura mais de 30 minutos; no entanto, o tempo entre as ocorrências pode exceder 30 minutos se estiver usando ocorrências com carimbo de data e hora ou fontes de dados.
 * **Tempo gasto na página - granular**: cada número de segundos é um item de dimensão exclusivo.
 
 Consulte [Visão geral do tempo gasto](../metrics/time-spent.md) para obter mais informações gerais sobre o tempo gasto.
