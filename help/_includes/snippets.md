@@ -1,8 +1,8 @@
 ---
-source-git-commit: df0d2c4687117fd00714ced56db6259e44698a20
+source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 15%
+source-wordcount: '763'
+ht-degree: 21%
 
 ---
 # Trechos
@@ -28,7 +28,7 @@ ht-degree: 15%
    | [!UICONTROL **Exibir tudo**] | Mostrar todos os componentes. Essa opção está disponível somente para administradores do . |
    | [!UICONTROL **Não aprovado**] | Mostrar somente componentes que ainda não estão marcados como Aprovado por um administrador. Como administrador, isso é útil ao identificar componentes que exigem análise e aprovação. Essa opção está disponível somente para administradores do . |
    | [!UICONTROL **Descrição ausente**] | Mostrar somente componentes que ainda não têm uma descrição no campo Descrição . Essa opção está disponível somente para administradores do . |
-   | [!UICONTROL **Mostrar duplicatas**] | Mostrar somente componentes que têm o mesmo rótulo ou a mesma descrição de outro componente no Conjunto de relatórios selecionado. Rótulos ou descrições devem ser correspondências exatas para serem mostradas como duplicatas. Essa opção está disponível somente para administradores do . |
+   | [!UICONTROL **Mostrar duplicatas**] | Mostrar somente componentes que têm o mesmo rótulo ou a mesma descrição de outro componente no Conjunto de relatórios selecionado. Isso inclui componentes criados por você, bem como os fornecidos pelo Adobe. Rótulos ou descrições devem ser correspondências exatas para serem mostradas como duplicatas. Essa opção está disponível somente para administradores do . |
    | [!UICONTROL **Sem dados recentes**] | Mostrar somente componentes que não coletaram dados nos últimos 90 dias. Essa opção está disponível somente para administradores do . |
    | [!UICONTROL **Criado pelo Adobe**] <!-- I don't see this option--> | Mostrar somente componentes que foram criados pelo Adobe. Os componentes que foram criados por um administrador ou outro usuário em sua organização não são mostrados. |
 
@@ -51,15 +51,15 @@ ht-degree: 15%
 
 {style=&quot;table-layout:auto&quot;}
 
-## Teste limitado da fase de lançamento {#release-limited-testing}
+## Fase de teste limitado da versão {#release-limited-testing}
 
 >[!AVAILABILITY]
 >
->A funcionalidade descrita neste artigo está na fase Teste limitado da versão e pode não estar disponível ainda em seu ambiente. Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md).
+>A funcionalidade descrita neste artigo está na fase de teste limitado da versão e pode não estar disponível ainda em seu ambiente. Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md).
 
-## Seção Teste limitado da fase de lançamento {#release-limited-testing-section}
+## Seção Fase de teste limitado da versão {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->A funcionalidade descrita nesta seção está na fase Teste limitado da versão e pode não estar disponível ainda em seu ambiente. Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md).
+>A funcionalidade descrita nesta seção está na fase de teste limitado da versão e pode não estar disponível ainda em seu ambiente. Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md).
 

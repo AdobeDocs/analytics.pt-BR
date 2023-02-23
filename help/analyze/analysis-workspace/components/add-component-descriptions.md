@@ -3,18 +3,18 @@ description: Os administradores podem adicionar descrições aos componentes usa
 title: Adicionar descrições de componentes
 feature: Components
 role: Admin
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 # Adicionar descrições de componentes
 
-Os administradores do Analytics podem adicionar descrições de componentes (Dimension, métricas, segmentos e intervalos de datas)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+As descrições ajudam os usuários a saber como usar melhor os vários componentes ao criar projetos no Analysis Workspace ou ao visualizar relatórios.
 
-Os usuários em sua organização podem visualizar as descrições ao criar projetos no Analysis Workspace ou ao visualizar relatórios. As descrições ajudam os usuários a saber como usar melhor os vários componentes.
+Os administradores do Analytics podem adicionar descrições de componentes (Dimension, métricas, segmentos e intervalos de datas)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
 ## Adicionar descrições aos componentes em um conjunto de relatórios
 
