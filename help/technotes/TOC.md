@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notas técnicas do Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Navegue em uma knowledge base que contém artigos úteis que não pertencem a uma ferramenta ou componente específico do Analytics.
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 99%
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
 
@@ -43,18 +43,6 @@ ht-degree: 99%
    + [Opções para atenuar o efeito das limitações de cookies do navegador](cookies/cookieless.md)
 + [Retenção de dados](data-retention.md)
 + [Excluir dados](exclude-data.md)
-+ Governança de dados {#data-governance}
-   + [Fluxo de trabalho de Privacidade de dados do Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Perguntas frequentes](c-data-governance/gdpr-faq.md)
-   + Rotulação de dados {#data-labels}
-      + [Rótulos de privacidade de dados para componentes do Analytics](c-data-governance/data-labeling/gdpr-labels.md)
-      + [Rotular dados do conjunto de relatórios](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [Exibir/gerenciar rótulos de privacidade do conjunto de relatórios](c-data-governance/data-labeling/gdpr-view-settings.md)
-      + [Práticas recomendadas de rotulagem](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-      + [Exemplo de rotulagem](c-data-governance/data-labeling/gdpr-labeling-example.md)
-      + [Namespaces](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [Expansão de ID](c-data-governance/gdpr-id-expansion.md)
-   + [Isenção de consentimento da CNIL](c-data-governance/cnil-consent-exemption.md)
 + [IPs e domínios usados pelo Adobe Analytics](ip-addresses.md)
 + [Latência](latency.md)
 + [Valor de tráfego baixo](low-traffic.md)
