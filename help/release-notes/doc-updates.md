@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
 source-wordcount: '3679'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -27,12 +27,12 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Fevereiro de 2023** |  |
 | Implementação | Conteúdo atualizado sobre como [implementar o Adobe Analytics para Web e dispositivos móveis](../implement/home.md). |
-| Calendários e intervalos de datas do Workspace | Conteúdo atualizado para descrever intervalos de datas relativos, atualizações de cálculo de fórmulas e alterações na interface do usuário do calendário. Consulte [Sobre intervalos de datas relativos do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| Scorecards para dispositivos móveis | Nova seção de documentação para descrever como mostrar e ocultar intervalos de datas de comparação. Consulte [Mostrar intervalos de datas de comparação](/help/analyze/mobile-app/create-scorecard.md) no CJA. |
+| Calendários e intervalos de datas do espaço de trabalho | Conteúdo atualizado para descrever intervalos de datas relativos, atualizações de cálculo de fórmulas e alterações na interface do calendário. Consulte [Sobre intervalos de datas relativos do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| Cartões de pontuação para dispositivos móveis | Nova seção de documentação para descrever como mostrar e ocultar intervalos de datas de comparação. Consulte [Mostrar intervalos de datas de comparação](/help/analyze/mobile-app/create-scorecard.md) no CJA. |
 | API 1.4 | O [API do Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) recebeu uma reescrita completa e agora está publicado no Adobe Developer. |
 | Rastreamento entre tipos de implementação | Atualização do caso de uso [Rastrear em tipos diferentes de implementação](../implement/use-cases/cross-type-implementation.md) para acomodar o serviço de ID do Experience Cloud. |
 | **Janeiro de 2023** |  |
-| Filtrar e classificar tabelas | Conteúdo atualizado (incluindo a adição de procedimentos e a explicação das opções disponíveis) na [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artigo 10. o Este artigo foi renomeado de &quot;Paginação, filtragem e classificação de tabelas&quot;. |
+| Filtrar e classificar tabelas | Conteúdo atualizado (incluindo a adição de procedimentos e a explicação das opções disponíveis) no artigo [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Anteriormente, o nome desse artigo era “Paginação, filtragem e classificação de tabelas”. |
 | Pastas | Páginas dedicadas para [Gerenciamento de pastas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferências do usuário | Várias preferências adicionais de usuário estão disponíveis em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). |
 | Salvar automaticamente em projetos | Conteúdo atualizado para incluir a funcionalidade de salvamento automático em [Salvar projetos](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
