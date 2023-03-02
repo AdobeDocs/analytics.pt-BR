@@ -4,15 +4,15 @@ title: Especificar o aumento de tráfego permanente
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Especificar o aumento de tráfego permanente
 
-Você pode alterar os níveis de tráfego esperados para que o Adobe possa reatribuir recursos para lidar com o novo nível de tráfego. (Como alternativa, você pode [agendar um pico de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) se quiser reatribuir recursos temporariamente.)
+Você pode alterar os níveis de tráfego esperados para que a Adobe possa reatribuir recursos para lidar com o novo nível de tráfego. (Como alternativa, você pode [programar um pico de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) se quiser reatribuir recursos temporariamente.)
 
 {{$include /help/_includes/traffic-lead-time.md}}
 
