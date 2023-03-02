@@ -4,9 +4,9 @@ description: Perguntas frequentes para canais de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1501'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 >
 >Para maximizar a eficiência dos Canais de marketing para o Attribution IQ e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Os administradores do Analytics podem gerenciar canais de marketing para suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Os administradores do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Perguntas frequentes para canais de marketing.
 
@@ -83,7 +83,7 @@ Esse tipo de regra é uma forma geral de garantir que o tráfego de canal sempre
 
 O último contato interno (atualização da sessão) só pode ocorrer se também tiver sido o primeiro contato. Consulte “Relacionamento entre o primeiro e o último contato” acima. Os cenários abaixo explicam como a Atualização de sessão pode ser um canal de primeiro contato.
 
-* **Sessão expirada**: um visitante acessa o site e, em seguida, deixa a guia aberta no navegador para uso em uma data futura. O período de engajamento do visitante expira (ou ele exclui voluntariamente os cookies) e ele usa a guia aberta para visitar o site novamente. Como o URL de referência é um domínio interno, a visita será classificada como Atualização de sessão.
+* **Sessão expirada**: um visitante acessa o site e, em seguida, deixa a guia aberta no navegador para uso em uma data futura. O período de envolvimento do visitante expira (ou ele exclui voluntariamente os cookies) e ele usa a guia aberta para visitar o site novamente. Como o URL de referência é um domínio interno, a visita será classificada como Atualização de sessão.
 
 * **Nem todas as páginas do site são marcadas**: um visitante acessa a Página A, que não está marcada, em seguida se move para a página B, que está marcada. A página A seria vista como o referenciador interno e a visita seria classificada como Atualização de sessão.
 
