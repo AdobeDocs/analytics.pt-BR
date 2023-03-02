@@ -195,7 +195,7 @@ Mais opções de aprendizagem:
 
 ### Gerenciamento de relatórios da empresa {#manage-company-reports}
 
-Os administradores podem filtrar a lista de projetos para exibir e gerenciar relatórios da empresa. Os itens fixados permanecem fixos, seguidos da lista de relatórios da empresa identificados pelo ícone de relatório ![ícone de relatório . ](assets/report-icon.png) Nesta visualização, é possível excluir, renomear, marcar ou aprovar um ou mais relatórios.
+Os administradores podem filtrar a lista de projetos para exibir e gerenciar relatórios da empresa. Os itens fixados permanecem fixos, seguidos da lista de relatórios da empresa identificados pelo ícone de relatório ![ícone de relatório](assets/report-icon.png). Nesta visualização, é possível excluir, renomear, marcar ou aprovar um ou mais relatórios.
 
 Para exibir e gerenciar relatórios da empresa
 

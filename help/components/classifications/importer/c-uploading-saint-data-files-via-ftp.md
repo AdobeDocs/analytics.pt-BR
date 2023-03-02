@@ -6,7 +6,7 @@ exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -16,11 +16,11 @@ Etapas que descrevem como fazer upload de arquivos de dados por FTP.
 
 ## Importação de FTP {#concept_2F965BE873254546A61FB755F25299FD}
 
-Para fazer upload de arquivos de dados via FTP:
+Como fazer upload de arquivos de dados via FTP:
 
 1. **[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
 
-Os seguintes limites recomendados são importantes. Demasiado
+Os seguintes limites recomendados são importantes. Excesso
 
 >[!IMPORTANT]
 >
@@ -54,8 +54,8 @@ Veja [FTP e sFTP](/help/export/ftp-and-sftp/ftp-overview.md) para detalhes adici
    | **Nome** | O nome da conta FTP. |
    | **Conjunto de dados a ser classificado** | Na lista suspensa, selecione o conjunto de dados (variável do relatório de marketing) que você deseja classificar. |
    | **Selecionar os conjuntos de relatórios** | Selecione os conjuntos de relatórios nos quais deseja classificar o conjunto de dados selecionado. Para selecionar vários conjuntos de relatórios, as classificações de cada conjunto de relatórios selecionado devem ser idênticas. |
-   | **Substituir dados em conflito** | Selecione essa opção para substituir os dados duplicados. Esta opção é útil se você deseja atualizar classificações existentes. Se você estiver na [arquitetura de classificação mais recente](../sets/overview.md), essa configuração sempre está ativada. |
-   | **Após a importação ser concluída** | Selecione essa opção para exportar automaticamente o conjunto de dados atualizado para a mesma conta FTP depois de Especificar o endereço de email para receber notificações sobre essa conta FTP após a conclusão da importação. Se você estiver na [arquitetura de classificação mais recente](../sets/overview.md), essa opção não está disponível. |
+   | **Substituir dados em conflito** | Selecione essa opção para substituir os dados duplicados. Esta opção é útil se você deseja atualizar classificações existentes. Se você estiver no estado [arquitetura de classificação mais recente](../sets/overview.md), esta configuração é sempre ativada. |
+   | **Após a importação ser concluída** | Selecione essa opção para exportar automaticamente o conjunto de dados atualizado para a mesma conta FTP depois de Especificar o endereço de email para receber notificações sobre essa conta FTP após a conclusão da importação. Se você estiver no estado [arquitetura de classificação mais recente](../sets/overview.md), esta opção não está disponível. |
    | **Destinatário da notificação** | Especifique o endereço de email para receber notificações sobre essa conta FTP. |
    | **Autorizar** | (Obrigatório) Autoriza a Adobe a importar automaticamente todos os arquivos de dados enviados para a nova conta FTP. |
 
@@ -71,7 +71,7 @@ Após sua criação, é possível editar ou excluir as contas FTP clicando no li
 
 Você pode usar uma conta FTP para importar classificações para o Adobe Analytics.
 
-Para importar classificações por FTP:
+Para importar classificações via FTP:
 
 1. Clique em **[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
 1. Clique em **[!UICONTROL Importar Arquivo]**, e então clique em **[!UICONTROL Importação de FTP]**.
@@ -84,4 +84,4 @@ Para importar classificações por FTP:
 
 Em intervalos regulares, a Adobe recupera os arquivos de dados carregados que têm um arquivo FIN associado. A Adobe os importa para dentro dos conjuntos de relatórios e conjuntos de dados especificados na configuração da conta FTP.
 
-Depois que a Adobe Analytics ler e processar arquivos carregados na pasta FTP, os arquivos serão automaticamente removidos do site FTP.
+Depois que o Adobe Analytics ler e processar os arquivos carregados na pasta FTP, os arquivos serão automaticamente removidos do site FTP.

@@ -7,7 +7,7 @@ user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics
 source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 + [Guia de administração do Analytics](home.md)
 + [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
-+ console de administração do Adobe {#admin-console}
++ Adobe Admin Console {#admin-console}
    + [Visão geral](admin-console/home.md)
    + [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md)
    + [Funções de administrador no Adobe Analytics](admin-console/admin-roles-in-analytics.md)
@@ -32,7 +32,7 @@ ht-degree: 94%
    + [Fontes de dados](admin/data-sources.md)
    + [Excluir por endereço IP](admin/exclude-ip.md)
    + [Logs](admin/logs.md)
-   + [Gerenciador de Atividades de relatórios](admin/reporting-activity.md)
+   + [Gerenciador de atividades de relatórios](admin/reporting-activity.md)
    + Gerenciador do conjunto de relatórios {#manage-report-suites}
       + Editar configurações de um conjunto de relatórios {#edit-report-suite}
          + Geral {#report-suite-general}
@@ -101,7 +101,7 @@ ht-degree: 94%
          + Canais de marketing {#marketing-channels}
             + [Gerenciador de Canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [Regras de processamento de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [Classificações de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Classificações de Canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [Expiração de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gerenciamento de tráfego {#traffic-management}
             + [Visão geral](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
@@ -115,8 +115,8 @@ ht-degree: 94%
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Relatórios de privacidade](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Gerenciamento de Document Cloud {#doc-cloud-mgt}
-            + [Configurar o Document Cloud com Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
-            + [Configurar relatórios do Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+            + [Configurar o Document Cloud com o Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Configurar relatórios de Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Configuração do Advertising Analytics](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Tempo real {#real-time-reports}
             + [Visão geral dos Relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -156,7 +156,7 @@ ht-degree: 94%
    + Rotulagem de Privacidade de governança de dados {#data-governance}
       + [Fluxo de trabalho de Privacidade de dados do Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
       + [Perguntas frequentes](admin/c-data-governance/gdpr-faq.md)
-      + Rotulação de dados {#data-labels}
+      + Rotulagem de dados {#data-labels}
          + [Rótulos de privacidade de dados para componentes do Analytics](admin/c-data-governance/data-labeling/gdpr-labels.md)
          + [Rotular dados do conjunto de relatórios](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
          + [Exibir/gerenciar rótulos de privacidade do conjunto de relatórios](admin/c-data-governance/data-labeling/gdpr-view-settings.md)

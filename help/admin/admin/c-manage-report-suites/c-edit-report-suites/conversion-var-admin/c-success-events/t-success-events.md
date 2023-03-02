@@ -6,7 +6,7 @@ exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,14 +32,14 @@ Para configurar eventos bem-sucedidos:
 1. Na coluna **[!UICONTROL Polaridade]**, especifique se uma tendência acima para essa métrica é boa ou ruim.
 1. Na coluna **[!UICONTROL Visibilidade]**, você pode ocultar métricas padrão (incorporadas), eventos personalizados e eventos incorporados no Menu, Seletores de métricas, Construtor de métricas calculadas e o Construtor de segmentos.
 
-   Essa configuração não afeta a coleta de dados dessa métrica ou evento; afeta somente sua visibilidade na interface do usuário, como a seguir:
+   Essa configuração não afeta a coleção de dados da métrica ou do evento, afeta somente a visibilidade na interface do usuário, como mostrado a seguir:
 
 
    | Configuração | Visível em | Não visível em |
    |---------|----------|---------|
-   | [!UICONTROL **Visível em todos os lugares**] | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | N/D |
+   | [!UICONTROL **Visível em qualquer lugar**] | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | N/D |
    | [!UICONTROL **Construtores**] | <ul><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Oculto em todos os lugares**] | N/D | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
+   | [!UICONTROL **Oculto em qualquer lugar**] | N/D | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
 
 1. Forneça uma descrição.
 1. Verifique se o evento sempre deve ser gravado.

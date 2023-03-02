@@ -6,7 +6,7 @@ exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Essas limitações do navegador refletem uma mudança maior de rastreamento anô
 
 A coleção do lado do servidor fornece a flexibilidade para fornecer seu próprio identificador, em vez de depender dos mecanismos do navegador para configurar cookies.
 
-Você pode enviar dados para o lado do servidor do Analytics usando a [API de inserção de dados](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou a [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). A API de inserção de dados em massa é recomendada para novas implementações do lado do servidor. Para obter uma comparação das duas APIs, consulte &quot;[Qual ferramenta do Adobe Analytics devo usar](/help/analyze/get-started/which-analytics-tool.md).&quot;
+Você pode enviar dados para o lado do servidor do Analytics usando a [API de inserção de dados](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou a [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). A API de inserção de dados em massa é recomendada para novas implementações do lado do servidor. Para obter uma comparação das duas APIs, consulte “[Qual ferramenta do Adobe Analytics devo usar](/help/analyze/get-started/which-analytics-tool.md)”.
 
 ## ID do dispositivo próprio (FPID) com o SDK da Web
 

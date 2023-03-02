@@ -5,7 +5,7 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 source-git-commit: 58937630e6173013b622deec0433ef67b483c483
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -23,13 +23,13 @@ O Google divide as dicas do cliente de usuário-agente em duas categorias: dicas
 
 A partir de outubro de 2022, novas versões dos navegadores Chromium iniciaram o “congelamento” da versão do sistema operacional representada na string do usuário-agente. A versão do sistema operacional é uma dica de alta entropia, portanto, para manter a precisão da versão do sistema operacional em seus relatórios, é necessário configurar a biblioteca de coleção para coletar essas dicas de alta entropia. Com o tempo, outras informações do dispositivo do usuário-agente serão congeladas, o que exigirá que as dicas do cliente mantenham a precisão do relatório do dispositivo.
 
-As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics a partir de 27 de fevereiro de 2023 e serão concluídas em 2 de março de 2023. Atualmente, o AppMeasurement e o SDK da Web são compatíveis com a coleção de dados de dicas, mas esta não será usada na pesquisa de dispositivo até meados de fevereiro. Conforme observado abaixo, a versão do sistema operacional foi congelada a partir de outubro, mas devido a um lançamento gradual e ao fato de muitos agentes de usuário já fornecerem uma versão do sistema operacional congelada (veja mais [aqui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR)), estimamos que isso afetará &lt;3% dos visitantes do Chrome.
+As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics a partir de 27 de fevereiro de 2023 e concluídas em 2 de março de 2023. Atualmente, o AppMeasurement e o SDK da Web são compatíveis com a coleção de dados de dicas, mas esta não será usada na pesquisa de dispositivo até meados de fevereiro. Conforme observado abaixo, a versão do sistema operacional foi congelada a partir de outubro, mas devido a um lançamento gradual e ao fato de muitos agentes de usuário já fornecerem uma versão do sistema operacional congelada (veja mais [aqui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR)), estimamos que isso afetará &lt;3% dos visitantes do Chrome.
 
 >[!NOTE]
 >
-> Desde janeiro de 2023, algumas versões dos sistemas operacionais Mac e Windows são representadas incorretamente no Agente do usuário, mas corretamente representadas em dicas de cliente de alta entropia. Consulte [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR) para obter mais informações.
+> Desde janeiro de 2023, algumas versões dos sistemas operacionais Mac e Windows são representadas incorretamente no agente do usuário, mas corretamente representadas em dicas de cliente de alta entropia. Consulte [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR) para obter mais informações.
 
-AAM requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira ativar a coleção de dicas de alta entropia.
+Observe que o AAM exige que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira ativar a coleta de dicas de alta entropia.
 
 ## Perguntas frequentes
 
@@ -72,7 +72,7 @@ A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 | Sec-CH-UA-Platform-Version | Versão do sistema operacional/plataforma | Alta | `"10"` |
 
 * As dicas de baixa entropia são coletadas por meio do cabeçalho da solicitação.
-* As dicas de alta entropia são coletadas por meio do JavaScript e passadas pelos valores de parâmetro da string de consulta. Os parâmetros da cadeia de caracteres de consulta usam `h.` como um prefixo na solicitação de imagem.
+* As dicas de alta entropia são coletadas por meio de JavaScript e transmitidas pelos valores de parâmetro da string de consulta. Os parâmetros da string de consulta usam `h.` como um prefixo na solicitação de imagem.
 
 Dicas de alta entropia são coletadas por meio da chamada do JavaScript e transmitidas pelo parâmetro de consulta
 

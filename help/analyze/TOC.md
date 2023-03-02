@@ -7,7 +7,7 @@ user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ ht-degree: 97%
          + [Comparação de datas](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
       + Dicionário de dados {#data-dictionary}
          + [Visão geral do dicionário de dados](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [Exibir informações do componente no Dicionário de dados](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [Editar entradas de componente no Dicionário de dados](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [Monitorar integridade do dicionário de dados](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
+         + [Exibir informações de componente no dicionário de dados](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [Editar entradas de componente no dicionário de dados](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [Monitorar a integridade do dicionário de dados](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualizações {#visualizations}
       + [Visão geral das visualizações](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gerenciar fontes de dados](analysis-workspace/visualizations/t-sync-visualization.md)

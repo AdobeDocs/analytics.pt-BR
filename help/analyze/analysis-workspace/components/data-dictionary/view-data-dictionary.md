@@ -1,5 +1,5 @@
 ---
-description: O Dicionário de dados no Analysis Workspace permite que os usuários catalogem e rastreiem os vários componentes no Analysis Workspace, incluindo o uso pretendido, que são aprovados, que são duplicatas e assim por diante.
+description: O dicionário de dados do Analysis Workspace permite que os usuários rastreiem e criem um catálogo dos vários componentes no Analysis Workspace, incluindo seu uso pretendido, quais estão aprovados, quais são duplicatas e assim por diante.
 title: Exibir o dicionário de dados
 feature: Components
 role: User, Admin
@@ -8,11 +8,11 @@ hidefromtoc: true
 source-git-commit: 36dcedc730e956ea5a7c3a0e3470719a41a8f8e9
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
-# Exibir informações do componente no Dicionário de dados
+# Exibir informações de componente no dicionário de dados
 
 {{release-limited-testing}}
 
@@ -20,11 +20,11 @@ O Dicionário de dados permite visualizar informações sobre um componente, inc
 
 Para exibir informações sobre um componente no Dicionário de dados:
 
-1. Vá para o projeto do Analysis Workspace que contém o componente que deseja visualizar.
+1. Acesse o projeto do Analysis Workspace que contém o componente que deseja visualizar.
 
-1. Selecione o [!UICONTROL **Dicionário de dados**] no painel esquerdo do Analysis Workspace. (Maneiras alternativas de acessar o Dicionário de dados são descritas em &quot;Acessar o dicionário de dados&quot; em [Visão geral do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. Clique no ícone do [!UICONTROL **Dicionário de dados**] no painel esquerdo do Analysis Workspace. (Maneiras alternativas de acessar o Dicionário de dados são descritas em “Acessar o Dicionário de dados” em [Visão geral do Dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
 
-   A janela Dicionário de dados é exibida.
+   A janela do dicionário de dados é exibida.
 
    ![data-dictionary.png](assets/data-dictionary.png)
 

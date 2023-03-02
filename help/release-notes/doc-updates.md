@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
 source-wordcount: '3679'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,12 +27,12 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Fevereiro de 2023** |  |
 | Implementação | Conteúdo atualizado sobre como [implementar o Adobe Analytics para Web e dispositivos móveis](../implement/home.md). |
-| Calendários e intervalos de datas do espaço de trabalho | Conteúdo atualizado para descrever intervalos de datas relativos, atualizações de cálculo de fórmulas e alterações na interface do calendário. Consulte [Sobre intervalos de datas relativos do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| Calendários e intervalos de datas do Espaço de trabalho | Conteúdo atualizado para descrever intervalos de datas relativas, atualizações de cálculo de fórmulas e alterações na interface do calendário. Consulte [Sobre intervalos de datas relativas do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Cartões de pontuação para dispositivos móveis | Nova seção de documentação para descrever como mostrar e ocultar intervalos de datas de comparação. Consulte [Mostrar intervalos de datas de comparação](/help/analyze/mobile-app/create-scorecard.md) no CJA. |
 | API 1.4 | O [API do Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) recebeu uma reescrita completa e agora está publicado no Adobe Developer. |
-| Rastreamento entre tipos de implementação | Atualização do caso de uso [Rastrear em tipos diferentes de implementação](../implement/use-cases/cross-type-implementation.md) para acomodar o serviço de ID do Experience Cloud. |
+| Rastreamento em tipos de implementação | Atualizado o caso de uso [Rastrear em tipos diferentes de implementação](../implement/use-cases/cross-type-implementation.md) para acomodar o serviço de ID da Experience Cloud. |
 | **Janeiro de 2023** |  |
-| Filtrar e classificar tabelas | Conteúdo atualizado (incluindo a adição de procedimentos e a explicação das opções disponíveis) no artigo [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Anteriormente, o nome desse artigo era “Paginação, filtragem e classificação de tabelas”. |
+| Filtrar e classificar tabelas | Conteúdo atualizado (incluindo a adição de procedimentos e a explicação das opções disponíveis) no artigo [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Este artigo foi renomeado de “Paginação, filtragem e classificação de tabelas”. |
 | Pastas | Páginas dedicadas para [Gerenciamento de pastas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferências do usuário | Várias preferências adicionais de usuário estão disponíveis em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). |
 | Salvar automaticamente em projetos | Conteúdo atualizado para incluir a funcionalidade de salvamento automático em [Salvar projetos](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
@@ -69,13 +69,13 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Maio de 2022** |  |
 | Preencher dimensões e métricas do ciclo de vida por meio do Experience Edge | Os dados do ciclo de vida móvel enviados pelo Experience Edge agora serão exibidos nos relatórios do Analytics. Consulte [Mapeamento de variável do Analytics](/help/implement/aep-edge/variable-mapping.md) para obter detalhes sobre quais Campos XDM mapear em relatórios de ciclo de vida móvel existente. |
 | **Abril de 2022** |  |
-| Página de aterrissagem do Adobe Analytics | Atualizações na [página de aterrissagem conjunta do Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md) que melhoram a usabilidade e a facilidade de navegação. |
+| Atualizações da página de aterrissagem do Adobe Analytics | Atualizações na [página de aterrissagem conjunta do Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md) que melhoram a usabilidade e a facilidade de navegação. |
 | Novo tópico sobre o painel [!UICONTROL Resumo da página] | [Painel Resumo da página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Novo tópico sobre o painel [!UICONTROL Item seguinte/anterior] | [Painel Item de dimensão seguinte/anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Março de 2022** |  |
 | Novo tópico sobre algoritmos de criptografia HTTPS compatíveis | [Algoritmos de criptografia HTTPS compatíveis](/help/technotes/rdc/encryption-algos.md) para clientes com nível de segurança de cifra definido como “Alto”. |
 | Nova documentação sobre anotações no Analysis Workspace | [As anotações no Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) permitem comunicar com eficiência nuances de dados contextuais e insights à sua organização. |
-| Página de aterrissagem do Adobe Analytics | [Atualizações](/help/analyze/landing.md) na página de aterrissagem conjunta do Analysis Workspace/Reports &amp; Analytics que melhoram a usabilidade e a facilidade de navegação. |
+| Atualizações da página de aterrissagem do Adobe Analytics | [Atualizações](/help/analyze/landing.md) na página de aterrissagem conjunta do Analysis Workspace/Reports &amp; Analytics que melhoram a usabilidade e a facilidade de navegação. |
 | [!UICONTROL Próximo item] ou [!UICONTROL Item anterior] no painel Espaço de trabalho | Esse painel permite explorar itens que seguem ou precedem um item de dimensão de sua escolha. |
 | [!UICONTROL Resumo da página] no painel Espaço de trabalho | Esse painel fornece uma análise detalhada para uma página de sua escolha. |
 | Novo tópico sobre como pausar relatórios agendados mais antigos | A partir de **15 de abril de 2022**, a Adobe pretende [pausar todos os relatórios agendados com data de criação superior a dois anos](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
