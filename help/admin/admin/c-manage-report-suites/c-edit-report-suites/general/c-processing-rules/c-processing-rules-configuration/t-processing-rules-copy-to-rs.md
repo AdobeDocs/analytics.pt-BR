@@ -5,9 +5,9 @@ title: Cópia das regras de processamento para outro conjunto de relatórios
 feature: Processing Rules
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
