@@ -4,15 +4,15 @@ description: Determine se a página atual é um erro 404.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 # pageType
 
-A variável `pageType` é um sinalizador usado para designar páginas de erro, como erros 404, no site. Se essa variável contiver a string `errorPage`, ele preenche as &quot;Páginas não encontradas&quot; [dimension](/help/components/dimensions/pages-not-found.md) e [métrica](/help/components/metrics/pages-not-found.md).
+A variável `pageType` é um sinalizador usado para designar páginas de erro, como erros 404, no site. Se essa variável contiver a string `errorPage`, ela preencherá a [dimensão](/help/components/dimensions/pages-not-found.md) &quot;Páginas não encontradas&quot; e [métrica](/help/components/metrics/pages-not-found.md).
 
 >[!IMPORTANT]
 >
@@ -20,7 +20,7 @@ A variável `pageType` é um sinalizador usado para designar páginas de erro, c
 
 ## Tipo de página usando o SDK da Web
 
-O tipo de página é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webPageDetails.isErrorPage`. Esse campo XDM é um booleano; defina como `true` para sinalizá-la como uma página de erro, ou `false` se não for uma página de erro. Adobe traduz automaticamente o booleano para o valor da string `errorPage` quando é enviado para um conjunto de relatórios do Analytics.
+O Tipo de Página é [mapeado para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) sob o campo XDM `web.webPageDetails.isErrorPage`. Esse campo XDM é um booleano; defina como `true` para sinalizá-lo como uma página de erro, ou `false` se não for uma página de erro. A Adobe traduz automaticamente o booleano para o valor da string `errorPage` quando é enviado para um conjunto de relatórios do Analytics.
 
 ## Tipo de página usando a extensão Adobe Analytics
 
