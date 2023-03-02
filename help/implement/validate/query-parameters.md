@@ -4,9 +4,9 @@ description: Lista todos os parâmetros da cadeia de caracteres de consulta usad
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ A tabela a seguir lista todos os parâmetros da cadeia de caracteres de consulta
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) ou dimensões de conversão personalizadas. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variável da ID do visitante. |
 | `vidn` | Nenhum | Definido pelo AppMeasurement para novos visitantes. Contém o valor da ID armazenado no cookie do visitante. |
-| `vmk` | `vmk` | Não está mais em uso. Chave de migração do visitante, que ajudou a migrar implementações de cookies de terceiros para cookies próprios. |
+| `vmk` | `vmk` | Não está mais em uso. Chave de migração de visitante, que ajudou a migrar implementações de cookies de terceiros para cookies próprios. |
 | `vvp` | `variableProvider` | Usado em Data Connectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Usado com fontes de dados para unir dados online e offline. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Usado na dimensão [CEP](/help/components/dimensions/zip-code.md). |
