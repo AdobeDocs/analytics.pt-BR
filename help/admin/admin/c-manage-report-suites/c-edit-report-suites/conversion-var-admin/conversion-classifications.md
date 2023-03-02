@@ -4,9 +4,9 @@ title: Classificações de conversão
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Depois de habilitar as classificações, utilize o [Importador de classificaçõ
 
 ## Adicionar classificações de conversão
 
-Para adicionar classificações de conversão em Administração:
+Para adicionar classificações de conversão no Admin:
 
 1. Clique em **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.
