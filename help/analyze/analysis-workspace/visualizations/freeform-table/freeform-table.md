@@ -5,9 +5,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Se preferir adicionar primeiro vários componentes à tabela e, em seguida, rend
    * Você pode ajustar mais linhas em uma única tela ajustando a [densidade de visualização](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=pt-BR) do projeto.
    * Cada linha da dimensão pode exibir até 400 linhas antes que ocorra paginação. Clique no número ao lado de &quot;Linhas&quot; para mostrar mais linhas em uma página. Navegue até uma página diferente usando a seta de página no cabeçalho.
    * As linhas podem ser detalhadas por componentes adicionais. Para detalhar várias linhas ao mesmo tempo, basta selecionar várias linhas e arrastar o próximo componente na parte superior das linhas selecionadas. Saiba mais sobre [detalhamentos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=pt-BR).
-   * As linhas podem ser [filtradas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) para mostrar um conjunto reduzido de itens. Configurações adicionais estão disponíveis em [Configurações de linha](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=pt-BR).
+   * As linhas podem ser [filtradas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=pt-BR) para mostrar um conjunto reduzido de itens. Configurações adicionais estão disponíveis em [Configurações de linha](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=pt-BR).
 
 * **Colunas**
    * Os componentes podem ser empilhados dentro de colunas para criar métricas segmentadas, análise entre guias e muito mais.
