@@ -5,9 +5,9 @@ title: Expiração de canal de marketing
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
-> Para obter informações gerais sobre Canais de marketing, consulte [Introdução aos Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> Para obter informações gerais sobre canais de marketing, consulte [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Para maximizar a eficiência dos Canais de marketing para o Attribution IQ e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Para maximizar a eficiência dos canais de marketing para o Attribution IQ e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Expiração de canal de marketing]**.
 
