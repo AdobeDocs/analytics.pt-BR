@@ -5,9 +5,9 @@ feature: Admin Tools
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Na guia **[!UICONTROL Lista de relatórios]**, você pode **[!UICONTROL Mostrar 
 
 ## Recursos de filtragem avançada {#section_206A52A85DE84947AAB3AD082FBF6275}
 
-Por exemplo, se você deseja filtrar em todos os relatórios agendados por hora, você deve especificar a **[!UICONTROL Frequência de hora em hora]** no filtro **[!UICONTROL Avançado]** e clicar em **[!UICONTROL Aplicar]**:
+Por exemplo, se você deseja filtrar todos os relatórios agendados por hora, você deve especificar a **[!UICONTROL Frequência de hora em hora]** no filtro **[!UICONTROL Avançado]** e clicar em **[!UICONTROL Aplicar]**:
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
@@ -48,8 +48,8 @@ Essa relação permite que você gerencie e até exclua qualquer relatório agen
 
 A Relação de relatório também possibilita &quot;Pular um relatório agendado uma vez&quot;. Basta clicar no ícone azul na coluna **[!UICONTROL Gerenciar]**.
 
-## ID de programação {#section_568B70F4228C4229977CB85D2DCD53A1}
+## ID de agendamento {#section_568B70F4228C4229977CB85D2DCD53A1}
 
-Ter a **[!UICONTROL ID de agendamento]** na interface da Relação de relatório é útil quando é necessário entrar em contato com o Atendimento ao cliente da Adobe para solucionar um problema com relatórios agendados.
+Expor a **[!UICONTROL ID de agendamento]** na interface da Fila de relatórios é útil quando se é necessário entrar em contato com o Atendimento ao cliente da Adobe para solucionar um problema com relatórios agendados.
 
 ![](assets/schedule_id.png)
