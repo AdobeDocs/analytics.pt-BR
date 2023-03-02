@@ -4,9 +4,9 @@ description: As regras de processamento de canal de marketing determinam se uma 
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2187'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 98%
 
 >[!NOTE]
 >
-> Para obter informações gerais sobre Canais de marketing, consulte [Introdução aos Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> Para obter informações gerais sobre canais de marketing, consulte [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Para maximizar a eficiência dos Canais de marketing para o Attribution IQ e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Para maximizar a eficiência dos canais de marketing para o Attribution IQ e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Regras de processamento de canal de marketing]**.
 
@@ -35,7 +35,7 @@ Observações adicionais sobre o processamento:
 ## Pré-requisitos
 
 * Revise as informações conceituais em [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-* Crie um ou mais canais para poder atribuir regras a eles. Consulte [Adicionar canais de marketing.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+* Crie um ou mais canais para poder atribuir regras a eles. Consulte [Adicionar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 * Examine as práticas recomendadas para usar [!UICONTROL Canais de marketing] com o [!UICONTROL Attribution IQ].
 
 ## Criar regras de processamento de Canal de marketing
@@ -108,7 +108,7 @@ Essa tabela de referência define os campos, as opções e os atributos de ocorr
 | Mecanismo de pesquisa + Palavras-chave | Uma concatenação de palavra-chave de pesquisa e mecanismo de pesquisa para identificar de forma exclusiva o mecanismo de pesquisa. Por exemplo, se você pesquisar a palavra computador, o mecanismo de pesquisa e a palavra-chave serão identificados assim:  `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Nota:** n = natural; p = paga |
 | Defina o valor do canal como | Além de saber qual canal de marketing traz um visitante ao seu site, talvez você também queira saber que anúncio de banner, palavra-chave de pesquisa ou campanha por email dentro do canal está obtendo crédito pela atividade de um visitante do site. Esse ID é um valor de canal armazenado juntamente com o canal. Muitas vezes esse valor é um ID de campanha integrado à página inicial ou ao URL referenciador, em outros casos, é a combinação do mecanismo de pesquisa com a palavra-chave de pesquisa ou o URL referenciador que identifica melhor o visitante de determinado canal. |
 
-## Ordem e definições da Regra de canal de marketing {#channel-rules}
+## Ordem e definições da regra de canal de marketing {#channel-rules}
 
 As regras de canal são processadas na ordem especificada. Uma abordagem recomendada para a ordem do canal é colocar os canais pagos ou gerenciados primeiro (por exemplo, pesquisa paga, pesquisa natural, exibição, email) para que eles recebam crédito, seguido de canais orgânicos (por exemplo, domínios diretos, internos, de referência).
 
