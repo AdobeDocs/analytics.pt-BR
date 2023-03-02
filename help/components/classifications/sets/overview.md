@@ -3,9 +3,9 @@ title: Visão geral dos conjuntos de classificações
 description: Use conjuntos de classificações para gerenciar os dados de classificação.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ Os conjuntos de classificações fornecem uma única interface para gerenciar cl
 >
 >Os conjuntos de classificações estarão disponíveis para todos os clientes que tiverem seus conjuntos de relatórios migrados para a nova arquitetura de Classificações. Entre em contato com o Atendimento ao cliente da Adobe ou com seu gerente de conta para obter mais informações.
 
-A arquitetura de back-end lançada com os Conjuntos de classificação contém várias melhorias notáveis:
+A arquitetura de back-end lançada com os Conjuntos de Classificação contém várias melhorias notáveis:
 
 * Redução significativa do tempo de processamento (72 horas → 24 horas)
-* A capacidade de usar a interface do usuário dos conjuntos de classificação
-* A opção de usar os dados de classificação no Adobe Experience Platform no futuro por meio da variável [Conector de origem Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
+* A capacidade de usar a Interface dos Conjuntos de Classificação
+* A opção de usar os dados de classificação na Adobe Experience Platform no futuro por meio do [Conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
 
-A arquitetura de back-end lançada com os Conjuntos de classificação também contém várias alterações importantes:
+A arquitetura de back-end lançada com os Conjuntos de Classificação também contém várias alterações importantes:
 
-* Ao usar o navegador ou a importação de FTP, &quot;[!UICONTROL Substituir em conflito]&#39; está sempre ativado.
+* Ao usar o navegador ou a importação de FTP, &#39;[!UICONTROL Substituir em conflito]&#39; está sempre ativado.
 * Ao usar o navegador ou importação de FTP, a opção de exportar imediatamente após a importação não é mais suportada. As exportações devem ser iniciadas separadamente.
-* A API do Analytics 2.0 `GetDimensions` endpoint agora retorna identificadores de string para classificações em vez de identificadores numéricos. Identificadores numéricos ainda podem ser usados, mas o Adobe recomenda o uso dos novos identificadores de sequência, quando possível. Os identificadores numéricos podem ser recuperados usando o `?expansion=hidden` parâmetro da string de consulta.
+* O endpoint `GetDimensions` da API do Analytics 2.0 agora retorna identificadores de string para classificações em vez de identificadores numéricos. Identificadores numéricos ainda podem ser usados, mas a Adobe recomenda o uso dos novos identificadores de sequência, quando possível. Os identificadores numéricos podem ser recuperados usando o parâmetro da string de consulta `?expansion=hidden`.
 
 
 Os conjuntos de classificações consistem em duas áreas principais:
