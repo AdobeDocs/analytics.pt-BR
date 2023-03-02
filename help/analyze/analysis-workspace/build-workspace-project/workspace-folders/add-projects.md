@@ -5,9 +5,9 @@ title: Adicionar pastas ao Espaço de trabalho
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
 source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Você pode adicionar projetos a uma pasta na exibição de tabela ou de uma past
 
 >[!NOTE]
 >
->Somente administradores do Analytics podem adicionar projetos à Pasta da empresa ou criar um novo projeto e salvá-lo na Pasta da empresa
+>Somente administradores do Analytics podem adicionar projetos à pasta da empresa ou criar um novo projeto e salvá-lo nela
 
 ## Na exibição de tabela {#table-view}
 
@@ -31,11 +31,11 @@ Adicione projetos a uma pasta na exibição de tabela na página inicial.
 
    A caixa de diálogo Selecionar pasta é exibida.
 
-1. No menu suspenso , selecione a pasta onde deseja mover os projetos selecionados.
+1. No menu suspenso, selecione a pasta para onde deseja mover os projetos selecionados.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. Selecionar **Mover**.
+1. Selecione **Mover**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -55,7 +55,7 @@ Você também pode adicionar projetos de dentro de uma pasta usando o link de re
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Selecione o **...** ícone de elipse no canto superior direito.
+1. Selecione o ícone de reticências (**...**) no canto superior direito.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
 
@@ -68,6 +68,6 @@ Você também pode adicionar projetos de dentro de uma pasta usando o link de re
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Selecionar **Adicionar** para adicionar os projetos à pasta .
+1. Clique em **Adicionar** para adicionar os projetos à pasta.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
