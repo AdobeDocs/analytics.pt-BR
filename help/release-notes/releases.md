@@ -4,9 +4,9 @@ title: Versões de recursos do Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ As versões do Adobe Analytics operam em um modelo de entrega contínua que perm
 
 O [!UICONTROL Analysis Workspace] usa sinalizadores de recursos (também conhecidos como “alternadores”) para controlar a visibilidade de novos recursos, permitindo testes de escala controlados antes do lançamento completo. A estratégia de lançamento inclui as seguintes fases:
 
-* **Teste limitado**: uma versão em fases começa com testes feitos por usuários internos da Adobe. Ele é então disponibilizado para um pequeno grupo de contas de clientes para garantir que o recurso atenda às necessidades e expectativas do cliente.
+* **Teste limitado**: uma versão em fases começa com testes feitos por usuários internos da Adobe. Ela é então disponibilizada para um pequeno grupo de contas de clientes para garantir que o recurso atenda às necessidades e expectativas do cliente.
 
-* **Início da implantação**: A implantação de uma versão em fases começa com a fase de Teste limitado. A versão é redimensionada de 0% a 100% de disponibilidade aos clientes ao longo de alguns meses. A implementação em fases acontece no nível da Organização da Experience Cloud, de modo que todos os usuários autorizados em uma organização recebem a mesma experiência.
+* **Início da implantação**: a implantação de uma versão em fases começa com a fase de teste limitado. A versão é redimensionada de 0% a 100% de disponibilidade aos clientes ao longo de alguns meses. A implementação em fases acontece no nível da Organização da Experience Cloud, de modo que todos os usuários autorizados em uma organização recebem a mesma experiência.
 
 * **Disponibilidade Geral (GA)**: o recurso está disponível para 100% das organizações da Experience Cloud autorizadas e a versão do recurso está concluída.
 
-Com cada versão de recurso, a linha do tempo do Início da implantação para GA pode variar. O objetivo é manter as versões curtas, para que, dentro de 2 meses do Início da implantação, um recurso tenha GA.
+Com cada versão de recurso, a linha do tempo do início da implantação até a disponibilidade geral pode variar. O objetivo é manter os lançamentos breves, para que, dentro de 2 meses do início da implantação, um recurso já seja disponibilizado de maneira geral.
 
 ## Sinalizadores de recurso
 
