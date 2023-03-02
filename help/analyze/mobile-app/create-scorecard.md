@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -102,9 +102,9 @@ Se o intervalo de datas desejado ainda não tiver sido criado, será possível c
 
 Você será direcionado ao construtor de intervalo de datas, em que é possível criar e salvar um novo componente de intervalo de datas.
 
-### Mostrar/Ocultar intervalos de datas de comparação {#show-comparison-dates}
+### Mostrar/ocultar intervalos de datas de comparação {#show-comparison-dates}
 
-Para mostrar ou ocultar intervalos de datas de comparação, alterne a variável **Incluir datas de comparação** configuração.
+Para mostrar ou ocultar intervalos de datas de comparação, alterne a configuração **Incluir datas de comparação**.
 
 ![Incluir datas de comparação](assets/include-comparison-dates.png)
 
