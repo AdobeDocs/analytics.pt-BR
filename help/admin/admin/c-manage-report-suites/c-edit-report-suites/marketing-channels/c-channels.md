@@ -5,9 +5,9 @@ title: Gerenciar canais de marketing
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 91%
 
 >[!NOTE]
 >
-> Para obter informações gerais sobre Canais de marketing, consulte [Introdução aos Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> Para obter informações gerais sobre canais de marketing, consulte [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Para maximizar a eficiência dos Canais de marketing para o Attribution IQ e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Para maximizar a eficiência dos canais de marketing para o Attribution IQ e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Gerenciador de canal de marketing]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Gerente de canal de marketing]**.
 
 Adicionar ou ativar canais de marketing ao Administrador dos Canais de marketing. Em conjuntos de relatórios sem canais de marketing, uma configuração automática permite criar diversos canais e suas regras. É possível editar os canais predefinidos para atender às suas necessidades ou criar seus próprios (até um total de 25).
 
@@ -28,8 +28,8 @@ A inclusão de [!UICONTROL Canais de marketing] é feita de forma independente d
 A seguir, as orientações para a criação de canais:
 
 * Planeje com antecedência, fazendo uma lista de todos os canais, para que todas ocorrências de visitantes sejam categorizadas para o canal correto.
-* Incluir canais para as categorias de [Interno](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) ocorrências.
-* Incluir um canal &quot;Outras Campanhas&quot; abrangente que será colocado depois de canais pagos e antes de canais orgânicos.
+* Inclua canais para as categorias de ocorrências [internas](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+* Inclua um canal “Outras Campanhas” abrangente que será colocado depois de canais pagos e antes de canais orgânicos.
 
 
 ## Pré-requisitos {#prereqs}
@@ -79,9 +79,9 @@ Há várias configurações que podem ser aplicadas a cada canal na página [!UI
 | Tipo | Especifica como o usuário chegou ao seu site. É possível selecionar online ou offline. É possível usar canais Online para visitantes que chegam por meio de um mecanismo de busca ou campanha por email. Os canais offline são aplicados a visitantes que localizam seu site por meio de cupons em jornais ou anúncios de revistas. Em geral, os canais offline incluem dados importados por meio de Origens de Dados de relatórios. Consulte [Origens de Dados](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=pt-BR). Consulte [Adicionar dados offline](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 | Cor do canal | Somente Reports &amp; Analytics: a cor associada a este canal de marketing. Essa cor representa o canal no relatório de Canal de marketing. |
 
-### Substituir práticas recomendadas
+### Práticas recomendadas de substituição
 
-É uma prática recomendada desmarcar a opção de substituição de último toque de canais Diretos e Internos, para que eles não possam receber crédito de outros canais de último toque persistentes (ou entre si).
+É uma prática recomendada desmarcar a opção de substituição de último toque de canais diretos e internos, para que eles não possam receber crédito de outros canais de último toque persistentes (ou entre si).
 
 ![](assets/int-channel2.png)
 
