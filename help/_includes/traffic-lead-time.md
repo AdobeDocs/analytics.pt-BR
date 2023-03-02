@@ -4,9 +4,9 @@ title: Tempo de lead necessário para aumentos de tráfego
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Use as diretrizes a seguir para determinar com quanta antecedência você deve e
  <thead>
   <tr>
    <th colname="col1" class="entry"> Tipo de alteração de tráfego </th>
-   <th colname="col2" class="entry"> Lead time necessário </th>
+   <th colname="col2" class="entry"> Tempo de espera necessário </th>
   </tr>
  </thead>
  <tbody>
@@ -41,14 +41,14 @@ Use as diretrizes a seguir para determinar com quanta antecedência você deve e
   </tr>
   <tr>
    <td colname="col1"> Pico de tráfego ou aumento repentino do tráfego permanente de até 25% em volume diário médio em comparação com os últimos 30 dias</td>
-   <td colname="col2"> <ul><li>Conjuntos de relatórios com &lt; 100M ocorrências/dia: Nenhuma notificação necessária</li><li>Conjuntos de relatórios com &gt; 100 M ocorrências/dia: 5 dias úteis</li></ul></td>
+   <td colname="col2"> <ul><li>Conjuntos de relatórios com &lt; 100 milhões de ocorrências/dia: nenhuma notificação necessária</li><li>Conjuntos de relatórios com &gt; 100 milhões de ocorrências/dia: 5 dias úteis</li></ul></td>
   </tr>
   <tr>
    <td colname="col1"> Pico de tráfego ou aumento súbito de tráfego permanente superior a 25% em volume diário médio em comparação com os últimos 30 dias</td>
    <td colname="col2"> <ul><li>5 dias úteis</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> Eventos de feriado outubro - dezembro </td>
+   <td colname="col1"> Eventos de feriado de outubro a dezembro </td>
    <td colname="col2"> <ul><li>Um mês</li></ul> </td>
   </tr>
  </tbody>
