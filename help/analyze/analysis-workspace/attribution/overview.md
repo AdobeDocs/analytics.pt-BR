@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 A atribuição oferece aos analistas a capacidade de personalizar como os itens de dimensão recebem crédito por eventos bem-sucedidos. Por exemplo:
 
 1. Um visitante do site clica em um link de pesquisa pago para uma de suas páginas de produtos. Eles adicionam o produto ao carrinho, mas não o compram.
-2. No dia seguinte, eles visualizarão uma publicação de mídia social de um de seus amigos, clicarão no link e concluirão a compra.
+2. No dia seguinte, eles veem uma postagem de mídia social de um de seus amigos, clicam no link e concluem a compra.
 
 Em alguns relatórios, você pode desejar que a ordem seja atribuída à pesquisa paga. Em outros relatórios, você pode desejar que a ordem seja atribuída ao Social. A atribuição permite controlar esse aspecto dos relatórios. Ele está disponível para todas as organizações no Adobe Analytics Ultimate, Prime, Select e Foundation. Se você não tiver certeza de qual tipo de contrato tem com a Adobe, entre em contato com o Gerente de conta da sua organização.
 
@@ -64,6 +64,6 @@ Adição de comparações lado a lado de modelos do Attribution IQ:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Ferramentas Adobe Analytics que não são compatíveis com o Attribution IQ
+## Ferramentas do Adobe Analytics que não são compatíveis com o Attribution IQ
 
 Quaisquer ferramentas que não sejam compatíveis com a API do Analytics 2.0, como o Report Builder, não são compatíveis com o Attribution IQ.
