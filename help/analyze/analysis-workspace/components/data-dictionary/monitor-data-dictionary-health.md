@@ -1,57 +1,57 @@
 ---
-description: Os administradores são responsáveis por monitorar a integridade do Dicionário de dados. Isso inclui se os componentes estão coletando dados, se estão aprovados, se contêm descrições e estão livres de duplicatas.
-title: Monitorar integridade do dicionário de dados
+description: Os administradores são responsáveis por monitorar a integridade do dicionário de dados. Isso inclui verificar se os componentes estão coletando dados, se estão aprovados, se contêm descrições e estão livres de duplicatas.
+title: Monitorar a integridade do dicionário de dados
 feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
 source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Monitorar integridade do dicionário de dados
+# Monitorar a integridade do dicionário de dados
 
 {{release-limited-testing}}
 
-Os administradores do Analytics são responsáveis por manter um Dicionário de dados saudável.
+Os administradores do Analytics são responsáveis por manter um dicionário de dados íntegro.
 
-## Características de um dicionário de dados saudável
+## Características de um dicionário de dados íntegro
 
-Um Dicionário de dados saudável é aquele em que todos os componentes:
+Um dicionário de dados íntegro é aquele em que todos os componentes:
 
-* Estão sendo usados e coletando dados
+* Estão sendo usados e estão coletando dados
 
-* Contenha descrições úteis para que os usuários saibam como usá-las
+* Contêm descrições úteis para que os usuários saibam como usá-los
 
 * Estão isentos de duplicatas desnecessárias
 
 * São aprovados pelo administrador
 
-## Verifique a integridade do seu Dicionário de dados
+## Verifique a integridade do seu dicionário de dados
 
-Para identificar problemas de integridade em seu Dicionário de dados:
+Para identificar problemas de integridade no dicionário de dados:
 
 1. Abra um projeto do Analysis Workspace.
 
-1. Selecione o ícone Dicionário de dados no lado esquerdo do Analysis Workspace. (Maneiras alternativas de acessar o Dicionário de dados são descritas em &quot;Acessar o dicionário de dados&quot; em [Visão geral do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. Selecione o ícone do dicionário de dados no lado esquerdo do Analysis Workspace. (Maneiras alternativas de acessar o dicionário de dados são descritas em “Acessar o dicionário de dados” na [Visão geral do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
 
-   A janela Dicionário de dados é exibida.
+   A janela do dicionário de dados é exibida.
 
-   ![Exibição do administrador do Dicionário de dados](assets/data-dictionary-admin.png)
+   ![Visualização de administrador do dicionário de dados](assets/data-dictionary-admin.png)
 
-1. Verifique se o Conjunto de relatórios correto está selecionado no menu suspenso.
+1. Verifique se o conjunto de relatórios correto está selecionado no menu suspenso.
 
-1. No [!UICONTROL **Estado do dicionário**] guia , selecione [!UICONTROL **Exibir**] ao lado de qualquer uma das seguintes opções:
+1. Na guia [!UICONTROL **Integridade do dicionário**], selecione [!UICONTROL **Exibir**] ao lado de qualquer uma das seguintes opções:
 
-   * [!UICONTROL **componentes estão faltando descrições**]
+   * [!UICONTROL **componentes com descrições ausentes**]
 
-   * [!UICONTROL **componentes têm duplicatas**]
+   * [!UICONTROL **componentes com duplicatas**]
 
-   * [!UICONTROL **os componentes não têm dados conectados**]
+   * [!UICONTROL **componentes sem dados conectados**]
 
-   Dependendo do que você selecionar, o filtro apropriado é aplicado ao Dicionário de dados e somente os componentes relevantes são mostrados.
+   Dependendo do que você selecionar, o filtro apropriado é aplicado no dicionário de dados e somente os componentes relevantes são mostrados.
 
-1. Edite qualquer um dos componentes para melhorar a integridade do Dicionário de dados. Para obter informações sobre como editar um componente no Dicionário de dados, consulte [Editar entradas de componente no Dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+1. Edite qualquer um dos componentes para melhorar a integridade do dicionário de dados. Para obter informações sobre como editar um componente no dicionário de dados, consulte [Editar entradas de componente no dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
