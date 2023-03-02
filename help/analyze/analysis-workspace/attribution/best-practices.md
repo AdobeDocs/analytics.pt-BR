@@ -4,9 +4,9 @@ description: Quais são as práticas recomendadas ao escolher um modelo de atrib
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Você poderia então fazer uma análise de topo e fundo de funil para expandir s
 
 ### Análise de topo de funil
 
-Os canais de análise de funil superior são usados para criar reconhecimento de marca ou produto. Por exemplo, o objetivo da maioria das publicidades de TV é a percepção de marca. Você pode usar o [modelo de atribuição “Time decay”](/help/analyze/analysis-workspace/attribution/models.md), já que as pessoas esquecerão sobre seu anúncio de TV com o passar do tempo.
+Os canais de análise de funil superior são usados para criar percepção da marca ou do produto. Por exemplo, o objetivo da maioria das publicidades de TV é a percepção de marca. Você pode usar o [modelo de atribuição “Time decay”](/help/analyze/analysis-workspace/attribution/models.md), já que as pessoas esquecerão sobre seu anúncio de TV com o passar do tempo.
 
 ### Análise de fundo de funil
 
-Na análise de funil inferior, a suposição é que as pessoas já sabem sobre sua marca e você quer que elas sejam convertidas. Use email, notificações por push ou anúncios do Facebook.
+Nas análises de funil inferior, pressupõe-se que as pessoas já conheçam sua marca, e você deseja que elas façam a conversão. Use emails, notificações por push ou anúncios no Facebook.
 
 ## Etapa 2: Atribuição baseada em regras
 
@@ -41,19 +41,19 @@ A finalidade dessa etapa é validar a sua hipótese.
 
 **Exemplo 1**
 
-Suponha que sua hipótese seja: &quot;Meu canal de primeiro toque tem mais impacto na conversão do que meu canal de último toque.&quot;
+Digamos que sua hipótese seja “Meu canal de primeiro contato tem mais impacto na conversão do que meu canal de último contato”. 
 
-Nesse caso, você usaria a variável [Modelo de atribuição &quot;Forma de J inversa&quot;](/help/analyze/analysis-workspace/attribution/models.md) para testar essa hipótese. Esse modelo concede 60% do crédito ao primeiro ponto de contato.
+Nesse caso, você usaria o [modelo de atribuição “em forma de J invertido”](/help/analyze/analysis-workspace/attribution/models.md) para testar essa hipótese. Esse modelo concede 60% do crédito ao primeiro ponto de contato.
 
 **Exemplo 2**
 
-Suponha que sua hipótese seja: &quot;Em nosso setor (como o de viagens), a janela de atribuição é de 60 ou 90 dias, não 30 dias, pois os clientes fazem muitas pesquisas antes de comprar um produto.&quot;
+Digamos que sua hipótese seja: “Em nosso setor (como o de viagens), a janela de atribuição é de 60 ou 90 dias, não de 30 dias, porque os clientes pesquisam muito antes de comprar um produto.”
 
-Nesse caso, você alteraria sua [janela de retrospectiva](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR#janelas-de-retrospectiva) até 90 dias.
+Nesse caso, você alteraria sua [janela de retrospectiva](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR#lookback-windows) para 90 dias.
 
 ## Etapa 3: Uso de atribuição algorítmica
 
-Se você ainda não tiver um modelo de atribuição que forneça respostas satisfatórias para todas as suas perguntas, poderá usar [atribuição algorítmica](/help/analyze/analysis-workspace/attribution/algorithmic.md). Como é muito difícil validar um grande número de hipóteses e combinações possíveis, a atribuição algorítmica usa algoritmos incorporados para alocar crédito entre itens de dimensão.
+Se você ainda não tiver um modelo de atribuição que forneça respostas satisfatórias para todas as suas perguntas, você pode usar a [atribuição algorítmica](/help/analyze/analysis-workspace/attribution/algorithmic.md). Como é muito difícil validar um grande número de hipóteses e combinações possíveis, a atribuição algorítmica usa algoritmos incorporados para alocar crédito entre itens de dimensão.
 
 ## Outras considerações
 
