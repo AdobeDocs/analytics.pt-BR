@@ -3,10 +3,10 @@ title: Pessoas
 description: O número de indivíduos únicos, geralmente com vários dispositivos.
 feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 2f725239404a1d08b63a12c9e6b4e4fa3c35d410
+source-git-commit: 4c329e8868df0a112ddbc710417eefbc5043ec9b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 46%
+source-wordcount: '113'
+ht-degree: 43%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 >[!IMPORTANT]
 >
->A métrica Pessoas será descontinuada em 2023. Mais detalhes sobre o momento exato serão comunicados pelas Notas de versão.
+>A métrica Pessoas relacionada ao Device Co-op será descontinuada em 2023. A métrica Pessoas relacionada ao CDA descrita abaixo não é afetada por essa descontinuação.
 
 A métrica &quot;Pessoas&quot; é específica de [Análise entre dispositivos](../cda/overview.md) conjuntos de relatórios virtuais. Ele representa a soma dos indivíduos identificados no relatório, mais o número de dispositivos que não estão identificados como pertencendo a uma pessoa.
 
