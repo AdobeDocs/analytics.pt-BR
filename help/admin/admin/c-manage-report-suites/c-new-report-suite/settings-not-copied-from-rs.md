@@ -3,10 +3,10 @@ description: Se você tiver copiado configurações de um conjunto de relatório
 title: Configurações não copiadas do conjunto de relatórios de origem
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ As seguintes configurações não são copiadas do modelo ou de conjunto de rela
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras VISTA </p> </td> 
-   <td colname="col2"> <p>Entre em contato com o Gerente de sucesso do cliente para saber sobre os Serviços de engenharia. </p> </td> 
+   <td colname="col2"> <p>Entre em contato com a equipe de conta da Adobe para entrar em contato com os Serviços de engenharia. </p> </td> 
   </tr> 
  </tbody> 
 </table>
