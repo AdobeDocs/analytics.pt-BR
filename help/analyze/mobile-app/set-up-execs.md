@@ -4,10 +4,10 @@ title: Configurar usuários executivos com o aplicativo
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Em alguns casos, os usuários executivos podem precisar de assistência adiciona
 
 Para garantir que os usuários executivos tenham acesso aos seus cartões de pontuação no aplicativo, verifique se:
 
-* Os requisitos mínimos do sistema operacional móvel dos dispositivos são iOS versão 10 ou superior ou Android versão 4.4 (KitKat) ou superior
+* Os requisitos mínimos do sistema operacional móvel dos dispositivos são iOS versão 10 ou superior ou Android versão 4.4 (KitKat) ou superior.
 * Eles possuem um logon válido no Adobe Analytics.
 * Você criou corretamente os cartões de pontuação para dispositivos móveis para eles e compartilhou esses cartões de pontuação com eles.
 * Eles têm acesso aos Componentes incluídos no cartão de pontuação. Observe que você pode selecionar uma opção ao compartilhar seus cartões de pontuação para **[!UICONTROL Compartilhar componentes integrados]**.
@@ -77,8 +77,8 @@ Informações adicionais sobre blocos:
 
 * A granularidade dos minigráficos depende da duração do intervalo de datas:
 * Um dia mostra uma tendência horária
-   * Mais de um dia e menos de um ano mostra uma tendência diária
-   * Um ano ou mais mostra uma tendência semanal
+   * Mais de um dia e menos de um ano mostra uma tendência diária.
+   * Um ano ou mais mostra uma tendência semanal.
    * A fórmula de alteração do valor percentual é o total da métrica (intervalo de datas atual) - total da métrica (intervalo de datas de comparação) / total da métrica (intervalo de datas de comparação).
    * Você pode puxar a tela para baixo para atualizar o Scorecard.
 
@@ -114,4 +114,4 @@ Verifique se o usuário executivo pode fazer logon na instância correta do Adob
 
 >[!IMPORTANT]
 >
->A partir de outubro de 2020, a Adobe está lançando gradualmente uma série de melhorias para otimizar o desempenho do aplicativo &quot;Painéis do Adobe Analytics&quot;. Essas melhorias se concentram no armazenamento em cache de dados históricos do Analytics que são usados para preencher scorecards com datas (exceto o dia atual). Esses dados serão armazenados em cache por até 24 horas em uma conta de armazenamento na nuvem pública segura do Microsoft Azure. Entre em contato com seu CSM se não quiser aceitar esses recursos de melhoria de desempenho.
+>A partir de outubro de 2020, o Adobe está lançando gradualmente uma série de melhorias para otimizar o desempenho do aplicativo &quot;Painéis do Adobe Analytics&quot;. Essas melhorias se concentram no armazenamento em cache de dados históricos do Analytics que são usados para preencher scorecards com datas (exceto o dia atual). Esses dados serão armazenados em cache por até 24 horas em uma conta de armazenamento na nuvem pública segura do Microsoft Azure. Entre em contato com a equipe de conta do Adobe se não quiser aceitar esses recursos de aprimoramento de desempenho.
