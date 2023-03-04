@@ -3,10 +3,10 @@ description: A página Faturamento permite acessar informações de faturamento,
 title: Faturamento
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '504'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ A página Faturamento permite acessar informações de faturamento, inclusive de
 
 >[!NOTE]
 >
->Se o acesso à guia de faturamento estiver desativado em sua empresa, entre em contato com o Gerente de conta.
+>Se o acesso à guia de faturamento estiver desativado em sua empresa, entre em contato com a equipe de conta do Adobe.
 
 Os dados de visão geral do tráfego da página de faturamento permite correlacionar os dados de exibição da página nos relatórios com chamadas cobráveis do servidor em sua fatura. A página [!UICONTROL Faturamento] permite fazer o seguinte:
 
@@ -44,7 +44,7 @@ O relatório [!UICONTROL Faturamento mensal] resultante inclui as seguintes info
 
 >[!NOTE]
 >
->Para obter uma cópia funcional do relatório de [!UICONTROL Faturamento mensal], copie-o na área de transferência e, em seguida, cole-o em um programa de planilha, como o Microsoft Excel*.
+>Para obter uma cópia funcional do relatório de [!UICONTROL Faturamento mensal], copie-o na área de transferência e, em seguida, cole-o em um programa de planilha, como o Microsoft Excel&#42;.
 
 ## Data do relatório x data de processamento {#section_51A48C2F223F4904BE1407C13333C457}
 

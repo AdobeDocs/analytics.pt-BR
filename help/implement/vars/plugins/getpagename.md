@@ -3,18 +3,16 @@ title: getPageName
 description: Crie um pageName fácil de ler a partir do caminho do site atual.
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 97%
+source-wordcount: '434'
+ht-degree: 100%
 
 ---
 
 # Plug-in da Adobe: getPageName
 
->[!IMPORTANT]
->
->Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+{{plug-in}}
 
 O plug-in `getPageName` cria uma versão formatada amigável e fácil de ler do URL atual. A Adobe recomenda usar esse plug-in se você quiser um valor de [`pageName`](../page-vars/pagename.md) fácil de definir e de entender nos relatórios. Esse plug-in será desnecessário se você já tiver uma estrutura de nomeação para a variável `pageName`, como por meio de uma camada de dados. Ele é melhor usado quando você não tem outra solução para definir a variável `pageName`.
 
@@ -38,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].

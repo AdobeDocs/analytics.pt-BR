@@ -3,22 +3,20 @@ title: getQueryParam
 description: Extraia o valor de um parâmetro de string de consulta do URL.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 92%
+source-wordcount: '507'
+ht-degree: 93%
 
 ---
 
 # Plug-in da Adobe: getQueryParam
 
->[!IMPORTANT]
->
->Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+{{plug-in}}
 
 O plug-in `getQueryParam` permite que você extraia o valor de qualquer parâmetro de string de consulta contido em um URL. É útil para extrair códigos de campanha, internos e externos, de URLs de páginas iniciais. Também é importante ao extrair termos de pesquisa ou outros parâmetros da string de consulta.
 
-Esse plug-in fornece recursos robustos para a análise de URLs complexos, incluindo hashes e URLs que contêm vários parâmetros de string de consulta. Se você só precisa obter parâmetros de string de consulta simples, o Adobe recomenda usar os recursos de parâmetros de URL usando o SDK da Web ou a extensão Adobe Analytics ou a [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluído no AppMeasurement.
+Esse plug-in fornece recursos robustos para a análise de URLs complexos, incluindo hashes e URLs que contêm vários parâmetros de string de consulta. Se você precisa apenas de parâmetros de string de consulta simples, o Adobe recomenda usar os recursos de parâmetros de URL usando o SDK da Web, a extensão do Adobe Analytics ou o [`Util.getQueryParam()`](../functions/util-getqueryparam.md) método incluído no AppMeasurement.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -40,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].

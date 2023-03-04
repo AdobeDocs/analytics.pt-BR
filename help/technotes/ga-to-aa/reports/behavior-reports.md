@@ -3,10 +3,10 @@ title: Relatórios de comportamento no Adobe Analytics
 description: Saiba como criar relatórios de comportamento no Adobe Analytics
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -87,4 +87,4 @@ Como esse recurso requer alterações de implementação, a Adobe recomenda trab
 
 ## Relatórios do editor
 
-Semelhante ao modo como o Google exige uma conexão com o Google Ad Manager, a Adobe oferece um produto dedicado para fornecer informações chamado Adobe Advertising Cloud. Se a organização estiver interessada em usar esse produto, entre em contato com o Gerente de conta da organização.
+Semelhante ao modo como o Google exige uma conexão com o Google Ad Manager, a Adobe oferece um produto dedicado para fornecer informações chamado Adobe Advertising Cloud. Se a organização estiver interessada em usar esse produto, entre em contato com a equipe de conta da Adobe.

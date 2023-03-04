@@ -3,10 +3,10 @@ description: Quando um relatório tem muitos valores únicos, o Adobe usa o item
 title: Valor de tráfego baixo no Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 81c7dcea2d42ee8e31140523cd43cdfd001baf28
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '622'
+ht-degree: 49%
 
 ---
 
@@ -20,25 +20,25 @@ Quando um relatório tem muitos valores únicos, a Adobe fornece funcionalidade 
 * Quando uma variável atinge 500.000 valores únicos, os dados começam a ser classificados em [!UICONTROL Tráfego baixo]. Cada valor além desse limite passa pela seguinte lógica:
    * Se um valor já estiver nos relatórios, adicione-o como de costume.
    * Se um valor ainda não for visto nos relatórios, ele será inicialmente classificado na variável [!UICONTROL Tráfego baixo] item de dimensão.
-   * Se um valor estiver classificado em [!UICONTROL Tráfego baixo] recebe um fluxo de tráfego (normalmente instâncias nos dois dígitos em um único dia), ele começa a ser reconhecido como seu próprio item de dimensão. As instâncias coletadas antes de atingir o limite permanecem em [!UICONTROL Tráfego baixo]. O limite exato tem muitas dependências, como o número de servidores processando dados para o conjunto de relatórios e a quantidade de tempo entre cada instância de item de dimensão.
-* Se um conjunto de relatórios atingir mais de 1.000.000 valores únicos, uma filtragem mais agressiva será aplicada. Valores únicos exigem instâncias nos três dígitos em um único dia antes de serem reconhecidos como seu próprio item de dimensão.
+   * Se um valor for classificado em [!UICONTROL Tráfego baixo] O recebe um fluxo de tráfego (normalmente instâncias nos dígitos duplos em um único dia), e começa a ser reconhecido como seu próprio item de dimensão. As instâncias coletadas antes de atingir o limite permanecem abaixo [!UICONTROL Tráfego baixo]. O limite exato tem muitas dependências, como o número de servidores processando dados para o conjunto de relatórios e o tempo entre cada instância do item de dimensão.
+* Se um conjunto de relatórios atingir mais de 1.000.000 valores únicos, uma filtragem mais agressiva será aplicada. Valores únicos exigem instâncias com os três dígitos em um único dia antes de serem reconhecidos como seu próprio item de dimensão.
 
-Essa lógica permite que o Adobe otimize os recursos de relatórios e, ao mesmo tempo, permita que sua organização relate itens de dimensão essenciais coletados posteriormente no mês. Por exemplo, sua organização executa um site com milhões de artigos e um novo artigo tornou-se popular no final do mês (depois de exceder ambos os limites exclusivos). Você ainda pode analisar o desempenho desse artigo sem que ele esteja classificado em [!UICONTROL Tráfego baixo]. Essa lógica não tem o objetivo de desfazer o bucket de tudo o que recebe um determinado número de exibições de página por dia ou por mês.
+Essa lógica permite que o Adobe otimize os recursos de relatórios e, ao mesmo tempo, permita que sua organização relate os itens de dimensão cruciais coletados no final do mês. Por exemplo, sua organização executa um site com milhões de artigos e um novo artigo se tornou popular no final do mês (depois de exceder ambos os limites únicos). Você ainda pode analisar o desempenho desse artigo sem que ele seja segmentado em [!UICONTROL Tráfego baixo]. Essa lógica não tem como objetivo remover tudo o que recebe um determinado número de exibições de página por dia ou por mês.
 
 >[!NOTE]
->O [Página](../components/dimensions/page.md) A dimensão usa várias colunas de backend que contam para limites exclusivos, incluindo `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`e `click_context`. Essas colunas de back-end podem causar [!UICONTROL Tráfego baixo] lógica para aplicar bem antes que o número de itens de dimensão de página exclusivos no Workspace atinja 500.000.
+>A variável [Página](../components/dimensions/page.md) A dimensão usa várias colunas de backend que todas contam para limites únicos, incluindo `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, e `click_context`. Essas colunas de backend podem causar [!UICONTROL Tráfego baixo] lógica a ser aplicada bem antes que o número de itens de dimensão de Página exclusivos no Workspace atinja 500.000.
 
 ## Alterar limites exclusivos
 
-Os limites são de 500.000 e 1 milhão de valores únicos por padrão. Esses limites podem ser alterados para cada variável. Entre em contato com o Atendimento ao cliente do Adobe ou com o gerente de conta de sua organização para solicitar essa alteração. Ao solicitar uma alteração, inclua:
+Os limites são de 500.000 e 1 milhão de valores únicos por padrão. Esses limites podem ser alterados para cada variável. Entre em contato com o Atendimento ao cliente da Adobe ou com a equipe de conta da Adobe para solicitar essa alteração. Ao solicitar uma alteração, inclua:
 
 * A ID do conjunto de relatórios
 * A variável para a qual você deseja aumentar o limite
 * O primeiro e o segundo limites desejados
 
-Alterações nos limites podem afetar o desempenho do relatório. A Adobe recomenda avaliar bem a situação ao solicitar um aumento para valores únicos em uma variável. Aumente apenas os limites exclusivos para variáveis críticas às necessidades de relatórios de sua organização.
+Alterações nos limites podem afetar o desempenho do relatório. A Adobe recomenda avaliar bem a situação ao solicitar um aumento para valores únicos em uma variável. Aumente apenas os limites exclusivos para variáveis críticas para as necessidades de relatórios de sua organização.
 
-Os limites de tráfego baixo não estão visíveis na interface do usuário do Analytics. Entre em contato com o Atendimento ao cliente do Adobe se desejar mais informações sobre limites existentes.
+Os limites de tráfego baixo não estão visíveis na interface do usuário do Analytics. Entre em contato com o Atendimento ao cliente do Adobe se desejar obter mais informações sobre os limites existentes.
 
 ## Tráfego baixo usando componentes e outros recursos
 

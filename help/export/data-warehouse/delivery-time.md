@@ -3,10 +3,10 @@ title: Resolver problemas de prazos de entrega de solicitações do Data Warehou
 description: Determine possíveis problemas com uma solicitação do Data Warehouse que pode prolongar os prazos de entrega.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,4 +37,4 @@ Se você precisar desses tipos de relatórios em tempo hábil, considere as segu
 
 * **Analysis Workspace**: embora os itens de dimensão ilimitados não estejam disponíveis, ele inclui quase todos os outros casos de uso que o Data Warehouse oferece.
 * **Feed de dados**: pega todos os dados brutos em um conjunto de relatórios diariamente e os envia para um site FTP. Em seguida, você pode importar esses dados para seu próprio banco de dados e executar queries para obter os dados que está procurando.
-* **Solução de serviços de engenharia personalizados**: os Serviços de engenharia da Adobe podem fornecer uma solução personalizada para sua organização a um custo adicional. Entre em contato com o Gerente de conta da sua organização para obter mais detalhes.
+* **Solução de serviços de engenharia personalizados**: os Serviços de engenharia da Adobe podem fornecer uma solução personalizada para sua organização a um custo adicional. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.

@@ -4,10 +4,10 @@ keywords: Conjunto de relatórios virtual, VRS
 title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '1755'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Substituir a marcação de vários conjuntos pelo conjunto de relatórios global
 
 ## Diretrizes
 
-Se não tiver certeza se os casos de uso descritos se aplicam a você e a sua empresa, consulte outros administradores do Adobe Analytics ou o gerente de conta da Adobe. Eles podem ajudar a avaliar suas necessidades corporativas e recomendar a melhor opção.
+Se não tiver certeza se os casos de uso descritos se aplicam a você e a sua organização, consulte outros administradores da Adobe Analytics ou a equipe de conta do Adobe. Eles podem ajudar a avaliar suas necessidades corporativas e recomendar a melhor opção.
 
 Tenha as seguintes considerações em mente ao determinar se deve usar a marcação de vários conjuntos ou conjuntos de relatórios virtuais:
 
@@ -100,7 +100,7 @@ Se optar por remover chamadas de servidor secundárias em favor dos conjuntos de
    * Como prática recomendada, considere usar o [empilhamento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar um segmento em um local e aplicá-lo a todos os conjuntos de relatórios virtuais dependentes.
    * Use contêineres de ocorrência se desejar manter os conjuntos de relatórios virtuais mais mutuamente exclusivos.
 2. Depois de confirmar que os conjuntos de relatórios virtuais estão configurados corretamente, remova as IDs do conjunto de relatórios secundário de sua implementação. Para remover conjuntos de relatórios secundários:
-   * Na extensão Adobe Analytics da Coleta de dados do Adobe Experience Platform, clique no &quot;x&quot; ao lado de qualquer conjunto de relatórios que não deseja mais usar.
+   * Na extensão do Adobe Analytics da Coleção de dados da Adobe Experience Platform, clique no &quot;x&quot; ao lado de qualquer conjunto de relatórios que você não deseja mais usar.
    * Em implementações JavaScript herdadas, localize a variável `s.account` e remova as IDs de conjunto de relatórios que você não deseja mais usar.
    * Em todos os casos, deixe apenas a ID do conjunto de relatórios global/principal para coletar dados para seus sites e aplicativos.
    * Navegue até Administração > Conjuntos de relatórios e oculte todos os conjuntos de relatórios secundários que não forem mais usados.

@@ -3,20 +3,18 @@ title: cleanStr
 description: Remova ou substitua todos os caracteres desnecessários de uma string.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 79%
+source-wordcount: '300'
+ht-degree: 80%
 
 ---
 
 # Plug-in da Adobe: cleanStr
 
->[!IMPORTANT]
->
->Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+{{plug-in}}
 
-O plug-in `cleanStr` remove ou substitui todos os caracteres desnecessários de uma string, incluindo caracteres de tags HTML, espaços em branco extras, tabulações e retornos de caracteres de nova linha. Também substitui aspas simples esquerda/direita (`‘` e `’`) por aspas simples retas (`'`). O Adobe recomenda usar esse plug-in se você quiser remover caracteres desnecessários de valores variáveis e se o recurso &quot;Texto limpo&quot; na Coleta de dados do Adobe Experience Platform não atender às suas necessidades de implementação. Esse plug-in não é necessário se os dados coletados não contiverem caracteres desnecessários ou se o recurso &quot;Limpar texto&quot; na Coleta de dados do Adobe Experience Platform for suficiente.
+O plug-in `cleanStr` remove ou substitui todos os caracteres desnecessários de uma string, incluindo caracteres de tags HTML, espaços em branco extras, tabulações e retornos de caracteres de nova linha. Também substitui aspas simples esquerda/direita (`‘` e `’`) por aspas simples retas (`'`). O Adobe recomenda usar esse plug-in se você quiser remover caracteres desnecessários de valores variáveis e se o recurso &quot;Texto limpo&quot; na Coleção de dados do Adobe Experience Platform não atender às suas necessidades de implementação. Esse plug-in não será necessário se os dados coletados não contiverem caracteres desnecessários ou se o recurso &quot;Limpar texto&quot; na Coleção de dados do Adobe Experience Platform for suficiente.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -38,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** na extensão do Adobe Analytics.
 1. Expanda a opção [!UICONTROL Configurar rastreamento usando código personalizado], que revela o botão [!UICONTROL Abrir editor].
