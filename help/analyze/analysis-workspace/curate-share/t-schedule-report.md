@@ -5,10 +5,10 @@ title: Agendar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: bf9f04ce6ff057ca66bcf0d9cf66540cea160444
+source-git-commit: 74d4127ccb9ff2837ab5b17c8237aa4604378485
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 88%
+source-wordcount: '622'
+ht-degree: 93%
 
 ---
 
@@ -54,12 +54,12 @@ No Gerenciador de agendamento de projetos, é possível editar e excluir agendam
 | Campo | Descrição |
 | --- | --- |
 | [!UICONTROL Favoritos] | Selecionar o ícone de estrela torna esta programação uma favorita. |
-| [!UICONTROL ID de programação] | Essa ID é usada principalmente para fins de depuração. |
+| [!UICONTROL ID de agendamento] | Essa ID é usada principalmente para fins de depuração. |
 | [!UICONTROL Título e descrição] | Título e descrição deste projeto. |
 | [!UICONTROL Proprietário] | A pessoa que criou e é proprietária do projeto. |
 | [!UICONTROL Tags] | (opcional) Adicionar tags é uma boa maneira de organizar projetos. Todos os usuários podem criar tags e aplicar uma ou mais tags a um projeto. No entanto, é possível visualizar tags somente para os projetos que você possui ou que foram compartilhados com você. |
 | [!UICONTROL Entregue para] | O(s) recipient(s) deste projeto programado. |
-| [!UICONTROL Data de validade] | A data de expiração padrão depende da frequência da programação. Consulte &quot;Datas agendadas de expiração do projeto&quot; abaixo. |
+| [!UICONTROL Data de validade] | Para qualquer frequência de projeto agendada, você pode definir a data de expiração de até um ano no futuro. |
 | [!UICONTROL Frequência] | Com que frequência deseja que esse projeto programado seja enviado ao(s) recipient(s). |
 | [!UICONTROL Tempo de execução] | Em que hora do dia esse projeto programado é enviado. |
 | [!UICONTROL Número de consultas] | O número de consultas relativas a este projeto. |
@@ -78,12 +78,3 @@ As ações a seguir são comuns no Gerenciador de projetos programados:
 | **[!UICONTROL Exibir ID de programação]** | Acesse as opções de coluna na parte superior direita e adicione a coluna ID de programação à tabela. A ID programada geralmente é útil para depuração. |
 
 O Gerenciador de agendamento de projetos mostra os itens criados por um usuário específico. Se a conta de usuário estiver desabilitada no aplicativo, todas as entregas programadas são interrompidas. A propriedade do projeto programado pode ser **transferida** para um novo usuário em **Admin > Usuários e ativos do Analytics > Transferir ativos**.
-
-## Datas programadas de expiração do projeto
-
-As datas de expiração dos projetos agendados dependem da frequência de entrega agendada:
-
-* Os deliveries por hora expiram em uma semana.
-* Os deliveries diários expiram em um mês.
-* Os deliveries semanais expiram em 6 meses.
-* As entregas mensais/anuais expiram em um ano.

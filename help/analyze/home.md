@@ -4,10 +4,10 @@ description: Documentação do produto e autoajuda do Analysis Workspace, painé
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: dff8e6a3f8ffad5ff0033f75cad08b6e53b1d7b8
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 Este guia fornece documentação de produto e autoajuda para as seguintes ferramentas de análise e relatório do Adobe Analytics:
 
 * **[!UICONTROL Analysis Workspace]:** o recurso principal do Adobe Analytics. O Espaço de trabalho fornece uma tela onde você pode arrastar componentes para atender às necessidades de relatórios.
-* **[!UICONTROL Painéis do Adobe Analytics]:** esse aplicativo móvel permite aos usuários acesso móvel a scorecards intuitivos com métricas principais e a capacidade de fazer detalhamentos mais profundos e relatórios de tendências.
+* **[!UICONTROL Painéis do Adobe Analytics]:** Esse aplicativo móvel permite aos usuários acesso móvel para criar scorecards intuitivos com métricas principais, detalhamentos mais detalhados e relatórios de tendências.
 * **[!UICONTROL Activity Map]:** um plug-in do navegador que exibe uma sobreposição no site mostrando quais elementos foram mais clicados.
 * **[!UICONTROL Report Builder]:** um complemento do Excel que permite recuperar os dados do Analytics e colocá-los diretamente em uma pasta de trabalho.
 * **[!UICONTROL API de relatórios]:** faça consultas de relatórios diretamente aos servidores da Adobe e obtenha respostas para uso em suas ferramentas de relatório de clientes.
-* **[!UICONTROL Reports &amp; Analytics]:** uma ferramenta com dezenas de relatórios pré-construídos. A Adobe recomenda o uso do Analysis Workspace para a maioria das demandas de relatório.
+* **[!UICONTROL Reports &amp; Analytics]:** uma ferramenta com dezenas de relatórios pré-construídos. A Adobe recomenda o uso do Analysis Workspace para a maioria das demandas de relatório. **Nota:** O Reports &amp; Analytics será [fim da vida útil](https://express.adobe.com/page/6WnF8JK6IRDhf/) em 31 de dezembro de 2023.
 
 Veja um vídeo com uma visão geral do Adobe Analytics:
 
