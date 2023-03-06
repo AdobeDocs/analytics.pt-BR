@@ -326,8 +326,8 @@ Para adicionar ou editar uma regra de classificação:
    >Os conjuntos de relatórios são exibidos nesta página *somente* quando as seguintes condições são atendidas:
    >
    >* Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
-      >
-      >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
+   >
+   >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
    >
    >* Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
 
