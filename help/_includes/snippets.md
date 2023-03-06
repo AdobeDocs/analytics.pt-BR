@@ -1,8 +1,8 @@
 ---
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: ae5571dc1c2c7107dc3ab7368f4616533b190d5f
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 84%
+source-wordcount: '862'
+ht-degree: 79%
 
 ---
 # Trechos
@@ -32,7 +32,7 @@ ht-degree: 84%
    | [!UICONTROL **Sem dados recentes**] | Mostrar somente componentes que não coletaram dados nos últimos 90 dias. Essa opção está disponível somente para administradores. |
    | [!UICONTROL **Criado pela Adobe**] <!-- I don't see this option--> | Mostrar somente componentes que foram criados pela Adobe. Os componentes que foram criados por um administrador ou outro usuário em sua organização não são mostrados. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## Informações sobre o componente do dicionário de dados {#dd-component-information}
 
@@ -41,15 +41,15 @@ ht-degree: 84%
 | [!UICONTROL **Aprovado**] | <p>Indica que o componente foi revisado e aprovado pelo administrador.</p><p>Os administradores veem uma opção para [!UICONTROL **Cancelar aprovação**]. Selecionar essa opção marca o componente como &quot;Não aprovado&quot; para os usuários.</p> |
 | [!UICONTROL **Não aprovado**] | <p>Indica que o componente ainda não foi revisado e aprovado pelo administrador.</p><p>Os administradores veem uma opção para [!UICONTROL **Aprovar**]. Selecionar essa opção marca o componente como &quot;Aprovado&quot; para os usuários.</p> |
 | [!UICONTROL **Descrição**] | Descreve a função pretendida do componente. (Essas informações são adicionadas pelo administrador do Analytics, conforme descrito em [Adicionar descrições de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **Frequentemente usado com**] | <p>Mostra os componentes mais usados com o componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: métrica, métrica calculada, dimensão, segmento e intervalo de datas.</p><p>Esta lista é baseada em dados dos últimos 90 dias. Somente os componentes que você tem acesso para exibir são mostrados. <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
-| [!UICONTROL **Semelhante a**] | <p>Mostra componentes com rótulos semelhantes ao componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: métrica, métrica calculada, dimensão, segmento e intervalo de datas.</p><p>Somente os componentes que você tem acesso para exibir são mostrados.</p><p>Todos os componentes duplicados em seu conjunto de relatórios serão exibidos aqui. Os administradores do Analytics devem identificar e remover todos os componentes duplicados, conforme descrito em [Monitorar integridade do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
+| [!UICONTROL **Frequentemente usado com**] | <p>Mostra os componentes mais usados com o componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: métrica, métrica calculada, dimensão, segmento e intervalo de datas.</p><p>Esta lista é baseada em dados dos últimos 90 dias. Somente os componentes que você tem acesso para exibir são mostrados.</p><p>Os administradores veem opções para [!UICONTROL **Sempre incluir**] e [!UICONTROL **Sempre excluir**]. Essas opções permitem que os administradores preparem os componentes que os usuários veem nesta seção.</p> |
+| [!UICONTROL **Semelhante a**] | <p>Mostra componentes com rótulos semelhantes ao componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: métrica, métrica calculada, dimensão, segmento e intervalo de datas.</p><p>Somente os componentes que você tem acesso para exibir são mostrados.</p><p>Todos os componentes duplicados em seu conjunto de relatórios serão exibidos aqui. Os administradores do Analytics devem identificar e remover todos os componentes duplicados, conforme descrito em [Monitorar integridade do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Os administradores veem opções para [!UICONTROL **Sempre incluir**] e [!UICONTROL **Sempre excluir**]. Essas opções permitem que os administradores preparem os componentes que os usuários veem nesta seção.</p> |
 | [!UICONTROL **Tags**] | Mostra todas as tags aplicadas ao componente. Os usuários com acesso de administrador podem adicionar tags ao editar o componente. |
 | [!UICONTROL **Tipo de componente**] | Lista o tipo de componente, seja uma dimensão, uma métrica, um segmento ou um intervalo de datas. |
 | [!UICONTROL **Criado por**] | Mostra o nome do usuário que criou o componente. |
 | [!UICONTROL **Pré-visualizar**] | Mostra uma pré-visualização de como o componente é exibido no Analysis Workspace. |
 | [!UICONTROL **Data da última modificação**] | Exibe o dia em que o componente foi modificado pela última vez. Esta seção é exibida durante a visualização de segmentos, métricas calculadas e intervalos de datas. <!--for CJA, it is displayed for all components--> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Fase de teste limitado da versão {#release-limited-testing}
 
