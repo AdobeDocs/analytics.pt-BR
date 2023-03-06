@@ -2,10 +2,10 @@
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 58937630e6173013b622deec0433ef67b483c483
+source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,8 @@ Para dados enviados por API, como a [API de inserção de dados](https://github.
 
 Não neste momento. Você pode optar por coletar todas as dicas de alta entropia ou nenhuma.
 
+Observe que fullVersionList não está coletado no momento porque a versão principal do navegador é capturada como uma dica de baixa entropia.
+
 +++
 
 +++**Quais são os vários valores de dicas do cliente?**
@@ -64,15 +66,14 @@ A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 | Sec-CH-UA | Navegador e versão significativa | Baixa | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixa | `true` |
 | Sec-CH-UA-Platform | Sistema operacional/plataforma | Baixa | `"Android"` |
-| Sec-CH-UA-Arch | Arquitetura do site | Alta | `"arm"` |
-| Sec-CH-UA-Bitness | Arquitetura de bits | Alta | `"64"` |
-| Sec-CH-UA-Full-Version | Versão completa do navegador | Alta | `"84.0.4143.2"` |
-| Sec-CH-UA-Full-Version-List | Lista de marcas com suas versões | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| Sec-CH-UA-Model | Modelo do dispositivo | Alta | `"Pixel 3"` |
-| Sec-CH-UA-Platform-Version | Versão do sistema operacional/plataforma | Alta | `"10"` |
+| arquitetura | Arquitetura do site | Alta | `"arm"` |
+| bitness | Bitness da arquitetura | Alta | `"64"` |
+| fullVersionList | Lista de marcas com suas versões | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| model | Modelo do dispositivo | Alta | `"Pixel 3"` |
+| platformVersion | Versão do sistema operacional/plataforma | Alta | `"10"` |
 
 * As dicas de baixa entropia são coletadas por meio do cabeçalho da solicitação.
-* As dicas de alta entropia são coletadas por meio de JavaScript e transmitidas pelos valores de parâmetro da string de consulta. Os parâmetros da string de consulta usam `h.` como um prefixo na solicitação de imagem.
+* As dicas de alta entropia são coletadas por meio de JavaScript e transmitidas pelos valores de parâmetro da string de consulta. Os parâmetros da string de consulta usam `h.` como um prefixo na solicitação de imagem. Observe que fullVersionList não está coletado no momento porque a versão principal do navegador é capturada como uma dica de baixa entropia.
 
 Dicas de alta entropia são coletadas por meio da chamada do JavaScript e transmitidas pelo parâmetro de consulta
 
