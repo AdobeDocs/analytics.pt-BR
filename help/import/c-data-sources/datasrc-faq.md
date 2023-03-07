@@ -5,10 +5,10 @@ title: Perguntas frequentes da Fonte de Dados
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 18c5f88cef907af1bdb17c99df59dfb46cc859bc
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 100%
+source-wordcount: '1601'
+ht-degree: 94%
 
 ---
 
@@ -146,3 +146,9 @@ Se forem necessários eventos numéricos, de moeda ou de contador (mais de 1), u
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
 ```
+
+## Por que meu upload de FTP não está sendo coletado?
+
+Depois que o arquivo .fin for carregado, é importante desconectar-se do site FTP das Fontes de dados. O motivo é que o Analytics usa eventos de logout como um acionador para indicar que os arquivos estão prontos para processamento. Se você estiver carregando os arquivos de forma programática, é importante que o processo automatizado também saia do site FTP depois que os arquivos forem carregados.
+
+Verifique se os nomes de arquivo seguem o formato correto. Espaço em branco à esquerda ou à direita no nome do arquivo faz com que ele não seja reconhecido e não seja obtido pelo processo de assimilação de Adobe.
