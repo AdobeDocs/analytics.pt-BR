@@ -1,5 +1,5 @@
 ---
-source-git-commit: ae5571dc1c2c7107dc3ab7368f4616533b190d5f
+source-git-commit: 7f8fdceaaac1d9384e108660c09010bfdc1472b2
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 79%
@@ -68,3 +68,4 @@ ht-degree: 79%
 >[!IMPORTANT]
 >
 >Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com a equipe de conta Adobe de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+

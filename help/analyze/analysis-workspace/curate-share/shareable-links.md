@@ -5,22 +5,30 @@ title: Criar links compartilháveis
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: ht
-source-wordcount: '298'
-ht-degree: 100%
+source-git-commit: 8935f71e52e2486fc1fd8562a31dbd18d69fd18d
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 81%
 
 ---
 
 # Criar links compartilháveis
 
-O Analysis Workspace oferece várias maneiras de compartilhar um projeto com seus usuários, incluindo a capacidade de obter um link para um projeto ou uma parte específica de um projeto. Para a maioria dos tipos de links, os usuários que recebem um link precisam fazer logon no Adobe Analytics antes de acessar o projeto.
+O Analysis Workspace oferece várias maneiras de compartilhar um projeto com seus usuários, incluindo a capacidade de obter um link para um projeto ou uma parte específica de um projeto. Alguns tipos de link exigem que o recipient faça logon no Adobe Analytics antes de acessar o projeto, enquanto outros não.
 
 ## Obter link do projeto {#project-link}
 
 Para compartilhar um link para o projeto completo, acesse **[!UICONTROL Compartilhar > Obter link do projeto]**. Se o recipient do link não tiver uma [função de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) atribuída, os administradores receberão a função **[!UICONTROL Pode editar]** e os não administradores receberão experiências **[!UICONTROL Pode duplicar]** experiências.
 
 ![](assets/get-project-link.png)
+
+## Obter link público
+
+{{release-limited-testing-section}}
+
+Você pode compartilhar um link somente para visualização com projetos da Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics.
+
+Para obter mais informações, consulte &quot;Compartilhar um link público com qualquer pessoa (sem logon necessário)&quot; no artigo [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## Obter o painel ou link de visualização {#panel-link}
 
