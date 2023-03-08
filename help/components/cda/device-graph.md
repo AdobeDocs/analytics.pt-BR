@@ -2,10 +2,10 @@
 title: Gráfico de dispositivos
 description: Entenda os pré-requisitos e as limitações da costura de dados usando o gráfico de dispositivos.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 62%
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ O Cross-Device Analytics pode usar o Gráfico privado para compilar dados. O Gr�
 
 ## Pré-requisitos específicos do gráfico de dispositivos
 
-Se você pretende implementar o Cross-Device Analytics usando o método de gráfico de dispositivo, as seguintes etapas são obrigatórias. Trabalhe com as equipes em sua organização e com a equipe de conta da Adobe para atender a todos os itens a seguir.
+Se você pretende implementar o Cross-Device Analytics usando o método de gráfico de dispositivo, as seguintes etapas são obrigatórias. Trabalhe com as equipes em sua organização e com seu Gerente de conta da Adobe para atender a todos os itens a seguir.
 
 >[!WARNING]
 >

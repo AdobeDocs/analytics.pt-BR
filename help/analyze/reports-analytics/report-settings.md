@@ -4,10 +4,10 @@ title: Configurações e navegação da exibição de relatórios
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 98%
+source-wordcount: '1557'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Configurações que definem como todos os relatórios são exibidos e as informa
 | **Idioma/Moeda/Codificação** |  |
 | Separador de milhares | Selecione um separador para cada milhares (decimal ou vírgula). Muitos países utilizam um número decimal para separar o número de milhares. (Este separador é aplicado a todos os números de todo o sistema, não apenas à moeda.) |
 | Usar a moeda padrão do conjunto de relatórios | Especifica se a moeda padrão do conjunto de relatórios será ou não usada. |
-| Moeda | A moeda para a qual você deseja converter seus dados. Quando um valor é selecionado nessa configuração, os dados armazenados no banco de dados não são afetados, mas é mostrado como um valor convertido com base na taxa de conversão de moeda do dia. Quando as opções de moeda não são configuradas (definidas como padrão) não ocorre nenhuma conversão de moeda, e todos os valores são armazenados e exibidos em dólares dos EUA (USD). Para converter a moeda quando os dados forem processados (antes de serem exibidos), entre em contato com a Equipe de conta do Adobe. |
+| Moeda | A moeda para a qual você deseja converter seus dados. Quando um valor é selecionado nessa configuração, os dados armazenados no banco de dados não são afetados, mas é mostrado como um valor convertido com base na taxa de conversão de moeda do dia. Quando as opções de moeda não são configuradas (definidas como padrão) não ocorre nenhuma conversão de moeda, e todos os valores são armazenados e exibidos em dólares dos EUA (USD). Para converter a moeda quando os dados são processados (antes de serem exibidos), entre em contato com o seu gerente de contas do. |
 | Codificação do Relatório Programado | Codificação SHIFT-JIS de caracteres japoneses. EUC-JP para código Unix Extended, principalmente para japonês, coreano e chinês simplificado. |
 | Caractere de Separação do CSV | O caractere que você deseja usar para separar os valores CSV. |
 

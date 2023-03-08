@@ -3,16 +3,18 @@ title: getAndPersistValue
 description: Armazene um valor que pode ser recuperado posteriormente a qualquer momento.
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 91%
+source-wordcount: '481'
+ht-degree: 92%
 
 ---
 
 # Plug-in da Adobe: getAndPersistValue
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
 O plug-in `getAndPersistValue` permite armazenar um valor em um cookie que pode ser recuperado posteriormente durante uma visita. Desempenha um papel semelhante ao da [!UICONTROL Duração do armazenamento] recurso na extensão Adobe Analytics da Coleção de dados da Adobe Experience Platform. A Adobe recomenda usar esse plug-in se você quiser manter automaticamente uma variável do Analytics com o mesmo valor em ocorrências subsequentes à definição da variável. Esse plug-in não é necessário se a variável [!UICONTROL Duração do armazenamento] recurso na extensão do Analytics é suficiente. Também não é necessário usar esse plug-in se você não precisar definir e manter variáveis com o mesmo valor em ocorrências subsequentes. A persistência integrada das eVars não requer o uso desse plug-in, pois essas eVars persistem no lado do servidor por ação da Adobe.
 

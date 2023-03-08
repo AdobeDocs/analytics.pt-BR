@@ -4,10 +4,10 @@ keywords: Conjunto de relatórios virtual, VRS
 title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '1755'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Substituir a marcação de vários conjuntos pelo conjunto de relatórios global
 
 ## Diretrizes
 
-Se não tiver certeza se os casos de uso descritos se aplicam a você e a sua organização, consulte outros administradores da Adobe Analytics ou a equipe de conta do Adobe. Eles podem ajudar a avaliar suas necessidades corporativas e recomendar a melhor opção.
+Se não tiver certeza se os casos de uso descritos se aplicam a você e a sua empresa, consulte outros administradores do Adobe Analytics ou o gerente de conta da Adobe. Eles podem ajudar a avaliar suas necessidades corporativas e recomendar a melhor opção.
 
 Tenha as seguintes considerações em mente ao determinar se deve usar a marcação de vários conjuntos ou conjuntos de relatórios virtuais:
 

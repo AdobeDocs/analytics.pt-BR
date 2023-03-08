@@ -2,10 +2,10 @@
 title: Gerenciador de processos do conjunto de classificações
 description: Exibe processos de classificação atuais e concluídos que foram gerados a partir dos conjuntos de classificações.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 93%
+source-wordcount: '418'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ O Gerenciador de processos do conjunto de classificações permite visualizar os
 
 >[!NOTE]
 >
->Esse recurso está disponível para todos os clientes na arquitetura do Conjunto de classificações. Entre em contato com o Atendimento ao cliente da Adobe ou com a equipe de conta da Adobe para obter mais informações.
+>Esse recurso estará disponível para todos os clientes que tiverem seus conjuntos de relatórios migrados para a nova arquitetura de Classificações. Entre em contato com o Atendimento ao cliente da Adobe ou com seu gerente de conta para obter mais informações.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]** > **[!UICONTROL Processos]**
 

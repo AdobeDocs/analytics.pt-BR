@@ -4,10 +4,10 @@ title: Configurações gerais da conta
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 97%
+source-wordcount: '809'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Essas configurações contêm opções de edição para a funcionalidade básica
 | Armazenamento de ID de transação | Permite usar fontes de dados da [ID de transação](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md). |
 | Habilitar o Data Warehouse | Habilita a interface do usuário do Data Warehouse em Analytics > Ferramentas > Data Warehouse. |
 | Opção de CEP | Permite especificar o CEP em vez de usar o que a pesquisa de IP geográfico produz. |
-| Suporte a caracteres com vários bytes | O suporte a caracteres multibyte armazena caracteres no conjunto de relatórios usando UTF-8. No recebimento, o sistema converte os dados do conjunto de caracteres de sua página da Web para o conjunto de caracteres UTF-8, de modo a permitir o uso de qualquer idioma em seus relatórios de marketing. Entre em contato com a Equipe de conta do Adobe ou com o Atendimento ao cliente para alterar o suporte a caracteres multibyte de um conjunto de relatórios existente. |
+| Suporte a caracteres com vários bytes | O suporte a caracteres multibyte armazena caracteres no conjunto de relatórios usando UTF-8. No recebimento, o sistema converte os dados do conjunto de caracteres de sua página da Web para o conjunto de caracteres UTF-8, de modo a permitir o uso de qualquer idioma em seus relatórios de marketing. Entre em contato com seu Gerente de conta ou com o Atendimento ao cliente para alterar o suporte a caracteres multibyte de um conjunto de relatórios existente. |
 | Ativado | Especifica se este conjunto de relatórios está ativado ou não. |
 | Moeda de base | Permite especificar a [moeda](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=pt-BR) base para este conjunto de relatórios. |
 | ID da organização | A ID associada à empresa provisionada pela Experience Cloud. A ID é uma sequência de 24 caracteres alfanuméricos seguidos por (e deve incluir) @AdobeOrg. |

@@ -3,16 +3,18 @@ title: getValOnce
 description: Impeça que uma variável do Analytics seja definida com o mesmo valor duas vezes seguidas.
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '476'
 ht-degree: 98%
 
 ---
 
 # Plug-in da Adobe: getValOnce
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
 O plug-in `getValOnce` impede que uma variável seja definida com o mesmo valor mais de uma vez. A Adobe recomenda usar esse plug-in quando você deseja desduplicar ocorrências nas quais um visitante atualiza uma página ou visita uma determinada página várias vezes. Esse plug-in é desnecessário se você não se preocupar com a métrica &quot;Ocorrências&quot; no Analysis Workspace.
 

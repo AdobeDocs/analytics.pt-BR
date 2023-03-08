@@ -3,16 +3,18 @@ title: cleanStr
 description: Remova ou substitua todos os caracteres desnecessários de uma string.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 80%
+source-wordcount: '356'
+ht-degree: 83%
 
 ---
 
 # Plug-in da Adobe: cleanStr
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
 
 O plug-in `cleanStr` remove ou substitui todos os caracteres desnecessários de uma string, incluindo caracteres de tags HTML, espaços em branco extras, tabulações e retornos de caracteres de nova linha. Também substitui aspas simples esquerda/direita (`‘` e `’`) por aspas simples retas (`'`). O Adobe recomenda usar esse plug-in se você quiser remover caracteres desnecessários de valores variáveis e se o recurso &quot;Texto limpo&quot; na Coleção de dados do Adobe Experience Platform não atender às suas necessidades de implementação. Esse plug-in não será necessário se os dados coletados não contiverem caracteres desnecessários ou se o recurso &quot;Limpar texto&quot; na Coleção de dados do Adobe Experience Platform for suficiente.
 

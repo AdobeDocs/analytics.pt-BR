@@ -5,10 +5,10 @@ title: Referência do arquivo de importação
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 93%
+source-wordcount: '430'
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Use o modelo da Fonte de dados para criar um arquivo de Fontes de dados que cont
 * Para acelerar o processamento de seu arquivo de Fontes de dados, a Adobe recomenda reunir os dados do evento (métrica) em uma única linha, por data.
 
    Por exemplo, se seu arquivo de Fontes de dados mapeia dados de impressão de anúncio para o Evento 6, crie uma linha de dados única que inclua o total de impressões de anúncio por dia, em vez de criar uma entrada de linha de dados separada para cada impressão de anúncio que ocorreu em um determinado dia.
-* Se precisar fazer upload de dados de datas anteriores à data de criação do conjunto de relatórios, entre em contato com a equipe da conta do Adobe para alterar a data mais antiga para a qual você pode executar relatórios.
+* Se você precisa carregar dados de datas anteriores à criação de seu conjunto de relatórios, entre em contato com um Gerente de contas para alterar a data mais antiga de geração de relatórios.
 
 **Arquivo .FIN**
 

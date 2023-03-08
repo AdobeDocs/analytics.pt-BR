@@ -2,16 +2,16 @@
 title: Mapeamento de variável do Analytics na Adobe Experience Edge
 description: Visualize quais campos XDM a borda mapeia automaticamente para variáveis do Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 6a1c95a25c89332b0d549e5ce8c5197331e71e3c
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 98%
+source-wordcount: '1441'
+ht-degree: 100%
 
 ---
 
 # Mapeamento de variável do Analytics na Adobe Experience Edge
 
-A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience Platform mapeia automaticamente para o Adobe Analytics. Se você usar esses Caminhos de campo XDM, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics. Esses campos estão incluídos na variável **[!UICONTROL Modelo de evento de experiência do Adobe Analytics]** grupo de campos.
+A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience Platform mapeia automaticamente para o Adobe Analytics. Se você usar esses Caminhos de campo XDM, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics.
 
 | Caminho do campo XDM | Dimensão e descrição do Analytics |
 | --- | --- |
@@ -125,7 +125,7 @@ A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience P
 | `web.webPageDetails.siteSection` | A dimensão [Seção do site](../../components/dimensions/site-section.md). |
 | `web.webReferrer.URL` | A dimensão [Referenciador](../../components/dimensions/referrer.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
 

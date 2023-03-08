@@ -3,7 +3,7 @@ description: Quando um relatório tem muitos valores únicos, o Adobe usa o item
 title: Valor de tráfego baixo no Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 49%
@@ -30,7 +30,7 @@ Essa lógica permite que o Adobe otimize os recursos de relatórios e, ao mesmo 
 
 ## Alterar limites exclusivos
 
-Os limites são de 500.000 e 1 milhão de valores únicos por padrão. Esses limites podem ser alterados para cada variável. Entre em contato com o Atendimento ao cliente da Adobe ou com a equipe de conta da Adobe para solicitar essa alteração. Ao solicitar uma alteração, inclua:
+Os limites são de 500.000 e 1 milhão de valores únicos por padrão. Esses limites podem ser alterados para cada variável. Entre em contato com o Atendimento ao cliente da Adobe ou com o gerente de conta de sua organização para solicitar essa alteração. Ao solicitar uma alteração, inclua:
 
 * A ID do conjunto de relatórios
 * A variável para a qual você deseja aumentar o limite

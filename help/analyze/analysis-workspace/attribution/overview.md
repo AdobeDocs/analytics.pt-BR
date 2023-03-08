@@ -4,10 +4,10 @@ description: O conceito de atribuição de crédito de um evento bem-sucedido a 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ A atribuição oferece aos analistas a capacidade de personalizar como os itens 
 1. Um visitante do site clica em um link de pesquisa pago para uma de suas páginas de produtos. Eles adicionam o produto ao carrinho, mas não o compram.
 2. No dia seguinte, eles veem uma postagem de mídia social de um de seus amigos, clicam no link e concluem a compra.
 
-Em alguns relatórios, você pode desejar que a ordem seja atribuída à pesquisa paga. Em outros relatórios, você pode desejar que a ordem seja atribuída ao Social. A atribuição permite controlar esse aspecto dos relatórios. Ele está disponível para todas as organizações no Adobe Analytics Ultimate, Prime, Select e Foundation. Se não tiver certeza de qual tipo de contrato você tem com o Adobe, entre em contato com a equipe de conta do Adobe.
+Em alguns relatórios, você pode desejar que a ordem seja atribuída à pesquisa paga. Em outros relatórios, você pode desejar que a ordem seja atribuída ao Social. A atribuição permite controlar esse aspecto dos relatórios. Ele está disponível para todas as organizações no Adobe Analytics Ultimate, Prime, Select e Foundation. Se você não tiver certeza de qual tipo de contrato tem com a Adobe, entre em contato com o Gerente de conta da sua organização.
 
 ## Valor do Attribution IQ
 

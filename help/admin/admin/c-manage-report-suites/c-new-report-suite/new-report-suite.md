@@ -4,10 +4,10 @@ title: Configurações do novo conjunto de relatórios
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 96%
+source-wordcount: '515'
+ht-degree: 100%
 
 ---
 
@@ -31,6 +31,6 @@ Descrições dos elementos usados ao [Criar um conjunto de relatórios](/help/ad
 | Data de ativação | Informa a Adobe quanto à data em que você espera que este conjunto de relatórios fique ativo. Se sua programação de implantação for alterada, forneça uma estimativa de tráfego atualizada usando a ferramenta Tráfego esperado permanente em Gerenciamento do tráfego. |
 | Exibições de página estimadas por dia | Identifica o número estimado de Exibições de página a que você espera que este conjunto de relatórios preste suporte em um dia. Grandes volumes de tráfego requerem um processo de aprovação mais longo. Para evitar atrasos no processamento, seja tão preciso quanto possível com relação a esta estimativa. |
 | Moeda de base | Especifica a moeda padrão usada para armazenar todos os dados monetários. O Analytics converte as transações em outras moedas para a moeda de base usando a taxa de conversão atual no momento em que recebe os dados. Os relatórios do Analytics usam a variável de JavaScript “currencyCode” para identificar a moeda de uma determinada transação. |
-| Desativar suporte de caractere multibyte | Desativa o suporte de caractere multibyte para o conjunto de relatórios. Se você desativar o suporte de caractere multibyte, o sistema partirá do princípio de que os dados estão no formato `ISO-8859-1`. As páginas da Web precisam especificar seu conjunto de caracteres na variável de JavaScript “charSet”. <p>O suporte a caracteres multibyte armazena caracteres no conjunto de relatórios usando UTF-8. No recebimento, o sistema converte os dados do conjunto de caracteres de sua página da Web para o conjunto de caracteres UTF-8, de modo a permitir o uso de qualquer idioma em seus relatórios de marketing.  Entre em contato com a Equipe de conta do Adobe ou com o Atendimento ao cliente para alterar o suporte a caracteres multibyte de um conjunto de relatórios existente. |
+| Desativar suporte de caractere multibyte | Desativa o suporte de caractere multibyte para o conjunto de relatórios. Se você desativar o suporte de caractere multibyte, o sistema partirá do princípio de que os dados estão no formato `ISO-8859-1`. As páginas da Web precisam especificar seu conjunto de caracteres na variável de JavaScript “charSet”. <p>O suporte a caracteres multibyte armazena caracteres no conjunto de relatórios usando UTF-8. No recebimento, o sistema converte os dados do conjunto de caracteres de sua página da Web para o conjunto de caracteres UTF-8, de modo a permitir o uso de qualquer idioma em seus relatórios de marketing.  Entre em contato com seu Gerente de conta ou com o Atendimento ao cliente para alterar o suporte a caracteres multibyte de um conjunto de relatórios existente. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
