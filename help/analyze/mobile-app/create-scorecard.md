@@ -4,7 +4,7 @@ title: Criar um cartão de pontuação móvel
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 67f74d852f1650f729ce9b5ad725134d9fc9cd60
+source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 76%
@@ -233,7 +233,7 @@ Crie sua história de dados adicionando vários slides de detalhes a um bloco.
 1. Comece com um projeto de cartão de pontuação móvel.
 1. Selecione um bloco a partir do qual deseja criar uma história.
    ![Criar uma história de dados](assets/data-story1.png)
-   ![Criar ícones de história de dados](assets/create-data-story.png){width="25%"}
+   ![Criar ícones de história de dados](assets/create-data-story.png){width=".50%"}
 1. Adicione slides para criar sua história de dados. Seu primeiro slide é gerado por padrão.
 Para adicionar novos slides, passe o mouse sobre ele ou clique em um slide, em seguida, selecione uma das opções disponíveis:
    * Toque no sinal + para criar um novo slide.

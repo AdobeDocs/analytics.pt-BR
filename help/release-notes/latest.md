@@ -3,9 +3,9 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
+source-git-commit: 6e6fcca0c2fa1fd1ee433c7d1b9727c058bb711e
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1062'
 ht-degree: 55%
 
 ---
@@ -21,7 +21,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Dicionário de dados no Analysis Workspace** | O Dicionário de dados ajuda os usuários e administradores a rastrear, gerenciar e entender melhor os componentes (dimensões, métricas) em seu ambiente do Analytics. [Saiba mais](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 de março de 2023 | 22 de março de 2023 |
-| **Histórias de dados em painéis móveis** | As histórias de dados permitem adicionar várias exibições de detalhes personalizáveis aos blocos nos projetos de cartões de pontuação móveis. Use histórias de dados para se aprofundar em drivers principais, métricas relacionadas e diferentes etapas ao longo da jornada do cliente. Você pode passar facilmente por essas exibições para entender toda a história por trás de suas métricas principais. Saiba mais (a seguir) | N/D | 8 de março de 2023 |
+| **Histórias de dados em painéis móveis** | As histórias de dados permitem adicionar várias exibições de detalhes personalizáveis aos blocos nos projetos de cartões de pontuação móveis. Use histórias de dados para se aprofundar em drivers principais, métricas relacionadas e diferentes etapas ao longo da jornada do cliente. Você pode passar facilmente por essas exibições para entender toda a história por trás de suas métricas principais. [Saiba mais](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N/D | 8 de março de 2023 |
 | **Datas de expiração do projeto agendado** | Você pode definir datas de expiração máximas para projetos agendados para até um ano, independentemente da frequência de agendamento. | N/D | 8 de março de 2023 |
 | **Compartilhamento de link para projetos (sem logon necessário)** - Somente acesso beta privado | <p>Agora você pode compartilhar links somente leitura para projetos do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics. Você pode compartilhar links de projeto com pessoas de fora da organização ou aquelas dentro da organização que não estão provisionadas para a Adobe Analytics. [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Para participar do beta privado, entre em contato com a equipe de conta do Adobe.</p> | 15 de março de 2023 (Beta privado) | Abril de 2023 |
 
