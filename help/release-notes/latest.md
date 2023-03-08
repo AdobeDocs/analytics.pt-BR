@@ -3,7 +3,7 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 22374dbf0cea5842bd59c8c22aec6518a0600aa8
+source-git-commit: c156ab154bc34ffb653c9ad5509c409f475db39d
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 86%
@@ -16,7 +16,7 @@ ht-degree: 86%
 
 As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
-## Recursos novos ou atualizados no Adobe Analytics
+## Recursos novos ou atualizados no Adobe Analytics {#features}
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
@@ -32,7 +32,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 
 -302282; AN-303127; AN-303541; AN-303550; AN-305282; AN-306504; AN-307351; AN-307496; AN-307530; AN-307947; AN-308497; AN-; AN-308610; AN-308777; AN-308994; AN-309143; AN-309404; AN-309414; AN-309445; AN-309575; AN-309630; AN-309658; AN-309690; AN-309742; AN-309861; AN-309967; AN-309973; AN-310059; AN-310132; AN-310168; AN-310238; AN-310241; AN-310301; AN-310318; AN-310324; AN-310335; AN-310338; AN-310460; AN-310500; AN-310684; AN-310690; AN-311010; AN-311022; AN-311043; AN-311125; AN-311250; AN-311370; AN-311458;
 
-## Avisos importantes para administradores do Adobe Analytics
+## Avisos importantes para administradores do Adobe Analytics {#admin}
 
 | Aviso | Data de adição  ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
@@ -42,7 +42,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 
 {style="table-layout:auto"}
 
-## Avisos de fim da vida útil (EOL)
+## Avisos de fim da vida útil (EOL) {#eol}
 
 | Fim da vida útil do produto ou recurso | Data de adição ou atualização | Descrição |
 | --- | --- | --- |
