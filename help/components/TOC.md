@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre a análise entre dispositivos.
-source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
+source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 96%
+source-wordcount: '690'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
    + [Intensidade de cor](dimensions/color-depth.md)
    + [Tipo de conexão](dimensions/connection-type.md)
    + [Aceitação do gerenciamento de consentimento](dimensions/cm-opt-in.md)
-   + [Opt out do gerenciamento de consentimento](dimensions/cm-opt-out.md)
+   + [Recusa no gerenciamento de consentimento](dimensions/cm-opt-out.md)
    + [Suporte a cookies](dimensions/cookie-support.md)
    + [Países](dimensions/countries.md)
    + [Link personalizado](dimensions/custom-link.md)
@@ -201,6 +201,7 @@ ht-degree: 96%
       + [Compatibilidade de métrica](c-calcmetrics/cm-compatibility.md)
       + [Métricas calculadas: direitos baseados em função](c-calcmetrics/cm-role-based-rights.md)
       + [Totais de métricas calculadas](c-calcmetrics/cm-totals.md)
+      + [Métricas calculadas padrão](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Conjuntos de relatórios virtuais {#virtual-report-suites}
    + [Visão geral dos conjuntos de relatórios virtuais](vrs/vrs-about.md)
    + [Curadoria do componente do conjunto de relatórios virtual](vrs/vrs-components.md)
