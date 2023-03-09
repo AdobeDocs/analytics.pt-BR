@@ -1,8 +1,8 @@
 ---
-source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
+source-git-commit: d102da78285499f9afa5faaf8bc2b3d6ea2c61f5
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 79%
+source-wordcount: '916'
+ht-degree: 70%
 
 ---
 # Trechos
@@ -28,7 +28,7 @@ ht-degree: 79%
    | [!UICONTROL **Exibir tudo**] | Mostrar todos os componentes. Essa opção está disponível somente para administradores. |
    | [!UICONTROL **Não aprovado**] | Mostrar apenas componentes que ainda não estejam marcados como Aprovados por um administrador. Como administrador, isso é útil ao identificar componentes que exigem sua revisão e aprovação. Essa opção está disponível somente para administradores. |
    | [!UICONTROL **Descrição ausente**] | Mostrar somente componentes que ainda não têm uma descrição no campo Descrição. Essa opção está disponível somente para administradores. |
-   | [!UICONTROL **Mostrar duplicatas**] | Mostrar somente componentes que têm o mesmo rótulo ou a mesma descrição de outro componente no conjunto de relatórios selecionado. Isso inclui componentes que você cria, bem como os fornecidos pelo Adobe. Rótulos ou descrições devem ser correspondências exatas para serem mostradas como duplicatas. Essa opção está disponível somente para administradores. |
+   | [!UICONTROL **Mostrar duplicatas**] | <p>Mostrar apenas componentes que tenham o mesmo rótulo ou a mesma definição de outro componente no Conjunto de relatórios selecionado. Rótulos ou definições devem ser correspondências exatas para serem exibidos como duplicatas.</p><p>Essa opção está disponível somente para administradores.</p><p>**NOTA:** Para definições, isso inclui os componentes criados, bem como os fornecidos pelo Adobe. Para rótulos, atualmente isso inclui apenas os componentes criados por você e não os fornecidos pelo Adobe. A exibição de rótulos duplicados para componentes fornecidos pelo Adobe será adicionada em uma versão futura.</p> |
    | [!UICONTROL **Sem dados recentes**] | Mostrar somente componentes que não coletaram dados nos últimos 90 dias. Essa opção está disponível somente para administradores. |
    | [!UICONTROL **Criado pela Adobe**] <!-- I don't see this option--> | Mostrar somente componentes que foram criados pela Adobe. Os componentes que foram criados por um administrador ou outro usuário em sua organização não são mostrados. |
 
@@ -42,7 +42,7 @@ ht-degree: 79%
 | [!UICONTROL **Não aprovado**] | <p>Indica que o componente ainda não foi revisado e aprovado pelo administrador.</p><p>Os administradores veem uma opção para [!UICONTROL **Aprovar**]. Selecionar essa opção marca o componente como &quot;Aprovado&quot; para os usuários.</p> |
 | [!UICONTROL **Descrição**] | Descreve a função pretendida do componente. (Essas informações são adicionadas pelo administrador do Analytics, conforme descrito em [Adicionar descrições de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
 | [!UICONTROL **Frequentemente usado com**] | <p>Mostra os componentes mais usados com o componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: métrica, métrica calculada, dimensão, segmento e intervalo de datas.</p><p>Esta lista é baseada em dados dos últimos 90 dias. Somente os componentes que você tem acesso para exibir são mostrados.</p><p>Os administradores veem opções para [!UICONTROL **Sempre incluir**] e [!UICONTROL **Sempre excluir**]. Essas opções permitem que os administradores preparem os componentes que os usuários veem nesta seção.</p> |
-| [!UICONTROL **Semelhante a**] | <p>Mostra componentes com rótulos semelhantes ao componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: métrica, métrica calculada, dimensão, segmento e intervalo de datas.</p><p>Somente os componentes que você tem acesso para exibir são mostrados.</p><p>Todos os componentes duplicados em seu conjunto de relatórios serão exibidos aqui. Os administradores do Analytics devem identificar e remover todos os componentes duplicados, conforme descrito em [Monitorar integridade do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Os administradores veem opções para [!UICONTROL **Sempre incluir**] e [!UICONTROL **Sempre excluir**]. Essas opções permitem que os administradores preparem os componentes que os usuários veem nesta seção.</p> |
+| [!UICONTROL **Semelhante a**] | <p>Mostra componentes com rótulos semelhantes ao componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: métrica, métrica calculada, dimensão, segmento e intervalo de datas.</p><p>Somente os componentes que você tem acesso para exibir são mostrados.</p><p>Todos os componentes duplicados em seu conjunto de relatórios serão exibidos aqui. Os administradores do Analytics devem identificar e remover todos os componentes duplicados, conforme descrito em [Monitorar integridade do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Os administradores veem opções para [!UICONTROL **Sempre incluir**] e [!UICONTROL **Sempre excluir**]. Essas opções permitem que os administradores preparem os componentes que os usuários veem nesta seção.</p><p>**NOTA:** Atualmente, isso inclui apenas os componentes criados por você e não os fornecidos pelo Adobe. Os componentes fornecidos pelo Adobe serão adicionados em uma versão futura.</p> |
 | [!UICONTROL **Tags**] | Mostra todas as tags aplicadas ao componente. Os usuários com acesso de administrador podem adicionar tags ao editar o componente. |
 | [!UICONTROL **Tipo de componente**] | Lista o tipo de componente, seja uma dimensão, uma métrica, um segmento ou um intervalo de datas. |
 | [!UICONTROL **Criado por**] | Mostra o nome do usuário que criou o componente. |
