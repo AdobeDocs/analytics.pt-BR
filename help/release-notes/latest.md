@@ -3,10 +3,10 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c99e4f2b91d6246a2a47e39dc24ba443b76636f6
+source-git-commit: 3d2e6966fbc765cd19f7a258457d89af3097083f
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 56%
+source-wordcount: '1208'
+ht-degree: 50%
 
 ---
 
@@ -24,6 +24,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 | **Histórias de dados em painéis móveis** | As histórias de dados permitem adicionar várias exibições de detalhes personalizáveis aos blocos nos projetos de cartões de pontuação móveis. Use histórias de dados para se aprofundar em drivers principais, métricas relacionadas e diferentes etapas ao longo da jornada do cliente. Você pode passar facilmente por essas exibições para entender toda a história por trás de suas métricas principais. [Saiba mais](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N/D | 8 de março de 2023 |
 | **Datas de expiração do projeto agendado** | Você pode definir datas de expiração máximas para projetos agendados para até um ano, independentemente da frequência de agendamento. | N/D | 8 de março de 2023 |
 | **Compartilhamento de link para projetos (sem logon necessário)** - Somente acesso beta privado | <p>Agora você pode compartilhar links somente leitura para projetos do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics. Você pode compartilhar links de projeto com pessoas de fora da organização ou aquelas dentro da organização que não estão provisionadas para a Adobe Analytics. [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Para participar do beta privado, entre em contato com a equipe de conta do Adobe.</p> | 15 de março de 2023 (Beta privado) | Abril de 2023 |
+| **Atualizações do intervalo de datas do painel** | Adicionamos as seguintes melhorias no espaço de trabalho:<ul><li>A partir da versão de fevereiro, os itens de dimensão e as visualizações de dados se baseiam no intervalo de datas do painel e não nos últimos 90 dias. </li><li>Todos os itens de dimensão listados se baseiam em dados dentro do intervalo de datas do painel. Se um item de dimensão tiver dados fora do intervalo de datas, você poderá mostrar dados adicionais além do intervalo de datas na parte inferior da lista.</li><li>Os Dimension que não têm dados podem ser exibidos no painel esquerdo. Clique em Mostrar mais opções para exibir itens de dimensão com dados fora do intervalo de datas do painel.</li><li>As visualizações de dados no segmento e nos construtores de métricas calculadas se baseiam no intervalo de datas do painel, a menos que sejam acessadas a partir dos gerenciadores de componentes, que não têm um painel associado e ainda se baseiam nos últimos 90 dias.</li><li>As visualizações de dados exibem dados ou componentes com base no intervalo de datas do painel.</li></ul> | N/D | 8 de fevereiro de 2023 |
 
 ## Correções no Adobe Analytics 
 
