@@ -46,7 +46,7 @@ MAXV(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | Uma métrica que você gostaria de avaliar. |
+| *metric* | Uma métrica que você gostaria de avaliar. |
 
 ## Mínimo da coluna {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -58,7 +58,7 @@ MINV(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | Uma métrica que você gostaria de avaliar. |
+| *metric* | Uma métrica que você gostaria de avaliar. |
 
 ## Soma da coluna {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -70,7 +70,7 @@ SUM(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica para a qual você deseja obter o valor total ou soma. |
+| *metric* | A métrica para a qual você deseja obter o valor total ou soma. |
 
 ## Contagem (Tabela) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -82,7 +82,7 @@ COUNT(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica que deseja contar. |
+| *metric* | A métrica que deseja contar. |
 
 ## Expoente (Linha) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
@@ -94,7 +94,7 @@ EXP(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | O exponente aplicado à base *e*. |
+| *metric* | O exponente aplicado à base *e*. |
 
 ## Exponenciação {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -114,7 +114,7 @@ MEAN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica para a qual você deseja obter a média. |
+| *metric* | A métrica para a qual você deseja obter a média. |
 
 ## Mediana (Tabela) {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -126,7 +126,7 @@ MEDIAN(metric)
 
 | Argumento | Descrição |
 |---|---|
-| *métrica* | A métrica para a qual você deseja obter a mediana. |
+| *metric* | A métrica para a qual você deseja obter a mediana. |
 
 ## Módulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
@@ -162,8 +162,8 @@ PERCENTILE(metric,k)
 
 | Argumento | Descrição |
 | --- | --- |
-| *métrica* | A coluna de métrica que define a posição relativa. |
-| *k* | O valor do percentil no intervalo de 0 a 100, inclusive. |
+| *metric* | A coluna de métrica que define a posição relativa. |
+| *k* | O valor do percentil no intervalo de 0 a 100, incluso. |
 
 ## Quartil (Tabela) {#concept_BFD37F0F23A24AD181407142233FA151}
 
@@ -175,14 +175,14 @@ QUARTILE(metric,quart)
 
 | Argumento | Descrição |
 | --- | --- |
-| *métrica* | A métrica para a qual você deseja obter o valor do quartil. |
+| *metric* | A métrica para a qual você deseja obter o valor do quartil. |
 | *quart* | Indica o *valor a retornar. |
 
-*Se *quart* = 0, QUARTILE retorna o valor mínimo. Se *quart* = 1, QUARTILE retorna o primeiro quartil (percentil 25). Se *quart* = 2, QUARTILE retorna o primeiro quartil (percentil 50). Se *quart* = 3, QUARTILE retorna o primeiro quartil (percentil 75). Se *quart* = 4, QUARTILE retorna o valor máximo.
+&#42;Se *quart* = 0, QUARTILE retorna o valor mínimo. Se *quart* = 1, QUARTILE retorna o primeiro quartil (percentil 25). Se *quart* = 2, QUARTILE retorna o primeiro quartil (percentil 50). Se *quart* = 3, QUARTILE retorna o primeiro quartil (percentil 75). Se *quart* = 4, QUARTILE retorna o valor máximo.
 
 ## Arredondar {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
-Retorna o número inteiro mais próximo para um determinado valor. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula Round(*Receita*) para arredondar a receita para o número inteiro mais próximo; neste caso, US$569. Um produto de US$569,51 será arredondado para o valor inteiro mais próximo, ou seja, US$570.
+Retorna o número inteiro mais próximo para um determinado valor. Por exemplo, caso você não queira relatar os decimais na receita e um produto apresentar um valor de US$569,34, use a fórmula Round(*Revenue*) para arredondar a receita para o número inteiro mais próximo; neste caso, US$569. Um produto de US$569,51 será arredondado para o valor inteiro mais próximo, ou seja, US$570.
 
 ```
 ROUND(metric)
@@ -245,7 +245,7 @@ STDEV(metric)
 
 | Argumento | Descrição |
 | --- | --- |
-| *métrica* | A métrica para a qual você deseja obter o desvio padrão. |
+| *metric* | A métrica para a qual você deseja obter o desvio padrão. |
 
 ## Variação (Tabela) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -263,7 +263,7 @@ VARIANCE(metric)
 
 | Argumento | Descrição |
 | --- | --- |
-| *métrica* | A métrica para a qual você deseja obter a variação. |
+| *metric* | A métrica para a qual você deseja obter a variação. |
 
 Para calcular uma variação, considere uma coluna inteira de números. Nessa lista de números, calcule primeiro a média. Após obter a média, faça o seguinte em cada entrada:
 

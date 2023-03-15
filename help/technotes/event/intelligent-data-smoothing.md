@@ -1,35 +1,36 @@
 ---
 title: Suavização inteligente de dados
-description: Saiba como a Suavização de dados inteligente analisa as tendências históricas para prever o valor de qualquer métrica dentro de um período de tempo afetado.
-feature: Ferramentas de IA
+description: Saiba como o Suavização inteligente de dados analisa tendências históricas para prever o valor de qualquer métrica em um período afetado.
+feature: AI Tools
 role: User, Admin
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+exl-id: b7a2e5d5-99d4-408d-84e6-67abff9e8727
+source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 5%
+source-wordcount: '256'
+ht-degree: 4%
 
 ---
 
 # Suavização inteligente de dados
 
-Em raras ocasiões, alguns fatores podem afetar a qualidade dos dados. O tráfego de bot, as alterações de implementação ou as interrupções do serviço podem afetar a integridade dos dados coletados. Eles também complicam a análise de como o evento pode ter afetado a integridade dos dados.
+Em raras ocasiões, alguns fatores podem afetar a qualidade dos dados. O tráfego de bot, as alterações de implementação ou as interrupções de serviço podem afetar a integridade dos dados coletados. Elas também complicam a análise de como o evento pode ter afetado a integridade dos dados.
 
-A Suavização de dados inteligente é um protótipo em [Analytics Labs](/help/analyze/labs.md) que pode ajudar a concluir essa visualização ao analisar tendências históricas para prever o valor de qualquer métrica dentro do período afetado. O protótipo aplica algoritmos avançados de aprendizado de máquina para traçar os valores esperados para as métricas durante o período de tempo que está sendo analisado.
+Suavização inteligente de dados é um protótipo no [Laboratórios do Analytics](/help/analyze/labs.md) que podem ajudar a concluir essa exibição, analisando tendências históricas para prever o valor de qualquer métrica no período afetado. O protótipo aplica algoritmos avançados de aprendizado de máquina para plotar os valores esperados para métricas durante o período em análise.
 
-## Executar Suavização de Dados Inteligente
+## Executar Suavização Inteligente de Dados
 
-1. Navegue até Adobe Analytics Labs:
+1. Navegue até o Adobe Analytics Labs:
    ![Labs](assets/labs.png)
-1. Inicie o protótipo de Suavização inteligente de dados .
-   ![Iniciar protótipo](assets/intelligent-ds.png)
-1. Adicione a métrica que deve ser analisada à tabela de forma livre. O protótipo só funciona com granularidade diária, portanto, verifique se a dimensão na tabela é Dia.
+1. Inicie o protótipo Suavização inteligente de dados.
+   ![Protótipo do Launch](assets/intelligent-ds.png)
+1. Adicione a métrica que deve ser analisada à tabela de Forma livre. O protótipo funciona apenas com uma granularidade diária, portanto, verifique se a dimensão na tabela é Dia.
    ![Adicionar métrica](assets/add-metric.png)
-1. Escolha um intervalo de datas maior que a janela do evento, mas verifique se ele inclui o evento.
+1. Escolha um intervalo de datas mais amplo que a janela do evento, mas verifique se ele inclui o evento.
    ![Intervalo de datas](assets/date-range.png)
-1. Clique no ícone de engrenagem para a métrica na tabela de Forma livre.
+1. Clique no ícone de engrenagem da métrica na tabela de Forma livre.
    ![Ícone de engrenagem](assets/gear-icon.png)
-1. Em [!UICONTROL Data Settings], selecione a opção [!UICONTROL Data smoothing].
+1. Em [!UICONTROL Configurações de dados], selecione o [!UICONTROL Suavização de dados] opção.
    ![Suavização de dados](assets/column-setting.png)
 1. Selecione o intervalo de datas/datas correspondente ao evento e clique em [!UICONTROL Aplicar].
-Certifique-se de que o intervalo de dados para a suavização de dados seja um subconjunto do intervalo de datas selecionado para o painel. As métricas na tabela e no gráfico são substituídas pelos valores previstos.
+Verifique se o intervalo de dados da Suavização de dados é um subconjunto do intervalo de datas selecionado para o painel. A métrica na tabela e no gráfico é substituída pelos valores previstos.
    ![Valores previstos](assets/predictive-values.png)

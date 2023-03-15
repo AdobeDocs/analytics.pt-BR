@@ -38,7 +38,7 @@ Acesse **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatório]** > Selec
 
  -->
 
-Para ver se a Gravação da ID de transação está ativada, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Fontes de dados]**.
+Para ver se a Gravação da ID de transação está ativada, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Fontes de dados]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ As IDs de transação são utilizadas para registrar o estado de um visitante em
 
 O cliente geralmente é anônimo quando muda de online para offline.
 
-Os eventos de ID de transação não são incluídos nas métricas de Participação de visita (exibidas nos relatórios de marketing). Isso ocorre porque os dados da ID de transação não estão associados a uma visita (porque o evento offline geralmente não faz parte do evento online), mas são associados ao visitante.
+Os eventos de ID de transação não estão incluídos nas métricas de Participação de visita (mostradas nos relatórios de marketing). Isso ocorre porque os dados da ID de transação não estão associados a uma visita (porque o evento offline geralmente não faz parte do evento online), mas estão associados ao visitante.
 
 Consulte [ID da transação](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

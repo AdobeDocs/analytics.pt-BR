@@ -11,11 +11,11 @@ ht-degree: 94%
 
 ---
 
-# Conectores de dados
+# Data Connectors
 
 >[!IMPORTANT]
 >
->Adobe da tecnologia Adobe Data Connector em 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
+>O Adobe encerrou a vida útil da tecnologia Adobe Data Connector em 2021. [Saiba mais...](/help/import/data-connectors/data-connectors-eol.md)
 
 Ao criar uma integração com um parceiro Adobe usando[ conectores de dados](https://www.adobeexchange.com/experiencecloud.html), a Adobe pode jogar os dados de remarketing ou outros dados para uma conta FTP para que você ou o parceiro possam baixá-los.
 

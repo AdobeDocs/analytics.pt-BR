@@ -32,7 +32,7 @@ Para obter mais informações, acesse a seção sobre [Alertas inteligentes](htt
 
 ## Adicionar um alerta {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-Você pode adicionar um alerta no Adobe Analytics no Criador de alertas ou em um relatório específico.
+Você pode adicionar um alerta no Adobe Analytics a partir do Criador de alertas ou de um relatório específico.
 
 <!-- 
 
@@ -44,7 +44,7 @@ t_add_an_alert.xml
 
 1. Selecionar **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** para abrir o Criador de alertas.
 
-### Adicionar um alerta a partir de um relatório individual
+### Adicionar um alerta de um relatório individual
 
 1. Em Reports &amp; Analytics, abra o relatório no qual deseja definir um alerta.
 1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**.

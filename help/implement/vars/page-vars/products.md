@@ -6,7 +6,7 @@ exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -23,21 +23,21 @@ A variável `products` rastreia produtos e propriedades associadas a eles. Norma
 Os produtos são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) em vários campos XDM:
 
 * A categoria está mapeada para `productListItems[].lineItemId`.
-* O produto é mapeado para `productListItems[].SKU` ou `productListItems[].name`. Se ambos os campos XDM estiverem presentes, `productListItems[].SKU` é usada.
+* O produto está mapeado para `productListItems[].SKU` ou `productListItems[].name`. Se ambos os campos XDM estiverem presentes, `productListItems[].SKU` é usada.
 * A quantidade é mapeada para `productListItems[].quantity`.
-* O preço é mapeado para `productListItems[].priceTotal`.
-* As eVars de merchandising são mapeadas para `productListItems._experience.analytics.customDimensions.eVars.eVar1` para `productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependendo de qual eVar você deseja vincular a um produto.
-* Os eventos de merchandising são mapeados para `productListItems[]._experience.analytics.event1to100.event1.value` para `productListItems._experience.analytics.event901to1000.event1000.value`, dependendo de qual evento você deseja vincular a um produto. Se você definir um evento em um desses campos, ele será incluído automaticamente na variável [evento](events/events-overview.md) string enviada ao Adobe Analytics.
+* O preço está mapeado para `productListItems[].priceTotal`.
+* As eVars de merchandising são mapeadas para `productListItems._experience.analytics.customDimensions.eVars.eVar1` para `productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependendo do eVar que você deseja vincular a um produto.
+* Os eventos de comercialização são mapeados para `productListItems[]._experience.analytics.event1to100.event1.value` para `productListItems._experience.analytics.event901to1000.event1000.value`, dependendo do evento que você deseja vincular a um produto. Se você definir um evento em um desses campos, ele será incluído automaticamente na variável [evento](events/events-overview.md) sequência de caracteres enviada para o Adobe Analytics.
 
 >[!NOTE]
 >
->`lineItemId` deve ser adicionado como um campo personalizado, pois ainda não faz parte do esquema padrão de Evento do Analytics. O Adobe planeja adicionar um campo &quot;Categoria&quot; dedicado no futuro.
+>`lineItemId` deve ser adicionado como um campo personalizado, pois ainda não faz parte do esquema padrão Evento do Analytics. O Adobe planeja adicionar um campo &quot;Categoria&quot; dedicado no futuro.
 
 ## Produtos que usam a extensão Adobe Analytics
 
-Não há um campo dedicado na Coleta de dados do Adobe Experience Platform para definir essa variável; no entanto, existem várias extensões de terceiros para ajudar.
+Não há um campo dedicado na Coleção de dados da Adobe Experience Platform para definir essa variável; no entanto, várias extensões de terceiros podem ajudar.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique em [!UICONTROL Catálogo] para ver todas as extensões disponíveis.
 4. Pesquise usando o termo &quot;produto&quot;, que revela várias extensões disponíveis para ajudar a definir essa variável.
@@ -48,7 +48,7 @@ Você pode usar uma dessas extensões ou usar o editor de código personalizado 
 
 A variável `s.products` é uma string que contém vários campos delimitados por produto. Delimite cada campo com um ponto e vírgula (`;`) na sequência de caracteres.
 
-* **Categoria** (opcional): A categoria do produto. O comprimento máximo deste campo é de 100 bytes.
+* **Categoria** (opcional): a categoria do produto. O comprimento máximo deste campo é de 100 bytes.
 * **Nome do produto** (obrigatório): o nome do produto. O comprimento máximo deste campo é de 100 bytes.
 * **Quantidade** (opcional): a quantidade de produtos como esse que estão no carrinho. Esse campo se aplica somente às ocorrências com o evento de compra.
 * **Preço** (opcional): o preço total do produto em formato decimal. Se a quantidade for superior a um, defina o preço total e não o preço individual do produto. Ajuste a moeda desse valor para corresponder ao da variável [`currencyCode`](../config-vars/currencycode.md). Não inclua o símbolo da moeda nesse campo. Esse campo se aplica somente às ocorrências com o evento de compra.

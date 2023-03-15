@@ -6,7 +6,7 @@ exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 61%
+ht-degree: 76%
 
 ---
 
@@ -16,11 +16,11 @@ Sempre que uma chamada de rastreamento de link é enviada para a Adobe, os servi
 
 ## Vincular URL usando o SDK da Web
 
-O URL do link é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) no campo XDM `web.webInteraction.URL`.
+O URL do link é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webInteraction.URL`.
 
-## Vincular URL usando a extensão Adobe Analytics
+## Vincular URL usando a extensão do Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.linkURL no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

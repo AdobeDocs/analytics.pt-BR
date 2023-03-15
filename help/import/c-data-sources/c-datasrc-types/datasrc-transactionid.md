@@ -16,17 +16,17 @@ As fontes de dados de ID de transação permitem não apenas visualizar os dados
 
 Ao enviar uma ocorrência online que contém um valor `transactionID`, a Adobe captura um &quot;instantâneo&quot; de todas as variáveis definidas ou persistentes no momento. Se uma ID de transação correspondente carregada por meio de Fontes de dados for encontrada, os dados offline e online serão vinculados.
 
-Para usar as transações, a ocorrência online com uma ID de transação deve ter sido enviada e processada antes que qualquer fonte de dados da transação com essa ID de transação seja enviada. A ocorrência online contém variáveis (eVars etc.), mas não eventos, que estavam na ocorrência online salva com as informações da ID da transação.
+Para usar transações, a ocorrência online com uma ID de transação deve ter sido enviada e processada antes que qualquer dado de fonte de dados de transação com essa ID de transação seja enviado. A ocorrência online contém variáveis (eVars etc.), mas não eventos, que estavam na ocorrência online salva com as informações da ID da transação.
 
-Quando uma ocorrência da fonte de dados da transação é enviada para o , a ID da transação na ocorrência da transação da fonte de dados procura as vars etc. (não eventos) que foram associados à ocorrência online original com essa ID de transação. Ela usa essas vars na ocorrência da transação da fonte de dados, se não houver valor para uma variável transmitida na ocorrência da transação da fonte de dados.
+Quando uma ocorrência da fonte de dados da transação é enviada para dentro, a ID da transação na ocorrência da fonte de dados da transação pesquisa as vars etc. (não eventos) que foram associados à ocorrência online original com essa ID de transação. Ela usa essas vars na ocorrência da transação da fonte de dados se não houver um valor para uma variável transmitida na ocorrência da transação da fonte de dados.
 
 ## Exemplo
 
-Se uma ocorrência online com ID de transação 1256 for transmitida e ativada `evar1=blue`, `evar2=water` e `event1` estiverem configuradas, os dados de transação da ID de transação 1256 serão salvos com `evar1=blue`, `evar2=water`. Nenhum valor de evento é salvo como parte das informações da transação.
+Se uma ocorrência online com ID de transação 1256 for passada nela e em seu `evar1=blue`, `evar2=water` e `event1` forem definidos, os dados de transação para a ID de transação 1256 serão salvos com `evar1=blue`, `evar2=water`. Nenhum valor de evento é salvo como parte das informações de transação.
 
-Agora vamos supor que uma ocorrência de transação da fonte de dados seja passada pelo sistema com a ID de transação 1256 e `evar1=yellow`, `evar3=mountain` e `event2` definido. O sistema encontra os dados da transação salvos e os conjuntos de ocorrências da transação da fonte de dados `evar2=water` (já que isso é o que foi definido na ocorrência original). Não está definido `evar1=blue` (como na ocorrência original) porque havia um valor para `evar1` (amarelo) já definido na ocorrência da transação da fonte de dados.  Portanto, a ocorrência da transação da fonte de dados resulta em ter `evar1=yellow`, `evar2=water` (a partir da ocorrência online original) e `evar3=mountain`. Esses 3 valores de eVar têm `event2` set - o evento da ocorrência de transação da fonte de dados.
+Agora, vamos supor que uma ocorrência de transação da fonte de dados seja passada pelo sistema com a ID de transação 1256 e `evar1=yellow`, `evar3=mountain` e `event2` definido. O sistema localiza os dados de transação salvos e nos conjuntos de ocorrências de transação da fonte de dados `evar2=water` (já que é o que foi definido na ocorrência original). Ele não define `evar1=blue` (como na ocorrência original) porque havia um valor para `evar1` (amarelo) já definido na ocorrência da transação da fonte de dados.  Assim, a ocorrência da transação da fonte de dados resulta em ter `evar1=yellow`, `evar2=water` (da ocorrência online original) e `evar3=mountain`. Esses 3 valores de eVar têm `event2` set - o evento da ocorrência de transação da fonte de dados.
 
-Nenhum valor da ocorrência de transação da fonte de dados `event1` defina quando a ocorrência da transação da fonte de dados for processada.
+Nenhum valor na ocorrência da transação da fonte de dados é obtido `event1` definido quando a ocorrência da transação da fonte de dados é processada.
 
 ## Fluxo de trabalho geral de fontes de dados de ID de transação
 

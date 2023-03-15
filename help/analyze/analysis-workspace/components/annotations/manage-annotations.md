@@ -5,8 +5,8 @@ role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: ht
-source-wordcount: '683'
+workflow-type: tm+mt
+source-wordcount: '677'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ O gerenciador [!UICONTROL Anotações] mostra todas as anotações que você pos
 | [!UICONTROL Compartilhado com] | Lista com quantos indivíduos ou grupos a anotação foi compartilhada. Clique para obter mais detalhes. |
 | [!UICONTROL Data de modificação] | Mostra a data e a hora em que a anotação foi modificada pela última vez. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Editar anotações
 
@@ -48,19 +48,19 @@ Ambas as opções o direcionam de volta ao [!UICONTROL Construtor de anotações
 
 ## Compartilhar anotações
 
-Ao compartilhar anotações ou trabalhar com anotações que foram compartilhadas com você, lembre-se:
+Ao compartilhar anotações ou trabalhar com anotações compartilhadas com você, lembre-se:
 
 * Digamos que você crie um projeto com anotações somente de projeto e, em seguida, compartilhe o projeto com outro usuário. Essas anotações serão exibidas, mas não poderão ser editadas ou excluídas por ninguém com quem você compartilha o projeto.
 
 * Se você salvar uma anotação e compartilhá-la diretamente com um usuário, ele poderá editar/excluir a anotação somente se tiver direitos de administrador.
 
-* Para recapitular: se o projeto for compartilhado com você, a anotação será exibida somente nesse projeto. Se a anotação for compartilhada diretamente com você, ela será exibida em todos os projetos nos quais pode ser exibida.
+* Para recapitular, se o projeto for compartilhado com você, ele será exibido somente nesse projeto. Se a anotação for compartilhada diretamente com você, ela será exibida em todos os projetos nos quais essa anotação pode ser exibida.
 
 ## Anotações e fusos horários
 
 Todas as anotações são criadas com um carimbo de data e hora, mas sem informações de horas ou fuso horário. No momento do relatório, o fuso horário do conjunto de relatórios do painel é sempre aplicado. Assim, uma anotação criada para o dia de Natal acontece em 25 de dezembro, independentemente do fuso horário do conjunto de relatórios em que você estiver.
 
-Outro exemplo é o dia de Ano Novo. A cada hora, um fuso horário diferente dispara fogos de artifício conforme o ano novo começa. Às 22h00 no horário das montanhas dos EUA, fogos de artifício estão sendo disparados na costa leste dos EUA, visto que já são 24h00 no horário do leste dos EUA.
+Outro exemplo é o Dia de Ano Novo. A cada hora, um fuso horário diferente dispara fogos de artifício conforme o ano novo começa. Às 22h, Hora das Montanhas dos EUA, a costa leste dos EUA está soltando fogos porque já é meia-noite da Hora do Leste.
 
 ## Outras tarefas de anotações
 
@@ -78,4 +78,4 @@ Basta selecionar uma ou mais anotações e a barra de tarefas é exibida.
 | [!UICONTROL Exportar para CSV] | Exporte a definição da anotação para um arquivo CSV. |
 | [!UICONTROL Filtro] (painel esquerdo) | Filtre por tags, conjunto de relatórios, proprietários e outros filtros (Meus, Aprovados, Favoritos, Compartilhados comigo e Mostrar todos). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

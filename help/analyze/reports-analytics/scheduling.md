@@ -30,13 +30,13 @@ Devido às diferenças entre os mecanismos e plataformas de processamento, os di
 
 Essas limitações referem-se a relatórios individuais agendados e baixados; os painéis são limitados à quantidade de espaço disponível em um reportlet.
 
-## Tempo de entrega vs. Tempo de processamento
+## Tempo de entrega vs. tempo de processamento
 
-O &quot;Tempo de entrega&quot; ou &quot;Horário do dia&quot; inserido pelo usuário especifica o horário em que o relatório deve começar a ser processado, não o horário em que ele será realmente entregue. Quando o relatório for entregue, será baseado principalmente no tempo necessário para o processamento. Relatórios complexos e grandes demoram mais para serem processados do que relatórios mais simples. Por exemplo, se um relatório levar 15 minutos para ser processado, o tempo de entrega real será de pelo menos 15 minutos depois do &quot;Tempo de entrega&quot; ou &quot;Hora do dia&quot; especificado originalmente.
+O &quot;Tempo de entrega&quot; ou &quot;Horário do dia&quot; inserido pelo usuário especifica o horário em que o relatório deve começar a ser processado, e não o horário em que ele será realmente entregue. Quando o relatório será entregue baseia-se principalmente no tempo necessário para o processamento. Relatórios complexos e grandes demoram mais para serem processados do que relatórios mais simples. Por exemplo, se um relatório levar 15 minutos para ser processado, o tempo de entrega real será de pelo menos 15 minutos depois do &quot;Tempo de entrega&quot; ou &quot;Horário do dia&quot; especificado originalmente.
 
 Além disso, existem outros fatores que podem aumentar ainda mais o atraso antes que o relatório seja efetivamente entregue:
 
-* **Execução de vários agendamentos diferentes do mesmo tipo ao mesmo tempo** (por exemplo, muitos painéis, etc.) pode sobrecarregar o sistema. O sistema Scheduling permite que apenas alguns (5-10) relatórios de qualquer tipo sejam executados simultaneamente. Quando mais de 5 a 10 estão agendados de uma só vez, alguns precisarão aguardar a conclusão de outros relatórios para que possam começar o processamento. Esse problema pode ser resolvido agendando os relatórios de uma empresa em momentos alternados ao longo do dia ou da hora, em vez de simultaneamente.
+* **Execução de vários agendamentos diferentes do mesmo tipo ao mesmo tempo** (por exemplo, muitos painéis, etc.) pode sobrecarregar o sistema. O sistema de Agendamento permite que apenas alguns (5-10) relatórios de qualquer tipo sejam executados simultaneamente. Quando mais de 5 a 10 forem agendados de uma só vez, alguns precisarão aguardar a conclusão de outros relatórios para que possam começar o processamento. Esse problema pode ser resolvido agendando os relatórios de uma empresa em momentos alternados ao longo do dia ou da hora, em vez de simultaneamente.
 * Além do tipo de relatório específico (Painéis, etc.), os relatórios também aguardam na fila se a empresa tiver **mais de 15 a 20 de qualquer tipo de relatório agendado de uma só vez (em todos os tipos de relatório diferentes)**. Esse problema pode ser resolvido alternando os horários de agendamento, em vez de executar muitos exatamente ao mesmo tempo.
 * **Problemas nos serviços downstream** de que o Agendador depende também podem afetar a entrega de relatórios. Por exemplo, se você estiver usando as APIs de maneira independente para executar relatórios e preencher a fila de solicitações de API, os relatórios agendados podem ser entregues lentamente enquanto você concorre por esse recurso.
 * A **latência do conjunto de relatórios** (um atraso na coleta de dados) também pode atrasar alguns relatórios agendados.
@@ -44,7 +44,7 @@ Além disso, existem outros fatores que podem aumentar ainda mais o atraso antes
 
 ## Enviar um relatório {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
-Para baixar e enviar por email relatórios em vários formatos e agendar a entrega de um relatório:
+Para baixar e enviar por email relatórios em vários formatos e agendar o envio de um relatório:
 
 1. Execute um relatório e clique em **[!UICONTROL Mais]** > **[!UICONTROL Enviar]**.
 1. Especifique as opções de entrega:

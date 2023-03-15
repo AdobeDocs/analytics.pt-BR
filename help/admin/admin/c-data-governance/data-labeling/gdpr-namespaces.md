@@ -6,7 +6,7 @@ exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 A cada ID para a qual você deseja poder pesquisar, é atribuído um namespace, que é uma sequência de caracteres personalizada que identifica essa ID em qualquer variável em que for usada em todos os conjuntos de relatórios.
 
-A sequência de caracteres do namespace é usada para identificar os campos que você deseja pesquisar ao fornecer uma ID como parte de uma solicitação de Privacidade de dados. Quando uma solicitação de Privacidade de dados for enviada, ela incluirá uma seção JSON especificando as IDs do titular de dados que devem ser usadas para a solicitação. Várias IDs podem ser incluídas como parte de uma única solicitação de um Titular de dados. O JSON inclui:
+A sequência de caracteres do namespace é usada para identificar os campos que você deseja pesquisar ao fornecer uma ID como parte de uma solicitação de Privacidade de dados. Quando uma solicitação de Privacidade de dados for enviada, ela incluirá uma seção JSON especificando as IDs dos titulares de dados que devem ser usadas. Várias IDs podem ser incluídas como parte de uma única solicitação de um titular de dados. O JSON inclui:
 
 * Um campo de “namespace” contendo a sequência de caracteres do namespace.
 * Um campo de “type” que, para a maioria das solicitações do Adobe Analytics, contém o valor “analytics”.
@@ -38,7 +38,7 @@ O valor deve ser especificado como dois números hexadecimais separados por um t
 
 Também é aceitável usar `"namespaceId": 10` em vez de ou além de `"namespace": "AAID"`, e você pode ver outros produtos da Adobe usarem esse formulário.
 
-## Cookie de rastreamento herdado do Analytics: formulário obsoleto
+## Cookie herdado de rastreamento do Analytics: forma obsoleta
 
 ```
 {

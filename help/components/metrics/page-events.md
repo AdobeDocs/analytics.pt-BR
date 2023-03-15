@@ -3,8 +3,8 @@ title: Eventos de página
 description: O número de ações de rastreamento de link acionadas.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: e3ce30e960f2adeaf2f4fb068d12efd2574c7ee9
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 

@@ -1,12 +1,12 @@
 ---
 title: Prop
-description: Uma dimensão personalizada que pode ser usada nos relatórios.
+description: Uma dimensão personalizada que você pode usar nos relatórios.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 

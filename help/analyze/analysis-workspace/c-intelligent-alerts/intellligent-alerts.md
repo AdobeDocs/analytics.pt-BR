@@ -31,9 +31,9 @@ Há quatro maneiras de acessar o Criador de alertas:
 | Método | Detalhes |
 | --- | --- |
 | Ir diretamente para o Criador de alertas | **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** |
-| Usar o atalho de teclado no Workspace | `Ctrl + Shift + A` (Windows) ou `Cmd + Shift + A` (Mac) |
-| Selecionar um ou mais itens de linha da tabela de forma livre | Clique com o botão direito do mouse e selecione **[!UICONTROL Criar alerta a partir da seleção]**. Isso abre o [!UICONTROL Criador de alertas] e preenche as métricas e os filtros automaticamente com os dados apropriados aplicados a partir da tabela. Você pode editar o alerta, se necessário. ![Criar alerta a partir da seleção](assets/create-alert-from-selection.png) |
-| A partir de um relatório do Reports &amp; Analytics | Ir para  **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]** . Essa ação abre o criador de alertas e preenche as métricas e os filtros automaticamente com os dados selecionados do relatório. Você pode editar o alerta, se necessário. ![Adicionar alerta](assets/add-alert.png) |
+| Usar o atalho de teclado do Workspace | `Ctrl + Shift + A` (Windows) ou `Cmd + Shift + A` (Mac) |
+| Selecione um ou mais itens de linha da tabela de forma livre | Clique com o botão direito e selecione **[!UICONTROL Criar alerta a partir da seleção]**. Isso abre o [!UICONTROL Criador de alertas] O e o preenchem previamente as métricas e os filtros apropriados aplicados a partir da tabela. Você pode editar o alerta, se necessário. ![Criar alerta a partir da seleção](assets/create-alert-from-selection.png) |
+| Em um relatório do Reports &amp; Analytics | Ir para  **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]** . Essa ação abre o criador de alertas e preenche as métricas e os filtros automaticamente com os dados selecionados do relatório. Você pode editar o alerta, se necessário. ![Adicionar alerta](assets/add-alert.png) |
 
 Os limites de porcentagem são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, serão usados [modelos diferentes](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular a distância (a quantidade de desvios padrão) de cada dado em relação à norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias do que se definir um limite mais alto (99,75%).
 

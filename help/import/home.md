@@ -3,7 +3,7 @@ title: Guia de importação do Analytics
 description: Este manual explica como obter dados no Analytics por meio de Fontes de dados, da API de inserção de dados ou pelos Data Connectors.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 

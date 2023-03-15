@@ -7,7 +7,7 @@ exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 
@@ -21,11 +21,11 @@ Quando ativado, o AppMeasurement coleta informações sobre o link e envia esses
 
 O SDK da Web ainda não oferece suporte à coleta de dados do Activity Map.
 
-## Ativar o Clickmap usando a extensão Adobe Analytics
+## Ativar o Clickmap usando a extensão do Adobe Analytics
 
 [!UICONTROL Ativar Clickmap] é uma caixa de seleção na opção [!UICONTROL Rastreamento de link] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Ativar Clickmap].

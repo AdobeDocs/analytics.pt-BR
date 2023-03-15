@@ -1,18 +1,18 @@
 ---
 title: Guia do primeiro administrador do Adobe Analytics
-description: Entenda como ocorre o primeiro processo de provisionamento de administrador e as próximas etapas
+description: Entenda como ocorre o primeiro processo de provisionamento administrativo e as próximas etapas
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
 source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 19%
+ht-degree: 45%
 
 ---
 
 # Guia do primeiro administrador do Adobe Analytics
 
-Antes que qualquer usuário possa receber funções no Adobe Analytics, um usuário deve ser atribuído como primeiro administrador no Experience Cloud. O primeiro administrador pode, então, provisionar usuários na organização com outras funções principais.
+Antes que qualquer usuário possa receber funções no Adobe Analytics, ele deve ser atribuído como primeiro administrador na Experience Cloud. O primeiro administrador pode então provisionar usuários na organização com outras funções principais.
 
 Um primeiro administrador é o ponto de partida para permitir que o restante da organização use cada solução de Experience Cloud, incluindo o Adobe Analytics.
 
@@ -20,7 +20,7 @@ Um primeiro administrador é o ponto de partida para permitir que o restante da 
 
 Após a assinatura de um contrato:
 
-1. A equipe de provisionamento no Adobe prepara-se para a criação da conta.
+1. A equipe de provisionamento da Adobe prepara-se para a criação da conta.
 
 1. O primeiro administrador recebe um email com credenciais de logon antes da data de início do contrato.
 
@@ -30,6 +30,6 @@ Após a assinatura de um contrato:
 
 ## Próximas etapas
 
-Depois que um primeiro administrador for provisionado para sua organização, o primeiro administrador poderá provisionar usuários na organização com outras funções principais.
+Depois que um primeiro administrador é provisionado para sua organização, o primeiro administrador pode provisionar usuários na organização com outras funções principais.
 
-Para obter informações sobre como provisionar usuários em sua organização com funções-chave para o Adobe Analytics, consulte [Funções administrativas no Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).
+Para obter informações sobre como provisionar usuários em sua organização com funções principais para o Adobe Analytics, consulte [Funções de administrador no Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).

@@ -6,7 +6,7 @@ exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -16,9 +16,9 @@ A variável `s_objectID` fornece um identificador exclusivo para cada link. É u
 
 Se a precisão do Activity Map for crucial para sua organização, a Adobe recomenda incluir a variável `s_objectID` no evento `onClick` dos links no site. Consulte [Casos de uso do rastreamento de link do Activity Map](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md) no Guia do usuário Analisar para obter mais informações.
 
-## ID de objeto usando a extensão Adobe Analytics
+## ID de objeto usando a extensão do Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s_objectID no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

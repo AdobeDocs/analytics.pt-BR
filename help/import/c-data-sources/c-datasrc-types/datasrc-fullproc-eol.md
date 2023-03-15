@@ -4,7 +4,7 @@ description: Motivos para o fim da vida útil e comparações entre a API de ins
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 100%
 

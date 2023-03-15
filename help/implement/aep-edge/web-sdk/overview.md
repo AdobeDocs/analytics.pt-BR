@@ -2,7 +2,7 @@
 title: Implementar o Adobe Analytics usando o SDK da Web da Adobe Experience Platform
 description: Use a extensão SDK da Web na coleção de dados da Adobe Experience Platform para enviar dados ao Adobe Analytics.
 source-git-commit: 97bff355a5d9bb737d510221b63ba1321aaf5812
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 
@@ -23,13 +23,13 @@ Uma visão geral de alto nível das tarefas de implementação:
 <table style="width:100%">
 
 <tr>
-<th style="width:5%"></th><th style="width:60%"><b>Tarefa</b></th><th style="width:35%"><b>Mais Informações</b></th>
+<th style="width:5%"></th><th style="width:60%"><b>Tarefa</b></th><th style="width:35%"><b>Mais informações</b></th>
 </tr>
 
 <tr>
 <td>1</td>
-<td>Certifique-se de ter <b>definido um conjunto de relatórios</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do Conjunto de relatórios</a></td>
+<td>Certifique-se de que você <b>definiu um conjunto de relatórios</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>
@@ -94,8 +94,8 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>1</td>
-<td>Certifique-se de ter <b>definido um conjunto de relatórios</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do Conjunto de relatórios</a></td>
+<td>Certifique-se de que você <b>definiu um conjunto de relatórios</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>

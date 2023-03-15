@@ -6,7 +6,7 @@ exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -22,11 +22,11 @@ Em versões anteriores do Adobe Analytics, o AppMeasurement usava a variável `v
 >
 >A Adobe recomenda usar cookies próprios no site. Os cookies próprios não usam essa variável.
 
-## Namespace do visitante usando a extensão Adobe Analytics
+## Namespace do visitante usando a extensão do Adobe Analytics
 
 [!UICONTROL Namespace do visitante] é um campo sob a opção [!UICONTROL Cookies] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL Namespace do visitante].

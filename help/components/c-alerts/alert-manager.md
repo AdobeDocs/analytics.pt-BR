@@ -1,12 +1,12 @@
 ---
 description: Gerenciar alertas.
-title: Visão geral do Gerenciador de alertas
+title: Visão geral do Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '153'
+ht-degree: 98%
 
 ---
 

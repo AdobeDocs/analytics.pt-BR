@@ -12,7 +12,7 @@ ht-degree: 65%
 
 # Duração média da sessão (dispositivos móveis)
 
-A métrica “Duração média da sessão (móvel)” mostra a quantidade média de tempo que um determinado item de dimensão está presente por item de dimensão. É semelhante ao [Tempo gasto por visita [segundos]](https://experienceleague.adobe.com/docs/analytics/components/metrics/time-spent-per-visit.html) exceto que essa métrica usa componentes específicos do SDK móvel como parte de seu cálculo.
+A métrica “Duração média da sessão (móvel)” mostra a quantidade média de tempo que um determinado item de dimensão está presente por item de dimensão. É semelhante ao [Tempo gasto por visita [segundos]](https://experienceleague.adobe.com/docs/analytics/components/metrics/time-spent-per-visit.html) , exceto que essa métrica usa componentes específicos do SDK móvel como parte do cálculo.
 
 ## Como essa métrica é calculada
 

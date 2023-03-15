@@ -1,6 +1,6 @@
 ---
 title: Visitantes únicos
-description: O número de IDs de visitante exclusivas.
+description: O número de IDs de visitante único.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
@@ -30,8 +30,8 @@ Essa métrica conta o número de IDs de visitante exclusivas para um determinado
 | --- | --- | --- |
 | 1 | `vid` | A variável [`visitorID`](/help/implement/vars/config-vars/visitorid.md) está definida. |
 | 2 | `aid` | O Visitante tem um cookie [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente. Definido em implementações sem ou antes da implementação do serviço de ID do visitante. |
-| 3 | `mid` | O Visitante tem um cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) existente. Defina as implementações usando o serviço [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). |
-| 4 | `fid` | O Visitante tem um cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) existente, ou se `aid` e `mid` não puderem ser definidos por algum motivo. |
+| 3 | `mid` | O Visitante tem um cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente. Defina as implementações usando o serviço [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). |
+| 4 | `fid` | O Visitante tem um cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente, ou se `aid` e `mid` não puderem ser definidos por algum motivo. |
 | 5 | Endereço IP, Agente do usuário, Endereço IP de gateway | Último recurso para identificar um visitante único se o navegador do visitante não aceitar cookies. |
 
 >[!NOTE]

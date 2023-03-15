@@ -6,7 +6,7 @@ exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 
@@ -20,13 +20,13 @@ O AppMeasurement coleta automaticamente o URL da página em cada ocorrência. Se
 
 ## URL da página usando o SDK da Web
 
-O URL da página é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) no campo XDM `web.webPageDetails.URL`.
+O URL da página é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webPageDetails.URL`.
 
-## URL da página usando a extensão Adobe Analytics
+## URL da página usando a extensão do Adobe Analytics
 
-A extensão Analytics na Coleta de dados do Adobe Experience Platform preenche automaticamente o URL da página. No entanto, é possível definir a substituição do URL da página ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
+A extensão Analytics da Coleção de dados da Adobe Experience Platform preenche automaticamente o URL da página. No entanto, é possível definir a substituição do URL da página ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia **[!UICONTROL Regras]** e clique na regra desejada (ou crie uma regra).
 4. Em **[!UICONTROL Ações]**, clique em uma ação **[!UICONTROL Adobe Analytics - Definir variáveis]** ou clique no ícone “+”.

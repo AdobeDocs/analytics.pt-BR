@@ -1,12 +1,12 @@
 ---
-description: 'Saiba mais sobre '
+description: Saiba mais sobre
 title: Atribuição e tipo de métrica
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -43,9 +43,9 @@ O seguinte exemplo ilustra como as métricas calculadas com alocação linear se
 |  | Ocorrência 1 | Ocorrência 2 | Ocorrência 3 | Ocorrência 4 | Ocorrência 5 | Ocorrência 6 | Ocorrência 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Dados de entrada | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | $10 |
-| eVar de último contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO B | PROMOÇÃO B | PROMOÇÃO C | US$ 10 |
-| eVar de primeiro contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | US$ 10 |
-| Exemplo de propriedade | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | US$ 10 |
+| eVar de último contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO B | PROMOÇÃO B | PROMOÇÃO C | $10 |
+| eVar de primeiro contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | $10 |
+| Exemplo de propriedade | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | $10 |
 
 Neste exemplo, os valores A, B e C foram enviados para uma variável nas ocorrências 1, 3, 4 e 6 antes de uma compra de US$10 ser feita na ocorrência 7. Na segunda linha, esses valores persistem entre as ocorrências com base na visita do último contato. A terceira linha ilustra uma persistência na visita do primeiro contato. Por fim, a última linha ilustra como os dados seriam relatados para uma propriedade que não tenha persistência.
 
@@ -58,20 +58,20 @@ Há algumas diferenças em como a atribuição linear funciona nessas duas ferra
 
 ## Como a alocação linear funcionava antes de julho de 2018
 
-Antes de 19 de julho de 2018, a atribuição linear era calculada após a persistência do primeiro contato ou do último contato já ter ocorrido. Isso significava que para a eVar último contato acima, os US$10 seriam distribuídos da seguinte maneira: A = 10 * (3/6) = US$5, B = 10 * (2/6) = US$3,33, C = 10 * (1/6) = US$1,67.
+Antes de 19 de julho de 2018, a atribuição linear era calculada após a persistência do primeiro contato ou do último contato já ter ocorrido. Isso significava que, para o eVar de último contato acima, os US$ 10 seriam distribuídos da seguinte maneira: A = 10 &#42; (3/6) = US$ 5, B = 10 &#42; (2/6) = US$ 3,33, C = 10 &#42; (1/6) = US$ 1,67.
 
-Para a eVar primeiro contato acima, todos os US$10 seriam dados a A. Para a propriedade: A = 10 * (2/4) = US$5, B = 10 * (1/4) = US$2,50 e C = 10 * (1/4) = US$2,50. Para resumir a alocação linear como ela funcionava anteriormente:
+Para o eVar de primeiro toque acima, todos os US$ 10 seriam dados a A. Para a prop: A = 10 &#42; (2/4) = US$ 5, B = 10 &#42; (1/4) = US$ 2,50 e C = 10 &#42; (1/4) = US$ 2,50. Para resumir a alocação linear como funcionava anteriormente:
 
 | Valores | eVar de último contato atual | eVar de primeiro contato atual | Propriedade atual |
 |---|---|---|---|
 | PROMOÇÃO A | US$5,00 | US$10,00 | US$5,00 |
 | PROMOÇÃO B | US$3,33 | $0 | US$2,50 |
-| PROMOÇÃO C | US$1,67 | US$ 0 | US$2,50 |
+| PROMOÇÃO C | US$1,67 | $0 | US$2,50 |
 | Total | US$10,00 | US$10,00 | US$10,00 |
 
 **Resumo de como a alocação linear funciona atualmente**
 
-Em vez de usar os valores persistentes com base no último contato ou no primeiro contato, o [!DNL Analytics] usa apenas os valores que foram passados (a primeira linha da tabela superior). Sendo assim, as configurações de alocação de dimensão não afetam mais a maneira como a alocação linear é calculada (isso significa que propriedades e eVars serão tratadas da mesma maneira) e os resultados reflete o que foi originalmente passado em vez dos valores do primeiro ou do último contato que possam ter persistido. Então, em todos os três casos, A = 10 * (2/4) = US$5, B = 10 * (1/4) = US$2,50 e C = 10 * (1/4) = US$2,50.
+Em vez de usar os valores persistentes com base no último contato ou no primeiro contato, o [!DNL Analytics] usa apenas os valores que foram passados (a primeira linha da tabela superior). Sendo assim, as configurações de alocação de dimensão não afetam mais a maneira como a alocação linear é calculada (isso significa que propriedades e eVars serão tratadas da mesma maneira) e os resultados reflete o que foi originalmente passado em vez dos valores do primeiro ou do último contato que possam ter persistido. Assim, nos três casos, A = 10 &#42; (2/4) = US$ 5, B = 10 &#42; (1/4) = US$ 2,50 e C = 10 &#42; (1/4) = US$ 2,50.
 
 | Valores | Nova eVar de último contato | Nova eVar de primeiro contato | Nova propriedade |
 |---|---|---|---|

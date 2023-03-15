@@ -6,7 +6,7 @@ exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 75%
+ht-degree: 79%
 
 ---
 
@@ -28,9 +28,9 @@ Cada vez que chama a variável `registerPostTrackCallback`, você faz com que es
 
 Em breve!
 
-## Retorno de chamada pós-rastreamento que implementa manualmente o SDK da Web
+## Retorno de chamada pós-rastreamento implementando manualmente o SDK da Web
 
-Você pode usar uma Promessa de JavaScript ao enviar um evento para registrar uma função depois que os dados forem enviados com êxito para o Adobe.
+Você pode usar uma Promessa JavaScript ao enviar um evento para registrar uma função depois que os dados forem enviados com êxito para o Adobe.
 
 ```js
 alloy("sendEvent",{
@@ -40,13 +40,13 @@ alloy("sendEvent",{
 });
 ```
 
-Consulte [Lidar com respostas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) na documentação do SDK da Web para obter mais informações.
+Consulte [Manipulação de respostas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) na documentação do SDK da Web para obter mais informações.
 
-## Registrar retorno de chamada pós-rastreamento usando a extensão Adobe Analytics
+## Registrar retorno de chamada pós-rastreamento usando a extensão do Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.registerPostTrackCallback no AppMeasurement e no editor de código personalizado de extensão do Analytics
+## s.registerPostTrackCallback no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 `s.registerPostTrackCallback` é uma função que utiliza uma função como seu único argumento. A função aninhada é executada imediatamente após o envio bem-sucedido de uma solicitação de imagem.
 

@@ -6,7 +6,7 @@ exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -365,6 +365,6 @@ Observe o seguinte:
 * Apenas células em linhas que contêm `user=Mary` e um rótulo `DEL-PERSON` são afetadas.
 * Devido à expansão de ID, células em linhas que contêm `AAID=77`, `AAID=88` ou `AAID=99` (que são os valores AAID em linhas que contêm `user=Mary`) e um rótulo `DEL-DEVICE` serão afetadas. Isso inclui células com um rótulo `DEL-DEVICE` em linhas em que `user=Mary`. Isso faz com que as células nas linhas 4 e 5 (bem como nas linhas 1-3) com rótulos `DEL-DEVICE` (AAID, MyEvar2 e MyEvar3) sejam ofuscadas.
 * A configuração expandIDs não expande a chamada para incluir valores presentes em MyEvar3 (`X`, `Y` e `Z`), que tem um rótulo ID-DEVICE, quando `user=Mary`. ExpandIDs só se expande para incluir IDs de visitante (AAIDs neste exemplo, mas também a ECID) em linhas nas quais `user=Mary`. Dessa forma, as duas últimas linhas, que contêm valores MyEvar3 de `X` e `Z` não são afetadas.
-* `MyEvar2` na quarta e na quinta linha são atualizadas, pois essas linhas contêm os mesmos valores de ID de visitante (`77` e `88`) como na primeira e na segunda linha. Como resultado, a expansão de ID os inclui para exclusões no dispositivo.
+* `MyEvar2` na quarta e na quinta linhas é atualizado porque essas linhas contêm os mesmos valores de ID de Visitante (`77` e `88`) que os da primeira e da segunda linhas. Como resultado, a expansão de ID os inclui para exclusões no dispositivo.
 * Os valores de `MyEvar2` nas linhas dois e cinco correspondem a antes e depois da exclusão. No entanto, após a exclusão, eles não correspondem mais ao valor `N` que ocorre na última linha, pois essa linha não foi atualizada como parte da solicitação de exclusão.
 * `MyEvar3` O se comporta de maneira muito diferente em relação ao comportamento sem expansão de ID, porque neste caso, não há correspondência de `ID-DEVICES`. Agora, `AAID` corresponde nas primeiras cinco linhas.

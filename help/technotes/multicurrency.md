@@ -12,7 +12,7 @@ ht-degree: 10%
 
 # Suporte a várias moedas
 
-O Adobe oferece vários níveis de conversão de moeda para que sua organização possa alcançar a moeda desejada em muitos relatórios. A conversão ocorre em três níveis:
+O Adobe oferece vários níveis de conversão de moeda para que sua organização possa alcançar a moeda desejada em muitos relatórios. Ocorre uma conversão em três níveis:
 
 ## Nível da página
 
@@ -20,10 +20,10 @@ Você pode usar o [`currencyCode`](/help/implement/vars/config-vars/currencycode
 
 ## Nível do conjunto de relatórios
 
-Cada conjunto de relatórios tem uma **moeda base**. Essa moeda determina o contexto de todas as métricas de moeda (como [Receita](/help/components/metrics/revenue.md)). Todos os dados de moeda armazenados estão na moeda base do conjunto de relatórios.
+Todo conjunto de relatórios tem um **moeda de base**. Essa moeda determina o contexto de todas as métricas de moeda (como [Receita](/help/components/metrics/revenue.md)). Todos os dados de moeda armazenados estão na moeda base do conjunto de relatórios.
 
 ## Nível do usuário
 
-Para Reports &amp; Analytics, os usuários podem definir uma moeda diferente da moeda base do conjunto de relatórios em [Configurações do relatório](/help/analyze/reports-analytics/report-settings.md). Essa configuração não é destrutiva, o que significa que não altera os dados subjacentes. Em vez disso, ele aplica a conversão básica de moeda a todos os relatórios visualizados com base na taxa de câmbio atual. Se você exibir o mesmo relatório em dias diferentes, os números podem mudar devido a diferentes taxas de câmbio diárias.
+Para o Reports &amp; Analytics, os usuários podem definir uma moeda diferente da moeda base do conjunto de relatórios em [Configurações do relatório](/help/analyze/reports-analytics/report-settings.md). Essa configuração não é destrutiva, o que significa que não altera os dados subjacentes. Em vez disso, ela aplica uma conversão básica de moeda a todos os relatórios exibidos com base na taxa de câmbio atual. Se você exibir o mesmo relatório em dias diferentes, os números poderão ser alterados devido a diferentes taxas de câmbio diárias.
 
-Atualmente, a Analysis Workspace não oferece conversão monetária no nível do usuário.
+Atualmente, o Analysis Workspace não oferece conversão de moeda no nível do usuário.

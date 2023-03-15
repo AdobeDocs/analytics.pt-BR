@@ -14,13 +14,13 @@ ht-degree: 75%
 
 A variável `campaign` é dedicada à coleta de códigos de rastreamento no site. Em versões anteriores do Adobe Analytics, ele tinha um tratamento especial, podendo ser usado como um detalhamento na maioria das dimensões. Na versão atual do Adobe Analytics, ela age de forma idêntica a uma eVar.
 
-Essa variável preenche a variável [Código de rastreamento](/help/components/dimensions/tracking-code.md) dimensão. Normalmente, ele obtém seu valor de uma string de consulta usando a variável [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) método de utilitário. No entanto, sua organização determina exatamente como definir essa variável.
+Essa variável preenche o [Código de rastreamento](/help/components/dimensions/tracking-code.md) dimensão. Normalmente, ele obtém o valor de uma sequência de consulta usando o [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) método de utilitário. No entanto, sua organização determina exatamente como definir essa variável.
 
-## Campanha usando o SDK da Web
+## Campaign usando o SDK da Web
 
-A campanha é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `marketing.trackingCode`.
+A campanha está [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `marketing.trackingCode`.
 
-## Campanha usando a extensão Adobe Analytics
+## Campanha usando a extensão do Adobe Analytics
 
 Você pode definir a campanha ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 

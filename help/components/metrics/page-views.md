@@ -1,12 +1,12 @@
 ---
 title: Exibições de página
-description: O número de vezes que um item de dimensão foi definido ou persistiu no Adobe Analytics.
+description: O número de vezes que um item de dimensão foi definido ou mantido no Adobe Analytics.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 source-git-commit: 65f87bf4b5b3897c9ef68d091858332c08cbf699
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 39%
 
 ---
 
@@ -16,9 +16,9 @@ A métrica “Visualizações de página” mostra o número de vezes que um det
 
 ## Como essa métrica é calculada
 
-Essa métrica conta todas as chamadas de rastreamento de visualização de página ([`t()`](/help/implement/vars/functions/t-method.md)) em um conjunto de relatórios. Para dimensões, inclui ocorrências em que um item de dimensão é definido ou mantido. Ela não inclui chamadas de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Essa métrica conta todas as chamadas de rastreamento de visualização de página ([`t()`](/help/implement/vars/functions/t-method.md)) em um conjunto de relatórios. Para dimensões, inclui ocorrências em que um item de dimensão é definido ou persistente. Ela não inclui chamadas de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Comparar a métricas semelhantes
 
-* **Exibições de página versus [Visitas](visits.md)**: As exibições de página contam o número de vezes que uma página é exibida. Visitas contam o número de sessões para visitantes. Uma visita consiste em uma ou mais exibições de página.
-* **Exibições de página versus [Eventos de página](page-events.md)**: As exibições de página contam o número de chamadas de rastreamento de exibição de página (`t()`) e exclui chamadas de rastreamento de link (`tl()`). Os eventos de página são o oposto; eles contam o número de chamadas de rastreamento de link e excluem chamadas de rastreamento de visualização de página.
+* **Exibições de página versus [Visitas](visits.md)**: As exibições de página contam o número de vezes que uma página é exibida. A contagem de visitas é o número de sessões para visitantes. Uma visita consiste em uma ou mais exibições de página.
+* **Exibições de página versus [Eventos de página](page-events.md)**: as exibições de página contam o número de chamadas de rastreamento de exibição de página (`t()`) e exclui chamadas de rastreamento de link (`tl()`). Eventos de página são o oposto; eles contam o número de chamadas de rastreamento de link e excluem chamadas de rastreamento de visualização de página.

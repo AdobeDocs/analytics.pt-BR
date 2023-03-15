@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 13ba343d-bb17-455e-a078-1036d81383a1
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 100%
 
 ---
@@ -25,5 +25,4 @@ Fazer download e editar pastas de trabalho compartilhadas.
 >* **Editar:** baixa e abre uma pasta de trabalho para edição. Se você desejar fazer upload de uma pasta de trabalho que tiver baixado para edição, precisará fazer isso manualmente.
 >* **Excluir:** permite excluir uma pasta de trabalho que você tenha carregado. Você precisa ser o proprietário da pasta de trabalho para poder excluí-la.
 >
-
 

@@ -4,10 +4,9 @@ title: Gerenciar solicitações do Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 80%
 
 ---
@@ -31,6 +30,6 @@ Esta tabela permite
 * Priorize novamente os relatórios; basta arrastá-los e soltá-los em um novo local na fila.
 * Para ver quando um uma solicitação começou a ser processada, clique em uma ID de solicitação agendada e verifique o pop-up aberto.
 
-Clique em um trabalho para ver solicitações individuais para esse trabalho.
+Clique em uma tarefa para ver as solicitações individuais dessa tarefa.
 
-* Taxa limitada: Sua organização tem muitas solicitações do Data Warehouse em execução. A solicitação é pausada até que outras solicitações de dados sejam concluídas.
+* Taxa limitada: sua organização tem muitas solicitações de Data Warehouse em execução. A solicitação é pausada até que outras solicitações de dados sejam concluídas.

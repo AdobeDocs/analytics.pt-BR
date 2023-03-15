@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ O Report Builder tem um novo painel de segmentação na Etapa 1 do Assistente de
 
    ![](assets/seg_in_context.png)
 
-   Para obter mais informações sobre contêineres, consulte o [Guia de segmentação](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+   Para obter mais informações sobre contêineres, consulte o [Guia de segmentação](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=pt-BR).
 
 1. A Interface do usuário do construtor de segmentos agora será inicializada no Internet Explorer. A Interface do usuário do construtor será inicializada com o contêiner e o filtro especificado.
 1. Depois de adicionar um nome e a descrição ao segmento, salve-o.

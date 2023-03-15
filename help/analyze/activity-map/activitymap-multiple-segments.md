@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 83%
 
 ---
@@ -24,7 +24,7 @@ Você pode selecionar um ou vários segmentos do menu suspenso **[!UICONTROL Seg
 
 ![](assets/segments.png)
 
-Quando a seleção de segmentos é alterada e, após fechar o seletor de segmentos, um novo processo de recuperação de dados do Analytics é iniciado para todas as métricas exibidas no aplicativo. Os segmentos selecionados são lembrados durante a navegação de página para página.
+Quando a seleção de segmento(s) é alterada e depois de fechar o seletor de segmento, um novo processo de recuperação de dados do Analytics é iniciado para todas as métricas exibidas no aplicativo. Os segmentos selecionados são lembrados durante a navegação de página para página.
 
 O rótulo Seleção de segmento (em um estado retraído) será exibido como “Múltiplos” quando mais de um segmento for selecionado. A lista completa dos segmentos selecionados será mostrada ao clicar no controle.
 

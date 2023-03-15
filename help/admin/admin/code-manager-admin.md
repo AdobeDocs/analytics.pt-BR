@@ -14,7 +14,7 @@ ht-degree: 95%
 
 O Gerenciador de código permite que você baixe o código da coleção de dados para plataformas móveis e da Web.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciador de código]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciador de código]**.
 
 Após baixar a biblioteca, você deve configurar o código para enviar os dados ao servidor de rastreamento e conjunto de relatórios corretos. Recursos adicionais de implementação estão disponíveis no guia de usuário [Implementar](/help/implement/home.md).
 

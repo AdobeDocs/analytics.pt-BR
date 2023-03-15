@@ -8,7 +8,7 @@ exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Para relatórios em tempo real, o Analytics utiliza métricas de alta frequênci
 * Utilizar qualquer evento personalizado, evento de carrinho de compras ou instância.
 * Exibir até 20 horas de dados históricos e em tempo real.
 
-A análise em tempo real respeita as permissões para usuários e grupos. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma. eVars (métricas de conversão) não suportadas. Permissões em tempo real são habilitadas nas [Ferramentas do Administrador](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+A análise em tempo real respeita as permissões para usuários e grupos. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma. eVars (métricas de conversão) não suportadas. Permissões em tempo real são habilitadas nas [Ferramentas do Administrador](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=pt-BR).
 
 >[!NOTE]
 >

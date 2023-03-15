@@ -30,7 +30,7 @@ No entanto, se você configurar regras de processamento adicionais na interface 
 
    ![Variável de contexto](assets/context-var.png)
 
-1. No Experience Cloud, alterne para o Adobe Analytics e verifique se você está no mesmo conjunto de relatórios móvel que estava visualizando no Mobile Services.
+1. No Experience Cloud, alterne para o Adobe Analytics e verifique se você está no mesmo conjunto de relatórios móveis que estava visualizando no Mobile Services.
 1. Acesse **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de processamento]**.
 1. Clique em **[!UICONTROL Adicionar regra]**.
 1. Ignore as condições e prossiga para adicionar as mesmas variáveis de contexto que existem no Mobile Services.
@@ -59,7 +59,7 @@ Este é um trecho do modelo de Utilização de aplicativos móveis:
 Para acessar os modelos:
 
 1. Faça logon em `experience.adobe.com` e selecione Analytics.
-1. Certifique-se de estar em um conjunto de relatórios habilitado para o Mobile Services.
+1. Verifique se você está em um conjunto de relatórios habilitado para o Mobile Services.
 1. Clique na guia **[!UICONTROL Workspace]**.
 1. Clique em **[!UICONTROL Criar novo projeto]**.
 1. Selecione qualquer um dos modelos do Mobile e clique em **[!UICONTROL Criar]**.

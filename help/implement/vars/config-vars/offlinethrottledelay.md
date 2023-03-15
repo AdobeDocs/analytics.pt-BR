@@ -6,7 +6,7 @@ exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 81%
+ht-degree: 90%
 
 ---
 
@@ -16,11 +16,11 @@ O rastreamento offline é uma maneira opcional de coletar dados no Adobe Analyti
 
 Quando um dispositivo volta a ficar online, todas as ocorrências armazenadas no dispositivo são enviadas para os servidores de coleta de dados da Adobe. Um grande número de ocorrências em fila pode afetar o desempenho em dispositivos mais antigos. Use a variável `offlineThrottleDelay` para determinar com que frequência as ocorrências em fila são enviadas para a Adobe.
 
-## Atraso de aceleração offline usando a extensão Adobe Analytics
+## Atraso de limitação offline usando a extensão Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.offlineThrottleDelay no AppMeasurement e no editor de código personalizado de extensão do Analytics
+## s.offlineThrottleDelay no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 A variável `s.offlineThrottleDelay` é um número inteiro que representa o número de milissegundos que o AppMeasurement aguarda entre o envio de ocorrências em fila. Seu valor padrão é `0`, o que significa que todas as ocorrências em fila são enviadas ao mesmo tempo. Se `trackOffline` for `false`, essa variável não fará nada.
 

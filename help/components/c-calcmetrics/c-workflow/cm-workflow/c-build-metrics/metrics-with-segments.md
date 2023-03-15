@@ -1,5 +1,5 @@
 ---
-description: 'Segmentar métricas individuais permite comparar métricas em um mesmo relatório. '
+description: Segmentar métricas individuais permite comparar métricas em um mesmo relatório.
 title: Métricas segmentadas
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04

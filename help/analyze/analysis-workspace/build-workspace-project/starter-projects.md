@@ -123,7 +123,7 @@ Veja um vídeo sobre o modelo de [!UICONTROL Tutorial de treinamento]:
 
 ### Pessoas
 
-O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite 
+O modelo é baseado na métrica de Pessoas, que é uma versão deduplicada da métrica Visitantes únicos. A métrica de Pessoas oferece uma medida da frequência que os clientes que usam vários dispositivos interagem com a sua marca. O modelo permite: 
 
 * Segmentar seus dados por EUA/Canadá vs. o resto do mundo
 * Comparar as métricas de Pessoas e de Visitantes únicos lado a lado

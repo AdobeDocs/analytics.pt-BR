@@ -6,7 +6,7 @@ exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 77%
+ht-degree: 80%
 
 ---
 
@@ -18,10 +18,10 @@ Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExtern
 
 ## Rastreamento de link usando o SDK da Web
 
-O SDK da Web não diferencia entre chamadas de exibição de página e chamadas de rastreamento de link; ambos usam a variável `sendEvent` comando. Se você deseja que o Adobe Analytics conte um determinado evento XDM como uma chamada de rastreamento de link, verifique se os dados XDM incluem ou são mapeados para `web.webInteraction.name`, `web.webInteraction.URL`e `web.webInteraction.type`.
+O SDK da Web não diferencia entre chamadas de exibição de página e chamadas de rastreamento de link; ambos usam o `sendEvent` comando. Se quiser que o Adobe Analytics contabilize um determinado evento XDM como uma chamada de rastreamento de link, verifique se os dados XDM incluem ou estão mapeados para `web.webInteraction.name`, `web.webInteraction.URL`, e `web.webInteraction.type`.
 
 * O nome do link mapeia para `web.webInteraction.name`.
-* Link URL mapeia para `web.webInteraction.URL`.
+* Vincular URL mapeia para `web.webInteraction.URL`.
 * O tipo de link mapeia para `web.webInteraction.type`. Os valores válidos incluem `other` (Links personalizados), `download` (Links de download) e `exit` (Links de saída).
 
 ```js
@@ -38,18 +38,18 @@ alloy("sendEvent", {
 });
 ```
 
-## Rastreamento de link usando a extensão Adobe Analytics
+## Rastreamento de link usando a extensão do Adobe Analytics
 
-A extensão Adobe Analytics tem um local dedicado para definir uma chamada de rastreamento de link.
+A extensão do Adobe Analytics tem um local dedicado para definir uma chamada de rastreamento de link.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-1. Em [!UICONTROL Ações], clique na ação desejada ou clique no botão **&#39;+&#39;** para adicionar uma ação.
-1. Defina as [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Adobe Analytics]** e o [!UICONTROL Tipo de ação] para **[!UICONTROL Enviar beacon]**.
+1. Em [!UICONTROL Ações], clique na ação desejada ou clique no link **&#39;+&#39;** ícone para adicionar uma ação.
+1. Defina o [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Adobe Analytics]**, e o [!UICONTROL Tipo de ação] para **[!UICONTROL Enviar sinal]**.
 1. Clique no botão de opção `s.tl()`.
 
-Não é possível definir argumentos opcionais na extensão Analytics.
+Não é possível definir argumentos opcionais na extensão do Analytics.
 
 ## Método s.tl() no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

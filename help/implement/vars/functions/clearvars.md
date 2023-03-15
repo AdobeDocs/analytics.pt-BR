@@ -6,7 +6,7 @@ exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 74%
+ht-degree: 80%
 
 ---
 
@@ -33,11 +33,11 @@ Esse método não aceita argumentos e não retorna nenhum valor. Sua única fina
 
 Ao enviar dados para o Adobe usando o SDK da Web, todos os dados XDM são apagados automaticamente.
 
-## Limpar variáveis usando a extensão Adobe Analytics
+## Limpar variáveis usando a extensão do Adobe Analytics
 
 Defina a ação Limpar variáveis ao configurar uma regra.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique no ícone “+”

@@ -59,7 +59,7 @@ Dê uma olhada no novo painel [Análise de fallout](https://experienceleague.ado
 
 Relatórios de fluxo de página exibem a ordem na qual seus visitantes acessam as páginas e navegam pelo seu site. Este relatório ajuda a descobrir essas respostas
 
-Confira o [Visualização de fluxo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) no Analysis Workspace!
+Confira o [Visualização de fluxo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=pt-BR) no Analysis Workspace!
 
 Por exemplo, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]** > **[!UICONTROL Páginas]** > **[!UICONTROL Fluxo da próxima página]**.
 
@@ -92,7 +92,7 @@ Consulte [Visão geral do relatório em tempo real](/help/components/c-real-time
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Selecione o Conjunto de relatórios</strong></td> 
-   <td class="chdesc stentry"> Mostra o conjunto de relatórios que esse relatório em tempo real cobre. Para alterar o conjunto de relatórios, consulte <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Configuração dos relatórios em tempo real </a>. </td> 
+   <td class="chdesc stentry"> Mostra o conjunto de relatórios que esse relatório em tempo real cobre. Para alterar o conjunto de relatórios, consulte <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=pt-BR"  >Configuração dos relatórios em tempo real </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Alternar entre relatórios</strong></td> 

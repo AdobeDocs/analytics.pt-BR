@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 92%
 
 ---
@@ -20,7 +20,7 @@ Após instalar o Report Builder e iniciar o Excel, clique em **[!UICONTROL Suple
 
 ![](assets/report_builder_toolbar.png)
 
-**Fazer logon:** exibe o   Loginformation, para que você possa fazer logon com suas credenciais ou como um usuário diferente. Ele também exibe o nome da sua empresa após o logon. Consulte [Logon no Report Builder](/help/analyze/report-builder/setup/login.md).
+**Entrar:** Exibe o [!UICONTROL Logon] para que você possa fazer logon com suas credenciais ou como um usuário diferente. Ele também exibe o nome da sua empresa após o logon. Consulte [Logon no Report Builder](/help/analyze/report-builder/setup/login.md).
 
 **Criar:** Inicia o [!UICONTROL Assistente de solicitações]. Se você não tiver feito logon, será solicitado a fazê-lo. Consulte [Solicitações de dados](/help/analyze/report-builder/data-requests/data-requests.md).
 

@@ -1,5 +1,5 @@
 ---
-description: 'O que são cartões de pontuação de painéis e '
+description: O que são cartões de pontuação de painéis e
 title: Guia do curador de painéis do Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin

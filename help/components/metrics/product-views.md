@@ -19,4 +19,4 @@ A métrica “Visualizações de produto” mostra o número de vezes que um pro
 Essa métrica conta o número de ocorrências que correspondem a **qualquer** uma das seguintes opções:
 
 * O valor `prodView` existe na variável [`events`](/help/implement/vars/page-vars/events/events-overview.md); ou
-* O [`products`](/help/implement/vars/page-vars/products.md) for definida e a variável `events` está vazia.
+* A variável [`products`](/help/implement/vars/page-vars/products.md) for definida e a variável `events` está vazia.

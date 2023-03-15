@@ -6,7 +6,7 @@ exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 69%
+ht-degree: 74%
 
 ---
 
@@ -20,22 +20,22 @@ A Adobe coleta dados em seu site recebendo uma solicitação de imagem gerada pe
 
 ## Domínio de borda usando a extensão SDK da Web
 
-O SDK da Web usa [!UICONTROL Domínio de borda] para lidar com o Servidor de rastreamento e o Servidor de rastreamento seguro. É possível definir a [!UICONTROL Domínio de borda] ao configurar a extensão do SDK da Web.
+O SDK da Web usa [!UICONTROL Domínio de borda] para lidar com o Servidor de rastreamento e o Servidor de rastreamento seguro. É possível definir as configurações [!UICONTROL Domínio de borda] ao configurar a extensão SDK da Web.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Vá para o [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** botão abaixo [!UICONTROL Adobe Experience Platform Web SDK].
-1. Defina as **[!UICONTROL Domínio de borda]** campo de texto.
+1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
+1. Defina o desejado **[!UICONTROL Domínio de borda]** campo de texto.
 
-Consulte [Configurar a extensão Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) na documentação do SDK da Web para obter mais informações.
+Consulte [Configurar a extensão SDK da Web do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=pt-BR) na documentação do SDK da Web para obter mais informações.
 
 >[!TIP]
 >
->Se sua organização mudar para o SDK da Web a partir de uma implementação de extensão do AppMeasurement ou do Analytics, esse campo poderá usar o mesmo valor contido em `trackingServerSecure` ou `trackingServer`).
+>Se sua organização mudar para o SDK da Web de uma implementação de extensão do AppMeasurement ou do Analytics, esse campo poderá usar o mesmo valor contido em `trackingServerSecure` (ou `trackingServer`).
 
 ## Domínio de borda que implementa manualmente o SDK da Web
 
-Configurar o SDK usando [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR). O campo é uma string que determina o domínio para o qual enviar dados.
+Configurar o SDK usando o [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR). O campo é uma cadeia de caracteres que determina o domínio para o qual enviar dados.
 
 ```json
 alloy("configure", {
@@ -43,11 +43,11 @@ alloy("configure", {
 });
 ```
 
-## Servidor de rastreamento usando a extensão Adobe Analytics
+## Servidor de rastreamento usando a extensão do Adobe Analytics
 
 Servidor de rastreamento é um campo sob a opção [!UICONTROL Geral] ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Geral], que revela o campo [!UICONTROL Servidor de rastreamento].

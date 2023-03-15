@@ -18,24 +18,24 @@ ht-degree: 84%
 
 [!UICONTROL O Processamento de tempo de relatório] afeta somente os dados no conjunto de relatórios virtual e não afeta nenhum dado ou coleta de dados no conjunto de relatórios base. A diferença entre o [!UICONTROL Processamento de tempo de relatório] e o processamento tradicional do Analytics é melhor entendida por meio do seguinte diagrama:
 
-![Gasoduto de transformação tradicional](assets/google1.jpg)
+![Pipeline de processamento tradicional](assets/google1.jpg)
 
 Durante o processamento de dados do Analytics, os dados fluem do pipeline de coleta de dados para uma etapa de pré-processamento, que prepara os dados para os relatórios. Esta etapa de pré-processamento aplica a lógica de expiração de visita e a lógica de persistência de eVar (entre outras coisas) aos dados conforme são coletados. A principal desvantagem deste modelo de pré-processamento é que ele exige que as configurações sejam feitas antes da coleta dos dados. Isso significa que qualquer alteração nas configurações de pré-processamento se aplica somente aos novos dados a partir desse momento. Isso será um problema se os dados chegarem fora de ordem ou se as configurações estiverem incorretas.
 
 [!UICONTROL O Processamento de tempo de relatório] é uma maneira fundamentalmente diferente de processar os dados do Analytics para a geração de relatórios. Em vez de predeterminar a lógica de processamento antes da coleta de dados, o Analytics ignora o conjunto de dados durante a etapa de pré-processamento e aplica essa lógica sempre que um relatório é executado:
 
-![pipeline de processamento de tempo do relatório](assets/google2.jpg)
+![Pipeline de processamento de tempo do relatório](assets/google2.jpg)
 
-Esta arquitetura de processamento permite opções de relatórios muito mais flexíveis. Por exemplo, você pode alterar o tempo limite da visita para qualquer período que desejar de forma não destrutiva e essas alterações são refletidas na persistência do eVar e nos contêineres do segmento para o período de relatório completo. Além disso, você pode criar qualquer número de conjuntos de relatórios virtuais, cada um com diferentes opções de Processamento de tempo do relatório com base em um mesmo conjunto de relatórios base, sem alterar os dados no conjunto de relatórios base.
+Esta arquitetura de processamento permite opções de relatórios muito mais flexíveis. Por exemplo, você pode alterar o período de tempo limite da visita para qualquer período desejado de forma não destrutiva e essas alterações são refletidas na persistência do eVar e nos contêineres do segmento para o período de geração de relatório completo. Além disso, você pode criar qualquer número de conjuntos de relatórios virtuais, cada um com diferentes opções de Processamento de tempo do relatório com base em um mesmo conjunto de relatórios base, sem alterar os dados no conjunto de relatórios base.
 
-[!UICONTROL Processamento de tempo do relatório] O também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e permite que a variável [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR) para iniciar uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
+[!UICONTROL Processamento de tempo do relatório] também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e permite [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR) para iniciar uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
 
 ## Opções de configuração
 
 As seguintes opções de configuração estão disponíveis atualmente para conjuntos de relatórios virtuais com o Processamento de tempo do relatório ativado:
 
 * **[!UICONTROL Tempo limite de visita]:** a configuração de tempo limite de visita define a quantidade de inatividade que um visitante único deve ter antes que uma nova visita seja iniciada automaticamente. O padrão é 30 minutos. Por exemplo, se o tempo limite de visita for definido para 15 minutos, um novo grupo de visitas será criado para cada sequência de ocorrências coletadas, separadas por 15 minutos de inatividade. Essa configuração afeta não apenas a sua visita, mas também a forma como os contêineres do segmento de visitas são avaliados e a lógica de expiração de visita para todas as eVars que expiram na visita. Diminuir o tempo limite de visita provavelmente aumentará o número total de visitas em seus relatórios, ao passo que aumentar o tempo limite provavelmente diminuirá o número total de visitas em seus relatórios.
-* **[!UICONTROL Configurações de visita de aplicativos móveis]:** para conjuntos de relatórios que contenham dados gerados por aplicativos móveis por meio dos [SDKs móveis da Adobe Mobile](https://experienceleague.adobe.com/docs/mobile.html), estão disponíveis configurações de visita adicionais. Essas configurações não são destrutivas e afetam somente as ocorrências que foram coletadas por meio dos SDKs móveis. Essas configurações não têm impacto nos dados coletados fora do SDK móvel.
+* **[!UICONTROL Configurações de visita de aplicativos móveis]:** para conjuntos de relatórios que contenham dados gerados por aplicativos móveis por meio dos [SDKs móveis da Adobe Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR), estão disponíveis configurações de visita adicionais. Essas configurações não são destrutivas e afetam somente as ocorrências que foram coletadas por meio dos SDKs móveis. Essas configurações não têm impacto nos dados coletados fora do SDK móvel.
 * **[!UICONTROL Impedir ocorrências em segundo plano de iniciar uma nova visita]:** as ocorrências em segundo plano são coletadas pelos SDKs móveis quando o aplicativo está em segundo plano.
 * **[!UICONTROL Iniciar uma nova visita a cada inicialização do aplicativo]:** além do tempo limite de visita, é possível forçar o início de uma visita sempre que um evento de inicialização de aplicativo for gravado dos SDKs móveis, independentemente da janela de inatividade. Essa configuração afeta a métrica de visitas e o contêiner do segmento de visitas, bem como a lógica de expiração de visita nas eVars.
 * **[!UICONTROL Iniciar nova visita com evento]:** uma nova sessão começa quando um evento é acionado, independentemente de uma sessão ter ultrapassado o tempo limite. A sessão recentemente criada inclui o evento que a iniciou. Além disso, é possível usar vários eventos para começar uma sessão e uma nova sessão é acionada se qualquer um desses eventos for observado nos dados. Esta configuração afetará a contagem de visitas, o contêiner de segmentação de visitas e a lógica de expiração de visitas nas eVars.
@@ -53,7 +53,7 @@ Além disso, o Processamento de tempo do relatório somente processa os dados pr
 As seguintes dimensões e métricas não são compatíveis com o Processamento de tempo do relatório:
 
 * **Analytics for Target**
-* **Dimensões/métricas do Analytics para Advertising Cloud**
+* **Dimensões/métricas do Analytics for Advertising Cloud**
 * **eVars de contador**
 * **Dias Antes da Primeira Compra**
 * **Dias Desde a Última Compra**
@@ -61,7 +61,7 @@ As seguintes dimensões e métricas não são compatíveis com o Processamento d
 * **Página de entrada original**
 * **eVars de alocação linear**
 * **Vars de lista**
-* **Dimensões dos Canais de marketing**
+* **Dimensões de Canais de marketing**
 * **Domínio referenciador original**
 * **Frequência de Retorno**
 * **Único Acesso**
@@ -84,4 +84,4 @@ Veja abaixo uma lista das dimensões e métricas afetadas, dependendo das config
 * **eVars não relacionadas ao merchandising/eVars reservadas:** os valores definidos em uma eVar persistem apenas se o valor tiver sido definido dentro do intervalo de datas do relatório devido à janela de data do processamento de tempo de relatório. Além disso, as expirações baseadas em tempo podem expirar uma hora antes ou depois se a persistência abranger uma mudança de horário de verão.
 * **eVars de merchandising/eVars reservadas:** consulte acima. Além disso, para a sintaxe de conversão, onde a vinculação é definida como “qualquer evento”, é usado “qualquer ocorrência” no lugar disso.
 * **Tipo de ocorrência:** essa dimensão especifica se uma ocorrência está em primeiro ou em segundo plano.
-* **Dimension com (tráfego baixo) ou &quot;Únicos excedidos&quot;:** O item de linha (tráfego baixo) é determinado de forma um pouco diferente ao usar o Processamento de tempo do relatório e não é garantido que corresponda ao que é observado ao gerar relatórios sobre o Conjunto de relatórios base. Os itens de linha de Dimension que não fazem parte de Tráfego baixo não são garantidos para representar 100% dos dados desse item de linha. Essas diferenças podem se tornar mais acentuadas quanto maior for o número de valores únicos em uma dimensão.
+* **Dimension com (tráfego baixo) ou &quot;Únicos excedidos&quot;:** O item de linha (tráfego baixo) é determinado de maneira um pouco diferente ao usar o Processamento de tempo de relatório e não há garantia de correspondência com o que é observado nos relatórios no Conjunto de relatórios base. Não há garantias de que os itens de linha de Dimension que não fazem parte do Tráfego baixo representem 100% dos dados desse item de linha. Essas diferenças podem se tornar mais pronunciadas quanto maior o número de valores únicos existentes em uma dimensão.

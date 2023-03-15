@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ O formulário [!UICONTROL Salvar modelo] tem algumas das mesmas funções que a 
 
 Qualquer nome de arquivo usado precisa conter no máximo 255 caracteres. Além disso, o nome de arquivo não pode conter os seguintes caracteres:
 
-\ ? | > &lt; : / * &#39; &quot;
+\ ? | > &lt; : / &#42; &#39; &quot;
 
 Finalmente, você não pode usar Caracteres Unicode além do conjunto de caracteres ASCII estendido.
 

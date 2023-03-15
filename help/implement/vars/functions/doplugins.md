@@ -6,7 +6,7 @@ exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 57%
+ht-degree: 66%
 
 ---
 
@@ -19,17 +19,17 @@ A variável `doPlugins` atua como uma &quot;última chamada&quot; para definir v
 
 Use a variável `doPlugins` para chamar o código do plug-in e definir os valores finais da variável antes que uma solicitação de imagem seja compilada e enviada para a Adobe.
 
-## Usar em antes do código de retorno de chamada Enviar evento usando a extensão SDK da Web
+## Usar o código de retorno de chamada On Before Event Send usando a extensão SDK da Web
 
 Em vez de `doPlugins`, o SDK da Web usa `onBeforeEventSend` com funcionalidade semelhante.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Vá para o [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** botão abaixo [!UICONTROL Adobe Experience Platform Web SDK].
-1. Em [!UICONTROL Coleta de dados], clique no botão **[!UICONTROL Editar em antes do evento enviar o código de retorno de chamada]** botão.
+1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
+1. Em [!UICONTROL Coleta de dados], clique no link **[!UICONTROL Editar no antes do envio do evento código de retorno de chamada]** botão.
 1. Coloque o código desejado no editor.
 
-## Use `onBeforeEventSend` implementação manual do SDK da Web
+## Uso `onBeforeEventSend` implementação manual do SDK da Web
 
 Em vez de `doPlugins`, o SDK da Web usa `onBeforeEventSend` com funcionalidade semelhante. Consulte [Modificação global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
 
@@ -42,9 +42,9 @@ alloy("configure", {
 })
 ```
 
-## Plug-ins usando a extensão Adobe Analytics
+## Plug-ins que usam a extensão Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.doPlugins no AppMeasurement e no código personalizado do 
 

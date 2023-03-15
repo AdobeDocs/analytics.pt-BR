@@ -5,14 +5,14 @@ feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1443'
 ht-degree: 91%
 
 ---
 
 # Perguntas frequentes sobre segmentos herdados
 
-Responde perguntas frequentes sobre práticas recomendadas para gerenciar segmentos herdados - segmentos criados antes de 2014.
+Responde a perguntas frequentes sobre as práticas recomendadas para gerenciar segmentos herdados - segmentos criados antes de 2014.
 
 ## Gerenciamento de segmentos herdados {#legacy}
 
@@ -62,7 +62,7 @@ Esses segmentos serão transferidos como modelos de segmento no Construtor de se
 
 +++
 
-+++ **O que aconteceu com os segmentos do Experience Cloud (Suite):**
++++ **O que aconteceu com os segmentos de Experience Cloud (Suite):**
 
 * Não compradores
 * Compradores
@@ -72,13 +72,13 @@ Esses segmentos serão transferidos como modelos de segmento no Construtor de se
 * Visitas com mais de cinco visitas anteriores*
 * Visitas do Facebook*
 
-A maioria desses segmentos (exceto os marcados com um asterisco *) foram migrados como modelos de segmentos no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados.
+A maioria desses segmentos (exceto os marcados com um asterisco *) foi migrada como modelos de segmentos no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados.
 
 Os relatórios com esses segmentos aplicados continuam a funcionar corretamente.
 
 +++
 
-+++ **O que aconteceu com os segmentos Admin (também conhecidos como segmentos &quot;Globais&quot;)?**
++++ **O que aconteceu com os segmentos de administrador (também conhecidos como segmentos &quot;Globais&quot;)?**
 
 Os segmentos do **administrador** serão migrados na nova interface de segmentos e serão exibidos como segmentos compartilhados com todos.
 
@@ -115,7 +115,7 @@ As seguintes dicas ajudarão você a migrar dimensões comuns:
 * Cidade/regiões/país geográfico - pesquise e selecione cidades, regiões ou países específicos em vez de usar uma correspondência parcial.
 * Navegadores - use a dimensão de Tipos de navegador para obter todos os navegadores em um tipo, por exemplo, Google Chrome
 * Sistemas operacionais - use as dimensões de Tipos de sistema operacional para obter todos os sistemas operacionais em um tipo, por exemplo, Microsoft Windows.
-* Consulte &quot;Dimension novas e renomeadas&quot; (veja abaixo)
+* Consulte &quot;Dimension novos e renomeados&quot; (veja abaixo)
 
 ## Dimensões novas e renomeadas {#renamed}
 
@@ -145,7 +145,7 @@ A tabela a seguir contém uma lista de dimensões que foram renomeadas no Constr
 | Profundidade da visita | Comprimento do caminho | - |
 | Código postal | CEP/Código postal | - |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Alterações nas dimensões com base em sequência de caracteres com valores conhecidos {#string-based-dims}
 
@@ -153,7 +153,7 @@ Dimensões com base em sequência de caracteres com conjunto de valores conhecid
 
 As seguintes dimensões foram alteradas para listas enumeradas:
 
-| Dimension name | Dimension name | Dimension name |
+| nome do Dimension | nome do Dimension | nome do Dimension |
 | --- | --- | --- |
 | fabricante do dispositivo móvel | comprimento de email remoto | intensidade de cor |
 | tamanho da tela do dispositivo móvel | número do dispositivo móvel | resolução do monitor |
@@ -172,7 +172,7 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 
 ## Alterações nas dimensões com base em inteiro com valores conhecidos {#integer-based-dims}
 
-Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A tela a seguir mostra como essas dimensões são segmentadas usando as interfaces do construtor de segmento anterior e novo:
+Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A tela a seguir mostra como essas dimensões são segmentadas usando as interfaces anterior e nova do construtor de segmentos:
 
 ![](assets/seg_browser_dimension.png)
 

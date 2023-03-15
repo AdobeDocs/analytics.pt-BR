@@ -3,7 +3,7 @@ title: Implementação do Adobe Analytics
 description: Implementar o Adobe Analytics no site, propriedade ou aplicativo.
 feature: Implementation Basics
 source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
 

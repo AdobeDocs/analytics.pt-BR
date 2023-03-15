@@ -1,5 +1,5 @@
 ---
-description: Saiba mais sobre os diferentes contêineres de segmentação e como usá-los
+description: Saiba mais sobre os diferentes contêineres de segmentação e como utilizá-los
 keywords: segmentação;segmentos
 title: Containers de segmentos
 feature: Segmentation

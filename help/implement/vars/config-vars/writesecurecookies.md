@@ -6,7 +6,7 @@ exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 72%
+ht-degree: 77%
 
 ---
 
@@ -20,17 +20,17 @@ Saiba mais sobre os cookies do Analytics [aqui](https://experienceleague.adobe.c
 
 >[!WARNING]
 >
->Se você habilitar a variável `writeSecureCookies`, verifique se todo o conteúdo do site está protegido por HTTPS. A coleta de dados não funcionará corretamente se essa variável estiver ativada e você tiver conteúdo inseguro na página.
+>Se você habilitar a variável `writeSecureCookies`, verifique se todo o conteúdo do site está protegido por HTTPS. A coleta de dados não funcionará corretamente se essa variável estiver ativada e você tiver conteúdo não seguro na sua página.
 
 ## Usar cookies seguros com o SDK da Web
 
-Se seu site usa protocolo HTTPS, o atributo Secure é definido para todos os cookies que o SDK da Web define.
+Se o site usa o protocolo HTTPS, o atributo Secure é definido para todos os cookies definidos pelo SDK da Web.
 
-## Gravar cookies seguros usando a extensão Adobe Analytics
+## Gravar cookies seguros usando a extensão do Adobe Analytics
 
 [!UICONTROL Gravar cookies seguros] é uma caixa de seleção da opção [!UICONTROL Cookies] exibida ao configurar a extensão do Adobe Analytics.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Cookies], que revela a caixa de seleção [!UICONTROL Gravar cookies seguros].

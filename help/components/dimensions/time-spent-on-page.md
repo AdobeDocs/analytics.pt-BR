@@ -36,7 +36,7 @@ Essa dimensão funciona imediatamente em todas as implementações. Se um conjun
 
 Existem várias dimensões para o tempo gasto na página:
 
-* **Tempo gasto na página - classificado**: a quantidade de tempo é classificada. Os itens de dimensão variam de `"Less than 15 seconds"` a `"More than 30 minutes"`. O tempo entre as ocorrências normalmente não dura mais de 30 minutos; no entanto, o tempo entre as ocorrências pode exceder 30 minutos se estiver usando ocorrências com carimbo de data e hora ou fontes de dados.
+* **Tempo gasto na página - classificado**: a quantidade de tempo é classificada. Os itens de dimensão variam de `"Less than 15 seconds"` a `"More than 30 minutes"`. O tempo entre ocorrências normalmente não dura mais de 30 minutos. No entanto, esse tempo pode exceder 30 minutos se forem usadas ocorrências com carimbo de data e hora ou fontes de dados.
 * **Tempo gasto na página - granular**: cada número de segundos é um item de dimensão exclusivo.
 
 Consulte [Visão geral do tempo gasto](../metrics/time-spent.md) para obter mais informações gerais sobre o tempo gasto.

@@ -4,7 +4,7 @@ description: As regras de processamento de canal de marketing determinam se uma 
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2187'
 ht-degree: 100%
 

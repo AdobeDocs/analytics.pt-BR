@@ -6,7 +6,7 @@ exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 74%
+ht-degree: 84%
 
 ---
 
@@ -16,13 +16,13 @@ A variável `channel` geralmente armazena a seção do site em que uma determina
 
 ## Canal usando o SDK da Web
 
-O canal é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) no campo XDM `web.webPageDetails.siteSection`.
+O canal é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webPageDetails.siteSection`.
 
-## Canal usando a extensão Adobe Analytics
+## Canal usando a extensão do Adobe Analytics
 
 É possível definir um canal ao configurar a extensão do Analytics (variáveis globais) ou sob Regras.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.

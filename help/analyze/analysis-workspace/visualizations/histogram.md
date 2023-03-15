@@ -6,7 +6,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Para ajustar as configurações do histograma, clique no ícone de Configuraçõ
 
 ## Exibir e editar os dados do histograma {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-Para exibir ou alterar a fonte de dados do gráfico de histograma, clique no ponto ao lado do cabeçalho do Histograma para acessar **[!UICONTROL Configurações de fonte de dados]** > **[!UICONTROL Mostrar fonte de dados]**.
+Para exibir ou alterar a fonte de dados do gráfico de histograma, clique no ponto ao lado do cabeçalho do Histograma para acessar **[!UICONTROL Configurações da fonte de dados]** > **[!UICONTROL Mostrar fonte de dados]**.
 
 ![](assets/manage-data-source.png)
 

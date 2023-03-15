@@ -45,7 +45,7 @@ Para criar um relatório personalizado:
 
 ## Selecionar um intervalo de datas ou data {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
-Você pode escolher os períodos de tempo para seus dados de relatório.
+Você pode escolher os períodos para os dados do relatório.
 
 <!-- 
 
@@ -110,7 +110,7 @@ t_reports_graph_percent.xml
 
 A visualização também está disponível nos reportlets do painel.
 
-Para exibir a porcentagem como gráfico em uma tabela de relatório:
+Para exibir o percentual como um gráfico em uma tabela de relatório:
 
 1. Execute um relatório que tenha suporte a porcentagens como, por exemplo, o [!UICONTROL Relatório de páginas].
 1. Clique em **[!UICONTROL Porcentagem exibida como: gráfico]**.
@@ -181,7 +181,7 @@ Para comparar conjuntos de relatórios:
 
 ## Especificar a granularidade do relatório {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
-É possível exibir totais de relatório de acordo com as horas, diariamente, semanalmente, mensalmente, trimestralmente ou anualmente.
+Você pode exibir os totais do relatório de hora em hora, dia, semana, mês, trimestre ou ano.
 
 <!-- 
 

@@ -44,7 +44,7 @@ Cada um dos formatos de calendário é descrito abaixo.
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: janeiro possui quatro semanas, fevereiro cinco, março quatro e assim por diante. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: janeiro possui quatro semanas, fevereiro quatro, março cinco e assim por diante. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: janeiro possui cinco semanas, fevereiro cinco, março quatro e assim por diante. </li> 
-    </ul> <p>Observação: Esta opção de calendário é suportada em todas as ferramentas do Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder e Activity Map). A exceção é o Data Warehouse, que não suporta calendários personalizados. </p> </td> 
+    </ul> <p>Observação: essa opção de calendário é compatível com todas as ferramentas do Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder e Activity Map). A exceção é o Data Warehouse, que não oferece suporte a calendários personalizados. </p> </td> 
   </tr> 
  </tbody> 
 </table>

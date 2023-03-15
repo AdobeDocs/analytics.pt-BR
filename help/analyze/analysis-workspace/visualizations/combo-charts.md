@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 97%
+source-wordcount: '755'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Use um [!UICONTROL Gráfico de combinação] para
 
 Lembre-se:
 
-* Você pode adicionar várias comparações em uma única [!UICONTROL Gráfico de combinação].
+* É possível adicionar várias comparações em um único [!UICONTROL gráfico de combinação].
 * Se você adicionar uma ou mais comparações, elas devem ser do mesmo tipo, como [!UICONTROL Comparação de tempo].
 * Você pode adicionar até 5 comparações.
 * É possível aplicar até 3 filtros (segmentos) a uma métrica.
@@ -47,7 +47,7 @@ Lembre-se:
    | **[!UICONTROL Função]** | Você pode incluir uma função, como [!UICONTROL Média], na comparação. Consulte uma lista de funções compatíveis abaixo.<p>![](assets/combo-functions.png) |
    | **[!UICONTROL Métrica secundária]** | Você pode, por exemplo, comparar a [!UICONTROL Receita] com outra métrica.<p>![](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Clique em **[!UICONTROL Criar]**.
 
@@ -71,7 +71,7 @@ Se você escolher **[!UICONTROL Função]** como o [!UICONTROL Tipo de comparaç
 | **[!UICONTROL Média]** | Retorna a média aritmética de uma métrica. |
 | **[!UICONTROL Mínimo da coluna]** | Retorna o menor valor em um conjunto de elementos de dimensão para uma coluna de métrica. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Este é um exemplo da média cumulativa da métrica Receita:
 
@@ -103,4 +103,4 @@ Clique no ícone de engrenagem na parte superior direita de um gráfico de combi
 | **[!UICONTROL Mostrar eixo Y]** | Exibe ou oculta o eixo Y. |
 | **[!UICONTROL Ancorar o eixo Y em zero]** | Se todos os valores exibidos no gráfico forem consideravelmente superiores a zero, o padrão do gráfico tornará a parte inferior do eixo y DIFERENTE DE ZERO. Se marcar esta caixa, o eixo y será forçado a zero (e o gráfico será redesenhado). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -16,7 +16,7 @@ ht-degree: 97%
 
 {{ra-eol}}
 
-Você pode personalizar o gráfico para que seja mais útil para o público-alvo desejado.
+É possível personalizar o gráfico para que seja mais útil para o público-alvo desejado.
 
 Os tipos de gráfico disponíveis dependem do tipo de relatório que você está executando. Por exemplo, gráficos de linha de tendência são úteis para relatórios de tendências, mas você pode também usar um gráfico de Barras verticais com linhas de tendência que ilustram claramente as tendências ao passar dos dias, semanas, meses e assim por diante. Opcionalmente, você poderia escolher um gráfico de pizza para ilustrar porcentagens das páginas visualizadas.
 

@@ -6,7 +6,7 @@ exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados. Existem três categorias de operadores: Padrão, Data Warehouse e Contagem distinta.
 
-O único caractere genérico compatível é o asterisco: *. Caso seja necessário pesquisar por *, você pode isolá-lo com barras invertidas.
+O único caractere genérico compatível é o asterisco: &#42;. Se você precisar pesquisar por &#42;, você pode usar a barra invertida como escape.
 
-**Exemplo**: imagine que você possui uma página com o nome de &quot;Meu produto divertido&quot;. A regra do segmento &quot;O nome da página corresponde a Meu*produto&quot; corresponderá ao nome da página acima. No entanto, a regra &quot;O nome da página corresponde a Meu\\*produto&quot; será correspondente somente com o nome da página &quot;Meu*produto&quot;.
+**Exemplo**: imagine que você possui uma página com o nome de &quot;Meu produto divertido&quot;. A regra de segmento &quot;O nome da página corresponde a Meu&#42;produto&quot; corresponderá ao nome de página acima. No entanto, a regra &quot;O nome da página corresponde a Meu\\&#42;&quot;product&quot; corresponde somente ao nome da página &quot;My&#42;Produto&quot;.
 
 ## Operadores padrão
 

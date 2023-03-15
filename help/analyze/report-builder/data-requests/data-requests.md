@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
@@ -17,9 +17,9 @@ No Assistente de solicitações: etapa 1, selecione o conjunto de relatórios, o
 
 ![](assets/rw1_overview.png)
 
-1. **[!UICONTROL Conjunto de relatórios]**: A lista de conjuntos de relatórios disponíveis para você, com base em suas credenciais de logon. Consulte  [Selecionar os conjuntos de relatórios](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **[!UICONTROL Conjunto de relatórios]**: A lista de conjuntos de relatórios disponíveis para você, com base em suas credenciais de logon. Consulte [Selecionar os conjuntos de relatórios](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Seletor de intervalo**: Permite selecionar uma ID de conjunto de relatórios a partir de uma célula no Excel. Consulte  [Selecionar os conjuntos de relatórios](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **Seletor de intervalo**: Permite selecionar uma ID de conjunto de relatórios a partir de uma célula no Excel. Consulte [Selecionar os conjuntos de relatórios](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
 1. **Segmento**: Segmentos são subconjuntos personalizados de dados, ou dados filtrados por regras criadas por você. Segmentos têm por base acessos, visitas e visitantes. Consulte o [Guia de segmentação do Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=pt-BR) para obter mais informações sobre segmentos.
 

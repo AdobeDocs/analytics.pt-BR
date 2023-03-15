@@ -3,14 +3,13 @@ title: Perguntas frequentas sobre Tempo gasto com reprodução de mídia
 description: Quais são as perguntas frequentes sobre o Tempo gasto com reprodução de mídia?
 feature: Panels
 role: User, Admin
-source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: ht
+exl-id: 5778c030-6790-42cb-a0f7-294d896fbbc2
+source-git-commit: 9662c61a428923f296ca057156c06fa2bf41325d
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
 ---
-
-
 
 # Perguntas frequentas sobre Tempo gasto com reprodução de mídia
 

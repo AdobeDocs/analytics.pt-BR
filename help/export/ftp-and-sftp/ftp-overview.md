@@ -21,4 +21,4 @@ Maneiras de usar o FTP com as soluções e produtos da Adobe:
 * Faça upload dos atributos do cliente para a Experience Cloud e use-os nas soluções.
 * Use o Analytics para criar e gerenciar as fontes de dados baseadas em FTP, que impulsionam a transferência de arquivos do FTP para importar dados off-line e de histórico na [!UICONTROL Experience Cloud].
 
-Esses artigos não o orientam necessariamente pelas etapas do uso do FTP com cada produto. Ele mostra as práticas recomendadas para o uso do FTP com a Adobe.
+Esses artigos não necessariamente orientam você pelas etapas de uso do FTP com cada produto. Ele mostra as práticas recomendadas para o uso do FTP com a Adobe.

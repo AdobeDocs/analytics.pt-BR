@@ -6,7 +6,7 @@ exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -22,13 +22,13 @@ Se essa variável não for definida em uma chamada de rastreamento de página es
 
 ## Nome da página usando o SDK da Web
 
-A página é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) no campo XDM `web.webPageDetails.name`.
+A página é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webPageDetails.name`.
 
-## Nome da página usando a extensão Adobe Analytics
+## Nome da página usando a extensão do Adobe Analytics
 
 Você pode definir o nome da página ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.

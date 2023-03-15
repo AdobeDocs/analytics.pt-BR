@@ -6,7 +6,7 @@ exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Rotular os dados do conjunto de relatórios significa que você atribui os rótu
 
 ## Atribuir ou editar rótulos de privacidade do conjunto de relatórios {#assign-edit}
 
-**Exemplo**: Você, como o Controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics.
+**Exemplo**: você, como controlador de dados, planeja coletar endereços de email e IDs de cookies de titulares de dados para processar suas solicitações de Privacidade de dados. Essas IDs de cookies são armazenadas em um conjunto de relatórios no Adobe Analytics.
 
 1. No Adobe Analytics, navegue até **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configuração e coleção de dados]** > **[!UICONTROL Governança de dados]**.
 

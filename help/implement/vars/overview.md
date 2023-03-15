@@ -21,7 +21,7 @@ O Analytics oferece diversas variáveis para coletar dados do Analytics. As vari
 
 ## Variáveis e métodos de implementação
 
-A Adobe oferece várias maneiras de implementar o Adobe Analytics. Cada página oferece uma seção sobre como implementar a variável usando o SDK da Web, usando a extensão Adobe Analytics e usando o AppMeasurement para JavaScript.
+A Adobe oferece várias maneiras de implementar o Adobe Analytics. Cada página oferece uma seção sobre como implementar a variável usando o SDK da Web, a extensão do Adobe Analytics e o AppMeasurement para JavaScript.
 
 Este é um vídeo sobre como configurar variáveis no Adobe Analytics:
 

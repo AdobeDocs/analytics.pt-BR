@@ -14,7 +14,7 @@ ht-degree: 91%
 
 A dimensão “Código de rastreamento” lista os nomes dos códigos de rastreamento no site. Você pode colocar links com diferentes valores de parâmetro de sequência de consulta em diferentes lugares na Internet. Essa dimensão ajuda você a entender quais links foram os mais bem-sucedidos ao direcionar o tráfego para o site.
 
-Anexar cadeias de caracteres de consulta do código de rastreamento são comuns em emails, anúncios, postagens de redes sociais e outros esforços de marketing que sua organização usa.
+Anexar sequências de consulta de código de rastreamento é comum em emails, anúncios, publicações em redes sociais e outros esforços de marketing que sua organização usa.
 
 ## Preencher esta dimensão com dados
 

@@ -1,5 +1,5 @@
 ---
-description: Implemente o Activity Map usando a extensão Adobe Analytics.
+description: Implemente o Activity Map usando a extensão do Adobe Analytics.
 title: Implementar o Activity Map
 feature: Activity Map
 role: User, Admin

@@ -6,7 +6,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Veja um vídeo sobre essas configurações:
 
 | Elemento | Descrição |
 | --- | --- |
-| Visualizações vinculadas | Se houver visualizações conectadas a uma tabela de forma livre ou de coorte, o ponto localizado no alto à esquerda abre uma lista de visualizações conectadas, com uma opção de caixa de seleção “Mostrar” para mostrar/ocultar a tabela. O enfoque destaca a visualização vinculada; para acessá-la, clique nela. |
+| Visualizações vinculadas | Se houver visualizações conectadas a uma tabela de forma livre ou de coorte, o ponto localizado no alto à esquerda abre uma lista de visualizações conectadas, com uma opção de caixa de seleção “Mostrar” para mostrar/ocultar a tabela. Passar o mouse destaca a visualização vinculada; para acessá-la, clique nela. |
 | Exibir fonte de dados | Permite exibir (ativando a caixa de seleção) ou ocultar (desativando) a tabela de dados que corresponde à visualização. |
 | Bloquear seleção | Ative essa configuração para bloquear a visualização de dados selecionados no momento na tabela de dados correspondente. Uma vez ativada, escolhe entre:<ul><li>**Posições selecionadas**: escolha essa opção se desejar que a visualização continue bloqueada nas posições selecionadas na tabela de dados correspondente. Essas posições continuarão a ser visualizadas, mesmo se os itens específicos nessas posições forem alterados. Por exemplo, escolha essa opção se desejar mostrar os cinco principais nomes de campanha nessa visualização o tempo todo, não importa quais nomes de campanha apareçam entre as cinco principais.</li><li>**Itens selecionados**: escolha essa opção se desejar que a visualização continue bloqueada nos itens especificados atualmente selecionados na tabela de dados correspondente. Esses itens continuarão a ser visualizados, mesmo que as suas classificações sejam alteradas na tabela. Por exemplo, escolha essa opção se desejar mostrar os cinco mesmos nomes de campanha específicos nessa visualização o tempo todo, não importa a classificação desses nomes de campanha.</li></ul> |
 

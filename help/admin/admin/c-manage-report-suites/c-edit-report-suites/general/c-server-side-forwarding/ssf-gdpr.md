@@ -4,7 +4,7 @@ title: Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Dependendo do seu método de implementação, siga estas etapas.
 | Método de implementação | Etapas |
 |--- |--- |
 | Tags na Adobe Experience Platform | Supondo que a extensão do Adobe Analytics esteja instalada, adicione a seguinte definição de variável de dados de contexto ao editor de código personalizado na configuração Ação de uma Regra: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: configure a variável de dados de contexto e defina-a como 1 se um cliente não consentir com o marketing direcionado. Ajuste a variável `contextdata` como *0* para clientes que consentiram com marketing direcionado. |
-| AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js:    <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
+| AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
 
 ## Criação de relatórios (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 

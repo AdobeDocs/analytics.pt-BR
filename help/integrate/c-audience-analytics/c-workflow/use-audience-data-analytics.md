@@ -1,5 +1,5 @@
 ---
-description: 'Você pode usar as dimensões do AAM Audience por todo o Analytics. Os segmentos integrados são as novas dimensões do Analytics, chamadas IDs de públicos-alvo e Nomes de públicos-alvo, e podem se usadas da mesma maneira que qualquer dimensão que o Analytics coleta. Em Feeds de dados, as IDs de públicos-alvo são armazenadas na coluna “mc_audiences”. Essas dimensões não estão disponíveis no Data Workbench ou na Transmissão em tempo real. São exemplos de como as dimensões de Públicos-alvo podem ser aproveitadas '
+description: Você pode usar as dimensões do AAM Audience por todo o Analytics. Os segmentos integrados são as novas dimensões do Analytics, chamadas IDs de públicos-alvo e Nomes de públicos-alvo, e podem se usadas da mesma maneira que qualquer dimensão que o Analytics coleta. Em Feeds de dados, as IDs de públicos-alvo são armazenadas na coluna “mc_audiences”. Essas dimensões não estão disponíveis no Data Workbench ou na Transmissão em tempo real. São exemplos de como as dimensões de Públicos-alvo podem ser aproveitadas
 solution: Experience Cloud
 title: Usar os dados de público-alvo no Analytics
 feature: Audience Analytics
@@ -53,7 +53,7 @@ Dados de segmento do AAM são passados para o Analytics em uma base ocorrência-
 
 ![](assets/flow-aamaudiences.png)
 
-Públicos-alvo também podem ser usados em [visualizações de Fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
+Públicos-alvo também podem ser usados em [visualizações de Fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=pt-BR).
 
 ## Visualização de Venn na Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
 

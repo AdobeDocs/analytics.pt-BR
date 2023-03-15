@@ -14,9 +14,9 @@ ht-degree: 70%
 
 Os cookies podem armazenar e recuperar informações em páginas no mesmo domínio. Use o método `Util.cookieWrite()` para definir um valor de um cookie. Você pode usar o método [`Util.cookieRead()`](util-cookieread.md) para recuperar valores definidos usando `Util.cookieWrite()`.
 
-## Definir cookies usando a extensão Adobe Analytics e a extensão Web SDK
+## Definir cookies usando a extensão do Adobe Analytics e a extensão SDK da Web
 
-A coleta de dados do Adobe Experience Platform não fornece a capacidade de definir cookies na interface.
+A Coleção de dados da Adobe Experience Platform não fornece a capacidade de definir cookies na interface.
 
 ## s.Util.cookieWrite() no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

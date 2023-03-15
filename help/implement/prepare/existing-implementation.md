@@ -26,4 +26,4 @@ Consulte também:
 
 * [Lista de verificação de &quot;Análise focada&quot; para analisar a implementação após cada lançamento de site](/help/implement/review/focused-review.md)
 * [Lista de verificação de &quot;Análise completa&quot; para analisar a implementação a cada seis meses](/help/implement/review/full-review.md)
-* [Defina os cinco KPIs principais](/help/implement/review/define-kpis.md)
+* [Defina os cinco principais KPIs](/help/implement/review/define-kpis.md)

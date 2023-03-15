@@ -2,9 +2,8 @@
 title: Limitar um VRS a determinadas datas
 description: Entenda como limitar um intervalo de datas do VRS para focalizar apenas dados compilados.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

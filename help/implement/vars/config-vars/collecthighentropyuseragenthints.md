@@ -3,7 +3,7 @@ title: collectHighEntropyUserAgentHints
 description: Use a variável collectHighEntropyUserAgentHints para determinar se a Adobe solicitará dicas de alta entropia de navegadores Chromium (por exemplo, Google Chrome e Microsoft Edge).
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
 source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
 

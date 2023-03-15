@@ -3,7 +3,7 @@ title: Análise entre dispositivos
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 

@@ -6,7 +6,7 @@ exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 70%
+ht-degree: 80%
 
 ---
 
@@ -20,13 +20,13 @@ O método `forceOnline()` permite substituir o estado do AppMeasurement detectad
 
 O AppMeasurement detecta automaticamente o estado online do dispositivo. Você pode usar o método `forceOnline()` para forçar o AppMeasurement a tratar ocorrências como se o dispositivo estivesse online. Esse método não aceita argumentos e não retorna nenhum valor. Seu único objetivo é substituir o estado online no AppMeasurement.
 
-## Forçar o uso online usando o SDK da Web
+## Forçar o uso online do SDK da Web
 
-O SDK da Web não é compatível com o rastreamento offline.
+O SDK da Web não oferece suporte ao rastreamento offline.
 
-## Forçar o uso online usando a extensão Adobe Analytics
+## Forçar o uso online da extensão do Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.forceOnline() no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

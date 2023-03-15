@@ -1,14 +1,13 @@
 ---
 title: Analisar dados afetados por eventos
 description: Entenda como os dados afetados por um evento contribuem para a qualidade geral dos dados.
-translation-type: ht
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
+exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
 ---
-
 
 # Analisar dados afetados por eventos
 
@@ -44,7 +43,7 @@ Quando estiver preparado para lidar com um evento, você poderá [se comunicar c
 
 Este vídeo aborda cada uma das etapas acima.
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
 
 * **0:27**: Excluir dados usando a segmentação
 * **2:55**: Comparar um evento a intervalos anteriores

@@ -29,7 +29,7 @@ As métricas de visitante são:
    <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros de seu segmento durante o período de lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: preenchimento de segmentos em tempo real</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=pt-BR"  > AAM: preenchimento de segmentos em tempo real</a> </p> </td> 
    <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros de seu segmento e acessaram suas propriedades durante o período de lookback. </p> </td> 
   </tr> 
   <tr> 

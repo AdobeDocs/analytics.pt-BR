@@ -15,4 +15,4 @@ ht-degree: 85%
 
 O FTP ativo vs. FTP passivo controla a maneira como as conexões da porta são estabelecidas, mas essa escolha gera algumas consequências no firewall.
 
-A Adobe usa o FTP passivo, uma maneira mais segura de transferir dados na qual o fluxo dos dados é configurado e iniciado pelo cliente File Transfer Program (FTP) no lugar do programa de servidor FTP. Se tiver dificuldade para se conectar ao Adobe FTP, certifique-se de usar o modo passivo.
+A Adobe usa o FTP passivo, uma maneira mais segura de transferir dados na qual o fluxo dos dados é configurado e iniciado pelo cliente File Transfer Program (FTP) no lugar do programa de servidor FTP. Se tiver dificuldade para se conectar ao FTP Adobe, certifique-se de usar o modo passivo.

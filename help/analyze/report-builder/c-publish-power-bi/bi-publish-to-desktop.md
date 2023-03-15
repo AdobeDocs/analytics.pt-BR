@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Explica como transferir ativos publicados do Report Builder para o Power BI Desktop
 
-## Pré-requisitos {#section_BDFDAE1E300B429FB6EBCB21AD1383A0}
+## Pré-requisitos  {#section_BDFDAE1E300B429FB6EBCB21AD1383A0}
 
 * É preciso ter a versão mais recente do Power BI Desktop instalada (versão de abril de 2017)
 * Este processo pressupõe que você já tenha publicado tabelas formatadas ou solicitações do Report Builder no serviço do Power BI.

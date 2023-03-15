@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Sobre segmentos
 
-Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Os segmentos são projetados como insights do público-alvo que você pode criar de acordo com suas necessidades específicas e, em seguida, verificar, editar e compartilhar com outros membros da equipe ou usar em outros produtos do Adobe e recursos do Analytics.
+Os segmentos permitem que você identifique subconjuntos de visitantes com base em características ou interações de site. Os segmentos são projetados como insights de público-alvo que você pode criar para suas necessidades específicas e, em seguida, verificar, editar e compartilhar com outros membros da equipe ou usar em outros produtos e recursos do Adobe.
 
 Os segmentos baseiam-se em uma hierarquia de nível de [!UICONTROL Visitante], [!UICONTROL Visita] e [!UICONTROL Ocorrência] por meio de um modelo de contêiner aninhado. Os contêineres aninhados permitem que você defina atributos de visitante e ações com base em regras entre e nos contêineres. Segmentos do Analytics podem ser construídos, aprovados, compartilhados, salvos e executados em vários produtos e recursos da [!DNL Adobe Experience Cloud]. Os segmentos podem ser gerados a partir de um relatório, construído em um relatório de painel, ou marcado para acesso rápido.
 
@@ -41,7 +41,7 @@ Esse tipo de conjunto de dados de filtros de segmento com base em característic
 * O [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) permite que você configure [fluxos de trabalho](/help/components/segmentation/segmentation-workflow/seg-workflow.md) com verificação, marcação, compartilhamento de segmentos e recursos de aprovação.
 * Você pode [adicionar tags a segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) para organizar e pesquisar depois, em vez de usar pastas.
 * Você pode criar [Segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-* O [!UICONTROL Exibição da página] agora é o [!UICONTROL Ocorrência] para indicar que esse contêiner segmenta todos os tipos de dados e não apenas visualizações de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências.
+* A variável [!UICONTROL Exibição da página] o contêiner agora é o [!UICONTROL Hit] contêiner para indicar que esse contêiner segmenta todos os tipos de dados e não apenas as exibições de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências.
 
 ## Segmentação na Analysis Workspace
 
@@ -51,11 +51,11 @@ O Analysis Workspace contém estes recursos adicionais:
 * Use [segmentos como dimensões](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR) em uma comparação.
 * Use segmentos na [análise de fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=pt-BR).
 
-## Segmentos fornecidos pelo Adobe
+## Segmentos fornecidos por Adobe
 
-O painel Componente no lado esquerdo da tela mostra segmentos criados por você e pela sua empresa, bem como segmentos de Adobe fornecidos prontos para uso. Ao clicar em **[!UICONTROL Mostrar tudo]**, esses segmentos normalmente aparecem na parte inferior da lista e são identificados pelo logotipo do Adobe à direita. Esta é uma lista parcial de segmentos fornecidos pelo Adobe:
+O painel Componentes à esquerda da tela mostra segmentos criados por você e sua empresa, bem como segmentos de Adobe fornecidos prontos para uso. Ao clicar em **[!UICONTROL Mostrar tudo]**, esses segmentos normalmente aparecem na parte inferior da lista e são identificados pelo logotipo do Adobe à direita. Esta é uma lista parcial de segmentos fornecidos por Adobe:
 
-![Segmentos Adobe](assets/adobe-segs.png)
+![segmentos Adobe](assets/adobe-segs.png)
 
 ## Segmentos sequenciais {#sequential}
 
@@ -76,7 +76,7 @@ Os segmentos sequenciais podem ser baseados nos seguintes valores de ocorrência
 
 Um segmento sequencial filtra conjuntos de dados com base nas ações do usuário com o operador [!UICONTROL THEN].
 
-## Vídeo de segmentação passo a passo {#segment-video}
+## Vídeo de segmentação de instruções {#segment-video}
 
 Este vídeo fornece uma breve visão geral do que são os contêineres de segmento e como usá-los: [Contêineres de segmentos no Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=pt-BR)
 
@@ -122,7 +122,7 @@ Os administradores podem editar qualquer segmento e compartilhar segmentos com g
 
 Sim, administradores podem visualizar todos os segmentos nas interfaces do usuário do [!DNL Analysis Workspace] e do [!DNL Reports & Analytics].
 
-O Report Builder exibe os segmentos de sua propriedade e os segmentos compartilhados com você.
+O Report Builder exibe os segmentos que você possui e os segmentos compartilhados com você.
 
 +++
 

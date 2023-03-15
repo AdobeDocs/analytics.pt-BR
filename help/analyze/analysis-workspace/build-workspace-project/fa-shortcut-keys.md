@@ -6,7 +6,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -26,30 +26,30 @@ Observação:
 | --- | --- |
 | Criar novo projeto | ctrl+shift+p |
 | Abrir projeto existente | ctrl+o |
-| Ir para o painel Painéis | Alt+Shift+1 |
-| Ir para o painel Visualizações | Alt+Shift+2 |
-| Ir para o painel Componentes | Alt+Shift+3 |
-| Recolher/expandir todos os painéis | Alt+M |
-| Recolher/expandir painel ativo | Alt+Ctrl+M |
-| Mover para o próximo painel | Alt+Seta para a direita |
-| Mover para o painel anterior | Alt+Seta para a esquerda |
+| Ir para o painel Painéis | Alt + Shift + 1 |
+| Ir para o painel Visualizações | Alt + Shift + 2 |
+| Ir para o painel Componentes | Alt + Shift + 3 |
+| Recolher/expandir todos os painéis | Alt + M |
+| Recolher/expandir painel ativo | Alt + Ctrl + M |
+| Mover para o próximo painel | Alt + Seta para a direita |
+| Mover para o painel anterior | Alt + Seta para a esquerda |
 
 ## Ações de análise
 
 | Ação | Atalho |
 | --- | --- |
-| Pesquisar painel esquerdo | Ctrl+/ |
+| Pesquisar painel esquerdo | Ctrl + / |
 | Criar um alerta | ctrl+shift+a |
 | Criar uma anotação | Ctrl+Shift+o |
 | Criar métrica calculada | ctrl+shift+c |
 | Criar um intervalo de datas | ctrl+shift+d |
 | Criar um segmento | ctrl+shift+e |
-| Limpar tudo | Alt+W |
+| Limpar tudo | Alt + W |
 | Copiar | ctrl+c |
 | Refazer | ctrl+shift+z |
 | Desfazer | ctrl+z |
-| Atualizar componentes | Alt+Shift+R |
-| Atualizar projeto | Alt+R |
+| Atualizar componentes | Alt + Shift + R |
+| Atualizar projeto | Alt + R |
 | Definir como página inicial | ctrl+shift+l |
 
 ## Adicionar painéis e ações de visualização
@@ -57,15 +57,15 @@ Observação:
 | Ação | Atalho |
 | ---|---|
 | Novo painel Analytics for Target | Alt+G |
-| Novo painel de atribuição | Alt+E |
-| Novo painel em branco | Alt+B |
+| Novo painel de atribuição | Alt + E |
+| Novo painel em branco | Alt + B |
 | Novo painel de forma livre | Alt+A |
 | Painel de visualizadores simultâneos de novas mídias | Alt+H |
 | Novo painel Quick Insights | Alt+F |
 | Novo painel de Comparação de segmentos | Alt+C |
-| Nova tabela de forma livre | Alt+1 |
-| Novo gráfico de linha | Alt+2 |
-| Novo gráfico de barras | Alt+3 |
+| Nova tabela de forma livre | Alt + 1 |
+| Novo gráfico de linha | Alt + 2 |
+| Novo gráfico de barras | Alt + 3 |
 
 ## Ações de democratização
 
@@ -73,11 +73,11 @@ Observação:
 | --- | --- |
 | Salvar projeto | ctrl+s |
 | Salvar projeto como | ctrl+shift+s |
-| Salvar como modelo | Alt+T |
+| Salvar como modelo | Alt + T |
 | Baixar como CSV | ctrl+shift+v |
 | Baixar como PDF | ctrl+shift+b |
 | Preparar dados do projeto | ctrl+shift+g |
 | Compartilhar projeto | ctrl+g |
-| Obter link do projeto | Alt+L |
-| Enviar arquivo agora | Alt+S |
-| Enviar arquivo agendado | Shift+Alt+S |
+| Obter link do projeto | Alt + L |
+| Enviar arquivo agora | Alt + S |
+| Enviar arquivo agendado | Shift + Alt + S |

@@ -6,7 +6,7 @@ exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -20,11 +20,11 @@ A variável `timestamp` define manualmente o carimbo de data e hora da ocorrênc
 
 ## Carimbo de data e hora usando o SDK da Web
 
-Carimbo de data e hora [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `xdm.timestamp`. Este campo suporta apenas horário Unix.
+O carimbo de data/hora é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `xdm.timestamp`. Esse campo só oferece suporte a horário Unix.
 
-## Carimbo de data e hora usando a extensão Adobe Analytics
+## Carimbo de data e hora usando a extensão do Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.timestamp no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
@@ -46,7 +46,7 @@ s.timestamp = new Date().toISOString();
 
 ## Valores em ISO 8601
 
-As datas e horas expressas em [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) podem assumir várias formas diferentes. A Adobe não é compatível com todos os recursos do ISO 8601.
+As datas e horas expressas em [ISO 8601](https://pt.wikipedia.org/wiki/ISO_8601) podem assumir várias formas diferentes. A Adobe não é compatível com todos os recursos do ISO 8601.
 
 * A data e a hora devem ser fornecidas, separadas por `T`.
 * São necessárias horas e minutos; segundos são opcionais, porém recomendados.

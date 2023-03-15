@@ -3,7 +3,7 @@ title: Aceitação no gerenciamento de Consentimento
 description: Veja em quais configurações de privacidade um visitante optou por participar.
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
 source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%
 

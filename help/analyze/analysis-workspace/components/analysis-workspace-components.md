@@ -53,7 +53,7 @@ Os exemplos de segmentos incluem [!UICONTROL Visitantes de dispositivo móvel], 
 
 [**Intervalos de datas**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=pt-BR) são o intervalo de datas em que você faz a análise. Eles podem ser encontrados no painel Componente à esquerda (seção roxa) e normalmente são aplicados no calendário de cada painel.
 
-Você pode tornar os componentes do intervalo de datas relativos ao calendário do painel. Para obter mais informações, consulte [Sobre intervalos de datas relativos do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+Você pode tornar os componentes do intervalo de datas relativos ao calendário do painel. Para obter informações adicionais, consulte [Sobre intervalos de datas relativos do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
 Exemplos de intervalos de datas incluem julho de 2019, [!UICONTROL Últimas 4 semanas] e [!UICONTROL Este mês]. Os intervalos de datas são fornecidos pela Adobe, são aplicados no [calendário do painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR) ou são criados usando o [Criador de intervalo de datas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=pt-BR).
 

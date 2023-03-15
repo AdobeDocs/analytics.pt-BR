@@ -6,7 +6,7 @@ exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 74%
+ht-degree: 81%
 
 ---
 
@@ -31,9 +31,9 @@ O SDK da Web pode determinar o domínio de armazenamento de cookies correto sem 
 
 ## Domínio de cookie usando a extensão Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.cookieDomain no AppMeasurement e no editor de código personalizado da extensão Analytics
+## s.cookieDomain no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 A variável `cookieDomain` é uma cadeia de caracteres definida como o domínio no qual você deseja armazenar cookies.
 

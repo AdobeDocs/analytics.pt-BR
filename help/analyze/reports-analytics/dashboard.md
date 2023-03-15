@@ -97,7 +97,7 @@ Para criar um painel:
 
 ## Criar um reportlet {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-Após criar um reportlet, ele fica disponível para exibição em um painel.
+Depois de criar um reportlet, ele estará disponível para exibição em um painel.
 
 <!-- 
 
@@ -214,7 +214,7 @@ t_dashboard_edit.xml
 
 ## Compartilhamento de marcas em um painel {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-Para fazer upload de uma imagem para exibir em um painel:
+Para fazer upload de uma imagem para exibição em um painel:
 
 <!-- 
 

@@ -4,7 +4,7 @@ description: Saiba como usar o Adobe Admin Console para gerenciar produtos e usu
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%
 

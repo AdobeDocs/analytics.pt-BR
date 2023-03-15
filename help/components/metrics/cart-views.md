@@ -18,4 +18,4 @@ A métrica “Visualizações do carrinho” mostra o número de vezes que um vi
 
 Essa métrica conta o número de ocorrências em que `scView` existe na variável [`events`](/help/implement/vars/page-vars/events/events-overview.md).
 
-Consulte [Carrinhos](carts.md) para uma comparação de métrica.
+Consulte [Carrinhos](carts.md) para uma comparação de métricas.

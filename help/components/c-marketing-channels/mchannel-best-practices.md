@@ -46,7 +46,7 @@ Modelos de atribuição personalizados usados com a dimensão Canal de marketing
 
 ## Prática recomendada nº 4: minimizar o período de envolvimento do visitante
 
-Definir o período de Envolvimento do Visitante para o mínimo de &quot;1 dia&quot; minimiza a probabilidade de valores persistentes. Como os modelos de atribuição personalizados (AIQ) permitem janelas de pesquisa flexíveis, recomendamos definir o valor mínimo para minimizar o impacto dessa configuração.
+Definir o período de Envolvimento do visitante para o mínimo de &quot;1 dia&quot; minimiza a probabilidade de valores persistentes. Como os modelos de atribuição personalizados (AIQ) permitem janelas de pesquisa flexíveis, recomendamos definir o valor mínimo para minimizar o impacto dessa configuração.
 
 ![](assets/expiration.png)
 

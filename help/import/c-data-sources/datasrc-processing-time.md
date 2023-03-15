@@ -1,5 +1,5 @@
 ---
-description: Informações sobre a duração do Adobe de processamento das fontes de dados.
+description: Informações sobre o tempo que o Adobe leva para processar fontes de dados.
 title: Tempo de processamento das fontes de dados
 feature: Data Sources
 exl-id: 2445775b-e079-45f0-afcc-b373c63350e8

@@ -7,7 +7,7 @@ exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
 workflow-type: tm+mt
 source-wordcount: '863'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Se você criar um segmento ou usar um segmento com uma data contínua, por exemp
 
 ## Diretrizes para intervalos de datas e visualizações do painel {#guidelines-panel-dates}
 
-* A partir da versão de fevereiro, as visualizações de componentes e dados se basearão no intervalo de datas do painel e não nos últimos 90 dias.
-* Todos os componentes listados no painel à esquerda estarão disponíveis com base no intervalo de datas do painel.
-* Todas as visualizações de data no segmento e nos construtores de métricas calculadas se basearão no intervalo de datas do painel (a menos que sejam acessadas pelos gerenciadores de componentes, que não têm um painel associado, elas ainda se basearão nos últimos 90 dias).
-* Qualquer visualização de dados exibirá dados ou componentes com base no intervalo de datas do painel.
+* A partir da versão de fevereiro, as visualizações de componentes e dados serão baseadas no intervalo de datas do painel e não nos últimos 90 dias.
+* Todos os componentes listados no painel esquerdo estarão disponíveis com base no intervalo de datas do painel.
+* Todas as visualizações de data nos construtores de métrica calculada e de segmento serão baseadas no intervalo de datas do painel, a menos que sejam acessadas pelos gerentes de componente, que não têm um painel associado; neste caso, elas ainda serão baseadas nos últimos 90 dias.
+* Quaisquer visualizações de dados exibirão dados ou componentes com base no intervalo de datas do painel.

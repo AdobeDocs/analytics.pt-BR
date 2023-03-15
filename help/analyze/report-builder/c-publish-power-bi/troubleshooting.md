@@ -45,4 +45,4 @@ Os administradores recebem acesso para cada um usando este [link](https://login.
 
 ## Atingir o limite da API
 
-Os relatórios no Power BI funcionam com a API de relatórios do Analytics, portanto, os limites da API se aplicam. Para obter mais informações, consulte [Códigos de erro dos serviços da Web](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
+Os relatórios no Power BI funcionam com a API de relatórios do Analytics, portanto, os limites da API se aplicam. Para obter mais informações, consulte [Códigos de erro de serviços da Web](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).

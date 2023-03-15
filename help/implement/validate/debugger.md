@@ -4,7 +4,7 @@ description: Instale o Adobe Experience Cloud Debugger herdado. Este depurador i
 feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
 

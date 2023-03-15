@@ -1,6 +1,6 @@
 ---
 description: Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As classificações também são suportadas, caso você as tenha definido.
-title: Métricas e dimensões em tempo real compatíveis visão geral
+title: Métricas e dimensões em tempo real compatíveis  visão geral
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
@@ -45,4 +45,4 @@ Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As c
 * Link Personalizado
 * Download de arquivo
 * Link de saída
-* Variáveis de Custom Insights (props) 1-75 (se habilitado no conjunto de relatórios)
+* Variáveis de Insight personalizado (props) 1-75 (se habilitado no conjunto de relatórios)

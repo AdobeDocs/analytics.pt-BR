@@ -23,4 +23,4 @@ Os cientistas de dados e analistas de marketing podem empregar, estender e refin
 
 ## Introdução
 
-Consulte [Sobre segmentos](/help/components/segmentation/seg-overview.md) para obter uma visão geral rápida. Em seguida, vá para [Configurar um fluxo de trabalho de segmentação](/help/components/segmentation/segmentation-workflow/seg-workflow.md) ou [Construção de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md).
+Consulte [Sobre os segmentos](/help/components/segmentation/seg-overview.md) para obter uma visão geral rápida. Em seguida, acesse [Configuração de um fluxo de trabalho de segmentação](/help/components/segmentation/segmentation-workflow/seg-workflow.md) ou [Construir segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md).

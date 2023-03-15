@@ -1,12 +1,12 @@
 ---
 description: Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de Admin.
 title: Logs
-feature: Ferramentas administrativas
+feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 71%
+source-wordcount: '599'
+ht-degree: 67%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 71%
 
 Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de Admin.
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Administrador]**  >  **[!UICONTROL Todos os administradores]**  >  **[!UICONTROL Logs]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Logs]**
 
 ## Log de administração {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
-O log de administração relata todas as alterações feitas pelos administradores nas ferramentas administrativas. O log fornece um portal para relatórios definidos pelo usuário a partir de qualquer um dos três logs. Você pode pesquisar eventos que correspondam aos critérios selecionados em um intervalo de datas especificado.
+O log de administração relata todas as alterações feitas pelos administradores nas ferramentas administrativas. O log fornece um portal para os relatórios definidos pelo usuário de qualquer um dos três logs. Você pode pesquisar eventos que correspondam aos critérios selecionados em um intervalo de datas especificado.
 
 ## Log de uso e acesso {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
@@ -38,36 +38,36 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 
 | Tipo de evento | Descrição |
 | --- | --- |
-| Sem categoria | Pode ser qualquer tipo de evento. |
+| Nenhuma categoria | Pode ser qualquer tipo de evento. |
 | Falha no logon | Falha no processo de logon do usuário. |
-| Logon realizado com sucesso | Usuário conectado com êxito. |
-| Ação Administrativa | Ocorreu uma ação de administrador, como editar um conjunto de relatórios, alterar as configurações da empresa, criar um usuário, etc. |
-| Alteração da configuração de segurança | Uma configuração de segurança foi alterada. |
+| Login bem sucedido | Usuário conectado com sucesso. |
+| Ação do administrador | Ocorreu uma ação do administrador, como editar um conjunto de relatórios, alterar as configurações da empresa, criar um usuário etc. |
+| Alteração da configuração de segurança | Configuração de segurança alterada. |
 | Relatório exibido | Um relatório do Reports &amp; Analytics foi visualizado. |
-| Relatório transferido por download | Foi baixado um relatório do Reports &amp; Analytics. |
+| Relatório baixado | Um relatório do Reports &amp; Analytics foi baixado. |
 | Alerta enviado | Um alerta foi enviado. |
 | Ação do usuário | As informações do usuário foram editadas. |
 | Ferramenta exibida | Uma ferramenta foi visualizada. |
-| Ação da Omniture | Uma ação foi executada pelo Adobe. |
+| Ação do Omniture | Uma ação foi executada por Adobe. |
 | Recuperação de senha | Uma senha foi recuperada. |
-| Marcadores | Um marcador foi gerenciado. |
+| BookMarks | Um marcador foi gerenciado. |
 | Painéis | Um painel foi gerenciado. |
 | Alertas | Um alerta foi gerenciado. |
 | Eventos de calendário | Um evento de calendário foi gerenciado. |
-| Metas | Um destino foi gerenciado. |
+| Metas | Um público alvo foi gerenciado. |
 | Configurações do relatório | Uma configuração de relatório foi gerenciada. |
 | Relatórios agendados | Um relatório agendado foi gerenciado. |
 | Excluir por IP | A configuração de IP foi alterada. |
 | Nomear páginas | Obsoleto. |
 | Classificações | Uma classificação foi gerenciada. |
 | Fontes de dados | Uma fonte de dados foi gerenciada. |
-| Projeto do espaço de trabalho | Um projeto do Workspace foi visualizado ou editado. |
+| Projeto do Espaço de trabalho | Um projeto do Workspace foi visualizado ou editado. |
 | Segmento | Um segmento foi criado/editado. |
 | Métrica calculada | Uma métrica calculada foi criada/editada. |
 | Intervalo de datas | Um intervalo de datas foi criado/editado. |
 | Conjunto de relatórios virtuais | Um conjunto de relatórios virtual foi criado/editado. |
 | Análise de contribuição | Um trabalho de análise de contribuição foi executado. |
-| Método de API | Foi feita uma chamada à API . |
+| Método De Api | Foi feita uma chamada à API. |
 
 
 ## Log de alterações do conjunto de relatórios {#section_3864966639414BBEA871F4D0352F56B6}

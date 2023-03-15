@@ -3,7 +3,7 @@ description: Você pode visualizar dados do Adobe Experience Manager no Adobe An
 title: Visualizar dados do Adobe Experience Manager no Adobe Analytics
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 

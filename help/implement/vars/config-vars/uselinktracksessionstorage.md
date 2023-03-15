@@ -6,7 +6,7 @@ exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -25,13 +25,13 @@ O uso do armazenamento de sessão de um navegador para o rastreamento de link ap
 
 O AppMeasurement remove os dados de rastreamento do link do armazenamento da sessão após enviar uma ocorrência para a Adobe. Ela também expira automaticamente quando a guia do navegador é fechada.
 
-## Usar o armazenamento da sessão de rastreamento de link usando o SDK da Web
+## Usar o armazenamento de sessão de rastreamento de link usando o SDK da Web
 
 O SDK da Web não oferece suporte a essa funcionalidade.
 
-## Usar o armazenamento da sessão de rastreamento de link usando a extensão Adobe Analytics
+## Usar o armazenamento de sessão de rastreamento de link usando a extensão do Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.useLinkTrackSessionStorage no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

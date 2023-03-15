@@ -6,7 +6,7 @@ exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 69%
+ht-degree: 74%
 
 ---
 
@@ -18,13 +18,13 @@ Defina essa variável somente se você vir valores ilegíveis ([mojibake](https:
 
 ## Conjunto de caracteres no SDK da Web
 
-O SDK da Web suporta atualmente apenas UTF-8 e não fornece opções para alterar a codificação.
+Atualmente, o SDK da Web é compatível apenas com UTF-8 e não fornece opções para alterar a codificação.
 
-## Conjunto de caracteres na extensão Adobe Analytics
+## Conjunto de caracteres na extensão do Adobe Analytics
 
-O Conjunto de caracteres é um campo sob a variável [!UICONTROL Geral] ao configurar a extensão Adobe Analytics na Coleta de dados do Adobe Experience Platform.
+O Conjunto de caracteres é um campo sob a [!UICONTROL Geral] ao configurar a extensão do Adobe Analytics na Coleção de dados da Adobe Experience Platform.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 1. Expanda a opção [!UICONTROL Geral], que revela o campo [!UICONTROL Conjunto de caracteres].

@@ -4,7 +4,7 @@ title: Regras de classificação
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2015'
 ht-degree: 100%
 
@@ -326,8 +326,8 @@ Para adicionar ou editar uma regra de classificação:
    >Os conjuntos de relatórios são exibidos nesta página *somente* quando as seguintes condições são atendidas:
    >
    >* Os conjuntos de relatórios têm pelo menos uma classificação definida para aquela variável nas [!UICONTROL Ferramentas administrativas].
-   >
-   >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
+      >
+      >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
    >
    >* Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
 

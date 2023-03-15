@@ -4,9 +4,9 @@ title: Agendar uma solicitação recorrente
 feature: Data Warehouse
 exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## Agendar uma solicitação recorrente {#topic_8C3CE0CE8A584F80946D24B377CB51BE}
 
-Para agendar solicitações do Data Warehouse como diárias/mensais/anuais, certifique-se de que *Predefinição* esteja selecionado da maneira correta.
+Para agendar solicitações de Data Warehouse para Diariamente/Mensalmente/Anualmente, verifique se &#42;Predefinição &#42;foi selecionado corretamente
 
 1. Em [!UICONTROL Data de relatório], selecione **[!UICONTROL Predefinição]**.
 

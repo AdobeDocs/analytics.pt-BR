@@ -12,7 +12,7 @@ ht-degree: 77%
 
 # Países
 
-A dimensão &quot;Países&quot; informa o país de onde a ocorrência se originou. Essa dimensão é útil para ajudar a determinar a origem dos visitantes dos países mais populares ao visitar seu site. Você pode usar esses dados para se concentrar nos esforços de marketing nesses países ou para garantir que a experiência do seu site seja ideal em países que têm idiomas principais diferentes.
+A dimensão &quot;Países&quot; informa o país de onde a ocorrência se originou. Essa dimensão é útil para ajudar a determinar a origem dos visitantes dos países mais populares ao visitar seu site. Você pode usar esses dados para se concentrar nos esforços de marketing nesses países ou para garantir que a experiência do seu site seja ideal nos países com idiomas principais diferentes.
 
 ## Preencher esta dimensão com dados
 
@@ -30,4 +30,4 @@ Como essa dimensão se baseia no endereço IP, alguns cenários podem mostrar um
 * **Endereços de IP remoto**: o direcionamento por IP móvel funciona em diferentes níveis, dependendo da localização e da rede. Um número de operadoras faz o backhaul do tráfego IP através de pontos de presença centralizados ou regionais.
 * **Usuários do ISP satélite**: identificar a localização específica desses usuários é difícil, pois eles normalmente parecem se originar do local do uplink.
 * **IPs militares ou governamentais**: representa as pessoas que viajam ao redor do mundo e entram pelo local onde moram, em vez da base ou escritório onde trabalham.
-* **Proxies que obscurecem endereços IP por motivos de privacidade**: Serviços como Apple Private Relay ocultam o endereço IP real enviando dados aleatoriamente por meio de um intermediário ou proxy. Em seguida, esse proxy substitui um endereço IP diferente antes do encaminhamento para o Adobe.
+* **Proxies que obscurecem endereços IP por motivos de privacidade**: serviços como o Retransmissão privada da Apple ocultam o endereço IP verdadeiro, enviando dados aleatoriamente por meio de um intermediário ou proxy. Esse proxy substitui um endereço IP diferente antes de encaminhar para o Adobe.

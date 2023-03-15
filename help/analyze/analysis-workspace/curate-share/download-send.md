@@ -28,7 +28,7 @@ Para downloads de projetos, lembre-se:
 * Os downloads de PDF são renderizados como uma página única sem paginação aplicada.
 * Quando um projeto é renderizado para PDF, renderizamos o que está na página. Se um projeto tiver visualizações e painéis com tamanhos personalizados, é necessário alterá-los para terem tamanhos automáticos (botão no canto superior direito) para que não haja truncamento de conteúdo.
 
-## Copiar dados para a área de transferência (tecla de atalho: Ctrl+C) {#copy-data}
+## Copiar dados para a área de transferência (tecla de atalho: Ctrl + C) {#copy-data}
 
 A opção de clicar com o botão direito **[!UICONTROL Copiar para a área de transferência]** permite copiar dados rapidamente do Workspace e colá-los em outro lugar.
 

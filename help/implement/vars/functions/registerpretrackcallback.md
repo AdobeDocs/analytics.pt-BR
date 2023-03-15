@@ -6,7 +6,7 @@ exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 55%
+ht-degree: 61%
 
 ---
 
@@ -24,19 +24,19 @@ Cada vez que chama a variável `registerPreTrackCallback`, você faz com que ess
 >
 >O tempo e a ordem das funções disparadas entre `registerPreTrackCallback` e `registerPostTrackCallback` não são garantidos. Evite dependências entre essas duas funções.
 
-## Retorno de chamada de pré-rastreamento usando a extensão SDK da Web
+## Pré-rastrear retorno de chamada usando a extensão SDK da Web
 
-O SDK da Web não tem a capacidade de conectar uma função após os dados serem compilados, mas antes de serem enviados para o Adobe. No entanto, é possível usar `onBeforeEventSend` para registrar uma função a ser executada antes do envio dos dados.
+O SDK da Web não tem a capacidade de interceptar uma função após a compilação de dados, mas antes de serem enviados para o Adobe. No entanto, você pode usar `onBeforeEventSend` para registrar uma função a ser executada antes do envio dos dados.
 
-1. Faça logon em [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Vá para o [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** botão abaixo [!UICONTROL Adobe Experience Platform Web SDK].
-1. Em [!UICONTROL Coleta de dados], clique no botão **[!UICONTROL Editar em antes do evento enviar o código de retorno de chamada]** botão.
+1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
+1. Em [!UICONTROL Coleta de dados], clique no link **[!UICONTROL Editar no antes do envio do evento código de retorno de chamada]** botão.
 1. Coloque o código desejado no editor.
 
-## Retorno de chamada de pré-rastreamento que implementa manualmente o SDK da Web
+## Pré-rastrear retorno de chamada implementando manualmente o SDK da Web
 
-O SDK da Web não tem a capacidade de conectar uma função após os dados serem compilados, mas antes de serem enviados para o Adobe. No entanto, é possível usar `onBeforeEventSend` para registrar uma função a ser executada antes do envio dos dados, semelhante a `doPlugins`. Consulte [Modificação global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
+O SDK da Web não tem a capacidade de interceptar uma função após a compilação de dados, mas antes de serem enviados para o Adobe. No entanto, você pode usar `onBeforeEventSend` para registrar uma função a ser executada antes do envio dos dados, semelhante a `doPlugins`. Consulte [Modificação global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -47,11 +47,11 @@ alloy("configure", {
 })
 ```
 
-## Retorno de chamada de pré-rastreamento usando a extensão Adobe Analytics
+## Pré-rastrear retorno de chamada usando a extensão do Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.registerPreTrackCallback no AppMeasurement e no editor de código personalizado de extensão do Analytics
+## s.registerPreTrackCallback no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 `s.registerPreTrackCallback` é uma função que utiliza uma função como seu único argumento. A função aninhada é executada antes do envio de uma solicitação de imagem.
 

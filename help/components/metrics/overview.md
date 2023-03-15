@@ -4,7 +4,7 @@ description: Visualize quantidades de itens ou dados da dimensão ao longo do te
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 

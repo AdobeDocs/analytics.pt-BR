@@ -6,7 +6,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -40,31 +40,31 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
    <td colname="col1"> <p>Contém todos os termos </p> </td> 
    <td colname="col02"> <p>Contém cada valor delimitado por espaços em qualquer ordem. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Corresponde  <span class="term"> a b c</span> e <span class="term"> b a c</span> e assim por diante. </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> a b c</span> e <span class="term"> b a c</span> e assim por diante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contém qualquer termo </p> </td> 
    <td colname="col02"> <p>Contém pelo menos um dos filtros (delimitado por espaços). </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p>Corresponde  <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>, mas não <span class="term"> D4</span>. </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>, mas não <span class="term"> D4</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contém a frase </p> </td> 
    <td colname="col02"> <p>Contém o filtro de pesquisa e possivelmente outros termos. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Corresponde  <span class="term"> abc</span> e <span class="term"> abc def</span>. </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> abc</span> e <span class="term"> abc def</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Não contém nenhum termo </p> </td> 
    <td colname="col02"> <p>Retorna tudo a não ser que contenha um valor que você inserir. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Corresponde  <span class="term"> d e f</span> mas não <span class="term"> c d e f</span>. </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> d e f</span> mas não <span class="term"> c d e f</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Não contém a frase </p> </td> 
    <td colname="col02"> <p>Retorna tudo que não contém sua frase. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Exclui  <span class="term"> abc</span>, <span class="term"> abc def</span> e corresponde a <span class="term"> def</span> </p> </td> 
+   <td colname="col3"> <p>Exclui <span class="term"> abc</span>, <span class="term"> abc def</span> e corresponde a <span class="term"> def</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Igual a </p> </td> 
@@ -82,7 +82,7 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
    <td colname="col1"> <p>Começa com </p> </td> 
    <td colname="col02"> <p>Retorna os resultados que começam com um valor específico. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Corresponde  <span class="term"> abcd</span>, mas não <span class="term"> 1abc</span> </p> </td> 
+   <td colname="col3"> <p>Corresponde <span class="term"> abcd</span>, mas não <span class="term"> 1abc</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Termina com </p> </td> 
@@ -119,7 +119,7 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
   <tr> 
    <td colname="col1"> " " </td> 
    <td colname="col2"> Igual a </td> 
-   <td colname="col3"> <p>Sem espaço a não ser quando emparelhado com outra citação. Por exemplo,  <span class="term"> Monitor de 17 pol.</span> não é uma frase. </p> </td> 
+   <td colname="col3"> <p>Sem espaço a não ser quando emparelhado com outra citação. Por exemplo, <span class="term"> Monitor de 17 pol.</span> não é uma frase. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 

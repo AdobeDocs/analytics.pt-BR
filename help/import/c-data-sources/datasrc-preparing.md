@@ -48,9 +48,9 @@ Por exemplo, se uma métrica da Fonte de dados mede impressões de anúncios, a 
 
 Após definir as dimensões dos dados para usar com uma fonte de dados, integre os dados de dimensões aos relatórios de marketing por mapeá-los na variável. Use os relatórios padrão (por exemplo, Produto, Código de rastreamento, Palavra-chave de Pesquisa) ou as variáveis de Tráfego e Conversão (eVars).
 
-No caso das eVars, é possível usar tanto eVars existentes como novas, como dimensões de dados. Depois de selecionar um eVar para receber uma dimensão de dados das Fontes de dados, certifique-se de nomeá-lo adequadamente.
+No caso das eVars, é possível usar tanto eVars existentes como novas, como dimensões de dados. Depois de selecionar um eVar para receber uma dimensão de dados das Fontes de dados, certifique-se de nomeá-lo corretamente.
 
-Consulte [Eventos de sucesso](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) na Ajuda do Analytics.
+Consulte [Eventos de sucesso](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=pt-BR) na Ajuda do Analytics.
 
 ## Código de rastreamento de campanha {#section_468222796FF449ABAA90D88EB3264CB1}
 

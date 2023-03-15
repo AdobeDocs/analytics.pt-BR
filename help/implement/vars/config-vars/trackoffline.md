@@ -6,7 +6,7 @@ exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -30,11 +30,11 @@ Quando ativado, o AppMeasurement usa o seguinte processo para enviar dados para 
 
 ## Rastreamento offline usando o SDK da Web
 
-O SDK da Web não é compatível com o rastreamento offline.
+O SDK da Web não oferece suporte ao rastreamento offline.
 
-## Rastreamento offline usando a extensão Adobe Analytics
+## Rastreamento offline usando a extensão do Adobe Analytics
 
-Não há um campo dedicado na extensão Adobe Analytics para usar essa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
+Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.trackOffline no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

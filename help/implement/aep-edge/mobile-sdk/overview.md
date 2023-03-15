@@ -2,7 +2,7 @@
 title: Implementar o Adobe Analytics usando o SDK móvel da Adobe Experience Platform
 description: Use a extensão SDK móvel na coleção de dados da Adobe Experience Platform para enviar dados ao Adobe Analytics.
 source-git-commit: 97bff355a5d9bb737d510221b63ba1321aaf5812
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -24,19 +24,19 @@ Uma visão geral de alto nível das tarefas de implementação:
 <table style="width:100%">
 
 <tr>
-<th style="width:5%"></th><th style="width:60%"><b>Tarefa</b></th><th style="width:35%"><b>Mais Informações</b></th>
+<th style="width:5%"></th><th style="width:60%"><b>Tarefa</b></th><th style="width:35%"><b>Mais informações</b></th>
 </tr>
 
 <tr>
 <td>1</td>
 <td>Certifique-se de que você <b>definiu um conjunto de relatórios</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do Conjunto de relatórios</a></td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>
 <td>2</td>
 <td><b>Configurar esquemas e conjuntos de dados</b>. Para padronizar a coleta de dados para uso em aplicativos que utilizam a Adobe Experience Platform, a Adobe criou o padrão aberto e documentado publicamente, o Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR">Visão Geral da Interface de Esquemas</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR">Visão geral da Interface de Conjuntos de Dados</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR">Visão geral da interface de esquemas</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR">Visão geral da interface de conjuntos de dados</a></td>
 </tr>
 
 <tr>
@@ -86,7 +86,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 Uma visão geral de alto nível das tarefas de implementação:
 
-![Adobe Analytics usando o fluxo de trabalho da extensão do Analytics](../../assets/mobilesdk-analytics-annotated.png)
+![Adobe Analytics usando o fluxo de trabalho de extensão do Analytics](../../assets/mobilesdk-analytics-annotated.png)
 
 <table style="width:100%">
 
@@ -96,14 +96,14 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>1</td>
-<td>Certifique-se de que <b>definiu um conjunto de relatórios</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do Conjunto de relatórios</a></td>
+<td>Certifique-se de que você <b>definiu um conjunto de relatórios</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>
 <td>2</td>
 <td><b>Configurar esquemas e conjuntos de dados</b>. Para padronizar a coleta de dados para uso em aplicativos que utilizam a Adobe Experience Platform, a Adobe criou o padrão aberto e documentado publicamente, o Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR">Visão geral da interface de Esquemas</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR">Visão geral da Interface de Conjuntos de Dados</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR">Visão geral da interface de esquemas</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR">Visão geral da interface de conjuntos de dados</a></td>
 </tr>
 
 <tr>

@@ -4,7 +4,7 @@ title: Gerenciador do Conjunto de relatórios
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conju
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rollups</span> </td> 
-   <td colname="col2"> <p>Um rollup é um único conjunto de relatórios que combina os dados de rastreamento de vários outros conjunto de relatórios. </p> <p>Consulte  <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Conjuntos de relatórios de rollup</a>. </p> </td> 
+   <td colname="col2"> <p>Um rollup é um único conjunto de relatórios que combina os dados de rastreamento de vários outros conjunto de relatórios. </p> <p>Consulte <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Conjuntos de relatórios de rollup</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar configurações</span> </td> 

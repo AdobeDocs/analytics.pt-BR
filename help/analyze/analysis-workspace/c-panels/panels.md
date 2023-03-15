@@ -26,7 +26,7 @@ Os seguintes tipos de painel estão disponíveis no Analysis Workspace:
 | [Painel do Analytics for Target](a4t-panel.md) | Analisar atividades e experiências do Target no Analysis Workspace. |
 | [Painel de atribuição](attribution.md) | Compare e visualize modelos de atribuição rapidamente usando qualquer dimensão e métrica de conversão. |
 | [Painel de forma livre](freeform-panel.md) | Realize comparações e detalhamentos ilimitados e, em seguida, adicione visualizações para obter uma visão ampla dos dados. |
-| [Painel Público-alvo médio por minuto de mídia](average-minute-audience-panel.md) | Analise o público-alvo médio de minutos ao longo do tempo, com detalhes sobre o pico de exibições e a capacidade de detalhar e comparar. |
+| [Painel Público-alvo médio por minuto de mídia](average-minute-audience-panel.md) | Analise o público-alvo médio por minuto ao longo do tempo, com detalhes sobre as exibições de pico e a capacidade de detalhar e comparar. |
 | [Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md) | Analise os visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de analisar e comparar. |
 | [Painel Tempo gasto com a reprodução de mídia](media-playback-timespent/media-playback-time-spent.md) | Analise os visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de analisar e comparar. |
 | [Painel de comparação de segmentos](c-segment-comparison/segment-comparison.md) | Compare rapidamente dois segmentos em todos os pontos de dados para encontrar automaticamente diferenças relevantes. |
@@ -68,9 +68,9 @@ Arraste e solte qualquer segmento do painel esquerdo na área suspensa do painel
 
 ### Filtros de segmento ad hoc
 
-Componentes não segmentados também podem ser arrastados diretamente para a área de soltar para criar segmentos ad hoc, economizando tempo e esforço de ir para o Construtor de segmentos. Segmentos criados dessa forma são definidos automaticamente como segmentos de nível de ocorrência. Essa definição pode ser modificada clicando no ícone de informações (i) ao lado do segmento e, em seguida, no ícone de edição em forma de lápis e editando-os no Construtor de segmento.
+Os componentes que não são de segmentos também podem ser arrastados diretamente para a zona suspensa para criar segmentos ad hoc, economizando tempo e esforço de ter que ir para o Construtor de segmentos. Segmentos criados dessa forma são definidos automaticamente como segmentos de nível de ocorrência. Essa definição pode ser modificada clicando no ícone de informações (i) ao lado do segmento e, em seguida, no ícone de edição em forma de lápis e editando-os no Construtor de segmento.
 
-Segmentos ad hoc são locais para o projeto e não são exibidos no painel esquerdo, a menos que você os torne públicos.
+Os segmentos ad hoc restringem-se ao local do projeto e não são exibidos no painel esquerdo, a menos que você os torne públicos.
 
 ![](/help/admin/admin/assets/filter.png)
 

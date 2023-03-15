@@ -5,8 +5,8 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '962'
+workflow-type: tm+mt
+source-wordcount: '950'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Ao abrir a página de visão geral do [!UICONTROL Gerente de atividades de relat
 | **[!UICONTROL Capacidade de uso]** | Em relação à porcentagem, quanto da capacidade de relatórios do conjunto de relatórios está sendo usada, em tempo real. |
 | **[!UICONTROL Status]** | Quatro indicadores de status possíveis: <ul><li>**Vermelho - [!UICONTROL Na capacidade]**: o conjunto de relatórios é maximizado em termos de capacidade de relatório. (100%) </li><li>**Amarelo - [!UICONTROL Próximo da capacidade]**: este conjunto de relatórios corre o risco de atingir sua capacidade máxima. (90% - 99%)</li><li>**Verde - [!UICONTROL Tudo bem]**: há muita capacidade de gerar relatórios. (0% - 89%)</li><li>**Cinza - [!UICONTROL Status pendente/Não ativado]**: capacidade do relatório não disponível.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Outras ações da atividade de relatório
 
@@ -94,7 +94,7 @@ Os Números do resumo mostram as seguintes informações:
 | [!UICONTROL Tempo Médio de Espera] | O tempo médio de espera para todas as consultas em execução. |
 | [!UICONTROL Capacidade de uso] | A capacidade de uso atual deste conjunto de relatórios. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tabela
 
@@ -114,7 +114,7 @@ A tabela detalhada abaixo mostra detalhes sobre o conjunto de relatórios.
 | [!UICONTROL Segmentos] | Quantos segmentos são aplicados a essa solicitação. Isso aumenta a complexidade da solicitação. |
 | [!UICONTROL Status] | Indicadores de status: <ul><li>**Em execução**: a solicitação está sendo atualmente processada.</li><li>**Pendente**: a solicitação está aguardando para ser processada.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cancelar solicitações de relatórios
 
@@ -139,4 +139,4 @@ Os usuários do aplicativo no Espaço de trabalho, por exemplo, verão o seguint
 | --- | --- |
 | Posso adquirir capacidade adicional para relatórios? | Esse recurso estará disponível em breve. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

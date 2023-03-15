@@ -1,5 +1,5 @@
 ---
-description: A visualização de área é como um gráfico de linha, mas com uma área colorida abaixo da linha.
+description: A visualização da área se parece com um gráfico de linhas, mas apresenta uma área colorida abaixo da linha.
 title: Área e área empilhada
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations

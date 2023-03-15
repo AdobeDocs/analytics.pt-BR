@@ -30,23 +30,23 @@ As descrições dos campos e opções na página [!UICONTROL Adicionar/Editar Me
 
 | Elemento | Descrição |
 | --- | --- |
-| [!UICONTROL Nome da meta] | Forneça um nome para a meta, exibida na [!UICONTROL Gerenciar metas] página. |
+| [!UICONTROL Nome da meta] | Forneça um nome de público alvo, que é exibido no campo [!UICONTROL Gerenciar metas] página. |
 | [!UICONTROL Aplicar a] | Permite aplicar a meta para o site inteiro ou para um atributo selecionado ou eVar. |
 | [!UICONTROL Selecionar item] | Exibe a forma de seleção para o atributo selecionado ou eVar, de modo que você possa executar uma [!UICONTROL Pesquisa avançada de itens relacionados. ] Por exemplo, se você selecionar os [!UICONTROL Países] de eVar, a lista de itens permite que você especifique o país. Se você selecionar os [!UICONTROL Produtos] de eVar, a lista de itens permite que você especifique o produto. Variáveis &#x200B;&#x200B;de insight personalizada também estão presentes no menu. Se você tiver uma variável de insight personalizada configurada para medir as faixas etárias dos visitantes, a lista de item exibe os intervalos das idades, tais como 18-24, 25-35, e assim por diante. |
 | [!UICONTROL Métrica] | Permite aplicar a meta a uma métrica. Este menu exibe somente as métricas que se aplicam a uma eVar específica. Por exemplo, se você selecionar [!UICONTROL Produtos] como a eVar, uma métrica como [!UICONTROL Saídas da página] não se aplica a ela. A métrica [!UICONTROL Saídas da página] pode ser aplicada a uma eVar de página da Web. |
 | [!UICONTROL Ponto] | Permite definir o [!UICONTROL Intervalo de datas] e as configurações de [!UICONTROL Granularidade] da meta. Dependendo das suas especificações de intervalo de datas, algumas opções de granularidade não se aplicam. Ao digitar os valores para as métricas, digite um valor para cada  definição de granularidade. Por exemplo, se o intervalo de datas for o mês de fevereiro, e sua seleção de granularidade é semanal, digite um valor para cada semana do mês de fevereiro. [!UICONTROL Relatórios de meta exibidos para cada configuração de granularidade.] |
 | [!UICONTROL Valores] | Permite que você especifique valores de meta para o período de tempo e a métrica selecionada. Esses valores são os números de destino que você está tentando alcançar. Por exemplo, se a meta tiver base na receita, e você estava estimando 10.000 dólares de receita para um determinado mês, você deve digitar 10000 no campo de valor para o mês. |
 
-## Adicione um [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
+## Adicionar um [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
 
 Para adicionar uma meta:
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Metas]**.
-1. No [!UICONTROL Gerenciar metas] página, clique em **[!UICONTROL Adicionar Novo...]**.
+1. No [!UICONTROL Gerenciar metas] clique em **[!UICONTROL Adicionar novo...]**.
 1. Configure as opções descritas em [Descrições dos campos de Metas](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Clique em **[!UICONTROL OK]**.
 
-## Edite um [!UICONTROL Target] {#task_946C558D2ECC4922ABD4A5A6183A095A}
+## Editar um [!UICONTROL Target] {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Metas]**.
 1. Na coluna **[!UICONTROL Gerenciar]**, clique no ícone **[!UICONTROL Editar]**.
