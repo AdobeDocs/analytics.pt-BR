@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
-user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre a análise entre dispositivos.
+user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
 source-wordcount: '690'
@@ -31,7 +31,7 @@ ht-degree: 95%
    + [Intensidade de cor](dimensions/color-depth.md)
    + [Tipo de conexão](dimensions/connection-type.md)
    + [Aceitação do gerenciamento de consentimento](dimensions/cm-opt-in.md)
-   + [Recusa no gerenciamento de consentimento](dimensions/cm-opt-out.md)
+   + [Opt out do gerenciamento de consentimento](dimensions/cm-opt-out.md)
    + [Suporte a cookies](dimensions/cookie-support.md)
    + [Países](dimensions/countries.md)
    + [Link personalizado](dimensions/custom-link.md)
