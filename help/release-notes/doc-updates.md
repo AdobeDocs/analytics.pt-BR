@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
 workflow-type: tm+mt
 source-wordcount: '3801'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -26,10 +26,10 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Março de 2023** |  |
-| Criar histórias de dados em cartões de pontuação móveis | A [história de dados](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) é uma coleção de pontos de dados de suporte, contexto de negócios e métricas relacionadas criadas em torno de um tema ou métrica central. |
-| Métricas calculadas padrão | Adição de conteúdo explicando a [métricas calculadas padrão fornecidas pelo Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
-| Dicionário de dados | <p>Adição de nova documentação para o Dicionário de dados, incluindo uma [Visão geral](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Exibição](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Edição](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), e [Monitoramento](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) o Dicionário de dados.</p><p>Informações em [Adição de descrições de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md) foi atualizado para considerar a funcionalidade do Dicionário de dados.</p> |
-| Compartilhamento de link para projetos (sem logon necessário) | <p>Atualização da documentação existente para explicar como compartilhar um link somente leitura de um projeto com pessoas que não têm acesso ao Analysis Workspace.</p> <p>A documentação atualizada do usuário inclui [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md) e [Criar links compartilháveis](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>As opções para administradores foram adicionadas a [Preferências](/help/analyze/analysis-workspace/user-preferences.md).</p> |
+| Criar histórias de dados em scorecards móveis | A [história de dados](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) é uma coleção de pontos de dados de suporte, contexto comercial e métricas relacionadas com base em um tema ou métrica central. |
+| Métricas calculadas padrão | Adição de conteúdo explicando as [métricas calculadas padrão fornecidas pela Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
+| Dicionário de dados | <p>Adição de uma nova documentação para o Dicionário de dados, incluindo uma [Visão geral](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Exibição](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Edição](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)e [Monitoramento](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) o Dicionário de dados.</p><p>Informações no [Adição de descrições de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md) foi atualizado para considerar a funcionalidade do Dicionário de dados.</p> |
+| Compartilhamento de link para projetos (sem logon necessário) | <p>Atualização da documentação existente para explicar como compartilhar um link somente leitura de um projeto com pessoas que não têm acesso ao Analysis Workspace.</p> <p>A documentação do usuário atualizada inclui [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md) e [Criar links compartilháveis](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>As opções para administradores foram adicionadas a [Preferências](/help/analyze/analysis-workspace/user-preferences.md).</p> |
 | **Fevereiro de 2023** |  |
 | Implementação | Conteúdo atualizado sobre como [implementar o Adobe Analytics para Web e dispositivos móveis](../implement/home.md). |
 | Calendários e intervalos de datas do Espaço de trabalho | Conteúdo atualizado para descrever intervalos de datas relativas, atualizações de cálculo de fórmulas e alterações na interface do calendário. Consulte [Sobre intervalos de datas relativas do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
