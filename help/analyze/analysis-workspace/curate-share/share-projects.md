@@ -5,10 +5,10 @@ title: Compartilhar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 66a02a6d0c6cc88752ea39172bd30b026908846b
+source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 70%
+source-wordcount: '1587'
+ht-degree: 65%
 
 ---
 
@@ -16,28 +16,28 @@ ht-degree: 70%
 
 Você pode compartilhar um projeto do Analysis Workspace com os seguintes tipos de pessoas:
 
-* Usuários e grupos em sua organização que têm acesso ao Adobe Analytics
+* Usuários e grupos da sua organização que têm acesso ao Adobe Analytics
 
-   Você pode compartilhar o acesso Editar, Duplicar ou Visualizar
+   Você pode compartilhar o acesso Editar, Duplicar ou Exibir
 
-* Usuários e grupos em sua organização que não têm acesso ao Adobe Analytics
+* Usuários e grupos da organização que não têm acesso ao Adobe Analytics
 
-   Os recipients têm acesso somente para visualização
+   Os recipients têm acesso somente leitura
 
-* Pessoas de fora da organização
+* Pessoas fora da sua organização
 
-   Os recipients têm acesso somente para visualização
+   Os recipients têm acesso somente leitura
 
-Qualquer [curadoria](curate.md) a aplicação antes do compartilhamento é refletida quando os recipients abrem o projeto.
+Qualquer [preparação](curate.md) aplicar antes do compartilhamento é refletido quando os recipients abrem o projeto.
 
 Veja um vídeo com uma visão geral do compartilhamento de projetos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
 
-## Compartilhar com usuários e grupos da Adobe Analytics em sua organização {#Add}
+## Compartilhar com usuários e grupos da Analysis Workspace em sua organização {#Add}
 
-Você pode compartilhar um projeto com usuários ou grupos existentes do Adobe Analytics em sua organização. Ao compartilhar um projeto conforme descrito nesta seção, os usuários com os quais você compartilha já devem ter uma conta do Adobe Analytics.
+Você pode compartilhar um projeto com usuários ou grupos existentes da Analysis Workspace em sua organização. Ao compartilhar um projeto conforme descrito nesta seção, os usuários com os quais você compartilha já devem ter acesso ao Adobe Analytics.
 
 Você pode compartilhar uma função específica com usuários ou grupos ou compartilhar um link.
 
@@ -59,7 +59,7 @@ Ao compartilhar uma função de projeto específica com usuários e grupos em su
 
 Para compartilhar uma função de projeto específica com usuários ou grupos na organização:
 
-1. Vá para o projeto que deseja compartilhar e clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar projeto]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
+1. Vá para o projeto que deseja compartilhar e clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]**.
 Se houver alterações não salvas, você deverá salvar o projeto primeiro.
 
    ![](assets/share-proj-modal.png)
@@ -96,65 +96,65 @@ Ao compartilhar um link conforme descrito nesta seção, considere o seguinte:
 
 Para compartilhar o link do projeto com os usuários em sua organização:
 
-1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar projeto]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
+1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]**.
 Se houver alterações não salvas, você deverá salvar o projeto primeiro.
 
    ![](assets/share-proj-modal.png)
 
-1. Clique em **[!UICONTROL Copiar link]** ao lado do **[!UICONTROL campo Compartilhar URL]**.
+1. Clique em **[!UICONTROL Copiar]** ao lado do **[!UICONTROL Compartilhar por link]** campo.
 
 1. Compartilhe o link com usuários em sua organização. Por exemplo, você pode colá-lo em um email, em um site interno e assim por diante.
 
-## Compartilhar um link público com qualquer pessoa (sem logon necessário) {#share-public-link}
+## Compartilhar um projeto com qualquer pessoa (sem logon necessário) {#share-public-link}
 
 {{release-limited-testing-section}}
 
-Você pode conceder [Acesso somente para visualização](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) aos projetos do Analysis Workspace para pessoas que não têm acesso ao Adobe Analytics. Isso pode incluir:
+Você pode conceder [acesso somente leitura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) para projetos do Analysis Workspace para pessoas que não têm acesso ao Adobe Analytics. Isso pode incluir:
 
-* Pessoas de fora da organização
+* Pessoas fora da sua organização
 
-* Pessoas da sua organização que não foram provisionadas com o Adobe Analytics
+* Pessoas em sua organização que não estão provisionadas com o Adobe Analytics
 
 >[!NOTE]
 >
->Considere o seguinte ao compartilhar um link público:
+>Considere o seguinte ao compartilhar um projeto do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics:
 >
->* A capacidade de compartilhar um link de acesso público pode ser desativada pelo administrador do Analytics, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). Se não conseguir compartilhar um link público conforme descrito nesta seção, o administrador do Analytics desativou essa capacidade.
+>* A capacidade de compartilhar um projeto dessa forma pode ser desativada pelo administrador do Analytics, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). Se não for possível compartilhar um projeto conforme descrito nesta seção, o administrador do Analytics desabilitou essa capacidade.
 >
->* Projetos com mais de 14 visualizações expandidas não podem ser compartilhados usando um link de acesso público.
+>* Projetos com mais de 14 visualizações expandidas não podem ser compartilhados com pessoas que não têm acesso ao Adobe Analytics.
 
 
-Para compartilhar um link público com um projeto do Analysis Workspace:
+Para compartilhar um projeto do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics:
 
 1. Abra o projeto do Analysis Workspace que deseja compartilhar.
 
-1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar link público]**.
+1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com qualquer pessoa]**.
 
-   Se houver alterações não salvas, você será solicitado a salvar seu projeto.
+   Se houver alterações não salvas, você será solicitado a salvar o projeto.
 
    <!-- Add screen shot of new modal -->
 
-1. Ativar o **[!UICONTROL Link ativo]** opção se ainda não estiver ativada.
+1. Ative o **[!UICONTROL O link está ativo]** se ainda não estiver ativada.
 
-1. Escolha se deseja ativar a seguinte opção de segurança (Essa opção pode ser controlada pelo administrador do Analytics):
+1. Escolha se deseja habilitar a seguinte opção de segurança (essa opção pode ser controlada pelo administrador do Analytics):
 
-   * **[!UICONTROL Exigir autenticação de Experience Cloud]:**
+   * **[!UICONTROL Exigir autenticação da Experience Cloud]:**
 
-      Quando essa opção está habilitada, somente os usuários que podem fazer logon na organização da Adobe Experience Cloud em que o projeto que você está compartilhando foi criado podem usar esse link.
+      Quando essa opção é ativada, somente os usuários que podem fazer logon na organização da Adobe Experience Cloud em que o projeto que você está compartilhando foi criado podem acessar o projeto.
 
       Os administradores do Analytics podem configurar essa preferência para a empresa, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). Você pode encontrar os seguintes cenários, dependendo de como o administrador configurou essa opção:
 
       * Se essa opção não estiver visível, o administrador do Analytics não habilitou esse recurso.
 
-      * Se essa opção estiver ativada e esmaecida, o administrador do Analytics exigirá autenticação de Experience Cloud para acessar todos os links públicos.
+      * Se essa opção estiver ativada e esmaecida, o administrador do Analytics exigirá a autenticação Experience Cloud para qualquer pessoa que acessar projetos da Analysis Workspace.
 
-1. Ao lado do **[!UICONTROL Compartilhar com qualquer pessoa (sem necessidade de logon)]** clique no botão **Copiar link** ícone para copiar o link para a área de transferência do sistema.
+1. Ao lado do **[!UICONTROL Compartilhar com qualquer pessoa (sem logon necessário)]** clique no campo **Copiar link** ícone ![Ícone Copiar link](assets/copy-link-icon.png) para copiar o link para a área de transferência do sistema.
 
-1. Compartilhe o link com as pessoas que você deseja que tenham acesso ao projeto. Por exemplo, você pode colar o link em um email.
+1. Compartilhe o link com as pessoas que deseja que tenham acesso ao projeto. Por exemplo, você pode colar o link em um email.
 
-   Qualquer pessoa com a qual você compartilha o link pode visualizar o projeto do Analysis Workspace. Se você optar por solicitar uma senha, também deverá compartilhá-la com qualquer pessoa que quiser acessar o link.
+   Qualquer pessoa com a qual você compartilha o link pode exibir o projeto do Analysis Workspace.
 
-1. Selecionar **[!UICONTROL Fechar]** para fechar a caixa de diálogo compartilhar. Suas alterações são salvas automaticamente. <!-- True? -->
+1. Selecionar **[!UICONTROL Fechar]** para fechar a caixa de diálogo compartilhar. Suas alterações são salvas automaticamente.
 
 ## Compartilhar projetos no Gerenciador de projetos {#Manager}
 
