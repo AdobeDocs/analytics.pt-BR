@@ -3,16 +3,16 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ca99382a39644dc422baaf7dbd5c4d95942455af
+source-git-commit: ff90d4da4b0bbce35716e9a42ae33ea21f650cdf
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 88%
+source-wordcount: '1267'
+ht-degree: 84%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (Março de 2023)
 
-**Última atualização**: 10 de março de 2023
+**Última atualização**: 21 de março de 2023
 
 As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -44,6 +44,7 @@ AN-308177; AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-
 
 | Fim da vida útil do produto ou recurso | Data de adição ou atualização | Descrição |
 | --- | --- | --- |
+| **EOL do serviço de rastreamento de telefone de recursos japoneses** | 21 de março de 2023 | Somente para nossos clientes japoneses: No final de maio de 2023, o serviço de Rastreamento de telefone em recursos japoneses (mod_ktrack) será descontinuado. Pedimos desculpas pelo incômodo, mas pedimos que você desinstale ou desative os módulos instalados em seu servidor Apache. Veja as páginas 27 e 28 pol. [este documento](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) para referência. |
 | **Fim da vida útil do [!DNL Reports & Analytics]** | 7 de março de 2023 | A partir de **31 de dezembro de 2023**, a Adobe pretende descontinuar o [!DNL Reports & Analytics], juntamente com os relatórios e recursos que o acompanham. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o [!DNL Reports & Analytics] não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do [!DNL Reports & Analytics] estão disponíveis no [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR). Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do [!DNL Reports & Analytics] foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. [Este aviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explica o processo do fim da vida útil.<p>Em 31 de dezembro de 2023, encerraremos muitos dos recursos associados do Reports &amp; Analytics, incluindo, entre outros: Relatórios agendados, Extrações de dados e Relatórios DL. Após 31 de dezembro de 2023, os relatórios agendados não serão mais enviados. Em **abril de 2023**, todos os relatórios agendados para expirar após o dia 31 de dezembro de 2023 serão atualizados e revertidos automaticamente para expirar no dia 31 de dezembro de 2023. Além disso, não será mais possível agendar relatórios para depois de 31 de dezembro de 2023. |
 | **Fim da vida útil da métrica de [!UICONTROL Pessoas]** | 9 de março de 2023 | Com a descontinuação do [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html?lang=pt-BR), a métrica de Pessoas relacionada ao Device Co-op não será mais relevante. Em 8 de maio de 2023, removeremos o [!UICONTROL Pessoas] métrica. Nesse ponto, redirecionaremos os dados para a métrica de [!UICONTROL Visitante único] para impedir que projetos, segmentos e métricas calculadas sejam quebrados.<p>**Observação**: a métrica de [[!UICONTROL Pessoas] vinculada à Análise entre dispositivos](/help/components/metrics/people.md) não será afetada por este anúncio. |
 | **Fim da vida útil do recurso de [!UICONTROL Listas de publicação]** | 29 de setembro de 2022 | Como parte do fim da vida útil do Reports &amp; Analytics, as [!UICONTROL Listas de publicação] estão programadas para serem descontinuadas em **dezembro de 2023**. Você não poderá criar novas nem acessar [!UICONTROL Listas de publicação] já existentes para enviar ou agendar projetos do [!UICONTROL Analysis Workspace]. |
