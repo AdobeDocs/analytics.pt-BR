@@ -2,7 +2,7 @@
 title: Implementar o Adobe Analytics usando a extensão do Analytics
 description: Saiba como implementar o Adobe Analytics usando tags e a extensão do Analytics
 feature: Launch Implementation
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>2</td>
-<td><b>Crie uma camada de dados</b> para gerenciar o rastreamento dos dados no seu site.</td>
+<td><b>Criar uma camada de dados</b> para gerenciar o rastreamento dos dados no seu site.</td>
 <td>
 <a href="../prepare/data-layer.md">Criar uma camada de dados</a>
 </td>
