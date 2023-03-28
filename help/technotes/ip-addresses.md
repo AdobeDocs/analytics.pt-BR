@@ -3,16 +3,16 @@ title: IPs e domínios usados pelo Adobe Analytics
 description: Se o firewall da sua organização bloquear endereços IP originados da Adobe, use esta lista para atualizar as configurações do firewall.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: d109011bcdbc6b5f37c9304e5d72f572a4245193
+source-git-commit: 5268016c1055e9387a3394ee6bdfdb2dc508e7d0
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 73%
 
 ---
 
 # IPs e domínios usados pelo Adobe Analytics
 
-Algumas configurações de firewall bloqueiam endereços IP dos servidores de coleção de dados da Adobe ou dos servidores responsáveis por acessar os dados do Você pode usar essa lista de intervalos para alterar as configurações de firewall da sua organização para permitir acesso e enviar dados de dentro da organização. Esta página inclui sistemas de entrada (como a coleta de dados) e sistemas de saída (como feeds de dados) que o Adobe usa.
+Algumas configurações de firewall bloqueiam endereços IP dos servidores de coleção de dados da Adobe ou dos servidores responsáveis por acessar os dados do Você pode usar essa lista de intervalos para alterar as configurações de firewall da sua organização para permitir acesso e enviar dados de dentro da organização. Esta página inclui sistemas de entrada (como coleta de dados) e sistemas de saída (como feeds de dados) que o Adobe usa.
 
 >[!IMPORTANT]
 >
@@ -20,7 +20,7 @@ Algumas configurações de firewall bloqueiam endereços IP dos servidores de co
 
 ## Permitir domínios de tecnologia dependentes
 
-O Adobe Analytics usa os seguintes hosts para melhorar o desempenho e a experiência do produto. A Adobe recomenda permitir esses domínios por meio do firewall da sua organização para obter uma experiência ideal com o Adobe Analytics.
+O Adobe Analytics usa os seguintes hosts para melhorar o desempenho e a experiência do produto. O Adobe recomenda permitir esses domínios por meio do firewall de sua organização para obter uma experiência ideal com o Adobe Analytics.
 
 | Tecnologia | Domínio |
 | --- | --- |
@@ -35,7 +35,7 @@ O Adobe Analytics usa os seguintes hosts para melhorar o desempenho e a experiê
 
 ## Todos os blocos de endereço IP do Adobe Analytics
 
-A tabela a seguir abrange todos os endereços IP de propriedade de Adobe usados para o Adobe Analytics. Eles não incluem todos os serviços hospedados em nuvens públicas.
+A tabela a seguir cobre todos os endereços IP de propriedade do Adobe usados para o Adobe Analytics. Não incluem todos os serviços hospedados em nuvens públicas.
 
 | Bloco IP (Notação CIDR) |
 | --- |
@@ -77,18 +77,16 @@ Se sua organização preferir permitir intervalos de endereços IP específicos,
 
 ## Hosts AWS
 
-O Adobe Analytics usa os Serviços Web da Amazon como parte de seu processo de coleção de dados. A tabela a seguir inclui endereços de host IPv4 da AWS reservados para o Adobe. Esses hosts **não** estão incluídos no intervalo de blocos de agregação acima.
+O Adobe Analytics usa os Serviços Web da Amazon como parte de seu processo de coleção de dados. A tabela a seguir inclui os endereços de host IPv4 do AWS reservados para o Adobe. Esses hosts **não** estão incluídos no intervalo de blocos de agregação acima.
 
 | Localização | Host |
 | --- | --- |
-| China | `52.80.83.220` |
-| China | `71.132.16.253` |
-| China | `52.80.7.181` |
-| China | `71.131.244.185` |
-| China | `140.179.152.255` |
-| França | `13.37.25.97` |
-| França | `15.236.117.205` |
-| França | `15.236.125.10` |
+| China | `52.80.169.108` |
+| China | `54.223.47.95` |
+| China | `140.179.13.49` |
+| França | `13.36.218.177` |
+| França | `15.188.95.229` |
+| França | `15.236.176.210` |
 
 A tabela a seguir inclui os blocos de endereço IPv6 do AWS usados pelo Adobe. Esses hosts **não** estão incluídos no intervalo de blocos de agregação acima.
 
