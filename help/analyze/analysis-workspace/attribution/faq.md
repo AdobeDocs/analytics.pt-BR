@@ -4,10 +4,10 @@ description: Obtenha respostas para perguntas frequentes sobre atribuição.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -79,7 +79,9 @@ Sim, as classificações são totalmente compatíveis.
 
 ## A atribuição funciona com fontes de dados?
 
-Sim, a maioria das fontes de dados é compatível. A atribuição não é possível com fontes de dados de nível de resumo porque elas não se vinculam a um identificador de visitante do Analytics. Fontes de dados de ID de transação também são compatíveis, a menos que sejam usadas em um conjunto de relatórios virtual com o processamento de tempo de relatório ativado.
+Sim, a maioria das fontes de dados é compatível. A atribuição não é possível com fontes de dados de nível de resumo porque elas não se vinculam a um identificador de visitante do Analytics.
+
+As fontes de dados de ID de transação são tratadas como qualquer outra ocorrência; eles não usam o processamento especial que normalmente usam nos relatórios tradicionais.
 
 ## A atribuição funciona com a integração do Advertising Analytics?
 
@@ -87,7 +89,7 @@ As dimensões de metadados, como tipo de correspondência e palavra-chave, funci
 
 ## Como a atribuição funciona com canais de marketing?
 
-Quando os canais de marketing foram introduzidos pela primeira vez, eles só contavam com as dimensões de primeiro e último contato. As dimensões explícitas de primeiro/último toque não são mais necessárias com a versão atual da atribuição. A Adobe fornece dimensões genéricas de &quot;Canal de marketing&quot; e &quot;Detalhes do canal de marketing&quot; para que você possa usá-las com o modelo de atribuição desejado. Essas dimensões genéricas se comportam de forma idêntica às dimensões do Canal de último contato, mas são rotuladas de forma diferente para evitar confusão em caso de uso de canais de marketing com um modelo de atribuição diferente.
+Quando os canais de marketing foram introduzidos pela primeira vez, eles só contavam com as dimensões de primeiro e último contato. As dimensões explícitas de primeiro/último toque não são mais necessárias com a versão atual da atribuição. Adobe fornece genéricos [!UICONTROL Canal de marketing] e [!UICONTROL Detalhes do canal de marketing] para usá-las com o modelo de atribuição desejado. Essas dimensões genéricas se comportam de forma idêntica à [!UICONTROL Canal de último contato] , mas são rotuladas de forma diferente para evitar confusão ao usar canais de marketing com um modelo de atribuição diferente.
 
 Como as dimensões do canal de marketing dependem de uma definição de visita tradicional (conforme definido por suas regras de processamento), a definição de visita não pode ser alterada usando conjuntos de relatórios virtuais.
 
@@ -107,4 +109,4 @@ Por exemplo, se você criar um VRS com um segmento “Exibir ocorrências” apl
 
 >[!NOTE]
 >
->Se um segmento suprimir ocorrências que contenham sua métrica, essas instâncias de métrica não serão atribuídas a nenhuma dimensão. No entanto, um filtro de relatório semelhante simplesmente ocultará alguns itens de dimensão, sem qualquer impacto nas métricas processadas de acordo com o modelo de atribuição. Como resultado, um segmento pode retornar valores menores que um filtro com uma definição comparável.
+>Se um segmento suprimir ocorrências que contenham sua métrica, essas instâncias de métrica não serão atribuídas a nenhuma dimensão. No entanto, um filtro de relatório semelhante simplesmente oculta alguns itens de dimensão, sem qualquer impacto nas métricas processadas de acordo com o modelo de atribuição. Como resultado, um segmento pode retornar valores menores que um filtro com uma definição comparável.
