@@ -5,10 +5,10 @@ title: Compartilhar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 65%
+source-wordcount: '1668'
+ht-degree: 62%
 
 ---
 
@@ -122,6 +122,10 @@ Você pode conceder [acesso somente leitura](/help/analyze/analysis-workspace/cu
 >* A capacidade de compartilhar um projeto dessa forma pode ser desativada pelo administrador do Analytics, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). Se não for possível compartilhar um projeto conforme descrito nesta seção, o administrador do Analytics desabilitou essa capacidade.
 >
 >* Projetos com mais de 14 visualizações expandidas não podem ser compartilhados com pessoas que não têm acesso ao Adobe Analytics.
+>
+>* Os usuários com os quais você compartilha podem visualizar qualquer filtro que tenha sido aplicado ao projeto durante [preparação](curate.md).
+> 
+>* Os usuários com os quais você compartilha podem alterar o intervalo de datas do projeto. O intervalo de datas definido para o projeto é exibido por padrão.
 
 
 Para compartilhar um projeto do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics:
@@ -153,6 +157,8 @@ Para compartilhar um projeto do Analysis Workspace com pessoas que não têm ace
 1. Compartilhe o link com as pessoas que deseja que tenham acesso ao projeto. Por exemplo, você pode colar o link em um email.
 
    Qualquer pessoa com a qual você compartilha o link pode exibir o projeto do Analysis Workspace.
+
+1. (Opcional) Você pode clicar no botão **Gerar novo link** ícone ![Ícone Gerar link](assets/regenerate-link.png) para remover o acesso de usuários que receberam anteriormente um link para o projeto. Um novo link é gerado e pode ser compartilhado com usuários que você deseja acessar o projeto.
 
 1. Selecionar **[!UICONTROL Fechar]** para fechar a caixa de diálogo compartilhar. Suas alterações são salvas automaticamente.
 
