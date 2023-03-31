@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 87d4e492afe8d614dfdba24389660829df871dd7
+source-git-commit: e658a14564e7efacf8811c35d0e9b1e7455f4394
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '624'
 ht-degree: 97%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 97%
                + [Perguntas frequentes sobre o encaminhamento pelo lado do servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + Tráfego {#traffic-variables}
             + [Variáveis de tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-            + [Ativar os relatórios de variável de tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [Classificações de tráfego](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Descrições do relatório personalizado](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + Conversão {#conversion-variables}
@@ -100,7 +99,7 @@ ht-degree: 97%
          + Canais de marketing {#marketing-channels}
             + [Gerenciador de Canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [Regras de processamento de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [Classificações de Canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Classificações de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [Expiração de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gerenciamento de tráfego {#traffic-management}
             + [Visão geral](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
@@ -114,8 +113,8 @@ ht-degree: 97%
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Relatórios de privacidade](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Gerenciamento de Document Cloud {#doc-cloud-mgt}
-            + [Configurar o Document Cloud com o Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
-            + [Configurar relatórios de Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+            + [Configurar o Document Cloud com Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Configurar relatórios do Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Configuração do Advertising Analytics](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Tempo real {#real-time-reports}
             + [Visão geral dos Relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
