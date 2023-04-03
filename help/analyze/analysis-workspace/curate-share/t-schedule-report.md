@@ -5,9 +5,9 @@ title: Agendar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 74d4127ccb9ff2837ab5b17c8237aa4604378485
+source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 93%
 
 ---
@@ -20,7 +20,7 @@ No **menu Compartilhar**, do Workspace, você pode enviar projetos do Analysis W
 
 Para enviar um arquivo imediatamente aos recipients por email:
 
-1. Clique em **[!UICONTROL Compartilhar] > [!UICONTROL Enviar arquivo agora]**.
+1. Clique em **[!UICONTROL Compartilhar] > [!UICONTROL Exportar arquivo]**.
 1. Especifique o tipo de arquivo (CSV ou PDF).
 1. (Opcional) Adicione uma descrição que será incluída no email para o arquivo que está sendo recebido.
 1. Adicione recipients ou grupos. Endereços de email também podem ser inseridos.
@@ -33,7 +33,7 @@ Para enviar um arquivo imediatamente aos recipients por email:
 
 Para enviar um arquivo por email de acordo com uma programação recorrente a recipients:
 
-1. Clique em **[!UICONTROL Compartilhar] > [!UICONTROL Enviar arquivo agendado]**.
+1. Clique em **[!UICONTROL Compartilhar] > [!UICONTROL Agendar exportação de arquivo]**.
 1. Especifique o tipo de arquivo (CSV ou PDF).
 1. (Opcional) Adicione uma descrição que será incluída no email para o arquivo que está sendo recebido.
 1. Adicione recipients ou grupos. Endereços de email também podem ser inseridos.
@@ -59,7 +59,7 @@ No Gerenciador de agendamento de projetos, é possível editar e excluir agendam
 | [!UICONTROL Proprietário] | A pessoa que criou e é proprietária do projeto. |
 | [!UICONTROL Tags] | (opcional) Adicionar tags é uma boa maneira de organizar projetos. Todos os usuários podem criar tags e aplicar uma ou mais tags a um projeto. No entanto, é possível visualizar tags somente para os projetos que você possui ou que foram compartilhados com você. |
 | [!UICONTROL Entregue para] | O(s) recipient(s) deste projeto programado. |
-| [!UICONTROL Data de validade] | Para qualquer frequência de projeto agendada, você pode definir a data de expiração de até um ano no futuro. |
+| [!UICONTROL Data de validade] | Para qualquer frequência de projeto agendada, é possível definir a data de expiração por até um ano no futuro. |
 | [!UICONTROL Frequência] | Com que frequência deseja que esse projeto programado seja enviado ao(s) recipient(s). |
 | [!UICONTROL Tempo de execução] | Em que hora do dia esse projeto programado é enviado. |
 | [!UICONTROL Número de consultas] | O número de consultas relativas a este projeto. |

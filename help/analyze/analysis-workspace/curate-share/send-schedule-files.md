@@ -4,10 +4,10 @@ title: Menu Compartilhar
 feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 69%
 
 ---
 
@@ -15,10 +15,14 @@ ht-degree: 100%
 
 É possível preparar, compartilhar e programar projetos em PDF/CSV para recipients em sua organização no **menu Compartilhar** do Espaço de trabalho.
 
+>[!AVAILABILITY]
+>
+>Algumas funcionalidades descritas neste artigo estão na fase Teste limitado da versão e podem não estar disponíveis ainda no seu ambiente. Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md).
+
 | Opção de menu | Descrição |
 |---|---|
-| Compartilhar projeto | Disponibilize um projeto para outros usuários do Analysis Workspace em sua organização. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) |
-| Obter link do projeto | Crie um link compartilhável para acesso rápido a um projeto. Os usuários serão solicitados a fazer logon. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) |
-| Enviar arquivo agora | Envie um projeto como CSV ou PDF imediatamente para recipients especificados. |
-| Enviar arquivo agendado | Envie um projeto como CSV ou PDF em um agendamento para recipients especificados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=pt-BR) |
-| Preparar dados do projeto | Limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) disponíveis em um projeto. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=pt-BR) |
+| Compartilhar com usuários do Espaço de trabalho | Disponibilize um projeto para outros usuários do Analysis Workspace em sua organização. Compartilhe com usuários específicos ou crie um link compartilhável para acesso rápido a um projeto. Os usuários são solicitados a fazer logon. [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
+| Compartilhar com qualquer pessoa | Conceder acesso somente leitura a projetos do Analysis Workspace a pessoas que não têm acesso ao Adobe Analytics. [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
+| Exportar arquivo | Envie um projeto como CSV ou PDF imediatamente para recipients especificados. [Saiba mais](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
+| Programar exportação de arquivo | Envie um projeto como CSV ou PDF em um agendamento para recipients especificados. [Saiba mais](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
+| Preparar dados do projeto | Limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) disponíveis em um projeto. [Saiba mais](/help/analyze/analysis-workspace/curate-share/curate.md) |
