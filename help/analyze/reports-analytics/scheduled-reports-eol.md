@@ -4,16 +4,16 @@ description: A Adobe pretende pausar todos os relatórios agendados com data de 
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Aviso de fim de vida útil para relatórios agendados
 
-Em 21 de abril de 2022, anunciamos a desativação de vários recursos específicos dos relatórios agendados como preparação para o [fim da vida útil do Reports &amp; Analytics](https://express.adobe.com/page/6WnF8JK6IRDhf/) anunciado anteriormente. Esses recursos incluíam a capacidade de agendar novos relatórios, bem como novas extrações de dados. Em resposta às solicitações de clientes que buscam uma extensão e para facilitar a transição do Reports &amp; Analytics, decidimos estender o acesso a esses recursos até **31 de janeiro de 2023**. Observe que as janelas de expiração dos relatórios e extrações de dados continuarão limitadas a nove meses; a entrega de relatórios e extrações de dados será pausada no final deste período, a menos que a programação seja reativada.
+Em 21 de abril de 2022, anunciamos a desativação de vários recursos específicos dos relatórios agendados como preparação para o [fim da vida útil do Reports &amp; Analytics](https://www.adobe.com/go/analytics_rnaeol_en) anunciado anteriormente. Esses recursos incluíam a capacidade de agendar novos relatórios, bem como novas extrações de dados. Em resposta às solicitações de clientes que buscam uma extensão e para facilitar a transição do Reports &amp; Analytics, decidimos estender o acesso a esses recursos até **31 de janeiro de 2023**. Observe que as janelas de expiração dos relatórios e extrações de dados continuarão limitadas a nove meses; a entrega de relatórios e extrações de dados será pausada no final deste período, a menos que a programação seja reativada.
 
 Em outras palavras, esses recursos serão descontinuados em 31 de janeiro de 2023. Antes que isso aconteça, você deve migrar seus relatórios agendados para um dos outros mecanismos disponíveis no Adobe Analytics.
 
