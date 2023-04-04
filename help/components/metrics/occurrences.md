@@ -3,10 +3,10 @@ title: Ocorrências
 description: O número de ocorrências em que uma variável foi definida ou mantida.
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 1be9a8ceb03f8102a0799f4518db35c1e8cd7b14
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 74%
 
 ---
 
@@ -21,4 +21,4 @@ De todas as ocorrências em um conjunto de relatórios, inclua ocorrências nas 
 ## Comparar a métricas semelhantes
 
 * **Ocorrências versus [Instâncias](instances.md)**: a métrica Ocorrências conta ocorrências em que um item de dimensão foi definido ou mantido. A métrica Instâncias não inclui ocorrências em que um item de dimensão é mantido.
-* **Ocorrências versus [Visualizações de página](page-views.md)**: a métrica Ocorrências inclui todos os tipos de ocorrência, incluindo chamadas de rastreamento de visualização de página ([`t()`](/help/implement/vars/functions/t-method.md)) e chamadas de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)). A métrica Visualizações de página inclui somente chamadas de rastreamento de visualização da página e exclui chamadas de rastreamento de link.
+* **Ocorrências versus [Exibições de página](page-views.md)**: As ocorrências incluem todos os tipos de ocorrência, incluindo chamadas de rastreamento de visualização de página ([`t()`](/help/implement/vars/functions/t-method.md)), chamadas de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)) e dados do resumo [Fontes de dados](/help/import/data-sources/overview.md). A métrica de exibições de página inclui apenas chamadas de rastreamento de exibição de página, excluindo chamadas de rastreamento de link e fontes de dados de resumo.

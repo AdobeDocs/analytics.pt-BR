@@ -2,7 +2,7 @@
 title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -47,7 +47,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Servidor de coleta de dados:** servidores da Adobe que recebem e processam dados. As solicitações de imagem são enviadas aos servidores de coleta de dados da Adobe para uso nos relatórios.
 * **Conectores de dados:** uma solução completa de desenvolvimento que permite a terceiros automatizar o carregamento de dados no Adobe Analytics. Os clientes desse terceiro podem usar um conector de dados para enriquecer seus dados no Adobe Analytics. A maioria dos conectores de dados usa um fluxo de trabalho semelhante usado nas Fontes de dados. Consulte [Data Sources](/help/import/data-connectors/data-connectors-eol.md) no Guia de importação do usuário.
 * **Feed de dados:** uma exportação de dados brutos que lista cada hit como uma linha e variáveis como colunas separadas. Usado mais frequentemente para exportar dados do Adobe Analytics para um banco de dados de terceiros. Consulte [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) no guia do usuário Exportar.
-* **Fontes de dados:** permite que um usuário carregue dados de um arquivo no Adobe Analytics. O arquivo normalmente é extraído de um site FTP. Consulte [Data Sources](/help/import/c-data-sources/datasrc-home.md) no guia do usuário Importar.
+* **Fontes de dados:** permite que um usuário carregue dados de um arquivo no Adobe Analytics. O arquivo normalmente é extraído de um site FTP. Consulte [Data Sources](/help/import/data-sources/overview.md) no guia do usuário Importar.
 * **Data Warehouse:** um recurso no Adobe Analytics que permite solicitar relatórios maiores. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) no guia do usuário Exportar.
 * **Data Workbench:** anteriormente conhecido como Insight. Desenvolvido para coletar, processar, analisar e visualizar dados de interações online e offline do cliente em vários canais.
 * **Dimensão:** um tipo de componente que contém valores variáveis, como texto. Os exemplos incluem Nome da página, Código de rastreamento ou Domínio de referência. Normalmente, uma métrica é sua contrapartida.

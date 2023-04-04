@@ -3,7 +3,7 @@ description: Esta página de ajuda contém casos de uso recomendados para cada f
 title: Qual ferramenta do Adobe Analytics devo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%
@@ -52,7 +52,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
    * Construtor de regras: usar quando tiver valores formatados previsíveis sendo coletados para uma variável, por exemplo, valores delimitados. Esta abordagem permite configurar regras uma vez e “defini-las e esquecê-las” de forma global.
    * Importador de navegador: use quando não houver valores previsíveis ou quando tiver uma lista finita de valores que exigem uma atualização única. Esta abordagem requer um monitoramento contínuo das classificações para novos valores.
 
-**[Fontes de dados](/help/import/c-data-sources/datasrc-home.md)** devem ser usadas:
+**[Fontes de dados](/help/import/data-sources/overview.md)** devem ser usadas:
 
 * Quando há dados offline que você deseja gravar permanentemente no Adobe Analytics.
 * Opções:

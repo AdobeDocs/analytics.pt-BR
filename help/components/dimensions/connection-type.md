@@ -3,7 +3,7 @@ title: Tipo de conexão
 description: Como o visitante se conecta à Internet.
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Essa dimensão usa uma combinação da [`ct` sequência de consulta](/help/imple
 1. Se a `ct` sequência de consulta for igual a `"modem"`, defina o item de dimensão como `"Modem"`. O AppMeasurement coleta esses dados somente em navegadores não compatíveis com o Internet Explorer, tornando esse item de dimensão incomum.
 1. Verifique o endereço IP da ocorrência e faça referência a uma tabela de pesquisa interna da Adobe. Se o endereço IP for de uma operadora de celular, defina o item de dimensão como `"Mobile Carrier"`.
 1. Se a `ct` sequência de consulta for igual a `"lan"`, defina o item de dimensão como `"LAN/Wifi"`.
-1. Se a ocorrência se originar de uma [Fonte de dados](/help/import/c-data-sources/datasrc-home.md) ou se for considerada um tipo especial de ocorrência, defina o item de dimensão como `"Not specified"`.
+1. Se a ocorrência se originar de uma [Fonte de dados](/help/import/data-sources/overview.md) ou se for considerada um tipo especial de ocorrência, defina o item de dimensão como `"Not specified"`.
 1. Se nenhuma das regras acima for atendida, o padrão será o valor de `"LAN/Wifi"`.
 
 ## Itens de dimensão
