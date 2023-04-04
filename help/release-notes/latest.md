@@ -3,9 +3,9 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
+source-git-commit: cc774376b2f98506eb9c1a737e2e6fba3ea73a45
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1442'
 ht-degree: 73%
 
 ---
@@ -23,7 +23,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 | **Dicionário de dados no Analysis Workspace** | O dicionário de dados ajuda tanto os usuários quanto os administradores a acompanhar, gerenciar, e compreender melhor os componentes (dimensões e métricas) em seu ambiente do Analytics. [Saiba mais](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 de março de 2023 | 29 de março de 2023 |
 | **Histórias de dados em painéis móveis** | As histórias de dados permitem adicionar várias visualizações detalhadas personalizáveis aos blocos nos projetos de cartões de pontuação móveis. Use histórias de dados para se aprofundar nos principais impulsionadores, métricas relacionadas e diferentes etapas ao longo da jornada do cliente. Você pode passar facilmente por essas visualizações para entender toda a história por trás de suas métricas principais. [Saiba mais](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N/D | 8 de março de 2023 |
 | **Datas de expiração do projeto agendado** | É possível definir datas de expiração máximas para projetos agendados para até um ano, independentemente da frequência de agendamento. | N/D | 8 de março de 2023 |
-| **Compartilhamento de link para projetos (sem logon necessário)** - Somente para o acesso Private beta | <p>Agora você pode compartilhar links de somente leitura para projetos do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics. Você pode compartilhar links de projeto com pessoas de fora da organização ou aquelas de dentro da organização que não estão provisionadas para o Adobe Analytics. [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Para participar do Private Beta, entre em contato com a equipe de contas da Adobe.</p> | 15 de março de 2023 (Private Beta) | Abril de 2023 |
+| **Compartilhamento de link para projetos (sem logon necessário)** - Somente para o acesso Private beta | <p>Agora você pode compartilhar links de somente leitura para projetos do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics. Você pode compartilhar links de projeto com pessoas de fora da organização ou aquelas de dentro da organização que não estão provisionadas para o Adobe Analytics. [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Para participar do Private Beta, entre em contato com a equipe de contas da Adobe.</p> | 26 de abril de 2023 | Junho de 2023 |
 | **Atualizações do intervalo de datas do painel** | Adicionamos as seguintes melhorias no espaço de trabalho:<ul><li>A partir da versão de fevereiro, os itens de dimensão e as visualizações de dados são baseados no intervalo de datas do painel e não nos últimos 90 dias. </li><li>Todos os itens de dimensão listados são baseados em dados dentro do intervalo de datas do painel. Se um item de dimensão tiver dados fora do intervalo de datas, você poderá mostrar dados adicionais além do intervalo de datas na parte inferior da lista.</li><li>Dimension que não têm dados podem ser exibidos no painel esquerdo. Clique em mostrar mais opções para exibir itens de dimensão com dados fora do intervalo de datas do painel.</li><li>As visualizações de dados no segmento e nos construtores de métricas calculadas são baseadas no intervalo de datas do painel, a menos que sejam acessadas pelos gerentes de componente, que não têm um painel associado e ainda se baseiam nos últimos 90 dias.</li><li>As visualizações de dados exibem dados ou componentes com base no intervalo de datas do painel.</li></ul> | N/D | 8 de fevereiro de 2023 |
 
 {style="table-layout:auto"}
