@@ -5,10 +5,10 @@ uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 87c2f559990674ee738e1ad57166cf192d58232c
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '515'
+ht-degree: 66%
 
 ---
 
@@ -16,15 +16,30 @@ ht-degree: 100%
 
 Explica as etapas que o Administrador do Analytics precisa completar para ativar a coleta de links e o download do usuário no Activity Map.
 
-## Etapa 1. Atualizar o código AppMeasurement (Javascript) para v1.6 (ou posterior) {#section_5D1586289DF2489289B1B6C1C80C300D}
+## Etapa 1. Atualizar o código de implementação {#section_5D1586289DF2489289B1B6C1C80C300D}
 
-O módulo do Activity Map é parte do arquivo AppMeasurement.js (localizado na parte superior do arquivo). A biblioteca do AppMeasurement vai carregar o módulo do Activity Map, quando esse for instanciado.
+O módulo Activity Map faz parte do AppMeasurement.js e do SDK da Web (versão 2.15.0 ou superior).
+A biblioteca do AppMeasurement ou o SDK da Web carregará o módulo do Activity Map quando instanciado.
 
-Os dados do Activity Map não podem ser coletados, a menos que você atualize para essa versão (ou posterior) do AppMeasurement.
+>[!NOTE]
+>
+>Os dados de Activity Map não podem ser coletados, a menos que você atualize para **AppMeasurement** **versão 1.6** ou superior ou **Web SDK** **versão 2.15.0** ou superior
 
-1. Baixe o código AppMeasurement mais recente (AppMeasurement_Javascript-1.6.zip) acessando **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciador de código]** e [Implementar](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=pt-BR).
 
-   Incluímos alguns [códigos de implementação de exemplo](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) para ajudar a visualizar as alterações feitas no código, incluindo o módulo Activity Map.
+1. Baixe a biblioteca JavaScript mais recente, dependendo se você está usando o AppMeasurement ou o SDK da Web.
+
+   - **AppMeasurement** código (AppMeasurement_Javascript-1.6.zip) acessando  **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciador de código]** e [implemente](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=pt-BR).
+
+      Incluímos alguns [códigos de implementação de exemplo](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) para ajudar a visualizar as alterações feitas no código, incluindo o módulo Activity Map.
+
+   - **Web SDK** código (alloy.js). Consulte [Instalar o SDK - Opção 2: Instalação da versão independente pré-criada](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=pt-BR#option-2%3A-installing-the-prebuilt-standalone-version) para obter mais informações. Certifique-se de usar a versão 2.15 ou posterior.
+
+      Consulte [Rastrear links](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=pt-BR) para obter informações sobre como implementar o rastreamento de link e como ativar o Mapeamento de atividades capturando o `region` do elemento HTML clicado.
+
+      >[!NOTE]
+      >
+      >Ativar o rastreamento de links com o SDK da Web envia eventos de links quando um cliente navega de uma página para a próxima. Isso é diferente de como o AppMeasurement funciona e pode resultar em ocorrências faturáveis extras enviadas para o Adobe.
+
 
 1. Valide a implementação:
 

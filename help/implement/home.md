@@ -2,10 +2,10 @@
 title: Implementação do Adobe Analytics
 description: Implementar o Adobe Analytics no site, propriedade ou aplicativo.
 feature: Implementation Basics
-source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
+source-git-commit: eae2b75d47a044b36ff9e5bbb311d1a2906faf91
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,11 @@ Consulte [Implementar o Adobe Analytics usando a extensão do Analytics](launch/
    ![JavaScript herdado](./assets/appmeasurement-implementation.png)
 Esse método de implementação pode ser útil para implementações que usam código personalizado e ainda é recomendado quando você (deseja) usar:
 
-   * [dados do Activity Map em nível de clique](../analyze/activity-map/activity-map.md),
+   * [dados do activity map](../analyze/activity-map/activity-map.md),
+
+      >[!INFO]
+      >
+      >Usando o SDK da Web mais recente, o Activity Map é compatível. Consulte [Ativar o Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) para obter mais informações.
 
    * [medição de mídia de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR),
 
