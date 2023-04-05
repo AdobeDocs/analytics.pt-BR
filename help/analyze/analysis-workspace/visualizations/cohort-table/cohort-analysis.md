@@ -4,10 +4,10 @@ description: Saiba mais sobre os dados do seu público-alvo e os divida em grupo
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,9 @@ Vídeo sobre tabelas de coorte no Analysis Workspace:
 
 >[!IMPORTANT]
 >
->A [!UICONTROL Análise de coorte] não é compatível com métricas não segmentáveis (incluindo métricas calculadas), métricas não inteiras (como Receita) ou Ocorrências. Somente as métricas que podem ser usadas em segmentos podem ser usadas em [!UICONTROL Análises de coorte], e só podem ser aumentadas >1 por vez.
+>[!UICONTROL Análise de coorte] não suporta métricas não segmentáveis (incluindo métricas calculadas), métricas não inteiras (como Receita) ou Ocorrências.
+>
+>Somente as métricas que podem ser usadas em segmentos podem ser usadas em [!UICONTROL Análises de coorte], e só podem ser aumentadas >1 por vez.
 
 ## Recursos da análise de coorte
 
