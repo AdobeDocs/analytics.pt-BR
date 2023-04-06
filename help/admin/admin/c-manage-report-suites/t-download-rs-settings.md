@@ -3,10 +3,10 @@ description: Etapas que descrevem como gerar uma planilha do Excel contendo toda
 title: Fazer download das configurações do conjunto de relatórios
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: 00d37f1e77bb0f2cc0c7bd728a7f8bebe56d659e
+source-git-commit: b26da8f7e3aee3c3f3e68d24bd8b170e32759bbd
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 32%
+source-wordcount: '123'
+ht-degree: 33%
 
 ---
 
@@ -20,7 +20,7 @@ Para gerar um arquivo delimitado por tabulação contendo todas as configuraçõ
 
 3. Clique em **[!UICONTROL Baixar]**.
 
-   Um arquivo chamado Report Suite Data.tab é baixado para o seu computador local.
+   Um arquivo chamado `Report Suite Data.tab` é baixado para o computador local.
 
 Você pode abrir o arquivo em qualquer editor de texto que possa manipular arquivos delimitados por tabulação.
 
