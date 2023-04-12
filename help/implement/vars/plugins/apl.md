@@ -3,18 +3,16 @@ title: apl (appendToList)
 description: Anexe valores a variáveis que suportam vários valores.
 feature: Variables
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 100%
+source-wordcount: '670'
+ht-degree: 90%
 
 ---
 
 # Plug-in da Adobe: apl (appendToList)
 
->[!IMPORTANT]
->
->Esse plug-in é fornecido pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte para este plug-in, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com esse plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+{{plug-in}}
 
 O plug-in `apl` permite adicionar com segurança novos valores a variáveis delimitadas por lista, como [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md) e outras.[`list`](../page-vars/list.md)
 
@@ -24,25 +22,29 @@ O plug-in `apl` permite adicionar com segurança novos valores a variáveis deli
 
 A Adobe recomenda usar esse plug-in se você desejar adicionar novos valores às variáveis existentes que contenham uma string de valores delimitados. Esse plug-in não é necessário se você preferir concatenar strings para variáveis que contêm valores delimitados.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Instalar o plug-in usando a extensão Web SDK ou Web SDK
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Esse plug-in ainda não é compatível com o uso no SDK da Web.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize APL (Append To List)
-1. Save and publish the changes to the rule.-->
+## Instalar o plug-in usando a extensão Adobe Analytics
+
+O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Adobe Analytics.
+
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Clique na propriedade de tag desejada.
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão [!UICONTROL Catálogo].
+1. Instale e publique a extensão [!UICONTROL Plug-ins comuns do Analytics].
+1. Caso ainda não o tenha feito, crie uma regra denominada &quot;Inicializar plug-ins&quot; com a seguinte configuração:
+   * Condição: Nenhuma
+   * Evento: principal – biblioteca carregada (início da página)
+1. Adicione à regra acima uma ação com a seguinte configuração:
+   * Extensão: Plug-ins comuns do Analytics
+   * Tipo de ação: inicializar apl (Anexar à lista)
+1. Salve e publique as alterações na regra.
 
 ## Instale o plug-in usando o editor de código personalizado do
 
-Se você não quiser usar a extensão do plug-in, poderá usar o editor de código personalizado.
+Se você não quiser usar a extensão de plug-in de plug-ins comuns do Analytics, poderá usar o editor de código personalizado.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade desejada.

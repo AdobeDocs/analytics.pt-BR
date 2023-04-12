@@ -3,10 +3,10 @@ title: Relatórios de aquisição no Adobe Analytics
 description: Saiba como criar relatórios baseados em aquisição usando a Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -141,4 +141,4 @@ O relatório de palavras-chave orgânicas mostra o desempenho de cada palavra-ch
 
 ## Análise de custo
 
-Este relatório mostra os dados de desempenho de visita, custo e receita dos canais de marketing pagos. A Adobe fornece um produto dedicado para oferecer informações chamado Adobe Advertising Cloud. Se a organização estiver interessada em usar esse produto, entre em contato com o Gerente de conta da organização.
+Este relatório mostra os dados de desempenho de visita, custo e receita dos canais de marketing pagos. A Adobe fornece um produto dedicado para oferecer informações chamado Adobe Advertising Cloud. Se sua organização estiver interessada em usar esse produto, entre em contato com a equipe de conta do Adobe.

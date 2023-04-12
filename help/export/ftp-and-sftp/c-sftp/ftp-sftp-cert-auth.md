@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Conexão com a Adobe via SFTP sem uma senha
 feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Ao usar o SFTP é possível, em condições específicas, usar chaves privadas p
 
 1. Conta FTP criada (Adobe).
 
-   Um representante da Adobe pode criar uma conta FTP, caso ainda não tenha uma. Entre em contato com seu Gerente de contas da Adobe ou com o Atendimento ao cliente da Adobe para criar a sua conta.
+   Um representante da Adobe pode criar uma conta FTP, caso ainda não tenha uma. Entre em contato com a Equipe de conta do Adobe ou com o Atendimento ao cliente do Adobe para criar uma conta.
 1. Criação de chave pública/privada (cliente).
 
    Crie uma combinação de chave pública e privada. A chave privada é um arquivo exclusivo do seu computador/servidor e que permanece lá. O arquivo de chave pública precisa ser enviado para a conta da Adobe. Quando usado desta forma, é possível se conectar sem realizar a autenticação por senha. Para a Adobe, o arquivo de chave pública é equivalente ao arquivo de chave privada do seu computador/servidor, e ele realiza a autenticação da mesma forma.

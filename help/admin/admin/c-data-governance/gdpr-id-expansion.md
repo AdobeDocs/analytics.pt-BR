@@ -3,10 +3,10 @@ description: As IDs enviadas nem sempre cobrem todos os dados de ocorrências qu
 title: Expansão de ID
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '1348'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,4 +59,4 @@ Além do valor padrão, o campo  `priority` também aceita o valor “baixo”. 
 
 Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. O resultado é indesejável para situações em que você deseja limpar os campos de dados e destaca um motivo pelo qual a API Privacy Service é inadequada para esse uso.
 
-Entre em contato com seu Gerente de conta (CSM) para coordenar com nossa equipe de consultores de Arquitetura e engenharia para analisar e fornecer um nível de esforço e remover quaisquer problemas de PII ou de dados.
+Entre em contato com a equipe de conta do Adobe para coordenar com a equipe de consultoria de Arquiteto de engenharia para revisão adicional e para empenhar esforços para remover qualquer PII ou resolver problemas de dados.

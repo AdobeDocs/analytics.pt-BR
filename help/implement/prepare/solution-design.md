@@ -3,10 +3,10 @@ title: Criar um documento de design de solução
 description: Saiba o que é um documento de design da solução e como usá-lo na sua empresa.
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 100%
+source-wordcount: '697'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Ao determinar quais dados coletar, é fácil dizer &quot;tudo&quot;, no entanto,
 
 ## Recursos adicionais
 
-A definição de um documento de design da solução é um projeto bastante complexo, especialmente para empresas que não criaram um antes. Se desejar assistência adicional, a Adobe fornece consultoria especializada para ajudar a colocar sua empresa em funcionamento com o Adobe Analytics. Entre em contato com o Gerente de contas, se desejar se inscrever nos serviços profissionais da Adobe. Um [questionário técnico de pré-implementação](assets/technical-pre-implementation-questionnaire.pdf) pode ser preenchido para que a Adobe saiba exatamente como ajudar, com base nas necessidades da empresa.
+A definição de um documento de design da solução é um projeto bastante complexo, especialmente para empresas que não criaram um antes. Se desejar assistência adicional, a Adobe fornece consultoria especializada para ajudar a colocar sua empresa em funcionamento com o Adobe Analytics. Entre em contato com a Equipe da Conta do Adobe que você gostaria de se inscrever nos serviços profissionais do Adobe. Um [questionário técnico de pré-implementação](assets/technical-pre-implementation-questionnaire.pdf) pode ser preenchido para que a Adobe saiba exatamente como ajudar, com base nas necessidades da empresa.
 
 Também existem vários parceiros da Adobe especializados em ajudar na criação de um documento de design da solução, bem como na implementação do Adobe Analytics no site.
 

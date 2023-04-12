@@ -3,10 +3,10 @@ description: O que você precisa saber sobre a migração de IDs de usuários do
 title: Migração de usuários do Analytics para o Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '3162'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ Respostas às perguntas que você pode ter antes da migração.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Verificar se você é um administrador de produto do Analytics no Adobe Admin Console. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">Comunicar a sua base de usuários de que a experiência de logon mudará quando a migração for iniciada. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">Auditar seus usuários e permissões atuais e realizar atividades de limpeza. </li> 
-    </ul> <p>Para acelerar sua migração, entre em contato com o Gerente de sucesso do cliente pelo <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html">Atendimento ao cliente da Adobe</a> e envie um pedido para antecipar a data de início da migração. </p> </td> 
+    </ul> <p>Para acelerar sua migração, entre em contato com a equipe de conta do Adobe em <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html"> Atendimento ao cliente do Adobe</a> e enviar um pedido para uma data de início anterior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Sou um administrador do Analytics e não tenho acesso ao Adobe Admin Console. Quem pode me ajudar a obter acesso ao Adobe Admin Console? </p> </td> 

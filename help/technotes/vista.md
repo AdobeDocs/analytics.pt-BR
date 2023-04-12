@@ -2,10 +2,10 @@
 title: Regras VISTA no Adobe Analytics
 description: Saiba mais sobre as regras VISTA e seus recursos.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 81%
 
 ---
 
@@ -25,12 +25,12 @@ Muitos casos de uso para regras VISTA já são oferecidos por [Regras de process
 
 >[!IMPORTANT]
 >
->As regras VISTA exigem um contrato pago entre sua organização e a Adobe Professional Services. Entre em contato com o gerente de conta da Adobe de sua organização se desejar criar ou atualizar uma regra VISTA.
+>As regras VISTA exigem um contrato pago entre sua organização e a Adobe Professional Services. Entre em contato com a Equipe de conta do Adobe se desejar criar ou atualizar uma regra VISTA.
 
 ## Criar uma regra VISTA
 
-Você deve trabalhar com o Adobe Professional Services para criar uma regra VISTA. Entre em contato com o gerente de conta da Adobe de sua organização se desejar criar uma regra VISTA.
+Você deve trabalhar com o Adobe Professional Services para criar uma regra VISTA. Entre em contato com a equipe de conta do Adobe se desejar criar uma regra VISTA.
 
 ## Consulte as regras VISTA existentes
 
-A Adobe não oferece uma interface para visualizar as regras VISTA existentes. Entre em contato com o gerente de conta da Adobe de sua organização ou com o Atendimento ao cliente com o conjunto de relatórios desejado para recuperar uma lista de regras VISTA existentes.
+A Adobe não oferece uma interface para visualizar as regras VISTA existentes. Entre em contato com a equipe de conta do Adobe ou com o Atendimento ao cliente com o conjunto de relatórios desejado para recuperar uma lista de regras VISTA existentes.

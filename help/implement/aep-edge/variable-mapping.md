@@ -2,16 +2,16 @@
 title: Mapeamento de variável do Analytics na Adobe Experience Edge
 description: Visualize quais campos XDM a borda mapeia automaticamente para variáveis do Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 98%
+source-wordcount: '1478'
+ht-degree: 97%
 
 ---
 
 # Mapeamento de variável do Analytics na Adobe Experience Edge
 
-A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience Platform mapeia automaticamente para o Adobe Analytics. Se você usar esses Caminhos de campo XDM, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics.
+A tabela a seguir mostra as variáveis que a Rede de borda da Adobe Experience Platform mapeia automaticamente para o Adobe Analytics. Se você usar esses Caminhos de campo XDM, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics. Esses campos estão incluídos na variável **[!UICONTROL Modelo Adobe Analytics ExperienceEvent]** grupo de campos.
 
 As atualizações anteriores desta tabela podem ser encontradas no [histórico de commit no GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
 

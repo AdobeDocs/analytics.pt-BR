@@ -3,10 +3,10 @@ title: Visão geral dos plug-ins
 description: Cole o código no site para introduzir uma nova funcionalidade.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 96%
 
 ---
 
@@ -14,15 +14,13 @@ ht-degree: 100%
 
 Plug-ins são trechos de código que executam várias funções avançadas que ajudam na implementação do Analytics. Esses plug-ins estendem a capacidade de seu arquivo JavaScript para fornecer a você mais funcionalidade do que a disponível com a implementação básica. A Adobe oferece diversos outros plug-ins como parte das soluções avançadas.
 
->[!IMPORTANT]
->
->Os plug-ins são fornecidos pela Adobe Consulting como cortesia para ajudar você a tirar maior proveito do Adobe Analytics. O Atendimento ao cliente da Adobe não fornece suporte a nenhum desses plug-ins, o que inclui instalação ou solução de problemas. Se você precisar de ajuda com um plug-in, entre em contato com o Gerente de conta de sua organização. Ele pode organizar uma reunião com um consultor para obter ajuda.
+{{plug-in}}
 
 A Adobe oferece várias maneiras de instalar um determinado plug-in:
 
-<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
-1. Colar o código do plug-in usando o editor de código personalizado do
-1. Colar o código do plug-in no seu arquivo `AppMeasurement.js`.
+* Usar a extensão &quot;Plug-ins comuns do Analytics&quot; da extensão do Adobe Analytics
+* Colar o código do plug-in usando o editor de código personalizado do
+* Colar o código do plug-in no seu arquivo `AppMeasurement.js`.
 
 Cada organização tem necessidades de implementação diferentes, de modo que você pode decidir como deseja incluí-los na implementação. Certifique-se de atender aos seguintes critérios ao incluir o código em seu site:
 

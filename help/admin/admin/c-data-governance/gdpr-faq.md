@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre governança de dados do Adobe Analytics
 title: Perguntas frequentes sobre governança de dados
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '2076'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -108,7 +108,7 @@ A [API de dados do Privacy Service](https://developer.adobe.com/experience-platf
 
 Pedimos que você não use a API da privacidade de dados para outros propósitos, como eliminar dados enviados por acidente para grandes grupos de visitantes. Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso.
 
-Entre em contato com o Gerente de conta (CSM) para coordenar com nossa equipe de consultoria de Arquiteto de engenharia para revisão adicional e para empenhar esforços para remover qualquer problema de PII ou dados.
+Entre em contato com a equipe de conta do Adobe para coordenar com a equipe de consultoria de Arquiteto de engenharia para revisar e fornecer um nível de esforço para remover qualquer problema de PII ou dados.
 
 +++
 
@@ -118,7 +118,7 @@ A [API de dados do Privacy Service](https://developer.adobe.com/experience-platf
 
 Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso.
 
-Entre em contato com seu Gerente de conta (CSM) para coordenar com nossa equipe de consultores de Arquitetura e engenharia para analisar e fornecer um nível de esforço e remover qualquer problemas de PII ou de dados.
+Entre em contato com a equipe de conta do Adobe para coordenar com a equipe de consultoria de Arquiteto de engenharia para fazer uma revisão adicional e fornecer um nível de esforço para remover qualquer problema de PII ou dados.
 
 +++
 

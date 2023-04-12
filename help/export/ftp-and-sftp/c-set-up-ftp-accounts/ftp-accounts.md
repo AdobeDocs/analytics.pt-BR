@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Configurar contas FTP - visão geral
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -23,6 +23,6 @@ Os clientes da Adobe recebem notificações de manutenção por meio do processo
 * Os usuários devem remover da conta FTP os dados entregues pela Adobe assim que eles forem transferidos com sucesso para seus sistemas.
 * Informe à Adobe quando as contas FTP não forem mais necessárias para que elas possam ser desativadas.
 
-O nome do host FTP da Adobe é [!DNL ftp.omniture.com] ou [!DNL ftp2.omniture.com].
+O nome do host FTP da Adobe é `ftp://ftp.omniture.com` ou `ftp://ftp2.omniture.com`.
 
-Esta informação, assim como o nome de usuário e a senha, deve ser fornecida dentro da [!UICONTROL Experience Cloud] (para classificações e fontes de dados) ou pelo representante da Adobe responsável pela configuração da conta, conforme sua solicitação. Se você não sabe qual endereço FTP deve usar, entre em contato com seu Gerente de contas da Adobe e ele fornecerá o endereço correto. Além disso, para contas de classificações e fontes de dados, não há um horário específico para o processamento dos arquivos FTP. A Adobe usa um script que pesquisa constantemente as contas FTP atrás de um novo processamento de arquivos. Os arquivos enviados para estas contas são processados o mais rápido possível.
+Esta informação, assim como o nome de usuário e a senha, deve ser fornecida dentro da [!UICONTROL Experience Cloud] (para classificações e fontes de dados) ou pelo representante da Adobe responsável pela configuração da conta, conforme sua solicitação. Caso não saiba qual endereço FTP usar, entre em contato com a equipe de conta do Adobe, que pode fornecer o endereço correto. Além disso, para contas de classificações e fontes de dados, não há um horário específico para o processamento dos arquivos FTP. A Adobe usa um script que pesquisa constantemente as contas FTP atrás de um novo processamento de arquivos. Os arquivos enviados para estas contas são processados o mais rápido possível.
