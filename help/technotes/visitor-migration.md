@@ -5,16 +5,20 @@ title: Migração de visitante
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Migração de visitante
 
-A migração do visitante é um processo no qual o cookie da ID de visitante é transferido de um domínio para outro.
+>[!NOTE]
+>
+>Se você já implementou o Serviço de ID de visitante do Experience Cloud, o Período de carência não é aplicável a você e não deve ser ativado.
+
+A migração do visitante é um processo em que o cookie da ID de visitante (s_vi) é migrado de um domínio para outro.
 
 A migração do visitante permite que você preserve cookies de identificação do visitante ao alterar domínios de coleção de dados. Os domínios de coleta dos dados podem ser alterados pelos seguintes motivos:
 
@@ -41,7 +45,7 @@ A tabela a seguir lista as tarefas exigidas para a migração do visitante:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Para começar:</b> <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html"  >entre em contato com o atendimento ao cliente</a> com os domínios que você deseja migrar e o período de migração que você deseja habilitar (30, 60 ou 90 dias). Certifique-se de incluir os domínios não seguros e seguros. </p> </td> 
+   <td colname="col1"> <p> <b>Para começar:</b> <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html"  >entre em contato com o atendimento ao cliente</a> com os domínios que você deseja migrar e o período de migração que você deseja habilitar (30, 60 ou 90 dias). Certifique-se de incluir os domínios protegidos e não protegidos. </p> </td> 
    <td colname="col3"> <p>Crie uma lista com a sintaxe <i>exata</i> para os domínios que você deseja migrar de ou para. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
