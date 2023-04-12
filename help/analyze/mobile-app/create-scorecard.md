@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
 workflow-type: tm+mt
-source-wordcount: '2353'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -220,9 +220,9 @@ Da mesma forma, para remover um componente aplicado a todo o cartão de pontuaç
 
 Uma história de dados é uma coleção de pontos de dados de suporte, contexto comercial e métricas relacionadas com base em um tema ou métrica central.
 
-Por exemplo, se você se concentrar no tráfego da Web, sua métrica mais importante pode ser visitas, mas também pode estar interessado em novos visitantes, visitantes únicos, e pode querer ver os dados detalhados por página da Web ou de que tipo de dispositivo o tráfego vem. As histórias de dados em projetos de scorecard para dispositivos móveis permitem colocar suas métricas mais importantes em primeiro plano e depois contar toda a história por trás das métricas com vários slides de detalhes.
+Por exemplo, se focar no tráfego na Web, sua métrica mais importante pode ser visitas, mas você também pode se interessar em novos visitantes ou visitantes únicos, e querer ver os dados detalhados por página da Web ou de que tipo de dispositivo o tráfego vem. As histórias de dados em projetos de cartões de pontuação móveis permitem colocar suas métricas mais importantes em primeiro plano ao mesmo tempo em que conta toda a história por trás das métricas com vários slides de detalhes.
 
-Assista ao vídeo para saber mais sobre como criar histórias de dados em projetos de scorecard para dispositivos móveis no Analysis Workspace.
+Assista ao vídeo para saber mais sobre como criar histórias de dados em projetos de cartões de pontuação móveis no Analysis Workspace.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
 
@@ -230,12 +230,12 @@ Assista ao vídeo para saber mais sobre como criar histórias de dados em projet
 
 Crie sua história de dados adicionando vários slides de detalhes a um bloco.
 
-1. Comece com um projeto de scorecard móvel.
-1. Selecione um mosaico do qual deseja criar uma história.
+1. Comece com um projeto de cartão de pontuação móvel.
+1. Selecione um bloco do qual deseja criar uma história.
 
    ![Criar uma história de dados](assets/data-story1.png)
 
-   ![Criar ícones da história de dados](assets/create-data-story.png){width=".50%"}
+   ![Criar ícones de história de dados](assets/create-data-story.png){width=".50%"}
 
 1. Adicione slides para criar sua história de dados. Seu primeiro slide é gerado por padrão.
 
@@ -243,7 +243,7 @@ Crie sua história de dados adicionando vários slides de detalhes a um bloco.
 
    * Toque no [!UICONTROL +] para criar um novo slide.
 
-   * Toque no ícone de duplicação para duplicar o slide existente.
+   * Toque no ícone de duplicação para duplicar o slide já existente.
 
 1. Se você criar um slide em branco, arraste e solte componentes do painel esquerdo ou escolha um layout para preencher automaticamente o slide com os dados do bloco.
 
@@ -253,13 +253,13 @@ Para excluir um slide, toque no ícone da lixeira.
 
 ### Personalizar uma história de dados {#customize-data-story}
 
-As histórias de dados permitem personalizar tudo para que você possa compartilhar informações que deseja compartilhar e excluir tudo o que não precisa. Você pode personalizar blocos e slides individuais para adicionar filtros, mostrar detalhamentos, alterar o layout e alterar as visualizações.
+As histórias de dados permitem personalizar tudo. Assim você pode compartilhar as informações que deseja e excluir tudo que não precisa. Você pode personalizar blocos e slides individuais para adicionar filtros, mostrar detalhamentos, alterar o layout e as visualizações.
 
 **Para personalizar blocos**
 
-1. Toque em um bloco. O bloco selecionado é contornado em azul e o painel direito mostra as propriedades do Mosaico.
-1. Altere o título, o tipo de gráfico e outras opções de bloco.
-1. Arraste um componente para o mosaico.
+1. Toque em um bloco. O bloco selecionado será contornado em azul e o painel direito mostrará as propriedades do bloco.
+1. Altere o título, o tipo de gráfico e outras opções do bloco.
+1. Arraste um componente para o bloco.
 
    ![Criar uma história de dados](assets/data-story3.png)
 
@@ -274,15 +274,15 @@ As histórias de dados permitem personalizar tudo para que você possa compartil
 
 **Como personalizar slides individuais**
 
-Você pode alterar a visualização de slides individuais em uma história de dados. Por exemplo, é possível alterar uma barra horizontal para um gráfico de rosca para um slide específico. Também é possível alterar o layout. Consulte [Personalizar slides de detalhes](#customize-detail-slide).
+Você pode alterar a visualização de slides individuais em uma história de dados. Por exemplo, é possível alterar um gráfico de barras horizontais para um gráfico de rosquinha em um slide específico. Também é possível alterar o layout. Consulte [Personalizar slides de detalhes](#customize-detail-slide).
 
 ### Visualizar uma história de dados {#preview-data-story}
 
-Depois de criar uma história de dados, use o **Visualizar** para visualizar e interagir com uma história de dados como se você fosse um usuário do aplicativo. Para obter informações sobre como visualizar sua história de dados, consulte [Visualizar um scorecard](#preview)
+Depois de criar uma história de dados, use o botão **Visualizar** para visualizar e interagir com uma história de dados como se você fosse um usuário do aplicativo. Para obter informações sobre como visualizar sua história de dados, consulte [Visualizar um cartão de pontuação](#preview)
 
 ### Navegar entre blocos e slides {#navigate-tiles-slides}
 
-A barra de navegação exibe ícones que representam o que está em cada slide. A barra de navegação facilita a navegação para um slide específico se você tiver vários slides.
+A barra de navegação exibe ícones que representam o que está em cada slide. A barra de navegação facilita a navegação para um slide específico se você tiver vários.
 
 Para se mover entre o bloco e os slides, toque na barra de navegação.
 
