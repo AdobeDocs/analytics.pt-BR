@@ -3,10 +3,10 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 611477ef794464de0b05b45e8445ed8fdd32b154
+source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1568'
+ht-degree: 75%
 
 ---
 
@@ -25,6 +25,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 | **Ofuscação de IP para o Experience Edge** | O Experience Edge oferecerá suporte à ofuscação de IP para dados enviados diretamente para o Adobe Experience Platform. Isso beneficia os clientes que enviam dados diretamente para a Platform para uso no CJA ou em outras soluções da plataforma. A ofuscação de IP é configurada no nível do fluxo de dados. É compatível com a remoção do último octeto ou de todo o endereço IP.<p>**Observação**: A ofuscação NÃO se aplica aos dados enviados para o Adobe Analytics. O Analytics continua obtendo o IP completo. O processamento de IP continua sendo feito no Analytics separadamente. No futuro, pretendemos permitir que os dados do Analytics sejam ofuscados no Edge. | N/D | Lançamento da AEP em 26 de abril de 2023 |
 | **Dicionário de dados no Analysis Workspace** | O dicionário de dados ajuda tanto os usuários quanto os administradores a acompanhar, gerenciar, e compreender melhor os componentes (dimensões e métricas) em seu ambiente do Analytics. [Saiba mais](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 de março de 2023 | 29 de março de 2023 |
 | **Compartilhamento de link para projetos (sem logon necessário)** - Somente para o acesso Private beta | <p>Agora você pode compartilhar links de somente leitura para projetos do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics. Você pode compartilhar links de projeto com pessoas de fora da organização ou aquelas de dentro da organização que não estão provisionadas para o Adobe Analytics. [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Para participar do Private Beta, entre em contato com a equipe de contas da Adobe.</p> | 26 de abril de 2023 | Junho de 2023 |
+| 2 novos guias de endpoint para a API do Adobe Analytics 2.0 | <ul><li>[API Dimension do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | N/D | 10 de abril de 2023 |
 
 {style="table-layout:auto"}
 
