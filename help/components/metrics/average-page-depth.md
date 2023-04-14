@@ -3,24 +3,24 @@ title: Profundidade média da página
 description: Em quantas páginas a dimensão existe em média.
 feature: Metrics
 exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: 732c9971f3c68cb8819ff5524b601790fda9fef5
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '361'
+ht-degree: 60%
 
 ---
 
 # Profundidade média da página
 
-A métrica “Profundidade média da página” mostra a que distância de uma determinada visita está o item de dimensão. Por exemplo, geralmente, a página inicial mostraria uma profundidade média de página menor do que a página de confirmação de compra, que normalmente seria mais distante em uma visita. Essa métrica é útil para entender quantas páginas em média constam em um determinado item de dimensão. É possível utilizar essas informações para otimizar determinadas páginas para visitantes novos se a página tiver em média uma baixa profundidade.
+A métrica &quot;Profundidade média da página&quot; mostra o alcance médio de um item de dimensão em uma determinada visita. Por exemplo, sua Página inicial (que é um item de dimensão para a dimensão Página) normalmente mostra uma profundidade média de página menor do que sua página de Confirmação de compra, que provavelmente se estende ainda mais em uma visita. Você pode usar essas informações para otimizar determinadas páginas em direção a visitantes novos se a página tiver uma profundidade baixa, em média.
 
 >[!TIP]
 >
->Use essa métrica junto com outra métrica (como [Visitas](visits.md)) para obter melhores insights. Se essa métrica for utilizada sozinha, são obtidos itens de dimensão que contêm profundidades de página com anomalias, o que geralmente não é útil.
+>Use essa métrica junto com outra métrica, como [Visitas](visits.md), para obter melhores insights. Se essa métrica for utilizada sozinha, é possível obter itens de dimensão que contenham profundidades de página anômalas, o que geralmente não é um insight valioso.
 
 ## Como essa métrica é calculada
 
-A primeira página de uma visita tem uma profundidade de página de `0`. A próxima página tem uma profundidade de página de 1 e ela aumenta a cada visualização de página até o final da visita. Essa métrica só aumenta com chamadas de visualização de página ([`t()`](/help/implement/vars/functions/t-method.md)), e não com chamadas de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+A primeira página de uma visita tem uma profundidade de página de `0`. A próxima página tem uma profundidade de página de 1 e ela aumenta a cada visualização de página até o final da visita. Essa métrica aumenta somente com a exibição de página ([`t()`](/help/implement/vars/functions/t-method.md)), e não com rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 Para um determinado item de dimensão, adicione todas as profundidades de página para esse item de dimensão e divida-o por visitas. O número resultante é a profundidade média da página, arredondada para o número inteiro mais próximo. Itens de dimensão com uma profundidade média de página `0` significa que eram frequentes na primeira página da visita.
 
@@ -46,4 +46,6 @@ If 'Count repeat instances' is disabled:
 
 ## Porcentagens acima de 100%
 
-Essa métrica frequentemente contém porcentagens acima de 100%. O denominador é a profundidade média da página da dimensão inteira, e o numerador é a profundidade média da página no item de dimensão. Se a profundidade média da página de toda a dimensão for inferior à profundidade média da página de um determinado item de dimensão, você verá porcentagens acima de 100%. A classificação de relatórios classificados por essa métrica mostra valores de profundidade média da página com anomalias, o que geralmente não é útil. A Adobe recomenda classificar por outra métrica, como [Visitas](visits.md), em relatórios classificados.
+Essa métrica frequentemente contém porcentagens acima de 100%. O denominador é a profundidade média da página da dimensão inteira, e o numerador é a profundidade média da página no item de dimensão.
+
+Se a profundidade média da página de toda a dimensão for inferior à profundidade média da página de um determinado item de dimensão, você verá porcentagens acima de 100%. A classificação de relatórios classificados por essa métrica mostra valores de profundidade média da página com anomalias, o que geralmente não é útil. A Adobe recomenda classificar por outra métrica, como [Visitas](visits.md), em relatórios classificados.

@@ -4,9 +4,9 @@ description: As tabelas de forma livre são a base para a análise de dados no W
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
+source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '629'
 ht-degree: 69%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 69%
 
 No Analysis Workspace, uma Tabela de forma livre é a base para a análise de dados interativa. Você pode arrastar e soltar uma combinação de [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=pt-BR) em linhas e colunas para criar uma tabela personalizada para sua análise. À medida que cada componente é descartado, a tabela é atualizada imediatamente, para que você possa analisar e pesquisar mais fundo rapidamente.
 
-Para ilustrar, comece com uma Tabela de forma livre vazia.
+## Criar uma tabela de forma livre simples
+
+Você começa com uma Tabela de forma livre vazia.
 
 ![Tabela de forma livre vazia](assets/freeform-table-1.png)
 
-Se soltar a **[!UICONTROL ** Visitas **]** na métrica **[!UICONTROL ** Solte uma métrica aqui (ou qualquer outro componente)**]**, a Tabela de forma livre é preenchida automaticamente com visitas por dia durante o período selecionado.
+Se soltar a **[!UICONTROL ** Visitas **]** na métrica **[!UICONTROL ** Solte uma métrica aqui (ou qualquer outro componente)**]**, a Tabela de forma livre é preenchida automaticamente com visitas por dia no período de calendário selecionado.
 
 ![Tabela de forma livre de visitas](assets/freeform-table-2.png)
 
@@ -27,7 +29,7 @@ Em seguida, solte o **[!UICONTROL ** Página **]** para substituir a dimensão *
 
 ![Tabela de forma livre de visitas por página](assets/freeform-table-3.png)
 
-E você pode então detalhar, por exemplo, a variável **[!UICONTROL ** categoria:5 **]** ao soltar a página **[!UICONTROL ** Canal de marketing **]** na dimensão **[!UICONTROL ** categoria:5 **]** linha.
+É possível detalhar, por exemplo, a variável **[!UICONTROL ** categoria:5 **]** ao soltar a página **[!UICONTROL ** Canal de marketing **]** na dimensão **[!UICONTROL ** categoria:5 **]** linha.
 
 ![Detalhamento de visitas por tabela de forma livre de página](assets/freeform-table-4.png)
 
