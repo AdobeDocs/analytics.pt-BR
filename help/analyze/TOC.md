@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder e o Activity Map.
-source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1098'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,6 @@ ht-degree: 100%
       + Segmentos {#segments}
          + [Criar segmentos](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Segmentos rápidos](analysis-workspace/components/segments/quick-segments.md)
-         + [Segmentos ad hoc](analysis-workspace/components/segments/ad-hoc-segments.md)
       + Calendário e intervalos de datas {#calendar-date-ranges}
          + [Visão geral do calendário e do intervalos de datas](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Criar intervalos de datas personalizados](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)

@@ -4,10 +4,10 @@ title: Segmentos
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 95%
 
 ---
 
@@ -19,11 +19,9 @@ Você pode criar diferentes tipos de segmentos no Espaço de trabalho, dependend
 | Tipo de segmento | Criado onde? | Onde ele é aplicável? | Quando usar |
 | --- | --- | --- | --- |
 | Segmento de lista de componentes | Clique em + para ser direcionado ao [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Todos os projetos do Espaço de trabalho | Para segmentos mais complexos, segmentos sequenciais |
-| Segmento rápido | [Criador de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [Exclusivo para projetos.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=pt-BR#what-are-project-only-segments), mas é possível salvar e adicionar à lista de segmentos. | Flexibilidade para adicionar/editar uma ou mais regras |
-| Segmentos ad hoc: |  |  |  |
-| - Segmento de projeto Ad hoc Workspace | [Arrastar e soltar para a área de destino de segmentos em um projeto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [Exclusivo para projetos.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=pt-BR#what-are-project-only-segments), mas é possível salvar e adicionar à lista de segmentos. | Para segmentos de regra única |
-| - Segmento calculado com base em métricas | [Construtor de métrica calculada](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=pt-BR) | Para métrica calculada individual | Aplicar segmentos na definição da métrica |
-| - Segmento com base em VRS | [Construtor do conjunto de relatórios virtual](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) | Para um conjunto de relatórios virtual individual | Aplicar segmentos na definição de VRS |
+| Segmento rápido | [Criador de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Somente projeto, mas pode salvar e adicionar à lista de segmentos. | Pode ser usado para segmentos ad hoc de regra única (com arrastar e soltar) ou para adicionar/editar várias regras (clicando no ícone Segmento) |
+| Segmento calculado com base em métricas | [Construtor de métrica calculada](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=pt-BR) | Para métrica calculada individual | Aplicar segmentos na definição da métrica |
+| Segmento com base em VRS | [Construtor do conjunto de relatórios virtual](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) | Para um conjunto de relatórios virtual individual | Aplicar segmentos na definição de VRS |
 
 ## Vídeos
 
@@ -44,7 +42,6 @@ Intervalos de datas contínuos em segmentos:
 Você pode criar diferentes tipos de segmentos no Analysis Workspace:
 
 * [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [Segmentos ad hoc](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
 * Segmentos regulares de lista de componentes criados no Construtor de segmentos e que acabam na biblioteca de segmentos (veja abaixo)
 
 ### Criar segmentos da lista de componentes {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
