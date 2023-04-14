@@ -4,16 +4,20 @@ description: Como criar anotações no Espaço de trabalho.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
+source-git-commit: 10fb26d425130fddf485b150f26f894b0b967735
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Criar anotações
 
-1. Existem várias maneiras de começar a criar anotações:
+Por padrão, somente administradores podem criar anotações. Os usuários têm o direito de visualizar anotações da mesma forma que fazem com outros componentes do Analytics (como segmentos, métricas calculadas etc.).
+
+No entanto, os administradores podem fornecer a permissão [!UICONTROL Criação de anotações] (Ferramentas do Analytics) para usuários por meio do [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=pt-BR).
+
+1. Para criar anotações, você tem várias maneiras de começar:
 
 | Método de criação | Detalhes |
 | --- | --- |
