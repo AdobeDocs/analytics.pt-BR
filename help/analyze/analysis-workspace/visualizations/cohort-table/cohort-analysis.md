@@ -4,9 +4,9 @@ description: Saiba mais sobre os dados do seu público-alvo e os divida em grupo
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '490'
 ht-degree: 96%
 
 ---
@@ -23,7 +23,6 @@ Exemplos do que você pode fazer com a [!UICONTROL análise de coorte]:
 * Deslocar o orçamento de marketing no momento certo do ciclo de vida do cliente.
 * Reconhecer quando finalizar uma avaliação ou uma oferta para maximizar o valor.
 * Obter ideias para o teste A/B em áreas como o estabelecimento de preços, o caminho de atualização, etc.
-* Exibir um relatório de [!UICONTROL análise de coorte] em um relatório de análise orientada.
 
 A [!UICONTROL Análise de coorte] está disponível a todos os clientes do Adobe Analytics com direitos de acesso ao [!UICONTROL Analysis Workspace].
 
