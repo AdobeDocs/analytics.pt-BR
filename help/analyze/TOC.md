@@ -5,8 +5,8 @@ user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder e o Activity Map.
 source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
-workflow-type: tm+mt
-source-wordcount: '1098'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
