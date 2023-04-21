@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2353'
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ Crie sua história de dados adicionando vários slides de detalhes a um bloco.
 
    Para adicionar novos slides, passe o mouse sobre ou clique em um slide e selecione uma das opções disponíveis:
 
-   * Toque no [!UICONTROL +] para criar um novo slide.
+   * Toque no sinal de [!UICONTROL +] para criar um novo slide.
 
    * Toque no ícone de duplicação para duplicar o slide já existente.
 
@@ -249,7 +249,7 @@ Crie sua história de dados adicionando vários slides de detalhes a um bloco.
 
    ![Criar uma história de dados](assets/data-story2.png)
 
-Para excluir um slide, toque no ícone da lixeira.
+Para excluir um slide, toque no ícone de lixeira.
 
 ### Personalizar uma história de dados {#customize-data-story}
 
@@ -263,7 +263,7 @@ As histórias de dados permitem personalizar tudo. Assim você pode compartilhar
 
    ![Criar uma história de dados](assets/data-story3.png)
 
-   Quando você arrasta e solta um componente, como uma visualização em um bloco, o componente é aplicado a todos os slides da história de dados.
+   Ao arrastar e soltar um componente, como uma visualização em um bloco, o componente é aplicado a todos os slides da história de dados.
 
 1. Para aplicar uma alteração somente ao título, mantenha pressionada a tecla Shift para aplicar a alteração.
 
