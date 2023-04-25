@@ -3,10 +3,10 @@ title: hier
 description: Implementar variáveis de hierarquia no Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 100%
+source-wordcount: '353'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Você pode definir hierarquias ao configurar a extensão do Analytics (variávei
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
+5. Defina as [!UICONTROL Extensão] lista suspensa para o Adobe Analytics e a [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Hierarquia].
 
 Você pode definir um valor de hierarquia como uma string estática ou fazer referência a um elemento de dados. Também é possível definir o delimitador desejado. Verifique se o delimitador definido aqui corresponde ao que foi definido nas configurações do conjunto de relatórios.

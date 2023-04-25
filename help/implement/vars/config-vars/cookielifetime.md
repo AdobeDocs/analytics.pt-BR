@@ -3,10 +3,10 @@ title: cookieLifetime
 description: Substituir a expiração dos cookies criados pelo AppMeasurement.
 feature: Variables
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 84%
+source-wordcount: '263'
+ht-degree: 64%
 
 ---
 
@@ -20,23 +20,23 @@ Os cookies definidos pelo AppMeasurement normalmente expiram em 2 anos. Use a va
 
 ## Duração do cookie usando o SDK da Web
 
-O SDK da Web ainda não oferece personalização ao tempo de vida dos cookies definidos.
+O SDK da Web ainda não oferece personalização para a duração dos cookies que define.
 
 ## Duração do cookie usando a extensão Adobe Analytics
 
-A Vida útil do cookie é uma lista suspensa da opção [!UICONTROL Cookies] ao configurar a extensão Adobe Analytics.
+A Vida útil do cookie é uma lista suspensa na [!UICONTROL Cookies] ao configurar a extensão do Adobe Analytics.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
-1. Expanda a opção [!UICONTROL Cookies], que revela a lista suspensa [!UICONTROL Vida útil do cookie].
+1. Expanda o [!UICONTROL Cookies] , que revela o [!UICONTROL Duração do cookie] lista suspensa.
 
 Essa lista suspensa contém os seguintes valores:
 
 * **Padrão**: o cookie expira após 2 anos.
 * **Nenhum**: o AppMeasurement não define cookies.
 * **Sessão**: o cookie expira ao final da sessão do visitante.
-* **Segundos**: o cookie expira após o número especificado de segundos decorrido. Por exemplo, definir essa lista suspensa como [!UICONTROL Segundos] e colocar `86400` no campo personalizado força os cookies a expirarem após exatamente 24 horas.
+* **Segundos**: o cookie expira após o número especificado de segundos decorrido. Por exemplo, definir essa lista suspensa como [!UICONTROL Seconds] e colocação `86400` no campo personalizado força os cookies a expirarem após exatamente 24 horas.
 
 ## s.cookieLifetime no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

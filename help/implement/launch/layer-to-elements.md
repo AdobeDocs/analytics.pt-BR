@@ -3,10 +3,10 @@ title: Mapear objetos de camada de dados para elementos de dados
 description: Configure as tags para ler a partir da camada de dados.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 94%
 
 ---
 
@@ -29,8 +29,8 @@ Depois que sua organização tiver estabelecido e implementado uma camada de dad
    ![criar elemento de dados](assets/createelement.png)
 
 1. Insira um nome para o elemento de dados. Pode ser um rótulo simples que corresponde a uma variável JavaScript na camada de dados que você deseja rastrear.
-1. Na lista suspensa **[!UICONTROL Extensão]**, selecione **[!UICONTROL Principal]**.
-1. Na lista suspensa **[!UICONTROL Tipo de elemento de dados]**, selecione **[!UICONTROL Variável JavaScript]**. Um campo de texto é exibido à direita, permitindo que você insira a variável JavaScript para mapear para esse elemento de dados.
+1. Em **[!UICONTROL Extensão]** , selecione **[!UICONTROL Núcleo]**.
+1. Em **[!UICONTROL Tipo de elemento de dados]** , selecione **[!UICONTROL Variável JavaScript]**. Um campo de texto é exibido à direita, permitindo que você insira a variável JavaScript para mapear para esse elemento de dados.
 1. Insira a variável Javascript desejada, normalmente na camada de dados. Por exemplo, se a camada de dados da sua organização corresponder muito à prática recomendada pela Adobe, um valor pode ser `digitalData.page.pageInfo.pageName`. Você pode usar o console do navegador para validar a sintaxe e os valores da variável JavaScript.
 1. Clique em **[!UICONTROL Salvar]**.
 

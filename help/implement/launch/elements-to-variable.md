@@ -3,10 +3,10 @@ title: Mapear elementos de dados de tag para variáveis do Analytics
 description: Atribua elementos de dados às variáveis do Analytics para que você possa usá-los como dimensões no Analysis Workspace.
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '443'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ As variáveis definidas em regras são ideais nos casos em que as variáveis nã
 1. Clique na propriedade de tag desejada.
 1. Clique na guia [!UICONTROL Regras] e, em seguida, clique na regra desejada (ou crie uma).
 1. Clique no botão [!UICONTROL Adicionar] em [!UICONTROL Ações].
-1. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como Definir variáveis.
+1. Defina as [!UICONTROL Extensão] lista suspensa para o Adobe Analytics e a [!UICONTROL Tipo de ação] para Definir variáveis.
 1. Clique no ícone ![Elemento de dados](assets/data-element.png) à direita da variável do Analytics desejada. O [documento de design de solução](../prepare/solution-design.md) da sua organização determina qual variável do Analytics usar.
 1. Selecione o elemento de dados desejado na janela modal. Clique em [!UICONTROL Selecionar].
 1. O nome do elemento de dados é adicionado ao campo de texto rodeado por sinais `%`. Por exemplo, se você nomeasse o elemento de dados como &quot;Nome da página&quot;, veria a string `%Page name%` ao atribuir um elemento de dados a uma variável.

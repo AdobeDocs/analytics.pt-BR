@@ -4,9 +4,9 @@ keywords: evento
 title: Visão geral dos eventos bem-sucedidos
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '708'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ Acesse a página Eventos bem-sucedidos nas configurações do conjunto de relat�
 2. Clique no botão 9-grid na parte superior e em [!UICONTROL Analytics].
 3. Navegue até [!UICONTROL Admin] > [!UICONTROL Conjuntos de relatórios]
 4. Selecione o conjunto de relatórios desejado e navegue até [!UICONTROL Editar configurações] > [!UICONTROL Conversão] > [!UICONTROL Eventos bem-sucedidos].
-5. Localize o evento desejado e modifique a lista suspensa [!UICONTROL Gravação de evento único] para [!UICONTROL Gravar uma vez por visita] ou [!UICONTROL Usar ID de evento].
 
 Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vários exemplos incluem:
 

@@ -3,10 +3,10 @@ title: events
 description: Defina a variável events, que governa a maioria das métricas do site.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 97%
+source-wordcount: '813'
+ht-degree: 92%
 
 ---
 
@@ -45,14 +45,14 @@ Você pode definir eventos ao configurar a extensão do Analytics (variáveis gl
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Selecione Adobe Analytics na lista suspensa [!UICONTROL Extensão] e defina [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
+5. Defina as [!UICONTROL Extensão] lista suspensa para o Adobe Analytics e a [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Eventos].
 
 Vários recursos estão disponíveis:
 
-* Uma lista suspensa permite selecionar o evento para incluir.
+* Uma lista suspensa que permite selecionar o evento a ser incluído
 * um campo de texto opcional para serialização. Consulte [Serialização de eventos](event-serialization.md) para obter mais informações.
-* Um campo de texto opcional para um valor de evento. Você pode incluir moeda para eventos de moeda, ou um número inteiro para eventos que não sejam de moeda para incrementá-lo várias vezes. Por exemplo, a seleção de `event1` na lista suspensa e a inclusão de `10` neste campo incrementa `event1` em 10 nos relatórios.
+* Um campo de texto opcional para um valor de evento. Você pode incluir moeda para eventos de moeda, ou um número inteiro para eventos que não sejam de moeda para incrementá-lo várias vezes. Por exemplo, seleção `event1` na lista suspensa e incluindo `10` neste campo incrementos `event1` por 10 no relatório.
 * Um botão para adicionar outro evento. Você pode adicionar quantos eventos desejar a uma única regra dentro do razoável.
 
 ## s.events no AppMeasurement e no editor de código personalizado da extensão do Analytics

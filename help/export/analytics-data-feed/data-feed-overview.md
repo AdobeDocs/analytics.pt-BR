@@ -4,10 +4,10 @@ keywords: sequência de cliques;feed de dados;datafeed;Feed de dados
 title: Visão geral do feed de dados do Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Verifique se você atende a todos os requisitos a seguir antes de utilizar os fe
    * Nome de usuário: digite o nome de usuário para fazer logon no site FTP.
    * Senha e senha de confirmação: digite a senha para fazer logon no site FTP.
 7. Preencha as [!UICONTROL Definições da Coluna de dados].
-   * Selecione o modelo mais recente &quot;Todas as colunas da Adobe&quot; na lista suspensa.
+   * Selecione o modelo mais recente &quot;Todos os Adobe Columns&quot; na lista suspensa.
    * Formato de compactação: Gzip
    * Tipo de empacotamento: vários arquivos
    * Manifesto: nenhum arquivo

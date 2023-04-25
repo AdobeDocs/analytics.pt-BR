@@ -1,9 +1,10 @@
 ---
 title: Introdução às fontes de dados
 description: Faça upload de dados de exemplo em um conjunto de relatórios de desenvolvimento.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -34,8 +35,8 @@ Você pode seguir essas etapas para fazer upload fácil de dados de amostra em u
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
+   #    eVar1    event1
+   Date    Evar 1    Event 1
    ```
 
 1. Insira em várias linhas de dados, separando cada entrada por uma guia. Não use espaços ou vírgulas para separar valores.
@@ -45,10 +46,10 @@ Você pode seguir essas etapas para fazer upload fácil de dados de amostra em u
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
-   09/07/YYYY/11/23/00	Data source example value	3
-   09/07/YYYY/15/59/00	Another data source value	18
+   #    eVar1    event1
+   Date    Evar 1    Event 1
+   09/07/YYYY/11/23/00    Data source example value    3
+   09/07/YYYY/15/59/00    Another data source value    18
    ```
 
 1. Salve o arquivo. Opcionalmente, é possível fornecer um nome de arquivo diferente, se desejar. Depois que o arquivo for salvo, você poderá fechar o editor de texto.

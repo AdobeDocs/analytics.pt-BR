@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '3929'
-ht-degree: 98%
+source-wordcount: '3930'
+ht-degree: 97%
 
 ---
 
@@ -218,7 +218,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 12 de setembro de 2019 | Atualize o documento [Totais de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=pt-BR). |
 | 28 de agosto de 2019 | Novo artigo sobre [Aplicativos da Web progressivos (PWAs) para o Analytics](/help/technotes/pwa.md). |
 | 8 de agosto de 2019 | Novo artigo em [Totais de métricas calculadas](/help/components/c-calcmetrics/cm-totals.md). |
-| 8 de agosto de 2019 | Esclarecimento sobre os [dados de sessão com carimbo de data e hora habilitado](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8 de agosto de 2019 | No Espaço de trabalho, a Adobe aumentou o limite de itens que podem ser colocados em um filtro suspenso de 50 para 200. Esse aprimoramento abrange uma variedade de casos de uso, como adicionar todos os países (195) a um filtro, ou todos os estados e províncias dos EUA (52). |
+| 8 de agosto de 2019 | Esclarecimento sobre os [dados de sessão com carimbo de data e hora habilitado](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8 de agosto de 2019 | No Workspace, o Adobe aumentou o limite de itens que podem ser colocados em um filtro suspenso estático de 50 para 200. Esse aprimoramento abrange uma variedade de casos de uso, como adicionar todos os países (195) a um filtro, ou todos os estados e províncias dos EUA (52). |
 | 2 de agosto de 2019 | Atualização importante do [glossário do Analytics](/help/technotes/terms.md). |
 | 22 de julho de 2019 | Adição do Magento: modelo de marketing e comércio para a documentação dos [modelos da Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18 de julho de 2019 | Atualização das [Configurações da tabela de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |

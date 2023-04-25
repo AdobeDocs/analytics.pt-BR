@@ -3,10 +3,10 @@ title: Perguntas frequentes sobre a migração para o Adobe Analytics
 description: Obtenha respostas para perguntas frequentes ao mudar de uma plataforma de terceiros para a Adobe.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 74%
 
 ---
 
@@ -24,10 +24,10 @@ Para mover dados históricos, recomendamos usar o [Customer Journey Analytics](h
 
 Os filtros suspensos são um recurso flexível e robusto do [!UICONTROL Analysis Workspace] que permite uma lista suspensa de segmentação. Em um projeto do espaço de trabalho:
 
-1. Use ctrl+clique (Windows) ou cmd+clique (Mac) nos componentes que deseja incluir na lista suspensa. Você não está limitado a apenas segmentos; qualquer componente pode ser incluído em um filtro suspenso.
+1. Use ctrl+clique (Windows) ou cmd+clique (Mac) nos componentes que deseja incluir no filtro suspenso. Você não está limitado a apenas segmentos; qualquer componente pode ser incluído em um filtro suspenso.
 2. Arraste o grupo de componentes para o espaço de trabalho chamado &#39;Solte um segmento aqui&#39;. Antes de soltar, pressione a tecla Shift.
 
-Os usuários que acessam este projeto do [!UICONTROL Espaço de trabalho] agora podem usar essa lista suspensa para aplicar segmentos ou outros componentes ao projeto. Consulte [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md) no guia Ferramentas do Adobe Analytics para obter mais informações.
+Usuários que acessam esta [!UICONTROL Workspace] O projeto agora pode usar esse filtro suspenso para aplicar segmentos ou outros componentes ao projeto. Consulte [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md) no guia Ferramentas do Adobe Analytics para obter mais informações.
 
 **Estou acostumado a clicar em um item de dimensão para ver um detalhamento. Como posso replicar esse fluxo de trabalho fácil no Analysis Workspace?**
 

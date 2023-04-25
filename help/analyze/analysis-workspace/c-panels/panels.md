@@ -4,16 +4,16 @@ title: Visão geral dos painéis
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 6057262f95586c7ac63fc98d7c47c9867945f329
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 92%
+source-wordcount: '1437'
+ht-degree: 55%
 
 ---
 
 # Visão geral dos painéis
 
-Um [!UICONTROL painel] é uma coleção de tabelas e visualizações. Você pode acessar os painéis por meio do ícone superior esquerdo no Espaço de trabalho ou um [painel em branco](blank-panel.md). Os painéis são úteis para organizar projetos de acordo com períodos, conjuntos de relatórios ou caso de uso de análise.
+Um [!UICONTROL painel] é uma coleção de tabelas e visualizações. Você pode acessar painéis usando o ícone superior esquerdo no Workspace ou um [painel em branco](blank-panel.md). Os painéis são úteis para organizar projetos de acordo com períodos, conjuntos de relatórios ou caso de uso de análise.
 
 ## Tipos de painel
 
@@ -64,7 +64,7 @@ A área de arrastar e soltar do painel permite aplicar filtros de segmento e de 
 
 Arraste e solte qualquer segmento do painel esquerdo na área suspensa do painel para começar a filtrar o painel.
 
-![](/help/admin/admin/assets/filter.png)
+![Filtro](/help/admin/admin/assets/filter.png)
 
 ### Filtros de segmento ad hoc
 
@@ -74,36 +74,60 @@ Segmentos ad hoc são um tipo de segmento rápido, e são locais para o projeto.
 
 Para obter mais informações, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
-### Filtros suspensos {#dropdown-filter}
+### Filtros suspensos estáticos
 
-Além dos filtros de segmento, os filtros suspensos permitem que você interaja com os dados de forma controlada. Por exemplo, você pode adicionar um filtro suspenso para Tipos de dispositivo móvel para segmentar o painel por Tablet, Celular ou Desktop.
+Filtros suspensos permitem interagir com os dados de forma controlada. Por exemplo, você pode adicionar um filtro suspenso para Tipos de dispositivo móvel para segmentar o painel por Tablet, Celular ou Desktop.
 
 Filtros suspensos também podem ser usados para consolidar vários projetos em um único. Por exemplo, se você tiver muitas versões do mesmo projeto com diferentes segmentos de País aplicados, será possível consolidar todas as versões em um único projeto e adicionar um filtro suspenso de País.
 
 ![](assets/dropdown-filter-intro.png)
 
-Para criar filtros suspensos:
+Para criar um filtro suspenso estático:
 
-1. Para criar um filtro suspenso usando [!UICONTROL itens de Dimension], como valores dentro da dimensão [!UICONTROL Canal de marketing], clique no ícone de seta para a direita ao lado da dimensão no painel esquerdo. Essa ação expõe todos os itens disponíveis. Selecione um ou vários itens do componente no painel esquerdo e solte-os na área suspensa do painel **enquanto mantém pressionada a tecla Shift**. Isso transformará os componentes em um filtro suspenso, em vez de em um segmento único.
-1. Para criar um filtro suspenso usando outro componente, como métricas, segmentos ou intervalos de datas, selecione um tipo de componente no painel esquerdo e solte na área suspensa do painel **enquanto mantém pressionada a tecla Shift**.
-1. Selecione uma das opções na lista suspensa para alterar os dados no painel. Também é possível optar por não filtrar os dados do painel ao selecionar **[!UICONTROL Nenhum filtro]**.
+* Para filtros suspensos usando itens de dimensão, clique no ícone de seta para a direita ao lado da dimensão desejada no painel à esquerda. Essa ação expõe todos os itens de dimensão disponíveis. Selecionar vários itens de dimensão nesta lista usando `[Shift + Click]` ou `[Ctrl + Click]`, em seguida, solte-os na área de soltar do painel **exploração`[Shift]`**.
+* Para filtros suspensos que usam outros componentes, como métricas, segmentos ou intervalos de datas, selecione vários componentes usando `[Shift + Click]` ou `[Ctrl + Click]`. Solte a seleção na área de soltar do painel **exploração`[Shift]`**. Todos os tipos de componentes são tratados como segmentos neste contexto.
+* Um único filtro suspenso só pode conter um único tipo de componente. Se você incluir vários tipos de componentes na seleção, um filtro suspenso separado será criado por tipo de componente. Por exemplo, se você incluir métricas e itens de dimensão em sua seleção, dois filtros suspensos separados serão criados. Um filtro suspenso inclui itens de dimensão e o outro inclui métricas.
+
+Selecione uma das opções na lista suspensa para alterar os dados no painel. Você também pode optar por não filtrar os dados do painel ao selecionar **[!UICONTROL Sem filtro]**.
 
 ![](assets/create-dropdown.png)
 
+Clicar com o botão direito do mouse em um filtro suspenso fornece as seguintes opções:
+
+* **[!UICONTROL Adicionar rótulo]**: Quando você adiciona um filtro suspenso a um projeto, um rótulo é automaticamente definido para o nome do componente. Se você excluir o rótulo, é possível adicioná-lo novamente com essa opção.
+* **[!UICONTROL Excluir rótulo]**: Remova o texto acima de um filtro suspenso.
+* **[!UICONTROL Excluir filtro suspenso]**: Remove o filtro suspenso do painel.
+
 [Assista ao vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=pt-BR) para saber mais sobre como adicionar filtros suspensos ao seu projeto.
+
+### Filtros suspensos dinâmicos
+
+Os filtros suspensos dinâmicos permitem determinar os valores disponíveis com base nos dados do intervalo de relatórios e nos valores do painel em outros filtros suspensos. Por exemplo, você pode criar dois menus suspensos dinâmicos usando o [Países](/help/components/dimensions/countries.md) e [Cidades](/help/components/dimensions/cities.md) dimensão. Ao selecionar um país na variável [!UICONTROL Países] lista suspensa, a variável [!UICONTROL Cidades] a lista suspensa se ajusta dinamicamente para mostrar apenas cidades dentro desse país.
+
+Este mesmo conceito aplica-se a todas as dimensões; somente os itens de dimensão que aparecem no intervalo de datas do painel e os filtros selecionados ficam visíveis. Os itens de Dimension selecionados em filtros suspensos estáticos afetam os valores disponíveis em filtros suspensos dinâmicos. No entanto, o inverso não é verdadeiro; Os itens de Dimension selecionados em filtros suspensos dinâmicos não afetam os valores disponíveis em filtros suspensos estáticos.
+
+A seleção manual de itens de dimensão está disponível se você previr que um determinado item de dimensão seja coletado no futuro. Também é possível limpar um filtro suspenso dinâmico para que ele não contenha um valor, permitindo que outros filtros suspensos dinâmicos contenham mais valores. Selecionar **[!UICONTROL Limpar tudo]** para limpar a seleção de todos os filtros suspensos desse painel.
+
+Para criar um filtro suspenso dinâmico:
+
+* Arraste e solte uma única dimensão na área de soltar do painel **exploração`[Shift]`**.
+* Os filtros suspensos dinâmicos não estão disponíveis para métricas, segmentos ou intervalos de datas.
+* Clique com o botão direito do mouse em um filtro suspenso e selecione **[!UICONTROL Excluir filtro]** para excluí-lo.
+
+Clicar com o botão direito do mouse em um filtro suspenso dinâmico fornece as mesmas opções dos filtros suspensos estáticos.
 
 ## Clique com o botão direito do mouse no menu {#right-click}
 
 A funcionalidade adicional para um painel está disponível clicando com o botão direito do mouse no cabeçalho do painel.
 
-![](assets/right-click-menu.png)
+![Clique com o botão direito do mouse no menu ](assets/right-click-menu.png)
 
 As seguintes configurações estão disponíveis:
 
 | Configuração | Descrição |
 | --- | --- |
-| Inserir visualização/painel copiado | Permite colar (“inserir”) um painel ou visualização copiada em outro lugar no projeto ou em outro projeto completamente diferente. |
-| Copiar painel | Permite clicar com o botão direito do mouse e copiar um painel, para que você possa inseri-lo em outro lugar no projeto ou em um projeto completamente diferente. |
+| Inserir visualização/painel copiado | Permite colar (&quot;inserir&quot;) um painel copiado ou uma visualização em outro local do projeto ou em um projeto diferente. |
+| Copiar painel | Permite clicar com o botão direito do mouse e copiar um painel, de modo que você possa inseri-lo em outro lugar dentro do projeto ou em um projeto diferente. |
 | Aplicar o conjunto de relatórios a todos os painéis | Permite aplicar o conjunto de relatórios do painel principal a todos os painéis do projeto. |
 | Duplicar o painel | Cria uma duplicata exata do painel atual, que você pode modificar. |
 | Recolher/expandir todos os painéis | Recolhe e expande todos os painéis do projeto. |

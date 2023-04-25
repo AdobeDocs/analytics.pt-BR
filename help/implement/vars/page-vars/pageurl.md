@@ -3,10 +3,10 @@ title: pageURL
 description: Substitua o URL da página coletado automaticamente em seu site.
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 84%
+source-wordcount: '313'
+ht-degree: 80%
 
 ---
 
@@ -22,15 +22,15 @@ O AppMeasurement coleta automaticamente o URL da página em cada ocorrência. Se
 
 O URL da página é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webPageDetails.URL`.
 
-## URL da página usando a extensão do Adobe Analytics
+## URL da página usando a extensão Adobe Analytics
 
-A extensão Analytics da Coleção de dados da Adobe Experience Platform preenche automaticamente o URL da página. No entanto, é possível definir a substituição do URL da página ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
+A extensão Analytics na Coleta de dados do Adobe Experience Platform preenche automaticamente o URL da página. No entanto, é possível definir a substituição do URL da página ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia **[!UICONTROL Regras]** e clique na regra desejada (ou crie uma regra).
 4. Em **[!UICONTROL Ações]**, clique em uma ação **[!UICONTROL Adobe Analytics - Definir variáveis]** ou clique no ícone “+”.
-5. Selecione Adobe Analytics na lista suspensa **[!UICONTROL Extensão]** e defina **[!UICONTROL Tipo de ação]** como **[!UICONTROL Definir variáveis]**.
+5. Defina as **[!UICONTROL Extensão]** lista suspensa para o Adobe Analytics e a **[!UICONTROL Tipo de ação]** para **[!UICONTROL Definir variáveis]**.
 6. Localize a seção **[!UICONTROL URL da página]**.
 
 Você pode definir o URL da página como qualquer valor de string.

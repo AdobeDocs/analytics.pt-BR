@@ -3,10 +3,10 @@ title: Detalhes do canal de primeiro contato
 description: Detalhes do primeiro canal de marketing após a expiração do engajamento do visitante.
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 100%
+source-wordcount: '359'
+ht-degree: 90%
 
 ---
 
@@ -22,13 +22,13 @@ Se você quiser definir essa dimensão com um valor específico, siga os seguint
 
 * Verifique se o item de dimensão desejado está em um atributo de ocorrência ou em uma variável personalizada.
 * Defina uma regra de processamento de canal de marketing que contenha os critérios desejados para a ocorrência.
-* Selecione o valor desejado na lista suspensa em [!UICONTROL Definir o valor do canal] na regra de processamento Canal de marketing.
+* Selecione o valor suspenso desejado em [!UICONTROL Definir o valor do canal] na regra de processamento Canal de marketing .
 * A ocorrência do visitante no site deve corresponder aos critérios descritos na regra de processamento Canal de marketing _e_ deve ser o primeiro valor do canal de marketing a fazer isso durante o período de engajamento do visitante.
 
 Se uma ocorrência subsequente corresponder aos critérios em um canal de marketing diferente, essa dimensão não será substituída pelo novo canal de marketing.
 
 ## Itens de dimensão
 
-Os itens de dimensão dependem da lista suspensa de valores do canal. Por exemplo, se você definir o valor do canal como “URL da página”, os itens de dimensão incluirão URLs de página no site. Se você definir o valor do canal como Domínio de referência, os itens de dimensão incluirão domínios nos quais os visitantes clicaram para acessar seu site. Essa dimensão agrega todos os itens de dimensão de detalhes, independentemente do canal em que estão.
+Os itens de Dimension dependem do valor do canal listado na lista suspensa da regra de processamento do canal de marketing aplicável. Por exemplo, se você definir o valor do canal como “URL da página”, os itens de dimensão incluirão URLs de página no site. Se você definir o valor do canal como Domínio de referência, os itens de dimensão incluirão domínios nos quais os visitantes clicaram para acessar seu site. Essa dimensão agrega todos os itens de dimensão de detalhes, independentemente do canal em que estão.
 
 A Adobe recomenda definir valores de canal relacionados ao canal de marketing para obter informações sobre os detalhes do canal.
