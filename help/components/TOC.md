@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
+source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '697'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 95%
    + [Compatibilidade da dimensão](dimensions/compatibility.md)
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
+   + [Nome do bot](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -111,6 +112,8 @@ ht-degree: 95%
    + [Média de exibições de página por visita](metrics/average-page-views-per-visit.md)
    + [Duração média da sessão](metrics/average-session-length.md)
    + [Tempo médio no site](metrics/average-time-on-site.md)
+   + [Ocorrências de bot](metrics/bot-occurrences.md)
+   + [Exibições da página de bot](metrics/bot-page-views.md)
    + [Taxa de rejeição](metrics/bounce-rate.md)
    + [Rejeições](metrics/bounces.md)
    + [Adições ao carrinho](metrics/cart-additions.md)
