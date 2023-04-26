@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '3655'
-ht-degree: 93%
+source-wordcount: '3670'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`browser_width`** | Largura em pixels da janela do navegador. | smallint unsigned |
 | **`c_color`** | Profundidade de bits da paleta de cores. Usado como parte do cálculo da dimensão [Intensidade de cor](/help/components/dimensions/color-depth.md). O AppMeasurement usa a função JavaScript `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variável usada na dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). | varchar(255) |
-| **`carrier`** | Variável de integração da Adobe Advertising Especifica a operadora de celular. Faz referência à tabela de pesquisa `carrier`. | varchar(100) |
+| **`carrier`** | Variável de integração da Adobe Advertising Especifica a operadora de celular. O valor principal de `carrier.tsv` [Pesquisa dinâmica](dynamic-lookups.md). | varchar(100) |
 | **`ch_hdr`** | Dicas do cliente coletadas por meio do cabeçalho de solicitação HTTP. | texto |
 | **`ch_js`** | Dicas do cliente coletadas por meio da API JavaScript de dicas do cliente de usuário-agente. | texto |
 | **`channel`** | Variável usada na dimensão [Seções do site](/help/components/dimensions/site-section.md). | varchar(100) |
@@ -110,7 +110,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`latlon45`** | Localização (abaixo de 1 m) | varchar(255) |
 | **`mc_audiences`** | Lista de IDs de segmento do Audience Manager à qual o visitante pertence. A coluna `post_mc_audiences` altera o delimitador para `--**--`. | texto |
 | **`mcvisid`** | ID de visitante da Experience Cloud. Número de 128 bits que consiste em dois números concatenados de 64 bits arredondados para 19 dígitos. | varchar(255) |
-| **`mobile_id`** | Se o visitante estiver usando um dispositivo móvel, o ID numérico do dispositivo. | int |
+| **`mobile_id`** | Se o visitante estiver usando um dispositivo móvel, o ID numérico do dispositivo. O valor principal de `mobile_attributes.tsv` [Pesquisa dinâmica](dynamic-lookups.md). | int |
 | **`mobileaction`** | Ação em dispositivo móvel. Coletado automaticamente quando `trackAction` é chamado no Mobile Services. Permite a criação de caminhos de ação automática no aplicativo. | varchar(100) |
 | **`mobileappid`** | ID do aplicativo móvel. Armazena o nome e a versão do aplicativo no seguinte formato:  `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Usado no conector de dados Apteligent. O ID do aplicativo usado no Apteligent. | varchar(255) |
@@ -159,7 +159,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`mvvar1_instances`** - `mvvar3_instances` | Os valores da variável de lista que foram definidos na ocorrência atual. Substitui o delimitador original por `--**--`. Não tem um `post` coluna. | texto |
 | **`namespace`** | Não usado. Parte de um recurso raspado. | varchar(50) |
 | **`new_visit`** | Um sinalizador que determina se ocorrência atual é uma nova visita. Definido por servidores da Adobe depois de 30 minutos de inatividade da visita. | tinyint unsigned |
-| **`os`** | ID numérica que representa o sistema operacional do visitante. Com base na coluna `user_agent`. Usa a pesquisa `os`. | int unsigned |
+| **`os`** | ID numérica que representa o sistema operacional do visitante. Com base na coluna `user_agent`. O valor principal de `operating_system.tsv` pesquisa padrão e `operating_system_type.tsv` [Pesquisa dinâmica](dynamic-lookups.md). | int unsigned |
 | **`p_plugins`** | Não está mais em uso. Lista de plug-ins disponíveis para o navegador. Usado na função `navigator.plugins()` do JavaScript. | texto |
 | **`page_event`** | O tipo de ocorrência que é enviado na solicitação da imagem (ocorrência padrão, link de download, link personalizado, link de saída). [Pesquisa de evento da página](datafeeds-page-event.md). | tinyint unsigned |
 | **`page_event_var1`** | Somente usado em solicitações de imagem de rastreamento de link. O URL dos links clicados, seja de download, de saída ou personalizados. | texto |

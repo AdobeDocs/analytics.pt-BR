@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Saiba mais sobre como usar os feeds de dados para exportar dados brutos e o Data Warehouse para recuperar uma saída de dados em planilha. Saiba como usar o FTP e SFTP para transferir arquivos.
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 98%
+source-wordcount: '295'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
       + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referência da coluna de dados](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Pesquisa de evento da página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [Pesquisa de atributos móveis](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [Pesquisas dinâmicas](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [Pesquisa de eVar de merchandising](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caracteres especiais](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Ocorrências com atraso de chegada](analytics-data-feed/c-df-contents/late-arriving-hits.md)
