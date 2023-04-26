@@ -4,10 +4,10 @@ title: Visão geral dos painéis
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 6057262f95586c7ac63fc98d7c47c9867945f329
+source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 55%
+source-wordcount: '1202'
+ht-degree: 66%
 
 ---
 
@@ -100,21 +100,21 @@ Clicar com o botão direito do mouse em um filtro suspenso fornece as seguintes 
 
 [Assista ao vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=pt-BR) para saber mais sobre como adicionar filtros suspensos ao seu projeto.
 
-### Filtros suspensos dinâmicos
+<!--### Dynamic drop-down filters
 
-Os filtros suspensos dinâmicos permitem determinar os valores disponíveis com base nos dados do intervalo de relatórios e nos valores do painel em outros filtros suspensos. Por exemplo, você pode criar dois menus suspensos dinâmicos usando o [Países](/help/components/dimensions/countries.md) e [Cidades](/help/components/dimensions/cities.md) dimensão. Ao selecionar um país na variável [!UICONTROL Países] lista suspensa, a variável [!UICONTROL Cidades] a lista suspensa se ajusta dinamicamente para mostrar apenas cidades dentro desse país.
+Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
 
-Este mesmo conceito aplica-se a todas as dimensões; somente os itens de dimensão que aparecem no intervalo de datas do painel e os filtros selecionados ficam visíveis. Os itens de Dimension selecionados em filtros suspensos estáticos afetam os valores disponíveis em filtros suspensos dinâmicos. No entanto, o inverso não é verdadeiro; Os itens de Dimension selecionados em filtros suspensos dinâmicos não afetam os valores disponíveis em filtros suspensos estáticos.
+This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
 
-A seleção manual de itens de dimensão está disponível se você previr que um determinado item de dimensão seja coletado no futuro. Também é possível limpar um filtro suspenso dinâmico para que ele não contenha um valor, permitindo que outros filtros suspensos dinâmicos contenham mais valores. Selecionar **[!UICONTROL Limpar tudo]** para limpar a seleção de todos os filtros suspensos desse painel.
+Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
 
-Para criar um filtro suspenso dinâmico:
+To create a dynamic drop-down filter:
 
-* Arraste e solte uma única dimensão na área de soltar do painel **exploração`[Shift]`**.
-* Os filtros suspensos dinâmicos não estão disponíveis para métricas, segmentos ou intervalos de datas.
-* Clique com o botão direito do mouse em um filtro suspenso e selecione **[!UICONTROL Excluir filtro]** para excluí-lo.
+* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
+* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
+* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
 
-Clicar com o botão direito do mouse em um filtro suspenso dinâmico fornece as mesmas opções dos filtros suspensos estáticos.
+Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
 
 ## Clique com o botão direito do mouse no menu {#right-click}
 
