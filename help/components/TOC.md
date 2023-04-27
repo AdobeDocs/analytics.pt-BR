@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '692'
 ht-degree: 95%
 
 ---
@@ -208,7 +208,6 @@ ht-degree: 95%
 + Conjuntos de relatórios virtuais {#virtual-report-suites}
    + [Visão geral dos conjuntos de relatórios virtuais](vrs/vrs-about.md)
    + [Curadoria do componente do conjunto de relatórios virtual](vrs/vrs-components.md)
-   + [Suporte a VRS no Mobile Services](vrs/vrs-mobile-services.md)
    + [Sessões sensíveis ao contexto](vrs/vrs-mobile-visit-processing.md)
    + [Processamento de tempo do relatório](vrs/vrs-report-time-processing.md)
    + [Considerações sobre o A4T](vrs/vrs-a4t.md)
