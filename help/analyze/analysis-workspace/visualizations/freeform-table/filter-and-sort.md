@@ -4,10 +4,10 @@ title: Filtrar e classificar tabelas
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
+source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,10 @@ As tabelas de forma livre do Analysis Workspace são a base para a análise inte
 ## Filtrar tabelas
 
 Os filtros do Analysis Workspace ajudam você a encontrar as informações mais importantes.
+
+>[!NOTE]
+>
+> Somente itens de dimensão dinâmicos podem ser filtrados conforme descrito nesta seção. Os itens de dimensão estáticos não podem ser filtrados. Para obter mais informações, consulte [Itens de dimensão dinâmicos vs estáticos em tabelas de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 Para filtrar dados em tabelas de forma livre:
 
