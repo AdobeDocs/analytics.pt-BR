@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
 workflow-type: tm+mt
 source-wordcount: '3972'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -27,8 +27,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Abril de 2023** |  |
 | Transferir ativos do usuário e definir expirações de conta | Foram adicionadas informações sobre como [transferir ativos do usuário e definir expirações de conta](/help/admin/admin/user-management2/users-assets.md). |
-| 2 novos guias de endpoint para a API do Adobe Analytics 2.0 | <ul><li>[API Dimension do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
-| Segmentos do projeto (segmentos ad hoc e rápidos) | Documentação simplificada sobre segmentos de projeto e informações duplicadas removidas. As etapas para criar segmentos ad hoc agora são combinadas com as etapas para [criação de segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| 2 novos guias de ponto de acesso para a API 2.0 do Adobe Analytics | <ul><li>[API de dimensões do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
+| Segmentos do projeto (segmentos rápidos e ad hoc) | A documentação sobre segmentos de projeto foi simplificada e as informações duplicadas foram removidas. As etapas para criar segmentos ad hoc agora estão combinadas com as etapas de [criação de segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Pesquisas dinâmicas | Informações adicionais sobre [Pesquisas dinâmicas](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) é adicionado. Anteriormente, as informações existiam apenas para atributos móveis, que é uma das várias pesquisas dinâmicas. |
 | **Março de 2023** |  |
 | Suporte do SDK da Web para o Activity Map | Os artigos [Implementar o Adobe Analytics](/help/implement/home.md) e [Habilitar o Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) foram atualizados. |
