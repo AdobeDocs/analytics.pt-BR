@@ -3,10 +3,10 @@ description: Exemplos de rótulos de privacidade de dados para variáveis do Ado
 title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
 workflow-type: tm+mt
-source-wordcount: '3558'
-ht-degree: 100%
+source-wordcount: '3578'
+ht-degree: 99%
 
 ---
 
@@ -161,6 +161,12 @@ A rotulagem da privacidade de dados afeta quatro grandes classes de variáveis d
    <td colname="col2"> <p>Todas, exceto classificações </p> </td> 
    <td colname="col3"> <p>Todas </p> </td> 
    <td colname="col4"> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p>Variáveis de tráfego </p> </td> 
+   <td colname="col2"> <p>Props de lista </p> </td> 
+   <td colname="col3"> <p>Nenhum / S1 / S2 </p> </td> 
+   <td colname="col4"> <p>Propriedades de lista podem conter vários valores e não são permitidos como identificadores de privacidade.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Classificações </p> </td> 
