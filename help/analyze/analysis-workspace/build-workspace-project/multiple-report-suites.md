@@ -4,22 +4,22 @@ description: Saiba como e por que criar projetos no Espaço de trabalho com vár
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 90%
 
 ---
 
 # Vários conjuntos de relatórios
 
-Agora você pode criar projetos no Analysis Workspace usando dados de mais de um conjunto de relatórios. Os conjuntos de relatórios agora são escolhidos no nível do painel, então é possível escolher um conjunto de relatórios diferente para cada painel dentro do mesmo projeto do Espaço de trabalho.
+Você pode criar projetos no Analysis Workspace com dados de mais de um conjunto de relatórios. Os conjuntos de relatórios são escolhidos no nível do painel, para que você possa escolher um conjunto de relatórios diferente para cada painel dentro do mesmo projeto do Workspace.
 
 Esse recurso é útil se você desejar, por exemplo,
 
 * Comparar dados de duas regiões diferentes, e os dados estão em dois conjuntos de relatórios diferentes. É possível criar tabelas e visualizações para comparar os dados lado a lado.
 
-* Criar um painel de métricas e visualizações para gerar relatórios para outras organizações. Agora é possível extrair dados de vários conjuntos de relatórios para o mesmo projeto.
+* Criar um painel de métricas e visualizações para gerar relatórios para outras organizações. Você pode extrair dados de vários conjuntos de relatórios para o no mesmo projeto.
 
 Veja um vídeo sobre este assunto:
 
