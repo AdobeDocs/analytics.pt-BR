@@ -4,9 +4,9 @@ description: O Analysis Workspace é a principal ferramenta de análise do Adobe
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f3ba2c1b63b9b7fa0da4c0d3b784036abdd9df1b
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '749'
 ht-degree: 33%
 
 ---
@@ -90,11 +90,11 @@ Uma análise no Analysis Workspace é conhecida como uma [projeto](/help/analyze
 
 Você pode criar um projeto no Analysis Workspace, conforme descrito em [Criar projetos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-### Salvar e compartilhar projetos
+### Salvar e compartilhar um projeto
 
 À medida que você cria uma análise no Analysis Workspace, seu trabalho é [salvo automaticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-Quando você terminar de criar o projeto e ele estiver reunindo insights acionáveis, ele estará pronto para ser consumido por outros. Você pode compartilhar o projeto com usuários e grupos em sua organização ou até mesmo com pessoas fora de sua organização. Para obter informações sobre como compartilhar um projeto, consulte [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Quando você terminar de criar o projeto e ele estiver reunindo insights acionáveis, o projeto estará pronto para ser consumido por outros. Você pode compartilhar o projeto com usuários e grupos em sua organização ou até mesmo com pessoas fora de sua organização. Para obter informações sobre como compartilhar um projeto, consulte [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ### Gerenciamento de projetos no Analysis Workspace
 
