@@ -5,10 +5,10 @@ title: Compartilhar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: fe072eab9c6dd6438ad6f27f0c16860cd87d1e64
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 55%
+source-wordcount: '1797'
+ht-degree: 53%
 
 ---
 
@@ -125,6 +125,8 @@ Você pode conceder [acesso somente leitura](/help/analyze/analysis-workspace/cu
 >* Os usuários com os quais você compartilha podem visualizar qualquer filtro que tenha sido aplicado ao projeto durante [preparação](curate.md).
 > 
 >* Os usuários com os quais você compartilha podem alterar o intervalo de datas do projeto. O intervalo de datas definido para o projeto é exibido por padrão.
+>
+>* Um projeto pode se tornar inacessível se muitos usuários tentarem acessar um determinado link ao mesmo tempo. Por padrão, mais de 190 pessoas podem acessar um único link a cada 5 minutos. Se sua organização atingir esse limite, espere 5 minutos e tente acessar o link novamente.
 
 
 Para compartilhar um projeto do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics:
