@@ -3,9 +3,9 @@ description: Saiba mais sobre as noções básicas para criar um projeto no Anal
 title: Criar projetos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '685'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ As seções a seguir descrevem como criar um projeto e começar a adicionar os b
 
    +++Criar um projeto em branco
 
-   1. Selecione o [!UICONTROL **Projetos**] e selecione [!UICONTROL **Criar projeto**].
+   1. No [!UICONTROL **Workspace**] selecione a guia [!UICONTROL **Projetos**] no lado esquerdo da página, em seguida, selecione [!UICONTROL **Criar projeto**].
 
    1. Escolha se deseja criar um projeto em branco ou um scorecard móvel em branco
 
@@ -38,7 +38,7 @@ As seções a seguir descrevem como criar um projeto e começar a adicionar os b
 
    +++Criar um projeto a partir de um modelo
 
-   1. Selecione o [!UICONTROL **Relatórios**] guia .
+   1. No [!UICONTROL **Workspace**] selecione a guia [!UICONTROL **Relatórios**] no lado esquerdo da página.
 
    1. Procure ou navegue até o modelo que deseja usar e selecione-o quando ele for exibido.
 
