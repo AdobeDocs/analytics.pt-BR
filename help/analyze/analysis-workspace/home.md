@@ -4,10 +4,10 @@ description: O Analysis Workspace é a principal ferramenta de análise do Adobe
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 36%
+source-wordcount: '732'
+ht-degree: 31%
 
 ---
 
@@ -97,28 +97,6 @@ Os projetos podem ser organizados em pastas e subpastas, conforme descrito em [P
 À medida que você cria uma análise no Analysis Workspace, seu trabalho é [salvo automaticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 Quando você terminar de criar o projeto e ele estiver reunindo insights acionáveis, o projeto estará pronto para ser consumido por outros. Você pode compartilhar o projeto com usuários e grupos em sua organização ou até mesmo com pessoas fora de sua organização. Para obter informações sobre como compartilhar um projeto, consulte [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-
-<!--
-
-Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
-
-### Project management in Analysis Workspace
-
-The following video provides an overview of project management in Analysis Workspace:
-
->[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
-
--->
-
-## Use o Virtual Analyst para entender melhor as anomalias
-
-O Virtual Analyst é um conjunto de recursos no Adobe Analytics que usa algoritmos preditivos e aprendizado de máquina para fornecer insights sobre anomalias que afetam sua empresa. Ele permite automatizar os fluxos de trabalho mais comuns e caros da ciência de dados para identificar a causa de comportamentos incomuns em seus dados.
-
-O Virtual Analyst inclui os seguintes recursos:
-
-* [Detecção de anomalias:](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) oferece um método estatístico para determinar como uma determinada métrica foi alterada com relação aos dados anteriores.
-* [Análise de contribuição:](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md) ajuda a determinar os fatores que mais contribuem para anomalias em seus dados.
-* [Alertas inteligentes:](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) identifica anomalias em seus dados de maneira proativa e envia notificações para você, resultando em insights mais rápidos.
 
 ## Recursos adicionais {#resources}
 

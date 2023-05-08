@@ -3,9 +3,9 @@ description: Saiba mais sobre as noções básicas para criar um projeto no Anal
 title: Criar projetos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -101,7 +101,9 @@ Para adicionar um componente:
 
 1. Procure o componente que deseja adicionar. Quando for exibido no painel à esquerda, arraste-o para um painel ou visualização em seu projeto.
 
-### Salvar e compartilhar o projeto
+1. (Opcional) Compartilhe o projeto conforme descrito em [Salvar e compartilhar o projeto](#save-and-share-the-project).
+
+## Salvar e compartilhar o projeto
 
 À medida que você cria uma análise no Analysis Workspace, seu trabalho é [salvo automaticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
