@@ -3,10 +3,10 @@ title: Algoritmos de criptografia HTTPS aceitos
 description: Configurações de segurança de criptografia TLS e tipos de certificado.
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: 299de03c05f6a8af4f6c5d98c76bae54eec4c088
+source-git-commit: 1ca7f750387fd9ae034d10ebf3e47190cf33d4b7
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 30%
+source-wordcount: '282'
+ht-degree: 25%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 30%
 
 ## Níveis de segurança da cifra
 
-A Adobe oferece dois níveis de segurança de criptografia para atender às diversas necessidades de segurança do cliente na coleta de dados primários. Esses níveis determinam quais algoritmos de criptografia são compatíveis com conexões HTTPS com nossos servidores. O Adobe analisa e atualiza regularmente o conjunto de algoritmos suportados com base nas práticas de segurança atuais. Se você quiser alterar as configurações de segurança da criptografia, entre em contato com o Atendimento ao cliente.
+A Adobe oferece dois níveis de segurança de criptografia para atender às diversas necessidades de segurança do cliente na coleta de dados primários. Esses níveis determinam quais algoritmos de criptografia são compatíveis com conexões HTTPS com servidores Adobe. O Adobe analisa e atualiza regularmente o conjunto de algoritmos suportados com base nas práticas de segurança atuais. Se você quiser alterar as configurações de segurança da criptografia, entre em contato com o Atendimento ao cliente.
 
-&#39;Padrão&#39; requer TLS 1.2 ou mais recente e pelo menos criptografia de 128 bits. Ele foi projetado para fornecer a maior compatibilidade de dispositivos, mantendo a criptografia segura.
+&#39;Padrão&#39; requer TLS 1.2 ou mais recente e pelo menos criptografia de 128 bits. Ele foi projetado para fornecer a mais ampla compatibilidade de dispositivos, mantendo a criptografia segura.
 
 O nível de segurança de cifras &quot;alto&quot; requer TLS 1.2 ou mais recente e remove o suporte a cifras mais fracas. Ele foi projetado para clientes que desejam a criptografia mais forte e não estão preocupados com o suporte a dispositivos mais antigos.
 
