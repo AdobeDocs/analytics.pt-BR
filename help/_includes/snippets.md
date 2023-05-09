@@ -1,8 +1,8 @@
 ---
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 94%
 
 ---
 # Trechos
@@ -48,6 +48,16 @@ ht-degree: 100%
 | [!UICONTROL **Criado por**] | Mostra o nome do usuário que criou o componente. |
 | [!UICONTROL **Pré-visualizar**] | Mostra uma pré-visualização de como o componente é exibido no Analysis Workspace. |
 | [!UICONTROL **Data da última modificação**] | Exibe o dia em que o componente foi modificado pela última vez. Esta seção é exibida durante a visualização de segmentos, métricas calculadas e intervalos de datas. |
+
+{style="table-layout:auto"}
+
+## Opções de classificação de componentes {#components-sort-options}
+
+| Opção | Função |
+|---------|----------|
+| [!UICONTROL **Recomendado**] | Classifica componentes com aqueles recomendados na parte superior da lista. Os componentes usados com mais frequência e mais recentemente por você ou por outras pessoas em sua organização são mostrados na lista mais alta. |
+| [!UICONTROL **Ordem alfabética**] | Classifica componentes alfabeticamente. |
+| [!UICONTROL **Categórico**] | Classifica componentes de acordo com o tipo de componente (dimensão, métrica, segmento, intervalo de datas). |
 
 {style="table-layout:auto"}
 
