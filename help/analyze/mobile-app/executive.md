@@ -4,10 +4,10 @@ title: Guia executivo de painéis do Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 98%
+source-wordcount: '1276'
+ht-degree: 92%
 
 ---
 
@@ -58,14 +58,20 @@ Para usar painéis:
 
 1. Escolha uma empresa. Efetuado o logon nos painéis, a tela **[!UICONTROL Escolha uma empresa]** é exibida. Esta tela lista as empresas de logon às quais você pertence. Toque no nome da empresa associado ao Scorecard compartilhado com você.
 
-1. A lista Scorecard mostra todos os Scorecards que foram compartilhados com você. Toque no Scorecard que deseja exibir.
+   A lista de scorecards mostra todos os scorecards compartilhados com você.
 
-   ![Escolha uma empresa](assets/nextseq.png)
+1. Toque no scorecard que deseja visualizar.
+
+   Se você tiver acesso a mais de uma organização em um logon, todos os scorecards das organizações estarão disponíveis na lista de scorecards.
+
+   Você pode classificar a lista de scorecards de acordo com o título do scorecard, o nome da organização ou a visualização mais recente. Você pode até pesquisar por um scorecard específico.
+
+   ![Escolha uma empresa](assets/mobile-home-screen.png)
 
    Se você fizer logon e vir uma mensagem informando que nada foi compartilhado, verifique o seguinte com o curador:
 
    * Você pode fazer logon na instância correta do Analytics
-   * O Scorecard foi compartilhado com você
+   * O scorecard foi compartilhado com você
 
    ![Nada compartilhado](assets/nothing.png)
 
