@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
 workflow-type: tm+mt
-source-wordcount: '4008'
-ht-degree: 97%
+source-wordcount: '4121'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,9 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Maio de 2023** |  |
 | Visão geral do Analysis Workspace | Atualizado [Visão geral do Analysis Workspace](/help/analyze/analysis-workspace/home.md) para incluir informações de visão geral e links para o conteúdo relevante. |
 | Criar projetos | Criou um novo artigo que explica detalhadamente como [Criar projetos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) no Analysis Workspace. |
+| Classificar componentes no painel esquerdo | Foram adicionadas informações sobre a classificação da lista de componentes no painel à esquerda.Consulte a seção &quot;Pesquisar, filtrar e classificar a lista de componentes&quot; em [Visão geral dos componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| Excluir linhas que contenham dimensões dinâmicas de uma tabela de forma livre | Foram adicionadas informações sobre como excluir rapidamente linhas específicas que contêm dimensões dinâmicas usando o ícone x. Consulte a seção &quot;Excluir rapidamente linhas específicas de uma tabela&quot; em [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| Botão para adicionar uma visualização em um painel | Foram adicionadas informações sobre um novo botão na parte inferior de cada painel no Analysis Workspace, que permite adicionar rapidamente uma visualização. Consulte a seção &quot;Adicionar visualizações a um painel&quot; em [Visão geral das visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **Abril de 2023** |  |
 | Transferir ativos do usuário e definir expirações de conta | Foram adicionadas informações sobre como [transferir ativos do usuário e definir expirações de conta](/help/admin/admin/user-management2/users-assets.md). |
 | 2 novos guias de ponto de acesso para a API 2.0 do Adobe Analytics | <ul><li>[API de dimensões do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
