@@ -4,10 +4,10 @@ description: Como interagir com itens de dimensão dinâmicos e estáticos em ta
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 97%
+source-wordcount: '523'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ Ao soltar uma dimensão em uma tabela de forma livre, linhas dinâmicas são ret
 
 Por exemplo, ao arrastar a dimensão Tipo de navegador para a tabela, os principais itens de dimensão Tipo de navegador (por exemplo, Microsoft, Apple, Google etc.) retornam dinamicamente às linhas da tabela. Se forem soltos em uma coluna, os 5 principais itens de dimensão Tipo de navegador retornarão dinamicamente.
 
-Os itens de dimensão dinâmicos têm a opção de filtro de linha e **não** têm ícones de bloqueio e X presentes. Para obter mais informações sobre como aplicar filtros a tabelas, consulte [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Os itens de dimensão dinâmicos têm a opção de filtro de linha e os ícones X, e têm **not** têm o ícone de cadeado presente. <!--do they have the lock icon? --> Ao clicar no x ao lado de um item de dimensão dinâmico, um filtro é aplicado automaticamente. Para obter mais informações sobre como aplicar filtros a tabelas, consulte [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 
