@@ -5,10 +5,10 @@ title: Visão geral dos Projetos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 5b22de34d4c99d68609d39711a970f871c893b74
+source-git-commit: 7b3acbab3f65b02ceaaea154fb6152cfb0bf07f0
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 83%
+source-wordcount: '1531'
+ht-degree: 81%
 
 ---
 
@@ -37,7 +37,7 @@ A página Projetos contém as seguintes informações:
 |---|---|
 | [Editar preferências](/help/analyze/analysis-workspace/user-preferences.md) | Gerencie as configurações do Analysis Workspace e seus componentes relacionados a todos os novos projetos ou painéis criados por você. |
 | [Criar pasta](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Adicione uma nova pasta ou subpasta à lista de projetos e pastas. |
-| [Criar projeto](/help/analyze/analysis-workspace/home.md) | Inicie um novo projeto do zero ou de um [modelo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR#analysis-workspace). |
+| [Criar projeto](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | Inicie um novo projeto do zero ou de um relatório. |
 | Mostrar mais | Revela opções para criar um projeto em branco ou um scorecard móvel, [visualizar tutoriais de treinamento](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=pt-BR)ou [exibição das notas de versão](/help/release-notes/latest.md). |
 | Mostrar pastas e projetos | Escolha se deseja mostrar a estrutura de pastas de projetos. Para obter mais informações, consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Personalizar tabela (ícone) | Permite personalizar as informações exibidas para cada projeto na página Projetos . |
@@ -65,7 +65,7 @@ Em um projeto, o menu fornece opções para gerenciar o projeto, adicionar compo
 
 | Item de menu | Descrição |
 |---|---|
-| Projeto | Inclui ações comuns para o gerenciamento de projetos, incluindo Novo, Abrir, Salvar, Salvar como e [Salvar como modelo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR). Você também pode atualizar o projeto inteiro para recuperar os dados e as definições mais recentes clicando em Atualizar projeto. A opção [Download de CSV e PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR) permite exportar dados do Espaço de trabalho. [Informações e configurações do projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=pt-BR#info-settings) oferecem muitas opções para gerenciar seu projeto. |
+| Projeto  | Inclui ações comuns para o gerenciamento de projetos, incluindo Novo, Abrir, Salvar, Salvar como e [Salvar como relatório da empresa](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). Você também pode atualizar o projeto inteiro para recuperar os dados e as definições mais recentes clicando em Atualizar projeto. A opção [Download de CSV e PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR) permite exportar dados do Espaço de trabalho. [Informações e configurações do projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=pt-BR#info-settings) oferecem muitas opções para gerenciar seu projeto. |
 | Editar | Desfazer ou refazer a última ação. Limpar tudo redefinirá seu projeto para um ponto de partida em branco. |
 | Inserir | Insira novos painéis ou visualizações nesse menu. Você também pode inserir novos painéis e visualizações no painel esquerdo. |
 | [Componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=pt-BR) | Crie novos segmentos, métricas calculadas, intervalo de datas ou componentes de alerta do seu projeto. Você também pode criar novos componentes no painel esquerdo. Se as definições de componente foram alteradas recentemente, Atualizar componentes recuperará as definições mais recentes. |
@@ -132,7 +132,7 @@ As ações a seguir são comuns no Gerenciador de projetos e podem ser executada
 
 | Ação | Descrição |
 |---|---|
-| Adicionar | Crie um novo projeto do zero ou inicie com um [modelo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR). |
+| Adicionar | Crie um novo projeto do zero ou inicie de um [relatório](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | Marcar ou aprovar | Escolha &quot;Tag&quot; ou &quot;Aprovar&quot; para organizar os projetos e facilitar a pesquisa. |
 | [Compartilhar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) | Disponibilize um projeto para outros usuários do Analysis Workspace em sua organização. |
 | Excluir | Exclua o projeto. |
