@@ -3,9 +3,9 @@ description: Saiba mais sobre as noções básicas para criar um projeto no Anal
 title: Criar projetos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
+source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '689'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ Para obter informações gerais sobre como começar a usar o Analysis Workspace,
 
 As seções a seguir descrevem como criar um projeto e começar a adicionar os blocos de construção principais de qualquer projeto do Analysis Workspace: painéis, visualizações e componentes.
 
-## Criar um projeto a partir de um projeto em branco ou de um modelo
+## Criar um projeto a partir de um projeto em branco ou de um relatório
 
 1. No Adobe Analytics, selecione [!UICONTROL **Workspace**].
 
-1. Escolha se deseja criar um projeto em branco ou criar um projeto a partir de um modelo:
+1. Escolha se deseja criar um projeto em branco ou criar um projeto a partir de um relatório:
 
    +++Criar um projeto em branco
 
@@ -36,15 +36,15 @@ As seções a seguir descrevem como criar um projeto e começar a adicionar os b
 
 +++
 
-   +++Criar um projeto a partir de um modelo
+   +++Criar um projeto a partir de um relatório
 
    1. No [!UICONTROL **Workspace**] selecione a guia [!UICONTROL **Relatórios**] no lado esquerdo da página.
 
-   1. Procure ou navegue até o modelo que deseja usar e selecione-o quando ele for exibido.
+   1. Procure ou navegue até o relatório que deseja usar e selecione-o quando ele for exibido.
 
-      Um conjunto de templates padrão está disponível por padrão. Além disso, sua organização pode ter criado modelos personalizados para você escolher.
+      Um conjunto de relatórios padrão está disponível por padrão. Além disso, sua organização pode ter criado relatórios personalizados para você escolher.
 
-      Para obter mais informações, consulte [Introdução ao Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md).
+      Para obter mais informações, consulte &quot;Navegar na guia Relatórios&quot; em [Página de aterrissagem do Adobe Analytics](/help/analyze/landing.md).
 +++
 
 1. Em seguida, é necessário adicionar painéis, visualizações e componentes ao seu projeto. Primeiro, adicione painéis ao seu projeto no Analysis Workspace, conforme descrito em [Adicionar painéis ao projeto](#add-panels-to-the-project). Em seguida, é possível adicionar visualizações a qualquer painel. Por fim, você pode adicionar componentes a qualquer painel ou visualização.
