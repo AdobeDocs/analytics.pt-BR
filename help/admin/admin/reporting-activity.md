@@ -4,18 +4,16 @@ title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 646eb5aeefb17ded89a7041df6f6ad927b799f3f
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 95%
 
 ---
 
 # Gerenciador de Atividades de relatórios
 
->[!NOTE]
->
->Esta funcionalidade está atualmente em teste beta.
+{{release-limited-testing}}
 
 O [!UICONTROL Gerente de atividades de relatórios] permite ver a capacidade de gerar relatórios para cada conjunto de relatórios na sua organização. Ele oferece a você, como Administrador, visibilidade detalhada do consumo de relatórios e ajuda a diagnosticar e corrigir problemas de capacidade facilmente durante os horários de pico de relatórios.
 
@@ -64,13 +62,13 @@ Clique no link de título de um conjunto de relatórios para o qual deseja exibi
 
 ![conjunto de relatórios](/help/admin/admin/assets/indiv-report-ste.png)
 
-### Gráfico de linhas
+### Gráfico de linhas {#line}
 
 O gráfico de linhas mostra a atividade de relatório do conjunto de relatórios selecionado nas últimas 2 horas.
 
 * O eixo x mostra os dados de capacidade dos relatórios nas últimas 2 horas.
-* O eixo y mostra o tempo médio de espera de uma consulta, em segundos.
-* Você pode passar o mouse sobre o gráfico de linhas para visualizar os pontos no tempo e o tempo médio de espera nesse instante.
+* O eixo y mostra a capacidade de uso de relatórios % para o conjunto de relatórios selecionado, por minuto.
+* Você pode passar o mouse sobre o gráfico de linha para visualizar pontos no tempo em que a capacidade de uso % representada será a % mais alta para esse minuto.
 
    ![detalhe](/help/admin/admin/assets/detail.png)
 
@@ -80,7 +78,7 @@ Você pode filtrar a tabela por Aplicativo (consulte a lista na tabela abaixo), 
 
 ![filtro](/help/admin/admin/assets/filter.png)
 
-### Números de resumo
+### Números de resumo {#summary}
 
 ![filtro](/help/admin/admin/assets/summary_numbers.png)
 
@@ -96,7 +94,7 @@ Os Números do resumo mostram as seguintes informações:
 
 {style="table-layout:auto"}
 
-### Tabela
+### Tabela dos detalhes do conjunto de relatórios {#details}
 
 A tabela detalhada abaixo mostra detalhes sobre o conjunto de relatórios.
 
@@ -116,7 +114,7 @@ A tabela detalhada abaixo mostra detalhes sobre o conjunto de relatórios.
 
 {style="table-layout:auto"}
 
-## Cancelar solicitações de relatórios
+## Cancelar solicitações de relatórios {#cancel}
 
 Para cancelar uma solicitação
 
@@ -133,7 +131,7 @@ Os usuários do aplicativo no Espaço de trabalho, por exemplo, verão o seguint
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
-## Perguntas frequentes
+## Perguntas frequentes {#faq}
 
 | Pergunta | Resposta |
 | --- | --- |
