@@ -4,10 +4,10 @@ title: Filtrar e classificar tabelas
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 77%
+source-wordcount: '825'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Você pode excluir linhas específicas rapidamente da tabela sem precisar abrir 
 
 >[!NOTE]
 >
->Ao excluir linhas conforme descrito nesta seção, uma [!UICONTROL **Não é igual**] é aplicada automaticamente na variável [**[!UICONTROL Filtragem avançada]**](#apply-a-simple-or-advanced-filter) caixa de diálogo.
+>Ao excluir linhas conforme descrito nesta seção, uma [!UICONTROL **Sempre excluir itens**] é aplicada automaticamente na caixa de diálogo de filtro avançado. (Você pode visualizar a regra aplicada selecionando o ícone Filtro e [**[!UICONTROL Mostrar avançado]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Para excluir rapidamente linhas específicas de uma tabela de forma livre:
 
@@ -54,7 +54,7 @@ Para filtrar dados em tabelas de forma livre:
    | [!UICONTROL **Pesquisar palavra ou frase**] | Especifique uma palavra ou frase para a qual deseja filtrar. Somente as linhas que contêm a palavra ou a frase exata especificada são mostradas. |
    | [!UICONTROL **Incluir não especificado (nenhum)**] | Selecione essa opção para mostrar dados na tabela que não se enquadram em nenhuma das dimensões da tabela. <!--what is this?--> |
 
-1. (Opcional) Para filtrar por critérios diferentes ou por vários critérios, selecione [!UICONTROL **Filtragem avançada**].
+1. (Opcional) Para filtrar por critérios diferentes ou por vários critérios, selecione [!UICONTROL **Mostrar avançado**].
 
    As seguintes opções avançadas de filtro estão disponíveis:
 
