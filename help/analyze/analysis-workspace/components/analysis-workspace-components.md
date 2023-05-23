@@ -4,7 +4,7 @@ title: Visão geral dos componentes
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 6247f44aca1e6aba6cf02ed34a0e26ef5e182021
+source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 71%
@@ -53,7 +53,7 @@ Os exemplos de segmentos incluem [!UICONTROL Visitantes de dispositivo móvel], 
 
 [**Intervalos de datas**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=pt-BR) são o intervalo de datas em que você faz a análise. Eles podem ser encontrados no painel Componente à esquerda (seção roxa) e normalmente são aplicados no calendário de cada painel.
 
-Você pode tornar os componentes do intervalo de datas relativos ao calendário do painel. Para obter mais informações, consulte [Sobre intervalos de datas relativos do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+Você pode tornar os componentes do intervalo de datas relativos ao calendário do painel. Para obter informações adicionais, consulte [Sobre intervalos de datas relativos do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
 Exemplos de intervalos de datas incluem julho de 2019, [!UICONTROL Últimas 4 semanas] e [!UICONTROL Este mês]. Os intervalos de datas são fornecidos pela Adobe, são aplicados no [calendário do painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR) ou são criados usando o [Criador de intervalo de datas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=pt-BR).
 
@@ -64,11 +64,11 @@ Exemplos de intervalos de datas incluem julho de 2019, [!UICONTROL Últimas 4 se
 
 Você pode gerenciar componentes diretamente no painel esquerdo.
 
-1. Clique com o botão direito do mouse em um componente.
+1. Clique com o botão direito em um componente.
 
    Ou
 
-   Selecione um componente e depois selecione o **Ação** Ícone (3 pontos) na parte superior da lista de componentes.
+   Selecione um componente e selecione a **Ação** Ícone (3 pontos) na parte superior da lista de componentes.
 
    >[!TIP]
    >
@@ -89,27 +89,29 @@ Os componentes personalizados também podem ser gerenciados por meio de seus res
 
 ## Pesquisar, filtrar e classificar a lista de componentes
 
-Você pode pesquisar, filtrar e classificar a lista de componentes no painel esquerdo do Analysis Workspace para localizar rapidamente um componente específico.
+Pesquise, filtre e classifique a lista de componentes no painel esquerdo do Analysis Workspace para localizar rapidamente um componente específico.
 
 ### Pesquisar a lista de componentes
 
 1. Selecione o **Componentes** ícone ![Ícone Componentes](assets/components-icon.png) no painel esquerdo.
 
-1. No campo de pesquisa , comece a digitar o nome do componente que deseja usar no projeto.
+1. No campo de pesquisa, comece digitando o nome do componente que deseja usar em seu projeto.
 
-   O tipo de componente pode ser identificado por cor e ícone. **Dimension** ![Ícone Dimension](assets/dimension-icon.png) são laranja, **Segmentos** ![Ícone Segmento](assets/segment-icon.png) são azuis, **Intervalos de datas** ![Ícone de intervalo de datas](assets/date-range-icon.png) são roxas e **Métricas** ![Ícone Métrica](assets/default-metric-icon.png) são verdes. O ícone Adobe ![Ícone Adobe](assets/default-calc-metric-icon.png) indica um modelo de métrica calculada ou um modelo de segmento, e o ícone da calculadora ![Ícone Calculadora](assets/calculated-metric-icon-created.png) indica uma métrica calculada criada por um administrador do Analytics em sua organização.
+   O tipo de componente pode ser identificado por cor e ícone. **Dimension** ![Ícone do Dimension](assets/dimension-icon.png) são laranja, **Segmentos** ![Ícone de Segmento](assets/segment-icon.png) são azuis, **Intervalos de datas** ![Ícone de intervalo de datas](assets/date-range-icon.png) são roxas, e **Métricas** ![Ícone de Métrica](assets/default-metric-icon.png) são verdes. O ícone Adobe ![Ícone do Adobe](assets/default-calc-metric-icon.png) indica um modelo de métrica calculada ou um modelo de segmento, e o ícone calculadora ![Ícone da Calculadora](assets/calculated-metric-icon-created.png) indicou uma métrica calculada que foi criada por um administrador do Analytics em sua organização.
 
-1. Selecione o componente quando ele for exibido na lista suspensa.
+1. Selecione o componente quando ele aparecer na lista suspensa.
 
 ### Filtrar a lista de componentes
 
+{{release-limited-testing-section}}
+
 1. Selecione o **Componentes** ícone ![Ícone Componentes](assets/components-icon.png) no painel esquerdo.
 
-1. Selecione o **Filtro** ícone ![Ícone do Filtro do dicionário de dados](assets/components-filter-icon.png).
+1. Selecione o **Filtro** ícone ![Ícone Filtro do dicionário de dados](assets/components-filter-icon.png).
 
    Ou
 
-   Digite o sinal de número (#) no campo de pesquisa.
+   Digite o sinal de libra (#) no campo de pesquisa.
 
 1. Selecione qualquer uma das seguintes opções de filtro para filtrar a lista de componentes:
 
@@ -124,14 +126,14 @@ Você pode pesquisar, filtrar e classificar a lista de componentes no painel esq
    | [!UICONTROL **Exibir tudo**] | Mostrar todos os componentes. Essa opção está disponível somente para administradores. |
    | [!UICONTROL **Não aprovado**] | Mostrar somente componentes que ainda não foram marcados como Aprovado por um administrador. Como administrador, isso é útil ao identificar componentes que exigem sua análise e aprovação. Essa opção está disponível somente para administradores. |
 
-1. (Opcional) Para aprimorar a lista, é possível classificar a lista de componentes, conforme descrito em [Classificar a lista de componentes](#sort-the-component-list).
+1. (Opcional) Para aprimorar ainda mais a lista, você pode classificar a lista de componentes, conforme descrito em [Classificar a lista de componentes](#sort-the-component-list).
 
 ### Classificar a lista de componentes
 
-1. (Opcional) Aplique quaisquer filtros à lista de componentes, conforme descrito em [Filtrar a lista de componentes](#filter-the-component-list).
+1. (Opcional) Aplique filtros à lista de componentes, conforme descrito em [Filtrar a lista de componentes](#filter-the-component-list).
 
 1. Selecione o **Componentes** ícone ![Ícone Componentes](assets/components-icon.png) no painel esquerdo.
 
-1. Selecione o **Classificar** ícone ![Ícone Classificar componentes](assets/component-sort-icon.png)e selecione qualquer uma das seguintes opções de filtro para classificar a lista de componentes:
+1. Selecione o **Ordenar** ícone ![Ícone Classificar componentes](assets/component-sort-icon.png), em seguida, selecione qualquer uma das seguintes opções de filtro para classificar a lista de componentes:
 
    {{components-sort-options}}
