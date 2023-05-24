@@ -4,10 +4,10 @@ title: Gerenciar segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
@@ -86,18 +86,18 @@ Os filtros disponíveis incluem:
 
 Adicionar um controle de segmento permite você alternar segmentos de uma pasta de trabalho em vez de precisar ir até o Assistente de solicitação.
 
-1. Clique no ícone de Controle (![](assets/control_icon.png)) ao lado do menu suspenso do segmento.
+1. Clique no ícone Controle ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) ao lado do menu suspenso de segmentos.
 
    ![](assets/seg_control.png)
 
-1. Verifique todos os segmentos os quais você deseja que apareçam no controle de segmentos, ou marque **[!UICONTROL Selecionar tudo]**.
-1. Observe a opção **[!UICONTROL Atualizar automaticamente solicitações vinculadas na seleção de item]**.
+2. Verifique todos os segmentos os quais você deseja que apareçam no controle de segmentos, ou marque **[!UICONTROL Selecionar tudo]**.
+3. Observe a opção **[!UICONTROL Atualizar automaticamente solicitações vinculadas na seleção de item]**.
 
    * Se marcadas, todas as solicitações que usam esse controle são atualizadas.
    * Se não for marcada, os parâmetros de solicitação associados são atualizados, mas as solicitações não são atualizadas.
 
-1. Especifique a localização de célula esquerda superior do controle de segmento.
-1. Clique em **[!UICONTROL OK]** e o controle de segmento aparece na localidade especificada.
+4. Especifique a localização de célula esquerda superior do controle de segmento.
+5. Clique em **[!UICONTROL OK]** e o controle de segmento aparece na localidade especificada.
 
    ![](assets/seg_control2.png)
 

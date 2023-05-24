@@ -1,7 +1,7 @@
 ---
-source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1040'
 ht-degree: 94%
 
 ---
@@ -11,11 +11,11 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Leia mais sobre o [Anúncio do fim da vida útil](https://www.adobe.com/go/analytics_rnaeol_pt) do Reports &amp; Analytics.
+>Leia mais sobre o [Anúncio do fim da vida útil](https://www.adobe.com/go/analytics_rnaeol_en) do Reports &amp; Analytics.
 
 ## Critérios de filtro do dicionário de dados {#dd-filter-criteria}
 
-1. (Opcional) Selecione o ícone de **Filtro** ![Ícone de filtro do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png) e, em seguida, selecione qualquer uma das seguintes opções para filtrar a lista de componentes:
+1. (Opcional) Selecione o ícone de **Filtro** ![Ícone de filtro do dicionário de dados](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) e, em seguida, selecione qualquer uma das seguintes opções para filtrar a lista de componentes:
 
    | Opção | Função |
    |---------|----------|
@@ -55,8 +55,8 @@ ht-degree: 94%
 
 | Opção | Função |
 |---------|----------|
-| [!UICONTROL **Recomendado**] | Classifica componentes com aqueles recomendados na parte superior da lista. Os componentes usados com mais frequência e mais recentemente por você ou por outras pessoas em sua organização são mostrados na lista mais alta. |
-| [!UICONTROL **Ordem alfabética**] | Classifica componentes alfabeticamente. |
+| [!UICONTROL **Recomendado**] | Classifica componentes com aqueles recomendados no topo da lista. Os componentes usados com mais frequência e mais recentemente por você ou outras pessoas em sua organização são mostrados em uma posição superior na lista. |
+| [!UICONTROL **Ordem alfabética**] | Classifica os componentes em ordem alfabética. |
 | [!UICONTROL **Categórico**] | Classifica componentes de acordo com o tipo de componente (dimensão, métrica, segmento, intervalo de datas). |
 
 {style="table-layout:auto"}

@@ -3,10 +3,10 @@ description: Filtrar por tags, proprietários e outros filtros (Mostrar tudo, Me
 title: Filtrar segmentos
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -16,11 +16,11 @@ Filtrar por tags, proprietários e outros filtros (Mostrar tudo, Meu, Compartilh
 
 A filtragem facilita a pesquisa por segmentos no trilho de segmentos.
 
-1. No Gerenciador de segmentos, clique no ícone **[!UICONTROL Filtros]**: ![](assets/filter_icon.png)
+1. No Gerenciador de segmentos, clique no ícone **[!UICONTROL Filtros]**: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. Os seguintes filtros estão disponíveis:
+2. Os seguintes filtros estão disponíveis:
 
    | Nome do filtro | Descrição |
    |---|---|

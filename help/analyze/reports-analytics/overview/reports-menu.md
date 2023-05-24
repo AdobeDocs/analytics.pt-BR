@@ -5,7 +5,7 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -61,19 +61,19 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Menu Soluções da Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Menu Soluções da Experience Cloud <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> Clicar nesse ícone expande o menu da Experience Cloud e permite que você acesse outras soluções da Marketing Cloud. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Alternar o menu Relatórios <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col1">Alternar o menu Relatórios <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
    <td colname="col2"> Clicar neste botão expande ou comprime o menu Relatórios para que seja possível exibir um relatório usando a largura total da janela do navegador. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
    <td colname="col2">Exibe o painel de segmentos, que permite adicionar ou gerenciar os segmentos. Nesse painel, também é possível acessar as interfaces do <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >Construtor de segmentos</a> e do <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=pt-BR"  >Gerenciador de segmentos</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Métricas <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
    <td colname="col2"> Exibe o painel de métricas, que permite adicionar ou gerenciar métricas e métricas calculadas. </td> 
   </tr> 
   <tr> 

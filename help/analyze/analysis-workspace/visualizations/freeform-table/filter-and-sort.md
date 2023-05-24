@@ -4,10 +4,10 @@ title: Filtrar e classificar tabelas
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 78%
+source-wordcount: '841'
+ht-degree: 76%
 
 ---
 
@@ -21,27 +21,27 @@ Os filtros do Analysis Workspace ajudam você a encontrar as informações mais 
 
 >[!NOTE]
 >
-> Somente itens de dimensão dinâmicos podem ser filtrados conforme descrito nesta seção. Os itens de dimensão estáticos não podem ser filtrados. Para obter mais informações, consulte [Itens de dimensão dinâmicos vs estáticos em tabelas de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+> Somente itens de dimensão dinâmicos podem ser filtrados conforme descrito nesta seção. Itens de dimensão estáticos não podem ser filtrados. Para obter mais informações, consulte [Itens de dimensão dinâmicos vs estáticos em tabelas de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 ### Excluir rapidamente linhas específicas de uma tabela
 
-Você pode excluir linhas específicas rapidamente da tabela sem precisar abrir a caixa de diálogo Filtro .
+Você pode excluir rapidamente linhas específicas da tabela sem precisar abrir a caixa de diálogo Filtro.
 
 >[!NOTE]
 >
->Ao excluir linhas conforme descrito nesta seção, uma [!UICONTROL **Sempre excluir itens**] é aplicada automaticamente na caixa de diálogo de filtro avançado. (Você pode visualizar a regra aplicada selecionando o ícone Filtro e [**[!UICONTROL Mostrar avançado]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+>Quando você exclui linhas conforme descrito nesta seção, uma [!UICONTROL **Sempre excluir itens**] A regra é aplicada automaticamente na caixa de diálogo de filtro avançado. (É possível exibir a regra aplicada selecionando o ícone Filtrar e, em seguida, [**[!UICONTROL Mostrar avançado]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Para excluir rapidamente linhas específicas de uma tabela de forma livre:
 
-1. Passe o mouse sobre a linha que deseja excluir, em seguida, selecione o ícone x.
+1. Passe o mouse sobre a linha que deseja excluir e selecione o ícone x.
 
-   Mantenha pressionada a tecla Shift para selecionar uma linha de intervalo ou mantenha pressionada a tecla Command (no Mac) ou a tecla Ctrl (no Windows) para selecionar várias linhas.
+   Mantenha pressionada a tecla Shift para selecionar um intervalo de linhas, ou mantenha pressionada a tecla Command (no Mac) ou a tecla Ctrl (no Windows) para selecionar várias linhas.
 
 ### Aplicar um filtro simples ou avançado a uma tabela
 
 Para filtrar dados em tabelas de forma livre:
 
-1. Passe o mouse sobre a coluna que contém os dados que deseja filtrar. <!--only some types of columns show the filter... Which? Just Dimensions?-->
+1. Passe o mouse sobre a coluna que contém os dados que você deseja filtrar. <!--only some types of columns show the filter... Which? Just Dimensions?-->
 
 1. Selecione o ícone **Filtro** quando for exibido.
 
@@ -51,12 +51,12 @@ Para filtrar dados em tabelas de forma livre:
 
    | Opção | Função |
    |---------|----------|
-   | [!UICONTROL **Pesquisar palavra ou frase**] | Especifique uma palavra ou frase para a qual deseja filtrar. Somente as linhas que contêm a palavra ou a frase exata especificada são mostradas. |
+   | [!UICONTROL **Pesquisar palavra ou frase**] | Especifique uma palavra ou frase pela qual deseja filtrar. Somente as linhas que contêm a palavra ou a frase exata especificada são mostradas. |
    | [!UICONTROL **Incluir não especificado (nenhum)**] | Selecione essa opção para mostrar dados na tabela que não se enquadram em nenhuma das dimensões da tabela. <!--what is this?--> |
 
 1. (Opcional) Para filtrar por critérios diferentes ou por vários critérios, selecione [!UICONTROL **Mostrar avançado**].
 
-   As seguintes opções avançadas de filtro estão disponíveis:
+   As seguintes opções de filtro avançado estão disponíveis:
 
    | Opção | Função |
    |---------|----------|
@@ -67,19 +67,19 @@ Para filtrar dados em tabelas de forma livre:
 
 1. Selecione [!UICONTROL **Aplicar**] para filtrar os dados.
 
-   O ícone de **Filtro** ![Ícone de filtro azul da tabela filtrada](assets/table-filter-blue-icon.png) fica azul quando um filtro é aplicado à tabela.
+   O ícone de **Filtro** ![Ícone de filtro azul da tabela filtrada](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) fica azul quando um filtro é aplicado à tabela.
 
 ## Classificar tabelas
 
 Você pode classificar os dados de uma tabela de forma livre por qualquer coluna no Analysis Workspace que seja uma métrica.
 
-Um ícone de seta para baixo ![Ícone de seta para baixo na tabela classificada por coluna](assets/table-sort-arrow-icon.png) é visível no cabeçalho da coluna pela qual os dados estão sendo classificados no momento.
+Um ícone de seta para baixo ![Ícone de seta para baixo na tabela classificada por coluna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) é visível no cabeçalho da coluna pela qual os dados estão sendo classificados no momento.
 
 Para classificar os dados em uma tabela de forma livre por uma coluna específica:
 
 1. Passe o mouse sobre o título da coluna pela qual deseja classificar os dados.
 
-1. Selecione o ícone de seta para baixo quando ele for exibido.
+2. Selecione o ícone de seta para baixo quando ele for exibido.
 
    ![Ícone de seta para baixo na tabela classificada por coluna](assets/table-sort.png)
 

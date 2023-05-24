@@ -3,10 +3,10 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 87%
+source-wordcount: '1189'
+ht-degree: 86%
 
 ---
 
@@ -86,9 +86,9 @@ Este vídeo fornece uma breve visão geral do que são os contêineres de segmen
 
 Para acessar o Construtor de segmentos, basta:
 
-* Exibir um relatório existente e clicar no ![ícone de Segmentos](assets/segment_icon.png) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]** ou
+* Exibir um relatório existente e clicar no ![ícone de Segmentos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) na navegação à esquerda. No painel de segmentos exibido, clique em **[!UICONTROL Adicionar]** ou
 
-* Clique em **[!UICONTROL Adicionar]** mais, na parte superior do Gerenciador de segmentos.  ![Botão Adicionar](assets/add_button.png)
+* Clique em **[!UICONTROL Adicionar]** mais, na parte superior do Gerenciador de segmentos.  ![Botão Adicionar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
    ou
 

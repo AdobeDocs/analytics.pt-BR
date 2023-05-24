@@ -5,10 +5,10 @@ uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 feature: Report Builder
 role: User, Admin
 exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 No painel Opções, é possível especificar as configurações de datas, as configurações de latência (Dados atuais), as informações de log, e configurar as atualizações.
 
-1. Na barra de ferramentas de Suplementos, clique em **[!UICONTROL Opções]** ![](assets/options_icon.png)
+1. Na barra de ferramentas de Suplementos, clique em **[!UICONTROL Opções]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg):
 
 | Elemento | Descrição |
 |--- |--- |

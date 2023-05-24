@@ -4,7 +4,7 @@ keywords: Métricas calculadas, Métricas derivadas, Métricas calculadas avanç
 title: Métricas calculadas e calculadas avançadas (derivadas)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -103,7 +103,7 @@ Esta é uma pequena visão geral das ferramentas de [!UICONTROL Métricas calcul
   </tr> 
   <tr> 
    <td colname="col1"> Painel Seletor de métricas </td> 
-   <td colname="col2"> <p>Substitui o menu pop-up <span class="uicontrol">Mostrar métricas</span> no<span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Permite pesquisar e adicionar/aplicar métricas ao relatório. Também é possível alterar a ordem de <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > classificação</a> (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, é possível filtrar os Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico. </p> <p>Para acessar o Seletor de métricas, clique no ícone Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> à esquerda de um relatório. O Seletor de métricas tem a seguinte aparência: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Substitui o menu pop-up <span class="uicontrol">Mostrar métricas</span> no<span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Permite pesquisar e adicionar/aplicar métricas ao relatório. Também é possível alterar a ordem de <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > classificação</a> (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, é possível filtrar os Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico. </p> <p>Para acessar o Seletor de métricas, clique no ícone Métricas <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> à esquerda de um relatório. O Seletor de métricas tem a seguinte aparência: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API para métricas calculadas</a> </td> 

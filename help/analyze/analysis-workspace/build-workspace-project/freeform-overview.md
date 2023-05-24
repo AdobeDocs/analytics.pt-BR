@@ -5,10 +5,10 @@ title: Visão geral dos Projetos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 7b3acbab3f65b02ceaaea154fb6152cfb0bf07f0
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 81%
+source-wordcount: '1539'
+ht-degree: 80%
 
 ---
 
@@ -30,28 +30,28 @@ A página Projetos contém as seguintes informações:
 
 >[!NOTE]
 >
->Algumas colunas não são exibidas por padrão. Para personalizar as colunas exibidas, clique no botão **Personalizar tabela** ícone ![Personalizar tabela](assets/projects-page-customize-columns-icon.png).
+>Algumas colunas não são exibidas por padrão. Para personalizar as colunas exibidas, clique no link **Personalizar tabela** ícone ![Personalizar tabela](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg).
 
 
 | Elemento | Descrição |
 |---|---|
-| [Editar preferências](/help/analyze/analysis-workspace/user-preferences.md) | Gerencie as configurações do Analysis Workspace e seus componentes relacionados a todos os novos projetos ou painéis criados por você. |
+| [Editar preferências](/help/analyze/analysis-workspace/user-preferences.md) | Gerencie configurações para o Analysis Workspace e seus componentes relacionados para todos os novos projetos ou painéis que você criar. |
 | [Criar pasta](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Adicione uma nova pasta ou subpasta à lista de projetos e pastas. |
 | [Criar projeto](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | Inicie um novo projeto do zero ou de um relatório. |
-| Mostrar mais | Revela opções para criar um projeto em branco ou um scorecard móvel, [visualizar tutoriais de treinamento](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=pt-BR)ou [exibição das notas de versão](/help/release-notes/latest.md). |
-| Mostrar pastas e projetos | Escolha se deseja mostrar a estrutura de pastas de projetos. Para obter mais informações, consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| Personalizar tabela (ícone) | Permite personalizar as informações exibidas para cada projeto na página Projetos . |
+| Mostrar mais | Revela opções para criar um projeto em branco ou cartão de pontuação móvel, [exibição de tutoriais de treinamento](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=pt-BR)ou [exibição das notas de versão](/help/release-notes/latest.md). |
+| Mostrar pastas e projetos | Escolha se deseja mostrar a estrutura de pastas dos projetos. Para obter mais informações, consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Personalizar tabela (ícone) | Permite que você personalize as informações exibidas para cada projeto na página Projetos. |
 | Nome | Nome do projeto do Espaço de trabalho. |
-| Tipo | Indica se é um Projeto do Workspace, uma pasta ou um [Scorecard para dispositivos móveis](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=pt-BR). |
+| Tipo | Indica se é um projeto do Workspace, uma pasta ou um [Scorecard para dispositivos móveis](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=pt-BR). |
 | Tags | Tags aplicadas ao projeto. |
-| Programado | Indica se os projetos estão programados para serem enviados por email aos recipients de acordo com uma programação. Consulte [Agendar projetos](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
-| Link compartilhado (qualquer pessoa) | Os projetos podem ser compartilhados com qualquer pessoa, mesmo com pessoas que não têm acesso ao Analysis Workspace. Esta coluna mostra se os projetos foram compartilhados dessa maneira. Consulte [Compartilhar um projeto com qualquer pessoa (sem logon necessário)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) em [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md) para obter mais informações. |
+| Programado | Indica se os projetos estão programados para serem enviados por email a recipients em uma programação. Consulte [Agendar projetos](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
+| Link compartilhado (qualquer pessoa) | Os projetos podem ser compartilhados com qualquer pessoa, mesmo com pessoas que não têm acesso ao Analysis Workspace. Esta coluna mostra se os projetos foram compartilhados dessa maneira. Consulte [Compartilhar um projeto com qualquer pessoa (logon não necessário)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md) para obter mais informações. |
 | Conjunto de relatórios | O conjunto de relatórios ao qual o projeto está associado. |
 | [Função do projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) | Indica a função do projeto - proprietários, editar, duplicar, exibir. |
 | Proprietário | A pessoa que criou o projeto (você ou alguém que compartilhou o projeto com você.) |
 | Compartilhado com | Usuários com os quais o projeto foi compartilhado. |
 | Última modificação | Data e hora em que o projeto foi modificado pela última vez. |
-| Última Abertura | Data e hora em que o projeto foi aberto pela última vez. |
+| Última Abertura | Data e hora da última abertura do projeto. |
 | ID do projeto | A ID do projeto. |
 | Intervalo de datas mais longo | O intervalo de datas mais longo do projeto. |
 | Número de consultas | O número total de consultas contidas no projeto. |
@@ -132,8 +132,8 @@ As ações a seguir são comuns no Gerenciador de projetos e podem ser executada
 
 | Ação | Descrição |
 |---|---|
-| Adicionar | Crie um novo projeto do zero ou inicie de um [relatório](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
-| Marcar ou aprovar | Escolha &quot;Tag&quot; ou &quot;Aprovar&quot; para organizar os projetos e facilitar a pesquisa. |
+| Adicionar | Crie um novo projeto do zero ou inicie com um [relatório](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
+| Marcar ou aprovar | Escolha &quot;Marcar&quot; ou &quot;Aprovar&quot; para organizar os projetos e facilitar a pesquisa. |
 | [Compartilhar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) | Disponibilize um projeto para outros usuários do Analysis Workspace em sua organização. |
 | Excluir | Exclua o projeto. |
 | Renomear | Edite o nome do projeto. |

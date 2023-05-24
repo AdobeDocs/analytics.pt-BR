@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 93%
 
 ---
 
@@ -41,9 +41,9 @@ Quando as anotações são ativadas, os ícones de anotação ficam visíveis no
 
 ![](assets/view-annotations.png)
 
-Quando os ícones de anotação estão visíveis, você não pode visualizar ou interagir totalmente com as anotações na tela do construtor. Use o modo de Visualização para exibir e interagir com anotações conforme elas aparecem no aplicativo. ![](assets/preview-icon.png)
+Quando os ícones de anotação estão visíveis, você não pode visualizar ou interagir totalmente com as anotações na tela do construtor. Use o modo de Visualização para exibir e interagir com anotações conforme elas aparecem no aplicativo ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Visualizar**.
 
-As cores da anotação são selecionadas quando a anotação é criada no espaço de trabalho. As anotações em cinza indicavam a presença de mais de uma anotação. ![](assets/gray-annotations1.png) ![](assets/gray-annotations2.png)
+As cores da anotação são selecionadas quando a anotação é criada no espaço de trabalho. As anotações em cinza indicavam a presença de mais de uma anotação.
 
 ## Exibir anotações do gráfico
 

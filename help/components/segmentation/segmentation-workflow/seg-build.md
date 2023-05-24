@@ -3,10 +3,10 @@ description: O Construtor de segmentos fornece uma tela para arrastar e soltar D
 title: Construir segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '2046'
-ht-degree: 100%
+source-wordcount: '2054'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
 
 * **Navegação superior do Analytics**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
 * **[!UICONTROL Analysis Workspace]**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, abra um projeto e clique em **[!UICONTROL + Novo]** > **[!UICONTROL Criar segmento]**.
-* **[!UICONTROL Reports &amp; Analytics]**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**, abra um relatório existente e clique no ícone de Segmentos ![](assets/segment_icon.png) na navegação à esquerda e, em seguida, clique em **[!UICONTROL Adicionar]**.
+* **[!UICONTROL Reports &amp; Analytics]**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**, abra um relatório existente e clique no ícone de Segmentos ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) na navegação à esquerda e, em seguida, clique em **[!UICONTROL Adicionar]**.
 * **[!UICONTROL Report Builder]**: [adicionar ou editar segmentos no Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=pt-BR).
 
 ## Critérios do construtor {#section_F61C4268A5974C788629399ADE1E6E7C}

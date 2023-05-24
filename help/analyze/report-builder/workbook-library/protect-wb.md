@@ -5,7 +5,7 @@ uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
@@ -18,13 +18,9 @@ Você pode proteger todas as solicitações em uma pasta de trabalho em compara�
 
 Como um analista, o bloqueio de uma pasta de trabalho permite que você proteja suas solicitações de pasta de trabalho contra adulterações por outros usuários na organização. Ao mesmo tempo, esses usuários ainda podem atualizar as solicitações na pasta de trabalho.
 
-Para proteger uma pasta de trabalho contra edição, clique em **[!UICONTROL Bloqueado]** na barra de ferramentas do Report Builder ( ![](assets/locked_icon.png)
+Para proteger uma pasta de trabalho contra edição, clique em **[!UICONTROL Bloqueado]** na barra de ferramentas do Report Builder ( ![](assets/locked_icon.png)).
 
-).
-
-Para desbloquear uma pasta de trabalho, clique em **[!UICONTROL Desbloqueado]** ( ![](assets/unlocked_icon.png)
-
-).
+Para desbloquear uma pasta de trabalho, clique em **[!UICONTROL Desbloqueado]** ( ![](assets/unlocked_icon.png)).
 
 É possível desbloquear uma pasta de trabalho bloqueada se você tiver uma das seguintes permissões:
 

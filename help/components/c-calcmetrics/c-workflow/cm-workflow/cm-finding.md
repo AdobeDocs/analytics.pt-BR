@@ -3,10 +3,10 @@ description: Descreve as duas principais maneiras de encontrar suas métricas po
 title: Localizar métricas
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ Descreve as duas principais maneiras de encontrar suas métricas: por classifica
 
 ## Classificação {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-Ao abrir um relatório e clicar no ícone Métricas ![](assets/metrics_icon.png) à esquerda de um relatório para exibir o painel Métricas, a lista suspensa **[!UICONTROL Classificar por]** do Seletor de métricas exibirá quatro opções de classificação:
+Ao abrir um relatório e clicar no ícone Métricas  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)) à esquerda de um relatório para exibir o painel Métricas, a caixa **[!UICONTROL Classificar por]** lista suspensa no Seletor de métricas mostra quatro opções de classificação:
 
 ![](assets/cm_sort.png)
 
