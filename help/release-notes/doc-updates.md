@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 50983b3cdc6ee003593eacc5b9a158eae761e4a5
+source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 96%
+source-wordcount: '4191'
+ht-degree: 95%
 
 ---
 
@@ -26,13 +26,14 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Maio de 2023** |  |
-| Melhoria no mapeamento de IP para geolocalização | Criou um tópico em [Perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
-| Gerenciador de atividades de relatórios | Atualização desta documentação beta, especificamente a seção sobre [Exibição da atividade de relatório para conjuntos de relatórios individuais](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
+| Ícones de espectro | Quando apropriado, as capturas de tela dos ícones da interface do usuário na documentação foram substituídas por referências aos ícones equivalentes em [Sistema de design de espectro Adobe](https://spectrum.adobe.com/page/icons/). |
+| Melhoria no mapeamento de IP para geolocalização | Criou um tópico sobre [Perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
+| Gerenciador de atividades de relatórios | Atualização dessa documentação beta, especificamente a seção sobre [Exibição de atividades de relatórios para conjuntos de relatórios individuais](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Visão geral do Analysis Workspace | [Visão geral do Analysis Workspace](/help/analyze/analysis-workspace/home.md) atualizado para incluir informações gerais e links para o conteúdo relevante. |
 | Criar projetos | Criou um novo artigo que explica detalhadamente como [Criar projetos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) no Analysis Workspace. |
-| Classificar componentes no painel esquerdo | Foram adicionadas informações sobre a classificação da lista de componentes no painel à esquerda.Consulte a seção &quot;Pesquisar, filtrar e classificar a lista de componentes&quot; em [Visão geral dos componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| Classificar componentes no painel esquerdo | Foram adicionadas informações sobre como classificar a lista de componentes no painel esquerdo. Consulte a seção &quot;Pesquisar, filtrar e classificar a lista de componentes&quot; em [Visão geral dos componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | Excluir linhas que contenham dimensões dinâmicas de uma Tabela de forma livre | Foram adicionadas informações sobre como excluir rapidamente linhas específicas que contêm dimensões dinâmicas usando o ícone x. Consulte a seção &quot;Excluir rapidamente linhas específicas de uma tabela&quot; em [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
-| Botão para adicionar uma visualização em um painel | Foram adicionadas informações sobre um novo botão na parte inferior de cada painel no Analysis Workspace, que permite adicionar rapidamente uma visualização. Consulte a seção &quot;Adicionar visualizações a um painel&quot; em [Visão geral das visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| Botão para adicionar uma visualização em um painel | Adição de informações sobre um novo botão na parte inferior de cada painel no Analysis Workspace que permite adicionar uma visualização rapidamente. Consulte a seção &quot;Adicionar visualizações a um painel&quot; em [Visão geral das visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **Abril de 2023** |  |
 | Transferir ativos de usuários e definir expirações de conta | Foram adicionadas informações sobre como [transferir ativos de usuários e definir expirações de conta](/help/admin/admin/user-management2/users-assets.md). |
 | 2 novos guias de ponto de acesso para a API 2.0 do Adobe Analytics | <ul><li>[API de dimensões do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
