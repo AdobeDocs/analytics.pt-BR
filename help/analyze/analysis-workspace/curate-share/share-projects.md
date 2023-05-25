@@ -5,9 +5,9 @@ title: Compartilhar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 3a9dc661ce9243174bef45e689366baa58cf45b3
+source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1816'
 ht-degree: 53%
 
 ---
@@ -112,7 +112,7 @@ Você pode conceder [acesso somente leitura](/help/analyze/analysis-workspace/cu
 
 * Pessoas de fora da organização
 
-* Pessoas da sua organização que não foram provisionadas com o Adobe Analytics
+* Pessoas da organização que não têm acesso ao Adobe Analytics
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Você pode conceder [acesso somente leitura](/help/analyze/analysis-workspace/cu
 >
 >* Projetos com mais de 50 visualizações expandidas não podem ser compartilhados com pessoas que não têm acesso ao Adobe Analytics.
 >
->* Os usuários com os quais você compartilha podem exibir quaisquer filtros que foram aplicados ao projeto durante [curadoria](curate.md).
+>* Os usuários com os quais você compartilha o projeto podem visualizar os filtros aplicados ao projeto durante [curadoria](curate.md).
 > 
 >* Os usuários com os quais você compartilha podem alterar o intervalo de datas do projeto. O intervalo de datas definido para o projeto é mostrado por padrão.
 >
