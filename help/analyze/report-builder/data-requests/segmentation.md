@@ -4,10 +4,10 @@ title: Gerenciar segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 644e2d10eac226a35705351608161fe494efe113
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '948'
+ht-degree: 91%
 
 ---
 
@@ -68,7 +68,7 @@ Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui se
 
 ## Filtrar segmentos {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtre** segmentos ao clicar no ícone Filtrar:  ![](assets/segment_filter.png)
+**Filtro** clicando no ícone Filtro:  ![Ícone Filtrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 Os filtros disponíveis incluem:
 
