@@ -5,10 +5,10 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -61,19 +61,19 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Menu Soluções da Experience Cloud <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Menu Soluções da Experience Cloud <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="15px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> Clicar nesse ícone expande o menu da Experience Cloud e permite que você acesse outras soluções da Marketing Cloud. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Alternar o menu Relatórios <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col1">Alternar o menu Relatórios <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="15px" /> </td> 
    <td colname="col2"> Clicar neste botão expande ou comprime o menu Relatórios para que seja possível exibir um relatório usando a largura total da janela do navegador. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="15px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
    <td colname="col2">Exibe o painel de segmentos, que permite adicionar ou gerenciar os segmentos. Nesse painel, também é possível acessar as interfaces do <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >Construtor de segmentos</a> e do <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=pt-BR"  >Gerenciador de segmentos</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Métricas <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">Métricas <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
    <td colname="col2"> Exibe o painel de métricas, que permite adicionar ou gerenciar métricas e métricas calculadas. </td> 
   </tr> 
   <tr> 
@@ -117,11 +117,11 @@ Pressione a tecla Tab ou a seta para baixo (↓) para navegar pela lista de rela
    <td colname="col2"> Permite realizar todas ou algumas das seguintes ações: imprimir, extrair dados, adicionar um alerta, criar um relatório personalizado, copiar um gráfico, criar um link para o relatório e abrir uma nova janela. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Seletor de Conjunto de relatórios <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
+   <td colname="col1">Seletor de Conjunto de relatórios <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg" width="15px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
    <td colname="col2">Permite selecionar com base nos <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=pt-BR"  >conjuntos de relatórios</a> ou <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=pt-BR"  >conjuntos de relatórios virtuais</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Calendário <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
+   <td colname="col1">Calendário <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg" width="15px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
    <td colname="col2">Exibe o <a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  >calendário</a>, para que seja possível determinar o período dos relatórios. </td> 
   </tr> 
  </tbody> 

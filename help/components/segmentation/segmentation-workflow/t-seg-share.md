@@ -3,10 +3,10 @@ description: Dependendo das permissões, você pode compartilhar segmentos com o
 title: Compartilhar segmentos
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,16 +25,12 @@ Quando você deve compartilhar segmentos com a empresa inteira em comparação a
 * Como Administrador, compartilhe um segmento com um **[!UICONTROL Grupo]** específico se o segmento oferece bom valor de negócios para a equipe. Não aprove oficialmente esse tipo de segmento.
 * Como Administrador ou usuário individual, compartilhe um segmento com outros indivíduos para vetar e validar um segmento. Se não for útil, é possível descartá-la. Não aprove oficialmente esse tipo de segmento.
 
-1. No Gerenciador de segmentos, marque a caixa de seleção ao lado do segmento que você deseja compartilhar. A barra de ferramentas de gerenciamento do segmento aparece:
+1. No Gerenciador de segmentos, marque a caixa de seleção ao lado do segmento que você deseja compartilhar. A barra de ferramentas de gerenciamento do segmento aparece.
 
-   ![](assets/segment_mgmt_toolbar.png)
-
-1. Clique em **[!UICONTROL Compartilhar]**.
-
-   ![](assets/sharing_segments.png)
+2. Clique em **[!UICONTROL Compartilhar]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
    Se você for um Administrador, é possível selecionar **[!UICONTROL Tudo]** ou escolher a partir de **[!UICONTROL Grupos]** e **[!UICONTROL Usuários]** na organização. Como um não Administrador, você pode usar somente os usuários individuais. Use o campo **[!UICONTROL Pesquisa]** para pesquisar por grupos ou usuários. 1. Clique em **[!UICONTROL Compartilhar]**.
 
-   O ícone Compartilhado aparece ao lado do segmento:  ![](assets/share_icon.png)
+   O ícone Compartilhado aparece ao lado do segmento:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
-1. Você pode filtrar por segmentos compartilhados com você, acessando **[!UICONTROL Filtros]** > **[!UICONTROL Outros filtros]** > **[!UICONTROL Compartilhado comigo]**.
+3. Você pode filtrar por segmentos compartilhados com você, acessando **[!UICONTROL Filtros]** > **[!UICONTROL Outros filtros]** > **[!UICONTROL Compartilhado comigo]**.

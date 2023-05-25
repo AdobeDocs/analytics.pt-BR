@@ -3,10 +3,10 @@ description: O Gerenciador de segmentos oferece várias formas de cuidar de segm
 title: Gerenciar segmentos (Gerenciador de segmentos)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ O Gerenciador de segmentos oferece várias formas de cuidar de segmentos, como c
 O Gerenciador de segmentos do Analytics mostra todos os seus segmentos e os compartilhados com você. Os usuários de nível administrativo podem visualizar todos os segmentos na organização. Essa visão geral apresenta a interface do usuário e os recursos do Gerenciador de segmentos. Acesse o Gerenciador de segmentos ao
 
 * Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]** na navegação superior.
-* Exiba um relatório existente e clicar no ícone Segmentos ![](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]**.
+* Exiba um relatório existente e clicar no ícone Segmentos ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]**.
 
 ## Vídeo passo a passo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 

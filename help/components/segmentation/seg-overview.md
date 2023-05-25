@@ -3,10 +3,10 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -102,7 +102,7 @@ Para acessar o Gerenciador de segmentos:
 
 * Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** na navegação superior e, Em seguida, clique em **[!UICONTROL Segmentos]** ou
 
-* Exibir um relatório existente e clicar no ![ícone de Segmentos](assets/segment_icon.png) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]** ou
+* Exibir um relatório existente e clicar no ![ícone de Segmentos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) na navegação à esquerda. Em seguida, clique em **[!UICONTROL Gerenciar]** ou
 
 * Pressione a tecla “/” em qualquer lugar na interface e pesquisando pelo gerenciador de segmentos.
 
