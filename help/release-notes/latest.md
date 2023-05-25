@@ -3,16 +3,16 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
+source-git-commit: d6c42d359699a574411f461485f6c8818c095b62
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 86%
+source-wordcount: '1499'
+ht-degree: 78%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (Maio de 2023)
 
-**Última atualização**: 17 de maio de 2023
+**Última atualização**: 25 de maio de 2023
 
 As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -38,6 +38,7 @@ AN-312098; AN-318309; AN-316675; AN-318173; AN-310359; AN-317613; AN-318836; AN-
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
+| **Expiração de 37 meses de IDs de compra e IDs de evento (serialização de eventos)** | Maio de 25,2023 | Uma versão futura do mecanismo de processamento de ocorrências do Analytics, direcionada para lançamento em **final de junho de 2023 ou início de julho de 2023**, começará a impor uma expiração de 37 meses de IDs de compra e IDs de evento (serialização de eventos). Atualmente, as IDs de compra e as IDs de evento nunca expiram no Adobe Analytics. Depois que uma ID de compra ou ID de evento for vista/usada, qualquer ocorrência futura, independentemente de quando, terá essa compra ou evento marcado como duplicado. Com a nova versão do mecanismo de processamento,<ul><li>IDs de compra e IDs de evento sempre expirarão após 37 meses.</li><li>Se tiver passado 37 meses desde que a ID de compra ou a ID de evento foi vista, ela não será mais considerada uma compra ou um evento duplicado.</li><li> Se você estiver &quot;reutilizando&quot; IDs de compra ou IDs de evento de mais de 37 meses atrás, elas não serão mais consideradas duplicatas.</li></ul> |
 | **Migração para as credenciais de servidor para servidor do AdobeIO OAuth** | 11 de maio de 2023 | Os clientes da API do Adobe Analytics e do Livestream que usam as credenciais JWT do AdobeIO devem migrar para as credenciais de servidor para servidor do AdobeIO OAuth **1 de janeiro de 2025**. Para obter mais detalhes e linhas do tempo, consulte o aviso de fim de vida útil na tabela abaixo. |
 | **Aviso: novos IPs usados pelos feeds de dados do Adobe Analytics e pela saída do Data Warehouse no data center de Londres** | 27 de abril de 2023 | Para clientes do data center de Londres que têm solicitações de feed de dados e/ou relatórios do Data Warehouse que estão sendo entregues a um serviço de FTP/SFTP, os seguintes intervalos de endereço IP devem ser adicionados à configuração do firewall para permitir o acesso: <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **Os processos de pesquisa de dispositivo agora usam um terceiro para todas as pesquisas de dispositivo** | 3 de março de 2023 | Em 2 de março de 2023, como parte da implementação do suporte para dicas do cliente, houve uma atualização dos processos de pesquisa de dispositivo para usar um terceiro para todas as pesquisas de dispositivo. Anteriormente, um terceiro era usado somente para pesquisas de dispositivos móveis. Como parte dessa implantação, alguns sistemas operacionais de desktop foram rotulados incorretamente com o texto “mobile” (por exemplo, “Mobile OS X 10.15.7” em vez de “OS X 10.15.7”).<p>Na versão de abril da Adobe, esses nomes serão corrigidos. Os relatórios do Analytics e do CJA serão atualizados retroativamente, pois seus relatórios pesquisam o nome do sistema operacional com base em uma ID registrada como parte dos dados do evento. Uma vez que o valor de pesquisa correspondente a uma ID for atualizado, todos os relatórios serão corrigidos, incluindo dados históricos. Para [!UICONTROL Feeds de dados] clientes, as alterações serão retroativas se você estiver usando um processo de pesquisa semelhante no momento do relatório. No entanto, se você armazenar o valor do sistema operacional nos dados do evento, os relatórios serão atualizados somente de agora em diante. Consulte [Sistema operacional](/help/components/dimensions/operating-systems.md) para obter mais informações. |
