@@ -4,10 +4,10 @@ keywords: Métricas calculadas, Métricas derivadas, Métricas calculadas avanç
 title: Métricas calculadas e calculadas avançadas (derivadas)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,9 @@ Nossas ferramentas para métricas calculadas oferecem uma maneira muito mais fle
 * [Adobe Analytics Prime](https://www.adobe.com/br/data-analytics-cloud/analytics/prime.html): Calculadas + Calculadas avançadas
 * [Adobe Analytics Ultimate](https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html): Calculadas + Calculadas avançadas
 
-Veja uma comparação entre os recursos de Métricas calculadas e Métricas calculadas avançadas:
+Esta é uma comparação dos recursos de Métricas calculadas e Métricas calculadas avançadas:
 
-| Opções do criador | Métricas calculadas | Métricas calculadas avançadas (derivadas) |
+| Opções do criador | Métricas calculadas  | Métricas calculadas avançadas (derivadas) |
 |---|---|---|
 | [Tipos de formatos (decimal, hora, percentual, moeda)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Sim | Sim |
 | [Alterações de atribuição (padrão, linear, participação etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sim | Sim |
@@ -48,7 +48,7 @@ Veja uma comparação entre os recursos de Métricas calculadas e Métricas calc
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* (Somente métricas calculadas avançadas) Incorpore funções estatísticas para ajudar a descrever melhor seus dados. Por exemplo, é possível contar o número de itens em um relatório ou adicionar o número de desvios padrão para cada item.
+* (Somente métricas calculadas avançadas) Incorpore funções estatísticas para ajudá-lo a descrever melhor seus dados. Por exemplo, é possível contar o número de itens em um relatório ou adicionar o número de desvios padrão para cada item.
 
 ## Limitações {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -65,7 +65,7 @@ Alguns recursos do [!DNL Analytics] permitem usar eventos, mas não permitem usa
 
 ## Ferramentas {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Esta é uma pequena visão geral das ferramentas de [!UICONTROL Métricas calculadas]:
+Esta é uma breve visão geral do [!UICONTROL Métricas calculadas] ferramentas:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 

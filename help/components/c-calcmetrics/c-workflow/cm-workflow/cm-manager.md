@@ -3,7 +3,7 @@ description: A página Métricas calculadas oferece várias formas de cuidar de 
 title: Gerenciador de métricas calculadas
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 5%
@@ -15,6 +15,10 @@ ht-degree: 5%
 A página Métricas calculadas oferece várias formas de cuidar de métricas, como compartilhar, filtrar, marcar, aprovar, copiar, excluir e marcar como favoritos.
 
 A página Métricas calculadas mostra todos os segmentos seus e que foram compartilhados com você. Usuários de nível administrativo podem ver todas as métricas personalizadas da organização.
+
+## Acessar o gerenciador de métricas calculadas
+
+1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**].
 
 ## Áreas do Gerenciador de métricas calculadas
 
@@ -37,7 +41,3 @@ A imagem a seguir e a tabela que a acompanha explicam algumas das principais ár
 | Não exibido na imagem | **Data de modificação:** Indica a data em que a métrica personalizada foi modificada pela última vez. |
 
 {style="table-layout:auto"}
-
-## Acessar o gerenciador de métricas calculadas
-
-1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**].
