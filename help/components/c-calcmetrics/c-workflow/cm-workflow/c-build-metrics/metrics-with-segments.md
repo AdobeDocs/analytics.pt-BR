@@ -3,10 +3,10 @@ description: Segmentar métricas individuais permite comparar métricas em um me
 title: Métricas segmentadas
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 69%
 
 ---
 
@@ -24,20 +24,32 @@ Suponha que você deseje comparar diferentes aspectos dos segmentos de &quot;Vis
 * Como uma porcentagem do total de visitantes, quantos visitantes alemães navegam por determinadas páginas em comparação com os visitantes internacionais?
 * Quais são as maiores diferenças em termos de conteúdo acessado por esses diferentes segmentos?
 
-1. Se você não tiver um segmento para comparação, crie um segmento adhoc no Criador de métrica calculada chamado “Visitantes alemães”, em que “Países” corresponda a “Alemanha”. Basta arrastar a dimensão Países para a tela Definição e selecionar Alemanha como o valor:
+Crie e salve uma métrica chamada &quot;Visitantes alemães&quot; e uma métrica chamada &quot;Visitantes internacionais&quot;:
+
+1. Crie um segmento adhoc no Criador de métrica calculada chamado &quot;Visitantes alemães&quot;, em que &quot;Países&quot; corresponda a &quot;Alemanha&quot;.
+
+   Arraste a dimensão Países para a tela Definição e selecione [!UICONTROL **Alemanha**] como o valor:
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >Também é possível fazer isso no [Construtor de relatórios](/help/components/segmentation/segmentation-workflow/seg-build.md), mas simplificamos o fluxo de trabalho, disponibilizando dimensões no Criador de métricas calculadas. &quot;Adhoc&quot; significa que o segmento não está visível na lista **[!UICONTROL Segmentos]** no painel à esquerda. Entretanto, é possível torná-lo público ao passar o mouse sobre o ícone &quot;i&quot; e clicar em **[!UICONTROL Tornar público]**.
+   >Também é possível fazer isso no [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), mas simplificamos o fluxo de trabalho disponibilizando dimensões no Criador de métricas calculadas. &quot;Adhoc&quot; significa que o segmento não está visível na lista **[!UICONTROL Segmentos]** no painel à esquerda. Entretanto, é possível torná-lo público ao passar o mouse sobre o ícone &quot;i&quot; e clicar em **[!UICONTROL Tornar público]**.
 
-1. Caso não possua um segmento comparável, crie um segmento chamado “Visitantes internacionais” no qual &quot;Países” seja diferente de &quot;Alemanha”.
-1. Crie e salve uma métrica chamada “Visitantes alemães”. Para fazer isso, arraste o segmento Alemanha para a tela Definição e, em seguida, arraste a métrica Visitantes únicos dentro dele:
+1. Arraste o segmento Alemanha para a tela Definição e arraste a métrica Visitantes únicos dentro dele:
 
    ![](assets/german-visitors.png)
 
-1. Repita a Etapa 3 com o segmento de Visitantes internacionais e a métrica Visitantes únicos, e crie uma métrica Visitantes internacionais.
+1. Selecionar [!UICONTROL **Salvar**] para salvar a métrica calculada.
+
+1. Crie um segmento adhoc no Criador de métrica calculada chamado &quot;Visitantes internacionais&quot;, em que &quot;Países&quot; não corresponda a &quot;Alemanha&quot;.
+
+   Arraste a dimensão Países para a tela Definição e selecione [!UICONTROL **Alemanha**] como o valor e selecione [!UICONTROL **não é igual a**] como operador.
+
+1. Arraste a métrica Visitantes únicos para dentro dela.
+
+1. Selecionar [!UICONTROL **Salvar**] para salvar a métrica calculada.
+
 1. Na Analysis Workspace, arraste a dimensão **[!UICONTROL Página]** para uma Tabela de forma livre e arraste as 2 novas métricas calculadas para ficarem próximas na parte superior:
 
    ![](assets/workspace-pages.png)

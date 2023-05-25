@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
    + [Intensidade de cor](dimensions/color-depth.md)
    + [Tipo de conexão](dimensions/connection-type.md)
    + [Aceitação do gerenciamento de consentimento](dimensions/cm-opt-in.md)
-   + [Opt out do gerenciamento de consentimento](dimensions/cm-opt-out.md)
+   + [Recusa no gerenciamento de consentimento](dimensions/cm-opt-out.md)
    + [Suporte a cookies](dimensions/cookie-support.md)
    + [Países](dimensions/countries.md)
    + [Link personalizado](dimensions/custom-link.md)
@@ -113,7 +113,7 @@ ht-degree: 95%
    + [Duração média da sessão](metrics/average-session-length.md)
    + [Tempo médio no site](metrics/average-time-on-site.md)
    + [Ocorrências de bot](metrics/bot-occurrences.md)
-   + [Exibições da página de bot](metrics/bot-page-views.md)
+   + [Exibições de página de bot](metrics/bot-page-views.md)
    + [Taxa de rejeição](metrics/bounce-rate.md)
    + [Rejeições](metrics/bounces.md)
    + [Adições ao carrinho](metrics/cart-additions.md)
@@ -186,14 +186,14 @@ ht-degree: 95%
       + [Fluxo de trabalho das métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Localizar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Criar métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Criar uma métrica &quot;Exibições de página por visita&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Criar uma métrica &quot;Assistências em pedidos&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Criar uma métrica de &quot;Participação&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Atribuição e tipo de métrica](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Criar uma métrica simples de &quot;Exibições de página por visita&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Empilhar e substituir segmentos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Métricas filtradas e ponderadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [Métrica de auxílio de pedidos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Usar funções](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [Métrica de participação](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Marcar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Aprovar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Compartilhar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)

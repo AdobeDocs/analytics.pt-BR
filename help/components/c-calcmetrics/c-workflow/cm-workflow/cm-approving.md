@@ -3,24 +3,31 @@ description: No Gerenciador de métricas calculadas, é possível definir um flu
 title: Aprovar métricas calculadas
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 100%
+source-wordcount: '181'
+ht-degree: 24%
 
 ---
 
 # Aprovar métricas calculadas
 
-No Gerenciador de métricas calculadas, é possível definir um fluxo de trabalho que inclua métricas de aprovação para vários níveis de aplicação e para departamentos ou grupos específicos.
+No Gerenciador de métricas calculadas, é possível configurar um fluxo de trabalho que inclua métricas de aprovação para vários níveis do aplicativo e para departamentos ou grupos específicos.
 
-Veja como sinalizar uma métrica calculada como aprovada:
+Para marcar métricas calculadas como aprovadas:
 
-1. No Gerenciador de métricas calculadas, marque a caixa de seleção à esquerda do título da métrica.
-1. Clique em **[!UICONTROL Aprovar]** na tarefa de gerenciamento na parte superior.
-1. Considere compartilhar as métricas calculadas aprovadas com a sua organização.
-1. Clique em **[!UICONTROL OK]**.
-1. Observe o ícone de aprovação ao lado da métrica calculada:  ![](assets/cm_approve_icon.png)
+1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para acessar o Gerenciador de métricas calculadas.
 
-1. Também é possível clicar em **[!UICONTROL Cancelar aprovação]** para remover esta métrica da lista de métricas aprovadas.
-1. E você pode filtrar as métricas aprovadas clicando em **[!UICONTROL Mostrar filtros]** > **[!UICONTROL Outros filtros]** > **[!UICONTROL Aprovado]**.
+1. No Gerenciador de métricas calculadas, marque a caixa de seleção à esquerda de qualquer métrica que deseja marcar como aprovada.
+
+1. Selecionar **[!UICONTROL Aprovar]** na tarefa de gerenciamento na parte superior da página.
+
+   Para remover uma métrica da lista de métricas aprovadas, selecione **[!UICONTROL Cancelar aprovação]**.
+
+1. (Opcional) Compartilhe a métrica com outros usuários em sua organização, conforme descrito em [Compartilhar métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+
+1. Selecionar **[!UICONTROL OK]**.
+
+   Observe o ícone de aprovação ao lado da métrica calculada:  ![](assets/cm_approve_icon.png)
+
+1. (Opcional) Para filtrar a lista de métricas calculadas no Gerenciador de métricas calculadas para mostrar apenas as métricas aprovadas, selecione a variável **Filtro** ícone, expandir **[!UICONTROL Outros filtros]** e selecione **[!UICONTROL Aprovado]**.

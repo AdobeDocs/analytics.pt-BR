@@ -4,7 +4,7 @@ title: Visão geral dos componentes
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 66%
@@ -103,8 +103,6 @@ Pesquise, filtre e classifique a lista de componentes no painel esquerdo do Anal
 
 ### Filtrar a lista de componentes
 
-{{release-limited-testing-section}}
-
 1. Selecione o **Componentes** ícone ![Ícone Componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) no painel esquerdo.
 
 2. Selecione o **Filtro** ícone ![Ícone Filtro do dicionário de dados](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
@@ -129,6 +127,8 @@ Pesquise, filtre e classifique a lista de componentes no painel esquerdo do Anal
 4. (Opcional) Para aprimorar ainda mais a lista, você pode classificar a lista de componentes, conforme descrito em [Classificar a lista de componentes](#sort-the-component-list).
 
 ### Classificar a lista de componentes
+
+{{release-limited-testing-section}}
 
 1. (Opcional) Aplique filtros à lista de componentes, conforme descrito em [Filtrar a lista de componentes](#filter-the-component-list).
 

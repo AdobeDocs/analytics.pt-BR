@@ -3,34 +3,53 @@ description: No Gerenciador de métricas calculadas, a marcação de segmentos p
 title: Marcar métricas calculadas
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 19%
 
 ---
 
 # Marcar métricas calculadas
 
-No Gerenciador de métricas calculadas, a marcação de segmentos permite organizá-los.
+No Gerenciador de métricas calculadas, é possível organizar os segmentos marcando-os.
 
-Os usuários podem criar tags para métricas calculadas e aplicar uma ou mais tags a uma métrica. Contudo, só é possível ver as tags das métricas calculadas que você possui ou que foram compartilhadas com você. Que tipos de tags você deve criar? Estas são algumas sugestões para tags úteis:
+Os usuários podem criar tags para métricas calculadas e aplicar uma ou mais tags a uma métrica. Contudo, só é possível ver as tags das métricas calculadas que você possui ou que foram compartilhadas com você.
 
-* Tags com base em **nomes de equipe**, como Marketing social, Marketing móvel.
-* Tags de **projeto** (tags de análise), como análises de página de entrada.
-* Tags de **categoria**: masculino; geografia.
-* Tags de **fluxo de trabalho**: para ser aprovado; preparado para (uma unidade de negócios específica).
+>[!TIP]
+>
+>Os tipos de tags mais úteis geralmente são tags baseadas nos seguintes critérios:
 
-1. No Gerenciador de métricas calculadas, marque a caixa de seleção ao lado da métrica à qual deseja adicionar uma tag. A barra de ferramentas de gerenciamento é exibida:
-1. Clique em **[!UICONTROL Tag]** e
+* **Nomes das equipes**, como Marketing social, Marketing móvel.
+* **Projetos** (tags de análise), como Análise de página de entrada.
+* **Categorias**, como Mulheres; Geografia.
+* **Fluxos de trabalho**, como Para ser aprovado; Preparado para (uma unidade de negócios específica)
 
-   * selecione a partir das tags existentes, ou
-   * adicione um novo nome da tag na caixa de diálogo Adicionar tags/Pesquisar e pressione **[!UICONTROL Enter]**.
+## Aplicar tags a uma métrica calculada
 
-      ![](assets/cm_add_tags.png)
+1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para acessar o Gerenciador de métricas calculadas.
 
-1. Clique em **[!UICONTROL tag]** novamente para adicionar uma tag à métrica.
+1. No Gerenciador de métricas calculadas, marque a caixa de seleção ao lado de qualquer métrica que deseja marcar.
 
-A tag agora deve aparecer na coluna Tags. (Clique no ícone de engrenagem na parte superior direita para gerenciar suas colunas).
+   ![](assets/cm_add_tags.png)
 
-Também é possível filtrar as tags, acessando **[!UICONTROL Mostrar filtros]** > **[!UICONTROL Tags]**.
+1. No **[!UICONTROL Marcar métrica calculada]** caixa de diálogo:
+
+   * Adicione uma nova tag. Digite o nome no campo [!UICONTROL **Adicionar tags**] e pressione Enter.
+   * Selecione uma ou mais tags existentes para aplicar às métricas selecionadas.
+
+1. Selecionar [!UICONTROL **Salvar**] para aplicar as tags.
+
+## Exibir tags aplicadas
+
+1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para acessar o Gerenciador de métricas calculadas.
+
+1. No Gerenciador de métricas calculadas, as tags são exibidas na variável [!UICONTROL **Tags**] coluna. (Clique no ícone de engrenagem no canto superior direito para gerenciar suas colunas).
+
+## Filtrar métricas por tags
+
+1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para acessar o Gerenciador de métricas calculadas.
+
+1. No Gerenciador de métricas calculadas, selecione **Filtro** e selecione as tags pelas quais deseja filtrar.
+
+   Somente as métricas que têm o filtro selecionado são exibidas.
