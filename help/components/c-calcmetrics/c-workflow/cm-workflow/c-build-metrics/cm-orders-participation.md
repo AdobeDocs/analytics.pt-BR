@@ -3,10 +3,10 @@ description: Explica como criar uma métrica que exibe quais Canais de marketing
 title: métrica Assistências em pedidos
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '199'
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ As informações a seguir explicam como criar uma métrica que mostra quais Cana
 
 1. Comece a criar uma métrica calculada, conforme descrito em [Criar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. No Criador de métricas calculadas, nomeie a métrica como &quot;Pedidos assistidos&quot;.
+1. No Criador de métricas calculadas, nomeie a métrica &quot;Pedidos assistidos&quot; ou algo semelhante.
 
 1. Na tela de Definição, arraste uma métrica de Pedidos. Em seguida, ajuste o modelo de atribuição por meio da engrenagem de configurações, marcando a caixa de seleção **[!UICONTROL Usar modelos de atribuição não padrão]**.
 

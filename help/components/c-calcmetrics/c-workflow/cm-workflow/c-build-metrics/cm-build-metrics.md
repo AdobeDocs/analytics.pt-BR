@@ -3,10 +3,10 @@ description: O Criador de métricas calculadas oferece uma tela para arrastar e 
 title: Criar métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 49%
+ht-degree: 46%
 
 ---
 
@@ -24,7 +24,7 @@ Você pode começar a criar uma métrica calculada de qualquer uma das seguintes
 
 ## Áreas do Construtor de métricas calculadas
 
-A imagem a seguir e a tabela que a acompanha explicam algumas das principais áreas e recursos do Gerenciador de métricas calculadas.
+A imagem a seguir e a tabela que a acompanha explicam algumas das principais áreas e recursos do Criador de métricas calculadas.
 
 ![](assets/cm_builder_ui.png)
 
@@ -40,7 +40,7 @@ A imagem a seguir e a tabela que a acompanha explicam algumas das principais ár
 | 8 | **Definição:** É aqui que você arrasta métricas/métricas calculadas, segmentos e/ou funções para criar a métrica calculada. <ul><li>Se você arrastar uma métrica calculada, ela expandirá automaticamente sua definição de métrica. </li> <li>Você pode aninhar definições em contêineres. Contudo, diferentemente dos contêineres de segmentos, esses contêineres funcionam como uma expressão matemática e determinam a ordem das operações. </li> </ul> |
 | 9 | **Operador:** Dividido por ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) é o operador padrão, além dos operadores +, - e x. |
 | 10 | **Visualizar:** Fornece uma leitura rápida de possíveis erros. A visualização abrange os últimos 90 dias. Esta é uma maneira de medir, ao menos de maneira inicial, se você selecionou os componentes certos para a sua métrica. Um resultado inesperado significa que você precisa analisar a definição da métrica novamente. |
-| 11 | **Compatibilidade do produto:** <p>A compatibilidade do produto mostra se a métrica é compatível com os <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=pt-BR"  >Dados atuais</a>, com os Dados totalmente processados ou somente com os relatórios do Canal de marketing (alocação de primeiro contato). <p>Observação: os dados atuais não suportam todas as métricas. Métricas que contêm segmentos ou funções não são compatíveis com os dados atuais. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Mais... </a> </p> </p> |
+| 11 | **Compatibilidade do produto:** A compatibilidade do produto mostra se a métrica é compatível com o <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=pt-BR"  > Dados atuais </a>, com Dados totalmente processados ou somente com relatórios de Canal de marketing (alocação de primeiro contato). <p>Observação: os dados atuais não suportam todas as métricas. Métricas que contêm segmentos ou funções não são compatíveis com os dados atuais. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Mais... </a> </p> </p> |
 | 12 | **Adicionar:** Para todos os tipos de métricas calculadas, é possível adicionar contêineres e números estáticos à definição. Para métricas calculadas avançadas, também é possível adicionar funções e segmentos. <ul><li>Os contêineres funcionam como uma expressão matemática e determinam a ordem das operações. Todo o conteúdo do contêiner será processado antes da próxima operação.</li><li>Arrastar um segmento para um contêiner segmenta todo o conteúdo do mesmo. (Somente métricas calculadas avançadas)</li><li>É possível empilhar vários segmentos em um contêiner.</li></ul> |
 | 13 | **Ícone de engrenagem (Tipo de métrica, Atribuição):** Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar a <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > tipo de métrica e modelos de atribuição </a>. |
 | 14 | **Novo:** Permite criar um novo componente, como um novo segmento (que leva você ao estado <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Construtor de segmentos </a>.) |

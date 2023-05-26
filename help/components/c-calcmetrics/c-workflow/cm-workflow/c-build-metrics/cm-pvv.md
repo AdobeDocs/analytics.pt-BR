@@ -3,18 +3,16 @@ description: Mostra como criar uma métrica simples de "Exibições de página p
 title: Criar uma métrica simples de "Exibições de página por visita"
 feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '234'
 ht-degree: 54%
 
 ---
 
-# Criar uma métrica simples de &quot;Exibições de página por visita&quot;
+# Criar uma métrica &quot;Exibições de página por visita&quot;
 
 As informações a seguir explicam como criar uma métrica simples de &quot;Exibições de página por visita&quot;.
-
-Para obter uma descrição detalhada dos componentes da interface do usuário, consulte [Criar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 Para criar uma métrica simples de &quot;Exibições de página por visita&quot;:
 

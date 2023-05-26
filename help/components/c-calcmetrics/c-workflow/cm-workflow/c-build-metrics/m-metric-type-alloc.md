@@ -3,9 +3,9 @@ description: Saiba mais sobre
 title: Atribuição e tipo de métrica
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '466'
 ht-degree: 73%
 
 ---
@@ -29,9 +29,7 @@ Para especificar o tipo de métrica ao criar uma métrica calculada:
    | Padrão | Essas métricas são as mesmas métricas usadas nos relatórios padrão do [!DNL Analytics]. Se uma fórmula consistir de uma única métrica padrão, ela exibirá dados idênticos à sua métrica não calculada equivalente. Métricas padrão são úteis ao criar métricas calculadas específicas para cada item de linha. Por exemplo, [Pedidos] / [Visitas] pega os pedidos de um item de linha específico e divide pelo número de visitas do item de linha específico. |
    | Total geral | Use Total geral para o período do relatório em cada item de linha. Se uma fórmula consistiu de uma única métrica de total geral, ela exibe o mesmo número total em cada item de linha. As métricas de total geral são úteis para criar métricas calculadas que se comparam aos dados totais do site. Por exemplo, [Pedidos] / [Total de visitas] mostra a proporção de pedidos com relação a TODAS as visitas ao site, e não apenas visitas ao item de linha específico. |
 
-## Modelo de atribuição de coluna
-
-## Como a alocação linear funciona (desde 19 de julho de 2018)
+## Como a alocação linear funciona
 
 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) é como os modelos de alocação em métricas calculadas são avaliados.
 
