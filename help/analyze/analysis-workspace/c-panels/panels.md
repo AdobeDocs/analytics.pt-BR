@@ -4,16 +4,16 @@ title: Visão geral dos painéis
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
+source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 66%
+source-wordcount: '1437'
+ht-degree: 55%
 
 ---
 
 # Visão geral dos painéis
 
-Um [!UICONTROL painel] é uma coleção de tabelas e visualizações. Você pode acessar painéis usando o ícone superior esquerdo no Workspace ou um [painel em branco](blank-panel.md). Os painéis são úteis para organizar projetos de acordo com períodos, conjuntos de relatórios ou caso de uso de análise.
+Um [!UICONTROL painel] é uma coleção de tabelas e visualizações. Você pode acessar os painéis por meio do ícone superior esquerdo no Workspace ou um [painel em branco](blank-panel.md). Os painéis são úteis para organizar projetos de acordo com períodos, conjuntos de relatórios ou caso de uso de análise.
 
 ## Tipos de painel
 
@@ -26,7 +26,7 @@ Os seguintes tipos de painel estão disponíveis no Analysis Workspace:
 | [Painel do Analytics for Target](a4t-panel.md) | Analisar atividades e experiências do Target no Analysis Workspace. |
 | [Painel de atribuição](attribution.md) | Compare e visualize modelos de atribuição rapidamente usando qualquer dimensão e métrica de conversão. |
 | [Painel de forma livre](freeform-panel.md) | Realize comparações e detalhamentos ilimitados e, em seguida, adicione visualizações para obter uma visão ampla dos dados. |
-| [Painel Público-alvo médio por minuto de mídia](average-minute-audience-panel.md) | Analise o público-alvo médio de minutos ao longo do tempo, com detalhes sobre o pico de exibições e a capacidade de detalhar e comparar. |
+| [Painel Público-alvo médio por minuto de mídia](average-minute-audience-panel.md) | Analise o público-alvo médio por minuto ao longo do tempo, com detalhes sobre as exibições de pico e a capacidade de detalhar e comparar. |
 | [Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md) | Analise os visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de analisar e comparar. |
 | [Painel Tempo gasto com a reprodução de mídia](media-playback-timespent/media-playback-time-spent.md) | Analise os visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de analisar e comparar. |
 | [Painel de comparação de segmentos](c-segment-comparison/segment-comparison.md) | Compare rapidamente dois segmentos em todos os pontos de dados para encontrar automaticamente diferenças relevantes. |
@@ -68,15 +68,15 @@ Arraste e solte qualquer segmento do painel esquerdo na área suspensa do painel
 
 ### Filtros de segmento ad hoc
 
-Componentes não segmentados também podem ser arrastados diretamente para a área de soltar para criar segmentos ad hoc, economizando tempo e esforço de ir para o Construtor de segmentos. Segmentos criados dessa forma são definidos automaticamente como segmentos de nível de ocorrência. Essa definição pode ser modificada clicando no ícone de informações (i) ao lado do segmento e, em seguida, no ícone de edição em forma de lápis e editando-os no Construtor de segmento.
+Os componentes que não são de segmentos também podem ser arrastados diretamente para a zona suspensa para criar segmentos ad hoc, economizando tempo e esforço de ter que ir para o Construtor de segmentos. Segmentos criados dessa forma são definidos automaticamente como segmentos de nível de ocorrência. Essa definição pode ser modificada clicando no ícone de informações (i) ao lado do segmento e, em seguida, no ícone de edição em forma de lápis e editando-os no Construtor de segmento.
 
-Segmentos ad hoc são um tipo de segmento rápido, e são locais para o projeto. Elas não aparecem no painel esquerdo, a menos que você as torne públicas.
+Segmentos ad hoc são um tipo de segmento rápido e são locais ao projeto. Elas não aparecem no painel esquerdo, a menos que você as torne públicas.
 
 Para obter mais informações, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### Filtros suspensos estáticos
 
-Filtros suspensos permitem interagir com os dados de forma controlada. Por exemplo, você pode adicionar um filtro suspenso para Tipos de dispositivo móvel para segmentar o painel por Tablet, Celular ou Desktop.
+Os filtros suspensos permitem que você interaja com os dados de forma controlada. Por exemplo, você pode adicionar um filtro suspenso para Tipos de dispositivo móvel para segmentar o painel por Tablet, Celular ou Desktop.
 
 Filtros suspensos também podem ser usados para consolidar vários projetos em um único. Por exemplo, se você tiver muitas versões do mesmo projeto com diferentes segmentos de País aplicados, será possível consolidar todas as versões em um único projeto e adicionar um filtro suspenso de País.
 
@@ -84,37 +84,37 @@ Filtros suspensos também podem ser usados para consolidar vários projetos em u
 
 Para criar um filtro suspenso estático:
 
-* Para filtros suspensos usando itens de dimensão, clique no ícone de seta para a direita ao lado da dimensão desejada no painel à esquerda. Essa ação expõe todos os itens de dimensão disponíveis. Selecionar vários itens de dimensão nesta lista usando `[Shift + Click]` ou `[Ctrl + Click]`, em seguida, solte-os na área de soltar do painel **exploração`[Shift]`**.
-* Para filtros suspensos que usam outros componentes, como métricas, segmentos ou intervalos de datas, selecione vários componentes usando `[Shift + Click]` ou `[Ctrl + Click]`. Solte a seleção na área de soltar do painel **exploração`[Shift]`**. Todos os tipos de componentes são tratados como segmentos neste contexto.
-* Um único filtro suspenso só pode conter um único tipo de componente. Se você incluir vários tipos de componentes na seleção, um filtro suspenso separado será criado por tipo de componente. Por exemplo, se você incluir métricas e itens de dimensão em sua seleção, dois filtros suspensos separados serão criados. Um filtro suspenso inclui itens de dimensão e o outro inclui métricas.
+* Para filtros suspensos usando itens de dimensão, clique no ícone de seta para a direita ao lado da dimensão desejada no painel esquerdo. Essa ação expõe todos os itens de dimensão disponíveis. Selecione vários itens de dimensão dessa lista usando `[Shift + Click]` ou `[Ctrl + Click]`, em seguida, solte-os na área suspensa do painel **ao manter`[Shift]`**.
+* Para filtros suspensos usando outros componentes, como métricas, segmentos ou intervalos de datas, selecione vários componentes usando `[Shift + Click]` ou `[Ctrl + Click]`. Solte a seleção na área suspensa do painel **ao manter`[Shift]`**. Todos os tipos de componentes são tratados como segmentos neste contexto.
+* Um único filtro suspenso só pode conter um único tipo de componente. Se você incluir vários tipos de componentes na seleção, um filtro suspenso separado será criado por tipo de componente. Por exemplo, se você incluir métricas e itens de dimensão na seleção, dois filtros suspensos separados serão criados. Um filtro suspenso inclui itens de dimensão e o outro inclui métricas.
 
-Selecione uma das opções na lista suspensa para alterar os dados no painel. Você também pode optar por não filtrar os dados do painel ao selecionar **[!UICONTROL Sem filtro]**.
+Selecione uma das opções na lista suspensa para alterar os dados no painel. Também é possível optar por não filtrar os dados do painel ao selecionar **[!UICONTROL Sem filtro]**.
 
 ![](assets/create-dropdown.png)
 
-Clicar com o botão direito do mouse em um filtro suspenso fornece as seguintes opções:
+Clicar com o botão direito em um filtro suspenso fornece as seguintes opções:
 
-* **[!UICONTROL Adicionar rótulo]**: Quando você adiciona um filtro suspenso a um projeto, um rótulo é automaticamente definido para o nome do componente. Se você excluir o rótulo, é possível adicioná-lo novamente com essa opção.
-* **[!UICONTROL Excluir rótulo]**: Remova o texto acima de um filtro suspenso.
-* **[!UICONTROL Excluir filtro suspenso]**: Remove o filtro suspenso do painel.
+* **[!UICONTROL Adicionar rótulo]**: quando você adiciona um filtro suspenso a um projeto, um rótulo é automaticamente definido para o nome do componente. Se você excluir o rótulo, poderá adicioná-lo novamente com essa opção.
+* **[!UICONTROL Excluir rótulo]**: remova o texto acima de um filtro suspenso.
+* **[!UICONTROL Excluir filtro suspenso]**: remove o filtro suspenso do painel.
 
 [Assista ao vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=pt-BR) para saber mais sobre como adicionar filtros suspensos ao seu projeto.
 
-<!--### Dynamic drop-down filters
+### Filtros suspensos dinâmicos
 
-Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+Os filtros suspensos dinâmicos permitem determinar os valores disponíveis com base nos dados dentro do intervalo de relatórios do painel e nos valores em outros filtros suspensos. Por exemplo, você pode criar dois menus suspensos dinâmicos usando a [Países](/help/components/dimensions/countries.md) dimensão e [Cidades](/help/components/dimensions/cities.md) dimensão. Quando você selecionar um país na lista [!UICONTROL Países] lista suspensa, a variável [!UICONTROL Cidades] lista suspensa se ajusta dinamicamente para mostrar apenas as cidades nesse país.
 
-This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
+Esse mesmo conceito se aplica a todas as dimensões; somente os itens de dimensão que aparecem dentro do intervalo de datas do painel e filtros selecionados são visíveis. Os itens de Dimension selecionados nos filtros suspensos estáticos afetam os valores disponíveis nos filtros suspensos dinâmicos. No entanto, o inverso não é verdadeiro; os itens de Dimension selecionados em filtros suspensos dinâmicos não afetam os valores disponíveis em filtros suspensos estáticos.
 
-Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
+A seleção manual de itens de dimensão estará disponível se você antecipar que um determinado item de dimensão será coletado no futuro. Também é possível limpar um filtro suspenso dinâmico para que ele não contenha um valor, permitindo que outros filtros suspensos dinâmicos contenham mais valores. Selecionar **[!UICONTROL Redefinir tudo]** para limpar a seleção de todos os filtros suspensos desse painel.
 
-To create a dynamic drop-down filter:
+Para criar um filtro suspenso dinâmico:
 
-* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
-* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
-* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
+* Arraste e solte uma única dimensão na área suspensa do painel **ao manter`[Shift]`**.
+* Os filtros suspensos dinâmicos não estão disponíveis para métricas, segmentos ou intervalos de datas.
+* Clique com o botão direito em um filtro suspenso e selecione **[!UICONTROL Excluir filtro]** para excluí-lo.
 
-Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
+Clicar com o botão direito em um filtro suspenso dinâmico fornece as mesmas opções que os filtros suspensos estáticos.
 
 ## Clique com o botão direito do mouse no menu {#right-click}
 
@@ -126,8 +126,8 @@ As seguintes configurações estão disponíveis:
 
 | Configuração | Descrição |
 | --- | --- |
-| Inserir visualização/painel copiado | Permite colar (&quot;inserir&quot;) um painel copiado ou uma visualização em outro local do projeto ou em um projeto diferente. |
-| Copiar painel | Permite clicar com o botão direito do mouse e copiar um painel, de modo que você possa inseri-lo em outro lugar dentro do projeto ou em um projeto diferente. |
+| Inserir visualização/painel copiado | Permite colar (&quot;inserir&quot;) um painel ou visualização copiada em outro lugar no projeto ou em um projeto diferente. |
+| Copiar painel | Permite clicar com o botão direito do mouse e copiar um painel, para que você possa inseri-lo em outro lugar no projeto ou em um projeto diferente. |
 | Aplicar o conjunto de relatórios a todos os painéis | Permite aplicar o conjunto de relatórios do painel principal a todos os painéis do projeto. |
 | Duplicar o painel | Cria uma duplicata exata do painel atual, que você pode modificar. |
 | Recolher/expandir todos os painéis | Recolhe e expande todos os painéis do projeto. |

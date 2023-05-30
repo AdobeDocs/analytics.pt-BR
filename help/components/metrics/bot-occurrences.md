@@ -2,9 +2,7 @@
 title: Ocorrências de bot
 description: O número de ocorrências que corresponderam às regras de bot.
 exl-id: 3b6cbe94-98db-4ba4-aab2-ce59cdbc420a
-hide: true
-hidefromtoc: true
-source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
+source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 4%
@@ -13,16 +11,16 @@ ht-degree: 4%
 
 # Ocorrências de bot
 
-A métrica &quot;Ocorrências de bot&quot; mostra o número de ocorrências que corresponderam [Regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+A métrica &quot;Ocorrências de bot&quot; mostra o número de ocorrências correspondentes [Regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
-Como os relatórios de bot são separados do restante dos dados do conjunto de relatórios, essa métrica só funciona com as seguintes dimensões:
+Como o relatório de bot é separado do restante dos dados do conjunto de relatórios, essa métrica funciona somente com as seguintes dimensões:
 
 * [Nome do bot](../dimensions/bot-name.md)
 * [Página](../dimensions/page.md)
-* Dimensões baseadas em tempo (por exemplo, [Dia](../dimensions/day.md), [Semana](../dimensions/week.md)ou [Mês](../dimensions/month.md))
+* Dimensões com base no tempo (por exemplo, [Dia](../dimensions/day.md), [Semana](../dimensions/week.md)ou [Month](../dimensions/month.md))
 
 Usar qualquer outra dimensão com essa métrica não retorna dados.
 
 ## Como essa métrica é calculada
 
-O Adobe verifica cada ocorrência para ver se corresponde às regras de bot que sua organização configurou. Se uma determinada ocorrência corresponder a uma regra de bot, a ocorrência será excluída do relatório e essa métrica aumentará em uma. Essa métrica inclui ambas as exibições de página ([`t()`](/help/implement/vars/functions/t-method.md)) e ocorrências de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)), [Exibições da página de bot](bot-page-views.md) não inclua ocorrências de rastreamento de link.
+O Adobe verifica cada ocorrência para ver se corresponde às regras de bot configuradas pela sua organização. Se uma determinada ocorrência corresponder a uma regra de bot, a ocorrência será excluída do relatório e essa métrica aumentará em um. Essa métrica inclui ambas as exibições de página ([`t()`](/help/implement/vars/functions/t-method.md)) e ocorrências de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)), enquanto [Exibições de página de bot](bot-page-views.md) não inclua ocorrências de rastreamento de link.
