@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '4191'
+source-wordcount: '4226'
 ht-degree: 95%
 
 ---
@@ -25,6 +25,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **Junho de 2023** |  |
+| Atualizações de métricas calculada | Foram feitas atualizações em vários artigos relacionados às métricas calculadas, incluindo atualização de capturas de tela e etapas nos procedimentos. Essas alterações foram feitas para alinhar a documentação com a funcionalidade atual do Adobe Analytics. |
 | **Maio de 2023** |  |
 | Ícones de espectro | Quando apropriado, as capturas de tela dos ícones da interface do usuário na documentação foram substituídas por referências aos ícones equivalentes em [Sistema de design de espectro Adobe](https://spectrum.adobe.com/page/icons/). |
 | Melhoria no mapeamento de IP para geolocalização | Criou um tópico sobre [Perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |

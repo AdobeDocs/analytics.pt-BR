@@ -3,10 +3,10 @@ description: Dependendo das suas permissões, é possível compartilhar métrica
 title: Compartilhar métricas calculadas
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: e9109ccb726e5e4bf52d8a4734dd0d09820f2ffc
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 27%
 
 ---
 
@@ -23,13 +23,13 @@ Para compartilhar uma métrica calculada:
 
 1. No Gerenciador de métricas calculadas, marque a caixa de seleção à esquerda de qualquer métrica que você deseja compartilhar.
 
-1. Clique no ícone **[!UICONTROL Compartilhar.]**![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+1. Selecione o **[!UICONTROL Compartilhar]** ícone. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    A caixa de diálogo Compartilhar métrica calculada é exibida.
 
    ![](assets/cm_share.png)
 
-1. Clique em **[!UICONTROL Compartilhar]**.
+1. Selecione **[!UICONTROL Compartilhar]**.
 
 1. Escolha com quem deseja compartilhar:
 
@@ -47,7 +47,7 @@ Para compartilhar uma métrica calculada:
 
 1. Selecione **[!UICONTROL Compartilhar]**.
 
-   O ícone Compartilhado é exibido ao lado da métrica:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+   O ícone Compartilhado é exibido ao lado da métrica: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
 1. É possível filtrar as métricas compartilhadas com você em **[!UICONTROL Filtros]** > **[!UICONTROL Outros filtros]** > **[!UICONTROL Compartilhados comigo]**.
 

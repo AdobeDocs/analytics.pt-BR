@@ -3,9 +3,9 @@ description: No Gerenciador de métricas calculadas, a marcação de segmentos p
 title: Marcar métricas calculadas
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 19%
 
 ---
@@ -20,10 +20,10 @@ Os usuários podem criar tags para métricas calculadas e aplicar uma ou mais ta
 >
 >Os tipos de tags mais úteis geralmente são tags baseadas nos seguintes critérios:
 >
->* **Nomes das equipes**, como Marketing social, Marketing móvel.
+>* **Nomes das equipes**, como Marketing Social ou Marketing para dispositivos móveis.
 >* **Projetos** (tags de análise), como Análise de página de entrada.
->* **Categorias**, como Mulheres; Geografia.
->* **Fluxos de trabalho**, como Para ser aprovado; Preparado para (uma unidade de negócios específica)
+>* **Categorias**, como Mulheres ou Geografia.
+>* **Fluxos de trabalho**, como Para ser aprovado ou preparado para (uma unidade de negócios específica)
 
 
 ## Aplicar tags a uma métrica calculada
