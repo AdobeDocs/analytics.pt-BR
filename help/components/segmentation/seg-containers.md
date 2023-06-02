@@ -4,10 +4,10 @@ keywords: segmentação;segmentos
 title: Containers de segmentos
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: d9087fbb2d7aef49dab42692ba6bc189e3c32d55
+source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 57%
+source-wordcount: '3469'
+ht-degree: 54%
 
 ---
 
@@ -370,7 +370,7 @@ Em resumo, entender como a segmentação funciona em vários detalhamentos de da
 
 Cada detalhamento de dados do segmento tem um escopo ao qual é aplicado. A maioria dos detalhamentos é baseada nas *Exibições de página*. No entanto, vários segmentos valiosos têm por base o contêiner *Visita* e, em menor grau, o contêiner *Visitante*. É importante entender o relatório com base no escopo do contêiner.
 
-Usar o *Página = Casacos de inverno* exemplo de segmento, abaixo estão exemplos dos resultados desse segmento com base em como os dados do contêiner são aplicados e como o escopo dos dados corresponde ao tipo de segmento.
+Usar o `Page equals Winter Coats` exemplo de segmento, abaixo estão exemplos dos resultados desse segmento com base em como os dados do contêiner são aplicados e como o escopo dos dados corresponde ao tipo de segmento.
 
 ### Contêiner de segmento com base na regra de segmento correspondente
 
@@ -407,7 +407,7 @@ Os dados de segmento podem variar com base na persistência de uma dimensão ou 
 
 Em contraste com a dimensão Páginas, o valor do Domínio de referência é vinculado a cada página nessa visita. Por exemplo, o visitante abaixo chega na Página inicial a partir de um site de referência. Portanto, todas as páginas nessa visita recebem o mesmo valor de domínio referenciador.
 
-O segmento do *Domínio de referência é igual a aol.com* abaixo é aplicado ao **Relatório de páginas**.
+A variável `Referring Domain equals aol.com` o segmento abaixo é aplicado ao **Relatório de páginas**.
 
 <table style="table-layout:fixed; border: 0;">
 
@@ -451,9 +451,9 @@ Em uma nova visita, o visitante é enviado de outro site. Portanto, todas as pá
 
 ### Relatar a partir do Contêiner de ocorrências
 
-Como todas as visualizações de página na mesma visita são atribuídas o mesmo valor de Domínio de referência, relatado no nível de contêiner de Ocorrência, onde *Domínio de referência = &quot;aol.com&quot;* retorna todas as páginas listadas na tabela abaixo.
+Como todas as exibições de página na mesma visita recebem o mesmo valor de Domínio de referência, relatando no nível do container Ocorrência, onde `Referring Domain equsls 'aol.com'` retorna todas as páginas listadas na tabela abaixo.
 
-| Domínio de referência = &#39;aol.com&#39; | Exibições de página |
+| Domínio de referência é igual a &quot;aol.com&quot; | Exibições de página |
 |----|---:|
 | Início | 1 |
 | Roupas de inverno | 1 |
@@ -472,9 +472,9 @@ Exibindo dados do contêiner de Ocorrência, um pouco mais de 92.000 visualizaç
 
 ### Relatar a partir do Contêiner de visitas
 
-Se a mesma condição é filtrada no contêiner Visita para um relatório Páginas, então todas as páginas na visita, onde *Domínio de referência = &quot;aol.com&quot;* é verdadeiro. Como o valor do domínio de referência é definido no nível de visita, os relatórios nos níveis de Visualização de página e Visita são os mesmos.
+Se essa mesma condição for filtrada no contêiner Visita de um relatório Páginas, todas as páginas na visita em que `Referring Domain equals 'aol.com'`é verdadeiro. Como o valor do domínio de referência é definido no nível de visita, os relatórios nos níveis de Visualização de página e Visita são os mesmos.
 
-| Domínio de referência = &#39;aol.com&#39; | Exibições de página |
+| Domínio de referência é igual a &quot;aol.com&quot; | Exibições de página |
 |----|---:|
 | Início | 1 |
 | Roupas de inverno | 1 |
@@ -493,11 +493,11 @@ Como todas as páginas têm o mesmo valor de domínio de referência com base na
 
 ### Relatar a partir do Contêiner de visitantes
 
-Do contêiner de Visitante, o Relatório de página lista todas as páginas visualizadas por qualquer visitante, onde o *Domínio de referência é igual a &quot;aol.com&quot;* é verdadeiro. Portanto, se um visitante tiver *&quot;aol.com&quot;* como um domínio referenciador em qualquer momento do histórico (dentro do período definido), todas as páginas no contêiner de Visitante (incluindo visualizações de página em outras visitas) são listadas. Mesmo páginas que não correspondem à condição principal são listadas no relatório porque essas páginas estão incluídas no contêiner de Visitantes. Todas as páginas no contêiner de Visitante são listadas no relatório, mesmo que tenham ocorrido anteriormente e não atendam especificamente às condições.
+No contêiner Visitante, o relatório Página lista todas as páginas visualizadas por qualquer visitante, nas quais `Referring Domain equals 'aol.com'` é verdadeiro. Portanto, se um visitante tiver *&#39;aol.com&#39;* como um domínio referenciador em qualquer momento do histórico (dentro do período definido), todas as páginas no contêiner de Visitante (incluindo visualizações de página em outras visitas) são listadas. Mesmo páginas que não correspondem à condição principal são listadas no relatório porque essas páginas estão incluídas no contêiner de Visitantes. Todas as páginas no contêiner de Visitante são listadas no relatório, mesmo que tenham ocorrido anteriormente e não atendam especificamente às condições.
 
-Em um relatório Domínio de referência, *Domínio de referência = &quot;aol.com&quot;* é verdadeiro em quatro visualizações de página, mas *Domínio de referência = &quot;weather.com&quot;* é verdadeiro em outras páginas com ocorrência do visitante. No contêiner de Visitantes, você obtém uma lista de Visitantes onde &quot;aol.com&quot; é verdadeiro. Mas também fornece páginas em que o domínio de referência é &quot;weather.com&quot;, não o valor que correspondeu à solicitação inicial no segmento.
+Em um relatório de Domínio de referência, `Referring Domain equals 'aol.com'` é verdadeiro em exibições de quatro páginas, mas `Referring Domain equals "weather.com"` é verdadeiro nas outras páginas em que o visitante acessou. No contêiner de Visitantes, você obtém uma lista de Visitantes em que &quot;aol.com&quot; é verdadeiro. Mas também fornece páginas em que o domínio de referência é &quot;weather.com&quot;, não o valor que correspondeu à solicitação inicial no segmento.
 
-| Visita 1<br/>Domínio de referência = &#39;aol.com&#39; | <br/>Exibições de página |
+| Visita 1<br/>Domínio de referência é igual a &quot;aol.com&quot; | <br/>Exibições de página |
 |----|---:|
 | Início | 1 |
 | Roupas de inverno | 1 |
@@ -510,15 +510,15 @@ Em um relatório Domínio de referência, *Domínio de referência = &quot;aol.c
 | Casaco de inverno | 1 |
 | Compra | 1 |
 
-| Contêiner de visitantes<br/>Domínio de referência = &#39;aol.com&#39; | Exibições de página |
+| Contêiner de visitantes<br/>Domínio de referência é igual a &quot;aol.com&quot; | Exibições de página |
 |----|---:|
-| Roupas de inverno<br/>Domínio de referência = &#39;aol.com&#39; | 1 |
-| Roupas de inverno<br/>Domínio de referência = &#39;weather.com&#39; | 1 |
-| Início <br/>Domínio de referência = &#39;aol.com&#39; | 1 |
-| Casaco de inverno <br/>Domínio de referência = &#39;aol.com&#39; | 1 |
-| Comprar<br/>Domínio de referência = &#39;aol.com&#39; | 1 |
-| Botas de inverno<br/>Domínio de referência = &#39;weather.com&#39; | 1 |
-| Chapéus de inverno<br/>Domínio de referência = &#39;weather.com&#39; | 1 |
+| Roupas de inverno<br/>Domínio de referência: &quot;aol.com&quot; | 1 |
+| Roupas de inverno<br/>Domínio de referência: &#39;weather.com&#39; | 1 |
+| Início <br/>Domínio de referência: &quot;aol.com&quot; | 1 |
+| Casaco de inverno <br/>Domínio de referência: &quot;aol.com&quot; | 1 |
+| Comprar<br/>Domínio de referência: &quot;aol.com&quot; | 1 |
+| Botas de inverno<br/>Domínio de referência: &#39;weather.com&#39; | 1 |
+| Chapéus de inverno<br/>Domínio de referência: &#39;weather.com&#39; | 1 |
 
 
 <!--![](assets/container_overview_persist_Visitor.png)-->
