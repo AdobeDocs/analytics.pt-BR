@@ -5,10 +5,10 @@ title: Compartilhar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 53%
+source-wordcount: '1852'
+ht-degree: 52%
 
 ---
 
@@ -129,6 +129,10 @@ Você pode conceder [acesso somente leitura](/help/analyze/analysis-workspace/cu
 >* Um projeto pode se tornar inacessível se muitos usuários tentarem acessar um determinado link ao mesmo tempo. Por padrão, mais de 190 pessoas podem acessar um único link a cada 5 minutos. Se sua organização atingir esse limite, aguarde 5 minutos e tente acessar o link novamente.
 
 
+A demonstração em vídeo a seguir e a documentação que a acompanha descrevem as opções associadas ao compartilhamento de um link com qualquer pessoa:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 Para compartilhar um projeto do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics:
 
 1. Abra o projeto do Analysis Workspace que deseja compartilhar.
@@ -149,7 +153,7 @@ Para compartilhar um projeto do Analysis Workspace com pessoas que não têm ace
 
    * **[!UICONTROL Exigir autenticação da Experience Cloud]:**
 
-      Quando essa opção está habilitada, somente os usuários que podem fazer logon na organização da Adobe Experience Cloud em que o projeto que você está compartilhando foi criado podem acessá-lo.
+      Quando essa opção está habilitada, os únicos usuários que podem acessar o projeto são aqueles que podem fazer logon na organização da Adobe Experience Cloud onde o projeto que você está compartilhando foi criado. No entanto, os usuários com os quais você compartilha não precisam ter acesso ao Adobe Analytics.
 
       Os administradores do Analytics podem configurar essa preferência para a empresa, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). Você pode encontrar os seguintes cenários, dependendo de como o administrador configurou essa opção:
 
