@@ -3,16 +3,16 @@ title: Coleta de dados regionais
 description: Informação sobre a coleta de dados regionais
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f75d123c93d446776492dd933d03d32c2496fa69
+source-git-commit: a4dd138f0f2198da66caa272dd62b46f24b578b2
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 36%
+source-wordcount: '482'
+ht-degree: 35%
 
 ---
 
 # Coleta de dados regionais
 
-A Adobe Experience Cloud usa a RDC (Coleta de dados regionais) para que as interações entre seus visitantes e o Adobe ocorram o mais próximo possível de seus visitantes. Uma vez que os dados são coletados regionalmente em um Centro de coleta de dados (DCC), eles são transferidos por uma conexão segura para um Centro de processamento de dados (DPC). Após o processamento, os dados ficam disponíveis para produtos na Adobe Experience Cloud. Para alterar o Tipo de RDC, entre em contato com o Atendimento ao cliente do Adobe.
+A Adobe Experience Cloud usa a RDC (Coleta de dados regionais) para que as interações entre seus visitantes e o Adobe ocorram o mais próximo possível de seus visitantes. Depois que os dados são coletados regionalmente em um Centro de coleta de dados (DCC, também conhecido como site do Edge), eles são encaminhados por uma conexão segura para um Centro de processamento de dados (DPC, também conhecido como site principal). Após o processamento, os dados ficam disponíveis para produtos na Adobe Experience Cloud. Para alterar o tipo de RDC, entre em contato com o Atendimento ao cliente da Adobe.
 
 O processo de coleta de dados regional usa as seguintes etapas:
 
@@ -22,8 +22,8 @@ O processo de coleta de dados regional usa as seguintes etapas:
 
 O uso da coleta de dados regional oferece vários benefícios:
 
-* **Desempenho**: Com a RDC, seus visitantes se conectam ao DCC mais próximo. Essa otimização fornece o tempo de resposta mais rápido, resultando em um rastreamento mais preciso e em tempos de carregamento mais rápidos.
-* **Redundância**: Se houver uma comunicação entre o DCC e o DPC, a infraestrutura RDC da Adobe salva os dados localmente, encaminhando-os para o DPC quando as comunicações forem restauradas.
+* **Desempenho**: com a RDC, seus visitantes se conectam ao DCC mais próximo. Essa otimização fornece o tempo de resposta mais rápido, resultando em rastreamento mais preciso e em tempos de carregamento mais rápidos.
+* **Redundância**: Se houver uma interrupção na comunicação entre o DCC e o DPC, a infraestrutura do RDC do Adobe salva os dados localmente e, em seguida, os encaminha para o DPC quando as comunicações forem restauradas.
 
 Atualmente, a RDC inclui as seguintes localidades (sujeito a mudança):
 
@@ -35,7 +35,7 @@ Atualmente, a RDC inclui as seguintes localidades (sujeito a mudança):
 
 {style="table-layout:auto"}
 
-*O RDC da China exige o pacote do complemento da China. Consulte [Otimização de desempenho na China](#china-performance-optimization) abaixo.
+*O RDC da China exige o pacote do complemento da China. Consulte [Otimização do desempenho da China](#china-performance-optimization) abaixo.
 
 >[!NOTE]
 >
@@ -54,13 +54,13 @@ Atualmente, a RDC inclui as seguintes localidades (sujeito a mudança):
 
 {style="table-layout:auto"}
 
-*Somente China e RDCs do tipo Global + China exigem o pacote de complemento para a China. Global + China encaminha dados originados dentro da China para a RDC do Adobe, enquanto roteia dados originados fora da China para a RDC mais próxima fora da China. Consulte [Otimização de desempenho na China](#china-performance-optimization) abaixo.
+*Somente China e RDCs do tipo Global + China exigem o pacote de complemento para a China. Global + China roteia dados originários da China para a RDC da China Adobe, enquanto os dados originários da China são roteados para a RDC mais próxima fora da China. Consulte [Otimização do desempenho da China](#china-performance-optimization) abaixo.
 
-## Otimização de desempenho na China
+## Otimização do desempenho da China
 
-O pacote complementar RDC da China (Otimização de Desempenho da China) é um complemento debitável do Adobe Analytics. A Otimização de desempenho na China continental permite que os usuários da China enviem esses dados diretamente para a coleta de dados do Adobe dentro da China, em vez de outros locais. Essa otimização melhora os tempos de carregamento de página e a precisão dos dados em vez de enviar os dados para locais fora da China. Os dados são transferidos para um dos Centros de Processamento de Dados Adobe (DPC) fora da China. Entre em contato com o representante de vendas do Adobe para obter mais informações.
+O pacote complementar RDC da China (Otimização de desempenho na China) é um complemento pago do Adobe Analytics. A otimização de desempenho do Adobe na China continental permite que clientes na China enviem esses dados diretamente para servidores de coleta de dados do Adobe na China, em vez de outros locais globalmente. Essa otimização melhora os tempos de carregamento de página e a precisão dos dados em relação ao envio de dados para locais fora da China. Os dados são transferidos para um dos Centros de processamento de dados (DPCs) do Adobe fora da China. Entre em contato com o representante de vendas da Adobe para obter mais informações.
 
 >[!NOTE]
 >
->O pacote de complemento RDC da China não é compatível com o [Web SDK](/help/implement/aep-edge/overview.md).
+>O pacote complementar RDC da China não é compatível com o [SDK da Web](/help/implement/aep-edge/overview.md).
 
