@@ -3,9 +3,9 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 2b1b681039fded30578ea9f46477e68bdc5630ca
+source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1183'
 ht-degree: 69%
 
 ---
@@ -237,7 +237,9 @@ Um segmento sequencial filtra conjuntos de dados com base nas ações do usuári
 
 ## Vídeo de segmentação de instruções {#segment-video}
 
-Este vídeo fornece uma breve visão geral do que são os contêineres de segmento e como usá-los: [Contêineres de segmentos no Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=pt-BR)
+Este vídeo fornece uma breve visão geral do que são os contêineres de segmento e como usá-los:
+
+![](https://video.tv.adobe.com/v/25401)
 
 
 ## Acesse as Ferramentas de segmentação {#access}
