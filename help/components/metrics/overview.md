@@ -3,10 +3,10 @@ title: Visão geral das métricas
 description: Visualize quantidades de itens ou dados da dimensão ao longo do tempo.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ Por exemplo, ao combinar a dimensão &quot;Página&quot; com a métrica &quot;Vi
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-Se não for possível localizar uma determinada métrica na página de ajuda, ela provavelmente será um [evento personalizado](custom-events.md) ou uma [métrica calculada](../c-calcmetrics/cm-overview.md).
+Se você não conseguir encontrar a página de ajuda para uma determinada métrica, ela provavelmente será uma [evento personalizado](custom-events.md) ou um [métrica calculada](../c-calcmetrics/cm-overview.md).
 
 * Se a métrica for um evento personalizado, consulte um administrador do Analytics em sua organização ou o [documento de design de solução ](/help/implement/prepare/solution-design.md)do conjunto de relatórios.
 * Se a métrica for uma métrica calculada, clique no ícone de informações para determinar sua fórmula.
@@ -30,3 +30,7 @@ Se não for possível localizar uma determinada métrica na página de ajuda, el
 ## Adicionar descrições de métrica
 
 Os administradores do Analytics podem adicionar descrições de métricas e outros componentes dentro do Conjunto de relatórios ou diretamente do Analysis Workspace. Para obter informações sobre como adicionar descrições às métricas, consulte [Adicionar descrições de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+
+## Usar métricas no Analysis Workspace
+
+Para obter informações sobre como usar métricas no Analysis Workspace, consulte &quot;Usar métricas no Analysis Workspace&quot; em [Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md).

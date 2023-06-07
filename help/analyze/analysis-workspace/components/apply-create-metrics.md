@@ -4,9 +4,9 @@ title: Métricas no Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: e0a10540bdfbd9fa3694ff3c7a8585eeb87eaad8
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '416'
 ht-degree: 24%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 24%
 # Métricas
 
 As métricas permitem quantificar os pontos de dados no Analysis Workspace. Elas são usadas com mais frequência como colunas em uma visualização e vinculadas a dimensões.
+
+## Tipos de métricas
 
 O Adobe oferece vários tipos de métricas para uso no Analysis Workspace:
 
@@ -29,7 +31,17 @@ O Adobe oferece vários tipos de métricas para uso no Analysis Workspace:
 
    ![Modelo de métrica calculada](assets/calculated-metric-template.png)
 
-As métricas são flexíveis em seu uso no Analysis Workspace. Arraste uma métrica para uma Tabela de forma livre vazia para ver a tendência da métrica no período do projeto. Você também pode arrastar uma métrica quando uma dimensão estiver presente para ver essa métrica em comparação com cada item de dimensão. Arrastar uma métrica para cima de um cabeçalho de métrica existente a substitui e arrastar uma métrica ao lado de um cabeçalho permite ver ambas as métricas lado a lado.
+## Usar métricas no Analysis Workspace
+
+As métricas podem ser usadas de várias maneiras no Analysis Workspace. É possível:
+
+* Arraste uma métrica para uma Tabela de forma livre vazia para ver a tendência da métrica no período do projeto.
+
+* Arraste uma métrica quando uma dimensão estiver presente para ver essa métrica em comparação a cada item de dimensão.
+
+* Arraste uma métrica para cima de um cabeçalho de métrica existente para substituí-la.
+
+* Arraste uma métrica ao lado de um cabeçalho para ver ambas as métricas lado a lado.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
