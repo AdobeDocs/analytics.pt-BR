@@ -4,9 +4,9 @@ keywords: Métricas calculadas, Métricas derivadas, Métricas calculadas avanç
 title: Métricas calculadas e calculadas avançadas (derivadas)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '591'
 ht-degree: 88%
 
 ---
@@ -39,14 +39,10 @@ Esta é uma comparação dos recursos de Métricas calculadas e Métricas calcul
 É possível
 
 * Crie métricas no [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição].
-* Criar métricas segmentadas derivadas do tempo de execução do relatório, sem precisar alterar a implementação. Essas métricas podem ser exibidas historicamente, pois se baseiam em segmentos. Veja um vídeo sobre métricas sem implementação:
-
-   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+* Criar métricas segmentadas derivadas do tempo de execução do relatório, sem precisar alterar a implementação. Essas métricas podem ser exibidas historicamente, pois se baseiam em segmentos.
 
 * Compartilhe métricas em conjuntos de relatórios. Isso significa que todas as métricas recém-criadas se aplicam a todos os conjuntos de relatórios da mesma empresa de logon.
-* (Somente métricas calculadas avançadas) Segmente as métricas. Por exemplo, é possível criar uma métrica para “Novos visitantes”, com uma contagem de pessoas para as quais esta é a primeira sessão. Veja um vídeo sobre este tópico:
-
-   >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
+* (Somente métricas calculadas avançadas) Segmente as métricas. Por exemplo, é possível criar uma métrica para “Novos visitantes” com uma contagem de pessoas para as quais esta é a primeira sessão.
 
 * (Somente métricas calculadas avançadas) Incorpore funções estatísticas para ajudá-lo a descrever melhor seus dados. Por exemplo, é possível contar o número de itens em um relatório ou adicionar o número de desvios padrão para cada item.
 
