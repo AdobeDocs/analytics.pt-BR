@@ -5,16 +5,30 @@ subtopic: data feeds
 title: Conteúdos do feed de dados - visão geral
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 92%
 
 ---
 
 # Conteúdos do feed de dados - visão geral
 
-Esta seção descreve os arquivos encontrados na entrega do feed de dados.
+As seções a seguir descrevem como acessar e entender os arquivos encontrados na entrega de um feed de dados.
+
+## Acessar conteúdo do feed de dados
+
+Para acessar o conteúdo de um feed de dados:
+
+1. Faça logon no site de destino do feed de dados.
+
+   É o site de destino que você configura ao criar o feed de dados, como um bucket do Amazon S3 ou da Google Cloud Platform.
+
+1. Baixe o arquivo de feed de dados compactado no computador local.
+
+1. Descompacte o arquivo compactado usando um programa compatível com extensões de arquivo `.tar.gz`.
+
+1. Abra o arquivo `hit_data.tsv` na planilha ou no aplicativo de banco de dados preferido para ver os dados brutos desse dia. —>
 
 ## Arquivo manifest {#feed-manifest}
 

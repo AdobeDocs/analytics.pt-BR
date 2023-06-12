@@ -3,10 +3,10 @@ title: Interface do usuário do feed de dados
 description: Saiba como navegar na interface do feed de dados.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '646'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ Clique na guia Trabalhos para ver os trabalhos individuais criados por cada um d
 
 ### Adicionar
 
-Próximo às guias de feeds e trabalhos, clique no botão + [!UICONTROL Adicionar] para criar um novo feed. Consulte [Adicionar um feed](create-feed.md) para obter mais informações.
+Próximo às guias de feeds e trabalhos, clique no botão + [!UICONTROL Adicionar] para criar um novo feed. Consulte [Criar um feed de dados](create-feed.md) para obter mais informações.
 
 ### Colunas
 
@@ -66,8 +66,8 @@ Cada feed criado mostra várias colunas fornecendo informações sobre ele. Cliq
 * **ID do conjunto de relatórios**: o identificador exclusivo do conjunto de relatórios.
 * **Colunas de dados**: quais colunas de dados estão ativas para o feed. Na maioria dos casos, há colunas demais para exibir nesse formato.
 * **Intervalo**: indica se o feed é por hora ou por dia.
-* **Tipo de destino**: o tipo de destino do feed. Por exemplo, FTP, Amazon S3 ou Azure.
-* **Host de destino**: o local onde o arquivo é colocado. Por exemplo, `ftp.example.com`.
+* **Tipo de destino**: o tipo de destino do feed. Por exemplo, Amazon S3, GCP ou Azure.
+* **Host de destino**: o local onde o arquivo é colocado.
 * **Proprietário**: a conta do usuário que criou o feed.
 * **Status**: o status do feed.
    * Ativo: o feed é operacional.
