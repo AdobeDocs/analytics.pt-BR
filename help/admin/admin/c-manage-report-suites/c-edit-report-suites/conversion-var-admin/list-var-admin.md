@@ -3,31 +3,27 @@ title: Variáveis da Lista
 description: Crie e configure variáveis de lista para usar em relatórios.
 feature: Admin Tools
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 92%
 
 ---
 
 # Variáveis da Lista
 
-Crie e configure variáveis de lista para usar em relatórios. Defina seus valores de delimitador, expiração, alocação e máximo aqui.
+Crie e configure variáveis de lista para usar em relatórios. Defina os valores de delimitador, expiração, alocação e máximo.
 
-Você pode acessar a configuração no Admin Console:
-
-1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**.
-2. Selecione o conjunto de relatórios.
-3. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Listar variáveis]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Buscar métodos]**
 
 * **Nome**: cada valor delimitado pode conter um máximo de 255 caracteres (ou menos se estiver usando caracteres multibyte). Esse é o comprimento máximo para cada elemento.
 * **Delimitador de valor**: O caractere usado para separar valores na List Var. Com maior frequência, são caracteres como vírgulas, dois pontos, barras verticais, ou algo parecido.
 
-   >[!NOTE]
-   >
-   >Caracteres multibyte não são suportados como delimitadores em Vars de lista. O delimitador deve ser de byte único.
+  >[!NOTE]
+  >
+  >Caracteres multibyte não são suportados como delimitadores em Vars de lista. O delimitador deve ser de byte único.
 
-* **Expiração**: Parecida com a expiração de eVar, determina a quantidade de tempo que pode ocorrer entre a List Var e o evento de conversão para que sejam relacionados.
+* **Expiração**: Semelhante à expiração de eVar, esse campo determina a quantidade de tempo que pode ocorrer entre a Var de lista e o evento de conversão para que eles sejam relacionados.
    * **Em uma exibição de página ou nível de visita**: Eventos bem-sucedidos além de exibição de página ou visita não vinculariam a qualquer valor na List Var.
    * **Com base no período, como dia, semana, mês, etc.**: Eventos bem-sucedidos além do período especificado não vinculariam a qualquer valor na List Var. Um número personalizado de dias também pode ser definido aqui.
    * **Eventos de conversão específicos**: Quaisquer outros eventos de bem-sucedidos acionados depois do evento específico designado não vinculariam a qualquer valor na List Var.

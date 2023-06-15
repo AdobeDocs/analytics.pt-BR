@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Conteúdos do feed de dados - visão geral
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 92%
+source-wordcount: '981'
+ht-degree: 77%
 
 ---
 
@@ -81,24 +81,24 @@ Os arquivos de pesquisa são entregues em conjunto em um zip compactado, o qual 
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv] (personalizado para este feed de dados)
-* [!DNL browser.tsv]
-* [!DNL browser_type.tsv]
-* [!DNL color_depth.tsv]
-* [!DNL connection_type.tsv]
-* [!DNL country.tsv]
-* [!DNL javascript_version.tsv]
-* [!DNL languages.tsv]
-* [!DNL operating_systems.tsv]
-* [!DNL plugins.tsv]
-* [!DNL resolution.tsv]
-* [!DNL referrer_type.tsv]
-* [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv] (personalizado para este feed de dados)
+* **`column_headers.tsv`**: uma única linha que contém os cabeçalhos de coluna para `hit_data.tsv`.
+* **`browser.tsv`**: mapeia a ID do navegador (a variável `browser` coluna de feed) para o nome amigável do navegador.
+* **`browser_type.tsv`**: mapeia a ID do navegador (a variável `browser` coluna de feed) para o tipo de navegador.
+* **`color_depth.tsv`**: Mapeia a ID de intensidade de cor (a variável `color` coluna de feed) para intensidade de cor.
+* **`connection_type.tsv`**: mapeia a ID do tipo de conexão (a variável `connection_type` coluna de feed) ao tipo de conexão.
+* **`country.tsv`**: mapeia a ID do país (a variável `country` coluna do feed) ao nome do país.
+* **`javascript_version.tsv`**: Mapeia a ID da versão do JavaScript (a variável `javascript` feed (coluna de feed) para a versão do JavaScript.
+* **`languages.tsv`**: mapeia a ID do idioma (a variável `language` coluna de feed) para o idioma.
+* **`operating_systems.tsv`**: mapeia a ID do sistema operacional (a variável `os` coluna feed) ao nome do sistema operacional.
+* **`plugins.tsv`**: mapeia as IDs do plug-in (a variável `plugin` coluna de feed) para cada nome de plug-in respectivo.
+* **`resolution.tsv`**: Mapeia a ID de resolução (a variável `resolution` coluna de alimentação) para a resolução do monitor.
+* **`referrer_type.tsv`**: Mapeia a ID do tipo de referenciador (a variável `ref_type` coluna de feed) para o tipo de referenciador.
+* **`search_engines.tsv`**: mapeia a ID do mecanismo de pesquisa (a variável `search_engine` coluna feed) ao nome do mecanismo de pesquisa.
+* **`event.tsv`**: Mapeia cada ID de evento (a variável `event_list` coluna feed) ao respectivo nome de evento.
 
 ## Arquivos de dados de hit
 
-Os dados de hit são fornecidos em um arquivo [!DNL hit_data.tsv]. A quantidade de dados nesse arquivo é determinada pelo formato de entrega (por hora ou por dia e, ainda, em único arquivo ou vários arquivos). Esse arquivo contém somente os dados de hit. Os cabeçalhos da coluna são entregues separadamente com os arquivos de pesquisa. Cada linha desse arquivo contém uma única chamada de servidor.
+Os dados de hit são fornecidos em um arquivo `hit_data.tsv`. A quantidade de dados nesse arquivo é determinada pelo formato de entrega (por hora ou por dia e, ainda, em único arquivo ou vários arquivos). Esse arquivo contém somente os dados de hit. Os cabeçalhos da coluna são entregues separadamente com os arquivos de pesquisa. Cada linha desse arquivo contém uma única chamada de servidor.
 
 Os arquivos entregues pela Adobe variam com base no tipo de feed de dados configurados. Todos os arquivos são codificados usando o ISO-8859-1.
 
