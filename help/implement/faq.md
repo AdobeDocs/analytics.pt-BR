@@ -4,7 +4,7 @@ description: Perguntas frequentes sobre a implantação e links para mais inform
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -48,7 +48,6 @@ var s = new Object();
 >* Altere o conjunto de relatórios para um valor inválido, pois uma carga desnecessária será criada nos servidores da Adobe.
 >* Remova o arquivo `s_code.js` completamente, a menos que você também remova todas as referências ao arquivo em cada página.
 >* Altere a variável `trackingServer` para apontar para longe da Adobe. O AppMeasurement ainda envia solicitações de imagem, que retornam erros 404.
-
 
 ## Executei o AppMeasurement por meio de um analisador de código, e ele sinalizou seu uso de `Math.random()` como um possível risco de segurança. O `Math.random()` é usado com algum dado confidencial?
 
