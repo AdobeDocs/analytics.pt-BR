@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1190'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -53,22 +53,22 @@ Os exemplos de segmentos incluem [!UICONTROL Visitantes de dispositivo móvel], 
 
 [**Intervalos de datas**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=pt-BR) são o intervalo de datas em que você faz a análise. Eles podem ser encontrados no painel Componente à esquerda (seção roxa) e normalmente são aplicados no calendário de cada painel.
 
-Você pode tornar os componentes do intervalo de datas relativos ao calendário do painel. Para obter informações adicionais, consulte [Sobre intervalos de datas relativos do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+É possível tornar os componentes do intervalo de datas relativos ao calendário do painel. Para obter informações adicionais, consulte [Sobre intervalos de datas relativos ao painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
 Exemplos de intervalos de datas incluem julho de 2019, [!UICONTROL Últimas 4 semanas] e [!UICONTROL Este mês]. Os intervalos de datas são fornecidos pela Adobe, são aplicados no [calendário do painel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR) ou são criados usando o [Criador de intervalo de datas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=pt-BR).
 
 ![](assets/date-ranges.png)
 
 
-## Gerenciar componentes {#actions}
+## Gerenciamento de componentes {#actions}
 
-Você pode gerenciar componentes diretamente no painel esquerdo.
+É possível gerenciar componentes diretamente no painel esquerdo.
 
-1. Clique com o botão direito em um componente.
+1. Clique com o botão direito do mouse em um componente.
 
    Ou
 
-   Selecione um componente e selecione a **Ação** Ícone (3 pontos) na parte superior da lista de componentes.
+   Selecione um componente e, em seguida, clique no ícone de **Ação** (3 pontos) na parte superior da lista de componentes.
 
    >[!TIP]
    >
@@ -77,10 +77,10 @@ Você pode gerenciar componentes diretamente no painel esquerdo.
 
    ![](assets/component-actions.png)
 
-   | Ação do componente | Descrição |
+   | Ação de componente | Descrição |
    |--- |--- |
    | [!UICONTROL **Tag**] | Organize ou gerencie componentes aplicando tags. Em seguida, você pode pesquisar por tag no painel esquerdo clicando no filtro ou digitando #. As tags também atuam como filtros nos gerenciadores de componentes. |
-   | [!UICONTROL **Marcar como favorito**] | Adicione o componente à sua lista de favoritos. Como tags, você pode pesquisar por Favoritos no painel esquerdo e filtrar por eles nos gerenciadores de componentes. |
+   | [!UICONTROL **Adicionar aos favoritos**] | Adicione o componente à sua lista de favoritos. Como tags, você pode pesquisar por Favoritos no painel esquerdo e filtrar por eles nos gerenciadores de componentes. |
    | [!UICONTROL **Aprovar**] | Marque os componentes como Aprovado para avisar aos usuários que o componente é aprovado pela organização. Como tags, você pode pesquisar por Aprovado no painel esquerdo e filtrar por eles nos gerenciadores de componentes. |
    | [!UICONTROL **Compartilhar**] | Compartilhe componentes com usuários em sua organização. Essa opção está disponível somente para componentes personalizados, como segmentos ou métricas calculadas. |
    | [!UICONTROL **Excluir**] | Exclua componentes que não são mais necessários. Essa opção está disponível somente para componentes personalizados, como segmentos ou métricas calculadas. |
@@ -93,19 +93,19 @@ Pesquise, filtre e classifique a lista de componentes no painel esquerdo do Anal
 
 ### Pesquisar a lista de componentes
 
-1. Selecione o **Componentes** ícone ![Ícone Componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) no painel esquerdo.
+1. Selecione o ícone de **Componentes**, ![Ícone de componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg), no painel esquerdo.
 
-2. No campo de pesquisa, comece digitando o nome do componente que deseja usar em seu projeto.
+2. No campo de pesquisa, comece a digitar o nome do componente que deseja usar em seu projeto.
 
-   O tipo de componente pode ser identificado por cor e ícone. **Dimension** ![Ícone do Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) são laranja, **Segmentos** ![Ícone de Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) são azuis, **Intervalos de datas** ![Ícone de intervalo de datas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) são roxas, e **Métricas** ![Ícone de Métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) são verdes. O ícone de Adobe indica um modelo de métrica calculada ou um modelo de segmento, e o ícone da calculadora ![Ícone da Calculadora](assets/calculated-metric-icon-created.png) indicou uma métrica calculada que foi criada por um administrador do Analytics em sua organização.
+   O tipo de componente pode ser identificado tanto por cor como ícone. **Dimensões** e ![Ícone de dimensão](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) são laranjas, **Segmentos** e ![Ícone de segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) são azuis, **Intervalos de datas** e ![Ícone de intervalo de datas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) são roxos e **Métricas** e ![Ícone de métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) são verdes. O ícone da Adobe indica um modelo de métrica calculada ou um modelo de segmento e o ícone de calculadora, ![Ícone de Calculadora](assets/calculated-metric-icon-created.png), indica uma métrica calculada que foi criada por um administrador do Analytics em sua organização.
 
 3. Selecione o componente quando ele aparecer na lista suspensa.
 
-### Filtrar a lista de componentes
+### Filtragem da lista de componentes
 
-1. Selecione o **Componentes** ícone ![Ícone Componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) no painel esquerdo.
+1. Selecione o ícone de **Componentes**, ![Ícone de componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg), no painel esquerdo.
 
-2. Selecione o **Filtro** ícone ![Ícone Filtro do dicionário de dados](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
+2. Selecione o ícone de **Filtro** ![Ícone de filtro do dicionário de dados](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
 
    Ou
 
@@ -124,16 +124,16 @@ Pesquise, filtre e classifique a lista de componentes no painel esquerdo do Anal
    | [!UICONTROL **Exibir tudo**] | Mostrar todos os componentes. Essa opção está disponível somente para administradores. |
    | [!UICONTROL **Não aprovado**] | Mostrar somente componentes que ainda não foram marcados como Aprovado por um administrador. Como administrador, isso é útil ao identificar componentes que exigem sua análise e aprovação. Essa opção está disponível somente para administradores. |
 
-4. (Opcional) Para aprimorar ainda mais a lista, você pode classificar a lista de componentes, conforme descrito em [Classificar a lista de componentes](#sort-the-component-list).
+4. (Opcional) Para aprimorar ainda mais a lista, é possível classificar a lista de componentes, conforme descrito em [Classificação da lista de componentes](#sort-the-component-list).
 
-### Classificar a lista de componentes
+### Classificação da lista de componentes
 
 {{release-limited-testing-section}}
 
-1. (Opcional) Aplique filtros à lista de componentes, conforme descrito em [Filtrar a lista de componentes](#filter-the-component-list).
+1. (Opcional) Aplique filtros à lista de componentes, conforme descrito em [Filtragem da lista de componentes](#filter-the-component-list).
 
-2. Selecione o **Componentes** ícone ![Ícone Componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) no painel esquerdo.
+2. Selecione o ícone de **Componentes**, ![Ícone de componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg), no painel esquerdo.
 
-3. Selecione o **Ordenar** ícone ![Ícone Classificar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), em seguida, selecione qualquer uma das seguintes opções de filtro para classificar a lista de componentes:
+3. Selecione o ícone de **Classificação** ![Ícone de classificação de componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), em seguida, selecione qualquer uma das seguintes opções de filtro para classificar a lista de componentes:
 
    {{components-sort-options}}
