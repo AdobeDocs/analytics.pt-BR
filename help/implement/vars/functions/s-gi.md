@@ -4,9 +4,9 @@ description: Crie e rastreie instâncias do AppMeasurement.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 73%
 
 A função `s_gi()` instancia ou encontra uma instância do AppMeasurement pelo ID de conjunto de relatórios. O AppMeasurement acompanha cada instância criada e `s_gi()` retorna a instância existente para um conjunto de relatórios, se existir. Se uma instância não existe, uma nova instância é criada.
 
-## Instanciar um objeto de rastreamento usando a extensão SDK da Web
+## Instanciar um objeto de rastreamento usando a extensão do SDK da Web
 
-A extensão SDK da Web instancia e gerencia o objeto de rastreamento para você. No entanto, é possível personalizar o nome do objeto de rastreamento nas configurações da extensão:
+A extensão do SDK da Web instancia e gerencia o objeto de rastreamento para você. No entanto, é possível personalizar o nome do objeto de rastreamento nas configurações da extensão:
 
-1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** em Adobe Experience Platform Web SDK.
-1. Altere o [!UICONTROL Nome] para o valor desejado. O valor padrão é `alloy`.
+1. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no SDK da Web da Adobe Experience Platform.
+1. Altere o campo [!UICONTROL Nome] para o valor desejado. Seu valor padrão é `alloy`.
 
-## Instanciar um objeto de rastreamento implementando manualmente o SDK da Web
+## Instanciar um objeto de rastreamento manualmente implementando o SDK da Web
 
-O código a seguir carrega o SDK da Web e instancia um objeto de rastreamento. Você pode personalizar o nome do objeto de rastreamento alterando a string `"alloy"` ao final do script integrado para o valor desejado.
+O código a seguir carrega o SDK da Web e instancia um objeto de rastreamento. É possível personalizar o nome do objeto de rastreamento alterando a string `"alloy"` no final do script integrado para o valor desejado.
 
 ```js
 <script>
@@ -37,7 +37,7 @@ O código a seguir carrega o SDK da Web e instancia um objeto de rastreamento. V
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-Consulte [Instalar o SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=pt-BR) na documentação do SDK da Web para obter mais informações.
+Consulte [Instalação do SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=pt-BR) na documentação do SDK da Web para obter mais informações.
 
 ## Instanciar um objeto de rastreamento usando a extensão do Adobe Analytics
 
