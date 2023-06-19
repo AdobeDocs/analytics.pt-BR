@@ -4,7 +4,7 @@ description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -376,24 +376,24 @@ Data de lançamento: **18 de setembro de 2014**
 
 * A variável `tagContainerMarker` que permite que a implementação especifique até 4 caracteres que anexados à cadeia de caracteres da versão junto com um delimitador de caractere de travessão foi adicionada. Isto é usado pelo Dynamic Tag Management.
 
-   ```js
-   // JavaScript
-   s.tagContainerMarker = "D1.0";
-   
-   // Data Collection request
-   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
-   ```
+  ```js
+  // JavaScript
+  s.tagContainerMarker = "D1.0";
+  
+  // Data Collection request
+  //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
+  ```
 
-   Os 4 caracteres são limitados aos que são permitidos nos caminhos de arquivo URL, como caracteres alfanuméricos e pontos.
+  Os 4 caracteres são limitados aos que são permitidos nos caminhos de arquivo URL, como caracteres alfanuméricos e pontos.
 
 * Nas páginas que são marcadas duas vezes com o H Code, foi solucionado um loop que poderia ocorrer durante o rastreamento de link automático (fazer download e sair) quando o rastreamento de link forçado está ativado (padrão nos navegadores Webkit). Além disso, foi adicionada uma proteção geral no rastreamento de link automático para impedir loops similares. Essa proteção limita cliques repetidos no rastreamento automático de link no *mesmo* objeto a um clique a cada 10 segundos. Essa proteção é aplicada somente no monitoramento automático de link, sendo assim, as chamadas do monitoramento de link manual (s.tl) não ficam limitadas. Cliques em diferentes objetos também não são afetados por essa proteção e serão rastreados.
 * Solucionado o gerenciamento de objeto clicado quando um atraso é necessário.
 * Solucionado o problema gerava um contagem de visualização de página dupla quando o s.t era chamado a partir de uma função de link clicável, se a API de Visitante não tivesse os valores necessários.
 * Suporte para HTTP POST.
 
-   >[!IMPORTANT]
-   >
-   >Em uma chamada do [!DNL Analytics], para usar o método POST em vez do método GET no [!DNL AppMeasurement] (um método de correção de [URLs truncadas no IE](https://helpx.adobe.com/br/analytics/kb/shortening-image-request-urls.html)), é necessário usar a implantação do Serviço de ID de visitante mais recente da Experience Cloud.
+  >[!IMPORTANT]
+  >
+  >Em uma chamada do [!DNL Analytics], para usar o método POST em vez do método GET no [!DNL AppMeasurement] (um método de correção de [URLs truncadas no IE](https://helpx.adobe.com/br/analytics/kb/shortening-image-request-urls.html)), é necessário usar a implantação do Serviço de ID de visitante mais recente da Experience Cloud.
 
 ## Versão 1.4
 
@@ -482,11 +482,11 @@ Data de lançamento: **18 de julho de 2013**
 
 * Agora, o hash/fragmento é omitido pelo rastreamento automático de link. Antes, o URL a seguir era rastreado automaticamente se o `href` inteiro terminasse em :`.pdf`
 
-   ```js
-   <a href="index.htm#anchor.pdf">Test Link</a>
-   ```
+  ```js
+  <a href="index.htm#anchor.pdf">Test Link</a>
+  ```
 
-   Agora, o hash/fragmento é omitido para que o link seja rastreado somente quando o nome do arquivo terminar em uma extensão correspondente.
+  Agora, o hash/fragmento é omitido para que o link seja rastreado somente quando o nome do arquivo terminar em uma extensão correspondente.
 
 ## Versão 1.0.1
 
