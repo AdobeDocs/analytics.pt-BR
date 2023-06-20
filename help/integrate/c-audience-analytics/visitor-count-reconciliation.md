@@ -3,10 +3,10 @@ description: Algumas métricas de visitante do Adobe Analytics e do Adobe Audien
 title: Diferenças na contagem de visitantes
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 86%
 
 ---
 
@@ -25,11 +25,11 @@ As métricas de visitante são:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=pt-BR"  > AAM: preenchimento total de segmentos</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=pt-BR"  > Adobe Audience Manager: preenchimento total de segmentos</a> </p> </td> 
    <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros de seu segmento durante o período de lookback. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=pt-BR"  > AAM: preenchimento de segmentos em tempo real</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=pt-BR"  > Adobe Audience Manager: preenchimento de segmentos em tempo real</a> </p> </td> 
    <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros de seu segmento e acessaram suas propriedades durante o período de lookback. </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ As métricas de visitante são:
  </tbody> 
 </table>
 
-Preenchimento de segmentos do AAM em tempo real e Visitantes do Analytics com Experience Cloud ID usados em relatórios do Audience Analytics serão os mais similares. Entretanto, no futuro, devido a vários fatores, haverá leves discrepâncias entre eles. São fatores contribuidores:
+Preenchimento de segmentos do Adobe Audience Manager em tempo real e Visitantes do Analytics com ID de Experience Cloud usada nos relatórios de Audience Analytics serão os mais semelhantes. Entretanto, no futuro, devido a vários fatores, haverá leves discrepâncias entre eles. São fatores contribuidores:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Fator </th> 
-   <th colname="col2" class="entry"> AAM: preenchimento de segmentos em tempo real </th> 
+   <th colname="col2" class="entry"> Adobe Audience Manager: preenchimento de segmentos em tempo real </th> 
    <th colname="col3" class="entry"> Analytics: Visitantes com Experience Cloud ID </th> 
   </tr>
  </thead>

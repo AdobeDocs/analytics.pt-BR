@@ -4,10 +4,10 @@ solution: Analytics
 title: Visão geral do encaminhamento pelo lado do servidor
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ O encaminhamento pelo lado do servidor é aprimorado no momento da coleta de dad
 >Os clientes atuais do Audience Manager que utilizam o Analytics devem migrar para o encaminhamento pelo lado do servidor. Os novos clientes do Adobe Analytics e do Audience Manager devem implementar o encaminhamento pelo lado do servidor (em vez do DIL) como o método de transferência e coleta de dados padrão.
 
 >[!IMPORTANT]
->Por solicitação do Regulamento de conformidade de cookies da UE, controladores de dados (clientes do Analytics) agora têm a opção de restringir dados pré-consentimento do Adobe Analytics, e evitar que sejam encaminhados pelo lado do servidor para o Adobe Audience Manager (AAM). Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, evita que tais ocorrências sejam enviadas para o AAM até que o consentimento seja recebido. Para obter mais informações, consulte [Conformidade do GDPR_ePrivacy com o encaminhamento pelo lado do servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
+>Por solicitação do Regulamento de conformidade de cookies da UE, controladores de dados (clientes do Analytics) agora têm a opção de restringir dados pré-consentimento do Adobe Analytics, e evitar que sejam encaminhados pelo lado do servidor para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, impede que essas ocorrências sejam enviadas para a Adobe Audience Manager até que o consentimento seja recebido. Para obter mais informações, consulte [Conformidade do GDPR_ePrivacy com o encaminhamento pelo lado do servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Para entender onde sua organização está em termos de implementação do encaminhamento pelo lado do servidor, passe por essas etapas de validação:
 
@@ -49,12 +49,12 @@ Na guia &quot;Resposta&quot;, verifique se a resposta contém dados do Audience 
 * O **&quot;status&quot;:&quot;SUCCESS&quot;**: você tem o módulo de Gerenciamento de público-alvo implementado, mas o encaminhamento pelo lado do servidor não foi configurado corretamente. Prossiga para a etapa 3.
 * Uma **imagem 2 x 2**: você não possui o encaminhamento pelo lado do servidor ou o módulo de Gerenciamento de público-alvo implementado. Para corrigir isso:
 
-   * **Clientes AAM com DIL**: coordene os seguintes 2 itens em uma conjunção próxima:
+   * **Clientes da Adobe Audience Manager com DIL**: coordene os 2 itens a seguir em estreita conjunção:
 
       1. Remova o código DIL e instale o código de página do [módulo de Gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR).
       1. Ative o encaminhamento pelo lado do servidor na interface do usuário do Analytics, conforme descrito na etapa 3. Habilitar esta configuração antes de remover o código DIL duplicará os dados e criará chamadas de servidor cobradas adicionais no Audience Manager.
-   * **Novos clientes do AAM** - instale o código de página do [Módulo de gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR) e prossiga para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
 
+   * **Novos clientes da Adobe Audience Manager** - instale o [Módulo de gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR) código de página e prossiga para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
 
 ## ![step3_icon.png imagem](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Verificar a implementação do encaminhamento pelo lado do servidor do conjunto de relatórios
 

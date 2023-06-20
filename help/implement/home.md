@@ -3,10 +3,10 @@ title: Implementação do Adobe Analytics
 description: Implementar o Adobe Analytics no site, propriedade ou aplicativo.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: ht
-source-wordcount: '900'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ O Adobe Analytics requer código em seu site, aplicativo móvel ou outro aplicat
 
 Os seguintes métodos de implementação estão disponíveis para seu **site**:
 
-* **Extensão do SDK da web**: o método padronizado e recomendado para implementar o Adobe Analytics para novos clientes. Instale a **extensão do SDK da web da AEP** nas **Tags** da coleção de dados da Adobe Experience Platform, use uma tag de carregamento em cada página e envie os dados para a **rede de borda** da Adobe Experience Platform em um formato conveniente para sua organização. A rede de borda encaminha os dados de entrada para o Adobe Analytics no formato correto.
+* **Extensão do SDK da web**: o método padronizado e recomendado para implementar o Adobe Analytics para novos clientes. Instale o **Extensão SDK da Web do Adobe Experience Platform** em Coleção de dados da Adobe Experience Platform **Tags**, usar uma tag de carregamento em cada página e enviar dados para a Adobe Experience Platform **Rede de borda** em um formato conveniente para sua organização. A rede de borda encaminha os dados de entrada para o Adobe Analytics no formato correto.
   ![Extensão do SDK da Web](./assets/websdk-extension-implementation.png)
 Consulte [Implementar o Adobe Analytics usando a extensão do SDK da web da Adobe Experience Platform](./aep-edge/overview.md) para obter mais informações.
 

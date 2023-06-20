@@ -2,10 +2,10 @@
 title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 95%
+source-wordcount: '1295'
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo d
 >
 > Desde janeiro de 2023, algumas versões dos sistemas operacionais Mac e Windows são representadas incorretamente no agente do usuário, mas corretamente representadas em dicas de cliente de alta entropia. Consulte [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR) para obter mais informações.
 
-Observe que o AAM exige que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira ativar a coleta de dicas de alta entropia.
+O Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se você estiver usando [encaminhamento pelo lado do servidor para o Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR) em seguida, talvez você queira ativar a coleção de dicas de alta entropia.
 
 ## Perguntas frequentes
 
@@ -143,7 +143,7 @@ Consulte a documentação para incluí-los por meio da [API de inserção de dad
 
 +++
 
-+++**As dicas do cliente estarão disponíveis nos dados enviados para o AEP e o CJA por meio do Conector de origem da Adobe?**
++++**As dicas do cliente estarão disponíveis nos dados enviados para o Adobe Experience Platform e o Customer Journey Analytics por meio do Conector de origem do Adobe?**
 
 A Adobe planeja incluir dicas do cliente em dados por meio do Conector de origem da Adobe no primeiro semestre de 2023.
 
@@ -155,8 +155,8 @@ Consulte a [documentação do esquema](https://github.com/adobe/xdm/blob/master/
 
 +++
 
-+++**O encaminhamento pelo lado do servidor do AAM será compatível com as dicas do cliente?**
++++**O encaminhamento pelo lado do servidor do Adobe Audience Manager será compatível com as dicas do cliente?**
 
-Sim. As dicas do cliente serão incluídas nos dados encaminhados ao AAM. Observe que o AAM requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira ativar a coleção de dicas de alta entropia.
+Sim. As dicas do cliente serão incluídas nos dados encaminhados ao Adobe Audience Manager. Observe que o Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se você estiver usando [encaminhamento pelo lado do servidor para o Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR) em seguida, talvez você queira ativar a coleção de dicas de alta entropia.
 
 +++

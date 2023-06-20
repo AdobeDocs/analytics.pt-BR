@@ -3,10 +3,10 @@ description: Explica melhorias no encaminhamento pelo lado do servidor que foram
 title: Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 60%
 
 ---
 
@@ -16,11 +16,11 @@ Esta seção explica as melhorias feitas ao encaminhamento pelo lado do servidor
 
 O encaminhamento pelo lado do servidor é usado para compartilhar dados do Adobe Analytics com outras [!DNL Experience Cloud Solutions], como o Audience Manager, em tempo real. Quando habilitado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados a outras soluções da Experience Cloud e, consequentemente, que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
 
-Anteriormente, o encaminhamento pelo lado do servidor não tinha uma maneira de delinear entre eventos/ocorrências de consentimento e pré-consentimento. A partir de 1 de novembro de 2018, você, como o controlador de dados (cliente do Adobe Analytics) tem a opção de restringir o pré-consentimento a dados do Adobe Analytics, e evitar que sejam encaminhados para o AAM. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, evita que tais ocorrências sejam enviadas para o AAM até que o consentimento seja recebido.
+Anteriormente, o encaminhamento pelo lado do servidor não tinha uma maneira de delinear entre eventos/ocorrências de consentimento e pré-consentimento. A partir de 1º de novembro de 2018, você, como controlador de dados (cliente do Adobe Analytics), terá a opção de restringir os dados pré-consentimento do Adobe Analytics e impedir que sejam encaminhados para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, impede que essas ocorrências sejam enviadas para a Adobe Audience Manager até que o consentimento seja recebido.
 
-Quando esta nova variável de contexto, `cm.ssf=1`, existir em uma ocorrência, tal ocorrência é sinalizada e não é encaminhada pelo lado do servidor ao AAM. Caso contrário, se essa sequência de caracteres não for exibida em uma ocorrência, a ocorrência é encaminhada ao AAM.
+Quando essa nova variável de contexto, `cm.ssf=1`, existir em uma ocorrência, essa ocorrência é sinalizada e não é encaminhada pelo lado do servidor ao Adobe Audience Manager. Por outro lado, se essa sequência de caracteres não aparecer em uma ocorrência, a ocorrência será encaminhada para o Adobe Audience Manager.
 
-O Encaminhamento pelo lado do servidor é bidirecional, ou seja, ao ser aplicado a uma ocorrência e esta ser encaminhada ao AAM, o Audience Analytics recebe informações de segmento referentes à ocorrência pelo AAM e as envia de volta para o Analytics. Como resultado, ocorrências que não são encaminhadas pelo lado do servidor do Analytics para o AAM não serão implementadas com a lista de IDs de segmento do AAM. Portanto, haverá um subconjunto de tráfego/ocorrências que não receberão informações de ID de segmento do AAM.
+O encaminhamento pelo lado do servidor é bidirecional, o que significa que quando ele é aplicado a uma ocorrência e essa ocorrência é encaminhada para o Adobe Audience Manager, o Audience Analytics recebe informações de segmento para essa ocorrência do Adobe Audience Manager e a envia de volta para o Analytics. Como resultado, qualquer ocorrência que não seja encaminhada do lado do servidor do Analytics para o Adobe Audience Manager não será enriquecida com a lista de IDs de segmento do Adobe Audience Manager. Dessa forma, haverá um subconjunto de tráfego/ocorrências que não obterá informações de ID de segmento do Adobe Audience Manager.
 
 ## Detalhes da implementação {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -33,7 +33,7 @@ Dependendo do seu método de implementação, siga estas etapas.
 
 ## Criação de relatórios (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-Use o Adobe Analytics para criar relatórios sobre qual porção de seu tráfego é baseada em consentimento e como resultado foi encaminhada pelo lado do servidor, versus qual porção não é baseada em consentimento e não foi encaminhada para o AAM.
+Você pode usar o Adobe Analytics para relatar quanto do seu tráfego é baseado em consentimento e como resultado foi encaminhado pelo lado do servidor, versus quanto do seu tráfego não é baseado em consentimento e não foi encaminhado para o Adobe Audience Manager.
 
 Para configurar esse tipo de relatório, mapeie a nova variável de contexto para uma variável personalizada de tráfego (prop) por meio de regras de processamento. Para fazer isso
 

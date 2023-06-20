@@ -3,10 +3,10 @@ title: getPageLoadTime
 description: Rastreie o tempo que uma página leva para ser carregada.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 88%
+source-wordcount: '586'
+ht-degree: 86%
 
 ---
 
@@ -18,11 +18,11 @@ O plug-in `getPageLoadTime` usa o objeto de desempenho JavaScript para permitir 
 
 >OBSERVAÇÃO/AVISO: se você estiver atualizando este plug-in de uma versão anterior, provavelmente precisará alterar o código que chama essa função também. Verifique sua implementação e teste completamente antes de implantar na produção
 
-## Instalar o plug-in usando a extensão Web SDK ou Web SDK
+## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
 
-Esse plug-in ainda não é compatível com o uso no SDK da Web.
+Este plug-in ainda não é compatível com o SDK da Web.
 
-## Instalar o plug-in usando a extensão Adobe Analytics
+## Instale o plug-in usando a extensão Adobe Analytics.
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Adobe Analytics.
 
@@ -96,7 +96,7 @@ if(window._pltPreviousPage)
 
 ### 3.0 (6 de dezembro de 2022)
 
-* Reescrita completa do plug-in para torná-lo independente da solução. Por exemplo, agora é compatível com o SDK da Web da AEP
+* Reescrita completa do plug-in para torná-lo independente da solução. Por exemplo, agora ele é compatível com o Adobe Experience Platform Web SDK
 * Cria as variáveis `_pltPreviousPage` e `_pltLoadTime` no objeto janela (em vez de no objeto s do AppMeasurement)
 * Remove a necessidade do cookie s_pltp - tudo agora é armazenado somente no cookie s_plt
 * Inclui a função getVersion para ajudar na solução de problemas
