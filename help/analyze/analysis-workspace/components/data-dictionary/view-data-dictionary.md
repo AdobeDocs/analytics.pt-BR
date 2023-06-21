@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
 source-git-commit: a6805f0944570bee265d5db9a159ae24e0694837
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ Para exibir informações sobre um componente no Dicionário de dados:
 
 1. (Opcional) No campo de pesquisa, comece a digitar o nome do componente que deseja visualizar.
 
-   O tipo de componente pode ser identificado por cor e ícone. **Dimension** ![Ícone do Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) são laranja, **Segmentos** ![Ícone de Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) são azuis, **Intervalos de datas** ![Ícone de intervalo de datas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) são roxas, e **Métricas** ![Ícone de Métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) são verdes. O ícone de Adobe indica um modelo de métrica calculada ou um modelo de segmento, e o ícone da calculadora ![Ícone da Calculadora](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indicou uma métrica calculada que foi criada por um administrador do Analytics em sua organização.
+   O tipo de componente pode ser identificado por cor e ícone. As **Dimensões** e o ![Ícone de dimensão](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) são laranjas, os **Segmentos** e o ![Ícone de segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) são azuis, os **Intervalos de datas** e o ![Ícone de intervalo de datas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) são roxos e as **Métricas** e o ![Ícone de métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) são verdes. O ícone da Adobe indica um modelo de métrica calculada ou um modelo de segmento, e o ícone da calculadora, ![Ícone de calculadora](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg), indica uma métrica calculada que foi criada por um administrador do Analytics em sua organização.
 
 {{dd-filter-criteria}}
 
-1. (Opcional) Selecione a **Ordenar** ícone ![Ícone Classificar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), em seguida, selecione qualquer uma das seguintes opções de filtro para classificar a lista de componentes:
+1. (Opcional) Selecione o ícone de **Classificar**, ![Ícone de classificar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), e selecione qualquer uma das seguintes opções de filtro para classificar a lista de componentes:
 
    {{components-sort-options}}
 
