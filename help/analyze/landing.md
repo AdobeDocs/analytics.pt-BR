@@ -4,10 +4,10 @@ title: Página de aterrissagem do Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 06daaf4dcf5a88b7d571de94d72e273d942812bf
 workflow-type: tm+mt
-source-wordcount: '3954'
-ht-degree: 99%
+source-wordcount: '4037'
+ht-degree: 94%
 
 ---
 
@@ -223,13 +223,24 @@ Os administradores podem excluir um relatório usando a opção Lista de relató
 ![Outros filtros](assets/delete-fr-create-project-modal.png)
 
 
-## Navegue pela guia Aprendizagem {#navigate-learning}
+## Use a guia Aprendizado {#navigate-learning}
 
-A página Aprendizado contém tutoriais e visitas de vídeo práticos, além de links para a documentação.
+A página Aprendizado contém tutoriais em vídeo, tutoriais e links para a documentação.
 
-* O Tour [!UICONTROL Fundamentos do Espaço de trabalho] leva você diretamente para o Espaço de trabalho, o orienta no layout do Espaço de trabalho e indica onde encontrar/executar as ações mais comuns. Esse Tour também pode ser reiniciado a qualquer momento diretamente no Espaço de trabalho por meio do pop-over da dica de ferramenta do cabeçalho do painel.
-* Clicar em um vídeo/tour adiciona uma tag **[!UICONTROL Visualizada]**. Essa tag ajuda a rastrear o progresso pelo conteúdo de aprendizagem. Caso ainda não tenha concluído o conteúdo, você poderá clicar na tag, e ela desaparecerá.
-* O botão **[!UICONTROL Saiba mais]** no modal de vídeo leva você a uma página de documentação do Adobe Experience League com mais conteúdo de ajuda relacionado ao vídeo que você acabou de assistir.  **[!UICONTROL Ver mais vídeos]** leva você à lista de reprodução completa do Analysis Workspace YouTube.
+Use a página Aprendizado no Adobe Analytics para saber mais sobre recursos e casos de uso iniciantes, intermediários ou avançados no Adobe Analytics.
+
+### Acessar a página Aprendizado
+
+1. No Adobe Analytics, selecione [!UICONTROL **Workspace**] > [!UICONTROL **Aprendizado**].
+
+### Recursos da página de aprendizado
+
+* **Filtrar conteúdo:** O ícone Filtrar no painel à esquerda permite filtrar o conteúdo de aprendizagem por nível de experiência (Iniciante, Intermediário ou Avançado) e por tipo de conteúdo (Documento, Vídeo ou Tours e tutoriais).
+* **Rastrear progresso:** Depois de selecionar um conteúdo, uma **[!UICONTROL Exibido]** é exibida. Essa tag ajuda a rastrear o progresso pelo conteúdo de aprendizagem. É possível selecionar a variável **[!UICONTROL Exibido]** para removê-lo de um conteúdo.
+* **Exibir conteúdo adicional:** Ao visualizar qualquer vídeo, selecione a opção **[!UICONTROL Saiba mais]** botão para ver o conteúdo relacionado à documentação no Experience League. Ou, na página Aprendizado, selecione uma das seguintes opções para exibir conteúdo adicional:
+   * **[!UICONTROL Visitar o YouTube]:** Veja a lista de reprodução completa do Analysis Workspace YouTube.
+   * [!UICONTROL **Visitar Experience League**]: veja o conjunto completo de documentação do Adobe Analytics no Experience League.
+* **Princípios básicos para novos usuários:** A variável [!UICONTROL Fundamentos do Workspace] é recomendado para novos usuários. Este tour leva você diretamente para o Espaço de trabalho e o orienta pelas ações mais comuns. Esse tour também pode ser reiniciado a qualquer momento no Workspace por meio do pop-over da dica de ferramenta do cabeçalho do painel.
 
 ## Definir sua página de destino {#set-landing}
 

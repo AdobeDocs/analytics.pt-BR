@@ -3,9 +3,9 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 09a4f0865c0297681a05da4eae98412632931626
+source-git-commit: 8e753a4ab2f86ff1b45d3116e51c5ce03f5b038b
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1515'
 ht-degree: 87%
 
 ---
@@ -37,7 +37,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 | **Novo botão para adicionar uma visualização dentro de um painel** | Um novo botão agora está disponível na parte inferior de cada painel no Analysis Workspace, permitindo que você adicione uma visualização rapidamente. <p>Anteriormente, os únicos métodos para adicionar uma visualização a um painel eram arrastar uma visualização do painel esquerdo, duplicar ou copiar uma visualização já existente ou criar um painel em branco. [Saiba mais](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | N/D | 17 de maio de 2023 |
 | **Deep Linking (aplicativo para dispositivos móveis)** | Permite que usuários enviem links para cartões de pontuação que os levarão diretamente ao projeto do cartão de pontuação no aplicativo. Isso facilita ainda mais o compartilhamento de projetos e aumenta o engajamento de um público menos técnico. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR#share-scorecards-using-a-shareable-link) | N/D | 17 de maio de 2023 |
 | **Filtros suspensos dinâmicos** | Estamos introduzindo um novo tipo de filtro suspenso que determina os valores disponíveis com base nos dados do intervalo de relatórios do painel e nos valores em outros filtros suspensos. É possível usar os filtros suspensos dinâmicos arrastando uma dimensão para a zona de destino do painel enquanto mantém pressionada a tecla [!UICONTROL Shift]. Os filtros suspensos estáticos permanecem inalterados ao arrastar um grupo de itens de dimensão para a zona de destino do painel enquanto mantêm a tecla [!UICONTROL Shift] pressionada. [Saiba mais](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 14 de junho de 2023 |
-| **Atualização da página de aprendizado do Analytics** | A Guia aprendizado na página de destino do Adobe Analytics agora contém as seguintes melhorias:<ul><li>Design aprimorado que mostra mais conteúdo de aprendizagem em uma única página com navegação aprimorada</li><li>Capacidade de personalizar o conteúdo de aprendizagem por nível de experiência (iniciante, intermediário e avançado)</li></ul>[Saiba mais](/help/analyze/landing.md) |  | 30 junho de 2023 |
+| **Atualização da página de aprendizado do Analytics** | A Guia aprendizado na página de destino do Adobe Analytics agora contém as seguintes melhorias:<ul><li>Design aprimorado que mostra mais conteúdo de aprendizagem em uma única página com navegação aprimorada</li><li>Capacidade de personalizar o conteúdo de aprendizagem por nível de experiência (iniciante, intermediário e avançado)</li></ul>[Saiba mais](/help/analyze/landing.md) | 27 de junho de 2023 | 30 junho de 2023 |
 | **Classificar componentes no Analysis Workspace** | Uma nova opção Classificar está disponível ao visualizar componentes no painel esquerdo ou no Dicionário de dados no Analysis Workspace. É possível classificar componentes por Recomendado (os mais usados), Alfabético ou Categórico (tipo).<p>Anteriormente, só era possível pesquisar ou filtrar componentes. [Saiba mais](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N/D | A ser definido |
 
 {style="table-layout:auto"}
