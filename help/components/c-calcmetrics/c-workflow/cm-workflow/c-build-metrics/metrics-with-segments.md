@@ -3,7 +3,7 @@ description: Segmentar métricas individuais permite comparar métricas em um me
 title: Métricas segmentadas
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 69%
@@ -56,7 +56,7 @@ Crie e salve uma métrica chamada &quot;Visitantes alemães&quot; e uma métrica
 
 Esta é uma visão geral do vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
 ## Porcentagem do total de métricas {#percent-total}
 
