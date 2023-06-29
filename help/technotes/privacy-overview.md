@@ -4,9 +4,9 @@ keywords: privacidade
 title: Visão geral de privacidade
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 96%
 
 ---
@@ -45,7 +45,6 @@ O Adobe Analytics coleta os seguintes dados:
 | Itens que o consumidor comprou | Sim |
 | Itens deixados no carrinho de compras | Sim |
 | Informações de rede social (incluindo fotos, ID de usuário, idade, gênero, local) | **Não** |
-| Informações pessoais que o usuário fornece fora de nossos serviços | Sim |
 | Taxas de sucesso da campanha publicitária | Sim |
 | Informações do produto, como cores, preços, estilos e fotos | Sim |
 
@@ -69,8 +68,8 @@ O Adobe Analytics coleta os seguintes dados:
 
 ## Localização do data center da EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
-O seguinte data center EMEA hospeda atualmente os dados do Adobe Analytics:
+O data center da EMEA a seguir hospeda atualmente os dados do Adobe Analytics:
 
-| Nome na Adobe | Endereço | Tipo de instalação (operador) | Componentes de solução suportados | Certificados |
+| Nome na Adobe | Endereço | Tipo de instalação (operador) | Componentes de solução suportados | Certificações |
 |--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility (Gyron) | Análise multicanal, Análise digital | SSAE 16 |
+| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU Reino Unido | Instalação de localização (Gyron) | Análise multicanal, Análise digital | SSAE 16 |
