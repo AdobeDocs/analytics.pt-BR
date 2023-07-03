@@ -2,7 +2,8 @@
 title: Como funcionam as repetições
 description: Entenda o conceito de “repetição” no Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
-source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
@@ -41,12 +42,12 @@ As ocorrências não autenticadas e autenticadas em novos dispositivos são cont
 
 * **Se estiver usando o gráfico de dispositivos**, as ocorrências não autenticadas em dispositivos reconhecidos serão colocadas em ponto ativo depois que um cluster for publicado pelo gráfico de dispositivos. A publicação em cluster leva de três horas a duas semanas.
 
-   Uma terceira pessoa cumulativa também é adicionada quando um cluster é publicado. Essa terceira pessoa representa o próprio cluster, além dos dispositivos individuais. Este terceiro “indivíduo” permanece até que os dados sejam repetidos.
+  Uma terceira pessoa cumulativa também é adicionada quando um cluster é publicado. Essa terceira pessoa representa o próprio cluster, além dos dispositivos individuais. Este terceiro “indivíduo” permanece até que os dados sejam repetidos.
 
-   A atribuição não funciona em dispositivos até que um cluster seja publicado e, mesmo assim, somente pontos ativos da publicação em diante. No exemplo acima, nenhuma das ocorrências é compilada em dispositivos ainda. A atribuição entre dispositivos em ocorrências existentes não funciona até após a repetição da compilação.
+  A atribuição não funciona em dispositivos até que um cluster seja publicado e, mesmo assim, somente pontos ativos da publicação em diante. No exemplo acima, nenhuma das ocorrências é compilada em dispositivos ainda. A atribuição entre dispositivos em ocorrências existentes não funciona até após a repetição da compilação.
 * **Se estiver usando a compilação em campo,** as ocorrências não autenticadas em dispositivos reconhecidos serão compiladas em tempo real a partir desse ponto.
 
-   A atribuição funciona assim que a variável personalizada de identificação se vincula a um dispositivo. No exemplo acima, todas as ocorrências, exceto as 1 e 3, são compiladas em tempo real (todas usam o identificador `Bob`). A atribuição funciona nas ocorrências 1 e 3 após a repetição da compilação.
+  A atribuição funciona assim que a variável personalizada de identificação se vincula a um dispositivo. No exemplo acima, todas as ocorrências, exceto as 1 e 3, são compiladas em tempo real (todas usam o identificador `Bob`). A atribuição funciona nas ocorrências 1 e 3 após a repetição da compilação.
 
 >[!NOTE]
 >

@@ -2,10 +2,11 @@
 title: Análise entre dispositivos
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +29,7 @@ Com o CDA, você pode responder a perguntas como:
 
 Quando os dispositivos são compilados, a persistência variável é transferida entre os dispositivos. Por exemplo, um usuário visita o site pela primeira vez por meio de um anúncio no computador desktop. Esse usuário encontra o aplicativo móvel, instala e eventualmente realiza uma compra pelo dispositivo móvel. Com o Análise entre dispositivos, é possível atribuir a receita no dispositivo móvel ao anúncio em que ele clicou no computador desktop.
 
-Com um espírito de parceria e transparência, queremos que nossos clientes estejam cientes de nosso uso do Microsoft Azure em associação com o Análise entre dispositivos. A Adobe usa o Azure para armazenar os dados de gráficos de dispositivos e realizar a compilação entre dispositivos. Dessa forma, os dados do Adobe Analytics são transmitidos de um lado para o outro, entre o centro de processamento de dados da Adobe e as instâncias provisionadas da Adobe do Microsoft Azure.
+Com um espírito de parceria e transparência, queremos que nossos clientes estejam cientes de nosso uso do Microsoft Azure em associação com o Análise entre dispositivos. A Adobe usa o Azure para armazenar os dados de gráficos de dispositivos e realizar a compilação entre dispositivos. Dessa forma, os dados do Adobe Analytics são transmitidos de um lado para o outro, entre o centro de processamento de dados do Adobe e as instâncias provisionadas do Adobe do Microsoft Azure.
 
 Consulte a página [Journey IQ: Análise entre dispositivos Spark](https://adobe.ly/aacda) para saber mais sobre os recursos e as funções do Análise entre dispositivos.
 

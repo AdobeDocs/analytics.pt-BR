@@ -1,7 +1,9 @@
 ---
 title: Formato de arquivo da fonte de dados
 description: Gerar corretamente um arquivo para uso em fontes de dados.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 7%
@@ -10,31 +12,31 @@ ht-degree: 7%
 
 # Formato de arquivo da fonte de dados
 
-Os arquivos da fonte de dados têm as seguintes propriedades:
+Os arquivos de origem de dados têm as seguintes propriedades:
 
 * O arquivo está em `.txt` formato.
-* As linhas comentadas começam com &#39;`#`&#39;, e são opcionais.
+* As linhas comentadas começam com &quot;`#`&#39; e são opcionais.
 * A primeira linha não comentada contém os cabeçalhos do arquivo.
-* O primeiro valor de cada linha é a data, que usa o formato . `MM/DD/YYYY` ou `MM/DD/YYYY/HH/mm/SS`.
+* O primeiro valor de cada linha é a data, que usa o formato `MM/DD/YYYY` ou `MM/DD/YYYY/HH/mm/SS`.
 * Os valores em cada linha, incluindo cabeçalhos, são delimitados por tabulação.
 * Cada linha deve ter pelo menos uma dimensão e uma métrica.
 
 ## Comentários
 
-Qualquer linha que comece com &#39;`#`&#39; é um comentário. Ao baixar um arquivo de modelo da fonte de dados, as duas primeiras linhas são comentários.
+Qualquer linha que comece com &#39;`#`&#39; é um comentário. Ao baixar um arquivo de modelo de fonte de dados, as duas primeiras linhas são comentários.
 
-* O primeiro comentário indica o tipo de modelo que você configurou para a fonte de dados, a ID do usuário de backend que criou a fonte de dados e a ID da fonte de dados.
+* O primeiro comentário indica o tipo de modelo configurado para a fonte de dados, o ID de usuário de back-end que criou a fonte de dados e o ID da fonte de dados.
 * O segundo comentário fornece nomes amigáveis para cada um dos cabeçalhos incluídos no arquivo de modelo.
 
-Todas as linhas de comentário são ignoradas pelo Adobe quando o arquivo é processado, de modo que você pode remover os comentários do modelo ou adicionar as suas próprias linhas ao longo do arquivo. Apenas linhas completas podem ser comentadas; não é possível comentar campos individuais ou linhas parciais.
+Todas as linhas de comentário são ignoradas pelo Adobe quando o arquivo é processado, para que você possa remover os comentários do modelo ou adicionar os seus próprios comentários em todo o arquivo. Somente linhas completas podem ser comentadas; não é possível comentar campos individuais ou linhas parciais.
 
 ## Cabeçalhos
 
-Ao carregar arquivos de fonte de dados, os cabeçalhos das colunas são necessários. Esses cabeçalhos de coluna não fazem distinção entre maiúsculas e minúsculas, mas os espaços necessários são necessários (Por exemplo, `eVar1` é um cabeçalho inválido, enquanto `EVAR 1` é válido). Os cabeçalhos das colunas se aplicam a todos os conjuntos de relatórios. Use as tabelas a seguir para garantir que cada cabeçalho no arquivo de fonte de dados esteja definido corretamente.
+Ao fazer upload de arquivos de origem de dados, os cabeçalhos de coluna são obrigatórios. Esses cabeçalhos de coluna não diferenciam maiúsculas de minúsculas, mas os espaços necessários são necessários (Por exemplo, `eVar1` é um cabeçalho inválido, enquanto `EVAR 1` é válido). Os cabeçalhos de coluna se aplicam a todos os conjuntos de relatórios. Use as tabelas a seguir para verificar se cada cabeçalho no arquivo de origem de dados está definido corretamente.
 
 >[!TIP]
 >
->É possível criar um arquivo de fontes de dados do zero se você incluir os cabeçalhos corretos no arquivo de fonte de dados. Não há limite para o número de cabeçalhos que podem ser incluídos em um único arquivo; no entanto, cada linha só pode ter um máximo de 4096 bytes.
+>Você pode criar um arquivo de fontes de dados do zero se incluir os cabeçalhos corretos no arquivo de fonte de dados. Não há limite para o número de cabeçalhos que podem ser incluídos em um único arquivo; no entanto, cada linha pode ter no máximo 4096 bytes.
 
 | Dimensão | Cabeçalho da fonte de dados |
 | --- | --- |
@@ -49,7 +51,7 @@ Ao carregar arquivos de fonte de dados, os cabeçalhos das colunas são necessá
 
 {style="table-layout:auto"}
 
-Dimension e métricas vão para a mesma linha de cabeçalho.
+Dimension e métricas entram na mesma linha de cabeçalho.
 
 | Métrica | Cabeçalho da fonte de dados |
 | --- | --- |
@@ -65,25 +67,25 @@ Dimension e métricas vão para a mesma linha de cabeçalho.
 
 {style="table-layout:auto"}
 
-O Adobe não é compatível com fontes de dados de nenhuma outra dimensão ou métrica. Se forem necessárias variáveis além das listadas nas tabelas acima, considere usar a variável [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) em vez disso.
+O Adobe não oferece suporte a fontes de dados para outras dimensões ou métricas. Se forem necessárias variáveis além das listadas nas tabelas acima, considere o uso de [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) em vez disso.
 
 ## Data
 
-O primeiro valor em cada linha **must** seja a data. O formato de data deve estar em um dos seguintes formatos:
+O primeiro valor em cada linha **deve** ser a data. O formato de data deve estar em um dos seguintes formatos:
 
 * **`MM/DD/YY/HH/mm/SS`**
 * **`MM/DD/YY`**
 
-A omissão de horas/minutos/segundos define automaticamente o carimbo de data e hora como 12 PM desse dia.
+A omissão de horas/minutos/segundos define automaticamente o carimbo de data e hora para as 12 PM desse dia.
 
-Um único arquivo de fonte de dados suporta até 90 dias exclusivos. Se quiser incluir mais de 90 dias exclusivos em um upload, divida seus dados em vários arquivos.
+Um único arquivo de fonte de dados suporta até 90 dias únicos. Se quiser incluir mais de 90 dias únicos em um upload, divida seus dados em vários arquivos.
 
-## Dimension e dados de métrica
+## dados de Dimension e métrica
 
-Os valores subsequentes após a data em cada linha contêm os dados que você deseja carregar. Cada linha corresponde ao respectivo carimbo de data e hora. Verifique se o mesmo número de guias existe em cada linha. As colunas podem estar em qualquer ordem; verifique se os dados em cada linha estão alinhados com os cabeçalhos na parte superior. A quantidade máxima de dados que uma única linha pode ter é de 4096 bytes.
+Valores subsequentes à data em cada linha contêm os dados que você deseja fazer upload. Cada linha corresponde a esse respectivo carimbo de data e hora. Verifique se existe o mesmo número de guias em cada linha. As colunas podem estar em qualquer ordem; verifique se os dados em cada linha estão alinhados aos cabeçalhos na parte superior. A quantidade máxima de dados que uma única linha pode ter é de 4096 bytes.
 
 Os dados de Dimension não podem conter ponto e vírgula (`;`). As linhas que contêm ponto e vírgula são ignoradas.
 
 ## Próximas etapas
 
-[Upload de arquivo](file-upload.md): Saiba mais sobre o processo para carregar um arquivo de fontes de dados para assimilação pelo Adobe.
+[Upload de arquivo](file-upload.md): saiba mais sobre o processo para carregar um arquivo de fontes de dados para assimilação por Adobe.

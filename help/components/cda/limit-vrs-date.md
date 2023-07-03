@@ -2,10 +2,11 @@
 title: Limitar um VRS a determinadas datas
 description: Entenda como limitar um intervalo de datas do VRS para focalizar apenas dados compilados.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -23,7 +24,7 @@ Ao configurar o VRS, em Componentes, adicione um intervalo de datas com início 
 
 ## Etapa 2: Criar um segmento &quot;excluir-excluir&quot;
 
-Em seguida, crie um segmento de ocorrência que coloque o intervalo de datas em um container de exclusão dentro de outro container de exclusão. É um segmento &quot;excluir-excluir&quot;.
+Em seguida, crie um segmento de ocorrência que coloque o intervalo de datas em um container de exclusão dentro de outro container de exclusão. É um &quot;excluir-excluir&quot;.
 
 O motivo para &quot;excluir-excluir&quot; é que os intervalos de datas devem substituir o intervalo de datas do relatório. Portanto, se você incluir apenas a partir do dia 1º de junho, ele sempre fará com que o intervalo de datas do relatório seja de 1º de junho em diante. Essa ação causará resultados indesejáveis. Quando você &quot;exclui-exclui&quot;, isso substitui esse comportamento e apenas limita os dados que podem ser obtidos do intervalo de datas apropriado.
 

@@ -2,7 +2,8 @@
 title: Gerenciador de processos do conjunto de classificações
 description: Exibir os trabalhos de classificação atuais e concluídos gerados a partir dos conjuntos de classificações.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: 496b4891d447ed9dd091a6498a792146a2d5aceb
+feature: Classifications
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 49%

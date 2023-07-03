@@ -2,7 +2,8 @@
 title: Compilação em campo
 description: Entenda os pré-requisitos e as limitações da compilação de dados usando a compilação em campo.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 90%
@@ -11,11 +12,11 @@ ht-degree: 90%
 
 # Compilação em campo
 
-O Cross-Device Analytics fornece dois métodos distintos para compilar dados. Esse método depende de uma variável do Analytics, como uma [prop](/help/implement/vars/page-vars/prop.md) ou [eVar](/help/implement/vars/page-vars/evar.md), para conter um identificador de pessoa. Ele usa essa variável como base para vincular dispositivos. O Adobe recomenda essa opção de costura para obter mais transparência e previsibilidade no rastreamento do visitante.
+O Cross-Device Analytics fornece dois métodos distintos para compilar dados. Esse método depende de uma variável do Analytics, como uma [prop](/help/implement/vars/page-vars/prop.md) ou [eVar](/help/implement/vars/page-vars/evar.md), para conter um identificador de pessoa. Ele usa essa variável como base para vincular dispositivos. A Adobe recomenda essa opção de compilação para obter mais transparência e previsibilidade no rastreamento do visitante.
 
 ## Pré-requisitos específicos da compilação em campo
 
-Se você pretende implementar o Cross-Device Analytics usando a compilação em campo, as seguintes etapas são obrigatórias. Trabalhe com equipes em sua organização e com a equipe de conta do Adobe para garantir que você atenda a todos os itens a seguir.
+Se você pretende implementar o Cross-Device Analytics usando a compilação em campo, as seguintes etapas são obrigatórias. Trabalhe com as equipes em sua organização e com a equipe de conta da Adobe para atender a todos os itens a seguir.
 
 >[!WARNING]
 >
@@ -23,7 +24,7 @@ Se você pretende implementar o Cross-Device Analytics usando a compilação em 
 
 * Todos os pré-requisitos estão listados na [página de visão geral](overview.md).
 * Sua implementação deve definir uma prop ou eVar que identifique exclusivamente um indivíduo sempre que possível, como quando um usuário faz logon ou abre um email. Esse requisito se aplica a todas as plataformas, incluindo aplicativos móveis, se usados. Evite atribuir um valor padrão à prop ou eVar.
-* Comunique a variável de identificação desejada à Equipe da conta do Adobe quando provisionada para a compilação em campo.
+* Comunique a variável de identificação desejada à sua equipe de conta do Adobe quando provisionado para a compilação em campo.
 
 ## Limitações específicas da compilação em campo
 

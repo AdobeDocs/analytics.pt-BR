@@ -2,7 +2,8 @@
 title: Comparar datas afetadas por um evento a intervalos anteriores
 description: Saiba mais sobre o impacto de um evento, como um problema de implementação ou interrupção, comparando-o às tendências anteriores.
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: Event
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 1%

@@ -2,7 +2,8 @@
 title: Analisar dados afetados por eventos
 description: Entenda como os dados afetados por um evento contribuem para a qualidade geral dos dados.
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: Event
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
