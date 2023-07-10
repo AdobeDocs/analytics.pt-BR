@@ -3,14 +3,22 @@ description: Como fazer upload de arquivos de dados via FTP.
 title: Importação de FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
+source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 87%
+source-wordcount: '721'
+ht-degree: 81%
 
 ---
 
 # Importação de FTP
+
+>[!IMPORTANT]
+>
+>Não recomendamos mais usar o FTP para importação conforme descrito nesta página.
+>
+>O FTP não é recomendado porque é um método não criptografado de compartilhamento de arquivos, o que significa que qualquer pessoa pode interceptar o conteúdo do arquivo, bem como o nome de usuário e a senha usados para a conta.
+>
+>Em vez disso, configure uma conta de nuvem conforme descrito em [Configurar locais de importação na nuvem](/help/components/classifications/importer/configure-import-accounts.md).
 
 Etapas que descrevem como fazer upload de arquivos de dados por FTP.
 
@@ -20,7 +28,7 @@ Como fazer upload de arquivos de dados via FTP:
 
 1. **[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**.
 
-Os seguintes limites recomendados são importantes. Excesso
+Os seguintes limites recomendados são importantes.
 
 >[!IMPORTANT]
 >

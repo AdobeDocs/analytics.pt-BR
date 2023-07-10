@@ -3,10 +3,10 @@ title: Esquema do conjunto de classificações
 description: Exibir e editar o esquema para um conjunto de classificações individual.
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 46%
+source-wordcount: '525'
+ht-degree: 42%
 
 ---
 
@@ -46,7 +46,14 @@ Os seguintes botões estão disponíveis:
 
 * **[!UICONTROL Histórico de tarefas]**: um link de atalho que direciona você para o [Gerente de trabalho](../job-manager.md), mostrando tarefas somente para este conjunto de classificações.
 * **[!UICONTROL Automatizar]**: assimile dados automaticamente de locais de armazenamento externo.
-   * **[!UICONTROL Conta de localização]**: uma lista suspensa que mostra as contas de localização existentes que sua organização configurou. Um botão está disponível para criar uma conta de localização.
-   * **[!UICONTROL Localização]**: uma lista suspensa que mostra locais existentes que sua organização configurou. Um botão está disponível para criar um local.
+   * **[!UICONTROL Conta de localização]**: uma lista suspensa que mostra as contas de localização existentes que sua organização configurou. Se sua organização ainda não tiver configurado uma conta de localização, é possível configurar uma selecionando [!UICONTROL **Criar uma nova conta**].
+
+     Para obter informações sobre como configurar a conta de localização, consulte [Configurar locais de importação na nuvem](/help/components/classifications/importer/configure-import-accounts.md).
+
+   * **[!UICONTROL Localização]**: uma lista suspensa que mostra locais existentes que sua organização configurou. Se a organização ainda não tiver configurado um local, é possível configurá-lo selecionando [!UICONTROL **Criar um novo local**].
+
+     Para obter informações sobre como configurar um local, consulte [Configurar locais de importação na nuvem](/help/components/classifications/importer/configure-import-accounts.md).
+
    * **[!UICONTROL Delimitador]**: o delimitador de coluna para arquivos carregados. As opções incluem [!UICONTROL Vírgula], [!UICONTROL Ponto e vírgula], [!UICONTROL Dois pontos], [!UICONTROL Barra vertical], [!UICONTROL Espaço], [!UICONTROL Barra inclinada], [!UICONTROL Barra invertida], [!UICONTROL Traço]ou [!UICONTROL Sublinhado].
+
    * **[!UICONTROL Codificação]**: uma lista suspensa que determina a codificação do arquivo. As opções incluem [!UICONTROL UTF-8] e [!UICONTROL Latin1]. É recomendado usar UTF-8.
