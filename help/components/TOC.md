@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
+source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 88%
 
 ---
@@ -262,14 +262,16 @@ ht-degree: 88%
       + [Importação de navegador e FTP](classifications/importer/import-file.md)
       + [Importação de navegador](classifications/importer/browser-import.md)
       + [Exportação do navegador](classifications/importer/browser-export.md)
-      + [Importação na nuvem](/help/components/classifications/importer/configure-import-accounts.md)
       + [Importação de FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Exportação de FTP](classifications/importer/ftp-export.md)
       + [Tempo de processamento](classifications/importer/processing-time.md)
       + [Solução de problemas](classifications/importer/troubleshooting.md)
-
    + [Subclassificações](classifications/c-sub-classifications.md)
    + [Perguntas frequentes sobre classificações](classifications/faq.md)
++ Localizações {#locations}
+   + [Gerenciador de locais](/help/components/locations/locations-manager.md)
+   + [Contas de importação na nuvem](/help/components/locations/configure-import-accounts.md)
+   + [Locais de importação na nuvem](/help/components/locations/configure-import-locations.md)
 + [Eventos de calendário](t-calendar-event.md)
 + [Relação de relatórios agendados](scheduled-reports-admin.md)
 + Relatório em tempo real {#real-time-reporting}

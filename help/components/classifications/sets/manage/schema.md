@@ -3,7 +3,7 @@ title: Esquema do conjunto de classificações
 description: Exibir e editar o esquema para um conjunto de classificações individual.
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
+source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 42%
@@ -48,11 +48,11 @@ Os seguintes botões estão disponíveis:
 * **[!UICONTROL Automatizar]**: assimile dados automaticamente de locais de armazenamento externo.
    * **[!UICONTROL Conta de localização]**: uma lista suspensa que mostra as contas de localização existentes que sua organização configurou. Se sua organização ainda não tiver configurado uma conta de localização, é possível configurar uma selecionando [!UICONTROL **Criar uma nova conta**].
 
-     Para obter informações sobre como configurar a conta de localização, consulte [Configurar locais de importação na nuvem](/help/components/classifications/importer/configure-import-accounts.md).
+     Para obter informações sobre como configurar a conta de localização, consulte [Configurar contas de importação na nuvem](/help/components/locations/configure-import-accounts.md).
 
    * **[!UICONTROL Localização]**: uma lista suspensa que mostra locais existentes que sua organização configurou. Se a organização ainda não tiver configurado um local, é possível configurá-lo selecionando [!UICONTROL **Criar um novo local**].
 
-     Para obter informações sobre como configurar um local, consulte [Configurar locais de importação na nuvem](/help/components/classifications/importer/configure-import-accounts.md).
+     Para obter informações sobre como configurar um local, consulte [Configurar locais de importação na nuvem](/help/components/locations/configure-import-locations.md).
 
    * **[!UICONTROL Delimitador]**: o delimitador de coluna para arquivos carregados. As opções incluem [!UICONTROL Vírgula], [!UICONTROL Ponto e vírgula], [!UICONTROL Dois pontos], [!UICONTROL Barra vertical], [!UICONTROL Espaço], [!UICONTROL Barra inclinada], [!UICONTROL Barra invertida], [!UICONTROL Traço]ou [!UICONTROL Sublinhado].
 

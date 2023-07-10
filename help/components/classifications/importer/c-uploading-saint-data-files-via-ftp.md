@@ -3,7 +3,7 @@ description: Como fazer upload de arquivos de dados via FTP.
 title: Importação de FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
+source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 81%
@@ -18,7 +18,7 @@ ht-degree: 81%
 >
 >O FTP não é recomendado porque é um método não criptografado de compartilhamento de arquivos, o que significa que qualquer pessoa pode interceptar o conteúdo do arquivo, bem como o nome de usuário e a senha usados para a conta.
 >
->Em vez disso, configure uma conta de nuvem conforme descrito em [Configurar locais de importação na nuvem](/help/components/classifications/importer/configure-import-accounts.md).
+>Em vez disso, configure uma conta de nuvem conforme descrito em [Configurar locais de importação na nuvem](/help/components/locations/configure-import-accounts.md).
 
 Etapas que descrevem como fazer upload de arquivos de dados por FTP.
 
