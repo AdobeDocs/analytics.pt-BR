@@ -3,7 +3,7 @@ description: Configurar a conta de importação na nuvem e o local onde os dados
 keywords: Analysis Workspace
 title: Configurar contas de importação na nuvem
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Antes de importar os dados de classificação do Adobe Analytics de um destino na nuvem, é necessário adicionar e configurar a conta e o local dentro dessa conta onde deseja que os dados de classificação sejam coletados.
 
-Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Google Cloud Platform e assim por diante) conforme descrito neste artigo e, em seguida, adicionar e configurar o local nessa conta (como uma pasta na conta), conforme descrito em [Configurar locais de importação na nuvem][/help/components/locations/configure-import-locations.md].
+Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Google Cloud Platform e assim por diante) conforme descrito neste artigo e, em seguida, adicionar e configurar o local nessa conta (como uma pasta na conta), conforme descrito em [Configurar locais de importação na nuvem](/help/components/locations/configure-import-locations.md).
 
 É necessário configurar o Adobe Analytics com as informações necessárias para acessar a conta de destino da nuvem.
 
