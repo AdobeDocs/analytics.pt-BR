@@ -3,9 +3,9 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 38e1b8da66fbca36c5f22c6050dcba87e8967ecb
+source-git-commit: 47f102662e5887b3df456a3db88038cec61a6fb2
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '885'
 ht-degree: 76%
 
 ---
@@ -20,7 +20,7 @@ As versões do Adobe Analytics operam em um [modelo de entrega contínua](releas
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Configurar locais de armazenamento de conta na nuvem para assimilar dados de classificação** | Agora é possível gerenciar os locais de armazenamento da conta em nuvem usados para a automação do conjunto de classificações.<p> | N/D | 10 de julho de 2023 |
+| **Configurar locais de armazenamento de conta na nuvem para assimilar dados de classificação** | Agora é possível gerenciar os locais de armazenamento da conta em nuvem usados para a automação do conjunto de classificações.[Saiba mais](/help/components/locations/configure-import-accounts.md)<p> | N/D | 10 de julho de 2023 |
 | **Melhorias no filtro de Reparo de dados** | Três melhorias de filtragem foram adicionadas ao Reparo de dados:<ul><li>Filtre por uma variável para modificar uma segunda variável. Por exemplo, se `eVar2` contém &quot;@&quot; e, em seguida, exclui `eVar3`.</li><li>Filtro para valores numéricos ou não numéricos</li><li>Aplique vários filtros com um AND. Por exemplo, onde `eVar2="a"` E `eVar3="b"`</li></ul>[Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 de junho de 2023 | 12 de julho de 2023 |
 | **Destinos seguros para exportação de feed de dados** | Os feeds de dados agora podem ser enviados para os seguintes destinos de armazenamento na nuvem:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Os destinos que estavam disponíveis anteriormente (FTP, SFTP, S3 e Azure Blob) não são mais recomendados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=pt-BR) | 12 de junho de 2023 | 15 de julho de 2023 |
 
