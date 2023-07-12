@@ -3,10 +3,10 @@ title: Notas de versão mais recentes do Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 386661af0d37fb223f51904a48593065f42ba47b
+source-git-commit: b724ef95771b49a81563587a5d8bbfe26c99c134
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 76%
+source-wordcount: '891'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ AN-307816; AN-318111; AN-318584; AN-318828; AN-320440; AN-320568; AN-320616; AN-
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
 | **Expiração de 37 meses de IDs de compra e IDs de evento (serialização de eventos)** | Julho de 10,2023 | Uma versão futura do mecanismo de processamento de ocorrências do Analytics, direcionada para lançamento em **13 de julho de 2023**, começará a impor uma expiração de 37 meses de IDs de compra e IDs de evento (serialização de eventos). Atualmente, as IDs de compra e as IDs de evento nunca expiram no Adobe Analytics. Depois que uma ID de compra ou ID de evento for vista/usada, qualquer ocorrência futura, independente de quando, terá essa compra ou evento marcado como duplicado. Com a nova versão do mecanismo de processamento:<ul><li>IDs de compra e IDs de evento sempre expirarão após 37 meses.</li><li>Se tiver passado 37 meses desde que a ID de compra ou a ID de evento foi vista, ela não será mais considerada uma compra ou um evento duplicado.</li><li> Se você estiver “reutilizando” IDs de compra ou IDs de evento de mais de 37 meses atrás, elas não serão mais consideradas duplicatas.</li></ul> |
-| **Migração para as credenciais de servidor para servidor do Adobe I/O OAuth** | 11 de maio de 2023 | Os clientes da API do Adobe Analytics e do Livestream que usam as credenciais JWT do Adobe I/O devem migrar para as credenciais de servidor para servidor do Adobe I/O OAuth até **1º de janeiro de 2025**. Para mais detalhes e linhas do tempo, consulte o aviso de fim de vida útil na tabela abaixo. |
+| **Migração para credenciais de servidor para servidor do OAuth do Adobe I/O** | 11 de maio de 2023 | Os clientes da API Adobe Analytics e do Livestream que usam as credenciais JWT do Adobe I/O devem migrar para as credenciais de servidor para servidor do Adobe I/O OAuth ao **1 de janeiro de 2025**. Para mais detalhes e linhas do tempo, consulte o aviso de fim de vida útil na tabela abaixo. |
 
 {style="table-layout:auto"}
 
