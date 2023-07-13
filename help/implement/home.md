@@ -3,10 +3,10 @@ title: Implementação do Adobe Analytics
 description: Implementar o Adobe Analytics no site, propriedade ou aplicativo.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 95%
+source-wordcount: '925'
+ht-degree: 85%
 
 ---
 
@@ -34,20 +34,20 @@ O Adobe Analytics requer código em seu site, aplicativo móvel ou outro aplicat
 Os seguintes métodos de implementação estão disponíveis para seu **site**:
 
 * **Extensão do SDK da web**: o método padronizado e recomendado para implementar o Adobe Analytics para novos clientes. Instale o **Extensão SDK da Web do Adobe Experience Platform** em Coleção de dados da Adobe Experience Platform **Tags**, usar uma tag de carregamento em cada página e enviar dados para a Adobe Experience Platform **Rede de borda** em um formato conveniente para sua organização. A rede de borda encaminha os dados de entrada para o Adobe Analytics no formato correto.
-  ![Extensão do SDK da Web](./assets/websdk-extension-implementation.png)
-Consulte [Implementar o Adobe Analytics usando a extensão do SDK da web da Adobe Experience Platform](./aep-edge/overview.md) para obter mais informações.
+  ![Extensão SDK da Web](./assets/websdk-extension-implementation.png)
+Consulte [Como implementar o Adobe Analytics usando a extensão SDK da Web da Adobe Experience Platform.](./aep-edge/overview.md) para obter mais informações.
 
 * **SDK da Web**: você pode carregar manualmente as bibliotecas do SDK da web no seu site se não quiser usar a coleção de dados da Adobe Experience Platform. Referencie à biblioteca do SDK da web (`alloy.js`) em cada página e envie as chamadas de rastreamento desejadas para a **rede de borda** da Adobe Experience Platform em um formato conveniente para a sua organização. A rede de borda encaminha os dados de entrada para o Adobe Analytics no formato correto.
   ![SDK da Web](./assets/websdk-implementation.png)
-Consulte [Implementar o Adobe Analytics usando o SDK da web da Adobe Experience Platform](./aep-edge/overview.md) para obter mais informações.
+Consulte [Como implementar o Adobe Analytics usando o SDK da Web da Adobe Experience Platform](./aep-edge/overview.md) para obter mais informações.
 
 
 * **Extensão do Analytics**: instale a **extensão do Adobe Analytics** nas **Tags** da coleção de dados da Adobe Experience Platform. Insira uma tag de carregamento em cada página e use a extensão do Adobe Analytics para determinar como cada variável é definida. Use esse método de implementação se desejar a praticidade das tags, mas não quiser usar a infraestrutura da rede de borda.
   ![Extensão do Adobe Analytics](./assets/analytics-extension-implementation.png)
-Consulte [Implementar o Adobe Analytics usando a extensão do Analytics](launch/overview.md) para obter mais informações.
+Consulte [Como implementar o Adobe Analytics usando a extensão do Analytics](launch/overview.md) para obter mais informações.
 
 * **JavaScript herdado:** o método manual histórico para implementar o Adobe Analytics. Referencie a biblioteca do AppMeasurement (`AppMeasurement.js`) em cada página e, em seguida, descreva as variáveis e configurações usadas em uma implementação.
-  ![JavaScript herdado](./assets/appmeasurement-implementation.png)
+  ![Como implementar o Adobe Analytics usando o JavaScript herdado](./assets/appmeasurement-implementation.png)
 Esse método de implementação pode ser útil para implementações que usam código personalizado e ainda é recomendado quando você (deseja) usar:
 
    * [Dados do Activity Map](../analyze/activity-map/activity-map.md),
@@ -66,7 +66,7 @@ Esse método de implementação pode ser útil para implementações que usam c�
 
 O seguinte fluxo de decisão pode ajudar você a selecionar um método de implementação:
 
-![Árvore de decisão](./assets/decision-tree.png)
+![Uma árvore decisória para selecionar um método de implementação, conforme descrito nesta seção.](./assets/decision-tree.png)
 
 
 >[!TIP]
