@@ -3,10 +3,10 @@ title: produtos
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
+source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 72%
+source-wordcount: '633'
+ht-degree: 71%
 
 ---
 
@@ -60,7 +60,7 @@ A variável `s.products` é uma string que contém vários campos delimitados po
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Essa variável suporta vários produtos na mesma ocorrência. Ela é valiosa para carrinhos de compras e compras que contêm vários produtos. O comprimento máximo para toda a cadeia de caracteres `products` é de 64K. Separe cada produto usando uma vírgula (`,`) na string.
+Essa variável suporta vários produtos na mesma ocorrência. Ela é valiosa para carrinhos de compras e compras que contêm vários produtos. O comprimento máximo para todo o `products` a cadeia de caracteres tem 64k bytes. Separe cada produto usando uma vírgula (`,`) na string.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart

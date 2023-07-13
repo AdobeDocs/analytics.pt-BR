@@ -3,10 +3,10 @@ title: events
 description: Defina a variável events, que governa a maioria das métricas do site.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 92%
+source-wordcount: '815'
+ht-degree: 90%
 
 ---
 
@@ -45,19 +45,19 @@ Você pode definir eventos ao configurar a extensão do Analytics (variáveis gl
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina as [!UICONTROL Extensão] lista suspensa para o Adobe Analytics e a [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
+5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Eventos].
 
 Vários recursos estão disponíveis:
 
 * Uma lista suspensa que permite selecionar o evento a ser incluído
 * um campo de texto opcional para serialização. Consulte [Serialização de eventos](event-serialization.md) para obter mais informações.
-* Um campo de texto opcional para um valor de evento. Você pode incluir moeda para eventos de moeda, ou um número inteiro para eventos que não sejam de moeda para incrementá-lo várias vezes. Por exemplo, seleção `event1` na lista suspensa e incluindo `10` neste campo incrementos `event1` por 10 no relatório.
+* Um campo de texto opcional para um valor de evento. Você pode incluir moeda para eventos de moeda, ou um número inteiro para eventos que não sejam de moeda para incrementá-lo várias vezes. Por exemplo, selecionar `event1` na lista suspensa e incluindo `10` neste campo incrementa `event1` por 10 em relatórios.
 * Um botão para adicionar outro evento. Você pode adicionar quantos eventos desejar a uma única regra dentro do razoável.
 
 ## s.events no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-A variável `s.events` é uma string que contém uma lista de eventos delimitada por vírgulas para inclusão na ocorrência. Não há limite de bytes para essa variável, portanto, ela não é truncada. Os valores válidos incluem:
+A variável `s.events` é uma string que contém uma lista de eventos delimitada por vírgulas para inclusão na ocorrência. A variável permite até 64k bytes, permitindo efetivamente quantos eventos forem necessários para uma ocorrência. Os valores válidos incluem:
 
 * `event1` e `event1000`: eventos personalizados, definidos como você desejar. Registre como você usa cada evento no [documento de design de solução](../../../prepare/solution-design.md) da sua organização. O número de eventos disponíveis depende do contrato do Analytics de sua organização. A maioria das organizações com contratos não herdados tem 1000 eventos personalizados disponíveis. Entre em contato com a equipe de conta do Adobe se não tiver certeza de quantos eventos personalizados estão disponíveis para você.
 * `purchase`: incrementa a métrica [&quot;Pedidos&quot;](/help/components/metrics/orders.md) em 1 e obtém valores definidos na variável `products` para calcular [&quot;Unidades&quot;](/help/components/metrics/units.md) e [&quot;Receita&quot;](/help/components/metrics/revenue.md). Consulte [Evento de compra](event-purchase.md) para obter mais informações.
