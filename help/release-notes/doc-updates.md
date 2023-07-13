@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
 workflow-type: tm+mt
-source-wordcount: '4489'
+source-wordcount: '4490'
 ht-degree: 97%
 
 ---
@@ -25,8 +25,9 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **Julho de 2023** | |
+| Nova variável do AppMeasurement | A variável `decodeLinkParameters` acomoda casos extremos em que as implementações codificam caracteres multibytes em variáveis de rastreamento de link. [Saiba mais](../implement/vars/config-vars/decodelinkparameters.md) |
 | **Junho de 2023** | |
-| Nova variável do AppMeasurement | A variável `doubleEncodeLinkParameters` acomoda casos extremos em que as implementações codificam caracteres multibytes em variáveis de rastreamento de link. [Saiba mais](../implement/vars/config-vars/doubleencodelinkparameters.md) |
 | Novos recursos para conjuntos de classificação | [Conjuntos de classificações](/help/components/classifications/sets/overview.md) O foi atualizado com vários novos recursos:<ul><li>**Consolidações**: combine conjuntos de classificações em um único conjunto de classificações consolidadas. O conjunto de classificações consolidado pode ser usado como outros conjuntos de classificações ou como um conjunto de dados de pesquisa no Customer Journey Analytics. [Saiba mais](../components/classifications/sets/consolidations/manage.md)</li><li>**Regras**: classifica automaticamente os valores com base nas regras no conjunto de classificação. [Saiba mais](../components/classifications/sets/manage/rules.md)</li><li>**Importação automatizada**: importe automaticamente dados de classificação de destinos de armazenamento na nuvem. [Saiba mais](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Atualizações de métricas calculadas | Foram feitas atualizações em vários artigos relacionados às métricas calculadas, incluindo atualização de capturas de tela e etapas nos procedimentos. Essas alterações foram feitas para alinhar a documentação com a funcionalidade atual do Adobe Analytics. |
 | Destinos seguros para exportação de feed de dados | Os feeds de dados agora podem ser enviados para os seguintes destinos de armazenamento na nuvem:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Os destinos que estavam disponíveis anteriormente (FTP, SFTP, S3 e Azure Blob) não são mais recomendados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=pt-BR) |
