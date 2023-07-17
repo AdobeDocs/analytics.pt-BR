@@ -4,7 +4,7 @@ title: Visão geral dos componentes
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
@@ -127,8 +127,6 @@ Pesquise, filtre e classifique a lista de componentes no painel esquerdo do Anal
 4. (Opcional) Para aprimorar ainda mais a lista, é possível classificar a lista de componentes, conforme descrito em [Classificação da lista de componentes](#sort-the-component-list).
 
 ### Classificação da lista de componentes
-
-{{release-limited-testing-section}}
 
 1. (Opcional) Aplique filtros à lista de componentes, conforme descrito em [Filtragem da lista de componentes](#filter-the-component-list).
 
