@@ -3,10 +3,10 @@ title: Interface do usuário do feed de dados
 description: Saiba como navegar na interface do feed de dados.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 97%
+source-wordcount: '656'
+ht-degree: 77%
 
 ---
 
@@ -20,13 +20,11 @@ Veja um vídeo sobre a interface do Gerenciamento de feeds de dados:
 
 Acesse o gerenciamento do feed de dados seguindo estas etapas:
 
-1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
-2. Clique no menu de 9 linhas na parte superior direita e em [!UICONTROL Analytics].
-3. No menu superior, clique em [!UICONTROL Administração] > [!UICONTROL Feeds de dados].
+1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
+1. Selecione o ícone de 9 quadrados no canto superior direito e selecione [!UICONTROL **Analytics**].
+1. Na barra de navegação superior, vá para [!UICONTROL **Admin**] > [!UICONTROL **Feeds de dados**].
 
-![Menu do feed de dados](assets/AdminMenu.png)
-
-## Navegação na interface
+## Navegar na interface
 
 Ao chegar à página do gerenciador do feed de dados, a interface é semelhante ao seguinte:
 
@@ -36,27 +34,25 @@ Se nenhum feed for configurado, a página exibe um botão [!UICONTROL Criar novo
 
 ### Filtros e pesquisa
 
-Use filtros e a pesquisa a para localizar o feed exato que você está procurando.
+Use a pesquisa ou os filtros para localizar um feed específico.
 
-Na extremidade esquerda, clique no ícone de filtro para mostrar ou ocultar as opções de filtragem. Os filtros são organizados por categoria. Clique na divisa para recolher ou expandir as categorias de filtragem. Clique na caixa de seleção para aplicar esse filtro.
+* No campo de pesquisa, comece digitando o nome de um feed. Somente os feeds correspondentes são mostrados na lista de feeds disponíveis.
 
-![Filtro](assets/filters.jpg)
+* Na extremidade esquerda, clique no ícone de filtro para mostrar ou ocultar as opções de filtragem. Os filtros são organizados por categoria. É possível recolher ou expandir categorias de filtragem. Marque a caixa de seleção ao lado de qualquer filtro que deseja aplicar.
 
-Use a pesquisa para localizar um feed por nome.
-
-![Pesquisar](assets/search.jpg)
+  ![Filtro](assets/filters.png)
 
 ### Feeds e trabalhos
 
-Clique na guia Trabalhos para ver os trabalhos individuais criados por cada um dos feeds. Consulte [Gerenciar trabalhos de feed de dados](df-manage-jobs.md).
+Selecione o [!UICONTROL **Tarefas**] para exibir trabalhos individuais criados por cada um dos feeds. Consulte [Gerenciar trabalhos de feed de dados](df-manage-jobs.md).
 
 ### Adicionar
 
-Próximo às guias de feeds e trabalhos, clique no botão + [!UICONTROL Adicionar] para criar um novo feed. Consulte [Criar um feed de dados](create-feed.md) para obter mais informações.
+A variável [!UICONTROL Adicionar] permite criar um novo feed. Consulte [Criar um feed de dados](create-feed.md) para obter mais informações.
 
 ### Colunas
 
-Cada feed criado mostra várias colunas fornecendo informações sobre ele. Clique em um cabeçalho de coluna para classificá-lo em ordem crescente. Clique novamente em um cabeçalho de coluna para classificá-lo em ordem decrescente. Se não conseguir ver uma coluna específica, clique no ícone de coluna na parte superior direita.
+Cada feed criado mostra várias colunas fornecendo informações sobre ele. Selecione um cabeçalho de coluna para classificá-lo em ordem crescente. Selecione um cabeçalho de coluna novamente para classificá-lo em ordem decrescente. Se não conseguir ver uma coluna específica, clique no ícone de coluna no canto superior direito.
 
 ![Ícone de coluna](assets/cols.jpg)
 

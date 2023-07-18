@@ -4,10 +4,10 @@ keywords: sequência de cliques;feed de dados;datafeed;Feed de dados
 title: Visão geral do feed de dados do Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 87%
+source-wordcount: '314'
+ht-degree: 69%
 
 ---
 
@@ -24,40 +24,9 @@ Verifique se você atende a todos os requisitos a seguir antes de utilizar os fe
 * Um bucket configurado no Amazon S3, Google Cloud Platform, Azure RBAC ou Azure SAS.
 * (Herdado: obrigatório somente para tipos de destino FTP e SFTP herdados) Tenha um site FTP e credenciais acessíveis (credenciais FTP fornecidas pela sua organização).
 
-## Recursos recomendados do feed de dados
-
-1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
-2. Clique no ícone de 9 quadrados no canto superior direito e clique no logotipo colorido do Analytics.
-3. Na barra de navegação superior, navegue até Admin > Feeds de dados.
-4. Clique em [!UICONTROL Adicionar]. Uma nova página é exibida com três categorias principais: [!UICONTROL Informações do feed], [!UICONTROL Destino] e [!UICONTROL Definições da coluna de dados].
-5. Preencha os campos [!UICONTROL Informações do feed].
-   * Nome: qualquer nome que desejar, como &quot;Test data feed&quot;.
-   * Conjunto de relatórios: selecione o conjunto de relatórios desejado.
-   * Enviar email ao concluir: insira seu email.
-   * Intervalo do feed: selecione o intervalo desejado (por hora ou por dia).
-   * Atraso no processamento: pode ser deixado como [!UICONTROL Sem atraso].
-   * Datas de início e término: selecione uma data inicial de vários dias atrás, e hoje como a data final.
-6. Preencha os campos de [!UICONTROL Destino].
-   * Tipo: FTP
-   * Host: digite o URL de destino do FTP desejado. Por exemplo, `ftp://ftp.omniture.com`.
-   * Caminho: pode ser deixado em branco
-   * Nome de usuário: digite o nome de usuário para fazer logon no site FTP.
-   * Senha e senha de confirmação: digite a senha para fazer logon no site FTP.
-7. Preencha as [!UICONTROL Definições da Coluna de dados].
-   * Selecione o modelo mais recente &quot;Todos os Adobe Columns&quot; na lista suspensa.
-   * Formato de compactação: Gzip
-   * Tipo de empacotamento: vários arquivos
-   * Manifesto: nenhum arquivo
-8. Clique em [!UICONTROL Salvar] na parte superior direita.
-9. Depois de salvo, o processamento de dados históricos é iniciado. Quando os dados terminam o processamento de um dia, o arquivo é colocado no site FTP.
-10. Faça logon no site FTP usando o Windows Explorer ou um cliente FTP dedicado.
-11. Baixe o arquivo de feed de dados compactado no computador local.
-12. Descompacte o arquivo compactado usando um programa compatível com extensões de arquivo `.tar.gz`.
-13. Abra o arquivo `hit_data.tsv` na planilha ou no aplicativo de banco de dados preferido para ver os dados brutos desse dia.
-
 ## Próximas etapas
 
-Depois de entender o fluxo de trabalho básico de obtenção dos feeds de dados, você pode trabalhar com as equipes na organização para armazenar ou assimilar dados brutos em um banco de dados.
+Os recursos a seguir ajudam você a entender o fluxo de trabalho básico de obtenção dos feeds de dados. Depois de entender o fluxo de trabalho básico, você pode trabalhar com as equipes na organização para armazenar ou assimilar dados brutos em um banco de dados.
 
 * [Práticas recomendadas do feed de dados](/help/export/analytics-data-feed/data-feeds-best-practices.md): práticas recomendadas para criar e gerenciar feeds de dados.
 * [Criar um feed de dados](create-feed.md): Detalhes técnicos para criar um feed de dados, explicando campos individuais com mais detalhes

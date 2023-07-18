@@ -4,9 +4,9 @@ title: Configurar uma visualização de fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 58f53da6076bf57d060303538814582cb5eb009c
+source-git-commit: d1c2966bfd7cb5e397de23adf45bb38fca34e416
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1351'
 ht-degree: 62%
 
 ---
@@ -23,11 +23,9 @@ As visualizações de fluxo permitem configurar o início ou o fim do caminho em
 
 1. Adicione um painel em branco ao projeto e clique no ícone de visualizações no painel à esquerda.
 
-1. Arraste o [!UICONTROL **Fluxo**] no painel.
-
    Ou
 
-   Arraste o [!UICONTROL **Fluxo**] em um projeto existente.
+   Adicione uma visualização de qualquer uma das maneiras descritas na seção &quot;Adicionar visualizações a um painel&quot; no [Visão geral das visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. Ancore a visualização de Fluxo usando uma das seguintes opções:
 
@@ -45,7 +43,7 @@ As visualizações de fluxo permitem configurar o início ou o fim do caminho em
    >
    >Métricas calculadas não podem ser usadas na variável  **[!UICONTROL Começa com]** ou **[!UICONTROL Termina com]** campos.
 
-1. Se você escolher uma métrica, também precisará fornecer uma [!UICONTROL Definição de caminho do Dimension] para usar como o caminho conduzindo ou saindo do componente selecionado, como mostrado aqui. O padrão é [!UICONTROL **Página**].
+1. Se você escolher uma métrica, também precisará fornecer uma [!UICONTROL **Definição de caminho do Dimension**] para usar como o caminho conduzindo ou saindo do componente selecionado, como mostrado aqui. O padrão é [!UICONTROL **Página**].
 
    ![Dimensão de definição de caminho](assets/pathing-dim.png)
 
