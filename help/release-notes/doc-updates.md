@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
 workflow-type: tm+mt
-source-wordcount: '4490'
+source-wordcount: '4503'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Julho de 2023** | |
+| Limite de tamanho do FTP atualizado | O [limite de armazenamento de dados padrão FTP](/help/export/ftp-and-sftp/ftp-limits.md) foi alterado para 100 GB. |
 | Nova variável do AppMeasurement | A variável `decodeLinkParameters` acomoda casos extremos em que as implementações codificam caracteres multibytes em variáveis de rastreamento de link. [Saiba mais](../implement/vars/config-vars/decodelinkparameters.md) |
 | **Junho de 2023** | |
 | Novos recursos para conjuntos de classificação | Os [conjuntos de classificação](/help/components/classifications/sets/overview.md) foram atualizados com vários novos recursos:<ul><li>**Consolidações**: combine conjuntos de classificação em um único conjunto de classificação consolidado. O conjunto de classificações consolidado pode ser usado como outros conjuntos de classificações ou como um conjunto de dados de pesquisa no Customer Journey Analytics. [Saiba mais](../components/classifications/sets/consolidations/manage.md)</li><li>**Regras**: classifique automaticamente os valores com base nas regras do conjunto de classificação. [Saiba mais](../components/classifications/sets/manage/rules.md)</li><li>**Importação automatizada**: importe automaticamente dados de classificação de destinos de armazenamento na nuvem. [Saiba mais](../components/classifications/sets/manage/schema.md)</li></ul> |
@@ -34,7 +35,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Relatórios de bots no Workspace | Os relatórios de bots agora estão disponíveis no Analysis Workspace. Este recurso vem com várias adições:<ul><li>Uma nova dimensão: [Nome do bot](/help/components/dimensions/bot-name.md)</li><li>Duas novas métricas: [Visualizações de página por bots](/help/components/metrics/bot-page-views.md) e [Ocorrências de bots](/help/components/metrics/bot-occurrences.md).</li><li>Um novo modelo de métrica calculada: [Taxa de visualizações de página por bots](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>Um novo relatório do Workspace: Relatórios de bots</li></ul>As novas métricas e dimensão contêm dados que são preenchidos retroativamente a partir de março de 2023. |
 | **Maio de 2023** | |
 | Documentação do Deep Linking (aplicativo para dispositivos móveis) | Permite que usuários enviem links para cartões de pontuação que os levarão diretamente ao projeto do cartão de pontuação no aplicativo. [Saiba mais](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
-| Documentação para Tela inicial atualizada do aplicativo de painéis do Analytics (aplicativo para dispositivos móveis) | A nova tela inicial atualizada permite visualizar todos os seus cartões de pontuação em uma lista consolidada. [Saiba mais](/help/analyze/mobile-app/executive.md#use-dashboards) |
+| Documentação para Tela inicial atualizada do aplicativo de painéis do Analytics (aplicativo para dispositivos móveis) | A nova tela inicial atualizada permite visualizar todos os cartões de pontuação em uma lista consolidada. [Saiba mais](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Ícones de espectro | Quando apropriado, as capturas de tela dos ícones da interface na documentação foram substituídas por referências aos ícones equivalentes no [Sistema de design de espectro da Adobe](https://spectrum.adobe.com/page/icons/). |
 | Melhoria no mapeamento de IP para geolocalização | Criação de um tópico das [Perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=pt-BR). |
 | Gerenciador de atividades de relatórios | Atualização dessa documentação beta, especificamente a seção sobre [Exibição de atividades de relatórios para conjuntos de relatórios individuais](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=pt-BR#view-reporting-activity-for-individual-report-suites). |
@@ -59,7 +60,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Fevereiro de 2023** | |
 | Implementação | Conteúdo atualizado sobre como [implementar o Adobe Analytics para Web e dispositivos móveis](../implement/home.md). |
 | Calendários e intervalos de datas do Espaço de trabalho | Conteúdo atualizado para descrever intervalos de datas relativas, atualizações de cálculo de fórmulas e alterações na interface do calendário. Consulte [Sobre intervalos de datas relativas do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| Cartões de pontuação para dispositivos móveis | Nova seção de documentação para descrever como mostrar e ocultar intervalos de datas de comparação. Consulte [Mostrar intervalos de datas de comparação](/help/analyze/mobile-app/create-scorecard.md) em Customer Journey Analytics. |
+| Cartões de pontuação para dispositivos móveis | Nova seção de documentação para descrever como mostrar e ocultar intervalos de datas de comparação. Consulte [Mostrar intervalos de datas de comparação](/help/analyze/mobile-app/create-scorecard.md) no Customer Journey Analytics. |
 | API 1.4 | O [API do Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) recebeu uma reescrita completa e agora está publicado no Adobe Developer. |
 | Rastreamento em tipos de implementação | Atualizado o caso de uso [Rastrear em tipos diferentes de implementação](../implement/use-cases/cross-type-implementation.md) para acomodar o serviço de ID da Experience Cloud. |
 | **Janeiro de 2023** | |
