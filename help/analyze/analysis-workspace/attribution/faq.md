@@ -4,20 +4,24 @@ description: Obtenha respostas para perguntas frequentes sobre atribuição.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
+source-git-commit: aeb5558c85286c069b49663919fdbb15853bf88e
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 85%
+source-wordcount: '1220'
+ht-degree: 73%
 
 ---
 
 # Perguntas frequentes sobre Atribuição
 
-## O que é o item de linha “Nenhum” na atribuição?
+
++++## O que é o item de linha “Nenhum” na atribuição?
 
 O item de linha “Nenhum” é um item “catch-all” (global) que representa todas as conversões que ocorreram sem nenhum ponto de contato na janela de retrospectiva. Para reduzir o número de conversões atribuídas ao item de linha “Nenhum”, tente usar uma janela de pesquisa personalizada com um período de pesquisa posterior mais longo.
 
-## Por que às vezes vejo datas fora da minha janela de relatórios ao usar modelos de atribuição?
++++
+
+
++++## Por que às vezes vejo datas fora da minha janela de relatórios ao usar modelos de atribuição?
 
 Algumas métricas baseadas em visitas, como [Entradas](/help/components/metrics/entries.md) ou [Taxa de rejeição](/help/components/metrics/bounce-rate.md), podem atribuir dados a um período anterior ao intervalo de datas de início da janela de relatórios. Essa situação se deve aos modelos de atribuição que usam uma janela de pesquisa, que determina a aparência da atribuição anterior para conceder crédito por métricas. O cenário mais comum é quando as visitas abrangem a meia-noite. Por exemplo:
 
@@ -37,23 +41,38 @@ Considere outro exemplo semelhante. A única diferença entre o exemplo a seguir
 
 Neste exemplo, Entradas e Taxa de rejeição não exibiriam dados de 31 de agosto. A janela de pesquisa e a janela de relatórios iniciam no dia 1° de setembro, portanto os dados não podem ser atribuídos a partir do dia 31 de agosto.
 
-## Quando devo usar retrospectiva de visita, visitante ou atribuição personalizada?
++++
 
-A escolha da retrospectiva de atribuição depende do seu caso de uso. Se as conversões normalmente levam mais tempo do que uma visita única, recomenda-se a retrospectiva de visitante ou personalizada. Para ciclos de conversão mais longos, as janelas de retrospectiva personalizadas são melhores, pois são o único tipo que pode extrair dados antes da janela de relatórios.
 
-## Como funciona a comparação de props e eVars na atribuição?
++++## Quando devo usar retrospectiva de visita, visitante ou atribuição personalizada?
+
+A escolha da retrospectiva de atribuição depende do seu caso de uso. Se as conversões normalmente levam mais tempo do que uma visita única, recomenda-se a retrospectiva de visitante ou personalizada. Para ciclos de conversão mais longos, as janelas de retrospectiva personalizadas são melhores, pois são o único tipo que pode extrair dados antes da janela de relatórios..
+
++++
+
+
++++## Como funciona a comparação de props e eVars na atribuição?
 
 A atribuição é recalculada no tempo de execução do relatório, portanto, não há diferença entre prop e eVar (ou qualquer outra dimensão) para fins de modelagem de atribuição. As props podem persistir usando qualquer janela de retrospectiva ou modelo de atribuição, e as configurações de alocação/expiração de eVar são ignoradas.
 
-## Os modelos de atribuição estão disponíveis em outros recursos do Analytics, como Feeds de dados ou Data Warehouse?
++++
+
+
++++## Os modelos de atribuição estão disponíveis em outros recursos do Analytics, como Feeds de dados ou Data Warehouse?
 
 Não. Os modelos de atribuição usam o processamento de tempo do relatório, que só está disponível no Analysis Workspace. Consulte [Processamento de tempo do relatório](/help/components/vrs/vrs-report-time-processing.md) para obter mais informações.
 
-## Os modelos de atribuição estão disponíveis somente se uso um conjunto de relatórios virtual com o processamento de tempo ativado?
++++
+
+
++++## Os modelos de atribuição estão disponíveis somente se uso um conjunto de relatórios virtual com o processamento de tempo ativado?
 
 Os modelos de atribuição estão disponíveis fora dos conjuntos de relatórios virtuais. Estes usam o processamento de tempo do relatório no backend, enquanto os modelos de atribuição estão disponíveis tanto para os conjuntos de relatórios padrão como para os conjuntos de relatórios virtuais.
 
-## Que dimensões e métricas são incompatíveis?
++++
+
+
++++## Que dimensões e métricas são incompatíveis?
 
 O painel de atribuição é compatível com todas as dimensões. As métricas não compatíveis incluem as seguintes:
 
@@ -73,33 +92,57 @@ O painel de atribuição é compatível com todas as dimensões. As métricas n�
 * Visitas em única página
 * Acesso único
 
-## A atribuição funciona com classificações?
++++
+
+
++++## A atribuição funciona com classificações?
 
 Sim, as classificações são totalmente compatíveis.
 
-## A atribuição funciona com fontes de dados?
++++
 
-Sim, a maioria das fontes de dados é compatível. A atribuição não é possível com fontes de dados de nível de resumo porque elas não se vinculam a um identificador de visitante do Analytics.
 
-As fontes de dados de ID de transação são tratadas como qualquer outra ocorrência; eles não usam o processamento especial que normalmente usam nos relatórios tradicionais. Em outras palavras, ao usar o processamento de tempo do relatório, as ocorrências da ID de transação terão valores de eVar propagados de ocorrências que ocorrem perto do carimbo de data e hora da ocorrência da ID de transação. Os valores não serão propagados de ocorrências que ocorreram perto do momento da transação original.
++++## A atribuição funciona com fontes de dados?
 
-## A atribuição funciona com a integração do Advertising Analytics?
+Sim, a maioria das fontes de dados é compatível. A atribuição não é possível com fontes de dados de nível de resumo porque essas fontes de dados não se vinculam a um identificador de visitante do Analytics.
+
+As fontes de dados de ID de transação são tratadas como qualquer outra ocorrência. As fontes de dados de ID de transação não usam o processamento especial que normalmente é usado nos relatórios tradicionais. Em outras palavras, ao usar o processamento de tempo do relatório, as ocorrências de ID de transação terão valores de eVar propagados a partir das ocorrências que ocorrem perto do carimbo de data e hora da ocorrência de ID de transação. Os valores não serão propagados de ocorrências que ocorreram perto da hora da transação original.
+
+Quando possível, o Attribution IQ depende do valor da coluna MID enviada em um evento na fonte de dados, em vez de um valor persistente. O modelo de atribuição é aplicado aos valores de coluna MID na fonte de dados, de modo dinâmico. Por exemplo, quando você usa a atribuição &quot;Último contato&quot;, o modelo começa a partir de cada instância de uma métrica e avança sequencialmente nas ocorrências até que o modelo atinja o último valor observado na coluna MID.
+
+Quando não for possível, o Attribution IQ usará o valor MID no &quot;registro anterior&quot; na fonte de dados para avaliação. Esse registro anterior pode não ser ordenado sequencialmente pelo carimbo de data e hora, já que o AA não oferece suporte a dados fora de ordem.
+
+Como os registros não são solicitados sequencialmente, os valores esperados da aplicação da persistência podem afetar a quantidade de tempo que existe entre o carimbo de data e hora da ID de transação fornecido e a transação original.
+
++++
+
+
++++## A atribuição funciona com a integração do Advertising Analytics?
 
 As dimensões de metadados, como tipo de correspondência e palavra-chave, funcionam com atribuição. No entanto, as métricas (incluindo impressões, custo, cliques, posição média e pontuação de qualidade média) usam fontes de dados de nível de resumo e, portanto, são incompatíveis.
 
-## Como a atribuição funciona com canais de marketing?
++++
 
-Quando os canais de marketing foram introduzidos pela primeira vez, eles só contavam com as dimensões de primeiro e último contato. As dimensões explícitas de primeiro/último toque não são mais necessárias com a versão atual da atribuição. Adobe fornece genéricos [!UICONTROL Canal de marketing] e [!UICONTROL Detalhes do canal de marketing] para usá-las com o modelo de atribuição desejado. Essas dimensões genéricas se comportam de forma idêntica à [!UICONTROL Canal de último contato] , mas são rotuladas de forma diferente para evitar confusão ao usar canais de marketing com um modelo de atribuição diferente.
+
++++## Como a atribuição funciona com canais de marketing?
+
+Quando os canais de marketing foram introduzidos pela primeira vez, eles só contavam com as dimensões de primeiro e último contato. As dimensões explícitas de primeiro/último toque não são mais necessárias com a versão atual da atribuição. O Adobe fornece informações [!UICONTROL Canal de marketing] e [!UICONTROL Detalhes do canal de marketing] dimensões para que você possa usá-las com o modelo de atribuição desejado. Essas dimensões genéricas se comportam de forma idêntica à [!UICONTROL Canal de último contato] dimensões, mas são rotuladas de forma diferente para evitar confusão em caso de uso de canais de marketing com um modelo de atribuição diferente.
 
 Como as dimensões do canal de marketing dependem de uma definição de visita tradicional (conforme definido por suas regras de processamento), a definição de visita não pode ser alterada usando conjuntos de relatórios virtuais.
 
-## Como a atribuição funciona com variáveis de vários valores, como vars de lista?
++++
+
+
++++## Como a atribuição funciona com variáveis de vários valores, como vars de lista?
 
 Algumas dimensões do Analytics podem conter vários valores em uma só ocorrência. Exemplos comuns incluem list vars e a variável products.
 
 Quando a atribuição é aplicada a ocorrências de vários valores, todos os valores na mesma ocorrência recebem o mesmo crédito. Como muitos valores podem receber esse crédito, o total do relatório pode ser diferente se você somar cada item de linha individual. O total do relatório é deduplicado, enquanto cada item de dimensão individual recebe o crédito adequado.
 
-## Como a atribuição funciona com a segmentação?
++++
+
+
++++## Como a atribuição funciona com a segmentação?
 
 A atribuição sempre é executada antes da segmentação e a segmentação é executada antes da aplicação dos filtros do relatório. Esse conceito também se aplica a conjuntos de relatórios virtuais (VRS) que usam segmentos.
 
@@ -110,3 +153,5 @@ Por exemplo, se você criar um VRS com um segmento “Exibir ocorrências” apl
 >[!NOTE]
 >
 >Se um segmento suprimir ocorrências que contenham sua métrica, essas instâncias de métrica não serão atribuídas a nenhuma dimensão. No entanto, um filtro de relatório semelhante simplesmente oculta alguns itens de dimensão, sem qualquer impacto nas métricas processadas de acordo com o modelo de atribuição. Como resultado, um segmento pode retornar valores menores que um filtro com uma definição comparável.
+
++++
