@@ -3,29 +3,31 @@ description: Saiba como excluir pastas no Espaço de trabalho
 keywords: Analysis Workspace
 title: Excluir pastas no Espaço de trabalho
 feature: Workspace Basics
-source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
+exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
+source-git-commit: fb8be11fabefc0206af7868228f85353f15eb20c
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 100%
+source-wordcount: '110'
+ht-degree: 91%
 
 ---
-
 
 # Excluir pastas
 
 É possível excluir pastas que você cria.
 
->[!NOTE]
->
->Excluir uma pasta não exclui o conteúdo da pasta. O conteúdo de uma pasta excluída (projetos ou subpastas) é movido para a pasta imediata acima na hierarquia de pastas.
+**Diretrizes**
+
+* Excluir uma pasta não exclui o conteúdo da pasta. O conteúdo de uma pasta excluída (projetos ou subpastas) é movido para a pasta imediata acima na hierarquia de pastas.
+* Os administradores podem excluir uma pasta na Pasta da empresa criada por outro administrador. Os administradores podem precisar coordenar com outros administradores para manter as pastas e o acesso ao projeto consistentes. Consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+
+Para excluir uma pasta
 
 1. Clique no ícone de reticências **…** no canto superior direito.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-delete-folder.png)
 
-1. Selecione **Excluir pasta**.
+2. Selecione **Excluir pasta**.
 
    Uma notificação de confirmação indica que a pasta foi excluída.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/deleted-folder.png)
-
