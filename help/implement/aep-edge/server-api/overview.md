@@ -3,7 +3,7 @@ title: Implementar o Adobe Analytics usando a API do servidor de rede de borda d
 description: Use a API do servidor da rede de borda da Adobe Experience Platform para enviar dados para a Adobe Analytics.
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: 5a57f4d2d73f16a72fbe8b198b1609a8bffc38b6
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 40%
@@ -18,7 +18,7 @@ Considere também a API do Servidor de Rede de Borda quando precisar que dados c
 
 Uma visão geral de alto nível das tarefas de implementação:
 
-![Adobe Analytics usando o fluxo de trabalho de extensão do Analytics](../../assets/edge-network-server-api.svg)
+![Adobe Analytics usando o fluxo de trabalho de extensão do Analytics](../../assets/edge-network-server-api.png)
 
 <table style="width:100%">
 
