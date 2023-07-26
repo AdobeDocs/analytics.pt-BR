@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
+source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
 workflow-type: tm+mt
-source-wordcount: '4576'
+source-wordcount: '4615'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Julho de 2023** | |
+| API de servidor de rede de borda da Adobe Experience Platform | Foi adicionada uma documentação mais abrangente sobre quando e como implementar a [API do servidor de rede de borda da Adobe Experience Platform](../implement/aep-edge/server-api/overview.md). Por exemplo, ao implementar o Adobe Analytics para aplicativos de desktop, dispositivos IoT, set top boxes. |
 | ID da empresa global | Documentado [como encontrar a ID global da empresa](../admin/admin/company/web-services-admin.md) para a empresa do Analytics na qual você está conectado. Essa ID é necessária para as APIs do Analytics 2.0. |
 | Limite de tamanho do FTP atualizado | O [limite de armazenamento de dados padrão FTP](/help/export/ftp-and-sftp/ftp-limits.md) foi alterado para 100 GB. |
 | Nova variável do AppMeasurement | A variável `decodeLinkParameters` acomoda casos extremos em que as implementações codificam caracteres multibytes em variáveis de rastreamento de link. [Saiba mais](../implement/vars/config-vars/decodelinkparameters.md) |
@@ -98,7 +99,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Uso do campo SKU no XDM para o Edge Collection ao definir variáveis de string de produtos | Permite que os clientes que coletam dados por meio do Experience Edge/SDK da Web usem o valor do SKU para definir o campo do produto na variável products. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=pt-BR#products-using-the-web-sdk) |
 | **Junho de 2022** |  |
 | Variáveis de merchandising no XDM do Edge Collection | Documentação sobre a [compatibilidade com variáveis de merchandising no XDM do Edge Collection](/help/components/dimensions/evar-merchandising.md) |
-| Documentação da Experience Platform Edge | Novos artigos sobre a implementação do Adobe Analytics por meio do [SDK da Web](/help/implement/aep-edge/web-sdk/overview.md), [SDK móvel](/help/implement/aep-edge/mobile-sdk/overview.md) e [API de borda](/help/implement/aep-edge/edge-api/overview.md). |
+| Documentação da Experience Platform Edge | Novos artigos sobre a implementação do Adobe Analytics por meio do [SDK da Web](/help/implement/aep-edge/web-sdk/overview.md), [SDK móvel](/help/implement/aep-edge/mobile-sdk/overview.md) e [API de borda](/help/implement/aep-edge/server-api/overview.md). |
 | Atualização da documentação da visualização de fluxo | Com base na [nova interface](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentação sobre compartilhamento de anotações em cartões de pontuação móveis | Você pode exibir [anotações criadas no Analysis Workspace em cartões de pontuação móveis](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Maio de 2022** | |
