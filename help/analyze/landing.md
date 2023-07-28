@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4071'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ A página de aterrissagem do Adobe Analytics reúne o [!DNL Analysis Workspace] 
 | Novos links para os relatórios do **[!UICONTROL Reports &amp; Analytics]** | <ul><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Público]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Público]** > **[!UICONTROL Páginas de bot]**<li>**[!UICONTROL Relatórios]** > **[!UICONTROL Envolvimento]** > **[!UICONTROL Tempo real]**</li></ul> | ![Novos links](assets/report-links.png) |
 | Novos relatórios prontos para uso | <ul><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Mais popular]** > **[!UICONTROL Próxima página]**</li><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Mais popular]** > **[!UICONTROL Página anterior]**</li><li>**[!UICONTROL Relatórios]** > **[!UICONTROL Envolvimento]** > **[!UICONTROL Análise de página]** > **[!UICONTROL Resumo da página]**</li></ul>Observe que esses relatórios estão no formato do [!UICONTROL Espaço de trabalho] e precisam ser configurados e criados. A saída consiste em um painel de métricas de alto nível, dados de tendências, visualização de [!UICONTROL Fluxo] e muito mais. Você pode modificar esses relatórios e alterar dimensões, itens de dimensão etc. Esses relatórios também estão disponíveis como painéis em Painéis do Espaço de trabalho. | ![Próxima página](assets/next-page.png) |
 | O modal **[!UICONTROL Criar projeto]** voltou | Ao clicar em **[!UICONTROL Criar projeto]** no Espaço de trabalho, você novamente terá a escolha entre um [!UICONTROL Projeto em branco] e um [!UICONTROL Cartão de pontuação móvel em branco]. Você também pode escolher a partir de qualquer modelo criado por sua empresa. | ![Criar novo](assets/create-new.png) |
-| Também disponível no Customer Journey Analytics | Essa landing page, em formato modificado, também está disponível no Customer Journey Analytics. |  |
+| Também disponível no Customer Journey Analytics | Uma versão modificada dessa página de destino também está disponível no Customer Journey Analytics. |  |
 
 {style="table-layout:auto"}
 
@@ -99,9 +99,9 @@ Se estiver na visualização “Pastas e projetos”, aparecerá um modal pergun
 
 Outro caso de uso para administradores é gerenciar relatórios da empresa para excluir, renomear, marcar ou aprovar relatórios. Para obter informações sobre como gerenciar relatórios, consulte [Gerenciamento de relatórios da empresa](#manage-company-reports).
 
-## Clique na guia [!UICONTROL Relatórios] {#navigate-reports}
+## Acesse a guia [!UICONTROL Relatórios] {#navigate-reports}
 
-A variável [!UICONTROL Relatórios] A guia consolida os seguintes conjuntos de relatórios:
+A guia [!UICONTROL Relatórios] consolida os seguintes conjuntos de relatórios:
 
 * Os modelos pré-criados do [!UICONTROL Espaço de trabalho] que estavam anteriormente localizados em [!UICONTROL Espaço de trabalho] > [!UICONTROL Projeto] > [!UICONTROL Novo]. A Adobe não usa mais a palavra “modelo” neste contexto.
 * A maioria dos relatórios pré-criados no menu superior de [!UICONTROL Relatórios] do Adobe Analytics anterior. Esses relatórios agora são exibidos no [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR).
@@ -110,15 +110,15 @@ A variável [!UICONTROL Relatórios] A guia consolida os seguintes conjuntos de 
 >
 >Considere o seguinte ao usar relatórios:
 >* Em Relatórios, uma pasta Favoritos será exibida somente se você marcar um novo relatório como favorito. Nenhum favorito preexistente do Reports &amp; Analytics é transportado.
->* Somente os relatórios mais usados anteriormente e agrupados em Reports &amp; Analytics estão disponíveis. Alguns relatórios raramente usados ou que não são mais relevantes não estão mais disponíveis. Consulte a [Perguntas frequentes sobre a landing page](#landing-page-faq) abaixo para obter mais detalhes.
+>* Somente os relatórios mais usados que anteriormente eram agrupados no Reports &amp; Analytics estão disponíveis. Alguns relatórios raramente usados ou que não são mais relevantes não estão mais disponíveis. Consulte as [Perguntas frequentes sobre a página de destino](#landing-page-faq) abaixo para obter mais detalhes.
 
 ![Guia Relatórios](assets/reports-tab2.png)
 
 
 ### Exibir relatórios {#menus}
 
-1. Acesse a guia [!UICONTROL **Relatórios**]
-1. Use o campo de pesquisa para pesquisar um relatório específico.
+1. Acesse a guia [!UICONTROL **Relatórios**].
+1. Use o campo de pesquisa para procurar um relatório específico.
 
    Ou
 
@@ -136,41 +136,41 @@ A variável [!UICONTROL Relatórios] A guia consolida os seguintes conjuntos de 
 
 ### Exibir e salvar um relatório {#use-reports}
 
-Se sair de um relatório depois de fazer alterações, você será solicitado a salvar ou descartar as alterações. Salvar alterações em um relatório salva o relatório como um novo projeto.
+Se você sair de um relatório depois de fazer alterações, será solicitado que salve ou descarte as alterações. Salvar as alterações de um relatório o salva como um novo projeto.
 
-1. Acesse a guia [!UICONTROL **Relatórios**]
-1. Selecione o relatório que deseja exibir. Por exemplo, em [!UICONTROL **Mais popular**], selecione o [!UICONTROL **Páginas**] relatório.
+1. Acesse a guia [!UICONTROL **Relatórios**].
+1. Selecione o relatório que deseja exibir. Por exemplo, em [!UICONTROL **Mais popular**], selecione o relatório [!UICONTROL **Páginas**].
 
    ![Relatório de páginas](assets/pages-report.png)
 
 1. O Relatório de páginas, conforme exibido no Analysis Workspace, mostra duas [visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([Gráfico de barras](/help/analyze/analysis-workspace/visualizations/bar.md) e [Número do resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)) e uma [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). A métrica usada é Ocorrências.
 1. Siga um destes procedimentos:
 
-   * Visualizar o relatório.
-   * Arraste um ou mais segmentos para a área de soltar Segmentos na parte superior. Por exemplo, arrastar o segmento [!UICONTROL **Clientes móveis**] e visualize os resultados.
+   * Exiba o relatório.
+   * Arraste um ou mais segmentos para a zona de destino Segmentos na parte superior. Por exemplo, arraste o segmento [!UICONTROL **Clientes móveis**] e veja os resultados.
    * Altere o intervalo de datas acessando o calendário no canto superior direito.
-   * Adicione detalhamentos de dimensão, arraste outras métricas e, em geral, personalize o relatório para atender às suas necessidades.
+   * Adicione detalhamentos de dimensão, arraste outras métricas e faça personalizações gerais no relatório para atender às suas necessidades.
 
 1. (Opcional) Salve o relatório como um projeto selecionando [!UICONTROL **Projeto**] > [!UICONTROL **Salvar**].
 
-   Isso salva o relatório como um novo projeto; não modifica o relatório existente. Para obter mais informações sobre como salvar um relatório como um projeto, consulte &quot;Criar um projeto a partir de um projeto em branco ou um relatório&quot; em [Criar projetos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   Isso salva o relatório como um novo projeto e não modifica o relatório existente. Para obter mais informações sobre como salvar um relatório como um projeto, consulte “Criar um projeto a partir de um projeto em branco ou um relatório” em [Criar projetos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 ### Criar um relatório de empresa personalizado {#company-report}
 
 Os relatórios personalizados criados e salvos para que outras pessoas em sua empresa de logon possam usá-los são chamados de relatórios da empresa. Os relatórios da empresa criados anteriormente e os relatórios da empresa recém-criados estão listados no modal Criar projeto, como mostrado abaixo.
 
-Para criar um novo Relatório de empresa:
+Para criar um novo relatório de empresa:
 
 1. Crie um projeto no Analysis Workspace para o estado desejado.
-1. Selecionar [!UICONTROL **Projeto**] > **[!UICONTROL Salvar como relatório da empresa...]**.
+1. Selecione [!UICONTROL **Projeto**] > **[!UICONTROL Salvar como relatório da empresa...]**.
 
    ![Relatório da empresa](assets/company-report.png)
 
-1. Atualize o nome do relatório, adicione uma descrição e adicione tags e selecione [!UICONTROL **Salvar como relatório da empresa**].
+1. Atualize o nome do relatório, adicione uma descrição e tags e, em seguida, selecione [!UICONTROL **Salvar como relatório da empresa**].
 
-   O relatório é adicionado à lista Relatórios da empresa no modal Criar projeto e está disponível aos usuários em sua empresa de logon.
+   O relatório será adicionado à lista de relatórios da empresa no modal Criar projeto e estará disponível para usuários da sua empresa de logon.
 
-   Para obter mais informações sobre como os usuários podem criar um projeto com base em um relatório de empresa, consulte &quot;Criar um projeto a partir de um projeto em branco ou um relatório&quot; em [Criar projetos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   Para obter mais informações sobre como usuários podem criar um projeto com base em um relatório de empresa, consulte “Criar um projeto a partir de um projeto em branco ou um relatório” em [Criar projetos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 Mais opções de aprendizagem:
 
@@ -181,12 +181,12 @@ Mais opções de aprendizagem:
 
 ### Gerenciar relatórios da empresa {#manage-company-reports}
 
-Os administradores podem filtrar a lista de projetos para exibir e gerenciar relatórios da empresa. Os itens fixados permanecem fixos, seguidos da lista de relatórios da empresa identificados pelo ícone de relatório ![ícone de relatório](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg). Nesta visualização, é possível excluir, renomear, marcar ou aprovar um ou mais relatórios.
+Admins podem filtrar a lista de projetos para exibir e gerenciar relatórios da empresa. Os itens fixados permanecem fixos, seguidos da lista de relatórios da empresa identificados pelo ícone de relatório ![ícone de relatório](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg). Nesta visualização, é possível excluir, renomear, marcar ou aprovar um ou mais relatórios.
 
 Para exibir e gerenciar relatórios da empresa
 
 1. No painel de filtros, selecione **OUTROS FILTROS** e depois selecione **Relatórios da empresa**.
-Uma lista dos relatórios da empresa é exibida. Todos os projetos regulares, a menos que estejam fixados, não são exibidos.
+Uma lista dos relatórios da empresa é exibida. Nenhum projeto comum é exibido, a menos que esteja fixado.
 
    ![Exibir filtros de relatórios da empresa](assets/company-reports-filter.png)
 
@@ -236,24 +236,24 @@ Os administradores podem excluir um relatório usando a opção Lista de relató
 | Advertising Analytics: pesquisa paga | Aquisição > Advertising Analytics: pesquisa paga |
 
 
-## Use a guia Aprendizado {#navigate-learning}
+## Usar a guia Aprendizagem {#navigate-learning}
 
-A página Aprendizado contém tutoriais em vídeo, tutoriais e links para a documentação.
+A página Aprendizagem contém tours práticos em vídeo, tutoriais e links para a documentação.
 
-Use a página Aprendizado no Adobe Analytics para saber mais sobre recursos e casos de uso iniciantes, intermediários ou avançados no Adobe Analytics.
+Use a página Aprendizagem do Adobe Analytics para saber mais sobre recursos e casos de uso iniciantes, intermediários ou avançados no Adobe Analytics.
 
-### Acessar a página Aprendizado
+### Acessar a página Aprendizagem
 
-1. No Adobe Analytics, selecione [!UICONTROL **Workspace**] > [!UICONTROL **Aprendizado**].
+1. No Adobe Analytics, selecione [!UICONTROL **Espaço de trabalho**] > [!UICONTROL **Aprendizagem**].
 
-### Recursos da página de aprendizado
+### Recursos da página Aprendizagem
 
-* **Filtrar conteúdo:** O ícone Filtrar no painel à esquerda permite filtrar o conteúdo de aprendizagem por nível de experiência (Iniciante, Intermediário ou Avançado) e por tipo de conteúdo (Documento, Vídeo ou Tours e tutoriais).
-* **Rastrear progresso:** Depois de selecionar um conteúdo, uma **[!UICONTROL Exibido]** é exibida. Essa tag ajuda a rastrear o progresso pelo conteúdo de aprendizagem. É possível selecionar a variável **[!UICONTROL Exibido]** para removê-lo de um conteúdo.
-* **Exibir conteúdo adicional:** Ao visualizar qualquer vídeo, selecione a opção **[!UICONTROL Saiba mais]** botão para ver o conteúdo relacionado à documentação no Experience League. Ou, na página Aprendizado, selecione uma das seguintes opções para exibir conteúdo adicional:
-   * **[!UICONTROL Visitar o YouTube]:** Veja a lista de reprodução completa do Analysis Workspace YouTube.
-   * [!UICONTROL **Visitar Experience League**]: veja o conjunto completo de documentação do Adobe Analytics no Experience League.
-* **Princípios básicos para novos usuários:** A variável [!UICONTROL Fundamentos do Workspace] é recomendado para novos usuários. Este tour leva você diretamente para o Espaço de trabalho e o orienta pelas ações mais comuns. Esse tour também pode ser reiniciado a qualquer momento no Workspace por meio do pop-over da dica de ferramenta do cabeçalho do painel.
+* **Filtrar conteúdo:** o ícone Filtrar no painel à esquerda permite filtrar o conteúdo de aprendizagem por nível de experiência (iniciante, intermediário ou avançado) e por tipo de conteúdo (documento, vídeo ou tours e tutoriais).
+* **Monitorar progresso:** depois de selecionar um conteúdo, uma tag **[!UICONTROL Visualizado]** é exibida. Essa tag ajuda a monitorar o progresso pelo conteúdo de aprendizagem. É possível selecionar a tag **[!UICONTROL Visualizado]** e removê-la de um conteúdo.
+* **Exibir conteúdo adicional:** ao visualizar qualquer vídeo, selecione o botão **[!UICONTROL Saiba mais]** para ver a documentação relacionada na Experience League. Ou, na página Aprendizagem, selecione uma das seguintes opções para exibir conteúdo adicional:
+   * **[!UICONTROL Visitar o YouTube]:** veja a lista de reprodução completa do Analysis Workspace no YouTube.
+   * [!UICONTROL **Visitar a Experience League**]: veja o conjunto completo de documentação do Adobe Analytics na Experience League.
+* **Conceitos básicos para novos usuários:** o tour [!UICONTROL Conceitos básicos do espaço de trabalho] é recomendado para novos usuários. Esse tour leva você diretamente ao espaço de trabalho e explica sobre as ações mais comuns. Esse tour também pode ser reiniciado a qualquer momento diretamente do espaço de trabalho por meio da dica de ferramenta do cabeçalho do painel.
 
 ## Definir sua página de destino {#set-landing}
 
