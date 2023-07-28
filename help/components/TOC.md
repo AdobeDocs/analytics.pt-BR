@@ -5,9 +5,9 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 88%
    + [Compatibilidade da dimensão](dimensions/compatibility.md)
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nome do bot](dimensions/bot-name.md)
+   + [Nome do bot ](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -32,7 +32,7 @@ ht-degree: 88%
    + [Intensidade de cor](dimensions/color-depth.md)
    + [Tipo de conexão](dimensions/connection-type.md)
    + [Aceitação do gerenciamento de consentimento](dimensions/cm-opt-in.md)
-   + [Recusa no gerenciamento de consentimento](dimensions/cm-opt-out.md)
+   + [Recusa do gerenciamento de consentimento](dimensions/cm-opt-out.md)
    + [Suporte a cookies](dimensions/cookie-support.md)
    + [Países](dimensions/countries.md)
    + [Link personalizado](dimensions/custom-link.md)
@@ -156,7 +156,7 @@ ht-degree: 88%
 + Segmentação {#segmentation}
    + [Segmentação do Analytics](segmentation/seg-home.md)
    + [Sobre segmentos](segmentation/seg-overview.md)
-   + [Sobre contêineres de segmento](segmentation/seg-containers.md)
+   + [Sobre containers de segmento](segmentation/seg-containers.md)
    + [Recursos de segmentação na Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Fluxo de trabalho de segmentação {#segmentation-workflow}
       + [Visão geral do fluxo de trabalho de segmentação](segmentation/segmentation-workflow/seg-workflow.md)
@@ -177,7 +177,7 @@ ht-degree: 88%
       + [Compatibilidade de segmentos de Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Direitos do segmento por função](segmentation/seg-reference/seg-rights.md)
       + [Solução de problemas](segmentation/seg-reference/c-troubleshooting.md)
-   + [Perguntas frequentes sobre o gerenciamento de segmentos herdados](segmentation/seg-transition.md)
+   + [Perguntas frequentes sobre gerenciamento de segmentos herdados](segmentation/seg-transition.md)
    + [Práticas recomendadas](segmentation/best-practices.md)
 + Métricas calculadas {#calculated-metrics}
    + [Métricas calculadas e calculadas avançadas (derivadas)](c-calcmetrics/cm-overview.md)
@@ -187,7 +187,7 @@ ht-degree: 88%
       + [Localizar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Criar métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [Criar uma métrica “Exibições de página por visita”](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Criar uma métrica &quot;Assistências em pedidos&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Criar uma métrica “Assistências em pedidos”](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Criar uma métrica “Participação”](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Atribuição e tipo de métrica](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -235,17 +235,17 @@ ht-degree: 88%
 + Classificações {#classifications}
    + [Visão geral das classificações](classifications/c-classifications.md)
    + Conjuntos de classificação {#sets}
-      + [Visão geral dos conjuntos de classificações](classifications/sets/overview.md)
-      + Gerenciar conjuntos de classificações {#manage}
-         + [Gerenciador do conjunto de classificações](classifications/sets/manage/set-manager.md)
-         + [Criar um conjunto de classificações](classifications/sets/manage/create.md)
-         + [Configurações do conjunto de classificações](classifications/sets/manage/settings.md)
-         + [Esquema do conjunto de classificações](classifications/sets/manage/schema.md)
-         + [Regras do conjunto de classificações](classifications/sets/manage/rules.md)
-      + [Gerenciador de processos do conjunto de classificações](classifications/sets/job-manager.md)
-      + Consolidações do conjunto de classificações {#consolidations}
-         + [Gerenciador de consolidações do conjunto de classificações](classifications/sets/consolidations/manage.md)
-         + [Processo de consolidações do conjunto de classificações](classifications/sets/consolidations/process.md)
+      + [Visão geral dos conjuntos de classificação](classifications/sets/overview.md)
+      + Gerenciar conjuntos de classificação {#manage}
+         + [Gerenciador de conjuntos de classificação](classifications/sets/manage/set-manager.md)
+         + [Criar um conjunto de classificação](classifications/sets/manage/create.md)
+         + [Configurações do conjunto de classificação](classifications/sets/manage/settings.md)
+         + [Esquema do conjunto de classificação](classifications/sets/manage/schema.md)
+         + [Regras do conjunto de classificação](classifications/sets/manage/rules.md)
+      + [Gerenciador de processos do conjunto de classificação](classifications/sets/job-manager.md)
+      + Consolidações do conjunto de classificação {#consolidations}
+         + [Gerenciador de consolidações do conjunto de classificação](classifications/sets/consolidations/manage.md)
+         + [Processo de consolidação de conjuntos de classificação](classifications/sets/consolidations/process.md)
    + Criador de regras de classificação {#classifications-rulebuilder}
       + [Fluxo de trabalho do criador de regras de classificação](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de regras de classificação](classifications/crb/classification-rule-set.md)
@@ -273,14 +273,14 @@ ht-degree: 88%
    + [Contas de importação na nuvem](/help/components/locations/configure-import-accounts.md)
    + [Locais de importação na nuvem](/help/components/locations/configure-import-locations.md)
 + [Eventos de calendário](t-calendar-event.md)
-+ [Relação de relatórios agendados](scheduled-reports-admin.md)
++ [Fila de relatórios agendados](scheduled-reports-admin.md)
 + Relatório em tempo real {#real-time-reporting}
    + [Visão geral do relatório em tempo real](c-real-time-reporting/realtime.md)
    + [Configurar relatórios em tempo real](c-real-time-reporting/t-realtime-admin.md)
    + [Métricas e dimensões em tempo real compatíveis](c-real-time-reporting/realtime-metrics.md)
 + Canais de marketing {#marketing-channels}
-   + [Introdução aos Canais de marketing](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Attribution IQ com Canais de marketing](c-marketing-channels/mchannel-best-practices.md)
+   + [Introdução aos canais de marketing](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Attribution IQ com canais de marketing](c-marketing-channels/mchannel-best-practices.md)
    + [Analisar Canais de marketing](c-marketing-channels/analyze-mc.md)
    + [Permissões para Canais de marketing](c-marketing-channels/c-channel-report-access.md)
    + [Perguntas frequentes sobre Canais de marketing e exemplos](c-marketing-channels/c-faq.md)
