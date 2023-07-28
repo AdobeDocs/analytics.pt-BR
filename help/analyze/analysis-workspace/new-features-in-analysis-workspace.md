@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8267'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,8 +75,8 @@ Novos recursos lançados em 18 de junho de 2020.
 | Attribution IQ: atribuição algorítmica | O modelo Atribuição algorítmica no Analysis Workspace usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. Disponível para clientes do Adobe Analytics Ultimate. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=pt-BR) |
 | Attribution IQ: janelas de pesquisa personalizadas | Agora você pode configurar qualquer modelo de atribuição no Attribution IQ para incluir pontos de contato de até 90 dias antes do período dos relatórios. Essa configuração pode aumentar a precisão da atribuição para eventos que ocorrem no início do período dos relatórios, contabilizando as interações que ocorreram no(s) mês(es) anterior(es). Disponível para clientes do Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete e Ultimate. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR#lookback-windows) |
 | Funções de projeto para projetos compartilhados do Workspace | Ao compartilhar um projeto do Workspace, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) |
-| Projetos do Workspace somente para visualização | Os projetos do Workspace podem ser compartilhados com os usuários somente como &quot;Pode visualizar&quot;. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=pt-BR) |
-| Capacidade de co-editar projetos do Workspace | Destinatários adicionados à função “Pode editar” podem salvar um projeto que foi compartilhado com eles. Isso se estende a administradores e não administradores. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) |
+| Projetos do Workspace somente para visualização | Os projetos do espaço de trabalho podem ser compartilhados com os usuários apenas como “Pode visualizar”. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=pt-BR) |
+| Capacidade de co-editar projetos do Workspace | Destinatários adicionados à função “Pode editar” podem salvar um projeto que foi compartilhado com eles(as). Isso se estende a administradores e não administradores. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) |
 | Painel em branco atualizado | O painel em branco agora inclui painéis e visualizações, proporcionando uma maneira mais simples de escolher o fluxo de trabalho de análise que funciona melhor para você. |
 | Painel Quick Insights (25 de junho de 2020) | O painel Quick Insights fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Painel Analytics for Target no Workspace (25 de junho de 2020) | O painel Analytics for Target (A4T) permite analisar suas atividades e experiências no Adobe Target, com leveza e confiança, no Analysis Workspace. [Saiba mais...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -134,7 +134,7 @@ Melhorias lançadas em 10 de outubro de 2019.
 | Aprimoramento | Descrição |
 |--- |--- |
 | Atualização dos totais das tabelas de forma livre | As tabelas de forma livre agora incluem dois totais, um **[!UICONTROL total da tabela]** e um **[!UICONTROL total geral]**. As contas de linhas totais da tabela para os [filtros de relatório](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=pt-BR) foram aplicadas. Anteriormente, somente a segmentação afetava os totais. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR)<br/>Além disso, as opções **[!UICONTROL Mostrar totais]** e **[!UICONTROL Mostrar total geral]** foram adicionadas às **[!UICONTROL Configurações de coluna]**.<br/>Com essa alteração nos totais das tabelas de forma livre, as visualizações dependentes serão atualizadas (ex: visualizações de **[!UICONTROL Número de resumo]** interligadas), bem como dados CSV e PDF exportados. |
-| Opção para remover Não especificado/Nenhum | A capacidade de remover facilmente &quot;Não especificado (Nenhum)&quot; foi adicionada como uma opção para criar filtros de relatório. |
+| Opção para remover Não especificado/Nenhum | A capacidade de remover facilmente o “Não especificado (Nenhum)” foi adicionada como uma opção de filtros de relatório. |
 | Substituição de componentes com granularidade violeta | Os componentes de tempo com granularidade violeta (minuto, hora, dia, semana, mês, trimestre, ano) foram descontinuados. Os componentes de tempo violeta sempre se comportaram exatamente como seus equivalentes na dimensão laranja, então essa alteração simplificará a experiência. **Nenhuma ação** precisa ser executada se você tiver usado anteriormente um dos componentes de tempo violeta.<br/>Com essa alteração, a seção **[!UICONTROL Tempo]** violeta, além disso, foi renomeada para **[!UICONTROL Intervalos de datas]**. |
 
 ## Agosto de 2019
@@ -143,7 +143,7 @@ Melhorias lançadas em 8 de agosto de 2019.
 
 | Aprimoramento | Descrição |
 |--- |--- |
-| Aumentar limite de itens para filtros suspensos estáticos de 50 para 200 | O limite de itens que podem ser colocados em um filtro suspenso estático é aumentado de 50 para 200. Esse aprimoramento abrange uma variedade de casos de uso, como adicionar todos os países (195) a um filtro, ou todos os estados e províncias dos EUA (52). |
+| Aumento do limite de itens para filtros suspensos estáticos de 50 para 200 | O limite de itens que podem ser colocados em um filtro suspenso estático foi aumentado de 50 para 200. Esse aprimoramento abrange uma variedade de casos de uso, como adicionar todos os países (195) a um filtro, ou todos os estados e províncias dos EUA (52). |
 
 ## Julho de 2019
 
@@ -204,8 +204,8 @@ Novos recursos e melhorias lançados em 11 de outubro de 2018.
 
 | Recurso | Descrição |
 | --- | --- |
-| Gerenciamento suspenso do painel | Algumas alterações são feitas no gerenciamento de menus suspensos do painel. Ao clicar com o botão direito do mouse em uma lista suspensa, agora é possível excluir a lista suspensa, excluir um rótulo (se um rótulo estiver sendo exibido) ou adicionar um rótulo (se nenhum rótulo estiver sendo exibido). |
-| Links em dicas de ferramentas de painel e visualização | Links para vídeos e documentação pertinentes a dicas de ferramentas de painel e visualização são adicionados. |
+| Gerenciamento de menus suspensos do painel | Foram feitas algumas alterações no gerenciamento dos menus suspensos do painel. Ao clicar com o botão direito em um menu suspenso, agora é possível excluí-lo, excluir um rótulo (se um rótulo estiver sendo exibido) ou adicionar um rótulo (se nenhum rótulo estiver sendo exibido). |
+| Links em dicas de ferramentas de painel e visualização | Foram adicionados links para vídeos e documentações pertinentes nas dicas de ferramentas de painel e visualização. |
 
 ## Setembro de 2018
 
@@ -220,7 +220,7 @@ Novos recursos e melhorias lançados em 13 de setembro de 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b>Menu suspenso do painel</b> </p> </td>
+   <td colname="col1"> <p><b>Menus suspensos do painel</b> </p> </td>
    <td colname="col2"> <p>A zona de soltar itens do painel agora tem recursos de detalhamento. Detalhamentos permitem que os usuários finais interajam com os dados em um projeto de maneira controlada. Exemplo: suponha que você tenha várias versões de um projeto para fornecer relatórios específicos de país. Agora, você pode recolher esses projetos em um único projeto e adicionar um menu suspenso para cada país. </p> </td>
   </tr>
   <tr>
