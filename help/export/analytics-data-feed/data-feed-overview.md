@@ -5,9 +5,9 @@ title: Visão geral do feed de dados do Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Os feeds de dados são uma maneira avançada de obter dados brutos do Adobe Anal
 
 Verifique se você atende a todos os requisitos a seguir antes de utilizar os feeds de dados.
 
-* Uma implementação em funcionamento que envia dados para os servidores de coleta de dados da Adobe. Consulte [Validar e publicar uma implementação](/help/implement/launch/validate-publish-prod.md) no Guia de implementação.
+* Uma implementação em funcionamento que envia dados para os servidores de coleta de dados da Adobe. Consulte [Validar e publicar uma implementação](/help/implement/launch/validate-publish-prod.md) no guia de implementação.
 * Sua conta é um administrador de produto do Analytics ou pertence a um perfil de produto com acesso a feeds de dados.
 * Um bucket configurado no Amazon S3, Google Cloud Platform, Azure RBAC ou Azure SAS.
 * (Herdado: obrigatório somente para tipos de destino FTP e SFTP herdados) Tenha um site FTP e credenciais acessíveis (credenciais FTP fornecidas pela sua organização).
@@ -28,12 +28,12 @@ Verifique se você atende a todos os requisitos a seguir antes de utilizar os fe
 
 Os recursos a seguir ajudam você a entender o fluxo de trabalho básico de obtenção dos feeds de dados. Depois de entender o fluxo de trabalho básico, você pode trabalhar com as equipes na organização para armazenar ou assimilar dados brutos em um banco de dados.
 
-* [Práticas recomendadas do feed de dados](/help/export/analytics-data-feed/data-feeds-best-practices.md): práticas recomendadas para criar e gerenciar feeds de dados.
+* [Práticas recomendadas de feed de dados](/help/export/analytics-data-feed/data-feeds-best-practices.md): práticas recomendadas para criar e gerenciar feeds de dados.
 * [Criar um feed de dados](create-feed.md): Detalhes técnicos para criar um feed de dados, explicando campos individuais com mais detalhes
 * [Gerenciar feeds de dados](df-manage-feeds.md): Saiba mais sobre como navegar na interface do feed de dados
 * [Conteúdo do feed de dados](c-df-contents/datafeeds-contents.md): Entenda o que está dentro do arquivo compactado <!-- Is this still the output users can download from the destination? I aske Jun. -->
-* [Definições de coluna de dados](c-df-contents/datafeeds-reference.md): Uma lista abrangente de todas as colunas disponíveis.
-* Vídeo que navega na interface do feed de dados:
+* [Definições de coluna de dados](c-df-contents/datafeeds-reference.md): uma lista abrangente de todas as colunas disponíveis.
+* Vídeo de apresentação da interface do feed de dados:
 
   >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
