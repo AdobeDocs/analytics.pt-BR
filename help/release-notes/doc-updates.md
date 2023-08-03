@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
+source-git-commit: e17705adb6319a31f125cdff2810cbf79d85510c
 workflow-type: tm+mt
-source-wordcount: '4689'
-ht-degree: 98%
+source-wordcount: '4895'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Agosto de 2023** | |
 | Esclarecimento de que a configuração do SFTP para feeds de dados não requer o Atendimento ao cliente do Adobe | Esclarecimento em [Enviar dados de Adobe para uma conta FTP externa com SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) que os clientes não precisam entrar em contato com o Atendimento ao cliente do Adobe para configurar o SFTP para feeds de dados. <p>Adição de uma observação de que o SFTP não é mais recomendado e que os clientes devem usar um destino de nuvem ao configurar os Feeds de dados.</p> |
+| Melhorias na documentação de mídias de streaming | Os seguintes aprimoramentos na documentação foram feitos para a mídia de streaming: <ul><li>Atualização do [visão geral](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR) para aumentar a clareza e incluir informações relacionadas com o Customer Journey Analytics.</li><li>Atualização do [visão geral da implementação](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) para diferenciar claramente entre implementações do Edge e implementações somente do Analytics. Também incluímos diagramas para ilustrar os vários métodos de implementação.</li><li>Adicionados pré-requisitos específicos ao [Implementações do Edge](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en) e [Implementações somente do Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en). Também atualizou o [pré-requisitos gerais](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en).</li><li>Tabelas atualizadas no [Obter SDKs de mídia, extensões que usam tags e SDKs OTT](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) artigo para incluir novas colunas para *Soluções compatíveis* e *Método de implementação*.</li><li>Simplificação do conteúdo e da organização de artigos no [Implementação](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) área da documentação. Isso incluiu categorizar implementações por implementações do Edge e implementações somente do Analytics.</li><li>Remoção de um nível extra de hierarquia que não era necessário em [Rastreamento](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en) e adicionou redirecionamentos para URLs alterados nesta seção.</li><ul> |
 | **Julho de 2023** | |
 | API de servidor de rede de borda da Adobe Experience Platform | Foi adicionada uma documentação mais abrangente sobre quando e como implementar a coleção de dados com o Adobe Analytics usando a [API do servidor de rede de borda da Adobe Experience Platform](../implement/aep-edge/server-api/overview.md). Por exemplo, implementação da coleção de dados com o Adobe Analytics em aplicativos de desktop, dispositivos IoT e conversores. |
 | ID global da empresa | Documentado [como encontrar a ID global da empresa](../admin/admin/company/web-services-admin.md) para a empresa do Analytics na qual você está conectado. Essa ID é necessária para as APIs do Analytics 2.0. |
