@@ -5,7 +5,7 @@ title: Criar links compartilháveis
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
+source-git-commit: 9349883dc827eb73ee59e852d054091ade70999c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 61%
@@ -20,7 +20,7 @@ O Analysis Workspace oferece várias maneiras de compartilhar um projeto com seu
 
 Para compartilhar um link para um projeto, vá para o projeto que deseja compartilhar e selecione ir para [!UICONTROL **Compartilhar**] > [!UICONTROL **Compartilhar com usuários do Workspace**] > [!UICONTROL **Compartilhar por link**]. Os usuários com os quais você compartilha o link são solicitados a fazer logon.
 
-Se o recipient do link não tiver recebido uma [função do projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR), administradores recebem **[!UICONTROL Pode editar]** e os não administradores recebem **[!UICONTROL Pode duplicar]** experiências.
+Se o recipient do link não tiver recebido uma [função do projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR), administradores recebem **[!UICONTROL Editar original]** e os não administradores recebem **[!UICONTROL Editar cópia]** experiências.
 
 ## Obter um link somente leitura para compartilhar com qualquer pessoa
 
