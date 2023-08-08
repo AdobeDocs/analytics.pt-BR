@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf111fc5529692283bf6b341655e80498107633b
+source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
-source-wordcount: '4907'
+source-wordcount: '4891'
 ht-degree: 95%
 
 ---
@@ -45,7 +45,6 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Documentação do Deep Linking (aplicativo para dispositivos móveis) | Permite que usuários enviem links para cartões de pontuação que os levarão diretamente ao projeto do cartão de pontuação no aplicativo. [Saiba mais](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Documentação para Tela inicial atualizada do aplicativo de painéis do Analytics (aplicativo para dispositivos móveis) | A nova tela inicial atualizada permite visualizar todos os cartões de pontuação em uma lista consolidada. [Saiba mais](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Ícones de espectro | Quando apropriado, as capturas de tela dos ícones da interface na documentação foram substituídas por referências aos ícones equivalentes no [Sistema de design de espectro da Adobe](https://spectrum.adobe.com/page/icons/). |
-| Melhoria no mapeamento de IP para geolocalização | Criação de um tópico das [Perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=pt-BR). |
 | Gerenciador de atividades de relatórios | Atualização dessa documentação beta, especificamente a seção sobre [Exibição de atividades de relatórios para conjuntos de relatórios individuais](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=pt-BR#view-reporting-activity-for-individual-report-suites). |
 | Visão geral do Analysis Workspace | [Visão geral do Analysis Workspace](/help/analyze/analysis-workspace/home.md) atualizado para incluir informações gerais e links para o conteúdo relevante. |
 | Criar projetos | Criou um novo artigo que explica detalhadamente como [Criar projetos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) no Analysis Workspace. |
