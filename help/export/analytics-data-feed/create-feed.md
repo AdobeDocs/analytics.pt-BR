@@ -3,9 +3,9 @@ title: Criar um feed de dados
 description: Saiba como criar um feed de dados.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3174'
 ht-degree: 21%
 
 ---
@@ -20,7 +20,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
 
 >[!NOTE]
 >
->Antes de criar um feed de dados, é importante ter uma compreensão básica dos feeds de dados e atender a todos os pré-requisitos necessários. Para obter mais informações, consulte [Visão geral dos feeds de dados](data-feed-overview.md).
+>Antes de criar um feed de dados, é importante ter uma compreensão básica dos feeds de dados e e garantir que você atenda a todos os pré-requisitos necessários. Para obter mais informações, consulte [Visão geral dos feeds de dados](data-feed-overview.md).
 
 ## Criar e configurar um feed de dados
 
@@ -45,6 +45,15 @@ Ao criar um feed de dados, você fornece ao Adobe:
    | [!UICONTROL **Alimentação contínua**] | Essa caixa de seleção remove a data de término, permitindo que um feed seja executado indefinidamente. Quando um feed terminar de processar dados históricos, ele aguarda que os dados terminem de coletar por uma determinada hora ou dia. Quando a hora ou o dia atual terminar, o processamento será iniciado após o atraso especificado. |
 
 1. No [!UICONTROL **Destino**] seção, no campo [!UICONTROL **Tipo**] selecione o destino para onde deseja que os dados sejam enviados.
+
+   >[!NOTE]
+   >
+   >Considere o seguinte ao configurar um destino de relatório:
+   >
+   >* Recomendamos o uso de uma conta em nuvem para o destino do seu relatório. [Contas FTP e SFTP herdadas](#legacy-destinations) estão disponíveis, mas não são recomendadas.
+   >
+   >* As contas em nuvem estão associadas à sua conta de usuário do Adobe Analytics. Outros usuários não podem usar ou exibir contas na nuvem configuradas por você.
+   >
 
    ![Menu suspenso Destino do feed de dados](assets/datafeed-destinations-dropdown.png)
 
