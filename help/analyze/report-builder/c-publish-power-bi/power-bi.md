@@ -4,10 +4,10 @@ title: Publicar no Power BI - Visão geral
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1171'
+ht-degree: 79%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 O Microsoft Power BI é um conjunto de painéis de análise comercial usado para analisar dados e compartilhar insights. A integração do Adobe Analytics com o Power BI permite a visualização dos dados analíticos do Report Builder dentro do Microsoft Power BI e o seu fácil compartilhamento em toda a organização.
 
-Anteriormente você, como um analista, agendaria pastas de trabalho do Report Builder para serem disseminadas via email (ou ftp). Agora você pode dar ao seu usuário empresarial interessado acesso (de dentro de suas contas do Power BI) a dados precisos e atualizados em um ambiente baseado na web que é acessível por todas as plataformas e dispositivos.
+Como um analista, anteriormente você agendava a distribuição de pastas de trabalho do Report Builder usando email ou ftp. Agora você pode conceder às partes interessadas da sua empresa acesso a partir de suas contas do Power BI, para dados precisos e atualizados em um ambiente baseado na Web que é acessível em plataformas e dispositivos.
 
-Combinar a capacidade de geração de relatórios do Report Builder com os recursos de visualização do Power BI torna as informações mais acessíveis para todos na organização. Com o Power BI, você também pode integrar o Adobe Analytics com outras fontes de dados (como pontos de venda, CRM) para descobrir percepções, associações e oportunidades de clientes únicos.
+Combinar a capacidade de geração de relatórios do Report Builder com os recursos de visualização do Power BI torna as informações mais acessíveis para todos na organização. Com o Power BI, você também pode integrar o Adobe Analytics a outras fontes de dados, por exemplo, fontes de ponto de venda ou de CRM, para descobrir insights, associações e oportunidades únicas do cliente.
 
-![](assets/aaplusbi.png)
+![Diagrama do ícone do Power BI do Microsoft mais o ícone do Adobe Analytics.](assets/aaplusbi.png)
 
 ## Requisitos do sistema {#section_0B71092D853446F38FA36447DAC0D32B}
 
@@ -28,7 +28,7 @@ Combinar a capacidade de geração de relatórios do Report Builder com os recur
 
 ## Publicar pasta de trabalho no Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
-Pastas de trabalho agendadas são planilhas Excel formatadas populadas com dados do Adobe Analytics e enviadas regularmente de forma agendada.
+Pastas de trabalho programadas são planilhas Excel formatadas preenchidas com dados do Adobe Analytics distribuídos regularmente de forma programada.
 
 **Publicar a pasta de trabalho no Report Builder**
 
@@ -37,7 +37,7 @@ Pastas de trabalho agendadas são planilhas Excel formatadas populadas com dados
 
 1. No assistente básico de agendamento, clique na caixa próxima a **[!UICONTROL Publicar pasta de trabalho no Microsoft Power BI]**.
 
-   ![](assets/simple-schedule-wizard.png)
+   ![Captura de tela do Assistente de agendamento de Report Builder mostrando a opção para marcar a opção Publicar pasta de trabalho no Microsoft Power BI.](assets/simple-schedule-wizard.png)
 
 1. Especifique seu email e envie imediatamente ou especifique a frequência de agendamento (a cada hora, diariamente, etc.).
 1. Clique em **[!UICONTROL OK]** para publicar.
@@ -50,9 +50,9 @@ Pastas de trabalho agendadas são planilhas Excel formatadas populadas com dados
 
 1. No Power BI, clique duas vezes na pasta de trabalho no menu [!UICONTROL Pastas de trabalho].
 
-   ![](assets/workbooks-power-bi.png)
+   ![Captura de tela da exibição Pastas de trabalho do Power BI.](assets/workbooks-power-bi.png)
 
-1. Agora você pode exibir os dados no painel da pasta de trabalho.  ![](assets/view-data-pbi.png)
+1. Agora você pode exibir os dados no painel da pasta de trabalho.  ![Os dados do painel da pasta de trabalho.](assets/view-data-pbi.png)
 
 1. Então é possível recortar uma área dessa pasta de trabalho de forma a incluí-la em qualquer um de seus painéis do Power BI.
 
@@ -76,7 +76,7 @@ Ao invés de importar toda a pasta de trabalho, é possível importar apenas o c
 1. No Assistente básico de agendamento, clique em **[!UICONTROL Opções de agendamento avançadas]**.
 1. No [!UICONTROL Assistente de programação- Avançado], na guia **[!UICONTROL Opções de publicação]**, marque a caixa próxima a **[!UICONTROL Publicar todas as tabelas formatadas como tabelas de conjunto de dados do Power BI]**.
 
-   ![](assets/advanced-schedule-wizard2.png)
+   ![Captura de tela mostrando o Assistente de agendamento - Opções de publicação avançadas com a opção Publicar todas as tabelas formatadas como tabelas de conjunto de dados do Power BI.](assets/advanced-schedule-wizard2.png)
 
 1. (Opcional) É possível personalizar o nome do ativo publicado no Power BI. Isso pode ser útil caso use o controle de versão como parte do nome da pasta de trabalho (como minhapastadetrabalho_v1.1.xlsx) e não queira que o número da versão apareça no nome do ativo publicado no Power BI. Isso possui a vantagem extra de que o ativo publicado não se alterará se a número da versão sofrer alteração. (Consulte as [especificações](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) aqui.)
 
@@ -84,19 +84,19 @@ Ao invés de importar toda a pasta de trabalho, é possível importar apenas o c
 
 1. No Power BI, vá para o menu **[!UICONTROL Espaços de trabalho]** > **[!UICONTROL Conjuntos de dados]**.
 
-   ![](assets/datasets-menu.png)
+   ![Captura de tela mostrando o menu Conjuntos de dados do Power BI destacando Criar relatórios.](assets/datasets-menu.png)
 
 1. Selecione o conjunto de dados publicado e clique no ícone [!UICONTROL Criar relatório] próximo a ele. Note que as tabelas aparecerão como Campos.
 
-   ![](assets/formatted-tables.png)
+   ![Captura de tela mostrando o conjunto de dados publicado selecionado listando as tabelas como Campos.](assets/formatted-tables.png)
 
 1. Selecione uma tabela e suas colunas associadas.
 
-   ![](assets/view-table-dataset.png)
+   ![Captura de tela mostrando uma tabela selecionada com colunas associadas](assets/view-table-dataset.png)
 
 1. No menu [!UICONTROL Visualizações], é possível selecionar como visualizar uma tabela no Power BI. Por exemplo, você pode escolher apresentar seus dados como um gráfico de linhas:
 
-   ![](assets/bi-line-graph.png)
+   ![Captura de tela mostrando o menu Visualizações e um gráfico de linhas de dados.](assets/bi-line-graph.png)
 
 1. Daqui, é possível criar visualizações dessa tabela de conjunto de dados.
 
@@ -112,7 +112,7 @@ Ao invés de importar toda a pasta de trabalho, é possível importar apenas o c
 1. Na barra de ferramentas do Report Builder, clique em **[!UICONTROL Agendamento]** > **[!UICONTROL Novo]**.
 
 1. No Assistente básico de agendamento, clique em **[!UICONTROL Opções de agendamento avançadas]**.
-1. No [!UICONTROL Assistente de agendamento - Avançado], na guia **[!UICONTROL Opções de publicação]**, marque a caixa próxima a **[!UICONTROL Publicar todas as solicitações do Report Builder como tabelas de conjunto de dados do Power BI]** ![](assets/advanced-schedule-wizard2.png)
+1. No [!UICONTROL Assistente de agendamento - Avançado], na guia **[!UICONTROL Opções de publicação]**, marque a caixa próxima a **[!UICONTROL Publicar todas as solicitações do Report Builder como tabelas de conjunto de dados do Power BI]** ![Captura de tela mostrando o Assistente de programação destacando a opção Publicar todas as solicitações de Report Builder como tabelas de conjunto de dados do Power BI.](assets/advanced-schedule-wizard2.png)
 
 1. Clique em **[!UICONTROL OK]**.
 
@@ -126,7 +126,7 @@ Cada solicitação agendada do Report Builder será publicada como uma tabela no
 
    Note que as solicitações aparecem como tabelas no menu [!UICONTROL Campos].
 
-   ![](assets/published-requests.png)
+   ![Captura de tela mostrando uma solicitação selecionada publicada em um formato bidimensional de linha de cabeçalho único.](assets/published-requests.png)
 
    >[!NOTE]
    >
@@ -134,4 +134,4 @@ Cada solicitação agendada do Report Builder será publicada como uma tabela no
 
 1. Também note que existe uma tabela adicional chamada **[!UICONTROL Legenda]**. Caso retire uma solicitação do contexto do Report Builder, pode ser difícil se lembrar o que cada solicitação significa. O propósito da tabela Legenda é, por exemplo, mostrar o nome de cada solicitação na ID da tabela. Também é possível adicionar as outras colunas da Legenda para obter uma perspectiva completa da solicitação.
 
-   ![](assets/legend-table.png)
+   ![Captura de tela mostrando a tabela Legenda mostrando o nome de cada solicitação na ID da tabela.](assets/legend-table.png)

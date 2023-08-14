@@ -4,10 +4,10 @@ title: Filtrar um relatório de fallout com o assistente de solicitação
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 91%
 
 ---
 
@@ -21,13 +21,13 @@ Esse exemplo mostra o relatório Fallout de página.
 1. Selecione o conjunto de relatórios apropriado.
 1. Na visualização de árvore na esquerda, selecione **[!UICONTROL Caminhos]** > **[!UICONTROL Página]** > **[!UICONTROL Fallout de página]**.
 
-   ![](assets/page_fallout.png)
+   ![Captura de tela mostrando a visualização em árvore do Windows para o diretório Report Builder. Fallout de página está selecionado.](assets/page_fallout.png)
 
 1. Configure os [intervalos de datas](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) apropriados.
 1. Clique em **[!UICONTROL Próximo]**.
 1. Na etapa 2 do assistente, em **[!UICONTROL Etiquetas de linha]**, clique no link **[!UICONTROL Definir pontos de verificação]**. (Em um relatório de fallout, é sempre necessário definir os elementos de caminho, diferente de um relatório de caminho, no qual o padrão é pré-aplicado).
 
-   ![](assets/define_checkpoints.png)
+   ![Captura de tela mostrando o link Definir pontos de verificação.](assets/define_checkpoints.png)
 
 1. Selecione a opção **[!UICONTROL Filtrar]**.
 

@@ -4,10 +4,10 @@ title: Importar relatórios marcados e reportlets de painel
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Ao selecionar um relatório marcado, o Assistente de solicitação preenche toda
 
 Esta é a forma como a Etapa 1 do Assistente de solicitações mostra um painel e seus reportlets.
 
-![](assets/import_dashboard_reportlet.png)
+![Captura de tela mostrando o Assistente de solicitações: etapa 1 de 2 destacando Recupere seus painéis e recupere seus marcadores.](assets/import_dashboard_reportlet.png)
 
 Ao clicar em **[!UICONTROL Recuperar seus painéis]** ou **[!UICONTROL Recuperar seus marcadores]**, o painel atual e/ou os dados do marcador são recuperados e colados na planilha.
 

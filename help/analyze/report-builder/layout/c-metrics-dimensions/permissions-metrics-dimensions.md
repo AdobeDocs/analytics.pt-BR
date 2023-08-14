@@ -5,22 +5,22 @@ uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
 role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 82%
 
 ---
 
 # Permissões de acesso do usuário para dimensões e métricas
 
-O Report Builder da Adobe agora possui configurações de permissões análogas às das ferramentas administrativas do Analytics.
+O Adobe Report Builder apresenta configurações de permissão semelhantes às das Ferramentas administrativas do Analytics.
 
 Como usuário não administrador, é possível ter criado anteriormente pastas de trabalho com solicitações que apontam para dimensões e métricas as quais você não tem acesso. Essas permissões são aplicadas agora.
 
-Por exemplo, se você atualizou uma solicitação que inclui dimensões ou métricas às quais você não tem acesso, você obterá um Erro de permissão restrita:
+Por exemplo, se você atualizou uma solicitação que inclui dimensões ou métricas às quais você não tem acesso, você obterá um Erro de permissão restrita. A mensagem de erro indica que uma solicitação não está disponível para sua conta de usuário devido a permissões administrativas.
 
-![](assets/arb_restrc_perm.png)
+![Captura de tela mostrando a mensagem de erro de permissão restrita.](assets/arb_restrc_perm.png)
 
 Siga estas instruções para **cada** pasta de trabalho do Report Builder que você mantém:
 

@@ -4,10 +4,10 @@ title: Solução de problemas de integração do Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 89%
+source-wordcount: '418'
+ht-degree: 68%
 
 ---
 
@@ -35,13 +35,14 @@ Essas são as principais razões pelas quais visualizações quebradas podem oco
 * Você editou uma solicitação no Report Builder, tal como alteração de métricas ou dimensões e depois republicou no Power BI. A edição de solicitações pode quebrar as suas visualizações.
 * Você excluiu uma solicitação que foi usada em uma visualização.
 
-## O Report Builder precisa ser autorizado a acessar os recursos da organização. Esse acesso só pode ser concedido por um administrador. Peça a um administrador que conceda permissão.
+>[!IMPORTANT]
+>
+>O Report Builder requer um administrador para autorizar o acesso aos recursos da organização. Se precisar de acesso, peça a um administrador que conceda permissão.
+> Um administrador do Microsoft pode revisar a *Os usuários podem registrar o aplicativo* configuração encontrada em: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Ative Diretory]** > **[!UICONTROL Configurações de usuário permitem opções]**. Se essa opção estiver definida como **Não**, o administrador poderá registrar esses tipos de aplicativos.
 
-Peça a um administrador da Microsoft que analise a configuração “Usuários podem registrar um aplicativo”, localizada em: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Configurações do usuário permitem opções]**. Se essa opção estiver definida como Não, esse administrador poderá registrar esses tipos de aplicativos.
+Os usuários podem conceder acesso fazendo logon em suas [Conta do Microsoft Power BI](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
-Os usuários podem conceder acesso usando este [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
-
-Os administradores recebem acesso para cada um usando este [link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Os administradores podem conceder acesso a cada um fazendo logon em seus [Conta do administrador do Microsoft Power BI](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
 ## Atingir o limite da API
 

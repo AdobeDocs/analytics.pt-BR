@@ -1,14 +1,14 @@
 ---
-description: Uma solicitação referencial usa valores de células como entrada para parâmetros, como um filtro de datas ou relacional.
-title: Copiar solicitações referenciais
+description: Saiba como copiar solicitações referenciais.
+title: Como copiar solicitações referenciais
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
 role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 100%
 
 Uma solicitação referencial usa valores de células como entrada para parâmetros, como um filtro de datas ou relacional.
 
-Para propagar ou copiar e colar solicitações referenciais em uma planilha, você precisa ter criado pelo menos uma solicitação válida na planilha. Além disso, os dados produzidos pela solicitação precisam conter uma célula cujo valor dependa de uma solicitação em outra célula (usando um filtro de divisão ou correspondência) ou de um filtro que pega a entrada dos dados inseridos em uma célula.
+Para propagar ou copiar e colar solicitações referenciais na planilha:
+* Você deve criar pelo menos uma solicitação válida na planilha.
+* Os dados produzidos pela solicitação devem conter uma célula cujo valor depende de uma solicitação em outra célula (usando um filtro de detalhamento ou correspondência) ou dependente de um filtro que recebe entrada de dados inseridos em uma célula.
 
 Também é possível criar solicitações que fazem referência a filtros de entrada a partir de solicitações em diferentes planilhas, mas não em pastas de trabalho diferentes. Por exemplo, uma solicitação na Planilha 2 pode usar um conjunto de relatórios de uma determinada célula na Planilha 1 e um intervalo de datas de uma célula em uma solicitação na Planilha 2. A nova saída pode ser colocada em qualquer uma das duas planilhas ou em uma nova planilha na mesma pasta de trabalho. Quando você cola uma solicitação relativa, se um filtro de entrada residir em uma planilha diferente daquela em que a saída da solicitação copiada está localizada, o filtro será colado como um filtro absoluto.
 

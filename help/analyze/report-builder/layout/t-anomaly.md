@@ -1,20 +1,20 @@
 ---
-description: Essas etapas descrevem como criar uma solicitação de detecção de anomalias no Report Builder.
-title: Configurar uma solicitação de detecção de anomalias
+description: Saiba como criar uma solicitação de detecção de anomalias no Report Builder.
+title: Como configurar uma solicitação de detecção de anomalias
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 72%
 
 ---
 
 # Configurar uma solicitação de detecção de anomalias
 
-Para criar uma solicitação de detecção de anomalias no report builder:
+Para criar uma solicitação de detecção de anomalias no Report Builder:
 
 1. Selecione um relatório de tendências, como um **[!UICONTROL relatório de Métricas do site]** > **[!UICONTROL Relatório de]** tráfego.
 1. No menu [!UICONTROL Aplicar granularidade], selecione **[!UICONTROL Dia]**.
@@ -25,15 +25,15 @@ Para criar uma solicitação de detecção de anomalias no report builder:
 
 1. Após configurar os intervalos de datas, clique em **[!UICONTROL Próximo]**.
 
-   Resultado da etapa 1. Adicione uma métrica à etapa 2 de 2 do assistente de solicitações, como **[!UICONTROL Visitas]**.
+   Adicione uma métrica à etapa 2 de 2 do assistente de solicitações, como **[!UICONTROL Visitas]**.
 
-   Resultado da etapa 1. Para a métrica adicionada, clique no link **[!UICONTROL Nenhum]**.
+   Para a métrica adicionada, clique no link **[!UICONTROL Nenhum]**.
 
-   ![Resultado da etapa](assets/anomaly_select.png)
+   ![Captura de tela mostrando a Detecção de anomalias, a opção Inserir e, em seguida, as opções de Inserir para Limite inferior e superior, e as opções esperadas.](assets/anomaly_select.png)
 
 1. Selecione **[!UICONTROL Detecção de anomalias]** > **[!UICONTROL `<selection>`]**.
 
-   ![Informações da etapa](assets/anomaly_visit.png)
+   ![Captura de tela que mostra a Etapa 2 do assistente de solicitações - Relatório de tráfego.](assets/anomaly_visit.png)
 
    Ao selecionar uma destas opções, o sistema cria cópias da detecção de anomalias da métrica original. Por exemplo, para a métrica Visitas, uma métrica de Visitas de limite inferior é adicionada ao grupo [!UICONTROL Métrica].
 1. Clique em **[!UICONTROL Concluir]** e selecione a célula para saída em Excel.

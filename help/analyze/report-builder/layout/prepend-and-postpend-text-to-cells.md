@@ -1,14 +1,14 @@
 ---
-description: Em solicitações de layouts pivô e personalizado, para valores numéricos e de sequência, é possível incluir sequências ou caracteres às células como prefixo ou sufixo.
-title: Incluir texto a células como prefixo e sufixo
+description: Em solicitações de layouts pivô e personalizado, aprenda a anexar ou suprimir sequências ou caracteres às células.
+title: Como anexar texto a células como prefixo e sufixo
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 feature: Report Builder
 role: User, Admin
 exl-id: 79a90e33-00ef-435e-8304-be0cf59ced78
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '85'
+ht-degree: 60%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Em solicitações de layouts pivô e personalizado, para valores numéricos e de sequência, é possível incluir sequências ou caracteres às células como prefixo ou sufixo.
 
-Esta opção está disponível no [!UICONTROL Assistente de solicitações: etapa 2].
+Essa opção está disponível no [!UICONTROL Assistente de solicitações: etapa 2] janela.
 
 **Incluir texto como prefixo:** adiciona um prefixo de valores numéricos ou de sequência na célula.
 

@@ -4,10 +4,10 @@ title: Solicitação de dados - Etapa 1 do assistente de solicitações
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '371'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 No Assistente de solicitações: etapa 1, selecione o conjunto de relatórios, o tipo de relatório, os segmentos e configure as datas.
 
-![](assets/rw1_overview.png)
+![Captura de tela mostrando o formulário Assistente de solicitações: etapa 1.](assets/rw1_overview.png)
 
 1. **[!UICONTROL Conjunto de relatórios]**: A lista de conjuntos de relatórios disponíveis para você, com base em suas credenciais de logon. Consulte [Selecionar os conjuntos de relatórios](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 

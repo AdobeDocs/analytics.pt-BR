@@ -5,10 +5,10 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '333'
+ht-degree: 90%
 
 ---
 
@@ -22,17 +22,19 @@ Você pode pesquisar por itens de dimensão específicos criando um filtro que c
 
 1. Crie ou edite uma solicitação e então acesse o [!UICONTROL Assistente de solicitações: etapa 2].
 
-   ![Resultado da etapa](/help/admin/admin/assets/filter.png)
+   ![Captura de tela mostrando o Filtrar por opções: Aplicativo, Usuário e Projeto.](/help/admin/admin/assets/filter.png)
 
 1. No [!UICONTROL Assistente de solicitações: etapa 2], clique no link ao lado da dimensão na grade e, em seguida, escolha **[!UICONTROL Filtro]**.
 
-   ![Resultado da etapa](assets/choose_page_specific01.png)
+1. Ativar **[!UICONTROL Específico]**.
 
-1. Habilite **[!UICONTROL Específico]** e, em seguida, habilite uma das seguintes opções:
+   ![Captura de tela da caixa de diálogo Escolher página com a opção Específico selecionada.](assets/choose_page_specific01.png)
+
+1. Ative uma das seguintes opções Específicas:
 
    * **A partir de um intervalo de células:** Permite selecionar dados a partir de células. Você pode selecionar:
-   * **Todas as células do intervalo:** Permite mapear cada célula para o intervalo. Texto descritivo explica quantos grupos de células precisam ser selecionados. Para mapear mais de um grupo de células, pressione a tecla Ctrl à medida que faz seleções sucessivas. Se o intervalo a ser mapeado contiver somente uma célula, essa será a única opção disponível
-   * **Primeira célula do intervalo:** Você precisa somente selecionar a célula superior esquerda do intervalo e, em seguida, escolher uma direção para os dados. Além disso, se a solicitação tiver vários períodos, você escolhe a direção dos períodos e se deseja pular um número definido de células entre os períodos.
+      * **Todas as células do intervalo:** Permite mapear cada célula para o intervalo. Texto descritivo explica quantos grupos de células precisam ser selecionados. Para mapear mais de um grupo de células, pressione a tecla Ctrl à medida que faz seleções sucessivas. Se o intervalo a ser mapeado contiver somente uma célula, essa será a única opção disponível
+      * **Primeira célula do intervalo:** Você precisa somente selecionar a célula superior esquerda do intervalo e, em seguida, escolher uma direção para os dados. Além disso, se a solicitação tiver vários períodos, você escolhe a direção dos períodos e se deseja pular um número definido de células entre os períodos.
    * **A partir da lista:** Permite selecionar dados de uma lista à qual você pode adicionar dados.
 1. Se você habilitar **[!UICONTROL A partir da lista]**, selecione quaisquer itens listados disponíveis ou clique em **[!UICONTROL Adicionar]**.
 

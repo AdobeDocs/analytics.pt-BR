@@ -5,10 +5,10 @@ uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
 role: User, Admin
 exl-id: 0986b6e3-8708-4513-af8d-523fe7e616a3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 86%
 
 ---
 
@@ -18,4 +18,4 @@ Você pode salvar filtros ou outros parâmetros no Report Builder e usá-los em 
 
 Você salva os filtros no formulário [!UICONTROL Escolher página] quando cria os filtros. Como um exemplo desse procedimento, consulte [Filtros específicos](/help/analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 
-![](assets/choose_page_saved.png)
+![Captura de tela do formulário Escolher página e opções para as páginas Filtros mais populares, específicos e salvos.](assets/choose_page_saved.png)

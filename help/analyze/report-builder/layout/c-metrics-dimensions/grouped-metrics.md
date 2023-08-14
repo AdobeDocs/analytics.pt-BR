@@ -5,19 +5,17 @@ uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
 role: User, Admin
 exl-id: 4b26df2e-22c5-435a-815b-fc3d36d5ed02
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '86'
+ht-degree: 45%
 
 ---
 
 # Combinar métricas de tráfego e comércio na mesma solicitação
 
-Agora você pode combinar esses dois tipos de métricas em uma ou na mesma solicitação, em vez de precisar criar solicitações separadas.
+Você pode combinar tipos de métricas de tráfego e comércio em uma solicitação em vez de criar solicitações separadas.
 
-As métricas de tráfego e comércio agora são exibidas na mesma categoria de métricas na Etapa 2 do Assistente de solicitação. Anteriormente, essas métricas eram separadas em uma categoria de Comércio e uma categoria de Tráfego.
+As métricas de tráfego e comércio são exibidas na mesma categoria de métrica no Assistente de solicitações: etapa 2. A categoria agrupada é identificada **[!UICONTROL Padrão]**.
 
-A nova categoria agrupada é identificada como **[!UICONTROL Padrão]**.
-
-![](assets/standard_metrics.png)
+![Captura de tela da lista Assistente de solicitações: métricas padrão da etapa 2.](assets/standard_metrics.png)

@@ -1,20 +1,20 @@
 ---
-description: Além das opções padrão de formatação de células disponíveis através do recurso Formatar > Células (Ctrl+1) do Excel, você pode aplicar formatação limitada a intervalos de células com o Report Builder. Essas opções de formatação dependem da métrica selecionada.
-title: Formatar a data
+description: Saiba como aplicar formatação padrão e limitada a intervalos de células.
+title: Como formatar a data no Report Builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 98%
+source-wordcount: '257'
+ht-degree: 80%
 
 ---
 
 # Formatar a data
 
-Além das opções padrão de formatação de células disponíveis através do recurso Formatar > Células (Ctrl+1) do Excel, você pode aplicar formatação limitada a intervalos de células com o Report Builder. Essas opções de formatação dependem da métrica selecionada.
+Além das opções padrão de formatação de células disponíveis através do recurso Formatar > Células (Ctrl+1) do Excel, você pode aplicar formatação limitada a intervalos de células com Report Builder. Essas opções de formatação dependem da métrica selecionada.
 
 Depois de [adicionar dimensões](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) à grade Rótulos de linhas, clique em **[!UICONTROL Formatar]**.
 

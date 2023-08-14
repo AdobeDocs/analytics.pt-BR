@@ -1,14 +1,14 @@
 ---
-description: Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos de linhas e colunas. O link Opções de formato está disponível para os tipos de layout dinâmico e personalizado.
-title: Formatar cabeçalhos de exibição
+description: Saiba como nomear seu relatório e configurar como exibir cabeçalhos de linha e coluna.
+title: Como formatar cabeçalhos de exibição
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 94%
 
 ---
 

@@ -1,14 +1,14 @@
 ---
-description: O layout personalizado oferece a maior parte das funcionalidades do layout dinâmico, mas permite que você escolha onde cada item na grade deve estar localizado na planilha. Este layout proporciona a flexibilidade disponível em versões anteriores, inclusive a inclusão de divisões e micrográficos.
-title: Configurar o layout personalizado
+description: Saiba como o Layout personalizado fornece funcionalidade e flexibilidade do Layout dinâmico, como a adição de detalhamentos e micrográficos.
+title: Como configurar um layout personalizado no Adobe Analytics
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
 role: User, Admin
 exl-id: b3f71fd2-4081-4eaa-a9d6-4007446c1802
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '91'
+ht-degree: 70%
 
 ---
 

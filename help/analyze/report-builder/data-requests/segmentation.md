@@ -4,10 +4,10 @@ title: Gerenciar segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 91%
+source-wordcount: '1008'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ Como adicionar, editar, aplicar e filtrar segmentos do Adobe Analytics no Report
 
 O Report Builder tem um novo painel de segmentação na Etapa 1 do Assistente de solicitação que permite crie e gerencie segmentos.
 
-![](assets/seg_dialog.png)
+![Captura de tela que mostra as opções de Segmento para Adicionar, Editar ou Limpar segmentos e realça os ícones Controlar, Filtrar e Atualizar.](assets/seg_dialog.png)
 
 ## Adicionar ou editar segmentos {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -41,7 +41,7 @@ O Report Builder tem um novo painel de segmentação na Etapa 1 do Assistente de
 1. Selecione os itens de saída do relatório que você deseja transformar em um segmento.
 1. Clique com o botão direito para selecionar **[!UICONTROL Criar segmento no contexto em]** e especifique o contêiner apropriado (Contêiner de ocorrências, Contêiner de visitas, Contêiner de visitantes).
 
-   ![](assets/seg_in_context.png)
+   ![Captura de tela mostrando Criar segmento no contexto nas opções de contêiner selecionadas e disponíveis.](assets/seg_in_context.png)
 
    Para obter mais informações sobre contêineres, consulte o [Guia de segmentação](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=pt-BR).
 
@@ -58,9 +58,9 @@ Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui se
 
 1. Vá até a lista suspensa **[!UICONTROL Segmento]** e clique na seta pequena para baixo na caixa **[!UICONTROL Escolher segmento]** para exibir todos os segmentos.
 
-   ![](assets/seg_list.png)
+1. Marque quais segmentos você deseja aplicar.
 
-2. Marque quais segmentos você deseja aplicar.
+   ![Captura de tela mostrando os segmentos selecionados.](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -88,18 +88,20 @@ Adicionar um controle de segmento permite você alternar segmentos de uma pasta 
 
 1. Clique no ícone Controle ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) ao lado do menu suspenso de segmentos.
 
-   ![](assets/seg_control.png)
+1. Verifique todos os segmentos os quais você deseja que apareçam no controle de segmentos, ou marque **[!UICONTROL Selecionar tudo]**.
 
-2. Verifique todos os segmentos os quais você deseja que apareçam no controle de segmentos, ou marque **[!UICONTROL Selecionar tudo]**.
-3. Observe a opção **[!UICONTROL Atualizar automaticamente solicitações vinculadas na seleção de item]**.
+   ![Captura de tela da caixa de diálogo Configurações de controle com todos os segmentos selecionados.](assets/seg_control.png)
+
+1. Observe a opção **[!UICONTROL Atualizar automaticamente solicitações vinculadas na seleção de item]**.
 
    * Se marcadas, todas as solicitações que usam esse controle são atualizadas.
    * Se não for marcada, os parâmetros de solicitação associados são atualizados, mas as solicitações não são atualizadas.
 
-4. Especifique a localização de célula esquerda superior do controle de segmento.
-5. Clique em **[!UICONTROL OK]** e o controle de segmento aparece na localidade especificada.
+1. Especifique a localização de célula esquerda superior do controle de segmento.
 
-   ![](assets/seg_control2.png)
+1. Clique em **[!UICONTROL OK]** e o controle de segmento aparece na localidade especificada.
+
+   ![Captura de tela mostrando o campo suspenso Escolher segmento.](assets/seg_control2.png)
 
 ## Atualizar a lista de segmentos {#section_22E4A86789444B4A998532396B476EFB}
 
@@ -114,7 +116,7 @@ O Report Builder 5.4 permite adicionar, remover, substituir e substituir todos o
 1. Selecione várias solicitações em uma pasta de trabalho.
 1. Clique com o botão direito do mouse e selecione **[!UICONTROL Editar solicitações]** > **[!UICONTROL Por segmento]**.
 
-   ![](assets/edit_by_segment.png)
+   ![Captura de tela mostrando Editar solicitações e Por segmento selecionados.](assets/edit_by_segment.png)
 
 1. Na caixa de diálogo Editar grupo, selecione uma destas quatro opções:
 

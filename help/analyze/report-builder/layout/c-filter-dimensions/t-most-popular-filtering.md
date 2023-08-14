@@ -5,10 +5,10 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,10 @@ Os filtros mais populares são filtros de expressão que você configura usando 
 
 1. Crie ou edite uma solicitação e então acesse o [!UICONTROL Assistente de solicitações: etapa 2].
 
-   ![Informações da etapa](/help/admin/admin/assets/filter.png)
-
 1. No [!UICONTROL Assistente de solicitações: etapa 2], clique no link ao lado da dimensão na grade e, em seguida, escolha **[!UICONTROL Filtro]**.
+
+   ![Captura de tela mostrando a caixa de diálogo Definir filtro com opções para Filtrar por aplicativo, usuário e projeto.](/help/admin/admin/assets/filter.png)
+
 1. No formulário [!UICONTROL Escolher página], habilite **[!UICONTROL Mais popular]** e, então, configure as seguintes opções:
 
    **Classificação inicial:** A classificação inicial de uma dimensão. A classificação padrão de 1 indica o item no topo da lista de dados relatados. Por exemplo, para a dimensão [!UICONTROL Página], a marca inicial 1 indica a página mais solicitada de seu site. Você poderia especificar 10 ou outro valor como a célula de classificação inicial, o que produz um relatório que começa com 10 como a mais alta. As métricas são organizadas em ordem decrescente, de modo que os itens de linha com maior atividade sejam relatados primeiro na lista. Se você precisar de mais de 50.000 nomes de páginas em uma solicitação, mas tiver milhares de páginas sobre as quais emitir relatórios, poderá copiar a solicitação e alterar a classificação inicial para recuperar os dados apropriados em blocos de 50.000.
@@ -39,17 +40,18 @@ Os filtros mais populares são filtros de expressão que você configura usando 
 
 1. Para criar uma expressão de pesquisa, clique em **[!UICONTROL Adicionar]**.
 
-   ![Informações da etapa](assets/expressions_define_filter.png)
-
 1. No formulário [!UICONTROL Definir filtro], configure as condições apropriadas para as suas necessidades.
 
-   ![select_cell_icon.png](assets/select_cell_icon.png): Permite localizar uma condição definida no valor de uma célula.
 
-   **Adicionar condição:** Adiciona uma condição à expressão. Não há limite para o número de condições que podem ser adicionadas.
+   ![Captura de tela mostrando a caixa de diálogo Definir filtro.](assets/expressions_define_filter.png)
+
+   O ícone select cell permite localizar uma condição definida no valor de uma célula. ![O ícone de célula selecionar.](assets/select_cell_icon.png)
+
+   A variável **Adicionar Condição** link permite adicionar uma condição à expressão. Não há limite para o número de condições que podem ser adicionadas.
 
 1. Clique em **[!UICONTROL OK]**.
 
-   ![Informações da etapa](assets/choose_page_02.png)
+   ![Captura de tela da caixa de diálogo Definir filtro com o botão OK no lado inferior direito.](assets/choose_page_02.png)
 
 1. No formulário [!UICONTROL Escolher página], clique em **[!UICONTROL Salvar]** para salvar a expressão.
 1. Clique em **[!UICONTROL OK]**.

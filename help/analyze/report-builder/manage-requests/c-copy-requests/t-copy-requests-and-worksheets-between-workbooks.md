@@ -1,22 +1,27 @@
 ---
-description: Copie uma planilha inteira em uma pasta de trabalho de origem em uma planilha em uma ou mais pastas de trabalho de destino.
-title: Copiar solicitações e planilhas entre pastas de trabalho
+description: Saiba como copiar uma planilha de uma pasta de trabalho de origem para uma ou mais pastas de trabalho de destino.
+title: Como copiar solicitações e planilhas entre pastas de trabalho
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 79%
 
 ---
 
 # Copiar solicitações e planilhas entre pastas de trabalho
 
-Copie uma planilha inteira em uma pasta de trabalho de origem em uma planilha em uma ou mais pastas de trabalho de destino.
+Copie uma planilha inteira em uma pasta de trabalho de origem em uma planilha em uma ou mais pastas de trabalho de destino. Para fazer isso, você deve ter pelo menos duas pastas de trabalho abertas na mesma instância do Excel:
+* A primeira pasta de trabalho de origem contém uma planilha (planilha) com solicitações mapeadas a células.
+* As pastas de trabalho de destino adicionais são os destinos. Para cada nova pasta de trabalho de destino, você deve fazer logon no mesmo conjunto de relatórios como a pasta de trabalho de origem antes de poder colar planilhas contendo solicitações.
 
-Para fazê-lo, você deve ter ao menos duas pastas de trabalho abertas na mesma instância do Excel: a primeira pasta de trabalho de origem contém uma planilha com solicitações mapeadas a células, enquanto as pastas de trabalho de destino adicionais são os destinos. Para cada nova pasta de trabalho de destino, você deve fazer logon no mesmo conjunto de relatórios como a pasta de trabalho de origem antes de poder colar planilhas contendo solicitações.
+>[!NOTE]
+>
+>Você deve fazer logon na pasta de trabalho de destino usando o mesmo conjunto de relatórios que a pasta de trabalho de origem. As solicitações em ambas as pastas de trabalho precisam ser criadas com o mesmo logon do conjunto de relatórios.
+
 1. Clique com o botão direito do mouse na planilha na pasta de trabalho de origem e selecione **[!UICONTROL Copiar planilha com solicitações]**.
 1. Na pasta de trabalho de destino, clique com o botão direito do mouse na planilha e selecione **[!UICONTROL Colar planilha com solicitações]**.
 

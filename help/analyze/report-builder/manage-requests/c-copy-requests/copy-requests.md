@@ -1,14 +1,14 @@
 ---
-description: Você pode copiar células mapeadas com mais de uma solicitação e colar o conteúdo em uma área vazia selecionada da planilha.
-title: Visão geral de Copiar solicitações
+description: Saiba como copiar e colar células mapeadas com mais de uma solicitação.
+title: Visão geral de como copiar solicitações
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
 role: User, Admin
 exl-id: 14578c79-a9e6-4587-b91b-f590453df347
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 87%
 
 ---
 

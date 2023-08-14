@@ -4,10 +4,10 @@ title: Visão geral dos tipos de relatórios
 feature: Report Builder
 role: User, Admin
 exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 55%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 É possível selecionar o tipo de relatório base para sua solicitação de dados, como Métricas do site, Conteúdo do site e Vídeo.
 
-Você pode escolher apenas um tipo de relatório básico para um intervalo de células da planilha. Se estiver editando uma solicitação criada anteriormente, você pode alterar o tipo de relatório na janela [!UICONTROL Assistente de solicitações: etapa 1] sem ter que redefinir outras configurações na solicitação.
+Você pode escolher apenas um tipo de relatório básico para um intervalo de células da planilha. Se você estiver editando uma solicitação criada anteriormente, é possível alterar o tipo de relatório no [!UICONTROL Assistente de solicitações: etapa 1] sem redefinir outras configurações na solicitação.
 
-É possível procurar relatórios com a barra de pesquisa de preenchimento automático. Depois de selecionar um relatório neste controle, a exibição em árvore selecionará automaticamente o nó correspondente.
+É possível procurar relatórios com a barra de pesquisa de preenchimento automático. Após selecionar um relatório desse controle, a visualização em árvore seleciona automaticamente o nó correspondente.
 
-![](assets/search_reports.png)
+![Captura de tela mostrando a visualização em árvore do Conjunto de relatórios e o nó correspondente selecionado.](assets/search_reports.png)

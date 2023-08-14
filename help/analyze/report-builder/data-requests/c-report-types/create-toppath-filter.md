@@ -4,10 +4,10 @@ title: Filtrar relatórios de caminho ao adicionar solicitações dependentes
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 85%
 
 ---
 
@@ -29,12 +29,10 @@ O Report Builder não oferece isso como relatórios independentes, mas você pod
 * Caminho > Caminho de entrada > Como página de entrada
 * Caminho > Caminho de saída > Como página de saída
 
-1. Selecione várias linhas de uma solicitação existente, em seguida, clique com o botão direito em **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Caminho]**.
+1. Selecione várias linhas de uma solicitação existente, em seguida, clique com o botão direito em **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Caminho]**. Você deve selecionar pelo menos três linhas se quiser ver a **[!UICONTROL Fallout de página]** item de menu.
 
-   (Observe que você deve selecionar pelo menos 3 linhas se desejar visualizar o item de menu **[!UICONTROL Fallout de página]**).
+   ![Captura de tela mostrando três linhas selecionadas com a opção Adicionar solicitação dependente selecionada.](assets/dependen_request.png)
 
-   ![](assets/dependen_request.png)
-
-1. Selecione o filtro predefinido, por exemplo **[!UICONTROL Página anterior]**.
+2. Selecione o filtro predefinido, por exemplo **[!UICONTROL Página anterior]**.
 
    O Assistente de solicitações aparece com a métrica Página anterior já selecionada. 1. Continue a refinar sua solicitação no Assistente de solicitações para gerar sua solicitação.
