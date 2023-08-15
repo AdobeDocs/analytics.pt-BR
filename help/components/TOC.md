@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: ht
-source-wordcount: '724'
+source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
+workflow-type: tm+mt
+source-wordcount: '726'
 ht-degree: 100%
 
 ---
@@ -273,6 +273,7 @@ ht-degree: 100%
    + [Contas de importação na nuvem](/help/components/locations/configure-import-accounts.md)
    + [Locais de importação na nuvem](/help/components/locations/configure-import-locations.md)
 + [Eventos de calendário](t-calendar-event.md)
++ [Projetos programados](scheduled-projects-manager.md)
 + [Fila de relatórios agendados](scheduled-reports-admin.md)
 + Relatório em tempo real {#real-time-reporting}
    + [Visão geral do relatório em tempo real](c-real-time-reporting/realtime.md)
