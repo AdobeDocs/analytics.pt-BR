@@ -3,10 +3,10 @@ title: purchaseID
 description: Desduplicar ocorrências com base em um identificador de compra exclusivo.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: befa9b1e17a07160fd29feef1676832164bec3fb
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ A variável `purchaseID` ajuda a impedir que ocorrências que contêm a mesma co
 
 Quando a Adobe reconhece uma ocorrência como uma compra duplicada, nenhum dado de conversão (como eVars e eventos) é exibido no relatório. Nos feeds de dados, a coluna `duplicate_purchase` é definida como `1`.
 
-As IDs de compra se aplicam a todos os visitantes e não expiram. Se um visitante definir uma determinada ID de compra e um visitante diferente definir essa mesma ID de compra um ano depois, a segunda compra será desduplicada.
+As IDs de compra se aplicam a todos os visitantes e expiram após 37 meses. Se um visitante definir uma determinada ID de compra e um visitante diferente definir essa mesma ID de compra um ano depois, a segunda compra será desduplicada.
 
 ## ID de compra usando o SDK da Web
 
