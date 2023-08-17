@@ -4,9 +4,9 @@ title: Visão geral do Adobe Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d5a7dfe720cc84b67208e7d30434295caf1e2aac
+source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3101'
 ht-degree: 32%
 
 ---
@@ -104,7 +104,7 @@ A variável [!UICONTROL Componentes] A guia inclui recursos que ajudam a ajustar
 
    ![Guia Espaço de trabalho](assets/components-tab.png)
 
-2. Selecione qualquer um dos seguintes recursos do produto para configurá-lo: (Dependendo das suas permissões, todos os recursos podem não estar visíveis.)
+2. Selecione qualquer um dos seguintes recursos do produto para configurá-lo:
 
 
    | Recurso do produto | Função | Mais informações |

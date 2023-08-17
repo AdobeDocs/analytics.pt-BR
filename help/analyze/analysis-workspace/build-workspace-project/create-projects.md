@@ -4,14 +4,14 @@ title: Criar projetos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
-source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
+source-git-commit: fabe043264e4567d54dc497897fff0aaad77eaaf
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 5%
+source-wordcount: '705'
+ht-degree: 14%
 
 ---
 
-# Criar projetos
+# Criar projetos no Analysis Workspace
 
 [Projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) no Analysis Workspace permitem exibir análises críticas para os negócios que podem ser compartilhadas com as partes interessadas dentro ou fora da organização.
 
@@ -112,4 +112,4 @@ Para adicionar um componente:
 
 Conforme você cria uma análise no Analysis Workspace, seu trabalho é [salvo automaticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-Quando você terminar de criar o projeto e ele estiver reunindo insights acionáveis, o projeto estará pronto para ser consumido por outros. Você pode compartilhar o projeto com usuários e grupos em sua organização ou até mesmo com pessoas de fora da organização. Para obter informações sobre como compartilhar um projeto, consulte [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Quando terminar de criar o projeto e ele estiver reunindo insights acionáveis, o projeto estará pronto para ser consumido por outras pessoas. Você pode compartilhar o projeto com usuários e grupos em sua organização ou até mesmo com pessoas de fora da organização. Para obter informações sobre como compartilhar um projeto, consulte [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
