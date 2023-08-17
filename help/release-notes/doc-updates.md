@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
+source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
 workflow-type: tm+mt
-source-wordcount: '4891'
-ht-degree: 100%
+source-wordcount: '4924'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Agosto de 2023** | |
+| Conteúdo movido sobre o gerenciamento de projetos agendados | Criado um novo artigo no Guia de componentes do Analytics chamado [Projetos agendados](/help/components/scheduled-projects-manager.md). Este conteúdo estava anteriormente localizado no [Agendar projetos](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) no Guia de ferramentas do Analytics. |
 | Comparação dos métodos de implementação | A documentação que compara os diferentes métodos de implementação foi atualizada. [Saiba mais](../implement/prepare/comparison.md) |
 | Esclarecimento sobre a configuração do SFTP para feeds de dados não necessitar do Atendimento ao cliente da Adobe | [Enviar dados da Adobe para uma conta FTP externa com SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) foi atualizado para esclarecer que os clientes não precisam entrar em contato com o Atendimento ao cliente da Adobe para configurar o SFTP para feeds de dados. <p>Também foi adicionada uma observação sobre o SFTP não ser mais recomendado e que os clientes devem usar um destino de nuvem ao configurar feeds de dados.</p> |
 | Melhorias na documentação da Mídia de transmissão | Os seguintes aprimoramentos na documentação foram feitos para a Mídia de transmissão: <ul><li>Atualização da [visão geral](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR) para aumentar a clareza e incluir informações relacionadas ao Customer Journey Analytics.</li><li>A [visão geral de implementação](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=pt-BR) foi atualizada para diferenciar claramente entre as implementações do Edge e as implementações somente do Analytics. Também incluímos diagramas para ilustrar os vários métodos de implementação.</li><li>Foram adicionados pré-requisitos específicos às [Implementações do Edge](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=pt-BR) e [Implementações somente do Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=pt-BR). Os [pré-requisitos gerais](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=pt-BR) também foram atualizados.</li><li>Tabelas atualizadas no artigo [Obter SDKs de mídia, extensões que usam tags e SDKs OTT](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=pt-BR) para incluir novas colunas para *Soluções compatíveis* e *Método de implementação*.</li><li>Simplificação do conteúdo e da organização de artigos na área [Implementação](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=pt-BR) da documentação. Isso incluiu categorizar implementações como implementações do Edge e implementações somente do Analytics.</li><li>Remoção de um nível extra de hierarquia que não era necessário em [Rastreamento](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=pt-BR) e adição de redirecionamentos para URLs alterados nesta seção.</li><ul> |
