@@ -4,9 +4,9 @@ title: Visão geral do Adobe Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
+source-git-commit: 58e5f3ca4b99e92b64e01095d61d5fe1fc97feb9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5077'
 ht-degree: 41%
 
 ---
@@ -21,7 +21,7 @@ A seguir estão algumas das principais maneiras pelas quais a Adobe Analytics aj
 
 Para obter detalhes adicionais sobre os benefícios oferecidos pela Adobe Analytics, consulte a [Página do produto Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
-### Análise da Web
++++Análise da Web
 
 O Adobe Analytics fornece as seguintes ferramentas complexas de segmentação e previsão para analisar o tráfego do site:
 
@@ -31,7 +31,9 @@ O Adobe Analytics fornece as seguintes ferramentas complexas de segmentação e 
 
 * [Segmentação avançada](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=pt-BR)
 
-### Análise de marketing
++++
+
++++Análise de marketing
 
 O Adobe Analytics ajuda as organizações a entender onde os clientes interagem com suas marcas, quais canais os clientes preferem e quais experiências refletem neles.
 
@@ -43,14 +45,18 @@ Os principais recursos do Adobe Analytics a seguir oferecem esses recursos de ma
 
 * [Ad hoc analysis no Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
-### Atribuição
++++
+
++++Atribuição
 
 A atribuição permite que as organizações vejam como diferentes interações na jornada do cliente afetam a conversão. Além de fornecer opções de atribuição mais tradicionais, como modelos Linear ou de Primeiro contato, o Attribution no Adobe Analytics também usa aprendizado de máquina e modelos estatísticos avançados para entender o impacto preciso de cada contato.
 
 Para obter mais informações, consulte [Modelos de atribuição e janelas de pesquisa](/help/analyze/analysis-workspace/attribution/models.md).
 
++++
 
-### Análise preditiva
+
++++Análise preditiva
 
 A Análise preditiva usa aprendizagem de máquina e modelagem estatística avançada para analisar dados do cliente, encontrar padrões e prever o comportamento futuro, como churn ou uma probabilidade de conversão. Ele permite que os analistas de dados aproveitem grandes conjuntos de dados que, de outra forma, seriam desperdiçados.
 
@@ -61,6 +67,8 @@ Os principais recursos do Adobe Analytics a seguir fornecem esses recursos predi
 * [Análise de contribuição](#contribution-analysis)
 
 * [Alertas inteligentes](#intelligent-alerts)
+
++++
 
 ## Pré-requisitos para usar o Adobe Analytics
 
@@ -78,9 +86,13 @@ Antes de usar o Adobe Analytics, você deve ter:
 
 ## Entender a interface do Analytics
 
-A interface do Adobe Analytics consiste nas seguintes áreas principais:
+A interface do Adobe Analytics consiste nas seguintes áreas principais, incluindo guias para gerenciar projetos no Analysis Workspace, gerenciar componentes, ferramentas e funções de administrador.
 
-### Guia Espaço de trabalho
+![Guia Espaço de trabalho](assets/landing-all2.png)
+
+Expanda as seguintes seções para saber mais sobre cada área do Analysis Workspace:
+
++++guia Espaço de trabalho
 
 A variável [!UICONTROL Workspace] mostra a [!UICONTROL Projetos] por padrão, que exibe a Pasta da empresa, qualquer pasta pessoal que você criou, seus projetos e cartões de pontuação móveis.
 
@@ -90,13 +102,17 @@ A variável [!UICONTROL Workspace] mostra a [!UICONTROL Projetos] por padrão, q
 
 Para obter mais informações sobre os recursos e as funções disponíveis no [!UICONTROL Workspace] , consulte [Página de aterrissagem do Adobe Analytics](/help/analyze/landing.md).
 
-### Guia Relatórios
++++
+
++++Guia Relatórios
 
 A partir de 31 de dezembro de 2023, a Adobe pretende descontinuar o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham.
 
 Use o botão [!UICONTROL **Relatórios**] área no painel esquerdo na [!UICONTROL **Workspace**] guia. Para obter mais informações, consulte *Navegue até a guia Relatórios* in [Página de aterrissagem do Adobe Analytics](/help/analyze/landing.md).
 
-### Guia Componentes
++++
+
++++Guia Componentes
 
 A variável [!UICONTROL Componentes] A guia inclui recursos que ajudam a ajustar e potencializar a análise de dados.
 
@@ -128,7 +144,9 @@ A variável [!UICONTROL Componentes] A guia inclui recursos que ajudam a ajustar
 
    {style="table-layout:auto"}
 
-### Guia Ferramentas
++++
+
++++Guia Ferramentas
 
 <!-- The Tools tab ... -->
 
@@ -150,7 +168,9 @@ A variável [!UICONTROL Componentes] A guia inclui recursos que ajudam a ajustar
 
    {style="table-layout:auto"}
 
-### Guia Admin
++++
+
++++Guia Admin
 
 A guia Admin inclui recursos e opções de configuração para administrar o Adobe Analytics.
 
@@ -194,7 +214,9 @@ A guia Admin inclui recursos e opções de configuração para administrar o Ado
 
    {style="table-layout:auto"}
 
-### Analysis Workspace
++++
+
++++Analysis Workspace
 
 O Analysis Workspace permite criar análises rapidamente para coletar insights e compartilhá-los com outras pessoas. Usando a interface de arrastar e soltar do navegador, você pode criar a análise, adicionar visualizações para dar vida aos dados, preparar um conjunto de dados e compartilhar e agendar projetos com quem você escolher.
 
@@ -210,6 +232,8 @@ Para obter uma visão geral mais detalhada do Analysis Workspace, consulte [Vis�
 | B | **Painel esquerdo:** dependendo da guia selecionada no painel mais à esquerda, essa área pode conter painéis, visualizações ou componentes individuais. |
 | C | **Tela:** essa é a área principal onde você arrasta o conteúdo dos painéis à esquerda para criar o projeto. O projeto é atualizado dinamicamente à medida que você adiciona painéis, visualizações e componentes à tela. |
 | D | **Menu suspenso do conjunto de relatórios:** para cada painel no Analysis Workspace, esse menu suspenso permite escolher o conjunto de relatórios que você deseja usar como fonte de dados. |
+
++++
 
 ## Introdução para administradores, analistas, usuários finais e desenvolvedores
 
