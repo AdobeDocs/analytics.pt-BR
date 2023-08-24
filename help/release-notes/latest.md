@@ -3,10 +3,10 @@ title: Notas de versão atuais do Adobe Analytics
 description: Exibir as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2232778be91502eca2ecdc2c9598b8a3375abb8b
+source-git-commit: 5d0133495613c89deca4dc070d38389ef89853b3
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '891'
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-320597; AN-320680; AN-
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| **Expiração de 37 meses de IDs de compra e IDs de evento (serialização de eventos)** | 10 de julho de 2023 | Uma versão futura do mecanismo de processamento de ocorrências do Analytics, com lançamento previsto para **13 de julho de 2023**, começará a impor uma expiração de 37 meses para IDs de compra e IDs de evento (serialização de eventos). Atualmente, as IDs de compra e as IDs de evento nunca expiram no Adobe Analytics. Depois que uma ID de compra ou ID de evento for vista/usada, qualquer ocorrência futura, independente de quando, terá essa compra ou evento marcado como duplicado. Com a nova versão do mecanismo de processamento:<ul><li>IDs de compra e IDs de evento sempre expirarão após 37 meses.</li><li>Se tiver passado 37 meses desde que a ID de compra ou a ID de evento foi vista, ela não será mais considerada uma compra ou um evento duplicado.</li><li> Se você estiver “reutilizando” IDs de compra ou IDs de evento de mais de 37 meses atrás, elas não serão mais consideradas duplicatas.</li></ul> |
+| **Expiração de 37 meses de IDs de compra e IDs de evento (serialização de eventos)** | 10 de julho de 2023 | A versão mais recente do mecanismo de processamento de ocorrências do Analytics, lançada em **13 de julho de 2023**, começou a impor uma expiração de 37 meses de IDs de compra e IDs de evento (serialização de eventos). Anteriormente, as IDs de compra e IDs de evento nunca expiravam no Adobe Analytics. Depois que uma ID de compra ou ID de evento era vista/usada, qualquer ocorrência futura, independentemente de quando, tinha essa compra ou evento marcado como duplicata. Com a nova versão do mecanismo de processamento:<ul><li>IDs de compra e IDs de evento sempre expirarão após 37 meses.</li><li>Se tiver passado 37 meses desde que a ID de compra ou a ID de evento foi vista, ela não será mais considerada uma compra ou um evento duplicado.</li><li> Se você estiver “reutilizando” IDs de compra ou IDs de evento de mais de 37 meses atrás, elas não serão mais consideradas duplicatas.</li></ul> |
 | **Migração para credenciais de servidor para servidor OAuth do Adobe I/O** | 11 de maio de 2023 | Os clientes da API e da transmissão ao vivo do Adobe Analytics que usam as credenciais JWT do Adobe I/O devem migrar para as credenciais de servidor para servidor OAuth do Adobe I/O até o dia **1º de janeiro de 2025**. Para mais detalhes e linhas do tempo, consulte o aviso de fim de vida útil na tabela abaixo. |
 
 {style="table-layout:auto"}
