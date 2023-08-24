@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder e o Activity Map.
-source-git-commit: 6cf07b816723ce0d5adb9183215e331c7656d928
+source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,9 @@ ht-degree: 100%
 + [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
 + Introdução ao Adobe Analytics {#admin-overview}
    + [Visão geral do Analytics](get-started/analytics-overview.md)
+   + [Introdução (por função)](get-started/get-started-by-role.md)
+   + [Entender a interface do Analytics](get-started/analytics-interface.md)
+   + [Casos de uso](get-started/use-cases.md)
    + [Qual ferramenta do Adobe Analytics devo usar?](get-started/which-analytics-tool.md)
    + [Comparação e requisitos de produtos do Analytics](get-started/analytics-product-comparison.md)
    + [Requisitos do sistema](get-started/sys-reqs.md)
