@@ -3,8 +3,8 @@ title: Notas de versão atuais do Adobe Analytics
 description: Exibir as notas de versão atuais do Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
-workflow-type: ht
+source-git-commit: 2232778be91502eca2ecdc2c9598b8a3375abb8b
+workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Notas de versão atuais do Adobe Analytics (Agosto de 2023)
 
-**Última atualização**: 9 de agosto de 2023
+**Última atualização**: 24 de agosto de 2023
 
 Essas notas de versão abrangem o período de lançamento de 9 de agosto a 13 de setembro de 2023. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -20,8 +20,8 @@ Essas notas de versão abrangem o período de lançamento de 9 de agosto a 13 de
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Conjuntos de classificação na API 2.0** | Fornece métodos da API 2.0 do Adobe Analytics para salvar, excluir, recuperar, importar e exportar dados do conjunto de classificações. | N/D | 31 de agosto de 2023 |
-| **Gerenciador de atividades de relatórios** | O Gerenciador de atividades de relatórios fornece aos administradores visibilidade detalhada do consumo de relatórios para cada conjunto de relatórios, permitindo que os administradores diagnostiquem e corrijam problemas de capacidade facilmente durante os horários de pico de relatórios. [Saiba mais](/help/admin/admin/reporting-activity.md) | N/D | 6 de setembro de 2023 |
+| **Conjuntos de classificação na API 2.0** | Fornece métodos da API 2.0 do Adobe Analytics para salvar, excluir, recuperar, importar e exportar dados do conjunto de classificações. | N/D | 30 de agosto de 2023 |
+| **Gerenciador de atividades de relatórios** | O Gerenciador de atividades de relatórios fornece aos administradores visibilidade detalhada do consumo de relatórios para cada conjunto de relatórios, permitindo que os administradores diagnostiquem e corrijam problemas de capacidade facilmente durante os horários de pico de relatórios. [Saiba mais](/help/admin/admin/reporting-activity.md) | N/D | 12 de setembro de 2023 |
 
 {style="table-layout:auto"}
 
