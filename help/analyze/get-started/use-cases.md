@@ -2,12 +2,10 @@
 description: Informações gerais de visão geral sobre o Adobe Analytics, incluindo informações sobre a interface do Analytics e informações de introdução para administradores, analistas, usuários e desenvolvedores.
 title: Casos de uso do Analytics
 feature: Analytics Basics
-hide: true
-hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 4%
+source-wordcount: '291'
+ht-degree: 7%
 
 ---
 
@@ -34,7 +32,7 @@ O Adobe Analytics ajuda as organizações a entender onde os clientes interagem 
 
 Os principais recursos do Adobe Analytics a seguir oferecem esses recursos de marketing:
 
-* Coleção de dados multicanal
+* [Coleção de dados multicanal](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=pt-BR)
 
 * [Integração de dados offline](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
 

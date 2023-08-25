@@ -2,11 +2,9 @@
 description: Informações gerais de visão geral sobre o Adobe Analytics, incluindo informações sobre a interface do Analytics e informações de introdução para administradores, analistas, usuários e desenvolvedores.
 title: Visão geral do Adobe Analytics
 feature: Analytics Basics
-hide: true
-hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 47%
 
 ---
@@ -22,8 +20,8 @@ Use os seguintes recursos para aprender as noções básicas do Adobe Analytics:
 
 | Recurso de documentação | Função |
 |---------|----------|
-| [Introdução (por função)](/help/analyze/get-started/get-started-by-role.md) | Fornece informações detalhadas explicando os principais recursos e tarefas que você precisa conhecer, seja você um administrador, analista, usuário final ou desenvolvedores. |
-| [Entender a interface do Analytics](/help/analyze/get-started/analytics-interface.md) | Detalha as principais áreas da interface do Analytics. |
+| [Introdução (por função)](/help/analyze/get-started/get-started-by-role.md) | Fornece informações detalhadas explicando os principais recursos e tarefas que você precisa conhecer, seja você um administrador, analista, usuário final ou desenvolvedor. |
+| [Entender a interface do Analytics](/help/analyze/get-started/analytics-interface.md) | Descreve as principais áreas da interface do Analytics. |
 | [Casos de uso](/help/analyze/get-started/use-cases.md) | Explica algumas das principais maneiras pelas quais a Adobe Analytics ajuda as organizações a obter insights críticos para atender melhor seus clientes. |
 | [Qual ferramenta do Adobe Analytics devo usar?](/help/analyze/get-started/which-analytics-tool.md) | Contém casos de uso recomendados para cada ferramenta do Adobe Analytics. |
 | [Comparação e requisitos de produtos do Analytics](/help/analyze/get-started/analytics-product-comparison.md) | Compara os vários produtos da Adobe Analytics que estão disponíveis. |
