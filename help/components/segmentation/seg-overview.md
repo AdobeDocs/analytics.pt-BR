@@ -3,10 +3,10 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
+source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -239,7 +239,7 @@ Um segmento sequencial filtra conjuntos de dados com base nas ações do usuári
 
 Este vídeo fornece uma breve visão geral do que são os contêineres de segmento e como usá-los:
 
-![](https://video.tv.adobe.com/v/25401)
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
 
 ## Acesse as Ferramentas de segmentação {#access}
@@ -252,7 +252,7 @@ Para acessar o Construtor de segmentos, basta:
 
 - Clique em **[!UICONTROL Adicionar]** mais, na parte superior do Gerenciador de segmentos.  ![Botão Adicionar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
-   ou
+  ou
 
 - Clique em um título de segmento existente no Gerenciador de segmentos para editar o segmento no Construtor de segmentos.
 
