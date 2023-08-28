@@ -3,10 +3,10 @@ title: Criar um feed de dados
 description: Saiba como criar um feed de dados.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '3174'
-ht-degree: 21%
+source-wordcount: '3175'
+ht-degree: 20%
 
 ---
 
@@ -41,7 +41,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
    | [!UICONTROL **Enviar email ao concluir**] | O endereço de email a ser notificado quando um feed terminar o processamento. O endereço de email deve estar formatado corretamente. |
    | [!UICONTROL **Intervalo do feed**] | Selecionar **Diariamente** para preenchimento retroativo ou dados históricos. Os feeds diários contêm dados de um dia inteiro, da meia-noite à meia-noite no fuso horário do conjunto de relatórios.  Selecionar **Por hora** para dados contínuos (Daily também está disponível para feeds contínuos, se preferir). Os feeds por hora contêm dados de uma hora. |
    | [!UICONTROL **Atraso no processamento**] | Aguarde um determinado tempo antes de processar um arquivo de feed de dados. Um atraso pode ser útil para dar às implementações móveis uma oportunidade para que os dispositivos offline fiquem online e enviem dados. Ele também pode ser usado para acomodar os processos do lado do servidor de sua organização ao gerenciar arquivos processados anteriormente. Na maioria dos casos, não é necessário atrasar. Um feed pode ser atrasado em até 120 minutos. |
-   | [!UICONTROL **Datas de início e término**] | A data de início indica a primeira data em que você deseja um feed de dados. Defina essa data no passado para iniciar imediatamente o processamento do feeds de dados para dados históricos. Os feeds continuam a ser processados até atingirem a data de término. As datas de início e término são baseadas no fuso horário do conjunto de relatórios. |
+   | [!UICONTROL **Datas de início e término**] | A data de início indica a data em que você deseja que o feed de dados comece. Para iniciar imediatamente o processamento do feeds de dados para dados históricos, defina essa data como qualquer data no passado quando os dados estiverem sendo coletados. As datas de início e término são baseadas no fuso horário do conjunto de relatórios. |
    | [!UICONTROL **Alimentação contínua**] | Essa caixa de seleção remove a data de término, permitindo que um feed seja executado indefinidamente. Quando um feed terminar de processar dados históricos, ele aguarda que os dados terminem de coletar por uma determinada hora ou dia. Quando a hora ou o dia atual terminar, o processamento será iniciado após o atraso especificado. |
 
 1. No [!UICONTROL **Destino**] seção, no campo [!UICONTROL **Tipo**] selecione o destino para onde deseja que os dados sejam enviados.
@@ -92,7 +92,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
          | Campo | Função |
          |---------|----------|
          | [!UICONTROL **Nome da conta**] | Um nome para a conta. Pode ser qualquer nome que você escolher. |
-         | [!UICONTROL **Descrição da conta**] | Uma descrição da conta. |
+         | [!UICONTROL **Descrição da conta**] | Uma descrição para a conta. |
          | [!UICONTROL **Função ARN**] | Você deve fornecer uma Função ARN (Amazon Resource Name) que o Adobe pode usar para obter acesso à conta do Amazon S3. Para fazer isso, crie uma política de permissão IAM para a conta de origem, anexe a política a um usuário e crie uma função para a conta de destino. Para obter informações específicas, consulte [esta documentação do AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
          | [!UICONTROL **ARN do usuário**] | O usuário ARN (Amazon Resource Name) é fornecido pelo Adobe. Você deve anexar este usuário à política criada. |
 
@@ -103,7 +103,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
          | Campo | Função |
          |---------|----------|
          | [!UICONTROL **Nome**] | Um nome para a conta. |
-         | [!UICONTROL **Descrição**] | Uma descrição da conta. |
+         | [!UICONTROL **Descrição**] | Uma descrição para a conta. |
          | [!UICONTROL **Bucket**] | O bucket da conta do Amazon S3 para o qual você deseja que os dados do Adobe Analytics sejam enviados. Certifique-se de que o usuário ARN fornecido pelo Adobe tenha acesso para carregar arquivos nesse bucket. |
          | [!UICONTROL **Prefixo**] | A pasta dentro do bucket onde você deseja colocar os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/` |
 
@@ -269,7 +269,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
          | Campo | Função |
          |---------|----------|
          | [!UICONTROL **Nome da conta**] | Um nome para a conta. Pode ser qualquer nome que você escolher. |
-         | [!UICONTROL **Descrição da conta**] | Uma descrição da conta. |
+         | [!UICONTROL **Descrição da conta**] | Uma descrição para a conta. |
          | [!UICONTROL **ID do projeto**] | Sua ID de projeto da Google Cloud. Consulte a [Documentação da Google Cloud sobre como obter uma ID de projeto](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
 
          {style="table-layout:auto"}
@@ -280,7 +280,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
          |---------|----------|
          | [!UICONTROL **Principal**] | O Principal é fornecido pelo Adobe. Você deve conceder permissão para receber feeds para este principal. |
          | [!UICONTROL **Nome**] | Um nome para a conta. |
-         | [!UICONTROL **Descrição**] | Uma descrição da conta. |
+         | [!UICONTROL **Descrição**] | Uma descrição para a conta. |
          | [!UICONTROL **Bucket**] | O bucket da conta GCP para o qual você deseja que os dados do Adobe Analytics sejam enviados. Verifique se você concedeu permissão ao Principal fornecido pelo Adobe para fazer upload de arquivos para esse bucket. |
          | [!UICONTROL **Prefixo**] | A pasta dentro do bucket onde você deseja colocar os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/` |
 
