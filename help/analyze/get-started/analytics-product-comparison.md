@@ -3,10 +3,10 @@ description: Requisitos de sistema e comparação da Analysis Workspace, Reports
 title: Comparação e requisitos de produtos do Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: 71ebabf7efca70c0cbd2489dc538f7f10cae16cb
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 97%
 
 ---
 
@@ -37,5 +37,5 @@ Para obter informações sobre qual produto do Adobe Analytics usar, consulte [Q
 | **Preparação** <br> [Saiba mais](/help/analyze/analysis-workspace/curate-share/curate.md) | Sim - Projeto e VRS | Não | Não | Não | Não | Não | Sim - apenas VRS |
 | **Compartilhamento de projeto** <br> [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sim, com funções de projeto | Sim | Sim | Não | Sim | Não | Não |
 | **Delivery programado** | Sim | Sim | Sim | Sim | Não | Sim | Não |
-| **Destinos do delivery** | Email | Email | Email, FTP, SFTP, [publicação no Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Email, FTP. Entre em contato com o Atendimento ao cliente para obter suporte de destino adicional, incluindo SFTP, Azure Blob, Amazon S3 | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
+| **Destinos do delivery** | Email | Email | Email, FTP, SFTP, [publicação no Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Email, FTP. Entre em contato com o Atendimento ao cliente para obter suporte de destino adicional, incluindo SFTP, Azure Blob, Amazon S3 | - | Amazon S3, Azure RBAC, Azure SAS e Google Cloud Platform | - |
 | **Processamento de tempo do relatório VRS** <br> [Saiba mais](/help/components/vrs/vrs-report-time-processing.md) | Sim | Não | Não | Não | Não | Não | Sim |
