@@ -5,16 +5,16 @@ title: Agendar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 73%
+source-wordcount: '315'
+ht-degree: 51%
 
 ---
 
 # Agendar projetos
 
-No **menu Compartilhar**, do Workspace, você pode enviar projetos do Analysis Workspace por email para recipient selecionados. Os arquivos podem ser enviados no formato CSV ou PDF.
+No Espaço de trabalho **Menu Compartilhar**, você pode enviar projetos Analysis Workspace usando email para recipients selecionados. Os arquivos podem ser enviados no formato CSV ou PDF. Depois de compartilhar projetos agendados, você pode editar as configurações de agendamento para modificar a frequência, a lista de destinatários ou o tipo de arquivo, usando o gerenciador de Projetos Agendados.
 
 ## Enviar arquivo agora
 
@@ -46,6 +46,14 @@ Para enviar um arquivo por email de acordo com uma programação recorrente a re
 ![](assets/send-on-schedule.png)
 
 ## Gerenciar projetos agendados
+
+Ao gerenciar projetos agendados, você pode editar e excluir agendamentos de projetos recorrentes:
+
+* Alterar o tipo de arquivo (.csv ou PDF)
+* Atualizar a descrição do projeto
+* Adicionar ou remover destinatários
+* Alterar a frequência
+
 
 Os projetos programados do Analysis Workspace podem ser gerenciados em **Analytics > Componentes > Projetos programados**.
 
