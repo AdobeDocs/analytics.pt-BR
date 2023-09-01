@@ -4,10 +4,10 @@ title: Filtrar relatório de caminho com o Assistente de solicitação
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 68%
+ht-degree: 63%
 
 ---
 
@@ -48,7 +48,7 @@ Esse exemplo usa Caminhos de seção do site.
 
    ![](assets/select_a_pattern.png)
 
-   Alguns desses padrões são específicos do Report Builder: Padrão de próximo item do Caminho de entrada, Padrão de próximo item do Caminho de saída, Padrão do próximo item.
+   Alguns desses padrões são específicos do Report Builder: Padrão do Próximo Item do Caminho de Entrada, Padrão do Próximo Item do Caminho de Saída, Padrão do Próximo Item.
 
 ## Para editar um padrão predefinido
 

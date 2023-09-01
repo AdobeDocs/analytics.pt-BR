@@ -5,10 +5,10 @@ uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 94%
+ht-degree: 77%
 
 ---
 
@@ -33,15 +33,15 @@ Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos
 
    **Exibir cabeçalhos de linha e coluna:** Adiciona uma linha e uma coluna para exibir estes itens.
 
-   Na versão 3.11, você poderia exibir um cabeçalho para cada item. A versão 4 exibe todos esses itens ou nenhum deles. Se você tiver criado uma solicitação na versão 3.11 e abri-la na versão 4.x, o Report Builder solicitará na Etapa 2 a atualização do intervalo adicionando uma célula para itens cujo cabeçalho esteja faltando.
+   Na versão 3.11, você poderia exibir um cabeçalho para cada item. A versão 4 exibe todos esses itens ou nenhum deles. Se você criou uma solicitação na versão 3.11 e a abriu na versão 4.x, o Report Builder solicita na Etapa 2 que você atualize o intervalo por uma célula para itens cujo cabeçalho esteja faltando.
 
-   **Alterar cabeçalhos para filtros automáticos do Excel:** Disponível somente se os cabeçalhos de linha e colunas são exibidos. Esta configuração cria um filtro automático do Excel e o anexa aos dados que o Report Builder retorna para essa solicitação.
+   **Alterar cabeçalhos para filtros automáticos do Excel:** Disponível somente se os cabeçalhos de linha e colunas são exibidos. Essa configuração cria um filtro automático do Excel e o anexa aos retornos de Report Builder de dados para essa solicitação.
 
    >[!NOTE]
    >
    >O Excel oferece suporte somente a um filtro automático por planilha. Se você criar um novo filtro automático em uma planilha que já tiver um filtro automático, o Excel não apresentará nenhum aviso de que o filtro automático existente será substituído.
 
-   **Executar contorno automático:** Transforma a data retornada pelo Report Builder a partir de uma exibição em lista para uma exibição em árvore.
+   **Executar contorno automático:** Transforma a data retornada pelo Report Builder de uma exibição em lista para uma exibição em árvore.
 
    **Nomear esta solicitação:** Permite digitar um nome definido pelo usuário para a solicitação ou usar o nome padrão selecionado na etapa 1. Este nome aparece como o nome do [!UICONTROL Relatório] no [!UICONTROL Gerenciador de solicitações]. Consulte [Nomear uma solicitação](/help/analyze/report-builder/layout/name-a-request.md).
 

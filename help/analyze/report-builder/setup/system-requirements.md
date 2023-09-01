@@ -1,14 +1,14 @@
 ---
-description: Recomendações do sistema e pré-requisitos.
-title: Requisitos do sistema para Report Builder
+description: Saiba mais sobre as recomendações e os pré-requisitos do sistema para o Report Builder.
+title: Sobre os requisitos de sistema para o Report Builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin
 exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 95%
+source-wordcount: '74'
+ht-degree: 79%
 
 ---
 

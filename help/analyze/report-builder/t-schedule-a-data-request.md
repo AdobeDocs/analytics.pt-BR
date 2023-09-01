@@ -1,14 +1,14 @@
 ---
-description: Você pode agendar relatórios para envio de acordo com a hora e o formato de arquivo definidos.
-title: Programar uma solicitação de dados
+description: Saiba como agendar relatórios.
+title: Como agendar uma solicitação de dados
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '999'
+ht-degree: 96%
 
 ---
 
@@ -34,17 +34,15 @@ Além disso, depois de criar uma programação de pastas de trabalho no Report B
 > * **Problemas em serviços downstream** nos quais o Agendador depende também podem afetar a entrega de pastas de trabalho. Por exemplo, se você estiver usando independentemente as APIs para executar pastas de trabalho e preencher a fila de solicitações da API, suas pastas de trabalho agendadas podem ser entregues lentamente enquanto você compete por esse recurso.
 > * A **latência do conjunto de relatórios** (um atraso na coleta de dados) também pode atrasar algumas pastas de trabalho programadas.
 
-
 ## Agendar uma pasta de trabalho
 
 1. Gere e salve uma pasta de trabalho.
 1. Na barra de ferramentas do Report Builder, clique em **[!UICONTROL Agendamento]**.
 
    A guia [!UICONTROL Relatórios agendados] resume todas as tarefas que você tiver criado, bem como o número de tarefas restantes.
-1. Na guia **[!UICONTROL Relatórios agendados]**, clique em **[!UICONTROL Novo]**.
-1. O assistente básico de agendamento mostrará:
+1. Na guia **[!UICONTROL Relatórios agendados]**, clique em **[!UICONTROL Novo]**. O Assistente básico de agendamento mostra as opções usadas para definir o relatório agendado.
 
-   ![](assets/simple-schedule-wizard.png)
+   ![Captura de tela mostrando o Assistente básico de agendamento.](assets/simple-schedule-wizard.png)
 
 1. No [!UICONTROL Assistente básico de agendamento], configure as seguintes opções:
 

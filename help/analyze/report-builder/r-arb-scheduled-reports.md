@@ -1,13 +1,13 @@
 ---
-description: Descrições dos campos para o Gerenciador de tarefas agendadas.
-title: Gerenciador de tarefa agendada
+description: Saiba mais sobre as descrições de campo para o Gerenciador de tarefas agendadas.
+title: Sobre o Gerenciador de tarefas agendadas
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 59%
+source-wordcount: '774'
+ht-degree: 58%
 
 ---
 
@@ -36,7 +36,7 @@ A finalidade dessa pausa é gerenciar e manter com eficiência nosso banco de da
 
 | Campo | Descrição |
 | --- | --- |
-| Guia **[!UICONTROL Relatórios agendados]** |  |
+| Guia **[!UICONTROL Relatórios agendados]** | |
 | [!UICONTROL Nome do relatório] | Indica o nome da tarefa agendada. |
 | [!UICONTROL Email/FTP] | O endereço de email ou do FTP do destinatário. **Observação:** se o email estiver selecionado, os relatórios com mais de 1 MB são anexados automaticamente ao email como um arquivo .zip. Este recurso ajuda a manter o tamanho pequeno dos arquivos anexados e não pode ser desativado |
 | [!UICONTROL Opções de publicação] | Essa coluna listará Power BI se uma das [opções de publicação do Power BI](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html) está selecionada. |
@@ -44,10 +44,10 @@ A finalidade dessa pausa é gerenciar e manter com eficiência nosso banco de da
 | [!UICONTROL Formato do arquivo] | O formato de entrega do relatório, como Excel, PDF, HTML, etc. |
 | [!UICONTROL Reativar] | Quando ocorre falha de execução de uma pasta de trabalho agendada, o Report Builder tenta executá-la mais duas vezes a cada quinze minutos. Depois de três tentativas mal sucedidas, o Report Builder desativa o agendamento e exibe o botão Reativar. Quando você reativa uma pasta de trabalho, a entrega agendada é reiniciada a partir do momento em que foi desativada.<p>Por exemplo, se uma pasta de trabalho agendada foi desativada há 14 dias e você a reativar hoje, ela será executada para todos os dias que estiverem faltando e será entregue 14 vezes. Se não quiser que a pasta de trabalho seja entregue para os dias que estiverem faltando, você poderá excluir a pasta de trabalho agendada e, em seguida, criar uma nova pasta de trabalho agendada usando os mesmos parâmetros de agendamento.<p>**Nota:** Não reative uma pasta de trabalho, a menos que você saiba o motivo de o sistema tê-la desativado. Para solucionar problemas, baixe uma pasta de trabalho desativada e atualize-a no lado do cliente. Se não encontrar nenhum erro, você deve conseguir reativá-la. |
 | [!UICONTROL Último envio] | A data e a hora quando o relatório foi enviado pela última vez. |
-| Guia **Destinatário** |  |
+| Guia **Destinatário** | |
 | [!UICONTROL Email do destinatário] | O destinatário do email do relatório. |
 | [!UICONTROL Relatórios] | Os relatórios enviados para cada recipient. |
-| Guia **Histórico de relatórios** |  |
+| Guia **Histórico de relatórios** | |
 | [!UICONTROL Nome do arquivo] | Indica o nome da tarefa agendada. |
 | [!UICONTROL Data] | A data e a hora quando o relatório foi enviado pela última vez. |
 | [!UICONTROL Status] | O status indica se o relatório foi enviado ou não. |

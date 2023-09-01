@@ -1,26 +1,26 @@
 ---
-description: Descrições dos campos para gerenciar solicitações no Report Builder.
-title: Gerenciar solicitações - definições
+description: Saiba mais sobre as descrições de campo para Gerenciar solicitações no Report Builder.
+title: Como gerenciar solicitações no Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 78%
 
 ---
 
 # Gerenciar solicitações - definições
 
-Descrições dos campos para gerenciar solicitações no Report Builder.
+Visualize detalhes de um status de solicitação e use as descrições de campo para gerenciar solicitações no Report Builder.
 
 ## Visão geral {#section_75C288C945FA4781A4EDF806711A5660}
 
-O [!UICONTROL Gerenciador de solicitações] fornece uma visualização detalhada do status de todas as solicitações que você tiver criado para todas as planilhas ou apenas uma planilha da pasta de trabalho ativa. Você também pode adicionar, editar, atualizar e excluir uma solicitação (funções normalmente associadas ao [!UICONTROL Assistente de solicitações] e ao [!UICONTROL Gerenciador de solicitações]) clicando com o botão direito do mouse em uma célula disponível na planilha do Excel que contenha solicitações anteriores.
+A variável [!UICONTROL Gerenciador de solicitações] O fornece uma exibição detalhada do status de todas as solicitações que você criou para todas as planilhas ou apenas uma planilha da pasta de trabalho ativa. Você também pode adicionar, editar, atualizar e excluir uma solicitação. Normalmente, essas funções estão associadas à função [!UICONTROL Assistente de solicitações] e [!UICONTROL Gerenciador de solicitações] ao clicar com o botão direito do mouse em uma célula disponível na planilha do Excel que contém solicitações anteriores.
 
-O [!UICONTROL Gerenciador de solicitações] é exibido ao clicar em **[!UICONTROL Gerenciar]** ( ![](assets/edit_request.gif) na barra de ferramentas do Report Builder.
+A variável [!UICONTROL Gerenciador de solicitações] é exibido ao clicar em **[!UICONTROL Gerenciar]**  ![](assets/edit_request.gif) na barra de ferramentas Report Builder.
 
 >[!NOTE]
 >

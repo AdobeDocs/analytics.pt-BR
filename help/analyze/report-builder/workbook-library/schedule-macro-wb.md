@@ -1,14 +1,14 @@
 ---
-description: O Report Builder da Adobe suporta o formato .xlsm que permite agendar pastas de trabalho com macros habilitadas.
-title: Agendar pastas de trabalho com macros habilitados
+description: Saiba mais sobre como programar pastas de trabalho com macros habilitadas.
+title: Sobre o agendamento de pastas de trabalho com macros habilitados
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
 role: User, Admin
 exl-id: 34b8ffc7-646a-4472-a99a-4b8876ea7b16
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 100%
+source-wordcount: '104'
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 O Report Builder da Adobe suporta o formato .xlsm que permite agendar pastas de trabalho com macros habilitadas.
 
-Isso pode ser útil se você precisa agendar, processar e receber com segurança pastas de trabalho com macros habilitadas.
+Isso é útil se você precisar agendar, processar e receber com segurança pastas de trabalho com macros habilitadas.
 
 >[!IMPORTANT]
 >

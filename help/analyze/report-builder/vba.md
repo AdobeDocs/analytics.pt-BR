@@ -1,25 +1,27 @@
 ---
-title: Macros do Visual Basic no Report Builder
-description: Expanda a funcionalidade de pastas de trabalho do Excel e do Report Builder usando VBA.
+title: Como usar macros do Visual Basic no Report Builder
+description: Saiba como expandir a funcionalidade de pastas de trabalho e Report Builder do Excel usando macros VBA.
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 68%
 
 ---
 
 # Macros do Visual Basic no Report Builder
 
-As macros VBA, também conhecidas como macros do Visual Basic, permitem manipular pastas de trabalho de maneiras que o Microsoft Excel não é capaz. O Visual Basic tem acesso à pasta de trabalho, ao Excel e até mesmo ao Windows.
+As macros do Visual Basic (VBA) fornecem recursos que ajudam a atualizar pastas de trabalho do Excel. O Visual Basic tem acesso à pasta de trabalho, Excel e Windows.
 
-A Adobe aceita três métodos de API do Report Builder. Verifique se a versão mais recente do Report Builder está instalada e faça logon antes de executar uma macro.
+Você deve executar a versão mais recente do Report Builder e fazer logon antes de executar macros VBA.
 
 >[!IMPORTANT]
 >
 >Por motivos de segurança, não é possível agendar uma pasta de trabalho que contenha uma macro
+
+A Adobe aceita três métodos de API do Report Builder.
 
 ## `RefreshAllReportBuilderRequests()`
 

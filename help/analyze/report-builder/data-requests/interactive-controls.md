@@ -1,21 +1,21 @@
 ---
-description: Os Controles interativos permitem que você edite segmentos e intervalos de datas para uma ou mais solicitações diretamente da planilha. Isso proporciona maior flexibilidade ao atualizar solicitações do Report Builder.
+description: Os Controles interativos permitem que você edite segmentos e intervalos de datas para uma ou mais solicitações diretamente da planilha. Isso proporciona mais flexibilidade ao atualizar solicitações Report Builder.
 title: Controles interativos
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 90%
+ht-degree: 72%
 
 ---
 
 # Controles interativos
 
-Os Controles interativos permitem que você edite segmentos e intervalos de datas para uma ou mais solicitações diretamente da planilha. Isso proporciona maior flexibilidade ao atualizar solicitações do Report Builder.
+Os Controles interativos permitem que você edite segmentos e intervalos de datas para uma ou mais solicitações diretamente da planilha. Isso proporciona mais flexibilidade ao atualizar solicitações Report Builder.
 
-Os controles interativos foram criados em resposta a um fluxo de trabalho comum, no qual os analistas criam pastas de trabalho e as compartilham com a organização de marketing. Os controles interativos fornecem os comerciantes a capacidade de modificar e atualizar solicitações sem precisar de grandes conhecimentos sobre como o Report Builder funciona. (Observe que para atualizar uma solicitação, o destinatário da pasta de trabalho deve ser um usuário do Report Builder). Esses controles funcionam dentro de pastas de trabalho programadas. Há dois tipos de controles interativos no momento:
+Os controles interativos foram criados em resposta a um fluxo de trabalho comum, no qual os analistas criam pastas de trabalho e as compartilham com a organização de marketing. Os controles interativos oferecem aos profissionais de marketing a capacidade de modificar e atualizar solicitações sem precisar de um conhecimento profundo sobre como o Report Builder funciona. (Observe que para atualizar uma solicitação, o destinatário da pasta de trabalho deve ser um usuário Report Builder.) Esses controles funcionam dentro de pastas de trabalho programadas. Há dois tipos de controles interativos no momento:
 
 * Intervalo de datas contínuas
 * Segmentos
@@ -23,7 +23,7 @@ Os controles interativos foram criados em resposta a um fluxo de trabalho comum,
 >[!IMPORTANT]
 >
 >Você deve ter o Report Builder v5.0 instalado para que os controles interativos funcionem. >
->* Se você estiver executando o Microsoft Excel no Windows, mas uma versão anterior do Report Builder, ou se não tiver um Report Builder instalado: é possível alterar o valor no controle interativo, mas isso não atualizará a solicitação associada, nem atualizará os parâmetros associados da solicitação.
+>* Se você estiver executando o Microsoft Excel no Windows, mas uma versão anterior do Report Builder, ou se não tiver o Report Builder instalado: é possível alterar o valor no controle interativo, mas isso não atualizará a solicitação associada, nem atualizará os parâmetros associados da solicitação.
 >* Se você estiver executando o Excel no Mac, a alteração do valor no controle resultará na seguinte mensagem: &quot;Não é possível encontrar a macro &quot;Adobe.ReportBuilder.Bridge.FormControlClick.Event&quot;&quot;.
 >
 

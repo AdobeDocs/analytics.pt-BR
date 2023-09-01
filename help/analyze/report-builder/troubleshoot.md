@@ -1,20 +1,20 @@
 ---
-description: Maneiras de otimizar a entrega do Report Builder e uma lista de mensagens de erro que podem ocorrer ocasionalmente.
+description: Saiba como otimizar o delivery de Report Builder e uma lista de mensagens de erro que podem ocorrer.
 title: Resolução de problemas e práticas recomendadas do Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 100%
+source-wordcount: '1410'
+ht-degree: 88%
 
 ---
 
 # Resolução de problemas e práticas recomendadas do Report Builder
 
-Maneiras de otimizar a entrega do Report Builder e uma lista de mensagens de erro que podem ocorrer ocasionalmente.
+Este artigo descreve a solução de problemas e as práticas recomendadas que você pode usar para otimizar o Report Builder. Ele também inclui uma lista de mensagens de erro que podem ser exibidas.
 
 ## Usuários do Report Builder 5.0 e abertura das pastas de trabalho 5.1 {#section_C29898775999453FABB5FB0E098415C8}
 
@@ -32,7 +32,7 @@ O problema ocorre ao abrir uma pasta de trabalho ARB v5.1 com a solicitação de
 
 ## Problemas de autenticação no Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
 
-O Report Builder exige autenticação para criar solicitações de dados dos seus conjuntos de relatórios. Às vezes, ocorrem questões ao acessar o Report Builder dependendo de suas configurações no [!DNL Analytics] na sua rede.
+O Report Builder exige autenticação para criar solicitações de dados dos seus conjuntos de relatórios. Às vezes, ocorrem questões ao fazer logon no Report Builder, dependendo de suas configurações no [!DNL Analytics] ou na sua rede.
 
 * **Empresa de logon inválido**: Esse erro geralmente ocorre quando a empresa de logon é inserida incorretamente ou se houver problemas de atividade de rede. Faça o seguinte:
    * Verifique a ortografia da empresa de logon para garantir que não haja erro de digitação ou de espaçamento.
@@ -46,33 +46,33 @@ Os seguintes fatores podem aumentar a complexidade do pedido e resultar em um pr
 * **Fatores que podem atrasar deliveries**: muitos marcadores, painéis e pastas de trabalho do Report Builder foram agendados em poucas horas. Considere também que muitas pastas de trabalho do Report Builder foram agendadas ao mesmo tempo. Quando isso ocorre, a fila de relatórios do API fica lotada.
 * **Fatores que podem atrasar o tempo de execução da pasta de trabalho**: aumento significativo nas classificações ou aumento do intervalo de datas da solicitação ao longo do tempo.
 * **Causas que resultam na falha de entrega da pasta de trabalho**: fórmulas complexas do Excel em uma pasta de trabalho, particularmente as que envolvem data e hora.
-* **Células retornando 0s (sem valor)**: um apóstrofo ou uma aspa simples no nome da planilha do Excel fará com que o Report Builder não retorne valores. (Esta é uma limitação do Microsoft Excel).
+* **Células que retornam 0s (sem valores)**: um apóstrofo ou uma aspa simples no nome da planilha do Excel fará com que o Report Builder não retorne valores. (Esta é uma limitação do Microsoft Excel).
 * **Desempenho de solicitação individual**: a velocidade de processamento pode ser afetada pelas seguintes configurações:
 
-   | Configuração | Desempenho mais rápido | Desempenho mais devagar |
-   |--- |--- |--- |
-   | Análises e a ordem da análise | Poucas | Muitas |
-   |  | Exemplo: se você analisar A por Z, o número de itens para A deve sempre ser menor que o número de itens para Z. Se for o contrário, o tempo de solicitação pode aumentar significativamente. |
-   | Intervalo de datas | Intervalo pequeno | Intervalo grande |
-   | Filtragem | Filtragem específica | Filtragem mais popular |
-   | Granularidade | Agregado | Por hora<ul><li>Diariamente</li><li>Semanalmente</li><li>Mensalmente</li><li>Trimestralmente</li><li>Anualmente</li></ul> |
-   | Número de entradas | Conjunto de dados pequeno | Conjunto de dados grande |
+  | Configuração | Desempenho mais rápido | Desempenho mais devagar |
+  |--- |--- |--- |
+  | Análises e a ordem da análise | Poucas | Muitas |
+  |  | Exemplo: se você analisar A por Z, o número de itens para A deve sempre ser menor que o número de itens para Z. Se for o contrário, o tempo de solicitação pode aumentar significativamente. |
+  | Intervalo de datas | Intervalo pequeno | Intervalo grande |
+  | Filtragem | Filtragem específica | Filtragem mais popular |
+  | Granularidade | Agregado | Por hora<ul><li>Diariamente</li><li>Semanalmente</li><li>Mensalmente</li><li>Trimestralmente</li><li>Anualmente</li></ul> |
+  | Número de entradas | Conjunto de dados pequeno | Conjunto de dados grande |
 
 * **Horário de agendamento**: agendamento ordenado durante o período de 24 horas (consulte a tabela abaixo). Favoritos, painéis e pastas de trabalho do Report Builder já existentes que foram agendados muito próximos podem causar atrasos. Agende as solicitações maiores e mais complexas no início da manhã para permitir que o manual extraia e atualize para ocorrer durante o dia útil.
 
-   | Período de agendamento | 1 h - 2 h | 2 h - 7 h | 7 h - 18 h | 18 h - Meia-noite |
-   |--- |--- |--- |--- |--- |
-   | Uso do Report Builder | Silencioso | Muito ocupado | Uso do lado do cliente.<br>Maiores volumes de usuários atualizando e solicitando para &quot;Enviar imediatamente&quot;.<br>Além disso, verifique se a fila da API é apagada ao programar tempo limite da pasta de trabalho. | Não ocupado |
+  | Período de agendamento | 1 h - 2 h | 2 h - 7 h | 7 h - 18 h | 18 h - Meia-noite |
+  |--- |--- |--- |--- |--- |
+  | Uso do Report Builder | Silencioso | Muito ocupado | Uso do lado do cliente.<br>Maiores volumes de usuários atualizando e solicitando para &quot;Enviar imediatamente&quot;.<br>Além disso, verifique se a fila da API é apagada ao programar tempo limite da pasta de trabalho. | Não ocupado |
 
 * **Limites de tempo**: Qualquer relatório agendado atinge o tempo limite depois de quatro horas. O sistema tenta programar por mais três vezes, resultando em uma falha. (Geralmente, quanto maior o conjunto de dados, maior é o tempo para execução.) Estes podem ser vistos nos relatórios do [!DNL Analytics] e do Report Builder:
 
-## Descrições de mensagens de erro {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
+## Descrições de mensagem de erro de exemplo {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
-Uma lista de mensagens de erro que podem ocorrer ocasionalmente durante o uso do Report Builder.
+Esta seção inclui uma lista de exemplos de mensagens de erro que podem ocorrer quando você usa o Report Builder.
 
 >[!NOTE]
 >
->Esta é apenas uma seleção de mensagens de erro, não uma lista exaustiva. Para obter mais informações sobre como solucionar erros, contate o administrador.
+>Este é um exemplo de mensagens de erro, não uma lista exaustiva. Para obter mais informações sobre como solucionar erros, contate o administrador.
 
 * **Esse recurso pode ser aplicado somente a uma pasta de trabalho aberta.**: Se nenhuma pasta de trabalho (documentos de planilhas) estiver aberta no Excel e você clicar em um dos ícones na barra de ferramentas do Report Builder, esta mensagem será exibida. Além disso, a barra de ferramentas fica desativada até que você abra uma planilha. No entanto, você pode clicar no ícone de Ajuda online enquanto a barra de ferramentas ainda está ativada, sem causar este erro.
 * **Saia primeiro do [!UICONTROL Assistente de solicitações] antes de ativar o [!UICONTROL Gerenciador de solicitações].**: Embora o [!UICONTROL Gerenciador de solicitações] e o [!UICONTROL Assistente de solicitações] estejam vinculados funcionalmente, não é possível começar a trabalhar com o [!UICONTROL Gerenciador de solicitações] antes de concluir ou cancelar as ações iniciadas no [!UICONTROL Assistente de solicitações].

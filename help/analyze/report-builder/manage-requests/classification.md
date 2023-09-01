@@ -1,20 +1,20 @@
 ---
-description: Análises classificação são usadas para mapear dados de relatórios para propriedades relacionadas. Classificações podem ser usadas para uma variedade de finalidades, mas são usadas mais comumente para classificar códigos de controle de campanha (tanto internos quanto externos) e IDs de produtos.
-title: Classificação
+description: Saiba como as classificações são usadas.
+title: Sobre as classificações de dados
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 76%
 
 ---
 
 # Classificações
 
-Análises classificação são usadas para mapear dados de relatórios para propriedades relacionadas. Classificações podem ser usadas para uma variedade de finalidades, mas são usadas mais comumente para classificar códigos de controle de campanha (tanto internos quanto externos) e IDs de produtos.
+Análises classificação são usadas para mapear dados de relatórios para propriedades relacionadas. As classificações podem ser usadas para várias finalidades, mas são usadas com mais frequência para classificar códigos de rastreamento de campanha, internos e externos, e IDs de produto.
 
 Por exemplo, um relatório de [!UICONTROL Campanha] pode ter uma classificação [!UICONTROL Gerente] e outra [!UICONTROL Ponto de vendas]. Essas classificações podem ser ordenadas de acordo com uma hierarquia específica, e cada grupo de valores de relatório pode ser dividido em subgrupos.
 

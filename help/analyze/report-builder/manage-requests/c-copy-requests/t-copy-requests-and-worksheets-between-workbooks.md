@@ -5,10 +5,10 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 79%
+ht-degree: 65%
 
 ---
 
@@ -25,7 +25,7 @@ Copie uma planilha inteira em uma pasta de trabalho de origem em uma planilha em
 1. Clique com o botão direito do mouse na planilha na pasta de trabalho de origem e selecione **[!UICONTROL Copiar planilha com solicitações]**.
 1. Na pasta de trabalho de destino, clique com o botão direito do mouse na planilha e selecione **[!UICONTROL Colar planilha com solicitações]**.
 
-   A mesma instância do Excel significa que apenas um único processo do Excel ([!DNL excel.exe]) está em execução no computador de cada vez. Se você iniciar duas instâncias do Excel e tentar copiar uma planilha de uma pasta de trabalho na primeira instância do Excel para uma pasta de trabalho na segunda instância do Excel, o Report Builder não apresentará a opção de colar a planilha no menu de atalho da segunda instância do Excel.
+   A mesma instância do Excel significa que apenas um único processo do Excel ([!DNL excel.exe]) está em execução no computador de cada vez. Se você iniciar duas instâncias do Excel e tentar copiar uma planilha de uma pasta de trabalho na primeira instância do Excel para uma pasta de trabalho na segunda instância do Excel, o Report Builder não apresentará a opção de colar uma planilha no menu de atalho da segunda instância do Excel.
 
    Se você fizer logon nas pastas de trabalho de origem e de destino usando diferentes conjuntos de relatórios, os únicos resultados que você verá da operação de colagem serão os que afetam a formatação da pasta de trabalho de destino. O Report Builder exibe uma mensagem declarando que as informações para as solicitações derivadas de um conjunto de relatórios especificado (na pasta de trabalho de origem) não estão disponíveis na pasta de trabalho de destino. Para revelar as solicitações coladas na pasta de trabalho de destino, você precisa fazer logon na pasta de trabalho de destino usando o mesmo conjunto de relatórios que a pasta de trabalho de origem.
 

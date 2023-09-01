@@ -1,14 +1,14 @@
 ---
-description: É possível alterar várias solicitações ao mesmo tempo, com base no conjunto de relatórios da solicitação, granularidade e intervalo de datas.
-title: Editar várias solicitações
+description: Saiba como alterar várias solicitações ao mesmo tempo.
+title: Como editar várias solicitações
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '312'
+ht-degree: 90%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 95%
    * **Por segmento**: agrupa as solicitações de acordo com o nome do segmento.
 
       * **Escolher segmento**: exibido se não houver nenhum segmento para as solicitações. Para adicionar segmentos, clique em **[!UICONTROL Editar grupo]** e selecione um segmento no painel [!UICONTROL Editar grupo].
+
    * **Por métrica:** Consulte [Editar métricas em várias solicitações](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Por intervalo de datas e granularidade:** agrupa a exibição de solicitações por intervalo de datas e granularidade de tempo.
    * **Por grupo:** agrupa a exibição de solicitações por conjunto de solicitações agrupadas.
-
 
 1. No formulário [!UICONTROL Editar várias solicitações], clique em **[!UICONTROL OK]**.
 

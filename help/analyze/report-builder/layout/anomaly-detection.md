@@ -5,10 +5,10 @@ uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ O Report Builder aplica esses valores às métricas selecionadas. Por exemplo, s
 
 **Como a detecção de anomalias é calculada**
 
-A detecção de anomalias utiliza um período de treinamento para calcular, aprender e relatar os dados de previsão de intervalo por dia. Este período de treinamento é o período histórico que identifica aquilo que é normal e aquilo que é anômalo, e aplica o que aprendeu ao período do relatório. Em relatórios de marketing, estão disponíveis os períodos de treinamento de 30, 60 e 90 dias. O Report Builder possui o período de 30 dias.
+A detecção de anomalias utiliza um período de treinamento para calcular, aprender e relatar os dados de previsão de intervalo por dia. Este período de treinamento é o período histórico que identifica aquilo que é normal e aquilo que é anômalo, e aplica o que aprendeu ao período do relatório. Em relatórios de marketing, estão disponíveis os períodos de treinamento de 30, 60 e 90 dias. No Report Builder, estão disponíveis 30 dias.
 
 O período de treinamento não é necessariamente o mesmo que o período do relatório selecionado. Um gráfico do relatório exibe o intervalo de datas especificado no calendário.
 

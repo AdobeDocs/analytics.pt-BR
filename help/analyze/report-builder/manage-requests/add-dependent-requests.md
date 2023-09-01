@@ -1,14 +1,14 @@
 ---
-description: Uma solicitação dependente é uma solicitação que depende de outra solicitação existente.
-title: Adicionar solicitações dependentes
+description: Saiba mais sobre como adicionar solicitações dependentes.
+title: Como adicionar solicitações dependentes
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
 role: User, Admin
 exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '101'
+ht-degree: 48%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Uma solicitação dependente é uma solicitação que depende de outra solicitação existente.
 
-Para relatórios com divisões de correlação ativadas na tabela do relatório, você pode examinar um item em mais detalhes clicando com o botão direito do mouse na célula e clicando em **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Divisão]**.
+Para relatórios com detalhamento de correlação ativado na tabela de relatório, para examinar um item mais de perto, clique com o botão direito do mouse na célula e clique em **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Detalhamento]**.
 
 >[!NOTE]
 >
->Você também pode adicionar solicitações de divisão enquanto cria a solicitação original. Consulte [Criar uma solicitação de dados](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)
+>Você também pode adicionar uma solicitação de divisão ao criar a solicitação original. Consulte [Criar uma solicitação de dados](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)
 
 >[!NOTE]
 >

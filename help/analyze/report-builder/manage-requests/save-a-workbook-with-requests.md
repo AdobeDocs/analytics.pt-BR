@@ -1,20 +1,20 @@
 ---
-description: Depois de criar relatórios com solicitações incorporadas, você pode salvá-los clicando em Arquivo > Salvar ou Arquivo > Salvar como no Excel. O Report Builder detecta se o relatório contém solicitações. Quando você clica em uma dessas opções de salvar, o formulário Salvar pasta de trabalho como é exibido.
-title: Salvar uma pasta de trabalho com solicitações
+description: Saiba como salvar relatórios com solicitações incorporadas.
+title: Sobre salvar uma pasta de trabalho com solicitações
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 80%
 
 ---
 
 # Salvar uma pasta de trabalho com solicitações
 
-Depois de criar relatórios com solicitações incorporadas, você pode salvá-los clicando em Arquivo > Salvar ou Arquivo > Salvar como no Excel. O Report Builder detecta se o relatório contém solicitações. Quando você clica em uma dessas opções de salvar, o formulário Salvar pasta de trabalho como é exibido.
+Ao criar relatórios com solicitações incorporadas, é possível salvá-los usando **Arquivo** > **Salvar** ou **Arquivo** > **Salvar como** no Excel. O Report Builder detecta se o relatório contém solicitações. Ao selecionar uma das opções de gravação, conclua a **Salvar pasta de trabalho como** formulário.
 
 * A prática recomendada pela Adobe para qualquer trabalho extenso com aplicativos do Windows é salvar suas solicitações na planilha com frequência a fim de evitar uma perda inesperada das solicitações na planilha.
 * Ao dar um nome para sua pasta de trabalho, considere usar um número de versão no nome do arquivo, de modo a preservar um histórico de seu trabalho. Por exemplo, nomeie sua primeira pasta de trabalho [!DNL web_forecast_01_01.xlsx].

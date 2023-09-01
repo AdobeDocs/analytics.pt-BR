@@ -1,54 +1,46 @@
 ---
-description: Etapas e considerações relacionadas à atualização do Report Builder.
-title: Atualizar o Report Builder
+description: Saiba como atualizar o Report Builder.
+title: Como atualizar o Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
 role: User, Admin
 exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 53%
 
 ---
 
 # Atualizar o Report Builder
 
-Etapas e considerações relacionadas à atualização do Report Builder.
+Ao atualizar o Report Builder, lembre-se das seguintes diretrizes:
 
-## Atualizar perguntas frequentes {#section_AFE40FF5544C418790A1C298C25CC18A}
+* A versão antiga será removida.
 
-**P: Devo manter a versão antiga do Report Builder ao atualizar?**
+* Todos os relatórios existentes continuarão a funcionar.
 
-R: Não, a versão antiga será removida.
+* Todas as configurações pessoais, incluindo as de autenticação, continuarão a funcionar.
 
-**P: Perderei os relatórios atuais?**
-
-R: Não, todos os relatórios atuais continuarão funcionando.
-
-**P: É necessário autenticar novamente para a nova versão?**
-
-R: Não, todas as configurações, inclusive as configurações de autenticação, continuarão funcionando.
-
-## Instruções de atualização {#section_73B8110A619549189A30079735E81867}
+Para atualizar o Report Builder
 
 1. Faça logon na versão atual do Report Builder.
 1. Acesse o menu **[!UICONTROL Opções]** para atualizar até a versão mais recente. O número da versão atual é exibido na parte inferior da caixa de diálogo Opções.
 
-   ![](assets/upgrade.png)
+   ![Captura de tela mostrando a caixa de diálogo Opções, a versão atual e a nova versão.](assets/upgrade.png)
 
-1. Se uma nova versão estiver disponível, clique em **[!UICONTROL Atualizar...]**. O botão mostrará para qual versão você está atualizando, por exemplo: &quot;Atualizar para a versão 5.0.50&quot;
+1. Se uma nova versão estiver disponível, clique em **[!UICONTROL Atualizar...]**. O botão mostrará para qual versão você está atualizando, por exemplo: *Atualização para a versão 5.0.50*
 
    >[!NOTE]
    >
    >Se esse botão estiver acinzentado, nenhuma nova versão do Report Builder está disponível.
 
-1. Como opção, marque a caixa de seleção **[!UICONTROL Atualizar quando uma nova versão estiver disponível]**. Futuramente, isso iniciará o processo de atualização automaticamente quando uma nova versão estiver disponível.
+1. (Opcional) Selecione a **[!UICONTROL Atualizar quando uma nova versão estiver disponível]** caixa de seleção Futuramente, isso iniciará o processo de atualização automaticamente quando uma nova versão estiver disponível.
 1. Quando a tela de configuração aparecer, clique em **[!UICONTROL Avançar >]**.
 
-   ![](assets/setup.png)
+   ![Captura de tela mostrando a tela Configuração de Report Builder.](assets/setup.png)
 
-1. Depois que a atualização for concluída, faça logon novamente no Report Builder.
+1. Quando a atualização estiver concluída, faça logon novamente no Report Builder.
 
 ## Instruções de atualização manual {#section_27A0200010DC4747A718F1A65B180599}
 

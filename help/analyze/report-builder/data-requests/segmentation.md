@@ -4,10 +4,10 @@ title: Gerenciar segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -76,7 +76,7 @@ Os filtros disponíveis incluem:
 |---|---|
 | Tags | Permite que você filtre por segmentos com tags específicos. Observe que os filtros de tags usam o operador AND. Se você verificar duas tags, o painel direito mostra segmentos que foram marcados com **ambas** as tags. |
 | Proprietários | Permite que você filtre segmentos por proprietário. Observe que os filtros Proprietários usam o operador OR. Se você marcar dois proprietários, o painel direito mostra segmentos de propriedade de **qualquer** proprietário. |
-| Outros filtros > Somente o *nome do conjunto de relatórios* | Se você aplicar o filtro &quot;Somente o *nome do conjunto de relatórios*&quot; no Construtor de segmentos em [!DNL marketing reports & analytics] e, em seguida, exibir o filtro Avançado no [!DNL report builder], o filtro Avançado exibirá o segmento somente para o conjunto de relatórios selecionados. |
+| Outros filtros > Somente o *nome do conjunto de relatórios* | Se você aplicar o filtro &quot;Somente o *nome do conjunto de relatórios*&quot; no Construtor de segmentos em [!DNL marketing reports & analytics] e, em seguida, exibir o filtro Avançado no [!DNL Report Builder], o filtro Avançado exibirá o segmento somente para o conjunto de relatórios selecionados. |
 | Outros filtros > Meus | Mostra todos os seus segmentos. |
 | Outros filtros > Compartilhados comigo | Mostra todos os segmentos que outros compartilharam com você. |
 | Outros filtros > Favoritos | Mostra todos os segmentos que você marcou como Favoritos. |

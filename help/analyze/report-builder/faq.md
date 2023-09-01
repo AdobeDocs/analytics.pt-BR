@@ -1,13 +1,13 @@
 ---
+description: Saiba mais sobre as perguntas frequentes sobre o Report Builder.
 title: Perguntas frequentes sobre o Report Builder
-description: Perguntas frequentes sobre o Report Builder.
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 93%
+source-wordcount: '421'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Os relatórios agendados são processados em servidores que provavelmente não c
 
 Os relatórios agendados também são processados em servidores que provavelmente não compartilham a sintaxe de data. Por exemplo, `7/1/YYYY` pode se referir a 1º de julho ou 7 de janeiro, dependendo do país ou da região. Usar a função `DATEVALUE()` nessa data resultaria em valores seriais diferentes, dependendo do computador que a executa.
 
-Como alternativa ao uso dessas funções do Excel, a Adobe recomenda usar intervalos de datas nas solicitações do Report Builder. Na primeira página do assistente de solicitações, selecione **[!UICONTROL Datas predefinidas]** na lista suspensa e, em Datas comumente usadas, selecione **[!UICONTROL Hoje]** ou outro intervalo de datas desejado. Essa configuração utiliza a hora do conjunto de relatórios no momento em que ele foi executado, e não a hora do servidor que processa a solicitação.
+Como alternativa ao uso dessas funções do Excel, a Adobe recomenda usar intervalos de datas nas solicitações do Report Builder. Na primeira página do assistente de solicitações, selecione **[!UICONTROL Datas predefinidas]** na lista suspensa e, em Datas utilizadas mais comuns, selecione **[!UICONTROL Hoje]** ou outro intervalo de datas desejado. Essa configuração utiliza a hora do conjunto de relatórios no momento em que ele foi executado, e não a hora do servidor que processa a solicitação.
 
 ## Qual é o tamanho e a complexidade das minhas pastas de trabalho?
 

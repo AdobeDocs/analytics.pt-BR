@@ -1,14 +1,14 @@
 ---
-description: Informações de ajuda para entender a função dos botões na barra de ferramentas do Report Builder.
-title: Barra de ferramentas do Report Builder
+description: Saiba mais sobre as funções dos botões da barra de ferramentas do Report Builder.
+title: Como usar a barra de ferramentas do Report Builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
 role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 92%
+source-wordcount: '304'
+ht-degree: 78%
 
 ---
 
@@ -18,7 +18,7 @@ Informações de ajuda para entender a função dos botões na barra de ferramen
 
 Após instalar o Report Builder e iniciar o Excel, clique em **[!UICONTROL Suplementos]**.
 
-![](assets/report_builder_toolbar.png)
+![Ícones da barra de ferramentas do Report Builder](assets/report_builder_toolbar.png)
 
 **Entrar:** Exibe o [!UICONTROL Logon] para que você possa fazer logon com suas credenciais ou como um usuário diferente. Ele também exibe o nome da sua empresa após o logon. Consulte [Logon no Report Builder](/help/analyze/report-builder/setup/login.md).
 
@@ -32,7 +32,7 @@ Após instalar o Report Builder e iniciar o Excel, clique em **[!UICONTROL Suple
 
 **Agendar:** Permite agendar relatórios para envio de acordo com a hora e o formato de arquivo que você define. Consulte [Agendar solicitações de relatório](/help/analyze/report-builder/schedule-report-requests.md).
 
-**Biblioteca:** Inicia a [!UICONTROL Biblioteca de pastas de trabalho], para que você possa fazer upload de uma pasta de trabalho do Excel do Report Builder que deseja compartilhar. Também é possível baixar e editar pastas de trabalho compartilhadas. Consulte [Usar a Biblioteca de pastas de trabalho](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
+**Biblioteca:** Inicia o [!UICONTROL Biblioteca de pastas de trabalho] para que você possa carregar uma pasta de trabalho do Report Builder Excel que deseja compartilhar. Também é possível baixar e editar pastas de trabalho compartilhadas. Consulte [Usar a Biblioteca de pastas de trabalho](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
 **Opções:** Permite especificar se você deseja ser perguntado quanto à **[!UICONTROL Data de início]** (Agora) ao atualizar solicitações, e permite ativar o registro em log para fins de solução de problemas. Consulte [Opções](/help/analyze/report-builder/options.md).
 
