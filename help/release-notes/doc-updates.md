@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
 workflow-type: tm+mt
-source-wordcount: '4991'
-ht-degree: 98%
+source-wordcount: '5089'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,9 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **Setembro de 2023** | |
+| Melhorias na introdução ao conteúdo | Foram adicionadas informações descrevendo as principais tarefas e recursos de introdução para administradores, analistas, usuários finais e desenvolvedores. Os seguintes novos artigos estão disponíveis: <ul><li>[Introdução (por função)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Noções básicas da interface do Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casos de uso](/help/analyze/get-started/use-cases.md)</li></ul> |
+| Melhorias na documentação de Relatórios do Media Analytics | Reorganizado parte do conteúdo na seção Relatórios do guia Mídia de streaming, incluindo a consolidação da documentação da API em sua própria seção e o ajuste da ordem de alguns artigos. <p>O artigo Modelos do Media Workspace foi renomeado para [Relatórios de mídia no Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=pt-BR) para se alinhar melhor à nomenclatura no produto. </p> |
 | **Agosto de 2023** | |
 | Esclarecimento sobre o feed de dados | Atualizado [a definição de datas de início e término](/help/export/analytics-data-feed/create-feed.md) para esclarecer que, ao processar feeds de dados para dados históricos, você pode definir a data de início como qualquer data no passado quando os dados estiverem sendo coletados. |
 | Manuseio de dados da Experience Edge | Adição de conteúdo sobre o Adobe Analytics [lida com dados do Experience Edge](../implement/aep-edge/overview.md). |
