@@ -2,9 +2,9 @@
 description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
 title: Configurar um destino de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '375'
 ht-degree: 15%
 
 ---
@@ -37,16 +37,12 @@ Para configurar opções de programação para uma solicitação Data Warehouse:
 
    | Opção | Função |
    |---------|----------|
-   | Enviar relatório agora | Envia o relatório como um relatório único. Quando essa opção é selecionada, todas as opções de agendamento são ocultas. |
-   | Agendar para mais tarde | Fornece opções para o agendamento da entrega de relatórios. Todas as opções são descritas abaixo. |
-   | Frequência do relatório | A frequência com que os relatórios são entregues. <p>As opções disponíveis são as seguintes:</p><ul><li>Por hora</li><p>[!UICONTROL **Por hora**] está disponível somente quando a variável [!UICONTROL **Intervalos de datas**] opção no [!UICONTROL **Configurações gerais**] está definida como [!UICONTROL **Última hora**].</p><li>Diariamente</li><li>Semanalmente</li><li>Mensalmente</li><li>Anualmente</li></ul>  <!-- Is this valid? Was in the old docs: "To schedule Data Warehouse requests for Daily, Weekly, Monthly, or Yearly, make sure *Preset* is correctly selected" --> |
-   | Recorrência mensal | O intervalo entre meses quando o relatório é enviado. |
-   | Dia do mês | A data de cada mês em que o relatório é enviado.<p>Quando essa opção estiver disponível, a variável [!UICONTROL **Semana do mês**] e [!UICONTROL **Dia da semana**] opções não são. Selecione o [!UICONTROL **Formato alternativo**] botão para alternar entre um e outro. </p> |
-   | Semana do mês | A semana de cada mês em que o relatório deve ser enviado. <p>As opções disponíveis são as seguintes:</p><ul><li>Primeiro</li><li>Segundo</li><li>Terceiro</li><li>Quarto</li><p>Envie o relatório na 4ª semana, mesmo em meses com 5 semanas. Escolher [!UICONTROL **Último**] se quiser que o relatório seja enviado na última semana de cada mês.</p><li>Último</li></ul><p>Quando essa opção estiver disponível, a variável [!UICONTROL **Dia do mês**] opção não é. Selecione o [!UICONTROL **Formato alternativo**] botão para alternar entre um e outro. </p> |
-   | Dia da semana | O dia da semana em que o relatório deve ser enviado. <p>Quando essa opção estiver disponível, a variável [!UICONTROL **Dia do mês**] opção não é. Selecione o [!UICONTROL **Formato alternativo**] botão para alternar entre um e outro. </p> |
-   | Começando em | A data em que o novo cronograma deve começar. |
-   | Hora do dia | A hora em que o relatório deve ser enviado. |
-   | Opções de entrega final | Escolha quando finalizar os deliveries agendados. Você pode optar por nunca terminar, terminar após um número específico de ocorrências ou terminar em uma data específica. |
+   | [!UICONTROL **Enviar relatório agora**] | Envia o relatório como um relatório único. Quando essa opção é selecionada, todas as opções de agendamento são ocultas. |
+   | [!UICONTROL **Agendar para mais tarde**] | Fornece opções para o agendamento da entrega de relatórios. Todas as opções são descritas abaixo. |
+   | [!UICONTROL **Frequência do relatório**] | A frequência com que os relatórios são entregues. <p>As opções disponíveis são as seguintes:</p><ul><li>Por hora</li><p>[!UICONTROL **Por hora**] está disponível somente quando a variável [!UICONTROL **Intervalos de datas**] opção no [!UICONTROL **Configurações gerais**] está definida como [!UICONTROL **Última hora**].</p><li>Diariamente</li><li>Semanalmente</li><li>Mensalmente</li><li>Anualmente</li></ul><p>As opções adicionais são exibidas dependendo da frequência selecionada.</p> |
+   | [!UICONTROL **Começando em**] | A data em que o novo cronograma deve começar. |
+   | [!UICONTROL **Hora do dia**] | A hora em que o relatório deve ser enviado. |
+   | [!UICONTROL **Opções de entrega final**] | Escolha quando finalizar os deliveries agendados. Você pode optar por nunca terminar, terminar após um número específico de ocorrências ou terminar em uma data específica. |
 
    {style="table-layout:auto"}
 

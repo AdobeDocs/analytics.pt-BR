@@ -2,10 +2,10 @@
 description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
 title: Configurar um destino de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 8%
+source-wordcount: '2084'
+ht-degree: 16%
 
 ---
 
@@ -59,13 +59,13 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       | Campo | Função |
       |---------|----------|
-      | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta para cada tipo, com vários locais conforme necessário dentro dessa conta. <p>Depois de escolher um tipo de conta, são exibidos campos específicos desse tipo de conta. Para obter instruções de configuração para cada tipo de conta, expanda a seção abaixo que corresponde ao que você selecionou. </p> |
+      | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta para cada tipo, com vários locais conforme necessário dentro dessa conta. <p>Depois de escolher um tipo de conta, são exibidos campos específicos desse tipo de conta. </p> |
       | [!UICONTROL **Nome da conta**] | Especifique um nome para a conta. Esse nome aparece ao criar um local. <!-- true? --> |
       | [!UICONTROL **Descrição da conta**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. |
 
       Para obter instruções de configuração, expanda a seção abaixo que corresponde à variável [!UICONTROL **Tipo de conta**] selecionado.
 
-      Use qualquer um dos tipos de conta a seguir ao configurar um destino de relatório. Para obter instruções de configuração, expanda o tipo de conta. (Destinos herdados adicionais <!-- add link --> também estão disponíveis, mas não são recomendadas.)
+      Use qualquer um dos tipos de conta a seguir ao configurar um destino de relatório. Para obter instruções de configuração, expanda o tipo de conta. (Adicional [destinos herdados](#legacy-destinations) também estão disponíveis, mas não são recomendadas.)
 
       +++Amazon S3
 
@@ -134,7 +134,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
    1. No [!UICONTROL **Propriedades do local**] especifique as informações específicas ao tipo de conta da sua conta de localização.
 
-      Para obter instruções de configuração, expanda a seção abaixo que corresponde ao tipo de conta selecionado anteriormente.
+      Para obter instruções de configuração, expanda a seção abaixo que corresponde à variável [!UICONTROL **Tipo de conta**] que você selecionou anteriormente.
 
       +++Amazon S3
 
@@ -194,3 +194,67 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
       Agora é possível importar dados para a conta e o local configurados.
 
 1. Continue configurando sua solicitação do Data Warehouse no [!UICONTROL **Opções de relatório**] guia. Para obter mais informações, consulte [Configurar opções de relatório para uma solicitação Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+
+## Destinos herdados
+
+>[!IMPORTANT]
+>
+>Os destinos descritos nesta seção são herdados e não são recomendados. Em vez disso, use um dos seguintes destinos ao criar um destino de data warehouse: Amazon S3, Google Cloud Platform, Azure RBAC, Azure SAS ou Email. Consulte as informações acima para obter detalhes sobre cada um desses destinos recomendados.
+
+As informações a seguir fornecem informações de configuração para cada um dos destinos herdados:
+
+### FTP
+
+Os dados do data warehouse podem ser entregues para um Adobe ou local FTP hospedado pelo cliente. Requer um host FTP, nome de usuário e senha. Use o campo de caminho para colocar arquivos de feed em uma pasta. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir.
+
+Use as seguintes informações ao preencher os campos disponíveis:
+
+* [!UICONTROL **Host**]: digite o URL de destino FTP desejado. Por exemplo, `ftp://ftp.omniture.com`.
+* [!UICONTROL **Caminho**]: pode ser deixado em branco
+* [!UICONTROL **Nome de usuário**]: digite o nome de usuário para fazer logon no site FTP.
+* [!UICONTROL **Senha e confirmação da senha**]: digite a senha para fazer logon no site FTP.
+
+### SFTP
+
+O suporte SFTP para data warehouse está disponível. Exige que um host SFTP, nome de usuário e site de destino contenham uma chave pública RSA ou DSA válida. Você pode baixar a chave pública apropriada ao criar o destino do data warehouse.
+
+### S3
+
+Você pode enviar dados do warehouse diretamente para buckets do Amazon S3. Este tipo de destino requer um nome de bucket, uma ID de chave de acesso e uma chave secreta. Consulte [Requisitos de nomenclatura de bucket do Amazon S3](https://docs.aws.amazon.com/pt_br/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) nos documentos do Amazon S3 para obter mais informações.
+
+O usuário fornecido para o upload de dados do data warehouse deve ter o seguinte [permissões](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+As 16 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de assinatura apropriado, quando necessário):
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>A região cn-north-1 não é compatível.
+
+### Azure Blob
+
+O data warehouse oferece suporte aos destinos do Azure Blob. Requer um contêiner, uma conta e uma chave. A Amazon criptografa automaticamente os dados em repouso. Os dados são descriptografados automaticamente ao baixá-los. Consulte [Criar uma conta de armazenamento](https://docs.microsoft.com/pt-br/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nos documentos do Microsoft Azure para obter mais informações.
+
+>[!NOTE]
+>
+>Você deve implementar seu próprio processo para gerenciar o espaço em disco no destino do data warehouse. A Adobe não exclui dados do servidor.

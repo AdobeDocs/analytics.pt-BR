@@ -2,10 +2,10 @@
 description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
 title: Configurar opções de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 18%
+source-wordcount: '493'
+ht-degree: 19%
 
 ---
 
@@ -37,17 +37,17 @@ Para configurar opções de relatório para uma solicitação Data Warehouse:
 
    | Opção | Função |
    |---------|----------|
-   | Nome do arquivo | Identifica o relatório. |
-   | Anexar intervalo de datas do relatório ao nome do arquivo | Adiciona o intervalo de datas ao nome do arquivo do relatório. <p>Por exemplo, se você solicitar dados de 1º de maio de 2024 até 7 de maio de 2024, o nome do arquivo incluirá o intervalo de datas de 20240501 a 20240507.</p> |
-   | CSV | Fornece relatórios em um formato de arquivo CSV para exibição de dados em uma planilha. |
-   | Tableau (TDE) | Fornece relatórios em um formato de arquivo de Extração de dados do Tableau (TDE), que pode ser usado para visualizar dados e criar camadas de dados adicionais no Tableau. |
-   | Enviar relatório como arquivo compactado (ZIP) | Fornece relatórios em formato de arquivo compactado (ZIP). Recomendamos ativar essa opção ao usar o email como [destino do relatório](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
-   | Número de linhas na tabela | O número de linhas que podem ser incluídas no relatório. Use 0 para incluir todas as linhas (esta é a seleção padrão). <!-- when would you want to limit the rows? To improve performance? Do we have recommendations? --> |
-   | Comentários | Adicione comentários que você deseja incluir no relatório. Os comentários aparecem no início do relatório. |
-   | Classificar por métricas | Oferece relatórios classificados e detalhados no Data Warehouse, organizados pelo valor de métrica decrescente. A classificação por métrica facilita a interpretação dos relatórios do Data Warehouse, além de facilitar a comparação deles com outros relatórios de exibição de detalhamento do Analytics.<p>Para obter mais informações, consulte [Classificar por métrica](/help/export/data-warehouse/sorting-by-metric.md).</p> |
-   | Enviar arquivo de manifesto | Inclui metadados sobre os arquivos incluídos no relatório.<!-- What kind of metadata is included in the manifest file? --> |
-   | Enviar arquivo de assinatura digital | Permite aos destinatários do relatório verificar se o arquivo veio do Adobe e se não foi alterado. |
-   | Enviar um arquivo vazio quando não houver dados no relatório | Envia um relatório mesmo quando ele não contém dados. |
+   | [!UICONTROL **Nome do arquivo**] | Identifica o relatório. |
+   | [!UICONTROL **Anexar intervalo de datas do relatório ao nome do arquivo**] | Adiciona o intervalo de datas ao nome do arquivo do relatório. <p>Por exemplo, se você solicitar dados de 1º de maio de 2024 até 7 de maio de 2024, o nome do arquivo incluirá o intervalo de datas de 20240501 a 20240507.</p> |
+   | [!UICONTROL **CSV**] | Fornece relatórios em um formato de arquivo CSV para exibição de dados em uma planilha. |
+   | [!UICONTROL **Tableau (TDE)**] | Fornece relatórios em um formato de arquivo de Extração de dados do Tableau (TDE), que pode ser usado para visualizar dados e criar camadas de dados adicionais no Tableau. |
+   | [!UICONTROL **Enviar relatório como arquivo compactado (ZIP)**] | Fornece relatórios em formato de arquivo compactado (ZIP). Recomendamos ativar essa opção ao usar o email como [destino do relatório](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Retornar todas as linhas**] | Quando ativado, todas as linhas são incluídas no relatório. Desative essa opção para especificar o número de linhas a serem incluídas. |
+   | [!UICONTROL **Início dos comentários do relatório**] | Adicione comentários que você deseja incluir no relatório. Os comentários aparecem no início do relatório. |
+   | [!UICONTROL **Classificar por métricas**] | Oferece relatórios classificados e detalhados no Data Warehouse, organizados pelo valor de métrica decrescente. A classificação por métrica facilita a interpretação dos relatórios do Data Warehouse, além de facilitar a comparação deles com outros relatórios de exibição de detalhamento do Analytics.<p>Para obter mais informações, consulte [Classificar por métrica](/help/export/data-warehouse/sorting-by-metric.md).</p> |
+   | [!UICONTROL **Enviar um arquivo de manifesto**] | Inclui metadados sobre os arquivos incluídos no relatório.<!-- What kind of metadata is included in the manifest file? --> |
+   | [!UICONTROL **Enviar um arquivo de assinatura digital**] | Permite aos destinatários do relatório verificar se o arquivo veio do Adobe e se não foi alterado. |
+   | [!UICONTROL **Enviar um arquivo vazio quando não houver dados no relatório**] | Envia um relatório mesmo quando ele não contém dados. |
 
    {style="table-layout:auto"}
 

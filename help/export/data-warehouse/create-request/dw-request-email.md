@@ -2,7 +2,7 @@
 description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
 title: Configurar opções de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 15%
@@ -37,8 +37,8 @@ Para configurar um email de notificação para uma solicitação do Data Warehou
 
    | Opção | Função |
    |---------|----------|
-   | Enviar email de notificação para | Especifique os endereços de email de pessoas que devem receber notificações por email quando o relatório for enviado. <p>Você pode especificar um único endereço de email ou uma lista de endereços de email separada por vírgulas.</p> |
-   | Opções avançadas | Selecione essa opção para incluir um assunto e notas para o email quando a notificação for enviada. |
+   | [!UICONTROL **Enviar email de notificação para**] | Especifique os endereços de email de pessoas que devem receber notificações por email quando o relatório for enviado. <p>Você pode especificar um único endereço de email ou uma lista de endereços de email separada por vírgulas.</p> |
+   | [!UICONTROL **Opções avançadas**] | Selecione essa opção para incluir um assunto e notas para o email quando a notificação for enviada. |
 
    {style="table-layout:auto"}
 
