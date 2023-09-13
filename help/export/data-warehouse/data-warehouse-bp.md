@@ -5,7 +5,7 @@ title: Práticas recomendadas do Data Warehouse
 feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: 2ed0627efe50c000c9fe440fccafd12739b09554
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 89%
@@ -24,3 +24,4 @@ O Data Warehouse fornece uma interface flexível para executar relatórios perso
 | Relatório em intervalos de datas concluídos | Os relatórios do Data Warehouse são gerados quando o intervalo de datas solicitado está concluído. Por exemplo, se você solicitar um relatório para a semana atual na quarta-feira, o relatório não será gerado até o domingo da semana seguinte. |
 | Gerar relatórios de definição de caminho no Data Warehouse | As métricas de definição de caminho (entradas, saídas, devoluções etc.) não estão disponíveis no data warehouse. |
 | Conjuntos de relatórios virtuais | O recurso de relatório do Data Warehouse para conjuntos de relatórios virtuais oferece suporte ao fuso horário alternativo configurado no conjunto de relatórios virtuais. |
+
