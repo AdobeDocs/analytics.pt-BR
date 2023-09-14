@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
-source-wordcount: '5089'
-ht-degree: 97%
+source-wordcount: '5136'
+ht-degree: 96%
 
 ---
 
@@ -26,12 +26,13 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Setembro de 2023** | |
+| Estrutura de artigos atualizada para o painel Tempo gasto com reprodução de mídia | A pasta chamada Tempo gasto com a reprodução da mídia foi removida e o conteúdo da pasta foi combinado em um único artigo: [Painel Tempo gasto com a reprodução da mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Essa alteração está mais de acordo com a documentação de outros painéis.</p> |
 | Melhorias na introdução ao conteúdo | Foram adicionadas informações descrevendo as principais tarefas e recursos de introdução para administradores, analistas, usuários finais e desenvolvedores. Os seguintes novos artigos estão disponíveis: <ul><li>[Introdução (por função)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Noções básicas da interface do Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casos de uso](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Melhorias na documentação de Relatórios do Media Analytics | Reorganizado parte do conteúdo na seção Relatórios do guia Mídia de streaming, incluindo a consolidação da documentação da API em sua própria seção e o ajuste da ordem de alguns artigos. <p>O artigo Modelos do Media Workspace foi renomeado para [Relatórios de mídia no Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=pt-BR) para se alinhar melhor à nomenclatura no produto. </p> |
 | **Agosto de 2023** | |
 | Esclarecimento sobre o feed de dados | Atualizado [a definição de datas de início e término](/help/export/analytics-data-feed/create-feed.md) para esclarecer que, ao processar feeds de dados para dados históricos, você pode definir a data de início como qualquer data no passado quando os dados estiverem sendo coletados. |
 | Manuseio de dados da Experience Edge | Adição de conteúdo sobre o Adobe Analytics [lida com dados do Experience Edge](../implement/aep-edge/overview.md). |
-| Painel Tempo gasto com a reprodução da mídia | O conteúdo do [Painel Tempo gasto com reprodução de mídia](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) foi atualizado para melhorar a legibilidade. |
+| Painel Tempo gasto com a reprodução da mídia | O conteúdo do [Painel Tempo gasto com reprodução de mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) foi atualizado para melhorar a legibilidade. |
 | O conteúdo sobre gerenciamento de projetos programados foi movido | Um novo artigo no Guia de componentes do Analytics chamado [Projetos programados](/help/components/scheduled-projects-manager.md) foi criado. Este conteúdo estava anteriormente localizado no artigo [Agendar projetos](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) no Guia de ferramentas do Analytics. |
 | Comparação dos métodos de implementação | A documentação que compara os diferentes métodos de implementação foi atualizada. [Saiba mais](../implement/prepare/comparison.md) |
 | Esclarecimento sobre a configuração do SFTP para feeds de dados não necessitar do Atendimento ao cliente da Adobe | [Enviar dados da Adobe para uma conta FTP externa com SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) foi atualizado para esclarecer que os clientes não precisam entrar em contato com o Atendimento ao cliente da Adobe para configurar o SFTP para feeds de dados. <p>Também foi adicionada uma observação sobre o SFTP não ser mais recomendado e que os clientes devem usar um destino de nuvem ao configurar feeds de dados.</p> |
