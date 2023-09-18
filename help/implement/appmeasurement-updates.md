@@ -3,10 +3,10 @@ title: AppMeasurement para notas de versão do JavaScript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
+source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 92%
 
 ---
 
@@ -22,14 +22,14 @@ Você pode baixar a versão mais recente do AppMeasurement em [GitHub](https://g
 
 Data de lançamento: **12 de setembro de 2023**
 
-* Adição de uma configuração opcional (`bufferRequests`) para aprimorar a confiabilidade de capturar solicitações em cenários em que um navegador pode não suportar a API de beacon corretamente ou pode cancelar solicitações quando uma página está sendo descarregada.
+* Adição do método opcional [`bufferRequests()`](vars/functions/bufferrequests.md) para aprimorar a confiabilidade de capturar solicitações quando um navegador não é compatível com a API de beacon ou cancela solicitações quando uma página é descarregada.
 * Adição de proteções para evitar vários retornos de chamada pós-rastreamento para uma única solicitação de rastreamento.
 
 ## Versão 2.24.0
 
 Data de lançamento: **18 de julho de 2023**
 
-* Adição de uma configuração opcional (`decodeLinkParameters` - padrão = false) que decodifica URLs de link que incluem caracteres codificados em byte duplo.
+* Adição da variável de configuração opcional [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) para decodificar URLs de links que incluem caracteres codificados com byte duplo.
 * Adição de tratamento de erros para navegadores com APIs de dicas do cliente de usuário-agente de alta entropia e com falha.
 * Alteração do cabeçalho POST Content-Type para usar `x-www-form-urlencoded` por padrão.
 
@@ -37,25 +37,25 @@ Data de lançamento: **18 de julho de 2023**
 
 Data de lançamento: **23 de setembro de 2022**
 
-* O AppMeasurement agora é compatível com a coleção de dicas do cliente de usuário-agente de alta entropia que os navegadores Chromium (Google Chrome e Microsoft Edge) usam para fornecer informações de dispositivo. Você pode configurar dicas do cliente por meio de tags ou usar o sinalizador “collectHighEntropyUserAgentHints”. A coleção de dicas de alta entropia está desativada por padrão. Saiba mais sobre as [dicas do cliente](/help/technotes/client-hints.md) de usuário-agente.
+* O AppMeasurement agora é compatível com a coleção de dicas do cliente de usuário-agente de alta entropia que os navegadores Chromium (Google Chrome e Microsoft Edge) usam para fornecer informações de dispositivo. Você pode configurar dicas do cliente por meio de tags ou usar o [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) variável de configuração. A coleção de dicas de alta entropia está desativada por padrão. Saiba mais sobre as [dicas do cliente](/help/technotes/client-hints.md) de usuário-agente.
 
 ## Versão 2.22.4
 
 Data de lançamento: **18 de janeiro de 2022**
 
-* A chamada de rastreamento de link `s.tl()` agora verifica se o objeto passado para ele contém um `href` atributo de tipo `string`. Se não for um `string`, então ignorará normalmente a variável `href` em vez de falhar. Isso pode ocorrer ao passar `svg` para a chamada de rastreamento de link.
+* A chamada de rastreamento de link `s.tl()` agora verifica se o objeto passado para ele contém um `href` atributo de tipo `string`. Se não for uma `string`, então, ignorará normalmente a variável `href` atributo em vez de falhar. Esse cenário pode ocorrer quando você passa `svg` objetos para a chamada de rastreamento de link.
 
 ## Versão 2.22.3
 
 Data de lançamento: **11 de outubro de 2021**
 
-* Foram atualizados arquivos que fazem referência à documentação de Ajuda para apontar para os locais atuais de Ajuda.
+* Links atualizados em arquivos que apontavam para a documentação.
 
 ## Versão 2.22.2
 
 Data de lançamento: **7 de setembro de 2021**
 
-* Essa atualização faz com que `opt.dmp` e `opt.sell` sempre sejam incluídas no rastreamento de links. Esta é uma [lista completa de variáveis de consentimento](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=pt-BR).
+* Essa atualização faz com que `opt.dmp` e `opt.sell` sempre sejam incluídas no rastreamento de links. Consulte a [Relatórios de privacidade](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) no guia do usuário Administração para obter mais informações.
 
 ## Versão 2.22.1
 

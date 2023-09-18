@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: Cria funções de retorno de chamada após enviar uma ocorrência para a Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 79%
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,7 @@ A variável `registerPostTrackCallback` permite que sua organização conecte um
 
 >[!WARNING]
 >
->Não chame nenhuma função de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da variável `registerPostTrackCallback`. As funções de rastreamento nesta variável causam um loop infinito de solicitações de imagem!
+>Não faça chamadas de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro do `registerPostTrackCallback` variável. A definição de chamadas de rastreamento nessa variável causa um loop infinito de solicitações de imagem!
 
 Cada vez que chama a variável `registerPostTrackCallback`, você faz com que essa função seja executada imediatamente após uma solicitação de imagem ser enviada com êxito. Evite registrar a mesma função várias vezes no mesmo carregamento de página.
 
@@ -73,7 +73,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-## Exemplo de caso de uso
+## Caso de uso
 
 O registro da função [`clearVars()`](clearvars.md) no retorno de chamada pós-rastreamento pode ser benéfico para aplicativos de página única. Toda vez que você envia uma ocorrência para a Adobe com êxito, a função `clearVars()` é executada. Sua implementação pode definir variáveis novamente sem se preocupar com valores que persistem incorretamente.
 
