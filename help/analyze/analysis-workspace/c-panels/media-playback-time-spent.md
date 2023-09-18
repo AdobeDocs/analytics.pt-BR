@@ -4,7 +4,7 @@ description: Como usar e interpretar o painel Tempo gasto com a reprodução de 
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 23f34a5588abc125427346ead3f49a25d178aa7f
+source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -76,7 +76,7 @@ A única métrica que pode ser usada nesse painel é Tempo gasto com a reproduç
 |---|---|
 | Tempo gasto com a reprodução | Total de horas:minutes:segundos (ou minutos) do conteúdo exibido durante a granularidade selecionada, incluindo pausa, buffer e tempo para iniciar. |
 
-### Perguntas frequentes
+## Perguntas frequentes
 
 | Pergunta | Resposta |
 |---|---|
