@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
-workflow-type: ht
-source-wordcount: '726'
-ht-degree: 100%
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 98%
 
 ---
 
@@ -171,6 +171,7 @@ ht-degree: 100%
       + [Filtrar segmentos](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Marcar segmentos como favoritos](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Excluir segmentos](segmentation/segmentation-workflow/seg-delete.md)
+      + [Copiar segmentos](segmentation/segmentation-workflow/seg-copy.md)
       + [Gerenciar segmentos](segmentation/segmentation-workflow/seg-manage.md)
    + Referência do segmento {#segment-reference}
       + [Operadores de comparação para segmentos](segmentation/seg-reference/seg-operators.md)
@@ -195,8 +196,11 @@ ht-degree: 100%
       + [Métricas filtradas e ponderadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [Usar funções](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [Marcar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [Filtrar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+      + [Marcar métricas calculadas como favoritos](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [Aprovar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Compartilhar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [Copiar métricas calculada](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [Gerenciador de métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Referência de métricas {#calcmetrics-reference}
       + [Referência: funções básicas](c-calcmetrics/cm-reference/cm-functions.md)

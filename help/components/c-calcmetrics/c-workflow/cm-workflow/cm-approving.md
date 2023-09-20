@@ -3,10 +3,10 @@ description: No Gerenciador de métricas calculadas, é possível definir um flu
 title: Aprovar métricas calculadas
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 17%
+source-wordcount: '238'
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,7 @@ No Gerenciador de métricas calculadas, os administradores podem configurar um f
 
 Para marcar métricas calculadas como aprovadas:
 
-1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para acessar o Gerenciador de métricas calculadas.
+1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**].
 
 1. No Gerenciador de métricas calculadas, marque a caixa de seleção à esquerda de qualquer métrica que deseja marcar como aprovada.
 

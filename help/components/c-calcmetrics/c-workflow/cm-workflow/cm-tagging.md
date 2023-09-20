@@ -3,10 +3,10 @@ description: No Gerenciador de métricas calculadas, a marcação de segmentos p
 title: Marcar métricas calculadas
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 19%
+source-wordcount: '274'
+ht-degree: 20%
 
 ---
 
@@ -25,10 +25,9 @@ Os usuários podem criar tags para métricas calculadas e aplicar uma ou mais ta
 >* **Categorias**, como Mulheres ou Geografia.
 >* **Fluxos de trabalho**, como Para ser aprovado ou preparado para (uma unidade de negócios específica)
 
-
 ## Aplicar tags a uma métrica calculada
 
-1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para acessar o Gerenciador de métricas calculadas.
+1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**].
 
 1. No Gerenciador de métricas calculadas, marque a caixa de seleção ao lado de qualquer métrica que deseja marcar.
 
