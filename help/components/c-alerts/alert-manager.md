@@ -3,9 +3,9 @@ description: Gerenciar alertas.
 title: Visão geral do Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
+source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '468'
 ht-degree: 33%
 
 ---
@@ -61,6 +61,6 @@ Para configurar as colunas visíveis no Gerenciador de alertas:
    | Tags | Mostra marcas que foram aplicadas ao alerta por você ou por pessoas que compartilharam o alerta com você. |
    | Compartilhado com | Lista indivíduos ou grupos (somente administrador) ou Todos (somente administrador) com os quais você compartilhou o alerta. |
    | Data de modificação | Indica a data em que o alerta foi modificado pela última vez. |
-   | Última utilização | **Nota:** Essa funcionalidade está na fase de Teste limitado da versão e pode ainda não estar disponível em seu ambiente. Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Customer Journey Analytics, consulte [Versões de recursos do Customer Journey Analytics](/help/release-notes/releases.md).<p>Mostra a data em que o alerta foi usado pela última vez.</p> <p>Essas informações podem ajudar você a determinar se um alerta é importante para os usuários em sua organização ou se deve ser excluído.</p><p>Essas informações não incluem o uso da API, Report Builder ou Data Warehouse.</p> |
+   | Última utilização | **Nota:** Essa funcionalidade está na fase de Teste limitado da versão e pode ainda não estar disponível em seu ambiente. Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Customer Journey Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md).<p>Mostra a data em que o alerta foi usado pela última vez.</p> <p>Essas informações podem ajudar você a determinar se um componente é valioso para os usuários em sua organização, onde é usado e se precisa ser excluído ou modificado.</p><p>Essas informações não incluem o uso da API, Report Builder ou Data Warehouse.</p> |
 
    {style="table-layout:auto"}
