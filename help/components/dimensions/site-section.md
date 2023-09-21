@@ -3,16 +3,16 @@ title: Seção do site
 description: O nome da seção do site.
 feature: Dimensions
 exl-id: 349bace0-4596-4b4c-bf29-6cd8866c246b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Seção do site
 
-A dimensão &quot;Seção do site&quot; lista os nomes das seções do site. Para sites grandes, é útil agrupar páginas em seções. Essa dimensão é útil para ver as seções de site com melhor desempenho ou as mais exibidas.
+A &#39;Seção do site&#39; [dimension](overview.md) lista os nomes das seções do site. Para sites grandes, é útil agrupar páginas em seções. Essa dimensão é útil para ver as seções de site com melhor desempenho ou as mais exibidas.
 
 Essa dimensão está relacionada às dimensões [Página](page.md) e [Servidor](server.md). A dimensão Página é mais granular, a dimensão Servidor é menos granular e a dimensão Seção do site fica entre as duas.
 

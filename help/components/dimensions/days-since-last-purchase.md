@@ -3,16 +3,16 @@ title: Dias desde a última compra
 description: O número de dias entre a ocorrência atual e a última compra feita.
 feature: Dimensions
 exl-id: 6f0d9d79-cf40-4de3-9d9f-9b1bc57f97b6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Dias desde a última compra
 
-A dimensão “Dias desde a última compra” mede o tempo decorrido entre a ocorrência atual do visitante e sua compra mais recente no momento. Essa dimensão ajuda você a entender o comportamento que os visitantes têm após comprar algo no seu site,
+Os &quot;Dias desde a última compra&quot; [dimension](overview.md) mede a quantidade de tempo decorrido entre a ocorrência atual do visitante e sua compra mais recente no momento. Essa dimensão ajuda você a entender o comportamento que os visitantes têm após comprar algo no seu site,
 
 Visitantes que nunca compraram algo não são incluídos nessa dimensão. Além disso, as ocorrências acionadas antes da primeira compra do visitante também não são incluídas. Somente as ocorrências após a primeira compra do visitante são incluídas.
 

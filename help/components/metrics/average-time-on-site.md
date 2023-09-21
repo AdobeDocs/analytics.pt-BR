@@ -3,16 +3,16 @@ title: Tempo médio no site
 description: A quantidade média de tempo em que um determinado item de dimensão existia entre ocorrências.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Tempo médio no site
 
-A métrica “Tempo médio no site” mostra o tempo decorrido entre as ocorrências de um determinado item de dimensão. Essa métrica é útil quando você quiser ver o tempo médio gasto para itens de dimensão específicos. Você também pode analisar a tendência dessa métrica ao longo do tempo para ver como o tempo total gasto muda. Essa métrica é exibida no formato `HH:MM:SS`.
+O &quot;Tempo médio no site&quot; [métrica](overview.md) mostra o tempo decorrido entre as ocorrências de um determinado item de dimensão. Essa métrica é útil quando você quiser ver o tempo médio gasto para itens de dimensão específicos. Você também pode analisar a tendência dessa métrica ao longo do tempo para ver como o tempo total gasto muda. Essa métrica é exibida no formato `HH:MM:SS`.
 
 Essa métrica está relacionada à dimensão [Tempo gasto por visita](../dimensions/time-spent-per-visit.md).
 

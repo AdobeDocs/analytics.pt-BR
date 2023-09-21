@@ -3,10 +3,10 @@ title: Tempo gasto por visita (métricas)
 description: A quantidade de tempo gasto por visita para o item de dimensão.
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *Esta página de ajuda descreve como o &quot;Tempo gasto por visita&quot; funciona como uma métrica. Consulte a dimensão [Tempo gasto por visita](../dimensions/time-spent-per-visit.md) para obter mais informações.*
 
-A métrica “Tempo gasto por visita (segundos)” mostra a quantidade média de tempo que os visitantes interagem com um determinado item de dimensão durante cada visita.
+O &#39;Tempo gasto por visita (segundos)&#39; [métrica](overview.md) mostra a quantidade média de tempo que os visitantes interagem com um determinado item de dimensão durante cada visita.
 
 Essa métrica não está disponível no Data Warehouse devido à sua arquitetura de processamento diferente.
 

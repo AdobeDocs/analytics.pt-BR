@@ -3,16 +3,16 @@ title: Intensidade de cor
 description: A intensidade de cor do dispositivo.
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Intensidade de cor
 
-A dimensão “Intensidade de cor” relata quantas cores o dispositivo aceita. Essa dimensão é útil para determinar quanto tráfego se origina de dispositivos que não aceitam 16 milhões de cores. Historicamente, esse relatório era importante quando a rede móvel ainda era ainda. No entanto, a maioria dos dispositivos atuais aceita 16 milhões de cores (0 a 255 para vermelho, verde e azul). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+A &quot;Intensidade de cor&quot; [dimension](overview.md) relata quantas cores o dispositivo aceita. Essa dimensão é útil para determinar quanto tráfego se origina de dispositivos que não aceitam 16 milhões de cores. Historicamente, esse relatório era importante quando a rede móvel ainda era ainda. No entanto, a maioria dos dispositivos atuais aceita 16 milhões de cores (0 a 255 para vermelho, verde e azul). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## Preencher esta dimensão com dados
 

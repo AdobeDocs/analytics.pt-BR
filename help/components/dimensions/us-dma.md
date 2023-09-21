@@ -3,16 +3,16 @@ title: DMA dos EUA
 description: A área de mercado designada da ocorrência.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 85%
+ht-degree: 80%
 
 ---
 
 # DMA dos EUA
 
-A dimensão “DMA dos EUA” informa a área de mercado designada (DMA) do visitante. Tem como base os mercados de mídia compilados pela [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/).
+O &quot;DMA dos EUA&quot; [dimension](overview.md) relata a área de mercado designada (DMA) do visitante. Tem como base os mercados de mídia compilados pela [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/).
 
 ## Preencher esta dimensão com dados
 

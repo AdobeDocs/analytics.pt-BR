@@ -3,16 +3,16 @@ title: Cidades
 description: A cidade de onde a ocorrência se originou.
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
 # Cidades
 
-A dimensão &quot;Cidades&quot; informa a cidade de onde a ocorrência se originou. Essa dimensão é útil para ajudar a determinar a origem dos visitantes das cidades mais populares ao visitar seu site. Você poderia usar esses dados para se concentrar na publicidade local nessas cidades, como outdoors ou comerciais.
+As &quot;Cidades&quot; [dimension](overview.md) relata a cidade de onde a ocorrência se originou. Essa dimensão é útil para ajudar a determinar a origem dos visitantes das cidades mais populares ao visitar seu site. Você poderia usar esses dados para se concentrar na publicidade local nessas cidades, como outdoors ou comerciais.
 
 ## Preencher esta dimensão com dados
 

@@ -3,10 +3,10 @@ title: Saídas
 description: Um exemplo do último valor em uma visita.
 feature: Metrics
 exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *Esta página de ajuda descreve como as saídas funcionam como uma métrica. Para obter informações sobre como as saídas funcionam como uma dimensão, consulte [Dimensões de Saída](../dimensions/exit-dimensions.md).*
 
-A métrica “Saída” mostra o número de vezes que um determinado valor é registrado como o último valor em uma visita. Essa métrica ajuda a entender melhor sobre a última coisa que os visitantes veem antes de sair do site. Ver os últimos valores de uma dimensão pode ajudar a entender e otimizar a experiência que um visitante recebe antes de sair.
+As &quot;Saídas&quot; [métrica](overview.md) mostra o número de vezes que um determinado item de dimensão é capturado como o último valor em uma visita. Essa métrica ajuda a entender melhor sobre a última coisa que os visitantes veem antes de sair do site. Ver os últimos valores de uma dimensão pode ajudar a entender e otimizar a experiência que um visitante recebe antes de sair.
 
 ## Como essa métrica é calculada
 

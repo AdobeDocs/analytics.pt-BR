@@ -3,16 +3,16 @@ title: Países
 description: O país de onde a ocorrência se originou.
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 77%
+ht-degree: 74%
 
 ---
 
 # Países
 
-A dimensão &quot;Países&quot; informa o país de onde a ocorrência se originou. Essa dimensão é útil para ajudar a determinar a origem dos visitantes dos países mais populares ao visitar seu site. Você pode usar esses dados para se concentrar nos esforços de marketing nesses países ou para garantir que a experiência do seu site seja ideal nos países com idiomas principais diferentes.
+Os &quot;Países&quot; [dimension](overview.md) relata o país de onde a ocorrência se originou. Essa dimensão é útil para ajudar a determinar a origem dos visitantes dos países mais populares ao visitar seu site. Você pode usar esses dados para se concentrar nos esforços de marketing nesses países ou para garantir que a experiência do seu site seja ideal nos países com idiomas principais diferentes.
 
 ## Preencher esta dimensão com dados
 

@@ -3,16 +3,16 @@ title: Visualizações de produto
 description: O número de visualizações para páginas de produtos.
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-source-git-commit: eb13c3e828bc6d4c547f4529ee7a15182bbbf046
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 88%
+ht-degree: 72%
 
 ---
 
 # Visualizações de produto
 
-A métrica “Visualizações de produto” mostra o número de vezes que um produto foi exibido. Essa métrica é útil quando você deseja ver seus produtos mais vistos, ou ver a tendência total das visualizações de produtos ao longo do tempo.
+As &quot;Visualizações de produto&quot; [métrica](overview.md) mostra o número de vezes que qualquer produto foi visualizado. Essa métrica é útil quando você deseja ver seus produtos mais vistos, ou ver a tendência total das visualizações de produtos ao longo do tempo.
 
 ## Como essa métrica é calculada
 

@@ -3,16 +3,16 @@ title: Tempo gasto na página
 description: A quantidade de tempo que um visitante passou na página.
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
-source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 91%
+ht-degree: 85%
 
 ---
 
 # Tempo gasto na página
 
-A dimensão “Tempo gasto na página” registra a quantidade de tempo que um visitante passou na página. As seguintes etapas são utilizadas para medir o cálculo:
+O &quot;Tempo gasto na página&quot; [dimension](overview.md) registra o tempo que um visitante passou na página. As seguintes etapas são utilizadas para medir o cálculo:
 
 1. Para uma determinada ocorrência, verifique o carimbo de data e hora.
 2. Compare essa ocorrência com o carimbo de data e hora da próxima ocorrência na visita. Tanto a visualização de página quanto o rastreamento de link são contabilizados.

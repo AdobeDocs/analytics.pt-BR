@@ -3,16 +3,16 @@ title: Recusa no gerenciamento de consentimento
 description: Veja quais configurações de privacidade um visitante recusou.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Recusa no gerenciamento de consentimento
 
-A dimensão “Recusa de gerenciamento de consentimento” exibe quais configurações de privacidade um visitante recusou explicitamente. Você pode usar essa dimensão para filtrar dados com base nas configurações de privacidade ou ver os motivos mais comuns de recusa de privacidade.
+A opção de não participação no gerenciamento de consentimento [dimension](overview.md) exibe quais configurações de privacidade um visitante recusou explicitamente. Você pode usar essa dimensão para filtrar dados com base nas configurações de privacidade ou ver os motivos mais comuns de recusa de privacidade.
 
 ## Preencher esta dimensão com dados
 

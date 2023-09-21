@@ -3,16 +3,16 @@ title: Profundidade da ocorrência
 description: O número de ocorrências na visita.
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Profundidade da ocorrência
 
-A dimensão &quot;Profundidade da ocorrência&quot; informa a distância que uma determinada ocorrência está de uma visita. Essa dimensão é importante para entender até que ponto os visitantes fazem ações em seu site. A profundidade da ocorrência conta todos os tipos de ocorrências, incluindo visualizações de página ([`t()`](/help/implement/vars/functions/t-method.md)) e ocorrências de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+A &quot;Profundidade da ocorrência&quot; [dimension](overview.md) relata a distância que uma determinada ocorrência está de uma visita. Essa dimensão é importante para entender até que ponto os visitantes fazem ações em seu site. A profundidade da ocorrência conta todos os tipos de ocorrências, incluindo visualizações de página ([`t()`](/help/implement/vars/functions/t-method.md)) e ocorrências de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Preencher esta dimensão com dados
 

@@ -3,16 +3,16 @@ title: Código de rastreamento
 description: O nome do código de rastreamento ou da campanha.
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: 6d0771f7b8779d7a9d3bcea73a430ba3a9093e3e
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 68%
+ht-degree: 66%
 
 ---
 
 # Código de rastreamento
 
-A dimensão “Código de rastreamento” lista os nomes dos códigos de rastreamento no site. Você pode colocar links com diferentes valores de parâmetro de sequência de consulta em diferentes lugares na Internet. Essa dimensão ajuda você a entender quais links foram os mais bem-sucedidos ao direcionar o tráfego para o site.
+O &quot;Código de rastreamento&quot; [dimension](overview.md) lista os nomes dos códigos de rastreamento no site. Você pode colocar links com diferentes valores de parâmetro de sequência de consulta em diferentes lugares na Internet. Essa dimensão ajuda você a entender quais links foram os mais bem-sucedidos ao direcionar o tráfego para o site.
 
 Anexar sequências de consulta de código de rastreamento é comum em emails, anúncios, publicações em redes sociais e outros esforços de marketing que sua organização usa.
 
@@ -40,6 +40,7 @@ Como “Redes sociais” é a primeira regra de processamento de canais de marke
 ### Outros canais de marketing podem assumir atribuição por meio do último contato
 
 Ao lidar com uma dimensão Códigos de rastreamento padrão, você não precisa se preocupar porque outras partes do site não roubarão a atribuição. No entanto, com canais de marketing, um usuário pode corresponder a uma regra diferente, oferecendo atribuição diferente. Por exemplo:
+
 1. Você tem “Códigos de rastreamento” como o primeiro canal, e “Direto” como o segundo.
 2. Inicialmente, um usuário chega ao seu site por meio de um código de rastreamento, mas depois sai.
 3. No dia seguinte, eles digitam seu URL na barra de endereços e fazem uma compra.
@@ -50,6 +51,7 @@ Neste exemplo, o canal de marketing Códigos de rastreamento não obteria crédi
 ### Diferenças de expiração
 
 Os canais de marketing têm uma expiração contínua do engajamento do visitante de 30 dias, independentemente de um canal ter tido ou não contato. A expiração dos códigos de rastreamento se baseia em quando a variável foi definida. Por exemplo:
+
 1. Você tem uma expiração de engajamento de visitante de 30 dias e também configurou a dimensão Código de rastreamento para expirar após 30 dias.
 2. Um usuário chega ao seu site por meio de um código de rastreamento. Eles navegam pelo site, depois saem.
 3. Três semanas depois, eles voltam sem um código de rastreamento ou canal de marketing e depois saem novamente.

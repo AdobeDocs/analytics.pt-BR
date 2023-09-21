@@ -3,16 +3,16 @@ title: Hora
 description: A hora em que a métrica ocorreu.
 feature: Dimensions
 exl-id: 323c46dd-87d0-487a-b954-e5ccbc1b919d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Hora
 
-A dimensão “Hora” informa a hora em que uma determinada métrica ocorreu (arredondada para baixo). O primeiro item de dimensão é a primeira hora no intervalo de datas, e o último item de dimensão é a última hora no intervalo de datas. Essa dimensão é importante para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo.
+A &#39;Hora&#39; [dimension](overview.md) relata a hora em que determinada métrica ocorreu (arredondada para baixo). O primeiro item de dimensão é a primeira hora no intervalo de datas, e o último item de dimensão é a última hora no intervalo de datas. Essa dimensão é importante para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo.
 
 ## Preencher esta dimensão com dados
 

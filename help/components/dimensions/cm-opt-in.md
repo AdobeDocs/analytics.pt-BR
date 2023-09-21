@@ -3,16 +3,16 @@ title: Aceitação no gerenciamento de Consentimento
 description: Veja em quais configurações de privacidade um visitante optou por participar.
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Aceitação no gerenciamento de Consentimento
 
-A dimensão “Aceitação do gerenciamento de consentimento” exibe quais configurações de privacidade um visitante aceitou. Você pode usar essa dimensão para filtrar dados com base nas configurações de privacidade ou ver os motivos mais comuns de aceitação de privacidade.
+A opção &quot;Aceitação no gerenciamento de consentimento&quot; [dimension](overview.md) exibe quais configurações de privacidade um visitante aderiu. Você pode usar essa dimensão para filtrar dados com base nas configurações de privacidade ou ver os motivos mais comuns de aceitação de privacidade.
 
 ## Preencher esta dimensão com dados
 

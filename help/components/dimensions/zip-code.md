@@ -3,16 +3,16 @@ title: Código postal
 description: O código postal do visitante.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Código postal
 
-A dimensão “Código postal” informa o CEP ou código postal do visitante. Essa dimensão pode ser utilizada para entender melhor o sucesso da publicidade local ou para descobrir em que lugar do mundo o seu site tem melhor repercussão.
+O &#39;CEP&#39; [dimension](overview.md) informa o CEP ou código postal do visitante. Essa dimensão pode ser utilizada para entender melhor o sucesso da publicidade local ou para descobrir em que lugar do mundo o seu site tem melhor repercussão.
 
 ## Preencher esta dimensão com dados
 

@@ -3,16 +3,16 @@ title: Domínio referenciador original
 description: O primeiro domínio referenciador no qual um visitante estava antes de clicar para acessar o site.
 feature: Dimensions
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Domínio referenciador original
 
-A dimensão “Domínio referenciador” informa o primeiro domínio referenciador em que um visitante clicou para chegar ao site. Depois de definido, ele contém o mesmo valor para toda a vida útil da ID do visitante. Essa dimensão é útil para entender quais sites de terceiros originalmente direcionam tráfego para o site.
+O &#39;Domínio referenciador original&#39; [dimension](overview.md) relata o primeiro domínio referenciador em que um visitante clicou para chegar ao site. Depois de definido, ele contém o mesmo valor para toda a vida útil da ID do visitante. Essa dimensão é útil para entender quais sites de terceiros originalmente direcionam tráfego para o site.
 
 >[!IMPORTANT]
 >

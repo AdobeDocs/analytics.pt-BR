@@ -3,7 +3,7 @@ title: Navegador
 description: O nome e a versão do navegador usado.
 feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: 39f1ac66fb6374c62f790f9a38a52fba3bf9bda1
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 38%
@@ -12,7 +12,7 @@ ht-degree: 38%
 
 # Navegador
 
-O &#39;[!UICONTROL Navegador]A dimensão &quot; informa o nome e a versão do navegador que envia a ocorrência. Essa dimensão é útil para entender os navegadores mais comuns que os visitantes usam. Ao testar novas versões do site, você pode executar esses testes nos navegadores principais nesta dimensão para maximizar os esforços de controle de qualidade.
+O &#39;[!UICONTROL Navegador]&#39; [dimension](overview.md) relata o nome e a versão do navegador que está enviando a ocorrência. Essa dimensão é útil para entender os navegadores mais comuns que os visitantes usam. Ao testar novas versões do site, você pode executar esses testes nos navegadores principais nesta dimensão para maximizar os esforços de controle de qualidade.
 
 ## Preencher esta dimensão com dados
 

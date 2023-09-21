@@ -3,16 +3,16 @@ title: Mecanismo de pesquisa
 description: O mecanismo de pesquisa que o visitante utilizou para acessar seu site.
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Mecanismo de pesquisa
 
-A dimensão “Mecanismo de pesquisa” informa os mecanismos de pesquisa que os visitantes utilizam para acessar seu site. Um referenciador deve atender às duas condições a seguir para ser classificado como um mecanismo de pesquisa:
+O &quot;Mecanismo de pesquisa&quot; [dimension](overview.md) relata os mecanismos de pesquisa que os visitantes usam para acessar seu site. Um referenciador deve atender às duas condições a seguir para ser classificado como um mecanismo de pesquisa:
 
 * O domínio referenciador é reconhecido pela Adobe como um mecanismo de pesquisa válido;
 * Existe um parâmetro de sequência de consulta de palavra-chave no URL de referência. O parâmetro da sequência de consulta pode estar em branco (como ocorre com vários mecanismos de pesquisa devido a práticas de privacidade).

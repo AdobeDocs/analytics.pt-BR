@@ -3,16 +3,16 @@ title: Nome do bot
 description: O nome do bot que correspondeu às Regras de bot.
 exl-id: 668c1dce-c603-477a-9df7-dacb649bbf63
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# Nome do bot
+# Nome do bot 
 
-A dimensão &quot;Nome do bot&quot; mostra os nomes de bots que foram detectados usando [Regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md). Essas regras podem ser regras IAB padrão ou regras de bot personalizadas configuradas pela organização. É útil nos casos em que você deseja saber mais sobre quais bots estão visitando seu site ou quais bots geram mais tráfego.
+O &#39;Nome do bot&#39; [dimension](overview.md) mostra os nomes dos bots detectados usando [Regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md). Essas regras podem ser regras IAB padrão ou regras de bot personalizadas configuradas pela organização. É útil nos casos em que você deseja saber mais sobre quais bots estão visitando seu site ou quais bots geram mais tráfego.
 
 Ocorrências que correspondem [!UICONTROL Regras de bot] são automaticamente filtrados de todos os relatórios do Analytics, com exceção dessa dimensão, [Ocorrências de bot](../metrics/bot-occurrences.md), e [Exibições de página de bot](../metrics/bot-page-views.md). É possível utilizar essa dimensão e essas duas métricas para ver quais dados de bot são excluídos do restante dos relatórios.
 

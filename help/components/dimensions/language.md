@@ -3,16 +3,16 @@ title: Idioma
 description: A configuração de idioma preferencial do navegador.
 feature: Dimensions
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Idioma
 
-A dimensão “Idioma” mostra os principais idiomas em que os visitantes preferem ver o conteúdo. Essa dimensão é importante quando você quer entender os idiomas preferenciais mais frequentes dos visitantes para auxiliar nas tarefas de localização.
+O &#39;Idioma&#39; [dimension](overview.md) mostra os principais idiomas em que os visitantes preferem ver o conteúdo. Essa dimensão é importante quando você quer entender os idiomas preferenciais mais frequentes dos visitantes para auxiliar nas tarefas de localização.
 
 >[!NOTE]
 >

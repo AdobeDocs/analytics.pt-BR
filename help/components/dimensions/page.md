@@ -3,16 +3,16 @@ title: Página
 description: O nome da página.
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Página
 
-A dimensão “Página” lista os nomes das páginas do site. É uma das dimensões mais comuns usadas no Adobe Analytics, pois fornece informações sobre quais páginas do site têm melhor desempenho.
+A &#39;Página&#39; [dimension](overview.md) lista os nomes das páginas do site. É uma das dimensões mais comuns usadas no Adobe Analytics, pois fornece informações sobre quais páginas do site têm melhor desempenho.
 
 Essa dimensão está relacionada à [Seção do site](site-section.md) e às dimensões de [Servidor](server.md). A dimensão Página é mais granular, a dimensão Servidor é menos granular e a dimensão Seção do site fica entre as duas.
 

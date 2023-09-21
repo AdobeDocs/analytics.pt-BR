@@ -3,16 +3,16 @@ title: Acesso único
 description: O número de vezes que um item de dimensão não foi alterado em uma visita.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Acesso único
 
-A métrica “Acesso único” mostra o número de visitas em que o item de dimensão continha um único valor único para toda a visita. Essa métrica é útil no contexto de qualquer dimensão em que você quer ver quais itens de dimensão estagnaram durante uma visita.
+O &quot;Acesso único&quot; [métrica](overview.md) mostra o número de visitas em que o item de dimensão continha apenas um único valor único para toda a visita. Essa métrica é útil no contexto de qualquer dimensão em que você quer ver quais itens de dimensão estagnaram durante uma visita.
 
 ## Como essa métrica é calculada
 

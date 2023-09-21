@@ -3,16 +3,16 @@ title: Toda a classificação da página de pesquisa
 description: Determine em qual página de um mecanismo de pesquisa um visitante clicou para acessar seu site.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # Toda a classificação da página de pesquisa
 
-A dimensão “Toda classificação da página de pesquisa” fornece informações sobre em qual página de resultados de pesquisa um visitante clicou para acessar seu site. Por exemplo, se o site for exibido na segunda página dos resultados de pesquisa de um mecanismo de pesquisa, o item de dimensão para essa variável será “Página de pesquisa 2”.
+A &quot;Toda a classificação da página de pesquisa&quot; [dimension](overview.md) O fornece informações sobre em qual página de resultados de pesquisa um visitante clicou para acessar seu site. Por exemplo, se o site for exibido na segunda página dos resultados de pesquisa de um mecanismo de pesquisa, o item de dimensão para essa variável será “Página de pesquisa 2”.
 
 ## Preencher esta dimensão com dados
 

@@ -3,16 +3,16 @@ title: Tempo antes do evento
 description: A quantidade de tempo entre a métrica e a primeira ocorrência da visita.
 feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Tempo antes do evento
 
-A dimensão “Tempo antes do evento” relata a quantidade de tempo decorrido entre a primeira ocorrência da visita e a métrica desejada. Essa dimensão é útil para determinar a quantidade de tempo necessária para obter um evento bem-sucedido, como um envio de formulário ou uma compra.
+O &#39;Tempo antes do evento&#39; [dimension](overview.md) relata o tempo decorrido entre a primeira ocorrência da visita e a métrica desejada. Essa dimensão é útil para determinar a quantidade de tempo necessária para obter um evento bem-sucedido, como um envio de formulário ou uma compra.
 
 ## Preencher esta dimensão com dados
 

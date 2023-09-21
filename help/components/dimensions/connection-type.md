@@ -3,16 +3,16 @@ title: Tipo de conexão
 description: Como o visitante se conecta à Internet.
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Tipo de conexão
 
-A dimensão &quot;Tipo de conexão&quot; mostra como o visitante se conectou à Internet. Essa dimensão é útil para determinar como os visitantes se conectam à Internet para navegar em seu site. Você pode usá-la para otimizar o conteúdo do site com base na velocidade de conexão dos visitantes.
+O &#39;Tipo de conexão&#39; [dimension](overview.md) mostra como o visitante se conectou à Internet. Essa dimensão é útil para determinar como os visitantes se conectam à Internet para navegar em seu site. Você pode usá-la para otimizar o conteúdo do site com base na velocidade de conexão dos visitantes.
 
 ## Preencher esta dimensão com dados
 

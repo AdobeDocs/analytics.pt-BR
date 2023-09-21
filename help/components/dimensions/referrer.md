@@ -3,16 +3,16 @@ title: Referenciador
 description: O URL no qual um visitante estava antes de clicar para acessar seu site.
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Referenciador
 
-A dimensão &quot;Referenciador&quot; informa em quais URLs os visitantes estavam quando clicaram para acessar seu site. Essa dimensão é útil para entender quais URLs específicos direcionam mais tráfego para o site. Um link deve existir no URL externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
+O &#39;Referenciador&#39; [dimension](overview.md) relata em quais URLs os visitantes estavam quando clicaram para acessar seu site. Essa dimensão é útil para entender quais URLs específicos direcionam mais tráfego para o site. Um link deve existir no URL externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
 
 >[!IMPORTANT]
 >

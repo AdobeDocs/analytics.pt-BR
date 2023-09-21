@@ -3,16 +3,16 @@ title: Rejeições
 description: O número de visitas com exatamente uma ocorrência.
 feature: Metrics
 exl-id: fb83957c-9955-4b32-bc0f-53de92e2ba2c
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # Rejeições
 
-A métrica “Rejeições” mostra o número de visitas que continham exatamente uma ocorrência. Essa métrica pode ser utilizada para entender a proporção obtida entre o tráfego de rejeição e não rejeição, para ver as principais páginas de entrada que fazem com que os visitantes abandonem a página ou para ver a tendência do número total de rejeições ao longo do tempo.
+As &quot;Rejeições&quot; [métrica](overview.md) mostra o número de visitas que continham exatamente uma ocorrência. Essa métrica pode ser utilizada para entender a proporção obtida entre o tráfego de rejeição e não rejeição, para ver as principais páginas de entrada que fazem com que os visitantes abandonem a página ou para ver a tendência do número total de rejeições ao longo do tempo.
 
 ## Como essa métrica é calculada
 

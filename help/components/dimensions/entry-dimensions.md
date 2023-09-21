@@ -4,22 +4,22 @@ description: Lista dimensões de entrada e seu uso.
 keywords: página de entrada, seção de entrada no site, servidor de entrada, insight personalizado de entrada
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
 # Dimensões de entrada
 
-*Esta página de ajuda descreve como as entradas funcionam como uma dimensão. Para obter informações sobre como as entradas funcionam como uma métrica, consulte a [métrica Entradas](../metrics/entries.md).*
+*[Esta página de ajuda descreve como as entradas funcionam como uma dimensão](overview.md). Para obter informações sobre como as entradas funcionam como uma métrica, consulte a [métrica Entradas](../metrics/entries.md).*
 
 As dimensões de entrada são [baseado em visita](../metrics/visits.md). Elas registram o primeiro item de dimensão e o mantêm por toda a duração dessa visita. As dimensões de entrada estão disponíveis para todas as variáveis com definição de caminho ativada em [Variáveis de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios.
 
 ## Preencher dimensões de entrada com dados
 
-Uma determinada dimensão de entrada se baseia em sua variável de tráfego associada. Se a variável de não entrada tiver dados, sua dimensão de entrada associada também conterá dados. Nenhuma alteração de implementação é necessária para dimensões de entrada se suas variáveis de tráfego contiverem dados.
+Uma determinada entrada [dimension](overview.md) é baseado em sua variável de tráfego associada. Se a variável de não entrada tiver dados, sua dimensão de entrada associada também conterá dados. Nenhuma alteração de implementação é necessária para dimensões de entrada se suas variáveis de tráfego contiverem dados.
 
 ## Itens de dimensão
 

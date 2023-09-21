@@ -3,16 +3,16 @@ title: Suporte a cookie persistente
 description: Determina se o visitante pode aceitar cookies persistentes.
 feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Suporte a cookie persistente
 
-A dimensão &quot;Suporte a cookies persistentes&quot; mostra se a ocorrência usou um identificador de visitante que se originou de uma origem persistente. A origem persistente mais comum é de um cookie, mas também pode usar cabeçalhos de dispositivos móveis e outras origens.
+O &#39;Suporte a cookie persistente&#39; [dimension](overview.md) mostra se a ocorrência usou um identificador de visitante que se originou de uma origem persistente. A origem persistente mais comum é de um cookie, mas também pode usar cabeçalhos de dispositivos móveis e outras origens.
 
 ## Preencher esta dimensão com dados
 

@@ -3,10 +3,10 @@ title: Visão geral das métricas
 description: Visualize quantidades de itens ou dados da dimensão ao longo do tempo.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: ht
-source-wordcount: '210'
-ht-degree: 100%
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 92%
 
 ---
 
@@ -33,4 +33,4 @@ Os administradores do Analytics podem adicionar descrições de métricas e outr
 
 ## Utilização de métricas no Analysis Workspace
 
-Para obter informações sobre como usar métricas no Analysis Workspace, consulte “Utilização de métricas no Analysis Workspace” em [Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Para obter informações sobre como usar métricas no Analysis Workspace, consulte [Usar métricas no Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md).

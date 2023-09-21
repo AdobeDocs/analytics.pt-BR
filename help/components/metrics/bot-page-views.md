@@ -3,20 +3,20 @@ title: Exibições de página de bot
 description: O número de exibições de página que corresponderam às regras de bot.
 feature: Metrics
 exl-id: 9b1efcb1-10ca-40fb-8f20-e6da105366d9
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
 # Exibições de página de bot
 
-A métrica &quot;Visualizações de página de bot&quot; mostra o número de ocorrências de página que corresponderam [Regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+As &quot;Exibições de página de bot&quot; [métrica](overview.md) mostra o número de ocorrências de página correspondentes [Regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 Como o relatório de bot é separado do restante dos dados do conjunto de relatórios, essa métrica funciona somente com as seguintes dimensões:
 
-* [Nome do bot](../dimensions/bot-name.md)
+* [Nome do bot ](../dimensions/bot-name.md)
 * [Página](../dimensions/page.md)
 * Dimensões com base no tempo (por exemplo, [Dia](../dimensions/day.md), [Semana](../dimensions/week.md)ou [Month](../dimensions/month.md))
 

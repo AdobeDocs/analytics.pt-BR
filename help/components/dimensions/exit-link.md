@@ -3,16 +3,16 @@ title: Link de saída
 description: O nome do link de saída.
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Link de saída
 
-A dimensão “Link de saída” informa os nomes dos links de saída implementados em seu site. Essa dimensão é valiosa quando você quer entender quais são os links mais populares que apontam para domínios fora do seu site.
+O &#39;Link de saída&#39; [dimension](overview.md) O relata os nomes dos links de saída implementados em seu site. Essa dimensão é valiosa quando você quer entender quais são os links mais populares que apontam para domínios fora do seu site.
 
 ## Preencher esta dimensão com dados
 

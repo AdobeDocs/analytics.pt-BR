@@ -3,16 +3,16 @@ title: Regiões
 description: A região geográfica do visitante.
 feature: Dimensions
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
 # Regiões
 
-A dimensão “Regiões” informa a região geográfica do visitante. É uma área geográfica menor do que um país e maior do que uma cidade. Em alguns países, uma região é um estado, ou município. Em outras áreas, é um país constituinte, departamento ou região metropolitana. O uso dessa dimensão é valioso se você quiser informações mais granulares que [países](countries.md), mas não tão granulares quanto [cidades](cities.md).
+As &quot;Regiões&quot; [dimension](overview.md) informa a região geográfica do visitante. É uma área geográfica menor do que um país e maior do que uma cidade. Em alguns países, uma região é um estado, ou município. Em outras áreas, é um país constituinte, departamento ou região metropolitana. O uso dessa dimensão é valioso se você quiser informações mais granulares que [países](countries.md), mas não tão granulares quanto [cidades](cities.md).
 
 ## Preencher esta dimensão com dados
 

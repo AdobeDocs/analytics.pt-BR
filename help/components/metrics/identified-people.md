@@ -3,16 +3,16 @@ title: Pessoas identificadas
 description: O número de pessoas identificadas pela análise entre dispositivos.
 feature: Metrics
 exl-id: eb98aa7f-d5e7-403f-b3b7-a9b0f7ccd502
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 100%
+ht-degree: 68%
 
 ---
 
 # Pessoas identificadas
 
-A métrica &quot;Pessoas identificadas&quot; é uma métrica de [Análise entre dispositivos](../cda/overview.md) que conta o número de visitantes identificados pelo CDA.
+As &quot;Pessoas identificadas&quot; [métrica](overview.md) é um [Análise entre dispositivos](../cda/overview.md) que conta o número de visitantes identificados pelo CDA.
 
 ## Como essa métrica é calculada
 

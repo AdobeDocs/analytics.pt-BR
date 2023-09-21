@@ -3,16 +3,16 @@ title: Link personalizado
 description: O nome do link personalizado.
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Link personalizado
 
-A dimensão “Link personalizado” informa os nomes dos links personalizados implementados em seu site. Essa dimensão é importante quando você quer entender os tipos de links em que os visitantes mais clicam.
+O &#39;Link personalizado&#39; [dimension](overview.md) relata os nomes dos links personalizados implementados em seu site. Essa dimensão é importante quando você quer entender os tipos de links em que os visitantes mais clicam.
 
 ## Preencher esta dimensão com dados
 

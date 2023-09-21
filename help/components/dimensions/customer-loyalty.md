@@ -3,16 +3,16 @@ title: Fidelização do cliente
 description: Categorias com base no número de compras anteriores feitas por um visitante
 feature: Dimensions
 exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Fidelização do cliente
 
-A dimensão “Fidelidade do cliente” informa o número de visitantes do site que fizeram 0 compras anteriores, 1 compra anterior, 2 compras anteriores ou mais de 3 compras anteriores. Essa dimensão é importante para entender como seu site afeta o comportamento de compra. Você também pode usar essa dimensão em um segmento para se concentrar em visitantes que retornam para fazer uma compra, de modo que você possa incentivar comportamentos semelhantes para novos visitantes.
+A &quot;Fidelização do cliente&quot; [dimension](overview.md) O relata o número de visitantes do site que fizeram 0 compras anteriores, 1 compra anterior, 2 compras anteriores ou mais de 3 compras anteriores. Essa dimensão é importante para entender como seu site afeta o comportamento de compra. Você também pode usar essa dimensão em um segmento para se concentrar em visitantes que retornam para fazer uma compra, de modo que você possa incentivar comportamentos semelhantes para novos visitantes.
 
 ## Preencher esta dimensão com dados
 

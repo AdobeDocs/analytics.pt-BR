@@ -3,16 +3,16 @@ title: Estado identificado
 description: Um sinalizador que determina o reconhecimento pelo gráfico do dispositivo.
 feature: Dimensions
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # Estado identificado
 
-A dimensão &quot;Estado identificado&quot; é específica para conjuntos de relatórios virtuais do [Cross-Device Analytics](../cda/overview.md). Ele relata se as ocorrências são identificadas (compiladas) ou não pelo sistema no momento em que o relatório é executado. Essa dimensão é útil para entender o quão bem o CDA costuma compilar ou &quot;compactar&quot; dados.
+O &#39;Estado identificado&#39; [dimension](overview.md) é específico do [Análise entre dispositivos](../cda/overview.md) conjuntos de relatórios virtuais. Ele relata se as ocorrências são identificadas (compiladas) ou não pelo sistema no momento em que o relatório é executado. Essa dimensão é útil para entender o quão bem o CDA costuma compilar ou &quot;compactar&quot; dados.
 
 ## Preencher esta dimensão com dados
 

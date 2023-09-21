@@ -3,16 +3,16 @@ title: Tipo de navegador
 description: A organização que fez o navegador.
 feature: Dimensions
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # Tipo de navegador
 
-A dimensão “Tipo de navegador” lista as organizações que fizeram o navegador que o visitante usa. Essa dimensão é útil quando você deseja ver quais navegadores principais os visitantes usam. Ela fornece valor sobre a dimensão “Navegadores”, pois não lista diferentes versões do mesmo navegador como itens de dimensão separados.
+O &#39;Tipo de navegador&#39; [dimension](overview.md) lista as organizações que fizeram o navegador que o visitante usa. Essa dimensão é útil quando você deseja ver quais navegadores principais os visitantes usam. Ela fornece valor sobre a dimensão “Navegadores”, pois não lista diferentes versões do mesmo navegador como itens de dimensão separados.
 
 ## Preencher esta dimensão com dados
 

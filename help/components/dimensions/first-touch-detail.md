@@ -3,16 +3,16 @@ title: Detalhes do canal de primeiro contato
 description: Detalhes do primeiro canal de marketing após a expiração do engajamento do visitante.
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 90%
+ht-degree: 83%
 
 ---
 
 # Detalhes do canal de primeiro contato
 
-A dimensão &quot;Detalhes do canal de primeiro contato&quot; oferece detalhes sobre o primeiro canal de marketing com o qual o visitante corresponde durante o período de engajamento (30 dias por padrão). Essa dimensão é importante para entender o que contribuiu para a correspondência em um canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga&quot;, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.
+Os &quot;Detalhes do canal de primeiro contato&quot; [dimension](overview.md) O relata detalhes sobre o primeiro canal de marketing com o qual um visitante corresponde durante o período de engajamento do visitante (30 dias por padrão). Essa dimensão é importante para entender o que contribuiu para a correspondência em um canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga&quot;, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.
 
 ## Preencher esta dimensão com dados
 
@@ -22,13 +22,13 @@ Se você quiser definir essa dimensão com um valor específico, siga os seguint
 
 * Verifique se o item de dimensão desejado está em um atributo de ocorrência ou em uma variável personalizada.
 * Defina uma regra de processamento de canal de marketing que contenha os critérios desejados para a ocorrência.
-* Selecione o valor suspenso desejado em [!UICONTROL Definir o valor do canal] na regra de processamento Canal de marketing .
+* Selecione o valor suspenso desejado em [!UICONTROL Definir o valor do canal] na regra de processamento Canal de marketing.
 * A ocorrência do visitante no site deve corresponder aos critérios descritos na regra de processamento Canal de marketing _e_ deve ser o primeiro valor do canal de marketing a fazer isso durante o período de engajamento do visitante.
 
 Se uma ocorrência subsequente corresponder aos critérios em um canal de marketing diferente, essa dimensão não será substituída pelo novo canal de marketing.
 
 ## Itens de dimensão
 
-Os itens de Dimension dependem do valor do canal listado na lista suspensa da regra de processamento do canal de marketing aplicável. Por exemplo, se você definir o valor do canal como “URL da página”, os itens de dimensão incluirão URLs de página no site. Se você definir o valor do canal como Domínio de referência, os itens de dimensão incluirão domínios nos quais os visitantes clicaram para acessar seu site. Essa dimensão agrega todos os itens de dimensão de detalhes, independentemente do canal em que estão.
+Os itens de Dimension dependem do valor do canal listado na lista suspensa para a regra de processamento de canal de marketing aplicável. Por exemplo, se você definir o valor do canal como “URL da página”, os itens de dimensão incluirão URLs de página no site. Se você definir o valor do canal como Domínio de referência, os itens de dimensão incluirão domínios nos quais os visitantes clicaram para acessar seu site. Essa dimensão agrega todos os itens de dimensão de detalhes, independentemente do canal em que estão.
 
 A Adobe recomenda definir valores de canal relacionados ao canal de marketing para obter informações sobre os detalhes do canal.

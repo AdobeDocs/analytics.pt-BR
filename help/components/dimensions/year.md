@@ -3,16 +3,16 @@ title: Ano
 description: O ano em que a métrica ocorreu.
 feature: Dimensions
 exl-id: 872fb659-fb19-40ac-b371-e89c5a5d0274
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 # Ano
 
-A dimensão “Ano” relata o ano em que uma determinada métrica ocorreu. O primeiro item de dimensão é o primeiro ano no intervalo de datas, e o último item de dimensão é o ano mais recente no intervalo de datas.
+O &quot;Ano&quot; [dimension](overview.md) relata o ano em que determinada métrica ocorreu. O primeiro item de dimensão é o primeiro ano no intervalo de datas, e o último item de dimensão é o ano mais recente no intervalo de datas.
 
 ## Preencher esta dimensão com dados
 

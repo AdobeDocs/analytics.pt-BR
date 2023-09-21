@@ -3,7 +3,7 @@ title: Como o Tempo gasto é calculado no Adobe Analytics
 description: Uma página agregada de dimensões e métricas de tempo gasto.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: e2128ef18a62832a9740a4cb610685f351c7db19
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 77%
@@ -12,7 +12,7 @@ ht-degree: 77%
 
 # Visão geral do tempo gasto
 
-Várias métricas e dimensões de [!UICONTROL tempo gasto] são oferecidas nos produtos do Adobe Analytics.
+Várias métricas e dimensões de [!UICONTROL tempo gasto] são oferecidas nos produtos do Adobe Analytics.[](overview.md)
 
 ## Métricas de ‘tempo gasto’
 

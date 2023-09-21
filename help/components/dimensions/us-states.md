@@ -3,16 +3,16 @@ title: Estados dos Estados Unidos
 description: O estado do visitante nos EUA.
 feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 89%
+ht-degree: 85%
 
 ---
 
 # Estado dos EUA
 
-A dimensão &quot;estado dos EUA&quot; informa o estado do visitante nos Estados Unidos da América. É semelhante à dimensão [Regiões](regions.md), exceto que essa dimensão é específica dos Estados Unidos. O uso dessa dimensão é valioso se você quiser informações mais granulares que [países](countries.md), mas não tão granulares quanto [cidades](cities.md).
+O &#39;estado dos EUA&#39; [dimension](overview.md) relata o estado do visitante nos Estados Unidos da América. É semelhante à dimensão [Regiões](regions.md), exceto que essa dimensão é específica dos Estados Unidos. O uso dessa dimensão é valioso se você quiser informações mais granulares que [países](countries.md), mas não tão granulares quanto [cidades](cities.md).
 
 ## Preencher esta dimensão com dados
 

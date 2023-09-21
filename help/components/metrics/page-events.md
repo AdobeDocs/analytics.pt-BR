@@ -3,16 +3,16 @@ title: Eventos de página
 description: O número de ações de rastreamento de link acionadas.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 60%
+ht-degree: 50%
 
 ---
 
 # Eventos de página
 
-A métrica “Eventos de página” exibe o número de vezes que qualquer chamada de rastreamento de link foi feita. Essa métrica é útil para entender quais páginas têm o conteúdo mais envolvente. A medição dessa métrica é mais útil quando há a possibilidade de um visitante executar uma ação na página sem navegar até uma nova página.
+Os &quot;Eventos de página&quot; [métrica](overview.md) mostra o número de vezes que qualquer chamada de rastreamento de link foi feita. Essa métrica é útil para entender quais páginas têm o conteúdo mais envolvente. A medição dessa métrica é mais útil quando há a possibilidade de um visitante executar uma ação na página sem navegar até uma nova página.
 
 ## Como essa métrica é calculada
 

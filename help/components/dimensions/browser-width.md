@@ -3,16 +3,16 @@ title: Largura do navegador - Classificada
 description: A largura da janela do navegador em pixels.
 feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Largura da janela do navegador
 
-A dimensão “Largura do navegador - Classificada” mostra a largura da janela do navegador classificada em grupos de 100 pixels. Essa dimensão é útil quando você quer entender como os visitantes veem seu conteúdo. Compreender a largura em que seu conteúdo é tipicamente exibido pode permitir otimizar o conteúdo para exibição.
+A mensagem &quot;Largura do navegador - Classificada&quot; [dimension](overview.md) mostra a largura da janela do navegador, classificada em grupos de 100 pixels. Essa dimensão é útil quando você quer entender como os visitantes veem seu conteúdo. Compreender a largura em que seu conteúdo é tipicamente exibido pode permitir otimizar o conteúdo para exibição.
 
 Essa dimensão é diferente da largura da tela. A largura do navegador é o número de pixels dentro do espaço visível do navegador, enquanto a largura da tela é a largura do monitor inteiro em pixels. Se você quiser ver a diferença entre essas duas variáveis em seu próprio computador, abra o console do navegador (F12 na maioria dos navegadores) e copie e cole o seguinte código no console:
 

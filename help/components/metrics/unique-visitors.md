@@ -3,7 +3,7 @@ title: Visitantes únicos
 description: O número de IDs de visitante único.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Visitantes únicos
 
-A métrica &quot;Visitantes únicos&quot; mostra o número de IDs de visitante para o item de dimensão. É uma das métricas mais comuns usadas ao determinar o tráfego, pois fornece uma visão geral de alto nível da popularidade de um item de dimensão. Por exemplo, um visitante pode chegar ao seu site todos os dias por um mês, mas ainda assim contam como um visitante único exclusivo.
+Os &quot;Visitantes únicos&quot; [métrica](overview.md) mostra o número de IDs de visitante para o item de dimensão. É uma das métricas mais comuns usadas ao determinar o tráfego, pois fornece uma visão geral de alto nível da popularidade de um item de dimensão. Por exemplo, um visitante pode chegar ao seu site todos os dias por um mês, mas ainda assim contam como um visitante único exclusivo.
 
 Se você usar [Análise entre dispositivos](../cda/overview.md), essa métrica será substituída pela métrica [Dispositivos exclusivos](unique-devices.md).
 

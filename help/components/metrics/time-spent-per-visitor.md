@@ -3,7 +3,7 @@ title: Tempo gasto por visitante (segundos)
 description: A métrica “Tempo gasto por visitante (segundos)” mostra a quantidade média de tempo que os visitantes interagem com um determinado item de dimensão durante todo o período de visita.
 feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Tempo gasto por visitante (segundos)
 
-A métrica [!UICONTROL Tempo gasto por visitante (segundos)] mostra o tempo médio pelo qual os visitantes interagem com determinado item de dimensão durante todo o tempo de vida da visita.
+A métrica [!UICONTROL Tempo gasto por visitante (segundos)] mostra o tempo médio pelo qual os visitantes interagem com determinado item de dimensão durante todo o tempo de vida da visita.[](overview.md)
 
 Essa métrica não está disponível no Data Warehouse devido à sua arquitetura de processamento diferente.
 

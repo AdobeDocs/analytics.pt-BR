@@ -3,16 +3,16 @@ title: Instâncias
 description: O número de ocorrências a que uma variável foi definida (e não persistiu).
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 65%
+ht-degree: 57%
 
 ---
 
 # Instâncias
 
-A métrica “Instâncias” mostra o número de vezes que uma dimensão foi explicitamente definida em uma solicitação de imagem. Algumas dimensões, como [eVars](../dimensions/evar.md), persistem itens de dimensão após a ocorrência em que estão definidas. Essa métrica é útil quando você deseja ver o número de vezes que um item de dimensão foi definido sem as ocorrências nas quais esse valor persistiu.
+As &quot;Instâncias&quot; [métrica](overview.md) mostra o número de vezes que uma dimensão foi explicitamente definida em uma solicitação de imagem. Algumas dimensões, como [eVars](../dimensions/evar.md), persistem itens de dimensão após a ocorrência em que estão definidas. Essa métrica é útil quando você deseja ver o número de vezes que um item de dimensão foi definido sem as ocorrências nas quais esse valor persistiu.
 
 ## Como essa métrica é calculada
 

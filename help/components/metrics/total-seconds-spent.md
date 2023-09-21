@@ -3,16 +3,16 @@ title: Total de segundos gastos
 description: O número total de segundos gastos no item de dimensão.
 feature: Metrics
 exl-id: 02302982-ce8c-44e9-9967-0a4f226f5e9e
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Total de segundos gastos
 
-A métrica “Total de segundos gastos” mostra o número agregado de segundos que um visitante gastou em um determinado item de dimensão. Essa métrica é útil para obter a quantidade bruta de tempo gasto em um determinado item de dimensão, e não médias de tempo como outras métricas de tempo gasto oferecem.
+O valor de &#39;Total de segundos gastos&#39; [métrica](overview.md) mostra o número agregado de segundos que um visitante gastou em um determinado item de dimensão. Essa métrica é útil para obter a quantidade bruta de tempo gasto em um determinado item de dimensão, e não médias de tempo como outras métricas de tempo gasto oferecem.
 
 No Report Builder, essa métrica é chamada de “Tempo total gasto”.
 

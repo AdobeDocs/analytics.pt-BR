@@ -3,16 +3,16 @@ title: Java ativado
 description: Determina se o Java está ativado no navegador.
 feature: Dimensions
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Java ativado
 
-A dimensão “Java ativado” determina se o navegador tem o Java ativado no momento. É útil nos casos em que você deseja introduzir a funcionalidade baseada em Java no seu site e deseja saber quantos visitantes já têm o Java ativado. Para aqueles que têm o Java desativado, você pode fornecer uma alternativa ou instruções sobre como ativá-lo.
+O &#39;Java ativado&#39; [dimension](overview.md) determina se o navegador tem o Java ativado no momento. É útil nos casos em que você deseja introduzir a funcionalidade baseada em Java no seu site e deseja saber quantos visitantes já têm o Java ativado. Para aqueles que têm o Java desativado, você pode fornecer uma alternativa ou instruções sobre como ativá-lo.
 
 ## Preencher esta dimensão com dados
 

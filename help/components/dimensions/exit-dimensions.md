@@ -4,7 +4,7 @@ description: Lista as dimensões de saída e o seu uso.
 keywords: página de saída, seção do site de saída, servidor de saída, sair do Custom Insight
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Dimensões de saída
 
-*Esta página de ajuda descreve como as saídas funcionam como uma dimensão. Para obter informações sobre como as saídas funcionam como uma métrica, consulte a métrica [Saídas](../metrics/exits.md).*
+*[Esta página de ajuda descreve como as saídas funcionam como uma dimensão](overview.md). Para obter informações sobre como as saídas funcionam como uma métrica, consulte a métrica [Saídas](../metrics/exits.md).*
 
 As dimensões de saída registram o item da última dimensão e o aplicam retroativamente a todas ocorrências na visita. As dimensões de saída estão disponíveis para todas as variáveis com definição de caminho ativada em [Variáveis de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios.
 

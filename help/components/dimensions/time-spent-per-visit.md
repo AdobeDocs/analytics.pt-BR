@@ -3,7 +3,7 @@ title: Tempo gasto por visita (dimensões)
 description: A quantidade total de tempo da visita.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Tempo gasto por visita
 
-*Esta página de ajuda descreve como o “Tempo gasto por visita” funciona como suas respectivas dimensões. Consulte a métrica [Tempo gasto por visita](../metrics/time-spent-per-visit.md) para obter mais informações.*
+*[Esta página de ajuda descreve como o “Tempo gasto por visita” funciona como suas respectivas dimensões](overview.md). Consulte a métrica [Tempo gasto por visita](../metrics/time-spent-per-visit.md) para obter mais informações.*
 
 As dimensões “Tempo gasto por visita” registram o tempo que um visitante gastou em toda a visita. As seguintes etapas são utilizadas para medir o cálculo:
 

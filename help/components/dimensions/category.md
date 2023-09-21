@@ -3,16 +3,16 @@ title: Categoria
 description: A categoria do produto da ocorrência.
 feature: Dimensions
 exl-id: 3517b417-1a44-4d3e-ac16-93fdc5f36404
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Categoria
 
-A dimensão “Categoria” relata a categoria do produto da ocorrência. Essa dimensão é útil para implementações que utilizam a variável `products` e que desejam ver as métricas sobre categorias do produto, como os mais vendidos ou os mais vistos. Essa dimensão pode ficar em branco se você não tiver nenhum produto em seu site.
+A &quot;Categoria&quot; [dimension](overview.md) relata a categoria do produto da ocorrência. Essa dimensão é útil para implementações que utilizam a variável `products` e que desejam ver as métricas sobre categorias do produto, como os mais vendidos ou os mais vistos. Essa dimensão pode ficar em branco se você não tiver nenhum produto em seu site.
 
 ## Preencher esta dimensão com dados
 

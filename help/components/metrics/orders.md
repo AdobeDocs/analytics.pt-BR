@@ -3,16 +3,16 @@ title: Pedidos
 description: O número de compras feitas.
 feature: Metrics
 exl-id: b05abb6d-983f-43fe-80ad-a0ddf90de466
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Pedidos
 
-A métrica &quot;Pedidos&quot; mostra o número total de eventos de compra feitas em seu site. Essa métrica é essencial para sites de comércio eletrônico na medição da conversão. É possível combinar essa métrica com qualquer dimensão para ver quais itens de dimensão contribuíram para um pedido. Por exemplo, você pode ver as campanhas principais (usando a dimensão [Código de rastreamento](../dimensions/tracking-code.md)) ou os termos de pesquisa internos principais (usando uma [eVar](../dimensions/evar.md)) que contribuíram com as compras.
+Os &quot;Pedidos&quot; [métrica](overview.md) mostra o número total de eventos de compra feitos em seu site. Essa métrica é essencial para sites de comércio eletrônico na medição da conversão. É possível combinar essa métrica com qualquer dimensão para ver quais itens de dimensão contribuíram para um pedido. Por exemplo, você pode ver as campanhas principais (usando a dimensão [Código de rastreamento](../dimensions/tracking-code.md)) ou os termos de pesquisa internos principais (usando uma [eVar](../dimensions/evar.md)) que contribuíram com as compras.
 
 ## Como essa métrica é calculada
 

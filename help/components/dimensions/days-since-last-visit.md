@@ -3,16 +3,16 @@ title: Dias desde a última visita
 description: O número de dias entre a ocorrência atual e a última visita.
 feature: Dimensions
 exl-id: 8063bdc6-516a-4dd0-a4ca-ded739e8d406
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Dias desde a última visita
 
-A dimensão “Dias desde a última visita” mede a quantidade de tempo decorrido entre a ocorrência atual do visitante e a visita anterior (se houver). Essa dimensão ajuda você a entender o comportamento que os visitantes têm após visitar seu site. Alguns exemplos:
+Os &quot;Dias desde a última visita&quot; [dimension](overview.md) mede a quantidade de tempo decorrido entre a ocorrência atual do visitante e sua visita anterior (se houver). Essa dimensão ajuda você a entender o comportamento que os visitantes têm após visitar seu site. Alguns exemplos:
 
 * Com que frequência os usuários visitam novamente o site?
 * Como a frequência de retorno se relaciona à conversão? Os compradores repetidos visitam frequentemente ou infrequentemente?

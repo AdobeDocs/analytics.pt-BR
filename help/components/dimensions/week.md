@@ -3,16 +3,16 @@ title: Semana
 description: A semana em que a métrica ocorreu.
 feature: Dimensions
 exl-id: 944ec843-998c-473f-b8e6-16cf126745b4
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Semana
 
-A dimensão “Semana” informa a semana em que uma determinada métrica ocorreu. O primeiro item de dimensão é a primeira semana no intervalo de datas, e o último item de dimensão é a última semana no intervalo de datas. Essa dimensão é essencial para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo.
+A &#39;Semana&#39; [dimension](overview.md) relata a semana em que determinada métrica ocorreu. O primeiro item de dimensão é a primeira semana no intervalo de datas, e o último item de dimensão é a última semana no intervalo de datas. Essa dimensão é essencial para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo.
 
 ## Preencher esta dimensão com dados
 

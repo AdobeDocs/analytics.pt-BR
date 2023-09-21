@@ -3,16 +3,16 @@ title: Trimestre
 description: O trimestre em que a métrica ocorreu.
 feature: Dimensions
 exl-id: e7c837d2-f891-4029-b520-4bc6c4387622
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Trimestre
 
-A dimensão “Trimestre” informa o trimestre em que uma determinada métrica ocorreu. O primeiro item de dimensão é o primeiro trimestre no intervalo de datas, e o último item de dimensão é o último trimestre no intervalo de datas. Essa dimensão é ideal para relatórios de tendências, pois permite visualizar as métricas ao longo do tempo.
+O &quot;Trimestre&quot; [dimension](overview.md) relata o trimestre em que determinada métrica ocorreu. O primeiro item de dimensão é o primeiro trimestre no intervalo de datas, e o último item de dimensão é o último trimestre no intervalo de datas. Essa dimensão é ideal para relatórios de tendências, pois permite visualizar as métricas ao longo do tempo.
 
 ## Preencher esta dimensão com dados
 

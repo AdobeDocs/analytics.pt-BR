@@ -3,16 +3,16 @@ title: Dia da semana
 description: O dia da semana, independentemente do intervalo de datas.
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Dia da semana
 
-A dimensão “Dia da semana” informa o dia da semana em que a ocorrência aconteceu. Este relatório é importante se você quiser que um relatório seja dividido por semana, mas não quiser dias estáticos como itens de dimensão. Ela é especialmente valiosa como uma dimensão em relatórios programados, já que essa dimensão funciona com qualquer intervalo de datas.
+O &#39;Dia da semana&#39; [dimension](overview.md) relata o dia da semana em que a ocorrência aconteceu. Este relatório é importante se você quiser que um relatório seja dividido por semana, mas não quiser dias estáticos como itens de dimensão. Ela é especialmente valiosa como uma dimensão em relatórios programados, já que essa dimensão funciona com qualquer intervalo de datas.
 
 ## Preencher esta dimensão com dados
 

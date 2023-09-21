@@ -3,16 +3,16 @@ title: Pesquisa paga
 description: Distingue métricas de pesquisa paga e natural.
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # Pesquisa paga
 
-A dimensão “Pesquisa paga” permite que você veja qualquer métrica e a compare entre a pesquisa paga e a pesquisa natural. Todas as outras ocorrências fora dos mecanismos de pesquisa são omitidas. Essa dimensão é útil para entender como seus esforços de pesquisa paga se comparam com a pesquisa orgânica.
+A &#39;Pesquisa paga&#39; [dimension](overview.md) permite que você veja qualquer métrica e a compare entre a pesquisa paga e a pesquisa natural. Todas as outras ocorrências fora dos mecanismos de pesquisa são omitidas. Essa dimensão é útil para entender como seus esforços de pesquisa paga se comparam com a pesquisa orgânica.
 
 ## Preencher esta dimensão com dados
 

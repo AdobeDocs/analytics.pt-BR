@@ -3,7 +3,7 @@ title: Páginas não encontradas (dimensões)
 description: URLs que retornaram um erro ao site.
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Páginas não encontradas
 
-*Esta página de ajuda descreve como a métrica &quot;Páginas não encontradas&quot; funciona como uma dimensão. Consulte a métrica [Páginas não encontradas](../metrics/pages-not-found.md) para obter mais informações.*
+*[Esta página de ajuda descreve como a métrica &quot;Páginas não encontradas&quot; funciona como uma dimensão](overview.md). Consulte a métrica [Páginas não encontradas](../metrics/pages-not-found.md) para obter mais informações.*
 
 A dimensão “Páginas não encontradas” exibe URLs que continham um erro. Essa dimensão é útil para diminuir o número de erros que o visitante recebe no site.
 

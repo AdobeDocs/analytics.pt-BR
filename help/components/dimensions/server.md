@@ -3,16 +3,16 @@ title: Servidor
 description: O nome do servidor.
 feature: Dimensions
 exl-id: c2454c0d-497e-46f8-8569-7d0517097cab
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Servidor
 
-A dimensão “Servidor&#39;” normalmente lista o hostname do site. Para conjuntos de relatórios que combinam vários domínios ou subdomínios, essa dimensão é útil para analisar quais domínios ou subdomínios têm o melhor desempenho.
+O &#39;Servidor&#39; [dimension](overview.md) normalmente lista o nome do host do site. Para conjuntos de relatórios que combinam vários domínios ou subdomínios, essa dimensão é útil para analisar quais domínios ou subdomínios têm o melhor desempenho.
 
 Essa dimensão está relacionada às dimensões [Página](page.md) e [Seções do site](site-section.md). A dimensão Página é mais granular, a dimensão Servidor é menos granular e a dimensão Seção do site fica entre as duas.
 

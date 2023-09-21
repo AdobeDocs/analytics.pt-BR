@@ -3,16 +3,16 @@ title: Canal de primeiro contato
 description: O primeiro canal de marketing dentro da expiração do engajamento do visitante.
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Canal de primeiro contato
 
-A dimensão “Primeiro canal de contato” informa o primeiro canal de marketing com o qual um visitante corresponde durante o período de engajamento do visitante (30 dias por padrão). Essa dimensão é importante para entender quais canais de marketing direcionam o tráfego inicial para o seu site, permitindo que você concentre esforços de marketing em áreas mais eficientes.
+O &quot;Canal de primeiro contato&quot; [dimension](overview.md) relata o primeiro canal de marketing com o qual um visitante corresponde durante o período de engajamento do visitante (30 dias por padrão). Essa dimensão é importante para entender quais canais de marketing direcionam o tráfego inicial para o seu site, permitindo que você concentre esforços de marketing em áreas mais eficientes.
 
 ## Preencher esta dimensão com dados
 

@@ -3,16 +3,16 @@ title: Link de download
 description: O nome do link de download.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Link de download
 
-A dimensão “Link de download” relata os nomes dos links de download implementados em seu site. Essa dimensão é importante quando você deseja saber mais sobre o comportamento do visitante em links de download, como:
+O &#39;link de download&#39; [dimension](overview.md) O relata os nomes dos links de download implementados em seu site. Essa dimensão é importante quando você deseja saber mais sobre o comportamento do visitante em links de download, como:
 
 * Determine os arquivos que são transferidos por download com mais frequência do site.
 * Entenda se certos arquivos que são transferidos por download com mais frequência durante períodos de tempo específicos.

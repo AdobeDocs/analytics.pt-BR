@@ -3,16 +3,16 @@ title: Tipo de referenciador
 description: O tipo de referenciador dependendo a origem do visitante.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 61a8aec9bbd6102dd3c0eb60362e02d553e1ebd2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Tipo de referenciador
 
-A dimensão “Tipo de referenciador” informa em quais canais genéricos os visitantes clicaram para acessar seu site. A Adobe mantém regras para cada item de dimensão, ao contrário dos [canais de marketing](marketing-channel.md), em que a própria organização mantém regras para cada canal.
+O &#39;Tipo de referenciador&#39; [dimension](overview.md) relata em quais canais genéricos os visitantes clicaram para acessar seu site. A Adobe mantém regras para cada item de dimensão, ao contrário dos [canais de marketing](marketing-channel.md), em que a própria organização mantém regras para cada canal.
 
 ## Preencher esta dimensão com dados
 
