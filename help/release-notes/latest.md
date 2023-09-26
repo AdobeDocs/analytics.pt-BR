@@ -3,16 +3,16 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2998ab3ecb83e14be38333a2836f863667babfee
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (setembro de 2023)
 
-**Última atualização**: 13 de setembro de 2023
+**Última atualização**: 20 de setembro de 2023
 
 As notas de versão de setembro abordam o período de lançamento de 13 de setembro de 2023 a 3 de outubro de 2023. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -23,7 +23,7 @@ As notas de versão de setembro abordam o período de lançamento de 13 de setem
 | **Classificações na API 2.0** | Fornece métodos da API 2.0 do Adobe Analytics para salvar, excluir, recuperar, importar e exportar dados do conjunto de classificações. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | N/D | 13 de setembro de 2023 |
 | **Suporte ao novo campo de `correlationID` para classificações do A4T** | O campo `_experience.decisioning.propositions.scopeDetails.correlationID` agora está disponível no esquema do conector de origem do Adobe Analytics. Estamos adicionando esta ID para facilitar a junção de dados de classificação de atividades do Adobe Target e eventos de experiência. | N/D | 13 de setembro de 2023 |
 | **Melhorias no Data Warehouse** | Ao criar uma solicitação do Data Warehouse, agora é possível configurar uma conta na nuvem para usar como destino do relatório. Os seguintes tipos de conta de nuvem estão disponíveis para enviar dados:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (esta opção estava disponível anteriormente)</li></ul>FTP, SFTP, Azure Blob e S3 ainda estão disponíveis como destinos de relatório, mas não são mais recomendados.<p>A experiência do usuário ao criar e gerenciar solicitações do Data Warehouse também foi aprimorada. Para obter mais informações, consulte [Criar uma solicitação do Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) e [Gerenciar solicitações do Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=pt-BR). | 13 de setembro de 2023 | 4 de outubro de 2023 |
-| **Novas colunas disponíveis ao gerenciar componentes** | As novas colunas a seguir estão disponíveis ao gerenciar componentes:<ul><li>Usado em<p>Essa coluna está disponível no [Gerenciador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) e a variável [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Última utilização<p>Essa coluna está disponível no [Gerenciador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), o [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md), e o [Gerenciador de alertas](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>Essas informações podem ajudar você a determinar se um componente é valioso para os usuários em sua organização, onde é usado e se precisa ser excluído ou modificado. Você pode usar o Dicionário de dados junto com essas informações para ajudá-lo a acompanhar e entender melhor como os componentes estão sendo usados em sua organização.</p> | 20 de setembro de 2023 | 4 de outubro de 2023 |
+| **Novas colunas disponíveis ao gerenciar componentes** | As novas colunas a seguir estão disponíveis ao gerenciar componentes:<ul><li>Usado em<p>Essa coluna está disponível no [Gerenciador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) e a variável [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Última utilização<p>Essa coluna está disponível no [Gerenciador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), o [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md), e o [Gerenciador de alertas](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>Essas informações podem ajudar a determinar se um componente é relevante para usuários(as) em sua organização, onde é usado e se precisa ser excluído ou modificado. É possível usar o Dicionário de dados junto com essas informações para ajudar a acompanhar e entender melhor como os componentes estão sendo usados em sua organização.</p> | 20 de setembro de 2023 | 4 de outubro de 2023 |
 
 {style="table-layout:auto"}
 
