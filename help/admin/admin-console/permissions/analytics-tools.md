@@ -3,9 +3,9 @@ title: Permissões de perfil de produto para as Ferramentas do Analytics
 description: Use os itens de permissão das Ferramentas do Analytics para conceder acesso a recursos no Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '491'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | Item de permissão das Ferramentas do Analytics | Descrição |
 |----|----|
 | [!UICONTROL Activity Map] | Concede acesso a Ferramentas > Activity Map. Permite que o usuário use a extensão Activity Map. |
-| [!UICONTROL Gerenciamento do Advertising Analytics] | Não usado. |
+| [!UICONTROL Gerenciamento do Advertising Analytics] | Permite que os usuários configurem/editem/exibam contas de pesquisa publicitárias. |
 | [!UICONTROL Acesso à Analysis Workspace] | Concede acesso à Analysis Workspace. Os usuários devem pertencer a esse grupo (preferencial) ou ao Acesso ao Reports &amp; Analytics para usar o Adobe Analytics. |
 | [!UICONTROL Analysis Workspace: Salvar como modelo] | Concede acesso a Projeto > Salvar como modelo na Analysis Workspace. |
 | [!UICONTROL Criação de anotação] | Concede a capacidade de criar anotações. |
