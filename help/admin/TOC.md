@@ -4,9 +4,11 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+hide: true
+hidefromtoc: true
+source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '633'
 ht-degree: 96%
 
 ---
@@ -32,6 +34,7 @@ ht-degree: 96%
    + [Excluir por endereço IP](admin/exclude-ip.md)
    + [Logs](admin/logs.md)
    + [Gerenciador de atividades de relatórios](admin/reporting-activity.md)
+   + [Migração de componentes](admin/component-migration.md)
    + Gerenciador do conjunto de relatórios {#manage-report-suites}
       + Editar configurações de um conjunto de relatórios {#edit-report-suite}
          + Geral {#report-suite-general}
@@ -99,7 +102,7 @@ ht-degree: 96%
          + Canais de marketing {#marketing-channels}
             + [Gerenciador de Canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [Regras de processamento de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [Classificações de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Classificações de Canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [Expiração de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gerenciamento de tráfego {#traffic-management}
             + [Visão geral](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
@@ -113,8 +116,8 @@ ht-degree: 96%
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Relatórios de privacidade](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Gerenciamento de Document Cloud {#doc-cloud-mgt}
-            + [Configurar o Document Cloud com Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
-            + [Configurar relatórios do Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+            + [Configurar o Document Cloud com o Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Configurar relatórios de Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Configuração do Advertising Analytics](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Tempo real {#real-time-reports}
             + [Visão geral dos Relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -171,7 +174,7 @@ ht-degree: 96%
       + [Perguntas frequentes sobre o uso de chamadas do servidor](admin/c-server-call-usage/overage-faq.md)
    + Gerenciamento de usuários e produtos (herdado) {#user-product-management}
       + [Gerenciamento de usuários e produtos  (Legado)](admin/user-management2/user-management.md)
-      + [Transferir ativos do usuário ou definir expirações de conta](admin/user-management2/users-assets.md)
+      + [Transferências de ativos de usuários e usuárias ou definição de expirações de conta](admin/user-management2/users-assets.md)
       + Migrar usuários para o Adobe Admin Console {#migrate-users}
          + [Migração de usuários do Analytics para o Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migrar contas de usuário do Analytics para Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)
