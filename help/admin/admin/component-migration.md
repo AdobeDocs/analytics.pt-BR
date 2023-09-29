@@ -4,16 +4,16 @@ title: Migrar componentes e projetos do Adobe Analytics para o Customer Journey 
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 94041993f624fc5253929a92475842311c125799
+source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1784'
 ht-degree: 8%
 
 ---
 
 # Migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics
 
-Os administradores do Adobe Analytics podem migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics.
+Os administradores do Adobe Analytics podem migrar projetos do Adobe Analytics e seus componentes associados para o Customer Journey Analytics.
 
 O processo de migração inclui:
 
@@ -21,15 +21,17 @@ O processo de migração inclui:
 
 * Mapeamento de dimensões e métricas dos conjuntos de relatórios do Adobe Analytics para dimensões e métricas em visualizações de dados do Customer Journey Analytics.
 
-  Algumas dimensões e métricas são mapeadas automaticamente; outras, você deve mapear manualmente como parte do processo de migração.
+  Algumas dimensões e métricas são mapeadas automaticamente; outras, você deve mapear manualmente como parte do processo de migração. Os segmentos também são migrados, mas não precisam ser mapeados como parte do processo de migração.
+
+  Todos os componentes migrados são exibidos no resumo da migração quando ela é concluída.
 
 ## Preparar-se para uma migração
 
-Antes de começar a migrar projetos na sua organização, conclua os pré-requisitos, saiba o que é ou não migrado e crie um plano de migração para a sua organização.
+Antes que qualquer pessoa na sua organização comece a migrar projetos, conclua as seções a seguir.
 
 ### Pré-requisitos 
 
-Antes de preparar os projetos e as dimensões e métricas associadas para a migração, primeiro é necessário:
+Antes de preparar os projetos e os componentes associados para a migração, primeiro é necessário:
 
 * Use o conector de origem do Analytics para exibir os dados do conjunto de relatórios do Adobe Analytics no Customer Journey Analytics. Para fazer isso, é necessário:
 
@@ -47,30 +49,72 @@ Antes de preparar os projetos e as dimensões e métricas associadas para a migr
 
 ### Entender o que está incluído em uma migração
 
-A tabela a seguir descreve quais elementos de um projeto e componente são incluídos em uma migração:
+As tabelas a seguir descrevem quais elementos de um projeto e componente são incluídos em uma migração:
 
+#### Elementos de componentes migrados
 
-|  | Projetos | Dimension e métricas |
-|---------|----------|---------|
-| **Intervalos de datas** | Sim | N/D |
-| **Segmentos** | Sim | N/D |
-| **Segmentos rápidos** | Sim | N/D |
-| **Painéis** | Sim | N/D |
-| **Visualizações** | Sim | N/D |
-| **Proprietário** | (Definido pelo usuário que está fazendo a migração) | ? |
-| **Preparação** | Não | N/D |
-| **Compartilhamento (funções de projeto)** | Não | Não |
-| **Anotações** | Não | N/D |
-| **Estrutura de pastas** | Não | N/D |
-| **Descrições** | Sim | ? |
-| **Tags** | ? | ? |
-| **Agendamentos** | ? | N/D |
-| **Atribuição (em dimensões)** | N/D | ? |
-| **Detecção de anomalias** | ? | N/D |
-| **Análise de contribuição** | ? | N/D |
-| **Alertas** | ? | N/D |
+|  | Migrado |
+|---------|---------|
+| **[Proprietário](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) |
+| **[Compartilhamento](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Não |
+| **[Descrições](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
+| **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Não |
+| **[Atribuição (em dimensões)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
+
+#### Elementos de projeto migrados
+
+|  | Migrado |
+|---------|----------|
+| **[Intervalos de datas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) |
+| **[Segmentos](/help/components/segmentation/seg-overview.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) |
+| **[Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) |
+| **[Dimensões](/help/components/dimensions/overview.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) Mapeado automática ou manualmente |
+| **[Métricas](/help/components/metrics/overview.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) Mapeado automática ou manualmente |
+| **[Painéis](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) |
+| **[Visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) |
+| **[Proprietário](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) Definido pelo usuário que faz a migração |
+| **[Preparação](/help/analyze/analysis-workspace/curate-share/curate.md)** | Não |
+| **[Compartilhamento (funções de projeto)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Não |
+| **[Compartilhamento (compartilhar com qualquer link)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[Anotações](/help/analyze/analysis-workspace/components/annotations/overview.md)** | Não |
+| **[Estrutura de pastas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | Não |
+| **[Descrições](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) |
+| **[Tags](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | Não |
+| **[Agendamentos](/help/components/scheduled-projects-manager.md)** | Não |
+| **[Detecção de anomalias](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
+| **[Favoritos](/help/analyze/landing.md)** | ? |
+
+{style="table-layout:auto"}
+
+### Compreender elementos não compatíveis que causam erros
+
+As seguintes visualizações, painéis e recursos não são compatíveis com o Customer Journey Analytics. Quando esses elementos são incluídos em um projeto antes da migração, podem causar falha na migração ou resultar em erros após a migração.
+
+Remova esses elementos do projeto do Adobe Analytics antes de migrar o projeto para o Customer Journey Analytics. Se uma migração falhar, remova esses elementos antes de tentar a migração novamente.
+
+#### Visualizações não suportadas
+
+* [Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
+
+#### Painéis não suportados
+
+* [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+
+* [Comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+* [Público médio por minuto de mídia](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+
+* [Próximo item ou anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md)
+
+* [Resumo da página](/help/analyze/analysis-workspace/c-panels/page-summary.md)
+
+#### Recursos incompatíveis
+
+* [Análise de contribuição](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+
+* [Alertas](/help/components/c-alerts/intellligent-alerts.md)
 
 ### Criar um plano de migração como uma organização
 
@@ -108,7 +152,7 @@ Você deve decidir como uma organização como dimensões e métricas serão map
 
 1. No [!UICONTROL **Proprietário do projeto**] comece digitando o nome do usuário que deseja definir como proprietário do projeto no Customer Journey Analytics e selecione o nome no menu suspenso.
 
-   O proprietário especificado tem direitos totais de gerenciamento ao projeto.
+   O proprietário especificado tem todos os direitos de gerenciamento do projeto.
 
 1. No [!UICONTROL **Mapear esquema para conjuntos de relatórios**] selecione um conjunto de relatórios.
 
