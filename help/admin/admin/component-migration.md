@@ -4,10 +4,10 @@ title: Migrar componentes e projetos do Adobe Analytics para o Customer Journey 
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
+source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 8%
+source-wordcount: '1974'
+ht-degree: 9%
 
 ---
 
@@ -116,11 +116,89 @@ Remova esses elementos do projeto do Adobe Analytics antes de migrar o projeto p
 
 * [Alertas](/help/components/c-alerts/intellligent-alerts.md)
 
-### Criar um plano de migração como uma organização
+### Decida como uma organização como você mapeará componentes não compatíveis
 
-Como todos os componentes mapeados para uma determinada migração de projeto se aplicam a todas as migrações de projeto futuras para toda a organização, é importante que sua organização planeje todas as migrações de projeto antecipadamente.
+>[!IMPORTANT]
+>
+>O processo de migração identifica componentes no seu projeto do Adobe Analytics que não podem ser mapeados automaticamente para componentes no Customer Journey Analytics e permite mapeá-los manualmente.
+>
+>**Qualquer mapeamento feito em um projeto se aplica a todos os projetos futuros em toda a organização, independentemente de qual usuário está executando a migração. Esses mapeamentos não podem ser modificados ou desfeitos, exceto ao entrar em contato com o Atendimento ao cliente.**
+>
+>Por isso, é importante que sua organização decida como dimensões e métricas serão mapeadas antes que qualquer projeto seja migrado. Isso evita que administradores individuais tomem decisões em um silo ao considerar apenas um único projeto.
+>
+>Veja a seguir uma lista de dimensões e métricas que você deve mapear manualmente se elas existirem no seu projeto. Recomendamos revisar esta lista antes de migrar. Se qualquer um desses componentes existir em seu projeto, decida agora a quais componentes do Customer Journey Analytics você os mapeará.
 
-Você deve decidir como uma organização como dimensões e métricas serão mapeadas. Isso evita que administradores individuais tomem decisões em um silo ao considerar apenas um único projeto.
+
+#### Dimensões não suportadas
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* visitnumber
+* timeprior
+* timespent
+* categoria
+* connectiontype
+* customerloyalty
+* customlink
+* downloadlink
+* exitlink
+* hitdepth
+* hittype
+* pathlength
+* daysbeforefirstpurchase
+* dayssincelastpurchase
+* dayssincelastvisit
+* identiationstate
+* optoutreason
+* persistentcookie
+* returnfrequency
+* searchenginenatural
+* searchenginenaturalkeyword
+* mobilecarrier
+* monitorresolution
+* surveybase
+* mcaudiences
+* tntbase
+* targetraw
+
+
+#### Métricas não suportadas
+
+* timespentvisit
+* timespentvisitor
+* recarregamentos
+* devoluções
+* bouncerate
+* pageevents
+* pageviewspervisit
+* orderspervisit
+* averagepagedepth
+* averagetimespentonsite
+* exitlinkinstances
+* customlinkinstances
+* downloadlinkinstances
+* darkvisitors
+* singlepagevisits
+* singlevaluevisitors
+* visitorhomepage
+* visitorsmcvisid
+* pagesnotfound
+* novos engajamentos
+* granularidade_tempo
+* concurrent_views_visitors
+* concurrent_views_occurrences
+* dispositivos
+* estimatedpeople
+* playback_time_sent_seconds
+* playback_time_sent_minutes
+* average_minute_audience_time_based
+* average_minute_audience_media_time
+* average_minute_audience_content_time
+* video_length
+* targetconversion
+* targetimpression
+
 
 ## Migrar projetos do Adobe Analytics para o Customer Journey Analytics
 
@@ -214,11 +292,13 @@ Você deve decidir como uma organização como dimensões e métricas serão map
 
 Se a migração falhar, você poderá tentar novamente.
 
-Você pode repetir uma migração com falha das seguintes maneiras:
+Antes de tentar novamente uma migração com falha, remova qualquer [elementos não suportados](#understand-unsupported-elements-that-cause-errors) do projeto.
 
 >[!NOTE]
 >
 >Se a migração continuar a falhar após uma nova tentativa, entre em contato com o Atendimento ao cliente com a ID do projeto. Você pode encontrar a ID do projeto na página Status da migração. <!-- when does this page display? How can they get there -->
+
+Para repetir uma migração com falha:
 
 1. No Adobe Analytics, selecione a guia [!UICONTROL **Administrador**] e escolha [!UICONTROL **Todos os administradores**].
 
