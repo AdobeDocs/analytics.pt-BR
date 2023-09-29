@@ -3,9 +3,9 @@ title: Permissões de perfil de produto para Ferramentas de conjuntos de relató
 description: Entenda cada item de permissão em Ferramentas do conjunto de relatórios.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
+source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 94%
 
 ---
@@ -44,8 +44,8 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | [!UICONTROL Relatório Tempo real] | Concede acesso a Métricas do site > Tempo real no Reports &amp; Analytics. Use o item de permissão &#39;Configuração do Relatório em tempo real&#39; para conceder acesso para configurar este relatório. |
 | [!UICONTROL Configuração de relatório em tempo real] | Concede acesso ao Tempo real no Gerenciador de conjunto de relatórios. Use o item de permissão &#39;Relatório em tempo real&#39; para conceder acesso ao relatório em si. |
 | [!UICONTROL Visitas de Retorno] | Concede acesso a Retenção de visitantes > Visitas de retorno no Reports &amp; Analytics. |
-| [!UICONTROL Administradores do Gerenciador de atividades de relatórios] | A ser definido |
-| [!UICONTROL Acesso ao Gerenciador de atividades de relatórios] | A ser definido |
+| [!UICONTROL Administradores do Gerenciador de atividades de relatórios] | Não usado. |
+| [!UICONTROL Acesso ao Gerenciador de atividades de relatórios] | Não usado. |
 | [!UICONTROL Gerenciamento de conjuntos de relatórios] | Concede acesso ao Gerenciador de conjunto de relatórios, mas não permite alterações. |
 | [!UICONTROL Reportlet de imagem do painel de R&amp;A] | Não usado. |
 | [!UICONTROL Reportlet de medição de métrica do painel de R&amp;A] | Não usado. |

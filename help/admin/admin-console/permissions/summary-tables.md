@@ -3,7 +3,7 @@ title: Permissões do Adobe Analytics - tabelas de resumo
 description: Tabelas que resumem as permissões do Adobe Analytics disponíveis no Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 98%
@@ -12,6 +12,7 @@ ht-degree: 98%
 
 # Permissões do Analytics no Admin Console
 
+<!--This page is no longer in the TOC. It's a duplication of info and contradicts some of the info in the Report Suite Tools and Analytics Tools topics. -->
 Use as tabelas de resumo a seguir para identificar permissões do Adobe Analytics no Adobe Admin Console por agrupamentos lógicos.
 
 ## Ferramentas do conjunto de relatórios
