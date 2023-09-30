@@ -3,20 +3,18 @@ description: Configurar a conta de importação na nuvem e o local onde os dados
 keywords: Analysis Workspace
 title: Gerenciador de locais
 feature: Classifications
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '293'
+ht-degree: 3%
 
 ---
 
 # Gerenciador de locais
 
-O Gerenciador de locais permite criar, editar ou excluir locais.
+O Gerenciador de locais permite criar, editar ou excluir locais. Esses locais permitem salvar e reutilizar destinos para arquivos exportados ou origens para arquivos importados. O Gerente de localização fica disponível assim que todos os conjuntos de relatórios da sua organização usam o [Conjunto de classificações](../classifications/sets/overview.md) arquitetura.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Localizações]**
-
-Para importar dados de classificação do Adobe Analytics de um destino na nuvem, primeiro adicione e configure o local onde deseja que os dados de classificação sejam coletados. Esta página explica as várias opções disponíveis na página Locais.
 
 ## Filtrar locais
 
@@ -50,7 +48,7 @@ As seguintes opções estão disponíveis no Gerenciador de locais:
 * **[!UICONTROL Carregar mais]**: inicialmente, o Gerenciador de locais exibe até 1.000 locais. Esse botão carrega mais 1.000 locais.
 * **Personalizar tabela**: O ícone Personalizar tabela ![Ícone Personalizar tabela](assets/customize-table-icon.png) permite escolher quais colunas são exibidas na tabela.
 
-Marque a caixa de seleção ao lado de um local para revelar as seguintes opções:
+Marcar uma caixa de seleção ao lado de um local revela as seguintes opções:
 
 * **[!UICONTROL Editar]**: permite editar o local selecionado. Para obter informações sobre campos disponíveis que podem ser editados, consulte [Configurar locais de importação na nuvem](/help/components/locations/configure-import-accounts.md).
 * **[!UICONTROL Excluir]**: exclui os locais selecionados. Essa opção permite selecionar vários locais.

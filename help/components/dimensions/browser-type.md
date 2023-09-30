@@ -3,10 +3,10 @@ title: Tipo de navegador
 description: A organização que fez o navegador.
 feature: Dimensions
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 89%
+source-wordcount: '155'
+ht-degree: 69%
 
 ---
 
@@ -16,7 +16,10 @@ O &#39;Tipo de navegador&#39; [dimension](overview.md) lista as organizações q
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valor de pesquisa se baseia no cabeçalho HTTP `User-Agent` nas solicitações de imagem. Se você utilizar uma biblioteca do AppMeasurement (por meio de tags na Adobe Experience Platform ), essa dimensão funcionará imediatamente.
+Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valor de pesquisa se baseia no cabeçalho HTTP `User-Agent` nas solicitações de imagem. parceiros Adobe com [DeviceAtlas](https://deviceatlas.com/) para manter pesquisas entre o agente do usuário e o navegador.
+
+* Para implementações do AppMeasurement, essa dimensão funciona imediatamente.
+* Para implementações do SDK da Web, habilite [!UICONTROL Pesquisa de dispositivo] quando [configurar um fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-BR).
 
 ## Itens de dimensão
 

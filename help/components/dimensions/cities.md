@@ -3,10 +3,10 @@ title: Cidades
 description: A cidade de onde a ocorrência se originou.
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 86%
+source-wordcount: '373'
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,10 @@ As &quot;Cidades&quot; [dimension](overview.md) relata a cidade de onde a ocorr�
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/) para manter pesquisas entre o endereço IP e a cidade. Essa dimensão funciona imediatamente em todas as implementações.
+Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/pt-pt/) para manter pesquisas entre o endereço IP e a cidade.
+
+* Para implementações do AppMeasurement, essa dimensão funciona imediatamente.
+* Para implementações do SDK da Web, habilite [!UICONTROL Pesquisa geográfica] quando [configurar um fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-BR).
 
 ## Itens de dimensão
 
@@ -29,7 +32,7 @@ Alguns itens de dimensão podem incluir `"AOL"`, um provedor de serviço de aces
 Como essa dimensão se baseia no endereço IP, alguns cenários podem mostrar uma diferença entre a localização informada e a localização real:
 
 * **Endereços IP que representam proxies corporativos**: esses visitantes podem aparecer como tráfego vindo da rede corporativa do usuário, que pode ser um local diferente se o usuário estiver trabalhando remotamente.
-* **Endereços de IP remoto**: o direcionamento por IP móvel funciona em diferentes níveis, dependendo da localização e da rede. Um número de operadoras faz o backhaul do tráfego IP através de pontos de presença centralizados ou regionais.
+* **Endereços de IP remoto**: o direcionamento por IP móvel funciona em diferentes níveis, dependendo da localização e da rede. Algumas operadoras fazem o backhaul do tráfego IP por meio de pontos de presença centralizados ou regionais.
 * **Usuários do ISP satélite**: identificar a localização específica desses usuários é difícil, pois eles normalmente parecem se originar do local do uplink.
 * **IPs militares ou governamentais**: representa as pessoas que viajam ao redor do mundo e entram pelo local onde moram, em vez da base ou escritório onde trabalham.
 * **Proxies que obscurecem endereços IP por motivos de privacidade**: serviços como o Retransmissão privada da Apple ocultam o endereço IP verdadeiro, enviando dados aleatoriamente por meio de um intermediário ou proxy. Esse proxy substitui um endereço IP diferente antes de encaminhar para o Adobe.

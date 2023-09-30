@@ -3,16 +3,16 @@ title: Largura do navegador - Classificada
 description: A largura da janela do navegador em pixels.
 feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 93%
+source-wordcount: '273'
+ht-degree: 81%
 
 ---
 
 # Largura da janela do navegador
 
-A mensagem &quot;Largura do navegador - Classificada&quot; [dimension](overview.md) mostra a largura da janela do navegador, classificada em grupos de 100 pixels. Essa dimensão é útil quando você quer entender como os visitantes veem seu conteúdo. Compreender a largura em que seu conteúdo é tipicamente exibido pode permitir otimizar o conteúdo para exibição.
+A mensagem &quot;Largura do navegador - Classificada&quot; [dimension](overview.md) mostra a largura da janela do navegador, classificada em grupos predefinidos. Essa dimensão é útil quando você quer entender como os visitantes veem seu conteúdo. Entender a largura em que seu conteúdo é normalmente exibido no pode permitir que você otimize esse conteúdo.
 
 Essa dimensão é diferente da largura da tela. A largura do navegador é o número de pixels dentro do espaço visível do navegador, enquanto a largura da tela é a largura do monitor inteiro em pixels. Se você quiser ver a diferença entre essas duas variáveis em seu próprio computador, abra o console do navegador (F12 na maioria dos navegadores) e copie e cole o seguinte código no console:
 
@@ -30,4 +30,4 @@ A Adobe mantém a largura do navegador para uma visita. Se a largura do navegado
 
 ## Itens de dimensão
 
-Os itens de dimensão incluem todas as larguras do navegador coletadas, classificadas em grupos de 100 pixels. Por exemplo, se a largura do navegador de uma ocorrência for `1280`, então ela será agrupada no item de dimensão `1200 to 1299`.
+Os itens de Dimension incluem todas as larguras do navegador coletadas, classificadas em grupos predefinidos. Por exemplo, se a largura do navegador de uma ocorrência for `1280`, então ela será agrupada no item de dimensão `1200 to 1299`.

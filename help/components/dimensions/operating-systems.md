@@ -3,10 +3,10 @@ title: Sistema operacional
 description: O sistema operacional do visitante.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 24972ec79cb42224a97dda6b073b517b301113ba
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 22%
+source-wordcount: '433'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,10 @@ O &#39;Sistema operacional&#39; [dimension](overview.md) mostra o sistema operac
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valor de pesquisa se baseia no cabeçalho HTTP `User-Agent` nas solicitações de imagem. Se você utilizar uma biblioteca do AppMeasurement (por meio de tags na Adobe Experience Platform ), essa dimensão funcionará imediatamente.
+Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valor de pesquisa se baseia no cabeçalho HTTP `User-Agent` nas solicitações de imagem. parceiros Adobe com [DeviceAtlas](https://deviceatlas.com/) para manter pesquisas entre o agente do usuário e o sistema operacional.
+
+* Para implementações do AppMeasurement, essa dimensão funciona imediatamente.
+* Para implementações do SDK da Web, habilite [!UICONTROL Pesquisa de dispositivo] quando [configurar um fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-BR).
 
 ## Itens de dimensão
 

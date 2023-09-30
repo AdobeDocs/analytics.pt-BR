@@ -3,10 +3,10 @@ title: Código postal
 description: O código postal do visitante.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 94%
+source-wordcount: '271'
+ht-degree: 80%
 
 ---
 
@@ -19,13 +19,14 @@ O &#39;CEP&#39; [dimension](overview.md) informa o CEP ou código postal do visi
 Essa dimensão é única, pois contém várias maneiras de preenchê-la com dados. Você pode usar uma ou uma combinação das duas.
 
 * Defina o código postal diretamente utilizando a variável `zip`; ou
-* Faça a configuração para extrair dados de geossegmentação.
+* Configure-o para extrair dados de geolocalização.
 
 A [!UICONTROL Opção código postal] em [Configurações gerais da Conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) controla como você pode preencher essa dimensão.
 
->[!IMPORTANT]
->
->A configuração do conjunto de relatórios é essencial se você quiser ter controle total sobre como preencher essa dimensão.
+Se você optar por usar qualquer opção que envolva o geo zip:
+
+* Para implementações do AppMeasurement, essa dimensão funciona imediatamente.
+* Para implementações do SDK da Web, habilite [!UICONTROL Pesquisa geográfica] quando [configurar um fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-BR).
 
 ## Itens de dimensão
 

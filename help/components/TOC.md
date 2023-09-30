@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 98%
+source-wordcount: '750'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,8 @@ ht-degree: 98%
    + [Canal de marketing](dimensions/marketing-channel.md)
    + [Detalhes do canal de marketing](dimensions/marketing-detail.md)
    + [Minuto](dimensions/minute.md)
-   + [Dimensões móveis](dimensions/mobile-dimensions.md)
+   + [Dimensões do ciclo de vida móvel](dimensions/lifecycle-dimensions.md)
+   + [Dimensões de pesquisa móvel](dimensions/mobile-dimensions.md)
    + [Resolução do monitor](dimensions/monitor-resolution.md)
    + [Mês do ano](dimensions/month-of-year.md)
    + [Mês](dimensions/month.md)
@@ -99,6 +100,7 @@ ht-degree: 98%
    + [Motivo da desativação do rastreamento](dimensions/tracking-opt-out-reason.md)
    + [DMA dos EUA](dimensions/us-dma.md)
    + [Estados dos Estados Unidos](dimensions/us-states.md)
+   + [Dimensões de voz](dimensions/voice-dimensions.md)
    + [Profundidade da visita](dimensions/visit-depth.md)
    + [Número da visita](dimensions/visit-number.md)
    + [Semana](dimensions/week.md)
@@ -127,6 +129,7 @@ ht-degree: 98%
    + [Saídas](metrics/exits.md)
    + [Pessoas identificadas](metrics/identified-people.md)
    + [Instâncias](metrics/instances.md)
+   + [Métricas de ciclo de vida móvel](metrics/lifecycle-metrics.md)
    + [Exibições para dispositivos móveis](metrics/mobile-views.md)
    + [Novos engajamentos](metrics/new-engagements.md)
    + [Ocorrências](metrics/occurrences.md)
@@ -151,6 +154,7 @@ ht-degree: 98%
    + [Dispositivos únicos](metrics/unique-devices.md)
    + [Visitantes únicos](metrics/unique-visitors.md)
    + [Unidades](metrics/units.md)
+   + [Métricas de voz](metrics/voice-metrics.md)
    + [Visitantes com Experience Cloud ID](metrics/visitors-with-ecid.md)
    + [Visitas](metrics/visits.md)
 + Segmentação {#segmentation}

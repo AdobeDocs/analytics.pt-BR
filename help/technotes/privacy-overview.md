@@ -4,9 +4,9 @@ keywords: privacidade
 title: Visão geral de privacidade
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 9fd055fd747c7124d49e280af1b0acc24d79be8e
+source-git-commit: 266c354cdc17e99d847ce57c1e6261386299a8cf
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -42,9 +42,9 @@ O Adobe Analytics pode coletar os seguintes tipos de dados:
 | Termos de pesquisa interna | Os dados de pesquisa interna incluem palavras-chave originárias do site ou dos recursos de pesquisa do aplicativo. O Adobe não coleta automaticamente dados de pesquisa interna. No entanto, você pode personalizar sua implementação para coletar esses dados. Essa prática é comum para organizações que usam o Adobe Analytics. | [eVar](../components/dimensions/evar.md) |
 | Especificações do computador e do navegador | As bibliotecas de coleção de dados coletam automaticamente dicas de baixa entropia do navegador, como o tipo de navegador, o tipo de sistema operacional e se o dispositivo é desktop ou móvel. A configuração personalizada é necessária para coletar dicas de alta entropia, como a versão/build específica do navegador, o modelo do dispositivo ou a versão do sistema operacional. Consulte [Visão geral das dicas do cliente](client-hints.md) para obter mais informações. | [Navegador](../components/dimensions/browser.md), [Sistema operacional](../components/dimensions/operating-systems.md), [Dimensões móveis](../components/dimensions/mobile-dimensions.md), [Resolução do monitor](../components/dimensions/monitor-resolution.md) |
 | Informações de geolocalização | O Adobe oferece a capacidade de ativar ou desativar a coleta de dados de geolocalização para cada site ou aplicativo (em um nível de conjunto de relatórios). A coleta de dados de geolocalização é ativada por padrão. | [Cidades](../components/dimensions/cities.md), [Regiões](../components/dimensions/regions.md), [Países](../components/dimensions/countries.md) |
-| Endereço IP | O Adobe oferece a capacidade de ofuscar o último octeto ou ofuscar totalmente o endereço IP do visitante ao armazenar esses dados. Normalmente, os clientes do EMEA têm a configuração de endereço IP totalmente ofuscada por padrão. Independentemente da configuração de ofuscação, o endereço IP não está disponível como uma dimensão no Adobe Analytics; ele só é incluído em [Feeds de dados](../export/analytics-data-feed/data-feed-overview.md). | Nenhum |
+| Endereço IP | O Adobe oferece a capacidade de ofuscar (hash) ou remover totalmente o endereço IP do visitante ao armazenar esses dados. Os clientes do EMEA geralmente têm a configuração de endereço IP ofuscada por padrão. Independentemente da configuração de ofuscação, o endereço IP não está disponível como uma dimensão no Analysis Workspace; ele só é incluído em [Feeds de dados](../export/analytics-data-feed/data-feed-overview.md). Consulte [Configurações gerais da conta](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) no guia Admin para obter detalhes sobre configurações de ofuscação disponíveis. | Nenhum |
 | Informações de formulário fornecidas no site | Todos os tipos de implementação exigem configuração para coletar esses dados. É possível incluir esses dados em variáveis personalizadas. | [eVar](../components/dimensions/evar.md) |
-| Anúncios ou links clicados em seu site | Coletado por padrão se estiver usando uma biblioteca de coleta de dados. Informações adicionais, como a localização dos cliques, estão disponíveis quando você habilita o Activity Map. | [Activity Map](../analyze/activity-map/activity-map.md), [Link de saída](../components/dimensions/exit-link.md), [Link de download](../components/dimensions/download-link.md) |
+| Anúncios ou links clicados em seu site | Coletado se [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) ou [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) está ativado. Informações adicionais, como a localização dos cliques, estão disponíveis quando você habilita o Activity Map. | [Activity Map](../analyze/activity-map/activity-map.md), [Link de saída](../components/dimensions/exit-link.md), [Link de download](../components/dimensions/download-link.md) |
 | Produtos comprados em seu site | Todos os tipos de implementação exigem configuração para coletar esses dados. O Adobe oferece várias variáveis padrão para coletar essas informações. | [Produto](../components/dimensions/product.md), [Pedidos](../components/metrics/orders.md), [Receita](../components/metrics/revenue.md) |
 
 {style="table-layout:auto"}
@@ -53,4 +53,4 @@ Consulte o menu de navegação em [visão geral do Dimension](../components/dime
 
 ## Locais de processamento de dados
 
-O Adobe mantém três locais de processamento de dados para o Adobe Analytics. Esses sites recebem dados brutos e os processam em um conjunto de relatórios, que é otimizado para armazenamento de dados e recuperação de relatórios. Esses locais de processamento de dados residem nos Estados Unidos (Oregon), Reino Unido (Londres) e Cingapura. Consulte [Visão geral de segurança do Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} para obter mais informações.
+O Adobe mantém três locais de processamento de dados para o Adobe Analytics. Esses sites recebem dados brutos e os processam em um conjunto de relatórios, que é otimizado para armazenamento de dados e recuperação de relatórios. Esses locais de processamento de dados residem atualmente nos Estados Unidos (Oregon), Reino Unido (Londres) e Cingapura. Consulte [Visão geral de segurança do Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} para obter mais informações.

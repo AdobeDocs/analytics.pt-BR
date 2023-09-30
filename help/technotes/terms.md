@@ -3,10 +3,10 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 100%
+source-wordcount: '2549'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Empresa de logon:** uma coleção de conjuntos de relatórios utilizada pela organização. Algumas organizações possuem várias empresas de logon, que se aplicam a setores diferentes da organização.
 * **Canal de marketing:** um recurso no Adobe Analytics que categoriza os hits de acordo com a forma como elas chegaram ao site. A lógica usada para categorizar hits pode ser personalizada usando as regras de processamento do canal de marketing. Consulte [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) no guia do usuário Componentes.
 * **Métrica:** um tipo de componente que contém dados quantitativos. Os valores de métricas normalmente contêm números, como Exibições de página, Visitas e Receita. Uma dimensão é normalmente sua contrapartida.
-* **Mobile Services:** reúne recursos de marketing para aplicativos móveis de toda a Adobe Experience Cloud, permitindo que você entenda e aprimore o engajamento do usuário com seus aplicativos. Consulte [Visão geral do Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=pt-BR).
+* **Mobile Services:** Um produto Adobe removido que reúne recursos de marketing móvel para aplicativos móveis de toda a Adobe Experience Cloud, permitindo que você entenda e aprimore o engajamento do usuário com seus aplicativos.
 * **Marcação de vários relatórios:** a prática de enviar a mesma ocorrência para vários conjuntos de relatórios. Com a introdução aos conjuntos de relatórios virtuais, essa prática não é mais necessária. A maioria dos esforços de marcação de vários relatórios ajuda a acomodar um conjunto de relatórios global.
 * **Normalização:** uma maneira de organizar uma visualização que utiliza todas as métricas e as força a proporções iguais, permitindo uma comparação mais fácil das tendências.
 * **Ocorrências:** um tipo de métrica que mostra em quantas ocorrências um item de dimensão foi definido ou persistiu. Consulte a métrica [Ocorrências](/help/components/metrics/occurrences.md) no guia do usuário Componentes.

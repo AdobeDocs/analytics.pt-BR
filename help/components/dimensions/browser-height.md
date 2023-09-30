@@ -3,16 +3,16 @@ title: Altura do navegador - Classificada
 description: A altura da janela do navegador em pixels.
 feature: Dimensions
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 93%
+source-wordcount: '272'
+ht-degree: 87%
 
 ---
 
 # Altura da janela do navegador
 
-A variável &quot;Altura do navegador - Classificada&quot; [dimension](overview.md) mostra a altura da janela do navegador, classificada em grupos de 100 pixels. Essa dimensão é útil para entender onde está a &quot;dobra&quot; no site para os visitantes. Entender onde a dobra está pode permitir a otimização do conteúdo para exibição.
+A variável &quot;Altura do navegador - Classificada&quot; [dimension](overview.md) mostra a altura da janela do navegador, classificada em grupos predefinidos. Essa dimensão é útil para entender onde está a &quot;dobra&quot; no site para os visitantes. Entender onde a dobra está pode permitir a otimização do conteúdo para exibição.
 
 Essa dimensão é diferente da altura da tela. Altura do navegador é o número de pixels dentro do espaço visível do navegador, enquanto a altura da tela é a altura do monitor inteiro em pixels. Se você quiser ver a diferença entre essas duas variáveis em seu próprio computador, abra o console do navegador (F12 na maioria dos navegadores) e copie e cole o seguinte código no console:
 
@@ -30,4 +30,4 @@ A Adobe mantém a altura do navegador por uma visita. Se a altura do navegador f
 
 ## Itens de dimensão
 
-Os itens de dimensão incluem todas as alturas do navegador coletadas, classificadas em grupos de 100 pixels. Por exemplo, se a altura do navegador de uma ocorrência for `720`, então ela será agrupada no item de dimensão `700 to 799`.
+Os itens de Dimension incluem todas as alturas do navegador coletadas, classificadas em grupos predefinidos. Por exemplo, se a altura do navegador de uma ocorrência for `720`, então ela será agrupada no item de dimensão `700 to 799`.
