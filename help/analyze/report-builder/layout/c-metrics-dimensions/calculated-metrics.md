@@ -4,10 +4,10 @@ title: Métricas calculadas
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -43,7 +43,7 @@ Os filtros disponíveis incluem:
 | Outros filtros > Meus | Mostra todas as suas métricas. |
 | Outros filtros > Compartilhados comigo | Mostra todas as métricas que outras pessoas compartilharam com você. |
 
-## Aplicação de métricas calculadas {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
+## Aplicar métricas calculadas {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
 Após selecionar os filtros, clique em **[!UICONTROL Aplicar]** para aplicá-las à solicitação. As métricas selecionadas serão adicionadas ao layout do relatório.
 

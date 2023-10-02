@@ -3,10 +3,10 @@ description: O Criador de métricas calculadas permite aplicar funções matemá
 title: 'Referência: funções básicas'
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -281,4 +281,4 @@ Por exemplo, digamos que você tenha uma coluna de três itens:
 
 3
 
-A média dessa coluna é 2. A variação da coluna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
+A média dessa coluna é 2. A variação da coluna será ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.

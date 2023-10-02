@@ -6,7 +6,7 @@ uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 97%
@@ -45,7 +45,7 @@ As métricas aparecem em um dos seguintes três intervalos de tempo. Clique no �
 
 Como alguns dados exibidos na visualização de dados atuais não foram completamente processados, você pode ver uma diferença entre valores relatados na visualização de dados atuais e na visualização finalizada. Nos relatórios de tendências, a diferença entre dados normalmente fica dentro de 1%.
 
-## Métricas calculadas
+## Métricas calculadas 
 
 Como é possível criar métricas calculadas por meio de métricas com latência diferente, alguns valores recentes talvez sejam calculados usando dados incompletos na visualização de dados atuais.
 
