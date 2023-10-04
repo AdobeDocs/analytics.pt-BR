@@ -3,43 +3,42 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: 084a9e9d2794ece4ddbb4296eee107bbdb451813
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 95%
+source-wordcount: '1216'
+ht-degree: 58%
 
 ---
 
-# Notas de versão atuais do Adobe Analytics (setembro de 2023)
+# Notas de versão atuais do Adobe Analytics (outubro de 2023)
 
-**Última atualização**: 20 de setembro de 2023
+**Última atualização**: 4 de outubro de 2023
 
-As notas de versão de setembro abordam o período de lançamento de 13 de setembro de 2023 a 3 de outubro de 2023. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+As notas de versão de outubro abrangem o período de 4 de outubro de 2023 a 24 de outubro de 2023. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 ## Novos recursos ou melhorias {#features}
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Classificações na API 2.0** | Fornece métodos da API 2.0 do Adobe Analytics para salvar, excluir, recuperar, importar e exportar dados do conjunto de classificações. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | N/D | 13 de setembro de 2023 |
-| **Suporte ao novo campo de `correlationID` para classificações do A4T** | O campo `_experience.decisioning.propositions.scopeDetails.correlationID` agora está disponível no esquema do conector de origem do Adobe Analytics. Estamos adicionando esta ID para facilitar a junção de dados de classificação de atividades do Adobe Target e eventos de experiência. | N/D | 13 de setembro de 2023 |
-| **Melhorias no Data Warehouse** | Ao criar uma solicitação do Data Warehouse, agora é possível configurar uma conta na nuvem para usar como destino do relatório. Os seguintes tipos de conta de nuvem estão disponíveis para enviar dados:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (esta opção estava disponível anteriormente)</li></ul>FTP, SFTP, Azure Blob e S3 ainda estão disponíveis como destinos de relatório, mas não são mais recomendados.<p>A experiência do usuário ao criar e gerenciar solicitações do Data Warehouse também foi aprimorada. Para obter mais informações, consulte [Criar uma solicitação do Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) e [Gerenciar solicitações do Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=pt-BR). | 13 de setembro de 2023 | 4 de outubro de 2023 |
 | **Novas colunas disponíveis ao gerenciar componentes** | As novas colunas a seguir estão disponíveis ao gerenciar componentes:<ul><li>Usado em<p>Essa coluna está disponível no [Gerenciador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) e a variável [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Última utilização<p>Essa coluna está disponível no [Gerenciador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), o [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md), e o [Gerenciador de alertas](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>Essas informações podem ajudar a determinar se um componente é relevante para usuários(as) em sua organização, onde é usado e se precisa ser excluído ou modificado. É possível usar o Dicionário de dados junto com essas informações para ajudar a acompanhar e entender melhor como os componentes estão sendo usados em sua organização.</p> | 20 de setembro de 2023 | 4 de outubro de 2023 |
+| **Melhorias no Gerenciador de atividades de relatórios** | O Gerenciador de atividades de relatórios permite ver a capacidade de gerar relatórios para cada conjunto de relatórios na sua organização.  Ele oferece aos administradores visibilidade detalhada do consumo de relatórios, a fim de diagnosticar e corrigir problemas de capacidade facilmente durante os horários de pico de relatórios. Veja a seguir alguns dos aprimoramentos disponíveis no Gerenciador de atividades de relatórios: <ul><li>Restringir solicitações subsequentes: além de cancelar solicitações atuais, os administradores agora podem restringir solicitações por um período definido. Os administradores podem restringir solicitações por Solicitação, Projeto e Usuário.</li><li>Além das métricas de Utilização e Capacidade, o Gerente de atividades de relatórios agora inclui mais dados sobre a atividade de relatórios: coluna Complexidade, coluna Usuário e coluna Conexão.</li><li>Todos os cancelamentos e restrições feitos no Gerenciador de atividades de relatórios agora estão visíveis no Log de auditoria. Os administradores podem usar o Log de auditoria para visualizar o que está cancelado no momento. Os cancelamentos não podem ser revertidos no Gerenciador de atividades de relatórios ou no Log de auditoria.</li></ul>Saiba mais (em breve) | 17 de outubro de 2023 | 23 de outubro de 2023 |
+| **Melhorias no Data Warehouse** | Ao criar uma solicitação do Data Warehouse, agora é possível configurar uma conta na nuvem para usar como destino do relatório. Os seguintes tipos de conta de nuvem estão disponíveis para enviar dados:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (esta opção estava disponível anteriormente)</li></ul>FTP, SFTP, Azure Blob e S3 ainda estão disponíveis como destinos de relatório, mas não são mais recomendados.<p>A experiência do usuário ao criar e gerenciar solicitações do Data Warehouse também foi aprimorada. Para obter mais informações, consulte [Criar uma solicitação do Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) e [Gerenciar solicitações do Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=pt-BR). | 12 de setembro de 2023 | 25 de outubro de 2023 |
+| **Migrar projetos do Adobe Analytics e quaisquer componentes incluídos para o Customer Journey Analytics** | Agora você pode migrar seus projetos do Adobe Analytics para o Customer Journey Analytics. Esse processo simplifica a transição do Adobe Analytics para o Customer Journey Analytics. Ao migrar projetos para o Customer Journey Analytics, os ativos são mapeados de um conjunto de relatórios do Adobe Analytics para uma visualização de dados do Customer Journey Analytics. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | N/D | 4 de outubro de 2023 |
 
 {style="table-layout:auto"}
 
 ## Correções no Adobe Analytics
 
-* Correção de um problema que impedia que os dados de classificação fossem exibidos no espaço de trabalho. (AN-326827)
+* Correção de problemas em que os relatórios do A4T não apareciam na interface do usuário do Target/Analytics. (AN-329375, AN-329745, AN-330026)
 
-## Outras correções
-
-AN-314882; AN-315591; AN-318165; AN-318559; AN-319031; AN-319244; AN-321657; AN-321759; AN-323099; AN-323596; AN-323640; AN-324442; AN-324921; AN-324953; AN-324977; AN-324979; AN-325124; AN-325395; AN-325433; AN-325535; AN-325693; AN-325720; AN-325835; AN-325880; AN-325957; AN-325984; AN-326054; AN-326065; AN-326136; AN-326155; AN-326162; AN-326235; AN-326317; AN-326344; AN-326357; AN-326359; AN-326433; AN-326438; AN-326440; AN-326461; AN-326464; AN-326523; AN-326553; AN-326606; AN-326635; AN-326642; AN-326652; AN-326678; AN-326769; AN-326777; AN-326830; AN-326938; AN-326949; AN-327081; AN-327082; AN-327085; AN-327103; AN-327198; AN-327225; AN-327275; AN-327358; AN-327423; AN-327561; AN-327755; AN-327896; AN-327922; AN-328128; AN-328300; AN-328428; AN-328518; AN-328554
+AN-313983; AN-324189; AN-325095; AN-325677; AN-325886; AN-326068; AN-326360; AN-326458; AN-327290; AN-327315; AN-327353; AN-327505; AN-327589; AN-327609; AN-327922; AN-328110; AN-32822; AN-328261; AN-328496; AN-328577; AN-328629; AN-328736; AN-328888; AN-328899; AN-328902; AN-328921; AN-328958; AN-329208; AN-329277; AN-32932; AN-329334; AN-329335; AN-329336; AN-329357; AN-329385; AN-329387; AN-329397; AN-329463; AN-329501; AN-329504; AN-329505; AN-329515; AN-329524; AN-329526; AN-329534; AN-329539; AN-329541; AN-329543; AN-329545; AN-329564; AN-329570; AN-329623; AN-329624; AN-329636; AN-329646; AN-329647; AN-329668; AN-329701; AN-329737; AN-329741; AN-329751; AN-329812; AN-329813; AN-329821; AN-329824; AN-329833; AN-329848; AN-329852; AN-329861; AN-329863; AN-329874; AN-329882; AN-329911; AN-329917; AN-329942; AN-329954; AN-329968; AN-329971; AN-329982; AN-330044; AN-330052; AN-330131; AN-330132; AN-330230; AN-330352; AN-330367; AN-330541; AN-330599
 
 ## Avisos importantes para administradores do Adobe Analytics {#admin}
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| N/D | N/D | N/D |
+| **Ofuscação de IP completo para ocorrências do Adobe Experience Edge** | 27 de setembro de 2023 | A ofuscação de IP para ocorrências provenientes do Experience Edge será atualizada posteriormente em outubro de 2023. Em abril, a Experience Edge adicionou a capacidade de ofuscar endereços IP. Na época, o Adobe Analytics só oferecia suporte à ofuscação parcial de IPs, devido à forma como o Analytics processa ocorrências do Experience Edge. Quando os clientes optavam pela ofuscação completa para o Experience Edge, o Analytics recebia apenas IPs parcialmente ofuscados. Quando essa alteração for implementada, o Analytics receberá o IP totalmente ofuscado. |
+| **Livestream do Adobe Analytics - APIs do Analytics 2.0** | 27 de setembro de 2023 | Os clientes agora podem acessar o [Guia de endpoint para Livestream do Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) nas APIs do Adobe Analytics 2.0, em vez de no local anterior, com as APIs 1.4. Observe que os clientes que usam as credenciais de JWT do Adobe I/O devem migrar para as credenciais de servidor para servidor do Adobe I/O OAuth até 1º de janeiro de 2025. (Consulte os detalhes em Avisos de fim de vida útil abaixo.) |
 
 {style="table-layout:auto"}
 
@@ -56,7 +55,7 @@ AN-314882; AN-315591; AN-318165; AN-318559; AN-319031; AN-319244; AN-321657; AN-
 
 ## AppMeasurement
 
-Para obter as atualizações mais recentes sobre as versões do AppMeasurement (versão 2.24.0), consulte as [notas de versão do AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=pt-BR).
+Para obter as atualizações mais recentes sobre as versões do AppMeasurement (versão 2.25.0), consulte as [notas de versão do AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=pt-BR).
 
 
 ## Recursos relacionados
