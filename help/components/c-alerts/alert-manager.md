@@ -3,10 +3,10 @@ description: Gerenciar alertas.
 title: Visão geral do Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: cfae0661dfa9c61daea33c3a52204793ce3d35c1
+source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 41%
+source-wordcount: '448'
+ht-degree: 38%
 
 ---
 
@@ -61,6 +61,6 @@ Para configurar as colunas visíveis no Gerenciador de alertas:
    | Tags | Mostra marcas que foram aplicadas ao alerta por você ou por pessoas que compartilharam o alerta com você. |
    | Compartilhado com | Lista indivíduos ou grupos (somente administrador) ou Todos (somente administrador) com os quais você compartilhou o alerta. |
    | Data de modificação | Indica a data em que o alerta foi modificado pela última vez. |
-   | Última utilização | Mostra a data em que o alerta foi usado pela última vez. <p>Essas informações podem ajudar a determinar se um componente é relevante para usuários(as) em sua organização, onde é usado e se precisa ser excluído ou modificado.</p><p>Essas informações não incluem o uso da API, Report Builder ou Data Warehouse.</p> |
+   | Última utilização | Mostra a data em que o alerta foi usado pela última vez. <p>Essas informações podem ajudar a determinar se um componente é relevante para usuários(as) em sua organização, onde é usado e se precisa ser excluído ou modificado.</p><p>Considere o seguinte ao visualizar esta coluna:</p><ul><li>Essas informações não incluem o uso da API, Report Builder ou Data Warehouse.</li><li>Para alguns componentes, essa coluna pode não conter dados se o componente tiver sido usado pela última vez antes de setembro de 2023.</li></ul> |
 
    {style="table-layout:auto"}
