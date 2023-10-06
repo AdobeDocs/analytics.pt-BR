@@ -2,10 +2,11 @@
 description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
 title: Configurar um destino de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
-source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
+source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 16%
+source-wordcount: '2255'
+ht-degree: 15%
 
 ---
 
@@ -78,7 +79,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -90,7 +91,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -106,7 +107,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -120,7 +121,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Email
 
@@ -147,7 +148,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -160,7 +161,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -173,7 +174,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -187,7 +188,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       {style="table-layout:auto"}
 
-      +++
++++
 
    1. Selecione [!UICONTROL **Salvar**].
 
@@ -209,14 +210,59 @@ Os dados do data warehouse podem ser entregues para um Adobe ou local FTP hosped
 
 Use as seguintes informações ao preencher os campos disponíveis:
 
-* [!UICONTROL **Host**]: digite o URL de destino FTP desejado. Por exemplo, `ftp://ftp.omniture.com`.
-* [!UICONTROL **Caminho**]: pode ser deixado em branco
+#### Campos de conta
+
+* [!UICONTROL **Nome da conta**]: o nome da conta FTP.
+
+* [!UICONTROL **Descrição da conta**]: uma descrição da conta FTP.
+
+* [!UICONTROL **Nome do host**]: digite o URL de destino FTP desejado. Por exemplo, `ftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  Não incluir `ftp://` no início do URL.
+
 * [!UICONTROL **Nome de usuário**]: digite o nome de usuário para fazer logon no site FTP.
+
 * [!UICONTROL **Senha e confirmação da senha**]: digite a senha para fazer logon no site FTP.
+
+#### Campos de localização
+
+* [!UICONTROL **Nome do local**]: o nome do local na conta FTP para o qual você deseja enviar os arquivos.
+
+* [!UICONTROL **Descrição do local**]: uma descrição do local na conta FTP.
+
+* [!UICONTROL **Caminho do diretório**]: O caminho para o local na conta FTP.
 
 ### SFTP
 
 O suporte SFTP para data warehouse está disponível. Exige que um host SFTP, nome de usuário e site de destino contenham uma chave pública RSA ou DSA válida. Você pode baixar a chave pública apropriada ao criar o destino do data warehouse.
+
+Use as seguintes informações ao preencher os campos disponíveis:
+
+#### Campos de conta
+
+* [!UICONTROL **Nome da conta**]: o nome da conta FTP.
+
+* [!UICONTROL **Descrição da conta**]: uma descrição da conta FTP.
+
+* [!UICONTROL **Nome do host**]: digite o URL de destino do SFTP desejado. Por exemplo, `sftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  Não incluir `sftp://` no início do URL.
+
+* [!UICONTROL **Nome de usuário**]: digite o nome de usuário para fazer logon no site SFTP.
+
+* [!UICONTROL **Chaves públicas**]: Baixe a chave pública apropriada ao criar o destino do data warehouse.
+
+#### Campos de localização
+
+* [!UICONTROL **Nome do local**]: o nome do local na conta SFTP para o qual você deseja enviar os arquivos.
+
+* [!UICONTROL **Descrição do local**]: uma descrição do local na conta SFTP.
+
+* [!UICONTROL **Caminho do diretório**]: o caminho para o local na conta SFTP.
 
 ### S3
 
