@@ -4,19 +4,18 @@ title: Introdução ao Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 94%
 
 ---
 
 # Introdução ao Reports &amp; Analytics
 
-Antes de usar o Reports &amp; Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
+{{ra-eol}}
 
->[!IMPORTANT]
->A partir de **31 de dezembro de 2023**, a Adobe pretende descontinuar o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham. Quando isso ocorrer, o Reports &amp; Analytics e todos os seus relatórios e agendas não funcionarão mais. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
+Antes de usar o Reports &amp; Analytics, compreenda as tarefas básicas de logon e de configuração e como acessar as informações da conta.
 
 Os relatórios fornecem informações de seus canais com base na Web tradicionais e também de canais móveis, vídeo e de redes sociais. Alguns exemplos de relatórios de incluem:
 
@@ -40,7 +39,7 @@ Requisitos do navegador e do sistema necessários para fazer logon na interface 
 
 ## Fazer logon no Reports &amp; Analytics
 
-Antes de acessar a interface, entre em contato com a Equipe de conta do Adobe ou com o Atendimento ao cliente para configurar a conta da empresa.
+Antes de acessar a interface, entre em contato com a equipe de conta do Adobe ou com o Atendimento ao cliente para configurar a conta da sua empresa.
 
 ## Fazer logon usando a Experience Cloud
 

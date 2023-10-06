@@ -5,9 +5,9 @@ uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,6 @@ ht-degree: 100%
 Uma introdução aos recursos de um relatório, incluindo a barra de ferramentas, os calendários e a tabela de detalhes.
 
 Este exemplo mostra um [!UICONTROL Relatório de páginas]. As opções de configuração podem variar, dependendo do relatório que você está executando. Por exemplo, em vez de selecionar Com Tendência ou Classificado em um [!UICONTROL Relatório de conteúdo do sie], você pode especificar a granularidade e o nome da página para um relatório de [!UICONTROL Métricas do site].
-
->[!IMPORTANT]
->A partir de **31 de dezembro de 2023**, a Adobe pretende descontinuar o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham. Quando isso ocorrer, o Reports &amp; Analytics e todos os seus relatórios e agendas não funcionarão mais. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
 
 ## Exemplo de Relatório de páginas {#section_288CC85536684C2DB184141358481EF0}
 

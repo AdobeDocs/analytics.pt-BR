@@ -4,7 +4,7 @@ title: Métricas e dimensões em tempo real compatíveis  visão geral
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # Métricas e dimensões em tempo real compatíveis
+
+{{ra-eol}}
 
 Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As classificações também são suportadas, caso você as tenha definido.
 
