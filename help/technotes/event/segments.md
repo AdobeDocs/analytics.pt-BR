@@ -3,9 +3,9 @@ title: Excluir datas específicas na análise
 description: Dicas para excluir datas ou intervalos de datas se você não quiser incluí-los nos relatórios.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 feature: Event, Segmentation
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Se não quiser mostrar zeros na tabela ou nas visualizações (causando declíni
 
 ### Usar o segmento excluído em um conjunto de relatórios virtual {#use-vrs}
 
-Você pode usar o segmento em uma [conjunto de relatórios virtual](/help/components/vrs/vrs-about.md) para excluir os dados de maneira mais conveniente. Essa opção é ideal, pois você não precisa se lembrar de aplicar o segmento para cada relatório que inclua o intervalo de datas afetado. Se você já usa os conjuntos de relatórios virtuais como a principal fonte de dados, é possível adicionar o segmento a um VRS existente.
+Você pode usar o segmento em uma [conjunto de relatórios virtual](/help/components/vrs/vrs-about.md) para excluir os dados de maneira mais conveniente. Essa opção é ideal, pois você não precisa se lembrar de aplicar o segmento para cada relatório que inclua o intervalo de datas afetado. Se você já usa conjuntos de relatórios virtuais como fonte primária de dados, é possível adicionar o segmento a um conjunto de relatórios virtuais existente.
 
 1. Navegue até **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**.
 2. Clique em **[!UICONTROL Adicionar]**.
@@ -81,4 +81,4 @@ Você pode usar o segmento em uma [conjunto de relatórios virtual](/help/compon
 4. Arraste o segmento excluído para a área rotulada **[!UICONTROL Adicionar segmento]**.
 5. Clique em **[!UICONTROL Continuar]** no canto superior direito e clique em **[!UICONTROL Salvar]**.
 
-![Segmento aplicado ao VRS](assets/exclude_segment_vrs.png)
+![Segmento aplicado ao conjunto de relatórios virtual](assets/exclude_segment_vrs.png)

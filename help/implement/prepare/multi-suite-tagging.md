@@ -3,10 +3,10 @@ description: Saiba como implementar a marcação de vários relatórios a fim de
 title: Implementação de marcação de vários relatórios
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -36,4 +36,4 @@ A marcação de vários relatórios incorre em várias chamadas de servidor para
 
 Usar conjuntos de relatórios virtuais em vez da marcação de vários relatórios geralmente é uma prática recomendada, mas são suas necessidades empresariais que determinam a melhor abordagem de conjunto de relatórios para a sua organização.
 
-Para entender se os conjuntos de relatórios virtuais são a melhor abordagem, consulte &quot;[Considerações sobre conjuntos de relatórios virtuais e marcação de vários relatórios](/help/components/vrs/vrs-considerations.md)&quot;. Consulte também &quot;[Conjuntos de relatórios virtuais vs. Marcação de vários relatórios](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; para obter uma comparação das duas funcionalidades.
+Para entender se os conjuntos de relatórios virtuais são a melhor abordagem, consulte &quot;[Considerações sobre conjuntos de relatórios virtuais e marcação de vários relatórios](/help/components/vrs/vrs-considerations.md)&quot;. Consulte também &quot;[Conjuntos de relatórios virtuais versus marcação de vários relatórios](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; para obter uma comparação entre a marcação de vários relatórios e a funcionalidade do conjunto de relatórios virtual.

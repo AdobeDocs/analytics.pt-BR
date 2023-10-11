@@ -4,10 +4,10 @@ description: Obtenha respostas para perguntas frequentes sobre atribuição.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: aeb5558c85286c069b49663919fdbb15853bf88e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 73%
+source-wordcount: '1222'
+ht-degree: 71%
 
 ---
 
@@ -146,7 +146,7 @@ Quando a atribuição é aplicada a ocorrências de vários valores, todos os va
 
 A atribuição sempre é executada antes da segmentação e a segmentação é executada antes da aplicação dos filtros do relatório. Esse conceito também se aplica a conjuntos de relatórios virtuais (VRS) que usam segmentos.
 
-Por exemplo, se você criar um VRS com um segmento “Exibir ocorrências” aplicado, poderá ver outros canais em uma tabela usando alguns modelos de atribuição.
+Por exemplo, se você criar um conjunto de relatórios virtual com um segmento &quot;Exibir ocorrências&quot; aplicado, poderá ver outros canais em uma tabela usando alguns modelos de atribuição.
 
 ![Conjunto de relatórios virtuais “somente exibição”](assets/vrs-aiq-example.png)
 

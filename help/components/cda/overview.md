@@ -3,10 +3,10 @@ title: Análise entre dispositivos
 description: Faça com que seus dados se concentrem em pessoas e não em dispositivos compilando os dados do dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ O Análise entre dispositivos é um recurso inovador e robusto, mas tem limitaç
 * Os conjuntos de relatórios do Adobe Analytics não podem mapear para mais de uma ID de organização. Como o CDA compila os dispositivos em um conjunto de relatórios específico, o CDA não pode ser usado para compilar dados em várias IDs de organização.
 * O CDA usa um pipeline de processamento complexo, com vários componentes dependentes. Isso é executado em paralelo com o fluxo de trabalho básico de relatórios do Analytics. Portanto, é esperada uma incompatibilidade de dados de aproximadamente 1% entre o número total de ocorrências do conjunto de relatórios original e o do conjunto de relatórios virtual do CDA.
 * O Análise entre dispositivos usa um conjunto de relatórios virtual e um processamento de tempo de relatório, que têm suas próprias limitações. Por exemplo, no momento, eles não são compatíveis com as variáveis de canais de marketing. Consulte [Conjuntos de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=pt-BR) e [Processamento de tempo de relatório](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=pt-BR#report-time-processing-limitations) para obter mais informações sobre essas limitações.
-* O Gráfico privado aproveita as mesmas sincronizações de ID que as usadas pelo recurso [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR#customer-attributes) encontrado na Experience Cloud e no Adobe Analytics. No entanto, os conjuntos de relatórios virtuais do CDA (com base no gráfico privado ou na compilação em campo) não são compatíveis com o restante da funcionalidade de Atributos do cliente. Ou seja, as dimensões baseadas em atributos do cliente não estão disponíveis para uso nos conjuntos de relatórios virtuais do CDA.
+* O Gráfico privado aproveita as mesmas sincronizações de ID que as usadas pelo [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR#customer-attributes) recurso encontrado no Experience Cloud e no Adobe Analytics. No entanto, os conjuntos de relatórios virtuais do CDA (com base no gráfico privado ou na compilação em campo) não são compatíveis com o restante da funcionalidade de atributos do cliente. Ou seja, as dimensões baseadas em atributos do cliente não estão disponíveis para uso nos conjuntos de relatórios virtuais do CDA.
 * No momento, o CDA não é compatível com o A4T.
 * Não há suporte para a API 1.4. Os conectores do Power BI e do Report Builder dependem da API 1.4 e, portanto, não são compatíveis com o CDA.
 * O monitoramento ativo do processo de compilação do CDA pela Adobe está limitado apenas aos conjuntos de relatórios de produção.

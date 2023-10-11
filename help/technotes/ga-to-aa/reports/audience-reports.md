@@ -3,10 +3,10 @@ title: Relatórios de público-alvo no Adobe Analytics
 description: Saiba como criar relatórios baseados no público-alvo usando a Analysis Workspace.
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1715'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,9 +59,9 @@ O relatório Explorador de usuários permite que um analista visualize visitas i
 
 Os dados demográficos e de interesses fornecem informações sobre a idade, o gênero e os interesses dos usuários do site. Esses dados são coletados pelo Google por meio das habilidades de rastreamento entre sites.
 
-Dados demográficos e de interesse não são coletados automaticamente pela Adobe. No entanto, se a organização obtiver esses dados, você poderá usar o Atributos do cliente, um recurso da Adobe Experience Cloud Platform. Ele permite o controle total da organização de dados por atributos, e não se limita a apenas demografia ou interesses.
+Dados demográficos e de interesse não são coletados automaticamente pela Adobe. No entanto, se sua organização obtiver esses dados, você poderá usar os atributos do cliente, um recurso da Plataforma Adobe Experience Cloud. Ele permite o controle total da organização de dados por atributos, e não se limita a apenas demografia ou interesses.
 
-Consulte a Ajuda dos Atributos do cliente para obter mais informações.
+Consulte Ajuda dos atributos do cliente para obter mais informações.
 
 ## Geo - Idioma
 

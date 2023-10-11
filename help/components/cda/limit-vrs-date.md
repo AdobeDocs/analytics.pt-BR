@@ -1,24 +1,24 @@
 ---
-title: Limitar um VRS a determinadas datas
-description: Entenda como limitar um intervalo de datas do VRS para focalizar apenas dados compilados.
+title: Limitar um conjunto de relatórios virtual a determinadas datas
+description: Entenda como limitar um intervalo de datas do Conjunto de relatórios virtual para focalizar apenas dados compilados.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 82%
+source-wordcount: '275'
+ht-degree: 35%
 
 ---
 
-# Limitar um VRS a determinadas datas
+# Limitar um conjunto de relatórios virtual a determinadas datas
 
-Quando ativamos a compilação, ela começa em uma data específica. Vamos supor que a data seja 1º de junho. O CDA VRS conterá dados não compilados anteriores a 1° de junho. Talvez você queira ocultar os dados no VRS anteriores a 1° de junho para que sua análise possa focalizar intervalos de datas depois do início da compilação.
+Quando ativamos a compilação, ela começa em uma data específica. Vamos supor que a data seja 1º de junho. O conjunto de relatórios virtuais da CDA conterá dados não compilados anteriores a 1° de junho. Talvez você queira ocultar os dados no Conjunto de relatórios virtuais anteriores a 1° de junho para que sua análise possa se concentrar em intervalos de datas após o início da compilação.
 
-É possível limitar os dados do VRS a determinadas datas fazendo o seguinte:
+É possível limitar os dados do Conjunto de relatórios virtual a determinadas datas fazendo o seguinte:
 
-## Etapa 1: Criar VRS com um intervalo de datas diário contínuo
+## Etapa 1: Criar conjunto de relatórios virtual com um intervalo de datas diário contínuo
 
-Ao configurar o VRS, em Componentes, adicione um intervalo de datas com início fixo, com um intervalo de datas diário contínuo. O início fixo deve ser o dia em que a compilação começou.
+Ao configurar o Conjunto de relatórios virtuais, em Componentes, adicione um intervalo de datas com início fixo, com um intervalo de datas diário contínuo. O início fixo deve ser o dia em que a compilação começou.
 
 ![](assets/rolling-daily.png)
 
@@ -30,7 +30,7 @@ O motivo para &quot;excluir-excluir&quot; é que os intervalos de datas devem su
 
 ![](assets/exclude-exclude.png)
 
-## Etapa 3: Aplicar este segmento ao seu CDA VRS
+## Etapa 3: aplique esse segmento ao conjunto de relatórios virtuais do Cross-device Analytics
 
 ![](assets/apply-segment.png)
 

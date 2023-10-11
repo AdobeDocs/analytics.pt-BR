@@ -3,10 +3,10 @@ description: Descrições dos tipos de conjunto de relatórios e comparação en
 title: Abordagens do conjunto de relatórios
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '973'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -26,17 +26,17 @@ A Adobe recomenda implementar um conjunto de relatórios global na maioria dos c
 
 * **Marcação de vários relatórios**: permite enviar solicitações de imagem não apenas para um conjunto de relatórios global, mas também para conjuntos de relatórios secundários individuais. Os dados do relatório global são desduplicados em todos os conjuntos de relatórios.
 
-   Por exemplo, é possível coletar todos os dados em um conjunto de relatórios global e também configurar conjuntos de relatórios secundários com base na marca, região ou outro diferencial. As diferentes equipes na empresa podem então se concentrar nos dados dos conjuntos de relatórios que são relevantes para elas.
+  Por exemplo, é possível coletar todos os dados em um conjunto de relatórios global e também configurar conjuntos de relatórios secundários com base na marca, região ou outro diferencial. As diferentes equipes na empresa podem então se concentrar nos dados dos conjuntos de relatórios que são relevantes para elas.
 
-   Para usar a marcação de vários relatórios, implemente conjuntos de relatórios secundários e um conjunto de relatórios global que inclua todos os dados dos secundários. O código de rastreamento de suas páginas da web e aplicativos incluirá a ID de conjunto de relatórios (RSID) do conjunto de relatórios global e também as RSIDs dos conjuntos de relatórios secundários aplicáveis.<!-- Wording/be more specific? And include any links? -->
+  Para usar a marcação de vários relatórios, implemente conjuntos de relatórios secundários e um conjunto de relatórios global que inclua todos os dados dos secundários. O código de rastreamento de suas páginas da web e aplicativos incluirá a ID de conjunto de relatórios (RSID) do conjunto de relatórios global e também as RSIDs dos conjuntos de relatórios secundários aplicáveis.<!-- Wording/be more specific? And include any links? -->
 
-   É feita uma chamada de servidor separada para cada conjunto de relatórios na solicitação de imagem. As chamadas para os conjuntos de relatórios secundários são chamadas secundárias.
+  É feita uma chamada de servidor separada para cada conjunto de relatórios na solicitação de imagem. As chamadas para os conjuntos de relatórios secundários são chamadas secundárias.
 
 * **Conjunto de relatórios virtual**: um [conjunto de relatórios virtual](/help/components/vrs/vrs-about.md) é uma consulta de segmentos especificados coletados em um conjunto de relatórios global e disponível para grupos específicos de usuários. Os conjuntos de relatórios virtuais permitem preparar elementos de relatório para diferentes usuários finais sem usar a marcação de vários relatórios, evitando assim chamadas de servidor secundárias.
 
-   Para usar conjuntos de relatórios virtuais, implemente um conjunto de relatórios global e analise os dados para criar conjuntos de relatórios virtuais com segmentos específicos aplicados e com permissões de grupo específicas. É possível criar conjuntos de relatórios virtuais no Gerenciador de conjuntos de relatórios virtuais ([!UICONTROL Componentes] > [!UICONTROL Conjuntos de relatórios virtuais]). Consulte “[Fluxo de trabalho dos conjuntos de relatórios virtuais](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)” para obter mais informações.
+  Para usar conjuntos de relatórios virtuais, implemente um conjunto de relatórios global e analise os dados para criar conjuntos de relatórios virtuais com segmentos específicos aplicados e com permissões de grupo específicas. É possível criar conjuntos de relatórios virtuais no Gerenciador de conjuntos de relatórios virtuais ([!UICONTROL Componentes] > [!UICONTROL Conjuntos de relatórios virtuais]). Consulte “[Fluxo de trabalho dos conjuntos de relatórios virtuais](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)” para obter mais informações.
 
-O uso de conjuntos de relatórios virtuais em vez da marcação de vários relatórios é geralmente uma prática recomendada, mas conjuntos de relatórios virtuais têm algumas limitações. Consulte “[Considerações sobre os conjuntos de relatórios virtuais e a marcação de vários relatórios](/help/components/vrs/vrs-considerations.md)” para determinar qual abordagem de conjunto de relatórios é a melhor opção para suas necessidades comerciais. Para obter uma comparação detalhada entre os conjuntos de relatórios virtuais e a funcionalidade de marcação de vários relatórios, consulte “[Conjuntos de relatórios virtuais versus Marcação de vários relatórios](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)”.
+O uso de conjuntos de relatórios virtuais em vez da marcação de vários relatórios é geralmente uma prática recomendada, mas conjuntos de relatórios virtuais têm algumas limitações. Consulte “[Considerações sobre os conjuntos de relatórios virtuais e a marcação de vários relatórios](/help/components/vrs/vrs-considerations.md)” para determinar qual abordagem de conjunto de relatórios é a melhor opção para suas necessidades comerciais. Para obter uma comparação detalhada entre os conjuntos de relatórios virtuais e a funcionalidade de marcação de vários relatórios, consulte &quot;[Conjuntos de relatórios virtuais versus marcação de vários conjuntos](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
 ## Relatórios de rollup
 

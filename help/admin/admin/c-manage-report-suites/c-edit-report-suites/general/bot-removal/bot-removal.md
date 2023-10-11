@@ -3,10 +3,10 @@ title: Remoção de bot no Adobe Analytics
 description: Como remover bots no Adobe Analytics
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ Para obter mais informações, consulte o [Manual de implementação do Adobe An
 
 ## Usar uma combinação de ferramentas da Adobe
 
-Além disso, como os bots estão se modificando rapidamente, a Adobe oferece vários outros recursos avançados que, quando combinados de forma adequada e regular, podem ajudar a remover esses inimigos da qualidade dos dados. Esses recursos são: Serviço da Experience Cloud ID, Segmentação, Data Warehouse, Atributos do cliente e Conjuntos de relatórios virtuais. Esta é uma visão geral de como você pode usar essas ferramentas.
+Além disso, como os bots estão se modificando rapidamente, a Adobe oferece vários outros recursos avançados que, quando combinados de forma adequada e regular, podem ajudar a remover esses inimigos da qualidade dos dados. Esses recursos são: serviço de ID de Experience Cloud, segmentação, Data Warehouse, atributos do cliente e conjuntos de relatórios virtuais. Esta é uma visão geral de como você pode usar essas ferramentas.
 
 ### Etapa 1: transmita a Experience Cloud ID dos seus visitantes para uma nova ID declarada
 
@@ -66,26 +66,26 @@ Agora que você identificou os bots usando segmentos, a próxima etapa é usar o
 
 Lembre-se de usar a ID de visitante da Experience Cloud como dimensão e aplicar o segmento &quot;Bots&quot;.
 
-### Etapa 4: transmitir essa lista para a Adobe como um Atributo do cliente
+### Etapa 4: transmitir essa lista de volta para o Adobe como um atributo do cliente
 
 Quando o relatório do Data Warehouse chegar, você terá uma lista de ECIDs que precisam ser filtradas dos dados históricos. Copie e cole esses ECIDs em um arquivo .CSV em branco com apenas duas colunas, ECID e Sinalizador de bot.
 
 * **ECID**: verifique se este cabeçalho de coluna corresponde ao nome que você deu à nova ID declarada acima.
-* **Sinalizador de bot**: adicione &quot;Sinalizador de bot&quot; como uma dimensão de esquema de Atributo do cliente.
+* **Sinalizador de bot**: adicione &quot;Sinalizador de bot&quot; como uma dimensão de esquema de atributo do cliente.
 
-Use esse arquivo .CSV como seu arquivo de importação do Atributo do cliente e assine os conjuntos de relatórios no Atributo do cliente, conforme descrito nesta [publicação do blog](https://theblog.adobe.com/link-digital-behavior-customers).
+Use esse arquivo .CSV como seu arquivo de importação do atributo do cliente e assine os conjuntos de relatórios no atributo do cliente, conforme descrito neste [publicação do blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
-### Etapa 5: criar um segmento que aproveite o novo Atributo do cliente
+### Etapa 5: criar um segmento que aproveite o novo atributo do cliente
 
 Assim que o conjunto de dados for processado e integrado ao Analysis Workspace, crie mais um segmento que aproveita a nova dimensão de atributo de cliente &quot;Sinalizador de bot&quot; e um container [!UICONTROL Excluir]:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-filter-seg2.png)
 
-### Etapa 6: usar esse segmento como filtro do Conjunto de relatórios virtuais
+### Etapa 6: usar esse segmento como filtro do conjunto de relatórios virtual
 
-Por fim, crie um [Conjunto de relatórios virtuais](/help/components/vrs/vrs-about.md) que usa esse segmento para filtrar os bots identificados:
+Por fim, crie uma [Conjunto de relatórios virtual](/help/components/vrs/vrs-about.md) que usa esse segmento para filtrar os bots identificados:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

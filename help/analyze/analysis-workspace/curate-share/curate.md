@@ -5,10 +5,10 @@ title: Preparar projetos do
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 68%
 
 ---
 
@@ -49,26 +49,26 @@ Para remover a preparação do projeto e restaurar o conjunto completo de compon
 1. Clique em **[!UICONTROL Remover preparação]**.
 1. Clique em **[!UICONTROL Concluído]**.
 
-## Preparação do Conjunto de relatórios virtual (VRS)
+## Curadoria do conjunto de relatórios virtual
 
-Para aplicar curadoria em um nível de conjunto de relatórios, de modo que se aplique a muitos projetos ao mesmo tempo, é possível [preparar componentes em um conjunto de relatórios virtuais (VRS)](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=pt-BR).
+Para aplicar curadoria em um nível de conjunto de relatórios, de modo que se aplique a muitos projetos ao mesmo tempo, é possível [preparar componentes em um conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=pt-BR).
 
 >[!NOTE]
-> A reparação do VRS é sempre aplicada antes da preparação do projeto. Isso significa que, mesmo se o projeto preparado incluir determinados componentes, eles serão filtrados se o VRS não preparado não os incluir.
+> A preparação do conjunto de relatórios virtual é sempre aplicada antes da preparação do projeto. Isso significa que, mesmo se o projeto preparado incluir determinados componentes, eles serão filtrados se o conjunto de relatórios virtuais preparado não os incluir.
 
 ## Opção Mostrar todos os componentes
 
-Em um projeto com curadoria de VRS, o recipient terá a opção de **[!UICONTROL Mostrar todos]** os componentes no painel esquerdo. [!UICONTROL Mostrar tudo] revela conjuntos diferentes de componentes, dependendo do/da:
+Em um projeto com curadoria ou conjunto de relatórios virtual, o recipient terá a opção de **[!UICONTROL Mostrar tudo]** componentes no painel esquerdo. [!UICONTROL Mostrar tudo] revela conjuntos diferentes de componentes, dependendo do/da:
 
-* Nível de permissão do usuário (admin ou non-admin)
+* O nível de permissão do usuário (administrador ou não)
 * Função do projeto (proprietário/editor ou não)
-* Tipo de preparação aplicada (VRS ou projeto)
+* Tipo de preparação aplicada (conjuntos de relatórios virtuais ou projeto)
 * Componentes pertencentes ao usuário ou compartilhados com ele. Os componentes pertencentes/compartilhados incluem segmentos, métricas calculadas e intervalos de datas. Eles não incluem componentes implementados, como eVars, props e eventos personalizados.
 
 Observação: as funções de visualização que não são de administração não têm acesso ao painel esquerdo em um projeto, por isso, foram omitidas da tabela abaixo.
 
 | Tipo de preparação | Administradores | Proprietário do projeto não administrativo ou função de edição | Função duplicada que não é de administração |
 |---|---|---|---|
-| Conjunto de relatórios virtual preparado | Todos os componentes de VRS não preparados | Componentes de VRS não preparados de propriedade desta função ou compartilhados com ela | Componentes de VRS não preparados de propriedade desta função ou compartilhados com ela |
+| Conjunto de relatórios virtuais preparado | Todos os componentes do conjunto de relatórios virtual não preparados | Componentes do conjunto de relatórios virtual não preparados dessa função ou que foram compartilhados com ela | Componentes do conjunto de relatórios virtual não preparados dessa função ou que foram compartilhados com ela |
 | Projeto preparado | Todos os componentes de projeto não preparados | Todos os componentes de projeto não preparados | Componentes de projeto não preparados de propriedade desta função ou compartilhados com ela |
-| Projeto preparado em um conjunto de relatórios virtual preparado | Todos os componentes não preparados, exibidos em **[!UICONTROL Componentes de projeto não preparados]** e **[!UICONTROL Componentes de VRS não preparados]** | Todos os componentes de projeto não preparados e os componentes de VRS não preparados dessa função ou que foram compartilhados com ela | Componentes de projeto e de VRS não preparados de propriedade dessa função ou compartilhados com ela |
+| Projeto preparado em um conjunto de relatórios virtuais preparado | Todos os componentes não preparados, mostrados em **[!UICONTROL Componentes de projeto não preparados]** e **[!UICONTROL Componentes do conjunto de relatórios virtual não preparados]** | Todos os componentes de projeto não preparados E os componentes de conjunto de relatórios virtuais não preparados dessa função ou que foram compartilhados com ela | Componentes de projeto e de conjunto de relatórios virtuais não preparados de propriedade dessa função ou que foram compartilhados com ela |

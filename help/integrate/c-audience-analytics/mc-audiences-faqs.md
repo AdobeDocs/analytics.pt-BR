@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Perguntas frequentes sobre o Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -146,7 +146,7 @@ Para obter mais perguntas frequentes sobre esse tópico, consulte [Perguntas fre
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Qual é a diferença entre os atributos do cliente e os dados do cliente integrados no Adobe Audience Manager?</b> </p> </td> 
-   <td colname="col2"> <p>Atributos de clientes não são baseados em tempo; eles são aplicados retroativamente e progressivamente. Os dados integrados do Adobe Audience Manager são baseados em tempo e somente progressivos. Além disso, os Atributos do cliente são uma tabela de pesquisa para IDs de visitante do Experience Cloud, enquanto a integração do Adobe Audience Manager é um conjunto de dados em cada ocorrência para um visitante. </p> </td> 
+   <td colname="col2"> <p>Os atributos do cliente não são baseados em tempo; eles são aplicados retroativamente e progressivamente. Os dados integrados do Adobe Audience Manager são baseados em tempo e somente progressivos. Além disso, os atributos do cliente são uma tabela de pesquisa para IDs de visitante do Experience Cloud, enquanto a integração do Adobe Audience Manager são dados compilados em cada ocorrência para um visitante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: E abordagens herdadas a este problema, por exemplo, o beta anterior ou o plug-in de consulta cookie-destinations?</b> </p> </td> 

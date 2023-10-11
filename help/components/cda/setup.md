@@ -3,10 +3,10 @@ title: Configurar o Cross-Device Analytics
 description: Configure um conjunto de relatórios virtual para ativar o CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '532'
+ht-degree: 92%
 
 ---
 
@@ -37,10 +37,10 @@ Os administradores com acesso para criar conjuntos de relatórios virtuais podem
 
 1. Navegue até [experience.adobe.com](https://experiencecloud.adobe.com) e faça logon usando as credenciais da Adobe ID.
 2. Clique no ícone de 9-grid na parte superior e clique em Analytics.
-3. Passe o mouse sobre Componentes na parte superior e clique em Conjuntos de relatórios virtuais.
+3. Focalizar **[!UICONTROL Componentes]** na parte superior e clique em **[!UICONTROL Conjuntos de relatórios virtuais]**.
 4. Clique em Adicionar.
 5. Insira um nome para o conjunto de relatórios virtual e verifique se o conjunto de relatórios habilitado para CDA está selecionado.
-6. (Opcional) Aplique um segmento ao conjunto de relatórios virtual. Por exemplo, você pode aplicar um segmento que limita o conjunto de relatórios virtual a datas, depois que o CDA foi ativado e que a compilação começou. Esse segmento permite que os usuários vejam apenas os intervalos de datas compilados no VRS.
+6. (Opcional) Aplique um segmento ao conjunto de relatórios virtual. Por exemplo, você pode aplicar um segmento que limita o conjunto de relatórios virtual a datas, depois que o CDA foi ativado e que a compilação começou. Esse segmento permite que os usuários vejam apenas os intervalos de datas compilados no Conjunto de relatórios virtual.
 7. Clique na caixa de seleção &quot;Ativar processamento de tempo do relatório&quot;, que permite várias outras opções, incluindo o Cross-Device Analytics.
 8. Clique na caixa de seleção &quot;Identificar visitas de usuários em todos os dispositivos&quot;.
 9. Clique em Continuar, conclua a configuração do conjunto de relatórios virtual e clique em Salvar.

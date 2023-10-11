@@ -1,27 +1,27 @@
 ---
 description: Os conjuntos de relatórios virtuais e a marcação de vários conjuntos têm vantagens diferentes. Saiba qual é o melhor para sua organização.
-keywords: Conjunto de relatórios virtual, VRS
+keywords: Conjunto de relatórios virtuais
 title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 97%
+source-wordcount: '1766'
+ht-degree: 86%
 
 ---
 
 # Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 
-Os Conjuntos de relatórios virtuais (VRS) permitem exibir dados de um conjunto de relatórios que está coletando dados de suas propriedades digitais, mas com um segmento aplicado permanentemente.
+Os conjuntos de relatórios virtuais permitem exibir dados de um conjunto de relatórios que está coletando dados de suas propriedades digitais, mas com um segmento aplicado permanentemente.
 
 Em muitos casos, você pode usar conjuntos de relatórios virtuais para substituir a marcação de vários conjuntos. Alternar para conjuntos de relatórios virtuais pode efetivamente remover a necessidade de [chamadas de servidor secundárias](/help/admin/admin/c-server-call-usage/overage-overview.md). Por exemplo, sua organização tem 6 sites diferentes, cada um enviando dados para seu próprio conjunto de relatórios, bem como um conjunto de relatórios global combinado. Cada site recebe uma chamada de servidor secundária; um para o conjunto de relatórios de marca individual e um segundo para o conjunto de relatórios global. Em vez disso, você pode enviar dados de todos os sites exclusivamente para o conjunto de relatórios global e, em seguida, usar vários conjuntos de relatórios virtuais para separar cada marca.
 
-Substituir a marcação de vários conjuntos pelo conjunto de relatórios global e os VRS permite simplificar sua implementação do Adobe Analytics e reduzir o consumo de chamada do servidor, o que é uma prática recomendada. No entanto, há algumas limitações importantes do VRS a serem consideradas. As orientações a seguir podem ajudá-lo a decidir se a melhor opção para você é implementar os conjuntos de relatórios virtuais integrados em um conjunto de relatórios global.
+Substituir a marcação de vários conjuntos pelo conjunto de relatórios global e virtual permite simplificar sua implementação do Adobe Analytics e reduzir o consumo de chamada do servidor, o que é uma prática recomendada. No entanto, há algumas limitações importantes dos Conjuntos de relatórios virtuais que devem ser consideradas. As orientações a seguir podem ajudá-lo a decidir se a melhor opção para você é implementar os conjuntos de relatórios virtuais integrados em um conjunto de relatórios global.
 
 ## Diretrizes
 
-Se não tiver certeza se os casos de uso descritos se aplicam a você e à sua organização, consulte outros administradores da Adobe Analytics ou a Equipe de conta do Adobe. Eles podem ajudar a avaliar suas necessidades corporativas e recomendar a melhor opção.
+Se não tiver certeza se os casos de uso descritos se aplicam a você e a sua organização, consulte outros administradores da Adobe Analytics ou a equipe de conta do Adobe. Eles podem ajudar a avaliar suas necessidades corporativas e recomendar a melhor opção.
 
 Tenha as seguintes considerações em mente ao determinar se deve usar a marcação de vários conjuntos ou conjuntos de relatórios virtuais:
 
@@ -55,13 +55,13 @@ Certifique-se de que o número de dimensões e métricas exclusivas possa se aju
 
 >[!TIP]
 >
->Com a introdução da [curadoria](/help/analyze/analysis-workspace/curate-share/curate.md), agora é possível alterar o nome de uma determinada dimensão ou métrica com base no VRS.
+>Com a introdução do [curadoria](/help/analyze/analysis-workspace/curate-share/curate.md), você pode alterar o nome de uma determinada dimensão ou métrica com base no Conjunto de relatórios virtuais.
 
 ### Nuances de segmentação
 
 Um conjunto de relatórios virtual em um nível fundamental é simplesmente um segmento aplicado a um conjunto de relatórios. As dimensões com base em visita e em visitantes podem fornecer resultados de relatório intuitivos.
 
-Por exemplo, você tem dois sites, A e B, ambos enviando dados para um conjunto de relatórios global. Alguns visitantes inevitavelmente passam do site A para o site B, e esse movimento de um para o outro é visível na definição de caminho no conjunto de relatórios global. Se você criar conjuntos de relatórios virtuais para os sites A e B, uma visita que começou no site A e terminou no site B não mostraria uma página de entrada no VRS B. A página de entrada desta visita começou no site A, que é segmentado para fora do conjunto de relatórios virtual.
+Por exemplo, você tem dois sites, A e B, ambos enviando dados para um conjunto de relatórios global. Alguns visitantes inevitavelmente passam do site A para o site B, e esse movimento de um para o outro é visível na definição de caminho no conjunto de relatórios global. Se você criar conjuntos de relatórios virtuais para os sites A e B, uma visita que começou no site A e terminou no site B não mostraria uma página de entrada no conjunto de relatórios virtual B. A página de entrada dessa visita começou no site A, que é segmentado para fora do conjunto de relatórios virtual.
 
 ### Conversão de moeda
 
@@ -83,7 +83,7 @@ Por exemplo, somente um DCM do Google é permitido por conjunto de relatórios. 
 
 ### Fontes de dados de resumo
 
-As Fontes de dados de resumo permitem importar métricas agregadas para o Adobe Analytics a um nível de conjunto de relatórios. Como os uploads das fontes de dados de resumo contêm métricas agregadas *sem uma ID de visitante*, eles não podem ser segmentados nos contêineres [!UICONTROL Visita] e [!UICONTROL Visitante]. Como o VRS opera usando a segmentação, os dados importados usando fontes de dados de resumo não estarão disponíveis nos conjuntos de relatórios virtuais se o segmento for criado usando um contêiner de Visita ou Visitante.
+As Fontes de dados de resumo permitem importar métricas agregadas para o Adobe Analytics a um nível de conjunto de relatórios. Como os uploads das fontes de dados de resumo contêm métricas agregadas *sem uma ID de visitante*, eles não podem ser segmentados nos contêineres [!UICONTROL Visita] e [!UICONTROL Visitante]. Como o Conjunto de relatórios virtual opera usando a segmentação, os dados importados usando fontes de dados de resumo não estarão disponíveis nos conjuntos de relatórios virtuais se o segmento for criado usando um contêiner de Visita ou Visitante.
 
 As fontes de dados de resumo são exibidas no conjunto de relatórios virtual se um contêiner de Ocorrência for usado e se esse contêiner de Ocorrência tiver regras condicionadas para incluir as informações da fonte de dados.
 
@@ -91,7 +91,7 @@ As fontes de dados de resumo são exibidas no conjunto de relatórios virtual se
 >
 >As fontes de dados de processamento completo oferecem suporte à segmentação e podem ser usadas em conjuntos de relatórios virtuais.
 
-## Etapas a serem seguidas se tiver decidido usar o VRS
+## Etapas a serem seguidas se tiver decidido usar o Conjunto de relatórios virtual
 
 Se optar por remover chamadas de servidor secundárias em favor dos conjuntos de relatórios virtuais:
 
@@ -100,7 +100,7 @@ Se optar por remover chamadas de servidor secundárias em favor dos conjuntos de
    * Como prática recomendada, considere usar o [empilhamento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar um segmento em um local e aplicá-lo a todos os conjuntos de relatórios virtuais dependentes.
    * Use contêineres de ocorrência se desejar manter os conjuntos de relatórios virtuais mais mutuamente exclusivos.
 2. Depois de confirmar que os conjuntos de relatórios virtuais estão configurados corretamente, remova as IDs do conjunto de relatórios secundário de sua implementação. Para remover conjuntos de relatórios secundários:
-   * Na extensão Adobe Analytics da Coleta de dados do Adobe Experience Platform, clique no &quot;x&quot; ao lado de qualquer conjunto de relatórios que não deseja mais usar.
+   * Na extensão do Adobe Analytics da Coleção de dados da Adobe Experience Platform, clique no &quot;x&quot; ao lado de qualquer conjunto de relatórios que você não deseja mais usar.
    * Em implementações JavaScript herdadas, localize a variável `s.account` e remova as IDs de conjunto de relatórios que você não deseja mais usar.
    * Em todos os casos, deixe apenas a ID do conjunto de relatórios global/principal para coletar dados para seus sites e aplicativos.
    * Navegue até Administração > Conjuntos de relatórios e oculte todos os conjuntos de relatórios secundários que não forem mais usados.

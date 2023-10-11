@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre o Advertising Analytics.
 title: Perguntas frequentes sobre análises de publicidade
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1419'
+ht-degree: 92%
 
 ---
 
@@ -94,8 +94,8 @@ ht-degree: 99%
    <td colname="col2"> <p>R: Antes de atribuir um conjunto de relatórios a uma conta do Advertising Analytics, o conjunto de relatórios desejado precisa ser <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >provisionado para os relatórios do Advertising Analytics </a>. </p> <p>Isso é feito por meio de uma página de Admin separada, acessível em: <span class="ignoretag"> <span class="uicontrol"> Administração </span>  &gt; <span class="uicontrol"> Conjunto de relatórios </span>  &gt; <span class="uicontrol"> [selecione o conjunto de relatórios habilitado para Experience Cloud] </span>  &gt; <span class="uicontrol"> Editar configurações </span>  &gt; <span class="uicontrol"> Configurações do Advertising Analytics  </span> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>P: É possível atribuir um <b>Conjunto de relatórios virtual</b> (VRS) a uma conta do Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Os conjuntos de relatórios virtuais não coletam dados, então não é possível mapear diretamente uma conta do Advertising Analytics para um VRS. </p> <p>Contudo, é possível mapear a conta do Advertising Analytics para o conjunto de relatórios principal do VRS no qual deseja ver os dados. </p> <p>As métricas do mecanismo de pesquisa (clique/custo/impressões) podem não ser exibidas nos VRS a não ser que você inclua uma condição “ou” na lógica do segmento baseada na ID do AMO (ou sua classificação). Exemplo: adicionar “todas as ocorrências em que a ID do AMO existe” incluirá as métricas do mecanismo de pesquisa no segmento. </p> </td> 
+   <td colname="col1"> <p>P: É possível atribuir um <b>conjunto de relatórios virtual</b> para uma conta da Advertising Analytics? </p> </td> 
+   <td colname="col2"> <p>R: Os conjuntos de relatórios virtuais não coletam dados, portanto, não é possível mapear diretamente uma conta do Advertising Analytics para um conjunto de relatórios virtual. </p> <p>No entanto, é possível mapear a conta do Advertising Analytics para o Conjunto de relatórios principal do Conjunto de relatórios virtuais no qual você deseja ver os dados. </p> <p>As métricas do mecanismo de pesquisa (clique/custo/impressões) podem não ser exibidas no conjunto de relatórios virtual a menos que você inclua uma condição "ou" na lógica do segmento com base na ID do AMO (ou sua classificação). Exemplo: adicionar “todas as ocorrências em que a ID do AMO existe” incluirá as métricas do mecanismo de pesquisa no segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Há métricas do Advertising Analytics reportáveis no relatório dos <b>Canais de marketing</b>? </p> </td> 
