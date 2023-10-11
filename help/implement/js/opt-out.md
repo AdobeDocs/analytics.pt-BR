@@ -3,14 +3,16 @@ title: Links para opção de não participação
 description: Saiba como criar e implementar links para opção de não participação para visitantes do site.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 92%
 
 ---
 
 # Implementar links para opção de não participação
+
+*Esta página de ajuda fornece aos clientes da Adobe Analytics a capacidade de fornecer links para opção de não participação aos usuários. Se você não for um cliente do Adobe Analytics, consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.*
 
 >[!IMPORTANT]
 >
@@ -38,7 +40,7 @@ A página de opção de não participação da organização depende do valor da
    1. No servidor da Web, abra o arquivo AppMeasurement.js usado no site em um editor de código ou texto.
    1. Observe o valor da variável `trackingServer`.
 
-* Usando o [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR):
+* Usando o [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Navegue até seu site usando o navegador Chrome.
    1. Abra o Experience Cloud Debugger e acesse a guia [!UICONTROL Rede].
    1. Observe o valor [!UICONTROL URL de solicitação - Nome do host].
