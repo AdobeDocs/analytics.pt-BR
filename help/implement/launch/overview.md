@@ -3,10 +3,10 @@ title: Implementar o Adobe Analytics usando a extensão do Analytics
 description: Saiba como implementar o Adobe Analytics usando tags e a extensão do Analytics
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 95%
+source-wordcount: '389'
+ht-degree: 87%
 
 ---
 
@@ -63,8 +63,8 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>6</td> 
-<td><b>Validar e publicar na produção</b>. Adicione a propriedade da tag ao seu site. Em seguida, use elementos de dados, regras, entre outros, para personalizar sua implementação.</td>
-<td><a href="./validate-publish-prod.md">Validar uma implementação de desenvolvimento e publicar na produção</a></td>
+<td><b>Validar e publicar na produção</b>. Incorpore o código para incluir a propriedade da tag nas páginas do site. Em seguida, use elementos de dados, regras, entre outros, para personalizar sua implementação.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Incorporar código</a><br/><a href="./validate-publish-prod.md">Validar uma implementação de desenvolvimento e publicar na produção</a></td>
 </tr>
 
 </table>

@@ -3,10 +3,10 @@ title: Implementar o Adobe Analytics usando o SDK da Web da Adobe Experience Pla
 description: Use a extensão SDK da Web na coleção de dados da Adobe Experience Platform para enviar dados ao Adobe Analytics.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 96%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -138,8 +138,8 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>8</td>
-<td><b>Iterar, validar e publicar</b> para produção. Adicione a propriedade da tag ao seu site. Em seguida, use elementos de dados, regras, entre outros, para personalizar sua implementação.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=pt-BR">Visão geral da publicação</a></td>
+<td><b>Iterar, validar e publicar</b> para produção. Incorpore o código para incluir a propriedade da tag nas páginas do site. Em seguida, use elementos de dados, regras, entre outros, para personalizar sua implementação.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Incorporar código</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=pt-BR">Visão geral da publicação</a></td>
 </tr>
 
 </table>
