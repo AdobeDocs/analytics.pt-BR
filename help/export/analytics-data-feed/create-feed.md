@@ -3,9 +3,9 @@ title: Criar um feed de dados
 description: Saiba como criar um feed de dados.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '3175'
+source-wordcount: '3163'
 ht-degree: 20%
 
 ---
@@ -117,9 +117,9 @@ Ao criar um feed de dados, você fornece ao Adobe:
 
    +++Azure RBAC
 
-   Você pode enviar feeds diretamente para um container do Azure usando a autenticação RBAC. Este tipo de destino requer um nome de bucket, uma ID de aplicativo, uma ID de locatário e uma Chave secreta.
+   Você pode enviar feeds diretamente para um container do Azure usando a autenticação RBAC. Este tipo de destino requer uma ID de Aplicativo, uma ID de Locatário e um Segredo.
 
-   Para configurar um bucket RBAC do Azure como destino de um feed de dados:
+   Para configurar uma conta do RBAC do Azure como destino para um feed de dados:
 
    1. Caso ainda não o tenha feito, crie um aplicativo do Azure que o Adobe Analytics possa usar para autenticação e, em seguida, conceda permissões de acesso no controle de acesso (IAM).
 
@@ -177,9 +177,9 @@ Ao criar um feed de dados, você fornece ao Adobe:
 
    +++Azure SAS
 
-   Você pode enviar feeds diretamente para um contêiner do Azure usando a autenticação SAS. Este tipo de destino requer um nome de bucket, uma ID de aplicativo, uma ID de locatário, um URI do cofre de chaves, um nome secreto do cofre de chaves e uma Chave secreta.
+   Você pode enviar feeds diretamente para um contêiner do Azure usando a autenticação SAS. Este tipo de destino requer uma ID do aplicativo, ID do locatário, URI do cofre de chaves, nome do segredo do cofre de chaves e segredo.
 
-   Para configurar um bucket SAS do Azure como destino para um feed de dados:
+   Para configurar o Azure SAS como destino para um feed de dados:
 
    1. Caso ainda não o tenha feito, crie um aplicativo do Azure que o Adobe Analytics possa usar para autenticação.
 
@@ -210,7 +210,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
          | Campo | Função |
          |---------|----------|
          | [!UICONTROL **Nome da conta**] | Um nome para a conta SAS do Azure. Esse nome é exibido no campo [!UICONTROL **Selecionar conta**] e pode ser qualquer nome que você escolher. |
-         | [!UICONTROL **Retirada de conta**] | Uma descrição para a conta SAS do Azure. Essa descrição é exibida na variável [!UICONTROL **Selecionar conta**] e pode ser qualquer nome que você escolher. |
+         | [!UICONTROL **Descrição da conta**] | Uma descrição para a conta SAS do Azure. Essa descrição é exibida na variável [!UICONTROL **Selecionar conta**] e pode ser qualquer nome que você escolher. |
          | [!UICONTROL **ID do aplicativo**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações estão localizadas no **Visão geral** no aplicativo. Para obter mais informações, consulte [Documentação do Microsoft Azure sobre como registrar um aplicativo na Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **ID do locatário**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações estão localizadas no **Visão geral** no aplicativo. Para obter mais informações, consulte [Documentação do Microsoft Azure sobre como registrar um aplicativo na Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **URI do cofre de chaves**] | <p>O caminho para o token SAS no Cofre de Chaves do Azure.  Para configurar o Azure SAS, você precisa armazenar um token SAS como um segredo usando o Cofre de Chaves do Azure. Para obter informações, consulte a [Documentação do Microsoft Azure sobre como definir e recuperar um segredo do Cofre de Chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Depois que o URI do cofre de chaves for criado, adicione uma política de acesso ao Cofre de Chaves para conceder permissão ao aplicativo do Azure que você criou. Para obter informações, consulte a [Documentação do Microsoft Azure sobre como atribuir uma política de acesso do Cofre da Chave](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |

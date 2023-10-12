@@ -4,10 +4,10 @@ title: Gerenciar solicitações do Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
+source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 18%
+source-wordcount: '927'
+ht-degree: 16%
 
 ---
 
@@ -73,6 +73,19 @@ Você pode exibir o histórico de todos os relatórios executados.
    ![Gerenciar uma solicitação](assets/dw-manage-request.png)
 
 1. Selecionar [!UICONTROL **Exibir histórico**].
+
+   A variável [!UICONTROL **Exibir solicitação de Data Warehouse**] exibe uma lista de entregas de relatório individuais.
+
+   ![Página Histórico de solicitações](assets/dw-request-history.png)
+
+1. Selecione um delivery de relatório e, em seguida, selecione qualquer uma das seguintes opções:
+
+   | Opção | Função |
+   |---------|----------|
+   | [!UICONTROL **Detalhes do destino**] | Mostra os detalhes da conta e do local associados à solicitação. Esta é a conta e o local configurados anteriormente, conforme descrito em [Configurar um destino de relatório para uma solicitação Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Cancelar relatório**] | Cancela o relatório. Não é possível cancelar relatórios com status de [!UICONTROL **Concluído**] ou [!UICONTROL **Cancelado**]. |
+   | [!UICONTROL **Executar relatório novamente**] | Executa o relatório novamente com os dados como estavam quando foi originalmente enviado. Você pode executar novamente um relatório que tenha qualquer um dos seguintes status: [!UICONTROL **Cancelado**], [!UICONTROL **Concluído**], [!UICONTROL **Erro - Processamento**] ou [!UICONTROL **Erro - Falha Ao Enviar**]. |
+   | [!UICONTROL **Reenviar relatório**] | Reenvia o arquivo de relatório gerado anteriormente. Você pode reenviar um relatório que tenha qualquer um dos seguintes status: [!UICONTROL **Concluído**] ou [!UICONTROL **Erro - Falha Ao Enviar**]. |
 
 ## Copiar solicitações
 
