@@ -4,10 +4,10 @@ title: Gerenciar solicitações do Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
+source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 16%
+source-wordcount: '1262'
+ht-degree: 13%
 
 ---
 
@@ -64,7 +64,7 @@ Para editar uma solicitação programada:
 
 ## Visualizar o histórico de uma solicitação
 
-Você pode exibir o histórico de todos os relatórios executados.
+Você pode exibir o histórico de qualquer solicitação de Data Warehouse feita.
 
 1. No Adobe Analytics, selecione [!UICONTROL **Ferramentas**] > [!UICONTROL **Data Warehouse**].
 
@@ -74,9 +74,26 @@ Você pode exibir o histórico de todos os relatórios executados.
 
 1. Selecionar [!UICONTROL **Exibir histórico**].
 
-   A variável [!UICONTROL **Exibir solicitação de Data Warehouse**] exibe uma lista de entregas de relatório individuais.
+   A variável [!UICONTROL **Exibir solicitação de Data Warehouse**] A página exibe uma lista de deliveries de relatório individuais associados à solicitação.
+
+   Selecione o **Configurar coluna** ícone ![Ícone Configurar coluna](assets/configure-column-icon.png) para ocultar colunas ou mostrar colunas que não são exibidas por padrão.
 
    ![Página Histórico de solicitações](assets/dw-request-history.png)
+
+   As seguintes colunas estão disponíveis:
+
+   | Coluna | Descrição |
+   |---------|----------|
+   | [!UICONTROL **Data de criação**] | A data e a hora em que o relatório foi criado.<p>Exibido no fuso horário do usuário que iniciou a solicitação.</p> |
+   | [!UICONTROL **Data de início**] | A data e a hora em que o relatório foi iniciado.<p>Exibido no fuso horário do usuário que iniciou a solicitação.</p> |
+   | [!UICONTROL **Data de conclusão**] | A data e a hora em que o relatório foi concluído.<p>Exibido no fuso horário do usuário que iniciou a solicitação.</p> |
+   | [!UICONTROL **Data de atualização**] | A data e a hora em que o relatório foi atualizado pela última vez.<p>Exibido no fuso horário do usuário que iniciou a solicitação.</p> |
+   | [!UICONTROL **Status**] | O status da entrega do relatório. Os status possíveis são:<ul><li>[!UICONTROL **Criado em**]: o relatório foi criado, mas ainda não foi processado.</li><li>[!UICONTROL **Pending**]: o relatório está aguardando para ser processado.</li><li>[!UICONTROL **Processando**]: O relatório está sendo processado no momento.</li><li>[!UICONTROL **Concluído**]: o relatório foi concluído e agora está disponível.</li><li>[!UICONTROL **Agendado**]: O relatório está agendado, mas ainda não foi iniciado.</li><li>[!UICONTROL **Cancelado**]: o relatório foi cancelado pelo usuário.</li><li>[!UICONTROL **Erro - Processamento**:] O relatório encontrou um erro durante o processamento. Execute o relatório novamente e tente novamente.</li><li>[!UICONTROL **Erro - Falha Ao Enviar**]: o relatório foi gerado com sucesso, mas não pôde ser entregue. Verifique a [configuração do seu destino](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), em seguida, reenvie o relatório.</li></ul>. |
+   | [!UICONTROL **De**] | A data de início do período geral incluído no relatório.<p>Exibido no fuso horário do conjunto de relatórios.</p> |
+   | [!UICONTROL **Para**] | A data final do período geral incluído no relatório. <p>Exibido no fuso horário do conjunto de relatórios.</p> |
+   | [!UICONTROL **ID da solicitação herdada**] | A ID usada para identificar um relatório na interface herdada do Data Warehouse. Essa ID pode ser necessária ao entrar em contato com o Atendimento ao cliente do Adobe. |
+   | [!UICONTROL **ID do relatório**] | A ID usada para identificar um relatório na interface de Data Warehouse atual. Essa ID pode ser necessária ao entrar em contato com o Atendimento ao cliente do Adobe. |
+
 
 1. Selecione um delivery de relatório e, em seguida, selecione qualquer uma das seguintes opções:
 
