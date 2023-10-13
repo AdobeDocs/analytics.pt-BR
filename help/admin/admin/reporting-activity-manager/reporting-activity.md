@@ -4,10 +4,10 @@ title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
+source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 19%
+source-wordcount: '1761'
+ht-degree: 18%
 
 ---
 
@@ -96,31 +96,27 @@ Passe o mouse sobre o gráfico para visualizar os pontos no tempo em que o núme
 
   ![Gráfico de usuários distintos](assets/distinct-users-graph.png)
 
-<!--
+#### Gráfico de solicitações
 
-#### Requests graph
+O gráfico Solicitações mostra o número de solicitações processadas e concluídas do conjunto de relatórios selecionado nas últimas 2 horas.
 
-The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+Passe o mouse sobre o gráfico para visualizar os pontos no tempo em que o número máximo de solicitações foi mais alto naquele minuto.
 
-Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+* **Eixo X**: o número de solicitações processadas e concluídas no último intervalo de tempo de 2 horas.
+* **Eixo Y**: o número de solicitações processadas (em roxo) e solicitações concluídas (em verde), por minuto.
 
-* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
-* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
+  ![Gráfico de usuários distintos](assets/requests-graph.png)
 
-   ![Distinct Users graph](assets/requests-graph.png)
+#### Gráfico de enfileiramento
 
-#### Queueing graph
+O gráfico Enfileiramento mostra o tempo médio de espera na fila (em segundos) para as solicitações de relatório do conjunto de relatórios selecionado nas últimas 2 horas.
 
-The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+Passe o mouse sobre o gráfico para exibir os pontos no tempo em que o tempo médio máximo de espera foi mais alto para esse minuto.
 
-Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+* **Eixo X**: o tempo médio de espera da fila para solicitações de relatórios nos últimos 2 horas.
+* **Eixo Y**: o tempo médio de espera (em segundos).
 
-* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
-* **Y-axis**: The average wait time (in seconds).
-
-   ![Distinct Users graph](assets/queueing-graph.png)
-
--->
+  ![Gráfico de usuários distintos](assets/queueing-graph.png)
 
 ### Exibir tabela {#view-table}
 
