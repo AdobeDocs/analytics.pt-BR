@@ -4,7 +4,7 @@ title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 18%
@@ -172,7 +172,7 @@ Ao selecionar a variável [!UICONTROL **Projeto**] , as seguintes colunas estão
 
 | Coluna | Descrição |
 | --- | --- |
-| [!UICONTROL **Projeto**] | O projeto em que as consultas foram iniciadas. |
+| [!UICONTROL **Projeto**] | O projeto em que as solicitações foram iniciadas. |
 | [!UICONTROL **Número de solicitações**] | O número de solicitações associadas ao projeto. |
 | [!UICONTROL **Número de usuários**] | O número de usuários associados ao projeto. <!-- ??? --> |
 | [!UICONTROL **Aplicativo**] | Os aplicativos compatíveis com o [!UICONTROL Gerenciador de Atividades de relatórios] são: <ul><li>Interface do Analysis Workspace</li><li>Projetos agendados do Espaço de trabalho.</li><li>Report Builder</li><li>Interfaces do construtor: segmento, métricas calculadas, anotações, públicos etc.</li><li>Chamadas de API da API 1.4 ou 2.0</li><li>Alertas inteligentes</li></ul> |
@@ -189,7 +189,7 @@ Ao selecionar a variável [!UICONTROL **Aplicativo**] , as seguintes colunas est
 
 | Coluna | Descrição |
 | --- | --- |
-| [!UICONTROL **Aplicativo**] | O aplicativo em que as consultas foram iniciadas. |
+| [!UICONTROL **Aplicativo**] | O aplicativo em que as solicitações foram iniciadas. |
 | [!UICONTROL **Número de solicitações**] | O número de solicitações associadas ao aplicativo. |
 | [!UICONTROL **Número de usuários**] | O número de usuários associados ao aplicativo. <!--???--> |
 | [!UICONTROL **Número de projetos**] | O número de projetos associados ao aplicativo. <!--???--> |
@@ -199,31 +199,5 @@ Ao selecionar a variável [!UICONTROL **Aplicativo**] , as seguintes colunas est
 | [!UICONTROL **Média de segmentos**] | O número médio de segmentos aplicados às solicitações incluídas. Mais segmentos aumentam a complexidade da solicitação. |
 
 {style="table-layout:auto"}
-
-<!--
-
-### Filter
-
-You can filter the table by Application (see list in the table below), by User, and by Project.
-
-![filter](/help/admin/admin/assets/filter.png)
-
-### Summary Numbers {#summary}
-
-![filter](/help/admin/admin/assets/summary_numbers.png)
-
-The Summary Numbers show the following information:
-
-| Summary Number | Description |
-| --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
-| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
-| [!UICONTROL **Queries**] | The number of queries currently running. |
-| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
-
-{style="table-layout:auto"}
-
--->
 
 

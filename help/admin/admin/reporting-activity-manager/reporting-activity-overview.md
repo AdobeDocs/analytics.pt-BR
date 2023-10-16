@@ -2,10 +2,10 @@
 description: Saiba mais sobre como usar o Gerente de atividade de relatórios para diagnosticar e corrigir problemas de capacidade durante o pico dos relatórios.
 title: Gerenciador de Atividades de relatórios visão geral
 feature: Admin Tools
-source-git-commit: fbb652c7f96197776cdb721c21b60e338a06f65d
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 33%
+source-wordcount: '291'
+ht-degree: 29%
 
 ---
 
@@ -23,7 +23,7 @@ O Gerente de atividades de relatórios oferece os seguintes benefícios:
 
 * Permite monitorar e gerenciar a capacidade de gerar relatórios para cada conjunto de relatórios na organização.
 * Informa você em tempo real sobre sua capacidade atual de geração de relatórios em seus conjuntos de relatórios.
-* Fornece informações detalhadas de consulta de relatório sobre solicitações de relatórios atuais, estejam na fila ou em progresso.
+* Fornece informações detalhadas de relatório sobre solicitações de relatórios atuais, estejam na fila ou em andamento.
 * Permite otimizar a fila de relatórios, priorizando algumas e cancelando outras solicitações de relatórios para liberar capacidade. Ele responde a perguntas como: este relatório é necessário neste momento ou posso cancelá-lo em favor de relatórios mais urgentes?
 * Permite restringir solicitações futuras por um período especificado. Você pode restringir solicitações específicas ou restringir todas as solicitações de um usuário específico ou solicitações associadas a um projeto específico.
 
