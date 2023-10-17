@@ -2,10 +2,10 @@
 description: Saiba mais sobre como usar o Gerente de atividade de relatórios para diagnosticar e corrigir problemas de capacidade durante o pico dos relatórios.
 title: Gerenciador de Atividades de relatórios visão geral
 feature: Admin Tools
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '271'
+ht-degree: 23%
 
 ---
 
@@ -41,10 +41,3 @@ Para obter informações sobre como exibir a atividade de relatórios no Gerenci
 
 Para obter informações sobre como cancelar solicitações de relatórios no Gerenciador de atividades de relatórios, consulte [Cancelar solicitações de relatórios no Gerenciador de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## Perguntas frequentes {#faq}
-
-| Pergunta | Resposta |
-| --- | --- |
-| Posso adquirir capacidade adicional para relatórios? | Esse recurso estará disponível em breve. |
-
-{style="table-layout:auto"}
