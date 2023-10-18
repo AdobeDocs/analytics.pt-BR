@@ -3,9 +3,9 @@ description: Etapas que descrevem como criar uma solicitação do Data Warehouse
 title: Configurar um destino de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2342'
 ht-degree: 15%
 
 ---
@@ -74,7 +74,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       | Campo | Função |
       |---------|----------|
-      | [!UICONTROL **Função ARN**] | Você deve fornecer uma Função ARN (Amazon Resource Name) que o Adobe pode usar para obter acesso à conta do Amazon S3. Para fazer isso, crie uma política de permissão IAM para a conta de origem, anexe a política a um usuário e crie uma função para a conta de destino. Para obter informações específicas, consulte [esta documentação do AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+      | [!UICONTROL **Função ARN**] | Você deve fornecer uma Função ARN (Amazon Resource Name) que o Adobe pode usar para obter acesso à conta do Amazon S3. Para fazer isso, crie uma política de permissão IAM para a conta de origem, anexe a política a um usuário e crie uma função para a conta de destino. Para obter informações específicas, consulte [esta documentação do AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>Para obter informações sobre como configurar a permissão do bucket, consulte o artigo [Como posso fornecer acesso entre contas a objetos que estão nos buckets do Amazon S3?](https://repost.aws/knowledge-center/cross-account-access-s3) no centro de conhecimento da Amazon. |
       | [!UICONTROL **ARN do usuário**] | O usuário ARN (Amazon Resource Name) é fornecido pelo Adobe. Você deve anexar este usuário à política criada. |
 
       {style="table-layout:auto"}

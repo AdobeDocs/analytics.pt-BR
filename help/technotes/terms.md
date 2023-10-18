@@ -3,10 +3,10 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 98%
+source-wordcount: '2577'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Feed de sequência de cliques:** consulte Feed de dados.
 * **Coorte:** um grupo de pessoas que compartilham características comuns em um determinado período. Consulte [O que é a Análise de coorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) no guia do usuário Analisar.
 * **Servidor de coleta:** consulte Servidor de coleta de dados.
+* **Componente:** Os componentes do Analysis Workspace consistem em dimensões, métricas, segmentos e intervalos de datas que você pode arrastar e soltar em um projeto. Consulte [Visão geral dos componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) no guia do usuário Analisar.
 * **Variáveis de dados de contexto:** variáveis temporárias usadas apenas nas regras de processamento. Os valores da variável de dados de contexto são perdidos permanentemente se uma regra de processamento não os copiar para uma variável de conversão ou de tráfego. Consulte [Variáveis de dados de contexto](../implement/vars/page-vars/contextdata.md) no guia do usuário Implementar.
 * **Variável de conversão:** também conhecida como eVars. Armazena um valor personalizado e preserva o valor da variável até que ele expire. Consulte a dimensão [eVar](/help/components/dimensions/evar.md) no guia do usuário Componentes.
 * **Correlação:** não é mais usado como termo; substituído por Detalhamentos de dimensão. Em versões anteriores do Adobe Analytics, as correlações permitiam detalhar as variáveis de tráfego. Consulte [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) no guia do usuário Analisar.
