@@ -3,10 +3,10 @@ title: carimbo de data e hora
 description: Defina manualmente o carimbo de data e hora da ocorrência.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
+source-git-commit: 4f9af1b3a1337b0e24b718362a502ff3f0acb5ef
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 86%
+source-wordcount: '278'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa vari
 
 ## s.timestamp no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-A variável `s.timestamp` é uma string que contém a data e a hora da ocorrência. Os formatos válidos de carimbo de data e hora incluem [ISO 8601](https://pt.wikipedia.org/wiki/ISO_8601) e [Unix time](https://pt.wikipedia.org/wiki/Era_Unix).
+A variável `s.timestamp` é uma string que contém a data e a hora da ocorrência. Os formatos válidos de carimbo de data e hora incluem [ISO 8601](https://pt.wikipedia.org/wiki/ISO_8601) e [Hora do Unix](https://pt.wikipedia.org/wiki/Era_Unix) em segundos.
 
 ```js
 // Timestamp using ISO 8601
