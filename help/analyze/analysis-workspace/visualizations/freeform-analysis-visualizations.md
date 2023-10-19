@@ -5,10 +5,10 @@ title: Visão geral das visualizações
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: ce3fa1ae1a4785a6ed2adfe9128f180d3eaa341a
+source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 88%
+source-wordcount: '1324'
+ht-degree: 85%
 
 ---
 
@@ -22,25 +22,25 @@ Os seguintes tipos de visualização estão disponíveis no Analysis Workspace:
 
 | Nome da visualização | Descrição |
 | --- | --- |
-| [Área](/help/analyze/analysis-workspace/visualizations/area.md) | Semelhante a um gráfico de linhas, mas apresenta uma área colorida abaixo da linha. Use um gráfico de área quando você tiver diversas métricas e desejar visualizar a área expressa pela interseção de duas ou mais métricas. |
-| [Barra](/help/analyze/analysis-workspace/visualizations/bar.md) | Mostra barras verticais que representam vários valores de uma ou mais métricas. |
-| [Gráfico em marcadores](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Mostra a comparação ou a medição de um valor em relação a outros intervalos de desempenho (metas). |
-| [Tabela de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | A *`cohort`* é um grupo de pessoas com características comuns em um período específico. A Análise de coorte é útil para análise de retenção, churn ou latência. |
-| [Rosca](/help/analyze/analysis-workspace/visualizations/donut.md) | Semelhante ao gráfico de pizza, essa visualização mostra os dados como partes ou segmentos de um todo. |
-| [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Os relatórios de fallout mostram onde os visitantes saíram e continuaram em uma sequência predefinida de páginas. Pode ser definido como sequências eventuais ou exatas |
-| [Fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Mostra os percursos exatos do cliente pelos sites e aplicativos. |
-| [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Uma tabela de forma livre não é apenas uma tabela de dados, mas também uma visualização interativa. É a base para a análise de dados no Espaço de trabalho. |
-| [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Um histograma agrupa visitantes, visitas ou ocorrências em compartimentos com base em um volume de métrica. |
-| [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Mostra barras horizontais que representam vários valores de uma ou mais métricas. |
-| [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Mostra a tendência de uma métrica em um único período, ou permite que você compare o desempenho da métrica em dois intervalos de tempo. |
-| [Linha](/help/analyze/analysis-workspace/visualizations/line.md) | Representa as métricas que usam uma linha para mostrar como os valores são alterados durante um período. Um gráfico de linhas usa o tempo no eixo x. |
-| [Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permite criar um mapa visual de qualquer métrica (incluindo métricas calculadas). |
-| [Gráfico de dispersão](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Mostra a relação entre itens de dimensão e até três métricas. |
-| [Número do resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Mostra a célula selecionada como um número grande. |
-| [Alteração de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Mostra a alteração entre as células selecionadas como um número grande/porcentagem. |
-| [Texto](/help/analyze/analysis-workspace/visualizations/text.md) | Permite adicionar texto definido pelo usuário ao Espaço de trabalho Útil para adicionar contexto à análise e aos insights, além de aproveitar as descrições do painel/da visualização |
-| [Mapas de árvore](/help/analyze/analysis-workspace/visualizations/treemap.md) | Exibe dados hierárquicos (estruturados em formato de árvore) como um conjunto de retângulos aninhados. |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Usa círculos para descrever a sobreposição de métrica de até três segmentos. |
+| [Área](/help/analyze/analysis-workspace/visualizations/area.md)<p>![Ícone da área](assets/Smock_GraphArea_18_N.svg)</p> | Semelhante a um gráfico de linhas, mas apresenta uma área colorida abaixo da linha. Use um gráfico de área quando você tiver diversas métricas e desejar visualizar a área expressa pela interseção de duas ou mais métricas. |
+| [Barra](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![Ícone de barra](assets/Smock_GraphBarVertical_18_N.svg)</p> | Mostra barras verticais que representam vários valores de uma ou mais métricas. |
+| [Gráfico em marcadores](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![Ícone de Marcador](assets/Smock_GraphBullet_18_N.svg)</p> | Mostra a comparação ou a medição de um valor em relação a outros intervalos de desempenho (metas). |
+| [Tabela de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![Ícone da tabela de coorte](assets/Smock_TextNumbered_18_N.svg)</p> | A *`cohort`* é um grupo de pessoas com características comuns em um período específico. A Análise de coorte é útil para análise de retenção, churn ou latência. |
+| [Rosca](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![Ícone de rosca](assets/Smock_GraphDonut_18_N.svg)</p> | Semelhante ao gráfico de pizza, essa visualização mostra os dados como partes ou segmentos de um todo. |
+| [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Ícone de Fallout](assets/Smock_ConversionFunnel_18_N.svg)</p> | Os relatórios de fallout mostram onde os visitantes saíram e continuaram em uma sequência predefinida de páginas. Pode ser definido como sequências eventuais ou exatas |
+| [Fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![Ícone de Fluxo](assets/flow-icon.png)</p> | Mostra os percursos exatos do cliente pelos sites e aplicativos. |
+| [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![Ícone da tabela de forma livre](assets/Smock_ViewTable_18_N.svg)</p> | Uma tabela de forma livre não é apenas uma tabela de dados, mas também uma visualização interativa. É a base para a análise de dados no Espaço de trabalho. |
+| [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![Ícone do histograma](assets/Smock_GraphHistogram_18_N.svg)</p> | Um histograma agrupa visitantes, visitas ou ocorrências em compartimentos com base em um volume de métrica. |
+| [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![Ícone da barra horizontal](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | Mostra barras horizontais que representam vários valores de uma ou mais métricas. |
+| [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![Ícone de métrica principal](assets/key-metric-icon.png)</p> | Mostra a tendência de uma métrica em um único período ou permite comparar o desempenho da métrica em dois períodos. |
+| [Linha](/help/analyze/analysis-workspace/visualizations/line.md)<p>![Ícone de Linha](assets/Smock_GraphTrend_18_N.svg)</p> | Representa as métricas que usam uma linha para mostrar como os valores são alterados durante um período. Um gráfico de linhas usa o tempo no eixo x. |
+| [Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![Ícone do mapa](assets/map-icon.png)</p> | Permite criar um mapa visual de qualquer métrica (incluindo métricas calculadas). |
+| [Gráfico de dispersão](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![Ícone de Gráfico de dispersão](assets/Smock_GraphScatter_18_N.svg)</p> | Mostra a relação entre itens de dimensão e até três métricas. |
+| [Número do resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Ícone do número do resumo](assets/summary-number-icon.png)</p> | Mostra a célula selecionada como um número grande. |
+| [Alteração de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Ícone Alteração de resumo](assets/summary-change-icon.png)</p> | Mostra a alteração entre as células selecionadas como um número grande/porcentagem. |
+| [Texto](/help/analyze/analysis-workspace/visualizations/text.md)<p>![Ícone de texto](assets/Smock_Text_18_N.svg)</p> | Permite adicionar texto definido pelo usuário ao Espaço de trabalho Útil para adicionar contexto à análise e aos insights, além de aproveitar as descrições do painel/da visualização |
+| [Mapas de árvore](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![Ícone Treemap](assets/Smock_GraphTree_18_N.svg)</p> | Exibe dados hierárquicos (estruturados em formato de árvore) como um conjunto de retângulos aninhados. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![Ícone de Venn](assets/venn-icon.png)</p> | Usa círculos para descrever a sobreposição de métrica de até três segmentos. |
 
 ## Adicionar visualizações a um painel
 
@@ -50,17 +50,17 @@ Os seguintes tipos de visualização estão disponíveis no Analysis Workspace:
 
    * No painel à esquerda, selecione o **Visualizações** ícone <!-- add icon -->, em seguida, arraste uma visualização para o painel onde deseja adicioná-la.
 
-      ![](assets/viz-rail.png)
+     ![](assets/viz-rail.png)
 
    * No painel onde deseja adicionar a visualização, selecione a **Plus** e escolha o ícone que representa a visualização que deseja adicionar. Passe o mouse sobre o ícone de cada visualização para ver seu nome.
 
-      ![Botão para adicionar uma visualização](assets/visualization-add-to-panel.png)
+     ![Botão para adicionar uma visualização](assets/visualization-add-to-panel.png)
 
-   * Adicione um [painel em branco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=pt-BR)e escolha a visualização que deseja adicionar.
+   * Adicionar um [painel em branco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=pt-BR), em seguida, escolha a visualização que deseja adicionar.
 
-      ![Painel em branco](assets/blank_panel.png)
+     ![Painel em branco](assets/blank_panel.png)
 
-   * Clique com o botão direito do mouse em um painel existente no projeto do Analysis Workspace e selecione [!UICONTROL **Visualização duplicada**] ou [!UICONTROL **Copiar visualização**].
+   * Clique com o botão direito do mouse em um painel existente no projeto do Analysis Workspace e selecione [!UICONTROL **Duplicar visualização**] ou [!UICONTROL **Copiar visualização**].
 
 ## Personalizar configurações de visualização
 
@@ -87,7 +87,7 @@ Você pode personalizar as configurações de todas as visualizações criadas. 
 | Configuração | Descrição |
 | --- | --- |
 | Tipo de visualização | Altere o tipo de visual usado para descrever os dados. |
-| Granularidade | Para visualizações de tendências, você pode alterar a granularidade de tempo (dia, semana, mês etc.) nessa lista suspensa. Essa alteração também se aplica à tabela de fonte de dados. |
+| Granularidade | Para visualizações de tendências, você pode alterar a granularidade de tempo (dia, semana, mês etc.) nesta lista suspensa. Essa alteração também se aplica à tabela de fonte de dados. |
 | Porcentagens | Exibe os valores em porcentagens. |
 | 100% empilhada | Essa configuração de visualizações de área empilhada, barra empilhada ou barra horizontal empilhada transforma o gráfico em uma visualização “100% empilhada”. Exemplo: ![100% empilhada](assets/stacked_100_percent.png) |
 | Legenda visível | Permite ocultar o texto detalhado da legenda para a visualização Número de resumo/Alteração de resumo. |
