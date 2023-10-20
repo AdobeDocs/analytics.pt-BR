@@ -3,7 +3,7 @@ title: Mapeamento de variável do Analytics na Adobe Experience Edge
 description: Visualize quais campos XDM a borda mapeia automaticamente para variáveis do Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 83%
@@ -106,8 +106,8 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | `media.mediaTimed.thirdQuartiles.value` | A métrica [Marcador de progresso de 75%](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#seventy-five-progress-marker) do Media Analytics. |
 | `media.mediaTimed.timePlayed.value` | A métrica [Tempo gasto com conteúdo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-time-spent) do Media Analytics. |
 | `media.mediaTimed.totalTimePlayed.value` | A métrica [Tempo gasto com a mídia](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#media-time-spent) do Media Analytics. |
-| `placeContext.geo.latitude` | A latitude da dimensão móvel. |
-| `placeContext.geo.longitude` | A longitude da dimensão móvel. |
+| `placeContext.geo._schema.latitude` | A latitude da dimensão móvel. |
+| `placeContext.geo._schema.longitude` | A longitude da dimensão móvel. |
 | `placeContext.geo.postalCode` | A dimensão [Código postal](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | A dimensão [Estados dos Estados Unidos](../../components/dimensions/us-states.md). |
 | `placeContext.localTime` | Ajuda a preencher [Fusos horários](/help/analyze/reports-analytics/reports.md) no Reports &amp; Analytics. Aparece como `t_time_info` nos [feeds de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
