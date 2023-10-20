@@ -1,41 +1,43 @@
 ---
 title: trackInlineStats
-description: Ativar ou desativar o Activity Map na implementação.
-keywords: desativar o activity map
+description: Ative ou desative o ClickMap na implementação.
+keywords: desativar clickmap
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a3df69f7de45ba3694e1212e5c16a10bb4602cd6
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 84%
+source-wordcount: '193'
+ht-degree: 31%
 
 ---
 
 # trackInlineStats
 
-O Activity Map é um recurso do Adobe Analytics que coleta dados sobre onde os visitantes clicam e no que clicam. É possível exibir esses dados nos relatórios do Analytics ou usando uma sobreposição de extensão do navegador. Ative essa variável se desejar usar os recursos do Activity Map.
+>[!IMPORTANT]
+>
+>Essa variável foi removida. Consulte [Habilitar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) em vez disso.
 
-Quando ativado, o AppMeasurement coleta informações sobre o link e envia esses dados na próxima solicitação de imagem. As informações de cada clique são armazenadas em um cookie rotulado como `s_sq`.
+O ClickMap é um recurso descontinuado no Adobe Analytics que coleta dados sobre onde os visitantes clicam e no que clicam. O recurso foi substituído por [Activity Map](/help/analyze/activity-map/activity-map.md).
 
-## Activity Map usando o SDK da Web
+Quando ativado, o AppMeasurement coleta informações sobre o link e envia esses dados na próxima solicitação de imagem. As informações de cada clique são armazenadas em um cookie rotulado `s_sq`.
 
-O SDK da Web ainda não oferece suporte à coleta de dados do Activity Map.
+## Ativar ClickMap usando a extensão do Adobe Analytics
 
-## Ativar o Clickmap usando a extensão do Adobe Analytics
-
-[!UICONTROL Ativar Clickmap] é uma caixa de seleção na opção [!UICONTROL Rastreamento de link] ao configurar a extensão do Adobe Analytics.
+[!UICONTROL Ativar ClickMap] é uma caixa de seleção na [!UICONTROL Rastreamento de link] ao configurar a extensão do Adobe Analytics.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
-4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Ativar Clickmap].
+4. Expanda a [!UICONTROL Rastreamento de link] acordeão, que revela a [!UICONTROL Ativar ClickMap] caixa de seleção
 
-Clique na caixa de seleção para ativar o rastreamento do Activity Map.
+>[!NOTE]
+>
+>Essa caixa de seleção é diferente da caixa [!UICONTROL Usar Activity Map] que está na caixa de seleção [!UICONTROL Gerenciamento de biblioteca] acordeão.
 
 ## s.trackInlineStats no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-`s.trackInlineStats` é uma variável do tipo booleano que ativa ou desativa o rastreamento do Activity Map. O valor padrão é `false`. Defina esse valor como `true` se desejar ativar a coleta de dados do Activity Map.
+A variável `s.trackInlineStats` é uma variável do tipo booleano que ativa ou desativa o rastreamento de ClickMap. Como o recurso é desativado, o Adobe não recomenda configurar essa variável. Seu valor padrão é `false`.
 
 ```js
-s.trackInlineStats = true;
+s.trackInlineStats = false;
 ```
