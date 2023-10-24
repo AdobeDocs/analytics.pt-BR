@@ -4,7 +4,7 @@ title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: de0d103a2b4cd1827b2c9a93aa140a9c5e44584e
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 15%
@@ -12,8 +12,6 @@ ht-degree: 15%
 ---
 
 # Exibir atividade de relatórios no Gerenciador de atividades de relatórios
-
-{{release-limited-testing}}
 
 A variável [!UICONTROL Gerenciador de atividades de relatórios] O permite que os administradores diagnostiquem e corrijam rapidamente os problemas de capacidade dos relatórios durante o pico dos relatórios.
 

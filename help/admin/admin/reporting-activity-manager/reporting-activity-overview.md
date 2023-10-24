@@ -2,7 +2,7 @@
 description: Saiba mais sobre como usar o Gerente de atividade de relatórios para diagnosticar e corrigir problemas de capacidade durante o pico dos relatórios.
 title: Gerenciador de Atividades de relatórios visão geral
 feature: Admin Tools
-source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 23%
@@ -10,8 +10,6 @@ ht-degree: 23%
 ---
 
 # Visão geral do Gerenciador de atividades de relatórios
-
-{{release-limited-testing}}
 
 A variável [!UICONTROL Gerenciador de atividades de relatórios] O está disponível para administradores do.
 
