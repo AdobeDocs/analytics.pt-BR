@@ -4,9 +4,9 @@ title: Gerenciar solicitações do Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1293'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 13%
 >Se sua organização ainda não tiver a nova experiência do Data Warehouse, que estará disponível em breve para todos os clientes, use as informações em [Gerenciar solicitações de Data Warehouse (experiência antiga)](#manage-data-warehouse-requests-old-experience) na parte inferior desta página.
 
 
-Você pode exibir e gerenciar solicitações de Data Warehouse feitas. Somente administradores podem exibir e gerenciar solicitações feitas por outros usuários na organização onde têm direitos administrativos.
+Você pode exibir e gerenciar solicitações de Data Warehouse feitas. Somente administradores podem visualizar e gerenciar solicitações feitas por outros usuários em suas organizações.
 
 As seções a seguir descrevem as atividades que você pode executar ao gerenciar solicitações.
 
@@ -47,6 +47,8 @@ Considere o seguinte ao editar solicitações:
 * Somente as solicitações configuradas para serem executadas de acordo com um agendamento podem ser editadas.
 
 * Nem todos os campos associados à solicitação podem ser editados. Os campos que não podem ser editados estão esmaecidos.
+
+* Os administradores que editam a solicitação de outro usuário precisam escolher uma nova conta e um local que possam acessar.
 
 Para editar uma solicitação programada:
 
