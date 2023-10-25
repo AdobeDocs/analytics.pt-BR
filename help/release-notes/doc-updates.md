@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '5136'
+source-wordcount: '5165'
 ht-degree: 96%
 
 ---
@@ -25,8 +25,10 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **Outubro de 2023** | |
+| Adição de informações de log ao Gerenciador de atividades de relatórios | Adição de informações que qualquer [cancelamentos e restrições subsequentes da atividade de relatório](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) no Gerenciador de atividades de relatórios são capturados na variável [Logs](/help/admin/admin/logs.md). |
 | **Setembro de 2023** | |
-| Estrutura de artigos atualizada para o painel Tempo gasto com reprodução de mídia | A pasta chamada Tempo gasto com a reprodução da mídia foi removida e o conteúdo da pasta foi combinado em um único artigo: [Painel Tempo gasto com a reprodução da mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Essa alteração está mais de acordo com a documentação de outros painéis.</p> |
+| Estrutura de artigos atualizada para o painel Tempo gasto com reprodução de mídia | A pasta chamada Tempo gasto com reprodução de mídia foi removida e seu conteúdo foi combinado em um único artigo: [Painel Tempo gasto com reprodução de mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Essa alteração está mais de acordo com a documentação de outros painéis.</p> |
 | Melhorias na introdução ao conteúdo | Foram adicionadas informações descrevendo as principais tarefas e recursos de introdução para administradores, analistas, usuários finais e desenvolvedores. Os seguintes novos artigos estão disponíveis: <ul><li>[Introdução (por função)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Noções básicas da interface do Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casos de uso](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Melhorias na documentação de Relatórios do Media Analytics | Reorganizado parte do conteúdo na seção Relatórios do guia Mídia de streaming, incluindo a consolidação da documentação da API em sua própria seção e o ajuste da ordem de alguns artigos. <p>O artigo Modelos do Media Workspace foi renomeado para [Relatórios de mídia no Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=pt-BR) para se alinhar melhor à nomenclatura no produto. </p> |
 | **Agosto de 2023** | |

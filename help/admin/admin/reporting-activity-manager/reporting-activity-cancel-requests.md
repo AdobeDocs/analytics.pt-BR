@@ -2,9 +2,9 @@
 description: Saiba mais sobre como usar o Gerente de atividade de relatórios para diagnosticar e corrigir problemas de capacidade durante o pico dos relatórios.
 title: Cancelar solicitações de relatórios no Gerenciador de atividades de relatórios
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1417'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,11 @@ Considere o seguinte ao cancelar solicitações de relatórios:
 
 * Você pode cancelar solicitações específicas, cancelar todas as solicitações de um usuário específico ou cancelar todas as solicitações relacionadas a um projeto específico.
 
+  Ao cancelar uma solicitação, a ação é registrada na variável [Logs](/help/admin/admin/logs.md). A variável [!UICONTROL **Tipo de evento**] a coluna é exibida como [!UICONTROL **Ação do administrador**] e uma descrição do cancelamento está disponível no [!UICONTROL **Evento**] coluna.
+
 * Ao cancelar solicitações, você também pode optar por restringir solicitações subsequentes por um determinado período.
+
+  Quando você restringir uma solicitação subsequente, a ação será registrada na variável [Logs](/help/admin/admin/logs.md). A variável [!UICONTROL **Tipo de evento**] a coluna é exibida como [!UICONTROL **Ação do administrador**] e uma descrição da restrição está disponível no [!UICONTROL **Evento**] coluna.
 
 * Não é possível cancelar uma solicitação se a variável [!UICONTROL **Usuário**] a coluna de uma solicitação é exibida como [!UICONTROL **Não reconhecido**]. Quando isso ocorre, significa que o usuário está em uma empresa de logon na qual você não tem permissões administrativas.
 

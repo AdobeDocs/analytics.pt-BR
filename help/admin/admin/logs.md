@@ -3,10 +3,10 @@ description: Os arquivos de log ajudam a identificar quando os usuários fazem l
 title: Logs
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 67%
+source-wordcount: '603'
+ht-degree: 66%
 
 ---
 
@@ -41,7 +41,7 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Nenhuma categoria | Pode ser qualquer tipo de evento. |
 | Falha no logon | Falha no processo de logon do usuário. |
 | Login bem sucedido | Usuário conectado com sucesso. |
-| Ação do administrador | Ocorreu uma ação do administrador, como editar um conjunto de relatórios, alterar as configurações da empresa, criar um usuário etc. |
+| Ação do administrador | Ocorreu uma ação do administrador, como editar um conjunto de relatórios, alterar as configurações da empresa, criar um usuário, cancelar uma solicitação de relatório etc. |
 | Alteração da configuração de segurança | Configuração de segurança alterada. |
 | Relatório exibido | Um relatório do Reports &amp; Analytics foi visualizado. |
 | Relatório baixado | Um relatório do Reports &amp; Analytics foi baixado. |
@@ -57,7 +57,7 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Metas | Um público alvo foi gerenciado. |
 | Configurações do relatório | Uma configuração de relatório foi gerenciada. |
 | Relatórios agendados | Um relatório agendado foi gerenciado. |
-| Excluir por IP | A configuração de IP foi alterada. |
+| Exclusão por IP | A configuração de IP foi alterada. |
 | Nomear páginas | Obsoleto. |
 | Classificações | Uma classificação foi gerenciada. |
 | Fontes de dados | Uma fonte de dados foi gerenciada. |
