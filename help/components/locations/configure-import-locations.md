@@ -3,9 +3,10 @@ description: Configurar a conta de importação na nuvem e o local onde os dados
 keywords: Analysis Workspace
 title: Configurar locais de importação na nuvem
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '543'
 ht-degree: 8%
 
 ---
@@ -38,7 +39,7 @@ Para configurar um local de importação na nuvem:
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Nome do bucket**] | O bucket da conta do Amazon S3 para o qual você deseja que os dados do Adobe Analytics sejam enviados. Certifique-se de que o usuário ARN fornecido pelo Adobe tenha acesso para carregar arquivos nesse bucket. |
+   | [!UICONTROL **Nome do bucket**] | O bucket da conta do Amazon S3 para o qual você deseja que os dados do Adobe Analytics sejam enviados. |
    | [!UICONTROL **Prefixo da chave**] | A pasta dentro do bucket onde você deseja colocar os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
    {style="table-layout:auto"}

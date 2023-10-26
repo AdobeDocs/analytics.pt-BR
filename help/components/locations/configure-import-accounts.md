@@ -3,9 +3,10 @@ description: Configurar a conta de importação na nuvem e o local onde os dados
 keywords: Analysis Workspace
 title: Configurar contas de importação na nuvem
 feature: Classifications
-source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
+exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '901'
 ht-degree: 5%
 
 ---
@@ -39,7 +40,6 @@ Para configurar uma conta de importação na nuvem:
    | Campo | Função |
    |---------|----------|
    | [!UICONTROL **Função ARN**] | Você deve fornecer uma Função ARN (Amazon Resource Name) que o Adobe pode usar para obter acesso à conta do Amazon S3. Para fazer isso, crie uma política de permissão IAM para a conta de origem, anexe a política a um usuário e crie uma função para a conta de destino. Para obter informações específicas, consulte [esta documentação do AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-   | [!UICONTROL **ARN do usuário**] | O usuário ARN (Amazon Resource Name) é fornecido pelo Adobe. Você deve anexar este usuário à política criada. |
 
    {style="table-layout:auto"}
 
@@ -90,4 +90,3 @@ Para configurar uma conta de importação na nuvem:
 1. Selecione [!UICONTROL **Salvar**].
 
 1. Continuar com [Configurar locais de importação na nuvem](/help/components/locations/configure-import-locations.md).
-
