@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar locais de importação na nuvem
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '584'
+ht-degree: 7%
 
 ---
 
@@ -88,4 +88,11 @@ Para configurar um local de importação na nuvem:
 
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora é possível importar dados para a conta e o local configurados.
+   Agora é possível importar dados da conta e do local configurados.
+
+   Os dados não são excluídos do destino da nuvem após serem importados.
+
+   >[!NOTE]
+   >
+   >   Se você usou anteriormente [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) no Adobe Analytics, era necessário carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
+
