@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '5165'
-ht-degree: 96%
+source-wordcount: '5296'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Outubro de 2023** | |
 | Adição de informações de log ao Gerenciador de atividades de relatórios | Adição de informações que qualquer [cancelamentos e restrições subsequentes da atividade de relatório](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) no Gerenciador de atividades de relatórios são capturados na variável [Logs](/help/admin/admin/logs.md). |
+| Atualizações no suporte a componentes do Data Warehouse | Adição de disponibilidade para alguns componentes e remoção de disponibilidade para outros para o Data Warehouse. Estas alterações refletem-se no [Suporte a componentes no Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>Adição de suporte para a dimensão Profundidade da visita (remoção da Profundidade da visita da lista de dimensões não compatíveis)</li><li>Remoção do suporte a métricas de Participação (métricas de Participação adicionadas à lista de métricas não compatíveis)</li><li>Adição de suporte para as seguintes dimensões baseadas em tempo: Ano, Trimestre, Mês, Semana, Dia, Hora e Minuto (a remoção dessas dimensões da lista de dimensões não é compatível) <p>Anteriormente, o Data Warehouse suportava essas dimensões somente na primeira coluna de uma tabela de forma livre quando a opção Granularidade era selecionada. Agora, essas dimensões são sempre compatíveis.</p><p>No entanto, a saída de datas não é padrão ao usar essas dimensões. O ano é compensado por 1900, e os meses são baseados em zero.</li></ul> |
 | **Setembro de 2023** | |
 | Estrutura de artigos atualizada para o painel Tempo gasto com reprodução de mídia | A pasta chamada Tempo gasto com reprodução de mídia foi removida e seu conteúdo foi combinado em um único artigo: [Painel Tempo gasto com reprodução de mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Essa alteração está mais de acordo com a documentação de outros painéis.</p> |
 | Melhorias na introdução ao conteúdo | Foram adicionadas informações descrevendo as principais tarefas e recursos de introdução para administradores, analistas, usuários finais e desenvolvedores. Os seguintes novos artigos estão disponíveis: <ul><li>[Introdução (por função)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Noções básicas da interface do Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casos de uso](/help/analyze/get-started/use-cases.md)</li></ul> |

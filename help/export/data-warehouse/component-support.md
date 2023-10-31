@@ -3,10 +3,10 @@ title: Suporte a componentes no Data Warehouse
 description: Saiba quais dimensões e métricas adicionais estão disponíveis no Data Warehouse e o que não é suportado.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 65%
+source-wordcount: '402'
+ht-degree: 56%
 
 ---
 
@@ -40,17 +40,7 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
 
 ### Dimensões não suportadas
 
-* Algumas dimensões baseadas em tempo, incluindo:
-   * AM/PM
-   * Dia do mês
-   * Dia da semana
-   * Dia do ano
-   * Hora do dia
-   * Minuto
-   * Mês do ano
-   * Trimestre do ano
-   * Dia da semana/Fim de semana
-   * Ano
+* AM/PM
 * Algumas dimensões baseadas em definição de caminho, incluindo:
    * Todas as dimensões de entrada, exceto Página de entrada
    * Todas as dimensões de saída, exceto Página de saída e Link de saída
@@ -59,7 +49,6 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
    * Tempo antes do evento
    * Tempo gasto na página - Classificado
    * Tempo gasto por visita - Classificado
-   * Profundidade da Visita
 * Toda a classificação da página de pesquisa
 * Variáveis de hierarquia
 * Tipo de ocorrência
@@ -78,4 +67,16 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
    * Recargas
    * Acesso único
    * Métricas de ‘tempo gasto’
+* Métricas de participação (conforme descrito em [Criar uma métrica de &quot;Participação&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
+### Suporte a Dimension de uma maneira diferente
+
+As seguintes dimensões baseadas em tempo são compatíveis. No entanto, a saída de datas não é padrão ao usar essas dimensões. Especificamente, o ano é compensado por 1900, e os meses são baseados em zero.
+
+* Ano
+* Trimestre
+* Mês
+* Semana
+* Dia
+* Hora
+* Minuto
