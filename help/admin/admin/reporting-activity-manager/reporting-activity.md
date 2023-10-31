@@ -4,9 +4,9 @@ title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1921'
 ht-degree: 16%
 
 ---
@@ -35,7 +35,7 @@ Para obter mais informações sobre o Gerente de atividades de relatórios, incl
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. Exibir informações de utilização sobre cada conjunto de relatórios. Você pode selecionar um cabeçalho de coluna para classificar a tabela por essa coluna.
+1. Exibir informações de utilização sobre cada conjunto de relatórios. Os dados mostrados na tabela representam a atividade de relatório do conjunto de relatórios no momento em que a página foi carregada pela última vez.
 
    As seguintes colunas estão disponíveis:
 
@@ -46,7 +46,7 @@ Para obter mais informações sobre o Gerente de atividades de relatórios, incl
    | **[!UICONTROL Utilização da capacidade]** | A porcentagem da capacidade de relatório do conjunto de relatórios que está sendo usada, em tempo real. <p>**Nota** Uma capacidade de uso de 100% não necessariamente sugere que você deve começar a cancelar imediatamente as solicitações de relatórios. A capacidade de uso de 100% pode estar íntegra se o tempo médio de espera for razoável. Por outro lado, a capacidade de uso de 100% pode sugerir um problema se o número de solicitações em fila também estiver crescendo.</p> |
    | **[!UICONTROL Solicitações na fila]** | O número de solicitações aguardando para serem processadas. <!-- ??? --> |
    | **[!UICONTROL Tempo de espera na fila]** | O tempo médio de espera antes do início do processamento das solicitações. <!-- ???? --> |
-   | **[!UICONTROL Status]** | Os status possíveis são: <ul><li>[!UICONTROL **Ativo**] (azul): os relatórios foram executados no conjunto de relatórios e a atividade dele está sendo monitorada.</li><li>[!UICONTROL **Inativo**] (cinza): nenhum relatório foi executado no conjunto de relatórios. Esse status é exibido somente quando os conjuntos de relatórios são criados pela primeira vez.</li></ul> |
+   | **[!UICONTROL Status]** | Os status possíveis são: <ul><li>[!UICONTROL **Ativo**] (azul): os relatórios foram executados no conjunto de relatórios nas últimas 2 horas. Os dados mostrados na tabela representam a capacidade de relatório do conjunto de relatórios no momento em que a página foi carregada pela última vez.</li><li>[!UICONTROL **Inativo**] (cinza): nenhum relatório foi executado no conjunto de relatórios nas últimas 2 horas, portanto, nenhum dado foi exibido para o conjunto de relatórios.</li></ul> |
 
    {style="table-layout:auto"}
 
