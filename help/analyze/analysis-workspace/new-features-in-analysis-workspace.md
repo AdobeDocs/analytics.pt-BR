@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8268'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -196,7 +196,7 @@ Novos recursos e melhorias lançados em 1 de novembro de 2018.
 
 | Recurso | Descrição |
 |--- |--- |
-| [Preparação do conjunto de relatórios virtual e do projeto - melhorias](/help/analyze/analysis-workspace/curate-share/curate.md) | Essas alterações foram introduzidas em outubro de 2018. As alterações foram feitas aos componentes que são visíveis por administradores e não administradores em projetos preparados da Workspace e em conjuntos de relatórios virtuais preparados. <br> Anteriormente, qualquer pessoa podia ver componentes não preparados clicando em Mostrar todos os componentes. A experiência atualizada de preparação permite um controle mais polido sobre quais componentes ficam visíveis.</br> |
+| [Preparação do projeto e do conjunto de relatórios virtuais: melhorias](/help/analyze/analysis-workspace/curate-share/curate.md) | Essas alterações foram introduzidas em outubro de 2018. As alterações foram feitas nos componentes que são visíveis em projetos preparados do Workspace e em conjuntos de relatórios virtuais preparados. <br> Anteriormente, qualquer pessoa podia ver componentes não preparados clicando em Mostrar todos os componentes. A experiência atualizada de preparação permite um controle mais polido sobre quais componentes ficam visíveis.</br> |
 
 ## Outubro de 2018
 
@@ -537,10 +537,10 @@ Novos recursos e melhorias lançados em 18 de janeiro de 2018.
   </tr>
   <tr>
    <td colname="col1"> <p>Alterações em event#, eVar# e prop# </p> </td>
-   <td colname="col2"> <p>Event#, eVar# e prop#, que eram adicionadas aos nomes das dimensões no painel à esquerda (na versão de 2017), apenas aparecerão quando você <b>pesquisar</b> pelo componente. </p> <p>(Também se aplica ao construtor de conjunto de relatórios virtual.) </p> </td>
+   <td colname="col2"> <p>Event#, eVar# e prop#, que eram adicionadas aos nomes das dimensões no painel à esquerda (na versão de 2017), apenas aparecerão quando você <b>pesquisar</b> pelo componente. </p> <p>(Também se aplica ao construtor do conjunto de relatórios virtuais). </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p>Alterações a Nenhum/Não especificado </p> </td>
+   <td colname="col1"> <p>Alterações em Nenhum/Não especificado </p> </td>
    <td colname="col2"> <p>Alteração de como Nenhum/Não especificado funciona no Analysis Workspace para que seja consistente com o Reports &amp; Analytics, o Construtor de segmentos e o menu de itens de dimensão no Analysis Workspace. </p> <p>Isso significa que o valor será exibido como “Não especificado” em vez de “Nenhum” na maioria dos projetos no Analysis Workspace. </p> </td>
   </tr>
  </tbody>
