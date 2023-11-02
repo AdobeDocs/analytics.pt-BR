@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3156'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Você pode atualizar as preferências da empresa que se aplicam a todos os usuá
 
 {style="table-layout:auto"}
 
-## Preferências de Projetos e análises
+## Preferências de projetos e análises
 
 Você pode personalizar as preferências do projeto para todos os novos projetos criados no Analysis Workspace. Para obter informações sobre como acessar essas preferências, consulte [Atualizar preferências](#update-preferences).
 
@@ -73,7 +73,7 @@ Clique nos títulos de preferência vinculados para obter mais informações e c
 | --- | --- | --- |
 | **Exibir** | | |
 |  | [Densidade da exibição](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=pt-BR) | Escolha quanto conteúdo será exibido na tela, reduzindo o preenchimento vertical do painel à esquerda, em tabelas de forma livre e de coorte. <ul><li>Compacto</li><li>Confortável</li><li>Expandido (padrão)</li></ul> |
-| | [Paleta de cores](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=pt-BR) | Escolha as paletas de cores de visualização usadas no Analysis Workspace.<ul><li>**Paleta categórica**: aplicado a muitas visualizações no Analysis Workspace. Cada cor representa um valor categórico distinto. Escolha entre as opções fornecidas por Adobe ou insira uma paleta personalizada definida por valores hexadecimais delimitados por vírgulas.</li><li>**Paleta divergente**: aplicado à tabela de Coorte no Analysis Workspace. Esta paleta contém um significado numérico com dois extremos e uma linha de base no meio.</li><li>**Paleta sequencial**: aplicado à análise guiada de Tendências de frequência (barra empilhada). Esta paleta contém um significado numérico do claro para o escuro.</li></ul> |
+| | [Paleta de cores](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=pt-BR) | Escolha as paletas de cores de visualização usadas no Analysis Workspace.<ul><li>**Paleta categórica**: aplicada a muitas visualizações no Analysis Workspace. Cada cor representa um valor categórico distinto. Escolha entre as opções fornecidas pela Adobe ou insira uma paleta personalizada definida por valores hexadecimais delimitados por vírgulas.</li><li>**Paleta divergente**: aplicada à tabela de coorte no Analysis Workspace. Esta paleta contém um significado numérico com dois extremos e uma linha de base no meio.</li><li>**Paleta sequencial**: aplicada à análise guiada de Tendências de frequência (barra empilhada). Esta paleta contém um significado numérico do claro para o escuro.</li></ul> |
 | **Dados** | | |
 |  | [Conjunto de relatórios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR#report-suite) | Escolha de onde as tabelas e as visualizações derivam seus dados. <ul><li>Mais recente (padrão)</li><li>Conjunto de relatórios específico selecionado em uma lista</li></ul> |
 |  | [Calendário](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR#calendar) | Selecione de uma lista de: <ul><li>Intervalos fornecidos pela Adobe (o padrão é Este mês)</li><li>Intervalos definidos pelo cliente</li></ul> |
@@ -112,7 +112,7 @@ Clique nos títulos da seção vinculada para obter mais informações e context
 | **[Linha](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | Detalhamento por posição | Selecione essa opção se desejar que o detalhamento permaneça com a posição do item em vez do próprio item. Para obter mais informações sobre detalhamentos, consulte [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md). |
 | | Cálculo percentual | <ul><li>Coluna</li><li>Linha</li></ul> |
-| | Totais da coluna (somente linhas estáticas) | <ul><li>Exibir soma das linhas: mostra a soma dos itens de linha individuais </li><li>Exibir total geral: mostra a soma de linhas desduplicadas.</li></ul> |
+| | Totais de coluna (somente linhas estáticas) | <ul><li>Exibir soma das linhas: mostra a soma dos itens de linha individuais </li><li>Exibir total geral: mostra a soma de linhas desduplicadas.</li></ul> |
 
 ## Preferências de visualizações
 
