@@ -5,10 +5,10 @@ uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 feature: Activity Map
 role: User, Admin
 exl-id: a0bed55f-042c-4963-b7e5-7a5369bba48e
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 61%
+source-wordcount: '117'
+ht-degree: 53%
 
 ---
 
@@ -18,7 +18,6 @@ O Activity Map é compatível com os seguintes navegadores da Web.
 
 | Navegadores compatíveis | Versões |
 |--- |--- |
-| Internet Explorer | Última versão |
 | Firefox | Última versão |
 | Chrome | Última versão. Observação: somente dessa vez, o plug-in do Activity Map Chrome será um plug-in de &quot;modo desenvolvedor&quot;. Ao iniciar esse plug-in, você receberá uma mensagem que incentiva você a desativar as extensões do modo de desenvolvedor. Essa mensagem é exibida sempre que o plug-in é iniciado. |
 
@@ -28,5 +27,7 @@ O Activity Map é compatível com os seguintes navegadores da Web.
 
 Outros requisitos:
 
-* Código AppMeasurement versão 1.6 ou posterior. [Mais...](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+* Código AppMeasurement versão 1.6 ou posterior. [Mais...](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md)
+* Extensão de tags do Adobe Analytics v1.90 ou superior
+* Web SDK versão 2.15.0 ou superior.
 * É necessário habilitar os Cookies e o Javascript.
