@@ -4,7 +4,7 @@ description: O número de vezes que um item de dimensão foi definido ou mantido
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Visualizações de página
 
-A métrica **[!UICONTROL Visualizações de página]** mostra o número de vezes que um determinado item de dimensão (valor de dimensão) foi definido ou mantido (ou seja, quando expira) em uma página. [](overview.md) É uma das métricas mais comuns e básicas nos relatórios.
+A [métrica](overview.md) **[!UICONTROL Visualizações de página]** mostra o número de vezes que um determinado item de dimensão (valor de dimensão) foi definido ou mantido (ou seja, quando expira) em uma página. É uma das métricas mais comuns e básicas nos relatórios.
 
 Por exemplo, a dimensão [!UICONTROL Dias da semana] é composta pelos seguintes itens de dimensão: domingo, segunda-feira, terça-feira, quarta-feira, quinta-feira, sexta-feira e sábado.
 
