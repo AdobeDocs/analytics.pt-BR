@@ -2,10 +2,11 @@
 description: Consulte e gerencie relatórios programados na organização.
 title: Gerenciador de projetos programados
 feature: Admin Tools
-source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
-workflow-type: tm+mt
+exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -13,19 +14,19 @@ ht-degree: 86%
 
 Os projetos programados do Analysis Workspace podem ser gerenciados em **Analytics > Componentes > Projetos programados**.
 
-Ao gerenciar projetos agendados, você pode editar e excluir agendamentos de projetos recorrentes:
+Ao gerenciar projetos programados, é possível editar e excluir programações de projetos recorrentes:
 
 * Alterar o tipo de arquivo (.csv ou PDF)
 * Atualizar a descrição do projeto
 * Adicionar ou remover destinatários
 * Alterar a frequência
 
-Para modificar um projeto agendado
+Para modificar um projeto programado
 
-1. Selecionar **Analytics > Componentes > Projetos agendados**.
+1. Selecione **Analytics > Componentes > Projetos programados**.
 1. Procure uma programação na barra de pesquisa ou usando as opções de filtro no painel esquerdo. Você pode filtrar por [!UICONTROL Tags], [!UICONTROL Proprietários], [!UICONTROL Favoritos] e muito mais.
 
-![Captura de tela mostrando a lista de projetos agendados com a coluna exibindo o título, o proprietário, as tags, as entregas a e outras colunas descritas na seção Colunas disponíveis.](assets/scheduled-project-manager2.png)
+![Captura de tela mostrando a lista de projetos programados com a coluna exibindo título, proprietário, tags, entregue a e outras colunas descritas na seção Colunas disponíveis.](assets/scheduled-project-manager2.png)
 
 ## Colunas disponíveis
 
