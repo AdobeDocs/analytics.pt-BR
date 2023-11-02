@@ -4,9 +4,9 @@ description: Visualize quantidades de itens ou dados da dimensão ao longo do te
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Os administradores do Analytics podem adicionar descrições de métricas e outr
 
 ## Utilização de métricas no Analysis Workspace
 
-Para obter informações sobre como usar métricas no Analysis Workspace, consulte [Usar métricas no Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Para obter informações sobre como usar métricas no Analysis Workspace, consulte [Utilização de métricas no Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
