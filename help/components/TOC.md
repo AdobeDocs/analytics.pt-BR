@@ -5,9 +5,9 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -201,10 +201,10 @@ ht-degree: 93%
       + [Usar funções](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [Marcar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Filtrar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [Marcar métricas calculadas como favoritos](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+      + [Marcar métricas calculadas como favoritas](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [Aprovar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Compartilhar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [Copiar métricas calculada](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
+      + [Copiar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [Gerenciador de métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Referência de métricas {#calcmetrics-reference}
       + [Referência: funções básicas](c-calcmetrics/cm-reference/cm-functions.md)
@@ -220,7 +220,7 @@ ht-degree: 93%
    + [Processamento de tempo do relatório](vrs/vrs-report-time-processing.md)
    + [Considerações sobre o A4T](vrs/vrs-a4t.md)
    + [Perguntas frequentes sobre conjuntos de relatórios virtuais](vrs/vrs-faq.md)
-   + [Considerações sobre Conjuntos de relatórios virtuais e Marcação global/de vários conjuntos](vrs/vrs-considerations.md)
+   + [Considerações sobre conjuntos de relatórios virtuais e marcação de vários relatórios/global](vrs/vrs-considerations.md)
    + Fluxo de trabalho do Conjunto de relatórios virtuais {#vrs-workflow}
       + [Fluxo de trabalho do Conjunto de relatórios virtuais](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Criar conjuntos de relatórios virtuais](vrs/c-workflow-vrs/vrs-create.md)
@@ -233,7 +233,7 @@ ht-degree: 93%
    + [Configurar o Cross-Device Analytics](cda/setup.md)
    + [Como funcionam as repetições](cda/replay.md)
    + [Modelo do CDA Workspace](cda/workspace-template.md)
-   + [Limitar um conjunto de relatórios virtual a determinadas datas](cda/limit-vrs-date.md)
+   + [Limitar um conjunto de relatórios virtuais a determinadas datas](cda/limit-vrs-date.md)
    + [Perguntas frequentes sobre a Análise entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
    + [Alertas inteligentes](c-alerts/intellligent-alerts.md)
