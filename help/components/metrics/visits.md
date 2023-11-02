@@ -4,15 +4,15 @@ description: Uma sequência de exibições da página em uma sessão.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Visitas
 
-As &quot;Visitas&quot; [métrica](overview.md) mostra o número de sessões em todos os visitantes do site.
+A [métrica](overview.md) “Visitas” mostra o número de sessões entre todos os visitantes do site.
 
 ## Como essa métrica é calculada
 
