@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder e o Activity Map.
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 100%
+source-wordcount: '1096'
+ht-degree: 99%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 100%
 + Activity Map {#activity-map}
    + [Visão geral do Activity Map](activity-map/activity-map.md)
    + Comece já {#getting-started}
-      + [Habilitar o Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Ativar e ativar o Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
       + [Instalar os plug-ins do navegador do Activity Map](activity-map/activitymap-getting-started/activitymap-install.md)
       + [Inicializar o Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [Rastreamento de links avançado](activity-map/lnk-tracking-overview.md)
