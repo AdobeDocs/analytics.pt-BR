@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
+source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ Explica as etapas que o Administrador do Analytics precisa completar para ativar
 
 O módulo Activity Map faz parte do AppMeasurement.js, das tags Adobe Experience Platform e do SDK da Web (alloy.js). Os dados de Activity Map não podem ser coletados a menos que você atualize para **Web SDK versão 2.15.0** ou superior, ou **Extensão de tags do Adobe Analytics v1.90** ou superior, ou **AppMeasurement versão 1.6** ou superior.
 
-+++SDK da Web (extensão de tags)
++++SDK da Web (extensão de tags do Adobe Experience Platform)
 
 Nas tags do Adobe Experience Platform, navegue até a propriedade para a qual você está implementando o Analytics. Em [!UICONTROL Extensões] -> [!UICONTROL Adobe Experience Platform Web SDK], selecione **[!UICONTROL Ativar a coleta de dados de cliques]** como destacado abaixo. Em seguida, crie a Biblioteca com as alterações e publique a Biblioteca para produção.
 
@@ -57,7 +57,7 @@ Ir para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todo
 
 ## Etapa 2. Ativar relatórios do Activity Map {#enable}
 
-Primeiro, você precisa ativar os relatórios de Activity Map no nível de conjunto de relatórios.
+Você precisa ativar os relatórios de Activity Map no nível de conjunto de relatórios.
 
 1. Faça logon no Adobe Analytics e acesse  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > Selecionar conjunto de relatórios > **[!UICONTROL Editar configurações]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Relatórios do Activity Map]**.
 
