@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
+source-git-commit: ab1a7736d59d082c7fabc01ffed43215b0e11339
 workflow-type: tm+mt
-source-wordcount: '5296'
+source-wordcount: '5326'
 ht-degree: 96%
 
 ---
@@ -25,6 +25,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **Novembro de 2023** | |
+| Atualizações do tópico de ativação do Activity Map | Adicionado [SDK da Web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (manual e pela extensão de tags do Adobe Experience Platform) conteúdo. |
 | **Outubro de 2023** | |
 | Adição de informações de log ao Gerenciador de atividades de relatórios | Adição de informações que qualquer [cancelamentos e restrições subsequentes da atividade de relatório](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) no Gerenciador de atividades de relatórios são capturados na variável [Logs](/help/admin/admin/logs.md). |
 | Atualizações no suporte a componentes do Data Warehouse | Adição de disponibilidade para alguns componentes e remoção de disponibilidade para outros para o Data Warehouse. Estas alterações refletem-se no [Suporte a componentes no Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>Adição de suporte para a dimensão Profundidade da visita (remoção da Profundidade da visita da lista de dimensões não compatíveis)</li><li>Remoção do suporte a métricas de Participação (métricas de Participação adicionadas à lista de métricas não compatíveis)</li><li>Adição de suporte para as seguintes dimensões baseadas em tempo: Ano, Trimestre, Mês, Semana, Dia, Hora e Minuto (a remoção dessas dimensões da lista de dimensões não é compatível) <p>Anteriormente, o Data Warehouse suportava essas dimensões somente na primeira coluna de uma tabela de forma livre quando a opção Granularidade era selecionada. Agora, essas dimensões são sempre compatíveis.</p><p>No entanto, a saída de datas não é padrão ao usar essas dimensões. O ano é compensado por 1900, e os meses são baseados em zero.</li></ul> |
