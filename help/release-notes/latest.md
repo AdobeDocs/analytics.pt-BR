@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Essas notas de versão abrangem o período de lançamento de 23 de outubro de 20
 
 ## Correções no Adobe Analytics
 
-* Essas alterações no Mecanismo de processamento e relatório do Analytics serão implantadas durante a última semana de outubro: corrigiremos um problema em que os rótulos das dimensões Página ou Link eram exibidos incorretamente como `Unknown`. Antes da correção, a variável `Unknown` Os rótulos podem ter sido exibidos incorretamente quando um Nome de página ou Nome de link não foi transmitido em uma ocorrência, padronizando como [!UICONTROL URL da página] e [!UICONTROL URL do link], respectivamente. Essas dimensões foram configuradas para não diferenciar maiúsculas de minúsculas. Com essa correção, os relatórios subsequentes estarão corretos. Mas para relatórios sobre dados históricos, alguns resultados de relatórios ainda podem ser rotulados incorretamente como `Unknown`. (AN-328030)
+* Essas alterações no mecanismo de processamento e relatórios do Analytics serão implantadas durante a última semana de outubro: corrigiremos um problema onde os rótulos das dimensões Página ou Link eram exibidos incorretamente como `Unknown`. Antes da correção, os rótulos `Unknown` podiam ser exibidos incorretamente quando um nome de página ou nome de link não era transmitido em uma ocorrência, utilizando o [!UICONTROL URL da página] e [!UICONTROL URL do link] como os valores padrão, respectivamente. Essas dimensões foram configuradas para não diferenciar maiúsculas de minúsculas. Com essa correção, os relatórios subsequentes estarão corretos. Mas para relatórios sobre dados históricos, alguns resultados ainda podem ser rotulados incorretamente como `Unknown`. (AN-328030)
 
 ### Outras correções
 
@@ -37,7 +37,7 @@ Essas notas de versão abrangem o período de lançamento de 23 de outubro de 20
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| **Ofuscação completa de IP para ocorrências do Adobe Experience Edge** | 27 de setembro de 2023 | A ofuscação de IP para ocorrências provenientes do Experience Edge será atualizada posteriormente em outubro de 2023. Em abril de 2023, a Experience Edge adicionou a capacidade de ofuscar endereços IP. Na época, o Adobe Analytics só aceitava a ofuscação parcial de IPs, devido à forma como o Analytics processa ocorrências do Experience Edge. Quando clientes optavam pela ofuscação completa no Experience Edge, o Analytics recebia apenas IPs parcialmente ofuscados. Quando essa alteração for implementada, o Analytics receberá o IP totalmente ofuscado. |
+| **Ofuscação completa de IP para ocorrências do Adobe Experience Edge** | 27 de setembro de 2023 | A ofuscação de IP para ocorrências provenientes da Experience Edge será atualizada posteriormente em outubro de 2023. Em abril de 2023, a Experience Edge adicionou a capacidade de ofuscar endereços IP. Na época, o Adobe Analytics só aceitava a ofuscação parcial de IPs, devido à forma como o Analytics processa ocorrências do Experience Edge. Quando clientes optavam pela ofuscação completa no Experience Edge, o Analytics recebia apenas IPs parcialmente ofuscados. Quando essa alteração for implementada, o Analytics receberá o IP totalmente ofuscado. |
 | **Livestream do Adobe Analytics - APIs do Analytics 2.0** | 27 de setembro de 2023 | Os clientes agora podem acessar o [Guia de ponto de acesso para Livestream do Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) nas APIs 2.0 do Adobe Analytics, em vez de no local anterior, com as APIs 1.4. Observe que os clientes que usam credenciais JWT do Adobe I/O devem migrar para as credenciais de servidor para servidor do Adobe I/O OAuth até 1º de janeiro de 2025. (Consulte os detalhes nos Avisos de fim de vida útil abaixo). |
 
 {style="table-layout:auto"}
