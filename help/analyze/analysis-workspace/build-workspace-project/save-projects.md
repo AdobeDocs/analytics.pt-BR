@@ -4,10 +4,10 @@ title: Salvar projetos
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
+source-git-commit: a6f49d0c66ff92eff850a330c35e4979275e3c92
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '728'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Para salvar manualmente um projeto:
    | **[!UICONTROL Salvar]** | Salve as alterações no seu projeto. Se o projeto for compartilhado, os recipients do projeto também verão as alterações. Ao salvar seu projeto pela primeira vez, você deverá fornecer um nome, uma descrição (opcional) e adicionar tags (opcional). |
    | **[!UICONTROL Salvar com notas]** | Antes de salvar o projeto, adicione observações sobre o que foi alterado no projeto. As notas são armazenadas com a versão do projeto e estão disponíveis a todos os editores em [!UICONTROL Projeto] > [!UICONTROL Abrir versão anterior]. |
    | **[!UICONTROL Salvar como]** | Crie um duplicado do seu projeto. O projeto original não será afetado. |
-   | **[!UICONTROL Salvar como modelo]** | Salve seu projeto como um [modelo personalizado](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR) que fica disponível para sua organização em **[!UICONTROL Projeto > Novo]** |
+   | **[!UICONTROL Salvar como relatório da empresa]** | Salve seu projeto como [relatório da empresa](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=pt-BR) que fica disponível para sua organização em **[!UICONTROL Projeto > Novo]** |
 
 ## Salvar automaticamente {#Autosave}
 
@@ -38,9 +38,9 @@ Todos os projetos no Analysis Workspace são salvos automaticamente a cada 2 min
 
 * **Novos projetos:** mesmo que os novos projetos sejam salvos automaticamente, você deve salvar cada novo projeto manualmente na primeira vez. O Analysis Workspace solicita que você salve novos projetos manualmente ao alternar para outro projeto, fechar a guia do navegador e assim por diante.
 
-   Se, por qualquer motivo, você perder inesperadamente o acesso a um projeto recém-criado antes de salvá-lo manualmente, uma versão de recuperação do seu projeto será salva na página inicial do Analysis Workspace em uma pasta chamada `Recovered Projects (Last 7 Days)`. Você deve restaurar o projeto recuperado e salvá-lo manualmente em um local desejado.
+  Se, por qualquer motivo, você perder inesperadamente o acesso a um projeto recém-criado antes de salvá-lo manualmente, uma versão de recuperação do seu projeto será salva na página inicial do Analysis Workspace em uma pasta chamada `Recovered Projects (Last 7 Days)`. Você deve restaurar o projeto recuperado e salvá-lo manualmente em um local desejado.
 
-   Para restaurar um projeto recuperado:
+  Para restaurar um projeto recuperado:
 
    1. Acesse a pastas [!UICONTROL **Projetos recuperados**] na página de destino do Analysis Workspace.
 
@@ -50,7 +50,7 @@ Todos os projetos no Analysis Workspace são salvos automaticamente a cada 2 min
 
 * **Projetos existentes:** se, por qualquer motivo, você sair de um projeto com alterações que ainda não foram salvas automaticamente, o Analysis Workspace solicitará que você salve as alterações ou exibirá uma mensagem de aviso.
 
-   Veja a seguir alguns cenários comuns:
+  Veja a seguir alguns cenários comuns:
 
 ### Abrir outro projeto
 
