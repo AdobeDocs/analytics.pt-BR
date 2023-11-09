@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 40%
+source-wordcount: '653'
+ht-degree: 27%
 
 ---
 
@@ -23,19 +23,52 @@ O módulo Activity Map faz parte do AppMeasurement.js, das tags Adobe Experience
 
 +++SDK da Web (extensão de tags do Adobe Experience Platform)
 
-Nas tags do Adobe Experience Platform, navegue até a propriedade para a qual você está implementando o Analytics. Em [!UICONTROL Extensões] -> [!UICONTROL Adobe Experience Platform Web SDK], selecione **[!UICONTROL Ativar a coleta de dados de cliques]** como destacado abaixo. Em seguida, crie a Biblioteca com as alterações e publique a Biblioteca para produção.
+1. Nas tags do Adobe Experience Platform, navegue até a propriedade para a qual você está implementando o Analytics. Em [!UICONTROL Extensões] -> [!UICONTROL Adobe Experience Platform Web SDK], selecione **[!UICONTROL Ativar a coleta de dados de cliques]** como destacado abaixo.
+1. Crie a biblioteca com as alterações.
+1. Publique a Biblioteca para produção.
 
 ![](assets/web_sdk.png)
+
+**Validação**
+
+Interaja chamadas usando a guia Rede do Console do desenvolvedor:
+
+1. Carregue o script do Development Launch no site.
+1. Ao clicar em Elementos, procure por &quot;/ee&quot; na guia Rede
+
+   ![](assets/validation1.png)
+
+Adobe Experience Platform Debugger:
+
+1. Baixe e instale o [Adobe Experience Platform Debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. Ir para [!UICONTROL Logs] > [!UICONTROL Edge] > [!UICONTROL Conectar ao Edge].
+
+   ![](assets/validation2.jpg)
+
+**Perguntas frequentes**
+
+* **A chamada interativa não está sendo acionada na guia Rede.**
+Na coleta de dados de cliques em uma chamada de coleta, precisamos filtrar com &quot;/ee&quot; ou &quot;coletar?&quot;
+
+* **Não há Exibição de carga para a chamada de coleta.**
+A chamada de coleta é projetada de modo que o rastreamento não afete a navegação para outros sites, portanto, o recurso de descarregamento de documento é aplicável para as chamadas de coleta. Isso não afetará sua coleta de dados, mas se for necessário validar na página, adicione target = &quot;_blank&quot; ao respectivo elemento. Em seguida, o link é aberto em uma nova guia.
+
+* **Como ignorar a coleção de PII?**
+Adicione as respectivas condições em&lt;&lt; on antes de clicar em link enviar retorno de chamada>> e retorne false para ignorar esses valores. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR)
+
+  Código de exemplo:
+
+  ![](assets/sample-code.png)
 
 +++
 
 +++Implementação manual do SDK da Web
 
-Consulte [Rastrear links](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=pt-BR) para obter informações sobre como implementar o rastreamento de link e como ativar o Activity Mapping capturando o `region` do elemento de HTML clicado.
+Consulte [Rastrear links](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=pt-BR) para obter informações sobre como implementar o rastreamento de link e como habilitar o Activity Map capturando o `region` do elemento de HTML clicado.
 
 >[!NOTE]
 >
->Atualmente, ao habilitar o rastreamento de link com o SDK da Web, eventos de links são enviados quando um cliente navega de uma página para a próxima. Isso é diferente do funcionamento do AppMeasurement e pode resultar no envio de ocorrências faturáveis adicionais à Adobe.
+>Atualmente, a ativação do rastreamento de links com o SDK da Web envia eventos de link quando um cliente navega de uma página para outra. Isso é diferente do funcionamento do AppMeasurement e pode resultar no envio de ocorrências faturáveis adicionais à Adobe.
 
 +++
 
