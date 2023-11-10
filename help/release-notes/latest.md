@@ -3,9 +3,9 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
-workflow-type: tm+mt
-source-wordcount: '1134'
+source-git-commit: dfb3750edabed3fd9aef758d2ea1625fc3fb6a96
+workflow-type: ht
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Essas notas de versão abrangem o período de lançamento de 23 de outubro de 20
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Melhorias do Gerenciador de atividades de relatórios** | O Gerenciador de atividades de relatórios permite ver a capacidade de gerar relatórios para cada conjunto de relatórios na sua organização.  Ele fornece visibilidade detalhada do consumo de relatórios à administração para maior facilidade no diagnóstico e na correção de problemas de capacidade durante os horários de pico de relatórios. Veja a seguir alguns dos aprimoramentos disponíveis no Gerenciador de atividades de relatórios: <ul><li>Restringir solicitações subsequentes: além de cancelar as solicitações atuais, a administração agora pode restringir as solicitações por um período definido. É possível restringir solicitações por projeto, usuário ou solicitação.</li><li>Além das métricas de Utilização e Capacidade, o Gerenciador de atividades de relatórios agora inclui mais dados sobre a atividade de relatórios: colunas Complexidade, Usuário e Conexão.</li><li>Todos os cancelamentos e restrições feitos no Gerenciador de atividades de relatórios agora estão visíveis no Log de auditoria. É possível usar o Log de auditoria para visualizar o que está cancelado no momento. Os cancelamentos não podem ser revertidos no Gerenciador de atividades de relatórios ou no Log de auditoria.</li></ul><p>Para obter mais informações, consulte [Visão geral do Gerenciador de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 17 de outubro de 2023 | 24 de outubro de 2023 |
-| **Melhorias no Data Warehouse** | Ao criar uma solicitação do Data Warehouse, agora é possível configurar uma conta na nuvem para usar como destino do relatório. Os seguintes tipos de conta de nuvem estão disponíveis para enviar dados:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (esta opção estava disponível anteriormente)</li></ul>FTP, SFTP, Azure Blob e S3 ainda estão disponíveis como destinos de relatório, mas não são mais recomendados.<p>A experiência do usuário ao criar e gerenciar solicitações do Data Warehouse também foi aprimorada. Para obter mais informações, consulte [Criar uma solicitação do Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) e [Gerenciar solicitações do Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=pt-BR). | 12 de setembro de 2023 | Até 8 de novembro de 2023 |
+| **Melhorias no Data Warehouse** | Ao criar uma solicitação do Data Warehouse, agora é possível configurar uma conta na nuvem para usar como destino do relatório. Os seguintes tipos de conta de nuvem estão disponíveis para enviar dados:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Email (esta opção estava disponível anteriormente)</li></ul>FTP, SFTP, Azure Blob e S3 ainda estão disponíveis como destinos de relatório, mas não são mais recomendados.<p>A experiência do usuário ao criar e gerenciar solicitações do Data Warehouse também foi aprimorada. Para obter mais informações, consulte [Criar uma solicitação do Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) e [Gerenciar solicitações do Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=pt-BR). | 12 de setembro de 2023 | A ser definido |
 
 {style="table-layout:auto"}
 
