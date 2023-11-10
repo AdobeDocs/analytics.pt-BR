@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
 source-wordcount: '5327'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Novembro de 2023** | |
-| Atualizações do tópico Ativação/ativação de Activity Map | Adicionado [SDK da Web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (manual e pela extensão de tags do Adobe Experience Platform) conteúdo. |
+| Atualizações do tópico de ativação/habilitação do Activity Map | Conteúdo do [SDK da Web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=pt-BR) (manual e pela extensão de tags do Adobe Experience Platform) adicionado. |
 | **Outubro de 2023** | |
 | Adição de informações de log ao Gerenciador de atividades de relatórios | Foram adicionadas informações de que quaisquer [cancelamentos e restrições subsequentes de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) no Gerenciador de atividades de relatórios são capturados nos [logs](/help/admin/admin/logs.md). |
 | Atualizações no suporte a componentes do Data Warehouse | Foi adicionada disponibilidade para alguns componentes do Data Warehouse, e alguns componentes foram removidos. Estas alterações podem ser consultadas em [Suporte a componentes do Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>Foi adicionada a compatibilidade com a dimensão Profundidade da visita (remoção da Profundidade da visita da lista de dimensões não compatíveis)</li><li>Remoção do suporte a métricas de participação (as métricas de participação foram adicionadas à lista de métricas não compatíveis)</li><li>Foi adicionada a compatibilidade com as seguintes dimensões baseadas em tempo: ano, trimestre, mês, semana, dia, hora e minuto (essas dimensões foram removidas da lista de dimensões não compatíveis) <p>Anteriormente, o Data Warehouse permitia o uso dessas dimensões somente na primeira coluna de uma tabela de forma livre quando a opção Granularidade era selecionada. Agora, essas dimensões são sempre compatíveis.</p><p>No entanto, a saída de datas não utiliza valores padrão ao usar essas dimensões. O ano é deslocado em 1900 e os meses são baseados em zero.</li></ul> |
