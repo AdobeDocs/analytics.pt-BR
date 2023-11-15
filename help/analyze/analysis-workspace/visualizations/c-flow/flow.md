@@ -5,7 +5,7 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 84%
@@ -28,11 +28,11 @@ Ele permite:
 
 Veja um tutorial em vídeo sobre visualização de Fluxo:
 
->[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
 
 ## Fluxos interdimensionais {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-É possível mostrar o [fluxo entre dimensões](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por exemplo, você pode combinar páginas e departamentos em um diagrama. Nesse caso, seu fluxo pode ir da página inicial para a página Masculino e, em seguida, para o departamento de Sapatos.
+É possível mostrar o [fluxo entre dimensões](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por exemplo, você pode combinar páginas e departamentos em um diagrama. Nesse caso, seu fluxo pode ir da página inicial para a página Mens e, em seguida, para o departamento de Sapatos.
 
 Cada coluna pode exibir uma dimensão diferente. Arraste uma dimensão e solte em uma área para adicioná-la ao diagrama.
 
