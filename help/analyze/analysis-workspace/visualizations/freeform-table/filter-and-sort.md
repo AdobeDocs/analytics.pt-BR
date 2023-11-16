@@ -4,9 +4,9 @@ title: Filtrar e classificar tabelas de forma livre
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '920'
 ht-degree: 68%
 
 ---
@@ -32,7 +32,7 @@ Você pode usar vários métodos para filtrar linhas de uma tabela de forma livr
 - Filtros de tabela
 - Segmentação
 
-Certifique-se de ler como cada método afeta [Totais de tabelas de forma livre](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+Certifique-se de ler como cada método afeta [Totais de tabelas de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Excluir rapidamente linhas específicas de uma tabela
 
@@ -89,7 +89,7 @@ Para filtrar dados em tabelas de forma livre:
 
 ### Segmentação
 
-Consulte nossa [Documentação de segmentação](https://docs.adobe.com/help/pt-BR/analytics/components/segmentation/seg-home.html) para obter mais detalhes.
+Consulte nossa [Documentação de segmentação](/help/components/segmentation/seg-home.md) para obter mais detalhes.
 
 ## Classificar tabelas
 
