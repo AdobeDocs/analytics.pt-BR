@@ -1,17 +1,17 @@
 ---
 description: Documentação que descreve como filtrar e classificar tabelas no Analysis Workspace.
-title: Filtrar e classificar tabelas
+title: Filtrar e classificar tabelas de forma livre
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 76%
+source-wordcount: '938'
+ht-degree: 68%
 
 ---
 
-# Filtrar e classificar tabelas
+# Filtrar e classificar tabelas de forma livre
 
 As tabelas de forma livre do Analysis Workspace são a base para a análise interativa de dados. Sendo assim, elas podem conter milhares de linhas de informação. Filtrar e classificar os dados pode ser essencial para encontrar as informações mais importantes de maneira eficiente.
 
@@ -22,6 +22,17 @@ Os filtros do Analysis Workspace ajudam você a encontrar as informações mais 
 >[!NOTE]
 >
 > Somente itens de dimensão dinâmicos podem ser filtrados conforme descrito nesta seção. Itens de dimensão estáticos não podem ser filtrados. Para obter mais informações, consulte [Itens de dimensão dinâmicos vs estáticos em tabelas de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+## Filtrar linhas da tabela de forma livre
+
+Você pode usar vários métodos para filtrar linhas de uma tabela de forma livre. 
+
+- Clique no X na linha
+- Clique com o botão direito do mouse em > Linhas selecionadas excluídas
+- Filtros de tabela
+- Segmentação
+
+Certifique-se de ler como cada método afeta [Totais de tabelas de forma livre](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
 
 ### Excluir rapidamente linhas específicas de uma tabela
 
@@ -36,6 +47,13 @@ Para excluir rapidamente linhas específicas de uma tabela de forma livre:
 1. Passe o mouse sobre a linha que deseja excluir e selecione o ícone x.
 
    Mantenha pressionada a tecla Shift para selecionar um intervalo de linhas, ou mantenha pressionada a tecla Command (no Mac) ou a tecla Ctrl (no Windows) para selecionar várias linhas.
+
+### Clique com o botão direito do mouse em > Excluir linhas selecionadas
+
+1. Selecione uma ou mais linhas.
+1. Clique com o botão direito e selecione **[!UICONTROL Excluir Linhas Selecionadas]**.
+
+   Essa ação removerá as linhas da tabela e aplicará um filtro de tabela.
 
 ### Aplicar um filtro simples ou avançado a uma tabela
 
@@ -68,6 +86,10 @@ Para filtrar dados em tabelas de forma livre:
 1. Selecione [!UICONTROL **Aplicar**] para filtrar os dados.
 
    O ícone de **Filtro** ![Ícone de filtro azul da tabela filtrada](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) fica azul quando um filtro é aplicado à tabela.
+
+### Segmentação
+
+Consulte nossa [Documentação de segmentação](https://docs.adobe.com/help/pt-BR/analytics/components/segmentation/seg-home.html) para obter mais detalhes.
 
 ## Classificar tabelas
 
