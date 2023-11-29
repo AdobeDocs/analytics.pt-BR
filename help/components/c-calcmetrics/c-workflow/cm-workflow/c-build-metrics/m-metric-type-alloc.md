@@ -3,10 +3,10 @@ description: Saiba mais sobre
 title: Atribuição e tipo de métrica
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 73%
+source-wordcount: '464'
+ht-degree: 75%
 
 ---
 
@@ -31,13 +31,13 @@ Para especificar o tipo de métrica ao criar uma métrica calculada:
 
 ## Como a alocação linear funciona
 
-[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) é como os modelos de alocação em métricas calculadas são avaliados.
+[Atribuição](/help/analyze/analysis-workspace/attribution/overview.md) é como os modelos de alocação em métricas calculadas são avaliados.
 
 Para obter uma lista completa de modelos de atribuição não padrão e janelas de retrospectiva com suporte, consulte [Modelos de atribuição e janelas de retrospectiva](/help/analyze/analysis-workspace/attribution/models.md).
 
 O exemplo a seguir ilustra como as métricas calculadas com alocações lineares funcionam nos relatórios:
 
-|  | Ocorrência 1 | Ocorrência 2 | Ocorrência 3 | Ocorrência 4 | Ocorrência 5 | Ocorrência 6 | Ocorrência 7 |
+| | Ocorrência 1 | Ocorrência 2 | Ocorrência 3 | Ocorrência 4 | Ocorrência 5 | Ocorrência 6 | Ocorrência 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Dados de entrada | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | $10 |
 | eVar de último contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO B | PROMOÇÃO B | PROMOÇÃO C | $10 |
@@ -51,4 +51,4 @@ Neste exemplo, os valores A, B e C foram enviados para uma variável nas ocorrê
 Há algumas diferenças em como a atribuição linear funciona nessas duas ferramentas:
 
 * No Reports &amp; Analytics, a atribuição linear (processada) sempre é baseada em visitas, e no Workspace pode ser baseada em visitas ou visitantes.
-* No Reports &amp; Analytics, se o valor Nenhum fosse transmitido na primeira ocorrência de uma visita, o valor (inicial) persistiria da visita anterior. Esse NÃO é o caso no Workspace (Attribution IQ). Se nenhum valor for transmitido na primeira ocorrência de uma visita, “Nenhum” será o valor inicial.
+* No Reports &amp; Analytics, se o valor Nenhum fosse transmitido na primeira ocorrência de uma visita, o valor (inicial) persistiria da visita anterior. Esse NÃO é o caso no Workspace (Attribution). Se nenhum valor for transmitido na primeira ocorrência de uma visita, “Nenhum” será o valor inicial.

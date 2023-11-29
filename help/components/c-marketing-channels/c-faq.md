@@ -3,9 +3,9 @@ title: Perguntas frequentes sobre canais de marketing
 description: Perguntas frequentes para canais de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1500'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Para maximizar a eficiência dos Canais de marketing para o Attribution IQ e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Para maximizar a eficiência dos canais de marketing para o Attribution e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Os administradores do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
@@ -112,7 +112,7 @@ A seguir, um exemplo de Interno (atualização de sessão) sendo definido como c
    3. Esse usuário volta vários dias depois por meio de uma pesquisa natural e faz uma compra.
    4. O canal de email recebe o crédito de Primeiro contato e a pesquisa natural recebe o crédito de Último contato.
 
-   Mesmo vários dias depois de alterar as regras de processamento, os dados ainda poderão ser coletados no canal de primeiro contato incorreto. Os dados do primeiro contato são continuamente coletados no canal incorreto até que o engajamento do visitante do usuário expire.
+  Mesmo vários dias depois de alterar as regras de processamento, os dados ainda poderão ser coletados no canal de primeiro contato incorreto. Os dados do primeiro contato são continuamente coletados no canal incorreto até que o engajamento do visitante do usuário expire.
 
 A melhor maneira de corrigir essas discrepâncias é realizar uma ou ambas as ações a seguir:
 

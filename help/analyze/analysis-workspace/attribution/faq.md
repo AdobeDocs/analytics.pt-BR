@@ -4,9 +4,9 @@ description: Obtenha respostas para perguntas frequentes sobre atribuição.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1220'
 ht-degree: 71%
 
 ---
@@ -108,9 +108,9 @@ Sim, a maioria das fontes de dados é compatível. A atribuição não é possí
 
 As fontes de dados de ID de transação são tratadas como qualquer outra ocorrência. As fontes de dados de ID de transação não usam o processamento especial que normalmente é usado nos relatórios tradicionais. Em outras palavras, ao usar o processamento de tempo do relatório, as ocorrências de ID de transação terão valores de eVar propagados a partir das ocorrências que ocorrem perto do carimbo de data e hora da ocorrência de ID de transação. Os valores não serão propagados de ocorrências que ocorreram perto da hora da transação original.
 
-Quando possível, o Attribution IQ depende do valor da coluna MID enviada em um evento na fonte de dados, em vez de um valor persistente. O modelo de atribuição é aplicado aos valores de coluna MID na fonte de dados, de modo dinâmico. Por exemplo, quando você usa a atribuição &quot;Último contato&quot;, o modelo começa a partir de cada instância de uma métrica e avança sequencialmente nas ocorrências até que o modelo atinja o último valor observado na coluna MID.
+Quando possível, a atribuição depende do valor da coluna MID enviado em um evento na fonte de dados, em vez de um valor persistente. O modelo de atribuição é aplicado aos valores de coluna MID na fonte de dados, de modo dinâmico. Por exemplo, quando você usa a atribuição &quot;Último contato&quot;, o modelo começa a partir de cada instância de uma métrica e avança sequencialmente nas ocorrências até que o modelo atinja o último valor observado na coluna MID.
 
-Quando não for possível, o Attribution IQ usará o valor MID no &quot;registro anterior&quot; na fonte de dados para avaliação. Esse registro anterior pode não ser ordenado sequencialmente pelo carimbo de data e hora, já que o AA não oferece suporte a dados fora de ordem.
+Quando não for possível, a atribuição usará o valor MID no &quot;registro anterior&quot; na fonte de dados para avaliação. Esse registro anterior pode não ser ordenado sequencialmente pelo carimbo de data e hora, já que o AA não oferece suporte a dados fora de ordem.
 
 Como os registros não são solicitados sequencialmente, os valores esperados da aplicação da persistência podem afetar a quantidade de tempo que existe entre o carimbo de data e hora da ID de transação fornecido e a transação original.
 

@@ -4,7 +4,7 @@ title: Visão geral de Alertas inteligentes
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 84%
@@ -35,7 +35,7 @@ Há quatro maneiras de acessar o Criador de alertas:
 | Selecione um ou mais itens de linha da tabela de forma livre | Clique com o botão direito e selecione **[!UICONTROL Criar alerta a partir da seleção]**. Isso abre o [!UICONTROL Criador de alertas] O e o preenchem previamente as métricas e os filtros apropriados aplicados a partir da tabela. Você pode editar o alerta, se necessário. ![Criar alerta a partir da seleção](assets/create-alert-from-selection.png) |
 | Em um relatório do Reports &amp; Analytics | Ir para  **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]** . Essa ação abre o criador de alertas e preenche as métricas e os filtros automaticamente com os dados selecionados do relatório. Você pode editar o alerta, se necessário. ![Adicionar alerta](assets/add-alert.png) |
 
-Os limites de porcentagem são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, serão usados [modelos diferentes](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular a distância (a quantidade de desvios padrão) de cada dado em relação à norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias do que se definir um limite mais alto (99,75%).
+Os limites de porcentagem são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, serão usados [modelos diferentes](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) para calcular a distância (a quantidade de desvios padrão) de cada dado em relação à norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias do que se definir um limite mais alto (99,75%).
 
 >[!IMPORTANT]
 >
@@ -50,4 +50,4 @@ Se um alerta usar a detecção de anomalias, o período de treinamento varia de 
 * Granularidade diária: 35 dias + mesmo intervalo do ano passado
 * Granularidade por hora: 336 horas
 
-Consulte [Técnicas estatísticas usadas na Detecção de anomalias](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para obter mais informações.
+Consulte [Técnicas estatísticas usadas na Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) para obter mais informações.

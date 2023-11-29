@@ -4,16 +4,16 @@ description: Como usar e interpretar o painel de atribuição no Analysis Worksp
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '441'
 ht-degree: 97%
 
 ---
 
 # Painel de atribuição
 
-O painel [!UICONTROL Atribuição] é uma maneira fácil de criar uma análise comparando vários modelos de atribuição. É um recurso no [Attribution IQ](../attribution/overview.md) que oferece um espaço de trabalho dedicado para usar e comparar modelos de atribuição.
+O painel [!UICONTROL Atribuição] é uma maneira fácil de criar uma análise comparando vários modelos de atribuição. É um recurso no [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) que oferece um espaço de trabalho dedicado para usar e comparar modelos de atribuição.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 

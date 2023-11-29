@@ -3,10 +3,10 @@ description: Requisitos de sistema e comparação da Analysis Workspace, Reports
 title: Comparação e requisitos de produtos do Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '432'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 97%
 
 ---
 
@@ -29,11 +29,10 @@ Para obter informações sobre qual produto do Adobe Analytics usar, consulte [Q
 | **Vários conjuntos de relatórios** | [Sim](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sim, com limitações | Sim | Não | Sim | Não | Sim |
 | **Quantidade de detalhamentos** | Ilimitado | Até 2 | Até 2 | Ilimitado | Ilimitado | Ilimitado | Ilimitado, executar em vários queries |
 | **Segmentação** <br> [Saiba mais](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sim | Sim | Sim | Sim, com [limitações](/help/components/segmentation/seg-reference/seg-compatibility.md) | Sim | Não | Sim |
-| **Métricas calculadas** <br> [Saiba mais](/help/components/c-calcmetrics/cm-overview.md) | Sim, com [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Sim | Sim | Não | Sim | Não | Sim, com [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Métricas calculadas** <br> [Saiba mais](/help/components/c-calcmetrics/cm-overview.md) | Sim, com [Atribuição](/help/analyze/analysis-workspace/attribution/overview.md) | Sim | Sim | Não | Sim | Não | Sim, com [Atribuição](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canais de marketing** <br> [Saiba mais](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sim | Sim | Sim | Sim | Sim | Sim - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sim |
 | **Análise de coorte** | [Sim](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Não | Não | Não | Sim | Não | Não |
-| **Atribuição** | Sim, com [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Limitado | Limitado | Não | Sim | Não | Sim, com [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
-| **Recursos do analista virtual** <br> [Saiba mais](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Sim | Não | Não | Não | Não | Não | Sim |
+| **Atribuição** | Sim, com [Atribuição](/help/analyze/analysis-workspace/attribution/overview.md) | Limitado | Limitado | Não | Sim | Não | Sim, com [Atribuição](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Preparação** <br> [Saiba mais](/help/analyze/analysis-workspace/curate-share/curate.md) | Sim: conjunto de relatórios de projeto e virtuais | Não | Não | Não | Não | Não | Sim: somente conjunto de relatórios virtuais |
 | **Compartilhamento de projeto** <br> [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sim, com funções de projeto | Sim | Sim | Não | Sim | Não | Não |
 | **Delivery programado** | Sim | Sim | Sim | Sim | Não | Sim | Não |

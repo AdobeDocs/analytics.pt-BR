@@ -3,7 +3,7 @@ description: Explica os preparativos necessários para migrar componentes e proj
 title: Preparar-se para migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 15%
@@ -89,7 +89,7 @@ Segmentos, intervalos de datas e métricas calculadas que ainda não existem no 
 | **[Tags](/help/analyze/landing.md)** | Não |
 | **[Favoritos](/help/analyze/landing.md)** | Não |
 | **[Agendamentos](/help/components/scheduled-projects-manager.md)** | Não |
-| **[Detecção de anomalias](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) |
+| **[Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![marca de seleção](assets/Smock_Checkmark_18_N.svg) |
 
 {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ Remova esses elementos do projeto do Adobe Analytics antes de migrar o projeto p
 
 * [Resumo da página](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-* [Análise de contribuição](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+* [Análise de contribuição](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
 
 ## Decida como uma organização como você mapeará componentes
 
