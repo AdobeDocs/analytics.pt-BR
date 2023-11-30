@@ -3,9 +3,9 @@ title: Remoção de bot no Adobe Analytics
 description: Como remover bots no Adobe Analytics
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '795'
 ht-degree: 84%
 
 ---
@@ -73,7 +73,7 @@ Quando o relatório do Data Warehouse chegar, você terá uma lista de ECIDs que
 * **ECID**: verifique se este cabeçalho de coluna corresponde ao nome que você deu à nova ID declarada acima.
 * **Sinalizador de bot**: adicione &quot;Sinalizador de bot&quot; como uma dimensão de esquema de atributo do cliente.
 
-Use esse arquivo .CSV como seu arquivo de importação do atributo do cliente e assine os conjuntos de relatórios no atributo do cliente, conforme descrito neste [publicação do blog](https://theblog.adobe.com/link-digital-behavior-customers).
+Use esse arquivo .CSV como seu arquivo de importação do atributo do cliente e assine os conjuntos de relatórios no atributo do cliente, conforme descrito neste [publicação do blog](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
