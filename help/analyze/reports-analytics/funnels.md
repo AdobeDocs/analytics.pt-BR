@@ -5,20 +5,18 @@ uuid: a67ce302-fae1-434a-b662-91672e85cab3
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
 
 # Funil de conversão
 
-{{ra-eol}}
-
 Taxas de conversão normalmente geram conversões entre os eventos de início, término e etapa ou pontos de um processo de conversão. Depois que você codificar os eventos de sucesso do site, o relatório cria as taxas entre esses eventos de sucesso e os exibe em um Relatório de funil de conversão.
 
-Os seguintes relatórios de funil estão disponíveis:
+Os relatórios de funil a seguir estão disponíveis:
 
 * [!UICONTROL Funil de conversão de compra]: mostra as visitas (específicas do relatório), os carrinhos, os pedidos, as unidades e a receita.
 * [!UICONTROL Funil de conversão de carrinho]: exibe as visitas (específicas do relatório), os carrinhos, os check-outs, os pedidos e a receita.

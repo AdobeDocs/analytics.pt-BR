@@ -5,43 +5,16 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: cf0c15c1b81a243e35fbdcf32b43a6ef4ada9649
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 91%
+source-wordcount: '686'
+ht-degree: 90%
 
 ---
 
-# Visão geral de Personalizar relatórios
-
-{{ra-eol}}
+# Personalizar relatórios
 
 Após executar um relatório, você pode personalizá-lo para visualizar e analisar os dados de acordo com suas necessidades. Você pode filtrar dados do relatório, alterar como os dados são apresentados graficamente, alterar a granularidade, etc.
-
-## Criar um relatório personalizado {#task_BA6EACA3039C40AEA5605E1D8C76E646}
-
-É possível salvar a configuração atual de um relatório como um novo relatório personalizado para todos os usuários visualizarem.
-
-<!-- 
-
-t_reports_custom.xml
-
- -->
-
-Somente administradores podem criar um relatório personalizado. Ao criar um relatório personalizado, ele é adicionado ao menu principal de relatórios, ao lado do relatório que serviu de base para o relatório personalizado.
-
-Para criar um relatório personalizado:
-
-1. Execute um relatório e configure-o conforme necessário.
-1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Criar relatório personalizado]**.
-1. Dê um nome ao relatório e, em seguida, clique em **[!UICONTROL Salvar]**.
-
-   Certifique-se de que você não tenha duplicado o nome de um relatório existente.
-
->[!MORELIKETHIS]
->
->* [Personalização do menu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=pt-BR)
-
 
 ## Selecionar um intervalo de datas ou data {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
@@ -90,13 +63,17 @@ Não é possível comparar datas entre relatórios de tendências.
 >
 >Se você deseja executar uma comparação de datas sobre métricas principais em um painel, é possível transmitir os dados para o [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=pt-BR) por meio de duas solicitações separadas. Em seguida, você pode usar fórmulas personalizadas no Excel para analisar a diferença entre os dois.
 
-Para comparar datas entre relatórios classificados em Reports &amp; Analytics:
+<!-- delete this procedure, but what about this entire "Compare dates" section?
 
-1. Executar um relatório.
-1. Clique no calendário, no canto superior direito.
-1. Clique em **[!UICONTROL Comparar datas]**.
-1. Selecione as datas que deseja utilizar.
-1. Clique em **[!UICONTROL Executar relatório]**.
+To compare dates between ranked reports in Reports & analytics: 
+
+1. Run a report.
+1. Click the calendar at the top right.
+1. Click **[!UICONTROL Compare Dates]**.
+1. Select the dates you want to use.
+1. Click **[!UICONTROL Run Report]**.
+
+-->
 
 ## Exibir uma porcentagem como gráfico {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -212,19 +189,3 @@ Para executar um relatório de dia da semana:
 
 1. Execute um relatório de tendência em um intervalo de datas especificado.
 1. Clique no link **[!UICONTROL Dias da semana]** e, em seguida, clique no dia.
-
-## Botão “Testar no Espaço de trabalho”  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
-
-Se você clicar no botão **[!UICONTROL Testar na Workspace]** na parte superior de um relatório, isso carregará o mesmo relatório na Analysis Workspace.
-
-<!-- 
-
-try_in_workspace.xml
-
- -->
-
-A maioria dos relatórios no Reports &amp; Analytics inclui um botão “Testar na Workspace” para permitir que você reproduza a exibição atual na Analysis Workspace para obter personalização adicional.
-
-No momento, o botão estará disponível somente se o nome do usuário tiver plenos direitos na Analysis Workspace.
-
-Para obter mais informações sobre como personalizar seu relatório, consulte o guia da [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR).

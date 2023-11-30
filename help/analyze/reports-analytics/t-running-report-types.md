@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 2bb3cc1ce46fc8e5f7e15291401fce1c4d8cb839
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 97%
+source-wordcount: '1069'
+ht-degree: 94%
 
 ---
 
@@ -16,28 +16,38 @@ ht-degree: 97%
 
 {{ra-eol}}
 
-Etapas para executar os diferentes tipos de relatório.
+Você pode executar vários tipos diferentes de relatórios no Analysis Workspace. Veja a seguir alguns exemplos.
 
-## Execute um relatório classificado {#task_C570BA4A213F4F2EB7B30E012934BE7D}
+Para obter uma lista completa dos tipos de relatórios pré-criados disponíveis, consulte [Usar relatórios pré-criados](/help/analyze/analysis-workspace/reports/use-reports.md)
 
-Em um relatório classificado, a tabela mostra a classificação das páginas do relatório em relação à métrica, de acordo com o número ou a porcentagem. Os relatórios classificados podem exibir diversas métricas em um mesmo relatório.
+<!-- How do you do a Ranked Report in Workspace?
 
-1. Gere um relatório, como, por exemplo, um [!UICONTROL relatório de Páginas] (**[!UICONTROL Relatórios]** > **[!UICONTROL Conteúdo do site]** > **[!UICONTROL Páginas]**).
-1. No cabeçalho do relatório, clique em **[!UICONTROL Classificado]**.
-1. Para classificar o relatório, clique em um título de coluna na tabela.
+## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-   Os Relatórios classificados podem ter até 200 itens indicados na tabela (tais como produtos, categorias, páginas da Web, etc.) e dez métricas (receita, ordens, visualizações, etc.).
+In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
 
-## Executar um relatório de tendências {#task_F03B4E760B9E4EA29FC3F654E6316887}
+1. Generate a report, such as a [!UICONTROL Pages Report] ( [!UICONTROL **Workspace**] > **[!UICONTROL Engagement]** > **[!UICONTROL Pages]**).
+1. In the report header, click **[!UICONTROL Ranked.]**
+1. To rank the report, click a column heading in the table.
 
-Os relatórios de tendência exibem as métricas ao longo do tempo. Você usa este tipo de relatório quando deseja ver como um segmento se comporta de um período de tempo para o seguinte.
+   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on).
 
-A maioria dos relatórios de Conversão e Tráfego tem uma exibição com Tendência disponível. Usando o [!UICONTROL Calendário], você pode mostrar a melhora de qualquer análise de período, inclusive dias de um mês, semanas de um ano, semanas de um trimestre, meses de um ano, etc. Relatórios de tendência mostram tendências para uma única métrica (receitas, pedidos, opiniões, etc.) para até cinco itens (como produtos, categorias, páginas da Web, etc.).
+-->
 
-**Para executar um relatório de tendências**
+<!-- Can you do a Trended report? 
 
-1. Execute um relatório de conversão ou tráfego como, por exemplo, **[!UICONTROL Relatórios]** > **[!UICONTROL Conteúdo do site]** > **[!UICONTROL Páginas]**.
-1. Em **[!UICONTROL Tipo de relatório]**, clique em **[!UICONTROL Tendência]**.
+## Run a trended report {#task_F03B4E760B9E4EA29FC3F654E6316887}
+
+Trended reports display metrics over time. You use this report type when you want to see how a segment performs from one time period to the next.
+
+Most Conversion and Traffic reports have a Trended view available. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Trended reports show trends for a single metric (revenue, orders, views, and so on) for up to five items (such as products, categories, web pages, and so on).
+
+**To run a trended report** 
+
+1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+
+-->
 
 ## Executar um relatório de fallout {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -48,20 +58,14 @@ Dê uma olhada no novo painel [Análise de fallout](https://experienceleague.ado
 1. No [!UICONTROL Adobe Analytics], clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]** > **[!UICONTROL Páginas]** > **[!UICONTROL Desistências]**.
 1. Na página do [!UICONTROL Relatório de desistências], clique em **[!UICONTROL Executar o Report Builder de desistências]**.
 
-   ![Resultado da etapa](assets/fallout_add_items.png)
-
 1. Na página [!UICONTROL Definir pontos de verificação], especifique os pontos de verificação que deseja utilizar para o relatório.
 1. Clique em **[!UICONTROL Executar relatório]**.
-
-   ![Resultado da etapa](assets/fallout_report.png)
 
 ## Executar um relatório de fluxo de página {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Relatórios de fluxo de página exibem a ordem na qual seus visitantes acessam as páginas e navegam pelo seu site. Este relatório ajuda a descobrir essas respostas
 
-Confira o [Visualização de fluxo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=pt-BR) no Analysis Workspace!
-
-Por exemplo, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Caminhos]** > **[!UICONTROL Páginas]** > **[!UICONTROL Fluxo da próxima página]**.
+Por exemplo, clique **[!UICONTROL Workspace]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Envolvimento]** > **[!UICONTROL Fluxo da página seguinte e anterior]**.
 
 ## Executar um relatório de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
