@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '5323'
-ht-degree: 99%
+source-wordcount: '5424'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **Dezembro de 2023** | |
+| Nova seção Relatórios | Adição de uma nova seção Relatórios que inclui informações sobre [uso de relatórios pré-criados](/help/analyze/analysis-workspace/reports/use-reports.md) e [criação e gerenciamento de relatórios da empresa](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| Atualizações na documentação de Detecção de anomalias e Análise de contribuição | A documentação da Detecção de anomalias e da Análise de contribuição estava localizada anteriormente em uma seção sobre o Virtual Analyst. As seguintes alterações foram feitas: <ul><li>O termo Analista virtual foi removido da documentação.</li><li>A seção sobre [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) foi movido diretamente abaixo da seção Analysis Workspace.</li><li>A documentação da Análise de contribuição foi mesclada à documentação da Detecção de anomalias.</li></ul> |
+| &quot;Attribution IQ &quot; alterado para &quot;Atribuição&quot; | Todas as instâncias de &quot;Attribution IQ&quot; foram alteradas para &quot;[Atribuição](/help/analyze/analysis-workspace/attribution/overview.md)&quot; em toda a documentação. |
 | **Novembro de 2023** | |
 | Atualizações do tópico de ativação/habilitação do Activity Map | Conteúdo do [SDK da Web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=pt-BR) (manual e pela extensão de tags do Adobe Experience Platform) adicionado. |
 | **Outubro de 2023** | |
