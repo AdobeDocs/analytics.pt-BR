@@ -3,16 +3,16 @@ title: Análise focada (após cada lançamento do site)
 description: Siga estas etapas para garantir que sua implementação permaneça sem erros e em conformidade com seus KPIs.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: '491'
+ht-degree: 74%
 
 ---
 
 # Análise focada (após cada lançamento do site)
 
-Por que você deve analisar sua implementação a intervalos de poucos meses? Para que você possa resolver qualquer problema na qualidade dos dados enquanto ele ainda for pequeno. Se fizer essa Análise focada consistentemente após cada lançamento do site, você descobrirá que as [Análises completas](/help/implement/review/full-review.md) bianuais são muito mais fáceis. Você também evitará que pequenos problemas cresçam e se tornem grandes problemas de dados que podem minar a confiança dos interessados.
+Por que você deve analisar sua implementação a intervalos de poucos meses? Para que você possa resolver qualquer problema na qualidade dos dados enquanto ele ainda for pequeno. Se fizer essa Análise focada consistentemente após cada lançamento do site, você descobrirá que a análise semestral [Análises completas](/help/implement/review/full-review.md) são muito mais fáceis. Você também evitará que pequenos problemas cresçam e se tornem grandes problemas de dados que podem minar a confiança das partes interessadas.
 
 ## 1. Comece com seus cinco KPIs principais
 
@@ -20,9 +20,9 @@ Conhecer os cinco principais indicadores de desempenho (KPIs) ajudará a determi
 
 ## 2. Verifique se suas métricas e variáveis de KPI ainda estão funcionando bem
 
-Lembre-se: as atualizações de código ao longo do tempo podem ter ramificações não intencionais. Verifique se todas as métricas e dimensões associadas aos seus [5 principais KPIs](/help/implement/review/define-kpis.md) ainda estão funcionando corretamente. O momento ideal para se fazer isso é logo após o lançamento de um site; se você não tiver feito isso nos últimos meses, faça *agora*. Para fazer isso:
+Lembre-se: as atualizações de código ao longo do tempo podem ter ramificações não intencionais. Verifique se todas as métricas e dimensões associadas aos seus [5 principais KPIs](/help/implement/review/define-kpis.md) ainda estão funcionando corretamente. O momento ideal para se fazer isso é logo após o lançamento de um site; se você não tiver feito isso nos últimos meses, faça *now*. Para fazer isso:
 
-* Crie painéis para ver as tendências de hora em hora dessas métricas e variáveis críticas (ou configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=pt-BR#analysis-workspace) para cada métrica). Em seguida, monitore-as por um ou dois dias para garantir que você está obtendo os dados esperados e que os dados estão corretos. Procure pontos de inflexão. Esteja preparado para corrigir imediatamente quaisquer problemas críticos. Se encontrar discrepâncias, verifique a camada de dados, as regras do gerenciador de tags e as regras de processamento para descobrir o motivo.
+* Crie painéis para ver as tendências de hora em hora dessas métricas e variáveis críticas (ou configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) para cada métrica). Em seguida, monitore-as por um ou dois dias para garantir que você está obtendo os dados esperados e que os dados estão corretos. Procure pontos de inflexão. Esteja preparado para corrigir imediatamente quaisquer problemas críticos. Se encontrar discrepâncias, verifique a camada de dados, as regras do gerenciador de tags e as regras de processamento para descobrir o motivo.
 * Execute novamente o [Painel de integridade do Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) para monitorar tendências gerais de suas métricas e variáveis de KPI.
 
 *Para obter mais detalhes sobre como verificar se suas métricas e variáveis estão funcionando corretamente, [leia estas dicas](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=pt-BR) de Sarah Owen, que é especialista no Adobe Analytics.*

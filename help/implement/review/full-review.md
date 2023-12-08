@@ -3,10 +3,10 @@ title: Análise completa
 description: Analise sua implementação a cada seis meses para garantir o alinhamento contínuo com as necessidades de negócios e os KPIs.
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,7 @@ Conheça o proprietário da empresa e/ou os analistas para analisar as necessida
 
 Analise rapidamente todas as suas métricas e variáveis, em ordem de importância para os negócios, para verificar se os dados estão sendo coletados corretamente. Comece com suas métricas e variáveis mais importantes: aquelas associadas aos [cinco principais KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=pt-BR#review). Para fazer isso:
 
-* Crie painéis para ver visualizações mensais de tendências de suas métricas e variáveis (ou configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=pt-BR#analysis-workspace) para cada uma) para garantir que você obtenha os dados esperados e que os dados estejam corretos. Se encontrar discrepâncias, examine a camada de dados, as regras do gerenciador de tags e as regras de processamento para descobrir o motivo.
+* Crie painéis para ver visualizações mensais de tendências de suas métricas e variáveis (ou configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) para cada uma) para garantir que você obtenha os dados esperados e que os dados estejam corretos. Se encontrar discrepâncias, examine a camada de dados, as regras do gerenciador de tags e as regras de processamento para descobrir o motivo.
 * Execute novamente o [Painel de integridade do Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) para monitorar tendências amplas de suas métricas e variáveis.
 
 Não permita que sua implementação fique sobrecarregada com métricas e variáveis desnecessárias. Desative métricas ou variáveis das quais a empresa não precisa mais ou que não usa. Você pode excluí-las ou redefini-las posteriormente.
