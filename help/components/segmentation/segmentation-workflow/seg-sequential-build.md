@@ -3,10 +3,10 @@ description: Segmentos sequenciais são criados por meio do operador THEN, em ve
 title: Construir segmentos sequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
 workflow-type: tm+mt
-source-wordcount: '3827'
-ht-degree: 100%
+source-wordcount: '3879'
+ht-degree: 97%
 
 ---
 
@@ -185,7 +185,7 @@ Por exemplo:
 * **Excluir os domínios de referência**. Use uma regra que inclua somente os domínios de referência do Google.com e exclua todos os outros.
 * **Identificar não compradores**. Identifique quando os pedidos são maiores que zero e, então, exclua o [!UICONTROL Visitante].
 
-O operador [!UICONTROL Exclude] pode ser empregado para identificar uma sequência em que visitas ou ocorrências específicas não sejam realizadas pelo visitante. [!UICONTROL Excluir pontos de verificação] também pode ser incluído em um [Grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+O operador [!UICONTROL Exclude] pode ser empregado para identificar uma sequência em que visitas ou ocorrências específicas não sejam realizadas pelo visitante. [!UICONTROL Excluir pontos de verificação] também podem ser incluídos em um [Grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 ### Excluir entre pontos de verificação
 
@@ -202,7 +202,7 @@ Os seguintes exemplos sobre como esse tipo de segmento pode ser usado:
 
 **Criar este segmento**
 
-Crie um segmento como você faria para um segmento sequencial simples, de nível variado ou aninhado e em seguida defina o operador [!UICONTROL EXCLUDE] para o elemento do contêiner. O exemplo abaixo é um segmento agregado em que os três contêineres de [!UICONTROL Ocorrência] são arrastados para o canvas, o operador [!UICONTROL THEN] é designado para unir a lógica do contêiner e, em seguida, exclui o contêiner de exibição de página do meio para incluir somente os visitantes que foram da página A para a página C na sequência.
+Crie um segmento como faria para um segmento sequencial simples, de nível variado ou aninhado e defina a [!UICONTROL EXCLUIR] operador para o elemento do contêiner. O exemplo abaixo é um segmento agregado em que os três contêineres de [!UICONTROL Ocorrência] são arrastados para o canvas, o operador [!UICONTROL THEN] é designado para unir a lógica do contêiner e, em seguida, exclui o contêiner de exibição de página do meio para incluir somente os visitantes que foram da página A para a página C na sequência.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -210,7 +210,7 @@ Crie um segmento como você faria para um segmento sequencial simples, de nível
 
 Se o ponto de verificação excluído estiver no início de um segmento sequencial, isso assegura que uma exibição de página excluída não ocorreu antes da primeira ocorrência não excluída.
 
-Por exemplo, um restaurante deseja visualizar usuários inveterados que evitam a página de destino e vão diretamente para a página de pedidos. Esse exemplo pode ser simplificado para um visitante que evita visitar a página A e prossegue direto para a página B.
+Por exemplo, um restaurante deseja ver usuários que tendem a evitar a página de aterrissagem principal e ir diretamente para a página de pedidos. Você pode visualizar esses dados excluindo ocorrências da página de aterrissagem e incluindo ocorrências da página Solicitar saída em um segmento sequencial.
 
 **Criar este segmento**
 
