@@ -5,21 +5,21 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1402'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Visão geral da Detecção de anomalias
 
-Você pode ver e analisar anomalias de dados de forma contextual no Analysis Workspace. A Análise de contribuição trabalha em conjunto com a Detecção de anomalias para ajudar a identificar o que contribuiu para a anomalia.
+É possível ver e analisar anomalias de dados de forma contextual no Analysis Workspace. A Análise de contribuição trabalha em conjunto com a Detecção de anomalias para ajudar a identificar o que contribuiu para a anomalia.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
 
 >[!IMPORTANT]
 >
->Os clientes do Adobe Analytics Select e do Adobe Analytics Foundation têm acesso apenas à Detecção de anomalias de &quot;granularidade diária&quot; no Workspace. Para obter mais informações, consulte [Direitos de Detecção de anomalias e Análise de contribuição](#anomaly-detection-and-contribution-analysis-entitlements).
+>Clientes do Adobe Analytics Select e do Adobe Analytics Foundation têm acesso apenas à detecção de anomalias com “granularidade diária” no Workspace. Para obter mais informações, consulte [Direitos de Detecção de anomalias e Análise de contribuição](#anomaly-detection-and-contribution-analysis-entitlements).
 
 ## Detecção de anomalias
 
