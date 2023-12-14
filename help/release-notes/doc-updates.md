@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
+source-git-commit: 52631b840ed04856480a2c9dae365ae46c844a97
 workflow-type: tm+mt
-source-wordcount: '5424'
+source-wordcount: '4959'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Dezembro de 2023** | |
+| Melhoria na documentação das regras de bot | Informações atualizadas no [Entender e configurar regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) para melhorar a clareza.<p>As melhorias incluem:</p> <ul><li>O título do artigo foi atualizado para ser mais descritivo</li><li>Melhor organização das informações</li><li>Foram adicionadas etapas para indicar informações baseadas em tarefas</li><li>Foram adicionados mais detalhes sobre os requisitos do arquivo CSV ao fazer upload das regras de bot</li></ul> |
 | Nova seção Relatórios | Adição de uma nova seção Relatórios que inclui informações sobre [uso de relatórios pré-criados](/help/analyze/analysis-workspace/reports/use-reports.md) e [criação e gerenciamento de relatórios da empresa](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
 | Atualizações na documentação de Detecção de anomalias e Análise de contribuição | A documentação da Detecção de anomalias e da Análise de contribuição estava localizada anteriormente em uma seção sobre o Virtual Analyst. As seguintes alterações foram feitas: <ul><li>O termo Analista virtual foi removido da documentação.</li><li>A seção sobre [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) foi movido diretamente abaixo da seção Analysis Workspace.</li><li>A documentação da Análise de contribuição foi mesclada à documentação da Detecção de anomalias.</li></ul> |
 | &quot;Attribution IQ &quot; alterado para &quot;Atribuição&quot; | Todas as instâncias de &quot;Attribution IQ&quot; foram alteradas para &quot;[Atribuição](/help/analyze/analysis-workspace/attribution/overview.md)&quot; em toda a documentação. |
@@ -206,8 +207,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Junho de 2020** | |
 | 25 de junho de 2020 | Nova documentação para o [painel Quick Insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) no Espaço de trabalho. Ele fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. |
 | 25 de junho de 2020 | Nova documentação para o [Painel do Analytics for Target](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) no Espaço de trabalho. Ele permite analisar suas atividades e experiências do Adobe Target com incentivo e confiança. |
-| 18 de junho de 2020 | Nova documentação sobre [Atribuição: Atribuição algorítmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=pt-BR) |
-| 18 de junho de 2020 | Nova documentação sobre [Atribuição: janelas de pesquisa personalizada](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR#lookback-windows) |
+| 18 de junho de 2020 | Nova documentação sobre [Attribution: atribuição algorítmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=pt-BR) |
+| 18 de junho de 2020 | Nova documentação sobre [Attribution: janelas de retrospectiva personalizada](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=pt-BR#lookback-windows) |
 | 18 de junho de 2020 | Nova documentação para [Funções de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) para projetos compartilhados do Espaço de trabalho. Ao compartilhar um projeto do Espaço de trabalho, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. |
 | 18 de junho de 2020 | Nova documentação sobre [“Exibir somente” projetos do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=pt-BR). Os projetos podem ser compartilhados com os usuários somente como “Pode exibir”. Quando um recipient de visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem o painel esquerdo e com interações limitadas. |
 | 18 de junho de 2020 | Nova documentação sobre [Funções de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=pt-BR) para projetos compartilhados do Espaço de trabalho. Ao compartilhar um projeto do Espaço de trabalho, você pode colocar recipients em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicar e Visualizar. |

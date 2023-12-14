@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '641'
+ht-degree: 91%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 95%
                + [Dicas e truques para regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + Regras de bot {#bot-removal}
                + [Remoção de bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [Visão geral das regras de bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [Entender e configurar regras de bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Assinaturas comuns do bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Métodos de exclusão de bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Configurações de privacidade](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -158,7 +158,7 @@ ht-degree: 95%
       + [Gerenciador de preferências](admin/company/preferences-manager.md)
       + [Ações pendentes](admin/company/pending-actions-admin.md)
       + [Níveis de acesso a recursos](admin/company/feature-access-levels.md)
-   + Rotulagem de Privacidade de governança de dados {#data-governance}
+   + Rotulação de privacidade da governança de dados {#data-governance}
       + [Fluxo de trabalho de Privacidade de dados do Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
       + [Perguntas frequentes](admin/c-data-governance/gdpr-faq.md)
       + Rotulagem de dados {#data-labels}
@@ -177,8 +177,8 @@ ht-degree: 95%
       + [Alertas de uso de chamadas do servidor](admin/c-server-call-usage/scu-alerts.md)
       + [Perguntas frequentes sobre o uso de chamadas do servidor](admin/c-server-call-usage/overage-faq.md)
    + Gerenciamento de usuários e produtos (herdado) {#user-product-management}
-      + [Gerenciamento de usuários e produtos  (Legado)](admin/user-management2/user-management.md)
-      + [Transferências de ativos de usuários e usuárias ou definição de expirações de conta](admin/user-management2/users-assets.md)
+      + [Gerenciamento de usuários e produtos (herdado)](admin/user-management2/user-management.md)
+      + [Transferir ativos do usuário ou definir expirações da conta](admin/user-management2/users-assets.md)
       + Migrar usuários para o Adobe Admin Console {#migrate-users}
          + [Migração de usuários do Analytics para o Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migrar contas de usuário do Analytics para Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)
