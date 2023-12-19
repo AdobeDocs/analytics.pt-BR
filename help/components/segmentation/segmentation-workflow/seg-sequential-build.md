@@ -3,10 +3,10 @@ description: Segmentos sequenciais são criados por meio do operador THEN, em ve
 title: Construir segmentos sequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
+source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
 workflow-type: tm+mt
-source-wordcount: '3879'
-ht-degree: 97%
+source-wordcount: '3934'
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,7 @@ Veja um vídeo sobre segmentação sequencial:
 Ao criar o segmento usando a definição &quot;Incluir todos&quot;, o segmento identifica caminhos que correspondem ao padrão como um todo. Veja abaixo um exemplo de um segmento de sequência básico procurando por uma ocorrência (Página A) seguido por outro (Página B) acessado pelo mesmo visitante. O segmento está definido como Incluir todos.
 
 ![](/help/admin/admin/assets/filter.png)
+![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
 
 | Se o resultado for... | Sequência |
 |--- |--- |
@@ -343,6 +344,16 @@ Use os operadores [!UICONTROL Within] e [!UICONTROL After] integrados no cabeça
 ![](assets/then_within_operators.png)
 
 É possível limitar a correspondência para uma duração de tempo específica por meio dos contêineres [!UICONTROL Within] e [!UICONTROL After] e especificando uma granularidade e contagem. O operador [!UICONTROL Within] é usado para especificar um limite máximo na quantidade de tempo entre dois pontos de verificação. O operador [!UICONTROL After] é usado para especificar um limite mínimo na quantidade de tempo entre dois pontos de verificação.
+
+>[!NOTE]
+>
+>Há diferenças na avaliação entre elementos com nomes semelhantes, como **Dia(s)** ou **Dia**. Para definições baseadas em tempo de Dentro e Depois, utilize as opções listadas primeiro na janela pop-up:
+>
+>![imagem](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>
+>Para definições baseadas em dimensões de Dentro e Depois, utilize as opções no submenu *Outros Dimension*:
+>
+>![imagem](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 
 ### Operadores After e Within {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
