@@ -2,22 +2,15 @@
 description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
 title: Configurar um destino de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 15%
+source-wordcount: '287'
+ht-degree: 9%
 
 ---
 
 # Configurar opções de agendamento para uma solicitação Data Warehouse
-
->[!AVAILABILITY]
->
->Alguns dos recursos do Data Warehouse descritos neste artigo (e outros artigos do Data Warehouse nesta seção) estão disponíveis somente na fase de Teste limitado da versão e podem não estar disponíveis ainda em seu ambiente.
->
->Para obter informações sobre quais recursos ainda não estão disponíveis para todos os clientes, bem como informações sobre a linha do tempo de lançamento desses recursos, consulte o [notas de versão](/help/release-notes/latest.md).
->
->Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md).
 
 Há várias opções de configuração disponíveis ao criar uma solicitação do Data Warehouse. As informações a seguir descrevem como configurar opções de programação para a solicitação.
 
@@ -47,4 +40,3 @@ Para configurar opções de programação para uma solicitação Data Warehouse:
    {style="table-layout:auto"}
 
 1. Continue configurando sua solicitação do Data Warehouse no [!UICONTROL **Email de notificação**] guia. Para obter mais informações, consulte [Configurar um email de notificação para uma solicitação de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-email.md).
-

@@ -2,22 +2,15 @@
 description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
 title: Configurar opções de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
-source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
+exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 18%
+source-wordcount: '449'
+ht-degree: 9%
 
 ---
 
 # Configurar opções de relatório para uma solicitação Data Warehouse
-
->[!AVAILABILITY]
->
->Alguns dos recursos do Data Warehouse descritos neste artigo (e outros artigos do Data Warehouse nesta seção) estão disponíveis somente na fase de Teste limitado da versão e podem não estar disponíveis ainda em seu ambiente.
->
->Para obter informações sobre quais recursos ainda não estão disponíveis para todos os clientes, bem como informações sobre a linha do tempo de lançamento desses recursos, consulte o [notas de versão](/help/release-notes/latest.md).
->
->Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md).
 
 Há várias opções de configuração disponíveis ao criar uma solicitação do Data Warehouse. As informações a seguir descrevem como configurar opções de relatório para a solicitação.
 
@@ -37,14 +30,14 @@ Para configurar opções de relatório para uma solicitação Data Warehouse:
 
    | Opção | Função |
    |---------|----------|
-   | [!UICONTROL **Nome do arquivo**] | Identifica o relatório. <p>Se qualquer um dos seguintes caracteres especiais for usado no nome do arquivo, a solicitação não poderá ser salva: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>O caractere % pode ser usado somente se for seguido por &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, da seguinte maneira: <code>%R</code>, <code>%rsid</code>, e <code>%id</code>.</p> |
+   | [!UICONTROL **Nome do arquivo**] | Identifica o relatório. <p>Se qualquer um dos seguintes caracteres especiais for usado no nome do arquivo, a solicitação não poderá ser salva: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>O caractere % pode ser usado somente se for seguido por &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, da seguinte maneira: <code>%R</code>, <code>%rsid</code>, e <code>%id</code>.</p> |
    | [!UICONTROL **Anexar intervalo de datas do relatório ao nome do arquivo**] | Adiciona o intervalo de datas ao nome do arquivo do relatório. <p>Por exemplo, se você solicitar dados de 1º de maio de 2024 até 7 de maio de 2024, o nome do arquivo incluirá o intervalo de datas de 20240501 a 20240507.</p> |
    | [!UICONTROL **CSV**] | Fornece relatórios em um formato de arquivo CSV para exibição de dados em uma planilha. |
    | [!UICONTROL **Tableau (TDE)**] | Fornece relatórios em um formato de arquivo de Extração de dados do Tableau (TDE), que pode ser usado para visualizar dados e criar camadas de dados adicionais no Tableau. |
    | [!UICONTROL **Enviar relatório como arquivo compactado (ZIP)**] | Fornece relatórios em formato de arquivo compactado (ZIP). Recomendamos ativar essa opção ao usar o email como [destino do relatório](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **Retornar todas as linhas**] | Quando ativado, todas as linhas são incluídas no relatório. Desative essa opção para especificar o número de linhas a serem incluídas. |
    | [!UICONTROL **Início dos comentários do relatório**] | Adicione comentários que você deseja incluir no relatório. Os comentários aparecem no início do relatório. |
-   | [!UICONTROL **Classificar por métricas**] | Oferece relatórios classificados e detalhados no Data Warehouse, organizados pelo valor de métrica decrescente. A classificação por métrica facilita a interpretação dos relatórios do Data Warehouse, além de facilitar a comparação deles com outros relatórios de exibição de detalhamento do Analytics.<p>Para obter mais informações, consulte [Classificar por métrica](/help/export/data-warehouse/sorting-by-metric.md).</p> |
+   | [!UICONTROL **Classificar por métricas**] | Fornece relatórios classificados e detalhados no Data Warehouse, classificados por valor de métrica decrescente. A classificação por métrica facilita a interpretação dos relatórios do Data Warehouse, além de facilitar a comparação deles com outros relatórios de exibição de detalhamento do Analytics.<p>Para obter mais informações, consulte [Classificar por métrica](/help/export/data-warehouse/sorting-by-metric.md).</p> |
    | [!UICONTROL **Enviar um arquivo de manifesto**] | Inclui metadados sobre os arquivos incluídos no relatório.<!-- What kind of metadata is included in the manifest file? --> |
    | [!UICONTROL **Enviar um arquivo de assinatura digital**] | Permite aos destinatários do relatório verificar se o arquivo veio do Adobe e se não foi alterado. |
    | [!UICONTROL **Enviar um arquivo vazio quando não houver dados no relatório**] | Envia um relatório mesmo quando ele não contém dados. |

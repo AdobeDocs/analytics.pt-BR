@@ -2,22 +2,15 @@
 description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
 title: Criar um relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 12%
+source-wordcount: '168'
+ht-degree: 5%
 
 ---
 
 # Criar um relatório para uma solicitação Data Warehouse
-
->[!AVAILABILITY]
->
->Alguns dos recursos do Data Warehouse descritos neste artigo (e outros artigos do Data Warehouse nesta seção) estão disponíveis somente na fase de Teste limitado da versão e podem não estar disponíveis ainda em seu ambiente.
->
->Para obter informações sobre quais recursos ainda não estão disponíveis para todos os clientes, bem como informações sobre a linha do tempo de lançamento desses recursos, consulte o [notas de versão](/help/release-notes/latest.md).
->
->Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md).
 
 Há várias opções de configuração disponíveis ao criar uma solicitação do Data Warehouse. As informações a seguir descrevem como criar um relatório para a solicitação.
 

@@ -4,21 +4,14 @@ title: Gerenciar solicitações do Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 13%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
 # Gerenciar solicitações do Data Warehouse
-
-{{release-limited-testing}}
-
->[!NOTE]
->
->Se sua organização ainda não tiver a nova experiência do Data Warehouse, que estará disponível em breve para todos os clientes, use as informações em [Gerenciar solicitações de Data Warehouse (experiência antiga)](#manage-data-warehouse-requests-old-experience) na parte inferior desta página.
-
 
 Você pode exibir e gerenciar solicitações de Data Warehouse feitas. Somente administradores podem visualizar e gerenciar solicitações feitas por outros usuários em suas organizações.
 
@@ -91,7 +84,7 @@ Você pode exibir o histórico de qualquer solicitação de Data Warehouse feita
    | [!UICONTROL **Data de criação**] | A data e a hora em que o relatório foi criado.<p>Exibido no fuso horário do usuário que iniciou a solicitação.</p> |
    | [!UICONTROL **Data de início**] | A data e a hora em que o relatório foi iniciado.<p>Exibido no fuso horário do usuário que iniciou a solicitação.</p> |
    | [!UICONTROL **Data de conclusão**] | A data e a hora em que o relatório foi concluído.<p>Exibido no fuso horário do usuário que iniciou a solicitação.</p> |
-   | [!UICONTROL **Data de atualização**] | A data e a hora em que o relatório foi atualizado pela última vez.<p>Exibido no fuso horário do usuário que iniciou a solicitação.</p> |
+   | [!UICONTROL **Data da atualização**] | A data e a hora em que o relatório foi atualizado pela última vez.<p>Exibido no fuso horário do usuário que iniciou a solicitação.</p> |
    | [!UICONTROL **Status**] | O status da entrega do relatório. Os status possíveis são:<ul><li>[!UICONTROL **Criado em**]: o relatório foi criado, mas ainda não foi processado.</li><li>[!UICONTROL **Pending**]: o relatório está aguardando para ser processado.</li><li>[!UICONTROL **Processando**]: O relatório está sendo processado no momento.</li><li>[!UICONTROL **Concluído**]: o relatório foi concluído e agora está disponível.</li><li>[!UICONTROL **Agendado**]: O relatório está agendado, mas ainda não foi iniciado.</li><li>[!UICONTROL **Cancelado**]: o relatório foi cancelado pelo usuário.</li><li>[!UICONTROL **Erro - Processamento**:] O relatório encontrou um erro e não pôde ser processado.</li><li>[!UICONTROL **Erro - Falha Ao Enviar**]: o relatório foi gerado com sucesso, mas não pôde ser entregue. Verifique a [configuração do seu destino](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), em seguida, reenvie o relatório.</li></ul>. |
    | [!UICONTROL **De**] | A data de início do período geral incluído no relatório.<p>Exibido no fuso horário do conjunto de relatórios.</p> |
    | [!UICONTROL **Para**] | A data final do período geral incluído no relatório. <p>Exibido no fuso horário do conjunto de relatórios.</p> |
@@ -179,31 +172,3 @@ Você pode configurar quais informações serão exibidas para cada solicitaçã
 1. No campo de pesquisa na parte superior da página Data Warehouse, especifique o nome da solicitação que deseja exibir.
 
    As solicitações são filtradas à medida que você digita.
-
-## Gerenciar solicitações de Data Warehouse (experiência antiga)
-
->[!NOTE]
->
->As informações a seguir se aplicam somente se sua organização ainda não tiver a nova experiência do Data Warehouse, que estará disponível em breve para todos os clientes do Analytics.
-
-
-O Gerenciador de solicitações permite que você visualize, duplique e priorize novamente as solicitações.
-
-No Data Warehouse, selecione a guia **[!UICONTROL Gerenciador de solicitações]**.
-
-Esta tabela permite
-
-* Visualizar solicitações de relatório recentes por nome de relatório, segmento aplicado, solicitador, data e status de solicitação.
-* Duplicar solicitações. Clique em **[!UICONTROL Duplicar]** ao lado da solicitação.
-
-  >[!NOTE]
-  >
-  >Esta ação duplica somente a solicitação, não o agendamento ou os detalhes de disponibilização.
-
-* Pesquise por relatórios pelo nome ou o logon do solicitador.
-* Priorize novamente os relatórios; basta arrastá-los e soltá-los em um novo local na fila.
-* Para ver quando um uma solicitação começou a ser processada, clique em uma ID de solicitação agendada e verifique o pop-up aberto.
-
-Clique em uma tarefa para ver as solicitações individuais dessa tarefa.
-
-* Taxa limitada: sua organização tem muitas solicitações de Data Warehouse em execução. A solicitação é pausada até que outras solicitações de dados sejam concluídas.
