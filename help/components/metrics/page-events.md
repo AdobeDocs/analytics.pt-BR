@@ -3,10 +3,10 @@ title: Eventos de página
 description: O número de ações de rastreamento de link acionadas.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a7434f72159a575f9ad7bf29644cb17777382df7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 50%
+source-wordcount: '146'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ Os &quot;Eventos de página&quot; [métrica](overview.md) mostra o número de ve
 
 ## Como essa métrica é calculada
 
-Essa métrica conta tudo [Chamadas de rastreamento de link (`tl()`)](/help/implement/vars/functions/tl-method.md) em um conjunto de relatórios. Todos os tipos de links estão incluídos (links personalizados, links de download e links de saída). Não inclui [Chamadas de rastreamento de exibição de página (`t()`)](/help/implement/vars/functions/t-method.md).
+Essa métrica conta tudo [Chamadas de rastreamento de link (`tl()`)](/help/implement/vars/functions/tl-method.md) em um conjunto de relatórios. Todos os tipos de links estão incluídos nesta métrica, especificamente [Links personalizados](../dimensions/custom-link.md), [Links de download](../dimensions/download-link.md), e [Links de saída](../dimensions/exit-link.md). Não inclui [Chamadas de rastreamento de exibição de página (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Comparar a métricas semelhantes
 

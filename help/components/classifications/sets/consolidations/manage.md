@@ -1,18 +1,18 @@
 ---
 title: Gerenciador de consolidação do conjunto de classificação
 description: Consolidar um ou mais conjuntos de classificações em um único conjunto de classificações.
-exl-id: 032e93f6-9c11-4522-a02e-376eb4fd98bf
+exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 6%
 
 ---
 
-# Gerenciador de consolidações do conjunto de classificações
+# Gerenciador de consolidações do conjunto de classificação
 
-Se você tiver vários conjuntos de classificações que contenham dados semelhantes, é possível consolidá-los em um único conjunto de classificações. Ao consolidar dois ou mais conjuntos de classificações, o Adobe gera um novo conjunto de classificações que contém todos os dados de classificação de cada conjunto de classificações individual. As consolidações são úteis quando você carrega dados em vários conjuntos de relatórios ou dimensões que contêm os mesmos dados de classificação e deseja mesclá-los em um único fluxo de trabalho.
+Se você tiver vários conjuntos de classificações que contenham dados semelhantes, é possível consolidá-los em um único conjunto de classificações. Ao consolidar dois ou mais conjuntos de classificações, o Adobe gera um novo conjunto de classificações que contém todos os dados de classificação de cada conjunto de classificações individual. As consolidações são úteis quando você carrega dados em vários conjuntos de relatórios ou dimensões que contêm os mesmos dados de classificação e deseja mesclá-los em um único fluxo de trabalho. É necessário ter acesso de administrador de produto para que o Adobe Analytics veja o gerenciador de consolidação do conjunto de classificações.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]** > **[!UICONTROL Consolidações]**
 

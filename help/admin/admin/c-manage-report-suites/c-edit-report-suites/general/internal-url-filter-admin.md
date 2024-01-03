@@ -4,40 +4,29 @@ title: Filtros internos do URL
 feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-source-git-commit: 2beb4cd38fc8b48e2b34468a4570f7168aeacb78
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 30%
+source-wordcount: '221'
+ht-degree: 31%
 
 ---
 
 
-# Filtros internos do URL
+# Filtros internos de URL
 
-Filtros de URL internos permitem identificar os referenciadores que você considera internos ao site. Eles ajudam os relatórios de fontes de tráfego a popular os dados, além de ajudarem a filtrar o tráfego interno.
+Filtros de URL internos permitem identificar os referenciadores que você considera internos no site. Eles ajudam os relatórios de fontes de tráfego a popular os dados, além de ajudarem a filtrar o tráfego interno.
 
-Um referenciador ou uma página referenciadora é, normalmente, a página a partir da qual o visitante veio ao entrar do site. Para evitar o viés dos dados, você pode filtrar e eliminar os referenciadores internos. Os relatórios excluem os referenciadores filtrados do  Dimensão [Referenciadores](/help/components/dimensions/referrer.md), a dimensão [Domínios do referenciador](/help/components/dimensions/referring-domain.md) e outras dimensões de fonte de tráfego.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Filtros internos do URL]**
 
-## Exibir filtros internos de URL existentes
+Um referenciador ou uma página referenciadora é, normalmente, a página a partir da qual o visitante veio ao entrar do site. Para evitar o viés dos dados, você pode filtrar e eliminar os referenciadores internos. Dimension que dependem de filtros internos de URL incluem [Referenciador](/help/components/dimensions/referrer.md), [Domínio referenciador](/help/components/dimensions/referring-domain.md), [Canais de marketing](/help/components/dimensions/marketing-channel.md)e outras dimensões da fonte de tráfego.
 
->[!NOTE]
+[Regras de processamento de canal de marketing](../marketing-channels/c-rules.md) fornecer &quot;[!UICONTROL Corresponde a filtros internos de URL]&quot; como critérios de regra possíveis.
+
+>[!IMPORTANT]
 >
->Alguns conjuntos de relatórios têm um filtro de URL interno de um ponto (.) configurado por padrão. Quando esse filtro existe, todo o tráfego é classificado como interno. Os relatórios do referenciador não funcionam até o ponto (.) for removido.
+>Alguns conjuntos de relatórios têm um filtro de URL interno de um ponto (`.`) configurado por padrão. Quando esse filtro existe, todo o tráfego é classificado como interno. Os relatórios do referenciador não funcionam até que esse filtro seja removido e substituído por um ou mais domínios internos desejados.
 
-Para verificar quais filtros internos de URL estão configurados para um conjunto de relatórios: <!-- I don't see the period in my instance? Is the following information valid? "To avoid this, remove the rule listing a period (.) as a filter, and add your own site. The reason why a period is the default internal URL filter is to allow data to be collected in the Pages report. If hits do not match internal URL filters, all pages come up as Other. A period is always somewhere in the URL, which guarantees the Pages report is populated.")-->
+* Exibir todos os filtros existentes na **[!UICONTROL Filtros atuais]** seção.
+* Adicione um filtro usando a caixa de texto sob o **[!UICONTROL Adicionar filtro]** e clique em **[!UICONTROL Adicionar]**.
 
-1. Selecionar **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** para acessar o Gerenciador de conjunto de relatórios.
-
-1. Selecione o conjunto de relatórios em que deseja verificar quais filtros internos de URL estão configurados e selecione **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Filtros internos do URL]**.
-
-   Todos os filtros existentes são listados na variável [!UICONTROL **Filtros atuais**] seção.
-
-## Adicionar um filtro de URL interno a um conjunto de relatórios
-
-1. Selecionar **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** para acessar o Gerenciador de conjunto de relatórios.
-
-1. Selecione o conjunto de relatórios ao qual deseja adicionar um filtro de URL interno e selecione **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Filtros internos do URL]**.
-
-1. Na seção Adicionar filtro , no campo fornecido, comece a digitar o URL da página que deseja filtrar e selecione [!UICONTROL **Adicionar**].
-
-   O URL que você adicionou agora está visível no [!UICONTROL **Filtros atuais**] seção.
+Os filtros operam usando **contém** lógica em relação ao URL completo. O Adobe recomenda a omissão do protocolo (`https://`) e subdomínios ao criar filtros, a menos que o tráfego de subdomínios separados seja desejado como tráfego externo.

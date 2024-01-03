@@ -3,24 +3,24 @@ title: Links para opção de não participação
 description: Saiba como criar e implementar links para opção de não participação para visitantes do site.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 92%
+source-wordcount: '563'
+ht-degree: 71%
 
 ---
 
 # Implementar links para opção de não participação
 
-*Esta página de ajuda fornece aos clientes da Adobe Analytics a capacidade de fornecer links para opção de não participação aos usuários. Se você não for um cliente do Adobe Analytics, consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.*
-
 >[!IMPORTANT]
 >
->A Adobe recomenda usar o serviço de opção de participação, especialmente em organizações que se preocupam com as regulamentações do GDPR. Consulte [Visão geral do serviço de participação](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR) no guia do usuário do Serviço de identidade da Experience Cloud.
+> **Esta página de ajuda fornece aos clientes da Adobe Analytics a capacidade de fornecer links para opção de não participação aos usuários. Se você não for um cliente do Adobe Analytics, consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.**
 
-Alguns visitantes do site preferem não ter suas informações de navegação incluídas no conjunto de dados. A Adobe oferece a capacidade de fornecer aos visitantes do site uma maneira de optar ou não pela coleta de suas informações. Todos os tipos de implementação são acomodados; sua organização é responsável pela própria política de privacidade e por manter-se em conformidade com os termos assinados.
+Alguns visitantes do site preferem não ter suas informações de navegação incluídas no conjunto de dados. O Adobe oferece a capacidade de fornecer aos visitantes do seu site um meio de optar pela não participação em suas informações que estão sendo analisadas.
 
-Quando um visitante atinge um URL de opção de não participação, ele é solicitado a instalar um cookie de opção de não participação. Se um usuário optar por não ser monitorado e um cookie de opção de não participação for definido, o arquivo JavaScript continuará enviando dados para os servidores da Adobe. No entanto, esses dados não serão processados ou incluídos nos relatórios.
+Os links para opção de não participação são uma maneira de permitir que os visitantes do site omitam seus dados nos relatórios do Analytics. Esses links estão limitados às implementações do AppMeasurement; o Adobe recomenda o uso de [Serviço de Opt-in da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR) em vez disso. O serviço de Opt-in é mais robusto e funciona em vários produtos da Adobe Experience Cloud, incluindo Adobe Analytics e AppMeasurement.
+
+Quando um visitante atinge um URL de opção de não participação, ele é solicitado a instalar um cookie de opção de não participação. Se um usuário optar por não ser rastreado e um cookie de opção de não participação for definido, o AppMeasurement continuará enviando dados para o Adobe. No entanto, esses dados não serão processados ou incluídos nos relatórios.
 
 >[!TIP]
 >
@@ -58,34 +58,30 @@ Há configurações que você pode carregar automaticamente nesta página usando
 
 Alterne automaticamente o idioma da página de opção, incluindo o parâmetro da cadeia de caracteres de consulta `locale`. Atribua um dos seguintes valores a esse parâmetro da cadeia de caracteres de consulta:
 
-* en_US (inglês, padrão)
-* bg_BG (Búlgaro)
-* zh_CN (Chinês simplificado)
-* zh_TW (Chinês tradicional)
-* cs_CZ (Tcheco)
-* da_NK (dinamarquês)
-* nl_NL (Holandês)
-* et_EE (Estoniano)
-* fi_FI (Finlandês)
-* fr_FR (Francês)
-* de_DE (Alemão)
-* el_GR (Grego)
-* it_IT (Italiano)
-* jp_JP (Japonês)
-* ko_KR (Coreano)
-* lv_LV (Letão)
-* lt_LT (Lituano)
-* nb_NO (Norueguês)
-* pl_PL (Polonês)
-* pt_BR (Português)
-* sk_SK (Eslovaco)
-* es_ES (Espanhol)
+* `en_US` (Inglês, padrão)
+* `bg_BG` (Búlgaro)
+* `zh_CN` (Chinês simplificado)
+* `zh_TW` (Chinês tradicional)
+* `cs_CZ` (Tcheco)
+* `da_NK` (Dinamarquês)
+* `nl_NL` (Holandês)
+* `et_EE` (Estoniano)
+* `fi_FI` (Finlandês)
+* `fr_FR` (Francês)
+* `de_DE` (Alemão)
+* `el_GR` (Grego)
+* `it_IT` (Italiano)
+* `jp_JP` (Japonês)
+* `ko_KR` (Coreano)
+* `lv_LV` (Letão)
+* `lt_LT` (Lituano)
+* `nb_NO` (Norueguês)
+* `pl_PL` (Polonês)
+* `pt_BR` (Português)
+* `sk_SK` (Eslovaco)
+* `es_ES` (Espanhol)
 
 Por exemplo, `https://example.data.adobedc.net/optout.html?locale=ko_KR` carrega a página de não participação em coreano.
-
->[!TIP]
->
->O valor da sequência de consulta `en_US` não é necessário, pois a página é carregada em inglês por padrão.
 
 ### Pop-up
 
