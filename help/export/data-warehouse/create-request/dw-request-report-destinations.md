@@ -3,9 +3,9 @@ description: Etapas que descrevem como criar uma solicitação do Data Warehouse
 title: Configurar um destino de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2167'
 ht-degree: 10%
 
 ---
@@ -38,7 +38,9 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
    ![Guia Destino do relatório](assets/dw-report-destination.png)
 
-1. (Condicional) Se você configurou anteriormente uma conta (e um destino nessa conta) que deseja usar como destino do relatório:
+1. (Condicional) Se uma conta (e um destino nessa conta) já tiver sido configurada e que você deseja usar como destino do relatório:
+
+   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
 
    1. Selecione a conta na lista suspensa [!UICONTROL **Selecionar conta**] menu suspenso.
 

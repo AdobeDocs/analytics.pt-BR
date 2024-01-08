@@ -4,9 +4,9 @@ title: Gerenciar solicitações do Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 4%
 
 ---
@@ -153,7 +153,7 @@ Você pode configurar quais informações serão exibidas para cada solicitaçã
    | Conjunto de relatórios | O conjunto de relatórios associado à solicitação. |
    | Solicitado por | O usuário que criou a solicitação. |
    | Data da solicitação | A data em que a solicitação foi feita. |
-   | Status | Os seguintes status estão disponíveis:<ul><li><p>**Concluído**: A solicitação foi executada com sucesso.</p></li><li><p>**Cancelado**: a solicitação foi cancelada pelo usuário.</p></li><li><p>**Agendado**: a solicitação é configurada para ser executada de acordo com um agendamento.</p></li><!-- Are there other statuses? Failed? --> |
+   | Status | Os seguintes status estão disponíveis:<ul><li><p>**Concluído**: A solicitação foi executada com sucesso.</p></li><li><p>**Cancelado**: a solicitação foi cancelada pelo usuário.</p></li><li><p>**Agendado**: a solicitação é configurada para ser executada de acordo com um agendamento.</p></li><li><p>**Failed**: A solicitação não foi concluída. Se a solicitação continuar a falhar, entre em contato com o Suporte ao cliente.</p></li></ul> |
 
    {style="table-layout:auto"}
 
