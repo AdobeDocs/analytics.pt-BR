@@ -3,10 +3,10 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 87%
+source-wordcount: '1002'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Essas notas de versão abrangem o período de lançamento de janeiro de 2024. As
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Warehouse atualizações** | As seguintes melhorias na Data Warehouse estão disponíveis:<ul><li>Ao criar uma solicitação do Data Warehouse, os usuários agora podem disponibilizar solicitações para todos os usuários na organização, ativando o novo botão chamado [!UICONTROL **Disponibilizar para usuários em sua organização**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Ao criar ou gerenciar destinos de relatórios do Data Warehouse, os administradores do sistema agora podem mostrar contas e locais que foram criados por usuários na organização, ativando a opção chamada [!UICONTROL **Mostrar todos os destinos**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | N/D | quinta-feira, 10 de janeiro de 2024 |
+| **Data Warehouse atualizações** | As seguintes melhorias na Data Warehouse estão disponíveis:<ul><li>Ao criar uma solicitação do Data Warehouse, os usuários agora podem disponibilizar solicitações para todos os usuários na organização, ativando o novo botão chamado [!UICONTROL **Disponibilizar para usuários em sua organização**].<p>Para obter mais informações, consulte [Configurações gerais da solicitação de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Ao criar ou gerenciar destinos de relatórios do Data Warehouse, os administradores do sistema agora podem mostrar contas e locais que foram criados por usuários na organização, ativando a opção chamada [!UICONTROL **Mostrar todos os destinos**].<p>Para obter mais informações, consulte [Configurar um destino de relatório para uma solicitação Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | N/D | quinta-feira, 10 de janeiro de 2024 |
 
 {style="table-layout:auto"}
 
