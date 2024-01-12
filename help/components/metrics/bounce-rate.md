@@ -3,19 +3,19 @@ title: Taxa de rejeição
 description: A proporção de visitas com exatamente uma ocorrência pelo número de entradas.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: b9073cdb6e47358c4f60922dcbed798cd955c29e
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 35%
+source-wordcount: '161'
+ht-degree: 11%
 
 ---
 
 # Taxa de rejeição
 
-A &quot;Taxa de rejeição&quot; [métrica](overview.md) mostra a proporção de visitas que continham exatamente uma ocorrência em comparação ao número de visitas nessa página. É possível utilizar essa métrica para entender quais itens de dimensão têm a maior taxa de rejeição, ou para ver a taxa de rejeição total do site coletada ao longo do tempo. As altas taxas de rejeição podem esclarecer problemas com seu site ou aplicativo, como: design insatisfatório, tempos de carregamento lentos, conteúdo irrelevante ou uma incompatibilidade entre a intenção do visitante e o conteúdo da página.
+A &quot;Taxa de rejeição&quot; [métrica](overview.md) mostra a proporção de visitas que continham exatamente uma ocorrência em comparação ao número de visitas nessa página. Essa métrica pode ser utilizada para entender quais itens de dimensão têm a maior taxa de rejeição, ou para ver a taxa de rejeição total do site coletada ao longo do tempo. As altas taxas de rejeição podem esclarecer problemas com seu site ou aplicativo, como: design insatisfatório, tempos de carregamento lentos, conteúdo irrelevante ou uma incompatibilidade entre a intenção do visitante e o conteúdo da página.
 
 Aqui está um exemplo: digamos que a página inicial de um site receba 500 visitantes em um mês. No entanto, 250 desses visitantes saem do site após visualizar a página inicial e não prosseguem para nenhuma outra página. Como resultado, a taxa de rejeição da página inicial seria de 50%.
 
 ## Como essa métrica é calculada
 
-Essa métrica é calculada usando a fórmula [`Bounces`](bounces.md) `divided by` [`Entries`](entries.md).
+Essa métrica é calculada usando a fórmula [Rejeições](bounces.md) dividido por [Entradas](entries.md).
