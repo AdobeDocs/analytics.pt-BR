@@ -3,11 +3,12 @@ description: As classificações de tráfego permitem que você classifique vari
 subtopic: Classifications
 title: Classificações de tráfego
 feature: Admin Tools
+role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -21,7 +22,7 @@ As classificações de tráfego permitem que você classifique variáveis de tr�
 
 A página Classificações de tráfego permite criar classificações para os conjunto de relatórios selecionados. Depois de classificado, qualquer relatório que você puder gerar usando o dado-chave também poderá ser gerado com os atributos associados.
 
-Após ativar as classificações, consulte [Importador de classificações](/help/components/classifications/importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
+Depois de ativar as classificações, use [Importador de classificações](/help/components/classifications/importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
 
 ## Adicionar uma classificação de tráfego {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

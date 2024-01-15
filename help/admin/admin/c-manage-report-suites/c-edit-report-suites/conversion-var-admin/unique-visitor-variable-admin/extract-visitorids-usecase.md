@@ -2,11 +2,12 @@
 description: O Data Warehouse fornece um recurso que permite a extração de uma lista de IDs do visitante. Essas IDs não são IDs de cookie, mas IDs capturadas em uma de suas variáveis de conversão. Embora existam outras maneiras de obter essas informações, o exemplo a seguir é um atalho para gerar uma solicitação de Data Warehouse.
 title: Caso de uso - Extraindo IDs de visitantes
 feature: Admin Tools
+role: Admin
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 O Data Warehouse fornece um recurso que permite a extração de uma lista de IDs do visitante. Essas IDs não são IDs de cookie, mas IDs capturadas em uma de suas variáveis de conversão. Embora existam outras maneiras de obter essas informações, o exemplo a seguir é um atalho para gerar uma solicitação de Data Warehouse.
 
-Por exemplo, considera que seus negócios enviam emails de marketing a clientes e compradores em potencial. Cada um desses destinatários de email tem uma ID exclusiva em seu sistema de email (como *`EMAIL Contact ID`*). Você configura seus emails para que um contato ao receber um email e clicar em um de seus links, o visitante possa chegar no site com uma ID da campanha e uma ID de contato de EMAIL única. Por exemplo, seu link de email pode resolver:
+Por exemplo, considera que seus negócios enviam emails de marketing a clientes e compradores em potencial. Cada um desses destinatários de e-mail tem uma ID exclusiva em seu sistema de e-mail (como *`EMAIL Contact ID`*). Você configura seus emails para que um contato ao receber um email e clicar em um de seus links, o visitante possa chegar no site com uma ID da campanha e uma ID de contato de EMAIL única. Por exemplo, seu link de email pode resolver:
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

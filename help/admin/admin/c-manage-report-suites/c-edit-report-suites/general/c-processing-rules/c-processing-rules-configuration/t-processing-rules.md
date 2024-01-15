@@ -3,11 +3,12 @@ description: As regras de processamento são definidas nos conjuntos de relatór
 subtopic: Processing rules
 title: Criar regras de processamento
 feature: Processing Rules
+role: Admin
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -28,4 +29,4 @@ As regras de processamento são definidas nos conjuntos de relatórios.
 
    Se você tiver várias regras, arraste-as e solte-as na página para alterar a ordem de processamento.
 
-   Consulte [Exemplos de regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) para obter mais informações sobre os tipos de regras que você pode criar.
+   Consulte [Exemplos de regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) para obter informações sobre os tipos de regras que você pode criar.

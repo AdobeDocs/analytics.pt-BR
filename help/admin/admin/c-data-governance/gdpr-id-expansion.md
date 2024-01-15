@@ -1,12 +1,13 @@
 ---
-description: As IDs enviadas nem sempre cobrem todos os dados de ocorrências que o Analytics pode associar ao titular dos dados. O Analytics pode criar um conjunto expandido de IDs para incluir esses dados associados nas solicitações de Privacidade de dados. Essa opção pode ser solicitada com um parâmetro opcional referente à solicitação de Privacidade de dados enviada adicionado à solicitação JSON
+description: As IDs enviadas nem sempre cobrem todos os dados de ocorrências que o Analytics pode associar ao titular dos dados. O Analytics pode criar um conjunto expandido de IDs para incluir esses dados associados nas solicitações de Privacidade de dados.
 title: Expansão de ID
 feature: Data Governance
+role: Admin
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 97%
+source-wordcount: '1299'
+ht-degree: 96%
 
 ---
 
@@ -59,4 +60,4 @@ Além do valor padrão, o campo  `priority` também aceita o valor “baixo”. 
 
 Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. O resultado é indesejável para situações em que você deseja limpar os campos de dados e destaca um motivo pelo qual a API Privacy Service é inadequada para esse uso.
 
-Entre em contato com a equipe de conta do Adobe para coordenar com a equipe de consultoria de Arquiteto de engenharia para revisão adicional e para empenhar esforços para remover qualquer PII ou resolver problemas de dados.
+Entre em contato com a equipe de conta da Adobe para coordenar com nossa equipe de consultoria de Arquiteto de engenharia para revisão adicional e para empenhar esforços para remover qualquer PII ou resolver problemas de dados.

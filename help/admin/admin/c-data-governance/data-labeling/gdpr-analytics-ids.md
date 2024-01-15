@@ -2,11 +2,12 @@
 description: Entenda as IDs capturadas nos dados do Analytics e decida quais serão usadas para as solicitações de Privacidade de dados.
 title: Práticas recomendadas de rotulagem
 feature: Data Governance
+role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: a1cf20c0e38bf6938dcb379a57f639f9cc43d81b
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '2695'
-ht-degree: 100%
+source-wordcount: '2676'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Lembre-se de que a rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios já existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
+>Lembre-se de que a rotulagem precisa ser revisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
 
 ## IDs identificáveis direta vs indiretamente  {#direct-vs-indirect}
 
@@ -23,7 +24,7 @@ Antes de descobrir quais rótulos devem ser aplicados aos campos/variáveis, pri
 * **Uma ID diretamente identificável (I1)**: nomeia a pessoa ou fornece um método direto para entrar em contato com ela. Exemplos incluiriam o nome de alguém (até mesmo um nome comum como John Smith, que pode ser compartilhado por centenas de pessoas), um endereço de email ou números de telefone, entre outros. Um endereço de correspondência sem um nome pode ser considerado diretamente identificável, mesmo que só possa identificar um domicílio ou empresa, e não uma pessoa específica dentro desse agregado familiar ou empresa.
 * **Uma ID indiretamente identificável (I2)**: não permite a identificação de um indivíduo por si só, mas pode ser combinada com outras informações (que podem ou não estar em sua posse) para identificar alguém. Exemplos de uma ID identificável indiretamente incluem um número de fidelização do cliente ou uma ID usada pelo sistema de CRM de uma empresa que seja única para cada um de seus clientes. Na Privacidade de dados, as IDs anônimas armazenadas nos cookies de rastreamento usados pelo Analytics podem ser consideradas como indiretamente identificáveis, embora possam identificar apenas um dispositivo e não um indivíduo. Em um dispositivo compartilhado, esses cookies não são capazes de distinguir os diferentes usuários do sistema. Por exemplo, apesar de o cookie não poder ser usado para localizar um computador que o contém, se alguém tiver acesso ao computador e localizar o cookie, esse indivíduo poderá vincular os dados de cookie do Analytics novamente ao computador.
 
-   Um endereço IP também é considerado como indiretamente identificável porque ele só pode ser atribuído a um único dispositivo em um determinado momento. No entanto, os ISPs podem mudar, e frequentemente mudam, os endereços IP para a maioria dos usuários; assim, ao longo do tempo, um endereço IP pode ter sido usado por qualquer um dos seus usuários. Também não é incomum que muitos clientes de um ISP ou vários funcionários de uma empresa que usem uma intranet compartilhem o mesmo endereço IP externo. Por causa disso, a Adobe não oferece suporte ao uso de um endereço IP como uma ID para uma solicitação de Privacidade de dados. Entretanto, quando uma ID que aceitamos for usada como parte de uma solicitação de exclusão, também apagaremos os endereços IP que ocorreram com essa ID. Você deve decidir se existem outras IDs coletadas que possam se enquadrar nessa categoria, de I1 ou I2, mas que não sejam adequadas para o uso como uma ID diferencial nas solicitações de Privacidade de dados.
+  Um endereço IP também é considerado como indiretamente identificável porque ele só pode ser atribuído a um único dispositivo em um determinado momento. No entanto, os ISPs podem mudar, e frequentemente mudam, os endereços IP para a maioria dos usuários; assim, ao longo do tempo, um endereço IP pode ter sido usado por qualquer um dos seus usuários. Também não é incomum que muitos clientes de um ISP ou vários funcionários de uma empresa que usem uma intranet compartilhem o mesmo endereço IP externo. Por causa disso, a Adobe não oferece suporte ao uso de um endereço IP como uma ID para uma solicitação de Privacidade de dados. Entretanto, quando uma ID que aceitamos for usada como parte de uma solicitação de exclusão, também apagaremos os endereços IP que ocorreram com essa ID. Você deve decidir se existem outras IDs coletadas que possam se enquadrar nessa categoria, de I1 ou I2, mas que não sejam adequadas para o uso como uma ID diferencial nas solicitações de Privacidade de dados.
 
 Mesmo que sua empresa colete várias IDs diferentes nos dados do Analytics, é possível optar por usar apenas um subconjunto dessas IDs nas solicitações de Privacidade de dados. Os motivos disso podem incluir:
 
@@ -86,7 +87,7 @@ Os rótulos de exclusão DEL-DEVICE e DEL-PERSON devem ser usados com moderaçã
 * Se você não especificar o uso da Expansão de ID, mas pretende usar uma combinação de IDs de dispositivo e pessoa para solicitações diferentes, então talvez seja melhor especificar os rótulos de DEL-DEVICE e DEL-PERSON para as variáveis que devem ser excluídas quando esses tipos de ID forem usados.
 * Observe que, se um rótulo de DEL-DEVICE ou DEL-PERSON for especificado em qualquer variável que também não seja usada como uma ID para essa solicitação (incluindo uma ID expandida), os valores únicos nessa variável serão anonimizados apenas em ocorrências que tiverem uma ID especificada (ou expandida). Se outras ocorrências contiverem o mesmo valor, elas não serão atualizadas nesses outros locais. Isso pode resultar em alterações de contagens (métricas).
 
-   Por exemplo, se você tiver três ocorrências contendo o valor “foo” na eVar7, mas apenas uma delas também contiver uma ID em uma variável diferente que corresponde a uma exclusão, então “foo” nessa ocorrência será modificado para um valor como “Privacidade de dados-123456789” e permanecerá inalterado nas outras duas ocorrências. Um relatório que mostra o número de valores únicos para eVar7, agora, também mostrará mais um valor único. Um relatório que mostra os principais valores para eVars pode incluir “foo” com apenas duas instâncias (em vez de três, como anteriormente), e o novo valor também será exibido com uma única instância.
+  Por exemplo, se você tiver três ocorrências contendo o valor “foo” na eVar7, mas apenas uma delas também contiver uma ID em uma variável diferente que corresponde a uma exclusão, então “foo” nessa ocorrência será modificado para um valor como “Privacidade de dados-123456789” e permanecerá inalterado nas outras duas ocorrências. Um relatório que mostra o número de valores únicos para eVar7, agora, também mostrará mais um valor único. Um relatório que mostra os principais valores para eVars pode incluir “foo” com apenas duas instâncias (em vez de três, como anteriormente), e o novo valor também será exibido com uma única instância.
 
 ## Práticas recomendadas para definir rótulos de acesso {#best-practices-access}
 

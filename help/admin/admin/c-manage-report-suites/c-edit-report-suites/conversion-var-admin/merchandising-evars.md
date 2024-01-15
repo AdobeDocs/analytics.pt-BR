@@ -2,11 +2,12 @@
 title: eVars de merchandising e métodos de busca de produtos
 description: Um aprofundamento nos conceitos por trás das eVars de merchandising e como elas processam e alocam dados.
 feature: Admin Tools
+role: Admin
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '5285'
-ht-degree: 97%
+source-wordcount: '5279'
+ht-degree: 96%
 
 ---
 
@@ -377,7 +378,7 @@ O valor contido na coluna post_products pode ser familiar para você. Role para 
 
 Isso significa que o Vínculo &quot;copia&quot; os valores do eVar da Sintaxe de variável de conversão para a variável products por meio da Sintaxe de produto. Essa ação de cópia ocorre somente quando a variável products e um evento compulsório (definido por meio da configuração de eVar) estão contidos na mesma solicitação. Nesse ponto, os valores contidos nas colunas post_eVar são vinculados ao produto. Esse Vínculo é representado por meio da Sintaxe do produto, conforme armazenado na coluna post_products.
 
-## eVars de merchandising, a métrica Instâncias e o Attribution
+## eVars de merchandising, a métrica Instâncias e a Atribuição
 
 Quando uma eVar padrão é enviada em uma chamada de servidor do Analytics, o valor em sua coluna post_evar sempre obtém uma Instância atribuída a ela. As Instâncias representam o número de vezes que uma eVar foi definida igual a um valor específico em uma solicitação de imagem.
 
@@ -387,8 +388,8 @@ As Instâncias de uma eVar de merchandising atribuem aos valores coletados pela 
 
 Por exemplo, definir `s.eVar1="Internal Keyword Search"` por si só não dá crédito à métrica da Instância para o valor de eVar1 de &quot;Pesquisa de palavra-chave interna&quot;. Uma instância é registrada nesse ponto. No entanto, a menos que um produto esteja vinculado a esse valor de &quot;Pesquisa de palavra-chave interna&quot; ao mesmo tempo em que `eVar1` é definido, a instância é atribuída ao intervalo Não especificado. Em outras palavras, o valor `eVar1` de &quot;Pesquisa de palavra-chave interna&quot; pode obter uma Instância. Mas isso acontece somente quando um produto vinculado ao valor de &quot;Pesquisa de palavra-chave interna&quot; é exibido na variável produtos na mesma solicitação de imagem.
 
-Em resumo, sem configuração adicional, a métrica Instâncias pronta para uso de uma eVar de merchandising é menos que útil. Felizmente, a Adobe lançou o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md). Ele permite aplicar vários modelos de atribuição a qualquer métrica personalizada que o Adobe Analytics coleta. As métricas que aplicam esses modelos de atribuição não usam os valores contidos nas colunas post_evar ou os valores que estão vinculados a um produto específico. Em vez disso, essas métricas usam apenas os valores que são transmitidos por meio das próprias solicitações de imagem (ou valores capturados por meio das regras de processamento do Adobe Analytics). Você pode usar os recursos no Attribution para obter uma métrica de instâncias atribuída com precisão para todas as eVars de merchandising que usam a Sintaxe de variável de conversão.
+Em resumo, sem configuração adicional, a métrica Instâncias pronta para uso de uma eVar de merchandising é menos que útil. Por sorte, Adobe liberado [Atribuição](/help/analyze/analysis-workspace/attribution/overview.md). Ele permite aplicar vários modelos de atribuição a qualquer métrica personalizada que o Adobe Analytics coleta. As métricas que aplicam esses modelos de atribuição não usam os valores contidos nas colunas post_evar ou os valores que estão vinculados a um produto específico. Em vez disso, essas métricas usam apenas os valores que são transmitidos por meio das próprias solicitações de imagem (ou valores capturados por meio das regras de processamento do Adobe Analytics). Você pode usar os recursos na Atribuição para obter uma métrica de instâncias atribuída com precisão para todas as eVars de merchandising que usam a Sintaxe de variável de conversão.
 
 ![Seleção de atribuição](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 
-Ao adicionar uma métrica de instância para uma eVar de merchandising a um relatório, o modelo do Attribution adequado seria o modelo &quot;Último contato&quot;. Nesse caso, a configuração da Janela de pesquisa do modelo não importa. O motivo é que um modelo de atribuição de Último contato &quot;forçado&quot; sempre dá crédito de instância para cada valor individual transmitido por uma solicitação. Isso ocorre independentemente de as configurações de atribuição/vínculo reais da eVar serem definidas como &quot;Mais recente (último)&quot; a &quot;Valor original (primeiro)&quot;.
+Ao adicionar uma métrica de instância para um eVar de merchandising a um relatório, o modelo de Atribuição apropriado seria o modelo &quot;Último contato&quot;. Nesse caso, a configuração da Janela de pesquisa do modelo não importa. O motivo é que um modelo de atribuição de Último contato &quot;forçado&quot; sempre dá crédito de instância para cada valor individual transmitido por uma solicitação. Isso ocorre independentemente de as configurações de atribuição/vínculo reais da eVar serem definidas como &quot;Mais recente (último)&quot; a &quot;Valor original (primeiro)&quot;.

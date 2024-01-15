@@ -2,10 +2,11 @@
 title: Programar um pico de tráfego
 description: Faça parceria com a Adobe para garantir que eventos de alto tráfego não tenham latência.
 feature: Traffic Management
+role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '740'
 ht-degree: 97%
 
 ---
@@ -62,4 +63,4 @@ A Adobe quer garantir que sua experiência com relatórios atualizados seja cons
 
 * Programe lead time para todos os picos de tráfego. **É especialmente importante que quaisquer picos de tráfego previstos para os meses de novembro e dezembro estejam programados até 15 de setembro**. Se você perder o prazo, programe seu pico o mais rápido possível. Um lead time menor é melhor do que nenhum, e a Adobe trabalha com os recursos atuais para acomodar melhor seus conjuntos de relatórios.
 * Se a Adobe entrar em contato com você sobre um pico de tráfego programado, certifique-se de comunicar se o relatório em tempo real ou o relatório de processamento completo são mais importantes. Algumas organizações dependem dos relatórios em tempo real mais do que outras. Entender qual tipo de relatório você usa pode ajudar a Adobe a priorizá-lo de acordo.
-* Comunique-se com sua equipe de conta do Adobe com os relatórios mais importantes e, quando obtê-los, poderá ajudá-los a advogar por você.
+* Comunicar à sua equipe de conta do Adobe os relatórios mais importantes e quando você os obtêm pode ajudá-los a se defender de você.

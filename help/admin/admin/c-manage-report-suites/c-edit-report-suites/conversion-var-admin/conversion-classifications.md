@@ -2,11 +2,12 @@
 description: Classificações são usadas para categorizar valores em grupos e relatórios no nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como termos de música pop e relatar o sucesso dessa categoria com relação a métricas como Instâncias (click-throughs) e a conversão para eventos bem-sucedidos.
 title: Classificações de conversão
 feature: Classifications
+role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 96%
+source-wordcount: '566'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +19,7 @@ Classificações são usadas para categorizar valores em grupos e relatórios no
 
 As classificações de conversão permitem que você classifique as variáveis de conversão. Depois de classificado, qualquer relatório que você puder gerar usando o dado-chave também poderá ser gerado com as propriedades de dados associadas.
 
-Depois de habilitar as classificações, utilize o [Importador de classificações](/help/components/classifications/importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
+Depois de ativar as classificações, use o [Importador de classificação](/help/components/classifications/importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
 
 >[!WARNING]
 >

@@ -2,11 +2,12 @@
 description: Este documento descreve o que precisa ser feito no Adobe Analytics para oferecer suporte aos direitos de acesso e de exclusão do GDPR para titulares de dados.
 title: Adobe Analytics e o GDPR
 feature: Data Governance
+role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 97%
+source-wordcount: '581'
+ht-degree: 95%
 
 ---
 
@@ -48,9 +49,9 @@ Consulte [Rotular dados do conjunto de relatórios](/help/admin/admin/c-data-gov
 * Vincular sua empresa de logon a uma organização da Experience Cloud, se ainda não estiver vinculada. Entrar em contato com o Atendimento ao cliente da Adobe e consultar [Vinculação de organizações e contas.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=pt-BR)
 * Definir uma política de retenção de dados para cada conjunto de relatórios para que as solicitações de exclusão e de acesso do GDPR possam ser atendidas.
 
-   >[!NOTE]
-   >
-   >O Adobe Analytics não pode ajudá-lo com o processamento de solicitações para a API do GDPR, ou seja, com o processamento de solicitações de acesso ou de exclusão recebidas dos usuários finais, se um período de retenção de dados não tiver sido definido no Adobe Analytics. Entre em contato com a equipe de conta do Adobe para definir o período de retenção de dados.
+  >[!NOTE]
+  >
+  >O Adobe Analytics não pode ajudá-lo com o processamento de solicitações para a API do GDPR, ou seja, com o processamento de solicitações de acesso ou de exclusão recebidas dos usuários finais, se um período de retenção de dados não tiver sido definido no Adobe Analytics. Entre em contato com a equipe de conta do Adobe para definir o período de retenção de dados.
 
 * Verifique suas permissões: para usar a interface de Gerenciamento de governança de dados no Adobe Analytics, você deve ser um administrador do Adobe Analytics.
 

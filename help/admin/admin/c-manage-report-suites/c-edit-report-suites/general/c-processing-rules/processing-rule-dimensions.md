@@ -3,10 +3,11 @@ description: As dimensões que você pode ler e escrever (salvo indicação ao c
 subtopic: Processing rules
 title: Dimensões disponíveis para as regras de processamento
 feature: Processing Rules
+role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -84,7 +85,7 @@ As dimensões que você pode ler e escrever (salvo indicação ao contrário) us
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>ID do conjunto de relatórios  (somente leitura) </p> </td> 
+   <td colname="col1"> <p>ID do conjunto de relatórios (somente leitura) </p> </td> 
    <td colname="col2"> <p>O conjunto de relatórios no qual a regra de processamento é executada. Não pode ser o conjunto de relatórios original especificado no AppMeasurement. </p> </td> 
   </tr> 
   <tr> 
@@ -208,7 +209,7 @@ As regras de processamento podem definir eventos mas não podem lê-los como con
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Evento  1-1000 </p> <p>(Para clientes do SiteCatalyst 15, Evento 1-100.) </p> </td> 
+   <td colname="col1"> <p>Evento 1-1000 </p> <p>(Para clientes do SiteCatalyst 15, Evento 1-100.) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 

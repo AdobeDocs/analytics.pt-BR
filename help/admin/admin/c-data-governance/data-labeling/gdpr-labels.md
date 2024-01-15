@@ -2,10 +2,11 @@
 description: Exemplos de rótulos de privacidade de dados para variáveis do Adobe Analytics
 title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
+role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '3578'
+source-wordcount: '3576'
 ht-degree: 99%
 
 ---
@@ -52,7 +53,7 @@ Os rótulos de governança de dados oferecem aos usuários a capacidade de class
 
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
-| Nenhum | Selecione esta opção se essa variável não contiver dados que devem ser incluídos nos dados retornados ao titular de dados, como parte de uma solicitação de acesso da privacidade de dados. |  |
+| Nenhum | Selecione esta opção se essa variável não contiver dados que devem ser incluídos nos dados retornados ao titular de dados, como parte de uma solicitação de acesso da privacidade de dados. | |
 | ACC-ALL | Os valores neste campo devem ser incluídos em todas as solicitações de acesso da Privacidade de dados. Se essa ocorrência vier de um dispositivo compartilhado por vários indivíduos, ao aplicar esse rótulo, você, como controlador de dados, estará indicando que é aceitável compartilhar os dados desse campo com qualquer pessoa que tenha acesso ao dispositivo compartilhado. | Os campos com este rótulo serão retornados para todas as solicitações de Privacidade de dados. |
 | ACC-PERSON | Os valores deste campo devem apenas ser incluídos em solicitações de acesso da privacidade de dados quando você estiver razoavelmente certo de que a ocorrência originou-se do titular de dados, o que pode ser confirmado pelo fato de a ID da solicitação de privacidade de dados corresponder ao valor do campo ID-PERSON. | Você também deve ter um rótulo ID-PERSON definido em alguma variável dentro desse conjunto de relatórios e enviar solicitações usando essa ID, caso contrário esse rótulo nunca será aplicado. |
 
@@ -136,7 +137,7 @@ A rotulagem da privacidade de dados afeta quatro grandes classes de variáveis d
 | <ul><li>Eventos bem-sucedidos personalizados</li><li>eVars de merchandising</li><li>Variáveis com valores múltiplos (mvVars)</li><li>Variáveis de hierarquia</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Classificações | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Variáveis de tráfego (props)</li><li>Variáveis de comércio (eVars que não são de merchandising)</li></ul> | Todos os rótulos | - |
-| Maioria das outras variáveis    (*Consulte as exceções na tabela abaixo*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| Maioria das outras variáveis (*Consulte as exceções na tabela abaixo*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 

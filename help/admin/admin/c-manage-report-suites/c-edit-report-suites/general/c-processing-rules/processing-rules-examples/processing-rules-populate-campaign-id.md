@@ -3,9 +3,9 @@ description: É possível preencher uma variável usando um parâmetro da string
 subtopic: Processing rules
 title: Preenchimento de uma ID de campanha a partir de um parâmetro da cadeia de caracteres de consulta
 feature: Admin Tools
-uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
+role: Admin
 exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%

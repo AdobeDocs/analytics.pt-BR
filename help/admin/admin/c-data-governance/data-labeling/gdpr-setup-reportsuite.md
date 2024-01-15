@@ -2,8 +2,9 @@
 description: Rotular os dados do conjunto de relatórios significa que você atribui os rótulos de identidade, sensibilidade e governança de dados a cada variável em um determinado conjunto de relatórios.
 title: Rotular dados do conjunto de relatórios
 feature: Data Governance
+role: Admin
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%

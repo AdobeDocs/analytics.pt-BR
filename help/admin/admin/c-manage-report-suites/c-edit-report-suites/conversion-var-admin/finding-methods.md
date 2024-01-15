@@ -2,12 +2,12 @@
 description: A página Métodos de descoberta identifica como vários relatórios de métodos de descoberta recebem crédito para eventos bem-sucedidos de conversão em seu site. Por exemplo, se um mecanismo de pesquisa encaminhar um visitante para o seu site e o visitante fizer uma compra, Métodos de descoberta especificará como o mecanismo de pesquisa recebe crédito pela indicação.
 title: Métodos de descoberta
 feature: Admin Tools
-uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
+role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 A página Métodos de descoberta identifica como vários relatórios de métodos de descoberta recebem crédito para eventos bem-sucedidos de conversão em seu site. Por exemplo, se um mecanismo de pesquisa encaminhar um visitante para o seu site e o visitante fizer uma compra, Métodos de descoberta especificará como o mecanismo de pesquisa recebe crédito pela indicação.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Buscar métodos]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Métodos de descoberta]**
 
 ## Descrições de métodos de descoberta {#section_8B6278DB75224EAB9F49D89A86274E8A}
 

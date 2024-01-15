@@ -2,11 +2,12 @@
 description: Mostra exemplos de como rotular dados de hit, solicitações de acesso, solicitações de exclusão
 title: Exemplos de rotulagem
 feature: Data Governance
+role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 100%
+source-wordcount: '862'
+ht-degree: 99%
 
 ---
 
@@ -24,13 +25,13 @@ Suponha que você tenha os seguintes dados de ocorrência:
 |---|---|---|---|---|---|
 | **Nome da variável** <br> **(Namespace)** | **MyProp1** <br> **(usuário)** | **ID de visitante** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | Dados de ocorrência | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | N | Y |
-|  | Mary | 99 | C | O | Z |
-|  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
-|  | John | 44 | F | Q | V |
-|  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | Z |
+| | Mary | 88 | B | N | Y |
+| | Mary | 99 | C | O | Z |
+| | John | 77 | D | P | W |
+| | John | 88 | E | N | U |
+| | John | 44 | F | Q | V |
+| | John | 55 | G | R | X |
+| | Alice | 66 | A | N | Z |
 
 ## Solicitação de acesso de exemplo {#access}
 
