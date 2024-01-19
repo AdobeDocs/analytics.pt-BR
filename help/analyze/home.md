@@ -4,9 +4,9 @@ description: Documentação de produto e autoatendimento para o Analysis Workspa
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: c659d85ce0dea98245eb25f1432720d69cfe77cf
-workflow-type: ht
-source-wordcount: '569'
+source-git-commit: 11ef092984f37547ed408bedb977fccb8b53dba8
+workflow-type: tm+mt
+source-wordcount: '456'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,6 @@ O Guia de ferramentas do Analytics inclui informações sobre recursos do produt
 | **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=pt-BR)** | O Activity Map é um aplicativo do Adobe Analytics desenvolvido para classificar a atividade de links, com o uso de sobreposições visuais e a disponibilização de um painel de análise em tempo real para monitorar a participação do público nas páginas da Web. <br>O Activity Map permite configurar diferentes exibições para identificar visualmente a aceleração da atividade do cliente, quantificar as iniciativas de marketing e agir conforme as necessidades e os comportamentos do público.&quot; |
 | **[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=pt-BR)** | O Report Builder é um suplemento do Microsoft Excel. O Report Builder permite criar solicitações personalizadas a partir de dados do Adobe Analytics que foram inseridos em suas planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados. |
 | **[APIs do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/)** | As APIs do Analytics permitem que você chame diretamente os servidores da Adobe para executar quase todas as ações possíveis a partir da interface. Você pode criar relatórios para explorar, obter insights ou responder perguntas importantes sobre seus dados. Você também pode gerenciar componentes do Adobe Analytics, como a criação de segmentos ou métricas calculadas. |
-| **[Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html?lang=pt-BR)** | O Reports &amp; Analytics é uma ferramenta com dezenas de relatórios e visualizações pré-criados. Eles agora estão disponíveis no Analysis Workspace. **A partir de 31 de dezembro de 2023, a Adobe pretende descontinuar o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham. A Adobe recomenda o uso do Analysis Workspace para a maioria das demandas de relatório.** Para obter mais informações, consulte [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR). |
 
 Para saber mais sobre as noções básicas do Adobe Analytics, assista o vídeo *Introdução ao Adobe Analytics - Webinário do construtor de habilidades* abaixo. O vídeo aborda as noções básicas de como os dados são obtidos e enviados para o Adobe Analytics, além de quais recursos de visualização podem ser usados no Adobe Analytics. O vídeo fornece uma base para criar, implantar, coletar e interpretar dados, permitindo fornecer recomendações e insights acionáveis com base nos dados coletados.
 
