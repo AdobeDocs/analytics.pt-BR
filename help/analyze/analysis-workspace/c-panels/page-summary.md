@@ -4,16 +4,16 @@ title: Painel Resumo da página
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 8%
+source-wordcount: '444'
+ht-degree: 9%
 
 ---
 
 # Painel Resumo da página
 
-A variável [!UICONTROL Resumo da página] O painel começou como um relatório no Reports &amp; Analytics, em Relatórios > Envolvimento > Análise de página > Resumo da página. Agora, ele também é um painel do Espaço de trabalho. Esse painel permite explorar facilmente as principais estatísticas sobre páginas específicas.
+Esse painel permite explorar facilmente as principais estatísticas sobre páginas específicas.
 
 ## Acessar o painel
 

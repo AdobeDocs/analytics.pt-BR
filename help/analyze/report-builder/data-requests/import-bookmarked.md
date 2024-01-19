@@ -4,10 +4,10 @@ title: Importar relatórios marcados e reportlets de painel
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 82%
+source-wordcount: '241'
+ht-degree: 72%
 
 ---
 
@@ -25,16 +25,7 @@ Ao clicar em **[!UICONTROL Recuperar seus painéis]** ou **[!UICONTROL Recuperar
 
 >[!NOTE]
 >
->No Report Builder, a lista de painéis e marcadores disponíveis está limitada ao usuário, mas também aos que se aplicam ao conjunto de relatórios selecionado na Etapa 1 do assistente. Por outro lado, nos relatórios e análises de marketing, você recebe acesso aos marcadores e painéis acessíveis, independentemente dos conjuntos de relatórios que o painel e os marcadores usam.
-
->[!NOTE]
->
 >Somente dados são importados, portanto, se o marcador contiver um gráfico, ou se o reportlet do painel consistir de apenas um gráfico, somente os dados utilizados para preencher o gráfico serão importados.
 
 Depois de criar uma solicitação ao importar um reportlet de painel (ou um marcador), a solicitação será associada à dimensão principal do reportlet (ou do marcador). Como resultado, se você editar a solicitação, a visualização de árvore não selecionar mais o nó da visualização de árvore do reportlet de painel (ou o nó do marcador): em vez disso, seleciona a dimensão principal.
 
-O miniaplicativo importado definirá apropriadamente o conjunto de relatórios, o segmento selecionado, a dimensão e as métricas selecionadas com os mesmos parâmetros expostos no marcador de Reports &amp; Analytics.
-
->[!IMPORTANT]
->
->O intervalo de datas será definido como estático; mesmo se esse intervalo de datas for cumulativo no marcador de Reports &amp; Analytics.

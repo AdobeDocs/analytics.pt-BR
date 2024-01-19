@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 84%
+source-wordcount: '199'
+ht-degree: 82%
 
 ---
 
@@ -21,10 +21,6 @@ Ele permite:
 * Visualizar a jornada do cliente pelo seu site ou aplicativo
 * Analisar para onde os clientes vão antes e depois de pontos de verificação específicos, como a entrada, uma dimensão específica ou a saída
 * Criar segmentos, designando um ponto específico em um determinado caminho
-
->[!NOTE]
->
->Para obter informações sobre como os resultados da aplicação de segmentos ao Fluxo podem ser diferentes no Analysis Workspace e no Reports &amp; Analytics, consulte [Segmentação como base para Fluxo &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 Veja um tutorial em vídeo sobre visualização de Fluxo:
 

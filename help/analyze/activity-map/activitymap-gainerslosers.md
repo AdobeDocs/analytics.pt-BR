@@ -4,10 +4,10 @@ title: Sobreposições personalizáveis
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 As sobreposições fornecem várias formas de configurar a visualização de dados, para que seja possível ver e compreender com facilidade a popularidade dos links em uma página.
 
-As sobreposições permitem visualizar os dados de cliques diretamente na página. Isso é o que separa uma ferramenta de análise visual, como o Activity Map, das principais ferramentas gráficas e tabulares, como os Reports &amp; Analytics.
+As sobreposições permitem visualizar dados de cliques diretamente na página.
 
 O Activity Map oferece três tipos de sobreposições:
 
@@ -29,7 +29,7 @@ Para fazer alterações nas sobreposições, abra o [Painel de configurações d
 
 Os [detalhes](/help/analyze/activity-map/activitymap-overlay-details.md) serão exibidos ao passar o mouse sobre uma sobreposição.
 
-## Sobreposição de gradiente (mapa de dados) {#section_06AF13DE05A1454D960176CD0DA921A6}
+## Sobreposição de gradiente (mapa de calor) {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 Com a sobreposição de gradiente, a intensidade da cor é baseada na popularidade do link. Essa intensidade pode ser normalizada para as 30 melhores classificações ou para uma função do valor absoluto da métrica.
 
@@ -51,7 +51,7 @@ Sobreposições de bolha são mostradas quando você seleciona essa sobreposiç�
 
 >[!NOTE]
 >
->as sobreposições em bolha de submenus são exibidas somente quando o submenu é exibido:
+>As sobreposições em bolha de submenus são exibidas somente quando o submenu é exibido:
 >
 >![](assets/bubbles_submenu.png)>
 

@@ -3,10 +3,10 @@ title: Perfis de produto para o Adobe Analytics
 description: Saiba como os perfis de produtos podem ser usados como predefinições de permissão que os administradores de produtos podem atribuir aos usuários em uma organização.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 1a7b853d6f5fc627223ea69e64b4a240c61aef2a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 98%
+source-wordcount: '673'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Para obter informações sobre como atribuir administradores de perfil de produt
 As permissões mínimas necessárias em um perfil de produto para acessar o Adobe Analytics são as seguintes:
 
 * O perfil de produto deve ter acesso a pelo menos um conjunto de relatórios
-* O perfil de produto deve pertencer ao item de permissão Ferramentas do Analytics **Acesso à Analysis Workspace** (ou **Acesso ao Reports &amp; Analytics**)
+* O perfil de produto deve pertencer ao item de permissão Ferramentas do Analytics **Acesso ao Analysis Workspace**.
 
 ### Conjuntos de relatórios
 
@@ -40,13 +40,13 @@ Concede acesso aos conjuntos de relatórios que pertencem a sua organização do
 
 ### Métricas
 
-Concede acesso às métricas em seu conjunto de relatórios. As métricas são listadas como seu respectivo componente na Analysis Workspace, ou se a métrica estiver disponível no Reports &amp; Analytics, disponível como um item de menu em Métricas do site.
+Concede acesso às métricas em seu conjunto de relatórios. As métricas são listadas como seu respectivo componente no Analysis Workspace.
 
 As métricas personalizadas são rotuladas como &quot;Evento personalizado 1-1000&quot; para mantê-las independentes dos conjuntos de relatórios. Se &#39;Evento personalizado 1&#39; for um item de permissão ativado, esse usuário terá acesso a event1 em todos os conjuntos de relatórios no perfil do produto.
 
 ### Dimensões
 
-Concede acesso às dimensões em seu conjunto de relatórios. As dimensões são listadas como seu respectivo componente na Analysis Workspace, ou se a dimensão estiver disponível no Reports &amp; Analytics, disponível como um item de menu.
+Concede acesso às dimensões em seu conjunto de relatórios. Os Dimension são listados como seu respectivo componente no Analysis Workspace.
 
 As variáveis personalizadas, como eVars, são rotuladas como &quot;Conversão personalizada 1-250&quot; para mantê-las independentes dos conjuntos de relatórios. Se &#39;Conversão personalizado 1&#39; for um item de permissão ativado, esse usuário terá acesso a eVar1 em todos os conjuntos de relatórios no perfil do produto.
 

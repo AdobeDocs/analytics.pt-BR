@@ -3,10 +3,10 @@ description: Os arquivos de log ajudam a identificar quando os usuários fazem l
 title: Logs
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 66%
+source-wordcount: '587'
+ht-degree: 67%
 
 ---
 
@@ -18,7 +18,7 @@ Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas at
 
 ## Log de administração {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
-O log de administração relata todas as alterações feitas pelos administradores nas ferramentas administrativas. O log fornece um portal para os relatórios definidos pelo usuário de qualquer um dos três logs. Você pode pesquisar eventos que correspondam aos critérios selecionados em um intervalo de datas especificado.
+O log de administração relata todas as alterações feitas pelos administradores nas ferramentas administrativas. O log fornece um portal para relatórios definidos pelo usuário a partir de qualquer um dos três logs. Você pode pesquisar eventos que correspondam aos critérios selecionados em um intervalo de datas especificado.
 
 ## Log de uso e acesso {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
@@ -43,14 +43,12 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Login bem sucedido | Usuário conectado com sucesso. |
 | Ação do administrador | Ocorreu uma ação do administrador, como editar um conjunto de relatórios, alterar as configurações da empresa, criar um usuário, cancelar uma solicitação de relatório etc. |
 | Alteração da configuração de segurança | Configuração de segurança alterada. |
-| Relatório exibido | Um relatório do Reports &amp; Analytics foi visualizado. |
-| Relatório baixado | Um relatório do Reports &amp; Analytics foi baixado. |
 | Alerta enviado | Um alerta foi enviado. |
 | Ação do usuário | As informações do usuário foram editadas. |
 | Ferramenta exibida | Uma ferramenta foi visualizada. |
 | Ação do Omniture | Uma ação foi executada por Adobe. |
 | Recuperação de senha | Uma senha foi recuperada. |
-| BookMarks | Um marcador foi gerenciado. |
+| Marcadores | Um marcador foi gerenciado. |
 | Painéis | Um painel foi gerenciado. |
 | Alertas | Um alerta foi gerenciado. |
 | Eventos de calendário | Um evento de calendário foi gerenciado. |
@@ -61,7 +59,7 @@ O [!UICONTROL Log de uso e acesso] permite avaliar o uso do relatório no nível
 | Nomear páginas | Obsoleto. |
 | Classificações | Uma classificação foi gerenciada. |
 | Fontes de dados | Uma fonte de dados foi gerenciada. |
-| Projeto do Espaço de trabalho | Um projeto do Workspace foi visualizado ou editado. |
+| Projeto do Workspace | Um projeto do Workspace foi visualizado ou editado. |
 | Segmento | Um segmento foi criado/editado. |
 | Métrica calculada | Uma métrica calculada foi criada/editada. |
 | Intervalo de datas | Um intervalo de datas foi criado/editado. |

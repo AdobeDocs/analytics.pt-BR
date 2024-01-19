@@ -4,16 +4,16 @@ title: Painel Item anterior ou seguinte
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: c289f4aa1e49e428182fed9a871a1f90dd1f5c42
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '445'
 ht-degree: 5%
 
 ---
 
 # Painel Item anterior ou seguinte
 
-A variável [!UICONTROL Próximo item ou anterior] painel começou como um relatório no Reports &amp; Analytics, em [!UICONTROL Relatórios] > [!UICONTROL Mais popular] > [!UICONTROL Próxima página/Página anterior]. Agora, ele também é um painel do Espaço de trabalho. Esse painel contém várias tabelas e visualizações para identificar facilmente o item de dimensão seguinte ou anterior de uma dimensão específica. Por exemplo, você pode querer explorar quais páginas os clientes acessaram com mais frequência depois de visitarem a Página inicial.
+Esse painel contém várias tabelas e visualizações para identificar facilmente o item de dimensão seguinte ou anterior de uma dimensão específica. Por exemplo, você pode querer explorar quais páginas os clientes acessaram com mais frequência depois de visitarem a Página inicial.
 
 ## Acessar o painel
 

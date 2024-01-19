@@ -4,14 +4,14 @@ title: Métricas calculadas
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 84%
+source-wordcount: '399'
+ht-degree: 83%
 
 ---
 
-# Métricas calculadas
+# Métricas calculadas 
 
 O Report Builder 5.2 é compatível com as métricas calculadas unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.
 
@@ -36,9 +36,9 @@ Os filtros disponíveis incluem:
 | Nome do filtro | Descrição |
 |---|---|
 | Tags | Permite aplicar os filtros nas métricas calculadas com tags específicas. Observe que os filtros de tags usam o operador AND. Caso você verifique as duas tags, o painel direito mostrará as métricas que foram marcadas com **ambas** as tags. |
-| Conjuntos de relatórios | Se você aplicar o filtro &quot;Somente o *nome do conjunto de relatórios*&quot; no Construtor de métricas calculadas em [!DNL Reports & Analytics] e, em seguida, exibir o filtro Avançado no [!DNL Report Builder], o filtro Avançado exibirá as métricas calculadas somente para o conjunto de relatórios selecionados. |
+| Conjuntos de relatórios | Se você aplicar o filtro &quot;Somente o *nome do conjunto de relatórios*&quot; no Construtor de métricas calculadas em [!DNL Adobe Analytics] e, em seguida, exibir o filtro Avançado no [!DNL Report Builder], o filtro Avançado exibirá as métricas calculadas somente para o conjunto de relatórios selecionados. |
 | Proprietários | Permite que filtrar métricas por proprietário. Observe que os filtros Proprietários usam o operador OR. Se você marcar dois proprietários, o painel direito exibe as métricas de propriedade de **qualquer** proprietário. |
-| Outros filtros > Aprovado | Mostra todos os segmentos  métricas aprovadas. |
+| Outros filtros > Aprovado | Mostra todas as métricas aprovadas oficialmente. |
 | Outros filtros > Favoritos | Mostra todas as métricas que você marcou como Favoritos. |
 | Outros filtros > Meus | Mostra todas as suas métricas. |
 | Outros filtros > Compartilhados comigo | Mostra todas as métricas que outras pessoas compartilharam com você. |

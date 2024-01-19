@@ -3,20 +3,16 @@ description: A Adobe exige um aviso prévio para novas configurações da conta,
 title: Tempo de lead necessário para aumentos de tráfego
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: ht
-source-wordcount: '337'
+source-git-commit: 726e5ee71be60838e48bb682d7fd48bfc1f96ec3
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
 # Tempo de lead necessário para aumentos de tráfego
 
-## Tempo de lead necessário para aumentos de tráfego
-
 A Adobe exige um aviso prévio para novas configurações da conta, picos e aumento de tráfego. O hardware deve ser alocado antes para minimizar a latência e os possíveis problemas no sistema geral.
-
-A alocação de hardware é realizada por alertas emitidos pela interface do usuário do Relatórios e análises.
 
 >[!IMPORTANT]
 >
@@ -24,7 +20,7 @@ A alocação de hardware é realizada por alertas emitidos pela interface do usu
 
 Use as diretrizes a seguir para determinar com quanta antecedência você deve enviar um alerta de tráfego:
 
-### Prazo para alocação do hardware
+## Prazo para alocação do hardware
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -65,6 +61,6 @@ Outros itens que devem ser considerados:
 
 * Os Alertas do cliente também são necessários quando o tráfego é reduzido ou um conjunto de relatórios é substituído.
 
-### Cancelamento da alocação de hardware devido ao tráfego não realizado
+## Cancelamento da alocação de hardware devido ao tráfego não realizado
 
 O hardware para novas contas, picos de tráfego e aumentos de tráfego terá o alocamento cancelado se o tráfego projetado no alerta do cliente não ocorrer em 4 semanas a partir da &quot;data de ativação&quot;. Se o tráfego ainda for antecipado, é necessário gerar um novo alerta do cliente conforme o tráfego aumentar.

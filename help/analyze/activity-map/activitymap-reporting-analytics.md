@@ -4,10 +4,10 @@ title: Relatórios do Activity Map no Analytics
 feature: Activity Map
 role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 92%
+source-wordcount: '233'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ Para que os usuários possam gerar relatórios sobre dimensões do Activity Map,
 * [Adicionar usuários ao perfil de produto Acesso ao Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
 * Personalizar o acesso de usuários a dimensões. Consulte a seção abaixo.
 
-## Dimensões do Activity Map no Analytics {#dimensions}
+## Dimensões de Activity Map do Analytics {#dimensions}
 
 Você pode [personalizar o acesso dos usuários a dimensões](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) em nível granular. Veja a seguir as dimensões do Activity Map disponíveis no Analytics:
 
@@ -34,6 +34,6 @@ Você pode [personalizar o acesso dos usuários a dimensões](https://experience
 | Links e região do Activity Map | Lista todos os links coletados com sua região em todo o site. |
 | Activity Map XY | Não usado |
 
-* Essas dimensões devem estar disponíveis na Analysis Workspace, em Reports &amp; Analytics e no Report Builder, desde que a implementação do Analytics esteja [habilitado para o Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
-* Em Reports &amp; Analytics, navegue até **[!UICONTROL Exibir todos os relatórios]** > **[!UICONTROL Activity Map]**.
+* Essas dimensões devem estar disponíveis no Analysis Workspace e no Report Builder, desde que a implementação do Analytics esteja [habilitado para Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md).
+* No Analysis Workspace, extraia as dimensões relacionadas ao Activity Map em um relatório.
 * Para visualizar um link e uma região de uma página específica, tudo o que você precisa fazer é criar um relatório de decomposição da página desejada do Activity Map em Links e região do Activity Map.

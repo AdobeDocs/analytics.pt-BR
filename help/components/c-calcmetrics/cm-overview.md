@@ -4,10 +4,10 @@ keywords: Métricas calculadas, Métricas derivadas, Métricas calculadas avanç
 title: Métricas calculadas e calculadas avançadas (derivadas)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 88%
+source-wordcount: '564'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ Esta é uma comparação entre as métricas calculadas e os recursos de métrica
 
 É possível
 
-* Crie métricas no [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição].
+* Criar métricas entre [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Detecção de anomalias], e [!UICONTROL Análise de contribuição].
 * Criar métricas segmentadas derivadas do tempo de execução do relatório, sem precisar alterar a implementação. Essas métricas podem ser exibidas historicamente, pois se baseiam em segmentos.
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
@@ -54,7 +54,6 @@ Esta é uma comparação entre as métricas calculadas e os recursos de métrica
 
 Alguns recursos do [!DNL Analytics] permitem usar eventos, mas não permitem usar métricas calculadas:
 
-* [!UICONTROL Funis] no [!UICONTROL Reports &amp; Analytics]
 * [!UICONTROL Fallout] na [!UICONTROL Analysis Workspace]
 * [!UICONTROL Análise de coorte] na Analysis Workspace
 * [!UICONTROL Data Warehouse]
@@ -103,7 +102,7 @@ Esta é uma breve visão geral do [!UICONTROL Métricas calculadas] ferramentas:
   </tr> 
   <tr> 
    <td colname="col1"> Painel Seletor de métricas </td> 
-   <td colname="col2"> <p>Substitui o menu pop-up <span class="uicontrol">Mostrar métricas</span> no<span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Permite pesquisar e adicionar/aplicar métricas ao relatório. Também é possível alterar a ordem de <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > classificação</a> (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, é possível filtrar os Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico. </p> <p>Para acessar o Seletor de métricas, clique no ícone Métricas <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> à esquerda de um relatório. O Seletor de métricas tem a seguinte aparência: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Substitui o menu pop-up <span class="uicontrol">Mostrar métricas</span> no<span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Permite pesquisar e adicionar/aplicar métricas ao relatório. Você também pode alterar a variável <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sort</a> ordem (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, é possível filtrar os Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico. </p> <p>Para acessar o Seletor de métricas, clique no ícone Métricas <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> à esquerda de um relatório. O Seletor de métricas tem a seguinte aparência: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API para métricas calculadas</a> </td> 

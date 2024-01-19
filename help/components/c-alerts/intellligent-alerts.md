@@ -3,10 +3,10 @@ description: O sistema de Alertas inteligentes permite um controle mais detalhad
 title: Alertas inteligentes
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Os Alertas inteligentes permitem
 
 Os componentes do sistema de alertas incluem: o Criador de alertas, o Gerenciador de alertas, a Pré-visualização de alertas e acesso melhorado com contexto para criar alertas. A interface de usuário do sistema de alerta anterior não estará mais disponível, mas os alertas serão migrados. Alguns recursos legados de alerta [não estão mais disponíveis](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=pt-BR).
 
-Há quatro maneiras de acessar o Criador de alertas:
+Há três maneiras de acessar o Criador de alertas:
 
 * Usando o seguinte atalho no Analysis Workspace:
 
@@ -43,13 +43,10 @@ Há quatro maneiras de acessar o Criador de alertas:
 
   ![](assets/create-alert-from-selection.png)
 
-* A partir de um relatório do [!UICONTROL Reports &amp; Analytics], acessando **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**. Isso abrirá o novo Criador de alertas e pré-preencherá o criador com as métricas e filtros apropriados aplicados a partir do relatório. Você pode editar o alerta, se necessário.
 
-  ![](assets/add-alert.png)
+## Perguntas frequentes: Como os alertas são calculados e acionados {#trigger}
 
-## Perguntas frequentes: Como os alertas são calculados e acionados {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
-
-Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, [modelos diferentes](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) são usados para calcular o quão distante (quantos desvios padrão) cada ponto de dados está da norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias se definir um limite mais alto (99%), Os limites 99,75% e 99,99% foram criados especificamente para a granularidade horária, de forma que não tantas anomalias não sejam acionadas.
+Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, [modelos diferentes](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) são usados para calcular a distância (a quantidade de desvios padrão) de cada ponto de dados em relação à norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias se definir um limite mais alto (99%), Os limites 99,75% e 99,99% foram criados especificamente para a granularidade horária, de forma que não tantas anomalias não sejam acionadas.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 

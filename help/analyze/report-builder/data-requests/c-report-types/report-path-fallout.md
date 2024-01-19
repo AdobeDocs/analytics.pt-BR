@@ -4,21 +4,21 @@ title: Relatórios de caminho e fallout de caminho no Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 86%
+source-wordcount: '294'
+ht-degree: 81%
 
 ---
 
 # Relatórios de caminho e fallout de caminho no Report Builder
 
-Descreve como o Report Builder oferece suporte a relatórios de definição de caminho e fallout, e como a implementação difere de Reports &amp; Analytics.
+Descreve como o Report Builder suporta relatórios de definição de caminho e fallout, e como a implementação difere do Reports &amp; Analytics (agora encerrado).
 
 | Nome do relatório de caminho em Reports &amp; Analytics (Caminhos > Dimensão >) | Suportado no Report Builder? |
 |--- |--- |
-| Próximo/Anterior  fluxo de dimensão | Não fornecido como um relatório independente. Pode ser reproduzido utilizando várias solicitações com Dimensão de caminho e um filtro. |
-| Próximo/Anterior dimension  | Não fornecido como um relatório independente. É possível reproduzir com um relatório de caminho e utilizando um filtro. |
+| Fluxo de dimensão seguinte/anterior | Não fornecido como um relatório independente. Pode ser reproduzido utilizando várias solicitações com Dimensão de caminho e um filtro. |
+| Dimensão seguinte/anterior | Não fornecido como um relatório independente. É possível reproduzir com um relatório de caminho e utilizando um filtro. |
 | Fallout | Suportado e fornecido como um relatório independente ( Caminhos > dimensão > fallout de dimensão). |
 | Caminhos completos | Não suportado. |
 | PathFinder | Não fornecido como um relatório independente. É possível reproduzir como um relatório de caminho utilizando um filtro. |

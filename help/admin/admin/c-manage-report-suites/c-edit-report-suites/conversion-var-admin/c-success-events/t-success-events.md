@@ -4,9 +4,9 @@ title: Configurar os eventos bem-sucedidos
 feature: Event
 role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -38,9 +38,9 @@ Para configurar eventos bem-sucedidos:
 
    | Configuração | Visível em | Não visível em |
    |---------|----------|---------|
-   | [!UICONTROL **Visível em qualquer lugar**] | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | N/D |
-   | [!UICONTROL **Construtores**] | <ul><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Oculto em qualquer lugar**] | N/D | <ul><li>Reports &amp; Analytics (menu e seletor de métricas)</li><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
+   | [!UICONTROL **Visível em qualquer lugar**] | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | N/D |
+   | [!UICONTROL **Construtores**] | <ul><li>Construtor de segmentos</li><li>Criador de métricas calculada</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Oculto em qualquer lugar**] | N/D | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
 
 1. Forneça uma descrição.
 1. Verifique se o evento sempre deve ser gravado.

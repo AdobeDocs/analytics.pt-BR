@@ -3,10 +3,10 @@ description: Descrições dos tipos de conjunto de relatórios e comparação en
 title: Abordagens do conjunto de relatórios
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 96%
+source-wordcount: '879'
+ht-degree: 93%
 
 ---
 
@@ -42,11 +42,7 @@ O uso de conjuntos de relatórios virtuais em vez da marcação de vários relat
 
 >[!NOTE]
 >
->O [!DNL Reports & Analytics] é a única ferramenta que oferece suporte a relatórios de rollup, e a Adobe não recomenda mais a utilização de rollups. Em vez disso, considere usar um conjunto de relatórios global com a marcação de vários relatórios ou conjuntos de relatórios virtuais.
-
-Um relatório de rollup é um simples agregado de dados de vários conjuntos de relatórios, sem desduplicação ou qualquer detalhamento de segmentos ou de dados. Os rollups não exigem implementação de código. Para usar relatórios de rollup, [implemente conjuntos de relatórios secundários](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) e depois [combine-os em um relatório de rollup](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) usando [!UICONTROL Ferramentas administrativas].
-
-Relatórios de rollup são gratuitos: os conjuntos de relatórios secundários incorrem em suas próprias chamadas de servidor, mas o rollup não incorre em chamadas adicionais. Os rollups são um recurso herdado e têm muitas limitações.
+>[!DNL Reports & Analytics] O é a única ferramenta que oferece suporte a relatórios de rollup. O Reports &amp; Analytics foi encerrado em 17 de janeiro de 2024.
 
 ### Limitações dos relatórios de rollup {#limitations-rollups}
 
@@ -80,6 +76,6 @@ Relatórios de rollup são gratuitos: os conjuntos de relatórios secundários i
 
 **Relatórios**: todos os conjuntos de relatórios globais fornecem informações adicionais sobre todas as dimensões; os rollups fornecem dados agregados em relatórios de alto nível.
 
-**Produtos compatíveis**: os rollups só podem ser usados no Reports &amp; Analytics. Eles não são compatíveis com o Analysis Workspace ou Data Warehouse. Os conjuntos de relatórios globais podem ser usados em todos os produtos.
+**Produtos suportados**: os rollups só podem ser usados no Reports &amp; Analytics. Eles não são compatíveis com o Analysis Workspace ou Data Warehouse. Os conjuntos de relatórios globais podem ser usados em todos os produtos.
 
 **Número de conjuntos de relatórios agregados**: oos rollups suportam apenas um máximo de 40 conjuntos de relatórios secundários. Os conjuntos de relatórios globais podem ser implementados em qualquer número de domínios ou aplicativos de sua propriedade.
