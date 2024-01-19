@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
 source-wordcount: '4994'
 ht-degree: 96%
@@ -142,7 +142,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Atualizações da página de aterrissagem do Adobe Analytics | [Atualizações](/help/analyze/landing.md) na página de aterrissagem conjunta do Analysis Workspace/Reports &amp; Analytics que melhoram a usabilidade e a facilidade de navegação. |
 | [!UICONTROL Próximo item] ou [!UICONTROL Item anterior] no painel Espaço de trabalho | Esse painel permite explorar itens que seguem ou precedem um item de dimensão de sua escolha. |
 | [!UICONTROL Resumo da página] no painel Espaço de trabalho | Esse painel fornece uma análise detalhada para uma página de sua escolha. |
-| Novo tópico sobre como pausar relatórios agendados mais antigos | A partir de **15 de abril de 2022**, a Adobe pretende [pausar todos os relatórios agendados com data de criação superior a dois anos](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| Novo tópico sobre como pausar relatórios agendados mais antigos | Efetivo **15 de abril de 2022**, o Adobe pretende pausar todos os relatórios agendados com data de criação superior a dois anos |
 | **Fevereiro de 2022** |
 | Modo de visualização do projeto do cartão de pontuação para dispositivos móveis | O [modo de visualização](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR#preview) permite visualizar a experiência antes de salvar e compartilhar um cartão de pontuação. |
 | Endpoint de projetos de API | Adicione, edite ou exclua projetos do Analysis Workspace usando a API. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |

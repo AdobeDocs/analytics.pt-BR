@@ -3,9 +3,9 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2535'
 ht-degree: 97%
 
 ---
@@ -42,7 +42,6 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Variáveis de dados de contexto:** variáveis temporárias usadas apenas nas regras de processamento. Os valores da variável de dados de contexto são perdidos permanentemente se uma regra de processamento não os copiar para uma variável de conversão ou de tráfego. Consulte [Variáveis de dados de contexto](../implement/vars/page-vars/contextdata.md) no guia do usuário Implementar.
 * **Variável de conversão:** também conhecida como eVars. Armazena um valor personalizado e preserva o valor da variável até que ele expire. Consulte a dimensão [eVar](/help/components/dimensions/evar.md) no guia do usuário Componentes.
 * **Correlação:** não é mais usado como termo; substituído por Detalhamentos de dimensão. Em versões anteriores do Adobe Analytics, as correlações permitiam detalhar as variáveis de tráfego. Consulte [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) no guia do usuário Analisar.
-* **Dados atuais:** uma opção em alguns relatórios que permite a inclusão de dados coletados recentemente que ainda não foram totalmente processados. Consulte [Dados atuais](/help/analyze/reports-analytics/current-data.md) no guia do usuário Analisar.
 * **Link personalizado:** um tipo de ocorrência que contém dados de exibição que não sejam de página. Consulte a [função s.tl()](../implement/vars/functions/tl-method.md) no guia do usuário Implementar. Consulte também Hit.
 * **Atributos do cliente:** um recurso da Experience Cloud que permite o upload de dados de atributos. Consulte [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR) no guia do usuário dos Serviços principais.
 * **Representante de suporte ao cliente:** um usuário designado autorizado a interagir diretamente com o Atendimento ao cliente da Adobe. Consulte [Delegados de suporte ao cliente](https://helpx.adobe.com/br/experience-cloud/supported-users.html) na Base de conhecimento da Experience Cloud.

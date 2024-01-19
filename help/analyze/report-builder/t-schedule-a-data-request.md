@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '970'
 ht-degree: 96%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 96%
 Você pode programar pastas de trabalho, especificar opções avançadas de entrega, especificar destinatários e visualizar o histórico da programação. As opções avançadas de entrega permitem configurar pastas de trabalho que você deseja enviar em um horário ou em intervalos específicos. Também é possível especificar o formato do arquivo para enviar a pasta de trabalho.
 
 Por exemplo, você pode programar a entrega imediata de pastas de trabalho ou com uma programação recorrente e especificar o formato do arquivo nas [!DNL Advanced Delivery Options]. O limite de tamanho do arquivo de uma pasta de trabalho ser carregada é de 5 MB.
-
-Além disso, depois de criar uma programação de pastas de trabalho no Report Builder, você poderá visualizar e editar a programação em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**. (Consulte [Agendamento e distribuição de relatórios](/help/analyze/reports-analytics/scheduling.md) na ajuda do Reports &amp; Analytics).
 
 >[!NOTE]
 >
@@ -40,7 +38,7 @@ Além disso, depois de criar uma programação de pastas de trabalho no Report B
 1. Na barra de ferramentas do Report Builder, clique em **[!UICONTROL Agendamento]**.
 
    A guia [!UICONTROL Relatórios agendados] resume todas as tarefas que você tiver criado, bem como o número de tarefas restantes.
-1. Na guia **[!UICONTROL Relatórios agendados]**, clique em **[!UICONTROL Novo]**. O Assistente básico de agendamento mostra as opções usadas para definir o relatório agendado.
+1. No **[!UICONTROL Relatórios Agendados]** clique em **[!UICONTROL Novo]**. O Assistente básico de agendamento mostra as opções usadas para definir o relatório agendado.
 
    ![Captura de tela mostrando o Assistente básico de agendamento.](assets/simple-schedule-wizard.png)
 

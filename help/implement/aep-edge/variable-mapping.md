@@ -3,10 +3,10 @@ title: Mapeamento de variável do Analytics na Adobe Experience Edge
 description: Visualize quais campos XDM a borda mapeia automaticamente para variáveis do Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 83%
+source-wordcount: '1145'
+ht-degree: 82%
 
 ---
 
@@ -67,8 +67,8 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Uma matriz de sequência de caracteres que contém os respectivos valores da [Propriedade de lista](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena todas as strings `value` em cada matriz `list[]` à sua respectiva [variável de lista](../vars/page-vars/list.md). O delimitador é escolhido automaticamente com base no valor definido nas [configurações do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Define a respectiva dimensão de [Propriedade](../../components/dimensions/prop.md). |
-| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Aplica a [serialização de eventos](../vars/page-vars/events/event-serialization.md) à respectiva métrica de [Eventos personalizados. ](../../components/metrics/custom-events.md) Cada ID de evento reside em seu pai de 100 grupos. Por exemplo, para aplicar serialização a `event678`, use `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Aumenta a respectiva métrica de [Eventos personalizados](../../components/metrics/custom-events.md) na quantidade desejada. Cada evento reside em seu pai de 100 grupos. Por exemplo, o campo para `event567` é `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) aos respectivos [Eventos personalizados](../../components/metrics/custom-events.md) métrica. Cada ID de evento reside em seu pai de 100 grupos. Por exemplo, para aplicar serialização a `event678`, use `_experience.analytics.event601to700.event678.id`. |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa os respectivos [Eventos personalizados](../../components/metrics/custom-events.md) pela quantidade desejada. Cada evento reside em seu pai de 100 grupos. Por exemplo, o campo para `event567` é `_experience.analytics.event501to600.event567.value`. |
 | `identityMap.ECID[0].id` | A [ID do serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). |
 | `marketing.trackingCode` | Define a dimensão [Código de rastreamento](../../components/dimensions/tracking-code.md). |
 | `media.mediaTimed.completes.value` | A métrica [Conteúdo concluído](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-complete) do Media Analytics. |
@@ -110,7 +110,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | `placeContext.geo._schema.longitude` | A longitude da dimensão móvel. |
 | `placeContext.geo.postalCode` | A dimensão [Código postal](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | A dimensão [Estados dos Estados Unidos](../../components/dimensions/us-states.md). |
-| `placeContext.localTime` | Ajuda a preencher [Fusos horários](/help/analyze/reports-analytics/reports.md) no Reports &amp; Analytics. Aparece como `t_time_info` nos [feeds de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
+| `placeContext.localTime` | Aparece como `t_time_info` nos [feeds de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eventos. |
 | `productListItems[].productCategories[].categoryID` | A dimensão [Categoria](../../components/dimensions/category.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |

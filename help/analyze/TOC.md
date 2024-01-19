@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder e o Activity Map.
-source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
+source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1008'
 ht-degree: 99%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 99%
       + [Visão geral da Detecção de anomalias](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Exibir anomalias no Analysis Workspace](analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [Desativar a detecção de anomalias](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
-      + [Executar análise de contribuição](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [Executar Análise de contribuição](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [Técnicas estatísticas usadas na Detecção de anomalias](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + Alertas inteligentes {#intelligent-alerts}
          + [Visão geral de Alertas inteligentes](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
@@ -304,35 +304,6 @@ ht-degree: 99%
    + [Relatórios do Activity Map no Analytics](activity-map/activitymap-reporting-analytics.md)
    + [Solução de problemas da extensão do navegador](activity-map/troubleshooting-browser-extensions.md)
    + [Solução de problemas de coleta de dados](activity-map/troubleshoot-data-collection.md)
-+ Reports and Analytics {#reports-analytics}
-   + [Introdução ao Reports and Analytics](reports-analytics/getting-started.md)
-   + Visão geral da interface de relatórios {#reporting-interface}
-      + [Sobre a coleta de dados](reports-analytics/overview/overview-data-collection.md)
-      + [Menu de relatórios](reports-analytics/overview/reports-menu.md)
-      + [Recursos do relatório](reports-analytics/overview/report-overview.md)
-   + [Configurações e navegação da exibição de relatórios](reports-analytics/report-settings.md)
-   + [Agendamento e distribuição de relatórios](reports-analytics/scheduling.md)
-   + [Aviso de fim de vida útil para relatórios agendados](reports-analytics/scheduled-reports-eol.md)
-   + [Tipos de relatórios](reports-analytics/reports.md)
-   + [Executar tipos de relatórios diferentes](reports-analytics/t-running-report-types.md)
-   + Personalizar relatórios {#customize-reports}
-      + [Visão geral de Personalizar relatórios](reports-analytics/reports-customize/customizing-reports-overview.md)
-      + [Alterar gráficos de relatórios](reports-analytics/reports-customize/t-reports-graphs.md)
-      + [Detalhamentos](reports-analytics/reports-customize/breakdowns.md)
-      + [Sub-relações](reports-analytics/reports-customize/subrelations.md)
-      + [Filtro de dados de relatório](reports-analytics/reports-customize/t-reports-filter-options.md)
-   + [Segmentação do Analytics](reports-analytics/segmentation.md)
-   + [Gerenciador de marcador](reports-analytics/bookmarks.md)
-   + [Dados atuais](reports-analytics/current-data.md)
-   + [Painéis e reportlets](reports-analytics/dashboard.md)
-   + [Gerenciador do painel](reports-analytics/dashboard-manage.md)
-   + [Relatórios de funil](reports-analytics/funnels.md)
-   + [Métricas](reports-analytics/metrics.md)
-   + [Metas](reports-analytics/targets.md)
-   + [Alertas](reports-analytics/alerts.md)
-   + [Eventos de calendário](reports-analytics/t-calendar-event.md)
-   + [Perguntas frequentes](reports-analytics/frequently-asked-questions.md)
-   + [Solução de problemas](reports-analytics/report-troubleshooting.md)
 + Painéis do Adobe Analytics {#mobapp}
    + [Painéis do Adobe Analytics - Visão geral](mobile-app/home.md)
    + [Apresentação do curador](mobile-app/curator.md)
