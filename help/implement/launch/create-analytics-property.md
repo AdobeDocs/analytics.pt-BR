@@ -1,12 +1,12 @@
 ---
 title: Criar uma propriedade do Analytics em tags
 description: Crie um espaço para personalizar como os dados são coletados, usando tags.
-feature: Launch Implementation
+feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '500'
+ht-degree: 97%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 As tags na Adobe Experience Platform permitem integrar soluções da Experience Cloud em seu site (incluindo o Analytics). Esta página descreve especificamente como um administrador de tags pode configurar uma implementação básica do Adobe Analytics corretamente.
 
-## Pré-requisitos
+## Pré-requisitos 
 
-[Criar um conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): criar um silo para que os dados do Analytics sejam coletados..
+[Criar um conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): crie um silo para que os dados do Analytics sejam coletados.
 
 ## Criar uma propriedade de tag e instalar extensões essenciais
 
@@ -47,9 +47,9 @@ Os elementos de dados são referências a partes específicas do site para colet
    * Tipo de elemento de dados: variável JavaScript
    * Nome da variável JavaScript: `window.document.title`
 
-      >[!NOTE]
-      >
-      >Esse valor serve como exemplo para ajudar a começar. Se sua empresa definir um valor melhor para o nome da página, como um valor de camada de dados, você pode inseri-lo aqui.
+     >[!NOTE]
+     >
+     >Esse valor serve como exemplo para ajudar a começar. Se sua empresa definir um valor melhor para o nome da página, como um valor de camada de dados, você pode inseri-lo aqui.
    * Limpar texto marcado
    * Duração do armazenamento: nenhum
 1. Clique em **[!UICONTROL Salvar]**.

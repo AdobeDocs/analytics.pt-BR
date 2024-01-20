@@ -1,9 +1,9 @@
 ---
 title: Validar uma implementação de desenvolvimento e publicar na produção
 description: Saiba como usar tags da Adobe Experience Platform para implantar o Adobe Analytics no ambiente de produção.
-feature: Launch Implementation
+feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 72%
