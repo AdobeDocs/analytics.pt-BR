@@ -3,10 +3,10 @@ title: Compatibilidade de dimensões do Analytics
 description: Referência para dimensões e relatórios do Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,7 @@ Esta página lista [dimensões](overview.md) compatíveis com seus respectivos r
 >
 >Nomes personalizados de variáveis, classificações e atributos de visitante são omitidos nesta lista. Esses itens de dimensão são específicos de conjuntos de relatórios individuais.
 
->[!NOTE]
->
->Há algumas sobreposições nas quais as ferramentas do Analytics usam termos diferentes para dimensões semelhantes. Por exemplo, Reports &amp; Analytics usa `browserwidth` e o Analysis Workspace usa `browserwidthbucketed`.
-
-## Dimensões compatíveis com o Reports &amp; Analytics e a Analysis Workspace
+## Dimension compatível com o Analysis Workspace
 
 | Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
 |---|---|
@@ -101,11 +97,6 @@ Esta página lista [dimensões](overview.md) compatíveis com seus respectivos r
 | Profundidade da visita | `pathlength` |
 | Número da visita | `visitnumber` |
 | Código postal | `zip` |
-
-## Dimensões compatíveis somente com o Analysis Workspace
-
-| Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
-|--- |--- |
 | AM/PM | `timepartampm` |
 | Altura do navegador - Classificada | `browserheightbucketed` |
 | Largura do navegador - Classificada | `browserwidthbucketed` |
@@ -164,24 +155,7 @@ Esta página lista [dimensões](overview.md) compatíveis com seus respectivos r
 | Ativo de canal Nielsen | `nielsenchannelasset` |
 | Tipo de conteúdo Nielsen | `nielsencontenttype` |
 
-## Dimensões compatíveis somente com o Reports &amp; Analytics
-
-| Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
-|--- |--- |
-| Altura da janela do navegador | `browserheight` |
-| Largura da janela do navegador | `browserwidth` |
-| Clientes únicos diários | `dailyuniquecustomers` |
-| JavaScript | `javascriptsupport` |
-| Versão do JavaScript | `javascriptversion` |
-| Clientes únicos mensais | `monthlyuniquecustomers` |
-| Clientes únicos trimestrais | `quarterlyuniquecustomers` |
-| Fusos horários | `timezone` |
-| Domínios de nível superior | `topleveldomain` |
-| Estado do visitante | `legacystate` |
-| Clientes únicos semanais | `weeklyuniquecustomers` |
-| Clientes únicos anuais | `yearlyuniquecustomers` |
-
-## Dimensões com reconhecimento de conteúdo compatíveis com o Reports &amp; Analytics e o Analysis Workspace
+## Dimensões com reconhecimento de conteúdo compatíveis com o Analysis Workspace
 
 ### Vídeo (Análise de mídia)
 

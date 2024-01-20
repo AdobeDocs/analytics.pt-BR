@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Protocolo de transferência segura de arquivo - visão geral
 feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: 04ece4265ff270cc221a79def9494a95d0fdbb0e
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 88%
 
 ---
 
@@ -21,11 +21,7 @@ Isto significa que os servidores da Adobe “forçam” o envio do arquivo para 
 
 O [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) e o [Feed de dados do Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=pt-BR) podem enviar dados por SFTP.
 
-As ferramentas do Analytics a seguir **não podem** enviar dados via SFTP:
-
-* Reports &amp; Analytics
-* Ad Hoc Analysis
-* Report Builder
+Report Builder **não é possível** enviar dados via SFTP.
 
 ## Envio próprio {#section_FA29FAEF02FE40B8B32452146A036F48}
 

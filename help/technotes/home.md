@@ -2,10 +2,10 @@
 title: Notas técnicas do Analytics
 description: Este guia fornece informações úteis sobre tópicos que não pertencem a uma ferramenta ou componente de análise específico.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-feature: Attribution, Visualizations, Reports & Analytics Basics, Segmentation, Real-time
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+feature: Attribution, Visualizations, Segmentation, Real-time
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---

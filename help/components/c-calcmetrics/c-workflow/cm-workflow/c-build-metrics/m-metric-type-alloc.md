@@ -3,10 +3,10 @@ description: Saiba mais sobre
 title: Atribuição e tipo de métrica
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 75%
+source-wordcount: '383'
+ht-degree: 69%
 
 ---
 
@@ -46,9 +46,3 @@ O exemplo a seguir ilustra como as métricas calculadas com alocações lineares
 
 Neste exemplo, os valores A, B e C foram enviados para uma variável nas ocorrências 1, 3, 4 e 6 antes de uma compra de US$10 ser feita na ocorrência 7. Na segunda linha, esses valores persistem entre as ocorrências com base na visita do último contato. A terceira linha ilustra uma persistência na visita do primeiro contato. Por fim, a última linha ilustra como os dados seriam relatados para uma propriedade que não tenha persistência.
 
-## Diferenças em como a alocação linear funciona no Reports &amp; Analytics e no Workspace
-
-Há algumas diferenças em como a atribuição linear funciona nessas duas ferramentas:
-
-* No Reports &amp; Analytics, a atribuição linear (processada) sempre é baseada em visitas, e no Workspace pode ser baseada em visitas ou visitantes.
-* No Reports &amp; Analytics, se o valor Nenhum fosse transmitido na primeira ocorrência de uma visita, o valor (inicial) persistiria da visita anterior. Esse NÃO é o caso no Workspace (Attribution). Se nenhum valor for transmitido na primeira ocorrência de uma visita, “Nenhum” será o valor inicial.

@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre o gerenciamento de segmentos herdados.
 title: Perguntas frequentes sobre segmentos herdados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 91%
+source-wordcount: '1445'
+ht-degree: 87%
 
 ---
 
@@ -44,7 +44,7 @@ Você tem um marcador que faz referência ao segmento para o conjunto de relató
 
 +++ **O que aconteceu com os segmentos do Data Warehouse?**
 
-Todos os segmentos existentes no Data Warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionarão em outros componentes, como o Analysis Workspace, a e o Reports &amp; Analytics.
+Todos os segmentos existentes no Data Warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionarão em outros componentes, como o Analysis Workspace.
 
 Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/construtor de segmentos. O mecanismo de Compatibilidade do produto no Construtor de segmentos determina automaticamente se um segmento é compatível com o Data Warehouse.
 
@@ -58,7 +58,7 @@ Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/cons
 * **Visitantes da pesquisa paga**
 * **Visitantes com cookie de ID do visitante**
 
-Esses segmentos serão transferidos como modelos de segmento no Construtor de segmentos. Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
+Esses segmentos serão migrados como modelos de segmentos no Construtor de segmentos. Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
 
 +++
 
@@ -104,7 +104,7 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 * Analise todos os seus segmentos.
 * Quando apropriado, adicione-os à biblioteca de segmentos.
 * Aprovar segmentos canônicos.
-* Marcar segmentos de acordo com as [práticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Marcar segmentos de acordo com [práticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 

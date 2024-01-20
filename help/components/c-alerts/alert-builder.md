@@ -3,10 +3,10 @@ description: Use alertas no Analysis Workspace.
 title: Visão geral do Criador de alertas
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 99%
+source-wordcount: '463'
+ht-degree: 97%
 
 ---
 
@@ -16,14 +16,13 @@ ht-degree: 99%
 >
 >Os alertas inteligentes estão disponíveis somente para clientes do Adobe [!DNL Analytics] Prime e do Adobe [!DNL Analytics] Ultimate.
 
-Acesse o Criador de alertas de uma das seguintes formas:
+Acesse o Criador de alertas de uma das três formas a seguir:
 
 * Usando o seguinte atalho no Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * Acessando **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Novo alerta]**.
 * Selecionando um ou mais itens de linha da tabela de forma livre, clicando com o botão direito do mouse e selecionando **[!UICONTROL Criar alerta a partir da seleção]**.
-* A partir de um relatório do [!UICONTROL Reports &amp; Analytics], acessando **[!UICONTROL Mais]** > **[!UICONTROL Adicionar alerta]**.
 
 A interface do Criador de alertas é semelhante àquela que cria segmentos ou métricas calculadas no [!DNL Analytics]:
 
@@ -59,7 +58,7 @@ Defina a data de expiração do alerta.
 
 * Arraste e solte métricas na tela que adicionará disparadores.
 
-   Observe que uma mensagem **&quot;componentes incompatíveis&quot;** será exibida se nem todos os componentes (métricas/dimensões/segmentos) no alerta forem compatíveis com o conjunto de relatórios selecionado atualmente.
+  Observe que uma mensagem **&quot;componentes incompatíveis&quot;** será exibida se nem todos os componentes (métricas/dimensões/segmentos) no alerta forem compatíveis com o conjunto de relatórios selecionado atualmente.
 
 * Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:
 

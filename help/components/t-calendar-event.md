@@ -1,15 +1,15 @@
 ---
 description: Etapas para adicionar eventos de calendário e gerenciar eventos compartilhados.
-title: Eventos de calendário visão geral
+title: Visão geral dos eventos de calendário
 feature: Reports & Analytics Basics
-uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 92%
 
 ---
+
 
 # Eventos de calendário
 
@@ -19,7 +19,7 @@ Etapas para adicionar eventos de calendário e gerenciar eventos compartilhados.
 >
 >Para garantir o melhor desempenho do relatório, os 20 eventos mais recentes do calendário serão exibidos em gráficos de tendências e de horas extras.
 
-Para relatórios de tendências ao longo de um período, você pode exibir graficamente os eventos e verificar se as campanhas ou outros eventos têm afetado seu tráfego local, a receita, ou qualquer outra métrica. O processo de criação de um calendário de eventos envolve atribuir um nome ao evento, definir as datas, adicionar notas e definir um ícone. Por exemplo, se você usar o Social, é possível criar um evento de calendário para mostrar que havia uma correlação entre o aumento do tráfego do site e a menção de um produto por uma celebridade usando o Twitter.
+Para relatórios de tendências ao longo de um período, você pode exibir graficamente os eventos e verificar se as campanhas ou outros eventos têm afetado seu tráfego local, a receita, ou qualquer outra métrica. O processo de configurar um evento de calendário envolve nomear o evento, definir as datas, adicionar observações e definir um ícone. Por exemplo, se você usar o Social, é possível criar um evento de calendário para mostrar que havia uma correlação entre o aumento do tráfego do site e a menção de um produto por uma celebridade usando o Twitter.
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Eventos de calendário]**.
 1. Clique em **[!UICONTROL Adicionar novo]**.

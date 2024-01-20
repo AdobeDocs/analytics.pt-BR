@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
-workflow-type: ht
-source-wordcount: '3671'
-ht-degree: 100%
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '3897'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`color`** | ID de Intensidade de cor com base no valor da coluna `c_color`. Faz referência à tabela de pesquisa `color_depth.tsv`. | smallint unsigned |
 | **`connection_type`** | ID numérica que representa o tipo de conexão. Variável usada na dimensão [Tipo de conexão](/help/components/dimensions/connection-type.md). Faz referência à tabela de pesquisa `connection_type.tsv`. | tinyint unsigned |
 | **`cookies`** | Variável usada na dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md).<br>Y: Ativado<br>N: Desativado<br>U: Desconhecido | char(1) |
-| **`country`** | ID numérica que representa os valores encontrados na pesquisa por `country.tsv`. Usado no relatório Domínios de nível superior no Reports &amp; Analytics. | smallint unsigned |
+| **`country`** | ID numérica que representa os valores encontrados na variável `country.tsv` pesquisa. | smallint unsigned |
 | **`ct_connect_type`** | Relacionado à coluna `connection_type`. Os valores mais comuns são LAN/Wifi, Operadora de celular e Modem. | char(20) |
 | **`curr_factor`** | Determina a posição decimal da moeda e é usado para conversão de moedas. Por exemplo, USD usa duas casas decimais, portanto o valor dessa coluna seria 2. | tinyint |
 | **`curr_rate`** | A taxa de câmbio de quando a transação ocorreu. A Adobe formou uma parceria com a XE para determinar a taxa de câmbio atual. | decimal(24,12) |
@@ -112,10 +112,10 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`mcvisid`** | ID de visitante da Experience Cloud. Número de 128 bits que consiste em dois números concatenados de 64 bits arredondados para 19 dígitos. | varchar(255) |
 | **`mobile_id`** | Se o(a) visitante estiver usando um dispositivo móvel, o ID numérico do dispositivo. O valor-chave da [pesquisa dinâmica](dynamic-lookups.md) `mobile_attributes.tsv`. | int |
 | **`mobileaction`** | Ação em dispositivo móvel. Coletado automaticamente quando `trackAction` é chamado no Mobile Services. Permite a criação de caminhos de ação automática no aplicativo. | varchar(100) |
-| **`mobileappid`** | ID do aplicativo móvel. Armazena o nome e a versão do aplicativo no seguinte formato:  `[AppName] [BundleVersion]` | varchar(255) |
+| **`mobileappid`** | ID do aplicativo móvel. Armazena o nome e a versão do aplicativo no seguinte formato: `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Usado no conector de dados Apteligent. O ID do aplicativo usado no Apteligent. | varchar(255) |
 | **`mobileappperformancecrashid`** | Usado no conector de dados Apteligent. O ID de falha usado no Apteligent. | varchar(255) |
-| **`mobileappstoreobjectid`** | Usado no conector de dados Appfigures. App Store Object ID. | varchar(255) |
+| **`mobileappstoreobjectid`** | Usado no conector de dados Appfigures. ID do objeto da loja de aplicativos. | varchar(255) |
 | **`mobilebeaconmajor`** | Beacon do Mobile Services maior | varchar(100) |
 | **`mobilebeaconminor`** | Beacon do Mobile Services menor | varchar(100) |
 | **`mobilebeaconproximity`** | Proximidade de beacon do Mobile Services | varchar(255) |

@@ -4,10 +4,10 @@ keywords: Conjunto de relatórios virtuais
 title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 86%
+source-wordcount: '1652'
+ht-degree: 85%
 
 ---
 
@@ -30,12 +30,6 @@ Tenha as seguintes considerações em mente ao determinar se deve usar a marcaç
 O compartilhamento de segmentos na Adobe Experience Cloud não é suportado para os conjuntos de relatórios virtuais. Os usuários que desejam compartilhar um segmento na Experience Cloud devem ter acesso ao conjunto de relatórios de origem.
 
 Os segmentos ainda não podem ser publicados na Adobe Experience Cloud a partir de um conjunto de relatórios virtual para personalização e marcação. Todos os usuários que publicam segmentos precisam acessar o conjunto de relatórios de origem para este propósito. Por exemplo, seus usuários podem ter acesso somente a dados de suas regiões geográficas, mas você quer que eles consigam criar e compartilhar segmentos a partir do Adobe Analytics na Adobe Experience Cloud para direcionamento no Adobe Target. Nesse caso, a Adobe recomenda usar marcação de vários conjuntos. Se você não se importar com o acesso dos usuários ao conjunto de relatórios global ou se não precisar publicar segmentos para uso em outras soluções, os conjuntos de relatórios virtuais poderão ser usados.
-
-### Dados atuais e em tempo real
-
-Os relatórios em tempo real não são suportados nos conjuntos de relatórios virtuais, pois os dados são segmentados. Dados atuais não é compatível com os conjuntos de relatórios virtuais, pois eles não suportam segmentação. Ambos os recursos são específicos do Reports &amp; Analytics.
-
-[Relatórios em tempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) e [Dados atuais](/help/technotes/latency.md) não estão disponíveis nos conjuntos de relatórios virtuais. Isso afeta os usuários que respondem às tendências observadas no Reports &amp; Analytics em segundos ou alguns minutos de coleta de dados. Por exemplo, isso poderia incluir editores em uma sala de notícias que ajustam manchetes com base no consumo de conteúdo em tempo real. Considere usar a marcação de vários conjuntos se tiver necessidades significativas de dados em tempo real específicas para conjuntos de relatórios individuais. Os dados atuais e em tempo real ainda podem ser usados no conjunto de relatórios global.
 
 ### Limites únicos
 

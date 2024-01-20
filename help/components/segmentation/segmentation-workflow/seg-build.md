@@ -3,10 +3,10 @@ description: O Construtor de segmentos fornece uma tela para arrastar e soltar D
 title: Construir segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2054'
-ht-degree: 99%
+source-wordcount: '1974'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,6 @@ Há várias maneiras de acessar o Construtor de segmentos:
 
 * **Navegação superior do Analytics**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
 * **[!UICONTROL Analysis Workspace]**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, abra um projeto e clique em **[!UICONTROL + Novo]** > **[!UICONTROL Criar segmento]**.
-* **[!UICONTROL Reports &amp; Analytics]**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**, abra um relatório existente e clique no ícone de Segmentos ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) na navegação à esquerda e, em seguida, clique em **[!UICONTROL Adicionar]**.
 * **[!UICONTROL Report Builder]**: [adicionar ou editar segmentos no Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=pt-BR).
 
 ## Critérios do construtor {#section_F61C4268A5974C788629399ADE1E6E7C}
@@ -68,10 +67,9 @@ Há várias maneiras de acessar o Construtor de segmentos:
 1. **[!UICONTROL Segmentos]**: clique no cabeçalho para expandir.
 1. **[!UICONTROL Seletor do conjunto de relatórios]**: permite selecionar o conjunto de relatórios em que esse segmento será salvo. Você ainda pode utilizar o segmento em todos os conjuntos de relatórios.
 1. **[!UICONTROL Visualização de segmento]**: permite que você visualize as métricas principais para conferir se você tem um segmento válido e a amplitude deste. Represente o detalhamento do conjunto de dados que você pode esperar ao aplicar esse segmento. Mostra 3 círculos concêntricos e uma lista para mostrar o número e o percentual de correspondências para [!UICONTROL Ocorrências], [!UICONTROL Visitas] e [!UICONTROL Visitantes] para uma execução de segmentos em comparação ao conjunto de dados. Esse gráfico é atualizado imediatamente depois de criar ou efetuar alterações para sua definição de segmento.
-1. **[!UICONTROL Compatibilidade de produto]**: fornece uma lista de quais produtos do Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Data Warehouse) são compatíveis com o segmento que você criou. A maioria dos segmentos são compatíveis com todos os produtos. Contudo, nem todos os operadores e dimensões são compatíveis com todos os produtos Analytics, especialmente o [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Esse gráfico é atualizado imediatamente depois de efetuar alterações na definição do segmento.
+1. **[!UICONTROL Compatibilidade do produto]**: fornece uma lista de quais produtos do Adobe Analytics (Analysis Workspace, Data Warehouse) são compatíveis com o segmento que você criou. A maioria dos segmentos são compatíveis com todos os produtos. No entanto, nem todos os operadores e dimensões são compatíveis com todos os produtos do Analytics, especialmente o [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Esse gráfico é atualizado imediatamente depois de efetuar alterações na definição do segmento.
 1. **[!UICONTROL Salvar]** ou **[!UICONTROL Cancelar]**: salva ou cancela o segmento. Depois de clicar em **[!UICONTROL Salvar]**, você é levado para o Gerenciador de segmentos onde é possível gerenciar o segmento.
 
-Segmentos com intervalos de datas incorporados continuarão a operar de forma diferente na Analysis Workspace com relação ao [!UICONTROL Reports &amp; Analytics]: na Workspace, um segmento com um intervalo de datas inserido substitui o intervalo de datas do painel. Ao contrário, o [!UICONTROL Reports &amp; Analytics] gera a interseção entre intervalo de datas do relatório e o intervalo de datas inserido do segmento.
 
 ## Construir segmentos {#build-segments}
 
@@ -85,7 +83,7 @@ Segmentos com intervalos de datas incorporados continuarão a operar de forma di
 1. Digite ou selecione um valor para o item selecionado.
 1. Adicione contêineres adicionar se necessário, com as regras **[!UICONTROL AND]**, **[!UICONTROL OR]**, ou **[!UICONTROL THEN]**.
 1. Depois de colocar os contêineres e definir as regras, consulte os resultados do segmento no gráfico de validação na parte superior à direita. O validador indica o percentual e o número absoluto de visualizações de página, visitas e visitantes únicos que corresponde ao segmento criado.
-1. Em **[!UICONTROL Tags]**, [marque](/help/components/segmentation/segmentation-workflow/seg-tag.md) o contêiner ao selecionar uma tag existente ou cria uma nova.
+1. Em **[!UICONTROL Tags]**, [tag](/help/components/segmentation/segmentation-workflow/seg-tag.md) o contêiner ao selecionar uma tag existente ou cria uma nova.
 1. Clique em **[!UICONTROL Salvar]** para salvar o segmento.
 
 Agora você é levado ao [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md), onde é possível marcar, compartilhar e gerenciar o segmento de várias maneiras.

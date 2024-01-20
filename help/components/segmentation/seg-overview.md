@@ -3,10 +3,10 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 70%
+source-wordcount: '1148'
+ht-degree: 67%
 
 ---
 
@@ -16,9 +16,9 @@ Os segmentos permitem que você identifique subconjuntos de visitantes com base 
 
 Os segmentos são baseados em um [!UICONTROL Visitante], [!UICONTROL Visita], e [!UICONTROL Hit] hierarquia de nível usando um modelo de container aninhado. Os contêineres aninhados permitem que você defina atributos de visitante e ações com base em regras entre e nos contêineres. Segmentos do Analytics podem ser construídos, aprovados, compartilhados, salvos e executados em vários produtos e recursos da [!DNL Adobe Experience Cloud]. Os segmentos podem ser gerados a partir de um relatório, construído em um relatório de painel, ou marcado para acesso rápido.
 
-Você pode criar e salvar segmentos no Construtor de segmentos ou gerar segmentos de um relatório de fallout (no  Analysis Workspace). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre contêineres aninhados, o que lhe permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntamente como [segmentos empilhados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Você pode criar e salvar segmentos no Construtor de segmentos ou gerar segmentos de um relatório de fallout (no  Analysis Workspace). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre contêineres aninhados, o que lhe permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntos como [segmentos empilhados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-Segmentos identificar
+Os segmentos identificam
 
 - quem são seus visitantes (país, gênero, cafeteria),
 - quais dispositivos e serviços eles usam (navegador, mecanismo de pesquisa, dispositivo móvel),
@@ -116,7 +116,7 @@ Esse tipo de conjunto de dados de filtros de segmento com base em característic
 - Você pode criar [Segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 - A variável [!UICONTROL Exibição da página] o contêiner agora é o [!UICONTROL Hit] contêiner para indicar que esse contêiner segmenta todos os tipos de dados e não apenas as exibições de página. Por exemplo, chamadas de rastreamento de link e chamadas trackAction de SDKs móveis são todas incluídas ou excluídas pelo contêiner de ocorrências.
 
-## Segmentação na Analysis Workspace
+## Segmentação no Analysis Workspace
 
 O Analysis Workspace contém estes recursos adicionais:
 
@@ -282,7 +282,7 @@ Os administradores podem editar qualquer segmento e compartilhar segmentos com g
 
 +++ **É possível visualizar todos os segmentos na minha empresa?**
 
-Sim, administradores podem visualizar todos os segmentos nas interfaces do usuário do [!DNL Analysis Workspace] e do [!DNL Reports & Analytics].
+Sim, administradores podem visualizar todos os segmentos na [!DNL Analysis Workspace] interface do usuário.
 
 O Report Builder exibe os segmentos que você possui e os segmentos compartilhados com você.
 
@@ -292,7 +292,7 @@ O Report Builder exibe os segmentos que você possui e os segmentos compartilhad
 
 Sim, todos os segmentos podem ser gerenciados no Gerenciador de segmentos. O Gerenciador de segmentos exibe segmentos que são visíveis para o proprietário (usuário que criou o segmento), usuários compartilhados e usuários administradores. O seletor de segmentos exibe segmentos de propriedade e compartilhados com o usuário.
 
-Administradores podem visualizar todos os segmentos nas interfaces do usuário da Analysis Workspace e do [!DNL Reports & Analytics].
+Administradores podem visualizar todos os segmentos na interface do usuário do Analysis Workspace.
 
 O Report Builder só exibe segmentos criados por você ou que tenham sido compartilhados especificamente com você.
 

@@ -3,9 +3,9 @@ title: Visitantes únicos
 description: O número de IDs de visitantes únicos.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: ht
-source-wordcount: '556'
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ A [métrica](overview.md) “Visitantes únicos” mostra o número de IDs de vi
 Se você usar [Análise entre dispositivos](../cda/overview.md), essa métrica será substituída pela métrica [Dispositivos exclusivos](unique-devices.md).
 
 ## Visitantes únicos diários, semanais, mensais, trimestrais e anuais
-
-O Reports &amp; Analytics fornece opções para visitantes únicos diários, semanais, mensais, trimestrais e anuais. Em vez de contar um visitante único exclusivo para todo o período de tempo, visitantes únicos são contados com base na métrica selecionada. Por exemplo, você quer observar visitantes únicos diários do site. Se um visitante chegar ao seu site de manhã e de noite, ele será contado como um único visitante diário. Se um visitante vier ao seu site na segunda-feira e novamente na terça-feira, ele será contado como dois visitantes únicos diários.
 
 O Analysis Workspace trata visitantes únicos com base na granularidade do relatório. Por exemplo, se você usar a dimensão [Dia](../dimensions/day.md), verá visitantes únicos diários para cada item de dimensão. No entanto, para o total do relatório, ele é desduplicado em visitantes únicos para o intervalo de datas da tabela de forma livre.
 

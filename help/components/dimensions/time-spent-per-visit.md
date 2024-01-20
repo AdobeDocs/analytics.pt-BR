@@ -3,16 +3,16 @@ title: Tempo gasto por visita (dimensões)
 description: A quantidade total de tempo da visita.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 98%
+source-wordcount: '302'
+ht-degree: 91%
 
 ---
 
 # Tempo gasto por visita
 
-*[Esta página de ajuda descreve como o “Tempo gasto por visita” funciona como suas respectivas dimensões](overview.md). Consulte a métrica [Tempo gasto por visita](../metrics/time-spent-per-visit.md) para obter mais informações.*
+*Esta página de ajuda descreve como o &quot;Tempo gasto por visita&quot; funciona como sua respectiva [dimensões](overview.md). Consulte a métrica [Tempo gasto por visita](../metrics/time-spent-per-visit.md) para obter mais informações.*
 
 As dimensões “Tempo gasto por visita” registram o tempo que um visitante gastou em toda a visita. As seguintes etapas são utilizadas para medir o cálculo:
 
@@ -39,6 +39,6 @@ Essas dimensões funcionam imediatamente para todas as implementações. Se um c
 Existem várias dimensões para o tempo gasto por visita:
 
 * **Tempo gasto por visita - classificado**: a quantidade de tempo é classificada. Os itens de dimensão variam de `"Less than 1 minute"` a `"More than 15 hours"`. As visitas normalmente não duram mais de 12 horas; no entanto, as visitas podem exceder 12 horas se estiverem usando ocorrências com carimbo de data e hora ou fontes de dados.
-* **Tempo gasto por visita - granular**: cada número de segundos é um item de dimensão exclusivo. Essa dimensão não está disponível no Reports &amp; Analytics ou Data Warehouse.
+* **Tempo gasto por visita - granular**: cada número de segundos é um item de dimensão exclusivo. Essa dimensão não está disponível no Data Warehouse.
 
 Consulte [Visão geral do tempo gasto](../metrics/time-spent.md) para obter mais informações gerais sobre o tempo gasto.

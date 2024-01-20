@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ Sim. As [colunas de dados](/help/export/analytics-data-feed/c-df-contents/datafe
 +++
 
 +++Os segmentos funcionam no modo Online?
-Não, os segmentos não funcionam no modo Online. A funcionalidade é equivalente à dos relatórios em tempo real no Reports &amp; Analytics, que não oferecem suporte à segmentação.
+Não, os segmentos não funcionam no modo Online.
 +++
 
 +++O Activity Map é compatível com os conjuntos de relatórios virtuais?
@@ -89,9 +89,9 @@ Existem três opções:
 * Exclua a função `AppMeasurement_Module_ActivityMap` do arquivo JS
 * Adicione um código personalizado que substitua a função acima por um corpo vazio, por exemplo:
 
-   ```js
-   function AppMeasurement_Module_ActivityMap() {}
-   ```
+  ```js
+  function AppMeasurement_Module_ActivityMap() {}
+  ```
 
 * Configurar o AppMeasurement definindo `s.trackClickMap` e `s.trackInlineStats` para `false`
 +++

@@ -3,10 +3,10 @@ title: Comunicar o impacto aos usuários
 description: Saiba mais sobre maneiras eficazes de comunicar o impacto de um evento em sua organização.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 4%
+source-wordcount: '346'
+ht-degree: 1%
 
 ---
 
@@ -55,14 +55,5 @@ Para qualquer visualização de tendência no Workspace, você pode adicionar um
 
 1. Adicione uma visualização de Linha. Os dias afetados são representados com uma cor diferente. Os usuários também podem clicar no ícone &quot;Informações&quot; na métrica calculada para obter mais informações.
 
-   ![Ícone de informação](assets/calcmetric_infoicon.png)
+   ![Ícone de informações](assets/calcmetric_infoicon.png)
 
-## Usar um evento de calendário no Reports &amp; Analytics
-
-Se você usa o Reports &amp; Analytics, é possível usar um [evento de calendário](/help/components/t-calendar-event.md) para destacar os dias afetados em qualquer relatório de tendências. Esse método não se aplica ao Analysis Workspace.
-
-1. Navegue até **[!UICONTROL Componentes]** > **[!UICONTROL Todos os componentes]** > **[!UICONTROL Eventos de calendário]**.
-2. Insira o título, o intervalo de datas e o texto da nota desejados.
-3. Clique em **[!UICONTROL Salvar]**.
-
-![Evento de calendário](assets/exclude_calendar_event.png)

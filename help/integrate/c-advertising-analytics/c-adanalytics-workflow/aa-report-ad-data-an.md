@@ -1,18 +1,18 @@
 ---
-description: Detalhes sobre o modelo da Analysis Workspace e relatórios nos Reports & Analytics e no Report Builder.
+description: Detalhes sobre o modelo do Analysis Workspace e relatórios no Report Builder.
 title: Relatório sobre dados de publicidade no Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 92%
 
 ---
 
 # Relatório sobre dados de publicidade no Adobe Analytics
 
-Detalhes sobre o modelo da Analysis Workspace e relatórios nos Reports &amp; Analytics e no Report Builder.
+Detalhes sobre o modelo do Analysis Workspace e relatórios no Report Builder.
 
 >[!NOTE]
 >
@@ -43,12 +43,6 @@ Este modelo permite que qualquer um que implemente esta integração do mecanism
 | Totais de publicidade | Tabela em forma livre das publicidades principais detalhadas pelas métricas associadas. |
 | Palavras-chave | Gráfico de dispersão de impressões, cliques e custo de todas as combinações de palavra-chave/tipo de correspondência. |
 | Totais de palavra-chave | Tabela em forma livre das combinações de palavra-chave/tipo de correspondência principais detalhadas pelas métricas associadas. |
-
-## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
-
-Assim que tiver configurado uma conta publicitária, o relatório do Advertising Analytics será disponibilizado.
-
-![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

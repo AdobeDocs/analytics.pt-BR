@@ -4,10 +4,10 @@ keywords: Métricas calculadas, Métricas derivadas, Métricas calculadas avanç
 title: Métricas calculadas e calculadas avançadas (derivadas)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 82%
+source-wordcount: '542'
+ht-degree: 59%
 
 ---
 
@@ -58,55 +58,15 @@ Alguns recursos do [!DNL Analytics] permitem usar eventos, mas não permitem usa
 * [!UICONTROL Análise de coorte] na Analysis Workspace
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL Segmentos]
-* [!UICONTROL Relatórios em Tempo real]
-* [!UICONTROL Relatórios de Dados atuais]
 * [!DNL Analytics] for [!DNL Target]
 
 ## Ferramentas {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
 Esta é uma breve visão geral do [!UICONTROL Métricas calculadas] ferramentas:
 
-<table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Ferramenta </th> 
-   <th colname="col2" class="entry"> Capacidades </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  > Criador de métricas calculada</a> </td> 
-   <td colname="col2"> 
-    <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
-     <li id="li_A4A6E716374243A190C539A3F4A41C0C">Crie métricas calculadas e avançadas usando modelos de alocação avançados. </li> 
-     <li id="li_C8C97BA4E227463E98077ABA5818FFC6">Adicionar segmentos em linha às fórmulas de métricas. </li> 
-     <li id="li_8503D9E06A3C46569B5CDB4B90F72446">Comparar segmentos em um mesmo relatório. É possível, por exemplo, comparar visitantes locais com visitantes internacionais. </li> 
-     <li id="li_4B528FDE1F96400DBA0D3276408FF919">Usar funções estatísticas. </li> 
-     <li id="li_C1162B1EA6784B8189A8A87E2B0DA79A">Fornecer descrições de métricas detalhadas (mostrar o que ela faz, quando usá-la, quando NÃO usá-la). </li> 
-     <li id="li_DEA13F5E8BF94AF1B311C467FE6E2A74">Copiar definições em novas métricas. </li> 
-     <li id="li_8C21F55015D44910904202D2BF74221C">Fornecer uma visualização da métrica em linha. </li> 
-     <li id="li_3704F66C321C477F9D4F52E068C231BD">Definir a polaridade da métrica, que indica se ela é boa ou ruim caso um determinado evento personalizado (métrica) apresente uma tendência para cima. </li> 
-     <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">Adicionar tags às métricas. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > Gerenciador de métricas calculadas</a> </td> 
-   <td colname="col2"> 
-    <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
-     <li id="li_E0B216BA1478406EB6212263DF71D85B">Compartilhar métricas com outras pessoas. </li> 
-     <li id="li_96EB16FAF3454211AAEF78EA5B08927F">Aprovar e controlar métricas. </li> 
-     <li id="li_3ADBD2428EAC4B0AA61222D87C3AF2B7">Organizar (marcar com tags) suas métricas de forma que as pessoas possam encontrá-las. </li> 
-     <li id="li_726F3C3390744E49BA63606FE196880E">Excluir métricas. </li> 
-     <li id="li_F306BA4FA8AF4A6E987BA62634659A2F">Renomear as métricas. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Painel Seletor de métricas </td> 
-   <td colname="col2"> <p>Substitui o menu pop-up <span class="uicontrol">Mostrar métricas</span> no<span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>Permite pesquisar e adicionar/aplicar métricas ao relatório. Você também pode alterar a variável <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > sort</a> ordem (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, é possível filtrar os Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico. </p> <p>Para acessar o Seletor de métricas, clique no ícone Métricas <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> à esquerda de um relatório. O Seletor de métricas tem a seguinte aparência: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API para métricas calculadas</a> </td> 
-   <td colname="col2"> <p>Parte do conjunto de APIs do Adobe Analytics 2.0. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Ferramenta | Capacidades |
+|--- |--- |
+| Criador de métricas calculada | <ul><li>Crie métricas calculadas e calculadas avançadas usando modelos de alocação avançados.</li><li>Adicionar segmentos em linha às fórmulas de métricas</li><li>Comparar segmentos em um mesmo relatório. É possível, por exemplo, comparar visitantes locais com visitantes internacionais.</li><li>Usar funções estatísticas</li><li>Fornecer descrições detalhadas de métricas (mostrar o que faz, onde usá-lo, onde NÃO usá-lo)</li><li>Copiar definições em novas métricas</li><li>Fornecer uma visualização de métrica em linha</li><li>Definir a polaridade da métrica, que indica se ela é boa ou ruim se um determinado evento personalizado (métrica) aumentar</li><li>Métricas de tag</li></ul> |
+| Gerenciador de métricas calculadas | <ul><li>Compartilhar métricas com outras pessoas&lt;/li><li>Aprovar e preparar métricas</li><li>Organizar (marcar) suas métricas para que as pessoas possam encontrá-las</li><li>Excluir métricas</li><li>Renomear métricas</li></ul> |
+| Painel Seletor de métricas | Permite pesquisar e adicionar/aplicar métricas ao relatório. Também é possível alterar a ordem de classificação (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, você pode filtrar por Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico.  Para acessar esse Seletor de métricas, clique no ícone Métricas à esquerda de um relatório. |
+| API para métricas calculadas | Parte do conjunto de APIs do Adobe Analytics 2.0. |

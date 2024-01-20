@@ -3,10 +3,10 @@ title: Transição de uma plataforma de análise de terceiros para o Adobe Analy
 description: Saiba mais sobre os principais conceitos para obter relatórios, direcionados para usuários familiarizados com outras plataformas, como o Google Analytics.
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 81%
 
 ---
 
@@ -16,12 +16,7 @@ Este guia apresenta tipos de relatórios comuns que ajudam você a saber mais so
 
 O Google Analytics e o Adobe Analytics são plataformas avançadas para obter informações importantes sobre o desempenho do site. Cada uma tem sua própria arquitetura de processamento e interface do usuário, proporcionando vantagens exclusivas a cada uma. Este guia foi projetado para ajudar a familiarizar um usuário experiente com o Google Analytics em relação ao Adobe Analytics.
 
-No Adobe Analytics, há duas formas principais de extrair relatórios básicos após fazer logon na Adobe Experience Cloud:
-
-* **Reports &amp; Analytics** é o método histórico para obter relatórios básicos. O menu à esquerda fornece uma lista de relatórios prefabricados e permite que o usuário navegue até um relatório que deseja e obtenha dados. Segmentos e métricas podem fornecer personalizações adicionais. Os usuários experientes com os relatórios do Google Analytics podem achar esse layout familiar.
-* A **Analysis Workspace** é o método recomendado para obter a maioria dos relatórios. O menu à esquerda permite que o usuário arraste e solte componentes para criar seu próprio relatório. Ele oferece muito mais liberdade para atender às necessidades exatas de relatórios. Os usuários experientes na criação de painéis do Google Analytics e relatórios personalizados podem achar esse layout familiar.
-
-A maioria dos relatórios pode ser criada no [!UICONTROL Reports &amp; Analytics] e no [!UICONTROL Analysis Workspace]. No entanto, alguns relatórios só podem ser obtidos usando uma plataforma ou a outra. Na maioria dos casos, a Adobe recomenda o uso do [!UICONTROL Analysis Workspace], a menos que um recurso específico esteja disponível somente no [!UICONTROL Reports &amp; Analytics.]
+No Adobe Analytics, a principal maneira de extrair relatórios básicos após fazer logon na Adobe Experience Cloud é usar **Analysis Workspace**. O menu à esquerda permite que o usuário arraste e solte componentes para criar seu próprio relatório. Ele oferece mais liberdade para atender às necessidades exatas de relatórios. Os usuários experientes na criação de painéis do Google Analytics e relatórios personalizados podem achar esse layout familiar.
 
 ## Caminho de aprendizagem recomendado
 

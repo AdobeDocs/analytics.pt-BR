@@ -1,38 +1,16 @@
 ---
 title: Totais de métricas calculadas
-description: Saiba como os totais de métricas calculadas diferem nas ferramentas do Analytics
+description: Saiba mais sobre os totais de métricas calculadas no Analysis Workspace
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 97%
+source-wordcount: '146'
+ht-degree: 91%
 
 ---
 
-# Totais de métricas calculadas
-
-A forma como os totais de métricas calculadas são exibidos difere entre [!DNL Reports & Analytics] e [!DNL Analysis Workspace]. Esta seção explica as diferenças.
-
-## Totais de métricas calculadas em [!DNL Reports & Analytics]
-
-Quando você exibe relatórios em [!DNL Reports & Analytics], as métricas calculadas sempre são exibidas `n/a` abaixo do total. Como todas as métricas calculadas são definidas pelo usuário, há muitas circunstâncias nas quais esse total não faz sentido. Considere o exemplo a seguir:
-
-Sua organização criou a métrica calculada `orders` / `visits` para determinar a porcentagem de visitas que compraram algo em seu site. Se você inclui essa métrica em um relatório de produtos, vários produtos são atribuídos a um único pedido. E vários produtos são atribuídos a uma única visita. Se um total de métrica calculada foi incluído neste relatório, surgem as seguintes perguntas:
-
-| Pergunta | Resposta |
-|---|---|
-| A soma dos itens de linha faz sentido? | Não, pois vários produtos podem ser incluídos em um único pedido e vários produtos podem ser incluídos em uma única visita. Se os itens de linha fossem agregados, o total de pedidos e o total de visitas não corresponderia ao total real de pedidos e de visitas. |
-| Receber o total de pedidos e o total de visitas faz sentido? | Não, já que o total não corresponde à soma dos itens de linha individuais. Além disso, o total de pedidos e o total de visitas são métricas calculadas separadamente. |
-
-Como não há método lógico e concreto para determinar se uma métrica calculada faz sentido no relatório, o total da métrica é omitido completamente. Se quiser obter um total geral, você pode executar um dos seguintes procedimentos:
-
-* Crie uma métrica calculada que inclua as versões totais das métricas que você deseja incluir.
-* Crie um relatório de Extração de dados, que pode ser programado.
-* Criar uma solicitação de dados no [!DNL ReportBuilder].
-* Utilizar [!DNL Analysis Workspace] (veja abaixo).
-
-## Totais de métricas calculadas em [!DNL Analysis Workspace]
+# Totais de métricas calculadas [!DNL Analysis Workspace]
 
 Quando você exibe os dados na Analysis Workspace, os totais de métrica calculada são exibidos na maioria dos casos. Em alguns casos, não é possível fornecer um total, como quando as linhas do relatório são de formato misto (por exemplo, decimal e moeda).
 

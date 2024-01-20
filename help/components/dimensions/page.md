@@ -3,9 +3,9 @@ title: Página
 description: O nome da página.
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '186'
 ht-degree: 94%
 
 ---
@@ -28,4 +28,4 @@ Os itens de dimensão incluem os nome de páginas no site. A organização escol
 
 >[!NOTE]
 >
->No Reports &amp; Analytics, as métricas de conversão usam atribuição linear para essa dimensão. Por exemplo, a receita é dividida entre todas as páginas visualizadas antes de um evento de `purchase`. O Analysis Workspace usa a última atribuição por padrão, com a opção de usar qualquer modelo de atribuição.
+>O Analysis Workspace usa a última atribuição por padrão, com a opção de usar qualquer modelo de atribuição.

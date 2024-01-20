@@ -3,10 +3,10 @@ description: O importador permite que você faça upload em massa de dados de cl
 title: Arquivos de dados de classificação
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 98%
+source-wordcount: '1768'
+ht-degree: 96%
 
 ---
 
@@ -29,16 +29,16 @@ Um arquivo de dados deve atender às seguintes regras de estrutura:
 * As classificações não podem ter 0 (zero) como valor.
 * A Adobe recomenda limitar a quantidade de colunas de importações e exportações para 30.
 * Os arquivos enviados devem usar UTF-8 sem a codificação de caracteres BOM.
-* Caracteres especiais, como tecla tab, quebras de linha e aspas podem ser incorporados a uma célula, contanto que o formato de arquivo da versão 2.1 seja especificada e a célula seja devidamente [evitada](/help/components/classifications/importer/t-classifications-escape-data.md). Caracteres especiais incluem:
+* Caracteres especiais, como guias, novas linhas e aspas podem ser incorporados em uma célula, desde que o formato de arquivo da versão 2.1 seja especificada e a célula seja devidamente [evitada](/help/components/classifications/importer/t-classifications-escape-data.md). Caracteres especiais incluem:
 
-   ```text
-   \t     tab character 
-   \r     form feed character 
-   \n    newline character 
-   "       double quote
-   ```
+  ```text
+  \t     tab character 
+  \r     form feed character 
+  \n    newline character 
+  "       double quote
+  ```
 
-   A vírgula não é um caractere especial.
+  A vírgula não é um caractere especial.
 
 * As classificações não podem conter um caractere (^) já que ele é usado para indicar uma subclassificação.
 * Tenha cuidado ao usar hífen. Por exemplo, se você usar um hífen (-) em um termo Social, o Social reconhece o hífen como um operador [!DNL Not] (o sinal de menos). Por exemplo, se você especificar *`fragrance-free`* como um termo usando a importação, o Social reconhece o termo como sem *`minus`* perfume e coleta as publicações que mencionam *`fragrance`*, mas não *`free`*.
@@ -94,7 +94,6 @@ Um arquivo de dados deve atender às seguintes regras de estrutura:
 >
 >* [Problemas de upload do comuns](https://helpx.adobe.com/br/analytics/kb/common-saint-upload-issues.html)
 
-
 ## Formato do cabeçalho de coluna
 
 >[!NOTE]
@@ -109,11 +108,9 @@ Cada valor deve ser exclusivo em todo o sistema. O valor deste campo corresponde
 
 ### Cabeçalho da coluna de classificação
 
-Exemplo: sua implementação do Reports &amp; Analytics inclui automaticamente duas classificações para [!UICONTROL Campaign] variáveis: [!UICONTROL Campanhas] e [!UICONTROL Elementos de criação]. Para adicionar dados à classificação [!UICONTROL Campanhas], o cabeçalho da coluna no arquivo de dados de classificação será [!UICONTROL Campanhas].
-
 >[!NOTE]
 >
->Os valores no cabeçalho da coluna [!UICONTROL Classificações] devem corresponder exatamente à convenção de nomenclatura da classificação ou a importação não ocorrerá. Por exemplo, se o administrador mudar [!UICONTROL Campanhas] para [!UICONTROL Nomes de Campanha Interna] no [!UICONTROL Gerenciador de Configuração da Campanha], o cabeçalho da coluna do arquivo deve ser alterado para o mesmo nome. &quot;Key&quot; é um valor de classificação reservado (cabeçalho). Não há suporte para novas classificações chamadas &quot;Chave&quot;.
+>Os valores no cabeçalho da coluna [!UICONTROL Classificações] devem corresponder exatamente à convenção de nomenclatura da classificação ou a importação não ocorrerá. Por exemplo, se o administrador alterar [!UICONTROL Campanhas] para [!UICONTROL Nomes de Campanha Internos] no [!UICONTROL Gerenciador de configuração do Campaign], o cabeçalho da coluna de arquivo deve ser alterado para corresponder a. &quot;Key&quot; é um valor de classificação reservado (cabeçalho). Não há suporte para novas classificações chamadas &quot;Chave&quot;.
 
 Além disso, o arquivo de dados oferece suporte às seguintes convenções adicionais de cabeçalho para identificar subclassificações e outras colunas de dados especializadas:
 

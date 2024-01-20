@@ -3,29 +3,29 @@ title: Como o Tempo gasto é calculado no Adobe Analytics
 description: Uma página agregada de dimensões e métricas de tempo gasto.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 77%
+source-wordcount: '1746'
+ht-degree: 73%
 
 ---
 
 # Visão geral do tempo gasto
 
-Várias métricas e dimensões de [!UICONTROL tempo gasto] são oferecidas nos produtos do Adobe Analytics.[](overview.md)
+Vários [!UICONTROL &#39;tempo gasto&#39;] [métricas](overview.md) As dimensões e são oferecidas nos produtos da Adobe Analytics.
 
 ## Métricas de ‘tempo gasto’
 
 | Métrica | Definição | Disponível em |
 |---|---|---|
-| [!UICONTROL Total de segundos gastos] | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico. Inclui a instância de um valor e persiste em todas as ocorrências subsequentes. No caso de props, o tempo gasto também é contado em relação a eventos de link subsequentes. | Analysis Workspace, Reports &amp; Analytics, Report Builder (chamado de &quot;tempo total gasto&quot;), Data Warehouse |
-| [!UICONTROL Tempo gasto por visita] (segundos) | Aproximadamente *Total de segundos gastos / (rejeições de visita)*<br> Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico durante cada visita. **Nota**: esta métrica não pode ser calculada de forma independente porque o denominador dessa função é uma métrica interna. | Analysis Workspace, Reports &amp; Analytics |
-| [!UICONTROL Tempo gasto por visitante] (segundos) | Aproximadamente *Total de segundos gastos / visitante único*<br> Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). **Nota**: esta métrica não pode ser calculada de forma independente porque o denominador dessa função é uma métrica interna. | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Total de segundos gastos] | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico. Inclui a instância de um valor e persiste em todas as ocorrências subsequentes. No caso de props, o tempo gasto também é contado em relação a eventos de link subsequentes. | Analysis Workspace, Report Builder (chamado de &quot;tempo total gasto&quot;), Data Warehouse |
+| [!UICONTROL Tempo gasto por visita] (segundos) | Aproximadamente *Total de segundos gastos / (rejeições de visita)*<br> Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico durante cada visita. **Nota**: esta métrica não pode ser calculada de forma independente porque o denominador dessa função é uma métrica interna. | Analysis Workspace |
+| [!UICONTROL Tempo gasto por visitante] (segundos) | Aproximadamente *Total de segundos gastos / visitante único*<br> Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). **Nota**: esta métrica não pode ser calculada de forma independente porque o denominador dessa função é uma métrica interna. | Analysis Workspace |
 | [!UICONTROL Tempo gasto/usuário (estado)] | Aproximadamente *Total de segundos gastos no aplicativo móvel / visitantes únicos do aplicativo móvel*<br> Representa a quantidade média de tempo que os visitantes do aplicativo móvel interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). **Nota**: esta métrica não pode ser calculada de forma independente porque o denominador dessa função é uma métrica interna. | Analysis Workspace |
-| [!UICONTROL Tempo médio gasto no site] (segundos) | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não se limita apenas a médias de &quot;sites&quot;, como o nome sugere. Consulte a seção &quot;Como o tempo gasto é calculado&quot; para obter mais informações sobre as sequências.<br>**Observação**: esta métrica muito provavelmente será diferente do &quot;Tempo gasto por visita&quot; em nível de item de dimensão devido às diferenças no denominador do cálculo. | Analysis Workspace, Reports &amp; Analytics (mostrado em minutos), Report Builder (mostrado em minutos) |
+| [!UICONTROL Tempo médio gasto no site] (segundos) | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não se limita apenas a médias de &quot;sites&quot;, como o nome sugere. Consulte a seção &quot;Como o tempo gasto é calculado&quot; para obter mais informações sobre as sequências.<br>**Observação**: esta métrica muito provavelmente será diferente do &quot;Tempo gasto por visita&quot; em nível de item de dimensão devido às diferenças no denominador do cálculo. | Analysis Workspace, Report Builder (mostrado em minutos) |
 | [!UICONTROL Tempo médio no site] | Essa é a mesma métrica que *Tempo médio no site (Segundos)*, exceto formatada como Tempo (hh:mm:ss) | Analysis Workspace |
 | [!UICONTROL Tempo médio gasto na página] | Métrica descontinuada.<br> Em vez disso, recomendamos que você use &quot;Tempo médio gasto no site&quot; se o tempo médio para um item de dimensão for necessário. | Report Builder (quando uma dimensão está na solicitação) |
-| [!UICONTROL Duração total da sessão], também chamado de [!UICONTROL Duração da sessão anterior] | Somente SDK do aplicativo para dispositivo móvel. <br>Determinada na próxima vez que o aplicativo for inicializado, para a sessão anterior. Calculado em segundos, esta métrica não contabiliza quando o aplicativo está em segundo plano, somente quando está em uso. Esta é uma métrica em nível de sessão.<br>Exemplo: você instala o aplicativo ABC e o inicializa; em seguida, usa o aplicativo por 2 minutos e o fecha. Nenhum dado é enviado sobre este tempo de sessão. Na próxima vez que inicializarmos o aplicativo, a [!UICONTROL Duração da sessão anterior] será enviada com um valor de 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, Interface do usuário do Mobile Services |
+| [!UICONTROL Duração total da sessão], também chamado de [!UICONTROL Duração da sessão anterior] | Somente SDK do aplicativo para dispositivo móvel. <br>Determinada na próxima vez que o aplicativo for inicializado, para a sessão anterior. Calculado em segundos, esta métrica não contabiliza quando o aplicativo está em segundo plano, somente quando está em uso. Esta é uma métrica em nível de sessão.<br>Exemplo: você instala o aplicativo ABC e o inicializa; em seguida, usa o aplicativo por 2 minutos e o fecha. Nenhum dado é enviado sobre este tempo de sessão. Na próxima vez que inicializarmos o aplicativo, a [!UICONTROL Duração da sessão anterior] será enviada com um valor de 120. | Analysis Workspace, Report Builder, interface do usuário do Mobile Services |
 | [!UICONTROL Duração média da sessão] (dispositivos móveis) | *Duração total da sessão / (Inicializações - Primeiras inicializações)*<br> Somente SDK do aplicativo móvel. Esta é uma métrica em nível de sessão. | Report Builder, interface do usuário do Mobile Services |
 
 ## Dimensões de tempo gasto
@@ -33,9 +33,9 @@ Várias métricas e dimensões de [!UICONTROL tempo gasto] são oferecidas nos p
 | Dimensão | Definição | Disponível em |
 | --- | --- | --- |
 | [!UICONTROL Tempo gasto por visita - granular] | O tempo total gasto durante a visita, truncado no segundo mais próximo e aplicado a cada ocorrência que fez parte da visita. Esta é uma dimensão em nível de visitas. | Analysis Workspace |
-| [!UICONTROL Tempo gasto por visita - sementado] | A dimensão granular segmentada em 9 intervalos diferentes. Esta é uma dimensão em nível de visitas. Os intervalos incluem:<ul><li>Menos de 1 minuto</li><li>1 a 5 minutos</li><li>5 a 10 minutos</li><li>10 a 30 minutos</li><li>30 a 60 minutos</li><li>1 a 2 horas</li><li>2 a 5 horas</li><li>5 a 10 horas</li><li>10 a 15 horas</li></ul>**Observação**: não poderá haver turnos maiores que esses, pois uma visita expira após 12 horas de atividade. | Analysis Workspace, Reports &amp; Analytics, Report Builder |
+| [!UICONTROL Tempo gasto por visita - sementado] | A dimensão granular segmentada em 9 intervalos diferentes. Esta é uma dimensão em nível de visitas. Os intervalos incluem:<ul><li>Menos de 1 minuto</li><li>1 a 5 minutos</li><li>5 a 10 minutos</li><li>10 a 30 minutos</li><li>30 a 60 minutos</li><li>1 a 2 horas</li><li>2 a 5 horas</li><li>5 a 10 horas</li><li>10 a 15 horas</li></ul>**Observação**: não poderá haver turnos maiores que esses, pois uma visita expira após 12 horas de atividade. | Analysis Workspace, Report Builder |
 | [!UICONTROL Tempo gasto na página - granular] | O tempo total gasto em cada ocorrência, truncado no segundo mais próximo. É uma dimensão em nível de ocorrência e inclui exibições de página e eventos de link. Apesar do nome, não está limitado à dimensão &quot;página&quot;. | Analysis Workspace |
-| [!UICONTROL Tempo gasto na página - segmentado] | A dimensão granular segmentada em 10 intervalos diferentes; entretanto, a dimensão segmentada somente conta exibições de página (e exclui eventos de links). Essa é uma dimensão em nível de ocorrências. Os intervalos incluem:<ul><li>menos de 15 segundos</li><li>15 a 29 minutos</li><li>30 a 59 minutos</li><li>1 a 3 minutos</li><li>3 a 5 minutos</li><li>5 a 10 minutos</li><li>10 a 15 minutos</li><li>15 a 20 minutos</li><li>20 a 30 minutos</li><li>mais de 30 minutos</li></ul> | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Tempo gasto na página - segmentado] | A dimensão granular segmentada em 10 intervalos diferentes; entretanto, a dimensão segmentada somente conta exibições de página (e exclui eventos de links). Essa é uma dimensão em nível de ocorrências. Os intervalos incluem:<ul><li>menos de 15 segundos</li><li>15 a 29 minutos</li><li>30 a 59 minutos</li><li>1 a 3 minutos</li><li>3 a 5 minutos</li><li>5 a 10 minutos</li><li>10 a 15 minutos</li><li>15 a 20 minutos</li><li>20 a 30 minutos</li><li>mais de 30 minutos</li></ul> | Analysis Workspace |
 
 ## Como o tempo gasto é calculado
 
@@ -86,7 +86,7 @@ Qualquer métrica. A dimensão mostra o tempo gasto na ocorrência exata em que 
 
 +++
 
-+++Qual a diferença entre o [!UICONTROL Tempo médio gasto no site] e o [!UICONTROL Tempo gasto por visita]?
++++Como o faz [!UICONTROL Tempo médio gasto no site] diferir de [!UICONTROL Tempo gasto por visita]?
 
 A diferença é o denominador na métrica:
 
@@ -100,7 +100,7 @@ Como resultado, essas métricas também podem fornecer resultados semelhantes em
 
 +++Por que detalhar totais com [!UICONTROL Tempo médio gasto no site] não corresponde ao item de linha principal?
 
-Porque o [!UICONTROL Tempo médio gasto no site] depende de sequências ininterruptas de uma dimensão, e o relatório interno não depende do relatório externo ao calcular essas execuções.
+Porque [!UICONTROL Tempo médio gasto no site] O depende de sequências ininterruptas de uma dimensão, e o relatório interno não depende do relatório externo ao calcular essas execuções.
 
 Por exemplo, considere esta visita.
 
@@ -125,7 +125,7 @@ Suponha que o seguinte conjunto de chamadas de servidor seja para um único visi
 | **Tempo decorrido da visita (segundos)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Segundos gastos** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo de ocorrência** | Página | Link | Página | Página | Página | Página | Página |
-| **Nome da página** | Início | - | Produto | Início | Início (recarga) | Carrinho | Confirmação de pedido |
+| **Nome da página** | Início | - | Produto | Início | Página inicial (recarregar) | Carrinho | Confirmação de pedido |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (conjunto) | A (distribuir para a frente) | não definido | B (conjunto) | B (conjunto) | A (conjunto) | C (conjunto) |
 | **segundos gastos da prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
