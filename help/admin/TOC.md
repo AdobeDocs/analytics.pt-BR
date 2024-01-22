@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '633'
 ht-degree: 91%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 91%
             + Detecção de pesquisa paga {#paid-search-detection}
                + [Visão geral da detecção de pesquisa paga](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configurar a detecção de pesquisa paga](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [Personalizar menus](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + Regras de processamento {#c-processing-rules}
                + [Visão geral das regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + Regras de processamento {#c-processing-rules-configuration}
@@ -133,7 +132,6 @@ ht-degree: 91%
       + [Fazer download das configurações do conjunto de relatórios](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Novo Conjunto de relatórios {#c-new-report-suite}
          + [Criar um novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Criar um conjunto de relatórios de rollup](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [Criar um grupo de conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [Configurações do novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [Configurações não copiadas do conjunto de relatórios de origem](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -153,7 +151,6 @@ ht-degree: 91%
       + [Serviços Web](admin/company/web-services-admin.md)
       + [Relatórios do Report Builder](admin/company/report-builder-reports-admin.md)
       + [Logon único](admin/company/single-signon-admin.md)
-      + [Compartilhamento de marcas](admin/company/co-branding-admin.md)
       + [Ocultar conjuntos de relatórios](admin/company/c-hide-report-suites.md)
       + [Gerenciador de preferências](admin/company/preferences-manager.md)
       + [Ações pendentes](admin/company/pending-actions-admin.md)

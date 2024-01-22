@@ -3,10 +3,10 @@ description: Descrições dos tipos de conjunto de relatórios e comparação en
 title: Abordagens do conjunto de relatórios
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 93%
+source-wordcount: '448'
+ht-degree: 89%
 
 ---
 
@@ -44,38 +44,38 @@ O uso de conjuntos de relatórios virtuais em vez da marcação de vários relat
 >
 >[!DNL Reports & Analytics] O é a única ferramenta que oferece suporte a relatórios de rollup. O Reports &amp; Analytics foi encerrado em 17 de janeiro de 2024.
 
-### Limitações dos relatórios de rollup {#limitations-rollups}
+<!---### Limitations of Rollup Reports {#limitations-rollups}
 
-* Os rollups fornecem os dados totais, mas não informam valores individuais nos relatórios. Por exemplo, os valores de eVar1 não são incluídos, mas o seu total agregado pode ser.
-* Os dados não são desduplicados quando o rollup combina dados através de conjuntos de relatórios.
-* Os rollups são executados todas as noites, à meia-noite.
-* Ao adicionar um conjunto de relatórios a um rollup existente, os dados históricos não são incluídos no rollup.
-* Todos os conjuntos de relatórios secundários precisam conter dados para que um rollup possa funcionar. Se os novos conjuntos de relatórios forem incluídos em um rollup, certifique-se de enviar pelo menos uma exibição de página para cada um desses conjuntos de relatórios.
-* Os conjuntos de relatórios de rollup são limitados a, no máximo, 40 conjuntos de relatórios secundários.
-* Os conjuntos de relatórios de rollup podem incluir no máximo 100 eventos.
-* Os dados contidos nos conjuntos de relatórios de rollup não são compatíveis com detalhamentos ou segmentos.
-* O relatório de Páginas é substituído pelo relatório de Sites mais populares, que usa métricas no nível do conjunto secundário.
+* Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
+* Data is not deduplicated when the rollup combines data across report suites.
+* Rollups run nightly at midnight.
+* When you add a report suite to an existing rollup, historical data is not included in the rollup.
+* All child report suites must have data in them for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to each of those report suites.
+* Rollup report suites can include a maximum of 40 child report suites.
+* Rollup report suites can include a maximum of 100 events.
+* Data contained in rollup report suites does not support breakdowns or segments.
+* The Pages report is replaced with the Most Popular Sites report, which reports on metrics at the child-suite level.
 
-## Comparação dos recursos do conjunto de relatórios global e do relatório de rollup
+## Comparison of Global Report Suite and Rollup Report  Features
 
-**Chamadas secundárias do servidor**: os rollups não incorrem em chamadas de servidor adicionais além do que um único conjunto de relatórios coleta. Se sua organização usar marcação de vários conjuntos, serão feitas chamadas de servidor secundárias para cada conjunto de relatórios adicional incluído em uma solicitação de imagem.
+**Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
 
 >[!TIP]
 >
->Se você usar apenas um conjunto de relatórios global com [conjuntos de relatórios virtuais](/help/components/vrs/vrs-considerations.md), nenhuma chamada de servidor secundário será necessária.
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
-**Alterações de implementação**: os rollups não exigem alterações de implementação, enquanto os conjuntos de relatórios globais exigem que você inclua a ID do conjunto de relatórios global na implementação.
+**Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 
-**Duplicação**: os conjuntos de relatórios globais removem a duplicação de visitantes únicos; os rollups, não. Por exemplo, se um usuário visita três de seus domínios no mesmo dia, os rollups contariam três visitantes únicos diários. Os conjuntos de relatórios globais registrariam um visitante único.
+**Duplication**: Global report suites deduplicate unique visitors, while rollups do not. For example, if a user visits three of your domains in the same day, rollups would count three daily unique visitors. Global report suites would record one unique visitor.
 
-**Intervalo de tempo**: os rollups são processados somente à meia-noite a cada noite, ao passo que os conjuntos de relatórios globais relatam dados com latência padrão.
+**Time frame**: Rollups are only processed at midnight each night, while global report suites report data with standard latency.
 
-**Abrangência**: os rollups não possuem uma forma de comunicação entre os conjuntos de relatórios. Os conjuntos de relatórios globais podem atribuir crédito às variáveis de conversão entre conjuntos de relatórios, bem como fornecer a definição de caminho entre conjuntos de relatórios.
+**Breadth**: Rollups have no way to communicate between report suites. Global report suites can attribute credit to conversion variables between report suites and provide pathing across report suites.
 
-**Dados históricos**: os rollups podem agregar dados históricos, ao passo que os conjuntos de relatórios globais relatam somente dados a partir do ponto em que foram implementados.
+**Historical data**: Rollups can aggregate historical data, while global report suites only report data from the point they were implemented.
 
-**Relatórios**: todos os conjuntos de relatórios globais fornecem informações adicionais sobre todas as dimensões; os rollups fornecem dados agregados em relatórios de alto nível.
+**Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**Produtos suportados**: os rollups só podem ser usados no Reports &amp; Analytics. Eles não são compatíveis com o Analysis Workspace ou Data Warehouse. Os conjuntos de relatórios globais podem ser usados em todos os produtos.
+**Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Número de conjuntos de relatórios agregados**: oos rollups suportam apenas um máximo de 40 conjuntos de relatórios secundários. Os conjuntos de relatórios globais podem ser implementados em qualquer número de domínios ou aplicativos de sua propriedade.
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->

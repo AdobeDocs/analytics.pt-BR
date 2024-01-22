@@ -3,9 +3,9 @@ description: Página de visão geral para definir configurações que se aplicam
 title: Visão geral das Configurações da empresa
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: 09f44ce0b89acf70499e2bcdaa31307028d2fe92
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '62'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,5 @@ A página [!UICONTROL Configurações de empresa] permite definir configuraçõe
 + [Relatórios do Report Builder](report-builder-reports-admin.md)
 + [Logon único](single-signon-admin.md)
 + [Ações pendentes](pending-actions-admin.md)
-+ [Compartilhamento de marcas](co-branding-admin.md)
 + [Ocultar conjuntos de relatórios](c-hide-report-suites.md)
 + [Gerenciador de segurança](security-manager.md)
