@@ -3,10 +3,10 @@ title: referenciador
 description: Substitua o referenciador coletado automaticamente em uma ocorrência.
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: a37d6b26c2789211a9ed5602b708ef72768e289c
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 84%
+source-wordcount: '293'
+ht-degree: 80%
 
 ---
 
@@ -14,11 +14,13 @@ ht-degree: 84%
 
 A variável `referrer` substitui o referenciador coletado automaticamente nos relatórios. Essa variável é útil em situações em que o referenciador pode ser perdido, como durante redirecionamentos ou no encaminhamento temporário do visitante a um processador de pagamento. Essa variável ajuda a preencher as dimensões &quot;Referenciador&quot; e &quot;Domínio de referência&quot;.
 
-## Referenciador usando o SDK da Web
+## Referenciador que usa o SDK da Web
 
-Referenciador é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webReferrer.URL`.
+O referenciador é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webReferrer.URL`.
 
-## Referenciador usando a extensão Adobe Analytics
+O SDK da Web inclui essa dimensão em cada ocorrência de evento.
+
+## Referenciador que usa a extensão do Adobe Analytics
 
 Você pode definir o referenciador ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
@@ -26,7 +28,7 @@ Você pode definir o referenciador ao configurar a extensão do Analytics (vari�
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina as [!UICONTROL Extensão] lista suspensa para o Adobe Analytics e a [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
+5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Referenciador].
 
 É possível atribuir ao referenciador qualquer valor de string, incluindo elementos de dados.
