@@ -5,10 +5,10 @@ uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
 role: User, Admin
 exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e54b63bdfc32cf628ea1c6456df421b2d3d23b2c
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 78%
 
 ---
 
@@ -19,5 +19,11 @@ Você pode especificar um intervalo de datas selecionando células de uma pasta 
 **Para configurar datas de uma célula**
 
 1. No [!UICONTROL Assistente de solicitações: etapa 1], selecione **[!UICONTROL Datas da célula]**.
-1. Insira referências de célula nos campos **[!UICONTROL De]** e **[!UICONTROL Para]**, ou clique no seletor e selecione as células que contêm as solicitações com as datas inicial e final. 
-Por exemplo, crie uma solicitação do Report Builder com o intervalo de datas definido como &quot;yesterday&quot; (ontem) e configure a data da solicitação na mesma célula como &quot;today()-1&quot;.
+1. Inserir referências de célula no **[!UICONTROL De]** e **[!UICONTROL Para]** ou clique no seletor e selecione as células que contêm as solicitações com as datas inicial e final.
+
+   Por exemplo, crie uma solicitação do Report Builder com o intervalo de datas definido como &quot;yesterday&quot; (ontem) e configure a data da solicitação na mesma célula como &quot;today()-1&quot;.
+
+Esta é uma lista de formatos de data compatíveis:
+
+![Captura de tela mostrando formatos de data compatíveis.](assets/date-formats.png)
+
