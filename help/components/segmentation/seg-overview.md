@@ -3,10 +3,10 @@ description: Os segmentos permitem que você identifique subconjuntos de visitan
 title: Sobre segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -16,7 +16,7 @@ Os segmentos permitem que você identifique subconjuntos de visitantes com base 
 
 Os segmentos são baseados em um [!UICONTROL Visitante], [!UICONTROL Visita], e [!UICONTROL Hit] hierarquia de nível usando um modelo de container aninhado. Os contêineres aninhados permitem que você defina atributos de visitante e ações com base em regras entre e nos contêineres. Segmentos do Analytics podem ser construídos, aprovados, compartilhados, salvos e executados em vários produtos e recursos da [!DNL Adobe Experience Cloud]. Os segmentos podem ser gerados a partir de um relatório, construído em um relatório de painel, ou marcado para acesso rápido.
 
-Você pode criar e salvar segmentos no Construtor de segmentos ou gerar segmentos de um relatório de fallout (no  Analysis Workspace). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre contêineres aninhados, o que lhe permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntos como [segmentos empilhados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Você pode construir e salvar segmentos no Construtor de segmentos, ou gerar segmentos a partir de um relatório de Fallout (na [!UICONTROL Analysis Workspace]). Você também pode empregar e estender segmentos pré-construídos com base em regras específicas entre contêineres aninhados, o que lhe permite filtrar resultados e aplicar a relatórios. Além disso, os segmentos podem ser usados juntos como [segmentos empilhados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 Os segmentos identificam
 
