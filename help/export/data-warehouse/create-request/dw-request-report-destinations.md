@@ -3,9 +3,9 @@ description: Etapas que descrevem como criar uma solicitação do Data Warehouse
 title: Configurar um destino de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
+source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2188'
 ht-degree: 10%
 
 ---
@@ -22,11 +22,10 @@ Para obter informações sobre como começar a criar uma solicitação, bem como
 >
 >* Recomendamos o uso de uma conta na nuvem ou de um email como destino do seu relatório. Contas FTP e SFTP herdadas estão disponíveis, mas não são recomendadas.
 >
->* As solicitações de Data Warehouse estão associadas à sua conta de usuário do Adobe Analytics. Por padrão, outros usuários não podem usar ou exibir as solicitações que você configura. Você pode disponibilizar solicitações do Data Warehouse para outros usuários em sua organização habilitando o **Mostrar todos os destinos** alterne, conforme descrito em [Configurações gerais da solicitação de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).
+>* Qualquer conta na nuvem configurada anteriormente para [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) ou para [importação de dados de classificação do Adobe Analytics](/help/components/locations/locations-manager.md) estão disponíveis para uso no Data Warehouse. No entanto, os locais configurados para importar dados de classificação não podem ser usados.
 >
->* Qualquer conta na nuvem que você tenha [configurado para Feeds de dados](/help/export/analytics-data-feed/create-feed.md) estão disponíveis para uso no Data Warehouse.
+>* As contas em nuvem estão associadas à sua conta de usuário do Adobe Analytics. Outros usuários não podem usar ou exibir contas na nuvem configuradas por você.
 >
->* Contas em nuvem configuradas para [importação de dados de classificação do Adobe Analytics](/help/components/locations/locations-manager.md) de um destino de nuvem pode ser usado ao configurar um destino de relatório. No entanto, os locais configurados para importar dados de classificação não podem ser usados.
 
 Para configurar o destino para o qual os relatórios de Data Warehouse são enviados:
 
