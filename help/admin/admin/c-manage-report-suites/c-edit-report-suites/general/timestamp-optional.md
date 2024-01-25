@@ -4,9 +4,10 @@ title: Carimbos opcionais de data e hora
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -33,7 +34,7 @@ Os Carimbos opcionais de data e hora permitem que você:
 
 * Se criado a partir de um modelo, um novo conjunto de relatórios apresentará por padrão os Carimbos opcionais de data e hora.
 
-   (É possível criar um novo conjunto de relatórios a partir de um modelo em **Admin > Conjuntos de relatórios > Criar novo > Conjunto de relatório**.)
+  (É possível criar um novo conjunto de relatórios a partir de um modelo em **Admin > Conjuntos de relatórios > Criar novo > Conjunto de relatório**.)
 * Se copiado a partir de um conjunto de relatórios já existente, o novo conjunto de relatórios herdará os ajustes de carimbo de data e hora do original, incluindo:
 
    * **Carimbos de data e hora não permitidos** (a configuração s.visitorID é suportada)

@@ -3,7 +3,7 @@ description: A Detecção de pesquisa paga diferencia pesquisas pagas daquelas n
 title: Detecção de pesquisa paga
 feature: Admin Tools
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 A [!UICONTROL Detecção de pesquisa paga] diferencia pesquisas pagas daquelas naturais nos [!UICONTROL Mecanismos de pesquisa] e nos relatórios de [!UICONTROL Palavras-chave de pesquisa]. É possível especificar os mecanismos de pesquisa onde você usa anúncios pagos e especificar uma sequência de caracteres encontrada no URL de uma visita a partir de um anúncio pago.
 
-## Opções de configuração {#section_0C2CFA0AF77B47098BE37CB024665D0D}
+## Opções de configuração {#configuration}
 
 A tabela a seguir descreve os campos e opções que são usadas para [configurar a detecção de pesquisa paga](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md).
 
