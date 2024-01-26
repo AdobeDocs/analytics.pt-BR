@@ -3,10 +3,11 @@ title: Fluxo de trabalho de rastreamento de campanha
 description: Use o Adobe Analytics para acompanhar seus esforços de marketing.
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
-source-git-commit: c118d42667c4a1af55929834b87d148a5973bed9
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 0%
+source-wordcount: '576'
+ht-degree: 1%
 
 ---
 

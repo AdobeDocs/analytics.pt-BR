@@ -3,10 +3,11 @@ title: charSet
 description: A variável charSet determina qual codificação a Adobe usa para analisar a solicitação de imagem.
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 66%
+source-wordcount: '227'
+ht-degree: 65%
 
 ---
 

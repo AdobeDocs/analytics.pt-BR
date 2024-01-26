@@ -3,9 +3,10 @@ title: trackDownloadLinks
 description: Ative ou desative o rastreamento automático de links para links de download.
 feature: Variables
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '322'
 ht-degree: 59%
 
 ---
@@ -20,7 +21,7 @@ Quando ativado, o AppMeasurement compara qualquer URL de link clicado com os val
 
 Use o [!UICONTROL Ativar a coleta de dados de cliques] caixa de seleção ao configurar o SDK da Web. Essa caixa de seleção lida com links de saída e de download.
 
-1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
 1. Em [!UICONTROL Coleta de dados], clique no link **[!UICONTROL Ativar a coleta de dados de cliques]** caixa de seleção

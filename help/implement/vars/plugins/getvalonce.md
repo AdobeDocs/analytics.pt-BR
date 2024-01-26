@@ -3,9 +3,10 @@ title: getValOnce
 description: Impeça que uma variável do Analytics seja definida com o mesmo valor duas vezes seguidas.
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '668'
 ht-degree: 74%
 
 ---
@@ -16,26 +17,26 @@ ht-degree: 74%
 
 O plug-in `getValOnce` impede que uma variável seja definida com o mesmo valor mais de uma vez. A Adobe recomenda usar esse plug-in quando você deseja desduplicar ocorrências nas quais um visitante atualiza uma página ou visita uma determinada página várias vezes. Esse plug-in é desnecessário se você não se preocupar com a métrica &quot;Ocorrências&quot; no Analysis Workspace.
 
-## Instalar o plug-in usando a extensão Web SDK
+## Instale o plug-in usando a extensão SDK da Web
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o SDK da Web.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
-1. Clique em **[!UICONTROL Tags]** à esquerda, em seguida, clique na propriedade de tag desejada.
-1. Clique em **[!UICONTROL Extensões]** à esquerda, em seguida, clique no botão **[!UICONTROL Catálogo]** guia
-1. Localize e instale o **[!UICONTROL Plug-ins comuns de SDK da Web]** extensão.
-1. Clique em **[!UICONTROL Elementos de dados]** à esquerda, em seguida, clique no elemento de dados desejado.
+1. Clique em **[!UICONTROL Tags]** à esquerda e clique na propriedade de tag desejada.
+1. Clique em **[!UICONTROL Extensões]** à esquerda e, em seguida, clique na guia **[!UICONTROL Catálogo]** guia
+1. Localize e instale o **[!UICONTROL Plug-ins comuns do SDK da Web]** extensão.
+1. Clique em **[!UICONTROL Elementos de dados]** à esquerda e, em seguida, clique no elemento de dados desejado.
 1. Defina o nome do elemento de dados desejado com a seguinte configuração:
-   * Extensão: Plug-ins comuns de SDK da Web
+   * Extensão: plug-ins comuns do SDK da Web
    * Elemento de dados: `getValOnce`
 1. Defina os parâmetros desejados à direita.
 1. Salve e publique as alterações no elemento de dados.
 
-## Instalar o plug-in implementando manualmente o SDK da Web
+## Instale o plug-in implementando manualmente o SDK da Web
 
-Este plug-in ainda não é compatível com o uso em uma implementação manual do SDK da Web.
+Este plug-in ainda não é compatível com uma implementação manual do SDK da Web.
 
-## Instalar o plug-in usando a extensão Adobe Analytics
+## Instale o plug-in usando a extensão Adobe Analytics.
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Adobe Analytics.
 
@@ -101,7 +102,7 @@ s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 
 ### 3.1 (22 de setembro de 2022)
 
-* Correção de um erro para expiração
+* Correção de um erro de expiração
 
 ### 3.0 (19 de março de 2021)
 

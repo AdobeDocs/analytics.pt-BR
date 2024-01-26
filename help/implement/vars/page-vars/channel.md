@@ -3,10 +3,11 @@ title: canal
 description: Preencha a dimensão “Seções do site”.
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 77%
+source-wordcount: '193'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +19,7 @@ A variável `channel` geralmente armazena a seção do site em que uma determina
 
 O canal é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webPageDetails.siteSection`.
 
-## Canal usando a extensão Adobe Analytics
+## Canal usando a extensão do Adobe Analytics
 
 É possível definir um canal ao configurar a extensão do Analytics (variáveis globais) ou sob Regras.
 
@@ -26,12 +27,12 @@ O canal é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/doc
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina as [!UICONTROL Extensão] lista suspensa para o Adobe Analytics e a [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
+5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Canal].
 
 Você pode definir um canal como qualquer valor de string ou elemento de dados.
 
-## s.channel no AppMeasurement e no editor de código personalizado da extensão do Analytics
+## s.channel no AppMeasurement e o editor de código personalizado da extensão do Analytics
 
 A variável `s.channel` é uma string que normalmente contém a seção do site da página. A variável tem um valor máximo de 100 bytes; valores mais longos são truncados.
 

@@ -3,9 +3,10 @@ title: manageVars
 description: Altere os valores de mais de uma variável do Analytics de cada vez.
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '682'
 ht-degree: 88%
 
 ---
@@ -16,11 +17,11 @@ ht-degree: 88%
 
 O plug-in `manageVars` permite manipular os valores de várias variáveis do Analytics de uma só vez. Você também pode definir valores como minúsculas ou remover caracteres desnecessários de múltiplos valores variáveis ao mesmo tempo. A Adobe recomenda usar esse plug-in se você desejar limpar o valor de múltiplas variáveis de uma só vez.
 
-## Instalar o plug-in usando a extensão Web SDK ou Web SDK
+## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
 
-Esse plug-in ainda não é compatível com o uso no SDK da Web.
+Este plug-in ainda não é compatível com o SDK da Web.
 
-## Instalar o plug-in usando a extensão Adobe Analytics
+## Instale o plug-in usando a extensão Adobe Analytics.
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Adobe Analytics.
 
@@ -138,7 +139,7 @@ manageVars("cleanStr");
 
 * Remove a codificação HTML
 * Remove espaços em branco encontrados no início e no fim do valor
-* Substitui aspas simples esquerda/direita por uma aspa simples reta (`'`)
+* Substitui aspas simples esquerda/direita por aspas simples retas (`'`)
 * Substitui caracteres de tabulação e caracteres de nova linha por espaços
 * Substitui todos os espaços duplos (ou triplos etc.) por espaços únicos
 

@@ -3,10 +3,11 @@ title: Comparar métodos de implementação
 description: Veja as vantagens de cada método de envio de dados para o Adobe Analytics.
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+role: Admin, Developer, Leader
+source-git-commit: c476a1a19ae514f75fce8bd8e6d447d85de67a84
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 43%
+source-wordcount: '489'
+ht-degree: 39%
 
 ---
 
@@ -16,13 +17,13 @@ Veja a comparação entre cada método de implementação do Adobe Analytics. Vo
 
 ## Web
 
-| | [AppMeasurement](/help/implement/js/overview.md) | [Extensão do Adobe Analytics](/help/implement/launch/overview.md) | [SDK da Web](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Extensão do SDK da Web](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
+| | [AppMeasurement](/help/implement/js/overview.md) | [Extensão do Adobe Analytics](/help/implement/launch/overview.md) | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Extensão SDK da Web](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
 | --- | --- | --- | --- | --- |
-| Requisitos de implementação | Faça referência ao `AppMeasurement.js` em cada página, defina variáveis e envie dados usando o `s.t()` para o Adobe Analytics | Carregador de tag de referência em cada página, use a interface da Coleção de dados para definir variáveis e enviar dados para a Adobe Analytics | Referência `Alloy.js` em cada página, use `alloy("sendEvent",{})` para compor objetos XDM e enviar os dados desejados usando a Rede de borda para a Adobe Analytics | Carregador de tag de referência em cada página, use a interface da Coleção de dados para compor objetos XDM e enviar os dados desejados usando a Rede de borda para a Adobe Analytics |
+| Requisitos de implementação | Referência `AppMeasurement.js` em cada página, defina variáveis, envie dados usando `s.t()` para o Adobe Analytics | Carregador de tag de referência em cada página, use a interface da Coleção de dados para definir variáveis e enviar dados para a Adobe Analytics | Referência `Alloy.js` em cada página, use `alloy("sendEvent",{})` para compor objetos XDM e enviar os dados desejados usando a Rede de borda para a Adobe Analytics | Carregador de tag de referência em cada página, use a interface da Coleção de dados para compor objetos XDM e enviar os dados desejados usando a Rede de borda para a Adobe Analytics |
 | Destino dos dados | Enviado diretamente para o Adobe Analytics | Enviado diretamente para o Adobe Analytics | Enviado para a Adobe Experience Platform Edge, que encaminha dados para o Adobe Analytics | Enviado para a Adobe Experience Platform Edge, que encaminha dados para o Adobe Analytics |
 | Dificuldade em fazer ajustes de implementação | Requer acesso ao código do site para cada alteração de implementação | Alterar o código do site uma vez para instalar a tag loader; todas as atualizações de implementação adicionais podem ser feitas na interface da Coleção de dados | Requer acesso ao código do site para cada alteração de implementação | Alterar o código do site uma vez para instalar a tag loader; todas as atualizações de implementação adicionais podem ser feitas na interface da Coleção de dados |
 | Como o A4T é tratado | As chamadas do A4T são incluídas nas ocorrências enviadas para a Adobe | As chamadas do A4T são incluídas nas ocorrências enviadas para a Adobe | Chamadas do A4T são enviadas como ocorrências separadas | Chamadas do A4T são enviadas como ocorrências separadas |
-| Dados de contexto | Use `s.contextData`. | Uso `s.contextData` em blocos de código personalizado | Todos os campos não mapeados são enviados automaticamente como `a.x.*` variáveis de dados de contexto. | Todos os campos não mapeados são enviados automaticamente como `a.x.*` variáveis de dados de contexto. |
+| Dados de contexto | Uso `s.contextData`. | Uso `s.contextData` em blocos de código personalizado | Todos os campos não mapeados são enviados automaticamente como `a.x.*` variáveis de dados de contexto. | Todos os campos não mapeados são enviados automaticamente como `a.x.*` variáveis de dados de contexto. |
 
 {style="table-layout:auto"}
 

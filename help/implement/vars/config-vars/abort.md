@@ -3,22 +3,23 @@ title: abort
 description: A variável abort é um booleano que impede que uma ocorrência seja enviada para os servidores de coleta de dados da Adobe.
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 48%
+source-wordcount: '331'
+ht-degree: 44%
 
 ---
 
 # abort
 
-A variável `abort` é um booleano que pode impedir que a próxima chamada de rastreamento seja enviada para a Adobe. Uma funcionalidade semelhante existe no SDK da Web, permitindo retornar `false` antes do envio de um evento XDM.
+A variável `abort` é uma variável do tipo booleano que pode impedir que a próxima chamada de rastreamento seja enviada para o Adobe. Uma funcionalidade semelhante existe no SDK da Web, permitindo retornar `false` antes do envio de um evento XDM.
 
 ## Cancelar o envio de um evento usando a extensão SDK da Web
 
 Use o [!UICONTROL Ativado antes do retorno de chamada do envio do evento] editor de código e retorno `false`.
 
-1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
 1. Em [!UICONTROL Coleta de dados], clique no link **[!UICONTROL Editar no antes do envio do evento código de retorno de chamada]** botão.

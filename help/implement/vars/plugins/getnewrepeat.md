@@ -3,9 +3,10 @@ title: getNewRepeat
 description: Acompanhe a atividade de visitantes novos e repetidos.
 feature: Variables
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '640'
 ht-degree: 74%
 
 ---
@@ -16,26 +17,26 @@ ht-degree: 74%
 
 O plug-in `getNewRepeat` permite determinar se um visitante do site é um novo visitante ou um visitante repetido dentro de um número desejado de dias. A Adobe recomenda usar esse plug-in se você quiser identificar os visitantes como &quot;novos&quot; usando um número personalizado de dias. Esse plug-in é desnecessário se as dimensões Novo/Repetir do visitante no Analysis Workspace atenderem às necessidades da sua organização.
 
-## Instalar o plug-in usando a extensão Web SDK
+## Instale o plug-in usando a extensão SDK da Web
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o SDK da Web.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
-1. Clique em **[!UICONTROL Tags]** à esquerda, em seguida, clique na propriedade de tag desejada.
-1. Clique em **[!UICONTROL Extensões]** à esquerda, em seguida, clique no botão **[!UICONTROL Catálogo]** guia
-1. Localize e instale o **[!UICONTROL Plug-ins comuns de SDK da Web]** extensão.
-1. Clique em **[!UICONTROL Elementos de dados]** à esquerda, em seguida, clique no elemento de dados desejado.
+1. Clique em **[!UICONTROL Tags]** à esquerda e clique na propriedade de tag desejada.
+1. Clique em **[!UICONTROL Extensões]** à esquerda e, em seguida, clique na guia **[!UICONTROL Catálogo]** guia
+1. Localize e instale o **[!UICONTROL Plug-ins comuns do SDK da Web]** extensão.
+1. Clique em **[!UICONTROL Elementos de dados]** à esquerda e, em seguida, clique no elemento de dados desejado.
 1. Defina o nome do elemento de dados desejado com a seguinte configuração:
-   * Extensão: Plug-ins comuns de SDK da Web
+   * Extensão: plug-ins comuns do SDK da Web
    * Elemento de dados: `getNewRepeat`
-1. Defina as `daysBeforeReset` à direita.
+1. Defina o `daysBeforeReset` à direita.
 1. Salve e publique as alterações no elemento de dados.
 
-## Instalar o plug-in implementando manualmente o SDK da Web
+## Instale o plug-in implementando manualmente o SDK da Web
 
-Este plug-in ainda não é compatível com o uso em uma implementação manual do SDK da Web.
+Este plug-in ainda não é compatível com uma implementação manual do SDK da Web.
 
-## Instalar o plug-in usando a extensão Adobe Analytics
+## Instale o plug-in usando a extensão Adobe Analytics.
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Adobe Analytics.
 

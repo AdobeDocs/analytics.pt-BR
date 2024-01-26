@@ -3,10 +3,11 @@ title: AppMeasurement para notas de versão do JavaScript
 description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 92%
+source-wordcount: '2618'
+ht-degree: 89%
 
 ---
 
@@ -20,14 +21,14 @@ Você pode baixar a versão mais recente do AppMeasurement em [GitHub](https://g
 
 ## Versão 2.25.0
 
-Data de lançamento: **12 de setembro de 2023**
+Data de lançamento: **quarta-feira, 12 de setembro de 2023**
 
 * Adição do método opcional [`bufferRequests()`](vars/functions/bufferrequests.md) para aprimorar a confiabilidade de capturar solicitações quando um navegador não é compatível com a API de beacon ou cancela solicitações quando uma página é descarregada.
 * Adição de proteções para evitar vários retornos de chamada pós-rastreamento para uma única solicitação de rastreamento.
 
 ## Versão 2.24.0
 
-Data de lançamento: **18 de julho de 2023**
+Data de lançamento: **quarta-feira, 18 de julho de 2023**
 
 * Adição da variável de configuração opcional [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) para decodificar URLs de links que incluem caracteres codificados com byte duplo.
 * Adição de tratamento de erros para navegadores com APIs de dicas do cliente de usuário-agente de alta entropia e com falha.
@@ -345,7 +346,7 @@ Data de lançamento: **17 de setembro de 2015**
 
 Data de lançamento: **18 de junho de 2015**
 
-* Suporte para API de Visitante 1.5, que usa o método *`getCustomerIDs`* para coletar IDs de cliente e estado autenticado, e envia as IDs com as solicitações de coleta de dados.
+* Suporte para a API de visitante 1.5, que usa a variável *`getCustomerIDs`* para coletar IDs de cliente e estado autenticado, e envia as IDs com as solicitações de coleta de dados.
 * Correção da criação de iframe de destino duplicado no módulo **[!UICONTROL AudienceManagement]** (DIL 6.1)
 * Solucionado o problema conhecido descrito na versão 1.4.5.
 
@@ -353,8 +354,8 @@ Data de lançamento: **18 de junho de 2015**
 
 Data de lançamento: **21 de maio de 2015**
 
-* A partir do iOS SDK versão 4.5, uma nova extensão do iOS permite coletar dados de uso dos aplicativos do Apple Watch, Today Widgets, Photo Editing widgets e todos os outros aplicativos de extensão iOS.
-* A partir do Android SDK versão 4.5, uma nova extensão do Android permite coletar dados do aplicativo vestível Android.
+* A partir do iOS SDK versão 4.5, uma nova extensão do iOS permite coletar dados de uso nos aplicativos do Apple Watch, Today Widgets, Photo Editing widgets e todos os outros aplicativos de extensão do iOS.
+* A partir do Android SDK versão 4.5, uma nova extensão do Android permite coletar dados no seu aplicativo vestível Android.
 * Inclusão da API de Visitante 1.4.
 * Foi atualizado o módulo do AudienceManagement para usar o DIL versão 6.0.
 
@@ -375,7 +376,7 @@ Data de lançamento: **16 de abril de 2015**
 Data de lançamento: **19 de fevereiro de 2015**
 
 * Tornou o gerenciamento do rastreio tardio de chamadas consistente, o que corrigiu problemas com as variáveis revertidas durante o atraso, como por exemplo o objeto clicado.
-* Alteração realizada para que o rastreamento de referenciador não fosse automático após a primeira chamada de rastreamento. Assim, as chamadas de rastreamento subsequentes (geralmente nos rastreamentos em cadeia) não contarão o referenciador duas vezes quando *`s.referrer`* for definido manualmente antes da primeira chamada de rastreamento.
+* Alteração realizada para que o rastreamento de referenciador não fosse automático após a primeira chamada de rastreamento. Assim, as chamadas de rastreamento subsequentes (geralmente em rastreamentos em cadeia) não contarão o referenciador duas vezes quando *`s.referrer`* foi definido manualmente antes da primeira chamada de rastreamento.
 * O zip de distribuição foi atualizado para incluir a API de Visitante 1.3.5.
 
 ## Versão 1.4.2

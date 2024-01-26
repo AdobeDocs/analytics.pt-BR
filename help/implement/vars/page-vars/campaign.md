@@ -3,9 +3,10 @@ title: campaign
 description: Preencha a dimensão “Código de rastreamento”.
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '239'
 ht-degree: 68%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 68%
 
 A variável `campaign` é dedicada à coleta de códigos de rastreamento no site. Em versões anteriores do Adobe Analytics, ele tinha um tratamento especial, podendo ser usado como um detalhamento na maioria das dimensões. Na versão atual do Adobe Analytics, ela age de forma idêntica a uma eVar.
 
-Essa variável preenche a variável [Código de rastreamento](/help/components/dimensions/tracking-code.md) dimensão. Normalmente, ele obtém seu valor de uma string de consulta usando a variável [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) método de utilitário. No entanto, sua organização determina exatamente como definir essa variável.
+Essa variável preenche o [Código de rastreamento](/help/components/dimensions/tracking-code.md) dimensão. Normalmente, ele obtém o valor de uma sequência de consulta usando o [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) método de utilitário. No entanto, sua organização determina exatamente como definir essa variável.
 
-## Campanha usando o SDK da Web
+## Campaign usando o SDK da Web
 
-A campanha é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `marketing.trackingCode`.
+A campanha está [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `marketing.trackingCode`.
 
-## Campanha usando a extensão Adobe Analytics
+## Campanha usando a extensão do Adobe Analytics
 
 Você pode definir a campanha ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
@@ -28,7 +29,7 @@ Você pode definir a campanha ao configurar a extensão do Analytics (variáveis
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina as [!UICONTROL Extensão] lista suspensa para o Adobe Analytics e a [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
+5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Campanha].
 
 Você pode definir a campanha como um valor ou parâmetro do tipo string.

@@ -3,10 +3,11 @@ title: visitorID
 description: Use uma ID de visitante personalizada.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 71%
+source-wordcount: '333'
+ht-degree: 72%
 
 ---
 
@@ -47,4 +48,4 @@ s.visitorID = "abc123";
 
 ## ID de visitante usando o SDK da Web e o Experience Edge
 
-O Experience Edge permite fornecer vários identificadores usando XDMs [Mapa de identidade](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). Cada identidade em um Mapa de identidade tem um namespace diferente. Você pode especificar qual namespace deve ser usado para a ID de visitante como parte de [configuração da sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-BR#analytics). Após a configuração, ao enviar um evento com um valor especificado para esse namespace, ele será usado automaticamente como a ID do visitante no Analytics.
+O Experience Edge permite fornecer vários identificadores usando XDMs [Mapa de identidade](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). Cada identidade em um Mapa de identidade tem um namespace diferente. Você pode especificar qual namespace deve ser usado para a ID de visitante como parte de [configuração da sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). Após a configuração, ao enviar um evento com um valor especificado para esse namespace, ele será usado automaticamente como a ID do visitante no Analytics.

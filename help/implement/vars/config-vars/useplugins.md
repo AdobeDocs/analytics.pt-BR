@@ -3,10 +3,11 @@ title: usePlugins
 description: Ative ou desative a função doPlugins().
 feature: Variables
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 33%
+source-wordcount: '172'
+ht-degree: 34%
 
 ---
 
@@ -16,13 +17,13 @@ Se `usePlugins` estiver ativada, a função [`doPlugins()`](../functions/doplugi
 
 ## Use o `onBeforeEventSend` retorno de chamada usando o SDK da Web
 
-Embora o SDK da Web não tenha um booleano para lidar com a execução de lógica adicional antes que os dados sejam enviados para o Adobe, você pode registrar a variável `onBeforeEventSend` retorno de chamada para modificar dados. Consulte [Modificação global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
+Embora o SDK da Web não tenha um booliano para lidar com a execução de lógica adicional antes que os dados sejam enviados para o Adobe, você pode registrar a variável `onBeforeEventSend` retorno de chamada para modificar dados. Consulte [Modificação global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
 
 ## Usar plug-ins usando a extensão Adobe Analytics
 
-O Adobe fornece uma extensão chamada &quot;Plug-ins comuns do Analytics&quot; que permite que você chame a maioria das vezes [Plug-ins](../plugins/impl-plugins.md). Instale a extensão e chame o plug-in desejado em uma regra.
+O Adobe fornece uma extensão chamada &quot;Plug-ins comuns do Analytics&quot; que permite que você chame a maioria [Plug-ins](../plugins/impl-plugins.md). Instale a extensão e chame o plug-in desejado em uma regra.
 
-Se o plug-in desejado não estiver incluído na extensão do Adobe, use o editor de código personalizado após a sintaxe do AppMeasurement.
+Se o plug-in desejado não estiver incluído na extensão Adobe, use o editor de código personalizado após a sintaxe do AppMeasurement.
 
 ## s.usePlugins no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

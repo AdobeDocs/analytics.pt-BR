@@ -3,10 +3,11 @@ title: Defina os cinco principais KPIs
 description: Verifique se os principais indicadores de desempenho e as métricas e dimensões associadas estão alinhados às suas necessidades comerciais.
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+role: Admin, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 80%
 
 ---
 

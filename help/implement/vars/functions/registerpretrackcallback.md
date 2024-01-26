@@ -3,10 +3,11 @@ title: registerPreTrackCallback
 description: Crie funções de retorno de chamada após enviar uma ocorrência para a Adobe.
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 58%
+source-wordcount: '417'
+ht-degree: 55%
 
 ---
 
@@ -30,7 +31,7 @@ O SDK da Web não pode interceptar uma função após a compilação de dados, m
 
 1. Faça logon no [Coleta de dados do Adobe Experience Platform](https://experience.adobe.com/br/data-collection) Interface do usuário do usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**[!UICONTROL , no SDK da Web da Adobe Experience Platform].
+1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
 1. Em [!UICONTROL Coleta de dados], clique no link **[!UICONTROL Editar no antes do envio do evento código de retorno de chamada]** botão.
 1. Coloque o código desejado no editor.
 

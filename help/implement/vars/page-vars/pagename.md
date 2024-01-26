@@ -3,9 +3,10 @@ title: pageName
 description: O nome da página do seu site.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '257'
 ht-degree: 81%
 
 ---
@@ -24,7 +25,7 @@ Se essa variável não for definida em uma chamada de rastreamento de página es
 
 A página é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webPageDetails.name`.
 
-## Nome da página usando a extensão Adobe Analytics
+## Nome da página usando a extensão do Adobe Analytics
 
 Você pode definir o nome da página ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 
@@ -32,7 +33,7 @@ Você pode definir o nome da página ao configurar a extensão do Analytics (var
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina as [!UICONTROL Extensão] lista suspensa para o Adobe Analytics e a [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
+5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Nome da página].
 
 É possível definir o nome da página como qualquer valor de string, incluindo elementos de dados.

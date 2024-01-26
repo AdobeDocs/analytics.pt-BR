@@ -3,7 +3,8 @@ title: Perguntas frequentes sobre a identificação de visitantes entre disposit
 description: Perguntas frequentes sobre identificação de visitantes entre dispositivos
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Perguntas frequentes sobre a identificação de visitantes entre dispositivos
 
-Perguntas frequentes sobre identificação de visitantes entre dispositivos.
+Perguntas frequentes sobre a identificação de visitantes entre dispositivos.
 
 +++Qual é a diferença entre a identificação de visitantes em vários dispositivos e o Cross-Device Analytics?
 A identificação de visitantes entre dispositivos usa a variável `visitorID` para unir dispositivos, com várias limitações principais. Uma das maiores limitações desse método é que as ocorrências não autenticadas são isoladas, a menos que o dispositivo já tenha sido reconhecido. Essas ocorrências não autenticadas podem aumentar as contagens de visitantes únicos.

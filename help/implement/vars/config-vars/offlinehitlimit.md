@@ -3,7 +3,8 @@ title: offlineHitLimit
 description: Determine o número máximo de ocorrências a serem colocadas em fila para rastreamento offline.
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 88%
@@ -20,7 +21,7 @@ A variável `offlineHitLimit` coloca um limite no número de ocorrências que o 
 
 Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 
-## s.offlineHitLimit no AppMeasurement e no editor de código personalizado da extensão do Analytics
+## s.offlineHitLimit no AppMeasurement e o editor de código personalizado da extensão do Analytics
 
 A variável `s.offlineHitLimit` é um número inteiro que representa o número máximo de ocorrências que um dispositivo armazena enquanto está offline. Se essa variável não estiver definida, não há limite para o número de ocorrências que um dispositivo armazena quando está offline.
 

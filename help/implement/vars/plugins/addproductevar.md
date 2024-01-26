@@ -3,7 +3,8 @@ title: addProductEvar
 description: Adiciona eVars de merchandising à variável products.
 feature: Variables
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 87%
@@ -20,11 +21,11 @@ O plug-in `addProductEvar` permite adicionar facilmente uma eVar de merchandisin
 >
 >Esse plug-in não substitui eVars que já existem em uma entrada de produto. Ele anexa apenas valores que você define usando o plug-in. Tenha cuidado ao anexar eVars que já existem para esse produto.
 
-## Instalar o plug-in usando a extensão Web SDK ou Web SDK
+## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
 
-Esse plug-in ainda não é compatível com o uso no SDK da Web.
+Este plug-in ainda não é compatível com o SDK da Web.
 
-## Instalar o plug-in usando a extensão Adobe Analytics
+## Instale o plug-in usando a extensão Adobe Analytics.
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Adobe Analytics.
 

@@ -3,10 +3,11 @@ title: getPageName
 description: Crie um pageName fácil de ler a partir do caminho do site atual.
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 76%
+source-wordcount: '684'
+ht-degree: 75%
 
 ---
 
@@ -16,26 +17,26 @@ ht-degree: 76%
 
 O plug-in `getPageName` cria uma versão formatada amigável e fácil de ler do URL atual. A Adobe recomenda usar esse plug-in se você quiser um valor de [`pageName`](../page-vars/pagename.md) fácil de definir e de entender nos relatórios. Esse plug-in será desnecessário se você já tiver uma estrutura de nomeação para a variável `pageName`, como por meio de uma camada de dados. Ele é melhor usado quando você não tem outra solução para definir a variável `pageName`.
 
-## Instalar o plug-in usando a extensão Web SDK
+## Instale o plug-in usando a extensão SDK da Web
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o SDK da Web.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
-1. Clique em **[!UICONTROL Tags]** à esquerda, em seguida, clique na propriedade de tag desejada.
-1. Clique em **[!UICONTROL Extensões]** à esquerda, em seguida, clique no botão **[!UICONTROL Catálogo]** guia
-1. Localize e instale o **[!UICONTROL Plug-ins comuns de SDK da Web]** extensão.
-1. Clique em **[!UICONTROL Elementos de dados]** à esquerda, em seguida, clique no elemento de dados desejado.
+1. Clique em **[!UICONTROL Tags]** à esquerda e clique na propriedade de tag desejada.
+1. Clique em **[!UICONTROL Extensões]** à esquerda e, em seguida, clique na guia **[!UICONTROL Catálogo]** guia
+1. Localize e instale o **[!UICONTROL Plug-ins comuns do SDK da Web]** extensão.
+1. Clique em **[!UICONTROL Elementos de dados]** à esquerda e, em seguida, clique no elemento de dados desejado.
 1. Defina o nome do elemento de dados desejado com a seguinte configuração:
-   * Extensão: Plug-ins comuns de SDK da Web
+   * Extensão: plug-ins comuns do SDK da Web
    * Elemento de dados: `getPageName`
 1. Defina os parâmetros desejados à direita.
 1. Salve e publique as alterações no elemento de dados.
 
-## Instalar o plug-in implementando manualmente o SDK da Web
+## Instale o plug-in implementando manualmente o SDK da Web
 
-Este plug-in ainda não é compatível com o uso em uma implementação manual do SDK da Web.
+Este plug-in ainda não é compatível com uma implementação manual do SDK da Web.
 
-## Instalar o plug-in usando a extensão Adobe Analytics
+## Instale o plug-in usando a extensão Adobe Analytics.
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Adobe Analytics.
 

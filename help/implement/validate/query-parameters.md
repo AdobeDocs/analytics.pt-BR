@@ -3,9 +3,10 @@ title: Parâmetros de consulta para coleta de dados
 description: Lista todos os parâmetros da cadeia de caracteres de consulta usados em solicitações de imagem.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '722'
 ht-degree: 100%
 
 ---

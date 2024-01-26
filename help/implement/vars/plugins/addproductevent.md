@@ -3,9 +3,10 @@ title: addProductEvent
 description: Adiciona eventos personalizados às variáveis products e events.
 feature: Variables
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '491'
 ht-degree: 86%
 
 ---
@@ -16,11 +17,11 @@ ht-degree: 86%
 
 O plug-in `addProductEvent` adiciona um evento numérico ou de moeda à variável [`products`](../page-vars/products.md). A Adobe recomenda usar esse plug-in se você quiser adicionar um evento numérico ou de moeda à variável `products` sem se preocupar com o formato da string do produto. Esse plug-in não é necessário se você não usar eventos numéricos ou de moeda na variável `products`.
 
-## Instalar o plug-in usando a extensão Web SDK ou Web SDK
+## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
 
-Esse plug-in ainda não é compatível com o uso no SDK da Web.
+Este plug-in ainda não é compatível com o SDK da Web.
 
-## Instalar o plug-in usando a extensão Adobe Analytics
+## Instale o plug-in usando a extensão Adobe Analytics.
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Adobe Analytics.
 

@@ -3,9 +3,10 @@ title: Util.cookieRead
 description: Obtém o valor de um cookie.
 feature: Variables
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 72%
 
 ---
@@ -14,14 +15,14 @@ ht-degree: 72%
 
 Os cookies podem armazenar e recuperar informações em páginas no mesmo domínio. Use o método `Util.cookieRead()` para recuperar um valor de um cookie.
 
-## Leia cookies usando a extensão Adobe Analytics e a extensão Web SDK
+## Ler cookies usando a extensão do Adobe Analytics e a extensão SDK da Web
 
 É possível ler cookies definindo valores em elementos de dados.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Elementos de dados] e clique no elemento de dados desejado (ou crie um elemento de dados).
-4. Defina as [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Núcleo]** e o [!UICONTROL Tipo de elemento de dados] para **[!UICONTROL Cookie]**.
+4. Defina o [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Núcleo]**, e o [!UICONTROL Tipo de elemento de dados] para **[!UICONTROL Cookie]**.
 5. Digite o nome do cookie no campo de texto.
 
 O valor do cookie é armazenado no elemento de dados. Você pode fazer referência ao elemento de dados nas regras para atribuir as variáveis desejadas.

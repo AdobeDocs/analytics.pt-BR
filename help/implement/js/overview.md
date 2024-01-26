@@ -3,10 +3,11 @@ title: Implementar o Adobe Analytics com AppMeasurement para JavaScript
 description: Saiba como implementar o Adobe Analytics usando JavaScript sem um sistema de gerenciamento de tags.
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 56%
+ht-degree: 42%
 
 ---
 
@@ -25,7 +26,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 </tr>
 
 <tr>
-<td>1</td><td>Certifique-se de que você <b>definiu um conjunto de relatórios</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
+<td>1</td><td>Verifique se você tem <b>definiu um conjunto de relatórios</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>
@@ -46,7 +47,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 </tr>
 
 <tr>
-<td>4</td><td><b>Defina as variáveis de configuração em <code>AppMeasurement.js</code></b>. Quando o objeto do Analytics é instanciado, essas variáveis garantem que as configurações de coleta de dados estejam corretas.
+<td>4</td><td><b>Definir variáveis de configuração em <code>AppMeasurement.js</code></b>. Quando o objeto do Analytics é instanciado, essas variáveis garantem que as configurações de coleta de dados estejam corretas.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -61,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Defina variáveis de nível de página no código de página do site</b>. Essas variáveis determinam dimensões e métricas específicas enviadas para a Adobe.
+<td>5</td><td><b>Defina variáveis de nível de página no código de página do site</b>. Essas variáveis determinam dimensões e métricas específicas enviadas para o Adobe.
 
 ```js
 s.pageName = "Example page";

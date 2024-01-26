@@ -3,10 +3,11 @@ title: Implementação com AMP
 description: Implementar o Adobe Analytics em páginas AMP.
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-source-git-commit: 4c75275f9abbff6b9a5a25be370eabc2801eb7fb
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 73%
+source-wordcount: '919'
+ht-degree: 70%
 
 ---
 
@@ -78,7 +79,7 @@ No código de exemplo a seguir, há dois disparadores definidos: `pageLoad` e `c
 </amp-analytics>
 ```
 
-A variável `<amp-analytics>` A tag do suporta substituições de variáveis para que o AMP possa fornecer valores de dados conhecidos. Consulte [variáveis compatíveis com `amp-analytics` no GitHub para obter mais informações.](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)
+A variável `<amp-analytics>` A tag do suporta substituições de variáveis para que o AMP possa fornecer valores de dados conhecidos. Consulte [variáveis compatíveis com o `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) no GitHub para obter mais informações.
 
 >[!NOTE]
 >
@@ -146,7 +147,7 @@ Uma página HTML hospedada nos servidores da Web também é necessária:
 
 Essa abordagem envia dados a uma página da Web de utilitário por meio de parâmetros de cadeias de caracteres de consulta especiais adicionados ao parâmetro de solicitação `iframeMessage`. Esses parâmetros de cadeias de caracteres de consulta podem ser nomeados quando desejar, contanto que a página `stats.html` esteja configurada para coletar os dados apropriados.
 
-O modelo `"adobeanalytics_nativeConfig"` também adiciona parâmetros da cadeia de caracteres de consulta com base nas variáveis listadas na seção `extraUrlParams` da tag `<amp-analytics>` No exemplo acima, os parâmetros `pageName` e `v1` são incluídos.
+A variável `"adobeanalytics_nativeConfig"` O modelo também adiciona parâmetros da sequência de consulta com base nas variáveis listadas no `extraUrlParams` seção do `<amp-analytics>` tag. No exemplo acima, os parâmetros `pageName` e `v1` são incluídos.
 
 >[!IMPORTANT]
 >

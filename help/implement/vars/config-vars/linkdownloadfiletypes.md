@@ -3,10 +3,11 @@ title: linkDownloadFileTypes
 description: Determine as extensões de arquivo que são automaticamente rastreadas como links de download.
 feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 56%
+source-wordcount: '392'
+ht-degree: 55%
 
 ---
 
@@ -33,7 +34,7 @@ Se um link clicado corresponder aos critérios do link de saída e do link de do
 
 A variável [!UICONTROL Qualificador de link de download] o campo de texto usa regex para determinar se um link clicado se qualifica para ser um link de download.
 
-1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
 1. Em [!UICONTROL Coleta de dados], defina o valor desejado no campo **[!UICONTROL Qualificador de link de download]** campo de texto.

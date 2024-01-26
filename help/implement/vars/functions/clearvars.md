@@ -1,12 +1,13 @@
 ---
 title: clearVars
-description: Apaga os valores a seguir do objeto da instância. Essa função remove os elementos (define-os como "indefinidos").
+description: Limpar valores do objeto da instância.
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 72%
+source-wordcount: '186'
+ht-degree: 67%
 
 ---
 
@@ -33,7 +34,7 @@ Esse método não aceita argumentos e não retorna nenhum valor. Sua única fina
 
 Ao enviar dados para o Adobe usando o SDK da Web, todos os dados XDM são apagados automaticamente.
 
-## Limpar variáveis usando a extensão Adobe Analytics
+## Limpar variáveis usando a extensão do Adobe Analytics
 
 Defina a ação Limpar variáveis ao configurar uma regra.
 
@@ -41,7 +42,7 @@ Defina a ação Limpar variáveis ao configurar uma regra.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique no ícone “+”
-5. Defina as [!UICONTROL Extensão] lista suspensa para o Adobe Analytics e a [!UICONTROL Tipo de ação] para [!UICONTROL Limpar variáveis].
+5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Limpar variáveis].
 
 ## s.clearVars() no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

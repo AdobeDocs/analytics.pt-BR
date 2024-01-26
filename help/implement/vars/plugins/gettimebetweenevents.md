@@ -3,9 +3,10 @@ title: getTimeBetweenEvents
 description: Meça a quantidade de tempo entre dois eventos.
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 91%
 
 ---
@@ -16,11 +17,11 @@ ht-degree: 91%
 
 O plug-in `getTimeBetweenEvents` permite rastrear a quantidade de tempo entre dois eventos do Analytics, incluindo o carrinho de compras e eventos personalizados. É útil para rastrear a quantidade de tempo que um processo de finalização leva para ser concluído, ou para qualquer outro processo que você deseja medir o tempo. Este plug-in é desnecessário se não houver nenhum processo de conversão cujo tempo de execução você queira medir.
 
-## Instalar o plug-in usando a extensão Web SDK ou Web SDK
+## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
 
-Esse plug-in ainda não é compatível com o uso no SDK da Web.
+Este plug-in ainda não é compatível com o SDK da Web.
 
-## Instalar o plug-in usando a extensão Adobe Analytics
+## Instale o plug-in usando a extensão Adobe Analytics.
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Adobe Analytics.
 
@@ -66,9 +67,9 @@ A função `getTimeBetweenEvents` usa os seguintes argumentos:
 * **`stp`** (obrigatório, string): eventos de parada de cronômetro. Uma string delimitada por vírgulas composta por eventos do Analytics para os quais deve-se &quot;Parar o cronômetro&quot;.
 * **`res`** (obrigatório, booleano): opção para reiniciar o cronômetro. Defina para `true` se quiser gravar o tempo corrido pelo cronômetro e reiniciá-lo depois que ele parar. Defina como `false` se você deseja gravar a hora, mas não deseja parar o cronômetro. Se estiver definido como `false`, o cronômetro continua sendo executado depois que a variável de eventos registra um evento stop.
 
-   >[!TIP]
-   >
-   >Se você definir esse argumento como `false`, é altamente recomendável configurar o argumento `rte` abaixo.
+  >[!TIP]
+  >
+  >Se você definir esse argumento como `false`, é altamente recomendável configurar o argumento `rte` abaixo.
 * **`cn`** (opcional, string): o nome do cookie no qual a hora do primeiro evento é armazenada. O padrão é `"s_tbe"`.
 * **`etd`** (opcional, número inteiro): a expiração do cookie em dias. Defina como `0` para que expire no final da sessão do navegador. O padrão é 1 dia quando não está definido.
 * **`fmt`** (opcional, string): o formato de tempo em que o número de segundos é retornado (o padrão é não ter valor)

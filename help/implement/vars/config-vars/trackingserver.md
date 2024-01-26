@@ -3,10 +3,11 @@ title: trackingServer
 description: Defina para que local as solicitações de imagens são enviadas.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 74%
+source-wordcount: '540'
+ht-degree: 72%
 
 ---
 
@@ -22,7 +23,7 @@ A Adobe coleta dados em seu site recebendo uma solicitação de imagem gerada pe
 
 O SDK da Web usa [!UICONTROL Domínio de borda] para lidar com o Servidor de rastreamento e o Servidor de rastreamento seguro. É possível definir as configurações [!UICONTROL Domínio de borda] ao configurar a extensão SDK da Web.
 
-1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
 1. Defina o desejado **[!UICONTROL Domínio de borda]** campo de texto.
@@ -54,7 +55,7 @@ Servidor de rastreamento é um campo sob a opção [!UICONTROL Geral] ao configu
 
 Se esse campo ficar em branco, o padrão será `[rsid].data.adobedc.net`.
 
-## s.trackingServer no AppMeasurement e no editor de código personalizado da extensão do Analytics
+## s.trackingServer no AppMeasurement e o editor de código personalizado da extensão do Analytics
 
 A varável `s.trackingServer` é uma string que contém o local para o envio de dados.
 

@@ -3,9 +3,10 @@ title: Solução de problemas de implementação do JavaScript
 description: Saiba mais sobre problemas comuns e práticas recomendadas para solucionar problemas da implementação do JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 97%
 
 ---
@@ -89,22 +90,22 @@ As implementações que preenchem muitas variáveis com valores longos às vezes
 * **Usar o serviço da Experience Cloud ID**: as bibliotecas do AppMeasurement 1.4.1 e posteriores enviam automaticamente solicitações de imagem usando o POST HTTP se forem muito longas. Os dados enviados usando esse método não são truncados independentemente do comprimento. Consulte [Serviço da Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) para obter mais informações.
 * **Usar regras de processamento**: as [as regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) podem copiar valores de uma variável para outra. Esse método evita que você defina o mesmo valor em várias variáveis. Por exemplo:
 
-   Sempre executar:<br>
+  Sempre executar:<br>
 Substituir valor de prop1 por eVar1<br> Substituir valor de eVar2 por eVar1<br> Substituir valor de prop2 por eVar1<br>
 
-   Em seguida, defina a eVar 1 na sua implementação:
+  Em seguida, defina a eVar 1 na sua implementação:
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  ```
 
 * **Usar variáveis dinâmicas**: se a sua implementação preencher muitas variáveis com o mesmo valor, você poderá usar [variáveis dinâmicas](/help/implement/vars/page-vars/dynamic-variables.md) para encurtar o URL da solicitação:
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   s.eVar2 = "D=v1";
-   s.prop1 = "D=v1";
-   s.prop2 = "D=v1";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  s.eVar2 = "D=v1";
+  s.prop1 = "D=v1";
+  s.prop2 = "D=v1";
+  ```
 
 * **Usar classificações**: se os nomes de produtos ou páginas forem longos, você poderá usar um valor ou código de identificação e, em seguida, usar [classificações](/help/components/classifications/c-classifications.md) para exibir um nome mais simples.
