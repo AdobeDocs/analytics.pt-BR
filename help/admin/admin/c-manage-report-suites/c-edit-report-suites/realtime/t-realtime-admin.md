@@ -3,10 +3,10 @@ description: Etapas administrativas para configurar relatórios em tempo real.
 title: Configuração de relatórios em tempo real
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 90%
+source-wordcount: '288'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 Etapas administrativas para configurar relatórios em tempo real.
 
-Configurar relatórios em tempo real no Adobe Analytics consiste em selecionar o conjunto de relatórios e configurar até três relatórios para ele.
+Configurar relatórios em tempo real no Adobe Analytics consiste em selecionar o conjunto de relatórios e configurar até três relatórios para ele. Por padrão, todos os usuários possuem acesso aos Relatórios em tempo real.
 
 1. Selecione o conjunto de relatórios para o qual você deseja ativar os relatórios em tempo real.
 
@@ -53,8 +53,11 @@ Configurar relatórios em tempo real no Adobe Analytics consiste em selecionar o
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Clique em **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e exibir relatório]**.
+1. Clique em **[!UICONTROL Salvar]**.
 
    Após essa configuração inicial de relatório, pode levar até 20 minutos para que o streaming de dados tenha início. A partir de então, os dados ficam imediatamente disponíveis.
 
-1. Por padrão, todos os usuários possuem acesso aos Relatórios em tempo real.
+1. Para exibir o relatório em tempo real, navegue até:
+
+   **[!UICONTROL Workspace]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Envolvimento]** > **[!UICONTROL Tempo real]**.
+
