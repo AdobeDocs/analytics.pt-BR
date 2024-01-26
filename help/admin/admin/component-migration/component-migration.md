@@ -3,10 +3,10 @@ description: Explica como migrar componentes e projetos do Adobe Analytics para 
 title: Migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 31487111111575e267306d5f68eede23276e79a8
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 3%
+source-wordcount: '1389'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Antes de migrar qualquer projeto para o Customer Journey Analytics, saiba mais s
 >
 >Antes de migrar qualquer projeto para o Customer Journey Analytics conforme descrito nesta seção, saiba mais sobre a migração de projetos na [Preparar-se para migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->Quaisquer dimensões ou métricas mapeadas são permanentes, tanto para este projeto quanto para todos os projetos futuros migrados em toda a organização. Os mapeamentos criados não poderão ser modificados após a conclusão da migração.
+>Quaisquer dimensões ou métricas mapeadas são permanentes, tanto para este projeto quanto para todos os projetos futuros migrados em toda a organização IMS. Os mapeamentos criados não poderão ser modificados após a conclusão da migração.
 
 1. No Adobe Analytics, selecione a guia [!UICONTROL **Administrador**] e escolha [!UICONTROL **Todos os administradores**].
 
@@ -58,7 +58,7 @@ Antes de migrar qualquer projeto para o Customer Journey Analytics, saiba mais s
 
 1. No [!UICONTROL **Proprietário do projeto**] comece digitando o nome do usuário que deseja definir como proprietário do projeto no Customer Journey Analytics e selecione o nome no menu suspenso.
 
-   O proprietário especificado tem todos os direitos de gerenciamento do projeto.
+   O proprietário especificado tem direitos totais de gerenciamento ao projeto.
 
 1. No [!UICONTROL **Mapear esquema para conjuntos de relatórios**] selecione um conjunto de relatórios.
 
@@ -160,7 +160,7 @@ Você pode filtrar pelos seguintes critérios:
 | [!UICONTROL **Tags**] | Selecione tags na lista. Somente os projetos que têm as tags selecionadas aplicadas são exibidos. |
 | [!UICONTROL **Conjunto de relatórios**] | Selecione qualquer conjunto de relatórios na lista de conjuntos de relatórios. Somente os projetos que usam os conjuntos de relatórios selecionados são exibidos. |
 | [!UICONTROL **Proprietários**] | Selecione qualquer proprietário na lista de proprietários. Somente projetos pertencentes aos usuários selecionados são exibidos. |
-| [!UICONTROL **Outros filtros**] | Os seguintes filtros adicionais estão disponíveis: <ul><li>[!UICONTROL **Meus**]: mostra somente projetos nos quais você está definido como proprietário.</li><li>[!UICONTROL **Compartilhado comigo**]: mostra somente projetos que foram compartilhados com você.</li><li>[!UICONTROL **Favoritos**]: mostra somente os projetos marcados como favoritos. (Você pode marcar um projeto como favorito na [página de aterrissagem do projeto](/help/analyze/landing.md).)</li><li>[!UICONTROL **Mensalmente**]</li><li>[!UICONTROL **Anualmente**]</li></ul> |
+| [!UICONTROL **Outros filtros**] | Os seguintes filtros adicionais estão disponíveis: <ul><li>[!UICONTROL **Meus**]: mostra somente projetos nos quais você está definido como proprietário.</li><li>[!UICONTROL **Compartilhado comigo**]: mostra somente projetos que foram compartilhados com você.</li><li>[!UICONTROL **Favoritos**]: mostra somente os projetos marcados como favoritos. (Você pode marcar um projeto como favorito na [página de aterrissagem do projeto](/help/analyze/landing.md).)</li><li>[!UICONTROL **Mensal**]</li><li>[!UICONTROL **Anual**]</li></ul> |
 
 {style="table-layout:auto"}
 
