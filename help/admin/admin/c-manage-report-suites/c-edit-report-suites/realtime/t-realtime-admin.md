@@ -3,10 +3,10 @@ description: Etapas administrativas para configurar relatórios em tempo real.
 title: Configuração de relatórios em tempo real
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
+source-git-commit: f1dde3a475fe1276fd9abbe1bdafd6723701f2cb
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 86%
+source-wordcount: '219'
+ht-degree: 77%
 
 ---
 
@@ -18,19 +18,10 @@ Configurar relatórios em tempo real no Adobe Analytics consiste em selecionar o
 
 1. Selecione o conjunto de relatórios para o qual você deseja ativar os relatórios em tempo real.
 
-   Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Exibir todos os relatórios > Métricas do site]** > **[!UICONTROL Tempo real]** e selecione o conjunto de relatórios do menu suspenso no início da página:
+   Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Administração > Conjuntos de relatórios]**.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Tempo real]**.
 
-   Se você tentar exibir relatórios em tempo real para um conjunto de relatórios não configurado para relatórios em tempo real, uma mensagem exibe que você configurou o conjunto de relatórios.
-
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
-
-1. Clique em **[!UICONTROL Configurar]** (ícone de engrenagem) para executar o [!UICONTROL Gerenciador de conjunto de relatórios].
-
-   (Também disponível em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador > Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Tempo real]**.)
-
-1. Ative a configuração **[!UICONTROL Ativar tempo real]**.
 1. Configure a coleção de dados em tempo real para até três relatórios, com uma métrica e três dimensões ou classificações por relatório.
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
