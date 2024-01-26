@@ -3,9 +3,10 @@ description: Adicione ou gerencie todos os alertas de uso de chamadas do servido
 title: Alertas de uso de chamadas do servidor
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 100%
 
 ---
@@ -13,8 +14,6 @@ ht-degree: 100%
 # Alertas de uso de chamadas do servidor
 
 Ao definir um alerta, ele é aplicado a todos os conjuntos de relatórios em todas as empresas de logon de uma empresa de Faturamento.
-
-## Visão geral
 
 Uma nova categoria chamada **[!UICONTROL Alerta de uso de chamadas do servidor]** será adicionada à interface do usuário de [Gerenciamento de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=pt-BR) atual.
 
@@ -31,7 +30,7 @@ Você pode acessar alertas de uso de chamadas do servidor de duas maneiras:
 * Clique em **[!UICONTROL Gerenciar alertas]** no canto superior direito da guia Uso atual ou na guia de uso do Conjunto de relatórios, ou
 * Navegue até **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** no Adobe Analytics.
 
-## Criar alertas de uso de chamadas do servidor {#section_2A2882C6D48D47C1944D52FB7C766BEC}
+## Criar alertas de uso de chamadas do servidor {#create}
 
 Para criar alertas adicionais,
 
@@ -58,7 +57,7 @@ Especifique o limite e a condição (está acima ou é igual a, ou está abaixo 
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Gerenciar alertas de uso de chamadas do servidor {#section_8FF98170763C4B5CBEC6DD43F893177A}
+## Gerenciar alertas de uso de chamadas do servidor {#manage}
 
 ![](/help/admin/admin/c-server-call-usage/assets/alert_mgmt.png)
 
@@ -75,5 +74,7 @@ Para gerenciar alertas:
    | Renomear | É possível renomear todos os alertas, exceto os padrões. |
    | Aprovar | Aprove alertas para “oficializá-los”. |
    | Habilitar/Desabilitar | É possível habilitar ou desabilitar todos os alertas, incluindo os padrões. |
-   | Renovar | Quando um ou mais alertas são selecionados, eles podem ser renovados. Isso estende as datas de expiração em 1 ano a partir do dia de [!UICONTROL Renovação], independentemente da data de expiração original. |
+   | Renovar | Quando um ou mais alertas são selecionados, eles podem ser renovados. Isso estende as datas de expiração em 1 ano a partir do dia da [!UICONTROL Renovação], independentemente da data de expiração original. |
    | Exportar para CSV | Consulte [Baixar relatório de uso](/help/admin/admin/c-server-call-usage/report-suite-usage.md) |
+
+   {style="table-layout:auto"}

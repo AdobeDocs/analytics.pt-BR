@@ -3,14 +3,15 @@ description: Saiba como desabilitar os logins herdados para usuários do Analyti
 title: Desabilitar logons herdados
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# Desabilitar logons herdados{#disable-legacy-logins}
+# Desabilitar logons herdados
 
 Saiba como desabilitar os logins herdados para usuários do Analytics.
 

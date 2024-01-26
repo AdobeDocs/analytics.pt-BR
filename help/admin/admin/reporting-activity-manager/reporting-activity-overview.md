@@ -1,11 +1,13 @@
 ---
 description: Saiba mais sobre como usar o Gerente de atividade de relatórios para diagnosticar e corrigir problemas de capacidade durante o pico dos relatórios.
-title: Gerenciador de Atividades de relatórios visão geral
+title: Visão geral do Gerenciador de atividades de relatórios
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 23%
+ht-degree: 15%
 
 ---
 
@@ -13,7 +15,7 @@ ht-degree: 23%
 
 A variável [!UICONTROL Gerenciador de atividades de relatórios] O está disponível para administradores do.
 
-Se a sua organização sofrer uma degradação no desempenho dos relatórios durante o pico dos relatórios, o Gerenciador de atividades de relatórios permitirá que você faça um autodiagnóstico e corrija problemas de capacidade sem a intervenção do Atendimento ao cliente do Adobe. Você pode gerenciar facilmente as filas de relatórios em uma única interface e agir imediatamente para melhorar a experiência dos usuários.
+Se a sua organização sofrer uma degradação no desempenho dos relatórios durante o pico dos relatórios, o Gerenciador de atividades de relatórios permitirá que você faça um autodiagnóstico e corrija problemas de capacidade sem a intervenção do Atendimento ao cliente do Adobe. Você pode gerenciar facilmente as filas de relatórios em uma única interface e agir imediatamente&#x200B;&#x200B; para melhorar a experiência dos usuários.
 
 ## Benefícios
 
@@ -38,4 +40,3 @@ Para obter informações sobre como exibir a atividade de relatórios no Gerenci
 ## Cancelar solicitações de relatórios
 
 Para obter informações sobre como cancelar solicitações de relatórios no Gerenciador de atividades de relatórios, consulte [Cancelar solicitações de relatórios no Gerenciador de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
-

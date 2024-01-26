@@ -4,9 +4,10 @@ subtopic: Users and groups
 title: Gerenciamento de usuários e produtos
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -19,7 +20,7 @@ Gerencie usuários, grupos e produtos do Analytics no Adobe Admin Console.
 >
 >O gerenciamento de usuários e produtos foi movido para o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para começar a gerenciar permissões de usuário do Adobe Analytics, consulte [Analytics no Adobe Admin Console](/help/admin/admin-console/home.md).
 
-## Recursos de ajuda para administradores do Adobe Admin Console {#section_C13BBB89E4F248F193358BB3A59DD502}
+## Recursos de ajuda para administradores do Adobe Admin Console {#help}
 
 | Tarefa ou recurso | Descrição |
 | --- | --- |

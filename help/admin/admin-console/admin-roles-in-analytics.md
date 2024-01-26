@@ -3,9 +3,10 @@ title: Funções de administrador no Adobe Analytics
 description: Saiba como começar a usar o Adobe Analytics, os tipos de função gerais e como fazer logon na interface do usuário.
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1122'
 ht-degree: 100%
 
 ---

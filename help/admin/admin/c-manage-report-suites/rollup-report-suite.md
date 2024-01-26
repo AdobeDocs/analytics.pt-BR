@@ -1,22 +1,17 @@
 ---
-description: Descrições dos tipos de conjunto de relatórios e comparação entre conjuntos de relatórios globais e de rollup.
-title: Abordagens do conjunto de relatórios
+description: Descrições dos conjuntos de relatórios globais
+title: Conjuntos de relatórios globais
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 89%
+source-wordcount: '404'
+ht-degree: 90%
 
 ---
 
-# Abordagens do conjunto de relatórios
-
-<!-- change filename since page name changed? -->
-
-É possível configurar seus conjuntos de relatórios como *conjuntos de relatórios globais* ou *conjuntos de relatórios de rollup*.
-
-## Conjuntos de relatórios globais
+# Conjuntos de relatórios globais
 
 Um conjunto de relatórios global coleta dados de todos os domínios e aplicativos que a organização possui. Ele requer implementação para enviar todas as solicitações de imagem para um único conjunto de relatórios.
 
@@ -38,13 +33,13 @@ A Adobe recomenda implementar um conjunto de relatórios global na maioria dos c
 
 O uso de conjuntos de relatórios virtuais em vez da marcação de vários relatórios é geralmente uma prática recomendada, mas conjuntos de relatórios virtuais têm algumas limitações. Consulte “[Considerações sobre os conjuntos de relatórios virtuais e a marcação de vários relatórios](/help/components/vrs/vrs-considerations.md)” para determinar qual abordagem de conjunto de relatórios é a melhor opção para suas necessidades comerciais. Para obter uma comparação detalhada entre os conjuntos de relatórios virtuais e a funcionalidade de marcação de vários relatórios, consulte &quot;[Conjuntos de relatórios virtuais versus marcação de vários conjuntos](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
-## Relatórios de rollup
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] O é a única ferramenta que oferece suporte a relatórios de rollup. O Reports &amp; Analytics foi encerrado em 17 de janeiro de 2024.
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

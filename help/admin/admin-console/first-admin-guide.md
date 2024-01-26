@@ -3,10 +3,11 @@ title: Guia do primeiro administrador do Adobe Analytics
 description: Entenda como ocorre o primeiro processo de provisionamento administrativo e as próximas etapas
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 45%
+ht-degree: 43%
 
 ---
 

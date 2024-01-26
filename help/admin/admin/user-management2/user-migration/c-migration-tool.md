@@ -3,10 +3,11 @@ description: O que você precisa saber sobre a migração de IDs de usuários do
 title: Migração de usuários do Analytics para o Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '3162'
-ht-degree: 99%
+source-wordcount: '3087'
+ht-degree: 97%
 
 ---
 
@@ -96,7 +97,7 @@ Respostas às perguntas que você pode ter antes da migração.
     <ul id="ul_25D1DBDF5C804D048E741F31550FF5F3"> 
      <li id="li_418476105FE341229CE146E730AAB33D">Seus grupos de permissão existentes no Analytics serão replicados automaticamente no Adobe Admin Console como Perfis de produtos, incluindo suas descrições e permissões granulares em conjuntos de relatórios, métricas, dimensões, Analytics e ferramentas do conjunto de relatórios. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">Se um usuário atual do Analytics tiver sido criado no Adobe Admin Console (o que significará que tem uma Adobe/Enterprise ID vinculada), ele será adicionado ao Perfil de produto apropriado no Admin Console. </li> 
-     <li id="li_8A05137EC05C4FD5910E73FE58300DCB">A seção Gerenciamento de usuários na guia Administrador do Google Analytics será definida como  <span class="term"> somente leitura</span>. Não será mais possível criar novos usuários ou grupos de permissão aqui; essas funções deverão ser realizadas no Adobe Admin Console. Consulte <a href="/help/admin/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Recursos do Analytics não compatíveis com o Adobe Admin Console</a> para obter mais informações. </li> 
+     <li id="li_8A05137EC05C4FD5910E73FE58300DCB">A seção Gerenciamento de usuários na guia Administrador do Analytics será definida como <span class="term"> somente leitura</span>. Não será mais possível criar novos usuários ou grupos de permissão aqui; essas funções deverão ser realizadas no Adobe Admin Console. Consulte <a href="/help/admin/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Recursos do Analytics não compatíveis com o Adobe Admin Console</a> para obter mais informações. </li> 
      <li id="li_2742DE69E9B547198A58E1F33E908361">Como administrador, você terá acesso à ferramenta <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html?lang=pt-BR">Migração de ID do usuário</a>. Além disso, é exibida uma notificação no produto que inclui a data de término da migração (em geral, após 60 dias), além de links para conteúdo de ajuda e Perguntas frequentes. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">Você terá acesso à guia Permissões no Adobe Admin Console, que permite criar Perfis de produtos com todas as opções granulares com as quais você está familiarizado no Analytics. </li> 
     </ul> </td> 
@@ -120,7 +121,7 @@ Respostas às perguntas que você pode ter antes da migração.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Verificar se você é um administrador de produto do Analytics no Adobe Admin Console. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">Comunicar a sua base de usuários de que a experiência de logon mudará quando a migração for iniciada. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">Auditar seus usuários e permissões atuais e realizar atividades de limpeza. </li> 
-    </ul> <p>Para acelerar sua migração, entre em contato com a equipe de conta do Adobe em <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html"> Atendimento ao cliente do Adobe</a> e enviar um pedido para uma data de início anterior. </p> </td> 
+    </ul> <p>Para acelerar sua migração, entre em contato com a equipe de conta do Adobe em <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html"> Atendimento ao cliente Adobe</a> e submeter uma solicitação para uma data inicial anterior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Sou um administrador do Analytics e não tenho acesso ao Adobe Admin Console. Quem pode me ajudar a obter acesso ao Adobe Admin Console? </p> </td> 
@@ -243,7 +244,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Excluir usuários do Adobe Admin Console </p> </td> 
-   <td colname="col2"> <p> No Analytics, um usuário excluído é configurado como  <span class="term"> expirado</span>, mas a conta continua a existir. A preservação da conta permite a transferência de ativos, como segmentos, métricas calculadas, relatórios agendados, projetos, entre outros. </p> </td> 
+   <td colname="col2"> <p> No Analytics, um usuário excluído é definido como <span class="term"> expirado</span>, mas a conta continua a existir. A preservação da conta permite a transferência de ativos, como segmentos, métricas calculadas, relatórios agendados, projetos, entre outros. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiração da conta </p> </td> 
@@ -317,7 +318,7 @@ Para enviar um email a todos os usuários, navegue até **[!UICONTROL Analytics]
 
 Nossa empresa começará a migrar todas as contas do Adobe Analytics de [!DNL https://my.omniture.com/login/] para a Adobe Experience Cloud ([experiencecloud.adobe.com](https://experiencecloud.adobe.com/)). Com essa migração, sua conta do Adobe Analytics será atualizada para permitir o acesso ao Analytics por meio da Adobe Experience Cloud. Apesar da alteração do método para acessar o Analytics, todas as permissões existentes para seus conjuntos de relatórios e ferramentas serão preservadas.
 
-**Próximas etapas:** começaremos a migrar os usuários a partir de  **INSERIR DATA**. Fique atento para uma mensagem de boas-vindas com o seu novo logon endereçada à ID de email listada em sua conta do Analytics. Se você não tiver configurado uma [Adobe ID](https://helpx.adobe.com/br/x-productkb/global/adobe-id-account-change.html) vinculada ao seu endereço de email, você será solicitado a configurar uma conta.
+**Próximas etapas:** Começaremos a migrar os usuários a partir de **INSERIR DATA**. Fique atento para uma mensagem de boas-vindas com o seu novo logon endereçada à ID de email listada em sua conta do Analytics. Se você não tiver configurado uma [Adobe ID](https://helpx.adobe.com/br/x-productkb/global/adobe-id-account-change.html) vinculada ao seu endereço de email, você será solicitado a configurar uma conta.
 
 **Recursos úteis:**
 

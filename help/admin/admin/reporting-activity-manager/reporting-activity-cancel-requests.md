@@ -2,10 +2,12 @@
 description: Saiba mais sobre como usar o Gerente de atividade de relatórios para diagnosticar e corrigir problemas de capacidade durante o pico dos relatórios.
 title: Cancelar solicitações de relatórios no Gerenciador de atividades de relatórios
 feature: Admin Tools
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 15%
+source-wordcount: '1439'
+ht-degree: 13%
 
 ---
 

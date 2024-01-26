@@ -3,10 +3,11 @@ description: As APIs de Serviços da Web fornecem acesso programático a relató
 title: Serviços Web
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 80%
+source-wordcount: '292'
+ht-degree: 75%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 80%
 
 As APIs de Serviços da Web fornecem acesso programático a relatórios de marketing e a outros serviços do Suite que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Serviços Web]** ou **[!UICONTROL Acesso à API]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configurações da empresa]** > **[!UICONTROL Serviços da Web]** ou **[!UICONTROL Acesso à API]**
 
 
 ## APIs do Analytics 2.0
