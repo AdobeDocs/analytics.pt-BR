@@ -4,10 +4,10 @@ keywords: Conjunto de relatórios virtuais
 title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 6e9ea48df286b2bde6a071ab3d0f29a764382c6d
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 85%
+source-wordcount: '1636'
+ht-degree: 79%
 
 ---
 
@@ -31,13 +31,13 @@ O compartilhamento de segmentos na Adobe Experience Cloud não é suportado para
 
 Os segmentos ainda não podem ser publicados na Adobe Experience Cloud a partir de um conjunto de relatórios virtual para personalização e marcação. Todos os usuários que publicam segmentos precisam acessar o conjunto de relatórios de origem para este propósito. Por exemplo, seus usuários podem ter acesso somente a dados de suas regiões geográficas, mas você quer que eles consigam criar e compartilhar segmentos a partir do Adobe Analytics na Adobe Experience Cloud para direcionamento no Adobe Target. Nesse caso, a Adobe recomenda usar marcação de vários conjuntos. Se você não se importar com o acesso dos usuários ao conjunto de relatórios global ou se não precisar publicar segmentos para uso em outras soluções, os conjuntos de relatórios virtuais poderão ser usados.
 
-### Limites únicos
+### Limites únicos (tráfego baixo)
 
 Caso tenha um conjunto de relatórios global que combina um grande número de sites, é possível executar o item de linha de [baixo tráfego](/help/technotes/low-traffic.md) com frequência. Se você usar a marcação de vários conjuntos, isso será um problema apenas para o conjunto de relatórios global (os conjuntos de relatórios individuais têm menos probabilidade de ver tráfego baixo). Se usar conjuntos de relatórios virtuais, limites exclusivos serão compartilhados, fazendo com que os conjuntos de relatórios individuais também mostrem tráfego baixo. Considere usar a marcação de vários conjuntos se desejar evitar a definição de dados em tráfego baixo.
 
-Por exemplo, uma grande organização de mídia possui 100 propriedades da Web. Cada propriedade publica algumas milhares de notícias por mês, além de hospedar todos os artigos de meses anteriores. Essa organização usa um conjunto de relatórios global no qual a eVar1 é &#39;Nome do artigo&#39;. Neste relatório, há aproximadamente 4 milhões de nomes de artigos únicos a cada mês das várias propriedades combinadas. Se estiver usando um conjunto de relatórios virtual, os 500.000 valores principais que compõem a maior parte do tráfego serão incluídos nos conjuntos de relatórios virtuais; os 3,5 restantes milhões estão incluídos no tráfego reduzido. Se a marcação de vários conjuntos for usada, cada conjunto de relatórios poderá ver seus próprios 500k valores principais. Os limites exclusivos do conjunto de relatórios global são os mesmos entre o uso da marcação de vários conjuntos e de conjuntos de relatórios virtuais.
+Por exemplo, uma grande organização de mídia possui 100 propriedades da Web. Cada propriedade publica algumas milhares de notícias por mês, além de hospedar todos os artigos de meses anteriores. Essa organização usa um conjunto de relatórios global no qual a eVar1 é &#39;Nome do artigo&#39;. Suponha que neste relatório haja aproximadamente 5 milhões de nomes de artigos únicos a cada mês das várias propriedades combinadas. Se estiver usando um conjunto de relatórios virtual, apenas uma parte dos 5 milhões de valores será incluída no conjunto de relatórios virtual. Os restantes estão incluídos em Tráfego baixo. Se a marcação de vários conjuntos for usada, cada conjunto de relatórios poderá ver seu próprio conjunto de valores únicos.
 
-O Atendimento ao cliente da Adobe pode aumentar os limites de valor exclusivos de um pequeno número de dimensões, o que pode eliminar esse problema por completo. Consulte sua equipe de conta e o Atendimento ao cliente para obter mais informações.
+Às vezes, o Atendimento ao cliente do Adobe pode aumentar os limites de valor exclusivos de um pequeno número de dimensões, o que pode eliminar esse problema por completo. Consulte sua equipe de conta e o Atendimento ao cliente para obter mais informações.
 
 ### Variáveis compartilhadas em conjuntos de relatórios
 
