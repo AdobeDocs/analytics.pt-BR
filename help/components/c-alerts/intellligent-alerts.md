@@ -3,10 +3,10 @@ description: O sistema de Alertas inteligentes permite um controle mais detalhad
 title: Alertas inteligentes
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 68%
 
 ---
 
@@ -44,39 +44,37 @@ Há três maneiras de acessar o Criador de alertas:
   ![](assets/create-alert-from-selection.png)
 
 
-## Perguntas frequentes: Como os alertas são calculados e acionados {#trigger}
+## Perguntas frequentes: como os alertas são calculados e acionados {#trigger}
 
 Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, [modelos diferentes](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) são usados para calcular a distância (a quantidade de desvios padrão) de cada ponto de dados em relação à norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias se definir um limite mais alto (99%), Os limites 99,75% e 99,99% foram criados especificamente para a granularidade horária, de forma que não tantas anomalias não sejam acionadas.
 
-<table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Pergunta </th> 
-   <th colname="col2" class="entry"> Resposta </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>P: Até que ponto a detecção de anomalias dos alertas vai para determinar anomalias de dados?</b> </p> </td> 
-   <td colname="col2"> <p>O período de treinamento varia com base na granularidade selecionada. Consulte Técnicas estatísticas usadas na <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Detecção de anomalias</a> para obter mais detalhes. Aqui está um resumo: </p> 
-    <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
-     <li id="li_E246091A3F1E484C8444AF4052FCA784">Mensalmente = 15 meses + mesmo intervalo do ano passado </li> 
-     <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Semanalmente = 15 semanas + mesmo intervalo do ano passado </li> 
-     <li id="li_2517EE2097534324BE9C1B54CD181A62">Diariamente = 35 dias + mesmo intervalo do ano passado </li> 
-     <li id="li_710BC8B009354542AA4962A59A646099">De hora em hora = 336 horas </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>P: Se eu desejar ser alertado sobre apenas uma baixa no comportamento ou apenas um aumento, posso usar o recurso de anomalia ou preciso usar o valor absoluto?</b> </p> </td> 
-   <td colname="col2"> <p>Usar o valor absoluto ainda acionaria alertas de baixas e de aumentos. Não é possível isolar alertas apenas para baixas ou aumentos. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>P: Posso configurar os alertas para serem acionados apenas durante determinadas horas do dia (como horário comercial ou não comercial)? </b> </p> </td> 
-   <td colname="col2"> <p>Atualmente, não. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>P: Posso obter uma tabela dos "valores esperados" que contém a linha pontilhada, ou algum tipo de saída do que são esses valores? </b> </p> </td> 
-   <td colname="col2"> <p>Não na Espaço de trabalho, mas é possível no Report Builder (assista a este vídeo sobre a <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=pt-BR"  >Detecção de anomalias no Report Builder </a>). </p> <p>Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, com intervalo fixo de 95%. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Até que ponto a detecção de anomalias do alerta vai para determinar anomalias de dados?
+
+O período de treinamento varia com base na granularidade selecionada. Consulte Técnicas estatísticas usadas na <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Detecção de anomalias</a> para obter mais detalhes. Aqui está um resumo:
+
+* Mensalmente = 15 meses + mesmo intervalo do ano passado
+* Semanalmente = 15 semanas + mesmo intervalo do ano passado
+* Diariamente = 35 dias + mesmo intervalo do ano passado
+* De hora em hora = 336 horas
+
++++
+
++++ Para ser alertado de apenas uma queda no comportamento ou um pico no comportamento, é possível usar o recurso de anomalia ou preciso usar um valor absoluto?
+
+O uso do valor absoluto ainda acionaria alertas em declínios, bem como picos. Não é possível isolar alertas apenas para baixas ou aumentos.
+
++++
+
++++ Posso configurar alertas para serem acionados apenas durante certas horas do dia (como horário comercial vs. horário não comercial)?
+
+Atualmente, não.
+
++++
+
++++ Posso obter uma tabela dos &quot;valores esperados&quot; que contém a linha pontilhada, ou algum tipo de saída do que são esses valores?
+
+Não no Espaço de trabalho, mas é possível no Report Builder. Consulte [este vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=pt-BR) sobre a Detecção de anomalias no Report Builder.
+
+Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, com intervalo fixo de 95%.
+
++++

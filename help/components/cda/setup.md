@@ -3,10 +3,11 @@ title: Configurar o Cross-Device Analytics
 description: Configure um conjunto de relatórios virtual para ativar o CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 92%
+source-wordcount: '533'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +19,7 @@ Depois que todos os pré-requisitos forem atendidos, use as seguintes etapas par
 >
 >Todos os pré-requisitos devem ser atendidos antes de seguir essas etapas. Se todos os pré-requisitos não forem atendidos, o recurso não estará disponível ou não funcionará. Consulte a [página de visão geral](overview.md) e o método de união desejado ([União com base em arquivo](field-based-stitching.md) ou [gráfico de dispositivos](device-graph.md), respectivamente) para ver os pré-requisitos e as limitações.
 
-## Abra um tíquete no Atendimento ao cliente para provisionar o CDA em seu conjunto de relatórios entre dispositivos
+## 1. Abra um tíquete no Atendimento ao cliente para provisionar o CDA em seu conjunto de relatórios entre dispositivos
 
 O CDA é provisionado em seu conjunto de relatórios entre dispositivos pela engenharia da Adobe. Para iniciar esse processo, entre em contato com o Atendimento ao cliente e esteja preparado para fornecer as seguintes informações:
 
@@ -31,7 +32,7 @@ O padrão é a repetição semanal com uma janela de retrospectiva de 7 dias. Ne
 
 Depois que você fornecer essas informações ao Atendimento ao cliente, eles trabalharão com a engenharia da Adobe para ativar o conjunto de relatórios escolhido para processamento do CDA.
 
-## Crie um conjunto de relatórios virtuais entre dispositivos para ver a exibição entre dispositivos
+## 2. Crie um conjunto de relatórios virtuais entre dispositivos para ver a exibição entre dispositivos
 
 Os administradores com acesso para criar conjuntos de relatórios virtuais podem criar conjuntos de relatórios virtuais do CDA da seguinte maneira:
 

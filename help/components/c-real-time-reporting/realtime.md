@@ -4,10 +4,10 @@ title: Visão geral do relatório em tempo real
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 92%
+source-wordcount: '591'
+ht-degree: 89%
 
 ---
 
@@ -17,9 +17,9 @@ O relatório em tempo real exibe o tráfego da página da Web e classifica as vi
 
 >[!NOTE]
 >
->O relatório Tempo real não requer implementações ou marcações adicionais. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, veja [Configuração de relatórios em tempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>O relatório Tempo real não requer implementações ou marcações adicionais. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, consulte [Configuração de relatórios em tempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-## Acessar os relatórios em tempo real
+## Acessar relatórios em tempo real
 
 1. No Analysis Workspace, selecione a variável [!UICONTROL **Workspace**] guia.
 
@@ -53,7 +53,7 @@ Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez q
 
 A configuração e a exibição dos relatórios em tempo real está restrita aos Administradores ou qualquer outro usuário que faça parte dos grupos &quot;Todos os acessos de relatório&quot; e &quot;Relatórios avançados&quot; . Porém, o Tempo real não respeita as permissões. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma.
 
-## Latência dos dados como resultado da configuração A4T {#section_806CE36354FC4C539A0DED9266A5C704}
+## Latência dos dados como resultado da configuração A4T {#latency-a4t}
 
 Depois que a integração A4T for habilitada no Adobe [!DNL Target], haverá de 5 a 10 minutos adicionais de latência no Adobe Analytics. O aumento dessa latência permite que os dados do Analytics e do [!DNL Target] sejam armazenados na mesma ocorrência, permitindo dividir os testes por página e seção do site.
 

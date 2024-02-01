@@ -3,10 +3,10 @@ description: Esta página de ajuda contém casos de uso recomendados para cada f
 title: Qual ferramenta do Adobe Analytics devo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 94%
+source-wordcount: '1160'
+ht-degree: 92%
 
 ---
 
@@ -55,7 +55,7 @@ As **[integrações do Adobe Exchange](https://www.adobeexchange.com/experiencec
 
 **[API da inserção de dados](/help/import/c-data-insertion-api/c-data-insertion-api.md)** deve ser usada:
 
-* Quando você precisa fazer o upload de dados no Adobe Analytics e não pode usar o código do Adobe AppMeasurement ou do SDK para dispositivos móveis.
+* Quando você precisa fazer upload de dados no Adobe Analytics e não pode usar o código do Adobe AppMeasurement ou do SDK para dispositivos móveis. Recomendamos usar a API de inserção de dados em massa (veja abaixo).
 
 **[API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 

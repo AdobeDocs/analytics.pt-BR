@@ -1,16 +1,17 @@
 ---
-title: Limitar um conjunto de relatórios virtual a determinadas datas
+title: Limitar um conjunto de relatórios virtuais a determinadas datas
 description: Entenda como limitar um intervalo de datas do Conjunto de relatórios virtual para focalizar apenas dados compilados.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 35%
+source-wordcount: '284'
+ht-degree: 41%
 
 ---
 
-# Limitar um conjunto de relatórios virtual a determinadas datas
+# Limitar um conjunto de relatórios virtuais a determinadas datas
 
 Quando ativamos a compilação, ela começa em uma data específica. Vamos supor que a data seja 1º de junho. O conjunto de relatórios virtuais da CDA conterá dados não compilados anteriores a 1° de junho. Talvez você queira ocultar os dados no Conjunto de relatórios virtuais anteriores a 1° de junho para que sua análise possa se concentrar em intervalos de datas após o início da compilação.
 
