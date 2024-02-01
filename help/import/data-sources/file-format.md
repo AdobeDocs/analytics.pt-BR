@@ -3,10 +3,11 @@ title: Formato de arquivo da fonte de dados
 description: Gerar corretamente um arquivo para uso em fontes de dados.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 7%
+source-wordcount: '533'
+ht-degree: 5%
 
 ---
 
@@ -41,7 +42,7 @@ Ao fazer upload de arquivos de origem de dados, os cabeçalhos de coluna são ob
 | Dimensão | Cabeçalho da fonte de dados |
 | --- | --- |
 | [Categoria](/help/components/dimensions/category.md) | `Category` |
-| [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
+| [eVar 1 - eVar 250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
 | [Canal de marketing](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
 | [Detalhes do canal de marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [Produto](/help/components/dimensions/product.md) | `Product` |

@@ -1,13 +1,14 @@
 ---
 title: API de inserção de dados em massa
-description: A API de inserção de dados em massa (BDIA) é um recurso do Adobe Analytics que permite carregar dados de chamadas do servidor em lotes de arquivos, em vez de usar bibliotecas do lado do cliente, como o AppMeasurement. As chamadas de servidor nesses arquivos em lote podem ser dados atuais (ativos) ou dados históricos. É um sucessor mais escalável da API de inserção de dados em versões anteriores da API do Adobe Analytics.
+description: A API de inserção de dados em massa (BDIA) é um recurso do Adobe Analytics que permite carregar dados de chamadas do servidor em lotes de arquivos, em vez de usar bibliotecas do lado do cliente, como o AppMeasurement.
 solution: Analytics
 feature: API
 exl-id: c9d23fae-2800-42bb-8f8d-adf915cadc62
-source-git-commit: b1ebf6e3548ef73217ffff1cbfb66af82e38fb8f
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '186'
+ht-degree: 84%
 
 ---
 

@@ -3,10 +3,11 @@ title: Introdução às fontes de dados
 description: Faça upload de dados de exemplo em um conjunto de relatórios de desenvolvimento.
 exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 1%
+source-wordcount: '672'
+ht-degree: 0%
 
 ---
 

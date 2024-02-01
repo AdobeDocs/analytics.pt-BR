@@ -3,9 +3,10 @@ title: Carregar arquivo de fontes de dados no Adobe
 description: O processo para carregar um arquivo de fontes de dados no Adobe Analytics para assimilação.
 exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---

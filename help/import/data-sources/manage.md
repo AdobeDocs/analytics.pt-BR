@@ -3,16 +3,17 @@ title: Gerenciar fontes de dados
 description: Navegue pela interface gerenciar origens de dados.
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
 # Gerenciar fontes de dados
 
-Use o gerenciador de fonte de dados para criar, editar ou desativar fontes de dados. Também é possível usar essa interface para rastrear o status dos arquivos carregados nos locais FTP das fontes de dados.
+Use o gerenciador de fonte de dados para criar, editar ou desativar fontes de dados. Também é possível usar essa interface para acompanhar o status dos arquivos enviados para os locais FTP de fontes de dados.
 
 **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Fontes de dados]**
 
