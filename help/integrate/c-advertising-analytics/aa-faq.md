@@ -3,130 +3,161 @@ description: Perguntas frequentes sobre o Advertising Analytics.
 title: Perguntas frequentes sobre análises de publicidade
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 92%
+source-wordcount: '1313'
+ht-degree: 50%
 
 ---
 
 # Perguntas frequentes
 
-## Acesso/Direitos {#section_5F558C5981F747F0AF375A9E4B75C93C}
+## Acesso/Direitos {#access}
 
-<table id="table_6713C3B0B6734F768370F974EB5AC5E8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Pergunta </th> 
-   <th colname="col2" class="entry"> Resposta </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>P: Preciso ser um <b>cliente do Adobe Advertising Cloud ou do Adobe Media Optimizer (AMO)</b> para acessar esta funcionalidade? </p> </td> 
-   <td colname="col2"> <p>R: Não, esta funcionalidade está disponível para aqueles que não são clientes do Advertising Cloud e AMO. </p> <p>Os clientes do AMO podem aproveitar da integração Analytics-AMO existente; eles não poderão usar o Advertising Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Quais <b>SKUs do Adobe Analytics</b> dão direito ao uso do Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: O Advertising Analytics está disponível para os SKUs <a href="https://www.adobe.com/br/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/br/data-analytics-cloud/analytics/prime.html"  >Prime</a> e <a href="https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> do Adobe Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: É necessário <b>fazer um pagamento adicional</b> para usar o Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Não, além do provisionamento de SKU adequado, o Advertising Analytics não implica custos adicionais. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: O Advertising Analytics fará a contagem em relação ao <b>uso de chamadas do servidor</b>? </p> </td> 
-   <td colname="col2"> <p>R: Não, o Advertising Analytics usa um tipo de fonte de dados especial que não implica custos de chamada do servidor. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Caso eu <b>já utilize a Advertising Cloud/AMO</b>, ainda posso usar a funcionalidade do Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Qualquer conta de mecanismo de pesquisa compatível será transferida para o Advertising Analytics e será exibida como somente leitura. Todas as edições ou atualizações devem ser tratadas na Advertising Cloud/AMO. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Eu possuo o SKU correto, mas <b>não posso acessar</b> o Advertising Analytics, qual a razão para isso? </p> </td> 
-   <td colname="col2"> <p>R: O Advertising Analytics está disponível somente para administradores do Adobe Analytics; contudo, os administradores podem conceder acesso a não administradores. Entre em contato com seu administrador para obter os direitos de acesso. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Preciso ser um cliente do Adobe Advertising Cloud ou do Adobe Advertising Cloud (AMO) para acessar essa funcionalidade?
 
-## Usar o Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+Não, essa funcionalidade está disponível para clientes que não são da Advertising Cloud e nem do AMO. </p> <p>Os clientes do AMO podem aproveitar da integração Analytics-AMO existente; eles não poderão usar o Advertising Analytics.
 
-<table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
- <thead> 
-  <tr> 
-   <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> Pergunta </th> 
-   <th colname="col2" class="entry"> Resposta </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>P: Quais <b>contas de mecanismo de pesquisa</b> são incluídas no Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: As contas de mecanismo de pesquisa incluem o Google AdWords e o Microsoft Bing. </p> <p>Observação: o Yahoo Gemini foi absorvido pelo Microsoft Bing em 31 de março de 2019. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Por onde <b>acesso</b> o Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Depois de fazer logon no Adobe Analytics, navegue até o menu <span class="uicontrol">Admin</span>. Em seguida selecione a nova opção de menu <span class="uicontrol">Advertising Analytics</span> para adicionar suas contas de mecanismo de pesquisa. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Como os <b>dados são coletados e transmitidos para o Analytics</b>? </p> </td> 
-   <td colname="col2"> <p>R: O Advertising Analytics utiliza uma série de APIs personalizadas para transmitir dados de mecanismos de pesquisa por meio da Adobe Advertising Cloud para o Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Quais <b>dados de pesquisa</b> eu obtenho com esta integração? </p> </td> 
-   <td colname="col2"> <p>P: Você obterá 1) Impressões, 2) Cliques, 3) Custos, 4) Pontuação de qualidade e 5) Posição média diretamente dos mecanismos de pesquisa, assim como 6) Instâncias de ID do AMO (Instâncias de clique). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Posso <b>detalhar meus dados do Advertising Analytics</b> por outros dados do Analytics (métricas/dimensões)? </p> </td> 
-   <td colname="col2"> <p>R: Não, os dados de pesquisa brutos virão como um conjunto de dados independente. Contudo, há uma versão de Instâncias dos dados de clique que pode ser detalhada por outros dados do Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Qual e a definição dos vários <b>indicadores de status</b> das minhas contas (Pendente, Ativo, Pausado etc.)? </p> </td> 
-   <td colname="col2"> <p>R: Cada um desses indicadores de status identifica o estágio de ciclo de vida de cada conta de mecanismo de pesquisa. </p> 
-    <ul id="ul_F68AD377B2F04A47B20355B2FF4CF345"> 
-     <li id="li_05F8D7C6D00E4742A65373BE6FAA0448"><b>Pendente</b> significa que a conta foi configurada, mas os dados não estão sendo transferidos. </li> 
-     <li id="li_42B1557A8AEC41008B85AF6E3F625CAB"><b>Pausado</b> significa que a conta já tinha sido configurada mas foi colocada em um estado de inatividade. </li> 
-     <li id="li_30B72CC171874F308A2B8CE552EA6930"><b>Ativo</b> significa que a conta foi totalmente configurada e está transferindo os dados de pesquisa. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Estou tentando <b>mapear minhas contas do Advertising Analytics para um conjunto de relatórios específico</b>, mas não essa opção está disponível no modo Conjunto de relatórios. Por quê? </p> </td> 
-   <td colname="col2"> <p>R: Antes de atribuir um conjunto de relatórios a uma conta do Advertising Analytics, o conjunto de relatórios desejado precisa ser <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >provisionado para os relatórios do Advertising Analytics </a>. </p> <p>Isso é feito por meio de uma página de Admin separada, acessível em: <span class="ignoretag"> <span class="uicontrol"> Administração </span>  &gt; <span class="uicontrol"> Conjunto de relatórios </span>  &gt; <span class="uicontrol"> [selecione o conjunto de relatórios habilitado para Experience Cloud] </span>  &gt; <span class="uicontrol"> Editar configurações </span>  &gt; <span class="uicontrol"> Configurações do Advertising Analytics  </span> </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: É possível atribuir um <b>conjunto de relatórios virtual</b> para uma conta da Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Os conjuntos de relatórios virtuais não coletam dados, portanto, não é possível mapear diretamente uma conta do Advertising Analytics para um conjunto de relatórios virtual. </p> <p>No entanto, é possível mapear a conta do Advertising Analytics para o Conjunto de relatórios principal do Conjunto de relatórios virtuais no qual você deseja ver os dados. </p> <p>As métricas do mecanismo de pesquisa (clique/custo/impressões) podem não ser exibidas no conjunto de relatórios virtual a menos que você inclua uma condição "ou" na lógica do segmento com base na ID do AMO (ou sua classificação). Exemplo: adicionar “todas as ocorrências em que a ID do AMO existe” incluirá as métricas do mecanismo de pesquisa no segmento. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Há métricas do Advertising Analytics reportáveis no relatório dos <b>Canais de marketing</b>? </p> </td> 
-   <td colname="col2"> <p>R: Não, elas não são incluídas no relatório dos Canais de marketing. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: <b>Quando</b> os dados de pesquisa são transferidos para o Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Os dados de pesquisa são transferidos dos mecanismos de pesquisa por volta de 06:00 no fuso horário de seu data center do Analytics. Nesse momento os dados do AMO são coletados e inseridos no conjunto de relatórios. Em seguida, são convertidos para o fuso horário do conjunto de relatórios como parte da inserção de dados no Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: O que pode ser <b>capturado antes do clique</b>? Trazemos impressões, custo, posição média etc, mesmo sem o clique? </p> </td> 
-   <td colname="col2"> <p>R: A ID do AMO vai capturar as métricas do Mecanismo de pesquisa: Impressões, Custo, Cliques, Posição média e Pontuação média de qualidade. Se não houver nenhum clique, mas houver impressões, os dados de impressão/posição/pontuação de qualidade serão enviados para o Analytics. Normalmente, se não houver cliques também não há custo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: A que nível esses dados estão sendo capturados? <b>Visitante? Ocorrência?</b> </p> </td> 
-   <td colname="col2"> <p>R: As métricas do Mecanismo de pesquisa são capturadas no nível de ocorrência e conectadas à ID do AMO (e às respectivas classificações). São dados de nível de resumo e não são conectados a visitas/visitantes. Sendo assim, as métricas do mecanismo de pesquisa só podem ser usadas em segmentos do escopo de nível de ocorrência e que são baseados na ID do AMO (ou em suas classificações). </p> <p>A ID do AMO também é capturada na página de aterrissagem na ocorrência dessa página (que a conecta à visita/ao visitante) e persiste em downstream para obter crédito de outras métricas do Analytics (até que expire ou seja substituída por uma nova ID do AMO). É totalmente incorporada ao conjunto de dados, como qualquer outra eVar. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Capturamos apenas o google.com ou <b>versões de países</b> (como google.co.uk, google.it, google.fr ou google.de) também? </p> </td> 
-   <td colname="col2"> <p>R: A classificação da Plataforma de anúncio captura estes valores: "Google Adwords" e "Bing Ads". </p> <p>Uma prática recomendada é incluir o código do país como parte do nome das campanhas. Assim é possível filtrar ou segmentar (por exemplo, se todas as campanhas começarem com countrycode_, criar um segmento onde Campanhas (AMO ID) comece com “UK_” fornecerá apenas dados do Reino Unido). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: A métrica “Custo do AMO” é o custo pago para cada palavra-chave/anúncio, conforme relatado pelo mecanismo de pesquisa. Esse é o Custo líquido ou o Custo bruto? </p> </td> 
-   <td colname="col2"> <p>R: O “Custo do AMO” refere-se somente ao custo pago para os mecanismos de pesquisa. Ele não inclui taxas de plataforma para agência ou otimização/gerenciamento de pesquisa. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Há planos de incluir outros canais de anúncio como o <b>Display</b> ou o <b>Social</b>? </p> </td> 
-   <td colname="col2"> <p>R: Não, no momento não planejamentos para esses outros canais no roadmap. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++
+
++++ Quais SKUs do Adobe Analytics dão direito ao uso do Advertising Analytics?
+
+O Advertising Analytics está disponível para o Adobe Analytics
+
+* [Selecionar](https://www.adobe.com/br/data-analytics-cloud/analytics/select.html)
+
+* [Prime](https://www.adobe.com/br/data-analytics-cloud/analytics/prime.html)
+
+* [Ultimate](https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html)
+
++++
+
++++ Preciso pagar a mais para usar o Advertising Analytics?
+
+Não, fora do provisionamento de SKU adequado, a Advertising Analytics não incorre em custo extra.
+
++++
+
++++ O Advertising Analytics conta com o meu uso de chamadas do servidor
+
+Não, o Advertising Analytics usa um tipo de fonte de dados especial que não implica custos de chamada de servidor.
+
++++
+
++++ Se eu já usar o Advertising Cloud/AMO, ainda posso usar a funcionalidade do Advertising Analytics?
+
+Qualquer conta de mecanismo de pesquisa compatível passará para o Advertising Analytics e será exibida como somente leitura. Todas as edições ou atualizações devem ser tratadas na Advertising Cloud/AMO.
+
++++
+
++++ Eu possuo o SKU correto, mas não consigo acessar o Advertising Analytics. Por quê?
+
+O Advertising Analytics está disponível somente para administradores do Adobe Analytics; no entanto, os administradores podem conceder acesso a não administradores. Entre em contato com seu administrador para obter os direitos de acesso.
+
++++
+
+## Usar o Advertising Analytics {#using}
+
++++ Quais contas de mecanismo de pesquisa são incluídas no Advertising Analytics?
+
+As contas de mecanismo de pesquisa incluem o Google AdWords e o Microsoft Bing.
+
++++
+
++++ Onde acesso o Advertising Analytics?
+
+Depois de fazer logon no Adobe Analytics, navegue até o [!UICONTROL Admin]. Em seguida, selecione [!UICONTROL Advertising Analytics] para adicionar as contas do mecanismo de pesquisa.
+
++++
+
++++ Como os dados são coletados e transmitidos para o Analytics?
+
+O Advertising Analytics utiliza uma série de APIs personalizadas para transmitir dados de mecanismos de pesquisa por meio da Adobe Advertising Cloud para o Analytics.
+
++++
+
++++ Quais dados de pesquisa eu obtenho com essa integração?
+
+Você obterá
+
+* Impressões
+* Cliques
+* Custos
+* Pontuação de qualidade
+* Posição média diretamente dos mecanismos de pesquisa, bem como
+* Instâncias de ID do AMO (instâncias de clique).
+
++++
+
++++ É possível detalhar meus dados do Advertising Analytics por outros dados do Analytics (métricas/dimensões)?
+
+Não, os dados brutos de pesquisa entrarão como um conjunto de dados independente. Contudo, há uma versão de Instâncias dos dados de clique que pode ser detalhada por outros dados do Analytics.
+
++++ Qual é a definição dos vários indicadores de status para minhas contas (Pendente, Ativo, Pausado etc.)? Cada um desses indicadores de status identifica o estágio do ciclo de vida de cada conta de mecanismo de pesquisa.
+
+* [!UICONTROL Pending]
+* [!UICONTROL Pausado] significa que a conta já tinha sido configurada mas foi colocada em um estado de inatividade.
+* [!UICONTROL Ativo] significa que a conta foi totalmente configurada e está transferindo os dados de pesquisa.
+
++++
+
++++ Estou tentando mapear minhas contas do Advertising Analytics para um conjunto de relatórios específico, mas não está disponível no modal do Conjunto de relatórios. Por quê?
+
+Antes de atribuir um conjunto de relatórios a uma conta do Advertising Analytics, o conjunto de relatórios desejado precisa ser [provisionado para relatórios do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Isso é feito por meio de uma página de Admin separada, acessível em: Administração > Conjuntos de relatórios > [selecionar conjunto de relatórios] > Editar configurações > Configuração do Advertising Analytics.
+
++++
+
++++ É possível atribuir um conjunto de relatórios virtual a uma conta do Advertising Analytics?
+
+Os conjuntos de relatórios virtuais não coletam dados, portanto, não é possível mapear diretamente uma conta do Advertising Analytics para um conjunto de relatórios virtual. No entanto, é possível mapear a conta do Advertising Analytics para o Conjunto de relatórios principal do Conjunto de relatórios virtuais no qual você deseja ver os dados. As métricas do mecanismo de pesquisa (clique/custo/impressões) podem não ser exibidas no conjunto de relatórios virtual a menos que você inclua uma condição &quot;ou&quot; na lógica do segmento com base na ID do AMO (ou sua classificação). Exemplo: adicionar “todas as ocorrências em que a ID do AMO existe” incluirá as métricas do mecanismo de pesquisa no segmento.
+
++++
+
++++ As métricas do Advertising Analytics podem ser relatadas no <b>Canais de marketing</b> relatório?
+
+Não, elas não estão incluídas no relatório de Canais de marketing.
+
++++
+
++++ Quando os dados de pesquisa são transferidos para o Analytics?
+
+Os dados de pesquisa são transferidos dos mecanismos de pesquisa por volta de 6:00 no fuso horário de seu Data Center do Analytics. Nesse momento os dados do AMO são coletados e inseridos no conjunto de relatórios. Em seguida, são convertidos para o fuso horário do conjunto de relatórios como parte da inserção de dados no Analytics.
+
++++
+
++++ O que pode ser <b>capturado antes do clique</b>? Trazemos impressões, custo, posição média etc, mesmo sem o clique? </p> </td>
+
+A ID do AMO capturará as métricas do mecanismo de pesquisa: Impressões, Custo, Cliques, Posição média e Pontuação de qualidade média. Se não houver nenhum clique, mas houver impressões, os dados de impressão/posição/pontuação de qualidade serão enviados para o Analytics. Normalmente, se não houver cliques também não há custo.
+
++++
+
++++ Em que nível esses dados estão sendo capturados? <b>Visitante? Ocorrência?</b>
+
+As métricas do mecanismo de pesquisa são capturadas no nível de ocorrência e conectadas à ID do AMO (e suas classificações). São dados de nível de resumo e não são conectados a visitas/visitantes. Sendo assim, as métricas do mecanismo de pesquisa só podem ser usadas em segmentos do escopo de nível de ocorrência e que são baseados na ID do AMO (ou em suas classificações).
+
+A ID do AMO também é capturada na página de aterrissagem na ocorrência dessa página (que a conecta à visita/ao visitante) e persiste em downstream para obter crédito de outras métricas do Analytics (até que expire ou seja substituída por uma nova ID do AMO). É totalmente incorporada ao conjunto de dados, como qualquer outra eVar.
+
++++
+
++++ Capturamos apenas google.com ou <b>versões de países</b> (como google.co.uk, google.it, google.fr ou google.de) também?
+
+A classificação da Plataforma de anúncio captura estes valores: &quot;Google Adwords&quot; e &quot;Bing Ads&quot;. Uma prática recomendada é incluir o código do país como parte do nome das campanhas. Assim é possível filtrar ou segmentar (por exemplo, se todas as campanhas começarem com countrycode_, criar um segmento onde Campanhas (AMO ID) comece com “UK_” fornecerá apenas dados do Reino Unido).
+
++++
+
++++ A métrica &quot;Custo AMO&quot; é o custo pago por cada palavra-chave/anúncio, conforme relatado pelo mecanismo de pesquisa. Esse é o Custo líquido ou o Custo bruto?
+
+&quot;Custo AMO&quot; é apenas o custo pago aos mecanismos de pesquisa. Ele não inclui taxas de plataforma para agência ou otimização/gerenciamento de pesquisa.
+
++++
+
++++ Há planos para incluir outros canais de publicidade, como <b>Exibir</b> ou <b>Social</b>?
+
+Não, atualmente não temos planos para esses outros canais no roteiro.
+
++++
+
 
 ## Rastreamento automático vs. manual {#section_7437C4698A6D482EB7ED94A948390119}
 
