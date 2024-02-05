@@ -3,16 +3,17 @@ description: Uma visão geral de como usar relatórios padrão no Analysis Works
 title: Usar relatórios
 feature: Analysis Workspace
 role: User, Admin
-source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 82%
+exl-id: d2b4edca-b8f5-4c17-b470-ae0cf5d66fb2
+source-git-commit: dcc517c2cd24a1aeeb2594094d09b9187ea7d144
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
 # Criar e gerenciar relatórios da empresa
 
-Você pode criar relatórios personalizados e salvá-los para que outras pessoas na sua empresa de logon os usem. Relatórios da empresa estão disponíveis para escolha ao criar um projeto, conforme descrito em [Criar um projeto a partir de um projeto em branco ou de um relatório](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) no artigo, [Criar projetos no Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+Você pode criar relatórios personalizados e salvá-los para que outras pessoas na empresa do seu logon os usem. Os relatórios da empresa ficam disponíveis para escolha ao criar um projeto, conforme descrito em [Criar um projeto a partir de um projeto em branco ou de um relatório](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) no artigo [Criação projetos no Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 ## Criar um relatório de empresa personalizado
 
