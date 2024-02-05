@@ -1,18 +1,18 @@
 ---
-description: Requisitos do sistema e comparação de Analysis Workspace, Report Builder, Data Warehouse e Data Workbench
+description: Requisitos de sistema e comparação do Analysis Workspace, Reports Builder, Data Warehouse e Data Workbench
 title: Comparação e requisitos de produtos do Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Comparação e requisitos de produtos do Analytics
 
-Esta página contém uma comparação de vários produtos da Adobe Analytics: Analysis Workspace, Report Builder, Data Warehouse, Feeds de dados e API 2.0 do Analytics.
+Esta página contém uma comparação de vários produtos do Adobe Analytics: Analysis Workspace, Report Builder, Data Warehouse, Data Feeds e API 2.0 do Analytics.
 
 Para obter informações sobre qual produto do Adobe Analytics usar, consulte [Qual ferramenta do Adobe Analytics devo usar?](/help/analyze/get-started/which-analytics-tool.md).
 
@@ -29,7 +29,7 @@ Para obter informações sobre qual produto do Adobe Analytics usar, consulte [Q
 | **Vários conjuntos de relatórios** | [Sim](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sim | Não | Sim | Não | Sim |
 | **Quantidade de detalhamentos** | Ilimitado | Até 2 | Ilimitado | Ilimitado | Ilimitado, executar em vários queries |
 | **Segmentação** <br> [Saiba mais](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sim | Sim | Sim, com [limitações](/help/components/segmentation/seg-reference/seg-compatibility.md) | Não | Sim |
-| **Métricas calculadas** <br> [Saiba mais](/help/components/c-calcmetrics/cm-overview.md) | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Sim, com atribuição | Sim | Não | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Métricas calculadas** <br> [Saiba mais](/help/components/c-calcmetrics/cm-overview.md) | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Sim, com Atribuição | Sim | Não | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canais de marketing** <br> [Saiba mais](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sim | Sim | Sim | Sim - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sim |
 | **Análise de coorte** | [Sim](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Sim | Não | Não | Não |
 | **Atribuição** | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limitado | Não | Não | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Não |
