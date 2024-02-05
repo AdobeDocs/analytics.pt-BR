@@ -4,7 +4,7 @@ description: Gerar corretamente um arquivo para uso em fontes de dados.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cc25fe304d9cab3db3fa2ddd306338ff3bb88a55
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 5%
@@ -74,8 +74,8 @@ O Adobe não oferece suporte a fontes de dados para outras dimensões ou métric
 
 O primeiro valor em cada linha **deve** ser a data. O formato de data deve estar em um dos seguintes formatos:
 
-* **`MM/DD/YY/HH/mm/SS`**
-* **`MM/DD/YY`**
+* **`MM/DD/YYYY/HH/mm/SS`**
+* **`MM/DD/YYYY`**
 
 A omissão de horas/minutos/segundos define automaticamente o carimbo de data e hora para as 12 PM desse dia.
 
