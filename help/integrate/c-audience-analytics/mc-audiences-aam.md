@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Visão geral do Audience Analytics
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 44%
+source-wordcount: '470'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ Com a integração Audience Analytics implementada, você pode incorporar os dad
 
 >[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
-## Principais benefícios {#section_94816D17283349E0BA28521BE55BB868}
+## Principais benefícios {#benefits}
 
 A integração do Audience Analytics apresenta os seguintes benefícios principais:
 
@@ -29,7 +29,7 @@ A integração do Audience Analytics apresenta os seguintes benefícios principa
 * Administradores de soluções podem habilitar a integração por meio da interface do usuário, sem precisarem fazer muitas alterações no código.
 * Somente segmentos aderidos a controles de exportação de dados do Audience Manager são compartilhados.
 
-## Como funciona {#section_CECDF5A0FEC64264B206EFEF54F19EF2}
+## Como o Audience Analytics funciona {#works}
 
 ![](assets/mc-aud-dataflow.png)
 
@@ -41,7 +41,7 @@ Como os segmentos do Adobe Audience Manager são inseridos com base na mesma oco
 
 Além disso, classificamos automaticamente as IDs de segmento da Adobe Audience Manager de acordo com os nomes amigáveis, para que você não precise pesquisar IDs alfanuméricas em relatórios do Analytics.
 
-## Pré-requisitos {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
+## Pré-requisitos {#prerequisites}
 
 Verifique se você atende a estes pré-requisitos:
 

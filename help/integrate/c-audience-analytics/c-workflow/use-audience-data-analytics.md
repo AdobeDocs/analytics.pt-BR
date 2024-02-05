@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Usar os dados de público-alvo no Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 89%
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 Você pode usar as dimensões do Adobe Audience Manager Audience em todo o Analytics. Os segmentos integrados são as novas dimensões do Analytics, chamadas IDs de públicos-alvo e Nomes de públicos-alvo, e podem se usadas da mesma maneira que qualquer dimensão que o Analytics coleta. Em Feeds de dados, as IDs de públicos-alvo são armazenadas na coluna “mc_audiences”. Essas dimensões não estão disponíveis no Data Workbench ou na Transmissão em tempo real. São exemplos de como as dimensões de Públicos-alvo podem ser aproveitadas:
 
-## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
+## Analysis Workspace {#workspace}
 
 No Analysis Workspace, os segmentos do Adobe Audience Manager aparecem como duas dimensões.
 
@@ -24,7 +24,7 @@ No Analysis Workspace, os segmentos do Adobe Audience Manager aparecem como duas
 
    ![](assets/aw-mcaudiences.png)
 
-## Comparação de segmentos {#section_E72B80B6470C42D4B9B19BE90E6070A2}
+## Comparação de segmentos {#compare}
 
 A [Comparação de segmentos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=pt-BR) encontra as diferenças estatísticas mais relevantes entre dois segmentos. Dados de Públicos-alvo podem ser usados na Comparação de segmentos de duas maneiras: 1) como os 2 segmentos sendo comparados, e 2) como itens na tabela “Itens de dimensão principais”.
 
@@ -41,7 +41,7 @@ A [Comparação de segmentos](https://experienceleague.adobe.com/docs/analytics/
 
    ![](assets/aud-segcompare.png)
 
-## Jornada do cliente (Fluxo) na Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Jornada do cliente (Fluxo) na Analysis Workspace {#flow}
 
 Os dados de segmento do Adobe Audience Manager são passados para o Analytics ocorrência por ocorrência, e representam a associação de público-alvo de um visitante naquele período específico. Ou seja, um visitante pode se encaixar em um segmento (ex. “Percepção”) e depois se classificar para um segmento mais qualificado (ex. “Consideração”). Use [Fluxo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=pt-BR) na Analysis Workspace para visualizar a jornada feita por um cliente entre públicos-alvo.
 
@@ -55,7 +55,7 @@ Os dados de segmento do Adobe Audience Manager são passados para o Analytics oc
 
 Públicos-alvo também podem ser usados em [visualizações de Fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=pt-BR).
 
-## Visualização de Venn na Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Visualização de Venn na Analysis Workspace {#venn}
 
 [Visualizações de Venn](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=pt-BR) mostram a sobreposição entre até 3 segmentos.
 
@@ -69,7 +69,7 @@ Públicos-alvo também podem ser usados em [visualizações de Fallout](https://
 
 ![](assets/venn-viz.png)
 
-## Construtor de segmentos {#section_2AA81852A1404AB894472CA8959461B6}
+## Construtor de segmentos {#builder}
 
 É possível incorporar as dimensões de Públicos-alvo no [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) do Analytics, junto às informações de comportamento coletadas pelo Analytics.
 

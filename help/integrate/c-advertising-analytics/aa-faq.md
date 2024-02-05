@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre o Advertising Analytics.
 title: Perguntas frequentes sobre análises de publicidade
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 50%
+source-wordcount: '1303'
+ht-degree: 36%
 
 ---
 
@@ -161,29 +161,18 @@ Não, atualmente não temos planos para esses outros canais no roteiro.
 
 ## Rastreamento automático vs. manual {#section_7437C4698A6D482EB7ED94A948390119}
 
-<table id="table_9738FF8459574ED2937A860A665BE739"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Pergunta </th> 
-   <th colname="col2" class="entry"> Resposta </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>P: Ao configurar a conta publicitária, aparece que o <b>Rastreamento automático</b> pode levar a consequências não intencionais. Que tipos de consequências pode ocorrer? </p> </td> 
-   <td colname="col2"> <p>R: 
-     <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
-      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">O modo automático tentará anexar os parâmetros de URL ao final dos URLs de modelo/destino de rastreamento no formato adequado. <b>Contudo, é sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página de aterrissagem final. </b> </li> 
-      <li id="li_1202FE1FC88342378A60E8FE65E5426B">O modo automático pode inserir palavras-chave ao URL de aterrissagem, e seu servidor da Web pode não ser compatível com palavras-chave com caracteres especiais. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Se eu configurar o Rastreamento manual ou o Automático inicialmente, <b>poderei alternar</b> para o outro modo posteriormente? Quais são as implicações? </p> </td> 
-   <td colname="col2"> <p>R: Sim, é possível alterar, mas será necessário remover a lógica de rastreamento antiga antes da alteração. Isso pode resultar em inatividade do rastreamento no dia que a alteração for feita (especialmente se estiver mudando do manual para o automático). Dessa forma, é recomendado não alterar, exceto seja absolutamente necessário. </p> 
-    <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
-     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>Alterar do Manual para o Automático</b>: remova as adições manuais feitas aos modelos de rastreamento, altere o botão na interface do usuário do Advertising Analytics de Manual para Automático e salve a configuração. Observe que pode levar até x horas para que o sistema preencha os códigos de rastreamento automático. </li> 
-     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>Alterar do Automático para o Manual</b>: atualize o botão de Manual para Automático na interface do usuário de instalação do Advertising Analytics e implante os códigos de rastreamento manual o mais rápido possível. Ao implantar os códigos de rastreamento manual, se você encontrar os códigos de rastreamento automático nos modelos de rastreamento do mecanismo de pesquisa, remova-os. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Ao configurar minha conta publicitária, ela declara que<b> Rastreamento automático</b> pode ter consequências não intencionais. Que tipos de consequências pode ocorrer?
+
+O modo automático tenta anexar parâmetros de URL ao final dos modelos de rastreamento/URLs de destino no formato correto. <b>No entanto, é sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página inicial final. O modo automático pode inserir palavras-chave ao URL de aterrissagem, e seu servidor da Web pode não ser compatível com palavras-chave com caracteres especiais.
+
++++
+
++++ Se eu configurar o Rastreamento manual ou automático inicialmente, posso alternar para o outro modo de rastreamento posteriormente? Quais são as implicações?
+
+Sim, você pode alternar os modos de rastreamento, mas precisa remover a lógica de rastreamento antiga antes de fazer a alteração. Isso pode resultar em inatividade do rastreamento no dia que a alteração for feita (especialmente se estiver mudando do manual para o automático). Assim, recomendamos não alternar, a menos que seja absolutamente necessário.
+
+* Alternância de Manual para Automático: remova as adições manuais aos modelos de rastreamento e alterne a alternância na interface do usuário do Advertising Analytics de manual para Automático e salve a configuração. Observe que pode levar várias horas para que o sistema preencha os códigos de rastreamento automático.
+
+* Alternância de Automático para Manual: atualize a alternância de manual para automático na interface de configuração do Advertising Analytics e implante os códigos de rastreamento manual o mais rápido possível. Ao implantar os códigos de rastreamento manual, se você encontrar os códigos de rastreamento automático nos modelos de rastreamento do mecanismo de pesquisa, remova-os.
+
++++
