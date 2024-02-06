@@ -3,10 +3,11 @@ title: Dicas do cliente
 description: Saiba como as dicas do cliente substituirão gradualmente o usuário-agente como a fonte de informações do dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 87%
+source-wordcount: '1184'
+ht-degree: 84%
 
 ---
 
@@ -67,14 +68,14 @@ A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 | Sec-CH-UA | Navegador e versão significativa | Baixa | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixa | `true` |
 | Sec-CH-UA-Platform | Sistema operacional/plataforma | Baixa | `"Android"` |
-| arquitetura | Arquitetura do site | Alta | `"arm"` |
+| Arquitetura do | Arquitetura do site | Alta | `"arm"` |
 | bitness | Bitness da arquitetura | Alta | `"64"` |
 | fullVersionList | Lista de marcas com suas versões | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
 | model | Modelo do dispositivo | Alta | `"Pixel 3"` |
 | platformVersion | Versão do sistema operacional/plataforma | Alta | `"10"` |
 
 * As dicas de baixa entropia são coletadas por meio do cabeçalho da solicitação.
-* As dicas de alta entropia são coletadas por meio de JavaScript e transmitidas pelos valores de parâmetro da string de consulta. Os parâmetros da string de consulta usam `h.` como um prefixo na solicitação de imagem. Observe que fullVersionList não está coletado no momento porque a versão principal do navegador é capturada como uma dica de baixa entropia.
+* As dicas de alta entropia são coletadas por meio de JavaScript e transmitidas pelos valores de parâmetro da string de consulta. Os parâmetros da cadeia de caracteres de consulta usam `h.` como um prefixo na solicitação de imagem. Observe que fullVersionList não está coletado no momento porque a versão principal do navegador é capturada como uma dica de baixa entropia.
 
 Dicas de alta entropia são coletadas por meio da chamada do JavaScript e transmitidas pelo parâmetro de consulta
 

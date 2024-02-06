@@ -1,18 +1,18 @@
 ---
 description: Saiba mais sobre as vantagens e desvantagens de usar a configuração Carimbos opcionais de data e hora.
 keywords: Implementação do Analytics
-title: Usar Carimbos opcionais de data e hora
+title: Carimbos opcionais de data e hora
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 96%
 
 ---
 
-# Usar Carimbos opcionais de data e hora
+# Carimbos opcionais de data e hora
 
 Saiba mais sobre as vantagens e desvantagens de usar a configuração Carimbos opcionais de data e hora.
 
@@ -32,7 +32,7 @@ Carimbos opcionais de data e hora é uma configuração padrão para todos os co
 
 Consulte [Carimbos opcionais de data e hora](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=pt-BR) para mais informações sobre a configuração.
 
-## Carimbos opcionais de data e hora: integração de dados com e sem carimbos de data e hora {#section_BF17CB593044462B993FD0D28EA56518}
+## Carimbos opcionais de data e hora: integrar dados com e sem carimbos de data e hora {#integrate}
 
 Ao usar o recurso Carimbos opcionais de data e hora, é possível combinar dados com e sem informações de data e hora, sem perda de dados. Dados offline com carimbos de data e hora gerados em um dispositivo móvel podem ser combinados com dados ativos de uma página da Web que não tenha essas informações ou integrados com dados de qualquer plataforma usando uma chamada de carimbo de data e hora do lado do cliente.
 
@@ -45,7 +45,7 @@ Um conjunto de relatórios pode ter um dos seguintes carimbos de data e hora:
 * Carimbos de data e hora obrigatórios (sem suporte à configuração visitorID)
 * Carimbos de data e hora opcionais (com suporte à configuração visitorID, exceto ocorrências com carimbos de data e hora)
 
-## Sobre os recursos dos carimbos de data e hora opcionais {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## Sobre os recursos opcionais de Carimbos de data e hora {#features}
 
 Os carimbos opcionais de data e hora permitem que você integre e faça relatórios de vários conjuntos de relatórios com ou sem carimbos de data e hora do lado do cliente. Com os carimbos opcionais de data e hora é possível atualizar o aplicativo e usar carimbos de data e hora enquanto usa dados do aplicativo anterior que não possuem esses carimbos.
 
@@ -55,7 +55,7 @@ Os carimbos opcionais de data e hora permitem que você integre e faça relatór
 
 **Com os carimbos opcionais de data e hora**, é possível integrar dados sem carimbos de data e hora de um site com dados offline de dispositivos móveis ou atualizar o aplicativo sem carimbos de data e hora para um aplicativo com esses carimbos.
 
-## Combinação de dados em um conjunto de relatórios global {#section_5BE3BDF56007402BB1F5C3144D5FE1E0}
+## Combinação de dados em um conjunto de relatórios global {#combine}
 
 A combinação de dados em um conjunto de relatórios global pode ser feita de várias formas, incluindo a inserção de tags em vários conjuntos, regras do Vista e arquivos em lote de fontes offline.
 
@@ -63,16 +63,16 @@ A combinação de dados em um conjunto de relatórios global pode ser feita de v
 >
 >Planeje cuidadosamente o design de cada conjunto de dados do componente para que a combinação faça sentido no conjunto de relatórios global.
 
-## Práticas recomendadas para uso de carimbos de data e hora {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
+## Práticas recomendadas para usar carimbos de data e hora {#best-pratices}
 
 A seguir podemos ver práticas recomendadas e alguns requisitos e restrições que devem ser levados em consideração ao integrar dados com ou sem carimbos de data e hora.
 
 * De maneira geral, os carimbos de data e hora de um determinado visitante ou visita devem chegar na Adobe dentro da ordem cronológica correta.
 
-   Dados fora de ordem podem gerar um atraso na chegada dos dados da coleta de dados offline, um atraso na chegada das ocorrências ou em relógios mal ajustados em dispositivos móveis offline. Dados fora de ordem podem prejudicar os cálculos de tempo (como os valores de tempo gasto), as atribuições (persistência de eVar), o número/a contagem de visitas e os relatórios de definição de caminho.
+  Dados fora de ordem podem gerar um atraso na chegada dos dados da coleta de dados offline, um atraso na chegada das ocorrências ou em relógios mal ajustados em dispositivos móveis offline. Dados fora de ordem podem prejudicar os cálculos de tempo (como os valores de tempo gasto), as atribuições (persistência de eVar), o número/a contagem de visitas e os relatórios de definição de caminho.
 
 * Não é recomendado usar carimbos de data e hora durante a configuração de uma [s.visitorID](/help/implement/vars/config-vars/visitorid.md). Eles podem fazer com que os dados fiquem fora de ordem.
 
 * Aplicativos híbridos compostos de um aplicativo (com carimbos de data e hora, dados offline) que abrem um navegador da Web (dados ativos, sem carimbos de data e hora) não devem usar carimbos de data e hora. Eles resultam em relatórios imprecisos da sessão.
 
-   Além disso, aplicativos híbridos não devem definir uma ID de visitante.
+  Além disso, aplicativos híbridos não devem definir uma ID de visitante.

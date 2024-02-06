@@ -3,12 +3,14 @@ description: Saiba como habilitar relatórios do Adobe Campaign Standard no Adob
 title: Como integrar Relatórios do Adobe Campaign Standard ao Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '512'
+ht-degree: 67%
 
 ---
+
 
 # Relatórios do Adobe Campaign Standard
 
@@ -54,7 +56,7 @@ Quando seu conjunto de relatórios está habilitado para o Adobe Campaign, as se
 | [!UICONTROL Rótulo de entrega] | Entrega no Campaign - Entrega individual/Entrega recorrente/Entrega de transações |
 | [!UICONTROL ID da campanha] | Nome da campanha interna que você vê no Campaign |
 | [!UICONTROL Rótulo da campanha] | Campanha no Adobe Campaign |
-| [!UICONTROL Rótulo de entrega realizada] | Lista de deliveries individuais executados |
+| [!UICONTROL Rótulo de entrega executada] | Lista de deliveries individuais executados |
 
 ## Dimensões e métricas do Adobe Campaign Standard disponíveis no Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
 

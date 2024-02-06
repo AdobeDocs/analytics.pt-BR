@@ -3,10 +3,11 @@ title: Adobe Analytics e cookies do navegador
 description: Saiba como as medidas de prevenção de rastreamento afetam cookies de terceiros e primários definidos pelo Adobe Analytics.
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 100%
+source-wordcount: '1914'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +18,7 @@ Este documento explica como as principais medidas de prevenção de rastreamento
 ## Como os navegadores limitam o uso de cookies?
 
 >[!NOTE]
->[O Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=pt-BR#cda) e o [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR#comparing-cja-to-traditional-adobe-analytics) podem unir cookies usando uma ID de pessoa, como uma ID de logon com hash, se disponível.
+>[Análise entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=pt-BR#cda) e [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR#comparing-cja-to-traditional-adobe-analytics) O pode unir cookies usando uma ID de pessoa, como uma id de logon com hash, se disponível.
 
 ### Limitações de cookies de terceiros
 
@@ -74,7 +75,7 @@ Se essas limitações afetarem seus dados, você verá:
 
 Os cookies de terceiros não são criados por sites visitados pelos usuários.
 
-Embora atualmente os navegadores tratem todos os cookies de terceiros da mesma forma e os armazenem de acordo, os cookies de terceiros podem se comportar de maneiras diferentes. Com a implementação de cookies de terceiros do Analytics, os navegadores armazenam a Adobe ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=pt-BR) como um cookie de terceiros, mas o cliente faz chamadas somente para a Adobe e não para domínios desconhecidos ou suspeitos de terceiros. Este cookie fornece identificadores persistentes entre domínios e permite conteúdo protegido (https). Para obter mais informações, consulte [Cookies e o Serviço de identidade da Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR).
+Embora atualmente os navegadores tratem todos os cookies de terceiros da mesma forma e os armazenem de acordo, os cookies de terceiros podem se comportar de maneiras diferentes. Com a implementação de cookies de terceiros do Analytics, os navegadores armazenam o Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=pt-BR) A ID é um cookie de terceiros, mas o cliente faz chamadas somente para o Adobe e não para domínios desconhecidos ou suspeitos de terceiros. Este cookie fornece identificadores persistentes entre domínios e permite conteúdo protegido (https). Para obter mais informações, consulte [Cookies e o Serviço de identidade da Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR).
 
 Nas implementações do Analytics, os cookies de terceiros são usados para rastreamento entre domínios e para casos de uso de anúncios, incluindo anúncios de redirecionamento. Os cookies de terceiros permitem identificar os visitantes à medida que eles visitam domínios diferentes de sua propriedade ou à medida que veem anúncios em sites que não são seus.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -168,11 +169,11 @@ Se sua empresa for afetada pela prevenção de rastreamento de ITP, considere as
 
 * Crie um segmento para filtrar usuários da ITP.
 
-   ![Segmento para visitantes que não são da ITP](/help/technotes/assets/non-itp-visitor-segment.png)
+  ![Segmento para visitantes que não são da ITP](/help/technotes/assets/non-itp-visitor-segment.png)
 
 * Crie uma métrica calculada para ajustar a inflação de visitantes conhecidos.
 
-   ![Métrica calculada a ser ajustada para inflação de visitantes](/help/technotes/assets/estimated-itp-visitors-metric.png)
+  ![Métrica calculada a ser ajustada para inflação de visitantes](/help/technotes/assets/estimated-itp-visitors-metric.png)
 
 >[!MORELIKETHIS]
 >
