@@ -3,7 +3,7 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 55c08fd64b2fbac0e21af10896773c2530fa64a8
+source-git-commit: d52e4d41ac0fc6ce6db04e491fc33bac2284f040
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 42%
@@ -12,7 +12,7 @@ ht-degree: 42%
 
 # Notas de versão atuais do Adobe Analytics (fevereiro de 2024)
 
-**Última atualização**: quinta-feira, 14 de fevereiro de 2024
+**Última atualização**: sábado, 16 de fevereiro de 2024
 
 Essas notas de versão abrangem o período de lançamento de 14 de fevereiro de 2024 a 11 de março de 2024. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -20,7 +20,7 @@ Essas notas de versão abrangem o período de lançamento de 14 de fevereiro de 
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Activity Map para o SDK da Web sem custo extra** | Atualmente, os eventos de link de Activity Map são contados como seus próprios eventos e incorrem em custo extra. Esse aprimoramento pega alguns eventos de link e os empacota na próxima ocorrência, de modo semelhante a como os eventos são tratados pelo AppMeasurement. |  | quinta-feira, 14 de fevereiro de 2024 |
+| **Activity Map para o SDK da Web sem custo extra** | Atualmente, os eventos de link de Activity Map são contados como seus próprios eventos e incorrem em custo extra. Esse aprimoramento pega alguns eventos de link e os empacota na próxima ocorrência, de modo semelhante a como os eventos são tratados pelo AppMeasurement. |  | quinta-feira, 6 de março de 2024 |
 | **Aumento nos limites padrão de tráfego baixo** | Entrada **meados de abril de 2024**, o Adobe começará a aumentar os limites de tráfego baixo do conjunto de relatórios padrão da seguinte maneira: ![limites de tráfego baixo](assets/thresholds.png) Isso afetará somente as variáveis que estão definidas abaixo dos novos limites. Essas alterações serão feitas de forma incremental, e esperamos que o trabalho seja concluído pela **fim de maio**. À medida que esses aumentos forem implementados, você poderá notar alterações nas variáveis de alta cardinalidade:<ul><li>Mais valores de dimensão podem estar disponíveis para relatórios.</li><li>Segmentos e métricas calculadas podem incluir mais dados.</li><li>Os conjuntos de relatórios virtuais baseados em segmentos podem incluir mais dados.</li></ul> | Meados de abril de 2024 | Final de maio de 2024 |
 
 {style="table-layout:auto"}
