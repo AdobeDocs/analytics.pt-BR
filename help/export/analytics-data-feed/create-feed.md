@@ -3,10 +3,10 @@ title: Criar um feed de dados
 description: Saiba como criar um feed de dados.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 20%
+source-wordcount: '3215'
+ht-degree: 17%
 
 ---
 
@@ -93,18 +93,18 @@ Ao criar um feed de dados, você fornece ao Adobe:
          |---------|----------|
          | [!UICONTROL **Nome da conta**] | Um nome para a conta. Pode ser qualquer nome que você escolher. |
          | [!UICONTROL **Descrição da conta**] | Uma descrição para a conta. |
-         | [!UICONTROL **Função ARN**] | Você deve fornecer uma Função ARN (Amazon Resource Name) que o Adobe pode usar para obter acesso à conta do Amazon S3. Para fazer isso, crie uma política de permissão IAM para a conta de origem, anexe a política a um usuário e crie uma função para a conta de destino. Para obter informações específicas, consulte [esta documentação do AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-         | [!UICONTROL **ARN do usuário**] | O usuário ARN (Amazon Resource Name) é fornecido pelo Adobe. Você deve anexar este usuário à política criada. |
+         | [!UICONTROL **ARN de função**] | Você deve fornecer uma Função ARN (Amazon Resource Name) que o Adobe pode usar para obter acesso à conta do Amazon S3. Para fazer isso, crie uma política de permissão IAM para a conta de origem, anexe a política a um usuário e crie uma função para a conta de destino. Para obter informações específicas, consulte [esta documentação do AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+         | [!UICONTROL **Usuário ARN**] | O usuário ARN (Amazon Resource Name) é fornecido pelo Adobe. Você deve anexar este usuário à política criada. |
 
          {style="table-layout:auto"}
 
-         1. Selecionar [!UICONTROL **Adicionar localização**] e especifique as seguintes informações:
+      1. Selecionar [!UICONTROL **Adicionar localização**] e especifique as seguintes informações:
 
          | Campo | Função |
          |---------|----------|
          | [!UICONTROL **Nome**] | Um nome para a conta. |
          | [!UICONTROL **Descrição**] | Uma descrição para a conta. |
-         | [!UICONTROL **Bucket**] | O bucket da conta do Amazon S3 para o qual você deseja que os dados do Adobe Analytics sejam enviados. Certifique-se de que o usuário ARN fornecido pelo Adobe tenha acesso para carregar arquivos nesse bucket. |
+         | [!UICONTROL **Balde**] | O bucket da conta do Amazon S3 para o qual você deseja que os dados do Adobe Analytics sejam enviados. <p>Certifique-se de que o ARN do usuário fornecido pelo Adobe tenha o `S3:PutObject` para carregar arquivos nesse bucket. Esta permissão possibilita que o usuário ARN carregue os arquivos iniciais e sobrescreva os arquivos para envios subsequentes.</p> |
          | [!UICONTROL **Prefixo**] | A pasta dentro do bucket onde você deseja colocar os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/` |
 
          {style="table-layout:auto"}
@@ -115,7 +115,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
 
 +++
 
-   +++Azure RBAC
+   +++RBAC do Azure
 
    Você pode enviar feeds diretamente para um container do Azure usando a autenticação RBAC. Este tipo de destino requer uma ID de Aplicativo, uma ID de Locatário e um Segredo.
 
@@ -152,7 +152,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
          | [!UICONTROL **Nome da conta**] | Um nome para a conta RBAC do Azure. Esse nome é exibido no campo [!UICONTROL **Selecionar conta**] e pode ser qualquer nome que você escolher. |
          | [!UICONTROL **Descrição da conta**] | Uma descrição para a conta RBAC do Azure. Essa descrição é exibida na variável [!UICONTROL **Selecionar conta**] e pode ser qualquer nome que você escolher. |
          | [!UICONTROL **ID do aplicativo**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações estão localizadas no **Visão geral** no aplicativo. Para obter mais informações, consulte [Documentação do Microsoft Azure sobre como registrar um aplicativo na Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **ID do locatário**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações estão localizadas no **Visão geral** no aplicativo. Para obter mais informações, consulte [Documentação do Microsoft Azure sobre como registrar um aplicativo na Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **ID do inquilino**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações estão localizadas no **Visão geral** no aplicativo. Para obter mais informações, consulte [Documentação do Microsoft Azure sobre como registrar um aplicativo na Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Segredo**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações estão localizadas no **Certificados e segredos** no aplicativo. Para obter mais informações, consulte [Documentação do Microsoft Azure sobre como registrar um aplicativo na Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
@@ -175,7 +175,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
 
 +++
 
-   +++Azure SAS
+   +++SAS do Azure
 
    Você pode enviar feeds diretamente para um contêiner do Azure usando a autenticação SAS. Este tipo de destino requer uma ID do aplicativo, ID do locatário, URI do cofre de chaves, nome do segredo do cofre de chaves e segredo.
 
@@ -212,9 +212,9 @@ Ao criar um feed de dados, você fornece ao Adobe:
          | [!UICONTROL **Nome da conta**] | Um nome para a conta SAS do Azure. Esse nome é exibido no campo [!UICONTROL **Selecionar conta**] e pode ser qualquer nome que você escolher. |
          | [!UICONTROL **Descrição da conta**] | Uma descrição para a conta SAS do Azure. Essa descrição é exibida na variável [!UICONTROL **Selecionar conta**] e pode ser qualquer nome que você escolher. |
          | [!UICONTROL **ID do aplicativo**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações estão localizadas no **Visão geral** no aplicativo. Para obter mais informações, consulte [Documentação do Microsoft Azure sobre como registrar um aplicativo na Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **ID do locatário**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações estão localizadas no **Visão geral** no aplicativo. Para obter mais informações, consulte [Documentação do Microsoft Azure sobre como registrar um aplicativo na Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **ID do inquilino**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações estão localizadas no **Visão geral** no aplicativo. Para obter mais informações, consulte [Documentação do Microsoft Azure sobre como registrar um aplicativo na Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **URI do cofre de chaves**] | <p>O caminho para o token SAS no Cofre de Chaves do Azure.  Para configurar o Azure SAS, você precisa armazenar um token SAS como um segredo usando o Cofre de Chaves do Azure. Para obter informações, consulte a [Documentação do Microsoft Azure sobre como definir e recuperar um segredo do Cofre de Chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Depois que o URI do cofre de chaves for criado, adicione uma política de acesso ao Cofre de Chaves para conceder permissão ao aplicativo do Azure que você criou. Para obter informações, consulte a [Documentação do Microsoft Azure sobre como atribuir uma política de acesso do Cofre da Chave](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-         | [!UICONTROL **Nome secreto do cofre de chaves**] | O nome secreto que você criou ao adicionar o segredo ao Cofre de Chaves do Azure. No Microsoft Azure, essas informações estão localizadas no Cofre de Chaves que você criou, na **Cofre da Chave** páginas de configurações. Para obter informações, consulte a [Documentação do Microsoft Azure sobre como definir e recuperar um segredo do Cofre de Chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **Nome do segredo do cofre de chaves**] | O nome secreto que você criou ao adicionar o segredo ao Cofre de Chaves do Azure. No Microsoft Azure, essas informações estão localizadas no Cofre de Chaves que você criou, na **Cofre da Chave** páginas de configurações. Para obter informações, consulte a [Documentação do Microsoft Azure sobre como definir e recuperar um segredo do Cofre de Chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **Segredo**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações estão localizadas no **Certificados e segredos** no aplicativo. Para obter mais informações, consulte [Documentação do Microsoft Azure sobre como registrar um aplicativo na Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
@@ -236,7 +236,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
 
 +++
 
-   +++Google Cloud Platform
+   +++Plataforma de nuvem do Google
 
    Você pode enviar feeds diretamente para buckets da Google Cloud Platform (GCP). Esse tipo de destino exige apenas o nome da sua conta GCP e o nome do local (bucket).
 
@@ -274,14 +274,14 @@ Ao criar um feed de dados, você fornece ao Adobe:
 
          {style="table-layout:auto"}
 
-         1. Selecionar [!UICONTROL **Adicionar localização**] e especifique as seguintes informações:
+      1. Selecionar [!UICONTROL **Adicionar localização**] e especifique as seguintes informações:
 
          | Campo | Função |
          |---------|----------|
          | [!UICONTROL **Principal**] | O Principal é fornecido pelo Adobe. Você deve conceder permissão para receber feeds para este principal. |
          | [!UICONTROL **Nome**] | Um nome para a conta. |
          | [!UICONTROL **Descrição**] | Uma descrição para a conta. |
-         | [!UICONTROL **Bucket**] | O bucket da conta GCP para o qual você deseja que os dados do Adobe Analytics sejam enviados. Verifique se você concedeu permissão ao Principal fornecido pelo Adobe para fazer upload de arquivos para esse bucket. |
+         | [!UICONTROL **Balde**] | O bucket da conta GCP para o qual você deseja que os dados do Adobe Analytics sejam enviados. <p>Certifique-se de ter concedido uma das seguintes permissões ao Principal fornecido pelo Adobe:<ul><li>`roles/storage.objectCreator`: use essa permissão se desejar limitar o Principal para criar arquivos somente em sua conta GCP. </br>**Importante:** Se você usar essa permissão com relatórios agendados, deverá usar um nome de arquivo exclusivo para cada nova exportação agendada. Caso contrário, ocorrerá uma falha na geração do relatório, pois a Entidade de Segurança não tem acesso para substituir os arquivos existentes.</li><li>(Recomendado) `roles/storage.objectUser`: use essa permissão se desejar que o Principal tenha acesso para exibir, listar, atualizar e excluir arquivos na sua conta GCP.</br>Essa permissão possibilita que o Principal substitua arquivos existentes para uploads subsequentes, sem a necessidade de gerar automaticamente nomes de arquivo exclusivos para cada nova exportação agendada.</li></ul><p>Para obter informações sobre a concessão de permissões, consulte [Adicionar uma entidade de segurança a uma política no nível do bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) na documentação da Google Cloud.</p> |
          | [!UICONTROL **Prefixo**] | A pasta dentro do bucket onde você deseja colocar os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/` |
 
          {style="table-layout:auto"}
@@ -297,7 +297,7 @@ Ao criar um feed de dados, você fornece ao Adobe:
    | Campo | Função |
    |---------|----------|
    | [!UICONTROL **Remover caracteres de escape**] | Ao coletar dados, alguns caracteres (como novas linhas) podem causar problemas. Marque essa caixa se desejar que esses caracteres sejam removidos dos arquivos de feed. |
-   | [!UICONTROL **Formato de compactação**] | O tipo de compactação usado. **** O Gzip gera arquivos no formato `.tar.gz`. **** O Zip gera arquivos no formato `.zip`. |
+   | [!UICONTROL **Formato de compactação**] | O tipo de compactação usado. **Gzip** gera arquivos em `.tar.gz` formato. **Zip** gera arquivos em `.zip` formato. |
    | [!UICONTROL **Tipo de embalagem**] | Selecionar **Vários arquivos** para a maioria dos feeds de dados. Essa opção faz a paginação dos dados em blocos descompactados de 2 GB. (Se vários arquivos forem selecionados e os dados descompactados para a janela de relatório forem menores que 2 GB, um arquivo será enviado.) Selecionar **Arquivo único** gera o `hit_data.tsv` em um único arquivo potencialmente massivo. |
    | [!UICONTROL **Manifesto**] | Se o Adobe deve ou não fornecer um [arquivo manifest](c-df-contents/datafeeds-contents.md#feed-manifest) ao destino quando nenhum dado for coletado para um intervalo de feed. Se você selecionar **Arquivo de manifesto**, você receberá um arquivo de manifesto semelhante ao seguinte quando nenhum dado for coletado:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Modelos de coluna**] | Ao criar muitos feeds de dados, o Adobe recomenda criar um modelo de coluna. A seleção de um modelo de coluna inclui automaticamente as colunas especificadas no modelo. A Adobe também fornece vários modelos por padrão. |

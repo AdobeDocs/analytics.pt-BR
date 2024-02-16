@@ -3,9 +3,9 @@ description: Etapas que descrevem como criar uma solicitação do Data Warehouse
 title: Configurar um destino de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2308'
 ht-degree: 10%
 
 ---
@@ -136,7 +136,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       | Campo | Função |
       |---------|----------|
-      | [!UICONTROL **Nome do bloco**] | O bucket da conta do Amazon S3 para o qual você deseja que os dados do Adobe Analytics sejam enviados. Certifique-se de que o usuário ARN fornecido pelo Adobe tenha acesso para carregar arquivos nesse bucket. |
+      | [!UICONTROL **Nome do bloco**] | O bucket da conta do Amazon S3 para o qual você deseja que os dados do Adobe Analytics sejam enviados. <p>Certifique-se de que o ARN do usuário fornecido pelo Adobe tenha o `S3:PutObject` para carregar arquivos nesse bucket. Esta permissão possibilita que o usuário ARN carregue os arquivos iniciais e sobrescreva os arquivos para envios subsequentes.</p> |
       | [!UICONTROL **Prefixo da chave**] | A pasta dentro do bucket onde você deseja colocar os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
       {style="table-layout:auto"}
@@ -149,7 +149,7 @@ Para configurar o destino para o qual os relatórios de Data Warehouse são envi
 
       | Campo | Função |
       |---------|----------|
-      | [!UICONTROL **Nome do bloco**] | O bucket da conta GCP para o qual você deseja que os dados do Adobe Analytics sejam enviados. Verifique se você concedeu permissão ao Principal fornecido pelo Adobe para fazer upload de arquivos para esse bucket. Para obter informações sobre a concessão de permissões, consulte [Adicionar uma entidade de segurança a uma política no nível do bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) na documentação da Google Cloud. |
+      | [!UICONTROL **Nome do bloco**] | O bucket da conta GCP para o qual você deseja que os dados do Adobe Analytics sejam enviados. <p>Certifique-se de ter concedido uma das seguintes permissões ao Principal fornecido pelo Adobe:<ul><li>`roles/storage.objectCreator`: use essa permissão se desejar limitar o Principal para criar arquivos somente em sua conta GCP. </br>**Importante:** Se você usar essa permissão com relatórios agendados, deverá usar um nome de arquivo exclusivo para cada nova exportação agendada. Caso contrário, ocorrerá uma falha na geração do relatório, pois a Entidade de Segurança não tem acesso para substituir os arquivos existentes.</li><li>`roles/storage.objectUser`: use essa permissão se desejar que o Principal tenha acesso para exibir, listar, atualizar e excluir arquivos na sua conta GCP.</br>Essa permissão possibilita que o Principal substitua arquivos existentes para uploads subsequentes, sem a necessidade de gerar automaticamente nomes de arquivo exclusivos para cada nova exportação agendada.</li></ul><p>Para obter informações sobre a concessão de permissões, consulte [Adicionar uma entidade de segurança a uma política no nível do bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) na documentação da Google Cloud.</p> |
       | [!UICONTROL **Prefixo da chave**] | A pasta dentro do bucket onde você deseja colocar os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
       {style="table-layout:auto"}
