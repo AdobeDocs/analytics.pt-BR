@@ -5,10 +5,10 @@ title: Compartilhar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: c779035b4f1bfbde6da90b2bc6aa2864bb6353f0
+source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 40%
+source-wordcount: '1929'
+ht-degree: 31%
 
 ---
 
@@ -55,16 +55,28 @@ Ao compartilhar uma função de projeto específica com usuários e grupos em su
 
 * Um usuário que é colocado em várias funções sempre obtém a melhor experiência. Isso pode ocorrer se um usuário for adicionado como um indivíduo e como parte de um grupo. Por exemplo, se um usuário receber o **[!UICONTROL Editar original]** como indivíduo e a **[!UICONTROL Somente leitura]** como membro de um grupo, eles receberão uma **[!UICONTROL Editar original]** experiência em projetos.
 
-* Administradores colocados na **[!UICONTROL Editar cópia]** ou **[!UICONTROL Somente leitura]** recebem essas experiências limitadas quando abrem um projeto. Um administrador pode alterar sua função para **[!UICONTROL Editar original]** compartilhando o projeto com eles mesmos e concedendo a função Editar, conforme descrito no procedimento a seguir.
+* Administradores colocados na **[!UICONTROL Editar cópia]** ou **[!UICONTROL Somente leitura]** recebem essas experiências limitadas quando abrem um projeto. Um administrador pode alterar sua função para **[!UICONTROL Editar original]** partilhando o projeto consigo próprios e concedendo-lhe o **Editar** conforme descrito no procedimento a seguir.
+
+* Se vários projetos forem selecionados para compartilhamento, os recipients serão adicionados à lista existente de recipients para cada projeto.
+
+  Por exemplo, o Projeto A já está compartilhado com os recipients 1, 2 e 3, enquanto o Projeto B já está compartilhado com os recipients 4, 5 e 6.
+
+  Os projetos A e B são compartilhados com os recipients 4 e 7. A nova lista de compartilhamento do Projeto A agora é 1, 2, 3, 4 e 7, enquanto a nova lista de compartilhamento do Projeto B é 4, 5, 6 e 7.
 
 Para compartilhar uma função de projeto específica com usuários ou grupos na organização:
 
-1. Vá para o projeto que deseja compartilhar e clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]**.
-Se houver alterações não salvas, você deverá salvar o projeto primeiro.
+1. No Adobe Analytics, selecione a variável [!UICONTROL **Workspace**] e selecione [!UICONTROL **Projetos**] no painel esquerdo.
+
+1. Marque a caixa de seleção ao lado de um ou mais projetos que você deseja compartilhar e selecione [!UICONTROL **Compartilhar**].
+
+   Ou
+
+   Para compartilhar somente um projeto individual, abra o projeto que deseja compartilhar e selecione **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]**.
+Se houver alterações não salvas, você será solicitado a salvar seu projeto primeiro.
+
+   A caixa de diálogo Compartilhar projeto é exibida. A variável [!UICONTROL **Compartilhar por link**] e [!UICONTROL **Configurações**] as seções da caixa de diálogo estão visíveis somente ao compartilhar um único projeto.
 
    ![](assets/share-proj-modal.png)
-
-   Para obter informações sobre como compartilhar vários projetos simultaneamente, consulte [Compartilhar projetos no Gerenciador de projetos](#share-projects-in-the-project-manager).
 
 1. Adicione destinatários ou grupos de destinatários em um dos campos de função fornecidos:
 
@@ -74,17 +86,17 @@ Se houver alterações não salvas, você deverá salvar o projeto primeiro.
 
    **Somente leitura:** Os destinatários não podem **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar como]** e não têm acesso ao painel esquerdo. As interações do projeto também são limitadas. Essa função é útil se você quiser compartilhar um projeto com usuários menos familiarizados com a estrutura de dados de sua organização, o Analysis Workspace ou o Adobe Analytics em geral. No entanto, você ainda deseja que eles consumam dados e insights em um ambiente seguro. Saiba mais sobre o [Experiência de projeto somente leitura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
 
-1. Escolha se deseja ativar as seguintes opções ao compartilhar o projeto:
+1. (Condicional) Se você estiver compartilhando um único projeto, escolha se deseja ativar as seguintes opções ao compartilhar o projeto:
 
    * **Compartilhar componentes de projeto incorporados:** compartilha segmentos, métricas calculadas e intervalos de data com todos os destinatários. Após compartilhados, esses componentes aparecem no menu suspenso de componentes do espaço de trabalho do destinatário. Essa configuração não é persistente: é uma ação única para a ocasião do compartilhamento.
 
    * **Definir como página de destino para os destinatários:** define esta página como a página de destino dos destinatários. Essa configuração não é persistente: é uma ação única para a ocasião do compartilhamento.
 
-1. Clique em **[!UICONTROL Compartilhar]**. (Se o projeto já tiver sido compartilhado, clique em [!UICONTROL **Atualizar**].)
+1. Selecionar **[!UICONTROL Compartilhar]**. (Se o projeto já tiver sido compartilhado, selecione [!UICONTROL **Atualizar**].)
 
    Ou
 
-   Clique em **[!UICONTROL Preparar e compartilhar]** para aplicar automaticamente a preparação do projeto. (Se o projeto já tiver sido compartilhado, clique em **[!UICONTROL Preparar e atualizar]**.) Saiba mais sobre [Preparação de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=pt-BR).
+   Selecionar **[!UICONTROL Preparar e compartilhar]** para aplicar automaticamente a preparação do projeto. (Se o projeto já tiver sido compartilhado, selecione **[!UICONTROL Preparar e atualizar]**.) Saiba mais sobre [Preparação de projeto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=pt-BR).
 
 ## Compartilhar um link de um projeto
 
@@ -96,7 +108,7 @@ Ao compartilhar um link conforme descrito nesta seção, considere o seguinte:
 
 Para compartilhar o link do projeto com os usuários em sua organização:
 
-1. Salvar o projeto. Se houver alterações não salvas, você será solicitado a salvar seu projeto antes de compartilhar um link.
+1. Salve o projeto. Se houver alterações não salvas, você será solicitado a salvar seu projeto antes de compartilhar um link.
 
 1. Selecionar **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]** e selecione **[!UICONTROL Copiar]** ao lado da **[!UICONTROL Compartilhar por link]** campo.
 
@@ -148,7 +160,7 @@ Para compartilhar um projeto do Analysis Workspace com pessoas que não têm ace
 
 1. Escolha se deseja habilitar a seguinte opção de segurança (esta opção pode ser controlada pelo administrador do Analytics):
 
-   * **[!UICONTROL Exigir autenticação da Experience Cloud]:**
+   * **[!UICONTROL Exigir autenticação de Experience Cloud]:**
 
      Quando essa opção está habilitada, os únicos usuários que podem acessar o projeto são aqueles que podem fazer logon na organização da Adobe Experience Cloud onde o projeto que você está compartilhando foi criado. No entanto, os usuários com os quais você compartilha não precisam ter acesso ao Adobe Analytics.
 
@@ -168,21 +180,11 @@ Para compartilhar um projeto do Analysis Workspace com pessoas que não têm ace
 
 1. Selecionar **[!UICONTROL Fechar]** para fechar a caixa de diálogo compartilhar. Suas alterações são salvas automaticamente.
 
-## Compartilhar projetos no Gerenciador de projetos {#Manager}
+## Exibir projetos compartilhados com você
 
-Os projetos também podem ser compartilhados em **[!UICONTROL Componentes] > [!UICONTROL Projetos]**. Um único projeto pode ser compartilhado seguindo as mesmas etapas acima.  Se vários projetos forem selecionados para compartilhamento, os recipients serão adicionados à lista existente de recipients para cada projeto.
+Quando alguém compartilha um projeto com você por [compartilhar uma função específica do projeto](#share-a-specific-project-role), você pode acessar os projetos compartilhados na [Guia Projetos de na página de aterrissagem do Analytics](/help/analyze/landing.md#navigate-the-projects-tab).
 
-Por exemplo:
-
-* O projeto A é compartilhado com os recipients 1, 2, 3
-* O projeto B é compartilhado com os recipients 4, 5, 6
-
-Com os projetos A e B selecionados, os recipients 4 e 7 são adicionados às listas de compartilhamento. A nova lista de compartilhamento para cada projeto agora é:
-
-* Projeto A: 1, 2, 3, 4, 7
-* Projeto B: 4, 5, 6, 7
-
-![](assets/mult-proj-sharing.png)
+Quando alguém compartilha um projeto com você compartilhando um link (do [Guia Compartilhar projeto](#share-a-link-to-a-project) ou usando um [compartilhar com qualquer pessoa](#share-a-project-with-anyone-no-login-required) ), você deve usar o link que foi compartilhado com você para acessar o projeto. Por exemplo, o link pode ter sido compartilhado em um email, em um site interno e assim por diante.
 
 ## Compartilhar componentes integrados
 
