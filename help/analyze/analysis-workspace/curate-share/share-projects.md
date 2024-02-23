@@ -8,36 +8,36 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
 workflow-type: tm+mt
 source-wordcount: '1929'
-ht-degree: 31%
+ht-degree: 83%
 
 ---
 
 # Compartilhar projetos
 
-Você pode compartilhar um projeto do Analysis Workspace com os seguintes tipos de pessoas:
+É possível compartilhar um projeto do Analysis Workspace com os seguintes tipos de pessoas:
 
 * Usuários e grupos em sua organização que têm acesso ao Adobe Analytics
 
-  Você pode compartilhar o acesso Editar, Duplicar ou Visualizar
+  Você pode compartilhar o acesso a edição, duplicação ou exibição
 
 * Usuários e grupos em sua organização que não têm acesso ao Adobe Analytics
 
-  Destinatários com acesso somente leitura
+  Destinatários possuem acesso de somente leitura
 
 * Pessoas de fora da organização
 
-  Destinatários com acesso somente leitura
+  Destinatários possuem acesso de somente leitura
 
-Qualquer [curadoria](curate.md) a aplicação antes do compartilhamento é refletida quando os recipients abrem o projeto.
+Qualquer [preparação](curate.md) feita antes do compartilhamento será refletida quando os destinatários abrirem o projeto.
 
 Veja um vídeo com uma visão geral do compartilhamento de projetos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
 
-## Compartilhar com usuários e grupos da Analysis Workspace em sua organização {#Add}
+## Compartilhar com usuários e grupos do Analysis Workspace em sua organização {#Add}
 
-Você pode compartilhar um projeto com usuários ou grupos existentes da Analysis Workspace em sua organização. Ao compartilhar um projeto conforme descrito nesta seção, os usuários com os quais você compartilha já devem ter acesso ao Adobe Analytics.
+É possível compartilhar um projeto com usuários ou grupos do Adobe Analytics em sua organização. Ao compartilhar um projeto conforme descrito nesta seção, os usuários com os quais você compartilha já devem ter uma conta do Adobe Analytics.
 
 Você pode compartilhar uma função específica com usuários ou grupos ou compartilhar um link.
 
@@ -49,13 +49,13 @@ Você pode compartilhar uma função específica com usuários ou grupos ou comp
 
 Ao compartilhar uma função de projeto específica com usuários e grupos em sua organização, considere o seguinte:
 
-* Funções do projeto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar cópia]**, e **[!UICONTROL Somente leitura]**) estão vinculados ao usuário e à ID do projeto específica. As funções do projeto são independentes das permissões de usuário gerenciadas no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR).
+* As funções do projeto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar cópia]** e **[!UICONTROL Somente leitura]**) estão vinculadas ao usuário e à ID específica do projeto. As funções do projeto são independentes das permissões de usuário gerenciadas no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR).
 
 * No Adobe Analytics, os grupos são definidos por perfis de produtos no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR). Os administradores podem compartilhar com qualquer grupo, incluindo “Todos”. Os não administradores podem compartilhar com grupos dos quais são membros, mas não com “Todos”.
 
-* Um usuário que é colocado em várias funções sempre obtém a melhor experiência. Isso pode ocorrer se um usuário for adicionado como um indivíduo e como parte de um grupo. Por exemplo, se um usuário receber o **[!UICONTROL Editar original]** como indivíduo e a **[!UICONTROL Somente leitura]** como membro de um grupo, eles receberão uma **[!UICONTROL Editar original]** experiência em projetos.
+* Um usuário que é colocado em várias funções sempre obtém a melhor experiência. Isso pode ocorrer se um usuário for adicionado como um indivíduo e como parte de um grupo. Por exemplo, se uma pessoa receber a função **[!UICONTROL Editar original]** como indivíduo e a função de **[!UICONTROL Somente leitura]** como membro de um grupo, ele receberá uma experiência de projeto **[!UICONTROL Editar original]**.
 
-* Administradores colocados na **[!UICONTROL Editar cópia]** ou **[!UICONTROL Somente leitura]** recebem essas experiências limitadas quando abrem um projeto. Um administrador pode alterar sua função para **[!UICONTROL Editar original]** partilhando o projeto consigo próprios e concedendo-lhe o **Editar** conforme descrito no procedimento a seguir.
+* Administradores colocados na função **[!UICONTROL Editar cópia]** ou de **[!UICONTROL Somente leitura]** recebem essas experiências limitadas quando abrem um projeto. Um administrador pode alterar sua função para **[!UICONTROL Editar original]** partilhando o projeto consigo próprios e concedendo-lhe o **Editar** conforme descrito no procedimento a seguir.
 
 * Se vários projetos forem selecionados para compartilhamento, os recipients serão adicionados à lista existente de recipients para cada projeto.
 
@@ -72,7 +72,7 @@ Para compartilhar uma função de projeto específica com usuários ou grupos na
    Ou
 
    Para compartilhar somente um projeto individual, abra o projeto que deseja compartilhar e selecione **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]**.
-Se houver alterações não salvas, você será solicitado a salvar seu projeto primeiro.
+Se houver alterações não salvas, será solicitado que salve o projeto primeiro.
 
    A caixa de diálogo Compartilhar projeto é exibida. A variável [!UICONTROL **Compartilhar por link**] e [!UICONTROL **Configurações**] as seções da caixa de diálogo estão visíveis somente ao compartilhar um único projeto.
 
@@ -80,11 +80,11 @@ Se houver alterações não salvas, você será solicitado a salvar seu projeto 
 
 1. Adicione destinatários ou grupos de destinatários em um dos campos de função fornecidos:
 
-   **Editar original:** Os recipients podem **[!UICONTROL Salvar]** alterações em um projeto e função como coproprietários. Esta função é útil se você quiser cogerenciar um projeto com outros colegas; isso inclui edição, exclusão e modificação de listas de recipients para um projeto compartilhado. <br>Observação: no momento, o Analysis Workspace não oferece suporte à colaboração ao vivo, portanto, recomenda-se que somente um usuário edite um projeto em um determinado momento. Se os projetos forem salvos ao mesmo tempo, a última versão será mantida.
+   **Editar original:** os destinatários podem **[!UICONTROL Salvar]** alterações em um projeto e atuar como coproprietários. Esta função é útil se você quiser cogerenciar um projeto com outros colegas; isso inclui edição, exclusão e modificação de listas de recipients para um projeto compartilhado. <br>Observação: no momento, o Analysis Workspace não oferece suporte à colaboração ao vivo, portanto, recomenda-se que somente um usuário edite um projeto em um determinado momento. Se os projetos forem salvos ao mesmo tempo, a última versão será mantida.
 
-   **Editar cópia:** Os recipients podem **[!UICONTROL Salvar como]** e ter acesso ao painel esquerdo. As interações entre projetos não são limitadas nesta função. Essa função é útil se você desejar compartilhar um projeto com usuários que entendem os dados de sua organização e como usar o Analysis Workspace, mas não quiser alterar o projeto.
+   **Editar cópia:** os destinatários podem **[!UICONTROL Salvar como]** e ter acesso ao painel esquerdo. As interações entre projetos não são limitadas nesta função. Essa função é útil se você desejar compartilhar um projeto com usuários que entendem os dados de sua organização e como usar o Analysis Workspace, mas não quiser alterar o projeto.
 
-   **Somente leitura:** Os destinatários não podem **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar como]** e não têm acesso ao painel esquerdo. As interações do projeto também são limitadas. Essa função é útil se você quiser compartilhar um projeto com usuários menos familiarizados com a estrutura de dados de sua organização, o Analysis Workspace ou o Adobe Analytics em geral. No entanto, você ainda deseja que eles consumam dados e insights em um ambiente seguro. Saiba mais sobre o [Experiência de projeto somente leitura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
+   **Somente leitura:** os destinatários não podem **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar como]** e não têm acesso ao painel esquerdo. As interações do projeto também são limitadas. Essa função é útil se você quiser compartilhar um projeto com usuários menos familiarizados com a estrutura de dados de sua organização, o Analysis Workspace ou o Adobe Analytics em geral. No entanto, você ainda deseja que eles consumam dados e insights em um ambiente seguro. Saiba mais sobre a [experiência de projeto de somente leitura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
 
 1. (Condicional) Se você estiver compartilhando um único projeto, escolha se deseja ativar as seguintes opções ao compartilhar o projeto:
 
@@ -104,21 +104,21 @@ Ao compartilhar um link conforme descrito nesta seção, considere o seguinte:
 
 * Os destinatários que usam o link precisam fazer logon no Adobe Analytics antes de obter acesso ao projeto.
 
-* Se uma função não for atribuída a um recipient e ele receber um [link](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) ao projeto, eles recebem uma função por padrão. Administradores recebem **[!UICONTROL Editar original]** e os não administradores recebem **[!UICONTROL Editar cópia]**.
+* Se um destinatário não for atribuído a uma função e receber um [link](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) para o projeto, ele receberá uma função por padrão. Administradores recebem **[!UICONTROL Editar original]** e os não administradores recebem **[!UICONTROL Editar cópia]**.
 
 Para compartilhar o link do projeto com os usuários em sua organização:
 
-1. Salve o projeto. Se houver alterações não salvas, você será solicitado a salvar seu projeto antes de compartilhar um link.
+1. Salve o projeto. Se houver alterações não salvas, você será solicitado a salvar o projeto antes de compartilhar um link.
 
-1. Selecionar **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]** e selecione **[!UICONTROL Copiar]** ao lado da **[!UICONTROL Compartilhar por link]** campo.
+1. Selecione **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]** e selecione **[!UICONTROL Copiar]** ao lado do campo **[!UICONTROL Compartilhar por link]**.
 
    ![](assets/share-proj-modal.png)
 
 1. Compartilhe o link com usuários em sua organização. Por exemplo, você pode colá-lo em um email, em um site interno e assim por diante.
 
-## Compartilhar um projeto com qualquer pessoa (logon não necessário) {#share-public-link}
+## Compartilhar um projeto com qualquer pessoa (sem necessidade de fazer logon) {#share-public-link}
 
-Você pode conceder [acesso somente leitura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) aos projetos do Analysis Workspace para pessoas que não têm acesso ao Adobe Analytics. Isso pode incluir:
+É possível conceder [acesso de somente leitura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) a projetos do Analysis Workspace para pessoas que não têm acesso ao Adobe Analytics. Isso pode incluir:
 
 * Pessoas de fora da organização
 
@@ -128,13 +128,13 @@ Você pode conceder [acesso somente leitura](/help/analyze/analysis-workspace/cu
 >
 >Considere o seguinte ao compartilhar um projeto do Analysis Workspace com pessoas que não têm acesso ao Adobe Analytics:
 >
->* A capacidade de compartilhar um projeto dessa maneira pode ser desativada pelo administrador do Analytics, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). Se você não puder compartilhar um projeto conforme descrito nesta seção, o administrador do Analytics desativou essa capacidade.
+>* A capacidade de compartilhar um projeto dessa maneira pode ser desabilitada pela administração do Analytics, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). Se você não puder compartilhar um projeto conforme descrito nesta seção, então sua administração do Analytics desabilitou esse recurso.
 >
 >* Projetos com mais de 50 visualizações expandidas não podem ser compartilhados com pessoas que não têm acesso ao Adobe Analytics.
 >
->* Os usuários com os quais você compartilha o projeto podem visualizar os filtros aplicados ao projeto durante [curadoria](curate.md).
+>* Usuários com os quais você compartilha o projeto podem visualizar os filtros aplicados ao projeto durante a [preparação](curate.md).
 > 
->* Os usuários com os quais você compartilha podem alterar o intervalo de datas do projeto. O intervalo de datas definido para o projeto é mostrado por padrão.
+>* Usuários com os quais você compartilha podem alterar o intervalo de datas do projeto. O intervalo de datas definido para o projeto é mostrado por padrão.
 >
 >* Um projeto pode se tornar inacessível se muitos usuários tentarem acessar um determinado link ao mesmo tempo. Por padrão, mais de 190 pessoas podem acessar um único link a cada 5 minutos. Se sua organização atingir esse limite, aguarde 5 minutos e tente acessar o link novamente.
 
@@ -146,39 +146,39 @@ Para compartilhar um projeto do Analysis Workspace com pessoas que não têm ace
 
 1. Abra o projeto do Analysis Workspace que deseja compartilhar.
 
-1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhe com qualquer pessoa]**.
+1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com qualquer pessoa]**.
 
-   Se houver alterações não salvas, você será solicitado a salvar seu projeto.
+   Se houver alterações não salvas, será solicitado que você salve o projeto primeiro.
 
    <!-- Add screen shot of new modal -->
 
-1. Ativar o **[!UICONTROL O link está ativo]** opção se ainda não estiver ativada.
+1. Habilite a opção **[!UICONTROL O link está ativo]** se ela ainda não estiver habilitada.
 
-   Selecionar essa opção cria um link para o projeto que pode ser compartilhado com qualquer pessoa. Você pode desativar o acesso ao projeto a qualquer momento desativando essa opção.
+   Selecionar essa opção cria um link para o projeto que pode ser compartilhado com qualquer pessoa. Você pode desabilitar o acesso ao projeto a qualquer momento desativando essa opção.
 
    O proprietário do projeto também é o proprietário deste link. A propriedade do link pode ser transferida para outro usuário somente quando a propriedade do projeto é transferida, conforme descrito em [Transferir ativos do usuário ou definir expirações da conta](/help/admin/admin/user-management2/users-assets.md) no Guia de administração do Analytics.
 
-1. Escolha se deseja habilitar a seguinte opção de segurança (esta opção pode ser controlada pelo administrador do Analytics):
+1. Escolha se deseja habilitar a seguinte opção de segurança (esta opção pode ser controlada pela administração do Analytics):
 
-   * **[!UICONTROL Exigir autenticação de Experience Cloud]:**
+   * **[!UICONTROL Exigir autenticação da Experience Cloud]:**
 
-     Quando essa opção está habilitada, os únicos usuários que podem acessar o projeto são aqueles que podem fazer logon na organização da Adobe Experience Cloud onde o projeto que você está compartilhando foi criado. No entanto, os usuários com os quais você compartilha não precisam ter acesso ao Adobe Analytics.
+     Quando essa opção está habilitada, os únicos usuários que podem acessar o projeto são aqueles que podem fazer logon na organização da Adobe Experience Cloud onde o projeto que você está compartilhando foi criado. No entanto, usuários com os quais você compartilha não precisam ter acesso ao Adobe Analytics.
 
-     Os administradores do Analytics podem configurar essa preferência para a empresa, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). Você pode encontrar os seguintes cenários, dependendo de como o administrador configurou essa opção:
+     Os administradores do Analytics podem configurar essa preferência para a empresa, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). É possível encontrar os seguintes cenários, dependendo de como a administração configurou essa opção:
 
-      * Se essa opção não estiver visível, o administrador do Analytics não habilitou esse recurso.
+      * Se essa opção não estiver visível, a administração do Analytics não habilitou esse recurso.
 
-      * Se essa opção estiver ativada e esmaecida, o administrador do Analytics exigirá autenticação de Experience Cloud para qualquer pessoa que acessar os projetos da Analysis Workspace.
+      * Se essa opção estiver habilitada e esmaecida, a administração do Analytics exigirá autenticação da Experience Cloud para qualquer pessoa que acessar os projetos do Analysis Workspace.
 
-1. Ao lado do **[!UICONTROL Compartilhar com qualquer pessoa (sem necessidade de logon)]** clique no botão **Copiar link** ícone ![Ícone Copiar link](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) para copiar o link para a área de transferência do sistema.
+1. Ao lado do campo **[!UICONTROL Compartilhar com qualquer pessoa (sem necessidade de fazer logon)]**, clique no ícone **Copiar link**![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) para copiar o link para a área de transferência do seu sistema.
 
 1. Compartilhe o link com as pessoas que você deseja que tenham acesso ao projeto. Por exemplo, você pode colar o link em um email.
 
    Qualquer pessoa com a qual você compartilha o link pode visualizar o projeto do Analysis Workspace.
 
-1. (Opcional) Você pode clicar no link **Gerar novo link** ícone ![Ícone Gerar link](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) para remover o acesso de usuários que receberam anteriormente um link para o projeto. É gerado um novo link que você pode compartilhar com os usuários que deseja acessar o projeto.
+1. (Opcional) É possível clicar no ícone **Gerar novo link**![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) para remover o acesso de usuários que receberam anteriormente um link para o projeto. É gerado um novo link que você pode compartilhar com os usuários que deseja que acessem o projeto.
 
-1. Selecionar **[!UICONTROL Fechar]** para fechar a caixa de diálogo compartilhar. Suas alterações são salvas automaticamente.
+1. Selecione **[!UICONTROL Fechar]** para fechar a caixa de diálogo compartilhar. Suas alterações são salvas automaticamente.
 
 ## Exibir projetos compartilhados com você
 
@@ -197,5 +197,5 @@ Veja um vídeo sobre este tópico:
 | Pergunta | Resposta |
 | --- | --- |
 | O que acontece se dois editores salvam um projeto ao mesmo tempo? | As alterações não são mescladas e a última versão do projeto salva será mantida. Atualmente, o Analysis Workspace não oferece suporte à colaboração em tempo real. |
-| O que acontece se um recipient é colocado em uma função como indivíduo e outra como membro de um grupo? | Se um recipient for colocado em várias funções, ele sempre receberá a experiência mais alta. Por exemplo, se um recipient receber o **[!UICONTROL Editar original]** como indivíduo e a **[!UICONTROL Somente leitura]** como membro de um grupo, eles receberão uma **[!UICONTROL Editar original]** experiência em projetos. |
-| Que experiência um recipient obtém se abrir um link de projeto? | Os recipients recebem a função que você os colocou no modal de compartilhamento. Se uma função não for atribuída a um recipient e ele receber um link para o projeto (**[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]** e selecione **[!UICONTROL Copiar]** ao lado da **[!UICONTROL Compartilhar por link]** ), eles serão colocados em uma função por padrão. Administradores recebem **[!UICONTROL Editar original]** e os não administradores recebem **[!UICONTROL Editar cópia]**. |
+| O que acontece se um recipient é colocado em uma função como indivíduo e outra como membro de um grupo? | Se um recipient for colocado em várias funções, ele sempre receberá a experiência mais alta. Por exemplo, se um destinatário receber a função **[!UICONTROL Editar original]** como indivíduo e a função de **[!UICONTROL Somente leitura]** como membro de um grupo, ele receberá uma experiência de projeto **[!UICONTROL Editar original]**. |
+| Que experiência um recipient obtém se abrir um link de projeto? | Os recipients recebem a função que você os colocou no modal de compartilhamento. Se um destinatário não receber uma função e receber um link para o projeto (**[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]**, selecione **[!UICONTROL Copiar]** ao lado do campo **[!UICONTROL Compartilhar por link]**), ele será colocado em uma função por padrão. Administradores recebem **[!UICONTROL Editar original]** e os não administradores recebem **[!UICONTROL Editar cópia]**. |
