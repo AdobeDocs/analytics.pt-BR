@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '3897'
-ht-degree: 100%
+source-git-commit: dfec68a0ecdf691ab1005919fa3df01158a9cec9
+workflow-type: tm+mt
+source-wordcount: '3899'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`clickmaplinkbyregion`** | Link por região do Activity Map | varchar(255) |
 | **`clickmappage`** | Página do Activity Map | varchar(255) |
 | **`clickmapregion`** | Região do Activity Map | varchar(255) |
-| **`code_ver`** | Versão da Biblioteca AppMeasurement usada para compilar e enviar a solicitação de imagem. | char(16) |
+| **`code_ver`** | Versão da API ou do SDK do cliente usada para compilar e enviar a solicitação de imagem. | char(16) |
 | **`color`** | ID de Intensidade de cor com base no valor da coluna `c_color`. Faz referência à tabela de pesquisa `color_depth.tsv`. | smallint unsigned |
 | **`connection_type`** | ID numérica que representa o tipo de conexão. Variável usada na dimensão [Tipo de conexão](/help/components/dimensions/connection-type.md). Faz referência à tabela de pesquisa `connection_type.tsv`. | tinyint unsigned |
 | **`cookies`** | Variável usada na dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md).<br>Y: Ativado<br>N: Desativado<br>U: Desconhecido | char(1) |
