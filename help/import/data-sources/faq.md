@@ -4,10 +4,10 @@ description: Perguntas frequentes sobre fontes de dados.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Os dados carregados por meio de fontes de dados não afetam o [Exibições de p�
 
 +++É possível excluir dados que foram importados com fontes de dados?
 
-**Não.** Os dados carregados em relatórios por meio de fontes de dados são **permanente**. Ele não pode ser removido, nem mesmo pelo Adobe, uma vez que foi importado. A Adobe recomenda que o upload dos dados das fontes de dados seja feito em um conjunto de relatórios de teste, antes de fazer o upload em um conjunto de relatórios de produção.
+Sim. É possível excluir esses dados usando o [API de reparo de dados](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Além disso, a Adobe recomenda que o upload de dados das fontes de dados seja feito em um conjunto de relatórios de teste, antes de fazer upload em um conjunto de relatórios de produção.
 +++
 
 +++Quantos dados posso importar de uma vez?
