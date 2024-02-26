@@ -4,7 +4,7 @@ description: Saiba como usar tags da Adobe Experience Platform para implantar o 
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 72%
@@ -23,7 +23,7 @@ Assim que a biblioteca de tags for enviada para produção, a empresa poderá co
 
 O depurador de Experience Cloud é uma extensão que mostra todas as tags de Experience Cloud presentes em uma página.
 
-1. Instale a extensão para o [Cromo](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
+1. Instale a extensão para o [Cromo](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
 2. Navegue até o site de desenvolvimento em que você implementou as tags.
 3. Clique no ícone do Adobe Experience Cloud Debugger no navegador.
 4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, nas tags e no serviço de ID de visitante da Adobe Experience Cloud.

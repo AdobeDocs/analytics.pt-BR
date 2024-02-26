@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: ae1c2ff1987e2fe5d147bfe74874b53492d48b5e
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 28%
+source-wordcount: '622'
+ht-degree: 23%
 
 ---
 
@@ -40,7 +40,7 @@ Interaja chamadas usando a guia Rede do Console do desenvolvedor:
 
 Adobe Experience Platform Debugger:
 
-1. Baixe e instale o [Adobe Experience Platform Debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
+1. Baixe e instale o [Adobe Experience Platform Debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. Ir para [!UICONTROL Logs] > [!UICONTROL Edge] > [!UICONTROL Conectar ao Edge].
 
    ![](assets/validation2.jpg)
@@ -68,7 +68,7 @@ Consulte [Rastrear links](https://experienceleague.adobe.com/docs/experience-pla
 
 >[!NOTE]
 >
->Atualmente, a ativação do rastreamento de links com o SDK da Web envia eventos de link quando um cliente navega de uma página para outra. Isso é diferente do funcionamento do AppMeasurement e pode resultar no envio de ocorrências faturáveis adicionais à Adobe.
+>Atualmente, a ativação do rastreamento de links com o SDK da Web envia eventos de link quando um cliente navega de uma página para outra. Isso é diferente de como o AppMeasurement funciona e pode resultar em ocorrências faturáveis extras enviadas para o Adobe.
 
 +++
 
