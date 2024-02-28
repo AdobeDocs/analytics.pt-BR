@@ -4,9 +4,9 @@ title: Gerenciar solicitações do Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1148'
 ht-degree: 4%
 
 ---
@@ -19,9 +19,13 @@ As seções a seguir descrevem as atividades que você pode executar ao gerencia
 
 ## Exibir solicitações
 
+Por padrão, você pode exibir somente as solicitações que criar, a menos que os usuários tenham escolhido tornar suas solicitações visíveis para outras pessoas na organização (conforme descrito em [Configurações gerais da solicitação de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md)). Os administradores do sistema podem exibir todas as solicitações.
+
+Para exibir solicitações de Data Warehouse:
+
 1. No Adobe Analytics, selecione [!UICONTROL **Ferramentas**] > [!UICONTROL **Data Warehouse**].
 
-   A página Data Warehouse exibe todas as solicitações que você fez. <!-- just those you have made? -->Os dados são mostrados em cada coluna. Você pode [configurar quais colunas](#configure-columns) são visíveis.
+   A página Data Warehouse exibe todas as solicitações que você fez. Os dados são mostrados em cada coluna. Você pode [configurar quais colunas](#configure-columns) são visíveis.
 
    <!-- add screenshot of main page -->
 
@@ -41,7 +45,7 @@ Considere o seguinte ao editar solicitações:
 
 * Nem todos os campos associados à solicitação podem ser editados. Os campos que não podem ser editados estão esmaecidos.
 
-* Os administradores que editam a solicitação de outro usuário precisam escolher uma nova conta e um local que possam acessar.
+* Os administradores que editam a solicitação de outro usuário devem escolher uma nova conta e um novo local que possam acessar.
 
 Para editar uma solicitação programada:
 

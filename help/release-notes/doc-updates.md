@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '5161'
+source-wordcount: '5186'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Fevereiro de 2024** | |
+| Atualizações de informações sobre o gerenciamento de solicitações do Data Warehouse | Esclarecimento de que, por padrão, os usuários podem visualizar somente as solicitações que criam quando [gerenciamento de solicitações do Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | Atualizações na documentação de compartilhamento do projeto | Foram adicionadas informações sobre como [exibir projetos compartilhados](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Também simplificaram as informações sobre [compartilhamento de projetos individuais ou múltiplos](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Adição de requisitos de permissão para fazer upload de arquivos no Azure SAS e Azure RBAC no Data Warehouse e Feeds de dados | Adição de requisitos de permissão exatos para fazer upload de arquivos no Azure SAS e no Azure RBAC quando [configuração de destinos para o Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) e [ao configurar destinos para feeds de dados](/help/export/analytics-data-feed/create-feed.md). |
 | Adição de requisitos de permissão para fazer upload de arquivos para Amazon S3 e buckets de GCP no Data Warehouse e feeds de dados | Adição de requisitos de permissão exatos para fazer upload de arquivos para os buckets do Amazon S3 e da Google Cloud Platform quando [configuração de destinos para o Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) e [ao configurar destinos para feeds de dados](/help/export/analytics-data-feed/create-feed.md). |
