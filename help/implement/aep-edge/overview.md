@@ -4,10 +4,10 @@ description: Visão geral do uso de dados XDM da Experience Platform no Adobe An
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 37%
+source-wordcount: '338'
+ht-degree: 35%
 
 ---
 
@@ -40,3 +40,4 @@ Para lidar adequadamente com exibições de página e eventos de link, a seguint
 
 {style="table-layout:auto"}
 
+Consulte a [Grupo de campos de esquema de Extensão completa do Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) para obter mais informações.

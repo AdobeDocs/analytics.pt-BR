@@ -4,10 +4,10 @@ description: Use a extensão SDK da Web na coleção de dados da Adobe Experienc
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 91%
+source-wordcount: '676'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 Você pode usar o [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=pt-BR) para enviar dados ao Adobe Analytics. Este método de implementação funciona traduzindo o [Modelo de dados de experiência (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR) em um formato usado pelo Analytics.
 
-Você pode enviar dados para o Experience Edge diretamente usando o SDK da Web ou por meio da extensão do SDK da Web em Tags.
+Você pode enviar dados para a Experience Edge diretamente usando o [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)ou por meio da extensão SDK da Web em Tags.
 
 ## SDK da Web
 
@@ -60,14 +60,14 @@ Uma visão geral de alto nível das tarefas de implementação:
 </tr>
 
 <td>6</td>
-<td><b>Adicionar um serviço do Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics.</td>
+<td><b>Adicionar um serviço do Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics e para quais conjuntos de relatórios especificamente.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
 </tr>
 
 <tr>
 <td>7</td>
-<td><b>Configurar o SDK da Web</b>. Certifique-se de que a biblioteca instalada na etapa 4 esteja configurada corretamente com a ID da sequência de dados (anteriormente conhecida como ID de configuração de borda (<code>edgeConfigId</code>)), ID da organização (<code>orgId</code>) e outras opções disponíveis.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR">Configurar o SDK da Web</a></td>
+<td><b>Configurar o SDK da Web</b>. Verifique se a biblioteca instalada na etapa 4 está configurada corretamente com a ID do fluxo de dados (anteriormente conhecida como ID de configuração de borda (<code>edgeConfigId</code>)), id da organização (<code>orgId</code>) e outras opções disponíveis. Garanta o mapeamento adequado das variáveis. </td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR">Configurar o SDK da Web</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Mapeamento de variáveis do Analytics</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Mapeamento manual de variáveis</a></td>
 </tr>
 
 <tr>
@@ -121,7 +121,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>5</td> 
-<td><b>Adicionar um serviço Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics.</td>
+<td><b>Adicionar um serviço Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics e para quais conjuntos de relatórios especificamente.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
 </tr>
 

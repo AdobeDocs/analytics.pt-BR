@@ -4,20 +4,20 @@ description: Saiba como implementar o Adobe Analytics usando tags e a extensão 
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 89%
+source-wordcount: '365'
+ht-degree: 83%
 
 ---
 
 # Implementar o Adobe Analytics usando a extensão do Analytics
 
-Durante a vida útil do Adobe Analytics, a Adobe ofereceu vários diferentes métodos de implementação do código no site para a coleta de dados. O método recomendado atual da Adobe é por meio de tags na Adobe Experience Platform.
+Durante a vida útil do Adobe Analytics, a Adobe ofereceu vários diferentes métodos de implementação do código no site para a coleta de dados. O método recomendado atual de Adobe é por meio de [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR) no Adobe Experience Platform.
 
 Tags na Adobe Experience Platform é uma solução de gerenciamento de tags que permite implantar o código do Analytics junto com outros requisitos de marcação. A Adobe oferece integrações com outras soluções e produtos e permite implantar código personalizado. Todas essas tarefas podem ser realizadas sem depender de equipes de desenvolvimento na organização para atualizar o código no site.
 
-Todos os clientes com um contrato ativo da Adobe Experience Cloud podem usar tags. Se não tiver certeza se tem acesso, entre em contato com um dos administradores de sistema da Experience Cloud na organização.
+Todos os clientes com um contrato ativo do Adobe Experience Cloud podem usar Tags. Se não tiver certeza se tem acesso, entre em contato com um dos administradores de sistema da Experience Cloud na organização.
 
 Uma visão geral de alto nível das tarefas de implementação:
 
@@ -48,7 +48,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>3</td>
 <td><b><b>Crie uma propriedade de tag</b>. Propriedades são containers abrangentes usados para referenciar dados de gerenciamento de tags.</td>
-<td><a ref="../launch/create-analytics-property.md">Criar uma propriedade de tag do Adobe Analytics</a></td>
+<td><a href="../launch/create-analytics-property.md">Criar uma propriedade de tag do Adobe Analytics</a></td>
 </tr>
 
 <tr>

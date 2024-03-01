@@ -4,22 +4,22 @@ description: Use a API do servidor da rede de borda da Adobe Experience Platform
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 33%
+source-wordcount: '268'
+ht-degree: 32%
 
 ---
 
 # Implementar o Adobe Analytics usando a API do servidor de rede de borda da Adobe Experience Platform
 
-Normalmente, você usa a API do Experience Platform Edge Network Server para coletar dados de dispositivos como dispositivos IoT, decodificadores de sinais e aplicativos de desktop. Em seguida, envie esses dados para a rede de borda e, em seguida, para serviços como o Adobe Analytics.
+Normalmente, você usa a API do Experience Platform Edge Network Server para coletar dados do lado do servidor, em vez de do lado do cliente, e ao coletar dados de dispositivos como dispositivos IoT, decodificadores de sinais e aplicativos de desktop. Em seguida, você envia esses dados para a rede de borda e para serviços como o Adobe Analytics.
 
 Considere também a API do Servidor de Rede de Borda quando precisar que dados confidenciais sejam coletados com segurança e autenticados na rede. Consulte [Autenticação](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) para obter mais informações.
 
 Uma visão geral de alto nível das tarefas de implementação:
 
-![Adobe Analytics usando o fluxo de trabalho de extensão do Analytics](../../assets/edge-network-server-api.png)
+![Adobe Analytics usando o fluxo de trabalho de extensão do Analytics](../../assets/edge-network-server-api-annotated.png)
 
 <table style="width:100%">
 
