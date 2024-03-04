@@ -1,17 +1,17 @@
 ---
 description: As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode fornecer uma medida mais precisa da atividade do usuário no seu site.
-title: Entender e configurar regras de bot
+title: Noções básicas e configuração de regras de bots
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 71%
+source-wordcount: '1669'
+ht-degree: 69%
 
 ---
 
-# Entender e configurar regras de bot
+# Noções básicas e configuração de regras de bots
 
 As regras de bot permitem remover o tráfego do conjunto de relatórios gerado pelos spiders e bots conhecidos. A remoção do tráfego de bot pode fornecer uma medida mais precisa da atividade do usuário no seu site.
 
@@ -20,6 +20,10 @@ Depois que as regras de bot são definidas, todo o tráfego de entrada é compar
 Remover o tráfego de robô normalmente reduz o volume do tráfego e as métricas de conversão. Muitos clientes acham que a remoção do tráfego de bot resulta em maiores taxas de conversão e em aumentos em outras métricas de usabilidade.
 
 Os dados do tráfego de bot são armazenados em um repositório separado para exibição nos relatórios de Páginas de bots e Bots.
+
+>[!NOTE]
+>
+>O Adobe Experience Edge fornece uma [serviço de detecção de bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=pt-BR) quais ocorrências de rótulos foram identificadas como sendo de bots. O processo de detecção de bot do Adobe Analytics é separado disso e não faz referência à pontuação de bot incluída nos dados que chegam pelo Experience Edge. Os dois sistemas usam a mesma lista de bot IAB, portanto, devem se comportar de forma idêntica a esse respeito.
 
 ## Atualizar ou carregar regras de bot
 
