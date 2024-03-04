@@ -3,10 +3,10 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
+source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 40%
+source-wordcount: '903'
+ht-degree: 50%
 
 ---
 
@@ -20,6 +20,9 @@ Essas notas de versão abrangem o período de lançamento de 14 de fevereiro de 
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **atualização do AppMeasurement** | [Versão do AppMeasurement v2.26.0](/help/implement/appmeasurement-updates.md) está disponível. | | terça-feira, 4 de março de 2024 |
+| **Atualizações do Data Warehouse** | As seguintes melhorias do Data Warehouse estão disponíveis:<ul><li>Ao criar uma solicitação do Data Warehouse, os usuários podem disponibilizar solicitações para todos os usuários da organização, ativando o novo botão denominado [!UICONTROL **Disponibilizar para usuários da organização**].<p>Para obter mais informações, consulte [Configurações gerais de solicitações do Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Agora, o criar ou gerenciar destinos de relatórios do Data Warehouse, os administradores do sistema podem exibir contas e locais que foram criados por usuários da organização, ativando a opção denominada [!UICONTROL **Exibir todos os destinos**].<p>Para obter mais informações, consulte [Configuração de um destino de relatório para uma solicitação do Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | N/D | 10 de janeiro de 2024 |
+| **Atualizações na visualização do resumo das métricas principais** | Ao usar a visualização Resumo da métrica principal, o Intervalo de datas de comparação agora pode ser atualizado automaticamente, dependendo se a opção Intervalo de datas de comparação escolhida é relativa ao intervalo de datas principal ou fixa. [Saiba mais](/help/analyze/analysis-workspace/visualizations/key-metric.md). | N/D | 17 de janeiro de 2024 |
 | **Documentação da API do Data Warehouse** | Consulte a [API do Adobe Analytics Data Warehouse 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) para obter mais informações. Ir para [!UICONTROL Selecionar uma definição] e selecione [!UICONTROL APIs do Data Warehouse]. | | terça-feira, 19 de fevereiro de 2024 |
 | **Activity Map para o SDK da Web sem custo extra** | Atualmente, os eventos de link de Activity Map são contados como seus próprios eventos e incorrem em custo extra. Esse aprimoramento pega alguns eventos de link e os empacota na próxima ocorrência, de modo semelhante a como os eventos são tratados pelo AppMeasurement. |  | quinta-feira, 6 de março de 2024 |
 | **Aumento nos limites padrão de tráfego baixo** | Entrada **meados de abril de 2024**, o Adobe começará a aumentar os limites de tráfego baixo do conjunto de relatórios padrão da seguinte maneira: ![limites de tráfego baixo](assets/thresholds.png) Isso afetará somente as variáveis que estão definidas abaixo dos novos limites. Essas alterações serão feitas de forma incremental, e esperamos que o trabalho seja concluído pela **fim de maio**. À medida que esses aumentos forem implementados, você poderá notar alterações nas variáveis de alta cardinalidade:<ul><li>Mais valores de dimensão podem estar disponíveis para relatórios.</li><li>Segmentos e métricas calculadas podem incluir mais dados.</li><li>Os conjuntos de relatórios virtuais baseados em segmentos podem incluir mais dados.</li><li>As exportações de classificação podem incluir mais dados.</li></ul> | Meados de abril de 2024 | Final de maio de 2024 |
