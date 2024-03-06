@@ -3,10 +3,10 @@ title: Link de download
 description: O nome do link de download.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 33d837cfa7909bd93d5a4f675aa0d8894a403266
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,11 @@ O &#39;link de download&#39; [dimension](overview.md) O relata os nomes dos link
 
 Essa dimensão coleta dados da [`pev2`sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem para ocorrências que também têm a sequência de consulta `pe` com o valor de `lnk_d`. Se a sequência de consulta `pe` tiver um valor diferente na ocorrência, essa dimensão não coletará dados.
 
-Se desejar enviar dados para essa dimensão usando o AppMeasurement, envie uma solicitação de imagem [`tl()`](/help/implement/vars/functions/tl-method.md) com um argumento de tipo de link de `"d"`. Preencha o argumento do nome do link com o valor desejado.
+Se desejar enviar dados para essa dimensão usando o AppMeasurement, envie uma solicitação de imagem [`tl()`](/help/implement/vars/functions/tl-method.md) com um argumento de tipo de link de `"d"`. Preencha o argumento do nome do link com o valor desejado:
+
+```js
+s.tl(true,"d","Example download link");
+```
 
 ## Itens de dimensão
 
