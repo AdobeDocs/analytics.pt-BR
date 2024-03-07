@@ -4,9 +4,9 @@ title: Noções básicas e configuração de regras de bots
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1668'
 ht-degree: 69%
 
 ---
@@ -23,7 +23,7 @@ Os dados do tráfego de bot são armazenados em um repositório separado para ex
 
 >[!NOTE]
 >
->O Adobe Experience Edge fornece uma [serviço de detecção de bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=pt-BR) quais ocorrências de rótulos foram identificadas como sendo de bots. O processo de detecção de bot do Adobe Analytics é separado disso e não faz referência à pontuação de bot incluída nos dados que chegam pelo Experience Edge. Os dois sistemas usam a mesma lista de bot IAB, portanto, devem se comportar de forma idêntica a esse respeito.
+>A rede de borda da Adobe Experience Platform fornece uma [serviço de detecção de bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=pt-BR) quais ocorrências de rótulos foram identificadas como sendo de bots. O processo de detecção de bot usado no Adobe Analytics é separado e não faz referência à pontuação de bot incluída nos dados que chegam pela Rede de borda. No entanto, os dois sistemas usam a mesma lista de bot IAB.
 
 ## Atualizar ou carregar regras de bot
 

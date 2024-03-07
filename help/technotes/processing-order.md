@@ -3,10 +3,10 @@ title: Ordem de processamento dos dados no Adobe Analytics
 description: Saiba a ordem dos componentes e serviços que processam dados no Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 97%
+source-wordcount: '585'
+ht-degree: 91%
 
 ---
 
@@ -21,10 +21,10 @@ A Adobe oferece várias maneiras de alterar ou manipular dados antes de serem ex
 Antes de os dados serem enviados para a Adobe, eles normalmente são compilados no lado do cliente usando um dos seguintes métodos:
 
 * **AppMeasurement**: um arquivo JavaScript hospedado em seu site e referenciado em cada página. Os dados são enviados diretamente para o Adobe Analytics.
-* **SDK da Web da Adobe Experience Platform**: um arquivo JavaScript hospedado em seu site e referenciado em cada página. Os dados são enviados para o Adobe Experience Edge.
+* **SDK da Web da Adobe Experience Platform**: um arquivo JavaScript hospedado em seu site e referenciado em cada página. Os dados são enviados para a Rede de borda da Adobe Experience Platform.
 * **Tags na Coleçao de dados da Adobe Experience Cloud**: um arquivo JavaScript referenciado em cada página, contendo regras criadas na interface da Coleção de dados. A extensão do Adobe Analytics oferece uma maneira mais fácil de implementar o AppMeasurement. A extensão Web SDK oferece uma maneira mais fácil de implementar o SDK da Web.
 
-Se você enviar dados para o Adobe Experience Edge, poderá configurá-los para encaminhá-los para o Adobe Analytics (bem como para muitas outras soluções da Adobe Experience Cloud). Independentemente do método de implementação, uma solicitação de imagem com as variáveis desejadas é enviada para os servidores da coleção de dados da Adobe.
+Se você enviar dados para a Rede de borda, poderá configurá-los para encaminhá-los para a Adobe Analytics (bem como para muitas outras soluções da Adobe Experience Cloud). Independentemente do método de implementação, uma solicitação de imagem com as variáveis desejadas é enviada para os servidores da coleção de dados da Adobe.
 
 ## Situação dos dados à medida que chegam aos servidores de coleção de dados do Adobe Analytics
 

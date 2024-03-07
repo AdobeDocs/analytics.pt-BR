@@ -3,10 +3,10 @@ description: Informações gerais sobre o Adobe Analytics, incluindo noções ac
 title: Casos de uso do Analytics
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Os recursos principais do Adobe Analytics a seguir oferecem esses recursos de ma
 
 * [Coleção de dados multicanal](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=pt-BR)
 
-* [Integração de dados offline](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=pt-BR)
+* [Integração de dados offline](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
 
 * [Análise ad hoc no Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 

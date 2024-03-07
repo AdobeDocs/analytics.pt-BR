@@ -3,7 +3,7 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2541'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Tempo real:** exibe as variáveis configuradas assim que são coletadas com pouca ou nenhuma latência. Consulte [Relatórios em tempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) no guia do usuário Administração
 * **Report Builder:** um complemento do Microsoft Excel que permite criar solicitações personalizadas com base em dados do Adobe Analytics.
 * **Conjunto de relatórios:** um contêiner abrangente para o qual você envia dados. Todos os relatórios no Adobe Analytics fazem referência a um conjunto de relatórios.
-* **Reports &amp; Analytics:** anteriormente conhecido como SiteCatalyst. Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics. Esta ferramenta foi [fim da vida útil](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
+* **Reports &amp; Analytics:** anteriormente conhecido como SiteCatalyst. Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics. Esta ferramenta foi [fim da vida útil](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
 * **Intervalo de datas em andamento:** um tipo de intervalo de datas relativo que muda conforme o tempo passa. Por exemplo, um relatório que mostra os últimos 7 dias pode ser considerado um intervalo de datas em andamento. Consulte também intervalo de datas estático.
 * **RSID:** abreviação da ID do conjunto de relatórios. Um conjunto de relatórios tem um nome amigável e uma ID de conjunto de relatórios.
 * **s.t():** o nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de exibição de página. Algumas bibliotecas do AppMeasurement usam `s.track()`. Consulte [t](../implement/vars/functions/t-method.md) no guia de usuário Implementar.

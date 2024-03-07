@@ -4,10 +4,10 @@ description: Saiba como reduzir o efeito das limitações de cookies do navegado
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Você pode enviar dados para o lado do servidor do Analytics usando a [API de in
 
 ## ID do dispositivo próprio (FPID) com o SDK da Web
 
-Com o SDK da Web da Adobe Experience Platform, você pode optar por definir e gerenciar seus próprios identificadores de dispositivos em vez das Experience Cloud IDs (ECIDs) geradas pela Adobe. Elas são chamadas de IDs de dispositivo próprios (FPIDs). Saiba mais [aqui](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=pt-BR).
+Com o SDK da Web da Adobe Experience Platform, você pode optar por definir e gerenciar seus próprios identificadores de dispositivos em vez das Experience Cloud IDs (ECIDs) geradas pela Adobe. Elas são chamadas de IDs de dispositivo próprios (FPIDs). Saiba mais [aqui](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html).
 
 ## Mais informações
 

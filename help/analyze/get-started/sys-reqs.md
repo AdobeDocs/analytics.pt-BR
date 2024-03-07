@@ -3,10 +3,10 @@ title: Requisitos de sistema do Adobe Analytics
 description: Os requisitos do sistema para usar o Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -20,11 +20,11 @@ Antes de usar o Adobe Analytics, é necessário ter:
 
 * Uma licença válida do Adobe Analytics
 
-  O Adobe Analytics precisa de uma licença de site. Entre em contato com seu representante de conta Adobe para obter mais informações.
+  O Adobe Analytics precisa de uma licença de site. Entre em contato com o Representante de conta da Adobe para obter mais informações.
 
 * Um navegador compatível
 
-  Cada usuário ou usuária precisará usar um navegador compatível para acessar o Adobe Analytics. Para obter mais informações, consulte os [Requisitos de sistema do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=pt-BR).
+  Cada usuário ou usuária precisará usar um navegador compatível para acessar o Adobe Analytics. Para obter mais informações, consulte os [Requisitos de sistema do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html).
 
 ## Requisitos do sistema
 
@@ -43,5 +43,5 @@ A maioria das soluções da Adobe Analytics, incluindo o Analysis Workspace, sã
 
 Consulte a página da solução vinculada para ver os requisitos do sistema da solução.
 
-* [requisitos de sistema de Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
+* [Requisitos de sistema do Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
 

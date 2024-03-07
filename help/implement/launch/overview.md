@@ -4,7 +4,7 @@ description: Saiba como implementar o Adobe Analytics usando tags e a extensão 
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 83%
@@ -53,7 +53,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>4</td><td><b>Instale a extensão do Analytics</b> na propriedade da tag. Configure a extensão do Analytics para enviar dados para o Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=br">Visão geral da extensão do Adobe Analytics</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=pt-BR">Visão geral da extensão do Adobe Analytics</a></td>
 </tr>
 
 <tr>
@@ -65,7 +65,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>6</td> 
 <td><b>Validar e publicar na produção</b>. Incorpore o código para incluir a propriedade da tag nas páginas do site. Em seguida, use elementos de dados, regras, entre outros, para personalizar sua implementação.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Incorporar código</a><br/><a href="./validate-publish-prod.md">Validar uma implementação de desenvolvimento e publicar na produção</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Incorporar código</a><br/><a href="./validate-publish-prod.md">Validar uma implementação de desenvolvimento e publicar na produção</a></td>
 </tr>
 
 </table>
