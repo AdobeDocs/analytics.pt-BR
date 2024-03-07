@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Perguntas frequentes sobre o Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 31%
@@ -105,7 +105,7 @@ Em todos os lugares; eles são tratados como qualquer outra dimensão coletada n
 
 +++
 
-+++ Por que vejo &quot;Limite de público-alvo atingido&quot; no meu relatório do Analytics? (Observação: isso também será representado como ID de público-alvo = -1 e &quot;::max_audiences_exceeded::&quot; no Data Warehouse)
++++ Por que vejo &quot;Limite de público-alvo atingido&quot; no meu relatório do Analytics? (Observação: isso também será representado como ID de público-alvo = -1 e `::max_audiences_exceeded::` no Data Warehouse)
 
 Por padrão, a integração de Audience Analytics para o Adobe Audience Manager envia todos os segmentos para os quais um visitante está qualificado, por ocorrência, para o Analytics. Se um visitante pertencer a mais de 150 segmentos do Adobe Audience Manager em uma única ocorrência, a variável **150 segmentos qualificados mais recentemente** são enviadas para o Analytics, enquanto a lista restante é truncada. Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada, e é exibido como “Limite de público-alvo atingido” na dimensão Nome de público-alvo e “-1” na dimensão ID de público-alvo.
 

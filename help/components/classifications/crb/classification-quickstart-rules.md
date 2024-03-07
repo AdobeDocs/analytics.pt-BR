@@ -3,10 +3,10 @@ description: As regras de classificação buscam regularmente termos não classi
 title: Regras de classificação
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 100%
+source-wordcount: '2001'
+ht-degree: 93%
 
 ---
 
@@ -63,31 +63,31 @@ about_classification_rules.xml
 
 * **Conjuntos de relatórios**: não é possível escolher uma classificação até que pelo menos um conjunto de relatórios esteja selecionado. Não é possível aplicar o conjunto de relatórios até que você tenha criado o conjunto de regras e atribuído uma variável.
 
-   Ao testar o conjunto de regras, use as chaves (a variável que está sendo classificada) do relatório para ver como serão impactadas pelo conjunto de regras. (A [chave](/help/components/classifications/importer/c-saint-data-files.md) é a variável que está sendo classificada, ou a primeira coluna na tabela de upload de classificação).
+  Ao testar o conjunto de regras, use as chaves (a variável que está sendo classificada) do relatório para ver como serão impactadas pelo conjunto de regras. (O [key](/help/components/classifications/importer/c-saint-data-files.md) é a variável que está sendo classificada, ou a primeira coluna na tabela de upload de classificação).
 
 * **Prioridade das regras**: se uma tecla corresponde a várias regras que definem a mesma classificação (na coluna [!UICONTROL Definir classificação]), a última regra que corresponde a classificação será usada. Consulte [Sobre a prioridade das regras](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Limites no número de regras**: não há limite de definição para o número de regras que podem ser criadas. Contudo, um grande número de regras pode afetar o desempenho do navegador.
 * **Processamento**: regras são processadas durante intervalos frequentes, dependendo do seu volume de tráfico relacionado de classificação.
 
-   As regras ativas processam a cada quatro horas, examinando os dados de classificação normalmente de um mês. As regras verificam automaticamente novos valores e carregam as classificações utilizando o importador.
+  As regras ativas processam a cada quatro horas, examinando os dados de classificação normalmente de um mês. As regras verificam automaticamente novos valores e carregam as classificações utilizando o importador.
 
 * **Substituição de classificações existentes**: consulte [Quando as regras não classificam as teclas?](/help/components/classifications/crb/classification-quickstart-rules.md) Se necessário, é possível excluir ou remover as classificações existentes usando o importador.
 
 ## Quando as regras não classificam as teclas?
 
-Ao ativar regras, é possível substituir classificações existentes. Nas situações a seguir, uma regra de classificação não classifica uma [chave](/help/components/classifications/importer/c-saint-data-files.md) (variável) se:
+Ao ativar regras, é possível substituir classificações existentes. Nas situações a seguir, uma regra de classificação não classifica um [key](/help/components/classifications/importer/c-saint-data-files.md)(variável) se:
 
 * A tecla já estiver classificada e você não selecionar [Substituir classificações de](/help/components/classifications/crb/classification-rule-definitions.md).
 
-   Você pode substituir classificações ao [adicionar e ativar](/help/components/classifications/crb/classification-quickstart-rules.md) uma regra, e quando ativar uma integração de Data Connectors. (para Data Connectors, as regras são criadas por parceiros no Dev Center e exibidas no [!UICONTROL Criador de regras de classificação]).
+  É possível substituir classificações ao [adicionar e ativar](/help/components/classifications/crb/classification-quickstart-rules.md) uma regra e ao ativar uma integração de Data Connectors. (para Data Connectors, as regras são criadas por parceiros no Dev Center e exibidas no [!UICONTROL Criador de regras de classificação]).
 
 * Uma tecla classificada não tiver aparecido nos dados após um período especificado ao substituir uma tecla, mesmo após ativar [Substituir classificações de](/help/components/classifications/crb/classification-rule-definitions.md).
 * A chave não está classificada, e nunca deve ser passada para o [!DNL Adobe Analytics] após o período iniciado há cerca de um mês.
 
-   >[!NOTE]
-   >
-   >Nos relatórios, as classificações se aplicam a todo período especificado, sempre que houve uma tecla. O intervalo de datas de um relatório não afeta o relatório.
+  >[!NOTE]
+  >
+  >Nos relatórios, as classificações se aplicam a todo período especificado, sempre que houve uma tecla. O intervalo de datas de um relatório não afeta o relatório.
 
 ![](assets/overwrite_keys.png)
 
@@ -151,7 +151,7 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Expressão regular | Sequência ou resultado da correspondência | Correlação dos grupos de correspondência |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601`  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
 | Construção da sintaxe | `^` = inicia a linha () = agrupa caracteres e permite extrair os caracteres correspondentes nos parênteses.  `(.+)` = captura um ( . ) caractere e ( + ) não mais  \ = início de uma string.  `$` = indica que o caractere anterior (ou grupo de caracteres) é o último na linha. |
 
 Consulte [Expressões regulares - Tabela de referência](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obter informações sobre o que significam caracteres em uma expressão regular.
@@ -198,12 +198,12 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |--- |--- |--- |--- |
-| Expressão regular Para sequências de correspondência a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expressão regular Para sequências de correspondência a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expressão regular para correspondência das sequências de caracteres a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expressão regular para correspondência das sequências de caracteres a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expressão regular para correspondência das sequências de caracteres a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Expressão regular para correspondência das sequências de caracteres a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Expressão regular para correspondência de sequências de caracteres `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expressão regular para correspondência de sequências de caracteres `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expressão regular para correspondência de sequências de caracteres `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expressão regular para correspondência de sequências de caracteres `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expressão regular para correspondência de sequências de caracteres `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Expressão regular para correspondência de sequências de caracteres `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Expressões regulares - Exemplo &quot;Não contém&quot; {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -285,7 +285,7 @@ O que vem depois de um exemplo de regra de termo de pesquisa que classifica os t
 | 2 | Contém | Fantasia | Tipo de pesquisa | Fantasia |
 | 3 | Contém | Romo | Tipo de pesquisa | Jogador |
 
-Se um usuário pesquisa por *`Cowboys fantasy Tony Romo`*, o termo *`Player`* é classificado, visto que corresponde à última classificação fornecida mostrada na coluna Definir classificação.
+Se um usuário pesquisar por *`Cowboys fantasy Tony Romo`*, o termo *`Player`* é classificada, pois corresponde à última classificação fornecida mostrada na coluna Definir classificação.
 
 Da mesma forma, suponha que você configure duas regras em um conjunto para os seguintes termos de pesquisa:
 
@@ -308,7 +308,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 
 >[!NOTE]
 >
->Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se houver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](/help/components/classifications/c-sub-classifications.md).
+>Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se você tiver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](/help/components/classifications/c-sub-classifications.md).
 
 Para adicionar ou editar uma regra de classificação:
 
@@ -330,7 +330,6 @@ Para adicionar ou editar uma regra de classificação:
    >   (Consulte *Variável* em [Conjuntos de regras de classificação](/help/components/classifications/crb/classification-rule-set.md) para obter uma explicação sobre esse pré-requisito.)
    >
    >* Você selecionou o conjunto de relatórios na página **[!UICONTROL Conjuntos de relatórios disponíveis]**, que é exibida após clicar em [Adicionar conjunto de regras](/help/components/classifications/crb/classification-rule-set.md) para criar o conjunto de regras.
-
 
 1. Especifique se deseja substituir os valores existentes:
 
