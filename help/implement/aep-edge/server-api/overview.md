@@ -4,10 +4,10 @@ description: Use a API do servidor da rede de borda da Adobe Experience Platform
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 2e5171842794d7acc7bb67048b734f47a438cf1c
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -53,7 +53,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <td>5</td>
 <td><b>Adicionar um serviço Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.htmls">Interação com o Adobe Analytics</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=pt-BR">Interação com o Adobe Analytics</a></td>
 </tr>
 
 
