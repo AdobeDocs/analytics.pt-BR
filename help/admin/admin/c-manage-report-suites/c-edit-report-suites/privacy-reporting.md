@@ -3,16 +3,16 @@ description: Habilite as dimensões de gerenciamento de consentimento.
 title: Relatórios de privacidade
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '89'
+ht-degree: 77%
 
 ---
 
 # Relatórios de privacidade
 
-Os relatórios de privacidade permitem ativar as dimensões [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md) para usar em relatórios.
+Os relatórios de privacidade permitem ativar o [Aceitação no gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md), [Recusa no gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md) e [Consentimento de publicidade](/help/components//dimensions/ad-consent.md) dimensões para usar em relatórios.
 
 Para acessar esta página:
 
