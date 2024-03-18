@@ -4,10 +4,10 @@ description: Envie uma chamada de rastreamento de link para a Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 80%
+source-wordcount: '749'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,13 @@ Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExtern
 
 ## Rastreamento de link usando o SDK da Web
 
-O SDK da Web não diferencia entre chamadas de exibição de página e chamadas de rastreamento de link; ambos usam o `sendEvent` comando. Se quiser que o Adobe Analytics contabilize um determinado evento XDM como uma chamada de rastreamento de link, verifique se os dados XDM incluem ou estão mapeados para `web.webInteraction.name`, `web.webInteraction.URL`, e `web.webInteraction.type`.
+O SDK da Web não diferencia entre chamadas de exibição de página e chamadas de rastreamento de link; ambos usam o `sendEvent` comando.
 
-* O nome do link mapeia para `web.webInteraction.name`.
-* Vincular URL mapeia para `web.webInteraction.URL`.
-* O tipo de link mapeia para `web.webInteraction.type`. Os valores válidos incluem `other` (Links personalizados), `download` (Links de download) e `exit` (Links de saída).
+Se você usar um objeto XDM e quiser que o Adobe Analytics contabilize um determinado evento como uma chamada de rastreamento de link, verifique se os dados XDM incluem:
+
+* Nome do link: mapeado para `xdm.web.webInteraction.name`.
+* URL do link: mapeado para `xdm.web.webInteraction.URL`.
+* Tipo de link: mapeado para `xdm.web.webInteraction.type`. Os valores válidos incluem `other` (Links personalizados), `download` (Links de download) e `exit` (Links de saída).
 
 ```js
 alloy("sendEvent", {
@@ -33,6 +35,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+Se você usar um objeto de dados e quiser que o Adobe Analytics contabilize um determinado evento como uma chamada de rastreamento de link, verifique se o objeto de dados inclui:
+
+* Nome do link: mapeado para `data.__adobe.analytics.linkName`.
+* URL do link: mapeado para `data.__adobe.analytics.linkURL`.
+* Tipo de link: mapeado para `data.__adobe.analytics.linkType`. Os valores válidos incluem `o` (Links personalizados), `d` (Links de download) e `e` (Links de saída).
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

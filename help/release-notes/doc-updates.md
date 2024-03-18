@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5243'
 ht-degree: 94%
@@ -141,7 +141,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Atualização da documentação da visualização de fluxo | Com base na [nova interface](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentação sobre compartilhamento de anotações em cartões de pontuação móveis | Você pode exibir [anotações criadas no Analysis Workspace em cartões de pontuação móveis](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Maio de 2022** | |
-| Preencher dimensões e métricas do ciclo de vida por meio da rede de borda | Os dados do ciclo de vida móvel enviados para a Rede de borda agora são exibidos nos relatórios do Analytics. Consulte [Mapeamento de variável do Analytics](/help/implement/aep-edge/variable-mapping.md) para obter detalhes sobre quais Campos XDM mapear em relatórios de ciclo de vida móvel existente. |
+| Preencher dimensões e métricas do ciclo de vida por meio da rede de borda | Os dados do ciclo de vida móvel enviados para a Rede de borda agora são exibidos nos relatórios do Analytics. Consulte [Mapeamento de variável do Analytics](/help/implement/aep-edge/xdm-var-mapping.md) para obter detalhes sobre quais Campos XDM mapear em relatórios de ciclo de vida móvel existente. |
 | **Abril de 2022** | |
 | Atualizações da página de aterrissagem do Adobe Analytics | Atualizações na [página de aterrissagem conjunta do Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md) que melhoram a usabilidade e a facilidade de navegação. |
 | Novo tópico sobre o painel [!UICONTROL Resumo da página] | [Painel Resumo da página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

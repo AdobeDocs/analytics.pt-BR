@@ -4,10 +4,10 @@ description: Preencha a dimensão “Seções do site”.
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 76%
+source-wordcount: '194'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,10 @@ A variável `channel` geralmente armazena a seção do site em que uma determina
 
 ## Canal usando o SDK da Web
 
-O canal é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webPageDetails.siteSection`.
+O canal é mapeado para as seguintes variáveis:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.siteSection`
+* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.channel` ou `data.__adobe.analytics.ch`
 
 ## Canal usando a extensão do Adobe Analytics
 

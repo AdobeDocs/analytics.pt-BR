@@ -4,9 +4,9 @@ description: Substitua o referenciador coletado automaticamente em uma ocorrênc
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 80%
 
 ---
@@ -17,9 +17,12 @@ A variável `referrer` substitui o referenciador coletado automaticamente nos re
 
 ## Referenciador que usa o SDK da Web
 
-O referenciador é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webReferrer.URL`.
+O referenciador é mapeado para as seguintes variáveis:
 
-O SDK da Web inclui essa dimensão em cada ocorrência de evento.
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
+* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
+
+O SDK da Web inclui automaticamente `web.webReferrer.URL` em cada evento enviado, se disponível.
 
 ## Referenciador que usa a extensão do Adobe Analytics
 

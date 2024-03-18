@@ -4,10 +4,10 @@ description: Use essa variável para vincular dados online e offline.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 96%
+source-wordcount: '423'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,10 @@ Por padrão, a Adobe lembra de todos os valores de IDs de transação (vinculado
 
 ## ID de transação usando o SDK da Web
 
-A ID de transação é [mapeada para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `commerce.order.payments[0].transactionID`.
+A ID da transação é mapeada para as seguintes variáveis:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[0].transactionID`
+* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` ou `data.__adobe.analytics.xact`
 
 ## ID de transação que usa a extensão do Adobe Analytics
 

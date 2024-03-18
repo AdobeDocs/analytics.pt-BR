@@ -4,10 +4,10 @@ description: Envie dados sobre quais produtos são exibidos ou que estão no car
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 68%
+source-wordcount: '688'
+ht-degree: 64%
 
 ---
 
@@ -21,18 +21,20 @@ A variável `products` rastreia produtos e propriedades associadas a eles. Norma
 
 ## Produtos que usam o SDK da Web
 
-Os produtos são [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) em vários campos XDM:
+Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), os produtos são mapeados para as seguintes variáveis:
 
-* A categoria está mapeada para `productListItems[].productCategories[].categoryID`. Ele usa o primeiro item na variável `productCategories[]` matriz. `lineItemId` também mapeia corretamente, mas recomendamos `categoryID` já que esse é o XDM padrão. Se ambos os campos XDM estiverem presentes `lineItemId` tem precedência.
-* O produto está mapeado para `productListItems[].SKU` ou `productListItems[].name`. Se ambos os campos XDM estiverem presentes, `productListItems[].SKU` é usada.
-* A quantidade é mapeada para `productListItems[].quantity`.
-* O preço está mapeado para `productListItems[].priceTotal`.
-* As eVars de merchandising são mapeadas para `productListItems._experience.analytics.customDimensions.eVars.eVar1` para `productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependendo do eVar que você deseja vincular a um produto.
-* Os eventos de comercialização são mapeados para `productListItems[]._experience.analytics.event1to100.event1.value` para `productListItems._experience.analytics.event901to1000.event1000.value`, dependendo do evento que você deseja vincular a um produto. Se você definir um evento em um desses campos, ele será incluído automaticamente na variável [evento](events/events-overview.md) sequência de caracteres enviada para o Adobe Analytics.
+* A categoria está mapeada para `xdm.productListItems[].productCategories[].categoryID`. Ele usa o primeiro item na variável `productCategories[]` matriz. `lineItemId` também mapeia corretamente, mas o Adobe recomenda `categoryID` já que é o XDM padrão. Se ambos os campos XDM estiverem presentes, `lineItemId` tem precedência.
+* O produto está mapeado para `xdm.productListItems[].SKU` ou `xdm.productListItems[].name`. Se ambos os campos XDM estiverem presentes, `xdm.productListItems[].SKU` é usada.
+* A quantidade é mapeada para `xdm.productListItems[].quantity`.
+* O preço está mapeado para `xdm.productListItems[].priceTotal`.
+* As eVars de merchandising são mapeadas para `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` para `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependendo do eVar que você deseja vincular a um produto.
+* Os eventos de comercialização são mapeados para `xdm.productListItems[]._experience.analytics.event1to100.event1.value` para `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, dependendo do evento que você deseja vincular a um produto. Se você definir um evento em um desses campos, ele será incluído automaticamente na variável [evento](events/events-overview.md) sequência de caracteres enviada para o Adobe Analytics.
 
 >[!NOTE]
 >
 >`lineItemId` deve ser adicionado como um campo personalizado, pois ainda não faz parte do esquema padrão Evento do Analytics. O Adobe planeja adicionar um campo &quot;Categoria&quot; dedicado no futuro.
+
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), a variável products usa `data.__adobe.analytics.products` sintaxe de AppMeasurement a seguir. Se você definir esse campo, quaisquer produtos definidos no objeto XDM serão substituídos e não enviados para o Adobe Analytics.
 
 ## Produtos que usam a extensão Adobe Analytics
 

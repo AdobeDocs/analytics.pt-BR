@@ -4,10 +4,10 @@ description: Preencha manualmente a dimensão “CEP” se as configurações do
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 94%
+source-wordcount: '270'
+ht-degree: 75%
 
 ---
 
@@ -17,9 +17,16 @@ A variável `zip` permite preencher manualmente a dimensão “CEP” se a [!UIC
 
 >[!IMPORTANT]
 >
->Verifique se a [!UICONTROL Opção de CEP] nas configurações do conjunto de relatórios está definida com o valor desejado. Não é possível usar essa variável se o [!UICONTROL CEP] for sempre usado. Consulte [Configurações gerais da conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) no Guia do usuário de administração para obter mais informações.
+>Verifique se a [!UICONTROL Opção de CEP] nas configurações do conjunto de relatórios está definida com o valor desejado. Não é possível usar essa variável se [!UICONTROL zip geográfico] é sempre usado. Consulte [Configurações gerais da conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) no Guia do usuário de administração para obter mais informações.
 
-## Zip usando a extensão do Adobe Analytics
+## Código postal usando o SDK da Web
+
+O CEP é mapeado para as seguintes variáveis:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
+* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
+
+## Código postal usando a extensão do Adobe Analytics
 
 Você pode definir o CEP ao configurar a extensão do Analytics (variáveis globais) ou em Regras.
 

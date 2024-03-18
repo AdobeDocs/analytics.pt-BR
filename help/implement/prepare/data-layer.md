@@ -4,10 +4,10 @@ description: Saiba o que é uma camada de dados na implementação do Analytics 
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ A implementação do Adobe Analytics usando uma camada de dados geralmente segue
 
 1. **Validar a camada de dados usando um console do navegador**: depois que uma camada de dados é criada, você pode validar se ela está funcionando usando qualquer console de desenvolvedor do navegador. Abra o console do desenvolvedor na maioria dos navegadores usando a tecla `F12`. Um exemplo de valor de variável seria `adobeDataLayer.page.title`.
 1. **Usar a coleção de dados da Adobe Experience Platform para mapear objetos de camada de dados para elementos de dados**: essa etapa varia de acordo com o método de implementação de sua organização:
-   * **Se estiver utilizando o SDK da Web**: mapeie os objetos da camada de dados desejados para os campos XDM desejados no Adobe Experience Platform Edge. Consulte [Mapeamento de variáveis do Analytics](../aep-edge/variable-mapping.md) para determinar o mapeamento da camada de dados desejado.
+   * **Se estiver utilizando o SDK da Web**: mapeie os objetos da camada de dados desejados para os campos XDM desejados no Adobe Experience Platform Edge. Consulte [Mapeamento de variáveis XDM do Analytics](../aep-edge/xdm-var-mapping.md) para determinar o mapeamento da camada de dados desejado.
    * **Se estiver utilizando a extensão do Analytics**: crie elementos de dados em Tags, na Coleção de dados da Adobe Experience Platform, e atribua-os aos objetos da camada de dados desejados. Em seguida, na extensão do Analytics, atribua cada elemento de dados à variável adequada do Analytics.
 
 ## Especificações

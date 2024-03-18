@@ -4,10 +4,10 @@ description: Defina a variável events, que governa a maioria das métricas do s
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 90%
+source-wordcount: '845'
+ht-degree: 85%
 
 ---
 
@@ -19,24 +19,26 @@ Antes de implementar eventos, você deve criá-los e configurá-los em [Eventos-
 
 ## Evento usando o SDK da Web
 
-Os eventos personalizados são [mapeados para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) nos seguintes campos XDM:
+Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), os eventos personalizados usam os seguintes campos XDM:
 
-* Os eventos personalizados 1-100 são mapeados para `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
-* Os eventos personalizados 101-200 são mapeados para `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Esse padrão se repete a cada 100 eventos para `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` é usado para especificar a quantidade a ser incrementada. `eventx.id` é usado para [serialização](event-serialization.md).
-* Os pedidos são mapeados para `commerce.purchases.value`.
+* Os eventos personalizados 1-100 são mapeados para `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`.
+* Os eventos personalizados 101-200 são mapeados para `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`.
+* Esse padrão se repete a cada 100 eventos para `xdm._experience.analytics.event901to1000.event901` - `xdm._experience.analytics.event901to1000.event1000`. `eventx.value` é usado para especificar a quantidade a ser incrementada. `eventx.id` é usado para [serialização](event-serialization.md).
+* Os pedidos são mapeados para `xdm.commerce.purchases.value`.
 * As unidades são mapeadas para a soma de todos os campos `productListItems[].quantity`.
 * A receita é mapeada para a soma de todos os campos `productListItems[].priceTotal`.
-* As Exibições do produto são mapeadas para `commerce.productListViews.value`.
-* Os carrinhos são mapeados para `commerce.productListOpens.value`.
-* Adições ao carrinho são mapeadas para `commerce.productListAdds.value`.
-* As Remoções do carrinho são mapeadas para `commerce.productListRemovals.value`.
-* As exibições do carrinho são mapeadas para `commerce.productListViews.value`.
-* Os check-outs são mapeados para `commerce.checkouts.value`.
+* As Exibições do produto são mapeadas para `xdm.commerce.productListViews.value`.
+* Os carrinhos são mapeados para `xdm.commerce.productListOpens.value`.
+* Adições ao carrinho são mapeadas para `xdm.commerce.productListAdds.value`.
+* As Remoções do carrinho são mapeadas para `xdm.commerce.productListRemovals.value`.
+* As exibições do carrinho são mapeadas para `xdm.commerce.productListViews.value`.
+* Os check-outs são mapeados para `xdm.commerce.checkouts.value`.
 
 >[!NOTE]
 >
 >Se um evento for definido em `productListItems` (por exemplo, `productListItems._experience.analytics.event1.value`) e o evento ainda não estiver nesse campo, ele será adicionado automaticamente a esse campo.
+
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), todos os eventos usam `data.__adobe.analytics.events`, seguindo a sintaxe da string de AppMeasurement. Se você definir esse campo, todos os eventos definidos no objeto XDM serão substituídos e não enviados para o Adobe Analytics.
 
 ## Evento usando a extensão do Adobe Analytics
 

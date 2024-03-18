@@ -4,10 +4,10 @@ description: Substitua o URL de link gerado automaticamente que o AppMeasurement
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 75%
+source-wordcount: '139'
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,10 @@ Sempre que uma chamada de rastreamento de link é enviada para a Adobe, os servi
 
 ## Vincular URL usando o SDK da Web
 
-O URL do link é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webInteraction.URL`.
+O URL do link é mapeado para as seguintes variáveis:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` ou `data.__adobe.analytics.pev1`
 
 ## Vincular URL usando a extensão do Adobe Analytics
 

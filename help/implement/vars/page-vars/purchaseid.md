@@ -4,7 +4,7 @@ description: Desduplicar ocorrências com base em um identificador de compra exc
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 83%
@@ -21,7 +21,10 @@ As IDs de compra se aplicam a todos os visitantes e expiram após 37 meses. Se u
 
 ## ID de compra usando o SDK da Web
 
-A ID de compra é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `commerce.order.purchaseID`.
+A ID de compra é mapeada para as seguintes variáveis:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
+* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## ID de compra usando a extensão do Adobe Analytics
 

@@ -4,10 +4,10 @@ description: Ajude a desduplicar métricas em seu site.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 96%
+source-wordcount: '424'
+ht-degree: 83%
 
 ---
 
@@ -35,9 +35,11 @@ Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 
 ## Usar IDs de evento usando o SDK da Web
 
-A serialização de eventos é [mapeada para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM do evento desejado `id`. O caminho XDM completo depende de qual evento você deseja serializar.
+Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), a serialização de eventos usa o campo XDM do evento desejado `id`. O caminho XDM completo depende de qual evento você deseja serializar.
 
-Por exemplo, se você deseja serializar a métrica Adições ao carrinho, defina o Campo XDM `commerce.productListAdds.id` com o valor de serialização desejado. Se quiser serializar o evento Personalizado 20, defina o Campo XDM `_experience.analytics.event1to100.event20` com o valor de serialização desejado.
+Por exemplo, se você deseja serializar a métrica Adições ao carrinho, defina `xdm.commerce.productListAdds.id` para o valor de serialização desejado. Se quiser serializar um evento personalizado 20, defina `xdm._experience.analytics.event1to100.event20` para o valor de serialização desejado.
+
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), a serialização de eventos usa `data.__adobe.analytics.events`, seguindo a sintaxe da string de AppMeasurement.
 
 ## Usar IDs de evento usando a extensão do Adobe Analytics
 

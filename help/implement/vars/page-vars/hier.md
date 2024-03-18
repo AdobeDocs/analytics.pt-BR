@@ -4,9 +4,9 @@ description: Implementar variáveis de hierarquia no Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 95%
 
 ---
@@ -25,7 +25,7 @@ Antes de usar hierarquias em sua implementação, configure cada hierarquia nas 
 
 ## Hierarquias usando o SDK da Web
 
-As hierarquias são [mapeadas para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) nos campos XDM `_experience.analytics.customDimensions.hierarchies.hier1` a `_experience.analytics.customDimensions.hierarchies.hier5`.
+As hierarquias são [mapeadas para o Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) nos campos XDM `xdm._experience.analytics.customDimensions.hierarchies.hier1` a `xdm._experience.analytics.customDimensions.hierarchies.hier5`.
 
 ## Hierarquias usando a extensão do Adobe Analytics
 

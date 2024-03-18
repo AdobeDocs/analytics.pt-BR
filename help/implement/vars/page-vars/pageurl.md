@@ -4,9 +4,9 @@ description: Substitua o URL da página coletado automaticamente em seu site.
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 79%
 
 ---
@@ -21,7 +21,10 @@ O AppMeasurement coleta automaticamente o URL da página em cada ocorrência. Se
 
 ## URL da página usando o SDK da Web
 
-O URL da página é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webPageDetails.URL`.
+O URL da página é mapeado para as seguintes variáveis:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
+* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` ou `data.__adobe.analytics.g`
 
 ## URL da página usando a extensão do Adobe Analytics
 

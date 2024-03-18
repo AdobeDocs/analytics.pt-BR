@@ -4,10 +4,10 @@ description: Para sites de comércio eletrônico, define a moeda em que a págin
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,10 @@ Um ponto **deve** ser usado como separador para todas as moedas ao implementar e
 
 ## Código de moeda usando o SDK da Web
 
-O código de moeda é [mapeado para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `commerce.order.currencyCode`.
+O código de moeda é mapeado para as seguintes variáveis:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` ou `data.__adobe.analytics.cc`
 
 ## Código de moeda usando a extensão do Adobe Analytics
 

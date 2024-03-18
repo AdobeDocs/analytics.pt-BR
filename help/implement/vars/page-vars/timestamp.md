@@ -4,10 +4,10 @@ description: Defina manualmente o carimbo de data e hora da ocorrência.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ A variável `timestamp` define manualmente o carimbo de data e hora da ocorrênc
 
 ## Carimbo de data e hora usando o SDK da Web
 
-O carimbo de data/hora é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `xdm.timestamp`. Esse campo só oferece suporte a horário Unix.
+O carimbo de data/hora é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) no campo XDM `xdm.timestamp`. Esse campo só oferece suporte a horário Unix.
 
 ## Carimbo de data e hora usando a extensão do Adobe Analytics
 
@@ -33,7 +33,7 @@ A variável `s.timestamp` é uma string que contém a data e a hora da ocorrênc
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2020-01-01T00:00:00Z";
+s.timestamp = "2024-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -52,19 +52,19 @@ As datas e horas expressas em [ISO 8601](https://pt.wikipedia.org/wiki/ISO_8601)
 * A data e a hora devem ser fornecidas, separadas por `T`.
 * São necessárias horas e minutos; segundos são opcionais, porém recomendados.
 * Não há suporte para datas semanais e datas ordinais.
-* A data pode estar no formato padrão ou estendido. Por exemplo, `2020-01-01T00:00:00Z` e `20200101T000000Z` são válidos.
+* A data pode estar no formato padrão ou estendido. Por exemplo, `2024-01-01T00:00:00Z` e `20240101T000000Z` são válidos.
 * Minutos e segundos fracionais são tecnicamente válidos, mas as frações são ignoradas pela Adobe.
 * Fusos horários são suportados em formatos padrão e estendidos.
 
 A seguir estão exemplos válidos de valores ISO 8601 na variável `timestamp`:
 
 ```text
-2020-01-01T00:00:00+00:00
-2020-01-01T00:00:00Z
-2020-01-01T00:00:00
-2020-01-01T00:00
-20200101T000000+0000
-20200101T000000Z
-20200101T000000
-20200101T0000
+2024-01-01T00:00:00+00:00
+2024-01-01T00:00:00Z
+2024-01-01T00:00:00
+2024-01-01T00:00
+20240101T000000+0000
+20240101T000000Z
+20240101T000000
+20240101T0000
 ```

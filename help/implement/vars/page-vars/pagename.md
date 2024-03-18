@@ -4,10 +4,10 @@ description: O nome da página do seu site.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 81%
+source-wordcount: '258'
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,10 @@ Se essa variável não for definida em uma chamada de rastreamento de página es
 
 ## Nome da página usando o SDK da Web
 
-A página é [mapeado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=pt-BR) no campo XDM `web.webPageDetails.name`.
+O nome da página é mapeado para as seguintes variáveis:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.name`
+* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageName`
 
 ## Nome da página usando a extensão do Adobe Analytics
 

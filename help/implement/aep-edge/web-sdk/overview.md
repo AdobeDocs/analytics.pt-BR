@@ -4,7 +4,7 @@ description: Use a extensão SDK da Web na coleção de dados da Adobe Experienc
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
+source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 72%
@@ -65,7 +65,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>7</td>
 <td><b>Configurar o SDK da Web</b>. Verifique se a biblioteca instalada na etapa 4 está configurada corretamente com a ID do fluxo de dados (anteriormente conhecida como ID de configuração de borda (<code>edgeConfigId</code>)), id da organização (<code>orgId</code>) e outras opções disponíveis. Garanta o mapeamento adequado das variáveis. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurar o SDK da Web</a><br/><a href="../variable-mapping.md">Mapeamento de variável de objeto XDM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurar o SDK da Web</a><br/><a href="../xdm-var-mapping.md">Mapeamento de variável de objeto XDM</a></td>
 </tr>
 
 <tr>
