@@ -5,9 +5,9 @@ title: Segmentação do Analytics
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
 source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ A segmentação do Analytics inclui o [Construtor de segmentos](/help/components
 
 ![](assets/seg__overview.png)
 
-Os cientistas de dados e analistas de marketing podem empregar, estender e refinar segmentos para análises específica para suas necessidades, em seguida, salvar o segmento para outros usuários a fim de estender, refinar e salvar como um novo segmento na biblioteca. Depois de executado, é um ciclo de criação e gerenciamento de informações de público-alvo codificado como um [fluxo de trabalho de segmento unificado](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Os cientistas de dados e analistas de marketing podem empregar, estender e refinar segmentos para análises específica para suas necessidades, em seguida, salvar o segmento para outros usuários a fim de estender, refinar e salvar como um novo segmento na biblioteca. Depois de iniciada, cria-se um ciclo de criação e gerenciamento de insights codificados do público-alvo por meio de um [fluxo de trabalho de segmento unificado](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Introdução
 
-Consulte [Sobre os segmentos](/help/components/segmentation/seg-overview.md) para obter uma visão geral rápida. Em seguida, acesse [Configuração de um fluxo de trabalho de segmentação](/help/components/segmentation/segmentation-workflow/seg-workflow.md) ou [Construir segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md).
+Consulte [Sobre segmentos](/help/components/segmentation/seg-overview.md) para obter uma visão geral rápida. Em seguida, acesse [Configuração de um fluxo de trabalho de segmentação](/help/components/segmentation/segmentation-workflow/seg-workflow.md) ou [Criação de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md).

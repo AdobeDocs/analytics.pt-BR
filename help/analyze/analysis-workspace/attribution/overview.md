@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ A atribuição oferece aos analistas a capacidade de personalizar como os itens 
 1. Um visitante do site clica em um link de pesquisa pago para uma de suas páginas de produtos. Eles adicionam o produto ao carrinho, mas não o compram.
 2. No dia seguinte, eles veem uma postagem de mídia social de um de seus amigos, clicam no link e concluem a compra.
 
-Em alguns relatórios, você pode desejar que a ordem seja atribuída à pesquisa paga. Em outros relatórios, você pode desejar que a ordem seja atribuída ao Social. A atribuição permite controlar esse aspecto dos relatórios. Ele está disponível para todas as organizações no Adobe Analytics Ultimate, Prime, Select e Foundation. Se você não tiver certeza de qual tipo de contrato possui com o Adobe, entre em contato com a equipe de conta do Adobe de sua organização.
+Em alguns relatórios, você pode desejar que a ordem seja atribuída à pesquisa paga. Em outros relatórios, você pode desejar que a ordem seja atribuída ao Social. A atribuição permite controlar esse aspecto dos relatórios. Ele está disponível para todas as organizações no Adobe Analytics Ultimate, Prime, Select e Foundation. Se você não tem certeza do tipo de contrato que tem com a Adobe, entre em contato com a equipe de contas da Adobe da sua organização.
 
 ## Valor de atribuição
 
@@ -39,7 +39,7 @@ O Adobe Analytics aprimora a atribuição ao permitir:
 
 ## Recursos
 
-O Attribution inclui os seguintes recursos:
+A atribuição compreende os seguintes recursos:
 
 * [Painel de atribuição](../c-panels/attribution.md): pegue qualquer dimensão e métrica e compare-a rapidamente com diferentes modelos de atribuição.
 * [Aplicar atribuição a uma métrica](../visualizations/freeform-table/column-row-settings/column-settings.md): use uma atribuição não padrão em qualquer métrica em um projeto.
@@ -48,22 +48,22 @@ O Attribution inclui os seguintes recursos:
 
 ## Vídeos
 
-Attribution em Tabelas de forma livre:
+Atribuição em tabelas de forma livre:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-Attribution em métricas calculadas
+Atribuição em métricas calculadas
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Usar o painel Atribuição:
+Utilização do painel Atribuição:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Adição de comparações lado a lado de modelos do Attribution 
+Adição de comparações lado a lado de modelos de atribuição:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Ferramentas do Adobe Analytics que não são compatíveis com o Attribution
+## Ferramentas do Adobe Analytics que não são compatíveis com a atribuição
 
-Quaisquer ferramentas que não sejam compatíveis com a API do Analytics 2.0, como o Report Builder, não são compatíveis com o Attribution.
+Todas as ferramentas que não são compatíveis com a API Analytics 2.0, como o Report Builder, não são compatíveis com a atribuição.

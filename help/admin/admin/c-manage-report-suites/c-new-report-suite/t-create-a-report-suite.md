@@ -4,8 +4,8 @@ title: Criar um conjunto de relatórios
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
-source-wordcount: '316'
+workflow-type: ht
+source-wordcount: '311'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Um conjunto de relatórios é um silo de dados que o Adobe Analytics usa para ex
 
 Este artigo foi projetado para administradores de nível de sistema ou administradores do Adobe Analytics para preparar a coleta de dados.
 
-## Pré-requisitos
+## Pré-requisitos 
 
 [Guia do primeiro administrador do Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): verifique se um administrador de nível de sistema concedeu acesso ao Adobe Analytics por meio do Admin Console da Experience Cloud.
 
@@ -28,7 +28,7 @@ Este artigo foi projetado para administradores de nível de sistema ou administr
 
    >[!NOTE]
    >
-   >Somente as configurações podem ser copiadas, não os dados. Se o Atendimento ao cliente estiver copiando as configurações, você precisará fornecer uma confirmação por escrito ao aviso legal fornecido pelo Atendimento ao cliente sobre os riscos envolvidos. Consulte [Configurações não copiadas de um conjunto de relatórios de origem ](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)para obter mais informações.
+   >Somente as configurações podem ser copiadas, não os dados. Se o Atendimento ao cliente estiver copiando as configurações, você precisará fornecer uma confirmação por escrito de que aceitou o aviso legal recebido sobre os riscos envolvidos. Consulte [Configurações não copiadas de um conjunto de relatórios de origem](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) para obter mais informações.
 
 1. Preencha os campos descritos em [Novo conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md).
 1. Clique em **[!UICONTROL Criar conjunto de relatórios]**.

@@ -4,15 +4,15 @@ title: Perguntas frequentes sobre segmentos herdados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Perguntas frequentes sobre segmentos herdados
 
-Responde a perguntas frequentes sobre as práticas recomendadas para gerenciar segmentos herdados - segmentos criados antes de 2014.
+Responde a perguntas frequentes sobre as práticas recomendadas para gerenciar segmentos herdados, ou seja, segmentos criados antes de 2014.
 
 ## Gerenciamento de segmentos herdados {#legacy}
 
@@ -20,7 +20,7 @@ Responde a perguntas frequentes sobre as práticas recomendadas para gerenciar s
 
 Seus segmentos existentes continuarão a funcionar como anteriormente. Quaisquer relatórios com esses segmentos aplicados continuarão a funcionar corretamente. [Mais...](/help/components/segmentation/seg-transition.md)
 
-A maioria dos segmentos pré-definidos e de conjunto serão migrados como modelos de segmento no Construtor de segmentos. Os modelos de segmentos são usados para criar rapidamente segmentos personalizados com públicos comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser salvos facilmente em um segmento personalizado.
+A maioria dos segmentos pré-definidos e de conjunto anteriores serão migrados como modelos de segmentos para o Construtor de segmentos. Os modelos de segmentos são usados para criar rapidamente segmentos personalizados com públicos comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser salvos facilmente em um segmento personalizado.
 
 Os modelos de segmento são marcados com um ícone especial no Construtor de segmentos:
 
@@ -42,9 +42,9 @@ Você tem um marcador que faz referência ao segmento para o conjunto de relató
 
 +++
 
-+++ **O que aconteceu com os segmentos do Data Warehouse?**
++++ **O que aconteceu com os segmentos do data warehouse?**
 
-Todos os segmentos existentes no Data Warehouse ainda funcionam nele. A maioria dos segmentos do Data Warehouse também funcionarão em outros componentes, como o Analysis Workspace.
+Todos os segmentos existentes no data warehouse ainda funcionam nele. A maioria dos segmentos do data warehouse também funcionarão em outros componentes, como o Analysis Workspace.
 
 Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/construtor de segmentos. O mecanismo de Compatibilidade do produto no Construtor de segmentos determina automaticamente se um segmento é compatível com o Data Warehouse.
 
@@ -58,11 +58,11 @@ Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/cons
 * **Visitantes da pesquisa paga**
 * **Visitantes com cookie de ID do visitante**
 
-Esses segmentos serão migrados como modelos de segmentos no Construtor de segmentos. Os relatórios com esses segmentos aplicados continuarão funcionando da forma correta.
+Esses segmentos serão migrados como modelos de segmento para o Construtor de segmentos. Os relatórios que utilizam esses segmentos continuarão funcionando da forma correta.
 
 +++
 
-+++ **O que aconteceu com os segmentos de Experience Cloud (Suite):**
++++ **O que aconteceu com os segmentos da Experience Cloud (Suite):**
 
 * Não compradores
 * Compradores
@@ -72,15 +72,15 @@ Esses segmentos serão migrados como modelos de segmentos no Construtor de segme
 * Visitas com mais de cinco visitas anteriores*
 * Visitas do Facebook*
 
-A maioria desses segmentos (exceto os marcados com um asterisco *) foi migrada como modelos de segmentos no construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados.
+A maioria desses segmentos (exceto os marcados com um asterisco *) foram migrados como modelos de segmento para o construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados.
 
-Os relatórios com esses segmentos aplicados continuam a funcionar corretamente.
+Relatórios existentes que utilizam esses segmentos continuam funcionando corretamente.
 
 +++
 
-+++ **O que aconteceu com os segmentos de administrador (também conhecidos como segmentos &quot;Globais&quot;)?**
++++ **O que aconteceu com os segmentos Admin (também conhecidos como segmentos “Globais”)?**
 
-Os segmentos do **administrador** serão migrados na nova interface de segmentos e serão exibidos como segmentos compartilhados com todos.
+Os segmentos de **Admin** serão migrados para a nova interface de segmentos e exibidos como segmentos “compartilhados com todos”.
 
 O proprietário desses segmentos está definido como o administrador com a conta mais antiga na lista de usuários administradores da empresa de logon, no entanto, todos os Administradores podem excluir, editar e compartilhar esses segmentos.
 
@@ -104,7 +104,7 @@ Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode
 * Analise todos os seus segmentos.
 * Quando apropriado, adicione-os à biblioteca de segmentos.
 * Aprovar segmentos canônicos.
-* Marcar segmentos de acordo com [práticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Marque os segmentos de acordo com as [práticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 
@@ -115,7 +115,7 @@ As seguintes dicas ajudarão você a migrar dimensões comuns:
 * Cidade/regiões/país geográfico - pesquise e selecione cidades, regiões ou países específicos em vez de usar uma correspondência parcial.
 * Navegadores - use a dimensão de Tipos de navegador para obter todos os navegadores em um tipo, por exemplo, Google Chrome
 * Sistemas operacionais - use as dimensões de Tipos de sistema operacional para obter todos os sistemas operacionais em um tipo, por exemplo, Microsoft Windows.
-* Consulte &quot;Dimension novos e renomeados&quot; (veja abaixo)
+* Consulte “Dimensões novas e renomeadas” (veja abaixo)
 
 ## Dimensões novas e renomeadas {#renamed}
 
@@ -153,7 +153,7 @@ Dimensões com base em sequência de caracteres com conjunto de valores conhecid
 
 As seguintes dimensões foram alteradas para listas enumeradas:
 
-| nome do Dimension | nome do Dimension | nome do Dimension |
+| Nome da dimensão | Nome da dimensão | Nome da dimensão |
 | --- | --- | --- |
 | fabricante do dispositivo móvel | comprimento de email remoto | intensidade de cor |
 | tamanho da tela do dispositivo móvel | número do dispositivo móvel | resolução do monitor |
@@ -172,7 +172,7 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 
 ## Alterações nas dimensões com base em inteiro com valores conhecidos {#integer-based-dims}
 
-Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A tela a seguir mostra como essas dimensões são segmentadas usando as interfaces anterior e nova do construtor de segmentos:
+Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A seguinte tela demonstra como essas dimensões são segmentadas usando a interface anterior e a nova interface do construtor de segmentos:
 
 ![](assets/seg_browser_dimension.png)
 

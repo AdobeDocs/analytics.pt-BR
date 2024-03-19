@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
-workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '724'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Para salvar manualmente um projeto:
    | **[!UICONTROL Salvar]** | Salve as alterações no seu projeto. Se o projeto for compartilhado, os recipients do projeto também verão as alterações. Ao salvar seu projeto pela primeira vez, você deverá fornecer um nome, uma descrição (opcional) e adicionar tags (opcional). |
    | **[!UICONTROL Salvar com notas]** | Antes de salvar o projeto, adicione observações sobre o que foi alterado no projeto. As notas são armazenadas com a versão do projeto e estão disponíveis a todos os editores em [!UICONTROL Projeto] > [!UICONTROL Abrir versão anterior]. |
    | **[!UICONTROL Salvar como]** | Crie um duplicado do seu projeto. O projeto original não será afetado. |
-   | **[!UICONTROL Salvar como relatório da empresa]** | Salve seu projeto como [relatório da empresa](/help/analyze/analysis-workspace/reports/create-company-reports.md) que fica disponível para sua organização em **[!UICONTROL Projeto > Novo]** |
+   | **[!UICONTROL Salvar como relatório da empresa]** | Salve seu projeto como um [relatório da empresa](/help/analyze/analysis-workspace/reports/create-company-reports.md) que estará disponível para sua organização em **[!UICONTROL Projeto > Novo]** |
 
 ## Salvar automaticamente {#Autosave}
 

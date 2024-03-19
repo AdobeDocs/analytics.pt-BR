@@ -4,15 +4,15 @@ description: A nona visita do visitante.
 feature: Dimensions
 exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '163'
+ht-degree: 100%
 
 ---
 
 # Número da visita
 
-O &#39;Número de visitas&#39; [dimension](overview.md) relatórios que visitam o visitante estão no momento. Quando uma nova visita é iniciada, esse item de dimensão aumenta em uma unidade. Essa dimensão é útil quando você deseja entender como os visitantes estão envolvidos ao retornar ao seu site. É uma dimensão baseada em visita, o que significa que ela contém o mesmo valor para toda a visita e não pode ser alterada. Ela se aplica à duração do visitante, independentemente do intervalo de datas do projeto.
+A [dimensão](overview.md) “Número da visita” informa em qual visita o visitante está atualmente. Quando uma nova visita é iniciada, esse item de dimensão aumenta em uma unidade. Essa dimensão é útil quando você deseja entender como os visitantes estão envolvidos ao retornar ao seu site. É uma dimensão baseada em visita, o que significa que ela contém o mesmo valor para toda a visita e não pode ser alterada. Ela se aplica à duração do visitante, independentemente do intervalo de datas do projeto.
 
 ## Preencher esta dimensão com dados
 

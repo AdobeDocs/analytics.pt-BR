@@ -5,7 +5,7 @@ feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
 source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Plug-ins de navegador do Activity Map:
 1. Volte para a barra de endereços do Chrome e digite `chrome://extensions`.
 1. Marque a caixa de diálogo do modo Desenvolvedor.
 1. Clique em Carregar extensões descompactadas e selecione a pasta descompactada no pop-up.
-1. Se você visualizar um ícone do Adobe Analytics  adicionado à sua barra de ferramentas, o download foi bem sucedido. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Agora, é possível [inicializar o Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md) na página.
+1. Se você notar um ícone do Adobe Analytics na barra de ferramentas, isso significa que o download foi bem-sucedido. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Agora é possível [iniciar o Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md) na sua página.
 
 ## Instalar os plug-ins do Activity Map no Firefox {#firefox}
 
@@ -45,5 +45,5 @@ Plug-ins de navegador do Activity Map:
 1. Clique em **[!UICONTROL Instalar agora]**.
 1. Clique no ícone **[!UICONTROL Abrir menu]** na parte superior direita e selecione **[!UICONTROL Complementos]**. ![](assets/firefox_install3.png){width="250px"}
 1. O Activity Map deve ser listado como um dos complementos do Firefox.
-1. Se você visualizar um ícone do Adobe Analytics  adicionado à sua barra de ferramentas, o download foi bem sucedido. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Agora, é possível [inicializar o Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md) na página.
+1. Se você notar um ícone do Adobe Analytics na barra de ferramentas, isso significa que o download foi bem-sucedido. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Agora é possível [iniciar o Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md) na sua página.
 

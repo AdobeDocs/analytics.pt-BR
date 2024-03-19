@@ -4,9 +4,9 @@ title: Arquivos de dados de classificação
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Um arquivo de dados deve atender às seguintes regras de estrutura:
 * As classificações não podem ter 0 (zero) como valor.
 * A Adobe recomenda limitar a quantidade de colunas de importações e exportações para 30.
 * Os arquivos enviados devem usar UTF-8 sem a codificação de caracteres BOM.
-* Caracteres especiais, como guias, novas linhas e aspas podem ser incorporados em uma célula, desde que o formato de arquivo da versão 2.1 seja especificada e a célula seja devidamente [evitada](/help/components/classifications/importer/t-classifications-escape-data.md). Caracteres especiais incluem:
+* É possível incorporar caracteres especiais (como tabulações, novas linhas e aspas) em uma célula, desde que o formato de arquivo v2.1 seja especificado e a célula tenha o [escape](/help/components/classifications/importer/t-classifications-escape-data.md) adequado. Caracteres especiais incluem:
 
   ```text
   \t     tab character 
@@ -110,7 +110,7 @@ Cada valor deve ser exclusivo em todo o sistema. O valor deste campo corresponde
 
 >[!NOTE]
 >
->Os valores no cabeçalho da coluna [!UICONTROL Classificações] devem corresponder exatamente à convenção de nomenclatura da classificação ou a importação não ocorrerá. Por exemplo, se o administrador alterar [!UICONTROL Campanhas] para [!UICONTROL Nomes de Campanha Internos] no [!UICONTROL Gerenciador de configuração do Campaign], o cabeçalho da coluna de arquivo deve ser alterado para corresponder a. &quot;Key&quot; é um valor de classificação reservado (cabeçalho). Não há suporte para novas classificações chamadas &quot;Chave&quot;.
+>Os valores no cabeçalho da coluna [!UICONTROL Classificações] devem corresponder exatamente à convenção de nomeação da classificação ou a importação não ocorrerá. Por exemplo, se o(a) admin alterar [!UICONTROL Campanhas] para [!UICONTROL Nomes de campanhas internas] no [!UICONTROL Gerenciador de configuração de campanhas], o cabeçalho da coluna do arquivo deverá mudar para corresponder essa alteração. “Chave” é um valor de classificação reservado (cabeçalho). Não é permitido utilizar novas classificações chamadas “Chave”.
 
 Além disso, o arquivo de dados oferece suporte às seguintes convenções adicionais de cabeçalho para identificar subclassificações e outras colunas de dados especializadas:
 

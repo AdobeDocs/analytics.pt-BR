@@ -4,8 +4,8 @@ title: Subclassificações
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '649'
+workflow-type: ht
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Cada classificação neste modelo é independente e corresponde a um novo sub-re
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Para obter mais informações sobre o arquivo de dados, consulte [Arquivos de dados de classificação](/help/components/classifications/importer/c-saint-data-files.md).
+Para obter mais informações sobre o arquivo de dados, consulte [Arquivos de dados de classificação](/help/components/classifications/importer/c-saint-data-files.md).
 
 As classificações de múltiplos níveis são compostas de classificações principais e secundárias. Por exemplo:
 

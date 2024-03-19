@@ -6,15 +6,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
-workflow-type: tm+mt
-source-wordcount: '317'
+workflow-type: ht
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
 
 # Fluxos interdimensionais
 
-Um fluxo interdimensional permite analisar os caminhos do usuário em várias dimensões. Veja um vídeo sobre quebra automática de texto e fluxo multidimensional no Analysis Workspace:
+Um fluxo interdimensional permite examinar os caminhos do usuário em várias dimensões. Veja um vídeo sobre quebra automática de texto e fluxo multidimensional no Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -34,11 +34,11 @@ Para explorar a interação entre telas/páginas e ações neste aplicativo, voc
 
 * Arraste-o para uma área (dentro do retângulo com margens pretas exibido) para **substituir** os resultados principais nos finais:
 
-   ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
 * Arraste para o espaço branco no final (observe o colchete preto) para **adicionar à** visualização:
 
-   ![](assets/multi-dimensional-flow4.png)
+  ![](assets/multi-dimensional-flow4.png)
 
 Aqui está o resultado se você decidir substituir o item ItemScaled na coluna da direita com a dimensão de Página. Os principais resultados são substituídos para os principais resultados para a dimensão de Página:
 

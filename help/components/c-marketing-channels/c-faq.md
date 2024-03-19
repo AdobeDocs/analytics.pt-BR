@@ -4,8 +4,8 @@ description: Perguntas frequentes para canais de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
-source-wordcount: '1500'
+workflow-type: ht
+source-wordcount: '1506'
 ht-degree: 100%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Para maximizar a eficiência dos canais de marketing para o Attribution e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Para maximizar a eficácia dos canais de marketing para atribuição e análise da jornada do cliente, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Os administradores do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Admins do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Perguntas frequentes para canais de marketing.
 
@@ -37,7 +37,7 @@ Certifique-se de que o nome do parâmetro esteja especificado nos campos de par�
 
 ## Por que todo o meu tráfego de último contato é atribuído a um domínio interno?
 
-Você possui uma regra que corresponde ao tráfego interno. Observe que essas regras processam todos os acessos de um visitante em seu site, não só a primeira visita. Se você tiver uma regra similar a *`Page URL exists`* sem outros critérios, o canal é correspondido em cada acesso sucessivo ao site, porque o URL da página sempre existe.
+Você possui uma regra que corresponde ao tráfego interno. Observe que essas regras processam todos os acessos de um visitante em seu site, não só a primeira visita. Se você tiver uma regra como *`Page URL exists`* sem outros critérios, o canal é correspondido em cada ocorrência sucessiva do site, porque sempre há um URL de página presente.
 
 ## Como faço para depurar o tráfego exibido em Nenhum canal identificado no relatório?
 
