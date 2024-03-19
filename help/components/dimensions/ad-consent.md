@@ -2,9 +2,9 @@
 title: Consentimento de publicidade
 description: Consulte a configuração para consentimento de publicidade para provedores de anúncios de terceiros.
 feature: Dimensions
-source-git-commit: 31f61c64fef707e2d2499b853a9b54caf847634b
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,6 @@ O &#39;Consentimento do anúncio&#39; [dimension](overview.md) exibe se o consen
 Atualmente, essa dimensão é usada somente para o Google. Devido às regulamentações europeias de privacidade, a Lei de Mercados Digitais (DMA), a Google exige que os dados enviados a seus servidores e coletados na Europa indiquem se o consentimento é coletado. Alguns clientes do Analytics enviam dados do evento via Adobe Advertising como eventos de conversão para o Google.
 
 No futuro, essa dimensão poderá ser usada para suportar a codificação de informações de consentimento adicionais para outros provedores de publicidade de terceiros.
-
 
 ## Preencher esta dimensão com dados
 
@@ -52,9 +51,11 @@ Os caracteres além do primeiro e do segundo caracteres são ignorados no moment
 Você pode usar os dados de consentimento de anúncio coletados:
 
 * Feeds de dados: os dados de consentimento do anúncio estão disponíveis usando o `dataprivacydmaconsent` [coluna](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
-* Relatórios do Data Warehouse: os dados de consentimento do anúncio estão disponíveis usando o **[!UICONTROL Consentimento da plataforma de publicidade]** dimensão.
+* Data Warehouse relatórios: os dados de consentimento do anúncio estão disponíveis usando o **[!UICONTROL Consentimento da plataforma de publicidade]** dimensão.
 
 
 Sua organização determina a lógica para implementar essa variável de dados de contexto. O valor não persiste além da ocorrência à qual está definido, portanto, você deve definir a variável de dados de contexto em cada página.
 
 Ao enviar dados de publicidade do Adobe Analytics via Adobe Advertising como eventos de conversão para o Google, consulte a equipe do Adobe Advertising para ajudar na integração.
+
+Para obter mais informações, consulte [Relatórios de privacidade](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).

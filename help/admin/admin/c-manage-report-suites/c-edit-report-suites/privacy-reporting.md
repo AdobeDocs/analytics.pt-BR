@@ -3,10 +3,10 @@ description: Habilite as dimensões de gerenciamento de consentimento.
 title: Relatórios de privacidade
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 90d9e2962307060ed95b0e8cf0c6fbce6d54edb1
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 55%
+source-wordcount: '136'
+ht-degree: 45%
 
 ---
 
@@ -36,3 +36,7 @@ Para acessar esta página:
 1. Depois de ativado, uma mensagem de confirmação é exibida. As dimensões estarão disponíveis em relatórios.
 
    ![Relatório](assets/consent-management.png)
+
+## Dimensão Consentimento de anúncio
+
+A variável [Dimensão Consentimento de anúncio](/help/components/dimensions/ad-consent.md) exibe se o consentimento é coletado para enviar dados a provedores de publicidade de terceiros, como Google, Meta e outros.
