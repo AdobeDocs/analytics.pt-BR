@@ -6,7 +6,7 @@ feature: Implementation Basics
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Feed de sequência de cliques:** consulte Feed de dados.
 * **Coorte:** um grupo de pessoas que compartilham características comuns em um determinado período. Consulte [O que é a Análise de coorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) no guia do usuário Analisar.
 * **Servidor de coleta:** consulte Servidor de coleta de dados.
-* **Componente:** Os componentes do Analysis Workspace consistem em dimensões, métricas, segmentos e intervalos de datas que você pode arrastar e soltar em um projeto. Consulte [Visão geral dos componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) no guia do usuário Analisar.
+* **Componente:** os componentes do Analysis Workspace consistem de dimensões, métricas, segmentos e intervalos de data que você pode arrastar e soltar em um projeto. Consulte [Visão geral dos componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) no guia do usuário Analisar.
 * **Variáveis de dados de contexto:** variáveis temporárias usadas apenas nas regras de processamento. Os valores da variável de dados de contexto são perdidos permanentemente se uma regra de processamento não os copiar para uma variável de conversão ou de tráfego. Consulte [Variáveis de dados de contexto](../implement/vars/page-vars/contextdata.md) no guia do usuário Implementar.
 * **Variável de conversão:** também conhecida como eVars. Armazena um valor personalizado e preserva o valor da variável até que ele expire. Consulte a dimensão [eVar](/help/components/dimensions/evar.md) no guia do usuário Componentes.
 * **Correlação:** não é mais usado como termo; substituído por Detalhamentos de dimensão. Em versões anteriores do Adobe Analytics, as correlações permitiam detalhar as variáveis de tráfego. Consulte [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) no guia do usuário Analisar.
@@ -74,7 +74,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Empresa de logon:** uma coleção de conjuntos de relatórios utilizada pela organização. Algumas organizações possuem várias empresas de logon, que se aplicam a setores diferentes da organização.
 * **Canal de marketing:** um recurso no Adobe Analytics que categoriza os hits de acordo com a forma como elas chegaram ao site. A lógica usada para categorizar hits pode ser personalizada usando as regras de processamento do canal de marketing. Consulte [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) no guia do usuário Componentes.
 * **Métrica:** um tipo de componente que contém dados quantitativos. Os valores de métricas normalmente contêm números, como Exibições de página, Visitas e Receita. Uma dimensão é normalmente sua contrapartida.
-* **Mobile Services:** Um produto Adobe removido que reúne recursos de marketing móvel para aplicativos móveis de toda a Adobe Experience Cloud, permitindo que você entenda e aprimore o engajamento do usuário com seus aplicativos.
+* **Mobile Services:** um produto encerrado da Adobe que reunia recursos de marketing para aplicativos móveis da Adobe Experience Cloud, permitindo que você entendesse e aprimorasse o engajamento do usuário com seus aplicativos.
 * **Marcação de vários relatórios:** a prática de enviar a mesma ocorrência para vários conjuntos de relatórios. Com a introdução aos conjuntos de relatórios virtuais, essa prática não é mais necessária. A maioria dos esforços de marcação de vários relatórios ajuda a acomodar um conjunto de relatórios global.
 * **Normalização:** uma maneira de organizar uma visualização que utiliza todas as métricas e as força a proporções iguais, permitindo uma comparação mais fácil das tendências.
 * **Ocorrências:** um tipo de métrica que mostra em quantas ocorrências um item de dimensão foi definido ou persistiu. Consulte a métrica [Ocorrências](/help/components/metrics/occurrences.md) no guia do usuário Componentes.
@@ -91,7 +91,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Tempo real:** exibe as variáveis configuradas assim que são coletadas com pouca ou nenhuma latência. Consulte [Relatórios em tempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) no guia do usuário Administração
 * **Report Builder:** um complemento do Microsoft Excel que permite criar solicitações personalizadas com base em dados do Adobe Analytics.
 * **Conjunto de relatórios:** um contêiner abrangente para o qual você envia dados. Todos os relatórios no Adobe Analytics fazem referência a um conjunto de relatórios.
-* **Reports &amp; Analytics:** anteriormente conhecido como SiteCatalyst. Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics. Esta ferramenta foi [fim da vida útil](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
+* **Reports &amp; Analytics:** anteriormente conhecido como SiteCatalyst. Solução de navegador para relatórios e análises. Ferramenta inicial no pacote do Analytics. Esta ferramenta foi [encerrada](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
 * **Intervalo de datas em andamento:** um tipo de intervalo de datas relativo que muda conforme o tempo passa. Por exemplo, um relatório que mostra os últimos 7 dias pode ser considerado um intervalo de datas em andamento. Consulte também intervalo de datas estático.
 * **RSID:** abreviação da ID do conjunto de relatórios. Um conjunto de relatórios tem um nome amigável e uma ID de conjunto de relatórios.
 * **s.t():** o nome da função em uma biblioteca do AppMeasurement que envia uma solicitação de imagem de exibição de página. Algumas bibliotecas do AppMeasurement usam `s.track()`. Consulte [t](../implement/vars/functions/t-method.md) no guia de usuário Implementar.
