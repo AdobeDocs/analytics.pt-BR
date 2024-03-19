@@ -1,17 +1,17 @@
 ---
-title: Consentimento de publicidade
+title: Consentimento da plataforma de publicidade
 description: Consulte a configuração para consentimento de publicidade para provedores de anúncios de terceiros.
 feature: Dimensions
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 3%
 
 ---
 
-# Consentimento de publicidade
+# Consentimento da plataforma de publicidade
 
-O &#39;Consentimento do anúncio&#39; [dimension](overview.md) exibe se o consentimento é coletado para enviar dados a provedores de publicidade de terceiros, como Google, Meta e outros.
+O &quot;Consentimento da plataforma de publicidade&quot; [dimension](overview.md) exibe se o consentimento é coletado para enviar dados a provedores de publicidade de terceiros, como Google, Meta e outros.
 
 Atualmente, essa dimensão é usada somente para o Google. Devido às regulamentações europeias de privacidade, a Lei de Mercados Digitais (DMA), a Google exige que os dados enviados a seus servidores e coletados na Europa indiquem se o consentimento é coletado. Alguns clientes do Analytics enviam dados do evento via Adobe Advertising como eventos de conversão para o Google.
 
@@ -52,7 +52,6 @@ Você pode usar os dados de consentimento de anúncio coletados:
 
 * Feeds de dados: os dados de consentimento do anúncio estão disponíveis usando o `dataprivacydmaconsent` [coluna](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouse relatórios: os dados de consentimento do anúncio estão disponíveis usando o **[!UICONTROL Consentimento da plataforma de publicidade]** dimensão.
-
 
 Sua organização determina a lógica para implementar essa variável de dados de contexto. O valor não persiste além da ocorrência à qual está definido, portanto, você deve definir a variável de dados de contexto em cada página.
 
