@@ -3,10 +3,10 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9636b8e4e8596449cb37bbab9bc46d660fac4a4b
+source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 40%
+source-wordcount: '1303'
+ht-degree: 37%
 
 ---
 
@@ -50,6 +50,7 @@ AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN-
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
+| **Expiração de 13 meses de salvo`cust_visids`** | quinta-feira, 20 de março de 2024 | Uma versão futura do mecanismo de processamento de ocorrências do Analytics, programada para abril ou maio, começará a impor uma expiração de 13 meses do `cust_visids`. Se o conjunto de relatórios tiver &quot;Ativar visualização do visitante&quot; ativado, essa configuração será usada para encontrar o `cust_visid` para um `visid_high/visid_low value` sem `cust_visid` na ocorrência. Atualmente, não há expiração do mapeamento de um `cust_visid` para um `visid_high/visid_low`. Com esta versão, se 13 meses ou mais tiverem passado desde `visid_high/visid_low` teve um `cust_visid` em uma ocorrência, o mapeamento expirará. |
 | **Adições de membros de objetos da API Adobe** | 17 de janeiro de 2024 | A Adobe pode adicionar membros opcionais de solicitação e de resposta (pares nome/valor) a objetos de API já existentes a qualquer momento e sem aviso prévio ou alterações no controle de versão. A Adobe recomenda consultar a documentação da API de qualquer ferramenta de terceiros que você decida integrar às nossas APIs, para que essas adições sejam ignoradas no processamento se não forem compreendidas. Se implementadas corretamente, essas adições são alterações que não interrompem a implementação. A Adobe não removerá parâmetros nem adicionará parâmetros obrigatórios sem primeiro fornecer uma notificação padrão por meio das notas de versão. |
 | **`getPageLoadTime`plug-in obsoleto** | 10 de janeiro de 2024 | Não há mais suporte para este plugin. Seu código utiliza o método performance.timing, que (de acordo com o MDN) foi [descontinuado](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming). Foi iniciado o trabalho em um plug-in atualizado. |
 
