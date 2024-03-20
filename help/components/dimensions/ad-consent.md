@@ -2,9 +2,9 @@
 title: Consentimento da plataforma de publicidade
 description: Consulte a configuração para consentimento de publicidade para provedores de anúncios de terceiros.
 feature: Dimensions
-source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
+source-git-commit: ba892374710bc24c379e0c53e5fd00ff4c39d906
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ O &quot;Consentimento da plataforma de publicidade&quot; [dimension](overview.md
 
 Atualmente, essa dimensão é usada somente para o Google. Devido às regulamentações europeias de privacidade, a Lei de Mercados Digitais (DMA), a Google exige que os dados enviados a seus servidores e coletados na Europa indiquem se o consentimento é coletado. Alguns clientes do Analytics enviam dados do evento via Adobe Advertising como eventos de conversão para o Google.
 
-No futuro, essa dimensão poderá ser usada para suportar a codificação de informações de consentimento adicionais para outros provedores de publicidade de terceiros.
+No futuro, essa dimensão poderá ser usada para aceitar a codificação de informações de consentimento adicionais para outros provedores de publicidade de terceiros.
 
 ## Preencher esta dimensão com dados
 
