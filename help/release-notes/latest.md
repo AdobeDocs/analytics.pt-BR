@@ -3,7 +3,7 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
+source-git-commit: b5d274b6b529737b2ad1d135599fe0b0dcf4bf2a
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 37%
@@ -12,7 +12,7 @@ ht-degree: 37%
 
 # Notas de versão atuais do Adobe Analytics (março de 2024)
 
-**Última atualização**: quinta-feira, 20 de março de 2024
+**Última atualização**: sexta-feira, 21 de março de 2024
 
 Essas notas de versão abrangem o período de lançamento de 12 de março de 2024 a abril de 2024. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -26,7 +26,7 @@ Essas notas de versão abrangem o período de lançamento de 12 de março de 202
 | **Uso do Report Builder incluído na coluna &quot;Usado em&quot; no Gerenciador de métricas calculadas e no Gerenciador de segmentos** | Ao visualizar a variável **Usado em** No gerenciador de métricas calculadas ou no gerenciador de segmentos, os dados de uso agora estão disponíveis para o Report Builder.<p>Anteriormente, os dados de uso no gerenciador de segmentos estavam disponíveis apenas para Alertas, Projetos, Projetos agendados e Métricas calculadas; enquanto os dados de uso no gerenciador de métricas calculadas estavam disponíveis apenas para Alertas, Projetos e Projetos agendados.</p> |  | Final de março ou início de abril |
 | **Usar as mesmas contas de nuvem para Feeds de dados, Data Warehouse e conjuntos de classificação** | As contas e os locais em nuvem que você cria agora podem ser usados para exportar dados (com Feeds de dados e Data Warehouse) e importar dados (com conjuntos de classificação).<p> **Alterações ao configurar contas:** Os usuários podem Configurar contas de importação e exportação na nuvem e Configurar locais de importação e exportação na nuvem que podem ser usados para qualquer uma das seguintes finalidades:<ul><li>Importação de dados com conjuntos de classificações</li><li>Exportação de dados com feeds de dados</li><li>Exportar dados com o Data Warehouse.</li></ul><p>**Alterações ao gerenciar contas**: os usuários podem usar a página Locais (em Componentes > Locais) para exibir e gerenciar todas as contas e locais que criam, independentemente de onde foram criados. <p>Anteriormente, a página Locais era aplicada somente às contas criadas para importar dados com conjuntos de classificações.</p> | | Abril de 2024 |
 | **Os administradores podem gerenciar todos os locais e contas em sua organização** | Uma nova opção na guia Locais (na página Componentes > Locais ) permite que os administradores visualizem e gerenciem todos os locais na organização.<p>Uma nova opção na guia Contas de local (na página Componentes > Locais) permite que os administradores visualizem e gerenciem todas as contas na organização.</p> <p>Anteriormente, os administradores podiam visualizar e gerenciar apenas os locais e as contas que criavam.</p> |  | Abril de 2024 |
-| **O Activity Map usa menos chamadas de servidor para o SDK da Web** | Atualmente, os eventos de link de Activity Map são contados como seus próprios eventos e incorrem em custo extra. <p>Esse aprimoramento seleciona alguns eventos de link e os reúne na próxima ocorrência, de modo semelhante a como os eventos são tratados pelo AppMeasurement.</p> |  | quinta-feira, 3 de abril de 2024 |
+| **O Activity Map usa menos chamadas de servidor para o SDK da Web** | Atualmente, os eventos de link de Activity Map são contados como seus próprios eventos e incorrem em custo extra. <p>Esse aprimoramento seleciona alguns eventos de link e os reúne na próxima ocorrência, de modo semelhante a como os eventos são tratados pelo AppMeasurement.</p> |  | quarta-feira, 30 de abril de 2024 |
 | **Aumento nos limites padrão de tráfego baixo** | Em **meados de abril de 2024**, a Adobe começará a aumentar os limites padrão de tráfego baixo para conjuntos de relatórios da seguinte maneira: ![limites de tráfego baixo](assets/thresholds.png) isso afetará somente as variáveis que estão definidas abaixo dos novos limites. Essas alterações serão feitas de forma incremental e esperamos que o trabalho seja concluído até o **fim de maio**. À medida que esses aumentos forem implementados, você poderá notar alterações nas variáveis de alta cardinalidade:<ul><li>Mais valores de dimensão podem estar disponíveis para relatórios.</li><li>Segmentos e métricas calculadas podem incluir mais dados.</li><li>Os conjuntos de relatórios virtuais baseados em segmentos podem incluir mais dados.</li><li>As exportações de classificação podem incluir mais dados.</li></ul> | | Meados de abril de 2024 |
 
 {style="table-layout:auto"}
