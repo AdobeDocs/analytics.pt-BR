@@ -4,10 +4,10 @@ title: Filtrar e classificar tabelas de forma livre
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
+source-git-commit: 398d4ae264ce108c16a03cef086ae2614b442a2b
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 71%
+source-wordcount: '874'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,6 @@ Os filtros do Analysis Workspace ajudam você a encontrar as informações mais 
 Você pode usar vários métodos para filtrar linhas de uma tabela de forma livre. 
 
 - Clique no X na linha
-- Clique com o botão direito do mouse em > Linhas selecionadas excluídas
 - Filtros de tabela
 - Segmentação
 
