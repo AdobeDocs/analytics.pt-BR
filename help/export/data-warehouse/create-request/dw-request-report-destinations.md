@@ -3,10 +3,10 @@ description: Etapas que descrevem como criar uma solicitação do data warehouse
 title: Configurar um destino de relatório para uma solicitação do data warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
-workflow-type: ht
-source-wordcount: '2441'
-ht-degree: 100%
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+workflow-type: tm+mt
+source-wordcount: '2430'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Para obter informações sobre como começar a criar uma solicitação, bem como
 
 Configure o destino para o qual enviar os relatórios do data warehouse.
 
-1. Comece a criar uma solicitação no Adobe Analytics selecionando **[!UICONTROL Ferramentas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Adicionar**].
+1. Caso ainda não o tenha feito, comece criando uma solicitação no Adobe Analytics selecionando **[!UICONTROL Ferramentas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Adicionar**].
 
    Para obter detalhes adicionais, consulte [Criar uma solicitação do data warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
@@ -72,7 +72,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -84,7 +84,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -100,7 +100,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -114,7 +114,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Email
 
@@ -146,7 +146,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -159,7 +159,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -172,7 +172,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -186,11 +186,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
-
-   1. Selecione [!UICONTROL **Salvar**].
-
-      Agora é possível importar dados para a conta e o local que você configurou.
++++
 
 1. Continue configurando sua solicitação do data warehouse na guia [!UICONTROL **Opções de relatório**]. Para obter mais informações, consulte [Configurar opções de relatório para uma solicitação do data warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

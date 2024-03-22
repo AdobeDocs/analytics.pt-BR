@@ -1,26 +1,26 @@
 ---
-description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
+description: Etapas que descrevem como criar uma solicitação do data warehouse.
 title: Configurar opções de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
 exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 8%
+source-wordcount: '210'
+ht-degree: 30%
 
 ---
 
 # Configurar um email de notificação para uma solicitação de Data Warehouse
 
-Há várias opções de configuração disponíveis ao criar uma solicitação do Data Warehouse. As informações a seguir descrevem como configurar um email de notificação para a solicitação.
+Há várias opções de configuração disponíveis ao criar uma solicitação do data warehouse. As informações a seguir descrevem como configurar um email de notificação para a solicitação.
 
-Para obter informações sobre como começar a criar uma solicitação, bem como links para outras opções de configuração importantes, consulte [Criar uma solicitação Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Para obter informações sobre como começar a criar uma solicitação, bem como links para outras opções de configuração importantes, consulte [Criar uma solicitação do data warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 Para configurar um email de notificação para uma solicitação do Data Warehouse:
 
-1. Comece a criar uma solicitação no Adobe Analytics selecionando **[!UICONTROL Ferramentas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Adicionar**].
+1. Caso ainda não o tenha feito, comece criando uma solicitação no Adobe Analytics selecionando **[!UICONTROL Ferramentas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Adicionar**].
 
-   Para obter detalhes adicionais, consulte [Criar uma solicitação Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Para obter detalhes adicionais, consulte [Criar uma solicitação do data warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Na página Nova solicitação de Data Warehouse, selecione a variável [!UICONTROL **Email de notificação**] guia.
 
@@ -36,3 +36,5 @@ Para configurar um email de notificação para uma solicitação do Data Warehou
    {style="table-layout:auto"}
 
 1. Selecionar [!UICONTROL **Salvar solicitação**] para salvar a solicitação de relatório de Data Warehouse.
+
+   Agora é possível exportar dados para a conta e o local configurados.
