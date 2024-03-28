@@ -4,9 +4,9 @@ description: Os requisitos do sistema para usar o Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Antes de usar o Adobe Analytics, é necessário ter:
 
 * Um navegador compatível
 
-  Cada usuário ou usuária precisará usar um navegador compatível para acessar o Adobe Analytics. Para obter mais informações, consulte os [Requisitos de sistema do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html).
+  Cada usuário ou usuária precisará usar um navegador compatível para acessar o Adobe Analytics. Para obter mais informações, consulte os [Requisitos de sistema do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/admin-overview/sys-reqs).
 
 ## Requisitos do sistema
 

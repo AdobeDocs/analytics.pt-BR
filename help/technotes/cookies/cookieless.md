@@ -5,9 +5,9 @@ feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Essas limitações do navegador refletem uma mudança maior de rastreamento anô
 
 ## Customer Journey Analytics e Cross Device Analytics
 
-[O Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR) e o [Cross-Device Analytics](/help/components/cda/overview.md) permitem que os usuários incluam identificadores duráveis, como logons com hash, além de cookies. Isso permite compreender a jornada do cliente em todos os dispositivos e, no caso do Customer Journey Analytics, em canais online e offline:
+[O Adobe Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) e o [Cross-Device Analytics](/help/components/cda/overview.md) permitem que os usuários incluam identificadores duráveis, como logons com hash, além de cookies. Isso permite compreender a jornada do cliente em todos os dispositivos e, no caso do Customer Journey Analytics, em canais online e offline:
 
 * **O Customer Journey Analytics** é fundamentado na Adobe Experience Platform e oferece flexibilidade para combinar dados online e offline no Analysis Workspace, com base em qualquer ID de cliente comum. Você pode especificar qual ID deseja usar para qualquer análise e explorar os dados no Analysis Workspace. Os clientes do Analytics Select, Prime e Ultimate podem adquirir esse produto complementar.
 
@@ -35,7 +35,7 @@ Você pode enviar dados para o lado do servidor do Analytics usando a [API de in
 
 ## ID do dispositivo próprio (FPID) com o SDK da Web
 
-Com o SDK da Web da Adobe Experience Platform, você pode optar por definir e gerenciar seus próprios identificadores de dispositivos em vez das Experience Cloud IDs (ECIDs) geradas pela Adobe. Elas são chamadas de IDs de dispositivo próprios (FPIDs). Saiba mais [aqui](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html).
+Com o SDK da Web da Adobe Experience Platform, você pode optar por definir e gerenciar seus próprios identificadores de dispositivos em vez das Experience Cloud IDs (ECIDs) geradas pela Adobe. Elas são chamadas de IDs de dispositivo próprios (FPIDs). Saiba mais [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/identity/first-party-device-ids).
 
 ## Mais informações
 

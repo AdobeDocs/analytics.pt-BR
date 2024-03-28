@@ -6,9 +6,9 @@ role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Adicione as respectivas condições in&lt;&lt; on before link click send callbac
 
 +++Implementação manual do SDK da Web
 
-Consulte [Rastrear links](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=pt-BR) para obter informações sobre como implementar o rastreamento de link e habilitar o Activity Map capturando o `region` do elemento de HTML clicado.
+Consulte [Rastrear links](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) para obter informações sobre como implementar o rastreamento de link e habilitar o Activity Map capturando o `region` do elemento de HTML clicado.
 
 >[!NOTE]
 >

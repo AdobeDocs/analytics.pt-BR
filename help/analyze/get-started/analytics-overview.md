@@ -1,11 +1,11 @@
 ---
-description: Informações gerais sobre o Adobe Analytics, incluindo noções acerca de sua interface e informações introdutórias para administradores, analistas, usuários e desenvolvedores.
+description: Informações gerais sobre o Adobe Analytics, incluindo informações sobre sua interface e informações introdutórias para admins, analistas, usuários e desenvolvedores.
 short-description: Conheça os principais recursos, casos de uso comuns e as primeiras etapas para analistas, usuários(as) finais e administradores(as).
 title: Visão geral do Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
 ht-degree: 100%
 
@@ -51,4 +51,4 @@ Veja a seguir algumas das vantagens do Customer Journey Analytics em relação a
 
 * **Dados entre conjuntos de relatórios**: as implementações existentes de vários conjuntos de dados podem ser combinadas na Platform.
 
-Para obter mais informações, consulte [visão geral do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR).
+Para obter mais informações, consulte [visão geral do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview).

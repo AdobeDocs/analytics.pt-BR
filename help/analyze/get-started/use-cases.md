@@ -1,12 +1,12 @@
 ---
-description: Informações gerais sobre o Adobe Analytics, incluindo noções acerca de sua interface e informações introdutórias para administradores, analistas, usuários e desenvolvedores.
+description: Informações gerais sobre o Adobe Analytics, incluindo informações sobre sua interface e informações introdutórias para admins, analistas, usuários e desenvolvedores.
 title: Casos de uso do Analytics
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ O Adobe Analytics fornece as seguintes ferramentas complexas de segmentação e 
 
 * [Análise de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [Segmentação avançada](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=pt-BR)
+* [Segmentação avançada](https://experienceleague.adobe.com/pt-br/docs/analytics/components/segmentation/seg-home)
 
 
 ## Análise de marketing
@@ -35,7 +35,7 @@ Os recursos principais do Adobe Analytics a seguir oferecem esses recursos de ma
 
 * [Coleção de dados multicanal](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=pt-BR)
 
-* [Integração de dados offline](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
+* [Integração de dados offline](https://experienceleague.adobe.com/pt-br/docs/analytics/import/data-sources/overview)
 
 * [Análise ad hoc no Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 

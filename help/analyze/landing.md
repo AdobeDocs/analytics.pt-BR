@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1818'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ A página de destino do Adobe Analytics reúne o [!DNL Analysis Workspace] e o [
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-A página de aterrissagem do Adobe Analytics é composta pelas seguintes subguias: Projetos, Relatórios e Aprendizado.
+A página de destino do Adobe Analytics é composta pelas seguintes subguias: Projetos, Relatórios e Aprendizagem.
 
 **[!UICONTROL Projetos]** são designs personalizados que combinam componentes de dados, tabelas e visualizações que você criou ou que outra pessoa criou e compartilhou com você. [!UICONTROL Projetos] também se refere a projetos em branco e scorecards para dispositivos móveis em branco.
 
 Os **[!UICONTROL Relatórios]** se referem a tudo que foi pré-criado pela Adobe, como os modelos no Workspace.
 
-A variável **[!UICONTROL Aprendizado]** A guia contém tutoriais, tutoriais e links para a documentação de vídeos práticos.
+A guia **[!UICONTROL Aprendizagem]** contém orientações práticas em vídeo, tutoriais e links para a documentação.
 
 ## Navegue até a guia [!UICONTROL Projetos] {#navigate-projects}
 
-A variável [!UICONTROL Projetos] serve como a [!UICONTROL Workspace] página inicial. Ele exibe a pasta Empresa, todas as pastas pessoais que você criou, seus projetos e cartões de pontuação móveis. Use esta página para exibir, criar e modificar pastas, projetos e cartões de pontuação para dispositivos móveis. Para obter mais informações, consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+A guia [!UICONTROL Projetos] serve como a página inicial do [!UICONTROL espaço de trabalho]. Ela exibe a pasta da empresa, qualquer pasta pessoal criada, projetos e cartões de pontuação móveis. Use esta página para exibir, criar e modificar pastas, projetos e cartões de pontuação para dispositivos móveis. Para obter mais informações, consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Exibindo todos](assets/landing-all2.png)
 
@@ -37,9 +37,9 @@ A variável [!UICONTROL Projetos] serve como a [!UICONTROL Workspace] página in
 
 ### Personalizar colunas da tabela
 
-Para personalizar as larguras de coluna, arraste a barra vertical que separa cada coluna.
+Para personalizar a largura das colunas, arraste a barra vertical que as separa.
 
-Para adicionar ou remover colunas da lista de projetos, clique no ícone de coluna (![Aterrissando tudo](/help/analyze/assets/select-column.png)) no canto superior direito, em seguida, selecione ou desmarque os títulos das colunas.
+Para adicionar ou remover colunas da lista de projetos, clique no ícone de coluna (![Aterrissando tudo](/help/analyze/assets/select-column.png)) no canto superior direito e selecione ou desmarque os títulos das colunas.
 
 As colunas disponíveis são:
 
@@ -49,19 +49,19 @@ As colunas disponíveis são:
 | [!UICONTROL **Tipo**] | Indica se é um projeto do Espaço de trabalho, um cartão de pontuação para dispositivos móveis ou uma pasta. |
 | [!UICONTROL **Tags**] | Marque projetos para organizá-los em grupos. |
 | [!UICONTROL **Programado**] | Defina como [!UICONTROL Ligado] quando um projeto estiver programado ou [!UICONTROL Desligado] quando não estiver. Clicar no link [!UICONTROL Ligado] permite ver informações sobre o projeto agendado. Você também pode [editar o agendamento do projeto](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) se for o proprietário do projeto. |
-| [!UICONTROL **Função do projeto**] | Identifica as funções do projeto: se você é o proprietário do projeto e se tem permissões para editar ou duplicar o projeto. |
+| [!UICONTROL **Função do projeto**] | Identifica as funções do projeto: se você é o(a) proprietário(a) do projeto e se tem permissões para editar ou duplicar o projeto. |
 | [!UICONTROL **Conjunto de relatórios**] | Identifica os Conjuntos de relatórios associados ao projeto.<br>Tabelas e visualizações em um painel derivam dados do conjunto de relatórios selecionado na parte superior direita do painel. O conjunto de relatórios também determina quais componentes estão disponíveis no painel esquerdo. Em um projeto, você pode usar um ou vários conjuntos de relatórios dependendo dos casos de uso da análise. A lista de conjuntos de relatórios é classificada de acordo com a relevância. A Adobe define a relevância com base no quão recente e frequente é a utilização do conjunto pelo usuário atual e na frequência com que o conjunto é usado na organização. |
 | [!UICONTROL **Proprietário**] | Identifica a pessoa que criou o projeto. |
-| [!UICONTROL **Compartilhado com**] | Mostra com quem o projeto está compartilhado no momento. |
+| [!UICONTROL **Compartilhado com**] | Mostra com quem o projeto está sendo compartilhado no momento. |
 | [!UICONTROL **Última modificação**] | A data e a hora em que o projeto foi modificado pela última vez. |
-| [!UICONTROL **Última Abertura**] | Identifica a data em que um projeto foi aberto pela última vez pelo usuário que está visualizando a página Projetos no momento. |
-| [!UICONTROL **Usado pela última vez**] | Ajuda a determinar se um projeto é valioso para os usuários em sua organização, mostrando a data e a hora em que o projeto foi aberto pela última vez por qualquer usuário na organização.<p>Considere o seguinte ao visualizar esta coluna:</p><ul><li>As informações de uso estarão disponíveis a partir de setembro de 2023.</li><li>Essa coluna está disponível somente para administradores do sistema.</li></ul> |
-| [!UICONTROL **ID do projeto**] | Pode ser usado para depurar projetos. |
+| [!UICONTROL **Aberto pela última vez**] | Identifica a data na qual um projeto foi aberto pela última vez pelo usuário que está visualizando a página “Projetos” no momento. |
+| [!UICONTROL **Última utilização**] | Ajuda a determinar se um projeto é útil para usuários da sua organização, mostrando a data e a hora em que o projeto foi aberto pela última vez por um usuário da organização.<p>Considere o seguinte ao visualizar esta coluna:</p><ul><li>As informações de uso disponíveis são a partir de setembro de 2023.</li><li>Esta coluna está disponível somente para admins de sistema.</li></ul> |
+| [!UICONTROL **ID do projeto**] | Pode ser usada para depurar projetos. |
 | [!UICONTROL **Intervalo de datas mais longo**] | Intervalos de datas mais longos aumentam a complexidade do projeto e podem aumentar os tempos de processamento e carregamento. |
 | [!UICONTROL **Número de consultas**] | O número total de solicitações feitas no Analytics quando o projeto é carregado. Um número maior de consultas de projeto aumenta a complexidade do projeto e pode aumentar os tempos de processamento e carregamento. Esses dados só estão disponíveis depois que um projeto é carregado ou depois que um projeto agendado é enviado. |
-| [!UICONTROL **Localização**] | Mostra a pasta onde o projeto está localizado. |
+| [!UICONTROL **Localização**] | Mostra a pasta onde se encontra o projeto. |
 
-### Outros elementos da interface na página Projetos
+### Outros elementos de interface na página “Projetos”
 
 | Elemento da interface | Definição |
 | --- | --- |

@@ -4,9 +4,9 @@ title: Valor de tráfego baixo no Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Quando um relatório tem muitos valores únicos, a Adobe fornece funcionalidade 
 * O Adobe Analytics usa dois limites para determinar quais valores únicos são exibidos nos relatórios a cada mês: **[!UICONTROL limite baixo]** e um **[!UICONTROL limite alto]**. Esses limites podem ser ajustados pela Adobe de tempos em tempos. Os limites atuais são:
    * **[!UICONTROL Limite baixo]**: > 500.000 valores únicos durante o mês.
    * **[!UICONTROL Limite alto]**: > 1.000.000 valores únicos durante o mês.
-* Entrada **meados de abril de 2024**, o Adobe começará a aumentar os limites de tráfego baixo do conjunto de relatórios padrão da seguinte maneira: ![limites de tráfego baixo](assets/thresholds.png)
-Isso afetará somente as variáveis que estão definidas abaixo dos novos limites. Essas alterações serão feitas de forma incremental, e esperamos que o trabalho seja concluído pela **fim de maio**. À medida que esses aumentos forem implementados, você poderá notar alterações nas variáveis de alta cardinalidade:<ul><li>Mais valores de dimensão podem estar disponíveis para relatórios.</li><li>Segmentos e métricas calculadas podem incluir mais dados.</li><li>Os conjuntos de relatórios virtuais baseados em segmentos podem incluir mais dados.</li><li>As exportações de classificação podem incluir mais dados.</li></ul>
+* Em **meados de abril de 2024**, a Adobe começará a aumentar os limites padrão de tráfego baixo para conjuntos de relatórios da seguinte maneira: ![limites de tráfego baixo](assets/thresholds.png)
+Isso afetará somente as variáveis que estão definidas abaixo dos novos limites. Essas alterações serão feitas de forma incremental e esperamos que o trabalho seja concluído até o **fim de maio**. À medida que esses aumentos forem implementados, você poderá notar alterações nas variáveis de alta cardinalidade:<ul><li>Mais valores de dimensão podem estar disponíveis para relatórios.</li><li>Segmentos e métricas calculadas podem incluir mais dados.</li><li>Os conjuntos de relatórios virtuais baseados em segmentos podem incluir mais dados.</li><li>As exportações de classificação podem incluir mais dados.</li></ul>
 * Os relatórios não são afetados se a variável não atingir o limite inferior num determinado mês.
 * Quando uma variável atinge o limite inferior, os dados começam a ser agrupados em [!UICONTROL Tráfego baixo]. Cada valor além desse limite passa pela seguinte lógica:
    * Se um valor já estiver nos relatórios, adicione-o como de costume.
@@ -37,7 +37,7 @@ Observe que a lógica de tráfego baixo descrita acima funciona melhor com vari�
 
 ## Alterar limites exclusivos
 
-Esses limites podem ser alterados para cada variável individualmente. Entre em contato com o Atendimento ao cliente da Adobe ou com a equipe de contas da Adobe para solicitar essa alteração. A medida em que os limites podem ser aumentados depende de vários fatores e o Adobe pode não ser capaz de acomodar aumentos de limite em todos os casos. Ao solicitar uma alteração, inclua:
+Esses limites podem ser alterados para cada variável individualmente. Entre em contato com o Atendimento ao cliente da Adobe ou com a equipe de contas da Adobe para solicitar essa alteração. O grau de aumento desses limites depende de vários fatores, e pode ser que a Adobe não consiga acomodar aumentos de limite em todos os casos. Ao solicitar uma alteração, inclua:
 
 * A ID do conjunto de relatórios
 * A variável para a qual você deseja aumentar o limite

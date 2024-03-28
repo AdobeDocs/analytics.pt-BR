@@ -6,9 +6,9 @@ title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3928'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`clickmaplinkbyregion`** | Link por região do Activity Map | varchar(255) |
 | **`clickmappage`** | Página do Activity Map | varchar(255) |
 | **`clickmapregion`** | Região do Activity Map | varchar(255) |
-| **`code_ver`** | Versão da API ou do SDK do cliente usada para compilar e enviar a solicitação de imagem. | char(16) |
+| **`code_ver`** | Versão da API ou SDK cliente usada para compilar e enviar a solicitação de imagem. | char(16) |
 | **`color`** | ID de Intensidade de cor com base no valor da coluna `c_color`. Faz referência à tabela de pesquisa `color_depth.tsv`. | smallint unsigned |
 | **`connection_type`** | ID numérica que representa o tipo de conexão. Variável usada na dimensão [Tipo de conexão](/help/components/dimensions/connection-type.md). Faz referência à tabela de pesquisa `connection_type.tsv`. | tinyint unsigned |
 | **`cookies`** | Variável usada na dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md).<br>Y: Ativado<br>N: Desativado<br>U: Desconhecido | char(1) |
@@ -68,7 +68,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`daily_visitor`** | Sinalizador para determinar se a ocorrência é um novo visitante diário. | tinyint unsigned |
 | **`dataprivacyconsentoptin`** | Variável usada na dimensão [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md). Vários valores podem estar presentes por ocorrência, separados por uma barra vertical (`\|`). Os valores válidos incluem `DMP` e `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | Variável usada na dimensão [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). Vários valores podem estar presentes por ocorrência, separados por uma barra vertical (`\|`). Os valores válidos incluem `SSF`, `DMP` e `SELL`. | varchar(100) |
-| **`dataprivacydmaconsent`** | Valor que identifica se o consentimento é adquirido para enviar dados do Adobe Analytics por meio do Adobe Advertising para provedores de publicidade de terceiros (como o Google). Consulte [Consentimento de publicidade](/help/components/dimensions/ad-consent.md) para obter mais informações. | varchar(100) |
+| **`dataprivacydmaconsent`** | Valor que identifica se o consentimento foi adquirido para o envio de dados do Adobe Analytics por meio do Adobe Advertising a provedores de publicidade externos (como o Google). Consulte [Consentimento de publicidade](/help/components/dimensions/ad-consent.md) para mais informações. | varchar(100) |
 | **`date_time`** | O horário da ocorrência em formato legível, com base no fuso horário do conjunto de relatórios. | datetime |
 | **`domain`** | Variável usada na dimensão [Domínio](/help/components/dimensions/domain.md). Com base no ponto de acesso de Internet do visitante. | varchar(100) |
 | **`duplicate_events`** | Lista todos os eventos que são contados como duplicados. | varchar(255) |

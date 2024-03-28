@@ -5,9 +5,9 @@ feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
 source-git-commit: e033f32fb3394bb9e2a9ec47766febfbe8d5bfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Os seguintes métodos de implementação estão disponíveis para seu **site**:
 
 ### Lado do cliente
 
-* **Extensão do SDK da web**: o método padronizado e recomendado para implementar o Adobe Analytics para novos clientes. Adicione a **extensão do SDK da Web da Adobe Experience Platform** nas **Tags** de Coleção de dados da Adobe Experience Plataform e coloque uma tag de carregador em cada página. A tag envia dados para a **Rede de borda** da Adobe Experience Platform, que encaminha esses dados para o Adobe Analytics.
+* **Extensão do SDK da web**: o método padronizado e recomendado para implementar o Adobe Analytics para novos(as) clientes. Adicione a **extensão do SDK da Web da Adobe Experience Platform** nas **Tags** de Coleção de dados da Adobe Experience Plataform e coloque uma tag de carregador em cada página. A tag envia dados para a **Rede de borda** da Adobe Experience Platform, que encaminha esses dados para o Adobe Analytics.
   ![Extensão do SDK da Web](./assets/websdk-extension-implementation.png)
 Consulte [Como implementar o Adobe Analytics usando a extensão do SDK da Web da Adobe Experience Platform.](./aep-edge/overview.md) para obter mais informações.
 
@@ -39,7 +39,7 @@ Consulte [Como implementar o Adobe Analytics usando a extensão do Analytics](l
   ![Como implementar o Adobe Analytics usando o JavaScript herdado](./assets/appmeasurement-implementation.png)
 Esse método de implementação pode ser útil para implementações que usam código personalizado e é ideal para tipos de implementação não oferecidos em outro lugar, como para [Páginas AMP](other/amp.md).
 
-O fluxo de decisão a seguir pode ajudar você a selecionar um método de implementação do lado do cliente:
+O seguinte fluxo de decisão pode ajudar a selecionar um método de implementação no lado do cliente:
 
 ![Uma árvore de decisão para selecionar um método de implementação, conforme descrito nesta seção.](./assets/decision-tree.png)
 
@@ -52,13 +52,13 @@ O fluxo de decisão a seguir pode ajudar você a selecionar um método de implem
 
 Para implementar o Adobe Analytics no lado do servidor, você tem as seguintes opções:
 
-* **API do servidor de borda**: você implementa o código no servidor que usa a API do Adobe Experience Platform Edge Server para se comunicar com a Adobe Analytics por meio de um fluxo de dados.
-  ![Implementação do lado do servidor](assets/edge-network-server-api.svg)
-Consulte [Implementar o Adobe Analytics usando a API do servidor de rede de borda da Adobe Experience Platform](/help/implement/aep-edge/server-api/overview.md) para obter mais informações.
+* **API do servidor de borda**: você implementa o código no servidor que usa a API do servidor de borda da Adobe Experience Platform para se comunicar com o Adobe Analytics por meio de uma sequência de dados.
+  ![Implementação no lado do servidor](assets/edge-network-server-api.svg)
+Consulte [Implementar o Adobe Analytics usando a API do servidor de rede de borda da Adobe Experience Platform](/help/implement/aep-edge/server-api/overview.md) para mais informações.
 
-* **API de inserção de dados (em massa)**: você usa as APIs de inserção de dados (em massa) do Adobe Analytics para coletar dados do lado do servidor diretamente no Adobe Analytics.
+* **API de inserção de dados (em massa)**: você usa as APIs de inserção de dados (em massa) do Adobe Analytics para coletar dados no lado do servidor diretamente para o Adobe Analytics.
   ![APIs de inserção de dados](assets/analytics-apis.png)
-Consulte [API de inserção de dados](../import/c-data-insertion-api/c-data-insertion-api.md) para obter mais informações.
+Consulte [API de inserção de dados](../import/c-data-insertion-api/c-data-insertion-api.md) para mais informações.
 
 ## Métodos de implementação para aplicativos móveis
 
@@ -77,7 +77,7 @@ Os seguintes métodos de implementação estão disponíveis para seu **aplicati
 
 >[!CAUTION]
 >
->Consulte para obter suporte para versões mais antigas de SDKs móveis do Adobe [Anúncios de fim de suporte dos SDKs](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/).
+>Para obter suporte para versões mais antigas de SDKs móveis da Adobe, consulte [Anúncios de fim de suporte dos SDKs](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/).
 
 ## Artigos principais de implementação do Analytics
 
@@ -85,8 +85,8 @@ Os seguintes métodos de implementação estão disponíveis para seu **aplicati
 * [Adobe Debugger](validate/debugger.md)
 * [Criar uma propriedade de tag na Experience Platform](launch/create-analytics-property.md)
 * [Atualizações do AppMeasurement](appmeasurement-updates.md)
-* [Tutorial de configuração do Adobe Analytics com o SDK da Web da plataforma](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
-* [Tutorial: Implementar a Adobe Experience Cloud em aplicativos para dispositivos móveis](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=pt-BR)
+* [Tutorial de configuração do Adobe Analytics com o SDK da web da Platform](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics)
+* [Tutorial de como implementar a Adobe Experience Cloud em aplicativos para dispositivos móveis](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=pt-BR)
 
 
 ## Principais recursos do Analytics
