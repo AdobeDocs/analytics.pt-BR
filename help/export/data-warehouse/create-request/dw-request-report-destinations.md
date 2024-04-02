@@ -4,9 +4,9 @@ title: Configurar um destino de relatório para uma solicitação do data wareho
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2430'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Para obter informações sobre como começar a criar uma solicitação, bem como
 
 Configure o destino para o qual enviar os relatórios do data warehouse.
 
-1. Caso ainda não o tenha feito, comece criando uma solicitação no Adobe Analytics selecionando **[!UICONTROL Ferramentas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Adicionar**].
+1. Caso ainda não o tenha feito, crie uma solicitação no Adobe Analytics selecionando **[!UICONTROL Ferramentas]** > **[!UICONTROL Data warehouse]** > [!UICONTROL **Adicionar**].
 
    Para obter detalhes adicionais, consulte [Criar uma solicitação do data warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 

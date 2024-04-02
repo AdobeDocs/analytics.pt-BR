@@ -5,7 +5,7 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
