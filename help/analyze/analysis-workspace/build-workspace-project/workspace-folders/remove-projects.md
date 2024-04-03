@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Remover projetos de pastas
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: d5be835eef175c3c314065dff40f6ca0d51dc345
+source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 79%
 
 ---
 
@@ -41,7 +41,7 @@ Você pode mover projetos de uma pasta para outra pasta que você criou.
 
 ## Excluir um projeto de uma pasta de projeto {#delete-project-in-folder}
 
-Quando você exclui um projeto de uma pasta, ele é removido do sistema após 180 dias. Durante os 180 dias após a exclusão, os usuários ainda podem acessar um projeto por meio da interface da Web se tiverem um URL direto para o projeto.
+Quando você exclui um projeto de uma pasta, ele é removido do sistema após 180 dias. Durante os 180 dias após a exclusão, os usuários ainda podem acessar um projeto excluído por meio da interface da Web se tiverem um URL para o projeto.
 
 1. Em uma pasta de projeto, clique no ícone de reticências **...** ao lado do nome do projeto.
 

@@ -3,7 +3,7 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b3f2f503cabd45aebd3bc200c8f9abaeb033d419
+source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 96%
@@ -20,7 +20,7 @@ Essas notas de versão abrangem o período de lançamento de 12 de março de 202
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Alteração no protocolo de exclusão para projetos do Workspace** | Anteriormente, os projetos excluídos nunca eram removidos do sistema. Agora, começaremos a limpar os projetos excluídos após 180 dias. Durante os 180 dias após a exclusão, os usuários ainda podem acessar um projeto por meio da interface da Web se tiverem um URL para o projeto direto. | | 14 de março de 2024 |
+| **Alteração no protocolo de exclusão para projetos do Workspace** | Anteriormente, os projetos excluídos nunca eram removidos do sistema. Agora, começaremos a limpar os projetos excluídos após 180 dias. Durante os 180 dias após a exclusão, os usuários ainda podem acessar um projeto excluído por meio da interface da Web se tiverem um URL para o projeto. | | 14 de março de 2024 |
 | **Atualização do AppMeasurement** | A [versão v2.26.0 do AppMeasurement](/help/implement/appmeasurement-updates.md) está disponível. | | 4 de março de 2024 |
 | **Nova coluna disponível na página de destino Projetos** | A coluna **[!UICONTROL Usado pela última vez]** agora está disponível ao visualizar a guia Projetos na [página de destino do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=pt-BR). <p>Essas informações podem ajudar você a determinar se um projeto é útil para os usuários em sua organização, mostrando a data e a hora em que ele foi aberto pela última vez.</p> <p>Anteriormente, a coluna **[!UICONTROL Usado pela última vez]** estava disponível apenas no gerenciador de métricas calculadas, no gerenciador de segmentos e no gerenciador de alertas.</p> |  | 13 de março de 2024 |
 | **Suporte do Analytics para sinalizadores de consentimento exigidos pelo Google para a DMA** | Devido às novas regulamentações europeias de privacidade, o Google exige que os dados coletados na Europa e enviados a ele indiquem se dois tipos específicos de consentimento foram concedidos. **A partir de 6 de março**, o Google não aceitará mais dados de evento que não indiquem que o consentimento relevante foi concedido. O Adobe Analytics agora permite capturar esses dados por meio de uma nova variável adConsent. É possível ver a nova variável listada na [interface dos relatórios de privacidade](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md). Se deseja ativar essa opção e já tiver habilitado a privacidade para as variáveis de consentimento anteriores, é necessário habilitar a privacidade novamente.<p>A [dimensão de consentimento da plataforma de publicidade](/help/components/dimensions/ad-consent.md) mostra se foi adquirido consentimento com respeito ao envio de dados a provedores de publicidade externos, como o Google. |  | 13 de março de 2024 |
