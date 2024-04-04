@@ -1,11 +1,12 @@
 ---
 title: Mapeamento da variável de objeto de dados para o Adobe Analytics
-description: Visualize quais campos de objeto de dados a borda mapeia automaticamente para variáveis do Analytics.
+description: Visualize quais campos de objeto de dados o Experience Platform Edge mapeia automaticamente para variáveis do Analytics.
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
+source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '559'
 ht-degree: 5%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 5%
 
 A tabela a seguir mostra as variáveis de objeto de dados que a Rede de borda da Adobe Experience Platform mapeia automaticamente para a Adobe Analytics. Se você usar esses caminhos de campo de objeto de dados, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics.
 
-O uso desses campos é recomendado se você pretende usar o Customer Journey Analytics no futuro. Essa correspondência de implementação permite que sua organização envie dados para o Adobe usando o SDK da Web sem estar em conformidade com um esquema XDM. Quando sua organização estiver pronta para enviar dados para a Adobe Experience Platform, você poderá usar [Mapeamento de sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) para apontar campos de objeto de dados para seus respectivos campos XDM.
+O uso desses campos é recomendado se você pretende usar o Customer Journey Analytics no futuro. Esse método de implementação permite que sua organização envie dados para o Adobe usando o SDK da Web sem estar em conformidade com um esquema XDM. Quando sua organização estiver pronta para enviar dados para a Adobe Experience Platform, você poderá usar [Mapeamento de sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) para apontar campos de objeto de dados para seus respectivos campos XDM.
 
 ## Prioridades de valor
 
