@@ -4,9 +4,9 @@ description: Visualize quais campos de objeto de dados o Experience Platform Edg
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
+source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '555'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,6 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | `data.__adobe.analytics.referrer` | A dimensão [Referenciador](/help/components/dimensions/referrer.md). |
 | `data.__adobe.analytics.resolution` | A variável [Resolução do monitor](../../components/dimensions/monitor-resolution.md) dimensão. O campo abreviado `data.__adobe.analytics.s` O também é compatível. |
 | `data.__adobe.analytics.server` | A dimensão [Servidor](/help/components/dimensions/server.md). |
-| `data.__adobe.analytics.tnta` | Usado em integrações A4T. |
 | `data.__adobe.analytics.transactionID` | A variável [`transactionID`](../vars/page-vars/transactionid.md) variável de implementação. O campo abreviado `data.__adobe.analytics.xact` O também é compatível. |
 | `data.__adobe.analytics.zip` | A variável [Código postal](../../components/dimensions/zip-code.md) dimensão. |
 
