@@ -3,10 +3,10 @@ description: O importador permite que você faça upload em massa de dados de cl
 title: Arquivos de dados de classificação
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '1768'
-ht-degree: 100%
+source-git-commit: eb6703dc4079678020954984905ee210cbcbbf8f
+workflow-type: tm+mt
+source-wordcount: '1787'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Um arquivo de dados deve atender às seguintes regras de estrutura:
 
 * As classificações não podem conter um caractere (^) já que ele é usado para indicar uma subclassificação.
 * Tenha cuidado ao usar hífen. Por exemplo, se você usar um hífen (-) em um termo Social, o Social reconhece o hífen como um operador [!DNL Not] (o sinal de menos). Por exemplo, se você especificar *`fragrance-free`* como um termo usando a importação, o Social reconhece o termo como sem *`minus`* perfume e coleta as publicações que mencionam *`fragrance`*, mas não *`free`*.
-* Os limites de caracteres são aplicados para classificar dados de relatório. Por exemplo, se você fizer upload de um arquivo de texto de classificações para produtos (*`s.products`*) com nomes de produtos com mais de 100 caracteres (bytes), os produtos não serão exibidos no relatório. Os códigos de rastreamento e todas as variáveis de conversão personalizadas (eVars) permitem 255 bytes.
+* Os limites de caracteres são aplicados para classificar dados de relatório. Por exemplo, se você fizer upload de um arquivo de texto de classificações para produtos (*`s.products`*) com nomes de produtos com mais de 100 caracteres (bytes), os produtos não serão exibidos no relatório. Os códigos de rastreamento e todas as variáveis de conversão personalizadas (eVars) permitem 255 bytes. Essa política também se estende aos valores de coluna de classificação e subclassificação, que estão sujeitos ao mesmo limite de 255 bytes.
 * Arquivos de dados delimitados por tabulação (crie o arquivo de modelo usando qualquer aplicativo de planilha ou editor de texto).
 * Arquivo de extensão [!DNL .tab] ou [!DNL .txt].
 * Um sinal de número (#) identifica a linha como um comentário do usuário. A Adobe ignora qualquer linha que começa com #.
