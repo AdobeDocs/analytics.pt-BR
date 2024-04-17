@@ -1,148 +1,26 @@
 ---
 title: Implementar o Adobe Analytics usando o SDK da Web da Adobe Experience Platform
-description: Use a extensão SDK da Web na coleção de dados da Adobe Experience Platform para enviar dados ao Adobe Analytics.
+description: Use o SDK da Web para enviar dados para a Adobe Analytics.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
+source-git-commit: d6c16d8841110e3382248f4c9ce3c2f2e32fe454
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 72%
+source-wordcount: '210'
+ht-degree: 39%
 
 ---
 
 # Implementar o Adobe Analytics usando o SDK da Web da Adobe Experience Platform
 
-Você pode usar o [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) para enviar dados ao Adobe Analytics. Este método de implementação funciona traduzindo o [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR) em um formato usado pelo Analytics. Você pode enviar dados para a Rede de borda da Adobe Experience Platform usando a biblioteca JavaScript do SDK da Web ou a extensão de tag do SDK da Web.
+Você pode usar o [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) para enviar dados ao Adobe Analytics. Há dois métodos principais para implementar o SDK da Web e cada método tem dois tipos de implementação:
 
-## SDK da Web
+| | **Migrar do AppMeasurement** | **Implementação do Clean Web SDK** |
+| --- | --- | --- |
+| **Usar tags** | [Migrar da extensão do Analytics para a extensão SDK da Web](analytics-extension-to-web-sdk.md) | [Enviar dados para a Adobe Analytics usando a extensão SDK da Web](web-sdk-tag-extension.md) |
+| **Usar JavaScript** | [Migração do AppMeasurement para a biblioteca JavaScript do SDK da Web](appmeasurement-to-web-sdk.md) | [Enviar dados para a Adobe Analytics usando a biblioteca JavaScript do SDK da Web](web-sdk-javascript-library.md) |
 
-Uma visão geral de alto nível das tarefas de implementação:
-
-![Como implementar o Adobe Analytics usando o fluxo de trabalho do SDK da Web, conforme descrito nesta seção.](../../assets/websdk-annotated.png)
-
-<table style="width:100%">
-
-<tr>
-<th style="width:5%"></th><th style="width:60%"><b>Tarefa</b></th><th style="width:35%"><b>Mais informações</b></th>
-</tr>
-
-<tr>
-<td>1</td>
-<td>Certifique-se de que você <b>definiu um conjunto de relatórios</b>.</td>
-<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
-</tr>
-
-<tr>
-<td>2</td>
-<td><b>Configurar esquemas</b>. Para padronizar a coleta de dados para uso em aplicativos que utilizam a Adobe Experience Platform, a Adobe criou o padrão aberto e documentado publicamente, o Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR">Visão geral da interface de esquemas</a></td>
-</tr>
-
-<tr>
-<td>3</td>
-<td><b>Criar uma camada de dados</b> para gerenciar o rastreamento dos dados no seu site.</td>
-<td><a href="../../prepare/data-layer.md">Criar uma camada de dados</a></td>
-</tr>
-
-<tr>
-<td> 4</td>
-<td><b>Instalar a versão independente pré-criada</b>. Você pode fazer referência à biblioteca (<code>alloy.js</code>) na CDN diretamente na sua página ou baixá-la e hospedá-la na sua própria infraestrutura. Como alternativa, você pode usar o pacote NPM.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">Instalar a versão independente pré-criada</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">Usar o pacote NPM</a></td>
-</tr>
-
-<tr>
-<td>5</td>
-<td><b>Configurar uma sequência de dados</b>. Uma sequência de dados representa a configuração do lado do servidor ao implementar o SDK da Web da Adobe Experience Platform.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR">Configurar uma sequência de dados<a></td> 
-</tr>
-
-<td>6</td>
-<td><b>Adicionar um serviço do Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics e para quais conjuntos de relatórios especificamente.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
-</tr>
-
-<tr>
-<td>7</td>
-<td><b>Configurar o SDK da Web</b>. Verifique se a biblioteca instalada na etapa 4 está configurada corretamente com a ID do fluxo de dados (anteriormente conhecida como ID de configuração de borda (<code>edgeConfigId</code>)), id da organização (<code>orgId</code>) e outras opções disponíveis. Garanta o mapeamento adequado das variáveis. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurar o SDK da Web</a><br/><a href="../xdm-var-mapping.md">Mapeamento de variável de objeto XDM</a></td>
-</tr>
-
-<tr>
-<td>8</td>
-<td><b>Executar comandos</b> e/ou <b>rastrear eventos</b>. Depois que o código base tiver sido implementado em sua página da Web, você poderá começar a executar comandos e rastrear eventos com o SDK.
-</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Enviar eventos</a></td>
-</tr>
-
-<tr>
-<td>9</td><td><b>Estender e validar sua implementação</b> antes de empurrá-lo para a produção.</td><td></td> 
-</tr>
-</table>
-
-
-## Extensão do SDK da Web
-
-Uma visão geral de alto nível das tarefas de implementação:
-
-![Como implementar o Adobe Analytics usando o workflow de extensão do SDK da Web, conforme descrito nesta seção.](../../assets/websdk-extension-annotated.png)
-
-<table style="width:100%">
-
-<tr>
-<th style="width:5%"></th><th style="width:60%"><b>Tarefa</b></th><th style="width:35%"><b>Mais informações</b></th>
-</tr>
-
-<tr>
-<td>1</td>
-<td>Certifique-se de que você <b>definiu um conjunto de relatórios</b>.</td>
-<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
-</tr>
-
-<tr>
-<td>2</td>
-<td><b>Configurar esquemas</b>. Para padronizar a coleta de dados para uso em aplicativos que utilizam a Adobe Experience Platform, a Adobe criou o padrão aberto e documentado publicamente, o Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR">Visão geral da interface de esquemas</a></td>
-</tr>
-
-<tr>
-<td>3</td>
-<td><b>Criar uma camada de dados</b> para gerenciar o rastreamento dos dados no seu site.</td>
-<td><a href="../../prepare/data-layer.md">Criar uma camada de dados</a></td>
-</tr>
-
-<tr>
-<td>4</td>
-<td><b>Configurar uma sequência de dados</b>. Uma sequência de dados representa a configuração do lado do servidor ao implementar o SDK da Web da Adobe Experience Platform.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR">Configurar uma sequência de dados<a></td> 
-</tr>
-
-<tr>
-<td>5</td> 
-<td><b>Adicionar um serviço Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics e para quais conjuntos de relatórios especificamente.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
-</tr>
-
-<tr>
-<td>6</td>
-<td><b>Criar uma propriedade de tag</b>. Propriedades são contêineres abrangentes usados para referenciar dados de gerenciamento de tags.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">Criar ou configurar uma propriedade de tag para a web</a></td>
-</tr>
-
-<tr>
-<td>7</td> 
-<td><b>Instalar e configurar a extensão do SDK da Web</b> na propriedade da tag. Configure a extensão do SDK da Web para enviar dados para a sequência de dados configurada na etapa 4.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=pt-BR">Visão geral da extensão do SDK da Web da Adobe Experience Platform</a></td>
-</tr>
-
-<tr>
-<td>8</td>
-<td><b>Iterar, validar e publicar</b> para produção. Incorpore o código para incluir a propriedade da tag nas páginas do site. Em seguida, use elementos de dados, regras, entre outros, para personalizar sua implementação.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Incorporar código</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=pt-BR">Visão geral da publicação</a></td>
-</tr>
-
-</table>
-
+Se sua organização exigir uma nova implementação do SDK da Web e planeja usar o Customer Journey Analytics no futuro, o Adobe recomenda uma implementação limpa do SDK da Web usando seu próprio esquema. Consulte [Assimilar dados por meio do SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) no guia do usuário Customer Journey Analytics.
 
 ## Recursos adicionais
 
