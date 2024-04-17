@@ -3,52 +3,105 @@ description: Configurar a conta de importação na nuvem e o local onde os dados
 keywords: Analysis Workspace
 title: Gerenciador de locais
 feature: Classifications
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
+source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 3%
+source-wordcount: '631'
+ht-degree: 1%
 
 ---
 
 # Gerenciador de locais
 
-O Gerenciador de locais permite criar, editar ou excluir locais. Esses locais permitem salvar e reutilizar destinos para arquivos exportados ou origens para arquivos importados. O Gerente de localização fica disponível assim que todos os conjuntos de relatórios da sua organização usam o [Conjunto de classificações](../classifications/sets/overview.md) arquitetura.
+O Gerenciador de locais permite exibir, criar, editar ou excluir contas e locais. Eles podem ser usados para qualquer uma das seguintes finalidades:
 
-**[!UICONTROL Componentes]** > **[!UICONTROL Localizações]**
+* Exportação de arquivos usando [Feeds de dados](/help/export/analytics-data-feed/create-feed.md)
+* Exportar relatórios usando [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Importação de esquemas usando o [Conjuntos de classificações](/help/components/classifications/sets/overview.md)
 
-## Filtrar locais
+## Exibir, filtrar e pesquisar locais
 
-O lado esquerdo do Gerenciador de locais fornece configurações de filtro para encontrar os locais desejados.
+O Gerenciador de locais permite exibir todos os locais criados. Os administradores do sistema podem visualizar os locais criados por todos os usuários.
 
-1. Selecione o ícone de filtro.
+1. Para acessar o Gerenciador de locais no Adobe Analytics, selecione **[!UICONTROL Componentes]** > **[!UICONTROL Localizações]**.
 
-   Você pode filtrar locais por **[!UICONTROL Tipo de localização]**, **[!UICONTROL Conta]** ou **[!UICONTROL Criado por]**.
+1. (Condicional) Se você for um administrador do sistema, poderá ativar a [!UICONTROL **Exibir locais para todos os usuários**] opção para exibir locais criados por todos os usuários em sua organização. <!-- Maybe add a screenshot? This is new functionality -->
 
-   ![Filtros de locais](assets/locations-filters.png)
+1. Filtrar ou pesquisar a lista de locais:
 
-## Colunas do gerenciador de locais
+   * **Filtro:** Selecione o ícone Filtro para filtrar a lista de locais.
 
-As seguintes colunas estão disponíveis no Gerenciador de locais:
+     Você pode filtrar locais por **[!UICONTROL Tipo de localização]**, **[!UICONTROL Conta]** ou **[!UICONTROL Criado por]**.
+
+     ![Filtros de locais](assets/locations-filters.png)
+
+   * **Pesquisar:** No campo de pesquisa, comece digitando o nome do local que deseja visualizar. Os resultados são filtrados à medida que você digita. As seguintes colunas são pesquisadas: **Nome do local**, **Tipo de localização**, **Conta**, e **Criado por**.
+
+1. (Opcional) Se você tiver mais de 1.000 locais, apenas os primeiros 1.000 serão exibidos. Selecionar [!UICONTROL **Carregar mais**] para carregar mais mil locais.
+
+## Configurar colunas no Gerenciador de locais
+
+As seguintes colunas estão disponíveis no Gerenciador de locais. Para personalizar as colunas exibidas na tabela, selecione o **Personalizar tabela** ícone ![Ícone Personalizar tabela](assets/customize-table-icon.png).
 
 * **[!UICONTROL Nome do local]**: O nome do local. Selecione o menu de 3 pontos ao lado de um nome de local para [editar a localização](/help/components/locations/configure-import-locations.md) ou excluí-lo.
 * **[!UICONTROL Tipo de localização]**: o tipo de conta associado à localização.
 * **[!UICONTROL Conta]**: a conta específica associada à localização.
+* **Aplicativo**: o tipo de aplicativo com o qual o local pode ser usado (como feeds de dados, Data Warehouse ou conjuntos de classificação).
 * **[!UICONTROL Usado pela última vez]**: a data em que o local foi usado pela última vez.
 * **[!UICONTROL Criado por]**: o usuário que criou o local.
 * **[!UICONTROL Data de criação]**: a data em que o local foi criado.
 
-## Criar ou editar opções
+## Criar e gerenciar locais
 
-As seguintes opções estão disponíveis no Gerenciador de locais:
+É possível criar, editar e excluir locais.
 
-* **[!UICONTROL Adicionar localização]**: crie um local.
+### Criar um local
 
-  Para obter mais informações, consulte [Configurar locais de importação na nuvem](/help/components/locations/configure-import-locations.md).
-* **[!UICONTROL Campo de pesquisa]**: pesquisar locais por nome.
-* **[!UICONTROL Carregar mais]**: inicialmente, o Gerenciador de locais exibe até 1.000 locais. Esse botão carrega mais 1.000 locais.
-* **Personalizar tabela**: O ícone Personalizar tabela ![Ícone Personalizar tabela](assets/customize-table-icon.png) permite escolher quais colunas são exibidas na tabela.
+Para obter informações sobre como criar um local, consulte [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md).
 
-Marcar uma caixa de seleção ao lado de um local revela as seguintes opções:
+<!-- Do I need to add some steps here about how to create a location and then assign that location to be used with DF, DW, or Classifications sets? Need to hear back from Ron and team whether we are including this functionality -->
 
-* **[!UICONTROL Editar]**: permite editar o local selecionado. Para obter informações sobre campos disponíveis que podem ser editados, consulte [Configurar locais de importação na nuvem](/help/components/locations/configure-import-accounts.md).
-* **[!UICONTROL Excluir]**: exclui os locais selecionados. Essa opção permite selecionar vários locais.
+### Editar um local
+
+Para obter informações sobre como editar um local, consulte [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md).
+
+### Excluir um local
+
+>[!IMPORTANT]
+>
+>Se um local for excluído, quaisquer arquivos de Feed de dados, relatórios de Data Warehouse ou esquemas de conjunto de classificações associados ao local excluído falharão na próxima vez que forem usados.
+>
+>Se você excluir um local, deverá [editar os feeds de dados](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse relatórios](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), e [Esquemas de conjuntos de classificação](/help/components/classifications/sets/manage/schema.md) para usar um local funcional.
+
+Para excluir um local:
+
+1. Selecione o menu de 3 pontos no [!UICONTROL **Nome do local**] para o local que você deseja excluir.
+
+1. Clique em [!UICONTROL **Excluir**].
+
+## Editar contas
+
+1. Para editar contas no Gerenciador de locais no Adobe Analytics, selecione **[!UICONTROL Componentes]** > **[!UICONTROL Localizações]**, em seguida, selecione a [!UICONTROL **Contas de localização**] guia.
+
+1. (Condicional) Se você for um administrador do sistema, poderá ativar a [!UICONTROL **Exibir contas para todos os usuários**] opção para exibir locais criados por todos os usuários em sua organização. <!-- Maybe add a screenshot? This is new functionality -->
+
+
+1. Selecionar [!UICONTROL **Exibir detalhes**] na conta que deseja editar.
+
+1. Faça as alterações desejadas e selecione [!UICONTROL **Salvar**].
+
+## Exibir chaves de conta
+
+Depois de criar uma conta, você poderá exibir todas as chaves de conta associadas a ela. Talvez seja necessário exibir essas informações se você não concluiu a configuração da conta com seu provedor de nuvem quando [configuração original da conta](/help/components/locations/configure-import-accounts.md).
+
+Para exibir chaves associadas a uma conta de exportação:
+
+1. No Adobe Analytics, selecione **[!UICONTROL Componentes]** > **[!UICONTROL Localizações]**, em seguida, selecione a [!UICONTROL **Contas de localização**] guia.
+
+1. Selecione o ícone de 3 pontos na conta que deseja editar e selecione [!UICONTROL **Chaves da conta**].
+
+## Excluir contas
+
+1. No Adobe Analytics, selecione **[!UICONTROL Componentes]** > **[!UICONTROL Localizações]**, em seguida, selecione a [!UICONTROL **Contas de localização**] guia.
+
+1. Selecione o ícone de 3 pontos na conta que deseja editar e selecione [!UICONTROL **Excluir conta**]

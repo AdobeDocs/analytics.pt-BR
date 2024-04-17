@@ -1,12 +1,12 @@
 ---
-title: Esquema do conjunto de classificações
+title: Esquema do conjunto de classificação
 description: Exibir e editar o esquema para um conjunto de classificações individual.
-exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
+exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 42%
+source-wordcount: '536'
+ht-degree: 43%
 
 ---
 
@@ -48,11 +48,11 @@ Os seguintes botões estão disponíveis:
 * **[!UICONTROL Automatizar]**: assimile dados automaticamente de locais de armazenamento externo.
    * **[!UICONTROL Conta de localização]**: uma lista suspensa que mostra as contas de localização existentes que sua organização configurou. Se sua organização ainda não tiver configurado uma conta de localização, é possível configurar uma selecionando [!UICONTROL **Criar uma nova conta**].
 
-     Para obter informações sobre como configurar a conta de localização, consulte [Configurar contas de importação na nuvem](/help/components/locations/configure-import-accounts.md).
+     Para obter informações sobre como configurar a conta de localização, consulte [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md).
 
    * **[!UICONTROL Localização]**: uma lista suspensa que mostra locais existentes que sua organização configurou. Se a organização ainda não tiver configurado um local, é possível configurá-lo selecionando [!UICONTROL **Criar um novo local**].
 
-     Para obter informações sobre como configurar um local, consulte [Configurar locais de importação na nuvem](/help/components/locations/configure-import-locations.md).
+     Para obter informações sobre como configurar um local, consulte [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md).
 
    * **[!UICONTROL Delimitador]**: o delimitador de coluna para arquivos carregados. As opções incluem [!UICONTROL Vírgula], [!UICONTROL Ponto e vírgula], [!UICONTROL Dois pontos], [!UICONTROL Barra vertical], [!UICONTROL Espaço], [!UICONTROL Barra inclinada], [!UICONTROL Barra invertida], [!UICONTROL Traço]ou [!UICONTROL Sublinhado].
 
