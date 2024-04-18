@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar locais de importação e exportação na nuvem
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c81f0b8dffe07789fce1dda6efcb5ce17406be71
+source-git-commit: de1aaf1cc4f59567582c7802117226e859e52b08
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 40%
+source-wordcount: '1190'
+ht-degree: 38%
 
 ---
 
@@ -49,7 +49,7 @@ A caixa de diálogo Local é exibida.
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Nome do bucket**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. |
+   | [!UICONTROL **Nome do bucket**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. <p>Certifique-se de que o ARN do usuário fornecido pelo Adobe tenha o `S3:PutObject` para carregar arquivos nesse bucket. </p><p>Os nomes dos buckets devem atender às regras de nomenclatura específicas. Por exemplo, eles devem ter entre 3 e 63 caracteres de comprimento, podem consistir apenas de letras minúsculas, números, pontos (.) e hifens (-) e devem começar e terminar com uma letra ou número. [Uma lista completa de regras de nomenclatura está disponível na documentação do AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Prefixo da chave**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
    {style="table-layout:auto"}
