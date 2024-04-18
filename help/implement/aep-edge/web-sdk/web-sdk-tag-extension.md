@@ -1,9 +1,8 @@
 ---
 title: Enviar dados para a Adobe Analytics usando a extensão de tag do SDK da Web
 description: Comece com uma implementação limpa da Coleção de dados do Adobe Experience Platform para enviar dados para a Adobe Analytics usando o XDM e o grupo de campos do Adobe Analytics ExperienceEvent.
-hide: true
-hidefromtoc: true
-source-git-commit: d6c16d8841110e3382248f4c9ce3c2f2e32fe454
+exl-id: 235b3d68-92dd-4ca4-8889-1e1f2d83f47e
+source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 17%
@@ -26,7 +25,7 @@ O uso da extensão SDK da Web para enviar dados para a Adobe Analytics tem vanta
 | --- | --- |
 | <ul><li>**Abordagem mais direta**: esse caminho de implementação é o mais simples e geralmente o caminho recomendado para novas implementações do SDK da Web. Se você não tiver uma implementação atual do Adobe Analytics com a qual se preocupar, preencha os campos XDM do SDK da Web aplicáveis.</li><li>**Esquema predefinido**: se sua organização não tiver necessidade de ter seu próprio esquema, você pode simplesmente usar o esquema direcionado para o Adobe Analytics. Esse conceito se aplica mesmo quando você avança em direção ao Customer Journey Analytics; o conceito de props e eVars não se aplica ao Customer Journey Analytics, mas você pode continuar usando props e eVars como dimensões personalizadas simples.</li><li>**Gerenciar tags sem a intervenção do desenvolvedor**: as tags permitem gerenciar a implementação sem solicitar que os desenvolvedores façam alterações de código na implementação. Seus desenvolvedores instalam o script do carregador de tags e você tem controle total sobre como os dados são coletados.</li></ul> | <ul><li>**Bloqueado no usando um schema específico**: quando sua organização muda para o Customer Journey Analytics, você deve optar por continuar usando o esquema do Adobe Analytics ou migrar para o esquema de sua própria organização (que seria um conjunto de dados separado). Se a sua organização quiser evitar o esquema do Adobe Analytics e a migração para um conjunto de dados separado ao mudar para o Customer Journey Analytics, o Adobe recomenda um dos dois métodos a seguir:<ul><li>Use o `data` object: o `data` permite enviar dados para a Adobe Analytics sem estar em conformidade com um esquema XDM. Depois que o esquema da sua organização for criado, você poderá usar o mapeamento de sequência de dados para mapear `data` campos de objeto para XDM. Ambos os [Extensão do Analytics para a extensão SDK da Web](analytics-extension-to-web-sdk.md) e [AppMeasurement para a biblioteca JavaScript do SDK da Web](appmeasurement-to-web-sdk.md) usar este `data` objeto.</li><li>Ignorar totalmente o Adobe Analytics: se estiver implementando o SDK da Web, você pode enviar esses dados para um conjunto de dados na Adobe Experience Platform para uso no Customer Journey Analytics. Você pode usar qualquer esquema que desejar; a Adobe Analytics não está envolvida nesse fluxo de trabalho e, portanto, não requer o grupo de campos Adobe Analytics ExperienceEvent. Este método incorre no menor montante de dívida técnica, mas também deixa a Adobe Analytics totalmente fora de contexto.</li></ul></ul> |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Esse método de implementação exige que você use um esquema configurado para o Adobe Analytics. Se sua organização planeja usar seu próprio esquema com o Customer Journey Analytics no futuro, o uso do esquema do Adobe Analytics pode criar confusão para administradores de dados ou arquitetos. Há várias opções para atenuar esse obstáculo:
 >
