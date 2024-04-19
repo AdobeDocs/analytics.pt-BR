@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar locais de importação e exportação na nuvem
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: de1aaf1cc4f59567582c7802117226e859e52b08
+source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 38%
+source-wordcount: '1466'
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ Você pode configurar uma conta na nuvem (e um local nessa conta). Um único loc
 
 Você deve configurar o Adobe Analytics com as informações necessárias para acessar sua conta da nuvem. Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Google Cloud Platform e assim por diante), conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md)e, em seguida, adicionar e configurar o local nessa conta (conforme descrito neste artigo).
 
-Para configurar um novo local de importação ou exportação na nuvem ou editar um existente:
+## Começar a criar ou editar um local de exportação de nuvem
 
 1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Localizações**].
 1. No [!UICONTROL Localizações] selecione a [!UICONTROL **Localizações**] guia.
@@ -39,13 +39,15 @@ A caixa de diálogo Local é exibida.
 
 1. Na seção [!UICONTROL **Propriedades da localização**], insira as informações específicas ao tipo da sua conta de localização.
 
-   Para obter instruções de configuração, expanda a seção abaixo que corresponde ao tipo de conta selecionado em [!UICONTROL **Contas de localização**] campo. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
+   Continue com a seção abaixo que corresponde ao tipo de conta selecionado na [!UICONTROL **Contas de localização**] campo. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
 
-   **Tipos de conta**
 
-   +++ARN de função do Amazon S3
 
-   Para configurar um local ARN de função do Amazon S3, especifique as seguintes informações:
+### Amazon S3 Role ARN
+
+Para configurar um local ARN de função do Amazon S3, especifique as seguintes informações:
+
+1. [Começar a criar ou editar um local de exportação de nuvem](#begin-creating-or-editing-a-cloud-export-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
@@ -54,11 +56,22 @@ A caixa de diálogo Local é exibida.
 
    {style="table-layout:auto"}
 
-+++
+1. Selecione [!UICONTROL **Salvar**].
 
-   +++Google Cloud Platform
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
-   Para configurar um local da Google Cloud Platform, especifique as seguintes informações:
+   Os dados importados não são excluídos do destino da nuvem após serem importados.
+
+   >[!NOTE]
+   >
+   >   Se você usou anteriormente [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) no Adobe Analytics, era necessário carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
+
+
+### Google Cloud Platform
+
+Para configurar um local da Google Cloud Platform, especifique as seguintes informações:
+
+1. [Começar a criar ou editar um local de exportação de nuvem](#begin-creating-or-editing-a-cloud-export-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
@@ -67,11 +80,22 @@ A caixa de diálogo Local é exibida.
 
    {style="table-layout:auto"}
 
-+++
+1. Selecione [!UICONTROL **Salvar**].
 
-   +++Azure SAS
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
-   Para configurar um local SAS do Azure, especifique as seguintes informações:
+   Os dados importados não são excluídos do destino da nuvem após serem importados.
+
+   >[!NOTE]
+   >
+   >   Se você usou anteriormente [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) no Adobe Analytics, era necessário carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
+
+
+### Azure SAS
+
+Para configurar um local SAS do Azure, especifique as seguintes informações:
+
+1. [Começar a criar ou editar um local de exportação de nuvem](#begin-creating-or-editing-a-cloud-export-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
@@ -80,11 +104,22 @@ A caixa de diálogo Local é exibida.
 
    {style="table-layout:auto"}
 
-+++
+1. Selecione [!UICONTROL **Salvar**].
 
-   +++Azure RBAC
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
-   Para configurar um local do RBAC do Azure, especifique as seguintes informações:
+   Os dados importados não são excluídos do destino da nuvem após serem importados.
+
+   >[!NOTE]
+   >
+   >   Se você usou anteriormente [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) no Adobe Analytics, era necessário carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
+
+
+### Azure RBAC
+
+Para configurar um local do RBAC do Azure, especifique as seguintes informações:
+
+1. [Começar a criar ou editar um local de exportação de nuvem](#begin-creating-or-editing-a-cloud-export-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
@@ -94,88 +129,87 @@ A caixa de diálogo Local é exibida.
 
    {style="table-layout:auto"}
 
-+++
-
-   **Tipos de conta herdada**
-
-   Esses tipos de conta herdados estão disponíveis somente ao exportar dados com [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Essas opções não estão disponíveis ao importar dados com o [Conjuntos de classificações](/help/components/classifications/sets/manage/schema.md).
-
-   +++FTP
-
-   Os dados do feed de dados podem ser entregues a um Adobe ou local FTP hospedado pelo cliente. Especifique o diretório Use o campo de caminho para colocar arquivos de feed em uma pasta.
-
-   | Campo | Função |
-   |---------|----------|
-   | [!UICONTROL **Caminho do diretório**] | Insira o caminho para o diretório no servidor FTP. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir. </br>Por exemplo, `/folder_name/folder_name`. |
-
-   {style="table-layout:auto"}
-
-+++
-
-   +++SFTP
-
-   Os dados do feed de dados podem ser entregues para um Adobe ou local SFTP hospedado pelo cliente. O site de destino deve conter uma chave pública RSA ou DSA válida. Você pode baixar a chave pública apropriada ao criar o feed.
-
-   | Campo | Função |
-   |---------|----------|
-   | [!UICONTROL **Caminho do diretório**] | Insira o caminho para o diretório no servidor FTP. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir. </br>Por exemplo, `/folder_name/folder_name`. |
-
-   {style="table-layout:auto"}
-
-+++
-
-   +++S3
-
-   Você pode enviar dados do warehouse diretamente para buckets do Amazon S3. Este tipo de destino requer um nome de bucket, uma ID de chave de acesso e uma chave secreta. Consulte [Requisitos de nomenclatura de bucket do Amazon S3](https://docs.aws.amazon.com/pt_br/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) nos documentos do Amazon S3 para obter mais informações.
-
-   O usuário fornecido para fazer upload dos dados do data warehouse precisa ter as seguintes [permissões](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
-
-   * s3:GetObject
-   * s3:PutObject
-   * s3:PutObjectAcl
-
-   As 16 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de assinatura apropriado, quando necessário):
-
-   * us-east-2
-   * us-east-1
-   * us-west-1
-   * us-west-2
-   * ap-south-1
-   * ap-northeast-2
-   * ap-southeast-1
-   * ap-southeast-2
-   * ap-northeast-1
-   * ca-central-1
-   * eu-central-1
-   * eu-west-1
-   * eu-west-2
-   * eu-west-3
-   * eu-north-1
-   * sa-east-1
-
-   >[!NOTE]
-   >
-   >A região cn-north-1 não é compatível.
-
-+++
-
-   +++Blob do Azure
-
-   O data warehouse é compatível com destinos do Azure Blob. Requer um contêiner, uma conta e uma chave. A Amazon criptografa automaticamente os dados em repouso. Os dados são descriptografados automaticamente ao baixá-los. Consulte [Criar uma conta de armazenamento](https://docs.microsoft.com/pt-br/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nos documentos do Microsoft Azure para obter mais informações.
-
-   >[!NOTE]
-   >
-   >Você deve implementar seu próprio processo para gerenciar o espaço em disco no destino do data warehouse. A Adobe não exclui dados do servidor.
-
-+++
-
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora você pode importar ou exportar dados para ou da conta e do local configurados.
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
    Os dados importados não são excluídos do destino da nuvem após serem importados.
 
    >[!NOTE]
    >
    >   Se você usou anteriormente [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) no Adobe Analytics, era necessário carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
+
+### Tipos de conta herdada
+
+Esses tipos de conta herdados estão disponíveis somente ao exportar dados com [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Essas opções não estão disponíveis ao importar dados com o [Conjuntos de classificações](/help/components/classifications/sets/manage/schema.md).
+
++++FTP
+
+Os dados do feed de dados podem ser entregues a um Adobe ou local FTP hospedado pelo cliente. Especifique o diretório Use o campo de caminho para colocar arquivos de feed em uma pasta.
+
+| Campo | Função |
+|---------|----------|
+| [!UICONTROL **Caminho do diretório**] | Insira o caminho para o diretório no servidor FTP. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir. </br>Por exemplo, `/folder_name/folder_name`. |
+
+{style="table-layout:auto"}
+
++++
+
++++SFTP
+
+Os dados do feed de dados podem ser entregues para um Adobe ou local SFTP hospedado pelo cliente. O site de destino deve conter uma chave pública RSA ou DSA válida. Você pode baixar a chave pública apropriada ao criar o feed.
+
+| Campo | Função |
+|---------|----------|
+| [!UICONTROL **Caminho do diretório**] | Insira o caminho para o diretório no servidor FTP. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir. </br>Por exemplo, `/folder_name/folder_name`. |
+
+{style="table-layout:auto"}
+
++++
+
++++S3
+
+Você pode enviar dados do warehouse diretamente para buckets do Amazon S3. Este tipo de destino requer um nome de bucket, uma ID de chave de acesso e uma chave secreta. Consulte [Requisitos de nomenclatura de bucket do Amazon S3](https://docs.aws.amazon.com/pt_br/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) nos documentos do Amazon S3 para obter mais informações.
+
+O usuário fornecido para fazer upload dos dados do data warehouse precisa ter as seguintes [permissões](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+As 16 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de assinatura apropriado, quando necessário):
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>A região cn-north-1 não é compatível.
+
++++
+
++++Blob do Azure
+
+O data warehouse é compatível com destinos do Azure Blob. Requer um contêiner, uma conta e uma chave. A Amazon criptografa automaticamente os dados em repouso. Os dados são descriptografados automaticamente ao baixá-los. Consulte [Criar uma conta de armazenamento](https://docs.microsoft.com/pt-br/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nos documentos do Microsoft Azure para obter mais informações.
+
+>[!NOTE]
+>
+>Você deve implementar seu próprio processo para gerenciar o espaço em disco no destino do data warehouse. A Adobe não exclui dados do servidor.
+
++++
+
 
