@@ -4,16 +4,18 @@ description: Substitua o URL de link gerado automaticamente que o AppMeasurement
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 74%
+source-wordcount: '158'
+ht-degree: 65%
 
 ---
 
 # linkURL
 
 Sempre que uma chamada de rastreamento de link é enviada para a Adobe, os servidores de coleta de dados detectam automaticamente o URL. Use a variável `linkURL` para substituir o URL detectado.
+
+Não há dimensões no Analysis Workspace que relatem essa variável. Ele preenche o `page_event_var1` coluna em [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## Vincular URL usando o SDK da Web
 

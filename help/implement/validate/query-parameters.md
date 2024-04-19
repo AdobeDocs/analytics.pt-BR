@@ -4,9 +4,9 @@ description: Lista todos os parâmetros da cadeia de caracteres de consulta usad
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
-workflow-type: ht
-source-wordcount: '722'
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+workflow-type: tm+mt
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ A tabela a seguir lista todos os parâmetros da cadeia de caracteres de consulta
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Usada na dimensão [Páginas não encontradas](/help/components/dimensions/pages-not-found.md). |
 | `pccr` | Nenhum | Definido somente para novos visitantes e sempre definido como `true`. Ajuda a evitar redirecionamentos infinitos se um visitante rejeitar cookies. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Determina o tipo de link personalizado. Necessário para [Links personalizados](/help/components/dimensions/custom-link.md), [Links de download](/help/components/dimensions/download-link.md) e [Links da saída](/help/components/dimensions/exit-link.md). |
-| `pev1` | Nenhum | O URL no qual o link personalizado ocorreu. |
+| `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | O URL no qual o link personalizado ocorreu. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nome amigável do link personalizado. |
 | `pev3` | Nenhum | Não está mais em uso. Marcos rastreados em versões anteriores do relatório de vídeo. |
 | `pf` | Nenhum | Sinalizador da plataforma; somente para uso da Adobe. Não alterar. |

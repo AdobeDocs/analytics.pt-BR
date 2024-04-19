@@ -1,9 +1,10 @@
 ---
 title: Migração da extensão de tag do Adobe Analytics para a extensão de tag do SDK da Web
 description: Atualize a implementação do Analytics nas tags de Coleção de dados da Adobe Experience Platform para usar a extensão SDK da Web.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1706'
 ht-degree: 1%
 
 ---
@@ -46,7 +47,7 @@ Crie um fluxo de dados na Coleção de dados da Adobe Experience Platform. Ao en
 1. No menu suspenso do serviço, selecione **[!UICONTROL Adobe Analytics]**.
 1. Insira a mesma ID de conjunto de relatórios do site para o qual você envia dados de análise. Clique em **[!UICONTROL Salvar]**.
 
-![Adicionar serviço Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Adicionar serviço Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 Seu fluxo de dados agora está pronto para receber e transmitir dados para a Adobe Analytics.
 
@@ -62,11 +63,11 @@ Esta seção prepara a tag para a maior parte do esforço de migração que ocor
 1. Selecionar **[!UICONTROL Catálogo]** próximo à parte superior para ver uma lista de todas as extensões disponíveis.
 1. Procure por e selecione o **[!UICONTROL Adobe Experience Platform Web SDK]** e clique em **[!UICONTROL Instalar]** à direita.
 
-   ![Catálogo](assets/catalog.png) {style="border:1px solid gray"}
+   ![Catálogo](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. As definições de configuração de extensão são exibidas. Localize a seção Fluxos de dados e selecione o fluxo de dados criado na etapa anterior.
 
-   ![Seleção de sequência de dados](assets/datastream-select.png) {style="border:1px solid gray"}
+   ![Seleção de sequência de dados](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. Selecione **[!UICONTROL Salvar]**.
 
@@ -83,14 +84,14 @@ O elemento de dados do objeto de dados fornece uma estrutura intuitiva para conf
 1. Atribua ao elemento de dados as seguintes configurações:
    * [!UICONTROL Nome]: qualquer coisa que você desejar, como &quot;Camada de dados&quot; ou &quot;Objeto de dados&quot;
    * [!UICONTROL Extensão]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL Variável]: [!UICONTROL Variável]
+   * [!UICONTROL Tipo de elemento de dados]: [!UICONTROL Variável]
    * As caixas de seleção podem permanecer como estão
 1. À direita, selecione as seguintes configurações:
    * Botão de opção de propriedade: [!UICONTROL Dados]
    * Solução: [!UICONTROL Adobe Analytics]
 1. Selecione **[!UICONTROL Salvar]**.
 
-![Criar elemento de dados](assets/create-data-element.png) {style="border:1px solid gray"}
+![Criar elemento de dados](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 Agora, a propriedade da tag tem tudo o que é necessário para atualizar cada regra.
 
@@ -103,7 +104,7 @@ Essa etapa contém a maior parte do esforço necessário para migrar para o SDK 
 1. Na navegação à esquerda da interface de tags, selecione **[!UICONTROL Regras]**.
 1. Selecione uma regra para editar.
 1. Selecionar a ação **[!UICONTROL Adobe Analytics - Definir variáveis]**
-1. Observe todas as variáveis do Analytics definidas nesta regra. Observe as variáveis definidas nos menus suspensos e as variáveis definidas no código personalizado.
+1. Observe todas as variáveis do Analytics definidas nesta regra. Inclua as variáveis definidas nos menus suspensos e as variáveis definidas no código personalizado.
 1. Altere o [!UICONTROL Configuração de ação] para as seguintes configurações:
    * [!UICONTROL Extensão]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL Tipo de ação]: Atualizar variável
@@ -146,7 +147,7 @@ A publicação de regras atualizadas segue o mesmo fluxo de trabalho de qualquer
 1. Teste as alterações no ambiente de desenvolvimento para garantir que todas as regras sejam acionadas corretamente e que o objeto de dados seja preenchido com os valores esperados.
 1. Quando estiver pronto, envie a biblioteca para aprovação, crie para preparo e, em seguida, aprove e publique para produção.
 
-![Fluxo de publicação](assets/publishing-flow.png) {style="border:1px solid gray"}
+![Fluxo de publicação](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 
