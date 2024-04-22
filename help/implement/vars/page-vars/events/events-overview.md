@@ -4,7 +4,7 @@ description: Defina a variável events, que governa a maioria das métricas do s
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -27,7 +27,7 @@ Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md
 * Os pedidos são mapeados para `xdm.commerce.purchases.value`.
 * As unidades são mapeadas para a soma de todos os campos `productListItems[].quantity`.
 * A receita é mapeada para a soma de todos os campos `productListItems[].priceTotal`.
-* As Exibições do produto são mapeadas para `xdm.commerce.productListViews.value`.
+* As Exibições do produto são mapeadas para `xdm.commerce.productViews.value`.
 * Os carrinhos são mapeados para `xdm.commerce.productListOpens.value`.
 * Adições ao carrinho são mapeadas para `xdm.commerce.productListAdds.value`.
 * As Remoções do carrinho são mapeadas para `xdm.commerce.productListRemovals.value`.
