@@ -4,10 +4,10 @@ description: Defina para que local as solicitações de imagens são enviadas.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 72%
+source-wordcount: '702'
+ht-degree: 52%
 
 ---
 
@@ -59,9 +59,14 @@ Se esse campo ficar em branco, o padrão será `[rsid].data.adobedc.net`.
 
 A varável `s.trackingServer` é uma string que contém o local para o envio de dados.
 
-## Determine o valor de `trackingServer`
+## Considerações para a determinação do valor de `trackingServer`
 
-O valor dessa variável depende do uso de cookies próprios ou de cookies de terceiros. A Adobe recomenda usar cookies próprios na implementação.
+Você pode optar por usar domínios de servidor de rastreamento do Adobe (por exemplo, `adobedc.net`) ou você pode passar por um processo especial para configurar um servidor de rastreamento que corresponda ao domínio dos sites (por exemplo, `data.mydomain.com`), também conhecida como implementação CNAME. Ter um servidor de rastreamento que corresponda ao domínio do site pode ter alguns benefícios, dependendo de outros aspectos da implementação. Quando o servidor de rastreamento não corresponde ao domínio da página atual, os cookies definidos pelo AppMeasurement devem ser definidos como de terceiros. Se o navegador não for compatível com cookies de terceiros, essa incompatibilidade poderá interferir em determinadas funcionalidades do Analytics:
+
+- Definição de identificadores: se estiver usando o Serviço de identidade do Experience Cloud, o servidor de rastreamento não terá impacto sobre a definição de cookies. No entanto, se estiver usando identificadores herdados do Analytics (também conhecidos como `s_vi` cookie) e o servidor de coleção não corresponder ao domínio atual, os cookies deverão ser definidos como de terceiros. Nesse caso, se os cookies de terceiros estiverem bloqueados pelo navegador, o Analytics definirá uma ID de fallback primária (`s_fid`) em vez do padrão `s_vi` cookie.
+- O rastreamento de links não funcionará para links internos.
+- O Activity Map não funcionará para links internos.
+- Verificação de cookies.
 
 ### Cookies próprios
 
@@ -73,7 +78,7 @@ O indivíduo que configura inicialmente a implementação do cookie próprio tam
 s.trackingServer = "data.example.com";
 ```
 
-### Cookies de terceiros
+### Servidor de rastreamento de terceiros
 
 >[!TIP]
 >
