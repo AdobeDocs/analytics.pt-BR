@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 75d50a5b2cd31aa11df22fa6a271f7ab937a770c
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,10 @@ O módulo Activity Map faz parte do AppMeasurement.js, das tags da Adobe Experie
 
 +++SDK da Web (extensão de tags da Adobe Experience Platform)
 
-1. Nas tags da Adobe Experience Platform, navegue até a propriedade para a qual você está implementando o Analytics. Em [!UICONTROL Extensões] -> [!UICONTROL SDK da Web da Adobe Experience Platform], selecione **[!UICONTROL Habilitar a coleta de dados de cliques]**, conforme destacado abaixo.
+OBSERVAÇÃO: atualmente, o SDK da Web coleta informações de Activity Map gravando eventos de clique em links separados. Isso é diferente do AppMeasurement que registra informações de Activity Map para links internos, incluindo essas informações no carregamento da página subsequente. Por causa disso, a coleta do SDK da Web resulta em chamadas de servidor adicionais. Uma versão futura do SDK da Web possibilitará a configuração do SDK da Web para empacotar informações de Activity Map em ocorrências subsequentes, basicamente correspondendo ao comportamento do AppMeasurement.
+
+1. Nas tags do Adobe Experience Platform, navegue até a propriedade para a qual você está implementando o Analytics.
+1. Em [!UICONTROL Extensões] > [!UICONTROL Adobe Experience Platform Web SDK], selecione **[!UICONTROL Ativar a coleta de dados de cliques]** como destacado abaixo.
 1. Crie a biblioteca com as alterações.
 1. Publique a biblioteca na produção.
 
