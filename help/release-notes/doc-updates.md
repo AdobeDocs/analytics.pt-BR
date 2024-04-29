@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
 workflow-type: tm+mt
-source-wordcount: '5273'
-ht-degree: 99%
+source-wordcount: '5315'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Abril de 2024** | |
+| Remoção da documentação relacionada ao &quot;Proprietário&quot; nos conjuntos de classificação | O filtro e a coluna &quot;Proprietário&quot; foram removidos da [Gerenciador do conjunto de classificações](/help/components/classifications/sets/manage/set-manager.md) e o campo &quot;Proprietário&quot; foi removido da variável [Configurações do conjunto de classificações](/help/components/classifications/sets/manage/settings.md). <p>A documentação foi atualizada para remover este filtro, coluna e campo.</p> |
 | Seções recolhíveis removidas na documentação sobre como configurar locais de importação e exportação na nuvem | Seções recolhíveis removidas em [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md) para obter informações explicando os tipos de conta da nuvem. |
 | **Março de 2024** | |
 | Atualização do AppMeasurement | [Notas de versão](/help/implement/appmeasurement-updates.md) sobre a atualização v2.26.0 do AppMeasurement.<br/>Inclui referências e atualizações da [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) documentação de variáveis de configuração. |

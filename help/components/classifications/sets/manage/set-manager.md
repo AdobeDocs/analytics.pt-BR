@@ -1,16 +1,16 @@
 ---
-title: Gerenciador do conjunto de classificações
+title: Gerenciador de conjuntos de classificação
 description: Gerenciar conjuntos de classificações no Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 5%
+source-wordcount: '344'
+ht-degree: 7%
 
 ---
 
-# Gerenciador do conjunto de classificações
+# Gerenciador de conjuntos de classificação
 
 O gerenciador de conjuntos de classificações permite criar, editar ou excluir conjuntos de classificações.
 
@@ -20,7 +20,7 @@ Os conjuntos de classificações consistem em **Assinaturas** (combinações de 
 
 ## Filtrar conjuntos de classificação
 
-O lado esquerdo do gerenciador de conjuntos de classificações fornece configurações de filtro para localizar o conjunto de classificações desejado. Clicar no ícone de filtro alterna a visibilidade das configurações de filtro. É possível filtrar conjuntos de classificações por **[!UICONTROL Tags]**, **[!UICONTROL Conjunto de relatórios]** ou **[!UICONTROL Proprietário]**.
+O lado esquerdo do gerenciador de conjuntos de classificações fornece configurações de filtro para localizar o conjunto de classificações desejado. Clicar no ícone de filtro alterna a visibilidade das configurações de filtro. É possível filtrar conjuntos de classificações por **[!UICONTROL Tags]** ou **[!UICONTROL Conjunto de relatórios]**.
 
 ![Filtros de conjuntos de classificações](../../assets/classification-set-filters.png)
 
@@ -30,7 +30,6 @@ As seguintes colunas estão disponíveis no Gerenciador de conjuntos de classifi
 
 * **[!UICONTROL Conjunto de classificações]**: o nome do conjunto de classificações. Clicar no nome de um conjunto de classificações [edita suas configurações](settings.md).
 * **[!UICONTROL Assinaturas]**: o número de assinaturas às quais esse conjunto de classificações se aplica.
-* **[!UICONTROL Proprietário]**: o proprietário do conjunto de classificações.
 * **[!UICONTROL Classificações]**: o número de dimensões de classificação que o conjunto de classificações contém.
 * **[!UICONTROL Automatizado]**: determina se o conjunto de classificações está configurado para importar dados automaticamente de um local na nuvem. A automação pode ser configurada no do conjunto de classificações [schema](schema.md).
 * **[!UICONTROL Última modificação]**: a data e a hora em que o conjunto de classificações foi modificado pela última vez.
