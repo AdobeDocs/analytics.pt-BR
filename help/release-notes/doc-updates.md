@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
 source-wordcount: '5315'
 ht-degree: 98%
@@ -150,7 +150,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Novo tópico sobre o painel [!UICONTROL Resumo da página] | [Painel Resumo da página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Novo tópico sobre o painel [!UICONTROL Item seguinte/anterior] | [Painel Item de dimensão seguinte/anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Março de 2022** | |
-| Novo tópico sobre algoritmos de criptografia HTTPS compatíveis | [Algoritmos de criptografia HTTPS compatíveis](/help/technotes/rdc/encryption-algos.md) para clientes com nível de segurança de cifra definido como “Alto”. |
+| Novo tópico sobre algoritmos de criptografia HTTPS compatíveis | Algoritmos de criptografia HTTPS compatíveis para clientes com nível de segurança de cifra definido como &quot;Alto&quot;. |
 | Nova documentação sobre anotações no Analysis Workspace | [As anotações no Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) permitem comunicar com eficiência nuances de dados contextuais e insights à sua organização. |
 | Atualizações da página de aterrissagem do Adobe Analytics | [Atualizações](/help/analyze/landing.md) na página de aterrissagem conjunta do Analysis Workspace/Reports &amp; Analytics que melhoram a usabilidade e a facilidade de navegação. |
 | [!UICONTROL Próximo item] ou [!UICONTROL Item anterior] no painel Espaço de trabalho | Esse painel permite explorar itens que seguem ou precedem um item de dimensão de sua escolha. |
@@ -296,7 +296,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 9 de maio de 2019 | Uma nova configuração foi adicionada às configurações da Visualização de fluxo: Incluir instâncias repetidas. Consulte [Configurações de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 11 de abril de 2019 | Melhorias nas práticas recomendadas de otimização do Espaço de trabalho: [otimizar o desempenho](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11 de abril de 2019 | Atualizações em [Otimizar o desempenho do Espaço de trabalho](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
-| 14 de março de 2019 | Atualização importante em [Coleta de dados regionais](/help/technotes/rdc/regional-data-collection.md). |
+| 14 de março de 2019 | Atualização importante em Coleta de dados regionais. |
 | 7 de fevereiro de 2019 | Pequena atualização nas configurações de “Substituir o último octeto dos endereços IP por 0” e “Obfuscação de IP” nas [Configurações gerais da conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1 de fevereiro de 2019 | Atualização importante no plug-in de implementação [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 de janeiro de 2019 | [Análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) — as principais melhorias na análise de coorte permitem:<ul><li>Aplicar uma inclusão de segmento e retornar métricas separadamente. </li><li>Exibir alteração (churn) em vez de retenção.</li><li>Exibir tabelas de latência (tempo decorrido antes e depois de um evento de inclusão).</li><li>Personalizar dimensão de coorte (para agrupar visitantes com base em uma eVar, não somente no tempo).</li><li>Executar um cálculo acumulado de coorte: calcule a retenção/abandono com base em um período anterior, não na coorte original. </li><li>Adicionar várias métricas em campos de inclusão e de resultados, além de aplicar segmentos. (As métricas calculadas não são aceitas)</li></ul> |

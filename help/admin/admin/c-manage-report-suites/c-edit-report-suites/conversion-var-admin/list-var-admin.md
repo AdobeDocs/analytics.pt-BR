@@ -4,39 +4,38 @@ description: Crie e configure variáveis de lista para usar em relatórios.
 feature: Admin Tools
 role: Admin
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 90%
+source-wordcount: '489'
+ht-degree: 25%
 
 ---
 
 # Variáveis da Lista
 
-Crie e configure variáveis de lista para usar em relatórios. Defina os valores de delimitador, expiração, alocação e máximo.
+Crie e configure variáveis de lista para usar em relatórios. Defina os valores de delimitador, expiração, alocação e máximo. Colete dados para variáveis de lista usando [`list1` - `list3`](/help/implement/vars/page-vars/list.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Métodos de descoberta]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL variáveis de lista]**
 
-* **Nome**: cada valor delimitado pode conter um máximo de 255 caracteres (ou menos se estiver usando caracteres multibyte). Esse é o comprimento máximo para cada elemento.
-* **Delimitador de valor**: O caractere usado para separar valores na List Var. Com maior frequência, são caracteres como vírgulas, dois pontos, barras verticais, ou algo parecido.
+* **[!UICONTROL Nome]**: o nome da variável de lista. Esse nome é o rótulo da dimensão no Analysis Workspace.
 
-  >[!NOTE]
-  >
-  >Caracteres multibyte não são suportados como delimitadores em Vars de lista. O delimitador deve ser de byte único.
+* **[!UICONTROL Status]**: ativar ou desativar a coleta de dados para essa variável. Se uma variável estiver desativada, nenhum dado será coletado, mesmo se a implementação enviar dados para essa variável.
 
-* **Expiração**: Semelhante à expiração de eVar, esse campo determina a quantidade de tempo que pode ocorrer entre a Var de lista e o evento de conversão para que eles sejam relacionados.
-   * **Em uma exibição de página ou nível de visita**: Eventos bem-sucedidos além de exibição de página ou visita não vinculariam a qualquer valor na List Var.
-   * **Com base no período, como dia, semana, mês, etc.**: Eventos bem-sucedidos além do período especificado não vinculariam a qualquer valor na List Var. Um número personalizado de dias também pode ser definido aqui.
-   * **Eventos de conversão específicos**: Quaisquer outros eventos de bem-sucedidos acionados depois do evento específico designado não vinculariam a qualquer valor na List Var.
-   * **Nunca**: Qualquer período pode ser passar entre a List Var e o evento bem-sucedido.
+* **[!UICONTROL Delimitador de valor]**: o caractere usado para separar valores na variável de lista. Normalmente, esses são caracteres como vírgulas, dois pontos, barras verticais ou algo semelhante. Caracteres multibyte não são suportados como delimitadores em variáveis de lista.
 
-* **Alocação**: Essa configuração determina como os eventos de sucesso dividem crédito entre os valores:
+* **[!UICONTROL Expirar após]**: Semelhante à expiração de eVar, esse campo determina a quantidade de tempo que pode ocorrer entre a variável de lista e o evento de conversão para que eles sejam relacionados.
+   * **Em um nível de exibição de página ou visita**: eventos bem-sucedidos além da exibição de página ou visita não vinculavam a nenhum valor na variável de lista.
+   * **Com base em um período de tempo, como dia, semana, mês etc**: eventos bem-sucedidos além do período de tempo especificado não eram vinculados a nenhum valor na variável de lista. Um número personalizado de dias também pode ser definido aqui.
+   * **Eventos de conversão específicos**: qualquer outro evento bem-sucedido acionado após o evento específico designado não vincularia novamente a nenhum valor na variável de lista.
+   * **Nunca**: qualquer quantidade de tempo pode passar entre a variável de lista e o evento bem-sucedido.
+
+* **[!UICONTROL Alocação]**: Essa configuração determina como os eventos de sucesso dividem crédito entre os valores:
    * **Total**: todos os valores de variável anteriores à expiração da variável obtêm crédito total por eventos bem-sucedidos.
    * **Linear**: todos os valores de variável anteriores à expiração da variável obtêm crédito dividido para eventos bem-sucedidos.
    * Os valores da variável nunca são sobrescritos, mas sim adicionados aos valores que obtêm crédito para eventos bem-sucedidos.
 
-* **Valores máx.**: designa o número de valores ativos permitidos para essa variável de lista. Por exemplo, se for definido como 3, somente os últimos 3 valores capturados são salvos e qualquer valor anterior capturado é descartado. Observe que se diversos valores da mesma var de lista são enviados na mesma ocorrência que você restringiu o uso de valores de máximo, cada valor terá o mesmo carimbo de data e hora e não há garantia de qual valor é salvo.
+* **[!UICONTROL Descrição]**: uma descrição de como sua organização usa a variável de lista.
 
-Um limite máximo de 250 valores é armazenado de uma vez por visitante. Se a quantidade de 250 valores por visitante for excedida, os 250 valores mais recentes serão usados. A expiração desses valores tem por base a expiração configurada da variável.
+* **[!UICONTROL Valores máx.]**: designa o número de valores ativos permitidos para essa variável de lista. Por exemplo, se for definido como 3, somente os últimos 3 valores capturados são salvos e qualquer valor anterior capturado é descartado. Observe que se vários valores para a mesma variável de lista forem enviados na mesma ocorrência e você tiver restrito usando valores máximos, cada valor terá o mesmo carimbo de data e hora e não haverá garantia de qual valor será salvo. Se um visitante persistir em mais valores do que o máximo permitido, os valores mais recentes serão usados. São permitidos até 250 valores máximos.
 
-A configuração Valores máx. é útil para limitar a atribuição para um número específico de valores. Por exemplo, se uma var de lista está definida como &quot;A,B,C&quot; na primeira página de uma visita, em seguida, definida como &quot;X,Y,Z&quot; na próxima página, a atribuição é distribuída para esses seis valores com base na alocação. Se você deseja limitar a atribuição somente a &quot;X,Y,Z&quot;, você pode definir os valores máximos como três.
+  Essa configuração é útil para limitar a atribuição a um número específico de valores. Por exemplo, se uma variável de lista estiver definida como `"A,B,C"` na primeira página de uma visita, depois defina como `"X,Y,Z"` na próxima página, a atribuição é distribuída a esses seis valores com base em sua alocação. Se você quiser limitar a atribuição a apenas `"X,Y,Z"`, você pode definir valores máximos como três.

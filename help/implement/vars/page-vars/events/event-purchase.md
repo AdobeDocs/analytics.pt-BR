@@ -4,10 +4,10 @@ description: Use o evento de compra para coletar dados das métricas "Pedidos", 
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 72%
+source-wordcount: '468'
+ht-degree: 70%
 
 ---
 
@@ -30,10 +30,34 @@ Quando você define um evento de compra, ele afeta as seguintes métricas:
 Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), o evento de compra usa os seguintes campos XDM:
 
 * Os pedidos são mapeados para `xdm.commerce.purchases.value`.
-* As unidades são mapeadas para a soma de todos os campos `xdm.productListItems[].quantity`.
+* As unidades são mapeadas para a soma de todos `xdm.productListItems[].quantity` campos. Consulte [`products`](../products.md) para obter mais informações.
 * A receita é mapeada para a soma de todos os campos `xdm.productListItems[].priceTotal`.
 
+```json
+{
+  "xdm": {
+    "commerce": {
+      "purchases": {
+        "value": 1
+      }
+    }
+  }
+}
+```
+
 Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), o evento de compra usa `data.__adobe.analytics.events`, seguindo a sintaxe da string de AppMeasurement.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "events": "purchase"
+      }
+    }
+  }
+}
+```
 
 ## Definir o evento de compra usando a extensão do Adobe Analytics
 

@@ -4,10 +4,10 @@ description: Envie dados sobre quais produtos são exibidos ou que estão no car
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 64%
+source-wordcount: '658'
+ht-degree: 67%
 
 ---
 
@@ -30,11 +30,42 @@ Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md
 * As eVars de merchandising são mapeadas para `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` para `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependendo do eVar que você deseja vincular a um produto.
 * Os eventos de comercialização são mapeados para `xdm.productListItems[]._experience.analytics.event1to100.event1.value` para `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, dependendo do evento que você deseja vincular a um produto. Se você definir um evento em um desses campos, ele será incluído automaticamente na variável [evento](events/events-overview.md) sequência de caracteres enviada para o Adobe Analytics.
 
->[!NOTE]
->
->`lineItemId` deve ser adicionado como um campo personalizado, pois ainda não faz parte do esquema padrão Evento do Analytics. O Adobe planeja adicionar um campo &quot;Categoria&quot; dedicado no futuro.
+```json
+{
+  "xdm": {
+    "productListItems": [{
+      "productCategories": [{
+        "categoryID": "Men's"
+      }],
+      "name": "Hiking boot",
+      "quantity": 1,
+      "priceTotal": 49.99
+    },
+    {
+      "productCategories": [{
+        "categoryID": "Camping"
+      }],
+      "name": "Hunting blind",
+      "quantity": 3,
+      "priceTotal": 699.69
+    }]
+  }
+}
+```
 
 Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), a variável products usa `data.__adobe.analytics.products` sintaxe de AppMeasurement a seguir. Se você definir esse campo, quaisquer produtos definidos no objeto XDM serão substituídos e não enviados para o Adobe Analytics.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "products": "Archery;Fletched arrow;12;159.99"
+      }
+    }
+  }
+}
+```
 
 ## Produtos que usam a extensão Adobe Analytics
 
