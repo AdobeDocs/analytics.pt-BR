@@ -5,9 +5,9 @@ user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: Conheça maneiras de implementar o Adobe Analytics. Personalize quais dados são coletados para aproveitar ao máximo os dados do Analytics.
 source-git-commit: 8727d6167a2c161ba646ae2217b0a6e7c4656dd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -140,10 +140,10 @@ ht-degree: 94%
    + [Mapeamento de variáveis de objetos de XDM](aep-edge/xdm-var-mapping.md)
    + SDK da Web {#web-sdk}
       + [Visão geral do SDK da Web](aep-edge/web-sdk/overview.md)
-      + [Migrar para o SDK da Web usando tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
-      + [Migrar para o SDK da Web usando JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
-      + [Nova implementação usando tags](aep-edge/web-sdk/web-sdk-tag-extension.md)
-      + [Nova implementação usando JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
+      + [Migrar para o SDK da web com tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
+      + [Migrar para o SDK da web com JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
+      + [Nova implementação com tags](aep-edge/web-sdk/web-sdk-tag-extension.md)
+      + [Nova implementação com JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + SDK móvel {#mobile-sdk}
       + [Visão geral do SDK móvel](aep-edge/mobile-sdk/overview.md)
    + API do servidor {#server-api}
