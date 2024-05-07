@@ -1,11 +1,11 @@
 ---
 title: Pesquisas dinâmicas
 description: Saiba mais sobre o que são pesquisas dinâmicas e como ativá-las. Inclui operadoras, atributos móveis e tipos de sistema operacional.
-exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Para receber os arquivos de pesquisa mencionados, você deve atender a todos os 
    * Para `carrier.tsv`, você deve incluir `carrier`.
    * Para `mobile_attributes.tsv`, você deve incluir `mobile_id`.
    * Para `operating_system_type.tsv`, você deve incluir `os`.
-* As seguintes colunas devem ser **excluído**. Se qualquer uma dessas colunas estiver incluída no feed de dados, as tabelas de pesquisa adicionais não serão incluídas.
+* As seguintes colunas devem ser **excluído**. Se qualquer uma dessas colunas estiver incluída no feed de dados, a variável `mobile_attributes.tsv` a pesquisa dinâmica não está incluída.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`

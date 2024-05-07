@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Conteúdos do feed de dados - visão geral
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 77%
+source-wordcount: '1002'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ Para acessar o conteúdo de um feed de dados:
 
 1. Descompacte o arquivo compactado usando um programa compatível com extensões de arquivo `.tar.gz`.
 
-1. Abra o arquivo `hit_data.tsv` na planilha ou no aplicativo de banco de dados preferido para ver os dados brutos desse dia. —>
+1. Abra o `hit_data.tsv` arquivo na planilha ou no aplicativo de banco de dados preferido para ver os dados brutos desse dia. —>
 
 ## Arquivo manifest {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 Todo arquivo de manifesto contém um cabeçalho, que indica o número total de arquivos de pesquisa, arquivos de dados e o número total de registros em todos os arquivos de dados. Esse cabeçalho é seguido por várias seções com informações de cada arquivo incluído na entrega do feed de dados.
 
-Alguns feeds são configurados para receber um arquivo `.fin` em vez de um manifesto `.txt`. O `.fin` indica que o carregamento foi concluído, mas não possui metadados sobre o carregamento.
+Alguns feeds são configurados para receber um arquivo `.fin` em vez de um manifesto `.txt`. A variável `.fin` indica que o carregamento foi concluído, mas os metadados que ele contém estão em um formato antigo.
 
 ## Arquivos de pesquisa
 
@@ -107,6 +107,7 @@ Os arquivos entregues pela Adobe variam com base no tipo de feed de dados config
 * `[YYYY-mm-dd]` refere-se ao dia de início do feed de dados.
 * `[HHMMSS]` é usado somente em feeds por hora e refere-se à hora inicial para a qual o feed de dados é usado.
 * `[compression_suffix]` refere-se ao tipo de compactação usado. Normalmente, os feeds de dados são compactados em `tar.gz` ou `zip` arquivos.
+* `[format_suffix]` refere-se ao tipo de formato de arquivo. Normalmente, o formato do arquivo do feed de dados é `.tsv`.
 
 ### Por dia, único arquivo
 
@@ -122,7 +123,7 @@ Depois que os dados forem coletados por um dia, você receberá um ou mais arqui
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Quando extraído, cada arquivo de dados contém um único `hit_data.tsv` que contém aproximadamente 2 GB de dados descompactados, bem como arquivos de pesquisa para qualquer coluna necessária.
+Quando extraído, cada arquivo de dados contém um único `[index]-[rsid]_[YYYY-mm-dd].[format_suffix]` que contém aproximadamente 2 GB de dados descompactados, bem como arquivos de pesquisa para qualquer coluna necessária.
 
 ### Por hora, único arquivo
 
@@ -134,11 +135,11 @@ Quando extraído, o arquivo de dados contém um único `hit_data.tsv` arquivo co
 
 ### Por hora, vários arquivos
 
-Depois que os dados forem coletados por uma hora, você receberá um ou mais arquivos de dados compactados e um arquivo manifest. O nome do arquivo de dados é:
+Depois que os dados forem coletados por uma hora, você receberá um ou mais arquivos de dados compactados e um arquivo manifest. Os arquivos de dados são nomeados como:
 
-`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Quando extraído, cada arquivo de dados contém um único `hit_data.tsv` que contém aproximadamente 2 GB de dados descompactados, bem como arquivos de pesquisa para qualquer coluna necessária.
+Quando extraído, cada arquivo de dados contém um único `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` arquivo que contém aproximadamente 2 GB de dados descompactados, bem como arquivos de pesquisa para quaisquer colunas necessárias.
 
 ## Tamanho do arquivo de dados
 

@@ -3,10 +3,10 @@ title: Interface do usuário do feed de dados
 description: Saiba como navegar na interface do feed de dados.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 77%
+source-wordcount: '692'
+ht-degree: 68%
 
 ---
 
@@ -71,7 +71,7 @@ Cada feed criado mostra várias colunas fornecendo informações sobre ele. Sele
    * Excluído: o feed é excluído.
    * Concluído: o feed terminou de ser processado. Um feed concluído pode ser editado, suspenso ou cancelado.
    * Pendente: o feed é criado, mas ainda não está ativo. Os feeds permanecem nesse estado por um curto período de transição.
-   * Inativo: equivalente a um estado &quot;pausado&quot; ou &quot;em espera&quot;. Quando o feed é reativado, ele reinicia a entrega de trabalhos a partir de onde parou.
+   * Inativo: equivalente a um estado &quot;pausado&quot; ou &quot;em espera&quot;. Se um feed de preenchimento retroativo (um feed que processa apenas dados históricos) for reativado, ele retomará a entrega de trabalhos a partir de onde parou. Se um feed ativo for reativado, ele retomará a entrega de trabalhos a partir de onde parou.
 * **Última modificação**: a data em que o feed foi modificado pela última vez. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
 * **Data de início**: a data do primeiro trabalho para este feed. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
 * **Data final**: a data do último trabalho para este feed. Os feeds de dados em andamento não têm uma data de término.
@@ -84,4 +84,4 @@ Clique na caixa de seleção ao lado de um feed de dados para revelar as ações
 * **Excluir**: exclui o feed de dados, definindo o status como [!UICONTROL Excluído].
 * **Copiar**: é necessário [criar um novo feed](create-feed.md) com todas as configurações do feed atual. Não é possível copiar um feed de dados se mais de um estiver selecionado.
 * **Pausar**: interrompe o processamento do feed, definindo seu status como [!UICONTROL Inativo].
-* **Ativar**: disponível somente para feeds inativos. Seleciona os dados de processamento exatamente onde pararam, preenchendo as datas retroativas, se necessário.
+* **Ativar**: disponível somente para feeds inativos. Os feeds de preenchimento retroativo (feeds que processam apenas dados históricos) retomam o processamento de dados de onde pararam, preenchendo retroativamente qualquer data, se necessário. Os feeds em tempo real retomam o processamento dos dados a partir da hora atual.
