@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: ht
-source-wordcount: '5315'
-ht-degree: 100%
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+workflow-type: tm+mt
+source-wordcount: '5448'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,9 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **Maio de 2024** | |
+| Nova documentação para atualização do Adobe Analytics para o Customer Journey Analytics | Para organizações que estão atualizando do Adobe Analytics para o Customer Journey Analytics, há várias opções de atualização e várias considerações a serem levadas em conta com base na implementação atual do Adobe Analytics em uma organização e nas metas de longo prazo.<p>Novos recursos de documentação agora estão disponíveis para ajudá-lo a entender melhor:</p><ul><li>Os vários caminhos de atualização existentes</li><li>Quais caminhos de atualização estão disponíveis com base na implementação Adobe Analytics atual de uma organização</li><li>As vantagens e desvantagens de cada caminho de atualização</li><li>Orientação passo a passo para cada caminho de upgrade</li><li>Considerações para manuseio de dados históricos</li><li>E muito mais!</li></ul><p>[Introdução à atualização para o Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Atualização da documentação sobre intervalos de datas personalizados | Capturas de tela e procedimentos atualizados relacionados ao [criação de intervalos de datas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para corresponder aos recursos e design atuais do produto. |
 | **Abril de 2024** | |
 | Remoção da documentação relacionada ao “Proprietário” nos conjuntos de classificação | O filtro e a coluna “Proprietário” foram removidos do [Gerenciador do conjunto de classificação](/help/components/classifications/sets/manage/set-manager.md) e o campo “Proprietário” foi removido das [Configurações do conjunto de classificação](/help/components/classifications/sets/manage/settings.md). <p>A documentação foi atualizada para remover este filtro, coluna e campo.</p> |
 | Seções recolhíveis removidas da documentação sobre como configurar locais de importação e exportação na nuvem | Seções recolhíveis removidas de [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md) para as informações que explicam os tipos de conta na nuvem. |

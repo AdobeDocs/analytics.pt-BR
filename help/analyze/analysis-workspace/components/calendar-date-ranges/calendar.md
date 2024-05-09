@@ -4,10 +4,10 @@ title: Visão geral do calendário e do intervalos de datas
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
-workflow-type: ht
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ Lembre-se das seguintes diretrizes ao usar intervalos de datas relativos ao pain
 
 ### Fórmulas e intervalos de datas relativos {#formula-relative-dates}
 
-Se você tiver selecionado datas relativas, todas as fórmulas de datas usarão a data inicial do painel como ponto de partida.
+Se você tiver datas relativas selecionadas, todas as fórmulas de data usarão a data de início do painel como ponto de partida.
 
 ### Calendários personalizados e intervalos de datas relativos {#custom-calendar-formulas}
 
