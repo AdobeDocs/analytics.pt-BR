@@ -5,9 +5,9 @@ feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
 source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1909'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ O comportamento padrão nessas versões do navegador é tratar cookies que não 
 
 Para clientes que usam o Serviço de ID de visitante, os cookies têm as propriedades `SameSite=None` e `secure` definidas por padrão, o que permite que esses cookies sejam compatíveis com casos de uso de terceiros.
 
-Para clientes que usam identificadores herdados do Analytics (`s_vi` e `s_fid` cookies), os cookies também são definidos para permitir casos de uso de terceiros com domínios de coleção padrão: `adobedc.net`, `2o7.net`, e `omtrdc.net`. Para clientes que usam uma implementação CNAME, o Analytics define `SameSite=Lax`.
+Para clientes que usam identificadores legados do Analytics (cookies `s_vi` e `s_fid`), os cookies também são definidos para habilitar casos de uso de terceiros com domínios de coleção padrão: `adobedc.net`, `2o7.net` e `omtrdc.net`.  Para clientes que usam uma implementação CNAME, o Analytics define `SameSite=Lax`.
 
 >[!NOTE]
 >
