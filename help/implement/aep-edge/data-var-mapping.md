@@ -4,28 +4,28 @@ description: Visualize quais campos de objeto de dados o Experience Platform Edg
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
+source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 5%
+source-wordcount: '541'
+ht-degree: 2%
 
 ---
 
 # Mapeamento da variável de objeto de dados para o Adobe Analytics
 
-A tabela a seguir mostra as variáveis de objeto de dados que a Rede de borda da Adobe Experience Platform mapeia automaticamente para a Adobe Analytics. Se você usar esses caminhos de campo de objeto de dados, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics.
+A tabela a seguir mostra as variáveis de objeto de dados que o Edge Network Adobe Experience Platform mapeia automaticamente para o Adobe Analytics. Se você usar esses caminhos de campo de objeto de dados, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics.
 
-O uso desses campos é recomendado se você pretende usar o Customer Journey Analytics no futuro. Esse método de implementação permite que sua organização envie dados para o Adobe usando o SDK da Web sem estar em conformidade com um esquema XDM. Quando sua organização estiver pronta para enviar dados para a Adobe Experience Platform, você poderá usar [Mapeamento de sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) para apontar campos de objeto de dados para seus respectivos campos XDM.
+O uso desses campos é recomendado se você pretende usar o Customer Journey Analytics no futuro. Esse método de implementação permite que sua organização envie dados para o Adobe usando o SDK da Web sem estar em conformidade com um esquema XDM. Quando sua organização estiver pronta para enviar dados para a Adobe Experience Platform, você poderá usar [Mapeamento de sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) para apontar campos de objeto de dados para seus respectivos campos XDM.
 
 ## Prioridades de valor
 
-A maioria dos campos de objeto de dados nesta tabela coincide com um [campo XDM mapeado](xdm-var-mapping.md). Se você definir uma determinada `data` e seu respectivo campo XDM, o campo do objeto de dados terá prioridade. Se você usar os campos de objeto XDM e objeto de dados, o Adobe recomenda definir eventos personalizados usando o campo objeto de dados. Se o campo `data.__adobe.analytics.events` estiver presente, substituirá todos os campos de objeto XDM relacionados ao comércio e aos eventos personalizados.
+A maioria dos campos de objeto de dados nesta tabela coincide com um [campo XDM mapeado](xdm-var-mapping.md). Se você definir um determinado campo de objeto de dados e seu respectivo campo XDM, o campo de objeto de dados terá prioridade. Por exemplo, se o `data.__adobe.analytics.events` estiver presente, substituirá todos os campos de objeto XDM relacionados ao evento.
 
 Alguns campos de objetos de dados também oferecem suporte aos respectivos [Consultar valor de parâmetro](../validate/query-parameters.md) como valores abreviados. Você pode usar campos padrão de objetos de dados e campos abreviados de objetos de dados alternadamente, desde que cada um deles seja para variáveis exclusivas. Evite definir um campo de objeto de dados padrão e seu respectivo campo de objeto de dados abreviado ao mesmo tempo. O Adobe não pode garantir qual campo tem prioridade.
 
 ## Mapeamento de campo do objeto de dados
 
-As atualizações anteriores desta tabela podem ser encontradas no [histórico de confirmações desta página no GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md).
+Atualizações anteriores nesta tabela podem ser encontradas no [confirmar histórico no GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). De maneira semelhante às variáveis de AppMeasurement, todos os campos de objetos de dados fazem distinção entre maiúsculas e minúsculas.
 
 | Caminho do campo de objeto de dados | Variável e descrição do Analytics |
 | --- | --- |
