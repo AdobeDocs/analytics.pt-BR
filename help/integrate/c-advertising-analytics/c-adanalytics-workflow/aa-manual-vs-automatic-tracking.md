@@ -1,51 +1,55 @@
 ---
-description: O rastreamento determina como os dados do mecanismo de pesquisa são rastreados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
-title: 'Rastreamento: modo manual e modo automático'
+description: O tipo de rastreamento determina como a implementação do Adobe Analytics rastreia os dados do mecanismo de pesquisa. Esse tipo de rastreamento é uma etapa necessária para aumentar os dados do Adobe Analytics corretamente com os dados do mecanismo de pesquisa.
+title: Tipo de rastreamento
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 32%
 
 ---
 
-# Rastreamento: modo manual e modo automático
+# Tipo de rastreamento
 
-O rastreamento determina como os dados do mecanismo de pesquisa são rastreados por sua implementação do Adobe Analytics. Essa é uma etapa obrigatória para aumentar adequadamente os dados do Adobe Analytics com os dados do Mecanismo de pesquisa.
+O tipo de rastreamento determina como a implementação do Adobe Analytics rastreia os dados do mecanismo de pesquisa. Esse tipo de rastreamento é uma etapa necessária para aumentar os dados do Adobe Analytics corretamente com os dados do mecanismo de pesquisa.
 
-Esta é uma visão geral em vídeo de como implementar o modelo de rastreamento do Advertising Analytics:
+<!--
+
+Here is a video overview of how to implement the Advertising Analytics tracking template:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
-Dois modos de rastreamento são compatíveis: Modo automático e Modo manual.
+-->
 
-## Rastreamento no modo automático {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+Dois modos de rastreamento são compatíveis: [!UICONTROL Automático] e [!UICONTROL Manual].
 
-No modo automático, o mecanismo da Advertising Cloud fica responsável por decidir como os dados do mecanismo de pesquisa devem ser tratados. Essa é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.
+## [!UICONTROL Automático] Rastreamento {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-Como consequência, é necessário marcar uma caixa de seleção de confirmação ao selecionar o Modo automático, antes que você possa salvar a configuração da conta.
+[!UICONTROL Automático] o rastreamento de permite que o mecanismo do Advertising Cloud decida como os dados do mecanismo de pesquisa devem ser tratados. O rastreamento automático é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.
 
-Observe que, para configurar uma conta de mecanismo de pesquisa no “Modo automático”, você será responsável pelas seguintes ações:
+Como consequência, você precisa marcar uma caixa de seleção de confirmação ao selecionar **[!UICONTROL Automático]** antes de salvar a configuração da conta.
 
-* O parâmetro `s_kwcid` e valor serão adicionados aos modelos de rastreamento da conta ou aos URLs da página inicial na conta que está sendo adicionada. Ele será inserido ao final do URL. Pode ser necessária uma ação adicional de sua parte se o servidor da Web solicitar um determinado par chave=valor ao final do URL OU uma atualização para dar suporte a um novo par chave=valor no URL. **É sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página inicial final.**
-* Além disso, palavras-chave podem ser inseridas no URL inicial como parte do valor `s_kwcid`. Se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres. Exemplo: um caractere especial é o “+”, que pode ser usado em palavras-chave de “Grande correspondência modificada”.
+Observe que para configurar uma conta de mecanismo de pesquisa com **[!UICONTROL Automático]** é responsável por realizar as seguintes ações:
+
+* A variável `s_kwcid` O parâmetro e o valor são adicionados aos modelos de rastreamento da conta ou aos URLs da página inicial na conta que está sendo adicionada. Esse parâmetro e valor são inseridos no final do URL. Pode ser necessária uma ação adicional de sua parte se o servidor da Web exigir um determinado `key=value` emparelhe no final do URL. Ou uma atualização para oferecer suporte a novos `key=value` emparelhe no URL. É sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página inicial final.
+* Além disso, palavras-chave podem ser inseridas no URL inicial como parte do valor `s_kwcid`. Se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres. Por exemplo, um caractere especial comum é `+`, que é usado em palavras-chave de &quot;Grande correspondência modificada&quot;.
 
 >[!IMPORTANT]
 >
->Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=pt-BR).
+>Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
-## Rastreamento no modo manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## Rastreamento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
-No modo Manual, é necessário especificar como os dados do mecanismo de pesquisa devem ser tratados pelo processo de integração de dados do Advertising Analytics.
+O rastreamento manual permite especificar como o processo de integração de dados do Advertising Analytics deve tratar os dados do mecanismo de pesquisa.
 
-### Adicionar rastreamento manual à conta do Google {#section_41C1EB1AEB034544A5BC291F53C05C67}
+### Adicionar rastreamento manual à conta da Google {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
 A sequência de caracteres que precisa ser adicionada a sua conta do Google é mostrada abaixo. É necessário adicionar a sequência de caracteres em todos os modelos de rastreamento usados em sua conta.
 
 >[!IMPORTANT]
 >
->O `<Advertising Analytics ID>` valor (em **negrito** abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. É possível obter sua sequência de caracteres da ID de conta específica na tela de configuração da conta, na seção “Rastreamento”.
+>O *`<Advertising Analytics ID>`* valor (em **negrito** abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. Você pode obter sua sequência de caracteres da ID de conta específica na tela de conta sob o [!UICONTROL Rastreamento] seção.
 
 **Sequência de caracteres de rastreamento de campanhas:**
 
@@ -54,7 +58,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![](assets/Google.png)
+![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
 
 Exemplos de códigos de rastreamento em vários formatos de modelo de rastreamento:
 
@@ -78,7 +82,11 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **Terceiros (DoubleClick)`{lpurl}`**
 
-Se o URL passar por um redirecionamento e não estiver usando um valor “unescapedlpurl”, será preciso codificar a string tantas vezes quanto for necessário para que ela persista pelo redirecionamento para o URL da página inicial final.
+Para garantir que a string persiste por meio do redirecionamento para o URL da página inicial final, é necessário codificar a string de maneira suficiente:
+
+* se o URL passar por um redirecionamento e
+* não está usando um valor &quot;unescapedlpurl&quot;.
+
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
@@ -90,7 +98,7 @@ A sequência de caracteres que precisa ser adicionada a sua conta do Bing é mos
 
 >[!IMPORTANT]
 >
->O `<Advertising Analytics ID>` valor (em **negrito** abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. É possível obter sua sequência de caracteres da ID de conta específica na tela de configuração da conta, na seção “Rastreamento”.
+>O _`<Advertising Analytics ID>`_valor (em **negrito**abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. É possível obter sua sequência de caracteres da ID de conta específica na tela da conta, na seção &quot;Rastreamento&quot;.
 
 **Sequência de caracteres de rastreamento de campanhas:**
 
@@ -98,7 +106,7 @@ A sequência de caracteres que precisa ser adicionada a sua conta do Bing é mos
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![](assets/Bing.png)
+![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 Exemplos de códigos de rastreamento em vários formatos de sufixos de URL final:
 
@@ -123,7 +131,10 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **Terceiros (DoubleClick)`{lpurl}`**
 
-Se o URL passar por um redirecionamento e não estiver usando um valor “unescapedlpurl”, será preciso codificar a string tantas vezes quanto for necessário para que ela persista pelo redirecionamento para o URL da página inicial final.
+Para garantir que a string persiste por meio do redirecionamento para o URL da página inicial final, é necessário codificar a string de maneira suficiente:
+
+* se o URL passar por um redirecionamento e
+* não está usando um valor &quot;unescapedlpurl&quot;.
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}

@@ -3,28 +3,28 @@ description: Detalhes sobre o modelo do Analysis Workspace e relatórios no Repo
 title: Relatório sobre dados de publicidade no Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 92%
+source-wordcount: '356'
+ht-degree: 49%
 
 ---
 
-# Relatório sobre dados de publicidade no Adobe Analytics
+# Relatório sobre dados de publicidade
 
-Detalhes sobre o modelo do Analysis Workspace e relatórios no Report Builder.
-
->[!NOTE]
->
->É necessário esperar pelo menos 24 horas até que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics. Além disso, observe que os relatórios do Analytics não retornarão dados de granularidade por hora, pois os dados do AMO não são compatíveis com granularidade por hora.
-
-## Analysis Workspace: mecanismos de pesquisa {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
-
-Este modelo permite que qualquer um que implemente esta integração do mecanismo de pesquisa tenha acesso aos dados copiados do mecanismo de pesquisa que estão no Analytics. É possível acessá-lo em **[!UICONTROL Analysis Workspace]** > **[!UICONTROL Modelos]** > **[!UICONTROL Publicidade]** > **[!UICONTROL Mecanismos de pesquisa.]**
+Este artigo fornece detalhes sobre o relatório do Analysis Workspace e os relatórios no Report Builder.
 
 >[!NOTE]
 >
->A categoria de Publicidade está visível a todos os clientes, mesmo se você não tiver implementado uma conta publicitária. Contudo, se tentar abrir o modelo de Mecanismos de pesquisa paga de uma empresa que não foi provisionada, uma mensagem de erro explicará que você ainda não configurou qualquer conta de mecanismo de pesquisa. Neste caso, clique em **[!UICONTROL Configurar agora]**, o que o encaminhará para a tela [Configuração da conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+>É necessário esperar pelo menos 24 horas até que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics. Observe também que os relatórios do Analytics não retornam dados para granularidade por hora, pois os dados do Advertising Cloud não são compatíveis com granularidade por hora.
+
+## Relatório de pesquisa paga {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+
+Este relatório permite que qualquer pessoa que implemente a integração de mecanismo de pesquisa tenha acesso aos dados do mecanismo de pesquisa no Analytics. É possível acessá-lo via **[!UICONTROL Workspace]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Aquisição]** > **[!UICONTROL Advertising Analytics: pesquisa paga]**
+
+>[!NOTE]
+>
+>O relatório Pesquisa paga estará visível para todos os clientes, mesmo se você não tiver implementado nenhuma Conta publicitária. Se você tentar abrir o Relatório de pesquisa paga para uma empresa que não foi provisionada, uma mensagem de erro explicará que você não configurou nenhuma conta de mecanismo de pesquisa. Selecionar **[!UICONTROL Configurar agora]**, que leva você ao [Configuração de conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) tela.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
@@ -46,4 +46,4 @@ Este modelo permite que qualquer um que implemente esta integração do mecanism
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-Assim que tiver configurado uma conta publicitária, o relatório do Advertising Analytics será disponibilizado.
+Assim que tiver configurado uma conta do Advertising Analytics, o relatório do Advertising Analytics será disponibilizado.

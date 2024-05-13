@@ -3,10 +3,10 @@ description: Gerencie contas no Advertising Analytics.
 title: Gerenciar contas publicitárias
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 É possível acessar a interface do usuário de gerenciamento navegando até **[!UICONTROL Admin]** > **[!UICONTROL Contas publicitárias]**.
 
-![](assets/manage_ad_accounts.png)
+![Contas publicitárias](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -30,7 +30,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Adicionar </p> </td> 
-   <td colname="col2"> <p>Direciona para a interface do usuário <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Configurar conta publicitária</a>. </p> </td> 
+   <td colname="col2"> <p>Direciona para a interface do usuário <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >Configurar conta publicitária</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Renomear </p> </td> 
@@ -42,7 +42,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pausar </p> </td> 
-   <td colname="col2"> <p>Desativa a conta. Para ativá-la novamente, clique em <span class="uicontrol">Ativar</span>. </p> </td> 
+   <td colname="col2"> <p>Desativa a conta. Para ativá-la novamente, selecione <span class="uicontrol">Ativar</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Cabeçalhos de coluna</b> </p> </td> 
@@ -54,11 +54,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>Conjuntos de relatórios </p> </td> 
-   <td colname="col2"> <p>Os conjuntos de relatórios mapeados a esta conta publicitária. </p> </td> 
+   <td colname="col2"> <p>Os conjuntos de relatórios mapeados para esta conta publicitária. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tipo </p> </td> 
-   <td colname="col2"> <p>Atualmente apenas tipo Procurar é compatível. </p> </td> 
+   <td colname="col2"> <p>Somente um tipo é compatível: Pesquisa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Conta </p> </td> 

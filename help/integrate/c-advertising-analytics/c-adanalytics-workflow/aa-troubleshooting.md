@@ -3,10 +3,10 @@ description: Solucione e corrija problemas relacionados ao Advertising Analytics
 title: Solução de problemas do Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 92%
+source-wordcount: '173'
+ht-degree: 50%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 ## Não vejo meu conjunto de relatórios na seção de Mapeamento {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Você está tentando [configurar uma nova conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e não vê seu conjunto de relatórios listado na lista suspensa **[!UICONTROL Selecione o conjunto de relatórios]**. Há dois motivos possíveis:
+Você está tentando [configurar uma nova conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e você não vir seu conjunto de relatórios listado no **[!UICONTROL Conjuntos de relatórios mapeado]** lista suspensa. Há dois motivos possíveis:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -28,7 +28,7 @@ Você está tentando [configurar uma nova conta publicitária](/help/integrate/c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. O conjunto de relatórios não está mapeado para a ID de organização Experience Cloud do logon de usuário. </p> </td> 
+   <td colname="col1"> <p>1. O conjunto de relatórios não está mapeado para a ID de organização Experience Cloud do logon do usuário. </p> </td> 
    <td colname="col2"> <p>Entre em contato com o Atendimento ao cliente para mapear o conjunto de relatórios para uma ID da organização.</p> </td> 
   </tr> 
   <tr> 
