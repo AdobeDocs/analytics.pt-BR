@@ -4,10 +4,10 @@ description: Use a extensão SDK móvel na coleção de dados da Adobe Experienc
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 97%
+source-wordcount: '487'
+ht-degree: 98%
 
 ---
 
@@ -106,30 +106,24 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>2</td>
-<td><b>Configurar esquemas</b>. Para padronizar a coleta de dados para uso em aplicativos que utilizam a Adobe Experience Platform, a Adobe criou o padrão aberto e documentado publicamente, o Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR">Visão geral da interface de esquemas</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>Instale a extensão do Adobe Analytics</b> na propriedade da tag móvel e configure a extensão para apontar para o conjunto de relatórios.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">Extensão do Adobe Analytics para propriedade móvel</a>
 </tr>
 
 <tr>
-<td>4</td>
-<td><b>Use o código em seu aplicativo</b> para registrar as extensões necessárias e carregar a configuração da tag.</td>
+<td>3</td>
+<td><b>Usar código no aplicativo</b> para registrar as extensões necessárias e carregar a configuração da tag.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Defina a configuração</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>Implementar e testar a funcionalidade</b> usando a combinação de elementos de dados da tag, regras, extensões adicionais e chamadas da API do SDK no seu aplicativo. Inspecione, valide e depure a coleta de dados e experiências para seu aplicativo para dispositivos móveis.</td>
-<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Use o aplicativo de amostra</a>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Usar o aplicativo de exemplo</a>
 </tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>Estenda e valide a implementação do aplicativo móvel</b> antes de empurrá-lo para a produção.</td>
 <td></td> 
 </tr>
