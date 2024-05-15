@@ -4,10 +4,10 @@ description: Use a extensão SDK móvel na coleção de dados da Adobe Experienc
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
+source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 98%
+source-wordcount: '454'
+ht-degree: 99%
 
 ---
 
@@ -39,46 +39,40 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>2</td>
-<td><b>Configurar esquemas.</b>. Para padronizar a coleta de dados para uso em aplicativos que utilizam a Adobe Experience Platform, a Adobe criou o padrão aberto e documentado publicamente, o Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR">Visão geral da interface de esquemas</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>Configurar uma sequência de dados</b>. Uma sequência de dados representa a configuração do lado do servidor ao implementar o SDK da Web da Adobe Experience Platform.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR">Configurar uma sequência de dados<a></td> 
 </tr>
 
-<td>4</td>
-<td><b>Adicionar um serviço Adobe Analytics</b> a sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics.</td>
+<td>3</td>
+<td><b>Adicionar um serviço do Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>Criar uma propriedade móvel</b>. Uma propriedade é um container que você preenche com extensões, regras, elementos de dados e bibliotecas.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">Configurar uma propriedade móvel</a></tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>Instale a extensão Rede de borda da Adobe Experience Platform</b> na propriedade da tag móvel e configure a sequência de dados na extensão.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Rede de borda da Adobe Experience Platform</a>
 </tr>
 
 <tr>
-<td>7</td>
+<td>6</td>
 <td><b>Usar código no aplicativo</b> para registrar as extensões necessárias e carregar a configuração da tag.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Defina a configuração</a></td>
 </tr>
 
 <tr>
-<td>8</td>
+<td>7</td>
 <td><b>Implementar e testar a funcionalidade</b> usando a combinação de elementos de dados da tag, regras, extensões adicionais e chamadas da API do SDK no seu aplicativo. Inspecione, valide e depure a coleta de dados e experiências para seu aplicativo para dispositivos móveis.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Usar o aplicativo de exemplo</a>
 </tr>
 
 <tr>
-<td>9</td>
+<td>8</td>
 <td><b>Estender e validar a implementação do aplicativo para dispositivos móveis</b> antes de colocá-lo em produção.</td>
 <td></td> 
 </tr>
