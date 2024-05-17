@@ -3,7 +3,7 @@ title: Como configurar uma conta publicitária no Advertising Analytics
 description: Este artigo explica como criar novas contas publicitárias e mapear várias contas a vários conjuntos de relatórios.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 31%
@@ -23,7 +23,7 @@ Além disso, os administradores podem [conceder acesso a não administradores](/
 1. No Adobe Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Contas publicitárias]**.
 1. (Somente para primeiro uso) Aceite os termos do Contrato de Licença do Usuário Final.
 1. Selecionar **[!UICONTROL + Adicionar]**.
-1. A variável [!UICONTROL Nova configuração de mecanismo de pesquisa] é exibida:
+1. A variável [!UICONTROL Nova configuração de mecanismo de pesquisa] é exibida.
 
    ![](assets/aa-new-se-account.png)
 
