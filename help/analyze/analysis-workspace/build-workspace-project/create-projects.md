@@ -4,10 +4,10 @@ title: Criar projetos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
-workflow-type: ht
-source-wordcount: '691'
-ht-degree: 100%
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
+workflow-type: tm+mt
+source-wordcount: '770'
+ht-degree: 85%
 
 ---
 
@@ -98,13 +98,21 @@ Os [componentes](/help/analyze/analysis-workspace/components/analysis-workspace-
 >
 >Para obter informações sobre cada componente, selecione o ícone Informações ao lado do nome de um componente no menu esquerdo ou consulte [Guia de componentes do Analytics](/help/components/home.md).
 
-Para adicionar um componente:
+Veja a seguir informações básicas sobre como adicionar um componente a um projeto no Analysis Workspace. Para obter informações mais detalhadas sobre como adicionar os vários tipos de componentes (dimensões, métricas, segmentos e intervalos de datas), consulte [Usar componentes no Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+
+Para adicionar um componente a um projeto no Analysis Workspace:
 
 1. Clique no ícone **[!UICONTROL Componentes]** no menu esquerdo.
 
    ![](assets/build-components.png)
 
-1. Procure o componente que deseja adicionar. Quando ele aparecer no menu à esquerda, arraste-o para um painel ou uma visualização no seu projeto.
+1. Role para ou procure o componente que deseja adicionar e arraste-o para um painel ou visualização em seu projeto.
+
+   Por exemplo, você pode arrastar um segmento para a área de soltar de segmentos em um cabeçalho do painel.
+
+   ![soltar um segmento na área designada](assets/segment-dropzone.png)
+
+   Para obter mais informações sobre como adicionar componentes a projetos, consulte [Usar componentes no Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 1. (Opcional) Compartilhe o projeto conforme descrito em [Salvar e compartilhar o projeto](#save-and-share-the-project).
 

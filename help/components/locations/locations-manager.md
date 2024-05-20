@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gerenciador de locais
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -73,13 +73,15 @@ Para obter informações sobre como editar um local, consulte [Configurar locais
 >
 >Se você excluir um local, deverá [editar os feeds de dados](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse relatórios](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), e [Esquemas de conjuntos de classificação](/help/components/classifications/sets/manage/schema.md) para usar um local funcional.
 
-Para excluir um local:
+Para excluir um local no Gerenciador de locais no Adobe Analytics:
+
+1. Selecionar **[!UICONTROL Componentes]** > **[!UICONTROL Localizações]**, em seguida, selecione a [!UICONTROL **Localizações**] guia.
 
 1. Selecione o menu de 3 pontos no [!UICONTROL **Nome do local**] para o local que você deseja excluir.
 
 1. Clique em [!UICONTROL **Excluir**].
 
-## Editar contas
+## Editar uma conta
 
 1. Para editar contas no Gerenciador de locais no Adobe Analytics, selecione **[!UICONTROL Componentes]** > **[!UICONTROL Localizações]**, em seguida, selecione a [!UICONTROL **Contas de localização**] guia.
 
@@ -100,7 +102,7 @@ Para exibir chaves associadas a uma conta de exportação:
 
 1. Selecione o ícone de 3 pontos na conta que deseja editar e selecione [!UICONTROL **Chaves da conta**].
 
-## Excluir contas
+## Excluir uma conta
 
 1. No Adobe Analytics, selecione **[!UICONTROL Componentes]** > **[!UICONTROL Localizações]**, em seguida, selecione a [!UICONTROL **Contas de localização**] guia.
 

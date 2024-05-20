@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder e o Activity Map.
-source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
+source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1007'
 ht-degree: 99%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 99%
 + [Página de aterrissagem](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Visão geral do Analysis Workspace](analysis-workspace/home.md)
-   + [Novidades no Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Projetos {#build-workspace-project}
       + [Visão geral dos Projetos](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Criar projetos](analysis-workspace/build-workspace-project/create-projects.md)
@@ -45,10 +44,11 @@ ht-degree: 99%
       + [Paletas de cores](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Exibir densidade](analysis-workspace/build-workspace-project/view-density.md)
    + Relatórios {#reports}
-      + [Usar relatórios pré-criados](analysis-workspace/reports/use-reports.md)
+      + [Utilização de relatórios pré-criados](analysis-workspace/reports/use-reports.md)
       + [Criar e gerenciar relatórios da empresa](analysis-workspace/reports/create-company-reports.md)
    + Componentes {#components}
       + [Visão geral dos componentes](analysis-workspace/components/analysis-workspace-components.md)
+      + [Usar componentes no Workspace](analysis-workspace/components/use-components-in-workspace.md)
       + [Adicionar descrições de componentes](analysis-workspace/components/add-component-descriptions.md)
       + Anotações {#annotations}
          + [Visão geral de anotações](analysis-workspace/components/annotations/overview.md)
