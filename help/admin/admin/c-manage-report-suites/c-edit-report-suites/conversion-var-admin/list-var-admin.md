@@ -4,7 +4,7 @@ description: Crie e configure variáveis de lista para usar em relatórios.
 feature: Admin Tools
 role: Admin
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: cf924b337772764b33d750787a0d09b3f11203be
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 25%
@@ -15,7 +15,7 @@ ht-degree: 25%
 
 Crie e configure variáveis de lista para usar em relatórios. Defina os valores de delimitador, expiração, alocação e máximo. Colete dados para variáveis de lista usando [`list1` - `list3`](/help/implement/vars/page-vars/list.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL variáveis de lista]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Variáveis de lista]**
 
 * **[!UICONTROL Nome]**: o nome da variável de lista. Esse nome é o rótulo da dimensão no Analysis Workspace.
 
