@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar locais de importação e exportação na nuvem
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 5bf6ed9b71a87d79fec960b6618667238019ac7f
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 31%
+source-wordcount: '1450'
+ht-degree: 37%
 
 ---
 
@@ -23,16 +23,15 @@ Você pode configurar uma conta na nuvem (e um local nessa conta). Um único loc
 
 Você deve configurar o Adobe Analytics com as informações necessárias para acessar sua conta da nuvem. Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Google Cloud Platform e assim por diante), conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md)e, em seguida, adicionar e configurar o local nessa conta (conforme descrito neste artigo).
 
-## Começar a criar ou editar um local de exportação de nuvem
+Para obter informações sobre como gerenciar locais existentes, incluindo exibição, edição e exclusão de locais, consulte [Gerenciador de locais](/help/components/locations/locations-manager.md).
+
+## Começar a criar um local de exportação de nuvem
 
 1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Localizações**].
 1. No [!UICONTROL Localizações] selecione a [!UICONTROL **Localizações**] guia.
-1. Para criar um novo local, selecione [!UICONTROL **Adicionar localização**]. (Se ainda não tiver adicionado uma conta, adicione-a conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md).)
+1. Selecionar [!UICONTROL **Adicionar localização**]. (Se ainda não tiver adicionado uma conta, adicione-a conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md).)
 
-   Ou
-
-   Para editar um local existente, selecione o menu de 3 pontos na [!UICONTROL **Nome do local**] para o local que deseja editar, selecione [!UICONTROL **Editar**].
-A caixa de diálogo Local é exibida.
+   A caixa de diálogo Local é exibida.
 
 1. Especifique as seguintes informações: |Campo | Função | |—|—| | [!UICONTROL **Nome**] | O nome do local.  | 
 | [!UICONTROL **Descrição**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. | | [!UICONTROL **Usar com**] | Selecione se você deseja usar esta localização com [!UICONTROL **Feeds de dados**], [!UICONTROL **Data Warehouse**] ou [!UICONTROL **Conjuntos de classificações**]. <p>Considere o seguinte ao fazer uma seleção:</p><ul><li>Um único local não pode ser usado para vários propósitos. Por exemplo, um local usado para feeds de dados também não pode ser usado para conjuntos de Datas Warehouse ou Classificações.</li><li>Para evitar conflitos de arquivos em um local, não altere o valor do [!UICONTROL **Usar com**] após a localização ter sido usada.</li></ul> | | [!UICONTROL **Conta de localização**] | Selecione a conta de localização na qual deseja criar esta localização. Para obter informações sobre como criar uma conta, consulte [Adicionar uma conta](#add-an-account). |
@@ -51,7 +50,7 @@ Para configurar um local ARN de função do Amazon S3, especifique as seguintes 
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Nome do bucket**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. <p>Certifique-se de que o ARN do usuário fornecido pelo Adobe tenha o `S3:PutObject` para carregar arquivos nesse bucket. </p><p>Os nomes dos buckets devem atender às regras de nomenclatura específicas. Por exemplo, eles devem ter entre 3 e 63 caracteres de comprimento, podem consistir apenas de letras minúsculas, números, pontos (.) e hifens (-) e devem começar e terminar com uma letra ou número. [Uma lista completa de regras de nomenclatura está disponível na documentação do AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Nome do bucket**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. <p>Certifique-se de que o ARN do usuário fornecido pelo Adobe tenha o `S3:PutObject` para carregar arquivos nesse bucket. </p><p>Os nomes dos blocos precisam cumprir regras de nomenclatura específicas. Por exemplo, eles precisam conter entre 3 e 63 caracteres, só podem conter letras minúsculas, números, pontos (.) e hifens (-), e precisam começar e terminar com uma letra ou número. [Uma lista completa de regras de nomenclatura está disponível na documentação do AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Prefixo da chave**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
    {style="table-layout:auto"}
@@ -93,7 +92,7 @@ Para configurar um local da Google Cloud Platform, especifique as seguintes info
 
 ### Azure SAS
 
-Para configurar um local SAS do Azure, especifique as seguintes informações:
+Para configurar um local do Azure SAS, especifique as seguintes informações:
 
 1. [Começar a criar ou editar um local de exportação de nuvem](#begin-creating-or-editing-a-cloud-export-location), conforme descrito acima.
 
@@ -117,7 +116,7 @@ Para configurar um local SAS do Azure, especifique as seguintes informações:
 
 ### Azure RBAC
 
-Para configurar um local do RBAC do Azure, especifique as seguintes informações:
+Para configurar um local do Azure RBAC, especifique as seguintes informações:
 
 1. [Começar a criar ou editar um local de exportação de nuvem](#begin-creating-or-editing-a-cloud-export-location), conforme descrito acima.
 

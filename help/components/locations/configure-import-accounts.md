@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar contas de importação e exportação na nuvem
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 56%
+source-wordcount: '1205'
+ht-degree: 61%
 
 ---
 
@@ -23,21 +23,15 @@ ht-degree: 56%
 
 Você precisa configurar o Adobe Analytics com as informações necessárias para acessar sua conta da nuvem. Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Google Cloud Platform e assim por diante) conforme descrito neste artigo e, em seguida, adicionar e configurar o local nessa conta (como uma pasta na conta), conforme descrito em [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md).
 
+Para obter informações sobre como gerenciar contas existentes, incluindo exibição, edição e exclusão de contas, consulte [Gerenciador de locais](/help/components/locations/locations-manager.md).
+
 Para configurar uma conta de importação ou exportação na nuvem:
 
 1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Localizações**].
 1. No [!UICONTROL Localizações] selecione a [!UICONTROL **Contas de localização**] guia.
-1. Para criar uma nova conta, selecione [!UICONTROL **Adicionar conta**].
+1. Selecionar [!UICONTROL **Adicionar conta**].
 
    A caixa de diálogo Add account (Adicionar conta) é exibida.
-
-   Ou
-
-   Para editar uma conta existente, selecione [!UICONTROL **Exibir detalhes**] no bloco que lista a conta que você deseja editar.
-A caixa de diálogo Local é exibida.
-
-   A caixa de diálogo Detalhes da conta de localização é exibida
-
 
 1. Especifique as seguintes informações: |Campo | Função | |—|—| | [!UICONTROL **Nome da conta de localização**] | O nome da conta de localização. Este nome aparece ao criar um local | | [!UICONTROL **Descrição da conta de localização**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. | | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta para cada tipo, com vários locais conforme necessário dentro dessa conta. |
 1. No [!UICONTROL **Propriedades da conta**] especifique as informações específicas ao tipo de conta selecionado.
@@ -48,7 +42,7 @@ A caixa de diálogo Local é exibida.
 
    +++ARN de função do Amazon S3
 
-   Para configurar uma conta ARN com a função S3 do Amazon, especifique as seguintes informações:
+   Para configurar uma conta do Amazon S3 Role ARN, especifique as seguintes informações:
 
    | Campo | Função |
    |---------|----------|
@@ -72,7 +66,7 @@ A caixa de diálogo Local é exibida.
 
    +++Azure SAS
 
-   Para configurar uma conta SAS do Azure, especifique as seguintes informações:
+   Para configurar uma conta do Azure SAS, especifique as seguintes informações:
 
    | Campo | Função |
    |---------|----------|
@@ -88,7 +82,7 @@ A caixa de diálogo Local é exibida.
 
    +++Azure RBAC
 
-   Para configurar uma conta RBAC do Azure, especifique as seguintes informações:
+   Para configurar uma conta do Azure RBAC, especifique as seguintes informações:
 
    | Campo | Função |
    |---------|----------|
