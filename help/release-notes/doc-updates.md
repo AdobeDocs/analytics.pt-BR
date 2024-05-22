@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
 workflow-type: tm+mt
-source-wordcount: '5511'
-ht-degree: 96%
+source-wordcount: '5562'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Maio de 2024** | |
+| Informações necessárias ao usar restrições de política organizacional com a Google Cloud Platform em feeds de dados e Datas Warehouse | Adição da ID de organização da Google Cloud Platform de propriedade do Adobe à [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) documentação. <p>Essas informações são necessárias somente para organizações que estejam usando o [Restrições de política da organização](https://cloud.google.com/storage/docs/org-policy-constraints) na Google Cloud Platform.</p> |
 | Documentação sobre a adição de componentes a projetos | Foram adicionadas informações gerais sobre como [adicionar os vários tipos de componentes aos projetos no Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Atualização da documentação do Advertising Analytics | Atualização da documentação em conformidade com as atualizações [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) interface do usuário. |
 | Mapear explicitamente variáveis de objeto XDM para variáveis de dados de contexto | Documentada a capacidade de [definir explicitamente variáveis de dados de contexto usando o mapeamento de variável de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
