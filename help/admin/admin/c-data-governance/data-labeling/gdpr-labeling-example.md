@@ -4,10 +4,10 @@ title: Exemplos de rotulagem
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 99%
+source-wordcount: '932'
+ht-degree: 78%
 
 ---
 
@@ -35,12 +35,14 @@ Suponha que você tenha os seguintes dados de ocorrência:
 
 ## Solicitação de acesso de exemplo {#access}
 
-Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valores indicados na tabela abaixo. Uma solicitação pode retornar somente um arquivo de dispositivo, somente um arquivo de pessoa ou um de cada. Dois arquivos de resumo são retornados somente se uma ID de pessoa for usada e expandIDs for verdadeiro.
+Se enviar uma solicitação de acesso, você receberá dois arquivos que podem ser retornados ao titular dos dados. Um arquivo é um arquivo CSV que contém uma linha para cada ocorrência recebida para o titular dos dados e uma coluna para cada variável com o rótulo de acesso apropriado. O outro arquivo é um HTML de resumo que lista cada variável, seguido por todos os valores únicos vistos para essa variável para o titular dos dados e o número de vezes que cada valor único foi visto.
+
+Para o nosso exemplo, o arquivo de resumo contém os valores indicados na tabela abaixo. Uma solicitação pode retornar somente um arquivo de dispositivo, somente um arquivo de pessoa ou um de cada. Dois arquivos de resumo são retornados somente se uma ID de pessoa for usada e `expandIds` é verdadeiro.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valores da API</th>
-    <th rowspan="2">Tipo de arquivo<br> retornado</th>
+    <th rowspan="2">Resumo<br/>tipo de arquivo<br/>retornado</th>
     <th colspan="5" style="text-align:center">Dados no Arquivo de acesso do resumo</th>
   </tr>
   <tr>
@@ -140,7 +142,7 @@ Se uma solicitação de acesso for enviada, o arquivo de resumo conterá os valo
   </tr>
 </table>
 
-Observe que a configuração de expandIDs não faz diferença para a saída quando uma ID de cookie é usada.
+Observe que a configuração para `expandIDs` não faz qualquer diferença na saída quando uma ID de cookie é usada.
 
 ## Solicitações de exclusão de exemplo {#delete}
 
@@ -217,7 +219,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 
 >[!NOTE]
 >
->Apenas células em linhas que contêm AAID = 77 e um rótulo DEL-DEVICE são afetadas.
+>Somente colunas em linhas que contêm `AAID=77` e uma `DEL-DEVICE` serão afetados.
 
 <table>
   <tr>
@@ -290,7 +292,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 
 >[!NOTE]
 >
->Apenas células em linhas que contêm user=Mary e um rótulo DEL-PERSON são afetadas. Além disso, na prática, a variável que contém A_ID provavelmente seria uma prop ou eVar. Seu valor de substituição seria uma sequência de caracteres iniciada por “Privacy-”, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
+>Apenas celcolumnsls em linhas que contêm `user=Mary` e uma `DEL-PERSON` serão afetados. Além disso, na prática, a variável `A_ID` provavelmente seria uma prop ou um eVar. Seu valor de substituição seria uma sequência de caracteres iniciada por `Privacy-`, seguido por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
 
 <table>
   <tr>

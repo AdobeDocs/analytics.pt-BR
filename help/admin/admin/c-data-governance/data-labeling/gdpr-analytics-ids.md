@@ -4,10 +4,10 @@ title: Práticas recomendadas de rotulagem
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
 workflow-type: tm+mt
-source-wordcount: '2676'
-ht-degree: 98%
+source-wordcount: '2692'
+ht-degree: 92%
 
 ---
 
@@ -103,15 +103,15 @@ Embora pouquíssimos campos tenham um dos outros rótulos, é comum que um grand
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Somente IDs de dispositivos </p> </td> 
-   <td colname="col2"> <p>Se as únicas IDs usadas forem IDs de cookies ou aquelas com um rótulo de ID-DEVICE, você deverá usar somente o rótulo de ACC-ALL. </p> <p>Você obterá um par de arquivos para cada solicitação de acesso, um contendo uma linha para cada ocorrência correspondente com todos os campos ACC-ALL especificados e um segundo contendo um resumo desses dados. </p> </td> 
+   <td colname="col2"> <p>Se as únicas IDs usadas forem IDs de cookies ou aquelas com um rótulo de ID-DEVICE, você deverá usar somente o rótulo de ACC-ALL. </p> <p>Você receberá um par de arquivos para cada solicitação de acesso: um arquivo contendo uma linha para cada ocorrência correspondente com todos os campos ACC-ALL especificados e um arquivo de resumo contendo um resumo desses dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IDs de pessoa sem expansão de ID </p> </td> 
-   <td colname="col2"> <p>Se você estiver usando somente IDs personalizadas que têm o rótulo ID-PERSON e não fazem expansão de ID, use os rótulos ACC-PERSON. Entretanto, você não precisa alterar os rótulos de ACC-ALL padrão. Esses campos serão incluídos automaticamente na solicitação de acesso. </p> <p>Você obterá um par de arquivos para cada solicitação de acesso, um contendo uma linha para cada ocorrência correspondente com todos os campos ACC-DEVICE e ACC-PERSON especificados e um segundo contendo um resumo desses dados. </p> </td> 
+   <td colname="col2"> <p>Se você estiver usando somente IDs personalizadas que têm o rótulo ID-PERSON e não fazem expansão de ID, use os rótulos ACC-PERSON. Entretanto, você não precisa alterar os rótulos de ACC-ALL padrão. Esses campos serão incluídos automaticamente na solicitação de acesso. </p> <p>Você receberá um par de arquivos para cada solicitação de acesso: um arquivo contendo uma linha para cada ocorrência correspondente com todos os campos ACC-DEVICE e ACC-PERSON especificados e um arquivo de resumo contendo um resumo desses dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IDs mistas e/ou expansão de ID </p> </td> 
-   <td colname="col2"> <p>Se você incluir IDs de dispositivo e de pessoa nas solicitações de Privacidade de dados ou se usar IDs personalizadas (ID de visitante personalizada ou ID em uma prop ou eVar), será necessário prestar atenção aos rótulos ACC usados. Cada solicitação de acesso retornará dois pares de arquivos de dados: um par contendo dados de ocorrências que continham uma ID de pessoa correspondente e um segundo contendo dados de ocorrências que não correspondiam a uma ID de pessoa, mas sim a uma ID de dispositivo. </p> <p>Os arquivos “ID de pessoa” contêm dados em todas as ocorrências que correspondem às IDs de pessoa com todos os campos que têm um rótulo ACC-PERSON ou ACC-ALL (um arquivo com todas as ocorrências correspondentes e o outro como resumo). </p> <p>O par de arquivos de “ID de dispositivo” contém apenas campos que têm um rótulo de ACC-ALL e ocorrências que não continham nenhuma ID de pessoa correspondente. Esses arquivos podem conter dados gerados por outros usuários de um dispositivo compartilhado, por isso você deve considerar cuidadosamente o conjunto de campos que contêm o rótulo de ACC-ALL. A rotulagem padrão do Analytics somente aplica esse rótulo a campos de informações genéricas relacionados ao dispositivo (tipo de dispositivo, sistema operacional, navegador, entre outros) mais a data/hora de cada ocorrência. </p> <p>É possível optar por receber os conjuntos de arquivos de dispositivos e pessoas da Adobe e compartilhar apenas os arquivos de pessoas, de modo a não compartilhar dados potencialmente gerados por outros usuários de um dispositivo compartilhado. Ou é possível combinar dados de um ou ambos os conjuntos com outras informações conhecidas sobre o Titular de Dados e retorná-las em seu próprio formato. </p> </td> 
+   <td colname="col2"> <p>Se você incluir IDs de dispositivo e de pessoa nas solicitações de Privacidade de dados ou se usar IDs personalizadas (ID de visitante personalizada ou ID em uma prop ou eVar), será necessário prestar atenção aos rótulos ACC usados. Cada solicitação de acesso retornará dois pares de arquivos de dados. <p>Um par de arquivos contendo um arquivo com dados de ocorrências que continham uma ID de pessoa correspondente e outro arquivo contendo dados de ocorrências que não correspondiam a uma ID de pessoa, mas sim a uma ID de dispositivo. </p> <p>O outro par de arquivos ("ID de pessoa") contém dados em todas as ocorrências que corresponderam às IDs de pessoa com todos os campos que têm um rótulo ACC-PERSON ou ACC-ALL. Um arquivo com todas as ocorrências correspondentes e outro arquivo de resumo contendo um resumo desses dados. </p> <p>O par de arquivos de “ID de dispositivo” contém apenas campos que têm um rótulo de ACC-ALL e ocorrências que não continham nenhuma ID de pessoa correspondente. Esses arquivos podem conter dados gerados por outros usuários de um dispositivo compartilhado, por isso você deve considerar cuidadosamente o conjunto de campos que contêm o rótulo de ACC-ALL. A rotulagem padrão do Analytics somente aplica esse rótulo a campos de informações genéricas relacionados ao dispositivo (tipo de dispositivo, sistema operacional, navegador, entre outros) mais a data/hora de cada ocorrência. </p> <p>É possível optar por receber os conjuntos de arquivos de dispositivos e pessoas da Adobe e compartilhar apenas os arquivos de pessoas, de modo a não compartilhar dados potencialmente gerados por outros usuários de um dispositivo compartilhado. Ou é possível combinar dados de um ou ambos os conjuntos com outras informações conhecidas sobre o Titular de Dados e retorná-las em seu próprio formato. </p> </td> 
   </tr> 
  </tbody> 
 </table>

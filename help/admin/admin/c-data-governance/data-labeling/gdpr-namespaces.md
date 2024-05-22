@@ -4,10 +4,10 @@ title: Namespaces
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '896'
+ht-degree: 94%
 
 ---
 
@@ -21,17 +21,17 @@ A sequência de caracteres do namespace é usada para identificar os campos que 
 * Um campo de “type” que, para a maioria das solicitações do Adobe Analytics, contém o valor “analytics”.
 * Um campo de “value” contendo a ID que o Analytics deve pesquisar nas variáveis de namespace associadas a cada um dos conjuntos de relatórios.
 
-Consulte a [documentação da API da Privacidade de dados da Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR) para obter mais detalhes.
+Consulte a [Documentação da API da Privacidade de dados do Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR) para obter mais detalhes e uma [lista de namespaces de identidade padrão](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulte [Criar um trabalho de acesso/exclusão](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) para obter uma solicitação de amostra.
 
 ## ID de cookies
 
 Cookie herdado de rastreamento do Analytics, também conhecido como a Adobe Analytics ID (AAID):
 
-```
+```json
 {
-   namespace: "AAID",
-   type: "standard",
-   value: "2CCEEAE88503384F-1188000089CA"
+   "namespace": "AAID",
+   "type": "standard",
+   "value": "2CCEEAE88503384F-1188000089CA"
 }
 ```
 
@@ -41,25 +41,23 @@ Também é aceitável usar `"namespaceId": 10` em vez de ou além de `"namespace
 
 ## Cookie herdado de rastreamento do Analytics: forma obsoleta
 
-```
+```json
 {
-   "namespace": "visitorId",
-   "type": "analytics",
+   "namespace": "visitorId",
+   "type": "analytics",
    "value": "2cceeae88503384f-00001188000089ca"
 }
 ```
-
-Forma obsoleta:
 
 O valor deve ser especificado como dois números hexadecimais de 16 dígitos ou dois números decimais de 19 dígitos. Os números devem ser separados por um traço (-), sublinhado (_) ou dois pontos (:). Zeros à esquerda devem ser adicionados se um dos dois números não tiver dígitos suficientes.
 
 ## Cookie do serviço de identidade
 
-```
+```json
 {
-    namespace: "ECID",
-    type: "standard",
-    value: "00497781304058976192356650736267671594"
+   "namespace": "ECID",
+   "type": "standard",
+   "value": "00497781304058976192356650736267671594"
 }
 ```
 
@@ -81,11 +79,11 @@ Esse código JavaScript preenche o JSON com outros pares de chave/valor além do
 
 ## ID de visitante personalizada
 
-```
+```json
 {
-     namespace: "customVisitorID",
-     type: "analytics",
-     value: "<ID>"
+    "namespace": "customVisitorID",
+    "type": "analytics",
+    "value": "<ID>"
 }
 ```
 
@@ -93,15 +91,16 @@ O namespace também é predefinido para a ID de visitante personalizada.
 
 ## IDs em variáveis personalizadas
 
-```
+```json
 {
-    namespace: "Email Address",
-    type: "analytics", 
-    value: "john@xyz.com" }, 
+"namespace":"Email Address",
+"type": "analytics", 
+"value": "john@xyz.com" 
+}, 
 {
-    namespace: "CRM ID", 
-    type: "analytics", 
-    value: "123456-ABCD" 
+    "namespace": "CRM ID", 
+    "type": "analytics",
+    "value": "123456-ABCD" 
 }
 ```
 
@@ -115,6 +114,6 @@ Também é possível ver os namespaces definidos anteriormente para outras vari�
 
 >[!CAUTION]
 >
->Os namespaces “visitorId” e “customVisitorId” são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
+>Os namespaces `visitorId` e `customVisitorId` são reservados para identificar o cookie de rastreamento herdado do Analytics e a ID de visitante do cliente do Analytics. Não use esses namespaces para tráfego personalizado ou variáveis de conversão.
 
 Para obter mais informações, consulte [Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

@@ -4,7 +4,7 @@ title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 97%
@@ -93,9 +93,9 @@ Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solici
 Se você atribuiu anteriormente um rótulo de ID a outras variáveis em qualquer um dos conjuntos de relatórios na empresa de logon, será possível selecionar um desses namespaces existentes. Reutilize o namespace se essa variável contiver o mesmo tipo de IDs que outras variáveis já rotuladas com esse namespace e você desejar pesquisar todos eles ao enviar uma solicitação.
 
 1. Clique em **[!UICONTROL Selecionar namespace]** e selecione um dos namespace existentes.
+   ![](assets/namespace.png)
 1. Clique em **[!UICONTROL Aplicar]**.
 
-![](assets/namespace.png)
 
 ### Definir um novo namespace
 
