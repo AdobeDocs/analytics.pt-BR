@@ -3,16 +3,16 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9821150194e6bc89a5a2dec15a7957aaa177948e
+source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 41%
+source-wordcount: '1150'
+ht-degree: 39%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (maio de 2024)
 
-**Última atualização**: quarta-feira, 21 de maio de 2024
+**Última atualização**: quinta-feira, 22 de maio de 2024
 
 Essas notas de versão abrangem o período de lançamento de 15 de maio de 2024 a junho. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -48,8 +48,8 @@ AN-327749; AN-332949; AN-342881; AN-343171; AN-343708; AN-344034; AN-345559; AN-
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
+| **Prazo de 13 meses para a expiração do`cust_visids`** salvo | quinta-feira, 22 de maio de 2024 | Uma versão futura do mecanismo de processamento de ocorrências do Analytics, **direcionado para julho de 2024**, começará a impor uma expiração de 13 meses do salvo `cust_visids`. Se o conjunto de relatórios estiver com a opção “Habilitar identificação de visitantes” ativada, esta configuração será usada para encontrar o `cust_visid` para um `visid_high/visid_low value` que não contenha `cust_visid` na ocorrência. Atualmente, não há um prazo de expiração para o mapeamento de um `cust_visid` para um `visid_high/visid_low`. Com esta versão, se 13 meses ou mais tiverem passado desde `visid_high/visid_low` teve um `cust_visid` em uma ocorrência, o mapeamento expira. |
 | **Atualizações da região ISO** | sábado, 10 de maio de 2024 | A Adobe realizará as atualizações de 2024 da região ISO em sábado, 7 de junho de 2024. Você poderá ver pequenas atualizações de informações geográficas (região) após esta versão. |
-| **Prazo de 13 meses para a expiração do`cust_visids`** salvo | 20 de março de 2024 | Uma versão futura do mecanismo de processamento de ocorrências do Analytics, programada para abril ou maio, começará a impor um prazo de 13 meses para a expiração do `cust_visids` salvo. Se o conjunto de relatórios estiver com a opção “Habilitar identificação de visitantes” ativada, esta configuração será usada para encontrar o `cust_visid` para um `visid_high/visid_low value` que não contenha `cust_visid` na ocorrência. Atualmente, não há um prazo de expiração para o mapeamento de um `cust_visid` para um `visid_high/visid_low`. Com esta versão, se 13 meses ou mais tiverem passado desde `visid_high/visid_low` teve um `cust_visid` em uma ocorrência, o mapeamento expira. |
 
 {style="table-layout:auto"}
 
