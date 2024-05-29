@@ -4,10 +4,10 @@ description: Saiba como começar a usar o Adobe Analytics, os tipos de função 
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: a7cc0efe42ff7dc4aacc841156e25e3cab6b82f4
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 100%
+source-wordcount: '1141'
+ht-degree: 96%
 
 ---
 
@@ -26,8 +26,9 @@ Considere as seguintes funções principais ao usar o Adobe Analytics:
 
 * **Administradores completos do Adobe Analytics:** esses usuários têm acesso total a tudo no Adobe Analytics, incluindo configurações de conjunto de relatórios e permissões de usuário. Dependendo de como sua organização está estruturada, pessoas ou equipes diferentes podem ser responsáveis por diversos aspectos da administração do Analytics. Por exemplo, uma pessoa é responsável por designar quais variáveis usar em uma implementação. Outra pessoa pode ser responsável por permitir que os usuários extraiam os relatórios corretamente, garantindo que todos tenham as permissões corretas. Identifique pelo menos um usuário que possa ser responsável pelas configurações do conjunto de relatórios e pelas permissões de usuário do Analytics, e que possa convidar outros administradores do Analytics a partir daí.
 * **Administradores da coleção de dados:** esses usuários têm acesso total a tudo na Coleção de dados da Adobe Experience Platform, incluindo permissões de publicação, criação de containers e permissões de usuário. Esses usuários não são necessariamente programadores, mas é útil ter pelo menos um conhecimento iniciante de HTML, CSS e JavaScript. Eles são responsáveis por trabalhar com os proprietários de sites de sua organização para que as tags sejam implementadas no site. Identifique pelo menos um usuário responsável pela implementação de sua organização que possa convidar outros administradores de coleção de dados.
+* **Administrador de produto:** Um Administrador de produto gerencia um produto no Admin Console, bem como direitos de usuário a esse produto.
 * **Administradores do Perfil do produto:** esses usuários podem adicionar ou remover usuários a um perfil de produto, ajustar itens de permissões em seu perfil de produto e atribuir ou remover perfis de produto a grupos de usuários. Os administradores de perfil de produto não têm acesso total ao Adobe Analytics. No entanto, eles são ideais para líderes ou gerentes de equipes que precisam apenas conceder e gerenciar acesso ao Adobe Analytics para sua equipe. Para obter mais informações sobre perfis de produtos, consulte [Perfis de produto para o Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md).
-* **Delegados de suporte**: também conhecidos como usuários aceitos, eles não têm privilégios adicionais na interface do Analytics. Em vez disso, recebem privilégios adicionais ao se comunicarem com o Atendimento ao cliente da Adobe. Esses usuários também são quase sempre administradores do Analytics, pois ajudam o Atendimento ao cliente a solucionar problemas com eles. Identifique pelo menos um administrador do Analytics responsável por facilitar as interações entre os usuários finais e o Atendimento ao cliente da Adobe.
+* **Administrador de suporte**: também conhecidos como usuários aceitos, eles não têm privilégios adicionais na interface do Analytics. Em vez disso, recebem privilégios adicionais ao se comunicarem com o Atendimento ao cliente da Adobe. Esses usuários também são quase sempre administradores do Analytics, pois ajudam o Atendimento ao cliente a solucionar problemas com eles. Identifique pelo menos um administrador do Analytics responsável por facilitar as interações entre os usuários finais e o Atendimento ao cliente da Adobe.
 * **Proprietários do site:** esses indivíduos ou equipes são responsáveis pela codificação e desenvolvimento do site. Eles não exigem contas, mas querem trabalhar com os administradores de coleção de dados para obter o código da tag e implementá-lo em seu site.
 * **Usuários finais:** esses usuários normalmente visualizam relatórios e procuram respostas para perguntas comerciais. Os administradores do Analytics concedem a esses usuários permissões para trabalhar no produto.
 
