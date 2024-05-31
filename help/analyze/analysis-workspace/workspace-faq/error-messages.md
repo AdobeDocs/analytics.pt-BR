@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
 source-git-commit: b844fb354c16a80e4044e3bae8cb47aa042a0d59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Você pode encontrar erros ao interagir com o Analysis Workspace que também inf
 
 | Mensagem de erro | Por que isso ocorre? | Otimização |
 | --- | --- | --- |
-| [!UICONTROL O conjunto de relatórios está excedendo sua capacidade de gerar relatórios no momento. Simplifique a solicitação ou tente novamente mais tarde.] | Sua solicitação de relatórios é muito complexa e precisa ser simplificada. | Restrinja os critérios do relatório e tente a solicitação novamente. |
+| [!UICONTROL O conjunto de relatórios está excedendo sua capacidade de gerar relatórios no momento. Simplifique a solicitação ou tente novamente mais tarde.] | A sua solicitação de relatórios está complexa demais e precisa ser simplificada. | Restrinja os critérios dos relatórios e tente fazer a solicitação novamente. |
 | [!UICONTROL Ocorreu um erro de sistema. Registre uma solicitação ao Atendimento ao cliente em Ajuda > Enviar tíquete de suporte e inclua o código de erro.] | A Adobe está enfrentando um problema que precisa ser resolvido. | Envie o código de erro ao Atendimento ao cliente. |
 | [!UICONTROL Ocorreu um erro inesperado; tente atualizar o projeto novamente. Se o problema persistir, envie essa ID de erro ao Atendimento ao cliente da Adobe para diagnóstico adicional.] | A Adobe está enfrentando um problema que precisa ser resolvido. | Tente atualizar o projeto e, se o problema persistir, envie o código de erro para o Atendimento ao cliente. |
 | [!UICONTROL Erro 500: Falha ao carregar a página] | Problemas com a rede local, como [configurações de firewall](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=pt-BR) da empresa, contribuem para esse erro. Além disso, a Adobe pode estar enfrentando um problema que precisa ser resolvido. | Tente fazer logon novamente após alguns minutos. Se o problema persistir, envie o código de ID da instância do EIM para o Atendimento ao cliente. |

@@ -5,9 +5,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 source-git-commit: 0610cb263f2c5e7cc337b9a8f8df5766736f4fb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1154'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ Para criar um segmento rápido:
 
 1. Escolha um dos seguintes métodos para começar a criar o segmento rápido:
 
-   * **Ad hoc (arrastar e soltar):** No painel à esquerda, arraste um componente para a área de destino do segmento no cabeçalho do painel.
+   * **Ad hoc (arrastar e soltar):** no painel à esquerda, arraste um componente até a área de soltar segmentos no cabeçalho do painel.
 
-     ![soltar um segmento na área designada](assets/segment-dropzone.png)
+     ![soltar um segmento na área de soltar](assets/segment-dropzone.png)
 
-     Você pode editar o segmento conforme descrito em [Editar segmentos rápidos](#edit-quick-segments).
+     É possível editar o segmento conforme descrito em [Editar segmentos rápidos](#edit-quick-segments).
 
      >[!NOTE]
      >

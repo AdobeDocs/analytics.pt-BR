@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
 source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Os [componentes](/help/analyze/analysis-workspace/components/analysis-workspace-
 >
 >Para obter informações sobre cada componente, selecione o ícone Informações ao lado do nome de um componente no menu esquerdo ou consulte [Guia de componentes do Analytics](/help/components/home.md).
 
-Veja a seguir informações básicas sobre como adicionar um componente a um projeto no Analysis Workspace. Para obter informações mais detalhadas sobre como adicionar os vários tipos de componentes (dimensões, métricas, segmentos e intervalos de datas), consulte [Usar componentes no Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+Veja a seguir informações básicas sobre como adicionar um componente a um projeto no Analysis Workspace. Para obter informações mais detalhadas sobre como adicionar os vários tipos de componente (dimensões, métricas, segmentos e intervalos de datas), consulte [Usar componentes no Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 Para adicionar um componente a um projeto no Analysis Workspace:
 
@@ -106,13 +106,13 @@ Para adicionar um componente a um projeto no Analysis Workspace:
 
    ![](assets/build-components.png)
 
-1. Role para ou procure o componente que deseja adicionar e arraste-o para um painel ou visualização em seu projeto.
+1. Role até encontrar ou pesquise o componente que deseja adicionar, e arraste-o até um painel ou visualização dentro do projeto.
 
-   Por exemplo, você pode arrastar um segmento para a área de soltar de segmentos em um cabeçalho do painel.
+   Por exemplo, você pode arrastar um segmento até a área de soltar segmentos em um cabeçalho de painel.
 
-   ![soltar um segmento na área designada](assets/segment-dropzone.png)
+   ![soltar um segmento na área de soltar](assets/segment-dropzone.png)
 
-   Para obter mais informações sobre como adicionar componentes a projetos, consulte [Usar componentes no Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+   Para mais informações sobre como adicionar componentes a projetos, consulte [Usar componentes no Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 1. (Opcional) Compartilhe o projeto conforme descrito em [Salvar e compartilhar o projeto](#save-and-share-the-project).
 

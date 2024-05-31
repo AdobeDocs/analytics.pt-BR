@@ -4,9 +4,9 @@ title: Configurar um destino de relatório para uma solicitação do data wareho
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2615'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       | Campo | Função |
       |---------|----------|
-      | [!UICONTROL **Nome do bucket**] | O bucket da conta da GCP para o qual você deseja enviar os dados do Adobe Analytics. <p>Verifique se você concedeu uma das seguintes permissões ao Principal fornecido pelo Adobe: (Para obter informações sobre como conceder permissões, consulte [Adicionar uma entidade de segurança a uma política no nível do bucket](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) na documentação da Google Cloud.)<ul><li>`roles/storage.objectCreator`: use essa permissão se desejar limitar o principal a criar arquivos somente em sua conta da GCP. </br>**Importante:** se você usar essa permissão com relatórios agendados, deverá usar um nome de arquivo único para cada nova exportação agendada. Caso contrário, ocorrerá uma falha na geração do relatório, pois o principal não terá permissão para sobrescrever os arquivos existentes.</li><li>`roles/storage.objectUser`: use essa permissão se desejar que o principal tenha acesso para exibir, listar, atualizar e excluir arquivos na sua conta da GCP.</br>Essa permissão possibilita que o principal sobrescreva arquivos existentes em uploads subsequentes, sem a necessidade de gerar automaticamente nomes de arquivo únicos para cada nova exportação agendada.</li></ul><p>Se sua organização estiver usando [Restrições de política da organização](https://cloud.google.com/storage/docs/org-policy-constraints) para permitir somente a conta da Google Cloud Platform no lista de permissões, é necessário a seguinte ID de organização da Google Cloud Platform pertencente ao Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+      | [!UICONTROL **Nome do bucket**] | O bucket da conta da GCP para o qual você deseja enviar os dados do Adobe Analytics. <p>Verifique se você concedeu uma das seguintes permissões ao principal fornecido pela Adobe: (Para mais informações sobre como conceder permissões, consulte [Adicionar um principal a uma política no nível do bloco](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) na documentação da Google Cloud.)<ul><li>`roles/storage.objectCreator`: use essa permissão se desejar limitar o principal a criar arquivos somente em sua conta da GCP. </br>**Importante:** se você usar essa permissão com relatórios agendados, deverá usar um nome de arquivo único para cada nova exportação agendada. Caso contrário, ocorrerá uma falha na geração do relatório, pois o principal não terá permissão para sobrescrever os arquivos existentes.</li><li>`roles/storage.objectUser`: use essa permissão se desejar que o principal tenha acesso para exibir, listar, atualizar e excluir arquivos na sua conta da GCP.</br>Essa permissão possibilita que o principal sobrescreva arquivos existentes em uploads subsequentes, sem a necessidade de gerar automaticamente nomes de arquivo únicos para cada nova exportação agendada.</li></ul><p>Se a sua organização estiver usando [Restrições de política da organização](https://cloud.google.com/storage/docs/org-policy-constraints) para permitir somente a conta da Google Cloud Platform na sua lista de permissões, você precisará da seguinte ID de organização da Google Cloud Platform pertencente à Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
       | [!UICONTROL **Prefixo da chave**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
       {style="table-layout:auto"}
