@@ -3,10 +3,10 @@ title: Tempo médio no site
 description: A quantidade média de tempo em que um determinado item de dimensão existia entre ocorrências.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 9e140a6be5ab151d7a4e88e317c59eafea4d6e1d
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '558'
+ht-degree: 92%
 
 ---
 
@@ -74,13 +74,13 @@ O cálculo do tempo médio no site para o item de dimensão `Home` usaria o segu
 Se você aplicasse um detalhamento usando a dimensão [Seções do site](../dimensions/site-section.md), ele usaria o seguinte cálculo:
 
 ```text
-(30 + 10) / 1 = 40 seconds average time on site
+(30 + 100 + 10) / 1 = 140 seconds (2 minutes 20 seconds) average time on site
 ```
 
 Como havia uma única sequência na dimensão de detalhamento, ela usa um denominador diferente de sua dimensão principal. Normalmente, essas métricas fornecem resultados semelhantes no nível de visita, mas podem ser diferentes no nível de ocorrência.
 
 ## Porcentagens acima de 100%
 
-Essa métrica frequentemente contém porcentagens acima de 100%. O denominador é o tempo médio da dimensão inteira no site, e o numerador é o tempo médio do item de dimensão no site. Se o tempo médio de toda a dimensão no site for menor que o tempo médio de um dado item de dimensão no site, você verá percentuais acima de 100%. A classificação de relatórios classificados por essa métrica mostra o tempo médio da anomalia nos valores do site, que normalmente não é importante. A Adobe recomenda classificar por outra métrica, como [Visitas](visits.md), em relatórios classificados.
+Essa métrica frequentemente contém porcentagens acima de 100%. O denominador é o tempo médio da dimensão inteira no site, e o numerador é o tempo médio do item de dimensão no site. Se o tempo médio de toda a dimensão no site for menor que o tempo médio de um determinado item de dimensão no site, você verá percentuais acima de 100%. A classificação de relatórios classificados por essa métrica mostra o tempo médio da anomalia nos valores do site, que normalmente não é importante. A Adobe recomenda classificar por outra métrica, como [Visitas](visits.md), em relatórios classificados.
 
 Consulte [Visão geral do tempo gasto](time-spent.md) para obter mais informações gerais sobre o tempo gasto.
