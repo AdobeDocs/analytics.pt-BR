@@ -4,9 +4,9 @@ description: Visualize quais campos XDM a borda mapeia automaticamente para vari
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1414'
 ht-degree: 71%
 
 ---
@@ -29,7 +29,6 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | --- | --- |
 | `xdm.application.isClose` | Ajuda a definir a métrica de ciclo de vida móvel [Falhas](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isInstall` | Ajuda a determinar quando aumentar a métrica de ciclo de vida móvel [Primeiras inicializações](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isLaunch` | Ajuda a determinar quando aumentar a métrica de ciclo de vida móvel [Primeiras inicializações](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.closeType` | Determina se um evento de encerramento é uma falha ou não. Os valores válidos incluem `close` (Uma sessão de ciclo de vida termina e um evento de pausa foi recebido para a sessão anterior) e `unknown` (Uma sessão do ciclo de vida termina sem um evento de pausa). Ajuda a definir a métrica de ciclo de vida móvel [Falhas](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isInstall` | A métrica de ciclo de vida móvel [Instalações](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.application.isLaunch` | A métrica de ciclo de vida móvel [Inicializações](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |

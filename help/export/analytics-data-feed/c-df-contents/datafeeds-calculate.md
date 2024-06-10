@@ -4,10 +4,10 @@ keywords: Feed de dados;tarefa;métrica;coluna pré;coluna pós;bots;filtragem d
 title: Calcular métricas
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -23,14 +23,18 @@ Descreve como calcular métricas comuns usando feeds de dados.
 
 1. Conte o número de linhas nas quais um valor está em `post_pagename` ou `post_page_url`.
 
+## Ocorrências
+
+1. Conte o número total de linhas.
+
 ## Visitas
 
 1. Concatenar `post_visid_high`, `post_visid_low`, `visit_num`e `visit_start_time_gmt`.
 1. Conte o número exclusivo de valores.
 
->[!NOTE]
+>[!TIP]
 >
->Irregularidades na Internet, irregularidades no sistema ou o uso de IDs de visitante personalizados raramente podem usar os mesmos valores `visit_num` para diferentes visitas. Use `visit_start_time_gmt` ao contar visitas para garantir que essas visitas sejam contadas.
+>Irregularidades na Internet, irregularidades no sistema ou o uso de IDs de visitante personalizados raramente podem usar os mesmos valores `visit_num` para diferentes visitas. Embora opcional, use `visit_start_time_gmt` ao contar visitas para garantir que essas visitas sejam contadas.
 
 ## Visitantes
 
