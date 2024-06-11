@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: Configurar contas de importação e exportação na nuvem
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 61%
+source-wordcount: '1513'
+ht-degree: 54%
 
 ---
 
 # Configurar contas de importação e exportação na nuvem
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
+
+>[!NOTE]
+>
+>Considere o seguinte ao criar e editar contas: <ul><li>Os administradores do sistema podem impedir que os usuários criem contas, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</li><li>Uma conta só pode ser editada pelo usuário que a criou ou por um administrador do sistema.</li></ul>
 
 É possível configurar uma conta na nuvem usada para qualquer uma ou todas as seguintes finalidades:
 
@@ -23,17 +27,25 @@ ht-degree: 61%
 
 Você precisa configurar o Adobe Analytics com as informações necessárias para acessar sua conta da nuvem. Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Google Cloud Platform e assim por diante) conforme descrito neste artigo e, em seguida, adicionar e configurar o local nessa conta (como uma pasta na conta), conforme descrito em [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md).
 
-Para obter informações sobre como gerenciar contas existentes, incluindo exibição, edição e exclusão de contas, consulte [Gerenciador de locais](/help/components/locations/locations-manager.md).
+Para obter informações sobre como exibir e excluir contas existentes, consulte [Gerenciador de locais](/help/components/locations/locations-manager.md).
 
 Para configurar uma conta de importação ou exportação na nuvem:
 
 1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Localizações**].
 1. No [!UICONTROL Localizações] selecione a [!UICONTROL **Contas de localização**] guia.
-1. Selecionar [!UICONTROL **Adicionar conta**].
+1. (Condicional) Se você for um administrador do sistema, poderá ativar a [!UICONTROL **Exibir contas para todos os usuários**] opção para exibir contas criadas por todos os usuários em sua organização.
+   ![exibir contas para todos os usuários](assets/accounts-all-users.png)
+1. Para criar uma nova conta, selecione [!UICONTROL **Adicionar conta**].
 
-   A caixa de diálogo Add account (Adicionar conta) é exibida.
+   A variável [!UICONTROL **Detalhes da conta de localização**] é exibida.
 
-1. Especifique as seguintes informações: |Campo | Função | |—|—| | [!UICONTROL **Nome da conta de localização**] | O nome da conta de localização. Este nome aparece ao criar um local | | [!UICONTROL **Descrição da conta de localização**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. | | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta para cada tipo, com vários locais conforme necessário dentro dessa conta. |
+   Ou
+
+   Para editar uma conta existente, localize a conta que deseja editar e selecione a [!UICONTROL **Editar detalhes**] botão.
+
+   A variável [!UICONTROL **Adicionar conta**] é exibida.
+
+1. Especifique as seguintes informações: |Campo | Função | |—|—| | [!UICONTROL **Nome da conta de localização**] | O nome da conta de localização. Este nome aparece ao criar um local | | [!UICONTROL **Descrição da conta de localização**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. | | [!UICONTROL **Disponibilizar a conta a todos os usuários em sua organização**] | **Nota:** Essa funcionalidade está na fase de Teste limitado da versão e pode ainda não estar disponível em seu ambiente. Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md). <p>Habilite essa opção para permitir que outros usuários em sua organização usem a conta.</p> <p>Considere o seguinte ao compartilhar contas:</p><ul><li>As contas compartilhadas não podem ter o compartilhamento cancelado.</li><li>As contas compartilhadas podem ser editadas somente pelo proprietário da conta.</li><li>Qualquer pessoa pode criar um local para a conta compartilhada.</li></ul> | | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta de cada tipo, com os vários locais necessários contidos nessa conta.<p>Os administradores do sistema podem limitar os tipos de conta que os usuários podem criar, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</p> |
 1. No [!UICONTROL **Propriedades da conta**] especifique as informações específicas ao tipo de conta selecionado.
 
    Para obter instruções de configuração, expanda a seção abaixo que corresponde à variável [!UICONTROL **Tipo de conta**] selecionado. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
@@ -88,7 +100,23 @@ Para configurar uma conta de importação ou exportação na nuvem:
    |---------|----------|
    | [!UICONTROL **ID do aplicativo**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **ID do locatário**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **Segredo da conta de localização**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Certificados e segredos** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+   | [!UICONTROL **Segredo da conta de localização**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Certificados e segredos** do aplicativo. Para obter mais informações, consulte [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++Email
+
+   >[!NOTE]
+   >
+   >Contas de email podem ser usadas somente com [Feeds de dados](/help/export/analytics-data-feed/create-feed.md). (Contas de email não são compatíveis com o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Conjuntos de classificações](/help/components/classifications/sets/overview.md)).
+
+   Para configurar uma conta do Azure RBAC, especifique as seguintes informações:
+
+   | Campo | Função |
+   |---------|----------|
+   | [!UICONTROL **Destinatários**] | É possível enviar notificações por email a usuários específicos quando o relatório é enviado. Especifique um único endereço de email ou uma lista separada por vírgulas de endereços de email. |
 
    {style="table-layout:auto"}
 

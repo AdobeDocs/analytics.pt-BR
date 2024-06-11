@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar locais de importação e exportação na nuvem
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 04d05fe10e46ca99dd1bd8019161143dab47e61d
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 37%
+source-wordcount: '1730'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,11 @@ ht-degree: 37%
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-Você pode configurar uma conta na nuvem (e um local nessa conta). Um único local pode ser usado para qualquer uma das seguintes finalidades (um único local não pode ser associado a várias finalidades, como Feeds de dados e Data Warehouse, ou conjuntos de Data Warehouse e Classificação):
+>[!NOTE]
+>
+>Considere o seguinte ao criar e editar locais:<ul><li>Os administradores de sistema podem impedir que os usuários criem locais, conforme descrito em [Configurar se os usuários podem criar locais](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). Se você não puder criar locais conforme descrito nesta seção, entre em contato com o administrador do sistema.</li><li>Um local pode ser editado somente pelo usuário que o criou ou por um administrador do sistema.</li></ul>
+
+Depois que você [configurar uma conta na nuvem](/help/components/locations/configure-import-accounts.md), você poderá configurar uma localização nessa conta. Um único local pode ser usado para qualquer uma das seguintes finalidades (um único local não pode ser associado a várias finalidades):
 
 * Exportação de arquivos usando [Feeds de dados](/help/export/analytics-data-feed/create-feed.md)
 * Exportar relatórios usando [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
@@ -23,35 +27,42 @@ Você pode configurar uma conta na nuvem (e um local nessa conta). Um único loc
 
 Você deve configurar o Adobe Analytics com as informações necessárias para acessar sua conta da nuvem. Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Google Cloud Platform e assim por diante), conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md)e, em seguida, adicionar e configurar o local nessa conta (conforme descrito neste artigo).
 
-Para obter informações sobre como gerenciar locais existentes, incluindo exibição, edição e exclusão de locais, consulte [Gerenciador de locais](/help/components/locations/locations-manager.md).
+Para obter informações sobre como exibir e excluir locais existentes, consulte [Gerenciador de locais](/help/components/locations/locations-manager.md).
 
-## Começar a criar um local de exportação de nuvem
+## Começar a criar ou editar um local
 
 1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Localizações**].
-1. No [!UICONTROL Localizações] selecione a [!UICONTROL **Localizações**] guia.
-1. Selecionar [!UICONTROL **Adicionar localização**]. (Se ainda não tiver adicionado uma conta, adicione-a conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md).)
 
-   A caixa de diálogo Local é exibida.
+1. No [!UICONTROL Localizações] selecione a [!UICONTROL **Localizações**] guia.
+
+1. (Condicional) Se você for um administrador do sistema, poderá ativar a [!UICONTROL **Exibir locais para todos os usuários**] opção para exibir locais criados por todos os usuários em sua organização.
+   ![exibir locais para todos os usuários](assets/locations-all-users.png)
+
+1. Para adicionar um novo local, selecione [!UICONTROL **Adicionar localização**]. (Se ainda não tiver adicionado uma conta, adicione-a conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md).)
+
+   A variável [!UICONTROL **Adicionar localização**] é exibida
+
+   Ou
+
+   Para editar um local existente, selecione o menu de 3 pontos ao lado do nome do local e selecione [!UICONTROL **Editar**].
+
+   A variável [!UICONTROL **Detalhes do local**] é exibida.
 
 1. Especifique as seguintes informações: |Campo | Função | |—|—| | [!UICONTROL **Nome**] | O nome do local.  | 
-| [!UICONTROL **Descrição**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. | | [!UICONTROL **Usar com**] | Selecione se você deseja usar esta localização com [!UICONTROL **Feeds de dados**], [!UICONTROL **Data Warehouse**] ou [!UICONTROL **Conjuntos de classificações**]. <p>Considere o seguinte ao fazer uma seleção:</p><ul><li>Um único local não pode ser usado para vários propósitos. Por exemplo, um local usado para feeds de dados também não pode ser usado para conjuntos de Datas Warehouse ou Classificações.</li><li>Para evitar conflitos de arquivos em um local, não altere o valor do [!UICONTROL **Usar com**] após a localização ter sido usada.</li></ul> | | [!UICONTROL **Conta de localização**] | Selecione a conta de localização na qual deseja criar esta localização. Para obter informações sobre como criar uma conta, consulte [Adicionar uma conta](#add-an-account). |
+| [!UICONTROL **Descrição**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. | | [!UICONTROL **Usar com**] | Selecione se você deseja usar esta localização com [!UICONTROL **Feeds de dados**], [!UICONTROL **Data Warehouse**] ou [!UICONTROL **Conjuntos de classificações**]. <p>Considere o seguinte ao fazer uma seleção:</p><ul><li>Um único local não pode ser usado para vários propósitos. Por exemplo, um local usado para feeds de dados também não pode ser usado para conjuntos de Datas Warehouse ou Classificações.</li><li>Para evitar conflitos de arquivos em um local, não altere o valor do [!UICONTROL **Usar com**] após a localização ter sido usada.</li><li>Se você estiver criando um local para uma conta de email, selecione [!UICONTROL **Data Warehouse**] neste campo. Os locais de email não são compatíveis com feeds de dados e conjuntos de classificação.</li></ul> | | [!UICONTROL **Disponibilizar a localização a todos os usuários na organização**] | **Nota:** Essa funcionalidade está na fase de Teste limitado da versão e pode ainda não estar disponível em seu ambiente. Essa nota será removida quando a funcionalidade estiver com disponibilidade geral. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md). <p>Habilite essa opção para permitir que outros usuários em sua organização usem o local.</p> <p>Considere o seguinte ao compartilhar locais:</p><ul><li>Os locais compartilhados não podem ter o compartilhamento cancelado.</li><li>Os locais compartilhados podem ser editados somente pelo proprietário do local.</li><li>Os locais podem ser compartilhados somente se a conta à qual o local está associado também for compartilhada.</li></ul> | | [!UICONTROL **Conta de localização**] | Selecione a conta de localização na qual deseja criar esta localização. Para obter informações sobre como criar uma conta, consulte [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md). |
 
-1. Na seção [!UICONTROL **Propriedades da localização**], insira as informações específicas ao tipo da sua conta de localização.
-
-   Continue com a seção abaixo que corresponde ao tipo de conta selecionado na [!UICONTROL **Contas de localização**] campo. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
-
-
+1. Para preencher o formulário para configurar a localização, continue com a seção abaixo que corresponde ao tipo de conta selecionado no [!UICONTROL **Contas de localização**] campo. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
 
 ### Amazon S3 Role ARN
 
 Para configurar um local ARN de função do Amazon S3, especifique as seguintes informações:
 
-1. [Começar a criar ou editar um local de exportação de nuvem](#begin-creating-or-editing-a-cloud-export-location), conforme descrito acima.
+1. [Começar a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Nome do bucket**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. <p>Certifique-se de que o ARN do usuário fornecido pelo Adobe tenha o `S3:PutObject` para carregar arquivos nesse bucket. </p><p>Os nomes dos blocos precisam cumprir regras de nomenclatura específicas. Por exemplo, eles precisam conter entre 3 e 63 caracteres, só podem conter letras minúsculas, números, pontos (.) e hifens (-), e precisam começar e terminar com uma letra ou número. [Uma lista completa de regras de nomenclatura está disponível na documentação do AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
-   | [!UICONTROL **Prefixo da chave**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
+   | [!UICONTROL **Balde**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. <p>Certifique-se de que o ARN do usuário fornecido pelo Adobe tenha o `S3:PutObject` para carregar arquivos nesse bucket. </p><p>Os nomes dos blocos precisam cumprir regras de nomenclatura específicas. Por exemplo, eles precisam conter entre 3 e 63 caracteres, só podem conter letras minúsculas, números, pontos (.) e hifens (-), e precisam começar e terminar com uma letra ou número. [Uma lista completa de regras de nomenclatura está disponível na documentação do AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Prefixo**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -70,12 +81,12 @@ Para configurar um local ARN de função do Amazon S3, especifique as seguintes 
 
 Para configurar um local da Google Cloud Platform, especifique as seguintes informações:
 
-1. [Começar a criar ou editar um local de exportação de nuvem](#begin-creating-or-editing-a-cloud-export-location), conforme descrito acima.
+1. [Começar a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Nome do bucket**] | O bucket da conta GCP para o qual você deseja que os dados do Adobe Analytics sejam enviados. Verifique se você concedeu permissão ao Principal fornecido pelo Adobe para fazer upload de arquivos para esse bucket. |
-   | [!UICONTROL **Prefixo da chave**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
+   | [!UICONTROL **Balde**] | O bucket da conta GCP para o qual você deseja que os dados do Adobe Analytics sejam enviados. Verifique se você concedeu permissão ao Principal fornecido pelo Adobe para fazer upload de arquivos para esse bucket. |
+   | [!UICONTROL **Prefixo**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -94,12 +105,12 @@ Para configurar um local da Google Cloud Platform, especifique as seguintes info
 
 Para configurar um local do Azure SAS, especifique as seguintes informações:
 
-1. [Começar a criar ou editar um local de exportação de nuvem](#begin-creating-or-editing-a-cloud-export-location), conforme descrito acima.
+1. [Começar a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Nome do container**] | O container na conta especificada para onde você deseja enviar os dados do Adobe Analytics. |
-   | [!UICONTROL **Prefixo da chave**] | A pasta no container onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/` |
+   | [!UICONTROL **Contêiner**] | O container na conta especificada para onde você deseja enviar os dados do Adobe Analytics. |
+   | [!UICONTROL **Prefixo**] | A pasta no container onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -118,13 +129,13 @@ Para configurar um local do Azure SAS, especifique as seguintes informações:
 
 Para configurar um local do Azure RBAC, especifique as seguintes informações:
 
-1. [Começar a criar ou editar um local de exportação de nuvem](#begin-creating-or-editing-a-cloud-export-location), conforme descrito acima.
+1. [Começar a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Nome do container**] | O container na conta especificada para onde você deseja enviar os dados do Adobe Analytics. Conceda permissões para fazer upload de arquivos para o aplicativo do Azure que você criou anteriormente. |
-   | [!UICONTROL **Prefixo de chave**] | A pasta no container onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/` |
-   | [!UICONTROL **Nome da conta**] | A conta de armazenamento do Azure. |
+   | [!UICONTROL **Conta**] | A conta de armazenamento do Azure. |
+   | [!UICONTROL **Contêiner**] | O container na conta especificada para onde você deseja enviar os dados do Adobe Analytics. Conceda permissões para fazer upload de arquivos para o aplicativo do Azure que você criou anteriormente. |
+   | [!UICONTROL **Prefixo**] | A pasta no container onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -137,6 +148,23 @@ Para configurar um local do Azure RBAC, especifique as seguintes informações:
    >[!NOTE]
    >
    >   Se você usou anteriormente [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) no Adobe Analytics, era necessário carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
+
+### Email
+
+Para configurar um local de email, especifique as seguintes informações:
+
+1. [Começar a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
+
+   | Campo | Função |
+   |---------|----------|
+   | [!UICONTROL **Assunto**] | O assunto da mensagem de email. |
+   | [!UICONTROL **Notas**] | O conteúdo da mensagem de email. |
+
+   {style="table-layout:auto"}
+
+1. Selecione [!UICONTROL **Salvar**].
+
+   Agora é possível exportar dados para a conta e o local configurados ao usar o [Feeds de dados](/help/export/analytics-data-feed/create-feed.md). (As localizações de email não são compatíveis com o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Conjuntos de classificações](/help/components/classifications/sets/overview.md)).
 
 ### Tipos de conta herdada
 
