@@ -3,46 +3,45 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: aabf3b2ef75206938f559af9376e5af483687dbf
+source-git-commit: ed7ccd23b850cda3a0bb695fdc8daee56643c33d
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 97%
+source-wordcount: '990'
+ht-degree: 55%
 
 ---
 
-# Notas de versão atuais do Adobe Analytics (maio de 2024)
+# Notas de versão atuais do Adobe Analytics (junho de 2024)
 
-**Última atualização**: terça-feira, 3 de junho de 2024
+**Última atualização**: quinta-feira, 12 de junho de 2024
 
-Estas notas de versão cobrem o período de lançamento de 15 de maio de 2024 a junho. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+Essas notas de versão abrangem o período de lançamento de 12 de junho de 2024 a julho. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 ## Novos recursos ou melhorias {#features}
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Nova documentação para atualização do Adobe Analytics para o Customer Journey Analytics** | Para organizações que estão atualizando do Adobe Analytics para o Customer Journey Analytics, há várias opções de atualização e várias considerações a serem levadas em conta com base na implementação atual do Adobe Analytics em uma organização e nas metas de longo prazo. Novos recursos de documentação agora estão disponíveis para ajudar você a entender melhor:<ul><li>Os vários caminhos de atualização existentes</li><li>Quais caminhos de atualização estão disponíveis com base na implementação atual do Adobe Analytics de uma organização</li><li>As vantagens e desvantagens de cada caminho de atualização</li><li>Orientação passo a passo para cada caminho de atualização</li><li>Considerações para manuseio de dados históricos</li></ul>[Introdução à atualização para o Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | Disponível agora |
-| **Definir campos do `contextData` via XDM** | Os clientes que enviam dados para o Adobe Analytics por meio da Experience Edge Network podem [definir valores de dados de contexto](https://experienceleague.adobe.com/pt-br/docs/analytics/implementation/vars/page-vars/contextdata) diretamente no XDM ou nas partes de “dados” do conteúdo. |  | Disponível agora |
-| **API de relatórios em tempo real 2.0 do Analytics** | A nova API de relatórios em tempo real 2.0 no Adobe Analytics melhora a integração do cliente e fornece resultados rápidos de relatórios. Esses resultados podem ser usados de forma programática para trabalhar com relatórios básicos, de tendências e de detalhamento. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | | 30 de maio de 2024 |
-| **Mídia de transmissão: envie dados da web para a Adobe Experience Platform Edge Network com o SDK da Web** | Agora você pode usar o SDK da Web da Adobe Experience Platform para enviar dados da web de mídias de streaming para a Adobe Experience Platform Edge Network.  Esse aprimoramento permite criar campanhas mais personalizadas e fornecer conteúdo mais personalizado, resultando em mais dados de rastreamento a serem relatados.<p>Essa alteração fornece um método de coleção unificada para implementações na web em todas as soluções da Platform, como Customer Journey Analytics, Adobe Real-time CDP, Adobe Journey Optimizer e Encaminhamento de eventos. Anteriormente, a única forma de enviar dados da web de mídias de streaming para a Edge Network era por meio da API do Media Edge. <p>[Saiba mais](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/edge-web-sdk)</p> | | 29 de maio de 2024 |
-| **Aumento nos limites padrão de tráfego baixo** | Em **meados de abril de 2024**, a Adobe começará a aumentar os limites padrão de tráfego baixo para conjuntos de relatórios da seguinte maneira: ![limites de tráfego baixo](assets/thresholds.png) isso afetará somente as variáveis que estão definidas abaixo dos novos limites. Essas alterações serão feitas de forma incremental e esperamos que o trabalho seja concluído até o **fim de maio**. À medida que esses aumentos forem implementados, você poderá notar alterações nas variáveis de alta cardinalidade:<ul><li>Mais valores de dimensão podem estar disponíveis para relatórios.</li><li>Segmentos e métricas calculadas podem incluir mais dados.</li><li>Os conjuntos de relatórios virtuais baseados em segmentos podem incluir mais dados.</li><li>As exportações de classificação podem incluir mais dados.</li></ul> | Meados de abril de 2024 | 31 de maio de 2024 |
-| **Configurações do administrador para controlar as contas e os locais usados para exportação e importação** | Uma nova guia “Configurações do administrador” no gerenciador de locais fornece aos administradores controle sobre a possibilidade de os usuários criarem e editarem contas e locais. Essas configurações aplicam-se quando os usuários configuram contas de importação e exportação na nuvem, bem como quando configuram locais de importação e exportação na nuvem. <p>Administradores também podem limitar os tipos de conta (Google Cloud Platform, Azure RBAC, Amazon S3 e assim por diante) que os usuários podem criar e usar.</p><p>Anteriormente, qualquer usuário podia criar, editar e usar contas e locais para qualquer tipo de conta.</p><p>Para obter mais informações, consulte [Definir configurações em toda a empresa (somente administradores)](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) in [Gerenciador de locais](/help/components/locations/locations-manager.md).</p> | 12 de junho de 2024 | 30 de junho de 2024 |
-| **Compartilhar contas e locais usados para exportação e importação** | Agora os usuários podem disponibilizar as contas e os locais que criam para todos os usuários em sua organização. Somente os proprietários de contas e locais e os administradores do sistema podem editar e excluir contas e locais.<p>Anteriormente, contas e locais podiam ser usados somente pelo usuário que os criava.</p><p>Essas configurações estão disponíveis quando usuários configuram contas de importação e exportação na nuvem, bem como quando configuram locais de importação e exportação na nuvem. </p> <p>Para obter mais informações, consulte [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md) e [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md).</p> | 12 de junho de 2024 | 30 de junho de 2024 |
+| **Selecione vários filtros quando eles estiverem disponíveis no menu suspenso em uma tabela de forma livre** | Quando vários filtros são adicionados a uma tabela de forma livre como um menu suspenso, os usuários da tabela de forma livre agora podem selecionar mais de um filtro por vez. A tabela de forma livre é filtrada para incluir qualquer um dos filtros selecionados. Anteriormente, os usuários podiam selecionar apenas um filtro por vez em um menu suspenso de filtros.<p>(Link de documentação em breve.) |  | quinta-feira, 19 de junho de 2024 |
+| **Sumário de projetos do Workspace** | Um novo sumário está disponível para projetos. O índice fornece links que permitem aos usuários ir rapidamente para painéis e visualizações no projeto. O índice pode ser ativado para projetos individuais ou para todos os projetos de um determinado usuário.<p>(Link de documentação em breve.) |  | quinta-feira, 19 de junho de 2024 |
+| **Adicionar hiperlinks a itens de dimensão em uma tabela de forma livre** | <ul><li>É possível criar hiperlinks para um ou mais itens de dimensão para torná-los clicáveis em uma tabela de forma livre no Analysis Workspace.</li><li>Você pode criar hiperlinks para itens de dimensão com valores de URL ou criar URLs personalizados para itens de dimensão com valores que não sejam de URL.</li><li>Você pode criar URLs personalizados dinâmicos para vários itens de dimensão usando variáveis. As variáveis podem fazer referência ao valor de um item de dimensão ou à dimensão de detalhamento.</li></ul>(Link de documentação em breve.) |  | quinta-feira, 19 de junho de 2024 |
+| **Configurações do administrador para controlar as contas e os locais usados para exportação e importação** | Um novo [Guia &quot;Configurações do administrador&quot; no Gerenciador de locais](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/locations-manager) O fornece aos administradores controle sobre se os usuários podem criar e editar contas e locais. Essas configurações se aplicam quando os usuários [configurar contas de importação e exportação na nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts) e [configurar locais de importação e exportação na nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-locations). <p>Administradores também podem limitar os tipos de conta (Google Cloud Platform, Azure RBAC, Amazon S3 e assim por diante) que os usuários podem criar e usar.</p><p>Anteriormente, qualquer usuário podia criar, editar e usar contas e locais para qualquer tipo de conta.</p> | terça-feira, 11 de março de 2024 | quarta-feira, 18 de junho de 2024 |
+| **Compartilhar contas e locais usados para exportação e importação** | Agora os usuários podem disponibilizar as contas e os locais que criam para todos os usuários em sua organização. Somente os proprietários de contas e locais e os administradores do sistema podem editar e excluir contas e locais.<p>Anteriormente, contas e locais podiam ser usados somente pelo usuário que os criava.</p><p>Essas configurações estão disponíveis quando os usuários [configurar contas de importação e exportação na nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts) e [configurar locais de importação e exportação na nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-locations). </p> | 12 de junho de 2024 | 30 de junho de 2024 |
 | **O Activity Map usa menos chamadas de servidor para o SDK da Web** | Atualmente, os eventos de link do Activity Map são contados como eventos próprios e resultam em cobranças adicionais. Esse aprimoramento seleciona alguns eventos de link e os reúne na próxima ocorrência, de modo semelhante a como os eventos são tratados pelo AppMeasurement. <p>(Link para a documentação será atualizado em breve)</p> | Beta aberto começa em 19 de junho de 2024 | A ser definido |
 
 {style="table-layout:auto"}
 
 ## Correções no Adobe Analytics
 
-* Correção dos seguintes problemas de classificações: AN-343186; AN-344711; AN-344856; AN-345094; AN-345179; AN-346265; AN-345288; AN-346339; AN-346560; AN-347572; AN-347681; AN-347768; AN-348024
-* Correção dos seguintes problemas do Data Warehouse: AN-346789; AN-347031; AN-347568;
-* Correção dos seguintes problemas dos Feeds de dados: AN-343616; AN-345831; AN-345988; AN-346124; AN-346232; AN-346972; AN-347680; AN-347755; AN-347954
-* Correção do seguinte problema de fontes de dados: AN-347890;
-* Correção dos seguintes problemas do Analysis Workspace: AN-321503; AN-343103; AN-343471; AN-345171; AN-345223; AN-345912; AN-346026; AN-346330; AN-346839; AN-347679
-* Correção do seguinte problema do A4T: AN-345118;
+* Correção dos seguintes problemas de Classificações: AN-347682; AN-348396; AN-348625; AN-348668; AN-348926; AN-348936; AN-349040; AN-349191; AN-349195; AN-349 9443; AN-349697; AN-349758; AN-349862; AN-350051; AN-350054; AN-350208; AN-350497; AN-350525; AN-351067
+* Correção dos seguintes problemas de Data Warehouse: AN-346862; AN-349409; AN-349926; AN-350629; AN-350996
+* Correção dos seguintes problemas de Feeds de dados: AN-346727; AN-348282; AN-348334; AN-348725; AN-348726; AN-348823; AN-349081; AN-349207; AN-349307; AN-3497 349729; AN-349742; AN-349742; AN-349878; AN-349943; AN-350527;
+* Correção do seguinte problema das fontes de dados: AN-350038
+* Correção dos seguintes problemas do Analysis Workspace: AN-342953; AN-346346; AN-349590; AN-349717; AN-350057; AN-350697; AN-350904
+* Correção dos seguintes problemas de Report Builder: AN-348903; AN-350691
+* Correção dos seguintes problemas do A4T: AN-347690; AN-350853
 
 ### Outras correções do Analytics
 
-AN-327749; AN-332949; AN-342881; AN-343171; AN-343708; AN-344034; AN-345559; AN-346023; AN-346230; AN-346330; AN-346469; AN-346606; AN-346750; AN-346973; AN-347026; AN-347110; AN-347439;
+AN-346470; AN-346850; AN-347227; AN-348145; AN-348564; AN-349001; AN-349008; AN-349211; AN-349719; AN-350523;
 
 ## Avisos importantes para administradores do Adobe Analytics {#admin}
 
@@ -68,7 +67,7 @@ Para obter as atualizações mais recentes sobre as versões do AppMeasurement (
 
 ## Recursos relacionados
 
-* [Notas de versão anteriores para 2023](/help/release-notes/2023.md)
+* [Notas de versão anteriores para 2024](/help/release-notes/2024.md)
 * [Notas de versão do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=pt-BR)
 * [Notas de versão do Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=pt-BR)
 * As atualizações de versão mais recentes para [produtos da Adobe Experience Cloud](https://business.adobe.com/br/products/adobe-experience-cloud-products.html)
