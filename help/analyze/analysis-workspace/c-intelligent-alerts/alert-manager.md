@@ -4,33 +4,54 @@ title: Gerenciador de alertas (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d6d42b079a013eb5608ad85ae311d8bf0f7a5d21
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 97%
+source-wordcount: '233'
+ht-degree: 7%
 
 ---
 
-# Gerenciador de Alerta
 
-![](assets/alert-manager.png)
+# Gerenciar alertas
 
-O Gerenciador de alertas (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**) está estruturado de maneira semelhante ao [Gerenciador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=pt-BR) e ao [Gerenciador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=pt-BR) e permite
+Você pode gerenciar alertas existentes no Gerenciador de alertas. Você pode executar várias tarefas de gerenciamento em alertas, como marcar, renomear, excluir e muito mais.
 
-![](assets/alert-manager-tasks.png)
+O gerenciador de Alertas está estruturado da mesma forma que o [Gerenciador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=pt-BR) e a variável [Gerenciador de métrica calculada](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=pt-BR).
 
-* Acesse o Criador de alertas, clicando em **[!UICONTROL + Adicionar]**.
-* Marcar alertas. Isso permite organizá-los para facilitar o uso.
-* Excluir alertas.
-* Renomear alertas.
-* Aprovar alertas.
-* Copiar alertas.
-* Ativar/desativar alertas.
-* **Renovar** uma data de expiração para o alerta. Quando um ou mais alertas são selecionados, podem ser renovados ao clicar em **Renovar**. Essa ação estende as datas de expiração em 1 ano a partir do dia da renovação, independentemente da data de expiração original.
-* Exportar um alerta para um arquivo .CSV.
-* Editar alertas ao clicar duas vezes no título do alerta.
-* Pesquisar por alertas.
-* Adicionar alertas a outros conjuntos de relatórios.
-* Especificar/alterar o proprietário de um alerta.
-* Adicionar outros filtros.
-* Definir uma **data de expiração** para o alerta.
+## Criar alertas
+
+Para criar alertas a partir do Gerenciador de alertas:
+
+1. Selecionar **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acessar o gerenciador de Alertas no Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Selecionar [!UICONTROL **Adicionar**] (ou [!UICONTROL **Criar novo alerta**] se você não tiver nenhum alerta existente).
+
+1. Continuar com [Criar alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) para obter mais detalhes sobre como criar alertas.
+
+## Gerenciar alertas existentes
+
+Para gerenciar alertas existentes no Gerenciador de alertas:
+
+1. Selecionar **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acessar o gerenciador de Alertas no Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Selecione um ou mais alertas que deseja gerenciar.
+
+   ![](assets/alert-manager-tasks.png)
+
+1. Na barra de ações, selecione qualquer uma das seguintes opções:
+
+   | Ação | Função |
+   |---------|----------|
+   | [!UICONTROL **Tag**] | Aplicar uma tag a um alerta. Isso ajuda a organizar alertas para facilitar o uso. |
+   | [!UICONTROL **Excluir**] | Exclui o alerta. |
+   | [!UICONTROL **Renomear**] | Renomeia o alerta. |
+   | [!UICONTROL **Aprovar**] | Marcar o alerta como Aprovado. |
+   | [!UICONTROL **Copiar**] | Cria uma cópia (duplicata) do alerta. |
+   | [!UICONTROL **Desativar**] | Desativa um alerta atualmente ativado. |
+   | [!UICONTROL **Ativar**] | Ativa um alerta desativado no momento. |
+   | [!UICONTROL **Renovar**] | Renova a data de expiração do alerta. Essa ação estende a data de expiração para 1 ano a partir do dia em que você selecionou essa opção, independentemente da data de expiração original. |
+   | [!UICONTROL **Exportar para CSV**] | Exporta o alerta para um arquivo .CSV. |

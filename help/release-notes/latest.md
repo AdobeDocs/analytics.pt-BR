@@ -3,10 +3,10 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
+source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 55%
+source-wordcount: '969'
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ Essas notas de versão abrangem o período de lançamento de 12 de junho de 2024
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Selecione vários filtros quando eles estiverem disponíveis no menu suspenso em uma tabela de forma livre** | Quando vários filtros são adicionados a uma tabela de forma livre como um menu suspenso, os usuários da tabela de forma livre agora podem selecionar mais de um filtro por vez. A tabela de forma livre é filtrada para incluir qualquer um dos filtros selecionados. Anteriormente, os usuários podiam selecionar apenas um filtro por vez em um menu suspenso de filtros.<p>(Link de documentação em breve.) |  | quinta-feira, 19 de junho de 2024 |
+| **Selecionar vários campos em um filtro suspenso** | Quando vários campos são adicionados a um filtro suspenso, os usuários podem selecionar mais de um campo por vez. O painel é filtrado para incluir qualquer um dos campos selecionados. <p>Anteriormente, os usuários podiam selecionar apenas um campo por vez em um filtro suspenso.</p><p>(Link de documentação em breve.)</p> |  | quinta-feira, 19 de junho de 2024 |
 | **Sumário de projetos do Workspace** | Um novo sumário está disponível para projetos. O índice fornece links que permitem aos usuários ir rapidamente para painéis e visualizações no projeto. O índice pode ser ativado para projetos individuais ou para todos os projetos de um determinado usuário.<p>(Link de documentação em breve.) |  | quinta-feira, 19 de junho de 2024 |
 | **Criar hiperlinks para itens de dimensão em uma tabela de forma livre** | É possível criar hiperlinks para um ou mais itens de dimensão para torná-los clicáveis em uma tabela de forma livre no Analysis Workspace. <p>Você pode criar hiperlinks para itens de dimensão com valores de URL ou criar URLs personalizados para itens de dimensão com valores que não sejam de URL.</p><p>Você pode criar URLs personalizados dinâmicos para vários itens de dimensão usando variáveis. As variáveis podem fazer referência ao valor de um item de dimensão ou à dimensão de detalhamento.</p><p>(Link de documentação em breve.)<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | quinta-feira, 19 de junho de 2024 |
 | **Configurações do administrador para controlar as contas e os locais usados para exportação e importação** | Um novo [Guia &quot;Configurações do administrador&quot; no Gerenciador de locais](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) O fornece aos administradores controle sobre se os usuários podem criar e editar contas e locais. Essas configurações se aplicam quando os usuários [configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md) e [configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md). <p>Administradores também podem limitar os tipos de conta (Google Cloud Platform, Azure RBAC, Amazon S3 e assim por diante) que os usuários podem criar e usar.</p><p>Anteriormente, qualquer usuário podia criar, editar e usar contas e locais para qualquer tipo de conta.</p> | 12 de junho de 2024 | 30 de junho de 2024 |

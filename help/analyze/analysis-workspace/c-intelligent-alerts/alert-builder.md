@@ -4,99 +4,50 @@ title: Criador de alertas (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 99%
+source-wordcount: '569'
+ht-degree: 42%
 
 ---
 
-# Criador de alertas
+# Criar alertas
 
 >[!NOTE]
 >
 >Os Alertas inteligentes estão disponíveis somente para clientes do Adobe Analytics Prime e do Adobe Analytics Ultimate.
 
-## Acessar o Criador de alertas
+Os Alertas inteligentes (ou apenas &quot;alertas&quot;) no Adobe Analytics permitem que você seja notificado imediatamente quando ocorrerem eventos anormais em seus dados.
 
-Acesse o Criador de alertas de uma das seguintes formas:
+Para obter informações mais detalhadas sobre a visão geral dos Alertas inteligentes, consulte [Visão geral de Alertas inteligentes](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-* Usando o seguinte atalho no Analysis Workspace:
+Para criar um alerta:
 
-  `ctrl (or cmd) + shift + a`
-* Acessando **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Novo alerta]**.
-* Selecionando um ou mais itens de linha da tabela de forma livre, clicando com o botão direito do mouse e selecionando **[!UICONTROL Criar alerta a partir da seleção]**.
+1. Comece a criar um alerta acessando o criador de alertas. Você pode acessar o criador de alertas de qualquer uma das seguintes maneiras:
 
-## Criar alertas
+   * Abra um projeto no Analysis Workspace e selecione **[!UICONTROL Componentes]** > **[!UICONTROL Criar alerta]**.
+   * Abra um projeto no Analysis Workspace e use o seguinte atalho:
 
-A interface do Criador de alertas é semelhante àquela que cria segmentos ou métricas calculadas no Analytics:
+     `ctrl (or cmd) + shift + a`
+   * Abra um projeto no Analysis Workspace, selecione um ou mais itens de linha em uma tabela de forma livre, clique com o botão direito do mouse e selecione **[!UICONTROL Criar alerta a partir da seleção]**.
 
-![](assets/alert_builder.png)
+     Essa ação preenche o criador de alertas automaticamente para criar um alerta com as métricas e filtros corretos.
+   * No Adobe Analytics, selecione **[!UICONTROL Componentes]** > [!UICONTROL **Alertas**] > **[!UICONTROL Criar novo alerta]**.
 
-<!--Meike, I edited this table for validation -->
+   O criador de alertas é exibido. Essa interface é semelhante àquela que cria segmentos ou métricas calculadas no Analytics:
 
-**Nome do Alerta**
+   ![](assets/alert-builder.png)
 
-Especifique um nome para o alerta. O nome do alerta pode conter o nome do relatório ou o limite da métrica.
+1. Especifique as seguintes opções para configurar o alerta:
 
-**Granularidade de tempo**
+   | Opção | Descrição |
+   |---------|----------|
+   | [!UICONTROL **Título**] | Especifique um nome para o alerta. O nome do alerta pode conter o nome do relatório ou o limite da métrica. |
+   | [!UICONTROL **Descrição (opcional)**] | Especifique uma descrição para o alerta. |
+   | [!UICONTROL **Granularidade de tempo**] | Selecione a frequência com que deseja verificar a métrica: diariamente, semanalmente ou mensalmente.<p><b>Nota:</b>Para visualizações de dados com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.<!--true?--></p> |
+   | [!UICONTROL **Destinatários**] | Especifique para onde o alerta pode ser enviado. Um alerta pode ser enviado a um usuário do Analytics, a um grupo do Analytics, a um endereço de email bruto ou a um número de telefone.<p><b>Importante:</b>O número de telefone deve ser precedido por um &quot;+&quot; e um [código do país](https://countrycode.org/).</p><p>O email que um usuário receberia depois que um alerta é acionado é semelhante ao modelo abaixo:</p><p>![](assets/alerts-email.PNG)</p> |
+   | [!UICONTROL **Data de expiração**] | Defina a data e a hora em que deseja que o alerta expire. |
+   | [!UICONTROL **Enviar um alerta quando**] | [!UICONTROL **Qualquer uma dessas métricas é acionada**]: arraste e solte métricas (incluindo métricas calculadas) aqui para criar acionadores para o alerta.<p>Um **&quot;componentes incompatíveis&quot;** será exibida se nem todas as métricas, dimensões ou segmentos no alerta forem compatíveis com a visualização de dados selecionada no momento.</p><p>Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:</p><ul><li>a anomalia existe</li><li>a anomalia está acima do esperado</li><li>a anomalia está abaixo do esperado</li><li>é igual ou maior que</li><li>é igual ou menor que</li><li>alterações por</li><li>Você pode definir um limite de 90%, 95%, 99%, 99,75% e 99,9%.</li></ul><p>[!UICONTROL **Com todos esses filtros**]: arraste e solte segmentos ou dimensões para adicionar filtros. Por exemplo, adicionar um segmento &quot;Somente dispositivos móveis&quot; significaria que a regra seria acionada somente para dispositivos móveis. Você pode adicionar filtros extras usando uma instrução AND. Você pode adicionar regras AND ou OR, clicando no ícone de engrenagem.</p><p>Consulte [Alertas inteligentes - Casos de uso](/help/analyze/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md) por exemplo, usa maiúsculas e minúsculas.</p> |
+   | [!UICONTROL **Pré-visualizar**] | A visualização de alertas interativa mostra a frequência de disparo aproximada de um alerta com base na experiência passada.<p>Por exemplo, se você definir a granularidade de tempo para diário, a visualização pode informar se o alarme foi disparado para uma determinada métrica x vezes durante os últimos 30 ou 31 dias.</p><p>Se achar que muitos alertas podem ter sido disparados, você pode ajustar o limite no [Gerenciador de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).</p><p>![](assets/alert_preview.png)</p> |
 
-Especifique quando você deseja verificar a métrica: por hora, dia, semana ou mês.
-
->[!NOTE]
->
->Para conjuntos de relatórios com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.
-
-**Destinatários**
-
-Especifique para onde o alerta pode ser enviado. Um alerta pode ser enviado a um usuário do Analytics, a um grupo do Analytics, a um endereço de email bruto ou a um número de telefone.
-
->[!IMPORTANT]
->
->O telefone deve ser precedido por um “+” e um [código de país](https://countrycode.org/).
-
-O email que um usuário receberia depois que um alerta é acionado é semelhante ao modelo abaixo:
-
-![](assets/alerts-email.PNG)
-
-**Data de expiração**
-
-Defina a data de expiração do alerta.
-
-**Enviar um Alerta quando...**
-
-*... qualquer uma dessas métricas forem acionadas*
-
-* Arraste e solte métricas na tela que adicionará disparadores.
-
-  Será exibida uma mensagem **“componentes incompatíveis”** se nem todos os componentes (métricas/dimensões/segmentos) no alerta forem compatíveis com o conjunto de relatórios selecionado atualmente.
-* Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:
-
-   * a anomalia existe
-   * a anomalia está acima do esperado
-   * a anomalia está abaixo do esperado
-   * é igual ou maior que
-   * é igual ou menor que
-   * alterações por
-   * Você pode definir um limite de 90%, 95%, 99%, 99,75% e 99,9%.
-
-  Observe que você também pode usar as métricas calculadas.
-
-*... com esses filtros*
-
-* Arraste e solte os segmentos ou dimensões para adicionar filtros. Por exemplo, adicionar um segmento “Somente dispositivos móveis” significaria que a regra dispara somente para dispositivos móveis.
-* Filtros adicionais serão adicionados usando uma declaração AND.
-
-**Adicionar uma regra**
-
-Você pode adicionar regras AND ou OR, clicando no ícone de engrenagem.
-
-## Visualizar alertas {#section_10D75BA7B77E4C5FAF58A719C082E070}
-
-A visualização de alertas interativa mostra a frequência de disparo aproximada de um alerta com base na experiência passada.
-
-Por exemplo, se você definir a granularidade de tempo para diário, a visualização pode informar se o alarme foi disparado para uma determinada métrica x vezes durante os últimos 30 ou 31 dias.
-
-Se achar que muitos alertas podem ter sido disparados, você pode ajustar o limite no [Gerenciador de alertas](/help/components/c-alerts/alert-manager.md).
-
-![](assets/alert_preview.png)
+1. Selecione [!UICONTROL **Salvar**].
