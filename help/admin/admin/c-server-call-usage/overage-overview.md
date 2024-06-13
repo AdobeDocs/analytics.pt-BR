@@ -4,35 +4,33 @@ title: Visão geral do uso de chamadas do servidor
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '996'
+ht-degree: 80%
 
 ---
 
 # Uso de chamadas do servidor
 
-O Uso de chamadas do servidor do Adobe Analytics reconhece suas solicitações de transparência em dados de uso de chamada do servidor do navegador e de dispositivos móveis. Permite acessar:
+O uso de chamadas de servidor do Adobe Analytics atende às suas solicitações de transparência nos dados de uso de chamadas do navegador e do servidor móvel. Permite acessar:
 
-* Um painel de Uso de chamadas do servidor que monitora seus dados de consumo de chamadas do servidor e os compara ao seu limite contratual. (**[!UICONTROL Analytics > Administrador > Uso de chamadas do servidor]**)
-* Um tipo de alerta de Uso de chamada de servidor no Criador de alertas que permite configurar alertas para evitar sobreposições (**[!UICONTROL Analytics > Componentes > Alertas]**)
+* Um painel de uso de chamadas do servidor que rastreia os dados de consumo de chamadas do servidor e os compara ao limite contratual. (No Adobe Analytics, selecione > [!UICONTROL **Admin**] > [!UICONTROL **Uso de chamadas do servidor**])
+* Um tipo de alerta de uso de chamada de servidor no criador de alertas que permite configurar alertas para evitar sobreposições (no Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Alertas**])
 
-Dentre as principais vantagens do Uso de chamadas do servidor, encontram-se:
+Os principais benefícios do uso de chamadas do servidor incluem:
 
 * **Visibilidade** para seus dados de consumo e de compromisso de chamadas do servidor, incluindo consumo móvel de acordo com seu limite contratual de uso de chamadas do servidor.
 * **Alertas** para notificá-lo sobre o risco ou a ocorrência de um excedente e prepará-lo para executar uma ação no caso de possíveis excedentes incorrentes.
 
-Anteriormente, apesar de poder acessar dados mensais de consumo de chamadas do servidor em **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Faturamento]**, esses dados eram atualizados somente seis dias depois do fechamento do faturamento do mês. Além disso, os dados não incluíam consumo móvel. Esse recurso substituirá o relatório **[!UICONTROL Informações de faturamento]** atual em **[!UICONTROL Analytics]** > **[!UICONTROL Relatórios]**.
+## Pré-requisitos  {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-## Pré-requisitos {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
-
-* **Permissões:** para acessar o Painel de Uso de chamadas do servidor e o Criador/Gerenciador de alertas, é necessário ser um Administrador do Adobe Analytics.
-* **Permissões:** administradores podem conceder acesso a não administradores: a permissão chama-se **[!UICONTROL Uso de chamadas do servidor]**. Consulte [Permissão de uso de chamadas do servidor](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **Permissões:** Para acessar o painel de uso de chamadas do servidor e o criador ou gerenciador de alertas, é necessário ser um administrador do Adobe Analytics.
+* **Permissões:** Administradores podem conceder acesso a não administradores: a permissão é chamada **[!UICONTROL Uso de chamadas do servidor]**. Consulte [Permissão de uso de chamadas do servidor](#server-call-usage-permission).
 
 ## Terminologia importante {#terminology}
 
-Veja abaixo um breve guia sobre a terminologia essencial do Uso de chamadas do servidor:
+Os termos a seguir são importantes para entender o uso de chamadas do servidor:
 
 <table id="table_4E97F85F13344A2C962FA4FA5A51642E"> 
  <thead> 
@@ -65,7 +63,7 @@ Veja abaixo um breve guia sobre a terminologia essencial do Uso de chamadas do s
    <td colname="col2"> <p>Uma organização é a entidade que permite a um administrador configurar grupos e usuários, além de controlar o logon único na Experience Cloud. A organização funciona como uma empresa de logon que abrange os produtos e as soluções da Experience Cloud. </p> <p>Frequentemente, a organização é o nome da empresa. Contudo, uma empresa pode ter muitas organizações. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Compromisso de chamada do servidor </p> </td> 
+   <td colname="col1"> <p>Compromisso de chamadas do servidor </p> </td> 
    <td colname="col2"> <p>Quando a sua empresa assina um contrato com a Adobe, a equipe da Adobe Sales identifica com você, o cliente, os tipos (Primárias, Secundárias, Primárias móveis e Secundárias móveis) e o número aproximado de chamadas do servidor que você espera incorrer ao longo do período de validade do contrato. Esse é seu compromisso total de chamadas do servidor. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +79,7 @@ Veja abaixo um breve guia sobre a terminologia essencial do Uso de chamadas do s
 
 ## Permissão de uso de chamadas do servidor {#permission}
 
-A permissão de Uso de chamadas do servidor é concedida automaticamente a Administradores do Analytics. Ela permite que usuários visualizem o painel e criem alertas de chamada do servidor. Administradores podem optar por conceder essa permissão a não administradores.
+A permissão de uso de chamadas do servidor é concedida automaticamente a administradores do Analytics. Ela permite que usuários visualizem o painel e criem alertas de chamada do servidor. Administradores podem optar por conceder essa permissão a não administradores.
 
 >[!NOTE]
 >
@@ -101,13 +99,13 @@ A permissão de Uso de chamadas do servidor é concedida automaticamente a Admin
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Faça logon no Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Navegue até <span class="ignoretag"> <span class="uicontrol"> Administrador</span> &gt; <span class="uicontrol">Todos os administradores</span> &gt; <span class="uicontrol">User Management</span> &gt; <span class="uicontrol">Grupos </span> &gt; <span class="uicontrol">Editar acesso a todos os relatórios</span> &gt; <span class="uicontrol">Ferramentas do Analytics</span> &gt; <span class="uicontrol">Personalizar</span> &gt; <span class="uicontrol">Uso de chamada de servidor</span></span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Navegue até <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Todos os administradores </span>  &gt; <span class="uicontrol"> Gerenciamento de usuários </span>  &gt; <span class="uicontrol"> Grupos </span>  &gt; <span class="uicontrol"> Editar Acesso a Todos os Relatórios </span>  &gt; <span class="uicontrol"> Ferramentas do Analytics </span>  &gt; <span class="uicontrol"> Personalizar </span>  &gt; <span class="uicontrol"> uso de chamadas do servidor </span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Faça logon em login.experiencecloud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Clique em <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navegue até <span class="ignoretag"> <span class="uicontrol"> Produtos</span> &gt; <span class="uicontrol">Perfil de produto</span> &gt; <span class="uicontrol">Permissões</span> &gt; <span class="uicontrol">Ferramentas do Analytics</span> &gt; <span class="uicontrol">Uso de chamadas do servidor</span></span>. </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navegue até <span class="ignoretag"> <span class="uicontrol"> Produtos </span>  &gt; <span class="uicontrol"> Perfil do produto </span>  &gt; <span class="uicontrol"> Permissões </span>  &gt; <span class="uicontrol"> Ferramentas do Analytics </span>  &gt; <span class="uicontrol"> uso de chamadas do servidor </span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
