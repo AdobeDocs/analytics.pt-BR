@@ -4,7 +4,7 @@ title: Valor de tráfego baixo no Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
 ht-degree: 100%
 
@@ -17,8 +17,8 @@ Quando um relatório tem muitos valores únicos, a Adobe fornece funcionalidade 
 ## Como o [!UICONTROL Tráfego baixo] funciona
 
 * O Adobe Analytics usa dois limites para determinar quais valores únicos são exibidos nos relatórios a cada mês: **[!UICONTROL limite baixo]** e um **[!UICONTROL limite alto]**. Esses limites podem ser ajustados pela Adobe de tempos em tempos. Os limites atuais são:
-   * **[!UICONTROL Limite baixo]**: > 2.000.000 valores únicos durante o mês.
-   * **[!UICONTROL Limite alto]**: > 2.100.000 valores únicos durante o mês.
+   * **[!UICONTROL Limite inferior]**: > 2.000.000 valores únicos durante o mês.
+   * **[!UICONTROL Limite superior]**: > 2.100.000 valores únicos durante o mês.
 * Os relatórios não são afetados se a variável não atingir o limite inferior num determinado mês.
 * Quando uma variável atinge o limite inferior, os dados começam a ser agrupados em [!UICONTROL Tráfego baixo]. Cada valor além desse limite passa pela seguinte lógica:
    * Se um valor já estiver nos relatórios, adicione-o como de costume.
