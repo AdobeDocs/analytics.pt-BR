@@ -3,7 +3,7 @@ title: Como o Tempo gasto é calculado no Adobe Analytics
 description: Uma página agregada de dimensões e métricas de tempo gasto.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 72%
@@ -24,7 +24,7 @@ Vários [!UICONTROL &#39;tempo gasto&#39;] [métricas](overview.md) As dimensõe
 | [!UICONTROL Tempo gasto/usuário (estado)] | Aproximadamente *Total de segundos gastos no aplicativo móvel / visitantes únicos do aplicativo móvel*<br> Representa a quantidade média de tempo que os visitantes do aplicativo móvel interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). **Nota**: esta métrica não pode ser calculada de forma independente porque o denominador dessa função é uma métrica interna. | Analysis Workspace |
 | [!UICONTROL Tempo médio gasto no site] (segundos) | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não se limita apenas a médias de &quot;sites&quot;, como o nome sugere. Consulte a seção &quot;Como o tempo gasto é calculado&quot; para obter mais informações sobre as sequências.<br>**Observação**: esta métrica muito provavelmente será diferente do &quot;Tempo gasto por visita&quot; em nível de item de dimensão devido às diferenças no denominador do cálculo. | Analysis Workspace, Report Builder (mostrado em minutos) |
 | [!UICONTROL Tempo médio no site] | Esta é a mesma métrica que *Tempo médio gasto no site (segundos)*, exceto formatado como Hora (`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL Tempo médio gasto na página] | Métrica descontinuada.<br> Em vez disso, recomendamos que você use &quot;Tempo médio gasto no site&quot; se o tempo médio para um item de dimensão for necessário. | Report Builder (quando uma dimensão está na solicitação) |
+| [!UICONTROL Tempo médio gasto na página] | Métrica descontinuada.<br> Em vez disso, o Adobe recomenda usar &quot;Tempo médio gasto no site&quot; se o tempo médio para um item de dimensão for necessário. | Report Builder (quando uma dimensão está na solicitação) |
 | [!UICONTROL Duração total da sessão], também chamado de [!UICONTROL Duração da sessão anterior] | Somente SDK do aplicativo para dispositivo móvel. <br>Determinada na próxima vez que o aplicativo for inicializado, para a sessão anterior. Calculado em segundos, esta métrica não contabiliza quando o aplicativo está em segundo plano, somente quando está em uso. Esta é uma métrica em nível de sessão.<br>Exemplo: você instala o aplicativo ABC e o inicializa; em seguida, usa o aplicativo por 2 minutos e o fecha. Nenhum dado é enviado sobre este tempo de sessão. Na próxima vez que inicializarmos o aplicativo, a [!UICONTROL Duração da sessão anterior] será enviada com um valor de 120. | Analysis Workspace, Report Builder, interface do usuário do Mobile Services |
 | [!UICONTROL Duração média da sessão] (dispositivos móveis) | *Duração total da sessão / (Inicializações - Primeiras inicializações)*<br> Somente SDK do aplicativo móvel. Esta é uma métrica em nível de sessão. | Report Builder, interface do usuário do Mobile Services |
 

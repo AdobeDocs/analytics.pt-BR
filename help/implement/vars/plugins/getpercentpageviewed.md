@@ -4,10 +4,10 @@ description: Recupere a porcentagem da página que o visitante visualizou.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 

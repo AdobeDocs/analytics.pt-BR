@@ -4,9 +4,9 @@ title: Migração de usuários do Analytics para o Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3084'
 ht-degree: 97%
 
 ---
@@ -269,7 +269,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Fazer logon como </p> </td> 
-   <td colname="col2"> <p> Os administradores que migrarem para o Adobe Admin Console não poderão mais usar a função “Fazer logon como” para acessar contas de usuários não-administradores que foram migradas para o Admin Console. Esse recurso está sendo descontinuado no Analytics. </p> </td> 
+   <td colname="col2"> <p> Os administradores que migrarem para o Adobe Admin Console não poderão mais usar a função “Fazer logon como” para acessar contas de usuários não-administradores que foram migradas para o Admin Console. Este recurso foi removido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiração de usuários e transferência de ativos </p> </td> 

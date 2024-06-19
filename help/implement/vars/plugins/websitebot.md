@@ -4,10 +4,10 @@ description: Identifique os bots dinamicamente usando o movimento do mouse.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depo
 
 ## Usar o plug-in
 
-O plug-in `websiteBot` dispara uma chamada `s.tl` caso não sejam detectados bots no tráfego.
+A variável `websiteBot` dispara um `s.tl` chame se for detectado tráfego que não seja de bot.
 
 ## Exemplos
 

@@ -1,12 +1,12 @@
 ---
-description: Saiba quando e por que os Analytics Data Connectors serão encerrados.
+description: Saiba quando e por que os Analytics Data Connectors são descontinuados.
 title: Pré-anúncio do fim da vida útil dos Analytics Data Connectors
 feature: Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Por mais de uma década, o Adobe Analytics tem como objetivo oferecer a melhor solução analítica de marketing na Web para atender às necessidades dos clientes. À medida que as necessidades tecnológicas e empresariais evoluem, nos esforçamos para fornecer e atender continuamente os mais altos padrões.  Infelizmente, as APIs que potencializam essa integração não atendem mais a esses padrões e não são sustentáveis na infraestrutura moderna da tecnologia do Adobe Analytics.
 
-## Por que terminamos a vida útil desse recurso?
+## Por que o Adobe encerrou a vida útil desse recurso?
 
 Este recurso é alimentado por uma tecnologia herdada que não é mais viável ou compatível. O [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) agora é o local para encontrar integrações atuais para soluções Adobe.
 
@@ -28,86 +28,4 @@ Se for cliente do Conector de dados e quiser solicitar que a integração usada 
 
 A cada empresa que oferecia uma integração foi dada a opção de migrar sua integração para o Adobe Exchange ou descontinuá-la. Abaixo está um resumo de cada integração atual e suas respectivas decisões.
 
-Para perguntas adicionais ou suporte, entre em contato com o Atendimento ao cliente da Adobe.
-
-## Status do parceiro do conector de dados
-
-*Última atualização: 2 de agosto de 2021 (Hootsuite)*
-
-| Parceiro | Status |
-| --- | --- |
-| Acxiom | Substituição |
-| Adform | Substituição |
-| Ajuste | Migração para as APIs mais recentes |
-| Adobe Campaign | Migrar para as APIs mais recentes (consulte a Observação abaixo) |
-| Appfigures | Migração para as APIs mais recentes |
-| Appsee | Substituição |
-| AppsFlyer | Migração para as APIs mais recentes |
-| Envolvimento de marketing corporativo Aprimo | Substituição |
-| Apteligent | Substituição |
-| BlueHornet eMarketing Suite | Substituição |
-| Ramificação | Migração para as APIs mais recentes |
-| BrightEdge 2.0, BrightEdge, BrightEdge Express | Substituição |
-| Bronto Software | Substituição |
-| CheetahMail da Experian | Migração para as APIs mais recentes |
-| ClickTale | Substituição |
-| Clicktale CA | Substituição |
-| Conductor 2.0, Condutor, Condutor de métricas orgânicas | Substituição |
-| ContactLab 2.0 (Conector de envio de contato) | Substituição |
-| Coradiant TrueSight | Substituição |
-| D&amp;B Visitor Intelligence | Substituição |
-| Datran Media | Substituição |
-| Decibel Insight | Substituição |
-| Decipher | Substituição |
-| Delivra | Substituição |
-| Demandbase CA | Substituição |
-| Demandbase v3 | Substituição |
-| DialogTech | Migração para as APIs mais recentes |
-| [DoubleClick for Advertisers (DFA)] | Substituição |
-| DREAM | Substituição |
-| DREAMmail 1.0, DREAMmail 2.0 | Substituição |
-| Dynamic Signal (Nital Vora) | Migração para as APIs mais recentes |
-| eDialog Precision Central | Substituição |
-| eC-messenger | Substituição |
-| Emailvision Campaign Commander | Substituição |
-| emarsys xpress | Substituição |
-| Epsilon Harmony | Migração para as APIs mais recentes |
-| EveryoneSocial for Adobe Analytics | Substituição |
-| ExactTarget, ExactTarget 2.0 | Substituição |
-| Fiksu | Substituição |
-| ForeSee (v2.0), Foresee Feedback, Foresee Results | Substituição |
-| Gigya | Substituição |
-| Hootsuite | Migração para as APIs mais recentes |
-| hybris | Substituição |
-| Kampyle (agora Medallia) Feedback Analytics (1.1) | Substituição |
-| Listrak | Migração para as APIs mais recentes |
-| Lyris HQ | Substituição |
-| MaritzCX (V 2.0) | Substituição |
-| Merkle | Substituição |
-| Integração oficial do Oracle Eloqua | Migração para as APIs mais recentes |
-| optivo broadmail (Episerver) | Substituição |
-| Qualtrics v2 | Migração para as APIs mais recentes |
-| Responsys 1.0, Responsys 2.0 | Substituição |
-| Salesforce.com | Substituição |
-| Selligent | Substituição |
-| seoClarity, seoClarity 2.0 | Substituição |
-| Silverpop Engage (v2.0) | Substituição |
-| Sizmek | Substituição |
-| SmartFOCUS Digital | Substituição |
-| SpotEffects | Substituição |
-| StrongMail Systems, Inc | Substituição |
-| Singergy!360 | Substituição |
-| ThinData EMS | Substituição |
-| TUNE | Substituição |
-| Urban Airship | Substituição |
-| Ferramenta de pesquisa UserZoom | Substituição |
-| WhatCounts Email | Substituição |
-| wywy | Substituição |
-| Yesmail Enterprise | Substituição |
-| Zeta Interactive | Substituição |
-
-## Exceção: Adobe Campaign Classic
-
-A ÚNICA exceção para a data de 1º de agosto de 2021 é a integração do Adobe Campaign Classic. Essa integração será oficialmente descontinuada em 17 de agosto de 2022.
-
-Em 1º de agosto de 2021, o Adobe Campaign Classic será removido da interface dos Data Connectors junto com todas as outras integrações. No entanto, as integrações existentes do Campaign continuarão a coletar e transmitir dados para o Adobe Analytics até 17 de agosto de 2022. Em 17 de agosto de 2022, a integração deixará de coletar e transmitir dados para o Adobe Analytics. Se estiver usando essa integração, você precisa migrar para o novo conector do Campaign-Analytics antes de 17 de agosto de 2022. Saiba mais em [Documentação do Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=pt-BR).
+Entre em contato com o Atendimento ao cliente do Adobe para tirar dúvidas ou obter suporte.

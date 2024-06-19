@@ -4,10 +4,10 @@ description: Extraia o valor de um parâmetro de string de consulta do URL.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 74%
+source-wordcount: '760'
+ht-degree: 73%
 
 ---
 
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (19 de março de 2021)
 
 * Adição do número da versão como dados de contexto.
-* Remoção de dependências no plug-in pt.
+* Remoção de dependências em `pt` plug-in.
 
 ### 3.3 (24 de setembro de 2019)
 
