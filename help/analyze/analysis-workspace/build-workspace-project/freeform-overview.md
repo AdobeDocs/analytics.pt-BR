@@ -5,10 +5,10 @@ title: Visão geral dos Projetos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 08f3926bfa621ce3678da6db0f0a30ac5302b757
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 80%
+source-wordcount: '1392'
+ht-degree: 72%
 
 ---
 
@@ -75,7 +75,7 @@ Em um projeto, o menu fornece opções para gerenciar o projeto, adicionar compo
 
 ### Informações e configurações do projeto {#info-settings}
 
-**[!UICONTROL Espaço de trabalho]** > **[!UICONTROL Projeto]** > **[!UICONTROL Configurações &amp; informações do projeto]** fornecem informações sobre o projeto ativo no momento.
+**[!UICONTROL Workspace]** > **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]** O fornece informações do projeto ativo no momento.
 
 ![](assets/projectinfo.png)
 
@@ -83,7 +83,7 @@ As configurações incluem:
 
 | Configuração | Descrição |
 |---|---|
-| Projeto  Nome | O nome fornecido ao projeto. Você pode clicar duas vezes no nome para editá-lo. |
+| Nome do projeto | O nome fornecido ao projeto. Você pode clicar duas vezes no nome para editá-lo. |
 | Criado por | Nome do proprietário do projeto. |
 | Última modificação | Data da última modificação do projeto. |
 | Tags | Lista qualquer tag aplicada a um projeto para classificar com mais facilidade. |
@@ -94,13 +94,23 @@ As configurações incluem:
 
 ## Painel esquerdo {#left-rail}
 
-Em um projeto, [painéis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR), tabelas, [visualizações](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR) e [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=pt-BR) são acessados pelo painel esquerdo. Estes são os componentes do projeto.
+Em um projeto, vários ícones estão disponíveis no painel esquerdo e cada um representa partes importantes de um projeto:
 
-Também é possível acessar visualizações e painéis no [Painel em branco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=pt-BR).
+* [Painéis](/help/analyze/analysis-workspace/c-panels/panels.md) ![ícone de painéis](assets/panels-icon.png)
 
-Os componentes (Dimensões, Métricas, Segmentos, Intervalos de datas) no painel esquerdo estão relacionados ao conjunto de relatórios do painel principal. O painel principal terá uma borda azul ao redor dele e o conjunto de relatórios principal será listado na parte superior do painel de componentes.
+* [Visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![ícone de visualizações](assets/visualizations-icon.png)
 
-![](assets/left-rail.png)
+* [Componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)![ícone componentes](assets/components-icon.png)
+
+* [Dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)![ícone do dicionário de dados](assets/data-dictionary-icon.png)
+
+* [Índice](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![ícone do sumário](assets/toc-icon.png)
+
+Os componentes (Dimensões, Métricas, Filtros, Intervalos de datas) no painel esquerdo estão relacionados à visualização de dados do painel principal. O painel ativo é identificado pela borda azul que o cerca e a visualização de dados ativa é listada na parte superior do painel de componentes.
+
+![Os componentes relacionados à visualização de dados do painel ativo para visualização de dados de demonstração intersetorial.](assets/left-rail.png)
+
+
 
 ## Clique com o botão direito do mouse no menu 
 
