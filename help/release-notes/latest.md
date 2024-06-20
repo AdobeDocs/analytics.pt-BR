@@ -6,37 +6,37 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 55%
+ht-degree: 96%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (junho de 2024)
 
-**Última atualização**: sexta-feira, 13 de junho de 2024
+**Última atualização**: 13 de junho de 2024
 
-Essas notas de versão abrangem o período de lançamento de 12 de junho de 2024 a julho. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+Estas notas de versão cobrem o período de lançamento de 12 de junho de 2024 a julho. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 ## Novos recursos ou melhorias {#features}
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Selecionar vários campos em um filtro suspenso** | Quando vários campos são adicionados a um filtro suspenso, os usuários podem selecionar mais de um campo por vez. O painel é filtrado para incluir qualquer um dos campos selecionados. <p>Anteriormente, os usuários podiam selecionar apenas um campo por vez em um filtro suspenso.</p><p>Para obter mais informações, consulte [Segmentos suspensos estáticos](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments) in [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md).</p> |  | quinta-feira, 19 de junho de 2024 |
-| **Sumário de projetos do Workspace** | Um novo sumário está disponível para projetos. O índice fornece links que permitem aos usuários ir rapidamente para painéis e visualizações no projeto. O índice pode ser ativado para projetos individuais ou para todos os projetos de um determinado usuário.<p>Para obter mais informações, consulte [Sumário do projeto](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md).</p> |  | quinta-feira, 19 de junho de 2024 |
-| **Criar hiperlinks para itens de dimensão em uma tabela de forma livre** | É possível criar hiperlinks para um ou mais itens de dimensão para torná-los clicáveis em uma tabela de forma livre no Analysis Workspace. <p>Você pode criar hiperlinks para itens de dimensão com valores de URL ou criar URLs personalizados para itens de dimensão com valores que não sejam de URL.</p><p>Você pode criar URLs personalizados dinâmicos para vários itens de dimensão usando variáveis. As variáveis podem fazer referência ao valor de um item de dimensão ou à dimensão de detalhamento.</p><p>Para obter mais informações, consulte [Criar hiperlinks para dimensões em uma tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p> |  | quinta-feira, 19 de junho de 2024 |
-| **Configurações do administrador para controlar as contas e os locais usados para exportação e importação** | Um novo [Guia &quot;Configurações do administrador&quot; no Gerenciador de locais](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) O fornece aos administradores controle sobre se os usuários podem criar e editar contas e locais. Essas configurações se aplicam quando os usuários [configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md) e [configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md). <p>Administradores também podem limitar os tipos de conta (Google Cloud Platform, Azure RBAC, Amazon S3 e assim por diante) que os usuários podem criar e usar.</p><p>Anteriormente, qualquer usuário podia criar, editar e usar contas e locais para qualquer tipo de conta.</p> | 12 de junho de 2024 | 30 de junho de 2024 |
-| **Compartilhar contas e locais usados para exportação e importação** | Agora os usuários podem disponibilizar as contas e os locais que criam para todos os usuários em sua organização. Somente os proprietários de contas e locais e os administradores do sistema podem editar e excluir contas e locais.<p>Anteriormente, contas e locais podiam ser usados somente pelo usuário que os criava.</p><p>Essas configurações estão disponíveis quando os usuários [configurar contas de importação e exportação na nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts) e [configurar locais de importação e exportação na nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-locations). </p> | 12 de junho de 2024 | 30 de junho de 2024 |
+| **Selecionar vários campos em um filtro suspenso** | Quando vários campos são adicionados a um filtro suspenso, os usuários podem selecionar mais de um campo por vez. O painel é filtrado para incluir qualquer um dos campos selecionados. <p>Anteriormente, os usuários podiam selecionar apenas um campo por vez em um filtro suspenso.</p><p>Para obter mais informações, consulte [Segmentos suspensos estáticos](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments) in [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md).</p> |  | 19 de junho de 2024 |
+| **Índice de projetos do Workspace** | Um novo índice está disponível para projetos. O índice fornece links que permitem ir rapidamente para painéis e visualizações no projeto. O índice pode ser habilitado para projetos individuais ou para todos os projetos de um determinado usuário.<p>Para obter mais informações, consulte [Sumário do projeto](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md).</p> |  | 19 de junho de 2024 |
+| **Criar hiperlinks para itens de dimensão em uma tabela de forma livre** | É possível criar hiperlinks para um ou mais itens de dimensão para torná-los clicáveis em uma tabela de forma livre no Analysis Workspace. <p>Você pode criar hiperlinks para itens de dimensão com valores de URL ou criar URLs personalizados para itens de dimensão com valores que não sejam de URL.</p><p>É possível criar URLs personalizados dinâmicos para vários itens de dimensão usando variáveis. As variáveis podem fazer referência ao valor de um item de dimensão ou à dimensão de detalhamento.</p><p>Para obter mais informações, consulte [Criar hiperlinks para dimensões em uma tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p> |  | 19 de junho de 2024 |
+| **Configurações do administrador para controlar as contas e os locais usados para exportação e importação** | Uma nova guia [“Configurações do administrador” no gerenciador de locais](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) fornece à administração controle sobre a possibilidade de os usuários criarem e editarem contas e locais. Essas configurações se aplicam quando os usuários [configuram contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md) e quando [configuram locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md). <p>Administradores também podem limitar os tipos de conta (Google Cloud Platform, Azure RBAC, Amazon S3 e assim por diante) que os usuários podem criar e usar.</p><p>Anteriormente, qualquer usuário podia criar, editar e usar contas e locais para qualquer tipo de conta.</p> | 12 de junho de 2024 | 30 de junho de 2024 |
+| **Compartilhar contas e locais usados para exportação e importação** | Agora os usuários podem disponibilizar as contas e os locais que criam para todos os usuários em sua organização. Somente os proprietários de contas e locais e os administradores do sistema podem editar e excluir contas e locais.<p>Anteriormente, contas e locais podiam ser usados somente pelo usuário que os criava.</p><p>Essas configurações estão disponíveis quando usuários [configuram contas de importação e exportação na nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts) e quando [configuram locais de importação e exportação na nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-locations). </p> | 12 de junho de 2024 | 30 de junho de 2024 |
 | **O Activity Map usa menos chamadas de servidor para o SDK da Web** | Atualmente, os eventos de link do Activity Map são contados como eventos próprios e resultam em cobranças adicionais. Esse aprimoramento seleciona alguns eventos de link e os reúne na próxima ocorrência, de modo semelhante a como os eventos são tratados pelo AppMeasurement. <p>(Link para a documentação será atualizado em breve)</p> | O Open Beta começa em 19 de junho de 2024 | A ser definido |
 
 {style="table-layout:auto"}
 
 ## Correções no Adobe Analytics
 
-* Correção dos seguintes problemas de Classificações: AN-347682; AN-348396; AN-348625; AN-348668; AN-348926; AN-348936; AN-349040; AN-349191; AN-349195; AN-349 9443; AN-349697; AN-349758; AN-349862; AN-350051; AN-350054; AN-350208; AN-350497; AN-350525; AN-351067
-* Correção dos seguintes problemas de Data Warehouse: AN-346862; AN-349409; AN-349926; AN-350629; AN-350996
-* Correção dos seguintes problemas de Feeds de dados: AN-346727; AN-348282; AN-348334; AN-348725; AN-348726; AN-348823; AN-349081; AN-349207; AN-349307; AN-3497 349729; AN-349742; AN-349742; AN-349878; AN-349943; AN-350527;
+* Correção dos seguintes problemas de classificações: AN-347682; AN-348396; AN-348625; AN-348668; AN-348926; AN-348936; AN-349040; AN-349191; AN-349195; AN-349443; AN-349697; AN-349758; AN-349862; AN-350051; AN-350054; AN-350208; AN-350497; AN-350525; AN-351067
+* Correção dos seguintes problemas do Data Warehouse: AN-346862; AN-349409; AN-349926; AN-350629; AN-350996
+* Correção dos seguintes problemas de feeds de dados: AN-346727; AN-348282; AN-348334; AN-348725; AN-348726; AN-348823; AN-349081; AN-349207; AN-349307; AN-349539; AN-349710; AN-349729; AN-349742; AN-349878; AN-349943; AN-350527;
 * Correção do seguinte problema das fontes de dados: AN-350038
 * Correção dos seguintes problemas do Analysis Workspace: AN-342953; AN-346346; AN-349590; AN-349717; AN-350057; AN-350697; AN-350904
-* Correção dos seguintes problemas de Report Builder: AN-348903; AN-350691
+* Correção dos seguintes problemas do Report Builder: AN-348903; AN-350691
 * Correção dos seguintes problemas do A4T: AN-347690; AN-350853
 
 ### Outras correções do Analytics
@@ -62,7 +62,7 @@ AN-346470; AN-346850; AN-347227; AN-348145; AN-348564; AN-349001; AN-349008; AN-
 
 ## AppMeasurement
 
-Para obter as atualizações mais recentes sobre as versões do AppMeasurement (versão 2.26.0), consulte as [notas de versão do AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=pt-BR).
+Para obter as atualizações mais recentes sobre as versões do AppMeasurement (versão 2.26.0), consulte as [notas de versão do AppMeasurement para JavaScript](https://experienceleague.adobe.com/pt-br/docs/analytics/implementation/appmeasurement-updates).
 
 
 ## Recursos relacionados
