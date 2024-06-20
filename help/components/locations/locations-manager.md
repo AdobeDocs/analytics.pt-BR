@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Gerenciador de locais
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 1%
@@ -128,8 +128,6 @@ Para excluir uma conta:
 1. Selecione o ícone de 3 pontos na conta que deseja editar e selecione [!UICONTROL **Excluir conta**]
 
 ## Definir configurações em toda a empresa (somente administradores)
-
-{{release-limited-testing-section}}
 
 Os administradores do sistema podem impedir que os usuários criem contas e locais ou podem limitar os tipos de contas que os usuários podem criar e usar.
 
