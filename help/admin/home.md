@@ -4,10 +4,10 @@ description: Ajuda administrativa para administradores do Adobe Analytics, inclu
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 91%
+source-wordcount: '311'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Este guia não aborda muitos dos recursos genéricos oferecidos pelo Adobe Admin
 
 ## Artigos principais
 
-* [Guia inicial do primeiro administrador do Analytics](admin-console/first-admin-guide.md): se sua organização for uma novidade no Adobe Analytics, siga este guia para começar a aproveitar ao máximo o Adobe Analytics.
+* [Guia do primeiro administrador do Adobe Analytics](admin-console/first-admin-guide.md): se sua organização for novata no Adobe Analytics, siga este guia para começar aproveitar os recursos do Adobe Analytics.
 * [Gerenciador de conjunto de relatórios](admin/c-manage-report-suites/report-suites-admin.md): a ferramenta de administração mais acessada no Analytics. O Gerenciador de conjunto de relatórios contém configurações para gerenciamento de classificação de gerenciamento de variáveis, fusos horários e muito mais.
 
 ## Mais guias do usuário do Analytics
@@ -45,6 +45,6 @@ Este guia não aborda muitos dos recursos genéricos oferecidos pelo Adobe Admin
 ## Principais recursos do Analytics
 
 * [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=pt-BR#support)
-* [Fórum do Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Comunidade Adobe Analytics no Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
 * [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home)
