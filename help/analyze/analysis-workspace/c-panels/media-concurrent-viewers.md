@@ -4,20 +4,20 @@ description: Como usar e interpretar o painel Visualizadores simultâneos de mí
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 91%
 
 ---
 
 # Painel de visualizadores simultâneos de mídia
 
-Os clientes do Media Analytics podem analisar visualizadores simultâneos para entender onde ocorreu o pico de simultaneidade ou onde ocorreram quedas para fornecer insights valiosos sobre a qualidade do conteúdo e o envolvimento do visualizador e para ajudar na solução de problemas ou no planejamento de volume ou escala.
+Os clientes que compraram o complemento Coleção de mídia de streaming podem analisar visualizadores simultâneos para entender onde ocorreu o pico de simultaneidade ou onde ocorreram quedas, para fornecer insights valiosos sobre a qualidade do conteúdo e o engajamento do visualizador e para ajudar na solução de problemas ou no planejamento de volume ou escala.
 
 No Analysis Workspace, Visualizadores simultâneos é o número de visitantes únicos que visualizam seus fluxos de mídia em um ponto específico do tempo, independentemente do número de sessões.
 
-O painel Visualizadores simultâneos de mídia permite a análise de visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de detalhar e comparar.  Para acessar o painel Visualizadores simultâneos de mídia, navegue até um conjunto de relatórios com os componentes do Media Analytics ativados. Em seguida, clique no ícone do painel na extremidade esquerda e arraste o painel para o Projeto do Analysis Workspace.
+O painel Visualizadores simultâneos de mídia permite a análise de visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de detalhar e comparar.  Para acessar o painel Visualizadores simultâneos de mídia, navegue até um conjunto de relatórios com os componentes de mídia de transmissão ativados. Em seguida, clique no ícone do painel na extremidade esquerda e arraste o painel para o Projeto do Analysis Workspace.
 
 Veja um vídeo com uma visão geral desse painel:
 
@@ -59,7 +59,7 @@ A única métrica que pode ser usada nesse painel é a de Visualizadores simult�
 
 | Métrica | Descrição |
 |---|---|
-| Visualizadores simultâneos | Número de visitantes únicos que visualizam seus fluxos de mídia em um ponto específico do tempo, independentemente do número de sessões.<br><br>Isso é diferente dos relatórios do Visualizador simultâneo na seção Relatórios, que usa Sessões ativas simultâneas.  A utilização de contas de visitantes únicos para remover &quot;picos&quot; indesejados nos limites de exibição (em que as sessões estão terminando e começando ao mesmo tempo). |
+| Visualizadores simultâneos | Número de visitantes únicos que visualizam seus fluxos de mídia em um ponto específico do tempo, independentemente do número de sessões.<br><br>Isso é diferente dos relatórios do Visualizador simultâneo na seção Relatórios, que usa Sessões ativas simultâneas.  Usar contas de visitantes únicos para remover &quot;picos&quot; indesejados nos limites de exibição (em que as sessões estão terminando e começando ao mesmo tempo). |
 
 Uma tabela de forma livre não está disponível nessa visualização.  Para visualizar a fonte de dados, clique com o botão direito do mouse no gráfico de linha e baixe como um arquivo .csv.  Os detalhamentos por séries serão incluídos.
 

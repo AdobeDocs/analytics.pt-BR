@@ -4,9 +4,9 @@ description: Como usar e interpretar o painel Tempo gasto com a reprodução de 
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '928'
 ht-degree: 73%
 
 ---
@@ -17,7 +17,7 @@ No Analysis Workspace, o Tempo gasto com a reprodução é a quantidade de tempo
 
 O painel Tempo gasto com a reprodução da mídia permite a análise da reprodução ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de detalhar e comparar.
 
-Os clientes do Media Analytics podem analisar o tempo de reprodução gasto para obter informações valiosas sobre a qualidade do conteúdo e o envolvimento do visualizador e para ajudar na solução de problemas ou no planejamento de volume ou escala.
+Os clientes que compraram o complemento de coleção de mídia de transmissão podem analisar o tempo de reprodução gasto para obter insights valiosos sobre a qualidade do conteúdo e o envolvimento do visualizador e para ajudar na solução de problemas ou no planejamento de volume ou escala.
 
 O Tempo gasto com a reprodução pode ajudá-lo a entender:
 
@@ -31,7 +31,7 @@ Veja a seguir um vídeo com uma visão geral desse painel:
 
 ## Usar o painel Tempo gasto com a reprodução de mídia
 
-1. Acesse um conjunto de relatórios com os componentes do Media Analytics ativados.
+1. Vá para um conjunto de relatórios com os componentes de mídia de transmissão ativados.
 1. Selecione o ícone do painel na extremidade esquerda e arraste o painel para o projeto do Analysis Workspace.
 1. Prossiga com as seções a seguir para personalizar o painel Tempo gasto com reprodução de mídia
 

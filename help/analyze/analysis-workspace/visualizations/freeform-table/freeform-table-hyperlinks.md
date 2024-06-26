@@ -4,10 +4,10 @@ description: Saiba como criar hiperlinks para itens de dimensão em uma tabela d
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: 00a0288616401045585f70c768a20fc122e584c9
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 0%
+source-wordcount: '1738'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,10 @@ Essa funcionalidade é particularmente útil ao criar hiperlinks para os seguint
 * Itens Dimension que contêm detalhamentos que têm valores de URL para os quais você deseja vincular (por exemplo, uma dimensão Nome da página que tem um detalhamento de uma dimensão URL da página)
 
 * Itens de Dimension ou detalhamentos que têm valores que são parte de um URL ao qual você deseja vincular (por exemplo, uma dimensão Nome da página que é parte de um URL)
+
+Veja a seguir uma demonstração em vídeo desse recurso:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
 
 ## Criar hiperlinks para um ou mais itens de dimensão
 
