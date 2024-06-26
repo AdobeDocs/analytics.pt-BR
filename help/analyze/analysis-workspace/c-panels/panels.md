@@ -4,9 +4,9 @@ title: Visão geral dos painéis
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
+source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1582'
 ht-degree: 49%
 
 ---
@@ -107,11 +107,13 @@ Clicar com o botão direito do mouse em um segmento suspenso fornece as seguinte
 
 #### Usar segmentos suspensos estáticos
 
-Os usuários podem usar o menu suspenso de segmentos de qualquer uma das seguintes maneiras para filtrar o painel:
+Use o menu suspenso de segmentos de qualquer uma das seguintes maneiras para filtrar o painel:
 
 * Aplique um único segmento ao painel selecionando o segmento no menu suspenso.
 
 * Aplique vários segmentos ao painel selecionando mais de um segmento no menu suspenso. O painel é filtrado para incluir qualquer um dos segmentos selecionados.
+
+  Para remover um segmento da lista, selecione-o novamente no menu suspenso.
 
   ![Selecionar vários segmentos](assets/dropdown-filter-multiselect.png)
 
