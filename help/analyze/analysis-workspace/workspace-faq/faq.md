@@ -4,10 +4,10 @@ title: Perguntas frequentes e solução de problemas no Espaço de trabalho
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 97%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -31,10 +31,6 @@ Agora você pode criar projetos no Analysis Workspace usando dados de [vários c
 
 +++Como você implementa o Analysis Workspace?
 Não é necessária nenhuma implementação específica. O Analysis Workspace está disponível para todas as empresas, com o Analytics Standard ou Premium. No entanto, as permissões padrão de conteúdo (como conjuntos de relatórios e componentes de projeto) se aplicam para preparar e compartilhar projetos. Consulte [Requisitos de administração e acesso](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
-+++
-
-+++O Analysis Workspace altera os relatórios pré-configurados no Adobe Analytics?
-Não. Como este é um ambiente separado, não haverá alterações nos relatórios existentes ou pré-configurados no Adobe Analytics. Você ainda pode usar os relatórios de Report Builder padrão no Analysis Workspace.
 +++
 
 +++Posso usar o Analysis Workspace para Data Warehouse?
@@ -71,4 +67,8 @@ Se você criar um relatório de espaço de trabalho com êxito, mas não houver 
 * Se você aplicar um segmento no seu relatório, os critérios do segmento podem não corresponder a nenhum dado. Tente remover o segmento ou ajustar a definição do segmento.
 * Verifique o intervalo de datas no canto superior direito e verifique se ele está definido como um valor que você esperaria.
 * Acesse seu site e use o [Depurador](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR) para verificar se os dados estão sendo coletados.
++++
+
++++Como usuário somente leitura, que ações posso executar no Analysis Workspace?
+Quando um projeto é compartilhado como somente leitura, todas as funções e recursos de edição são completamente desativados e os recipients só podem alterar a lista suspensa para aplicar um filtro ao painel de uma maneira predefinida.
 +++
