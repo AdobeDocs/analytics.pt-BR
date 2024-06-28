@@ -3,10 +3,10 @@ title: Visão geral dos conjuntos de classificação
 description: Use conjuntos de classificações para gerenciar os dados de classificação.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +16,15 @@ Conjuntos de classificações fornecem uma única interface para gerenciar class
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]**
 
+Você deve ser um administrador de produto ou pertencer a um perfil de produto que contenha o item de permissão [!UICONTROL Ferramentas do conjunto de relatórios] > [!UICONTROL Classificações] para ver este item de menu. Observe que, embora as interfaces anteriores de gerenciamento de classificação estejam na [!UICONTROL Admin] , os conjuntos de classificações estão na [!UICONTROL Componentes] menu.
+
+## Melhorias
+
 A arquitetura de back-end lançada com os conjuntos de classificação contém várias melhorias notáveis:
 
 * Redução do tempo de processamento (72 horas → 24 horas)
-* A capacidade de usar a interface de conjuntos de classificação
-* A opção de usar os dados de classificação na Adobe Experience Platform no futuro por meio do [Conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=pt-BR)
+* Uma interface do usuário reprojetada para gerenciar classificações
+* A opção de usar os dados de classificação na Adobe Experience Platform no futuro por meio do [Conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
 A arquitetura de back-end lançada com os conjuntos de classificação também contém várias alterações importantes:
 
