@@ -4,9 +4,9 @@ description: Saiba mais sobre os diferentes componentes que o Adobe Analytics of
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,6 +43,6 @@ Veja um vídeo com uma visão geral do Adobe Analytics:
 ## Principais recursos do Analytics
 
 * [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=pt-BR#support)
-* [Comunidade Adobe Analytics no Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
+* [Comunidade do Adobe Analytics na Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
-* [Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home)
+* [Experience League](https://experienceleague.adobe.com/pt-br)
