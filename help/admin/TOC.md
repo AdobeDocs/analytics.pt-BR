@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -68,9 +68,9 @@ ht-degree: 91%
                   + [Definir um evento usando uma variável de dados de contexto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Remover um evento de uma ocorrência](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Dicas e truques para regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
-            + Regras de bot {#bot-removal}
-               + [Remoção de bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [Entender e configurar regras de bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+            + Regras de bots {#bot-removal}
+               + [Remoção de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
+               + [Noções básicas e configuração de regras de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Assinaturas comuns do bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Métodos de exclusão de bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Configurações de privacidade](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -101,9 +101,9 @@ ht-degree: 91%
             + [Variáveis da lista](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [eVars de merchandising](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + Canais de marketing {#marketing-channels}
-            + [Gerenciador de Canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [Gerenciador de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [Regras de processamento de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [Classificações de Canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Classificações de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [Expiração de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gerenciamento de tráfego {#traffic-management}
             + [Visão geral](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
@@ -118,9 +118,9 @@ ht-degree: 91%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Relatórios de privacidade](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Gerenciamento de Document Cloud {#doc-cloud-mgt}
-            + [Configurar o Document Cloud com o Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
-            + [Configurar relatórios de Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + Gerenciamento da Document Cloud {#doc-cloud-mgt}
+            + [Configurar a Document Cloud com o Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Configurar relatórios da Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Configuração do Advertising Analytics](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Tempo real {#real-time-reports}
             + [Visão geral dos Relatórios em tempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -155,7 +155,7 @@ ht-degree: 91%
       + [Gerenciador de preferências](admin/company/preferences-manager.md)
       + [Ações pendentes](admin/company/pending-actions-admin.md)
       + [Níveis de acesso a recursos](admin/company/feature-access-levels.md)
-   + Rotulação de privacidade da governança de dados {#data-governance}
+   + Rotulagem de privacidade de governança de dados {#data-governance}
       + [Fluxo de trabalho de Privacidade de dados do Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
       + [Perguntas frequentes](admin/c-data-governance/gdpr-faq.md)
       + Rotulagem de dados {#data-labels}
@@ -175,7 +175,7 @@ ht-degree: 91%
       + [Perguntas frequentes sobre o uso de chamadas do servidor](admin/c-server-call-usage/overage-faq.md)
    + Gerenciamento de usuários e produtos (herdado) {#user-product-management}
       + [Gerenciamento de usuários e produtos (herdado)](admin/user-management2/user-management.md)
-      + [Transferir ativos do usuário ou definir expirações da conta](admin/user-management2/users-assets.md)
+      + [Gerenciar contas de usuário, ativos e expirações herdadas](admin/user-management2/users-assets.md)
       + Migrar usuários para o Adobe Admin Console {#migrate-users}
          + [Migração de usuários do Analytics para o Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migrar contas de usuário do Analytics para Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)
