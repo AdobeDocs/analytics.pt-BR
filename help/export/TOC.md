@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Saiba mais sobre como usar os feeds de dados para exportar dados brutos e o Data Warehouse para recuperar uma saída de dados em planilha. Saiba como usar o FTP e SFTP para transferir arquivos.
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
 + Feed de dados do Analytics {#analytics-data-feed}
    + [Visão geral do feed de dados](analytics-data-feed/data-feed-overview.md)
-   + [Criar ou editar um feed de dados](analytics-data-feed/create-feed.md)
+   + [Criar um feed de dados](analytics-data-feed/create-feed.md)
    + [Gerenciar feeds de dados](analytics-data-feed/df-manage-feeds.md)
    + [Gerenciar trabalhos do feed de dados](analytics-data-feed/df-manage-jobs.md)
    + Conteúdos do feed de dados {#data-feed-contents}
