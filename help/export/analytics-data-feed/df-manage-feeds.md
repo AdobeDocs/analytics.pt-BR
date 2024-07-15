@@ -3,10 +3,10 @@ title: Interface do usuário do feed de dados
 description: Saiba como navegar na interface do feed de dados.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: 3916115169f526bb91442d251e6159496efd547f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 29%
+source-wordcount: '1142'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,9 @@ O botão [!UICONTROL Adicionar] permite criar um novo feed. Consulte [Criar um f
 
    Ao atualizar a seção [!UICONTROL **Destino**] de um feed de dados que você está editando, você pode escolher uma conta e um local diferentes para usar no novo feed de dados nos campos suspensos [!UICONTROL **Conta**] e [!UICONTROL **Local**].
 
-   Se quiser editar a conta e o local de todos os feeds de dados em que estão sendo usados, edite as contas e os locais diretamente, conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md) e [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md). Contas e locais que não são de nuvem não podem ser editados.
+   Contas e locais podem ser editados conforme descrito em [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md) e [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md). A edição de uma conta ou local afetará todos os itens associados a essa conta ou local.
+
+   As versões anteriores do gerenciador de feeds de dados permitiam criar destinos de FTP, SFTP, S3 e blob do Azure. Os destinos criados nessas versões anteriores do gerenciador de feeds de dados não podem ser editados ou copiados.
 
 1. Selecione [!UICONTROL **Salvar**].
 
@@ -84,7 +86,9 @@ O botão [!UICONTROL Adicionar] permite criar um novo feed. Consulte [Criar um f
 
    Ao atualizar a seção [!UICONTROL **Destino**] de um feed de dados que você está copiando, você pode escolher uma conta e um local diferentes para usar no novo feed de dados nos campos suspensos [!UICONTROL **Conta**] e [!UICONTROL **Local**].
 
-   Se quiser editar a conta e o local de todos os feeds de dados em que estão sendo usados, edite as contas e os locais diretamente, conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md) e [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md). Contas e locais que não são de nuvem não podem ser editados.
+   Contas e locais podem ser editados conforme descrito em [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md) e [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md). A edição de uma conta ou local afetará todos os itens associados a essa conta ou local.
+
+   As versões anteriores do gerenciador de feeds de dados permitiam criar destinos de FTP, SFTP, S3 e blob do Azure. Os destinos criados nessas versões anteriores do gerenciador de feeds de dados não podem ser editados ou copiados.
 
 ## Pausar um feed de dados
 
