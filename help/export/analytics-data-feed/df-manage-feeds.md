@@ -3,10 +3,10 @@ title: Interface do usuário do feed de dados
 description: Saiba como navegar na interface do feed de dados.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 3916115169f526bb91442d251e6159496efd547f
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 28%
+source-wordcount: '1160'
+ht-degree: 27%
 
 ---
 
@@ -122,7 +122,9 @@ Para ativar um feed de dados:
 
 ## Excluir um feed de dados
 
-Quando você exclui um feed de dados, seu status é definido como [!UICONTROL Excluído].
+Quando você exclui um feed de dados, seu status é definido como [!UICONTROL Excluído]. Os feeds de dados devem ter um status Ativo antes de serem excluídos.
+
+Para excluir um feed de dados:
 
 1. No Adobe Analytics, selecione [!UICONTROL **Administrador**] > [!UICONTROL **Feeds de dados**].
 

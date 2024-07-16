@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '5771'
+source-wordcount: '5788'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Julho de 2024** | |
-| Atualização da documentação para gerenciar feeds de dados | As informações em [Gerenciar feeds de dados](/help/export/analytics-data-feed/df-manage-feeds.md) foram atualizadas para maior clareza. <p>As atualizações incluem:</p><ul><li>Seções separadas criadas para várias tarefas para facilitar a verificação e o consumo das informações.</li><li>Adição de informações sobre alterações no comportamento dos feeds em tempo real que são reativados. Essas alterações estão atualmente em Disponibilidade limitada e ainda não estão disponíveis para todos os clientes.</li> |
+| Atualização da documentação para gerenciar feeds de dados | As informações em [Gerenciar feeds de dados](/help/export/analytics-data-feed/df-manage-feeds.md) foram atualizadas para maior clareza. <p>As atualizações incluem:</p><ul><li>Seções separadas criadas para várias tarefas para facilitar a verificação e o consumo das informações.</li><li>Adição de informações sobre alterações no comportamento dos feeds em tempo real que são reativados. Essas alterações estão atualmente em Disponibilidade limitada e ainda não estão disponíveis para todos os clientes.</li><li>Adição de informações declarando que os feeds de dados devem ter um status Ativo antes de serem excluídos.</li> |
 | Mensagens de erro comuns atualizadas | Pequenas atualizações feitas às [mensagens de erro comuns](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Junho de 2024** | |
 | Atualização do nome do produto que se refere aos recursos de mídia de streaming | As instâncias do “Media Analytics” e de “Mídia de streaming” foram substituídas pelo nome “complemento Coleção de mídia de streaming” ao se referirem ao conjunto de recursos de mídia de streaming que coletam dados de mídia de streaming e os exibem no Analysis Workspace. <p>Essas atualizações estão disponíveis na documentação do Adobe Analytics, bem como na [Documentação do complemento Coleção de mídia de streaming](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).</p> |
