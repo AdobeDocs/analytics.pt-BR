@@ -3,10 +3,10 @@ description: Esta página de ajuda contém casos de uso recomendados para cada f
 title: Qual ferramenta do Adobe Analytics devo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
 workflow-type: tm+mt
 source-wordcount: '1160'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Este é um vídeo que compara várias ferramentas do Adobe Analytics:
 
 A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a interface principal do usuário para todas as suas necessidades de relatórios e análises. A Adobe continua a investir e lançar atualizações mensais para este produto. Caso haja uma tarefa que não possa ser executada na Analysis Workspace, considere as outras interfaces abaixo.**
 
-**[Painéis do Adobe Analytics](/help/analyze/mobile-app/home.md)** permite aos usuários acesso móvel a scorecards intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. O aplicativo móvel é compatível com os sistemas operacionais iOS e Android.
+Os **[painéis do Adobe Analytics](/help/analyze/mobile-app/home.md)** permitem acessar em dispositivos móveis os cartões de pontuação intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. O aplicativo móvel é compatível com os sistemas operacionais iOS e Android.
 
-**[Report Builder](/help/analyze/report-builder/home.md)** O é um suplemento do Microsoft Excel. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
+O **[Report Builder](/help/analyze/report-builder/home.md)** é um complemento do Microsoft Excel. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
 
-**[Activity Map](/help/analyze/activity-map/activity-map.md)** O é um recurso do Adobe Analytics que fornece uma representação visual do engajamento do usuário em páginas da Web e aplicativos móveis. Ele permite que profissionais de marketing e analistas rastreiem e analisem interações do usuário, como cliques, movimentos de cursor e comportamento de rolagem.
+O **[Activity Map](/help/analyze/activity-map/overview.md)** é um recurso do Adobe Analytics que fornece uma representação visual do engajamento do usuário em páginas da web e aplicativos móveis. Ele permite que profissionais de marketing e analistas rastreiem e analisem interações de usuários, como cliques, movimentos de cursor e comportamento de rolagem.
 
 ## Importação de dados para o Adobe Analytics {#import}
 
@@ -55,7 +55,7 @@ As **[integrações do Adobe Exchange](https://www.adobeexchange.com/experiencec
 
 **[API da inserção de dados](/help/import/c-data-insertion-api/c-data-insertion-api.md)** deve ser usada:
 
-* Quando você precisa fazer upload de dados no Adobe Analytics e não pode usar o código do Adobe AppMeasurement ou do SDK para dispositivos móveis. Recomendamos usar a API de inserção de dados em massa (veja abaixo).
+* Quando você precisar fazer o upload de dados no Adobe Analytics e não pode usar o código do Adobe AppMeasurement ou do SDK para dispositivos móveis. Recomendamos usar a API de inserção de dados em massa (veja abaixo).
 
 **[API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 

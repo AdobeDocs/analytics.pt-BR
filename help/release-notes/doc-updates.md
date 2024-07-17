@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
+source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
-source-wordcount: '5811'
+source-wordcount: '5806'
 ht-degree: 98%
 
 ---
@@ -67,7 +67,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Atualizações na documentação de Detecção de anomalias e Análise de contribuição | A documentação de Detecção de anomalias e Análise de contribuição estava localizada anteriormente em uma seção sobre o Virtual Analyst. Foram feitas as seguintes alterações: <ul><li>O termo Virtual Analyst foi removido da documentação.</li><li>A seção sobre [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) foi movida para diretamente abaixo da seção do Analysis Workspace.</li><li>A documentação de Análise de contribuição foi mesclada à documentação de Detecção de anomalias.</li></ul> |
 | “Attribution IQ &quot; alterado para &quot;Atribuição” | Todas as instâncias de “Attribution IQ” foram alteradas para “[Atribuição](/help/analyze/analysis-workspace/attribution/overview.md)” em toda a documentação. |
 | **Novembro de 2023** | |
-| Atualizações do tópico de ativação/habilitação do Activity Map | Conteúdo do [SDK da Web](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/activity-map/getting-started/activitymap-enable) (manual e pela extensão de tags do Adobe Experience Platform) adicionado. |
+| Atualizações do tópico de ativação/habilitação do Activity Map | Conteúdo do [SDK da Web](/help/analyze/activity-map/getting-started.md) (manual e pela extensão de tags do Adobe Experience Platform) adicionado. |
 | **Outubro de 2023** | |
 | Adição de informações de log ao Gerenciador de atividades de relatórios | Foram adicionadas informações de que quaisquer [cancelamentos e restrições subsequentes de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) no Gerenciador de atividades de relatórios são capturados nos [logs](/help/admin/admin/logs.md). |
 | Atualizações no suporte a componentes do Data Warehouse | Foi adicionada disponibilidade para alguns componentes do Data Warehouse, e alguns componentes foram removidos. Estas alterações podem ser consultadas em [Suporte a componentes do Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>Foi adicionada a compatibilidade com a dimensão Profundidade da visita (remoção da Profundidade da visita da lista de dimensões não compatíveis)</li><li>Remoção do suporte a métricas de participação (as métricas de participação foram adicionadas à lista de métricas não compatíveis)</li><li>Foi adicionada a compatibilidade com as seguintes dimensões baseadas em tempo: ano, trimestre, mês, semana, dia, hora e minuto (essas dimensões foram removidas da lista de dimensões não compatíveis) <p>Anteriormente, o Data Warehouse permitia o uso dessas dimensões somente na primeira coluna de uma tabela de forma livre quando a opção Granularidade era selecionada. Agora, essas dimensões são sempre compatíveis.</p><p>No entanto, a saída de datas não utiliza valores padrão ao usar essas dimensões. O ano é deslocado em 1900 e os meses são baseados em zero.</li></ul> |
@@ -111,7 +111,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Segmentos do projeto (segmentos rápidos e ad hoc) | A documentação sobre segmentos de projeto foi simplificada e as informações duplicadas foram removidas. As etapas para criar segmentos ad hoc agora estão combinadas com as etapas de [criação de segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Pesquisas dinâmicas | Foram adicionadas mais informações sobre [pesquisas dinâmicas](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md). Anteriormente, só haviam informações sobre atributos móveis, que são apenas um dos vários tipos de pesquisas dinâmicas. |
 | **Março de 2023** | |
-| Suporte do SDK da Web para o Activity Map | Os artigos [Implementar o Adobe Analytics](/help/implement/home.md) e [Habilitar o Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) foram atualizados. |
+| Suporte do SDK da Web para o Activity Map | Atualizado [Implementar Adobe Analytics](/help/implement/home.md). |
 | Visão geral das variáveis de tráfego (propriedades) | Adição de seções e procedimentos passo a passo para esclarecer e melhorar o conteúdo do artigo. Mescla do conteúdo de um artigo intitulado “Ativar relatórios de variável de tráfego” e remoção desse artigo. Consulte [Visão geral das variáveis de tráfego (propriedades)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Filtros internos de URL | Adição de seções e procedimentos passo a passo para esclarecer e melhorar o conteúdo do artigo. Consulte [Filtros internos de URL](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Criar histórias de dados em cartões de pontuação móveis | Uma [história de dados](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) é uma coleção de pontos de dados de suporte, contexto comercial e métricas relacionadas com base em um tema ou métrica central. |

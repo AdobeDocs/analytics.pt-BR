@@ -4,7 +4,7 @@ description: Envie uma chamada de rastreamento de exibição de página para a A
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 56%
@@ -32,7 +32,7 @@ s.t();
 A execução do método `t()` utiliza todas as variáveis do Analytics definidas e formula um URL com base nessas variáveis. Algumas variáveis do Analytics determinam o URL da imagem, enquanto outras determinam os valores de parâmetro da string de consulta.
 
 ```text
-https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
+https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 ```
 
 A Adobe recebe a solicitação de imagem e analisa o cabeçalho da solicitação, o URL e os parâmetros da string de consulta. Os servidores de coleta de dados retornam uma imagem transparente com 1x1 pixels, exibida de maneira invisível em seu site.
@@ -44,12 +44,12 @@ Use uma Ação para configurar o envio de dados do evento XDM para o Adobe. A se
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-1. Em [!UICONTROL Ações], clique na Ação desejada ou clique na guia **&#39;+&#39;** ícone para adicionar uma ação.
-1. Defina o [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Adobe Experience Platform Web SDK]** e a variável [!UICONTROL Tipo de ação] para **[!UICONTROL Enviar evento]**.
+1. Em [!UICONTROL Ações], clique na Ação desejada ou clique no ícone **&#39;+&#39;** para adicionar uma ação.
+1. Defina a lista suspensa [!UICONTROL Extensão] como **[!UICONTROL Adobe Experience Platform Web SDK]** e o [!UICONTROL Tipo de Ação] como **[!UICONTROL Enviar evento]**.
 
 ## Enviar evento implementando manualmente o SDK da Web
 
-Use o `sendEvent` comando para enviar dados ao Adobe. A sequência de dados recebe esses dados, aplica os mapeamentos configurados e encaminha esses dados para a Adobe Analytics se for um serviço adicionado a essa sequência de dados.
+Use o comando `sendEvent` para enviar dados para o Adobe. A sequência de dados recebe esses dados, aplica os mapeamentos configurados e encaminha esses dados para a Adobe Analytics se for um serviço adicionado a essa sequência de dados.
 
 ```js
 alloy("sendEvent", {
@@ -66,8 +66,8 @@ A extensão do Adobe Analytics na Coleção de dados da Adobe Experience Platfor
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-1. Em [!UICONTROL Ações], clique na ação desejada ou clique no link **&#39;+&#39;** ícone para adicionar uma ação.
-1. Defina o [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Adobe Analytics]**, e o [!UICONTROL Tipo de ação] para **[!UICONTROL Enviar sinal]**.
+1. Em [!UICONTROL Ações], clique na ação desejada ou clique no ícone **&#39;+&#39;** para adicionar uma ação.
+1. Defina a lista suspensa [!UICONTROL Extensão] como **[!UICONTROL Adobe Analytics]** e o [!UICONTROL Tipo de Ação] como **[!UICONTROL Enviar Beacon]**.
 1. Clique no botão de opção `s.t()`.
 
 ## Método s.t() no AppMeasurement e no editor de código personalizado da extensão do Analytics

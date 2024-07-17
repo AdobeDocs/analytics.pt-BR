@@ -4,10 +4,10 @@ description: Envie uma chamada de rastreamento de link para a Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 76%
+source-wordcount: '865'
+ht-degree: 62%
 
 ---
 
@@ -19,7 +19,7 @@ Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExtern
 
 ## Rastreamento de link usando o SDK da Web
 
-O SDK da Web não diferencia entre chamadas de exibição de página e chamadas de rastreamento de link; ambos usam o `sendEvent` comando.
+O SDK da Web não diferencia chamadas de exibição de página e chamadas de rastreamento de link; ambos usam o comando `sendEvent`.
 
 Se você usar um objeto XDM e quiser que o Adobe Analytics contabilize um determinado evento como uma chamada de rastreamento de link, verifique se os dados XDM incluem:
 
@@ -68,8 +68,8 @@ A extensão do Adobe Analytics tem um local dedicado para definir uma chamada de
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
-1. Em [!UICONTROL Ações], clique na ação desejada ou clique no link **&#39;+&#39;** ícone para adicionar uma ação.
-1. Defina o [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Adobe Analytics]**, e o [!UICONTROL Tipo de ação] para **[!UICONTROL Enviar sinal]**.
+1. Em [!UICONTROL Ações], clique na ação desejada ou clique no ícone **&#39;+&#39;** para adicionar uma ação.
+1. Defina a lista suspensa [!UICONTROL Extensão] como **[!UICONTROL Adobe Analytics]** e o [!UICONTROL Tipo de Ação] como **[!UICONTROL Enviar Beacon]**.
 1. Clique no botão de opção `s.tl()`.
 
 Não é possível definir argumentos opcionais na extensão do Analytics.
@@ -156,7 +156,7 @@ s.tl(true,"o","Example link");
 
 ### Efetuar chamadas de rastreamento de link em uma função personalizada
 
-Você pode consolidar o código de rastreamento de link em uma função JavaScript independente definida na página ou em um arquivo JavaScript vinculado. As chamadas podem ser feitas na função onClick de cada link. Defina o seguinte em um arquivo JavaScript:
+Você pode consolidar o código de rastreamento de link em uma função JavaScript independente. As chamadas podem ser feitas na função `onClick` de cada link. Defina o seguinte em um arquivo JavaScript:
 
 ```JavaScript
 function trackClickInteraction(name){
@@ -173,6 +173,9 @@ Em seguida, você pode chamar a função sempre que quiser rastrear um determina
 <!-- Use wherever you want to track links -->
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
+
+>[!NOTE]
+>Chamar o método `tl()` indiretamente pode tornar os relatórios de sobreposição de Activity Map menos convenientes. Você deve clicar em cada link para registrar a função com o elemento link. No entanto, as dimensões de Activity Map no Workspace são rastreadas da mesma forma.
 
 ### Evite rastrear links duplicados
 
@@ -195,4 +198,25 @@ function linkCode(obj) {
     s.tl(obj,"d","Example PDF download");
   }
 }
+```
+
+### Usar o método `tl()` com o Activity Map
+
+Você pode usar o método `tl()` para rastrear elementos personalizados e configurar a renderização de sobreposição para o conteúdo dinâmico. O parâmetro `linkName` também é usado para definir a dimensão [Link de Activity Map](/help/components/dimensions/activity-map-link.md).
+
+Quando o método `tl()` é chamado diretamente no evento de cliques do elemento de HTML, o Activity Map pode exibir uma sobreposição para esse elemento quando a página da Web for carregada. Por exemplo:
+
+```html
+<a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
+```
+
+Quando o método `tl()` não é chamado diretamente no evento de cliques do elemento HTML, o Activity Map só poderá exibir uma sobreposição depois que o elemento for clicado. Por exemplo:
+
+```html
+<a href="index.html" onclick="someFn(event);">Example link text</a>
+<script>
+  function someFn (event) {
+    s.tl(event.srcElement,'o','Example custom link');
+  }
+</script>
 ```

@@ -3,7 +3,7 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+source-git-commit: cf9290d0a55704015ba1a2b6fdbdde1a724276a1
 workflow-type: tm+mt
 source-wordcount: '2528'
 ht-degree: 98%
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Use este glossário para entender o contexto de muitos termos que o Adobe Analytics usa.
 
-* **Activity Map:** um plug-in de navegador que mostra quais áreas do site foram mais clicadas. Consulte [Activity Map](/help/analyze/activity-map/activity-map.md) no guia do usuário Analisar.
+* **Activity Map:** um plug-in de navegador que mostra quais áreas do site foram mais clicadas. Consulte [Activity Map](/help/analyze/activity-map/overview.md) no guia do usuário Analisar.
 * **Admin Console:** pode se referir a:
    * Ferramentas administrativas herdadas, onde as configurações do conjunto de relatórios no Adobe Analytics são gerenciadas. Em versões anteriores do Adobe Analytics, as permissões de usuário também eram gerenciadas aqui. Consulte [Ferramentas administrativas](/help/admin/admin/c-admin-tools.md) no guia do usuário Administração.
    * O Admin Console da Adobe, onde o acesso ao produto é provisionado e as permissões do usuário são gerenciadas. Consulte [Admin Console](/help/admin/admin-console/home.md) no guia do usuário Administração.
@@ -46,7 +46,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Atributos do cliente:** um recurso da Experience Cloud que permite o upload de dados de atributos. Consulte [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR) no guia do usuário dos Serviços principais.
 * **Representante de suporte ao cliente:** um usuário designado autorizado a interagir diretamente com o Atendimento ao cliente da Adobe. Consulte [Delegados de suporte ao cliente](https://helpx.adobe.com/br/experience-cloud/supported-users.html) na Base de conhecimento da Experience Cloud.
 * **Servidor de coleta de dados:** servidores da Adobe que recebem e processam dados. As solicitações de imagem são enviadas aos servidores de coleta de dados da Adobe para uso nos relatórios.
-* **Conectores de dados:** Uma solução de desenvolvimento removida que permite a terceiros automatizar o upload de dados no Adobe Analytics. Os clientes desse terceiro podem usar um conector de dados para enriquecer seus dados no Adobe Analytics. Substituído pelo Adobe Exchange Marketplace.
+* **Data connectors:** uma solução de desenvolvimento desativada que permite a terceiros automatizar o carregamento de dados no Adobe Analytics. Os clientes desse terceiro podem usar um conector de dados para enriquecer seus dados no Adobe Analytics. Substituído pelo Adobe Exchange Marketplace.
 * **Feed de dados:** uma exportação de dados brutos que lista cada hit como uma linha e variáveis como colunas separadas. Usado mais frequentemente para exportar dados do Adobe Analytics para um banco de dados de terceiros. Consulte [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) no guia do usuário Exportar.
 * **Fontes de dados:** permite que um usuário carregue dados de um arquivo no Adobe Analytics. O arquivo normalmente é extraído de um site FTP. Consulte [Data Sources](/help/import/data-sources/overview.md) no guia do usuário Importar.
 * **Data Warehouse:** um recurso no Adobe Analytics que permite solicitar relatórios maiores. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) no guia do usuário Exportar.
