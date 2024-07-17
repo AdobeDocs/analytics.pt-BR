@@ -3,54 +3,44 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
-workflow-type: ht
-source-wordcount: '1077'
-ht-degree: 100%
+source-git-commit: cb0eab15dac6d679e9f912010045e6be2e47df4a
+workflow-type: tm+mt
+source-wordcount: '732'
+ht-degree: 46%
 
 ---
 
-# Notas de versão atuais do Adobe Analytics (junho de 2024)
+# Notas de versão atuais do Adobe Analytics (julho de 2024)
 
-**Última atualização**: 26 de junho de 2024
+**Última atualização**: quinta-feira, 17 de julho de 2024
 
-Estas notas de versão cobrem o período de lançamento de 12 de junho de 2024 a julho. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+Essas notas de versão abrangem o período de lançamento de 17 de julho de 2024 a agosto de 2024. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 ## Novos recursos ou melhorias {#features}
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Selecionar vários campos em um filtro suspenso** | Quando vários campos são adicionados a um filtro suspenso, os usuários podem selecionar mais de um campo por vez. O painel é filtrado para incluir qualquer um dos campos selecionados. <p>Anteriormente, os usuários podiam selecionar apenas um campo por vez em um filtro suspenso.</p><p>Para obter mais informações, consulte [Segmentos suspensos estáticos](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments) na [Visão geral de painéis](/help/analyze/analysis-workspace/c-panels/panels.md).</p><p>[Exibir uma demonstração em vídeo desse recurso](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/use-multi-select-drop-down-filters).</p> |  | 19 de junho de 2024 |
-| **Índice de projetos do Workspace** | Um novo índice está disponível para projetos. O índice fornece links que permitem ir rapidamente para painéis e visualizações no projeto. O índice pode ser habilitado para projetos individuais ou para todos os projetos de um determinado usuário.<p>Para obter mais informações, consulte o [Índice do projeto](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md).</p><p>[Exibir uma demonstração em vídeo desse recurso](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace).</p> |  | 19 de junho de 2024 |
-| **Criar hiperlinks para itens de dimensão em uma tabela de forma livre** | É possível criar hiperlinks para um ou mais itens de dimensão para torná-los clicáveis em uma tabela de forma livre no Analysis Workspace. <p>Você pode criar hiperlinks para itens de dimensão com valores de URL ou criar URLs personalizados para itens de dimensão com valores que não sejam de URL.</p><p>Você pode criar URLs personalizados dinâmicos para vários itens de dimensão usando variáveis. As variáveis podem fazer referência ao valor de um item de dimensão ou à dimensão de detalhamento.</p><p>Para obter mais informações, consulte [Criar hiperlinks para dimensões em uma tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p><p>[Exibir uma demonstração em vídeo desse recurso](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables).</p> |  | 19 de junho de 2024 |
-| **Configurações do administrador para controlar as contas e os locais usados para exportação e importação** | Uma nova guia [“Configurações do administrador” no gerenciador de locais](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) fornece à administração controle sobre a possibilidade de os usuários criarem e editarem contas e locais. Essas configurações se aplicam quando os usuários [configuram contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md) e quando [configuram locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md). <p>Administradores também podem limitar os tipos de conta (Google Cloud Platform, Azure RBAC, Amazon S3 e assim por diante) que os usuários podem criar e usar.</p><p>Anteriormente, qualquer usuário podia criar, editar e usar contas e locais para qualquer tipo de conta.</p> | 12 de junho de 2024 | 20 de junho de 2024 |
-| **Compartilhar contas e locais usados para exportação e importação** | Agora os usuários podem disponibilizar as contas e os locais que criam para todos os usuários em sua organização. Somente os proprietários de contas e locais e os administradores do sistema podem editar e excluir contas e locais.<p>Anteriormente, contas e locais podiam ser usados somente pelo usuário que os criava.</p><p>Essas configurações estão disponíveis quando usuários [configuram contas de importação e exportação na nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts) e quando [configuram locais de importação e exportação na nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-locations). </p> | 12 de junho de 2024 | 20 de junho de 2024 |
-| **O Activity Map usa menos chamadas de servidor para o SDK da Web** | Atualmente, os eventos de link do Activity Map são contados como eventos próprios e resultam em cobranças adicionais. Esse aprimoramento seleciona alguns eventos de link e os reúne na próxima ocorrência, de modo semelhante a como os eventos são tratados pelo AppMeasurement. <p>(Link para a documentação será atualizado em breve)</p> | O Open Beta começa em 10 de julho de 2024 | A ser definido |
-| **Novo guia da API das fontes de dados** | Os pontos de acesso da [API de fontes de dados do Adobe Analytics 2.0](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) fornecem métodos para criar, exibir, excluir e fazer upload nas contas das fontes de dados. |  | Disponível agora |
-| **Novos métodos no guia de API de classificações** | Dois novos métodos para recuperar partições de arquivos foram adicionados ao guia de API de classificações.<ul><li>[Obter partição de arquivo de tarefa de classificação](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[Obter parte do arquivo da tarefa de exportação de classificação](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | Disponível agora |
+| **Melhorias no SDK da Web para rastreamento de link** | Várias melhorias notáveis estão disponíveis na versão mais recente do SDK da Web em relação ao rastreamento de link, que beneficia diretamente o Activity Map. Esses novos recursos estão disponíveis na biblioteca JavaScript do SDK da Web e na extensão de tag do SDK da Web.<ul><li>Agrupamento de eventos: quando um visitante clica em um link interno, é possível optar por agrupar dados do evento na próxima página, em vez de acionar uma chamada de evento separada para o rastreamento de link. Essa melhoria reduz o número de eventos que o SDK da Web usa em relação ao limite contratual.</li><li>Propriedades de clique de filtro: um novo retorno de chamada que substitui `OnBeforeLinkClickSend`. Você pode usar essa chamada de retorno para filtrar ou ofuscar dados relacionados ao link antes de enviá-lo para o Adobe.</li></ul><p>Consulte [clickCollection](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection) no guia do usuário do SDK da Web para obter mais informações.</p> | O Open Beta foi iniciado em 10 de julho de 2024 | A ser definido |
 
 {style="table-layout:auto"}
 
 ## Correções no Adobe Analytics
 
-* Correção dos seguintes problemas de classificações: AN-347682; AN-348396; AN-348625; AN-348668; AN-348926; AN-348936; AN-349040; AN-349191; AN-349195; AN-349443; AN-349697; AN-349758; AN-349862; AN-350051; AN-350054; AN-350208; AN-350497; AN-350525; AN-351067
-* Correção dos seguintes problemas do Data Warehouse: AN-346862; AN-349409; AN-349926; AN-350629; AN-350996
-* Correção dos seguintes problemas de feeds de dados: AN-346727; AN-348282; AN-348334; AN-348725; AN-348726; AN-348823; AN-349081; AN-349207; AN-349307; AN-349539; AN-349710; AN-349729; AN-349742; AN-349878; AN-349943; AN-350527;
-* Correção do seguinte problema das fontes de dados: AN-350038
-* Correção dos seguintes problemas do Analysis Workspace: AN-342953; AN-346346; AN-349590; AN-349717; AN-350057; AN-350697; AN-350904
-* Correção dos seguintes problemas do Report Builder: AN-348903; AN-350691
-* Correção dos seguintes problemas do A4T: AN-347690; AN-350853
+* Correção de um problema que impedia os usuários de fazer logon na interface do usuário do Analytics (AN-352953)
+* Correção de um problema que impedia os usuários de fazer logon no aplicativo móvel do Analytics (AN-352463)
+* Correção de um problema que impedia o download do projeto como um PDF (AN-352680)
+* Correção de um problema em que as classificações não eram importadas. (AN-352178)
 
 ### Outras correções do Analytics
 
-AN-346470; AN-346850; AN-347227; AN-348145; AN-348564; AN-349001; AN-349008; AN-349211; AN-349719; AN-350523;
+AN-352905; AN-352902; AN-352693; AN-352659; AN-352619;
+AN-352577; AN-352575; AN-352572; AN-352571; AN-352549; AN-352501; AN-352499; AN-352478; AN-352466; AN-352437; AN-352378; AN-352355; AN-352341; AN-352318; AN-352297; AN-352272; AN-352267; AN-352263; AN-352088; AN-352019; AN-352018; AN-351978; AN-351908; AN-351809; AN-351750; AN-351689; AN-351624; AN-351564; AN-351524; AN-351507; AN-351416; AN-351414; AN-351405; AN-351299; AN-351283; AN-351231; AN-350710; AN-349912; AN-349786; AN-348300; AN-348061; AN-347865; AN-347676; AN-347478; AN-343611; AN-343114; AN-334124
 
 ## Avisos importantes para administradores do Adobe Analytics {#admin}
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
 | **Prazo de 13 meses para a expiração do`cust_visids`** salvo | 22 de maio de 2024 | Uma versão futura do mecanismo de processamento do Analytics Hit, **programada para julho de 2024**, começará a impor um prazo de 13 meses para a expiração de `cust_visids` salvo. Se o conjunto de relatórios estiver com a opção “Habilitar identificação de visitantes” ativada, esta configuração será usada para encontrar o `cust_visid` para um `visid_high/visid_low value` que não contenha `cust_visid` na ocorrência. Atualmente, não há um prazo de expiração para o mapeamento de um `cust_visid` para um `visid_high/visid_low`. Com esta versão, o mapeamento expirará se 13 meses ou mais se passarem desde que o `visid_high/visid_low` teve um `cust_visid` em uma ocorrência. |
-| **Atualizações da região ISO** | 10 de maio de 2024 | A Adobe realizará as atualizações de 2024 da região ISO em 7 de junho de 2024. Você poderá ver pequenas atualizações de informações geográficas (região) após este lançamento. |
 
 {style="table-layout:auto"}
 
@@ -58,6 +48,7 @@ AN-346470; AN-346850; AN-347227; AN-348145; AN-348564; AN-349001; AN-349008; AN-
 
 | Fim da vida útil do produto ou recurso | Data de adição ou atualização | Descrição |
 | --- | --- | --- |
+| **Fim da vida útil da API do Adobe Analytics (versão 1.4)** | quinta-feira, 17 de julho de 2024 | Em **12 de agosto de 2026**, os serviços de API herdados do Analytics a seguir estão programados para atingir seu fim de vida útil e serão encerrados, e as integrações atuais criadas com esses serviços deixarão de funcionar:<ul><li>API do Adobe Analytics (versão 1.4)</li><li>Autenticação Adobe Analytics WSSE</li></ul><p>As integrações que usam a API do Adobe Analytics (versão 1.4) devem migrar para a [API do Adobe Analytics 2.0](https://developer.adobe.com/analytics-apis/docs/2.0/), enquanto as integrações do WSSE devem migrar para um protocolo de autenticação baseado em OAuth na [Adobe Developer Console](https://developer.adobe.com/console).</p><p>Consulte as [Perguntas frequentes sobre EOL da API do Adobe Analytics 1.4](/help/admin/c-admin-api/c-admin-14-api-eol.md) para obter respostas a perguntas comuns e mais orientações.</p> |
 | **Migração para as credenciais de servidor para servidor do Adobe I/O OAuth** | 11 de maio de 2023 | Os clientes da API e da transmissão ao vivo do Adobe Analytics que usam as credenciais JWT do Adobe I/O devem migrar para as credenciais de servidor para servidor OAuth do Adobe I/O até o dia **1º de janeiro de 2025**. O AdobeIO não permitirá que novas credenciais JWT sejam criadas a partir de 1º de maio de 2024. Os clientes que usam JWT devem criar uma nova credencial de servidor para servidor OAuth ou migrar sua credencial JWT existente para uma credencial de servidor para servidor OAuth. Os clientes também devem atualizar seus aplicativos cliente para usar as novas credenciais de servidor para servidor do OAuth. <ul><li>[Migração de credenciais da Conta de serviço (JWT)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Guia de implementação para aplicativos novos e antigos com o OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[Utilização das novas credenciais de servidor para servidor do OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Perguntas frequentes](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 {style="table-layout:auto"}
