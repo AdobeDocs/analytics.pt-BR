@@ -3,7 +3,7 @@ title: Tipo de referenciador
 description: O tipo de referenciador dependendo a origem do visitante.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 24608d7058b8e7ddbf255c2a67dbdc2bf1bc9cca
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Tipo de referenciador
 
-O &#39;Tipo de referenciador&#39; [dimension](overview.md) relata em quais canais genéricos os visitantes clicaram para acessar seu site. A Adobe mantém regras para cada item de dimensão, ao contrário dos [canais de marketing](marketing-channel.md), em que a própria organização mantém regras para cada canal.
+A [dimensão](overview.md) de &quot;Tipo de referenciador&quot; informa em quais canais genéricos os visitantes clicaram para acessar seu site. A Adobe mantém regras para cada item de dimensão, ao contrário dos [canais de marketing](marketing-channel.md), em que a própria organização mantém regras para cada canal.
 
 ## Preencher esta dimensão com dados
 
@@ -168,6 +168,7 @@ A lista a seguir faz referência à tabela de pesquisa &quot;Redes sociais&quot;
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `threads.net`
 * `tiktok.com`
 * `toutiao.com`
 * `tripit.com`
