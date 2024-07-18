@@ -3,9 +3,9 @@ description: Link para a API de administração do Adobe Analytics no Github.
 title: PERGUNTAS FREQUENTES SOBRE EOL DA API DO Adobe Analytics 1.4
 feature: Admin Tools
 role: Admin
-source-git-commit: 0aaeb60528f8ff1b1067f059710c9d9fa8e1886f
+source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,11 @@ O guia [Migrating to Adobe Analytics 2.0 APIs](https://developer.adobe.com/analy
 
 P: **Isso afeta a coleta de dados?**
 
-R: O fim da vida útil do Adobe Analytics 1.4 não afeta suas soluções de marcação, como Tags (antigo Adobe Launch), WebSDK ou AppMeasurement.js. No entanto, se você usar as APIs de Fontes de dados, Inserção de dados ou Classificações 1.4 para coletar ou aprimorar seus dados, será necessário migrar esses fluxos de trabalho para as APIs do Adobe Analytics 2.0. Consulte o [manual de Pontos de Extremidade de API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) do {2.0} para obter mais detalhes.
+R: O fim da vida útil do Adobe Analytics 1.4 não afeta suas soluções de marcação, como Tags (antigo Adobe Launch), WebSDK ou AppMeasurement.js. No entanto, se você usar as APIs de Classificações ou Fontes de dados 1.4 para coletar ou aprimorar os dados, será necessário migrar esses fluxos de trabalho para as APIs do Adobe Analytics 2.0. Consulte o [manual de Pontos de Extremidade de API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) do {2.0} para obter mais detalhes.
+
+P: **A API de Inserção de Dados será afetada?**
+
+R: Não, a API de inserção de dados não é afetada pelo EOL do Adobe Analytics 1.4.
 
 P: **O que devo fazer se minha pergunta não for respondida nessas Perguntas frequentes?**
 
