@@ -19,24 +19,24 @@ A Adobe coleta dados em seu site recebendo uma solicitação de imagem gerada pe
 >
 >Alterar esse valor faz com que o AppMeasurement procure cookies em um local diferente. A contagem de visitantes únicos pode aumentar temporariamente no relatório, já que os cookies de visitantes estão definidos para serem enviados ao novo local.
 
-## Domínio de borda usando a extensão SDK da Web
+## Domínio do Edge usando a extensão SDK da Web
 
-O SDK da Web usa [!UICONTROL Domínio de borda] para lidar com o Servidor de rastreamento e o Servidor de rastreamento seguro. É possível definir as configurações [!UICONTROL Domínio de borda] ao configurar a extensão SDK da Web.
+O SDK da Web usa o [!UICONTROL domínio do Edge] para manipular o Servidor de Rastreamento e o Servidor de Rastreamento Seguro. Você pode definir o valor desejado do [!UICONTROL domínio do Edge] ao configurar a extensão SDK da Web.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
-1. Defina o desejado **[!UICONTROL Domínio de borda]** campo de texto.
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** em [!UICONTROL Adobe Experience Platform Web SDK].
+1. Defina o campo de texto desejado **[!UICONTROL domínio Edge]**.
 
-Consulte [Configurar a extensão SDK da Web do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=pt-BR) na documentação do SDK da Web para obter mais informações.
+Consulte [Configurar a extensão do SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=pt-BR) na documentação do SDK da Web para obter mais informações.
 
 >[!TIP]
 >
 >Se sua organização mudar para o SDK da Web de uma implementação de extensão do AppMeasurement ou do Analytics, esse campo poderá usar o mesmo valor contido em `trackingServerSecure` (ou `trackingServer`).
 
-## Domínio de borda que implementa manualmente o SDK da Web
+## Domínio Edge que implementa manualmente o SDK da Web
 
-Configurar o SDK usando o [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR). O campo é uma cadeia de caracteres que determina o domínio para o qual enviar dados.
+Configurar o SDK usando [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR). O campo é uma cadeia de caracteres que determina o domínio para o qual enviar dados.
 
 ```json
 alloy("configure", {
@@ -59,11 +59,11 @@ Se esse campo ficar em branco, o padrão será `[rsid].data.adobedc.net`.
 
 A varável `s.trackingServer` é uma string que contém o local para o envio de dados.
 
-## Considerações para a determinação do valor de `trackingServer`
+## Considerações para determinar o valor de `trackingServer`
 
-Você pode optar por usar domínios de servidor de rastreamento do Adobe (por exemplo, `adobedc.net`) ou você pode passar por um processo especial para configurar um servidor de rastreamento que corresponda ao domínio dos sites (por exemplo, `data.mydomain.com`), também conhecida como implementação CNAME. Ter um servidor de rastreamento que corresponda ao domínio do site pode ter alguns benefícios, dependendo de outros aspectos da implementação. Quando o servidor de rastreamento não corresponde ao domínio da página atual, os cookies definidos pelo AppMeasurement devem ser definidos como de terceiros. Se o navegador não for compatível com cookies de terceiros, essa incompatibilidade poderá interferir em determinadas funcionalidades do Analytics:
+Você pode optar por usar domínios de servidor de rastreamento do Adobe (por exemplo, `adobedc.net`) ou pode passar por um processo especial para configurar um servidor de rastreamento que corresponda ao domínio dos sites (por exemplo, `data.mydomain.com`), também conhecido como implementação CNAME. Ter um servidor de rastreamento que corresponda ao domínio do site pode ter alguns benefícios, dependendo de outros aspectos da implementação. Quando o servidor de rastreamento não corresponde ao domínio da página atual, os cookies definidos pelo AppMeasurement devem ser definidos como de terceiros. Se o navegador não for compatível com cookies de terceiros, essa incompatibilidade poderá interferir em determinadas funcionalidades do Analytics:
 
-- Definição de identificadores: se estiver usando o Serviço de identidade do Experience Cloud, o servidor de rastreamento não terá impacto sobre a definição de cookies. No entanto, se estiver usando identificadores herdados do Analytics (também conhecidos como `s_vi` cookie) e o servidor de coleção não corresponder ao domínio atual, os cookies deverão ser definidos como de terceiros. Nesse caso, se os cookies de terceiros estiverem bloqueados pelo navegador, o Analytics definirá uma ID de fallback primária (`s_fid`) em vez do padrão `s_vi` cookie.
+- Definição de identificadores: se estiver usando o Serviço de identidade do Experience Cloud, o servidor de rastreamento não terá impacto sobre a definição de cookies. No entanto, se você estiver usando identificadores herdados do Analytics (também conhecido como cookie `s_vi`) e o servidor de coleção não corresponder ao domínio atual, os cookies deverão ser definidos como de terceiros. Nesse caso, se cookies de terceiros forem bloqueados pelo navegador, o Analytics definirá um id de fallback primário (`s_fid`) em vez do cookie `s_vi` padrão.
 - O rastreamento de links não funcionará para links internos.
 - O Activity Map não funcionará para links internos.
 - Verificação de cookies.

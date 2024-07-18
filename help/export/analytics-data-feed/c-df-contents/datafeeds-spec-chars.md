@@ -7,8 +7,8 @@ feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 94%
+source-wordcount: '330'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Quando esses valores reservados são precedidos por uma barra invertida, eles s�
 | `\\n` | O valor &#39;`\n`&#39; foi enviado durante a coleta de dados, escapado pela Adobe. |
 | `\\` | O valor &#39;`\`&#39; foi enviado durante a coleta de dados, escapado pela Adobe. |
 
-Por exemplo, um visitante do site usa pesquisa interna e pesquisa por `"search\nstring"`. Você preenche o eVar1 com `"search\nstring"`e envie esse valor para Adobe. A Adobe recebe essa ocorrência e escapa da nova linha incluída na string. O valor real colocado nos dados brutos é `"search\\nstring"`.
+Por exemplo, um visitante do site usa pesquisa interna e pesquisa por `"search\nstring"`. Você preenche o eVar1 com `"search\nstring"` e envia esse valor para o Adobe. A Adobe recebe essa ocorrência e escapa da nova linha incluída na string. O valor real colocado nos dados brutos é `"search\\nstring"`.
 
 ## Caracteres especiais em variáveis de vários valores (events_list, products_list, mvvars)
 

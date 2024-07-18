@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Total de segundos gastos
 
-O valor de &#39;Total de segundos gastos&#39; [métrica](overview.md) mostra o número agregado de segundos que um visitante gastou em um determinado item de dimensão. Essa métrica é útil para obter a quantidade bruta de tempo gasto em um determinado item de dimensão, e não médias de tempo como outras métricas de tempo gasto oferecem.
+A [métrica](overview.md) de &quot;Total de segundos gastos&quot; mostra o número agregado de segundos que um visitante gastou em um determinado item de dimensão. Essa métrica é útil para obter a quantidade bruta de tempo gasto em um determinado item de dimensão, e não médias de tempo como outras métricas de tempo gasto oferecem.
 
 No Report Builder, essa métrica é chamada de “Tempo total gasto”.
 

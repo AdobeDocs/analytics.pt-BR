@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 85%
 
 ---
 
 # Tempo gasto na página
 
-O &quot;Tempo gasto na página&quot; [dimension](overview.md) registra o tempo que um visitante passou na página. As seguintes etapas são utilizadas para medir o cálculo:
+A [dimensão](overview.md) de &quot;Tempo gasto na página&quot; registra o tempo que um visitante passou na página. As seguintes etapas são utilizadas para medir o cálculo:
 
 1. Para uma determinada ocorrência, verifique o carimbo de data e hora.
 2. Compare essa ocorrência com o carimbo de data e hora da próxima ocorrência na visita. Tanto a visualização de página quanto o rastreamento de link são contabilizados.

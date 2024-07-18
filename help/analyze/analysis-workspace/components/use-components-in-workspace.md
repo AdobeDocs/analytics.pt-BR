@@ -15,17 +15,17 @@ ht-degree: 16%
 
 Os componentes compõem os dados reais de qualquer projeto no Analysis Workspace. Os componentes consistem em dimensões, métricas, segmentos e intervalos de datas. Você pode adicionar componentes a um projeto arrastando-os para visualizações ou painéis.
 
-Para obter informações gerais sobre os tipos de componentes que podem ser adicionados, consulte [Visão geral dos componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+Para obter informações gerais sobre os tipos de componentes que você pode adicionar, consulte [Visão geral dos componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
 
 >[!TIP]
 >
->Para obter informações sobre cada componente, selecione o ícone Informações ao lado do nome de um componente no painel esquerdo do Analysis Workspace ou consulte o [Guia de componentes do Analytics](/help/components/home.md).
+>Para obter informações sobre cada componente, selecione o ícone Informações ao lado do nome de um componente no painel esquerdo do Analysis Workspace ou consulte o [Guia de Componentes do Analytics](/help/components/home.md).
 
 ## Começar a adicionar componentes a um projeto
 
-1. [Criar um projeto no Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) se você ainda não tiver feito.
+1. [Crie um projeto no Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) se você ainda não tiver feito isso.
 
-1. [Adicionar um painel](/help/analyze/analysis-workspace/c-panels/panels.md) ou [adicionar uma visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) ao projeto no Analysis Workspace.
+1. [Adicione um painel](/help/analyze/analysis-workspace/c-panels/panels.md) ou [adicione uma visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) ao projeto no Analysis Workspace.
 
    Se você adicionar um componente a um projeto em branco, uma visualização de tabela de forma livre será criada automaticamente.
 
@@ -39,7 +39,7 @@ Para obter informações gerais sobre os tipos de componentes que podem ser adic
 
    Os segmentos se aplicam a todo o conteúdo do painel.
 
-   Para obter informações sobre como usar a área de destino do segmento em um painel para filtrar o painel, consulte [Área para soltar](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md).
+   Para obter informações sobre como usar a área de destino do segmento em um painel para filtrar o painel, consulte [Área de destino](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) na [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md).
 
    ![soltar um segmento na área de soltar](assets/segment-dropzone.png)
 
@@ -55,9 +55,9 @@ Para obter informações gerais sobre os tipos de componentes que podem ser adic
 
 ## Adicionar dimensões a um projeto
 
-[Dimension](/help/components/dimensions/overview.md) são variáveis no Adobe Analytics que normalmente contêm valores de string. As dimensões comuns incluem [Página](/help/components/dimensions/page.md), [Domínio de referência](/help/components/dimensions/referring-domain.md) ou uma [eVar](/help/components/dimensions/evar.md). Por outro lado, as [métricas](/help/components/metrics/overview.md) contêm valores numéricos que se vinculam a uma dimensão. Um relatório básico mostra linhas de valores da sequência de caracteres (dimensão) em relação a uma coluna de valores numéricos (métrica).
+[Dimension](/help/components/dimensions/overview.md) são variáveis no Adobe Analytics que normalmente contêm valores de cadeia de caracteres. As dimensões comuns incluem [Página](/help/components/dimensions/page.md), [Domínio de referência](/help/components/dimensions/referring-domain.md) ou uma [eVar](/help/components/dimensions/evar.md). Por outro lado, as [métricas](/help/components/metrics/overview.md) contêm valores numéricos que se vinculam a uma dimensão. Um relatório básico mostra linhas de valores da sequência de caracteres (dimensão) em relação a uma coluna de valores numéricos (métrica).
 
-1. Comece a adicionar uma dimensão ao seu projeto no Analysis Workspace, conforme descrito em [Começar a adicionar componentes a um projeto](#begin-adding-components-to-a-project).
+1. Comece a adicionar uma dimensão ao seu projeto no Analysis Workspace, conforme descrito em [Comece a adicionar componentes a um projeto](#begin-adding-components-to-a-project).
 
 1. Escolha um dos métodos a seguir para adicionar dimensões e determinar o tipo de dados que deseja analisar:
 
@@ -65,23 +65,23 @@ Para obter informações gerais sobre os tipos de componentes que podem ser adic
 
      ![Adicionar dimensões a um projeto](assets/add-dimensions.png)
 
-   * Arraste uma ou mais dimensões do painel esquerdo para a área suspensa de segmentos para criar um segmento ad hoc, conforme descrito em [Adicionar segmentos a um projeto](#add-segments-to-a-project).
+   * Arraste uma ou mais dimensões do painel esquerdo para a área de soltar segmentos para criar um segmento ad hoc, conforme descrito em [Adicionar segmentos a um projeto](#add-segments-to-a-project).
 
      ![soltar um segmento na área de soltar](assets/segment-dropzone.png)
 
 1. (Opcional) Você pode detalhar dimensões e itens de dimensão no Analysis Workspace com outros componentes.
 
-   Para obter mais informações, consulte [Detalhar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+   Para obter mais informações, consulte [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-Para obter mais informações sobre como usar dimensões no Analysis Workspace, consulte [Visualizar dimensões](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Detalhar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), e [Dimensões de separação de tempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
+Para obter mais informações sobre como usar dimensões no Analysis Workspace, consulte [Visualizar dimensões](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) e [Dimensões de separação de tempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
 ## Adicionar métricas a um projeto
 
-[Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md) permite quantificar pontos de dados no Analysis Workspace. Elas são usadas com mais frequência como colunas em uma visualização e são vinculadas a dimensões.
+[Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md) permitem quantificar pontos de dados no Analysis Workspace. Elas são usadas com mais frequência como colunas em uma visualização e são vinculadas a dimensões.
 
 Para adicionar uma métrica a um projeto no Analysis Workspace:
 
-1. Comece a adicionar uma métrica ao seu projeto no Analysis Workspace, conforme descrito em [Começar a adicionar componentes a um projeto](#begin-adding-components-to-a-project).
+1. Comece a adicionar uma métrica ao seu projeto no Analysis Workspace, conforme descrito em [Comece a adicionar componentes a um projeto](#begin-adding-components-to-a-project).
 
 1. Escolha um dos seguintes métodos para adicionar uma métrica no Analysis Workspace:
 
@@ -99,7 +99,7 @@ Para obter mais informações sobre como usar métricas no Analysis Workspace, c
 
 ## Adicionar segmentos a um projeto
 
-[Segmentos](/help/components/segmentation/seg-overview.md) O permite identificar subconjuntos de visitantes com base em características ou interações específicas.
+[Segmentos](/help/components/segmentation/seg-overview.md) permitem identificar subconjuntos de visitantes com base em características ou interações específicas.
 
 Você pode usar segmentos no Analysis Workspace de qualquer uma das seguintes maneiras:
 
@@ -107,7 +107,7 @@ Você pode usar segmentos no Analysis Workspace de qualquer uma das seguintes ma
 
 Ao adicionar segmentos a um painel, os segmentos se aplicam a todo o conteúdo do painel.
 
-Para obter informações sobre como usar a área de destino do segmento em um painel para filtrar o painel, consulte [Área para soltar](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md).
+Para obter informações sobre como usar a área de destino do segmento em um painel para filtrar o painel, consulte [Área de destino](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) na [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 ### Adicionar segmentos a uma coluna em uma tabela de forma livre
 
@@ -121,14 +121,14 @@ Para obter mais informações, consulte [Métricas segmentadas](/help/components
 
 ## Adicionar intervalos de datas a um projeto
 
-[Intervalos de datas](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) determine o intervalo de tempo do relatório no Analysis Workspace e possa ser aplicado a um ou mais painéis em um projeto.
+[Intervalos de datas](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) determinam o intervalo de tempo dos relatórios no Analysis Workspace e podem ser aplicados a um ou mais painéis dentro do projeto.
 
 Cada painel inclui um intervalo de datas por padrão. Há várias maneiras de atualizar um intervalo de datas para um painel. Uma maneira de atualizar um intervalo de datas para um painel no Analysis Workspace é arrastar um componente de intervalo de datas do painel esquerdo:
 
-1. Comece a adicionar um intervalo de datas ao seu projeto no Analysis Workspace, conforme descrito em [Começar a adicionar componentes a um projeto](#begin-adding-components-to-a-project).
+1. Comece a adicionar um intervalo de datas ao seu projeto no Analysis Workspace, conforme descrito em [Comece a adicionar componentes a um projeto](#begin-adding-components-to-a-project).
 
 1. Arraste um intervalo de datas do painel esquerdo para o intervalo de datas atual na parte superior direita do painel.
 
-   ![soltar um intervalo de datas](assets/daterange-drop.png)
+   ![descartar um intervalo de datas](assets/daterange-drop.png)
 
 Para obter mais informações sobre como usar calendários e intervalos de datas no Analysis Workspace, consulte [Visão geral do calendário e de intervalos de datas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).

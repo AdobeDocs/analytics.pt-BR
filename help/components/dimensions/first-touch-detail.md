@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 83%
 
 ---
 
 # Detalhes do canal de primeiro contato
 
-Os &quot;Detalhes do canal de primeiro contato&quot; [dimension](overview.md) O relata detalhes sobre o primeiro canal de marketing com o qual um visitante corresponde durante o período de engajamento do visitante (30 dias por padrão). Essa dimensão é importante para entender o que contribuiu para a correspondência em um canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga&quot;, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.
+A [dimensão](overview.md) de &quot;Detalhes do canal de primeiro contato&quot; relata detalhes sobre o primeiro canal de marketing com o qual um visitante corresponde durante o período de engajamento (30 dias por padrão). Essa dimensão é importante para entender o que contribuiu para a correspondência em um canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga&quot;, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.
 
 ## Preencher esta dimensão com dados
 
@@ -22,7 +22,7 @@ Se você quiser definir essa dimensão com um valor específico, siga os seguint
 
 * Verifique se o item de dimensão desejado está em um atributo de ocorrência ou em uma variável personalizada.
 * Defina uma regra de processamento de canal de marketing que contenha os critérios desejados para a ocorrência.
-* Selecione o valor suspenso desejado em [!UICONTROL Definir o valor do canal] na regra de processamento Canal de marketing.
+* Selecione o valor desejado na lista suspensa em [!UICONTROL Definir o valor do canal] dentro da regra de processamento Canal de marketing.
 * A ocorrência do visitante no site deve corresponder aos critérios descritos na regra de processamento Canal de marketing _e_ deve ser o primeiro valor do canal de marketing a fazer isso durante o período de engajamento do visitante.
 
 Se uma ocorrência subsequente corresponder aos critérios em um canal de marketing diferente, essa dimensão não será substituída pelo novo canal de marketing.

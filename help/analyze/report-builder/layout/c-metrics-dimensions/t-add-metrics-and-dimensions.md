@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 39%
+source-wordcount: '582'
+ht-degree: 38%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 39%
 
 Etapas para adicionar métricas e dimensões a uma solicitação.
 
-1. Use o [!UICONTROL Assistente de solicitações: etapa 1] formulário para [Criar a solicitação de dados](/help/analyze/report-builder/data-requests/data-requests.md)  e clique em **[!UICONTROL Próxima]**.
-1. No [!UICONTROL Assistente de solicitações: etapa 2] clique duas vezes em métricas ou arraste-as para a posição desejada.
+1. Use o formulário [!UICONTROL Assistente de Solicitações: Etapa 1] para [Criar a solicitação de dados](/help/analyze/report-builder/data-requests/data-requests.md) e clique em **[!UICONTROL Avançar]**.
+1. No formulário [!UICONTROL Assistente de solicitações: etapa 2], clique duas vezes em métricas ou arraste-as para a posição desejada.
 
    ![Captura de tela mostrando o Assistente de solicitações: etapa 2 com uma seta apontando da lista de métricas para a seção de exibição de página desejada.](assets/adding_metrics.png)
 
@@ -34,10 +34,10 @@ Etapas para adicionar métricas e dimensões a uma solicitação.
 Considere as diretrizes a seguir ao adicionar métricas e dimensões.
 
 * Quando você insere um termo de pesquisa, a lista é atualizada automaticamente para exibir métricas com rótulos que correspondem ao termo de pesquisa.
-* A correspondência não diferencia maiúsculas de minúsculas e equivale a *contém* pesquisa.
+* A correspondência não diferencia maiúsculas de minúsculas e é equivalente a uma pesquisa *contém*.
 * Pesquisas por palavras completas e outros sinalizadores de pesquisa especiais (começa com, termina com, E, OU etc.) não são suportados.
 
-O termo de pesquisa será limpo se você sair do Assistente de solicitações ao clicar no [!UICONTROL Concluir] ou [!UICONTROL Cancelar], ou volte para a Etapa 1 do assistente de solicitações ou altere a categoria Métrica.
+O termo de pesquisa será limpo se você sair do Assistente de solicitações quando clicar em [!UICONTROL Concluir] ou [!UICONTROL Cancelar], voltar para a Etapa 1 do Assistente de solicitações ou alterar a categoria Métrica.
 
 O termo de pesquisa não é limpo:
 
@@ -61,7 +61,7 @@ Para classificar uma solicitação por métrica
 1. Clique no rótulo da métrica.
 1. Adicionar dimensões. Adicione dimensões da mesma forma que adiciona métricas. Consulte as Etapas 1 e 2 acima.
 
-   No [!UICONTROL Dimension] , o sistema exibe dimensões que se quebram ou que sejam uma classificação de qualquer relatório básico selecionado [!UICONTROL Assistente de solicitações: etapa 1]e na configuração do conjunto de relatórios. Quando você solta uma dimensão nas grades do layout, ela é removida da exibição em árvore e recalcula a lista de dimensões disponíveis restantes.
+   Na guia [!UICONTROL Dimension], o sistema exibe dimensões que se quebram ou que sejam uma classificação de qualquer relatório básico selecionado no [!UICONTROL Assistente de solicitações: Etapa 1], e na configuração do conjunto de relatórios. Quando você solta uma dimensão nas grades do layout, ela é removida da exibição em árvore e recalcula a lista de dimensões disponíveis restantes.
 
    A dimensão [!UICONTROL Data] é adicionada automaticamente. As dimensões de data disponíveis mudam, dependendo da granularidade selecionada no [!UICONTROL Assistente de solicitações: etapa 1]. Os valores válidos são:
 
@@ -74,6 +74,6 @@ Para classificar uma solicitação por métrica
 
 1. Modifique métricas e dimensões configurando opções e filtros de [formato](/help/analyze/report-builder/layout/t-format-display-headers.md).
 1. Clique em **[!UICONTROL Concluir]**.
-No exemplo a seguir, dimensões estão relacionadas à métrica [!UICONTROL Página]. A variável [!UICONTROL Domínio de referência] dimension cria um relatório de detalhamento entre [!UICONTROL Página] e [!UICONTROL Domínio de referência]. A guia [!UICONTROL Dimensão] é atualizada apenas com as dimensões que você pode adicionar a um relatório de detalhamento.
+No exemplo a seguir, dimensões estão relacionadas à métrica [!UICONTROL Página]. A dimensão [!UICONTROL Domínio de Referência] cria um relatório de detalhamento entre [!UICONTROL Página] e [!UICONTROL Domínio de Referência]. A guia [!UICONTROL Dimensão] é atualizada apenas com as dimensões que você pode adicionar a um relatório de detalhamento.
 
-   ![Captura de tela que mostra as dimensões relacionadas à métrica.](assets/page_pageview_02.png)
+   ![Captura de tela mostrando as dimensões relacionadas à métrica.](assets/page_pageview_02.png)

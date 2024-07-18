@@ -19,7 +19,7 @@ Ao selecionar um relatório marcado, o Assistente de solicitação preenche toda
 
 Esta é a forma como a Etapa 1 do Assistente de solicitações mostra um painel e seus reportlets.
 
-![Captura de tela mostrando o Assistente de solicitações: etapa 1 de 2 destacando Recupere seus painéis e recupere seus marcadores.](assets/import_dashboard_reportlet.png)
+![Captura de tela mostrando a Etapa 1 de 2 do Assistente de solicitações, destacando Recuperar seus Painéis e Recuperar seus Marcadores.](assets/import_dashboard_reportlet.png)
 
 Ao clicar em **[!UICONTROL Recuperar seus painéis]** ou **[!UICONTROL Recuperar seus marcadores]**, o painel atual e/ou os dados do marcador são recuperados e colados na planilha.
 

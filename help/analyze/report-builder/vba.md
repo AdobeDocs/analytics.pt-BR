@@ -7,7 +7,7 @@ exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ Você deve executar a versão mais recente do Report Builder e fazer logon antes
 >
 >Por motivos de segurança, não é possível agendar uma pasta de trabalho que contenha uma macro
 
-A Adobe aceita três métodos de API do Report Builder.
+O Adobe suporta três métodos de API de Report Builder.
 
 ## `RefreshAllReportBuilderRequests()`
 

@@ -5,14 +5,14 @@ exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
 feature: Event
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 1%
+source-wordcount: '610'
+ht-degree: 0%
 
 ---
 
 # Comparar datas afetadas por um evento a intervalos anteriores
 
-Se você tiver dados [afetado por um evento](overview.md), você pode observar as tendências históricas para medir seu impacto. Essa comparação é importante para entender o quanto um evento afeta seus dados, para que você possa decidir se exclui-los, adicionar uma observação aos relatórios ou ignorá-los.
+Se você tiver dados [afetados por um evento](overview.md), poderá observar as tendências históricas para medir seu impacto. Essa comparação é importante para entender o quanto um evento afeta seus dados, para que você possa decidir se exclui-los, adicionar uma observação aos relatórios ou ignorá-los.
 
 ## Criar um intervalo de datas que inclua o evento
 
@@ -44,11 +44,11 @@ Crie um intervalo de datas que inclua o evento para começar a explorar o impact
 
 Compare itens de dimensão entre o intervalo de datas de um evento e intervalos de datas anteriores semelhantes usando uma visualização de tabela de forma livre. Essas etapas ilustram um exemplo de semana a semana que você pode seguir.
 
-1. Abra um projeto do Workspace e adicione um **dimensão sem hora** à tabela de forma livre. Por exemplo, você pode usar a dimensão &quot;Tipo de dispositivo móvel&quot;. Aplique o intervalo de datas criado recentemente e empilhado em uma métrica, como &quot;Ocorrências&quot;:
+1. Abra um projeto do Workspace e adicione uma **dimensão que não seja de tempo** à tabela de forma livre. Por exemplo, você pode usar a dimensão &quot;Tipo de dispositivo móvel&quot;. Aplique o intervalo de datas criado recentemente e empilhado em uma métrica, como &quot;Ocorrências&quot;:
 
    ![Tipo de dispositivo móvel por intervalo de datas afetado](assets/mobile_device_type.png)
 
-2. Clique com o botão direito do mouse no intervalo de datas e clique em **[!UICONTROL Comparar períodos]** > **[!UICONTROL Intervalo de datas personalizado para esse intervalo de datas]**. Selecione o intervalo do evento menos 7 dias. Verifique se os dias da semana entre o evento e esse intervalo de datas estão alinhados.
+2. Clique com o botão direito do mouse no intervalo de datas e clique em **[!UICONTROL Comparar períodos]** > **[!UICONTROL Intervalo de datas personalizado com este intervalo de datas]**. Selecione o intervalo do evento menos 7 dias. Verifique se os dias da semana entre o evento e esse intervalo de datas estão alinhados.
 
    ![Comparar menu de período](assets/compare_time_custom.png)
 
@@ -63,14 +63,14 @@ Compare itens de dimensão entre o intervalo de datas de um evento e intervalos 
 Se você quiser analisar mais detalhadamente as alterações de porcentagem acima, poderá convertê-las em linhas.
 
 1. Adicione uma visualização de tabela de forma livre e ative o construtor de tabela. Essa ação permite colocar as métricas de alteração de porcentagem na ordem desejada.
-2. Em espera `Ctrl` (Windows) ou `Cmd` (Mac) e arraste as métricas de alteração de 3% para as linhas da tabela, uma de cada vez.
+2. Segure o `Ctrl` (Windows) ou o `Cmd` (Mac) e arraste as métricas de alteração de 3% para as linhas da tabela, uma de cada vez.
 
-   ![Construtor de tabelas](assets/table_builder.png)
+   ![Construtor de tabela](assets/table_builder.png)
 
 3. Adicione o segmento &quot;Todas as visitas&quot; à coluna da tabela e a qualquer outro segmento desejado.
 
    ![Segmentos do construtor de tabela](assets/table_builder_segments.png)
 
-4. Clique em **[!UICONTROL Criar]**. Na tabela resultante, é possível visualizar os intervalos afetados em relação à semana, mês e ano anteriores em qualquer segmento desejado.
+4. Clique em **[!UICONTROL Build]**. Na tabela resultante, é possível visualizar os intervalos afetados em relação à semana, mês e ano anteriores em qualquer segmento desejado.
 
    ![Tabela concluída](assets/table_builder_finished.png)

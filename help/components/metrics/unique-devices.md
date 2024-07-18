@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 91%
+source-wordcount: '264'
+ht-degree: 92%
 
 ---
 
 # Dispositivos únicos
 
-Os &quot;Dispositivos únicos&quot; [métrica](overview.md) é um [Análise entre dispositivos](../cda/overview.md) métrica que conta o número de dispositivos não identificados exclusivos e dispositivos virtuais exclusivos. Dispositivos não identificados são dispositivos que geraram ocorrências anônimas. Dispositivos virtuais exclusivos são pessoas distintas identificadas por dispositivo.
+A [métrica](overview.md) de &quot;Dispositivos exclusivos&quot; é uma [métrica de Análise entre dispositivos](../cda/overview.md) que conta o número de dispositivos não identificados exclusivos e dispositivos virtuais exclusivos. Dispositivos não identificados são dispositivos que geraram ocorrências anônimas. Dispositivos virtuais exclusivos são pessoas distintas identificadas por dispositivo.
 
 ## Como essa métrica é calculada
 

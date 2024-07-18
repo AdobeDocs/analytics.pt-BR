@@ -5,22 +5,22 @@ feature: Metrics
 exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 60%
+source-wordcount: '365'
+ht-degree: 55%
 
 ---
 
 # Profundidade média da página
 
-A &quot;Profundidade média da página&quot; [métrica](overview.md) mostra até que ponto um item de dimensão se estende em uma determinada visita, em média. Por exemplo, a página inicial (que é um item de dimensão para a dimensão Página ) normalmente mostra uma profundidade média de página menor do que a página Confirmação de compra, que provavelmente se estende ainda mais para uma visita. Você pode usar essas informações para otimizar determinadas páginas para visitantes novos se a página tiver uma profundidade baixa, em média.
+A [métrica](overview.md) da &quot;Profundidade média da página&quot; mostra a que distância, em média, um item de dimensão se estende em uma determinada visita. Por exemplo, a página inicial (que é um item de dimensão para a dimensão Página ) normalmente mostra uma profundidade média de página menor do que a página Confirmação de compra, que provavelmente se estende ainda mais para uma visita. Você pode usar essas informações para otimizar determinadas páginas para visitantes novos se a página tiver uma profundidade baixa, em média.
 
 >[!TIP]
 >
->Use essa métrica junto com outra métrica, como [Visitas](visits.md), para obter melhores insights. Se essa métrica for utilizada sozinha, é possível obter itens de dimensão que contêm profundidades de página anômalas, o que geralmente não é um insight valioso.
+>Use esta métrica junto com outra métrica, como [Visitas](visits.md), para obter melhores insights. Se essa métrica for utilizada sozinha, é possível obter itens de dimensão que contêm profundidades de página anômalas, o que geralmente não é um insight valioso.
 
 ## Como essa métrica é calculada
 
-A primeira página de uma visita tem uma profundidade de página de `0`. A próxima página tem uma profundidade de página de 1 e ela aumenta a cada visualização de página até o final da visita. Essa métrica aumenta somente com a exibição de página ([`t()`](/help/implement/vars/functions/t-method.md)), e não com o rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)) chamadas.
+A primeira página de uma visita tem uma profundidade de página de `0`. A próxima página tem uma profundidade de página de 1 e ela aumenta a cada visualização de página até o final da visita. Essa métrica aumenta somente com chamadas de exibição de página ([`t()`](/help/implement/vars/functions/t-method.md)), e não com chamadas de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 Para um determinado item de dimensão, adicione todas as profundidades de página para esse item de dimensão e divida-o por visitas. O número resultante é a profundidade média da página, arredondada para o número inteiro mais próximo. Itens de dimensão com uma profundidade média de página `0` significa que eram frequentes na primeira página da visita.
 

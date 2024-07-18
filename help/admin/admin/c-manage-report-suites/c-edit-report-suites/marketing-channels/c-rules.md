@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '1884'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 67%
 
 As regras de processamento de canal de marketing determinam se uma ocorrência do visitante atende aos critérios atribuídos a um canal através do processamento de cada ocorrência que um visitante faz no site. As regras são processadas na ordem especificada e, quando uma regra é atendida, o sistema para de processar as regras restantes.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Regras de processamento de canal de marketing]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Regras de processamento de canal de marketing]**.
 
 ![](assets/buckets_2.png)
 
 Observações adicionais sobre o processamento:
 
-* Os dados coletados com essas regras são permanentes. As regras alteradas após a coleta de dados não são retroativas. A Adobe recomenda que você analise e considere todas as circunstâncias antes de salvar [!UICONTROL Regras de processamento de canal de marketing] para mitigar a coleta de dados nos canais errados.
+* Os dados coletados com essas regras são permanentes. As regras alteradas após a coleta de dados não são retroativas. É altamente recomendado examinar e considerar todas as circunstâncias antes de salvar as [!UICONTROL regras de processamento de canais de marketing] para mitigar a coleta de dados de canais errados.
 * É possível configurar até 25 canais de marketing separados.
 * As regras podem acessar variáveis definidas pelo VISTA, mas não podem acessar dados excluídos pelo VISTA.
 * Dois canais de marketing nunca recebem crédito pelo mesmo evento (como compras ou cliques). Dessa forma, os canais de marketing diferem das eVars (já que duas eVars podem receber crédito pelo mesmo evento).
@@ -30,8 +30,8 @@ Observações adicionais sobre o processamento:
 ## Pré-requisitos
 
 * Revise as informações conceituais em [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-* Crie um ou mais canais para poder atribuir regras a eles. Consulte [Adição de canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Examinar as práticas recomendadas para usar o [!UICONTROL Canais de marketing] com [!UICONTROL Atribuição].
+* Crie um ou mais canais para poder atribuir regras a eles. Consulte [Adicionar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+* Revise as práticas recomendadas para usar [!UICONTROL Canais de marketing] com a [!UICONTROL Atribuição].
 
 ## Criar regras de processamento de Canal de marketing
 
@@ -42,13 +42,13 @@ Crie regras de processamento do Canal de marketing. Elas determinam se uma ocorr
 
    Se seu conjunto de ferramentas de relatório não tem canais definidos, a página [!UICONTROL Configuração inicial automática] é exibida.
 
-   Consulte [Execute a configuração automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Consulte [Executar a configuração automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 3. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Regras de processamento de canal de marketing]**. Se você executou a configuração automática, um conjunto de canais e regras foi automaticamente definido para você.
 
    ![Resultado da etapa](assets/marketing_channel_rules.png)
 
-4. Se quiser adicionar uma regra, selecione no **[!UICONTROL Adicionar novo conjunto de regras]** menu. Se selecionar um canal, você receberá um modelo de regra e, se selecionar Personalizado, começará com uma folha em branco. Ambas as opções permitem modificar o conjunto de regras conforme a necessidade.
+4. Se quiser adicionar uma regra, selecione-a no menu **[!UICONTROL Adicionar novo conjunto de regras]**. Se selecionar um canal, você receberá um modelo de regra e, se selecionar Personalizado, começará com uma folha em branco. Ambas as opções permitem modificar o conjunto de regras conforme a necessidade.
 
    ![Resultado da etapa](assets/example_email.png)
 
@@ -58,7 +58,7 @@ Crie regras de processamento do Canal de marketing. Elas determinam se uma ocorr
 
 ### Definir o valor do canal de marketing
 
-**[!UICONTROL Definir o valor do canal]** define a dimensão de detalhes do canal de marketing que está disponível para esse canal.
+**[!UICONTROL Definir o valor do canal]**: define a dimensão de detalhes do canal de marketing disponível para esse canal. 
 
 ### Critérios da regra
 
@@ -66,21 +66,21 @@ Essa tabela de referência define os campos, as opções e os atributos de ocorr
 
 >[!NOTE]
 >
->Qualquer campo de texto definido, como parâmetro de sequência de consulta ou listas de valores para correspondência, é avaliado como **não diferencia maiúsculas de minúsculas** valores. Por exemplo, se você tiver uma regra em que o parâmetro da sequência de consulta `cmp = abc123`, todas as variações de maiúsculas e minúsculas de ambos `cmp` e `abc123` corresponde.
+>Qualquer campo de texto definido, como um parâmetro de string de consulta ou listas de valores para correspondência, é avaliado como valores que **não diferenciam maiúsculas de minúsculas**. Por exemplo, se você tiver uma regra em que o parâmetro de string de consulta é `cmp = abc123`, todas as variações de maiúsculas e minúsculas de ambos `cmp` e `abc123` serão aceitas.
 
 | Termo | Definição |
 |--- |--- |
-| Todas | Ativa esse canal somente quando todos os critérios na regra são verdadeiros. |
-| Qualquer | Ativa esse canal quando qualquer um dos critérios na regra é verdadeiro. Essa opção só estará disponível se houver mais de um critério na regra. |
-| ID do AMO | O código de rastreamento primário usado pelas integrações da Advertising Cloud e do Advertising Analytics. Quando uma dessas integrações estiver ativada, o prefixo do código de rastreamento poderá ser usado para identificar canais específicos da Advertising Cloud. Usar &quot;ID do AMO&quot; começa com &quot;AL&quot; para Pesquisa, &quot;AC&quot; para Exibição ou &quot;AO&quot; para Social. Quando a ID do AMO é usada em canais de marketing, as métricas de clique/custo/impressão podem ser atribuídas ao canal correto (quando não estiver configurado, essas métricas vão para Direto ou Nenhum). |
-| ID do AMO ED | O código de rastreamento secundário usado pela Advertising Cloud. O objetivo principal desse código de rastreamento é atuar como a chave para enviar dados de volta para a Ad Cloud. No entanto, ele também pode ser usado para identificar ClickThroughs de exibição vs. ViewThroughs de exibição, se você desejar vê-los como dois canais de marketing separados. Isso pode ser feito definindo a lógica do canal de marketing para &quot;AMO EF ID&quot; termina com `:d` para ClickThroughs de exibição ou &quot;AMO EF ID&quot; termina com `:i` para ViewThroughs de Exibição. Se você não desejar dividir a Exibição em dois canais, use a dimensão da ID do AMO. |
+| Todas | Ativa este canal apenas quando todos os critérios da regra são verdadeiros. |
+| Qualquer | Ativa este canal quando qualquer um dos critérios da regra é verdadeiro. Essa opção só estará disponível se houver mais de um critério na regra. |
+| ID do AMO | O código de rastreamento primário usado pelas integrações da Advertising Cloud e do Advertising Analytics. Quando uma dessas integrações estiver ativada, o prefixo do código de rastreamento poderá ser usado para identificar canais específicos da Advertising Cloud. Usar &quot;ID do AMO&quot; começa com &quot;AL&quot; para Pesquisa, &quot;AC&quot; para Exibição ou &quot;AO&quot; para Social. Quando a ID do AMO é usada em canais de marketing, as métricas de clique, custo e impressão podem ser atribuídas ao canal correto (quando isso não está configurado, as métricas utilizam as opções Direto ou Nenhum). |
+| ID do AMO ED | O código de rastreamento secundário usado pela Advertising Cloud. O objetivo principal desse código de rastreamento é atuar como a chave para enviar dados de volta para a Ad Cloud. No entanto, ele também pode ser usado para identificar ClickThroughs de exibição vs. ViewThroughs de exibição, se você desejar vê-los como dois canais de marketing separados. Isso pode ser feito definindo a lógica do canal de marketing de modo que “AMO EF ID” termine com `:d` para clickthroughs de exibição ou com `:i` para viewthroughs de exibição. Se você não desejar dividir a Exibição em dois canais, use a dimensão da ID do AMO. |
 | Variáveis de conversão | Consiste de eVars ativadas para esse conjunto de ferramentas de relatório, e se aplica apenas quando essas variáveis são definidas por meio do código Adobe na página. |
-| Existe | Diversas seleções estão disponíveis, incluindo:<ul><li>**Não existe**: especifica que o atributo da ocorrência não existe no pedido. Por exemplo, em um domínio de referência, se o usuário digitar um URL ou clicar em um marcador, o atributo de domínio de referência não existe.</li><li>**Está vazio**: especifica que existe um atributo de ocorrência, geralmente uma eVar ou parâmetro de sequência de consulta, mas não há valor associado ao atributo de ocorrência.</li><li>**Não contém**: permite especificar, por exemplo, que um domínio de referência não contém um valor específico (em vez de usar a seleção &quot;Contém&quot;.)</li></ul> |
-| Identificar o canal como | Associa a regra a um canal de marketing adicionado à página Gerenciador de canal de marketing. |
+| Existe | Diversas seleções estão disponíveis, incluindo:<ul><li>**Não existe**: especifica que o atributo da ocorrência não existe no pedido. Por exemplo, em um domínio de referência, se o usuário digitar um URL ou clicar em um marcador, o atributo de domínio de referência não existe.</li><li>**Está vazio**: especifica que existe um atributo de ocorrência, geralmente uma eVar ou parâmetro de sequência de consulta, mas não há valor associado ao atributo de ocorrência.</li><li>**Não contém**: permite especificar, por exemplo, que um domínio referenciador não contém um valor específico (em vez de usar a opção “Contém”).</li></ul> |
+| Identificar o canal como | Associa a regra a um canal de marketing adicionado à página Gerenciador de canal de marketing.   |
 | Corresponde a Regras de Detecção de Pesquisa Paga | Uma pesquisa paga detectada pela Adobe. Pesquisas pagas são quando as empresas pagam uma taxa para que o mecanismo de pesquisa relacione seus sites. As pesquisas pagas em geral aparecem no alto ou à direita dos resultados da pesquisa. |
 | Corresponde a Regras de Detecção de Pesquisa Natural | Uma pesquisa não paga detectada pelo relatório da Adobe. |
 | Referenciador corresponde a filtros internos de URL | Uma visita cujo URL da página corresponde a um filtro de URL interno, conforme definido para o conjunto de relatórios nas Ferramentas de administração. |
-| Referenciador não corresponde a filtros internos de URL | O URL de referência não corresponde a um filtro de URL interno, conforme definido para o conjunto de relatórios nas Ferramentas de administração. Você pode usar essa configuração com o URL da página e existe para configurar uma regra &quot;pega tudo&quot;, de modo que nenhuma visita chegue até a seção Nenhum canal identificado do relatório. |
+| Referenciador não corresponde a filtros internos de URL | O URL de referência não corresponde a um filtro de URL interno, conforme definido para o conjunto de relatórios nas Ferramentas de administração. Você pode usar essa definição com “URL da página” e “Existe” para configurar uma regra abrangente, de forma que nenhuma visita chegue até a seção “Nenhum canal identificado” do relatório. |
 | Ignorar ocorrências correspondentes a filtros de URL internos | (Para referenciadores) Acompanha apenas ocorrências provenientes de sites com referenciador externo. Em geral, mantenha essa configuração ativada, a menos que deseje incluir tráfego interno. |
 | É a primeira página da visita | A primeira página da visita detectada por um relatório Adobe. |
 | Página | A dimensão [Página](/help/components/dimensions/page.md). |
@@ -88,26 +88,26 @@ Essa tabela de referência define os campos, as opções e os atributos de ocorr
 | Domínio e caminho da página | O domínio e caminho, como `products.example.com/mens/pants/overview.html`. |
 | Domínio raiz da página (TLD+1) | O domínio raiz da página onde o visitante chega como, por exemplo, example.co.uk . |
 | URL da página | O URL da página da Web de seu site. |
-| Domínio de referência | A variável [Domínio referenciador](/help/components/dimensions/referring-domain.md) dimension |
-| Parâmetro da sequência de caracteres de consulta | Use um parâmetro de string de consulta individual. Você pode especificar apenas um parâmetro da cadeia de caracteres de consulta por critério. Para adicionar mais parâmetros da string de consulta, use `ANY` como operador, em seguida, adicione os parâmetros da sequência de consulta à regra. |
+| Domínio de referência | A dimensão [Domínio referenciador](/help/components/dimensions/referring-domain.md) |
+| Parâmetro da string de consulta | Use um parâmetro de string de consulta individual. É possível especificar apenas um parâmetro de string de consulta por critério. Para adicionar mais parâmetros de string de consulta, use `ANY` como operador e adicione parâmetros de string de consulta à regra. |
 | Referenciador | O local da página da Web (URL completo) onde seus visitantes estavam antes de chegarem ao seu site. O referenciador existe fora do seu domínio definido. |
 | Domínio e caminho de referência | A concatenação de domínio de referência e caminho de URL. Os exemplos incluem:    `www.example.com/products/id/12345` ou `ad.example.com/foo` |
 | Parâmetro de referência | Um parâmetro da sequência de consulta no URL do referenciador. Por exemplo, se seus visitantes vêm de `example.com/?page=12345&cat=1`, page e cat são os parâmetros de referência. |
 | Domínio raiz de referência | O domínio raiz do referenciador. O referenciador existe fora do seu domínio definido. |
 | Mecanismo de pesquisa | Um mecanismo de pesquisa como Google ou Yahoo! que trouxe visitantes ao seu site. |
 | Palavras-chave de pesquisa | Uma palavra usada para realizar uma pesquisa usando um mecanismo de pesquisa. |
-| Mecanismo de pesquisa + Palavras-chave | Uma concatenação de palavra-chave de pesquisa e mecanismo de pesquisa para identificar de forma exclusiva o mecanismo de pesquisa. Por exemplo, se você pesquisar a palavra computador, o mecanismo de pesquisa e a palavra-chave serão identificados da seguinte maneira: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Nota:** n = natural; p = paga |
-| Defina o valor do canal como | Define o [Detalhes do canal de marketing](/help/components/dimensions/marketing-detail.md) dimensão. Você determina qual valor seria melhor no contexto da regra. Os exemplos incluem ID de anúncio de banner, palavra-chave de pesquisa ou campanha de email. |
+| Mecanismo de pesquisa + Palavras-chave | Uma concatenação de palavra-chave de pesquisa e mecanismo de pesquisa para identificar de forma exclusiva o mecanismo de pesquisa. Por exemplo, se você pesquisar pela palavra “computador”, o mecanismo de pesquisa e a palavra-chave serão identificados da seguinte forma: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Observação:** n = natural; p = paid |
+| Definir o valor do canal como | Define a dimensão [Detalhe do canal de marketing](/help/components/dimensions/marketing-detail.md). Você determina qual valor seria o melhor no contexto da regra. Os exemplos incluem ID de banner publicitário, palavra-chave de pesquisa ou campanha de email. |
 
 ## Ordem e definições da regra de canal de marketing {#channel-rules}
 
-As regras de canal são processadas na ordem especificada. A Adobe recomenda colocar os canais pagos ou gerenciados primeiro (como pesquisa paga, pesquisa natural, exibição ou email) para que eles recebam crédito por canais orgânicos (como domínios diretos, internos, de referência).
+As regras de canal são processadas na ordem especificada. A Adobe recomenda colocar os canais pagos ou gerenciados em primeiro lugar (como pesquisa paga, pesquisa natural, exibição ou email), para que recebam crédito sobre canais orgânicos (como os domínios direto, interno e referenciador).
 
-Abaixo está a ordem recomendada para regras de canal e definições de exemplo:
+Veja abaixo a ordem recomendada para regras de canal e definições de exemplo:
 
 ### Pesquisa paga {#paid-search}
 
-Uma pesquisa paga é quando um mecanismo de pesquisa é pago para colocar uma palavra ou frase entre os resultados da pesquisa. Normalmente, esse canal é definido com base no parâmetro da sequência de consulta (consulte Exemplo de canal de exibição) ou nas regras de detecção de pesquisa paga.
+Uma pesquisa paga é quando um mecanismo de pesquisa é pago para colocar uma palavra ou frase entre os resultados da pesquisa. Normalmente, esse canal é definido com base no parâmetro de string de consulta (consulte Exemplo de canal de exibição) ou nas regras de detecção de pesquisa paga. 
 
 #### Detecção de pesquisa paga
 
@@ -121,9 +121,9 @@ Consulte [Detecção de pesquisa paga](../general/paid-search-detection/paid-sea
 
 ### Pesquisa natural {#natural-search}
 
-A pesquisa natural ocorre quando os visitantes encontram seu site por meio de um mecanismo de pesquisa e o mecanismo de pesquisa classifica seu site sem que você pague para entrar na lista.
+A pesquisa natural ocorre quando visitantes encontram o site por meio de um mecanismo de pesquisa e esse mecanismo classificou o site sem você pagar pela listagem.
 
-O Adobe determina o tráfego de pesquisa com base em uma pesquisa interna de mecanismos de pesquisa. Se um referenciador corresponder aos critérios de um mecanismo de pesquisa, ele determinará se é pago ou natural usando [Detecção de pesquisa paga](../general/paid-search-detection/paid-search-detection.md) regras que você configurou. Uma ocorrência é considerada pesquisa natural quando não corresponde a nenhuma regra de detecção de pesquisa paga.
+A Adobe determina o tráfego de pesquisa com base em uma pesquisa interna de mecanismos de pesquisa. Se um referenciador corresponder aos critérios de um mecanismo de pesquisa, ele determinará se a pesquisa é paga ou natural usando as regras de [Detecção de pesquisa paga](../general/paid-search-detection/paid-search-detection.md) configuradas. Uma ocorrência é considerada uma pesquisa natural quando não corresponde a nenhuma regra de detecção de pesquisa paga.
 
 Para a regra de canal de marketing, as configurações de Pesquisa natural são as seguintes:
 
@@ -131,7 +131,7 @@ Para a regra de canal de marketing, as configurações de Pesquisa natural são 
 
 ### Exibir {#display}
 
-Essa regra identifica visitantes que se originam de anúncios em banners. Ela é identificada por um parâmetro de sequência de consulta no URL de destino, neste caso *`Ad_01`*. O parâmetro da sequência de consulta e os valores procurados são avaliados como valores que não diferenciam maiúsculas de minúsculas.
+Essa regra identifica visitantes que se originam de anúncios em banners. Ela é identificada por um parâmetro de string de consulta no URL de destino, neste caso, *`Ad_01`*: O parâmetro da sequência de consulta e os valores procurados são avaliados como valores que não diferenciam maiúsculas de minúsculas.
 
 ![](assets/example_display.png)
 
@@ -155,7 +155,7 @@ Uma prática recomendada é incluir um canal de &quot;Outras campanhas&quot; seg
 
 ### Redes sociais {#social-networks}
 
-Essa regra identifica visitantes que se originam de uma rede social, como o Facebook. Muitas vezes, o canal é renomeado para Social orgânico. As configurações podem ser as seguintes:
+Esta regra identifica visitantes que vieram de uma rede social, como o Facebook. Muitas vezes, o canal é renomeado para Social orgânico. As configurações podem ser as seguintes:
 
 ![](assets/example_social.png)
 

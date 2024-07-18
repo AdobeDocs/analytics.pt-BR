@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 4b26df2e-22c5-435a-815b-fc3d36d5ed02
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 45%
+source-wordcount: '88'
+ht-degree: 44%
 
 ---
 
@@ -16,6 +16,6 @@ ht-degree: 45%
 
 Você pode combinar tipos de métricas de tráfego e comércio em uma solicitação em vez de criar solicitações separadas.
 
-As métricas de tráfego e comércio são exibidas na mesma categoria de métrica no Assistente de solicitações: etapa 2. A categoria agrupada é identificada **[!UICONTROL Padrão]**.
+As métricas de tráfego e comércio são exibidas na mesma categoria de métrica no Assistente de solicitações: etapa 2. A categoria agrupada é rotulada como **[!UICONTROL Padrão]**.
 
-![Captura de tela da lista Assistente de solicitações: métricas padrão da etapa 2.](assets/standard_metrics.png)
+![Captura de tela do Assistente de solicitações: etapa 2 Lista de métricas padrão.](assets/standard_metrics.png)

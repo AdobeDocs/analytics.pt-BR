@@ -7,13 +7,13 @@ role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
 # Visão geral do Gerenciador de atividades de relatórios
 
-A variável [!UICONTROL Gerenciador de atividades de relatórios] O está disponível para administradores do.
+O [!UICONTROL Gerente de Atividades de Relatórios] está disponível para administradores.
 
 Se a sua organização sofrer uma degradação no desempenho dos relatórios durante o pico dos relatórios, o Gerenciador de atividades de relatórios permitirá que você faça um autodiagnóstico e corrija problemas de capacidade sem a intervenção do Atendimento ao cliente do Adobe. Você pode gerenciar facilmente as filas de relatórios em uma única interface e agir imediatamente&#x200B;&#x200B; para melhorar a experiência dos usuários.
 
@@ -35,8 +35,8 @@ Para gerenciar a atividade de relatórios, você deve ter a permissão de Admini
 
 ## Exibir atividade de relatórios
 
-Para obter informações sobre como exibir a atividade de relatórios no Gerenciador de Atividades de relatórios, consulte [Exibir atividade de relatórios no Gerenciador de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+Para obter informações sobre como exibir a atividade de relatórios no Gerenciador de Atividades de relatórios, consulte [Exibir atividade de relatórios no Gerenciador de Atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
 ## Cancelar solicitações de relatórios
 
-Para obter informações sobre como cancelar solicitações de relatórios no Gerenciador de atividades de relatórios, consulte [Cancelar solicitações de relatórios no Gerenciador de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
+Para obter informações sobre como cancelar solicitações de relatórios no Gerenciador de Atividades de relatórios, consulte [Cancelar solicitações de relatórios no Gerenciador de Atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).

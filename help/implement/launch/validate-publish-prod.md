@@ -23,7 +23,7 @@ Assim que a biblioteca de tags for enviada para produção, a empresa poderá co
 
 O depurador de Experience Cloud é uma extensão que mostra todas as tags de Experience Cloud presentes em uma página.
 
-1. Instale a extensão para o [Cromo](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
+1. Instale a extensão do [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou do Firefox.
 2. Navegue até o site de desenvolvimento em que você implementou as tags.
 3. Clique no ícone do Adobe Experience Cloud Debugger no navegador.
 4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, nas tags e no serviço de ID de visitante da Adobe Experience Cloud.
@@ -35,11 +35,11 @@ Depois de validar que os dados estão sendo exibidos, você pode enviar a implem
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade da tag que pretende implementar no site.
 1. Clique na guia **[!UICONTROL Publicação]** e localize a biblioteca na coluna de desenvolvimento.
-1. Clique na lista suspensa na biblioteca e selecione **[!UICONTROL Enviar para aprovação]**. Clique em **[!UICONTROL Enviar]** na janela modal.
-1. Clique na lista suspensa da biblioteca novamente (agora na coluna Enviado) e selecione **[!UICONTROL Build para preparo]**.
+1. Clique na lista suspensa da biblioteca e selecione **[!UICONTROL Enviar para aprovação]**. Clique em **[!UICONTROL Enviar]** na janela modal.
+1. Clique na lista suspensa da biblioteca novamente (agora na coluna Enviado) e selecione **[!UICONTROL Build para Preparo]**.
 1. Após alguns instantes, a luz amarela na biblioteca fica verde, indicando uma criação bem-sucedida.
 1. Clique na lista suspensa da biblioteca novamente e selecione **[!UICONTROL Aprovar para publicação]**.
-1. Clique na lista suspensa da biblioteca novamente (agora na guia [!UICONTROL Aprovado] coluna) e selecione **[!UICONTROL Criar e publicar para produção]**.
+1. Clique na lista suspensa da biblioteca novamente (agora na coluna [!UICONTROL Aprovado]) e selecione **[!UICONTROL Criar e Publish para produção]**.
 1. Vá para a guia Ambientes e clique em **[!UICONTROL Ambiente de produção]**.
 1. Copie o código de instalação da produção e forneça-o aos proprietários do site. Solicite que eles implementem esse código no ambiente de produção do site.
 

@@ -42,7 +42,7 @@ Defina a ação Limpar variáveis ao configurar uma regra.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique no ícone “+”
-5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Limpar variáveis].
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Limpar Variáveis].
 
 ## s.clearVars() no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

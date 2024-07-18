@@ -11,7 +11,7 @@ ht-degree: 83%
 
 ---
 
-# Métricas calculadas 
+# Métricas calculadas
 
 O Report Builder 5.2 é compatível com as métricas calculadas unificadas do Adobe Analytics. Entre outra inovações, todas as métricas calculadas agora contam com uma ID global: elas não ficam mais restritas a um único conjunto de relatórios.
 
@@ -25,13 +25,13 @@ Na etapa 2 do Assistente de solicitação, você pode filtrar e aplicar as métr
 
 ## Filtrar métricas calculadas {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtro** métricas calculadas ao clicar no ícone Filtrar:  ![Captura de tela das opções de Filtro mostrando os campos Aplicativo, Usuário, Projeto.](/help/admin/admin/assets/filter.png)
+**Filtre** métricas calculadas clicando no ícone Filtrar: ![Captura de tela das opções de Filtro mostrando os campos Aplicativo, Usuário, Projeto.](/help/admin/admin/assets/filter.png)
 
 A caixa de diálogo Filtros avançados é preenchida com as métricas padrão e calculadas.
 
 Os filtros disponíveis incluem:
 
-![Captura de tela mostrando as opções de Filtros avançados descritas na tabela a seguir.](assets/advanced_filters.png)
+![Captura de tela mostrando as opções de Filtros Avançados descritas na tabela a seguir.](assets/advanced_filters.png)
 
 | Nome do filtro | Descrição |
 |---|---|
@@ -47,4 +47,4 @@ Os filtros disponíveis incluem:
 
 Após selecionar os filtros, clique em **[!UICONTROL Aplicar]** para aplicá-las à solicitação. As métricas selecionadas serão adicionadas ao layout do relatório.
 
-![Captura de tela mostrando a Etapa 2 do assistente de solicitações - Totais do site apontando para a janela Filtros avançados e métricas de relatório aplicadas.](assets/filtering_for_metric.png)
+![Captura de tela mostrando a Etapa 2 do Assistente de solicitações - Totais do site apontando para a janela Filtros avançados e métricas de relatório aplicadas.](assets/filtering_for_metric.png)

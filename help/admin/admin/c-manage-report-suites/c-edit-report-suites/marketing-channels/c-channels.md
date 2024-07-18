@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 >
 > Para obter informações gerais sobre canais de marketing, consulte [Introdução aos canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Para maximizar a eficiência dos Canais de marketing para atribuição e Customer Journey Analytics, publicamos alguns [práticas recomendadas revistas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Para maximizar a eficácia dos canais de marketing para a atribuição e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Gerente de canal de marketing]**.
 
@@ -50,9 +50,9 @@ Adicione canais de marketing ao Administrador dos Canais de marketing.
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
 1. Na página do [!UICONTROL Gerenciador de conjunto de relatórios], selecione um conjunto de relatórios.
 
-   Se você selecionar múltiplos conjuntos de ferramentas de relatório, será necessário selecionar um modelo que copie as configurações do modelo para os conjuntos de ferramentas de relatório selecionados.
+   Se você selecionar múltiplos conjuntos de relatório, será necessário selecionar um modelo que copie as configurações do modelo para os conjuntos de relatório selecionados.
 
-   Consulte [Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Consulte [Aplicar configurações do modelo de conjunto de relatórios a múltiplos conjuntos de relatórios](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Canais de marketing]** > **[!UICONTROL Gerenciador de canal de marketing]**.
 
@@ -95,4 +95,4 @@ A Adobe fornece vários canais predefinidos durante uma [configuração automát
 >
 >A Adobe recomenda configurar seu relatório em um conjunto de relatório que pode ser usado como modelo para fins de teste. É possível usar o modelo para aplicar globalmente as definições de canal e regras a um ou mais conjuntos de relatório de produção.
 >
->Consulte [Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>Consulte [Aplicar configurações do modelo de conjunto de relatórios a múltiplos conjuntos de relatórios](/help/components/c-marketing-channels/c-getting-started-mchannel.md).

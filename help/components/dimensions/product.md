@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Produto
 
-O &#39;Produto&#39; [dimension](overview.md) relata o nome do produto na ocorrência. Essa dimensão é útil para implementações que utilizam a variável `products` e que desejam ver as métricas sobre produtos, como os mais vendidos ou os mais vistos. Essa dimensão pode ficar em branco se você não tiver nenhum produto em seu site.
+A [dimensão](overview.md) do &quot;Produto&quot; relata o nome do produto na ocorrência. Essa dimensão é útil para implementações que utilizam a variável `products` e que desejam ver as métricas sobre produtos, como os mais vendidos ou os mais vistos. Essa dimensão pode ficar em branco se você não tiver nenhum produto em seu site.
 
 ## Preencher esta dimensão com dados
 

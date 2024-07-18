@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Para salvar um novo projeto em uma pasta específica, selecione o nome da pasta na janela de diálogo Salvar projeto.
 
-1. No Espaço de trabalho, crie um novo projeto.
+1. No Workspace, crie um novo projeto.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 

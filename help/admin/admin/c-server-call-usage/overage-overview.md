@@ -16,7 +16,7 @@ ht-degree: 80%
 O uso de chamadas de servidor do Adobe Analytics atende às suas solicitações de transparência nos dados de uso de chamadas do navegador e do servidor móvel. Permite acessar:
 
 * Um painel de uso de chamadas do servidor que rastreia os dados de consumo de chamadas do servidor e os compara ao limite contratual. (No Adobe Analytics, selecione > [!UICONTROL **Admin**] > [!UICONTROL **Uso de chamadas do servidor**])
-* Um tipo de alerta de uso de chamada de servidor no criador de alertas que permite configurar alertas para evitar sobreposições (no Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Alertas**])
+* Um tipo de alerta de uso de chamada de servidor no construtor de alertas que permite configurar alertas para evitar sobreposições (no Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Alertas**])
 
 Os principais benefícios do uso de chamadas do servidor incluem:
 
@@ -25,8 +25,8 @@ Os principais benefícios do uso de chamadas do servidor incluem:
 
 ## Pré-requisitos  {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Permissões:** Para acessar o painel de uso de chamadas do servidor e o criador ou gerenciador de alertas, é necessário ser um administrador do Adobe Analytics.
-* **Permissões:** Administradores podem conceder acesso a não administradores: a permissão é chamada **[!UICONTROL Uso de chamadas do servidor]**. Consulte [Permissão de uso de chamadas do servidor](#server-call-usage-permission).
+* **Permissões:** Para acessar o painel de uso de chamadas do servidor e o criador de alertas ou gerenciador de alertas, é necessário ser um Administrador do Adobe Analytics.
+* **Permissões:** administradores podem conceder acesso a não administradores: a permissão chama-se **[!UICONTROL Uso de chamadas do servidor]**. Consulte [Permissão de uso de chamadas do servidor](#server-call-usage-permission).
 
 ## Terminologia importante {#terminology}
 
@@ -99,13 +99,13 @@ A permissão de uso de chamadas do servidor é concedida automaticamente a admin
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Faça logon no Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Navegue até <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Todos os administradores </span>  &gt; <span class="uicontrol"> Gerenciamento de usuários </span>  &gt; <span class="uicontrol"> Grupos </span>  &gt; <span class="uicontrol"> Editar Acesso a Todos os Relatórios </span>  &gt; <span class="uicontrol"> Ferramentas do Analytics </span>  &gt; <span class="uicontrol"> Personalizar </span>  &gt; <span class="uicontrol"> uso de chamadas do servidor </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Navegue até <span class="ignoretag"> <span class="uicontrol"> Administrador </span> &gt; <span class="uicontrol"> Todos os administradores </span> &gt; <span class="uicontrol"> Gerenciamento de usuários </span> &gt; <span class="uicontrol"> Grupos </span> &gt; <span class="uicontrol"> Editar Acesso a Todos os Relatórios </span> &gt; <span class="uicontrol"> Ferramentas do Analytics </span> &gt; <span class="uicontrol"> Personalizar </span> &gt; <span class="uicontrol"> Uso de chamadas do servidor </span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Faça logon em login.experiencecloud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Clique em <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navegue até <span class="ignoretag"> <span class="uicontrol"> Produtos </span>  &gt; <span class="uicontrol"> Perfil do produto </span>  &gt; <span class="uicontrol"> Permissões </span>  &gt; <span class="uicontrol"> Ferramentas do Analytics </span>  &gt; <span class="uicontrol"> uso de chamadas do servidor </span> </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navegue até <span class="ignoretag"> <span class="uicontrol"> Produtos </span> &gt; <span class="uicontrol"> Perfil de Produto </span> &gt; <span class="uicontrol"> Permissões </span> &gt; <span class="uicontrol"> Ferramentas do Analytics </span> &gt; <span class="uicontrol"> Uso de chamadas de servidor </span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

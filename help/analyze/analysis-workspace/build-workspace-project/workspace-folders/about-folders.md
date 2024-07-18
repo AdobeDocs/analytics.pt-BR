@@ -50,7 +50,7 @@ Os não administradores têm opções limitadas.
 
 - Administradores podem criar subpastas dentro da Pasta da empresa.
 
-- Os administradores podem excluir uma pasta na Pasta da empresa criada por outro administrador. Os administradores podem precisar coordenar com outros administradores para manter as pastas e o acesso ao projeto consistentes.
+- Admins podem excluir uma pasta contida na Pasta da empresa que outro(a) admin criou. Os administradores podem precisar coordenar com outros administradores para manter as pastas e o acesso ao projeto consistentes.
 
 - Quando um Administrador move um projeto para a Pasta da empresa, o projeto é compartilhado com todos, mesmo se os privilégios compartilhados originais foram restritos.
 

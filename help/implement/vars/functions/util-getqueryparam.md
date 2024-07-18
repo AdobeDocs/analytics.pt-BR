@@ -22,7 +22,7 @@ Parâmetros de string de consulta em um URL do navegador frequentemente contêm 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Elementos de dados] e clique no elemento de dados desejado (ou crie um elemento de dados).
-4. Defina o [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Núcleo]**, e o [!UICONTROL Tipo de elemento de dados] para **[!UICONTROL Parâmetro da string de consulta]**.
+4. Defina a lista suspensa [!UICONTROL Extensão] como **[!UICONTROL Núcleo]** e o [!UICONTROL Tipo de Elemento de Dados] como **[!UICONTROL Parâmetro de Cadeia de Caracteres de Consulta]**.
 5. Insira o parâmetro da string de consulta no campo de texto.
 
 O valor do parâmetro da string de consulta é armazenado no elemento de dados. Você pode fazer referência ao elemento de dados nas regras para atribuir as variáveis desejadas.

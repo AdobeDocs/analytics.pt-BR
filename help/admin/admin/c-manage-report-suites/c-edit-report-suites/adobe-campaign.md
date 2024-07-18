@@ -2,13 +2,13 @@
 description: Você pode exibir dados do Adobe Campaign no Adobe Analytics
 title: Exibir dados do Adobe Campaign no Adobe Analytics
 feature: Admin Tools
-source-git-commit: d4e831398182166e0ffe78659e26d2078fa9be7b
+exl-id: a4bf0cc3-b63b-49a9-aefd-44a82d4d2495
+source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 100%
 
 ---
-
 
 # Exibir dados do Adobe Campaign no Adobe Analytics
 

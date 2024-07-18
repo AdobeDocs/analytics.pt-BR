@@ -11,7 +11,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Efetivo **17 de janeiro de 2024**, o Adobe descontinuou o Reports &amp; Analytics e os relatórios e recursos que o acompanham. Naquele momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararam de funcionar. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Para obter informações sobre o uso de relatórios no Analysis Workspace, consulte [Usar relatórios pré-criados](/help/analyze/analysis-workspace/reports/use-reports.md).
+>A partir de **17 de janeiro de 2024**, o Adobe descontinuou o Reports &amp; Analytics e os relatórios e recursos que o acompanham. Naquele momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararam de funcionar. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Para obter informações sobre como usar relatórios no Analysis Workspace, consulte [Usar relatórios pré-criados](/help/analyze/analysis-workspace/reports/use-reports.md).
 > 
 >Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
 >

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '760'
 ht-degree: 99%
 
 ---
@@ -90,13 +90,13 @@ Clique no ícone de engrenagem na parte superior direita de um gráfico de combi
 | Configuração | Definição |
 | --- | --- |
 | **[!UICONTROL Tipo de visualização]** | Permite alternar para outro tipo de visualização. |
-| **[!UICONTROL Granularidade]** | Para visualizações de tendências, você pode alterar a granularidade de tempo (dia, semana, mês etc.) nessa lista suspensa. |
+| **[!UICONTROL Granularidade]** | Para visualizações de tendências, você pode alterar a granularidade de tempo (dia, semana, mês etc.) nesta lista suspensa. |
 | **[!UICONTROL Geral]** |  |
 | **[!UICONTROL Porcentagens]** | Exibe os valores em porcentagens. |
 | **[!UICONTROL Legenda visível]** | Permite ocultar o texto detalhado da legenda para a visualização dos gráficos de combinação. |
 | **[!UICONTROL Limite máximo de itens]** | Reduz o número de itens no eixo X. Se você tiver um conjunto de dados grande, será possível exibir apenas os primeiros 10 itens (ou qualquer valor que escolher). |
 | **[!UICONTROL Sobreposições]** | Mostrar ou ocultar barras nas linhas. |
-| **[!UICONTROL Eixo]** |  |
+| **[!UICONTROL Eixo]** | |
 | **[!UICONTROL Exibir eixo duplo]** | Somente se aplica se você tiver duas métricas. Você pode ter um eixo Y à esquerda (para uma métrica) e outro à direta (para a outra métrica). Isso é útil quando métricas projetadas têm magnitudes muito diferentes. A cor do eixo duplo corresponde à cor da tabela, a menos que haja várias comparações. Nesse caso, a cor de todas as comparações é cinza. |
 | **[!UICONTROL Normalização]** | Força as métricas para proporções iguais. Isso é útil quando métricas projetadas têm magnitudes muito diferentes. |
 | **[!UICONTROL Mostrar eixo X]** | Exibe ou oculta o eixo X. |

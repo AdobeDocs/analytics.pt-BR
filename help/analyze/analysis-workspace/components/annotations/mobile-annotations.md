@@ -7,8 +7,8 @@ feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
 source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 93%
+source-wordcount: '368'
+ht-degree: 92%
 
 ---
 

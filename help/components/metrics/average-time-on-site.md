@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Tempo médio no site
 
-O &quot;Tempo médio no site&quot; [métrica](overview.md) mostra o tempo decorrido entre as ocorrências de um determinado item de dimensão. Essa métrica é útil quando você quiser ver o tempo médio gasto para itens de dimensão específicos. Você também pode analisar a tendência dessa métrica ao longo do tempo para ver como o tempo total gasto muda. Essa métrica é exibida no formato `HH:MM:SS`.
+A [métrica](overview.md) do &quot;Tempo médio no site&quot; mostra o tempo decorrido entre as ocorrências de um determinado item de dimensão. Essa métrica é útil quando você quiser ver o tempo médio gasto para itens de dimensão específicos. Você também pode analisar a tendência dessa métrica ao longo do tempo para ver como o tempo total gasto muda. Essa métrica é exibida no formato `HH:MM:SS`.
 
 Essa métrica está relacionada à dimensão [Tempo gasto por visita](../dimensions/time-spent-per-visit.md).
 

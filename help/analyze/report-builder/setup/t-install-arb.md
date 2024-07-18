@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 source-git-commit: 90441e102ddaf367555e278bda8ca51c7bfeae34
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 66%
+source-wordcount: '124'
+ht-degree: 54%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 66%
 
 Para instalar o Construtor de relatórios:
 
-1. Clique em **[](https://experience.adobe.com/)Adobe Experience Cloud** > **[!UICONTROL Analytics]** > **[!UICONTROL Ferramentas]** > **[!UICONTROL Construtor de relatórios]**.
+1. Clique em **[Adobe Experience Cloud](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Report Builder]**.
 1. Clique em **[!UICONTROL Baixar agora]** para baixar a versão de 32 bits ou de 64 bits (dependendo da versão do MS Excel instalada).
 1. Abra o pacote do instalador baixado.
 1. Siga o assistente de instalação.

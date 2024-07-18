@@ -20,9 +20,9 @@ As fontes de dados de ID de transação são uma variação das fontes de dados 
 
 >[!NOTE]
 >
->Antes de usar fontes de dados de ID de transação, primeiro você deve habilitá-lo no [Configurações gerais da conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) para o conjunto de relatórios desejado.
+>Antes de usar fontes de dados de ID de transação, você deve primeiro habilitá-lo em [Configurações Gerais da Conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) para o conjunto de relatórios desejado.
 
-Ao enviar uma ocorrência online que contém um [`transactionID`](/help/implement/vars/page-vars/transactionid.md) , o Adobe captura um &quot;instantâneo&quot; de todas as variáveis definidas ou persistentes. Se uma ID de transação correspondente carregada por meio de fontes de dados for encontrada, os dados offline e online serão vinculados.
+Ao enviar uma ocorrência online que contém um valor [`transactionID`](/help/implement/vars/page-vars/transactionid.md), o Adobe captura um &quot;instantâneo&quot; de todas as variáveis definidas ou persistentes em seguida. Se uma ID de transação correspondente carregada por meio de fontes de dados for encontrada, os dados offline e online serão vinculados.
 
 As fontes de dados de ID de transação têm as seguintes propriedades:
 
@@ -37,19 +37,19 @@ As fontes de dados de ID de transação têm as seguintes propriedades:
 Por exemplo:
 
 1. Você envia uma exibição de página do AppMeasurement onde:
-   * `eVar1` igual a `blue`
-   * `eVar2` igual a `water`
-   * `events` igual a `event1`
-   * `transactionID` igual a `1256`
+   * `eVar1` é igual a `blue`
+   * `eVar2` é igual a `water`
+   * `events` é igual a `event1`
+   * `transactionID` é igual a `1256`
 2. Depois que a ocorrência for coletada e processada, faça upload de uma fonte de dados de ID de transação onde:
-   * `eVar1` igual a `yellow`
-   * `eVar3` igual a `bird`
-   * `events` igual a `event2`
-   * `transactionID` igual a `1256`
+   * `eVar1` é igual a `yellow`
+   * `eVar3` é igual a `bird`
+   * `events` é igual a `event2`
+   * `transactionID` é igual a `1256`
 3. Depois que a ocorrência das fontes de dados for processada, você visualizará um relatório no espaço de trabalho. Os dados mostrariam o seguinte:
-   * `eVar1` igual a `yellow`
-   * `eVar2` igual a `water`
-   * `eVar3` igual a `bird`
-   * `events` igual a `event2`
+   * `eVar1` é igual a `yellow`
+   * `eVar2` é igual a `water`
+   * `eVar3` é igual a `bird`
+   * `events` é igual a `event2`
 
-O valor eVar1 `blue` e a variável `event1` métricas não estão presentes no relatório, já que a ocorrência da ID de transação substituiu esses respectivos valores.
+O valor de eVar 1 `blue` e a métrica `event1` não estão presentes no relatório, pois a ocorrência da ID de transação substituiu esses respectivos valores.

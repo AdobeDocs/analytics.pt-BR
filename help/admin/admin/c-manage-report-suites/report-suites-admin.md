@@ -6,7 +6,7 @@ exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Para acessar um conjunto de relatórios:
 
 >[!NOTE]
 >
->Os conjuntos de relatórios virtuais são gerenciados via **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**. Consulte a [Documentação do conjunto de relatórios virtual](/help/components/vrs/vrs-about.md).
+>Os conjuntos de relatórios virtuais são gerenciados em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**. Consulte a [documentação dos conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md).
 
 ## Descrições do Gerenciador de conjunto de relatórios {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -66,7 +66,7 @@ A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conju
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rollups</span> </td> 
-   <td colname="col2"> <p>Um rollup é um único conjunto de relatórios que combina os dados de rastreamento de vários outros conjunto de relatórios. </p> <p>Consulte <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Conjuntos de relatórios de rollup</a>. </p> </td> 
+   <td colname="col2"> <p>Um rollup é um único conjunto de relatórios que combina os dados de rastreamento de vários outros conjuntos de relatórios. </p> <p>Consulte <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md">Conjuntos de relatórios de rollup</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar configurações</span> </td> 

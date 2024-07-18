@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '110'
 ht-degree: 84%
 
 ---
 
 # Dia do ano
 
-O &#39;Dia do ano&#39; [dimension](overview.md) relata o dia numérico de um determinado ano como um item de dimensão. Esse relatório é importante se você quiser que um relatório seja dividido pelo dia do ano, mas não quiser uma data estática como itens de dimensão.
+A [dimensão](overview.md) de &quot;Dia do ano&quot; informa o dia numérico de um determinado ano como um item de dimensão. Esse relatório é importante se você quiser que um relatório seja dividido pelo dia do ano, mas não quiser uma data estática como itens de dimensão.
 
 ## Preencher esta dimensão com dados
 

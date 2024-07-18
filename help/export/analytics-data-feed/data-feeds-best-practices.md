@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 88%
 
 ---
@@ -27,4 +27,4 @@ A seguir você encontra algumas das práticas recomendadas para processamento e 
 
 * Se estiver usando o FTP (não recomendado), verifique se há espaço suficiente no site FTP. Remova arquivos do destino regularmente para que não fique sem espaço em disco.
 
-* Se estiver usando sFTP (não recomendado), não leia nem exclua arquivos com uma `.part` sufixo. O sufixo `.part` indica que o arquivo foi parcialmente transferido. Depois que o arquivo é transferido, o sufixo `.part` desaparece.
+* Se estiver usando sFTP (não recomendado), não leia nem exclua arquivos com um sufixo `.part`. O sufixo `.part` indica que o arquivo foi parcialmente transferido. Depois que o arquivo é transferido, o sufixo `.part` desaparece.

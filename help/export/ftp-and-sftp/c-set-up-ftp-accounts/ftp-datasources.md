@@ -7,7 +7,7 @@ exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ A guia [!UICONTROL Criar] no Gerente de fontes de dados permite que você config
 
 Na janela [!UICONTROL Gerenciar fontes de dados], encontre sua fonte de dados e selecione o link Informações do FTP. Suas informações de logon FTP são exibidas na janela [!UICONTROL Ativar uma fonte de dados] na seção [!UICONTROL Fazer upload/Informações do FTP].
 
-Para mais informações sobre os limites FTP e retenção de dados, consulte [Limites FTP e retenção de dados](/help/export/ftp-and-sftp/ftp-limits.md).
+Para obter informações sobre limites FTP e retenção de dados, consulte [Limites FTP e retenção de dados](/help/export/ftp-and-sftp/ftp-limits.md).
 
 ## Informações sobre o arquivo .fin para uploads de classificações e fontes de dados {#section_1484719F8A134EAE91212DBD8F15174F}
 

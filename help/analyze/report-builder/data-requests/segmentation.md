@@ -17,7 +17,7 @@ Como adicionar, editar, aplicar e filtrar segmentos do Adobe Analytics no Report
 
 O Report Builder apresenta um painel de segmentação na Etapa 1 do Assistente de solicitações que permite criar e gerenciar segmentos.
 
-![Captura de tela que mostra as opções de Segmento para Adicionar, Editar ou Limpar segmentos e realça os ícones Controlar, Filtrar e Atualizar.](assets/seg_dialog.png)
+![Captura de tela mostrando as opções de Segmento para Adicionar, Editar ou Limpar segmentos e realçando os ícones Controlar, Filtrar e Atualizar.](assets/seg_dialog.png)
 
 ## Adicionar ou editar segmentos {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -68,7 +68,7 @@ Você pode aplicar um ou mais segmentos a qualquer solicitação. Isso inclui se
 
 ## Filtrar segmentos {#filter}
 
-**Filtro** clicando no ícone Filtro:  ![Ícone Filtrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+**Filtre** segmentos ao clicar no ícone Filtrar: ![Ícone Filtrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 Os filtros disponíveis incluem:
 
@@ -76,7 +76,7 @@ Os filtros disponíveis incluem:
 |---|---|
 | Tags | Permite que você filtre nos segmentos com tags específicas. Observe que os filtros de tags usam o operador AND. Se você verificar duas tags, o painel direito mostra segmentos que foram marcados com **ambas** as tags. |
 | Proprietários | Permite que você filtre segmentos por proprietário. Observe que os filtros Proprietários usam o operador OR. Se você marcar dois proprietários, o painel direito mostra segmentos de propriedade de **qualquer** proprietário. |
-| Outros filtros > Somente o *nome do conjunto de relatórios* | Se você aplicar a variável &quot;Somente *nome do conjunto de relatórios*&quot; no Construtor de segmentos no Adobe Analytics e, em seguida, exiba o Filtro avançado em [!DNL Report Builder], o filtro Avançado exibirá o segmento somente para o conjunto de relatórios selecionados. |
+| Outros filtros > Somente o *nome do conjunto de relatórios* | Se você aplicar o filtro &quot;Somente *nome do conjunto de relatórios*&quot; no Construtor de segmentos no Adobe Analytics e, em seguida, exibir o Filtro avançado em [!DNL Report Builder], o filtro Avançado exibirá o segmento somente para o conjunto de relatórios selecionados. |
 | Outros filtros > Meus | Mostra todos os seus segmentos. |
 | Outros filtros > Compartilhados comigo | Mostra todos os segmentos que outros compartilharam com você. |
 | Outros filtros > Favoritos | Mostra todos os segmentos que você marcou como Favoritos. |
@@ -86,11 +86,11 @@ Os filtros disponíveis incluem:
 
 Adicionar um controle de segmento permite você alternar segmentos de uma pasta de trabalho em vez de precisar ir até o Assistente de solicitação.
 
-1. Clique no ícone Controle ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) ao lado do menu suspenso de segmentos.
+1. Clique no ícone de Controle ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) ao lado do menu suspenso de segmentos.
 
 1. Verifique todos os segmentos os quais você deseja que apareçam no controle de segmentos, ou marque **[!UICONTROL Selecionar tudo]**.
 
-   ![Captura de tela da caixa de diálogo Configurações de controle com todos os segmentos selecionados.](assets/seg_control.png)
+   ![Captura de tela da caixa de diálogo Configurações de Controle com todos os segmentos selecionados.](assets/seg_control.png)
 
 1. Observe a opção **[!UICONTROL Atualizar automaticamente solicitações vinculadas na seleção de item]**.
 
@@ -116,7 +116,7 @@ O Report Builder 5.4 permite adicionar, remover, substituir e substituir todos o
 1. Selecione várias solicitações em uma pasta de trabalho.
 1. Clique com o botão direito do mouse e selecione **[!UICONTROL Editar solicitações]** > **[!UICONTROL Por segmento]**.
 
-   ![Captura de tela mostrando Editar solicitações e Por segmento selecionados.](assets/edit_by_segment.png)
+   ![Captura de tela mostrando as solicitações de edição e por segmento selecionadas.](assets/edit_by_segment.png)
 
 1. Na caixa de diálogo Editar grupo, selecione uma destas quatro opções:
 

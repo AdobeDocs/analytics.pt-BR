@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Dia da semana/Fim de semana
 
-O &quot;Dia da semana/Fim de semana&quot; [dimension](overview.md) O fornece informações sobre se a ocorrência aconteceu durante um dia da semana (de segunda a sexta-feira) ou no fim de semana (sábado a domingo). O horário da ocorrência tem como base o [fuso horário do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+A [dimensão](overview.md) de &quot;Dia da semana/Fim de semana&quot; fornece informações sobre se a ocorrência aconteceu durante um dia da semana (de segunda a sexta-feira) ou no fim de semana (sábado a domingo). O horário da ocorrência tem como base o [fuso horário do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Preencher esta dimensão com dados
 

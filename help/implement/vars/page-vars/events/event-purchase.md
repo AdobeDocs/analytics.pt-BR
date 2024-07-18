@@ -27,10 +27,10 @@ Quando você define um evento de compra, ele afeta as seguintes métricas:
 
 ## Definir o evento de compra usando o SDK da Web
 
-Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), o evento de compra usa os seguintes campos XDM:
+Se estiver usando o [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), o evento de compra usará os seguintes campos XDM:
 
 * Os pedidos são mapeados para `xdm.commerce.purchases.value`.
-* As unidades são mapeadas para a soma de todos `xdm.productListItems[].quantity` campos. Consulte [`products`](../products.md) para obter mais informações.
+* As unidades são mapeadas para a soma de todos os campos `xdm.productListItems[].quantity`. Consulte [`products`](../products.md) para obter mais informações.
 * A receita é mapeada para a soma de todos os campos `xdm.productListItems[].priceTotal`.
 
 ```json
@@ -45,7 +45,7 @@ Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md
 }
 ```
 
-Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), o evento de compra usa `data.__adobe.analytics.events`, seguindo a sintaxe da string de AppMeasurement.
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), o evento de compra usará `data.__adobe.analytics.events`, seguindo a sintaxe da cadeia de caracteres do AppMeasurement.
 
 ```json
 {
@@ -65,10 +65,10 @@ Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapp
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
-6. Localize o [!UICONTROL Eventos] e defina o [!UICONTROL Eventos] lista suspensa para [!UICONTROL compra].
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Definir Variáveis].
+6. Localize a seção [!UICONTROL Eventos] e defina a lista suspensa [!UICONTROL Eventos] como [!UICONTROL compra].
 
-Outras variáveis dependentes, como `products` e `purchaseID` não têm campos dedicados na extensão Analytics dentro da Coleção de dados da Adobe Experience Platform. Use o editor de código personalizado siga a sintaxe do AppMeasurement para essas variáveis.
+Outras variáveis dependentes, como `products` e `purchaseID`, não têm campos dedicados na extensão do Analytics dentro da Coleção de dados da Adobe Experience Platform. Use o editor de código personalizado siga a sintaxe do AppMeasurement para essas variáveis.
 
 ## Definir o evento de compra no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

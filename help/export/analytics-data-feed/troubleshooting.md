@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '466'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Se você tiver um feed de dados que opera com êxito por hora ou por dia, mas qu
    2. Localize os feeds de dados desejados e clique na caixa de seleção ao lado de cada um que você deseja executar novamente.
    3. Clique em **[!UICONTROL Reexecutar]**.
 
-   ![Reexecutar](assets/rerun.png)
+  ![Reexecutar](assets/rerun.png)
 
 Se você ainda não receber os arquivos do feed de dados depois de executá-los novamente, entre em contato com o Atendimento ao Cliente.
 

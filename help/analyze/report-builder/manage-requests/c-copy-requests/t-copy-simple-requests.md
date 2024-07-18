@@ -8,7 +8,7 @@ exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 Copie uma solicitação simples em vez de uma solicitação referencial. Uma solicitação simples não contém referências a outra solicitação nem ao conteúdo de uma célula.
 
-Uma [solicitação referencial](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) usa valores de células como entrada para parâmetros, como um filtro de datas ou relacional. Estes filtros usam correspondências ou tendências e são baseados em resultados de uma solicitação anterior ou no conteúdo inserido pelo usuário em uma célula, chamada célula de entrada.
+Uma [solicitação referencial](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) usa valores de células como entrada para parâmetros, como um filtro de datas ou relacional. Esses filtros usam correspondências ou tendências e se baseiam nos resultados de uma solicitação anterior ou no conteúdo inserido pelo usuário em uma célula, chamada de célula de entrada.
 
 Para copiar uma solicitação simples
 

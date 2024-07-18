@@ -12,7 +12,7 @@ ht-degree: 84%
 
 # Dias desde a última compra
 
-Os &quot;Dias desde a última compra&quot; [dimension](overview.md) mede a quantidade de tempo decorrido entre a ocorrência atual do visitante e sua compra mais recente no momento. Essa dimensão ajuda você a entender o comportamento que os visitantes têm após comprar algo no seu site,
+A [dimensão](overview.md) de &quot;Dias desde a última compra&quot; mede a quantidade de tempo decorrido entre a ocorrência atual do visitante e sua compra mais recente no momento. Essa dimensão ajuda você a entender o comportamento que os visitantes têm após comprar algo no seu site,
 
 Visitantes que nunca compraram algo não são incluídos nessa dimensão. Além disso, as ocorrências acionadas antes da primeira compra do visitante também não são incluídas. Somente as ocorrências após a primeira compra do visitante são incluídas.
 

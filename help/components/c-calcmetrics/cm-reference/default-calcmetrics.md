@@ -21,7 +21,7 @@ Veja a seguir uma lista de cada métrica calculada fornecida por Adobe, com sua 
 >Além das métricas calculadas padrão descritas nesta página, você também pode adicionar outras métricas calculadas a um conjunto de relatórios.
 >
 >É possível:
-> * Adicione métricas calculadas padrão para o Complemento de coleção de mídia de streaming, conforme descrito em [Métricas calculadas](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
+> * Adicione métricas calculadas padrão para o Complemento de Coleção de Mídia de Streaming, conforme descrito em [Métricas calculadas](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
 > * Crie métricas calculadas personalizadas a partir de Métricas existentes, conforme descrito em [Métricas calculadas e calculadas avançadas (derivadas)](/help/components/c-calcmetrics/cm-overview.md).
 
 
@@ -37,7 +37,7 @@ Veja a seguir uma lista de cada métrica calculada fornecida por Adobe, com sua 
 | Velocidade do conteúdo | A velocidade com que um novo conteúdo é criado e publicado no site e a rapidez com a qual ele gera o engajamento do usuário. | `[Page Views] / [Visits]` |
 | Índice de conversão | A porcentagem de visitantes que executaram uma ação desejada, como fazer uma compra. | `[Orders] / [Visits]` |
 | Taxa de entrada | A porcentagem de visitantes que entraram no site em uma determinada página, em comparação ao número total de sessões no site. | `[Entries] / [Visits]` |
-| Visitantes únicos estimados (ITP 2.1) | Para visitantes da ITP (usuários em navegadores Safari), divida Visitantes únicos por 2 ou menos. Essa métrica calculada pressupõe que você esteja definindo cookies usando o JavaScript do lado do cliente (não usando uma implementação CNAME). As implementações que definem cookies usando JavaScript do lado do cliente foram afetadas a partir do ITP 2.1. Consulte [Prevenção inteligente de rastreamento](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) para obter detalhes. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| Visitantes únicos estimados (ITP 2.1) | Para visitantes da ITP (usuários em navegadores Safari), divida Visitantes únicos por 2 ou menos. Essa métrica calculada pressupõe que você esteja definindo cookies usando o JavaScript do lado do cliente (não usando uma implementação CNAME). As implementações que definem cookies usando JavaScript do lado do cliente foram afetadas a partir do ITP 2.1. Consulte [Prevenção de rastreamento inteligente](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) para obter detalhes. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Cobertura da Experience Cloud ID | A porcentagem de visitantes com uma ID da Experience Cloud. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Taxa de saída | A porcentagem de visitantes que saem do site após visualizar uma página específica. | `[Exits] / [Visits]` |
 | Visitantes únicos/Visitantes únicos do ITP 2.1 | A porcentagem de visitantes únicos que usam um navegador afetado pelas limitações de cookies da ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |

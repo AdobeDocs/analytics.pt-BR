@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # AM/PM
 
-O &quot;AM/PM&quot; [dimension](overview.md) O fornece informações sobre se a ocorrência aconteceu durante as horas AM ou PM. O horário da ocorrência tem como base o [fuso horário do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+A [dimensão](overview.md) de &#39;AM/PM&#39; fornece informações sobre se a ocorrência aconteceu durante as horas AM ou PM. O horário da ocorrência tem como base o [fuso horário do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Preencher esta dimensão com dados
 

@@ -21,10 +21,10 @@ As seguintes opções de Gerenciamento de mídia estão disponíveis ao editar u
 
 * [!UICONTROL **Relatórios de mídia**]
 
-  Os relatórios específicos para o complemento Coleção de mídia de streaming estão disponíveis na página Relatórios de mídia. Para obter mais informações sobre os Relatórios de mídia, consulte [Ativação de relatórios de mídia](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
+  Os relatórios específicos para o complemento Coleção de mídia de streaming estão disponíveis na página Relatórios de mídia. Para obter mais informações sobre Relatórios de Mídia, consulte [Habilitação de relatórios de mídia](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
 
 * [!UICONTROL **Classificações de mídia**]
 
-  As classificações específicas para o complemento Coleção de mídia de streaming estão disponíveis na página Classificações de mídia. Para obter informações sobre classificações, consulte [Classificações de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  As classificações específicas para o complemento Coleção de mídia de streaming estão disponíveis na página Classificações de mídia. Para obter informações sobre Classificações, consulte [Classificações de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
 
-Para obter informações gerais sobre como incorporar dados de mídia de transmissão no Adobe Analytics, consulte a [Guia do complemento Coleção de mídia de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).
+Para obter informações gerais sobre a incorporação de dados de mídia de streaming no Adobe Analytics, consulte o [Guia de Complemento de Coleção de Mídia de Streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=pt-BR).

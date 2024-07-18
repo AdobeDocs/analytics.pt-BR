@@ -31,7 +31,7 @@ As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo d
 >
 > Desde janeiro de 2023, algumas versões dos sistemas operacionais Mac e Windows são representadas incorretamente no agente do usuário, mas corretamente representadas em dicas de cliente de alta entropia. Consulte [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR) para obter mais informações.
 
-O Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se você estiver usando [encaminhamento pelo lado do servidor para o Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR) em seguida, talvez você queira ativar a coleção de dicas de alta entropia.
+O Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira habilitar a coleção de dicas de alta entropia.
 
 ## Perguntas frequentes
 
@@ -69,13 +69,13 @@ A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 | Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixa | `true` |
 | Sec-CH-UA-Platform | Sistema operacional/plataforma | Baixa | `"Android"` |
 | Arquitetura do | Arquitetura do site | Alta | `"arm"` |
-| bitness | Bitness da arquitetura | Alta | `"64"` |
+| bitness | Bitness da arquitetura | Alto | `"64"` |
 | fullVersionList | Lista de marcas com suas versões | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
 | model | Modelo do dispositivo | Alta | `"Pixel 3"` |
 | platformVersion | Versão do sistema operacional/plataforma | Alta | `"10"` |
 
 * As dicas de baixa entropia são coletadas por meio do cabeçalho da solicitação.
-* As dicas de alta entropia são coletadas por meio de JavaScript e transmitidas pelos valores de parâmetro da string de consulta. Os parâmetros da cadeia de caracteres de consulta usam `h.` como um prefixo na solicitação de imagem. Observe que fullVersionList não está coletado no momento porque a versão principal do navegador é capturada como uma dica de baixa entropia.
+* As dicas de alta entropia são coletadas por meio de JavaScript e transmitidas pelos valores de parâmetro da string de consulta. Os parâmetros da cadeia de caracteres de consulta usam `h.` como prefixo na solicitação de imagem. Observe que fullVersionList não está coletado no momento porque a versão principal do navegador é capturada como uma dica de baixa entropia.
 
 Dicas de alta entropia são coletadas por meio da chamada do JavaScript e transmitidas pelo parâmetro de consulta
 
@@ -145,7 +145,7 @@ Consulte a documentação para incluí-los por meio da [API de inserção de dad
 
 +++
 
-+++**As dicas do cliente estarão disponíveis nos dados enviados para o Adobe Experience Platform e o Customer Journey Analytics por meio do Conector de origem do Adobe?**
++++**As dicas do cliente estarão disponíveis nos dados enviados para o Adobe Experience Platform e o Customer Journey Analytics através do Adobe Source Connector?**
 
 A Adobe planeja incluir dicas do cliente em dados por meio do Conector de origem da Adobe no primeiro semestre de 2023.
 
@@ -159,6 +159,6 @@ Consulte a [documentação do esquema](https://github.com/adobe/xdm/blob/master/
 
 +++**O encaminhamento pelo lado do servidor do Adobe Audience Manager será compatível com as dicas do cliente?**
 
-Sim. As dicas do cliente serão incluídas nos dados encaminhados ao Adobe Audience Manager. Observe que o Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se você estiver usando [encaminhamento pelo lado do servidor para o Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR) em seguida, talvez você queira ativar a coleção de dicas de alta entropia.
+Sim. As dicas do cliente serão incluídas nos dados encaminhados ao Adobe Audience Manager. Observe que o Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira habilitar a coleção de dicas de alta entropia.
 
 +++

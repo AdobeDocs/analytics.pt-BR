@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 88%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ Os filtros mais populares são filtros de expressão que você configura usando 
 
 1. No [!UICONTROL Assistente de solicitações: etapa 2], clique no link ao lado da dimensão na grade e, em seguida, escolha **[!UICONTROL Filtro]**.
 
-   ![Captura de tela mostrando a caixa de diálogo Definir filtro com opções para Filtrar por aplicativo, usuário e projeto.](/help/admin/admin/assets/filter.png)
+   ![Captura de tela mostrando a caixa de diálogo Definir Filtro com opções para Filtrar por Aplicativo, Usuário e Projeto.](/help/admin/admin/assets/filter.png)
 
 1. No formulário [!UICONTROL Escolher página], habilite **[!UICONTROL Mais popular]** e, então, configure as seguintes opções:
 
@@ -43,15 +43,15 @@ Os filtros mais populares são filtros de expressão que você configura usando 
 1. No formulário [!UICONTROL Definir filtro], configure as condições apropriadas para as suas necessidades.
 
 
-   ![Captura de tela mostrando a caixa de diálogo Definir filtro.](assets/expressions_define_filter.png)
+   ![Captura de tela mostrando a caixa de diálogo Definir Filtro.](assets/expressions_define_filter.png)
 
-   O ícone select cell permite localizar uma condição definida no valor de uma célula. ![O ícone de célula selecionar.](assets/select_cell_icon.png)
+   O ícone select cell permite localizar uma condição definida no valor de uma célula. ![O ícone de célula selecionada.](assets/select_cell_icon.png)
 
-   A variável **Adicionar Condição** link permite adicionar uma condição à expressão. Não há limite para o número de condições que podem ser adicionadas.
+   O link **Adicionar Condição** permite que você adicione uma condição à expressão. Não há limite para o número de condições que podem ser adicionadas.
 
 1. Clique em **[!UICONTROL OK]**.
 
-   ![Captura de tela da caixa de diálogo Definir filtro com o botão OK no lado inferior direito.](assets/choose_page_02.png)
+   ![Captura de tela da caixa de diálogo Definir Filtro com o botão OK no lado inferior direito.](assets/choose_page_02.png)
 
 1. No formulário [!UICONTROL Escolher página], clique em **[!UICONTROL Salvar]** para salvar a expressão.
 1. Clique em **[!UICONTROL OK]**.

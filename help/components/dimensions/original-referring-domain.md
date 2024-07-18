@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # Domínio referenciador original
 
-O &#39;Domínio referenciador original&#39; [dimension](overview.md) relata o primeiro domínio referenciador em que um visitante clicou para chegar ao site. Depois de definido, ele contém o mesmo valor para toda a vida útil da ID do visitante. Essa dimensão é útil para entender quais sites de terceiros originalmente direcionam tráfego para o site.
+A [dimensão](overview.md) de &#39;Domínio referenciador original&#39; informa o primeiro domínio referenciador em que um visitante clicou para chegar ao site. Depois de definido, ele contém o mesmo valor para toda a vida útil da ID do visitante. Essa dimensão é útil para entender quais sites de terceiros originalmente direcionam tráfego para o site.
 
 >[!IMPORTANT]
 >

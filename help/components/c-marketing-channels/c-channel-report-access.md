@@ -6,7 +6,7 @@ exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Para maximizar a eficiência dos Canais de marketing para atribuição e Customer Journey Analytics, publicamos alguns [práticas recomendadas revistas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Para maximizar a eficácia dos canais de marketing para atribuição e análise da jornada do cliente, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Os administradores do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Admins do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Estas são as permissões das Ferramentas do conjunto de relatórios necessárias no [Admin Console](https://adminconsole.adobe.com/) para trabalhar com vários aspectos dos Canais de marketing.
 

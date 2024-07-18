@@ -24,10 +24,10 @@ Este é um vídeo sobre curadoria de componentes:
 
 Para permitir a curadoria de componentes,
 
-1. Ir para **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]** > **[!UICONTROL Criar novo conjunto de relatórios virtual]**.
+1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]** > **[!UICONTROL Criar novo conjunto de relatórios virtual]**.
 1. Depois de definir as **[!UICONTROL Configurações]**, clique na guia **[!UICONTROL Componentes]**.
 
-1. Marque a caixa de seleção **[!UICONTROL Ativar personalização de componentes do conjunto de relatórios virtual]**:
+1. Marque a caixa de seleção **[!UICONTROL Habilitar personalização de componentes do conjunto de relatórios virtual]**:
 
    ![](assets/vrs-enable.png)
 

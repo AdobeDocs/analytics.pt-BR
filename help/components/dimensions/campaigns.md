@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Campanhas
 
-As &quot;Campanhas&quot; [dimension](overview.md) pode se referir a:
+A [dimensão](overview.md) de &quot;Campanhas&quot; pode se referir a:
 
 * Uma [classificação](../classifications/c-classifications.md) criada automaticamente em alguns conjuntos de relatórios. Tem como base a dimensão [Código de rastreamento](tracking-code.md).
 * A própria dimensão [Código de rastreamento](tracking-code.md), que usa a variável de implementação [campanha](/help/implement/vars/page-vars/campaign.md).

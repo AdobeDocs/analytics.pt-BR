@@ -8,7 +8,7 @@ exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 65%
+ht-degree: 54%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 65%
 
 Copie uma planilha inteira em uma pasta de trabalho de origem em uma planilha em uma ou mais pastas de trabalho de destino. Para fazer isso, você deve ter pelo menos duas pastas de trabalho abertas na mesma instância do Excel:
 * A primeira pasta de trabalho de origem contém uma planilha (planilha) com solicitações mapeadas a células.
-* As pastas de trabalho de destino adicionais são os destinos. Para cada nova pasta de trabalho de destino, você deve fazer logon no mesmo conjunto de relatórios como a pasta de trabalho de origem antes de poder colar planilhas contendo solicitações.
+* As pastas de trabalho de destino adicionais são os destinos. Para cada nova pasta de trabalho de destino, você deve fazer logon no mesmo conjunto de relatórios que a pasta de trabalho de origem antes de poder colar planilhas contendo solicitações.
 
 >[!NOTE]
 >

@@ -34,7 +34,7 @@ Um ponto **deve** ser usado como separador para todas as moedas ao implementar e
 
 O código de moeda é mapeado para as seguintes variáveis:
 
-* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
 * [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` ou `data.__adobe.analytics.cc`
 
 ## Código de moeda usando a extensão do Adobe Analytics

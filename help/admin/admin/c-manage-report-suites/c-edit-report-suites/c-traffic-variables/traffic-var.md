@@ -23,10 +23,10 @@ Você pode adicionar e ativar relatórios de variável de tráfego. Você també
 
 ## Adicionar e habilitar relatórios de variável de tráfego
 
-1. Selecionar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**, em seguida, selecione um conjunto de relatórios.
-1. Selecionar **[!UICONTROL Editar configurações]** > **[!UICONTROL Tráfego]** > **[!UICONTROL Variáveis de tráfego]**.
-1. Selecionar **[!UICONTROL Adicionar novo]**, nomeie o relatório.
-1. No [!UICONTROL **Ativado**] coluna, selecione [!UICONTROL **Ativado**] no menu suspenso.1. Selecionar **[!UICONTROL Salvar]**.
+1. Selecione **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de Relatórios]** e, em seguida, selecione um conjunto de relatórios.
+1. Selecione **[!UICONTROL Editar configurações]** > **[!UICONTROL Tráfego]** > **[!UICONTROL Variáveis de tráfego]**.
+1. Selecione **[!UICONTROL Adicionar novo]** e nomeie o relatório.
+1. Na coluna [!UICONTROL **Habilitado**], selecione [!UICONTROL **Habilitado**] no menu suspenso.1. Selecione **[!UICONTROL Salvar]**.
 
 ## Desativar relatórios de variável de tráfego
 
@@ -34,18 +34,18 @@ Depois que um relatório de variável de tráfego é desativado, ele não é exi
 
 Para desativar um relatório de variável de tráfego:
 
-1. Selecionar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**, em seguida, selecione um conjunto de relatórios.
-1. Selecionar **[!UICONTROL Editar configurações]** > **[!UICONTROL Tráfego]** > **[!UICONTROL Variáveis de tráfego]**.
+1. Selecione **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de Relatórios]** e, em seguida, selecione um conjunto de relatórios.
+1. Selecione **[!UICONTROL Editar configurações]** > **[!UICONTROL Tráfego]** > **[!UICONTROL Variáveis de tráfego]**.
 1. Selecione o relatório de variável de tráfego que deseja desativar.
-1. No [!UICONTROL **Ativado**] coluna, selecione [!UICONTROL **Desabilitado**] no menu suspenso.
+1. Na coluna [!UICONTROL **Habilitado**], selecione [!UICONTROL **Desabilitado**] no menu suspenso.
 1. Selecione [!UICONTROL **Salvar**].
 
 ## Renomear relatórios de variável de tráfego
 
-1. Selecionar **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**, em seguida, selecione um conjunto de relatórios.
-1. Selecionar **[!UICONTROL Editar configurações]** > **[!UICONTROL Tráfego]** > **[!UICONTROL Variáveis de tráfego]**.
+1. Selecione **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de Relatórios]** e, em seguida, selecione um conjunto de relatórios.
+1. Selecione **[!UICONTROL Editar configurações]** > **[!UICONTROL Tráfego]** > **[!UICONTROL Variáveis de tráfego]**.
 1. Selecione o relatório de variável de tráfego que deseja renomear.
-1. No [!UICONTROL **Nome**] especifique um novo nome para o relatório.
+1. Na coluna [!UICONTROL **Nome**], especifique um novo nome para o relatório.
 1. Selecione [!UICONTROL **Salvar**].
 
 Consulte também [prop](/help/implement/vars/page-vars/prop.md) no guia de usuário Implementar.

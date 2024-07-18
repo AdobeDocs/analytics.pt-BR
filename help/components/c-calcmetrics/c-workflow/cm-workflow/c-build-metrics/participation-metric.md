@@ -5,12 +5,12 @@ feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
 source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 34%
+source-wordcount: '148'
+ht-degree: 37%
 
 ---
 
-# Criar uma métrica de &quot;Participação&quot;
+# Criar uma métrica “Participação”
 
 As informações a seguir explicam como criar uma métrica que mostra quais páginas contribuíram para (ou participaram de) visitas que continham um pedido.
 
@@ -30,7 +30,7 @@ Esse tipo de informação pode ser útil para qualquer proprietário de conteúd
 
    ![](assets/participation.png)
 
-1. Selecionar [!UICONTROL **Salvar**] para salvar a métrica.
+1. Selecione [!UICONTROL **Salvar**] para salvar a métrica.
 
 1. Use a métrica calculada em um relatório de **[!UICONTROL Páginas]**.
 

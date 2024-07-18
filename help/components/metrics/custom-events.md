@@ -5,7 +5,7 @@ feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 83%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 83%
 
 *Esta página de ajuda descreve como os eventos personalizados funcionam como uma métrica. Para obter informações sobre como os eventos personalizados funcionam como uma variável de implementação, consulte a [Visão geral dos eventos](/help/implement/vars/page-vars/events/events-overview.md) no guia de usuário Implementar.*
 
-Evento personalizado [métricas](overview.md) mostrar o número de ocorrências em que determinado evento personalizado foi definido em uma solicitação de imagem. Essas métricas são vitais para muitas implementações, pois fornecem insight de eventos que são específicos de cada organização.
+[métricas](overview.md) do evento personalizado mostra o número de ocorrências em que determinado evento personalizado foi definido em uma solicitação de imagem. Essas métricas são vitais para muitas implementações, pois fornecem insight de eventos que são específicos de cada organização.
 
 ## Como essa métrica é calculada
 

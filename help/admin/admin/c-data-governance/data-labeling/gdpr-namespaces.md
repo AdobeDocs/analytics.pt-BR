@@ -21,7 +21,7 @@ A sequência de caracteres do namespace é usada para identificar os campos que 
 * Um campo de “type” que, para a maioria das solicitações do Adobe Analytics, contém o valor “analytics”.
 * Um campo de “value” contendo a ID que o Analytics deve pesquisar nas variáveis de namespace associadas a cada um dos conjuntos de relatórios.
 
-Consulte a [Documentação da API da Privacidade de dados do Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR) para obter mais detalhes e uma [lista de namespaces de identidade padrão](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulte [Criar um trabalho de acesso/exclusão](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) para obter uma solicitação de amostra.
+Consulte a [documentação da API da Privacidade de dados do Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR) para obter mais detalhes e uma [lista de namespaces de identidade padrão](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulte [Criar um trabalho de acesso/exclusão](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) para obter uma solicitação de exemplo.
 
 ## ID de cookies
 

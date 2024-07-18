@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '188'
 ht-degree: 72%
 
 ---
@@ -29,11 +29,11 @@ Para criar uma solicitação de detecção de anomalias no Report Builder:
 
    Para a métrica adicionada, clique no link **[!UICONTROL Nenhum]**.
 
-   ![Captura de tela mostrando a Detecção de anomalias, a opção Inserir e, em seguida, as opções de Inserir para Limite inferior e superior, e as opções esperadas.](assets/anomaly_select.png)
+   ![Captura de tela mostrando a Detecção de Anomalias, depois as opções Inserir e inserir para Limite Inferior e Superior, e as opções esperadas.](assets/anomaly_select.png)
 
 1. Selecione **[!UICONTROL Detecção de anomalias]** > **[!UICONTROL `<selection>`]**.
 
-   ![Captura de tela que mostra a Etapa 2 do assistente de solicitações - Relatório de tráfego.](assets/anomaly_visit.png)
+   ![Captura de tela mostrando a Etapa 2 do Assistente de solicitações - Relatório de tráfego.](assets/anomaly_visit.png)
 
    Ao selecionar uma destas opções, o sistema cria cópias da detecção de anomalias da métrica original. Por exemplo, para a métrica Visitas, uma métrica de Visitas de limite inferior é adicionada ao grupo [!UICONTROL Métrica].
 1. Clique em **[!UICONTROL Concluir]** e selecione a célula para saída em Excel.

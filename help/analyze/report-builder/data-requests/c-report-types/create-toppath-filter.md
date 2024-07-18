@@ -15,7 +15,7 @@ ht-degree: 62%
 
 Descreve como criar relatórios de caminho com filtros predefinidos.
 
-O Report Builder não oferece relatórios de caminho como relatórios independentes, mas você pode criá-los por meio da **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Caminho]** menus de contexto. Os relatórios a seguir estão disponíveis:
+O Report Builder não oferece relatórios de caminho como relatórios independentes, mas você pode criá-los por meio dos menus de contexto **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Caminho]**. Os relatórios a seguir estão disponíveis:
 
 * Caminho > Fallout da página
 * Caminho > Caminho de entrada
@@ -27,9 +27,9 @@ O Report Builder não oferece relatórios de caminho como relatórios independen
 * Caminho > Caminho de entrada > Como página de entrada
 * Caminho > Caminho de saída > Como página de saída
 
-1. Selecione várias linhas de uma solicitação existente e clique com o botão direito do mouse **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Caminho]**. Você deve selecionar pelo menos três linhas se quiser ver a **[!UICONTROL Fallout de página]** item de menu.
+1. Selecione várias linhas de uma solicitação existente e clique com o botão direito do mouse em **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Caminho]**. Você deve selecionar pelo menos três linhas se quiser ver o item de menu **[!UICONTROL Fallout de página]**.
 
-   ![Captura de tela mostrando três linhas selecionadas com a opção Adicionar solicitação dependente selecionada.](assets/dependen_request.png)
+   ![Captura de tela mostrando três linhas selecionadas com a opção Adicionar Solicitação Dependente selecionada.](assets/dependen_request.png)
 
 2. Selecione o filtro predefinido, por exemplo **[!UICONTROL Página anterior]**.
 

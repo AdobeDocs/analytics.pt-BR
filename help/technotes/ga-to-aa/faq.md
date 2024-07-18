@@ -5,8 +5,8 @@ feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 74%
+source-wordcount: '395'
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 74%
 
 Cada plataforma do Analytics tem diferentes maneiras de coletar, manipular e armazenar dados. Em vez de migrar dados históricos, a Adobe recomenda estabelecer uma data limite clara para começar a coletar e usar dados no Adobe Analytics. As datas limites usadas com frequência são o início de um ano fiscal, o início de um ano civil ou o início de um mês. Se os usuários quiserem exibir dados históricos, eles poderão fazer logon na plataforma de terceiros para obter necessidades específicas de relatórios históricos.
 
-Se sua organização estiver convencida de que os dados históricos foram transmitidos para o Adobe, entre em contato com a equipe de conta do Adobe. Um consultor de implementação pode trabalhar com a organização para traduzir uma exportação de dados do Google Analytics em uma fonte de dados que pode ser assimilada pelos servidores de coleta de dados da Adobe.
+Se a organização estiver convencida de que os dados históricos foram transmitidos para o Adobe, entre em contato com a equipe de conta do Adobe. Um consultor de implementação pode trabalhar com a organização para traduzir uma exportação de dados do Google Analytics em uma fonte de dados que pode ser assimilada pelos servidores de coleta de dados da Adobe.
 
 Para mover dados históricos, recomendamos usar o [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR), que pode trazer qualquer fonte de dados omnicanal.
 
@@ -27,7 +27,7 @@ Os filtros suspensos são um recurso flexível e robusto do [!UICONTROL Analysis
 1. Use ctrl+clique (Windows) ou cmd+clique (Mac) nos componentes que deseja incluir no filtro suspenso. Você não está limitado a apenas segmentos; qualquer componente pode ser incluído em um filtro suspenso.
 2. Arraste o grupo de componentes para o espaço de trabalho chamado &#39;Solte um segmento aqui&#39;. Antes de soltar, pressione a tecla Shift.
 
-Usuários que acessam esta [!UICONTROL Workspace] O projeto agora pode usar esse filtro suspenso para aplicar segmentos ou outros componentes ao projeto. Consulte [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md) no guia Ferramentas do Adobe Analytics para obter mais informações.
+Os usuários que acessam este projeto [!UICONTROL Workspace] agora podem usar este filtro suspenso para aplicar segmentos ou outros componentes ao projeto. Consulte [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md) no guia Ferramentas do Adobe Analytics para obter mais informações.
 
 **Estou acostumado a clicar em um item de dimensão para ver um detalhamento. Como posso replicar esse fluxo de trabalho fácil no Analysis Workspace?**
 

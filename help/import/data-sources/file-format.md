@@ -15,8 +15,8 @@ ht-degree: 5%
 
 Os arquivos de origem de dados têm as seguintes propriedades:
 
-* O arquivo está em `.txt` formato.
-* As linhas comentadas começam com &quot;`#`&#39; e são opcionais.
+* O arquivo está no formato `.txt`.
+* As linhas comentadas começam com &#39;`#`&#39; e são opcionais.
 * A primeira linha não comentada contém os cabeçalhos do arquivo.
 * O primeiro valor de cada linha é a data, que usa o formato `MM/DD/YYYY` ou `MM/DD/YYYY/HH/mm/SS`.
 * Os valores em cada linha, incluindo cabeçalhos, são delimitados por tabulação.
@@ -33,7 +33,7 @@ Todas as linhas de comentário são ignoradas pelo Adobe quando o arquivo é pro
 
 ## Cabeçalhos
 
-Ao fazer upload de arquivos de origem de dados, os cabeçalhos de coluna são obrigatórios. Esses cabeçalhos de coluna não diferenciam maiúsculas de minúsculas, mas os espaços necessários são necessários (Por exemplo, `eVar1` é um cabeçalho inválido, enquanto `EVAR 1` é válido). Os cabeçalhos de coluna se aplicam a todos os conjuntos de relatórios. Use as tabelas a seguir para verificar se cada cabeçalho no arquivo de origem de dados está definido corretamente.
+Ao fazer upload de arquivos de origem de dados, os cabeçalhos de coluna são obrigatórios. Esses cabeçalhos de coluna não diferenciam maiúsculas de minúsculas, mas os espaços necessários são necessários (por exemplo, `eVar1` é um cabeçalho inválido, enquanto `EVAR 1` é válido). Os cabeçalhos de coluna se aplicam a todos os conjuntos de relatórios. Use as tabelas a seguir para verificar se cada cabeçalho no arquivo de origem de dados está definido corretamente.
 
 >[!TIP]
 >
@@ -68,7 +68,7 @@ Dimension e métricas entram na mesma linha de cabeçalho.
 
 {style="table-layout:auto"}
 
-O Adobe não oferece suporte a fontes de dados para outras dimensões ou métricas. Se forem necessárias variáveis além das listadas nas tabelas acima, considere o uso de [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) em vez disso.
+O Adobe não oferece suporte a fontes de dados para outras dimensões ou métricas. Se forem necessárias variáveis além das listadas nas tabelas acima, considere usar a [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/).
 
 ## Data
 
@@ -89,4 +89,4 @@ Os dados de Dimension não podem conter ponto e vírgula (`;`). As linhas que co
 
 ## Próximas etapas
 
-[Upload de arquivo](file-upload.md): saiba mais sobre o processo para carregar um arquivo de fontes de dados para assimilação por Adobe.
+[Carregamento de arquivo](file-upload.md): saiba mais sobre o processo de carregamento de arquivo de fontes de dados para assimilação por Adobe.

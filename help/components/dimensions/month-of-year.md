@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Mês do ano
 
-O &quot;Mês do ano&quot; [dimension](overview.md) relata o mês de um determinado ano como um item de dimensão. Esse relatório é importante se você quiser que um relatório seja dividido pelo mês do ano, mas não quiser uma data estática como itens de dimensão. Você pode agregar relatórios anuais por mês, de forma que os dados de janeiro deste ano sejam agregados aos dados de janeiro do ano passado no mesmo item de dimensão.
+A [dimensão](overview.md) de &quot;Mês do ano&quot; informa o mês de um determinado ano como um item de dimensão. Esse relatório é importante se você quiser que um relatório seja dividido pelo mês do ano, mas não quiser uma data estática como itens de dimensão. Você pode agregar relatórios anuais por mês, de forma que os dados de janeiro deste ano sejam agregados aos dados de janeiro do ano passado no mesmo item de dimensão.
 
 ## Preencher esta dimensão com dados
 

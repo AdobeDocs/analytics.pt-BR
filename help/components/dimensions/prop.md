@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 95%
+source-wordcount: '471'
+ht-degree: 93%
 
 ---
 
 # Prop
 
-*[Esta página de ajuda descreve como as props funcionam como uma dimensão](overview.md). Para obter informações sobre como implementar props, consulte [props](/help/implement/vars/page-vars/prop.md) no guia de usuário Implementar.*
+*Esta página de ajuda descreve como as props funcionam como uma [dimensão](overview.md). Para obter informações sobre como implementar props, consulte [props](/help/implement/vars/page-vars/prop.md) no guia de usuário Implementar.*
 
 As props são variáveis personalizadas que podem ser usadas da maneira que você desejar. Elas não persistem além da ocorrência definida.
 
@@ -30,7 +30,7 @@ O AppMeasurement, que compila variáveis JavaScript em uma solicitação de imag
 
 ## Itens de dimensão
 
-Como as props contêm strings personalizadas na implementação, sua organização determina quais itens de dimensão são para cada prop. Registre a finalidade de cada prop e os itens de dimensão típicos em uma [documento de design da solução](/help/implement/prepare/solution-design.md).
+Como as props contêm strings personalizadas na implementação, sua organização determina quais itens de dimensão são para cada prop. Registre a finalidade de cada prop e os itens de dimensão típicos em um [documento de design de solução](/help/implement/prepare/solution-design.md).
 
 ## Diferencia maiúsculas de minúsculas
 

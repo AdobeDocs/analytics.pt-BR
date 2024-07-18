@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 68%
+source-wordcount: '311'
+ht-degree: 64%
 
 ---
 
 # DMA dos EUA
 
-O &quot;DMA dos EUA&quot; [dimension](overview.md) relata a área de mercado designada (DMA) do visitante. Tem como base os mercados de mídia compilados pela [Nielsen](https://www.nielsen.com/dma-regions/).
+A [dimensão](overview.md) de &quot;DMA dos EUA&quot; informa a área de mercado designada (DMA) do visitante. Tem como base os mercados de mídia compilados pela [Nielsen](https://www.nielsen.com/dma-regions/).
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a Nielsen para manter pesquisas entre o endereço IP e o DMA.
+Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. O Adobe faz parceria com a Nielsen para manter pesquisas entre o endereço IP e o DMA.
 
 * Para implementações do AppMeasurement, essa dimensão funciona imediatamente.
-* Para implementações do SDK da Web, habilite [!UICONTROL Pesquisa geográfica] quando [configurar um fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-BR).
+* Para implementações do SDK da Web, habilite a [!UICONTROL Pesquisa Geográfica] ao [configurar uma sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-br).
 
 ## Itens de dimensão
 
@@ -33,4 +33,4 @@ Como essa dimensão se baseia no endereço IP, alguns cenários podem mostrar um
 * **Endereços de IP remoto**: o direcionamento por IP móvel funciona em diferentes níveis, dependendo da localização e da rede. Algumas operadoras fazem o backhaul do tráfego IP por meio de pontos de presença centralizados ou regionais.
 * **Usuários do ISP satélite**: identificar a localização específica desses usuários é difícil, pois eles normalmente parecem se originar do local do uplink.
 * **IPs militares ou governamentais**: representa as pessoas que viajam ao redor do mundo e entram pelo local onde moram, em vez da base ou escritório onde trabalham.
-* **Proxies que obscurecem endereços IP por motivos de privacidade**: serviços como o Retransmissão privada da Apple ocultam o endereço IP verdadeiro, enviando dados aleatoriamente por meio de um intermediário ou proxy. Esse proxy substitui um endereço IP diferente antes de encaminhar para o Adobe.
+* **Proxies que obscurecem endereços IP por motivos de privacidade**: serviços como a Retransmissão Privada da Apple ocultam o endereço IP verdadeiro enviando dados aleatoriamente por meio de um intermediário ou proxy. Esse proxy substitui um endereço IP diferente antes de encaminhar para o Adobe.

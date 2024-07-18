@@ -23,7 +23,7 @@ As IDs de compra se aplicam a todos os visitantes e expiram após 37 meses. Se u
 
 A ID de compra é mapeada para as seguintes variáveis:
 
-* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
+* [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
 * [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## ID de compra usando a extensão do Adobe Analytics
@@ -34,8 +34,8 @@ Você pode definir a ID de compra ao configurar a extensão do Analytics (variá
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
-6. Localize o [!UICONTROL ID de compra] seção.
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Definir Variáveis].
+6. Localize a seção [!UICONTROL ID de Compra].
 
 Você pode definir a ID de compra como um valor ou um elemento de dados. Também é possível copiar o valor de outra variável do Analytics.
 

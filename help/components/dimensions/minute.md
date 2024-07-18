@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Minuto
 
-O &#39;Minuto&#39; [dimension](overview.md) relata o minuto em que determinada métrica ocorreu (arredondado para baixo). O primeiro item de dimensão é o primeiro minuto no intervalo de datas, e o último item de dimensão é o último minuto no intervalo de datas. Essa dimensão é importante para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo. Dada a grandeza dessa dimensão, a Adobe recomenda limitar o intervalo de datas dos relatórios a um ou dois dias.
+O &#39;Minuto&#39; [dimensão](overview.md) informa o minuto em que uma determinada métrica ocorreu (arredondado para baixo). O primeiro item de dimensão é o primeiro minuto no intervalo de datas, e o último item de dimensão é o último minuto no intervalo de datas. Essa dimensão é importante para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo. Dada a grandeza dessa dimensão, a Adobe recomenda limitar o intervalo de datas dos relatórios a um ou dois dias.
 
 ## Preencher esta dimensão com dados
 

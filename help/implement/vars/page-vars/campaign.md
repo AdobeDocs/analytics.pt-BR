@@ -15,13 +15,13 @@ ht-degree: 67%
 
 A variável `campaign` é dedicada à coleta de códigos de rastreamento no site. Em versões anteriores do Adobe Analytics, ele tinha um tratamento especial, podendo ser usado como um detalhamento na maioria das dimensões. Na versão atual do Adobe Analytics, ela age de forma idêntica a uma eVar.
 
-Essa variável preenche o [Código de rastreamento](/help/components/dimensions/tracking-code.md) dimensão. Normalmente, ele obtém o valor de uma sequência de consulta usando o [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) método de utilitário. No entanto, sua organização determina exatamente como definir essa variável.
+Esta variável preenche a dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). Normalmente, o valor é obtido de uma cadeia de caracteres de consulta usando o método de utilitário [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md). No entanto, sua organização determina exatamente como definir essa variável.
 
 ## Campaign usando o SDK da Web
 
 O Campaign é mapeado para as seguintes variáveis:
 
-* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
 * [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` ou `data.__adobe.analytics.v0`
 
 ## Campanha usando a extensão do Adobe Analytics
@@ -32,7 +32,7 @@ Você pode definir a campanha ao configurar a extensão do Analytics (variáveis
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Definir Variáveis].
 6. Localize a seção [!UICONTROL Campanha].
 
 Você pode definir a campanha como um valor ou parâmetro do tipo string.

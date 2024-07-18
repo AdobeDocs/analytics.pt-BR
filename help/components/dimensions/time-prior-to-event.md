@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 84%
 
 ---
 
 # Tempo antes do evento
 
-O &#39;Tempo antes do evento&#39; [dimension](overview.md) relata o tempo decorrido entre a primeira ocorrência da visita e a métrica desejada. Essa dimensão é útil para determinar a quantidade de tempo necessária para obter um evento bem-sucedido, como um envio de formulário ou uma compra.
+A [dimensão](overview.md) de &quot;Tempo antes do evento&quot; relata o tempo decorrido entre a primeira ocorrência da visita e a métrica desejada. Essa dimensão é útil para determinar a quantidade de tempo necessária para obter um evento bem-sucedido, como um envio de formulário ou uma compra.
 
 ## Preencher esta dimensão com dados
 

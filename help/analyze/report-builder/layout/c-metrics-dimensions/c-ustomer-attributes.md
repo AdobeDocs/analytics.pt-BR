@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '127'
 ht-degree: 83%
 
 ---
@@ -19,7 +19,7 @@ Para obter informações detalhadas sobre como fazer upload dos atributos do cli
 
 * Se for configurada como métrica, a VisAttr é exposta como métrica e &quot;dimensão&quot;.
 
-  ![Captura de tela mostrando os atributos do cliente de métrica e dimensão.](assets/ca_metrics.png)  ![](assets/ca_dimension.png)
+  ![Captura de tela mostrando a métrica e os atributos do cliente da dimensão.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
 * Comporta o mesmo detalhamento que uma eVar (qualquer item pode ser detalhado por qualquer coisa).
 * A VisAttr é compatível com todas as métricas de eVar.

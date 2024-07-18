@@ -17,12 +17,12 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> Este artigo fornece **Clientes do Adobe Analytics que (planejam) implementar o Adobe Analytics** em seu site com instruções sobre como fornecer links para opção de não participação aos usuários do site. <p><p>
-> Se você estiver **visitar um site que implementou o Adobe Analytics**, e você quiser recusar, **<span style="color:red">este artigo NÃO é para você</span>**. Consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.
+> Este artigo fornece aos **clientes do Adobe Analytics que (estão planejando) implementar o Adobe Analytics** em seu site instruções sobre como fornecer links para opção de não participação aos usuários do site. <p><p>
+> Se você está **visitando um site que implementou o Adobe Analytics** e deseja recusar, **<span style="color:red">este artigo NÃO é para você</span>**. Consulte [Opções de privacidade de Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.
 
 Alguns visitantes do site preferem não ter suas informações de navegação incluídas no conjunto de dados. O Adobe oferece a capacidade de fornecer aos visitantes do seu site um meio de optar pela não participação em suas informações que estão sendo analisadas.
 
-Os links para opção de não participação são uma maneira de permitir que os visitantes do site omitam seus dados nos relatórios do Analytics. Esses links estão limitados às implementações do AppMeasurement; o Adobe recomenda o uso de [Serviço de Opt-in da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR) em vez disso. O serviço de Opt-in é mais robusto e funciona em vários produtos da Adobe Experience Cloud, incluindo Adobe Analytics e AppMeasurement.
+Os links para opção de não participação são uma maneira de permitir que os visitantes do site omitam seus dados nos relatórios do Analytics. Esses links são limitados às implementações do AppMeasurement; a Adobe recomenda usar o [serviço de Opt-in da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR). O serviço de Opt-in é mais robusto e funciona em vários produtos da Adobe Experience Cloud, incluindo Adobe Analytics e AppMeasurement.
 
 Quando um visitante atinge um URL de opção de não participação, ele é solicitado a instalar um cookie de opção de não participação. Se um usuário optar por não ser rastreado e um cookie de opção de não participação for definido, o AppMeasurement continuará enviando dados para o Adobe. No entanto, esses dados não serão processados ou incluídos nos relatórios.
 
@@ -62,7 +62,7 @@ Há configurações que você pode carregar automaticamente nesta página usando
 
 Alterne automaticamente o idioma da página de opção, incluindo o parâmetro da cadeia de caracteres de consulta `locale`. Atribua um dos seguintes valores a esse parâmetro da cadeia de caracteres de consulta:
 
-* `en_US` (Inglês, padrão)
+* `en_US` (inglês, padrão)
 * `bg_BG` (Búlgaro)
 * `zh_CN` (Chinês simplificado)
 * `zh_TW` (Chinês tradicional)

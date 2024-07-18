@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
@@ -24,6 +24,6 @@ Para saber mais sobre os [!UICONTROL painéis] do Adobe Analytics, consulte os s
    * Para assistir a uma visão geral em vídeo da experiência de curadoria, consulte o [Contrutor de cartões de pontuação dos painéis do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=pt-BR).
 
 
-* [Guia de início rápido do usuário executivo](/help/analyze/mobile-app/executive.md): este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards nos [!UICONTROL painéis]. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de importantes dados resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
+* [Guia de início rápido do usuário executivo](/help/analyze/mobile-app/executive.md): este guia tem como objetivo ajudar usuários executivos a ler e interpretar Scorecards nos [!UICONTROL painéis]. O aplicativo permite que os usuários executivos visualizem uma ampla renderização de dados importantes resumidos de maneira rápida e fácil em seus próprios dispositivos móveis.
 
    * Para ver um vídeo que destaca essas informações, consulte a [Eperiência no aplicativo dos painéis do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=pt-BR).

@@ -28,7 +28,7 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | [!UICONTROL Calendário personalizado] | Concede acesso a Geral > Personalizar calendário no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Relatório de Data Warehouse Personalizado] | Concede acesso a Ferramentas > Data Warehouse na navegação superior do Analytics. |
 | [!UICONTROL Visitas de Retorno Diário] | Concede acesso a Retenção de visitantes > Visitas de retorno diário no Reports &amp; Analytics. |
-| [!UICONTROL Gerenciador de feeds de dados] | Concede acesso a Administrador > Feeds de dados na navegação superior do Analytics. |
+| [!UICONTROL Gerenciador de Feeds de Dados] | Concede acesso a Administrador > Feeds de dados na navegação superior do Analytics. |
 | [!UICONTROL Gerenciador das fontes de dados] | Concede acesso a Administrador > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
 | [!UICONTROL API de reparo de dados] | Concede acesso à API de reparo de dados |
 | [!UICONTROL Métricas padrão] | Concede acesso a Configurações individuais do Conjunto de relatórios > Métricas padrão no Gerenciador de conjunto de relatórios. |
@@ -39,15 +39,15 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | [!UICONTROL Pesquisa paga] | Concede acesso a Geral > Detecção de pesquisa paga no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Regras de processamento] | Concede acesso a Geral > Regras de processamento e Gerais > Regras de bot no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Configuração de relatório em tempo real] | Concede acesso ao Tempo real no Gerenciador de conjunto de relatórios. Use o item de permissão &#39;Relatório em tempo real&#39; para conceder acesso ao relatório em si. |
-| [!UICONTROL Administradores do Gerenciador de atividades de relatórios] | Não usado. |
-| [!UICONTROL Acesso ao Gerenciador de atividades de relatórios] | Não usado. |
-| [!UICONTROL Gerenciamento de conjunto de relatórios] | Concede acesso ao Gerenciador de conjunto de relatórios, mas não permite alterações. |
+| [!UICONTROL Administradores do Gerenciador de Atividades de Relatórios] | Não usado. |
+| [!UICONTROL Acesso ao Gerenciador de Atividades de Relatórios] | Não usado. |
+| [!UICONTROL Gerenciamento do Conjunto de Relatórios] | Concede acesso ao Gerenciador de conjunto de relatórios, mas não permite alterações. |
 | [!UICONTROL Reportlet de imagem do painel de R&amp;A] | Não usado. |
 | [!UICONTROL Reportlet de medição de métrica do painel de R&amp;A] | Não usado. |
-| [!UICONTROL Reportlet de resumo do conjunto de relatórios do painel de R&amp;A] | Não usado. |
+| [!UICONTROL Reportlet de Resumo do Conjunto de Relatórios do Painel de R&amp;A] | Não usado. |
 | [!UICONTROL Reportlet de R&amp;A DashboardText] | Não usado. |
-| [!UICONTROL Reportlet de resumo do conjunto de relatórios do painel de R&amp;A] | Não usado. |
-| [!UICONTROL Reportlet externo do painel de R&amp;A] | Não usado. |
+| [!UICONTROL Reportlet de Resumo do Conjunto de Relatórios do Painel de R&amp;A] | Não usado. |
+| [!UICONTROL Reportlet Externo do Painel de R&amp;A] | Não usado. |
 | [!UICONTROL Eventos bem-sucedidos] | Concede acesso a Conversão > Eventos de sucesso no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Gerenciamento de tráfego] | Não usado. |
 | [!UICONTROL Variáveis de tráfego] | Concede acesso a Tráfego > Variáveis de tráfego no Gerenciador de conjunto de relatórios. |

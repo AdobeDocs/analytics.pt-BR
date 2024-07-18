@@ -27,7 +27,7 @@ A ativação de `linkLeaveQueryString` se aplica a todas as dimensões de rastre
 
 ## Lidar com cadeias de caracteres de consulta de link usando o SDK da Web
 
-As sequências de consulta não são removidas do campo XDM `web.webInteraction.URL`. Se quiser remover cadeias de caracteres de consulta deste campo XDM, você poderá editá-lo usando `onBeforeEventSend`.
+As cadeias de consulta não são removidas do campo XDM `web.webInteraction.URL`. Se quiser remover cadeias de caracteres de consulta deste campo XDM, você poderá editá-lo usando `onBeforeEventSend`.
 
 ## Manter parâmetros de URL usando a extensão do Adobe Analytics
 

@@ -15,7 +15,7 @@ ht-degree: 95%
 
 O Gerenciador de código permite que você baixe o código da coleção de dados para plataformas móveis e da Web.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciador de código]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Gerenciador de código]**.
 
 Após baixar a biblioteca, você deve configurar o código para enviar os dados ao servidor de rastreamento e conjunto de relatórios corretos. Recursos adicionais de implementação estão disponíveis no guia de usuário [Implementar](/help/implement/home.md).
 
@@ -25,5 +25,5 @@ Após baixar a biblioteca, você deve configurar o código para enviar os dados 
 |--- |--- |
 | [!UICONTROL Nome] | O nome é compatível com a plataforma na qual você deseja habilitar a coleção de dados. São oferecidas bibliotecas nativas para todas as plataformas listadas nesta coluna. |
 | [!UICONTROL Tipo] | Tipo de aplicativos que podem ser medidos usando todas as bibliotecas. |
-| [!UICONTROL Versão] | Liste a última versão da biblioteca. Clique no número de versão para exibir o [histórico de versões](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=pt-BR). |
+| [!UICONTROL Versão] | Liste a última versão da biblioteca. Clique no número de versão para exibir o [histórico de versões](https://experienceleague.adobe.com/pt-br/docs/analytics/implementation/appmeasurement-updates). |
 | [!UICONTROL Documentação] | Exibir a documentação de consulta da biblioteca. |

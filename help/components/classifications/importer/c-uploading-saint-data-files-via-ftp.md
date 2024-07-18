@@ -18,7 +18,7 @@ ht-degree: 73%
 >
 >O FTP não é recomendado porque é um método não criptografado de compartilhamento de arquivos, o que significa que qualquer pessoa pode interceptar o conteúdo do arquivo, bem como o nome de usuário e a senha usados para a conta.
 >
->Em vez disso, configure uma conta de nuvem conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md).
+>Em vez disso, configure uma conta de nuvem conforme descrito em [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md).
 
 Etapas que descrevem como fazer upload de arquivos de dados por FTP.
 
@@ -61,10 +61,10 @@ Veja [FTP e sFTP](/help/export/ftp-and-sftp/ftp-overview.md) para detalhes adici
    |---|---|
    | **Nome** | O nome da conta FTP. |
    | **Conjunto de dados a ser classificado** | Na lista suspensa, selecione o conjunto de dados (variável do relatório de marketing) que você deseja classificar. |
-   | **Selecionar Conjuntos de relatórios** | Selecione os conjuntos de relatórios nos quais deseja classificar o conjunto de dados selecionado. Para selecionar vários conjuntos de relatórios, as classificações de cada conjunto de relatórios selecionado devem ser idênticas. |
-   | **Substituir dados em conflitos** | Selecione essa opção para substituir os dados duplicados. Esta opção é útil se você deseja atualizar classificações existentes. Se você estiver no estado [arquitetura de classificação mais recente](../sets/overview.md), esta configuração é sempre ativada. |
-   | **Após a conclusão da importação** | Selecione essa opção para exportar automaticamente o conjunto de dados atualizado para a mesma conta FTP depois de especificar o endereço de email para receber notificações sobre essa conta FTP depois que a importação for concluída. Se você estiver no estado [arquitetura de classificação mais recente](../sets/overview.md), esta opção não está disponível. |
-   | **Destinatário da notificação** | Especifique o endereço de email para receber notificações sobre essa conta FTP. |
+   | **Selecionar Conjuntos de Relatórios** | Selecione os conjuntos de relatórios nos quais deseja classificar o conjunto de dados selecionado. Para selecionar vários conjuntos de relatórios, as classificações de cada conjunto de relatórios selecionado devem ser idênticas. |
+   | **Substituir Dados em Conflitos** | Selecione essa opção para substituir os dados duplicados. Esta opção é útil se você deseja atualizar classificações existentes. Se você estiver na [última arquitetura de classificação](../sets/overview.md), essa configuração sempre estará habilitada. |
+   | **Após a Conclusão da Importação** | Selecione essa opção para exportar automaticamente o conjunto de dados atualizado para a mesma conta FTP depois de especificar o endereço de email para receber notificações sobre essa conta FTP depois que a importação for concluída. Se você estiver na [última arquitetura de classificação](../sets/overview.md), essa opção não estará disponível. |
+   | **Destinatário da Notificação** | Especifique o endereço de email para receber notificações sobre essa conta FTP. |
    | **Autorizar** | (Obrigatório) Autoriza a Adobe a importar automaticamente todos os arquivos de dados enviados para a nova conta FTP. |
 
 1. Clique em **[!UICONTROL Salvar]**.

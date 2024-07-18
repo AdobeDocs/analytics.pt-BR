@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Mês
 
-O &#39;Mês&#39; [dimension](overview.md) relata o mês em que determinada métrica ocorreu. O primeiro item de dimensão é o primeiro mês no intervalo de datas, e o último item de dimensão é o último mês no intervalo de datas. Essa dimensão é essencial para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo.
+A [dimensão](overview.md) do &quot;Mês&quot; informa o mês em que determinada métrica ocorreu. O primeiro item de dimensão é o primeiro mês no intervalo de datas, e o último item de dimensão é o último mês no intervalo de datas. Essa dimensão é essencial para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo.
 
 ## Preencher esta dimensão com dados
 

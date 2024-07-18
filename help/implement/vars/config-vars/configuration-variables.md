@@ -21,7 +21,7 @@ Em implementações que usam a extensão SDK da Web ou a extensão do Analytics,
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Clique em [!UICONTROL Extensões] e clique em [!UICONTROL Configurar] na extensão.
+1. Clique na guia [!UICONTROL Extensões] e em [!UICONTROL Configurar] na extensão.
 
 Em implementações JavaScript que usam `AppMeasurement.js`, as variáveis de configuração normalmente são definidas no lugar do arquivo JS.
 

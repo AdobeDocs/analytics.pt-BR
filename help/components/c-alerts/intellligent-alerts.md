@@ -46,7 +46,7 @@ Há três maneiras de acessar o Criador de alertas:
 
 ## Perguntas frequentes: como os alertas são calculados e acionados {#trigger}
 
-Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, [modelos diferentes](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) são usados para calcular a distância (a quantidade de desvios padrão) de cada ponto de dados em relação à norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias se definir um limite mais alto (99%), Os limites 99,75% e 99,99% foram criados especificamente para a granularidade horária, de forma que não tantas anomalias não sejam acionadas.
+Os limites % são desvios padrão. Por exemplo, 95% = 2 desvios padrão e 99% = 3 desvios padrão. Dependendo da granularidade de tempo escolhida, os [modelos diferentes](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) são usados para calcular a distância (a quantidade de desvios padrão) de cada ponto de dados em relação à norma. Se você definir um limite mais baixo (como 90%), receberá mais anomalias se definir um limite mais alto (99%), Os limites 99,75% e 99,99% foram criados especificamente para a granularidade horária, de forma que não tantas anomalias não sejam acionadas.
 
 +++ Até que ponto a detecção de anomalias do alerta vai para determinar anomalias de dados?
 
@@ -73,7 +73,7 @@ Atualmente, não.
 
 +++ Posso obter uma tabela dos &quot;valores esperados&quot; que contém a linha pontilhada, ou algum tipo de saída do que são esses valores?
 
-Não no Espaço de trabalho, mas é possível no Report Builder. Consulte [este vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=pt-BR) sobre a Detecção de anomalias no Report Builder.
+Não no Workspace, mas você pode no Report Builder. Assista a [este vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=pt-BR) sobre a Detecção de anomalias no Report Builder.
 
 Lembre-se de que o Report Builder usa métodos de detecção de anomalias menos sofisticados. Ele usa um período fixo de treinamento de 30 dias, com intervalo fixo de 95%.
 

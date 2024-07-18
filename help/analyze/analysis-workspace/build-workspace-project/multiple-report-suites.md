@@ -6,20 +6,20 @@ role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 90%
+source-wordcount: '503'
+ht-degree: 89%
 
 ---
 
 # Vários conjuntos de relatórios
 
-Você pode criar projetos no Analysis Workspace com dados de mais de um conjunto de relatórios. Os conjuntos de relatórios são escolhidos no nível do painel, para que você possa escolher um conjunto de relatórios diferente para cada painel dentro do mesmo projeto do Workspace.
+Você pode criar projetos no Analysis Workspace com dados de mais de um conjunto de relatórios. Os conjuntos de relatórios são escolhidos no nível do painel, então é possível escolher um conjunto de relatórios diferente para cada painel dentro do mesmo projeto do Workspace.
 
 Esse recurso é útil se você desejar, por exemplo,
 
 * Comparar dados de duas regiões diferentes, e os dados estão em dois conjuntos de relatórios diferentes. É possível criar tabelas e visualizações para comparar os dados lado a lado.
 
-* Criar um painel de métricas e visualizações para gerar relatórios para outras organizações. Você pode extrair dados de vários conjuntos de relatórios para o no mesmo projeto.
+* Criar um painel de métricas e visualizações para gerar relatórios para outras organizações. Você pode extrair dados de vários conjuntos de relatórios para o mesmo projeto.
 
 Veja um vídeo sobre este assunto:
 

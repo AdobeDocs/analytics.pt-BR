@@ -12,7 +12,7 @@ ht-degree: 69%
 
 # Atribuição e tipo de métrica
 
-Quando [criação de uma métrica calculada](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), você pode especificar o tipo de métrica e o modelo de atribuição.
+Ao [criar uma métrica calculada](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), você pode especificar o tipo de métrica e o modelo de atribuição.
 
 ## Tipo de métrica
 
@@ -31,7 +31,7 @@ Para especificar o tipo de métrica ao criar uma métrica calculada:
 
 ## Como a alocação linear funciona
 
-[Atribuição](/help/analyze/analysis-workspace/attribution/overview.md) é como os modelos de alocação em métricas calculadas são avaliados.
+[A atribuição](/help/analyze/analysis-workspace/attribution/overview.md) é a maneira como os modelos de alocação em métricas calculadas são avaliados.
 
 Para obter uma lista completa de modelos de atribuição não padrão e janelas de retrospectiva com suporte, consulte [Modelos de atribuição e janelas de retrospectiva](/help/analyze/analysis-workspace/attribution/models.md).
 

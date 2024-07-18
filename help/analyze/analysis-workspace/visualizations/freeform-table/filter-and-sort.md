@@ -31,7 +31,7 @@ Você pode usar vários métodos para filtrar linhas de uma tabela de forma livr
 - Filtros de tabela
 - Segmentação
 
-Certifique-se de ler como cada método afeta [Totais de tabelas de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
+Leia como cada método afeta [os totais das tabelas de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Excluir rapidamente linhas específicas de uma tabela
 
@@ -39,7 +39,7 @@ Você pode excluir rapidamente linhas específicas da tabela sem precisar abrir 
 
 >[!NOTE]
 >
->Quando você exclui linhas conforme descrito nesta seção, uma [!UICONTROL **Sempre excluir itens**] A regra é aplicada automaticamente na caixa de diálogo de filtro avançado. (É possível exibir a regra aplicada selecionando o ícone Filtrar e, em seguida, [**[!UICONTROL Mostrar avançado]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+>Quando você exclui linhas conforme descrito nesta seção, uma regra [!UICONTROL **Sempre excluir itens**] é aplicada automaticamente na caixa de diálogo de filtro avançado. (Você pode exibir a regra aplicada selecionando o ícone Filtro e [**[!UICONTROL Mostrar avançado]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Para excluir rapidamente linhas específicas de uma tabela de forma livre:
 

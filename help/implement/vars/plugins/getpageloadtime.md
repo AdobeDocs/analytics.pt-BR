@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -15,6 +15,6 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Este plug-in não é mais suportado. Seu código usa o [`PerformanceTiming`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming) interface, que está obsoleta na maioria dos navegadores modernos.
+>Não há mais suporte para este plugin. Seu código usa a interface [`PerformanceTiming`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming), que está obsoleta na maioria dos navegadores modernos.
 
-A variável `getPageLoadTime` O plug-in usou o objeto de desempenho JavaScript para permitir que você meça a quantidade de tempo que uma página leva para carregar completamente. Como esse plug-in não é mais suportado, as instruções de instalação e o código do plug-in não estão mais disponíveis.
+O plug-in `getPageLoadTime` usou o objeto de desempenho JavaScript para permitir que você meça a quantidade de tempo que uma página leva para carregar completamente. Como esse plug-in não é mais suportado, as instruções de instalação e o código do plug-in não estão mais disponíveis.

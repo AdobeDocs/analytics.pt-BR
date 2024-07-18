@@ -25,13 +25,13 @@ Para ver dados de pesquisa do Advertising Analytics no Analytics, é necessário
    >
    >A ID do AMO se refere à variável do Adobe Advertising Cloud (também conhecida como Adobe Media Optimizer) na qual os dados de pesquisa serão inseridos.
 
-1. Selecionar **[!UICONTROL Desconhece o Advertising Analytics? Clique aqui para saber mais]** para obter mais informações sobre o Advertising Analytics.
+1. Selecione **[!UICONTROL Não está familiarizado com o Advertising Analytics? Clique aqui para saber mais]** para obter mais informações sobre o Advertising Analytics.
 
 1. Defina a alocação e a expiração da variável que você deseja que a variável da ID do AMO use. As variáveis de conversão (eVars) permitem que o Adobe Analytics atribua eventos bem-sucedidos a valores de variáveis específicas. Às vezes, as variáveis encontram mais de um valor antes da ocorrência de um evento bem-sucedido. Nesses casos, a alocação determina qual valor de variável deve receber o crédito pelo evento.
 
    | Configuração | Definição |
    |--- |--- |
-   | **[!UICONTROL Alocação]** | Selecione entre:<br/> **[!UICONTROL Valor original (primeiro)]**: o primeiro valor visto obtém crédito de alocação total, independentemente dos valores subsequentes dessa variável. <br/>**[!UICONTROL Mais recente (último)]**: o último valor visto obtém crédito de alocação total para o evento bem-sucedido, independentemente das variáveis que foram acionadas antes dele. |
+   | **[!UICONTROL Alocação]** | Selecionar entre:<br/> **[!UICONTROL Valor Original (Primeiro)]**: o primeiro valor visto obtém crédito de alocação total, independentemente dos valores subsequentes dessa variável. <br/>**[!UICONTROL Mais recente (último)]**: o último valor visto obtém crédito de alocação total para o evento bem-sucedido, independentemente das variáveis acionadas antes dele. |
    | **[!UICONTROL Expirar após]** | Permite especificar o período ou evento após o qual o valor do eVar expira (ou seja, não recebe mais crédito por eventos bem-sucedidos).  Se um evento bem-sucedido ocorrer após a expiração da eVar, o valor Nenhum receberá o crédito pelo evento (nenhuma eVar estava ativa). |
 
-1. Clique em **[!UICONTROL Habilitar Relatórios do Advertising Analytics]** (primeiro momento) ou **[!UICONTROL Atualizar Relatórios do Advertising Analytics]** (momentos subsequentes). Seu conjunto de relatórios está pronto para receber dados de pesquisa do Advertising Analytics. Agora você está pronto para [criar contas publicitárias](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+1. Clique em **[!UICONTROL Habilitar Relatórios do Advertising Analytics]** (primeiro momento) ou **[!UICONTROL Atualizar Relatórios do Advertising Analytics]** (momentos subsequentes). Seu conjunto de relatórios está pronto para receber dados de pesquisa do Advertising Analytics. Agora você está pronto para [criar Contas do Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).

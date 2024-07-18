@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '646'
 ht-degree: 100%
 
 ---
@@ -57,10 +57,10 @@ Veja um vídeo com uma visão geral:
       * Mostrar números negativos: por exemplo, se estiver traçando uma métrica anual, o mapa pode apresentar -33% em Nova York.
       * Com métricas do tipo “percentual”, o clustering faz uma média das porcentagens.
       * Um esquema de cores verde/vermelho: Positivo/Negativo
+
    * **Girar** o mapa em 2D ou 3D ao manter pressionada a tecla [!UICONTROL Ctrl] e mover o mapa.
 
    * **Alternar** para uma exibição diferente, como mapa de calor, usando as [configurações](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritas abaixo. Observe que a exibição de propagação é a configuração padrão.
-
 
 1. **Salve** o projeto para salvar todas as configurações do mapa (coordenadas, zoom, rotação).
 1. A tabela de forma livre, abaixo da visualização, pode ser preenchida ao arrastar nas métricas e dimensões de localização do painel esquerdo:

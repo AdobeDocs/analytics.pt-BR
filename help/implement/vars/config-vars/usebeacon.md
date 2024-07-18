@@ -25,20 +25,20 @@ A variável `useBeacon` é ignorada quando o visitante usa um navegador sem supo
 
 ## Usar a API sendBeacon usando a extensão SDK da Web
 
-A variável **[!UICONTROL O documento será descarregado]** a caixa de seleção em uma Configuração de ação determina se os dados enviados para o Adobe usam a API sendBeacon.
+O **[!UICONTROL Documento descarregará a caixa de seleção]** em uma Configuração de ação que determina se os dados enviados para o Adobe usam a API sendBeacon.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Vá para a [!UICONTROL Regras] e clique na regra desejada.
-1. Em [!UICONTROL Ações], clique na Ação desejada ou clique na guia **&#39;+&#39;** ícone para adicionar uma nova ação.
-1. Defina o [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Adobe Experience Platform Web SDK]** e a variável [!UICONTROL Tipo de ação] para **[!UICONTROL Enviar evento]**
-1. Clique na caixa de seleção **[!UICONTROL O documento será descarregado]** à direita.
+1. Vá para a guia [!UICONTROL Regras] e clique na regra desejada.
+1. Em [!UICONTROL Ações], clique na Ação desejada ou clique no ícone **&#39;+&#39;** para adicionar uma nova ação.
+1. Defina a lista suspensa [!UICONTROL Extensão] como **[!UICONTROL Adobe Experience Platform Web SDK]** e o [!UICONTROL Tipo de Ação] como **[!UICONTROL Enviar evento]**
+1. Clique na caixa de seleção **[!UICONTROL Documento será descarregado]** à direita.
 
 Se essa caixa estiver marcada, os dados serão enviados para o Adobe usando a API sendBeacon. Ela está desmarcada por padrão.
 
 ## Usar a API sendBeacon implementando manualmente o SDK da Web
 
-Definir `documentUnloading` para `true` ao enviar um evento. Se não for definido, o valor padrão será `false`.
+Definir `documentUnloading` como `true` ao enviar um evento. Se não estiver definido, seu valor padrão é `false`.
 
 ```json
 alloy("sendEvent", {
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-Consulte [Utilização da API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) na documentação do SDK da Web para obter mais informações.
+Consulte [Usando a API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) na documentação do SDK da Web para obter mais informações.
 
 ## Usar beacon usando a extensão do Adobe Analytics
 

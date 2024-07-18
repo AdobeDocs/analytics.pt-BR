@@ -42,7 +42,7 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | [!UICONTROL Criação de segmentos] | Concede a capacidade de criar e compartilhar segmentos em todos os recursos do Analytics. |
 | [!UICONTROL Publicação de segmento] | Concede a capacidade de tornar um segmento um público-alvo da Experience Cloud ao criar ou editar um segmento. |
 | [!UICONTROL Uso de chamadas do servidor] | Concede acesso a Administrador > Uso de chamada de servidor. |
-| [!UICONTROL Compartilhar links de projeto com qualquer pessoa] | Concede a capacidade de conceder acesso somente leitura a projetos do Analysis Workspace a pessoas que não têm acesso ao Adobe Analytics. |
+| [!UICONTROL Compartilhar Links de Projeto com Qualquer Pessoa] | Concede a capacidade de conceder acesso somente leitura a projetos do Analysis Workspace a pessoas que não têm acesso ao Adobe Analytics. |
 | [!UICONTROL Suporte] | Concede acesso a Administrador > Configurações da empresa > Informações de suporte. |
 | [!UICONTROL Gerenciamento de tráfego] | Concede acesso a Administrador > Todos os administradores > Gerenciamento de tráfego. |
 | [!UICONTROL Acesso aos serviços da Web] | Concede a capacidade de usar a API, incluindo autenticação com sites de terceiros e envio de chamadas de API. |

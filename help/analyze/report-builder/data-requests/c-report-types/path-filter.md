@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 63%
+source-wordcount: '426'
+ht-degree: 62%
 
 ---
 
@@ -21,7 +21,7 @@ Esse exemplo usa Caminhos de seção do site.
 1. Selecione o conjunto de relatórios apropriado.
 1. Na visualização de árvore, selecione **[!UICONTROL Caminhos]** > **[!UICONTROL Seções do site]** > **[!UICONTROL Caminhos de seção do site]**.
 
-   ![Captura de tela mostrando os Caminhos de seção do site selecionados.](assets/site_section_path_1.png)
+   ![Captura de tela mostrando os Caminhos de Seção do Site selecionados.](assets/site_section_path_1.png)
 
 1. Especifique as datas apropriadas.
 
@@ -33,7 +33,7 @@ Esse exemplo usa Caminhos de seção do site.
 
 1. Selecione a opção **[!UICONTROL Filtrar]**.
 
-   ![Captura de tela destacando a opção Filtrar.](assets/filter_option.png)
+   ![Captura de tela destacando a opção Filtro.](assets/filter_option.png)
 
 1. Na caixa de diálogo **[!UICONTROL Definir padrão de caminho &#39;Caminhos de seção do site&#39;]**, você pode especificar
    * A classificação inicial do primeiro relatório.
@@ -68,8 +68,8 @@ Esse exemplo usa Caminhos de seção do site.
 
 1. Mova elementos da coluna **[!UICONTROL Elementos disponíveis]** para a coluna **[!UICONTROL Elementos selecionados]** ao selecioná-los e clicando na seta laranja. Clique em **[!UICONTROL OK]**.
 
-   ![Captura de tela mostrando os Elementos disponíveis e os Elementos selecionados.](assets/move_site_section_elements.png)
+   ![Captura de tela mostrando os Elementos Disponíveis e os Elementos Selecionados.](assets/move_site_section_elements.png)
 
 1. Para salvar o padrão estabelecido, clique em **[!UICONTROL Salvar]**.
 
-1. Clique em **[!UICONTROL OK]** três vezes e clique em **[!UICONTROL Concluir]** para gerar o caminho filtrado.
+1. Clique em **[!UICONTROL OK]** três vezes e em **[!UICONTROL Concluir]** para gerar o caminho filtrado.

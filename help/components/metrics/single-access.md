@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Acesso único
 
-O &quot;Acesso único&quot; [métrica](overview.md) mostra o número de visitas em que o item de dimensão continha apenas um único valor único para toda a visita. Essa métrica é útil no contexto de qualquer dimensão em que você quer ver quais itens de dimensão estagnaram durante uma visita.
+A [métrica](overview.md) de &quot;Acesso único&quot; mostra o número de visitas em que o item de dimensão continha apenas um único valor único para toda a visita. Essa métrica é útil no contexto de qualquer dimensão em que você quer ver quais itens de dimensão estagnaram durante uma visita.
 
 ## Como essa métrica é calculada
 

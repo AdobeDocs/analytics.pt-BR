@@ -38,9 +38,9 @@ Por exemplo, você pode programar a entrega imediata de pastas de trabalho ou co
 1. Na barra de ferramentas do Report Builder, clique em **[!UICONTROL Agendamento]**.
 
    A guia [!UICONTROL Relatórios agendados] resume todas as tarefas que você tiver criado, bem como o número de tarefas restantes.
-1. No **[!UICONTROL Relatórios Agendados]** clique em **[!UICONTROL Novo]**. O Assistente básico de agendamento mostra as opções usadas para definir o relatório agendado.
+1. Na guia **[!UICONTROL Relatórios agendados]**, clique em **[!UICONTROL Novo]**. O Assistente básico de agendamento mostra as opções usadas para definir o relatório agendado.
 
-   ![Captura de tela mostrando o Assistente básico de agendamento.](assets/simple-schedule-wizard.png)
+   ![Captura de tela mostrando o Assistente Básico de Agendamento.](assets/simple-schedule-wizard.png)
 
 1. No [!UICONTROL Assistente básico de agendamento], configure as seguintes opções:
 

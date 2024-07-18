@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Link de download
 
-O &#39;link de download&#39; [dimension](overview.md) O relata os nomes dos links de download implementados em seu site. Essa dimensão é importante quando você deseja saber mais sobre o comportamento do visitante em links de download, como:
+A [dimensão](overview.md) do &#39;Link de download&#39; relata os nomes dos links de download implementados em seu site. Essa dimensão é importante quando você deseja saber mais sobre o comportamento do visitante em links de download, como:
 
 * Determine os arquivos que são transferidos por download com mais frequência do site.
 * Entenda se certos arquivos que são transferidos por download com mais frequência durante períodos de tempo específicos.

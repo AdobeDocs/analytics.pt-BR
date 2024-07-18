@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Semana
 
-A &#39;Semana&#39; [dimension](overview.md) relata a semana em que determinada métrica ocorreu. O primeiro item de dimensão é a primeira semana no intervalo de datas, e o último item de dimensão é a última semana no intervalo de datas. Essa dimensão é essencial para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo.
+A [dimensão](overview.md) &#39;Semana&#39; informa a semana em que determinada métrica ocorreu. O primeiro item de dimensão é a primeira semana no intervalo de datas, e o último item de dimensão é a última semana no intervalo de datas. Essa dimensão é essencial para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo.
 
 ## Preencher esta dimensão com dados
 

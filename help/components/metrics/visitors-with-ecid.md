@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '361'
 ht-degree: 93%
 
 ---
 
 # Visitantes com Experience Cloud ID
 
-Os &quot;Visitantes com Experience Cloud ID&quot; [métrica](overview.md) mostra o número de visitantes únicos que foram identificados pelo Adobe usando o [Serviço de ID do Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). Essa métrica pode ser útil para comparar com a métrica [Visitantes únicos](unique-visitors.md) e garantir que a maioria dos visitantes do site usem o serviço de ID. Se uma grande parte dos visitantes não usar os cookies do serviço de ID, pode haver um problema na implementação.
+A [métrica](overview.md) de &quot;Visitantes com ID de Experience Cloud&quot; mostra o número de visitantes únicos identificados por Adobe usando o [serviço de ID de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). Essa métrica pode ser útil para comparar com a métrica [Visitantes únicos](unique-visitors.md) e garantir que a maioria dos visitantes do site usem o serviço de ID. Se uma grande parte dos visitantes não usar os cookies do serviço de ID, pode haver um problema na implementação.
 
 >[!NOTE]
 >

@@ -20,11 +20,11 @@ Este artigo fornece detalhes sobre o relatório do Analysis Workspace e os relat
 
 ## Relatório de pesquisa paga {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Este relatório permite que qualquer pessoa que implemente a integração de mecanismo de pesquisa tenha acesso aos dados do mecanismo de pesquisa no Analytics. É possível acessá-lo via **[!UICONTROL Workspace]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Aquisição]** > **[!UICONTROL Advertising Analytics: pesquisa paga]**
+Este relatório permite que qualquer pessoa que implemente a integração de mecanismo de pesquisa tenha acesso aos dados do mecanismo de pesquisa no Analytics. Você pode acessá-lo via **[!UICONTROL Workspace]** > **[!UICONTROL Relatórios]** > **[!UICONTROL Aquisição]** > **[!UICONTROL Advertising Analytics: pesquisa paga]**
 
 >[!NOTE]
 >
->O relatório Pesquisa paga estará visível para todos os clientes, mesmo se você não tiver implementado nenhuma Conta publicitária. Se você tentar abrir o Relatório de pesquisa paga para uma empresa que não foi provisionada, uma mensagem de erro explicará que você não configurou nenhuma conta de mecanismo de pesquisa. Selecionar **[!UICONTROL Configurar agora]**, que leva você ao [Configuração de conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) tela.
+>O relatório Pesquisa paga está visível a todos os clientes, mesmo se você não tiver implementado nenhuma Conta da Advertising. Se você tentar abrir o Relatório de pesquisa paga para uma empresa que não foi provisionada, uma mensagem de erro explicará que você não configurou nenhuma conta de mecanismo de pesquisa. Selecione **[!UICONTROL Configurar Agora]**, para acessar a tela [Configuração de Conta do Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 

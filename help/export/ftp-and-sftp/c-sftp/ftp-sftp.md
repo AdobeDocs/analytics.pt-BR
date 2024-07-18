@@ -21,7 +21,7 @@ Isto significa que os servidores da Adobe “forçam” o envio do arquivo para 
 
 O [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) e o [Feed de dados do Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=pt-BR) podem enviar dados por SFTP.
 
-Report Builder **não é possível** enviar dados via SFTP.
+Report Builder **não pode** enviar dados via SFTP.
 
 ## Envio próprio {#section_FA29FAEF02FE40B8B32452146A036F48}
 

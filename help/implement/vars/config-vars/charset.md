@@ -23,7 +23,7 @@ Atualmente, o SDK da Web é compatível apenas com UTF-8 e não fornece opções
 
 ## Conjunto de caracteres na extensão do Adobe Analytics
 
-O Conjunto de caracteres é um campo sob a [!UICONTROL Geral] ao configurar a extensão do Adobe Analytics na Coleção de dados da Adobe Experience Platform.
+O Conjunto de caracteres é um campo da opção [!UICONTROL Geral] ao configurar a extensão do Adobe Analytics na Coleção de dados da Adobe Experience Platform.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.

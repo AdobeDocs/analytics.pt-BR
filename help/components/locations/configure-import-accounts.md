@@ -17,38 +17,44 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->Considere o seguinte ao criar e editar contas: <ul><li>Os administradores do sistema podem impedir que os usuários criem contas, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</li><li>Uma conta só pode ser editada pelo usuário que a criou ou por um administrador do sistema.</li></ul>
+>Considere o seguinte ao criar e editar contas: <ul><li>Os administradores do sistema podem impedir que os usuários criem contas, conforme descrito em [Configurar se os usuários poderão criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</li><li>Uma conta só pode ser editada pelo usuário que a criou ou por um administrador do sistema.</li></ul>
 
 É possível configurar uma conta na nuvem usada para qualquer uma ou todas as seguintes finalidades:
 
-* Exportação de arquivos usando [Feeds de dados](/help/export/analytics-data-feed/create-feed.md)
-* Exportar relatórios usando [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Importação de esquemas usando o [Conjuntos de classificações](/help/components/classifications/sets/overview.md)
+* Exportando arquivos usando [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md)
+* Exportando relatórios usando [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Importando esquemas usando [Conjuntos de classificações](/help/components/classifications/sets/overview.md)
 
-Você precisa configurar o Adobe Analytics com as informações necessárias para acessar sua conta da nuvem. Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Google Cloud Platform e assim por diante) conforme descrito neste artigo e, em seguida, adicionar e configurar o local nessa conta (como uma pasta na conta), conforme descrito em [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md).
+Você precisa configurar o Adobe Analytics com as informações necessárias para acessar sua conta da nuvem. Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Plataforma da Google Cloud e assim por diante) conforme descrito neste artigo e, em seguida, adicionar e configurar o local nessa conta (como uma pasta na conta), conforme descrito em [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md).
 
 Para obter informações sobre como exibir e excluir contas existentes, consulte [Gerenciador de locais](/help/components/locations/locations-manager.md).
 
 Para configurar uma conta de importação ou exportação na nuvem:
 
-1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Localizações**].
-1. No [!UICONTROL Localizações] selecione a [!UICONTROL **Contas de localização**] guia.
-1. (Condicional) Se você for um administrador do sistema, poderá ativar a [!UICONTROL **Exibir contas para todos os usuários**] opção para exibir contas criadas por todos os usuários em sua organização.
+1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Locais**].
+1. Na página [!UICONTROL Locais], selecione a guia [!UICONTROL **Contas de locais**].
+1. (Condicional) Se você for um administrador do sistema, poderá habilitar a opção [!UICONTROL **Exibir contas para todos os usuários**] para exibir as contas criadas por todos os usuários em sua organização.
    ![exibir contas para todos os usuários](assets/accounts-all-users.png)
 1. Para criar uma nova conta, selecione [!UICONTROL **Adicionar conta**].
 
-   A variável [!UICONTROL **Detalhes da conta de localização**] é exibida.
+   A caixa de diálogo [!UICONTROL **Detalhes da conta de localização**] é exibida.
 
    Ou
 
-   Para editar uma conta existente, localize a conta que deseja editar e selecione a [!UICONTROL **Editar detalhes**] botão.
+   Para editar uma conta existente, localize a conta que deseja editar e selecione o botão [!UICONTROL **Editar detalhes**].
 
-   A variável [!UICONTROL **Adicionar conta**] é exibida.
+   A caixa de diálogo [!UICONTROL **Adicionar conta**] é exibida.
 
-1. Especifique as seguintes informações: |Campo | Função | |—|—| | [!UICONTROL **Nome da conta de localização**] | O nome da conta de localização. Este nome aparece ao criar um local | | [!UICONTROL **Descrição da conta de localização**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. | | [!UICONTROL **Disponibilizar a conta a todos os usuários em sua organização**] | Habilite essa opção para permitir que outros usuários em sua organização usem a conta.<p>Considere o seguinte ao compartilhar contas:</p><ul><li>As contas compartilhadas não podem ter o compartilhamento cancelado.</li><li>As contas compartilhadas podem ser editadas somente pelo proprietário da conta.</li><li>Qualquer pessoa pode criar um local para a conta compartilhada.</li></ul> | | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta de cada tipo, com os vários locais necessários contidos nessa conta.<p>Os administradores do sistema podem limitar os tipos de conta que os usuários podem criar, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</p> |
-1. No [!UICONTROL **Propriedades da conta**] especifique as informações específicas ao tipo de conta selecionado.
+1. Especifique as seguintes informações:
+|Campo | Função |
+|—|—|
+| [!UICONTROL **Nome da conta de localização**] | O nome da conta de localização. Este nome aparece ao criar um local |
+| [!UICONTROL **Descrição da conta de localização**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. |
+| [!UICONTROL **Disponibilizar a conta para todos os usuários em sua organização**] | Habilite essa opção para permitir que outros usuários em sua organização usem a conta.<p>Considere o seguinte ao compartilhar contas:</p><ul><li>As contas compartilhadas não podem ter o compartilhamento cancelado.</li><li>As contas compartilhadas podem ser editadas somente pelo proprietário da conta.</li><li>Qualquer pessoa pode criar um local para a conta compartilhada.</li></ul> |
+| [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta de cada tipo, com os vários locais necessários contidos nessa conta.<p>Os administradores do sistema podem limitar os tipos de conta que os usuários podem criar, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</p> |
+1. Na seção [!UICONTROL **Propriedades da conta**], especifique informações específicas para o tipo de conta selecionado.
 
-   Para obter instruções de configuração, expanda a seção abaixo que corresponde à variável [!UICONTROL **Tipo de conta**] selecionado. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
+   Para obter instruções de configuração, expanda a seção abaixo que corresponde ao [!UICONTROL **Tipo de conta**] selecionado. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
 
    **Tipos de conta**
 
@@ -85,7 +91,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
    | [!UICONTROL **ID do aplicativo**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **ID do locatário**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **URI do cofre de chaves**] | <p>O caminho para o token SAS no cofre de chaves do Azure.  Para configurar o Azure SAS, você deve armazenar um token SAS como um segredo usando o Cofre de Chaves do Azure. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Depois que o URI do cofre de chaves for criado, adicione uma política de acesso no Cofre de Chaves para conceder permissão ao aplicativo do Azure que você criou. Para obter informações, consulte a [documentação do Microsoft Azure sobre como atribuir uma política de acesso do cofre de chaves](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-   | [!UICONTROL **Nome secreto do cofre de chaves**] | O nome secreto criado ao adicionar o segredo ao Cofre de Chaves do Azure. No Microsoft Azure, essas informações estão localizadas no Cofre de Chaves que você criou, na **Cofre da Chave** página de configurações. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+   | [!UICONTROL **Nome secreto do cofre de chaves**] | O nome secreto criado ao adicionar o segredo ao Cofre de Chaves do Azure. No Microsoft Azure, essas informações estão localizadas no Cofre de Chaves que você criou, na página de configurações do **Cofre de Chaves**. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
    | [!UICONTROL **Segredo da conta de localização**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Certificados e segredos** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
    {style="table-layout:auto"}
@@ -110,7 +116,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    >[!NOTE]
    >
-   >Contas de email podem ser usadas somente com [Feeds de dados](/help/export/analytics-data-feed/create-feed.md). (Contas de email não são compatíveis com o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Conjuntos de classificações](/help/components/classifications/sets/overview.md)).
+   >Contas de email podem ser usadas apenas com [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md). (Contas de email sem suporte no [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Conjuntos de classificações](/help/components/classifications/sets/overview.md)).
 
    Para configurar uma conta do Azure RBAC, especifique as seguintes informações:
 
@@ -124,7 +130,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    **Tipos de conta herdada**
 
-   Esses tipos de conta herdados estão disponíveis somente ao exportar dados com [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Essas opções não estão disponíveis ao importar dados com o [Conjuntos de classificações](/help/components/classifications/sets/manage/schema.md).
+   Esses tipos de contas herdadas estão disponíveis apenas ao exportar dados com [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Estas opções não estão disponíveis ao importar dados com [Conjuntos de classificações](/help/components/classifications/sets/manage/schema.md).
 
    +++FTP
 
@@ -135,7 +141,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
    | [!UICONTROL **Host**] | Insira o URL de destino FTP desejado. Por exemplo, `ftp://ftp.omniture.com`. |
    | [!UICONTROL **Caminho**] | Pode ser deixado em branco. |
    | [!UICONTROL **Nome de usuário**] | Insira o nome de usuário para fazer logon no site FTP. |
-   | [!UICONTROL **Senha e confirmação da senha**] | Digite a senha para fazer logon no site FTP. |
+   | [!UICONTROL **Senha e senha de confirmação**] | Digite a senha para fazer logon no site FTP. |
 
    {style="table-layout:auto"}
 
@@ -194,4 +200,4 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
 1. Selecione [!UICONTROL **Salvar**].
 
-1. Continuar com [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md).
+1. Continuar com [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md).

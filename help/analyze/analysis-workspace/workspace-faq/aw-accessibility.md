@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ O [!UICONTROL Analysis Workspace] fornece algumas ferramentas que o tornam acess
 
 A navegação no [!UICONTROL Analysis Workspace] funciona de cima > para baixo e da esquerda > à direita. Os seguintes elementos de navegação facilitam a acessibilidade:
 
-* A tecla `Tab` ativa atalhos de marcos, alternando entre seções maiores no Workspace. No painel à esquerda, `Tab` também permite mover de uma opção arrastável para a próxima.
+* A tecla `Tab` habilita atalhos de marcos, com movimentação entre seções maiores no Workspace. No painel à esquerda, `Tab` também permite mover de uma opção arrastável para a próxima.
 * A movimentação `left/right arrows` entre elementos individuais depois de `Tab` realçá-la.
 * O `F6` navega até o primeiro painel no projeto e se move entre as visualizações nesse painel. Em seguida, ele é movido para o próximo painel no projeto e é repetido.
 * Nós aplicamos indicadores de foco para que os usuários de teclado com visão tenham uma indicação clara de qual elemento de interface do usuário tem foco no momento. O indicador é uma borda azul em torno do elemento selecionado.
 
-   ![Indicador de foco](assets/focus-indicator.png)
+  ![Indicador de foco](assets/focus-indicator.png)
 
 ### Navegação do teclado para a barra de menu
 

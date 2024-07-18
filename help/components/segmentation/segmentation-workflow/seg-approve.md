@@ -16,7 +16,7 @@ No Gerenciador de segmentos você pode configurar um fluxo de trabalho que inclu
 
 >[!NOTE]
 >
->Os administradores também podem aprovar segmentos (e outros componentes) pelo Dicionário de dados, conforme descrito em [Editar entradas de componentes no Dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>Os administradores também podem aprovar segmentos (e outros componentes) do Dicionário de Dados, conforme descrito em [Editar entradas de componentes no Dicionário de Dados](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 >
 >Quaisquer segmentos aprovados no Dicionário de dados são refletidos no Gerenciador de segmentos. Da mesma forma, as métricas aprovadas no Gerenciador de segmentos são refletidas no Dicionário de dados.
 

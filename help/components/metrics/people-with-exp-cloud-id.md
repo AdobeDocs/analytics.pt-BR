@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Como essa métrica é calculada
 
-Considerando cada [Pessoas](people.md)[](overview.md) (identificadas ou não identificadas), essa métrica aumenta se o hit contiver a sequência de consulta `mid` (com base no cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR)).
+Considerando cada [Pessoas](people.md) (identificadas ou não identificadas), esta [métrica](overview.md) aumenta se a ocorrência contiver a cadeia de caracteres de consulta `mid` (com base no cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR)).
 
 Você pode criar a métrica calculada `[People with ECID] ÷ [People]` para obter a porcentagem de visitantes do site usando o serviço de ID.
 

@@ -68,7 +68,7 @@ As contas de mecanismo de pesquisa incluem o Google AdWords e o Microsoft Bing.
 
 +++ Onde acesso o Advertising Analytics?
 
-Depois de fazer logon no Adobe Analytics, navegue até o [!UICONTROL Admin]. Em seguida, selecione [!UICONTROL Advertising Analytics] para adicionar as contas do mecanismo de pesquisa.
+Depois de fazer logon no Adobe Analytics, navegue até [!UICONTROL Admin]. Em seguida, selecione [!UICONTROL Advertising Analytics] para adicionar suas contas de mecanismo de pesquisa.
 
 +++
 
@@ -97,7 +97,7 @@ Não, os dados brutos de pesquisa entrarão como um conjunto de dados independen
 
 +++ Qual é a definição dos vários indicadores de status para minhas contas (Pendente, Ativo, Pausado etc.)? Cada um desses indicadores de status identifica o estágio do ciclo de vida de cada conta de mecanismo de pesquisa.
 
-* [!UICONTROL Pending]
+* [!UICONTROL Pendente]
 * [!UICONTROL Pausado] significa que a conta já tinha sido configurada mas foi colocada em um estado de inatividade.
 * [!UICONTROL Ativo] significa que a conta foi totalmente configurada e está transferindo os dados de pesquisa.
 
@@ -105,7 +105,7 @@ Não, os dados brutos de pesquisa entrarão como um conjunto de dados independen
 
 +++ Estou tentando mapear minhas contas do Advertising Analytics para um conjunto de relatórios específico, mas não está disponível no modal do Conjunto de relatórios. Por quê?
 
-Antes de atribuir um conjunto de relatórios a uma conta do Advertising Analytics, o conjunto de relatórios desejado precisa ser [provisionado para relatórios do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Antes de atribuir um conjunto de relatórios a uma conta do Advertising Analytics, o conjunto de relatórios desejado precisa ser [provisionado para os relatórios do Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 Isso é feito por meio de uma página de Admin separada, acessível em: Administração > Conjuntos de relatórios > `[select report suite]` > Editar configurações > Configuração do Advertising Analytics.
 
 +++
@@ -116,7 +116,7 @@ Os conjuntos de relatórios virtuais não coletam dados, portanto, não é poss�
 
 +++
 
-+++ As métricas do Advertising Analytics podem ser relatadas no *Canais de marketing* relatório?
++++ Há métricas do Advertising Analytics reportáveis no relatório *Canais de marketing*?
 
 Não, elas não estão incluídas no relatório de Canais de marketing.
 
@@ -154,7 +154,7 @@ A classificação da Plataforma de anúncio captura estes valores: &quot;Google 
 
 +++
 
-+++ Há planos para incluir outros canais de publicidade, como *Exibir* ou *Social*?
++++ Há planos para incluir outros canais de publicidade, como *Exibição* ou *Social*?
 
 Não, atualmente não temos planos para esses outros canais no roteiro.
 
@@ -163,7 +163,7 @@ Não, atualmente não temos planos para esses outros canais no roteiro.
 
 ## Rastreamento automático vs. manual {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Ao configurar minha conta publicitária, ela declara que *Rastreamento automático* pode ter consequências não intencionais. Que tipos de consequências pode ocorrer?
++++ Ao configurar minha conta do Advertising, ele declara que o *rastreamento automático* pode levar a consequências não intencionais. Que tipos de consequências pode ocorrer?
 
 O modo automático tenta anexar parâmetros de URL ao final dos modelos de rastreamento/URLs de destino no formato correto. No entanto, é sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página inicial final. O modo automático pode inserir palavras-chave ao URL de aterrissagem, e seu servidor da Web pode não ser compatível com palavras-chave com caracteres especiais.
 

@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '146'
 ht-degree: 85%
 
 ---
 
 # Toda a classificação da página de pesquisa
 
-A &quot;Toda a classificação da página de pesquisa&quot; [dimension](overview.md) O fornece informações sobre em qual página de resultados de pesquisa um visitante clicou para acessar seu site. Por exemplo, se o site for exibido na segunda página dos resultados de pesquisa de um mecanismo de pesquisa, o item de dimensão para essa variável será “Página de pesquisa 2”.
+A [dimensão](overview.md) de &quot;Toda classificação da página de pesquisa&quot; fornece informações sobre em qual página de resultados de pesquisa um visitante clicou para acessar seu site. Por exemplo, se o site for exibido na segunda página dos resultados de pesquisa de um mecanismo de pesquisa, o item de dimensão para essa variável será “Página de pesquisa 2”.
 
 ## Preencher esta dimensão com dados
 

@@ -5,7 +5,7 @@ feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '291'
 ht-degree: 78%
 
 ---
@@ -18,7 +18,7 @@ Isso consiste em selecionar o conjunto de relatórios e configurar até três re
 
 1. Selecione o conjunto de relatórios para o qual você deseja ativar os relatórios em tempo real.
 
-   1. No Analysis Workspace, selecione a variável [!UICONTROL **Workspace**] e selecione [!UICONTROL **Relatórios**] > [!UICONTROL **Envolvimento**] > **[!UICONTROL Tempo real]**.
+   1. No Analysis Workspace, selecione a guia [!UICONTROL **Workspace**] e selecione [!UICONTROL **Relatórios**] > [!UICONTROL **Envolvimento**] > **[!UICONTROL Tempo real]**.
 
    1. Selecione o conjunto de relatórios no menu suspenso na parte superior:
 
@@ -28,7 +28,7 @@ Isso consiste em selecionar o conjunto de relatórios e configurar até três re
 
       ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
 
-1. Selecionar **[!UICONTROL Configurar]** para executar o [!UICONTROL Gerenciador de conjunto de relatórios].
+1. Selecione **[!UICONTROL Configurar]** para executar o [!UICONTROL Gerenciador de Conjunto de Relatórios].
 
    (Também disponível em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador > Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Tempo real]**.)
 
@@ -55,7 +55,7 @@ Isso consiste em selecionar o conjunto de relatórios e configurar até três re
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Selecionar **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e exibir relatório]**.
+1. Selecione **[!UICONTROL Salvar]** ou **[!UICONTROL Salvar e exibir relatório]**.
 
    Após essa configuração inicial de relatório, pode levar até 20 minutos para que o streaming de dados tenha início. A partir de então, os dados estarão imediatamente disponíveis. Para saber mais sobre a exibição de relatórios em tempo real, consulte [Executar um Relatório em tempo real](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=pt-BR).
 

@@ -23,7 +23,7 @@ Os dados do tráfego de bot são armazenados em um repositório separado para ex
 
 >[!NOTE]
 >
->A rede de borda da Adobe Experience Platform fornece uma [serviço de detecção de bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=pt-BR) quais ocorrências de rótulos foram identificadas como sendo de bots. O processo de detecção de bot usado no Adobe Analytics é separado e não faz referência à pontuação de bot incluída nos dados que chegam pela Rede de borda. No entanto, os dois sistemas usam a mesma lista de bot IAB.
+>O Edge Network do Adobe Experience Platform fornece um [serviço de detecção de bot](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=pt-BR) que rotula as ocorrências identificadas como sendo de bots. O processo de detecção de bot usado no Adobe Analytics é separado e não faz referência à pontuação de bot incluída nos dados que chegam pelo Edge Network. No entanto, os dois sistemas usam a mesma lista de bot IAB.
 
 ## Atualizar ou carregar regras de bot
 
@@ -37,25 +37,25 @@ O vídeo a seguir demonstra como configurar regras de bot:
 
 Para atualizar ou fazer upload de regras de bot:
 
-1. Ir para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**.
+1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de Relatórios]**.
 
-1. Selecione o conjunto de relatórios no qual deseja atualizar as regras de bot e, em seguida, selecione **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de bot]**.
+1. Selecione o conjunto de relatórios no qual você deseja atualizar as regras de bot e selecione **[!UICONTROL Editar Configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de bot]**.
 
 1. Use qualquer uma das seguintes opções para atualizar ou fazer upload de regras de bot para o conjunto de relatórios:
 
-   * Selecionar [!UICONTROL **Ativar regras de filtragem de bot IAB**] para remover bots na Lista internacional Spiders e bots (International Advertising Bureau&#39;s) da IAB para remover o tráfego de bot.
+   * Selecione [!UICONTROL **Habilitar regras de filtragem de bots IAB**] para remover bots na Lista Internacional de spiders e bots (International Advertising Bureau&#39;s) da IAB para remover o tráfego de bot.
 
      Recomendamos que você selecione essa opção no mínimo.
 
      Para obter mais informações, consulte a seção abaixo, [Regras de bot IAB padrão](#standard-iab-bot-rules).
 
-   * Selecionar [!UICONTROL **Adicionar regra**] para definir e adicionar regras de bot personalizadas com base em agentes de usuário, endereços IP ou intervalos IP.
+   * Selecione [!UICONTROL **Adicionar regra**] para definir e adicionar regras de bot personalizadas com base em agentes de usuário, endereços IP ou intervalos IP.
 
      Para obter mais informações, consulte a seção abaixo, [Regras de bot personalizadas](#custom-bot-rules).
 
-   * Ao lado do [!UICONTROL **Selecione o arquivo CSV Bot para importar**] , selecione [!UICONTROL **Escolher arquivo**], em seguida, selecione o arquivo CSV que define as regras de bot.
+   * Ao lado da área [!UICONTROL **Selecionar arquivo de bot CSV a ser importado**], selecione [!UICONTROL **Escolher arquivo**] e selecione o arquivo CSV que define as regras de bot.
 
-     Para obter mais informações, consulte a seção abaixo, [Fazer upload de regras de bot](#upload-bot-rules).
+     Para obter mais informações, consulte a seção abaixo, [Carregar regras de bot](#upload-bot-rules).
 
 1. Selecione [!UICONTROL **Salvar**].
 
@@ -67,7 +67,7 @@ As regras de bot IAB padrão podem ser ativadas ao marcar a caixa de seleção [
 
 O Adobe não é capaz de fornecer a lista detalhada de bots da IAB para os clientes, no entanto você pode usar o Relatório de bots para ver uma lista de bots que acessaram seu site. Para enviar um bot para a lista IAB, visite [IAB](https://www.iab.com).
 
-Para obter informações sobre como ativar regras de bot IAB padrão em um conjunto de relatórios, consulte [Atualizar ou carregar regras de bot](#update-or-upload-bot-rules).
+Para obter informações sobre como habilitar regras de bot IAB padrão em um conjunto de relatórios, consulte [Atualizar ou carregar regras de bot](#update-or-upload-bot-rules).
 
 ## Regras de bot personalizadas
 
@@ -75,7 +75,7 @@ Para obter informações sobre como ativar regras de bot IAB padrão em um conju
 >
 >A interface de usuário permite a definição manual de 500 regras. Quando esse limite é alcançado, as regras precisam ser gerenciadas em massa por meio das opções Importar arquivo e Exportar regras de bot.
 
-As regras de bot personalizadas permitem filtrar as condições com base no tráfego que você define. Para iniciar o processo de ativação de regras de bot personalizadas em um conjunto de relatórios, consulte [Atualizar ou carregar regras de bot](#update-or-upload-bot-rules).
+As regras de bot personalizadas permitem filtrar as condições com base no tráfego que você define. Para iniciar o processo de habilitação de regras de bot personalizadas em um conjunto de relatórios, consulte [Atualizar ou carregar regras de bot](#update-or-upload-bot-rules).
 
 As regras de bot personalizadas são definidas usando os seguintes tipos de condição:
 
@@ -116,13 +116,13 @@ Forneça os valores inicial e final do intervalo de endereços IP que deseja enc
 
 Para as regras de bot de importação em massa, é possível fazer upload do arquivo CSV que define as regras.
 
-1. Para começar o processo de fazer upload das regras de bot para um conjunto de relatórios, consulte [Atualizar ou carregar regras de bot](#update-or-upload-bot-rules).
+1. Para começar o processo de carregar regras de bot para um conjunto de relatórios, consulte [Atualizar ou carregar regras de bot](#update-or-upload-bot-rules).
 
 1. Crie um arquivo CSV com as seguintes colunas, na linha 1 da planilha e na ordem apresentada:
 
    | Coluna 1, Linha 1 | Coluna 2, Linha 1 | Coluna 3, Linha 1 | Coluna 4, Linha 1 | Coluna 5, Linha 1 | Coluna 6, Linha 1 |
    |--- |--- |---|---|---|---|
-   | Nome do bot | Início do IP | IP Fim | Regra<br>(contém ou começa com)</br> | Inclusão do agente do usuário | Excluir agente usuário<br>(limite de 255 caracteres)</br> |
+   | Nome do bot | Início do IP | IP Fim | Regra<br>(contém ou começa com)</br> | Inclusão do agente do usuário | Exclusão de Agente do Usuário<br>(limite de 255 caracteres)</br> |
 
    É possível definir três tipos de regras de bot:
 
@@ -143,13 +143,13 @@ Para as regras de bot de importação em massa, é possível fazer upload do arq
 
    * **Correspondência de intervalo de IP**: Defina um intervalo de endereços IP usando as colunas IP início e IP fim. Os curingas podem ser usados para a correspondência dos intervalos de IP, por exemplo de `10.10.10.*` para `10.10.20.*`. Regra de correspondência, Incluir agente e Excluir agente devem estar vazios.
 
-1. Na página Regras de bot no Gerenciador de conjunto de relatórios, ao lado da [!UICONTROL **Selecione o arquivo CSV Bot para importar**] , selecione [!UICONTROL **Escolher arquivo**], em seguida, selecione o arquivo CSV que define as regras de bot que você deseja importar.
+1. Na página Regras de bot no Gerenciador de conjunto de relatórios, ao lado da área [!UICONTROL **Selecionar arquivo de bot CSV a ser importado**], selecione [!UICONTROL **Escolher arquivo**] e, em seguida, selecione o arquivo CSV que define as regras de bot que você deseja importar.
 
-1. (Opcional) Selecione a **[!UICONTROL Substituir regras existentes]** para excluir todas as regras existentes e substituí-las pelas regras definidas no arquivo de upload.
+1. (Opcional) Marque a caixa de seleção **[!UICONTROL Substituir todas as regras]** para excluir todas as regras existentes e substituí-las pelas regras definidas no arquivo de carregamento.
 
-1. Selecionar [!UICONTROL **Importar arquivo**].
+1. Selecione [!UICONTROL **Importar Arquivo**].
 
-1. No [!UICONTROL **Conjuntos de regras**] , revise as regras que foram importadas.
+1. Na área [!UICONTROL **Conjuntos de Regras**], examine as regras que foram importadas.
 
 1. Selecione [!UICONTROL **Salvar**].
 
@@ -157,11 +157,11 @@ Para as regras de bot de importação em massa, é possível fazer upload do arq
 
 Para exportar todas as regras definidas na interface em um formato CSV:
 
-1. Ir para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**.
+1. Vá para **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de Relatórios]**.
 
-1. Selecione o conjunto de relatórios que contém as regras de bot que você deseja exportar e selecione **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de bot]**.
+1. Selecione o conjunto de relatórios que contém as regras de bot que você deseja exportar e selecione **[!UICONTROL Editar Configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de bot]**.
 
-1. Selecionar **[!UICONTROL Exportar regras de bot]**, em seguida, salve o arquivo CSV no sistema de arquivos.
+1. Selecione **[!UICONTROL Exportar regras de bot]** e salve o arquivo CSV no sistema de arquivos.
 
 ## Impacto das regras de bot na coleta de dados {#section_F01A3130E7A04A9993371CF26F6586F2}
 

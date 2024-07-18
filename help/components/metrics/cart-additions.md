@@ -12,11 +12,11 @@ ht-degree: 74%
 
 # Adições ao carrinho
 
-As &quot;Adições ao carrinho&quot; [métrica](overview.md) mostra o número de vezes que um visitante adicionou algo ao carrinho. Essa métrica ajuda a entender a parte do funil de vendas em que os clientes estão interessados o suficiente em um produto para adicioná-lo ao carrinho.
+A [métrica](overview.md) de &quot;Adições ao carrinho&quot; mostra o número de vezes que um visitante adicionou algo ao carrinho. Essa métrica ajuda a entender a parte do funil de vendas em que os clientes estão interessados o suficiente em um produto para adicioná-lo ao carrinho.
 
 ## Como essa métrica é calculada
 
 Essa métrica conta o número de ocorrências em que `scAdd` existe na variável [`events`](/help/implement/vars/page-vars/events/events-overview.md).
 
-Consulte [Carrinhos](carts.md) para uma comparação de métricas.
+Consulte [Carrinhos](carts.md) para obter uma comparação de métricas.
 

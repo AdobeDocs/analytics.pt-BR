@@ -50,6 +50,6 @@ Essa arquitetura difere da anterior no sentido de que o Analysis Workspace já n
 * É possível adicionar várias visualizações e extraí-las de diferentes células na mesma tabela, como mostrado abaixo. A tabela é igual à mostrada no exemplo acima, mas a célula extraída e a métrica são diferentes:
 
   ![](assets/data-source3.png)>
-* Você pode ver se há visualizações conectadas a uma tabela de forma livre ou de coorte clicando no ponto no canto superior esquerdo (Configurações da fonte de dados). Passar o mouse destaca a visualização vinculada; para acessá-la, clique nela.
+* Você pode ver se há visualizações conectadas a uma tabela de forma livre ou de coorte clicando no ponto no canto superior esquerdo (Configurações do Data Source). Passar o mouse destaca a visualização vinculada; para acessá-la, clique nela.
 
   ![](assets/linked-visualizations.png)>

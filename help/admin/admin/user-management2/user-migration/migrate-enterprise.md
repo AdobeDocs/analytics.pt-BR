@@ -128,7 +128,7 @@ Se precisar migrar contas de usuário com Adobe ID para uma Enterprise ID ou Fed
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domínio </p> </td> 
-   <td colname="col2"> <p>Verifique se os domínios no <span class="term"> Domínio</span> e <span class="term"> E-mail</span> As colunas correspondem aos domínios estabelecidos nos pré-requisitos</a>. </p> </td> 
+   <td colname="col2"> <p>Verifique se os domínios na coluna <span class="term"> Domínio</span> e <span class="term"> Email</span> correspondem ao(s) domínio(s) estabelecido(s) nos pré-requisitos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código do país </p> </td> 

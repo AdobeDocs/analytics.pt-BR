@@ -12,10 +12,10 @@ ht-degree: 72%
 
 # Visualizações do carrinho
 
-As &quot;Visualizações do carrinho&quot; [métrica](overview.md) mostra o número de vezes que um visitante visualizou seu carrinho de compras. Essa métrica ajuda a entender a parte do funil de conversão em que os clientes visualizam o conteúdo em seus carrinhos.
+A [métrica](overview.md) de &quot;Visualizações do carrinho&quot; mostra o número de vezes que um visitante visualizou seu carrinho de compras. Essa métrica ajuda a entender a parte do funil de conversão em que os clientes visualizam o conteúdo em seus carrinhos.
 
 ## Como essa métrica é calculada
 
 Essa métrica conta o número de ocorrências em que `scView` existe na variável [`events`](/help/implement/vars/page-vars/events/events-overview.md).
 
-Consulte [Carrinhos](carts.md) para uma comparação de métricas.
+Consulte [Carrinhos](carts.md) para obter uma comparação de métricas.

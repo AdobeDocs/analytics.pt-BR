@@ -1,5 +1,5 @@
 ---
-description: O encaminhamento pelo lado do servidor foi projetado para clientes que desejam compartilhar dados do Analytics com outras soluções da Experience Cloud em tempo real. Quando habilitado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados a outras soluções da Experience Cloud e, consequentemente, que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
+description: O encaminhamento pelo lado do servidor foi projetado para clientes que desejam compartilhar dados do Analytics com outras soluções da Experience Cloud em tempo real. Quando habilitado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados para outras soluções da Experience Cloud e que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
 solution: Analytics
 title: Visão geral do encaminhamento pelo lado do servidor
 feature: Server-Side Forwarding
@@ -8,13 +8,13 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Visão geral do encaminhamento pelo lado do servidor
 
-O encaminhamento pelo lado do servidor foi projetado para clientes que desejam compartilhar dados do Analytics com outras soluções da Experience Cloud em tempo real. Quando habilitado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados a outras soluções da Experience Cloud e, consequentemente, que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
+O encaminhamento pelo lado do servidor foi projetado para clientes que desejam compartilhar dados do Analytics com outras soluções da Experience Cloud em tempo real. Quando habilitado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados para outras soluções da Experience Cloud e que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
 
 O encaminhamento pelo lado do servidor é aprimorado no momento da coleta de dados porque:
 
@@ -27,7 +27,7 @@ O encaminhamento pelo lado do servidor é aprimorado no momento da coleta de dad
 >Os clientes atuais do Audience Manager que utilizam o Analytics devem migrar para o encaminhamento pelo lado do servidor. Os novos clientes do Adobe Analytics e do Audience Manager devem implementar o encaminhamento pelo lado do servidor (em vez do DIL) como o método de transferência e coleta de dados padrão.
 
 >[!IMPORTANT]
->Por solicitação do regulamento de conformidade de cookies da UE, controladores de dados (clientes do Analytics) agora têm a opção de restringir dados pré-consentimento do Adobe Analytics e evitar que sejam encaminhados pelo lado do servidor para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, impede que essas ocorrências sejam enviadas para a Adobe Audience Manager até que o consentimento seja recebido. Para obter mais informações, consulte [Conformidade do GDPR_ePrivacy com o encaminhamento pelo lado do servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
+>Para atender à regulamentação de conformidade de cookies da UE, controladores de dados (clientes do Analytics) agora têm a opção de restringir dados de pré-consentimento no Adobe Analytics e evitar que sejam encaminhados pelo lado do servidor para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, evita que essas ocorrências sejam enviadas para o Adobe Audience Manager até que o consentimento seja recebido. Para obter mais informações, consulte [Conformidade do GDPR_ePrivacy com o encaminhamento pelo lado do servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Para entender onde sua organização está em termos de implementação do encaminhamento pelo lado do servidor, passe por essas etapas de validação:
 
@@ -50,12 +50,12 @@ Na guia &quot;Resposta&quot;, verifique se a resposta contém dados do Audience 
 * O **&quot;status&quot;:&quot;SUCCESS&quot;**: você tem o módulo de Gerenciamento de público-alvo implementado, mas o encaminhamento pelo lado do servidor não foi configurado corretamente. Prossiga para a etapa 3.
 * Uma **imagem 2 x 2**: você não possui o encaminhamento pelo lado do servidor ou o módulo de Gerenciamento de público-alvo implementado. Para corrigir isso:
 
-   * **Clientes da Adobe Audience Manager com DIL**: coordene os 2 itens a seguir em estreita conjunção:
+   * **Clientes do Adobe Audience Manager com DIL**: coordene os 2 seguintes itens em conjunto:
 
       1. Remova o código DIL e instale o código de página do [módulo de Gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR).
       1. Ative o encaminhamento pelo lado do servidor na interface do usuário do Analytics, conforme descrito na etapa 3. Habilitar esta configuração antes de remover o código DIL duplicará os dados e criará chamadas de servidor cobradas adicionais no Audience Manager.
 
-   * **Novos clientes da Adobe Audience Manager** - instale o [Módulo de gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR) código de página e prossiga para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
+   * **Novos(as) clientes do Adobe Audience Manager**: instale o código de página do [Módulo de gerenciamento de público-alvo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=pt-BR) e avance para a etapa 3. Os dados não serão enviados ao Audience Manager até que o encaminhamento pelo lado do servidor seja ativado na etapa 3.
 
 ## ![step3_icon.png imagem](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Verificar a implementação do encaminhamento pelo lado do servidor do conjunto de relatórios
 

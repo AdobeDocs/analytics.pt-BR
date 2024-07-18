@@ -87,4 +87,4 @@ Como esse recurso requer alterações de implementação, a Adobe recomenda trab
 
 ## Relatórios do editor
 
-Semelhante ao modo como o Google exige uma conexão com o Google Ad Manager, a Adobe oferece um produto dedicado para fornecer informações chamado Adobe Advertising Cloud. Se sua organização estiver interessada em usar esse produto, entre em contato com a equipe de conta do Adobe.
+Semelhante ao modo como o Google exige uma conexão com o Google Ad Manager, a Adobe oferece um produto dedicado para fornecer informações chamado Adobe Advertising Cloud. Se a organização estiver interessada em usar esse produto, entre em contato com a equipe de conta da Adobe.

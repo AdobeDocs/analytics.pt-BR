@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Pesquisas
 
-As &quot;Pesquisas&quot; [métrica](overview.md) mostra o número de ocorrências que correspondem à detecção de pesquisa externa do Adobe. Essa métrica é útil quando você quer observar itens de dimensão que não sejam de pesquisa e ver como eles contribuíram para o tráfego do mecanismo de pesquisa.
+A [métrica](overview.md) de &#39;Pesquisas&#39; mostra o número de ocorrências que correspondem à detecção de pesquisa externa de Adobe. Essa métrica é útil quando você quer observar itens de dimensão que não sejam de pesquisa e ver como eles contribuíram para o tráfego do mecanismo de pesquisa.
 
 ## Como essa métrica é calculada
 

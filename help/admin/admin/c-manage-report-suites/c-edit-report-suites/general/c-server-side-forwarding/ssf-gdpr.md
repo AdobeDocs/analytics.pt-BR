@@ -19,7 +19,7 @@ O encaminhamento pelo lado do servidor é usado para compartilhar dados do Adobe
 
 Anteriormente, o encaminhamento pelo lado do servidor não tinha uma maneira de delinear entre eventos/ocorrências de consentimento e pré-consentimento. A partir de 1º de novembro de 2018, você, como controlador de dados (cliente do Adobe Analytics), terá a opção de restringir os dados pré-consentimento do Adobe Analytics e impedir que sejam encaminhados para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, impede que essas ocorrências sejam enviadas para a Adobe Audience Manager até que o consentimento seja recebido.
 
-Quando essa nova variável de contexto, `cm.ssf=1`, existir em uma ocorrência, essa ocorrência é sinalizada e não é encaminhada pelo lado do servidor ao Adobe Audience Manager. Por outro lado, se essa sequência de caracteres não aparecer em uma ocorrência, a ocorrência será encaminhada para o Adobe Audience Manager.
+Quando esta nova variável de contexto, `cm.ssf=1`, existir em uma ocorrência, ela é sinalizada e não é encaminhada pelo lado do servidor ao Adobe Audience Manager. Por outro lado, se essa sequência de caracteres não aparecer em uma ocorrência, a ocorrência será encaminhada para o Adobe Audience Manager.
 
 O encaminhamento pelo lado do servidor é bidirecional, o que significa que quando ele é aplicado a uma ocorrência e essa ocorrência é encaminhada para o Adobe Audience Manager, o Audience Analytics recebe informações de segmento para essa ocorrência do Adobe Audience Manager e a envia de volta para o Analytics. Como resultado, qualquer ocorrência que não seja encaminhada do lado do servidor do Analytics para o Adobe Audience Manager não será enriquecida com a lista de IDs de segmento do Adobe Audience Manager. Dessa forma, haverá um subconjunto de tráfego/ocorrências que não obterá informações de ID de segmento do Adobe Audience Manager.
 
@@ -30,7 +30,7 @@ Dependendo do seu método de implementação, siga estas etapas.
 | Método de implementação | Etapas |
 |--- |--- |
 | Tags na Adobe Experience Platform | Supondo que a extensão do Adobe Analytics esteja instalada, adicione a seguinte definição de variável de dados de contexto ao editor de código personalizado na configuração Ação de uma Regra: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: configure a variável de dados de contexto e defina-a como 1 se um cliente não consentir com o marketing direcionado. Ajuste a variável `contextdata` como *0* para clientes que consentiram com marketing direcionado. |
-| AppMeasurement | Adicione a definição da variável context data ao arquivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
+| AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
 
 ## Criação de relatórios (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 

@@ -16,7 +16,7 @@ ht-degree: 5%
 Perguntas frequentes sobre fontes de dados.
 
 +++Qual é o custo de usar fontes de dados?
-As fontes de dados não incorrem em encargos nem são contabilizadas para o uso de chamadas do servidor. [Fontes de dados de processamento completo](full-processing-eol.md) contados para chamadas de servidor antes de sua aposentadoria.
+As fontes de dados não incorrem em encargos nem são contabilizadas para o uso de chamadas do servidor. [As fontes de dados de processamento completo](full-processing-eol.md) contaram para chamadas de servidor antes de serem desativadas.
 +++
 
 +++Como as fontes de dados afetam a atribuição e a expiração das eVars?
@@ -26,12 +26,12 @@ Todos os outros dados carregados por meio de fontes de dados não têm nenhum ti
 +++
 
 +++Como as fontes de dados afetam as métricas padrão, como exibições de página, visitas ou visitantes únicos?
-Os dados carregados por meio de fontes de dados não afetam o [Exibições de página](/help/components/metrics/page-views.md), [Visitas](/help/components/metrics/visits.md)ou [Visitantes únicos](/help/components/metrics/unique-visitors.md) de qualquer forma. A única métrica padrão afetada inclui [Ocorrências](/help/components/metrics/occurrences.md).
+Os dados carregados pelas fontes de dados não afetam de forma alguma as [Exibições de página](/help/components/metrics/page-views.md), [Visitas](/help/components/metrics/visits.md) ou [Visitantes únicos](/help/components/metrics/unique-visitors.md). A única métrica padrão afetada inclui [Ocorrências](/help/components/metrics/occurrences.md).
 +++
 
 +++É possível excluir dados que foram importados com fontes de dados?
 
-Sim. É possível excluir esses dados usando o [API de reparo de dados](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Além disso, a Adobe recomenda que o upload de dados das fontes de dados seja feito em um conjunto de relatórios de teste, antes de fazer upload em um conjunto de relatórios de produção.
+Sim. Você pode excluir estes dados usando a [API de Reparo de Dados](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Além disso, a Adobe recomenda que o upload de dados das fontes de dados seja feito em um conjunto de relatórios de teste, antes de fazer upload em um conjunto de relatórios de produção.
 +++
 
 +++Quantos dados posso importar de uma vez?
@@ -49,9 +49,9 @@ Sim. Arquivos com uma extensão de `.TXT` ou `.FIN` não são processados. Verif
 +++
 
 +++Quantas colunas posso adicionar a um arquivo de fonte de dados?
-Você poderá incluir quantas colunas desejar em um arquivo de fonte de dados, se todas forem colunas válidas. Consulte [Formato de arquivo](file-format.md) para obter uma lista de nomes válidos de variáveis/colunas.
+Você poderá incluir quantas colunas desejar em um arquivo de fonte de dados, se todas forem colunas válidas. Consulte [Formato de arquivo](file-format.md) para obter uma lista de nomes de variáveis/colunas válidos.
 +++
 
 +++É possível usar fontes de dados sem usar o local FTP fornecido pelo Adobe?
-Você pode usar o [API de fontes de dados](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), que permite enviar chamadas de API diretamente para o Adobe. Essas chamadas de API incluem uma `UploadData` , que permite enviar dados por uma carga do objeto JSON.
+Você pode usar a [API de fontes de dados](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), que permite enviar chamadas de API diretamente para o Adobe. Essas chamadas de API incluem um método `UploadData`, que permite enviar dados por uma carga de objeto JSON.
 +++

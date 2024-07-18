@@ -19,7 +19,7 @@ Por padrão, as variáveis dinâmicas usam o prefixo `D=`. A variável `dynamicV
 
 ## Prefixo da variável dinâmica usando o SDK da Web
 
-O SDK da Web não usa formatação de variável dinâmica. Em vez disso, você pode usar o mapeamento da sequência de dados para preencher vários Campos de destino usando um único Campo de origem. Consulte [Variáveis dinâmicas que usam o SDK da Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) para obter mais informações.
+O SDK da Web não usa formatação de variável dinâmica. Em vez disso, você pode usar o mapeamento da sequência de dados para preencher vários campos do Target usando um único campo do Source. Consulte [Variáveis dinâmicas usando o SDK da Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) para obter mais informações.
 
 Se você enviar dados diretamente para a Adobe Analytics sem estar em conformidade com um esquema, ela usará a seguinte variável:
 

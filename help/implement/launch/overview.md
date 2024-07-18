@@ -13,7 +13,7 @@ ht-degree: 83%
 
 # Implementar o Adobe Analytics usando a extensão do Analytics
 
-Durante a vida útil do Adobe Analytics, a Adobe ofereceu vários diferentes métodos de implementação do código no site para a coleta de dados. O método recomendado atual de Adobe é por meio de [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR) no Adobe Experience Platform.
+Durante a vida útil do Adobe Analytics, a Adobe ofereceu vários diferentes métodos de implementação do código no site para a coleta de dados. O método recomendado atual Adobe é por meio de [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR) na Adobe Experience Platform.
 
 Tags na Adobe Experience Platform é uma solução de gerenciamento de tags que permite implantar o código do Analytics junto com outros requisitos de marcação. A Adobe oferece integrações com outras soluções e produtos e permite implantar código personalizado. Todas essas tarefas podem ser realizadas sem depender de equipes de desenvolvimento na organização para atualizar o código no site.
 
@@ -23,7 +23,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 
 
-![Como implementar o Adobe Analytics usando o fluxo de trabalho da extensão do Analytics, conforme descrito nesta seção.](../assets/analytics-extension-annotated.png)
+![Como implementar o Adobe Analytics usando o fluxo de trabalho de extensão do Analytics, conforme descrito nesta seção.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 

@@ -22,7 +22,7 @@ Os cookies podem armazenar e recuperar informações em páginas no mesmo domín
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Elementos de dados] e clique no elemento de dados desejado (ou crie um elemento de dados).
-4. Defina o [!UICONTROL Extensão] lista suspensa para **[!UICONTROL Núcleo]**, e o [!UICONTROL Tipo de elemento de dados] para **[!UICONTROL Cookie]**.
+4. Defina a lista suspensa [!UICONTROL Extensão] como **[!UICONTROL Núcleo]** e o [!UICONTROL Tipo de Elemento de Dados] como **[!UICONTROL Cookie]**.
 5. Digite o nome do cookie no campo de texto.
 
 O valor do cookie é armazenado no elemento de dados. Você pode fazer referência ao elemento de dados nas regras para atribuir as variáveis desejadas.

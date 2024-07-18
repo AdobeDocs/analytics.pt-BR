@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
@@ -36,11 +36,11 @@ Os controles interativos foram criados em resposta a um fluxo de trabalho comum,
 1. Na Etapa 1 da seleção do Assistente de solicitações, por exemplo, o relatório **[!UICONTROL Página]**.
 1. Ao lado do menu suspenso **[!UICONTROL Datas utilizadas mais comuns]**, clique no ícone **[!UICONTROL Configurações de controle]**:
 
-   ![Captura de tela do Assistente de solicitações: etapa 1, destacando o ícone Configurações de controle. ](assets/date_range_control.png)
+   ![Captura de tela da Etapa 1 do Assistente de solicitações, destacando o ícone Configurações de Controle. ](assets/date_range_control.png)
 
 1. Na caixa de diálogo Configurações de controle, selecione todos os itens do intervalo de datas que você deseja exibir no controle interativo. Além disso, especifique a localização da célula superior esquerda do controle.
 
-   ![Captura de tela mostrando os itens de intervalo de datas selecionados e o local da célula superior esquerda.](assets/control_settings.png)
+   ![Captura de tela mostrando os itens do intervalo de datas selecionado e o local da célula superior esquerda.](assets/control_settings.png)
 
 1. Observe a opção de &quot;Atualizar automaticamente solicitações vinculadas após a seleção do item&quot;.
 
@@ -69,11 +69,11 @@ A implementação do controle de segmentos interativos é semelhante à implemen
 
 1. Na Etapa 1 do Assistente de solicitação, ao lado da lista suspensa **[!UICONTROL Segmento]**, selecione o ícone de Configurações de controle do segmento:
 
-   ![Captura de tela do ícone de Configurações de controle do segmento.](assets/segment_interactive_1.png)
+   ![Captura de tela do ícone Configurações de Controle de Segmento.](assets/segment_interactive_1.png)
 
 1. Na caixa de diálogo Configurações de controle do segmento, selecione os segmentos que você deseja incluir no menu suspenso. Além disso, especifique a localização da célula superior esquerda do controle.
 
-   ![Captura de tela mostrando as Configurações de controle do segmento com segmentos selecionados e o local da célula.](assets/segment_drop_down_properties.png)
+   ![Captura de tela mostrando as Configurações de Controle de Segmento com os segmentos selecionados e o local da célula.](assets/segment_drop_down_properties.png)
 
 1. O novo controle interativo agora aparece na pasta de trabalho:
 

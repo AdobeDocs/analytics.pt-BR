@@ -7,7 +7,7 @@ feature: Anomaly Detection
 source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Há duas maneiras de invocar a análise de contribuição em um projeto:
 1. (Opcional) Depois de clicar em **[!UICONTROL Executar análise de contribuição]** no gráfico de linhas ou em uma tabela, você pode limitar o escopo (e, portanto, acelerar) da análise, [excluindo dimensões](#exclude).
 
 1. Aguarde o carregamento da análise de contribuição. Isso pode levar um tempo considerável, dependendo do tamanho do seu conjunto de relatórios e do número de dimensões. A análise de contribuição realiza análises nos 50.000 itens principais por dimensão.
-1. O Analysis Workspace carrega um novo painel de Análise de contribuição diretamente neste projeto.
+1. O Analysis Workspace carrega um novo painel de Análise de contribuição diretamente neste projeto. 
 
    * Uma visualização que mostra o número de **Visitas** no dia.
    * Uma **linha de Tendência de visitas** mensal para contexto.

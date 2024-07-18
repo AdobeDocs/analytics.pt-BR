@@ -26,8 +26,8 @@ Considere o seguinte ao baixar projetos:
 * Ao baixar projetos como um PDF:
    * Os downloads podem levar vários minutos para serem exportados porque o projeto é executado novamente em servidores Adobe antes da renderização no formato PDF. Recomendamos não sair do projeto até que o PDF seja baixado no navegador. No entanto, você pode continuar fazendo alterações no projeto enquanto espera. Se um PDF demorar mais de 5 minutos para ser renderizado, você será solicitado a enviá-lo por email.
    * Os downloads são renderizados como uma única página sem paginação aplicada.
-   * As renderizações de PDF contêm o que está na página no Espaço de trabalho. Se um projeto tiver visualizações e painéis com tamanhos personalizados, é necessário alterá-los para terem tamanhos automáticos (botão no canto superior direito) para que não haja truncamento de conteúdo.
-   * Qualquer [hiperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) que existem nas tabelas de forma livre não estão funcionais no PDF baixado.
+   * As renderizações de PDF contêm o que está na página no Workspace. Se um projeto tiver visualizações e painéis com tamanhos personalizados, é necessário alterá-los para terem tamanhos automáticos (botão no canto superior direito) para que não haja truncamento de conteúdo.
+   * Quaisquer [hiperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) existentes nas tabelas de forma livre não são funcionais no PDF baixado.
 
 Para baixar um projeto como um arquivo CSV ou PDF:
 

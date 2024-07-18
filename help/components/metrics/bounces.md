@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Rejeições
 
-As &quot;Rejeições&quot; [métrica](overview.md) mostra o número de visitas que continham exatamente uma ocorrência. Essa métrica pode ser utilizada para entender a proporção obtida entre o tráfego de rejeição e não rejeição, para ver as principais páginas de entrada que fazem com que os visitantes abandonem a página ou para ver a tendência do número total de rejeições ao longo do tempo.
+A [métrica](overview.md) de &quot;Rejeições&quot; mostra o número de visitas que continham exatamente uma ocorrência. Essa métrica pode ser utilizada para entender a proporção obtida entre o tráfego de rejeição e não rejeição, para ver as principais páginas de entrada que fazem com que os visitantes abandonem a página ou para ver a tendência do número total de rejeições ao longo do tempo.
 
 ## Como essa métrica é calculada
 

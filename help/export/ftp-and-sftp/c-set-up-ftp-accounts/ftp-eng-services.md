@@ -7,7 +7,7 @@ exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ Muitos dos envolvimentos dos serviços de engenharia da Adobe estão relacionado
 
 Esses envolvimentos incluem [!UICONTROL DB VISTA] e projetos personalizados.
 
-Para mais informações sobre os limites FTP e retenção de dados, consulte [Limites FTP e retenção de dados](/help/export/ftp-and-sftp/ftp-limits.md).
+Para obter informações sobre limites FTP e retenção de dados, consulte [Limites FTP e retenção de dados](/help/export/ftp-and-sftp/ftp-limits.md).
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 

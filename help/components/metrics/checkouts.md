@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Check-outs
 
-Os &quot;Check-outs&quot; [métrica](overview.md) mostra o número de vezes que um visitante iniciou o processo de finalização. Essa métrica é útil quando você quer entender a parte do funil de conversão em que os clientes têm um carrinho de produtos e estão prontos para comprá-los.
+A [métrica](overview.md) de &quot;Check-outs&quot; mostra o número de vezes que um visitante iniciou o processo de finalização. Essa métrica é útil quando você quer entender a parte do funil de conversão em que os clientes têm um carrinho de produtos e estão prontos para comprá-los.
 
 ## Como essa métrica é calculada
 

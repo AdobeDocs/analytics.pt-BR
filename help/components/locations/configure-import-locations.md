@@ -17,71 +17,77 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->Considere o seguinte ao criar e editar locais:<ul><li>Os administradores de sistema podem impedir que os usuários criem locais, conforme descrito em [Configurar se os usuários podem criar locais](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). Se você não puder criar locais conforme descrito nesta seção, entre em contato com o administrador do sistema.</li><li>Um local pode ser editado somente pelo usuário que o criou ou por um administrador do sistema.</li></ul>
+>Considere o seguinte ao criar e editar locais:<ul><li>Os administradores do sistema podem impedir que os usuários criem locais, conforme descrito em [Configurar se os usuários poderão criar locais](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). Se você não puder criar locais conforme descrito nesta seção, entre em contato com o administrador do sistema.</li><li>Um local pode ser editado somente pelo usuário que o criou ou por um administrador do sistema.</li></ul>
 
-Depois que você [configurar uma conta na nuvem](/help/components/locations/configure-import-accounts.md), você poderá configurar uma localização nessa conta. Um único local pode ser usado para qualquer uma das seguintes finalidades (um único local não pode ser associado a várias finalidades):
+Depois de [configurar uma conta na nuvem](/help/components/locations/configure-import-accounts.md), você pode configurar um local nessa conta. Um único local pode ser usado para qualquer uma das seguintes finalidades (um único local não pode ser associado a várias finalidades):
 
-* Exportação de arquivos usando [Feeds de dados](/help/export/analytics-data-feed/create-feed.md)
-* Exportar relatórios usando [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Importação de esquemas usando o [Conjuntos de classificações](/help/components/classifications/sets/overview.md)
+* Exportando arquivos usando [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md)
+* Exportando relatórios usando [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Importando esquemas usando [Conjuntos de classificações](/help/components/classifications/sets/overview.md)
 
-Você deve configurar o Adobe Analytics com as informações necessárias para acessar sua conta da nuvem. Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Google Cloud Platform e assim por diante), conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md)e, em seguida, adicionar e configurar o local nessa conta (conforme descrito neste artigo).
+Você deve configurar o Adobe Analytics com as informações necessárias para acessar sua conta da nuvem. Esse processo consiste em adicionar e configurar a conta (como a Função ARN do Amazon S3, a Plataforma da Google Cloud e assim por diante), conforme descrito em [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md), e depois adicionar e configurar o local nessa conta (conforme descrito neste artigo).
 
 Para obter informações sobre como exibir e excluir locais existentes, consulte [Gerenciador de locais](/help/components/locations/locations-manager.md).
 
 ## Começar a criar ou editar um local
 
-1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Localizações**].
+1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Locais**].
 
-1. No [!UICONTROL Localizações] selecione a [!UICONTROL **Localizações**] guia.
+1. Na página [!UICONTROL Locais], selecione a guia [!UICONTROL **Locais**].
 
-1. (Condicional) Se você for um administrador do sistema, poderá ativar a [!UICONTROL **Exibir locais para todos os usuários**] opção para exibir locais criados por todos os usuários em sua organização.
+1. (Condicional) Se você for um administrador do sistema, poderá habilitar a opção [!UICONTROL **Exibir locais para todos os usuários**] para exibir locais criados por todos os usuários em sua organização.
    ![exibir locais para todos os usuários](assets/locations-all-users.png)
 
-1. Para adicionar um novo local, selecione [!UICONTROL **Adicionar localização**]. (Se ainda não tiver adicionado uma conta, adicione-a conforme descrito em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md).)
+1. Para adicionar um novo local, selecione [!UICONTROL **Adicionar local**]. (Se ainda não tiver adicionado uma conta, adicione-a conforme descrito em [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md).)
 
-   A variável [!UICONTROL **Adicionar localização**] é exibida
+   A caixa de diálogo [!UICONTROL **Adicionar local**] é exibida
 
    Ou
 
    Para editar um local existente, selecione o menu de 3 pontos ao lado do nome do local e selecione [!UICONTROL **Editar**].
 
-   A variável [!UICONTROL **Detalhes do local**] é exibida.
+   A caixa de diálogo [!UICONTROL **Detalhes do local**] é exibida.
 
-1. Especifique as seguintes informações: |Campo | Função | |—|—| | [!UICONTROL **Nome**] | O nome do local.  | 
-| [!UICONTROL **Descrição**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. | | [!UICONTROL **Usar com**] | Selecione se você deseja usar esta localização com [!UICONTROL **Feeds de dados**], [!UICONTROL **Data Warehouse**] ou [!UICONTROL **Conjuntos de classificações**]. <p>Considere o seguinte ao fazer uma seleção:</p><ul><li>Um único local não pode ser usado para vários propósitos. Por exemplo, um local usado para feeds de dados também não pode ser usado para conjuntos de Datas Warehouse ou Classificações.</li><li>Para evitar conflitos de arquivos em um local, não altere o valor do [!UICONTROL **Usar com**] após a localização ter sido usada.</li><li>Se você estiver criando um local para uma conta de email, selecione [!UICONTROL **Data Warehouse**] neste campo. Os locais de email não são compatíveis com feeds de dados e conjuntos de classificação.</li></ul> | | [!UICONTROL **Disponibilizar a localização a todos os usuários na organização**] | Habilite essa opção para permitir que outros usuários em sua organização usem o local.<p>Considere o seguinte ao compartilhar locais:</p><ul><li>Os locais compartilhados não podem ter o compartilhamento cancelado.</li><li>Os locais compartilhados podem ser editados somente pelo proprietário do local.</li><li>Os locais podem ser compartilhados somente se a conta à qual o local está associado também for compartilhada.</li></ul> | | [!UICONTROL **Conta de localização**] | Selecione a conta de localização na qual deseja criar esta localização. Para obter informações sobre como criar uma conta, consulte [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md). |
+1. Especifique as seguintes informações:
+|Campo | Função |
+|—|—|
+| [!UICONTROL **Nome**] | O nome do local.  | 
+| [!UICONTROL **Descrição**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. |
+| [!UICONTROL **Usar com**] | Selecione se você deseja usar este local com [!UICONTROL **Feeds de dados**], [!UICONTROL **Data Warehouse**] ou [!UICONTROL **Conjuntos de classificações**]. <p>Considere o seguinte ao fazer uma seleção:</p><ul><li>Um único local não pode ser usado para vários propósitos. Por exemplo, um local usado para feeds de dados também não pode ser usado para conjuntos de Datas Warehouse ou Classificações.</li><li>Para evitar conflitos de arquivo em um local, não altere o valor do campo [!UICONTROL **Usar com**] depois que o local for usado.</li><li>Se você estiver criando um local para uma conta de email, selecione [!UICONTROL **Data Warehouse**] neste campo. Os locais de email não são compatíveis com feeds de dados e conjuntos de classificação.</li></ul> |
+| [!UICONTROL **Disponibilizar a localização a todos os usuários em sua organização**] | Habilite essa opção para permitir que outros usuários em sua organização usem o local.<p>Considere o seguinte ao compartilhar locais:</p><ul><li>Os locais compartilhados não podem ter o compartilhamento cancelado.</li><li>Os locais compartilhados podem ser editados somente pelo proprietário do local.</li><li>Os locais podem ser compartilhados somente se a conta à qual o local está associado também for compartilhada.</li></ul> |
+| [!UICONTROL **Conta da localização**] | Selecione a conta de localização na qual deseja criar esta localização. Para obter informações sobre como criar uma conta, consulte [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md). |
 
-1. Para preencher o formulário para configurar a localização, continue com a seção abaixo que corresponde ao tipo de conta selecionado no [!UICONTROL **Contas de localização**] campo. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
+1. Para preencher o formulário para configurar a localização, continue com a seção abaixo que corresponde ao tipo de conta selecionado no campo [!UICONTROL **Contas de localização**]. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
 
 ### Amazon S3 Role ARN
 
 Para configurar um local ARN de função do Amazon S3, especifique as seguintes informações:
 
-1. [Começar a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
+1. [Comece a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Balde**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. <p>Certifique-se de que o ARN do usuário fornecido pelo Adobe tenha o `S3:PutObject` para carregar arquivos nesse bucket. </p><p>Os nomes dos blocos precisam cumprir regras de nomenclatura específicas. Por exemplo, eles precisam conter entre 3 e 63 caracteres, só podem conter letras minúsculas, números, pontos (.) e hifens (-), e precisam começar e terminar com uma letra ou número. [Uma lista completa de regras de nomenclatura está disponível na documentação do AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Balde**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. <p>Certifique-se de que o usuário ARN fornecido pelo Adobe tenha a permissão `S3:PutObject` para carregar arquivos nesse bucket. </p><p>Os nomes dos blocos precisam cumprir regras de nomenclatura específicas. Por exemplo, eles precisam conter entre 3 e 63 caracteres, só podem conter letras minúsculas, números, pontos (.) e hifens (-), e precisam começar e terminar com uma letra ou número. [Uma lista completa de regras de nomenclatura está disponível na documentação do AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Prefixo**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
    {style="table-layout:auto"}
 
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md) ou a [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
    Os dados importados não são excluídos do destino da nuvem após serem importados.
 
    >[!NOTE]
    >
-   >   Se você usou anteriormente [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) no Adobe Analytics, era necessário carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
+   >   Se você já usou o [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) para o Adobe Analytics, precisará carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
 
 
 ### Google Cloud Platform
 
 Para configurar um local da Google Cloud Platform, especifique as seguintes informações:
 
-1. [Começar a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
+1. [Comece a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
@@ -92,20 +98,20 @@ Para configurar um local da Google Cloud Platform, especifique as seguintes info
 
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md) ou a [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
    Os dados importados não são excluídos do destino da nuvem após serem importados.
 
    >[!NOTE]
    >
-   >   Se você usou anteriormente [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) no Adobe Analytics, era necessário carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
+   >   Se você já usou o [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) para o Adobe Analytics, precisará carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
 
 
 ### Azure SAS
 
 Para configurar um local do Azure SAS, especifique as seguintes informações:
 
-1. [Começar a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
+1. [Comece a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
@@ -116,20 +122,20 @@ Para configurar um local do Azure SAS, especifique as seguintes informações:
 
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md) ou a [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
    Os dados importados não são excluídos do destino da nuvem após serem importados.
 
    >[!NOTE]
    >
-   >   Se você usou anteriormente [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) no Adobe Analytics, era necessário carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
+   >   Se você já usou o [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) para o Adobe Analytics, precisará carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
 
 
 ### Azure RBAC
 
 Para configurar um local do Azure RBAC, especifique as seguintes informações:
 
-1. [Começar a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
+1. [Comece a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
@@ -141,19 +147,19 @@ Para configurar um local do Azure RBAC, especifique as seguintes informações:
 
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md) ou a [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
    Os dados importados não são excluídos do destino da nuvem após serem importados.
 
    >[!NOTE]
    >
-   >   Se você usou anteriormente [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) no Adobe Analytics, era necessário carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
+   >   Se você já usou o [FTP para importar classificações](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) para o Adobe Analytics, precisará carregar um arquivo FIN. Esse arquivo FIN não é necessário ao importar de contas na nuvem.
 
 ### Email
 
 Para configurar um local de email, especifique as seguintes informações:
 
-1. [Começar a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
+1. [Comece a criar ou editar um local](#begin-creating-or-editing-a-location), conforme descrito acima.
 
    | Campo | Função |
    |---------|----------|
@@ -164,11 +170,11 @@ Para configurar um local de email, especifique as seguintes informações:
 
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora é possível exportar dados para a conta e o local configurados ao usar o [Feeds de dados](/help/export/analytics-data-feed/create-feed.md). (As localizações de email não são compatíveis com o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Conjuntos de classificações](/help/components/classifications/sets/overview.md)).
+   Agora você pode exportar dados para a conta e o local que configurou ao usar os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md). (Não há suporte para locais de email com [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Conjuntos de classificações](/help/components/classifications/sets/overview.md)).
 
 ### Tipos de conta herdada
 
-Esses tipos de conta herdados estão disponíveis somente ao exportar dados com [Feeds de dados](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Essas opções não estão disponíveis ao importar dados com o [Conjuntos de classificações](/help/components/classifications/sets/manage/schema.md).
+Esses tipos de contas herdadas estão disponíveis apenas ao exportar dados com [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md) e [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Estas opções não estão disponíveis ao importar dados com [Conjuntos de classificações](/help/components/classifications/sets/manage/schema.md).
 
 +++FTP
 

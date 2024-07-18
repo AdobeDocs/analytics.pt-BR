@@ -12,17 +12,17 @@ ht-degree: 2%
 
 # Excluir datas específicas na análise
 
-Se você tiver dados [afetado por um evento](overview.md), você pode usar um segmento para excluir qualquer intervalo de datas que não deseja incluir em seus relatórios. Segmentar as datas afetadas pelo evento pode ajudar a impedir que sua organização tome decisões sobre dados parciais.
+Se você tiver dados [afetados por um evento](overview.md), poderá usar um segmento para excluir qualquer intervalo de datas que não deseja incluir em seus relatórios. Segmentar as datas afetadas pelo evento pode ajudar a impedir que sua organização tome decisões sobre dados parciais.
 
 ## Isolar dias afetados {#isolate}
 
 Crie um segmento que isole o dia ou o intervalo de datas afetado. Esse segmento é útil se você quiser apenas se concentrar nos dias do problema para ver mais informações sobre seu impacto.
 
-1. Abra o construtor de segmentos em **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]** e, em seguida, clique em **[!UICONTROL Adicionar]**.
+1. Abra o construtor de segmentos indo até **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]** e clique em **[!UICONTROL Adicionar]**.
 2. Arraste a dimensão &quot;Dia&quot; para a tela de definição e defina-a como o dia que deseja isolar.
 3. Repita a etapa acima para cada dia que deseja isolar no relatório.
 
-![Segmento de dias afetados](assets/affected_days.jpg)
+![Segmento de dias afetado](assets/affected_days.jpg)
 
 >[!TIP]
 >
@@ -36,8 +36,8 @@ A Adobe recomenda usar os componentes da dimensão laranja, e não os componente
 
 Crie um segmento que exclua o dia ou intervalo de datas afetado. Esse segmento é útil se você quiser excluir os dias que tiveram problemas para minimizar o impacto nos relatórios gerais.
 
-1. Abra o construtor de segmentos em **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]** e, em seguida, clique em **[!UICONTROL Adicionar]**.
-2. No canto superior direito da tela de definição de segmento, clique em **[!UICONTROL Opções]** > **[!UICONTROL Excluir]**.
+1. Abra o construtor de segmentos indo até **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]** e clique em **[!UICONTROL Adicionar]**.
+2. Na parte superior direita da tela de definição do segmento, clique em **[!UICONTROL Opções]** > **[!UICONTROL Excluir]**.
 3. Arraste a dimensão &quot;Dia&quot; para a tela de definição e defina-a como o dia que deseja remover.
 4. Repita a etapa acima para cada dia que desejar remover em seu relatório.
 
@@ -53,32 +53,32 @@ Você pode aplicar o segmento &quot;Dias afetados&quot; e o segmento &quot;Exclu
 
 ![Ambos os segmentos](assets/affected_and_exclude.png)
 
-Se não quiser mostrar zeros na tabela ou nas visualizações (causando declínios), ative **[!UICONTROL Interpretar o zero como valor inexistente]** em configurações de coluna.
+Se não quiser mostrar zeros na tabela ou nas visualizações (causando declínios), habilite a **[!UICONTROL Interpretar zero como nenhum valor]** nas configurações de coluna.
 
 ![Interpretar zero](assets/interpret_zero.png)
 
-Se não quiser mostrar zeros na tabela ou nas visualizações (causando declínios), ative **[!UICONTROL Interpretar o zero como valor inexistente]** em configurações de coluna.
+Se não quiser mostrar zeros na tabela ou nas visualizações (causando declínios), habilite a **[!UICONTROL Interpretar zero como nenhum valor]** nas configurações de coluna.
 
 ![Interpretar zero](assets/interpret_zero.png)
 
 ### Aplicar o segmento excluído a um projeto {#apply}
 
-É possível aplicar o segmento &quot;Excluir dias afetados&quot; a um projeto do Workspace. Arraste o segmento excluído até a seção da tela do Workspace rotulada *Solte um segmento aqui*.
+Você pode aplicar o segmento &quot;Excluir dias afetados&quot; a um projeto do Workspace. Arraste o segmento excluído para a seção da tela do Workspace rotulada *Solte um segmento aqui*.
 
 >[!TIP]
 >
->Inclua uma observação sobre os dados excluídos na descrição do painel para ajudar quem está visualizando o relatório. Clique com o botão direito do mouse no título de um painel e clique em **[!UICONTROL Editar descrição]**.
+>Inclua uma observação sobre os dados excluídos na descrição do painel para ajudar quem está visualizando o relatório. Clique com o botão direito no título de um painel e clique em **[!UICONTROL Editar descrição]**.
 
 ![Segmento aplicado a um painel](assets/exclude_segment_panel.jpg)
 
 ### Usar o segmento excluído em um conjunto de relatórios virtual {#use-vrs}
 
-Você pode usar o segmento em uma [conjunto de relatórios virtual](/help/components/vrs/vrs-about.md) para excluir os dados de maneira mais conveniente. Essa opção é ideal, pois você não precisa se lembrar de aplicar o segmento para cada relatório que inclua o intervalo de datas afetado. Se você já usa conjuntos de relatórios virtuais como fonte primária de dados, é possível adicionar o segmento a um conjunto de relatórios virtuais existente.
+Você pode usar o segmento em um [conjunto de relatórios virtuais](/help/components/vrs/vrs-about.md) para excluir os dados de forma mais conveniente. Essa opção é ideal, pois você não precisa se lembrar de aplicar o segmento para cada relatório que inclua o intervalo de datas afetado. Se você já usa conjuntos de relatórios virtuais como fonte primária de dados, é possível adicionar o segmento a um conjunto de relatórios virtuais existente.
 
 1. Navegue até **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**.
 2. Clique em **[!UICONTROL Adicionar]**.
 3. Insira o nome e a descrição desejados para o conjunto de relatórios virtual.
 4. Arraste o segmento excluído para a área rotulada **[!UICONTROL Adicionar segmento]**.
-5. Clique em **[!UICONTROL Continuar]** no canto superior direito e clique em **[!UICONTROL Salvar]**.
+5. Clique em **[!UICONTROL Continuar]** no canto superior direito e em **[!UICONTROL Salvar]**.
 
 ![Segmento aplicado ao conjunto de relatórios virtual](assets/exclude_segment_vrs.png)

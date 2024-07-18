@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Suporte a cookie persistente
 
-O &#39;Suporte a cookie persistente&#39; [dimension](overview.md) mostra se a ocorrência usou um identificador de visitante que se originou de uma origem persistente. A origem persistente mais comum é de um cookie, mas também pode usar cabeçalhos de dispositivos móveis e outras origens.
+A [dimensão](overview.md) de &#39;Suporte a cookies persistentes&#39; mostra se a ocorrência usou um identificador de visitante que se originou de uma origem persistente. A origem persistente mais comum é de um cookie, mas também pode usar cabeçalhos de dispositivos móveis e outras origens.
 
 ## Preencher esta dimensão com dados
 

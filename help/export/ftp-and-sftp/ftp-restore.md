@@ -15,4 +15,4 @@ ht-degree: 63%
 
 Os dados que foram excluídos de uma conta FTP não podem ser restaurados pela Adobe.
 
-Se uma conta FTP que você pretendia usar foi desativada, entre em contato com a equipe de conta do Adobe, que pode discutir outras opções com você.
+Se uma conta FTP que você pretendia usar tiver sido desativada, entre em contato com a equipe de contas do Adobe, que poderá discutir opções adicionais com você.

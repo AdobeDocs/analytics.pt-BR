@@ -17,16 +17,16 @@ Esse painel permite explorar facilmente as principais estatísticas sobre págin
 
 ## Acessar o painel
 
-Você pode acessar o painel de dentro do [!UICONTROL Relatórios] ou no prazo de [!UICONTROL Workspace].
+Você pode acessar o painel de [!UICONTROL Relatórios] ou de [!UICONTROL Workspace].
 
 | Ponto de acesso | Descrição |
 | --- | --- |
-| [!UICONTROL Relatórios] | <ul><li>O painel já está solto em um projeto.</li><li>O painel esquerdo está recolhido.</li><li>Somente a dimensão Página é compatível.</li><li>Uma configuração padrão já foi aplicada; nesse caso, a página mais visitada da[!UICONTROL Página] dimensão. Você pode modificar essa configuração.</li></ul> |
-| Workspace | Crie um novo projeto e selecione o ícone Painel no painel à esquerda. Arraste o [!UICONTROL Resumo da página] acima da tabela de Forma livre. Observe que a página [!UICONTROL Item Dimension] é deixado em branco. Selecione um item de dimensão na lista suspensa. |
+| [!UICONTROL Relatórios] | <ul><li>O painel já está solto em um projeto.</li><li>O painel esquerdo está recolhido.</li><li>Somente a dimensão Página é compatível.</li><li>Uma configuração padrão já foi aplicada; neste caso, a página mais visitada da dimensão [!UICONTROL Página]. Você pode modificar essa configuração.</li></ul> |
+| Workspace | Crie um novo projeto e selecione o ícone Painel no painel à esquerda. Arraste o painel [!UICONTROL Resumo da página] para cima da tabela de Forma livre. Observe que o campo Página [!UICONTROL Item de Dimension] está em branco. Selecione um item de dimensão na lista suspensa. |
 
 ## Entradas do painel {#Input}
 
-Você pode configurar o [!UICONTROL Resumo da página] usando estas configurações de entrada:
+Você pode configurar o painel [!UICONTROL Resumo da página] usando estas configurações de entrada:
 
 | Configuração | Descrição |
 | --- | --- |
@@ -35,11 +35,11 @@ Você pode configurar o [!UICONTROL Resumo da página] usando estas configuraç�
 
 {style="table-layout:auto"}
 
-Clique em **[!UICONTROL Build]** para criar o painel.
+Clique em **[!UICONTROL Criar]** para criar o painel.
 
 ## Saída do painel {#output}
 
-A variável [!UICONTROL Resumo da página] O painel retorna um conjunto avançado de métricas, dados e visualizações para ajudar você a entender melhor as estatísticas sobre páginas específicas.
+O painel [!UICONTROL Resumo da página] retorna um conjunto avançado de métricas, dados e visualizações para ajudá-lo a entender melhor as estatísticas sobre páginas específicas.
 
 | Métrica/Visualização | Descrição |
 | --- | --- |
@@ -50,10 +50,10 @@ A variável [!UICONTROL Resumo da página] O painel retorna um conjunto avançad
 | [!UICONTROL Porcentagem de todas as exibições de página] | Um número de resumo para a porcentagem de todas as exibições de página que foram para esta página. |
 | [!UICONTROL Tempo gasto na página] | Um gráfico de barras horizontal listando o tempo gasto nesta página. |
 | [!UICONTROL Visitas em única página] | Um número de resumo listando o número de exibições de página nas quais esta foi a única página visitada. |
-| [!UICONTROL Recargas] | A variável [!UICONTROL Recargas] métrica mostra o número de vezes que um item de dimensão foi apresentado durante um recarregamento. A atualização do navegador por um visitante é a maneira mais comum de acionar um recarregamento. |
-| [!UICONTROL Entradas] | A variável [!UICONTROL Entradas] métrica mostra o número de vezes que um determinado item de dimensão é capturado como o primeiro valor em uma visita. |
-| [!UICONTROL Saídas] | A variável [!UICONTROL Saídas] métrica mostra o número de vezes que um determinado item de dimensão é registrado como o último valor em uma visita. |
-| [!UICONTROL Fluxo] | Um diagrama de Fluxo com a página selecionada como ponto focal. Você pode detalhar os dados da mesma forma que em qualquer [Diagrama de Fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
+| [!UICONTROL Recargas] | A métrica [!UICONTROL Recargas] mostra o número de vezes que um item de dimensão foi apresentado durante um recarregamento. A atualização do navegador por um visitante é a maneira mais comum de acionar um recarregamento. |
+| [!UICONTROL Entradas] | A métrica [!UICONTROL Entradas] mostra o número de vezes que um determinado item de dimensão é capturado como o primeiro valor em uma visita. |
+| [!UICONTROL Saídas] | A métrica [!UICONTROL Saídas] mostra o número de vezes que um determinado item de dimensão é registrado como o último valor em uma visita. |
+| [!UICONTROL Fluxo] | Um diagrama de Fluxo com a página selecionada como ponto focal. Você pode detalhar os dados como em qualquer [Fluxograma](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style="table-layout:auto"}
 

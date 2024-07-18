@@ -17,7 +17,7 @@ As tags na Adobe Experience Platform permitem integrar soluções da Experience 
 
 ## Pré-requisitos 
 
-[Criar um conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): crie um silo para que os dados do Analytics sejam coletados.
+[Criar um conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): criar um silo para que os dados do Analytics sejam coletados.
 
 ## Criar uma propriedade de tag e instalar extensões essenciais
 

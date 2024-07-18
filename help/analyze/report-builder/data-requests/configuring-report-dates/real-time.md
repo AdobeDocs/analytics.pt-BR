@@ -1,14 +1,14 @@
 ---
 description: Exibe o tráfego da página da Web e classifica as exibições dela em tempo real, para que você possa entender rapidamente aquilo que está em alta no seu site.
-title: Relatórios em Tempo real visão geral
+title: Visão geral dos Relatórios em tempo real
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 97%
+source-wordcount: '248'
+ht-degree: 87%
 
 ---
 
@@ -29,4 +29,4 @@ A análise em tempo real respeita as permissões para usuários e grupos. Por ex
 
 >[!NOTE]
 >
->[!UICONTROL   Os relatórios em tempo real] não são a mesma coisa que o recurso [Incluir dados recorrentes](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Recenticidade dos dados) lançado anteriormente, que, por sua vez, reduz a latência de relatórios padronizados ao exibir os dados antes da finalização.
+>[!UICONTROL Relatórios em Tempo Real] não são o mesmo que o recurso [Incluir Dados Atuais](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Recenticidade dos Dados) lançado anteriormente, que, por sua vez, reduz a latência de relatórios padrão ao exibir dados antes da finalização.

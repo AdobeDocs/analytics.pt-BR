@@ -17,17 +17,17 @@ As fontes de dados do Adobe Analytics permitem importar dados online e offline a
 
 1. Sua organização coleta dados de outras fontes. Os exemplos incluem dados de pré-clique, dados da central de atendimento ou informações sobre transações que ocorreram fora do site.
 1. Os dados são formatados de uma forma que o Adobe Analytics entende usando um arquivo de texto delimitado por tabulação.
-1. Você faz upload do arquivo de texto para um site FTP fornecido pelo Adobe, juntamente com uma `.fin` arquivo.
+1. Você carrega o arquivo de texto em um site FTP fornecido pelo Adobe, juntamente com um arquivo `.fin` que o acompanha.
 1. O Adobe assimila o arquivo de texto e exibe esses dados junto com dimensões e métricas coletadas no site.
 
 Há dois tipos gerais de fontes de dados que o Adobe oferece. Todos os modelos de fontes de dados são baseados em um destes dois tipos:
 
 * **Fonte de dados de resumo**: fornece uma maneira fácil de importar dados de alto nível no Adobe Analytics. Especifique o carimbo de data e hora, o valor da variável e as métricas associadas. Essas métricas para cada item de dimensão são aumentadas de maneira apropriada. Isso é importante se você quiser ver os dados offline e online lado a lado. No entanto, não vincula dados online e offline.
-* **Fonte de dados da ID da transação**: se uma ocorrência enviada pelo AppMeasurement e uma linha de fontes de dados contiver IDs de transação correspondentes, a dimensão e os valores de métrica na fonte de dados serão anexados a essa ocorrência.
+* **Fonte de dados da ID de transação**: se uma ocorrência enviada pelo AppMeasurement e uma linha de fontes de dados contiver IDs de transação correspondentes, a dimensão e os valores de métrica na fonte de dados serão anexados a essa ocorrência.
 
-**Fontes de dados de processamento completo** não são mais oferecidos como tipo de fonte de dados a partir de 25 de março de 2021. Consulte a [Anúncio de fim da vida útil](full-processing-eol.md) para obter mais informações.
+**Fontes de dados de processamento completo** não são mais oferecidas como tipo de fonte de dados a partir de 25 de março de 2021. Consulte o [Anúncio do fim da vida útil](full-processing-eol.md) para obter mais informações.
 
-O Adobe também oferece o [API de fontes de dados](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), que permite criar fontes de dados e carregar dados sem usar a interface do usuário do produto ou um local FTP.
+O Adobe também oferece a [API de fontes de dados](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), que permite criar fontes de dados e carregar dados sem usar a interface do usuário do produto ou um local FTP.
 
 ## Próximas etapas
 

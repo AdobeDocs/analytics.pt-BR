@@ -31,7 +31,7 @@ A Adobe oferece um modelo para ver dados essenciais de desempenho entre disposit
    * Cobertura da Experience Cloud ID: somente os visitantes com uma ECID podem ser compilados. Uma porcentagem menor de visitantes do site que usam uma ECID está correlacionada a taxas de compactação mais baixas.
    * Uso de vários dispositivos: se os visitantes do site não usarem vários dispositivos, você poderá ver taxas de compactação mais baixas.
    * Granularidade do relatório: a compactação por dia geralmente é menor do que a compactação por mês ou ano. As chances de um indivíduo usar vários dispositivos se tornam menores em um único dia do que em mais de um mês inteiro. A segmentação, a filtragem ou o uso de dimensões de detalhamento também podem mostrar uma taxa de compactação menor.
-* **Segmentos com base em pessoas**: contém uma lista suspensa de segmentos que permite visualizar dados específicos do dispositivo. Esse painel incentiva a experimentação com segmentos para ver como a inclusão ou exclusão de tipos de dispositivos afetam os relatórios.
+* **Segmentos com base em pessoas**: contém uma lista suspensa de segmentos que permite exibir dados específicos do dispositivo. Esse painel incentiva a experimentação com segmentos para ver como a inclusão ou exclusão de tipos de dispositivos afetam os relatórios.
 * **Análise da jornada entre dispositivos**: fornece relatórios de fluxo e fallout de acordo com o tipo de dispositivo.
-* **Atribuição entre dispositivos**: combine os recursos de QI e Atribuição do Jornada.
+* **Atribuição entre dispositivos**: combine os recursos de Jornada IQ e Atribuição.
 * **Outras dicas e truques**: tópicos úteis sobre o CDA que permitem que você o aproveite ao máximo.

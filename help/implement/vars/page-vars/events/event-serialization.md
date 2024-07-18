@@ -35,11 +35,11 @@ Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 
 ## Usar IDs de evento usando o SDK da Web
 
-Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), a serialização de eventos usa o campo XDM do evento desejado `id`. O caminho XDM completo depende de qual evento você deseja serializar.
+Se estiver usando o [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), a serialização de eventos usará o campo XDM do evento desejado `id`. O caminho XDM completo depende de qual evento você deseja serializar.
 
-Por exemplo, se você deseja serializar a métrica Adições ao carrinho, defina `xdm.commerce.productListAdds.id` para o valor de serialização desejado. Se quiser serializar um evento personalizado 20, defina `xdm._experience.analytics.event1to100.event20` para o valor de serialização desejado.
+Por exemplo, se você deseja serializar a métrica Adições ao carrinho, defina `xdm.commerce.productListAdds.id` com o valor de serialização desejado. Se você quiser serializar um evento Personalizado 20, defina `xdm._experience.analytics.event1to100.event20` para o valor de serialização desejado.
 
-Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), a serialização de eventos usa `data.__adobe.analytics.events`, seguindo a sintaxe da string de AppMeasurement.
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), a serialização de eventos usará `data.__adobe.analytics.events`, seguindo a sintaxe da cadeia de caracteres do AppMeasurement.
 
 ## Usar IDs de evento usando a extensão do Adobe Analytics
 
@@ -49,7 +49,7 @@ Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapp
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Definir Variáveis].
 6. Localize a seção [!UICONTROL Eventos], onde cada evento contém um campo [!UICONTROL ID de evento].
 
 Valores válidos são caracteres alfanuméricos de até 20 bytes de tamanho. Se você inserir um valor com mais de 20 bytes, o sistema o truncará para os primeiros 20 bytes.

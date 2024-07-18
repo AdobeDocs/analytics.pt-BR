@@ -104,7 +104,7 @@ Respostas às perguntas que você pode ter antes da migração.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Como migrar IDs de usuários? </p> </td> 
-   <td colname="col2"> <p> Clique em <a href="/help/admin/admin/user-management2/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9"> Migrar IDs de usuários</a> na página Admin, em Gerenciamento de usuários. Use a ferramenta para adicionar usuário aos perfis de produto no Adobe Admin Console (replicado dos grupos de permissão no Analytics). Você pode migrar IDs de usuários em seu próprio ritmo. </p> <p>Será necessário ter privilégios administrativos. Quando a migração terminar, ela não poderá ser revertida. </p> <p>Na data de término da migração, o acesso a <span class="filepath">my.omniture.com</span> será desativado para os usuários em suas empresas de logon. Os usuários (incluindo aqueles que ainda não foram migrados) serão redirecionados para fazer logon por meio do novo URL da Experience Cloud (<span class="filepath">experiencecloud.adobe.com</span>) </p> <p>Nota: a Adobe recomenda aproveitar a oportunidade para realizar uma auditoria de seus usuários e grupos antes da migração. Exclua contas antigas e não utilizadas ou contas que não devem mais ter acesso ao produto (por exemplo, funcionários que não estão mais na organização). </p> <p>Tópico relacionado: <a href="/help/admin/admin/user-management2/user-migration/migrate-enterprise.md"> Migrar contas de usuário do Analytics para Enterprise e Federated IDs</a>. </p> </td> 
+   <td colname="col2"> <p> Clique em <a href="/help/admin/admin/user-management2/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9"> Migrar IDs de Usuários</a> na página Admin, em Gerenciamento de Usuários. Use a ferramenta para adicionar usuário aos perfis de produto no Adobe Admin Console (replicado dos grupos de permissão no Analytics). Você pode migrar IDs de usuários em seu próprio ritmo. </p> <p>Será necessário ter privilégios administrativos. Quando a migração terminar, ela não poderá ser revertida. </p> <p>Na data de término da migração, o acesso a <span class="filepath">my.omniture.com</span> será desativado para os usuários em suas empresas de logon. Os usuários (incluindo aqueles que ainda não foram migrados) serão redirecionados para fazer logon por meio do novo URL da Experience Cloud (<span class="filepath">experiencecloud.adobe.com</span>) </p> <p>Nota: a Adobe recomenda aproveitar a oportunidade para realizar uma auditoria de seus usuários e grupos antes da migração. Exclua contas antigas e não utilizadas ou contas que não devem mais ter acesso ao produto (por exemplo, funcionários que não estão mais na organização). </p> <p>Tópico relacionado: <a href="/help/admin/admin/user-management2/user-migration/migrate-enterprise.md"> Migrar contas de usuário do Analytics para Enterprise e Federated IDs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>A migração afetará a minha implementação do Analytics ou a forma como os dados são coletados? </p> </td> 
@@ -121,7 +121,7 @@ Respostas às perguntas que você pode ter antes da migração.
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Verificar se você é um administrador de produto do Analytics no Adobe Admin Console. </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">Comunicar a sua base de usuários de que a experiência de logon mudará quando a migração for iniciada. </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">Auditar seus usuários e permissões atuais e realizar atividades de limpeza. </li> 
-    </ul> <p>Para acelerar sua migração, entre em contato com a equipe de conta do Adobe em <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html"> Atendimento ao cliente Adobe</a> e submeter uma solicitação para uma data inicial anterior. </p> </td> 
+    </ul> <p>Para acelerar sua migração, entre em contato com a equipe de conta do Adobe em <a href="https://helpx.adobe.com/br/marketing-cloud/contact-support.html"> Adobe Atendimento ao cliente</a> e envie um pedido para antecipar a data de início da migração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Sou um administrador do Analytics e não tenho acesso ao Adobe Admin Console. Quem pode me ajudar a obter acesso ao Adobe Admin Console? </p> </td> 
@@ -244,7 +244,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Excluir usuários do Adobe Admin Console </p> </td> 
-   <td colname="col2"> <p> No Analytics, um usuário excluído é definido como <span class="term"> expirado</span>, mas a conta continua a existir. A preservação da conta permite a transferência de ativos, como segmentos, métricas calculadas, relatórios agendados, projetos, entre outros. </p> </td> 
+   <td colname="col2"> <p> No Analytics, um usuário excluído está definido como <span class="term"> expirado</span>, mas a conta continua a existir. A preservação da conta permite a transferência de ativos, como segmentos, métricas calculadas, relatórios agendados, projetos, entre outros. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiração da conta </p> </td> 
@@ -318,7 +318,7 @@ Para enviar um email a todos os usuários, navegue até **[!UICONTROL Analytics]
 
 Nossa empresa começará a migrar todas as contas do Adobe Analytics de [!DNL https://my.omniture.com/login/] para a Adobe Experience Cloud ([experiencecloud.adobe.com](https://experiencecloud.adobe.com/)). Com essa migração, sua conta do Adobe Analytics será atualizada para permitir o acesso ao Analytics por meio da Adobe Experience Cloud. Apesar da alteração do método para acessar o Analytics, todas as permissões existentes para seus conjuntos de relatórios e ferramentas serão preservadas.
 
-**Próximas etapas:** Começaremos a migrar os usuários a partir de **INSERIR DATA**. Fique atento para uma mensagem de boas-vindas com o seu novo logon endereçada à ID de email listada em sua conta do Analytics. Se você não tiver configurado uma [Adobe ID](https://helpx.adobe.com/br/x-productkb/global/adobe-id-account-change.html) vinculada ao seu endereço de email, você será solicitado a configurar uma conta.
+**Próximas etapas:** começaremos a migrar os usuários a partir de **INSERIR DATA**. Fique atento para uma mensagem de boas-vindas com o seu novo logon endereçada à ID de email listada em sua conta do Analytics. Se você não tiver configurado uma [Adobe ID](https://helpx.adobe.com/br/x-productkb/global/adobe-id-account-change.html) vinculada ao seu endereço de email, você será solicitado a configurar uma conta.
 
 **Recursos úteis:**
 

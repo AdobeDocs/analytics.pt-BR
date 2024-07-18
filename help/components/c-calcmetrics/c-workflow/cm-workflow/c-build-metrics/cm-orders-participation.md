@@ -5,12 +5,12 @@ feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 56%
+source-wordcount: '202'
+ht-degree: 59%
 
 ---
 
-# Criar uma métrica &quot;Assistências em pedidos&quot;
+# Criar uma métrica “Assistências em pedidos”
 
 As informações a seguir explicam como criar uma métrica que mostra quais Canais de marketing auxiliam na criação de pedidos. Isso pode ser adaptado a qualquer dimensão ou evento de sucesso de seu interesse.
 
@@ -26,7 +26,7 @@ As informações a seguir explicam como criar uma métrica que mostra quais Cana
 
    ![](assets/custom-attr-model.png)
 
-1. Selecionar [!UICONTROL **Aplicar**] > [!UICONTROL **Salvar**].
+1. Selecione [!UICONTROL **Aplicar**] > [!UICONTROL **Salvar**].
 
 1. No Analysis Workspace, crie uma tabela de forma livre com a dimensão Canal de marketing, Pedidos e sua nova métrica Pedidos assistidos.
 

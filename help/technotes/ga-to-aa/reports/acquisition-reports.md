@@ -141,4 +141,4 @@ O relatório de palavras-chave orgânicas mostra o desempenho de cada palavra-ch
 
 ## Análise de custo
 
-Este relatório mostra os dados de desempenho de visita, custo e receita dos canais de marketing pagos. A Adobe fornece um produto dedicado para oferecer informações chamado Adobe Advertising Cloud. Se sua organização estiver interessada em usar esse produto, entre em contato com a equipe de conta do Adobe.
+Este relatório mostra os dados de desempenho de visita, custo e receita dos canais de marketing pagos. A Adobe fornece um produto dedicado para oferecer informações chamado Adobe Advertising Cloud. Se a organização estiver interessada em usar esse produto, entre em contato com a equipe de conta da Adobe.

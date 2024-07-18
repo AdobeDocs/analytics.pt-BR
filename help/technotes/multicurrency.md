@@ -16,9 +16,9 @@ O Adobe oferece vários níveis de conversão de moeda para que sua organizaçã
 
 ## Nível da página
 
-Você pode usar o [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) para definir a moeda desejada em cada página. Se a moeda na página não corresponder à moeda do conjunto de relatórios de destino, o Adobe executará uma conversão de moeda para a moeda do conjunto de relatórios com base na taxa de câmbio do dia. A moeda convertida é registrada.
+Você pode usar a variável [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) para definir a moeda desejada em cada página. Se a moeda na página não corresponder à moeda do conjunto de relatórios de destino, o Adobe executará uma conversão de moeda para a moeda do conjunto de relatórios com base na taxa de câmbio do dia. A moeda convertida é registrada.
 
 ## Nível do conjunto de relatórios
 
-Todo conjunto de relatórios tem um **moeda de base**. Essa moeda determina o contexto de todas as métricas de moeda (como [Receita](/help/components/metrics/revenue.md)). Todos os dados de moeda armazenados estão na moeda base do conjunto de relatórios.
+Todo conjunto de relatórios tem uma **moeda base**. Esta moeda determina o contexto de todas as métricas de moeda (como [Receita](/help/components/metrics/revenue.md)). Todos os dados de moeda armazenados estão na moeda base do conjunto de relatórios.
 

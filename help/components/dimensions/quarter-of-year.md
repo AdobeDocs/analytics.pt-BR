@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Trimestre do ano
 
-O &quot;Trimestre do ano&quot; [dimension](overview.md) relata o trimestre de um determinado ano como um item de dimensão. Esse relatório é importante se você quiser que um relatório seja dividido pelo trimestre do ano, mas não quiser uma data estática como itens de dimensão. Você pode agregar relatórios anuais por trimestre, de modo que os dados do primeiro trimestre deste ano agreguem-se aos dados do primeiro trimestre do ano passado no mesmo item de dimensão.
+A [dimensão](overview.md) de &quot;Trimestre do ano&quot; informa o trimestre de um determinado ano como um item de dimensão. Esse relatório é importante se você quiser que um relatório seja dividido pelo trimestre do ano, mas não quiser uma data estática como itens de dimensão. Você pode agregar relatórios anuais por trimestre, de modo que os dados do primeiro trimestre deste ano agreguem-se aos dados do primeiro trimestre do ano passado no mesmo item de dimensão.
 
 ## Preencher esta dimensão com dados
 

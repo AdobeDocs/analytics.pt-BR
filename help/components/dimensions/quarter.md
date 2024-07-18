@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Trimestre
 
-O &quot;Trimestre&quot; [dimension](overview.md) relata o trimestre em que determinada métrica ocorreu. O primeiro item de dimensão é o primeiro trimestre no intervalo de datas, e o último item de dimensão é o último trimestre no intervalo de datas. Essa dimensão é ideal para relatórios de tendências, pois permite visualizar as métricas ao longo do tempo.
+A [dimensão](overview.md) do &quot;Trimestre&quot; informa o trimestre em que determinada métrica ocorreu. O primeiro item de dimensão é o primeiro trimestre no intervalo de datas, e o último item de dimensão é o último trimestre no intervalo de datas. Essa dimensão é ideal para relatórios de tendências, pois permite visualizar as métricas ao longo do tempo.
 
 ## Preencher esta dimensão com dados
 

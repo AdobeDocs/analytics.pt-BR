@@ -17,20 +17,20 @@ ht-degree: 73%
 
 O plug-in `getQueryParam` permite que você extraia o valor de qualquer parâmetro de string de consulta contido em um URL. É útil para extrair códigos de campanha, internos e externos, de URLs de páginas iniciais. Também é importante ao extrair termos de pesquisa ou outros parâmetros da string de consulta.
 
-Esse plug-in fornece recursos robustos para a análise de URLs complexos, incluindo hashes e URLs que contêm vários parâmetros de string de consulta. Se você precisa apenas de parâmetros de string de consulta simples, o Adobe recomenda usar os recursos de parâmetros de URL usando o SDK da Web, a extensão do Adobe Analytics ou o [`Util.getQueryParam()`](../functions/util-getqueryparam.md) método incluído no AppMeasurement.
+Esse plug-in fornece recursos robustos para a análise de URLs complexos, incluindo hashes e URLs que contêm vários parâmetros de string de consulta. Se você precisa apenas de parâmetros de sequência de consulta simples, a Adobe recomenda usar os recursos de parâmetro de URL usando o SDK da Web, a extensão do Adobe Analytics ou o método [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluído no AppMeasurement.
 
 ## Instale o plug-in usando a extensão SDK da Web
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o SDK da Web.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
-1. Clique em **[!UICONTROL Tags]** à esquerda e clique na propriedade de tag desejada.
-1. Clique em **[!UICONTROL Extensões]** à esquerda e, em seguida, clique na guia **[!UICONTROL Catálogo]** guia
-1. Localize e instale o **[!UICONTROL Plug-ins comuns do SDK da Web]** extensão.
+1. Clique em **[!UICONTROL Marcas]** à esquerda e clique na propriedade de marca desejada.
+1. Clique em **[!UICONTROL Extensões]** à esquerda e na guia **[!UICONTROL Catálogo]**
+1. Localize e instale a extensão **[!UICONTROL Plug-ins comuns do SDK da Web]**.
 1. Clique em **[!UICONTROL Elementos de dados]** à esquerda e, em seguida, clique no elemento de dados desejado.
 1. Defina o nome do elemento de dados desejado com a seguinte configuração:
    * Extensão: plug-ins comuns do SDK da Web
-   * Elemento de dados: `getQueryParam`
+   * Elemento de Dados: `getQueryParam`
 1. Defina os parâmetros desejados à direita.
 1. Salve e publique as alterações no elemento de dados.
 
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (19 de março de 2021)
 
 * Adição do número da versão como dados de contexto.
-* Remoção de dependências em `pt` plug-in.
+* Remoção de dependências no plug-in `pt`.
 
 ### 3.3 (24 de setembro de 2019)
 

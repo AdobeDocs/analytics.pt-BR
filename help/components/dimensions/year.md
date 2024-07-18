@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # Ano
 
-O &quot;Ano&quot; [dimension](overview.md) relata o ano em que determinada métrica ocorreu. O primeiro item de dimensão é o primeiro ano no intervalo de datas, e o último item de dimensão é o ano mais recente no intervalo de datas.
+A [dimensão](overview.md) &#39;Ano&#39; relata o ano em que determinada métrica ocorreu. O primeiro item de dimensão é o primeiro ano no intervalo de datas, e o último item de dimensão é o ano mais recente no intervalo de datas.
 
 ## Preencher esta dimensão com dados
 

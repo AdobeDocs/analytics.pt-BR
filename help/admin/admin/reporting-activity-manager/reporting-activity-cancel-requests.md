@@ -13,45 +13,45 @@ ht-degree: 13%
 
 # Cancelar solicitações de relatórios no Gerenciador de atividades de relatórios
 
-A variável [!UICONTROL Gerenciador de atividades de relatórios] O permite que os administradores diagnostiquem e cancelem rapidamente as solicitações de relatórios para corrigir problemas de capacidade durante o pico dos relatórios.
+O [!UICONTROL Gerenciador de Atividades de Relatórios] permite que os administradores diagnostiquem e cancelem rapidamente as solicitações de relatórios para corrigir problemas de capacidade de relatórios durante os horários de pico de relatórios.
 
 Considere o seguinte ao cancelar solicitações de relatórios:
 
 * Você pode cancelar solicitações específicas, cancelar todas as solicitações de um usuário específico ou cancelar todas as solicitações relacionadas a um projeto específico.
 
-  Ao cancelar uma solicitação, a ação é registrada na variável [Logs](/help/admin/admin/logs.md). A variável [!UICONTROL **Tipo de evento**] a coluna é exibida como [!UICONTROL **Ação do administrador**] e uma descrição do cancelamento está disponível no [!UICONTROL **Evento**] coluna.
+  Quando você cancela uma solicitação, a ação é registrada nos [Logs](/help/admin/admin/logs.md). A coluna [!UICONTROL **Tipo de Evento**] é exibida como [!UICONTROL **Ação do Administrador**], e uma descrição do cancelamento está disponível na coluna [!UICONTROL **Evento**].
 
 * Ao cancelar solicitações, você também pode optar por restringir solicitações subsequentes por um determinado período.
 
-  Quando você restringir uma solicitação subsequente, a ação será registrada na variável [Logs](/help/admin/admin/logs.md). A variável [!UICONTROL **Tipo de evento**] a coluna é exibida como [!UICONTROL **Ação do administrador**] e uma descrição da restrição está disponível no [!UICONTROL **Evento**] coluna.
+  Quando você restringe uma solicitação subsequente, a ação é registrada nos [Logs](/help/admin/admin/logs.md). A coluna [!UICONTROL **Tipo de Evento**] é exibida como [!UICONTROL **Ação do Administrador**], e uma descrição da restrição está disponível na coluna [!UICONTROL **Evento**].
 
-* Não é possível cancelar uma solicitação se a variável [!UICONTROL **Usuário**] a coluna de uma solicitação é exibida como [!UICONTROL **Não reconhecido**]. Quando isso ocorre, significa que o usuário está em uma empresa de logon na qual você não tem permissões administrativas.
+* Não é possível cancelar uma solicitação se a coluna [!UICONTROL **Usuário**] de uma solicitação for exibida como [!UICONTROL **Não reconhecido**]. Quando isso ocorre, significa que o usuário está em uma empresa de logon na qual você não tem permissões administrativas.
 
-Para obter mais informações sobre o Gerente de atividades de relatórios, incluindo os principais benefícios e requisitos de permissão, consulte [Visão geral do Gerenciador de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
+Para obter mais informações sobre o Gerenciador de Atividades de relatórios, incluindo os principais benefícios e requisitos de permissão, consulte [Visão geral do Gerenciador de Atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
 ## Cancelar solicitações específicas
 
 Você pode cancelar solicitações individuais que estão consumindo uma grande quantidade de capacidade de relatório.
 
-1. No Adobe Analytics, acesse **[!UICONTROL Admin]** > **[!UICONTROL Gerenciador de atividades de relatórios]**.
+1. No Adobe Analytics, vá para **[!UICONTROL Admin]** > **[!UICONTROL Gerente de Atividades de Relatórios]**.
 
 1. Selecione o conjunto de relatórios no qual você deseja cancelar solicitações de relatórios. <!--double-check this step-->
 
-   Para obter mais informações sobre os dados disponíveis nesta página, consulte [Exibir atividade de relatórios no Gerenciador de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Para obter mais informações sobre os dados disponíveis nesta página, consulte [Exibir atividade de relatório no Gerenciador de Atividades de Relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Selecione o [!UICONTROL **Solicitações**] e selecione uma ou mais solicitações.
+1. Selecione a guia [!UICONTROL **Solicitações**] e selecione uma ou mais solicitações.
 
    <!-- add screenshot -->
 
-1. Selecionar [!UICONTROL **Cancelar solicitações**].
+1. Selecione [!UICONTROL **Cancelar solicitações**].
 
-   A variável [!UICONTROL **Cancelar _x_ solicitações de relatório**] é exibida.
+   A caixa de diálogo [!UICONTROL **Cancelar _x_ solicitações de relatório**] é exibida.
 
 1. O campo de mensagem Cancelamento mostra a mensagem que o exibe aos usuários quando as solicitações são canceladas. Uma mensagem padrão é fornecida. Você pode atualizar a mensagem padrão para fornecer detalhes adicionais.
 
 1. (Opcional) Para restringir solicitações futuras em um determinado período:
 
-   1. Ative a opção para [!UICONTROL **Restringir solicitações subsequentes**]
+   1. Habilite a opção para [!UICONTROL **Restringir solicitações subsequentes**]
 
       ![Restringir solicitações subsequentes](assets/restrict-subsequent-requests.png)
 
@@ -66,33 +66,33 @@ Você pode cancelar solicitações individuais que estão consumindo uma grande 
 
       {style="table-layout:auto"}
 
-1. Selecionar [!UICONTROL **Continuar com o cancelamento**].
+1. Selecione [!UICONTROL **Continuar com cancelamento**].
 
-   Uma notificação é exibida no Analysis Workspace, informando aos usuários que a solicitação foi cancelada. Para obter mais informações sobre como isso é exibido no Analysis Workspace, consulte [Experiência quando usuários acessam um relatório cancelado](#experience-when-users-access-a-cancelled-report).
+   Uma notificação é exibida no Analysis Workspace, informando aos usuários que a solicitação foi cancelada. Para obter mais informações sobre como isso aparece no Analysis Workspace, consulte [Experiência quando usuários acessam um relatório cancelado](#experience-when-users-access-a-cancelled-report).
 
 ## Cancelar solicitações por usuário
 
 Você pode cancelar todas as solicitações associadas a um ou mais usuários.
 
-1. No Adobe Analytics, acesse **[!UICONTROL Admin]** > **[!UICONTROL Gerenciador de atividades de relatórios]**.
+1. No Adobe Analytics, vá para **[!UICONTROL Admin]** > **[!UICONTROL Gerente de Atividades de Relatórios]**.
 
 1. Selecione o conjunto de relatórios no qual você deseja cancelar solicitações de relatórios. <!--double-check this step-->
 
-   Para obter mais informações sobre os dados disponíveis nesta página, consulte [Exibir atividade de relatórios no Gerenciador de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Para obter mais informações sobre os dados disponíveis nesta página, consulte [Exibir atividade de relatório no Gerenciador de Atividades de Relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Selecione o [!UICONTROL **Usuários**] e selecione um ou mais usuários.
+1. Selecione a guia [!UICONTROL **Usuários**] e selecione um ou mais usuários.
 
    <!-- add screenshot -->
 
-1. Selecionar [!UICONTROL **Cancelar solicitações**].
+1. Selecione [!UICONTROL **Cancelar solicitações**].
 
-   A variável [!UICONTROL **Cancelar _x_ solicitações de relatório de x usuários**] é exibida.
+   A caixa de diálogo [!UICONTROL **Cancelar solicitações de relatório _x_ de x usuários**] é exibida.
 
 1. O campo de mensagem Cancelamento mostra a mensagem que o exibe aos usuários quando as solicitações são canceladas. Uma mensagem padrão é fornecida. Você pode atualizar a mensagem padrão para fornecer detalhes adicionais.
 
 1. (Opcional) Para restringir solicitações futuras em um determinado período:
 
-   1. Ative a opção para [!UICONTROL **Restringir solicitações subsequentes**].
+   1. Habilite a opção para [!UICONTROL **Restringir solicitações subsequentes**].
 
       ![Restringir solicitações subsequentes por usuário](assets/restrict-subsequent-requests-user.png)
 
@@ -107,33 +107,33 @@ Você pode cancelar todas as solicitações associadas a um ou mais usuários.
 
       {style="table-layout:auto"}
 
-1. Selecionar [!UICONTROL **Continuar com o cancelamento**].
+1. Selecione [!UICONTROL **Continuar com cancelamento**].
 
-   Uma notificação é exibida no Analysis Workspace, informando aos usuários que a solicitação foi cancelada. Para obter mais informações sobre como isso é exibido no Analysis Workspace, consulte [Experiência quando usuários acessam um relatório cancelado](#experience-when-users-access-a-cancelled-report).
+   Uma notificação é exibida no Analysis Workspace, informando aos usuários que a solicitação foi cancelada. Para obter mais informações sobre como isso aparece no Analysis Workspace, consulte [Experiência quando usuários acessam um relatório cancelado](#experience-when-users-access-a-cancelled-report).
 
 ## Cancelar solicitações por projeto
 
 Você pode cancelar todas as solicitações associadas a um ou mais projetos.
 
-1. No Adobe Analytics, acesse **[!UICONTROL Admin]** > **[!UICONTROL Gerenciador de atividades de relatórios]**.
+1. No Adobe Analytics, vá para **[!UICONTROL Admin]** > **[!UICONTROL Gerente de Atividades de Relatórios]**.
 
 1. Selecione o conjunto de relatórios no qual você deseja cancelar solicitações de relatórios. <!--double-check this step-->
 
-   Para obter mais informações sobre os dados disponíveis nesta página, consulte [Exibir atividade de relatórios no Gerenciador de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Para obter mais informações sobre os dados disponíveis nesta página, consulte [Exibir atividade de relatório no Gerenciador de Atividades de Relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Selecione o [!UICONTROL **Projetos**] e selecione um ou mais projetos.
+1. Selecione a guia [!UICONTROL **Projetos**] e selecione um ou mais projetos.
 
    <!-- add screenshot -->
 
-1. Selecionar [!UICONTROL **Cancelar solicitações**].
+1. Selecione [!UICONTROL **Cancelar solicitações**].
 
-   A variável [!UICONTROL **Cancelar _x_ solicitações de relatório de x projetos**] é exibida.
+   A caixa de diálogo [!UICONTROL **Cancelar solicitações de relatório _x_ de x projetos**] é exibida.
 
 1. O campo de mensagem Cancelamento mostra a mensagem que o exibe aos usuários quando as solicitações são canceladas. Uma mensagem padrão é fornecida. Você pode atualizar a mensagem padrão para fornecer detalhes adicionais.
 
 1. (Opcional) Para restringir solicitações futuras em um determinado período:
 
-   1. Ative a opção para [!UICONTROL **Restringir solicitações subsequentes**].
+   1. Habilite a opção para [!UICONTROL **Restringir solicitações subsequentes**].
 
       ![Restringir solicitações subsequentes por projeto](assets/restrict-subsequent-requests-project.png)
 
@@ -148,9 +148,9 @@ Você pode cancelar todas as solicitações associadas a um ou mais projetos.
 
       {style="table-layout:auto"}
 
-1. Selecionar [!UICONTROL **Continuar com o cancelamento**].
+1. Selecione [!UICONTROL **Continuar com cancelamento**].
 
-   Uma notificação é exibida no Analysis Workspace, informando aos usuários que a solicitação foi cancelada. Para obter mais informações sobre como isso é exibido no Analysis Workspace, consulte [Experiência quando usuários acessam um relatório cancelado](#experience-when-users-access-a-cancelled-report).
+   Uma notificação é exibida no Analysis Workspace, informando aos usuários que a solicitação foi cancelada. Para obter mais informações sobre como isso aparece no Analysis Workspace, consulte [Experiência quando usuários acessam um relatório cancelado](#experience-when-users-access-a-cancelled-report).
 
 ## Cancelar solicitações por aplicativo
 
@@ -169,25 +169,25 @@ Os aplicativos incluem o seguinte:
 
 Para cancelar solicitações por aplicativo:
 
-1. No Adobe Analytics, acesse **[!UICONTROL Admin]** > **[!UICONTROL Gerenciador de atividades de relatórios]**.
+1. No Adobe Analytics, vá para **[!UICONTROL Admin]** > **[!UICONTROL Gerente de Atividades de Relatórios]**.
 
 1. Selecione a conexão na qual deseja cancelar solicitações de relatórios. <!--double-check this step-->
 
-   Para obter mais informações sobre os dados disponíveis nesta página, consulte [Exibir atividade de relatórios no Gerenciador de atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Para obter mais informações sobre os dados disponíveis nesta página, consulte [Exibir atividade de relatório no Gerenciador de Atividades de Relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Selecione o [!UICONTROL **Aplicativos**] e selecione um ou mais aplicativos.
+1. Selecione a guia [!UICONTROL **Aplicativos**] e selecione um ou mais aplicativos.
 
    <!-- add screenshot -->
 
-1. Selecionar [!UICONTROL **Cancelar solicitações**].
+1. Selecione [!UICONTROL **Cancelar solicitações**].
 
-   A variável [!UICONTROL **Cancelar _x_ solicitações de relatório de x projetos**] é exibida.
+   A caixa de diálogo [!UICONTROL **Cancelar solicitações de relatório _x_ de x projetos**] é exibida.
 
 1. O campo de mensagem Cancelamento mostra a mensagem que o exibe aos usuários quando as solicitações são canceladas. Uma mensagem padrão é fornecida. Você pode atualizar a mensagem padrão para fornecer detalhes adicionais.
 
 1. (Opcional) Para restringir solicitações futuras em um determinado período:
 
-   1. Ative a opção para [!UICONTROL **Restringir solicitações subsequentes**]
+   1. Habilite a opção para [!UICONTROL **Restringir solicitações subsequentes**]
 
       ![Restringir solicitações subsequentes por aplicativo](assets/restrict-subsequent-requests-application.png)
 
@@ -202,9 +202,9 @@ Para cancelar solicitações por aplicativo:
 
       {style="table-layout:auto"}
 
-1. Selecionar [!UICONTROL **Continuar com o cancelamento**].
+1. Selecione [!UICONTROL **Continuar com cancelamento**].
 
-   Uma notificação é exibida no aplicativo (como no Analysis Workspace), informando aos usuários que a solicitação foi cancelada. Para obter mais informações sobre como isso é exibido no Analysis Workspace, consulte [Experiência quando usuários acessam um relatório cancelado](#experience-when-users-access-a-cancelled-report).
+   Uma notificação é exibida no aplicativo (como no Analysis Workspace), informando aos usuários que a solicitação foi cancelada. Para obter mais informações sobre como isso aparece no Analysis Workspace, consulte [Experiência quando usuários acessam um relatório cancelado](#experience-when-users-access-a-cancelled-report).
 
 ## Experiência quando usuários acessam um relatório cancelado
 

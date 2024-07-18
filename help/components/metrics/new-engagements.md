@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Novos engajamentos
 
-Os &quot;Novos engajamentos&quot; [métrica](overview.md) mostra o número de vezes que um visitante corresponde a um canal de marketing pela primeira vez durante o período de engajamento do visitante. Essa métrica é útil para comparar qualquer dimensão com um visitante que coincide com uma regra de processamento de canal de marketing pela primeira vez.
+A [métrica](overview.md) de &quot;Novos engajamentos&quot; mostra o número de vezes que um visitante corresponde a um canal de marketing pela primeira vez durante o período de engajamento do visitante. Essa métrica é útil para comparar qualquer dimensão com um visitante que coincide com uma regra de processamento de canal de marketing pela primeira vez.
 
 ## Como essa métrica é calculada
 

@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '559'
 ht-degree: 66%
 
 ---
 
 # Código de rastreamento
 
-O &quot;Código de rastreamento&quot; [dimension](overview.md) lista os nomes dos códigos de rastreamento no site. Você pode colocar links com diferentes valores de parâmetro de sequência de consulta em diferentes lugares na Internet. Essa dimensão ajuda você a entender quais links foram os mais bem-sucedidos ao direcionar o tráfego para o site.
+A [dimensão](overview.md) do &#39;Código de rastreamento&#39; lista os nomes dos códigos de rastreamento no site. Você pode colocar links com diferentes valores de parâmetro de sequência de consulta em diferentes lugares na Internet. Essa dimensão ajuda você a entender quais links foram os mais bem-sucedidos ao direcionar o tráfego para o site.
 
 Anexar sequências de consulta de código de rastreamento é comum em emails, anúncios, publicações em redes sociais e outros esforços de marketing que sua organização usa.
 

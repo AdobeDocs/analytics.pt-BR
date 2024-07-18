@@ -7,7 +7,7 @@ exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
 source-git-commit: fb8be11fabefc0206af7868228f85353f15eb20c
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 **Diretrizes**
 
 * Excluir uma pasta não exclui o conteúdo da pasta. O conteúdo de uma pasta excluída (projetos ou subpastas) é movido para a pasta imediata acima na hierarquia de pastas.
-* Os administradores podem excluir uma pasta na Pasta da empresa criada por outro administrador. Os administradores podem precisar coordenar com outros administradores para manter as pastas e o acesso ao projeto consistentes. Consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+* Admins podem excluir uma pasta contida na Pasta da empresa que outro(a) admin criou. Admins podem precisar se coordenar entre si para manter a consistência de acesso à pasta e ao projeto. Consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
 
 Para excluir uma pasta
 

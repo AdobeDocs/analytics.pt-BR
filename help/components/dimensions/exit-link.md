@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Link de saída
 
-O &#39;Link de saída&#39; [dimension](overview.md) O relata os nomes dos links de saída implementados em seu site. Essa dimensão é valiosa quando você quer entender quais são os links mais populares que apontam para domínios fora do seu site.
+O &#39;Link de saída&#39; [dimensão](overview.md) informa os nomes dos links de saída implementados em seu site. Essa dimensão é valiosa quando você quer entender quais são os links mais populares que apontam para domínios fora do seu site.
 
 ## Preencher esta dimensão com dados
 

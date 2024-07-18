@@ -24,7 +24,7 @@ Colisões de hash podem se manifestar nos relatórios da seguinte maneira:
 
 ## Probabilidades de colisão de hash
 
-O Adobe Analytics usa hashes de 32 bits para a maioria das dimensões, o que significa que há 2<sup>32</sup> possíveis combinações de hash (aproximadamente 4,3 bilhões). Uma nova tabela de hash para cada dimensão é criada a cada mês. As chances aproximadas de encontrar uma colisão de hash com base no número de valores únicos são as seguintes. Essas probabilidades são baseadas em uma única dimensão para um único mês.
+O Adobe Analytics usa hashes de 32 bits para a maioria das dimensões, o que significa que há 2<sup>32</sup> combinações de hash possíveis (aproximadamente 4,3 bilhões). Uma nova tabela de hash para cada dimensão é criada a cada mês. As chances aproximadas de encontrar uma colisão de hash com base no número de valores únicos são as seguintes. Essas probabilidades são baseadas em uma única dimensão para um único mês.
 
 | Valores únicos | Probabilidades |
 | --- | --- |
@@ -35,13 +35,13 @@ O Adobe Analytics usa hashes de 32 bits para a maioria das dimensões, o que sig
 
 {style="table-layout:auto"}
 
-Semelhante ao [paradoxo de aniversário](https://en.wikipedia.org/wiki/Birthday_problem)Além disso, a probabilidade de colisões de hash aumenta drasticamente à medida que o número de valores únicos aumenta. Com 1 milhão de valores únicos, é provável que haja pelo menos 100 colisões de hash para essa dimensão.
+Semelhante ao [paradoxo de aniversário](https://en.wikipedia.org/wiki/Birthday_problem), a probabilidade de colisões de hash aumenta drasticamente à medida que o número de valores únicos aumenta. Com 1 milhão de valores únicos, é provável que haja pelo menos 100 colisões de hash para essa dimensão.
 
 ## Reduzindo colisões de hash
 
 A maioria das colisões de hash ocorre com dois valores incomuns, que não têm impacto significativo nos relatórios. Mesmo que um hash colida com um valor comum e incomum, o resultado é insignificante. No entanto, em casos raros em que dois valores populares experimentam uma colisão de hash, é possível ver seu efeito claramente. A Adobe recomenda o seguinte para reduzir seu efeito nos relatórios:
 
 * **Alterar intervalo de datas**: as tabelas de hash mudam a cada mês. Alterar o intervalo de datas para abranger outro mês pode dar a cada valor hashes diferentes que não colidem.
-* **Reduzir o número de valores únicos**: Você pode ajustar a implementação ou usar [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para ajudar a reduzir o número de valores únicos que uma dimensão coleta. Por exemplo, se a dimensão coletar um URL, você poderá remover cadeias de caracteres de consulta ou protocolo.
+* **Reduza o número de valores únicos**: você pode ajustar sua implementação ou usar [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para ajudar a reduzir o número de valores únicos que uma dimensão coleta. Por exemplo, se a dimensão coletar um URL, você poderá remover cadeias de caracteres de consulta ou protocolo.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

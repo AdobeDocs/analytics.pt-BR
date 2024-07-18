@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Palavra-chave de pesquisa
 
-A &#39;palavra-chave de pesquisa&#39; [dimension](overview.md) relata as palavras-chave de pesquisa que os visitantes usam para acessar seu site.
+A [dimensão](overview.md) de &quot;Palavra-chave de pesquisa&quot; informa as palavras-chave de pesquisa que os visitantes utilizam para acessar seu site.
 
 >[!IMPORTANT]
 >

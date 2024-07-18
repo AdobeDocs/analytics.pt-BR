@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ Uma hierarquia de classificação permite aplicar uma classificação a uma clas
 
 ![](assets/sub_class_table.png)
 
-Depois de colocar essa estrutura no lugar, é possível utilizar  [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) para carregar arquivos pequenos que atualizam apenas as tabelas de pesquisa (as tabelas verde e vermelha na imagem anterior). Em seguida, você pode utilizar o construtor de regras para manter a tabela de classificação principal atualizada.
+Depois que essa estrutura estiver estabelecida, você poderá usar o [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) para carregar arquivos pequenos que atualizam apenas as tabelas de pesquisa (as tabelas verde e vermelha na imagem anterior). Em seguida, você pode utilizar o construtor de regras para manter a tabela de classificação principal atualizada.
 
 A seguinte tarefa descreve como fazer isso.
 
@@ -48,12 +48,12 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
 1. No [Construtor de regras de classificações](/help/components/classifications/crb/classification-rule-builder.md), classifique a chave de subclassificação do código de rastreamento original.
 
-   Isso é realizado utilizando uma expressão regular. Nesse exemplo, a regra é preencher  *`Broad Campaign code`* usaria essa expressão regular:
+   Isso é realizado utilizando uma expressão regular. Neste exemplo, a regra para preencher *`Broad Campaign code`* usaria esta expressão regular:
 
    | `#` | Tipo de regra | Corresponder | Definir a classificação | Para |
    |---|---|---|---|---|
-   |  | Expressão regular | `[^\:]:([^\:]):([^\:]`) | Código de campanha ampla | `$1` |
-   |  | Expressão regular | `[^\:]:([^\:]):([^\:]`) | Código criativo | `$2` |
+   |   | Expressão regular | `[^\:]:([^\:]):([^\:]`) | Código de campanha ampla | `$1` |
+   |   | Expressão regular | `[^\:]:([^\:]):([^\:]`) | Código criativo | `$2` |
 
    >[!NOTE]
    >
@@ -72,6 +72,6 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
 1. Para manter as tabelas de pesquisa, carregue um pequeno arquivo (como mostrado acima).
 
-   Esse arquivo é carregado quando, por exemplo, um novo *`Broad Campaign code`* é introduzido. Esse arquivo seria aplicado aos valores classificados anteriormente. Da mesma maneira, se você criar uma nova subclassificação (como  *`Creative Theme`* como uma subclassificação de *`Creative code`*), você faz upload somente do arquivo de subclassificação, em vez do arquivo de classificação inteiro.
+   Esse arquivo é carregado quando, por exemplo, um novo *`Broad Campaign code`* é introduzido. Esse arquivo seria aplicado aos valores classificados anteriormente. Da mesma forma, se você criar uma nova subclassificação (como *`Creative Theme`* como uma subclassificação de *`Creative code`*), você fará upload somente do arquivo de subclassificação, em vez do arquivo de classificação inteiro.
 
    Em relatórios, essas subclassificações funcionam exatamente como classificações de nível superior. Isso diminui a responsabilidade administrativa necessária para usá-las.-->

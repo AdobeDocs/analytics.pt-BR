@@ -37,7 +37,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 
 Se enviar uma solicitação de acesso, você receberá dois arquivos que podem ser retornados ao titular dos dados. Um arquivo é um arquivo CSV que contém uma linha para cada ocorrência recebida para o titular dos dados e uma coluna para cada variável com o rótulo de acesso apropriado. O outro arquivo é um HTML de resumo que lista cada variável, seguido por todos os valores únicos vistos para essa variável para o titular dos dados e o número de vezes que cada valor único foi visto.
 
-Para o nosso exemplo, o arquivo de resumo contém os valores indicados na tabela abaixo. Uma solicitação pode retornar somente um arquivo de dispositivo, somente um arquivo de pessoa ou um de cada. Dois arquivos de resumo são retornados somente se uma ID de pessoa for usada e `expandIds` é verdadeiro.
+Para o nosso exemplo, o arquivo de resumo contém os valores indicados na tabela abaixo. Uma solicitação pode retornar somente um arquivo de dispositivo, somente um arquivo de pessoa ou um de cada. Dois arquivos de resumo são retornados somente se uma ID de pessoa for usada e `expandIds` for verdadeiro.
 
 <table>
   <tr>
@@ -219,7 +219,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 
 >[!NOTE]
 >
->Somente colunas em linhas que contêm `AAID=77` e uma `DEL-DEVICE` serão afetados.
+>Apenas colunas em linhas que contêm `AAID=77` e um rótulo `DEL-DEVICE` são afetadas.
 
 <table>
   <tr>
@@ -292,7 +292,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 
 >[!NOTE]
 >
->Apenas celcolumnsls em linhas que contêm `user=Mary` e uma `DEL-PERSON` serão afetados. Além disso, na prática, a variável `A_ID` provavelmente seria uma prop ou um eVar. Seu valor de substituição seria uma sequência de caracteres iniciada por `Privacy-`, seguido por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
+>Apenas celcolumnsls em linhas que contêm `user=Mary` e um rótulo `DEL-PERSON` são afetados. Além disso, na prática, a variável que contém `A_ID` provavelmente seria uma prop ou um eVar. Seu valor de substituição seria uma sequência de caracteres iniciada por `Privacy-`, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
 
 <table>
   <tr>

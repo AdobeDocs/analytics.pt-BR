@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Dia da semana
 
-O &#39;Dia da semana&#39; [dimension](overview.md) relata o dia da semana em que a ocorrência aconteceu. Este relatório é importante se você quiser que um relatório seja dividido por semana, mas não quiser dias estáticos como itens de dimensão. Ela é especialmente valiosa como uma dimensão em relatórios programados, já que essa dimensão funciona com qualquer intervalo de datas.
+A [dimensão](overview.md) de &quot;Dia da semana&quot; informa o dia da semana em que a ocorrência aconteceu. Este relatório é importante se você quiser que um relatório seja dividido por semana, mas não quiser dias estáticos como itens de dimensão. Ela é especialmente valiosa como uma dimensão em relatórios programados, já que essa dimensão funciona com qualquer intervalo de datas.
 
 ## Preencher esta dimensão com dados
 

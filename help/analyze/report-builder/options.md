@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 87%
+source-wordcount: '471'
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,7 @@ No painel Opções, é possível especificar as configurações de datas, as con
 | Elemento | Descrição |
 |--- |--- |
 | [!UICONTROL Data de início] |  |
-| Definir com a data atual | Permite especificar ou redefinir o  [!UICONTROL Data de início] para que o Report Builder use a data atual ou solicite a data a ser usada na atualização. |
+| Definir com a data atual | Permite especificar ou redefinir a [!UICONTROL Data de início] de modo que o Report Builder use a data atual ou solicite a data a ser usada na atualização. |
 | Solicitar a definição ao atualizar | Permite definir a [!UICONTROL Data de início] ao atualizar uma solicitação. |
 | [!UICONTROL Recenticidade dos dados] |  |
 | [!UICONTROL Incluir os dados atuais] | Permite ver a latência de dados (também conhecida como [!UICONTROL Recenticidade dos dados]) até o minuto no relatório, por vezes até mesmo antes dos dados serem processados pelo Adobe Analytics.<br>Quando você não usa essa opção, o modo finalizado (processado) é usado, o que geralmente é mais [latente](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=pt-BR).<br>Essa configuração se aplica a todas as solicitações na pasta de trabalho de dados atuais compatíveis. Se a solicitação não for compatível, o modo finalizado é aplicado.<br>Observe as seguintes situações para usar o [!UICONTROL modo Incluir dados] atuais:<br>**Opções de formato**: Você pode especificar se essa informação deverá ser exibida ([!UICONTROL Recenticidade de dados]) ao [formatar cabeçalhos de exibição](/help/analyze/report-builder/layout/t-format-display-headers.md).<br>**Divisões**: Não suportado. Se o modo [!UICONTROL Recenticidade dos dados] estiver definido para os Dados atuais e uma das solicitações tiver um elemento de divisão, essa solicitação será revertida para o modo de dados não atuais. Contudo, as demais solicitações continuam usando o modo de Dados atuais.<br>**Gerenciador de solicitação**: Você pode visualizar uma coluna de Dados atuais no Gerenciador de solicitação para conseguir ver se a configuração foi aplicada a uma solicitação programada.<br>**Pastas de trabalho programadas**: Esse modo é armazenado durante o processo de programação no nível da pasta de trabalho. Se você abrir uma pasta de trabalho programada que estiver usando dados finalizados e aplicar [!UICONTROL Incluir dados atuais], o modo atual será usado a partir de então.<br>**Permissões**: Essa opção fica omitida para usuários que não tenham acesso aos dados atuais.  Ao ativar essa opção, se uma ou mais solicitações não puderem ser aplicadas, um aviso será emitido. |

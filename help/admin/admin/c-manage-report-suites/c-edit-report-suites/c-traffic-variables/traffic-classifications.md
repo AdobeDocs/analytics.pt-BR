@@ -22,7 +22,7 @@ As classificações de tráfego permitem que você classifique variáveis de tr�
 
 A página Classificações de tráfego permite criar classificações para os conjunto de relatórios selecionados. Depois de classificado, qualquer relatório que você puder gerar usando o dado-chave também poderá ser gerado com os atributos associados.
 
-Depois de ativar as classificações, use [Importador de classificações](/help/components/classifications/importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
+Depois de habilitar as classificações, use o [Importador de classificações](/help/components/classifications/importer/c-working-with-saint.md) para atribuir valores específicos à classificação apropriada.
 
 ## Adicionar uma classificação de tráfego {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

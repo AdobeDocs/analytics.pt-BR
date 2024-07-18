@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ A variável `registerPostTrackCallback` permite que sua organização conecte um
 
 >[!WARNING]
 >
->Não faça chamadas de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro do `registerPostTrackCallback` variável. A definição de chamadas de rastreamento nessa variável causa um loop infinito de solicitações de imagem!
+>Não faça nenhuma chamada de rastreamento como [`t()`](t-method.md) ou [`tl()`](tl-method.md) dentro da variável `registerPostTrackCallback`. A definição de chamadas de rastreamento nessa variável causa um loop infinito de solicitações de imagem!
 
 Cada vez que chama a variável `registerPostTrackCallback`, você faz com que essa função seja executada imediatamente após uma solicitação de imagem ser enviada com êxito. Evite registrar a mesma função várias vezes no mesmo carregamento de página.
 
@@ -25,13 +25,13 @@ Cada vez que chama a variável `registerPostTrackCallback`, você faz com que es
 >
 >O tempo e a ordem das funções disparadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` não são garantidos. Evite dependências entre essas duas funções.
 
-## Retorno de chamada pós-rastreamento usando a extensão SDK da Web
+## Retorno de chamada de rastreamento Post usando a extensão SDK da Web
 
 Em breve!
 
-## Retorno de chamada pós-rastreamento implementando manualmente o SDK da Web
+## Retorno de chamada de rastreamento Post implementando manualmente o SDK da Web
 
-Você pode usar uma Promessa JavaScript ao enviar um evento para registrar uma função depois que os dados forem enviados com êxito para o Adobe.
+Você pode usar uma Promessa da JavaScript ao enviar um evento para registrar uma função depois que os dados forem enviados com êxito para o Adobe.
 
 ```js
 alloy("sendEvent",{
@@ -41,9 +41,9 @@ alloy("sendEvent",{
 });
 ```
 
-Consulte [Manipulação de respostas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) na documentação do SDK da Web para obter mais informações.
+Consulte [Manipulando respostas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) na documentação do SDK da Web para obter mais informações.
 
-## Registrar retorno de chamada pós-rastreamento usando a extensão do Adobe Analytics
+## Registrar retorno de chamada de rastreamento de Post usando a extensão do Adobe Analytics
 
 Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 

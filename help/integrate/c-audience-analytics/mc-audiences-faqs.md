@@ -19,7 +19,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
 
 +++ Como faço para saber se tenho Informações de identificação pessoal (PII) nos dados do Analytics? E se sim, o que devo fazer sobre isso?
 
-Se você tiver emails/endereços/etc em uma prop ou eVar, considere colocar os dados em hash durante a coleta. Se seu país considera endereços IP como PII, [ativar ofuscação de IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=pt-BR). Fale com o administrador do Analytics para ver o que você está coletando. Converse com o departamento jurídico para saber o que eles consideram sobre PII.
+Se você tiver emails/endereços/etc em uma prop ou eVar, considere colocar os dados em hash durante a coleta. Se seu país considera endereços IP como PII, [ative a ofuscação de IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=pt-BR). Fale com o administrador do Analytics para ver o que você está coletando. Converse com o departamento jurídico para saber o que eles consideram sobre PII.
 
 +++
 
@@ -49,7 +49,7 @@ Pode demorar algumas horas para preencher seus conjuntos de relatórios com novo
 
 +++ Criei um novo destino do Analytics, mas não o vejo na seção Mapeamentos de destino dos meus segmentos disponíveis. Para onde foi esse destino ou como o encontro?
 
-Um destino do Analytics desaparece da seção de Mapeamentos de destino de um segmento ao selecionar a variável **[!UICONTROL Mapear automaticamente todos os segmentos atuais e futuros]** opção em **[!UICONTROL Mapeamentos de segmentos]**. Para evitar que isso aconteça, selecione **[!UICONTROL Mapear segmentos manualmente]** em vez da opção automática.
+Um destino do Analytics desaparece da seção de Mapeamentos de destino de um segmento ao selecionar a opção **[!UICONTROL Mapear automaticamente todos os segmentos atuais e futuros]** em **[!UICONTROL Mapeamentos de segmentos]**. Para evitar que isso aconteça, selecione **[!UICONTROL Mapear segmentos manualmente]** em vez da opção automática.
 
 +++
 
@@ -107,7 +107,7 @@ Em todos os lugares; eles são tratados como qualquer outra dimensão coletada n
 
 +++ Por que vejo &quot;Limite de público-alvo atingido&quot; no meu relatório do Analytics? (Observação: isso também será representado como ID de público-alvo = -1 e `::max_audiences_exceeded::` no Data Warehouse)
 
-Por padrão, a integração de Audience Analytics para o Adobe Audience Manager envia todos os segmentos para os quais um visitante está qualificado, por ocorrência, para o Analytics. Se um visitante pertencer a mais de 150 segmentos do Adobe Audience Manager em uma única ocorrência, a variável **150 segmentos qualificados mais recentemente** são enviadas para o Analytics, enquanto a lista restante é truncada. Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada, e é exibido como “Limite de público-alvo atingido” na dimensão Nome de público-alvo e “-1” na dimensão ID de público-alvo.
+Por padrão, a integração de Audience Analytics para o Adobe Audience Manager envia todos os segmentos para os quais um visitante está qualificado, por ocorrência, para o Analytics. Se um visitante pertencer a mais de 150 segmentos do Adobe Audience Manager em uma única ocorrência, os **150 segmentos qualificados mais recentemente** serão enviados ao Analytics, enquanto a lista restante será truncada. Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada, e é exibido como “Limite de público-alvo atingido” na dimensão Nome de público-alvo e “-1” na dimensão ID de público-alvo.
 
 Mesmo sendo improvável que um visitante seja qualificado para mais de 150 segmentos em uma única ocorrência, há uma pequena chance de isso ocorrer. Se você encontrar o erro “Limite de público-alvo atingido” em seu relatório, há duas opções:
 

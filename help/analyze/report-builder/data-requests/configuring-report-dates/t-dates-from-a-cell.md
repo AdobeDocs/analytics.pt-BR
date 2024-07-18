@@ -19,11 +19,11 @@ Você pode especificar um intervalo de datas selecionando células de uma pasta 
 **Para configurar datas de uma célula**
 
 1. No [!UICONTROL Assistente de solicitações: etapa 1], selecione **[!UICONTROL Datas da célula]**.
-1. Inserir referências de célula no **[!UICONTROL De]** e **[!UICONTROL Para]** ou clique no seletor e selecione as células que contêm as solicitações com as datas inicial e final.
+1. Insira referências de célula nos campos **[!UICONTROL De]** e **[!UICONTROL Até]** ou clique no seletor e selecione as células que contêm as solicitações com as datas inicial e final.
 
    Por exemplo, crie uma solicitação do Report Builder com o intervalo de datas definido como &quot;yesterday&quot; (ontem) e configure a data da solicitação na mesma célula como &quot;today()-1&quot;.
 
 Esta é uma lista de formatos de data compatíveis:
 
-![Captura de tela mostrando formatos de data compatíveis.](assets/date-formats.png)
+![Captura de tela mostrando formatos de data com suporte.](assets/date-formats.png)
 

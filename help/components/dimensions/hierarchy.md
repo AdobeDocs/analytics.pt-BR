@@ -14,7 +14,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Esta dimensão foi removida e não está disponível [dimension](overview.md) no Analysis Workspace. Em vez disso, a Adobe recomenda usar [eVars](evar.md) e classificações.
+>Esta dimensão foi removida e não é uma [dimensão](overview.md) disponível no Analysis Workspace. Em vez disso, a Adobe recomenda usar [eVars](evar.md) e classificações.
 
 As hierarquias são variáveis personalizadas que podem ser usadas da maneira que você desejar. Elas não persistem além da ocorrência definida. Até 5 hierarquias estarão disponíveis se seu contrato com a Adobe permitir.
 

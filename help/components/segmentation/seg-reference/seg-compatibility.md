@@ -71,7 +71,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
      <li>Hierarquia (Todas as dimensões com Hierarquia) </li> 
      <li>Profundidade da ocorrência </li> 
      <li>Tipo de ocorrência </li> 
-     <li>Hora Dia </li> 
+     <li>Hora e Dia </li> 
      <li>Mês do ano </li> 
      <li>Páginas não encontradas </li> 
      <li>Pesquisa paga </li> 

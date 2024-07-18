@@ -21,8 +21,8 @@ Relatórios em tempo real são um dos poucos recursos que ainda não foram intro
 Para acessar a página de configuração de relatório em tempo real (são necessárias permissões de administrador):
 
 1. Clique em **[!UICONTROL Workspace]** na barra de navegação superior do Adobe Analytics.
-1. Selecionar **[!UICONTROL Relatórios]** na barra de navegação esquerda.
-1. Selecionar **[!UICONTROL Envolvimento]** ![Divisa](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Tempo real]**. Também é possível ![Pesquisar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) pesquisa em tempo real.
+1. Selecione **[!UICONTROL Relatórios]** na barra de navegação esquerda.
+1. Selecione **[!UICONTROL Envolvimento]** ![Divisa](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Tempo Real]**. Você também pode ![Pesquisar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) para pesquisar em tempo real.
 1. Se o conjunto de relatórios ainda não tiver o tempo real ativado, uma mensagem será exibida com um link para configurar o conjunto de relatórios.
 
 A Adobe permite que até três relatórios em tempo real coletem dados simultaneamente. Cada relatório deve ser configurado antes de começarem a coletar dados em tempo real.

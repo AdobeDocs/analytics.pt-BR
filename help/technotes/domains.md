@@ -2,7 +2,8 @@
 title: Domínios usados pelo Adobe Analytics
 description: Permita esses domínios por meio do firewall da sua organização para obter uma experiência ideal usando o Adobe Analytics.
 feature: Data Configuration and Collection
-source-git-commit: 3653a4e71d96ae636205840e1b8b456162521401
+exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
+source-git-commit: c1d1693bef617e3ebd6bf4f007c2235b2098a016
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 13%
@@ -28,10 +29,10 @@ Algumas configurações de firewall bloqueiam domínios dos quais a Adobe Analyt
 
 ## Domínios da Adobe Experience Cloud
 
-Além dos domínios acima, o Adobe Experience Cloud depende de vários domínios para a coleta de dados e exportação de relatórios. Consulte [Domínios usados pela Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) para esta lista de domínios.
+Além dos domínios acima, o Adobe Experience Cloud depende de vários domínios para a coleta de dados e exportação de relatórios. Consulte [Domínios usados pelo Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) para obter esta lista de domínios.
 
 >[!MORELIKETHIS]
 >
 >[Endereços IP usados pelo Adobe Analytics](ip-addresses.md)
 >
->[Domínios usados pela Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Domínios usados pelo Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

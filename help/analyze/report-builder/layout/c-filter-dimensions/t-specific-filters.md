@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 91%
 
 ---
 
@@ -22,13 +22,13 @@ Você pode pesquisar por itens de dimensão específicos criando um filtro que c
 
 1. Crie ou edite uma solicitação e então acesse o [!UICONTROL Assistente de solicitações: etapa 2].
 
-   ![Captura de tela mostrando o Filtrar por opções: Aplicativo, Usuário e Projeto.](/help/admin/admin/assets/filter.png)
+   ![Captura de tela mostrando o Filtro por opções: Aplicativo, Usuário e Projeto.](/help/admin/admin/assets/filter.png)
 
 1. No [!UICONTROL Assistente de solicitações: etapa 2], clique no link ao lado da dimensão na grade e, em seguida, escolha **[!UICONTROL Filtro]**.
 
-1. Ativar **[!UICONTROL Específico]**.
+1. Habilitar **[!UICONTROL Específico]**.
 
-   ![Captura de tela da caixa de diálogo Escolher página com a opção Específico selecionada.](assets/choose_page_specific01.png)
+   ![Captura de tela da caixa de diálogo Escolher Página com a opção Específica selecionada.](assets/choose_page_specific01.png)
 
 1. Ative uma das seguintes opções Específicas:
 

@@ -16,17 +16,17 @@ ht-degree: 31%
 
 Filtros de URL internos permitem identificar os referenciadores que você considera internos no site. Eles ajudam os relatórios de fontes de tráfego a popular os dados, além de ajudarem a filtrar o tráfego interno.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Filtros internos do URL]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de Relatórios]** > **[!UICONTROL Editar Configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Filtros Internos de URL]**
 
-Um referenciador ou uma página referenciadora é, normalmente, a página a partir da qual o visitante veio ao entrar do site. Para evitar o viés dos dados, você pode filtrar e eliminar os referenciadores internos. Dimension que dependem de filtros internos de URL incluem [Referenciador](/help/components/dimensions/referrer.md), [Domínio referenciador](/help/components/dimensions/referring-domain.md), [Canais de marketing](/help/components/dimensions/marketing-channel.md)e outras dimensões da fonte de tráfego.
+Um referenciador ou uma página referenciadora é, normalmente, a página a partir da qual o visitante veio ao entrar do site. Para evitar o viés dos dados, você pode filtrar e eliminar os referenciadores internos. Os Dimension que dependem de filtros internos de URL incluem [Referenciador](/help/components/dimensions/referrer.md), [Domínio de referência](/help/components/dimensions/referring-domain.md), [Canais de marketing](/help/components/dimensions/marketing-channel.md) e outras dimensões de fonte de tráfego.
 
-[Regras de processamento de canal de marketing](../marketing-channels/c-rules.md) fornecer &quot;[!UICONTROL Corresponde a filtros internos de URL]&quot; como critérios de regra possíveis.
+As [Regras de processamento de canal de marketing](../marketing-channels/c-rules.md) fornecem &quot;[!UICONTROL Corresponde aos filtros internos de URL]&quot; como critérios de regra possíveis.
 
 >[!IMPORTANT]
 >
 >Alguns conjuntos de relatórios têm um filtro de URL interno de um ponto (`.`) configurado por padrão. Quando esse filtro existe, todo o tráfego é classificado como interno. Os relatórios do referenciador não funcionam até que esse filtro seja removido e substituído por um ou mais domínios internos desejados.
 
-* Exibir todos os filtros existentes na **[!UICONTROL Filtros atuais]** seção.
-* Adicione um filtro usando a caixa de texto sob o **[!UICONTROL Adicionar filtro]** e clique em **[!UICONTROL Adicionar]**.
+* Exibir todos os filtros existentes na seção **[!UICONTROL Filtros atuais]**.
+* Adicione um filtro usando a caixa de texto na seção **[!UICONTROL Adicionar filtro]** e clique em **[!UICONTROL Adicionar]**.
 
-Os filtros operam usando **contém** lógica em relação ao URL completo. O Adobe recomenda a omissão do protocolo (`https://`) e subdomínios ao criar filtros, a menos que o tráfego de subdomínios separados seja desejado como tráfego externo.
+Os filtros operam usando a lógica **contains** em relação à URL completa. O Adobe recomenda omitir o protocolo (`https://`) e os subdomínios ao criar filtros, a menos que o tráfego de subdomínios separados seja desejado como tráfego externo.

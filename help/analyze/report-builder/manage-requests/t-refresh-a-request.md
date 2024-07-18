@@ -25,7 +25,7 @@ Se você aumentar o intervalo de datas de uma solicitação e, em seguida, atual
 
    **Data de agora:** A data em que você deseja basear a atualização. Também conhecida como data [!UICONTROL de início].
 
-   **Definir para a data atual em ações futuras de atualização:** Habilitar essa opção informa ao Report Builder para sempre usar a data atual como a [!UICONTROL Agora] (ou [!UICONTROL A partir de]). Você pode reverter essa configuração clicando em [!UICONTROL Opções] na barra de ferramentas.
+   **Definir para data atual em ações futuras de atualização:** Habilitar esta opção informa ao Report Builder para sempre usar a data atual como a data [!UICONTROL Agora] (ou [!UICONTROL A Partir de]). Você pode reverter essa configuração clicando em [!UICONTROL Opções] na barra de ferramentas.
 1. Clique em **[!UICONTROL OK]**.
 
    Quando uma atualização é bem-sucedida, o sistema relata esse fato com um ícone verde no [!UICONTROL Gerenciador de solicitações].

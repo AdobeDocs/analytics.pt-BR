@@ -23,7 +23,7 @@ A seguir estão algumas instruções para auxiliá-lo a localizar suas IDs de co
 >- Conta MCC (Meu centro do cliente) e
 >- Conta Padrão.
 >
->Para essa integração com o Adobe Analytics, **é necessário usar um logon de Conta padrão**, não é um logon de conta MCC. O motivo é que as contas MCC agem como uma conta “guarda-chuva” que pode acessar várias contas do AdWords com um único logon, enquanto que o logon de Conta padrão pode acessar apenas uma conta do AdWords por logon. Embora o Google aceite a vinculação de um email para gerenciar cinco contas, o Advertising Analytics ainda não oferece suporte a esse recurso. Um email pode ser vinculado somente a uma conta do Adwords.
+>Para esta integração com o Adobe Analytics, **você deve usar um logon de Conta Padrão**, não um logon de Conta MCC. O motivo é que as contas MCC agem como uma conta “guarda-chuva” que pode acessar várias contas do AdWords com um único logon, enquanto que o logon de Conta padrão pode acessar apenas uma conta do AdWords por logon. Embora o Google aceite a vinculação de um email para gerenciar cinco contas, o Advertising Analytics ainda não oferece suporte a esse recurso. Um email pode ser vinculado somente a uma conta do Adwords.
 
 Clique no ícone de conta na parte superior para exibir o número de conta do AdWords (ID de cliente).
 

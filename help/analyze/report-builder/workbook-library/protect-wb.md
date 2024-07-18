@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 77%
+source-wordcount: '473'
+ht-degree: 69%
 
 ---
 
@@ -29,7 +29,7 @@ Para desbloquear uma pasta de trabalho, clique em **[!UICONTROL Desbloqueado]** 
 
 >[!NOTE]
 >
->Não é possível adicionar uma solicitação a uma pasta de trabalho protegida, exceto com permissões para desbloquear a pasta de trabalho.
+>Não é possível adicionar uma solicitação a uma pasta de trabalho protegida, a menos que você tenha permissões para desbloquear a pasta de trabalho.
 
 Quando uma pasta de trabalho é bloqueada contra edição de solicitação.
 
@@ -40,7 +40,7 @@ Quando uma pasta de trabalho é bloqueada contra edição de solicitação.
 * Os usuários podem atualizar solicitações, de forma individual, ou como parte de um grupo.
 * Se a solicitação usa valores de entrada de células (intervalo de datas, segmento, filtros), os usuários podem alterar esses valores em células e, portanto, editar indiretamente as solicitações ao atualizá-las.
 
-Se você tentar editar uma pasta de trabalho protegida por meio do menu de contexto, ou **[!UICONTROL Gerenciador de solicitações]** ou **[!UICONTROL Editar várias solicitações]**, você pode ou não ter permissão para fazer isso:
+Se você tentar editar uma pasta de trabalho protegida por meio do menu de contexto, ou **[!UICONTROL Gerenciador de Solicitações]**, ou **[!UICONTROL Editar Várias Solicitações]**, poderá ou não ter permissão para fazer isso:
 
 * Se você não tiver permissões para desbloquear uma solicitação, verá uma mensagem indicando que não tem os direitos para desbloquear e editar a pasta de trabalho.
 

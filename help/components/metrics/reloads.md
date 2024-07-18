@@ -12,7 +12,7 @@ ht-degree: 74%
 
 # Recargas
 
-As &quot;Recargas&quot; [métrica](overview.md) mostra o número de vezes que um item de dimensão foi apresentado durante um recarregamento. A atualização do navegador por um visitante é a maneira mais comum de acionar um recarregamento.
+A [métrica](overview.md) de &quot;Recargas&quot; mostra o número de vezes que um item de dimensão foi apresentado durante um recarregamento. A atualização do navegador por um visitante é a maneira mais comum de acionar um recarregamento.
 
 ## Como essa métrica é calculada
 

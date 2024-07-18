@@ -33,7 +33,7 @@ Para acessar as ferramentas administrativas, navegue até **[!UICONTROL Analytic
 
 Use esta ferramenta para provisionar usuários e modificar permissões de acesso.
 
-Para todas as organizações migradas para o Adobe IMS, essas tarefas são executadas no Admin Console do Adobe. Para obter mais informações, consulte [Guia do primeiro administrador do Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Se sua organização ainda não tiver migrado para o Adobe IMS, consulte [Migração de usuários do Analytics para o Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
+Para todas as organizações migradas para o Adobe IMS, essas tarefas são executadas no Admin Console do Adobe. Para obter mais informações, consulte o [guia do primeiro administrador do Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Se sua organização ainda não tiver migrado para o Adobe IMS, consulte [Migração de usuários do Analytics para o Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
 
 
 

@@ -12,17 +12,17 @@ ht-degree: 26%
 
 # Dimensões do ciclo de vida móvel
 
-*Esses dados de referência da página são rastreados normalmente pelo SDK móvel da Adobe Experience Platform. Para obter informações sobre o dispositivo móvel usando o agente do usuário, consulte [Dimensões de pesquisa móvel](mobile-dimensions.md). Para métricas rastreadas com o SDK móvel, consulte [Métricas de ciclo de vida móvel](../metrics/lifecycle-metrics.md).*
+*Os dados de referência desta página são acompanhados normalmente pelo SDK do Adobe Experience Platform Mobile. Para obter informações sobre o dispositivo móvel usando o agente de usuário, consulte [Dimensões de pesquisa móvel](mobile-dimensions.md). Para métricas rastreadas com o SDK móvel, consulte [Métricas de ciclo de vida móvel](../metrics/lifecycle-metrics.md).*
 
 | Nome da dimensão de ciclo de vida | Descrição | Variável de dados de contexto |
 | --- | --- | --- |
 | [!UICONTROL Data da primeira inicialização] | | A ser definido |
 | [!UICONTROL Nome do dispositivo (SDK)] | | `a.DeviceName` |
-| [!UICONTROL Versão do sistema operacional (SDK)] | | `a.OSVersion` |
+| [!UICONTROL Versão do Sistema Operacional (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Resolução (SDK)] | | `a.Resolution` |
-| [!UICONTROL Origem da aquisição] | | `a.referrer.campaign.source` |
-| [!UICONTROL ID do aplicativo] | | `a.AppID` |
-| [!UICONTROL Meio de aquisição] | | `a.referrer.campaign.medium` |
+| [!UICONTROL Source de aquisição] | | `a.referrer.campaign.source` |
+| [!UICONTROL Id Do Aplicativo] | | `a.AppID` |
+| [!UICONTROL Medium de aquisição] | | `a.referrer.campaign.medium` |
 | [!UICONTROL Termo de aquisição] | | `a.referrer.campaign.term` |
 | [!UICONTROL Conteúdo de aquisição] | | `a.refferer.campaign.content` |
 | [!UICONTROL Nome da aquisição] | | `a.referrer.campaign.name` |
@@ -35,14 +35,14 @@ ht-degree: 26%
 | [!UICONTROL Dias desde a primeira utilização] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL Nome da ação] | | A ser definido |
 | [!UICONTROL Valor vitalício (evar)] | | `a.ltv.amount` |
-| [!UICONTROL Beacon principal] | | A ser definido |
+| [!UICONTROL Beacon Principal] | | A ser definido |
 | [!UICONTROL Beacon secundário] | | A ser definido |
 | [!UICONTROL UUID do sinal] | | A ser definido |
 | [!UICONTROL Proximidade do sinal] | | A ser definido |
 | [!UICONTROL Dias desde a última utilização] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL Hora do dia (SDK)] | | `a.HourOfDay` |
-| [!UICONTROL Dia da semana (SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL ID do ponto de interesse] | | A ser definido |
+| [!UICONTROL Dia da Semana (SDK)] | | `a.DayOfWeek` |
+| [!UICONTROL ID do Ponto de Interesse] | | A ser definido |
 
 {style="table-layout:auto"}
 

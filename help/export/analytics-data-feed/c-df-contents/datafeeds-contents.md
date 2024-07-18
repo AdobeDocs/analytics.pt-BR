@@ -28,7 +28,7 @@ Para acessar o conteúdo de um feed de dados:
 
 1. Descompacte o arquivo compactado usando um programa compatível com extensões de arquivo `.tar.gz`.
 
-1. Abra o `hit_data.tsv` arquivo na planilha ou no aplicativo de banco de dados preferido para ver os dados brutos desse dia. —>
+1. Abra o arquivo `hit_data.tsv` na planilha ou no aplicativo de banco de dados preferido para ver os dados brutos desse dia. —>
 
 ## Arquivo manifest {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 Todo arquivo de manifesto contém um cabeçalho, que indica o número total de arquivos de pesquisa, arquivos de dados e o número total de registros em todos os arquivos de dados. Esse cabeçalho é seguido por várias seções com informações de cada arquivo incluído na entrega do feed de dados.
 
-Alguns feeds são configurados para receber um arquivo `.fin` em vez de um manifesto `.txt`. A variável `.fin` indica que o carregamento foi concluído, mas os metadados que ele contém estão em um formato antigo.
+Alguns feeds são configurados para receber um arquivo `.fin` em vez de um manifesto `.txt`. O `.fin` indica que o carregamento foi concluído, mas os metadados que ele contém estão em um formato antigo.
 
 ## Arquivos de pesquisa
 
@@ -81,20 +81,20 @@ Os arquivos de pesquisa são entregues em conjunto em um zip compactado, o qual 
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**: uma única linha que contém os cabeçalhos de coluna para `hit_data.tsv`.
-* **`browser.tsv`**: mapeia a ID do navegador (a variável `browser` coluna de feed) para o nome amigável do navegador.
-* **`browser_type.tsv`**: mapeia a ID do navegador (a variável `browser` coluna de feed) para o tipo de navegador.
-* **`color_depth.tsv`**: Mapeia a ID de intensidade de cor (a variável `color` coluna de feed) para intensidade de cor.
-* **`connection_type.tsv`**: mapeia a ID do tipo de conexão (a variável `connection_type` coluna de feed) ao tipo de conexão.
-* **`country.tsv`**: mapeia a ID do país (a variável `country` coluna do feed) ao nome do país.
-* **`javascript_version.tsv`**: Mapeia a ID da versão do JavaScript (a variável `javascript` feed (coluna de feed) para a versão do JavaScript.
-* **`languages.tsv`**: mapeia a ID do idioma (a variável `language` coluna de feed) para o idioma.
-* **`operating_systems.tsv`**: mapeia a ID do sistema operacional (a variável `os` coluna feed) ao nome do sistema operacional.
-* **`plugins.tsv`**: mapeia as IDs do plug-in (a variável `plugin` coluna de feed) para cada nome de plug-in respectivo.
-* **`resolution.tsv`**: Mapeia a ID de resolução (a variável `resolution` coluna de alimentação) para a resolução do monitor.
-* **`referrer_type.tsv`**: Mapeia a ID do tipo de referenciador (a variável `ref_type` coluna de feed) para o tipo de referenciador.
-* **`search_engines.tsv`**: mapeia a ID do mecanismo de pesquisa (a variável `search_engine` coluna feed) ao nome do mecanismo de pesquisa.
-* **`event.tsv`**: Mapeia cada ID de evento (a variável `event_list` coluna feed) ao respectivo nome de evento.
+* **`column_headers.tsv`**: Uma única linha contendo os cabeçalhos de coluna para `hit_data.tsv`.
+* **`browser.tsv`**: Mapeia a ID do navegador (a coluna de feed `browser`) para o nome amigável do navegador.
+* **`browser_type.tsv`**: Mapeia a ID do navegador (a coluna de feed `browser`) para o tipo de navegador.
+* **`color_depth.tsv`**: Mapeia a ID de intensidade de cor (a coluna de feed `color`) para a intensidade de cor.
+* **`connection_type.tsv`**: Mapeia a ID do tipo de conexão (a coluna de feed `connection_type`) para o tipo de conexão.
+* **`country.tsv`**: Mapeia a ID do país (a coluna de feed `country`) para o nome do país.
+* **`javascript_version.tsv`**: Mapeia a ID da versão do JavaScript (a coluna de feed `javascript`) para a versão do JavaScript.
+* **`languages.tsv`**: Mapeia a ID do idioma (a coluna de feed `language`) para o idioma.
+* **`operating_systems.tsv`**: Mapeia a ID do sistema operacional (a coluna de feed `os`) para o nome do sistema operacional.
+* **`plugins.tsv`**: Mapeia as IDs do plug-in (a coluna de feed `plugin`) para cada nome de plug-in respectivo.
+* **`resolution.tsv`**: Mapeia a ID de resolução (a coluna de feed `resolution`) para a resolução do monitor.
+* **`referrer_type.tsv`**: Mapeia a ID de tipo de referenciador (a coluna de feed `ref_type`) para o tipo de referenciador.
+* **`search_engines.tsv`**: Mapeia a ID do mecanismo de pesquisa (a coluna de feed `search_engine`) para o nome do mecanismo de pesquisa.
+* **`event.tsv`**: Mapeia cada ID de evento (a coluna de feed `event_list`) para seu respectivo nome de evento.
 
 ## Arquivos de dados de hit
 
@@ -107,7 +107,7 @@ Os arquivos entregues pela Adobe variam com base no tipo de feed de dados config
 * `[YYYY-mm-dd]` refere-se ao dia de início do feed de dados.
 * `[HHMMSS]` é usado somente em feeds por hora e refere-se à hora inicial para a qual o feed de dados é usado.
 * `[compression_suffix]` refere-se ao tipo de compactação usado. Normalmente, os feeds de dados são compactados em `tar.gz` ou `zip` arquivos.
-* `[format_suffix]` refere-se ao tipo de formato de arquivo. Normalmente, o formato do arquivo do feed de dados é `.tsv`.
+* `[format_suffix]` refere-se ao tipo de formato de arquivo. Normalmente, o formato do arquivo de feed de dados é `.tsv`.
 
 ### Por dia, único arquivo
 
@@ -139,7 +139,7 @@ Depois que os dados forem coletados por uma hora, você receberá um ou mais arq
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Quando extraído, cada arquivo de dados contém um único `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` arquivo que contém aproximadamente 2 GB de dados descompactados, bem como arquivos de pesquisa para quaisquer colunas necessárias.
+Quando extraído, cada arquivo de dados contém um único arquivo `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` que contém aproximadamente 2 GB de dados descompactados, bem como arquivos de pesquisa para quaisquer colunas necessárias.
 
 ## Tamanho do arquivo de dados
 

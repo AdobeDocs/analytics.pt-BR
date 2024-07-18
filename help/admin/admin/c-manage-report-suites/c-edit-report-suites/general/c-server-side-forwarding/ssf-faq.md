@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Perguntas frequentes sobre recursos, funcionalidades e problemas relacionados ao
 | P: E se eu tiver uma tag de vários conjuntos e apenas um dos meus conjuntos de relatórios for mapeado à minha organização da Experience Cloud e o outro não? | Nós encaminharemos a ocorrência para o servidor de coleta de dados correspondente à organização da Experience Cloud em seu conjunto de relatórios mapeado. Contudo, como o conjunto de relatórios não mapeado não terá uma fonte de dados associada no Audience Manager, nenhum dado será gravado para o conjunto de relatórios não mapeado no Audience Manager. |
 | P: E se eu tiver um conjunto de relatórios que esteja mapeado a várias organizações da Experience Cloud? | O Analytics considerará este conjunto de relatórios como não mapeado e não permitirá que o encaminhamento pelo lado do servidor seja ativado para este conjunto de relatórios. Entre em contato com o atendimento ao cliente para resolver esse problema de mapeamento. |
 | P: O método de encaminhamento pelo lado do servidor baseado no conjunto de relatórios será mais lento do que o encaminhamento pelo lado do servidor baseado no servidor de rastreamento? | Não, o tempo de resposta será o mesmo. |
-| P: E se nós tivermos duas organizações Experience Cloud (ou instâncias Adobe Audience Manager) e quisermos compartilhar dados entre ambas as organizações Experience Cloud? Posso encaminhar no lado do servidor uma única ocorrência do Analytics para várias organizações da Experience Cloud? | Não. Se você precisar compartilhar os dados coletados de uma organização da Experience Cloud para outra, recomendamos enviar qualquer público aplicável de uma instância do Audience Manager para outra usando o Audience Marketplace. |
+| P: E se tivermos duas organizações da Experience Cloud (ou instâncias do Adobe Audience Manager) e quisermos compartilhar dados entre elas? Posso encaminhar no lado do servidor uma única ocorrência do Analytics para várias organizações da Experience Cloud? | Não. Se você precisar compartilhar os dados coletados de uma organização da Experience Cloud para outra, recomendamos enviar qualquer público aplicável de uma instância do Audience Manager para outra usando o Audience Marketplace. |
 | P: O encaminhamento pelo lado do servidor resultará em cobrança adicional no Audience Manager ou no Analytics? | No Analytics, nenhuma cobrança adicional ocorrerá. No Audience Manager, as ocorrências encaminhadas são tratadas como qualquer outra ocorrência e são cobradas.  É por isso que é importante não ter o DIL e encaminhamento pelo lado do servidor habilitados ao mesmo tempo, o que pode causar cobrança duplicada, bem como duplicação de dados. |
 
 >[!MORELIKETHIS]

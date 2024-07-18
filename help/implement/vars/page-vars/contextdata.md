@@ -19,9 +19,9 @@ As variáveis de dados de contexto são úteis para as equipes de desenvolviment
 
 ## Variáveis de dados de contexto que usam o SDK da Web
 
-Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), todos os campos que não são mapeados para uma variável Adobe Analytics são incluídos automaticamente como uma variável de dados de contexto. Também é possível definir explicitamente os dados de contexto usando o objeto XDM. Você pode então usar [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para atribuir a variável de dados de contexto à variável do Analytics desejada.  Consulte [Mapeamento de outros campos XDM para variáveis do Analytics](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) para obter mais informações.
+Se estiver usando o [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), todos os campos que não são mapeados para uma variável do Adobe Analytics serão incluídos automaticamente como uma variável de dados de contexto. Também é possível definir explicitamente os dados de contexto usando o objeto XDM. Você pode usar [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para atribuir a variável de dados de contexto à variável do Analytics desejada.  Consulte [Mapeamento de outros campos XDM para variáveis do Analytics](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) para obter mais informações.
 
-Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), todas as variáveis de dados de contexto residem em `data.__adobe.analytics.contextData` como pares de valor-chave:
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), todas as variáveis de dados de contexto residirão em `data.__adobe.analytics.contextData` como pares de valores chave:
 
 ```js
 alloy("sendEvent", {
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-A variável [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) a interface mostraria `c.example_variable` e `c.second_example` nos menus suspensos aplicáveis.
+A interface [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) mostraria `c.example_variable` e `c.second_example` nos menus suspensos aplicáveis.
 
 ## Variáveis de dados de contexto que usando a extensão do Adobe Analytics
 
@@ -64,8 +64,8 @@ s.contextData["example_variable"] = "Example value";
 >As variáveis de dados de contexto são descartadas após a execução das regras de processamento. Se você não tiver ativadas regras de processamento que colocam valores em variáveis, esses dados serão perdidos permanentemente!
 
 1. Atualize sua implementação para definir os valores e nomes das variáveis de dados de contexto.
-2. Faça logon no Adobe Analytics e acesse **[!UICONTROL Admin]** > **[!UICONTROL Relatório]** Conjuntos.
-3. Selecione o conjunto de relatórios desejado e vá para **[!UICONTROL Editar configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de processamento]**.
+2. Faça logon no Adobe Analytics e vá para **[!UICONTROL Admin]** > **[!UICONTROL Report]** Suites.
+3. Selecione o conjunto de relatórios desejado e vá para **[!UICONTROL Editar Configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de Processamento]**.
 4. Crie uma regra de processamento que defina uma variável do Analytics como o valor da variável de dados de contexto.
 5. Salve as alterações.
 

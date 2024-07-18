@@ -16,7 +16,7 @@ ht-degree: 32%
 
 Uma solicitação dependente é uma solicitação que depende de outra solicitação existente.
 
-Para relatórios com detalhamento de correlação ativado na tabela de relatório, para examinar um item mais de perto, clique com o botão direito do mouse na célula e clique em **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Detalhamento]**.
+Para relatórios com detalhamento de correlação habilitado na tabela de relatório, para examinar um item mais de perto, clique com o botão direito do mouse na célula e clique em **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Detalhamento]**.
 
 >[!NOTE]
 >

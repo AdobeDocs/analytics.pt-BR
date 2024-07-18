@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Referenciador
 
-O &#39;Referenciador&#39; [dimension](overview.md) relata em quais URLs os visitantes estavam quando clicaram para acessar seu site. Essa dimensão é útil para entender quais URLs específicos direcionam mais tráfego para o site. Um link deve existir no URL externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
+A [dimensão](overview.md) de &quot;Referenciador&quot; relata em quais URLs os visitantes estavam quando clicaram para acessar seu site. Essa dimensão é útil para entender quais URLs específicos direcionam mais tráfego para o site. Um link deve existir no URL externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
 
 >[!IMPORTANT]
 >

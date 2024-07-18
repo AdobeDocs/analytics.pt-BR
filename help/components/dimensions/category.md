@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Categoria
 
-A &quot;Categoria&quot; [dimension](overview.md) relata a categoria do produto da ocorrência. Essa dimensão é útil para implementações que utilizam a variável `products` e que desejam ver as métricas sobre categorias do produto, como os mais vendidos ou os mais vistos. Essa dimensão pode ficar em branco se você não tiver nenhum produto em seu site.
+A [dimensão](overview.md) de &quot;Categoria&quot; relata a categoria de produto da ocorrência. Essa dimensão é útil para implementações que utilizam a variável `products` e que desejam ver as métricas sobre categorias do produto, como os mais vendidos ou os mais vistos. Essa dimensão pode ficar em branco se você não tiver nenhum produto em seu site.
 
 ## Preencher esta dimensão com dados
 

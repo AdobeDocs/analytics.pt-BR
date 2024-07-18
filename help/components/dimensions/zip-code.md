@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 80%
+source-wordcount: '266'
+ht-degree: 79%
 
 ---
 
 # Código postal
 
-O &#39;CEP&#39; [dimension](overview.md) informa o CEP ou código postal do visitante. Essa dimensão pode ser utilizada para entender melhor o sucesso da publicidade local ou para descobrir em que lugar do mundo o seu site tem melhor repercussão.
+O &#39;CEP&#39; [dimensão](overview.md) informa o CEP ou código postal do visitante. Essa dimensão pode ser utilizada para entender melhor o sucesso da publicidade local ou para descobrir em que lugar do mundo o seu site tem melhor repercussão.
 
 ## Preencher esta dimensão com dados
 
@@ -26,7 +26,7 @@ A [!UICONTROL Opção código postal] em [Configurações gerais da Conta](/help
 Se você optar por usar qualquer opção que envolva o geo zip:
 
 * Para implementações do AppMeasurement, essa dimensão funciona imediatamente.
-* Para implementações do SDK da Web, habilite [!UICONTROL Pesquisa geográfica] quando [configurar um fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-BR).
+* Para implementações do SDK da Web, habilite a [!UICONTROL Pesquisa Geográfica] ao [configurar uma sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-br).
 
 ## Itens de dimensão
 

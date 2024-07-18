@@ -7,7 +7,7 @@ exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
 source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ O relatório em tempo real exibe o tráfego da página da Web e classifica as vi
 
 ## Acessar relatórios em tempo real
 
-1. No Analysis Workspace, selecione a variável [!UICONTROL **Workspace**] guia.
+1. No Adobe Analytics, selecione a guia [!UICONTROL **Espaço de trabalho**].
 
-1. Selecionar [!UICONTROL **Relatórios**] > [!UICONTROL **Envolvimento**] > **[!UICONTROL Tempo real]**.
+1. Selecione [!UICONTROL **Relatórios**] > [!UICONTROL **Envolvimento**] > **[!UICONTROL Tempo Real]**.
 
 ## Entender os relatórios em tempo real
 
@@ -49,7 +49,7 @@ Como Administrador, você pode
 
 * Por exemplo, compare os valores da semana anterior aos do último ano (bem como o total do dia).
 
-Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez que não há conceito de persistência. Você pode selecionar métricas de conversão, mas elas funcionarão apenas se definidas na mesma página que a(s) dimensão(ões). Para obter mais informações, consulte a mensagem de aviso capturada em [Configuração de relatórios em tempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
+Lembre-se que as eVars (métricas de conversão) não são suportadas, uma vez que não há conceito de persistência. Você pode selecionar métricas de conversão, mas elas funcionarão apenas se definidas na mesma página que a(s) dimensão(ões). Para obter mais informações, consulte a mensagem de aviso capturada em [Configurando Relatórios em Tempo Real](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 A configuração e a exibição dos relatórios em tempo real está restrita aos Administradores ou qualquer outro usuário que faça parte dos grupos &quot;Todos os acessos de relatório&quot; e &quot;Relatórios avançados&quot; . Porém, o Tempo real não respeita as permissões. Por exemplo, se você não possui os direitos para visualizar a receita, você não poderá visualizar um relatório em tempo real que inclui dados da mesma.
 

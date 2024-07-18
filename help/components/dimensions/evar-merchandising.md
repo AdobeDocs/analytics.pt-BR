@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 95%
+source-wordcount: '438'
+ht-degree: 92%
 
 ---
 
 # eVar (merchandising)
 
-*[Esta página de ajuda descreve como as eVars de merchandising funcionam como uma dimensão](overview.md). Para obter informações sobre como implementar eVars de merchandising, consulte [eVar (variável de merchandising)](/help/implement/vars/page-vars/evar-merchandising.md) no guia do usuário de Implementação.*
+*Esta página de ajuda descreve como as eVars de merchandising funcionam como uma [dimensão](overview.md). Para obter informações sobre como implementar eVars de merchandising, consulte [eVar (variável de merchandising)](/help/implement/vars/page-vars/evar-merchandising.md) no guia do usuário de implementação.*
 
 Para ver em detalhes como as eVars de merchandising funcionam, consulte [eVars de merchandising e métodos de descoberta de produtos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=pt-BR).
 

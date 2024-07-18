@@ -17,7 +17,7 @@ Notas de versão cumulativas do AppMeasurement para JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Você pode baixar a versão mais recente do AppMeasurement em [GitHub](https://github.com/adobe/appmeasurement/releases).
+Você pode baixar a última versão do AppMeasurement em [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## Versão 2.26.0
 
@@ -30,28 +30,28 @@ Data de lançamento: **terça-feira, 4 de março de 2024**
 
 Data de lançamento: **quarta-feira, 12 de setembro de 2023**
 
-* Adição do método opcional [`bufferRequests()`](vars/functions/bufferrequests.md) para aprimorar a confiabilidade de capturar solicitações quando um navegador não é compatível com a API de beacon ou cancela solicitações quando uma página é descarregada.
+* Adição do método opcional [`bufferRequests()`](vars/functions/bufferrequests.md) para aprimorar a confiabilidade de captura de solicitações quando um navegador não oferece suporte à API Beacon ou cancela solicitações quando uma página é descarregada.
 * Adição de proteções para evitar vários retornos de chamada pós-rastreamento para uma única solicitação de rastreamento.
 
 ## Versão 2.24.0
 
 Data de lançamento: **quarta-feira, 18 de julho de 2023**
 
-* Adição da variável de configuração opcional [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) para decodificar URLs de links que incluem caracteres codificados com byte duplo.
+* Variável de configuração opcional [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) adicionada para decodificar URLs de link que incluem caracteres codificados em dois bytes.
 * Adição de tratamento de erros para navegadores com APIs de dicas do cliente de usuário-agente de alta entropia e com falha.
-* Alteração do cabeçalho POST Content-Type para usar `x-www-form-urlencoded` por padrão.
+* O cabeçalho POST Content-Type foi alterado para usar `x-www-form-urlencoded` por padrão.
 
 ## Versão 2.23.0
 
 Data de lançamento: **23 de setembro de 2022**
 
-* O AppMeasurement agora é compatível com a coleção de dicas do cliente de usuário-agente de alta entropia que os navegadores Chromium (Google Chrome e Microsoft Edge) usam para fornecer informações de dispositivo. Você pode configurar dicas do cliente por meio de tags ou usar o [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) variável de configuração. A coleção de dicas de alta entropia está desativada por padrão. Saiba mais sobre as [dicas do cliente](/help/technotes/client-hints.md) de usuário-agente.
+* O AppMeasurement agora é compatível com a coleção de dicas do cliente de usuário-agente de alta entropia que os navegadores Chromium (Google Chrome e Microsoft Edge) usam para fornecer informações de dispositivo. Você pode configurar dicas do cliente por meio de marcas ou usar a variável de configuração [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md). A coleção de dicas de alta entropia está desativada por padrão. Saiba mais sobre as [dicas do cliente](/help/technotes/client-hints.md) de usuário-agente.
 
 ## Versão 2.22.4
 
 Data de lançamento: **18 de janeiro de 2022**
 
-* A chamada de rastreamento de link `s.tl()` agora verifica se o objeto passado para ele contém um `href` atributo de tipo `string`. Se não for uma `string`, então, ignorará normalmente a variável `href` atributo em vez de falhar. Esse cenário pode ocorrer quando você passa `svg` objetos para a chamada de rastreamento de link.
+* A chamada de rastreamento de link `s.tl()` agora verifica se o objeto passado para ele contém um `href` atributo de tipo `string`. Se não for um `string`, ele ignorará normalmente o atributo `href` em vez de falhar. Este cenário pode ocorrer quando você passa `svg` objetos para a chamada de rastreamento de link.
 
 ## Versão 2.22.3
 
@@ -63,7 +63,7 @@ Data de lançamento: **11 de outubro de 2021**
 
 Data de lançamento: **7 de setembro de 2021**
 
-* Essa atualização faz com que `opt.dmp` e `opt.sell` sempre sejam incluídas no rastreamento de links. Consulte a [Relatórios de privacidade](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) no guia do usuário Administração para obter mais informações.
+* Essa atualização faz com que `opt.dmp` e `opt.sell` sempre sejam incluídas no rastreamento de links. Consulte o [Relatório de privacidade](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) no guia do usuário de administração para obter mais informações.
 
 ## Versão 2.22.1
 
@@ -347,13 +347,13 @@ Data de lançamento: **5 de novembro de 2015**
 Data de lançamento: **17 de setembro de 2015**
 
 * Inclusão da API de Visitante 1.5.2
-* Atualizado [!DNL Audience Manager] módulo para usar o Adobe Audience Manager DIL 6.2 - getCustomer IDs do VisitorAPI.js e transmiti-las na chamada /event para o Adobe Audience Manager. (AN-104978)
+* Atualização do módulo [!DNL Audience Manager] para usar o Adobe Audience Manager DIL 6.2 - getCustomer IDs do VisitorAPI.js e transmitir a chamada /event para a Adobe Audience Manager. (AN-104978)
 
 ## Versão 1.5
 
 Data de lançamento: **18 de junho de 2015**
 
-* Suporte para a API de visitante 1.5, que usa a variável *`getCustomerIDs`* para coletar IDs de cliente e estado autenticado, e envia as IDs com as solicitações de coleta de dados.
+* Suporte para a API de Visitante 1.5, que usa o método *`getCustomerIDs`* para coletar IDs de cliente e estado autenticado, e enviar as IDs com as solicitações de coleta de dados.
 * Correção da criação de iframe de destino duplicado no módulo **[!UICONTROL AudienceManagement]** (DIL 6.1)
 * Solucionado o problema conhecido descrito na versão 1.4.5.
 
@@ -383,7 +383,7 @@ Data de lançamento: **16 de abril de 2015**
 Data de lançamento: **19 de fevereiro de 2015**
 
 * Tornou o gerenciamento do rastreio tardio de chamadas consistente, o que corrigiu problemas com as variáveis revertidas durante o atraso, como por exemplo o objeto clicado.
-* Alteração realizada para que o rastreamento de referenciador não fosse automático após a primeira chamada de rastreamento. Assim, as chamadas de rastreamento subsequentes (geralmente em rastreamentos em cadeia) não contarão o referenciador duas vezes quando *`s.referrer`* foi definido manualmente antes da primeira chamada de rastreamento.
+* Alteração realizada para que o rastreamento de referenciador não fosse automático após a primeira chamada de rastreamento. Assim, as chamadas de rastreamento subsequentes (geralmente em rastreamentos em cadeia) não contarão o referenciador duas vezes quando *`s.referrer`* for definido manualmente antes da chamada de rastreamento.
 * O zip de distribuição foi atualizado para incluir a API de Visitante 1.3.5.
 
 ## Versão 1.4.2

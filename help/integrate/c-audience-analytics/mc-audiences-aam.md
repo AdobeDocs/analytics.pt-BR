@@ -34,7 +34,7 @@ A integração do Audience Analytics apresenta os seguintes benefícios principa
 ![](assets/mc-aud-dataflow.png)
 
 1. Cada vez que um visitante acessa suas propriedades digitais, ocorrências são coletadas e enviadas ao Analytics.
-1. Com [encaminhamento pelo lado do servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md), cada ocorrência recebida pelo Analytics é automaticamente enviada para a Adobe Audience Manager em tempo real.
+1. Com o [encaminhamento pelo lado do servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md), cada ocorrência recebida pelo Analytics é automaticamente enviada ao Adobe Audience Manager em tempo real.
 1. Por meio da integração Audience Analytics, para cada ocorrência, a associação de público-alvo de um visitante é pesquisada no Adobe Audience Manager e uma lista de IDs de segmento é retornada ao Analytics para processamento em tempo real.
 
 Como os segmentos do Adobe Audience Manager são inseridos com base na mesma ocorrência, você pode ter certeza de que os dados disponíveis no Adobe Audience Manager sobre um visitante não serão perdidos e estarão atualizados para essa ocorrência. Isso é melhor do que um plug-in AppMeasurement, pois o plug-in pode disponibilizar esses segmentos somente na próxima ocorrência (em vez da ocorrência atual).

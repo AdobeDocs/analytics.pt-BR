@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1260'
 ht-degree: 92%
 
 ---
@@ -60,18 +60,18 @@ Para usar painéis:
 
    A lista de scorecards mostra todos os scorecards compartilhados com você.
 
-1. Toque no scorecard que deseja visualizar.
+1. Toque no cartão de pontuação que deseja exibir.
 
-   Se você tiver acesso a mais de uma organização em um logon, todos os scorecards das organizações estarão disponíveis na lista de scorecards.
+   Se você tiver acesso a mais de uma organização em um logon, todos os scorecards de suas organizações estarão disponíveis na lista de scorecards.
 
-   Você pode classificar a lista de scorecards de acordo com o título do scorecard, o nome da organização ou a visualização mais recente. Você pode até pesquisar por um scorecard específico.
+   Você pode classificar a lista de cartões de pontuação de acordo com o título do cartão de pontuação, o nome da organização ou a visualização mais recente. Você pode até mesmo pesquisar por um scorecard específico.
 
    ![Escolha uma empresa](assets/mobile-home-screen.png)
 
    Se você fizer logon e vir uma mensagem informando que nada foi compartilhado, verifique o seguinte com o curador:
 
    * Você pode fazer logon na instância correta do Analytics
-   * O scorecard foi compartilhado com você
+   * O cartão de pontuação foi compartilhado com você
 
    ![Nada compartilhado](assets/nothing.png)
 
@@ -86,6 +86,7 @@ Para usar painéis:
       * Um dia mostra uma tendência horária
       * Mais de um dia e menos de um ano mostra uma tendência diária.
       * Um ano ou mais mostra uma tendência semanal.
+
    * A fórmula de alteração do valor percentual é o total da métrica (intervalo de datas atual) - total da métrica (intervalo de datas de comparação) / total da métrica (intervalo de datas de comparação).
 
    * Você pode puxar a tela para baixo para atualizar o Scorecard.
@@ -107,7 +108,7 @@ Para usar painéis:
 
    * Dependendo do intervalo em que você tocar (**Dia**, **Semana**, **Mês** ou **Ano**), você verá duas opções para os intervalos de datas - o período de tempo atual ou o imediatamente anterior. Toque em uma dessas duas opções para selecionar o primeiro intervalo. Na lista **[!UICONTROL COMPARAR COM]**, toque em uma das opções apresentadas para comparar os dados desse período com o primeiro intervalo de datas selecionado. Toque em **[!UICONTROL Concluído]** no canto superior direito da tela. O campo **[!UICONTROL Intervalos de datas]** e os blocos de Scorecard são atualizados com os novos dados de comparação dos novos intervalos selecionados.
 
-1. Para aplicar um filtro de segmento ao Scorecard, toque na lista suspensa de filtros e selecione um segmento que foi configurado pelo curador. [Os Filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR) no aplicativo funcionam da mesma forma que no Analytics Workspace.
+1. Para aplicar um filtro de segmento ao Scorecard, toque no menu suspenso de filtros e selecione um segmento que foi configurado pelo curador. [Os Filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR) no aplicativo funcionam da mesma forma que no Analytics Workspace.
 
    ![Filtro de segmentos](/help/admin/admin/assets/filter.png)
 

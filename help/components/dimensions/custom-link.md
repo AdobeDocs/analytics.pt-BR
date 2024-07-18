@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Link personalizado
 
-O &#39;Link personalizado&#39; [dimension](overview.md) relata os nomes dos links personalizados implementados em seu site. Essa dimensão é importante quando você quer entender os tipos de links em que os visitantes mais clicam.
+A [dimensão](overview.md) de &#39;Link personalizado&#39; informa os nomes dos links personalizados implementados em seu site. Essa dimensão é importante quando você quer entender os tipos de links em que os visitantes mais clicam.
 
 ## Preencher esta dimensão com dados
 

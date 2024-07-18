@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Mecanismo de pesquisa
 
-O &quot;Mecanismo de pesquisa&quot; [dimension](overview.md) relata os mecanismos de pesquisa que os visitantes usam para acessar seu site. Um referenciador deve atender às duas condições a seguir para ser classificado como um mecanismo de pesquisa:
+A [dimensão](overview.md) do &quot;Mecanismo de pesquisa&quot; informa os mecanismos de pesquisa que os visitantes utilizam para acessar seu site. Um referenciador deve atender às duas condições a seguir para ser classificado como um mecanismo de pesquisa:
 
 * O domínio referenciador é reconhecido pela Adobe como um mecanismo de pesquisa válido;
 * Existe um parâmetro de sequência de consulta de palavra-chave no URL de referência. O parâmetro da sequência de consulta pode estar em branco (como ocorre com vários mecanismos de pesquisa devido a práticas de privacidade).

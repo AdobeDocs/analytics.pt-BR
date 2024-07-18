@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Ao definir um alerta, ele é aplicado a todos os conjuntos de relatórios em todas as empresas de logon de uma empresa de Faturamento.
 
-Os Alertas de uso de chamadas do servidor fazem parte do [Alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) interface do usuário.
+Os Alertas de Uso de Chamadas do Servidor fazem parte da interface do usuário [Alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
 
 Ela é pré-preenchida com **1 alerta padrão** que é exibido em qualquer empresa de logon que tem acesso ao recurso de Uso de chamadas do servidor. Esses alertas acionarão uma notificação direcionada a todos os administradores caso um dos seguintes critérios seja atendido:
 

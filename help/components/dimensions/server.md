@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Servidor
 
-O &#39;Servidor&#39; [dimension](overview.md) normalmente lista o nome do host do site. Para conjuntos de relatórios que combinam vários domínios ou subdomínios, essa dimensão é útil para analisar quais domínios ou subdomínios têm o melhor desempenho.
+A [dimensão](overview.md) &#39;Servidor&#39; geralmente lista o nome de host do site. Para conjuntos de relatórios que combinam vários domínios ou subdomínios, essa dimensão é útil para analisar quais domínios ou subdomínios têm o melhor desempenho.
 
 Essa dimensão está relacionada às dimensões [Página](page.md) e [Seções do site](site-section.md). A dimensão Página é mais granular, a dimensão Servidor é menos granular e a dimensão Seção do site fica entre as duas.
 

@@ -4,7 +4,7 @@ description: Este manual descreve maneiras de retirar dados do Adobe Analytics u
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 

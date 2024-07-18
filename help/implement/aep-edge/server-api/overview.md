@@ -1,6 +1,6 @@
 ---
-title: Implementar o Adobe Analytics usando a API do servidor de rede de borda da Adobe Experience Platform
-description: Use a API do servidor da rede de borda da Adobe Experience Platform para enviar dados para a Adobe Analytics.
+title: Implementar o Adobe Analytics usando a API do Adobe Experience Platform Edge Network Server
+description: Use a API do servidor do Adobe Experience Platform Edge Network para enviar dados para a Adobe Analytics.
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -11,11 +11,11 @@ ht-degree: 33%
 
 ---
 
-# Implementar o Adobe Analytics usando a API do servidor de rede de borda da Adobe Experience Platform
+# Implementar o Adobe Analytics usando a API do Adobe Experience Platform Edge Network Server
 
-Normalmente, você usa a API do Experience Platform Edge Network Server para coletar dados do lado do servidor, em vez de do lado do cliente, e ao coletar dados de dispositivos como dispositivos IoT, decodificadores de sinais e aplicativos de desktop. Em seguida, você envia esses dados para a rede de borda e para serviços como o Adobe Analytics.
+Normalmente, você usa a API do servidor do Edge Network Experience Platform para coletar dados do lado do servidor, em vez de do lado do cliente, e ao coletar dados de dispositivos como dispositivos IoT, decodificadores de sinais e aplicativos de desktop. Em seguida, você envia esses dados para a rede da Edge e para serviços como o Adobe Analytics.
 
-Considere também a API do Servidor de Rede de Borda quando precisar que dados confidenciais sejam coletados com segurança e autenticados na rede. Consulte [Autenticação](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) para obter mais informações.
+Considere também a API do servidor de Edge Network quando precisar que dados confidenciais sejam coletados com segurança e autenticados na rede. Consulte [Autenticação](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) para obter mais informações.
 
 Uma visão geral de alto nível das tarefas de implementação:
 
@@ -41,14 +41,14 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>3</td>
-<td><b>Configurar uma sequência de dados</b>. Uma sequência de dados representa a configuração do lado do servidor ao usar as APIs da API da rede de borda do Adobe Experience Platform.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-BR">Configurar uma sequência de dados<a></td> 
+<td><b>Configurar uma sequência de dados</b>. Uma sequência de dados representa a configuração do lado do servidor ao usar as APIs da API Edge Network do Adobe Experience Platform.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-br">Configurar uma sequência de dados<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
-<td><b>Implementar e testar a coleta de dados</b> usando as APIs de coleta de dados de evento Único e de dados de evento em lote.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">Coleta de dados de evento único</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Coleta de dados do evento em lote</a>
+<td><b>Implemente e teste a coleta de dados</b> usando as APIs de coleta de dados de evento único e de dados de evento em lote.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">Coleta de dados de evento único</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Coleta de dados de evento em lote</a>
 </tr>
 
 <td>5</td>
@@ -59,5 +59,5 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 </table>
 
-Consulte [Documentação da API do Servidor de rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR), e um exemplo [integração com o Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=pt-BR) para obter mais informações.
+Consulte a [documentação da API do Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR) e um exemplo de [integração com o Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=pt-BR) para obter mais informações.
 

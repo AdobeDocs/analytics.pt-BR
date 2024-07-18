@@ -1,5 +1,5 @@
 ---
-title: Implementar o Adobe Analytics com AppMeasurement para JavaScript
+title: Implementação do Adobe Analytics com AppMeasurement para JavaScript
 description: Saiba como implementar o Adobe Analytics usando JavaScript sem um sistema de gerenciamento de tags.
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
@@ -11,7 +11,7 @@ ht-degree: 42%
 
 ---
 
-# Implementar o Adobe Analytics com AppMeasurement para JavaScript
+# Implementação do Adobe Analytics com AppMeasurement para JavaScript
 
 O AppMeasurement para JavaScript tem sido um método comum para implementar o Adobe Analytics. No entanto, com o aumento da popularidade dos sistemas de Tag Management, é recomendado usar [tags na Adobe Experience Platform](../launch/overview.md).
 
@@ -26,15 +26,15 @@ Uma visão geral de alto nível das tarefas de implementação:
 </tr>
 
 <tr>
-<td>1</td><td>Verifique se você tem <b>definiu um conjunto de relatórios</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
+<td>1</td><td>Verifique se você <b>definiu um conjunto de relatórios</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Baixe o código JavaScript necessário para o AppMeasurement</b> do Gerenciador de código. Descompacte o arquivo.</td><td><a href="../../admin/admin/code-manager-admin.md">Gerenciador de código</a></td>
+<td>2</td><td><b>Baixe o código JavaScript necessário para o AppMeasurement</b> do Gerenciador de Códigos. Descompacte o arquivo.</td><td><a href="../../admin/admin/code-manager-admin.md">Gerenciador de código</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>Adicionar <code>AppMeasurement.js</code> ao arquivo de modelo do seu site</b>. O código contém as bibliotecas necessárias para enviar dados para o Adobe.
+<td>3</td><td><b>Adicionar <code>AppMeasurement.js</code> ao arquivo de modelo do site</b>. O código contém as bibliotecas necessárias para enviar dados para o Adobe.
 
 ```html
 <head>
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Defina variáveis de nível de página no código de página do site</b>. Essas variáveis determinam dimensões e métricas específicas enviadas para o Adobe.
+<td>5</td><td><b>Definir variáveis de nível de página no código de página do site</b>. Essas variáveis determinam dimensões e métricas específicas enviadas para o Adobe.
 
 ```js
 s.pageName = "Example page";
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Envie os dados para o Adobe usando o <code>t()</code> método</b>, quando todas as variáveis de página são definidas.
+<td>6</td><td><b>Enviar os dados para o Adobe usando o método <code>t()</code></b>, quando todas as variáveis de página forem definidas.
 
 ```js
 s.t();

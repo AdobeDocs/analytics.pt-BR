@@ -14,9 +14,9 @@ ht-degree: 1%
 
 As pesquisas dinâmicas permitem que você receba arquivos de pesquisa adicionais no feed de dados que não estarão disponíveis. Essa configuração permite que as seguintes tabelas de pesquisa sejam enviadas com cada arquivo de feed de dados:
 
-* **Nome da operadora**: fornece contexto adicional para o `carrier` coluna. O nome de arquivo incluído é `carrier.tsv`.
-* **Atributos móveis**: fornece contexto adicional para o `mobile_id` incluindo todos os recursos rastreados para cada dispositivo móvel. O nome de arquivo incluído é `mobile_attributes.tsv`.
-* **Tipo de sistema operacional**: fornece um contexto alternativo para o `os` coluna. Ambos `operating_systems.tsv` e `operating_system_type.tsv` use o `os` como a chave, no entanto, somente `operating_system_type.tsv` é uma pesquisa dinâmica.
+* **Nome da operadora**: fornece contexto adicional para a coluna `carrier`. O nome de arquivo incluído é `carrier.tsv`.
+* **Atributos do dispositivo móvel**: fornece contexto adicional para a coluna `mobile_id`, incluindo todos os recursos rastreados para cada dispositivo móvel. O nome de arquivo incluído é `mobile_attributes.tsv`.
+* **Tipo de sistema operacional**: fornece um contexto alternativo para a coluna `os`. `operating_systems.tsv` e `operating_system_type.tsv` usam a coluna `os` como chave, no entanto, somente `operating_system_type.tsv` é uma pesquisa dinâmica.
 
 ## Ativar pesquisas dinâmicas
 
@@ -26,7 +26,7 @@ Para receber os arquivos de pesquisa mencionados, você deve atender a todos os 
    * Para `carrier.tsv`, você deve incluir `carrier`.
    * Para `mobile_attributes.tsv`, você deve incluir `mobile_id`.
    * Para `operating_system_type.tsv`, você deve incluir `os`.
-* As seguintes colunas devem ser **excluído**. Se qualquer uma dessas colunas estiver incluída no feed de dados, a variável `mobile_attributes.tsv` a pesquisa dinâmica não está incluída.
+* As seguintes colunas devem ser **excluídas**. Se alguma dessas colunas estiver incluída no feed de dados, a pesquisa dinâmica `mobile_attributes.tsv` não será incluída.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
@@ -35,17 +35,17 @@ Assim que o feed de dados atender aos requisitos de inclusão e exclusão de col
 
 ## Referência do cabeçalho de pesquisa
 
-Os cabeçalhos de coluna para esses arquivos de pesquisa não mudam com o tempo, portanto, os cabeçalhos não são incluídos em cada arquivo de feed de dados. Use esses cabeçalhos de coluna como uma referência ou baixe os respectivos `.tsv` arquivo.
+Os cabeçalhos de coluna para esses arquivos de pesquisa não mudam com o tempo, portanto, os cabeçalhos não são incluídos em cada arquivo de feed de dados. Use esses cabeçalhos de coluna como uma referência ou baixe seu respectivo arquivo `.tsv`.
 
 +++**Nome da operadora**
-Baixar [carrier_headers.tsv](assets/carrier_headers.tsv) ou consulte os cabeçalhos abaixo.
+Baixe [carrier_headers.tsv](assets/carrier_headers.tsv) ou referencie os cabeçalhos abaixo.
 
 `carrier`
 `Carrier Name`
 +++
 
 +++**Atributos móveis**
-Baixar [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) ou consulte os cabeçalhos abaixo.
+Baixe [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) ou referencie os cabeçalhos abaixo.
 
 `mobile_id`
 `Manufacturer`
@@ -100,7 +100,7 @@ Baixar [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) ou 
 +++
 
 +++**Tipo de sistema operacional**
-Baixar [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) ou consulte os cabeçalhos abaixo.
+Baixe o [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) ou referencie os cabeçalhos abaixo.
 
 `os`
 `Operating System Type`

@@ -45,7 +45,7 @@ O valor para `eVar1` é atribuído ao produto. Todos os eventos bem-sucedidos su
 
 ### Sintaxe do produto usando o SDK da Web
 
-Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), as variáveis de merchandising da sintaxe do produto usam os seguintes campos XDM:
+Se estiver usando o [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), as variáveis de merchandising da sintaxe do produto usarão os seguintes campos XDM:
 
 * As eVars de merchandising da sintaxe do produto são mapeadas em `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` para `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
 * Os eventos de merchandising da sintaxe do produto são mapeados em `xdm.productListItems[]._experience.analytics.event1to100.event1.value` para `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value`. Os campos XDM da [serialização de eventos](events/event-serialization.md) são mapeados em `xdm.productListItems[]._experience.analytics.event1to100.event1.id` a `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`.
@@ -87,7 +87,7 @@ O exemplo a seguir mostra um único [produto](products.md) que usa vários event
 
 O objeto de exemplo acima seria enviado para o Adobe Analytics como `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
-Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), usos de merchandising de eVar `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` sintaxe de AppMeasurement a seguir.
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), o merchandising de eVar usará `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` seguindo a sintaxe do AppMeasurement.
 
 ## Implementar utilizando a sintaxe da variável de conversão
 
@@ -111,7 +111,7 @@ O valor `"Aviary"` para `eVar1` é atribuído ao produto `"Canary"`. Todos os ev
 
 ### Sintaxe de variável de conversão usando o SDK da Web
 
-Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), a sintaxe opera de forma semelhante à implementação de outros [eVars](evar.md) e [events](events/events-overview.md). O espelhamento do XDM no exemplo acima seria semelhante ao seguinte:
+Se estiver usando o [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), a sintaxe operará de forma semelhante à implementação de outros [eVars](evar.md) e [eventos](events/events-overview.md). O espelhamento do XDM no exemplo acima seria semelhante ao seguinte:
 
 Defina a eVar na mesma chamada de evento ou na anterior:
 
@@ -142,7 +142,7 @@ Defina o evento compulsório e os valores da string de produtos:
 ]
 ```
 
-Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), os objetos de dados que espelham o exemplo acima seriam assim:
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), os objetos de dados que espelham o exemplo acima seriam semelhantes ao seguinte:
 
 Defina a eVar na mesma chamada de evento ou na anterior:
 

@@ -8,7 +8,7 @@ exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 36%
+ht-degree: 32%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 36%
 
 Depois de criar relatórios com solicitações incorporadas, você pode aplicar formatação condicional a células da pasta de trabalho.
 
-Na barra de ferramentas do Report Builder, clique em **[!UICONTROL Formato]**.
+Na barra de ferramentas do Report Builder, clique em **[!UICONTROL Formatar]**.
 
 A formatação condicional permite identificar células que contêm resultados ou valores que você deseja monitorar. Por exemplo, você pode aplicar sombreado vermelho ou realce a uma determinada célula se a receita estiver abaixo do esperado, e sombreado azul se a receita exceder os valores previstos. Se uma alteração nos intervalos de datas para solicitações remover as condições que fazem com que a formatação condicional seja aplicada aos valores das células, os formatos que realçam essa condição são desativados temporariamente. Quando os formatos condicionais especificados resultarem em nenhuma alteração porque as condições não são atendidas, os formatos condicionais continuarão a ser aplicados às células até que você as remova.
 

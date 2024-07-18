@@ -12,7 +12,7 @@ ht-degree: 97%
 
 # Domínio de referência
 
-O &#39;Domínio referenciador&#39; [dimension](overview.md) relata em quais domínios os visitantes clicam para acessar seu site. Essa dimensão é útil para entender quais sites de terceiros direcionam mais tráfego para o seu site. Um link deve existir no site externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
+A [dimensão](overview.md) do &#39;Domínio de referência&#39; informa em quais domínios os visitantes clicam para acessar seu site. Essa dimensão é útil para entender quais sites de terceiros direcionam mais tráfego para o seu site. Um link deve existir no site externo e um visitante deve clicar nele para que o item de dimensão seja exibido.
 
 >[!IMPORTANT]
 >

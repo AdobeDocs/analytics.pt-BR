@@ -22,7 +22,7 @@ A caixa de diálogo **[!UICONTROL Rotulagem de privacidade para governança de d
 
    >[!NOTE]
    >
-   >Se não vir esse item de menu, você precisa ser adicionado a um [perfil de produto no Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=pt-BR) com permissões para essa funcionalidade ou receberam acesso a um Conjunto de relatórios no Admin Console.
+   >Se você não vir esse item de menu, precisará ser adicionado a um [perfil de produto no Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=pt-BR) com permissões para essa funcionalidade ou ter recebido acesso a um Conjunto de relatórios no Admin Console.
 
 3. Na parte superior direita, selecione um conjunto de relatórios cujos rótulos de privacidade você deseja visualizar ou gerenciar.
 

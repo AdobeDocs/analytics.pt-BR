@@ -7,7 +7,7 @@ exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,4 +35,4 @@ O Report Builder aceita pastas de trabalho até os seguintes limites:
 
 ## Como saber se tenho acesso ao Report Builder? {#access}
 
-Você precisa receber acesso de Report Builder pelo administrador do Adobe Analytics. O administrador configura perfis de produto no [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). Solicite acesso ao seu administrador.
+Você precisa receber permissão de acesso ao Report Builder do administrador do Adobe Analytics. O administrador configura perfis de produto no [Adobe Admin Console](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-console/home). Peça à sua administração para conceder acesso a você.

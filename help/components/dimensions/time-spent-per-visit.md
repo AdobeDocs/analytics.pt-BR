@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Tempo gasto por visita
 
-*Esta página de ajuda descreve como o &quot;Tempo gasto por visita&quot; funciona como sua respectiva [dimensões](overview.md). Consulte a métrica [Tempo gasto por visita](../metrics/time-spent-per-visit.md) para obter mais informações.*
+*Esta página de ajuda descreve como o &quot;Tempo gasto por visita&quot; funciona como suas respectivas [dimensões](overview.md). Consulte a métrica [Tempo gasto por visita](../metrics/time-spent-per-visit.md) para obter mais informações.*
 
 As dimensões “Tempo gasto por visita” registram o tempo que um visitante gastou em toda a visita. As seguintes etapas são utilizadas para medir o cálculo:
 

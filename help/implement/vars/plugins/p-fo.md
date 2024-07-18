@@ -22,13 +22,13 @@ O plug-in `p_fo` é um utilitário que verifica a existência de um objeto JavaS
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o SDK da Web.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
-1. Clique em **[!UICONTROL Tags]** à esquerda e clique na propriedade de tag desejada.
-1. Clique em **[!UICONTROL Extensões]** à esquerda e, em seguida, clique na guia **[!UICONTROL Catálogo]** guia
-1. Localize e instale o **[!UICONTROL Plug-ins comuns do SDK da Web]** extensão.
+1. Clique em **[!UICONTROL Marcas]** à esquerda e clique na propriedade de marca desejada.
+1. Clique em **[!UICONTROL Extensões]** à esquerda e na guia **[!UICONTROL Catálogo]**
+1. Localize e instale a extensão **[!UICONTROL Plug-ins comuns do SDK da Web]**.
 1. Clique em **[!UICONTROL Elementos de dados]** à esquerda e, em seguida, clique no elemento de dados desejado.
 1. Defina o nome do elemento de dados desejado com a seguinte configuração:
    * Extensão: plug-ins comuns do SDK da Web
-   * Elemento de dados: `p_fo`
+   * Elemento de Dados: `p_fo`
 1. Salve e publique as alterações no elemento de dados.
 
 ## Instale o plug-in implementando manualmente o SDK da Web

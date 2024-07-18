@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 88%
+source-wordcount: '1424'
+ht-degree: 85%
 
 ---
 
@@ -32,21 +32,21 @@ O problema ocorre ao abrir uma pasta de trabalho ARB v5.1 com a solicitação de
 
 ## Problemas de autenticação no Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
 
-O Report Builder exige autenticação para criar solicitações de dados dos seus conjuntos de relatórios. Às vezes, ocorrem questões ao fazer logon no Report Builder, dependendo de suas configurações no [!DNL Analytics] ou na sua rede.
+O Report Builder exige autenticação para criar solicitações de dados dos seus conjuntos de relatórios. Às vezes, ocorrem questões ao fazer logon no Report Builder, dependendo de suas configurações no [!DNL Analytics] ou em sua rede.
 
-* **Empresa de logon inválido**: Esse erro geralmente ocorre quando a empresa de logon é inserida incorretamente ou se houver problemas de atividade de rede. Faça o seguinte:
+* **Empresa de Logon Inválida**: este erro geralmente ocorre quando a empresa de logon é inserida incorretamente ou se houver problemas de atividade de rede. Faça o seguinte:
    * Verifique a ortografia da empresa de logon para garantir que não haja erro de digitação ou de espaçamento.
    * Faça logon no Analytics com a mesma empresa de logon para garantir que esteja correto. Se não conseguir fazer logon com essas credenciais, entre em contato com um dos administradores do de sua organização para obter a empresa de logon correta.
-* **Firewall**: O Report Builder usa as portas 80 e 443. Assegure que essas portas estejam permitidas no firewall de sua organização. Veja também os endereços IP internos do Adobe para outras exclusões de firewall.
+* **Firewall**: o Report Builder usa as portas 80 e 443. Assegure que essas portas estejam permitidas no firewall de sua organização. Veja também os endereços IP internos do Adobe para outras exclusões de firewall.
 
 ## Recomendações para solicitações de otimização {#section_33EF919255BF46CD97105D8ACB43573F}
 
 Os seguintes fatores podem aumentar a complexidade do pedido e resultar em um processamento mais lento.
 
 * **Fatores que podem atrasar deliveries**: muitos marcadores, painéis e pastas de trabalho do Report Builder foram agendados em poucas horas. Considere também que muitas pastas de trabalho do Report Builder foram agendadas ao mesmo tempo. Quando isso ocorre, a fila de relatórios do API fica lotada.
-* **Fatores que podem atrasar o tempo de execução da pasta de trabalho**: aumento significativo nas classificações ou aumento do intervalo de datas da solicitação ao longo do tempo.
+* **Fatores que podem retardar o tempo de execução da pasta de trabalho**: aumento significativo nas classificações ou aumento do intervalo de datas da solicitação ao longo do tempo.
 * **Causas que resultam na falha de entrega da pasta de trabalho**: fórmulas complexas do Excel em uma pasta de trabalho, particularmente as que envolvem data e hora.
-* **Células que retornam 0s (sem valores)**: um apóstrofo ou uma aspa simples no nome da planilha do Excel fará com que o Report Builder não retorne valores. (Esta é uma limitação do Microsoft Excel).
+* **Células retornando 0s (sem valores)**: um apóstrofo ou uma aspa simples no nome da planilha do Excel fará com que o Report Builder não retorne valores. (Esta é uma limitação do Microsoft Excel).
 * **Desempenho de solicitação individual**: a velocidade de processamento pode ser afetada pelas seguintes configurações:
 
   | Configuração | Desempenho mais rápido | Desempenho mais devagar |
@@ -64,7 +64,7 @@ Os seguintes fatores podem aumentar a complexidade do pedido e resultar em um pr
   |--- |--- |--- |--- |--- |
   | Uso do Report Builder | Silencioso | Muito ocupado | Uso do lado do cliente.<br>Maiores volumes de usuários atualizando e solicitando para &quot;Enviar imediatamente&quot;.<br>Além disso, verifique se a fila da API é apagada ao programar tempo limite da pasta de trabalho. | Não ocupado |
 
-* **Limites de tempo**: Qualquer relatório agendado atinge o tempo limite depois de quatro horas. O sistema tenta programar por mais três vezes, resultando em uma falha. (Geralmente, quanto maior o conjunto de dados, maior é o tempo para execução.) Estes podem ser vistos nos relatórios do [!DNL Analytics] e do Report Builder:
+* **Limites de tempo**: qualquer relatório agendado atinge o limite de tempo após quatro horas. O sistema tenta programar por mais três vezes, resultando em uma falha. (Geralmente, quanto maior o conjunto de dados, maior é o tempo para execução.) Estes podem ser vistos nos relatórios do [!DNL Analytics] e do Report Builder:
 
 ## Descrições de mensagem de erro de exemplo {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -74,7 +74,7 @@ Esta seção inclui uma lista de exemplos de mensagens de erro que podem ocorrer
 >
 >Este é um exemplo de mensagens de erro, não uma lista exaustiva. Para obter mais informações sobre como solucionar erros, contate o administrador.
 
-* **Esse recurso pode ser aplicado somente a uma pasta de trabalho aberta.**: Se nenhuma pasta de trabalho (documentos de planilhas) estiver aberta no Excel e você clicar em um dos ícones na barra de ferramentas do Report Builder, esta mensagem será exibida. Além disso, a barra de ferramentas fica desativada até que você abra uma planilha. No entanto, você pode clicar no ícone de Ajuda online enquanto a barra de ferramentas ainda está ativada, sem causar este erro.
+* **Esse recurso pode ser aplicado somente a uma pasta de trabalho aberta.**: Se nenhuma pasta de trabalho (documentos de planilhas) estiver aberta no Excel e você clicar em um dos ícones na barra de ferramentas Report Builder, esta mensagem será exibida. Além disso, a barra de ferramentas fica desativada até que você abra uma planilha. No entanto, você pode clicar no ícone de Ajuda online enquanto a barra de ferramentas ainda está ativada, sem causar este erro.
 * **Saia primeiro do [!UICONTROL Assistente de solicitações] antes de ativar o [!UICONTROL Gerenciador de solicitações].**: Embora o [!UICONTROL Gerenciador de solicitações] e o [!UICONTROL Assistente de solicitações] estejam vinculados funcionalmente, não é possível começar a trabalhar com o [!UICONTROL Gerenciador de solicitações] antes de concluir ou cancelar as ações iniciadas no [!UICONTROL Assistente de solicitações].
 * **Não há solicitações associada a esse intervalo.**: Esta mensagem de erro ocorre se você clicar no botão [!UICONTROL Da planilha] no [!UICONTROL Gerenciador de solicitações] quando uma célula da planilha não contiver nenhuma solicitação. Para identificar quais células na planilha contêm solicitações, clique nas solicitações individuais listadas na tabela no [!UICONTROL Gerenciador de solicitações]. Se uma solicitação estiver associada a células, as células aparecerão realçadas quando a solicitação for selecionada na tabela.
 * **O intervalo selecionado não é válido. Selecione outro intervalo.**: Se uma célula da planilha for selecionada e já houver uma solicitação mapeada para ela, este erro ocorrerá. Exclua a solicitação mapeada para as células ou escolha outro intervalo de células para mapear. Quando quiser excluir células, é importante localizar as que contenham solicitações e excluir as solicitações antes de excluir as células (removendo linhas ou colunas).

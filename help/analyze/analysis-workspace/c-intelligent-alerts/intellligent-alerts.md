@@ -7,7 +7,7 @@ exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: a012aca08740428671f216793dbd12aa15f21448
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Os Alertas inteligentes (ou apenas &quot;alertas&quot;) no Adobe Analytics permitem que você seja notificado imediatamente quando ocorrerem eventos anormais em seus dados.
 
-Você pode definir que os alertas sejam acionados com base em limites de anomalias, porcentagens alteradas ou pontos de dados específicos. Os alertas fornecem controles granulares que se integram a [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), acionando quando você mais precisa deles.
+Você pode definir que os alertas sejam acionados com base em limites de anomalias, porcentagens alteradas ou pontos de dados específicos. Os alertas fornecem controles granulares que se integram à [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), acionando quando você mais precisa deles.
 
 Os Alertas inteligentes permitem:
 

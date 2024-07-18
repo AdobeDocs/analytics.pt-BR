@@ -16,7 +16,7 @@ Este guia apresenta tipos de relatórios comuns que ajudam você a saber mais so
 
 O Google Analytics e o Adobe Analytics são plataformas avançadas para obter informações importantes sobre o desempenho do site. Cada uma tem sua própria arquitetura de processamento e interface do usuário, proporcionando vantagens exclusivas a cada uma. Este guia foi projetado para ajudar a familiarizar um usuário experiente com o Google Analytics em relação ao Adobe Analytics.
 
-No Adobe Analytics, a principal maneira de extrair relatórios básicos após fazer logon na Adobe Experience Cloud é usar **Analysis Workspace**. O menu à esquerda permite que o usuário arraste e solte componentes para criar seu próprio relatório. Ele oferece mais liberdade para atender às necessidades exatas de relatórios. Os usuários experientes na criação de painéis do Google Analytics e relatórios personalizados podem achar esse layout familiar.
+No Adobe Analytics, a forma principal de extrair relatórios básicos após fazer logon na Adobe Experience Cloud é usar o **Analysis Workspace**. O menu à esquerda permite que o usuário arraste e solte componentes para criar seu próprio relatório. Ele oferece mais liberdade para atender às necessidades exatas de relatórios. Os usuários experientes na criação de painéis do Google Analytics e relatórios personalizados podem achar esse layout familiar.
 
 ## Caminho de aprendizagem recomendado
 

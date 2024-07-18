@@ -5,20 +5,20 @@ feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
 source-git-commit: 26e166e065df90cb327fe1106542e17831069141
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '299'
 ht-degree: 19%
 
 ---
 
 # Velocidade do conteúdo
 
-A métrica calculada &quot;Velocidade do conteúdo&quot; ajuda a medir como uma dimensão (normalmente [[!UICONTROL Página]](/help/components/dimensions/page.md)) contribui para que os usuários gastem tempo em seu site ou aplicativo.
+A métrica calculada &quot;Velocidade do conteúdo&quot; ajuda a medir como uma dimensão (normalmente [[!UICONTROL Página]](/help/components/dimensions/page.md)) contribui para que os usuários gastem tempo no seu site ou aplicativo.
 
-Essa métrica utiliza [Atribuição de participação](/help/analyze/analysis-workspace/attribution/models.md) no [Exibições de página](page-views.md) como parte de seu cálculo. Com a participação da Visita, toda vez que uma página é acessada, todas as páginas que foram acessadas anteriormente durante a mesma visita também recebem crédito pela exibição da página. Normalmente, essa fórmula significa que, quanto mais cedo uma página for acessada durante uma visita, mais crédito ela receberá. (Consulte [Exibições de página (participação) | Visita) ou &quot;Participação na visita&quot;](#page-views-participation--visit-or-visit-participation) para obter mais informações.)
+Esta métrica usa a [Atribuição de participação](/help/analyze/analysis-workspace/attribution/models.md) na métrica [Exibições de página](page-views.md) como parte de seu cálculo. Com a participação da Visita, toda vez que uma página é acessada, todas as páginas que foram acessadas anteriormente durante a mesma visita também recebem crédito pela exibição da página. Normalmente, essa fórmula significa que, quanto mais cedo uma página for acessada durante uma visita, mais crédito ela receberá. (Consulte [Exibições de página (Participação) | Visita) ou &#39;Participação na visita&#39;](#page-views-participation--visit-or-visit-participation) para obter mais informações.)
 
 ## Cálculo
 
-&quot;Velocidade do conteúdo&quot; é um valor calculado por padrão [métrica](overview.md) e usa a fórmula `Page views (Visit participation)` dividido por `Visits`.
+&#39;Velocidade do conteúdo&#39; é uma [métrica](overview.md) calculada padrão e usa a fórmula `Page views (Visit participation)` dividida por `Visits`.
 
 ![](assets/cont-velo-1.png)
 

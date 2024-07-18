@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Java ativado
 
-O &#39;Java ativado&#39; [dimension](overview.md) determina se o navegador tem o Java ativado no momento. É útil nos casos em que você deseja introduzir a funcionalidade baseada em Java no seu site e deseja saber quantos visitantes já têm o Java ativado. Para aqueles que têm o Java desativado, você pode fornecer uma alternativa ou instruções sobre como ativá-lo.
+A [dimensão](overview.md) &#39;Java ativado&#39; determina se o navegador tem Java ativado no momento. É útil nos casos em que você deseja introduzir a funcionalidade baseada em Java no seu site e deseja saber quantos visitantes já têm o Java ativado. Para aqueles que têm o Java desativado, você pode fornecer uma alternativa ou instruções sobre como ativá-lo.
 
 ## Preencher esta dimensão com dados
 

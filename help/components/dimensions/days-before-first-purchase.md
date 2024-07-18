@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 83%
 
 ---
 
 # Dias antes da primeira compra
 
-O campo &quot;Dias antes da primeira compra&quot; [dimension](overview.md) relata o número de dias que se passaram entre a primeira vez que um visitante acessa seu site e quando ele faz uma compra. Por exemplo, se um visitante efetua uma compra um dia após a primeira visita, qualquer visita ou evento subsequente pertence ao item de dimensão “1 dia”.
+A [dimensão](overview.md) de &quot;Dias antes da primeira compra&quot; informa o número de dias que se passam entre a primeira vez que um visitante acessa seu site e quando ele faz uma compra. Por exemplo, se um visitante efetua uma compra um dia após a primeira visita, qualquer visita ou evento subsequente pertence ao item de dimensão “1 dia”.
 
 Depois que um visitante faz a primeira compra, ele pertence ao mesmo item de dimensão pelo restante da vida útil do cookie do visitante.
 

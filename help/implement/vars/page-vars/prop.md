@@ -27,8 +27,8 @@ Se você tiver um [documento de design de solução](/help/implement/prepare/sol
 
 As props são mapeadas para as seguintes variáveis:
 
-* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - propriedades de lista são especificadas em um [conjunto separado de campos](#list-props-web-sdk).
-* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; ou `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - propriedades de lista são incluídas nesses campos.
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - propriedades de lista estão especificadas em um [conjunto separado de campos](#list-props-web-sdk).
+* [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; ou `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - propriedades de lista são incluídas nestes campos.
 
 ## Props usando a extensão do Adobe Analytics
 
@@ -38,7 +38,7 @@ Você pode definir props ao configurar a extensão do Analytics (variáveis glob
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Definir Variáveis].
 6. Localize a seção [!UICONTROL Props].
 
 Você pode definir uma prop a um valor ou um elemento de dados. Também é possível copiar o valor de outra variável do Analytics.
@@ -65,9 +65,9 @@ Ativar propriedade de lista em [Variáveis de tráfego](/help/admin/admin/c-mana
 
 ### Definir propriedade de lista usando o SDK da Web {#list-props-web-sdk}
 
-Se estiver usando o [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), propriedades de lista são mapeadas para `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. O SDK da Web usa automaticamente o delimitador correto listado nas configurações do conjunto de relatórios. Se você definir o delimitador no campo XDM (por exemplo, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), que substitui o delimitador recuperado automaticamente das configurações do conjunto de relatórios e pode levar à análise incorreta da string de propriedade da lista.
+Se estiver usando o [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), as props de lista serão mapeadas para `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. O SDK da Web usa automaticamente o delimitador correto listado nas configurações do conjunto de relatórios. Se você definir o delimitador no campo XDM (por exemplo, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), que substitui o delimitador recuperado automaticamente das configurações do conjunto de relatórios e pode levar à análise incorreta da string de propriedade da lista.
 
-Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), props de lista usam os mesmos campos que props padrão e seguem a sintaxe do AppMeasurement.
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), as props de lista usarão os mesmos campos que as props padrão e seguirão a sintaxe do AppMeasurement.
 
 ### Definir propriedades de lista usando a extensão do Adobe Analytics e o AppMeasurement
 

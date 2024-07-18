@@ -7,13 +7,13 @@ exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
 # Painel de atribuição
 
-O painel [!UICONTROL Atribuição] é uma maneira fácil de criar uma análise comparando vários modelos de atribuição. É um recurso no [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) que oferece um espaço de trabalho dedicado para usar e comparar modelos de atribuição.
+O painel [!UICONTROL Atribuição] é uma maneira fácil de criar uma análise comparando vários modelos de atribuição. É um recurso na [Atribuição](/help/analyze/analysis-workspace/attribution/overview.md) que oferece um espaço de trabalho dedicado para usar e comparar modelos de atribuição.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 

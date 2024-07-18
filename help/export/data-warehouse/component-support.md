@@ -5,8 +5,8 @@ feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 56%
+source-wordcount: '404'
+ht-degree: 59%
 
 ---
 
@@ -20,15 +20,15 @@ Algumas dimensões e métricas que podem ser usadas no Data Warehouse não estã
 
 ### Dimensões suportadas exclusivamente
 
-* **ID do Experience Cloud**: Para implementações que usam o Experience Cloud ID Service (ECID), um número de 128 bits que consiste em dois números concatenados de 64 bits preenchidos com 19 dígitos.
-* **URL da página**: o URL da página em que a ocorrência ocorreu.
-* **IDs de compra**: Identificador exclusivo de uma compra, definido usando a variável purchaseID.
-* **Visitor ID**: fornece o identificador exclusivo do visitante. Esse valor é igual ao valor concatenado de `visid_high` e `visid_low` colunas em feeds de dados. Consulte Referência [da coluna](../analytics-data-feed/c-df-contents/datafeeds-reference.md) Dados em Feeds de dados para obter mais informações.
+* **ID de Experience Cloud**: para implementações que usam o Serviço de ID de Experience Cloud (ECID), um número de 128 bits que consiste em dois números concatenados de 64 bits preenchidos com 19 dígitos.
+* **URL da página**: a URL da página em que a ocorrência ocorreu.
+* **IDs de compra**: identificador exclusivo para uma compra, definido usando a variável purchaseID.
+* **ID do Visitante**: fornece o identificador exclusivo do visitante. Esse valor é igual ao valor concatenado de `visid_high` e `visid_low` colunas em feeds de dados. Consulte Referência [da coluna](../analytics-data-feed/c-df-contents/datafeeds-reference.md) Dados em Feeds de dados para obter mais informações.
 
 ### Métricas suportadas exclusivamente
 
-* **Visitas**: Essa métrica no contexto do Data Warehouse exclui visitas de cookies não persistentes.
-* **Visitas - Todos os visitantes**: Essa métrica no contexto do Data Warehouse tem mais paridade com a métrica de visitas em outras ferramentas do Adobe Analytics.
+* **Visitas**: essa métrica no contexto da Data Warehouse exclui visitas de cookies não persistentes.
+* **Visitas - Todos os visitantes**: essa métrica no contexto do Data Warehouse tem mais paridade com a métrica de visitas em outras ferramentas do Adobe Analytics.
 
 ## Componentes não compatíveis com o Data Warehouse
 
@@ -71,7 +71,7 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
 
 ### Suporte a Dimension de uma maneira diferente
 
-As seguintes dimensões baseadas em tempo são compatíveis. No entanto, a saída de datas não é padrão ao usar essas dimensões. Especificamente, o ano é compensado por 1900, e os meses são baseados em zero.
+As seguintes dimensões baseadas em tempo são compatíveis. No entanto, a saída de datas não utiliza valores padrão ao usar essas dimensões. Especificamente, o ano é compensado por 1900, e os meses são baseados em zero.
 
 * Ano
 * Trimestre

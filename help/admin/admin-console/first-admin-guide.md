@@ -33,4 +33,4 @@ Após a assinatura de um contrato:
 
 Depois que um primeiro administrador é provisionado para sua organização, o primeiro administrador pode provisionar usuários na organização com outras funções principais.
 
-Para obter informações sobre como provisionar usuários em sua organização com funções principais para o Adobe Analytics, consulte [Funções de administrador no Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).
+Para obter informações sobre como provisionar usuários em sua organização com funções importantes para o Adobe Analytics, consulte [Funções de administrador no Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).

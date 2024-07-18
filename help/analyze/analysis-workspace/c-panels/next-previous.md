@@ -17,38 +17,38 @@ Esse painel contém várias tabelas e visualizações para identificar facilment
 
 ## Acessar o painel
 
-Você pode acessar o painel de dentro do [!UICONTROL Relatórios] ou no prazo de [!UICONTROL Workspace].
+Você pode acessar o painel de [!UICONTROL Relatórios] ou de [!UICONTROL Workspace].
 
 | Ponto de acesso | Descrição |
 | --- | --- |
-| [!UICONTROL Relatórios] | <ul><li>O painel já está solto em um projeto.</li><li>O painel esquerdo está recolhido.</li><li>Se você selecionou [!UICONTROL Próxima página], as configurações padrão já foram aplicadas, como [!UICONTROL Página] para [!UICONTROL Dimension]e a página superior como a [!UICONTROL Item Dimension], [!UICONTROL Próxima] para [!UICONTROL Direção] e [!UICONTROL Visita] para [!UICONTROL Container]. Você pode modificar todas essas configurações.</li></ul>![Painel Próximo/Anterior](assets/next-previous.png) |
-| Workspace | Crie um novo projeto e selecione o ícone Painel no painel à esquerda. Em seguida, arraste o [!UICONTROL Próximo item ou anterior] acima da tabela de Forma livre. Observe que [!UICONTROL Dimension] e [!UICONTROL Item Dimension] Os campos ficam em branco. Selecione uma dimensão na lista suspensa. [!UICONTROL itens de Dimension] são preenchidos com base na variável [!UICONTROL dimension] você escolheu. O item de dimensão principal é adicionado, mas você pode selecionar um item diferente. Os padrões são Next e Visitor. Novamente, você também pode modificá-los.<p>![Painel Próximo/Anterior](assets/next-previous2.png) |
+| [!UICONTROL Relatórios] | <ul><li>O painel já está solto em um projeto.</li><li>O painel esquerdo está recolhido.</li><li>Se você selecionou [!UICONTROL Próxima página], as configurações padrão já foram aplicadas, como [!UICONTROL Página] para [!UICONTROL Dimension], e a página superior como [!UICONTROL Dimension Item], [!UICONTROL Próximo] para [!UICONTROL Direção] e [!UICONTROL Visita] para [!UICONTROL Contêiner]. Você pode modificar todas essas configurações.</li></ul>![Painel seguinte/anterior](assets/next-previous.png) |
+| Workspace | Crie um novo projeto e selecione o ícone Painel no painel à esquerda. Em seguida, arraste o painel [!UICONTROL Item seguinte ou anterior] acima da tabela de Forma livre. Observe que os campos [!UICONTROL Dimension] e [!UICONTROL Dimension Item] estão em branco. Selecione uma dimensão na lista suspensa. [!UICONTROL itens de Dimension] são preenchidos com base na [!UICONTROL dimensão] que você escolheu. O item de dimensão principal é adicionado, mas você pode selecionar um item diferente. Os padrões são Next e Visitor. Novamente, você também pode modificá-los.<p>![Painel seguinte/anterior](assets/next-previous2.png) |
 
 {style="table-layout:auto"}
 
 ## Entradas do painel {#Input}
 
-Você pode configurar o [!UICONTROL Próximo item ou anterior] painel usando estas configurações de entrada:
+Você pode configurar o painel do [!UICONTROL Item seguinte ou anterior] usando estas configurações de entrada:
 
 | Configuração | Descrição |
 | --- | --- |
 | Zona de destino do segmento (ou outro componente) | Você pode arrastar e soltar segmentos ou outros componentes para filtrar ainda mais os resultados do painel. |
 | Dimensão | A dimensão para a qual você deseja explorar os itens seguintes ou anteriores. |
-| Item Dimension | O item específico no centro da pesquisa seguinte/anterior. |
-| Direção | Especifique se você está procurando a variável [!UICONTROL Próxima] ou o [!UICONTROL Anterior] item de dimensão. |
-| Contêiner | [!UICONTROL Visita] ou [!UICONTROL Visitante] (padrão) determine o escopo da sua consulta. |
+| Item de dimensão | O item específico no centro da pesquisa seguinte/anterior. |
+| Direção | Especifique se você está procurando pelo item de dimensão [!UICONTROL Próximo] ou [!UICONTROL Anterior]. |
+| Contêiner | [!UICONTROL Visita] ou [!UICONTROL Visitante] (padrão) determinam o escopo da sua consulta. |
 
 {style="table-layout:auto"}
 
-Clique em **[!UICONTROL Build]** para criar o painel.
+Clique em **[!UICONTROL Criar]** para criar o painel.
 
 ## Saída do painel {#output}
 
-A variável [!UICONTROL Próximo item ou anterior] O painel retorna um conjunto avançado de dados e visualizações para ajudar você a entender melhor quais ocorrências seguem ou precedem itens de dimensão específicos.
+O painel [!UICONTROL Item seguinte ou anterior] retorna um conjunto avançado de dados e visualizações para ajudá-lo a entender melhor quais ocorrências seguem ou precedem itens de dimensão específicos.
 
-![Saída do painel Próximo/Anterior](assets/next-previous-output.png)
+![Saída do painel seguinte/anterior](assets/next-previous-output.png)
 
-![Saída do painel Próximo/Anterior](assets/next-previous-output2.png)
+![Saída do painel seguinte/anterior](assets/next-previous-output2.png)
 
 | Visualização | Descrição |
 | --- | --- |

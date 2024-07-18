@@ -6,7 +6,7 @@ exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ As teclas não classificadas são reunidas nos relatórios de classificação co
 
 Chaves não classificadas são reunidas nos relatórios de classificação como um único item da linha identificado *`None`*. Pode ser útil para renomear *`None`* para algo mais descritivo.
 
-Por exemplo, digamos que seus códigos de rastreamento tenham informações que definem o tipo de campanha via celular à qual o código de rastreamento está associado. Você está usando a classificação (Tipo de campanha móvel) para reunir esses códigos de rastreamento em categorias, como Web móvel, aplicativo iOS, aplicativo Android e assim por diante. Algumas campanhas talvez não sejam campanhas móveis, não sendo classificadas com um tipo de campanha móvel. Todos os códigos de rastreamento não classificados seriam reunidos em *`None`* no relatório de [!UICONTROL Tipo de campanha móvel].
+Por exemplo, digamos que seus códigos de rastreamento tenham informações que definem o tipo de campanha via celular à qual o código de rastreamento está associado. Você está usando a classificação (Tipo de campanha móvel) para reunir esses códigos de rastreamento em categorias, como Web móvel, aplicativo iOS, aplicativo Android e assim por diante. Algumas campanhas talvez não sejam campanhas móveis, não sendo classificadas com um tipo de campanha móvel. Todos os códigos de rastreamento não classificados seriam agrupados em *`None`* no relatório [!UICONTROL Tipo de campanha móvel].
 
 ## Renomear a tecla de classificação Nenhum {#task_8CD595DA82AA44D08CEF002B588C3C30}
 

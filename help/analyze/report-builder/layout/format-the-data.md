@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 80%
+source-wordcount: '261'
+ht-degree: 81%
 
 ---
 
@@ -22,14 +22,14 @@ No menu **[!UICONTROL Formatar]**, clique em **[!UICONTROL Formato personalizado
 
 A tabela a seguir descreve como você pode usar abreviações de datas no campo [!UICONTROL Formato personalizado]:
 
-| Abreviação | Significado | Exemplo usando quarta-feira, 14 de março de 2012 |
+| Abreviação | Significado | Exemplo   usando quarta-feira, 14 de março de 2012 |
 |--- |--- |--- |
 | dd/MM/aaaa | Data numérica completa | 14/03/2012 |
 | M | Número do mês | 3 |
 | MM | Número do mês com zero à esquerda para meses &lt; 10 | 03 |
 | MMM | Nome abreviado do mês | Mar |
 | MMMM | Nome completo do mês | Março de |
-| D | Nome completo da data | Quarta-feira, 14 de março de 2012 |
+| D | Nome completo da data | quinta-feira, 14 de março de 2012 |
 | d | Número do dia | 14 |
 | dd | Número do dia com zero à esquerda para dias &lt; 10 | 01 - 09 |
 | ddd | Nome abreviado do dia | Qua |

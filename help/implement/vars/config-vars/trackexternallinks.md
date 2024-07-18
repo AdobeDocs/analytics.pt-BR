@@ -19,16 +19,16 @@ Quando ativado, o AppMeasurement compara qualquer URL de link clicado com valore
 
 ## Ativar ou desativar a coleção de cliques usando a extensão SDK da Web
 
-Use o [!UICONTROL Ativar a coleta de dados de cliques] caixa de seleção ao configurar o SDK da Web. Essa caixa de seleção lida com links de saída e de download.
+Use a caixa de seleção [!UICONTROL Habilitar coleta de dados de cliques] ao configurar o SDK da Web. Essa caixa de seleção lida com links de saída e de download.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
-1. Em [!UICONTROL Coleta de dados], clique no link **[!UICONTROL Ativar a coleta de dados de cliques]** caixa de seleção
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** em [!UICONTROL Adobe Experience Platform Web SDK].
+1. Em [!UICONTROL Coleção de dados], clique na caixa de seleção **[!UICONTROL Habilitar e clicar na coleção de dados]**.
 
 ## Ativar ou desativar a coleção de cliques que implementa manualmente o SDK da Web
 
-Configurar o SDK usando o [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). O campo é do tipo booleano e determina se os dados associados aos cliques em links são coletados automaticamente. O valor padrão é `true`. Defina esse valor como `false` se quiser desativar o rastreamento automático de links. Essa configuração lida com o rastreamento automático de links para links de download e de saída.
+Configurar o SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). O campo é do tipo booleano e determina se os dados associados aos cliques em links são coletados automaticamente. O valor padrão é `true`. Defina esse valor como `false` se desejar desabilitar o rastreamento automático de links. Essa configuração lida com o rastreamento automático de links para links de download e de saída.
 
 ```json
 alloy("configure", {

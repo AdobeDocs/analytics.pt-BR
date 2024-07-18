@@ -6,14 +6,14 @@ role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 69%
+source-wordcount: '558'
+ht-degree: 65%
 
 ---
 
 # Tabela de forma livre
 
-No Analysis Workspace, uma Tabela de forma livre é a base para a análise de dados interativa. Você pode arrastar e soltar uma combinação de [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=pt-BR) em linhas e colunas para criar uma tabela personalizada para sua análise. À medida que cada componente é descartado, a tabela é atualizada imediatamente, para que você possa analisar e pesquisar mais fundo rapidamente.
+No Analysis Workspace, uma Tabela de forma livre é a base para a análise de dados interativa. Você pode arrastar e soltar uma combinação de [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=pt-BR) em linhas e colunas para criar uma tabela personalizada para sua análise. À medida que cada componente é solto, a tabela é atualizada imediatamente, para que você possa analisar e pesquisar com mais detalhes rapidamente.
 
 ## Criar uma tabela de forma livre simples
 
@@ -21,28 +21,28 @@ Você começa com uma Tabela de forma livre vazia.
 
 ![Tabela de forma livre vazia](assets/freeform-table-1.png)
 
-Se soltar a **[!UICONTROL ** Visitas **]** na métrica **[!UICONTROL ** Solte uma métrica aqui (ou qualquer outro componente)**]**, a Tabela de forma livre é preenchida automaticamente com visitas por dia no período de calendário selecionado.
+Se você soltar a métrica **[!UICONTROL ** Visitas **]** no **[!UICONTROL ** Soltar uma métrica aqui (ou qualquer outro componente)**]**, a Tabela de forma livre será preenchida automaticamente com visitas por dia para o período de calendário selecionado.
 
 ![Tabela de forma livre de visitas](assets/freeform-table-2.png)
 
-Em seguida, solte o **[!UICONTROL ** Página **]** para substituir a dimensão **[!UICONTROL ** Dia **]** , a tabela de forma livre reflete automaticamente as visitas de cada página.
+Se você soltar a dimensão **[!UICONTROL ** Página **]** para substituir a coluna de dimensão **[!UICONTROL ** Dia **]**, a tabela de Forma livre refletirá automaticamente as visitas de cada página.
 
-![Tabela de forma livre de visitas por página](assets/freeform-table-3.png)
+![Visitas por Tabela de Forma Livre da Página](assets/freeform-table-3.png)
 
-É possível detalhar, por exemplo, a variável **[!UICONTROL ** categoria:5 **]** ao soltar a página **[!UICONTROL ** Canal de marketing **]** na dimensão **[!UICONTROL ** categoria:5 **]** linha.
+Você pode detalhar, por exemplo, a página **[!UICONTROL ** categoria:5 **]**, soltando a dimensão **[!UICONTROL ** Canal de Marketing **]** na linha **[!UICONTROL ** categoria:5 **]**.
 
-![Detalhamento de visitas por tabela de forma livre de página](assets/freeform-table-4.png)
+![Detalhamento de Visitas por Tabela de Forma Livre da Página](assets/freeform-table-4.png)
 
 
 ## Tabelas automatizadas
 
-Como ilustrado acima, a maneira mais rápida de criar uma tabela é soltar componentes diretamente em um projeto, painel ou tabela de forma livre em branco. Uma tabela de forma livre será criada automaticamente para você em um formato recomendado. [Assista ao tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=pt-BR).
+Como ilustrado acima, a maneira mais rápida de criar uma tabela é soltar os componentes diretamente em um projeto, painel ou tabela de forma livre em branco. Uma tabela de forma livre será criada automaticamente para você em um formato recomendado. [Assista ao tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=pt-BR).
 
 ![](assets/automated-table.png)
 
 ## Construtor de tabelas de forma livre
 
-Se preferir adicionar primeiro vários componentes à tabela e, em seguida, renderizar os dados, ative o Construtor de tabelas de forma livre. Com o construtor ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas mais complexas. Os dados não serão atualizados dinamicamente, serão atualizados assim que você clicar **[!UICONTROL Criar]**.
+Se preferir adicionar primeiro vários componentes à tabela e, em seguida, renderizar os dados, ative o Construtor de tabelas de forma livre. Com o construtor ativado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas mais complexas. Os dados não serão atualizados dinamicamente, serão atualizados assim que você clicar em **[!UICONTROL Build]**.
 
 ![](assets/table-builder.png)
 
@@ -67,7 +67,7 @@ Saiba mais sobre todos os dados de [opções de exportação](https://experience
 
 * Clique com o botão direito do mouse em > **[!UICONTROL Copiar dados para a área de transferência]** para exportar os dados da tabela exibidos. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Copiar seleção para a área de transferência]**. A tecla de atalho **Ctrl + C** também copia os dados selecionados.
 * Clique com o botão direito do mouse em > **[!UICONTROL Baixar dados como CSV]** para baixar os dados da tabela exibidos como um CSV. Se uma seleção de tabela for feita, essa opção indicará **[!UICONTROL Baixar seleção como CSV]**.
-* Clique com o botão direito do mouse em > **[!UICONTROL Projeto > Baixar itens como CSV]** exporta até 50.000 itens de dimensão para a dimensão selecionada.
+* Clique com o botão direito do mouse em > **[!UICONTROL Projeto > Baixar itens como CSV]** para exportar até 50.000 itens de dimensão para a dimensão selecionada.
 
 Saiba mais sobre todos os dados de [opções de exportação](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=pt-BR) do Analysis Workspace.
 

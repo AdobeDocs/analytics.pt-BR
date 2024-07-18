@@ -30,7 +30,7 @@ Todos os usuários podem criar tags para segmentos e aplicar uma ou mais tags a 
    * selecione a partir das tags existentes, ou
    * adicione uma nova tag e pressione **[!UICONTROL Enter]**.
 
-      ![](assets/tagging_ui.png)
+     ![](assets/tagging_ui.png)
 
 1. Clique em **[!UICONTROL Tag]** novamente e marque o segmento.
 

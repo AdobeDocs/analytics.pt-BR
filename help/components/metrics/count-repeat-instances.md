@@ -17,4 +17,4 @@ ht-degree: 91%
 No Workspace, você pode optar por [incluir/excluir instâncias repetidas](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) em **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]**. Elas são incluídas por padrão.
 
 >[!NOTE]
->Essa configuração não se aplica a visualizações de [!UICONTROL Fluxo] ou [!UICONTROL Fallout]. No Workspace, [!UICONTROL Fluxo] tem sua própria [configuração](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) para remover repetições.
+>Essa configuração não se aplica a visualizações de [!UICONTROL Fluxo] ou [!UICONTROL Fallout]. No Workspace, o [!UICONTROL Fluxo] tem sua própria [configuração](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) para remover repetições.

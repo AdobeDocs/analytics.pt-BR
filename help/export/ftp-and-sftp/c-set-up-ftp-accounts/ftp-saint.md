@@ -6,8 +6,8 @@ feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 89%
 
 ---
 
@@ -21,11 +21,11 @@ O tempo necessário para que o sistema importe esses arquivos varia de acordo co
 
 Se a importação for realizada com sucesso, as alterações apropriadas são exibidas imediatamente em uma exportação. Por outro lado, as alterações de dados no Analytics podem levar quatro horas com uma importação de navegador e até 24 horas com uma importação de FTP.
 
-Para mais informações sobre os limites FTP e retenção de dados, consulte [Limites FTP e retenção de dados](/help/export/ftp-and-sftp/ftp-limits.md).
+Para obter informações sobre limites FTP e retenção de dados, consulte [Limites FTP e retenção de dados](/help/export/ftp-and-sftp/ftp-limits.md).
 
 ## Sobre o arquivo `.fin` para Classificações e uploads de fontes de dados {#section_1484719F8A134EAE91212DBD8F15174F}
 
-Ao fazer upload de uma Classificação ou Fonte de dados (`.tab` ou `.txt`), o upload também exige que você carregue um arquivo vazio com exatamente o mesmo nome do arquivo de dados que está sendo importado, mas com a extensão .`.fin`. Este arquivo `.fin` é um arquivo de finalização. Ele tem o objetivo de informar ao sistema que o arquivo de dados foi enviado com sucesso para a conta FTP. O arquivo `.fin` permite que a Adobe reconheça que a importação foi finalizada.
+Ao carregar um arquivo de Classificação ou Source de Dados (`.tab` ou `.txt`), o carregamento também exige que você carregue um arquivo vazio com o mesmo nome do arquivo de dados a ser importado, mas com um .Extensão `.fin`. Este arquivo `.fin` é um arquivo de finalização. Ele tem o objetivo de informar ao sistema que o arquivo de dados foi enviado com sucesso para a conta FTP. O arquivo `.fin` permite que a Adobe reconheça que a importação foi finalizada.
 
 Depois de enviar o arquivo de origem e o arquivo `.fin`, é importante fazer logoff do site FTP. O motivo é que o Adobe Analytics usa eventos de logout como um acionador para que os arquivos estejam prontos para processamento. Após concluir a importação, a Adobe remove ambos os arquivos do local FTP.
 

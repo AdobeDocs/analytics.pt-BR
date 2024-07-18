@@ -15,20 +15,20 @@ ht-degree: 70%
 
 {{plug-in}}
 
-O plug-in `getAndPersistValue` permite armazenar um valor em um cookie que pode ser recuperado posteriormente durante uma visita. Desempenha um papel semelhante ao da [!UICONTROL Duração do armazenamento] recurso na extensão Adobe Analytics da Coleção de dados da Adobe Experience Platform. A Adobe recomenda usar esse plug-in se você quiser manter automaticamente uma variável do Analytics com o mesmo valor em ocorrências subsequentes à definição da variável. Esse plug-in não é necessário se a variável [!UICONTROL Duração do armazenamento] recurso na extensão do Analytics é suficiente. Também não é necessário usar esse plug-in se você não precisar definir e manter variáveis com o mesmo valor em ocorrências subsequentes. A persistência integrada das eVars não requer o uso desse plug-in, pois essas eVars persistem no lado do servidor por ação da Adobe.
+O plug-in `getAndPersistValue` permite armazenar um valor em um cookie que pode ser recuperado posteriormente durante uma visita. Ele desempenha uma função semelhante ao recurso [!UICONTROL Duração do armazenamento] na extensão do Adobe Analytics dentro da Coleção de dados da Adobe Experience Platform. A Adobe recomenda usar esse plug-in se você quiser manter automaticamente uma variável do Analytics com o mesmo valor em ocorrências subsequentes à definição da variável. Este plug-in não será necessário se o recurso [!UICONTROL Duração do armazenamento] na extensão do Analytics for suficiente. Também não é necessário usar esse plug-in se você não precisar definir e manter variáveis com o mesmo valor em ocorrências subsequentes. A persistência integrada das eVars não requer o uso desse plug-in, pois essas eVars persistem no lado do servidor por ação da Adobe.
 
 ## Instale o plug-in usando a extensão SDK da Web
 
 O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o SDK da Web.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
-1. Clique em **[!UICONTROL Tags]** à esquerda e clique na propriedade de tag desejada.
-1. Clique em **[!UICONTROL Extensões]** à esquerda e, em seguida, clique na guia **[!UICONTROL Catálogo]** guia
-1. Localize e instale o **[!UICONTROL Plug-ins comuns do SDK da Web]** extensão.
+1. Clique em **[!UICONTROL Marcas]** à esquerda e clique na propriedade de marca desejada.
+1. Clique em **[!UICONTROL Extensões]** à esquerda e na guia **[!UICONTROL Catálogo]**
+1. Localize e instale a extensão **[!UICONTROL Plug-ins comuns do SDK da Web]**.
 1. Clique em **[!UICONTROL Elementos de dados]** à esquerda e, em seguida, clique no elemento de dados desejado.
 1. Defina o nome do elemento de dados desejado com a seguinte configuração:
    * Extensão: plug-ins comuns do SDK da Web
-   * Elemento de dados: `getAndPersistValue`
+   * Elemento de Dados: `getAndPersistValue`
 1. Defina os parâmetros desejados à direita.
 1. Salve e publique as alterações no elemento de dados.
 

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 42%
+source-wordcount: '200'
+ht-degree: 33%
 
 ---
 
@@ -18,7 +18,7 @@ O modo offline retorna dados de espaço reservado para acelerar o processo de cr
 
 Ao criar ou editar uma nova solicitação, são feitas chamadas da API de relatório para recuperar a resposta. Às vezes, essas chamadas retardam o processo de criação de solicitações, pois é necessário aguardar o retorno dos dados antes de seguir para a próxima etapa. O modo offline retorna somente dados de espaço reservado e a API não é criada.
 
-Para habilitar o modo offline
+Para ativar o modo offline
 
 1. Clique em **[!UICONTROL Opções]** no menu do Report Builder.
 
@@ -33,4 +33,4 @@ Para habilitar o modo offline
 
    >[!IMPORTANT]
    >
-   >Desative o Modo offline ao executar suas solicitações com dados reais.
+   >Certifique-se de desativar o Modo offline antes de executar suas solicitações com dados reais.

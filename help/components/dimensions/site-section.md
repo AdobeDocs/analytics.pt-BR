@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Seção do site
 
-A &#39;Seção do site&#39; [dimension](overview.md) lista os nomes das seções do site. Para sites grandes, é útil agrupar páginas em seções. Essa dimensão é útil para ver as seções de site com melhor desempenho ou as mais exibidas.
+A [dimensão](overview.md) de &#39;Seção do site&#39; lista os nomes das seções do site. Para sites grandes, é útil agrupar páginas em seções. Essa dimensão é útil para ver as seções de site com melhor desempenho ou as mais exibidas.
 
 Essa dimensão está relacionada às dimensões [Página](page.md) e [Servidor](server.md). A dimensão Página é mais granular, a dimensão Servidor é menos granular e a dimensão Seção do site fica entre as duas.
 

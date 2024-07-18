@@ -5,8 +5,8 @@ feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 95%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Para maximizar a eficiência dos canais de marketing para o Attribution e o Customer Journey Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Para maximizar a eficácia dos canais de marketing para atribuição e análise da jornada do cliente, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Os administradores do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Admins do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Você provavelmente quer saber qual de seus canais de marketing é o mais eficiente, e para quem, para que você possa direcionar seus esforços e receber um melhor retorno sobre o investimento feito em marketing. No Adobe Analytics, as dimensões e métricas dos Canais de marketing no Workspace são uma das ferramentas que podem ajudar você a rastrear a influência de canais diferentes em seus pedidos, receita etc. e fornecer insights úteis sobre o canal. Estas são as dimensões e métricas que você pode usar relacionadas aos Canais de marketing:
 
@@ -24,7 +24,7 @@ Você provavelmente quer saber qual de seus canais de marketing é o mais eficie
 
 | Dimensão/métrica | Definição |
 | --- | --- |
-| Canal de Marketing | Esta é a dimensão recomendada para usar nos canais de marketing. Os modelos de Attribution podem ser aplicados a ele no tempo de execução. Essa dimensão se comporta de forma idêntica à dimensão Canal de último contato, mas é rotulada de maneira diferente para evitar confusão ao usá-la com um modelo de atribuição diferente. |
+| Canal de Marketing | Esta é a dimensão recomendada para usar nos canais de marketing. Os modelos de atribuição podem ser aplicados a ele no tempo de execução. Essa dimensão se comporta de forma idêntica à dimensão Canal de último contato, mas é rotulada de maneira diferente para evitar confusão ao usá-la com um modelo de atribuição diferente. |
 | Canal de último contato | Dimensão herdada, com modelo de atribuição de último contato pré-aplicado e inalterável. |
 | Canal de primeiro contato | Dimensão herdada, com modelo de atribuição de primeiro contato pré-aplicado e inalterável. |
 | Instâncias do canal de marketing | Essa métrica mede o número de vezes que um canal de marketing foi definido em uma solicitação de imagem, incluindo visualizações de página padrão e chamadas de link personalizadas. Não inclui valores persistentes. |
@@ -52,7 +52,7 @@ Os Detalhes dos canais de marketing aprofundam-se em cada canal para mostrar cam
 
 ## Aplicar modelos de atribuição
 
-Você pode usar o [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) para aplicar modelos de atribuição diferentes instantaneamente:
+Você pode usar a [Atribuição](/help/analyze/analysis-workspace/attribution/overview.md) para aplicar modelos de atribuição diferentes instantaneamente:
 
 ![](assets/mc-viz5.png)
 

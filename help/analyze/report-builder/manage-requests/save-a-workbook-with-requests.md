@@ -8,19 +8,19 @@ exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 80%
+ht-degree: 78%
 
 ---
 
 # Salvar uma pasta de trabalho com solicitações
 
-Ao criar relatórios com solicitações incorporadas, é possível salvá-los usando **Arquivo** > **Salvar** ou **Arquivo** > **Salvar como** no Excel. O Report Builder detecta se o relatório contém solicitações. Ao selecionar uma das opções de gravação, conclua a **Salvar pasta de trabalho como** formulário.
+Ao criar relatórios com solicitações inseridas, você pode salvá-los usando **Arquivo** > **Salvar** ou **Arquivo** > **Salvar como** no Excel. O Report Builder detecta se o relatório contém solicitações. Ao selecionar uma das opções de gravação, conclua o formulário **Salvar Pasta de Trabalho como**.
 
 * A prática recomendada pela Adobe para qualquer trabalho extenso com aplicativos do Windows é salvar suas solicitações na planilha com frequência a fim de evitar uma perda inesperada das solicitações na planilha.
 * Ao dar um nome para sua pasta de trabalho, considere usar um número de versão no nome do arquivo, de modo a preservar um histórico de seu trabalho. Por exemplo, nomeie sua primeira pasta de trabalho [!DNL web_forecast_01_01.xlsx].
 * Se você já tiver salvo o relatório, o formulário [!UICONTROL Salvar modelo] não será exibido quando o relatório for salvo uma segunda vez. Se o relatório não contiver solicitações, essa caixa de diálogo não será exibida. Em vez dela, o formulário [!UICONTROL Salvar como] padrão do Excel será exibido.
 
-## Nomes e locais de arquivos {#section_2406629E9B644CE08430826948977D5D}
+## Nomes de arquivos e local {#section_2406629E9B644CE08430826948977D5D}
 
 O formulário [!UICONTROL Salvar modelo] tem algumas das mesmas funções que a caixa de diálogo [!UICONTROL Arquivo] > [!UICONTROL Salvar como] padrão do Excel, como uma caixa de texto para entrada do nome de arquivo do relatório da planilha, usando a extensão de arquivo convencional [!DNL .xls].
 

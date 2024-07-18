@@ -1,28 +1,28 @@
 ---
-description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
+description: Etapas que descrevem como criar uma solicitação do data warehouse.
 title: Configurações gerais da solicitação de Data Warehouse
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
 source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 24%
+ht-degree: 39%
 
 ---
 
 # Configurações gerais da solicitação de Data Warehouse
 
-Há várias opções de configuração disponíveis ao criar uma solicitação do Data Warehouse. As informações a seguir descrevem como definir configurações gerais para a solicitação.
+Há várias opções de configuração disponíveis ao criar uma solicitação do data warehouse. As informações a seguir descrevem como definir configurações gerais para a solicitação.
 
-Para obter informações sobre como começar a criar uma solicitação, bem como links para outras opções de configuração importantes, consulte [Criar uma solicitação Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Para obter informações sobre como começar a criar uma solicitação, bem como links para outras opções de configuração importantes, consulte [Criar uma solicitação do data warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 Para definir as configurações gerais de uma solicitação Data Warehouse:
 
-1. Comece a criar uma solicitação do Data Warehouse no Adobe Analytics selecionando **[!UICONTROL Ferramentas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Adicionar**].
+1. Comece a criar uma solicitação de Data Warehouse no Adobe Analytics selecionando **[!UICONTROL Ferramentas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Adicionar**].
 
-   Para obter detalhes adicionais, consulte [Criar uma solicitação Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Para obter detalhes adicionais, consulte [Criar uma solicitação do data warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Na página Nova solicitação de Data Warehouse, selecione a variável [!UICONTROL **Configurações gerais**] guia.
+1. Na página Nova solicitação de Data Warehouse, selecione a guia [!UICONTROL **Configurações gerais**].
 
    ![Guia Destino do relatório](assets/dw-general-settings.png)
 
@@ -37,4 +37,4 @@ Para definir as configurações gerais de uma solicitação Data Warehouse:
 
    {style="table-layout:auto"}
 
-1. Continue configurando sua solicitação do Data Warehouse no [!UICONTROL **Crie seu relatório**] guia. Para obter mais informações, consulte [Criar um relatório para uma solicitação Data Warehouse](/help/export/data-warehouse/create-request/dw-request-build-report.md).
+1. Continue configurando sua solicitação do Data Warehouse na guia [!UICONTROL **Criar relatório**]. Para obter mais informações, consulte [Criar um relatório para uma solicitação Data Warehouse](/help/export/data-warehouse/create-request/dw-request-build-report.md).

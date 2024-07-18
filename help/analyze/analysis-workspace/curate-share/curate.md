@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 68%
+source-wordcount: '568'
+ht-degree: 100%
 
 ---
 
@@ -49,16 +49,16 @@ Para remover a preparação do projeto e restaurar o conjunto completo de compon
 1. Clique em **[!UICONTROL Remover preparação]**.
 1. Clique em **[!UICONTROL Concluído]**.
 
-## Curadoria do conjunto de relatórios virtual
+## Preparação de conjunto de relatórios virtuais
 
-Para aplicar curadoria em um nível de conjunto de relatórios, de modo que se aplique a muitos projetos ao mesmo tempo, é possível [preparar componentes em um conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=pt-BR).
+Para fazer a preparação no nível do conjunto de relatórios, de modo que ela se aplique a vários projetos de uma vez, você pode [preparar os componentes em um conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=pt-BR).
 
 >[!NOTE]
-> A preparação do conjunto de relatórios virtual é sempre aplicada antes da preparação do projeto. Isso significa que, mesmo se o projeto preparado incluir determinados componentes, eles serão filtrados se o conjunto de relatórios virtuais preparado não os incluir.
+> A preparação do conjunto de relatórios virtuais é sempre aplicada antes da preparação do projeto. Isso significa que mesmo que seu projeto preparado inclua determinados componentes, eles serão removidos se o conjunto de relatórios virtuais preparado não os incluir.
 
 ## Opção Mostrar todos os componentes
 
-Em um projeto com curadoria ou conjunto de relatórios virtual, o recipient terá a opção de **[!UICONTROL Mostrar tudo]** componentes no painel esquerdo. [!UICONTROL Mostrar tudo] revela conjuntos diferentes de componentes, dependendo do/da:
+Em um projeto preparado ou conjunto de relatórios virtuais, o destinatário terá a opção de **[!UICONTROL Mostrar todos]** os componentes no painel esquerdo. [!UICONTROL Mostrar tudo] revela conjuntos diferentes de componentes, dependendo dos seguintes fatores:
 
 * O nível de permissão do usuário (administrador ou não)
 * Função do projeto (proprietário/editor ou não)
@@ -69,6 +69,6 @@ Observação: as funções de visualização que não são de administração n�
 
 | Tipo de preparação | Administradores | Proprietário do projeto não administrativo ou função de edição | Função duplicada que não é de administração |
 |---|---|---|---|
-| Conjunto de relatórios virtuais preparado | Todos os componentes do conjunto de relatórios virtual não preparados | Componentes do conjunto de relatórios virtual não preparados dessa função ou que foram compartilhados com ela | Componentes do conjunto de relatórios virtual não preparados dessa função ou que foram compartilhados com ela |
+| Conjunto de relatórios virtuais preparado | Todos os componentes do conjunto de relatórios virtual não preparado | Componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela | Componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela |
 | Projeto preparado | Todos os componentes de projeto não preparados | Todos os componentes de projeto não preparados | Componentes de projeto não preparados de propriedade desta função ou compartilhados com ela |
-| Projeto preparado em um conjunto de relatórios virtuais preparado | Todos os componentes não preparados, mostrados em **[!UICONTROL Componentes de projeto não preparados]** e **[!UICONTROL Componentes do conjunto de relatórios virtual não preparados]** | Todos os componentes de projeto não preparados E os componentes de conjunto de relatórios virtuais não preparados dessa função ou que foram compartilhados com ela | Componentes de projeto e de conjunto de relatórios virtuais não preparados de propriedade dessa função ou que foram compartilhados com ela |
+| Projeto preparado em um conjunto de relatórios virtuais preparado | Todos os componentes não preparados, mostrados em **[!UICONTROL Componentes de projetos não preparados]** e **[!UICONTROL Componentes de conjuntos de relatórios virtuais não preparados]** | Todos os componentes de projetos não preparados E componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela | Conjunto de relatórios virtuais e componentes de projetos não preparados que esta função possui ou que foram compartilhados com ela |

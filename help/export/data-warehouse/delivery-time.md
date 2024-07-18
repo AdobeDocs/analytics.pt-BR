@@ -31,7 +31,7 @@ Para acelerar o delivery de uma solicitação Data Warehouse, você pode alterá
 
 * **Usar um segmento que contenha uma amostra menor de dados**: Quanto menos dados uma solicitação precisar para funcionar, mais rápido ela retornará um relatório.
 * **Executar solicitações em incrementos de 14 dias ou menos**: solicitações menores são processadas mais rapidamente do que solicitações grandes.
-* **Usar menos detalhamentos:** Muitos detalhamentos em uma solicitação aumentam exponencialmente o tempo necessário para processá-la.
+* **Usar menos detalhamentos:** muitos detalhamentos em uma solicitação aumentam exponencialmente o tempo necessário para processá-la.
 
 ## Usar um método alternativo
 

@@ -12,7 +12,7 @@ ht-degree: 45%
 
 # Carrinhos
 
-Os &quot;Carrinhos&quot; [métrica](overview.md) mostra o número de ocorrências em que um visitante adicionou seu primeiro produto ao carrinho.
+A [métrica](overview.md) de &quot;Carrinhos&quot; mostra o número de ocorrências em que um visitante adicionou seu primeiro produto ao carrinho.
 
 ## Como essa métrica é calculada
 

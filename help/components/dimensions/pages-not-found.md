@@ -6,13 +6,13 @@ exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
 # Páginas não encontradas
 
-*[Esta página de ajuda descreve como a métrica &quot;Páginas não encontradas&quot; funciona como uma dimensão](overview.md). Consulte a métrica [Páginas não encontradas](../metrics/pages-not-found.md) para obter mais informações.*
+*Esta página de ajuda descreve como a dimensão &quot;Páginas não encontradas&quot; funciona como uma [dimensão](overview.md). Consulte a métrica [Páginas não encontradas](../metrics/pages-not-found.md) para obter mais informações.*
 
 A dimensão “Páginas não encontradas” exibe URLs que continham um erro. Essa dimensão é útil para diminuir o número de erros que o visitante recebe no site.
 

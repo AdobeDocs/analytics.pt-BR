@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # Dia
 
-O &#39;Dia&#39; [dimension](overview.md) relata o dia em que determinada métrica ocorreu. O primeiro item de dimensão é o primeiro dia no intervalo de datas, e o último item de dimensão é o último dia no intervalo de datas. Essa dimensão é essencial para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo.
+A [dimensão](overview.md) do &quot;Dia&quot; informa o dia em que determinada métrica ocorreu. O primeiro item de dimensão é o primeiro dia no intervalo de datas, e o último item de dimensão é o último dia no intervalo de datas. Essa dimensão é essencial para os relatórios de tendências, pois permite visualizar métricas ao longo do tempo.
 
 ## Preencher esta dimensão com dados
 

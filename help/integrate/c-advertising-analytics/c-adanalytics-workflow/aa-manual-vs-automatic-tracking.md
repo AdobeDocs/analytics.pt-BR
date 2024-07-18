@@ -22,17 +22,17 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 -->
 
-Dois modos de rastreamento são compatíveis: [!UICONTROL Automático] e [!UICONTROL Manual].
+Há suporte para dois modos de rastreamento: [!UICONTROL Automático] e [!UICONTROL Manual].
 
-## [!UICONTROL Automático] Rastreamento {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## Acompanhamento [!UICONTROL Automático] {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL Automático] o rastreamento de permite que o mecanismo do Advertising Cloud decida como os dados do mecanismo de pesquisa devem ser tratados. O rastreamento automático é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.
+O rastreamento [!UICONTROL Automático] permite que o mecanismo do Advertising Cloud decida como os dados do mecanismo de pesquisa devem ser tratados. O rastreamento automático é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.
 
 Como consequência, você precisa marcar uma caixa de seleção de confirmação ao selecionar **[!UICONTROL Automático]** antes de salvar a configuração da conta.
 
-Observe que para configurar uma conta de mecanismo de pesquisa com **[!UICONTROL Automático]** é responsável por realizar as seguintes ações:
+Observe que, para configurar uma conta de mecanismo de pesquisa com o tipo **[!UICONTROL Auto]**, você será responsável pelas seguintes ações:
 
-* A variável `s_kwcid` O parâmetro e o valor são adicionados aos modelos de rastreamento da conta ou aos URLs da página inicial na conta que está sendo adicionada. Esse parâmetro e valor são inseridos no final do URL. Pode ser necessária uma ação adicional de sua parte se o servidor da Web exigir um determinado `key=value` emparelhe no final do URL. Ou uma atualização para oferecer suporte a novos `key=value` emparelhe no URL. É sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página inicial final.
+* O parâmetro e valor `s_kwcid` são adicionados aos modelos de rastreamento da conta ou às URLs da página de aterrissagem na conta que está sendo adicionada. Esse parâmetro e valor são inseridos no final do URL. Pode ser necessária uma ação adicional de sua parte se o servidor Web exigir um determinado par de `key=value` no final da URL. Ou uma atualização para dar suporte a qualquer novo par `key=value` na URL. É sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página inicial final.
 * Além disso, palavras-chave podem ser inseridas no URL inicial como parte do valor `s_kwcid`. Se elas apresentarem caracteres especiais ou símbolos, confirme se seu servidor da Web suporta esses caracteres. Por exemplo, um caractere especial comum é `+`, que é usado em palavras-chave de &quot;Grande correspondência modificada&quot;.
 
 >[!IMPORTANT]
@@ -49,7 +49,7 @@ A sequência de caracteres que precisa ser adicionada a sua conta do Google é m
 
 >[!IMPORTANT]
 >
->O *`<Advertising Analytics ID>`* valor (em **negrito** abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. Você pode obter sua sequência de caracteres da ID de conta específica na tela de conta sob o [!UICONTROL Rastreamento] seção.
+>O *`<Advertising Analytics ID>`* valor (em **negrito** abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. Você pode obter sua sequência de caracteres da ID de conta específica na tela da conta na seção [!UICONTROL Rastreamento].
 
 **Sequência de caracteres de rastreamento de campanhas:**
 

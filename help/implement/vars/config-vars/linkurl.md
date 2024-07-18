@@ -15,13 +15,13 @@ ht-degree: 65%
 
 Sempre que uma chamada de rastreamento de link é enviada para a Adobe, os servidores de coleta de dados detectam automaticamente o URL. Use a variável `linkURL` para substituir o URL detectado.
 
-Não há dimensões no Analysis Workspace que relatem essa variável. Ele preenche o `page_event_var1` coluna em [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md).
+Não há dimensões no Analysis Workspace que relatem essa variável. Ele preenche a coluna `page_event_var1` em [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## Vincular URL usando o SDK da Web
 
 O URL do link é mapeado para as seguintes variáveis:
 
-* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
 * [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` ou `data.__adobe.analytics.pev1`
 
 ## Vincular URL usando a extensão do Adobe Analytics

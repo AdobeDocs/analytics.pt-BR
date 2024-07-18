@@ -38,7 +38,7 @@ Os administradores com acesso para criar conjuntos de relatórios virtuais podem
 
 1. Navegue até [experience.adobe.com](https://experiencecloud.adobe.com) e faça logon usando as credenciais da Adobe ID.
 2. Clique no ícone de 9-grid na parte superior e clique em Analytics.
-3. Focalizar **[!UICONTROL Componentes]** na parte superior e clique em **[!UICONTROL Conjuntos de relatórios virtuais]**.
+3. Passe o mouse sobre **[!UICONTROL Componentes]** na parte superior e clique em **[!UICONTROL Conjuntos de relatórios virtuais]**.
 4. Clique em Adicionar.
 5. Insira um nome para o conjunto de relatórios virtual e verifique se o conjunto de relatórios habilitado para CDA está selecionado.
 6. (Opcional) Aplique um segmento ao conjunto de relatórios virtual. Por exemplo, você pode aplicar um segmento que limita o conjunto de relatórios virtual a datas, depois que o CDA foi ativado e que a compilação começou. Esse segmento permite que os usuários vejam apenas os intervalos de datas compilados no Conjunto de relatórios virtual.

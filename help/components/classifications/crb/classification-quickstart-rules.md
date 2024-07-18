@@ -57,13 +57,13 @@ about_classification_rules.xml
 
 ## Informações importantes sobre as Regras
 
-* Especificar [permissões de grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=pt-BR) para classificações em [!UICONTROL Ferramentas administrativas].
+* Especifique [permissões de grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=pt-BR) para classificações em [!UICONTROL Ferramentas Administrativas].
 
 * **Expressões regulares**: a ajuda está disponível em [Expressões regulares nas regras de classificação](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Conjuntos de relatórios**: não é possível escolher uma classificação até que pelo menos um conjunto de relatórios esteja selecionado. Não é possível aplicar o conjunto de relatórios até que você tenha criado o conjunto de regras e atribuído uma variável.
 
-  Ao testar o conjunto de regras, use as chaves (a variável que está sendo classificada) do relatório para ver como serão impactadas pelo conjunto de regras. (O [key](/help/components/classifications/importer/c-saint-data-files.md) é a variável que está sendo classificada, ou a primeira coluna na tabela de upload de classificação).
+  Ao testar o conjunto de regras, use as chaves (a variável que está sendo classificada) do relatório para ver como serão impactadas pelo conjunto de regras. (A [chave](/help/components/classifications/importer/c-saint-data-files.md) é a variável que está sendo classificada, ou a primeira coluna na tabela de upload de classificação.)
 
 * **Prioridade das regras**: se uma tecla corresponde a várias regras que definem a mesma classificação (na coluna [!UICONTROL Definir classificação]), a última regra que corresponde a classificação será usada. Consulte [Sobre a prioridade das regras](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -76,11 +76,11 @@ about_classification_rules.xml
 
 ## Quando as regras não classificam as teclas?
 
-Ao ativar regras, é possível substituir classificações existentes. Nas situações a seguir, uma regra de classificação não classifica um [key](/help/components/classifications/importer/c-saint-data-files.md)(variável) se:
+Ao ativar regras, é possível substituir classificações existentes. Nas situações a seguir, uma regra de classificação não classifica uma [chave](/help/components/classifications/importer/c-saint-data-files.md)(variável) se:
 
 * A tecla já estiver classificada e você não selecionar [Substituir classificações de](/help/components/classifications/crb/classification-rule-definitions.md).
 
-  É possível substituir classificações ao [adicionar e ativar](/help/components/classifications/crb/classification-quickstart-rules.md) uma regra e ao ativar uma integração de Data Connectors. (para Data Connectors, as regras são criadas por parceiros no Dev Center e exibidas no [!UICONTROL Criador de regras de classificação]).
+  É possível substituir classificações ao [adicionar e ativar](/help/components/classifications/crb/classification-quickstart-rules.md) uma regra e ao ativar uma integração de conectores de dados. (para Data Connectors, as regras são criadas por parceiros no Dev Center e exibidas no [!UICONTROL Criador de regras de classificação]).
 
 * Uma tecla classificada não tiver aparecido nos dados após um período especificado ao substituir uma tecla, mesmo após ativar [Substituir classificações de](/help/components/classifications/crb/classification-rule-definitions.md).
 * A chave não está classificada, e nunca deve ser passada para o [!DNL Adobe Analytics] após o período iniciado há cerca de um mês.
@@ -151,7 +151,7 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Expressão regular | Sequência ou resultado da correspondência | Correlação dos grupos de correspondência |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601`  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601` `$1`: em `$2`: JuneSale `$3`: 20130601 |
 | Construção da sintaxe | `^` = inicia a linha () = agrupa caracteres e permite extrair os caracteres correspondentes nos parênteses.  `(.+)` = captura um ( . ) caractere e ( + ) não mais  \ = início de uma string.  `$` = indica que o caractere anterior (ou grupo de caracteres) é o último na linha. |
 
 Consulte [Expressões regulares - Tabela de referência](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obter informações sobre o que significam caracteres em uma expressão regular.
@@ -198,12 +198,12 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |--- |--- |--- |--- |
-| Expressão regular para correspondência de sequências de caracteres `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expressão regular para correspondência de sequências de caracteres `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expressão regular para correspondência de sequências de caracteres `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expressão regular para correspondência de sequências de caracteres `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expressão regular para correspondência de sequências de caracteres `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Expressão regular para correspondência de sequências de caracteres `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Expressão regular para correspondência de sequência de caracteres `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expressão regular para correspondência de sequência de caracteres `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expressão regular para correspondência de sequência de caracteres `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expressão regular para correspondência de sequência de caracteres `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expressão regular para correspondência de sequência de caracteres `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Expressão regular para correspondência de sequência de caracteres `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Expressões regulares - Exemplo &quot;Não contém&quot; {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -285,7 +285,7 @@ O que vem depois de um exemplo de regra de termo de pesquisa que classifica os t
 | 2 | Contém | Fantasia | Tipo de pesquisa | Fantasia |
 | 3 | Contém | Romo | Tipo de pesquisa | Jogador |
 
-Se um usuário pesquisar por *`Cowboys fantasy Tony Romo`*, o termo *`Player`* é classificada, pois corresponde à última classificação fornecida mostrada na coluna Definir classificação.
+Se um usuário pesquisar por *`Cowboys fantasy Tony Romo`*, o termo *`Player`* será classificado, pois ele corresponde à última classificação fornecida mostrada na coluna Definir Classificação.
 
 Da mesma forma, suponha que você configure duas regras em um conjunto para os seguintes termos de pesquisa:
 

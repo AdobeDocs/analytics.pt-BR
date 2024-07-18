@@ -13,17 +13,17 @@ ht-degree: 39%
 
 # abort
 
-A variável `abort` é uma variável do tipo booleano que pode impedir que a próxima chamada de rastreamento seja enviada para o Adobe. Uma funcionalidade semelhante existe no SDK da Web, permitindo retornar `false` antes do envio de um evento XDM.
+A variável `abort` é um booleano que pode impedir que a próxima chamada de rastreamento seja enviada para o Adobe. Uma funcionalidade semelhante existe no SDK da Web, permitindo que você retorne `false` antes que um evento XDM seja enviado.
 
 ## Cancelar o envio de um evento usando a extensão SDK da Web
 
-Use o [!UICONTROL Ativado antes do retorno de chamada do envio do evento] editor de código e retorno `false`.
+Use o [!UICONTROL Ligado antes de o evento enviar o editor de código de retorno de chamada] e retornar `false`.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
-1. Em [!UICONTROL Coleta de dados], clique no link **[!UICONTROL Editar no antes do envio do evento código de retorno de chamada]** botão.
-1. No editor de código, coloque o seguinte código em qualquer condição que você deseje anular o envio de dados para o Edge:
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** em [!UICONTROL Adobe Experience Platform Web SDK].
+1. Em [!UICONTROL Coleção de dados], clique no botão **[!UICONTROL Editar em antes de enviar o código de retorno de chamada]**.
+1. No editor de códigos, coloque o seguinte código sob qualquer condição que você deseje anular o envio de dados para o Edge:
 
 ```js
 return false;
@@ -31,7 +31,7 @@ return false;
 
 ## Cancelar o envio de um evento implementando manualmente o SDK da Web
 
-Use o `onBeforeEventSend` retorno de chamada e retorno `false`. Consulte [Modificação global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
+Use o retorno de chamada `onBeforeEventSend` e retorne `false`. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
 
 ```js
 alloy("configure"), {
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->A variável `abort` é redefinida para `false` depois de cada chamada de rastreamento. Se quiser abortar chamadas de rastreamento subsequentes na mesma página, defina `abort` para `true` novamente.
+>A variável `abort` é redefinida para `false` depois de cada chamada de rastreamento. Se quiser anular chamadas de rastreamento subsequentes na mesma página, defina `abort` como `true` novamente.
 
-A variável `abort` pode ser definida na variável [`doPlugins()`](../functions/doplugins.md) que é a última função a ser executada antes que uma solicitação de imagem seja enviada para o Adobe. Este exemplo opera de forma semelhante ao `onBeforeEventSend` retorno de chamada usando o SDK da Web.
+A variável `abort` pode ser definida na função [`doPlugins()`](../functions/doplugins.md), que é a última a ser executada antes que uma solicitação de imagem seja enviada para o Adobe. Este exemplo opera de forma semelhante à chamada de retorno `onBeforeEventSend` usando o SDK da Web.
 
 ```js
 s.doPlugins = function(s) {

@@ -22,9 +22,9 @@ O SDK da Web opera enviando dados para um fluxo de dados específico, que encami
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique em **[!UICONTROL Datastreams]** à esquerda.
 1. Clique na sequência de dados desejada ou clique em **[!UICONTROL Nova sequência de dados]**.
-1. Clique em **[!UICONTROL Adicionar serviço]** e selecione **[!UICONTROL Adobe Analytics]**.
-1. Insira a ID do conjunto de relatórios desejada. Se desejar enviar os mesmos dados para vários conjuntos de relatórios, clique em **[!UICONTROL Adicionar conjunto de relatórios]**.
-1. Depois que todos os conjuntos de relatórios desejados forem inseridos, clique em **[!UICONTROL Salvar]**.
+1. Clique em **[!UICONTROL Adicionar Serviço]** e selecione **[!UICONTROL Adobe Analytics]**.
+1. Insira a ID do conjunto de relatórios desejada. Se desejar enviar os mesmos dados para vários conjuntos de relatórios, clique em **[!UICONTROL Adicionar Conjunto de Relatórios]**.
+1. Após inserir todos os conjuntos de relatórios desejados, clique em **[!UICONTROL Salvar]**.
 
 ## Defina a sequência de dados desejada usando a extensão SDK da Web
 
@@ -32,13 +32,13 @@ A extensão SDK da Web fornece uma lista suspensa de Sequência de dados para ca
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
-1. Vá para a [!UICONTROL Extensões] e clique na guia **[!UICONTROL Configurar]** botão em [!UICONTROL Adobe Experience Platform Web SDK].
-1. Em [!UICONTROL Datastreams], escolha a sequência de dados desejada na lista suspensa para cada ambiente.
+1. Vá para a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** em [!UICONTROL Adobe Experience Platform Web SDK].
+1. Em [!UICONTROL Datastreams], escolha a Datastream desejada na lista suspensa para cada ambiente.
 1. Clique em **[!UICONTROL Salvar]**.
 
 ## Defina o fluxo de dados desejado implementando manualmente o SDK da Web
 
-Defina o `edgeConfigId` variável de configuração para a ID do fluxo de dados. A ID da sequência de dados é encontrada à direita ao visualizar uma sequência de dados em Coleção de dados da Adobe Experience Platform.
+Defina a variável de configuração `edgeConfigId` para a ID de fluxo de dados. A ID da sequência de dados é encontrada à direita ao visualizar uma sequência de dados em Coleção de dados da Adobe Experience Platform.
 
 ```js
 alloy("configure", {

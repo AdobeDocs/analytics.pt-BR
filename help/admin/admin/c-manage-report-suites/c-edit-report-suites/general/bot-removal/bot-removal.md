@@ -74,7 +74,7 @@ Quando o relatório do Data Warehouse chegar, você terá uma lista de ECIDs que
 * **ECID**: verifique se este cabeçalho de coluna corresponde ao nome que você deu à nova ID declarada acima.
 * **Sinalizador de bot**: adicione &quot;Sinalizador de bot&quot; como uma dimensão de esquema de atributo do cliente.
 
-Use esse arquivo .CSV como seu arquivo de importação do atributo do cliente e assine os conjuntos de relatórios no atributo do cliente, conforme descrito neste [publicação do blog](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+Use esse arquivo .CSV como seu arquivo de importação do atributo do Cliente e assine os conjuntos de relatórios no atributo do Cliente, conforme descrito nesta [publicação do blog](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -86,7 +86,7 @@ Assim que o conjunto de dados for processado e integrado ao Analysis Workspace, 
 
 ### Etapa 6: usar esse segmento como filtro do conjunto de relatórios virtual
 
-Por fim, crie uma [Conjunto de relatórios virtual](/help/components/vrs/vrs-about.md) que usa esse segmento para filtrar os bots identificados:
+Finalmente, crie um [Conjunto de relatórios virtuais](/help/components/vrs/vrs-about.md) que usa esse segmento para filtrar os bots identificados:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

@@ -14,11 +14,11 @@ ht-degree: 1%
 
 A funcionalidade do segmento difere principalmente entre usuários de nível administrativo e não administradores.
 
-|  | Usuários administradores | Não administradores |
+| | Usuários administradores | Não administradores |
 | --- | --- | --- |
-| Aplicar segmentos | Segmentos próprios ou segmentos compartilhados. No entanto, o pode compartilhar qualquer segmento de qualquer usuário para usar | Somente segmentos próprios ou compartilhados |
-| Visualização de segmentos no Gerenciador de segmentos | Todos os segmentos na organização | Somente segmentos próprios ou compartilhados |
-| Gerenciamento de segmentos | Pode exibir, editar, excluir ou aprovar qualquer segmento de qualquer usuário | Só podem editar ou excluir seus próprios segmentos. Não é possível aprovar segmentos. |
+| Aplicar segmentos | Segmentos ou segmentos compartilhados próprios. No entanto, o pode compartilhar qualquer segmento de qualquer usuário com eles mesmos para usar | Somente segmentos próprios ou compartilhados |
+| Exibição de segmentos no Gerenciador de segmentos | Todos os segmentos na organização | Somente segmentos próprios ou compartilhados |
+| Gerenciamento de segmentos | Pode exibir, editar, excluir ou aprovar qualquer segmento de qualquer usuário | Só é possível editar ou excluir seus próprios segmentos. Não é possível aprovar segmentos. |
 | Compartilhamento de segmentos | Pode compartilhar com toda a empresa, grupos de usuários ou indivíduos | Só é possível compartilhar com indivíduos |
 
 {style="table-layout:auto"}

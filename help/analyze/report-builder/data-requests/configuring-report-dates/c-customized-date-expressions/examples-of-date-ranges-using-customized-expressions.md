@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ A tabela parte do princípio de que a data de hoje é segunda-feira, 10 de novem
 
 | Exemplo | Intervalo de datas | Expressão personalizada | Intervalo de datas do relatório |
 |---|---|---|---|
-|  |  | **De** | **Para** |  |
+|  | | **De** | **Para** | |
 | 1 | Duas semanas atrás | cw-2w | cw-1w-1d | 26 de out. a 1º de nov. |
 | 2 | Primeiros três dias do quinto mês do ano passado | cy-1y+4m | cy-1y+4m+2d | 1º de maio 3 de maio de 2010 |
 | 3 | Uma semana inteira, começando quatro semanas atrás | cw-4w | cw-3w-1d | 12 de out. a 18 de out. |
@@ -28,7 +28,7 @@ A tabela parte do princípio de que a data de hoje é segunda-feira, 10 de novem
 | 5 | Um mês, começando dois meses atrás | cm-2m | cm-1m-1d | 1º de set. a 30 de set. |
 | 6 | 12 meses atrás no ano passado | cm-12m | cm-11m-1d | 1º de nov. a 30 de nov. 2010 |
 
-## Observações sobre os exemplos {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
+## Observações sobre exemplos {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
 **Exemplo 1**
 

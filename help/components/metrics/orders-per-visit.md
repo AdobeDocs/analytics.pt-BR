@@ -12,7 +12,7 @@ ht-degree: 62%
 
 # Pedidos por visita
 
-O &quot;Pedido por visita&quot; [métrica](overview.md) mostra a proporção de pedidos que os visitantes fizeram em relação ao número total de visitas ao site. Essa métrica pode ser utilizada para entender a taxa de conversão do seu site.
+A [métrica](overview.md) de &quot;Pedidos por visita&quot; mostra a proporção de pedidos que os visitantes fizeram em relação ao número total de visitas ao site. Essa métrica pode ser utilizada para entender a taxa de conversão do seu site.
 
 ## Como essa métrica é calculada
 

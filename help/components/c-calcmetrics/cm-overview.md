@@ -24,7 +24,7 @@ Nossas ferramentas para métricas calculadas oferecem uma maneira muito mais fle
 
 Esta é uma comparação entre as métricas calculadas e os recursos de métricas calculadas avançadas:
 
-| Opções do criador | Métricas calculadas  | Métricas calculadas avançadas (derivadas) |
+| Opções do criador | Métricas calculadas | Métricas calculadas avançadas (derivadas) |
 |---|---|---|
 | [Tipos de formatos (decimal, hora, percentual, moeda)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Sim | Sim |
 | [Alterações de atribuição (padrão, linear, participação etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sim | Sim |
@@ -38,7 +38,7 @@ Esta é uma comparação entre as métricas calculadas e os recursos de métrica
 
 É possível
 
-* Criar métricas entre [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Detecção de anomalias], e [!UICONTROL Análise de contribuição].
+* Crie métricas em [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Detecção de anomalias] e [!UICONTROL Análise de contribuição].
 * Criar métricas segmentadas derivadas do tempo de execução do relatório, sem precisar alterar a implementação. Essas métricas podem ser exibidas historicamente, pois se baseiam em segmentos.
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
@@ -62,11 +62,11 @@ Alguns recursos do [!DNL Analytics] permitem usar eventos, mas não permitem usa
 
 ## Ferramentas {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Esta é uma breve visão geral do [!UICONTROL Métricas calculadas] ferramentas:
+Esta é uma breve visão geral das [!UICONTROL Métricas calculadas] ferramentas:
 
 | Ferramenta | Capacidades |
 |--- |--- |
 | Criador de métricas calculada | <ul><li>Crie métricas calculadas e calculadas avançadas usando modelos de alocação avançados.</li><li>Adicionar segmentos em linha às fórmulas de métricas</li><li>Comparar segmentos em um mesmo relatório. É possível, por exemplo, comparar visitantes locais com visitantes internacionais.</li><li>Usar funções estatísticas</li><li>Fornecer descrições detalhadas de métricas (mostrar o que faz, onde usá-lo, onde NÃO usá-lo)</li><li>Copiar definições em novas métricas</li><li>Fornecer uma visualização de métrica em linha</li><li>Definir a polaridade da métrica, que indica se ela é boa ou ruim se um determinado evento personalizado (métrica) aumentar</li><li>Métricas de tag</li></ul> |
-| Gerenciador de métricas calculadas | <ul><li>Compartilhar métricas com outras pessoas&lt;/li><li>Aprovar e preparar métricas</li><li>Organizar (marcar) suas métricas para que as pessoas possam encontrá-las</li><li>Excluir métricas</li><li>Renomear métricas</li></ul> |
+| Gerenciador de métricas calculadas | <ul><li>Compartilhar métricas com outras pessoas&lt;/li<li>Aprovar e preparar métricas</li><li>Organizar (marcar) suas métricas para que as pessoas possam encontrá-las</li><li>Excluir métricas</li><li>Renomear métricas</li></ul> |
 | Painel Seletor de métricas | Permite pesquisar e adicionar/aplicar métricas ao relatório. Também é possível alterar a ordem de classificação (as opções incluem: alfabética, recomendado, usados com frequência, usados recentemente.) Além disso, você pode filtrar por Conjuntos de relatórios para mostrar apenas as métricas criadas em um conjunto de relatórios específico.  Para acessar esse Seletor de métricas, clique no ícone Métricas à esquerda de um relatório. |
 | API para métricas calculadas | Parte do conjunto de APIs do Adobe Analytics 2.0. |

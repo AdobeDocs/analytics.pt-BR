@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '182'
+ht-degree: 85%
 
 ---
 
 # Tempo gasto por visitante (segundos)
 
-A métrica [!UICONTROL Tempo gasto por visitante (segundos)] mostra o tempo médio pelo qual os visitantes interagem com determinado item de dimensão durante todo o tempo de vida da visita.[](overview.md)
+A [!UICONTROL métrica Tempo gasto por visitante (segundos)] [mostra o tempo médio pelo qual os visitantes interagem com determinado item de dimensão durante todo o período de visita.](overview.md)
 
 Essa métrica não está disponível no Data Warehouse devido à sua arquitetura de processamento diferente.
 

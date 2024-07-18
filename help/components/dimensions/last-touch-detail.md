@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 81%
+source-wordcount: '325'
+ht-degree: 80%
 
 ---
 
 # Detalhes do canal de último contato
 
-O &quot;Detalhe do canal de último contato&quot; [dimension](overview.md) relata detalhes sobre o canal de marketing mais recente com o qual um visitante corresponde durante o período de engajamento do visitante (30 dias por padrão). Essa dimensão é importante para entender o que contribuiu para a correspondência em um canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga&quot;, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.
+O &quot;Detalhe do canal de último contato&quot; [dimensão](overview.md) relata detalhes sobre o canal de marketing mais recente com o qual um visitante corresponde durante o período de engajamento (30 dias por padrão). Essa dimensão é importante para entender o que contribuiu para a correspondência em um canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga&quot;, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.
 
 ## Preencher esta dimensão com dados
 
@@ -22,7 +22,7 @@ Se você quiser definir essa dimensão com um valor específico, siga os seguint
 
 * Verifique se o item de dimensão desejado está em um atributo de ocorrência ou em uma variável personalizada.
 * Defina uma regra de processamento de canal de marketing que contenha os critérios desejados para a ocorrência.
-* Selecione o valor suspenso desejado em [!UICONTROL Definir o valor do canal] na regra de processamento Canal de marketing.
+* Selecione o valor desejado na lista suspensa em [!UICONTROL Definir o valor do canal] dentro da regra de processamento Canal de marketing.
 * A ocorrência do visitante em seu site deve corresponder aos critérios descritos na regra de processamento do canal de marketing.
 
 ## Itens de dimensão

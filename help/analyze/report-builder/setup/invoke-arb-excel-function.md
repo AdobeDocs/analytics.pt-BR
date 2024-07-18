@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 43%
+source-wordcount: '501'
+ht-degree: 41%
 
 ---
 
@@ -34,9 +34,9 @@ A tabela a seguir lista as funções expostas.
 | AsyncRefreshWorksheetAltTextParam(); | string | Atualiza todas as solicitações do Report Builder presentes no nome da planilha específica que foi passada para Texto alternativo do Controle de formulários da Ms |
 | string GetLastRunStatus() | string | Retorna uma sequência de caracteres que descreve o status da última execução. |
 
-Para acessar as funções Report Builder, acesse **[!UICONTROL Fórmulas]** > **[!UICONTROL Inserir função]**. Use o campo de pesquisa para procurar uma função ou selecione uma categoria para listar as funções nessa categoria.
+Para acessar as funções Report Builder, vá para **[!UICONTROL Fórmulas]** > **[!UICONTROL Inserir função]**. Use o campo de pesquisa para procurar uma função ou selecione uma categoria para listar as funções nessa categoria.
 
-![Captura de tela mostrando a janela Inserir função com a lista de categorias expandida.](assets/arb_functions.png)
+![Captura de tela mostrando a janela Inserir Função com a lista de categorias expandida.](assets/arb_functions.png)
 
 ## Exemplo {#section_034311081C8D4D7AA9275C1435A087CD}
 
@@ -46,7 +46,7 @@ O exemplo a seguir mostra *Se o valor na célula P5 for texto ou estiver em bran
 =IF(OR(ISTEXT(P5),ISBLANK(P5)),AsyncRefreshRange("P9"),"")
 ```
 
-## Usar as funções do Report Builder com controle de formato {#section_26123090B5BD49748C8D8ED7A1C5ED84}
+## Usar funções Report Builder com controle de formato {#section_26123090B5BD49748C8D8ED7A1C5ED84}
 
 Você pode atribuir uma macro a um controle criado e esse controle pode ser uma função que atualiza uma solicitação da pasta de trabalho. Por exemplo, a função AsyncRefreshActiveWorksheet atualizará todas as solicitações em uma pasta de trabalho. No entanto, às vezes, convém atualizar apenas determinadas solicitações.
 
@@ -54,11 +54,11 @@ Você pode atribuir uma macro a um controle criado e esse controle pode ser uma 
 1. Clique com o botão direito no controle e selecione **[!UICONTROL Atribuir macro]**.
 1. Insira o nome da função Report Builder (sem parâmetros ou parênteses).
 
-![Captura de tela mostrando a janela Atribuir macro.](assets/assign_macro.png)
+![Captura de tela mostrando a janela Atribuir Macro.](assets/assign_macro.png)
 
 ## Passar parâmetros para funções Report Builder usando controle de formato {#section_ECCA1F4990D244619DFD79138064CEF0}
 
-Duas funções que usam um parâmetro podem ser usadas com o Controle de formato. Você deve usar o **Texto alternativo:** campo:
+Duas funções que usam um parâmetro podem ser usadas com o Controle de formato. Você deve usar o campo **Texto alternativo:**:
 
 * AsyncRefreshRange(string rangeAddressInA1Format)
 * AsyncRefreshWorksheet(string worksheetName)
@@ -67,13 +67,13 @@ Para passar parâmetros para funções Report Builder usando controle de formato
 
 1. Clique com o botão direito no controle e selecione **[!UICONTROL Controle de formato]**.
 
-   ![Captura de tela mostrando o Controle de formato selecionado.](assets/format_control.png)
+   ![Captura de tela mostrando o Controle de Formato selecionado.](assets/format_control.png)
 
 1. Clique na guia **[!UICONTROL Texto alternativo]**.
 
-   ![Captura de tela mostrando a guia Texto alternativo e o campo Texto alternativo:.](assets/alt_text.png)
+   ![Captura de tela mostrando a guia Texto Alternativo e o campo Texto Alternativo:.](assets/alt_text.png)
 
 1. Em **[!UICONTROL Texto alternativo]**, insira o intervalo de células que você deseja atualizar.
-1. Abra a lista de parâmetros de Report Builder em **[!UICONTROL Fórmulas]** > **[!UICONTROL Inserir função]**> **[!UICONTROL Adobe.ReportBuilder.Bridge]**.
+1. Abra a lista de parâmetros Report Builder em **[!UICONTROL Fórmulas]** > **[!UICONTROL Inserir Função]**> **[!UICONTROL Adobe.ReportBuilder.Bridge]**.
 
 1. Selecione uma das duas funções que terminam com AltTextParam e clique em **[!UICONTROL OK]**.

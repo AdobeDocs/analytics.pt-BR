@@ -29,4 +29,4 @@ As regras de processamento são definidas nos conjuntos de relatórios.
 
    Se você tiver várias regras, arraste-as e solte-as na página para alterar a ordem de processamento.
 
-   Consulte [Exemplos de regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) para obter informações sobre os tipos de regras que você pode criar.
+   Consulte [Exemplos de Regras de Processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) para obter informações sobre os tipos de regras que você pode criar.

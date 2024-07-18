@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Aceitação no gerenciamento de Consentimento
 
-A opção &quot;Aceitação no gerenciamento de consentimento&quot; [dimension](overview.md) exibe quais configurações de privacidade um visitante aderiu. Você pode usar essa dimensão para filtrar dados com base nas configurações de privacidade ou ver os motivos mais comuns de aceitação de privacidade.
+A [dimensão](overview.md) da &#39;Aceitação no Gerenciamento de consentimento&#39; exibe as configurações de privacidade para as quais um visitante optou. Você pode usar essa dimensão para filtrar dados com base nas configurações de privacidade ou ver os motivos mais comuns de aceitação de privacidade.
 
 ## Preencher esta dimensão com dados
 

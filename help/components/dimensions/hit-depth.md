@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Profundidade da ocorrência
 
-A &quot;Profundidade da ocorrência&quot; [dimension](overview.md) relata a distância que uma determinada ocorrência está de uma visita. Essa dimensão é importante para entender até que ponto os visitantes fazem ações em seu site. A profundidade da ocorrência conta todos os tipos de ocorrências, incluindo visualizações de página ([`t()`](/help/implement/vars/functions/t-method.md)) e ocorrências de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+A [dimensão](overview.md) de &quot;Profundidade da ocorrência&quot; relata a distância que uma determinada ocorrência está de uma visita. Essa dimensão é importante para entender até que ponto os visitantes fazem ações em seu site. A profundidade da ocorrência conta todos os tipos de ocorrências, incluindo visualizações de página ([`t()`](/help/implement/vars/functions/t-method.md)) e ocorrências de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Preencher esta dimensão com dados
 

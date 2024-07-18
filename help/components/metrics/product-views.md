@@ -12,11 +12,11 @@ ht-degree: 72%
 
 # Visualizações de produto
 
-As &quot;Visualizações de produto&quot; [métrica](overview.md) mostra o número de vezes que qualquer produto foi visualizado. Essa métrica é útil quando você deseja ver seus produtos mais vistos, ou ver a tendência total das visualizações de produtos ao longo do tempo.
+A [métrica](overview.md) de &#39;Exibições de produto&#39; mostra o número de vezes que qualquer produto foi exibido. Essa métrica é útil quando você deseja ver seus produtos mais vistos, ou ver a tendência total das visualizações de produtos ao longo do tempo.
 
 ## Como essa métrica é calculada
 
 Essa métrica conta o número de ocorrências que correspondem a **qualquer** uma das seguintes opções:
 
 * O valor `prodView` existe na variável [`events`](/help/implement/vars/page-vars/events/events-overview.md); ou
-* A variável [`products`](/help/implement/vars/page-vars/products.md) for definida e a variável `events` está vazia.
+* A variável [`products`](/help/implement/vars/page-vars/products.md) está definida e a variável `events` está vazia.

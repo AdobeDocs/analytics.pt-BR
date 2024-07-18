@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 96%
+source-wordcount: '492'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ Vídeo sobre tabelas de coorte no Analysis Workspace:
 
 >[!IMPORTANT]
 >
->[!UICONTROL Análise de coorte] não suporta métricas não segmentáveis (incluindo métricas calculadas), métricas não inteiras (como Receita) ou Ocorrências.
+>A [!UICONTROL Análise de coorte] não oferece suporte a métricas não segmentáveis (incluindo métricas calculadas), métricas não inteiras (como Receita) ou Ocorrências.
 >
 >Somente as métricas que podem ser usadas em segmentos podem ser usadas em [!UICONTROL Análises de coorte], e só podem ser aumentadas >1 por vez.
 

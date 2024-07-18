@@ -7,11 +7,11 @@ exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 source-git-commit: 62132284ca70f3bdb1a8896e4548b8b63a5c03c8
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 64%
+ht-degree: 58%
 
 ---
 
-# Conexão com uma conta FTP da com SFTP
+# Conexão com uma conta FTP com SFTP
 
 Para configurar a transferência segura com FTP:
 
@@ -19,7 +19,7 @@ Para configurar a transferência segura com FTP:
 
    1. Solicite uma conta FTP hospedada pela Adobe (cota de 50 MB).
 
-   1. Crie chaves RSA públicas/privadas.
+   1. Criar chaves RSA públicas/privadas.
 
       * No ambiente Linux, execute:
 

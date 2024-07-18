@@ -12,7 +12,7 @@ ht-degree: 54%
 
 # Relatórios de privacidade
 
-Os relatórios de privacidade permitem ativar o [Aceitação no gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md), [Recusa no gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md) e [Consentimento da plataforma de publicidade](/help/components//dimensions/ad-consent.md) dimensões para usar em relatórios.
+Os relatórios de privacidade permitem habilitar as dimensões [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md), [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md) e [Consentimento da plataforma de anúncios](/help/components//dimensions/ad-consent.md) para uso nos relatórios.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Para acessar esta página:
 
    ![Editar configurações](assets/rsm-privacy-select.png)
 
-1. Clique em **[!UICONTROL Ativar relatórios de privacidade de dados]**.
+1. Clique em **[!UICONTROL Habilitar Relatórios de Privacidade de Dados]**.
 
    >[!NOTE]
    >

@@ -5,8 +5,8 @@ feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 source-git-commit: dc84909f9c19681adfd28696495b667837056146
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 96%
+source-wordcount: '163'
+ht-degree: 74%
 
 ---
 
@@ -24,7 +24,7 @@ A filtragem facilita a pesquisa por segmentos no trilho de segmentos.
 
    | Nome do filtro | Descrição |
    |---|---|
-   | Tags | Permite que você filtre por segmentos com tags [específicos](/help/components/segmentation/segmentation-workflow/seg-tag.md). A coluna Tags é mostrada por padrão. |
+   | Tags | Permite filtrar por segmentos com [tags](/help/components/segmentation/segmentation-workflow/seg-tag.md) específicas. A coluna Tags é mostrada por padrão. |
    | Proprietários | Permite que você filtre segmentos por proprietário. |
    | Conjunto de relatórios | Permite filtrar por conjunto de relatórios. |
    | Outros filtros > Exibir todos | **(Somente administrador)** Mostra todos os segmentos, seu proprietário e a última data de modificação. |

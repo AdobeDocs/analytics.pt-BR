@@ -2,16 +2,17 @@
 title: Dimensões de análise de voz
 description: Dimensões de análise de voz
 feature: Dimensions
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 18%
+ht-degree: 32%
 
 ---
 
 # Dimensões de análise de voz
 
-| nome do Dimension | Descrição | Variável de dados de contexto |
+| Nome da dimensão | Descrição | Variável de dados de contexto |
 | --- | --- | --- |
 | Tipo de Erro de Voz | | A ser definido |
 | Idioma de voz | | A ser definido |

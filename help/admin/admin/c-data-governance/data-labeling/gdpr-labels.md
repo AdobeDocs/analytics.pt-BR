@@ -137,7 +137,7 @@ A rotulagem da privacidade de dados afeta quatro grandes classes de variáveis d
 | <ul><li>Eventos bem-sucedidos personalizados</li><li>eVars de merchandising</li><li>Variáveis com valores múltiplos (mvVars)</li><li>Variáveis de hierarquia</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Classificações | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Variáveis de tráfego (props)</li><li>Variáveis de comércio (eVars que não são de merchandising)</li></ul> | Todos os rótulos | - |
-| Maioria das outras variáveis (*Consulte as exceções na tabela abaixo*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| A maioria das outras variáveis (*Consulte as exceções na tabela abaixo*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -262,4 +262,4 @@ Há cinco variáveis padrão que contêm carimbos de data e hora:
 
 O código para geração de arquivos retornados por solicitações de Privacidade de dados de acesso exige que pelo menos uma das primeiras três variáveis de carimbo de data e hora sejam incluídas na solicitação de acesso (tenham um rótulo ACC aplicável ao tipo de solicitação). Se não forem incluídas, o Horário personalizado da ocorrência em UTC será tratado como se tivesse um rótulo ACC-ALL.
 
-O arquivo CSV em nível de ocorrência retornado para solicitações de Privacidade de dados de acesso converterá os valores desses campos de carimbos de data e hora unix em campos de data e hora do formato `YYYY-MM-DD HH:MM:SS` (por exemplo, `2018-05-01 13:49:22`). No arquivo de HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir apenas a data, `YYYY-MM-DD`, para reduzir o número de valores únicos que ocorrem para esses campos.
+O arquivo CSV em nível de ocorrência retornado para solicitações de Privacidade de dados de acesso converterá os valores desses campos de carimbos de data e hora unix em campos de data e hora no formato `YYYY-MM-DD HH:MM:SS` (por exemplo, `2018-05-01 13:49:22`). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, `YYYY-MM-DD`, para reduzir o número de valores únicos que ocorrem para tais campos.

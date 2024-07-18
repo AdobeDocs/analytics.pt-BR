@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '167'
 ht-degree: 89%
 
 ---
 
 # Profundidade da visita
 
-A &quot;Profundidade da visita&quot; [dimension](overview.md) relata o número de exibições de página que o visitante viu na visita inteira. A profundidade da visita aumenta somente se a ocorrência for uma visualização de página e a dimensão [Página](page.md) não for a mesma que o item da última dimensão de visualização de página. É uma dimensão com base na visita, o que significa que contém o mesmo valor para toda a visita. Essa variável é definida para todas as ocorrências em uma visita após a conclusão dessa visita.
+A [dimensão](overview.md) de &quot;Profundidade da visita&quot; informa o número de exibições de página que o visitante viu na visita inteira. A profundidade da visita aumenta somente se a ocorrência for uma visualização de página e a dimensão [Página](page.md) não for a mesma que o item da última dimensão de visualização de página. É uma dimensão com base na visita, o que significa que contém o mesmo valor para toda a visita. Essa variável é definida para todas as ocorrências em uma visita após a conclusão dessa visita.
 
 ## Preencher esta dimensão com dados
 

@@ -33,7 +33,7 @@ Use o mapeamento da sequência de dados para enviar dados para várias variávei
 1. Clique em **[!UICONTROL Datastreams]** no painel esquerdo.
 1. Clique no fluxo de dados desejado.
 1. Clique em **[!UICONTROL Editar mapeamento]** à direita.
-1. Mapear o desejado [!UICONTROL Campo de origem] ao desejado [!UICONTROL Campo de destino]. Um único campo de origem pode mapear para qualquer número de campos de destino.
+1. Mapeie o [!UICONTROL Campo Source] desejado para o [!UICONTROL Campo Target] desejado. Um único campo de origem pode mapear para qualquer número de campos de destino.
 
 ## Variáveis dinâmicas usando a extensão Adobe Analytics
 
@@ -43,7 +43,7 @@ Use o mapeamento da sequência de dados para enviar dados para várias variávei
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina o [!UICONTROL Extensão] para o Adobe Analytics e a caixa de diálogo [!UICONTROL Tipo de ação] para [!UICONTROL Definir variáveis].
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Definir Variáveis].
 6. Localize o item de dimensão desejado.
 
 Coloque o prefixo da variável dinâmica no campo de texto, seguido pelo parâmetro da string de consulta ou pelo cabeçalho HTTP que você deseja referenciar. Por padrão, o prefixo da variável dinâmica é `D=`.

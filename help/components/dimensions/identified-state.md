@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # Estado identificado
 
-O &#39;Estado identificado&#39; [dimension](overview.md) é específico do [Análise entre dispositivos](../cda/overview.md) conjuntos de relatórios virtuais. Ele relata se as ocorrências são identificadas (compiladas) ou não pelo sistema no momento em que o relatório é executado. Essa dimensão é útil para entender o quão bem o CDA costuma compilar ou &quot;compactar&quot; dados.
+A [dimensão](overview.md) de &#39;Estado identificado&#39; é específica para os conjuntos de relatórios virtuais do [Cross-Device Analytics](../cda/overview.md). Ele relata se as ocorrências são identificadas (compiladas) ou não pelo sistema no momento em que o relatório é executado. Essa dimensão é útil para entender o quão bem o CDA costuma compilar ou &quot;compactar&quot; dados.
 
 ## Preencher esta dimensão com dados
 

@@ -94,7 +94,7 @@ Copie e cole o seguinte código em qualquer lugar no arquivo AppMeasurement depo
 
 ## Usar o plug-in
 
-A variável `websiteBot` dispara um `s.tl` chame se for detectado tráfego que não seja de bot.
+O plug-in `websiteBot` dispara uma chamada `s.tl` se não for detectado tráfego de bot.
 
 ## Exemplos
 

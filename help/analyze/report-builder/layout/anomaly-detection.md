@@ -7,14 +7,14 @@ role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 95%
+source-wordcount: '509'
+ht-degree: 91%
 
 ---
 
 # Detecção de anomalias{#anomaly-detection}
 
-A Detecção de anomalias utiliza um modelo estatístico para encontrar automaticamente tendências inesperadas em seus dados. O modelo analisa métricas e determina o intervalo de valores de limite inferior, limite superior e intervalo de valores. Quando ocorrer um pico ou uma queda inesperada, o sistema irá alertá-lo no relatório.
+A Detecção de anomalias utiliza um modelo estatístico para encontrar automaticamente tendências inesperadas em seus dados. O modelo analisa métricas e determina um limite inferior, um limite superior e o intervalo esperado de valores. Quando ocorrer um pico ou uma queda inesperada, o sistema irá alertá-lo no relatório.
 
 Exemplos de anomalias que você pode investigar incluem:
 
@@ -56,7 +56,7 @@ A detecção de anomalias adiciona novos valores de métrica a cada métrica sel
  </tbody> 
 </table>
 
-O Report Builder aplica esses valores às métricas selecionadas. Por exemplo, se você selecionar uma métrica de Exibições de página e aplicar a detecção de anomalias, uma métrica de *`Page Views Lower Bound`* será utilizada.
+O Report Builder aplica esses valores às métricas selecionadas. Por exemplo, se você selecionar uma métrica de Exibições de página e aplicar a detecção de anomalias, será usada uma métrica *`Page Views Lower Bound`*.
 
 **Como a detecção de anomalias é calculada**
 

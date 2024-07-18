@@ -12,7 +12,7 @@ ht-degree: 78%
 
 # Remoções do carrinho
 
-As &quot;Remoções do carrinho&quot; [métrica](overview.md) mostra o número de vezes que um visitante removeu algo do carrinho. Essa métrica ajuda a entender a parte do funil de conversão em que os clientes não estão mais interessados em um produto.
+A [métrica](overview.md) de &quot;Remoções do carrinho&quot; mostra o número de vezes que um visitante removeu algo do carrinho. Essa métrica ajuda a entender a parte do funil de conversão em que os clientes não estão mais interessados em um produto.
 
 ## Como essa métrica é calculada
 

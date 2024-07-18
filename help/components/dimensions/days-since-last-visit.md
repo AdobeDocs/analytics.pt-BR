@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Dias desde a última visita
 
-Os &quot;Dias desde a última visita&quot; [dimension](overview.md) mede a quantidade de tempo decorrido entre a ocorrência atual do visitante e sua visita anterior (se houver). Essa dimensão ajuda você a entender o comportamento que os visitantes têm após visitar seu site. Alguns exemplos:
+A [dimensão](overview.md) de &quot;Dias desde a última visita&quot; mede o tempo decorrido entre a ocorrência atual do visitante e sua visita anterior (se houver). Essa dimensão ajuda você a entender o comportamento que os visitantes têm após visitar seu site. Alguns exemplos:
 
 * Com que frequência os usuários visitam novamente o site?
 * Como a frequência de retorno se relaciona à conversão? Os compradores repetidos visitam frequentemente ou infrequentemente?

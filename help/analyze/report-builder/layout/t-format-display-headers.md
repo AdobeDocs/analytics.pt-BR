@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 77%
+source-wordcount: '409'
+ht-degree: 71%
 
 ---
 
@@ -41,8 +41,8 @@ Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos
    >
    >O Excel oferece suporte somente a um filtro automático por planilha. Se você criar um novo filtro automático em uma planilha que já tiver um filtro automático, o Excel não apresentará nenhum aviso de que o filtro automático existente será substituído.
 
-   **Executar contorno automático:** Transforma a data retornada pelo Report Builder de uma exibição em lista para uma exibição em árvore.
+   **Executar contorno automático:** Transforma a data retornada pelo Report Builder de um modo de exibição de lista em um modo de exibição de árvore.
 
-   **Nomear esta solicitação:** Permite digitar um nome definido pelo usuário para a solicitação ou usar o nome padrão selecionado na etapa 1. Este nome aparece como o nome do [!UICONTROL Relatório] no [!UICONTROL Gerenciador de solicitações]. Consulte [Nomear uma solicitação](/help/analyze/report-builder/layout/name-a-request.md).
+   **Nomear esta solicitação:** Permite digitar um nome definido pelo usuário para a solicitação ou usar o nome padrão selecionado na etapa 1. Este nome aparece como o nome do [!UICONTROL Relatório] no [!UICONTROL Gerenciador de solicitações]. Consulte [Nomear uma Solicitação](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. Clique em **[!UICONTROL OK]**.

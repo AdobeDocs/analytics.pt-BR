@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 69%
 
 ---
@@ -34,21 +34,21 @@ Crie e salve uma métrica chamada &quot;Visitantes alemães&quot; e uma métrica
 
    >[!NOTE]
    >
-   >Também é possível fazer isso no [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), mas simplificamos o fluxo de trabalho disponibilizando dimensões no Criador de métricas calculadas. &quot;Adhoc&quot; significa que o segmento não está visível na lista **[!UICONTROL Segmentos]** no painel à esquerda. Entretanto, é possível torná-lo público ao passar o mouse sobre o ícone &quot;i&quot; e clicar em **[!UICONTROL Tornar público]**.
+   >Também é possível fazer isso no [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), mas simplificamos o fluxo de trabalho, disponibilizando dimensões no Criador de métricas calculadas. &quot;Adhoc&quot; significa que o segmento não está visível na lista **[!UICONTROL Segmentos]** no painel à esquerda. Entretanto, é possível torná-lo público ao passar o mouse sobre o ícone &quot;i&quot; e clicar em **[!UICONTROL Tornar público]**.
 
 1. Arraste o segmento Alemanha para a tela Definição e arraste a métrica Visitantes únicos dentro dele:
 
    ![](assets/german-visitors.png)
 
-1. Selecionar [!UICONTROL **Salvar**] para salvar a métrica calculada.
+1. Selecione [!UICONTROL **Salvar**] para salvar a métrica calculada.
 
 1. Crie um segmento adhoc no Criador de métrica calculada chamado &quot;Visitantes internacionais&quot;, em que &quot;Países&quot; não corresponda a &quot;Alemanha&quot;.
 
-   Arraste a dimensão Países para a tela Definição e selecione [!UICONTROL **Alemanha**] como o valor e selecione [!UICONTROL **não é igual a**] como operador.
+   Arraste a dimensão Países para a tela Definição, selecione [!UICONTROL **Alemanha**] como o valor e [!UICONTROL **não é igual**] como operador.
 
 1. Arraste a métrica Visitantes únicos para dentro dela.
 
-1. Selecionar [!UICONTROL **Salvar**] para salvar a métrica calculada.
+1. Selecione [!UICONTROL **Salvar**] para salvar a métrica calculada.
 
 1. Na Analysis Workspace, arraste a dimensão **[!UICONTROL Página]** para uma Tabela de forma livre e arraste as 2 novas métricas calculadas para ficarem próximas na parte superior:
 

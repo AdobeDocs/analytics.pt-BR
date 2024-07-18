@@ -17,7 +17,7 @@ ht-degree: 50%
 
 ## Não vejo meu conjunto de relatórios na seção de Mapeamento {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Você está tentando [configurar uma nova conta publicitária](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e você não vir seu conjunto de relatórios listado no **[!UICONTROL Conjuntos de relatórios mapeado]** lista suspensa. Há dois motivos possíveis:
+Você está tentando [configurar uma nova Conta da Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) e não vê seu conjunto de relatórios listado na lista suspensa **[!UICONTROL Conjuntos de relatórios mapeados]**. Há dois motivos possíveis:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 

@@ -34,7 +34,7 @@ Descreve como calcular métricas comuns usando feeds de dados.
 
 >[!TIP]
 >
->Irregularidades na Internet, irregularidades no sistema ou o uso de IDs de visitante personalizados raramente podem usar os mesmos valores `visit_num` para diferentes visitas. Embora opcional, use `visit_start_time_gmt` ao contar visitas para garantir que essas visitas sejam contadas.
+>Irregularidades na Internet, irregularidades no sistema ou o uso de IDs de visitante personalizados raramente podem usar os mesmos valores `visit_num` para diferentes visitas. Embora seja opcional, use `visit_start_time_gmt` ao contar visitas para garantir que essas visitas sejam contadas.
 
 ## Visitantes
 

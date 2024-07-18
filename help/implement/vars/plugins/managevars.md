@@ -139,7 +139,7 @@ manageVars("cleanStr");
 
 * Remove a codificação HTML
 * Remove espaços em branco encontrados no início e no fim do valor
-* Substitui aspas simples esquerda/direita por aspas simples retas (`'`)
+* Substitui aspas simples esquerda/direita por uma aspa simples reta (`'`)
 * Substitui caracteres de tabulação e caracteres de nova linha por espaços
 * Substitui todos os espaços duplos (ou triplos etc.) por espaços únicos
 

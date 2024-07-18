@@ -8,7 +8,7 @@ exl-id: 99476ec5-f1f0-49f5-a2d8-354cec63c6b1
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 64%
+ht-degree: 59%
 
 ---
 
@@ -24,4 +24,4 @@ Recortar uma solicitação a remove de seu local original e a coloca no novo loc
 
 Você não está limitado a copiar e colar na mesma planilha da pasta de trabalho. Você pode copiar uma solicitação em uma planilha e colar em um local em outra planilha na mesma pasta de trabalho.
 
-Você não está limitado a copiar e colar uma solicitação de cada vez. É possível selecionar mais de uma solicitação na planilha e colá-las em uma área vazia da planilha. Como acontece com copiar e colar uma solicitação, certifique-se de que a área de colagem não tenha células com solicitações que possam ser substituídas pela operação de colagem. Se o sistema detectar que a área de destino da colagem já contém uma ou mais solicitações, o Report Builder não exibirá a variável [!UICONTROL Colar solicitações] para qualquer solicitação copiada ou recortada. Você precisa selecionar uma célula diferente como destino da operação de colagem, de modo que as solicitações não se sobreponham.
+Você não está limitado a copiar e colar uma solicitação de cada vez. É possível selecionar mais de uma solicitação na planilha e colá-las em uma área vazia da planilha. Como acontece com copiar e colar uma solicitação, certifique-se de que a área de colagem não tenha células com solicitações que possam ser substituídas pela operação de colagem. Se o sistema detectar que a área de destino da colagem já contém uma ou mais solicitações, o Report Builder não exibirá o menu [!UICONTROL Colar solicitações] para nenhuma solicitação copiada ou recortada. Você precisa selecionar uma célula diferente como destino da operação de colagem, de modo que as solicitações não se sobreponham.

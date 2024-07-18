@@ -49,7 +49,7 @@ Certifique-se de que o número de dimensões e métricas exclusivas possa se aju
 
 >[!TIP]
 >
->Com a introdução do [curadoria](/help/analyze/analysis-workspace/curate-share/curate.md), você pode alterar o nome de uma determinada dimensão ou métrica com base no Conjunto de relatórios virtuais.
+>Com a introdução da [curadoria](/help/analyze/analysis-workspace/curate-share/curate.md), você pode alterar o nome de uma determinada dimensão ou métrica com base no conjunto de relatórios virtual.
 
 ### Nuances de segmentação
 

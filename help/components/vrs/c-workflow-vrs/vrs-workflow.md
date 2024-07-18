@@ -7,7 +7,7 @@ exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 82%
+ht-degree: 74%
 
 ---
 
@@ -21,7 +21,7 @@ Familiarize-se com as [considerações de Marcação global/multiconjunto](/help
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [Crie um conjunto de relatórios virtuais](/help/components/vrs/c-workflow-vrs/vrs-create.md) ao aplicar um ou mais segmentos a um conjunto de relatórios pai.
 
-Os conjuntos de relatórios virtuais são criados no Gerenciador de conjuntos de relatórios virtuais, disponível por meio de **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**.
+Os conjuntos de relatórios virtuais são criados no gerenciador de conjuntos de relatórios virtuais, disponível por meio de **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**.
 
 Depois de criado, um conjunto de relatórios virtuais é tratado como um conjunto de relatórios base na interface do usuário, geralmente compatível com a maioria dos recursos estendidos. Por exemplo, os Conjuntos de relatórios virtuais aparecem no seletor de Conjunto de relatórios e podem ser selecionados individualmente como qualquer outro conjunto de relatórios.
 

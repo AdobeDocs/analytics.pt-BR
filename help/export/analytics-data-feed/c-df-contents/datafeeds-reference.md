@@ -36,45 +36,45 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`aemassetsource`** | Identifica a origem do evento do ativo. Usado no Adobe Experience Manager. | varchar(255) |
 | **`aemclickedassetid`** | ID de ativo referente a um ativo do Adobe Experience Manager. Incrementa eventos de clique. | varchar(255) |
 | **`browser`** | Uma ID numérica que representa o navegador. Faz referência à tabela de pesquisa `browser.tsv`. | int unsigned |
-| **`browser_height`** | A variável [Altura do navegador](/help/components/dimensions/browser-height.md) dimensão. | smallint unsigned |
-| **`browser_width`** | A variável [Largura do navegador](/help/components/dimensions/browser-width.md) | smallint unsigned |
+| **`browser_height`** | A dimensão [Altura do Navegador](/help/components/dimensions/browser-height.md). | smallint unsigned |
+| **`browser_width`** | A [Largura do Navegador](/help/components/dimensions/browser-width.md) | smallint unsigned |
 | **`c_color`** | Profundidade de bits da paleta de cores. Usado como parte do cálculo da dimensão [Intensidade de cor](/help/components/dimensions/color-depth.md). O AppMeasurement usa a função JavaScript `screen.colorDepth()`. | char(20) |
-| **`campaign`** | O [dimensão do Code](/help/components/dimensions/tracking-code.md) de rastreamento. | varchar(255) |
+| **`campaign`** | A [dimensão tracking de código](/help/components/dimensions/tracking-code.md) . | varchar(255) |
 | **`carrier`** | Variável de integração da Adobe Advertising Especifica a operadora de celular. O valor-chave da [pesquisa dinâmica](dynamic-lookups.md) `carrier.tsv`. | varchar(100) |
 | **`ch_hdr`** | Dicas do cliente coletadas por meio do cabeçalho de solicitação HTTP. | texto |
 | **`ch_js`** | Dicas do cliente coletadas por meio da API JavaScript de dicas do cliente de usuário-agente. | texto |
-| **`channel`** | A variável [Seções do site](/help/components/dimensions/site-section.md) dimensão. | varchar(100) |
+| **`channel`** | A dimensão [Seções do site](/help/components/dimensions/site-section.md). | varchar(100) |
 | **`clickmaplink`** | Link para o Activity Map | varchar(255) |
 | **`clickmaplinkbyregion`** | Link por região do Activity Map | varchar(255) |
 | **`clickmappage`** | Página do Activity Map | varchar(255) |
 | **`clickmapregion`** | Região do Activity Map | varchar(255) |
 | **`code_ver`** | Versão da API ou SDK cliente usada para compilar e enviar a solicitação de imagem. | char(16) |
 | **`color`** | ID de Intensidade de cor com base no valor da coluna `c_color`. Faz referência à tabela de pesquisa `color_depth.tsv`. | smallint unsigned |
-| **`connection_type`** | Uma ID numérica que representa o tipo de conexão. A variável [Tipo de conexão](/help/components/dimensions/connection-type.md) dimensão. Faz referência à tabela de pesquisa `connection_type.tsv`. | tinyint unsigned |
-| **`cookies`** | A variável [Suporte a cookies](/help/components/dimensions/cookie-support.md) dimensão.<br>Y: Ativado<br>N: Desativado<br>U: Desconhecido | char(1) |
+| **`connection_type`** | Uma ID numérica que representa o tipo de conexão. A dimensão [Tipo de conexão](/help/components/dimensions/connection-type.md). Faz referência à tabela de pesquisa `connection_type.tsv`. | tinyint unsigned |
+| **`cookies`** | A dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md).<br>Y: Ativado<br>N: Desativado<br>U: Desconhecido | char(1) |
 | **`country`** | Uma ID numérica que representa o país do visitante. Faz referência à tabela de pesquisa `country.tsv`. | smallint unsigned |
 | **`ct_connect_type`** | Relacionado à coluna `connection_type`. Os valores mais comuns são LAN/Wifi, Operadora de celular e Modem. | char(20) |
-| **`curr_factor`** | Determina a posição decimal da moeda e é usado para conversão de moedas. Por exemplo, USD usa duas casas decimais, portanto, esse valor de coluna seria `2`. | tinyint |
+| **`curr_factor`** | Determina a posição decimal da moeda e é usado para conversão de moedas. Por exemplo, USD usa duas casas decimais, então esse valor de coluna seria `2`. | tinyint |
 | **`curr_rate`** | A taxa de câmbio de quando a transação ocorreu. A Adobe formou uma parceria com a XE para determinar a taxa de câmbio atual. | decimal(24,12) |
-| **`currency`** | O código monetário que foi usado durante a transação. Definir usando [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
+| **`currency`** | O código de moeda usado durante a transação. Defina usando [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
 | **`cust_hit_time_gmt`** | Somente conjuntos de relatório com carimbos de data e hora habilitados. O carimbo de data e hora enviado com a ocorrência, com base no horário UNIX®. | int |
-| **`cust_visid`** | A ID de visitante personalizada, se configurada usando [`visitorID`](/help/implement/vars/config-vars/visitorid.md). | varchar(255) |
+| **`cust_visid`** | A ID de visitante personalizada, se definida usando [`visitorID`](/help/implement/vars/config-vars/visitorid.md). | varchar(255) |
 | **`daily_visitor`** | Um sinalizador que determina se a ocorrência é um novo visitante diário. | tinyint unsigned |
-| **`dataprivacyconsentoptin`** | A variável [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) dimensão. Vários valores podem estar presentes por ocorrência, separados por uma barra vertical (`\|`). Os valores válidos incluem `DMP` e `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | A variável [Recusa no gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md) dimensão. Vários valores podem estar presentes por ocorrência, separados por uma barra vertical (`\|`). Os valores válidos incluem `SSF`, `DMP` e `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | A dimensão [Consentimento de aceitação](/help/components/dimensions/cm-opt-in.md). Vários valores podem estar presentes por ocorrência, separados por uma barra vertical (`\|`). Os valores válidos incluem `DMP` e `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | A dimensão [Recusa de gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). Vários valores podem estar presentes por ocorrência, separados por uma barra vertical (`\|`). Os valores válidos incluem `SSF`, `DMP` e `SELL`. | varchar(100) |
 | **`dataprivacydmaconsent`** | Um valor que identifica se o consentimento é adquirido para enviar dados do Adobe Analytics por meio do Adobe Advertising para provedores de publicidade de terceiros (como o Google). Consulte [Consentimento de publicidade](/help/components/dimensions/ad-consent.md) para mais informações. | varchar(100) |
 | **`date_time`** | O horário da ocorrência em formato legível, com base no fuso horário do conjunto de relatórios. | datetime |
-| **`domain`** | O [dimensão de Domínio](/help/components/dimensions/domain.md) . Baseado no ponto de acesso à Internet do visitante. | varchar(100) |
+| **`domain`** | A [dimensão do domínio](/help/components/dimensions/domain.md) . Com base no ponto de acesso à Internet do visitante. | varchar(100) |
 | **`duplicate_events`** | Lista todos os eventos que são contados como duplicados. | varchar(255) |
 | **`duplicate_purchase`** | Um sinalizador que determina se o evento de compra para esta ocorrência é ignorado porque está duplicado. | tinyint unsigned |
 | **`duplicated_from`** | Somente usado em conjuntos de relatórios contendo uma cópia da ocorrência com regras VISTA. Indica de qual conjunto de relatórios a ocorrência foi copiada. | varchar(40) |
 | **`ef_id`** | A `ef_id` usada em integrações da Adobe Advertising  | varchar(255) |
-| **`evar1 - evar250`** | Variáveis personalizadas 1-250. Usado nas dimensões [eVar](/help/components/dimensions/evar.md). Cada organização usa eVars de maneiras diferentes. O melhor lugar para obter mais informações sobre como sua organização preenche as respectivas eVars seria uma [documento de design da solução](/help/implement/prepare/solution-design.md) específico para a sua organização. | varchar(255) |
-| **`event_list`** | Lista separada por vírgulas de IDs numéricas que representam eventos acionados na ocorrência. Inclui eventos padrão e [eventos personalizados 1-1000](/help/components/metrics/custom-events.md). Usa a pesquisa `event.tsv`. | texto |
+| **`evar1 - evar250`** | Variáveis personalizadas 1-250. Usado nas dimensões [eVar](/help/components/dimensions/evar.md). Cada organização usa eVars de maneiras diferentes. O melhor lugar para obter mais informações sobre como sua organização preenche as respectivas eVars seria em um [documento de design de solução](/help/implement/prepare/solution-design.md) específico para sua organização. | varchar(255) |
+| **`event_list`** | Lista separada por vírgulas de IDs numéricas que representam eventos acionados na ocorrência. Inclui tanto eventos padrão quanto [eventos personalizados 1-1000](/help/components/metrics/custom-events.md). Usa a pesquisa `event.tsv`. | texto |
 | **`exclude_hit`** | Um sinalizador que determina se a ocorrência é excluída dos relatórios. A coluna `visit_num` não é incrementada para hits excluídos.<br>1: Não usado. Parte de um recurso raspado.<br>2: Não usado. Parte de um recurso raspado.<br>3: Não está mais em uso. Exclusão de agente usuário<br>4: exclusão com base no endereço IP<br>5: faltam informações essenciais do hit, como `page_url`, `pagename`, `page_event` ou `event_list`<br>6: o JavaScript não processou corretamente o hit<br>7: exclusão específica da conta, como em regras VISTA<br>8: não usada. Exclusão específica da conta alternativa.<br>9: Não usado. Parte de um recurso raspado.<br>10: Código monetário inválido<br>11: Falta um carimbo na ocorrência ou um conjunto de relatórios no carimbo, ou uma ocorrência continha um carimbo em um conjunto de relatórios sem carimbo<br>12: Não usado. Parte de um recurso raspado.<br>13: Não usado. Parte de um recurso raspado.<br>14: Ocorrência do Target que não corresponde a uma ocorrência do Analytics<br>15: Não usado no momento.<br>16: Ocorrência da Advertising Cloud que não correspondeu a uma ocorrência do Analytics | tinyint unsigned |
 | **`first_hit_page_url`** | O primeiro URL do visitante. | varchar(255) |
-| **`first_hit_pagename`** | A variável [Página de entrada original](/help/components/dimensions/entry-dimensions.md) dimensão. O nome original da página de entrada do visitante. | varchar(100) |
-| **`first_hit_ref_domain`** | A variável [Domínio referenciador original](/help/components/dimensions/original-referring-domain.md) dimensão. Baseado em `first_hit_referrer`. O primeiro domínio de referência do visitante. | varchar(100) |
+| **`first_hit_pagename`** | A dimensão [Página de entrada original](/help/components/dimensions/entry-dimensions.md). O nome original da página de entrada do visitante. | varchar(100) |
+| **`first_hit_ref_domain`** | A dimensão [Domínio referenciador original](/help/components/dimensions/original-referring-domain.md). Baseado em `first_hit_referrer`. O primeiro domínio de referência do visitante. | varchar(100) |
 | **`first_hit_ref_type`** | Uma ID numérica que representa o tipo do primeiro referenciador do visitante. Faz referência à tabela de pesquisa `referrer_type.tsv`. | tinyint unsigned |
 | **`first_hit_referrer`** | O primeiro URL de referência do visitante. | varchar(255) |
 | **`first_hit_time_gmt`** | Carimbo de data e hora da primeira ocorrência de um(a) visitante, com base no horário UNIX®. | int |
@@ -91,11 +91,11 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`ip`** | O endereço IPv4, com base no cabeçalho HTTP da solicitação de imagem. Mutualmente exclusivo de `ipv6`; se essa coluna contiver um endereço IP não ofuscado, `ipv6` está em branco. | char(20) |
 | **`ipv6`** | O endereço IPv6 compactado, se disponível. Mutualmente exclusivo de `ip`; se essa coluna contiver um endereço IP não ofuscado, `ip` está em branco. | varchar(40) |
 | **`j_jscript`** | A versão do JavaScript suportada pelo navegador. | char(5) |
-| **`java_enabled`** | A variável [[!UICONTROL Java ativado]](/help/components/dimensions/java-enabled.md). <br>Y: Ativado <br>N: Desativado <br>U: Desconhecido | char(1) |
+| **`java_enabled`** | O [[!UICONTROL Java habilitado]](/help/components/dimensions/java-enabled.md). <br>Y: Ativado <br>N: Desativado <br>U: Desconhecido | char(1) |
 | **`javascript`** | Uma ID de pesquisa da versão do JavaScript, com base em `j_jscript`. Faz referência à tabela de pesquisa `javascript_version`. | tinyint unsigned |
-| **`language`** | Uma ID de numérico que representa o idioma do visitante. Faz referência à tabela de pesquisa `languages.tsv`. | smallint unsigned |
+| **`language`** | Uma ID numérica que representa o idioma do visitante. Faz referência à tabela de pesquisa `languages.tsv`. | smallint unsigned |
 | **`last_hit_time_gmt`** | Carimbo de data e hora (em horário UNIX®) da ocorrência anterior. Usado para calcular a dimensão [[!UICONTROL Dias desde a última visita]](/help/components/dimensions/days-since-last-visit.md). | int |
-| **`last_purchase_num`** | A variável [Fidelização do cliente](/help/components/dimensions/customer-loyalty.md) dimensão. O número de compras que o visitante fez anteriormente. <br>0: Nenhuma compra anterior (não é um cliente) <br>1: 1 compra prévia (novo cliente) <br>2: 2 compras anteriores (cliente recorrente) <br>3: 3 ou mais compras anteriores (cliente fidelizado) | int unsigned |
+| **`last_purchase_num`** | A dimensão [Fidelização do cliente](/help/components/dimensions/customer-loyalty.md). O número de compras que o visitante fez anteriormente. <br>0: Nenhuma compra anterior (não é um cliente) <br>1: 1 compra prévia (novo cliente) <br>2: 2 compras anteriores (cliente recorrente) <br>3: 3 ou mais compras anteriores (cliente fidelizado) | int unsigned |
 | **`last_purchase_time_gmt`** | Usado na dimensão [[!UICONTROL Dias desde a última compra]](/help/components/dimensions/days-since-last-purchase.md). Carimbo de data e hora (em horário UNIX®) da última compra feita. Para compras feitas pela primeira vez e visitantes que ainda não fizeram uma compra, esse valor é `0`. | int |
 | **`latlon1`** | Localização (abaixo de 10 km) | varchar(255) |
 | **`latlon23`** | Localização (abaixo de 100 m) | varchar(255) |
@@ -103,11 +103,11 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`mc_audiences`** | Lista de IDs de segmento do Audience Manager à qual o visitante pertence. A coluna `post_mc_audiences` altera o delimitador para `--**--`. | texto |
 | **`mcvisid`** | ID de visitante da Experience Cloud. Número de 128 bits que consiste em dois números concatenados de 64 bits arredondados para 19 dígitos. | varchar(255) |
 | **`mobile_id`** | Se o(a) visitante estiver usando um dispositivo móvel, o ID numérico do dispositivo. O valor-chave da [pesquisa dinâmica](dynamic-lookups.md) `mobile_attributes.tsv`. | int |
-| **`mobileaction`** | Ação em dispositivo móvel. Coletado automaticamente quando `trackAction` O é chamado em implementações móveis. Permite a criação de caminhos de ação automática no aplicativo. | varchar(100) |
+| **`mobileaction`** | Ação em dispositivo móvel. Coletado automaticamente quando `trackAction` é chamado em implementações móveis. Permite a criação de caminhos de ação automática no aplicativo. | varchar(100) |
 | **`mobileappid`** | ID do aplicativo móvel. Armazena o nome e a versão do aplicativo no seguinte formato: `[AppName] [BundleVersion]`.  | varchar(255) |
 | **`mobileappperformanceappid`** | Usado no conector de dados Apteligent. O ID do aplicativo usado no Apteligent. | varchar(255) |
 | **`mobileappperformancecrashid`** | Usado no conector de dados Apteligent. O ID de falha usado no Apteligent. | varchar(255) |
-| **`mobileappstoreobjectid`** | Usado no [!DNL Appfigures] conector de dados. ID do objeto na loja de aplicativos. | varchar(255) |
+| **`mobileappstoreobjectid`** | Usado no conector de dados [!DNL Appfigures]. ID do objeto na loja de aplicativos. | varchar(255) |
 | **`mobilebeaconmajor`** | Beacon do Mobile Services maior | varchar(100) |
 | **`mobilebeaconminor`** | Beacon do Mobile Services menor | varchar(100) |
 | **`mobilebeaconproximity`** | Proximidade de beacon do Mobile Services | varchar(255) |
@@ -143,33 +143,33 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`mobilerelaunchcampaigntrackingcode`** | Coletada da variável de dados de contexto `a.launch.campaign.trackingcode`. Usado na aquisição como o código de rastreamento para a campanha de lançamento. | varchar(255) |
 | **`mobileresolution`** | Resolução do dispositivo móvel. `[Width] x [Height]` em pixels. | varchar(255) |
 | **`monthly_visitor`** | Um sinalizador que determina se o visitante é único no mês atual. | tinyint unsigned |
-| **`mvvar1`** - `mvvar3` | [Variável de lista](/help/implement/vars/page-vars/list.md) valores. Contém uma lista delimitada de valores personalizados dependendo da implementação. As colunas `post_mvvar1` - `post_mvvar3` substituem o delimitador original por `--**--`. | texto |
+| **`mvvar1`** - `mvvar3` | [Listar valores de variáveis](/help/implement/vars/page-vars/list.md). Contém uma lista delimitada de valores personalizados dependendo da implementação. As colunas `post_mvvar1` - `post_mvvar3` substituem o delimitador original por `--**--`. | texto |
 | **`mvvar1_instances`** - `mvvar3_instances` | Os valores da variável de lista que foram definidos na ocorrência atual. Substitui o delimitador original por `--**--`. Não tem uma coluna `post`. | texto |
 | **`new_visit`** | Um sinalizador que determina se a ocorrência atual é uma nova visita. Definido por Adobe após 30 minutos de inatividade de visita. | tinyint unsigned |
 | **`os`** | Uma ID numérica que representa o sistema operacional do visitante. Com base na coluna `user_agent`. O valor-chave da pesquisa padrão `operating_system.tsv` e da [pesquisa dinâmica](dynamic-lookups.md) `operating_system_type.tsv`. | int unsigned |
 | **`page_event`** | O tipo de ocorrência que é enviado na solicitação da imagem (ocorrência padrão, link de download, link personalizado, link de saída). [Pesquisa de evento da página](datafeeds-page-event.md). | tinyint unsigned |
 | **`page_event_var1`** | Somente usado em solicitações de imagem de rastreamento de link. O URL dos links clicados, seja de download, de saída ou personalizados. | texto |
-| **`page_event_var2`** | Somente usado em solicitações de imagem de rastreamento de link. O nome personalizado (se especificado) do link. Define o [Link personalizado](/help/components/dimensions/custom-link.md), [Link de download](/help/components/dimensions/download-link.md)ou [Link de saída](/help/components/dimensions/exit-link.md) dependendo do valor em `page_event`. | varchar(100) |
-| **`page_type`** | As [Páginas não encontradas](/help/components/dimensions/pages-not-found.md) dimensão, que normalmente é usada para páginas 404. | char(20) |
-| **`page_url`** | O URL da ocorrência. Observe que `post_page_url` é despojado para rastreamento de link solicitações de imagem ([`tl()`](/help/implement/vars/functions/tl-method.md)) e usa um tipo de dados de varchar(255). | texto |
-| **`pagename`** | A variável [Página](/help/components/dimensions/page.md) dimensão. Se a variável [`pagename`](/help/implement/vars/page-vars/pagename.md) estiver vazia, o Analytics usa `page_url`. | varchar(100) |
+| **`page_event_var2`** | Somente usado em solicitações de imagem de rastreamento de link. O nome personalizado (se especificado) do link. Define o [Link personalizado](/help/components/dimensions/custom-link.md), o [Link de download](/help/components/dimensions/download-link.md) ou o [Link de saída](/help/components/dimensions/exit-link.md), dependendo do valor em `page_event`. | varchar(100) |
+| **`page_type`** | As [páginas não encontradas](/help/components/dimensions/pages-not-found.md) , que normalmente é usadas em 404 páginas. | char(20) |
+| **`page_url`** | O URL da ocorrência. Observe que `post_page_url` é despido para solicitações de imagens de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)) e usa um tipo de dados de varchar (255). | texto |
+| **`pagename`** | A dimensão [Página](/help/components/dimensions/page.md). Se a variável [`pagename`](/help/implement/vars/page-vars/pagename.md) estiver vazia, o Analytics usa `page_url`. | varchar(100) |
 | **`pagename_no_url`** | Semelhante a `pagename`, exceto que não retorna a `page_url`. Somente a coluna `post` está disponível. | varchar(100) |
 | **`paid_search`** | Um sinalizador que determina se a ocorrência corresponde à detecção de pesquisa paga. | tinyint unsigned |
 | **`persistent_cookie`** | Usado na dimensão [Suporte à cookie persistente](/help/components/dimensions/persistent-cookie-support.md). Indica se o visitante suporta cookies que não são descartados depois de cada ocorrência. | char(1) |
 | **`pointofinterest`** | Nome do ponto de interesse do Mobile Services | varchar(255) |
 | **`pointofinterestdistance`** | Centro de distância do Mobile Services ao ponto de interesse | varchar(255) |
 | Colunas **`post_`** | Contém o valor usado por último em relatórios. Cada coluna de publicação contém valores após a lógica do lado do servidor, regras de processamento e regras VISTA. A Adobe recomenda usar tais colunas na maioria dos casos. | Consulte a respectiva coluna de não-publicação |
-| **`product_list`** | O [`products`](/help/implement/vars/page-vars/products.md) página variável. Ajuda a preencher várias dimensões e métricas, incluindo [Categoria](/help/components/dimensions/category.md), [Produto](/help/components/dimensions/product.md), [Unidades](/help/components/metrics/units.md) e [Receita](/help/components/metrics/revenue.md). | texto |
+| **`product_list`** | A [`products`](/help/implement/vars/page-vars/products.md) variável de página. Ajuda a preencher várias dimensões e métricas, incluindo [Categoria](/help/components/dimensions/category.md), [Produto](/help/components/dimensions/product.md), [Unidades](/help/components/metrics/units.md) e [Receita](/help/components/metrics/revenue.md). | texto |
 | **`prop1`** - `prop75` | Variáveis de tráfego personalizadas 1 - 75. Usado nas dimensões [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | **`purchaseid`** | Identificador exclusivo de uma compra, definido usando a variável [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Usado pela coluna `duplicate_purchase`. | char(20) |
 | **`quarterly_visitor`** | Um sinalizador que determina se a ocorrência é um novo visitante trimestral. | tinyint unsigned |
-| **`ref_domain`** | A variável [Domínio referenciador](/help/components/dimensions/referring-domain.md) dimensão. Com base no `referrer` coluna. | varchar(100) |
+| **`ref_domain`** | A dimensão [Domínio referenciador](/help/components/dimensions/referring-domain.md). Com base na coluna `referrer`. | varchar(100) |
 | **`ref_type`** | Uma ID numérica que representa o tipo de referência para a ocorrência. Usado na dimensão [Tipo de referenciador](/help/components/dimensions/referrer-type.md). <br>1: Dentro do site<br>2: Outros sites da web <br>3: Mecanismos de pesquisa <br>4: Disco rígido <br>5: USENET <br>6: Digitado/Marcado (sem referenciador) <br>7: E-mail <br>8: Sem JavaScript <br>9: Redes sociais | tinyint unsigned |
-| **`referrer`** | A variável [Referenciador](/help/components/dimensions/referrer.md) dimensão. Observe que, embora o `referrer` use um tipo de dados de varchar(255), o `post_referrer` usa um tipo de dados de varchar(244). | varchar(255) |
-| **`resolution`** | Uma ID numérico que representa a resolução do monitor. Usado na dimensão [Resolução do monitor](/help/components/dimensions/monitor-resolution.md). Usa uma tabela de pesquisa `resolution.tsv`. | smallint unsigned |
+| **`referrer`** | A dimensão [Referenciador](/help/components/dimensions/referrer.md). Observe que, embora o `referrer` use um tipo de dados de varchar(255), o `post_referrer` usa um tipo de dados de varchar(244). | varchar(255) |
+| **`resolution`** | Uma ID numérica que representa a resolução do monitor. Usado na dimensão [Resolução do monitor](/help/components/dimensions/monitor-resolution.md). Usa uma tabela de pesquisa `resolution.tsv`. | smallint unsigned |
 | **`s_kwcid`** | A ID de palavra-chave usada em integrações da Adobe Advertising  | varchar(255) |
 | **`s_resolution`** | Valor bruto da resolução da tela. Coletado usando a função do JavaScript `screen.width x screen.height`. | char(20) |
-| **`search_engine`** | Uma ID numérica que representa o mecanismo de pesquisa que direcionou o visitante ao seu site. Usado em [Mecanismo de pesquisa](/help/components/dimensions/search-engine.md) dimensões. Faz referência à tabela de pesquisa `search_engines.tsv`. | smallint unsigned |
+| **`search_engine`** | Uma ID numérica que representa o mecanismo de pesquisa que direcionou o visitante ao seu site. Usado nas dimensões [Mecanismo de Pesquisa](/help/components/dimensions/search-engine.md). Faz referência à tabela de pesquisa `search_engines.tsv`. | smallint unsigned |
 | **`search_page_num`** | Usado pela dimensão [Todas as classificações da página de pesquisa](/help/components/dimensions/all-search-page-rank.md). Indica em qual página dos resultados de pesquisa seu site foi exibido antes de o usuário clicar no seu site. | smallint unsigned |
 | **`secondary_hit`** | Um sinalizador que determina se a ocorrência é secundária. Normalmente, esse sinalizador se origina da marcação de vários conjuntos e das regras VISTA que copiam ocorrências. | tinyint unsigned |
 | **`sourceid`** | ID da origem | int unsigned |
@@ -186,12 +186,12 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`user_server`** | Usado na dimensão [Servidor](/help/components/dimensions/server.md). | varchar(100) |
 | **`userid`** | Não está em uso. A ID numérica da ID do conjunto de relatórios. Use `username` no lugar dela. | int unsigned |
 | **`username`** | A ID de conjunto de relatórios da ocorrência. | char(40) |
-| **`va_closer_detail`** | A variável [Detalhes do último contato](/help/components/dimensions/last-touch-detail.md) dimensão. | varchar(255) |
-| **`va_closer_id`** | Uma ID numérica que identifica a [Canal de último contato](/help/components/dimensions/last-touch-channel.md) dimensão. A pesquisa dessa ID pode ser encontrada no Gerenciador de canal de marketing. | tinyint unsigned |
-| **`va_finder_detail`** | A variável [Detalhe de primeiro contato](/help/components/dimensions/first-touch-detail.md) dimensão. | varchar(255) |
-| **`va_finder_id`** | Uma ID numérica que identifica a [Canal de primeiro contato](/help/components/dimensions/first-touch-channel.md) dimensão. A pesquisa dessa ID pode ser encontrada no Gerenciador de canal de marketing. | tinyint unsigned |
-| **`va_instance_event`** | Um sinalizador que identifica instâncias](/help/components/metrics/instances.md) do canal [de marketing. | tinyint unsigned |
-| **`va_new_engagement`** | Um sinalizador que identifica os envolvimentos](/help/components/metrics/new-engagements.md) de Novo do Canal [de marketing. | tinyint unsigned |
+| **`va_closer_detail`** | A dimensão [Detalhe do último contato](/help/components/dimensions/last-touch-detail.md). | varchar(255) |
+| **`va_closer_id`** | Uma ID numérica que identifica a dimensão [Canal de último contato](/help/components/dimensions/last-touch-channel.md). A pesquisa dessa ID pode ser encontrada no Gerenciador de canal de marketing. | tinyint unsigned |
+| **`va_finder_detail`** | A dimensão [Detalhe de primeiro contato](/help/components/dimensions/first-touch-detail.md). | varchar(255) |
+| **`va_finder_id`** | Uma ID numérica que identifica a dimensão [Canal de primeiro contato](/help/components/dimensions/first-touch-channel.md). A pesquisa dessa ID pode ser encontrada no Gerenciador de canal de marketing. | tinyint unsigned |
+| **`va_instance_event`** | Um sinalizador que identifica Instâncias](/help/components/metrics/instances.md) do Canal [de Marketing. | tinyint unsigned |
+| **`va_new_engagement`** | Um sinalizador que identifica os compromissos](/help/components/metrics/new-engagements.md) do Marketing Channel [New. | tinyint unsigned |
 | **`video`** | Conteúdo em vídeo | varchar(255) |
 | **`videoad`** | Nome do anúncio de vídeo | varchar(255) |
 | **`videoadinpod`** | Posição do anúncio do vídeo no pod | varchar(255) |
@@ -241,9 +241,9 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`visid_new`** | Um sinalizador que determina se a ocorrência contém uma ID de visitante recém-gerada. | char(1) |
 | **`visid_timestamp`** | Se uma ID de visitante for recém-gerada, fornece o carimbo de data e hora no UNIX® de quando ela foi gerada. | int |
 | **`visid_type`** | Não destinado a uso externo; usado internamente pela Adobe para otimizar o processamento. Uma ID numérica que representa o método usado para identificar o visitante.<br>`0`: ID de visitante personalizado ou desconhecido/não aplicável<br>`1`: fallback de IP e agente de usuário <br>`2`: cabeçalho de assinante móvel HTTP <br>`3`: valor de cookie herdado (`s_vi`) <br>`4`: valor de cookie de fallback (`s_fid`) <br>`5`: serviço de identidade | tinyint unsigned |
-| **`visit_keywords`** | A variável [Palavra-chave de pesquisa](/help/components/dimensions/search-keyword.md) dimensão. Essa coluna usa um limite de caracteres não padrão de varchar(244) para acomodar a lógica de back-end usada pela Adobe. | varchar(244) |
-| **`visit_num`** | A variável [Número da visita](/help/components/dimensions/visit-number.md) dimensão. Começa em 1, e incrementa a cada início de nova visita por visitante. | int unsigned |
-| **`visit_page_num`** | A variável [Profundidade da ocorrência](/help/components/dimensions/hit-depth.md) dimensão. Aumenta em 1 para cada hit gerado pelo visitante. Redefine cada visita. | int unsigned |
+| **`visit_keywords`** | A dimensão [Palavra-chave de pesquisa](/help/components/dimensions/search-keyword.md). Essa coluna usa um limite de caracteres não padrão de varchar(244) para acomodar a lógica de back-end usada pela Adobe. | varchar(244) |
+| **`visit_num`** | A dimensão [Número de visitas](/help/components/dimensions/visit-number.md). Começa em 1, e incrementa a cada início de nova visita por visitante. | int unsigned |
+| **`visit_page_num`** | A dimensão [profundidade da ocorrência](/help/components/dimensions/hit-depth.md). Aumenta em 1 para cada toque gerado pelo visitante. Redefine cada visita. | int unsigned |
 | **`visit_ref_domain`** | Com base na coluna `visit_referrer`. O primeiro domínio de referência da visita. | varchar(100) |
 | **`visit_ref_type`** | Uma ID numérica que representa o tipo do primeiro referenciador da visita. Faz referência à tabela de pesquisa `referrer_type.tsv`. | tinyint unsigned |
 | **`visit_referrer`** | O primeiro referenciador da visita. | varchar(255) |
@@ -252,7 +252,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`visit_start_pagename`** | O valor Nome da página na primeira ocorrência da visita. | varchar(100) |
 | **`visit_start_time_gmt`** | Carimbo de data e hora (em horário UNIX®) da primeira ocorrência da visita. | int |
 | **`weekly_visitor`** | Um sinalizador que determina se a ocorrência é um novo visitante semanal. | tinyint unsigned |
-| **`yearly_visitor`** | Um sinalizador que determina se o hit é um novo visitante anual. | tinyint unsigned |
+| **`yearly_visitor`** | Um sinalizador que determina se o hit é um visitante anual novo. | tinyint unsigned |
 | **`zip`** | Ajuda a preencher a dimensão [CEP](/help/components/dimensions/zip-code.md). Consulte também `geo_zip`. | varchar(50) |
 
 {style="table-layout:auto"}

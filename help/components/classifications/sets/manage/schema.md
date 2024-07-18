@@ -19,12 +19,12 @@ Exibir dimensões de classificação configuradas no momento para este conjunto 
 Os seguintes botões estão disponíveis:
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL Upload]**: fazer upload manual dos dados de classificação de uma ou mais dimensões de classificação. `JSON`, `CSV`, `TSV`, e `TAB` arquivos são suportados. O upload de um arquivo válido mostra uma visualização em tabela dos dados que serão classificados.
-   * **[!UICONTROL Codificação de arquivo]**: selecione a codificação de arquivo correta usando essa lista suspensa. As opções válidas incluem [!UICONTROL UTF-8] e [!UICONTROL Latin1].
+* **[!UICONTROL Upload]**: fazer upload manual dos dados de classificação de uma ou mais dimensões de classificação. Há suporte para arquivos `JSON`, `CSV`, `TSV` e `TAB`. O upload de um arquivo válido mostra uma visualização em tabela dos dados que serão classificados.
+   * **[!UICONTROL Codificação de arquivo]**: selecione a codificação de arquivo correta usando esta lista suspensa. As opções válidas incluem [!UICONTROL UTF-8] e [!UICONTROL Latin1].
    * **[!UICONTROL Delimitador de lista]**: selecione o delimitador de lista correto. Se estiver usando um arquivo baixado ou um arquivo de modelo, verifique se esse [!UICONTROL delimitador de lista] corresponde ao [!UICONTROL delimitador de lista] de quando o arquivo foi baixado.
    * **[!UICONTROL Aplicar]**: salvar os dados de classificação carregados no conjunto de classificações.
 
-  ![Upload do conjunto de classificações](../../assets/classification-set-upload.png)
+  ![Carregamento do conjunto de classificações](../../assets/classification-set-upload.png)
 
 * **[!UICONTROL Download]**: baixar os valores principais e suas colunas de classificação.
    * **[!UICONTROL Linhas]**: o número máximo de linhas a serem incluídas no arquivo de download.
@@ -44,16 +44,16 @@ Os seguintes botões estão disponíveis:
 
   ![Modelo do conjunto de classificações](../../assets/classification-set-template.png)
 
-* **[!UICONTROL Histórico de tarefas]**: um link de atalho que direciona você para o [Gerente de trabalho](../job-manager.md), mostrando tarefas somente para este conjunto de classificações.
-* **[!UICONTROL Automatizar]**: assimile dados automaticamente de locais de armazenamento externo.
-   * **[!UICONTROL Conta de localização]**: uma lista suspensa que mostra as contas de localização existentes que sua organização configurou. Se sua organização ainda não tiver configurado uma conta de localização, é possível configurar uma selecionando [!UICONTROL **Criar uma nova conta**].
+* **[!UICONTROL Histórico de trabalhos]**: um link de atalho que direciona você ao [Gerenciador de trabalhos](../job-manager.md), mostrando os trabalhos somente para este conjunto de classificações.
+* **[!UICONTROL Automatizar]**: assimilar dados automaticamente de locais de armazenamento externo.
+   * **[!UICONTROL Conta de localização]**: uma lista suspensa que mostra as contas de localização existentes que sua organização configurou. Se sua organização ainda não tiver configurado uma conta de localização, você poderá configurar uma selecionando [!UICONTROL **Criar uma nova conta**].
 
-     Para obter informações sobre como configurar a conta de localização, consulte [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md).
+     Para obter informações sobre como configurar a conta de localização, consulte [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md).
 
-   * **[!UICONTROL Localização]**: uma lista suspensa que mostra locais existentes que sua organização configurou. Se a organização ainda não tiver configurado um local, é possível configurá-lo selecionando [!UICONTROL **Criar um novo local**].
+   * **[!UICONTROL Local]**: uma lista suspensa que mostra locais existentes que sua organização configurou. Se sua organização ainda não tiver configurado um local, você poderá configurar um selecionando [!UICONTROL **Criar um novo local**].
 
-     Para obter informações sobre como configurar um local, consulte [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md).
+     Para obter informações sobre como configurar um local, consulte [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md).
 
-   * **[!UICONTROL Delimitador]**: o delimitador de coluna para arquivos carregados. As opções incluem [!UICONTROL Vírgula], [!UICONTROL Ponto e vírgula], [!UICONTROL Dois pontos], [!UICONTROL Barra vertical], [!UICONTROL Espaço], [!UICONTROL Barra inclinada], [!UICONTROL Barra invertida], [!UICONTROL Traço]ou [!UICONTROL Sublinhado].
+   * **[!UICONTROL Delimitador]**: o delimitador de coluna para arquivos carregados. As opções incluem [!UICONTROL Vírgula], [!UICONTROL Ponto e vírgula], [!UICONTROL Dois-pontos], [!UICONTROL Barra vertical], [!UICONTROL Espaço], [!UICONTROL Barra inclinada], [!UICONTROL Barra invertida], [!UICONTROL Traço] ou [!UICONTROL Sublinhado].
 
    * **[!UICONTROL Codificação]**: uma lista suspensa que determina a codificação do arquivo. As opções incluem [!UICONTROL UTF-8] e [!UICONTROL Latin1]. É recomendado usar UTF-8.

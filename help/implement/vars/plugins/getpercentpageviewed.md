@@ -80,8 +80,8 @@ Atribua uma ou mais dessas variáveis a eVars para ver dados de dimensão em rel
 
 Este plug-in cria três cookies primários que expiram no final de uma sessão do navegador:
 
-* `s_ppv`: armazena cada um dos valores expostos ao chamar a função
-* `s_tp`: armazena a altura total dos pixels da página anterior
+* `s_ppv`: armazena cada um dos valores expostos chamando a função
+* `s_tp`: armazena a altura total em pixels da página anterior
 * `s_ips`: armazena a porcentagem inicial rolada da página anterior
 
 ## Exemplos

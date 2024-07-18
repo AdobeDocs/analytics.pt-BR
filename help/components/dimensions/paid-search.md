@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Pesquisa paga
 
-A &#39;Pesquisa paga&#39; [dimension](overview.md) permite que você veja qualquer métrica e a compare entre a pesquisa paga e a pesquisa natural. Todas as outras ocorrências fora dos mecanismos de pesquisa são omitidas. Essa dimensão é útil para entender como seus esforços de pesquisa paga se comparam com a pesquisa orgânica.
+A [dimensão](overview.md) de &quot;Pesquisa paga&quot; permite que você veja qualquer métrica e a compare entre a pesquisa paga e a pesquisa natural. Todas as outras ocorrências fora dos mecanismos de pesquisa são omitidas. Essa dimensão é útil para entender como seus esforços de pesquisa paga se comparam com a pesquisa orgânica.
 
 ## Preencher esta dimensão com dados
 

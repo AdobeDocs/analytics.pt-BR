@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Suporte a cookies
 
-O &#39;Suporte a cookies&#39; [dimension](overview.md) relata se o navegador aceita cookies para uma determinada ocorrência. É útil determinar a proporção de visitantes que usam navegadores que aceitam cookies e aqueles que os desabilitam intencionalmente.
+A [dimensão](overview.md) de &#39;Suporte a cookies&#39; informa se o navegador aceita cookies para uma determinada ocorrência. É útil determinar a proporção de visitantes que usam navegadores que aceitam cookies e aqueles que os desabilitam intencionalmente.
 
 ## Preencher esta dimensão com dados
 

@@ -6,7 +6,7 @@ exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 97%
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 *Esta página de ajuda descreve como a dimensão “Visitas em única página” funciona como uma métrica. Consulte a dimensão [Visitas em única página](../dimensions/single-page-visits.md) para obter mais informações.*
 
-A métrica [!UICONTROL Visitas em página única][](overview.md) mostra o número de visitas em que o item de dimensão [Página](../dimensions/page.md) continha apenas um valor único exclusivo para toda a visita. Essa métrica é útil no contexto de dimensões em que você deseja ver as visitas curtas, mas não tem regras tão rigorosas quanto [[!UICONTROL Rejeições]](bounces.md).
+A [!UICONTROL Visitas em única página] [métrica](overview.md) mostra o número de visitas em que o item de dimensão [Página](../dimensions/page.md) continha apenas um único valor único para toda a visita. Essa métrica é útil no contexto de dimensões em que você deseja ver as visitas curtas, mas não tem regras tão rigorosas quanto [[!UICONTROL Rejeições]](bounces.md).
 
 ## Como essa métrica é calculada
 

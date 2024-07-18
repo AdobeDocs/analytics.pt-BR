@@ -28,7 +28,7 @@ Durante o processamento de dados do Analytics, os dados fluem do pipeline de col
 
 Esta arquitetura de processamento permite opções de relatórios muito mais flexíveis. Por exemplo, você pode alterar o período de tempo limite da visita para qualquer período desejado de forma não destrutiva e essas alterações são refletidas na persistência do eVar e nos contêineres do segmento para o período de geração de relatório completo. Além disso, você pode criar qualquer número de conjuntos de relatórios virtuais, cada um com diferentes opções de Processamento de tempo do relatório com base em um mesmo conjunto de relatórios base, sem alterar os dados no conjunto de relatórios base.
 
-[!UICONTROL Processamento de tempo do relatório] também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e permite [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR) para iniciar uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
+O [!UICONTROL Processamento de tempo do relatório] também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e que o [SDK do Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR) inicie uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
 
 ## Opções de configuração
 
@@ -53,19 +53,19 @@ Além disso, o Processamento de tempo do relatório somente processa os dados pr
 As seguintes dimensões e métricas não são compatíveis com o Processamento de tempo do relatório:
 
 * **Analytics for Target**
-* **Dimensões/métricas do Analytics for Advertising Cloud**
-* **eVars de contador**
+* **Analytics para dimensões/métricas do Advertising Cloud**
+* **eVars do contador**
 * [**Dias Antes da Primeira Compra**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Dias desde a última compra**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Dias desde a última visita**](/help/components/dimensions/days-since-last-visit.md)
 * **Página de entrada original**
 * **eVars de alocação linear**
-* **List Vars**
+* **Listar Vars**
 * [**Dimensões de Canais de marketing**](/help/components/dimensions/marketing-channel.md)
 * [**Domínio referenciador original**](/help/components/dimensions/original-referring-domain.md)
 * [**Frequência de retorno**](/help/components/dimensions/return-frequency.md)
 * [**Acesso único**](/help/components/metrics/single-access.md)
-* **Fontes de dados de ID de transação**
+* **Fontes de Dados de ID de Transação**
 * [**Número da visita**](/help/components/dimensions/visit-number.md)
 
 ## Dimensões e métricas afetadas
@@ -73,16 +73,16 @@ As seguintes dimensões e métricas não são compatíveis com o Processamento d
 Veja abaixo uma lista das dimensões e métricas afetadas, dependendo das configurações de Processamento de tempo do relatório selecionadas:
 
 * Se &quot;Impedir ocorrências em segundo plano de iniciar uma nova visita&quot; estiver ativado, as seguintes alterações ocorrerão. Consulte [Sessões sensíveis ao contexto](vrs-mobile-visit-processing.md) para obter mais informações.
-   * [**Rejeições**](/help/components/metrics/bounces.md) / [**Taxa de rejeição:**](/help/components/metrics/bounce-rate.md) As ocorrências em segundo plano que não são seguidas por uma ocorrência em primeiro plano não são consideradas uma rejeição e não contribuem para a taxa de rejeição.
+   * [**Rejeições**](/help/components/metrics/bounces.md) / [**Taxa de Rejeição:**](/help/components/metrics/bounce-rate.md) ocorrências em segundo plano que não são seguidas por uma ocorrência em primeiro plano não são consideradas uma rejeição e não contribuem para a taxa de rejeição.
    * [**Tempo gasto em segundos por visita:**](/help/components/metrics/time-spent-per-visit.md) somente visitas que incluem ocorrências em primeiro plano contribuem para essa métrica.
    * **Tempo gasto por visita:** somente visitas que incluem ocorrências em primeiro plano contribuem para essa métrica.
-   * [**Métrica de entrada**](/help/components/metrics/entries.md) / [**Métrica de saída:**](/help/components/metrics/exits.md) Somente entradas e saídas de visitas com ocorrências em primeiro plano aparecem nessa dimensão.
-   * [**Dimensão de entrada**](/help/components/dimensions/entry-dimensions.md) / [**Dimensões de saída:**](/help/components/dimensions/exit-dimensions.md) Somente entradas e saídas de visitas com ocorrências em primeiro plano aparecem nessa dimensão.
+   * [**Métrica de entrada**](/help/components/metrics/entries.md) / [**Métrica de saída:**](/help/components/metrics/exits.md) somente entradas e saídas de visitas com ocorrências em primeiro plano aparecem nesta dimensão.
+   * [**Dimensão de entrada**](/help/components/dimensions/entry-dimensions.md) / [**Dimensões de saída:**](/help/components/dimensions/exit-dimensions.md) somente entradas e saídas de visitas com ocorrências em primeiro plano aparecem nesta dimensão.
    * [**Métrica de visitantes únicos:**](/help/components/metrics/unique-visitors.md) visitantes únicos não incluem visitantes que tiveram somente ocorrências em segundo plano no intervalo de datas do relatório.
 * [**Visitas:**](/help/components/metrics/visits.md) as visitas refletem as configurações do conjunto de relatórios virtual, que podem ser diferentes do conjunto de relatório base.
 * **Eventos serializados com IDs de evento:** os eventos que usam Serialização de eventos com uma ID de evento só são desduplicados para eventos que ocorrem dentro do intervalo de datas do relatório para um visitante. Esses eventos não são desduplicados em todas as datas ou visitantes globalmente, devido à janela de datas Processamento de tempo do relatório.
-* **Compras** / [**Receita**](/help/components/metrics/revenue.md) / [**Pedidos**](/help/components/metrics/orders.md) / [**Unidades:**](/help/components/metrics/units.md) Quando a ID de compra é usada, essas métricas são apenas desduplicadas para IDs de compra duplicadas que ocorrem dentro do intervalo de datas do relatório para um visitante, em vez de em todas as datas ou visitantes globalmente, devido à janela de datas do Processamento de tempo de relatório.
-* [**eVars não relacionadas ao merchandising**](/help/components/dimensions/evar.md) / **eVars reservadas:** Os valores definidos em um eVar persistem apenas se o valor tiver sido definido dentro do intervalo de datas do relatório devido à janela de datas do Processamento de tempo de relatório. Além disso, as expirações baseadas em tempo podem expirar uma hora antes ou depois se a persistência abranger uma mudança de horário de verão.
-* [**eVars de merchandising**](/help/components/dimensions/evar-merchandising.md) / **eVars reservadas:** Veja acima. Além disso, para a sintaxe de conversão, onde a vinculação é definida como “qualquer evento”, é usado “qualquer ocorrência” no lugar disso.
+* **Compras** / [**Receita**](/help/components/metrics/revenue.md) / [**Pedidos**](/help/components/metrics/orders.md) / [**Unidades:**](/help/components/metrics/units.md) quando a ID de compra é usada, essas métricas são apenas desduplicadas para as IDs de compra duplicadas que ocorrem dentro do intervalo de datas do relatório para um visitante, em vez de em todas as datas ou visitantes globalmente, devido à janela de datas do Processamento de tempo de relatório.
+* [**eVars que não sejam de merchandising**](/help/components/dimensions/evar.md) / **eVars reservadas:** Os valores definidos em um eVar persistem apenas se o valor tiver sido definido dentro do intervalo de datas do relatório devido à janela de datas do Processamento de tempo de relatório. Além disso, as expirações baseadas em tempo podem expirar uma hora antes ou depois se a persistência abranger uma mudança de horário de verão.
+* [**eVars de merchandising**](/help/components/dimensions/evar-merchandising.md) / **eVars reservadas:** Consulte acima. Além disso, para a sintaxe de conversão, onde a vinculação é definida como “qualquer evento”, é usado “qualquer ocorrência” no lugar disso.
 * [**Tipo de ocorrência:**](/help/components/dimensions/hit-type.md) essa dimensão especifica se uma ocorrência está em primeiro ou em segundo plano.
-* **Dimension com (tráfego baixo) ou &quot;Únicos excedidos&quot;:** O item de linha (tráfego baixo) é determinado de maneira um pouco diferente ao usar o Processamento de tempo de relatório e não há garantia de correspondência com o que é observado nos relatórios no Conjunto de relatórios base. Não há garantias de que os itens de linha de Dimension que não fazem parte do Tráfego baixo representem 100% dos dados desse item de linha. Essas diferenças podem se tornar mais pronunciadas quanto maior o número de valores únicos existentes em uma dimensão.
+* **Dimension com (tráfego baixo) ou &quot;Únicos excedidos&quot;:** O item de linha (tráfego baixo) é determinado de forma um pouco diferente ao usar o Processamento de tempo de relatório, e não há garantia de correspondência com o que é observado nos relatórios no Conjunto de relatórios base. Não há garantias de que os itens de linha de Dimension que não fazem parte do Tráfego baixo representem 100% dos dados desse item de linha. Essas diferenças podem se tornar mais pronunciadas quanto maior o número de valores únicos existentes em uma dimensão.
