@@ -4,7 +4,7 @@ description: Altere o conjunto de relatórios a qualquer momento em sua implemen
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%
@@ -38,11 +38,12 @@ A extensão SDK da Web fornece uma lista suspensa de Sequência de dados para ca
 
 ## Defina o fluxo de dados desejado implementando manualmente o SDK da Web
 
-Defina a variável de configuração `edgeConfigId` para a ID de fluxo de dados. A ID da sequência de dados é encontrada à direita ao visualizar uma sequência de dados em Coleção de dados da Adobe Experience Platform.
+Defina a variável de configuração `datastreamId` para a ID de fluxo de dados. A ID da sequência de dados é encontrada à direita ao visualizar uma sequência de dados em Coleção de dados da Adobe Experience Platform.
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+  datastreamId: "example-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

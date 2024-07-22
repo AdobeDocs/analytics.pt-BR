@@ -2,7 +2,7 @@
 title: Enviar dados para a Adobe Analytics usando a biblioteca JavaScript do SDK da Web
 description: Comece com uma implementação limpa do SDK da Web para enviar dados para a Adobe Analytics usando a biblioteca do JavaScript.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 18%
@@ -82,7 +82,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>7</td>
-<td><b>Configurar o SDK da Web</b>. Verifique se a biblioteca instalada na etapa 4 está configurada corretamente com a ID da sequência de dados (anteriormente conhecida como id de configuração de borda (<code>edgeConfigId</code>)), id da organização (<code>orgId</code>) e outras opções disponíveis. Garanta o mapeamento adequado das variáveis. </td>
+<td><b>Configurar o SDK da Web</b>. Verifique se a biblioteca instalada na etapa 4 está configurada corretamente com a ID da sequência de dados (anteriormente conhecida como id de configuração de borda (<code>datastreamId</code>)), id da organização (<code>orgId</code>) e outras opções disponíveis. Garanta o mapeamento adequado das variáveis. </td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurar o SDK da Web</a><br/><a href="../xdm-var-mapping.md">mapeamento de variável de objeto XDM</a></td>
 </tr>
 
