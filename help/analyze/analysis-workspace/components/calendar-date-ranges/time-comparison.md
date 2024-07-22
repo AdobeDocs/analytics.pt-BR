@@ -4,10 +4,10 @@ title: Comparação de datas
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 98%
+source-wordcount: '746'
+ht-degree: 57%
 
 ---
 
@@ -24,7 +24,7 @@ Veja um vídeo sobre este tópico:
 >[!NOTE]
 >[!UICONTROL Comparar Períodos] usa Métricas Calculadas avançadas. Como resultado, ele está disponível somente para clientes com SKUs do Analytics Select, Prime e Ultimate.
 
-A análise demanda contexto, e esse contexto é normalmente fornecido por um período de tempo anterior. Por exemplo, a pergunta &quot;Estamos melhor ou pior que nesse mesmo período de tempo no ano passado?&quot; é fundamental para entender seus negócios. A comparação de datas inclui automaticamente uma coluna &quot;diferença&quot;, que mostra a porcentagem de mudança comparada a um período de tempo específico.
+A análise demanda contexto, e esse contexto é normalmente fornecido por um período de tempo anterior. Por exemplo, a pergunta &quot;Quão melhor ou pior estamos fazendo do que neste momento no ano passado?&quot; é fundamental para entender seus negócios. A comparação de datas inclui automaticamente uma coluna &quot;diferença&quot;, que mostra a porcentagem de mudança comparada a um período de tempo específico.
 
 1. Crie uma tabela de forma livre, com qualquer dimensão e métrica que desejar comparar em um período.
 1. Clique com o botão direito na linha da tabela e selecione **[!UICONTROL Comparar períodos]**.
@@ -40,12 +40,12 @@ A análise demanda contexto, e esse contexto é normalmente fornecido por um per
    | Opção | Descrição |
    |---|---|
    | **[!UICONTROL Semana/mês/trimestre/ano anterior a esse intervalo de datas]** | Compara com a semana/mês/etc. imediatamente antes desse intervalo de data. |
-   | **[!UICONTROL Esta semana/este mês/este trimestre/este ano no ano passado]** | Compara com o mesmo intervalo de datas no ano passado. |
-   | **[!UICONTROL Selecionar intervalo]** | Permite selecionar um intervalo de datas personalizado. |
+   | **[!UICONTROL Esta semana/este mês/este trimestre/este ano no ano passado para este intervalo de datas]** | Compara com o mesmo intervalo de datas no ano passado. |
+   | **[!UICONTROL Intervalo de datas personalizado para este intervalo de datas]** | Permite selecionar um intervalo de datas personalizado. |
 
    >[!NOTE]
    >
-   >Sendo selecionado um número de dias personalizado, por exemplo, de 7 a 20 de outubro (intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Os 14 dias anteriores a esse intervalo de datas]**, e **[!UICONTROL Selecionar intervalo]**.
+   >Ao selecionar um número personalizado de dias, por exemplo, 7 de outubro - 20 de outubro (um intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Os 14 dias anteriores a esse intervalo de datas]** e **[!UICONTROL O intervalo de datas personalizado para esse intervalo de datas]**.
 
 1. O resultado da comparação aparece assim:
 
@@ -63,19 +63,21 @@ A análise demanda contexto, e esse contexto é normalmente fornecido por um per
 
 A partir de agora, é possível adicionar um período de tempo a cada coluna de uma tabela, permitindo que você adicione períodos diferentes daqueles definidos no seu calendário. Essa é mais uma forma de comparar datas.
 
-1. Clique com o botão direito na tabela e selecione **[!UICONTROL Adicionar coluna de período]** ![](assets/add-time-period-column.png)
+1. Clique com o botão direito do mouse em uma coluna da tabela e selecione **[!UICONTROL Adicionar coluna de período]**.
+
+   ![](assets/add-time-period-column.png)
 
 1. Dependendo de como configurou o intervalo de data da tabela, você tem as opções a seguir para comparação:
 
    | Opção | Descrição |
    |---|---|
    | **[!UICONTROL Semana/mês/trimestre/ano anterior a esse intervalo de datas]** | Adiciona uma coluna com semana/mês/etc. imediatamente antes desse intervalo de data. |
-   | **[!UICONTROL Esta semana/este mês/este trimestre/este ano no ano passado]** | Adiciona o mesmo intervalo de data no ano passado. |
-   | **[!UICONTROL Selecionar intervalo]** | Permite selecionar um intervalo de datas personalizado. |
+   | **[!UICONTROL Esta semana/este mês/este trimestre/este ano no ano passado para este intervalo de datas]** | Adiciona o mesmo intervalo de data no ano passado. |
+   | **[!UICONTROL Intervalo de datas personalizado para este intervalo de datas]** | Permite selecionar um intervalo de datas personalizado. |
 
    >[!NOTE]
    >
-   >Sendo selecionado um número de dias personalizado, por exemplo, de 7 a 20 de outubro (intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Os 14 dias anteriores a esse intervalo de datas]**, e **[!UICONTROL Selecionar intervalo]**.
+   >Ao selecionar um número personalizado de dias, por exemplo, 7 de outubro - 20 de outubro (um intervalo de 14 dias), você terá apenas 2 opções: **[!UICONTROL Os 14 dias anteriores a esse intervalo de datas]** e **[!UICONTROL O intervalo de datas personalizado para esse intervalo de datas]**.
 
 1. O período de tempo será inserido no topo da coluna selecionada:
 
@@ -89,20 +91,27 @@ A partir de agora, é possível adicionar um período de tempo a cada coluna de 
 
 ## Alinhar colunas de datas para começarem na mesma linha {#section_5085E200082048CB899C3F355062A733}
 
-Uma nova configuração das tabelas permite **[!UICONTROL Alinhar datas de cada coluna para iniciarem na mesma linha (aplica-se a toda a tabela)]**. “Aplica-se a toda a tabela” significa que se você fizer, por exemplo, um detalhamento na tabela, e alterar essa configuração para o detalhamento, modificará a configuração de toda a tabela.
+Você pode alinhar as datas de cada coluna para que todas iniciem na mesma linha.
 
-![](assets/date-comparison-setting.png)
-
->[!NOTE]
->
->Essa configuração está **desativada** (não está selecionada) para todos os projetos existentes e **ativada** (selecionada) para todos os novos projetos.
-
-Exemplo: ao escolher alinhar as datas em uma comparação de mês a mês de outubro a setembro de 2016, a coluna da esquerda iniciará em 1° de outubro e a coluna da direita em 1° de setembro:
+Por exemplo, ao escolher alinhar as datas em uma comparação de mês por mês de outubro a setembro de 2016, a coluna da esquerda iniciará em 1° de outubro e a coluna da direita em 1° de setembro:
 
 ![](assets/add-time-period-column3.png)
 
-<!-- 
+>[!NOTE]
+>
+>Considere o seguinte ao usar essa opção:
+>
+>* Essa configuração é ativada por padrão para todos os novos projetos.
+>
+>* Essa configuração se aplica a toda a tabela. Por exemplo, se você alterar essa configuração para um detalhamento na tabela, ela alterará a configuração da tabela inteira.
+>
 
-<p>See Jonny Moon's email from November 3. </p>
+Para ativar essa configuração, se ela ainda não estiver ativada:
 
- -->
+1. Na tabela onde deseja alinhar as datas da coluna, selecione o ícone **Configurações** no cabeçalho da tabela.
+
+1. Na guia [!UICONTROL **Configurações**], selecione **[!UICONTROL Alinhar Datas de cada coluna para iniciarem na mesma linha (aplica-se a toda a tabela)]**.
+
+![](assets/date-comparison-setting.png)
+
+

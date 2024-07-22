@@ -4,10 +4,10 @@ title: Resumo da métrica principal
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 98%
 
 ---
 
@@ -51,6 +51,8 @@ Essa visualização aborda uma variedade de casos de uso comuns, incluindo:
 1. Clique em **[!UICONTROL Criar]**.
 
 ## Visualizar a saída
+
+A visualização de recusa deve ser semelhante a:
 
 ![](assets/key-metric-output.png)
 
