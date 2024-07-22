@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
 source-wordcount: '5806'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Julho de 2024** | |
 | Adição do threads.net à dimensão &quot;Tipo de referenciador&quot; | threads.net adicionado à lista de redes sociais que são usadas na dimensão [&#39;Tipo de referenciador&#39;](/help/components/dimensions/referrer-type.md). |
-| Atualização da documentação para gerenciar feeds de dados | As informações em [Gerenciar feeds de dados](/help/export/analytics-data-feed/df-manage-feeds.md) foram atualizadas para maior clareza. <p>As atualizações incluem:</p><ul><li>Seções separadas criadas para várias tarefas para facilitar a verificação e o consumo das informações.</li><li>Adição de informações sobre alterações no comportamento dos feeds em tempo real que são reativados. Essas alterações estão atualmente em Disponibilidade limitada e ainda não estão disponíveis para todos os clientes.</li><li>Adição de informações declarando que os feeds de dados devem ter um status Ativo antes de serem excluídos.</li> |
-| Mensagens de erro comuns atualizadas | Pequenas atualizações feitas às [mensagens de erro comuns](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
+| Atualização da documentação do gerenciamento de feeds de dados | As informações em [Gerenciar feeds de dados](/help/export/analytics-data-feed/df-manage-feeds.md) foram atualizadas para aumentar a clareza. <p>As atualizações incluem:</p><ul><li>Seções separadas foram criadas para várias tarefas a fim de facilitar a busca e o consumo de informações.</li><li>Adição de informações sobre alterações no comportamento dos feeds ao vivo que são reativados. Essas alterações estão atualmente com disponibilidade limitada e ainda não estão disponíveis para todos os clientes.</li><li>Adição de informações declarando que os feeds de dados devem ter um status Ativo antes de serem excluídos.</li> |
+| Mensagens de erro comuns atualizadas | Atualizações secundárias feitas nas [mensagens de erro comuns](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Junho de 2024** | |
 | Atualização do nome do produto que se refere aos recursos de mídia de streaming | As instâncias do “Media Analytics” e de “Mídia de streaming” foram substituídas pelo nome “complemento Coleção de mídia de streaming” ao se referirem ao conjunto de recursos de mídia de streaming que coletam dados de mídia de streaming e os exibem no Analysis Workspace. <p>Essas atualizações estão disponíveis na documentação do Adobe Analytics, bem como na [Documentação do complemento Coleção de mídia de streaming](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).</p> |
 | Melhoria na documentação dos Alertas inteligentes | Documentação atualizada e aprimorada sobre alertas. Essas atualizações incluem informações sobre [criação de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [gerenciamento de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) e [informações gerais](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
