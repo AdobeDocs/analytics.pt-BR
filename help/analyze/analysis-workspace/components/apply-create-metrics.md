@@ -4,10 +4,10 @@ title: Métricas no Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 94%
+source-wordcount: '505'
+ht-degree: 51%
 
 ---
 
@@ -37,13 +37,41 @@ As métricas podem ser usadas de várias maneiras no Analysis Workspace. Para ob
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## Métricas calculadas 
+## Criar métricas calculadas
 
-Métricas calculadas permitem ver facilmente como as métricas se relacionam entre si usando operadores simples ou funções estatísticas. Há várias maneiras de criar métricas calculadas:
+Métricas calculadas permitem ver facilmente como as métricas se relacionam entre si usando operadores simples ou funções estatísticas.
 
-* Clique no ícone de adição ao lado do cabeçalho de métricas na lista de componentes à esquerda.
-* Navegue até **[!UICONTROL Componentes]** > **[!UICONTROL Métricas calculadas]** > **[!UICONTROL Adicionar]**.
-* Clique com o botão direito do mouse em um cabeçalho de coluna > **[!UICONTROL Criar métrica a partir da seleção]** quando uma ou mais células de coluna de cabeçalho estiverem selecionadas. Essa opção cria automaticamente uma métrica calculada sem precisar usar o Construtor de regras de métricas calculadas.
+Há várias maneiras de criar métricas calculadas. O método escolhido determina se a métrica calculada estará disponível na lista de componentes em todos os projetos ou somente no projeto em que foi criada.
+
+### Criar métricas calculadas para todos os projetos
+
+Você pode usar o construtor de métrica calculada para criar métricas calculadas. Quando criadas dessa forma, as métricas calculadas ficam disponíveis na lista de componentes e podem ser usadas em projetos em toda a organização.
+
+Para obter informações sobre como acessar o construtor de métricas calculadas, consulte [Criar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+
+### Criar métricas calculadas para um único projeto
+
+Você pode criar métricas calculadas rápidas que só estão disponíveis para o projeto em que foram criadas.
+
+Para criar uma métrica calculada para um único projeto:
+
+1. No Analysis Workspace, abra o projeto em que deseja criar a métrica calculada.
+
+1. Em uma tabela de forma livre, clique com o botão direito do mouse em uma ou mais células de coluna de cabeçalho e selecione **[!UICONTROL Criar métrica a partir da seleção]**
+
+   ![Destaque do painel do Workspace Criar a partir da seleção](assets/create-metric-from-selection.png)
+
+1. Para criar uma métrica calculada somente para este projeto, escolha uma das seguintes opções:
+
+   * [!UICONTROL **Dividir**]
+
+   * [!UICONTROL **Subtrair**]
+
+   * [!UICONTROL **Adicionar**]
+
+   * [!UICONTROL **Multiplicar**]
+
+   Ou, para abrir o construtor de métrica calculada e criar a métrica calculada para todos os projetos, selecione [!UICONTROL **Abrir no Construtor de métrica calculada**] e continue com [Criar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 [Métricas calculadas: métricas sem implementação](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=pt-BR) (3:42)
 

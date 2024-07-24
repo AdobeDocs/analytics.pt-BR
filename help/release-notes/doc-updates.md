@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '5806'
-ht-degree: 99%
+source-wordcount: '5910'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Julho de 2024** | |
+| Adição de informações sobre métricas calculadas rápidas | Atualização das informações em [Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md) para esclarecer a diferença entre [métricas calculadas criadas no construtor de métricas calculadas](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) e [as criadas como métricas calculadas rápidas em um único projeto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Também foram adicionados mais detalhes sobre como criar métricas calculadas rápidas.<p>As métricas calculadas criadas no construtor de métricas calculadas estão disponíveis na lista de componentes e podem ser aplicadas aos projetos em toda a organização, enquanto as métricas calculadas criadas como métricas calculadas rápidas estão disponíveis somente no projeto em que foram criadas.</p><p>Informações também atualizadas em [Criar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) para fazer esclarecimentos semelhantes.</p> |
 | Adição do threads.net à dimensão &quot;Tipo de referenciador&quot; | threads.net adicionado à lista de redes sociais que são usadas na dimensão [&#39;Tipo de referenciador&#39;](/help/components/dimensions/referrer-type.md). |
 | Atualização da documentação do gerenciamento de feeds de dados | As informações em [Gerenciar feeds de dados](/help/export/analytics-data-feed/df-manage-feeds.md) foram atualizadas para aumentar a clareza. <p>As atualizações incluem:</p><ul><li>Seções separadas foram criadas para várias tarefas a fim de facilitar a busca e o consumo de informações.</li><li>Adição de informações sobre alterações no comportamento dos feeds ao vivo que são reativados. Essas alterações estão atualmente com disponibilidade limitada e ainda não estão disponíveis para todos os clientes.</li><li>Adição de informações declarando que os feeds de dados devem ter um status Ativo antes de serem excluídos.</li> |
 | Mensagens de erro comuns atualizadas | Atualizações secundárias feitas nas [mensagens de erro comuns](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
