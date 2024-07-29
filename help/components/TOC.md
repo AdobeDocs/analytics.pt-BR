@@ -19,8 +19,8 @@ ht-degree: 94%
 + Dimensões {#dimensions}
    + [Visão geral das dimensões](dimensions/overview.md)
    + [Compatibilidade da dimensão](dimensions/compatibility.md)
-   + [Link para o Activity Map](dimensions/activity-map-link.md)
-   + [Link por região do Activity Map](dimensions/activity-map-link-by-region.md)
+   + [Link do Activity Map](dimensions/activity-map-link.md)
+   + [Link do Activity Map por região](dimensions/activity-map-link-by-region.md)
    + [Página do Activity Map](dimensions/activity-map-page.md)
    + [Região do Activity Map](dimensions/activity-map-region.md)
    + [Consentimento da plataforma de publicidade](dimensions/ad-consent.md)
