@@ -1,220 +1,99 @@
 ---
-description: As dimensões que você pode ler e escrever (salvo indicação ao contrário) usando as regras de processamento.
+description: As dimensões e métricas disponíveis que você pode ler e gravar usando as regras de processamento.
 subtopic: Processing rules
 title: Dimensões disponíveis para as regras de processamento
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '714'
+ht-degree: 13%
 
 ---
 
-# Dimensões disponíveis para as regras de processamento
+# Dimension e métricas disponíveis para as regras de processamento
 
-As dimensões que você pode ler e escrever (salvo indicação ao contrário) usando as regras de processamento.
+As dimensões e métricas disponíveis que você pode ler e gravar usando as regras de processamento.
 
-## Valores personalizados e dados de contexto {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## Valores personalizados e dados de contexto
 
-<table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Valor </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Valor personalizado </p> </td> 
-   <td colname="col2"> <p>Texto ou valores personalizados, digitados diretamente na ação de uma regra de processamento. Esses valores são disponibilizados em condições e regras subsequentes. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Valor concatenado </p> </td> 
-   <td colname="col2"> <p>Valores criados pela combinação de dois valores. Por exemplo, a categoria e o nome da página devem ser combinados para criar uma subcategoria. Esses valores são disponibilizados em condições e regras subsequentes. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Valores modificados </p> </td> 
-   <td colname="col2"> <p>Se o valor de uma variável é alterado usando as regras de processamento, o valor alterado é usado em condições e regras subsequentes. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Variáveis de dados de contexto </p> </td> 
-   <td colname="col2"> <p>Variáveis nomeadas que são enviadas com uma ocorrência. </p> <p>Observação: todos os dados contidos em uma Variável de dados de contexto devem ser copiados para uma variável do relatório para serem exibidos em um relatório. As Variáveis de dados de contexto não são visualizadas em qualquer interface de relatório, incluindo Feeds de dados de sequência de cliques. </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiar uma variável de dados de contexto para uma eVar </a> </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Definir um evento usando uma variável de dados de contexto </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Variáveis de dados de contexto</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor | Status de leitura/gravação | Descrição |
+| --- | --- | --- |
+| Valor personalizado | Somente leitura | Texto personalizado ou valores digitados diretamente na ação de uma regra de processamento. |
+| Valor concatenado | Somente leitura | Valores que são criados pela combinação de dois valores. Por exemplo, canal e nome de página podem ser combinados para criar uma subcategoria. |
 
-## Variáveis de tráfego {#section_225156106F8B41F8BC1E68D58DDC2652}
+{style="table-layout:auto"}
 
-<table id="table_575F618C59DC4933BC77F935518EAE39"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variável </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>prop 1-75 </p> </td> 
-   <td colname="col2"> <p> <code> prop1 - prop75</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Hierarquia 1-5 </p> </td> 
-   <td colname="col2"> <p> <code> hier1 - hier5</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Seção do site </p> </td> 
-   <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Servidor </p> </td> 
-   <td colname="col2"> <p> <code> s.server </code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Atributos de ocorrência
 
-## Atributos de ocorrência {#section_07E69A86A47741A083FD84F112EB80D0}
+| Atributo | Status de leitura/gravação | Descrição |
+| --- | --- | --- |
+| URL da página | Leitura + gravação | A dimensão [URL da Página](/help/components/dimensions/page-url.md). As ocorrências de rastreamento de link removem essa dimensão antes de atingir as regras de processamento. Se você inserir novamente um valor de URL de página usando regras de processamento, a ocorrência será considerada uma [Exibição de página](/help/components/metrics/page-views.md), em vez de um [Evento de página](/help/components/metrics/page-events.md). O Adobe recomenda verificar um valor na dimensão da página antes de modificá-la. |
+| Nome da página | Leitura + gravação | A dimensão [Página](/help/components/dimensions/page.md). As ocorrências de rastreamento de link removem essa dimensão antes de atingir as regras de processamento. Se você inserir novamente um valor de página usando regras de processamento, a ocorrência será considerada uma [Exibição de página](/help/components/metrics/page-views.md), em vez de um [Evento de página](/help/components/metrics/page-events.md). O Adobe recomenda verificar um valor na dimensão da página antes de modificá-la. |
+| ID do conjunto de relatórios | Somente leitura | O conjunto de relatórios no qual a regra de processamento é executada. Esse conjunto de relatórios pode ser diferente do conjunto de relatórios enviado originalmente pelo AppMeasurement, como ao usar as regras VISTA. |
+| Versão do código de AppMeasurement | Somente leitura | A versão da biblioteca de AppMeasurements usada para gerar a solicitação de imagem. |
+| Endereço IP | Somente leitura | O endereço IP do visitante. |
+| Agente do usuário | Somente leitura | O agente do usuário do visitante. |
+| Referenciador | Somente leitura | A dimensão [Referenciador](/help/components/dimensions/referrer.md). |
+| Query string Parameter | Somente leitura | O valor de um parâmetro da string de consulta especificado no URL atual. |
+| Parâmetro da sequência de consulta de referência | Somente leitura | O valor de um parâmetro da string de consulta especificado no URL de referência, ou uma string vazia se não existir nenhuma. |
+| Domínio de referência | Somente leitura | O domínio de página do URL de referência, incluindo subdomínios. |
+| Domínio raiz de referência | Somente leitura | O domínio de página do URL de referência, excluindo subdomínios. |
+| Sequência de consulta da página | Somente leitura | Todos os parâmetros de cadeia de caracteres de consulta e seus valores no URL atual. |
+| Sequência de consulta de referência | Somente leitura | Todos os parâmetros da cadeia de caracteres de consulta e seus valores no URL de referência. |
+| Caminho da página | Somente leitura | O caminho da página do URL atual. O caminho da página não inclui parâmetros de protocolo, domínio ou sequência de consulta. |
+| Domínio da página | Somente leitura | O domínio de página do URL atual, incluindo subdomínios. O domínio da página não inclui o caminho da página ou os parâmetros da sequência de consulta. |
+| Domínio raiz da página | Somente leitura | O domínio de página do URL atual, excluindo subdomínios. |
+| Perspectiva do cliente | Leitura + gravação | Um sinalizador que determina se a ocorrência é uma ocorrência em segundo plano móvel. |
 
-<table id="table_9011B1FA462B4DBBAA58FC2D6D638DA1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Atributo </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>ID do conjunto de relatórios (somente leitura) </p> </td> 
-   <td colname="col2"> <p>O conjunto de relatórios no qual a regra de processamento é executada. Não pode ser o conjunto de relatórios original especificado no AppMeasurement. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nome da página </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Observação: as chamadas de rastreamento de link removem a variável <code>pageName</code> antes de atingir as regras de processamento. Se você inserir novamente um valor de nome de página usando regras de processamento, a ocorrência será considerada uma exibição de página, em vez de uma chamada de rastreamento de link. A Adobe recomenda verificar se o nome da página já está definido antes de modificá-la. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>URL da página </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> ou o URL da página atual, se <code> s.pageURL</code> não for especificado. <p>Observação: as chamadas de rastreamento de link removem a variável <code>pageURL</code> antes de atingir as regras de processamento. Se você inserir novamente um valor de URL de página usando regras de processamento, a ocorrência será considerada uma exibição de página, em vez de uma chamada de rastreamento de link. A Adobe recomenda verificar se o URL da página já está definido antes de modificá-lo. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Parâmetro da sequência de caracteres de consulta </p> </td> 
-   <td colname="col2"> <p>O valor de um parâmetro da sequência de caracteres de consulta especificado no URL atual, ou nulo se não houver nenhum parâmetro. Para o URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, o valor do parâmetro da cadeia de caracteres de consulta <span class="syntax codeph">cid</span> é <b>ad1</b>, e o valor de <span class="syntax codeph">node</span> do parâmetro da cadeia de caracteres de consulta é <b>4</b>. </p> <p>Se você estiver executando o JavaScript AppMeasurement H.25.2 ou versão anterior, o URL da página talvez fique truncado após 255 caracteres. O JavaScript AppMeasurement H.25.3 (versão de janeiro de 2013) e versão posterior fornece o URL total para regras de processamento. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Caminho da página </p> </td> 
-   <td colname="col2"> <p>O caminho do URL da página. O caminho do URL <b>https://www.example.com/news/a.html?cid=ad1</b> é <span class="syntax codeph">/news/a.html</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Domínio de página </p> </td> 
-   <td colname="col2"> <p>O nome do host completo, especificado no URL. https://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Domínio raiz de página </p> </td> 
-   <td colname="col2"> <p>As últimas duas seções do nome do host da página. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Sequência de caracteres de consulta de página </p> </td> 
-   <td colname="col2"> <p>A string de consulta completa do URL. https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Referenciador* (somente leitura) </p> </td> 
-   <td colname="col2"> <p>Referenciador de HTTP. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Parâmetro da string de consulta de referência (somente leitura) </p> </td> 
-   <td colname="col2"> <p>O valor de um parâmetro da string de consulta especificado no URL de referência, ou nulo se não houver nenhum parâmetro. Para o URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, o valor do parâmetro da cadeia de caracteres de consulta <span class="syntax codeph">cid</span> é <b>ad1</b>, e o valor de <span class="syntax codeph">node</span> do parâmetro da cadeia de caracteres de consulta é <b>4</b>. </p> <p>Se você estiver executando o JavaScript AppMeasurement H.25.2 ou versão anterior, o URL da página talvez fique truncado após 255 caracteres. O JavaScript AppMeasurement H.25.3 (versão de janeiro de 2013) e versão posterior fornece o URL total para regras de processamento. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Domínio de referência (somente leitura) </p> </td> 
-   <td colname="col2"> <p>O nome do host completo do referenciador. https://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Domínio raiz de referência (somente leitura) </p> </td> 
-   <td colname="col2"> <p>As últimas duas seções do nome do host do referenciador. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Sequência de caracteres de consulta de referência (somente leitura) </p> </td> 
-   <td colname="col2"> <p>Parâmetros da string de consulta contidos no URL de referência. https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Endereço IP (somente leitura) </p> </td> 
-   <td colname="col2"> <p>Endereço IP, como relatado pelo navegador. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Agente de usuário (somente leitura) </p> </td> 
-   <td colname="col2"> <p>Agente de usuário, como relatado pelo navegador. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Versão de código de AppMeasurement (somente leitura) </p> </td> 
-   <td colname="col2"> <p>A versão da biblioteca do appMeasurement usada para fazer o pedido. Ao usar beacons de imagem, é possível preencher com um valor personalizado que é lido usando as regras de processamento. Esse valor aparece na seguinte posição no URL: </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+{style="table-layout:auto"}
 
-## Variáveis de conversão {#section_311856B21B3B49DBAA0539CFA06C409F}
+## Variáveis de conversão
 
-<table id="table_E28729026EDA485989178A3B887B5983"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variável </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Código de rastreamento de campanha </p> </td> 
-   <td colname="col2"> <p> <code> s.campaign</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Código de moeda </p> </td> 
-   <td colname="col2"> <p> <code> s.currencyCode</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Variáveis de lista 1 - 3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID de compra </p> </td> 
-   <td colname="col2"> <p> <code> s.purchaseID</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID da transação </p> </td> 
-   <td colname="col2"> <p> <code> s.transactionID </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Estado do visitante </p> </td> 
-   <td colname="col2"> <p> <code> s.state</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Código postal/CEP do visitante </p> </td> 
-   <td colname="col2"> <p> <code> s.zip</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variável | Descrição do status de leitura/gravação |
+| --- | --- | --- |
+| eVar 1-250 | Leitura + gravação | [eVar](/help/components/dimensions/evar.md) dimensões. |
+| Campanha | Leitura + gravação | A dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). |
+| ID de compra | Leitura + gravação | A variável de implementação [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
+| Estado | Leitura + gravação | A variável de implementação [`state`](/help/implement/vars/page-vars/state.md) foi removida. |
+| CEP | Leitura + gravação | A dimensão [CEP](/help/components/dimensions/zip-code.md). |
+| Código de moeda | Leitura + gravação | A variável de implementação [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANTE: se você definir essa variável com um valor inválido, a ocorrência será descartada. |
+| ID da transação | Leitura + gravação | A variável de implementação [`transactionID`](/help/import/data-sources/transactionid.md). |
 
-## Eventos bem-sucedidos {#section_C1946FEB64FC4F579671EC5E0D06AE8A}
+{style="table-layout:auto"}
 
-As regras de processamento podem definir eventos mas não podem lê-los como condições.
+>[!NOTE]
+>O Adobe não oferece suporte à configuração da variável de implementação [`products`](/help/implement/vars/page-vars/products.md) usando regras de processamento.
 
-<table id="table_926ED12B58CA4FB685D799DC6EE567C0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Evento </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Evento 1-1000 </p> <p>(Para clientes do SiteCatalyst 15, Evento 1-100.) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>compra, scView, scAdd e outros eventos do carrinho </p> </td> 
-   <td colname="col2"> <p>Eventos pré-definidos. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Variáveis de tráfego
+
+| Variável | Status de leitura/gravação | Descrição |
+| --- | --- | --- |
+| Prop 1-75 | Leitura + gravação | [Prop](/help/components/dimensions/prop.md) dimensões. |
+| Hierarquia 1-5 | Leitura + gravação | [Hierarquia](/help/components/dimensions/hierarchy.md) dimensões. |
+| Servidor | Leitura + gravação | A dimensão [Servidor](/help/components/dimensions/server.md). |
+| Canal | Leitura + gravação | A dimensão [Seção do site](/help/components/dimensions/site-section.md). |
+
+{style="table-layout:auto"}
+
+## Variáveis de contexto
+
+Todas as [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md) que este conjunto de relatórios viu em solicitações de imagem anteriores. Se as regras de processamento não colocarem os dados de contexto em outra variável, esses dados serão perdidos permanentemente. Consulte [Copiar uma variável de dados de contexto para um eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Definir um evento usando uma variável de dados de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obter exemplos de uso.
+
+## Eventos bem-sucedidos
+
+As regras de processamento podem definir eventos, mas não podem lê-los como condições. Defina a lista suspensa de ações da regra como **[!UICONTROL Definir evento]** para ver as métricas disponíveis para incremento.
+
+| Variável | Status de leitura/gravação | Descrição |
+| --- | --- | --- |
+| Pedidos | Somente gravação | A métrica [Pedidos](/help/components/metrics/orders.md). |
+| Carrinhos | Somente gravação | A métrica [Carrinhos](/help/components/metrics/carts.md). |
+| Visualizações do carrinho | Somente gravação | A métrica [Exibições do carrinho](/help/components/metrics/cart-views.md). |
+| Check-outs | Somente gravação | A métrica [Check-outs](/help/components/metrics/checkouts.md). |
+| Adições ao carrinho | Somente gravação | A métrica [Adições ao carrinho](/help/components/metrics/cart-additions.md). |
+| Remoções do carrinho | Somente gravação | A métrica [Remoções do carrinho](/help/components/metrics/cart-removals.md). |
+| Evento 1-1000 | Somente gravação | [Eventos personalizados](/help/components/metrics/custom-events.md). |
+| Visualizações de produto | Somente gravação | A métrica [Exibições de produto](/help/components/metrics/product-views.md). |
+
+{style="table-layout:auto"}
