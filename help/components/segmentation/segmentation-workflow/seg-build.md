@@ -3,7 +3,7 @@ description: O Construtor de segmentos fornece uma tela para arrastar e soltar D
 title: Construir segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 97%
@@ -54,6 +54,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
    | Repetição | X | X | X | - | X | - |
    | Instância | X | X | - | - | X | - |
    | Instância de não repetição | X | - | - | - | X | - |
+
 1. **[!UICONTROL And/Or/Then]**: atribui os operadores [!UICONTROL AND/OR/THEN] entre contêineres ou regras. O operador THEN permite que você [defina segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Métrica]**: (barra lateral verde) métrica que foi arrastada e solta na lista de Métricas.
 1. Operador **[!UICONTROL Comparação]**: é possível comparar e restringir valores com operadores selecionados.

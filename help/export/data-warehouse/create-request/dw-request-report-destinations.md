@@ -3,10 +3,10 @@ description: Etapas que descrevem como criar uma solicitação do data warehouse
 title: Configurar um destino de relatório para uma solicitação do data warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '2615'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Email
 
@@ -141,12 +141,13 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
       |---------|----------|
       | [!UICONTROL **Destinatários**] | É possível enviar notificações por email a usuários específicos quando o relatório é enviado. Especifique um único endereço de email ou uma lista separada por vírgulas de endereços de email. <!-- How does this differ from the Notification email tab? --> |
 
-   1. Selecione [!UICONTROL **Adicionar localização**] e especifique as seguintes informações: 
-|Campo | Função |
-|---------|----------|
-| [!UICONTROL **Nome**] | O nome do local.    | 
-| [!UICONTROL **Descrição**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. | 
-| [!UICONTROL **Conta de localização**] | Selecione a conta de localização que você criou em [Adicionar uma conta](#add-an-account). |
+   1. Selecione [!UICONTROL **Adicionar local**] e especifique as seguintes informações:
+
+      | Campo | Função |
+      |---------|----------|
+      | [!UICONTROL **Nome**] | O nome do local. |
+      | [!UICONTROL **Descrição**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. |
+      | [!UICONTROL **Conta da localização**] | Selecione a conta de localização que você criou em [Adicionar uma conta](#add-an-account). |
 
    1. Na seção [!UICONTROL **Propriedades da localização**], insira as informações específicas ao tipo da sua conta de localização.
 
@@ -163,7 +164,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +177,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +190,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +204,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Continue configurando sua solicitação do data warehouse na guia [!UICONTROL **Opções de relatório**]. Para obter mais informações, consulte [Configurar opções de relatório para uma solicitação do data warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
