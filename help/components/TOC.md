@@ -5,9 +5,9 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -98,12 +98,12 @@ ht-degree: 94%
    + [Servidor](dimensions/server.md)
    + [Visitas em única página](dimensions/single-page-visits.md)
    + [Seção do site](dimensions/site-section.md)
-   + [Dimensões principais de mídia de transmissão](dimensions/sm-core.md)
-   + [Anúncios de mídia de transmissão](dimensions/sm-ads.md)
-   + [Capítulos de mídia de transmissão](dimensions/sm-chapters.md)
-   + [Qualidade da mídia de transmissão](dimensions/sm-quality.md)
-   + [Metadados de áudio de mídia de transmissão](dimensions/sm-audio-metadata.md)
-   + [Metadados de vídeo de mídia de transmissão](dimensions/sm-video-metadata.md)
+   + [Dimensões principais da mídia de streaming](dimensions/sm-core.md)
+   + [Anúncios na mídia de streaming](dimensions/sm-ads.md)
+   + [Capítulos da mídia de streaming](dimensions/sm-chapters.md)
+   + [Qualidade da mídia de streaming](dimensions/sm-quality.md)
+   + [Metadados de áudio da mídia de streaming](dimensions/sm-audio-metadata.md)
+   + [Metadados de vídeo da mídia de streaming](dimensions/sm-video-metadata.md)
    + [Tempo antes do evento](dimensions/time-prior-to-event.md)
    + [Tempo gasto na página](dimensions/time-spent-on-page.md)
    + [Tempo gasto por visita](dimensions/time-spent-per-visit.md)
@@ -157,12 +157,12 @@ ht-degree: 94%
    + [Pesquisas](metrics/searches.md)
    + [Acesso único](metrics/single-access.md)
    + [Visitas em única página](metrics/single-page-visits.md)
-   + [Métricas principais de mídia de transmissão](metrics/sm-core.md)
-   + [Anúncios de mídia de transmissão](metrics/sm-ads.md)
-   + [Capítulos de mídia de transmissão](metrics/sm-chapters.md)
-   + [Rastreamento do estado do player de mídia de transmissão](metrics/sm-player-state.md)
-   + [Qualidade da mídia de transmissão](metrics/sm-quality.md)
-   + [Metadados de vídeo de mídia de transmissão](metrics/sm-video-metadata.md)
+   + [Métricas principais da mídia de streaming](metrics/sm-core.md)
+   + [Anúncios na mídia de streaming](metrics/sm-ads.md)
+   + [Capítulos da mídia de streaming](metrics/sm-chapters.md)
+   + [Rastreamento do estado do reprodutor da mídia de streaming](metrics/sm-player-state.md)
+   + [Qualidade da mídia de streaming](metrics/sm-quality.md)
+   + [Metadados de vídeo da mídia de streaming](metrics/sm-video-metadata.md)
    + [Tempo gasto por visita](metrics/time-spent-per-visit.md)
    + [Tempo gasto por visitante](metrics/time-spent-per-visitor.md)
    + [Visão geral do tempo gasto](metrics/time-spent.md)
