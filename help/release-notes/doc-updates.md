@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
-workflow-type: ht
-source-wordcount: '5910'
-ht-degree: 100%
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+workflow-type: tm+mt
+source-wordcount: '5945'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Julho de 2024** | |
+| Pelo menos um tipo de conta deve ser selecionado ao gerenciar localizações | Esclarecimento de que quando os administradores estão [limitando os tipos de conta usados para exportação e importação](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users), pelo menos um tipo de conta deve ser selecionado. |
 | Adição de informações sobre métricas calculadas rápidas | Atualização das informações em [Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md) para esclarecer a diferença entre [métricas calculadas criadas no construtor de métricas calculadas](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) e [as criadas como métricas calculadas rápidas em um determinado projeto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Também foram adicionados mais detalhes sobre como criar métricas calculadas rápidas.<p>As métricas calculadas criadas no construtor de métricas calculadas estão disponíveis na lista de componentes e podem ser aplicadas aos projetos em toda a organização, enquanto as métricas calculadas criadas como métricas calculadas rápidas estão disponíveis somente no projeto em que foram criadas.</p><p>As informações encontradas em [Criar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) também foram atualizadas para fornecer esclarecimentos semelhantes.</p> |
 | Adição do threads.net à dimensão “Tipo de referenciador” | Adição do threads.net à lista de redes sociais que são usadas na [dimensão “Tipo de referenciador”](/help/components/dimensions/referrer-type.md). |
 | Atualização da documentação do gerenciamento de feeds de dados | As informações em [Gerenciar feeds de dados](/help/export/analytics-data-feed/df-manage-feeds.md) foram atualizadas para aumentar a clareza. <p>As atualizações incluem:</p><ul><li>Seções separadas foram criadas para várias tarefas a fim de facilitar a busca e o consumo de informações.</li><li>Adição de informações sobre alterações no comportamento dos feeds ao vivo que são reativados. Essas alterações estão atualmente com disponibilidade limitada e ainda não estão disponíveis para todos os clientes.</li><li>Adição de informações declarando que os feeds de dados devem ter o status Ativo antes de serem excluídos.</li> |

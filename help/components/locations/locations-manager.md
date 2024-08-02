@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gerenciador de locais
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -202,6 +202,8 @@ Para limitar os tipos de conta disponíveis aos usuários ao criar e usar contas
 1. Localize a seção [!UICONTROL **Tipos de conta permitidos**].
 
    Os seguintes tipos de conta estão disponíveis para usuários por padrão. Desmarque qualquer um desses tipos de conta que você deseja impedir que os usuários usem.
+
+   Pelo menos um tipo de conta deve ser selecionado.
 
    * [!UICONTROL **Função ARN do Amazon S3**]
 
