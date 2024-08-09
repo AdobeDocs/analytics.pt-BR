@@ -3,10 +3,10 @@ title: Importar métricas de pesquisa paga
 description: Etapas para configurar o Adobe Analytics para monitorar suas métricas de pesquisa paga (por exemplo, Google AdWords, MSN, Yahoo etc.) usando Fontes de dados.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 98%
+source-wordcount: '1205'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ O [!UICONTROL Assistente de ativação da Fonte de dados] exibe:
 1. Clique em **[!UICONTROL Próximo]** e nomeie a fonte de dados. Este nome aparecerá no Gerenciador de fonte de dados.
 1. Aceite o contrato de serviço e clique em **[!UICONTROL Próximo]**.
 1. Selecione as três métricas padrão: [!UICONTROL Impressões], [!UICONTROL Cliques] e [!UICONTROL Custo total] e clique em **[!UICONTROL Próximo]**.
-1. Agora “mapeie” esta nova fonte de dados para os eventos personalizados que criamos em [Configurar eventos bem-sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
+1. Agora &quot;mapeie&quot; esta nova fonte de dados para os eventos personalizados que criamos em [Eventos bem-sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
 
    ![Mapeamento](assets/data-source-mapping.png)
 

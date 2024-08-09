@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 8bb879b86126c59b7d22505657ecdb46106822e8
-workflow-type: ht
-source-wordcount: '637'
+source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+workflow-type: tm+mt
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -93,10 +93,7 @@ ht-degree: 100%
             + Variável de visitante único {#unique-visitor-variable}
                + [Especificar a Variável de visitante único](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
                + [Caso de uso - Extração de IDs de visitantes](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
-            + Eventos bem-sucedidos {#success-events}
-               + [Visão geral dos eventos bem-sucedidos](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
-               + [Configurar os eventos bem-sucedidos](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
-               + [Sobre como alterar o Tipo de evento](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+            + [Eventos bem-sucedidos](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
             + [Hierarquias de classificação](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
             + [Variáveis da lista](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [eVars de merchandising](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)

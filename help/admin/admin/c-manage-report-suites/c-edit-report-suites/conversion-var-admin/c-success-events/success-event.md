@@ -5,14 +5,14 @@ title: Visão geral dos eventos bem-sucedidos
 feature: Event
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '1356'
+ht-degree: 68%
 
 ---
 
-# Visão geral dos eventos bem-sucedidos
+# Eventos bem-sucedidos
 
 Eventos bem-sucedidos (também conhecidos como eventos de conversão ou eventos personalizados) são ações que podem ser rastreadas. Você determina o que é um evento bem-sucedido. Por exemplo, se um visitante comprar um item, o evento de compra pode ser considerado o evento bem-sucedido.
 
@@ -20,12 +20,7 @@ Veja um vídeo com uma visão geral:
 
 >[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
 
-Acesse a página Eventos bem-sucedidos nas configurações do conjunto de relatórios:
-
-1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
-2. Clique no botão 9-grid na parte superior e em [!UICONTROL Analytics].
-3. Navegue até [!UICONTROL Admin] > [!UICONTROL Conjuntos de relatórios]
-4. Selecione o conjunto de relatórios desejado e navegue até [!UICONTROL Editar configurações] > [!UICONTROL Conversão] > [!UICONTROL Eventos bem-sucedidos].
+## Entender os eventos de sucesso
 
 Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vários exemplos incluem:
 
@@ -39,6 +34,67 @@ Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vár
 
 A variável [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=pt-BR) define um evento bem-sucedido.
 
+## Configurar os eventos bem-sucedidos
+
+Você pode configurar as variáveis de Evento usadas no site. É possível adicionar até 1000 eventos bem-sucedidos. Os eventos 81-1.000 funcionam somente se você estiver usando o código H22 ou superior.
+
+Para configurar eventos bem-sucedidos:
+
+1. No Adobe Analytics, selecione **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
+1. Selecione o conjunto de relatórios no qual você deseja configurar eventos bem-sucedidos.
+1. Selecione **[!UICONTROL Editar Configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Eventos Bem-sucedidos]**.
+
+   ![Resultado da etapa](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/assets/success_event_page.png)
+
+1. Na coluna [!UICONTROL **Evento**], identifique o nome do evento que deseja usar como um evento bem-sucedido.
+
+1. Na coluna **[!UICONTROL Nome]**, marque a caixa de seleção ao lado do item para habilitar a edição e, em seguida, especifique o nome desejado.
+
+   Dê nomes significativos aos eventos bem-sucedidos usados em seu site. Por exemplo, se event1 for usado para controlar registros, altere o nome aqui, de modo que event1 seja representado como a métrica &quot;Registros&quot; em todos os relatórios de Conversão.
+
+1. Na coluna **[!UICONTROL Tipo]**, marque a caixa de seleção ao lado do item para habilitar a lista suspensa e, em seguida, selecione o tipo desejado.
+
+   >[!NOTE]
+   >
+   >É possível alterar um evento de contador, numérico ou moeda para outro tipo sem perder acesso aos dados capturados anteriormente.
+
+   O tipo selecionado determina se o evento é um evento de contador (padrão), numérico ou de moeda. <p>Os eventos contadores são usados para registrar um evento a tempo.</p><p>Eventos numéricos são usados para relatar números não relacionados a moeda, como o número de cupons usados em um pedido.</p> <p>Os eventos de moeda registram um número decimal, como imposto ou remessa. O valor transmitido para eventos de moeda será convertido da moeda da página para a moeda de base do conjunto de relatórios mediante ao recebimento. Eventos de moeda são usados para acompanhar encargos de impostos e remessa. Para obter mais detalhes sobre o uso de eventos de moeda, entre em contato com um representante da Adobe.<p>Eventos numéricos e de moeda permitem incrementar métricas como mais de uma.</p><p>Eventos usados no tipo de Padrão de Fontes de dados devem ser eventos numéricos ou de moeda.</p>
+
+1. Na coluna **[!UICONTROL Polaridade]**, marque a caixa de seleção e, no menu suspenso, escolha se uma tendência acima para essa métrica é boa ou ruim.
+
+   isso permite indicar se o Adobe Analytics deve considerá-lo bom ou ruim se um determinado evento personalizado (métrica) aumentar. Ela ativa indicadores direcionais (setas) para diversas métricas para adicionar contexto (por exemplo, comparações entre semanas).  Exemplos: se &quot;Bugs enviados&quot; aumentar semana após semana, o Adobe Analytics deve considerar isso bom ou ruim? Um aumento nos Registros de email provavelmente é bom. Mas um aumento em Erros no envio do formulário provavelmente é ruim.  Na Analysis Workspace, a polaridade é aplicada: à formatação condicional da tabela de forma livre, às visualizações de alteração de resumo e ao esquema de cor positivo/negativo da visualização de mapa.
+
+1. Na coluna **[!UICONTROL Visibilidade]**, marque a caixa de seleção e, no menu suspenso, escolha ocultar métricas padrão (incorporadas), eventos personalizados e eventos incorporados no Menu, Seletores de métricas, Construtor de métricas calculadas e o Construtor de segmentos.
+
+   Essa configuração não afeta a coleção de dados da métrica ou do evento, afeta somente a visibilidade na interface do usuário, como mostrado a seguir:
+
+   As seguintes configurações estão disponíveis:
+
+   | Configuração | Visível em | Não visível em |
+   |---------|----------|---------|
+   | [!UICONTROL **Visível em qualquer lugar**] | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | N/D |
+   | [!UICONTROL **Construtores**] | <ul><li>Construtor de segmentos</li><li>Criador de métricas calculada</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Oculto em qualquer lugar**] | N/D | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
+
+1. Na coluna [!UICONTROL **Descrição**], marque a caixa de seleção e forneça uma descrição.
+1. Na coluna [!UICONTROL **Gravação de evento único**], marque a caixa de seleção e escolha no menu suspenso se deseja sempre gravar o evento.
+
+   As opções disponíveis são as seguintes:
+
+
+| Opção | Função |
+|---------|----------|
+| [!UICONTROL **Gravar Uma Vez Por Visita**] | Vincula o evento fornecido à sessão do visitante. As contagens subsequentes para um determinado evento na mesma visita são ignoradas. Esse tipo de serialização de eventos não requer alterações de implementação. |
+| [!UICONTROL **Usar ID de Evento**] | Vincula o evento fornecido a uma ID personalizada. As contagens subsequentes de um determinado evento com a mesma ID de evento são ignoradas. Esse tipo de serialização de eventos requer uma ID personalizada em ocorrências para desduplicar valores. Consulte [Serialização de ID de evento](/help/implement/vars/page-vars/events/event-serialization.md) no guia de usuário Implementar. |
+
+1. Na coluna [!UICONTROL **Participação**], marque a caixa de seleção e escolha se deseja habilitar ou desabilitar a participação. Quando ativado, oferece crédito de atribuição total a todos os itens de dimensão na visita.
+
+   >[!NOTE]
+   >
+   >Você pode ativar a participação de até 100 eventos personalizados. Além disso, você pode criar métricas de participação no construtor de [Métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md).
+
+1. Selecione **[!UICONTROL Salvar]**.
+
 ## Página Eventos bem-sucedidos - Descrições {#section_681ECEC981694CABBDBF00E18165B447}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Eventos bem-sucedidos]**
@@ -49,8 +105,8 @@ A página Eventos bem-sucedidos permite configurar as variáveis Evento usadas n
 |--- |--- |
 | Evento | O nome original do evento. |
 | Nome | Dê nomes significativos aos eventos bem-sucedidos usados em seu site. Por exemplo, se event1 for usado para controlar registros, altere o nome aqui, de modo que event1 seja representado como a métrica &quot;Registros&quot; em todos os relatórios de Conversão. |
-| Tipo | O Tipo selecionado determina se o evento é um evento de contador (padrão), numérico ou de moeda. Eventos numéricos e de moeda permitem incrementar métricas como mais de uma.  Os eventos de contador são usados para registrar um evento no tempo apropriado, enquanto eventos de moeda registram um número decimal, como imposto ou frete. O valor transmitido para eventos de moeda será convertido da moeda da página para a moeda de base do conjunto de relatórios mediante ao recebimento. Para obter mais detalhes sobre o uso de eventos de moeda, entre em contato com um representante da Adobe. Eventos numéricos são usados para relatar números que não são moeda, como o número de cupons usados em um pedido. Eventos de moeda são usados para acompanhar encargos de impostos e remessa. Eventos usados no tipo de Padrão de Fontes de dados devem ser eventos numéricos ou de moeda. |
-| Polaridade | A polaridade da métrica permite indicar se o Adobe Analytics deve considerá-la boa ou ruim se um determinado evento personalizado (métrica) aumentar. Isso permitirá que o Adobe Analytics exiba indicadores direcionais (setas) para diversas métricas para adicionar contexto (por exemplo, comparações entre semanas).  Exemplos: se &quot;Bugs enviados&quot; aumentar semana após semana, o Adobe Analytics deve considerar isso bom ou ruim? Um aumento nos Registros de email provavelmente é bom. Mas um aumento em Erros no envio do formulário provavelmente é ruim.  Na Analysis Workspace, a polaridade é aplicada: à formatação condicional da tabela de forma livre, às visualizações de alteração de resumo e ao esquema de cor positivo/negativo da visualização de mapa. |
+| Tipo | O Tipo selecionado determina se o evento é um evento de contador (padrão), numérico ou de moeda. <p>Os eventos contadores são usados para registrar um evento a tempo.</p><p>Eventos numéricos são usados para relatar números não relacionados a moeda, como o número de cupons usados em um pedido.</p> <p>Os eventos de moeda registram um número decimal, como imposto ou remessa. O valor transmitido para eventos de moeda será convertido da moeda da página para a moeda de base do conjunto de relatórios mediante ao recebimento. Eventos de moeda são usados para acompanhar encargos de impostos e remessa. Para obter mais detalhes sobre o uso de eventos de moeda, entre em contato com um representante da Adobe.<p>Eventos numéricos e de moeda permitem incrementar métricas como mais de uma.</p><p>Eventos usados no tipo de Padrão de Fontes de dados devem ser eventos numéricos ou de moeda.</p> |
+| Polaridade | A polaridade da métrica permite indicar se o Adobe Analytics deve considerá-la boa ou ruim se um determinado evento personalizado (métrica) aumentar. Isso permitirá que o Adobe Analytics mostre indicadores direcionais (setas) para várias métricas para adicionar contexto (por exemplo, comparações entre semanas).  Exemplos: se &quot;Bugs enviados&quot; aumentar semana após semana, o Adobe Analytics deve considerar isso bom ou ruim? Um aumento nos Registros de email provavelmente é bom. Mas um aumento em Erros no envio do formulário provavelmente é ruim.  Na Analysis Workspace, a polaridade é aplicada: à formatação condicional da tabela de forma livre, às visualizações de alteração de resumo e ao esquema de cor positivo/negativo da visualização de mapa. |
 | Descrição | Uma breve descrição do objetivo e utilização do evento. |
 | Registro único de evento | **Registrar uma vez por visita**: Vincula o evento fornecido à sessão do visitante. As contagens subsequentes para um determinado evento na mesma visita são ignoradas. Esse tipo de serialização de eventos não requer alterações de implementação.<br>**Usar ID de evento:** Vincula o evento fornecido a uma ID personalizada. As contagens subsequentes de um determinado evento com a mesma ID de evento são ignoradas. Esse tipo de serialização de eventos requer uma ID personalizada em ocorrências para desduplicar valores. Consulte [Serialização de ID de evento](/help/implement/vars/page-vars/events/event-serialization.md) no guia de usuário Implementar. |
 | Participação | Atribui crédito de atribuição total a todos os itens de dimensão na visita. |
