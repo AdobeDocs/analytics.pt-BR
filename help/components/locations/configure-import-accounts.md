@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Configurar contas de importação e exportação na nuvem
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 6cf277667230a56da9793deb550df1980f1d33b0
+source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -140,7 +140,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Host**] | Insira o URL de destino FTP desejado. Por exemplo, `ftp://ftp.omniture.com`. |
+   | [!UICONTROL **Host**] | Insira o URL de destino FTP desejado. Por exemplo, `ftp.adobe.com`. |
    | [!UICONTROL **Caminho**] | Pode ser deixado em branco. |
    | [!UICONTROL **Nome de usuário**] | Insira o nome de usuário para fazer logon no site FTP. |
    | [!UICONTROL **Senha e senha de confirmação**] | Digite a senha para fazer logon no site FTP. |
