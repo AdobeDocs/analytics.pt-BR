@@ -3,10 +3,10 @@ description: Etapas que descrevem como criar uma solicitação do data warehouse
 title: Configurar um destino de relatório para uma solicitação do data warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
+source-git-commit: 16a9c9a2b6692b9b1944cfdb9b5b0411d48db666
 workflow-type: tm+mt
-source-wordcount: '2615'
-ht-degree: 99%
+source-wordcount: '1925'
+ht-degree: 84%
 
 ---
 
@@ -52,7 +52,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
    >
    >A opção [!UICONTROL **Mostrar todos os destinos**] está disponível para administradores do sistema. Habilite essa opção se desejar ter acesso a todas as contas e locais que foram criados por qualquer usuário na organização.
 
-   1. Selecione a conta no menu suspenso [!UICONTROL **Selecionar conta**].
+   1. Selecione a conta no menu suspenso [!UICONTROL **Conta**].
 
       Todas as contas em nuvem configuradas em qualquer uma das seguintes áreas do Adobe Analytics estão disponíveis para uso:
 
@@ -66,26 +66,30 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
 1. (Condicional) Se você não tiver acesso a uma conta na nuvem já configurada no Adobe Analytics, será possível configurá-la:
 
-   1. Selecione [!UICONTROL **Adicionar conta**] e especifique as seguintes informações:
+   1. Selecione o menu suspenso [!UICONTROL **Conta**] e selecione [!UICONTROL **Adicionar conta**].
+
+   1. Na caixa de diálogo Adicionar conta, especifique as seguintes informações:
 
       | Campo | Função |
       |---------|----------|
-      | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta de cada tipo, com os vários locais necessários contidos nessa conta. <p>Depois de escolher um tipo de conta, aparecerão campos específicos para esse tipo de conta. </p> |
-      | [!UICONTROL **Nome da conta**] | Especifique um nome para a conta. Esse nome aparece ao criar um local. <!-- true? --> |
-      | [!UICONTROL **Descrição da conta**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. |
+      | [!UICONTROL **Nome da conta de localização**] | O nome da conta de localização. Este nome aparece ao criar um local |
+      | [!UICONTROL **Descrição da conta de localização**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. |
+      | [!UICONTROL **Disponibilizar a conta para todos os usuários em sua organização**] | Habilite essa opção para permitir que outros usuários em sua organização usem a conta.<p>Considere o seguinte ao compartilhar contas:</p><ul><li>As contas compartilhadas não podem ter o compartilhamento cancelado.</li><li>As contas compartilhadas podem ser editadas somente pelo proprietário da conta.</li><li>Qualquer pessoa pode criar um local para a conta compartilhada.</li></ul> |
+      | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta de cada tipo, com os vários locais necessários contidos nessa conta.<p>Os administradores do sistema podem limitar os tipos de conta que os usuários podem criar, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</p> |
 
-      Para obter instruções de configuração, expanda a seção abaixo que corresponde ao [!UICONTROL **Tipo de conta**] que você selecionou.
+   1. Na seção [!UICONTROL **Propriedades da conta**], especifique informações específicas para o tipo de conta selecionado.
 
-      Use qualquer um dos tipos de conta a seguir ao configurar um destino de relatório. Para obter instruções de configuração, expanda o tipo de conta. ([Destinos herdados](#legacy-destinations) adicionais também estão disponíveis, mas não são recomendados.)
+      Para obter instruções de configuração, expanda a seção abaixo que corresponde ao [!UICONTROL **Tipo de conta**] selecionado. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
 
-      +++Amazon S3
+      **Tipos de conta**
+
+      +++ARN de função do Amazon S3
 
       Para configurar uma conta do Amazon S3 Role ARN, especifique as seguintes informações:
 
       | Campo | Função |
       |---------|----------|
-      | [!UICONTROL **ARN de função**] | Você deve fornecer um ARN (Amazon Resource Name) de função que a Adobe possa usar para obter acesso à conta do Amazon S3. Para fazer isso, crie uma política de permissão IAM para a conta de origem, anexe a política a um usuário e crie uma função para a conta de destino. Para obter informações específicas, consulte [esta documentação do AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>Para obter informações sobre como configurar a permissão do bucket, consulte o artigo [Como fornecer acesso entre contas a objetos que estão nos buckets do Amazon S3?](https://repost.aws/knowledge-center/cross-account-access-s3) no centro de conhecimento da Amazon. |
-      | [!UICONTROL **ARN de usuário**] | O ARN (Amazon Resource Name) de usuário é fornecido pela Adobe. É preciso anexar este usuário à política que você criou. |
+      | [!UICONTROL **ARN de função**] | Você deve fornecer um ARN (Amazon Resource Name) de função que a Adobe possa usar para obter acesso à conta do Amazon S3. Para fazer isso, crie uma política de permissão IAM para a conta de origem, anexe a política a um usuário e crie uma função para a conta de destino. Para obter informações específicas, consulte [esta documentação do AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
 
       {style="table-layout:auto"}
 
@@ -111,9 +115,9 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
       |---------|----------|
       | [!UICONTROL **ID do aplicativo**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **ID do locatário**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **URI do cofre de chaves**] | <p>O caminho para o URI do SAS no Azure Key Vault. Para configurar o Azure SAS, é necessário armazenar um URI do SAS como um segredo usando o Azure Key Vault. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Depois que o URI do cofre de chaves for criado:<ul><li>Adicione uma política de acesso no cofre de chaves para conceder permissão ao aplicativo do Azure que você criou.</li><li>Verifique se a ID do aplicativo recebeu a função integrada `Key Vault Certificate User` para acessar o URI do cofre de chaves.</br><p>Para obter mais informações, consulte [Funções integradas do Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Para obter informações, consulte a [documentação do Microsoft Azure sobre como atribuir uma política de acesso do cofre de chaves](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-      | [!UICONTROL **Nome secreto do cofre de chaves**] | O nome secreto que você criou ao adicionar o segredo ao cofre de chaves do Azure. No Microsoft Azure, essas informações se localizam no cofre de chaves que você criou, nas páginas de configurações do **cofre de chaves**. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-      | [!UICONTROL **Segredo**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Certificados e segredos** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+      | [!UICONTROL **URI do cofre de chaves**] | <p>O caminho para o token SAS no cofre de chaves do Azure.  Para configurar o Azure SAS, você deve armazenar um token SAS como um segredo usando o Cofre de Chaves do Azure. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Depois que o URI do cofre de chaves for criado, adicione uma política de acesso no Cofre de Chaves para conceder permissão ao aplicativo do Azure que você criou. Para obter informações, consulte a [documentação do Microsoft Azure sobre como atribuir uma política de acesso do cofre de chaves](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+      | [!UICONTROL **Nome secreto do cofre de chaves**] | O nome secreto criado ao adicionar o segredo ao Cofre de Chaves do Azure. No Microsoft Azure, essas informações estão localizadas no Cofre de Chaves que você criou, na página de configurações do **Cofre de Chaves**. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+      | [!UICONTROL **Segredo da conta de localização**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Certificados e segredos** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
       {style="table-layout:auto"}
 
@@ -127,7 +131,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
       |---------|----------|
       | [!UICONTROL **ID do aplicativo**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **ID do locatário**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **Segredo**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Certificados e segredos** do aplicativo. Para obter mais informações, consulte [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+      | [!UICONTROL **Segredo da conta de localização**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Certificados e segredos** do aplicativo. Para obter mais informações, consulte [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
       {style="table-layout:auto"}
 
@@ -135,72 +139,15 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       +++Email
 
-      Para configurar uma conta de email, especifique as seguintes informações:
+      >[!NOTE]
+      >
+      >Contas de email podem ser usadas apenas com [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md). (Contas de email sem suporte no [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Conjuntos de classificações](/help/components/classifications/sets/overview.md)).
+
+      Para configurar uma conta do Azure RBAC, especifique as seguintes informações:
 
       | Campo | Função |
       |---------|----------|
-      | [!UICONTROL **Destinatários**] | É possível enviar notificações por email a usuários específicos quando o relatório é enviado. Especifique um único endereço de email ou uma lista separada por vírgulas de endereços de email. <!-- How does this differ from the Notification email tab? --> |
-
-   1. Selecione [!UICONTROL **Adicionar local**] e especifique as seguintes informações:
-
-      | Campo | Função |
-      |---------|----------|
-      | [!UICONTROL **Nome**] | O nome do local. |
-      | [!UICONTROL **Descrição**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. |
-      | [!UICONTROL **Conta da localização**] | Selecione a conta de localização que você criou em [Adicionar uma conta](#add-an-account). |
-
-   1. Na seção [!UICONTROL **Propriedades da localização**], insira as informações específicas ao tipo da sua conta de localização.
-
-      Para obter instruções de configuração, expanda a seção abaixo que corresponde ao [!UICONTROL **Tipo de conta**] que você selecionou anteriormente.
-
-      +++Amazon S3
-
-      Para configurar um local do Amazon S3, especifique as seguintes informações:
-
-      | Campo | Função |
-      |---------|----------|
-      | [!UICONTROL **Nome do bucket**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. <p>Certifique-se de que o ARN de usuário fornecido pela Adobe contenha a permissão `S3:PutObject` para fazer upload de arquivos nesse bucket. Esta permissão possibilita que o ARN de usuário faça upload dos arquivos iniciais e sobrescreva arquivos em uploads subsequentes.</p><p>Os nomes dos blocos precisam cumprir regras de nomenclatura específicas. Por exemplo, eles precisam conter entre 3 e 63 caracteres, só podem conter letras minúsculas, números, pontos (.) e hifens (-), e precisam começar e terminar com uma letra ou número. [Uma lista completa de regras de nomenclatura está disponível na documentação do AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
-      | [!UICONTROL **Prefixo da chave**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
-
-      {style="table-layout:auto"}
-
-+++
-
-      +++Google Cloud Platform
-
-      Para configurar um local da Google Cloud Platform, especifique as seguintes informações:
-
-      | Campo | Função |
-      |---------|----------|
-      | [!UICONTROL **Nome do bucket**] | O bucket da conta da GCP para o qual você deseja enviar os dados do Adobe Analytics. <p>Verifique se você concedeu uma das seguintes permissões ao principal fornecido pela Adobe: (Para mais informações sobre como conceder permissões, consulte [Adicionar um principal a uma política no nível do bloco](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) na documentação da Google Cloud.)<ul><li>`roles/storage.objectCreator`: use essa permissão se desejar limitar o principal a criar arquivos somente em sua conta da GCP. </br>**Importante:** se você usar essa permissão com relatórios agendados, deverá usar um nome de arquivo único para cada nova exportação agendada. Caso contrário, ocorrerá uma falha na geração do relatório, pois o principal não terá permissão para sobrescrever os arquivos existentes.</li><li>`roles/storage.objectUser`: use essa permissão se desejar que o principal tenha acesso para exibir, listar, atualizar e excluir arquivos na sua conta da GCP.</br>Essa permissão possibilita que o principal sobrescreva arquivos existentes em uploads subsequentes, sem a necessidade de gerar automaticamente nomes de arquivo únicos para cada nova exportação agendada.</li></ul><p>Se a sua organização estiver usando [Restrições de política da organização](https://cloud.google.com/storage/docs/org-policy-constraints) para permitir somente a conta da Google Cloud Platform na sua lista de permissões, você precisará da seguinte ID de organização da Google Cloud Platform pertencente à Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
-      | [!UICONTROL **Prefixo da chave**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
-
-      {style="table-layout:auto"}
-
-+++
-
-      +++Azure SAS
-
-      Para configurar um local do Azure SAS, especifique as seguintes informações:
-
-      | Campo | Função |
-      |---------|----------|
-      | [!UICONTROL **Nome do container**] | O container na conta especificada para onde você deseja enviar os dados do Adobe Analytics. |
-      | [!UICONTROL **Prefixo da chave**] | A pasta no container onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/`<p>Verifique se o armazenamento de URIs do SAS que você especificou no campo do nome secreto no Key Vault ao configurar a conta do Azure SAS possui a permissão `Write`. Isso permite que o URI do SAS crie arquivos no container do Azure. <p>Se desejar que o URI do SAS também substitua arquivos, verifique se o armazenamento de URIs do SAS possui a permissão `Delete`.</p><p>Para obter mais informações, consulte [Recursos de armazenamento de blobs](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) na documentação do Armazenamento Azure Blob.</p> |
-
-      {style="table-layout:auto"}
-
-+++
-
-      +++Azure RBAC
-
-      Para configurar um local do Azure RBAC, especifique as seguintes informações:
-
-      | Campo | Função |
-      |---------|----------|
-      | [!UICONTROL **Nome do container**] | O container na conta especificada para onde você deseja enviar os dados do Adobe Analytics. Conceda permissões para fazer upload de arquivos para o aplicativo do Azure que você criou anteriormente. |
-      | [!UICONTROL **Prefixo de chave**] | A pasta no container onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/`<p>Verifique se a ID do aplicativo que você especificou ao configurar a conta do Azure RBAC recebeu a função `Storage Blob Data Contributor` para acessar o container (pasta).</p> <p>Para obter mais informações, consulte [Funções integradas do Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
-      | [!UICONTROL **Nome da conta**] | A conta de armazenamento do Azure. |
+      | [!UICONTROL **Destinatários**] | É possível enviar notificações por email a usuários específicos quando o relatório é enviado. Especifique um único endereço de email ou uma lista separada por vírgulas de endereços de email. |
 
       {style="table-layout:auto"}
 
@@ -208,7 +155,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
 1. Continue configurando sua solicitação do data warehouse na guia [!UICONTROL **Opções de relatório**]. Para obter mais informações, consulte [Configurar opções de relatório para uma solicitação do data warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
-## Destinos herdados
+## Tipos de conta herdada
 
 >[!IMPORTANT]
 >

@@ -5,10 +5,10 @@ title: Variáveis de conversão (eVar)
 feature: Admin Tools
 role: Admin
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 100%
+source-wordcount: '1715'
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,7 @@ A variável de conversão do Custom Insight (ou eVar) é colocada no código da 
 
 ## Visão geral das variáveis de conversão (eVars)
 
-A seguir, um vídeo com uma visão geral:
-
->[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
+Para obter uma visão geral em vídeo das variáveis de conversão, consulte [Introdução às variáveis de conversão](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) no guia de tutoriais do Analytics.
 
 Quando uma eVar é definida como um valor para um visitante, a Adobe se lembra automaticamente desse valor até sua expiração. Quaisquer eventos bem-sucedidos que um visitante encontrar enquanto o valor da eVar está ativo são contados no valor da eVar.
 

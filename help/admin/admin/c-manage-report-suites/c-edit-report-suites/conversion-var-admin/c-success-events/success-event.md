@@ -5,10 +5,10 @@ title: Visão geral dos eventos bem-sucedidos
 feature: Event
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 68%
+source-wordcount: '938'
+ht-degree: 54%
 
 ---
 
@@ -16,11 +16,9 @@ ht-degree: 68%
 
 Eventos bem-sucedidos (também conhecidos como eventos de conversão ou eventos personalizados) são ações que podem ser rastreadas. Você determina o que é um evento bem-sucedido. Por exemplo, se um visitante comprar um item, o evento de compra pode ser considerado o evento bem-sucedido.
 
-Veja um vídeo com uma visão geral:
+Para obter uma visão geral em vídeo sobre eventos de sucesso, consulte [Introdução a eventos de conversão](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) no guia de tutoriais do Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
-
-## Entender os eventos de sucesso
+## Exemplos de evento bem-sucedido
 
 Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vários exemplos incluem:
 
@@ -54,9 +52,9 @@ Para configurar eventos bem-sucedidos:
 
 1. Na coluna **[!UICONTROL Tipo]**, marque a caixa de seleção ao lado do item para habilitar a lista suspensa e, em seguida, selecione o tipo desejado.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >É possível alterar um evento de contador, numérico ou moeda para outro tipo sem perder acesso aos dados capturados anteriormente.
+   >Considere o seguinte ao alterar o tipo de evento:<ul><li>Você pode alterar o tipo de evento entre contador e numérico sem perder acesso aos dados capturados anteriormente.</li><li>Ao alterar tipos de evento para ou partir de um evento de moeda, uma mensagem é exibida declarando que os dados históricos não estão disponíveis no relatório. Tipos de evento diferentes usam tabelas de dados separadas e não podem ser usados ao mesmo tempo. Alguns dados históricos podem ser restaurados se o usuário reverter o tipo de evento. No entanto, os dados coletados após a alteração inicial não estarão disponíveis.</li></ul>
 
    O tipo selecionado determina se o evento é um evento de contador (padrão), numérico ou de moeda. <p>Os eventos contadores são usados para registrar um evento a tempo.</p><p>Eventos numéricos são usados para relatar números não relacionados a moeda, como o número de cupons usados em um pedido.</p> <p>Os eventos de moeda registram um número decimal, como imposto ou remessa. O valor transmitido para eventos de moeda será convertido da moeda da página para a moeda de base do conjunto de relatórios mediante ao recebimento. Eventos de moeda são usados para acompanhar encargos de impostos e remessa. Para obter mais detalhes sobre o uso de eventos de moeda, entre em contato com um representante da Adobe.<p>Eventos numéricos e de moeda permitem incrementar métricas como mais de uma.</p><p>Eventos usados no tipo de Padrão de Fontes de dados devem ser eventos numéricos ou de moeda.</p>
 
@@ -81,11 +79,10 @@ Para configurar eventos bem-sucedidos:
 
    As opções disponíveis são as seguintes:
 
-
-| Opção | Função |
-|---------|----------|
-| [!UICONTROL **Gravar Uma Vez Por Visita**] | Vincula o evento fornecido à sessão do visitante. As contagens subsequentes para um determinado evento na mesma visita são ignoradas. Esse tipo de serialização de eventos não requer alterações de implementação. |
-| [!UICONTROL **Usar ID de Evento**] | Vincula o evento fornecido a uma ID personalizada. As contagens subsequentes de um determinado evento com a mesma ID de evento são ignoradas. Esse tipo de serialização de eventos requer uma ID personalizada em ocorrências para desduplicar valores. Consulte [Serialização de ID de evento](/help/implement/vars/page-vars/events/event-serialization.md) no guia de usuário Implementar. |
+   | Opção | Função |
+   |---------|----------|
+   | [!UICONTROL **Gravar Uma Vez Por Visita**] | Vincula o evento fornecido à sessão do visitante. As contagens subsequentes para um determinado evento na mesma visita são ignoradas. Esse tipo de serialização de eventos não requer alterações de implementação. |
+   | [!UICONTROL **Usar ID de Evento**] | Vincula o evento fornecido a uma ID personalizada. As contagens subsequentes de um determinado evento com a mesma ID de evento são ignoradas. Esse tipo de serialização de eventos requer uma ID personalizada em ocorrências para desduplicar valores. Consulte [Serialização de ID de evento](/help/implement/vars/page-vars/events/event-serialization.md) no guia de usuário Implementar. |
 
 1. Na coluna [!UICONTROL **Participação**], marque a caixa de seleção e escolha se deseja habilitar ou desabilitar a participação. Quando ativado, oferece crédito de atribuição total a todos os itens de dimensão na visita.
 
@@ -94,20 +91,3 @@ Para configurar eventos bem-sucedidos:
    >Você pode ativar a participação de até 100 eventos personalizados. Além disso, você pode criar métricas de participação no construtor de [Métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md).
 
 1. Selecione **[!UICONTROL Salvar]**.
-
-## Página Eventos bem-sucedidos - Descrições {#section_681ECEC981694CABBDBF00E18165B447}
-
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Conversão]** > **[!UICONTROL Eventos bem-sucedidos]**
-
-A página Eventos bem-sucedidos permite configurar as variáveis Evento usadas no site. É possível adicionar até 1000 eventos bem-sucedidos. Os eventos 81-1000 funcionam somente no código H22 ou superior.
-
-| Elemento | Descrição |
-|--- |--- |
-| Evento | O nome original do evento. |
-| Nome | Dê nomes significativos aos eventos bem-sucedidos usados em seu site. Por exemplo, se event1 for usado para controlar registros, altere o nome aqui, de modo que event1 seja representado como a métrica &quot;Registros&quot; em todos os relatórios de Conversão. |
-| Tipo | O Tipo selecionado determina se o evento é um evento de contador (padrão), numérico ou de moeda. <p>Os eventos contadores são usados para registrar um evento a tempo.</p><p>Eventos numéricos são usados para relatar números não relacionados a moeda, como o número de cupons usados em um pedido.</p> <p>Os eventos de moeda registram um número decimal, como imposto ou remessa. O valor transmitido para eventos de moeda será convertido da moeda da página para a moeda de base do conjunto de relatórios mediante ao recebimento. Eventos de moeda são usados para acompanhar encargos de impostos e remessa. Para obter mais detalhes sobre o uso de eventos de moeda, entre em contato com um representante da Adobe.<p>Eventos numéricos e de moeda permitem incrementar métricas como mais de uma.</p><p>Eventos usados no tipo de Padrão de Fontes de dados devem ser eventos numéricos ou de moeda.</p> |
-| Polaridade | A polaridade da métrica permite indicar se o Adobe Analytics deve considerá-la boa ou ruim se um determinado evento personalizado (métrica) aumentar. Isso permitirá que o Adobe Analytics mostre indicadores direcionais (setas) para várias métricas para adicionar contexto (por exemplo, comparações entre semanas).  Exemplos: se &quot;Bugs enviados&quot; aumentar semana após semana, o Adobe Analytics deve considerar isso bom ou ruim? Um aumento nos Registros de email provavelmente é bom. Mas um aumento em Erros no envio do formulário provavelmente é ruim.  Na Analysis Workspace, a polaridade é aplicada: à formatação condicional da tabela de forma livre, às visualizações de alteração de resumo e ao esquema de cor positivo/negativo da visualização de mapa. |
-| Descrição | Uma breve descrição do objetivo e utilização do evento. |
-| Registro único de evento | **Registrar uma vez por visita**: Vincula o evento fornecido à sessão do visitante. As contagens subsequentes para um determinado evento na mesma visita são ignoradas. Esse tipo de serialização de eventos não requer alterações de implementação.<br>**Usar ID de evento:** Vincula o evento fornecido a uma ID personalizada. As contagens subsequentes de um determinado evento com a mesma ID de evento são ignoradas. Esse tipo de serialização de eventos requer uma ID personalizada em ocorrências para desduplicar valores. Consulte [Serialização de ID de evento](/help/implement/vars/page-vars/events/event-serialization.md) no guia de usuário Implementar. |
-| Participação | Atribui crédito de atribuição total a todos os itens de dimensão na visita. |
-| Aviso (evento de moeda) | Ao alterar tipos de evento para ou partir de um evento de moeda, uma mensagem será exibida declarando que os dados históricos não estarão disponíveis no relatório.  Tipos de evento diferentes usam tabelas de dados separadas e não podem ser usados ao mesmo tempo. Alguns dados históricos podem ser restaurados se o usuário reverter o tipo de evento. Contudo, todos os dados coletados após a alteração inicial não estarão disponíveis. Tome cuidado ao alterar um tipo de evento. |
