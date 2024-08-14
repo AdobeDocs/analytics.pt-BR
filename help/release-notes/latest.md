@@ -3,7 +3,7 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ff5067a1f7d500c11737ddae507b431b875a44d9
+source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 77%
@@ -20,7 +20,7 @@ Essas notas de versão abrangem o período de lançamento de 14 de agosto de 202
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Melhorias no SDK da Web para rastreamento de link** | Várias melhorias notáveis estão disponíveis na versão mais recente do SDK da Web em relação ao rastreamento de link, que beneficia diretamente o Activity Map. Esses novos recursos estão disponíveis na biblioteca JavaScript do SDK da Web e na extensão de tag do SDK da Web.<ul><li>Agrupamento de eventos: quando um visitante clica em um link interno, é possível optar por agrupar dados do evento na próxima página, em vez de acionar uma chamada de evento separada para o rastreamento de link. Essa melhoria reduz o número de eventos que o SDK da Web usa em relação ao limite contratual.</li><li>Filtrar propriedades de clique: um novo retorno de chamada que substitui `OnBeforeLinkClickSend`. Você pode usar essa chamada de retorno para filtrar ou ofuscar dados relacionados ao link antes de enviá-lo à Adobe.</li></ul><p>Consulte [clickCollection](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollection) no guia do usuário do SDK da Web para obter mais informações.</p> | O Open Beta começou em 10 de julho de 2024 | A ser definido |
+| **Melhorias no SDK da Web para rastreamento de link** | Várias melhorias notáveis estão disponíveis na versão mais recente do SDK da Web em relação ao rastreamento de link, que beneficia diretamente o Activity Map. Esses novos recursos estão disponíveis na biblioteca JavaScript do SDK da Web e na extensão de tag do SDK da Web.<ul><li>Agrupamento de eventos: quando um visitante clica em um link interno, é possível optar por agrupar dados do evento na próxima página, em vez de acionar uma chamada de evento separada para o rastreamento de link. Essa melhoria reduz o número de eventos que o SDK da Web usa em relação ao limite contratual.</li><li>Filtrar propriedades de clique: um novo retorno de chamada que substitui `OnBeforeLinkClickSend`. Você pode usar essa chamada de retorno para filtrar ou ofuscar dados relacionados ao link antes de enviá-lo à Adobe.</li></ul><p>Consulte [clickCollection](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollection) no guia do usuário do SDK da Web para obter mais informações.</p> | O Open Beta começou em 10 de julho de 2024 | sexta-feira, 18 de julho de 2024 |
 
 {style="table-layout:auto"}
 
