@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5957'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Julho de 2024** | |
-| Eventos bem-sucedidos | Documentação simplificada sobre [eventos de sucesso](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md). Atualização para maior clareza e precisão. |
+| Eventos bem-sucedidos | Documentação simplificada sobre [eventos bem-sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md). Atualizado para aumentar a clareza e a precisão. |
 | Pelo menos um tipo de conta deve ser selecionado ao gerenciar localizações | Foi esclarecido que quando os administradores estão [limitando os tipos de conta usados para exportação e importação](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users), pelo menos um tipo de conta deve ser selecionado. |
 | Adição de informações sobre métricas calculadas rápidas | Atualização das informações em [Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md) para esclarecer a diferença entre [métricas calculadas criadas no construtor de métricas calculadas](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) e [as criadas como métricas calculadas rápidas em um determinado projeto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Também foram adicionados mais detalhes sobre como criar métricas calculadas rápidas.<p>As métricas calculadas criadas no construtor de métricas calculadas estão disponíveis na lista de componentes e podem ser aplicadas aos projetos em toda a organização, enquanto as métricas calculadas criadas como métricas calculadas rápidas estão disponíveis somente no projeto em que foram criadas.</p><p>As informações encontradas em [Criar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) também foram atualizadas para fornecer esclarecimentos semelhantes.</p> |
 | Adição do threads.net à dimensão “Tipo de referenciador” | Adição do threads.net à lista de redes sociais que são usadas na [dimensão “Tipo de referenciador”](/help/components/dimensions/referrer-type.md). |
