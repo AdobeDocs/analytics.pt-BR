@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
-workflow-type: ht
-source-wordcount: '5957'
-ht-degree: 100%
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
+workflow-type: tm+mt
+source-wordcount: '5972'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **Agosto de 2024** | |
+| Gerenciador de alertas | Documentação simplificada sobre o [Gerenciador de alertas](/help/components/c-alerts/alert-manager.md). Atualizado para aumentar a clareza e a precisão. |
 | **Julho de 2024** | |
 | Eventos bem-sucedidos | Documentação simplificada sobre [eventos bem-sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md). Atualizado para aumentar a clareza e a precisão. |
 | Pelo menos um tipo de conta deve ser selecionado ao gerenciar localizações | Foi esclarecido que quando os administradores estão [limitando os tipos de conta usados para exportação e importação](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users), pelo menos um tipo de conta deve ser selecionado. |
@@ -34,7 +36,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Mensagens de erro comuns atualizadas | Atualizações secundárias feitas nas [mensagens de erro comuns](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Junho de 2024** | |
 | Atualização do nome do produto que se refere aos recursos de mídia de streaming | As instâncias do “Media Analytics” e de “Mídia de streaming” foram substituídas pelo nome “complemento Coleção de mídia de streaming” ao se referirem ao conjunto de recursos de mídia de streaming que coletam dados de mídia de streaming e os exibem no Analysis Workspace. <p>Essas atualizações estão disponíveis na documentação do Adobe Analytics, bem como na [Documentação do complemento Coleção de mídia de streaming](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).</p> |
-| Melhoria na documentação dos Alertas inteligentes | Documentação atualizada e aprimorada sobre alertas. Essas atualizações incluem informações sobre [criação de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [gerenciamento de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) e [informações gerais](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| Melhoria na documentação dos Alertas inteligentes | Documentação atualizada e aprimorada sobre alertas. Essas atualizações incluem informações sobre [criação de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [gerenciamento de alertas](/help/components/c-alerts/alert-manager.md) e [informações gerais](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | Obsoleto `cookieDomainPeriods` | Agora que o AppMeasurement detecta automaticamente o domínio correto para definir os cookies, a variável [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) está obsoleta. |
 | Remoção da documentação do Data Connectors | A página do fim da vida útil do Data Connectors foi movida para [Produtos Descontinuados](https://experienceleague.adobe.com/pt-br/docs/discontinued/using/data-connectors). |
 | **Maio de 2024** | |

@@ -4,7 +4,7 @@ title: Criador de alertas (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 39%
@@ -32,7 +32,7 @@ Para criar um Alerta Inteligente:
    * Abra um projeto no Analysis Workspace, selecione um ou mais itens de linha em uma tabela de forma livre, clique com o botão direito do mouse e selecione **[!UICONTROL Criar alerta a partir da seleção]**.
 
      Essa ação preenche o criador de alertas automaticamente para criar um alerta com as métricas e filtros corretos.
-   * Criar um alerta [no gerenciador de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#create-alerts).
+   * Criar um alerta [no gerenciador de alertas](/help/components/c-alerts/alert-manager.md#create-alerts).
 
    O criador de alertas é exibido. Essa interface é semelhante àquela que cria segmentos ou métricas calculadas no Analytics:
 
@@ -48,6 +48,6 @@ Para criar um Alerta Inteligente:
    | [!UICONTROL **Destinatários**] | Especifique para onde o alerta pode ser enviado. Um alerta pode ser enviado a um usuário do Analytics, a um grupo do Analytics, a um endereço de email bruto ou a um número de telefone.<p><b>Importante:</b>O número de telefone deve ser precedido por um &quot;+&quot; e um [código do país](https://countrycode.org/).</p><p>O email que um usuário receberia depois que um alerta é acionado é semelhante ao modelo abaixo:</p><p>![](assets/alerts-email.PNG)</p> |
    | [!UICONTROL **Data de expiração**] | Defina a data e a hora em que deseja que o alerta expire. |
    | [!UICONTROL **Enviar um alerta quando**] | [!UICONTROL **Qualquer uma destas métricas aciona**]: arraste e solte métricas (incluindo métricas calculadas) aqui para criar acionadores para o alerta.<p>Uma mensagem **&quot;componentes incompatíveis&quot;** será exibida se nem todas as métricas, dimensões ou segmentos no alerta forem compatíveis com a exibição de dados selecionada no momento.</p><p>Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:</p><ul><li>a anomalia existe</li><li>a anomalia está acima do esperado</li><li>a anomalia está abaixo do esperado</li><li>é igual ou maior que</li><li>é igual ou menor que</li><li>alterações por</li><li>Você pode definir um limite de 90%, 95%, 99%, 99,75% e 99,9%.</li></ul><p>[!UICONTROL **Com todos esses filtros**]: arraste e solte segmentos ou dimensões para adicionar filtros. Por exemplo, adicionar um segmento &quot;Somente dispositivos móveis&quot; significaria que a regra seria acionada somente para dispositivos móveis. Você pode adicionar filtros extras usando uma instrução AND. Você pode adicionar regras AND ou OR, clicando no ícone de engrenagem.</p><p>Consulte [Alertas inteligentes - casos de uso](/help/analyze/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md), por exemplo, casos de uso.</p> |
-   | [!UICONTROL **Pré-visualizar**] | A visualização de alertas interativa mostra a frequência de disparo aproximada de um alerta com base na experiência passada.<p>Por exemplo, se você definir a granularidade de tempo para diário, a visualização pode informar se o alarme foi disparado para uma determinada métrica x vezes durante os últimos 30 ou 31 dias.</p><p>Se achar que muitos alertas podem ter sido disparados, você pode ajustar o limite no [Gerenciador de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).</p><p>![](assets/alert_preview.png)</p> |
+   | [!UICONTROL **Pré-visualizar**] | A visualização de alertas interativa mostra a frequência de disparo aproximada de um alerta com base na experiência passada.<p>Por exemplo, se você definir a granularidade de tempo para diário, a visualização pode informar se o alarme foi disparado para uma determinada métrica x vezes durante os últimos 30 ou 31 dias.</p><p>Se achar que muitos alertas podem ter sido disparados, você pode ajustar o limite no [Gerenciador de alertas](/help/components/c-alerts/alert-manager.md).</p><p>![](assets/alert_preview.png)</p> |
 
 1. Selecione [!UICONTROL **Salvar**].
