@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| **Prazo de 13 meses para a expiração do`cust_visids`** salvo | quarta-feira, 20 de agosto de 2024 | A versão **20 de agosto de 2024** do mecanismo de processamento de Ocorrência do Analytics impõe uma expiração de 13 meses do `cust_visids` salvo. Se o conjunto de relatórios estiver com a opção “Habilitar identificação de visitantes” ativada, esta configuração será usada para encontrar o `cust_visid` para um `visid_high/visid_low value` que não contenha `cust_visid` na ocorrência. Anteriormente, não havia expiração do mapeamento de `cust_visid` para `visid_high/visid_low`. Com esta versão, o mapeamento expirará se 13 meses ou mais se passarem desde que o `visid_high/visid_low` teve um `cust_visid` em uma ocorrência. |
+| **Prazo de 13 meses para a expiração do`cust_visids`** salvo | 20 de agosto de 2024 | A versão de **20 de agosto de 2024** do mecanismo de processamento de ocorrências do Analytics impõe uma expiração de 13 meses do `cust_visids` salvo. Se o conjunto de relatórios estiver com a opção “Habilitar identificação de visitantes” ativada, esta configuração será usada para encontrar o `cust_visid` para um `visid_high/visid_low value` que não contenha `cust_visid` na ocorrência. Anteriormente, não havia expiração do mapeamento de `cust_visid` para `visid_high/visid_low`. Com esta versão, o mapeamento expirará se 13 meses ou mais se passarem desde que o `visid_high/visid_low` teve um `cust_visid` em uma ocorrência. |
 
 {style="table-layout:auto"}
 
