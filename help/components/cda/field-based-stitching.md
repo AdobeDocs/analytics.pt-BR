@@ -4,7 +4,7 @@ description: Entenda os pré-requisitos e as limitações da compilação de dad
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 90%
@@ -12,6 +12,8 @@ ht-degree: 90%
 ---
 
 # Compilação em campo
+
+{{available-existing-customers}}
 
 O Cross-Device Analytics fornece dois métodos distintos para compilar dados. Esse método depende de uma variável do Analytics, como uma [prop](/help/implement/vars/page-vars/prop.md) ou [eVar](/help/implement/vars/page-vars/evar.md), para conter um identificador de pessoa. Ele usa essa variável como base para vincular dispositivos. A Adobe recomenda essa opção de compilação para obter mais transparência e previsibilidade no rastreamento do visitante.
 

@@ -4,7 +4,7 @@ description: Faça com que seus dados se concentrem em pessoas e não em disposi
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 90%
@@ -12,6 +12,8 @@ ht-degree: 90%
 ---
 
 # Análise entre dispositivos
+
+{{available-existing-customers}}
 
 A Análise entre dispositivos (CDA) é um recurso que transforma a análise de uma visualização centrada em dispositivos em uma visualização centrada em pessoas. Como resultado, os analistas podem entender o comportamento do usuário que passa pelos navegadores, dispositivos ou aplicativos. A Adobe comporta dois workflows abrangentes para vincular dados do dispositivo:
 

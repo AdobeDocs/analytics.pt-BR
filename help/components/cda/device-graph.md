@@ -4,14 +4,17 @@ description: Entenda os pré-requisitos e as limitações da costura de dados us
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 60%
 
 ---
 
+
 # Gráfico de dispositivos
+
+{{available-existing-customers}}
 
 O Cross-Device Analytics pode usar o Gráfico privado para compilar dados. O Gráfico privado é um repositório de IDs de dispositivos com hash específicas da sua organização. O CDA se comunica regularmente com o gráfico do dispositivo para vincular dispositivos.
 
@@ -22,6 +25,7 @@ Se você pretende implementar o Cross-Device Analytics usando o método de gráf
 >[!WARNING]
 >
 >O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
+>
 
 * Todos os pré-requisitos estão listados na [página de visão geral](overview.md).
 * Sua organização deve usar o [Gráfico privado do Serviço de Identidade da Adobe Experience Platform](https://business.adobe.com/products/experience-platform/identity-service.html). Consulte também a [Página inicial](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR) no guia do usuário do Serviço de identidade.
