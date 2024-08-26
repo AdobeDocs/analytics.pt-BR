@@ -4,18 +4,18 @@ title: Práticas recomendadas de rotulagem
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 92%
+source-wordcount: '2830'
+ht-degree: 88%
 
 ---
 
 # Práticas recomendadas de rotulagem
 
->[!NOTE]
->
->Lembre-se de que a rotulagem precisa ser revisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
+A Rotulagem precisa ser revisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
+
+Os rótulos I1, I2, S1 e S2 têm o mesmo significado que os rótulos DULE nomeados correspondentemente no Adobe Experience Platform. No entanto, elas são usadas para fins muito diferentes. No Adobe Analytics, esses rótulos são usados para ajudar a identificar campos que devem ser anonimizados como o resultado de uma solicitação Privacy Service. No Adobe Experience Platform, são usados para controle de acesso, gerenciamento de consentimento e para aplicar restrições de marketing em campos rotulados. O Adobe Experience Platform oferece suporte a vários rótulos adicionais que não são usados pelo Adobe Analytics. Se você utilizar o Conector de dados do Analytics para importar os dados do Adobe Analytics para o Adobe Experience Platform, verifique se os rótulos I1, I2, S1 e S2 aplicados no Adobe Analytics também se aplicam aos esquemas no Adobe Experience Platform usados pelos conjuntos de relatórios importados.
 
 ## IDs identificáveis direta vs indiretamente  {#direct-vs-indirect}
 
@@ -24,7 +24,7 @@ Antes de descobrir quais rótulos devem ser aplicados aos campos/variáveis, pri
 * **Uma ID diretamente identificável (I1)**: nomeia a pessoa ou fornece um método direto para entrar em contato com ela. Exemplos incluiriam o nome de alguém (até mesmo um nome comum como John Smith, que pode ser compartilhado por centenas de pessoas), um endereço de email ou números de telefone, entre outros. Um endereço de correspondência sem um nome pode ser considerado diretamente identificável, mesmo que só possa identificar um domicílio ou empresa, e não uma pessoa específica dentro desse agregado familiar ou empresa.
 * **Uma ID indiretamente identificável (I2)**: não permite a identificação de um indivíduo por si só, mas pode ser combinada com outras informações (que podem ou não estar em sua posse) para identificar alguém. Exemplos de uma ID identificável indiretamente incluem um número de fidelização do cliente ou uma ID usada pelo sistema de CRM de uma empresa que seja única para cada um de seus clientes. Na Privacidade de dados, as IDs anônimas armazenadas nos cookies de rastreamento usados pelo Analytics podem ser consideradas como indiretamente identificáveis, embora possam identificar apenas um dispositivo e não um indivíduo. Em um dispositivo compartilhado, esses cookies não são capazes de distinguir os diferentes usuários do sistema. Por exemplo, apesar de o cookie não poder ser usado para localizar um computador que o contém, se alguém tiver acesso ao computador e localizar o cookie, esse indivíduo poderá vincular os dados de cookie do Analytics novamente ao computador.
 
-  Um endereço IP também é considerado como indiretamente identificável porque ele só pode ser atribuído a um único dispositivo em um determinado momento. No entanto, os ISPs podem mudar, e frequentemente mudam, os endereços IP para a maioria dos usuários; assim, ao longo do tempo, um endereço IP pode ter sido usado por qualquer um dos seus usuários. Também não é incomum que muitos clientes de um ISP ou vários funcionários de uma empresa que usem uma intranet compartilhem o mesmo endereço IP externo. Por causa disso, a Adobe não oferece suporte ao uso de um endereço IP como uma ID para uma solicitação de Privacidade de dados. Entretanto, quando uma ID que aceitamos for usada como parte de uma solicitação de exclusão, também apagaremos os endereços IP que ocorreram com essa ID. Você deve decidir se existem outras IDs coletadas que possam se enquadrar nessa categoria, de I1 ou I2, mas que não sejam adequadas para o uso como uma ID diferencial nas solicitações de Privacidade de dados.
+Um endereço IP também é considerado como indiretamente identificável porque ele só pode ser atribuído a um único dispositivo em um determinado momento. No entanto, os ISPs podem mudar, e frequentemente mudam, os endereços IP para a maioria dos usuários; assim, ao longo do tempo, um endereço IP pode ter sido usado por qualquer um dos seus usuários. Também não é incomum que muitos clientes de um ISP ou vários funcionários de uma empresa que usem uma intranet compartilhem o mesmo endereço IP externo. Por causa disso, a Adobe não oferece suporte ao uso de um endereço IP como uma ID para uma solicitação de Privacidade de dados. Entretanto, quando uma ID que aceitamos for usada como parte de uma solicitação de exclusão, também apagaremos os endereços IP que ocorreram com essa ID. Você deve decidir se existem outras IDs coletadas que possam se enquadrar nessa categoria, de I1 ou I2, mas que não sejam adequadas para o uso como uma ID diferencial nas solicitações de Privacidade de dados.
 
 Mesmo que sua empresa colete várias IDs diferentes nos dados do Analytics, é possível optar por usar apenas um subconjunto dessas IDs nas solicitações de Privacidade de dados. Os motivos disso podem incluir:
 

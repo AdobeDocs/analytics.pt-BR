@@ -4,24 +4,26 @@ title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '3569'
-ht-degree: 97%
+source-wordcount: '3790'
+ht-degree: 91%
 
 ---
 
 # Rótulos de privacidade de dados para variáveis do Analytics
 
-## Por que rotular os dados? {#why-label}
-
-Os clientes da Adobe, como controladores de dados, são responsáveis por cumprir as leis aplicáveis de privacidade de dados, como o GDPR e a CCPA. Os clientes devem consultar suas próprias equipes jurídicas para determinar como os dados devem ser tratados para cumprir as leis de privacidade de dados. A Adobe entende que cada um de seus clientes tem necessidades exclusivas relacionadas à privacidade, por isso ela permite que seus clientes personalizem as configurações desejadas para o processamento de dados de privacidade. Isso permite que cada cliente único processe solicitações de Privacidade de dados da maneira mais adequada para sua marca e conjunto de dados exclusivo.
+Os clientes do Adobe, como controladores de dados, são responsáveis por cumprir as leis de Privacidade de dados aplicáveis, como o Regulamento Geral sobre a Proteção de Dados (GDPR) e a Lei de Privacidade do Consumidor da Califórnia (CCPA). Os clientes devem consultar suas próprias equipes jurídicas para determinar como os dados devem ser tratados para cumprir as leis de privacidade de dados. A Adobe entende que cada um de seus clientes tem necessidades exclusivas relacionadas à privacidade, por isso ela permite que seus clientes personalizem as configurações desejadas para o processamento de dados de privacidade. Isso permite que cada cliente único processe solicitações de Privacidade de dados da maneira mais adequada para sua marca e conjunto de dados exclusivo.
 
 O Adobe Analytics fornece ferramentas para rotulação de dados de acordo com sua sensibilidade e restrições contratuais. Os rótulos são importantes para: (1) identificar os titulares de dados; (2) determinar quais dados retornar como parte de uma solicitação de acesso; e (3) identificar campos de dados que devem ser excluídos como parte de uma solicitação de exclusão.
 
 Antes de descobrir quais rótulos devem ser aplicados a quais campos/variáveis, é necessário [compreender as IDs](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md) que você está capturando nos dados do Analytics e decidir quais serão usadas nas solicitações de Privacidade de dados.
 
 A implementação da Privacidade de dados do Adobe Analytics oferece suporte aos seguintes rótulos para dados de identidade, dados sensíveis e governança de dados.
+
+>[!NOTE]
+>
+>Os rótulos I1, I2, S1 e S2 têm o mesmo significado que os rótulos DULE nomeados correspondentemente no Adobe Experience Platform. No entanto, elas são usadas para fins muito diferentes. No Adobe Analytics, esses rótulos são usados para ajudar a identificar campos que devem ser anonimizados como o resultado de uma solicitação Privacy Service. No Adobe Experience Platform, são usados para controle de acesso, gerenciamento de consentimento e para aplicar restrições de marketing nos campos rotulados. O Adobe Experience Platform oferece suporte a vários rótulos adicionais que não são usados pelo Adobe Analytics. Além disso, os rótulos no Adobe Experience Platform são aplicados aos esquemas. Se você utilizar o Conector de dados do Analytics para importar os dados do Adobe Analytics para o Adobe Experience Platform, será necessário garantir que os rótulos DULE apropriados estejam configurados no Adobe Experience Platform para os esquemas usados por cada um dos conjuntos de relatórios. Os rótulos atribuídos no Adobe Analytics não são aplicados automaticamente a esses esquemas no Adobe Experience Platform, pois representam apenas um subconjunto dos rótulos DULE que podem ser necessários para aplicação. Além disso, conjuntos de relatórios diferentes podem compartilhar um esquema, mas têm rótulos diferentes atribuídos a props e evars com o mesmo número e o esquema pode ser compartilhado por conjuntos de dados de outras fontes de dados, o que pode causar confusão sobre por que determinados campos receberam esses rótulos.
 
 ## Rótulos de dados de identidade {#identity-data-labels}
 
@@ -49,7 +51,7 @@ Os rótulos “S” de dados sensíveis são usados para classificar dados sens�
 
 Os rótulos de governança de dados oferecem aos usuários a capacidade de classificar dados que refletem considerações relativas à privacidade e condições contratuais, a fim de auxiliar os clientes da Adobe a manter a conformidade com os regulamentos e as políticas corporativas.
 
-### Rótulos de acesso da privacidade de dados
+### Rótulos de acesso da privacidade de dados {#access}
 
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
@@ -61,7 +63,7 @@ Os rótulos de governança de dados oferecem aos usuários a capacidade de class
 
 Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que os rótulos de acesso sejam aplicados em muitas de suas variáveis. No entanto, cabe a você, com a orientação de sua equipe jurídica, decidir quais dados coletados devem ser compartilhados com os titulares de dados.
 
-### Rótulos de exclusão da privacidade de dados
+### Rótulos de exclusão da privacidade de dados {#delete}
 
 Ao contrário dos outros rótulos, esses rótulos de Exclusão não são mutuamente exclusivos. Você pode selecionar ambos ou nenhum. Um rótulo [!UICONTROL Nenhum] separado não é necessário, pois o valor [!UICONTROL Nenhum] pode ser indicando simplesmente por não selecionar as opções de exclusão.
 
@@ -74,7 +76,7 @@ Um rótulo de exclusão é necessário apenas para campos que contenham um valor
 
 {style="table-layout:auto"}
 
-### Rótulos de identidade da privacidade de dados
+### Rótulos de identidade da privacidade de dados {#identity}
 
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
@@ -88,7 +90,7 @@ Um rótulo de exclusão é necessário apenas para campos que contenham um valor
 
 Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solicitação para fornecer um namespace. Você pode usar um namespace definido anteriormente ou definir um novo.
 
-### Usar um namespace definido anteriormente
+### Usar um namespace definido anteriormente {#previously-defined}
 
 Se você atribuiu anteriormente um rótulo de ID a outras variáveis em qualquer um dos conjuntos de relatórios na empresa de logon, será possível selecionar um desses namespaces existentes. Reutilize o namespace se essa variável contiver o mesmo tipo de IDs que outras variáveis já rotuladas com esse namespace e você desejar pesquisar todos eles ao enviar uma solicitação.
 
@@ -97,7 +99,7 @@ Se você atribuiu anteriormente um rótulo de ID a outras variáveis em qualquer
 1. Clique em **[!UICONTROL Aplicar]**.
 
 
-### Definir um novo namespace
+### Definir um novo namespace {#define}
 
 Você também pode definir um novo namespace. Recomendamos que as sequências de caracteres do namespace sejam limitadas a caracteres alfanuméricos, além de caracteres com sublinhado, traço e espaço. Elas serão inteiramente convertidas para letras minúsculas.
 
