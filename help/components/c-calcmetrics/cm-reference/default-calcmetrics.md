@@ -3,9 +3,9 @@ description: O Adobe fornece várias métricas calculadas que você pode usar. E
 title: Métricas calculadas padrão
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '736'
 ht-degree: 40%
 
 ---
@@ -21,8 +21,9 @@ Veja a seguir uma lista de cada métrica calculada fornecida por Adobe, com sua 
 >Além das métricas calculadas padrão descritas nesta página, você também pode adicionar outras métricas calculadas a um conjunto de relatórios.
 >
 >É possível:
+>
 > * Adicione métricas calculadas padrão para o Complemento de Coleção de Mídia de Streaming, conforme descrito em [Métricas calculadas](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * Crie métricas calculadas personalizadas a partir de Métricas existentes, conforme descrito em [Métricas calculadas e calculadas avançadas (derivadas)](/help/components/c-calcmetrics/cm-overview.md).
+> * Crie métricas calculadas personalizadas a partir de Métricas existentes, conforme descrito em [Métricas calculadas e calculadas avançadas](/help/components/c-calcmetrics/cm-overview.md).
 
 
 | Nome da métrica calculada | Função | Fórmula |

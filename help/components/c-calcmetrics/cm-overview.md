@@ -1,19 +1,19 @@
 ---
-description: Métricas calculadas e calculadas avançadas (ou derivadas) são métricas personalizadas que podem ser criadas a partir de métricas existentes.
-keywords: Métricas calculadas, Métricas derivadas, Métricas calculadas avançadas
-title: Métricas calculadas e calculadas avançadas (derivadas)
+description: Métricas calculadas e calculadas avançadas são métricas personalizadas que podem ser criadas a partir de métricas existentes.
+keywords: Métricas calculadas;Métricas calculadas avançadas
+title: Métricas calculadas e calculadas avançadas
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 59%
+source-wordcount: '533'
+ht-degree: 54%
 
 ---
 
-# Métricas calculadas e calculadas avançadas (derivadas)
+# Métricas calculadas e calculadas avançadas
 
-Métricas calculadas e calculadas avançadas (ou derivadas) são métricas personalizadas que podem ser criadas a partir de métricas existentes.
+As métricas calculadas e calculadas avançadas são métricas personalizadas que podem ser criadas a partir de métricas existentes.
 
 Nossas ferramentas para métricas calculadas oferecem uma maneira muito mais flexível para criar, gerenciar e preparar métricas. Elas permitem que os profissionais de marketing, gerentes de produtos e analistas façam perguntas sobre os dados sem precisarem alterar a implementação do [!DNL Analytics]. As métricas personalizadas disponíveis em cada pacote do [!DNL Analytics] são:
 
@@ -24,7 +24,7 @@ Nossas ferramentas para métricas calculadas oferecem uma maneira muito mais fle
 
 Esta é uma comparação entre as métricas calculadas e os recursos de métricas calculadas avançadas:
 
-| Opções do criador | Métricas calculadas | Métricas calculadas avançadas (derivadas) |
+| Opções do criador | Métricas calculadas | Métricas calculadas avançadas |
 |---|---|---|
 | [Tipos de formatos (decimal, hora, percentual, moeda)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Sim | Sim |
 | [Alterações de atribuição (padrão, linear, participação etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sim | Sim |
