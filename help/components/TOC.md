@@ -5,9 +5,9 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 99%
    + [Perguntas frequentes sobre gerenciamento de segmentos herdados](segmentation/seg-transition.md)
    + [Práticas recomendadas](segmentation/best-practices.md)
 + Métricas calculadas {#calculated-metrics}
-   + [Métricas calculadas e calculadas avançadas](c-calcmetrics/cm-overview.md)
+   + [Métricas calculadas e métricas calculadas avançadas](c-calcmetrics/cm-overview.md)
    + [Vídeos tutoriais](c-calcmetrics/cm-videos.md)
    + Fluxo de trabalho das métricas calculadas {#calcmetric-workflow}
       + [Fluxo de trabalho das métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)

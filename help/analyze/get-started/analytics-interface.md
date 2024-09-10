@@ -4,9 +4,9 @@ title: Noções básicas da interface do Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2065'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ A guia [!UICONTROL Componentes] inclui recursos que ajudam a ajustar e potencial
    | Recurso do produto | Função | Mais informações |
    |---------|----------|----------|
    | Segmentos | O Adobe Analytics permite criar, gerenciar, compartilhar e aplicar segmentos de público-alvo avançados e focados em seus relatórios usando os recursos do Analytics, a Adobe Experience Cloud, o Adobe Target e outros produtos integrados da Adobe. | [Segmentação do Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/components/segmentation/seg-home) |
-   | Métricas calculadas  | Métricas calculadas e métricas calculadas avançadas (ou derivadas) são métricas personalizadas que podem ser criadas a partir de métricas já existentes.  Elas permitem que os profissionais de marketing, gerentes de produto e analistas façam perguntas sobre os dados sem precisarem alterar a implementação do Analytics. | [Métricas calculadas e calculadas avançadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=pt-BR) |
+   | Métricas calculadas  | Métricas calculadas e métricas calculadas avançadas (ou derivadas) são métricas personalizadas que podem ser criadas a partir de métricas já existentes.  Elas permitem que os profissionais de marketing, gerentes de produto e analistas façam perguntas sobre os dados sem precisarem alterar a implementação do Analytics. | [Métricas calculadas e métricas calculadas avançadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=pt-BR) |
    | Intervalos de datas | O Analysis Workspace inclui uma lista de intervalos de datas padrão que podem ser usados ao criar análises. Além disso, é possível criar intervalos de datas personalizados e disponibilizá-los para usuários e usuárias no Analysis Workspace. | [Criar intervalos de datas personalizados](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Conjuntos de relatórios virtuais | Os conjuntos de relatórios virtuais segmentam seus dados do Adobe Analytics para que você possa controlar o acesso a cada segmento. | [Visão geral dos conjuntos de relatórios virtuais](https://experienceleague.adobe.com/pt-br/docs/analytics/components/virtual-report-suites/vrs-about) |
    | Alertas | Alertas inteligentes permitem um controle mais detalhado dos alertas e integra a detecção de anomalias com o sistema de alertas. | [Alertas inteligentes](https://experienceleague.adobe.com/pt-br/docs/analytics/components/alerts/intellligent-alerts) |
