@@ -3,42 +3,53 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
+source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 85%
+source-wordcount: '738'
+ht-degree: 57%
 
 ---
 
-# Notas de versão atuais do Adobe Analytics (agosto de 2024)
+# Notas de versão atuais do Adobe Analytics (setembro de 2024)
 
-**Última atualização**: terça-feira, 9 de setembro de 2024
 
-Estas notas de versão englobam o período de lançamento de 14 de agosto a setembro de 2024. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+**Última atualização**: quinta-feira, 11 de setembro de 2024
+
+Essas notas de versão abrangem o período de lançamento de 11 de setembro de 2024 até o início de outubro. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 ## Novos recursos ou melhorias {#features}
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
-| ----------- | ---------- | ------- | ---- |
-| **Informações adicionais na coluna &quot;Usado em&quot; no gerenciador de métrica calculada e no gerenciador de segmento** | A coluna &quot;Usado em&quot; no gerenciador de métricas calculadas e no gerenciador de segmentos contém as novas áreas de relatório a seguir:<ul><li>**Report Builder:** mostra o número de métricas calculadas ou segmentos que estão sendo usados no Report Builder.</li><li>**Componentes ad hoc:** Mostra o número de métricas calculadas ad hoc ou de segmentos ad hoc que estão sendo usados em projetos. Essas métricas e segmentos calculados ad hoc (também conhecidos como &quot;métricas calculadas rápidas&quot; e &quot;segmentos rápidos&quot;) podem ser usados somente no projeto em que foram criados, portanto, são relatados separadamente da área de relatório &quot;Projeto&quot; na coluna &quot;Usado em&quot;.</li></ul><p>(Links de documentação atualizados a seguir.)</p> | N/D | quinta-feira, 11 de setembro de 2024 |
-| **Melhorias no SDK da Web para rastreamento de link** | Várias melhorias notáveis estão disponíveis na versão mais recente do SDK da Web em relação ao rastreamento de link, que beneficia diretamente o Activity Map. Esses novos recursos estão disponíveis na biblioteca JavaScript do SDK da Web e na extensão de tag do SDK da Web.<ul><li>Agrupamento de eventos: quando um visitante clica em um link interno, é possível optar por agrupar dados do evento na próxima página, em vez de acionar uma chamada de evento separada para o rastreamento de link. Essa melhoria reduz o número de eventos que o SDK da Web usa em relação ao limite contratual.</li><li>Filtrar propriedades de clique: um novo retorno de chamada que substitui `OnBeforeLinkClickSend`. Você pode usar essa chamada de retorno para filtrar ou ofuscar dados relacionados ao link antes de enviá-lo à Adobe.</li></ul><p>Consulte [clickCollection](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollection) no guia do usuário do SDK da Web para obter mais informações.</p> | O Open Beta começou em 10 de julho de 2024 | 18 de julho de 2024 |
+|--- | --- | --- | --- |
+| **Informações adicionais na coluna &quot;Usado em&quot; no gerenciador de métrica calculada e no gerenciador de segmento** | A coluna &quot;Usado em&quot; no gerenciador de métricas calculadas e no gerenciador de segmentos contém as novas áreas de relatório a seguir:<ul><li>**Report Builder**: mostra o número de métricas calculadas ou segmentos que estão sendo usados no Report Builder.</li><li>**Componentes ad hoc**: mostra o número de métricas calculadas ad hoc ou de segmentos ad hoc que estão sendo usados em projetos. Essas métricas e segmentos calculados ad hoc (também conhecidos como &quot;métricas calculadas rápidas&quot; e &quot;segmentos rápidos&quot;) podem ser usados somente no projeto em que foram criados, portanto, são relatados separadamente da área de relatório &quot;Projeto&quot; na coluna &quot;Usado em&quot;.</li></ul> |  | 11 de setembro de 2024 |
+| **extensão do Activity Map v3** | A extensão Activity Map v3 está disponível. Se você tiver a extensão v2 instalada, desinstale-a antes de instalar a extensão v3. Navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Activity Map]** para obter a versão mais recente da extensão. |  | 3 de setembro de 2024 |
 
-{style="table-layout:auto"}
 
 ## Correções no Adobe Analytics
 
-* Correção de um problema no qual vários valores desconhecidos eram exibidos no Workspace (AN-353632)
-* Correção de um problema no qual o email de notificação não era enviado após a adição de novos clientes ou novos perfis de produto do Analytics no Admin Console (AN-350930)
+A4T: AN-355736
+Activity Map: AN-353779
+Analysis Workspace: AN-348485; AN-349693; AN-357247
+Aplicativo móvel do Analytics: AN-352645
+Classificações: AN-355636; AN-355651; AN-355753; AN-356005; AN-356439; AN-356540; AN-356577; AN-356622
+Análise entre dispositivos: AN-355138
+Feeds de dados: AN-356258; AN-357133
+Data Warehouse: AN-339292; AN-353807
+Locais de exportação: AN-356912
+API de privacidade: AN-352420
+Report Builder: AN-352555; AN-354316
+Projetos programados: AN-355971
+Segmentação: AN-352095;
+Relatórios do Target: AN-355748
 
-### Outras correções do Analytics
-
-AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-353819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-352647; AN-352656; AN-351274; AN-352135; AN-351519; AN-344906; AN-353697; AN-354499; AN-354402; AN-354062; AN-353905; AN-353932; AN-354142; AN-354194; AN-354182; AN-353758; AN-353039; AN-353612; AN-350799; AN-354414; AN-354636; AN-354249; AN-353637; AN-350949; AN-349402; AN-355103; AN-354174; AN-353823; AN-354819; AN-354215; AN-354219; AN-354040; AN-354763; AN-354597; AN-354478; AN-354528; AN-354335
+Outras correções: AN-349698; AN-349880; AN-354860; AN-355355; AN-356289;
 
 ## Avisos importantes para administradores do Adobe Analytics {#admin}
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
 | **Prazo de 13 meses para a expiração do`cust_visids`** salvo | 20 de agosto de 2024 | A versão de **20 de agosto de 2024** do mecanismo de processamento de ocorrências do Analytics impõe uma expiração de 13 meses do `cust_visids` salvo. Se o conjunto de relatórios estiver com a opção “Habilitar identificação de visitantes” ativada, esta configuração será usada para encontrar o `cust_visid` para um `visid_high/visid_low value` que não contenha `cust_visid` na ocorrência. Previamente, não havia um prazo de expiração para o mapeamento de um `cust_visid` para um `visid_high/visid_low`. Com esta versão, o mapeamento expirará se 13 meses ou mais se passarem desde que o `visid_high/visid_low` teve um `cust_visid` em uma ocorrência. |
+| **Campos XDM de detalhes de implementação adicionais mapeados automaticamente** | quinta-feira, 11 de setembro de 2024 | Ao usar o Edge Network Adobe Experience Platform para enviar dados para o Adobe Analytics, os campos XDM `xdm.implementationdetails.name` e `xdm.implementationdetails.environment` agora sempre mapeiam para as variáveis de dados de contexto `c.a.x.implementationdetails.name` e `c.a.x.implementationdetails.environment`. Anteriormente, alguns cenários impediam o preenchimento desses valores. Ajuste todas as regras de processamento relevantes para acomodar a disponibilidade desses valores. |
 
 {style="table-layout:auto"}
 
