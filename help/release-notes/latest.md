@@ -3,10 +3,10 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
+source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 57%
+source-wordcount: '750'
+ht-degree: 56%
 
 ---
 
@@ -21,7 +21,7 @@ Essas notas de versão abrangem o período de lançamento de 11 de setembro de 2
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 |--- | --- | --- | --- |
-| **Informações adicionais na coluna &quot;Usado em&quot; no gerenciador de métrica calculada e no gerenciador de segmento** | A coluna &quot;Usado em&quot; no gerenciador de métricas calculadas e no gerenciador de segmentos contém as novas áreas de relatório a seguir:<ul><li>**Report Builder**: mostra o número de métricas calculadas ou segmentos que estão sendo usados no Report Builder.</li><li>**Componentes ad hoc**: mostra o número de métricas calculadas ad hoc ou de segmentos ad hoc que estão sendo usados em projetos. Essas métricas e segmentos calculados ad hoc (também conhecidos como &quot;métricas calculadas rápidas&quot; e &quot;segmentos rápidos&quot;) podem ser usados somente no projeto em que foram criados, portanto, são relatados separadamente da área de relatório &quot;Projeto&quot; na coluna &quot;Usado em&quot;.</li></ul> |  | 11 de setembro de 2024 |
+| **Informações adicionais na coluna &quot;Usado em&quot; no gerenciador de métrica calculada e no gerenciador de segmento** | A coluna &quot;Usado em&quot; no gerenciador de métricas calculadas e no gerenciador de segmentos contém as novas áreas de relatório a seguir:<ul><li>**Report Builder**: mostra o número de métricas calculadas ou segmentos que estão sendo usados no Report Builder.</li><li>**Componentes ad hoc**: mostra o número de métricas calculadas ad hoc ou de segmentos ad hoc que estão sendo usados em projetos. Essas métricas e segmentos calculados ad hoc (também conhecidos como &quot;métricas calculadas rápidas&quot; e &quot;segmentos rápidos&quot;) podem ser usados somente no projeto em que foram criados, portanto, são relatados separadamente da área de relatório &quot;Projeto&quot; na coluna &quot;Usado em&quot;.</li></ul>Para obter mais informações, consulte [Gerenciador de métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) e [Gerenciador de segmentos](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11 de setembro de 2024 |
 | **extensão do Activity Map v3** | A extensão Activity Map v3 está disponível. Se você tiver a extensão v2 instalada, desinstale-a antes de instalar a extensão v3. Navegue até **[!UICONTROL Ferramentas]** > **[!UICONTROL Activity Map]** para obter a versão mais recente da extensão. |  | 3 de setembro de 2024 |
 
 
