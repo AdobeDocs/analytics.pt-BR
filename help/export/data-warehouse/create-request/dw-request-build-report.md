@@ -3,10 +3,10 @@ description: Etapas que descrevem como criar uma solicitação do data warehouse
 title: Criar um relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 42%
 
 ---
 
@@ -25,6 +25,12 @@ Para criar um relatório para uma solicitação Data Warehouse:
 1. Na página Nova solicitação de Data Warehouse, selecione a guia [!UICONTROL **Criar relatório**].
 
    ![Guia Criar relatório](assets/build-report.png)
+
+1. No canto superior esquerdo, escolha o conjunto de relatórios que você deseja usar ao criar seu relatório do Data Warehouse.
+
+   Nem todos os segmentos criados no Construtor de segmentos são compatíveis com o Data Warehouse. Um erro é exibido ao escolher um conjunto de relatórios virtuais que contém segmentos incompatíveis.
+
+   Para obter uma lista das funções com suporte em um segmento, consulte [compatibilidade de segmento de Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
 
 1. Arraste segmentos, métricas e dimensões para o construtor. O relatório que você cria determina quais dados são incluídos na solicitação Data Warehouse.
 
