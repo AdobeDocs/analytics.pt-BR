@@ -5,7 +5,7 @@ title: Dimensões disponíveis para as regras de processamento
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
+source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
@@ -22,8 +22,6 @@ As dimensões e métricas disponíveis que você pode ler e gravar usando as reg
 | --- | --- | --- |
 | Valor personalizado | Somente leitura | Texto personalizado ou valores digitados diretamente na ação de uma regra de processamento. |
 | Valor concatenado | Somente leitura | Valores que são criados pela combinação de dois valores. Por exemplo, canal e nome de página podem ser combinados para criar uma subcategoria. |
-
-{style="table-layout:auto"}
 
 ## Atributos de ocorrência
 
@@ -47,11 +45,9 @@ As dimensões e métricas disponíveis que você pode ler e gravar usando as reg
 | Domínio raiz da página | Somente leitura | O domínio de página do URL atual, excluindo subdomínios. |
 | Perspectiva do cliente | Leitura + gravação | Um sinalizador que determina se a ocorrência é uma ocorrência em segundo plano móvel. |
 
-{style="table-layout:auto"}
-
 ## Variáveis de conversão
 
-| Variável | Descrição do status de leitura/gravação |
+| Variável | Status de leitura/gravação | Descrição |
 | --- | --- | --- |
 | eVar 1-250 | Leitura + gravação | [eVar](/help/components/dimensions/evar.md) dimensões. |
 | Campanha | Leitura + gravação | A dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). |
@@ -60,8 +56,6 @@ As dimensões e métricas disponíveis que você pode ler e gravar usando as reg
 | CEP | Leitura + gravação | A dimensão [CEP](/help/components/dimensions/zip-code.md). |
 | Código de moeda | Leitura + gravação | A variável de implementação [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANTE: se você definir essa variável com um valor inválido, a ocorrência será descartada. |
 | ID da transação | Leitura + gravação | A variável de implementação [`transactionID`](/help/import/data-sources/transactionid.md). |
-
-{style="table-layout:auto"}
 
 >[!NOTE]
 >O Adobe não oferece suporte à configuração da variável de implementação [`products`](/help/implement/vars/page-vars/products.md) usando regras de processamento.
@@ -74,8 +68,6 @@ As dimensões e métricas disponíveis que você pode ler e gravar usando as reg
 | Hierarquia 1-5 | Leitura + gravação | [Hierarquia](/help/components/dimensions/hierarchy.md) dimensões. |
 | Servidor | Leitura + gravação | A dimensão [Servidor](/help/components/dimensions/server.md). |
 | Canal | Leitura + gravação | A dimensão [Seção do site](/help/components/dimensions/site-section.md). |
-
-{style="table-layout:auto"}
 
 ## Variáveis de contexto
 
@@ -96,4 +88,3 @@ As regras de processamento podem definir eventos, mas não podem lê-los como co
 | Evento 1-1000 | Somente gravação | [Eventos personalizados](/help/components/metrics/custom-events.md). |
 | Visualizações de produto | Somente gravação | A métrica [Exibições de produto](/help/components/metrics/product-views.md). |
 
-{style="table-layout:auto"}
