@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: ht
-source-wordcount: '808'
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -253,10 +253,10 @@ ht-degree: 100%
    + [Limitar um conjunto de relatórios virtuais a determinadas datas](cda/limit-vrs-date.md)
    + [Perguntas frequentes sobre a Análise entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
-   + [Alertas inteligentes](c-alerts/intellligent-alerts.md)
-   + [Criador de alertas](c-alerts/alert-builder.md)
-   + [Gerenciador de Alerta](c-alerts/alert-manager.md)
-   + [Alertas inteligentes - Casos de uso](c-alerts/alerts-use-cases.md)
+   + [Visão geral](c-alerts/intellligent-alerts.md)
+   + [Criar](c-alerts/alert-builder.md)
+   + [Gerenciar](c-alerts/alert-manager.md)
+   + [Casos de uso](c-alerts/alerts-use-cases.md)
 + Classificações {#classifications}
    + [Visão geral das classificações](classifications/c-classifications.md)
    + Conjuntos de classificação {#sets}

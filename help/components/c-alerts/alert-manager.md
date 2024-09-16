@@ -3,10 +3,10 @@ description: Gerenciar alertas.
 title: Visão geral do Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -32,7 +32,7 @@ Para criar alertas a partir do Gerenciador de alertas:
 
    * [!UICONTROL **Alerta de dados do Analytics**]: um alerta para notificá-lo quando ocorrerem eventos anormais em seus dados.
 
-     Se você selecionar esta opção, continue com [Criar alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) para obter mais detalhes sobre como criar alertas.
+     Se você selecionar esta opção, continue com [Criar alertas](/help/components/c-alerts/alert-builder.md) para obter mais detalhes sobre como criar alertas.
 
    * [!UICONTROL **Alerta de uso de chamadas do servidor**]: um alerta para notificá-lo sobre o risco ou a ocorrência de uma sobreposição no consumo de chamadas do servidor e nos dados de compromisso.
 
