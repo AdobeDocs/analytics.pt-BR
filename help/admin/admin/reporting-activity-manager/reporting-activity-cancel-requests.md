@@ -4,9 +4,9 @@ title: Cancelar solicitações de relatórios no Gerenciador de atividades de re
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1438'
 ht-degree: 13%
 
 ---
@@ -163,7 +163,7 @@ Os aplicativos incluem o seguinte:
 * Report Builder
 * Interfaces do construtor: segmento, métricas calculadas, anotações, públicos etc.
 * Chamadas de API da API 1.4 ou 2.0
-* Alertas inteligentes
+* Alertas
 * Compartilhar com qualquer pessoa através de links
 * Qualquer outro aplicativo que consulte o mecanismo de relatórios do Analytics
 

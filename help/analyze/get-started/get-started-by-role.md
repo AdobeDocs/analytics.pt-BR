@@ -3,10 +3,10 @@ description: Informações gerais sobre o Adobe Analytics, incluindo informaçõ
 title: Introdução para administradores, analistas, usuários finais e desenvolvedores
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 100%
+source-wordcount: '1692'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ Veja a seguir as principais tarefas e recursos que analistas devem conhecer para
 | Atribuição | Analistas podem personalizar como os itens de dimensão recebem crédito por eventos bem-sucedidos empregando vários modelos de atribuição e janelas de pesquisa no Analysis Workspace.<p>Modelos de atribuição Linear distribui o crédito igualmente a todos os pontos de contato que levam a uma conversão, enquanto Primeiro contato distribui todo o crédito ao primeiro ponto de contato. Muitos outros modelos de atribuição estão disponíveis, incluindo o modelo Algorítmico, que usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito. </p> | [Modelos de atribuição e janelas de pesquisa](/help/analyze/analysis-workspace/attribution/models.md) |
 | Detecção de anomalias | O modelo estatístico no Analysis Workspace encontra tendências inesperadas em seus dados automaticamente, analisando métricas e determinando um limite inferior, um superior e, assim, o intervalo de valores esperado. Quando ocorrer um pico ou uma queda inesperada, o sistema irá alertá-lo no relatório. | [Visão geral da Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Análise de contribuição | Use o Analysis Workspace para descobrir padrões ocultos nos dados e explicar anomalias estatísticas, identificando correlações por trás de ações inesperadas de clientes, de valores fora do limite e de picos ou declínios repentinos de métricas pelos segmentos de público-alvo. | [Análise de contribuição](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) na [Visão geral da Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| Alertas inteligentes | Crie e gerencie alertas com base em anomalias de dados e alertas “empilhados”, que capturam várias métricas em um único alerta. | [Visão geral de alertas inteligentes](/help/components/c-alerts/intellligent-alerts.md) |
+| Alertas | Crie e gerencie alertas com base em anomalias de dados e alertas “empilhados”, que capturam várias métricas em um único alerta. | [Visão geral dos alertas](/help/components/c-alerts/intellligent-alerts.md) |
 | Exportação de dados | O Data Warehouse e os Feeds de dados permitem exportar dados para vários destinos na nuvem, como Google Cloud Platform, Azure RBAC, Azure SAS ou Amazon S3. | [Guia de exportação do Analytics](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=pt-BR) |
 | Activity Map | O Activity Map é um aplicativo do Adobe Analytics projetado para classificar a atividade de links, com o uso de sobreposições visuais e a disponibilização de um painel de análise em tempo real para monitorar a participação do público-alvo nas páginas da Web.<p>O Activity Map permite configurar diferentes exibições para identificar visualmente a aceleração da atividade do cliente, quantificar as iniciativas de marketing e agir conforme as necessidades e os comportamentos do público-alvo.</p> | [Activity Map](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/activity-map/activity-map) |
 | Report Builder | O Report Builder é um suplemento do Microsoft Excel. O Report Builder permite criar solicitações personalizadas a partir de dados do Adobe Analytics que foram inseridos em suas planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados. | [Report Builder](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/home) |

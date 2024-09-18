@@ -4,10 +4,10 @@ description: Siga estas etapas para garantir que sua implementação permaneça 
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 74%
+source-wordcount: '490'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,7 @@ Conhecer os cinco principais indicadores de desempenho (KPIs) ajudará a determi
 
 Lembre-se: as atualizações de código ao longo do tempo podem ter ramificações não intencionais. Verifique se todas as métricas e dimensões associadas aos seus [5 principais KPIs](/help/implement/review/define-kpis.md) ainda estão funcionando corretamente. O momento ideal para se fazer isso é logo após o lançamento de um site; se você não tiver feito isso nos últimos meses, faça *agora*. Para fazer isso:
 
-* Crie painéis para ver as tendências de hora em hora dessas métricas e variáveis críticas (ou configure [alertas inteligentes](https://experienceleague.adobe.com/pt-br/docs/analytics/components/alerts/intellligent-alerts) para cada métrica). Em seguida, monitore-as por um ou dois dias para garantir que você está obtendo os dados esperados e que os dados estão corretos. Procure pontos de inflexão. Esteja preparado para corrigir imediatamente quaisquer problemas críticos. Se encontrar discrepâncias, verifique a camada de dados, as regras do gerenciador de tags e as regras de processamento para descobrir o motivo.
+* Crie painéis para ver as tendências de hora em hora dessas métricas e variáveis críticas (ou configure [alertas](https://experienceleague.adobe.com/pt-br/docs/analytics/components/alerts/intellligent-alerts) para cada métrica). Em seguida, monitore-as por um ou dois dias para garantir que você está obtendo os dados esperados e que os dados estão corretos. Procure pontos de inflexão. Esteja preparado para corrigir imediatamente quaisquer problemas críticos. Se encontrar discrepâncias, verifique a camada de dados, as regras do gerenciador de tags e as regras de processamento para descobrir o motivo.
 * Execute novamente o [Painel de integridade do Analytics](https://express.adobe.com/page/tnNQGNlfzta3b/) para monitorar tendências gerais de suas métricas e variáveis de KPI.
 
 *Para obter mais detalhes sobre como verificar se suas métricas e variáveis estão funcionando corretamente, [leia estas dicas](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=pt-BR) de Sarah Owen, que é especialista no Adobe Analytics.*

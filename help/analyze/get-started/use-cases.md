@@ -3,9 +3,9 @@ description: Informações gerais sobre o Adobe Analytics, incluindo informaçõ
 title: Casos de uso do Analytics
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
@@ -51,8 +51,8 @@ A Análise preditiva usa aprendizagem de máquina e modelagem estatística avan�
 
 Os recursos principais do Adobe Analytics a seguir oferecem esses recursos preditivos:
 
-* [Detecção de anomalias](#anomaly-detection)
+* [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)
 
-* [Análise de contribuição](#contribution-analysis)
+* [Análise de contribuição](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [Alertas inteligentes](#intelligent-alerts)
+* [Alertas](/help/components/c-alerts/intellligent-alerts.md)

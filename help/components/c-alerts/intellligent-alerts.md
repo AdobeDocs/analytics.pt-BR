@@ -1,31 +1,35 @@
 ---
-description: O sistema de Alertas inteligentes permite um controle mais detalhado dos alertas e integra a detecção de anomalias ao sistema de alertas.
-title: Alertas inteligentes
+description: Os alertas permitem controle granular sobre notificações e integração com a detecção de anomalias.
+title: Visão geral de alertas
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 59%
+source-wordcount: '306'
+ht-degree: 32%
 
 ---
 
-# Visão geral de Alertas inteligentes
+# Visão geral de alertas
 
-Os Alertas inteligentes (ou apenas &quot;alertas&quot;) no Adobe Analytics permitem que você seja notificado imediatamente quando ocorrerem eventos anormais em seus dados.
+Os alertas na Adobe Analytics permitem que você seja notificado com base nas porcentagens alteradas ou em pontos de dados específicos.
 
-É possível definir o acionamento de alertas com base em limites de anomalias, alteração de porcentagens ou pontos de dados específicos. Os alertas fornecem controles granulares que se integram à [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), acionando quando você mais precisa deles.
+Dependendo do pacote do Adobe Analytics, também é possível usar alertas para serem acionados com base em limites de anomalias. Esses alertas (também conhecidos como &quot;Alertas inteligentes&quot;) fornecem controles granulares que se integram à [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), acionando quando você mais precisa deles.
 
-Os Alertas inteligentes permitem:
+Os alertas permitem:
 
-* Criar alertas com base em anomalias (limites de 90%, 95%, 99%, 99,75% e 99,9%; % de alteração; acima/abaixo)
 * Visualizar a frequência de disparo de um alerta
 * Enviar alertas por email ou SMS com links para projetos do Analysis Workspace gerados automaticamente
 * Criar alertas “empilhados”, capazes de capturar várias métricas de um só alerta
+* Criar alertas com base em anomalias (limites de 90%, 95%, 99%, 99,75% e 99,9%; % de alteração; acima/abaixo) (Disponível somente para clientes do Adobe Analytics com um pacote Select, Prime ou Ultimate)
 
-O tutorial em vídeo a seguir fornece uma visão geral básica dos alertas: [Alertas inteligentes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=pt-BR) (5:34)
+O tutorial em vídeo a seguir fornece uma visão geral básica dos alertas: [Alertas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=pt-BR) (5:34)
 
 ## Pesquisa de anomalias para alertas
+
+>[!NOTE]
+>
+>O uso de alertas com detecção de anomalias (também conhecido como _Alertas inteligentes_) está disponível somente para organizações com um pacote Adobe Analytics Select, Prime ou Ultimate.
 
 Se um alerta usar a detecção de anomalias, o período de treinamento varia de acordo com a granularidade selecionada para o alerta.
 
@@ -42,7 +46,7 @@ Para obter informações sobre como criar alertas no Adobe Analytics, consulte [
 
 >[!IMPORTANT]
 >
->Usar dados com carimbo de data e hora para criar alertas pode fazer com que os alertas disparem incorretamente. A Adobe recomenda o uso de dados sem carimbo de data e hora para criar Alertas inteligentes.
+>Usar dados com carimbo de data e hora para criar alertas pode fazer com que os alertas disparem incorretamente. O Adobe recomenda usar dados sem carimbo de data e hora para alertas.
 
 ## Gerenciar alertas
 

@@ -1,18 +1,18 @@
 ---
-description: Casos de uso para criar e gerenciar alertas inteligentes.
-title: Alertas inteligentes - Casos de uso
+description: Casos de uso para criar e gerenciar alertas.
+title: Alertas - Casos de uso
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 67%
+source-wordcount: '66'
+ht-degree: 46%
 
 ---
 
-# Alertas inteligentes - Casos de uso
+# Alertas - Casos de uso
 
-Você pode criar alertas inteligentes conforme descrito em [Criar alertas](/help/components/c-alerts/alert-builder.md).
+Você pode criar alertas conforme descrito em [Criar alertas](/help/components/c-alerts/alert-builder.md).
 
 As seções a seguir ilustram exemplos de casos de uso a serem considerados ao criar alertas.
 
