@@ -4,10 +4,10 @@ description: Visão geral do uso de dados XDM da Experience Platform no Adobe An
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: 4453c2aa2ea70ef4d00b2bc657285287f3250c65
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 85%
 
 ---
 
@@ -30,15 +30,18 @@ Os dados enviados à rede de borda da Adobe Experience Platform podem ter dois f
 * Objeto de XDM: está em conformidade com esquemas baseados em [XDM (Experience Data Model, modelo de dados de experiência)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR). O XDM oferece flexibilidade sobre quais campos são definidos como parte dos eventos. Ao chegar no Adobe Analytics, os eventos são convertidos para um formato processável.
 * Objeto de dados: envia dados à rede de borda por meio de campos específicos mapeados para o Adobe Analytics. A rede de borda detecta a presença desses campos e os encaminha para o Adobe Analytics, sem a necessidade de manter conformidade com um esquema.
 
-
-A rede de borda usa a seguinte lógica para determinar exibições de página e eventos de link do Adobe Analytics
+O Edge Network usa a seguinte lógica para determinar exibições de página do Adobe Analytics e eventos de link:
 
 | O conteúdo XDM contém... | Adobe Analytics... |
 |---|---|
-| `web.webPageDetails.name` ou `web.webPageDetails.URL` (não `web.webInteraction.type`) | considera o conteúdo uma **exibição de página** |
-| `web.webInteraction.type` e (`web.webInteraction.name` ou `web.webInteraction.url`) | considera o conteúdo um **evento de link** |
+| `xdm.web.webPageDetails.name` ou `xdm.web.webPageDetails.URL` (não `xdm.web.webInteraction.type`) | considera o conteúdo uma **exibição de página** |
+| `xdm.web.webInteraction.type` e (`xdm.web.webInteraction.name` ou `xdm.web.webInteraction.url`) | considera o conteúdo um **evento de link** |
 | `web.webInteraction.type` e (`web.webPageDetails.name` ou `web.webPageDetails.url`) | considera o conteúdo um **evento de link** <br/>`web.webPageDetails.name` e `web.webPageDetails.URL` são definidos como `null` |
 | não `web.webInteraction.type` e (não `webPageDetails.name` e não `web.webPageDetails.URL`) | elimina o conteúdo e ignora os dados |
+| `xdm.eventType = display` ou <br/>`xdm.eventType = decisioning.propositionDisplay` ou <br/>`xdm.eventType = personalization.request` ou <br/>`xdm.eventType = decisioning.propositionFetch` e `xdm._experience.decisioning` | considera a carga uma chamada **A4T**. |
+| `xdm.eventType = display` ou <br/>`xdm.eventType = decisioning.propositionDisplay` ou <br/>`xdm.eventType = personalization.request` ou <br/>`xdm.eventType = decisioning.propositionFetch` e nenhum `xdm._experience.decisioning` | elimina o conteúdo e ignora os dados |
+| `xdm.eventType = click` ou `xdm.eventType = decisioning.propositionInteract` e `xdm._experience.decisioning` e nenhum `web.webInteraction.type` | considera a carga uma chamada **A4T**. |
+| `xdm.eventType = click` ou `xdm.eventType = decisioning.propositionInteract` e nenhum `xdm._experience.decisioning` e nenhum `web.webInteraction.type` | O elimina a carga e ignora os dados. |
 
 {style="table-layout:auto"}
 
