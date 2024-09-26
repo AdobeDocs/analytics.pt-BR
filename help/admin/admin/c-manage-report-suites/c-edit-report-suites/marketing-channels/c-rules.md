@@ -4,10 +4,10 @@ description: As regras de processamento de canal de marketing determinam se uma 
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 100%
+source-wordcount: '1878'
+ht-degree: 91%
 
 ---
 
@@ -72,8 +72,8 @@ Essa tabela de referência define os campos, as opções e os atributos de ocorr
 |--- |--- |
 | Todas | Ativa este canal apenas quando todos os critérios da regra são verdadeiros. |
 | Qualquer | Ativa este canal quando qualquer um dos critérios da regra é verdadeiro. Essa opção só estará disponível se houver mais de um critério na regra. |
-| ID do AMO | O código de rastreamento primário usado pelas integrações da Advertising Cloud e do Advertising Analytics. Quando uma dessas integrações estiver ativada, o prefixo do código de rastreamento poderá ser usado para identificar canais específicos da Advertising Cloud. Usar &quot;ID do AMO&quot; começa com &quot;AL&quot; para Pesquisa, &quot;AC&quot; para Exibição ou &quot;AO&quot; para Social. Quando a ID do AMO é usada em canais de marketing, as métricas de clique, custo e impressão podem ser atribuídas ao canal correto (quando isso não está configurado, as métricas utilizam as opções Direto ou Nenhum). |
-| ID do AMO ED | O código de rastreamento secundário usado pela Advertising Cloud. O objetivo principal desse código de rastreamento é atuar como a chave para enviar dados de volta para a Ad Cloud. No entanto, ele também pode ser usado para identificar ClickThroughs de exibição vs. ViewThroughs de exibição, se você desejar vê-los como dois canais de marketing separados. Isso pode ser feito definindo a lógica do canal de marketing de modo que “AMO EF ID” termine com `:d` para clickthroughs de exibição ou com `:i` para viewthroughs de exibição. Se você não desejar dividir a Exibição em dois canais, use a dimensão da ID do AMO. |
+| ID do AMO | O código de rastreamento principal usado pelas integrações de Adobe Advertising e Advertising Analytics. Quando uma dessas integrações estiver ativada, o prefixo do código de rastreamento poderá ser usado para identificar canais específicos do Advertising. Use uma &quot;ID do AMO&quot; começando com &quot;AL&quot; para Pesquisa e Social ou &quot;AC&quot; para Exibição. Quando a ID do AMO é usada em canais de marketing, as métricas de clique/custo/impressão podem ser atribuídas ao canal correto. Quando a ID do AMO não está configurada, essas métricas vão para Direto ou Nenhum. |
+| AMO EF ID | O código de rastreamento secundário usado pelo Adobe Advertising. O objetivo principal desse código de rastreamento é servir como a chave para enviar dados de volta para o Advertising. No entanto, ela também pode ser usada para identificar ClickThroughs de exibição e ViewThroughs de exibição como dois canais de marketing separados. Para fazer isso, defina a lógica do canal de marketing para &quot;AMO EF ID&quot; que termina com `:d` para click-throughs de exibição ou &quot;AMO EF ID&quot; que termina com `:i` para ViewThroughs de exibição. Se você não desejar dividir a Exibição em dois canais, use a dimensão da ID do AMO. |
 | Variáveis de conversão | Consiste de eVars ativadas para esse conjunto de ferramentas de relatório, e se aplica apenas quando essas variáveis são definidas por meio do código Adobe na página. |
 | Existe | Diversas seleções estão disponíveis, incluindo:<ul><li>**Não existe**: especifica que o atributo da ocorrência não existe no pedido. Por exemplo, em um domínio de referência, se o usuário digitar um URL ou clicar em um marcador, o atributo de domínio de referência não existe.</li><li>**Está vazio**: especifica que existe um atributo de ocorrência, geralmente uma eVar ou parâmetro de sequência de consulta, mas não há valor associado ao atributo de ocorrência.</li><li>**Não contém**: permite especificar, por exemplo, que um domínio referenciador não contém um valor específico (em vez de usar a opção “Contém”).</li></ul> |
 | Identificar o canal como | Associa a regra a um canal de marketing adicionado à página Gerenciador de canal de marketing.   |
