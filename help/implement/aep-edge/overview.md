@@ -4,10 +4,10 @@ description: Visão geral do uso de dados XDM da Experience Platform no Adobe An
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 4453c2aa2ea70ef4d00b2bc657285287f3250c65
+source-git-commit: c7fd66e99fd7d6c474682621a3c18bf41d541a96
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 85%
+source-wordcount: '394'
+ht-degree: 77%
 
 ---
 
@@ -35,9 +35,17 @@ O Edge Network usa a seguinte lógica para determinar exibições de página do 
 | O conteúdo XDM contém... | Adobe Analytics... |
 |---|---|
 | `xdm.web.webPageDetails.name` ou `xdm.web.webPageDetails.URL` (não `xdm.web.webInteraction.type`) | considera o conteúdo uma **exibição de página** |
+| `xdm.eventType = web.webPageDetails.pageViews` | considera o conteúdo uma **exibição de página** |
 | `xdm.web.webInteraction.type` e (`xdm.web.webInteraction.name` ou `xdm.web.webInteraction.url`) | considera o conteúdo um **evento de link** |
-| `web.webInteraction.type` e (`web.webPageDetails.name` ou `web.webPageDetails.url`) | considera o conteúdo um **evento de link** <br/>`web.webPageDetails.name` e `web.webPageDetails.URL` são definidos como `null` |
-| não `web.webInteraction.type` e (não `webPageDetails.name` e não `web.webPageDetails.URL`) | elimina o conteúdo e ignora os dados |
+| `xdm.web.webInteraction.type` e (`xdm.web.webPageDetails.name` ou `xdm.web.webPageDetails.url`) | considera a carga um **evento de link** <br/>Também define `xdm.web.webPageDetails.name` e `xdm.web.webPageDetails.URL` como `null` |
+| não `xdm.web.webInteraction.type` e (não `xdm.webPageDetails.name` e não `xdm.web.webPageDetails.URL`) | elimina o conteúdo e ignora os dados |
+
+{style="table-layout:auto"}
+
+Além de diferenciar exibições de página e cliques em links, a seguinte lógica está em vigor e determina se determinados eventos são categorizados como A4T ou são descartados.
+
+| O conteúdo XDM contém... | Adobe Analytics... |
+| --- | --- |
 | `xdm.eventType = display` ou <br/>`xdm.eventType = decisioning.propositionDisplay` ou <br/>`xdm.eventType = personalization.request` ou <br/>`xdm.eventType = decisioning.propositionFetch` e `xdm._experience.decisioning` | considera a carga uma chamada **A4T**. |
 | `xdm.eventType = display` ou <br/>`xdm.eventType = decisioning.propositionDisplay` ou <br/>`xdm.eventType = personalization.request` ou <br/>`xdm.eventType = decisioning.propositionFetch` e nenhum `xdm._experience.decisioning` | elimina o conteúdo e ignora os dados |
 | `xdm.eventType = click` ou `xdm.eventType = decisioning.propositionInteract` e `xdm._experience.decisioning` e nenhum `web.webInteraction.type` | considera a carga uma chamada **A4T**. |
