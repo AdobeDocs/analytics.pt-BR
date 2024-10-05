@@ -4,10 +4,10 @@ description: As variáveis de dados de contexto permitem definir variáveis pers
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 831df50a9c73522493ed60ce5df51192b6933480
+source-git-commit: 983b5073cf17a6aa0c038516c1d1ec3a40ca9eed
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 79%
+source-wordcount: '576'
+ht-degree: 69%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 As variáveis de dados de contexto permitem definir variáveis personalizadas em cada página que podem ser lidas pelas regras de processamento. Em vez de atribuir valores explicitamente às variáveis do Analytics em seu código, você pode enviar dados em variáveis de dados de contexto. As regras de processamento então capturam os valores das variáveis de dados de contexto e os transmitem às respectivas variáveis do Analytics. Consulte [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) no Guia do usuário de administração.
 
-As variáveis de dados de contexto são úteis para as equipes de desenvolvimento coletarem dados em elementos nomeados em vez de coletar nas variáveis numeradas. Por exemplo, em vez de solicitar que as equipes de desenvolvimento atribuam o autor da página a `eVar10`, você pode solicitar que elas o atribuam a `s.contextData["author"]`. Um administrador do Analytics em sua organização pode criar regras de processamento para mapear variáveis de dados de contexto como variáveis do Analytics para relatórios. No fim, as equipes de desenvolvimento só se preocupariam com as variáveis de dados de contexto em vez das muitas variáveis de página oferecidas pela Adobe.
+As variáveis de dados de contexto são úteis para as equipes de desenvolvimento coletarem dados em elementos nomeados em vez de coletar nas variáveis numeradas. Por exemplo, em vez de solicitar que as equipes de desenvolvimento atribuam o autor da página a `eVar10`, você pode solicitar que elas o atribuam a `s.contextData["author"]`. Um administrador do Analytics em sua organização pode criar regras de processamento para mapear variáveis de dados de contexto como variáveis do Analytics para relatórios. No fim, as equipes de desenvolvimento só se preocupariam com as variáveis de dados de contexto em vez das muitas variáveis de página que o Adobe oferece.
 
 ## Variáveis de dados de contexto que usam o SDK da Web
 
@@ -56,6 +56,7 @@ s.contextData["example_variable"] = "Example value";
 * As variáveis de dados de contexto válidas contêm somente caracteres alfanuméricos, sublinhados e pontos. A Adobe não garante a coleta de dados nas regras de processamento se você incluir outros caracteres, como hifens.
 * Não inicie variáveis de dados de contexto com `"a."`. Este prefixo está reservado e é usado pela Adobe. Por exemplo, não use `s.contextData["a.InstallEvent"]`.
 * As variáveis de dados de contexto não diferenciam maiúsculas de minúsculas. As variáveis `s.contextData["example"]` e `s.contextData["EXAMPLE"]` são idênticas.
+* Uma única chave não pode conter mais de um valor. Se você quiser usar variáveis de dados de contexto para variáveis de vários valores, concatene todos os valores usando um delimitador (normalmente uma vírgula) e passe-o para uma [propriedade de lista](prop.md#list-props) ou para uma [variável de lista](list.md) usando regras de processamento.
 
 ## Use regras de processamento para preencher variáveis do Analytics
 
