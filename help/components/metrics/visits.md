@@ -3,10 +3,10 @@ title: Visitas
 description: Uma sequência de exibições da página em uma sessão.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Uma visita não necessariamente coincide com uma sessão do navegador devido aos
 
 Se um visitante executar qualquer uma dessas ações, uma nova visita se inicia:
 
-* Limpa a meia sessão do cache e continua a navegar no site
+* Exclui os cookies no meio da sessão e continua a navegar no site
 * Deixa o site aberto em uma guia por mais de 30 minutos e continua navegando
 * Abre um navegador diferente e navega até seu site no mesmo computador
 * A mesma pessoa que navega no site em dispositivos diferentes
