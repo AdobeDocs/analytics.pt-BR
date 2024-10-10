@@ -4,10 +4,10 @@ title: Visão geral do calendário e do intervalos de datas
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Você também pode arrastar datas (e dimensões de tempo) em um projeto do Espa�
 | Configuração | Descrição |
 |--- |--- |
 | Dias selecionados | Dias/semanas/meses/anos selecionados. |
-| Tornar os componentes do intervalo de datas relativos ao calendário do painel | Mantenha a consistência das datas com base no intervalo de datas do painel. |
+| Tornar os componentes do intervalo de datas relativos ao calendário do painel | Se desativado, qualquer componente de intervalo de datas usado em uma tabela, visualização ou área de soltar do painel substitui o calendário do painel. <p>Se ativado, quaisquer componentes de intervalo de datas usados em uma tabela, visualização ou área de soltar do painel estão relacionados ao intervalo de datas do painel. Por exemplo, se o intervalo de datas do painel estiver definido como 1° de novembro a 30 de novembro e um componente de intervalo de datas da Semana passada for usado em uma tabela de forma livre, as informações na tabela de forma livre se referem à última semana de outubro. |
 | Usar datas contínuas | Datas contínuas permitem gerar um relatório dinâmico que analisa um certo período de tempo, seja para frente ou para trás, com base na execução do relatório. Por exemplo, se você quiser relatar todos os pedidos feitos no “Mês anterior” (dependendo da Data de criação) e executar o relatório em dezembro, você verá os pedidos feitos em novembro. Se executar o mesmo relatório em janeiro, verá os pedidos feitos em dezembro.<ul><li>**[!UICONTROL Visualização de data]**: indica o período compreendido no calendário em andamento.</li><li>**[!UICONTROL Início]**: você pode escolher entre dia atual, semana atual, mês atual, trimestre atual, ano atual.</li><li>**[!UICONTROL Fim]**: você pode escolher entre dia atual, semana atual, mês atual, trimestre atual, ano atual.</li></ul>Para ver um exemplo, consulte [Intervalos de datas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Selecionado por padrão. |
 | Intervalo de datas | Permite selecionar um intervalo de datas predefinido. Últimos 30 dias é padrão. **[!UICONTROL Essa semana/mês/trimestre/ano (exceto hoje)]** permite escolher entre intervalos de datas que não incluem dados parciais do dia de hoje. |
 | Aplicar a todos os painéis | Permite alterar o intervalo de datas selecionado para o painel atual e também para todos os outros painéis do projeto. |
