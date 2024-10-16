@@ -3,10 +3,10 @@ title: Unidades
 description: O número total de produtos comprados em todos os pedidos.
 feature: Metrics
 exl-id: c7293445-0760-4237-83ae-812224ca6f4b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a1fbd3f483d3a236fe5dc3246f5e90c1b3f51ba9
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 92%
+source-wordcount: '173'
+ht-degree: 80%
 
 ---
 
