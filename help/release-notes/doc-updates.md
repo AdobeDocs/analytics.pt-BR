@@ -5,8 +5,8 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+workflow-type: tm+mt
 source-wordcount: '5971'
 ht-degree: 100%
 
@@ -180,7 +180,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Fevereiro de 2022** | |
 | Modo de visualização do projeto do cartão de pontuação para dispositivos móveis | O [modo de visualização](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=pt-BR#preview) permite visualizar a experiência antes de salvar e compartilhar um cartão de pontuação. |
 | Endpoint de projetos de API | Adicione, edite ou exclua projetos do Analysis Workspace usando a API. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| Tópico atualizado sobre como pausar tarefas agendadas mais antigas do Report Builder | **A partir de 15 de abril de 2022**, a Adobe pretende [pausar todas as tarefas agendadas do Report Builder que foram criadas há mais de dois anos](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+| Tópico atualizado sobre como pausar tarefas agendadas mais antigas do Report Builder | **A partir de 15 de abril de 2022**, a Adobe pretende [pausar todas as tarefas agendadas do Report Builder que foram criadas há mais de dois anos](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md). |
 
 ### 2021 {#year2021}
 

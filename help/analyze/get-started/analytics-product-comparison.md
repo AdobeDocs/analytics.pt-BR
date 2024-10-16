@@ -3,7 +3,7 @@ description: Requisitos de sistema e comparação do Analysis Workspace, Reports
 title: Comparação e requisitos de produtos do Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
@@ -16,9 +16,9 @@ Esta página contém uma comparação de vários produtos do Adobe Analytics: An
 
 Para obter informações sobre qual produto do Adobe Analytics usar, consulte [Qual ferramenta do Adobe Analytics devo usar?](/help/analyze/get-started/which-analytics-tool.md).
 
-| Nome do produto e link de ajuda | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) | [API 2.0 do Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Nome do produto e link de ajuda | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/report-buider-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) | [API 2.0 do Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
-| **Método de acesso** | [Navegador](/help/analyze/get-started/sys-reqs.md) | [MS Excel para Windows](/help/analyze/report-builder/setup/system-requirements.md) | Configure pelo navegador. [Saiba mais](/help/analyze/get-started/sys-reqs.md) | Configure pelo navegador. [Saiba mais](/help/export/analytics-data-feed/data-feed-overview.md) | Ferramentas RESTful API. Faça logon com as credenciais do Adobe Developer. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **Método de acesso** | [Navegador](/help/analyze/get-started/sys-reqs.md) | [MS Excel para Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Configure pelo navegador. [Saiba mais](/help/analyze/get-started/sys-reqs.md) | Configure pelo navegador. [Saiba mais](/help/export/analytics-data-feed/data-feed-overview.md) | Ferramentas RESTful API. Faça logon com as credenciais do Adobe Developer. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Granularidade de dados** | Agregado | Agregado | Agregado | Ocorrência | Agregado |
 | **Experience Cloud ID (ECID) disponível** | Não | Não | Sim | Sim | Não |
 | **Carimbo de data e hora disponível** | Não | Não | Não | Sim | Não |
@@ -36,5 +36,5 @@ Para obter informações sobre qual produto do Adobe Analytics usar, consulte [Q
 | **Preparação** <br> [Saiba mais](/help/analyze/analysis-workspace/curate-share/curate.md) | Sim: conjunto de relatórios de projeto e virtuais | Não | Não | Não | Sim: somente conjunto de relatórios virtuais |
 | **Compartilhamento de projeto** <br> [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sim, com funções de projeto | Sim | Não | Não | Não |
 | **Delivery programado** | Sim | Sim | Sim | Sim | Não |
-| **Destinos do delivery** | Email | Email, FTP, SFTP, [publicação no Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC e Email | Amazon S3, Azure RBAC, Azure SAS e Google Cloud Platform | - |
+| **Destinos do delivery** | Email | Email, FTP, SFTP, [publicação no Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC e Email | Amazon S3, Azure RBAC, Azure SAS e Google Cloud Platform | - |
 | **Processamento de tempo de relatório do conjunto de relatórios virtuais** <br> [Saiba mais](/help/components/vrs/vrs-report-time-processing.md) | Sim | Não | Não | Não | Sim |
