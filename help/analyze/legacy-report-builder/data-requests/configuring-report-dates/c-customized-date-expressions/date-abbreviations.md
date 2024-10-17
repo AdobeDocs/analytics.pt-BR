@@ -5,7 +5,7 @@ uuid: 829d613e-5900-4586-a9fc-239988492d8b
 feature: Report Builder
 role: User, Admin
 exl-id: f2d19f3f-c663-4fa4-b6c1-fe0dcdfffe63
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 86%
@@ -13,6 +13,8 @@ ht-degree: 86%
 ---
 
 # Abreviações de datas
+
+{{legacy-arb}}
 
 As abreviações de tempo se referem a uma data determinada que dá início a um período, e não a um intervalo de dias. Um intervalo de dias é expresso especificando uma data de início e uma data de término para abreviações ou termos de duas vezes.
 

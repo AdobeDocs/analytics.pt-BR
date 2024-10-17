@@ -5,7 +5,7 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 54%
@@ -14,8 +14,12 @@ ht-degree: 54%
 
 # Copiar solicitações e planilhas entre pastas de trabalho
 
+{{legacy-arb}}
+
 Copie uma planilha inteira em uma pasta de trabalho de origem em uma planilha em uma ou mais pastas de trabalho de destino. Para fazer isso, você deve ter pelo menos duas pastas de trabalho abertas na mesma instância do Excel:
+
 * A primeira pasta de trabalho de origem contém uma planilha (planilha) com solicitações mapeadas a células.
+
 * As pastas de trabalho de destino adicionais são os destinos. Para cada nova pasta de trabalho de destino, você deve fazer logon no mesmo conjunto de relatórios que a pasta de trabalho de origem antes de poder colar planilhas contendo solicitações.
 
 >[!NOTE]

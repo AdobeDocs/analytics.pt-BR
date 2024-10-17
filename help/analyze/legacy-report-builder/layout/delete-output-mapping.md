@@ -5,7 +5,7 @@ uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
 role: User, Admin
 exl-id: 88afef3b-1559-453b-a8e2-7251ef8c82ec
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 83%
@@ -13,6 +13,8 @@ ht-degree: 83%
 ---
 
 # Excluir mapeamento de saída
+
+{{legacy-arb}}
 
 Se você estiver editando sua pasta de trabalho e quiser abrir espaço para novas solicitações, talvez precise excluir solicitações.
 

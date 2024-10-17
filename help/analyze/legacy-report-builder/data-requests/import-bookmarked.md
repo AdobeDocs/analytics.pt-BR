@@ -4,7 +4,7 @@ title: Importar relatórios marcados e reportlets de painel
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 72%
@@ -12,6 +12,8 @@ ht-degree: 72%
 ---
 
 # Importar relatórios marcados e reportlets de painel
+
+{{legacy-arb}}
 
 Todos os relatórios marcados e relatórios de painel agora são listados como dimensões na Etapa 1 do assistente de solicitações e podem ser importados como solicitações Report Builder.
 

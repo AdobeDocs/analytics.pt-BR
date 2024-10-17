@@ -4,7 +4,7 @@ title: Controles interativos
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 72%
@@ -12,6 +12,8 @@ ht-degree: 72%
 ---
 
 # Controles interativos
+
+{{legacy-arb}}
 
 Os Controles interativos permitem que você edite segmentos e intervalos de datas para uma ou mais solicitações diretamente da planilha. Isso proporciona mais flexibilidade ao atualizar solicitações Report Builder.
 
