@@ -5,7 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 60%
@@ -20,25 +20,25 @@ Um *bloco de dados* é a tabela de dados criada por uma única solicitação de 
 
 Configure os parâmetros do bloco de dados inicial para o Local do bloco de dados, conjuntos de relatórios e um Intervalo de datas.
 
-1. Clique em **Criar bloco de dados**.
+1. Clique em **[!UICONTROL Criar bloco de dados]**.
 
    ![Captura de tela mostrando a opção Criar bloco de dados.](./assets/create_db.png)
 
-1. Defina a **localização do bloco de dados**.
+1. Defina a **[!UICONTROL localização do bloco de dados]**.
 
    A opção de localização do bloco de dados define o local da planilha no qual o Report Builder adiciona os dados à planilha.
 
    Para especificar o local do bloco de dados, selecione uma única célula na planilha ou insira um endereço de célula como a3, \\\$a3, a\\\$3 or sheet1!a2. A célula especificada será o canto superior esquerdo do bloco de dados quando os dados forem recuperados.
 
-1. Escolha os **conjuntos de relatórios**.
+1. Escolha um **Conjunto de Relatórios**.
 
    A opção Conjuntos de relatórios permite escolher um conjunto de relatórios a partir de um menu suspenso ou fazer referência a um conjunto de relatórios a partir do local de uma célula.
 
-1. Defina o **Intervalo de datas**.
+1. Defina o **[!UICONTROL Intervalo de datas]**.
 
    A opção Intervalo de datas permite escolher um intervalo de datas. Os intervalos de datas podem ser fixos ou contínuos. Para obter informações sobre opções de intervalo de dados, consulte [Selecionar um intervalo de datas](select-date-range.md).
 
-1. Clique **Próximo**.
+1. Clique **[!UICONTROL Próximo]**.
 
    ![Captura de tela mostrando a opção de intervalo de datas e o botão Próximo ativo.](./assets/choose_date_data_view3.png)
 
