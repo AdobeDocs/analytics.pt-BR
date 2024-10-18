@@ -4,10 +4,10 @@ title: Fatores de desempenho e otimização do Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: ab2eead2406a7bb06f76cab7a09333a5dc250359
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 100%
+source-wordcount: '2503'
+ht-degree: 77%
 
 ---
 
@@ -57,13 +57,42 @@ Os fatores de projeto [!UICONTROL Ajuda] > [!UICONTROL Desempenho] incluem:
 
 | Fator | Definição | Otimização |
 | --- | --- | --- |
-| Número de consultas | O número total de queries (solicitações) feitos à Adobe para recuperar dados exibidos no projeto. As queries incluem solicitações classificadas para tabelas, detecção de anomalias, linhas cintilantes, componentes mostrados no painel esquerdo e muito mais. Exclui painéis e visualizações recolhidos. A orientação é 100. | Sempre que possível simplifique o projeto dividindo dados em vários projetos que atendem a uma finalidade específica ou a um grupo de participantes. Use tags para organizar projetos em temas e use [links diretos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) para criar um sumário interno, de modo que as partes interessadas possam encontrar mais facilmente o que precisam. |
+| Número de solicitações | O número total de solicitações feitas ao Adobe para recuperar dados exibidos no projeto. As queries incluem solicitações classificadas para tabelas, detecção de anomalias, linhas cintilantes, componentes mostrados no painel esquerdo e muito mais. Exclui painéis e visualizações recolhidos. A orientação é 100. | Sempre que possível simplifique o projeto dividindo dados em vários projetos que atendem a uma finalidade específica ou a um grupo de participantes. Use tags para organizar projetos em temas e use [links diretos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) para criar um sumário interno, de modo que as partes interessadas possam encontrar mais facilmente o que precisam. |
 | Painéis expandidos (do total de painéis) | O número de painéis expandidos do número total de painéis no projeto. A orientação é 5. | Depois de seguir as etapas para simplificar seu projeto, recolha os painéis no projeto que não precisam ser exibidos quando carregados. Quando o projeto for aberto, somente os painéis expandidos serão processados. Os painéis recolhidos não serão processados até que o usuário os expanda. |
 | Visualizações expandidas (do total de visualizações) | O número de tabelas expandidas e visualizações do total no projeto, incluindo fontes de dados ocultas. A orientação é 15. | Depois de seguir as etapas para simplificar o projeto, recolha as visualizações no projeto que não precisam ser visualizadas quando carregadas. Priorize os recursos visuais mais importantes para o consumidor do relatório e separe os recursos visuais de suporte em um painel ou projeto separado e mais detalhado, se necessário. |
 | Número de células de forma livre | O número total de células da tabela de forma livre no projeto, calculado por linhas * colunas em todas as tabelas. Exclui fontes de dados ocultas. A orientação é 4000. | Reduza o número de colunas na tabela somente para os pontos de dados mais relevantes. Reduza o número de linhas na tabela ajustando o número de linhas exibidas, aplicando um filtro de tabela ou aplicando um segmento. |
 | Componentes disponíveis | O número total de componentes recuperados no painel esquerdo do projeto, em todos os conjuntos de relatórios do projeto. Isso afetará a velocidade em que o painel esquerdo é carregado e a velocidade de retorno dos resultados da pesquisa. A orientação é 2000. | Fale com o administrador do produto sobre como criar um conjunto de relatórios virtuais com curadoria que tenha um conjunto de componentes mais adaptado. |
 | Componentes usados | O número total de componentes usados no projeto. A orientação é 100. | O número de componentes usados não é um influenciador direto do desempenho. No entanto, a complexidade desses componentes contribuirá para o desempenho do projeto. Consulte as otimizações na seção “Fatores adicionais” abaixo. |
 | Maior intervalo de datas | Esse fator exibe o intervalo de datas mais longo usado no projeto. A orientação é de 1 ano. | Quando possível, não insira mais dados do que o necessário. Restrinja o calendário do painel às datas relevantes para a sua análise ou use componentes de intervalo de datas (componentes roxos) nas tabelas de forma livre. Os intervalos de datas usados em uma tabela substituem o intervalo de datas do painel. Por exemplo, você pode adicionar mês passado, semana passada e ontem às colunas da tabela para solicitar esses intervalos de dados específicos. Para obter mais informações sobre o uso de intervalos de datas no Analysis Workspace, assista a [este vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html?lang=pt-BR). <br><br>Além disso, minimize o número de comparações ano a ano usadas no projeto. Quando uma comparação ano a ano é calculada, ela analisa os 13 meses completos de dados entre os meses de interesse. Essa ação tem o mesmo impacto que alterar o intervalo de datas do painel para durar 13 meses. |
+
+## Fatores de solicitação
+
+[!UICONTROL Ajuda] > [!UICONTROL Desempenho] fatores de solicitação
+
+Use o diagrama e os termos a seguir para saber como as solicitações são processadas e os vários fatores que influenciam os tempos de processamento:
+
+>[!NOTE]
+>
+>As diretrizes recomendadas para esses fatores se baseiam em uma pontuação de complexidade do Medium para solicitações de relatórios.
+
+
+### Diagrama de processamento de solicitações
+
+![Processamento da solicitação](assets/request-processing.png)
+
+### Termos de processamento de solicitação
+
+| Fator | Definição | Otimização |
+| --- | --- | --- |
+| [!UICONTROL **Tempo médio de solicitação**] | O tempo necessário, desde o momento em que a solicitação é iniciada até o momento em que é concluída. <p>No diagrama [Processamento da solicitação](#request-processing-diagram) acima, o tempo de solicitação representa o processo completo, desde **solicitação do Analysis Workspace iniciada** até **solicitação do Analysis Workspace concluída**.</p> |  |
+| [!UICONTROL **Tempo de solicitação mais longo**] | O tempo necessário, desde o momento em que a solicitação é iniciada até o momento em que é concluída. <p>No diagrama [Processamento da solicitação](#request-processing-diagram) acima, o tempo de solicitação representa o processo completo, desde **solicitação do Analysis Workspace iniciada** até **solicitação do Analysis Workspace concluída**.</p> |  |
+| [!UICONTROL **Tempo médio de pesquisa**] | Como o Analysis Workspace armazena somente o hash para qualquer cadeia de caracteres usada em qualquer segmento, cada vez que você processa um projeto, **Pesquisas** são executadas para corresponder os hashes aos valores apropriados. <p>Esse processo pode consumir muitos recursos, dependendo do número de valores que podem corresponder ao hash. </p><p>No diagrama [Processamento de solicitação](#request-processing-diagram) acima, o tempo de pesquisa é representado na fase **Pesquisas** (no momento da fase **Processamento do mecanismo de solicitação**).</p> | Se as solicitações estiverem ficando lentas aqui, isso provavelmente se deve ao fato de você ter muitos segmentos de sequência em seu projeto ou cadeias de caracteres com valores excessivamente genéricos que têm muitas correspondências em potencial. |
+| [!UICONTROL **Tempo médio da fila**] | O tempo total de espera na fila antes do processamento das solicitações.<p>No diagrama acima, [Processamento de solicitação](#request-processing-diagram), o tempo de espera é representado na fase **Fila do mecanismo de solicitação** e na fase **Fila do servidor**.</p> | Se as solicitações estiverem lentas aqui, talvez seja devido ao excesso de solicitações em execução simultaneamente em sua organização. Tente executar a solicitação fora do horário de pico. |
+| [!UICONTROL **Tempo médio de processamento do servidor**] | A quantidade média de tempo que leva para processar a solicitação.<p>No diagrama acima, [Processamento de solicitação](#request-processing-diagram), o tempo médio de processamento do servidor é representado na fase **Fila do servidor** e **Processamento do servidor**. | Se as solicitações estiverem ficando lentas aqui, é provável que o projeto tenha intervalos de datas muito longos ou visualizações complexas. Tente reduzir o intervalo de datas do projeto para diminuir os tempos de processamento. |
+| [!UICONTROL **Complexidade**] | Nem todas as solicitações exigem o mesmo tempo para serem processadas. A complexidade da solicitação pode ajudar a fornecer uma ideia geral sobre o tempo necessário para processar a solicitação. <p>Os valores possíveis incluem:</p> <ul><li>[!UICONTROL **Baixo**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **Alta**]</li></ul>Esse valor é influenciado pelos valores nas seguintes colunas:<ul><li>[!UICONTROL **Limites de mês**]</li><li>[!UICONTROL **Colunas**]</li><li>[!UICONTROL **Segmentos**]</li></ul> |  |
+| [!UICONTROL **Limites de mês**] | O número de meses incluídos em uma solicitação. Mais limites de mês aumentam a complexidade da solicitação. | Se as solicitações estiverem lentas aqui, pode ser porque os limites do mês no seu projeto são muito grandes. Tente reduzir o número de meses. |
+| [!UICONTROL **Colunas**] | O número de métricas e divisões na solicitação. Mais colunas aumentam a complexidade da solicitação. | Se as solicitações estiverem lentas aqui, pode ser porque há muitas colunas em seu projeto. Tente reduzir o número de colunas. |
+| [!UICONTROL **Segmentos**] | O número de segmentos aplicados à solicitação. Mais segmentos aumentam a complexidade da solicitação. | Se as solicitações estiverem lentas aqui, pode ser porque há muitos segmentos em seu projeto. Tente reduzir o número de segmentos. |
 
 ## Fatores adicionais
 
