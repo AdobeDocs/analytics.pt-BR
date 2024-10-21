@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
+source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 59%
+source-wordcount: '642'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ Um *bloco de dados* é a tabela de dados criada por uma única solicitação de 
 
 Configure os parâmetros do bloco de dados inicial para o local do bloco de dados, conjunto de relatórios e um intervalo de datas.
 
-1. Clique em **[!UICONTROL Criar bloco de dados]**.
+1. Clique em **[!UICONTROL Criar]**.
 
    ![Captura de tela mostrando a opção Criar bloco de dados.](./assets/create_db.png)
 
@@ -28,7 +28,7 @@ Configure os parâmetros do bloco de dados inicial para o local do bloco de dado
 
    A opção de localização do bloco de dados define o local da planilha no qual o Report Builder adiciona os dados à planilha.
 
-   Para especificar o local do bloco de dados, selecione uma única célula na planilha ou insira um endereço de célula como a3, \\\$a3, a\\\$3 or sheet1!a2. A célula especificada será o canto superior esquerdo do bloco de dados quando os dados forem recuperados.
+   Para especificar o local do bloco de dados, selecione uma única célula na planilha ou insira um endereço de célula como a3, \\\$a3, a\\\$3 or sheet1!a2. A célula especificada marca o canto superior esquerdo do bloco de dados quando os dados são recuperados.
 
 1. Escolha um **Conjunto de Relatórios**.
 
@@ -50,7 +50,7 @@ Para criar o bloco de dados, selecione componentes do relatório e personalize o
 
 1. Adicionar Dimensões, Métricas e Filtros.
 
-   Rolar as listas de componentes ou usar o campo de **pesquisa** para localizar os componentes. Arraste e solte componentes no painel Tabela ou clique duas vezes em um nome de componente na lista para adicionar automaticamente o componente ao painel Tabela.
+   Rolar as listas de componentes ou usar o campo **[!UICONTROL Pesquisa]** para localizar os componentes. Arraste e solte componentes no painel Tabela ou clique duas vezes em um nome de componente na lista para adicionar automaticamente o componente ao painel Tabela.
 
    Clique duas vezes em um componente para adicioná-lo a uma seção padrão da tabela.
 
@@ -60,7 +60,7 @@ Para criar o bloco de dados, selecione componentes do relatório e personalize o
 
    **Data inicial como Dimension**
 
-   Defina a Data de início como uma dimensão para identificar claramente a data de início do bloco de dados. Isso é útil se você tiver um relatório agendado regularmente com um intervalo de datas em andamento ou se tiver um intervalo de datas não convencional e precisar estar livre da data de início.
+   Defina a **[!UICONTROL Data inicial]** como uma dimensão para identificar claramente a data inicial do bloco de dados. Isso é útil se você tiver um relatório agendado regularmente com um intervalo de datas em andamento ou se tiver um intervalo de datas não convencional e precisar estar claro sobre a data de início.
 
    ![Captura de tela mostrando a data de início na lista de dimensões.](./assets/start-date-dimension.png){width="30%"}
 
@@ -74,7 +74,7 @@ Para criar o bloco de dados, selecione componentes do relatório e personalize o
 
    **Exibir ou ocultar cabeçalhos de linha e coluna**
 
-1. Clique no ícone de configurações **Tabela**.
+1. Clique no ícone **[!UICONTROL Configurações da tabela]**.
 
    ![Captura de tela mostrando a opção de configurações de Tabela.](./assets/table-settings.png){width="35%"}
 
@@ -88,7 +88,7 @@ Para criar o bloco de dados, selecione componentes do relatório e personalize o
 
 1. Clique em Ocultar ou Mostrar para alternar os rótulos de dimensão ou cabeçalhos da coluna. Todos os rótulos são exibidos por padrão.
 
-1. Clique em **Concluir**.
+1. Clique em **[!UICONTROL Concluir]**.
 
    Uma mensagem de processamento é exibida enquanto os dados de análise são recuperados.
 
