@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -18,9 +18,9 @@ Um *bloco de dados* é a tabela de dados criada por uma única solicitação de 
 
 ## Configurar o bloco de dados
 
-Configure os parâmetros do bloco de dados inicial para o Local do bloco de dados, conjuntos de relatórios e um Intervalo de datas.
+Configure os parâmetros do bloco de dados inicial para o local do bloco de dados, conjunto de relatórios e um intervalo de datas.
 
-1. Clique em **[!UICONTROL Criar bloco de dados]**.
+1. Clique em **[!UICONTROL Criar bloco de dados]**.
 
    ![Captura de tela mostrando a opção Criar bloco de dados.](./assets/create_db.png)
 
@@ -38,7 +38,7 @@ Configure os parâmetros do bloco de dados inicial para o Local do bloco de dado
 
    A opção Intervalo de datas permite escolher um intervalo de datas. Os intervalos de datas podem ser fixos ou contínuos. Para obter informações sobre opções de intervalo de dados, consulte [Selecionar um intervalo de datas](select-date-range.md).
 
-1. Clique **[!UICONTROL Próximo]**.
+1. Clique em **[!UICONTROL Avançar]**.
 
    ![Captura de tela mostrando a opção de intervalo de datas e o botão Próximo ativo.](./assets/choose_date_data_view3.png)
 
