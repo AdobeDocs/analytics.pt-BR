@@ -3,15 +3,14 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
+source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 51%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (versão de 23 de outubro de 2024)
-
 
 **Última atualização**: quinta-feira, 23 de outubro de 2024
 
@@ -38,12 +37,11 @@ Fontes de dados: AN-359290
 Data Warehouse: AN-359820
 Alertas excedentes: AN-358132
 
-
 ## Avisos importantes para administradores do Adobe Analytics {#admin}
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| **Clientes que não sejam do Campaign perderão o acesso aos Acionadores** | 16 de outubro de 2024 | Em 30 de janeiro de 2025, os clientes do Adobe Analytics que não têm uma licença do Adobe Campaign perderão o acesso à capacidade de configurar e consumir [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers). Os clientes precisam comprar o Campaign, planejar parar de usar o Triggers ou procurar em outras ferramentas do Adobe que oferecem recursos para o Triggers. |
+| **Clientes que não sejam do Campaign perderão o acesso aos Acionadores** | 16 de outubro de 2023 | Em 30 de janeiro de 2025, os clientes do Adobe Analytics que não têm uma licença do Adobe Campaign perderão o acesso à capacidade de configurar e consumir Acionadores. Os clientes precisam comprar o Campaign, planejar parar de usar o Triggers ou procurar em outras ferramentas do Adobe que oferecem recursos para o Triggers. |
 | **Campos do XDM dos detalhes de implementação adicionais mapeados automaticamente** | 11 de setembro de 2024 | Ao usar a Edge Network da Adobe Experience Platform para enviar dados ao Adobe Analytics, os campos do XDM `xdm.implementationdetails.name` e `xdm.implementationdetails.environment` agora sempre mapeiam para as variáveis de dados de contexto `c.a.x.implementationdetails.name` e `c.a.x.implementationdetails.environment`. Anteriormente, alguns cenários impediam o preenchimento desses valores. Ajuste todas as regras de processamento relevantes para acomodar a disponibilidade desses valores. |
 
 ## Avisos de fim da vida útil (EOL) {#eol}
