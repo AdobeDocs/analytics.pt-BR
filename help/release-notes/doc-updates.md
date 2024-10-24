@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: bae719223ffa642434ab9559c1e48ebd76d003a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6028'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Outubro de 2024** |  |
-| Novas informações sobre fatores de solicitação no desempenho do Analysis Workspace | Uma nova seção [Fatores de solicitação](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) no artigo [Otimizar o desempenho do Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) explica como as solicitações são processadas e os vários fatores que influenciam os tempos de processamento. |
-| Novo Report Builder | [Nova documentação](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) para o suplemento de Report Builder simplificado que é compatível com o Mac, Windows e navegadores da Web. |
+| Novas informações sobre fatores de solicitação no desempenho do Analysis Workspace | Uma nova seção de [Fatores de solicitação](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) no artigo [Otimizar o desempenho do Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) explica como as solicitações são processadas e os vários fatores que influenciam os tempos de processamento. |
+| Novo Report Builder | [Nova documentação](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/report-buider-overview) para o complemento do Report Builder simplificado e compatível com Mac, Windows e navegadores da web. |
 | **Agosto de 2024** | |
 | Gerenciador de alertas | Documentação simplificada sobre o [Gerenciador de alertas](/help/components/c-alerts/alert-manager.md). Atualizada para aumentar a clareza e a precisão. |
 | **Julho de 2024** | |

@@ -4,9 +4,9 @@ title: Qual ferramenta do Adobe Analytics devo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1220'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 
 Os **[painéis do Adobe Analytics](/help/analyze/mobile-app/home.md)** permitem acessar em dispositivos móveis os cartões de pontuação intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. O aplicativo móvel é compatível com os sistemas operacionais iOS e Android.
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** é um suplemento do Microsoft Excel executado no Mac, Windows e navegadores da Web. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
+O **[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** é um complemento para Microsoft Excel executado no Mac, Windows e navegadores da web. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
 
-O **[Report Builder herdado](/help/analyze/legacy-report-builder/home.md)** é um suplemento do Microsoft Excel executado apenas no Windows. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
+O **[Report Builder legado](/help/analyze/legacy-report-builder/home.md)** é um complemento para Microsoft Excel executado apenas no Windows. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
 
 O **[Activity Map](/help/analyze/activity-map/overview.md)** é um recurso do Adobe Analytics que fornece uma representação visual do engajamento do usuário em páginas da web e aplicativos móveis. Ele permite que profissionais de marketing e analistas rastreiem e analisem interações de usuários, como cliques, movimentos de cursor e comportamento de rolagem.
 
