@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
-user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo Analysis Workspace, Painéis do Analytics, Report Builder e Report Builder herdado e Activity Map.
+user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ ht-degree: 96%
 + Report Builder {#report-builder}
    + [Visão geral do Report Builder](report-builder/report-buider-overview.md)
    + [Configuração do Report Builder](report-builder/report-builder-setup.md)
-   + [Converter solicitações herdadas](report-builder/convert-workbooks.md)
+   + [Converter solicitações legadas](report-builder/convert-workbooks.md)
    + [Criar um bloco de dados](report-builder/create-a-data-block.md)
    + [O Hub do Report Builder](report-builder/report-builder-hub.md)
    + [Selecionar um conjunto de relatórios](report-builder/select-report-suite.md)
@@ -174,9 +174,9 @@ ht-degree: 96%
    + [Programar pastas de trabalho](report-builder/schedule-reportbuilder.md)
    + [Rótulos restritos](report-builder/restricted-labels.md)
    + [Configurações do Report Builder](report-builder/report-builder-settings.md)
-+ Report Builder herdado {#legacy-report-builder}
-   + [Ajuda herdada do Adobe Report Builder](legacy-report-builder/home.md)
-   + Configuração de Report Builder herdado {#legacy-report-builder-setup}
++ Report Builder legado {#legacy-report-builder}
+   + [Ajuda do Report Builder legado da Adobe](legacy-report-builder/home.md)
+   + Configuração do Report Builder legado {#legacy-report-builder-setup}
       + [Requisitos do sistema](legacy-report-builder/setup/system-requirements.md)
       + [Instalar o Report Builder](legacy-report-builder/setup/t-install-arb.md)
       + [Atualizar o Report Builder](legacy-report-builder/setup/upgrade-arb.md)
