@@ -4,10 +4,10 @@ title: Migração de usuários do Analytics para o Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '3084'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -76,7 +76,7 @@ Respostas às perguntas que você pode ter antes da migração.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atualizar o Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Importante: atualize sua instalação do <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html?lang=pt-BR">Report Builder</a> para a versão mais recente. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Importante: atualize sua instalação do <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> para a versão mais recente. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quando a migração começa? </p> </td> 
@@ -248,7 +248,7 @@ Informações importantes sobre o processo de migração e como ele afeta o gere
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiração da conta </p> </td> 
-   <td colname="col2"> <p> Você pode definir manualmente uma data de expiração da conta do Analytics nas Ferramentas administrativas. Quando a data de validade chegar, o usuário não poderá acessar o Analytics, mas a conta de usuário da Experience Cloud (exemplo, Adobe ID, Enterprise ID, Federated ID etc.) não expira. Eles ainda pode acessar a Experience Cloud, mas não poderão clicar no Analytics. </p> </td> 
+   <td colname="col2"> <p> Você pode definir manualmente uma data de expiração da conta do Analytics nas Ferramentas administrativas. Depois que a data de expiração for atingida, o usuário não poderá acessar o Analytics, mas a conta de usuário Experience Cloud real (por exemplo, Adobe ID, Enterprise ID, Federated ID etc.) não expirará. Eles ainda pode acessar a Experience Cloud, mas não poderão clicar no Analytics. </p> </td> 
   </tr> 
  </tbody> 
 </table>

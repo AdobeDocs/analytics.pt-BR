@@ -5,7 +5,7 @@ uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 87%
@@ -31,4 +31,4 @@ A análise em tempo real respeita as permissões para usuários e grupos. Por ex
 
 >[!NOTE]
 >
->[!UICONTROL Relatórios em Tempo Real] não são o mesmo que o recurso [Incluir Dados Atuais](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Recenticidade dos Dados) lançado anteriormente, que, por sua vez, reduz a latência de relatórios padrão ao exibir dados antes da finalização.
+>[!UICONTROL Relatórios em Tempo Real] não são o mesmo que o recurso [Incluir Dados Atuais](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) (Recenticidade dos Dados) lançado anteriormente, que, por sua vez, reduz a latência de relatórios padrão ao exibir dados antes da finalização.
