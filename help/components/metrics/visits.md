@@ -3,10 +3,10 @@ title: Visitas
 description: Uma sequência de exibições da página em uma sessão.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
+source-git-commit: 59582c9fa910c789b44798eae21566aa6fd99124
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '694'
+ht-degree: 88%
 
 ---
 
@@ -45,8 +45,8 @@ Se um visitante executar qualquer uma dessas ações, uma nova visita **não** s
 
 É possível alterar a definição de uma visita para um horário que não ultrapasse 30 minutos.
 
-* Para [conjuntos de relatórios virtuais](../vrs/vrs-about.md), é possível alterar o tempo limite da visita usando a lista suspensa [!UICONTROL Tempo limite da visita]. Você pode alterar o tempo limite da visita para qualquer valor razoável.
-* Para conjuntos de relatórios padrão, entre em contato com o Atendimento ao cliente para solicitar que a duração da visita seja reduzida para um determinado conjunto de relatórios. A duração da visita dos conjuntos de relatórios padrão não pode exceder 30 minutos, portanto, você só pode reduzi-la.
+* Para [Conjuntos de relatórios virtuais](../vrs/vrs-about.md), é possível alterar o tempo limite da visita (tempo entre ocorrências que causa o início de uma nova visita) usando a lista suspensa [!UICONTROL Tempo limite da visita]. Você pode alterar o tempo limite da visita para qualquer valor razoável.
+* Para conjuntos de relatórios padrão, entre em contato com o Atendimento ao cliente para solicitar que o tempo limite da visita (tempo entre as ocorrências que causam o início de uma nova visita) seja reduzido para um determinado conjunto de relatórios. O tempo limite de visita dos conjuntos de relatórios padrão não pode exceder 30 minutos, portanto, você só pode reduzi-lo.
 
 ## Visitas que abrangem um limite de data
 
