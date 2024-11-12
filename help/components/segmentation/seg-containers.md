@@ -4,10 +4,10 @@ keywords: segmentação;segmentos
 title: Containers de segmento
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
+source-git-commit: 6a36155dcd1fd06ea052783a8fd5714cd10e16ec
 workflow-type: tm+mt
-source-wordcount: '3529'
-ht-degree: 100%
+source-wordcount: '3566'
+ht-degree: 98%
 
 ---
 
@@ -96,6 +96,10 @@ Ao criar contêineres de segmento em outros contêineres, você cria um segmento
 1. Determine quais dados estão incluídos com o contêiner mais externo. Quaisquer dados que não correspondem a essa regra exterior são descartados no relatório segmentado.
 1. Aplique essa regra aninhada aos dados restantes. A regra aninhada NÃO se aplica a quaisquer ocorrências que a primeira regra descarta.
 1. Repita até que todas as regras de contêiner aninhado sejam calculadas. Os dados restantes são incluídos no relatório resultante.
+
+>[!NOTE]
+>
+>Ao aninhar um segmento em um segmento (por exemplo, você arrasta um segmento do painel Componentes para a definição do segmento), um contêiner é criado com uma cópia (não uma referência) da regra de segmento arrastada.
 
 Você pode realizar o aninhamento de containers, bem como de regras de um container. Você pode aninhar o seguinte em cada contêiner:
 
