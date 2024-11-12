@@ -4,7 +4,7 @@ title: Noções básicas da interface do Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2064'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ A guia [!UICONTROL Componentes] inclui recursos que ajudam a ajustar e potencial
    | Recurso do produto | Função | Mais informações |
    |---------|----------|----------|
    | Data Warehouse | O Data Warehouse refere-se à cópia dos dados do Analytics para fins de armazenamento e relatórios personalizados, que podem ser executados ao filtrar os dados. <p>O Gerenciador de solicitações permite visualizar, duplicar e priorizar novamente as solicitações.</p> | [Gerenciar solicitações do Data Warehouse](https://experienceleague.adobe.com/pt-br/docs/analytics/export/data-warehouse/data-warehouse-requests-manage) |
-   | Activity Map | O Activity Map é projetado para classificar a atividade do link com o uso de sobreposições visuais e fornecer a disponibilização de um painel de análise em tempo real para monitorar o engajamento do público-alvo em suas páginas da Web. Ele permite configurar diferentes exibições para identificar visualmente a aceleração da atividade de clientes, quantificar as iniciativas de marketing e agir conforme as necessidades e os comportamentos do público-alvo. | [Visão geral do Activity Map](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/activity-map/activity-map) |
+   | Activity Map | O Activity Map é projetado para classificar a atividade do link com o uso de sobreposições visuais e fornecer a disponibilização de um painel de análise em tempo real para monitorar o engajamento do público-alvo em suas páginas da Web. Ele permite configurar diferentes exibições para identificar visualmente a aceleração da atividade de clientes, quantificar as iniciativas de marketing e agir conforme as necessidades e os comportamentos do público-alvo. | [Visão geral do Activity Map](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/activity-map/activity-map?lang=pt-BR) |
    | Recommendations Classic | Recommendations é um recurso do Adobe Target que exibe automaticamente produtos, serviços ou conteúdo que podem ser do interesse de seus visitantes, com base em atividades anteriores, preferências ou outros critérios. | [Recommendations](https://experienceleague.adobe.com/pt-br/docs/target/using/recommendations/recommendations) |
    | Search &amp; Promote | Não há mais suporte para este recurso. |  |
    | Mobile Services | Não há mais suporte para este recurso. |  |
