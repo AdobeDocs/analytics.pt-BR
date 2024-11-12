@@ -4,9 +4,9 @@ title: Guia executivo de painéis do Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
+source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1262'
 ht-degree: 92%
 
 ---
@@ -62,7 +62,7 @@ Para usar painéis:
 
 1. Toque no cartão de pontuação que deseja exibir.
 
-   Se você tiver acesso a mais de uma organização em um logon, todos os scorecards de suas organizações estarão disponíveis na lista de scorecards.
+   Se você tiver acesso a mais de uma organização em um logon, a tela inicial mostrará todos os scorecards de todas as empresas disponíveis em um único local.
 
    Você pode classificar a lista de cartões de pontuação de acordo com o título do cartão de pontuação, o nome da organização ou a visualização mais recente. Você pode até mesmo pesquisar por um scorecard específico.
 

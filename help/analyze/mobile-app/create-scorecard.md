@@ -4,7 +4,7 @@ title: Criar e compartilhar cartões de pontuação móveis
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
+source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
 workflow-type: tm+mt
 source-wordcount: '2500'
 ht-degree: 81%
@@ -291,7 +291,6 @@ Para se mover entre o bloco e os slides, toque na barra de navegação.
 ![Criar uma história de dados](assets/data-story-nav.png){width="25%"}
 
 Você também pode navegar para frente e para trás usando as setas no teclado ou selecionando um componente e mantendo-o à esquerda ou direita da tela para rolar.
-
 
 ## Visualizar cartão de pontuação {#preview}
 
