@@ -3,9 +3,9 @@ description: Use alertas no Analysis Workspace.
 title: Visão geral do Criador de alertas
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: a71c3c6911ed2c2eb9202c8f149a44d6364017b8
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 36%
 
 ---
@@ -43,7 +43,7 @@ Para criar um alerta:
    |---------|----------|
    | [!UICONTROL **Título**] | Especifique um nome para o alerta. O nome do alerta pode conter o nome do relatório ou o limite da métrica. |
    | [!UICONTROL **Descrição (opcional)**] | Especifique uma descrição para o alerta. |
-   | [!UICONTROL **Granularidade de tempo**] | Selecione a frequência com que deseja verificar a métrica: diariamente, semanalmente ou mensalmente.<p><b>Observação:</b>Para exibições de dados com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.<!--true?--></p> |
+   | [!UICONTROL **Granularidade de tempo**] | Selecione a frequência com que deseja verificar a métrica: por hora, dia, semana ou mês.<p><b>Observação:</b>Para exibições de dados com um calendário personalizado, não oferecemos suporte à granularidade mensal no Criador de alertas.<!--true?--></p> |
    | [!UICONTROL **Destinatários**] | Especifique para onde o alerta pode ser enviado. Um alerta pode ser enviado a um usuário do Analytics, a um grupo do Analytics, a um endereço de email bruto ou a um número de telefone.<p><b>Importante:</b>O número de telefone deve ser precedido por um &quot;+&quot; e um [código do país](https://countrycode.org/).</p><p>O email que um usuário receberia depois que um alerta é acionado é semelhante ao modelo abaixo:</p><p>![](assets/alerts-email.PNG)</p> |
    | [!UICONTROL **Data de expiração**] | Defina a data e a hora em que deseja que o alerta expire. |
    | [!UICONTROL **Enviar um alerta quando**] | [!UICONTROL **Qualquer uma destas métricas aciona**]: arraste e solte métricas (incluindo métricas calculadas) aqui para criar acionadores para o alerta.<p>Uma mensagem **&quot;componentes incompatíveis&quot;** será exibida se nem todas as métricas, dimensões ou segmentos no alerta forem compatíveis com a exibição de dados selecionada no momento.</p><p>Determine o limite que a métrica deve exceder antes de definir um alarme. Você pode definir este valor para um limite e, em seguida, para uma das condições a seguir:</p><ul><li>a anomalia existe</li><li>a anomalia está acima do esperado</li><li>a anomalia está abaixo do esperado</li><li>é igual ou maior que</li><li>é igual ou menor que</li><li>alterações por</li><li>Você pode definir um limite de 90%, 95%, 99%, 99,75% e 99,9%.</li></ul><p>[!UICONTROL **Com todos esses filtros**]: arraste e solte segmentos ou dimensões para adicionar filtros. Por exemplo, adicionar um segmento &quot;Somente dispositivos móveis&quot; significaria que a regra seria acionada somente para dispositivos móveis. Você pode adicionar filtros extras usando uma instrução AND. Você pode adicionar regras AND ou OR, clicando no ícone de engrenagem.</p><p>Consulte [Alertas - Casos de uso](/help/components/c-alerts/alerts-use-cases.md), por exemplo, casos de uso.</p> |
