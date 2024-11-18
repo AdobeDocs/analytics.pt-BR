@@ -3,9 +3,9 @@ description: Os alertas permitem controle granular sobre notificações e integr
 title: Visão geral de alertas
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ O tutorial em vídeo a seguir fornece uma visão geral básica dos alertas: [Ale
 
 >[!NOTE]
 >
->O uso de alertas com detecção de anomalias (também conhecido como _Alertas inteligentes_) está disponível somente para organizações com um pacote Adobe Analytics Select, Prime ou Ultimate.
+>O uso de alertas com detecção de anomalias (também conhecido como _Alertas inteligentes_) está disponível somente para organizações com um pacote do Adobe Analytics Prime ou Ultimate.
 
 Se um alerta usar a detecção de anomalias, o período de treinamento varia de acordo com a granularidade selecionada para o alerta.
 
