@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
+exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
+source-git-commit: c35d5bdc29ce80f0c9357339b04fd2d656cfbe52
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 55%
+source-wordcount: '650'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +29,9 @@ Configure os parâmetros do bloco de dados inicial para o local do bloco de dado
 
    A opção de localização do bloco de dados define o local da planilha no qual o Report Builder adiciona os dados à planilha.
 
-   Para especificar o local do bloco de dados, selecione uma única célula na planilha ou insira um endereço de célula como a3, \\\$a3, a\\\$3 or sheet1!a2. A célula especificada marca o canto superior esquerdo do bloco de dados quando os dados são recuperados.
+   Para especificar o local do bloco de dados, selecione uma única célula na planilha e clique no ícone ao lado de **[!UICONTROL Local do bloco de dados]**:
+
+   Você também pode inserir um endereço de célula, como a3, \\\$a3, a\\\$3 ou sheet1!a2. A célula especificada marca o canto superior esquerdo do bloco de dados quando os dados são recuperados.
 
 1. Escolha um **Conjunto de Relatórios**.
 
@@ -40,7 +43,7 @@ Configure os parâmetros do bloco de dados inicial para o local do bloco de dado
 
 1. Clique em **[!UICONTROL Avançar]**.
 
-   ![Captura de tela mostrando a opção de intervalo de datas e o botão Próximo ativo.](./assets/choose_date_data_view3.png)
+   ![Captura de tela mostrando a opção de intervalo de datas e o botão Próximo ativo.](./assets/choose_date_report_suite.png)
 
    Após configurar o bloco de dados, é possível selecionar dimensões, métricas e segmentos para criar seu bloco de dados. As guias Dimensões, Métricas e Filtros são exibidas acima do painel do Criador de tabela.
 
@@ -48,7 +51,7 @@ Configure os parâmetros do bloco de dados inicial para o local do bloco de dado
 
 Para criar o bloco de dados, selecione componentes do relatório e personalize o layout.
 
-1. Adicionar Dimensões, Métricas e Filtros.
+1. Adicionar Dimension, métricas e segmentos.
 
    Rolar as listas de componentes ou usar o campo **[!UICONTROL Pesquisa]** para localizar os componentes. Arraste e solte componentes no painel Tabela ou clique duas vezes em um nome de componente na lista para adicionar automaticamente o componente ao painel Tabela.
 
@@ -56,7 +59,7 @@ Para criar o bloco de dados, selecione componentes do relatório e personalize o
 
    - Os componentes de Dimensão são adicionados à seção Linha ou à seção Coluna se você já tiver uma dimensão nas colunas.
    - Os componentes Data são adicionados à seção Coluna.
-   - Os componentes de Filtro são adicionados à seção Filtros.
+   - Os componentes de Segmento são adicionados à seção Segmentos.
 
    **Data inicial como Dimension**
 
@@ -91,8 +94,6 @@ Para criar o bloco de dados, selecione componentes do relatório e personalize o
 1. Clique em **[!UICONTROL Concluir]**.
 
    Uma mensagem de processamento é exibida enquanto os dados de análise são recuperados.
-
-   ![A mensagem de processamento.](./assets/image11.png)
 
    O Report Builder recupera os dados e exibe o bloco de dados concluído na planilha.
 
