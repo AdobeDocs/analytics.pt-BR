@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
-source-git-commit: 3d1a26b960988020391e75b3d01af0f9b806d33b
+source-git-commit: 8c863329e385c7e3fe15d85c07e1a1d541296acb
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 59%
+source-wordcount: '636'
+ht-degree: 57%
 
 ---
 
@@ -76,7 +76,8 @@ Um bloco de dados que não foi atualizado exibe um ícone de aviso: <img src="./
 
 ## Excluir um bloco de dados
 
-Clique no ícone de lixeira para excluir um bloco de dados selecionado.
+1. Selecione um bloco de dados no gerenciador de Bloco de Dados.
+1. Clique no ícone da lixeira para excluir o bloco de dados selecionado.
 
 ## Blocos de dados do grupo
 
