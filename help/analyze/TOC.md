@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
-source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
+source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '971'
 ht-degree: 100%
 
 ---
@@ -47,6 +47,9 @@ ht-degree: 100%
    + Relatórios {#reports}
       + [Utilização de relatórios pré-criados](analysis-workspace/reports/use-reports.md)
       + [Criar e gerenciar relatórios da empresa](analysis-workspace/reports/create-company-reports.md)
+   + Modelos {#templates}
+      + [Usar modelos](analysis-workspace/templates/use-templates.md)
+      + [Criar modelos](analysis-workspace/templates/create-templates.md)
    + Componentes {#components}
       + [Visão geral dos componentes](analysis-workspace/components/analysis-workspace-components.md)
       + [Usar componentes no Workspace](analysis-workspace/components/use-components-in-workspace.md)
