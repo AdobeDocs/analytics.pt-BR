@@ -5,7 +5,7 @@ user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
 source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -169,7 +169,7 @@ ht-degree: 100%
    + [Converter solicitações legadas](report-builder/convert-workbooks.md)
    + [Criar um bloco de dados](report-builder/create-a-data-block.md)
    + [O Hub do Report Builder](report-builder/report-builder-hub.md)
-   + [Selecionar um conjunto de relatórios](report-builder/select-report-suite.md)
+   + [Selecione um conjunto de relatórios](report-builder/select-report-suite.md)
    + [Selecionar um intervalo de datas](report-builder/select-date-range.md)
    + [Trabalhar com segmentos](report-builder/work-with-segments.md)
    + [Filtrar dimensões](report-builder/filter-dimensions.md)
