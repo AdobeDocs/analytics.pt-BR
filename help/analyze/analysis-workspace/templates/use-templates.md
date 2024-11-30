@@ -5,10 +5,11 @@ feature: Analysis Workspace
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e98458a96e9950ffab40876b80a9e799a9182e6a
+exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
+source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
 workflow-type: tm+mt
-source-wordcount: '18051'
-ht-degree: 58%
+source-wordcount: '18050'
+ht-degree: 61%
 
 ---
 
@@ -34,13 +35,13 @@ As informações a seguir descrevem como acessar e usar modelos na guia [!UICONT
 
    <!--update screenshot -->
 
-   ![Guia Relatórios](assets/view-prebuilt-reports.png)
+   ![Guia Relatórios](assets/view-prebuilt-templates.png)
 
 1. Na seção [!UICONTROL **Modelos**], selecione uma das guias a seguir:
 
    * **[!UICONTROL modelos de Adobe]**: mostra todos os modelos fornecidos pelo Adobe.
 
-   * **[!UICONTROL _login_company_name _modelos]**: mostra todos os modelos de empresa que foram criados para a em sua organização.
+   * **[!UICONTROL _login_company_name _modelos]**: mostra todos os modelos de empresa que foram criados para sua organização.
 
      Os modelos de empresa só podem ser criados por um administrador. Para obter mais informações sobre como criar um modelo de empresa, consulte [Criar e gerenciar modelos](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
@@ -850,7 +851,7 @@ Os seguintes modelos estão disponíveis:
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-lifecycle-metrics-app-usage-template"
 >title="Visualize o número de usuários, inicializações e primeiras inicializações no aplicativo, bem como a duração média das sessões."
->abstract="**Isso pode ajudá-lo** a entender melhor quanto seu aplicativo está sendo usado. <br/>**Com base no que você aprendeu, é possível** executar várias ações, como melhorar o desempenho do aplicativo para que ele possa ser dimensionado de acordo com a quantidade de uso."
+>abstract="**Isso pode ajudar** a entender melhor o quanto o aplicativo está sendo usado. <br/>**Com base no que aprender, poderá** fazer várias coisas, como melhorar o desempenho do aplicativo para que possa haver o dimensionamento de acordo com a quantidade de uso."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -858,8 +859,8 @@ Os seguintes modelos estão disponíveis:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-journeys"
->title="Veja os principais padrões de uso do seu aplicativo móvel."
->abstract="**Isso pode ajudá-lo** a entender melhor como as pessoas estão usando seu aplicativo. <br/>**Com base no que você aprendeu, é possível** executar várias ações, como melhorar a forma como as pessoas podem passar de uma tela para outra para direcionar os fluxos de trabalho mais comuns."
+>title="Visualize os principais padrões de uso do seu aplicativo móvel."
+>abstract="**Isso pode ajudar** a entender melhor como as pessoas estão usando o aplicativo. <br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a forma como as pessoas podem passar de uma tela à outra para direcionar os fluxos de trabalho mais comuns."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -867,8 +868,8 @@ Os seguintes modelos estão disponíveis:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-key-metrics"
->title="Veja algumas das métricas mais comuns do aplicativo móvel."
->abstract="**Isso pode ajudá-lo** a entender melhor o desempenho básico do seu aplicativo móvel.<br/>**Com base no que você aprendeu, você pode** fazer várias coisas, como avaliar a integridade e o desempenho geral do seu aplicativo."
+>title="Visualize algumas das métricas mais comuns do aplicativo móvel."
+>abstract="**Isso pode ajudar** a entender melhor o desempenho básico do aplicativo móvel.<br/>**Com base no que aprender, poderá** fazer várias coisas, como avaliar a integridade e o desempenho geral do aplicativo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -876,8 +877,8 @@ Os seguintes modelos estão disponíveis:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-messaging"
->title="Visualize dados de desempenho de mensagens no aplicativo e de mensagens por push para seu aplicativo."
->abstract="**Isso pode ajudá-lo** a entender melhor como as pessoas estão usando os recursos de mensagens no aplicativo, bem como a eficiência com que as notificações por push estão direcionando o tráfego para o seu aplicativo.<br/>**Com base no que você aprendeu, é possível** fazer várias coisas, como melhorar a experiência de notificação por push de mensagens no aplicativo."
+>title="Visualize dados de desempenho de mensagens no aplicativo e por push."
+>abstract="**Isso pode ajudar** a entender melhor como as pessoas estão usando os recursos de mensagens no aplicativo, bem como a eficiência com que as notificações por push estão direcionando o tráfego para o aplicativo.<br/>**Com base no que aprender, poderá** fazer várias coisas, como melhorar a experiência de notificações por push e mensagens no aplicativo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -885,8 +886,8 @@ Os seguintes modelos estão disponíveis:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-performance-template"
->title="Veja o desempenho do seu aplicativo e onde os usuários estão com problemas."
->abstract="**Isso pode ajudá-lo** a entender melhor se as pessoas que usam seu aplicativo estão encontrando lentidão ou desempenho degradado. <br/>**Com base no que você aprendeu, é possível** executar várias ações, como corrigir problemas existentes ou melhorar o desempenho do aplicativo antes que eles ocorram."
+>title="Visualize o desempenho do aplicativo e onde os usuários estão com problemas."
+>abstract="**Isso pode ajudar** a entender se as pessoas que usam o aplicativo estão encontrando lentidão ou desempenho degradado. <br/>**Com base no que aprender, poderá** fazer várias coisas, como corrigir problemas existentes ou melhorar o desempenho do aplicativo antes que eles ocorram."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -894,8 +895,8 @@ Os seguintes modelos estão disponíveis:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-retention"
->title="Veja quais usuários são os mais fiéis ao seu aplicativo e o que eles fazem dentro do aplicativo."
->abstract="**Isso pode ajudá-lo** a entender melhor como seus usuários mais fiéis estão usando seu aplicativo.<br/>**Com base no que você aprendeu, você pode** fazer várias coisas, como melhorar seus esforços de marketing para os recursos que seus usuários mais fiéis estão usando."
+>title="Veja quais são os usuários mais fiéis do aplicativo e o que fazem nele."
+>abstract="**Isso pode ajudar** a entender melhor como os usuários mais fiéis estão usando o aplicativo.<br/>**Com base no que aprender, poderá** fazer várias coisas, como melhorar os esforços de marketing para os recursos que seus usuários mais fiéis estão usando."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -935,12 +936,12 @@ Os seguintes modelos estão disponíveis:
 | **Celular** > **Tamanho de Tela** | Exibir os principais tamanhos de tela de celular que as pessoas usam para acessar seu site.<p>**Isso pode ajudá-lo** a entender melhor como o conteúdo é exibido para os visitantes.</p><p>**Com base no que você aprendeu, é possível** fazer várias coisas, como melhorar a qualidade do site testando novas versões do site usando os tamanhos de tela de celular mais comuns. Isso pode maximizar os resultados do controle de qualidade.</p> |
 | **Celular** > **Altura da Tela** | Exibir as principais alturas de tela de dispositivos móveis que as pessoas usam para acessar o site.<p>**Isso pode ajudá-lo** a entender melhor como o conteúdo é exibido para os visitantes.</p><p>**Com base no que você aprendeu, é possível** fazer várias coisas, como melhorar a qualidade do site testando novas versões do site usando as alturas de tela de celular mais comuns. Isso pode maximizar os resultados do controle de qualidade.</p> |
 | **Celular** > **Largura da Tela** | Exibir as principais larguras de tela móvel que as pessoas usam para acessar o site.<p>**Isso pode ajudá-lo** a entender melhor como o conteúdo é exibido para os visitantes.</p><p>**Com base no que você aprendeu, é possível** fazer várias coisas, como melhorar a qualidade do site testando novas versões do site usando as larguras de tela móveis mais comuns. Isso pode maximizar os resultados do controle de qualidade.</p> |
-| **Dispositivo móvel** > **Uso de aplicativos móveis** | Visualize o número de usuários, inicializações e primeiras inicializações no aplicativo, bem como a duração média das sessões.<p>**Isso pode ajudá-lo** a entender melhor quanto seu aplicativo está sendo usado. </p><p>**Com base no que você aprendeu, é possível** executar várias ações, como melhorar o desempenho do aplicativo para que ele possa ser dimensionado de acordo com a quantidade de uso.</p><!-- This template uses the --> |
-| **Celular** > **Jornadas de Aplicativos Móveis** | Veja os principais padrões de uso do seu aplicativo móvel. <p>**Isso pode ajudá-lo** a entender melhor como as pessoas estão usando seu aplicativo. </p><p>**Com base no que você aprendeu, é possível** executar várias ações, como melhorar a forma como as pessoas podem passar de uma tela para outra para direcionar os fluxos de trabalho mais comuns. </p><!-- This template uses the --> |
-| **Dispositivo móvel** > **Métricas de Aplicativo Móvel** | Veja algumas das métricas mais comuns do aplicativo móvel. <p>**Isso pode ajudá-lo** a entender melhor o desempenho básico do seu aplicativo móvel.</p><p>**Com base no que você aprendeu, você pode** fazer várias coisas, como avaliar a integridade e o desempenho geral do seu aplicativo.</p><!-- This template uses the --> |
-| **Dispositivo móvel** > **Mensagens de Aplicativo Móvel** | Visualize dados de desempenho de mensagens no aplicativo e de mensagens por push para seu aplicativo.<p>**Isso pode ajudá-lo** a entender melhor como as pessoas estão usando os recursos de mensagens no aplicativo, bem como a eficiência com que as notificações por push estão direcionando o tráfego para o seu aplicativo.</p><p>**Com base no que você aprendeu, é possível** fazer várias coisas, como melhorar a experiência de notificação por push de mensagens no aplicativo.</p><!-- This template uses the --> |
-| **Dispositivo móvel** > **Desempenho de aplicativo móvel** | Veja o desempenho do seu aplicativo e onde os usuários estão com problemas. <p>**Isso pode ajudá-lo** a entender melhor se as pessoas que usam seu aplicativo estão encontrando lentidão ou desempenho degradado. </p><p>**Com base no que você aprendeu, é possível** executar várias ações, como corrigir problemas existentes ou melhorar o desempenho do aplicativo antes que eles ocorram.</p><!-- This template uses the --> |
-| **Dispositivo móvel** > **Retenção de aplicativo móvel** | Veja quais usuários são os mais fiéis ao seu aplicativo e o que eles fazem dentro do aplicativo. <p>**Isso pode ajudá-lo** a entender melhor como seus usuários mais fiéis estão usando seu aplicativo.</p><p>**Com base no que você aprendeu, você pode** fazer várias coisas, como melhorar seus esforços de marketing para os recursos que seus usuários mais fiéis estão usando.</p><!-- This template uses the --> |
+| **Dispositivo móvel** > **Uso de aplicativos móveis** | Visualize o número de usuários, inicializações e primeiras inicializações no aplicativo, bem como a duração média das sessões.<p>**Isso pode ajudá-lo** a entender melhor quanto seu aplicativo está sendo usado. </p><p>**Com base no que aprender, poderá** fazer várias coisas, como melhorar o desempenho do aplicativo para que possa haver o dimensionamento de acordo com a quantidade de uso.</p><!-- This template uses the --> |
+| **Celular** > **Jornadas de Aplicativos Móveis** | Visualize os principais padrões de uso do seu aplicativo móvel. <p>**Isso pode ajudá-lo** a entender melhor como as pessoas estão usando seu aplicativo. </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a forma como as pessoas podem passar de uma tela à outra para direcionar os fluxos de trabalho mais comuns. </p><!-- This template uses the --> |
+| **Dispositivo móvel** > **Métricas de Aplicativo Móvel** | Visualize algumas das métricas mais comuns do aplicativo móvel. <p>**Isso pode ajudar** a entender melhor o desempenho básico do aplicativo móvel.</p><p>**Com base no que aprender, poderá** fazer várias coisas, como avaliar a integridade e o desempenho geral do aplicativo.</p><!-- This template uses the --> |
+| **Dispositivo móvel** > **Mensagens de Aplicativo Móvel** | Visualize dados de desempenho de mensagens no aplicativo e por push.<p>**Isso pode ajudar** a entender melhor como as pessoas estão usando os recursos de mensagens no aplicativo, bem como a eficiência com que as notificações por push estão direcionando o tráfego para o aplicativo.</p><p>**Com base no que aprender, poderá** fazer várias coisas, como melhorar a experiência de notificações por push e mensagens no aplicativo.</p><!-- This template uses the --> |
+| **Dispositivo móvel** > **Desempenho de aplicativo móvel** | Visualize o desempenho do aplicativo e onde os usuários estão com problemas. <p>**Isso pode ajudá-lo** a entender melhor se as pessoas que usam seu aplicativo estão encontrando lentidão ou desempenho degradado. </p><p>**Com base no que aprender, poderá** fazer várias coisas, como corrigir problemas existentes ou melhorar o desempenho do aplicativo antes que eles ocorram.</p><!-- This template uses the --> |
+| **Dispositivo móvel** > **Retenção de aplicativo móvel** | Veja quais são os usuários mais fiéis do aplicativo e o que fazem nele. <p>**Isso pode ajudar** a entender melhor como os usuários mais fiéis estão usando o aplicativo.</p><p>**Com base no que aprender, poderá** fazer várias coisas, como melhorar os esforços de marketing para os recursos que seus usuários mais fiéis estão usando.</p><!-- This template uses the --> |
 
 ### Aquisição {#web-acquisition}
 
