@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '18050'
+source-wordcount: '18051'
 ht-degree: 61%
 
 ---
@@ -45,7 +45,11 @@ As informações a seguir descrevem como acessar e usar modelos na guia [!UICONT
 
      Os modelos de empresa só podem ser criados por um administrador. Para obter mais informações sobre como criar um modelo de empresa, consulte [Criar e gerenciar modelos](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
-1. Escolha se deseja exibir modelos em uma exibição de coluna ou em uma exibição de cartão selecionando o ícone exibição de coluna ![ícone de exibição de coluna](assets/column-view-icon.png) ou o ícone de exibição de cartão ![ícone de exibição de cartão](assets/card-view-icon.png).
+1. Use uma das opções a seguir para alterar a exibição dos modelos disponíveis:
+
+   * Escolha se deseja exibir modelos em uma exibição de coluna ou em uma exibição de cartão selecionando o ícone exibição de coluna ![ícone de exibição de coluna](assets/column-view-icon.png) ou o ícone de exibição de cartão ![ícone de exibição de cartão](assets/card-view-icon.png).
+
+   * Ao usar o ![ícone de exibição de cartão](assets/card-view-icon.png), escolha entre as seguintes ordens de classificação: **[!UICONTROL Mais usadas recentemente]**, **[!UICONTROL Mais populares]**, **[!UICONTROL Alfabética]**, **[!UICONTROL Categórica]**.
 
 1. No campo de pesquisa, comece digitando o nome do template que deseja localizar, em seguida, selecione-o na lista de templates. Também é possível pesquisar a lista de modelos por propriedade, eVar e número do evento. <!-- still true? -->
 
@@ -58,8 +62,6 @@ As informações a seguir descrevem como acessar e usar modelos na guia [!UICONT
    >Para navegar no menu utilizando as teclas de seta, pressione a tecla Barra (/) e, em seguida, pressione a tecla Seta para baixo. Pressione Enter para carregar o modelo selecionado.
 
    Para obter uma lista de modelos disponíveis, consulte a seção [Modelos disponíveis](#available-reports) abaixo.
-
-1. (Opcional) Visualize e use modelos que contêm componentes que não estão disponíveis em seu conjunto de relatórios. (Por padrão, os únicos modelos mostrados são aqueles que usam componentes disponíveis no conjunto de relatórios.) <!--does this apply to AA? -->
 
 ## Criar um projeto com base em um modelo {#use-reports}
 

@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '581'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Os administradores podem criar modelos e salvá-los para que outras pessoas possam usá-los na empresa de logon.
 
-As pessoas na empresa de logon podem usar esses modelos de empresa conforme descrito em [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md.
+As pessoas na empresa de logon podem usar esses modelos de empresa conforme descrito em [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md).
 
 ## Criar um modelo
 
@@ -35,7 +35,7 @@ Para criar um novo modelo que pode ser usado por pessoas na empresa de logon:
    |---------|----------|
    | **[!UICONTROL Nome]** | Forneça um nome descritivo para o modelo. |
    | **[!UICONTROL Descrição]** | Forneça uma breve descrição do modelo que descreva suas finalidades. |
-   | **[!UICONTROL Por que usar este modelo]** | Forneça uma breve explicação para informar as pessoas na organização sobre como esse modelo pode ser usado. |
+   | **[!UICONTROL Por que usar este modelo]** | Forneça uma breve explicação para informar as pessoas na organização sobre como esse modelo pode ser usado. Essa explicação é exibida na página Visualização do modelo. |
    | **[!UICONTROL Canais]** | Escolha qualquer canal aplicável que se aplique a este modelo. Você pode selecionar vários canais: **[!UICONTROL Web]**, **[!UICONTROL Celular]**, **[!UICONTROL Entre canais]**, **[!UICONTROL Central de atendimento]** e **[!UICONTROL Na loja]**.<p>As seleções escolhidas determinam onde o modelo é exibido e quais filtros são aplicados aos usuários que o acessam na página Modelos da organização.</p> |
    | **[!UICONTROL Casos de uso]** | Escolha qualquer caso de uso que se aplique a este modelo. Você pode selecionar vários casos de uso: **[!UICONTROL Envolvimento]**, **[!UICONTROL Conversão]**, **[!UICONTROL Público-alvo]** e **[!UICONTROL Aquisição]**. <p>As seleções escolhidas determinam onde o modelo é exibido e quais filtros são aplicados aos usuários que o acessam na página Modelos da organização.</p> |
    | **[!UICONTROL Tags]** | Especifique as tags que deseja aplicar ao modelo. As pessoas podem filtrar a lista de modelos pelas tags adicionadas. |
