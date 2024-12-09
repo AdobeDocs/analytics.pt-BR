@@ -3,10 +3,10 @@ description: Vários relatórios do Adobe Analytics podem mostrar Não especific
 title: Não especificado, Nenhum, Outros e Desconhecido nos relatórios
 feature: Analytics Basics
 exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Vários relatórios do Adobe Analytics podem mostrar “Não especificado”, �
 “Não especificado” é um item de linha bastante comum nos relatórios. Também é frequentemente chamada de “Nenhum”.
 
 * **Um evento é acionado sem uma variável de conversão:** por exemplo, um usuário entra em seu site e efetua uma compra sem nenhum valor em eVar1. Se você exibir os pedidos usando a dimensão eVar1, não há um valor para ao pedido. Portanto, é atribuído automaticamente a “Não especificado”.
-* **Dados não classificados nos relatórios de classificação:** ao exibir dados de classificação, qualquer valor sem dados associados à classificação específica retorna “Não especificado”. Para resolver esse problema, classifique o valor da variável pai.
+* **Dados não classificados nos relatórios de classificação:** ao exibir dados de classificação, qualquer valor sem dados associados à classificação específica retorna “Não especificado”. Para resolver esse problema, verifique se há um valor de classificação associado a cada item de dimensão principal.
 * **Relatórios de detalhamento nos quais somente uma variável foi acionada:** quando você aplica um detalhamento a uma variável, cada instância dessa variável deve ser contabilizada. Se a segunda variável não foi vista ou se persistiu em uma ocorrência anterior, o item de dimensão é “Não especificado”.
 * **Ocorrências não móveis em relatórios móveis:** quaisquer hits não móveis em relatórios para dispositivos móveis são listadas como “Não especificado” (“Não móvel” no Reports and Analytics).
 
