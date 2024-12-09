@@ -1,12 +1,12 @@
 ---
-title: Gerenciar trabalhos do feed de dados
-description: Saiba como gerenciar trabalhos individuais em feeds de dados.
+title: Gerenciar tarefas do feed de dados
+description: Saiba como gerenciar trabalhos individuais em feeds de dados. Navegue pela interface, use filtros e pesquisa e localize definições de coluna.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 94%
 
 ---
 

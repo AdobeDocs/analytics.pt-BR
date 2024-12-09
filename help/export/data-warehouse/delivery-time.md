@@ -1,12 +1,12 @@
 ---
-title: Resolver problemas de prazos de entrega de solicitações do Data Warehouse
+title: Solução de problemas de prazos de entrega de solicitações do Data Warehouse
 description: Determine possíveis problemas com uma solicitação do Data Warehouse que pode prolongar os prazos de entrega.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: fc6a2deabaf2012cefebf4864db19aef1825adf2
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 61%
+ht-degree: 59%
 
 ---
 

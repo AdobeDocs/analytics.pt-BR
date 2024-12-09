@@ -1,13 +1,13 @@
 ---
-description: Perguntas frequentes sobre feeds de dados
+description: Obtenha respostas para perguntas frequentes sobre feeds de dados na Adobe Analytics.
 keywords: Feed de dados;coluna pré;coluna pós;diferencia maiúsculas de minúsculas
 title: Perguntas frequentes sobre feeds de dados
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 100%
+source-wordcount: '1456'
+ht-degree: 98%
 
 ---
 

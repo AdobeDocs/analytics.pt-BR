@@ -1,13 +1,12 @@
 ---
-title: Solução de problemas com feeds de dados
-description: Saiba como determinar e resolver problemas com os feeds de dados.
-keywords: tarefa;solução de problemas;erro;ftp;chdir;conexão;logon;put
+title: Solução de problemas dos feeds de dados
+description: Saiba mais sobre os motivos pelos quais uma tarefa de feed de dados pode falhar ao processar ou entregar dados. Resolva possíveis problemas com os feeds de dados.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 
