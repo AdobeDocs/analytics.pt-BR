@@ -3,10 +3,10 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2a766fc06cab81c2b1d4b8a4de2c88dae42bf907
+source-git-commit: 65c934f56a580f921fa7baad6d5dd03c85e320e6
 workflow-type: tm+mt
 source-wordcount: '807'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ Estas notas de versão abrangem o período de lançamento de 16 de outubro de 20
 | **Novo Report Builder para Adobe Analytics** | O novo aplicativo Report Builder traz uma atualização importante para o Adobe Analytics, incluindo melhor desempenho, interface do usuário simplificada e compatibilidade com a API 2.0 e com o Microsoft Excel no Mac, Windows e navegadores da web. Este aplicativo pode ser usado junto com o aplicativo legado, mas não no mesmo arquivo. Um recurso de atualização é fornecido para atualizar pastas de trabalho legadas para o novo aplicativo. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16 de outubro de 2024 |
 | **Exportação de JSON para migrar a implementação de tags para tags de SDK da web** | Esta atualização da extensão de tags do Analytics está relacionada à migração para o SDK da web. Você pode usar essa atualização para a extensão do Adobe Analytics como parte do fluxo de trabalho a fim de recriar as configurações de extensão com a extensão SDK da web. Na extensão de tags do Adobe Analytics, é possível exibir as configurações de eVars, props e eventos como JSON, que podem ser exportadas para edição e incluídas na extensão SDK da web. |  | 31 de outubro de 2024 |
 | **Novas informações sobre fatores de solicitação no desempenho do Analysis Workspace** | Uma nova seção “Fatores de solicitação” agora está disponível ao analisar o desempenho no Analysis Workspace. Para saber mais sobre como as solicitações são processadas e os vários fatores que influenciam os tempos de processamento, consulte “Fatores de solicitação” em [Otimizar o desempenho do Analysis Workspace](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | 1º de outubro de 2024 |
-| **Período de retenção da ID da transação** | A variável `transactionID` atribui uma identificação exclusiva a uma transação para que a ocorrência possa se vincular aos dados carregados por meio de Fontes de dados. O período de retenção padrão da ID de 90 dias será estendido para 25 meses em janeiro de 2025. |  | quinta-feira, 22 de janeiro de 2025 |
+| **Período de retenção da ID da transação** | O período de retenção de 90 dias da ID de transação será estendido para 25 meses em janeiro de 2025. A variável `transactionID` identifica exclusivamente uma transação para que a ocorrência possa se vincular aos dados carregados por meio de Fontes de Dados. |  | quinta-feira, 22 de janeiro de 2025 |
 
 ## Correções no Adobe Analytics
 
