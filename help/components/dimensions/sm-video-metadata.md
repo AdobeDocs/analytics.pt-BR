@@ -2,9 +2,10 @@
 title: Dimensões de metadados de vídeo de mídia de transmissão
 description: Dimensões disponíveis ao habilitar [!UICONTROL Metadados de vídeo] para um conjunto de relatórios.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '240'
 ht-degree: 7%
 
 ---
@@ -13,13 +14,13 @@ ht-degree: 7%
 
 *Esta página descreve as dimensões disponíveis quando você habilita os [!UICONTROL Metadados de vídeo] para um conjunto de relatórios. Consulte [métricas de metadados de vídeo de streaming de mídia](../metrics/sm-video-metadata.md) para ver as métricas disponíveis.*
 
-As dimensões e a mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleção de dados por meio das bibliotecas de coleção de mídia de transmissão. O uso dessas dimensões requer o **[!UICONTROL Complemento de Coleção de Mídia de Streaming de Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
+As dimensões e a mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleção de dados por meio das bibliotecas de coleção de mídia de transmissão. O uso dessas dimensões requer a **[!UICONTROL Coleção de Mídia de Streaming de Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
 
 Quando você habilita os **[!UICONTROL Metadados de vídeo]** em [Relatórios de mídia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), as seguintes dimensões estão disponíveis:
 
 | Nome da dimensão | Descrição | Enviado com | Variável de dados de contexto |
 | --- | --- | --- | --- |
-| Carregamentos de anúncios | O tipo de anúncio carregado. | A ser definido | `a.media.adLoad` |
+| Carregamentos de anúncios | O tipo de anúncio carregado. | A ser determinado | `a.media.adLoad` |
 | Faixa de horário | A hora do dia em que o conteúdo foi transmitido ou reproduzido. Qualquer valor de string é suportado. | Início da mídia, Fechamento da mídia | `a.media.dayPart` |
 | Episódio | O número do episódio. | Início da mídia, Fechamento da mídia | `a.media.episode` |
 | Tipo de feed de mídia | O tipo de feed. | Início da mídia, Fechamento da mídia | `a.media.feed` |

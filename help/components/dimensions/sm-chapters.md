@@ -2,9 +2,10 @@
 title: Dimensões do capítulo de mídia de streaming
 description: Dimensões disponíveis ao habilitar [!UICONTROL Capítulos de mídia] para um conjunto de relatórios.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 14%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 14%
 
 *Esta página descreve as dimensões disponíveis quando você habilita os [!UICONTROL Capítulos de mídia] para um conjunto de relatórios. Consulte [métricas do capítulo Mídia de streaming](../metrics/sm-chapters.md) para ver as métricas disponíveis.*
 
-As dimensões do capítulo Mídia de transmissão fornecem funcionalidade de relatório complementar para a coleção de dados por meio de bibliotecas de coleção de mídia de transmissão. O uso dessas dimensões requer o **[!UICONTROL Complemento de Coleção de Mídia de Streaming de Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
+As dimensões do capítulo Mídia de transmissão fornecem funcionalidade de relatório complementar para a coleção de dados por meio de bibliotecas de coleção de mídia de transmissão. O uso dessas dimensões requer a **[!UICONTROL Coleção de Mídia de Streaming de Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
 
 Ao habilitar **[!UICONTROL Capítulos da mídia]** em [Relatórios de mídia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), a seguinte dimensão estará disponível:
 

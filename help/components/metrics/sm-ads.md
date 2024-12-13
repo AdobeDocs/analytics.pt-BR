@@ -2,9 +2,10 @@
 title: Métricas de anúncio de mídia de transmissão
 description: Métricas disponíveis ao habilitar o [!UICONTROL Anúncios de mídia] para um conjunto de relatórios.
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 5%
 
 *Esta página descreve as métricas disponíveis quando você habilita o [!UICONTROL Anúncios de Mídia] para um conjunto de relatórios. Consulte [dimensões de anúncios de mídia de streaming](../dimensions/sm-ads.md) para ver as dimensões disponíveis.*
 
-As métricas de anúncios de mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleção de dados por meio de bibliotecas de coleção de mídia de transmissão. O uso dessas métricas exige o **[!UICONTROL Complemento de Coleção de Mídia de Streaming Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
+As métricas de anúncios de mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleção de dados por meio de bibliotecas de coleção de mídia de transmissão. O uso destas métricas requer a **[!UICONTROL Coleção de Mídia de Streaming de Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
 
 Quando você habilita o **[!UICONTROL Anúncios de mídia]** em [Relatórios de mídia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), as seguintes métricas estão disponíveis:
 

@@ -2,16 +2,17 @@
 title: Métricas de rastreamento do estado do player de mídia de transmissão
 description: Métricas disponíveis ao habilitar o [!UICONTROL Rastreamento do estado do player] para um conjunto de relatórios.
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
 
 # Métricas de rastreamento do estado do player de mídia de transmissão
 
-As métricas de rastreamento do estado do player de mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleção de dados por meio de bibliotecas de coleção de mídia de transmissão. O uso dessas métricas exige o **[!UICONTROL Complemento de Coleção de Mídia de Streaming Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
+As métricas de rastreamento do estado do player de mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleção de dados por meio de bibliotecas de coleção de mídia de transmissão. O uso destas métricas requer a **[!UICONTROL Coleção de Mídia de Streaming de Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
 
 Ao habilitar o **[!UICONTROL Rastreamento do estado do player]** em [Relatórios de mídia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), as seguintes métricas estão disponíveis:
 
