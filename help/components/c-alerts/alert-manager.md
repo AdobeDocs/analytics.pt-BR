@@ -3,9 +3,9 @@ description: Gerenciar alertas.
 title: Visão geral do Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '638'
 ht-degree: 6%
 
 ---
@@ -85,11 +85,13 @@ Para editar um alerta existente:
    Veja a seguir algumas das coisas que você pode fazer ao editar um alerta:
 
    * Adicionar alertas a outros conjuntos de relatórios
-   * Alterar o proprietário
-   * Atualizar os filtros
-   * Atualizar a data de expiração
+   * Adicionar ou modificar a descrição
+   * Modificar a granularidade de tempo
+   * Modificar os destinatários
+   * Modificar a data de expiração
+   * Modificar métricas e filtros
 
-1. Edite o alerta e selecione [!UICONTROL **Salvar**].
+1. Selecione [!UICONTROL **Salvar**].
 
 ## Configurar colunas
 
