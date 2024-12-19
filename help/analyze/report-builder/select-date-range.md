@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +32,7 @@ O Calendário permite criar datas estáticas ou contínuas usando as seguintes o
 
 **A partir da célula**
 
-A opção A partir da célula permite fazer referência às datas inseridas em células da planilha.
+A opção **[!UICONTROL Da célula]** permite referenciar datas inseridas em células da planilha.
 
 Você tem a opção de excluir o hoje em qualquer intervalo de datas selecionado.
 
