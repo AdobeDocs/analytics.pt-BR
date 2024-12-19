@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
+source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 61%
+source-wordcount: '519'
+ht-degree: 50%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 61%
 
 Use o hub do Report Builder para criar, atualizar, excluir e gerenciar blocos de dados.
 
-O hub Report Builder contém os botões Criar e Gerenciar, a lista COMANDOS e os painéis EDIÇÃO RÁPIDA.
+O hub Report Builder contém os botões Criar, Gerenciar e Programar, o painel COMANDOS e o painel EDIÇÃO RÁPIDA.
 
 <img src="./assets/hub51.png" alt="O Hub do Report Builder"/>
 
@@ -24,6 +25,10 @@ O hub Report Builder contém os botões Criar e Gerenciar, a lista COMANDOS e os
 ## Botões Criar, Gerenciar e Agendar
 
 Use os botões Criar, Gerenciar e Programar para criar novos blocos de dados, gerenciar blocos de dados existentes ou programar blocos de dados.
+
+>[!NOTE]
+>
+>O agendamento da pasta de trabalho para esta versão do Report Builder no Adobe Analytics ainda não foi lançado, mas estará disponível no início de 2025. Agora você pode começar a usar pastas de trabalho que não exigem agendamento.
 
 ## Painel COMANDOS
 
@@ -33,12 +38,12 @@ Use o painel COMANDOS para acessar comandos compatíveis com as células selecio
 
 | Comandos exibidos | Disponível quando... | Propósito |
 |------|------------------|--------|
-| Criar bloco de dados | Uma ou mais células são selecionadas na pasta de trabalho. | Usado para criar um bloco de dados |
 | Editar bloco de dados | O intervalo de célula ou células selecionado faz parte de apenas um bloco de dados. | Usado para editar um bloco de dados |
-| Atualizar bloco de dados | A seleção contém pelo menos um bloco de dados. O comando atualizará somente os blocos de dados na seleção. | Usado para atualizar um ou mais blocos de dados |
+| Atualizar bloco de dados | A seleção contém pelo menos um bloco de dados. O comando atualiza somente os blocos de dados na seleção. | Usado para atualizar um ou mais blocos de dados |
 | Atualizar todos os blocos de dados | A pasta de trabalho contém um ou mais blocos de dados. | Usado para atualizar TODOS os blocos de dados na pasta de trabalho |
 | Enviar pasta de trabalho |   | Envie uma pasta de trabalho de acordo com um agendamento. |
 | Copiar bloco de dados | A célula ou o intervalo de células selecionado faz parte de um ou mais blocos de dados. | Usado para copiar um bloco de dados |
+| Cortar bloco de dados |   | Usado para recortar um bloco de dados |
 | Excluir bloco de dados | O intervalo de célula ou células selecionado faz parte de apenas um bloco de dados. | Usado para excluir um bloco de dados |
 
 ## Painel EDIÇÃO RÁPIDA
@@ -63,6 +68,6 @@ Para alterar o conjunto de relatórios, selecione um novo conjunto de relatório
 
 **[!UICONTROL Intervalo de datas]** mostra o intervalo de datas dos blocos de dados selecionados. Se vários blocos de dados forem selecionados com vários intervalos de datas, o link **[!UICONTROL Intervalo de datas]** exibirá *Vários*.
 
-### Filtros
+### Segmentos
 
-O link dos **Filtros** exibe uma lista de resumo dos filtros usados pelos blocos de dados selecionados. Se vários blocos de dados forem selecionados com vários filtros aplicados, o link **Filtros** exibirá *Vários*.
+O link **Segmentos** exibe uma lista de resumo dos segmentos usados pelos blocos de dados selecionados. Se vários blocos de dados forem selecionados com vários segmentos aplicados, o link **Segmentos** exibirá *Vários*.
