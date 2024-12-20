@@ -4,9 +4,9 @@ description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '806'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -63,5 +63,5 @@ Para obter as atualizações mais recentes sobre as versões do AppMeasurement (
 
 * [Notas de versão anteriores para 2024](/help/release-notes/2024.md)
 * [Notas de versão do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=pt-BR)
-* [Notas de versão da Coleção de Mídia de Streaming](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=pt-BR)
-* As atualizações de versão mais recentes para [produtos da Adobe Experience Cloud](https://business.adobe.com/br/products/adobe-experience-cloud-products.html)
+* [Notas de versão da Coleção de mídia de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=pt-BR)
+* As atualizações de versão mais recente para [produtos da Adobe Experience Cloud](https://business.adobe.com/br/products/adobe-experience-cloud-products.html)
