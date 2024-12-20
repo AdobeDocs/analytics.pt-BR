@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 2cb8f72a37699aa45135c9d26686f93ee20f20d7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -83,8 +83,6 @@ Para editar segmentos usando o painel Edição rápida
 
    Selecionar um filtro o adiciona à lista **[!UICONTROL Substituir por]**...
 
-   ![A guia Substituir com o bloco de dados Pessoas no Aplicativo selecionado e a lista Substituir por atualizada mostrando Pessoas no Aplicativo Revisado.](./assets/replace_screen_new.png)
-
 1. Clique em **[!UICONTROL Aplicar]**.
 
    O Report Builder atualiza a lista de segmentos para refletir a substituição.
@@ -103,7 +101,7 @@ Para aplicar segmentos a partir de uma célula
 
 1. Selecione a célula da qual deseja que os blocos de dados façam referência a um segmento.
 
-1. Adicione a escolha de segmento que deseja adicionar à célula clicando duas vezes no segmento ou arrastando e soltando-o na seção Segmentos incluídos.
+1. Adicione a opção de segmento que deseja adicionar à célula, clicando duas vezes no segmento ou arrastando e soltando na seção **[!UICONTROL Segmentos incluídos]**.
 
    Observação: apenas uma opção pode ser selecionada para a célula em questão de cada vez.
 
