@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
 source-wordcount: '1012'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
@@ -95,7 +96,7 @@ Definição dos critérios de filtragem
 
 1. Insira um valor no campo de pesquisa.
 
-1. Clique em Adicionar linha para confirmar a seleção e adicionar outro item de critério.
+1. Clique em **[!UICONTROL Adicionar linha]** para confirmar a seleção e adicionar outro item de critério.
 
 1. Clique no ícone Excluir para remover um item de critério.
 
@@ -118,15 +119,15 @@ Para alterar a métrica usada para filtrar e classificar o bloco de dados,
 
 ## Filtragem específica
 
-A opção Específico permite criar uma lista fixa de itens de dimensão para cada dimensão. Use o tipo de filtro **Específico** para especificar os itens de dimensão exatos a serem incluídos no filtro. É possível selecionar itens de uma lista ou de um intervalo de células.
+A opção Específico permite criar uma lista fixa de itens de dimensão para cada dimensão. Use o tipo de filtro **[!UICONTROL Específico]** para especificar os itens de dimensão exatos a serem incluídos no filtro. É possível selecionar itens de uma lista ou de um intervalo de células.
 
 ![As opções específicas e os itens selecionados.](./assets/image32.png)
 
 ### A partir da lista
 
-1. Selecione a opção **Da lista** para procurar e selecionar itens de dimensão.
+1. Selecione a opção **[!UICONTROL Da lista]** para procurar e selecionar itens de dimensão.
 
-   Ao selecionar a opção **Da lista**, a lista é preenchida com itens de dimensão com mais eventos primeiro.
+   Ao selecionar a opção **[!UICONTROL Da lista]**, a lista é preenchida com itens de dimensão com mais eventos primeiro.
 
    ![A opção Da lista e os itens disponíveis.](./assets/image33.png)
 
@@ -142,7 +143,7 @@ A opção Específico permite criar uma lista fixa de itens de dimensão para ca
 
 1. Selecionar um item de dimensão.
 
-   Os itens de dimensão selecionados são adicionados automaticamente à lista **Itens selecionados**.
+   Os itens de dimensão selecionados são adicionados automaticamente à lista **[!UICONTROL Itens selecionados]**.
 
    ![](./assets/image35.png)
 
@@ -176,4 +177,4 @@ Na guia **[!UICONTROL Dimensões]**, clique no ícone de divisa ao lado do nome 
 
 ![A guia Dimension e a lista de dimensões.](./assets/dimensions_chevron.png)
 
-Você pode arrastar e soltar itens na **Tabela** ou clicar duas vezes em um nome de item para adicioná-lo ao construtor de **Tabelas**.
+Você pode arrastar e soltar itens na **[!UICONTROL Tabela]** ou clicar duas vezes em um nome de item para adicioná-lo ao construtor de **[!UICONTROL Tabelas]**.

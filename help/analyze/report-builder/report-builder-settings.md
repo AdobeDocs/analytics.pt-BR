@@ -5,10 +5,11 @@ role: Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: d158ad45-d467-4355-b091-f015bde7a243
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 88%
+source-wordcount: '274'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +25,7 @@ Para alterar as configurações do Report Builder
 
 1. Clique em **Aplicar**.
 
-   Painel de intervalo de datas ![Report Builder mostrando o botão Cancelar e Aplicar.](./assets/image38.png)
+   ![configurações de Report Builder.](./assets/image38.png)
 
 ## Modo offline
 
@@ -32,13 +33,13 @@ Ao criar e editar um bloco de dados no modo off-line, os dados não são recuper
 
 Para ativar o modo off-line
 
-1. Clique no ícone de **Configurações**.
+1. Clique no ícone de **[!UICONTROL Configurações]**.
 
-1. Selecionar **Ativar modo off-line**.
+1. Selecione **[!UICONTROL Habilitar modo offline]e**.
 
-1. Insira um número inteiro positivo no **Exibir dados de métrica como** campo.
+1. Insira um número inteiro positivo no **[!UICONTROL Exibir dados de métrica como]** campo.
 
-1. Clique em **Aplicar**.
+1. Clique em **[!UICONTROL Aplicar]**.
 
 ## Idioma
 
@@ -48,14 +49,14 @@ Para selecionar o idioma usado na interface do Report Builder
 
 1. Clique em Configurações.
 
-1. Selecione um idioma no menu suspenso **Idioma**.
+1. Selecione um idioma no menu suspenso **[!UICONTROL Idioma]**.
 
    Painel de intervalo de datas ![Report Builder mostrando a lista Idioma com inglês selecionado.](./assets/image39.png)
 
-1. Clique em **Aplicar.**
+1. Clique em **[!UICONTROL Aplicar].**
 
 ## Solução de problemas
 
 Use a configuração Solução de problemas para registrar todos os dados do cliente/servidor em um arquivo local. Use essa opção para ajudar a resolver tíquetes de suporte.
 
-Para ativar a opção Solução de problemas, selecione **Registrar solicitação do Report Builder no arquivo local**.
+Para habilitar a opção Solução de Problemas, selecione **[!UICONTROL Registrar bloco de dados do Report Builder no console da Web]**.
