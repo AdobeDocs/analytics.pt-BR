@@ -4,10 +4,10 @@ description: Como diferentes tipos de atribuição dividem crédito entre itens 
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 100%
+source-wordcount: '1602'
+ht-degree: 95%
 
 ---
 
@@ -76,6 +76,7 @@ Dependendo da janela de retrospectiva e do modelo de atribuição, os canais rec
       * Email: 33,8%, crédito de US$ 16,88
       * Redes sociais: 18,6%, crédito de US$ 9,32
       * Pesquisa paga: 13,8%, crédito de US$ 6,92
+* Usando a **Participação** e uma **janela de retrospectiva de visitante**, os US$ 50,00 totais são atribuídos à pesquisa paga, redes sociais, email e exibição. Se você visualizar a receita como um relatório de tendências em vez de um relatório classificado, verá os US$ 50 em cada dia respectivo em que o visitante entrou em contato com um determinado canal de marketing.
 
 >[!TIP]
 >

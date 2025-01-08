@@ -3,10 +3,10 @@ description: Quando um relatório tem muitos valores únicos, a Adobe usa o item
 title: Valor de tráfego baixo no Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
@@ -16,14 +16,14 @@ Quando um relatório tem muitos valores únicos, a Adobe fornece funcionalidade 
 
 ## Como o [!UICONTROL Tráfego baixo] funciona
 
-* O Adobe Analytics usa dois limites para determinar quais valores únicos são exibidos nos relatórios a cada mês: **[!UICONTROL limite baixo]** e um **[!UICONTROL limite alto]**. Esses limites podem ser ajustados pela Adobe de tempos em tempos. Os limites atuais são:
-   * **[!UICONTROL Limite inferior]**: > 2.000.000 valores únicos durante o mês.
-   * **[!UICONTROL Limite superior]**: > 2.100.000 valores únicos durante o mês.
-* Os relatórios não são afetados se a variável não atingir o limite inferior num determinado mês.
-* Quando uma variável atinge o limite inferior, os dados começam a ser agrupados em [!UICONTROL Tráfego baixo]. Cada valor além desse limite passa pela seguinte lógica:
+* O Adobe Analytics usa dois limites para determinar quais valores únicos são exibidos nos relatórios a cada mês: **[!UICONTROL limite baixo]** e um **[!UICONTROL limite alto]**. Esses limites podem ser ajustados por Adobe de tempos em tempos. Os limites atuais são:
+   * **[!UICONTROL Limite baixo]**: 2.000.000 valores únicos durante o mês.
+   * **[!UICONTROL Limite alto]**: 2.100.000 valores únicos durante o mês.
+* O relatório não é afetado se uma variável não atingir o limite baixo em um determinado mês.
+* Quando uma variável atinge o limite baixo, os dados começam a ser classificados em um item de dimensão rotulado [!UICONTROL Tráfego baixo]. Cada valor além desse limite passa pela seguinte lógica:
    * Se um valor já estiver nos relatórios, adicione-o como de costume.
-   * Se um valor ainda não for visto nos relatórios, ele será inicialmente agrupado no item de dimensão [!UICONTROL Tráfego baixo].
-   * Se um valor agrupado em [!UICONTROL Tráfego baixo] receber um influxo de tráfego (normalmente instâncias de dois dígitos em um único dia), ele começará a ser reconhecido como seu próprio item de dimensão. As instâncias coletadas antes de atingir o limite permanecem em [!UICONTROL Tráfego baixo]. O ponto exato em que o item de dimensão começa a ser exibido nos relatórios depende de vários fatores, como o número de servidores processando dados para o conjunto de relatórios e o tempo entre cada instância do item de dimensão.
+   * Se um valor ainda não for visto nos relatórios, adicione-o inicialmente ao item de dimensão [!UICONTROL Tráfego baixo].
+   * Se um valor classificado em [!UICONTROL Tráfego baixo] receber um fluxo de tráfego (normalmente instâncias nos dígitos duplos em um único dia), reconheça-o como seu próprio item de dimensão. As instâncias coletadas antes do fluxo de tráfego permanecem em [!UICONTROL Tráfego baixo]. O ponto exato em que o item de dimensão começa a ser exibido nos relatórios depende de vários fatores, como o número de servidores processando dados para o conjunto de relatórios e o tempo entre cada instância do item de dimensão.
 * Se uma variável atingir o limite superior, uma filtragem mais agressiva será aplicada. Valores exclusivos exigem instâncias de três dígitos em um único dia antes de serem reconhecidos como seu próprio item de dimensão.
 
 Essa lógica permite que a Adobe otimize os recursos de relatórios e, ao mesmo tempo, permita que sua organização gere relatórios sobre itens de dimensões fundamentais coletados no final do mês. Por exemplo, se sua organização executar um site com milhões de artigos e um novo artigo se tornar popular no final do mês (depois de exceder ambos os limites únicos), ainda será possível analisar o desempenho desse artigo sem que ele seja agrupado em [!UICONTROL Tráfego baixo]. Essa lógica não tem como objetivo desagrupar tudo que obtém um determinado número de visualizações de página por dia ou por mês.
@@ -31,7 +31,7 @@ Essa lógica permite que a Adobe otimize os recursos de relatórios e, ao mesmo 
 >[!NOTE]
 >A dimensão [Página](../components/dimensions/page.md) usa várias colunas de back-end que contam para limites exclusivos, incluindo `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url` e `click_context`.  Essas colunas de back-end podem fazer com que a lógica [!UICONTROL Tráfego baixo] seja aplicada bem antes que o número de itens de dimensão de página exclusivos no Workspace atinja o limite inferior.
 
-Observe que a lógica de tráfego baixo descrita acima funciona melhor com variáveis que têm itens de dimensão que se repetem muitas vezes durante o mês. Se os itens de dimensão de uma variável forem quase ou totalmente únicos em cada ocorrência, a variável atingirá o limite baixo rapidamente e todos os novos itens de dimensão do mês acabarão no agrupamento de tráfego baixo.
+Observe que a lógica de tráfego baixo funciona melhor com variáveis que têm itens de dimensão que se repetem muitas vezes durante o mês. Se os itens de dimensão de uma variável forem quase ou totalmente exclusivos em cada ocorrência, o número de valores únicos da variável atingirá ambos os limites rapidamente e todos os itens de dimensão subsequentes do mês acabarão na classificação de tráfego baixo.
 
 ## Alterar limites exclusivos
 
