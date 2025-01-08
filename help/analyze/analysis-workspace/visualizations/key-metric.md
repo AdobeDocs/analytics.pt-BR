@@ -4,10 +4,10 @@ title: Resumo da métrica principal
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 0bf1b06af8a89c47e74807d14c31075f181cb946
+source-git-commit: 00276353ef5555955d9dc178c692da0dbfb7eac2
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 98%
+source-wordcount: '780'
+ht-degree: 56%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 A visualização do [!UICONTROL Resumo da métrica principal] permite ver a tendência de uma métrica importante em um único período. Ela também permite comparar o desempenho da métrica em dois intervalos de tempo. Ela oferece os benefícios de várias visualizações combinadas em uma única visualização:
 
-* Visualizações de **[!UICONTROL Linha]**, que mostram a tendência da métrica para os intervalos de datas principal e de comparação
+* Visualizações de **[!UICONTROL Linha]** que mostram a tendência da métrica para os intervalos de datas principal e de comparação
 
 * **[!UICONTROL Alteração percentual do resumo]**, que mostra o aumento ou a diminuição da métrica entre os intervalos de datas principal e de comparação
 
@@ -23,7 +23,7 @@ A visualização do [!UICONTROL Resumo da métrica principal] permite ver a tend
 
 ## Casos de uso
 
-Essa visualização aborda uma variedade de casos de uso comuns, incluindo:
+Essa visualização aborda vários casos de uso comuns, incluindo:
 
 * Um analista tentando entender como a criação de oportunidades parecia este mês em comparação com o mesmo período do ano passado.
 
@@ -35,20 +35,27 @@ Essa visualização aborda uma variedade de casos de uso comuns, incluindo:
 
 1. Arraste a visualização do **[!UICONTROL Resumo da métrica principal]** do menu **[!UICONTROL Visualizações]** no painel à esquerda para um painel.
 
-1. Configure a visualização selecionando uma métrica, um intervalo de datas principal, um intervalo de datas de comparação e um segmento (se desejar):
-
    ![](assets/key-metric-config.png)
+
+1. Configure a visualização com as seguintes opções:
 
    | Configuração | Definição |
    | --- | --- |
    | **[!UICONTROL Métrica]** | Selecione a métrica que deseja examinar. Todas as métricas são compatíveis. |
-   | **[!UICONTROL Intervalo de datas principal]** | O intervalo de datas atual da tabela de forma livre. |
-   | **[!UICONTROL Intervalo de datas de comparação]** | O intervalo de datas no qual você deseja comparar o intervalo de datas principal. |
-   | **[!UICONTROL Segmento (opcional)]** | Qualquer segmento em que você esteja interessado especificamente neste resumo. |
+   | **[!UICONTROL Intervalo de datas principal]** | O intervalo de datas atual da tabela de forma livre.<p>Escolha entre qualquer intervalo de datas disponível no conjunto de relatórios.</p> <p>Escolha [!UICONTROL **Intervalo de datas do painel**] se desejar usar o mesmo intervalo de datas que está sendo usado no painel onde a visualização está localizada.</p> |
+   | **[!UICONTROL Intervalo de datas de comparação]** | O intervalo de datas que você deseja comparar com o intervalo de datas principal. |
+   | **[!UICONTROL Segmento (opcional)]** | Qualquer segmento em que você esteja interessado neste resumo. |
 
    {style="table-layout:auto"}
 
-1. Clique em **[!UICONTROL Criar]**.
+   >[!NOTE]
+   >
+   >Quando o campo [!UICONTROL **Intervalo de datas principal**] está definido como [!UICONTROL **Intervalo de datas do painel**], o **[!UICONTROL Intervalo de datas de comparação]** pode ser atualizado automaticamente, dependendo se a opção **[!UICONTROL Intervalo de datas de comparação]** escolhida é relativa ao intervalo de datas principal ou fixa.
+   >
+   >* **Relativo:** se o campo **[!UICONTROL Intervalo de datas de comparação]** estiver definido como uma opção relativa ao intervalo de datas principal (como [!UICONTROL **Dia anterior**], [!UICONTROL **Mesmo dia da semana passada**], [!UICONTROL **Mesmo dia 4 semanas antes**] e assim por diante), qualquer atualização no campo [!UICONTROL **Intervalo de datas principal**] fará com que o **[!UICONTROL Intervalo de datas de comparação]** atualize automaticamente para o período que segue imediatamente o intervalo de datas do painel.
+   >* **Fixo:** se o campo [!UICONTROL **Intervalo de datas de comparação**] estiver definido como um intervalo de datas fixo (como **3 de fevereiro de 2023**), as alterações feitas no campo [!UICONTROL **Intervalo de datas principal**] ou no intervalo de datas do painel não terão efeito no [!UICONTROL **Intervalo de datas de comparação**]. No entanto, qualquer atualização no intervalo de datas do painel faz com que o [!UICONTROL **Intervalo de datas principal**] seja atualizado automaticamente.
+
+1. Selecione **[!UICONTROL Criar]**.
 
 ## Visualizar a saída
 
@@ -56,11 +63,11 @@ A saída deve ser semelhante a:
 
 ![](assets/key-metric-output.png)
 
-Observe que:
+Considere o seguinte ao visualizar a saída:
 
-* O gráfico de linhas do **[!UICONTROL Período anterior]** (sempre exibido em cinza) corresponde ao **[!UICONTROL Intervalo de datas de comparação]** na etapa de configuração.
+* O gráfico de linhas **[!UICONTROL Período anterior]** (sempre exibido em cinza) corresponde ao **[!UICONTROL Intervalo de datas de comparação]** na etapa de configuração.
 
-* Se um intervalo de datas de comparação não for especificado durante a configuração ou estiver oculto nas configurações de visualização, somente o gráfico de linhas do intervalo de datas principal será exibido. A alteração do resumo ficará oculta.
+* Se um intervalo de datas de comparação não for especificado durante a configuração ou estiver oculto nas configurações de visualização, somente o gráfico de linhas do intervalo de datas principal será exibido. A alteração do resumo está oculta.
 
 * A partir daqui, você pode passar o mouse sobre os gráficos de linha para ver as estatísticas de dias individuais:
 
@@ -78,9 +85,9 @@ O resumo da métrica principal oferece várias configurações flexíveis para p
 | **[!UICONTROL Enfatizar o valor do número]** | Exibir o número do resumo em negrito de destaque no centro da visualização |
 | **[!UICONTROL Legenda visível]** | Mostrar ou ocultar a legenda na parte inferior da visualização |
 | **[!UICONTROL Mostrar anotações]** | Mostrar ou ocultar anotações adicionadas por um administrador |
-| **[!UICONTROL Mostrar linhas cintilantes]** | Mostrar ou ocultar gráficos de linha na parte inferior do gráfico. Quando ocultos, a legenda será alterada para não mais fazer referência visual às linhas |
+| **[!UICONTROL Mostrar linhas cintilantes]** | Mostrar ou ocultar gráficos de linha na parte inferior do gráfico. Quando oculta, a legenda muda para não mais fazer referência visual às linhas |
 | **[!UICONTROL Mostrar mínimo e máximo em gráficos sparkline]** | Mostrar ou ocultar valores mínimos e máximos em gráficos de linha primários e de comparação |
-| **[!UICONTROL Mostrar comparação]** | Mostrar ou ocultar dados de comparação. Quando ocultos, o gráfico de linha de comparação e os objetos de alteração de resumo não serão exibidos. |
+| **[!UICONTROL Mostrar comparação]** | Mostrar ou ocultar dados de comparação. Quando ocultos, o gráfico de linha de comparação e os objetos de alteração de resumo ficam ocultos da exibição. |
 | **[!UICONTROL Mostrar número total]** | Mostrar ou ocultar o número do resumo |
 | **[!UICONTROL Mostrar diferença bruta]** | Mostrar ou ocultar diferença bruta entre o valor total da métrica no intervalo de datas principal e o intervalo de datas secundário |
 | **[!UICONTROL Abreviar valor]** | Abreviar valores de números para simplificar os insights comunicados (por exemplo, 20.000 -> 20K) |
