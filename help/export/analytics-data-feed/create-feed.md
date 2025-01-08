@@ -3,7 +3,7 @@ title: Criar um feed de dados
 description: Saiba como criar um feed de dados e sobre as informações do arquivo a serem fornecidas ao Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
 source-wordcount: '4128'
 ht-degree: 53%
@@ -15,12 +15,9 @@ ht-degree: 53%
 Ao criar um feed de dados, você fornece ao Adobe:
 
 * As informações sobre o destino para o qual você deseja que os arquivos de dados brutos sejam enviados
-
 * Os dados que você deseja incluir em cada arquivo
 
->[!NOTE]
->
->Antes de criar um feed de dados, é importante ter uma compreensão básica dos feeds de dados e garantir que você atenda a todos os pré-requisitos. Para obter mais informações, consulte [Visão geral dos feeds de dados](data-feed-overview.md).
+Antes de criar um feed de dados, é importante ter uma compreensão básica dos feeds de dados e garantir que você atenda a todos os pré-requisitos. Para obter mais informações, consulte [Visão geral dos feeds de dados](data-feed-overview.md).
 
 ## Criar e configurar um feed de dados
 

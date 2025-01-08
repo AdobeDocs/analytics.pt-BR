@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
-source-wordcount: '3580'
+source-wordcount: '3617'
 ht-degree: 67%
 
 ---
@@ -216,7 +216,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`videofeedtype`** | O [Tipo de feed de mídia](/help/components/dimensions/sm-video-metadata.md) Dimensão de mídia de transmissão. | varchar(255) |
 | **`videogenre`** | O [dimensão de mídia por streaming de gênero](/help/components/dimensions/sm-video-metadata.md) . Essa dimensão permite vários valores na mesma hit, delimitados por uma vírgula. | texto |
 | **`videolength`** | A [dimensão Comprimento do conteúdo (variável)](/help/components/dimensions/sm-core.md) Mídia de Streaming. | inteiro |
-| **`videomvpd`** | A dimensão Mídia de Streaming [MVPD](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
+| **`videomvpd`** | A dimensão [MVPD](/help/components/dimensions/sm-video-metadata.md) de mídia de streaming. | varchar(255) |
 | **`videoname`** | O [Nome do conteúdo (variável)](/help/components/dimensions/sm-core.md) Dimensão de mídia de streaming. | varchar(255) |
 | **`videonetwork`** | A dimensão [Rede](/help/components/dimensions/sm-video-metadata.md) de Mídia de Streaming. | varchar(255) |
 | **`videopath`** | A dimensão [Caminho da mídia](/help/components/dimensions/sm-core.md) para mídia de streaming. | varchar(100) |
@@ -259,7 +259,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 
 ## Colunas não usadas ou desativadas
 
-A lista de colunas a seguir não é usada e geralmente não contém dados. As colunas que contêm dados não são compatíveis com as bibliotecas de coleção de dados atuais e não estão disponíveis no Analysis Workspace.
+A lista de colunas a seguir não é usada, foi removida ou não contém valor no relatório. Algumas dessas colunas estão vinculadas a recursos que foram descontinuados, enquanto outras não são mais necessárias devido a recursos novos e mais robustos. A maioria dessas colunas não contém dados. As colunas que ainda podem conter dados não são compatíveis com as bibliotecas de coleção de dados atuais e não estão disponíveis no Analysis Workspace.
 
 * `adclassificationcreative`
 * `click_action`
@@ -338,6 +338,7 @@ A lista de colunas a seguir não é usada e geralmente não contém dados. As co
 * `plugins`
 * `prev_page`
 * `product_merchandising`
+* `sampled_hit`
 * `service`
 * `socialaccountandappids`
 * `socialassettrackingcode`
