@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
+source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 6%
+source-wordcount: '691'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,6 @@ Para criar um novo modelo que pode ser usado por pessoas na empresa de logon:
    | **[!UICONTROL Nome]** | Forneça um nome descritivo para o modelo. |
    | **[!UICONTROL Descrição]** | Forneça uma breve descrição do modelo que descreva suas finalidades. |
    | **[!UICONTROL Por que usar este modelo]** | Forneça uma breve explicação para informar as pessoas na organização sobre como esse modelo pode ser usado. Essa explicação é exibida na página Visualização do modelo. |
-   | **[!UICONTROL Canais]** | Escolha qualquer canal aplicável que se aplique a este modelo. Você pode selecionar vários canais: **[!UICONTROL Web]**, **[!UICONTROL Celular]**, **[!UICONTROL Entre canais]**, **[!UICONTROL Central de atendimento]** e **[!UICONTROL Na loja]**.<p>As seleções escolhidas determinam onde o modelo é exibido e quais filtros são aplicados aos usuários que o acessam na página Modelos da organização.</p> |
    | **[!UICONTROL Casos de uso]** | Escolha qualquer caso de uso que se aplique a este modelo. Você pode selecionar vários casos de uso: **[!UICONTROL Envolvimento]**, **[!UICONTROL Conversão]**, **[!UICONTROL Público-alvo]** e **[!UICONTROL Aquisição]**. <p>As seleções escolhidas determinam onde o modelo é exibido e quais filtros são aplicados aos usuários que o acessam na página Modelos da organização.</p> |
    | **[!UICONTROL Tags]** | Especifique as tags que deseja aplicar ao modelo. As pessoas podem filtrar a lista de modelos pelas tags adicionadas. |
 
@@ -44,7 +43,7 @@ Para criar um novo modelo que pode ser usado por pessoas na empresa de logon:
 
 Para obter informações sobre como os usuários podem criar um projeto com base em um modelo, consulte [Criar um projeto com base em um modelo](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) em [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md).
 
-## Editar ou excluir modelos
+## Editar ou excluir um modelo
 
 Os administradores podem editar ou excluir modelos de empresa.
 
@@ -71,6 +70,22 @@ Os administradores podem editar ou excluir modelos de empresa.
    1. Selecione o ícone Mais e selecione **[!UICONTROL Editar]** ou **[!UICONTROL Excluir]**.
 
       ![Edição ou exclusão do cartão de modelo de empresa](assets/company-template-card-edit-delete.png)
+
+1. Se você estiver editando um modelo, faça as edições desejadas e selecione [!UICONTROL **Projeto**] > **[!UICONTROL Salvar como modelo...]**.
+
+   ![Modelo de empresa](assets/company-template-save.png)
+
+1. Especifique as seguintes informações na caixa de diálogo [!UICONTROL Salvar como modelo]:
+
+   | Campo | Descrição |
+   |---------|----------|
+   | **[!UICONTROL Nome]** | Forneça um nome descritivo para o modelo. |
+   | **[!UICONTROL Descrição]** | Forneça uma breve descrição do modelo que descreva suas finalidades. |
+   | **[!UICONTROL Por que usar este modelo]** | Forneça uma breve explicação para informar as pessoas na organização sobre como esse modelo pode ser usado. Essa explicação é exibida na página Visualização do modelo. |
+   | **[!UICONTROL Casos de uso]** | Escolha qualquer caso de uso que se aplique a este modelo. Você pode selecionar vários casos de uso: **[!UICONTROL Envolvimento]**, **[!UICONTROL Conversão]**, **[!UICONTROL Público-alvo]** e **[!UICONTROL Aquisição]**. <p>As seleções escolhidas determinam onde o modelo é exibido e quais filtros são aplicados aos usuários que o acessam na página Modelos da organização.</p> |
+   | **[!UICONTROL Tags]** | Especifique as tags que deseja aplicar ao modelo. As pessoas podem filtrar a lista de modelos pelas tags adicionadas. |
+
+1. Selecione [!UICONTROL **Salvar como modelo**].
 
 ## Renomear, marcar ou aprovar modelos
 
