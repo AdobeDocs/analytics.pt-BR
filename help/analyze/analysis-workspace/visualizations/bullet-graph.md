@@ -4,14 +4,32 @@ title: Gráfico de marcadores
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 4e230320dbda7bc626a04a9f9ec9cac438c8dba7
+source-git-commit: 7f84679a0d1c9cf1609bf8e01e0209936215d7ff
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
-# Gráfico de marcadores
+# Gráfico de marcadores {#bullet-graph}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_goalvalue"
+>title="Valor da meta"
+>abstract="**[!UICONTROL Meta alta]** é a meta principal que você está almejando. **[!UICONTROL Meta baixa]** e **[!UICONTROL Meta intermediária]** criam intervalos abaixo da [!UICONTROL Meta alta]. Observação: quando a opção **[!UICONTROL Porcentagens]** estiver marcada, insira metas como números inteiros. Por exemplo: `20` se a sua meta for vinte por cento."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_button"
+>title="Marcador"
+>abstract="Crie uma visualização de gráfico de marcadores para mostrar como uma métrica se compara a, ou se mede em relação a, intervalos de desempenho (metas)."
+
+<!-- markdownlint-enable MD034 -->
 
 Permite ver a comparação ou a medição de um valor em relação a outros intervalos de desempenho (metas).
 
