@@ -3,9 +3,9 @@ description: Explica como migrar componentes e projetos do Adobe Analytics para 
 title: Migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
+source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1453'
 ht-degree: 5%
 
 ---
@@ -58,7 +58,7 @@ Antes de migrar qualquer projeto para o Customer Journey Analytics, saiba mais s
 
 1. No campo [!UICONTROL **Proprietário do projeto**], comece digitando o nome do usuário que você deseja definir como proprietário do projeto no Customer Journey Analytics e selecione o nome dele no menu suspenso.
 
-   O proprietário especificado tem direitos totais de gerenciamento ao projeto.
+   O proprietário especificado tem direitos totais de gerenciamento ao projeto. O proprietário deve ser um administrador no Customer Journey Analytics. Você pode alterar a propriedade do projeto em uma etapa posterior.
 
 1. Na seção [!UICONTROL **Mapear esquema para conjuntos de relatórios**], selecione um conjunto de relatórios.
 
@@ -119,6 +119,8 @@ Antes de migrar qualquer projeto para o Customer Journey Analytics, saiba mais s
    Após a conclusão de uma migração, a página [!UICONTROL **Status da migração**] fornece um resumo do que foi migrado.
 
    Se a migração falhar, consulte a seção [Repetir uma migração com falha](#retry-a-failed-migration) abaixo, para obter mais informações.
+
+1. (Opcional) Depois que um projeto é migrado, é possível transferir a propriedade do projeto para qualquer usuário no Customer Journey Analytics. Para obter mais informações, consulte [Transferir ativos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) no Guia do Customer Journey Analytics.
 
 ## Repetir uma migração com falha
 
