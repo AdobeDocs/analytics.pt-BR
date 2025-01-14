@@ -4,24 +4,24 @@ title: Página de aterrissagem do Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 100%
+source-wordcount: '1653'
+ht-degree: 94%
 
 ---
 
 # Página de aterrissagem do Adobe Analytics
 
-A página de destino do Adobe Analytics reúne o [!DNL Analysis Workspace] e o [!DNL Reports & Analytics] (descontinuado) em uma única interface e ponto de acesso sob a estrutura do [!DNL Workspace]. Ela apresenta uma página inicial do gerente de projeto, um menu de relatórios atualizado com relatórios modernizados, bem como uma nova seção de aprendizado que ajuda você a começar de forma mais eficaz. Veja um vídeo com uma visão geral:
+A página de destino do Adobe Analytics reúne o [!DNL Analysis Workspace] e o [!DNL Reports & Analytics] (descontinuado) em uma única interface e ponto de acesso sob a estrutura do [!DNL Workspace]. Ela apresenta uma página inicial do gerente de projeto, uma seção de modelos e uma seção de aprendizado que ajuda você a começar de forma mais eficaz. Veja um vídeo com uma visão geral:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-A página de destino do Adobe Analytics é composta pelas seguintes subguias: Projetos, Relatórios e Aprendizagem.
+A página de aterrissagem do Adobe Analytics é composta pelas seguintes subguias: Projetos, Modelos e Aprendizado.
 
 **[!UICONTROL Projetos]** são designs personalizados que combinam componentes de dados, tabelas e visualizações que você criou ou que outra pessoa criou e compartilhou com você. [!UICONTROL Projetos] também se refere a projetos em branco e scorecards para dispositivos móveis em branco.
 
-Os **[!UICONTROL Relatórios]** se referem a tudo que foi pré-criado pela Adobe, como os modelos no Workspace.
+**[!UICONTROL Modelos]** inclui modelos fornecidos pelo Adobe e qualquer modelo específico para sua organização.
 
 A guia **[!UICONTROL Aprendizagem]** contém orientações práticas em vídeo, tutoriais e links para a documentação.
 
@@ -83,24 +83,13 @@ As colunas disponíveis são:
 | MOSTRAR: Pastas e projetos ou todos os projetos | Altera a configuração de exibição na tabela para mostrar pastas e projetos de acordo com a organização da pasta **ou** mostrar todos os seus projetos em uma lista não organizada. |
 | &lt; (Botão voltar) | Retorna à configuração de página inicial mais recente em um projeto do Espaço de trabalho ou em um relatório. A configuração da página que você tinha quando saiu da página inicial persistirá quando você retornar. |
 
-## Acesse a guia [!UICONTROL Relatórios] {#navigate-reports}
+## Navegue pela guia [!UICONTROL Modelos] {#navigate-reports}
 
-A guia [!UICONTROL Relatórios] consolida os seguintes conjuntos de relatórios:
+Para obter informações sobre como usar modelos no Adobe Analytics, consulte os seguintes recursos:
 
-* Os modelos pré-criados do [!UICONTROL Espaço de trabalho] que estavam anteriormente localizados em [!UICONTROL Espaço de trabalho] > [!UICONTROL Projeto] > [!UICONTROL Novo]. A Adobe não usa mais a palavra “modelo” neste contexto.
-* A maioria dos relatórios pré-criados no menu superior de [!UICONTROL Relatórios] do Adobe Analytics anterior. Esses relatórios agora são exibidos no [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR).
+* [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md)
 
->[!NOTE]
->
->Considere o seguinte ao usar relatórios:
->* Em Relatórios, uma pasta Favoritos será exibida somente se você marcar um novo relatório como favorito. Nenhum favorito preexistente do Reports &amp; Analytics é transportado.
->* Somente os relatórios mais usados que anteriormente eram agrupados no Reports &amp; Analytics estão disponíveis. Alguns relatórios raramente usados ou que não são mais relevantes não estão mais disponíveis. Consulte as [Perguntas frequentes sobre a página de destino](#landing-page-faq) abaixo para obter mais detalhes.
-
-![Guia Relatórios](assets/reports-tab2.png)
-
-Para mais informações sobre a guia Relatórios no Analysis Workspace, incluindo como visualizar e salvar relatórios, consulte [Utilização de relatórios pré-criados](/help/analyze/analysis-workspace/reports/use-reports.md).
-
-Para obter informações sobre como criar e gerenciar relatórios personalizados da empresa, consulte [Criação e gerenciamento de relatórios da empresa](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+* [Criar e gerenciar modelos](/help/analyze/analysis-workspace/templates/create-templates.md)
 
 ## Usar a guia Aprendizagem {#navigate-learning}
 
@@ -130,20 +119,13 @@ Os usuários podem definir sua página de aterrissagem preferencial.
 
    ![Definir página de aterrissagem](assets/landing-pref.png)
 
-## Ocultar guia Relatórios {#hide-reports}
-
-Os administradores podem ocultar a guia Relatórios para todos os usuários em sua organização.
-
-1. Vá até [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Preferências] > [!UICONTROL Empresa].
-1. Marque **[!UICONTROL Ocultar guia Relatórios]**.
-
 ## Perguntas frequentes sobre a página de aterrissagem {#landing-faq}
 
 | Pergunta | Resposta |
 | --- | --- |
-| Onde estão os modelos que estou acostumado a ver no [!UICONTROL Espaço de trabalho]? | Esses modelos estão agrupados na guia [!UICONTROL Relatórios] |
+| Onde estão os modelos que estou acostumado a ver no [!UICONTROL Espaço de trabalho]? | Esses modelos estão agrupados na guia [!UICONTROL Modelos]. |
 | O trabalho que eu realizo na interface do programa beta é transferido para a experiência do [!UICONTROL Espaço de trabalho] de produção? | Sim, qualquer trabalho realizado no beta é transferido para a experiência antiga/atual do [!UICONTROL Espaço de trabalho.] |
 | Meus favoritos anteriores do Reports &amp; Analytics são transferidos? | Não, eles NÃO são transferidos. No entanto, todos os favoritos de projetos do [!UICONTROL Espaço de trabalho] são transferidos. |
 | Há um número máximo de projetos que eu posso fixar? | Não, não há limite para o número de projetos que você pode fixar. |
 | Os administradores podem designar essa página de aterrissagem para seus usuários? | Não, os administradores não podem designar a página de aterrissagem em nome de seus usuários. Os usuários individuais devem ativar a alternância. |
-| Todos os relatórios que existiam no [!DNL Reports & Analytics] ainda estão disponíveis? | Não. Os seguintes relatórios foram eliminados, com base nos dados de utilização geral: <ul><li>Quaisquer eVars/props/events/classifications personalizados<li>Meus relatórios recomendados</li><li>Visitantes únicos por hora, diários, semanais, mensais, trimestrais e anuais</li><li>Clientes únicos diários/semanais/mensais/trimestrais/anuais</li><li>Profundidade do nome da ação</li><li>Resumo do nome da ação</li><li>Adicionar painel</li><li>Idade</li><li>Suporte de áudio</li><li>Informações de faturamento</li><li>Cliques para a página</li><li>Intensidade de cor</li><li>Suporte a cookies</li><li>Cookies</li><li>Tipos de conexão</li><li>Elementos criativos</li><li>Tipo de cartão de crédito</li><li>Venda cruzada</li><li>Funis de evento personalizados</li><li>links personalizados</li><li>Customer ID</li><li>Dia da semana</li><li>Nome da ação de entrada</li><li>Sair do nome da ação</li><li>Links de saída</li><li>Fallout</li><li>Downloads de arquivos</li><li>Localizar no armazenamento</li><li>Caminhos completos</li><li>Gênero</li><li>Regra VISTA do tipo de ocorrência</li><li>Suporte de imagem</li><li>Java</li><li>JavaScript</li><li>Versão do JavaScript</li><li>Gerenciar marcadores</li><li>Gerenciar painéis</li><li>Intensidade de cor do monitor</li><li>Resoluções do Monitor</li><li>Assinaturas do boletim informativo</li><li>Nome da próxima ação</li><li>Fluxo do nome da próxima ação</li><li>Pesquisas nulas</li><li>Sistema operacional</li><li>Revisão do pedido</li><li>Página do dia</li><li>Páginas não encontradas</li><li>Pathfinder</li><li>Extensão do caminho</li><li>Nome da ação anterior</li><li>Fluxo do nome da ação anterior</li><li>Atividade do produto</li><li>Custo do produto</li><li>Departamento de produto</li><li>Categoria de inventário de produtos</li><li>Nome do produto</li><li>Resenhas do produto</li><li>Temporada de produtos</li><li>Compartilhamentos de produtos</li><li>Zooms de produtos</li><li>Recarga</li><li>Pesquisas</li><li>Servidores</li><li>Visitas em única página</li><li>Informações sobre envio</li><li>Hierarquia do site</li><li>Menções em redes sociais</li><li>Hora do dia</li><li>Tempo gasto no nome da ação</li><li>Suporte de vídeo</li><li>Estado do visitante</li></ul> |
+| Todos os relatórios existentes em [!DNL Reports & Analytics] ainda estão disponíveis como modelos? | Não. Os seguintes relatórios foram eliminados, com base nos dados de utilização geral: <ul><li>Quaisquer eVars/props/events/classifications personalizados<li>Meus relatórios recomendados</li><li>Visitantes únicos por hora, diários, semanais, mensais, trimestrais e anuais</li><li>Clientes únicos diários/semanais/mensais/trimestrais/anuais</li><li>Profundidade do nome da ação</li><li>Resumo do nome da ação</li><li>Adicionar painel</li><li>Idade</li><li>Suporte de áudio</li><li>Informações de faturamento</li><li>Cliques para a página</li><li>Intensidade de cor</li><li>Suporte a cookies</li><li>Cookies</li><li>Tipos de conexão</li><li>Elementos criativos</li><li>Tipo de cartão de crédito</li><li>Venda cruzada</li><li>Funis de evento personalizados</li><li>links personalizados</li><li>Customer ID</li><li>Dia da semana</li><li>Nome da ação de entrada</li><li>Sair do nome da ação</li><li>Links de saída</li><li>Fallout</li><li>Downloads de arquivos</li><li>Localizar no armazenamento</li><li>Caminhos completos</li><li>Gênero</li><li>Regra VISTA do tipo de ocorrência</li><li>Suporte de imagem</li><li>Java</li><li>JavaScript</li><li>Versão do JavaScript</li><li>Gerenciar marcadores</li><li>Gerenciar painéis</li><li>Intensidade de cor do monitor</li><li>Resoluções do Monitor</li><li>Assinaturas do boletim informativo</li><li>Nome da próxima ação</li><li>Fluxo do nome da próxima ação</li><li>Pesquisas nulas</li><li>Sistema operacional</li><li>Revisão do pedido</li><li>Página do dia</li><li>Páginas não encontradas</li><li>Pathfinder</li><li>Extensão do caminho</li><li>Nome da ação anterior</li><li>Fluxo do nome da ação anterior</li><li>Atividade do produto</li><li>Custo do produto</li><li>Departamento de produto</li><li>Categoria de inventário de produtos</li><li>Nome do produto</li><li>Resenhas do produto</li><li>Temporada de produtos</li><li>Compartilhamentos de produtos</li><li>Zooms de produtos</li><li>Recarga</li><li>Pesquisas</li><li>Servidores</li><li>Visitas em única página</li><li>Informações sobre envio</li><li>Hierarquia do site</li><li>Menções em redes sociais</li><li>Hora do dia</li><li>Tempo gasto no nome da ação</li><li>Suporte de vídeo</li><li>Estado do visitante</li></ul> |

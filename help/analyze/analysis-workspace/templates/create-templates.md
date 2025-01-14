@@ -3,13 +3,11 @@ description: Uma visão geral de como usar relatórios padrão no Analysis Works
 title: Usar relatórios
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '720'
+ht-degree: 6%
 
 ---
 
@@ -118,3 +116,10 @@ Os administradores podem renomear, marcar e aprovar modelos de empresa.
 Assim como nos modelos fornecidos pelo Adobe, os usuários na organização podem acessar os modelos criados pelos administradores.
 
 Para obter informações sobre como acessar um modelo de empresa, consulte [Acessar e executar um modelo](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) em [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md).
+
+## Ocultar a guia Modelos {#hide-reports}
+
+Os administradores podem ocultar a guia Modelos para todos os usuários em sua organização.
+
+1. Vá até **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Preferências]** > **[!UICONTROL Empresa]**.
+1. Selecione a opção para **[!UICONTROL Ocultar guia Modelos]**.

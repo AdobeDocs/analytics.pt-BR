@@ -4,22 +4,19 @@ title: Modelos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '42'
+ht-degree: 33%
 
 ---
 
-# Modelos (*agora chamados de Relatórios*)
+# Modelos
 
-O termo Modelos não é mais usado para projetos pré-criados do espaço de trabalho. Os relatórios se referem a tudo que foi pré-criado pela Adobe, como relatórios do Reports &amp; Analytics (encerrado) e relatórios pré-criados do espaço de trabalho. No entanto, o termo *modelos* ainda pode ser usado para se referir a modelos ou relatórios criados por sua empresa. Os modelos personalizados são conhecidos como *relatórios personalizados da empresa*.
+Os modelos (ou modelos de empresa) no Analysis Workspace fornecem insights rápidos sobre os cenários de relatórios mais comuns.
 
-Para obter informações sobre como criar relatórios do espaço de trabalho e relatórios personalizados da empresa, consulte a seguinte documentação:
+Para obter informações sobre como usar modelos no Adobe Analytics, consulte os seguintes recursos:
 
-| Tarefa | Link |
-|---|---| 
-| Saiba mais sobre a página inicial do gerente de projeto e o menu Relatórios atualizado | [Página de destino do Adobe Analytics](/help/analyze/landing.md) |
-| Criar um relatório de empresa personalizado | [Criar e gerenciar relatórios da empresa](/help/analyze/analysis-workspace/reports/create-company-reports.md) |
-| Veja a lista de relatórios pré-criados ou localize os modelos (agora chamados de *Relatórios*) | [Utilização de relatórios pré-criados](/help/analyze/analysis-workspace/reports/use-reports.md) |
-| Saiba como navegar na guia Relatórios | [Navegar na guia Relatórios](/help/analyze/landing.md#navigate-reports) |
+* [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md)
+
+* [Criar e gerenciar modelos](/help/analyze/analysis-workspace/templates/create-templates.md)
