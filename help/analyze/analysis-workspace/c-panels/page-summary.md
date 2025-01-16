@@ -4,14 +4,33 @@ title: Painel Resumo da página
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 33fdd685de21736964d0cbfbc479794a9154e8a3
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 9%
+source-wordcount: '547'
+ht-degree: 8%
 
 ---
 
-# Painel Resumo da página
+# Painel Resumo da página {#page-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_button"
+>title="Resumo da página"
+>abstract="Revise rapidamente algumas das métricas de alto nível, bem como o movimento de e para uma página específica."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_panel"
+>title="Painel Resumo da página"
+>abstract="Revise rapidamente algumas das métricas de alto nível, bem como o movimento de e para uma página específica.<br/><br/>**Parâmetros **<br/>**Adicionar um item de dimensão de página**: abra o painel de componentes, localize a dimensão de Página e expanda-a clicando na cenoura para ver os itens de dimensão. Em seguida, arraste e solte a página específica sobre a qual deseja aprender no construtor. Depois de arrastar e soltar o item de dimensão, o relatório será preenchido automaticamente com informações importantes sobre a página."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Esse painel permite explorar facilmente as principais estatísticas sobre páginas específicas.
 

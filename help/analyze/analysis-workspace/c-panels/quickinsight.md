@@ -4,9 +4,9 @@ title: Painel do Insights rápidos
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 8ed3572767e586580872c5d2150ed75e42793fe6
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1153'
 ht-degree: 84%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-*Este artigo documenta o painel Quick insights no ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Consulte o [Painel Quick Insights](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight) da ![versão do CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**deste artigo.*
+*Este artigo documenta o painel Quick insights no **Adobe Analytics**.<br/>Consulte o [painel do Quick Insights](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para a versão **Customer Journey Analytics**deste artigo.*
 
 >[!ENDSHADEBOX]
 

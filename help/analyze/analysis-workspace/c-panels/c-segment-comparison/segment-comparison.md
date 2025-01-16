@@ -5,10 +5,10 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
+source-git-commit: 60836f5632cfd19d94f33441eaa9d949609d5712
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 91%
+source-wordcount: '1223'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="Comparação de segmentos"
->abstract="Compare rapidamente dois segmentos em todos os pontos de dados para encontrar automaticamente diferenças relevantes"
+>abstract="Compare rapidamente dois segmentos em todos os pontos de dados para encontrar automaticamente diferenças relevantes."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-*Este artigo documenta o painel de comparação de segmentos no ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Não há nenhum painel equivalente em ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.*
+*Este artigo documenta o painel de comparação de segmentos no **Adobe Analytics**.<br/>Não há painel equivalente em **Customer Journey Analytics**.*
 
 >[!ENDSHADEBOX]
 
