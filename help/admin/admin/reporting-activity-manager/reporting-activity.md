@@ -4,10 +4,10 @@ title: Gerenciador de Atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 11%
+source-wordcount: '1989'
+ht-degree: 14%
 
 ---
 
@@ -18,6 +18,24 @@ O [!UICONTROL Gerenciador de Atividades de Relatórios] permite que os administr
 Para obter mais informações sobre o Gerenciador de Atividades de relatórios, incluindo os principais benefícios e requisitos de permissão, consulte [Visão geral do Gerenciador de Atividades de relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
 ## Exibir atividade de relatórios para todos os conjuntos de relatórios {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="Conexões"
+>abstract="Esta tabela mostra as conexões para as quais você tem direitos de gerenciar a atividade de relatórios. As informações sobre cada conexão estão disponíveis em cada coluna da tabela."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
+>title="Conexões"
+>abstract="Esta tabela mostra as conexões para as quais você tem direitos de gerenciar a atividade de relatórios. As informações sobre cada conexão estão disponíveis em cada coluna da tabela."
+
+<!-- markdownlint-enable MD034 -->
 
 1. No Adobe Analytics, vá para **[!UICONTROL Admin]** > **[!UICONTROL Gerente de Atividades de Relatórios]**.
 

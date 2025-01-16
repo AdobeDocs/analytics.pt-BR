@@ -4,14 +4,24 @@ title: Visão geral do calendário e do intervalos de datas
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '944'
 ht-degree: 91%
 
 ---
 
-# Visão geral do calendário e do intervalos de datas
+# Visão geral do calendário e do intervalos de datas {#date-range}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_dateranges_endtime"
+>title="Horário de término"
+>abstract="Os horários de término sempre incluem 59 segundos."
+
+<!-- markdownlint-enable MD034 -->
+
 
 No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição.
 

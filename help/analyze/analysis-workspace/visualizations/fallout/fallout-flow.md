@@ -4,14 +4,30 @@ title: Visão geral de fallout
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
-# Visão geral de fallout
+# Visão geral de fallout {#fallout-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_button"
+>title="Fallout"
+>abstract="Cria uma visualização para ver como as pessoas avançam com êxito para os pontos de verificação desejados."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artigo documenta a visualização de Fallout no **Adobe Analytics**.<br/>Consulte [Fallout](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) para a versão **Customer Journey Analytics**deste artigo.*
+
+>[!ENDSHADEBOX]
 
 As visualizações de Fallout oferecem mais opções para criar relatórios de fallout. Os relatórios de fallout mostram onde os visitantes saíram e continuaram em uma sequência predefinida de páginas.
 

@@ -3,14 +3,33 @@ description: O Criador de métricas calculadas oferece uma tela para arrastar e 
 title: Criar métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 40%
+source-wordcount: '1137'
+ht-degree: 43%
 
 ---
 
-# Criar métricas
+# Criar métricas {#build-metrics}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_productcompatibility"
+>title="Compatibilidade do produto"
+>abstract="Indica onde é possível usar essa métrica calculada no Customer Journey Analytics, seja no Analysis Workspace, Report Builder e assim por diante. Algumas métricas calculadas não podem ser usadas com experimentação. "
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Usar métricas calculadas na experimentação"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_externalid"
+>title="ID externa"
+>abstract="Alterar o ID externo pode afetar como a métrica calculada aparece em fontes externas, como em ferramentas de business intelligence"
+
+<!-- markdownlint-enable MD034 -->
 
 O Adobe Analytics fornece uma tela para arrastar e soltar dimensões, métricas, segmentos e funções a fim de criar métricas personalizadas com base na lógica, nas regras e nos operadores da hierarquia do container. Esta ferramenta de desenvolvimento integrado permite criar e salvar métricas calculadas simples e complexas.
 

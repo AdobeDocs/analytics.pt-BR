@@ -5,20 +5,31 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
 # [!UICONTROL Número do resumo] e [!UICONTROL Alteração do resumo]
+
+*Este artigo documenta o número do Resumo e a visualização de alteração do Resumo no **Adobe Analytics**.<br/>Consulte [Número do resumo e alteração do resumo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para a versão **Customer Journey Analytics**deste artigo.*
 
 Veja um vídeo sobre essas duas visualizações:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
 ## Visualização do [!UICONTROL Número do resumo] {#summary-number}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarynumber_button"
+>title="Número do resumo"
+>abstract="Crie uma visualização que mostre totais e subtotais."
+
+<!-- markdownlint-enable MD034 -->
 
 Use a visualização do [!UICONTROL Número do resumo] para realçar um número grande que seja importante em um projeto. Essa visualização se comporta das seguintes maneiras:
 
@@ -37,6 +48,15 @@ Clique na engrenagem **Configurações de visualização** no canto superior dir
 | [!UICONTROL Resumir valor por] | Opte por exibir o máximo, mínimo, médio, mediano ou soma para uma seleção de dados. |
 
 ## Visualização do [!UICONTROL Alteração do resumo] {#summary-change}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarychange_button"
+>title="Alteração de resumo"
+>abstract="Crie uma visualização que mostre o delta (alteração) entre dois números"
+
+<!-- markdownlint-enable MD034 -->
 
 Use a visualização [!UICONTROL Alteração do resumo] para mostrar o delta (alteração) entre dois números. As cores verde e vermelha da [!UICONTROL Alteração do resumo] podem ser controladas por meio da [polaridade de evento personalizada](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) ou da opção de métrica calculada [Mostrar tendência ascendente como](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=pt-BR).
 

@@ -4,14 +4,30 @@ title: Visualização de gráficos de combinação
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 99%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
-# Gráfico de combinação
+# Gráfico de combinação {#combo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_combo_button"
+>title="Combo"
+>abstract="Crie uma visualização de gráfico de combinação rapidamente, sem precisar criar uma tabela de forma livre primeiro."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artigo documenta a Visualização de combinação no **Adobe Analytics**.<br/>Consulte [Combinação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) para a versão **Customer Journey Analytics**deste artigo.*
+
+>[!ENDSHADEBOX]
 
 A visualização do [!UICONTROL Gráfico de combinação] facilita a construção rápida de uma visualização de comparação sem ter que construir uma tabela primeiro. Você pode visualizar facilmente as tendências em seus dados em uma combinação de linha/barra.
 
@@ -90,7 +106,7 @@ Clique no ícone de engrenagem na parte superior direita de um gráfico de combi
 | Configuração | Definição |
 | --- | --- |
 | **[!UICONTROL Tipo de visualização]** | Permite alternar para outro tipo de visualização. |
-| **[!UICONTROL Granularidade]** | Para visualizações de tendências, você pode alterar a granularidade de tempo (dia, semana, mês etc.) nesta lista suspensa. |
+| **[!UICONTROL Granularidade]** | Para visualizações de tendências, você pode alterar a granularidade de tempo (dia, semana, mês etc.) nessa lista suspensa. |
 | **[!UICONTROL Geral]** |  |
 | **[!UICONTROL Porcentagens]** | Exibe os valores em porcentagens. |
 | **[!UICONTROL Legenda visível]** | Permite ocultar o texto detalhado da legenda para a visualização dos gráficos de combinação. |

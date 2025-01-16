@@ -4,14 +4,40 @@ description: Saiba mais sobre os dados do seu público-alvo e os divida em grupo
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 92%
+source-wordcount: '576'
+ht-degree: 89%
 
 ---
 
-# Saiba mais sobre [!UICONTROL Análise de coorte] no Adobe Analytics
+# Visão geral da tabela de coorte {#cohort-table-overview}
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_cohorttable_button"
+>title="Tabela de coorte"
+>abstract="Crie uma visualização de coorte para agrupar usuários com base na conclusão de um evento e analise o engajamento contínuo e o churn ao longo do tempo."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_cohorttable_panel"
+>title="Tabela de coorte"
+>abstract="Agrupe os usuários com base na conclusão de um evento e, em seguida, analise o engajamento contínuo e o churn ao longo do tempo.<br/><br/>**Parâmetros **<br/>**Critérios de inclusão**: os componentes usados para definir seus coortes de visitantes iniciais.<br/>**Critérios de retorno**: os componentes usados para determinar se um visitante retornou."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artigo documenta a tabela de Coorte no **Adobe Analytics**.<br/>Consulte a [Tabela de coorte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) da versão **Customer Journey Analytics**deste artigo.*
+
+>[!ENDSHADEBOX]
 
 A *`cohort`* é um grupo de pessoas com características comuns em um período específico. A [!UICONTROL análise de coorte] é útil, por exemplo, quando você deseja saber como uma coorte interage com uma marca. Você pode detectar facilmente as mudanças nas tendências e atuar de acordo com elas. (Há explicações sobre a [!UICONTROL análise de coorte] disponíveis na Web, por exemplo, em [Análise de coorte 101](https://pt.wikipedia.org/wiki/Cohort_analysis).)
 

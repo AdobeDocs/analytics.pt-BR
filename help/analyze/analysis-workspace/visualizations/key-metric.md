@@ -4,14 +4,30 @@ title: Resumo da métrica principal
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 00276353ef5555955d9dc178c692da0dbfb7eac2
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '839'
 ht-degree: 56%
 
 ---
 
-# Resumo da métrica principal
+# Resumo da métrica principal {#key-metric-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_keymetricsummary_button"
+>title="Resumo da métrica principal"
+>abstract="Crie uma visualização que seja uma combinação dos gráficos de linha, alteração de resumo e número de resumo. Use essa visualização para comparar a tendência das métricas importantes entre dois períodos."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artigo documenta a visualização do resumo da métrica principal no **Adobe Analytics**.<br/>Consulte [Resumo da métrica principal](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) para a versão **Customer Journey Analytics**deste artigo.*
+
+>[!ENDSHADEBOX]
 
 A visualização do [!UICONTROL Resumo da métrica principal] permite ver a tendência de uma métrica importante em um único período. Ela também permite comparar o desempenho da métrica em dois intervalos de tempo. Ela oferece os benefícios de várias visualizações combinadas em uma única visualização:
 

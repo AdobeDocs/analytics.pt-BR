@@ -5,14 +5,31 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 90%
 
 ---
 
-# Histograma
+# Histograma {#histogram}
+
+arkdownlint-disable MD034 —>
+
+>[!CONTEXTUALHELP]
+>id="workspace_histogram_button"
+>title="Histograma"
+>abstract="Crie uma visualização de histograma para representar a distribuição de dados numéricos em grupos de intervalos."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artigo documenta a visualização do Histograma no **Adobe Analytics**.<br/>Consulte o [Histograma](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) da versão **Customer Journey Analytics**deste artigo.*
+
+>[!ENDSHADEBOX]
+
 
 Um histograma é semelhante a um gráfico de barras, mas agrupa os números em intervalos (grupos). O Analytics automatiza o agrupamento de números em intervalos, mas você pode alterar as configurações em [Configurações avançadas](#section_09D774C584864D4CA6B5672DC2927477).
 
@@ -45,7 +62,7 @@ Para ajustar as configurações do histograma, clique no ícone de Configuraçõ
 | Configurações do histograma | O que faz |
 |---|---|
 | Grupo inicial | Determina o grupo inicial do histograma. O valor padrão é “1”. Você pode definir números iniciais de 0 a infinito (nenhum número negativo). |
-| Grupos de métricas | Permite aumentar/diminuir o número de intervalos de dados (grupos). O número máximo de grupos é 50. |
+| Grupos de métricas | Permite aumentar/diminuir o número de intervalos de dados (compartimentos). O número máximo de compartimentos é 50. |
 | Tamanho do grupo de métricas | Permite definir o tamanho de cada grupo. Por exemplo, você pode alterar o tamanho do grupo de uma exibição de página para duas exibições de página. |
 | Método de contagem | Permite escolher entre [Visitante](/help/components/metrics/unique-visitors.md), [Visita](/help/components/metrics/visits.md) ou [Tipo de ocorrência](/help/components/dimensions/hit-type.md). Por exemplo, exibições de página por visita, por visitante ou por ocorrência. Para ocorrências, “Ocorrências” é usada como a métrica do eixo “y” na tabela de forma livre. |
 

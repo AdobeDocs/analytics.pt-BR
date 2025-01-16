@@ -3,14 +3,140 @@ description: Saiba mais sobre
 title: Atribuição e tipo de métrica
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 69%
+source-wordcount: '576'
+ht-degree: 79%
 
 ---
 
-# Atribuição e tipo de métrica
+# Atribuição e tipo de métrica {#metric-type-attribution}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_nondefaultattributionmodel"
+>title="Usar modelo de atribuição não-padrão"
+>abstract="Habilite um modelo de atribuição não padrão para a métrica selecionada."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attributionmodel"
+>title="Modelo"
+>abstract="Selecione um modelo de atribuição para a métrica."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_lasttouch"
+>title="Último contato"
+>abstract="100% do crédito vai para o último valor de dimensão visto por um visitante."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_firsttouch"
+>title="Primeiro contato"
+>abstract="100% do crédito vai para o primeiro valor de dimensão visto por um visitante."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_linear"
+>title="Linear"
+>abstract="O crédito é distribuído uniformemente em todos os valores de dimensão."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_participation"
+>title="Participação"
+>abstract="100% de crédito para cada valor de dimensão visto por um visitante.<br/>Os totais da coluna estão exagerados."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_sametouch"
+>title="Mesmo contato"
+>abstract="O crédito é fornecido somente para valores de dimensão que ocorrem no mesmo evento que a conversão."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_ushaped"
+>title="Forma de U"
+>abstract="40% do crédito é atribuído ao primeiro valor de dimensão, 40% ao último, 20% é compartilhado pelo meio."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jcurve"
+>title="Curva J"
+>abstract="60% do crédito é atribuído ao valor da última dimensão, 20% ao primeiro, 20% é compartilhado pelo meio."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_inversej"
+>title="J invertido"
+>abstract="60% do crédito é atribuído ao primeiro valor de dimensão, 20% ao último, 20% é compartilhado pelo meio."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_timedecay"
+>title="Declínio de tempo"
+>abstract="Os valores de dimensão mais próximos do tempo a uma conversão recebem mais crédito."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_custom"
+>title="Personalizado"
+>abstract="Defina sua própria posição com base na ponderação de atribuição."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_algorithmic"
+>title="Algorítmico"
+>abstract="O crédito é determinado dinamicamente em um algoritmo estatístico."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_lookbackwindow"
+>title="Janela de lookback"
+>abstract="Essa configuração determina a janela de atribuição de dados que será aplicada a cada conversão."
+
+<!-- markdownlint-enable MD034 -->
 
 Ao [criar uma métrica calculada](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), você pode especificar o tipo de métrica e o modelo de atribuição.
 

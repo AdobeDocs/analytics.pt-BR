@@ -4,16 +4,34 @@ description: Como criar anotações no Espaço de trabalho.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
 
-# Criar anotações
+# Criar anotações {#create-annotations}
 
-Por padrão, somente admins podem criar anotações. Os usuários têm o direito de visualizar anotações da mesma forma que fazem com outros componentes do Analytics (como segmentos, métricas calculadas etc.).
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_annotations_details"
+>title="Detalhes da anotação"
+>abstract="As anotações permitem comunicar com eficácia nuances de dados contextuais e insights à sua organização. Elas permitem vincular eventos de calendário a dimensões ou métricas específicas. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_annotations_scope"
+>title="Escopo"
+>abstract="O escopo permite personalizar em quais dados as anotações serão adicionadas. As métricas calculadas e os segmentos não herdarão automaticamente as anotações aplicadas aos componentes usados nas definições. É possível adicionar novas métricas calculadas à seção de escopo de uma anotação existente. Novos segmentos exigem uma nova anotação."
+
+<!-- markdownlint-enable MD034 -->
+
+Por padrão, somente administradores podem criar anotações. Os usuários têm o direito de visualizar anotações da mesma forma que fazem com outros componentes do Analytics (como segmentos, métricas calculadas etc.).
 
 No entanto, admins podem fornecer a permissão [!UICONTROL Criação de anotações] (Ferramentas do Analytics) para usuários por meio do [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=pt-BR).
 

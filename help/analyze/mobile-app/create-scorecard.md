@@ -4,14 +4,21 @@ title: Criar e compartilhar cartões de pontuação móveis
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2515'
 ht-degree: 81%
 
 ---
 
-# Criar um cartão de pontuação móvel
+# Criar um cartão de pontuação para dispositivos móveis {#create-a-mobile-scorecard}
+
+>[!CONTEXTUALHELP]
+>id="mobilescorecard_annotations"
+>title="Anotações"
+>abstract="Anotações podem ser criadas no gerenciador de componentes de dentro de um projeto do Workspace."
+
+<!-- markdownlint-enable MD034 -->
 
 As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar cartões de pontuação móveis para usuários executivos. Para começar, você pode exibir o vídeo do construtor de cartão de pontuação dos painéis do Adobe Analytics:
 

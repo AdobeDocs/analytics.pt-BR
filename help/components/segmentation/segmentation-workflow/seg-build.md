@@ -3,14 +3,62 @@ description: O Construtor de segmentos fornece uma tela para arrastar e soltar D
 title: Construir segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '2063'
 ht-degree: 96%
 
 ---
 
-# Construtor de segmentos
+# Construtor de segmentos {#segment-builder}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_createaudience"
+>title="Criar público-alvo"
+>abstract="Os públicos-alvo podem ser criados a partir de um filtro e compartilhados com a Adobe Experience Platform para ativação."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_datapreview"
+>title="Visualização de dados"
+>abstract="Compara os dados desse filtro com os da visualização de dados. A porcentagem de visualização é baseada no número total na visualização de dados dos **últimos 90 dias**.<br><br/>Se a visualização não estiver carregando, a conexão ainda pode estar preenchendo os dados."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_repeating"
+>title="Repetição"
+>abstract="Inclui instâncias e valores persistentes da dimensão."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_instance"
+>title="Instância"
+>abstract="Inclui instâncias e valores persistentes da dimensão."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_nonrepeatinginstance"
+>title="Instância de não repetição"
+>abstract="Inclui as instâncias exclusivas (não repetidas) da dimensão."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
 
 O [!UICONTROL Construtor de segmentos] permite que você construa segmentos simples ou complexos que identificam atributos e ações do visitante e ocorrências da página. Fornece uma tela para arrastar e soltar dimensões de métrica, eventos, ou outros segmentos na ordem para visitantes de segmento com base em lógica, regras e operadores de hierarquia.
 

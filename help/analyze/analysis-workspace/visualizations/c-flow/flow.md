@@ -5,14 +5,35 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 93%
 
 ---
 
-# Visão geral do fluxo
+# Visão geral do fluxo {#flow}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_button"
+>title="Fluxo"
+>abstract="Crie uma visualização para exibir o fluxo de pessoas de um ponto de verificação para o próximo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_panel"
+>title="Fluxo"
+>abstract="Analise o fluxo de visitas ou visitantes de um ponto de contato para o próximo.<br/><br/>**Parâmetros **<br/>**Começa com**: adicione uma dimensão, item de dimensão ou métrica para ver os principais pontos de contato após a ocorrência do componente selecionado.<br/>**Contém**: adicione uma dimensão ou item de dimensão para ver os principais pontos de contato antes e depois da ocorrência do componente selecionado.<br/>**Termina com**: adicione uma dimensão, item de dimensão ou métrica para ver os principais pontos de contato antes da ocorrência do componente selecionado.<br/>**Dimensão de definição de caminho**: adicione uma dimensão para usar como caminho conduzindo ou saindo do componente selecionado."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artigo documenta a Visualização de fluxo no **Adobe Analytics**.<br/>Consulte [Fluxo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) para a versão **Customer Journey Analytics**deste artigo.*
+
+>[!ENDSHADEBOX]
 
 O recurso Fluxo mostra os caminhos do cliente pelos seus sites e aplicativos.
 
