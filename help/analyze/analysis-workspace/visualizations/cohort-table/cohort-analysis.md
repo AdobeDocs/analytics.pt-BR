@@ -4,10 +4,10 @@ description: Saiba mais sobre os dados do seu público-alvo e os divida em grupo
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 89%
+source-wordcount: '582'
+ht-degree: 86%
 
 ---
 
@@ -64,7 +64,9 @@ Vídeo sobre tabelas de coorte no Analysis Workspace:
 
 ## Recursos da análise de coorte
 
-Os seguintes recursos permitem o controle ajustado dos coortes que você está criando:
+As seções a seguir descrevem os recursos da Análise de coorte, que permitem o controle ajustado das coortes que você está criando.
+
+Para obter informações mais detalhadas sobre como criar uma coorte e executar um relatório de [!UICONTROL Análise de coorte], consulte [Configurar um relatório de Análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
 ### Tabela de [!UICONTROL retenção]
 
@@ -103,5 +105,3 @@ Mede o tempo decorrido antes e depois da ocorrência do evento de inclusão. Ess
 Crie coortes com base em uma dimensão selecionada, em vez de coortes com base em tempo, que são o padrão. Use dimensões como [!UICONTROL canal de marketing], [!UICONTROL campanha], [!UICONTROL produto], [!UICONTROL página], [!UICONTROL região] ou qualquer outra dimensão no Adobe Analytics para mostrar como a retenção é alterada com base nos diferentes valores dessas dimensões.
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-Para obter instruções sobre como configurar e executar um relatório de coorte, acesse [Configurar um relatório de análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).

@@ -5,7 +5,7 @@ title: Executar um relatório de análise de coorte
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 95%
@@ -32,7 +32,11 @@ Crie uma coorte e execute um relatório de [!UICONTROL Análise de coorte] no An
 
 1. (Opcional) Ajuste as **[!UICONTROL Configurações da tabela de coorte]** clicando no ícone de engrenagem.
 
-   | Configuração | Descrição | | Mostrar apenas porcentagem| Remove o número e mostra somente a porcentagem. | | Porcentagem arredondada para o inteiro mais próximo | Arredonda o valor percentual para o inteiro mais próximo em vez de mostrar o valor decimal. | | Mostrar linha de porcentagem média | Insere uma nova linha na parte superior da tabela e adiciona a média para os valores dentro de cada coluna. |
+   | Configuração | Descrição |
+   |--- |--- |
+   | Mostrar somente a porcentagem | Remove o valor do número e mostra somente a porcentagem. |
+   | Arredondar porcentagem ao inteiro mais próximo | Arredonda o valor percentual para o inteiro mais próximo em vez de mostrar o valor decimal. |
+   | Mostrar linha de porcentagem média | Insere uma nova linha na parte superior da tabela e adiciona a média para os valores dentro de cada coluna. |
 
 ## Criar o relatório de [!UICONTROL análise de coorte]
 
