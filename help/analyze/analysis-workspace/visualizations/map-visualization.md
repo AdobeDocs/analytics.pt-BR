@@ -8,7 +8,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: de489dda1c2627ccb263ac496f8abb2794854856
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_bubbles"
 >title="Propagações"
->abstract="Plotar eventos usando bolhas."
+>abstract="Marque eventos usando bolhas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,7 +39,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
 >title="Mapa de calor"
->abstract="Plotar eventos usando um mapa de calor."
+>abstract="Marcar eventos usando um mapa de calor."
 
 <!-- markdownlint-enable MD034 -->
 
