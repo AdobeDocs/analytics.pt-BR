@@ -4,10 +4,10 @@ title: Rosca
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 76%
+source-wordcount: '93'
+ht-degree: 75%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-*Este artigo documenta a visualização de Rosca no **Adobe Analytics**.<br/>Consulte [Rosca](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/donut) para a versão **Customer Journey Analytics**deste artigo.*
+_Este artigo documenta a visualização de Rosca no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Rosca](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/donut) para a_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versão deste artigo._
 
 >[!ENDSHADEBOX]
 

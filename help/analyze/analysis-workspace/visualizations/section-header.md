@@ -3,9 +3,10 @@ title: Cabeçalho de seção
 description: Uma visualização que insere um cabeçalho de seção no projeto do Workspace.
 feature: Visualizations
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '95'
 ht-degree: 13%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 13%
 >[!BEGINSHADEBOX]
 
 
-*Este artigo documenta a visualização do cabeçalho da Seção no **Adobe Analytics**.<br/>Consulte [Cabeçalho da seção](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) para a versão **Customer Journey Analytics**deste artigo.*
+_Este artigo documenta a visualização do cabeçalho da Seção no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte o [Cabeçalho da seção](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) da_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versão deste artigo._
 
 >[!ENDSHADEBOX]
 

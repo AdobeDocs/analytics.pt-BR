@@ -4,7 +4,7 @@ description: Como usar e interpretar o painel Público-alvo médio por minuto de
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 30%
@@ -33,7 +33,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-*Este artigo documenta o painel Audiência média por minuto da mídia em **Customer Journey Analytics**.<br/>Consulte o [painel Audiência média por minuto da mídia](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) para a versão **Adobe Analytics**deste artigo.*
+_Este artigo documenta o painel Audiência média por minuto da mídia em **Customer Journey Analytics**.<br/>Consulte o [painel Audiência média por minuto da mídia](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) para a versão **Adobe Analytics** deste artigo.*
 
 >[!ENDSHADEBOX]
 

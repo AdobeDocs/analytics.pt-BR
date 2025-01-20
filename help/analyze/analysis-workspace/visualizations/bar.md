@@ -5,10 +5,10 @@ uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 77%
+source-wordcount: '165'
+ht-degree: 76%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-*Este artigo documenta as visualizações de Barra e Barra empilhadas no **Adobe Analytics**.<br/>Consulte [Barra e barra empilhada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar) para a versão **Customer Journey Analytics**deste artigo.*
+_Este artigo documenta as visualizações de Barra e Barra empilhadas no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Barra e barra empilhada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar) para a_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versão deste artigo._
 
 >[!ENDSHADEBOX]
 
