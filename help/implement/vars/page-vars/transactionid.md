@@ -4,10 +4,10 @@ description: Use essa variável para vincular dados online e offline.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 93%
+source-wordcount: '403'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ A variável `transactionID` atribui uma identificação exclusiva a uma transaç
 
 Quando você configura `transactionID` em uma ocorrência, a Adobe captura uma &quot;imagem&quot; de todas as variáveis do Analytics definidas ou mantidas até o momento. Os dados carregados por meio das Fontes de Dados com um ID de transação correspondente são permanentemente vinculados a esses valores de variáveis.
 
-Por padrão, a Adobe lembra de todos os valores de IDs de transação (vinculados e desvinculados) por até 90 dias. Se o processo de interação offline for superior a 90 dias, entre em contato com o Atendimento ao cliente para ampliar esse limite.
+O Adobe lembra de todos os valores de IDs de transação (vinculados e desvinculados) por até 25 meses.
 
 ## ID de transação usando o SDK da Web
 

@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
+exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 27%
+source-wordcount: '527'
+ht-degree: 29%
 
 ---
 
@@ -20,10 +21,6 @@ O novo Suplemento de Report Builder do Javascript, que estava disponível inicia
 - Entre plataformas: não é mais necessário fazer logon na VM para usar o Report Builder, pois agora oferecemos suporte a PC, Mac e Excel Online
 - Menos tempo aguardando o retorno dos blocos de dados, graças à atualização da API 2.0
 - Aumentar a velocidade.
-
->[!NOTE]
->
->O agendamento da pasta de trabalho para esta versão do Report Builder no Adobe Analytics ainda não foi lançado, mas estará disponível no início de 2025. Agora você pode começar a usar pastas de trabalho que não exigem agendamento.
 
 Os usuários da ferramenta Report Builder herdado podem [converter pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para o novo Report Builder.
 

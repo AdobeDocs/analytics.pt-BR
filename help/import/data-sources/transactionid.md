@@ -4,9 +4,9 @@ description: Saiba mais sobre o fluxo de trabalho geral do uso de fontes de dado
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '413'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ Ao enviar uma ocorrência online que contém um valor [`transactionID`](/help/im
 As fontes de dados de ID de transação têm as seguintes propriedades:
 
 * Os dados online devem ser coletados e processados primeiro. Se uma fonte de dados de ID de transação for carregada antes de um conjunto de relatórios processar uma ocorrência correspondente a essa ID de transação, os dados não serão vinculados.
-* As IDs de transação coletadas até o AppMeasurement expiram após aproximadamente 90 dias. Se sua organização exigir uma janela de ID de transação mais longa, entre em contato com o Atendimento ao cliente da Adobe.
+* As IDs de transação coletadas por meio do AppMeasurement expiram após 25 meses.
 * As fontes de dados carregadas com uma ID de transação expirada são tratadas de forma semelhante aos dados carregados sem uma ID de transação.
 * Se a mesma variável for incluída na ocorrência online e na fonte de dados da ID de transação, o valor da fonte de dados da ID de transação será usado.
 * Se uma variável for incluída em uma ocorrência online, mas não em uma ocorrência de fonte de dados de ID de transação correspondente, a variável de ocorrência online será preservada.
