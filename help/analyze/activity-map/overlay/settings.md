@@ -1,53 +1,56 @@
 ---
-description: O painel Configuração do Activity Map permite modificar as configurações e propriedades para todos os tipos de visualizações de sobreposição.
+description: Modifique as configurações e propriedades para todos os tipos de visualizações de sobreposição no Activity Map.
 title: Definir configurações do Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: ba10ceb73d953ff495613d02dd1ff825b6e518df
+source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 48%
+source-wordcount: '562'
+ht-degree: 4%
 
 ---
 
 # Definir configurações do Activity Map
 
-O painel Configuração do Activity Map permite modificar as configurações e propriedades para todos os tipos de visualizações de sobreposição.
+O painel Configuração de Activity Map permite modificar as configurações e propriedades para todos os tipos de visualizações de sobreposição.
 
-Acesse o painel Configurações do Activity Map, clicando no ícone de engrenagem na barra de ferramentas do Activity Map.
+**[!UICONTROL Sobreposição de Activity Map]** > **Mostrar configurações (ícone de engrenagem)** > **[!UICONTROL Configurações]**
 
-## Configurações gerais {#section_697A12F099494D699A4BF498598178C5}
+## Configurações gerais
 
-| Configuração | Descrição |
-| --- | --- |
-| **[!UICONTROL Empresas]** | Selecione a empresa de logon aplicável. |
-| **[!UICONTROL Conjunto de relatórios]** | A lista de conjuntos de relatórios que você pode acessar não é mais limitada aos conjuntos de relatórios definidos na tag de página da web. Agora você pode substituir o conjunto de relatórios selecionado (correspondente a uma das tags na página) por outro conjunto de relatórios. Não é necessário que o novo conjunto de relatórios corresponda a uma tag na página. Se você alterar o conjunto de relatórios selecionado nas Configurações de Activity Map, o processo para Salvar fará com que todos os relatórios do Analytics afetados sejam atualizados.<br>**Importante**: [!UICONTROL Os conjuntos de relatórios virtuais] não são compatíveis com o [!UICONTROL Modo Online], somente com o [!UICONTROL Modo Padrão]. Se você estiver no [!UICONTROL Modo Online] para um Conjunto de Relatórios Padrão, mas selecionar um [!UICONTROL Conjunto de relatórios virtuais] nesta caixa de diálogo, após clicar em **[!UICONTROL OK]** aqui, o Modo Padrão será exibido. Além disso, o controle Calendário é reinicializado para corresponder ao tipo de calendário do conjunto de relatórios (gregoriano, varejo, personalizado...). |
-| **[!UICONTROL Nome da página]** | A página à qual essas configurações se aplicam. |
-| **[!UICONTROL Idioma]** | A seleção corresponde aos idiomas oferecidos para o Adobe Analytics. |
-| **[!UICONTROL Sobreposições de Rótulo com]** | <ul><li>**[!UICONTROL Sem Rótulo]**: aplicável somente para a sobreposição de gradiente. Nesse caso, a cor da sobreposição transmite um sentido para a classificação do link</li><li>**[!UICONTROL Valor]**: o total bruto da métrica para esse link</li><li>**[!UICONTROL Porcentagem]**: a porcentagem da métrica para esse link na métrica total da página.</li><li>**[!UICONTROL Classificação]**: classificação desse link em todos os links presentes na página renderizada</li></ul> |
-| **[!UICONTROL Tamanho da fonte do rótulo]** | Permite aumentar/diminuir o tamanho da fonte do rótulo de sobreposição, usando um controle deslizante para melhorar a leitura. |
-| **[!UICONTROL Cor de Gradiente/Bolha]** | Para exibir as classificações do link de sobreposição para as visualizações de sobreposição de Gradiente ou em Bolha, selecione entre uma variedade de cores. |
-| **[!UICONTROL Gradiente colorido com base em]** | <ul><li>**[!UICONTROL 30 principais classificações]**: a intensidade da cor é normalizada para os 30 valores principais.</li><li>**[!UICONTROL Valor absoluto da métrica]**: a intensidade da cor é uma função do valor absoluto da métrica.</li></ul> |
-| **[!UICONTROL Transparência do gradiente]** | Selecione o nível de transparência para as sobreposições de Gradiente. Esta configuração não afeta as sobreposições de [!UICONTROL Bolha]. |
+Altere as configurações gerais da extensão e as sobreposições.
 
-## Configurações padrão {#section_24DB95376E1A448494ECF3F57743FC19}
+* **[!UICONTROL Empresas]**: mostra a organização atual do Analytics na qual você está conectado.
+* **[!UICONTROL Nome da página]**: mostra o nome da página atual.
+* **[!UICONTROL Idioma]**: altera o idioma para rótulos de extensão do Activity Map. Essa configuração não altera o conteúdo do site nem os nomes dos links nos relatórios. Os idiomas suportados incluem inglês, francês, chinês (simplificado), chinês (tradicional), alemão, japonês, coreano, espanhol e português.
+* **[!UICONTROL Sobreposições de rótulo com]**: determina o texto da bolha ou do gradiente. A configuração padrão é [!UICONTROL Rank]. As opções incluem: 
+   * **[!UICONTROL Nenhum rótulo]**: nenhum texto nos rótulos, tornando-os caixas coloridas
+   * **[!UICONTROL Valor]**: exibe o número de cliques em links ([Ocorrências](/help/components/metrics/occurrences.md))
+   * **[!UICONTROL Percentual]**: exibe a proporção de cliques em links em comparação ao número total de cliques em links na página
+   * **[!UICONTROL Classificação]**: a classificação numérica do link por número de cliques no link.
+* **[!UICONTROL Tamanho da fonte do rótulo]**: determina o tamanho do texto dentro da bolha ou do gradiente.
+* **[!UICONTROL Cor do gradiente]**: permite alterar a cor do gradiente quando o tipo de visualização é [!UICONTROL Gradiente].
+* **[!UICONTROL Cor da bolha]**: permite alterar a cor da bolha quando o tipo de visualização é [!UICONTROL Bolha].
+* **[!UICONTROL Gradiente de cor com base em]**: determina em qual métrica a intensidade de cor de um link se baseia quando o tipo de visualização é [!UICONTROL Gradiente].
+   * **[!UICONTROL 30 principais classificações]**: a intensidade da cor é normalizada para os 30 links principais.
+   * **[!UICONTROL Valor absoluto da métrica]**: a intensidade da cor é uma função do valor absoluto da métrica.
+* **[!UICONTROL Transparência do gradiente]**: determina a transparência das sobreposições do gradiente quando o tipo de visualização é [!UICONTROL Gradiente]. Esse controle deslizante permite que você torne a sobreposição de cor totalmente transparente, completamente opaca ou em qualquer lugar intermediário.
 
-Essas configurações se aplicam à sobreposição de modo padrão.
+## Configurações padrão
 
-| Configuração | Descrição |
-| --- | --- |
-| **[!UICONTROL Filtragem Dinâmica de Dados]** | Essa lista suspensa permite mostrar sobreposições para<ul><li>(padrão) Todos os links na página</li><li>O número superior (mais alto) ou inferior (mais baixo) de links classificados na página, em que # pode ser uma opção de 1, 10, 50 ou 100.</li></ul> |
-| **[!UICONTROL Ocultar as sobreposições para links que não receberam visitas]**. | Uma caixa de seleção que alterna a visibilidade de sobreposições para links sem dados.<ul><li>(padrão) Se a caixa de seleção estiver marcada, nenhuma sobreposição será exibida quando um link não tiver dados de link do Activity Map.</li><li>Se a caixa de seleção estiver desmarcada, e um link não tiver dados de link do Activity Map, uma sobreposição será exibida e terá um rótulo &quot;-&quot;, o que significa N/D (não aplicável). |
+Ajuste as configurações para a exibição padrão.
 
-## Configurações em tempo real {#section_D30F6E62FB5D404090B588F396A460AF}
+* **[!UICONTROL Filtragem dinâmica de dados]**: permite alterar os links exibidos.
+   * **[!UICONTROL Superior]**: exibe os links mais populares. Use a lista suspensa numérica à direita para determinar o número de links principais a serem exibidos. As opções incluem 1, 10, 50 e 100.
+   * **[!UICONTROL Inferior]**: exibe os links menos populares com base na lista suspensa de números. Use a lista suspensa numérica à direita para determinar o número de links inferiores a serem exibidos. As opções incluem 1, 10, 50 e 100.
+   * **[!UICONTROL Todos os links]**: não aplicar a filtragem de dados dinâmicos. A lista suspensa numérica não se aplica quando essa opção é selecionada.
+* **[!UICONTROL Ocultar as sobreposições para links que não receberam visitas]**: os links na página com zero cliques em links não mostram uma sobreposição. Esses links são excluídos da filtragem de dados dinâmicos.
 
-Essas configurações se aplicam à sobreposição em modo Online.
+## Configurações em tempo real
 
-| Configuração | Descrição |
-|---|---|
-| **[!UICONTROL Exibir os principais]** | Para exibir os **[!UICONTROL Ganhadores]** ou **[!UICONTROL Perdedores]** (ou ambos) como sobreposições, selecione o número de links. |
-| **[!UICONTROL Excluir os inferiores (%)]** | Selecione para eliminar os links de Ganhadores-Perdedores com dados insuficientes. Para mostrar ganhos ou perdas relevantes, filtre a porcentagem inferior das alterações do link para exibir apenas os links com dados suficientes. A porcentagem é calculada com base no número de links na página. Por exemplo, filtrar os 10% inferiores de uma lista de 200 links filtraria os 20 links inferiores. |
-| **[!UICONTROL Atualização automática de dados]** | Permite decidir se os dados do Analytics mostrados na interface são atualizados automaticamente quando um novo período é calculado. |
-| **[!UICONTROL Período de atualização automática]** | Quando selecionado, atualiza a página da Web a cada nova recuperação de dados para que os links na página possam ser sincronizados juntamente com os dados coletados. |
+* **[!UICONTROL Exibir primeiros]**: exibe o primeiro número de ganhadores ou perdedores com base na lista suspensa numérica à esquerda.
+* **[!UICONTROL Excluir inferior (%)]**: filtre a porcentagem inferior das alterações de link para exibir somente os links com dados suficientes para mostrar ganhos ou perdas relevantes. A porcentagem é calculada com base no número de links na página. Por exemplo, filtrar os 10% inferiores de uma lista de 200 links filtraria os 20 links inferiores.
+* **[!UICONTROL Dados de atualização automática]**: determina se os dados do Analytics mostrados na sobreposição são atualizados automaticamente quando um novo período é calculado.
+* **[!UICONTROL Período de atualização automática]**: quando marcado, atualiza a página a cada nova recuperação de dados para que os links na página sejam sincronizados mais estreitamente com os dados coletados.
