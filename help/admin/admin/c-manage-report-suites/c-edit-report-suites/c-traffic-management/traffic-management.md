@@ -1,22 +1,27 @@
 ---
-description: A página Gerenciamento de tráfego permite que você especifique as alterações no volume de tráfego esperado. Essas configurações permitem à Adobe alocar os recursos apropriados para garantir que seu tráfego possa ser rastreado e processado em tempo hábil.
+description: O Gerenciamento de tráfego permite especificar as alterações esperadas no volume de tráfego.
 title: Gerenciar tráfego
 feature: Traffic Management
 role: Admin
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 41ca3fd05290df79bb0f113df462fdbe5e6a6720
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '95'
+ht-degree: 4%
 
 ---
 
-# Visão geral de gerenciamento de tráfego
+# Gerenciamento de tráfego
 
-A página Gerenciamento de tráfego permite que você especifique as alterações no volume de tráfego esperado. Essas configurações permitem à Adobe alocar os recursos apropriados para garantir que seu tráfego possa ser rastreado e processado em tempo hábil.
+O relatório de Gerenciamento de tráfego por intervalo de datas foi substituído pela substituição de [!DNL Reports & Analytics].
 
-Para acessar o [!UICONTROL Gerenciamento de tráfego]:
+No entanto, você pode usar o Analysis Workspace para criar o relatório. Depois que o relatório for criado, salve-o e simplesmente altere o intervalo de datas e/ou o conjunto de relatórios, conforme necessário, quando precisar de um novo relatório.
 
-1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Conjuntos de relatórios]** e, em seguida, selecione um conjunto de relatórios.
+1. Inicie o Workspace.
 
-1. Clique em **[!UICONTROL Editar configurações]** > **[!UICONTROL Gerenciamento de tráfego]** > *`<selection>`*.
+1. Crie um novo projeto e selecione o conjunto de relatórios apropriado.
+
+1. Arraste a dimensão **[!UICONTROL Dia]** para a tabela de Forma livre e use a métrica **[!UICONTROL Ocorrências]**.
+
+1. Defina o intervalo de datas para o intervalo de datas desejado.
+
