@@ -3,10 +3,10 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: d7beee25af3551426eb905f0e727545de068b2d9
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 43%
+source-wordcount: '882'
+ht-degree: 42%
 
 ---
 
@@ -26,27 +26,27 @@ Essas notas de versão abrangem o período de lançamento de 15 de janeiro a mea
 
 ## Correções no Adobe Analytics
 
-A4T: AN-355602; AN-365988
-Activity Map: AN-365320
-Admin Console: AN-363884
-Ferramentas administrativas: AN-356747; AN-358776
-Advertising Analytics: AN-355488
-Analysis Workspace: AN-345318; AN-354801; AN-357052; AN-358975; AN-362886; AN-363831; AN-364124; AN-365257; AN-365319; AN-365462
-API do Analytics 1.4: AN-358059
-Classificações: AN-360049; AN-360424; AN-362208; AN-362345; AN-362560; AN-362576; AN-362633; AN-362653; AN-362762; AN-362815; AN-362881; AN-362885; AN-362973; AN-363343; AN-363558; AN-363860; AN-364239; AN-364480; AN-36451; AN-364528; AN-364548; AN-364552; AN-364585; AN-364598; AN-364715; AN-364912; AN-364997; AN-365189; AN-365197; AN-365203; AN-365431; AN-365647; AN-365794;
-Migração de componente: AN-362236; AN-365429
-Análise de contribuição: AN-360146
-Feeds de dados: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; AN-363569; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; AN-364594; AN-364995; AN-365272; AN-365519; AN-365760; AN-366152;
-API de reparo de dados: AN-362773; AN-362874
-Fontes de dados: AN-360745; AN-362202; AN-364566
-Data Warehouse: AN-361447; AN-362616; AN-364524; AN-365108
-Aplicativo móvel: AN-362856; AN-365270
-Alertas acima: AN-355594; AN-364547
-Plataforma: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
-Report Builder: AN-363478; AN-364433; AN-365610
-Gerenciador de atividades de relatórios: AN-362440
-Segmentação: AN-359921
-Regras VISTA: AN-362927
+**A4T**: AN-355602; AN-365988
+**Activity Map**: AN-365320
+**Admin Console**: AN-363884
+**Ferramentas administrativas**: AN-356747; AN-358776
+**Advertising Analytics**: AN-355488
+**Analysis Workspace**: AN-345318; AN-354801; AN-357052; AN-358975; AN-362886; AN-363831; AN-364124; AN-365257; AN-365319; AN-365462; AN-366194
+**API do Analytics 1.4**: AN-358059
+**Classificações**: AN-360049; AN-360424; AN-360745; AN-362208; AN-362345; AN-362560; AN-362576; AN-362633; AN-362653; AN-362762; AN-362815; AN-362881; AN-362885; AN-362973; AN-363343; AN-363558; AN-363860; AN-364239; AN-364480; AN-364451; AN-364528; AN-364548; AN-364552; AN-364585; AN-364598; AN-364643; AN-364715; AN-364912; AN-364997; AN-365081; AN-365189; AN-365197; AN-365203; AN-365431; AN-365647; AN-365794; AN-366546
+**Migração de componentes**: AN-362236; AN-365429
+**Análise de contribuição**: AN-360146
+**Feeds de dados**: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; AN-363569; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; AN-364594; AN-364995; AN-365127; AN-365272; AN-365519; AN-365760; AN-366152;
+**API de reparo de dados**: AN-362773; AN-362874
+**Fontes de Dados**: AN-360745; AN-362202; AN-364566
+**Data Warehouse**: AN-361447; AN-362616; AN-364524; AN-365108
+**Aplicativo móvel**: AN-362856; AN-365270
+**Alertas Excedentes**: AN-355594; AN-364547
+**Plataforma**: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
+**Report Builder**: AN-363478; AN-364433; AN-365610
+**Gerente de atividades de relatórios**: AN-362440
+**Segmentação**: AN-359921
+**Regras VISTA**: AN-362927
 
 ## Avisos importantes para administradores do Adobe Analytics {#admin}
 

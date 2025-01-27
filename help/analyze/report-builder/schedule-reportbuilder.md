@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1238'
+ht-degree: 76%
 
 ---
 
@@ -75,6 +75,19 @@ Use o botão Agendar no hub do Report Builder para criar rapidamente um agendame
 
    ![Notificação do sistema](./assets/confirmation-toast.png){width="55%"}
 
+## Agendar uma pasta de trabalho convertida {#converted}
+
+1. Agendar uma pasta de trabalho herdada [convertida](/help/analyze/report-builder/convert-workbooks.md).
+
+   Um pop-up é exibido perguntando se você deseja usar a metada de agendamento da pasta de trabalho herdada para criar uma nova tarefa agendada.
+
+1. Se você selecionar **[!UICONTROL Usar]**, o Report Builder preencherá automaticamente as informações de agendamento herdadas.
+
+1. Verifique se essas informações estão corretas e programadas.
+
+1. Se quiser enviar a pasta de trabalho em um cronograma diferente, agende uma tarefa agendada totalmente nova.
+
+
 ## Enviar a pasta de trabalho apenas uma vez
 
 Você também pode enviar a pasta de trabalho apenas uma vez.
@@ -85,7 +98,7 @@ Você também pode enviar a pasta de trabalho apenas uma vez.
 
 1. Clique em **Enviar agora**.
 
-## Exibir e editar pastas de trabalho programadas
+## Exibir e editar pastas de trabalho programadas {#view-edit}
 
 Você pode exibir e gerenciar todas as pastas de trabalho programadas em um local, na guia Pastas de trabalho.
 
@@ -107,7 +120,7 @@ Você pode exibir e gerenciar todas as pastas de trabalho programadas em um loca
 
   ![Captura de tela mostrando a lista de tarefas agendadas.](./assets/selected-workbook.png){width="40%"}
 
-## Revisar o status das tarefas programadas
+## Revisar o status das tarefas programadas {#status}
 
 A exibição do histórico permite revisar o status de cada tarefa programada. Há uma linha separada que documenta a alteração de status para cada tarefa programada. No exemplo mostrado abaixo, a *Nova programação por hora* foi iniciada em 5 de janeiro, às 15h04. Às 15h05, ela foi atualizada com êxito e enviada aos recipients. A próxima pasta de trabalho, *Pasta de trabalho incorreta*, encontrou um erro durante o processo de atualização. Se uma pasta de trabalho tiver falha de envio, a guia Histórico ajudará a solucionar o problema, mostrando onde ocorreu o erro no processo. Nesse caso, é provavelmente devido a algum erro de bloco de dados, talvez um componente ausente, que impedia a atualização bem-sucedida da pasta de trabalho.
 

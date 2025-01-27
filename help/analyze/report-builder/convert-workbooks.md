@@ -5,13 +5,13 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
-
 
 # Converter pastas de trabalho Report Builder herdadas em blocos de dados
 
@@ -55,7 +55,7 @@ Como parte da mudança para uma nova tecnologia Report Builder, você pode conve
 Agora você pode [gerenciar o bloco de dados](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Recursos de Report Builder herdados não são suportados no Novo Report Builder
+## Recursos de Report Builder herdados não são suportados no Novo Report Builder {#unsupported}
 
 Ao comparar a funcionalidade do Report Builder herdado com o novo Suplemento de Report Builder, alguma funcionalidade herdada não está mais disponível:
 
@@ -66,3 +66,7 @@ Ao comparar a funcionalidade do Report Builder herdado com o novo Suplemento de 
 - Opção de FTP para relatórios agendados
 
 - Métricas de visitantes. As métricas a seguir serão convertidas em &quot;visitantes únicos&quot;, mesmo que o resultado do relatório não seja uma correspondência exata: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` e `visitorsyearly`. Isso também se aplica a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` e `mobilevisitorsyearly`.
+
+## Agendar uma pasta de trabalho convertida {#schedule}
+
+Consulte [Agendar uma pasta de trabalho convertida](/help/analyze/report-builder/schedule-reportbuilder.md) no artigo de agendamento.
