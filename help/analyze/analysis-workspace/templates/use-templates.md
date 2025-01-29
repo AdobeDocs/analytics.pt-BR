@@ -4,9 +4,9 @@ title: Usar modelos
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: dc1744cf4816971d52364a3131a12601787d9819
+source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
 workflow-type: tm+mt
-source-wordcount: '18673'
+source-wordcount: '18672'
 ht-degree: 83%
 
 ---
@@ -1226,7 +1226,7 @@ Os seguintes modelos estão disponíveis:
 | **Referenciadores** | Veja em quais URLs os(as) visitantes estavam quando clicaram para acessar o seu site. (Deve haver um link no URL externo e o(a) visitante precisa clicar nele para que o item de dimensão seja exibido.)  <p>**Isso pode ajudar** a entender quais URLs específicos geram mais tráfego para o seu site.</p><p>**Com base no que você aprende, é possível** fazer várias coisas, como criar ou ajustar o conteúdo para alinhar-se mais aos interesses dos visitantes provenientes das principais URLs. </p><p>Este modelo usa a dimensão Domínio de referência </p><p>Esse modelo usa a dimensão Referenciador. </p> |
 | **Tipos de referenciador** | Veja em quais canais genéricos os(as) visitantes clicaram para acessar o seu site. A Adobe mantém as regras de cada canal. Os possíveis canais incluem mecanismos de pesquisa, redes sociais, outros sites, disco rígido ou email.<p>**Isso pode ajudar** a entender melhor qual tipo de referenciador gera mais tráfego para o site.</p><p>**Com base no que você aprendeu, é possível** fazer várias coisas, como criar ou ajustar o conteúdo para alinhá-lo mais aos interesses dos visitantes que vêm de determinado canal.</p><p>Esse modelo usa a dimensão Tipo de referenciador.</p> |
 
-## Modelos para dispositivos móveis
+### Dispositivo móvel {#mobile-not-ready-for-use}
 
 <!-- markdownlint-disable MD034 -->
 
