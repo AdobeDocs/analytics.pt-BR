@@ -7,11 +7,11 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '1132'
-ht-degree: 43%
+ht-degree: 46%
 
 ---
 
-# Painel Analytics for Target {#analyze-for-target-panel}
+# Painel do Analytics for Target {#analyze-for-target-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
->title="Painel Analytics for Target"
->abstract="Analisar atividades e experiências do Target no Analysis Workspace.<br/><br>**Parâmetros **<br/>**Atividade do Target**: a atividade do Target que é analisada.<br/>**Experiência de controle**: Experiência de controle para a atividade de Destino selecionada.<br/>**Métrica de normalização**: visitantes, visitas ou impressões. Essa métrica (também chamada de metodologia de contagem) torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”.<br/>**Métricas de sucesso**: até 3 métricas de sucesso padrão (não calculadas) para analisar a atividade do Target."
+>title="Painel do Analytics for Target"
+>abstract="Analisar atividades e experiências do Target no Analysis Workspace.<br/><br>**Parâmetros **<br/>**Atividade do Target**: a atividade do Target que é analisada.<br/>**Experiência de controle**: experiência de controle da atividade do Target selecionada.<br/>**Métrica de normalização**: visitantes, visitas ou impressões. Essa métrica (também chamada de metodologia de contagem) torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”.<br/>**Métricas de sucesso**: até 3 métricas de sucesso padrão (não calculadas) para analisar a atividade do Target."
 
 <!-- markdownlint-enable MD034 -->
 

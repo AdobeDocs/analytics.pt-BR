@@ -7,7 +7,7 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 12%
+ht-degree: 25%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Painel Resumo da página"
->abstract="Revise rapidamente algumas das métricas de alto nível, bem como o movimento de e para uma página específica.<br/><br/>**Parâmetros **<br/>**Adicionar um item de dimensão de página**: abra o painel de componentes, localize a dimensão de Página e expanda-a clicando na cenoura para ver os itens de dimensão. Em seguida, arraste e solte a página específica sobre a qual deseja aprender no construtor. Depois de arrastar e soltar o item de dimensão, o relatório é preenchido automaticamente com informações importantes sobre a página."
+>abstract="Revise rapidamente algumas das métricas de alto nível, bem como o movimento de e para uma página específica.<br/><br/>**Parâmetros **<br/>**Adicionar um item da dimensão página**: abra o painel de componentes, localize a dimensão Página e expanda-a clicando na cenoura para ver os itens de dimensão. Em seguida, arraste e solte a página específica sobre a qual deseja ter conhecimento no construtor. Depois de arrastar e soltar o item de dimensão, o relatório é preenchido automaticamente com informações importantes sobre a página."
 
 <!-- markdownlint-enable MD034 -->
 
