@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,14 @@ Como parte da mudança para uma nova tecnologia Report Builder, você pode conve
 >
 >Duplique cada pasta de trabalho e renomeie uma versão antes de convertê-la. Dessa forma, você ainda tem uma cópia da pasta de trabalho original, se necessário.
 
->[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converter pastas de trabalho](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
+
 
 1. Configure o novo Report Builder por [seguindo estas instruções](/help/analyze/report-builder/report-builder-setup.md).
 

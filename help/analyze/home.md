@@ -4,10 +4,10 @@ description: Documentação de produto e autoatendimento para o Analysis Workspa
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
-source-wordcount: '523'
-ht-degree: 100%
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,12 @@ O Guia de ferramentas do Analytics inclui informações sobre recursos do produt
 
 Para saber mais sobre as noções básicas do Adobe Analytics, assista o vídeo *Introdução ao Adobe Analytics - Webinário do construtor de habilidades* abaixo. O vídeo aborda as noções básicas de como os dados são obtidos e enviados para o Adobe Analytics, além de quais recursos de visualização podem ser usados no Adobe Analytics. O vídeo fornece uma base para criar, implantar, coletar e interpretar dados, permitindo fornecer recomendações e insights acionáveis com base nos dados coletados.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introdução ao Adobe Analytics - Webinário do Skill Builder](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"} para o webinário.
+
+>[!ENDSHADEBOX]
 
 Caso tenha dúvidas sobre qual ferramenta usar, consulte [Qual ferramenta do Adobe Analytics devo usar?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=pt-BR).
 

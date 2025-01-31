@@ -4,10 +4,10 @@ title: Perguntas frequentes e solução de problemas no Espaço de trabalho
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 91%
+source-wordcount: '549'
+ht-degree: 81%
 
 ---
 
@@ -38,35 +38,51 @@ O Analysis Workspace não é recomendado para a exportação de dados em massa. 
 +++
 
 +++Como posso otimizar o desempenho do Analysis Workspace?
+
 Consulte [Otimizar o desempenho](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
+
 +++
 
 +++Como os dados entram em seu projeto do Analysis Workspace?
-Assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
-+++ Como posso monitorar o uso do Espaço de trabalho?
++++Como posso rastrear o uso do Workspace?
 
-Assista a este vídeo sobre o uso do monitoramento de log do Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rastreamento de log](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
 +++Quando arrasto uma métrica, vejo a mensagem “Dados inválidos”. Como resolver esse problema?
+
 Dados inválidos significa que a Adobe não pode retornar dados usando a combinação de dimensões e métricas usadas no relatório. Por exemplo, duas métricas empilhadas uma sobre a outra não podem retornar como dados, pois não há como exibir duas métricas desse modo. Em vez disso, coloque as métricas lado a lado.
+
 +++
 
 +++Quando arrasto uma métrica, não vejo nenhum dado real, apenas zeros. Como posso solucionar esse problema?
+
 Se você criar um relatório de espaço de trabalho com êxito, mas não houver dados, você pode realizar as seguintes verificações:
 
 * Verifique novamente o conjunto de relatórios e veja se ele está preenchido com dados.
 * Se você aplicar um segmento no seu relatório, os critérios do segmento podem não corresponder a nenhum dado. Tente remover o segmento ou ajustar a definição do segmento.
 * Verifique o intervalo de datas no canto superior direito e verifique se ele está definido como um valor que você esperaria.
 * Acesse seu site e use o [Depurador](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR) para verificar se os dados estão sendo coletados.
+
+
 +++
 
 +++Como usuário somente leitura, que ações posso executar no Analysis Workspace?

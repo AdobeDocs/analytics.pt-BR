@@ -4,10 +4,10 @@ title: Resumo da métrica principal
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 56%
+source-wordcount: '959'
+ht-degree: 36%
 
 ---
 
@@ -29,11 +29,12 @@ _Este artigo documenta a visualização do resumo da métrica principal no_ ![Ad
 
 >[!ENDSHADEBOX]
 
-A visualização do [!UICONTROL Resumo da métrica principal] permite ver a tendência de uma métrica importante em um único período. Ela também permite comparar o desempenho da métrica em dois intervalos de tempo. Ela oferece os benefícios de várias visualizações combinadas em uma única visualização:
 
-* Visualizações de **[!UICONTROL Linha]** que mostram a tendência da métrica para os intervalos de datas principal e de comparação
+A visualização do ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric summary]** permite ver a tendência de uma métrica importante em um único período. Ela também permite comparar o desempenho da métrica em dois intervalos de tempo. Ela oferece os benefícios de várias visualizações combinadas em uma única visualização:
 
-* **[!UICONTROL Alteração percentual do resumo]**, que mostra o aumento ou a diminuição da métrica entre os intervalos de datas principal e de comparação
+* A visualização de **[!UICONTROL Linha]** mostra a tendência da métrica para os intervalos de datas principal e de comparação
+
+* **[!UICONTROL Alteração percentual do resumo]** mostra o aumento ou a diminuição da métrica entre os intervalos de datas principal e de comparação
 
 * Valor total atual ([!UICONTROL **número do resumo**]) para a métrica
 
@@ -47,20 +48,20 @@ Essa visualização aborda vários casos de uso comuns, incluindo:
 
 * Um executivo querendo entender como novas reservas mudaram este trimestre em comparação com o trimestre anterior.
 
-## Configurar o resumo da métrica principal
+## Usar
 
-1. Arraste a visualização do **[!UICONTROL Resumo da métrica principal]** do menu **[!UICONTROL Visualizações]** no painel à esquerda para um painel.
+1. Adicionar uma visualização de ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Key metric]**. Consulte [Adicionar uma visualização a um painel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
-   ![](assets/key-metric-config.png)
+1. Configure a visualização selecionando uma **[!UICONTROL Métrica]**, um **[!UICONTROL Intervalo de datas principal]**, um **[!UICONTROL Intervalo de datas de comparação]** (opcional) e um **[!UICONTROL Filtro]** (opcional):
 
-1. Configure a visualização com as seguintes opções:
+   ![Configuração da métrica principal mostrando as opções de métrica, intervalo de datas principal, intervalo de datas de comparação e segmento.](assets/key-metrics-config.png)
 
-   | Configuração | Definição |
+   | Opção | Descrição |
    | --- | --- |
    | **[!UICONTROL Métrica]** | Selecione a métrica que deseja examinar. Todas as métricas são compatíveis. |
-   | **[!UICONTROL Intervalo de datas principal]** | O intervalo de datas atual da tabela de forma livre.<p>Escolha entre qualquer intervalo de datas disponível no conjunto de relatórios.</p> <p>Escolha [!UICONTROL **Intervalo de datas do painel**] se desejar usar o mesmo intervalo de datas que está sendo usado no painel onde a visualização está localizada.</p> |
+   | **[!UICONTROL Intervalo de datas principal]** | O intervalo de datas atual da tabela de forma livre.<p>Escolha entre qualquer intervalo de datas disponível na visualização de dados.</p> <p>Escolha [!UICONTROL **Intervalo de datas do painel**] se desejar usar o mesmo intervalo de datas que está sendo usado no painel onde a visualização está localizada.</p> |
    | **[!UICONTROL Intervalo de datas de comparação]** | O intervalo de datas que você deseja comparar com o intervalo de datas principal. |
-   | **[!UICONTROL Segmento (opcional)]** | Qualquer segmento em que você esteja interessado neste resumo. |
+   | **[!UICONTROL Filtro (opcional)]** | Qualquer filtro em que você esteja interessado neste resumo. |
 
    {style="table-layout:auto"}
 
@@ -73,11 +74,9 @@ Essa visualização aborda vários casos de uso comuns, incluindo:
 
 1. Selecione **[!UICONTROL Criar]**.
 
-## Visualizar a saída
+A saída do resumo da métrica principal é semelhante a:
 
-A saída deve ser semelhante a:
-
-![](assets/key-metric-output.png)
+![Saída de métrica principal mostrando a métrica, a alteração de resumo, o número de resumo e os gráficos de linha.](assets/key-metrics.png)
 
 Considere o seguinte ao visualizar a saída:
 
@@ -87,13 +86,20 @@ Considere o seguinte ao visualizar a saída:
 
 * A partir daqui, você pode passar o mouse sobre os gráficos de linha para ver as estatísticas de dias individuais:
 
-![](assets/key-metric-output2.png)
 
-## Configurações de visualização
+## Configurar
 
-O resumo da métrica principal oferece várias configurações flexíveis para permitir gerar melhores relatórios e comunicações sobre métricas importantes. As configurações podem ser acessadas por meio do ícone de engrenagem no canto superior direito da visualização.
+Após criar a visualização, é possível editar a configuração original.
 
-![](assets/key-metric-settings.png)
+1. Selecione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Configurar visualização]** na parte superior da visualização.
+
+   Você é levado de volta à caixa de diálogo de configuração original.
+
+1. Altere as configurações como preferir. Selecione **[!UICONTROL Redefinir]** para redefinir as configurações atuais. Selecione **[!UICONTROL Build]** para recriar a visualização.
+
+## Configurações 
+
+Como parte das configurações de visualização, configurações específicas do resumo da métrica principal estão disponíveis.
 
 | Configuração | Descrição |
 | --- | --- |
@@ -101,12 +107,14 @@ O resumo da métrica principal oferece várias configurações flexíveis para p
 | **[!UICONTROL Enfatizar o valor do número]** | Exibir o número do resumo em negrito de destaque no centro da visualização |
 | **[!UICONTROL Legenda visível]** | Mostrar ou ocultar a legenda na parte inferior da visualização |
 | **[!UICONTROL Mostrar anotações]** | Mostrar ou ocultar anotações adicionadas por um administrador |
-| **[!UICONTROL Mostrar linhas cintilantes]** | Mostrar ou ocultar gráficos de linha na parte inferior do gráfico. Quando oculta, a legenda muda para não mais fazer referência visual às linhas |
-| **[!UICONTROL Mostrar mínimo e máximo em gráficos sparkline]** | Mostrar ou ocultar valores mínimos e máximos em gráficos de linha primários e de comparação |
-| **[!UICONTROL Mostrar comparação]** | Mostrar ou ocultar dados de comparação. Quando ocultos, o gráfico de linha de comparação e os objetos de alteração de resumo ficam ocultos da exibição. |
+| **[!UICONTROL Ocultar título]** | Ocultar o título da visualização. |
+| **[!UICONTROL Porcentagens]** | Exibe a visualização em uma porcentagem em vez de um número. |
+| **[!UICONTROL Mostrar linhas de tendência]** | Mostrar linhas de tendência na visualização. |
+| **[!UICONTROL Mostrar máximo e mínimo em linhas de tendência]** | Mostrar ou ocultar valores mínimos e máximos em gráficos de linha primários e de comparação |
+| **[!UICONTROL Mostrar porcentagem de comparação e linha de tendência]** | Mostrar ou ocultar dados de comparação. Quando ocultos, o gráfico de linha de comparação e os objetos de alteração de resumo ficam ocultos da exibição. |
 | **[!UICONTROL Mostrar número total]** | Mostrar ou ocultar o número do resumo |
 | **[!UICONTROL Mostrar diferença bruta]** | Mostrar ou ocultar diferença bruta entre o valor total da métrica no intervalo de datas principal e o intervalo de datas secundário |
-| **[!UICONTROL Abreviar valor]** | Abreviar valores de números para simplificar os insights comunicados (por exemplo, 20.000 -> 20K) |
+| **[!UICONTROL Abreviar valor]** | Selecione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente o valor do número. Quando selecionado, insira um número para definir a quantidade de abreviação. Por exemplo:<br/><table><tr><td>**Valor original**</td><td>**Abreviação**</td><td>**Resultado**</td></tr><tr><td>$ 12.011.141,25</td><td>Não selecionado</td><td align="right">$ 12.011.141,25</td></tr><tr><td>$ 12.011.141,25</td><td>Selecionado, definido como 1</td><td align="right">US$ 12 milhões</td></tr><tr><td>$ 12.011.141,25</td><td>Selecionado, definido como 2</td><td align="right">US$ 12,0 milhões</td></tr><tr><td>$ 12.011.141,25</td><td>Selecionado, definido como 2</td><td align="right">US$ 12,011 milhões</td></tr><tr><td>$ 12.011.141,25</td><td>Selecionar, definir como 3</td><td align="right">US$ 12,011 milhões</td></tr></table> |
 
 ## Editar visualização
 
@@ -114,8 +122,15 @@ Após criar a visualização, ainda é possível editar a configuração origina
 
 1. Clique no ícone de lápis no canto superior direito da visualização (ao lado do ícone de engrenagem de configurações).
 
-   ![](assets/edit-icon.png)
+   ![Ícone de edição de visualização](assets/edit-icon.png)
 
    Você será levado de volta à visualização da configuração original.
 
-1. Altere a métrica, o intervalo de datas principal, o intervalo de datas de comparação ou o segmento, como preferir.
+1. Altere a métrica, o intervalo de datas principal, o intervalo de datas de comparação ou o filtro, como preferir.
+
+>[!MORELIKETHIS]
+>
+>[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+

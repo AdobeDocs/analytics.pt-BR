@@ -4,10 +4,10 @@ title: Noções básicas e configuração de regras de bots
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '1668'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -31,9 +31,13 @@ Os dados do tráfego de bot são armazenados em um repositório separado para ex
 >
 >Antes de remover o tráfego de bot, você deve entrar em contato com as partes interessadas para garantir que elas possam fazer os ajustes necessários nos principais indicadores de desempenho, como resultado dessa mudança. Se possível, recomendamos que, antes, seja removido o tráfego de robô de um report suite pequeno, para estimar o potencial impacto.
 
-O vídeo a seguir demonstra como configurar regras de bot:
 
->[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurar regras de bot](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 Para atualizar ou fazer upload de regras de bot:
 
@@ -91,7 +95,7 @@ Uma condição Agente do usuário verifica o valor do agente do usuário para ve
 
 Valores opcionais podem ser inseridos na lista **[!UICONTROL não contém]** para definir valores que o agente do usuário não deve conter para uma correspondência acertada. Vários valores podem ser especificados por meio da inclusão de um valor por linha. Se o agente do usuário atender os critérios especificados na string de correspondência, mas também contiver uma string na lista de não contém, não é considerado uma correspondência.
 
-O campo **[!UICONTROL contém]** limita-se a 100 caracteres. A lista de não contém é limitada a 255 caracteres, menos um caractere separador para cada nova linha. (É igual ao número de strings - 1. Se você especificar 4 sequências *não contém*, 3 caracteres separadores serão necessários.) As correspondências de string não distinguem maiúsculas de minúsculas.
+O campo **[!UICONTROL contém]** limita-se a 100 caracteres. A lista de não contém é limitada a 255 caracteres, menos um caractere separador para cada nova linha. (É igual ao número de strings - 1. Se você especificar 4 *não contém* cadeias de caracteres, serão necessários 3 caracteres separadores.) Todas as correspondências de cadeias de caracteres não diferenciam maiúsculas de minúsculas.
 
 ### Endereço IP (inclusive correspondências curingas)
 

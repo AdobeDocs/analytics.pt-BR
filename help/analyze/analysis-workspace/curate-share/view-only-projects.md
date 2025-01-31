@@ -5,10 +5,10 @@ title: Projetos do somente para visualização
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -20,9 +20,13 @@ Observe que é possível editar o intervalo de datas do calendário do painel, m
 
 ![](assets/view-only-project.png)
 
-Veja um vídeo com uma visão geral dos projetos somente para visualização:
 
->[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Projetos somente para visualização](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 ## Interações desativadas
 

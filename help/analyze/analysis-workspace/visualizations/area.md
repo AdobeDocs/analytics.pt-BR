@@ -5,14 +5,14 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 68%
+source-wordcount: '204'
+ht-degree: 18%
 
 ---
 
-# Área e área empilhada
+# Área (empilhada)
 
 >[!BEGINSHADEBOX]
 
@@ -34,9 +34,9 @@ A visualização de área tem uma opção padrão e empilhada.
 <!-- markdownlint-enable MD034 -->
 
 
-Esta visualização do se parece com um gráfico de linhas, mas apresenta uma área colorida abaixo da linha. Use um gráfico de área quando você tiver diversas métricas e desejar visualizar a área expressa pela interseção de duas ou mais métricas.
+A visualização de ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** é como um gráfico de linhas, mas apresenta uma área colorida abaixo da linha. Adicione um gráfico de área quando tiver várias métricas e quiser visualizar a área expressa pela interseção de duas ou mais métricas.
 
-![](assets/area.png)
+![Visualização de área mostrando várias métricas](assets/area.png)
 
 ## Área empilhada {#area-stacked}
 
@@ -50,14 +50,17 @@ Esta visualização do se parece com um gráfico de linhas, mas apresenta uma á
 <!-- markdownlint-enable MD034 -->
 
 
-Esta visualização se parece com um Gráfico de área, mas cada série se inicia no topo da série anterior.
+A visualização ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]** é como uma Área, mas cada série começa no topo da série anterior.
 
-![](assets/area-stacked.png)
+![Área empilhada mostrando cada série no topo da série anterior.](assets/area-stacked.png)
 
-Uma nova configuração de visualização nas visualizações empilhadas por área transforma o gráfico em uma visualização 100% empilhada.
+Use a opção **[!UICONTROL 100% empilhado]** em ![Configuração](/help/assets/icons/Setting.svg) **[!UICONTROL Configurações]** para transformar o gráfico em uma visualização 100% empilhada.
 
-![](assets/areastacked100.png)
+![Área empilhada mostrando uma visualização 100% empilhada.](assets/area-stacked100.png)
 
-Esse é um vídeo sobre “Visualizações 100% empilhadas”:
-
->[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
+>[!MORELIKETHIS]
+>
+>[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

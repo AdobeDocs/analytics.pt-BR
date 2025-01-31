@@ -4,10 +4,10 @@ keywords: Conjunto de relatórios virtuais
 title: Criar conjuntos de relatórios virtuais
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 64%
+source-wordcount: '675'
+ht-degree: 62%
 
 ---
 
@@ -43,9 +43,12 @@ Na guia [!UICONTROL Definição de visita], defina essas configurações e cliqu
 
 ![](assets/visit-definition.png)
 
-Este é um vídeo sobre como ajustar uma definição de visita em um conjunto de relatórios virtual:
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar uma definição de visita](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
 
 | Elemento | Descrição |
 | --- |--- |

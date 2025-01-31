@@ -4,10 +4,10 @@ description: Como interagir com itens de dimensão dinâmicos e estáticos em ta
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 90%
+source-wordcount: '520'
+ht-degree: 83%
 
 ---
 
@@ -57,6 +57,11 @@ As linhas dinâmicas e estáticas se comportam de maneira diferente na linha tot
 
 ## Reordenar linhas estáticas
 
-Veja um vídeo sobre este tópico:
 
->[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reordenar linhas estáticas](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
+

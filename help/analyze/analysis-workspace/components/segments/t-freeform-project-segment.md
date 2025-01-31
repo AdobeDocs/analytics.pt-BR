@@ -4,10 +4,10 @@ title: Segmentos
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 91%
+source-wordcount: '488'
+ht-degree: 81%
 
 ---
 
@@ -25,17 +25,26 @@ Você pode criar diferentes tipos de segmentos no Espaço de trabalho, dependend
 
 ## Vídeos
 
-Usando segmentos no Analysis Workspace:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using segments in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
-Localizar e criar segmentos:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-Intervalos de datas contínuos em segmentos:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Localizar e criar segmentos](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de datas contínuos no segmento](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 ## Criar segmentos {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -47,10 +56,10 @@ Você pode criar diferentes tipos de segmentos no Analysis Workspace:
 ### Criar segmentos da lista de componentes {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 O painel de segmentos no menu Componentes mostra
-* Segmentos criados por você ou pela sua empresa
-* Modelos de segmento, conforme indicado pelo ícone da Adobe:
 
-![](assets/segment_icons.png)
+* Segmentos criados por você ou pela sua empresa
+* Modelos de segmento, conforme indicado pelo ícone Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg):
+
 
 Para criar um segmento desse tipo, você tem duas opções. Ambos levam você ao [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) no Adobe Analytics, onde você pode encontrar mais instruções.
 
@@ -65,7 +74,12 @@ ou
 
 ### Outros métodos para aplicar segmentos {#section_10FF2E309BA84618990EA5B473015894}
 
->[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Outros métodos para aplicar segmentos](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
 
 Existem vários outros métodos para aplicar os segmentos em um projeto de forma livre.
 

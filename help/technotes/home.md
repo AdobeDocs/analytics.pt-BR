@@ -3,9 +3,9 @@ title: Notas técnicas do Analytics
 description: Este guia fornece informações úteis sobre tópicos que não pertencem a uma ferramenta ou componente de análise específico.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
@@ -34,9 +34,6 @@ Alguns dos principais recursos do Adobe Analytics incluem:
 
 Em resumo, o Adobe Analytics é uma solução de análise da Web eficiente que fornece às empresas as ferramentas necessárias para medir, analisar e otimizar suas atividades de marketing digital. Com dados em tempo real, análises avançadas e modelagem de atribuição, as empresas podem tomar decisões orientadas por dados que impulsionam a transformação digital e melhoram o ROI.
 
-Veja um vídeo com uma visão geral do Adobe Analytics:
-
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Artigos principais sobre notas técnicas
 

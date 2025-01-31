@@ -3,9 +3,9 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: cf9290d0a55704015ba1a2b6fdbdde1a724276a1
+source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2504'
 ht-degree: 98%
 
 ---
@@ -44,7 +44,9 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Correlação:** não é mais usado como termo; substituído por Detalhamentos de dimensão. Em versões anteriores do Adobe Analytics, as correlações permitiam detalhar as variáveis de tráfego. Consulte [Analisar dimensões](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) no guia do usuário Analisar.
 * **Link personalizado:** um tipo de ocorrência que contém dados de exibição que não sejam de página. Consulte a [função s.tl()](../implement/vars/functions/tl-method.md) no guia do usuário Implementar. Consulte também Hit.
 * **Atributos do cliente:** um recurso da Experience Cloud que permite o upload de dados de atributos. Consulte [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR) no guia do usuário dos Serviços principais.
-* **Representante de suporte ao cliente:** um usuário designado autorizado a interagir diretamente com o Atendimento ao cliente da Adobe. Consulte [Delegados de suporte ao cliente](https://helpx.adobe.com/br/experience-cloud/supported-users.html) na Base de conhecimento da Experience Cloud.
+<!-- Cannot find a link to documentation on this role 
+* **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
+-->
 * **Servidor de coleta de dados:** servidores da Adobe que recebem e processam dados. As solicitações de imagem são enviadas aos servidores de coleta de dados da Adobe para uso nos relatórios.
 * **Data connectors:** uma solução de desenvolvimento desativada que permite a terceiros automatizar o carregamento de dados no Adobe Analytics. Os clientes desse terceiro podem usar um conector de dados para enriquecer seus dados no Adobe Analytics. Substituído pelo Adobe Exchange Marketplace.
 * **Feed de dados:** uma exportação de dados brutos que lista cada hit como uma linha e variáveis como colunas separadas. Usado mais frequentemente para exportar dados do Adobe Analytics para um banco de dados de terceiros. Consulte [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) no guia do usuário Exportar.

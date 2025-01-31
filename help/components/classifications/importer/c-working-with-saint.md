@@ -3,10 +3,10 @@ description: Use o importador para enviar suas classificações para o Adobe Ana
 title: Importador de classificações - visão geral
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,13 @@ Use o importador para enviar suas classificações para o Adobe Analytics. Você
 
 **[!UICONTROL Administração]** > **[!UICONTROL Importador de classificação]**
 
->[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importador de classificação](https://video.tv.adobe.com/v/16853?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 Os dados importados por meio da ferramenta de importação devem estar em um formato específico. A Adobe oferece a opção de fazer download de um modelo de dados com todas as devidas informações de cabeçalho em um arquivo de dados delimitado por tabulação. É possível adicionar seus novos dados a esse modelo e, então, importar o arquivo de dados no navegador, usando FTP.
 

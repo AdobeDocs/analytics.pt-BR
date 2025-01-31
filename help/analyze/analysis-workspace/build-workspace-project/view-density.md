@@ -4,10 +4,10 @@ title: Exibir densidade
 feature: Workspace Basics
 role: User, Admin
 exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,6 +27,10 @@ Para definir a densidade da exibição:
 
 1. Selecione entre as 3 opções descritas acima e clique em **[!UICONTROL Salvar]**.
 
-Veja um vídeo sobre como usar a [!UICONTROL Densidade da exibição]:
 
->[!VIDEO](https://video.tv.adobe.com/v/25963/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [View density](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+

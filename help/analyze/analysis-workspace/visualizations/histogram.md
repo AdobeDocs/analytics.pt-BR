@@ -5,10 +5,10 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 34%
 
 ---
 
@@ -31,56 +31,49 @@ _Este artigo documenta a visualização do Histograma no_ ![AdobeAnalytics](/hel
 >[!ENDSHADEBOX]
 
 
-Um histograma é semelhante a um gráfico de barras, mas agrupa os números em intervalos (grupos). O Analytics automatiza o agrupamento de números em intervalos, mas você pode alterar as configurações em [Configurações avançadas](#section_09D774C584864D4CA6B5672DC2927477).
+A visualização do ![Histograma](/help/assets/icons/Histogram.svg) **[!UICONTROL Histograma]** é semelhante a uma visualização de [!UICONTROL Barra], mas agrupa números em intervalos (compartimentos). O Analytics automatiza o agrupamento de números em intervalos, mas você pode alterar as configurações em [Configurações avançadas](#advanced-settings).
 
-Veja um vídeo sobre como usar histogramas:
-
->[!VIDEO](https://video.tv.adobe.com/v/23725/?quality=12)
-
-## Criar um histograma {#section_74647707CC984A1CB6D3097F43A30B45}
+## Usar
 
 Para criar um histograma:
 
-1. Clique em **[!UICONTROL Visualizações]** no painel à esquerda.
-1. Arraste **[!UICONTROL Histograma]** ao painel.
-1. Escolha uma Métrica para arrastar à visualização do Histograma e clique em **[!UICONTROL Criar]**.
-
-![](assets/histogram.png)
+1. Adicionar uma visualização de ![Histograma](/help/assets/icons/Histogram.svg) **[!UICONTROL Histograma]**. Consulte [Adicionar uma visualização a um painel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Arraste uma métrica da lista de componentes **[!UICONTROL Métricas]** ou selecione uma métrica do menu suspenso [!UICONTROL *Adicionar uma métrica*].
+1. (opcional) Selecione **[!UICONTROL Mostrar configurações avançadas]**. Consulte [Configurações avançadas](#advanced-settings).
+1. Selecione **[!UICONTROL Criar]**.
 
 >[!NOTE]
 >
 >Os histogramas são compatíveis apenas com métricas padrão, não calculadas.
 
-Aqui, utilizamos a Métrica de exibições de página por visitante únicos. O primeiro grupo (à esquerda) corresponde a uma exibição de página por visitante único, o segundo grupo, a duas exibições de página, etc.
+No exemplo abaixo, um histograma é usado para agrupar sessões para o número de pessoas. O histograma mostra que a maioria das pessoas tem entre 16 e 21 sessões para o intervalo de datas selecionado.
 
-![](assets/histogram2.png)
+![](assets/histogram.png)
 
-## Configurações avançadas {#section_09D774C584864D4CA6B5672DC2927477}
+## Configurações avançadas
 
-Para ajustar as configurações do histograma, clique no ícone de Configurações (“engrenagem”) no canto superior direito. Estas são as configurações que você pode modificar:
+Como parte da visualização, configurações específicas do histograma estão disponíveis.
 
-| Configurações do histograma | O que faz |
+| Configurações do histograma | Descrição |
 |---|---|
-| Grupo inicial | Determina o grupo inicial do histograma. O valor padrão é “1”. Você pode definir números iniciais de 0 a infinito (nenhum número negativo). |
-| Grupos de métricas | Permite aumentar/diminuir o número de intervalos de dados (compartimentos). O número máximo de compartimentos é 50. |
-| Tamanho do grupo de métricas | Permite definir o tamanho de cada grupo. Por exemplo, você pode alterar o tamanho do grupo de uma exibição de página para duas exibições de página. |
-| Método de contagem | Permite escolher entre [Visitante](/help/components/metrics/unique-visitors.md), [Visita](/help/components/metrics/visits.md) ou [Tipo de ocorrência](/help/components/dimensions/hit-type.md). Por exemplo, exibições de página por visita, por visitante ou por ocorrência. Para ocorrências, “Ocorrências” é usada como a métrica do eixo “y” na tabela de forma livre. |
+| **[!UICONTROL Compartimento inicial]** | Determina o grupo inicial do histograma. O valor padrão é “1”. Você pode definir números iniciais de 0 a infinito (nenhum número negativo). |
+| **[!UICONTROL Compartimentos de métrica]** | Permite aumentar/diminuir o número de intervalos de dados (compartimentos). O número máximo de compartimentos é 50. |
+| **[!UICONTROL Tamanho do bucket de métrica]** | Permite definir o tamanho de cada grupo. Por exemplo, você pode alterar o tamanho do grupo de uma exibição de página para duas exibições de página. |
+| **[!UICONTROL Método de contagem]** | Selecione de **[!UICONTROL Pessoa]**, **[!UICONTROL Sessão]** ou **[!UICONTROL Evento]**. Por exemplo, exibições de página por sessão, por pessoa ou por evento. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
 **Exemplos**:
 
-* Grupo inicial: 1; Grupos de métricas: 5; Tamanho do grupo de métricas: 2 resultará neste histograma: 1-2, 3-4, 5-6, 7-8, 9-10.
-* Grupo inicial: 0; Grupos de métricas: 3; Tamanho do grupo de métricas: 5 resultará neste histograma: 0-4, 5-9, 10-14.
+| Período inicial | Classificações de métrica | Tamanho do bucket de métrica | Resultado |
+|:----:|:--:|:--:|:--|
+| 1 | 5 | 2 | ![Histograma, bloco inicial 1, compartimentos de métrica 5, tamanho do compartimento de métrica 2](assets/histogram-1-5-2.png) |
+| 0 | 3 | 5 | ![Histograma, classificação inicial 0, classificações de métrica 3, tamanho de classificação de métrica 5](assets/histogram-0-3-5.png) |
 
-## Exibir e editar os dados do histograma {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
+>[!MORELIKETHIS]
+>
+>[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Usando histogramas para identificar valores de dados inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
-Para exibir ou alterar a fonte de dados do gráfico de histograma, clique no ponto ao lado do cabeçalho do Histograma para acessar **[!UICONTROL Configurações da fonte de dados]** > **[!UICONTROL Mostrar fonte de dados]**.
-
-![](assets/manage-data-source.png)
-
-Os segmentos pré-construídos exibidos na tabela são segmentos internos e não serão exibidos no seletor de segmentos. Clique no ícone “i” ao lado do nome do segmento e em **[!UICONTROL Tornar público]** para tornar o segmento público.
-
-![](assets/prebuilt_segments.png)
-
-Para explorar mais formas de gerenciar tabelas de dados de forma livre e outras visualizações, como detalhamento de dados, clique [aqui](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR).

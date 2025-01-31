@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -70,6 +70,11 @@ Ao comparar a funcionalidade do Report Builder herdado com o novo Suplemento de 
 >
 >Este vídeo de visão geral mostra a interface de usuário do Report Builder no Customer Journey Analytics. Algumas interfaces de usuário e terminologias diferem. Caso contrário, a experiência do usuário será idêntica.
 
->[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [visão geral de Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
 
 Você pode baixar o Report Builder da [Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview).

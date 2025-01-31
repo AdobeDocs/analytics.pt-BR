@@ -3,9 +3,9 @@ description: Segmentos sequenciais são criados por meio do operador THEN, em ve
 title: Construir segmentos sequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '3931'
+source-wordcount: '3932'
 ht-degree: 95%
 
 ---
@@ -18,9 +18,13 @@ Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou O
 
 Além disso, é possível restringir os segmentos sequenciais a uma duração de tempo, granularidade e contagens específicas entre pontos de verificação ao usar os [operadores After e Within](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
-Veja um vídeo sobre segmentação sequencial:
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentação sequencial](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 ## Incluir todos {#section_75ADDD5D41F04800A09E592BB2940B35}
 

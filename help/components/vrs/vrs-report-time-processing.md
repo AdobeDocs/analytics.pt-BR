@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 69%
+source-wordcount: '1319'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Durante o processamento de dados do Analytics, os dados fluem do pipeline de col
 
 Esta arquitetura de processamento permite opções de relatórios muito mais flexíveis. Por exemplo, você pode alterar o período de tempo limite da visita para qualquer período desejado de forma não destrutiva e essas alterações são refletidas na persistência do eVar e nos contêineres do segmento para o período de geração de relatório completo. Além disso, você pode criar qualquer número de conjuntos de relatórios virtuais, cada um com diferentes opções de Processamento de tempo do relatório com base em um mesmo conjunto de relatórios base, sem alterar os dados no conjunto de relatórios base.
 
-O [!UICONTROL Processamento de tempo do relatório] também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e que o [SDK do Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR) inicie uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
+O [!UICONTROL Processamento de tempo do relatório] também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e que o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR) inicie uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
 
 ## Opções de configuração
 
@@ -40,9 +40,14 @@ As seguintes opções de configuração estão disponíveis atualmente para conj
 * **[!UICONTROL Iniciar uma nova visita a cada inicialização do aplicativo]:** além do tempo limite de visita, é possível forçar o início de uma visita sempre que um evento de inicialização de aplicativo for gravado dos SDKs móveis, independentemente da janela de inatividade. Essa configuração afeta a métrica de visitas e o contêiner do segmento de visitas, bem como a lógica de expiração de visita nas eVars.
 * **[!UICONTROL Iniciar nova visita com evento]:** uma nova sessão começa quando um evento é acionado, independentemente de uma sessão ter ultrapassado o tempo limite. A sessão recentemente criada inclui o evento que a iniciou. Além disso, é possível usar vários eventos para começar uma sessão e uma nova sessão é acionada se qualquer um desses eventos for observado nos dados. Esta configuração afetará a contagem de visitas, o contêiner de segmentação de visitas e a lógica de expiração de visitas nas eVars.
 
-Veja um vídeo sobre como iniciar uma nova visita com um evento:
 
->[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Iniciando uma nova visita com o evento](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Limitações do Processamento de tempo de relatório
 

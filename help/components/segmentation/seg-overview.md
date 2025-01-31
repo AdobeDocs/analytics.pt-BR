@@ -3,10 +3,10 @@ description: Os segmentos permitem identificar subconjuntos de visitantes com ba
 title: Sobre segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1156'
+ht-degree: 97%
 
 ---
 
@@ -237,9 +237,14 @@ Um segmento sequencial filtra conjuntos de dados com base nas ações do usuári
 
 ## Tutorial em vídeo sobre a segmentação {#segment-video}
 
-Este vídeo oferece uma breve visão geral sobre o que são os containers de segmento e como usá-los:
+Este vídeo fornece uma breve visão geral do que são os contêineres de segmento e como usá-los.
 
->[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contêineres de segmentos](https://video.tv.adobe.com/v/ident25401ifier?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
 
 
 ## Acesse as Ferramentas de segmentação {#access}

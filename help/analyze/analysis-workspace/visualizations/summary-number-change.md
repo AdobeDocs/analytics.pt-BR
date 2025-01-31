@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 93%
+source-wordcount: '327'
+ht-degree: 50%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 93%
 
 _Este artigo documenta as visualizações Número do resumo e Alteração do resumo no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Número do resumo e alteração do resumo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para a_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versão deste artigo._
 
-Veja um vídeo sobre essas duas visualizações:
 
->[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Número do resumo e visualização de alteração do resumo](https://video.tv.adobe.com/v/335564/?quality=12){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 ## Visualização do [!UICONTROL Número do resumo] {#summary-number}
 
@@ -31,34 +35,12 @@ Veja um vídeo sobre essas duas visualizações:
 
 <!-- markdownlint-enable MD034 -->
 
-Use a visualização do [!UICONTROL Número do resumo] para realçar um número grande que seja importante em um projeto. Essa visualização se comporta das seguintes maneiras:
 
-* Seleciona o total da coluna caso nenhuma célula esteja selecionada.
-* Se alguma célula estiver selecionada, mostra o resumo dessa célula.
-* Se mais de uma célula estiver selecionada, mostra a primeira célula selecionada.
-* Se a coluna estiver selecionada, escolhe o primeiro valor de célula na coluna.
+Use a visualização ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL Alteração do resumo]** para mostrar o delta (alteração) entre dois números. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
 
-Clique na engrenagem **Configurações de visualização** no canto superior direito para definir as configurações de Número do resumo:
-
-| Configuração | Definição |
-|--- |--- |
-| [!UICONTROL Porcentagens] | Exibe porcentagens em vez de números brutos. |
-| [!UICONTROL Legenda visível] | Exibe informações sobre a métrica mostrada. |
-| [!UICONTROL Abreviar valor] | Escolha abreviar valores e mostrar até 3 casas decimais. |
-| [!UICONTROL Resumir valor por] | Opte por exibir o máximo, mínimo, médio, mediano ou soma para uma seleção de dados. |
-
-## Visualização do [!UICONTROL Alteração do resumo] {#summary-change}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_summarychange_button"
->title="Alteração de resumo"
->abstract="Crie uma visualização que mostre o delta (alteração) entre dois números"
-
-<!-- markdownlint-enable MD034 -->
-
-Use a visualização [!UICONTROL Alteração do resumo] para mostrar o delta (alteração) entre dois números. As cores verde e vermelha da [!UICONTROL Alteração do resumo] podem ser controladas por meio da [polaridade de evento personalizada](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) ou da opção de métrica calculada [Mostrar tendência ascendente como](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=pt-BR).
+<!--
+The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
+-->
 
 Essa visualização se comporta das seguintes maneiras:
 
@@ -70,14 +52,20 @@ Essa visualização se comporta das seguintes maneiras:
 * Se a coluna estiver selecionada, compara o primeiro valor a si mesmo, mostrando uma alteração de 0.
 
 
-![](assets/summary-change.png)
+![Visualização de alteração de resumo mostrando o delta entre dois números.s](assets/summary-change.png)
 
 
-Clique na engrenagem **Configurações de visualização** no canto superior direito para definir as configurações de Alteração de resumo:
+Como parte das configurações de visualização, estão disponíveis **[!UICONTROL Opções de alteração do resumo]** específicas.
 
-| Configuração | Definição |
-| --- | --- |
-| [!UICONTROL Porcentagens] | Exibe porcentagens em vez de números brutos. |
-| [!UICONTROL Legenda visível] | Exibe informações sobre a métrica mostrada. |
-| [!UICONTROL Mostrar variação percentual] | Mostra a variação percentual entre os dois números. |
-| [!UICONTROL Mostrar diferença bruta] | Mostra a diferença bruta entre 2 números. Também é possível abreviar valores e mostrar até 3 casas decimais com essa opção. |
+| Opção | Definição |
+|--- |--- |
+| **[!UICONTROL Mostrar alteração percentual]** | Mostrar a variação percentual entre os 2 números. |
+| **[!UICONTROL Mostrar diferença bruta]** | Mostrar a diferença bruta entre os 2 números. Também é possível abreviar valores e mostrar até 3 casas decimais com essa opção. |
+| **[!UICONTROL Abreviar valor]** | Selecione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente o valor alterado. Quando selecionado, insira um número para definir a quantidade de abreviação. Por exemplo:<br/><table><tr><td>**Valor original**</td><td>**Valor de abreviação**</td><td>**Resultado**</td></tr><tr><td>$ 12.011.141,25</td><td>Não selecionado</td><td  align="right">$ 12.011.141,25</td></tr><tr><td>$ 12.011.141,25</td><td>Selecionado, definido como `0`</td><td align="right">US$ 12 milhões</td></tr><tr><td>$ 12.011.141,25</td><td> Selecionado, definido como `1`</td><td  align="right">US$ 12,0 milhões</td></tr><tr><td>$ 12.011.141,25</td><td>Selecionado, definido como `2`</td><td align="right">US$ 12,01 milhões</td></tr><tr><td>$ 12.011.141,25</td><td>Selecionado, definido como `3`</td><td align="right">US$ 12,011 milhões</td></tr></table> |
+
+>[!MORELIKETHIS]
+>
+>[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

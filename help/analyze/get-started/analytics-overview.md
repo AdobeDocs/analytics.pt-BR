@@ -4,10 +4,10 @@ short-description: Conheça os principais recursos, casos de uso comuns e as pri
 title: Visão geral do Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,13 @@ Use os seguintes recursos para aprender as noções básicas do Adobe Analytics:
 
 Para saber mais sobre as noções básicas do Adobe Analytics, assista ao vídeo *Introdução ao Adobe Analytics - Webinário do construtor de habilidades*. O vídeo aborda as noções básicas de como os dados são obtidos e como são enviados para o Adobe Analytics, além de quais recursos de visualização podem ser usados no Adobe Analytics. O vídeo fornece uma base para criar, implantar, coletar e interpretar dados, permitindo fornecer recomendações e insights acionáveis com base nos dados coletados.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introdução ao Adobe Analytics - Skill Builder](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver o vídeo do webinário.
+
+>[!ENDSHADEBOX]
+
 
 Caso tenha dúvidas sobre qual ferramenta usar, consulte [Qual ferramenta do Adobe Analytics devo usar?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=pt-BR).
 

@@ -3,10 +3,10 @@ description: Permite usar o segmento em atividades de marketing na biblioteca de
 title: Segmentos Publish para Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 67%
+source-wordcount: '1308'
+ht-degree: 66%
 
 ---
 
@@ -16,15 +16,19 @@ A publicação de um segmento do Adobe Analytics no Experience Cloud permite que
 
 Você pode publicar segmentos do Analytics no Experience Cloud em menos de 8 horas. Use esses segmentos para ativar públicos-alvo no Audience Manager para todos os destinos downstream.
 
-Assista a este vídeo para obter mais detalhes:
 
->[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish segments](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >
 >O Adobe Campaign (Classic e Standard) se comporta de forma diferente, pois incorre em uma latência adicional de 24 horas acima da latência de 8 horas.
 
-## Pré-requisitos 
+## Pré-requisitos
 
 * Verifique se o conjunto de relatórios em que você está salvando este segmento está [habilitado para o Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=pt-BR). Caso contrário, não será possível publicá-lo no Experience Cloud.
 * Verifique se sua organização está usando Experience Cloud IDs.

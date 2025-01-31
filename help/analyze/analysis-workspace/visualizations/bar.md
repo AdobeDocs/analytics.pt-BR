@@ -5,14 +5,14 @@ uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 76%
+source-wordcount: '197'
+ht-degree: 23%
 
 ---
 
-# Barra e barra empilhada
+# Barra (empilhada)
 
 >[!BEGINSHADEBOX]
 
@@ -22,7 +22,7 @@ _Este artigo documenta as visualizações de Barra e Barra empilhadas no_ ![Adob
 
 A visualização de barra tem uma opção padrão e empilhada.
 
-## Barra {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
+## Barra {#bar}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -33,13 +33,14 @@ A visualização de barra tem uma opção padrão e empilhada.
 
 <!-- markdownlint-enable MD034 -->
 
-Esta visualização mostra barras verticais que representam vários valores de uma ou mais métricas.
 
-![](assets/bar.png)
+A visualização ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** mostra barras verticais que representam vários valores de uma ou mais métricas.
+
+![Visualização de barra virtual mostrando várias métricas, incluindo Exibições de página, Visitas, Entradas e Saídas.](assets/bar.png)
 
 Uma opção suspensa de granularidade nas configurações de visualização permite alterar uma visualização com tendência (por exemplo, linha, barra) de diária para semanal, mensal etc.
 
-## Barra empilhada {#section_9EA83779AE964635907EE5031A785A49}
+## Barra empilhada {#bar-stacked}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -50,14 +51,18 @@ Uma opção suspensa de granularidade nas configurações de visualização perm
 
 <!-- markdownlint-enable MD034 -->
 
-Esta visualização se parece com um gráfico de barras, mas apresenta barras de série empilhadas.
 
-![](assets/bar-stacked.png)
+A visualização ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Bar stacked]** é como um gráfico de barras, mas com as barras de série empilhadas.
 
-Uma nova configuração de visualização nas visualizações empilhadas por barra transforma o gráfico em uma visualização 100% empilhada:
+![Cartão de barras empilhadas mostrando várias métricas.](assets/bar-stacked.png)
 
-![](assets/stacked_100_percent.png)
+Use a opção **[!UICONTROL 100% empilhado]** em ![Configuração](/help/assets/icons/Setting.svg) **[!UICONTROL Configurações]** para transformar o gráfico em uma visualização 100% empilhada.
 
-Esse é um vídeo sobre “Visualizações 100% empilhadas”:
+![Um gráfico de barras 100% empilhadas.](assets/bar-stacked100.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
+>[!MORELIKETHIS]
+>
+>[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

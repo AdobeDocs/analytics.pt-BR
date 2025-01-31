@@ -4,9 +4,9 @@ title: Usar modelos
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
+source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
 workflow-type: tm+mt
-source-wordcount: '18672'
+source-wordcount: '18666'
 ht-degree: 83%
 
 ---
@@ -33,7 +33,7 @@ As informações a seguir descrevem como acessar e usar modelos na guia [!UICONT
 
    <!--update screenshot -->
 
-   ![Guia Relatórios](assets/view-prebuilt-templates.png)
+   ![Guia Relatórios](assets/view-prebuilt-templates-full.png)
 
 1. Na seção [!UICONTROL **Modelos**], selecione uma das guias a seguir:
 
@@ -45,9 +45,9 @@ As informações a seguir descrevem como acessar e usar modelos na guia [!UICONT
 
 1. Use uma das opções a seguir para alterar a exibição dos modelos disponíveis:
 
-   * Escolha se deseja exibir modelos em uma exibição de coluna ou em uma exibição de cartão selecionando o ícone exibição de coluna ![ícone de exibição de coluna](assets/column-view-icon.png) ou o ícone de exibição de cartão ![ícone de exibição de cartão](assets/card-view-icon.png).
+   * Escolha se deseja exibir modelos em uma exibição de coluna ou em uma exibição de cartão selecionando o ícone de exibição de coluna ![ViewColumn](/help/assets/icons/ViewColumn.svg) ou exibição de cartão ![Card](/help/assets/icons/Card.svg).
 
-   * Ao usar o ![ícone de exibição de cartão](assets/card-view-icon.png), escolha entre as seguintes ordens de classificação: **[!UICONTROL Mais usadas recentemente]**, **[!UICONTROL Mais populares]**, **[!UICONTROL Alfabética]**, **[!UICONTROL Categórica]**.
+   * Ao usar a exibição de cartão ![Cartão](/help/assets/icons/Card.svg), escolha entre as seguintes ordens de classificação: **[!UICONTROL Usado mais recentemente]**, **[!UICONTROL Mais popular]**, **[!UICONTROL Alfabético]**, **[!UICONTROL Categórico]**.
 
 1. No campo de pesquisa, comece digitando o nome do template que deseja localizar, em seguida, selecione-o na lista de templates. Também é possível pesquisar a lista de modelos por propriedade, eVar e número do evento. <!-- still true? -->
 
@@ -1272,3 +1272,5 @@ Os seguintes modelos estão disponíveis:
 | **Dispositivos** | Veja a marca e o modelo dos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais dispositivos móveis são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar a renderização do site para os dispositivos móveis mais comuns.</p><p>Esse modelo usa a dimensão Nome do dispositivo móvel.</p> |
 | **Tipo de dispositivo** | Veja os tipos de dispositivo móvel que as pessoas usam para acessar o seu site, como telefones e tablets.<p>**Isso pode ajudar** a entender melhor os vários tipos de dispositivo móvel usados para acessar o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar o site para os tipos de dispositivo móvel mais usados.</p><p>Esse modelo usa a dimensão Tipo de dispositivo móvel.</p> |
 | **Fabricante** | Veja quais fabricantes produzem os dispositivos móveis que as pessoas usam para acessar o seu site, como Apple e Samsung.<p>**Isso pode ajudar** a entender melhor quais fabricantes são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de diferentes fabricantes para garantir uma experiência de usuário fluida.</p><p>Esse modelo usa a dimensão Fabricante do dispositivo móvel.</p> |
+
+

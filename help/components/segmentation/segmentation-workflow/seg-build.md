@@ -3,7 +3,7 @@ description: O Construtor de segmentos fornece uma tela para arrastar e soltar D
 title: Construir segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 96%
@@ -167,9 +167,13 @@ Crie um contêiner de Visita e adicione o intervalo [!UICONTROL Últimos 60 dias
 
 ![](assets/date-ranges.png)
 
-Veja um vídeo sobre o uso de intervalos de datas contínuas em segmentos:
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de datas contínuos em segmentos](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 ## Empilhar segmentos {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

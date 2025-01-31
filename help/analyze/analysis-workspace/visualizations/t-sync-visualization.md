@@ -5,10 +5,10 @@ title: Gerenciar fontes de dados de visualização
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: de1ddbed4d455b6d05059e367369eb575a747971
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 82%
+source-wordcount: '576'
+ht-degree: 81%
 
 ---
 
@@ -30,9 +30,13 @@ O gerenciamento de uma fonte de dados permite exibir a fonte de dados ou bloquea
 
 ## Configurações de fonte de dados
 
-Veja um vídeo sobre essas configurações:
 
->[!VIDEO](https://video.tv.adobe.com/v/23729/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações de fonte de dados](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 | Elemento | Descrição |
 | --- | --- |

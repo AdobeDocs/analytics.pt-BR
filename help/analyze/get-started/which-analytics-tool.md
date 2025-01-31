@@ -3,10 +3,10 @@ description: Esta página de ajuda contém casos de uso recomendados para cada f
 title: Qual ferramenta do Adobe Analytics devo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: ht
-source-wordcount: '1220'
-ht-degree: 100%
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+workflow-type: tm+mt
+source-wordcount: '1219'
+ht-degree: 99%
 
 ---
 
@@ -16,9 +16,13 @@ Esta página de ajuda contém casos de uso recomendados para cada ferramenta do 
 
 Para obter mais informações sobre comparações de produtos do Adobe Analytics, consulte [Comparação entre produtos do Analytics](/help/analyze/get-started/analytics-product-comparison.md).
 
-Este é um vídeo que compara várias ferramentas do Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação de ferramentas](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 ## Interfaces do usuário de relatórios do Adobe Analytics {#user-interfaces}
 

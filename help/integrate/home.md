@@ -3,31 +3,40 @@ title: Integração do Analytics
 description: Saiba como integrar dados de outros locais ao Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 0eccf49810786aea385600d2ab21331f30da227c
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 76%
 
 ---
 
 # Integração do Analytics
 
-![Banner](../../assets/doc_banner_integrate.png)
-
 Este guia tem como foco a integração de várias soluções da Adobe Experience Cloud, como Audience Manager, Advertising Cloud ou Target. O serviço inclui:
 
 * **Audience Analytics:** integre o Adobe Audience Manager ao Adobe Analytics.
 * **Advertising Analytics:** consulte dados de pesquisa paga lado a lado com os dados do Adobe Analytics.
-* **Analytics para Advertising Cloud DSP**: integra o Adobe Analytics e o Adobe Advertising Cloud para estender e aprimorar os recursos de cada produto. Veja um vídeo com uma visão geral:
+* **Analytics para Advertising Cloud DSP:** integra o Adobe Analytics e o Adobe Advertising Cloud para estender e aprimorar os recursos de cada produto.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
+
 * **Analytics for Target:** o A4T integra o Adobe Analytics ao Adobe Target.
 * **Relatórios do Adobe Campaign:** integre o Adobe Analytics ao Adobe Campaign.
 * **Relatórios do AEM Assets:** permite a coleta de impressões e cliques em ativos oferecidos pelo Adobe Experience Manager.
 
-Veja um vídeo com uma visão geral do Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 ## Artigos principais de integração do Analytics
 

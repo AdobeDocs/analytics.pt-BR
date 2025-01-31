@@ -4,10 +4,10 @@ description: Instruções para administradores que são novos em uma implementa�
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 71%
+source-wordcount: '172'
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,13 @@ Você está assumindo uma implementação do Adobe Analytics do proprietário t�
 
 Veja essas dicas de Sarah Owen, sua colega proprietária técnica. Sarah é uma Adobe Analytics Champion e compartilha ideias sobre como usar o Manual de implementação herdada para assumir o controle de uma implementação existente:
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar o Manual de Implementação Herdada](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 Consulte também:
 

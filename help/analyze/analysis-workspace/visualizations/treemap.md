@@ -5,10 +5,10 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 83%
+source-wordcount: '164'
+ht-degree: 26%
 
 ---
 
@@ -29,14 +29,25 @@ _Este artigo documenta a visualização de Mapa de árvore no_ ![AdobeAnalytics]
 
 >[!ENDSHADEBOX]
 
-Exibe dados hierárquicos (estruturados em formato de árvore) como um conjunto de retângulos aninhados.
-
-Veja um vídeo sobre a visualização [!UICONTROL Treemap]:
-
->[!VIDEO](https://video.tv.adobe.com/v/334458/?quality=12)
+Use uma visualização de ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL Treemap]** para exibir dados hierárquicos (estruturados em árvore) como um conjunto de retângulos aninhados.
 
 Cada galho da árvore recebe um retângulo, que é empilhado com retângulos menores representando os sub-galhos.
 
-![](assets/treemap.png)
+![Exemplo de Mapa de árvore mostrando blocos de retângulos menores que representam sub-ramificações.](assets/treemap.png)
 
-Quando as dimensões de cor e tamanho estão correlacionadas de alguma forma com a estrutura de árvore, é possível, frequentemente, ver padrões que seriam difíceis de enxergar de outras formas, como se determinada cor é particularmente relevante. Uma segunda vantagem dos Treemaps é que eles são construídos para fazerem uso eficaz do espaço.
+Com um mapa de árvore, você pode ver padrões que seriam difíceis de detectar de outras maneiras. Usando a cor e o tamanho das dimensões, é possível descobrir como as dimensões são correlacionadas e se uma determinada dimensão é particularmente relevante. Uma segunda vantagem dos mapas de árvore é que, por construção, eles fazem uso eficiente do espaço.
+
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de Mapa de Árvore](https://video.tv.adobe.com/v/334458/?quality=12){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

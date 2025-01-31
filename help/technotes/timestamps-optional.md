@@ -5,10 +5,10 @@ title: Carimbos opcionais de data e hora
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 96%
+source-wordcount: '608'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 96%
 
 Saiba mais sobre as vantagens e desvantagens de usar a configuração Carimbos opcionais de data e hora.
 
-Veja um vídeo sobre este tópico:
 
->[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Carimbos opcionais de data e hora](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 Carimbos opcionais de data e hora é uma configuração padrão para todos os conjuntos de relatórios novos.
 

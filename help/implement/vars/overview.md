@@ -5,10 +5,10 @@ keywords: appmeasurement,variáveis,vars,configuração,página,implementação
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 69%
+source-wordcount: '385'
+ht-degree: 67%
 
 ---
 
@@ -22,11 +22,15 @@ O Analytics oferece diversas variáveis para coletar dados do Analytics. As vari
 
 ## Variáveis e métodos de implementação
 
-A Adobe oferece várias maneiras de implementar o Adobe Analytics. Cada página oferece uma seção sobre como implementar a variável usando o SDK da Web, a extensão do Adobe Analytics e o AppMeasurement para JavaScript.
+A Adobe oferece várias maneiras de implementar o Adobe Analytics. Cada página oferece uma seção sobre como implementar a variável usando o Web SDK, a extensão do Adobe Analytics e o AppMeasurement para JavaScript.
 
-Este é um vídeo sobre como configurar variáveis no Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurando variáveis](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+
+>[!ENDSHADEBOX]
+
 
 ## Ordem das operações
 
