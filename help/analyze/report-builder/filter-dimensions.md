@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 06d762614969f3557c8ccf310af266742cde9738
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 76%
+source-wordcount: '1021'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,11 @@ Por padrão, cada item de dimensão na tabela retorna os 10 itens principais par
 
 Para alterar os itens de dimensão retornados para cada dimensão
 
-1. Selecione um bloco de dados e clique em **[!UICONTROL Editar bloco de dados]** no painel COMANDOS.
+1. Clique em **[!UICONTROL Gerenciar]** e selecione um bloco de dados na lista.
+
+   ![Gerenciar > Editar bloco de dados](./assets/manage-edit.png)
+
+1. Clique em **[!UICONTROL Editar bloco de dados]** no painel COMANDOS.
 
 1. Clique em **[!UICONTROL Avançar]** para exibir a guia Dimension.
 
