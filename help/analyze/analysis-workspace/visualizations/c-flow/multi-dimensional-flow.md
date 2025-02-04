@@ -5,17 +5,16 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 97%
+source-wordcount: '340'
+ht-degree: 7%
 
 ---
 
 # Fluxos interdimensionais
 
-Um fluxo interdimensional permite examinar os caminhos do usuário em várias dimensões. Veja um vídeo sobre quebra automática de texto e fluxo multidimensional no Analysis Workspace:
-
+Um fluxo interdimensional permite analisar os caminhos do usuário em várias dimensões.
 
 >[!BEGINSHADEBOX]
 
@@ -23,51 +22,38 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fluxos inte
 
 >[!ENDSHADEBOX]
 
+Este artigo mostra como usar esse fluxo para dois casos de uso: interações e eventos de aplicativos móveis e como campanhas impulsionam visitas da Web.
 
-Um rótulo de dimensão na parte superior de cada coluna de Fluxo torna mais intuitivo o uso de várias dimensões em uma visualização de fluxo:
+## Interações e eventos do aplicativo móvel
 
-![](assets/flow.png)
+A dimensão [!UICONTROL Nome da tela] é usada neste fluxo de exemplo para ver como os usuários usam as várias telas (cenas) no aplicativo. A tela superior retornada é **[!UICONTROL luma: content: ios: en: home]**, que é a página inicial do aplicativo:
 
-Vamos analisar dois casos de uso: um de aplicativo e um da web.
+![Um fluxo mostrando o Item Adicionado.](assets/flowapp.png)
 
-## Caso de uso 1: aplicativo {#app}
+Para explorar a interação entre telas e tipos de evento (como adicionar ao carrinho, compras e outros) neste aplicativo, arraste e solte a dimensão **[!UICONTROL Tipos de evento]**:
 
-A dimensão de [!UICONTROL Nome da ação] foi adicionada ao fluxo, com os principais itens retornados sendo [!UICONTROL ItemAdded]:
+* Sobre qualquer etapa disponível no fluxo, para substituir essa dimensão:
 
-![](assets/multi-dimensional-flow.png)
+  ![Um fluxo mostrando a dimensão Página arrastada para as várias áreas.](assets/flowapp-replace.png)
 
-Para explorar a interação entre telas/páginas e ações neste aplicativo, você pode arrastar a dimensão de página a diferentes locais, dependendo do que você deseja explorar:
+* Fora da visualização de fluxo atual, para adicionar a dimensão:
 
-* Arraste-o para uma área (dentro do retângulo com margens pretas exibido) para **substituir** os resultados principais nos finais:
+  ![Um fluxo mostrando a dimensão Página arrastada para o espaço em branco no final.](assets/flowapp-add.png)
 
-  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+A visualização de fluxo abaixo mostra o resultado da adição da dimensão **[!UICONTROL Tipos de evento]**. A visualização fornece insights sobre como os usuários de aplicativos móveis se movem por várias telas no aplicativo antes de adicionar produtos ao carrinho, fechar o aplicativo, receber uma oferta e muito mais.
 
-* Arraste para o espaço branco no final (observe o colchete preto) para **adicionar à** visualização:
+![Um fBaixo mostrando os resultados da dimensão Página no topo da lista.](assets/flowapp-result.png)
 
-  ![](assets/multi-dimensional-flow4.png)
+## Como as campanhas impulsionam as visitas da Web
 
-Aqui está o resultado se você decidir substituir o item ItemScaled na coluna da direita com a dimensão de Página. Os principais resultados são substituídos para os principais resultados para a dimensão de Página:
+Você deseja analisar quais campanhas direcionam visitas ao site. Você cria uma visualização de fluxo com o **[!UICONTROL Nome da campanha]** como a dimensão
 
-![](assets/multi-dimensional-flow5.png)
+![Dimensão do nome da campanha da Web de fluxo](assets/flowweb.png)
 
-Agora você pode ver como os clientes se movem pelas ações e páginas. Você pode explorar o fluxo, clicando em diferentes nós:
+Substitua a última dimensão **[!UICONTROL Nome da Campanha]** pela dimensão **[!UICONTROL Nome da Página Formatada]** e adicione outra dimensão **[!UICONTROL Nome da Página Formatada]** ao final da visualização de fluxo.
 
-![](assets/multi-dimensional-flow6.png)
+![Nome da campanha da Web de fluxo e dimensão da página da Web](assets/flowweb-replace.png)
 
-É isso que acontece ao adicionar outra dimensão de Nome de ação no final da visualização:
+Você pode passar o mouse sobre qualquer um dos fluxos para ver mais detalhes. Por exemplo, quais campanhas resultaram em um check-out no carrinho.
 
-![](assets/multi-dimensional-flow7.png)
-
-Isso permitirá insights aprofundados e possíveis alterações ao aplicativo que você está analisando.
-
-## Caso de uso 2: web {#web}
-
-Este caso de uso mostra como você pode analisar quais campanhas impulsionam a maioria das entradas em um site.
-
-Arraste a dimensão de Nome da campanha para um novo fluxo:
-
-![](assets/multi-dimensional-flow8.png)
-
-Agora, quero saber para quais páginas essas campanhas estão impulsionando tráfego, então, arrasto a dimensão de Página à direita dos resultados de fluxo para adicionar à visualização:
-
-![](assets/multi-dimensional-flow9.png)
+![Focalizar o nome da campanha da Web de fluxo e a dimensão da página da Web](assets/flowweb-hover.png)

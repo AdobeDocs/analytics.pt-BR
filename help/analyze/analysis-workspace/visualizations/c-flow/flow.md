@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 87%
+source-wordcount: '290'
+ht-degree: 83%
 
 ---
 
@@ -57,13 +57,10 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizaç
 
 Cada coluna pode exibir uma dimensão diferente. Arraste uma dimensão e solte em uma área para adicioná-la ao diagrama.
 
-## Configurar uma visualização de fluxo
-
-Para obter informações sobre como configurar uma visualização de fluxo, consulte [Configurar uma visualização de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
-
-## Exportar diagramas de fluxo como parte dos arquivos .CSV do projeto {#section_BACD2639A0FC4C49A75398F7D0363D9D}
-
-Os diagramas de fluxo são parte de um arquivo .CSV do projeto que podem ser criados ao acessar **[!UICONTROL Projeto]** > **[!UICONTROL Baixar CSV]**. Essa ação permite analisar os resultados de Fluxo no Microsoft Excel (exibidos como uma tabela) ou em outro lugar.
+>[!MORELIKETHIS]
+>
+>[Configurar uma visualização de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>
 
 
 ## Funcionalidade adicional

@@ -4,17 +4,17 @@ title: Fallout multidimensional
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 95%
+source-wordcount: '229'
+ht-degree: 21%
 
 ---
 
-# Fallout multidimensional
+# Fallout interdimensional
 
-O recurso de Fallout no Analysis Workspace permite combinar dimensões e métricas como pontos de contato em funis e fluxos de trabalho. Isso fornece maior flexibilidade ao definir as etapas de usuário que deseja investigar.
 
+O recurso de Fallout no Analysis Workspace permite combinar dimensões e métricas como pontos de contato em funis e fluxos de trabalho. Os fallouts oferecem mais flexibilidade ao definir as etapas de usuário que você deseja investigar.
 
 >[!BEGINSHADEBOX]
 
@@ -22,17 +22,16 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fallout mul
 
 >[!ENDSHADEBOX]
 
+Por exemplo, além de uma dimensão Página, é possível adicionar outros itens de dimensão (como um nome de dispositivo específico da dimensão Nome do dispositivo) a uma visualização de Fallout. A combinação de dimensões permite visualizar como as páginas e determinadas ações interagem nos caminhos dos clientes.
 
-**Exemplo**: além de, por exemplo, uma dimensão de página, você pode adicionar itens de dimensão baseados em ação a uma visualização de fallout. Isso permite visualizar como as páginas e determinadas ações interagem nos caminhos dos clientes.
-
-![](assets/interdimensional-fallout1.png)
+![O modo de exibição Todas as Visitas mostrando várias dimensões como pontos de contato.](assets/fallout-otherdimension.png)
 
 O fallout é atualizado de forma dinâmica e permite ver os fallouts em várias dimensões.
 
-Você também pode adicionar métricas a esta combinação. Neste exemplo, adicionamos a métrica “Foto compartilhada” para desenvolver o caminho tomado pelos clientes:
+Você também pode adicionar métricas. Por exemplo, você pode adicionar a métrica Chamada para mostrar apenas caminhos para usuários para os quais existem chamadas e que entraram em contato com a central de atendimento:
 
-![](assets/interdimensional-fallout2.png)
+![O modo de exibição Todas as Visitas mostrando a métrica adicionada: &quot;Foto Compartilhada&quot;.](assets/fallout-metrics.png)
 
-Além disso, você pode combinar diferentes dimensões e métricas em pontos de verificação AND. Basta arrastar outra dimensão ou métrica sobre uma existente:
+É possível combinar dimensões e métricas. Arraste outra dimensão ou métrica para cima de uma existente. Por exemplo, para entender o fallout de pessoas que têm uma iPhone e entraram em contato com a central de atendimento.
 
-![](assets/interdimensional-fallout3.png)
+![O modo de exibição Todas as Visitas mostrando a métrica Nome da Ação adicionada: Foto Compartilhada E Compartilhada.](assets/fallout-combined.png)
