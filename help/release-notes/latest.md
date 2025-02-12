@@ -4,9 +4,9 @@ description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d7beee25af3551426eb905f0e727545de068b2d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -38,10 +38,10 @@ Essas notas de versão abrangem o período de lançamento de 15 de janeiro a mea
 **Análise de contribuição**: AN-360146
 **Feeds de dados**: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; AN-363569; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; AN-364594; AN-364995; AN-365127; AN-365272; AN-365519; AN-365760; AN-366152;
 **API de reparo de dados**: AN-362773; AN-362874
-**Fontes de Dados**: AN-360745; AN-362202; AN-364566
+**Fontes de dados**: AN-360745; AN-362202; AN-364566
 **Data Warehouse**: AN-361447; AN-362616; AN-364524; AN-365108
 **Aplicativo móvel**: AN-362856; AN-365270
-**Alertas Excedentes**: AN-355594; AN-364547
+**Alertas de excesso**: AN-355594; AN-364547
 **Plataforma**: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
 **Report Builder**: AN-363478; AN-364433; AN-365610
 **Gerente de atividades de relatórios**: AN-362440
