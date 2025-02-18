@@ -8,7 +8,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 60%
+ht-degree: 62%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="Mapa"
->abstract="Essa visualização representa as métricas ao sobrepô-las em um mapa. Essa visualização é útil para identificar dados em diferentes regiões geográficas."
+>abstract="Essa visualização representa as métricas ao sobrepô-las em um mapa. Esta visualização é útil para identificar dados em diferentes áreas geográficas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -46,7 +46,7 @@ ht-degree: 60%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a Visualização de mapa no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Atualmente, não há visualização de mapa disponível em_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_Este artigo documenta a Visualização de mapa no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Atualmente, não há visualização de Mapa disponível em_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ A visualização do ![Globo](/help/assets/icons/Globe.svg) **[!UICONTROL Mapa]**
 * permite criar um mapa visual de qualquer métrica (incluindo métricas calculadas),
 * é útil para identificar e comparar dados de métrica em diferentes regiões geográficas,
 * podem suportar duas fontes de dados: latitude/longitude do uso de dispositivos móveis ou dimensão geográfica para uso na web,
-* suporta exportação de PDF e
+* oferece suporte à exportação do PDF e
 * utiliza o WebGL para exibição de gráficos. Se os drivers de gráficos não suportarem a renderização de WebGL, talvez seja necessário atualizá-los.
 
 
