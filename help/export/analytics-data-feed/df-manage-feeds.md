@@ -3,10 +3,10 @@ title: Gerenciar feeds de dados
 description: Saiba como navegar na interface do feed de dados. Descubra como criar, editar e visualizar um feed de dados.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 26%
+source-wordcount: '1229'
+ht-degree: 21%
 
 ---
 
@@ -48,7 +48,7 @@ O botão [!UICONTROL Adicionar] permite criar um novo feed. Consulte [Criar um f
 
    Ao atualizar a seção [!UICONTROL **Destino**] de um feed de dados que você está editando, você pode escolher uma conta e um local diferentes para usar no novo feed de dados nos campos suspensos [!UICONTROL **Conta**] e [!UICONTROL **Local**].
 
-   Contas e locais podem ser editados conforme descrito em [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md) e [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md). A edição de uma conta ou local afetará todos os itens associados a essa conta ou local.
+   Contas e locais podem ser editados conforme descrito em [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md) e [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md). A edição de uma conta ou local afeta todos os itens associados a essa conta ou local.
 
    As versões anteriores do gerenciador de feeds de dados permitiam criar destinos de FTP, SFTP, S3 e blob do Azure. Os destinos criados nessas versões anteriores do gerenciador de feeds de dados não podem ser editados ou copiados.
 
@@ -84,17 +84,21 @@ O botão [!UICONTROL Adicionar] permite criar um novo feed. Consulte [Criar um f
 
 1. Marque a caixa de seleção ao lado do feed de dados que você deseja copiar e selecione [!UICONTROL **Copiar**].
 
-   Direciona para [criar um novo feed](create-feed.md) com todas as configurações do feed atual. Essa opção não estará visível se mais de um feed de dados for selecionado.
+   Isso leva você a [criar um novo feed](create-feed.md) com todas as configurações do feed atual. Essa opção não estará visível se mais de um feed de dados for selecionado.
 
    Ao atualizar a seção [!UICONTROL **Destino**] de um feed de dados que você está copiando, você pode escolher uma conta e um local diferentes para usar no novo feed de dados nos campos suspensos [!UICONTROL **Conta**] e [!UICONTROL **Local**].
 
-   Contas e locais podem ser editados conforme descrito em [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md) e [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md). A edição de uma conta ou local afetará todos os itens associados a essa conta ou local.
+   Contas e locais podem ser editados conforme descrito em [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md) e [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md). A edição de uma conta ou local afeta todos os itens associados a essa conta ou local.
 
    As versões anteriores do gerenciador de feeds de dados permitiam criar destinos de FTP, SFTP, S3 e blob do Azure. Os destinos criados nessas versões anteriores do gerenciador de feeds de dados não podem ser editados ou copiados.
 
 ## Pausar um feed de dados
 
-Você pode parar o processamento do feed, definindo seu status como [!UICONTROL Inativo].
+Quando você pausa um feed de dados, ele para de processar o feed, definindo seu status como [!UICONTROL Inativo].
+
+Quando você reativa o feed depois de pausá-lo, os dados durante o tempo em que ele foi pausado são processados para feeds de preenchimento retroativo, mas não para feeds em tempo real. Para obter mais informações, consulte [Ativar um feed de dados](#activate-a-data-feed).
+
+Para pausar um feed de dados:
 
 1. No Adobe Analytics, selecione [!UICONTROL **Administrador**] > [!UICONTROL **Feeds de dados**].
 
@@ -104,17 +108,11 @@ Você pode parar o processamento do feed, definindo seu status como [!UICONTROL 
 
 Você pode ativar feeds que estão inativos.
 
-Os feeds de preenchimento retroativo (feeds que processam apenas dados históricos) retomam o processamento de dados de onde pararam, preenchendo retroativamente qualquer data, se necessário. Os feeds em tempo real também reiniciam o processamento dos dados de onde pararam.
+Quando um feed é reativado, os dados podem não ser processados automaticamente pelo tempo em que o feed ficou inativo. Se os dados são processados depende de se são um feed de preenchimento retroativo ou um feed ativo:
 
->[!AVAILABILITY]
->
->A seguinte alteração na forma como os feeds em tempo real retomam o processamento de dados está na fase de Teste limitado da versão:
-> 
->**Os feeds ao vivo retomam o processamento dos dados a partir da hora atual.**
->
->Essa alteração pode não estar disponível ainda em seu ambiente.
->
->Essa nota será removida quando essa alteração estiver disponível. Para obter informações sobre o processo de lançamento do Analytics, consulte [Versões de recursos do Adobe Analytics](/help/release-notes/releases.md).
+* **Os feeds de preenchimento retroativo** (feeds que processam apenas dados históricos) retomam o processamento de dados de onde pararam, preenchendo retroativamente quaisquer datas, se necessário.
+
+* **Feeds em tempo real** retomam o processamento dos dados a partir do momento em que são ativados. Isso significa que os dados não são processados durante o tempo em que o feed foi pausado até o momento em que foi ativado. Se você precisar dos dados durante esse período, é necessário configurar um preenchimento retroativo.
 
 Para ativar um feed de dados:
 

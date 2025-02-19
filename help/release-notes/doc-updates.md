@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '6026'
-ht-degree: 100%
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+workflow-type: tm+mt
+source-wordcount: '6071'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 * Para obter informações sobre a Coleção de mídia de streaming, consulte [Medição de áudio e vídeo no Analytics](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).
 
 ## Detalhes sobre as principais atualizações da documentação
+
+### 2025 {#year2025}
+
+| Recurso | Descrição |
+| --- | --- |
+| **Fevereiro de 2025** |  |
+| Informações atualizadas sobre como pausar e reativar um feed de dados | Ao [pausar e reativar um feed de dados](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), o comportamento dos feeds dinâmicos foi esclarecido. O processamento de dados não ocorre desde o momento em que o feed é pausado até o momento em que é reativado. |
 
 ### 2024 {#year2024}
 
