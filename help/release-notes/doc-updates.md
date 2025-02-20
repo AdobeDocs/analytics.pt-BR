@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+source-git-commit: 372792a99d124e6f09eaf0f75310f3a0125c3461
 workflow-type: tm+mt
-source-wordcount: '6071'
-ht-degree: 99%
+source-wordcount: '6237'
+ht-degree: 96%
 
 ---
 
@@ -27,6 +27,14 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Fevereiro de 2025** |  |
 | Informações atualizadas sobre como pausar e reativar um feed de dados | Ao [pausar e reativar um feed de dados](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), o comportamento dos feeds dinâmicos foi esclarecido. O processamento de dados não ocorre desde o momento em que o feed é pausado até o momento em que é reativado. |
+| Alteração do período de retenção da ID de transação   O período de retenção da ID de transação de 90 dias foi estendido para 25 meses. A variável transactionID identifica exclusivamente uma transação para que a ocorrência possa se vincular aos dados carregados por meio de Fontes de dados. Saiba mais [aqui](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) e [aqui](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en). |
+| API Livestream - Implementação do cliente | Use a [Implementação do cliente Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) para consumir dados Livestream. |
+| Atualização para API de classificações \ Agora você pode [remover campos ou chaves de classificação individuais do servidor](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/). Isso oferece uma alternativa para excluir um conjunto de dados de classificação inteiro com o método DELETE. |
+| **Janeiro de 2025** |  |
+| Referência da API de feeds de dados | A [referência para a API de Feeds de Dados](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) está disponível agora. |
+| Nova documentação sobre Agendamento na nova Report Builder | [Agendar](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder) não só permite agendar suas novas pastas de trabalho do Report Builder. Além disso, permite recuperar os metadados em tarefas agendadas antigas ao converter pastas de trabalho herdadas. |
+| Melhorias nos relatórios (também conhecidos como Modelos) no Analysis Workspace | Várias melhorias estão disponíveis para os Relatórios (também conhecidos como [Modelos](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en)) |
+
 
 ### 2024 {#year2024}
 
