@@ -4,10 +4,10 @@ description: Entenda os pré-requisitos e as limitações da compilação de dad
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 90%
+source-wordcount: '562'
+ht-degree: 80%
 
 ---
 
@@ -19,15 +19,15 @@ O Cross-Device Analytics fornece dois métodos distintos para compilar dados. Es
 
 ## Pré-requisitos específicos da compilação em campo
 
-Se você pretende implementar o Cross-Device Analytics usando a compilação em campo, as seguintes etapas são obrigatórias. Trabalhe com as equipes em sua organização e com a equipe de conta da Adobe para atender a todos os itens a seguir.
+Se você pretende implementar o Cross-Device Analytics usando a compilação em campo, as seguintes etapas são obrigatórias. Trabalhe com as equipes em sua organização e com sua equipe de conta da Adobe para atender a todos os itens a seguir.
 
 >[!WARNING]
 >
 >O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
 
 * Todos os pré-requisitos estão listados na [página de visão geral](overview.md).
-* Sua implementação deve definir uma prop ou eVar que identifique exclusivamente um indivíduo sempre que possível, como quando um usuário faz logon ou abre um email. Esse requisito se aplica a todas as plataformas, incluindo aplicativos móveis, se usados. Evite atribuir um valor padrão à prop ou eVar.
-* Comunique a variável de identificação desejada à sua equipe de conta do Adobe quando provisionado para a compilação em campo.
+* Sua implementação deve definir uma prop ou eVar que identifique exclusivamente um indivíduo sempre que possível, como quando um usuário faz logon ou abre um email. Esse requisito se aplica a todas as plataformas, incluindo aplicativos móveis, se usados.<br/>Evite atribuir um valor padrão a esta prop ou eVar. Quando 2.000 ou mais dispositivos diferentes recebem o mesmo valor padrão, a pessoa é adicionada a uma lista de &quot;pessoas inválidas&quot; e esses eventos são descartados do conjunto de relatórios virtual habilitado para CDA, resultando em análise incorreta.
+* Comunique a variável de identificação desejada à sua equipe de conta da Adobe quando provisionado para a compilação em campo.
 
 ## Limitações específicas da compilação em campo
 
