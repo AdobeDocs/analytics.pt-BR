@@ -3,9 +3,9 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 924f5f670d2f29269a5ba6623079e839f1fe8122
+source-git-commit: f738c0767a952d8c53f526056708dddf427e1880
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '697'
 ht-degree: 57%
 
 ---
@@ -24,6 +24,7 @@ Essas notas de versão abrangem o período de lançamento de 11 de fevereiro a m
 | **Referência da API dos feeds de dados** | A [referência](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) para a API de feeds de dados agora está disponível. |  | 30 de janeiro de 2025 |
 | **API Livestream - Implementação de cliente** | Use a implementação do cliente Livestream para consumir dados Livestream. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | quarta-feira, 18 de fevereiro de 2025 |
 | **Atualização para a API de classificações** | Agora é possível remover campos de classificação ou chaves individuais do servidor. Isso oferece uma alternativa para excluir um conjunto de dados de classificação inteiro com o método DELETE. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | quarta-feira, 18 de fevereiro de 2025 |
+| **Atualização para o campo de dados de contexto do Analytics`a.locale`** | Uma atualização sobre como o campo de dados de contexto do Analytics `a.locale` é definido ao coletar dados por meio da Experience Edge está agendada. Quando os dados são enviados para a Adobe Analytics usando a Experience Edge, os campos do Analytics são preenchidos com base em um mapeamento de campos XDM. O mapeamento para `c.a.locale` faz referência a um campo XDM não padrão, `xdm.environment.language`. Este campo será atualizado para fazer referência ao campo correto, `xdm.environment._dc.language`.  O mapeamento continuará fazendo referência a `xdm.environment.language` para compatibilidade com versões anteriores. Para continuidade, se ambos os campos forem definidos, `xdm.environment.language` terá prioridade. Você pode exibir a lista completa de mapeamentos do XDM para campos padrão do Analytics [aqui](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | quinta-feira, 5 de março de 2025 |
 
 
 ## Correções no Adobe Analytics
@@ -43,7 +44,6 @@ Essas notas de versão abrangem o período de lançamento de 11 de fevereiro a m
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| **Atualização futura para o campo de dados de contexto do Analytics`a.locale`** | sábado, 21 de fevereiro de 2025 | Em 5 de março de 2025, será lançada uma atualização sobre como o campo de dados de contexto do Analytics `a.locale` é definido ao coletar dados por meio do Experience Edge. Quando os dados são enviados para a Adobe Analytics usando a Experience Edge, os campos do Analytics são preenchidos com base em um mapeamento de campos XDM. O mapeamento para `c.a.locale` faz referência a um campo XDM não padrão, `xdm.environment.language`. Este campo será atualizado para fazer referência ao campo correto, `xdm.environment._dc.language`.  O mapeamento continuará fazendo referência a `xdm.environment.language` para compatibilidade com versões anteriores. Para continuidade, se ambos os campos forem definidos, `xdm.environment.language` terá prioridade. Você pode exibir a lista completa de mapeamentos do XDM para campos padrão do Analytics [aqui](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping). |
 | **Clientes de fora do Campaign perderão o acesso aos acionadores** | 16 de outubro de 2023 | Em 30 de janeiro de 2025, os clientes do Adobe Analytics que não têm uma licença do Adobe Campaign perderão o acesso à capacidade de configurar e consumir [Triggers](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/services/triggers). Os clientes precisam comprar o Campaign, planejar o fim do uso dos acionadores ou procurar outras ferramentas da Adobe que ofereçam recursos de acionador. |
 
 ## Avisos de fim da vida útil (EOL) {#eol}
