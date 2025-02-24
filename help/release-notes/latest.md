@@ -3,7 +3,7 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f738c0767a952d8c53f526056708dddf427e1880
+source-git-commit: 9fcf8871140e010d1c57c3af7004a45bd3a374a5
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 57%
@@ -24,7 +24,7 @@ Essas notas de versão abrangem o período de lançamento de 11 de fevereiro a m
 | **Referência da API dos feeds de dados** | A [referência](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) para a API de feeds de dados agora está disponível. |  | 30 de janeiro de 2025 |
 | **API Livestream - Implementação de cliente** | Use a implementação do cliente Livestream para consumir dados Livestream. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | quarta-feira, 18 de fevereiro de 2025 |
 | **Atualização para a API de classificações** | Agora é possível remover campos de classificação ou chaves individuais do servidor. Isso oferece uma alternativa para excluir um conjunto de dados de classificação inteiro com o método DELETE. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | quarta-feira, 18 de fevereiro de 2025 |
-| **Atualização para o campo de dados de contexto do Analytics`a.locale`** | Uma atualização sobre como o campo de dados de contexto do Analytics `a.locale` é definido ao coletar dados por meio da Experience Edge está agendada. Quando os dados são enviados para a Adobe Analytics usando a Experience Edge, os campos do Analytics são preenchidos com base em um mapeamento de campos XDM. O mapeamento para `c.a.locale` faz referência a um campo XDM não padrão, `xdm.environment.language`. Este campo será atualizado para fazer referência ao campo correto, `xdm.environment._dc.language`.  O mapeamento continuará fazendo referência a `xdm.environment.language` para compatibilidade com versões anteriores. Para continuidade, se ambos os campos forem definidos, `xdm.environment.language` terá prioridade. Você pode exibir a lista completa de mapeamentos do XDM para campos padrão do Analytics [aqui](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | quinta-feira, 5 de março de 2025 |
+| **Atualização para o campo de dados de contexto do Analytics`a.locale`** | Uma atualização agendada alterará a forma como o campo de dados de contexto do Analytics `a.locale` é definido ao coletar dados por meio do Experience Edge. Quando os dados são enviados para a Adobe Analytics usando a Experience Edge, os campos do Analytics são preenchidos com base em um mapeamento de campos XDM. O mapeamento para `c.a.locale` faz referência a um campo XDM não padrão, `xdm.environment.language`. Este campo será atualizado para fazer referência ao campo correto, `xdm.environment._dc.language`.  O mapeamento continuará fazendo referência a `xdm.environment.language` para compatibilidade com versões anteriores. Para continuidade, se ambos os campos forem definidos, `xdm.environment.language` terá prioridade. Você pode exibir a lista completa de mapeamentos do XDM para campos padrão do Analytics [aqui](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | quinta-feira, 5 de março de 2025 |
 
 
 ## Correções no Adobe Analytics
