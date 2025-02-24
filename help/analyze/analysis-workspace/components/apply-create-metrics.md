@@ -4,9 +4,9 @@ title: Métricas no Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '722'
 ht-degree: 30%
 
 ---
@@ -56,7 +56,7 @@ Para obter informações sobre como acessar o construtor de métricas calculadas
 
 ### Criar métricas calculadas para um único projeto
 
-Você pode criar métricas calculadas rápidas que só estão disponíveis para o projeto em que foram criadas.
+Você pode criar rapidamente uma métrica calculada que esteja disponível somente para o projeto em que foi criada.
 
 Para criar uma métrica calculada para um único projeto:
 

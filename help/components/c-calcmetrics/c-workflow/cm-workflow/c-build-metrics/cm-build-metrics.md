@@ -3,9 +3,9 @@ description: O Criador de métricas calculadas oferece uma tela para arrastar e 
 title: Criar métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1139'
 ht-degree: 43%
 
 ---
@@ -35,7 +35,7 @@ O Adobe Analytics fornece uma tela para arrastar e soltar dimensões, métricas,
 
 ## Começar a criar uma métrica calculada
 
-Você pode usar o construtor de métrica calculada para criar métricas calculadas. Quando criadas dessa forma, as métricas calculadas ficam disponíveis na lista de componentes e podem ser usadas em projetos em toda a organização. Como alternativa, crie uma métrica calculada rápida, conforme descrito em [Criar métricas calculadas para um único projeto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) em [Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Você pode usar o construtor de métrica calculada para criar ou editar métricas calculadas. Quando criadas dessa forma, as métricas calculadas ficam disponíveis na lista de componentes e podem ser usadas em projetos em toda a organização. Como alternativa, crie uma métrica calculada rápida, conforme descrito em [Criar métricas calculadas para um único projeto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) em [Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
 Acesse o construtor de métricas calculadas para começar a criar uma métrica calculada que esteja disponível na lista de componentes.
 
@@ -43,7 +43,7 @@ Acesse o construtor de métricas calculadas para começar a criar uma métrica c
 
    * No Analysis Workspace, abra um projeto e selecione **[!UICONTROL Componentes]** > **[!UICONTROL Criar métrica]**.
    * No Analysis Workspace, abra um projeto e selecione o ícone **De adição** ao lado da seção [!UICONTROL **Métricas**] no painel esquerdo.
-   * Em [!DNL Customer Journey Analytics], vá para **[!UICONTROL Componentes]** > **[!UICONTROL Métricas calculadas]** e selecione **[!UICONTROL + Adicionar]** na parte superior da página Métricas calculadas.
+   * Em [!DNL Adobe Analytics], vá para **[!UICONTROL Componentes]** > **[!UICONTROL Métricas calculadas]** e selecione **[!UICONTROL + Adicionar]** na parte superior da página Métricas calculadas.
 
 1. Continue com [Áreas do construtor de métrica calculada](#areas-of-the-calculated-metrics-builder).
 
@@ -70,7 +70,7 @@ A imagem a seguir e a tabela que a acompanha explicam algumas das principais ár
 | 13 | **Ícone de engrenagem (Tipo de métrica, Atribuição):** Selecionar o ícone de engrenagem ao lado de uma métrica permite especificar o tipo de métrica <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > e os modelos de atribuição </a>. |
 | 14 | **Novo:** Permite criar um novo componente, como um novo segmento (que leva você ao <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Construtor de segmentos </a>.) |
 | 15 | **Componentes de Pesquisa:** Essa barra de pesquisa permite procurar dimensões, métricas, segmentos (somente métricas calculadas avançadas) e funções (somente métricas calculadas avançadas). |
-| 16 | **Lista de Dimension:** Em vez de sair do Criador de métricas calculadas para criar um segmento simples (no Construtor de segmentos), por exemplo &quot;Página = Página inicial&quot;, é possível arrastar para a Página e selecionar Página inicial diretamente do Criador de métricas calculadas.<p>Isso resulta em um fluxo de trabalho mais simplificado para a criação de métricas calculadas segmentadas.</p> |
+| 16 | **Lista de Dimensões:** em vez de sair do Construtor de Métricas Calculadas para criar um segmento simples (no Construtor de Segmentos), por exemplo &quot;Página = Página Inicial&quot;, é possível arrastar para a Página e selecionar Página Inicial diretamente do Construtor de Métricas Calculadas.<p>Isso resulta em um fluxo de trabalho mais simplificado para a criação de métricas calculadas segmentadas.</p> |
 | 17 | **Lista de Métricas:** As métricas têm 3 categorias: <ul> <li>Métricas padrão (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Métricas calculadas ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Modelos de métricas ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - na parte inferior da lista. </li> </ul> <p>Ao passar o mouse sobre uma métrica, é possível ver o ícone Informações à direita: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Clicar neste ícone fornece as seguintes informações: </p><ul> <li>A fórmula de como é calculado. </li><li>Uma tendência prevista da métrica. </li><li>Um ícone de edição (lápis) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> na parte superior direita, que direcionará você ao Construtor de métricas calculadas para editar a métrica calculada. </li></ul> |
 | 18 | **Lista de segmentos:** (somente métricas calculadas avançadas) Como administrador, esta lista mostra todos os segmentos criados na sua empresa de logon. Caso você seja um usuário não administrativo, esta lista mostra os segmentos possuídos por você e compartilhados com você. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=pt-BR"  > Mais... </a> |
 | 19 | **Lista de Funções:** (apenas métricas calculadas avançadas) As funções estão divididas em duas listas: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > </a> Básicas (usadas com mais frequência) e <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > </a> Avançadas. |
