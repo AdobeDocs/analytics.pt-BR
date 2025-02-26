@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
-source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
-workflow-type: ht
-source-wordcount: '973'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 100%
       + [Gerenciar segmentos](legacy-report-builder/data-requests/segmentation.md)
       + Tipos de relatórios {#report-types}
          + [Visão geral dos tipos de relatórios](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Relatórios de caminho e fallout de caminho no Report Builder](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [Filtrar relatório de caminho com o Assistente de solicitação](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [Filtrar um relatório de fallout com o assistente de solicitação](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Filtrar relatórios de caminho ao adicionar solicitações dependentes](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)

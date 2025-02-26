@@ -4,9 +4,9 @@ description: Entenda cada item de permissão em Ferramentas do conjunto de relat
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,6 @@ Use esta página para entender cada item de permissão em Ferramentas de conjunt
 | [!UICONTROL Variáveis de conversão] | Concede acesso a Conversão > Variáveis de conversão no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Calendário personalizado] | Concede acesso a Geral > Personalizar calendário no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Relatório de Data Warehouse Personalizado] | Concede acesso a Ferramentas > Data Warehouse na navegação superior do Analytics. |
-| [!UICONTROL Visitas de Retorno Diário] | Concede acesso a Retenção de visitantes > Visitas de retorno diário no Reports &amp; Analytics. |
 | [!UICONTROL Gerenciador de Feeds de Dados] | Concede acesso a Administrador > Feeds de dados na navegação superior do Analytics. |
 | [!UICONTROL Gerenciador das fontes de dados] | Concede acesso a Administrador > Fontes de dados na navegação superior do Analytics. Exige o item de permissão &#39;Gerenciamento de conjunto de relatórios&#39;. |
 | [!UICONTROL API de reparo de dados] | Concede acesso à API de reparo de dados |
