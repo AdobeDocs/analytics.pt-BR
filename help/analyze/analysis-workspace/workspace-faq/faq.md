@@ -4,7 +4,7 @@ title: Perguntas frequentes e solução de problemas no Espaço de trabalho
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 81%
@@ -45,25 +45,13 @@ Consulte [Otimizar o desempenho](/help/analyze/analysis-workspace/workspace-faq/
 
 +++Como os dados entram em seu projeto do Analysis Workspace?
 
-
->[!BEGINSHADEBOX]
-
 Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
-
->[!ENDSHADEBOX]
-
 
 +++
 
 +++Como posso rastrear o uso do Workspace?
 
-
->[!BEGINSHADEBOX]
-
 Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rastreamento de log](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
-
->[!ENDSHADEBOX]
-
 
 +++
 
