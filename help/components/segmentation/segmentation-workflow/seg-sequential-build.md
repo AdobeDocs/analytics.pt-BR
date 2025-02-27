@@ -3,9 +3,9 @@ description: Segmentos sequenciais são criados por meio do operador THEN, em ve
 title: Construir segmentos sequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
+source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2420'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ Identifique todas as visitas em que um visitante visita uma página antes de out
 
 ## [!UICONTROL Depois] e [!UICONTROL Dentro]
 
-Você pode usar ![Relógio](/help/assets/icons/Clock.svg) **[!UICONTROL Depois]** e ![Relógio](/help/assets/icons/Clock.svg) **[!UICONTROL Dentro]** o operador **[!UICONTROL Então]** para definir [restrições de tempo](#time-constraints) ou [restrições adicionais para Ocorrências, Visitas ou Dimension](#event-session-and-dimension-constraints).
+Você pode usar ![Relógio](/help/assets/icons/Clock.svg) **[!UICONTROL Depois]** e ![Relógio](/help/assets/icons/Clock.svg) **[!UICONTROL Dentro]** o operador **[!UICONTROL Então]** para definir [restrições de tempo](#time-constraints) ou [restrições adicionais para Ocorrências, Visitas ou Dimensões](#event-session-and-dimension-constraints).
 
 ### Restrições de tempo
 
@@ -120,9 +120,9 @@ Identifique os visitantes que visitaram uma página e, em seguida, visitaram out
 Qualquer visitante que acesse a página inicial em 1 de junho de 2024 e que retorne para visitar as mulheres | Página de sapatos após 15 de junho de 2019 às 00:01, mas antes de 1 de julho de 2019, qualifique-se para o segmento.
 
 
-### Restrições de [!UICONTROL Hit], [!UICONTROL Visit] e [!UICONTROL Dimension]
+### Restrições de [!UICONTROL Ocorrência], [!UICONTROL Visita] e [!UICONTROL Dimension]
 
-As restrições ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** e ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** permitem não apenas especificar uma restrição de tempo, mas também uma restrição de ocorrência, visita ou dimensão. Selecione **[!UICONTROL Ocorrência(s)]**, **[!UICONTROL Visita(s)]** ou **[!UICONTROL Outras dimensões]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *nome do Dimension *]**. Você pode usar o campo [!UICONTROL *Pesquisa*] para procurar uma dimensão.
+As restrições ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** e ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** permitem não apenas especificar uma restrição de tempo, mas também uma restrição de ocorrência, visita ou dimensão. Selecione **[!UICONTROL Ocorrência(s)]**, **[!UICONTROL Visita(s)]** ou **[!UICONTROL Outras dimensões]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Nome do Dimension *]**. Você pode usar o campo [!UICONTROL *Pesquisa*] para procurar uma dimensão.
 
 #### Exemplo
 
@@ -299,3 +299,7 @@ Como exemplo final, você deseja identificar os visitantes que aprenderam sobre 
 
 
 ![Exemplo de segmento sequencial complexo](assets/sequential-complex.png)
+
+>[!MORELIKETHIS]
+>
+> * [Dominando Lógica Sequencial no AA e no CJA: Introdução ao THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
