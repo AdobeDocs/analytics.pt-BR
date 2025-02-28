@@ -4,10 +4,10 @@ description: Como remover bots no Adobe Analytics
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 81%
+source-wordcount: '791'
+ht-degree: 78%
 
 ---
 
@@ -39,7 +39,7 @@ Para obter mais informações, consulte o [Manual de implementação do Adobe An
 
 ## Usar uma combinação de ferramentas da Adobe
 
-Além disso, como os bots estão se modificando rapidamente, a Adobe oferece vários outros recursos avançados que, quando combinados de forma adequada e regular, podem ajudar a remover esses inimigos da qualidade dos dados. Esses recursos são: serviço de ID de Experience Cloud, segmentação, Data Warehouse, atributos do cliente e conjuntos de relatórios virtuais. Esta é uma visão geral de como você pode usar essas ferramentas.
+Além disso, como os bots estão se modificando rapidamente, a Adobe oferece vários outros recursos avançados que, quando combinados de forma adequada e regular, podem ajudar a remover esses inimigos da qualidade dos dados. Esses recursos são: Serviço da Experience Cloud ID, segmentação, Data Warehouse, atributos do cliente e conjuntos de relatórios virtuais. Esta é uma visão geral de como você pode usar essas ferramentas.
 
 ### Etapa 1: transmita a Experience Cloud ID dos seus visitantes para uma nova ID declarada
 
@@ -67,7 +67,7 @@ Agora que você identificou os bots usando segmentos, a próxima etapa é usar o
 
 Lembre-se de usar a ID de visitante da Experience Cloud como dimensão e aplicar o segmento &quot;Bots&quot;.
 
-### Etapa 4: transmitir essa lista de volta para o Adobe como um atributo do cliente
+### Etapa 4: transmitir essa lista para a Adobe como um atributo do cliente
 
 Quando o relatório do Data Warehouse chegar, você terá uma lista de ECIDs que precisam ser filtradas dos dados históricos. Copie e cole esses ECIDs em um arquivo .CSV em branco com apenas duas colunas, ECID e Sinalizador de bot.
 
@@ -95,3 +95,10 @@ Esse conjunto de relatórios virtuais recém-segmentado resultará em um conjunt
 ### Etapa 7: repita as etapas 2, 3 e 4 regularmente
 
 Defina pelo menos um lembrete mensal para identificar e filtrar novos bots, talvez antes da análise programada regularmente.
+
+>[!MORELIKETHIS]
+>
+>* [Bloqueio de bot melhor (Parte 1): Noções básicas](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Bloqueio de bot melhor (Parte 2): Identificando bots e utilizando CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Melhor Bloqueio De Bots (Parte 3): O Controlador De Ocorrências](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+
