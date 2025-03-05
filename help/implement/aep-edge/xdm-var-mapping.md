@@ -4,22 +4,22 @@ description: Visualize quais campos XDM a borda mapeia automaticamente para vari
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 5e97c9a4a3c7368cefb3cc6a7bc89a450e6e3f4a
+source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 56%
 
 ---
 
 # Mapeamento da variável de objeto XDM para o Adobe Analytics
 
-A tabela a seguir mostra as variáveis XDM que o Edge Network Adobe Experience Platform mapeia automaticamente para o Adobe Analytics. Se você usar esses caminhos de campo XDM, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics. Esses campos estão incluídos no grupo de campos **[!UICONTROL Modelo de evento de experiência do Adobe Analytics]**. O uso desses campos é recomendado se você pretende enviar dados para o Adobe Analytics e o Adobe Experience Platform.
+A tabela a seguir mostra as variáveis XDM que o Adobe Experience Platform Edge Network mapeia automaticamente para o Adobe Analytics. Se você usar esses caminhos de campo XDM, nenhuma configuração adicional será necessária para enviar dados para o Adobe Analytics. Esses campos estão incluídos no grupo de campos **[!UICONTROL Modelo de evento de experiência do Adobe Analytics]**. O uso desses campos é recomendado se você pretende enviar dados para o Adobe Analytics e o Adobe Experience Platform.
 
-Se sua organização planeja mudar para o Customer Journey Analytics, o Adobe recomenda usar o objeto `data` para enviar dados diretamente para a Adobe Analytics sem estar em conformidade com um esquema. Essa estratégia permite que sua organização use seu próprio esquema, em vez de usar o [!UICONTROL Modelo de evento de experiência do Adobe Analytics] (que é menos aplicável ao Customer Journey Analytics). Consulte [Mapeamento de variável de objeto de dados para o Adobe Analytics](data-var-mapping.md) para obter uma tabela de mapeamento semelhante.
+Se sua organização planeja migrar para o Customer Journey Analytics, a Adobe recomenda usar o objeto `data` para enviar dados diretamente para o Adobe Analytics sem estar em conformidade com um esquema. Essa estratégia permite que sua organização use seu próprio esquema, em vez de usar o [!UICONTROL Modelo de evento de experiência do Adobe Analytics] (que é menos aplicável ao Customer Journey Analytics). Consulte [Mapeamento de variável de objeto de dados para o Adobe Analytics](data-var-mapping.md) para obter uma tabela de mapeamento semelhante.
 
 ## Prioridades de valor
 
-A maioria dos campos de objeto XDM nesta tabela coincide com um [campo de objeto de dados](data-var-mapping.md). Se você definir um determinado campo de objeto XDM e seu respectivo campo de objeto de dados, o campo de objeto de dados terá prioridade. Se você usar os campos de objeto XDM e objeto de dados, o Adobe recomenda definir eventos personalizados usando o campo objeto de dados. Se o campo `data.__adobe.analytics.events` estiver presente, ele substituirá todos os campos de objeto XDM relacionados ao comércio e aos eventos personalizados.
+A maioria dos campos de objeto XDM nesta tabela coincide com um [campo de objeto de dados](data-var-mapping.md). Se você definir um determinado campo de objeto XDM e seu respectivo campo de objeto de dados, o campo de objeto de dados terá prioridade. Se você usar os campos de objeto XDM e objeto de dados, a Adobe recomenda definir eventos personalizados usando o campo objeto de dados. Se o campo `data.__adobe.analytics.events` estiver presente, ele substituirá todos os campos de objeto XDM relacionados ao comércio e aos eventos personalizados.
 
 ## Mapeamento de campo do objeto XDM
 
@@ -66,6 +66,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | `xdm.environment.carrier` | A dimensão de ciclo de vida móvel [Nome da operadora](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Ajuda a definir a dimensão [Tipo de conexão](../../components/dimensions/connection-type.md). |
 | `xdm.environment.ipV4` | Usado como um método de identificação [visitante único](../../components/metrics/unique-visitors.md) de fallback. Normalmente preenchida com o uso do cabeçalho HTTP do `X-Forwarded-For`. |
+| `xdm.environment._dc.language` | A localidade da dimensão móvel. |
 | `xdm.environment.language` | A localidade da dimensão móvel. |
 | `xdm.environment.operatingSystem` | A dimensão de ciclo de vida móvel [Sistema operacional](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | Ajuda a definir a dimensão de ciclo de vida móvel [Versão do sistema operacional](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
