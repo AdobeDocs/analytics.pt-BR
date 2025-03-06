@@ -4,10 +4,10 @@ description: Visualize quais campos XDM a borda mapeia automaticamente para vari
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
+source-git-commit: 41395781f34d395954a1fc9de0351e4c63c1d6f8
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 56%
+source-wordcount: '1425'
+ht-degree: 55%
 
 ---
 
@@ -66,7 +66,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | `xdm.environment.carrier` | A dimensão de ciclo de vida móvel [Nome da operadora](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Ajuda a definir a dimensão [Tipo de conexão](../../components/dimensions/connection-type.md). |
 | `xdm.environment.ipV4` | Usado como um método de identificação [visitante único](../../components/metrics/unique-visitors.md) de fallback. Normalmente preenchida com o uso do cabeçalho HTTP do `X-Forwarded-For`. |
-| `xdm.environment._dc.language` | A localidade da dimensão móvel. |
+| `xdm.environment._dc.language` | A localidade da dimensão móvel. Usado somente se xdm.environment.language não estiver definido. |
 | `xdm.environment.language` | A localidade da dimensão móvel. |
 | `xdm.environment.operatingSystem` | A dimensão de ciclo de vida móvel [Sistema operacional](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | Ajuda a definir a dimensão de ciclo de vida móvel [Versão do sistema operacional](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
