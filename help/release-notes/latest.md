@@ -3,48 +3,46 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ace906a4b5acf1ab667529af33dd5be1618863f2
+source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 57%
 
 ---
 
-# Notas de versão atuais do Adobe Analytics (versão de fevereiro de 2025)
+# Notas de versão atuais do Adobe Analytics (versão de março de 2025)
 
-**Última atualização**: 21 de fevereiro de 2025
+**Última atualização**: quinta-feira, 12 de março de 2025
 
-Estas notas de versão englobam o período de lançamento de 11 de fevereiro a meados de março de 2025. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+Essas notas de versão abrangem o período de lançamento de 5 de março a maio de 2025. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 ## Novos recursos ou melhorias {#features}
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Período de retenção da ID da transação** | O período de retenção da ID de transação de 90 dias foi estendido para 25 meses. A variável `transactionID` atribui uma identificação exclusiva a uma transação para que a ocorrência possa ser vinculada a dados enviados por meio de fontes de dados. Saiba mais [aqui](https://experienceleague.adobe.com/pt-br/docs/analytics/implementation/vars/page-vars/transactionid) e [aqui](https://experienceleague.adobe.com/pt-br/docs/analytics/import/data-sources/transactionid). |  | 20 de fevereiro de 2025 |
-| **Referência da API de feeds de dados** | A [referência](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) para a API de feeds de dados agora está disponível. |  | 30 de janeiro de 2025 |
-| **API de transmissão ao vivo — Implementação do cliente** | Use a implementação do cliente de transmissão ao vivo para consumir dados de transmissão ao vivo. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 18 de fevereiro de 2025 |
-| **Atualização para API de classificações** | Agora é possível remover campos de classificação ou chaves individuais do servidor. Isso oferece uma alternativa para excluir um conjunto de dados de classificação inteiro com o método DELETE. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 18 de fevereiro de 2025 |
-| **Atualização para o campo de dados de contexto do Analytics`a.locale`** | Uma atualização agendada alterará a forma como o campo de dados de contexto do Analytics `a.locale` é definido ao coletar dados via Experience Edge. Quando os dados são enviados para o Adobe Analytics usando a Experience Edge, os campos do Analytics são preenchidos com base em um mapeamento de campos XDM. O mapeamento para `c.a.locale` faz referência a um campo XDM não padrão, `xdm.environment.language`. Este campo será atualizado para fazer referência ao campo correto, `xdm.environment._dc.language`.<p>O mapeamento continuará fazendo referência a `xdm.environment.language` para oferecer compatibilidade com versões anteriores. Para continuidade, se ambos os campos forem definidos, `xdm.environment.language` terá prioridade. Você pode exibir a lista completa de mapeamentos do XDM para campos padrão do Analytics [aqui](https://experienceleague.adobe.com/pt-br/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | 5 de março de 2025 |
+| **Atualização para o campo de dados de contexto do Analytics`a.locale`** | Esta atualização altera como o campo de dados de contexto do Analytics `a.locale` é definido ao coletar dados por meio do Experience Edge. Quando os dados são enviados para o Adobe Analytics usando a Experience Edge, os campos do Analytics são preenchidos com base em um mapeamento de campos XDM. O mapeamento para `c.a.locale` faz referência a um campo XDM não padrão, `xdm.environment.language`. Este campo será atualizado para fazer referência ao campo correto, `xdm.environment._dc.language`.<p>O mapeamento continuará fazendo referência a `xdm.environment.language` para oferecer compatibilidade com versões anteriores. Para continuidade, se ambos os campos forem definidos, `xdm.environment.language` terá prioridade. Você pode exibir a lista completa de mapeamentos do XDM para campos padrão do Analytics [aqui](https://experienceleague.adobe.com/pt-br/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | 5 de março de 2025 |
+| **guia de atualização do Customer Journey Analytics** | Permite gerar um guia passo a passo para atualizar do Adobe Analytics para o Customer Journey Analytics. Este guia é personalizado para sua organização e leva em consideração seu ambiente Adobe Analytics atual, seus usos pretendidos para o Customer Journey Analytics e quaisquer compensações que economizem tempo que sua organização deseje fazer.<p>Para começar a gerar seu guia personalizado, faça logon no [!DNL Customer Journey Analytics] e selecione **[!UICONTROL Atualizar para o Customer Journey Analytics]** na guia **[!UICONTROL Workspace]**.<p>[Saiba mais](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | quarta-feira, 11 de março de 2025 |
+| **dimensões somente Data Warehouse** | A partir de maio de 2025, a Adobe começará a definir dimensões (variáveis personalizadas, como eVars e props) que exibem uma cardinalidade extremamente alta como &quot;somente Data Warehouse&quot;. As variáveis de alta cardinalidade têm muitos valores distintos; os exemplos incluem carimbos de data e hora ou UUIDs. Essas dimensões não estarão mais disponíveis para relatórios no Analysis Workspace.<p>Os candidatos a essa alteração são dimensões que excedem os limites de tráfego baixo muito cedo no mês. Com esses tipos de dimensões, os relatórios no Analysis Workspace baseados nessa dimensão não são úteis porque os dados relatáveis representam apenas uma pequena parte dos valores iniciais que foram coletados.<p>Como o Data Warehouse não impõe limites de tráfego baixo, você ainda pode criar relatórios ou segmentos úteis com base nesses tipos de dimensões. | | Maio de 2025 |
 
 
 ## Correções no Adobe Analytics
 
-**Analysis Workspace**: AN-359974; AN-366212; AN-368460
-**Classificações**: AN-367186; AN-367328; AN-368548
-**Migração de componentes**: AN-364529; AN-366398; AN-367509;
-**Feeds de dados**: AN-365685; AN-366745; AN-367256; AN-367349; AN-368363
-**Data Warehouse**: AN-368178; AN-368331;
-**Aplicativo móvel**: AN-367137
-**Plataforma**: AN-351924; AN-365540; AN-365866; AN-366898; AN-367856; AN-367933
-**Report Builder**: AN-366456; AN-366655;
-**Conjuntos de relatórios virtuais**: AN-367411
-**Regras VISTA**: AN-365331
+**Activity Map**: AN-361038
+**Ferramentas administrativas**: AN-362178; AN-369483
+**API do Analytics 1.4**: AN-369615
+**Analysis Workspace**: AN-353491; AN-363403; AN-367230; AN-367313; AN-368582; AN-369821; AN-370227;
+**Classificações**: AN-369848; AN-370196; AN-370226; AN-370437
+**Feeds de dados**: AN-366162; AN-368906; AN-369066; AN-369087; AN-369225; AN-369798
+**Governança de dados**: AN-365157
+**Fontes de dados**: AN-367550
+**Plataforma**: AN-363931
+**Report Builder**: AN-367460; AN-368975
 
 ## Avisos importantes para administradores do Adobe Analytics {#admin}
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| **Clientes de fora do Campaign perderão o acesso aos acionadores** | 16 de outubro de 2023 | Em 30 de janeiro de 2025, os clientes do Adobe Analytics que não tinham uma licença do Adobe Campaign perderam o acesso à capacidade de configurar e consumir [Acionadores](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/services/triggers). Os clientes precisam comprar o Campaign, planejar o fim do uso dos acionadores ou procurar outras ferramentas da Adobe que ofereçam recursos de acionador. |
+| N/D |  |  |
 
 ## Avisos de fim da vida útil (EOL) {#eol}
 
@@ -61,7 +59,7 @@ Para obter as atualizações mais recentes sobre as versões do AppMeasurement (
 
 ## Recursos relacionados
 
-* [Notas de versão anteriores para 2024](/help/release-notes/2024.md)
+* [Notas de versão anteriores para 2025](/help/release-notes/2025.md)
 * [Notas de versão do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=pt-BR)
 * [Notas de versão da Coleção de mídia de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=pt-BR)
 * As atualizações de versão mais recente para [produtos da Adobe Experience Cloud](https://business.adobe.com/br/products/adobe-experience-cloud-products.html)
