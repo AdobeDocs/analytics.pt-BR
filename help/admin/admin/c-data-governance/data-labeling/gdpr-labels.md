@@ -4,16 +4,16 @@ title: Rótulos de privacidade de dados para variáveis do Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '3790'
-ht-degree: 91%
+source-wordcount: '3760'
+ht-degree: 89%
 
 ---
 
 # Rótulos de privacidade de dados para variáveis do Analytics
 
-Os clientes do Adobe, como controladores de dados, são responsáveis por cumprir as leis de Privacidade de dados aplicáveis, como o Regulamento Geral sobre a Proteção de Dados (GDPR) e a Lei de Privacidade do Consumidor da Califórnia (CCPA). Os clientes devem consultar suas próprias equipes jurídicas para determinar como os dados devem ser tratados para cumprir as leis de privacidade de dados. A Adobe entende que cada um de seus clientes tem necessidades exclusivas relacionadas à privacidade, por isso ela permite que seus clientes personalizem as configurações desejadas para o processamento de dados de privacidade. Isso permite que cada cliente único processe solicitações de Privacidade de dados da maneira mais adequada para sua marca e conjunto de dados exclusivo.
+Os clientes da Adobe, como controladores de dados, são responsáveis por cumprir as leis de Privacidade de dados aplicáveis, como o Regulamento Geral sobre a Proteção de Dados (GDPR) e a Lei de Privacidade do Consumidor da Califórnia (CCPA). Os clientes devem consultar suas próprias equipes jurídicas para determinar como os dados devem ser tratados para cumprir as leis de privacidade de dados. A Adobe entende que cada um de seus clientes tem necessidades exclusivas relacionadas à privacidade, por isso ela permite que seus clientes personalizem as configurações desejadas para o processamento de dados de privacidade. Isso permite que cada cliente único processe solicitações de Privacidade de dados da maneira mais adequada para sua marca e conjunto de dados exclusivo.
 
 O Adobe Analytics fornece ferramentas para rotulação de dados de acordo com sua sensibilidade e restrições contratuais. Os rótulos são importantes para: (1) identificar os titulares de dados; (2) determinar quais dados retornar como parte de uma solicitação de acesso; e (3) identificar campos de dados que devem ser excluídos como parte de uma solicitação de exclusão.
 
@@ -67,7 +67,7 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
 
 Ao contrário dos outros rótulos, esses rótulos de Exclusão não são mutuamente exclusivos. Você pode selecionar ambos ou nenhum. Um rótulo [!UICONTROL Nenhum] separado não é necessário, pois o valor [!UICONTROL Nenhum] pode ser indicando simplesmente por não selecionar as opções de exclusão.
 
-Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de uma ocorrência ao titular de dados (ou seja, que permita a identificação do titular de dados). Outras informações pessoais (favoritos, histórico de navegação/compras, condições de integridade etc.) não precisam ser excluídas, já que a associação com o titular de dados será encerrada.
+Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de uma ocorrência ao titular de dados (ou seja, que permita a identificação do titular de dados). Outras informações pessoais (favoritos, histórico de navegação/compras, condições de saúde, etc.) não precisam ser excluídas, pois a associação com o titular dos dados será interrompida.
 
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
@@ -243,7 +243,7 @@ Esta seção pretende esclarecer informações sobre as variáveis do Analytics 
 | [!UICONTROL Agente do usuário] | O Agente do usuário identifica a versão do navegador que foi usada. |
 | [!UICONTROL ID de usuário] | Especifica o conjunto de relatórios do Analytics (como um número) que contém os dados. |
 | [!UICONTROL ID do conjunto de relatórios] | Especifica o nome do conjunto de relatórios do Analytics que contém os dados. |
-| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Essas IDs têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se especificar a [!UICONTROL Expansão de ID] em cada solicitação, essas IDs serão automaticamente excluídas para todas as solicitações de exclusão, mesmo aquelas que usam um ID-PERSON.<p>Se você não usar a Expansão de ID, mas desejar que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que isso realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID de visitante ou da ECID estão sendo anonimizadas, as contagens de visitantes únicos mudarão em um relatório histórico. |
+| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Essas IDs têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se você quiser que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, rotulando a prop ou eVar com um rótulo ID-DEVICE, mesmo que realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisariam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID de visitante ou da ECID estão sendo anonimizadas, as contagens de visitantes únicos mudarão em um relatório histórico. |
 | [!UICONTROL ID do AMO] | A Adobe Advertising Cloud ID é uma variável de solução que tem um rótulo [!UICONTROL DEL-DEVICE] não modificável. Ela é preenchida a partir de um cookie, assim como a ID do visitante e a MCID. Ela deve ser excluída das ocorrências sempre que essas outras IDs forem excluídas. Consulte a descrição referente a essas variáveis para obter mais detalhes. |
 
 {style="table-layout:auto"}

@@ -4,10 +4,10 @@ title: Exemplos de rotulagem
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 78%
+source-wordcount: '723'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ Suponha que você tenha os seguintes dados de ocorrência:
 
 ## Solicitação de acesso de exemplo {#access}
 
-Se enviar uma solicitação de acesso, você receberá dois arquivos que podem ser retornados ao titular dos dados. Um arquivo é um arquivo CSV que contém uma linha para cada ocorrência recebida para o titular dos dados e uma coluna para cada variável com o rótulo de acesso apropriado. O outro arquivo é um HTML de resumo que lista cada variável, seguido por todos os valores únicos vistos para essa variável para o titular dos dados e o número de vezes que cada valor único foi visto.
+Se enviar uma solicitação de acesso, você receberá dois arquivos que podem ser retornados ao titular dos dados. Um arquivo é um arquivo CSV que contém uma linha para cada ocorrência recebida para o titular dos dados e uma coluna para cada variável com o rótulo de acesso apropriado. O outro arquivo é um arquivo HTML de resumo que lista cada variável, seguido por todos os valores únicos vistos para essa variável para o titular dos dados e o número de vezes que cada valor único foi visto.
 
 Para o nosso exemplo, o arquivo de resumo contém os valores indicados na tabela abaixo. Uma solicitação pode retornar somente um arquivo de dispositivo, somente um arquivo de pessoa ou um de cada. Dois arquivos de resumo são retornados somente se uma ID de pessoa for usada e `expandIds` for verdadeiro.
 
@@ -292,7 +292,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 
 >[!NOTE]
 >
->Apenas celcolumnsls em linhas que contêm `user=Mary` e um rótulo `DEL-PERSON` são afetados. Além disso, na prática, a variável que contém `A_ID` provavelmente seria uma prop ou um eVar. Seu valor de substituição seria uma sequência de caracteres iniciada por `Privacy-`, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
+>Apenas celcolumnsls em linhas que contêm `user=Mary` e um rótulo `DEL-PERSON` são afetados. Além disso, na prática, a variável que contém `A_ID` provavelmente seria uma prop ou eVar. Seu valor de substituição seria uma sequência de caracteres iniciada por `Privacy-`, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
 
 <table>
   <tr>
@@ -366,8 +366,4 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 Observe o seguinte:
 
 * Apenas células em linhas que contêm `user=Mary` e um rótulo `DEL-PERSON` são afetadas.
-* Devido à expansão de ID, células em linhas que contêm `AAID=77`, `AAID=88` ou `AAID=99` (que são os valores AAID em linhas que contêm `user=Mary`) e um rótulo `DEL-DEVICE` serão afetadas. Isso inclui células com um rótulo `DEL-DEVICE` em linhas em que `user=Mary`. Isso faz com que as células nas linhas 4 e 5 (bem como nas linhas 1-3) com rótulos `DEL-DEVICE` (AAID, MyEvar2 e MyEvar3) sejam ofuscadas.
-* A configuração expandIDs não expande a chamada para incluir valores presentes em MyEvar3 (`X`, `Y` e `Z`), que tem um rótulo ID-DEVICE, quando `user=Mary`. ExpandIDs só se expande para incluir IDs de visitante (AAIDs neste exemplo, mas também a ECID) em linhas nas quais `user=Mary`. Dessa forma, as duas últimas linhas, que contêm valores MyEvar3 de `X` e `Z` não são afetadas.
-* `MyEvar2` na quarta e na quinta linhas é atualizado porque essas linhas contêm os mesmos valores de ID de Visitante (`77` e `88`) que os da primeira e da segunda linhas. Como resultado, a expansão de ID os inclui para exclusões no dispositivo.
-* Os valores de `MyEvar2` nas linhas dois e cinco correspondem a antes e depois da exclusão. No entanto, após a exclusão, eles não correspondem mais ao valor `N` que ocorre na última linha, pois essa linha não foi atualizada como parte da solicitação de exclusão.
-* `MyEvar3` O se comporta de maneira muito diferente em relação ao comportamento sem expansão de ID, porque neste caso, não há correspondência de `ID-DEVICES`. Agora, `AAID` corresponde nas primeiras cinco linhas.
+
