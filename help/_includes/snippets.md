@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca1e86606454c2f906cef0cc1d1a9d1c67cedf0e
+source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2353'
 ht-degree: 36%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 36%
 >[!IMPORTANT]
 >
 >Um novo e simplificado [Report Builder](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/report-buider-overview) foi lançado em 16 de outubro de 2024. Ele é compatível com Mac, Windows e navegadores da Web.
->Esta versão herdada do complemento de Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) para o novo Report Builder.
+>Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) para a nova Report Builder.
 
 ## Anúncio do fim da vida útil do Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
->A partir de **17 de janeiro de 2024**, o Adobe descontinuou o Reports &amp; Analytics e os relatórios e recursos que o acompanham. Naquele momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararam de funcionar. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Para obter informações sobre como usar relatórios no Analysis Workspace, consulte [Usar relatórios pré-criados](/help/analyze/analysis-workspace/reports/use-reports.md).
+>A partir de **17 de janeiro de 2024**, a Adobe descontinuou o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham. Naquele momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararam de funcionar. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Para obter informações, consulte [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md).
 > 
 >Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
 >

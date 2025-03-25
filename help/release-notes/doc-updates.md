@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
-workflow-type: ht
-source-wordcount: '6237'
-ht-degree: 100%
+source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+workflow-type: tm+mt
+source-wordcount: '6234'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Dezembro de 2023** | |
 | Melhoria na documentação das regras de bots | Informações atualizadas em [Noções básicas e configuração de regras de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) para maior clareza.<p>As melhorias incluem:</p> <ul><li>O título do artigo foi atualizado para ser mais descritivo</li><li>Melhor organização das informações</li><li>Foram adicionadas etapas para indicar informações baseadas em tarefas</li><li>Foram adicionados mais detalhes sobre os requisitos de arquivos CSV ao fazer upload das regras de bots</li></ul> |
-| Nova seção Relatórios | Adição de uma nova seção Relatórios que inclui informações sobre [uso de relatórios pré-criados](/help/analyze/analysis-workspace/reports/use-reports.md) e [criação e gerenciamento de relatórios da empresa](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| Nova seção Relatórios | Adição de uma nova seção Relatórios que inclui informações sobre [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md) e [criação de modelos de empresa](/help/analyze/analysis-workspace/templates/create-templates.md). |
 | Atualizações na documentação de Detecção de anomalias e Análise de contribuição | A documentação de Detecção de anomalias e Análise de contribuição estava localizada anteriormente em uma seção sobre o Virtual Analyst. Foram feitas as seguintes alterações: <ul><li>O termo Virtual Analyst foi removido da documentação.</li><li>A seção sobre [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) foi movida para diretamente abaixo da seção do Analysis Workspace.</li><li>A documentação de Análise de contribuição foi mesclada à documentação de Detecção de anomalias.</li></ul> |
 | “Attribution IQ &quot; alterado para &quot;Atribuição” | Todas as instâncias de “Attribution IQ” foram alteradas para “[Atribuição](/help/analyze/analysis-workspace/attribution/overview.md)” em toda a documentação. |
 | **Novembro de 2023** | |

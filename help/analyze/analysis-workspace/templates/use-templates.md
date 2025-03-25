@@ -4,7 +4,7 @@ title: Usar modelos
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
 source-wordcount: '18666'
 ht-degree: 83%
@@ -37,11 +37,11 @@ As informações a seguir descrevem como acessar e usar modelos na guia [!UICONT
 
 1. Na seção [!UICONTROL **Modelos**], selecione uma das guias a seguir:
 
-   * **[!UICONTROL modelos de Adobe]**: mostra todos os modelos fornecidos pelo Adobe.
+   * **[!UICONTROL Modelos do Adobe]**: mostra todos os modelos fornecidos pelo Adobe.
 
    * **[!UICONTROL _login_company_name _modelos]**: mostra todos os modelos de empresa que foram criados para sua organização.
 
-     Somente administradores podem criar modelos de empresa. Para obter mais informações sobre como criar um modelo de empresa, consulte [Criar e gerenciar modelos](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+     Somente administradores podem criar modelos de empresa. Para obter mais informações sobre como criar um modelo de empresa, consulte [Criar e gerenciar modelos](/help/analyze/analysis-workspace/templates/create-templates.md).
 
 1. Use uma das opções a seguir para alterar a exibição dos modelos disponíveis:
 
@@ -510,8 +510,8 @@ Os seguintes modelos estão disponíveis:
 | **[!UICONTROL Entradas e saídas]** > [!UICONTROL **Páginas de entrada originais**] | Veja as principais páginas que as pessoas acessam quando visitam o site pela primeira vez durante o tempo de vida de visitante. <p>**Isso pode ajudar** a saber quais páginas estão gerando mais tráfego para o site ou entender melhor as primeiras impressões que visitantes têm sobre o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar a experiência inicial que as pessoas têm no site ou garantir que as páginas que as pessoas veem ao entrar no site sejam acolhedoras e forneçam os links necessários para outras áreas do site.</p><p>Este modelo usa a métrica Sessões. Ele também usa a visualização de barras e a visualização de tabela de forma livre.</p> |
 | **[!UICONTROL Entradas e saídas]** > [!UICONTROL **Visitas em única página**] | Visualize o número de visitas que consistiram em uma única página. <p>**Isso pode ajudar** a entender melhor os níveis de engajamento dos visitantes e quanto tempo estão gastando no site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se as alterações no site resultam em visitantes permanecendo por mais tempo.</p><p>Este modelo usa a [dimensão Visitas em única página](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/single-page-visits).</p> |
 | **[!UICONTROL Entradas e saídas]** > [!UICONTROL **Páginas de saída**] | Veja as principais páginas que as pessoas acessam imediatamente antes de sair do site.<p>**Isso pode ajudá-lo** a entender melhor quais páginas estão afastando as pessoas do site. </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar as páginas de saída comuns para otimizar a experiência que as pessoas têm antes de sair ou incluir conteúdo ou links para incentivar as pessoas a permanecerem no site.</p><p>Este modelo usa a métrica Sessões. Ele também usa a visualização de barras e a visualização de tabela de forma livre.</p> |
-| [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **Visão geral do desempenho do site**] > [!UICONTROL **AEM desempenho do site**] | Visualizar dados de desempenho do site do Adobe Experience Manager.  <p>**Isso pode ajudar** a entender melhor a realização de valores do Adobe Experience Manager.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar as configurações do Experience Manager.</p> |
-| [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **Visão geral do desempenho do formulário**] > [!UICONTROL **desempenho do formulário AEM**] | Visualize dados de desempenho do Adobe Experience Manager Forms.  <p>**Isso pode ajudar** a entender melhor a realização de valores do Adobe Experience Manager.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar as configurações do Experience Manager.</p> |
+| [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **Visão geral do desempenho do site**] > [!UICONTROL **desempenho do site do AEM**] | Visualizar dados de desempenho do site do Adobe Experience Manager.  <p>**Isso pode ajudar** a entender melhor a realização de valores do Adobe Experience Manager.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar as configurações do Experience Manager.</p> |
+| [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **Visão geral do desempenho do formulário**] > [!UICONTROL **Desempenho do formulário AEM**] | Visualize dados de desempenho do Adobe Experience Manager Forms.  <p>**Isso pode ajudar** a entender melhor a realização de valores do Adobe Experience Manager.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar as configurações do Experience Manager.</p> |
 | [!UICONTROL **Impacto da ITP**] | Visualize e analise os efeitos da Prevenção de Rastreamento Inteligente (ITP) na coleta de dados e nos relatórios. <p>**Isso pode ajudar** a entender melhor a possível perda de dados devido a restrições de cookies impostas pela ITP.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a configuração de análise para minimizar o impacto da ITP.</p> |
 
 ### Conversão {#web-conversion}

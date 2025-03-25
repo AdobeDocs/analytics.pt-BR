@@ -4,10 +4,10 @@ title: Visão geral do relatório em tempo real
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 90%
+source-wordcount: '602'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,9 @@ O relatório em tempo real exibe o tráfego da página da Web e classifica as vi
 
 1. No Adobe Analytics, selecione a guia [!UICONTROL **Espaço de trabalho**].
 
-1. Selecione [!UICONTROL **Relatórios**] > [!UICONTROL **Envolvimento**] > **[!UICONTROL Tempo Real]**.
+1. No lado esquerdo da página, em **[!UICONTROL Modelos]**, selecione [!UICONTROL **Modelos do Adobe**].
+
+1. Selecione [!UICONTROL **Envolvimento**] > **[!UICONTROL Tempo real]**.
 
 ## Entender os relatórios em tempo real
 
