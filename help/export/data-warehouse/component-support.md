@@ -3,10 +3,10 @@ title: Suporte a componentes no Data Warehouse
 description: Saiba quais dimensões e métricas adicionais estão disponíveis no Data Warehouse e o que não é suportado.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 60%
+source-wordcount: '570'
+ht-degree: 45%
 
 ---
 
@@ -20,14 +20,14 @@ Algumas dimensões e métricas que podem ser usadas no Data Warehouse não estã
 
 ### Dimensões suportadas exclusivamente
 
-* **ID de Experience Cloud**: para implementações que usam o Serviço de ID de Experience Cloud (ECID), um número de 128 bits que consiste em dois números concatenados de 64 bits preenchidos com 19 dígitos.
+* **Experience Cloud ID**: para implementações que usam o Experience Cloud ID Service (ECID), um número de 128 bits que consiste em dois números concatenados de 64 bits preenchidos com 19 dígitos.
 * **URL da página**: a URL da página em que a ocorrência ocorreu.
 * **IDs de compra**: identificador exclusivo para uma compra, definido usando a variável purchaseID.
 * **ID do Visitante**: fornece o identificador exclusivo do visitante. Esse valor é igual ao valor concatenado de `visid_high` e `visid_low` colunas em feeds de dados. Consulte Referência [da coluna](../analytics-data-feed/c-df-contents/datafeeds-reference.md) Dados em Feeds de dados para obter mais informações.
 
 ### Métricas suportadas exclusivamente
 
-* **Visitas**: essa métrica no contexto da Data Warehouse exclui visitas de cookies não persistentes.
+* **Visitas**: essa métrica no contexto do Data Warehouse exclui visitas de cookies não persistentes.
 * **Visitas - Todos os visitantes**: essa métrica no contexto do Data Warehouse tem mais paridade com a métrica de visitas em outras ferramentas do Adobe Analytics.
 
 ## Componentes não compatíveis com o Data Warehouse
@@ -69,9 +69,9 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
    * Métricas de ‘tempo gasto’
 * Métricas de participação (conforme descrito em [Criar uma métrica de &quot;Participação&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
-### Suporte a Dimension de uma maneira diferente
+### Dimensões compatíveis de uma maneira diferente (formatação de data não padrão)
 
-As seguintes dimensões baseadas em tempo são compatíveis. No entanto, a saída de datas não utiliza valores padrão ao usar essas dimensões. Especificamente, o ano é compensado por 1900, e os meses são baseados em zero.
+As seguintes dimensões baseadas em tempo são compatíveis:
 
 * Ano
 * Trimestre
@@ -80,6 +80,36 @@ As seguintes dimensões baseadas em tempo são compatíveis. No entanto, a saíd
 * Dia
 * Hora
 * Minuto
+
+No entanto, a saída de datas não é padrão ao usar essas dimensões.
+
+Considere o seguinte ao calcular a saída de datas no Data Warehouse:
+
+* As dimensões de data são mostradas no seguinte formato: `1YYMMDDHHMM`
+
+* O ano (AA) é compensado por 1900. Isso significa que você adiciona `1900` aos três primeiros valores do campo de data.
+
+  Por exemplo, se o valor do campo Semana do intervalo de datas no Data Warehouse for `1250901`, você adicionaria de 1900 a 125, o que resultará no ano de 2025.
+
+* Todos os meses são baseados em zero, com janeiro sendo representado por 00, fevereiro por 01 e assim por diante, da seguinte forma:
+
+   * 00: janeiro
+   * 01: fevereiro
+   * 02: março
+   * 03: abril
+   * 04: maio
+   * 05: junho
+   * 06: julho
+   * 07: agosto
+   * 08: setembro
+   * 09: outubro
+   * 10: novembro
+   * 11: dezembro
+
+  Por exemplo, se o valor do campo Semana do intervalo de datas no Data Warehouse for `1250901`, o mês será representado como 09, o que indica outubro.
+
+
+
 
 ## Segmentos como dimensões no Data Warehouse
 
