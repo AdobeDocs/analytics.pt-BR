@@ -4,20 +4,19 @@ description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
+source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 86%
+source-wordcount: '2730'
+ht-degree: 85%
 
 ---
 
 # AppMeasurement para notas de versão do JavaScript
 
-Notas de versão cumulativas do AppMeasurement para JavaScript.
+>[!IMPORTANT]
+>
+>A partir de março de 2025, este artigo não será mais atualizado. Você pode exibir as notas de versão para e baixar a versão mais recente do AppMeasurement do [GitHub](https://github.com/adobe/appmeasurement/releases).
 
-<!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
-
-Você pode baixar a última versão do AppMeasurement em [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## Versão 2.27.0
 
@@ -33,7 +32,7 @@ Data de lançamento: **terça-feira, 12 de agosto de 2024**
 Data de lançamento: **terça-feira, 4 de março de 2024**
 
 * O AppMeasurement reconhece e utiliza automaticamente o domínio raiz para domínios de nível superior do código do país, que anteriormente exigiam configurações específicas de domínio de cookie. A atualização pode ter implicações devido a esse reconhecimento automático. Consulte [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) para obter mais informações.
-* A distribuição inclui a Biblioteca do serviço de identidade 5.5.0 e a Data Integration Library 9.6.
+* A distribuição inclui a Biblioteca do serviço de identidade 5.5.0 e o Data Integration Library 9.6.
 
 ## Versão 2.25.0
 
@@ -356,7 +355,7 @@ Data de lançamento: **5 de novembro de 2015**
 Data de lançamento: **17 de setembro de 2015**
 
 * Inclusão da API de Visitante 1.5.2
-* Atualização do módulo [!DNL Audience Manager] para usar o Adobe Audience Manager DIL 6.2 - getCustomer IDs do VisitorAPI.js e transmitir a chamada /event para a Adobe Audience Manager. (AN-104978)
+* Atualização do módulo [!DNL Audience Manager] para usar Adobe Audience Manager DIL 6.2 - getCustomer IDs do VisitorAPI.js e transmitir a chamada /event para a Adobe Audience Manager. (AN-104978)
 
 ## Versão 1.5
 
