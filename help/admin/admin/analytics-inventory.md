@@ -6,9 +6,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
+source-git-commit: fe1074403992c1dd28778f279cafe4e557dfe4fd
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
@@ -42,9 +42,9 @@ O objetivo deste aplicativo é ajudá-lo a responder às seguintes perguntas:
 
 ## Acessar inventário do Analytics
 
-O Inventário do Analytics está disponível no menu **[!UICONTROL Administrador]** e também no item de menu **[!UICONTROL Todos os administradores]**.
+O [!UICONTROL Inventário do Analytics] está disponível no menu **[!UICONTROL Administrador]** e também no item de menu **[!UICONTROL Todos os administradores]**.
 
-    ![Menu Inventário do Analytics](assets/an-inventory-menu.png)
+![Menu-inventário-do-Analytics](assets/an-inventory-menu.png)
 
 
 ## Componentes {#components}
