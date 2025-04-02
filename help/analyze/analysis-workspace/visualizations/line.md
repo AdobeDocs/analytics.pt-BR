@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -26,28 +26,28 @@ ht-degree: 24%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a Visualização de linha no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte a [Linha](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line) da_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versão deste artigo._
+_Este artigo é sobre a visualização de linha no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Linha](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/line) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
-A visualização ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Line]** representa as métricas usando uma linha para mostrar como os valores são alterados em um período. Uma visualização de linha pode ser usada somente quando o horário é usado como uma dimensão.
+A visualização de ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL linha]** representa as métricas usando uma linha para mostrar como os valores se alteram em um período. Só é possível usar a visualização de linha se o tempo for utilizado como uma dimensão.
 
 ![Visualização de linha](assets/line-viz.png)
 
 
 ## Configurações 
 
-Como parte das [configurações de visualização](freeform-analysis-visualizations.md#settings), configurações específicas de visualização de linha estão disponíveis.
+Como parte das [configurações de visualização](freeform-analysis-visualizations.md#settings), há configurações específicas de visualização de linha disponíveis.
 
 | Configuração | Descrição |
 |---|---|
-| **[!UICONTROL Granularidade]** | Selecione na lista suspensa de granularidade para alterar uma visualização de tendência de diária para semanal, mensal etc. A granularidade também é atualizada na tabela da fonte de dados. |
-| **[!UICONTROL Mostrar mín]** <br/>**[!UICONTROL Mostrar máx ]** | É possível sobrepor um rótulo de valor mínimo e máximo para realçar os valores mínimo e máximo em uma métrica. Os valores mín./máx. são derivados dos pontos de dados visíveis na visualização, não do conjunto completo de valores em uma dimensão.<br/>![Uma sobreposição com o rótulo de valor mínimo e máximo.](assets/min-max-labels.png) |
-| **[!UICONTROL Mostrar linha de tendência]** | É possível optar por adicionar uma regressão ou uma linha de tendência de média móvel à sua série de linhas. As linhas de tendência ajudam a descrever um padrão mais claro nos dados. Quando selecionado, selecione um modelo na lista. Consulte [Modelos](#models) para obter uma visão geral e uma descrição dos modelos disponíveis.<br/>![Linha de tendência linear](assets/show-linear-trendline.png). |
+| **[!UICONTROL Granularidade]** | Selecione uma granularidade no menu suspenso para alterar uma visualização de tendência de diária para semanal, mensal etc. A granularidade também é atualizada na tabela da fonte de dados. |
+| **[!UICONTROL Mostrar mínimo]** ou <br/>**[!UICONTROL Mostrar máximo ]** | É possível sobrepor um rótulo de valor mínimo e máximo para realçar os valores mínimos e máximos em uma métrica. Os valores mínimos e máximos são derivados dos pontos de dados visíveis na visualização, não do conjunto completo de valores em uma dimensão.<br/>![Uma sobreposição com o rótulo de valor mínimo e máximo.](assets/min-max-labels.png) |
+| **[!UICONTROL Mostrar linha de tendência]** | É possível optar por adicionar uma regressão ou linha de tendência de média móvel à sua série de linhas. As linhas de tendência ajudam a representar um padrão mais claro nos dados. Após selecioná-la, escolha um modelo da lista. Consulte [Modelos](#models) para obter uma visão geral e descrição dos modelos disponíveis.<br/>![Linha de tendência linear](assets/show-linear-trendline.png). |
 
 >[!TIP]
 >
->Recomenda-se que linhas de tendência sejam aplicadas a dados que não incluem hoje (dados parciais) ou datas futuras. As datas de hoje ou no futuro distorcem a linha de tendência. No entanto, se você precisar incluir datas futuras, remova zeros dos dados para evitar distorções nesses dias. Vá para a tabela de fonte de dados da visualização, escolha a coluna de métrica e habilite **[!UICONTROL Configurações de coluna]** > **[!UICONTROL Interpretar zero como nenhum valor]**.
+>Recomenda-se aplicar linhas de tendência a dados que não incluam o dia de hoje (dados parciais) ou datas futuras. O dia de hoje ou datas no futuro distorcem a linha de tendência. No entanto, se você precisar incluir datas futuras, remova os zeros dos dados para evitar distorções nesses dias. Acesse a tabela de fonte de dados da visualização, escolha a coluna da métrica e habilite **[!UICONTROL Configurações de coluna]** > **[!UICONTROL Interpretar zero como nenhum valor]**.
 
 
 
@@ -57,12 +57,12 @@ Todas as linhas de tendência do modelo de regressão são ajustadas usando mín
 
 | Modelo | Descrição |
 | --- | --- |
-| **[!UICONTROL Linear]** | Crie uma linha reta de melhor ajuste para conjuntos de dados lineares simples e seja útil quando os dados aumentarem ou diminuírem a uma taxa estável. Equação: `y = a + b * x` |
-| **[!UICONTROL Logarítmico]** | Criar uma linha curva de melhor ajuste e é útil quando a taxa de alteração nos dados aumenta ou diminui rapidamente e, em seguida, nivela. Uma linha de tendência logarítmica pode usar valores negativos e positivos. Equação: `y = a + b * log(x)` |
-| **[!UICONTROL Exponencial]** | Criar uma linha curva e é útil quando os dados aumentam ou caem em taxas constantemente crescentes. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a + e^(b * x)` |
-| **[!UICONTROL Potência]** | Criar uma linha curva e é útil para conjuntos de dados que comparam medidas que aumentam a uma taxa específica. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a * x^b` |
-| **[!UICONTROL Quadrático]** | Encontra o melhor ajuste para um conjunto de dados em forma de parábola (côncavo para cima ou para baixo). Equação: `y = a + b * x + c * x^2` |
-| **[!UICONTROL Média móvel]** | Crie uma linha de tendência suave com base em um conjunto de médias. Também conhecida como média variável, uma média móvel usa um número específico de pontos de dados (determinado por sua seleção de [!UICONTROL Granularidade]), calcula a média deles e usa a média como um ponto na linha. Os exemplos incluem uma média móvel de sete dias ou uma média móvel de quatro semanas. |
+| **[!UICONTROL Linear]** | Cria uma linha reta com o melhor ajuste para conjuntos de dados lineares simples; isso é útil quando os dados aumentam ou diminuem em um ritmo constante. Equação: `y = a + b * x` |
+| **[!UICONTROL Logarítmico]** | Cria uma linha curva com melhor ajuste; isso é útil quando o ritmo de alteração dos dados aumenta ou diminui rapidamente e, em seguida, estabiliza. Uma linha de tendência logarítmica pode usar valores negativos e positivos. Equação: `y = a + b * log(x)` |
+| **[!UICONTROL Exponencial]** | Cria uma linha curva; isso é útil quando os dados sobem ou descem constantemente e em um ritmo crescente. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a + e^(b * x)` |
+| **[!UICONTROL Potência]** | Cria uma linha curva; isso é útil para conjuntos de dados que comparam medidas que aumentam em um ritmo específico. Essa opção não deve ser usada se os dados contiverem valores zero ou negativos. Equação: `y = a * x^b` |
+| **[!UICONTROL Quadrático]** | Encontra o melhor ajuste para um conjunto de dados em forma de parábola (côncava para cima ou para baixo). Equação: `y = a + b * x + c * x^2` |
+| **[!UICONTROL Média móvel]** | Cria uma linha de tendência suave com base em um conjunto de médias. Também conhecida como média contínua, a média móvel usa um número específico de pontos de dados (determinado pela seleção de [!UICONTROL Granularidade]), cria uma média deles e usa essa média como um ponto na linha. Os exemplos incluem uma média móvel de sete dias ou de quatro semanas. |
 
 >[!MORELIKETHIS]
 >

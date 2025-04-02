@@ -1,22 +1,22 @@
 ---
 description: Saiba mais sobre
-title: Atribuição e tipo de métrica
+title: Tipo de métrica e atribuição
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Atribuição e tipo de métrica {#metric-type-attribution}
+# Tipo de métrica e atribuição {#metric-type-attribution}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
->title="Usar modelo de atribuição não-padrão"
+>title="Usar modelo de atribuição não padrão"
 >abstract="Habilite um modelo de atribuição não padrão para a métrica selecionada."
 
 <!-- markdownlint-enable MD034 -->
@@ -133,12 +133,12 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
->title="Janela de lookback"
+>title="Janela de retrospectiva"
 >abstract="Essa configuração determina a janela de atribuição de dados que será aplicada a cada conversão."
 
 <!-- markdownlint-enable MD034 -->
 
-Ao [criar uma métrica calculada](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), você pode especificar o tipo de métrica e o modelo de atribuição.
+Ao [criar uma métrica calculada](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), é possível especificar o tipo de métrica e o modelo de atribuição.
 
 ## Tipo de métrica
 
@@ -153,15 +153,15 @@ Para especificar o tipo de métrica ao criar uma métrica calculada:
    | Tipo de métrica | Definição |
    |---|---|
    | Padrão | Essas métricas são as mesmas métricas usadas nos relatórios padrão do [!DNL Analytics]. Se uma fórmula consistir de uma única métrica padrão, ela exibirá dados idênticos à sua métrica não calculada equivalente. Métricas padrão são úteis ao criar métricas calculadas específicas para cada item de linha. Por exemplo, [Pedidos] / [Visitas] pega os pedidos de um item de linha específico e divide pelo número de visitas do item de linha específico. |
-   | Total geral | Use Total geral para o período do relatório em cada item de linha. Se uma fórmula consistiu de uma única métrica de total geral, ela exibe o mesmo número total em cada item de linha. As métricas de total geral são úteis para criar métricas calculadas que se comparam aos dados totais do site. Por exemplo, [Pedidos] / [Total de visitas] mostra a proporção de pedidos com relação a TODAS as visitas ao site, e não apenas visitas ao item de linha específico. |
+   | Total geral | Use o total geral do período de relatório em cada item de linha. Se a fórmula consistir de uma única métrica de total geral, ela exibirá o mesmo número total em cada item de linha. Métricas de total geral são úteis para criar métricas calculadas que se comparam aos dados totais do site. Por exemplo, [Pedidos] / [Total de visitas] mostra a proporção de pedidos com relação a TODAS as visitas ao site, e não apenas visitas ao item de linha específico. |
 
 ## Como a alocação linear funciona
 
-[A atribuição](/help/analyze/analysis-workspace/attribution/overview.md) é a maneira como os modelos de alocação em métricas calculadas são avaliados.
+A [Atribuição](/help/analyze/analysis-workspace/attribution/overview.md) é uma forma de se avaliar os modelos de alocação em métricas calculadas.
 
-Para obter uma lista completa de modelos de atribuição não padrão e janelas de retrospectiva com suporte, consulte [Modelos de atribuição e janelas de retrospectiva](/help/analyze/analysis-workspace/attribution/models.md).
+Para obter uma lista completa de modelos de atribuição não padrão e janelas de retrospectiva permitidas, consulte [Modelos de atribuição e janelas de retrospectiva](/help/analyze/analysis-workspace/attribution/models.md).
 
-O exemplo a seguir ilustra como as métricas calculadas com alocações lineares funcionam nos relatórios:
+O seguinte exemplo ilustra como as métricas calculadas com alocações lineares funcionam nos relatórios:
 
 | | Ocorrência 1 | Ocorrência 2 | Ocorrência 3 | Ocorrência 4 | Ocorrência 5 | Ocorrência 6 | Ocorrência 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |

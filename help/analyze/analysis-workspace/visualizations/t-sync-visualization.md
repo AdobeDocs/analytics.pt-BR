@@ -1,18 +1,18 @@
 ---
 description: A sincronização de visualizações permite que você controle qual tabela de dados ou fonte de dados corresponde a uma visualização.
 keywords: Analysis Workspace;Sincronizar visualização com a fonte de dados
-title: Gerenciar fontes de dados de visualização
+title: Gerenciar fontes de dados da visualização
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Gerenciar fontes de dados de visualização
+# Gerenciar fontes de dados da visualização
 
 A sincronização de visualizações permite que você controle qual tabela de dados ou fonte de dados corresponde a uma visualização.
 
@@ -33,27 +33,27 @@ O gerenciamento de uma fonte de dados permite exibir a fonte de dados ou bloquea
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações de fonte de dados](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações da fonte de dados](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 | Elemento | Descrição |
 | --- | --- |
-| Visualizações vinculadas | Se houver visualizações conectadas a uma de forma livre ou tabela de coorte, o ponto no alto à esquerda abre uma lista de visualizações conectadas com uma opção de caixa de seleção &quot;Mostrar&quot; para mostrar/ocultar a tabela. Passar o mouse destaca a visualização vinculada; para acessá-la, clique nela. |
+| Visualizações vinculadas | Se houver visualizações conectadas a uma tabela de forma livre ou tabela de coorte, clicar no ponto no canto superior esquerdo abrirá a lista de visualizações conectadas com uma opção de caixa de seleção “mostrar” para mostrar/ocultar a tabela.  Passar o mouse destaca a visualização vinculada; para acessá-la, clique nela. |
 | Exibir fonte de dados | Permite exibir (ativando a caixa de seleção) ou ocultar (desativando) a tabela de dados que corresponde à visualização. |
-| Bloquear seleção | Ative essa configuração para bloquear a visualização de dados selecionados no momento na tabela de dados correspondente. Uma vez ativada, escolhe entre:<ul><li>**Posições selecionadas**: escolha essa opção se desejar que a visualização continue bloqueada nas posições selecionadas na tabela de dados correspondente. Essas posições continuarão sendo visualizadas, mesmo se os itens específicos nessas posições forem alterados. Por exemplo, escolha essa opção se desejar mostrar os cinco principais nomes de campanha nessa visualização o tempo todo, não importa quais nomes de campanha apareçam entre as cinco principais.</li><li>**Itens selecionados**: escolha essa opção se desejar que a visualização continue bloqueada nos itens especificados atualmente selecionados na tabela de dados correspondente. Esses itens continuam sendo visualizados, mesmo que alterem sua classificação entre os itens na tabela. Por exemplo, escolha essa opção se desejar mostrar os cinco mesmos nomes de campanha específicos nessa visualização o tempo todo, não importa a classificação desses nomes de campanha.</li></ul> |
+| Bloquear seleção | Ative essa configuração para bloquear a visualização de dados selecionados no momento na tabela de dados correspondente. Uma vez ativada, escolhe entre:<ul><li>**Posições selecionadas**: escolha essa opção se desejar que a visualização continue bloqueada nas posições selecionadas na tabela de dados correspondente. Essas posições continuarão a ser visualizadas, mesmo se os itens específicos dessas posições forem alterados. Por exemplo, escolha essa opção se desejar mostrar os cinco principais nomes de campanha nessa visualização o tempo todo, não importa quais nomes de campanha apareçam entre as cinco principais.</li><li>**Itens selecionados**: escolha essa opção se desejar que a visualização continue bloqueada nos itens especificados atualmente selecionados na tabela de dados correspondente. Esses itens continuarão a ser visualizados, mesmo que alterem suas classificações entre os itens na tabela. Por exemplo, escolha essa opção se desejar mostrar os cinco mesmos nomes de campanha específicos nessa visualização o tempo todo, não importa a classificação dos nomes de campanha.</li></ul> |
 
 Essa arquitetura difere da anterior no sentido de que o Analysis Workspace já não cria uma tabela oculta duplicada que armazena a seleção bloqueada para você. Agora, a fonte de dados aponta para a tabela da qual você criou a visualização.
 
 ## Exemplo de casos de uso
 
-* É possível criar uma visualização de resumo e bloqueá-la a uma célula na tabela a partir da qual você a criou. Ao ativar a opção “Exibir fonte de dados”, ela mostra exatamente de onde vem a informação na tabela. Os dados de origem estão esmaecidos:
+* É possível criar uma visualização de resumo e bloqueá-la a uma célula na tabela a partir da qual você a criou. Ao ativar a opção “Exibir fonte de dados”, ela mostra exatamente de onde vem a informação na tabela. Os dados de origem ficam esmaecidos:
 
   ![](assets/data-source2.png)>
 * É possível adicionar várias visualizações e extraí-las de diferentes células na mesma tabela, como mostrado abaixo. A tabela é igual à mostrada no exemplo acima, mas a célula extraída e a métrica são diferentes:
 
   ![](assets/data-source3.png)>
-* Você pode ver se há visualizações conectadas a uma tabela de forma livre ou de coorte clicando no ponto no canto superior esquerdo (Configurações do Data Source). Passar o mouse destaca a visualização vinculada; para acessá-la, clique nela.
+* É possível ver se há visualizações conectadas a uma tabela de forma livre ou de coorte por clicar no ponto no canto superior esquerdo (Configurações da fonte de dados). Passar o mouse destaca a visualização vinculada; para acessá-la, clique nela.
 
   ![](assets/linked-visualizations.png)>

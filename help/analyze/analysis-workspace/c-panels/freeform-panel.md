@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
 source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
@@ -15,22 +15,22 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta o Painel de forma livre no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte o [Painel de forma livre](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) da_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versão deste artigo._
+_Este artigo é sobre o painel de forma livre no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel de forma livre](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
 
-Um **[!UICONTROL Painel de forma livre]** é um painel em branco com uma visualização de [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) como o estado inicial padrão.
+Um **[!UICONTROL painel de forma livre]** é um painel em branco com uma visualização de [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) como o estado inicial padrão.
 
 ## Usar
 
-Para usar um **[!UICONTROL Painel de forma livre]**:
+Para usar um **[!UICONTROL painel de forma livre]**:
 
-1. Crie um **[!UICONTROL Painel de forma livre]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
+1. Crie um **[!UICONTROL painel de forma livre]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
 
-   ![O painel de Forma livre padrão mostrando um painel em branco com uma tabela de forma livre.](assets/freeform-panel.png)
+   ![O painel de forma livre padrão exibindo um painel em branco com uma tabela de forma livre.](assets/freeform-panel.png)
 
-1. Consulte o [Guia de componentes do Analytics](/help/components/home.md) para saber como adicionar componentes ao painel de forma livre e a visualização da [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+1. Consulte o [Guia de componentes do Analytics](/help/components/home.md) para saber como adicionar componentes ao painel de forma livre e à visualização da [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 
 >[!MORELIKETHIS]

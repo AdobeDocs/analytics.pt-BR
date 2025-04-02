@@ -6,9 +6,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 37%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta o painel de comparação de segmentos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Não há painel equivalente em_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_Este artigo é sobre o painel de comparação de segmentos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../se
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação de segmentos](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação de segmentos](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -50,9 +50,9 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaçã
 
 ## Usar
 
-Para usar um painel **[!UICONTROL Atribuição]**:
+Para usar um painel de **[!UICONTROL atribuição]**:
 
-1. Crie um painel **[!UICONTROL Atribuição]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](../panels.md#create-a-panel).
+1. Crie um painel de **[!UICONTROL atribuição]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](../panels.md#create-a-panel).
 
 1. Especifique a [entrada](#panel-input) do painel.
 
@@ -62,35 +62,35 @@ Para usar um painel **[!UICONTROL Atribuição]**:
 
 ### Entrada do painel
 
-Você pode configurar o painel [!UICONTROL Comparação de segmentos] usando estas configurações de entrada:
+É possível configurar o painel de [!UICONTROL comparação de segmentos] usando essas definições de entrada:
 
-![Painel de entrada de comparação de segmentos](assets/segment-comparison-input.png)
+![Painel de entrada de comparação de segmentos](assets/segment-comparison-input.png) 
 
 | Entrada | Descrição |
 | --- | --- |
-| **[!UICONTROL Adicionar um segmento]** | Selecione a dimensão que deseja comparar. |
-| **[!UICONTROL Comparar com]** | Selecione a dimensão que deseja usar para comparar o segmento selecionado inicial. Se você não selecionar um segmento específico, o segmento padrão **[!UICONTROL Todos os outros]** será usado. |
-| **[!UICONTROL Mostrar/ocultar configurações avançadas]** | Selecione **[!UICONTROL Mostrar configurações avançadas]** para configurar **[!UICONTROL Componentes excluídos]**, selecione **[!UICONTROL Ocultar configurações avançadas]** para ocultar **[!UICONTROL Componentes excluídos]**. |
-| **[!UICONTROL Componentes excluídos]** | Componentes que você pode especificar, como **[!UICONTROL Dimension]**, **[!UICONTROL Métricas]** ou **[!UICONTROL Segmentos]** para exclusão.<br><ul><li>Arraste e solte uma ou mais dimensões, métricas ou segmentos dos containers no contêiner **[!UICONTROL Componentes excluídos]**.</li><li>Para remover um componente, selecione o tipo (**[!UICONTROL Dimension]** **[!UICONTROL Métricas]** ou **[!UICONTROL Segmentos]**) e selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover um componente. Para remover todos os componentes, selecione **[!UICONTROL Limpar tudo]**.</li><li>Para definir a seleção atual de dimensões, métricas e segmentos como padrão, selecione **[!UICONTROL Definir como padrão]**.</li></ul> |
+| **[!UICONTROL Adicionar um segmento]** | Selecione a dimensão com a qual deseja comparar. |
+| **[!UICONTROL Comparar com]** | Selecione a dimensão que deseja usar para comparar o segmento selecionado inicialmente. Caso não selecione um segmento específico, o segmento padrão **[!UICONTROL Todos os outros]** será usado. |
+| **[!UICONTROL Mostrar/ocultar configurações avançadas]** | Selecione **[!UICONTROL Mostrar configurações avançadas]** para configurar **[!UICONTROL componentes excluídos]** e selecione **[!UICONTROL Ocultar configurações avançadas]** para ocultar **[!UICONTROL componentes excluídos]**. |
+| **[!UICONTROL Componentes excluídos]** | Componentes que é possível especificar para exclusão, como **[!UICONTROL Dimensões]**, **[!UICONTROL Métricas]** ou **[!UICONTROL Segmentos]**.<br><ul><li>Arraste e solte uma ou mais dimensões, métricas ou segmentos dos containers para o container **[!UICONTROL Componentes excluídos]**.</li><li>Para remover um componente, escolha o tipo (**[!UICONTROL Dimensões]**, **[!UICONTROL Métricas]** ou **[!UICONTROL Segmentos]**) e selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg). Para remover todos os componentes, selecione **[!UICONTROL Limpar tudo]**.</li><li>Para definir a seleção atual de dimensões, métricas e segmentos como padrão, selecione **[!UICONTROL Definir como padrão]**.</li></ul> |
 
 Selecione **[!UICONTROL Criar]** para criar o painel.
 
 ### Saída do painel
 
-Quando o Adobe Analytics terminar de analisar os dois segmentos desejados, os painéis de saída mostrarão resultados por meio de várias visualizações:
+Quando o Adobe Analytics terminar de analisar os dois segmentos desejados, os painéis de saída mostrarão os resultados em várias visualizações:
 
 ![Comparação de segmentos de saída do painel](assets/segment-comparison-output.png)
 
 | Visualização | Descrição |
 |---|---|
-| **[!UICONTROL Tamanho e sobreposição]** | Ilustra com uma visualização de [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) os tamanhos comparativos de cada segmento selecionado e o quanto eles se sobrepõem. |
-| **[!UICONTROL Visitantes únicos do primeiro segmento]** | Uma visualização [Número do resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) mostrando os visitantes únicos para o primeiro segmento (no exemplo Visitas de página única) |
-| **[!UICONTROL Visitantes únicos do 2º segmento]** | Uma visualização [Número do resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) mostrando os visitantes únicos para o segundo segmento (no exemplo Novas visitas) |
-| **[!UICONTROL Principais métricas em relação a segmentos]** | Uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) mostrando as métricas principais dos segmentos selecionados. |
-| **[!UICONTROL Métrica ao longo do tempo por segmento]** | Uma visualização de [Linha](/help/analyze/analysis-workspace/visualizations/line.md) mostrando as métricas ao longo do tempo para os segmentos selecionados. |
-| **[!UICONTROL Principais itens de dimensão em relação a Segmentos]** | Uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) mostrando os itens de dimensão mistos para os segmentos selecionados. |
-| **[!UICONTROL itens de Dimension por segmentos]** | Uma visualização de [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) mostrando os itens de dimensão por segmento. |
-| **[!UICONTROL Principais segmentos em relação a Segmentos]** | Uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que mostra os principais segmentos em relação aos segmentos. |
+| **[!UICONTROL Tamanho e sobreposição]** | Ilustra com uma visualização de [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) os tamanhos comparativos de cada segmento selecionado e o quanto se sobrepõem uns aos outros. |
+| **[!UICONTROL Visitantes únicos do primeiro segmento]** | Uma visualização de [número de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) exibindo os visitantes únicos do primeiro segmento (no exemplo, Visitas de página única) |
+| **[!UICONTROL Visitantes únicos do 2º segmento]** | Uma visualização de [número de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) exibindo os visitantes únicos do segundo segmento (no exemplo, Primeiras visitas) |
+| **[!UICONTROL Principais métricas em relação a segmentos]** | Uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) exibindo as métricas principais dos segmentos selecionados. |
+| **[!UICONTROL Métrica ao longo do tempo por segmento]** | Uma visualização de [linha](/help/analyze/analysis-workspace/visualizations/line.md) exibindo as métricas ao longo do tempo para os segmentos selecionados. |
+| **[!UICONTROL Principais itens de dimensão em relação a segmentos]** | Uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) exibindo os itens de dimensão mistos para os segmentos selecionados. |
+| **[!UICONTROL Itens de dimensão por segmentos]** | Uma visualização de [barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) exibindo os itens de dimensão por segmento. |
+| **[!UICONTROL Principais segmentos em relação a segmentos]** | Uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que mostra os principais segmentos em relação aos segmentos. |
 | **[!UICONTROL Sobreposição de segmentos]** | Uma visualização de [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) que mostra a sobreposição do segmento. |
 
 Use ![Editar](/help/assets/icons/Edit.svg) para reconfigurar e recriar o painel.

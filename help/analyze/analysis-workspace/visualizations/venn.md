@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
 source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 24%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a visualização de Venn no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Venn](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn) para a_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versão deste artigo._
+_Este artigo é sobre a visualização de Venn no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Venn](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/venn) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
-A visualização ![Type](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** permite arrastar até 3 filtros e uma métrica (do painel Componentes) para criar um diagrama Venn.
+A visualização de ![Tipo](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** permite arrastar até três filtros e uma métrica (do painel Componentes) para criar um diagrama de Venn.
 
 ![Visualização de Venn que inclui três filtros.](assets/venn.png)
 
-Você pode passar o mouse sobre os filtros para saber mais sobre porcentagens e muito mais.
+É possível passar o mouse sobre os filtros para saber mais sobre as porcentagens e ver outras informações.
 
-Para gerar uma [!UICONTROL Tabela de forma livre] da visualização [!UICONTROL Venn], selecione o ![StatusOrange](/help/assets/icons/StatusOrange.svg) colorido ao lado do cabeçalho **[!UICONTROL Venn]** e selecione **[!UICONTROL Mostrar fonte de dados]**. Você verá uma tabela de forma livre de **[!UICONTROL Dados de Venn]** com os dados usados para criar a visualização de [!UICONTROL Venn].
+Para gerar uma [!UICONTROL tabela de forma livre] a partir da visualização de [!UICONTROL Venn], selecione o ![StatusOrange](/help/assets/icons/StatusOrange.svg) colorido ao lado do cabeçalho **[!UICONTROL Venn]** e escolha **[!UICONTROL Exibir fonte de dados]**. Você verá uma tabela de forma livre de **[!UICONTROL Dados de Venn]** com os dados usados para criar a visualização de [!UICONTROL Venn].
 
 <!--
 To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
@@ -48,7 +48,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de Venn](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de Venn](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

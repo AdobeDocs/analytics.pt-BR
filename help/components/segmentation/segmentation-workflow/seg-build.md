@@ -4,9 +4,9 @@ title: Construir segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2063'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Visualização de dados"
->abstract="Compara os dados desse filtro com os da visualização de dados. A porcentagem de visualização é baseada no número total na visualização de dados dos **últimos 90 dias**.<br><br/>Se a visualização não estiver carregando, a conexão ainda pode estar preenchendo os dados."
+>abstract="Compara os dados desse filtro com os da visualização de dados. A porcentagem de visualização é baseada no número total na visualização de dados dos **últimos 90 dias**.<br><br/>Se a visualização não carregar, a conexão ainda pode estar preenchendo os dados."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
 
 * **Navegação superior do Analytics**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
 * **[!UICONTROL Analysis Workspace]**: clique em **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, abra um projeto e clique em **[!UICONTROL + Novo]** > **[!UICONTROL Criar segmento]**.
-* **[!UICONTROL Report Builder]**: [adicionar ou editar segmentos no Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [adicionar ou editar segmentos no Report Builder](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Critérios do construtor {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -78,7 +78,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
 1. **[!UICONTROL Descrição]**: forneça uma descrição para o segmento.
 1. **[!UICONTROL Tags]**: [marque os segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) que você está criando ao selecionar de uma lista de tags existentes ou criar uma nova tag.
 1. **[!UICONTROL Definições]**: é aqui que você [constrói e configura segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md), adiciona regras, bem como aninha e faz a sequência de contêineres.
-1. **[!UICONTROL Mostrar]**: (seletor de Contêiner Superior.) Permite selecionar o [contêiner](/help/components/segmentation/seg-overview.md) de nível superior ( [!UICONTROL Visitante], [!UICONTROL Visita], [!UICONTROL Ocorrência]). O contêiner de nível superior padrão no contêiner Ocorrência.
+1. **[!UICONTROL Mostrar]**: (seletor de container superior) permite selecionar o [container](/help/components/segmentation/seg-overview.md) de nível superior ( [!UICONTROL Visitante], [!UICONTROL Visita], [!UICONTROL Ocorrência]). O container de nível superior padrão é o container Ocorrência.
 1. Ícone **[!UICONTROL Opções]**: (engrenagem)
 
    * **[!UICONTROL + Adicionar contêiner]**: permite que você adicione um novo contêiner (abaixo do contêiner de nível superior) à definição do segmento.
@@ -116,7 +116,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
 1. **[!UICONTROL Segmentos]**: clique no cabeçalho para expandir.
 1. **[!UICONTROL Seletor do conjunto de relatórios]**: permite selecionar o conjunto de relatórios em que esse segmento será salvo. Você ainda pode utilizar o segmento em todos os conjuntos de relatórios.
 1. **[!UICONTROL Visualização de segmento]**: permite que você visualize as métricas principais para conferir se você tem um segmento válido e a amplitude deste. Represente o detalhamento do conjunto de dados que você pode esperar ao aplicar esse segmento. Mostra 3 círculos concêntricos e uma lista para mostrar o número e o percentual de correspondências para [!UICONTROL Ocorrências], [!UICONTROL Visitas] e [!UICONTROL Visitantes] para uma execução de segmentos em comparação ao conjunto de dados. Esse gráfico é atualizado imediatamente depois de criar ou efetuar alterações para sua definição de segmento.
-1. **[!UICONTROL Compatibilidade de produto]**: fornece uma lista de quais produtos do Adobe Analytics (Analysis Workspace, Data Warehouse) são compatíveis com o segmento que você criou. A maioria dos segmentos são compatíveis com todos os produtos. No entanto, nem todos os operadores e dimensões são compatíveis com todos os produtos do Analytics, especialmente o [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Esse gráfico é atualizado imediatamente depois de efetuar alterações na definição do segmento.
+1. **[!UICONTROL Compatibilidade de produto]**: fornece uma lista de quais produtos do Adobe Analytics (Analysis Workspace, Data Warehouse) são compatíveis com o segmento que você criou. A maioria dos segmentos são compatíveis com todos os produtos. Contudo, nem todos os operadores e dimensões são compatíveis com todos os produtos do Analytics, especialmente o [Data warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Esse gráfico é atualizado imediatamente após efetuar alterações na definição do segmento.
 1. **[!UICONTROL Salvar]** ou **[!UICONTROL Cancelar]**: salva ou cancela o segmento. Depois de clicar em **[!UICONTROL Salvar]**, você é levado para o Gerenciador de segmentos onde é possível gerenciar o segmento.
 
 
@@ -132,7 +132,7 @@ Há várias maneiras de acessar o Construtor de segmentos:
 1. Digite ou selecione um valor para o item selecionado.
 1. Adicione contêineres adicionar se necessário, com as regras **[!UICONTROL AND]**, **[!UICONTROL OR]**, ou **[!UICONTROL THEN]**.
 1. Depois de colocar os contêineres e definir as regras, consulte os resultados do segmento no gráfico de validação na parte superior à direita. O validador indica o percentual e o número absoluto de visualizações de página, visitas e visitantes únicos que corresponde ao segmento criado.
-1. Em **[!UICONTROL Marcas]**, [marque](/help/components/segmentation/segmentation-workflow/seg-tag.md) o contêiner ao selecionar uma marca existente ou criar uma nova.
+1. Em **[!UICONTROL Tags]**, [marque](/help/components/segmentation/segmentation-workflow/seg-tag.md) o container por selecionar uma tag existente ou criar uma nova.
 1. Clique em **[!UICONTROL Salvar]** para salvar o segmento.
 
 Agora você é levado ao [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md), onde é possível marcar, compartilhar e gerenciar o segmento de várias maneiras.
@@ -170,7 +170,7 @@ Crie um contêiner de Visita e adicione o intervalo [!UICONTROL Últimos 60 dias
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de datas contínuos em segmentos](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de datas contínuos em segmentos](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

@@ -1,13 +1,13 @@
 ---
-description: Como criar e compartilhar cartões de pontuação de painéis do Adobe Analytics
+description: Como criar e compartilhar cartões de pontuação dos painéis do Adobe Analytics
 title: Criar e compartilhar cartões de pontuação móveis
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2524'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 80%
 
 <!-- markdownlint-enable MD034 -->
 
-As informações a seguir instruem os curadores de dados do Adobe Analytics sobre como configurar e apresentar cartões de pontuação móveis para usuários executivos. Para começar, você pode exibir o vídeo do construtor de cartão de pontuação dos painéis do Adobe Analytics:
+As informações a seguir instruem a equipe de curadoria de dados do Adobe Analytics sobre como configurar e apresentar cartões de pontuação móveis para usuários executivos. Para começar, assista ao vídeo do criador de cartões de pontuação dos painéis do Adobe Analytics:
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Construtor de cartões de pontuação para dispositivos móveis](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Criador de cartões de pontuação móveis](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,9 @@ Um cartão de pontuação do Adobe Analytics exibe as principais visualizações
 
 ![Exemplo de scorecard](assets/intro_scorecard.png)
 
-Como curador deste cartão de pontuação, você pode usar o construtor de cartões de pontuação para configurar quais blocos são exibidos no cartão de pontuação para o consumidor executivo. Você também configura como as exibições detalhadas ou os detalhamentos podem ser ajustados quando os blocos forem tocados. A interface do construtor de cartões de pontuação é mostrada abaixo:
+Ao realizar a curadoria deste cartão de pontuação, é possível usar o criador de cartões de pontuação para configurar quais blocos serão exibidos no cartão para o consumidor executivo. Você também configura como as exibições detalhadas ou os detalhamentos podem ser ajustados ao tocar nos blocos. A interface do criador de cartões de pontuação é mostrada abaixo:
 
-![Construtor de scorecards](assets/scorecard_builder.png)
+![Criador de cartões de pontuação](assets/scorecard_builder.png)
 
 Para criar o cartão de pontuação, é necessário fazer o seguinte:
 
@@ -50,7 +50,7 @@ Você pode acessar o modelo [!UICONTROL Cartão de pontuação para dispositivos
 ### Criar um novo projeto {#create}
 
 1. Abra o Adobe Analytics e clique na guia **[!UICONTROL Espaço de trabalho]**.
-1. Clique em **[!UICONTROL Criar projeto]** e selecione o modelo de projeto **[!UICONTROL Scorecard para dispositivos móveis em branco]**.
+1. Clique em **[!UICONTROL Criar projeto]** e selecione o modelo de projeto **[!UICONTROL Cartão de pontuação móvel em branco]**.
 1. Clique em **[!UICONTROL Criar]**.
 
 ![Modelo de Scorecard](assets/new_template.png)
@@ -62,13 +62,13 @@ Você pode acessar o modelo [!UICONTROL Cartão de pontuação para dispositivos
 
 ## Configure o cartão de pontuação com os dados e salve-o {#configure}
 
-Para implementar o modelo de scorecard:
+Para implementar o modelo de cartão de pontuação:
 
 1. Em **[!UICONTROL Propriedades]** (no painel direito), especifique um **[!UICONTROL Conjunto de relatórios do projeto]** cujos dados você deseja usar.
 
    ![Seleção de conjunto de relatórios](assets/properties_save.png)
 
-1. Para adicionar um novo bloco ao cartão de pontuação, arraste uma métrica do painel esquerdo e solte-a na zona **[!UICONTROL Arrastar e soltar métricas aqui]**. Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
+1. Para adicionar um novo bloco ao cartão de pontuação, arraste uma métrica do painel esquerdo e solte-a na área **[!UICONTROL Arraste e solte as métricas aqui]**. Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
 
    ![Adicionar blocos](assets/build_list.png)
 
@@ -87,7 +87,7 @@ Por exemplo, é possível adicionar dimensões apropriadas (como **[!DNL Marketi
 
 Para aplicar segmentos a blocos individuais, arraste um segmento do painel esquerdo e solte-o diretamente na parte superior do bloco.
 
-Se você quiser aplicar o segmento a todos os blocos no cartão de pontuação, solte o bloco sobre o cartão de pontuação. Ou você também pode aplicar segmentos selecionando segmentos no menu de filtro abaixo dos intervalos de datas. Você [configura e aplica filtros para seus cartões de pontuação](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR) da mesma forma que faria no Adobe Analytics Workspace.
+Se deseja aplicar o segmento a todos os blocos no cartão de pontuação, solte o bloco sobre o cartão. Também é possível aplicar segmentos selecionando-os no menu de filtro abaixo dos intervalos de datas. Para [configurar e aplicar filtros aos cartões de pontuação](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR), realize o mesmo processo que você usaria no espaço de trabalho do Adobe Analytics.
 
 ![Criar segmentos para filtro](assets/segment_ui.png)
 
@@ -109,7 +109,7 @@ Para criar uma data de comparação, você pode selecionar entre predefinições
 
 ![Novo cartão de pontuação4](assets/new_score_card4.png)
 
-Se o intervalo de datas desejado ainda não tiver sido criado, será possível criar um novo clicando no ícone de calendário.
+Se o intervalo de datas desejado ainda não tiver sido criado, é possível criar um novo clicando no ícone de calendário.
 
 ![Novo cartão de pontuação5](assets/new_score_card5.png)
 
@@ -130,7 +130,7 @@ A configuração é *on* por padrão. Desmarque a opção se não quiser exibir 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizações](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizações](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -181,7 +181,7 @@ Se desejar remover itens de dimensão [!UICONTROL Não especificados] dos dados,
 
 ## Exibir e configurar propriedades de blocos {#tiles}
 
-Ao clicar em um bloco no construtor de cartões de pontuação, o painel direito exibe as propriedades e características associadas a esse bloco e seu slide de detalhes. Nesse painel, você pode fornecer um novo **Título** para o bloco e, como alternativa, configurá-lo aplicando segmentos.
+Ao clicar em um bloco no criador de cartões de pontuação, o painel direito exibe as propriedades e características associadas a esse bloco e seu slide de detalhes. Nesse painel, você pode fornecer um novo **Título** para o bloco e, como alternativa, configurá-lo aplicando segmentos.
 
 ![Bloco de propriedades](assets/properties-tile-new.png)
 
@@ -206,7 +206,7 @@ Os slides de detalhes personalizados permitem ter ainda mais controle sobre quai
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Exibições de detalhes personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Exibições de detalhes personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -235,7 +235,7 @@ Para adicionar texto a um slide de detalhes, selecione um layout que apresente o
 
 ## Remover componentes {#remove}
 
-Da mesma forma, para remover um componente aplicado a todo o cartão de pontuação, clique em qualquer lugar do cartão de pontuação fora dos blocos e remova-o clicando no **x** exibido ao passar o mouse sobre o componente, como mostrado abaixo para o segmento **Primeiras visitas**:
+Da mesma forma, para remover um componente aplicado a todo o cartão de pontuação, clique em qualquer lugar fora dos blocos do cartão de pontuação e remova-o clicando no **x** que aparece ao passar o mouse sobre o componente, conforme mostrado abaixo para o segmento **Primeiras visitas**:
 
 ![Remover_componentes](assets/new_remove.png)
 
@@ -248,7 +248,7 @@ Por exemplo, se focar no tráfego na Web, sua métrica mais importante pode ser 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Criar histórias de dados](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Criar histórias de dados](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -342,7 +342,7 @@ Você pode visualizar como o cartão de pontuação será exibido e funcionará 
 
 Para nomear o cartão de pontuação, clique no namespace no canto superior esquerdo da tela e digite o novo nome.
 
-![Nomeação_Scorecards](assets/new_name.png)
+![Nomear_Scorecards](assets/new_name.png)
 
 ## Compartilhar um cartão de pontuação {#share}
 
@@ -361,25 +361,25 @@ Para compartilhar o cartão de pontuação com um usuário executivo:
 
 ![Compartilhar_Scorecards](assets/new_share.png)
 
-Depois de compartilhar um cartão de pontuação, os recipients podem acessá-lo nos painéis do Analytics. Se você fizer alterações subsequentes no cartão de pontuação usando o construtor de cartões de pontuação, elas serão atualizadas automaticamente no cartão de pontuação compartilhado. Os usuários executivos verão as alterações depois de atualizar o cartão de pontuação no aplicativo.
+Depois de compartilhar um cartão de pontuação, os recipients podem acessá-lo nos painéis do Analytics. Se você fizer alterações subsequentes no cartão de pontuação usando o criador de cartões de pontuação, elas serão atualizadas automaticamente no cartão compartilhado. Os usuários executivos verão as alterações depois de atualizar o cartão de pontuação no aplicativo.
 
-Se você atualizar o cartão de pontuação adicionando novos componentes, será possível compartilhar o cartão de pontuação novamente (e marcar a opção **[!UICONTROL Compartilhar componentes integrados]**) para garantir que seus usuários executivos tenham acesso a essas mudanças.
+Se você atualizar o cartão de pontuação adicionando novos componentes, é recomendado compartilhar o cartão de pontuação novamente (e marcar a opção **[!UICONTROL Compartilhar componentes integrados]**) para garantir que seus usuários executivos tenham acesso a essas mudanças.
 
 ### Compartilhar cartões de pontuação usando um link compartilhável {#shareable-link}
 
-Usar um link compartilhável facilita o compartilhamento de um cartão de pontuação em um aplicativo de email, documento ou mensagem de texto. O link compartilhável permite que os recipients abram o cartão de pontuação em seu desktop ou no aplicativo móvel de painéis. Deep linking compartilháveis facilitam ainda mais o compartilhamento de projetos e impulsionam o engajamento com as partes interessadas.
+Usar um link compartilhável facilita o compartilhamento de um cartão de pontuação por meio de um email, documento ou aplicativo de mensagem de texto. O link compartilhável permite que destinatários abram o cartão de pontuação no desktop ou no aplicativo móvel de painéis. O uso de deep links compartilháveis torna ainda mais fácil compartilhar projetos e aumentar o engajamento das partes interessadas.
 
 Para compartilhar um cartão de pontuação usando um link compartilhável
 
-1. Clique no menu **[!UICONTROL Compartilhar]** e selecione **[!UICONTROL Compartilhar scorecard]**.
+1. Clique no menu **[!UICONTROL Compartilhar]** e selecione **[!UICONTROL Compartilhar cartão de pontuação]**.
 
    ![Compartilhar_Scorecards](assets/share-scorecard.png)
 
 1. Copie o link e cole-o em um email, documento ou aplicativo de mensagens instantâneas.
 
-   Quando um recipient usa um aplicativo de desktop ou navegador para abrir o link, o projeto de cartão de pontuação para dispositivos móveis é aberto no Workspace.
+   Quando um destinatário usar um aplicativo de desktop ou navegador para abrir o link, o projeto de cartão de pontuação móvel será aberto no Workspace.
 
-   Quando um recipient abre o link em um dispositivo móvel, o cartão de pontuação é aberto diretamente no aplicativo de painéis do Analytics.
+   Quando um destinatário abrir o link em um dispositivo móvel, o cartão de pontuação será aberto diretamente no aplicativo de painéis do Analytics.
 
-   Se um recipient não tiver baixado o aplicativo móvel, ele será direcionado para a lista de aplicativos na App Store ou na Google Play Store, onde poderá baixá-lo.
+   Se o destinatário não baixou o aplicativo móvel, ocorrerá um redirecionamento para a lista de aplicativos na App Store ou na Google Play Store, onde será possível baixá-lo.
 

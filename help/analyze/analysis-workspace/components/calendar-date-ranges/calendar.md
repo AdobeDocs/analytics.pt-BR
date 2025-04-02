@@ -1,13 +1,13 @@
 ---
-description: No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição.
+description: No calendário, é possível especificar datas e intervalos de datas ou selecionar uma predefinição.
 title: Visão geral do calendário e do intervalos de datas
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 90%
 <!-- markdownlint-enable MD034 -->
 
 
-No calendário, você pode especificar datas e intervalos de datas ou selecionar uma predefinição.
+No calendário, é possível especificar datas e intervalos de datas ou selecionar uma predefinição.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do calendário e do intervalo de datas](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do calendário e dos intervalos de datas](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ Você também pode arrastar datas (e dimensões de tempo) em um projeto do Espa�
 | Configuração | Descrição |
 |--- |--- |
 | Dias selecionados | Dias/semanas/meses/anos selecionados. |
-| Tornar os componentes do intervalo de datas relativos ao calendário do painel | Se desativado, qualquer componente de intervalo de datas usado em uma tabela, visualização ou área de soltar do painel substitui o calendário do painel. <p>Se ativado, quaisquer componentes de intervalo de datas usados em uma tabela, visualização ou área de soltar do painel estão relacionados ao intervalo de datas do painel. Por exemplo, se o intervalo de datas do painel estiver definido como 1° de novembro a 30 de novembro e um componente de intervalo de datas da Semana passada for usado em uma tabela de forma livre, as informações na tabela de forma livre se referem à última semana de outubro. |
+| Tornar os componentes do intervalo de datas relativos ao calendário do painel | Se desabilitado, qualquer componente de intervalo de datas usado em uma tabela, visualização ou área de destino do painel substituirá o calendário do painel. <p>Se habilitado, qualquer componente de intervalo de datas usado em uma tabela, visualização ou área de destino do painel estará relacionado ao intervalo de datas do painel. Por exemplo, se o intervalo de datas do painel estiver definido como 1° de novembro a 30 de novembro e um componente de intervalo de datas Semana passada for usado em uma tabela de forma livre, as informações na tabela se referirão à última semana de outubro. |
 | Usar datas contínuas | Datas contínuas permitem gerar um relatório dinâmico que analisa um certo período de tempo, seja para frente ou para trás, com base na execução do relatório. Por exemplo, se você quiser relatar todos os pedidos feitos no “Mês anterior” (dependendo da Data de criação) e executar o relatório em dezembro, você verá os pedidos feitos em novembro. Se executar o mesmo relatório em janeiro, verá os pedidos feitos em dezembro.<ul><li>**[!UICONTROL Visualização de data]**: indica o período compreendido no calendário em andamento.</li><li>**[!UICONTROL Início]**: você pode escolher entre dia atual, semana atual, mês atual, trimestre atual, ano atual.</li><li>**[!UICONTROL Fim]**: você pode escolher entre dia atual, semana atual, mês atual, trimestre atual, ano atual.</li></ul>Para ver um exemplo, consulte [Intervalos de datas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Selecionado por padrão. |
 | Intervalo de datas | Permite selecionar um intervalo de datas predefinido. Últimos 30 dias é padrão. **[!UICONTROL Essa semana/mês/trimestre/ano (exceto hoje)]** permite escolher entre intervalos de datas que não incluem dados parciais do dia de hoje. |
 | Aplicar a todos os painéis | Permite alterar o intervalo de datas selecionado para o painel atual e também para todos os outros painéis do projeto. |

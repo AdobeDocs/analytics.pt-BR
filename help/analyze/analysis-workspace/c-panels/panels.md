@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2157'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Um [!UICONTROL painel] é uma coleção de tabelas e visualizações. Você pode
 
 ## Tipos de painel
 
-Os seguintes tipos de painel estão disponíveis no Analysis Workspace para [!UICONTROL Adobe Analytics]:
+Os seguintes tipos de painel estão disponíveis no Analysis Workspace para o [!UICONTROL Adobe Analytics]:
 
 | Nome do painel | Descrição |
 | --- | --- |
@@ -78,13 +78,13 @@ Para criar um painel:
 
 ## Conjunto de relatórios
 
-Cada painel está associado a um [conjunto de relatórios](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado por ![Dados](/help/assets/icons/Data.svg) **[!UICONTROL *nome do conjunto de relatórios *]**no menu suspenso na parte superior direita do painel.
+Cada painel é associado a um [conjunto de relatórios](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado pelo ![Dados](/help/assets/icons/Data.svg) **[!UICONTROL *nome do conjunto de relatórios *]**no menu suspenso no canto superior direito do painel.
 
-Ao criar um novo painel, o conjunto de relatórios padrão é baseado no conjunto de relatórios do painel em que você trabalhou pela última vez no projeto do Analysis Workspace.
+Ao criar um novo painel, o conjunto de relatórios padrão se baseia no conjunto de relatórios do painel que você utilizou pela última vez no projeto do Analysis Workspace.
 
-Em um projeto, você pode usar um ou [muitos conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=pt-BR) dependendo dos casos de uso da análise.
+Em um projeto, é possível usar um ou [vários conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=pt-BR), dependendo dos casos de uso de análise. 
 
-A lista dos conjuntos de relatórios é classificada de acordo com a relevância, que a Adobe define levando em conta quão recentemente e frequentemente o pacote foi usado pelo usuário atual e com que frequência o pacote é usado na organização.
+A lista dos conjuntos de relatórios é classificada de acordo com a relevância, a qual a Adobe define levando em conta quão recentemente e frequentemente o pacote foi usado pelo usuário atual e com que frequência o pacote é usado na organização.
 
 ![](assets/panel-report-suite.png)
 
@@ -93,9 +93,9 @@ A lista dos conjuntos de relatórios é classificada de acordo com a relevância
 >O conjunto de relatórios selecionado determina quais dimensões, métricas e segmentos estão disponíveis para criar visualizações em um painel.
 >
 >
->Ao alternar um conjunto de relatórios para um painel, alguns dos componentes podem não estar disponíveis nesse novo conjunto de relatórios. Essa alteração pode fazer com que a visualização não seja renderizada corretamente. Você poderá ver avisos como:
+>Ao alterar um conjunto de relatórios de um painel, alguns dos componentes podem não estar disponíveis no novo conjunto de relatórios. Essa alteração pode fazer com que a visualização não seja renderizada corretamente. Você poderá ver avisos como:
 >
->* Esse painel contém componentes que não estão ativados no conjunto de relatórios selecionado. Altere o conjunto de relatórios ou ative os componentes necessários no conjunto de relatórios.
+>* Esse painel contém componentes que não estão habilitados no conjunto de relatórios selecionado. Altere o conjunto de relatórios ou habilite os componentes necessários no conjunto de relatórios.
 >* Não é possível renderizar a visualização: verifique as colunas e linhas para garantir que elas contenham componentes válidos.
 >
 
@@ -105,7 +105,7 @@ O calendário do painel controla o intervalo de datas de relatórios para tabela
 
 >[!NOTE]
 >
->Se um componente de Intervalo de datas ![Calendário](/help/assets/icons/Calendar.svg) for usado em uma visualização ou painel (por exemplo, como um segmento), o componente de Intervalo de datas substituirá o calendário do painel.
+>Se um componente de intervalo de datas ![Calendário](/help/assets/icons/Calendar.svg) for usado em uma visualização ou painel (por exemplo, como um segmento), esse componente substituirá o calendário do painel.
 >
 
 
@@ -139,75 +139,75 @@ Selecione **[!UICONTROL Aplicar a todos os painéis]** para aplicar o intervalo 
 
 ## Área de arrastar e soltar {#dropzone}
 
-A área de soltar do painel permite aplicar segmentos e segmentos suspensos a todas as tabelas e visualizações em um painel. Você pode aplicar um ou vários segmentos a um painel.
+A área de destino do painel permite aplicar segmentos e segmentos suspensos a todas as tabelas e visualizações em um painel. É possível aplicar um ou mais segmentos a um painel.
 
 ### Segmentos
 
-Arraste e solte quaisquer segmentos do painel esquerdo na área suspensa do painel para começar a segmentar o painel. Repita esse processo para adicionar outros segmentos ao painel. Os segmentos são exibidos lado a lado na parte superior do painel.
+Arraste e solte os segmentos do painel à esquerda na área de destino do painel para começar a segmentá-lo. Repita esse processo para adicionar mais segmentos ao painel. Os segmentos aparecem lado a lado na parte superior do painel.
 
 ![O painel esquerdo mostra as métricas disponíveis e a métrica Cliente de dispositivo móvel arrastada para a área de destino do painel.](assets/segment-filter.png)
 
 #### Segmentos rápidos
 
-Os componentes que não são de segmentos também podem ser arrastados diretamente para a área designada para criar segmentos rápidos, poupando o tempo e esforço de ter que ir até o [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md). Segmentos criados dessa maneira são definidos automaticamente como segmentos de nível de evento. Essa definição pode ser modificada rapidamente selecionando ![Editar](/help/assets/icons/Edit.svg) ao lado do nome do segmento.
+Além dos segmentos, também é possível arrastar outros tipos de componentes diretamente para a zona de destino para criar segmentos rápidos, economizando o tempo e esforço de usar o [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md). Segmentos criados dessa forma são definidos automaticamente como segmentos em nível de evento. Para modificar rapidamente essa definição, selecione ![Editar](/help/assets/icons/Edit.svg) ao lado do nome do segmento.
 
 <!-- For more information, see [Quick segments](/help/components/segmentation/). -->
 
-![Segmentos ad hoc tornados públicos e colocados na zona de soltar.](assets/adhoc-segment-filter.png)
+![Segmentos ad hoc que são tornados públicos e soltos na área de destino.](assets/adhoc-segment-filter.png)
 
 ### Segmentos suspensos
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos suspensos](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos suspensos](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 #### Segmentos suspensos estáticos
 
-Os segmentos suspensos estáticos permitem que você interaja com os dados de forma controlada. Por exemplo, você pode adicionar um segmento suspenso para Tipos de dispositivo móvel para segmentar o painel por Tablet, Celular ou Desktop.
+Os segmentos suspensos estáticos permitem interagir com os dados de forma controlada. Por exemplo, é possível adicionar um segmento suspenso para Tipos de dispositivo móvel para segmentar o painel por Tablet, Celular ou Desktop.
 
-Segmentos suspensos estáticos também podem ser usados para consolidar vários projetos em um só. Por exemplo, se você tiver muitas versões do mesmo projeto com diferentes segmentos de País aplicados, será possível consolidar todas as versões em um único projeto e adicionar um segmento suspenso de País.
+Segmentos suspensos estáticos também podem ser usados para consolidar vários projetos em um único. Por exemplo, se você tiver muitas versões do mesmo projeto com diferentes segmentos de País aplicados, é possível consolidar todas as versões em um único projeto e adicionar um segmento suspenso de País.
 
-![Segmentos suspensos estáticos mostrando o filtro &quot;Direto&quot; do Canal de mercado destacado. ](assets/dropdown-filter-intro.png)
+![Os segmentos suspensos estáticos e o filtro “Direto” do canal de mercado destacado.](assets/dropdown-filter-intro.png)
 
 ##### Criar segmentos suspensos estáticos
 
-* Para segmentos suspensos usando itens de dimensão, selecione uma única dimensão no painel esquerdo e solte a dimensão na área de soltar do painel ao segurar a classe (*shift*). Essa ação cria um segmento suspenso com todos os itens de dimensão associados a essa dimensão.
+* Para segmentos suspensos que usam itens de dimensão, selecione uma única dimensão no painel esquerdo e solte-a na área de destino do painel enquanto mantém pressionada a tecla ⇧ (*Shift*). Essa ação cria um segmento suspenso com todos os itens de dimensão que estão associados a essa dimensão.
 
-  Ou, se quiser que o segmento suspenso inclua apenas itens de dimensão específicos associados a uma dimensão, selecione o ícone de seta para a direita ao lado da dimensão desejada no painel esquerdo. Essa ação expõe todos os itens de dimensão disponíveis. Selecione vários itens de dimensão desta lista usando ⇧+![Selecionar](/help/assets/icons/Select.svg) (*shift* + *selecionar*) ou ^+![Selecionar](/help/assets/icons/Select.svg) (*control* + *selecionar*), depois solte-os na área de destino do painel **enquanto mantém pressionada a tecla** ⇧. 
+  Ou, se quiser que o segmento suspenso inclua apenas itens de dimensão específicos associados a uma dimensão, clique no ícone de seta para a direita ao lado da dimensão desejada no painel esquerdo. Essa ação expõe todos os itens de dimensão disponíveis. Selecione vários itens de dimensão desta lista usando ⇧+![Selecionar](/help/assets/icons/Select.svg) (*shift* + *selecionar*) ou ^+![Selecionar](/help/assets/icons/Select.svg) (*control* + *selecionar*), depois solte-os na área de destino do painel **enquanto mantém pressionada a tecla** ⇧. 
 
-* Para segmentos suspensos usando um único tipo de componente (por exemplo, somente dimensões, somente segmentos ou somente métricas), selecione vários itens do mesmo tipo no painel esquerdo usando a opçãoSelecionar](/help/assets/icons/Select.svg) ou ^+![Selecionar](/help/assets/icons/Select.svg). ![ Em seguida, solte os itens na área de destino do painel **enquanto mantém pressionada a tecla** ⇧.
+* Para segmentos suspensos que usam um único tipo de componente (por exemplo, somente dimensões, somente segmentos ou somente métricas), selecione vários itens do mesmo tipo no painel esquerdo usando ⇧+![Selecionar](/help/assets/icons/Select.svg) ou ^+![Selecionar](/help/assets/icons/Select.svg). Em seguida, solte os itens na área de destino do painel **enquanto mantém pressionada a tecla** ⇧.
 
-  Um único segmento suspenso é criado com componentes selecionados.
+  Um único segmento suspenso será criado com os componentes selecionados.
 
-* Para segmentos suspensos usando uma combinação de tipos de componentes (como 2 métricas e 3 segmentos), selecione vários componentes usando a opção +![Selecionar](/help/assets/icons/Select.svg) ou ^+![Selecionar](/help/assets/icons/Select.svg). Solte a seleção na área de destino do painel **enquanto mantém pressionada a tecla** ⇧. Nesse contexto, todos os tipos de componentes são tratados como segmentos suspensos separados. Por exemplo, se você incluir métricas e itens de dimensão na seleção, dois segmentos suspensos separados serão criados: um segmento suspenso inclui itens de dimensão e o outro inclui métricas.
+* Para segmentos suspensos que usam uma mistura de tipos de componentes (como 2 métricas e 3 segmentos), selecione vários componentes usando ⇧+![Selecionar](/help/assets/icons/Select.svg) ou ^+![Selecionar](/help/assets/icons/Select.svg). Solte a seleção na área de destino do painel **enquanto mantém pressionada a tecla** ⇧. Nesse contexto, todos os tipos de componentes são tratados como segmentos suspensos separados. Por exemplo, se você incluir métricas e itens de dimensão na seleção, dois segmentos suspensos separados serão criados: um segmento suspenso que inclui itens de dimensão e outro que inclui métricas.
 
-Um segmento suspenso fornece as seguintes opções de menu de contexto:
+Um segmento suspenso fornece as seguintes opções no menu de contexto:
 
-* **[!UICONTROL Excluir lista suspensa]**: remove o segmento suspenso do painel.
-* **[!UICONTROL Excluir rótulo]**: remova o texto exibido acima de um segmento suspenso. Para modificar o rótulo, passe o mouse sobre o rótulo e selecione ![Editar rótulo do segmento suspenso](/help/assets/icons/Edit.svg).
-* **[!UICONTROL Adicionar rótulo]**: quando você adiciona um segmento suspenso a um projeto, um rótulo é automaticamente definido para o nome do componente. Se você excluir o rótulo, poderá adicioná-lo novamente com essa opção.
-* **[!UICONTROL Exigir seleção]**: Exige que um segmento seja definido no painel.
+* **[!UICONTROL Excluir item suspenso]**: remove o segmento suspenso do painel.
+* **[!UICONTROL Excluir rótulo]**: remove o texto exibido acima de um segmento suspenso. Para modificar o rótulo, passe o mouse sobre ele e selecione ![Editar rótulo do segmento suspenso](/help/assets/icons/Edit.svg).
+* **[!UICONTROL Adicionar rótulo]**: ao adicionar um segmento suspenso a um projeto, um rótulo é definido automaticamente para o nome do componente. Se você excluir o rótulo, poderá adicioná-lo novamente com essa opção.
+* **[!UICONTROL Exigir seleção]**: torna obrigatória a definição de um segmento no painel.
 
 ##### Usar segmentos suspensos estáticos
 
-Os usuários podem usar o menu suspenso de segmentos de qualquer uma das seguintes maneiras para segmentar o painel:
+É possível usar o menu suspenso de segmento de qualquer uma das seguintes maneiras para segmentar o painel:
 
-* Aplique um único segmento ao painel selecionando o segmento no segmento suspenso.
+* Aplicar um único segmento ao painel selecionando o segmento na lista de segmentos suspensos.
 
-* Aplique vários segmentos ao painel selecionando mais de um segmento no segmento suspenso. O painel é segmentado para incluir qualquer um dos segmentos selecionados.
+* Aplicar vários segmentos ao painel selecionando mais de um segmento na lista de segmentos suspensos. O painel é segmentado para incluir qualquer um dos segmentos selecionados.
 
 
 #### Segmentos suspensos dinâmicos
 
-Os segmentos suspensos dinâmicos permitem determinar os valores disponíveis com base nos dados dentro do intervalo de relatórios do painel e nos valores em outros segmentos suspensos. Por exemplo, você pode criar dois menus suspensos dinâmicos usando uma dimensão Países e uma dimensão Cidades. Ao selecionar um país na lista suspensa **[!UICONTROL Países]**, a lista suspensa **[!UICONTROL Cidades]** se ajusta dinamicamente para mostrar apenas cidades desse país.
+Os segmentos suspensos dinâmicos permitem determinar os valores disponíveis com base nos dados dentro do intervalo de relatórios do painel e nos valores de outros segmentos suspensos. Por exemplo, você pode criar dois menus suspensos dinâmicos usando uma dimensão Países e uma dimensão Cidades. Ao selecionar um país na lista suspensa **[!UICONTROL Países]**, a lista suspensa **[!UICONTROL Cidades]** se ajusta dinamicamente para mostrar apenas cidades desse país.
 
-Esse mesmo conceito se aplica a todas as dimensões; somente os itens de dimensão que aparecem no intervalo de datas do painel e nos segmentos selecionados são visíveis. Os itens de Dimension selecionados nos segmentos suspensos estáticos afetam os valores disponíveis nos segmentos suspensos dinâmicos. No entanto, o inverso não é verdadeiro; os itens de Dimension selecionados em segmentos suspensos dinâmicos não afetam os valores disponíveis em segmentos suspensos estáticos.
+Esse mesmo conceito se aplica a todas as dimensões: somente os itens de dimensão que aparecem dentro do intervalo de datas do painel e dos segmentos selecionados são visíveis. Os itens de dimensão selecionados em segmentos suspensos estáticos afetam os valores disponíveis nos segmentos suspensos dinâmicos. No entanto, o inverso não é verdadeiro: os itens de dimensão selecionados em segmentos suspensos dinâmicos não afetam os valores disponíveis nos segmentos suspensos estáticos.
 
-A seleção manual de itens de dimensão estará disponível se você antecipar que um determinado item de dimensão será coletado no futuro. Você também pode apagar um segmento suspenso dinâmico para que ele não contenha um valor, permitindo que outros segmentos suspensos dinâmicos contenham mais valores. Selecione **[!UICONTROL Redefinir tudo]** para limpar a seleção de todos os segmentos suspensos desse painel.
+A seleção manual de itens de dimensão estará disponível se você antecipar que um determinado item de dimensão será coletado no futuro. Também é possível limpar um segmento suspenso dinâmico para que ele não contenha um valor, permitindo que outros segmentos suspensos dinâmicos contenham mais valores. Selecione **[!UICONTROL Redefinir tudo]** para limpar a seleção de todos os segmentos suspensos desse painel.
 
 Para criar um segmento suspenso dinâmico:
 
@@ -230,7 +230,7 @@ Estas são as opções disponíveis:
 | --- | --- |
 | **[!UICONTROL Inserir painel copiado]** | Permite colar um painel copiado em outro lugar dentro do projeto ou em um projeto diferente. |
 | **[!UICONTROL Inserir visualização copiada]** | Cola uma visualização copiada em outro lugar dentro do painel, projeto ou em um projeto diferente. |
-| **[!UICONTROL Aplicar o conjunto de relatórios a todos os painéis]** | Aplique o conjunto de relatórios deste painel a todos os outros painéis no projeto. |
+| **[!UICONTROL Aplicar o conjunto de relatórios a todos os painéis]** | Aplica o conjunto de relatórios desse painel a todos os outros painéis no projeto. |
 | **[!UICONTROL Copiar painel]** | Copia um painel para que você possa inseri-lo em outro lugar dentro do projeto ou em um projeto diferente. |
 | **[!UICONTROL Duplicar o painel]** | Cria uma duplicata exata do painel atual, a qual você pode modificar. |
 | **[!UICONTROL Recolher todos os painéis]** | Recolhe todos os painéis do projeto. |

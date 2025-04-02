@@ -1,54 +1,54 @@
 ---
 description: Gerenciar alertas.
-title: Visão geral do Alert Manager
+title: Visão geral do gerenciador de alertas
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # Gerenciador de alertas
 
-Você pode gerenciar alertas existentes no Gerenciador de alertas. Você pode executar várias tarefas de gerenciamento em alertas, como marcar, renomear, excluir e muito mais.
+É possível gerenciar alertas existentes no gerenciador de alertas. É possível executar várias tarefas de gerenciamento em alertas, como aplicar tags, renomear, excluir e mais.
 
-O gerenciador de Alertas está estruturado de maneira semelhante ao [Gerenciador de Segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=pt-BR) e ao [Gerenciador de Métricas Calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=pt-BR).
+A estrutura do gerenciador de alertas é semelhante à do [gerenciador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=pt-BR) e do [gerenciador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=pt-BR).
 
 ![](assets/alert-manager.png)
 
 ## Criar alertas
 
-Para criar alertas a partir do Gerenciador de alertas:
+Para criar alertas a partir do gerenciador de alertas:
 
-1. Selecione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acessar o gerenciador de Alertas no Adobe Analytics.
+1. Selecione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acessar o gerenciador de alertas no Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
-1. Selecione [!UICONTROL **Adicionar**] (ou [!UICONTROL **Criar novo alerta**] se você não tiver nenhum alerta existente).
+1. Selecione [!UICONTROL **Adicionar**] (ou [!UICONTROL **Criar novo alerta**] se não houver um alerta existente).
 
-1. Selecione o tipo de alerta que corresponde ao alerta que você deseja criar:
+1. Selecione o tipo de alerta que você deseja criar:
 
-   * [!UICONTROL **Alerta de dados do Analytics**]: um alerta para notificá-lo quando ocorrerem eventos anormais em seus dados.
+   * [!UICONTROL **Alerta de dados do Analytics**]: um alerta para notificar sobre a ocorrência de eventos anormais nos dados.
 
-     Se você selecionar esta opção, continue com [Criar alertas](/help/components/c-alerts/alert-builder.md) para obter mais detalhes sobre como criar alertas.
+     Ao selecionar esta opção, continue lendo a seção [Criar alertas](/help/components/c-alerts/alert-builder.md) para obter mais detalhes sobre o assunto.
 
-   * [!UICONTROL **Alerta de uso de chamadas do servidor**]: um alerta para notificá-lo sobre o risco ou a ocorrência de uma sobreposição no consumo de chamadas do servidor e nos dados de compromisso.
+   * [!UICONTROL **Alerta de uso de chamadas do servidor**]: um alerta para notificar sobre o risco ou a ocorrência de um excesso nos dados de consumo e de compromisso de chamadas do servidor.
 
-     Se você selecionar esta opção, continue com os [alertas de uso de chamadas do servidor](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+     Ao selecionar esta opção, leia a seção sobre [Alertas de uso de chamadas do servidor](/help/admin/admin/c-server-call-usage/scu-alerts.md).
 
      >[!NOTE]
      >
-     >Você deve ser um administrador do Analytics ou um usuário com a permissão de Uso de chamadas do servidor para ter acesso ao uso de chamadas do servidor.
+     >Você deve ser um(a) admin do Analytics ou possuir a permissão de uso de chamadas do servidor para ter acesso às chamadas do servidor.
 
 ## Gerenciar alertas existentes
 
-Você pode executar várias ações nos alertas existentes, como marcar, renomear, excluir e assim por diante.
+É possível executar várias ações nos alertas existentes, como aplicar tags, renomear, excluir e assim por diante.
 
-Para gerenciar alertas existentes no Gerenciador de alertas:
+Para gerenciar alertas existentes no gerenciador de alertas:
 
-1. Selecione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acessar o gerenciador de Alertas no Adobe Analytics.
+1. Selecione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acessar o gerenciador de alertas no Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
@@ -60,33 +60,33 @@ Para gerenciar alertas existentes no Gerenciador de alertas:
 
    | Ação | Função |
    |---------|----------|
-   | [!UICONTROL **Tag**] | Aplicar uma tag a um alerta. Isso ajuda a organizar alertas para facilitar o uso. |
+   | [!UICONTROL **Tag**] | Aplica uma tag em um alerta. Isso ajuda a organizar alertas para facilitar o uso. |
    | [!UICONTROL **Excluir**] | Exclui o alerta. |
    | [!UICONTROL **Renomear**] | Renomeia o alerta. |
-   | [!UICONTROL **Aprovar**] | Marcar o alerta como Aprovado. |
+   | [!UICONTROL **Aprovar**] | Marca o alerta como Aprovado. |
    | [!UICONTROL **Copiar**] | Cria uma cópia (duplicata) do alerta. |
-   | [!UICONTROL **Desabilitar**] | Desativa um alerta atualmente ativado. |
-   | [!UICONTROL **Ativar**] | Ativa um alerta desativado no momento. |
-   | [!UICONTROL **Renovar**] | Renova a data de expiração do alerta. Essa ação estende a data de expiração para 1 ano a partir do dia em que você selecionou essa opção, independentemente da data de expiração original. |
-   | [!UICONTROL **Exportar para CSV**] | Exporta o alerta para um arquivo .CSV. |
+   | [!UICONTROL **Desabilitar**] | Desabilita um alerta que está habilitado. |
+   | [!UICONTROL **Habilitar**] | Habilita um alerta que está desabilitado. |
+   | [!UICONTROL **Renovar**] | Renova a data de expiração do alerta. Isso estende a data de expiração em um ano a partir do dia em que essa opção foi selecionada, independentemente da data de expiração original. |
+   | [!UICONTROL **Exportar para CSV**] | Exporta o alerta como um arquivo .CSV. |
 
 ## Editar um alerta
 
 Para editar um alerta existente:
 
-1. Selecione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acessar o gerenciador de Alertas no Adobe Analytics.
+1. Selecione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acessar o gerenciador de alertas no Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
 1. Selecione o nome do alerta na coluna [!UICONTROL **Título e descrição**].
 
-1. Edite o alerta conforme desejado.
+1. Edite o alerta como preferir.
 
-   Veja a seguir algumas das coisas que você pode fazer ao editar um alerta:
+   Veja a seguir algumas das coisas que é possível fazer ao editar um alerta:
 
    * Adicionar alertas a outros conjuntos de relatórios
    * Adicionar ou modificar a descrição
-   * Modificar a granularidade de tempo
+   * Modificar a granularidade do tempo
    * Modificar os destinatários
    * Modificar a data de expiração
    * Modificar métricas e filtros
@@ -95,26 +95,26 @@ Para editar um alerta existente:
 
 ## Configurar colunas
 
-Você pode configurar as informações exibidas para cada alerta no Gerenciador de alertas, configurando as colunas exibidas.
+É possível definir as informações exibidas para cada alerta no gerenciador de alertas por configurar as colunas exibidas.
 
-Para configurar as colunas visíveis no Gerenciador de alertas:
+Para configurar as colunas visíveis no gerenciador de alertas:
 
-1. No Adobe Analytics, selecione a guia **[!UICONTROL Componentes]** e selecione **[!UICONTROL Alertas]**.
+1. No Adobe Analytics, selecione a guia **[!UICONTROL Componentes]** e escolha **[!UICONTROL Alertas]**.
 
-1. No Gerenciador de alertas, selecione o ícone **Personalizar colunas** ![Ícone Personalizar colunas](assets/customize-columns-icon.png) e selecione as colunas que deseja exibir no gerenciador de alertas.
+1. No gerenciador de alertas, selecione o ícone **Personalizar colunas** ![Ícone Personalizar colunas](assets/customize-columns-icon.png) e escolha as colunas que deseja exibir.
 
    As seguintes colunas estão disponíveis:
 
    | Título da coluna | Descrição |
    |---|---|
-   | Título e descrição | Esses valores são fornecidos no Criador de alertas. Para editar o título e a descrição, selecione o link de título para abrir o Criador de alertas. |
+   | Título e descrição | Esses valores são fornecidos no criador de alertas. Para editar o título e a descrição, clique no link de título para abrir o criador de alertas.  |
    | Favoritos | Exibe ícones de estrela ao lado de cada alerta, permitindo marcar os alertas como favoritos. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
-   | Tipo | Mostra se o alerta é um alerta de dados do Analytics ou um alerta de uso de chamada do servidor. |
-   | Ativado | Mostra se o alerta está ativado ou desativado no momento. |
+   | Tipo | Mostra se o alerta é um alerta de dados do Analytics ou um alerta de uso de chamadas do servidor. |
+   | Ativado | Mostra se o alerta está habilitado ou desabilitado no momento. |
    | Conjunto de relatórios | Indica em qual conjunto de relatórios o alerta foi salvo pela última vez. |
-   | Proprietário | Indica quem possui o alerta. Como um usuário não administrativo, você pode ver somente os alertas que possui ou que foram compartilhados com você. |
-   | Tags | Mostra marcas que foram aplicadas ao alerta por você ou por pessoas que compartilharam o alerta com você. |
-   | Data de validade | Mostra a data e a hora em que o alerta está definido para expirar. |
+   | Proprietário | Indica o(a) proprietário(a) do alerta. Usuários não admins podem visualizar apenas alertas de sua propriedade ou aqueles que foram compartilhados com eles(as). |
+   | Tags | Mostra as tags que foram aplicadas ao alerta por você ou pelas pessoas que compartilharam o alerta. |
+   | Data de expiração | Mostra a data e a hora em que o alerta está definido para expirar. |
    | Data de modificação | Indica a data em que o alerta foi modificado pela última vez. |
 
    {style="table-layout:auto"}

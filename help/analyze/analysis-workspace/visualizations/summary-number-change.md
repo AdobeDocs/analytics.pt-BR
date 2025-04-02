@@ -6,25 +6,25 @@ feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 # [!UICONTROL Número do resumo] e [!UICONTROL Alteração do resumo]
 
-_Este artigo documenta as visualizações Número do resumo e Alteração do resumo no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Número do resumo e alteração do resumo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para a_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versão deste artigo._
+_Este artigo é sobre as visualizações de número do resumo e de alteração do resumo no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Número do resumo e alteração do resumo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Número do resumo e visualização de alteração do resumo](https://video.tv.adobe.com/v/335564/?quality=12){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de número do resumo e alteração do resumo](https://video.tv.adobe.com/v/335564/?quality=12){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
-## Visualização do [!UICONTROL Número do resumo] {#summary-number}
+## Visualização do [!UICONTROL número do resumo] {#summary-number}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -36,7 +36,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Número do 
 <!-- markdownlint-enable MD034 -->
 
 
-Use a visualização ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL Alteração do resumo]** para mostrar o delta (alteração) entre dois números. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
+Use a visualização de ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL alteração do resumo]** para exibir o delta (alteração) entre dois números. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
 
 <!--
 The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
@@ -52,16 +52,16 @@ Essa visualização se comporta das seguintes maneiras:
 * Se a coluna estiver selecionada, compara o primeiro valor a si mesmo, mostrando uma alteração de 0.
 
 
-![Visualização de alteração de resumo mostrando o delta entre dois números.s](assets/summary-change.png)
+![Visualização da alteração do resumo exibindo o delta entre dois números.](assets/summary-change.png)
 
 
-Como parte das configurações de visualização, estão disponíveis **[!UICONTROL Opções de alteração do resumo]** específicas.
+Como parte das configurações de visualização, há **[!UICONTROL opções de alteração do resumo]** específicas disponíveis.
 
 | Opção | Definição |
 |--- |--- |
-| **[!UICONTROL Mostrar alteração percentual]** | Mostrar a variação percentual entre os 2 números. |
-| **[!UICONTROL Mostrar diferença bruta]** | Mostrar a diferença bruta entre os 2 números. Também é possível abreviar valores e mostrar até 3 casas decimais com essa opção. |
-| **[!UICONTROL Abreviar valor]** | Selecione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente o valor alterado. Quando selecionado, insira um número para definir a quantidade de abreviação. Por exemplo:<br/><table><tr><td>**Valor original**</td><td>**Valor de abreviação**</td><td>**Resultado**</td></tr><tr><td>$ 12.011.141,25</td><td>Não selecionado</td><td  align="right">$ 12.011.141,25</td></tr><tr><td>$ 12.011.141,25</td><td>Selecionado, definido como `0`</td><td align="right">US$ 12 milhões</td></tr><tr><td>$ 12.011.141,25</td><td> Selecionado, definido como `1`</td><td  align="right">US$ 12,0 milhões</td></tr><tr><td>$ 12.011.141,25</td><td>Selecionado, definido como `2`</td><td align="right">US$ 12,01 milhões</td></tr><tr><td>$ 12.011.141,25</td><td>Selecionado, definido como `3`</td><td align="right">US$ 12,011 milhões</td></tr></table> |
+| **[!UICONTROL Mostrar variação porcentual]** | Mostra a variação percentual entre os dois números. |
+| **[!UICONTROL Mostrar diferença bruta]** | Mostra a diferença bruta entre os dois números. Também é possível abreviar valores e mostrar até 3 casas decimais com essa opção. |
+| **[!UICONTROL Abreviar valor]** | Selecione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente o valor alterado. Quando selecionado, insira um número para definir o nível da abreviação. Por exemplo:<br/><table><tr><td>**Valor original**</td><td>**Valor de abreviação**</td><td>**Resultado**</td></tr><tr><td>US$ 12.011.141,25</td><td>Não selecionada</td><td  align="right">US$ 12.011.141,25</td></tr><tr><td>US$ 12.011.141,25</td><td>Selecionado, definido como `0`</td><td align="right">US$ 12 milhões</td></tr><tr><td>US$ 12.011.141,25</td><td> Selecionado, definido como `1`</td><td  align="right">US$ 12,0 milhões</td></tr><tr><td>US$ 12.011.141,25</td><td>Selecionado, definido como `2`</td><td align="right">$12,01 milhões</td></tr><tr><td>US$ 12.011.141,25</td><td>Selecionado, definido como `3`</td><td align="right">US$ 12,011 milhões</td></tr></table> |
 
 >[!MORELIKETHIS]
 >

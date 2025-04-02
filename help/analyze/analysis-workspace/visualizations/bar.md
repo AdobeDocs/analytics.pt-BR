@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 23%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta as visualizações de Barra e Barra empilhadas no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Barra e barra empilhada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar) para a_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versão deste artigo._
+_Este artigo é sobre as visualizações de barra e barra empilhada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Barra e barra empilhada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/bar) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
-A visualização de barra tem uma opção padrão e empilhada.
+A visualização de barra tem uma opção padrão e a empilhada.
 
 ## Barra {#bar}
 
@@ -34,11 +34,11 @@ A visualização de barra tem uma opção padrão e empilhada.
 <!-- markdownlint-enable MD034 -->
 
 
-A visualização ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Bar]** mostra barras verticais que representam vários valores de uma ou mais métricas.
+A visualização de ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL barra]** mostra barras verticais que representam vários valores em uma ou mais métricas.
 
-![Visualização de barra virtual mostrando várias métricas, incluindo Exibições de página, Visitas, Entradas e Saídas.](assets/bar.png)
+![Visualização de barra vertical exibindo várias métricas, incluindo Exibições de página, Visitas, Entradas e Saídas.](assets/bar.png)
 
-Uma opção suspensa de granularidade nas configurações de visualização permite alterar uma visualização com tendência (por exemplo, linha, barra) de diária para semanal, mensal etc.
+Um menu suspenso de granularidade nas configurações de visualização permite alterar uma visualização de tendência (por exemplo, linha, barra) de diária para semanal, mensal etc.
 
 ## Barra empilhada {#bar-stacked}
 
@@ -52,11 +52,11 @@ Uma opção suspensa de granularidade nas configurações de visualização perm
 <!-- markdownlint-enable MD034 -->
 
 
-A visualização ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Bar stacked]** é como um gráfico de barras, mas com as barras de série empilhadas.
+A visualização de ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL barra empilhada]** é como um gráfico de barras, mas com barras em série empilhadas umas sobre as outras.
 
-![Cartão de barras empilhadas mostrando várias métricas.](assets/bar-stacked.png)
+![Gráfico de barras empilhadas exibindo várias métricas.](assets/bar-stacked.png)
 
-Use a opção **[!UICONTROL 100% empilhado]** em ![Configuração](/help/assets/icons/Setting.svg) **[!UICONTROL Configurações]** para transformar o gráfico em uma visualização 100% empilhada.
+Use a opção **[!UICONTROL 100% empilhada]** em ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Configurações]** para transformar o gráfico em uma visualização 100% empilhada.
 
 ![Um gráfico de barras 100% empilhadas.](assets/bar-stacked100.png)
 
@@ -64,5 +64,5 @@ Use a opção **[!UICONTROL 100% empilhado]** em ![Configuração](/help/assets/
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu de contexto de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -1,27 +1,27 @@
 ---
-description: Os alertas permitem controle granular sobre notificações e integração com a detecção de anomalias.
+description: Os alertas fornecem controle granular sobre notificações e integração com a detecção de anomalias.
 title: Visão geral de alertas
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
 # Visão geral de alertas
 
-Os alertas na Adobe Analytics permitem que você seja notificado com base nas porcentagens alteradas ou em pontos de dados específicos.
+Os alertas no Adobe Analytics permitem que você receba uma notificação com base em porcentagens alteradas ou pontos de dados específicos.
 
-Dependendo do pacote do Adobe Analytics, também é possível usar alertas para serem acionados com base em limites de anomalias. Esses alertas (também conhecidos como &quot;Alertas inteligentes&quot;) fornecem controles granulares que se integram à [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), acionando quando você mais precisa deles.
+Dependendo do pacote do Adobe Analytics, também é possível usar alertas que são acionados com base em limites de anomalias. Esses alertas (também conhecidos como “Alertas inteligentes”) fornecem controle granular que se integra à [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) e são acionados quando você mais precisa.
 
 Os alertas permitem:
 
 * Visualizar a frequência de disparo de um alerta
 * Enviar alertas por email ou SMS com links para projetos do Analysis Workspace gerados automaticamente
 * Criar alertas “empilhados”, capazes de capturar várias métricas de um só alerta
-* Criar alertas com base em anomalias (limites de 90%, 95%, 99%, 99,75% e 99,9%; % de alteração; acima/abaixo) (Disponível somente para clientes do Adobe Analytics com um pacote Select, Prime ou Ultimate)
+* Criar alertas com base em anomalias (ao atingir limites de 90%, 95%, 99%, 99,75% e 99,9%; após alterações de porcentagem; quando os níveis estão acima ou abaixo do limite) (Disponível somente para clientes do Adobe Analytics com um pacote Select, Prime ou Ultimate)
 
 O tutorial em vídeo a seguir fornece uma visão geral básica dos alertas: [Alertas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=pt-BR) (5:34)
 
@@ -29,7 +29,7 @@ O tutorial em vídeo a seguir fornece uma visão geral básica dos alertas: [Ale
 
 >[!NOTE]
 >
->O uso de alertas com detecção de anomalias (também conhecido como _Alertas inteligentes_) está disponível somente para organizações com um pacote do Adobe Analytics Prime ou Ultimate.
+>O uso de alertas com a detecção de anomalias (também conhecidos como _Alertas inteligentes_) está disponível somente para organizações com um pacote do Adobe Analytics Prime ou Ultimate.
 
 Se um alerta usar a detecção de anomalias, o período de treinamento varia de acordo com a granularidade selecionada para o alerta.
 
@@ -38,7 +38,7 @@ Se um alerta usar a detecção de anomalias, o período de treinamento varia de 
 * Granularidade diária: 35 dias + mesmo intervalo do ano passado
 * Granularidade por hora: 336 horas
 
-Para obter mais informações, consulte [Técnicas estatísticas usadas na Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+Para mais informações, consulte [Técnicas estatísticas usadas na Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
 
 ## Criar alertas
 
@@ -46,10 +46,10 @@ Para obter informações sobre como criar alertas no Adobe Analytics, consulte [
 
 >[!IMPORTANT]
 >
->Usar dados com carimbo de data e hora para criar alertas pode fazer com que os alertas disparem incorretamente. O Adobe recomenda usar dados sem carimbo de data e hora para alertas.
+>Usar dados com carimbo de data e hora para criar alertas pode fazer com que os alertas acionem incorretamente. A Adobe recomenda o uso de dados sem carimbo de data e hora para alertas.
 
 ## Gerenciar alertas
 
-Você pode gerenciar alertas existentes no Gerenciador de alertas. Você pode executar várias tarefas de gerenciamento em alertas, como marcar, renomear, excluir e muito mais.
+É possível gerenciar alertas existentes no gerenciador de alertas. É possível executar várias tarefas de gerenciamento em alertas, como aplicar tags, renomear, excluir e mais.
 
 Para obter mais informações sobre como gerenciar alertas existentes no Adobe Analytics, consulte [Gerenciar alertas](/help/components/c-alerts/alert-manager.md).
