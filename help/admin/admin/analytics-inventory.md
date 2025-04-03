@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fe1074403992c1dd28778f279cafe4e557dfe4fd
+source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 4%
+source-wordcount: '516'
+ht-degree: 13%
 
 ---
 
@@ -40,11 +40,23 @@ O objetivo deste aplicativo é ajudá-lo a responder às seguintes perguntas:
 
    * Qual grupo de conjuntos de relatórios você deve atualizar primeiro? último?
 
+## Permissões
+
+O Inventário do Analytics está disponível para usuários com privilégios de Administrador de produto do Adobe Analytics no [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
+
 ## Acessar inventário do Analytics
 
-O [!UICONTROL Inventário do Analytics] está disponível no menu **[!UICONTROL Administrador]** e também no item de menu **[!UICONTROL Todos os administradores]**.
+1. Clique em **[!UICONTROL Inventário do Analytics]** no menu **[!UICONTROL Admin]**. Ou vá para **[!UICONTROL Todos os administradores]** > **[!UICONTROL Inventário do Analytics]**.
 
 ![Menu-inventário-do-Analytics](assets/an-inventory-menu.png)
+
+1. A tela principal mostra um inventário abrangente do seu ambiente do Adobe Analytics:
+
+   ![Tela principal do inventário](assets/an_inventory.png)
+
+>[!IMPORTANT]
+>
+>   Nesta versão inicial, você pode ver números de resumo para projetos da Workspace, segmentos, métricas calculadas, dados avançados (Media Analytics) e usuários. Atualmente, os únicos itens acionáveis são Conjuntos de relatórios.
 
 
 ## Componentes {#components}
@@ -58,6 +70,7 @@ O [!UICONTROL Inventário do Analytics] está disponível no menu **[!UICONTROL 
 
 <!-- markdownlint-enable MD034 -->
 
+Nesta versão inicial, você pode ver números resumidos do inventário para projetos, segmentos e métricas calculadas do Workspace. As versões subsequentes permitirão analisar esses componentes.
 
 ## Configuração e coleção de dados {#data-config}
 
@@ -70,6 +83,34 @@ O [!UICONTROL Inventário do Analytics] está disponível no menu **[!UICONTROL 
 
 <!-- markdownlint-enable MD034 -->
 
+### Analisar conjuntos de relatórios
+
+1. Para analisar os conjuntos de relatórios e decidir quais serão migrados, navegue até **[!UICONTROL Configuração e coleção de dados]** > **[!UICONTROL Conjuntos de relatórios]** e clique em **[!UICONTROL Analisar]**.
+
+   ![Lista de conjuntos de relatórios](assets/an_inv_rs.png)
+
+   | Elemento | Descrição |
+   | --- | --- |
+   | Nome | O nome do conjunto de relatórios |
+   | ID | A ID do conjunto de relatórios (rsid). Especifica uma ID única que pode conter somente caracteres alfanuméricos. Essa ID não pode ser alterada depois de criada. A Adobe define o prefixo da ID necessário e ele não pode ser alterado. |
+   | Ocorrências (últimos 90 dias) |  |
+   | Métricas | How |
+   | Dimensões |  |
+   | Analytics for Target (A4T) habilitado |  |
+   | Canais de marketing habilitados |  |
+   | Conector Source habilitado | Para seguir |
+   | Tipo de calendário | Para obter mais informações, consulte [Calendários personalizados](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+
+1. Observe que...
+
+### Exportar para CSV
+
+1. Para exportar a lista de conjuntos de relatórios para um arquivo .csv, clique em **[!UICONTROL Exportar para CSV]**.
+
+1. O arquivo .csv aparecerá na pasta Downloads.
+
+1. Abra-o e salve-o com um aplicativo de planilha em seu dispositivo.
+
 
 ## Gerenciamento do usuário {#user-management}
 
@@ -81,3 +122,5 @@ O [!UICONTROL Inventário do Analytics] está disponível no menu **[!UICONTROL 
 >abstract="Esta seção mostra o número de usuários em seu ambiente do Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
+
+O gerenciamento de usuários estará disponível em uma versão posterior do inventário do Analytics.
