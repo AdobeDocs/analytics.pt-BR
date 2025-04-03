@@ -1,15 +1,15 @@
 ---
-description: Usar o inventário do Analytics
+description: Usar o inventário Analytics
 title: Inventário do Analytics
 feature: Admin Tools
 role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
+source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 13%
+source-wordcount: '736'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="analytics-inventory"
 >title="Inventário do Analytics"
->abstract="Esta página fornece uma visão geral abrangente do seu ambiente do Adobe Analytics, incluindo o número de projetos e componentes, conjuntos de relatórios, usuários e muito mais. Essas informações são especialmente valiosas quando você inicia os preparativos para atualizar para o Customer Journey Analytics."
+>abstract="Esta página fornece uma visão geral abrangente das Adobe Analytics ambiente, incluindo o número de projetos e componentes, conjuntos de relatórios, usuários e muito mais. Essas informações são especialmente valiosas à medida que você inicia os preparativos para atualizar para o Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,19 +44,23 @@ O objetivo deste aplicativo é ajudá-lo a responder às seguintes perguntas:
 
 O Inventário do Analytics está disponível para usuários com privilégios de Administrador de produto do Adobe Analytics no [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
 
-## Acessar inventário do Analytics
+## Acesso Analytics inventário
 
-1. Clique em **[!UICONTROL Inventário do Analytics]** no menu **[!UICONTROL Admin]**. Ou vá para **[!UICONTROL Todos os administradores]** > **[!UICONTROL Inventário do Analytics]**.
+1. Clique **[!UICONTROL Analytics Inventário]** no **[!UICONTROL menu Admin]** . Ou vá para **[!UICONTROL Todos os administrador]** > **[!UICONTROL Analytics Inventário]**.
 
-![Menu-inventário-do-Analytics](assets/an-inventory-menu.png)
+![Analytics-Menu de inventário](assets/an-inventory-menu.png)
 
-1. A tela principal mostra um inventário abrangente do seu ambiente do Adobe Analytics:
+1. A tela principal mostra uma inventário abrangente das Adobe Analytics ambiente:
 
    ![Tela principal do inventário](assets/an_inventory.png)
 
->[!IMPORTANT]
->
->   Nesta versão inicial, você pode ver números de resumo para projetos da Workspace, segmentos, métricas calculadas, dados avançados (Media Analytics) e usuários. Atualmente, os únicos itens acionáveis são Conjuntos de relatórios.
+   Especificamente, essa tela é exibida
+
+   * O número total de projetos do Analysis Workspace e Publicação de conteúdo para dispositivos móveis do Scorecard que estão ativos nessa organização em todos os usuários.
+   * O número total de segmentos e métricas calculadas que estão ativas nessa organização por todos os usuários.
+   * O número total de conjuntos de relatórios base que foram definidos (os conjuntos de relatórios virtuais não estão incluídos).
+   * Se o recurso Mídia Analytics estiver ativo e, nesse caso, em qual modo.
+   * O número total de usuários definidos nessa organização.
 
 
 ## Componentes {#components}
@@ -83,9 +87,18 @@ Nesta versão inicial, você pode ver números resumidos do inventário para pro
 
 <!-- markdownlint-enable MD034 -->
 
-### Analisar conjuntos de relatórios
+### Conjuntos de relatórios
 
-1. Para analisar os conjuntos de relatórios e decidir quais serão migrados, navegue até **[!UICONTROL Configuração e coleção de dados]** > **[!UICONTROL Conjuntos de relatórios]** e clique em **[!UICONTROL Analisar]**.
+A exibição de conjuntos de relatórios mostra todos os conjuntos de relatórios definidos em uma organização. Ele permite responder às seguintes perguntas:
+
+* Quais conjuntos de relatórios receberam mais hit nos últimos 90 dias?
+* Quais conjuntos de relatórios não receberam hit nos últimos 90 dias?
+* Quais conjuntos de relatórios têm o maior número de dimensão definidos?
+* Quais conjuntos de relatórios têm o maior número de métricas definido?
+
+As respostas dessas perguntas fornecerão uma boa ideia sobre quais conjuntos de relatórios são os melhores candidatos para a migração.
+
+1. Para analisar conjuntos de relatórios, navegue até a **[!UICONTROL configuração de Dados e coleção]** > **[!UICONTROL conjuntos de relatórios]** e clique **[!UICONTROL em Analisar]**.
 
    ![Lista de conjuntos de relatórios](assets/an_inv_rs.png)
 
@@ -93,12 +106,12 @@ Nesta versão inicial, você pode ver números resumidos do inventário para pro
    | --- | --- |
    | Nome | O nome do conjunto de relatórios |
    | ID | A ID do conjunto de relatórios (rsid). Especifica uma ID única que pode conter somente caracteres alfanuméricos. Essa ID não pode ser alterada depois de criada. A Adobe define o prefixo da ID necessário e ele não pode ser alterado. |
-   | Ocorrências (últimos 90 dias) |  |
-   | Métricas | How |
-   | Dimensões |  |
-   | Analytics for Target (A4T) habilitado |  |
-   | Canais de marketing habilitados |  |
-   | Conector Source habilitado | Para seguir |
+   | Ocorrências (últimos 90 dias) | Quantas ocorrências esse conjunto de relatórios recebeu nos últimos 90 dias? |
+   | Métricas | Quantas métricas são definidas nesta conjunto de relatórios? |
+   | Dimensões | Quantas dimensões são definidas nesta conjunto de relatórios? |
+   | Analytics for Target (A4T) habilitado | Essa conjunto de relatórios está ativada para [Analytics para Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Canais de marketing habilitados | Essa conjunto de relatórios está ativada para [os Canais de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+   | Conector Origem habilitado | [No desenvolvimento] Esta conjunto de relatórios está ativada para a [Adobe Analytics Conector Origem para dados](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) conjunto de relatórios no Adobe Experience Platform? Em outras palavras, isso conjunto de relatórios pode ser migrado para Customer Journey Analytics usando o Conector Analytics Origem? |
    | Tipo de calendário | Para obter mais informações, consulte [Calendários personalizados](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 1. Observe que...
