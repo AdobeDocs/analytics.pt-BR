@@ -1,14 +1,14 @@
 ---
-description: Usar o inventário Analytics
+description: Usar o inventário do Analytics
 title: Inventário do Analytics
 feature: Admin Tools
 role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
+source-git-commit: f9bbb764ab34310e575a308110f84270ee9d665a
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '1035'
 ht-degree: 9%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="analytics-inventory"
 >title="Inventário do Analytics"
->abstract="Esta página fornece uma visão geral abrangente das Adobe Analytics ambiente, incluindo o número de projetos e componentes, conjuntos de relatórios, usuários e muito mais. Essas informações são especialmente valiosas à medida que você inicia os preparativos para atualizar para o Customer Journey Analytics."
+>abstract="Esta página fornece uma visão geral abrangente do seu ambiente do Adobe Analytics, incluindo o número de projetos e componentes, conjuntos de relatórios, usuários e muito mais. Essas informações são especialmente valiosas quando você inicia os preparativos para atualizar para o Customer Journey Analytics."
 
 <!-- markdownlint-enable MD034 -->
 
 O Inventário do Analytics fornece uma visão geral abrangente do seu ambiente do Adobe Analytics, incluindo o número de projetos e componentes, conjuntos de relatórios, usuários e muito mais. Essas informações são especialmente valiosas quando você inicia os preparativos para atualizar para o Customer Journey Analytics.
 
-O objetivo deste aplicativo é ajudá-lo a responder às seguintes perguntas:
+O objetivo do inventário do Analytics é ajudá-lo a responder às seguintes perguntas:
 
-* Para sua organização, quais ativos (como conjuntos de relatórios, segmentos, usuários, projetos do espaço de trabalho, feeds de dados e assim por diante) você precisa atualizar e quais ativos pode deixar para trás?
+* Para sua organização, quais ativos (como conjuntos de relatórios, segmentos, usuários, projetos do espaço de trabalho, feeds de dados e assim por diante) você precisa migrar e quais ativos pode deixar para trás?
 
 * Depois de determinar qual ativo precisa ser migrado:
 
@@ -38,29 +38,29 @@ O objetivo deste aplicativo é ajudá-lo a responder às seguintes perguntas:
 
    * Qual deve ser a sequência de atualização para seus ativos?
 
-   * Qual grupo de conjuntos de relatórios você deve atualizar primeiro? último?
+   * Quais conjuntos de relatórios você deve atualizar primeiro ou último?
 
 ## Permissões
 
 O Inventário do Analytics está disponível para usuários com privilégios de Administrador de produto do Adobe Analytics no [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
 
-## Acesso Analytics inventário
+## Acessar inventário do Analytics
 
-1. Clique **[!UICONTROL Analytics Inventário]** no **[!UICONTROL menu Admin]** . Ou vá para **[!UICONTROL Todos os administrador]** > **[!UICONTROL Analytics Inventário]**.
+1. Clique em **[!UICONTROL Inventário do Analytics]** no menu **[!UICONTROL Admin]**. Ou vá para **[!UICONTROL Todos os administradores]** > **[!UICONTROL Inventário do Analytics]**.
 
-![Analytics-Menu de inventário](assets/an-inventory-menu.png)
+![Menu-inventário-do-Analytics](assets/an-inventory-menu.png)
 
-1. A tela principal mostra uma inventário abrangente das Adobe Analytics ambiente:
+1. A tela principal mostra um inventário abrangente do seu ambiente do Adobe Analytics:
 
    ![Tela principal do inventário](assets/an_inventory.png)
 
-   Especificamente, essa tela é exibida
+   Especificamente, essa tela mostra:
 
-   * O número total de projetos do Analysis Workspace e Publicação de conteúdo para dispositivos móveis do Scorecard que estão ativos nessa organização em todos os usuários.
-   * O número total de segmentos e métricas calculadas que estão ativas nessa organização por todos os usuários.
-   * O número total de conjuntos de relatórios base que foram definidos (os conjuntos de relatórios virtuais não estão incluídos).
-   * Se o recurso Mídia Analytics estiver ativo e, nesse caso, em qual modo.
-   * O número total de usuários definidos nessa organização.
+   * O número total de projetos do Analysis Workspace e do Scorecard para dispositivos móveis ativos nesta organização, em todos os usuários.
+   * O número total de segmentos e métricas calculadas que estão ativos nesta organização, em todos os usuários.
+   * O número total de conjuntos de relatórios base que foram definidos. Os conjuntos de relatórios virtuais não estão incluídos.
+   * Se o recurso do Media Analytics estiver ativo e, nesse caso, em que modo.
+   * O número total de usuários definidos nesta organização.
 
 
 ## Componentes {#components}
@@ -91,14 +91,19 @@ Nesta versão inicial, você pode ver números resumidos do inventário para pro
 
 A exibição de conjuntos de relatórios mostra todos os conjuntos de relatórios definidos em uma organização. Ele permite responder às seguintes perguntas:
 
-* Quais conjuntos de relatórios receberam mais hit nos últimos 90 dias?
-* Quais conjuntos de relatórios não receberam hit nos últimos 90 dias?
-* Quais conjuntos de relatórios têm o maior número de dimensão definidos?
-* Quais conjuntos de relatórios têm o maior número de métricas definido?
+* Quais conjuntos de relatórios receberam mais ocorrências nos últimos 90 dias?
+* Quais conjuntos de relatórios não receberam visitas nos últimos 90 dias?
+* Quais conjuntos de relatórios têm o maior número de dimensões definidas?
+* Quais conjuntos de relatórios têm o maior número de métricas definidas?
 
 As respostas dessas perguntas fornecerão uma boa ideia sobre quais conjuntos de relatórios são os melhores candidatos para a migração.
 
-1. Para analisar conjuntos de relatórios, navegue até a **[!UICONTROL configuração de Dados e coleção]** > **[!UICONTROL conjuntos de relatórios]** e clique **[!UICONTROL em Analisar]**.
+>[!NOTE]
+>
+>Essa tabela é preenchida lentamente, com um valor de célula por vez.
+
+
+1. Para analisar conjuntos de relatórios, navegue até **[!UICONTROL Configuração e coleção de dados]** > **[!UICONTROL Conjuntos de relatórios]** e clique em **[!UICONTROL Analisar]**.
 
    ![Lista de conjuntos de relatórios](assets/an_inv_rs.png)
 
@@ -106,24 +111,66 @@ As respostas dessas perguntas fornecerão uma boa ideia sobre quais conjuntos de
    | --- | --- |
    | Nome | O nome do conjunto de relatórios |
    | ID | A ID do conjunto de relatórios (rsid). Especifica uma ID única que pode conter somente caracteres alfanuméricos. Essa ID não pode ser alterada depois de criada. A Adobe define o prefixo da ID necessário e ele não pode ser alterado. |
-   | Ocorrências (últimos 90 dias) | Quantas ocorrências esse conjunto de relatórios recebeu nos últimos 90 dias? |
-   | Métricas | Quantas métricas são definidas nesta conjunto de relatórios? |
-   | Dimensões | Quantas dimensões são definidas nesta conjunto de relatórios? |
-   | Analytics for Target (A4T) habilitado | Essa conjunto de relatórios está ativada para [Analytics para Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
-   | Canais de marketing habilitados | Essa conjunto de relatórios está ativada para [os Canais de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
-   | Conector Origem habilitado | [No desenvolvimento] Esta conjunto de relatórios está ativada para a [Adobe Analytics Conector Origem para dados](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) conjunto de relatórios no Adobe Experience Platform? Em outras palavras, isso conjunto de relatórios pode ser migrado para Customer Journey Analytics usando o Conector Analytics Origem? |
+   | Ocorrências (últimos 90 dias) | A métrica “Ocorrências” exibe o número de ocorrências em que uma determinada dimensão foi definida ou mantida. Quantas ocorrências esse conjunto de relatórios recebeu nos últimos 90 dias? |
+   | Métricas | Quantas métricas estão definidas neste conjunto de relatórios? |
+   | Dimensões | Quantas dimensões estão definidas neste conjunto de relatórios? |
+   | Analytics for Target (A4T) habilitado | Este conjunto de relatórios está habilitado para [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Canais de marketing habilitados | Este conjunto de relatórios está habilitado para [Canais de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+   | Conector Source habilitado | [Em desenvolvimento] Este conjunto de relatórios está habilitado para o [Adobe Analytics Source Connector para dados do conjunto de relatórios](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) no Adobe Experience Platform? Em outras palavras, esse conjunto de relatórios pode ser migrado para o Customer Journey Analytics usando o Analytics Source Connector? |
    | Tipo de calendário | Para obter mais informações, consulte [Calendários personalizados](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
-1. Observe que...
+#### Analisar dimensões
 
-### Exportar para CSV
+Essa tela fornece uma exibição detalhada de todas as dimensões definidas para um conjunto de relatórios específico. Nessa visualização, você pode responder às seguintes perguntas:
 
-1. Para exportar a lista de conjuntos de relatórios para um arquivo .csv, clique em **[!UICONTROL Exportar para CSV]**.
+* Quais dimensões estão ativadas para este conjunto de relatórios?
+* Quais são os dez principais itens de dimensão dos últimos 90 dias para esta dimensão?
+
+1. Clique no link **[!UICONTROL Dimensões]** na página Conjunto de relatórios.
+
+   | Elemento | Descrição |
+   | --- | --- |
+   | Nome | O nome da dimensão |
+   | ID | A ID da dimensão. |
+   | Tipo | O tipo de dimensão. Os valores possíveis incluem Conversão, Tráfego, Navegação, Fontes de tráfego, Clientes, Data ou dimensões específicas do produto Adobe, como AEM, Público-alvo, Adobe Campaign, Aplicativo móvel etc. |
+   | Descrição | Nem todas as dimensões têm descrições. |
+
+1. Determine quais dimensões fazem sentido migrar para o CJA.
+
+
+#### Analisar métricas
+
+Essa tela fornece uma exibição detalhada de todas as métricas definidas para um conjunto de relatórios específico. Nessa visualização, você pode responder às seguintes perguntas:
+
+* Quais métricas estão ativadas para este conjunto de relatórios?
+* Quais são as dez principais métricas dos últimos 90 dias?
+
+1. Clique no link **[!UICONTROL Métricas]** na página Conjunto de relatórios.
+
+
+   | Elemento | Descrição |
+   | --- | --- |
+   | Nome | O nome da métrica |
+   | ID | A ID da métrica. |
+   | Tipo | O tipo de métrica. Os valores possíveis incluem Conversão, Tráfego, Navegação, Fontes de tráfego, Clientes, Data ou dimensões específicas do produto Adobe, como AEM, Público-alvo, Adobe Campaign, Aplicativo móvel etc. |
+   | Descrição | Nem todas as dimensões têm descrições. |
+
+1. Determine quais métricas fazem sentido migrar para o CJA.
+
+#### Exportar para CSV
+
+1. Para exportar a lista de conjuntos de relatórios, dimensões ou métricas para um arquivo .csv, clique em **[!UICONTROL Exportar para CSV]**.
 
 1. O arquivo .csv aparecerá na pasta Downloads.
 
 1. Abra-o e salve-o com um aplicativo de planilha em seu dispositivo.
 
+#### Filtrar, pesquisar, ordenar e navegar
+
+* Você pode pesquisar a tabela.
+* No painel à esquerda, clique no ícone Filtro para filtrar por &quot;Tipo&quot;. Ou clique em **[!UICONTROL Ocultar Filtro]**.
+* Você pode ordenar todas as colunas em ordem crescente/decrescente (ordem de coluna única somente).
+* Você pode clicar em itens na navegação estrutural para navegar para outra tela.
 
 ## Gerenciamento do usuário {#user-management}
 
