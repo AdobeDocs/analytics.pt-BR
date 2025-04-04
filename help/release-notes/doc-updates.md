@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 80dc39ebf0a9b7122b346e2045498ad21eedc0fe
+source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
 workflow-type: tm+mt
-source-wordcount: '6352'
+source-wordcount: '6380'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Março de 2025** |  |
+| | **Inventário do Analytics** | O Inventário do Analytics fornece uma visão geral abrangente do seu ambiente do Adobe Analytics, incluindo o número de projetos e componentes, conjuntos de relatórios, usuários e muito mais. [Saiba mais](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
 | Guia de atualização do Customer Journey Analytics | Permite gerar um [guia passo a passo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) para atualizar do Adobe Analytics para o Customer Journey Analytics. |
 | Formatação de data esclarecida em exportações do Data Warehouse | Os valores de dimensão baseados em tempo nas exportações do Data Warehouse têm formatação de data não padrão. Foram adicionadas informações explicando como interpretar valores de data de exportações do Data Warehouse. <p>Consulte [Dimensões com suporte de uma maneira diferente (formatação de data não padrão)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) em [Suporte a componentes no Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Atualização das informações sobre exclusões de IP | Adição de informações explicando que [as exclusões de IP](/help/admin/admin/exclude-ip.md) podem levar até 5 minutos para entrarem em vigor e que as alterações se aplicam apenas a novas ocorrências (os dados capturados antes da definição da exclusão não são afetados). <p>O layout do conteúdo também foi atualizado para melhorar a legibilidade.</p> |

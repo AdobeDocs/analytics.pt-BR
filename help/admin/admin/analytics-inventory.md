@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: f9bbb764ab34310e575a308110f84270ee9d665a
+source-git-commit: ba96acbae989b653e4e63f2266511abed6b25b62
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 9%
+source-wordcount: '1132'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ O Inventário do Analytics fornece uma visão geral abrangente do seu ambiente d
 
 O objetivo do inventário do Analytics é ajudá-lo a responder às seguintes perguntas:
 
-* Para sua organização, quais ativos (como conjuntos de relatórios, segmentos, usuários, projetos do espaço de trabalho, feeds de dados e assim por diante) você precisa migrar e quais ativos pode deixar para trás?
+* Para sua organização, quais ativos (como conjuntos de relatórios, segmentos, usuários, projetos do Workspace e assim por diante) você precisa migrar e quais ativos pode deixar para trás?
 
 * Depois de determinar qual ativo precisa ser migrado:
 
@@ -114,10 +114,10 @@ As respostas dessas perguntas fornecerão uma boa ideia sobre quais conjuntos de
    | Ocorrências (últimos 90 dias) | A métrica “Ocorrências” exibe o número de ocorrências em que uma determinada dimensão foi definida ou mantida. Quantas ocorrências esse conjunto de relatórios recebeu nos últimos 90 dias? |
    | Métricas | Quantas métricas estão definidas neste conjunto de relatórios? |
    | Dimensões | Quantas dimensões estão definidas neste conjunto de relatórios? |
-   | Analytics for Target (A4T) habilitado | Este conjunto de relatórios está habilitado para [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
-   | Canais de marketing habilitados | Este conjunto de relatórios está habilitado para [Canais de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
-   | Conector Source habilitado | [Em desenvolvimento] Este conjunto de relatórios está habilitado para o [Adobe Analytics Source Connector para dados do conjunto de relatórios](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) no Adobe Experience Platform? Em outras palavras, esse conjunto de relatórios pode ser migrado para o Customer Journey Analytics usando o Analytics Source Connector? |
-   | Tipo de calendário | Para obter mais informações, consulte [Calendários personalizados](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Analytics for Target (A4T) habilitado | [Oculto por padrão] Este conjunto de relatórios está habilitado para o [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Canais de marketing habilitados | [Oculto por padrão] Este conjunto de relatórios está habilitado para [Canais de marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
+   | Conector Source habilitado | Este conjunto de relatórios está habilitado para o [Adobe Analytics Source Connector para dados do conjunto de relatórios](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) no Adobe Experience Platform? Em outras palavras, esse conjunto de relatórios pode ser migrado para o Customer Journey Analytics usando o Analytics Source Connector? |
+   | Tipo de calendário | [Oculto por padrão] Para obter mais informações, consulte [Calendários Personalizados](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### Analisar dimensões
 
@@ -134,6 +134,7 @@ Essa tela fornece uma exibição detalhada de todas as dimensões definidas para
    | ID | A ID da dimensão. |
    | Tipo | O tipo de dimensão. Os valores possíveis incluem Conversão, Tráfego, Navegação, Fontes de tráfego, Clientes, Data ou dimensões específicas do produto Adobe, como AEM, Público-alvo, Adobe Campaign, Aplicativo móvel etc. |
    | Descrição | Nem todas as dimensões têm descrições. |
+   | Conector Source habilitado | Essa dimensão está habilitada para o [Adobe Analytics Source Connector para dados do conjunto de relatórios](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) no Adobe Experience Platform? Em outras palavras, essa dimensão pode ser migrada para o Customer Journey Analytics usando o Analytics Source Connector? |
 
 1. Determine quais dimensões fazem sentido migrar para o CJA.
 
@@ -154,6 +155,7 @@ Essa tela fornece uma exibição detalhada de todas as métricas definidas para 
    | ID | A ID da métrica. |
    | Tipo | O tipo de métrica. Os valores possíveis incluem Conversão, Tráfego, Navegação, Fontes de tráfego, Clientes, Data ou dimensões específicas do produto Adobe, como AEM, Público-alvo, Adobe Campaign, Aplicativo móvel etc. |
    | Descrição | Nem todas as dimensões têm descrições. |
+   | Conector Source habilitado | Essa métrica está habilitada para o [Adobe Analytics Source Connector para dados do conjunto de relatórios](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) no Adobe Experience Platform? Em outras palavras, essa métrica pode ser migrada para o Customer Journey Analytics usando o Analytics Source Connector? |
 
 1. Determine quais métricas fazem sentido migrar para o CJA.
 
@@ -164,6 +166,11 @@ Essa tela fornece uma exibição detalhada de todas as métricas definidas para 
 1. O arquivo .csv aparecerá na pasta Downloads.
 
 1. Abra-o e salve-o com um aplicativo de planilha em seu dispositivo.
+
+>[!NOTE]
+>
+>Os itens e as colunas filtrados não são exportados para o arquivo .csv.
+
 
 #### Filtrar, pesquisar, ordenar e navegar
 
