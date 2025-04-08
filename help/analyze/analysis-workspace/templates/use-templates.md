@@ -5,9 +5,9 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: 75ade12b36e2dc98a1ad521c746d97094c7bf9cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18667'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -478,7 +478,7 @@ Os seguintes modelos estão disponíveis:
 >[!CONTEXTUALHELP]
 >id="template--exitPageRankedReport"
 >title="Veja as principais páginas que as pessoas acessam imediatamente antes de sair do site."
->abstract="**Isso pode ajudar** a entender melhor quais páginas estão afastando as pessoas do site. <br/>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar as páginas de saída comuns para otimizar a experiência que as pessoas têm antes de sair ou incluir conteúdo e links para incentivar as pessoas a permanecerem no site.<br/>Este modelo usa a métrica “Sessões”. Ele também usa a visualização de barra e a visualização de tabela de forma livre."
+>abstract="**Isso pode ajudar** a entender melhor quais páginas estão afastando as pessoas do site. <br/>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar as páginas de saída comuns para otimizar a experiência que as pessoas têm antes de sair ou incluir conteúdo e links para incentivá-las a permanecerem no site.<br/>Este modelo usa a métrica “Sessões”. Ele também usa a visualização de barra e a visualização de tabela de forma livre."
 
 <!-- markdownlint-enable MD034 -->
 
