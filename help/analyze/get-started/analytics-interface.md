@@ -3,10 +3,10 @@ description: Informações gerais sobre o Adobe Analytics, incluindo informaçõ
 title: Noções básicas da interface do Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '2064'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -79,7 +79,7 @@ A guia [!UICONTROL Componentes] inclui recursos que ajudam a ajustar e potencial
    | Search &amp; Promote | Não há mais suporte para este recurso. |  |
    | Mobile Services | Não há mais suporte para este recurso. |  |
    | Painéis do Analytics (aplicativo móvel) | O aplicativo de painéis do Adobe Analytics fornece insights a qualquer hora e em qualquer lugar. Por meio do aplicativo, os usuários e usuárias podem visualizar cartões de pontuação intuitivos criados com a interface de desktop do Adobe Analytics. | O aplicativo de painéis do Adobe Analytics na iOS App Store ou no Google Play Store |
-   | Report Builder | O Adobe Report Builder é um suplemento do Microsoft Excel. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados. | [O que é o Report Builder?](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/report-buider-overview) |
+   | Report Builder | O Adobe Report Builder é um suplemento do Microsoft Excel. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados. | [O que é o Report Builder?](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
    {style="table-layout:auto"}
 

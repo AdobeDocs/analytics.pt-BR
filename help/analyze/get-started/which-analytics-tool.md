@@ -3,8 +3,8 @@ description: Esta página de ajuda contém casos de uso recomendados para cada f
 title: Qual ferramenta do Adobe Analytics devo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a
 
 Os **[painéis do Adobe Analytics](/help/analyze/mobile-app/home.md)** permitem acessar em dispositivos móveis os cartões de pontuação intuitivos. Os scorecards são uma coleção das métricas principais e de outros componentes apresentados em um layout lado a lado, que você pode usar para obter detalhamentos mais minuciosos e relatórios de tendências. O aplicativo móvel é compatível com os sistemas operacionais iOS e Android.
 
-O **[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** é um complemento para Microsoft Excel executado no Mac, Windows e navegadores da web. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
+O **[Report Builder](/help/analyze/report-builder/rb-overview.md)** é um complemento para Microsoft Excel executado no Mac, Windows e navegadores da web. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
 
 O **[Report Builder legado](/help/analyze/legacy-report-builder/home.md)** é um complemento para Microsoft Excel executado apenas no Windows. Ele permite criar solicitações personalizadas com base em dados do Adobe Analytics, que você pode inserir em planilhas do Excel. As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como o Report Builder apresenta os dados.
 
@@ -79,7 +79,7 @@ As **[integrações do Adobe Exchange](https://www.adobeexchange.com/experiencec
 
 ## Exportação de dados do Adobe Analytics {#export}
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** deve ser usado:
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)** deve ser usado:
 
 * Se as opções de layout personalizadas do Workspace estiverem com limitações (tudo é possível no Report Builder, dentro dos limites do Excel).
 * Para vincular livremente as entradas do usuário ou as fontes de dados offline (impressões, custo) aos dados da Adobe. As Fontes de dados são uma solução mais permanente para vincular os dados (consulte Importação de dados para o Analytics).

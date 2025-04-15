@@ -3,7 +3,7 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -89,7 +89,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Prop:** consulte Variável de tráfego.
 * **Relatório classificado:** um formato de relatório que normalmente segue uma dimensão com uma métrica. Esse tipo de relatório permite que você veja os principais itens, como as páginas mais visualizadas do site. Consulte também Relatório de tendências.
 * **Tempo real:** exibe as variáveis configuradas assim que são coletadas com pouca ou nenhuma latência. Consulte [Relatórios em tempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) no guia do usuário Administração
-* **Report Builder:** O Suplemento Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) permite que você crie solicitações personalizadas com base em dados do Adobe Analytics.
+* **Report Builder:** O Suplemento Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md) permite que você crie solicitações personalizadas com base em dados do Adobe Analytics.
 * **Conjunto de relatórios:** um contêiner abrangente para o qual você envia dados. Todos os relatórios no Adobe Analytics fazem referência a um conjunto de relatórios.
 * **Reports &amp; Analytics:** esta ferramenta foi [encerrada](https://experienceleague.adobe.com/pt-br/docs/discontinued/using/reports-and-analytics).
 * **Intervalo de datas em andamento:** um tipo de intervalo de datas relativo que muda conforme o tempo passa. Por exemplo, um relatório que mostra os últimos 7 dias pode ser considerado um intervalo de datas em andamento. Consulte também intervalo de datas estático.

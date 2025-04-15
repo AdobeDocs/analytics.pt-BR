@@ -4,8 +4,8 @@ audience: all
 user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: Conheça maneiras de implementar o Adobe Analytics. Personalize quais dados são coletados para aproveitar ao máximo os dados do Analytics.
-source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -23,6 +23,9 @@ ht-degree: 100%
       + [Visão geral das variáveis de configuração](vars/config-vars/configuration-variables.md)
       + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
+      + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
+      + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
+      + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
       + [charSet](vars/config-vars/charset.md)
       + [collectHighEntropyUserAgentHints](vars/config-vars/collecthighentropyuseragenthints.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
@@ -55,9 +58,6 @@ ht-degree: 100%
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Variáveis de página {#page-vars}
       + [Visão geral das variáveis de página](vars/page-vars/page-variables.md)
-      + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
-      + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
-      + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
