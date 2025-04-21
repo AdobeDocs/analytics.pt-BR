@@ -4,7 +4,7 @@ description: Saiba como as dicas do cliente substituirão gradualmente o usuári
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assi
 
 Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativada por padrão**.
 
-Para dados enviados por API, como a [API de inserção de dados](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou a [API de inserção de dados em massa](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html), as dicas devem ser incluídas explicitamente na carga. Consulte a documentação respectiva para obter mais detalhes.
+Para dados enviados por API, como a [API de inserção de dados](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) ou a [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), as dicas devem ser incluídas explicitamente na carga. Consulte a documentação respectiva para obter mais detalhes.
 
 +++
 
@@ -145,7 +145,7 @@ Consulte a documentação para incluí-los por meio da [API de inserção de dad
 
 +++
 
-+++**As dicas do cliente estarão disponíveis nos dados enviados para o Adobe Experience Platform e o Customer Journey Analytics através do Adobe Source Connector?**
++++**As dicas do cliente estarão disponíveis nos dados enviados para a Adobe Experience Platform e a Customer Journey Analytics por meio do Adobe Source Connector?**
 
 A Adobe planeja incluir dicas do cliente em dados por meio do Conector de origem da Adobe no primeiro semestre de 2023.
 
