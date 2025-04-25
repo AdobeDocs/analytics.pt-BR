@@ -3,9 +3,9 @@ title: Regras do conjunto de classificação
 description: Exiba e edite regras para um conjunto de classificações individual.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 1%
 As regras do conjunto de classificações permitem classificar automaticamente valores com base no valor com o qual a variável está definida. Essas regras se aplicam a todos os valores de variável de entrada para todas as assinaturas do conjunto de classificações.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de classificações]** > **[!UICONTROL Conjuntos]** > Clique no nome do conjunto de classificações desejado > **[!UICONTROL Regras]**
+
+![interface do usuário de regras do conjunto de classificações](../../assets/csets-rules.png)
 
 ## Configurações de regra
 
