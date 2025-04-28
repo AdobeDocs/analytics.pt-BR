@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: Conheça maneiras de implementar o Adobe Analytics. Personalize quais dados são coletados para aproveitar ao máximo os dados do Analytics.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 90%
 
 ---
 
@@ -130,7 +130,6 @@ ht-degree: 100%
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-      + [websiteBot](vars/plugins/websitebot.md)
    + [Módulo de integração](vars/integrate.md)
 + Preparação para implementar o Adobe Analytics {#prepare}
    + [Criar uma camada de dados](prepare/data-layer.md)
@@ -139,11 +138,11 @@ ht-degree: 100%
    + [Implementação de marcação de vários relatórios](prepare/multi-suite-tagging.md)
    + [Criar um documento de design de solução](prepare/solution-design.md)
    + [Assumir o controle de uma implementação existente do Adobe Analytics](prepare/existing-implementation.md)
-+ Implementar o Analytics usando a Experience Platform Edge {#aep-edge}
++ Implementação do Analytics usando o Experience Platform Edge {#aep-edge}
    + [Visão geral da Experience Edge](aep-edge/overview.md)
    + [Mapeamento de variáveis de objetos de dados](aep-edge/data-var-mapping.md)
    + [Mapeamento de variáveis de objetos de XDM](aep-edge/xdm-var-mapping.md)
-   + SDK da Web {#web-sdk}
+   + SDK da web {#web-sdk}
       + [Visão geral do SDK da Web](aep-edge/web-sdk/overview.md)
       + [Migrar para o SDK da web com tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
       + [Migrar para o SDK da web com JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
@@ -186,7 +185,7 @@ ht-degree: 100%
    + [Implementar o Analytics em assistentes digitais](other/digital-assistants.md)
    + [Implementar o Analytics nos Artigos Instantâneos do Facebook](other/fb-instant-articles.md)
 + [Implementar o Analytics em dispositivos móveis](mobile-device-sdk.md)
-+ Casos de uso da implementação {#use-cases}
++ Casos de uso de implementação {#use-cases}
    + [Usar o AppMeasurement com iFrames](use-cases/iframe.md)
    + [Rastrear em tipos diferentes de implementação](use-cases/cross-type-implementation.md)
    + [Fluxo de trabalho de rastreamento de campanha](use-cases/campaign-tracking.md)
