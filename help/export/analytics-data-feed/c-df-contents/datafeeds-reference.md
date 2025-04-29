@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3625'
 ht-degree: 67%
 
 ---
@@ -145,7 +145,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`monthly_visitor`** | Um sinalizador que determina se o visitante é único no mês atual. | tinyint unsigned |
 | **`mvvar1`** - `mvvar3` | [Listar valores de variáveis](/help/implement/vars/page-vars/list.md). Contém uma lista delimitada de valores personalizados dependendo da implementação. As colunas `post_mvvar1` - `post_mvvar3` substituem o delimitador original por `--**--`. | texto |
 | **`mvvar1_instances`** - `mvvar3_instances` | Os valores da variável de lista que foram definidos na ocorrência atual. Substitui o delimitador original por `--**--`. Normalmente `post` , as colunas não contêm dados. | texto |
-| **`new_visit`** | Um sinalizador que determina se a ocorrência atual é uma nova visita. Definido por Adobe após 30 minutos de inatividade de visita. | tinyint unsigned |
+| **`new_visit`** | Um sinalizador que determina se a ocorrência atual é uma nova visita. Definido pelo Adobe após 30 minutos de inatividade da visita. | tinyint unsigned |
 | **`os`** | Uma ID numérica que representa o sistema operacional do visitante. Com base na coluna `user_agent`. O valor-chave da pesquisa padrão `operating_system.tsv` e da [pesquisa dinâmica](dynamic-lookups.md) `operating_system_type.tsv`. | int unsigned |
 | **`page_event`** | O tipo de ocorrência que é enviado na solicitação da imagem (ocorrência padrão, link de download, link personalizado, link de saída). [Pesquisa de evento da página](datafeeds-page-event.md). | tinyint unsigned |
 | **`page_event_var1`** | Somente usado em solicitações de imagem de rastreamento de link. O URL dos links clicados, seja de download, de saída ou personalizados. | texto |
@@ -405,3 +405,8 @@ A lista de colunas a seguir não é usada, foi removida ou não contém valor no
 * `videoresume`
 * `videototaltime`
 * `videouniquetimeplayed`
+
+>[!MORELIKETHIS]
+>
+>[Mapeamento da variável de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md)
+>[Mapeamento da variável de objeto de dados](/help/implement/aep-edge/data-var-mapping.md)

@@ -3,16 +3,16 @@ title: Processo de consolidação do conjunto de classificações
 description: O processo completo de consolidação de conjuntos de classificações.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: 828f41bf45c1954c3b68ad71a7746e24626b9eed
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # Processo de consolidação do conjunto de classificações
 
-Use essa interface para criar uma consolidação do conjunto de classificações do início ao fim.
+As consolidações de classificação permitem obter classificações de vários conjuntos de dados e combiná-las em um só. Use essa interface para criar uma consolidação do conjunto de classificações do início ao fim. Essa interface é mais valiosa para organizações que estão migrando de uma arquitetura de classificação herdada para uma arquitetura de conjunto de classificação. A maioria das organizações que já estão na arquitetura do conjunto de classificações normalmente não precisa usar esse fluxo de trabalho de consolidação.
 
 ## Criação
 
@@ -45,6 +45,6 @@ Depois que uma consolidação for validada, você poderá executá-la. A execuç
 
 ## Aprovar
 
-Atua como uma última chamada antes de remover os conjuntos de classificações individuais e criar um conjunto de classificações consolidado. Verifique se tudo está correto e clique em **[!UICONTROL Aprovar]**.
+A última chamada antes de remover conjuntos de classificações individuais e substituí-los por um conjunto de classificações consolidado. Verifique se tudo está correto e selecione **[!UICONTROL Aprovar]**.
 
 Depois de aprovado, o conjunto de classificações consolidado é criado. O status está definido como [!UICONTROL Concluído], e nenhuma outra ação é necessária para a consolidação.
