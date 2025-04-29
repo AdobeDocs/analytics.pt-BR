@@ -4,10 +4,10 @@ title: Visualizar dimensões
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f040971d1198fe7774bc04f6c42cc4e2145b197
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 90%
 
 ---
 
@@ -29,4 +29,4 @@ A partir de agora, por padrão, mostramos valores dinâmicos em vez de estático
 
 Ao passar o mouse sobre uma dimensão e clicar na seta para a direita cinza próxima a ela, é exibida uma lista de itens de dimensão. Uma lista de itens de dimensão normalmente mostra os itens principais referentes aos últimos 30 dias.
 
-Ao rolar para o final da lista, você verá **[!UICONTROL Mostrar itens superiores dos últimos 6 meses]**. Clique nessa opção para ver os itens superiores da dimensão nos últimos 180 dias.
+Ao rolar para o final da lista, você verá **[!UICONTROL Mostrar itens superiores dos últimos 18 meses]**. Clique nessa opção para ver os itens superiores da dimensão nos últimos 547 dias.
