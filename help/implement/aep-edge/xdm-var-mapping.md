@@ -4,10 +4,10 @@ description: Visualize quais campos XDM a borda mapeia automaticamente para vari
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 41395781f34d395954a1fc9de0351e4c63c1d6f8
+source-git-commit: 0b47fe05018fabc101fda696309ac868d87baf7e
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 55%
+source-wordcount: '1424'
+ht-degree: 50%
 
 ---
 
@@ -27,115 +27,115 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 
 | Caminho de campo XDM | Variável e descrição do Analytics |
 | --- | --- |
-| `xdm.application.isClose` | Ajuda a definir a métrica de ciclo de vida móvel [Falhas](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isInstall` | Ajuda a determinar quando aumentar a métrica de ciclo de vida móvel [Primeiras inicializações](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.closeType` | Determina se um evento de encerramento é uma falha ou não. Os valores válidos incluem `close` (Uma sessão de ciclo de vida termina e um evento de pausa foi recebido para a sessão anterior) e `unknown` (Uma sessão do ciclo de vida termina sem um evento de pausa). Ajuda a definir a métrica de ciclo de vida móvel [Falhas](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isInstall` | A métrica de ciclo de vida móvel [Instalações](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isLaunch` | A métrica de ciclo de vida móvel [Inicializações](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.name` | Ajuda a definir a dimensão de ciclo de vida móvel [ID do aplicativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isUpgrade` | A métrica de ciclo de vida móvel [Atualizações](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.version` | Ajuda a definir a dimensão de ciclo de vida móvel [ID do aplicativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.sessionLength` | A métrica de ciclo de vida móvel [Duração da sessão anterior](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.commerce.checkouts.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) para a métrica [Check-outs](../../components/metrics/checkouts.md). |
-| `xdm.commerce.checkouts.value` | Aumenta a métrica [Check-outs](../../components/metrics/checkouts.md) pela quantidade desejada. |
+| `xdm.application.isClose` | Ajuda a definir a métrica de ciclo de vida móvel [Falhas](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isInstall` | Ajuda a determinar quando aumentar a métrica de ciclo de vida móvel [Primeiras inicializações](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.application.closeType` | Determina se um evento de encerramento é uma falha ou não. Os valores válidos incluem `close` (Uma sessão de ciclo de vida termina e um evento de pausa foi recebido para a sessão anterior) e `unknown` (Uma sessão do ciclo de vida termina sem um evento de pausa). Ajuda a definir a métrica de ciclo de vida móvel [Falhas](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isInstall` | A métrica de ciclo de vida móvel [Instalações](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isLaunch` | A métrica de ciclo de vida móvel [Inicializações](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.application.name` | Ajuda a definir a dimensão de ciclo de vida móvel [ID do aplicativo](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isUpgrade` | A métrica de ciclo de vida móvel [Atualizações](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.application.version` | Ajuda a definir a dimensão de ciclo de vida móvel [ID do aplicativo](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.application.sessionLength` | A métrica de ciclo de vida móvel [Duração da sessão anterior](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.commerce.checkouts.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) para a métrica [Check-outs](/help/components/metrics/checkouts.md). |
+| `xdm.commerce.checkouts.value` | Aumenta a métrica [Check-outs](/help/components/metrics/checkouts.md) pela quantidade desejada. |
 | `xdm.commerce.order.currencyCode` | Define a variável da configuração [currencyCode](../vars/config-vars/currencycode.md). |
 | `xdm.commerce.order.purchaseID` | Define a variável da página [purchaseID](../vars/page-vars/purchaseid.md). |
 | `xdm.commerce.order.payments[0].transactionID` | Define a variável de página [transactionID](../vars/page-vars/transactionid.md). |
-| `xdm.commerce.productListAdds.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Adições ao carrinho](../../components/metrics/cart-additions.md). |
-| `xdm.commerce.productListAdds.value` | Incrementa a métrica [Adições ao carrinho](../../components/metrics/cart-additions.md). |
-| `xdm.commerce.productListOpens.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Carrinhos](../../components/metrics/carts.md). |
-| `xdm.commerce.productListOpens.value` | Incrementa a métrica [Carrinhos](../../components/metrics/carts.md). |
-| `xdm.commerce.productListRemovals.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Remoções do carrinho](../../components/metrics/cart-removals.md). |
-| `xdm.commerce.productListRemovals.value` | Incrementa a métrica [Remoções do carrinho](../../components/metrics/cart-removals.md). |
-| `xdm.commerce.productListViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Visualizações do carrinho](../../components/metrics/cart-views.md). |
-| `xdm.commerce.productListViews.value` | Incrementa a métrica [Visualizações do carrinho](../../components/metrics/cart-views.md). |
-| `xdm.commerce.productViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Visualizações do produto](../../components/metrics/product-views.md). |
-| `xdm.commerce.productViews.value` | Incrementa a métrica [Visualizações de produto](../../components/metrics/product-views.md). |
-| `xdm.commerce.purchases.value` | Incrementa a métrica [Pedidos](../../components/metrics/orders.md). |
-| `xdm.device.model` | A dimensão de ciclo de vida móvel [Nome do dispositivo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.device.colorDepth` | Ajuda a definir a dimensão [Intensidade de cor](../../components/dimensions/color-depth.md). |
-| `xdm.device.screenHeight` | Ajuda a definir a dimensão [Resolução do monitor.](../../components/dimensions/monitor-resolution.md) |
-| `xdm.device.screenWidth` | Ajuda a definir a dimensão [Resolução do monitor.](../../components/dimensions/monitor-resolution.md) |
+| `xdm.commerce.productListAdds.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Adições ao carrinho](/help/components/metrics/cart-additions.md). |
+| `xdm.commerce.productListAdds.value` | Incrementa a métrica [Adições ao carrinho](/help/components/metrics/cart-additions.md). |
+| `xdm.commerce.productListOpens.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Carrinhos](/help/components/metrics/carts.md). |
+| `xdm.commerce.productListOpens.value` | Incrementa a métrica [Carrinhos](/help/components/metrics/carts.md). |
+| `xdm.commerce.productListRemovals.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Remoções do carrinho](/help/components/metrics/cart-removals.md). |
+| `xdm.commerce.productListRemovals.value` | Incrementa a métrica [Remoções do carrinho](/help/components/metrics/cart-removals.md). |
+| `xdm.commerce.productListViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Visualizações do carrinho](/help/components/metrics/cart-views.md). |
+| `xdm.commerce.productListViews.value` | Incrementa a métrica [Visualizações do carrinho](/help/components/metrics/cart-views.md). |
+| `xdm.commerce.productViews.id` | Aplica [serialização de eventos](../vars/page-vars/events/event-serialization.md) à métrica [Visualizações do produto](/help/components/metrics/product-views.md). |
+| `xdm.commerce.productViews.value` | Incrementa a métrica [Visualizações de produto](/help/components/metrics/product-views.md). |
+| `xdm.commerce.purchases.value` | Incrementa a métrica [Pedidos](/help/components/metrics/orders.md). |
+| `xdm.device.model` | A dimensão de ciclo de vida móvel [Nome do dispositivo](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.device.colorDepth` | Ajuda a definir a dimensão [Intensidade de cor](/help/components/dimensions/color-depth.md). |
+| `xdm.device.screenHeight` | Ajuda a definir a dimensão [Resolução do monitor.](/help/components/dimensions/monitor-resolution.md) |
+| `xdm.device.screenWidth` | Ajuda a definir a dimensão [Resolução do monitor.](/help/components/dimensions/monitor-resolution.md) |
 | `xdm.device.type` | O tipo de dispositivo móvel. |
-| `xdm.environment.browserDetails.acceptLanguage` | Ajuda a definir a dimensão [Idioma](../../components/dimensions/language.md). |
-| `xdm.environment.browserDetails.cookiesEnabled` | Define a dimensão [Suporte a cookies](../../components/dimensions/cookie-support.md). Os valores válidos incluem `Y` (o navegador aceita cookies) e `N` (o navegador rejeita cookies). |
-| `xdm.environment.browserDetails.javaEnabled` | Define a dimensão [Java ativado](../../components/dimensions/java-enabled.md). Os valores válidos incluem `Y` (O Java está ativado) e `N` (O Java está desativado). |
-| `xdm.environment.browserDetails.userAgent` | Usado como um método de identificação [visitante único](../../components/metrics/unique-visitors.md) de fallback. Normalmente preenchida com o uso do cabeçalho da solicitação HTTP do `User-Agent`. Você pode mapear esse campo para uma eVar se quiser usá-la nos relatórios. |
-| `xdm.environment.browserDetails.viewportHeight` | Define a dimensão [Altura da janela do navegador](../../components/dimensions/browser-height.md). |
-| `xdm.environment.browserDetails.viewportWidth` | Define a dimensão [Largura do navegador](../../components/dimensions/browser-width.md). |
-| `xdm.environment.carrier` | A dimensão de ciclo de vida móvel [Nome da operadora](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.environment.connectionType` | Ajuda a definir a dimensão [Tipo de conexão](../../components/dimensions/connection-type.md). |
-| `xdm.environment.ipV4` | Usado como um método de identificação [visitante único](../../components/metrics/unique-visitors.md) de fallback. Normalmente preenchida com o uso do cabeçalho HTTP do `X-Forwarded-For`. |
+| `xdm.environment.browserDetails.acceptLanguage` | Ajuda a definir a dimensão [Idioma](/help/components/dimensions/language.md). |
+| `xdm.environment.browserDetails.cookiesEnabled` | Define a dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md). Os valores válidos incluem `Y` (o navegador aceita cookies) e `N` (o navegador rejeita cookies). |
+| `xdm.environment.browserDetails.javaEnabled` | Define a dimensão [Java ativado](/help/components/dimensions/java-enabled.md). Os valores válidos incluem `Y` (O Java está ativado) e `N` (O Java está desativado). |
+| `xdm.environment.browserDetails.userAgent` | Usado como um método de identificação [visitante único](/help/components/metrics/unique-visitors.md) de fallback. Normalmente preenchida com o uso do cabeçalho da solicitação HTTP do `User-Agent`. Você pode mapear esse campo para uma eVar se quiser usá-la nos relatórios. |
+| `xdm.environment.browserDetails.viewportHeight` | Define a dimensão [Altura da janela do navegador](/help/components/dimensions/browser-height.md). |
+| `xdm.environment.browserDetails.viewportWidth` | Define a dimensão [Largura do navegador](/help/components/dimensions/browser-width.md). |
+| `xdm.environment.carrier` | A dimensão de ciclo de vida móvel [Nome da operadora](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.environment.connectionType` | Ajuda a definir a dimensão [Tipo de conexão](/help/components/dimensions/connection-type.md). |
+| `xdm.environment.ipV4` | Usado como um método de identificação [visitante único](/help/components/metrics/unique-visitors.md) de fallback. Normalmente preenchida com o uso do cabeçalho HTTP do `X-Forwarded-For`. |
 | `xdm.environment._dc.language` | A localidade da dimensão móvel. Usado somente se xdm.environment.language não estiver definido. |
 | `xdm.environment.language` | A localidade da dimensão móvel. |
-| `xdm.environment.operatingSystem` | A dimensão de ciclo de vida móvel [Sistema operacional](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.environment.operatingSystemVersion` | Ajuda a definir a dimensão de ciclo de vida móvel [Versão do sistema operacional](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Define a respectiva dimensão da [eVar](../../components/dimensions/evar.md). |
+| `xdm.environment.operatingSystem` | A dimensão de ciclo de vida móvel [Sistema operacional](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm.environment.operatingSystemVersion` | Ajuda a definir a dimensão de ciclo de vida móvel [Versão do sistema operacional](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
+| `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Define a respectiva dimensão da [eVar](/help/components/dimensions/evar.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Define a respectiva dimensão da [Hierarquia](/help/components/dimensions/hierarchy.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Sobreposição do delimitador de propriedade de lista. O uso desse campo não é recomendado, pois o delimitador é recuperado automaticamente do [Administrador da variável de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios. O uso desse campo pode criar uma incompatibilidade entre o delimitador usado e o delimitador esperado pelo Analytics. |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Uma matriz de sequência de caracteres que contém os respectivos valores da [Propriedade de lista](../vars/page-vars/prop.md#list-props). |
-| `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena todas as strings `value` em cada matriz `list[]` à sua respectiva [variável de lista](../vars/page-vars/list.md). O delimitador é escolhido automaticamente com base no valor definido nas [configurações do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
-| `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Define a respectiva dimensão de [Propriedade](../../components/dimensions/prop.md). |
-| `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Aplica a [serialização de eventos](../vars/page-vars/events/event-serialization.md) à respectiva métrica de [Eventos personalizados](../../components/metrics/custom-events.md). Cada ID de evento reside no grupo principal de um conjunto de 100 grupos. Por exemplo, para aplicar a serialização a `event678`, use `xdm._experience.analytics.event601to700.event678.id`. |
-| `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Aumenta a respectiva métrica de [Eventos personalizados](../../components/metrics/custom-events.md) de acordo com o valor desejado. Cada evento reside no grupo principal de um conjunto de 100 grupos. Por exemplo, o campo para `event567` é `xdm._experience.analytics.event501to600.event567.value`. |
-| `xdm.identityMap.ECID[0].id` | A [ID do serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). |
-| `xdm.marketing.trackingCode` | Define a dimensão [Código de rastreamento](../../components/dimensions/tracking-code.md). |
-| `xdm.media.mediaTimed.completes.value` | A métrica de streaming de mídia [Conteúdo concluído](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-complete). |
+| `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena todas as strings `value` em cada matriz `list[]` à sua respectiva [variável de lista](../vars/page-vars/list.md). O delimitador é escolhido automaticamente com base no valor definido em [configurações do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
+| `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Define a respectiva dimensão de [Propriedade](/help/components/dimensions/prop.md). |
+| `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Aplica a [serialização de eventos](../vars/page-vars/events/event-serialization.md) à respectiva métrica de [Eventos personalizados](/help/components/metrics/custom-events.md). Cada ID de evento reside no grupo principal de um conjunto de 100 grupos. Por exemplo, para aplicar a serialização a `event678`, use `xdm._experience.analytics.event601to700.event678.id`. |
+| `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Aumenta a respectiva métrica de [Eventos personalizados](/help/components/metrics/custom-events.md) de acordo com o valor desejado. Cada evento reside no grupo principal de um conjunto de 100 grupos. Por exemplo, o campo para `event567` é `xdm._experience.analytics.event501to600.event567.value`. |
+| `xdm.identityMap.ECID[0].id` | A [ID do serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/id-service/using/home). |
+| `xdm.marketing.trackingCode` | Define a dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). |
+| `xdm.media.mediaTimed.completes.value` | A métrica de streaming de mídia [Conteúdo concluído](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-complete). |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `c.a.media.view`, `c.a.media.timePlayed`, `c.a.media.play` |
-| `xdm.media.mediaTimed.federated.value` | A métrica de mídia de streaming [Dados Federados](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#federated-data). |
-| `xdm.media.mediaTimed.firstQuartiles.value` | A métrica de mídia de streaming [Marcador de progresso de 25%](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#twenty-five-progress-marker). |
-| `xdm.media.mediaTimed.mediaSegmentView.value` | A métrica de mídia de streaming [Exibições de Segmento de Conteúdo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-segment-views). |
-| `xdm.media.mediaTimed.midpoints.value` | A métrica de mídia de streaming [Marcador de progresso de 50%](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#fifty-progress-marker). |
-| `xdm.media.mediaTimed.pauseTime.value` | A métrica de mídia de streaming [Duração Total da Pausa](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#total-pause-duration). |
-| `xdm.media.mediaTimed.pauses.value` | A métrica de mídia de streaming [Pausar Eventos](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#pause-events). |
-| `xdm.mediaCollection.sessionDetails.assetID` | A dimensão da mídia de streaming [ID do ativo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#asset-id). |
-| `xdm.mediaCollection.sessionDetails.friendlyName` | A dimensão da mídia de streaming [Nome do Vídeo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#video-name). |
-| `xdm.mediaCollection.sessionDetails.originator` | A dimensão da mídia de streaming [Originador](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#originator). |
-| `xdm.mediaCollection.sessionDetails.episode` | A dimensão de mídia de streaming [Episódio](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#episode). |
-| `xdm.mediaCollection.sessionDetails.genre` | A dimensão de streaming de mídia [Gênero](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#genre). |
-| `xdm.mediaCollection.sessionDetails.rating` | A dimensão da mídia de streaming [Classificação de Conteúdo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-rating). |
-| `xdm.mediaCollection.sessionDetails.season` | A dimensão de streaming de mídia [Temporada](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#season). |
-| `xdm.mediaCollection.sessionDetails.name` | A dimensão de mídia de streaming [ID de Conteúdo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-id). |
-| `xdm.mediaCollection.sessionDetails.show` | A dimensão de streaming de mídia [Programa](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#show). |
-| `xdm.mediaCollection.sessionDetails.showType` | A dimensão de streaming de mídia [Tipo de programa](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#show-type). |
-| `xdm.mediaCollection.sessionDetails.length` | A dimensão da mídia de streaming [Duração do Vídeo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#video-length). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | A dimensão da mídia de streaming [ID da Sessão de Mídia](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#media-session-id). |
-| `xdm.mediaCollection.sessionDetails.channel` | A dimensão de mídia de streaming [Canal de Conteúdo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-channel). |
-| `xdm.mediaCollection.sessionDetails.contentType` | A dimensão de streaming de mídia [Tipo de Conteúdo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-type). |
-| `xdm.mediaCollection.sessionDetails.network` | A dimensão de streaming de mídia [Rede](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#network). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | A dimensão de mídia de streaming [Segmento de Conteúdo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-segment). |
-| `xdm.mediaCollection.sessionDetails.playerName` | A dimensão da mídia de streaming [Nome do Player de Conteúdo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-player-name). |
-| `xdm.mediaCollection.sessionDetails.appVersion` | A dimensão de mídia de streaming [Versão do SDK](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#sdk-version). |
-| `xdm.mediaCollection.sessionDetails.feed` | A dimensão de mídia de streaming [Tipo de Feed de Mídia](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#media-feed-type). |
-| `xdm.mediaCollection.sessionDetails.streamFormat` | A dimensão de streaming de mídia [Formato de Stream](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#stream-format). |
-| `xdm.media.mediaTimed.progress10.value` | A métrica de mídia de streaming [Marcador de Progresso de Dez %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#ten-progress-marker). |
-| `xdm.media.mediaTimed.progress95.value` | A métrica de mídia de streaming [Marcador de progresso de 95%](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#ninety-five-progress-marker). |
-| `xdm.mediaCollection.sessionDetails.hasResume` | A métrica de streaming de mídia [Resumo do Conteúdo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-resumes). |
-| `xdm.media.mediaTimed.starts.value` | A métrica de streaming de mídia [Inícios da mídia](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#media-starts). |
-| `xdm.media.mediaTimed.thirdQuartiles.value` | A métrica de mídia de streaming [Marcador de progresso de 75%](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#seventy-five-progress-marker). |
-| `xdm.media.mediaTimed.timePlayed.value` | A métrica de mídia de streaming [Tempo gasto com conteúdo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#content-time-spent). |
-| `xdm.media.mediaTimed.totalTimePlayed.value` | A métrica de mídia de streaming [Tempo gasto com a mídia](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=pt-BR#media-time-spent). |
+| `xdm.media.mediaTimed.federated.value` | A métrica de mídia de streaming [Dados Federados](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#federated-data). |
+| `xdm.media.mediaTimed.firstQuartiles.value` | A métrica de mídia de streaming [Marcador de progresso de 25%](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#twenty-five--progress-marker). |
+| `xdm.media.mediaTimed.mediaSegmentView.value` | A métrica de mídia de streaming [Exibições de Segmento de Conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-segment-views). |
+| `xdm.media.mediaTimed.midpoints.value` | A métrica de mídia de streaming [Marcador de progresso de 50%](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#progress-marker). |
+| `xdm.media.mediaTimed.pauseTime.value` | A métrica de mídia de streaming [Duração Total da Pausa](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#total-pause-duration). |
+| `xdm.media.mediaTimed.pauses.value` | A métrica de mídia de streaming [Pausar Eventos](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#pause-events). |
+| `xdm.mediaCollection.sessionDetails.assetID` | A dimensão da mídia de streaming [ID do ativo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#asset-id). |
+| `xdm.mediaCollection.sessionDetails.friendlyName` | A dimensão da mídia de streaming [Nome do Vídeo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#video-name). |
+| `xdm.mediaCollection.sessionDetails.originator` | A dimensão da mídia de streaming [Originador](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#originator). |
+| `xdm.mediaCollection.sessionDetails.episode` | A dimensão de mídia de streaming [Episódio](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#episode). |
+| `xdm.mediaCollection.sessionDetails.genre` | A dimensão de streaming de mídia [Gênero](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#genre). |
+| `xdm.mediaCollection.sessionDetails.rating` | A dimensão da mídia de streaming [Classificação de Conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-rating). |
+| `xdm.mediaCollection.sessionDetails.season` | A dimensão de streaming de mídia [Temporada](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#season). |
+| `xdm.mediaCollection.sessionDetails.name` | A dimensão de mídia de streaming [ID de Conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-id). |
+| `xdm.mediaCollection.sessionDetails.show` | A dimensão de streaming de mídia [Programa](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#show). |
+| `xdm.mediaCollection.sessionDetails.showType` | A dimensão de streaming de mídia [Tipo de programa](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#show-type). |
+| `xdm.mediaCollection.sessionDetails.length` | A dimensão da mídia de streaming [Duração do Vídeo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#video-length). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | A dimensão da mídia de streaming [ID da Sessão de Mídia](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-session-id). |
+| `xdm.mediaCollection.sessionDetails.channel` | A dimensão de mídia de streaming [Canal de Conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-channel). |
+| `xdm.mediaCollection.sessionDetails.contentType` | A dimensão de streaming de mídia [Tipo de Conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-type). |
+| `xdm.mediaCollection.sessionDetails.network` | A dimensão de streaming de mídia [Rede](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#network). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | A dimensão de mídia de streaming [Segmento de Conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-segment). |
+| `xdm.mediaCollection.sessionDetails.playerName` | A dimensão da mídia de streaming [Nome do Player de Conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-player-name). |
+| `xdm.mediaCollection.sessionDetails.appVersion` | A dimensão de mídia de streaming [Versão do SDK](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#sdk-version). |
+| `xdm.mediaCollection.sessionDetails.feed` | A dimensão de mídia de streaming [Tipo de Feed de Mídia](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-feed-type). |
+| `xdm.mediaCollection.sessionDetails.streamFormat` | A dimensão de streaming de mídia [Formato de Stream](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#stream-format). |
+| `xdm.media.mediaTimed.progress10.value` | A métrica de mídia de streaming [Marcador de Progresso de Dez %](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#ten--progress-marker). |
+| `xdm.media.mediaTimed.progress95.value` | A métrica de mídia de streaming [Marcador de progresso de 95%](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#ninety-five--progress-marker). |
+| `xdm.mediaCollection.sessionDetails.hasResume` | A métrica de streaming de mídia [Resumo do Conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-resumes). |
+| `xdm.media.mediaTimed.starts.value` | A métrica de streaming de mídia [Inícios da mídia](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-starts). |
+| `xdm.media.mediaTimed.thirdQuartiles.value` | A métrica de mídia de streaming [Marcador de progresso de 75%](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#seventy-five--progress-marker). |
+| `xdm.media.mediaTimed.timePlayed.value` | A métrica de mídia de streaming [Tempo gasto com conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#content-time-spent). |
+| `xdm.media.mediaTimed.totalTimePlayed.value` | A métrica de mídia de streaming [Tempo gasto com a mídia](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters#media-time-spent). |
 | `xdm.placeContext.geo._schema.latitude` | O local de latitude do visitante. Ajuda a definir as dimensões [Local do ciclo de vida móvel](/help/components/dimensions/lifecycle-dimensions.md). |
 | `xdm.placeContext.geo._schema.longitude` | O local da longitude do visitante. Ajuda a definir as dimensões [Local do ciclo de vida móvel](/help/components/dimensions/lifecycle-dimensions.md). |
-| `xdm.placeContext.geo.postalCode` | A dimensão [Código postal](../../components/dimensions/zip-code.md). |
-| `xdm.placeContext.geo.stateProvince` | A dimensão [Estados dos Estados Unidos](../../components/dimensions/us-states.md). |
+| `xdm.placeContext.geo.postalCode` | A dimensão [Código postal](/help/components/dimensions/zip-code.md). |
+| `xdm.placeContext.geo.stateProvince` | A dimensão [Estados dos Estados Unidos](/help/components/dimensions/us-states.md). |
 | `xdm.placeContext.localTime` | Aparece como `t_time_info` nos [feeds de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `xdm.productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`xdm.productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eVars. |
 | `xdm.productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`xdm.productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Aplica um merchandising de [sintaxe do produto](../vars/page-vars/products.md) para eventos. |
-| `xdm.productListItems[].productCategories[].categoryID` | A dimensão [Categoria](../../components/dimensions/category.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
-| `xdm.productListItems[].name` | A dimensão [Produto](../../components/dimensions/product.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). Se `xdm.productListItems[].SKU` e `xdm.productListItems[].name` contêm dados, o valor em `xdm.productListItems[].SKU` é usado. |
-| `xdm.productListItems[].priceTotal` | Ajuda a determinar a métrica [Receita](../../components/metrics/revenue.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
-| `xdm.productListItems[].quantity` | Ajuda a determinar a métrica [Unidades](../../components/metrics/units.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
-| `xdm.productListItems[].SKU` | A dimensão [Produto](../../components/dimensions/product.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). Se `xdm.productListItems[].SKU` e `xdm.productListItems[].name` contêm dados, o valor em `xdm.productListItems[].SKU` é usado. |
+| `xdm.productListItems[].productCategories[].categoryID` | A dimensão [Categoria](/help/components/dimensions/category.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
+| `xdm.productListItems[].name` | A dimensão [Produto](/help/components/dimensions/product.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). Se `xdm.productListItems[].SKU` e `xdm.productListItems[].name` contêm dados, o valor em `xdm.productListItems[].SKU` é usado. |
+| `xdm.productListItems[].priceTotal` | Ajuda a determinar a métrica [Receita](/help/components/metrics/revenue.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
+| `xdm.productListItems[].quantity` | Ajuda a determinar a métrica [Unidades](/help/components/metrics/units.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). |
+| `xdm.productListItems[].SKU` | A dimensão [Produto](/help/components/dimensions/product.md). Consulte também a variável da página de [produtos](../vars/page-vars/products.md). Se `xdm.productListItems[].SKU` e `xdm.productListItems[].name` contêm dados, o valor em `xdm.productListItems[].SKU` é usado. |
 | `xdm.web.webInteraction.URL` | A variável de implementação [linkURL](../vars/config-vars/linkurl.md). |
-| `xdm.web.webInteraction.name` | A dimensão [Link personalizado](../../components/dimensions/custom-link.md), [Link de download](../../components/dimensions/download-link.md) ou [Link de saída](../../components/dimensions/exit-link.md), dependendo do valor em `xdm.web.webInteraction.type` |
+| `xdm.web.webInteraction.name` | A dimensão [Link personalizado](/help/components/dimensions/custom-link.md), [Link de download](/help/components/dimensions/download-link.md) ou [Link de saída](/help/components/dimensions/exit-link.md), dependendo do valor em `xdm.web.webInteraction.type` |
 | `xdm.web.webInteraction.type` | Determina o tipo de link clicado. Os valores válidos incluem `other` (Links personalizados), `download` (Links de download) e `exit` (Links de saída). |
-| `xdm.web.webPageDetails.URL` | A dimensão [URL da página](../../components/dimensions/page-url.md). |
-| `xdm.web.webPageDetails.isErrorPage` | Sinalizador que ajuda a determinar a [dimensão](../../components/dimensions/pages-not-found.md) e a [métrica](../../components/metrics/pages-not-found.md) “Páginas não encontradas”. |
-| `xdm.web.webPageDetails.name` | A dimensão [Página](../../components/dimensions/page.md). |
-| `xdm.web.webPageDetails.server` | A dimensão [Servidor](../../components/dimensions/server.md). |
-| `xdm.web.webPageDetails.siteSection` | A dimensão [Seção do site](../../components/dimensions/site-section.md). |
-| `xdm.web.webReferrer.URL` | A dimensão [Referenciador](../../components/dimensions/referrer.md). |
+| `xdm.web.webPageDetails.URL` | A dimensão [URL da página](/help/components/dimensions/page-url.md). |
+| `xdm.web.webPageDetails.isErrorPage` | Sinalizador que ajuda a determinar a [dimensão](/help/components/dimensions/pages-not-found.md) e a [métrica](/help/components/metrics/pages-not-found.md) “Páginas não encontradas”. |
+| `xdm.web.webPageDetails.name` | A dimensão [Página](/help/components/dimensions/page.md). |
+| `xdm.web.webPageDetails.server` | A dimensão [Servidor](/help/components/dimensions/server.md). |
+| `xdm.web.webPageDetails.siteSection` | A dimensão [Seção do site](/help/components/dimensions/site-section.md). |
+| `xdm.web.webReferrer.URL` | A dimensão [Referenciador](/help/components/dimensions/referrer.md). |
 
 {style="table-layout:auto"}
 
@@ -147,7 +147,7 @@ Se houver dimensões ou métricas que você deseja adicionar ao Adobe Analytics,
 
 ### Mapeamento implícito
 
-Quaisquer elementos de campo XDM que não são mapeados automaticamente são enviados para o Adobe Analytics como Dados de contexto com o prefixo `a.x.`. Em seguida, é possível mapear essa variável de dados de contexto para a variável do Analytics desejada usando [Regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=pt-BR). Por exemplo, se você enviar o seguinte evento:
+Quaisquer elementos de campo XDM que não são mapeados automaticamente são enviados para o Adobe Analytics como dados de contexto com o prefixo `a.x.`. Você pode mapear essa variável de dados de contexto para a variável do Analytics desejada usando [regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md). Por exemplo, se você enviar o seguinte evento:
 
 ```js
 alloy("event",{
@@ -167,7 +167,7 @@ O SDK da Web envia esses dados para o Adobe Analytics como a variável de dados 
 
 ## Mapeamento explícito
 
-Também é possível mapear explicitamente elementos de campo XDM como dados de contexto. Qualquer elemento de campo XDM que seja mapeado explicitamente, usando o elemento `contextData`, é enviado para o Adobe Analytics como Dados de contexto sem um prefixo. Em seguida, é possível mapear essa variável de dados de contexto para a variável do Analytics desejada usando [Regras de processamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=pt-BR). Por exemplo, se você enviar o seguinte evento:
+Também é possível mapear explicitamente elementos de campo XDM como dados de contexto. Qualquer elemento de campo XDM que seja mapeado explicitamente, usando o elemento `contextData`, é enviado para o Adobe Analytics como dados de contexto sem um prefixo. Você pode mapear essa variável de dados de contexto para a variável do Analytics desejada usando [regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md). Por exemplo, se você enviar o seguinte evento:
 
 ```js
 alloy("event",{

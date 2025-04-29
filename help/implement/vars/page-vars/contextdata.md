@@ -4,10 +4,10 @@ description: As variáveis de dados de contexto permitem definir variáveis pers
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 983b5073cf17a6aa0c038516c1d1ec3a40ca9eed
+source-git-commit: a8fe70381fbe04f3c57d221045a28d89e854ff54
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 69%
+source-wordcount: '577'
+ht-degree: 68%
 
 ---
 
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-A interface [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) mostraria `c.example_variable` e `c.second_example` nos menus suspensos aplicáveis.
+A interface [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) mostraria `example_variable` e `second_example` nos menus suspensos aplicáveis.
 
 ## Variáveis de dados de contexto que usando a extensão do Adobe Analytics
 
