@@ -4,9 +4,9 @@ title: Perguntas frequentes e solução de problemas no Espaço de trabalho
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 81%
 
 ---
@@ -74,5 +74,5 @@ Se você criar um relatório de espaço de trabalho com êxito, mas não houver 
 +++
 
 +++Como usuário somente leitura, que ações posso executar no Analysis Workspace?
-Quando um projeto é compartilhado como somente leitura, todas as funções e recursos de edição são completamente desativados e os recipients só podem alterar a lista suspensa para aplicar um filtro ao painel de uma maneira predefinida.
+Quando um projeto é compartilhado como somente leitura, todas as funções e recursos de edição são completamente desativados e os recipients só podem alterar o menu suspenso para aplicar um filtro ao painel de uma maneira predefinida.
 +++

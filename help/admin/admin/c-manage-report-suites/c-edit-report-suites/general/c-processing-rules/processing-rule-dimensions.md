@@ -5,14 +5,14 @@ title: Dimensões disponíveis para as regras de processamento
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
 
 ---
 
-# Dimension e métricas disponíveis para as regras de processamento
+# Dimensões e métricas disponíveis para as regras de processamento
 
 As dimensões e métricas disponíveis que você pode ler e gravar usando as regras de processamento.
 
@@ -27,10 +27,10 @@ As dimensões e métricas disponíveis que você pode ler e gravar usando as reg
 
 | Atributo | Status de leitura/gravação | Descrição |
 | --- | --- | --- |
-| URL da página | Leitura + gravação | A dimensão [URL da Página](/help/components/dimensions/page-url.md). As ocorrências de rastreamento de link removem essa dimensão antes de atingir as regras de processamento. Se você inserir novamente um valor de URL de página usando regras de processamento, a ocorrência será considerada uma [Exibição de página](/help/components/metrics/page-views.md), em vez de um [Evento de página](/help/components/metrics/page-events.md). O Adobe recomenda verificar um valor na dimensão da página antes de modificá-la. |
-| Nome da página | Leitura + gravação | A dimensão [Página](/help/components/dimensions/page.md). As ocorrências de rastreamento de link removem essa dimensão antes de atingir as regras de processamento. Se você inserir novamente um valor de página usando regras de processamento, a ocorrência será considerada uma [Exibição de página](/help/components/metrics/page-views.md), em vez de um [Evento de página](/help/components/metrics/page-events.md). O Adobe recomenda verificar um valor na dimensão da página antes de modificá-la. |
+| URL da página | Leitura + gravação | A dimensão [URL da Página](/help/components/dimensions/page-url.md). As ocorrências de rastreamento de link removem essa dimensão antes de atingir as regras de processamento. Se você inserir novamente um valor de URL de página usando regras de processamento, a ocorrência será considerada uma [Exibição de página](/help/components/metrics/page-views.md), em vez de um [Evento de página](/help/components/metrics/page-events.md). A Adobe recomenda verificar se há um valor na dimensão da página antes de modificá-la. |
+| Nome da página | Leitura + gravação | A dimensão [Página](/help/components/dimensions/page.md). As ocorrências de rastreamento de link removem essa dimensão antes de atingir as regras de processamento. Se você inserir novamente um valor de página usando regras de processamento, a ocorrência será considerada uma [Exibição de página](/help/components/metrics/page-views.md), em vez de um [Evento de página](/help/components/metrics/page-events.md). A Adobe recomenda verificar se há um valor na dimensão da página antes de modificá-la. |
 | ID do conjunto de relatórios | Somente leitura | O conjunto de relatórios no qual a regra de processamento é executada. Esse conjunto de relatórios pode ser diferente do conjunto de relatórios enviado originalmente pelo AppMeasurement, como ao usar as regras VISTA. |
-| Versão do código de AppMeasurement | Somente leitura | A versão da biblioteca de AppMeasurements usada para gerar a solicitação de imagem. |
+| Versão do código AppMeasurement | Somente leitura | A versão da biblioteca de AppMeasurement usada para gerar a solicitação de imagem. |
 | Endereço IP | Somente leitura | O endereço IP do visitante. |
 | Agente do usuário | Somente leitura | O agente do usuário do visitante. |
 | Referenciador | Somente leitura | A dimensão [Referenciador](/help/components/dimensions/referrer.md). |
@@ -71,11 +71,11 @@ As dimensões e métricas disponíveis que você pode ler e gravar usando as reg
 
 ## Variáveis de contexto
 
-Todas as [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md) que este conjunto de relatórios viu em solicitações de imagem anteriores. Se as regras de processamento não colocarem os dados de contexto em outra variável, esses dados serão perdidos permanentemente. Consulte [Copiar uma variável de dados de contexto para um eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Definir um evento usando uma variável de dados de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obter exemplos de uso.
+Todas as [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md) que este conjunto de relatórios viu em solicitações de imagem anteriores. Se as regras de processamento não colocarem os dados de contexto em outra variável, esses dados serão perdidos permanentemente. Consulte [Copiar uma variável de dados de contexto para uma eVar](processing-rules-examples/processing-rules-copy-context-data.md) e [Definir um evento usando uma variável de dados de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obter exemplos de uso.
 
 ## Eventos bem-sucedidos
 
-As regras de processamento podem definir eventos, mas não podem lê-los como condições. Defina a lista suspensa de ações da regra como **[!UICONTROL Definir evento]** para ver as métricas disponíveis para incremento.
+As regras de processamento podem definir eventos, mas não podem lê-los como condições. Defina o menu suspenso de ações da regra como **[!UICONTROL Definir evento]** para ver as métricas disponíveis para incremento.
 
 | Variável | Status de leitura/gravação | Descrição |
 | --- | --- | --- |

@@ -5,10 +5,10 @@ title: Visão geral das visualizações
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '1457'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -50,21 +50,21 @@ Os seguintes tipos de visualização estão disponíveis no Analysis Workspace:
 
    ![Adicionar visualização](assets/add-visualization.png)
 
-   * No painel esquerdo, selecione ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **Visualizações** e arraste uma visualização para o painel ao qual deseja adicioná-la.
+   * No painel esquerdo, selecione **Visualizações** de ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) e arraste uma visualização até o painel ao qual deseja adicionar a visualização.
 
-   * No painel em que deseja adicionar a visualização, selecione ![AddCircle](/help/assets/icons/AddCircle.svg) e escolha o ícone que representa essa visualização. Passe o mouse sobre o ícone de cada visualização para ver o nome.
+   * No painel ao qual você deseja adicionar a visualização, selecione ![AddCircle](/help/assets/icons/AddCircle.svg) e escolha o ícone que representa a visualização que você deseja adicionar. Passe o cursor do mouse sobre o ícone de cada visualização para ver seu nome.
 
    * Adicione um [painel em branco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) e selecione a visualização que deseja adicionar.
 
-   * No menu de contexto de uma visualização existente no projeto do Analysis Workspace, selecione **[!UICONTROL Duplicar visualização]** ou **[!UICONTROL Copiar visualização]**.
+   * No menu de contexto de uma visualização existente no seu projeto do Analysis Workspace, selecione **[!UICONTROL Duplicar visualização]** ou **[!UICONTROL Copiar visualização]**.
 
    * Use o menu **[!UICONTROL Inserir]** do Workspace para inserir uma visualização.
 
-   * No menu de contexto em uma tabela de forma livre, selecione **[!UICONTROL Visualizar]**. Em seguida, selecione a visualização no submenu. Com base na seleção atual da tabela, o Workspace determina qual visualização oferecer e interpreta os dados para criar a visualização solicitada.
+   * No menu de contexto de uma tabela de forma livre, selecione **[!UICONTROL Visualizar]**. Em seguida, selecione a visualização no submenu. Com base na seleção atual na tabela, o Workspace determina qual visualização oferecer e interpreta os dados para criar a visualização solicitada.
 
 ## Legenda
 
-Uma legenda de visualização ajuda a relacionar a data em uma tabela de origem com a série plotada na visualização. A legenda é interativa: é possível selecionar um item de legenda para mostrar/ocultar uma série na visualização, o que é útil se quiser simplificar os dados exibidos.
+Uma legenda de visualização ajuda a relacionar a data em uma tabela de origem com a série plotada na visualização. A legenda é interativa: é possível selecionar um item de legenda para mostrar/ocultar uma série na visualização, o que é útil se você quiser simplificar os dados que estão sendo visualizados.
 
 Além disso, é possível renomear rótulos de legenda para ajudá-lo a tornar as exibições mais atraentes. Observação: a edição de legendas **não** se aplica a: Treemap, Marcador, Alteração ou Número do resumo, Texto, Forma livre, Histograma, Coorte ou Visualizações de fluxo.
 
@@ -73,7 +73,7 @@ Para editar um rótulo de legenda:
 1. Clique com o botão direito do mouse em uma das etiquetas de legenda.
 1. Clique em **[!UICONTROL Editar rótulo]**.
 
-   ![Um rótulo de legenda e a opção Editar rótulo.](assets/edit-label.png)
+   ![Um rótulo de legenda e a opção “Editar rótulo”.](assets/edit-label.png)
 
 1. Digite o texto do novo rótulo.
 1. Pressione **[!UICONTROL Enter]** para salvar.
@@ -82,62 +82,62 @@ Para editar um rótulo de legenda:
 
 ### Configurações 
 
-As configurações de visualização disponíveis dependem da visualização. A tabela abaixo resume as configurações mais comuns. Algumas visualizações têm configurações específicas. Consulte a documentação da visualização individual para obter mais detalhes.
+As configurações de visualização disponíveis dependem da visualização. A tabela abaixo resume as configurações mais comuns. Algumas visualizações têm configurações específicas. Consulte a documentação referente às visualizações para mais detalhes.
 
 | Opção | Descrição |
 | --- | --- |
-| **[!UICONTROL Tipo de visualização]** | Altera o tipo de visualização usado para exibir os dados. |
-| **[!UICONTROL Granularidade]** | Altera a granularidade do tempo de visualizações de tendências. Essa alteração também se aplica à tabela de fonte de dados. |
-| **[!UICONTROL Porcentagens]** | Exibe os valores em porcentagens. |
-| **[!UICONTROL 100% empilhada]** | Transforme o gráfico em uma visualização 100% empilhada.  Aplicável somente para visualizações de área, barra e barra horizontal empilhada. |
+| **[!UICONTROL Tipo de visualização]** | Alterar o tipo de visual usado para visualizar os dados. |
+| **[!UICONTROL Granularidade]** | Alterar a granularidade de tempo para visualizações de tendências. Essa alteração também se aplica à tabela de fontes de dados. |
+| **[!UICONTROL Porcentagens]** | Exibir os valores em porcentagens. |
+| **[!UICONTROL 100% empilhada]** | Transformar o gráfico em uma visualização 100% empilhada.  Aplicável somente a uma visualização de área, barras e barras horizontais empilhadas. |
 | **[!UICONTROL Legenda visível]** | Mostrar o texto da legenda. |
-| **[!UICONTROL Limite máximo de itens]** | Limita o número de itens que uma visualização exibe. Quando selecionada, define um número máximo de itens. |
-| **[!UICONTROL Mostrar anotações]** | Mostra as anotações feitas nessa visualização. |
-| **[!UICONTROL Ocultar título]** | Oculta o título da visualização. |
-| **[!UICONTROL Ancorar o eixo Y em zero]** | Fixa a parte inferior do eixo Y em zero. Se todos os valores plotados no gráfico forem consideravelmente superiores a zero, o compartamento padrão do gráfico é tornar a parte inferior do eixo Y diferente de zero. Se habilitar essa opção, o eixo Y será forçado a permanecer com um valor zero (e o gráfico será redesenhado). |
-| **[!UICONTROL Exibir eixo duplo]** | Exibe os eixos Y esquerdo e direito de duas métricas diferentes. Essa opção só se aplica se você tiver duas métricas. Eixos duplos são úteis quando as métricas plotadas são de magnitudes diferentes. |
-| **[!UICONTROL Mostrar eixo X]** | Mostra o eixo X na visualização. |
+| **[!UICONTROL Limite máximo de itens]** | Permite limitar a quantidade de itens exibidos em uma visualização. Quando selecionado, define a quantidade máxima de itens. |
+| **[!UICONTROL Mostrar anotações]** | Mostrar as anotações feitas nesta visualização. |
+| **[!UICONTROL Ocultar título]** | Ocultar o título da visualização. |
+| **[!UICONTROL Ancorar o eixo Y em zero]** | Forçar a parte inferior do eixo Y a zero. Se todos os valores exibidos no gráfico forem consideravelmente superiores a zero, o padrão do gráfico tornará a parte inferior do eixo Y diferente de zero. Se esta opção for habilitada, o eixo Y será forçado a zero (e o gráfico será redesenhado). |
+| **[!UICONTROL Exibir eixo duplo]** | Exibir os eixos Y esquerdo e direito para duas métricas diferentes. Esta opção só se aplica se você tiver duas métricas. Eixos duplos são úteis quando métricas projetadas têm magnitudes diferentes. |
+| **[!UICONTROL Mostrar eixo X]** | Mostrar o eixo X na visualização. |
 | **[!UICONTROL Mostrar eixo Y]** | Mostrar o eixo Y na visualização. |
-| **[!UICONTROL Mostrar barras nas linhas]** | Mostra barras na visualização de linha em uma visualização de gráfico de combinação. |
-| **[!UICONTROL Normalização]** | Força as métricas a terem proporções iguais. Proporções iguais são úteis quando as métricas plotadas têm magnitudes diferentes. |
-| **[!UICONTROL Mostrar anomalias]** | Adiciona a detecção de anomalias em gráficos de linha e tabelas de forma livre. A detecção de anomalias em visualizações de linha inclui um valor esperado (linha tracejada) e um intervalo esperado (faixa sombreada). |
-| **[!UICONTROL Mostrar previsão]** | Adiciona valores de previsão em gráficos de linha e tabelas de forma livre. |
-| **[!UICONTROL Mostrar valor mínimo]** | Mostra o valor mínimo na visualização. |
-| **[!UICONTROL Mostrar valor máximo]** | Mostra o valor máximo na visualização. |
-| **[!UICONTROL Mostrar linha de tendência]** | Mostrar uma linha de tendência na visualização. Quando selecionada, é possível escolher o tipo de linha de tendência no menu suspenso. |
+| **[!UICONTROL Mostrar barras nas linhas]** | Mostrar barras na visualização de linha em uma visualização de gráfico de combinação. |
+| **[!UICONTROL Normalização]** | Forçar as métricas a proporções iguais. Proporções iguais são úteis quando métricas projetadas têm magnitudes diferentes. |
+| **[!UICONTROL Mostrar anomalias]** | Aprimorar os gráficos de linha e tabelas de forma livre, exibindo a detecção de anomalias. A detecção de anomalias em visualizações de linha inclui um valor esperado (linha tracejada) e um intervalo esperado (faixa sombreada). |
+| **[!UICONTROL Mostrar previsão]** | Aprimorar os gráficos de linha e tabelas de forma livre, exibindo os valores de previsão.  |
+| **[!UICONTROL Mostrar mín.]** | Mostrar o valor mínimo na visualização. |
+| **[!UICONTROL Mostrar máx.]** | Mostrar o valor máximo na visualização. |
+| **[!UICONTROL Mostrar linha de tendências]** | Mostrar uma linha de tendências na visualização. Quando selecionada, você pode selecionar o tipo de linha de tendência no menu suspenso. |
 
-É possível personalizar as configurações para todas as visualizações que criar. Para obter mais informações, consulte [Preferências do usuário](/help/analyze/analysis-workspace/user-preferences.md).
+É possível personalizar as configurações de todas as visualizações criadas. Para obter mais informações, consulte [Preferências do usuário](/help/analyze/analysis-workspace/user-preferences.md).
 
 
 ## Menu de contexto {#right-click}
 
-Use o menu de contexto (disponível por meio da seleção alternativa, por exemplo, ao clicar com o botão direito do mouse) de um cabeçalho de visualização para acessar funcionalidades adicionais da visualização. Nem todas as opções estão disponíveis para todas as visualizações.
+Use o menu de contexto (disponível por meio da seleção alternativa, como, por exemplo, ao clicar com o botão direito do mouse) em um cabeçalho de visualização para acessar funcionalidades adicionais de uma visualização. Nem todas as opções estão disponíveis para todas as visualizações.
 
-![Configurações de visualização adicionais disponíveis ao clicar com o botão direito do mouse. As opções estão descritas na próxima seção.](assets/right-click.png)
+![Configurações de visualização adicionais, com as opções do botão direito do mouse exibidas. As opções serão descritas na próxima seção.](assets/right-click.png)
 
 | Opção | Descrição |
 | --- | --- |
-| **[!UICONTROL Inserir visualização copiada]** | Cola (insere) uma visualização copiada em outro lugar no projeto, ou em um projeto completamente diferente. |
-| **[!UICONTROL Copiar dados para a área de transferência]** | Copia dados da visualização para a área de transferência. |
-| **[!UICONTROL Copiar seleção para a área de transferência]** | Copia a seleção da visualização para a área de transferência. |
-| **[!UICONTROL Baixar itens como CSV (*nome da dimensão*)]** | Baixa os itens de dimensão (até um máximo de 50.000) da visualização no dispositivo local. Há um limite de 50.000 itens de dimensão para a dimensão selecionada. |
-| **[!UICONTROL Copiar visualização]** | Copia a visualização para que você possa inseri-la em outro lugar no projeto, ou em um projeto completamente diferente. |
-| **[!UICONTROL Baixar dados CSV]** | Baixa os dados da visualização no dispositivo local. |
-| **[!UICONTROL Duplicar visualização]** | Cria uma duplicata exata da visualização. |
-| **[!UICONTROL Editar descrição]** | Permite adicionar (ou editar) uma descrição de texto da visualização. Consulte [Texto](text.md). |
-| **[!UICONTROL Obter link de visualização]** | Copia um link direto da visualização para compartilhamento. A caixa de diálogo Compartilhar link exibe o link. Selecione Copiar para enviar o link para a área de transferência. |
-| **[!UICONTROL Começar de novo]** | Exclui a configuração da visualização atual para que seja possível reconfigurá-la do zero. |
+| **[!UICONTROL Inserir visualização copiada]** | Colar (inserir) uma visualização copiada em outro lugar dentro do projeto ou em um projeto totalmente diferente. |
+| **[!UICONTROL Copiar dados para a área de transferência]** | Copiar dados da visualização para a área de transferência. |
+| **[!UICONTROL Copiar seleção para a área de transferência]** | Copiar a seleção da visualização para a área de transferência. |
+| **[!UICONTROL Baixar itens como CSV (*nome da dimensão*)]** | Baixar os itens de dimensão (até, no máximo, 50 mil) da visualização para o seu dispositivo local. Até 50 mil itens de dimensão para a dimensão selecionada. |
+| **[!UICONTROL Copiar visualização]** | Copiar a visualização, para que você possa inseri-la em outro lugar dentro do projeto ou em um projeto totalmente diferente. |
+| **[!UICONTROL Baixar dados como CSV]** | Baixa os dados da visualização no dispositivo local. |
+| **[!UICONTROL Duplicar visualização]** | Fazer uma duplicata exata da visualização. |
+| **[!UICONTROL Editar descrição]** | Adicionar (ou editar) uma descrição em texto para a visualização. Consulte [Texto](text.md). |
+| **[!UICONTROL Obter link da visualização]** | Copiar e compartilhar um link diretamente para a visualização. Uma caixa de diálogo “Compartilhar link” exibe o link. Selecione “Copiar” para copiar o link para a área de transferência. |
+| **[!UICONTROL Começar de novo]** | Excluir a configuração da visualização atual, para que você possa reconfigurá-la do zero. |
 
 
 ## Configuração
 
-Algumas visualizações (como tabela de coorte, fallout, fluxo e outras) têm uma caixa de diálogo de configuração para auxiliar na sua criação. Use a opção ![Editar](/help/assets/icons/Edit.svg) na parte superior da visualização para acessar e alterar a configuração.
+Algumas visualizações (como tabela de coorte, fallout, fluxo e outras) contêm uma caixa de diálogo de configuração para ajudar a criar a visualização. Use a opção ![Editar](/help/assets/icons/Edit.svg) na parte superior da visualização para acessar e alterar a configuração.
 
 ![Painel de configuração](assets/configuration.png)
 
 ## Visualizar
 
-Se não tiver certeza de qual visualização escolher, selecione ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL Visualizar]** em qualquer linha da tabela de forma livre (disponível ao passar o mouse). Essa seleção é a maneira mais rápida de adicionar uma visualização. O Analysis Workspace faz uma estimativa informada de qual visualização seria mais adequada aos seus dados. Por exemplo, se houver uma linha selecionada, ele cria um [gráfico de linhas](line.md) de tendência. Se houver três linhas de filtro selecionadas, ele cria um diagrama de [Venn](venn.md).
+Se não tiver certeza de qual visualização selecionar, clique em **[!UICONTROL Visualizar]**  ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) em qualquer linha da tabela de forma livre (disponível ao passar o cursor do mouse). Essa seleção é a maneira mais rápida de adicionar uma visualização. O Analysis Workspace dá um palpite informado de qual visualização se adequaria melhor aso seus dados. Por exemplo, se você tiver uma linha selecionada, ela criará um [gráfico de linhas](line.md) de tendências. Se você tiver três linhas de filtro selecionadas, ela criará um diagrama de [Venn](venn.md).
 
 ![Visualização rápida](assets/quick-viz.png)
 

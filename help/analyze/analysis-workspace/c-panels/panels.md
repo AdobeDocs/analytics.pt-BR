@@ -4,10 +4,10 @@ title: Visão geral dos painéis
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '2157'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ Para criar um painel:
 
 ## Conjunto de relatórios
 
-Cada painel é associado a um [conjunto de relatórios](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado pelo ![Dados](/help/assets/icons/Data.svg) **[!UICONTROL *nome do conjunto de relatórios *]**no menu suspenso no canto superior direito do painel.
+Cada painel está associado a um [conjunto de relatórios](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado por ![Dados](/help/assets/icons/Data.svg) **[!UICONTROL *nome do conjunto de relatórios *]**no menu suspenso na parte superior direita do painel.
 
 Ao criar um novo painel, o conjunto de relatórios padrão se baseia no conjunto de relatórios do painel que você utilizou pela última vez no projeto do Analysis Workspace.
 
@@ -112,7 +112,7 @@ O calendário do painel controla o intervalo de datas de relatórios para tabela
 ![A janela do calendário mostrando o intervalo de datas selecionado.](assets/panel-calendar.png)
 
 1. Selecione um intervalo de datas escolhendo primeiro a data inicial e, em seguida, a data final.
-Também é possível selecionar uma **[!UICONTROL predefinição]** no menu suspenso [!UICONTROL *Selecionar uma predefinição*].
+Como alternativa, selecione uma **[!UICONTROL Predefinição]** no menu suspenso [!UICONTROL *Selecionar uma predefinição*].
 
 1. Ou selecione **[!UICONTROL Mostrar configurações avançadas]** para:
 

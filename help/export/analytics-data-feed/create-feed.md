@@ -1,11 +1,11 @@
 ---
 title: Criar um feed de dados
-description: Saiba como criar um feed de dados e sobre as informações do arquivo a serem fornecidas ao Adobe.
+description: Saiba como criar um feed de dados e sobre as informações de arquivo a serem fornecidas ao Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4129'
 ht-degree: 53%
 
 ---
@@ -50,7 +50,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
    >* Recomendamos o uso de uma conta em nuvem para o destino do seu relatório. [Contas FTP e SFTP herdadas](#legacy-destinations) estão disponíveis, mas não são recomendadas.
    >* Todas as contas da nuvem configuradas anteriormente estão disponíveis para uso nos feeds de dados. Você pode configurar contas em nuvem de qualquer uma das seguintes maneiras:
    >
-   >   * Ao configurar contas na nuvem para [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+   >   * Ao configurar contas na nuvem para o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
    >   
    >   * Ao [importar dados de classificação do Adobe Analytics](/help/components/locations/locations-manager.md) (Não é possível usar nenhum local configurado para importar dados de classificação).
    >   
@@ -117,7 +117,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
          {style="table-layout:auto"}
 
-      1. Selecione [!UICONTROL **Adicionar local**] e especifique as seguintes informações:
+      1. Selecione [!UICONTROL **Adicionar localização**] e especifique as seguintes informações:
 
          | Campo | Função |
          |---------|----------|
@@ -190,7 +190,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
          {style="table-layout:auto"}
 
-      1. Selecione [!UICONTROL **Adicionar local**] e especifique as seguintes informações:
+      1. Selecione [!UICONTROL **Adicionar localização**] e especifique as seguintes informações:
 
          | Campo | Função |
          |---------|----------|
@@ -266,7 +266,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
          {style="table-layout:auto"}
 
-      1. Selecione [!UICONTROL **Adicionar local**] e especifique as seguintes informações:
+      1. Selecione [!UICONTROL **Adicionar localização**] e especifique as seguintes informações:
 
          | Campo | Função |
          |---------|----------|
@@ -335,11 +335,11 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
          {style="table-layout:auto"}
 
-      1. Selecione [!UICONTROL **Adicionar local**] e especifique as seguintes informações:
+      1. Selecione [!UICONTROL **Adicionar localização**] e especifique as seguintes informações:
 
          | Campo | Função |
          |---------|----------|
-         | [!UICONTROL **Entidade**] | O Principal é fornecido pelo Adobe. Você deve conceder permissão para receber feeds para este principal. |
+         | [!UICONTROL **Entidade**] | O Principal é fornecido pela Adobe. Você deve conceder permissão para receber feeds para este principal. |
          | [!UICONTROL **Nome**] | Um nome para a conta. |
          | [!UICONTROL **Descrição**] | Uma descrição para a conta. |
          | [!UICONTROL **Balde**] | O bucket da conta da GCP para o qual você deseja enviar os dados do Adobe Analytics. <p>Verifique se você concedeu uma das seguintes permissões ao principal fornecido pela Adobe: (Para mais informações sobre como conceder permissões, consulte [Adicionar um principal a uma política no nível do bloco](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) na documentação da Google Cloud.)<ul><li>`roles/storage.objectCreator`: use essa permissão se desejar limitar o principal a criar arquivos somente em sua conta da GCP. </br>**Importante:** se você usar essa permissão com relatórios agendados, deverá usar um nome de arquivo único para cada nova exportação agendada. Caso contrário, ocorrerá uma falha na geração do relatório, pois o principal não terá permissão para sobrescrever os arquivos existentes.</li><li>(Recomendado) `roles/storage.objectUser`: use essa permissão se desejar que o Principal tenha acesso para exibir, listar, atualizar e excluir arquivos em sua conta GCP.</br>Essa permissão possibilita que o principal sobrescreva arquivos existentes em uploads subsequentes, sem a necessidade de gerar automaticamente nomes de arquivo únicos para cada nova exportação agendada.</li></ul><p>Se a sua organização estiver usando [Restrições de política da organização](https://cloud.google.com/storage/docs/org-policy-constraints) para permitir somente a conta da Google Cloud Platform na sua lista de permissões, você precisará da seguinte ID de organização da Google Cloud Platform pertencente à Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
@@ -355,7 +355,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
 +++
 
-1. Na seção [!UICONTROL **Definições da Coluna de Dados**], selecione o modelo [!UICONTROL **Todas as Adobe Columns**] mais recente na lista suspensa e preencha os seguintes campos:
+1. Na seção [!UICONTROL **Definições da Coluna de Dados**], selecione o modelo mais recente [!UICONTROL **Todas as Colunas da Adobe**] no menu suspenso e preencha os seguintes campos:
 
    | Campo | Função |
    |---------|----------|
@@ -363,7 +363,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
    | [!UICONTROL **Formato de compactação**] | O tipo de compactação usado. **Gzip** gera arquivos no formato `.tar.gz`. **Zip** gera arquivos no formato `.zip`. |
    | [!UICONTROL **Tipo de empacotamento**] | Selecione [!UICONTROL **Vários arquivos**] para a maioria dos feeds de dados. Essa opção faz a paginação dos dados em blocos descompactados de 2 GB. (Se a opção [!UICONTROL **Vários arquivos**] estiver selecionada e os dados descompactados para a janela de relatório forem menores que 2 GB, um arquivo será enviado.) Selecionar **Arquivo único** gera o arquivo `hit_data.tsv` em um único arquivo potencialmente massivo. |
    | [!UICONTROL **Manifesto**] | Determina se o Adobe deve entregar um [arquivo de manifesto](c-df-contents/datafeeds-contents.md#feed-manifest) ao destino quando nenhum dado for coletado para um intervalo de feed. Se você selecionar **Arquivo de manifesto**, receberá um arquivo de manifesto semelhante ao seguinte quando nenhum dado for coletado:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
-   | [!UICONTROL **Modelos de coluna**] | Ao criar muitos feeds de dados, o Adobe recomenda criar um modelo de coluna. A seleção de um modelo de coluna inclui automaticamente as colunas especificadas no modelo. A Adobe também fornece vários modelos por padrão. |
+   | [!UICONTROL **Modelos de coluna**] | Ao criar muitos feeds de dados, a Adobe recomenda criar um modelo de coluna. A seleção de um modelo de coluna inclui automaticamente as colunas especificadas no modelo. A Adobe também fornece vários modelos por padrão. |
    | [!UICONTROL **Colunas disponíveis**] | Todas as colunas de dados disponíveis no Adobe Analytics. Clique em [!UICONTROL Adicionar tudo] para incluir todas as colunas em um feed de dados. |
    | [!UICONTROL **Colunas incluídas**] | As colunas a serem incluídas em um feed de dados. Clique em [!UICONTROL Remover tudo] para remover todas as colunas de um feed de dados. |
    | [!UICONTROL **Download em CSV**] | Baixa um arquivo CSV contendo todas as colunas incluídas. |
@@ -385,7 +385,7 @@ As informações a seguir fornecem informações de configuração para cada um 
 
 ### FTP
 
-Os dados do feed de dados podem ser entregues a um Adobe ou local FTP hospedado pelo cliente. Requer um host FTP, nome de usuário e senha. Use o campo de caminho para colocar arquivos de feed em uma pasta. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir.
+Os dados do feed de dados podem ser entregues para um local FTP hospedado na Adobe ou no cliente. Requer um host FTP, nome de usuário e senha. Use o campo de caminho para colocar arquivos de feed em uma pasta. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir.
 
 Use as seguintes informações ao preencher os campos disponíveis:
 
