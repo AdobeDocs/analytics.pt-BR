@@ -4,14 +4,66 @@ title: Configurar uma visualização de fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 90%
 
 ---
 
-# Configurar uma visualização de fluxo
+# Configurar uma visualização de fluxo {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="Começa com"
+>abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="Contém"
+>abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="Termina com"
+>abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="Dimensão da definição de caminho"
+>abstract="Selecione uma dimensão para usar como o caminho conduzindo ou saindo do componente selecionado."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="Container de fluxo"
+>abstract="Selecione o container a ser usado para exibir (números para) o caminho."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="Incluir repetições (desativado)"
+>abstract="As repetições não podem ser removidas das visualizações de fluxo que incluem dimensões de vários valores."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="Incluir repetições"
+>abstract="As visualizações de fluxo são baseadas em instâncias de uma dimensão. Essa configuração oferece a opção de incluir ou excluir instâncias repetidas. Por exemplo: recarregamentos de página."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="Limitar à primeira/última ocorrência"
+>abstract="Os resultados são limitados a caminhos quando o primeiro/último ponto de contato é uma entrada/saída."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="Número de colunas"
+>abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="Itens expandidos por coluna"
+>abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+
+
 
 As visualizações de fluxo permitem entender a jornada decorrente ou que leva a um evento de conversão específico em seu site ou aplicativo. Elas rastreiam um caminho pelas suas dimensões (e itens de dimensão) ou métricas. 
 
