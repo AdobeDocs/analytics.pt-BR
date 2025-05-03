@@ -4,10 +4,10 @@ title: Configurar uma visualização de fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 90%
+source-wordcount: '1653'
+ht-degree: 89%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="Itens expandidos por coluna"
+>abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_resettoupdate"
+>title="Redefinir para atualizar"
 >abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
 
 
