@@ -140,7 +140,7 @@ Aqui está um vídeo sobre a utilização do menu do botão direito do mouse no 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usando o menu de contexto](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usando o menu de contexto](https://video.tv.adobe.com/v/30819?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

@@ -53,7 +53,7 @@ Ou, você pode criar um ponto de contato AND, arrastando o segmento de usuários
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparar segmentos em uma visualização de fallout](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparar segmentos em uma visualização de fallout](https://video.tv.adobe.com/v/30765?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

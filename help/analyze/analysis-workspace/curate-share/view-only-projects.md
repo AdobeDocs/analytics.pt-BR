@@ -23,7 +23,7 @@ Observe que é possível editar o intervalo de datas do calendário do painel, m
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Projetos somente para visualização](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Projetos somente para visualização](https://video.tv.adobe.com/v/40059?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

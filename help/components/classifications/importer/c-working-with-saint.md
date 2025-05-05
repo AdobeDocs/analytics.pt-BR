@@ -19,7 +19,7 @@ Use o importador para enviar suas classificações para o Adobe Analytics. Você
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importador de classificação](https://video.tv.adobe.com/v/16853?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importador de classificação](https://video.tv.adobe.com/v/40937?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

@@ -18,7 +18,7 @@ Um fluxo interdimensional permite analisar os caminhos do usuário em várias di
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fluxos interdimensionais](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"} para assistir um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fluxos interdimensionais](https://video.tv.adobe.com/v/30808?quality=12&learn=on&captions=por_br){target="_blank"} para assistir um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

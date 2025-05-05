@@ -27,7 +27,7 @@ O processamento de regras simplifica a coleta de dados e o gerenciamento do cont
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral das regras de processamento](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral das regras de processamento](https://video.tv.adobe.com/v/327640/?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

@@ -15,7 +15,7 @@ ht-degree: 41%
 O fluxo de trabalho de configuração do Advertising Analytics consiste nas seguintes etapas:
 
 <!--
->[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33101/?quality=12&captions=por_br)
 -->
 
 1. [Habilitar relatórios do Advertising Analytics por conjunto de relatórios](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Habilite os relatórios do [!UICONTROL Advertising Analytics] para conjuntos de relatórios habilitados pela Experience Cloud.

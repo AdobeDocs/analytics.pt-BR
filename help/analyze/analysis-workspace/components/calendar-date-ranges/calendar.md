@@ -28,7 +28,7 @@ No calendário, é possível especificar datas e intervalos de datas ou selecion
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do calendário e dos intervalos de datas](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do calendário e dos intervalos de datas](https://video.tv.adobe.com/v/30814?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

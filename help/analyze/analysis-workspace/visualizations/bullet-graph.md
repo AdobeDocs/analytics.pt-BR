@@ -45,7 +45,7 @@ O gráfico de marcadores apresenta uma única medida principal (por exemplo, rec
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização do gráfico de marcadores](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização do gráfico de marcadores](https://video.tv.adobe.com/v/30760/?quality=12/?quality=12&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
