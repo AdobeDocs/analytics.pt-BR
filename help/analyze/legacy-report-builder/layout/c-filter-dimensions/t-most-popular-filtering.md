@@ -18,7 +18,7 @@ ht-degree: 89%
 
 Filtros de classificação e condicionais que você configura usando lógica booleana com expressões de pesquisa E/OU.
 
-Os filtros mais populares são filtros de expressão que você configura usando lógica booleana com condições E/OU, como [!UICONTROL Página não contém ]*`<product name>`* com condições ou grupos de condições como [!UICONTROL Inclui tudo], [!UICONTROL Inclui qualquer] ou [!UICONTROL Exclui tudo]. É possível [salvar](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) essas expressões para outra solicitação nessa ou em outras pastas de trabalho.
+Os filtros mais populares são filtros de expressão que você configura usando lógica booleana com condições E/OU, como [!UICONTROL Página não contém &#x200B;]*`<product name>`* com condições ou grupos de condições como [!UICONTROL Inclui tudo], [!UICONTROL Inclui qualquer] ou [!UICONTROL Exclui tudo]. É possível [salvar](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) essas expressões para outra solicitação nessa ou em outras pastas de trabalho.
 
 **Para criar um filtro mais popular**
 

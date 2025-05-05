@@ -94,6 +94,6 @@ Para filtrar dados em tabelas de forma livre:
 
 ## Classificar tabelas
 
-Você pode classificar os dados de uma tabela de forma livre por qualquer coluna no Analysis Workspace que seja uma dimensão ou uma métrica. Uma seta indica como os dados são classificados (**** para decrescente, ou **^** para crescente).
+Você pode classificar os dados de uma tabela de forma livre por qualquer coluna no Analysis Workspace que seja uma dimensão ou uma métrica. Uma seta indica como os dados são classificados (**&#x200B;** para decrescente, ou **^** para crescente).
 
 ![Classificação](assets/sorting.gif)

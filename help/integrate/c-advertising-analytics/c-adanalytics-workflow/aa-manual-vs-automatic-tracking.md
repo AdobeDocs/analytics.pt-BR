@@ -98,7 +98,7 @@ A sequência de caracteres que precisa ser adicionada a sua conta do Bing é mos
 
 >[!IMPORTANT]
 >
->O _`<Advertising Analytics ID>`_valor (em **negrito**abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. É possível obter sua sequência de caracteres da ID de conta específica na tela da conta, na seção &quot;Rastreamento&quot;.
+>O _`<Advertising Analytics ID>`_valor (em **negrito**&#x200B;abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. É possível obter sua sequência de caracteres da ID de conta específica na tela da conta, na seção &quot;Rastreamento&quot;.
 
 **Sequência de caracteres de rastreamento de campanhas:**
 

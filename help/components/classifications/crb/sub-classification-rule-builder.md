@@ -65,7 +65,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    Exemplo:
 
-   | Chave | Canal | Código de campanha ampla | Código de campanha&amp;Hat;Tipo de campanha | Código de campanha&amp;Hat;Diretor de campanha | ... |
+   | Chave | Canal | Código de campanha ampla | Código de campanha&Hat;Tipo de campanha | Código de campanha&Hat;Diretor de campanha | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marca | Suzanne |  |
    | &#42; |  | 222 | Marca | Frank |  |

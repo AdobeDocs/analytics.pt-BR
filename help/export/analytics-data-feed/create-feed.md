@@ -134,7 +134,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
       1. (Condicional) Se você precisar gerenciar o destino (conta e localização) que acabou de criar, ele estará disponível no [Gerenciador de locais](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -208,7 +208,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
       1. (Condicional) Se você precisar gerenciar o destino (conta e localização) que acabou de criar, ele estará disponível no [Gerenciador de locais](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -283,7 +283,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
       1. (Condicional) Se você precisar gerenciar o destino (conta e localização) que acabou de criar, ele estará disponível no [Gerenciador de locais](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -353,7 +353,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
       1. (Condicional) Se você precisar gerenciar o destino (conta e localização) que acabou de criar, ele estará disponível no [Gerenciador de locais](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
 1. Na seção [!UICONTROL **Definições da Coluna de Dados**], selecione o modelo mais recente [!UICONTROL **Todas as Colunas da Adobe**] no menu suspenso e preencha os seguintes campos:
 

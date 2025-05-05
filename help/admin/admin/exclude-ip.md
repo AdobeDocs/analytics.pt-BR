@@ -26,8 +26,8 @@ Para excluir dados por endereço IP, você pode configurar exclusões conforme d
 >* As ocorrências excluídas pelo endereço IP são cobradas como [chamadas do servidor](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=pt-BR).
 >* Endereços IP privados não precisam ser excluídos. Somente endereços IP externos chegam aos servidores de coleta de dados da Adobe. Os endereços privados incluem `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` e `169.254.*.*`.
 >* Você pode usar indicadores curingas (&#42;) para excluir um intervalo de endereços. Por exemplo, `[!DNL 0.0.*.0]` excluiria todos os endereços IP entre `[!DNL 0.0.0.0]` e `[!DNL 0.0.255.0]`. É possível excluir até 50 endereços IP diferentes.
-* Os dados de um endereço IP excluído são excluídos para quaisquer novas ocorrências que cheguem ao sistema dentro de 5 minutos após a definição da exclusão.
-* Os dados de ocorrências capturadas antes do momento em que as alterações foram feitas no endereço IP não são afetados.
+>* Os dados de um endereço IP excluído são excluídos para quaisquer novas ocorrências que cheguem ao sistema dentro de 5 minutos após a definição da exclusão.
+>* Os dados de ocorrências capturadas antes do momento em que as alterações foram feitas no endereço IP não são afetados.
 >
 
 Para configurar exclusões por endereço IP:
