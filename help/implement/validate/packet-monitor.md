@@ -5,7 +5,7 @@ keywords: sniffer de pacote, status http, 200, 302, charles
 feature: Validation
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+source-git-commit: d952d199c3c02ee8d0a223569f58d56027809cfb
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 99%
@@ -34,7 +34,7 @@ Enquanto a Adobe não oferece um monitor de pacote oficial, há uma grande varie
 | Firefox | Internet Explorer | Chrome | Programas autônomos |
 |---|---|---|---|
 | [Ponto de observação](https://www.observepoint.com/product#plugin) (visualizador de tag) | [HttpWatch](https://www.httpwatch.com/) | [Ponto de observação](https://www.observepoint.com/product#plugin) (visualizador de tag) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Ferramentas de desenvolvedor do Google Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Ferramentas de desenvolvedor do Google Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.telerik.com/fiddler) |
 | [Tamper Data](https://addons.mozilla.org/pt-BR/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chromewebstore.google.com/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
