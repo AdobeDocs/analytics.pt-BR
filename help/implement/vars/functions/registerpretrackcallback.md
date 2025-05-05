@@ -37,7 +37,7 @@ O SDK da Web não pode interceptar uma função após a compilação de dados, m
 
 ## Pré-rastrear retorno de chamada implementando manualmente o SDK da Web
 
-O SDK da Web não pode interceptar uma função após a compilação de dados, mas antes de serem enviados ao Adobe. No entanto, você pode usar `onBeforeEventSend` para registrar uma função para ser executada antes que os dados sejam enviados, semelhante a `doPlugins`. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
+O SDK da Web não pode interceptar uma função após a compilação de dados, mas antes de serem enviados ao Adobe. No entanto, você pode usar `onBeforeEventSend` para registrar uma função para ser executada antes que os dados sejam enviados, semelhante a `doPlugins`. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
 
 ```js
 // Set the trackingCode XDM field to "New value"

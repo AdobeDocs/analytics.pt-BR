@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-Consulte [Manipulando respostas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) na documentação do SDK da Web para obter mais informações.
+Consulte [Manipulando respostas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#handling-responses-from-events) na documentação do SDK da Web para obter mais informações.
 
 ## Registrar retorno de chamada de rastreamento de Post usando a extensão do Adobe Analytics
 

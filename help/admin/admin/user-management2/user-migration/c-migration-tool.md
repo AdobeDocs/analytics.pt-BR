@@ -76,7 +76,7 @@ Respostas às perguntas que você pode ter antes da migração.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Atualizar o Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Importante: atualize sua instalação do <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> para a versão mais recente. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Importante: atualize sua instalação do <a href="https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> para a versão mais recente. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quando a migração começa? </p> </td> 

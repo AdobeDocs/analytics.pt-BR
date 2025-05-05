@@ -37,7 +37,7 @@ Observe que, para configurar uma conta de mecanismo de pesquisa com o tipo **[!U
 
 >[!IMPORTANT]
 >
->Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
+>Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/pt-br/docs/id-service/using/reference/csp).
 
 ## Rastreamento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 

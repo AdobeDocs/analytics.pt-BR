@@ -65,7 +65,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>6</td> 
 <td><b>Validar e publicar na produção</b>. Incorpore o código para incluir a propriedade da tag nas páginas do site. Em seguida, use elementos de dados, regras, entre outros, para personalizar sua implementação.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Incorporar código</a><br/><a href="./validate-publish-prod.md">Validar uma implementação de desenvolvimento e publicar na produção</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=pt-BR#embed-code">Incorporar código</a><br/><a href="./validate-publish-prod.md">Validar uma implementação de desenvolvimento e publicar na produção</a></td>
 </tr>
 
 </table>

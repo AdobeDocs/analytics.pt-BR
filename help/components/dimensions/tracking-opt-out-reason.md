@@ -14,13 +14,13 @@ ht-degree: 7%
 
 *Esta página se refere à [dimensão](overview.md) que permite ver o impacto potencial dos dados ao habilitar determinadas configurações do Conjunto de Relatórios. Não está relacionado ao [Serviço de Opt-in da Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR).*
 
-A dimensão &quot;Motivo da desativação do rastreamento&quot; atua como uma visualização dos dados que seriam excluídos se as Configurações de privacidade fossem ativadas. Essa dimensão é usada principalmente para determinar se sua implementação será afetada negativamente se você tiver ativado as [Configurações de privacidade](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) nas Configurações do conjunto de relatórios.
+A dimensão &quot;Motivo da desativação do rastreamento&quot; atua como uma visualização dos dados que seriam excluídos se as Configurações de privacidade fossem ativadas. Essa dimensão é usada principalmente para determinar se sua implementação será afetada negativamente se você tiver ativado as [Configurações de privacidade](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=pt-BR) nas Configurações do conjunto de relatórios.
 
 As implementações típicas veem 1% ou menos do tráfego geral do conjunto de relatórios nessa dimensão se as Configurações de privacidade ainda não tiverem sido ativadas. Porcentagens maiores que 1% de todo o tráfego sugerem um possível problema de implementação que impede o AppMeasurement de definir cookies próprios.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão funciona imediatamente em todas as implementações que ainda não ativaram as [Configurações de privacidade](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html). Se sua organização já tiver habilitado a configuração **[!UICONTROL Remover usuários que bloquearam todos os cookies]** para navegadores de desktop e móveis, esta dimensão não conterá dados.
+Essa dimensão funciona imediatamente em todas as implementações que ainda não ativaram as [Configurações de privacidade](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=pt-BR). Se sua organização já tiver habilitado a configuração **[!UICONTROL Remover usuários que bloquearam todos os cookies]** para navegadores de desktop e móveis, esta dimensão não conterá dados.
 
 ## Itens de dimensão
 

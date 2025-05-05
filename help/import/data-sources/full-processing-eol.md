@@ -34,7 +34,7 @@ As seguintes variáveis foram introduzidas na inserção de dados em massa, que 
 * **`aamlh`**: dica de localização do Adobe Audience Manager.
 * **`contextData.key`**: [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: variáveis do serviço de ID de Experience Cloud. Inclui o `id`, `authState` e `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variáveis. Inclui `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR) variáveis. Inclui `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
 * **`ipaddress`**: o endereço IP do visitante.
 * **`language`**: A dimensão [Idioma](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Listar variáveis](/help/implement/vars/page-vars/list.md).

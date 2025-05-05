@@ -20,7 +20,7 @@ Quando a **[!UICONTROL Habilitar coleta de dados de cliques]** estiver habilitad
 
 ## Exclusões de região na biblioteca JavaScript do SDK da Web
 
-Quando [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) estiver habilitado, use o retorno de chamada `filterClickDetails` no objeto `clickCollection`. Dentro dessa chamada de retorno, você pode verificar o valor de `linkRegion` e alterar o valor ou abandonar a coleção de dados de rastreamento de link.
+Quando [`clickCollectionEnabled`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) estiver habilitado, use o retorno de chamada `filterClickDetails` no objeto `clickCollection`. Dentro dessa chamada de retorno, você pode verificar o valor de `linkRegion` e alterar o valor ou abandonar a coleção de dados de rastreamento de link.
 
 ```js
 alloy("configure", {

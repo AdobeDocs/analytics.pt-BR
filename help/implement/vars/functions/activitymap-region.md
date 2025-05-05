@@ -19,7 +19,7 @@ A variável `ActivityMap.region` permite que você substitua a lógica que o Act
 
 ## Substituição de valores de região usando o SDK da Web
 
-Você pode usar o retorno de chamada [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar a carga do SDK da Web ou cancelar o envio de dados.
+Você pode usar o retorno de chamada [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar a carga do SDK da Web ou cancelar o envio de dados.
 
 ## Substituição de região usando a extensão do Adobe Analytics
 

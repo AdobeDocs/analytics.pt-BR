@@ -22,5 +22,5 @@ Para implementar o Analytics para dispositivos móveis, use o Adobe Experience P
 
 >[!CAUTION]
 >
->O suporte à versão 4 dos SDKs móveis terminou em 31 de agosto de 2021. Consulte as [Perguntas frequentes sobre o fim da vida útil do Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) para obter mais informações.
+>O suporte à versão 4 dos SDKs móveis terminou em 31 de agosto de 2021. Consulte as [Perguntas frequentes sobre o fim da vida útil do Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=pt-BR) para obter mais informações.
 

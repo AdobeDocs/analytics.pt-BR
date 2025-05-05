@@ -15,6 +15,6 @@ ht-degree: 76%
 
 Use o complemento Adobe Report Builder para o Microsoft Excel e crie relatórios personalizados para dados de análise da Web que podem ser inseridos em planilhas do Excel.
 
-As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como os dados são apresentados. Para FTP, você precisa garantir que o host esteja disponível externamente. Para obter mais informações sobre os relatórios entregues do [!UICONTROL Report Builder], consulte a [Ajuda do Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview).
+As solicitações podem fazer referência, de forma dinâmica, a células da planilha, e você pode atualizar e personalizar o modo como os dados são apresentados. Para FTP, você precisa garantir que o host esteja disponível externamente. Para obter mais informações sobre os relatórios entregues do [!UICONTROL Report Builder], consulte a [Ajuda do Report Builder](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/rb-overview).
 
 Para obter informações sobre limites FTP e retenção de dados, consulte [Limites FTP e retenção de dados](/help/export/ftp-and-sftp/ftp-limits.md).

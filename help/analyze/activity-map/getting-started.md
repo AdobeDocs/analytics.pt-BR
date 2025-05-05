@@ -48,7 +48,7 @@ A definição de configuração **[!UICONTROL Coleta de dados de cliques]** lida
 1. Selecione **[!UICONTROL Salvar]**.
 1. Se necessário, crie as alterações em uma biblioteca e publique as alterações na produção.
 
-Consulte [Configurar a extensão de tag do SDK da Web](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) para obter mais informações.
+Consulte [Configurar a extensão de tag do SDK da Web](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) para obter mais informações.
 
 +++
 
@@ -56,7 +56,7 @@ Consulte [Configurar a extensão de tag do SDK da Web](https://experienceleague.
 
 A coleção de dados do Activity Map exige a biblioteca JavaScript do SDK da Web v2.20 ou posterior. As versões de biblioteca até a v2.15 têm suporte limitado. Essas versões anteriores da biblioteca enviam dados de Activity Map em um evento separado do restante dos dados. Esse evento extra aumenta o número de ocorrências enviadas para o Adobe Analytics ou Adobe Experience Platform.
 
-A variável de configuração [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) do SDK da Web manipula a coleta automática de dados Activity Map. Ela é ativada por padrão, a menos que explicitamente desativada.
+A variável de configuração [`clickCollectionEnabled`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) do SDK da Web manipula a coleta automática de dados Activity Map. Ela é ativada por padrão, a menos que explicitamente desativada.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ A definição de configuração **[!UICONTROL Usar Activity Map]** lida com a co
 1. Selecione **[!UICONTROL Salvar]**.
 1. Se necessário, crie as alterações em uma biblioteca e publique as alterações na produção.
 
-Consulte a [visão geral da extensão do Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) para obter mais informações.
+Consulte a [visão geral da extensão do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/analytics/overview) para obter mais informações.
 
 +++
 

@@ -31,4 +31,4 @@ A análise em tempo real respeita as permissões para usuários e grupos. Por ex
 
 >[!NOTE]
 >
->[!UICONTROL Relatórios em Tempo Real] não são o mesmo que o recurso [Incluir Dados Atuais](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) (Recenticidade dos Dados) lançado anteriormente, que, por sua vez, reduz a latência de relatórios padrão ao exibir dados antes da finalização.
+>[!UICONTROL Relatórios em Tempo Real] não são o mesmo que o recurso [Incluir Dados Atuais](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=pt-BR) (Recenticidade dos Dados) lançado anteriormente, que, por sua vez, reduz a latência de relatórios padrão ao exibir dados antes da finalização.

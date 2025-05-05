@@ -44,7 +44,7 @@ A página de opção de não participação da organização depende do valor da
    1. No servidor da Web, abra o arquivo AppMeasurement.js usado no site em um editor de código ou texto.
    1. Observe o valor da variável `trackingServer`.
 
-* Usando o [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
+* Usando o [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=pt-BR):
    1. Navegue até seu site usando o navegador Chrome.
    1. Abra o Experience Cloud Debugger e acesse a guia [!UICONTROL Rede].
    1. Observe o valor [!UICONTROL URL de solicitação - Nome do host].

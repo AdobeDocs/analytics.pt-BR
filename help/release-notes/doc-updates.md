@@ -47,7 +47,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Outubro de 2024** |  |
 | Novas informações sobre fatores de solicitação no desempenho do Analysis Workspace | Uma nova seção de [Fatores de solicitação](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) no artigo [Otimizar o desempenho do Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) explica como as solicitações são processadas e os vários fatores que influenciam os tempos de processamento. |
-| Novo Report Builder | [Nova documentação](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) para o complemento do Report Builder simplificado e compatível com Mac, Windows e navegadores da web. |
+| Novo Report Builder | [Nova documentação](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/rb-overview) para o complemento do Report Builder simplificado e compatível com Mac, Windows e navegadores da web. |
 | **Agosto de 2024** | |
 | Gerenciador de alertas | Documentação simplificada sobre o [Gerenciador de alertas](/help/components/c-alerts/alert-manager.md). Atualizada para aumentar a clareza e a precisão. |
 | **Julho de 2024** | |
@@ -167,7 +167,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=pt-BR). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/classifications/sets/overview) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
