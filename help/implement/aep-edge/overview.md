@@ -4,10 +4,10 @@ description: Visão geral do uso de dados XDM da Experience Platform no Adobe An
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c7fd66e99fd7d6c474682621a3c18bf41d541a96
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 77%
+source-wordcount: '395'
+ht-degree: 73%
 
 ---
 
@@ -19,9 +19,7 @@ A Adobe oferece três formas principais de se enviar dados à rede de borda:
 
 * **[SDK da Web da Adobe Experience Platform](web-sdk/overview.md)**: usar a extensão de SDK da Web da coleção de dados da Adobe Experience Platform para enviar dados para o Edge.
 * **[SDK móvel da Adobe Experience Platform](mobile-sdk/overview.md)**: usar a extensão de SDK móvel da coleção de dados da Adobe Experience Platform para enviar dados para o Edge.
-* **[API do servidor de rede de borda da Adobe Experience Platform](server-api/overview.md)**: envie dados diretamente à rede de borda usando uma API.
-
-
+* **[API do Adobe Experience Platform Edge Network](api/overview.md)**: envie dados diretamente para a Edge Network usando uma API.
 
 ## Como o Adobe Analytics lida com os dados da rede de borda
 

@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 336347d3302ff8d78ee6ce87f3fa3acad5742dd9
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '6378'
+source-wordcount: '6376'
 ht-degree: 99%
 
 ---
@@ -47,7 +47,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Outubro de 2024** |  |
 | Novas informações sobre fatores de solicitação no desempenho do Analysis Workspace | Uma nova seção de [Fatores de solicitação](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) no artigo [Otimizar o desempenho do Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) explica como as solicitações são processadas e os vários fatores que influenciam os tempos de processamento. |
-| Novo Report Builder | [Nova documentação](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/rb-overview) para o complemento do Report Builder simplificado e compatível com Mac, Windows e navegadores da web. |
+| Novo Report Builder | [Nova documentação](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) para o complemento do Report Builder simplificado e compatível com Mac, Windows e navegadores da web. |
 | **Agosto de 2024** | |
 | Gerenciador de alertas | Documentação simplificada sobre o [Gerenciador de alertas](/help/components/c-alerts/alert-manager.md). Atualizada para aumentar a clareza e a precisão. |
 | **Julho de 2024** | |
@@ -112,7 +112,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Esclarecimento sobre a configuração do SFTP para feeds de dados não necessitar do Atendimento ao cliente da Adobe | [Enviar dados da Adobe para uma conta FTP externa com SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) foi atualizado para esclarecer que os clientes não precisam entrar em contato com o Atendimento ao cliente da Adobe para configurar o SFTP para feeds de dados. <p>Também foi adicionada uma observação sobre o SFTP não ser mais recomendado e que os clientes devem usar um destino de nuvem ao configurar feeds de dados.</p> |
 | Melhorias na documentação da Coleção de mídia de streaming | Os seguintes aprimoramentos foram realizados na documentação da Coleção de mídia de streaming: <ul><li>Atualização da [visão geral](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview) para aumentar a clareza e incluir informações relacionadas ao Customer Journey Analytics.</li><li>A [visão geral de implementação](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/implementation/overview) foi atualizada para diferenciar claramente entre as implementações do Edge e as implementações somente do Analytics. Também incluímos diagramas para ilustrar os vários métodos de implementação.</li><li>Foram adicionados pré-requisitos específicos às [Implementações do Edge](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge) e [Implementações somente do Analytics](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics). Os [pré-requisitos gerais](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/getting-started/prereqs) também foram atualizados.</li><li>Tabelas atualizadas no artigo [Obter SDKs de mídia, extensões que usam tags e SDKs OTT](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/getting-started/download-sdks) para incluir novas colunas para *Soluções compatíveis* e *Método de implementação*.</li><li>Simplificação do conteúdo e da organização de artigos na área [Implementação](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/implementation/overview) da documentação. Isso incluiu categorizar implementações como implementações do Edge e implementações somente do Analytics.</li><li>Remoção de um nível extra de hierarquia que não era necessário em [Rastreamento](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/tracking/track-core-overview) e adição de redirecionamentos para URLs alterados nesta seção.</li><ul> |
 | **Julho de 2023** | |
-| API de servidor de rede de borda da Adobe Experience Platform | Foi adicionada uma documentação mais abrangente sobre quando e como implementar a coleção de dados com o Adobe Analytics usando a [API do servidor de rede de borda da Adobe Experience Platform](../implement/aep-edge/server-api/overview.md). Por exemplo, implementação da coleção de dados com o Adobe Analytics em aplicativos de desktop, dispositivos IoT e conversores. |
+| API do Adobe Experience Platform Edge Network | Adição de uma documentação mais abrangente sobre quando e como implementar a coleta de dados com o Adobe Analytics usando a [API do Adobe Experience Platform Edge Network](../implement/aep-edge/api/overview.md). Por exemplo, implementação da coleção de dados com o Adobe Analytics em aplicativos de desktop, dispositivos IoT e conversores. |
 | ID global da empresa | Documentado [como encontrar a ID global da empresa](../admin/admin/company/web-services-admin.md) para a empresa do Analytics na qual você está conectado. Essa ID é necessária para as APIs do Analytics 2.0. |
 | Limite de tamanho do FTP atualizado | O [limite de armazenamento de dados FTP](/help/export/ftp-and-sftp/ftp-limits.md) padrão foi alterado para 100 GB. |
 | Nova variável do AppMeasurement | A variável `decodeLinkParameters` acomoda casos extremos em que as implementações codificam caracteres multibytes em variáveis de rastreamento de link. [Saiba mais](../implement/vars/config-vars/decodelinkparameters.md) |
@@ -167,7 +167,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=pt-BR). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/classifications/sets/overview) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
@@ -184,7 +184,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Uso do campo SKU no XDM para o Edge Collection ao definir variáveis de string de produtos | Permite que clientes que coletam dados por meio do SDK da web usem o valor de SKU para definir o campo do produto na variável de produto. [Saiba mais](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **Junho de 2022** |  |
 | Variáveis de merchandising no XDM do Edge Collection | Documentação sobre a [compatibilidade com variáveis de merchandising no XDM do Edge Collection](/help/components/dimensions/evar-merchandising.md) |
-| Documentação da Experience Platform Edge | Novos artigos sobre a implementação do Adobe Analytics por meio do [SDK da Web](/help/implement/aep-edge/web-sdk/overview.md), [SDK móvel](/help/implement/aep-edge/mobile-sdk/overview.md) e [API de borda](/help/implement/aep-edge/server-api/overview.md). |
+| Documentação da Experience Platform Edge | Novos artigos sobre a implementação do Adobe Analytics por meio do [SDK da Web](/help/implement/aep-edge/web-sdk/overview.md), [SDK móvel](/help/implement/aep-edge/mobile-sdk/overview.md) e [API de borda](/help/implement/aep-edge/api/overview.md). |
 | Atualização da documentação da visualização de fluxo | Com base na [nova interface](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentação sobre compartilhamento de anotações em cartões de pontuação móveis | Você pode exibir [anotações criadas no Workspace em cartões de pontuação móveis](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Maio de 2022** | |
