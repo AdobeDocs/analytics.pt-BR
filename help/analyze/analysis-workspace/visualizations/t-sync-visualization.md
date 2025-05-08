@@ -5,21 +5,32 @@ title: Gerenciar fontes de dados da visualização
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+source-git-commit: 41ac4a97019e8192c96f3cdb141dad3d5db18d12
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Gerenciar fontes de dados da visualização {#manage-visualization-data-sources}
 
 >[!CONTEXTUALHELP]
->id="workspace_datasource_lock_selection"
+>id="workspace_freeformtable_lockselection"
 >title="Bloquear seleção"
->abstract="Habilite esta configuração para bloquear a visualização nas posições da tabela ou nos itens exatos selecionados na fonte de dados."
+>abstract="Habilite esta configuração para bloquear a visualização nas posições selecionadas ou nos itens selecionados na fonte de dados."
 
-A sincronização de visualizações permite que você controle qual tabela de dados ou fonte de dados corresponde a uma visualização.
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_lockselection_showtable"
+>title="Mostrar tabela"
+>abstract="Selecionar **[!UICONTROL Mostrar tabela]** gerará uma nova fonte de dados para a visualização atual, separada da fonte de dados original."
+
+<!-- markdownlint-enable MD034 -->
+
+A sincronização de visualizações permite controlar qual tabela de dados ou fonte de dados corresponde a uma visualização.
 
 **Dica:** saiba quais visualizações têm relação umas com as outras pela cor do ponto ao lado do título. Cores iguais significam que as visualizações têm como base a mesma fonte de dados.
 
@@ -40,7 +51,7 @@ O gerenciamento de uma fonte de dados permite exibir a fonte de dados ou bloquea
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações da fonte de dados](https://video.tv.adobe.com/v/30853?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações da fonte de dados](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

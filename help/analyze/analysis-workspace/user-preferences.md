@@ -4,10 +4,10 @@ description: É possível definir preferências gerais e de projeto para usuári
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
-source-wordcount: '3122'
-ht-degree: 99%
+source-wordcount: '3361'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Você pode gerenciar as configurações do Analysis Workspace e seus componentes
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciar preferências](https://video.tv.adobe.com/v/3429987/?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciar preferências](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,22 @@ Você pode personalizar as preferências gerais de todos os novos projetos criad
 | Mostrar dicas | Exibe dicas em uma caixa azul na área inferior direita do Analysis Workspace. <p>Essa opção está ativada por padrão.</p> |
 | Componentes exibidos em grupos do painel esquerdo | Escolha quantos de cada componente serão exibidos no menu Componentes no painel à esquerda. <p>Se você escolher 0, o componente não estará mais acessível no painel esquerdo dos espaços de trabalho.</p><p>Por padrão, 5 componentes são exibidos para cada um dos seguintes itens:</p> <ul><li>Dimensões</li><li>Métricas</li><li>Filtros</li><li>Intervalos de datas</li></ul> <p>Para obter mais informações sobre Componentes no Analysis Workspace, consulte [Visão geral dos componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
-## Preferências da empresa
+## Preferências da empresa {#company-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_shareonlyworkspace"
+>title="Permitir compartilhamento apenas com usuários do espaço de trabalho"
+>abstract="Quando habilitada, a opção **[!UICONTROL Compartilhar com qualquer pessoa]** não fica mais disponível para usuários que compartilham um projeto do Analysis Workspace. As pessoas que anteriormente receberam acesso a um projeto por meio dessa opção de compartilhamento não podem mais acessar o projeto."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_requireexperiencecloudauth"
+>title="Exigir autenticação da Experience Cloud"
+>abstract="Quando habilitado, as pessoas que recebem acesso a um projeto da opção **[!UICONTROL Compartilhar com qualquer pessoa]** no Analysis Workspace devem se autenticar usando suas credenciais do Experience Cloud."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_projectcommenting"
+>title="Permitir comentários em projetos"
+>abstract="Quando ativada, uma área de comentários fica disponível no painel direito de cada projeto no Analysis Workspace."
 
 Você pode atualizar as preferências da empresa que se aplicam a todos os usuários e projetos em sua organização. Para obter informações sobre como acessar essas preferências, consulte [Atualizar preferências](#update-preferences).
 
@@ -61,11 +76,26 @@ Você pode atualizar as preferências da empresa que se aplicam a todos os usuá
 |  | Ocultar guia Relatórios | Oculta a guia Relatórios para todos os usuários em sua organização. |
 | **Compartilhamento de projeto** | | |
 | | Compartilhar apenas com usuários do espaço de trabalho | <p>Quando essa opção está habilitada, os usuários em sua organização não podem ver a opção “Compartilhar com qualquer pessoa” no menu Compartilhar. Isso significa que os usuários não podem compartilhar projetos com pessoas que não têm uma conta do Analysis Workspace em sua organização, conforme descrito em [Compartilhar um projeto com qualquer pessoa (não exigir logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) em [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>Considere o seguinte ao habilitar ou desabilitar essa opção:</p> <ul><li><p>Quando você habilita essa opção, as pessoas que anteriormente receberam acesso a um projeto por meio da opção de compartilhamento “Compartilhar com qualquer pessoa” não podem mais acessar o projeto.</p></li><li><p>Se essa opção for habilitada (para permitir o compartilhamento somente com usuários do espaço de trabalho) e depois desabilitada (para permitir o compartilhamento com qualquer pessoa), as pessoas que anteriormente receberam acesso a um projeto por meio da opção “Compartilhar com qualquer pessoa” não recuperarão automaticamente o acesso ao projeto. Nesse caso, o usuário que compartilhou o projeto deve habilitar a opção [!UICONTROL **O link está ativo**] que está disponível ao compartilhar um projeto com qualquer pessoa ([!UICONTROL **Compartilhar**] > [!UICONTROL **Compartilhar com qualquer pessoa**]), conforme descrito em [Compartilhar um projeto com qualquer pessoa (não exigir logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) em [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> |
-| | Exigir autenticação da Experience Cloud | <p>Quando habilitada, as pessoas que recebem acesso a um projeto pela opção “Compartilhar com qualquer pessoa” do Analysis Workspace devem se autenticar usando as credenciais da Experience Cloud.</p> <p>Depois que esta opção for habilitada, sempre que um usuário compartilhar um projeto usando a opção “Compartilhar com qualquer pessoa”, a opção “Exigir autenticação da Experience Cloud” será habilitada na caixa de diálogo de compartilhamento e não poderá ser desabilitada pelo usuário que está compartilhando o projeto. (Para obter informações sobre como os usuários podem compartilhar projetos com qualquer pessoa, consulte [Compartilhar um projeto com qualquer pessoa (não exigir logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) em [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Considere o seguinte ao habilitar essa opção:</p><ul><li><p>Ao habilitar essa opção, todos os projetos que foram compartilhados anteriormente com a opção “Compartilhar com qualquer pessoa” e que não têm a opção “Exigir autenticação da Experience Cloud” habilitada serão desativados.</p></li> <li><p>Se essa opção for habilitada (para exigir a autenticação da Experience Cloud) e depois desabilitada (para permitir que qualquer pessoa com o link acesse o projeto), as pessoas que anteriormente recebiam acesso a um projeto por meio da opção “Compartilhar com qualquer pessoa” não recuperarão automaticamente o acesso ao projeto. Nesse caso, o usuário que compartilhou o projeto deve habilitar a opção “O link está ativo” que está disponível ao compartilhar um projeto com qualquer pessoa ([!UICONTROL **Compartilhar**] > [!UICONTROL **Compartilhar com qualquer pessoa**] > [!UICONTROL **O link está ativo**]), conforme descrito em [Compartilhar um projeto com qualquer pessoa (não exigir logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) em [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Essa opção só estará disponível se o recurso de logon único (SSO) estiver implementado em sua organização. Para obter informações sobre como os administradores do sistema podem habilitar o SSO na sua organização, consulte [Configurar identidade e logon único](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Se o SSO estiver configurado na sua organização, verifique se algum tipo de criação automática de contas está implementado no console. Normalmente, admins de sistema configurariam isso, conforme descrito em [Habilitar a criação automática de contas](https://helpx.adobe.com/br/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>Se sua organização estiver em um setor que exige conformidade com a HIPAA, essa opção será habilitada automaticamente e não poderá ser desabilitada.</p></li></ul> |
+| | Exigir autenticação da Experience Cloud | <p>Quando habilitada, as pessoas que recebem acesso a um projeto pela opção “Compartilhar com qualquer pessoa” do Analysis Workspace devem se autenticar usando as credenciais da Experience Cloud.</p> <p>Depois que esta opção for habilitada, sempre que um usuário compartilhar um projeto usando a opção “Compartilhar com qualquer pessoa”, a opção “Exigir autenticação da Experience Cloud” será habilitada na caixa de diálogo de compartilhamento e não poderá ser desabilitada pelo usuário que está compartilhando o projeto. (Para obter informações sobre como os usuários podem compartilhar projetos com qualquer pessoa, consulte [Compartilhar um projeto com qualquer pessoa (não exigir logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) em [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Considere o seguinte ao habilitar essa opção:</p><ul><li><p>Ao habilitar essa opção, todos os projetos que foram compartilhados anteriormente com a opção “Compartilhar com qualquer pessoa” e que não têm a opção “Exigir autenticação da Experience Cloud” habilitada serão desativados.</p></li> <li><p>Se essa opção for habilitada (para exigir a autenticação da Experience Cloud) e depois desabilitada (para permitir que qualquer pessoa com o link acesse o projeto), as pessoas que anteriormente recebiam acesso a um projeto por meio da opção “Compartilhar com qualquer pessoa” não recuperarão automaticamente o acesso ao projeto. Nesse caso, o usuário que compartilhou o projeto deve habilitar a opção “O link está ativo” que está disponível ao compartilhar um projeto com qualquer pessoa ([!UICONTROL **Compartilhar**] > [!UICONTROL **Compartilhar com qualquer pessoa**] > [!UICONTROL **O link está ativo**]), conforme descrito em [Compartilhar um projeto com qualquer pessoa (não exigir logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) em [Compartilhar projetos](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Essa opção só estará disponível se o recurso de logon único (SSO) estiver implementado em sua organização. Para obter informações sobre como admins de sistema podem habilitar o SSO na sua organização, consulte [Configuração de identidade e logon único](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Se o SSO estiver configurado na sua organização, verifique se há algum tipo de criação automática de contas implementado no console. Normalmente, isso é configurado por um(a) admin de sistema, conforme descrito em [Habilitar criação automática de conta](https://helpx.adobe.com/br/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>Se sua organização estiver em um setor que exige conformidade com a HIPAA, essa opção será habilitada automaticamente e não poderá ser desabilitada.</p></li></ul> |
 
 {style="table-layout:auto"}
 
-## Preferências de projetos e análises
+## Preferências de projetos e análises {#project-analyses-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_categoricalpalette"
+>title="Paleta categórica"
+>abstract="Aplicado a muitas visualizações no Analysis Workspace e em análises guiadas. Cada cor representa um valor categórico diferente."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_divergingpalette"
+>title="Paleta divergente"
+>abstract="Aplicado à tabela de coorte no Analysis Workspace e em análises guiadas de crescimento de usuários. Esta paleta possui um significado numérico com dois extremos e uma linha de base no meio."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_sequentialpalette"
+>title="Paleta sequencial"
+>abstract="Aplicado à análise guiada de tendências de frequência (barras empilhadas). Esta paleta possui um significado numérico que vai do claro ao escuro."
 
 Você pode personalizar as preferências do projeto para todos os novos projetos criados no Analysis Workspace. Para obter informações sobre como acessar essas preferências, consulte [Atualizar preferências](#update-preferences).
 
@@ -87,7 +117,24 @@ Clique nos títulos de preferência vinculados para obter mais informações e c
 |  | Caractere separador do CSV | <ul><li>Vírgula (padrão)</li><li>Ponto e vírgula</li><li>Dois-pontos</li><li>Estágio</li><li>Ponto</li><li>Espaço</li><li>Tabulação</li></ul> |
 |  | Mostrar anotações | Escolha se as anotações estão visíveis em seus projetos. Para obter mais informações sobre anotações, consulte [Visão geral de anotações](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
-## Preferências da tabela de forma livre
+## Preferências da tabela de forma livre {#freeform-table-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showanomalies"
+>title="Mostrar anomalias"
+>abstract="Selecionar a opção **[!UICONTROL Mostrar anomalias]** executará automaticamente a detecção de anomalias na primeira coluna de métrica adicionada a uma visualização de tabela de forma livre de série temporal."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showforecast"
+>title="Mostrar previsão"
+>abstract="Selecionar **[!UICONTROL Mostrar previsão]** preverá automaticamente a primeira coluna de métrica adicionada a uma visualização de tabela de forma livre de série temporal."
+
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="Métrica de tabela padrão"
+>abstract="Selecione a métrica padrão para usar em tabelas de forma livre. Se a visualização de dados selecionada não contiver a métrica padrão selecionada, a tabela alternará automaticamente para outra métrica primária."
+
 
 Você pode personalizar as preferências da tabela de forma livre para todos os novos projetos criados no Analysis Workspace. Para obter informações sobre como acessar essas preferências, consulte [Atualizar preferências](#update-preferences).
 
@@ -149,7 +196,7 @@ Clique nos títulos da seção vinculada para obter mais informações e context
 | | Mostrar máx. | sobrepõe um rótulo de valor máximo para destacar rapidamente os picos em uma métrica. Observação: os valores máx. são derivados dos pontos de dados visíveis na visualização, não do conjunto completo de valores em uma dimensão. |
 | | Mostrar linha de tendência | Mostrar uma regressão ou uma linha de tendência média móvel para a sua série de linhas. As linhas de tendência ajudam a descrever um padrão mais claro nos dados. |
 | **[Coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)** | | |
-| | Granularidade | Para visualizações de tendências, você pode alterar a granularidade de tempo (dia, semana, mês, trimestre ou ano). Essa alteração também se aplica à tabela de fonte de dados. |
+| | Granularidade | Para visualizações de tendências, você pode alterar a granularidade de tempo (dia, semana, mês, trimestre ou ano). Essa alteração também se aplica à tabela de fontes de dados. |
 | | Mostrar somente a porcentagem | Remove o valor do número e mostra somente a porcentagem. |
 | | Arredondar porcentagem ao inteiro mais próximo | Arredonda o valor percentual para o inteiro mais próximo em vez de mostrar o valor decimal. |
 | | Mostrar linha de porcentagem média | Insere uma nova linha na parte superior da tabela e adiciona a média para os valores dentro de cada coluna. |

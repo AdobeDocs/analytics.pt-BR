@@ -3,10 +3,10 @@ description: O Construtor de segmentos fornece uma tela para arrastar e soltar D
 title: Construir segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
+workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="Criar público-alvo"
->abstract="Os públicos-alvo podem ser criados a partir de um filtro e compartilhados com a Adobe Experience Platform para ativação."
+>abstract="Os públicos-alvo podem ser criados a partir de um segmento e compartilhados com a Adobe Experience Platform para ativação."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Visualização de dados"
->abstract="Compara os dados desse filtro com os da visualização de dados. A porcentagem de visualização é baseada no número total na visualização de dados dos **últimos 90 dias**.<br><br/>Se a visualização não carregar, a conexão ainda pode estar preenchendo os dados."
+>abstract="Compara os dados desse segmento com os dados da visualização de dados. A porcentagem de visualização é baseada no número total na visualização de dados dos **últimos 90 dias**.<br><br/>Se a visualização não carregar, a conexão ainda pode estar preenchendo os dados."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
->title="Instância de não repetição"
+>title="Instância não repetida"
 >abstract="Inclui as instâncias exclusivas (não repetidas) da dimensão."
 
 <!-- markdownlint-enable MD034 -->
