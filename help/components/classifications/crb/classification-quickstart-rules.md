@@ -3,14 +3,14 @@ description: As regras de classificação buscam regularmente termos não classi
 title: Regras de classificação
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '2001'
-ht-degree: 93%
+source-wordcount: '1979'
+ht-degree: 90%
 
 ---
 
-# Regras de classificação
+# Regras de classificação (herdadas)
 
 As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
 
@@ -27,7 +27,7 @@ As regras de classificação são úteis para:
 
 Por exemplo, digamos que um código de rastreamento de uma ID de campanha de email seja:
 
-`em:Summer:2013:Sale`.
+`em:Summer:20XX:Sale`.
 
 Você pode configurar três regras em um conjunto de regras que identifiquem as partes da sequência e classificar os valores:
 
@@ -35,7 +35,7 @@ Você pode configurar três regras em um conjunto de regras que identifiquem as 
 |---|---|---|---|
 | Começa com | em: | Canal | Email |
 | Termina com | Venda | Tipo | Venda |
-| Contém | 2013 | Ano | 2013 |
+| Contém | 20XX | Ano | 20XX |
 
 ## Como as regras são processadas {#how-rules-are-processed}
 
@@ -95,18 +95,6 @@ Ao ativar regras, é possível substituir classificações existentes. Nas situa
 
 Use as expressões regulares para a valores de strings formatados consistentemente com uma classificação. Por exemplo, você pode criar uma classificação com base em caracteres específicos em um código de rastreamento. Você pode corresponder caracteres, palavras ou padrões de caracteres específicos.
 
-<!-- 
-
-regex_classification_rules.xml
-
- -->
-
-* [Expressão regular - Rastreamento do exemplo de código](/help/components/classifications/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669)
-* [Expressão regular - Classificação de um caractere específico ](/help/components/classifications/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
-* [Expressões regulares - Correspondência de códigos de rastreamento de duração variável](/help/components/classifications/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
-* [Expressões regulares - Exemplo &quot;Não contém&quot; ](/help/components/classifications/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
-* [Expressões regulares - Tabela de referência](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
-
 >[!NOTE]
 >
 >Como prática recomendada, as expressões regulares se encaixam melhor em códigos de rastreamento que usam delimitadores.
@@ -115,29 +103,29 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->Se o código de rastreamento tiver codificação de URL, ele **não** será classificado pelo Construtor de regras.
+>Se o código de rastreamento possuir codificação de URL, ele **não** será classificado pelo Construtor de Regras.
 
 Neste exemplo, suponha que você queira classificar a seguinte ID de campanha:
 
-[!UICONTROL Sample Key]: `em:JuneSale:20130601`
+Chave de Exemplo: `em:JuneSale:20XX0601`
 
 As partes do código de rastreamento que deseja classificar são:
 
 * `em` = email
 * `JuneSale` = nome da campanha
-* `20130601` = data
+* `20XX0601` = data
 
-[!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
+Expressão regular: `^(.+)\:(.+)\:(.+)$`
 
 Como a expressão regular correlaciona-se à ID da campanha:
 
 ![](assets/regex.png)
 
-[!UICONTROL Corresponder grupos]: Mostra como a expressão regular corresponde aos caracteres da ID da campanha, tornando possível classificar uma posição na ID da campanha.
+Grupos de correspondência: mostra como a expressão regular corresponde aos caracteres da ID da campanha, para que você possa classificar uma posição na ID da campanha.
 
 ![](assets/regex_tracking_code.png)
 
-Esse exemplo diz para a regra que a data da campanha `20140601` está no terceiro grupo `(.+)`, identificada por `$3`.
+Esse exemplo diz para a regra que a data da campanha `20XX0601` está no terceiro grupo `(.+)`, identificada por `$3`.
 
 **[!UICONTROL Construtor de regras]**
 
@@ -145,22 +133,22 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |---|---|---|---|
-| Expressão regular | &Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
+| Expressão regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
 
 **Sintaxe**
 
 | Expressão regular | Sequência ou resultado da correspondência | Correlação dos grupos de correspondência |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601` `$1`: em `$2`: JuneSale `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: JuneSale `$3`: 20XX0601 |
 | Construção da sintaxe | `^` = inicia a linha () = agrupa caracteres e permite extrair os caracteres correspondentes nos parênteses.  `(.+)` = captura um ( . ) caractere e ( + ) não mais  \ = início de uma string.  `$` = indica que o caractere anterior (ou grupo de caracteres) é o último na linha. |
 
-Consulte [Expressões regulares - Tabela de referência](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obter informações sobre o que significam caracteres em uma expressão regular.
+Consulte [Expressões regulares - Tabela de referência](/help/components/classifications/crb/classification-quickstart-rules.md) para obter informações sobre o que significam caracteres em uma expressão regular.
 
 ## Expressão regular - Classificação de um caractere específico {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 Uma maneira de usar uma expressão regular é para classificar um caractere específico em uma sequência de caracteres. Por exemplo, suponha que o seguinte código de rastreamento possua dois caracteres importantes:
 
-[!UICONTROL Sample Key]: `4s3234`
+Chave de Exemplo: `4s3234`
 
 * `4` = nome da marca
 * `s` = identifica um mecanismo de pesquisa, como o Google
@@ -308,7 +296,7 @@ Adicione regras por corresponder uma condição a uma classificação e especifi
 
 >[!NOTE]
 >
->Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se você tiver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](/help/components/classifications/c-sub-classifications.md).
+>Nesse procedimento, você deve aplicar as regras a um ou mais conjuntos de relatórios. O número recomendado de regras por conjunto de regras é entre 500 e 1000, no entanto não existe limite. Se você tiver mais de 100 regras, considere simplificar seu conjunto de regras usando [subclassificações](/help/components/classifications/importer/subclassifications.md).
 
 Para adicionar ou editar uma regra de classificação:
 

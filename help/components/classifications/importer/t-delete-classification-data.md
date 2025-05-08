@@ -3,10 +3,10 @@ description: Etapas que descrevem como excluir ou remover dados da classificaç�
 title: Excluir dados de classificação
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 96%
 
 ---
 
@@ -55,5 +55,5 @@ O uso de `~deletekey~` na classificação Categoria do inventário exclui todos 
 * Se estiver usando `~deletekey~`, você só precisará de um por linha em um arquivo de classificação.
 * `~empty~` e `~deletekey~` devem ser correspondências *exatas*. Não são permitidos espaços nem maiúsculas.
 * Não é possível excluir valores na coluna principal. Esses valores são transmitidos diretamente para a variável e são permanentes.
-* Se você estiver removendo um valor de classificação que possua subclassificações, elas também serão removidas. As classificações não podem existir sem um valor principal, e o pai de uma subclassificação é seu valor principal.
+* Se você remover um valor de classificação que tenha subclassificações, elas também serão removidas. As classificações não podem existir sem um valor principal, e o pai de uma subclassificação é seu valor principal.
 * É possível remover dados de subclassificação deixando sua classificação pai intacta.

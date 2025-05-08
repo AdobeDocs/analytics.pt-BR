@@ -3,10 +3,10 @@ title: Solução de problemas do importador de classificação
 description: Problemas comuns de upload ao usar o importador de classificação.
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '875'
+ht-degree: 96%
 
 ---
 
@@ -31,8 +31,8 @@ Se o arquivo de upload estiver formatado corretamente, o carregador tentará imp
 
 * **As linhas já foram classificadas**: ao tentar fazer upload de linhas que já foram classificadas com o mesmo valor, o importador retorna linhas que não tiveram efeito. Esse resultado é esperado, já que as classificações não reclassificam um valor principal com a mesma classificação. É uma notificação em vez de um erro. Não é preciso se preocupar se você não alterar todas as linhas em um arquivo de exportação. O Adobe recomenda fazer upload somente de linhas alteradas.
 * **O cabeçalho não corresponde à variável que está sendo carregada**: se você baixar um modelo de classificação para a dimensão Código de rastreamento e tentar carregá-lo para uma classificação eVar, haverá uma falha. Use somente arquivos de exportação para as variáveis específicas das quais eles foram exportados.
-* **Um valor principal ou de classificação contém o valor 0**: as classificações não conseguem diferenciar o valor 0 de uma célula em branco, então não podem classificar esse valor. Consulte [Perguntas frequentes sobre classificações](../faq.md).
-* **O arquivo de classificação contém vírgulas ou caracteres especiais**: Consulte [Perguntas frequentes sobre classificações](../faq.md).
+* **Um valor principal ou de classificação contém o valor 0**: as classificações não conseguem diferenciar o valor 0 de uma célula em branco, então não podem classificar esse valor. Consulte as [Perguntas frequentes sobre o importador de classificação](importer-faq.md) para obter mais informações.
+* **O arquivo de classificação contém vírgulas ou caracteres especiais**: Consulte as [Perguntas frequentes sobre o importador de classificação](importer-faq.md) para obter informações sobre como evitar valores.
 * **Guias adicionais no arquivo carregado**: certas vezes, ao editar os arquivos de classificação, uma guia adicional pode ser incluída acidentalmente. Cada linha requer um número idêntico de guias para ser processada corretamente. Para verificar se há guias extras no arquivo, realce todo o texto em um editor de texto simples e verifique se nenhuma linha tem espaço extra no final.
 * **Existem valores principais duplicados no arquivo**: cada valor principal pode ter somente uma classificação por coluna. Se você tentar classificar o mesmo valor várias vezes, o importador emitirá um erro.
 * **Existem subclassificações configuradas incorretamente**: se houver subclassificações, verifique o seguinte:

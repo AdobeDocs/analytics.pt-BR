@@ -5,7 +5,7 @@ uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 76%
@@ -22,4 +22,4 @@ Por exemplo, um relatório de [!UICONTROL Campanha] pode ter uma classificação
 
 Você acessa as classificações da mesma maneira que acessa os outros relatórios de um conjunto de relatórios, e as dimensões são exibidas como um relatório de nível superior dentro do grupo. Se um relatório tiver classificações, um subgrupo de menus é criado para reunir o relatório e todas as suas classificações em um único local. O relatório é exibido como a última entrada na lista, entre as classificações.
 
-Consulte [Classificações](/help/components/classifications/c-classifications.md).
+Consulte [Classificações](/help/components/classifications/classifications-overview.md).

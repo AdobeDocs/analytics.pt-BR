@@ -4,9 +4,9 @@ keywords: ftp;sftp
 title: Classificações
 feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '450'
 ht-degree: 89%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 89%
 # Classificações
 
 A opção de FTP de classificações oferece mais flexibilidade para fazer upload de configurações de dados de classificação grandes, incluindo a capacidade de fazer upload de dados para vários conjuntos de relatórios e fazer upload de configurações de dados com mais de 50.000 linhas.
-
-Consulte as [classificações](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=pt-BR) para ver como baixar dados de classificação via FTP e como fazer upload de arquivos de dados via FTP (incluindo as etapas para criar uma conta FTP).
 
 O tempo necessário para que o sistema importe esses arquivos varia de acordo com diversos fatores. Se um arquivo carregado estiver presente no servidor FTP por mais de três dias, peça aos usuários com suporte de sua organização que entrem em contato com o Atendimento ao cliente da Adobe.
 

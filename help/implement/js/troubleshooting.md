@@ -4,7 +4,7 @@ description: Saiba mais sobre problemas comuns e práticas recomendadas para sol
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -108,4 +108,4 @@ Substituir valor de prop1 por eVar1<br> Substituir valor de eVar2 por eVar1<br> 
   s.prop2 = "D=v1";
   ```
 
-* **Usar classificações**: se os nomes de produtos ou páginas forem longos, você poderá usar um valor ou código de identificação e, em seguida, usar [classificações](/help/components/classifications/c-classifications.md) para exibir um nome mais simples.
+* **Usar classificações**: se os nomes de produtos ou páginas forem longos, você poderá usar um valor ou código de identificação e, em seguida, usar [classificações](/help/components/classifications/classifications-overview.md) para exibir um nome mais simples.

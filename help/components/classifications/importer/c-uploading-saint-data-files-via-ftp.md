@@ -3,18 +3,18 @@ description: Como fazer upload de arquivos de dados via FTP.
 title: Importação de FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 73%
+source-wordcount: '725'
+ht-degree: 72%
 
 ---
 
-# Importação de FTP
+# Importação de FTP (herdada)
 
 >[!IMPORTANT]
 >
->Não recomendamos mais usar o FTP para importação conforme descrito nesta página.
+>A Adobe não recomenda mais usar o FTP para importação conforme descrito nesta página.
 >
 >O FTP não é recomendado porque é um método não criptografado de compartilhamento de arquivos, o que significa que qualquer pessoa pode interceptar o conteúdo do arquivo, bem como o nome de usuário e a senha usados para a conta.
 >
@@ -32,7 +32,7 @@ Os seguintes limites recomendados são importantes.
 
 >[!IMPORTANT]
 >
->Ter muitos arquivos pequenos ou arquivos grandes únicos pode criar carga de processamento desnecessária nos servidores de processamento. O Adobe recomenda dividir arquivos grandes em blocos de 50 MB e combinar arquivos pequenos.
+>Ter muitos arquivos pequenos ou arquivos grandes únicos pode criar carga de processamento desnecessária nos servidores de processamento. A Adobe recomenda dividir arquivos grandes em blocos de 50 MB e combinar arquivos pequenos.
 
 A configuração inicial preenche a base de dados de classificações com um grande conjunto de dados originais ou reestrutura as classificações, em vez de reclassificar algumas linhas ou adicionar linhas.
 

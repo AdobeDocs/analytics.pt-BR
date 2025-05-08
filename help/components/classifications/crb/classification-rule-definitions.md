@@ -3,18 +3,18 @@ description: Definições de elementos de interface nas páginas no Construtor d
 title: Regras de classificação - definições
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '862'
+ht-degree: 94%
 
 ---
 
-# Regras de classificação - definições
+# Definições de regra de classificação (herdada)
 
 Definições de elementos de interface nas páginas no Construtor de regras de classificação.
 
-## Página Regras {#section_4A5BF384EEEE4994B6DC888339833529}
+## Página Regras
 
 Essa página exibe as regras em um conjunto de regras.
 
@@ -56,7 +56,7 @@ Essa página exibe as regras em um conjunto de regras.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Janela de lookback </p> </td> 
-   <td colname="col2"> <p>Quando você ativa e valida regras, pode especificar se as regras devem substituir classificações existentes por teclas afetadas. (Somente as teclas classificadas que tenham passado no <span class="keyword">Adobe Analytics</span> dentro do período especificado por você são afetadas). </p> <p>Se você não especificar uma <span class="term">janela de lookback</span>, as regras visualizam aproximadamente um mês antes (dependendo do dia do mês). As classificações existentes nunca são substituídas, a não se quando você habilita essa opção. </p> <p><b>Dev Center</b>: Os parceiros podem criar regras de classificação no <span class="wintitle">Dev Center</span>. Essas regras são implantadas quando o cliente ativa uma integração. No <span class="wintitle">Dev Center</span>, a opção <span class="uicontrol">Sobrescrever desde</span> permite que o parceiro especifique se o cliente poderá determinar o valor sobrescrito quando ativar ou editar uma integração. </p> <p>Consulte <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >Como as regras são processadas</a> para mais informações sobre o processamento de regras. </p> </td> 
+   <td colname="col2"> <p>Quando você ativa e valida regras, pode especificar se as regras devem substituir classificações existentes por teclas afetadas. (Somente as teclas classificadas que tenham passado no <span class="keyword">Adobe Analytics</span> dentro do período especificado por você são afetadas). </p> <p>Se você não especificar uma <span class="term"> janela de lookback</span>, as regras visualizam aproximadamente um mês antes (dependendo do dia do mês). As classificações existentes nunca são substituídas, a menos que você ative essa opção. </p> <p><b>Dev Center</b>: Os parceiros podem criar regras de classificação no <span class="wintitle">Dev Center</span>. Essas regras são implantadas quando o cliente ativa uma integração. No <span class="wintitle">Dev Center</span>, a opção <span class="uicontrol">Sobrescrever desde</span> permite que o parceiro especifique se o cliente poderá determinar o valor sobrescrito quando ativar ou editar uma integração. </p> <p>Consulte <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >Como as regras são processadas</a> para mais informações sobre o processamento de regras. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Adicionar regra </a> </td> 

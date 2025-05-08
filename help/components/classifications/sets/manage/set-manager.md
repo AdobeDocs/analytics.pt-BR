@@ -3,7 +3,7 @@ title: Gerenciador de conjuntos de classificação
 description: Gerenciar conjuntos de classificações no Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Observe que 1.000 conjuntos de classificações são pré-carregados de cada vez
 
 As seguintes colunas estão disponíveis no Gerenciador de conjuntos de classificações:
 
-* **[!UICONTROL Conjunto de classificações]**: o nome do conjunto de classificações. Clicar em um nome de conjunto de classificações [edita suas configurações](settings.md).
+* **[!UICONTROL Conjunto de classificações]**: o nome do conjunto de classificações. Clicar no nome de um conjunto de classificações edita suas [configurações](settings.md).
 * **[!UICONTROL Assinaturas]**: o número de assinaturas às quais este conjunto de classificações se aplica.
 * **[!UICONTROL Classificações]**: o número de dimensões de classificação que o conjunto de classificações contém.
 * **[!UICONTROL Automatizado]**: determina se o conjunto de classificações está configurado para importar dados automaticamente de um local na nuvem. A automação pode ser configurada no [esquema](schema.md) do conjunto de classificações.

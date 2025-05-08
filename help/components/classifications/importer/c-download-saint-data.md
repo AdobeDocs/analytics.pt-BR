@@ -3,14 +3,14 @@ description: (Opcional) Antes de importar as classificações para os relatório
 title: Modelo de classificação
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 99%
 
 ---
 
-# Modelo de classificação
+# Modelo de classificação (herdado)
 
 (Opcional) Antes de importar classificações para relatórios e projetos, você pode baixar um modelo que ajuda a criar um arquivo de dados de classificações. O arquivo de dados usa suas classificações desejadas como cabeçalho de coluna, e então organiza o conjunto de dados do relatório dentro dos cabeçalhos de classificação apropriados.
 

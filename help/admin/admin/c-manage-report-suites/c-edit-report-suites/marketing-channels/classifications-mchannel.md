@@ -4,9 +4,9 @@ description: Utilize as classificações para categorizar os valores em grupos r
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 100%
 Utilize as classificações para categorizar os valores em grupos relacionados e criar relatórios em nível de grupo. Por exemplo, você pode classificar todas as campanhas de Pesquisa paga em uma categoria como Cartões de vídeo. Em seguida, você pode criar um relatório do sucesso da categoria relacionado a métricas como, por exemplo, Instância (ou click-throughs).
 
 As classificações adicionadas nesse procedimento são exibidas no relatório de [!UICONTROL Visão geral do Canal de marketing] como [!UICONTROL Valores do canal]. Os valores do canal são valores não classificados no detalhe do canal.
-
->[!NOTE]
->
->Familiarize-se com a criação de classificações em [Classificações](/help/components/classifications/c-classifications.md).
 
 >[!IMPORTANT]
 >

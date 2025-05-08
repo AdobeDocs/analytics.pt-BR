@@ -3,7 +3,7 @@ title: Produto
 description: O nome do produto.
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 91%
@@ -20,4 +20,4 @@ Essa dimensão faz referência à segunda parte da sequência de caracteres da v
 
 ## Itens de dimensão
 
-Como essa variável se baseia em uma sequência personalizada na implementação, sua organização determina quais são os itens de dimensão. A Adobe recomenda que você estabeleça uma convenção de nomenclatura consistente para os produtos. As [classificações](../classifications/c-classifications.md) estão disponíveis se você quiser agrupar produtos de forma diferente ou fornecer um nome mais amigável. A Adobe recomenda o uso das dimensões “Produto” e “Categoria”.
+Como essa variável se baseia em uma sequência personalizada na implementação, sua organização determina quais são os itens de dimensão. A Adobe recomenda que você estabeleça uma convenção de nomenclatura consistente para os produtos. As [classificações](../classifications/classifications-overview.md) estão disponíveis se você quiser agrupar produtos de forma diferente ou fornecer um nome mais amigável. A Adobe recomenda o uso das dimensões “Produto” e “Categoria”.

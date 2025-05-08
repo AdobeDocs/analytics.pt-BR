@@ -4,7 +4,7 @@ keywords: Conjunto de relatórios virtuais
 title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 6e9ea48df286b2bde6a071ab3d0f29a764382c6d
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 79%
@@ -21,7 +21,7 @@ Substituir a marcação de vários conjuntos pelo conjunto de relatórios global
 
 ## Diretrizes
 
-Se não tiver certeza se os casos de uso descritos se aplicam a você e a sua organização, consulte outros administradores da Adobe Analytics ou a equipe de conta do Adobe. Eles podem ajudar a avaliar suas necessidades corporativas e recomendar a melhor opção.
+Se não tiver certeza se os casos de uso descritos se aplicam a você e a sua organização, consulte outros administradores do Adobe Analytics ou a equipe de conta da Adobe. Eles podem ajudar a avaliar suas necessidades corporativas e recomendar a melhor opção.
 
 Tenha as seguintes considerações em mente ao determinar se deve usar a marcação de vários conjuntos ou conjuntos de relatórios virtuais:
 
@@ -37,7 +37,7 @@ Caso tenha um conjunto de relatórios global que combina um grande número de si
 
 Por exemplo, uma grande organização de mídia possui 100 propriedades da Web. Cada propriedade publica algumas milhares de notícias por mês, além de hospedar todos os artigos de meses anteriores. Essa organização usa um conjunto de relatórios global no qual a eVar1 é &#39;Nome do artigo&#39;. Suponha que neste relatório haja aproximadamente 5 milhões de nomes de artigos únicos a cada mês das várias propriedades combinadas. Se estiver usando um conjunto de relatórios virtual, apenas uma parte dos 5 milhões de valores será incluída no conjunto de relatórios virtual. Os restantes estão incluídos em Tráfego baixo. Se a marcação de vários conjuntos for usada, cada conjunto de relatórios poderá ver seu próprio conjunto de valores únicos.
 
-Às vezes, o Atendimento ao cliente do Adobe pode aumentar os limites de valor exclusivos de um pequeno número de dimensões, o que pode eliminar esse problema por completo. Consulte sua equipe de conta e o Atendimento ao cliente para obter mais informações.
+Às vezes, o Atendimento ao cliente da Adobe pode aumentar os limites de valor exclusivos de um pequeno número de dimensões, o que pode eliminar esse problema por completo. Consulte sua equipe de conta e o Atendimento ao cliente para obter mais informações.
 
 ### Variáveis compartilhadas em conjuntos de relatórios
 
@@ -45,7 +45,7 @@ Os conjuntos de relatórios virtuais não possuem seus próprios conjuntos de di
 
 Diferentes sites têm necessidades de implementação diversas. Algumas dimensões e eventos podem ser compartilhados entre dois sites. Por exemplo, um registro por email pode usar o mesmo evento em vários sites, acionando o mesmo evento personalizado. Outras dimensões podem ser específicas de um site. Por exemplo, apenas um de seus sites tem a capacidade de o usuário alterar a imagem de perfil. Este evento personalizado só seria implementado no site que o suporta.
 
-Certifique-se de que o número de dimensões e métricas exclusivas possa se ajustar a um único conjunto de relatórios global. Se você descobrir que existem muitas dimensões ou métricas exclusivas, analise cada dimensão em cada implementação. Há, provavelmente, sobreposição e dimensões que não são essenciais para o sucesso dos negócios. Considere usar as [classificações](/help/components/classifications/c-classifications.md) também. Por exemplo, em vez de capturar &#39;Nome do produto&#39; no eVar5, crie uma classificação &#39;Nome do produto&#39; baseada na dimensão &#39;Produto&#39;. As classificações em um conjunto de relatórios de origem são disponibilizadas automaticamente para qualquer conjunto de relatórios virtual dependente.
+Certifique-se de que o número de dimensões e métricas exclusivas possa se ajustar a um único conjunto de relatórios global. Se você descobrir que existem muitas dimensões ou métricas exclusivas, analise cada dimensão em cada implementação. Há, provavelmente, sobreposição e dimensões que não são essenciais para o sucesso dos negócios. Considere usar as [classificações](/help/components/classifications/classifications-overview.md) também. Por exemplo, em vez de capturar &#39;Nome do produto&#39; no eVar5, crie uma classificação &#39;Nome do produto&#39; baseada na dimensão &#39;Produto&#39;. As classificações em um conjunto de relatórios de origem são disponibilizadas automaticamente para qualquer conjunto de relatórios virtual dependente.
 
 >[!TIP]
 >
@@ -89,8 +89,8 @@ As fontes de dados de resumo são exibidas no conjunto de relatórios virtual se
 
 Se optar por remover chamadas de servidor secundárias em favor dos conjuntos de relatórios virtuais:
 
-1. Crie conjuntos de relatórios virtuais que correspondam aos dados dos conjuntos de relatórios secundários. Segmentar em uma dimensão personalizada que distingue seus sites uns dos outros.
-   * Se migrar de uma implementação com tags de vários conjuntos, compare os segmentos do conjunto de relatórios virtual com os conjuntos de relatórios secundários existentes. Certifique-se de que os dados sejam comparáveis antes de mover os usuários para o conjunto de relatórios virtual.
+1. Crie conjuntos de relatórios virtuais que correspondam aos dados dos conjuntos de relatórios filhos. Segmentar em uma dimensão personalizada que distingue seus sites uns dos outros.
+   * Se migrar de uma implementação com tags de vários conjuntos, compare os segmentos do conjunto de relatórios virtual com os conjuntos de relatórios filhos existentes. Certifique-se de que os dados sejam comparáveis antes de mover os usuários para o conjunto de relatórios virtual.
    * Como prática recomendada, considere usar o [empilhamento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar um segmento em um local e aplicá-lo a todos os conjuntos de relatórios virtuais dependentes.
    * Use contêineres de ocorrência se desejar manter os conjuntos de relatórios virtuais mais mutuamente exclusivos.
 2. Depois de confirmar que os conjuntos de relatórios virtuais estão configurados corretamente, remova as IDs do conjunto de relatórios secundário de sua implementação. Para remover conjuntos de relatórios secundários:
