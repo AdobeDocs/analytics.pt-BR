@@ -167,7 +167,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=pt-BR). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/classifications/sets/overview) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
