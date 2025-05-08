@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
 source-git-commit: 41ac4a97019e8192c96f3cdb141dad3d5db18d12
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ O gerenciamento de uma fonte de dados permite exibir a fonte de dados ou bloquea
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações da fonte de dados](https://video.tv.adobe.com/v/30853?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações da fonte de dados](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

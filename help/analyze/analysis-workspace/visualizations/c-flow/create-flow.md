@@ -36,7 +36,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
 >title="Container de fluxo"
->abstract="Selecione o container a ser usado para exibir (números para) o caminho."
+>abstract="Selecione o container a ser usado para exibir (números para) a definição de caminho."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_disabled"
