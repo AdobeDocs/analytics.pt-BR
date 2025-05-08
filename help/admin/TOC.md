@@ -5,7 +5,7 @@ user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
 source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
    + Migração de componentes {#component-migration}
       + [Preparar para migração](admin/component-migration/prepare-component-migration.md)
       + [Fluxo de trabalho de migração](admin/component-migration/component-migration.md)
-   + Gerenciador do conjunto de relatórios {#manage-report-suites}
+   + Gerenciador de conjuntos de relatórios {#manage-report-suites}
       + Editar configurações de um conjunto de relatórios {#edit-report-suite}
          + Geral {#report-suite-general}
             + [Configurações gerais da conta](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
@@ -68,7 +68,7 @@ ht-degree: 100%
                   + [Definir um evento usando uma variável de dados de contexto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Remover um evento de uma ocorrência](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Dicas e truques para regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
-            + Regras de bots {#bot-removal}
+            + Regras de bot {#bot-removal}
                + [Remoção de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [Noções básicas e configuração de regras de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Assinaturas comuns do bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
@@ -127,12 +127,12 @@ ht-degree: 100%
       + [Conjuntos de relatórios globais](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Salvar uma pesquisa do conjunto de relatórios](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [Fazer download das configurações do conjunto de relatórios](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + Novo Conjunto de relatórios {#c-new-report-suite}
-         + [Criar um novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+      + Novo conjunto de relatórios {#c-new-report-suite}
+         + [Criar um conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
          + [Criar um grupo de conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [Configurações do novo conjunto de relatórios](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [Configurações não copiadas do conjunto de relatórios de origem](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + Modelos de Conjunto de relatórios {#report-suite-templates}
+      + Modelos de conjunto de relatórios {#report-suite-templates}
          + [Visão geral dos modelos de conjunto de relatórios](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
          + [Portal agregador](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
          + [Comércio](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
@@ -143,7 +143,7 @@ ht-degree: 100%
          + [Geração de leads](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
          + [Mídia de suporte](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + Configurações da empresa {#company-settings}
-      + [Visão geral das Configurações da empresa](admin/company/c-company-settings.md)
+      + [Visão geral das configurações da empresa](admin/company/c-company-settings.md)
       + [Gerenciador de segurança](admin/company/security-manager.md)
       + [Serviços Web](admin/company/web-services-admin.md)
       + [Relatórios do Report Builder](admin/company/report-builder-reports-admin.md)
@@ -169,8 +169,8 @@ ht-degree: 100%
       + [Visualizar uso do conjunto de relatórios](admin/c-server-call-usage/report-suite-usage.md)
       + [Alertas de uso de chamadas do servidor](admin/c-server-call-usage/scu-alerts.md)
       + [Perguntas frequentes sobre o uso de chamadas do servidor](admin/c-server-call-usage/overage-faq.md)
-   + Gerenciamento de usuários e produtos (herdado) {#user-product-management}
-      + [Gerenciamento de usuários e produtos (herdado)](admin/user-management2/user-management.md)
+   + Gerenciamento de usuários e produtos (legado) {#user-product-management}
+      + [Gerenciamento de usuários e produtos (legado)](admin/user-management2/user-management.md)
       + [Gerenciar contas de usuário, ativos e expirações legados](admin/user-management2/users-assets.md)
       + Migrar usuários para o Adobe Admin Console {#migrate-users}
          + [Migração de usuários do Analytics para o Admin Console](admin/user-management2/user-migration/c-migration-tool.md)

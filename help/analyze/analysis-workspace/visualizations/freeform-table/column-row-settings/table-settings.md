@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
 source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações de linha e coluna em uma tabela de forma livre](https://video.tv.adobe.com/v/328504/?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações de linha e coluna em uma tabela de forma livre](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -90,6 +90,6 @@ As opções adicionais de menu de contexto a seguir estão disponíveis ao selec
 | **[!UICONTROL Criar filtro a partir da seleção]** | Abre o **[!UICONTROL Construtor de filtros]** para criar um filtro a partir da seleção. |
 | **[!UICONTROL Criar público-alvo a partir da seleção]** | Abre a caixa de diálogo **[!UICONTROL Criar público-alvo]** para criar um público-alvo a partir da seleção. |
 
-## Alterar altura da linha
+## Modificar altura da linha
 
-Você pode definir a densidade da exibição de um projeto como **[!UICONTROL Compacto]**, **[!UICONTROL Confortável]** e **[!UICONTROL Expandido]**. [Saiba mais](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
+Você pode definir a densidade da exibição de um projeto como **[!UICONTROL Compacta]**, **[!UICONTROL Confortável]** e **[!UICONTROL Expandida]**. [Saiba mais](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).

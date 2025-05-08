@@ -5,9 +5,9 @@ user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Saiba mais sobre como usar os feeds de dados para exportar dados brutos e o Data Warehouse para recuperar uma saída de dados em planilha. Saiba como usar o FTP e SFTP para transferir arquivos.
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
    + [Criar um feed de dados](analytics-data-feed/create-feed.md)
    + [Gerenciar feeds de dados](analytics-data-feed/df-manage-feeds.md)
    + [Gerenciar trabalhos do feed de dados](analytics-data-feed/df-manage-jobs.md)
-   + Conteúdos do feed de dados {#data-feed-contents}
+   + Conteúdo do feed de dados {#data-feed-contents}
       + [Visão geral dos conteúdos do feed de dados](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referência da coluna de dados](analytics-data-feed/c-df-contents/datafeeds-reference.md)

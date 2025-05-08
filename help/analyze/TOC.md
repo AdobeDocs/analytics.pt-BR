@@ -5,7 +5,7 @@ user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -23,15 +23,15 @@ ht-degree: 100%
    + [Qual ferramenta do Adobe Analytics devo usar?](get-started/which-analytics-tool.md)
    + [Comparação e requisitos de produtos do Analytics](get-started/analytics-product-comparison.md)
    + [Requisitos do sistema](get-started/sys-reqs.md)
-+ [Página de aterrissagem](landing.md)
++ [Página de destino](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Visão geral do Analysis Workspace](analysis-workspace/home.md)
    + Projetos {#build-workspace-project}
-      + [Visão geral dos Projetos](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Visão geral dos projetos](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Criar projetos](analysis-workspace/build-workspace-project/create-projects.md)
       + [Salvar projetos](analysis-workspace/build-workspace-project/save-projects.md)
       + [Índice do projeto](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
-      + Pastas no Espaço de trabalho {#workspace-folders}
+      + Pastas no espaço de trabalho {#workspace-folders}
          + [Sobre pastas no Espaço de trabalho](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Criar pastas e subpastas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Excluir pastas](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
@@ -51,7 +51,7 @@ ht-degree: 100%
       + [Usar componentes no Workspace](analysis-workspace/components/use-components-in-workspace.md)
       + [Adicionar descrições de componentes](analysis-workspace/components/add-component-descriptions.md)
       + Anotações {#annotations}
-         + [Visão geral de anotações](analysis-workspace/components/annotations/overview.md)
+         + [Visão geral sobre as anotações](analysis-workspace/components/annotations/overview.md)
          + [Criar anotações](analysis-workspace/components/annotations/create-annotations.md)
          + [Gerenciar anotações](analysis-workspace/components/annotations/manage-annotations.md)
          + [Exibir anotações](analysis-workspace/components/annotations/view-annotations.md)
@@ -84,7 +84,7 @@ ht-degree: 100%
             + [Configurações de linha](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Itens dinâmicos vs. estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Filtrar e classificar tabelas de forma livre](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totais do Espaço de trabalho](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totais do espaço de trabalho](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabela de coorte {#cohort-table}
          + [O que é a análise de coorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar um relatório de análise de coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -125,12 +125,12 @@ ht-degree: 100%
       + [Painel Tempo gasto com a reprodução da mídia](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Painel Item anterior ou seguinte](analysis-workspace/c-panels/next-previous.md)
       + [Painel Resumo da página](analysis-workspace/c-panels/page-summary.md)
-      + [Painel do Quick Insights](analysis-workspace/c-panels/quickinsight.md)
+      + [Painel Insights rápidos](analysis-workspace/c-panels/quickinsight.md)
       + Painel de comparação de segmentos {#segment-comparison}
          + [Visão geral da comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso de comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Testes estatísticos usados na comparação entre segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Preparar, compartilhar e agendar projetos {#curate-share}
+   + Preparar, compartilhar e programar projetos {#curate-share}
       + [Menu Compartilhar](analysis-workspace/curate-share/send-schedule-files.md)
       + [Preparar projetos do](analysis-workspace/curate-share/curate.md)
       + [Compartilhar projetos](analysis-workspace/curate-share/share-projects.md)
@@ -199,7 +199,7 @@ ht-degree: 100%
          + [Filtrar relatórios de caminho ao adicionar solicitações dependentes](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)
          + [Selecionar um tipo de relatório](legacy-report-builder/data-requests/c-report-types/t-select-report-type.md)
       + [Importar relatórios marcados e reportlets de painel](legacy-report-builder/data-requests/import-bookmarked.md)
-      + Intervalos de data {#date-ranges}
+      + Intervalos de datas {#date-ranges}
          + [Definições do Assistente de solicitações - Datas predefinidas](legacy-report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
          + [Datas fixas e intervalos de datas salvos](legacy-report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
          + [Definições do Assistente de solicitações - datas fixas](legacy-report-builder/data-requests/configuring-report-dates/r-arb-fixed-dates.md)
@@ -207,7 +207,7 @@ ht-degree: 100%
          + [Definições do Assistente de solicitações - Datas do acumulado](legacy-report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
          + [Relatórios em Tempo real](legacy-report-builder/data-requests/configuring-report-dates/real-time.md)
          + [Configurar uma solicitação em tempo real](legacy-report-builder/data-requests/configuring-report-dates/t-real-time.md)
-         + Expressões de datas personalizadas {#customized-date-expressions}
+         + Expressões de data personalizadas {#customized-date-expressions}
             + [Visão geral das Expressões de datas personalizadas](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
             + [Abreviações de datas](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
             + [Datas inicial ou final individuais](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
@@ -238,7 +238,7 @@ ht-degree: 100%
       + [Configurar o layout personalizado](legacy-report-builder/layout/configure-the-custom-layout.md)
       + [Mapear métricas e dimensões para células](legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [Criar um micrográfico](legacy-report-builder/layout/t-create-a-microchart.md)
-      + Filtrar dimensões {#filter-dimenson}
+      + Filtragem de dimensões {#filter-dimenson}
          + [Filtrar visão geral das dimensões](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [Filtragem mais popular](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [Filtros específicos](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)
@@ -274,7 +274,7 @@ ht-degree: 100%
       + [Baixar uma pasta de trabalho](legacy-report-builder/workbook-library/t-download-a-workbook.md)
       + [Bloquear/desbloquear pastas de trabalho](legacy-report-builder/workbook-library/protect-wb.md)
       + [Agendar pastas de trabalho com macros habilitados](legacy-report-builder/workbook-library/schedule-macro-wb.md)
-   + Publicar no Power BI com Report Builder 5.5 {#publish-powerbi}
+   + Publicar no Power BI com o Report Builder 5.5 {#publish-powerbi}
       + [Publicar no Power BI - Visão geral](legacy-report-builder/c-publish-power-bi/power-bi.md)
       + [Limitações e especificações](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
       + [Importação manual de dados para o Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)

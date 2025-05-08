@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Para obter informações detalhadas sobre os recursos do Adobe Analytics e como 
 
 ## Principais recursos do Analytics
 
-* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/pt-br?support-solution=Analytics&amp;lang=pt-BR#support)
+* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=pt-BR#support)
 * [Comunidade do Adobe Analytics na Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
 * [Experience League](https://experienceleague.adobe.com/pt-br)

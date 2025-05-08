@@ -4,9 +4,9 @@ title: Introdução para administradores, analistas, usuários finais e desenvol
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1696'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Para obter informações sobre cada método disponível, consulte [Implementaç�
 
 | | Métodos de implementação |
 |---------|---------|
-| **Sites** | <ul><li>Extensão do SDK da Web (recomendado)</li><li>SDK da Web</li><li>Extensão do Analytics</li><li>JavaScript herdado</li></ul> |
+| **Sites** | <ul><li>Extensão do SDK da Web (recomendado)</li><li>SDK da web</li><li>Extensão do Analytics</li><li>JavaScript herdado</li></ul> |
 | **Aplicativos móveis** | <ul><li>Extensão do SDK móvel (recomendado)</li><li>Extensão do Analytics</li></ul> |
 
 {style="table-layout:auto"}
@@ -91,7 +91,7 @@ Os administradores do Analytics devem conhecer os seguintes recursos disponívei
 
 | Tarefa | Uso pretendido | Mais informações |
 |---------|----------|---------|
-| Gerenciador de atividades de relatórios | O Gerenciador de atividades de relatórios permite ver a capacidade de gerar relatórios para cada conjunto de relatórios na sua organização. Esse dispositivo oferece visibilidade detalhada do consumo de relatórios e ajuda a diagnosticar e corrigir problemas de capacidade facilmente durante os horários de pico de relatórios. | [Gerenciador de atividades de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=pt-BR) |
+| Gerenciador de atividades de relatórios | O Gerenciador de atividades de relatórios permite ver a capacidade de gerar relatórios para cada conjunto de relatórios na sua organização. Esse dispositivo oferece visibilidade detalhada do consumo de relatórios e ajuda a diagnosticar e corrigir problemas de capacidade facilmente durante os horários de pico de relatórios. | [Gerenciador de atividades de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html) |
 | Uso de chamadas do servidor | Uma chamada de servidor, também conhecida como “ocorrência” ou uma “solicitação de imagem”, é uma instância na qual os dados são enviados para os servidores da Adobe para processamento. Um painel de Uso de chamadas do servidor que monitora seus dados de consumo de chamadas do servidor e os compara ao limite contratual está disponível. É possível configurar alertas para evitar excessos. | [Visão geral do uso de chamadas do servidor](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/server-call-usage/overage-overview) |
 | Arquivos de log | Os arquivos de log ajudam a identificar quando os usuários fazem logon, suas atividades, acessos, conjuntos de relatórios e alterações de administrador. | [Logs](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/logs) |
 
