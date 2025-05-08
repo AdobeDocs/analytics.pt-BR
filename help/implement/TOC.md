@@ -7,7 +7,7 @@ user-guide-description: Conheça maneiras de implementar o Adobe Analytics. Pers
 source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -138,12 +138,12 @@ ht-degree: 88%
    + [Implementação de marcação de vários relatórios](prepare/multi-suite-tagging.md)
    + [Criar um documento de design de solução](prepare/solution-design.md)
    + [Assumir o controle de uma implementação existente do Adobe Analytics](prepare/existing-implementation.md)
-+ Implementação do Analytics usando o Experience Platform Edge {#aep-edge}
++ Implementar o Analytics com a Experience Platform Edge {#aep-edge}
    + [Visão geral da Experience Edge](aep-edge/overview.md)
    + [Mapeamento de variáveis de objetos de dados](aep-edge/data-var-mapping.md)
    + [Mapeamento de variáveis de objetos de XDM](aep-edge/xdm-var-mapping.md)
    + SDK da web {#web-sdk}
-      + [Visão geral do SDK da Web](aep-edge/web-sdk/overview.md)
+      + [Visão geral do SDK da web](aep-edge/web-sdk/overview.md)
       + [Migrar para o SDK da web com tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
       + [Migrar para o SDK da web com JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
       + [Nova implementação com tags](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -152,7 +152,7 @@ ht-degree: 88%
       + [Visão geral do SDK móvel](aep-edge/mobile-sdk/overview.md)
    + API do Edge Network {#api}
       + [Visão geral da API do Edge Network](aep-edge/api/overview.md)
-+ Implementar o Analytics usando a extensão do Adobe Analytics {#launch}
++ Implementar o Analytics com a extensão do Adobe Analytics {#launch}
    + [Visão geral das tags](launch/overview.md)
    + [Criar uma propriedade de tag do Adobe Analytics](launch/create-analytics-property.md)
    + [Implantar em um ambiente de desenvolvimento](launch/deploy-dev.md)
@@ -172,7 +172,7 @@ ht-degree: 88%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [Solução de problemas do Código H](js/h-code/troubleshooting.md)
-   + Identificação entre dispositivos herdada {#xdevice-visid}
+   + Identificação entre dispositivos legada {#xdevice-visid}
       + [Visão geral de Conectar usuários em vários dispositivos](js/xdevice-visid/xdevice-connecting.md)
       + [Persistência da variável](js/xdevice-visid/variable-persistence.md)
       + [Exemplo de visita](js/xdevice-visid/visit-example.md)
@@ -189,13 +189,13 @@ ht-degree: 88%
    + [Usar o AppMeasurement com iFrames](use-cases/iframe.md)
    + [Rastrear em tipos diferentes de implementação](use-cases/cross-type-implementation.md)
    + [Fluxo de trabalho de rastreamento de campanha](use-cases/campaign-tracking.md)
-+ Validar sua implementação {#validate}
++ Validar a sua implementação {#validate}
    + [Adobe Experience Cloud Debugger herdado](validate/debugger.md)
    + [Parâmetros de consulta para coleta de dados](validate/query-parameters.md)
    + [Monitores de pacote](validate/packet-monitor.md)
    + [Colisões de hash](validate/hash-collisions.md)
 + [Perguntas frequentes](faq.md)
-+ Analisar a implementação {#review}
++ Analisar a sua implementação {#review}
    + [Análise focada (após cada lançamento do site)](review/focused-review.md)
    + [Análise completa (a cada 6 meses)](review/full-review.md)
    + [Defina os cinco KPIs principais](review/define-kpis.md)
