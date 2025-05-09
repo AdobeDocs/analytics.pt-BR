@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Consulte [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) na documentação do Web SDK para obter mais informações.
+Consulte [`sendEvent`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/sendevent/overview) na documentação do Web SDK para obter mais informações.
 
 ## Chamada de rastreamento de exibição de página usando a extensão do Adobe Analytics
 
