@@ -4,9 +4,9 @@ description: Envie uma chamada de rastreamento de exibição de página para a A
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 56%
 
 ---
@@ -37,7 +37,7 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 
 A Adobe recebe a solicitação de imagem e analisa o cabeçalho da solicitação, o URL e os parâmetros da string de consulta. Os servidores de coleta de dados retornam uma imagem transparente com 1x1 pixels, exibida de maneira invisível em seu site.
 
-## Enviar evento usando a extensão SDK da Web
+## Enviar evento usando a extensão Web SDK
 
 Use uma Ação para configurar o envio de dados do evento XDM para o Adobe. A sequência de dados recebe esses dados, aplica os mapeamentos configurados e encaminha esses dados para a Adobe Analytics se for um serviço adicionado a essa sequência de dados.
 
@@ -47,9 +47,9 @@ Use uma Ação para configurar o envio de dados do evento XDM para o Adobe. A se
 1. Em [!UICONTROL Ações], clique na Ação desejada ou clique no ícone **&#39;+&#39;** para adicionar uma ação.
 1. Defina a lista suspensa [!UICONTROL Extensão] como **[!UICONTROL Adobe Experience Platform Web SDK]** e o [!UICONTROL Tipo de Ação] como **[!UICONTROL Enviar evento]**.
 
-## Enviar evento implementando manualmente o SDK da Web
+## Enviar evento implementando manualmente o Web SDK
 
-Use o comando `sendEvent` para enviar dados para o Adobe. A sequência de dados recebe esses dados, aplica os mapeamentos configurados e encaminha esses dados para a Adobe Analytics se for um serviço adicionado a essa sequência de dados.
+Use o comando `sendEvent` para enviar dados ao Adobe. A sequência de dados recebe esses dados, aplica os mapeamentos configurados e encaminha esses dados para a Adobe Analytics se for um serviço adicionado a essa sequência de dados.
 
 ```js
 alloy("sendEvent", {
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Consulte [Rastrear eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR) na documentação do SDK da Web para obter mais informações.
+Consulte [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) na documentação do Web SDK para obter mais informações.
 
 ## Chamada de rastreamento de exibição de página usando a extensão do Adobe Analytics
 
