@@ -3,10 +3,10 @@ description: Criar um contêiner básico para a coleta de dados no Adobe Analyti
 title: Criar um conjunto de relatórios
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Este artigo foi projetado para administradores de nível de sistema ou administr
 ## Criar um conjunto de relatórios {#create-report-suite}
 
 1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]**.
-1. Clique em **[!UICONTROL Criar novo]** > **[!UICONTROL Conjunto de relatórios]**.
+1. Clique em **[!UICONTROL Adicionar conjunto de relatórios]**.
 1. Selecione um modelo predefinido ou um conjunto de relatórios existente para usar como um [modelo](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]
