@@ -7,7 +7,7 @@ exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_startswith"
 >title="Começa com"
->abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+>abstract="Esse campo só pode ser definido na criação inicial. Para atualizar esse campo, selecione **[!UICONTROL Redefinir]** para criar uma nova Visualização de fluxo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_contains"
 >title="Contém"
->abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+>abstract="Esse campo só pode ser definido na criação inicial. Para atualizar esse campo, selecione **[!UICONTROL Redefinir]** para criar uma nova Visualização de fluxo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_endswith"
 >title="Termina com"
->abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+>abstract="Esse campo só pode ser definido na criação inicial. Para atualizar esse campo, selecione **[!UICONTROL Redefinir]** para criar uma nova Visualização de fluxo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_pathingdimension"
->title="Dimensão da definição de caminho"
->abstract="Selecione uma dimensão para usar como o caminho conduzindo ou saindo do componente selecionado."
+>title="Dimensão de definição de caminho"
+>abstract="Selecione uma dimensão para usar como caminho que conduz ou sai do componente selecionado."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -40,13 +40,13 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_disabled"
->title="Incluir repetições (desativado)"
->abstract="As repetições não podem ser removidas das visualizações de fluxo que incluem dimensões de vários valores."
+>title="Incluir repetições (desabilitado)"
+>abstract="As repetições não podem ser removidas das Visualizações de fluxo que incluem dimensões de vários valores."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
 >title="Incluir repetições"
->abstract="As visualizações de fluxo são baseadas em instâncias de uma dimensão. Essa configuração oferece a opção de incluir ou excluir instâncias repetidas. Por exemplo: recarregamentos de página."
+>abstract="As visualizações de fluxo são baseadas em instâncias de uma dimensão. Essa configuração oferece a opção de incluir ou excluir instâncias repetidas, por exemplo, recarregamentos de página. "
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_limit_occurrence"
@@ -56,17 +56,17 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_numberofcolumns"
 >title="Número de colunas"
->abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+>abstract="Esse campo só pode ser definido na criação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova Visualização de fluxo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="Itens expandidos por coluna"
->abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+>abstract="Esse campo só pode ser definido na criação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova Visualização de fluxo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_resettoupdate"
 >title="Redefinir para atualizar"
->abstract="Este campo só pode ser definido na compilação inicial. Para atualizar este campo, selecione **[!UICONTROL Redefinir]** para criar uma nova visualização de Fluxo."
+>abstract="Esse campo só pode ser definido na criação inicial. Para atualizar esse campo, selecione **[!UICONTROL Redefinir]** para criar uma nova Visualização de fluxo."
 
 
 
