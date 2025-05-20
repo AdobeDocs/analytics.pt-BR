@@ -4,7 +4,7 @@ description: Saiba como os perfis de produtos podem ser usados como predefiniç�
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
+source-git-commit: 8f1a17d2b07d5b37ef6d3d3f426234b29be61319
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 65%
@@ -33,7 +33,7 @@ Para obter informações sobre como atribuir administradores de perfil de produt
 As permissões mínimas necessárias em um único perfil de produto para acessar o Adobe Analytics são as seguintes:
 
 * O perfil de produto deve ter acesso a pelo menos um conjunto de relatórios
-* O perfil de produto deve pertencer ao item de permissão Ferramentas do Analytics **Acesso ao Analysis Workspace**.
+* O perfil de produto deve pertencer ao item de permissão Ferramentas do Analytics **Workspace Project Access**.
 
 ### Conjuntos de relatórios
 

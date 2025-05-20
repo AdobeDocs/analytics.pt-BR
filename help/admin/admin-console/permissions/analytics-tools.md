@@ -4,10 +4,10 @@ description: Use os itens de permissão das Ferramentas do Analytics para conced
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 8f1a17d2b07d5b37ef6d3d3f426234b29be61319
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 91%
+source-wordcount: '439'
+ht-degree: 82%
 
 ---
 
@@ -17,18 +17,19 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 
 | Item de permissão das Ferramentas do Analytics | Descrição |
 |----|----|
-| [!UICONTROL Activity Map] | Concede acesso a Ferramentas > Activity Map. Permite que o usuário use a extensão Activity Map. |
-| [!UICONTROL Gerenciamento do Advertising Analytics] | Permite que os usuários configurem/editem/exibam contas de pesquisa publicitárias. |
-| [!UICONTROL Acesso à Analysis Workspace] | Concede acesso à Analysis Workspace. |
+| [!UICONTROL Activity Map] | Concede acesso a Ferramentas > Activity Map. Também permite que o usuário use a extensão do Activity Map. |
+| [!UICONTROL Gerenciamento do Advertising Analytics] | Concede acesso a Administrador > Todos os administradores > Advertising Analytics. |
 | [!UICONTROL Analysis Workspace: Salvar como modelo] | Concede acesso a Projeto > Salvar como modelo na Analysis Workspace. |
 | [!UICONTROL Criação de anotação] | Concede a capacidade de criar anotações. |
 | [!UICONTROL Criação de métricas calculadas] | Concede a capacidade de criar métricas calculadas em todos os recursos do Analytics. |
 | [!UICONTROL Compartilhamento de marcas] | Não usado. |
-| [!UICONTROL Gerenciador de código] | Mantido para fins herdados. Concede acesso a Administrador > Todos os administradores > Gerenciador de código. Na maioria dos casos, use as bibliotecas incluídas na extensão do Adobe Analytics na Coleção de dados da Adobe Experience Platform. |
+| [!UICONTROL Gerenciador de código] | Concede acesso a Administrador > Todos os administradores > Gerenciador de código. |
 | [!UICONTROL Gerenciador de código - Serviços da Web] | Concede acesso ao Gerenciador de código por meio da API 1.4. |
+| [!UICONTROL Migração de componentes] | Concede acesso a Administrador > Migração de componentes. |
+| [!UICONTROL Dados atuais] | Não usado. |
 | [!UICONTROL Usuários da licença do Excel] | Não usado. |
 | [!UICONTROL Ocultar conjuntos de relatórios] | Concede acesso a Administrador > Configurações da empresa > Ocultar conjuntos de relatórios. Concede a capacidade de ocultar qualquer conjunto de relatórios na organização, independente do acesso ao conjunto de relatórios. |
-| [!UICONTROL Integrações (Criar)] | Não usado. Os Data Connectors foram encerrados. |
+| [!UICONTROL Integrações (Criar)] | Não usado. |
 | [!UICONTROL Integrações (Atualizar)] | Não usado. |
 | [!UICONTROL Integrações (Excluir)] | Não usado. |
 | [!UICONTROL Acesso ao Labs] | Dê aos usuários acesso aos laboratórios e aos protótipos no Labs. |
@@ -38,6 +39,7 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | [!UICONTROL Ações pendentes] | Concede acesso a Administrador > Configurações da empresa > Ações pendentes. |
 | [!UICONTROL Preferências] | Não usado. |
 | [!UICONTROL Report Builder] | Ativa o botão de download em Ferramentas > Report Builder e permite que o usuário se autentique no Microsoft Excel. |
+| [!UICONTROL Acesso aos Reports &amp; Analytics] | Não usado. |
 | [!UICONTROL Segurança] | Concede acesso a Administrador > Configurações da empresa > Gerenciador de segurança. |
 | [!UICONTROL Criação de segmentos] | Concede a capacidade de criar e compartilhar segmentos em todos os recursos do Analytics. |
 | [!UICONTROL Publicação de segmento] | Concede a capacidade de tornar um segmento um público-alvo da Experience Cloud ao criar ou editar um segmento. |
@@ -47,3 +49,4 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | [!UICONTROL Gerenciamento de tráfego] | Concede acesso a Administrador > Todos os administradores > Gerenciamento de tráfego. |
 | [!UICONTROL Acesso aos serviços da Web] | Concede a capacidade de usar a API, incluindo autenticação com sites de terceiros e envio de chamadas de API. |
 | [!UICONTROL Serviços Web] | Concede acesso a Administrador > Configurações da empresa > Serviços da Web. |
+| [!UICONTROL Acesso ao Workspace Project] | Concede acesso à Analysis Workspace. **Este item de permissão é necessário para usar o Adobe Analytics.** |
