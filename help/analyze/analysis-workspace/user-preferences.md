@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
-source-wordcount: '3361'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Você pode gerenciar as configurações do Analysis Workspace e seus componentes
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciar preferências](https://video.tv.adobe.com/v/3429987/?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciar preferências](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
