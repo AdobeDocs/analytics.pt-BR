@@ -5,22 +5,22 @@ feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Visão geral do dicionário de dados
 
-O dicionário de dados do Analysis Workspace ajuda os usuários e administradores a acompanhar e compreender melhor os componentes em seu ambiente do Analytics.
+O dicionário de dados do Analysis Workspace ajuda usuários e admins a acompanhar e compreender melhor os componentes em seu ambiente do Analytics.
 
 Os administradores do Analytics são responsáveis por preparar informações sobre cada componente no Dicionário de dados para disponibilizá-las aos usuários.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte o ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dicionário de dados](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dicionário de dados](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ A caixa de diálogo **[!UICONTROL Rotulagem de privacidade para governança de d
 
    >[!NOTE]
    >
-   >Se você não vir esse item de menu, precisará ser adicionado a um [perfil de produto no Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=pt-BR) com permissões para essa funcionalidade ou ter recebido acesso a um Conjunto de relatórios no Admin Console.
+   >Caso não veja esse item do menu, você precisará ser adicionado a um [perfil de produto no Admin Console](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-console/permissions/product-profile) com permissões para essa funcionalidade ou receber acesso a um conjunto de relatórios no Admin Console.
 
 3. Na parte superior direita, selecione um conjunto de relatórios cujos rótulos de privacidade você deseja visualizar ou gerenciar.
 
@@ -31,11 +31,11 @@ A caixa de diálogo **[!UICONTROL Rotulagem de privacidade para governança de d
 | Configuração | Descrição |
 | --- | --- |
 | **[!UICONTROL Nome do componente]** | Essa coluna lista todos os componentes (dimensões, métricas) que fazem parte desse conjunto de relatórios. |
-| **[!UICONTROL Identidade]** | Os rótulos “I” de dados de identidade são usados para classificar dados que podem identificar ou permitir o contato com uma pessoa específica. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=pt-BR#data-privacy-identity-labels) |
-| **[!UICONTROL Sensibilidade]** | Os rótulos “S” de dados sensíveis são usados para classificar dados sensíveis, como dados geográficos. Os rótulos de Dados confidenciais adicionais serão introduzidos no futuro para identificar outros tipos de informações confidenciais. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=pt-BR#sensitive-data-labels) |
-| **[!UICONTROL Acesso ao GDPR]** | Os rótulos de Governança de dados oferecem aos usuários a capacidade de classificar dados que refletem considerações relativas à privacidade e às condições contratuais para manter a conformidade com os regulamentos e as políticas corporativas. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=pt-BR#data-privacy-access-labels) |
-| **[!UICONTROL Exclusão do GDPR]** | Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de uma ocorrência ao titular de dados (ou seja, que permita a identificação do titular de dados). [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=pt-BR#data-privacy-delete-labels) |
-| **[!UICONTROL Namespace]** | Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solicitação para fornecer um namespace. Você pode usar um namespace definido anteriormente ou definir um novo. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=pt-BR#provide-namespace) |
+| **[!UICONTROL Identidade]** | Os rótulos “I” de dados de identidade são usados para classificar dados que podem identificar ou permitir o contato com uma pessoa específica. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow#data-privacy-identity-labels) |
+| **[!UICONTROL Sensibilidade]** | Os rótulos “S” de dados sensíveis são usados para classificar dados sensíveis, como dados geográficos. Os rótulos de Dados confidenciais adicionais serão introduzidos no futuro para identificar outros tipos de informações confidenciais. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow#sensitive-data-labels) |
+| **[!UICONTROL Acesso ao GDPR]** | Os rótulos de Governança de dados oferecem aos usuários a capacidade de classificar dados que refletem considerações relativas à privacidade e às condições contratuais para manter a conformidade com os regulamentos e as políticas corporativas. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow#data-privacy-access-labels) |
+| **[!UICONTROL Exclusão do GDPR]** | Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de uma ocorrência ao titular de dados (ou seja, que permita a identificação do titular de dados). [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow#data-privacy-delete-labels) |
+| **[!UICONTROL Namespace]** | Ao rotular uma variável como ID-DEVICE ou ID-PERSON, você receberá uma solicitação para fornecer um namespace. Você pode usar um namespace definido anteriormente ou definir um novo. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow#provide-namespace) |
 | **[!UICONTROL Categoria]** | Refere o tipo de componente, como Componente padrão, Variável de conversão etc. |
 
 {style="table-layout:auto"}

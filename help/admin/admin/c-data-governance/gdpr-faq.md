@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2042'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Como controlador de dados, você é responsável por obter o consentimento expl�
 
 Os dados pessoais geralmente não devem ser retidos por mais tempo do que o necessário para atingir o propósito para o qual foram coletados. Os termos gerais da Adobe aplicam um plano de retenção de dados padrão de 25 meses, a menos que um termo de retenção de dados diferente seja acordado por contrato. Os clientes precisam definir sua política de retenção de dados antes que a Adobe possa processar uma solicitação de privacidade de dados.
 
-A politica de retenção de dados atual de cada conjunto de relatórios é exibida na nova interface do administrador da governança de dados. Os clientes devem entrar em contato com o representante da Adobe caso precisem ajustar as políticas de retenção de dados. Consulte as [Perguntas frequentes sobre a retenção de dados do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=pt-BR).
+A politica de retenção de dados atual de cada conjunto de relatórios é exibida na nova interface do administrador da governança de dados. Os clientes devem entrar em contato com o representante da Adobe caso precisem ajustar as políticas de retenção de dados. Consulte as [Perguntas frequentes sobre a retenção de dados do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/technotes/data-retention).
 
 +++
 
@@ -109,7 +109,7 @@ A [API de dados do Privacy Service](https://developer.adobe.com/experience-platf
 
 Pedimos que você não use a API da privacidade de dados para outros propósitos, como eliminar dados enviados por acidente para grandes grupos de visitantes. Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso.
 
-Entre em contato com a equipe de conta da Adobe para coordenar com nossa equipe de consultoria de Arquiteto de engenharia para revisão adicional e para empenhar esforços para remover qualquer problema de PII ou dados.
+Entre em contato com a equipe de contas da Adobe para coordenar com a nossa equipe de consultores de arquitetura e engenharia uma análise mais aprofundada e fornecer um nível de iniciativa para remover qualquer problemas de PII ou de dados.
 
 +++
 
@@ -119,7 +119,7 @@ A [API de dados do Privacy Service](https://developer.adobe.com/experience-platf
 
 Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso.
 
-Entre em contato com a equipe de conta da Adobe para coordenar com nossa equipe de consultoria de Arquiteto de engenharia para revisão adicional e para empenhar esforços para remover qualquer problema de PII ou dados.
+Entre em contato com a equipe de contas da Adobe para coordenar com a nossa equipe de consultores de arquitetura e engenharia uma análise mais aprofundada e fornecer um nível de iniciativa para remover qualquer problemas de PII ou de dados.
 
 +++
 

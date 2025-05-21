@@ -5,15 +5,15 @@ feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3760'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Rótulos de privacidade de dados para variáveis do Analytics
 
-Os clientes da Adobe, como controladores de dados, são responsáveis por cumprir as leis de Privacidade de dados aplicáveis, como o Regulamento Geral sobre a Proteção de Dados (GDPR) e a Lei de Privacidade do Consumidor da Califórnia (CCPA). Os clientes devem consultar suas próprias equipes jurídicas para determinar como os dados devem ser tratados para cumprir as leis de privacidade de dados. A Adobe entende que cada um de seus clientes tem necessidades exclusivas relacionadas à privacidade, por isso ela permite que seus clientes personalizem as configurações desejadas para o processamento de dados de privacidade. Isso permite que cada cliente único processe solicitações de Privacidade de dados da maneira mais adequada para sua marca e conjunto de dados exclusivo.
+Os clientes da Adobe, como controladores de dados, são responsáveis por cumprir as leis aplicáveis de privacidade de dados, como o Regulamento Geral sobre a Proteção de Dados (RGPD) e a Lei de Privacidade do Consumidor da Califórnia (CCPA, na sigla em inglês). Os clientes devem consultar suas próprias equipes jurídicas para determinar como os dados devem ser tratados para cumprir as leis de privacidade de dados. A Adobe entende que cada um de seus clientes tem necessidades exclusivas relacionadas à privacidade, por isso ela permite que seus clientes personalizem as configurações desejadas para o processamento de dados de privacidade. Isso permite que cada cliente único processe solicitações de Privacidade de dados da maneira mais adequada para sua marca e conjunto de dados exclusivo.
 
 O Adobe Analytics fornece ferramentas para rotulação de dados de acordo com sua sensibilidade e restrições contratuais. Os rótulos são importantes para: (1) identificar os titulares de dados; (2) determinar quais dados retornar como parte de uma solicitação de acesso; e (3) identificar campos de dados que devem ser excluídos como parte de uma solicitação de exclusão.
 
@@ -23,7 +23,7 @@ A implementação da Privacidade de dados do Adobe Analytics oferece suporte aos
 
 >[!NOTE]
 >
->Os rótulos I1, I2, S1 e S2 têm o mesmo significado que os rótulos DULE nomeados correspondentemente no Adobe Experience Platform. No entanto, elas são usadas para fins muito diferentes. No Adobe Analytics, esses rótulos são usados para ajudar a identificar campos que devem ser anonimizados como o resultado de uma solicitação Privacy Service. No Adobe Experience Platform, são usados para controle de acesso, gerenciamento de consentimento e para aplicar restrições de marketing nos campos rotulados. O Adobe Experience Platform oferece suporte a vários rótulos adicionais que não são usados pelo Adobe Analytics. Além disso, os rótulos no Adobe Experience Platform são aplicados aos esquemas. Se você utilizar o Conector de dados do Analytics para importar os dados do Adobe Analytics para o Adobe Experience Platform, será necessário garantir que os rótulos DULE apropriados estejam configurados no Adobe Experience Platform para os esquemas usados por cada um dos conjuntos de relatórios. Os rótulos atribuídos no Adobe Analytics não são aplicados automaticamente a esses esquemas no Adobe Experience Platform, pois representam apenas um subconjunto dos rótulos DULE que podem ser necessários para aplicação. Além disso, conjuntos de relatórios diferentes podem compartilhar um esquema, mas têm rótulos diferentes atribuídos a props e evars com o mesmo número e o esquema pode ser compartilhado por conjuntos de dados de outras fontes de dados, o que pode causar confusão sobre por que determinados campos receberam esses rótulos.
+>Os rótulos I1, I2, S1 e S2 têm o mesmo significado que os rótulos DULE nomeados de forma correspondente na Adobe Experience Platform. No entanto, eles são usados para fins muito diferentes. No Adobe Analytics, esses rótulos são usados para ajudar a identificar campos que devem ser anonimizados como resultado de uma solicitação do serviço de privacidade. Na Adobe Experience Platform, eles são usados para controle de acesso, gerenciamento de consentimento e aplicação de restrições de marketing nos campos rotulados. A Adobe Experience Platform permite vários rótulos adicionais que não são usados pelo Adobe Analytics. Além disso, os rótulos na Adobe Experience Platform são aplicados aos esquemas. Se você utilizar o conector de dados do Analytics para importar os dados do Adobe Analytics para a Adobe Experience Platform, será necessário garantir que os rótulos DULE apropriados estejam configurados na Adobe Experience Platform para os esquemas usados por cada um dos conjuntos de relatórios. Os rótulos atribuídos no Adobe Analytics não são aplicados automaticamente a esses esquemas na Adobe Experience Platform, pois representam apenas um subconjunto dos rótulos DULE cuja aplicação pode ser necessária. Além disso, conjuntos de relatórios diferentes podem compartilhar um esquema, mas conter rótulos diferentes atribuídos a props e evars com o mesmo número, e o esquema pode ser compartilhado por conjuntos de dados de outras fontes de dados, o que pode causar confusão sobre por que determinados campos receberam esses rótulos.
 
 ## Rótulos de dados de identidade {#identity-data-labels}
 
@@ -67,7 +67,7 @@ Embora poucas variáveis recebam qualquer um dos outros rótulos, espera-se que 
 
 Ao contrário dos outros rótulos, esses rótulos de Exclusão não são mutuamente exclusivos. Você pode selecionar ambos ou nenhum. Um rótulo [!UICONTROL Nenhum] separado não é necessário, pois o valor [!UICONTROL Nenhum] pode ser indicando simplesmente por não selecionar as opções de exclusão.
 
-Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de uma ocorrência ao titular de dados (ou seja, que permita a identificação do titular de dados). Outras informações pessoais (favoritos, histórico de navegação/compras, condições de saúde, etc.) não precisam ser excluídas, pois a associação com o titular dos dados será interrompida.
+Um rótulo de exclusão é necessário apenas para campos que contenham um valor que permita a associação de uma ocorrência ao titular de dados (ou seja, que permita a identificação do titular de dados). Outras informações pessoais (favoritos, histórico de navegação/compras, condições de integridade etc.) não precisam ser excluídas, pois a associação ao titular dos dados será desfeita.
 
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
@@ -80,7 +80,7 @@ Um rótulo de exclusão é necessário apenas para campos que contenham um valor
 
 | Rótulo | Definição | Outros requisitos |
 | --- | --- | --- |
-| Nenhum | Esta variável não contém uma ID que será usada para solicitações de Privacidade de dados. | Você precisa definir um desses outros rótulos somente se esse campo contiver uma ID que será usada ao enviar as solicitações de acesso ou exclusão por meio da [API do Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=pt-BR) ou da interface. |
+| Nenhum | Esta variável não contém uma ID que será usada para solicitações de Privacidade de dados. | Você precisa definir um desses outros rótulos somente se esse campo contiver uma ID que será usada ao enviar as solicitações de acesso ou exclusão por meio da [API do Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview) ou da interface. |
 | ID-DEVICE | Este campo contém uma ID que pode ser usada para identificar um dispositivo para uma solicitação de privacidade de dados, mas não pode distinguir entre usuários diferentes de um dispositivo compartilhado.  Você não precisa especificar este rótulo para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. | Também exige o rótulo I1 ou I2.<ul><li>Não pode ser definido em eventos</li><li>Não pode ser definido nas eVars de merchandising</li><li>Não pode ser definido nas Classificações</li></ul> |
 | ID-PERSON | Este campo contém uma ID que pode ser usada para identificar um usuário autenticado (uma pessoa específica) em uma solicitação de Privacidade de dados.  Você não precisa especificar este rótulo para todas as variáveis que contenham IDs (os rótulos I1/I2 são destinados a isso). Use esse rótulo se for enviar solicitações de Privacidade de dados usando IDs armazenadas nessa variável e quiser pesquisá-la para a ID especificada. | <ul><li>Também exige o rótulo I1 ou I2.</li><li>Não pode ser definido em eventos</li><li>Não pode ser definido nas eVars de merchandising</li><li>Não pode ser definido nas Classificações</li></ul> |
 
@@ -169,7 +169,7 @@ A rotulagem da privacidade de dados afeta quatro grandes classes de variáveis d
    <td colname="col1"> <p>Variáveis de tráfego </p> </td> 
    <td colname="col2"> <p>Props de lista </p> </td> 
    <td colname="col3"> <p>Nenhum / S1 / S2 </p> </td> 
-   <td colname="col4"> <p>Propriedades de lista podem conter vários valores e não são permitidos como identificadores de privacidade.</p> </td> 
+   <td colname="col4"> <p>Props de lista podem conter vários valores e não são permitidas como identificadores de privacidade.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Classificações </p> </td> 
@@ -243,7 +243,7 @@ Esta seção pretende esclarecer informações sobre as variáveis do Analytics 
 | [!UICONTROL Agente do usuário] | O Agente do usuário identifica a versão do navegador que foi usada. |
 | [!UICONTROL ID de usuário] | Especifica o conjunto de relatórios do Analytics (como um número) que contém os dados. |
 | [!UICONTROL ID do conjunto de relatórios] | Especifica o nome do conjunto de relatórios do Analytics que contém os dados. |
-| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Essas IDs têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se você quiser que essas IDs de cookie sejam anonimizadas em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, rotulando a prop ou eVar com um rótulo ID-DEVICE, mesmo que realmente identifique uma pessoa (todos os rótulos DEL-PERSON também precisariam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID de visitante ou da ECID estão sendo anonimizadas, as contagens de visitantes únicos mudarão em um relatório histórico. |
+| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Essas IDs têm um rótulo DEL-DEVICE, mas o rótulo DEL-PERSON não pode ser adicionado. Se você quiser que essas IDs de cookie sejam anonimizados em ocorrências que contenham uma ID correspondente em uma prop ou eVar, poderá contornar essa limitação de rotulação, modificando a prop ou eVar com um rótulo ID-DEVICE, mesmo que, na verdade, ele identifique uma pessoa (todos os rótulos DEL-PERSON também precisam ser alterados para rótulos DEL-DEVICE). Nesse caso, já que somente algumas instâncias da ID de visitante ou da ECID estão sendo anonimizadas, as contagens de visitantes únicos mudarão em um relatório histórico. |
 | [!UICONTROL ID do AMO] | A Adobe Advertising Cloud ID é uma variável de solução que tem um rótulo [!UICONTROL DEL-DEVICE] não modificável. Ela é preenchida a partir de um cookie, assim como a ID do visitante e a MCID. Ela deve ser excluída das ocorrências sempre que essas outras IDs forem excluídas. Consulte a descrição referente a essas variáveis para obter mais detalhes. |
 
 {style="table-layout:auto"}
@@ -264,4 +264,4 @@ Há cinco variáveis padrão que contêm carimbos de data e hora:
 
 O código para geração de arquivos retornados por solicitações de Privacidade de dados de acesso exige que pelo menos uma das primeiras três variáveis de carimbo de data e hora sejam incluídas na solicitação de acesso (tenham um rótulo ACC aplicável ao tipo de solicitação). Se não forem incluídas, o Horário personalizado da ocorrência em UTC será tratado como se tivesse um rótulo ACC-ALL.
 
-O arquivo CSV em nível de ocorrência retornado para solicitações de Privacidade de dados de acesso converterá os valores desses campos de carimbos de data e hora unix em campos de data e hora no formato `YYYY-MM-DD HH:MM:SS` (por exemplo, `2018-05-01 13:49:22`). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, `YYYY-MM-DD`, para reduzir o número de valores únicos que ocorrem para tais campos.
+O arquivo CSV na camada das ocorrências retornado para solicitações de acesso de privacidade de dados converterá os valores desses campos de carimbos de data e hora unix em campos de data e hora no formato `YYYY-MM-DD HH:MM:SS` (por exemplo, `2018-05-01 13:49:22`). No arquivo HTML de resumo, esses valores de carimbos de data e hora serão truncados para incluir somente a data, `YYYY-MM-DD`, para reduzir o número de valores únicos que ocorrem para esses campos.

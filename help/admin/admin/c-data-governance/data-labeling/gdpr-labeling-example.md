@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -35,14 +35,14 @@ Suponha que você tenha os seguintes dados de ocorrência:
 
 ## Solicitação de acesso de exemplo {#access}
 
-Se enviar uma solicitação de acesso, você receberá dois arquivos que podem ser retornados ao titular dos dados. Um arquivo é um arquivo CSV que contém uma linha para cada ocorrência recebida para o titular dos dados e uma coluna para cada variável com o rótulo de acesso apropriado. O outro arquivo é um arquivo HTML de resumo que lista cada variável, seguido por todos os valores únicos vistos para essa variável para o titular dos dados e o número de vezes que cada valor único foi visto.
+Se enviar uma solicitação de acesso, você receberá dois arquivos que podem ser retornados ao titular dos dados. Um arquivo é um arquivo CSV que contém uma linha para cada ocorrência recebida para o titular dos dados e uma coluna para cada variável com o rótulo de acesso apropriado. O outro arquivo é um arquivo HTML de resumo que lista cada variável, seguida por todos os valores únicos vistos dessa variável para o titular dos dados e o número de vezes que cada valor único foi visto.
 
-Para o nosso exemplo, o arquivo de resumo contém os valores indicados na tabela abaixo. Uma solicitação pode retornar somente um arquivo de dispositivo, somente um arquivo de pessoa ou um de cada. Dois arquivos de resumo são retornados somente se uma ID de pessoa for usada e `expandIds` for verdadeiro.
+No nosso exemplo, o arquivo de resumo contém os valores indicados na tabela abaixo. Uma solicitação pode retornar somente um arquivo de dispositivo, somente um arquivo de pessoa ou um de cada. Dois arquivos de resumo são retornados somente se um ID de pessoa for usado e `expandIds` for verdadeiro.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valores da API</th>
-    <th rowspan="2">Resumo<br/>tipo de arquivo<br/>retornado</th>
+    <th rowspan="2">Tipo de arquivo<br/>de resumo<br/>retornado</th>
     <th colspan="5" style="text-align:center">Dados no Arquivo de acesso do resumo</th>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ Para o nosso exemplo, o arquivo de resumo contém os valores indicados na tabela
   </tr>
 </table>
 
-Observe que a configuração para `expandIDs` não faz qualquer diferença na saída quando uma ID de cookie é usada.
+Observe que a configuração de `expandIDs` não faz diferença para a saída quando uma ID de cookie é usada.
 
 ## Solicitações de exclusão de exemplo {#delete}
 
@@ -292,7 +292,7 @@ Com uma solicitação de exclusão usando os valores da API na primeira linha da
 
 >[!NOTE]
 >
->Apenas celcolumnsls em linhas que contêm `user=Mary` e um rótulo `DEL-PERSON` são afetados. Além disso, na prática, a variável que contém `A_ID` provavelmente seria uma prop ou eVar. Seu valor de substituição seria uma sequência de caracteres iniciada por `Privacy-`, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
+>Apenas celcolumnsls em linhas que contêm `user=Mary` e um rótulo `DEL-PERSON` são afetadas. Além disso, na prática, a variável que contém `A_ID` provavelmente seria uma prop ou eVar. Seu valor de substituição seria uma string começando com `Privacy-`, seguida por um número aleatório (GUID), em vez de substituir o valor numérico por um valor numérico aleatório diferente.
 
 <table>
   <tr>

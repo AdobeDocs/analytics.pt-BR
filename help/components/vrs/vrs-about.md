@@ -4,9 +4,9 @@ title: Visão geral dos conjuntos de relatórios virtuais
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Muitos clientes têm dados que fluem para um conjunto de relatórios global, mas
 
 Por exemplo, todos os dados podem ser coletados em um único conjunto de relatórios; porém, você pode configurar conjuntos de relatórios secundários para que as pessoas da empresa tenham acesso a parte dos dados, mas não a todos eles. Os dados podem ser divididos por região. Você pode ter sites diferentes para diferentes países. Outros exemplos podem ser marcas específicas que pertencem a uma empresa maior, mas que possuem suas próprias equipes de marketing.
 
-Um *conjunto de relatórios virtuais* permite reproduzir esse conceito de ramificação, usando segmentos em vez de vários conjuntos de relatórios. Os dados são enviados para um conjunto de relatórios, depois são divididos de acordo com os segmentos. Usando o exemplo de várias marcas, você pode definir uma prop para a marca à qual um item pertence. Usando os segmentos, você pode relatar os itens atribuídos a cada propriedade. Cada um desses segmentos se torna sua própria visão, criando efetivamente um novo conjunto de relatórios. Você não envia dados especificamente para esse segmento, apenas para o conjunto de relatórios global, mas ele funciona nos relatórios como se fosse um conjunto de relatórios diferente.
+Um *conjunto de relatórios virtual* permite reproduzir esse conceito de ramificação, usando segmentos em vez de vários conjuntos de relatórios. Os dados são enviados para um conjunto de relatórios, depois são divididos de acordo com os segmentos. Usando o exemplo de várias marcas, você pode definir uma prop para a marca à qual um item pertence. Usando os segmentos, você pode relatar os itens atribuídos a cada propriedade. Cada um desses segmentos se torna sua própria visão, criando efetivamente um novo conjunto de relatórios. Você não envia dados especificamente para esse segmento, apenas para o conjunto de relatórios global, mas ele funciona nos relatórios como se fosse um conjunto de relatórios diferente.
 
 Um conjunto de relatórios virtual herda a maioria dos níveis de serviço do conjunto de relatórios base, como configurações de eVar, Regras de processamento, Classificações, etc. As seguintes configurações NÃO foram herdadas:
 
@@ -49,12 +49,12 @@ Os conjuntos de relatórios virtuais têm as seguintes limitações:
 * Relatório em tempo real
 * Configurações e nomes de variáveis não podem ser personalizados como em um conjunto de relatórios completo
 
-## Conjuntos de relatórios virtuais versus marcação de vários conjuntos {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Conjuntos de relatórios virtuais versus marcação de vários relatórios {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Recurso | Conjunto de relatórios virtual | Marcação de vários relatórios |
 |--- |--- |--- |
 | Oferece relatório de “Dados atuais” ou em tempo real | Não | Sim |
-| Funciona em todas as ferramentas do Analytics (Analysis Workspace, Report Builder etc.) | Sim. **Observação:** você pode editá-los e identificá-los como conjuntos de relatórios virtuais somente no [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Conjuntos de relatórios virtuais]. Entretanto, é possível selecioná-los nos menus suspensos do conjunto de relatórios nas outras ferramentas.<p>**Importante**: os conjuntos de relatórios virtuais com processamento de tempo de relatório e personalização de variáveis não têm suporte no Adobe Report Builder. | Sim |
+| Funciona em todas as ferramentas do Analytics (Analysis Workspace, Report Builder etc.) | Sim. **Observação:** você pode editá-los e identificá-los como conjuntos de relatórios virtuais somente em [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Conjuntos de relatórios virtuais]. Entretanto, é possível selecioná-los nos menus suspensos do conjunto de relatórios nas outras ferramentas.<p>**Importante**: os conjuntos de relatórios virtuais com processamento na hora do relatório e personalização de variáveis não são compatíveis com o Adobe Report Builder. | Sim |
 | É possível enviar dados para ele (por meio de classificações, feeds de dados etc.) | Não | Sim |
 | Suporta a criação de relatórios DL, marcações, painéis, alvos, alertas, segmentos, métricas calculadas... | Sim | Sim |
 | Pode ser adicionado individualmente aos Grupos de permissões | Sim | Sim |
@@ -62,7 +62,7 @@ Os conjuntos de relatórios virtuais têm as seguintes limitações:
 
 {style="table-layout:auto"}
 
-## Combinar conjuntos de relatórios virtuais e marcação de vários relatórios {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Combine conjuntos de relatórios virtuais e marcação de vários relatórios {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 Em alguns casos, existem benefícios em usar conjuntos de relatórios virtuais e marcação de vários relatórios.
 

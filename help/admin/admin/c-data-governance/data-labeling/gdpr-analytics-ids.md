@@ -5,17 +5,17 @@ feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2287'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Práticas recomendadas de rotulagem
 
-A Rotulagem precisa ser revisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for ativada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
+A rotulagem precisa ser analisada sempre que um novo conjunto de relatórios for criado ou quando uma nova variável for habilitada em um conjunto de relatórios existente. Você também pode analisar a rotulagem quando novas integrações da solução forem ativadas, pois elas podem expor novas variáveis que podem exigir rótulos. A reimplementação de aplicativos ou sites móveis pode alterar como as variáveis existentes são usadas, o que também pode exigir atualizações nos rótulos.
 
-Os rótulos I1, I2, S1 e S2 têm o mesmo significado que os rótulos DULE nomeados correspondentemente no Adobe Experience Platform. No entanto, elas são usadas para fins muito diferentes. No Adobe Analytics, esses rótulos são usados para ajudar a identificar campos que devem ser anonimizados como o resultado de uma solicitação Privacy Service. No Adobe Experience Platform, são usados para controle de acesso, gerenciamento de consentimento e para aplicar restrições de marketing em campos rotulados. O Adobe Experience Platform oferece suporte a vários rótulos adicionais que não são usados pelo Adobe Analytics. Se você utilizar o Conector de dados do Analytics para importar os dados do Adobe Analytics para o Adobe Experience Platform, verifique se os rótulos I1, I2, S1 e S2 aplicados no Adobe Analytics também se aplicam aos esquemas no Adobe Experience Platform usados pelos conjuntos de relatórios importados.
+Os rótulos I1, I2, S1 e S2 têm o mesmo significado que os rótulos DULE nomeados de forma correspondente na Adobe Experience Platform. No entanto, eles são usados para fins muito diferentes. No Adobe Analytics, esses rótulos são usados para ajudar a identificar campos que devem ser anonimizados como resultado de uma solicitação do serviço de privacidade. Na Adobe Experience Platform, eles são usados para controle de acesso, gerenciamento de consentimento e aplicação de restrições de marketing em campos rotulados. A Adobe Experience Platform permite vários rótulos adicionais que não são usados pelo Adobe Analytics. Se você utilizar o conector de dados do Analytics para importar os dados do Adobe Analytics para a Adobe Experience Platform, será necessário garantir que os rótulos I1, I2, S1 e S2 aplicados no Adobe Analytics também sejam aplicados aos esquemas na Adobe Experience Platform usados pelos conjuntos de relatórios importados.
 
 ## IDs identificáveis direta vs indiretamente  {#direct-vs-indirect}
 
@@ -101,7 +101,7 @@ Embora pouquíssimos campos tenham um dos outros rótulos, é comum que um grand
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Somente IDs de dispositivos </p> </td> 
-   <td colname="col2"> <p>Se as únicas IDs usadas forem IDs de cookies ou aquelas com um rótulo de ID-DEVICE, você deverá usar somente o rótulo de ACC-ALL. </p> <p>Você receberá um par de arquivos para cada solicitação de acesso: um arquivo contendo uma linha para cada ocorrência correspondente com todos os campos ACC-ALL especificados e um arquivo de resumo contendo um resumo desses dados. </p> </td> 
+   <td colname="col2"> <p>Se as únicas IDs usadas forem IDs de cookies ou aquelas com um rótulo de ID-DEVICE, você deverá usar somente o rótulo de ACC-ALL. </p> <p>Você obterá um par de arquivos para cada solicitação de acesso: um arquivo contendo uma linha para cada ocorrência correspondente com todos os campos ACC-ALL especificados e um arquivo de resumo contendo um resumo desses dados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
