@@ -5,9 +5,9 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 95%
    + [Segmentação do Analytics](segmentation/seg-home.md)
    + [Sobre segmentos](segmentation/seg-overview.md)
    + [Sobre containers de segmento](segmentation/seg-containers.md)
-   + [Recursos de segmentação na Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
+   + [Recursos de segmentação no Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Fluxo de trabalho de segmentação {#segmentation-workflow}
       + [Visão geral do fluxo de trabalho de segmentação](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planejar segmentos](segmentation/segmentation-workflow/seg-plan.md)
@@ -238,8 +238,8 @@ ht-degree: 95%
    + [Considerações sobre o A4T](vrs/vrs-a4t.md)
    + [Perguntas frequentes sobre conjuntos de relatórios virtuais](vrs/vrs-faq.md)
    + [Considerações sobre conjuntos de relatórios virtuais e marcação de vários relatórios/global](vrs/vrs-considerations.md)
-   + Fluxo de trabalho do Conjunto de relatórios virtuais {#vrs-workflow}
-      + [Fluxo de trabalho do Conjunto de relatórios virtuais](vrs/c-workflow-vrs/vrs-workflow.md)
+   + Fluxo de trabalho de conjuntos de relatórios virtuais {#vrs-workflow}
+      + [Fluxo de trabalho de conjuntos de relatórios virtuais](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Criar conjuntos de relatórios virtuais](vrs/c-workflow-vrs/vrs-create.md)
       + [Gerenciar conjuntos de relatórios virtuais](vrs/c-workflow-vrs/vrs-manage.md)
       + [Exibir informações do conjunto de relatórios virtual](vrs/c-workflow-vrs/vrs-view.md)
@@ -261,23 +261,23 @@ ht-degree: 95%
    + [Visão geral das classificações](classifications/classifications-overview.md)
    + Conjuntos de classificação {#sets}
       + [Visão geral](classifications/sets/overview.md)
-      + Gerenciar conjuntos de classificações {#manage}
+      + Gerenciar conjuntos de classificação {#manage}
          + [Gerenciador de conjuntos de classificação](classifications/sets/manage/set-manager.md)
          + [Criar um conjunto de classificação](classifications/sets/manage/create.md)
          + [Configurações do conjunto de classificação](classifications/sets/manage/settings.md)
          + [Esquema do conjunto de classificação](classifications/sets/manage/schema.md)
          + [Regras do conjunto de classificação](classifications/sets/manage/rules.md)
       + [Gerenciador de processos do conjunto de classificação](classifications/sets/job-manager.md)
-      + Consolidações do conjunto de classificações {#consolidations}
+      + Consolidações de conjuntos de classificação {#consolidations}
          + [Gerenciador de consolidações](classifications/sets/consolidations/manage.md)
-         + [Processo de consolidações](classifications/sets/consolidations/process.md)
-   + Construtor de regras de classificação (herdado){#classifications-rulebuilder}
+         + [Processo de consolidação](classifications/sets/consolidations/process.md)
+   + Construtor de regras de classificação (legado){#classifications-rulebuilder}
       + [Visão geral](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de regras de classificação](classifications/crb/classification-rule-set.md)
       + [Regras de classificação](classifications/crb/classification-quickstart-rules.md)
-      + [Definições de regra de classificação](classifications/crb/classification-rule-definitions.md)
+      + [Definições de regras de classificação](classifications/crb/classification-rule-definitions.md)
       + [Subclassificações e o construtor de regras](classifications/crb/subclassification-rule-builder.md)
-   + Importador de classificação (herdado){#classifications-importer}
+   + Importador de classificação (legado){#classifications-importer}
       + [Visão geral do importador de classificações](classifications/importer/c-working-with-saint.md)
       + [Arquivos de dados de classificação](classifications/importer/c-saint-data-files.md)
       + [Excluir dados de classificação](classifications/importer/t-delete-classification-data.md)

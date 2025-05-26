@@ -4,9 +4,9 @@ title: Qual ferramenta do Adobe Analytics devo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1122'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ Para obter mais informações sobre comparações de produtos do Adobe Analytics
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação das ferramentas](https://video.tv.adobe.com/v/30585?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação das ferramentas](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
-## Interfaces do usuário de relatórios do Adobe Analytics {#user-interfaces}
+## Interfaces de relatórios do Adobe Analytics {#user-interfaces}
 
 A **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** deve ser a interface principal do usuário para todas as suas necessidades de relatórios e análises. A Adobe continua a investir e lançar atualizações mensais para este produto. Caso haja uma tarefa que não possa ser executada na Analysis Workspace, considere as outras interfaces abaixo.**
 
@@ -38,9 +38,9 @@ O **[Activity Map](/help/analyze/activity-map/overview.md)** é um recurso do Ad
 
 ## Importação de dados para o Adobe Analytics {#import}
 
-**[Classificações](/help/components/classifications/classifications-overview.md)** devem ser usadas:
+As **[classificações](/help/components/classifications/classifications-overview.md)** devem ser usadas:
 
-* Quando há metadados que você deseja associar a um valor de coleta (eVar, prop, canal de marketing). A Adobe recomenda usar [conjuntos de classificações](/help/components/classifications/sets/overview.md). O construtor de regras de classificação e o importador de classificação são métodos herdados para trazer os dados de classificação para o Adobe Analytics.
+* Quando houver metadados que você deseja associar a um valor de coleta (eVar, prop, canal de marketing). A Adobe recomenda usar os [conjuntos de classificação](/help/components/classifications/sets/overview.md). O construtor de regras de classificação e o importador de classificação são métodos legados para trazer os dados de classificação para o Adobe Analytics.
 
 **[Fontes de dados](/help/import/data-sources/overview.md)** devem ser usadas:
 
@@ -55,11 +55,11 @@ As **[integrações do Adobe Exchange](https://www.adobeexchange.com/experiencec
 
 **[API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* A API de inserção de dados em massa aceita arquivos formatados CSV contendo dados do evento, um evento por linha. A Adobe recomenda usar a API de inserção em massa para qualquer implementação que exija um código do lado do servidor ou que não possa usar o AppMeasurement ou o Web SDK para coleta de dados.
+* A API de inserção de dados em massa aceita arquivos formatados em CSV que contêm dados de evento, um evento por linha. A Adobe recomenda usar a API de inserção em massa para qualquer implementação que exija codificação do lado do servidor ou que não possa usar o AppMeasurement ou o SDK da web para coleta de dados.
 
-**[API de Inserção de Dados (Herdada)](/help/import/c-data-insertion-api/c-data-insertion-api.md)** deve ser usada:
+A **[API de inserção de dados (legado)](/help/import/c-data-insertion-api/c-data-insertion-api.md)** deve ser usada:
 
-* Quando é necessário trazer dados para o Adobe Analytics e não é possível usar o AppMeasurement, o Web SDK ou a API de inserção de dados em massa.
+* Quando for necessário trazer dados para o Adobe Analytics e não for possível usar o AppMeasurement, o SDK da web ou a API de inserção de dados em massa.
 
 **[Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR)** devem ser usados:
 

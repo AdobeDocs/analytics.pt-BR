@@ -4,15 +4,15 @@ description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 9c6da2c1ed5bc2c016da16a5bb821f0064e1ae4f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '689'
+ht-degree: 100%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (versão de maio de 2025)
 
-**Última atualização**: quinta-feira, 14 de maio de 2025
+**Última atualização**: 14 de maio de 2025
 
 Essas notas de versão abrangem o período de lançamento de xx de abril a 18 de junho de 2025. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -20,7 +20,7 @@ Essas notas de versão abrangem o período de lançamento de xx de abril a 18 de
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **O painel esquerdo do Analysis Workspace não abre mais e fecha ao passar o mouse** | O painel esquerdo no Analysis Workspace é usado para adicionar componentes, painéis e visualizações ao seu projeto. A opção de abrir temporariamente o painel esquerdo passando o mouse sobre um dos ícones à esquerda não está mais disponível. Em vez disso, basta clicar em um desses ícones para manter o painel aberto e, em seguida, clicar no mesmo ícone para fechá-lo. |  | sexta-feira, 29 de maio de 2025 |
+| **O painel esquerdo do Analysis Workspace não abre e fecha ao passar o mouse** | O painel esquerdo do Analysis Workspace é usado para adicionar componentes, painéis e visualizações ao projeto. A opção de abrir temporariamente o painel esquerdo passando o mouse sobre um dos ícones à esquerda não está mais disponível. Em vez disso, basta clicar em um desses ícones para manter o painel aberto e clicar novamente no ícone para fechá-lo. |  | 29 de maio de 2025 |
 
 
 ## Correções no Adobe Analytics
@@ -38,13 +38,13 @@ Essas notas de versão abrangem o período de lançamento de xx de abril a 18 de
 **Report Builder**: AN-371395
 **Segmentação**: AN-373576; AN-375858
 **Conjuntos de relatórios virtuais**: AN-377948; AN-377952
-**Regras do Vista**: AN-373292
+**Regras VISTA**: AN-373292
 
 ## Avisos importantes para administradores do Adobe Analytics {#admin}
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| **O painel esquerdo do Analysis Workspace não abre mais e fecha ao passar o mouse** | O painel esquerdo no Analysis Workspace é usado para adicionar componentes, painéis e visualizações ao seu projeto. A opção de abrir temporariamente o painel esquerdo passando o mouse sobre um dos ícones à esquerda não está mais disponível. Em vez disso, basta clicar em um desses ícones para manter o painel aberto e, em seguida, clicar no mesmo ícone para fechá-lo. |  | sexta-feira, 29 de maio de 2025 |
+| **O painel esquerdo do Analysis Workspace não abre e fecha ao passar o mouse** | O painel esquerdo do Analysis Workspace é usado para adicionar componentes, painéis e visualizações ao projeto. A opção de abrir temporariamente o painel esquerdo passando o mouse sobre um dos ícones à esquerda não está mais disponível. Em vez disso, basta clicar em um desses ícones para manter o painel aberto e clicar novamente no ícone para fechá-lo. |  | 29 de maio de 2025 |
 
 
 ## Avisos de fim da vida útil (EOL) {#eol}
