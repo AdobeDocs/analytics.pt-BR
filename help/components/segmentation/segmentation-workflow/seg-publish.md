@@ -6,21 +6,21 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
-# Publicar segmentos no Experience Cloud {#publish-segments}
+# Publicar segmentos na Experience Cloud {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="publicação no Experience Cloud"
->abstract="Você pode publicar o público-alvo derivado deste segmento na Biblioteca de público-alvo, onde ele pode ser usado para atividades de marketing no Target e outras soluções da Experience Cloud."
+>title="Publicação na Experience Cloud"
+>abstract="Você pode publicar o público-alvo derivado deste segmento na biblioteca de públicos-alvo, onde ele pode ser usado para atividades de marketing no Target e outras soluções da Experience Cloud."
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audienclibrary"
 >title="Biblioteca de público-alvo"
->abstract="Os segmentos criados na Biblioteca de público-alvo estão disponíveis instantaneamente e não dependem das atualizações do Analytics."
+>abstract="Os segmentos criados na biblioteca de públicos-alvo estão disponíveis instantaneamente e não dependem das atualizações do Analytics."
 
 
 A publicação de um segmento do Adobe Analytics no Experience Cloud permite que você use o segmento para atividade de marketing no [!DNL Audience Manager] e em outros canais de ativação, incluindo o [!DNL Advertising Cloud], [!DNL Target] e [!DNL Campaign] do Adobe.
@@ -30,7 +30,7 @@ Você pode publicar segmentos do Analytics no Experience Cloud em menos de 8 hor
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar segmentos](https://video.tv.adobe.com/v/37055?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar segmentos](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
