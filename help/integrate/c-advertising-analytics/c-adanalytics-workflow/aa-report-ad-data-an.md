@@ -3,20 +3,20 @@ description: Detalhes sobre o modelo do Analysis Workspace e relatórios no Repo
 title: Relatório sobre dados de publicidade no Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 49%
+source-wordcount: '358'
+ht-degree: 46%
 
 ---
 
 # Relatório sobre dados de publicidade
 
-Este artigo fornece detalhes sobre o relatório do Analysis Workspace e os relatórios no Report Builder.
+Este artigo fornece detalhes sobre o relatório do Analysis Workspace e sobre os relatórios no Report Builder.
 
 >[!NOTE]
 >
->É necessário esperar pelo menos 24 horas até que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics. Observe também que os relatórios do Analytics não retornam dados para granularidade por hora, pois os dados do Advertising Cloud não são compatíveis com granularidade por hora.
+>É necessário esperar pelo menos 24 horas até que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics. Observe também que os relatórios do Analytics não retornam dados para granularidade por hora, pois os dados da Advertising Cloud não são compatíveis com granularidade por hora.
 
 ## Relatório de pesquisa paga {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
@@ -31,7 +31,7 @@ Este relatório permite que qualquer pessoa que implemente a integração de mec
 | Tabela/Visualização | Descrição |
 |--- |--- |
 | Tendências de publicidade | Visão geral de tendência diária das Impressões do AMO, Cliques do AMO e Custo do AMO. |
-| Plataformas de publicidade | Gráfico de rosca do custo das 2 plataformas principais (Google, Bing). |
+| Plataformas de publicidade | Gráfico de rosca do custo das 2 plataformas principais (Google Ads, Microsoft Advertising). |
 | Totais de plataforma de publicidade | Tabela de forma livre das plataformas principais detalhadas por Impressões do AMO, Cliques do AMO, Custos do AMO, Posição média do AMO e Pontuação de qualidade do AMO. |
 | Contas | Área de custo empilhada |
 | Totais de conta | Tabela de forma livre das contas principais detalhadas pelas métricas associadas. |

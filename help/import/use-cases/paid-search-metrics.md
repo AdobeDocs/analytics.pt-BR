@@ -1,20 +1,20 @@
 ---
 title: Importar métricas de pesquisa paga
-description: Etapas para configurar o Adobe Analytics para monitorar suas métricas de pesquisa paga (por exemplo, Google AdWords, MSN, Yahoo etc.) usando Fontes de dados.
+description: Etapas para configurar o Adobe Analytics para rastrear suas métricas de pesquisa paga (por exemplo, Google Ads, Microsoft Advertising etc.) usando Fontes de dados.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
 # Importar métricas de [!UICONTROL Pesquisa paga] usando [!UICONTROL Fontes de dados]
 
-Para muitas organizações de marketing, a pesquisa paga é uma das maneiras mais valiosas e confiáveis de alcançar novos clientes e manter os existentes. O recurso [!UICONTROL Fontes de dados] no Adobe Analytics facilita a importação de dados avançados de pesquisa paga de plataformas de publicidade digital, como o Google AdWords. É possível integrá-los ao restante dos dados de marketing, junto com dados comportamentais no site e de atributos do cliente, para permitir melhores insights sobre os esforços de pesquisa paga da organização.
+Para muitas organizações de marketing, a pesquisa paga é uma das maneiras mais valiosas e confiáveis de alcançar novos clientes e manter os existentes. O recurso [!UICONTROL Fontes de Dados] no Adobe Analytics facilita a importação de dados avançados de pesquisa paga de plataformas de publicidade digital, como o Google Ads. É possível integrá-los ao restante dos dados de marketing, junto com dados comportamentais no site e de atributos do cliente, para permitir melhores insights sobre os esforços de pesquisa paga da organização.
 
-Essas etapas mostram como configurar uma integração com o AdWords para importar dados de palavras-chave, além de métricas como impressões, cliques, custo por clique e muito mais.
+Essas etapas mostram como configurar uma integração com Anúncios para importar dados de palavras-chave, bem como métricas como impressões, cliques, custo por clique e muito mais.
 
 As etapas explicam como configurar uma importação única de dados de pagamento por clique. No entanto, [!UICONTROL Fontes de dados] permitem a importação contínua de dados usando o formato de arquivo descrito aqui. Dependendo da sua plataforma de pesquisa paga, você poderá agendar exportações periódicas (diariamente, mensalmente etc.) e configurar processos automatizados para transformar essas exportações no formato de arquivo exigido pela Adobe Analytics. Também poderá fazer upload desses arquivos no Adobe Analytics para relatórios de integração de pesquisa paga em andamento.
 
@@ -85,7 +85,7 @@ O arquivo já está preenchido com as métricas e dimensões e seus mapeamentos.
 
 ## Exportar dados PPC e carregá-los no Analytics
 
-Etapas semelhantes a essas funcionam para o Google Adwords, MSN, Yahoo e outras contas PPC.
+Etapas semelhantes a essas funcionam para o Google Ads, Microsoft Advertising e outras contas PPC.
 
 ### Exportar dados
 

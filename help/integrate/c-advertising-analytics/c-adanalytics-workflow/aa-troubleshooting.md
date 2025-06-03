@@ -3,17 +3,17 @@ description: Solucione e corrija problemas relacionados ao Advertising Analytics
 title: Solução de problemas do Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 50%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
 # Solução de problemas do Advertising Analytics
 
 * [Não vejo meu conjunto de relatórios na seção de Mapeamento](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [Ocorre um erro ao autenticar para a conta do Google AdWords...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [Ocorre um erro ao autenticar para a conta do Google Ads...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## Não vejo meu conjunto de relatórios na seção de Mapeamento {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
@@ -28,7 +28,7 @@ Você está tentando [configurar uma nova Conta da Advertising](/help/integrate/
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. O conjunto de relatórios não está mapeado para a ID de organização Experience Cloud do logon do usuário. </p> </td> 
+   <td colname="col1"> <p>1. O conjunto de relatórios não está mapeado para a ID de organização Experience Cloud do logon de usuário. </p> </td> 
    <td colname="col2"> <p>Entre em contato com o Atendimento ao cliente para mapear o conjunto de relatórios para uma ID da organização.</p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Você está tentando [configurar uma nova Conta da Advertising](/help/integrate/
  </tbody> 
 </table>
 
-## Ocorre um erro ao autenticar para a conta do Google AdWords {#section_C99EA9A1946E4908B36778A331142B84}
+## Ocorre um erro ao autenticar para a conta do Google Ads {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
@@ -49,8 +49,8 @@ Você está tentando [configurar uma nova Conta da Advertising](/help/integrate/
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>A autenticação ao Google AdWords com uma conta de email que também esteja vinculada à conta de gerenciador do AdWords não funcionará. </p> </td> 
-   <td colname="col2"> <p>Use um email diferente que esteja vinculado à mesma conta do AdWords para autenticar. </p> </td> 
+   <td colname="col1"> <p>A autenticação para o Google Ads com uma conta de email que também está vinculada a uma conta do Google Ads Manager não funciona. </p> </td> 
+   <td colname="col2"> <p>Use um email diferente vinculado à mesma conta do Google Ads para autenticação. </p> </td> 
   </tr> 
  </tbody> 
 </table>

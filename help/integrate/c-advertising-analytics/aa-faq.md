@@ -3,7 +3,7 @@ description: Perguntas frequentes sobre o Advertising Analytics.
 title: Perguntas frequentes sobre análises de publicidade
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 36%
@@ -16,7 +16,7 @@ ht-degree: 36%
 
 +++ Preciso ser um cliente do Adobe Advertising Cloud ou do Adobe Advertising Cloud (AMO) para acessar essa funcionalidade?
 
-Não, essa funcionalidade está disponível para clientes que não são da Advertising Cloud e nem do AMO.
+Não, essa funcionalidade está disponível para clientes que não são da Advertising Cloud ou do AMO.
 
 Os clientes do AMO podem aproveitar da integração Analytics-AMO existente; eles não poderão usar o Advertising Analytics.
 
@@ -62,7 +62,7 @@ O Advertising Analytics está disponível somente para administradores do Adobe 
 
 +++ Quais contas de mecanismo de pesquisa são incluídas no Advertising Analytics?
 
-As contas de mecanismo de pesquisa incluem o Google AdWords e o Microsoft Bing.
+As contas de mecanismo de pesquisa incluem o Google Ads e o Microsoft Advertising.
 
 +++
 
