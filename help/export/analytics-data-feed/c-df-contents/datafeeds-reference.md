@@ -410,4 +410,4 @@ A lista de colunas a seguir não é usada, foi removida ou não contém valor no
 >[!MORELIKETHIS]
 >
 >[Mapeamento da variável de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md)
->>[Mapeamento da variável de objeto de dados](/help/implement/aep-edge/data-var-mapping.md)
+>&#x200B;>[Mapeamento da variável de objeto de dados](/help/implement/aep-edge/data-var-mapping.md)
