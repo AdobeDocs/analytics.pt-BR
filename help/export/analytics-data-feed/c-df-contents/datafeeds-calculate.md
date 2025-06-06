@@ -4,10 +4,10 @@ keywords: Feed de dados;tarefa;métrica;coluna pré;coluna pós;bots;filtragem d
 title: Calcular métricas
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 95%
+source-wordcount: '499'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,11 @@ Descreve como calcular métricas comuns usando feeds de dados.
 
 >[!NOTE]
 >
->As ocorrências normalmente excluídas do Adobe Analytics são incluídas nos feeds de dados. Use `exclude_hit = 0` para remover ocorrências excluídas de consultas em dados brutos. Os dados obtidos também são incluídos nos feeds de dados. Se desejar excluir fontes de dados, exclua todas as linhas com `hit_source = 5,7,8,9`.
+>As ocorrências normalmente excluídas do Analysis Workspace são incluídas nos feeds de dados. Considere adicionar as seguintes condições às suas consultas se elas forem relevantes:
+>
+>* **`exclude_hit`**: o Analysis Workspace inclui apenas dados em que `exclude_hit = 0`.
+>* **`customer_perspective`**: o Analysis Workspace inclui apenas dados em que `customer_perspective = 0`, a menos que você use um conjunto de relatórios virtual que inclua ocorrências em segundo plano móveis.
+>* **`hit_source`**: dados de fontes de dados podem conter diferenças entre dados brutos e o Analysis Workspace. Se quiser excluir ocorrências de fontes de dados, exclua todas as linhas nas quais `hit_source = 5,7,8,9`.
 
 ## Exibições de página
 
@@ -38,7 +42,7 @@ Descreve como calcular métricas comuns usando feeds de dados.
 
 ## Visitantes
 
-Todos os métodos que a Adobe usa para identificar visitantes únicos (ID de visitante personalizado, serviço da Experience Cloud ID etc.) são todos calculados como um valor em `post_visid_high` e `post_visid_low`. A concatenação dessas duas colunas pode ser usada como padrão para identificar visitantes únicos, independentemente de como eles foram identificados como um visitante único. Se você quiser entender qual método a Adobe usou para identificar um visitante único, use a coluna `post_visid_type`.
+Todos os métodos que a Adobe usa para identificar visitantes únicos (ID de visitante personalizada, serviço da Experience Cloud ID etc.) são calculados como um valor em `post_visid_high` e `post_visid_low`. A concatenação dessas duas colunas pode ser usada como padrão para identificar visitantes únicos, independentemente de como eles foram identificados como um visitante único. Se você quiser entender qual método a Adobe usou para identificar um visitante único, use a coluna `post_visid_type`.
 
 1. Concatenar `post_visid_high` e `post_visid_low`.
 2. Conte o número exclusivo de valores.
