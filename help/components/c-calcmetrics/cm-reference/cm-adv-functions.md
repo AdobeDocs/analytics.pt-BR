@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 source-git-commit: 73b54193f1c0f2548ef31bac0f36ff890494c24e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5026'
 ht-degree: 100%
 
@@ -309,13 +309,13 @@ Confiança é uma medida probabilística sobre quantos indícios existem de que 
 >[!CONTEXTUALHELP]
 >id="functions-cos"
 >title="Cosseno"
->abstract="Retorna o cosseno do ângulo fornecido. Se o ângulo estiver em graus, multiplique o ângulo por PI()/180."
+>abstract="Retorna o cosseno do ângulo fornecido. Se o ângulo estiver em graus, multiplique-o por PI()/180."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
-[!BADGE Linha]{type="Neutral"} Retorna o cosseno do ângulo fornecido. Se o ângulo estiver em graus, multiplique o ângulo por PI()/180.
+[!BADGE Linha]{type="Neutral"} Retorna o cosseno do ângulo fornecido. Se o ângulo estiver em graus, multiplique-o por PI()/180.
 
 | Argumento | Descrição |
 |---|---|
@@ -1348,14 +1348,14 @@ Retorna Pi: 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-sin"
 >title="Seno"
->abstract="Retorna o seno do ângulo fornecido. Se o ângulo estiver em graus, multiplique o ângulo por PI()/180."
+>abstract="Retorna o seno do ângulo fornecido. Se o ângulo estiver em graus, multiplique-o por PI()/180."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
 
-[!BADGE Linha]{type="Neutral"} Retorna o seno do ângulo fornecido. Se o ângulo estiver em graus, multiplique o ângulo por PI()/180.
+[!BADGE Linha]{type="Neutral"} Retorna o seno do ângulo fornecido. Se o ângulo estiver em graus, multiplique-o por PI()/180.
 
 
 | Argumento | Descrição |
@@ -1440,13 +1440,13 @@ O valor de retorno é a probabilidade de exibição da estatística de teste x, 
 >[!CONTEXTUALHELP]
 >id="functions-tan"
 >title="Tangente"
->abstract="Retorna a tangente do ângulo especificado. Se o ângulo estiver em graus, multiplique o ângulo por PI()/180."
+>abstract="Retorna a tangente do ângulo especificado. Se o ângulo estiver em graus, multiplique-o por PI()/180."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
 
-Retorna a tangente do ângulo especificado. Se o ângulo estiver em graus, multiplique o ângulo por PI()/180.
+Retorna a tangente do ângulo especificado. Se o ângulo estiver em graus, multiplique-o por PI()/180.
 
 | Argumento | Descrição |
 |---|---|

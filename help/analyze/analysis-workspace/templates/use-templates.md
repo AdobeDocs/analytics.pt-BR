@@ -5,9 +5,9 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18671'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1040,7 +1040,7 @@ Estes são os modelos disponíveis:
 >[!CONTEXTUALHELP]
 >id="aa-template--advertisingAnalyticsPaidSearch"
 >title="Visualize todos os dados de pesquisa paga do Google Ads e do Microsoft Advertising lado a lado."
->abstract="**Isso pode ajudar** a entender melhor a quantidade de tráfego que está sendo enviada para o site e se os clientes estão convertendo.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como estimar o custo/benefício de uma campanha publicitária."
+>abstract="**Isso pode ajudar** a entender melhor a quantidade de tráfego que está sendo enviada para o site e se os clientes estão sendo convertidos.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como estimar o custo/benefício de uma campanha publicitária."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1213,7 +1213,7 @@ Estes são os modelos disponíveis:
 | [!UICONTROL **Campanhas**] > [!UICONTROL **Código de rastreamento**] | Confira os nomes dos códigos de rastreamento no seu site. Você pode colocar links com diferentes valores de parâmetros de strings de consulta em diferentes lugares na internet. <p>**Isso pode ajudar** a entender melhor quais links foram os mais bem-sucedidos em termos de direcionar o tráfego para o seu site. Anexar strings de consulta de código de rastreamento é comum em emails, anúncios, publicações em redes sociais e outras atividades de marketing que a sua organização usa</p><p>**Com base no que aprendeu, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing nas maiores fontes de receita.</p><p>Este modelo usa a dimensão Código de rastreamento. </p> |
 | **Aquisição na web** | Veja como o seu site obtém visitantes.<p>**Isso pode ajudar** a entender melhor os vários fatores que levam à aquisição, como palavras-chave de pesquisa, domínio de referência e assim por diante.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing nos canais mais eficientes.</p><p>Este modelo usa as métricas “Taxa de rejeição” e “Rejeições”. Ele também usa as dimensões Mecanismo de pesquisa, Palavra-chave de pesquisa, Página de entrada, Domínio referenciador, Código de rastreamento e Referenciador.  </p> |
 | **Aquisição por dispositivo móvel** | Veja como o site obtém visitantes em dispositivos móveis.<p>**Isso pode ajudar** a entender melhor os vários fatores que levam à aquisição, como palavras-chave de pesquisa, domínio de referência e assim por diante.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing nos canais mais eficientes.</p><p>Este modelo usa as métricas “Taxa de rejeição” e “Rejeições”. Ele também usa as dimensões Mecanismo de pesquisa, Palavra-chave de pesquisa, Página de entrada, Domínio referenciador, Código de rastreamento e Referenciador.  </p> |
-| **Advertising Analytics: pesquisa paga** | Visualize todos os dados de pesquisa paga do Google Ads e do Microsoft Advertising lado a lado. <p>**Isso pode ajudar** a entender melhor a quantidade de tráfego que está sendo enviada para o site e se os clientes estão convertendo.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como estimar o custo/benefício de uma campanha publicitária.</p> |
+| **Advertising Analytics: pesquisa paga** | Visualize todos os dados de pesquisa paga do Google Ads e do Microsoft Advertising lado a lado. <p>**Isso pode ajudar** a entender melhor a quantidade de tráfego que está sendo enviada para o site e se os clientes estão sendo convertidos.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como estimar o custo/benefício de uma campanha publicitária.</p> |
 | **Palavras-chave de pesquisa: todas** | Confira as palavras-chave de pesquisa que os visitantes usam para acessar o seu site, sejam elas pagas ou naturais. <p>**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site. </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que geram tráfego para o site.</p><p>Este modelo usa a dimensão Palavra-chave de pesquisa. </p> |
 | **Palavras-chave de pesquisa: pagas** | Veja as palavras-chave de pesquisa que visitantes usam para acessar o seu site que correspondem à detecção de pesquisa paga.<p>**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que geram tráfego para o site. </p><p>Este modelo usa a dimensão Palavra-chave de pesquisa paga. </p> |
 | **Palavras-chave de pesquisa: naturais** | Veja as palavras-chave de pesquisa que visitantes usam para acessar o seu site e que não correspondem à detecção de pesquisa paga.<p>**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que geram tráfego para o site.</p><p>Este modelo usa a dimensão Palavra-chave de pesquisa natural. </p> |
