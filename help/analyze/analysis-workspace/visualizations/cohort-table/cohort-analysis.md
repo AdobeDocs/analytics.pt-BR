@@ -5,7 +5,7 @@ feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 100%
 
@@ -50,27 +50,27 @@ Exemplos do que é possível fazer com uma [!UICONTROL tabela de coorte]:
 * Lançar campanhas projetadas para estimular uma ação desejada.
 * Deslocar o orçamento de marketing no momento certo do ciclo de vida do cliente.
 * Reconhecer quando finalizar uma avaliação ou uma oferta para maximizar o valor.
-* Obter ideias para o teste A/B em áreas como o estabelecimento de preços, o caminho de atualização etc.
+* Obter ideias para o teste A/B em áreas como o estabelecimento de preços, o caminho de atualização, etc.
 
-A [!UICONTROL tabela de coorte] está disponível para qualquer cliente do Customer Journey Analytics com direitos de acesso ao [!UICONTROL Analysis Workspace].
+A [!UICONTROL tabela de coorte] está disponível a todos os clientes do Customer Journey Analytics com direitos de acesso ao [!UICONTROL Analysis Workspace].
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análise de coorte no Analysis Workspace](https://video.tv.adobe.com/v/3430078/?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análise de coorte no Analysis Workspace](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 >[!IMPORTANT]
 >
->A [!UICONTROL análise de coorte] não é compatível com métricas não filtráveis (incluindo métricas calculadas), métricas não inteiras (como Receita) ou ocorrências. Somente as métricas que podem ser usadas em filtros são compatíveis com a [!UICONTROL análise de coorte] e só é possível incrementá-las uma por vez.
+>A [!UICONTROL análise de coorte] não é compatível com métricas não filtráveis (incluindo métricas calculadas), métricas não inteiras (como Receita) ou Ocorrências. Somente as métricas que podem ser usadas em filtros são compatíveis com a [!UICONTROL análise de coorte] e só é possível incrementá-las uma por vez.
 
-As tabelas de coorte do Customer Journey Analytics são compatíveis com métricas de dois fatores (ou baseadas em números). Por exemplo, “Purchase.Value” (um valor duplo) pode ser usado como uma métrica de inclusão/retorno. Além disso, todas as métricas enviadas à Adobe Experience Platform por meio do conector de origem do Analytics também são duplas.
+As tabelas de coorte no Customer Journey Analytics são compatíveis com métricas de dois fatores (ou baseadas em números). Por exemplo, &quot;Purchase.Value&quot; (um valor duplo) pode ser usado como uma métrica de inclusão/retorno. Além disso, todas as métricas enviadas à Adobe Experience Platform por meio do conector de origem do Analytics também possuem valor duplo.
 
 ## Recursos da tabela de coorte
 
-As seções a seguir descrevem os recursos da Análise de coorte que permitem o controle aprimorado sobre as coortes que você está criando.
+As seções a seguir descrevem os recursos da análise de coorte que permitem o controle aprimorado sobre as coortes que você está criando.
 
 Para obter informações mais detalhadas sobre como criar uma coorte e executar um relatório de [!UICONTROL Análise de coorte], consulte [Configurar uma tabela de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
@@ -90,17 +90,17 @@ Uma tabela de coorte de [!UICONTROL churn] é o inverso da tabela de retenção 
 
 É possível calcular a retenção ou churn com base na coluna anterior, não na coluna incluída, o que é chamado de cálculo contínuo.
 
-![Um relatório de retenção de coorte exibindo cálculos com base em uma coluna de dados anterior.](assets/retention-report-rolling.png)
+![Um relatório de retenção de coorte mostrando cálculos com base em uma coluna de dados anterior.](assets/retention-report-rolling.png)
 
 ### Tabela de [!UICONTROL latência]
 
 Uma tabela de latência mede o tempo decorrido antes e depois da ocorrência do evento de inclusão. A medição da latência é uma ferramenta excelente para análise prévia e posterior. Uma coluna **[!UICONTROL Incluída]** encontra-se no centro da tabela e períodos de tempo anteriores e posteriores ao evento de inclusão são exibidos em ambos os lados.
 
-![Um relatório de coorte exibindo o tempo decorrido antes e depois de um evento.](assets/retention-report-latency.png)
+![Um relatório de coorte que mostra o tempo decorrido antes e depois de um evento.](assets/retention-report-latency.png)
 
 ### Coorte de [!UICONTROL dimensão personalizada]
 
-É possível criar coortes com base em uma dimensão selecionada ao invés de coortes baseados em tempo (que são o padrão). Use dimensões como [!UICONTROL cidade geográfica], [!UICONTROL canal de marketing], [!UICONTROL campanha], [!UICONTROL produto], [!UICONTROL página], [!UICONTROL região] ou qualquer outra para mostrar como a retenção é alterada. Com base nos diferentes valores dessas dimensões.
+É possível criar coortes com base em uma dimensão selecionada ao invés de coortes baseadas em tempo (que são o padrão). Use dimensões como [!UICONTROL cidade geográfica], [!UICONTROL canal de marketing], [!UICONTROL campanha], [!UICONTROL produto], [!UICONTROL página], [!UICONTROL região] ou qualquer outra para mostrar como a retenção é alterada. Com base nos diferentes valores dessas dimensões.
 
 ![Um relatório de coorte exibindo um relatório personalizado com dimensões selecionadas ao invés da coorte baseada em tempo padrão.](assets/retention-dimensions.png)
 
@@ -128,7 +128,7 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/3430087?quality=12&learn=on&captions=por_br){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -153,7 +153,7 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/3430168?quality=12&learn=on&captions=por_br){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +167,7 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/3430161?quality=12&learn=on&captions=por_br){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

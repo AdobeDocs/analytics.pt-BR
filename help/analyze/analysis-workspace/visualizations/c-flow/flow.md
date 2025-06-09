@@ -6,13 +6,13 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
 ---
 
-# Visão geral do fluxo {#flow}
+# Visão geral do Fluxo {#flow}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -46,7 +46,7 @@ Ele permite:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de fluxo](https://video.tv.adobe.com/v/3412492?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de fluxo](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ Cada coluna pode exibir uma dimensão diferente. Arraste uma dimensão e solte e
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidades adicionais na visualização de fluxo](https://video.tv.adobe.com/v/30779?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidades adicionais na visualização de fluxo](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

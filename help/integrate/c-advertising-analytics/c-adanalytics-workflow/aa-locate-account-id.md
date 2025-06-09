@@ -6,7 +6,7 @@ exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -45,9 +45,9 @@ A **[!UICONTROL ID da Conta]** e a **[!UICONTROL ID da conta do gerente]** são 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="ID da Conta"
->abstract="A &quot;ID da conta&quot; é um valor numérico localizado na interface do Microsoft Advertising. Você pode localizá-la navegando até Configurações > Configurações da conta > ID da conta."
+>abstract="A &quot;ID da conta&quot; é um valor numérico localizado na interface do Microsoft Advertising. É possível localizá-la navegando até Configurações > Configurações da conta > ID da conta."
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
->title="ID da conta do gerente"
->abstract="A &quot;ID da conta do gerente&quot; é um valor numérico localizado na interface do Microsoft Advertising. Você pode localizá-la navegando até Configurações > Configurações da conta do gerente > ID da conta do gerente."
+>title="ID da conta de gerente"
+>abstract="A &quot;ID da conta de gerente&quot; é um valor numérico localizado na interface do Microsoft Advertising. É possível localizá-la navegando até Configurações > Configurações da conta de gerente > ID da conta de gerente."

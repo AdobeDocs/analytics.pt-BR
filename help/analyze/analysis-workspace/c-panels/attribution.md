@@ -5,7 +5,7 @@ feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
@@ -40,8 +40,8 @@ O painel **[!UICONTROL Atribuição]** é uma maneira fácil de criar uma análi
 O Adobe Analytics aprimora a atribuição ao permitir:
 
 * Definir a atribuição além da mídia paga: qualquer dimensão, métrica, canal ou evento pode ser aplicado a modelos (por exemplo: pesquisa interna), não apenas campanhas de marketing.
-* Utilizar a comparação ilimitada de modelos de atribuição: compare dinamicamente quantos modelos desejar.
-* Evitar alterações de implementação: com o processamento de tempo de relatório e as sessões com reconhecimento de contexto, o contexto da jornada do cliente pode ser incorporado e aplicado no tempo da execução.
+* Use comparação ilimitada de modelos de atribuição: compare dinamicamente quantos modelos desejar.
+* Evite alterações na implementação: com processamento em tempo de relatório e sessões com reconhecimento de contexto, o contexto da jornada do cliente pode ser incorporado e aplicado em tempo de execução.
 * Criar a sessão que melhor corresponde ao seu cenário de atribuição.
 * Detalhar atribuições por segmentos: compare facilmente o desempenho dos canais de marketing em segmentos importantes (por exemplo: novos clientes e clientes recorrentes, produto X e produto Y, nível de fidelidade ou CLV).
 * Inspecionar canais cruzados e análises de multitoque: usando diagramas e histogramas de Venn e resultados de atribuição de tendência.
@@ -50,9 +50,9 @@ O Adobe Analytics aprimora a atribuição ao permitir:
 
 ## Usar
 
-Para usar um painel de **[!UICONTROL atribuição]**:
+Para usar um painel de **[!UICONTROL Atribuição]**:
 
-1. Crie um painel de **[!UICONTROL atribuição]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
+1. Crie um painel de **[!UICONTROL Atribuição]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
 
 1. Especifique a [entrada](#panel-input) do painel.
 
@@ -60,39 +60,39 @@ Para usar um painel de **[!UICONTROL atribuição]**:
 
 ### Entrada do painel
 
-É possível configurar o painel de atribuição usando as seguintes configurações de entrada:
+Você pode configurar o painel de Atribuição usando estas configurações de entrada:
 
-1. Adicione uma **[!UICONTROL Métrica de sucesso]** e uma dimensão do **[!UICONTROL Canal]** que deseja atribuir. Os exemplos incluem canais de marketing ou dimensões personalizadas, como promoções internas.
+1. Adicione uma **[!UICONTROL Métrica de sucesso]** e uma dimensão do **[!UICONTROL Canal]** que você deseja atribuir. Os exemplos incluem Canais de marketing ou dimensões personalizadas, como promoções internas.
 
-   ![A janela do painel de atribuição exibindo várias dimensões e métricas selecionadas.](assets/attribution-panel.png)
+   ![A janela Painel de atribuição mostrando várias dimensões e métricas selecionadas.](assets/attribution-panel.png)
 
-1. Selecione um ou mais [modelos de atribuição](#attribution-models) na seção **[!UICONTROL Modelos incluídos]** e uma [janela de retrospectiva](#lookback-window) que deseja usar para comparação na seção **[!UICONTROL Janela de retrospectiva]**.
+1. Selecione um ou mais [modelos de atribuição](#attribution-models) dos **[!UICONTROL Modelos incluídos]** e uma [janela de retrospectiva](#lookback-window) da **[!UICONTROL Janela de retrospectiva]** que você deseja usar para comparação.
 
 1. Selecione **[!UICONTROL Criar]** para criar as visualizações no painel.
 
 ### Saída do painel
 
-O painel de **[!UICONTROL atribuição]** retorna um vasto conjunto de dados e visualizações que comparam a atribuição da dimensão e da métrica selecionadas.
+O painel **[!UICONTROL Atribuição]** retorna um rico conjunto de dados e visualizações que comparam a atribuição para a dimensão e métrica selecionadas.
 
-![As visualizações do painel de atribuição que comparam as métricas e dimensões selecionadas.](assets/attr_panel_vizs.png)
+![As visualizações do painel de Atribuição que comparam as métricas e dimensões selecionadas.](assets/attr_panel_vizs.png)
 
 ### Visualizações de atribuição
 
-As visualizações a seguir fazem parte da saída do painel.
+As visualizações a seguir fazem parte do resultado do painel.
 
-* **Métrica de total**: o número total de conversões que ocorreram ao longo da janela de tempo do relatório e são atribuídas à dimensão selecionada.
+* **Métrica total**: o número total de conversões que ocorreram ao longo da janela de tempo do relatório e são atribuídas à dimensão selecionada.
 * **Barra de comparação de atribuição**: compara visualmente as conversões atribuídas em cada um dos itens da dimensão selecionada. Cada cor da barra representa um modelo de atribuição distinto.
 * **Tabela de comparação de atribuição**: mostra os mesmos dados que o gráfico de barras, mas representados como uma tabela. Selecionar diferentes colunas ou linhas nesta tabela filtra o gráfico de barras, bem como várias outras visualizações no painel. Esta tabela atua de forma semelhante a qualquer outra tabela de forma livre no Workspace, permitindo adicionar componentes como métricas, segmentos ou detalhamentos.
-* **Diagrama de sobreposição**: uma visualização de Venn exibindo os três principais itens de dimensão e a frequência com que participam em conjunto em uma conversão. Por exemplo, o tamanho da sobreposição entre as bolhas indica com que frequência as conversões ocorreram quando uma pessoa foi exposta a ambos os itens de dimensão. Selecionar outras linhas na tabela de forma livre adjacente atualizará a visualização para refletir a seleção.
-* **Detalhes de desempenho**: uma visualização de dispersão para comparar visualmente até três modelos de atribuição.
+* **Diagrama de sobreposição**: uma visualização de Venn exibindo os três principais itens de dimensão e a frequência com que participam em conjunto em uma conversão. Por exemplo, o tamanho da sobreposição entre as bolhas indica com que frequência as conversões ocorreram quando um visitante foi exposto a ambos os itens de dimensão. Selecionar outras linhas na tabela de Forma livre adjacente atualizará a visualização para refletir a seleção.
+* **Detalhe de desempenho**: uma visualização de dispersão para comparar visualmente até três modelos de atribuição.
 * **Desempenho com tendência**: mostra a tendência das conversões atribuídas para o item de dimensão principal. Selecionar outras linhas na tabela de forma livre adjacente atualizará a visualização para refletir a seleção.
-* **Fluxo**: permite ver com quais canais a interação é mais comum e em que ordem ela ocorre na jornada de uma pessoa.
+* **Fluxo**: permite ver com quais canais a interação é mais comum e em que ordem isso acontece na jornada de uma pessoa.
 
 ## Modelos de atribuição
 
 {{attribution-models-details}}
 
-## Janela de retrospectiva
+## Janela de pesquisa
 
 {{attribution-lookback-window}}
 
@@ -106,7 +106,7 @@ As visualizações a seguir fazem parte da saída do painel.
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/33012/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Create an attribution panel
 
