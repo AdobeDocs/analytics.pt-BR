@@ -3,57 +3,59 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9c6da2c1ed5bc2c016da16a5bb821f0064e1ae4f
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: 987638b1a5601a4c5713611b463e4ec77479ed8d
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 45%
 
 ---
 
-# Notas de versão atuais do Adobe Analytics (versão de maio de 2025)
+# Notas de versão atuais do Adobe Analytics (versão de junho de 2025)
 
-**Última atualização**: 14 de maio de 2025
+**Última atualização**: quinta-feira, 18 de junho de 2025
 
-Essas notas de versão abrangem o período de lançamento de xx de abril a 18 de junho de 2025. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+Essas notas de versão abrangem o período de lançamento de 18 de junho a 15 de julho de 2025. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Sendo assim, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 ## Novos recursos ou melhorias {#features}
 
 | Recurso | Descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **O painel esquerdo do Analysis Workspace não abre e fecha ao passar o mouse** | O painel esquerdo do Analysis Workspace é usado para adicionar componentes, painéis e visualizações ao projeto. A opção de abrir temporariamente o painel esquerdo passando o mouse sobre um dos ícones à esquerda não está mais disponível. Em vez disso, basta clicar em um desses ícones para manter o painel aberto e clicar novamente no ícone para fechá-lo. |  | 29 de maio de 2025 |
-
+| **Suporte para Destinos Seguros na nova Report Builder** | Novos destinos de exportação foram adicionados ao suplemento do Report Builder. Os seguintes destinos de armazenamento em nuvem são compatíveis: <ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul> O FTP não é mais compatível devido a preocupações de segurança. (Link da documentação em breve) |  | Junho de 18,2025 |
+| **Nova experiência de visualização** | O painel de visualização, usado para visualizar segmentos, métricas calculadas e muito mais, agora está usando uma visualização de barra horizontal em vez de uma visualização de rosca. |  | quinta-feira, 18 de junho de 2025 |
+| **Caixa de diálogo do modelo de atribuição modificado** | Agora você pode definir o contêiner e o período de tempo separadamente na caixa de diálogo modelo de atribuição. |  | Junho de 18,2025 |
+| **Navegação atualizada para a interface de atributos do cliente** | A interface do usuário de Atributos do cliente agora pode ser acessada diretamente do seletor de aplicativos na Adobe Experience Cloud. |  | A ser determinado |
+| **Mídia de Streaming: Dados de agendamento de suporte** | Agora é possível fazer upload dos dados agendados do conteúdo de streaming de mídia ao vivo anterior para rastrear as visualizações com mais facilidade e precisão. A seguir estão exemplos de conteúdo ao vivo compatíveis com o upload de dados agendado:<ul><li>Plataformas FAST (Free Ad Supported TV)</li><li>Fluxos locais</li><li>Esportes ao vivo</li></ul>O upload dos dados do cronograma permite rastrear os dados de visualização de programas individuais executados durante o tempo designado no arquivo de upload. Você pode até coletar dados de audiência de tópicos ou segmentos de programa específicos. Esses recursos estão disponíveis independentemente de como você implementou a Coleção de mídia de transmissão.<p>Anteriormente, era difícil vincular com precisão uma determinada sessão a programas específicos ao analisar o conteúdo ao vivo, e não era possível vincular uma determinada sessão a tópicos ou segmentos de programa individuais. Saiba mais |  | quinta-feira, 25 de junho de 2025 |
+| **Suporte para pré-renderização do Chrome** | Controla como as bibliotecas de coleção de dados se comportam quando o Chrome pré-renderiza uma página. (Link da documentação em breve) |  | terça-feira, 30 de junho de 2025 |
 
 ## Correções no Adobe Analytics
 
-**Alertas**: AN-378351
-**Analysis Workspace**: AN-363521; AN-367366; AN-373575; AN-374238; AN-374295; AN-374382; AN-376938; AN-377176; AN-377467; AN-377942
-**Transferência de ativos**: AN-373381
-**Classificações**: AN-373166; AN-373479; AN-376074; AN-377337; AN-377505
-**Componentes**: AN-314468
-**Feeds de dados**: AN-370241; AN-375267; AN-376940
-**Fontes de dados**: AN-375259
-**Data Warehouse**: AN-370415; AN-372090;
-**Plataforma**: AN-365681; AN-372306; AN-372616;
-**Relatório em tempo real**: AN-365681
-**Report Builder**: AN-371395
-**Segmentação**: AN-373576; AN-375858
-**Conjuntos de relatórios virtuais**: AN-377948; AN-377952
-**Regras VISTA**: AN-373292
-
-## Avisos importantes para administradores do Adobe Analytics {#admin}
-
-| Aviso | Data de adição ou atualização | Descrição |
-| ----------- | ---------- | ---------- |
-| **O painel esquerdo do Analysis Workspace não abre e fecha ao passar o mouse** | O painel esquerdo do Analysis Workspace é usado para adicionar componentes, painéis e visualizações ao projeto. A opção de abrir temporariamente o painel esquerdo passando o mouse sobre um dos ícones à esquerda não está mais disponível. Em vez disso, basta clicar em um desses ícones para manter o painel aberto e clicar novamente no ícone para fechá-lo. |  | 29 de maio de 2025 |
+**A4T**: AN-379045
+**Advertising Analytics**: AN-377338
+**Alertas**: AN-377229
+**Analysis Workspace**: AN-378891; AN-379589; AN-379604; AN-381270; AN-382264; AN-382414;
+**API 1.4**: AN-380188
+**API 2.0**: AN-373078; AN-379006; AN-381248
+**Classificações**: AN-379209; AN-379315; AN-379567; AN-379573; AN-379749; AN-379764; AN-379818; AN-380433; AN-381670; AN-381751; AN-381994; AN-382055; AN-382682; AN-383059; AN-383409
+**Análise de contribuição**: AN-369822
+**Feeds de dados**: AN-365552; AN-367158; AN-378288; AN-379754; AN-380433; AN-380855; AN-380959; AN-381115; AN-381657; AN-381931
+**Data Warehouse**: AN-379244
+**Plataforma**: AN-375847
+**Regras de processamento**: AN-375157
+**Report Builder**: AN-371395; AN-372174; AN-373815; AN-383194
+**Chamadas do Servidor**: AN-380930
+**Logs de uso e acesso**: AN-372130; AN-382123
+**Conjuntos de relatórios virtuais**: AN-382010
 
 
 ## Avisos de fim da vida útil (EOL) {#eol}
 
 | Fim da vida útil do produto ou recurso | Data de adição ou atualização | Descrição |
 | --- | --- | --- |
+| **Report Builder legado** | quinta-feira, 18 de junho de 2025 | O suplemento herdado do Report Builder será removido em junho de 2026. Todos os usuários devem começar a atualizar suas pastas de trabalho herdadas para a [nova Report Builder](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/rb-overview). O novo Report Builder está disponível para clientes do Adobe Analytics e do Customer Journey Analytics. Ele tem [paridade de recursos próxima](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks#unsupported), além de muitos novos recursos convenientes e melhorias na interface do usuário. Para facilitar o processo de atualização, o novo Report Builder inclui um recurso fácil de conversão de pastas de trabalho. O novo Report Builder só está disponível como suplemento na Microsoft Store. Muitas organizações exigem um processo de aprovação interna antes que o suplemento possa ser disponibilizado aos usuários. Permita tempo para esse processo e comece a trabalhar com sua organização agora para garantir tempo suficiente para atualizar suas pastas de trabalho antes da data do fim da vida útil. |
 | **Acesso via domínios herdados ou via SSO herdado** | 10 de abril de 2025 | A Adobe planeja atualizar como os usuários acessam o Adobe Analytics para melhorar a segurança e simplificar a sua experiência de logon. Como parte dessa iniciativa, o acesso por meio de domínios herdados ou de um SSO herdado, incluindo `my.omniture.com`, será descontinuado permanentemente em **2 de janeiro de 2026**. Após essa data, as credenciais de logon herdadas e o SSO herdado não funcionarão mais. Todos os usuários precisarão fazer logon via `experience.adobe.com`, usando suas IDs da Adobe Experience Cloud. Se precisar de assistência com o sua ID da Experience Cloud, entre em contato com o administrador do Adobe Analytics da sua organização ou com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/contact.html). |
 | **Migração para as credenciais de servidor para servidor do Adobe I/O OAuth** | 17 de janeiro de 2025 | Os clientes da API do Adobe Analytics e da transmissão ao vivo que usam as credenciais JWT do Adobe I/O devem migrar para as credenciais de servidor para servidor OAuth do Adobe I/O até **30 de junho de 2025**. O AdobeIO não permitirá que novas credenciais JWT sejam criadas a partir de 1º de maio de 2024. Os clientes que usam JWT devem criar uma nova credencial de servidor para servidor OAuth ou migrar sua credencial JWT existente para uma credencial de servidor para servidor OAuth. Os clientes também devem atualizar seus aplicativos cliente para usar as novas credenciais de servidor para servidor do OAuth. <ul><li>[Migração de credenciais da Conta de serviço (JWT)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration)</li><li>[Guia de implementação para aplicativos novos e antigos com o OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)<li>[Utilização das novas credenciais de servidor para servidor do OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)</li><li>[Perguntas frequentes](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs)</li></ul> |
-| **Fim da vida útil da API do Adobe Analytics (versão 1.4)** | 17 de julho de 2024 | Em **12 de agosto de 2026**, os serviços de API legados do Analytics abaixo chegarão ao fim de sua vida útil e serão encerrados, e as integrações atuais criadas com esses serviços deixarão de funcionar:<ul><li>API do Adobe Analytics (versão 1.4)</li><li>Autenticação WSSE do Adobe Analytics</li></ul><p>As integrações que usam a API do Adobe Analytics (versão 1.4) devem migrar para a [API 2.0 do Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/), enquanto as integrações do WSSE devem migrar para um protocolo de autenticação baseado em OAuth no [Adobe Developer Console](https://developer.adobe.com/console).</p><p>Consulte as [Perguntas frequentes sobre o fim da vida útil da API do Adobe Analytics 1.4](/help/admin/c-admin-api/c-admin-14-api-eol.md) para obter respostas a perguntas comuns e mais orientações.</p> |
+| **API do Adobe Analytics (versão 1.4)** | 17 de julho de 2024 | Em **12 de agosto de 2026**, os serviços de API legados do Analytics abaixo chegarão ao fim de sua vida útil e serão encerrados, e as integrações atuais criadas com esses serviços deixarão de funcionar:<ul><li>API do Adobe Analytics (versão 1.4)</li><li>Autenticação WSSE do Adobe Analytics</li></ul><p>As integrações que usam a API do Adobe Analytics (versão 1.4) devem migrar para a [API 2.0 do Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/), enquanto as integrações do WSSE devem migrar para um protocolo de autenticação baseado em OAuth no [Adobe Developer Console](https://developer.adobe.com/console).</p><p>Consulte as [Perguntas frequentes sobre o fim da vida útil da API do Adobe Analytics 1.4](/help/admin/c-admin-api/c-admin-14-api-eol.md) para obter respostas a perguntas comuns e mais orientações.</p> |
+
 
 
 ## AppMeasurement
