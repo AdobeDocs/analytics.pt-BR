@@ -3,10 +3,10 @@ description: Mostra como empilhar e substituir segmentos no Criador de métricas
 title: Empilhar e substituir segmentos
 feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 26%
+source-wordcount: '112'
+ht-degree: 19%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 26%
 
 É possível empilhar e substituir segmentos no Criador de métricas calculadas.
 
-## Empilhar segmentos {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
+## Empilhar segmentos {#stack-segment}
 
-1. Comece a criar uma métrica, conforme descrito em [Criar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Comece a criar uma métrica, conforme descrito em [Criar métricas calculadas](cm-build-metrics.md).
 
 1. Na tela Definição, solte o novo segmento ao lado do segmento existente:
 
-![](assets/cm_stack_seg.png)
+   ![Tela de definição mostrando a métrica Visitantes dos EUA colocada ao lado dos Visitantes Internacionais existentes.](assets/segment-stack.png)
 
-## Substituir um segmento por outro {#section_3DA899DF522A44D7A583C5DC8C0A033E}
+## Substituir um segmento por outro {#replace-segment}
 
-1. Comece a criar uma métrica, conforme descrito em [Criar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Comece a criar uma métrica, conforme descrito em [Criar métricas](cm-build-metrics.md).
 
 1. Na tela Definição, solte o novo segmento sobre o segmento existente:
 
-![](assets/cm_replace_seg.png)
+   ![Tela de definição mostrando os Visitantes dos EUA incluídos na métrica Visitantes Internacionais.](assets/segment-replace.png)

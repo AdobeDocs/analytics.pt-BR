@@ -3,10 +3,10 @@ description: Os segmentos permitem identificar subconjuntos de visitantes com ba
 title: Sobre segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
-workflow-type: ht
-source-wordcount: '1156'
-ht-degree: 100%
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 99%
 
 ---
 
@@ -242,7 +242,7 @@ Este vídeo oferece uma visão geral breve do que são os containers de segmento
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/3429097?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -281,7 +281,7 @@ Para acessar o Gerenciador de segmentos:
 
 Por padrão, todos os usuários podem criar e editar segmentos pessoais. Contudo, os administradores podem escolher quem deve ter [permissões para criar segmentos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=pt-BR) e quem pode atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
 
-Os administradores podem editar qualquer segmento e compartilhar segmentos com grupos e todos na organização. [Mais...](/help/components/segmentation/seg-reference/seg-rights.md)
+Os administradores podem editar qualquer segmento e compartilhar segmentos com grupos e todos na organização. [Segmentar direitos por função](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 

@@ -1,35 +1,49 @@
 ---
-description: Como aplicar um ou mais segmentos a um relatório a partir do painel de segmentos.
-title: Selecionar e aplicar segmentos
+description: Como usar segmentos para um relatório.
+title: Usar segmentos
 feature: Segmentation
+role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
-# Selecionar e aplicar segmentos
+# Usar segmentos
 
-Como aplicar um ou mais segmentos a um relatório a partir do painel de segmentos.
+Para usar segmentos no Analysis Workspace, basta arrastar um ou mais segmentos de **[!UICONTROL Segmentos]** no painel de componentes e soltar em:
 
-1. Traga para frente o relatório ao qual você deseja aplicar um segmento, por exemplo, o [!UICONTROL Relatório de páginas].
-1. Clique em **[!UICONTROL Mostrar segmentos]** acima do relatório. O trilho de segmentos abre.
+* Um [painel](/help/analyze/analysis-workspace/c-panels/panels.md) no Analysis Workspace para segmentar todas as visualizações no painel.
+* Uma linha de cabeçalho em uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) no Analysis Workspace para substituir a dimensão.
+* Uma linha em uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) no Analysis Workspace para iniciar um detalhamento.
+* Uma coluna em uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) no Analysis Workspace para adicionar ou substituir uma coluna ou para iniciar um filtro.
+* Painéis de configurações para visualização ou painéis que permitem soltar segmentos. Por exemplo, em um painel [Comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) ou em uma visualização de resumo da [métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md)
+* O [construtor de definições de um segmento](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder), para que você inclua um segmento na definição do segmento.
+* O [construtor de definições para uma métrica calculada](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder), para que você inclua um segmento na definição da métrica calculada.
+
+<!--
+How to apply one or more segments to a report from the segment rail.
+
+1. Bring up the report to which you want to apply a segment, for example the [!UICONTROL Pages Report].
+1. Click **[!UICONTROL Show Segments]** above the report. The segment rail opens.
 
    ![](assets/segment_rail.png)
 
-1. Marque a caixa de seleção ao lado de um ou mais segmentos ou **[!UICONTROL Pesquise segmentos]** para encontrar o segmento apropriado.
+1. Mark the checkbox next to one or more of the segments or **[!UICONTROL Search Segments]** to find the right segment.
 
    >[!NOTE]
    >
-   >Você pode aplicar mais de um segmento a um relatório (isso se chama empilhamento de segmentos). Quando vários segmentos são aplicados, os critérios em cada segmento são combinados com um operador &quot;and&quot; e, em seguida, são aplicados. Não há limite para a quantidade de segmentos que podem ser empilhados.
+   >You can apply more than one segment to a report (this is called segment stacking). When multiple segments are applied, the criteria in each segment is combined using an 'and' operator and then applied. There is no limit to how many segments you can stack.
 
    >[!NOTE]
    >
-   >Clicar no ícone Informações (i) ao lado do nome do segmento permite que você visualize as métricas principais para conferir se você tem um segmento válido e a amplitude deste.
+   >Clicking the Information icon (i) next to the segment name lets you preview the key metrics to see whether you have a valid segment and how broad the segment is.
 
-1. Você pode filtrar por conjunto de relatórios ao marcar a caixa de seleção **[!UICONTROL (Somente)`<report suite name>`]**. Isso exibirá somente os segmentos que foram salvos por último no conjunto de relatórios.
-1. Clique em **[!UICONTROL Aplicar segmento]** e o relatório será atualizado. O segmento ou os segmentos que são aplicados agora são exibidos na parte superior do relatório:
+1. You can filter by report suite by selecting the **[!UICONTROL (Only) `<report suite name>`]** check box. This will show only those segments that were last saved in that report suite.
+1. Click **[!UICONTROL Apply Segment]** and the report will refresh. The segment or segments that are applied now display at the top of the report:
 
    ![](assets/applied_segments.png)
+
+-->

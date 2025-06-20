@@ -3,56 +3,30 @@ description: Descreve um fluxo de trabalho sugerido para segmentos criados com o
 title: Visão geral do fluxo de trabalho de segmentação
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 82%
+source-wordcount: '265'
+ht-degree: 55%
 
 ---
 
 # Visão geral do fluxo de trabalho de segmentação
 
-Descreve um fluxo de trabalho sugerido para segmentos criados com o Construtor de segmentos e gerenciado pelo Gerenciador de segmentos.
-
-![](assets/seg_workflow.png)
+Este artigo descreve uma sugestão de fluxo de trabalho para criar segmentos com o Construtor de segmentos e gerenciar segmentos por meio do Gerenciador de segmentos.
 
 
-![](assets/step1_icon.png) [Planejar Segmentos](/help/components/segmentation/segmentation-workflow/seg-plan.md)
+| Etapa | Ação | Detalhes |
+|:--:|---|---|
+| 1 | [Planejar segmentos](/help/components/segmentation/segmentation-workflow/seg-plan.md) | Você fez todas as perguntas apropriadas antes de construir segmentos e configurar um ambiente de gerenciamento de segmentos? Você projetou o segmento tendo em mente a finalidade desejada e o uso distinto? <br/>Consulte a [Lista de verificação de planejamento de segmento](seg-plan.md) para obter ajuda sobre como planejar e organizar seus segmentos. |
+| 2 | [Criar segmentos](seg-create.md) | Use as várias opções disponíveis para criar um novo segmento. |
+| 3 | [Construir segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Crie e edite segmentos para usar em todos os recursos do Analytics. <br/>Consulte [Criar Segmentos Sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) para saber como criar segmentos com o operador THEN. |
+| 4 | [Marcar segmentos](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Marque segmentos para facilitar a organização e o compartilhamento. Consulte como planejar e atribuir tags para pesquisas e organização simples e avançada. |
+| 5 | [Aprovar segmentos](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Aprove segmentos para transformá-los em canônicos. |
+| 6 | [Usar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | Você pode aplicar segmentos diretamente a um relatório, a partir dos componentes do segmento. |
+| 7 | [Compartilhar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Compartilhe seus segmentos com o público-alvo pretendido em outras ferramentas do Analytics e no Adobe Target e na Adobe Experience Cloud. |
+| 8 | [Filtrar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | Filtrar por tags, proprietários e outros filtros (Mostrar tudo, Meu, Compartilhado comigo, Favoritos e Aprovado). |
+| 9 | [Marcar segmento como favorito](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Outra maneira de organizá-los para facilitar o uso é marcar os segmentos como favoritos. |
 
-Você fez todas as perguntas apropriadas antes de construir segmentos e configurar um ambiente de gerenciamento de segmentos? Você projetou o segmento com a finalidade pretendida e uso distinto em mente?
+## Gerenciar segmentos
 
-Consulte a Lista de verificação do planejamento de segmentos para obter ajuda no planejamento e na organização dos segmentos.
-
-![](assets/step2_icon.png) [Construir segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md)
-
-Construa e edite segmentos para uso em todos os recursos do Analytics.
-
-Consulte [Criar segmentos sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) para saber como construir segmentos com o operador THEN.
-
-![](assets/step3_icon.png) [Segmentos de tag](/help/components/segmentation/segmentation-workflow/seg-tag.md)
-
-Marque segmentos para facilitar a organização e o compartilhamento. Consulte como planejar e atribuir tags para pesquisas e organização simples e avançada.
-
-![](assets/step4_icon.png) [Aprovar Segmentos](/help/components/segmentation/segmentation-workflow/seg-approve.md)
-
-Aprove segmentos para transformá-los em canônicos.
-
-![](assets/step5_icon.png) [Aplicar Segmentos](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)
-
-Você pode aplicar segmentos diretamente de um relatório, de um trilho de segmentos (Mostrar segmentos).
-
-![](assets/step6_icon.png) [Compartilhar Segmentos](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
-
-Compartilhe seus segmentos com o público-alvo pretendido em outras ferramentas do Analytics e no Adobe Target e na Adobe Experience Cloud.
-
-![](assets/step7_icon.png) [Filtrar Segmentos](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
-
-Filtrar por tags, proprietários e outros filtros (Mostrar tudo, Meu, Compartilhado comigo, Favoritos e Aprovado).
-
-![](assets/step8_icon.png) [Marcar segmento como favorito](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
-
-Outra maneira de organizá-los para facilitar o uso é marcar os segmentos como favoritos.
-
-[Gerenciar segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md)
-
-O Gerenciador de segmentos oferece várias formas de cuidar de segmentos, como compartilhar, filtrar, marcar, aprovar, copiar, excluir e marcar como favoritos.
+O [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md) oferece várias formas de cuidar de segmentos, como compartilhar, filtrar, marcar, aprovar, copiar, excluir e marcar como favoritos.

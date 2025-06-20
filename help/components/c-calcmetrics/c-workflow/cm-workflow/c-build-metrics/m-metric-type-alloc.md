@@ -3,14 +3,53 @@ description: Saiba mais sobre
 title: Tipo de métrica e atribuição
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
+source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 77%
 
 ---
 
 # Tipo de métrica e atribuição {#metric-type-attribution}
+
+Você pode configurar o tipo de métrica e o [modelo de atribuição](#attribution-models) para uma métrica em uma definição de métrica calculada.
+
+1. Selecione a ![Configuração](/help/assets/icons/Setting.svg) no componente de métrica.
+1. Na caixa de diálogo pop-up:
+
+   ![Tipo de métrica e atribuição](assets/cm-type-alloc.png)
+
+   * Especifique o **[!UICONTROL Tipo de métrica]**:
+
+     | Tipo de métrica | Definição |
+     |---|---|
+     | **[!UICONTROL Padrão]** | Se uma fórmula consistir de uma única métrica padrão, ela exibirá dados idênticos à sua métrica não calculada equivalente. Métricas padrão são úteis ao criar métricas calculadas específicas para cada item da linha.  <p>Por exemplo, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Pedidos]** ![Dividir](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Visitas]** pega os pedidos de um item de linha específico e divide pelo número de visitas do item de linha específico. |
+     | **[!UICONTROL Total geral]** | Use o **[!UICONTROL Total geral]** para informar o período de relatórios em cada item da linha. Se uma fórmula consistir em uma única métrica de total geral, a métrica calculada exibirá o mesmo número de total geral em cada item da linha. As métricas de total geral são úteis quando você deseja criar métricas calculadas que se comparam aos dados totais. <p>Por exemplo, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Pedidos]** ![Dividir](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Total de Visitas]** mostra a proporção de pedidos com relação a todas as visitas, não apenas visitas ao item de linha específico. Neste exemplo, você especifica **[!UICONTROL Total geral]** para a métrica ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Visitas]** em sua métrica calculada, o que automaticamente a transformará em ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Total de visitas]**. |
+
+   * Especifique a **[!UICONTROL atribuição]**.
+
+      1. Você também pode:
+
+         * Desabilitar a opção **[!UICONTROL Usar modelo de atribuição não padrão]** para usar o modelo de atribuição de coluna padrão, que é Último contato, com uma janela de pesquisa de 30 dias.
+         * Habilitar a opçã o **[!UICONTROL Usar modelo de atribuição não padrão]**. Na caixa de diálogo **[!UICONTROL Modelo de atribuição de coluna]**,
+
+            * Selecione um **[!UICONTROL Modelo]** dos [modelos de atribuição](#attribution-models).
+            * Selecione um **[!UICONTROL Contêiner]** nas opções de [contêiner](#container).
+            * Selecione uma **[!UICONTROL Janela de retrospectiva]** nas opções da [janela de retrospectiva](#lookback-window). Se você selecionar **[!UICONTROL Tempo personalizado]**, será possível definir o período de **[!UICONTROL Minuto(s)]** até **[!UICONTROL Trimestre(s)]**.
+
+      1. Selecione **[!UICONTROL Aplicar]** para aplicar o modelo de atribuição não padrão. Selecione Cancelar para cancelar.
+
+     Se você já tiver definido um modelo de atribuição não padrão, selecione **[!UICONTROL Editar]** para modificar a seleção.
+
+Consulte [Exemplo](#example) para obter um exemplo de uso de um modelo de atribuição, contêiner e janela de retrospectiva.
+
+
+## Modelos de atribuição {#attribution-models}
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_nondefaultattributionmodel"
+>title="Usar modelo de atribuição não-padrão"
+>abstract="Habilite um modelo de atribuição não padrão para a métrica selecionada."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
@@ -92,49 +131,66 @@ ht-degree: 100%
 >title="Algorítmico"
 >abstract="O crédito é determinado dinamicamente em um algoritmo estatístico."
 
+{{attribution-models-details}}
+
+
+## Container {#container}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="Container"
 >abstract="Selecione um container para definir o escopo desejado da atribuição."
 
+{{attribution-container}}
+
+
+## Janela de pesquisa {#lookback-winwow}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Janela de pesquisa"
 >abstract="Essa configuração determina a janela de atribuição de dados que será aplicada a cada conversão."
 
-Ao [criar uma métrica calculada](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), é possível especificar o tipo de métrica e o modelo de atribuição.
+{{attribution-lookback-window}}
 
-## Tipo de métrica
+## Exemplo
 
-Para especificar o tipo de métrica ao criar uma métrica calculada:
+{{attribution-example}}
 
-1. Selecione o ícone de engrenagem ao lado da métrica cujo tipo você deseja selecionar.
 
-   ![](assets/cm_type_alloc.png)
+<!--
+When [building a calculated metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), you can specify the metric type and the attribution model.
 
-1. Escolha entre as seguintes opções:
+## Metric type
 
-   | Tipo de métrica | Definição |
+To specify the metric type when building a calculated metric:
+
+1. Select the gear icon next to the metric whose type you want to select.
+
+   ![](assets/cm-type-alloc.png) 
+
+1. Choose from the following options:
+
+   |  Metric Type  | Definition  |
    |---|---|
-   | Padrão | Essas métricas são as mesmas métricas usadas nos relatórios padrão do [!DNL Analytics]. Se uma fórmula consistir de uma única métrica padrão, ela exibirá dados idênticos à sua métrica não calculada equivalente. Métricas padrão são úteis ao criar métricas calculadas específicas para cada item de linha. Por exemplo, [Pedidos] / [Visitas] pega os pedidos de um item de linha específico e divide pelo número de visitas do item de linha específico. |
-   | Total geral | Use o total geral do período de relatório em cada item de linha. Se a fórmula consistir de uma única métrica de total geral, ela exibirá o mesmo número total em cada item de linha. Métricas de total geral são úteis para criar métricas calculadas que se comparam aos dados totais do site. Por exemplo, [Pedidos] / [Total de visitas] mostra a proporção de pedidos com relação a TODAS as visitas ao site, e não apenas visitas ao item de linha específico. |
+   |  Standard  | These metrics are the same metrics used in standard [!DNL Analytics] reporting. If a formula consisted of a single standard metric, it displays identical data to its non-calculated-metric counterpart. Standard metrics are useful for creating calculated metrics specific to each individual line item. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item.  |
+   |  Grand total  | Use Grand total for the reporting period in every line item. If a formula consisted of a single Grand total metric, it displays the same total number on every line item. Grand total metrics are useful for creating calculated metrics that compare against site total data. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item.  |
 
-## Como a alocação linear funciona
+## How linear allocation works
 
-A [Atribuição](/help/analyze/analysis-workspace/attribution/overview.md) é uma forma de se avaliar os modelos de alocação em métricas calculadas.
+[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) is how allocation models in calculated metrics are evaluated.
 
-Para obter uma lista completa de modelos de atribuição não padrão e janelas de retrospectiva permitidas, consulte [Modelos de atribuição e janelas de retrospectiva](/help/analyze/analysis-workspace/attribution/models.md).
+For a full list of non-default attribution models and lookback windows supported, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
 
-O seguinte exemplo ilustra como as métricas calculadas com alocações lineares funcionam nos relatórios:
+The following example illustrates how calculated metrics with linear allocations work in reporting: 
 
-| | Ocorrência 1 | Ocorrência 2 | Ocorrência 3 | Ocorrência 4 | Ocorrência 5 | Ocorrência 6 | Ocorrência 7 |
+| | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 | Hit 6 | Hit 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| Dados de entrada | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | $10 |
-| eVar de último contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO B | PROMOÇÃO B | PROMOÇÃO C | $10 |
-| eVar de primeiro contato | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | PROMOÇÃO A | $10 |
-| Exemplo de propriedade | PROMOÇÃO A | - | PROMOÇÃO A | PROMOÇÃO B | - | PROMOÇÃO C | $10 |
+|Data Sent In|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
+|Last Touch eVar|PROMO A|PROMO A|PROMO A|PROMO B|PROMO B|PROMO C|$10|
+|First Touch eVar|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|$10|
+|Example prop|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
 
-Neste exemplo, os valores A, B e C foram enviados para uma variável nas ocorrências 1, 3, 4 e 6 antes de uma compra de US$10 ser feita na ocorrência 7. Na segunda linha, esses valores persistem entre as ocorrências com base na visita do último contato. A terceira linha ilustra uma persistência na visita do primeiro contato. Por fim, a última linha ilustra como os dados seriam relatados para uma propriedade que não tenha persistência.
+In this example, the values A, B, and C were sent into a variable on hits 1, 3, 4, and 6 before a $10 purchase was made on hit 7. In the second row, those values persist across hits on a last touch visit basis. The third row illustrates a first-touch visit persistence. Finally, the last row illustrates how data would be recorded for a prop which does not have persistence.
 
+-->

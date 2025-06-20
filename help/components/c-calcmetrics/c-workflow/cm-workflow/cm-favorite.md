@@ -3,21 +3,19 @@ description: Outra maneira de organizá-los para facilitar o uso é marcar as m�
 title: Marcar métricas calculadas como favoritas
 feature: Calculated Metrics
 exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 31%
+source-wordcount: '108'
+ht-degree: 9%
 
 ---
 
 # Marcar métricas calculadas como favoritas
 
-Outra maneira de organizá-los para facilitar o uso é marcar as métricas calculadas como favoritos.
+Você pode marcar uma métrica calculada como favorita. Marcar métricas calculadas como favoritas ajuda a organizar sua métrica calculada. Todos os usuários podem favorecer as métricas calculadas.
 
-1. No Adobe Analytics, selecione a guia **[!UICONTROL Componentes]** e selecione **[!UICONTROL Métricas calculadas]**.
+Para favorecer ou desfavorecer uma métrica calculada, no [Gerenciador de métricas calculadas](cm-manager.md):
 
-1. No Gerenciador de métricas calculadas, marque a estrala ao lado de qualquer métrica calculada que você deseja marcar como favorita. Agora deve aparecer como uma estrela amarela:
+* Selecione ![StarOutline](/help/assets/icons/StarOutline.svg) a favor ou ![Star](/help/assets/icons/Star.svg) para desfavorecer uma métrica calculada.
 
-   ![](assets/favorites.png)
-
-1. Você também pode filtrar por favoritos em **[!UICONTROL Filtros]** > **[!UICONTROL Outros filtros]** > **[!UICONTROL Favoritos]**.
+Você pode filtrar sua lista de métricas calculadas por favoritos. Selecione **[!UICONTROL Outros filtros]** no painel ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** e selecione **[!UICONTROL Favoritos]**. Consulte [Filtrar a lista de métricas calculadas](cm-filter.md) para obter mais informações.
