@@ -186,7 +186,7 @@ Para excluir um container, selecione ![Fechar](/help/assets/icons/Close.svg) no 
 >[!MORELIKETHIS]
 >
 >[Usar funções](cm-using-functions.md)
->>[Segmentos ](/help/components/segmentation/seg-overview.md)
+>&#x200B;>[Segmentos ](/help/components/segmentation/seg-overview.md)
 >
 
 
