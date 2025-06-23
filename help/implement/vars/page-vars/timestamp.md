@@ -21,7 +21,7 @@ A variável `timestamp` define manualmente o carimbo de data e hora da ocorrênc
 
 ## Carimbo de data e hora usando o Web SDK
 
-O carimbo de data/hora é [mapeado para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) no campo XDM `xdm.timestamp`. Esse campo só oferece suporte a horário Unix.
+O carimbo de data/hora é [mapeado para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=pt-BR) no campo XDM `xdm.timestamp`. Esse campo só oferece suporte a horário Unix.
 
 ## Carimbo de data e hora usando a extensão do Adobe Analytics
 

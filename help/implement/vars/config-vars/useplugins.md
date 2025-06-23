@@ -17,7 +17,7 @@ Se `usePlugins` estiver ativada, a função [`doPlugins()`](../functions/doplugi
 
 ## Usar o retorno de chamada `onBeforeEventSend` usando o Web SDK
 
-Embora o Web SDK não tenha um booliano para lidar com a execução de lógica adicional antes que os dados sejam enviados para a Adobe, você pode registrar a chamada de retorno `onBeforeEventSend` para modificar os dados. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do Web SDK para obter mais informações.
+Embora o Web SDK não tenha um booliano para lidar com a execução de lógica adicional antes que os dados sejam enviados para a Adobe, você pode registrar a chamada de retorno `onBeforeEventSend` para modificar os dados. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#modifying-events-globally) na documentação do Web SDK para obter mais informações.
 
 ## Usar plug-ins usando a extensão Adobe Analytics
 
