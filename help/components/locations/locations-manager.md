@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gerenciador de locais
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1490'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,8 @@ ht-degree: 1%
 O Gerenciador de locais permite exibir, criar, editar ou excluir contas e locais. Eles podem ser usados para qualquer uma das seguintes finalidades:
 
 * Exportando arquivos usando [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md)
-* Exportando relatórios usando [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportando relatórios usando o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportando arquivos ao usar o [Report Builder](/help/analyze/report-builder/report-builder-export.md)
 * Importando esquemas usando [Conjuntos de classificações](/help/components/classifications/sets/overview.md)
 
 ## Exibir, filtrar e pesquisar locais
@@ -71,9 +72,9 @@ Para obter informações sobre como editar um local, consulte [Configurar locais
 
 >[!IMPORTANT]
 >
->Se um local for excluído, quaisquer arquivos de Feed de dados, relatórios de Data Warehouse ou esquemas de conjunto de classificações associados ao local excluído falharão na próxima vez que forem usados.
+>Se um local for excluído, qualquer arquivo de Feed de dados, relatório do Data Warehouse ou esquema de conjunto de classificações associado ao local excluído falhará na próxima vez que for usado.
 >
->Se você excluir um local, deverá [editar seus Feeds de dados](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse relatórios](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) e [Classification sets schemas](/help/components/classifications/sets/manage/schema.md) para usar um local funcional.
+>Se você excluir um local, deverá [editar seus Feeds de Dados](/help/export/analytics-data-feed/create-feed.md), [Relatórios do Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) e [Esquemas de conjuntos de classificação](/help/components/classifications/sets/manage/schema.md) para usar um local funcional.
 
 Um local pode ser excluído somente pelo usuário que o criou ou por um administrador do sistema.
 
@@ -173,7 +174,7 @@ Para impedir que todos os usuários criem e editem locais:
 
 * Ao escolher quais contas usar ao exportar arquivos usando [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md), exportar relatórios usando [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou importar esquemas usando [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
-Ao limitar os tipos de conta conforme descrito nesta seção, as contas do tipo que você limita não estarão mais visíveis para os usuários. Isso significa que novas contas desse tipo não podem ser criadas e contas existentes desse tipo não podem ser usadas ao criar feeds de dados, Datas Warehouse ou conjuntos de classificações.
+Ao limitar os tipos de conta conforme descrito nesta seção, as contas do tipo que você limita não estarão mais visíveis para os usuários. Isso significa que novas contas desse tipo não podem ser criadas e contas existentes desse tipo não podem ser usadas ao criar feeds de dados, Data Warehouse ou conjuntos de classificação.
 
 No entanto, as contas existentes configuradas para exportações programadas devem ser excluídas se você quiser restringi-las de serem usadas.
 
@@ -205,13 +206,13 @@ Para limitar os tipos de conta disponíveis aos usuários ao criar e usar contas
 
    Pelo menos um tipo de conta deve ser selecionado.
 
-   * [!UICONTROL **Função ARN do Amazon S3**]
+   * [!UICONTROL **Amazon S3 Role ARN**]
 
-   * [!UICONTROL **Plataforma de nuvem da Google**]
+   * [!UICONTROL **Google Cloud Platform**]
 
-   * [!UICONTROL **SAS do Azure**]
+   * [!UICONTROL **Azure SAS**]
 
-   * [!UICONTROL **RBAC do Azure**]
+   * [!UICONTROL **Azure RBAC**]
 
    * [!UICONTROL **Email**]
 

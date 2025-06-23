@@ -6,14 +6,18 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 76%
+source-wordcount: '858'
+ht-degree: 69%
 
 ---
 
-# Programar pastas de trabalho
+# Agendar pastas de trabalho compartilhando por email
+
+>[!NOTE]
+>
+>Além de agendar pastas de trabalho para compartilhamento por email, conforme descrito nesta seção, você pode agendar pastas de trabalho para serem exportadas para destinos na nuvem, conforme descrito em [Agendar pastas de trabalho para exportação para destinos na nuvem](/help/analyze/report-builder/report-builder-export.md).
 
 Depois de salvar a pasta de trabalho e concluir a análise, é possível compartilhar facilmente a pasta de trabalho com outras pessoas em sua equipe usando o recurso de programação. O recurso Programação permite criar um uma programação que atualiza automaticamente os dados na pasta de trabalho e envia por email o arquivo .xlsx da pasta de trabalho do Excel como um anexo para o público-alvo especificado em uma data e hora específicas. Configurar uma programação fornece atualizações regulares aos recipients automaticamente. Você também pode usar o recurso de programação para enviar a pasta de trabalho uma vez sem programar atualizações automáticas.
 
@@ -31,7 +35,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agendar pas
 
 ## Agendar uma pasta de trabalho
 
-Use o botão Agendar no hub do Report Builder para criar rapidamente um agendamento para distribuir automaticamente um arquivo do Excel (.xlsx) da pasta de trabalho a um indivíduo ou grupo.
+Use o botão Agendar no hub do Report Builder para criar rapidamente um agendamento e distribuir automaticamente um arquivo do Excel (.xlsx) da pasta de trabalho a um indivíduo ou grupo.
 
 1. Clique no botão Programação no hub do Report Builder.
 
@@ -77,7 +81,7 @@ Use o botão Agendar no hub do Report Builder para criar rapidamente um agendame
 
    ![Clique em Enviar de acordo com a programação.](./assets/send-on-schedule.png){width="55%"}
 
-   Você verá uma confirmação na parte inferior do hub do Report Builder e a pasta de trabalho programada será listada na guia Pastas de trabalho.
+   Você verá uma janela de confirmação na parte inferior do hub do Report Builder e a pasta de trabalho agendada será listada na guia Pastas de trabalho.
 
    ![Notificação do sistema](./assets/confirmation-toast.png){width="55%"}
 
@@ -104,44 +108,6 @@ Você também pode enviar a pasta de trabalho apenas uma vez.
 
 1. Clique em **Enviar agora**.
 
-## Exibir e editar pastas de trabalho programadas {#view-edit}
+## Gerenciar pastas de trabalho agendadas
 
-Você pode exibir e gerenciar todas as pastas de trabalho programadas em um local, na guia Pastas de trabalho.
-
-1. Na seção Programação do hub do Report Builder, clique na guia Pastas de trabalho. Use essa exibição para ver uma lista de todas as pastas de trabalho programadas.
-
-1. Selecione uma pasta de trabalho. São exibidas várias ferramentas que permitem editar a pasta de trabalho, editar a tarefa de agendamento, pausar e reiniciar a tarefa de agendamento, baixar um relatório de tarefa agendada ou excluir a tarefa de agendamento.
-
-   ![Captura de tela mostrando os ícones de agendamento da pasta de trabalho.](./assets/schedule-icons.png){width="20%"}
-
-* (Opcional) Clique no ícone de lápis para editar a tarefa de programação da pasta de trabalho.
-
-* (Opcional) Clique no ícone de relógio para exibir um histórico de cada tarefa agendada.
-
-* (Opcional) Clique no ícone de pausa para pausar e reiniciar a tarefa de programação de distribuição. Isso é útil se você precisar modificar a pasta de trabalho antes que ela seja enviada. Clique no ícone de pausa novamente quando quiser reiniciar a distribuição.
-
-* (Opcional) Clique no ícone de download para baixar uma cópia da tarefa de agendamento da pasta de trabalho.
-
-* (Opcional) Clique na lixeira para excluir a tarefa programada.
-
-  ![Captura de tela mostrando a lista de tarefas agendadas.](./assets/selected-workbook.png){width="40%"}
-
-## Revisar o status das tarefas programadas {#status}
-
-A exibição do histórico permite revisar o status de cada tarefa programada. Há uma linha separada que documenta a alteração de status para cada tarefa programada. No exemplo mostrado abaixo, a *Nova programação por hora* foi iniciada em 5 de janeiro, às 15h04. Às 15h05, ela foi atualizada com êxito e enviada aos recipients. A próxima pasta de trabalho, *Pasta de trabalho incorreta*, encontrou um erro durante o processo de atualização. Se uma pasta de trabalho tiver falha de envio, a guia Histórico ajudará a solucionar o problema, mostrando onde ocorreu o erro no processo. Nesse caso, é provavelmente devido a algum erro de bloco de dados, talvez um componente ausente, que impedia a atualização bem-sucedida da pasta de trabalho.
-
-Uma marca de seleção verde indica que a pasta de trabalho foi enviada com êxito. Um ponto de exclamação em um triângulo vermelho indica que ocorreu um erro.
-
-Você pode escolher quais colunas exibir na guia de histórico clicando no ícone de configuração de colunas à direita da barra de pesquisa.
-
-![Clique no ícone de coluna para exibir ou ocultar colunas específicas.](./assets/history.png){width="55%"}
-
-Você pode filtrar o histórico para ver apenas o de uma única pasta de trabalho programada, acessando a guia Pastas de trabalho, selecionando a pasta de trabalho e clicando no ícone do histórico.
-
-Também é possível exibir o histórico de uma pasta de trabalho específica na guia Pastas de trabalho. Na guia Pastas de trabalho, selecione a pasta de trabalho e clique no ícone Histórico.
-
-![O ícone do histórico de pastas de trabalho](./assets/history2.png){width="55%"}
-
-O filtro da pasta de trabalho será exibido na parte superior do histórico. Para visualizar o histórico de todas as tarefas programadas novamente, clique no x ao lado do filtro.
-
-![O filtro de pasta de trabalho.](./assets/history3.png){width="55%"}
+Para obter informações sobre como gerenciar pastas de trabalho já agendadas, consulte [Gerenciar pastas de trabalho agendadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

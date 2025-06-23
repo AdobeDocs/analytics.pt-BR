@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '956'
-ht-degree: 100%
+source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 98%
 
 ---
 
@@ -171,7 +171,9 @@ ht-degree: 100%
    + [Trabalhar com segmentos](report-builder/work-with-segments.md)
    + [Filtrar dimensões](report-builder/filter-dimensions.md)
    + [Gerenciar blocos de dados](report-builder/manage-reportbuilder.md)
-   + [Programar pastas de trabalho](report-builder/schedule-reportbuilder.md)
+   + [Agendar pastas de trabalho para email](report-builder/schedule-reportbuilder.md)
+   + [Agendar pastas de trabalho para exportações em nuvem](/help/analyze/report-builder/report-builder-export.md)
+   + [Gerenciar pastas de trabalho agendadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Rótulos restritos](report-builder/restricted-labels.md)
    + [Configurações do Report Builder](report-builder/report-builder-settings.md)
 + Report Builder legado {#legacy-report-builder}

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configurar contas de importação e exportação na nuvem
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1476'
 ht-degree: 56%
 
 ---
@@ -22,7 +22,8 @@ ht-degree: 56%
 É possível configurar uma conta na nuvem usada para qualquer uma ou todas as seguintes finalidades:
 
 * Exportando arquivos usando [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md)
-* Exportando relatórios usando [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportando relatórios usando o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportando arquivos ao usar o [Report Builder](/help/analyze/report-builder/report-builder-export.md)
 * Importando esquemas usando [Conjuntos de classificações](/help/components/classifications/sets/overview.md)
 
 Você precisa configurar o Adobe Analytics com as informações necessárias para acessar sua conta da nuvem. Esse processo consiste em adicionar e configurar a conta (como a função ARN do Amazon S3, a Plataforma da Google Cloud e assim por diante) conforme descrito neste artigo e, em seguida, adicionar e configurar o local nessa conta (como uma pasta na conta), conforme descrito em [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md).
@@ -49,7 +50,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Nome da conta de localização**] | O nome da conta de localização. Este nome aparece ao criar um local |
+   | [!UICONTROL **Nome da conta de localização**] | O nome da conta de localização. Esse nome aparece ao criar uma localização |
    | [!UICONTROL **Descrição da conta de localização**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. |
    | [!UICONTROL **Disponibilizar a conta para todos os usuários em sua organização**] | Habilite essa opção para permitir que outros usuários em sua organização usem a conta.<p>Considere o seguinte ao compartilhar contas:</p><ul><li>As contas compartilhadas não podem ter o compartilhamento cancelado.</li><li>As contas compartilhadas podem ser editadas somente pelo proprietário da conta.</li><li>Qualquer pessoa pode criar um local para a conta compartilhada.</li></ul> |
    | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta de cada tipo, com os vários locais necessários contidos nessa conta.<p>Os administradores do sistema podem limitar os tipos de conta que os usuários podem criar, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</p> |
@@ -70,7 +71,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Google Cloud Platform
 
@@ -82,7 +83,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure SAS
 
@@ -98,7 +99,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure RBAC
 
@@ -112,7 +113,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Email
 
@@ -128,7 +129,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    **Tipos de conta herdada**
 
@@ -136,7 +137,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    +++FTP
 
-   Os dados do feed de dados podem ser entregues a um Adobe ou local FTP hospedado pelo cliente. Requer um host FTP, nome de usuário e senha. Use o campo de caminho para colocar arquivos de feed em uma pasta. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir.
+   Os dados do feed de dados podem ser entregues para um local FTP hospedado na Adobe ou no cliente. Requer um host FTP, nome de usuário e senha. Use o campo de caminho para colocar arquivos de feed em uma pasta. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir.
 
    | Campo | Função |
    |---------|----------|
@@ -147,13 +148,13 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++SFTP
 
    O suporte SFTP para feeds de dados está disponível. Exige que um host SFTP, nome de usuário e site de destino contenham uma chave pública RSA ou DSA válida. Você pode baixar a chave pública apropriada ao criar o feed.
 
-   +++
++++
 
    +++S3
 
@@ -188,7 +189,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
    >
    >A região cn-north-1 não é compatível.
 
-   +++
++++
 
    +++Blob do Azure
 
@@ -198,7 +199,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
    >
    >Você deve implementar seu próprio processo para gerenciar o espaço em disco no destino do data warehouse. A Adobe não exclui dados do servidor.
 
-   +++
++++
 
 1. Selecione [!UICONTROL **Salvar**].
 
