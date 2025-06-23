@@ -1,10 +1,10 @@
 ---
 title: referenciador
 description: Substitua o referenciador coletado automaticamente em uma ocorrência.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 80%
@@ -15,14 +15,14 @@ ht-degree: 80%
 
 A variável `referrer` substitui o referenciador coletado automaticamente nos relatórios. Essa variável é útil em situações em que o referenciador pode ser perdido, como durante redirecionamentos ou no encaminhamento temporário do visitante a um processador de pagamento. Essa variável ajuda a preencher as dimensões &quot;Referenciador&quot; e &quot;Domínio de referência&quot;.
 
-## Referenciador que usa o SDK da Web
+## Referenciador que usa o Web SDK
 
 O referenciador é mapeado para as seguintes variáveis:
 
 * [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
 * [Objeto de dados](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
 
-O SDK da Web inclui `web.webReferrer.URL` automaticamente em cada evento enviado, se disponível.
+O Web SDK inclui automaticamente `web.webReferrer.URL` em cada evento enviado, se disponível.
 
 ## Referenciador que usa a extensão do Adobe Analytics
 

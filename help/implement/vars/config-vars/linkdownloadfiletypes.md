@@ -1,10 +1,10 @@
 ---
 title: linkDownloadFileTypes
 description: Determine as extensões de arquivo que são automaticamente rastreadas como links de download.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 55%
@@ -13,7 +13,7 @@ ht-degree: 55%
 
 # linkDownloadFileTypes
 
-Quando o [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) ou o [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK da Web) estiver habilitado e um visitante clicar em um link, o AppMeasurement verificará a URL do link por extensões do tipo de arquivo. Se o URL do link contiver um tipo de arquivo correspondente, uma solicitação de imagem do link de download será enviada automaticamente.
+Quando o [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) ou o [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) estiver habilitado e um visitante clicar em um link, o AppMeasurement verificará a URL do link por extensões do tipo de arquivo. Se o URL do link contiver um tipo de arquivo correspondente, uma solicitação de imagem do link de download será enviada automaticamente.
 
 Use `linkDownloadFileTypes` para personalizar quais extensões de arquivo deseja contar como links de download.
 
@@ -30,7 +30,7 @@ Use `linkDownloadFileTypes` para personalizar quais extensões de arquivo deseja
 
 Se um link clicado corresponder aos critérios do link de saída e do link de download, o tipo de link de download terá prioridade.
 
-## Baixar qualificador de link usando a extensão SDK da Web
+## Baixar qualificador de link usando a extensão Web SDK
 
 O campo de texto [!UICONTROL Qualificador de link de download] usa regex para determinar se um link clicado é qualificado para ser um link de download.
 
@@ -39,9 +39,9 @@ O campo de texto [!UICONTROL Qualificador de link de download] usa regex para de
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** em [!UICONTROL Adobe Experience Platform Web SDK].
 1. Em [!UICONTROL Coleção de dados], defina o valor desejado no campo de texto **[!UICONTROL Qualificador de link de download]**.
 
-## Baixar qualificador de link implementando manualmente o SDK da Web
+## Baixar o qualificador de link implementando manualmente o Web SDK
 
-[Configure](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR) o SDK usando [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=pt-BR#automaticLinkTracking). O campo usa regex no URL clicado para determinar se é um link de download válido. Se `downloadLinkQualifier` não estiver definido, o valor padrão será definido como `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+[Configurar](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR) o SDK usando [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=pt-BR#automaticLinkTracking). O campo usa regex no URL clicado para determinar se é um link de download válido. Se `downloadLinkQualifier` não estiver definido, o valor padrão será definido como `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
 
 ```json
 alloy("configure", {

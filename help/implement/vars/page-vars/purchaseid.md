@@ -1,10 +1,10 @@
 ---
 title: purchaseID
 description: Desduplicar ocorrências com base em um identificador de compra exclusivo.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 73%
@@ -19,7 +19,7 @@ Quando a Adobe reconhece uma ocorrência como uma compra duplicada, nenhum dado 
 
 As IDs de compra se aplicam a todos os visitantes e expiram após 37 meses. Se um visitante definir uma determinada ID de compra e um visitante diferente definir essa mesma ID de compra um ano depois, a segunda compra será desduplicada.
 
-## ID de compra usando o SDK da Web
+## ID de compra usando o Web SDK
 
 A ID de compra é mapeada para as seguintes variáveis:
 

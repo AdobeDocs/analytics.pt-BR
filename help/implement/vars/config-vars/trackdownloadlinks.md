@@ -1,10 +1,10 @@
 ---
 title: trackDownloadLinks
 description: Ative ou desative o rastreamento automático de links para links de download.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 59%
@@ -17,18 +17,18 @@ A Adobe oferece a capacidade de rastrear links de download sem definir manualmen
 
 Quando ativado, o AppMeasurement compara qualquer URL de link clicado com os valores em [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Se houver uma correspondência, uma chamada de rastreamento de link de download será acionada automaticamente.
 
-## Ativar ou desativar a coleção de cliques usando a extensão SDK da Web
+## Ativar ou desativar a coleção de cliques usando a extensão Web SDK
 
-Use a caixa de seleção [!UICONTROL Habilitar coleta de dados de cliques] ao configurar o SDK da Web. Essa caixa de seleção lida com links de saída e de download.
+Use a caixa de seleção [!UICONTROL Habilitar coleta de dados de cliques] ao configurar o Web SDK. Essa caixa de seleção lida com links de saída e de download.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** em [!UICONTROL Adobe Experience Platform Web SDK].
 1. Em [!UICONTROL Coleção de dados], clique na caixa de seleção **[!UICONTROL Habilitar e clicar na coleção de dados]**.
 
-## Ativar ou desativar a coleção de cliques que implementa manualmente o SDK da Web
+## Ativar ou desativar a coleção de cliques que implementa manualmente o Web SDK
 
-Configurar o SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR#clickCollectionEnabled). O campo é do tipo booleano e determina se os dados associados aos cliques em links são coletados automaticamente. O valor padrão é `true`. Defina esse valor como `false` se desejar desabilitar o rastreamento automático de links. Essa configuração lida com o rastreamento automático de links para links de download e de saída.
+Configurar o SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). O campo é do tipo booleano e determina se os dados associados aos cliques em links são coletados automaticamente. O valor padrão é `true`. Defina esse valor como `false` se desejar desabilitar o rastreamento automático de links. Essa configuração lida com o rastreamento automático de links para links de download e de saída.
 
 ```json
 alloy("configure", {

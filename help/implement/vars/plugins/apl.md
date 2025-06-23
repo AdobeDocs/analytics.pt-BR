@@ -1,10 +1,10 @@
 ---
 title: apl (appendToList)
 description: Anexe valores a variáveis que suportam vários valores.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 90%
@@ -23,9 +23,9 @@ O plug-in `apl` permite adicionar com segurança novos valores a variáveis deli
 
 A Adobe recomenda usar esse plug-in se você desejar adicionar novos valores às variáveis existentes que contenham uma string de valores delimitados. Esse plug-in não é necessário se você preferir concatenar strings para variáveis que contêm valores delimitados.
 
-## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
+## Instale o plug-in usando a extensão Web SDK ou Web SDK
 
-Este plug-in ainda não é compatível com o SDK da Web.
+Este plug-in ainda não é compatível com o Web SDK.
 
 ## Instale o plug-in usando a extensão Adobe Analytics.
 

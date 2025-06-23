@@ -1,10 +1,10 @@
 ---
 title: forceOffline
 description: Defina manualmente o estado online do AppMeasurement.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 80%
@@ -21,9 +21,9 @@ O método `forceOffline()` permite substituir o estado do AppMeasurement detecta
 
 O AppMeasurement detecta automaticamente o estado online do dispositivo. Você pode usar o método `forceOffline()` para forçar o AppMeasurement a tratar ocorrências como se o dispositivo estivesse offline. Esse método não aceita argumentos e não retorna nenhum valor. Seu único objetivo é substituir o estado online no AppMeasurement.
 
-## Forçar o uso offline do SDK da Web
+## Forçar o uso offline do Web SDK
 
-O SDK da Web não oferece suporte ao rastreamento offline.
+O Web SDK não oferece suporte ao rastreamento offline.
 
 ## Forçar o uso offline da extensão do Adobe Analytics
 

@@ -2,18 +2,18 @@
 description: Visão geral de quais dados o Adobe Analytics coleta e outras considerações de privacidade.
 keywords: privacidade
 title: Visão geral de privacidade
-feature: Privacy
+feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Visão geral de privacidade
 
-A Adobe deseja capacitar sua organização a cumprir com as leis e regulamentos aplicáveis. Consulte [Privacidade da Adobe Experience Cloud](https://www.adobe.com/br/privacy/experience-cloud.html){target=_blank} para obter mais informações. Entre o Adobe Analytics e sua organização, a Adobe atua como um “processador de dados”, no qual você é o(a) “controlador(a) de dados” (ou equivalente, conforme as leis de privacidade e proteção de dados aplicáveis). Cabe à organização divulgar como você usa os produtos e serviços da Adobe, pois a organização controla com exclusividade a implementação das soluções da Adobe. Ao usar o Adobe Analytics, a organização é responsável por seguir a própria política de privacidade, o contrato de serviço com a Adobe e todas as leis aplicáveis.
+A Adobe deseja capacitar sua organização a cumprir com as leis e regulamentos aplicáveis. Consulte [Privacidade do Adobe Experience Cloud](https://www.adobe.com/br/privacy/experience-cloud.html){target=_blank} para obter mais informações. Entre o Adobe Analytics e sua organização, a Adobe atua como um “processador de dados”, no qual você é o(a) “controlador(a) de dados” (ou equivalente, conforme as leis de privacidade e proteção de dados aplicáveis). Cabe à organização divulgar como você usa os produtos e serviços da Adobe, pois a organização controla com exclusividade a implementação das soluções da Adobe. Ao usar o Adobe Analytics, a organização é responsável por seguir a própria política de privacidade, o contrato de serviço com a Adobe e todas as leis aplicáveis.
 
 A Adobe recomenda aderir aos seguintes conceitos abrangentes:
 
@@ -53,4 +53,4 @@ Consulte o menu de navegação em [Visão geral das dimensões](../components/di
 
 ## Locais de processamento de dados
 
-A Adobe mantém três locais de processamento de dados para o Adobe Analytics. Esses sites recebem dados brutos e os processam em um conjunto de relatórios que é otimizado para armazenamento de dados e recuperação de relatórios. Esses locais de processamento de dados são atualmente localizados nos Estados Unidos (Oregon), Reino Unido (Londres) e Cingapura. Consulte [Visão geral da segurança do Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} para obter mais informações.
+A Adobe mantém três locais de processamento de dados para o Adobe Analytics. Esses sites recebem dados brutos e os processam em um conjunto de relatórios que é otimizado para armazenamento de dados e recuperação de relatórios. Esses locais de processamento de dados são atualmente localizados nos Estados Unidos (Oregon), Reino Unido (Londres) e Cingapura. Consulte [visão geral de segurança do Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} para obter mais informações.

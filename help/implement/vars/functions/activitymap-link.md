@@ -1,25 +1,26 @@
 ---
 title: ActivityMap.link
-description: Personalize como o Activity Map coleta os cliques no link.
-feature: Variables
+description: Personalize como o Activity Map coleta o link clicado.
+feature: Appmeasurement Implementation
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # ActivityMap.link
 
-A variável `ActivityMap.link` permite que você substitua a lógica que o Activity Map usa para definir valores de link. Essa variável é útil em áreas onde você deseja ter mais controle do que o [`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md) oferece.
+A variável `ActivityMap.link` permite substituir a lógica usada pelo Activity Map para definir valores de link. Essa variável é útil em áreas onde você deseja ter mais controle do que o [`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md) oferece.
 
 >[!CAUTION]
->Essa variável substitui completamente a lógica de Activity Map. Configurar uma função de substituição aqui que retorna valores incorretos pode causar problemas de coleta de dados com dimensões de Activity Map e a sobreposição de Activity Map.
+>Essa variável substitui completamente a lógica do Activity Map. Definir uma função de substituição aqui que retorna valores incorretos pode causar problemas de coleta de dados com dimensões do Activity Map e a sobreposição do Activity Map.
 
-## Substituição de valores de link usando o SDK da Web
+## Substituição de valores de link usando o Web SDK
 
-Você pode usar o retorno de chamada [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar a carga do SDK da Web ou cancelar o envio de dados.
+Você pode usar o retorno de chamada [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar a carga do Web SDK ou cancelar o envio de dados.
 
 ## Substituição de link usando a extensão do Adobe Analytics
 
@@ -29,10 +30,10 @@ Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa vari
 
 Atribua a essa variável uma função que:
 
-* Recebe o elemento de HTML que foi clicado; e
-* Retorna um valor de string. Este valor de cadeia de caracteres é o valor final usado para a dimensão [Link de Activity Map](/help/components/dimensions/activity-map-link.md).
+* Recebe o elemento HTML que foi clicado; e
+* Retorna um valor de string. Este valor de cadeia de caracteres é o valor final usado para a dimensão [Link do Activity Map](/help/components/dimensions/activity-map-link.md).
 
-Se o valor de retorno for [falsy](https://developer.mozilla.org/pt-BR/docs/Glossario/Falsy), todas as variáveis de dados de contexto de Activity Map serão limpas e nenhum dado de link será rastreado.
+Se o valor de retorno for [falsy](https://developer.mozilla.org/pt-BR/docs/Glossario/Falsy), todas as variáveis de dados de contexto do Activity Map serão limpas e nenhum dado de link será rastreado.
 
 ## Exemplos
 
@@ -78,5 +79,5 @@ Em vez de substituir completamente a lógica de link padrão, você pode alterá
 ```
 
 1. Se `linkName` for passado, o método foi chamado por `tl()`. Retornar o que `tl()` passou como `linkName`.
-2. Quando chamado por Activity Map, um `linkName` nunca é passado, então, chame `customFunction()` com o elemento de link. Você pode usar qualquer função personalizada para retornar um valor.
+2. Quando chamado pelo Activity Map, um `linkName` nunca é passado, então, chame `customFunction()` com o elemento de link. Você pode usar qualquer função personalizada para retornar um valor.
 3. Se nenhum dos valores de retorno acima for exibido, use o nome do link normalmente coletado como um fallback.

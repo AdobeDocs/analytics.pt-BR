@@ -1,10 +1,10 @@
 ---
 title: linkLeaveQueryString
 description: Permite a preservação de cadeias de caracteres de consulta em dimensões de rastreamento de link.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 84%
@@ -25,7 +25,7 @@ A ativação de `linkLeaveQueryString` se aplica a todas as dimensões de rastre
 >
 >Essa variável não afeta dimensões fora do rastreamento de link. Ela afeta apenas links personalizados, links de saída e links de download.
 
-## Lidar com cadeias de caracteres de consulta de link usando o SDK da Web
+## Lidar com cadeias de caracteres de consulta de link usando o Web SDK
 
 As cadeias de consulta não são removidas do campo XDM `web.webInteraction.URL`. Se quiser remover cadeias de caracteres de consulta deste campo XDM, você poderá editá-lo usando `onBeforeEventSend`.
 

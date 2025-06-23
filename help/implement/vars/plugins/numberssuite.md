@@ -1,10 +1,10 @@
 ---
 title: Conjunto de números
 description: Produza e manipule números para uso em outras variáveis JavaScript.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 89%
@@ -21,9 +21,9 @@ O Numbers Suite inclui uma série de funções JavaScript. Inclui os seguintes p
 * **`randomNumber`**: gere um número aleatório com um número específico de dígitos. Esse plug-in é útil se você implantar tags de terceiros e quiser um número aleatório para substituição de cache.
 * **`twoDecimals`**: arredonde um número até a centena que estiver mais próxima. Esse plug-in é útil para fins monetários e permite arredondar um número para um valor monetário válido.
 
-## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
+## Instale o plug-in usando a extensão Web SDK ou Web SDK
 
-Este plug-in ainda não é compatível com o SDK da Web.
+Este plug-in ainda não é compatível com o Web SDK.
 
 ## Instale o plug-in usando a extensão Adobe Analytics.
 

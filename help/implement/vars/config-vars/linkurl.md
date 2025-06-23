@@ -1,10 +1,10 @@
 ---
 title: linkURL
 description: Substitua o URL de link gerado automaticamente que o AppMeasurement usa nas chamadas de rastreamento de link.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 65%
@@ -17,7 +17,7 @@ Sempre que uma chamada de rastreamento de link é enviada para a Adobe, os servi
 
 Não há dimensões no Analysis Workspace que relatem essa variável. Ele preenche a coluna `page_event_var1` em [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md).
 
-## Vincular URL usando o SDK da Web
+## Vincular URL usando o Web SDK
 
 O URL do link é mapeado para as seguintes variáveis:
 

@@ -1,10 +1,10 @@
 ---
 title: cookieDomainPeriods
-description: (Obsoleto) O AppMeasurement de ajuda determina onde armazenar cookies quando o domínio de nível superior de um site contém um ponto.
-feature: Variables
+description: (Obsoleto) Ajude a AppMeasurement a determinar onde armazenar cookies quando o domínio de nível superior de um site contiver um ponto.
+feature: Appmeasurement Implementation
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 18%
@@ -22,7 +22,7 @@ ht-degree: 18%
 >
 >Essa variável não faz nada, pois a biblioteca aplicável detecta automaticamente o domínio no qual os cookies serão definidos.
 
-A variável `cookieDomainPeriods` ajudou o AppMeasurement a determinar onde definir os cookies do Analytics, indicando que o domínio de nível superior tinha um ponto extra. Essa variável permitia que o AppMeasurement acomodasse o ponto extra no domínio de nível superior e definisse os cookies no local correto. Se o domínio de nível superior do site não incluir um ponto extra, essa variável não será necessária.
+A variável `cookieDomainPeriods` ajudou a AppMeasurement a determinar onde definir os cookies do Analytics, indicando que o domínio de nível superior tinha um ponto extra. Essa variável permitia que o AppMeasurement acomodasse o ponto extra no domínio de nível superior e definisse os cookies no local correto. Se o domínio de nível superior do site não incluir um ponto extra, essa variável não será necessária.
 
 * Para domínios como `example.co.uk` ou `www.example.co.jp`, defina essa variável como `"3"`.
 * Para domínios como `example.nsw.gov.au`, defina essa variável como `"4"`.
@@ -30,13 +30,13 @@ A variável `cookieDomainPeriods` ajudou o AppMeasurement a determinar onde defi
 
 >[!TIP]
 >
->Não considere subdomínios para essa variável. Por exemplo, não defina `cookieDomainPeriods` no URL de exemplo `store.toys.example.com`. O AppMeasurement reconhece que os cookies são armazenados no `example.com`, mesmo em URLs com vários subdomínios.
+>Não considere subdomínios para essa variável. Por exemplo, não defina `cookieDomainPeriods` no URL de exemplo `store.toys.example.com`. A AppMeasurement reconhece que os cookies são armazenados no `example.com`, mesmo em URLs com vários subdomínios.
 
-Para implementações no AppMeasurement v2.26.x ou posterior, o cookie [`s_ac`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics) é usado para ajudar a determinar automaticamente o domínio do cookie correto. A biblioteca tenta primeiro gravar um cookie, incluindo dois períodos de domínio. Se a configuração desse cookie falhar, ele tentará novamente, incluindo mais períodos de domínio até que seja bem-sucedido. Este cookie é excluído imediatamente depois de definido.
+Para implementações no AppMeasurement v2.26.x ou posterior, o cookie [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) é usado para ajudar a determinar automaticamente o domínio do cookie correto. A biblioteca tenta primeiro gravar um cookie, incluindo dois períodos de domínio. Se a configuração desse cookie falhar, ele tentará novamente, incluindo mais períodos de domínio até que seja bem-sucedido. Este cookie é excluído imediatamente depois de definido.
 
-## Períodos de domínio de cookie usando o SDK da Web
+## Períodos de domínio de cookie usando o Web SDK
 
-O SDK da Web determina automaticamente o domínio correto para definir cookies.
+O Web SDK determina automaticamente o domínio correto para definir cookies.
 
 ## Períodos de domínio de cookie usando a extensão Adobe Analytics
 

@@ -1,10 +1,10 @@
 ---
 title: tl
 description: Envie uma chamada de rastreamento de link para a Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 62%
@@ -17,9 +17,9 @@ O método `tl()` é um componente principal importante do Adobe Analytics. Ele c
 
 Se [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExternalLinks`](../config-vars/trackexternallinks.md) estiverem ativados, o AppMeasurement chama o método `tl()` automaticamente para enviar dados de rastreamento de links de download e de saída. Se sua organização preferir ter mais controle sobre os links a serem rastreados e o comportamento deles, você pode chamar o método `tl()` manualmente. Os links personalizados só podem ser acompanhados manualmente.
 
-## Rastreamento de link usando o SDK da Web
+## Rastreamento de link usando o Web SDK
 
-O SDK da Web não diferencia chamadas de exibição de página e chamadas de rastreamento de link; ambos usam o comando `sendEvent`.
+O Web SDK não diferencia chamadas de exibição de página e chamadas de rastreamento de link; ambos usam o comando `sendEvent`.
 
 Se você usar um objeto XDM e quiser que o Adobe Analytics contabilize um determinado evento como uma chamada de rastreamento de link, verifique se os dados XDM incluem:
 
@@ -175,7 +175,7 @@ Em seguida, você pode chamar a função sempre que quiser rastrear um determina
 ```
 
 >[!NOTE]
->Chamar o método `tl()` indiretamente pode tornar os relatórios de sobreposição de Activity Map menos convenientes. Você deve clicar em cada link para registrar a função com o elemento link. No entanto, as dimensões de Activity Map no Workspace são rastreadas da mesma forma.
+>Chamar o método `tl()` indiretamente pode tornar os relatórios de sobreposição do Activity Map menos convenientes. Você deve clicar em cada link para registrar a função com o elemento link. No entanto, as dimensões do Activity Map no Workspace são rastreadas da mesma forma.
 
 ### Evite rastrear links duplicados
 
@@ -202,9 +202,9 @@ function linkCode(obj) {
 
 ### Usar o método `tl()` com o Activity Map
 
-Você pode usar o método `tl()` para rastrear elementos personalizados e configurar a renderização de sobreposição para o conteúdo dinâmico. O parâmetro `linkName` também é usado para definir a dimensão [Link de Activity Map](/help/components/dimensions/activity-map-link.md).
+Você pode usar o método `tl()` para rastrear elementos personalizados e configurar a renderização de sobreposição para o conteúdo dinâmico. O parâmetro `linkName` também é usado para definir a dimensão [Link do Activity Map](/help/components/dimensions/activity-map-link.md).
 
-Quando o método `tl()` é chamado diretamente no evento de cliques do elemento de HTML, o Activity Map pode exibir uma sobreposição para esse elemento quando a página da Web for carregada. Por exemplo:
+Quando o método `tl()` é chamado diretamente no evento de cliques do elemento HTML, o Activity Map pode exibir uma sobreposição para esse elemento quando a página da Web for carregada. Por exemplo:
 
 ```html
 <a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>

@@ -1,10 +1,10 @@
 ---
 title: cleanStr
 description: Remova ou substitua todos os caracteres desnecessários de uma string.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 68%
@@ -15,11 +15,11 @@ ht-degree: 68%
 
 {{plug-in}}
 
-O plug-in `cleanStr` remove ou substitui todos os caracteres desnecessários de uma string, incluindo caracteres de tags HTML, espaços em branco extras, tabulações e retornos de caracteres de nova linha. Também substitui aspas simples esquerda/direita por aspas simples retas (`'`). O Adobe recomenda usar esse plug-in se você quiser remover caracteres desnecessários de valores variáveis e se o recurso &quot;Texto limpo&quot; na Coleção de dados do Adobe Experience Platform não atender às suas necessidades de implementação. Esse plug-in não será necessário se os dados coletados não contiverem caracteres desnecessários ou se o recurso &quot;Limpar texto&quot; na Coleção de dados do Adobe Experience Platform for suficiente.
+O plug-in `cleanStr` remove ou substitui todos os caracteres desnecessários de uma string, incluindo caracteres de tags HTML, espaços em branco extras, tabulações e retornos de caracteres de nova linha. Também substitui aspas simples esquerda/direita por aspas simples retas (`'`). A Adobe recomenda usar esse plug-in se você quiser remover caracteres desnecessários de valores variáveis e se o recurso &quot;Texto limpo&quot; na Coleção de dados do Adobe Experience Platform não atender às suas necessidades de implementação. Esse plug-in não será necessário se os dados coletados não contiverem caracteres desnecessários ou se o recurso &quot;Limpar texto&quot; na Coleção de dados do Adobe Experience Platform for suficiente.
 
-## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
+## Instale o plug-in usando a extensão Web SDK ou Web SDK
 
-Este plug-in ainda não é compatível com o SDK da Web.
+Este plug-in ainda não é compatível com o Web SDK.
 
 ## Instale o plug-in usando a extensão Adobe Analytics.
 

@@ -1,10 +1,10 @@
 ---
 title: pageName
 description: O nome da página do seu site.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 80%
@@ -21,7 +21,7 @@ Se essa variável não for definida em uma chamada de rastreamento de página es
 >
 >Os servidores de coleção de dados da Adobe removem essa dimensão de todas as solicitações de imagem de [rastreamento de link](/help/implement/vars/functions/tl-method.md). Se quiser que essa dimensão apareça nas ocorrências de rastreamento de link, considere copiar a dimensão em uma [eVar](evar.md).
 
-## Nome da página usando o SDK da Web
+## Nome da página usando o Web SDK
 
 O nome da página é mapeado para as seguintes variáveis:
 

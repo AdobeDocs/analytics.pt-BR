@@ -1,10 +1,10 @@
 ---
 title: carimbo de data e hora
 description: Defina manualmente o carimbo de data e hora da ocorrência.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 81%
@@ -19,9 +19,9 @@ A variável `timestamp` define manualmente o carimbo de data e hora da ocorrênc
 >
 >Não use essa variável se o conjunto de relatórios não estiver configurado explicitamente para aceitar ocorrências com carimbo de data e hora. O AppMeasurement define automaticamente a hora de uma ocorrência para conjuntos de relatórios que não suportam ocorrências com carimbo de data e hora. Se você enviar uma ocorrência com essa variável para um conjunto de relatórios não compatível com carimbos de data e hora, esses dados serão perdidos permanentemente.
 
-## Carimbo de data e hora usando o SDK da Web
+## Carimbo de data e hora usando o Web SDK
 
-O carimbo de data/hora é [mapeado para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=pt-BR) no campo XDM `xdm.timestamp`. Esse campo só oferece suporte a horário Unix.
+O carimbo de data/hora é [mapeado para o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) no campo XDM `xdm.timestamp`. Esse campo só oferece suporte a horário Unix.
 
 ## Carimbo de data e hora usando a extensão do Adobe Analytics
 

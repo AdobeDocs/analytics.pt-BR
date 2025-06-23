@@ -1,10 +1,10 @@
 ---
 title: doPlugins
 description: Configure a lógica antes de uma ocorrência ser compilada e enviada para a Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 63%
@@ -20,9 +20,9 @@ A variável `doPlugins` atua como uma &quot;última chamada&quot; para definir v
 
 Use a variável `doPlugins` para chamar o código do plug-in e definir os valores finais da variável antes que uma solicitação de imagem seja compilada e enviada para a Adobe.
 
-## Usar o código de retorno de chamada On Before Event Send usando a extensão SDK da Web
+## Usar o código de retorno de chamada On Before Event Send usando a extensão Web SDK
 
-Em vez de `doPlugins`, o SDK da Web usa `onBeforeEventSend` com funcionalidade semelhante.
+Em vez de `doPlugins`, o Web SDK usa `onBeforeEventSend` com funcionalidade semelhante.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
@@ -30,9 +30,9 @@ Em vez de `doPlugins`, o SDK da Web usa `onBeforeEventSend` com funcionalidade s
 1. Em [!UICONTROL Coleção de dados], clique no botão **[!UICONTROL Editar em antes de enviar o código de retorno de chamada]**.
 1. Coloque o código desejado no editor.
 
-## Usar o `onBeforeEventSend` implementando manualmente o SDK da Web
+## Use o `onBeforeEventSend` para implementar manualmente o Web SDK
 
-Em vez de `doPlugins`, o SDK da Web usa `onBeforeEventSend` com funcionalidade semelhante. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
+Em vez de `doPlugins`, o Web SDK usa `onBeforeEventSend` com funcionalidade semelhante. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do Web SDK para obter mais informações.
 
 ```js
 // Set the trackingCode XDM field to "New value"

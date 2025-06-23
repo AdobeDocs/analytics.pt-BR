@@ -1,10 +1,10 @@
 ---
 title: rfl
 description: Remova um valor específico de uma string delimitada por caracteres.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 93%
@@ -22,9 +22,9 @@ O plug-in usa a seguinte lógica:
 * Se o valor que você deseja remover existir, o plug-in manterá tudo na variável, exceto o valor a ser removido.
 * Se o valor que você deseja remover não existir, o plug-in manterá a string original como está.
 
-## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
+## Instale o plug-in usando a extensão Web SDK ou Web SDK
 
-Este plug-in ainda não é compatível com o SDK da Web.
+Este plug-in ainda não é compatível com o Web SDK.
 
 ## Instale o plug-in usando a extensão Adobe Analytics.
 

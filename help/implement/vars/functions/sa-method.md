@@ -1,10 +1,10 @@
 ---
 title: sa
 description: Altere o conjunto de relatórios a qualquer momento em sua implementação.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%
@@ -15,9 +15,9 @@ ht-degree: 42%
 
 O método `sa()` permite alterar dinamicamente e a qualquer momento um conjunto de relatórios na página. Se desejar enviar dados para conjuntos de relatórios diferentes sem um recarregamento de página, você pode usar esse método.
 
-## Lidar com conjuntos de relatórios usando o SDK da Web
+## Lidar com conjuntos de relatórios usando o Web SDK
 
-O SDK da Web opera enviando dados para um fluxo de dados específico, que encaminha dados para o(s) conjunto(s) de relatórios desejado(s) do Analytics. Um único fluxo de dados pode encaminhar dados para vários conjuntos de relatórios. Esta seção se aplica à extensão SDK da Web e à implementação manual do SDK da Web.
+O Web SDK opera enviando dados para um fluxo de dados específico, que encaminha dados para o(s) conjunto(s) de relatórios desejado(s) do Analytics. Um único fluxo de dados pode encaminhar dados para vários conjuntos de relatórios. Esta seção se aplica à extensão Web SDK e à implementação manual do Web SDK.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique em **[!UICONTROL Datastreams]** à esquerda.
@@ -26,9 +26,9 @@ O SDK da Web opera enviando dados para um fluxo de dados específico, que encami
 1. Insira a ID do conjunto de relatórios desejada. Se desejar enviar os mesmos dados para vários conjuntos de relatórios, clique em **[!UICONTROL Adicionar Conjunto de Relatórios]**.
 1. Após inserir todos os conjuntos de relatórios desejados, clique em **[!UICONTROL Salvar]**.
 
-## Defina a sequência de dados desejada usando a extensão SDK da Web
+## Defina a sequência de dados desejada usando a extensão Web SDK
 
-A extensão SDK da Web fornece uma lista suspensa de Sequência de dados para cada ambiente. Como alternativa, você pode inserir manualmente a ID do fluxo de dados.
+A extensão Web SDK fornece uma lista suspensa de sequência de dados para cada ambiente. Como alternativa, você pode inserir manualmente a ID do fluxo de dados.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
@@ -36,7 +36,7 @@ A extensão SDK da Web fornece uma lista suspensa de Sequência de dados para ca
 1. Em [!UICONTROL Datastreams], escolha a Datastream desejada na lista suspensa para cada ambiente.
 1. Clique em **[!UICONTROL Salvar]**.
 
-## Defina o fluxo de dados desejado implementando manualmente o SDK da Web
+## Defina o fluxo de dados desejado implementando manualmente o Web SDK
 
 Defina a variável de configuração `datastreamId` para a ID de fluxo de dados. A ID da sequência de dados é encontrada à direita ao visualizar uma sequência de dados em Coleção de dados da Adobe Experience Platform.
 
@@ -47,7 +47,7 @@ alloy("configure", {
 });
 ```
 
-Consulte [Configurar o SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR) na documentação do SDK da Web para obter mais informações.
+Consulte [Configurar o Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR) na documentação do Web SDK para obter mais informações.
 
 ## Alterar conjunto de relatórios usando a extensão do Adobe Analytics
 

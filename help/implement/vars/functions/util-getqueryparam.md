@@ -1,10 +1,10 @@
 ---
 title: Util.getQueryParam
 description: Retorna o valor de um parâmetro da string de consulta.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 79%
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 Parâmetros de string de consulta em um URL do navegador frequentemente contêm dados importantes para o Analytics. Use o método `Util.getQueryParam()` para recuperar dados da string de consulta.
 
-## Obter dados de parâmetro da sequência de consulta usando a extensão do Adobe Analytics e a extensão SDK da Web
+## Obter dados de parâmetro da cadeia de caracteres de consulta usando a extensão do Adobe Analytics e a extensão do Web SDK
 
 É possível obter dados de parâmetro da string de consulta definindo valores em elementos de dados.
 

@@ -1,10 +1,10 @@
 ---
 title: registerPostTrackCallback
 description: Cria funções de retorno de chamada após enviar uma ocorrência para a Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 73%
@@ -25,13 +25,13 @@ Cada vez que chama a variável `registerPostTrackCallback`, você faz com que es
 >
 >O tempo e a ordem das funções disparadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) e `registerPostTrackCallback` não são garantidos. Evite dependências entre essas duas funções.
 
-## Retorno de chamada de rastreamento Post usando a extensão SDK da Web
+## Retorno de chamada pós-rastreamento usando a extensão do Web SDK
 
 Em breve!
 
-## Retorno de chamada de rastreamento Post implementando manualmente o SDK da Web
+## Retorno de chamada pós-rastreamento implementando manualmente o Web SDK
 
-Você pode usar uma Promessa da JavaScript ao enviar um evento para registrar uma função depois que os dados forem enviados com êxito para o Adobe.
+Você pode usar uma Promessa da JavaScript ao enviar um evento para registrar uma função depois que os dados forem enviados com êxito para a Adobe.
 
 ```js
 alloy("sendEvent",{
@@ -41,9 +41,9 @@ alloy("sendEvent",{
 });
 ```
 
-Consulte [Manipulando respostas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#handling-responses-from-events) na documentação do SDK da Web para obter mais informações.
+Consulte [Manipulando respostas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) na documentação do Web SDK para obter mais informações.
 
-## Registrar retorno de chamada de rastreamento de Post usando a extensão do Adobe Analytics
+## Registrar retorno de chamada pós-rastreamento usando a extensão do Adobe Analytics
 
 Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa variável. Use o editor de código personalizado após a sintaxe do AppMeasurement.
 

@@ -1,10 +1,10 @@
 ---
 title: getTimeToComplete
 description: Meça o tempo gasto para concluir uma tarefa.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 89%
@@ -17,9 +17,9 @@ ht-degree: 89%
 
 O plug-in `getTimeToComplete` rastreia o tempo que um usuário leva para concluir um processo em um site. O &quot;relógio&quot; começa quando a ação `start` é chamada e termina quando a ação `stop` é chamada. A Adobe recomenda usar esse plug-in se houver um fluxo de trabalho no site que demore algum tempo para ser concluído e você quiser saber quanto tempo os visitantes levam para concluí-lo. Não é necessário usar esse plug-in se o fluxo de trabalho do site levar um curto período de tempo (menos de 3 segundos), pois a granularidade chega a, no mínimo, um segundo completo.
 
-## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
+## Instale o plug-in usando a extensão Web SDK ou Web SDK
 
-Este plug-in ainda não é compatível com o SDK da Web.
+Este plug-in ainda não é compatível com o Web SDK.
 
 ## Instale o plug-in usando a extensão Adobe Analytics.
 

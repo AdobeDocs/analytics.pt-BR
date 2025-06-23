@@ -2,10 +2,10 @@
 title: Visão geral sobre variáveis, funções, métodos e plug-ins
 description: Saiba quais variáveis podem ser incluídas nos dados enviados à Adobe para melhorar os relatórios.
 keywords: appmeasurement,variáveis,vars,configuração,página,implementação
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 67%
@@ -27,7 +27,7 @@ A Adobe oferece várias maneiras de implementar o Adobe Analytics. Cada página 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurando variáveis](https://video.tv.adobe.com/v/31172?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurando variáveis](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

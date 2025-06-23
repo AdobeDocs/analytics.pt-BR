@@ -1,10 +1,10 @@
 ---
 title: getPreviousValue
 description: Obtenha o último valor transmitido a uma variável.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 77%
@@ -17,24 +17,24 @@ ht-degree: 77%
 
 O plug-in `getPreviousValue` permite que você defina uma variável como um valor definido em uma ocorrência anterior. Esse plug-in não é necessário se sua implementação já contiver todos os valores desejados na ocorrência atual.
 
-## Instale o plug-in usando a extensão SDK da Web
+## Instale o plug-in usando a extensão Web SDK
 
-O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o SDK da Web.
+O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Web SDK.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique em **[!UICONTROL Marcas]** à esquerda e clique na propriedade de marca desejada.
 1. Clique em **[!UICONTROL Extensões]** à esquerda e na guia **[!UICONTROL Catálogo]**
-1. Localize e instale a extensão **[!UICONTROL Plug-ins comuns do SDK da Web]**.
+1. Localize e instale a extensão **[!UICONTROL Plug-ins Comuns do Web SDK]**.
 1. Clique em **[!UICONTROL Elementos de dados]** à esquerda e, em seguida, clique no elemento de dados desejado.
 1. Defina o nome do elemento de dados desejado com a seguinte configuração:
-   * Extensão: plug-ins comuns do SDK da Web
+   * Extensão: Plug-ins comuns do Web SDK
    * Elemento de Dados: `getPreviousValue`
 1. Defina os parâmetros desejados à direita.
 1. Salve e publique as alterações no elemento de dados.
 
-## Instale o plug-in implementando manualmente o SDK da Web
+## Instale o plug-in de implementação manual do Web SDK
 
-Este plug-in ainda não é compatível com uma implementação manual do SDK da Web.
+Este plug-in ainda não é compatível com uma implementação manual do Web SDK.
 
 ## Instale o plug-in usando a extensão Adobe Analytics.
 
@@ -80,7 +80,7 @@ A função `getPreviousValue` usa os seguintes argumentos:
 * **`v`** (string, obrigatório): a variável que tem o valor que você deseja transmitir para a próxima solicitação de imagem. Uma variável comumente usada para recuperar o valor da página anterior é `s.pageName`.
 * **`c`** (string, opcional): o nome do cookie que armazena o valor.  Se esse argumento não estiver definido, ele assumirá `"s_gpv"` como padrão.
 
-Quando essa função é chamada, ela retorna o valor da string contido no cookie. Em seguida, o plug-in redefine a validade do cookie e atribui a ele o valor de variável no argumento `v`. O cookie expira após 30 minutos de inatividade.
+Quando essa função é chamada, ela retorna o valor da string contido no cookie. Em seguida, o plug-in redefine a expiração do cookie e atribui a ele o valor de variável no argumento `v`. O cookie expira após 30 minutos de inatividade.
 
 ## Exemplos
 

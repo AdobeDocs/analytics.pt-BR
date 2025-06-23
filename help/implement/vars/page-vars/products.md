@@ -1,10 +1,10 @@
 ---
 title: produtos
 description: Envie dados sobre quais produtos são exibidos ou que estão no carrinho.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 67%
@@ -19,15 +19,15 @@ A variável `products` rastreia produtos e propriedades associadas a eles. Norma
 >
 >Se essa variável for definida em uma ocorrência sem a [`events`](events/events-overview.md) variável, a métrica [Visualizações de produto](/help/components/metrics/product-views.md) será incrementada em 1. Defina os eventos apropriados em cada ocorrência com a variável `products`.
 
-## Produtos que usam o SDK da Web
+## Produtos que usam o Web SDK
 
 Se estiver usando o [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), os produtos serão mapeados para as seguintes variáveis:
 
-* Categoria mapeada para `xdm.productListItems[].productCategories[].categoryID`. Ele usa o primeiro item na matriz `productCategories[]`. `lineItemId` também mapeia corretamente, mas o Adobe recomenda `categoryID`, pois é XDM padrão. Se ambos os campos XDM estiverem presentes, `lineItemId` terá prioridade.
+* Categoria mapeada para `xdm.productListItems[].productCategories[].categoryID`. Ele usa o primeiro item na matriz `productCategories[]`. `lineItemId` também mapeia corretamente, mas a Adobe recomenda `categoryID`, pois é o XDM padrão. Se ambos os campos XDM estiverem presentes, `lineItemId` terá prioridade.
 * Produto mapeado para `xdm.productListItems[].SKU` ou `xdm.productListItems[].name`. Se ambos os campos XDM estiverem presentes, `xdm.productListItems[].SKU` será usado.
 * A quantidade está mapeada para `xdm.productListItems[].quantity`.
 * Preço mapeado para `xdm.productListItems[].priceTotal`.
-* As eVars de merchandising são mapeadas de `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependendo do eVar que você deseja vincular a um produto.
+* As eVars de merchandising são mapeadas de `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependendo de qual eVar você deseja vincular a um produto.
 * Os eventos de merchandising são mapeados de `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, dependendo do evento que você deseja vincular a um produto. Se você definir um evento em um desses campos, ele será automaticamente incluído na sequência de caracteres [event](events/events-overview.md) enviada ao Adobe Analytics.
 
 ```json

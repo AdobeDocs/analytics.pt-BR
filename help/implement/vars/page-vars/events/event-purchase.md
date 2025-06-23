@@ -1,10 +1,10 @@
 ---
 title: Evento de compra
 description: Use o evento de compra para coletar dados das métricas "Pedidos", "Unidades" e "Receita".
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 70%
@@ -25,7 +25,7 @@ Quando você define um evento de compra, ele afeta as seguintes métricas:
 >
 >A receita não é multiplicada pelo campo de quantidade. Por exemplo, `s.products="Womens;Socks;5;4.50"` não passa US$ 22,50 para o relatório, mas sim US$ 4,50. Certifique-se de que sua implementação passe a receita total para a quantidade listada. Por exemplo, `s.products="Womens;Socks;5;22.50"`.
 
-## Definir o evento de compra usando o SDK da Web
+## Definir o evento de compra usando o Web SDK
 
 Se estiver usando o [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), o evento de compra usará os seguintes campos XDM:
 

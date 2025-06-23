@@ -1,10 +1,10 @@
 ---
 title: dynamicVariablePrefix
 description: Permite personalizar a cadeia de caracteres que identifica variáveis dinâmicas.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 70%
@@ -17,9 +17,9 @@ As variáveis dinâmicas são um conceito abreviado que permite copiar valores d
 
 Por padrão, as variáveis dinâmicas usam o prefixo `D=`. A variável `dynamicVariablePrefix` permite personalizar a cadeia de caracteres que identifica variáveis dinâmicas. Diferencia maiúsculas e minúsculas.
 
-## Prefixo da variável dinâmica usando o SDK da Web
+## Prefixo da variável dinâmica usando o Web SDK
 
-O SDK da Web não usa formatação de variável dinâmica. Em vez disso, você pode usar o mapeamento da sequência de dados para preencher vários campos do Target usando um único campo do Source. Consulte [Variáveis dinâmicas usando o SDK da Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) para obter mais informações.
+O Web SDK não usa formatação de variável dinâmica. Em vez disso, você pode usar o mapeamento da sequência de dados para preencher vários campos do Target usando um único campo do Source. Consulte [Variáveis dinâmicas usando o Web SDK](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) para obter mais informações.
 
 Se você enviar dados diretamente para a Adobe Analytics sem estar em conformidade com um esquema, ela usará a seguinte variável:
 

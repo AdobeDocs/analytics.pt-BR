@@ -1,11 +1,11 @@
 ---
 title: eVar (variável de merchandising)
 description: Variáveis personalizadas vinculadas a produtos individuais.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 90%
@@ -87,7 +87,7 @@ O exemplo a seguir mostra um único [produto](products.md) que usa vários event
 
 O objeto de exemplo acima seria enviado para o Adobe Analytics como `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
-Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), o merchandising de eVar usará `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` seguindo a sintaxe do AppMeasurement.
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), o eVar merchandising usará `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` após a sintaxe do AppMeasurement.
 
 ## Implementar utilizando a sintaxe da variável de conversão
 

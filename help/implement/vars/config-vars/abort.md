@@ -1,10 +1,10 @@
 ---
 title: abort
 description: A variável abort é um booleano que impede que uma ocorrência seja enviada para os servidores de coleta de dados da Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 39%
@@ -13,9 +13,9 @@ ht-degree: 39%
 
 # abort
 
-A variável `abort` é um booleano que pode impedir que a próxima chamada de rastreamento seja enviada para o Adobe. Uma funcionalidade semelhante existe no SDK da Web, permitindo que você retorne `false` antes que um evento XDM seja enviado.
+A variável `abort` é um booliano que pode impedir que a próxima chamada de rastreamento seja enviada para a Adobe. Uma funcionalidade semelhante existe no Web SDK, permitindo que você retorne `false` antes que um evento XDM seja enviado.
 
-## Cancelar o envio de um evento usando a extensão SDK da Web
+## Cancelar o envio de um evento usando a extensão do Web SDK
 
 Use o [!UICONTROL Ligado antes de o evento enviar o editor de código de retorno de chamada] e retornar `false`.
 
@@ -29,9 +29,9 @@ Use o [!UICONTROL Ligado antes de o evento enviar o editor de código de retorno
 return false;
 ```
 
-## Cancelar o envio de um evento implementando manualmente o SDK da Web
+## Cancelar o envio de um evento implementando manualmente o Web SDK
 
-Use o retorno de chamada `onBeforeEventSend` e retorne `false`. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
+Use o retorno de chamada `onBeforeEventSend` e retorne `false`. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do Web SDK para obter mais informações.
 
 ```js
 alloy("configure"), {
@@ -60,7 +60,7 @@ s.abort = true;
 >
 >A variável `abort` é redefinida para `false` depois de cada chamada de rastreamento. Se quiser anular chamadas de rastreamento subsequentes na mesma página, defina `abort` como `true` novamente.
 
-A variável `abort` pode ser definida na função [`doPlugins()`](../functions/doplugins.md), que é a última a ser executada antes que uma solicitação de imagem seja enviada para o Adobe. Este exemplo opera de forma semelhante à chamada de retorno `onBeforeEventSend` usando o SDK da Web.
+A variável `abort` pode ser definida na função [`doPlugins()`](../functions/doplugins.md), que é a última a ser executada antes que uma solicitação de imagem seja enviada para o Adobe. Este exemplo opera de forma semelhante ao retorno de chamada `onBeforeEventSend` usando o Web SDK.
 
 ```js
 s.doPlugins = function(s) {

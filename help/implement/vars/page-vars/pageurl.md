@@ -1,10 +1,10 @@
 ---
 title: pageURL
 description: Substitua o URL da página coletado automaticamente em seu site.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 79%
@@ -19,7 +19,7 @@ O AppMeasurement coleta automaticamente o URL da página em cada ocorrência. Se
 >
 >Essa variável não é uma dimensão disponível no Analysis Workspace. Ela só está disponível no Data Warehouse e nos Feeds de dados. Além disso, os servidores de coleção de dados da Adobe removem essa dimensão de todas as solicitações de imagem de [rastreamento de link](/help/implement/vars/functions/tl-method.md). Se você quiser usar o URL da página como uma dimensão no Analysis Workspace ou quiser essa dimensão em ocorrências de rastreamento de link, considere transmitir a variável `pageURL` para uma [eVar](evar.md) em cada ocorrência.
 
-## URL da página usando o SDK da Web
+## URL da página usando o Web SDK
 
 O URL da página é mapeado para as seguintes variáveis:
 

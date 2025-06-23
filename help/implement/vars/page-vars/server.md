@@ -1,10 +1,10 @@
 ---
 title: servidor
 description: Preencha a dimensão “Servidores”.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 74%
@@ -15,7 +15,7 @@ ht-degree: 74%
 
 A variável `server` geralmente armazena o nome do host do site. Normalmente, é usada em conjuntos de relatórios que contêm dados de vários domínios. Funcionalmente é idêntica a uma prop.
 
-## Servidor usando o SDK da Web
+## Servidor usando o Web SDK
 
 O servidor está mapeado para as seguintes variáveis:
 
@@ -35,7 +35,7 @@ Você pode definir o servidor ao configurar a extensão do Analytics (variáveis
 
 Você pode definir o servidor como qualquer valor do tipo string ou elemento de dados.
 
-## s.server no AppMeasurement e o editor de código personalizado da extensão do Analytics
+## s.server no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 A variável `s.server` é uma string que geralmente contém o nome do host do site. A variável tem um valor máximo de 100 bytes; valores mais longos são truncados.
 

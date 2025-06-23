@@ -1,10 +1,10 @@
 ---
 title: t
 description: Envie uma chamada de rastreamento de exibição de página para a Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 56%
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Consulte [`sendEvent`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/sendevent/overview) na documentação do Web SDK para obter mais informações.
+Consulte [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) na documentação do Web SDK para obter mais informações.
 
 ## Chamada de rastreamento de exibição de página usando a extensão do Adobe Analytics
 

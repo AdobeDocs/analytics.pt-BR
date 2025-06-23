@@ -1,10 +1,10 @@
 ---
 title: clearVars
 description: Limpar valores do objeto da instância.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 67%
@@ -30,9 +30,9 @@ Esse método não aceita argumentos e não retorna nenhum valor. Sua única fina
 * `zip`
 * `campaign`
 
-## Limpar variáveis usando o SDK da Web
+## Limpar variáveis usando o Web SDK
 
-Ao enviar dados para o Adobe usando o SDK da Web, todos os dados XDM são apagados automaticamente.
+Ao enviar dados para a Adobe usando a Web SDK, todos os dados XDM são apagados automaticamente.
 
 ## Limpar variáveis usando a extensão do Adobe Analytics
 

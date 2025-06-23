@@ -1,10 +1,10 @@
 ---
 title: inList
 description: Verifique se um valor está contido em outro valor delimitado por caracteres.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 87%
@@ -17,9 +17,9 @@ ht-degree: 87%
 
 O plug-in `inList` permite verificar se um valor já existe em uma string delimitada ou em um objeto de matriz JavaScript. Vários outros plug-ins dependem do plug-in `inList` para funcionar. Esse plug-in oferece uma vantagem distinta em relação ao método JavaScript `indexOf()`, no qual não é possível corresponder strings parciais. Por exemplo, se você usou este plug-in para verificar `"event2"`, ele não corresponderá a uma string que contém `"event25"`. Este plug-in não é necessário se você não precisa verificar valores em strings delimitadas ou matrizes, ou se deseja usar sua própria lógica de `indexOf()`.
 
-## Instale o plug-in usando a extensão SDK da Web ou SDK da Web.
+## Instale o plug-in usando a extensão Web SDK ou Web SDK
 
-Este plug-in ainda não é compatível com o SDK da Web.
+Este plug-in ainda não é compatível com o Web SDK.
 
 ## Instale o plug-in usando a extensão Adobe Analytics.
 

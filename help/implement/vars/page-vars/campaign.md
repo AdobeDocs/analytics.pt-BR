@@ -1,10 +1,10 @@
 ---
 title: campaign
 description: Preencha a dimensão “Código de rastreamento”.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 67%
@@ -17,7 +17,7 @@ A variável `campaign` é dedicada à coleta de códigos de rastreamento no site
 
 Esta variável preenche a dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). Normalmente, o valor é obtido de uma cadeia de caracteres de consulta usando o método de utilitário [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md). No entanto, sua organização determina exatamente como definir essa variável.
 
-## Campaign usando o SDK da Web
+## Campaign usando a Web SDK
 
 O Campaign é mapeado para as seguintes variáveis:
 

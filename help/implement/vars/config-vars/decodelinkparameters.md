@@ -2,9 +2,9 @@
 title: decodeLinkParameters
 description: Ative ou desative as variáveis de rastreamento de link de codificação dupla do AppMeasurement.
 exl-id: 329c521a-b965-4114-93ce-f45f159d4a20
-feature: Variables
+feature: Appmeasurement Implementation
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 8%
@@ -17,13 +17,13 @@ A variável `decodeLinkParameters` é um booliano que determina se as variáveis
 
 Nas versões do AppMeasurement anteriores à v2.24.0, as variáveis de rastreamento de link sempre estavam codificadas com URL duas vezes. Embora não seja um problema para implementações que normalmente dependem de caracteres de byte único, a codificação dupla criou valores codificados incorretamente para caracteres de vários bytes nos relatórios. Configurar essa variável como `true` codifica os valores de rastreamento de link uma vez, que normalmente é o comportamento desejado.
 
-* Se sua implementação usar caracteres multibyte e as variáveis de rastreamento de link forem decodificadas por URL para a codificação dupla do AppMeasurement offset, defina essa variável como `false`. Esse valor preserva a funcionalidade do AppMeasurement existente.
-* Se sua implementação usar caracteres de vários bytes e você não decodificar URL dos valores de rastreamento de link, o Adobe recomenda configurar essa variável como `true`.
-* Se sua implementação não usar caracteres multibyte, essa variável não será necessária. No entanto, o Adobe recomenda definir essa variável como `true` nos casos em que caracteres multibyte podem ser enviados.
+* Se sua implementação usar caracteres de vários bytes e as variáveis de rastreamento de link forem decodificadas por URL para compensar a codificação dupla do AppMeasurement, defina essa variável como `false`. Esse valor preserva a funcionalidade existente do AppMeasurement.
+* Se sua implementação usar caracteres de vários bytes e você não decodificar URL dos valores de rastreamento de link, a Adobe recomenda configurar essa variável como `true`.
+* Se sua implementação não usar caracteres multibyte, essa variável não será necessária. No entanto, a Adobe recomenda definir essa variável como `true` nos casos em que caracteres multibyte podem ser enviados.
 
-## Codificação dupla de parâmetros de link usando o SDK da Web
+## Codificação dupla de parâmetros de link usando o Web SDK
 
-Essa variável é específica do AppMeasurement e não é necessária em nenhum tipo de implementação do SDK da Web.
+Essa variável é específica do AppMeasurement e não é necessária em nenhum tipo de implementação do Web SDK.
 
 ## Codificação dupla de parâmetros de link usando a extensão do Adobe Analytics
 

@@ -1,10 +1,10 @@
 ---
 title: Visão geral dos plug-ins
 description: Cole o código no site para introduzir uma nova funcionalidade.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 96%

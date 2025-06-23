@@ -1,10 +1,10 @@
 ---
 title: cookieDomain
 description: (Desativado) Ajuda a determinar o domínio no qual os cookies serão definidos.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 77%
@@ -25,9 +25,9 @@ Essa variável só precisa ser usada quando **ambas** as condições a seguir fo
 
 Somente uma pequena quantidade de implementações tem sido usada para a variável `cookieDomain` e, mesmo assim, variáveis alternativas como [`cookieDomainPeriods`](cookiedomainperiods.md) podem ser usadas.
 
-## Domínio de cookie usando o SDK da Web
+## Domínio de cookie usando o Web SDK
 
-O SDK da Web pode determinar o domínio de armazenamento de cookies correto sem essa variável.
+O Web SDK pode determinar o domínio de armazenamento de cookies correto sem essa variável.
 
 ## Domínio de cookie usando a extensão Adobe Analytics
 

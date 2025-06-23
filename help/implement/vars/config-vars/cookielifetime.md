@@ -1,10 +1,10 @@
 ---
 title: cookieLifetime
 description: Substituir a expiração dos cookies criados pelo AppMeasurement.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 64%
@@ -19,9 +19,9 @@ Os cookies definidos pelo AppMeasurement normalmente expiram em 2 anos. Use a va
 >
 >Essa variável afeta a contagem e atribuição de visitantes únicos. Tenha cuidado ao definir essa variável.
 
-## Duração do cookie usando o SDK da Web
+## Duração do cookie usando o Web SDK
 
-O SDK da Web ainda não oferece personalização ao tempo de vida dos cookies definidos.
+O Web SDK ainda não oferece personalização ao tempo de vida dos cookies definidos.
 
 ## Duração do cookie usando a extensão Adobe Analytics
 

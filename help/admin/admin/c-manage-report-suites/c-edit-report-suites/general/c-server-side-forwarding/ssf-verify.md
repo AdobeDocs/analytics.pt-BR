@@ -2,10 +2,10 @@
 description: Para verificar se o encaminhamento pelo lado do servidor está corretamente habilitado, será preciso inspecionar a resposta HTTP enviada pela solicitação de rastreamento do Analytics. Essas instruções ilustram quais indicadores devem estar presentes para garantir que o encaminhamento pelo lado do servidor esteja habilitado corretamente.
 solution: Analytics
 title: Como verificar a implementação do encaminhamento pelo lado do servidor
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 86%

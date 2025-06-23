@@ -1,10 +1,10 @@
 ---
 title: estado
 description: (Desativado) Preencheu o "Relatório de estado do visitante", que não está mais disponível.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 80%
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Essa variável foi removida e não é uma dimensão disponível no Analysis Workspace. Em vez disso, use a dimensão [Estados dos EUA](/help/components/dimensions/us-states.md), que o AppMeasurement coleta automaticamente com base na localização do visitante.
+>Essa variável foi removida e não é uma dimensão disponível no Analysis Workspace. Em vez disso, use a dimensão [Estados dos EUA](/help/components/dimensions/us-states.md), que a AppMeasurement coleta automaticamente com base na localização do visitante.
 
 Em versões anteriores do Adobe Analytics, a variável `state` era usada quando os visitantes preenchiam as informações de envio em sites de varejo. É funcionalmente idêntica a uma prop, mas não está disponível no Analysis Workspace.
 

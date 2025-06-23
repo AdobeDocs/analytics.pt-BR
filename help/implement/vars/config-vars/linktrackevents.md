@@ -1,10 +1,10 @@
 ---
 title: linkTrackEvents
 description: Determine quais eventos devem ser incluídos nas solicitações de imagem de rastreamento de link.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 68%
@@ -17,9 +17,9 @@ Algumas implementações não querem incluir todas as variáveis em todas as sol
 
 Essa variável não é usada para chamadas de exibição de página (método [`t()`](../functions/t-method.md)).
 
-## Determine quais eventos do Analytics incluir em um evento XDM usando o SDK da Web
+## Determine quais eventos do Analytics incluir em um evento XDM usando o Web SDK
 
-O SDK da Web não exclui determinados campos para chamadas de rastreamento de link. No entanto, você pode usar o retorno de chamada `onBeforeEventSend` para limpar ou definir os campos desejados antes que os dados sejam enviados para o Adobe. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#modifying-events-globally) na documentação do SDK da Web para obter mais informações.
+O Web SDK não exclui determinados campos para chamadas de rastreamento de link. No entanto, você pode usar o retorno de chamada `onBeforeEventSend` para limpar ou definir os campos desejados antes que os dados sejam enviados para a Adobe. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do Web SDK para obter mais informações.
 
 ## Eventos em chamadas de rastreamento de link que usam a extensão do Adobe Analytics
 

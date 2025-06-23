@@ -1,10 +1,10 @@
 ---
 title: events
 description: Defina a variável events, que governa a maioria das métricas do site.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -62,7 +62,7 @@ Vários recursos estão disponíveis:
 
 A variável `s.events` é uma string que contém uma lista de eventos delimitada por vírgulas para inclusão na ocorrência. A variável permite até 64k bytes, permitindo efetivamente quantos eventos forem necessários para uma ocorrência. Os valores válidos incluem:
 
-* `event1` e `event1000`: eventos personalizados, definidos como você desejar. Registre como você usa cada evento no [documento de design de solução](../../../prepare/solution-design.md) da sua organização. O número de eventos disponíveis depende do contrato do Analytics de sua organização. A maioria das organizações com contratos não herdados tem 1000 eventos personalizados disponíveis. Entre em contato com a equipe de conta do Adobe se não tiver certeza de quantos eventos personalizados estão disponíveis para você.
+* `event1` e `event1000`: eventos personalizados, definidos como você desejar. Registre como você usa cada evento no [documento de design de solução](../../../prepare/solution-design.md) da sua organização. O número de eventos disponíveis depende do contrato do Analytics de sua organização. A maioria das organizações com contratos não herdados tem 1000 eventos personalizados disponíveis. Entre em contato com a equipe de conta da Adobe se não tiver certeza de quantos eventos personalizados estão disponíveis para você.
 * `purchase`: incrementa a métrica [&quot;Pedidos&quot;](/help/components/metrics/orders.md) em 1 e obtém valores definidos na variável `products` para calcular [&quot;Unidades&quot;](/help/components/metrics/units.md) e [&quot;Receita&quot;](/help/components/metrics/revenue.md). Consulte [Evento de compra](event-purchase.md) para obter mais informações.
 * `prodView`: incrementa a métrica [“Visualizações de produto”](/help/components/metrics/product-views.md).
 * `scOpen`: incrementa a métrica [“Carrinhos”](/help/components/metrics/carts.md).

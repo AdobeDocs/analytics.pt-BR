@@ -1,10 +1,10 @@
 ---
 description: As seções Tráfego permanente permitem alterar os níveis de tráfego esperados, de modo que a Adobe possa reatribuir recursos de modo a lidar com o novo nível de tráfego.
 title: Especificar o aumento de tráfego permanente
-feature: Traffic Management
+feature: Report Suite Settings
 role: Admin
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%

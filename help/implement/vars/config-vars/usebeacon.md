@@ -1,10 +1,10 @@
 ---
 title: useBeacon
 description: useBeacon permite forçar o AppMeasurement a usar a API sendBeacon dos navegadores
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 62%
@@ -23,7 +23,7 @@ Se `useBeacon` estiver ativado, a próxima ocorrência enviada para a Adobe usar
 
 A variável `useBeacon` é ignorada quando o visitante usa um navegador sem suporte a `navigator.sendBeacon()`. O uso dessa variável exige o AppMeasurement 2.16.0 ou posterior.
 
-## Usar a API sendBeacon usando a extensão SDK da Web
+## Usar a API sendBeacon usando a extensão Web SDK
 
 O **[!UICONTROL Documento descarregará a caixa de seleção]** em uma Configuração de ação que determina se os dados enviados para o Adobe usam a API sendBeacon.
 
@@ -36,7 +36,7 @@ O **[!UICONTROL Documento descarregará a caixa de seleção]** em uma Configura
 
 Se essa caixa estiver marcada, os dados serão enviados para o Adobe usando a API sendBeacon. Ela está desmarcada por padrão.
 
-## Usar a API sendBeacon implementando manualmente o SDK da Web
+## Use a API sendBeacon para implementar manualmente o Web SDK
 
 Definir `documentUnloading` como `true` ao enviar um evento. Se não estiver definido, seu valor padrão é `false`.
 
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-Consulte [Usando a API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#using-the-sendbeacon-api) na documentação do SDK da Web para obter mais informações.
+Consulte [Usando a API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) na documentação do Web SDK para obter mais informações.
 
 ## Usar beacon usando a extensão do Adobe Analytics
 

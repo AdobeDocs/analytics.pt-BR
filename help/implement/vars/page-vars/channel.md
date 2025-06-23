@@ -1,10 +1,10 @@
 ---
 title: canal
 description: Preencha a dimensão “Seções do site”.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 75%
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 A variável `channel` geralmente armazena a seção do site em que uma determinada página está. É útil determinar quais grupos do site são mais populares. Essa variável preenche a dimensão &quot;Seções do site&quot;.
 
-## Canal usando o SDK da Web
+## Canal usando o Web SDK
 
 O canal é mapeado para as seguintes variáveis:
 
@@ -35,7 +35,7 @@ O canal é mapeado para as seguintes variáveis:
 
 Você pode definir um canal como qualquer valor de string ou elemento de dados.
 
-## s.channel no AppMeasurement e o editor de código personalizado da extensão do Analytics
+## s.channel no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
 A variável `s.channel` é uma string que normalmente contém a seção do site da página. A variável tem um valor máximo de 100 bytes; valores mais longos são truncados.
 

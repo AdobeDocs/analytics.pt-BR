@@ -1,10 +1,10 @@
 ---
 title: trackOffline
 description: Ative ou desative o rastreamento offline, o que altera a forma como o AppMeasurement coleta dados.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 89%
@@ -29,9 +29,9 @@ Quando ativado, o AppMeasurement usa o seguinte processo para enviar dados para 
    * Se não conseguir acessar os servidores de coleta de dados da Adobe, a ocorrência será adicionada à fila no dispositivo.
    * Se conseguir acessar os servidores de coleta de dados da Adobe, a ocorrência e a fila de ocorrências de quando o dispositivo estava offline serão enviadas.
 
-## Rastreamento offline usando o SDK da Web
+## Rastreamento offline usando o Web SDK
 
-O SDK da Web não oferece suporte ao rastreamento offline.
+O Web SDK não oferece suporte ao rastreamento offline.
 
 ## Rastreamento offline usando a extensão do Adobe Analytics
 

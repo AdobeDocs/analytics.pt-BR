@@ -1,10 +1,10 @@
 ---
 title: offlineThrottleDelay
 description: Estabelece a frequência de ocorrências quando um dispositivo volta a ficar online.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 83%
@@ -17,9 +17,9 @@ O rastreamento offline é uma maneira opcional de coletar dados no Adobe Analyti
 
 Quando um dispositivo volta a ficar online, todas as ocorrências armazenadas no dispositivo são enviadas para os servidores de coleta de dados da Adobe. Um grande número de ocorrências em fila pode afetar o desempenho em dispositivos mais antigos. Use a variável `offlineThrottleDelay` para determinar com que frequência as ocorrências em fila são enviadas para a Adobe.
 
-## Atraso de limitação offline usando o SDK da Web
+## Atraso de limitação offline usando o Web SDK
 
-O SDK da Web não oferece suporte ao rastreamento offline.
+O Web SDK não oferece suporte ao rastreamento offline.
 
 ## Atraso de limitação offline usando a extensão Adobe Analytics
 

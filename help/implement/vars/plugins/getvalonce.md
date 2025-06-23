@@ -1,10 +1,10 @@
 ---
 title: getValOnce
 description: Impeça que uma variável do Analytics seja definida com o mesmo valor duas vezes seguidas.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 74%
@@ -17,24 +17,24 @@ ht-degree: 74%
 
 O plug-in `getValOnce` impede que uma variável seja definida com o mesmo valor mais de uma vez. A Adobe recomenda usar esse plug-in quando você deseja desduplicar ocorrências nas quais um visitante atualiza uma página ou visita uma determinada página várias vezes. Esse plug-in é desnecessário se você não se preocupar com a métrica &quot;Ocorrências&quot; no Analysis Workspace.
 
-## Instale o plug-in usando a extensão SDK da Web
+## Instale o plug-in usando a extensão Web SDK
 
-O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o SDK da Web.
+O Adobe oferece uma extensão que permite usar os plug-ins usados com mais frequência com o Web SDK.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique em **[!UICONTROL Marcas]** à esquerda e clique na propriedade de marca desejada.
 1. Clique em **[!UICONTROL Extensões]** à esquerda e na guia **[!UICONTROL Catálogo]**
-1. Localize e instale a extensão **[!UICONTROL Plug-ins comuns do SDK da Web]**.
+1. Localize e instale a extensão **[!UICONTROL Plug-ins Comuns do Web SDK]**.
 1. Clique em **[!UICONTROL Elementos de dados]** à esquerda e, em seguida, clique no elemento de dados desejado.
 1. Defina o nome do elemento de dados desejado com a seguinte configuração:
-   * Extensão: plug-ins comuns do SDK da Web
+   * Extensão: Plug-ins comuns do Web SDK
    * Elemento de Dados: `getValOnce`
 1. Defina os parâmetros desejados à direita.
 1. Salve e publique as alterações no elemento de dados.
 
-## Instale o plug-in implementando manualmente o SDK da Web
+## Instale o plug-in de implementação manual do Web SDK
 
-Este plug-in ainda não é compatível com uma implementação manual do SDK da Web.
+Este plug-in ainda não é compatível com uma implementação manual do Web SDK.
 
 ## Instale o plug-in usando a extensão Adobe Analytics.
 
@@ -80,7 +80,7 @@ A função `getValOnce` usa os seguintes argumentos:
 
 * **`vtc`** (obrigatório, string): a variável cujo valor será verificado para conferir se já teve anteriormente um valor idêntico
 * **`cn`** (opcional, string): o nome do cookie que contém o valor a ser verificado. O padrão é `"s_gvo"`
-* **`et`** (opcional, número inteiro): a validade do cookie em dias (ou minutos, dependendo do argumento `ep`). O padrão é `0`, que expira no final da sessão do navegador
+* **`et`** (opcional, número inteiro): a expiração do cookie em dias (ou minutos, dependendo do argumento `ep`). O padrão é `0`, que expira no final da sessão do navegador
 * **`ep`** (opcional, string): somente defina esse argumento se o argumento `et` também estiver definido. Configure esse argumento como `"m"` se desejar que o argumento `et` expire em minutos em vez de dias. O padrão é `"d"`, que define o argumento `et` para dias.
 
 Se o argumento `vtc` e o valor do cookie corresponderem um ao outro, essa função retornará uma string vazia. Se o argumento `vtc` e o valor do cookie não corresponderem um ao outro, a função retornará o argumento `vtc` como uma string.

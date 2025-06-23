@@ -1,10 +1,10 @@
 ---
 title: Serialização de eventos
 description: Ajude a desduplicar métricas em seu site.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%

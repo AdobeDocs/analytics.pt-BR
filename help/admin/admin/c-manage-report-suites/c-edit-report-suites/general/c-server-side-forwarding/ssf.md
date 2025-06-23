@@ -2,10 +2,10 @@
 description: O encaminhamento pelo lado do servidor foi projetado para clientes que desejam compartilhar dados do Analytics com outras soluções da Experience Cloud em tempo real. Quando habilitado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados para outras soluções da Experience Cloud e que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
 solution: Analytics
 title: Visão geral do encaminhamento pelo lado do servidor
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 100%

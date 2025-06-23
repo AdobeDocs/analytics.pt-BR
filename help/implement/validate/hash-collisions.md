@@ -1,10 +1,10 @@
 ---
 title: Colisões de hash
 description: Descreve o que é uma colisão de hash e como ela pode ocorrer.
-feature: Validation
+feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 06f61fa7b39faacea89149650e378c8b8863ac4f
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 6%
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # Colisões de hash
 
-Os Dimension no Adobe Analytics coletam valores de string. Às vezes, essas cadeias de caracteres têm centenas de caracteres, enquanto outras vezes são curtas. Para melhorar o desempenho, esses valores de sequência de caracteres não são usados diretamente no processamento. Em vez disso, um hash é calculado para cada valor para tornar todos os valores de um tamanho uniforme. Todos os relatórios são executados nesses valores com hash, o que aumenta drasticamente seu desempenho.
+As dimensões no Adobe Analytics coletam valores de string. Às vezes, essas cadeias de caracteres têm centenas de caracteres, enquanto outras vezes são curtas. Para melhorar o desempenho, esses valores de sequência de caracteres não são usados diretamente no processamento. Em vez disso, um hash é calculado para cada valor para tornar todos os valores de um tamanho uniforme. Todos os relatórios são executados nesses valores com hash, o que aumenta drasticamente seu desempenho.
 
 Para a maioria dos campos, a cadeia de caracteres é convertida inteiramente em minúsculas. A conversão de minúsculas reduz o número de valores únicos. Os valores são atribuídos a hashes mensalmente - o caso de um determinado valor usa o primeiro valor visto em cada mês. A cada mês, há uma pequena possibilidade de dois valores de variável exclusivos serem atribuídos ao mesmo valor. Isso é conhecido como *colisão de hash*.
 

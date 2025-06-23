@@ -1,10 +1,10 @@
 ---
 title: prop
 description: Variáveis personalizadas que podem ser usadas na implementação.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 85%

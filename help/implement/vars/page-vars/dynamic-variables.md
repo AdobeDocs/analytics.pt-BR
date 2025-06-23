@@ -1,10 +1,10 @@
 ---
 title: Variáveis dinâmicas
 description: Copie variáveis sem aumentar a duração da solicitação de imagem.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 78%
@@ -25,7 +25,7 @@ Quando a Adobe reconhece um prefixo de variável dinâmica, ela copia automatica
 >
 >Considere os limites máximos de caracteres ao copiar variáveis. Por exemplo, se copiar `eVar1` para `prop1`, `prop1` pode ter um valor truncado, pois tem um limite de 100 bytes (enquanto `eVar1` tem um limite de 255 bytes).
 
-## Variáveis dinâmicas que usam o SDK da Web
+## Variáveis dinâmicas que usam o Web SDK
 
 Use o mapeamento da sequência de dados para enviar dados para várias variáveis do Analytics a partir de um único campo XDM.
 

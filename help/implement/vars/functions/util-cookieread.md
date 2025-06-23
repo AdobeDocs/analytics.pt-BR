@@ -1,10 +1,10 @@
 ---
 title: Util.cookieRead
 description: Obtém o valor de um cookie.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 72%
@@ -15,7 +15,7 @@ ht-degree: 72%
 
 Os cookies podem armazenar e recuperar informações em páginas no mesmo domínio. Use o método `Util.cookieRead()` para recuperar um valor de um cookie.
 
-## Ler cookies usando a extensão do Adobe Analytics e a extensão SDK da Web
+## Ler cookies usando a extensão do Adobe Analytics e a extensão do Web SDK
 
 É possível ler cookies definindo valores em elementos de dados.
 

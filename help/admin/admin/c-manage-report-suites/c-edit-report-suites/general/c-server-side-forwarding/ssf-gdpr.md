@@ -1,17 +1,17 @@
 ---
 description: Explica melhorias no encaminhamento pelo lado do servidor que foram solicitadas pelo regulamento de conformidade de cookies da UE.
-title: Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor
-feature: Server-Side Forwarding
+title: Conformidade com o RGPD/ePrivacy e o encaminhamento pelo lado do servidor
+feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 55%
 
 ---
 
-# Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor
+# Conformidade com o RGPD/ePrivacy e o encaminhamento pelo lado do servidor
 
 Esta seção explica as melhorias feitas ao encaminhamento pelo lado do servidor que foram solicitadas pelo [regulamento de conformidade de cookies da UE](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+e+tecnologias+semelhantes), que entrou em vigor em 30 de setembro de 2017.
 
