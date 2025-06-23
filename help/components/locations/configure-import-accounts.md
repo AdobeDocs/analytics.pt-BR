@@ -71,7 +71,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -83,7 +83,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -99,7 +99,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -113,7 +113,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Email
 
@@ -129,7 +129,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    **Tipos de conta herdada**
 
@@ -148,13 +148,13 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++SFTP
 
    O suporte SFTP para feeds de dados está disponível. Exige que um host SFTP, nome de usuário e site de destino contenham uma chave pública RSA ou DSA válida. Você pode baixar a chave pública apropriada ao criar o feed.
 
-+++
+   +++
 
    +++S3
 
@@ -189,7 +189,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
    >
    >A região cn-north-1 não é compatível.
 
-+++
+   +++
 
    +++Blob do Azure
 
@@ -199,7 +199,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
    >
    >Você deve implementar seu próprio processo para gerenciar o espaço em disco no destino do data warehouse. A Adobe não exclui dados do servidor.
 
-+++
+   +++
 
 1. Selecione [!UICONTROL **Salvar**].
 
