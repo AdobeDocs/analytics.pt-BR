@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+exl-id: 5829482b-3a5e-416b-9c82-404face30b29
+source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 29%
 
 ---
-
 
 # Agendar pastas de trabalho exportando para destinos na nuvem
 
@@ -33,15 +33,7 @@ Use o processo a seguir ao exportar pastas de trabalho do Report Builder para a 
 
 1. [Exportar um relatório do Report Builder](#export-a-report-from-report-builder)
 
-<!--
-
-1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
-
-![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
-
--->
-
-## Exportar um relatório do Report Builder {#export-from-report-builder}
+## Exportar um relatório do Report Builder
 
 >[!NOTE]
 >
@@ -92,7 +84,7 @@ Para exportar relatórios do Report Builder:
 
    Você verá uma janela de confirmação na parte inferior do hub do Report Builder e a pasta de trabalho agendada será listada na guia Pastas de trabalho.
 
-## Vantagens de exportar para a nuvem {#advantages}
+## Vantagens de exportar para a nuvem
 
 A exportação de dados do Adobe Analytics para a nuvem permite:
 
@@ -133,4 +125,3 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 ## Gerenciar pastas de trabalho agendadas
 
 Para obter informações sobre como gerenciar pastas de trabalho já agendadas, consulte [Gerenciar pastas de trabalho agendadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
-
