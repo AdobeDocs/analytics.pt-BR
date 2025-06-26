@@ -5,36 +5,32 @@ title: Projetos do somente para visualização
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 96%
+source-wordcount: '297'
+ht-degree: 53%
 
 ---
 
-# Projetos do somente para visualização
+# Projetos somente leitura
 
-Você pode compartilhar projetos &quot;somente para visualização&quot; com os recipients por meio do [Fluxo de trabalho de compartilhamento do projeto](/help/analyze/analysis-workspace/curate-share/share-projects.md). Os recipient colocados na função Pode visualizar terão uma experiência de projeto mais limitada. Essa opção pode ser útil se você estiver compartilhando um projeto com usuários menos familiarizados com a estrutura de dados da sua organização, com o Analysis Workspace ou o Adobe Analytics em geral, mas ainda assim quiser que eles vejam os dados e insights em um ambiente seguro.
+Você pode compartilhar projetos como somente leitura com os destinatários por meio da [funcionalidade de compartilhamento](share-projects.md). Os destinatários colocados na função **[!UICONTROL Somente leitura]** receberão uma experiência de projeto mais limitada.
 
-Observe que é possível editar o intervalo de datas do calendário do painel, mesmo em projetos somente para visualização.
+Essa opção pode ser útil se você estiver compartilhando um projeto com usuários menos familiarizados com a estrutura de dados da sua organização, com o Analysis Workspace ou o Adobe Analytics em geral, mas ainda assim quiser que eles vejam os dados e insights em um ambiente seguro.
 
-![](assets/view-only-project.png)
+![Compartilhar como somente leitura](assets/read-only-project-sender.png)
 
+As interações para os recipients somente leitura são limitadas.
 
->[!BEGINSHADEBOX]
-
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Projetos somente para visualização](https://video.tv.adobe.com/v/40059?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
-
->[!ENDSHADEBOX]
-
+![Compartilhamento como somente leitura recebido](assets/read-only-project-receiver.png)
 
 ## Interações desativadas
 
 As interações desativadas em um projeto somente visualização incluem:
 
 * Painel esquerdo oculto
-* Conjunto de relatórios
-* Filtragem de forma livre
+* Intervalo de datas do calendário do painel. Observação: se quiser conceder o controle do calendário aos destinatários, adicione um [segmento suspenso com intervalos de datas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR).
+* Segmentação de forma livre
 * Número de formas livres de linhas visíveis
 * Configurações de linha, coluna ou visualização de forma livre
 * Segmentos do painel
@@ -47,7 +43,14 @@ Algumas das interações ativadas mais importantes em um projeto somente visuali
 
 | Área | Interações ativadas |
 | --- | --- |
-| Tabelas de forma livre | <ul><li>Paginação e classificação</li><li>Passagem</li><li>Seleções de células que atualizam visualizações vinculadas</li><li>Clique com o botão direito do mouse em > Obter link de visualização</li><li>Clique com o botão direito do mouse em > Copiar para a área de transferência</li></ul> |
-| Visualizações | <ul><li>Clicar para ativar/desativar legenda</li><li>Passagem</li><li>Clique com o botão direito do mouse em > Obter link de visualização</li><li>Recolher/expandir</li><li>Fluxo - expandir nós de fluxo</li><li>Mapa - zoom</li></ul> |
-| Painéis | <ul><li>Filtros suspensos interativos</li><li>Clique com o botão direito do mouse em > Obter link do painel</li><li>Recolher/expandir</li></ul> |
+| Tabelas de forma livre | <ul><li>Paginação e classificação</li><li>Passagem</li><li>Seleções de células que atualizam visualizações vinculadas</li><li>No menu de contexto > Obter link de visualização</li><li>No menu de contexto > Copiar para a área de transferência</li></ul> |
+| Visualizações | <ul><li>Clicar para ativar/desativar legenda</li><li>Passagem</li><li>No menu de contexto > Obter link de visualização</li><li>Recolher/expandir</li><li>Fluxo - expandir nós de fluxo</li><li>Mapa - zoom</li></ul> |
+| Painéis | <ul><li>Segmentos suspensos interativos</li><li>No menu de contexto > Obter link do painel</li><li>Recolher/expandir</li></ul> |
 | Projeto | <ul><li>Como inspecionar todos os ícones de informações</li><li>Menu Projeto - Novo, Abrir, Definir como página inicial, Atualizar, Baixar CSV/PDF, Informações e configurações limitadas do projeto</li><li>Menu Compartilhar - Obter link do projeto, Enviar arquivo agora</li><li>Menu Ajuda - Todas as ações, exceto as opções de Dicas e Depurador</li></ul> |
+
+
+## Compartilhe com qualquer pessoa
+
+Se você selecionou um projeto usando [Compartilhar com qualquer pessoa](share-projects.md#share-a-project-with-anyone-no-login-required), o destinatário do link só poderá visualizar o projeto e não interagir com ele.
+
+![Compartilhar com qualquer pessoa](assets/share-with-anyone-receiver.png)

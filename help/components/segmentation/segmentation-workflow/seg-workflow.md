@@ -3,10 +3,10 @@ description: Descreve um fluxo de trabalho sugerido para segmentos criados com o
 title: Visão geral do fluxo de trabalho de segmentação
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
@@ -22,7 +22,7 @@ Este artigo descreve uma sugestão de fluxo de trabalho para criar segmentos com
 | 3 | [Construir segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Crie e edite segmentos para usar em todos os recursos do Analytics. <br/>Consulte [Criar Segmentos Sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) para saber como criar segmentos com o operador THEN. |
 | 4 | [Marcar segmentos](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Marque segmentos para facilitar a organização e o compartilhamento. Consulte como planejar e atribuir tags para pesquisas e organização simples e avançada. |
 | 5 | [Aprovar segmentos](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Aprove segmentos para transformá-los em canônicos. |
-| 6 | [Usar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | Você pode aplicar segmentos diretamente a um relatório, a partir dos componentes do segmento. |
+| 6 | [Usar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | Você pode aplicar segmentos dos componentes de segmentos diretamente a um relatório. |
 | 7 | [Compartilhar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Compartilhe seus segmentos com o público-alvo pretendido em outras ferramentas do Analytics e no Adobe Target e na Adobe Experience Cloud. |
 | 8 | [Filtrar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | Filtrar por tags, proprietários e outros filtros (Mostrar tudo, Meu, Compartilhado comigo, Favoritos e Aprovado). |
 | 9 | [Marcar segmento como favorito](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Outra maneira de organizá-los para facilitar o uso é marcar os segmentos como favoritos. |

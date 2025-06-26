@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '773'
 ht-degree: 96%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 96%
 + [Guia de componentes do Analytics](home.md)
 + [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
 + Dimensões {#dimensions}
-   + [Visão geral das dimensões](dimensions/overview.md)
+   + [Visão geral de dimensões](dimensions/overview.md)
    + [Compatibilidade da dimensão](dimensions/compatibility.md)
    + [Link do Activity Map](dimensions/activity-map-link.md)
    + [Link do Activity Map por região](dimensions/activity-map-link-by-region.md)
@@ -195,23 +195,23 @@ ht-degree: 96%
       + [Copiar segmentos](segmentation/segmentation-workflow/seg-copy.md)
       + [Gerenciar segmentos](segmentation/segmentation-workflow/seg-manage.md)
       + [Publicar segmentos na Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-      + [Selecionar e aplicar segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
+      + [Usar segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
    + Referência do segmento {#segment-reference}
       + [Operadores](segmentation/seg-reference/seg-operators.md)
       + [Compatibilidade de segmentos do Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Direitos do segmento por função](segmentation/seg-reference/seg-rights.md)
       + [Solução de problemas](segmentation/seg-reference/c-troubleshooting.md)
-   + [Perguntas frequentes sobre gerenciamento de segmentos herdados](segmentation/seg-transition.md)
+   + [Perguntas frequentes sobre segmentos herdados](segmentation/seg-transition.md)
    + [Práticas recomendadas](segmentation/best-practices.md)
 + Métricas calculadas {#calculated-metrics}
-   + [Métricas calculadas e métricas calculadas avançadas](c-calcmetrics/cm-overview.md)
+   + [Visão geral](c-calcmetrics/cm-overview.md)
    + [Vídeos tutoriais](c-calcmetrics/cm-videos.md)
    + Fluxo de trabalho das métricas calculadas {#calcmetric-workflow}
-      + [Fluxo de trabalho das métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [Criar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Localizar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Criar métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Criar uma métrica simples](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Criar uma métrica mais complexa](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Criar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Uma métrica calculada simples](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Uma métrica calculada mais complexa](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Criar uma métrica de participação](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Atribuição e tipo de métrica](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -224,12 +224,12 @@ ht-degree: 96%
       + [Aprovar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Compartilhar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Copiar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [Gerenciador de métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Gerenciar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Referência de métricas {#calcmetrics-reference}
-      + [Referência: funções básicas](c-calcmetrics/cm-reference/cm-functions.md)
-      + [Referência: funções avançadas](c-calcmetrics/cm-reference/cm-adv-functions.md)
+      + [Funções básicas](c-calcmetrics/cm-reference/cm-functions.md)
+      + [Funções avançadas](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Compatibilidade de métrica](c-calcmetrics/cm-compatibility.md)
-      + [Métricas calculadas: direitos baseados em função](c-calcmetrics/cm-role-based-rights.md)
+      + [Direitos baseados em função](c-calcmetrics/cm-role-based-rights.md)
       + [Totais de métricas calculadas](c-calcmetrics/cm-totals.md)
       + [Métricas calculadas padrão](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Conjuntos de relatórios virtuais {#virtual-report-suites}

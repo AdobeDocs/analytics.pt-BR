@@ -4,10 +4,10 @@ keywords: segmentação;segmentos
 title: Containers de segmento
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '3566'
-ht-degree: 98%
+source-wordcount: '3563'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Um segmento define condições para filtrar um(a) visitante com base nos atributos do(a) visitante ou nas interações com seu site. Para definir as condições em um segmento, você define regras para filtrar visitantes com base nas características de visitante e/ou nas características de navegação. Para detalhar ainda mais os dados do visitante, você pode filtrar com base em visitantes específicos e/ou ocorrências de visualização de página para cada visitante. O Construtor de segmentos fornece uma arquitetura simples para construir esses subconjuntos e aplicar regras como contêineres aninhados e hierárquicos Visitante, Visita ou Ocorrência.
 
-A arquitetura de container que o Construtor de segmentos utiliza define
+A arquitetura de contêiner empregada no [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) define:
 
-- ![Visitante](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg): **[!UICONTROL Visitante]** é utilizado como o container mais externo, e contém dados abrangentes específicos para visitantes em visitas e exibições de página.
-- ![Visita](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg): um container de **[!UICONTROL Visita]** aninhado que permite definir regras para detalhar os dados de visitantes com base em visitas, e
-- ![Evento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg): um container de **[!UICONTROL Ocorrência]** que permite detalhar as informações de visitantes com base em exibições de página individuais.
+- ![Usuário](/help/assets/icons/User.svg) **[!UICONTROL Visitante]** como o contêiner mais externo, contendo dados abrangentes específicos para visitantes em visitas e visualizações de página.
+- ![Visita](/help/assets/icons/Visit.svg): um container de **[!UICONTROL Visita]** aninhado que permite definir regras para detalhar os dados de visitantes com base em visitas, e
+- ![WebPage](/help/assets/icons/WebPage.svg) um contêiner aninhado de **[!UICONTROL Ocorrência]** permite detalhar as informações do visitante com base em visualizações de página individuais.
 
 Cada container permite que você relate o histórico do(a) visitante, as interações detalhadas por visitas ou um detalhamento de ocorrências individuais.
 
@@ -38,7 +38,7 @@ Cada container permite que você relate o histórico do(a) visitante, as intera�
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
 </tr>
 </table>
 
@@ -47,7 +47,7 @@ Cada container permite que você relate o histórico do(a) visitante, as intera�
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contêineres de segmentos](https://video.tv.adobe.com/v/3429097?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +97,7 @@ O contêiner do Grupo lógico permite que você ofereça um contêiner separado 
 
 Ao criar contêineres de segmento em outros contêineres, você cria um segmento dentro de um segmento. A seguinte lógica é usada com contêineres aninhados:
 
-1. Determine quais dados estão incluídos com o contêiner mais externo. Quaisquer dados que não correspondem a essa regra exterior são descartados no relatório segmentado.
+1. Determine quais dados estão incluídos utilizando o container mais externo. Quaisquer dados que não correspondem a essa regra exterior são descartados no relatório segmentado.
 1. Aplique essa regra aninhada aos dados restantes. A regra aninhada NÃO se aplica a quaisquer ocorrências que a primeira regra descarta.
 1. Repita até que todas as regras de contêiner aninhado sejam calculadas. Os dados restantes são incluídos no relatório resultante.
 
@@ -148,7 +148,7 @@ A segmentação sequencial emprega os mesmos containers básicos, incluindo [!UI
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
 </tr>
 </table>
 
@@ -173,7 +173,7 @@ O container de [!UICONTROL Visitantes] assume a posição mais elevada na segmen
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ O container de [!UICONTROL Visitantes] assume a posição mais elevada na segmen
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
 </tr>
 </table>
 
@@ -210,7 +210,7 @@ A única exceção a essa hierarquia de containers é ao usar o [container de G
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
 </tr>
 
 <tr>
@@ -225,7 +225,7 @@ A única exceção a essa hierarquia de containers é ao usar o [container de G
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Ocorrências</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Ocorrências</td>
 </tr>
 
 <tr>

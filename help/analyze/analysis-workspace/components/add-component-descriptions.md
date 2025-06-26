@@ -4,10 +4,10 @@ title: Adicionar descrições de componentes
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '157'
+ht-degree: 89%
 
 ---
 
@@ -22,13 +22,13 @@ Os administradores do Analytics podem adicionar descrições aos componentes (Di
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionar descrições de componentes](https://video.tv.adobe.com/v/39723?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionar descrições de componentes](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 
-## Adição de descrições aos componentes no Analysis Workspace (usando o Dicionário de dados) {#add-descriptions}
+## Adicionar descrições aos componentes no dicionário de dados {#add-descriptions}
 
 O dicionário de dados do Analysis Workspace ajuda os usuários e administradores a acompanhar e compreender melhor os componentes em seu ambiente do Analytics. Isso inclui a capacidade de os administradores do Analytics adicionarem descrições aos componentes diretamente no Analysis Workspace.
 

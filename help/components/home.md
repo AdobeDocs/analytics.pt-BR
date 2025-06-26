@@ -3,16 +3,14 @@ title: Guia de componentes do Analytics
 description: Saiba mais sobre os diferentes componentes que o Adobe Analytics oferece.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Guia de componentes do Analytics
-
-![Banner](../../assets/doc_banner_components.png)
 
 Os componentes do Analytics ajudam você a ajustar e potencializar a análise da jornada do cliente. Os componentes incluem:
 
@@ -46,7 +44,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão gera
 
 ## Principais recursos do Analytics
 
-* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/pt-br?support-solution=Analytics&amp;lang=pt-BR#support)
+* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&lang=pt-BR#support)
 * [Comunidade do Adobe Analytics na Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
 * [Experience League](https://experienceleague.adobe.com/pt-br)

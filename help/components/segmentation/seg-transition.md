@@ -3,24 +3,24 @@ description: Perguntas frequentes sobre o gerenciamento de segmentos herdados.
 title: Perguntas frequentes sobre segmentos herdados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 100%
+source-wordcount: '1441'
+ht-degree: 91%
 
 ---
 
 # Perguntas frequentes sobre segmentos herdados
 
-Responde a perguntas frequentes sobre as práticas recomendadas para gerenciar segmentos herdados, ou seja, segmentos criados antes de 2014.
+Este artigo responde a perguntas frequentes sobre as práticas recomendadas para gerenciar segmentos herdados (segmentos criados antes de 2014).
 
 ## Gerenciamento de segmentos herdados {#legacy}
 
 +++ **O que aconteceu com meus segmentos existentes?**
 
-Seus segmentos existentes continuarão a funcionar como anteriormente. Quaisquer relatórios com esses segmentos aplicados continuarão a funcionar corretamente. [Mais...](/help/components/segmentation/seg-transition.md)
+Seus segmentos existentes continuarão a funcionar como anteriormente. Quaisquer relatórios com esses segmentos aplicados continuarão a funcionar corretamente.
 
-A maioria dos segmentos pré-definidos e de conjunto anteriores serão migrados como modelos de segmentos para o Construtor de segmentos. Os modelos de segmentos são usados para criar rapidamente segmentos personalizados com públicos comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser salvos facilmente em um segmento personalizado.
+A maioria dos segmentos pré-definidos e de conjunto serão migrados como modelos de segmento no Construtor de segmentos. Os modelos de segmentos são usados para criar rapidamente segmentos personalizados com públicos comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser salvos facilmente em um segmento personalizado.
 
 Os modelos de segmento são marcados com um ícone especial no Construtor de segmentos:
 
@@ -58,7 +58,7 @@ Você pode criar ou editar novos segmentos de Data Warehouse no gerenciador/cons
 * **Visitantes da pesquisa paga**
 * **Visitantes com cookie de ID do visitante**
 
-Esses segmentos serão migrados como modelos de segmento para o Construtor de segmentos. Os relatórios que utilizam esses segmentos continuarão funcionando da forma correta.
+Esses segmentos serão migrados como modelos de segmentos no Construtor de segmentos. Os relatórios que utilizam esses segmentos continuarão funcionando da forma correta.
 
 +++
 
@@ -147,7 +147,7 @@ A tabela a seguir contém uma lista de dimensões que foram renomeadas no Constr
 
 {style="table-layout:auto"}
 
-## Alterações nas dimensões com base em sequência de caracteres com valores conhecidos {#string-based-dims}
+## Alterações nas dimensões baseadas em sequência de caracteres com valores conhecidos {#string-based-dims}
 
 Dimensões com base em sequência de caracteres com conjunto de valores conhecidos foram alteradas para tipos enumerados. Ao criar um segmento com essas dimensões, a lista é pré-preenchida com todos os valores conhecidos e o único operador suportado é igual. Isso permite que você segmente rapidamente os valores exatos que você estava procurando sem selecionar valores não intencionais ao usar correspondências menos restritivas.
 
@@ -170,7 +170,7 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 | tamanho do marcador remoto | java ativado | pesquisa paga |
 | extensão do URL remoto | idioma |  |
 
-## Alterações nas dimensões com base em inteiro com valores conhecidos {#integer-based-dims}
+## Alterações nas dimensões com base em número inteiro com valores conhecidos {#integer-based-dims}
 
 Dimensões com base em inteiros (como a largura do navegador) com um conjunto conhecido de valores foram divididas em intervalos enumerados para que você possa definir rapidamente segmentos para um intervalo específico. Essas listas enumeradas são anexadas com &quot; - Classificado&quot; após o nome da dimensão. A seguinte tela demonstra como essas dimensões são segmentadas usando a interface anterior e a nova interface do construtor de segmentos:
 

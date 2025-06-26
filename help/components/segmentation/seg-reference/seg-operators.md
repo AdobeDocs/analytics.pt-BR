@@ -3,10 +3,10 @@ description: O Construtor de segmentos permite que você compare e restrinja val
 title: Operadores de comparação para segmentos
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 51%
+ht-degree: 47%
 
 ---
 
@@ -51,8 +51,8 @@ Por exemplo, você tem um nome de página chamado *Meu produto divertido*.
 | **[!UICONTROL não inicia com]** | Retorna todos os itens que não iniciam com o valor da cadeia de caracteres inserido. Este é o inverso do operador **[!UICONTROL inicia com]**. |
 | **[!UICONTROL termina com]** | Retorna itens que terminam com o valor da cadeia de caracteres inserido. |
 | **[!UICONTROL não termina com]** | Retorna todos os itens que não terminam com o valor da cadeia de caracteres inserido. Este é o inverso do operador **[!UICONTROL termina com]**. |
-| **[!UICONTROL corresponde]** | Retorna itens correspondentes com base no valor numérico ou de sequência. A cláusula **[!UICONTROL matches]** diferencia maiúsculas de minúsculas no Adobe Analytics e no Customer Journey Analytics. **Observação**: use este operador quando estiver usando recursos de curinga [3&rbrace;. ](#wildcards) Exemplos de recurso de curinga:<ul><li>`a*e` corresponde a `ae`, `abcde`, `adobe` e `a whole sentence`</li><li>`adob*` corresponde a `adobe`, `adobe analytics` e `adobo recipe`</li><li>`*dobe` corresponde a `dobe`, `adobe` e `cute little dobe`</li></ul> |
-| **[!UICONTROL não corresponde a]** | Retorna todos os itens que não contêm a correspondência exata do valor inserido. Observação: use este operador quando utilizar recursos de curinga [1&rbrace;.](#wildcards) |
+| **[!UICONTROL corresponde]** | Retorna itens correspondentes com base no valor numérico ou de sequência. A cláusula **[!UICONTROL matches]** diferencia maiúsculas de minúsculas no Adobe Analytics e no Customer Journey Analytics. **Observação**: use este operador quando estiver usando recursos de curinga [3}. ](#wildcards) Exemplos de recurso de curinga:<ul><li>`a*e` corresponde a `ae`, `abcde`, `adobe` e `a whole sentence`</li><li>`adob*` corresponde a `adobe`, `adobe analytics` e `adobo recipe`</li><li>`*dobe` corresponde a `dobe`, `adobe` e `cute little dobe`</li></ul> |
+| **[!UICONTROL não corresponde a]** | Retorna todos os itens que não contêm a correspondência exata do valor inserido. Observação: use este operador quando utilizar recursos de curinga [1}.](#wildcards) |
 | **[!UICONTROL existe]** | Retorna o número de itens que existem. Por exemplo, se você avaliar a dimensão **[!UICONTROL Páginas não encontradas]** usando o operador **[!UICONTROL existe]**, o número de páginas de erro que existe é retornado. |
 | **[!UICONTROL não existe]** | Retorna todos os itens que não existem. Por exemplo, se você avaliar a dimensão **[!UICONTROL Páginas não encontradas]** usando o operador **[!UICONTROL não existe]**, o número de páginas nas quais esse erro não existia é retornado. |
 
@@ -67,7 +67,7 @@ Por exemplo, você tem um nome de página chamado *Meu produto divertido*.
 
 ## Operadores de contagem distinta
 
-É possível segmentar em uma contagem distinta de itens em uma dimensão. Exemplos: “Visitantes que visualizaram mais de 5 produtos distintos”, ou “Visitas em que mais de 5 páginas distintas foram.”
+É possível segmentar em uma contagem distinta de itens em uma dimensão. Exemplos: *Visitantes que visualizaram mais de 5 produtos distintos*, ou *Visitas em que mais de 5 páginas distintas foram visualizadas*.
 
 | Operador | A dimensão, o segmento ou o evento de métrica selecionado... |
 | --- | --- |

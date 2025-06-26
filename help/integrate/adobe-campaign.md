@@ -1,10 +1,10 @@
 ---
 description: Saiba como habilitar relatórios do Adobe Campaign Standard no Adobe Analytics
 title: Como integrar relatórios do Adobe Campaign Standard ao Adobe Analytics?
-feature: Campaign Integration
+feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
@@ -78,7 +78,7 @@ As seguintes **dimensões** estão disponíveis no Campaign nos conjuntos de rel
 | --- | --- |
 | ID da campanha | ID de todas as campanhas para as quais os KPIs foram enviados na duração. |
 | Rótulo da campanha | Rótulo das IDs de campanha |
-| ID de entrega | ID de todas as entregas para as quais os KPIs foram enviados na duração. Também inclui IDs de entregas mestres de entregas recorrentes e entregas de transações. Exemplo: um DM1 de entrega recorrente foi agendado e DM2, DM3, DM4 e DM5 eram entregas secundárias da entrega recorrente.  O ID da entrega exibe resultados para todas as entregas, de DM1 a DM5. |
+| ID de entrega | ID de todas as entregas para as quais os KPIs foram enviados na duração. Também inclui IDs de entregas mestres de entregas recorrentes e entregas de transações. Exemplo: um DM1 de entrega recorrente foi agendado e DM2, DM3, DM4 e DM5 eram entregas filhas da entrega recorrente.  O ID da entrega exibe resultados para todas as entregas, de DM1 a DM5. |
 | Rótulo de entrega | Rótulos de IDs de entrega |
-| ID de entrega executada do | IDs de apenas entregas realizadas. Nenhuma ID de entrega mestre recorrente/de transações. Exemplo: um DM1 de entrega recorrente foi agendado e DM2, DM3, DM4 e DM5 eram entregas secundárias da entrega recorrente. O ID de entrega realizada exibe os resultados para todas as entregas, começando com DM2 a DM5 (as entregas que realmente foram realizadas). |
+| ID de entrega executada do | IDs de apenas entregas realizadas. Nenhuma ID de entrega mestre recorrente/de transações. Exemplo: um DM1 de entrega recorrente foi agendado e DM2, DM3, DM4 e DM5 eram entregas filhas da entrega recorrente. O ID de entrega realizada exibe os resultados para todas as entregas, começando com DM2 a DM5 (as entregas que realmente foram realizadas). |
 | Rótulo de entrega realizada | Rótulos de IDs de entregas realizadas |

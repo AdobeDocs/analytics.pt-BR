@@ -3,10 +3,10 @@ title: Práticas recomendadas para implementar os canais de marketing do Adobe A
 description: Atualização de práticas recomendadas de uso de canais de marketing com a atribuição e o Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Para preparar a implementação de seus canais de Marketing para o futuro e gara
 
 Quando os Canais de marketing foram introduzidos pela primeira vez, eles só contavam com as dimensões de primeiro e último contato. As dimensões explícitas de primeiro/último toque não são mais necessárias com a versão atual da atribuição. A Adobe fornece dimensões genéricas de &quot;Canal de marketing&quot; e &quot;Detalhes do canal de marketing&quot; para que você possa usá-las com o modelo de atribuição desejado. Essas dimensões genéricas se comportam de forma idêntica às dimensões do canal de último contato, mas são rotuladas de forma diferente para evitar confusão em caso de uso de canais de marketing com um modelo de atribuição diferente.
 
-Como as dimensões do canal de marketing dependem de uma definição de visita tradicional (conforme definido por suas regras de processamento), a definição de visita não pode ser alterada usando conjuntos de relatórios virtuais. Essas práticas revisadas permitem o uso de janelas de pesquisa claras e controladas com a atribuição e o Customer Journey Analytics.
+Como as dimensões do canal de marketing dependem de uma definição de visita tradicional (conforme definido por suas regras de processamento), a definição de visita não pode ser alterada usando conjuntos de relatórios virtuais. Essas práticas revisadas permitem janelas de pesquisa claras e controladas com Atribuição e Adobe Analytics.
 
 ## Prática recomendada nº 1: aproveite a atribuição para fazer uma análise controlada
 

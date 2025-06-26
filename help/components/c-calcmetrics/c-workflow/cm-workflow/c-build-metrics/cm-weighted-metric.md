@@ -3,10 +3,10 @@ description: Mostra exemplos de métricas filtradas e ponderadas.
 title: Métricas filtradas e ponderadas
 feature: Calculated Metrics
 exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 89%
+source-wordcount: '157'
+ht-degree: 71%
 
 ---
 
@@ -22,13 +22,13 @@ Essa métrica filtrada simples mostra a taxa de rejeição das páginas com mais
 
 Tenha em mente que esta fórmula depende de um intervalo de tempo consistente. Se você gerar um relatório para um único dia, qualquer página com mais de 20 visitas merece atenção. Se você gerar um relatório de um mês, pode querer filtrar para incluir mais visitas.
 
-## Taxa de rejeição filtrada com percentil
+## Taxa de rejeição filtrada com percentual
 
-Esse filtro mostra a Taxa de rejeição para os primeiros 30% das páginas, quando classificadas por visitas.
+Esse filtro mostra a taxa de rejeição para os primeiros 30% das páginas, quando classificadas por visitas.
 
 ![Taxa de rejeição filtrada com percentil](assets/filtered-bounce-rate-with-percentile.png){zoomable="yes"}
 
-## Métrica ponderada
+## Taxa de rejeição ponderada
 
 Suponha que você deseja classificar pela taxa de rejeição em geral, mas ainda quer exibir as páginas com mais visitas no topo da lista. Você pode criar uma Taxa de rejeição ponderada com a seguinte aparência:
 

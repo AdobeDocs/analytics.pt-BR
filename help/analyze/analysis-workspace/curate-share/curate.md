@@ -5,16 +5,16 @@ title: Preparar projetos do
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 98%
+source-wordcount: '560'
+ht-degree: 65%
 
 ---
 
 # Preparar projetos do
 
-A preparação permite limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) antes de compartilhar um projeto. Quando um recipient abrir o projeto, ele verá um conjunto limitado de componentes que você preparou para eles. A preparação é uma etapa opcional, mas recomendada, antes de compartilhar um projeto.
+A preparação permite limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) antes de compartilhar um projeto. Quando um recipient abre o projeto, ele vê um conjunto limitado de componentes que você preparou para eles. A preparação é uma etapa opcional, mas recomendada, antes de compartilhar um projeto.
 
 >[!NOTE]
 > Os perfis de produto são o principal mecanismo que controla os componentes que um usuário pode ver. Eles são gerenciados por meio do Adobe Experience Cloud Admin Console. A Preparação é um filtro secundário.
@@ -22,47 +22,46 @@ A preparação permite limitar os componentes (dimensões, métricas, segmentos,
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Preparar projetos](https://video.tv.adobe.com/v/30771?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Preparar projetos](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 ## Aplicar preparação de projeto
 
-1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar dados do projeto]**.
-Os componentes usados no projeto serão adicionados automaticamente.
-   **Observação**: se um projeto tiver vários conjuntos de relatórios, você verá um campo de preparação para cada conjunto de relatórios no projeto.
-1. (Opcional) Para adicionar mais componentes, arraste os componentes que deseja compartilhar do painel esquerdo para o campo [!UICONTROL Preparar componentes].
-1. Clique em **[!UICONTROL Concluído]**.
+1. Selecione **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar Dados do Projeto]**.
+Os componentes usados no projeto são adicionados automaticamente.
+Se um projeto tiver vários conjuntos de relatórios, você verá um destino de preparação para cada conjunto de relatórios no projeto.
+1. (Opcional) Para adicionar mais componentes, arraste os componentes que deseja compartilhar do painel esquerdo para a área de soltar **[!UICONTROL Preparar componentes]** da exibição de dados.
+1. Selecione **[!UICONTROL Concluído]**.
 
-A preparação também pode ser aplicada no menu [!UICONTROL Compartilhar] clicando em **[!UICONTROL Preparar e Compartilhar]**. Essa opção organiza automaticamente o projeto para os componentes em uso no projeto. Você pode adicionar outros componentes seguindo as etapas acima.
+A preparação também pode ser aplicada no menu [!UICONTROL Compartilhar] selecionando **[!UICONTROL Preparar e Compartilhar]**. Essa opção organiza automaticamente o projeto para os componentes em uso no projeto. Você pode adicionar outros componentes seguindo as etapas acima.
 
 ![](assets/curation-field.png)
 
-## Visualização de projeto preparado
+Quando um recipient abre um projeto preparado, ele só vê o conjunto preparado de componentes que você definiu:
 
-Quando um recipient abrir um projeto preparado, ele verá apenas o conjunto preparado de componentes que você definiu:
-
-![](assets/curate-project.png)
 
 ## Remover preparação do projeto
 
 Para remover a preparação do projeto e restaurar o conjunto completo de componentes no painel esquerdo:
 
-1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar dados do projeto]**.
-1. Clique em **[!UICONTROL Remover preparação]**.
-1. Clique em **[!UICONTROL Concluído]**.
+1. Selecione **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar Dados do Projeto]**.
+1. Selecione **[!UICONTROL Remover Preparação]**.
+1. Selecione **[!UICONTROL Concluído]**.
 
 ## Preparação de conjunto de relatórios virtuais
 
-Para fazer a preparação no nível do conjunto de relatórios, de modo que ela se aplique a vários projetos de uma vez, você pode [preparar os componentes em um conjunto de relatórios virtuais](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=pt-BR).
+Para fazer a preparação no nível do conjunto de relatórios, de modo que ela se aplique a vários projetos de uma vez, você pode [preparar os componentes em um conjunto de relatórios virtuais](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
-> A preparação do conjunto de relatórios virtuais é sempre aplicada antes da preparação do projeto. Isso significa que mesmo que seu projeto preparado inclua determinados componentes, eles serão removidos se o conjunto de relatórios virtuais preparado não os incluir.
+>
+> A preparação do conjunto de relatórios virtuais é sempre aplicada antes da preparação do projeto. Mesmo que seu projeto preparado inclua determinados componentes, eles serão filtrados se o conjunto de relatórios virtuais preparado não incluir esses componentes.
+> 
 
-## Opção Mostrar todos os componentes
+## Opções de curadoria de componentes
 
-Em um projeto preparado ou conjunto de relatórios virtuais, o destinatário terá a opção de **[!UICONTROL Mostrar todos]** os componentes no painel esquerdo. [!UICONTROL Mostrar tudo] revela conjuntos diferentes de componentes, dependendo dos seguintes fatores:
+Em um projeto com curadoria ou conjunto de relatórios virtual, o recipient tem a opção de **[!UICONTROL Mostrar todos]** componentes no painel esquerdo. [!UICONTROL Mostrar tudo] revela conjuntos diferentes de componentes, dependendo dos seguintes fatores:
 
 * O nível de permissão do usuário (administrador ou não)
 * Função do projeto (proprietário/editor ou não)

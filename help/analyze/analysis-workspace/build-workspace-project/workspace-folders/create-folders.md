@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Criar pastas
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
-source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
@@ -15,48 +15,74 @@ ht-degree: 100%
 
 É possível adicionar uma nova pasta ou subpasta à lista de projetos e pastas na página de destino do Espaço de trabalho.
 
-## Criar uma nova pasta {#create-new-folder}
+## Criar uma nova pasta
 
 Para criar uma nova pasta,
 
-1. clique em **Criar novo**.
+1. Verifique se você selecionou a opção [Mostrar pastas e projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#show-selector).
 
-1. Insira um Nome para a nova pasta.
+1. Verifique se a [área de título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) e a [lista de projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) mostram a pasta em que você deseja criar uma nova pasta.
 
-1. Selecione tags no menu suspenso ou adicione tags novas.
+1. Clique em **Criar pasta**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
+1. Na caixa de diálogo **[!UICONTROL Criar nova pasta]**, insira um nome para a nova pasta. Por exemplo: `Second Week Reports`.
 
-1. Clique em **Criar**.
+1. Selecione ou insira novas tags utilizando o menu suspenso **[!UICONTROL Tags]**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create.png)
+   ![Criar nova pasta](../assets/create-new-folder.png)
 
-   A nova pasta é adicionada à lista principal de projetos e pastas.
+1. Clique em **Criar**.
+Isso adiciona a nova pasta à pasta atual.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
+<!--
+# Create folders
 
-## Criar uma subpasta {#create-subfolder}
+You can add a new folder or a subfolder to the list of projects and folders on your Workspace landing page.
 
-As subpastas permitem que você forneça níveis adicionais de gerenciamento e organização do projeto.
+## Create a new folder {#create-new-folder}
 
-Para criar uma subpasta quando tiver uma pasta existente aberta,
+To create a new folder,
 
-1. clique em **Criar uma nova pasta**.
+1.  Click **Create new**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+1.  Enter a Name for the new folder.
 
-1. Insira um nome de subpasta e adicione as tags necessárias.
+1.  Select tags from the drop-down menu or add net-new tags.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
-1. Clique em **Criar**.
+1.  Click **Create**.
 
-   A nova subpasta é adicionada à lista de projetos e subpastas.
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create.png)
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
+    The new folder is added in the main list of projects and folders.
 
-   >[!NOTE]
-   >
-   >É possível criar até 10 níveis de subpastas em uma única pasta.
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+## Create a subfolder {#create-subfolder}
+
+Subfolders allow you to provide additional levels of project management and organization.
+
+To create a subfolder when you have an existing folder open,
+
+1.  Click **Create a new folder**.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+
+1.  Enter a subfolder name and add any necessary tags.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+
+1.  Click **Create**.
+
+    The new subfolder is added to the list of projects and subfolders.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
+
+    >[!NOTE]
+    >
+    >You can create up to 10-levels of subfolders in a single folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+
+-->

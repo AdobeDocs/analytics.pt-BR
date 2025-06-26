@@ -3,23 +3,24 @@ description: Usar segmentos rápidos no Analysis Workspace para Adobe Analytics
 title: Segmentos rápidos
 feature: Segmentation
 role: User
-source-git-commit: 5819026bd3798cd936094f138cd236b1cb4b278e
+exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 23%
+source-wordcount: '1177'
+ht-degree: 21%
 
 ---
 
 # Segmentos rápidos
 
 
-Os segmentos rápidos permitem explorar dados em um projeto do Workspace rapidamente, sem a necessidade de criar um segmento no [Construtor de segmentos](seg-create.md).
+Segmentos rápidos permitem explorar dados em um projeto do Workspace rapidamente, sem a necessidade de criar um segmento no [Construtor de segmentos](seg-create.md).
 
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos no Analysis Workspace](https://video.tv.adobe.com/v/345341/?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos no Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -43,9 +44,9 @@ Para criar um segmento rápido:
 Ao criar um segmento rápido usando a função arrastar e soltar, observe que:
 
 * Nem todos os tipos de componentes são compatíveis. Métricas calculadas não são compatíveis, e somente dimensões e métricas a partir das quais você pode criar segmentos são compatíveis.
-* Para componentes de dimensões e métricas, o [construtor de segmentos rápido](#quick-segment-builder) cria automaticamente condições de `exists`. Por exemplo, se você arrastar e soltar `City`, a condição `City exists` será criada.
-* Para valores de dimensão, o [Construtor de segmentos rápido](#quick-segment-builder) cria automaticamente uma condição `equals`. Por exemplo, se você arrastar e soltar `amsterdam` da dimensão `City`, a condição `City equals amsterdam` será criada.
-* Se você arrastar e soltar `unspecified` ou `none`, o [Construtor de segmentos rápido](#quick-segment-builder) criará automaticamente uma condição `does not exist`.
+* Para componentes de dimensões e métricas, o [construtor de segmentos rápido](#quick-segment-builder) cria automaticamente condições de **[!UICONTROL existe]**. Por exemplo, se você arrastar e soltar a **[!UICONTROL Cidade]**, a condição **[!UICONTROL Cidade]** **[!UICONTROL existe]** será criada.
+* Para valores de dimensão, o [construtor de segmentos rápido](#quick-segment-builder) cria automaticamente uma condição **[!UICONTROL igual]**. Por exemplo, se você arrastar e soltar **[!UICONTROL amsterdam]** dos itens de dimensão **[!UICONTROL Cidade]**, a condição **[!UICONTROL Cidade]** **[!UICONTROL igual]** `Amsterdam` será criada.
+* Se você arrastar e soltar **[!UICONTROL não especificado]** ou **[!UICONTROL nenhum]**, o [construtor de segmentos rápido](#quick-segment-builder) criará automaticamente uma condição **[!UICONTROL não existe]**.
 
 Os segmentos rápidos criados são exibidos na parte superior do painel. Os segmentos rápidos têm uma barra à esquerda azul-claro e fina. Quando um segmento rápido está no modo de edição usando o [Construtor de segmentos rápido](#quick-segment-builder), o plano de fundo do segmento rápido é azul-claro.
 
@@ -61,7 +62,7 @@ Para gerenciar um segmento rápido, passe o mouse sobre o **[!UICONTROL segmento
 
 ## Construtor rápido de segmentos
 
-Consulte abaixo um exemplo do construtor de segmentos rápido. No exemplo, o construtor é aberto para um segmento rápido chamado `Interaction Channel equals Website AND Online Orders is greater than 1`. O segmento rápido na parte superior se aplica ao painel [!UICONTROL Média do valor do pedido] e a todas as visualizações dentro dele.
+Consulte abaixo um exemplo do construtor de segmentos rápido. No exemplo, o construtor é aberto para um segmento rápido chamado `Interaction Channel = Website  AND Online Orders is greater than 1`. O segmento rápido na parte superior se aplica ao painel **[!UICONTROL Média do valor do pedido]** e a todas as visualizações dentro dele.
 
 ![Construtor de segmentos rápido](assets/quick-segment-builder.png)
 
@@ -74,7 +75,7 @@ A área do cabeçalho determina o nome, o tipo e o escopo do segmento rápido. E
 | Elemento | Descrição |
 |---|---|
 | **[!UICONTROL Nome]** | O nome é derivado automaticamente da definição de segmento rápido. |
-| **[!UICONTROL Pessoas]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alerta](/help/assets/icons/Alert.svg) | Visualização visual dos dados resultantes do segmento rápido. Uma barra e uma porcentagem fornecem um insight sobre quanto dos dados gerais fazem parte do resultado do segmento rápido. Um ![Alerta](/help/assets/icons/Alert.svg) vermelho indica que o segmento rápido não retorna dados. |
+| **[!UICONTROL Pessoas]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alerta](/help/assets/icons/Alert.svg) | Visualização visual dos dados resultantes do segmento rápido. Uma barra e uma porcentagem fornecem um insight sobre quanto dos dados gerais fazem parte do resultado do segmento rápido. Um ![Alerta](/help/assets/icons/AlertRed.svg) indica que o segmento rápido não retorna dados. |
 | **[!UICONTROL Incluir]**<br/>**[!UICONTROL Excluir]** | Na lista suspensa ![DivisaAbaixo](/help/assets/icons/ChevronDown.svg), selecione se deseja incluir ou excluir os resultados do segmento rápido dos dados no painel. |
 | **[!UICONTROL Evento]**<br/>**[!UICONTROL Sessão]**<br/>**[!UICONTROL Pessoa]** | Selecione o escopo do segmento rápido no menu suspenso ![Divisa](/help/assets/icons/ChevronDown.svg). |
 
@@ -108,5 +109,3 @@ Os segmentos têm as seguintes vantagens em comparação aos segmentos rápidos.
 
 * Segmentos podem ser disponibilizados em todos os projetos do Workspace
 * Os segmentos suportam mais complexidade usando [contêineres](../seg-containers.md) aninhados e hierárquicos e sequências (usando [segmentos sequenciais](seg-sequential-build.md).
-
-

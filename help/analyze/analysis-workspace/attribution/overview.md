@@ -4,10 +4,10 @@ description: O conceito de atribuição de crédito de um evento bem-sucedido a 
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -24,15 +24,17 @@ Em alguns relatórios, você pode desejar que a ordem seja atribuída à pesquis
 
 A jornada do cliente não é linear e é muitas vezes imprevisível. Cada cliente atua no seu ritmo e com frequência voltam, param, reiniciam ou adotam outros comportamentos não lineares. Essas ações orgânicas dificultam a identificação do impacto dos esforços de marketing na jornada do cliente. Também dificultam os esforços para unir vários canais de dados.
 
-![Problema de atribuição](assets/attribution_iq_problem.png)
+<!--
+![Attribution problem](assets/attribution_iq_problem.png)
+-->
 
 O Adobe Analytics aprimora a atribuição ao permitir:
 
-* Definir atribuição além de mídias com anúncios: qualquer dimensão, métrica, canal ou evento pode ser aplicado a modelos (ex: pesquisa interna), além de campanhas de marketing.
-* Utilizar comparação ilimitada de modelos de atribuição: compare dinamicamente quantos modelos desejar.
+* Definir a atribuição além da mídia paga: qualquer dimensão, métrica, canal ou evento pode ser aplicado a modelos (por exemplo: pesquisa interna), não apenas campanhas de marketing.
+* Use comparação ilimitada de modelos de atribuição: compare dinamicamente quantos modelos desejar.
 * Evitar alterações de implementação: com processamento de tempo de relatório e sessões contextuais, o contexto da jornada do cliente pode ser incorporado e aplicado no tempo de execução.
-* Construir a sessão que melhor corresponde ao seu cenário de atribuição.
-* Detalhar atribuições por segmentos: compare facilmente o desempenho de seus canais de marketing entre segmentos importantes (ex: Clientes Novos vs. Repetidos, Produto X vs. Produto Y, Nível de fidelidade ou CLV).
+* Criar a sessão que melhor corresponde ao seu cenário de atribuição.
+* Detalhar atribuições por segmentos: compare facilmente o desempenho dos canais de marketing em segmentos importantes (por exemplo: novos clientes e clientes recorrentes, produto X e produto Y, nível de fidelidade ou CLV).
 * Inspecionar canais cruzados e análises de multitoque: usando diagramas e histogramas de Venn e resultados de atribuição de tendência.
 * Analisar visualmente as principais sequências de marketing: explore visualmente caminhos que levaram à conversão usando as visualizações de fluxo de múltiplos nós e de fallout.
 * Criar métricas calculadas: use a quantidade de métodos de alocação de atribuição que desejar.
@@ -51,32 +53,32 @@ A atribuição compreende os seguintes recursos:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribuição em tabelas de forma livre](https://video.tv.adobe.com/v/33016?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribuição em tabelas de forma livre](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribuição em métricas calculadas](https://video.tv.adobe.com/v/30759?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribuição em métricas calculadas](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usando o painel Atribuição](https://video.tv.adobe.com/v/33012?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usando o painel Atribuição](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionando comparações lado a lado de modelos de atribuição](https://video.tv.adobe.com/v/327798?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionando comparações lado a lado de modelos de atribuição](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
-## Ferramentas do Adobe Analytics que não são compatíveis com a atribuição
+## Ferramentas do Adobe Analytics que não oferecem suporte para atribuição
 
 Todas as ferramentas que não são compatíveis com a API Analytics 2.0, como o Report Builder, não são compatíveis com a atribuição.

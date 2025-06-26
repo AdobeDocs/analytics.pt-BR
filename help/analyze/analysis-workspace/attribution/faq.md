@@ -4,10 +4,10 @@ description: Obtenha respostas para perguntas frequentes sobre atribuição.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 100%
+source-wordcount: '1238'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 +++## O que é o item da linha “Nenhum” ao usar a atribuição?
 
-O item de linha “Nenhum” é um item “catch-all” (global) que representa todas as conversões que ocorreram sem nenhum ponto de contato na janela de retrospectiva. Para reduzir o número de conversões atribuídas ao item de linha “Nenhum”, tente usar uma janela de pesquisa personalizada com um período de pesquisa posterior mais longo.
+O item de linha “Nenhum” é um item “catch-all” (global) que representa todas as conversões que ocorreram sem nenhum ponto de contato na janela de retrospectiva. Para reduzir o número de conversões atribuídas ao item de linha &quot;Nenhum&quot;, tente usar uma janela de pesquisa personalizada com um período de pesquisa mais longo.
 
 +++
 
@@ -106,11 +106,11 @@ Sim, as classificações são totalmente compatíveis.
 
 Sim, a maioria das fontes de dados é compatível. A atribuição não é compatível com fontes de dados de nível de resumo porque elas não se vinculam a um identificador de visitante do Analytics. 
 
-As fontes de dados de ID de transação são tratadas como qualquer outra ocorrência. As fontes de dados de ID de transação não usam o processamento especial normalmente utilizado nos relatórios tradicionais. Em outras palavras, ao usar o processamento de tempo de relatório, as ocorrências de ID de transação terão valores de eVar propagados de ocorrências que ocorrem próximas do carimbo de data e hora da ocorrência da ID de transação. Os valores não serão propagados de ocorrências que ocorreram próximas da hora da transação original.
+As fontes de dados de ID de transação são tratadas como qualquer outra ocorrência. As fontes de dados de ID de transação não usam o processamento especial normalmente utilizado nos relatórios tradicionais. Em outras palavras, ao usar o processamento de tempo do relatório, as ocorrências de ID de transação têm valores de eVar propagados a partir de ocorrências que ocorrem perto do carimbo de data e hora da ocorrência de ID de transação. Os valores não são propagados de ocorrências que ocorreram perto da hora da transação original.
 
-Quando possível, a atribuição depende do valor da coluna MID enviado em um evento na fonte de dados, em vez de um valor persistente. O modelo de atribuição é aplicado em tempo real aos valores da coluna MID na fonte de dados. Por exemplo, quando você usa a atribuição “Último contato”, o modelo começa a partir de cada instância de uma métrica e retrocede sequencialmente pelas ocorrências até atingir o último valor observado na coluna MID.
+Quando possível, a atribuição depende do valor da coluna MID enviado em um evento na fonte de dados, em vez de um valor persistente. O modelo de atribuição é aplicado em tempo real aos valores da coluna MID na fonte de dados. Por exemplo, ao usar a [atribuição Último contato](models.md), o modelo começa a partir de cada instância de uma métrica. E recua sequencialmente nas ocorrências até que o modelo atinja o último valor observado na coluna MID.
 
-Quando isso não é possível, a atribuição usa o valor MID no “registro anterior” da fonte de dados para a avaliação. Esse registro anterior pode não ser ordenado sequencialmente pelo carimbo de data e hora, já que o AA não oferece suporte a dados fora de ordem.
+Quando não é possível, a atribuição usa o valor MID no *registro anterior* na fonte de dados para avaliação. Esse registro anterior pode não ser ordenado sequencialmente pelo carimbo de data e hora, já que o AA não oferece suporte a dados fora de ordem.
 
 Como os registros não são ordenados sequencialmente, os valores esperados da aplicação da persistência podem influenciar o tempo decorrido entre o carimbo de data e hora da ID de transação fornecido e a transação original.
 

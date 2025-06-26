@@ -5,47 +5,81 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+source-git-commit: e9370d42e84237cb563d9b0776612ca08f097c0b
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 85%
 
 ---
 
 # Visão geral sobre as anotações
 
-As anotações no Espaço de trabalho permitem comunicar com eficiência nuances de dados contextuais e insights à sua organização. Elas permitem vincular eventos de calendário a dimensões/métricas específicas. Você pode anotar uma data ou um intervalo de datas com problemas de dados conhecidos, feriados, lançamentos de campanhas etc. É possível exibir graficamente os eventos e verificar se as campanhas ou outros eventos têm afetado seu tráfego local, a receita ou qualquer outra métrica.
+As anotações permitem que você comunique nuances e insights de dados contextuais de forma eficaz para outras partes interessadas na sua organização. Com as anotações, é possível vincular eventos de calendário a dimensões e métricas específicas. Você pode anotar uma data ou intervalo de datas com problemas de dados conhecidos, feriados, lançamentos de campanhas etc. Em seguida, é possível exibir graficamente os eventos e verificar se as campanhas ou outros eventos afetaram o tráfego no site, o uso do aplicativo móvel, a receita ou qualquer outra métrica.
 
-Por exemplo, digamos que você esteja compartilhando projetos com sua organização. Se você tiver um grande pico no tráfego devido a uma campanha de marketing, poderá criar uma anotação de “Data de lançamento da campanha” e colocá-la no escopo de todo o conjunto de relatórios. Quando os usuários visualizam qualquer conjunto de dados que inclui essa data, eles visualizam a anotação dentro dos projetos, junto com os dados deles.
+Por exemplo, digamos que você esteja compartilhando projetos com sua organização. Se você tiver um declínio notável em seus visitantes únicos, poderá criar uma anotação de **Visitantes diminuindo** e colocá-la no escopo de todo o conjunto de relatórios. Quando os usuários visualizam qualquer conjunto de relatórios que inclui essa data, eles veem a anotação dentro dos projetos, junto com os dados deles.
 
-![](assets/multi-day.png)
+![Gráfico de linhas com a anotação realçada.](assets/annotation-example.png)
 
-Lembre-se:
+As anotações podem se aplicar a:
 
-* As anotações podem ser vinculadas a uma única data ou a um intervalo de datas.
+* Uma única data ou a um intervalo de datas.
 
-* Elas podem se aplicar a todo o seu conjunto de dados ou a métricas, dimensões ou segmentos especificados.
+* Todo o seu conjunto de dados ou métricas, dimensões ou segmentos específicos.
 
-* Podem aplicar-se ao projeto em que foram criadas (padrão) ou a todos os projetos.
+* O projeto no qual as anotações foram criadas (padrão) ou a todos os projetos.
 
-* Elas podem se aplicar ao conjunto de relatórios em que foram criadas (padrão) ou a todos os conjuntos de relatórios.
+* A exibição de dados em que as anotações foram criadas (padrão) ou a todas as exibições de dados.
 
-## Permissões {#permissions}
+Consulte [Criar anotações](create-annotations.md) para obter as várias opções disponíveis para criar anotações. Em seguida, é possível compilar, modificar e salvar anotações no [Construtor de anotações](create-annotations.md#annotation-builder).
 
-Por padrão, somente administradores podem criar anotações. Os usuários têm o direito de visualizar anotações da mesma forma que fazem com outros componentes do Analytics (como segmentos, métricas calculadas etc.).
+Utilize o [Gerenciador de anotações](manage-annotations.md) para gerenciá-las.
 
-No entanto, os administradores podem fornecer a permissão [!UICONTROL Criação de anotações] (Ferramentas do Analytics) para usuários por meio do [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=pt-BR).
-
-## Ativar ou desativar anotações {#annotations-on-off}
+## Ativar ou desativar anotações
 
 As anotações podem ser ativadas ou desativadas em vários níveis:
 
-* No nível de visualização: configurações da [!UICONTROL Visualização] > [!UICONTROL Mostrar anotações]
+| Nível | Guia de instruções |
+|---|---|
+| **Visualização** | Habilite ou desabilite a opção ![Configuração](/help/assets/icons/Setting.svg) > **[!UICONTROL Configurações]** > **[!UICONTROL Mostrar anotações]**.<br/>![Habilitar ou desabilitar anotações de uma visualização](assets/annotations-visualization.png) |
+| **Projeto** | No menu de projeto do espaço de trabalho, selecione **[!UICONTROL Projeto]** > **[!UICONTROL Informações e configurações do projeto]** e habilite ou desabilite a opção **[!UICONTROL Mostrar anotações]**.<br/>![Habilitar ou desabilitar anotações de um projeto](assets/annotations-project.png) |
+| **Usuário** | Na guia **[!UICONTROL Componentes]**, selecione **[!UICONTROL Preferências]** ou, no menu de projeto do espaço de trabalho, selecione **[!UICONTROL Projeto]** > **[!UICONTROL Preferências do usuário]**. <br/>Em **[!UICONTROL Preferências]**, selecione **[!UICONTROL Projetos e análise]**. Na barra de guias à esquerda, selecione **[!UICONTROL Dados]**. Na parte inferior, habilite ou desabilite **[!UICONTROL Mostrar anotações]** abaixo do cabeçalho **[!UICONTROL Tabela de forma livre]**.<br/>![Habilitar ou desabilitar anotações de um usuário](assets/annotations-user.png) |
 
-* No nível do projeto: [!UICONTROL Informações do projeto &amp; configurações] > [!UICONTROL Mostrar anotações]
+<!--
+# Annotations overview
 
-* No nível do usuário: [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] > [!UICONTROL Dados] > [!UICONTROL Mostrar anotações]
+Annotations in Workspace enable you to effectively communicate contextual data nuances and insights to your organization. They let you tie calendar events to specific dimensions/metrics. You can annotate a date or date range with known data issues, public holidays, campaign launches, etc. You can then graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric.
+
+For example, let's say you are sharing projects with your organization. If you had a major spike in traffic due to a marketing campaign, you could create a "Campaign launch date" annotation and scope it for your whole report suite. When your users view any data sets that included that date, they see the annotation within their projects, alongside their data.
+
+![Annotation example](assets/annotation-example.png)
+
+Keep this in mind:
+
+* Annotations can be tied to a single date or to a date range.
+
+* They can apply to your entire data set or to specified metrics, dimensions, or segments.
+
+* They can apply to the project in which they were created (default) or to all projects.
+
+* They can apply to the report suite in which they were created (default) or to all report suites.
+
+## Permissions {#permissions}
+
+By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
+
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
+
+## Turn annotations on or off {#annotations-on-off}
+
+Annotations can be turned on or off at several levels:
+
+* At the Visualization level: [!UICONTROL Visualization] settings > [!UICONTROL Show annotations]
+
+* At the Project level: [!UICONTROL Project info & settings] > [!UICONTROL Show annotations]
+
+* At the User level: [!UICONTROL Components] > [!UICONTROL User preferences] > [!UICONTROL Data] > [!UICONTROL Show annotations]
 
 ![](assets/show-ann.png)
 
 ![](assets/show-ann2.png)
+-->

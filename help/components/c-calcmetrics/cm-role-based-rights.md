@@ -1,16 +1,16 @@
 ---
 description: Os direitos das métricas calculadas são diferentes para usuários de nível administrativo e não administrativos.
-title: 'Métricas calculadas: direitos baseados em função'
+title: Direitos baseados em função
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 81%
+source-wordcount: '233'
+ht-degree: 79%
 
 ---
 
-# Métricas calculadas: direitos baseados em função
+# Direitos baseados em função
 
 Os direitos das métricas calculadas são diferentes para usuários de nível administrativo e não administrativos.
 

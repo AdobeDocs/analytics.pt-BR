@@ -3,10 +3,10 @@ description: Este procedimento descreve como executar o Relatório de canal de m
 title: Permissões para Canal de marketing
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c5573b7252a4113355cc4b96d467fde2c86ba28f
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 91%
 
 ---
 
@@ -28,4 +28,5 @@ Estas são as permissões das Ferramentas do conjunto de relatórios necessária
 | Ferramentas do Analytics | Acesso à Analysis Workspace | Concede acesso à Analysis Workspace. Os usuários devem pertencer a esse grupo (preferencial) ou ao Acesso ao Reports &amp; Analytics para usar as dimensões dos Canais de marketing no Workspace. |
 | Ferramentas do Analytics | Acesso ao Reports and Analytics | Concede acesso ao Reports and Analytics. Os usuários devem pertencer a esse grupo ou ao Acesso à Analysis Workspace (preferencial) para usar o Adobe Analytics. |
 
-Para obter mais informações sobre perfis de produtos e permissões do Adobe Analytics no Admin Console, clique [aqui](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=pt-BR).
+Para obter mais informações sobre perfis de produtos e permissões do Adobe Analytics no Admin Console, consulte [Perfis de produto do Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=pt-BR).
+

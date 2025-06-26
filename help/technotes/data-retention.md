@@ -2,8 +2,8 @@
 title: Política de retenção de dados
 description: Uma política de retenção de dados determina por quanto tempo a Adobe armazena os dados.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-feature: Data Governance, Privacy
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+feature: Data Governance
+source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Se quiser reduzir ou estender o período de retenção de dados padrão, entre e
 
 ## Retenção de dados e privacidade de dados
 
-A Adobe, na sua função de processador de dados, deve tomar as medidas apropriadas para auxiliar seus clientes a realizar o acesso, a exclusão e outras solicitações individuais. A aplicação de políticas de exclusão oportunas, seguras e apropriadas é parte importante do cumprimento dessa obrigação. O GDPR se aplica a todos os clientes que vendem para ou processam informações de cidadãos da UE. A CCPA se aplica a todos os clientes que vendem para ou processam informações de cidadãos da Califórnia. A Privacidade de dados é, portanto, uma alteração regulamentar mundial.
+A Adobe, na sua função de processador de dados, deve tomar as medidas apropriadas para auxiliar seus clientes a realizar o acesso, a exclusão e outras solicitações individuais. A aplicação de políticas de exclusão oportunas, seguras e apropriadas é parte importante do cumprimento dessa obrigação. O RGPD se aplica a todos os clientes que vendem para ou processam informações de cidadãos da UE. A CCPA se aplica a todos os clientes que vendem para ou processam informações de cidadãos da Califórnia. A Privacidade de dados é, portanto, uma alteração regulamentar mundial.
 
 ## Exclusão de dados
 

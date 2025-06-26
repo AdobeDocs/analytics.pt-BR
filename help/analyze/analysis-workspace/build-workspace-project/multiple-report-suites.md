@@ -4,10 +4,10 @@ description: Saiba como e por que criar projetos no Espaço de trabalho com vár
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 87%
+source-wordcount: '440'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 Você pode criar projetos no Analysis Workspace com dados de mais de um conjunto de relatórios. Os conjuntos de relatórios são escolhidos no nível do painel, então é possível escolher um conjunto de relatórios diferente para cada painel dentro do mesmo projeto do Workspace.
 
-Esse recurso é útil se você desejar, por exemplo,
+Esse recurso é útil se você deseja:
 
 * Comparar dados de duas regiões diferentes, e os dados estão em dois conjuntos de relatórios diferentes. É possível criar tabelas e visualizações para comparar os dados lado a lado.
 
@@ -24,7 +24,7 @@ Esse recurso é útil se você desejar, por exemplo,
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vários conjuntos de relatórios](https://video.tv.adobe.com/v/37063?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vários conjuntos de relatórios](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -37,16 +37,12 @@ Você pode aplicar um conjunto de relatórios a todos os painéis ao mesmo tempo
 
 ## Painel ativo
 
-Estamos introduzindo o conceito de &quot;painel ativo&quot; x &quot;painel inativo&quot; com este recurso. Você pode reconhecer o painel ativo pela borda azul clara ao redor dele. Basta clicar dentro de um painel para tornar esse painel ativo.
+Você pode reconhecer o painel ativo pela borda azul clara ao redor dele. Basta selecionar dentro de um painel para transformar esse painel no painel ativo.
 
 >[!TIP]
+>
 >Você pode arrastar e soltar em qualquer painel que esteja no mesmo conjunto de relatórios que o painel ativo. Ao arrastar para um painel inativo do mesmo conjunto de relatórios, o painel ficará ativo.
-
-| Tarefa | Painel ativo | Painel inativo |
-| --- | --- | --- |
-| Alterar conjunto de relatórios | Sim | Não |
-| Arrastar e soltar componentes | Sim | Sim, para qualquer painel que esteja no mesmo conjunto de relatórios que o painel ativo. |
-| Visualizações de arrastar e soltar | Sim | Sim, para qualquer painel que esteja no mesmo conjunto de relatórios que o painel ativo. |
+>
 
 ## Trabalhe com vários conjuntos de relatórios
 
@@ -58,7 +54,9 @@ Estamos introduzindo o conceito de &quot;painel ativo&quot; x &quot;painel inati
 
 
    >[!NOTE]
+   >
    >Algumas vezes, um banner é exibido ao carregar um projeto (ou alternar para um conjunto de relatórios) em que nem todos os componentes incluídos no projeto estão incluídos no conjunto de relatórios. Os componentes ausentes serão listados. Siga [estas instruções](/help/admin/admin-console/permissions/product-profile.md) para definir permissões das métricas/dimensões necessárias.
+   >
 
    ![](assets/incompat-rs.png)
 
@@ -74,5 +72,5 @@ Estamos introduzindo o conceito de &quot;painel ativo&quot; x &quot;painel inati
 1. (Opcional) Você também pode ir para outros construtores de componentes do Analytics e garantir que eles passaram a mostrar um rótulo de conjunto de relatórios que indica
 
    * Onde um segmento será criado: [Construtor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=pt-BR).
-   * Onde uma métrica calculada será criada: [Construtor de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=pt-BR).
+   * Onde uma métrica calculada será criada: [Construtor de métrica calculada](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=pt-BR).
    * Onde um alerta será criado: [Construtor de alertas](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=pt-BR).

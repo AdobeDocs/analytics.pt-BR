@@ -4,98 +4,169 @@ title: Visão geral do calendário e do intervalos de datas
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: 182b92707eca36eaebe2e5c7f041f153868f09c2
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
 
-# Visão geral do calendário e do intervalos de datas {#date-range}
 
-<!-- markdownlint-disable MD034 -->
+# Visão geral dos intervalos de data
+
+Em um projeto do Workspace, você geralmente usa o [calendário de um painel](/help/analyze/analysis-workspace/c-panels/panels.md#calendar) para especificar o intervalo de datas das visualizações desse painel.
+
+Os componentes de intervalo de datas permitem definir e substituir as configurações do calendário do painel.
+
+
+## Utilize intervalos de datas
+
+Você pode usar um componente de intervalo de datas para redefinir o calendário do painel.
+
+Ou você pode usar um intervalo de datas em uma tabela de forma livre como uma métrica ou dimensão.
+
+![Uso de intervalos de datas](assets/date-ranges-usage.png)
+
+- **Métrica**. Por exemplo, para comparar uma dimensão entre dois meses diferentes em relação a uma métrica específica.
+- **Dimensão**. Para comparar uma métrica entre diferentes itens de dimensão em relação à dimensão de intervalo de datas.
+
+>[!NOTE]
+>
+>Quando você usa intervalos de datas em uma tabela de forma livre, os intervalos de datas substituem o calendário especificado para o painel ao qual a tabela de forma livre pertence.
+>
+
+Você usa um intervalo de datas da mesma forma que [usaria qualquer componente](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components). Você arrasta o intervalo de datas do painel do componente ![Calendário](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalos de datas]** e solta o componente em:
+
+- **[!UICONTROL Calendário]**: você pode ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL Substituir]** a configuração do calendário atual pelo intervalo de datas.
+- **Cabeçalho da coluna de métrica**: você pode ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL Substituir]** a métrica, ![Add](/help/assets/icons/Add.svg)**[!UICONTROL Adicionar ]**o intervalo de datas como uma métrica ou ![Filter](/help/assets/icons/Filter.svg)**[!UICONTROL  Filtrar ]**a métrica, usando o componente de intervalo de datas.
+- **Cabeçalho da coluna de dimensão**: você pode ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL Substituir]** as dimensões atuais. A nova dimensão agora é **[!UICONTROL Intervalos de datas]**. Quando a dimensão é “Intervalos de datas”, você pode ![Add](/help/assets/icons/Add.svg)**[!UICONTROL Adicionar ]**outros intervalos de datas como itens de dimensão.
+- **Item de dimensão**: você pode fazer o ![Breakdown](/help/assets/icons/Breakdown.svg) **[!UICONTROL Detalhamento]** do item de dimensão específico segundo o intervalo de datas.
+
+Você também pode adicionar uma coluna de intervalo de datas diretamente a uma visualização de tabela de forma livre:
+
+1. Em uma coluna de métrica, selecione no menu de contexto:
+
+   - **[!UICONTROL Adicionar coluna de período]**. Você pode selecionar entre as opções sugeridas com base no calendário atual ou criar um [intervalo de datas personalizado](#custom-date-ranges).
+   - **[!UICONTROL Comparar períodos]**. Você pode selecionar entre uma opção sugerida com base no calendário atual ou criar um [intervalo de datas personalizado](#custom-date-ranges).
+
+1. Com base na sua seleção, colunas adicionais de intervalo de datas serão adicionadas à tabela de forma livre.
+
+## Intervalos de datas padrão
+
+O Analysis Workspace fornece vários intervalos de datas padrão.
+
+
+| Dia | Semana | Mês | Trimestre | Ano |
+|---|---|---|---|---|
+| Hoje | Nesta semana | Este mês | Este trimestre | Este ano |
+| Ontem | Esta semana (exceto hoje) | Este mês (exceto hoje) | Este trimestre (exceto hoje) | Este ano (exceto hoje) |
+| 2 dias atrás | 2 semanas atrás | 2 meses atrás |   |  |
+| 3 dias atrás | 3 semanas atrás | 3 meses atrás |  | |
+| Últimos 7 dias | Semana passada | Último mês | Trimestre passado | Ano passado |
+| Últimos 14 dias | Últimas 2 semanas completas | Últimos 2 meses completos | Últimos 4 trimestres inteiros | |
+| Últimos 30 dias | Últimas 3 semanas completas | Últimos 3 meses completos | | |
+| Últimos 60 dias | Últimas 4 semanas completas | Últimos 6 meses completos | | |
+| Últimos 90 dias | Últimas 12 semanas completas | Últimos 12 meses completos | | |
+| Últimos 7 dias completos | Últimas 52 semanas completas | Últimos 13 meses completos | | |
+| Últimos 14 dias completos | | | | |
+| Últimos 30 dias completos | | | | |
+| Últimos 90 dias completos | | | | |
+
+<table style="table-layout:fixed">
+
+## Intervalos de datas personalizados
+
+É possível criar os seus próprios intervalos de datas personalizados. Consulte [Criar intervalo de datas](create.md) para ver as várias opções disponíveis para criar intervalos de datas. Em seguida, é possível compilar, modificar e salvar intervalos de datas no [Construtor de intervalos de datas](create.md#date-range-builder).
+
+Use o [Gerenciador de intervalos de datas](manage.md) para gerenciar os intervalos de datas.
+
+
+
+<!--
+# Calendar and date ranges overview {#date-range}
 
 >[!CONTEXTUALHELP]
 >id="components_dateranges_endtime"
->title="Horário de término"
->abstract="Os horários de término sempre incluem 59 segundos."
-
-<!-- markdownlint-enable MD034 -->
+>title="End time"
+>abstract="End times always include 59 seconds."
 
 
-No calendário, é possível especificar datas e intervalos de datas ou selecionar uma predefinição.
+
+In the calendar, you can specify dates and date ranges, or select a preset.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do calendário e dos intervalos de datas](https://video.tv.adobe.com/v/30814?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
-As seleções do calendário se aplicam a nível de painel, mas existe a opção de aplicá-las a todos os painéis. Ao clicar em um intervalo de datas no Espaço de trabalho, a interface exibe o mês atual do calendário e o mês anterior. Você pode ajustar esses dois calendários clicando nas setas para a direita e para a esquerda em cada canto superior respectivo.
+Calendar selections apply at the panel level, but you have the option to apply them to all panels. When you click a date range in Workspace, the interface displays the current calendar month and the previous calendar month. You can adjust these two calendars by clicking the right and left arrows in each respective upper corner.
 
-![Calendário](assets/aw_calendar2.png){width="60%"}
+![Calendar](assets/aw_calendar2.png){width="60%"} 
 
-## Selecionar e aplicar intervalos de datas {#select-apply}
+## Select and apply date ranges {#select-apply}
 
-O primeiro clique em um calendário inicia uma seleção de intervalo de datas. O segundo clique conclui uma seleção de intervalo de datas, que é realçada. Se a tecla `Shift` for pressionada (ou se o clique com o botão direito do mouse for usado), ela será anexada ao intervalo selecionado no momento.
+The first click on a calendar starts a date range selection. The second click completes a date range selection, which becomes highlighted. If the `Shift` key is held down (or right-click is used), it appends to the currently selected range.
 
-Você também pode arrastar datas (e dimensões de tempo) em um projeto do Espaço de trabalho. É possível selecionar dias, semanas, meses e anos específicos ou uma data do acumulado.
+You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Usando intervalos de data e calendário na Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=pt-BR) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
-| Configuração | Descrição |
+| Setting | Description |
 |--- |--- |
-| Dias selecionados | Dias/semanas/meses/anos selecionados. |
-| Tornar os componentes do intervalo de datas relativos ao calendário do painel | Se desabilitado, qualquer componente de intervalo de datas usado em uma tabela, visualização ou área de destino do painel substituirá o calendário do painel. <p>Se habilitado, qualquer componente de intervalo de datas usado em uma tabela, visualização ou área de destino do painel estará relacionado ao intervalo de datas do painel. Por exemplo, se o intervalo de datas do painel estiver definido como 1° de novembro a 30 de novembro e um componente de intervalo de datas Semana passada for usado em uma tabela de forma livre, as informações na tabela se referirão à última semana de outubro. |
-| Usar datas contínuas | Datas contínuas permitem gerar um relatório dinâmico que analisa um certo período de tempo, seja para frente ou para trás, com base na execução do relatório. Por exemplo, se você quiser relatar todos os pedidos feitos no “Mês anterior” (dependendo da Data de criação) e executar o relatório em dezembro, você verá os pedidos feitos em novembro. Se executar o mesmo relatório em janeiro, verá os pedidos feitos em dezembro.<ul><li>**[!UICONTROL Visualização de data]**: indica o período compreendido no calendário em andamento.</li><li>**[!UICONTROL Início]**: você pode escolher entre dia atual, semana atual, mês atual, trimestre atual, ano atual.</li><li>**[!UICONTROL Fim]**: você pode escolher entre dia atual, semana atual, mês atual, trimestre atual, ano atual.</li></ul>Para ver um exemplo, consulte [Intervalos de datas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Selecionado por padrão. |
-| Intervalo de datas | Permite selecionar um intervalo de datas predefinido. Últimos 30 dias é padrão. **[!UICONTROL Essa semana/mês/trimestre/ano (exceto hoje)]** permite escolher entre intervalos de datas que não incluem dados parciais do dia de hoje. |
-| Aplicar a todos os painéis | Permite alterar o intervalo de datas selecionado para o painel atual e também para todos os outros painéis do projeto. |
-| Aplicar | Aplica o intervalo de datas somente a este painel. |
+|Selected Days|Selected days/weeks/months/years.|
+|Make date range components relative to panel calendar| If disabled, any date range components used within a table, visualization, or panel drop zone override the panel calendar. <p>If enabled, any date range components used within a table, visualization, or panel drop zone are in relation to the panel date range. For example, if the panel date range is set to November 1 through November 30, and a Last Week date range component is used in a freeform table, the information in the freeform table refers to the last week in October. |
+|Use rolling dates| Rolling dates allow you to generate a dynamic report that looks forward or backward for a set period of time based on when you ran the report. For example, if you want to report on all Orders placed "Last Month" (based on the Created Date field) and ran that report in December, you'd see orders placed in November. If you ran that same report in January, you'd see orders placed in December.<ul><li>**[!UICONTROL Date Preview]**: Indicates what time period the rolling calendar encompasses.</li><li>**[!UICONTROL Start]**: You can choose among current day, current week, current month, current quarter, current year.</li><li>**[!UICONTROL End]**: You can choose among current day, current week, current month, current quarter, current year.</li></ul>To view an example, see [Custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Selected by default.|
+|Date Range|Lets you pick a preset date range. Last 30 days is the default. **[!UICONTROL This week/month/quarter/year (excluding today)]** lets you choose from date ranges that do not include partial-day data from today.|
+|Apply to All Panels|Lets you not only change the selected date range for the current panel, but also for all other panels within the project.|
+|Apply|Applies the date range to this panel only.|
 
-## Sobre intervalos de datas relativos ao painel {#relative-panel-dates}
+## About relative panel date ranges {#relative-panel-dates}
 
-Se estiver trabalhando no espaço de trabalho, é possível tornar os componentes do intervalo de datas relativos ao calendário do painel.
-Há três casos de uso comuns em que você verá as datas relativas do painel entrarem em vigor: intervalos de datas de gráficos combinados, de resumos de métricas principais e de tabelas de forma livre.
+If you're working in Workspace, you can make the date range components relative to the panel calendar. 
+Three common use cases where you'll see relative panel dates take effect are Combo charts, Key metrics summary, and Freeform table date ranges.
 
-Para usar intervalos de datas relativos ao painel
+To use relative panel date ranges
 
-1. Clique na guia **Espaço de trabalho**.
-1. Selecione **Projeto em branco**.
-1. Adicione dimensões, métricas e segmentos do painel esquerdo.
-1. Clique no campo de intervalo de datas do painel para alternar a configuração de intervalos de datas relativos ao painel.
-1. Selecione **Tornar os componentes do intervalo de datas relativos ao calendário do painel**.
-   * Selecione a opção para tornar os componentes do intervalo de datas relativos ao calendário do painel.
-Se datas relativas forem selecionadas, as datas contínuas serão baseadas na data inicial do calendário do painel, e não na data de hoje.
-   * Se essa opção não estiver selecionada, as datas contínuas serão baseadas na data de hoje.
+1. Select the **Workspace** tab.
+1. Select **Blank project**.
+1. Add dimensions, metrics, and segments from the left rail. 
+1. Click the panel date range field to toggle the relative panel date range setting.
+1. Select **Make date range components relative to panel calendar**.
+    * Select the option to make the date range components relative to the panel calendar.
+        If relative dates are selected, then rolling dates will be based on the start date of the panel calendar and not today's date.
+    * If this option isn't selected, then rolling dates will be based on today's date.
 
-   ![datas relativas do painel](assets/relative-date-selected.png){width="60%"}
+    ![relative panel dates](assets/relative-date-selected.png){width="60%"} 
 
-1. Clique em **Aplicar**.
-As datas relativas são mostradas no canto superior direito.
+1. Click **Apply**.
+    The relative dates are shown in the upper-right.
 
-   ![datas relativas em forma livre ](assets/relative-date-range1.png)
+    ![relative dates in freeform ](assets/relative-date-range1.png)
 
-## Diretrizes para intervalos de datas relativas do painel {#guidelines}
+## Guidelines for relative panel date ranges {#guidelines}
 
-Lembre-se das seguintes diretrizes ao usar intervalos de datas relativos ao painel.
+Keep in mind the following guidelines when using relative panel date ranges.
 
-### Fórmulas e intervalos de datas relativos {#formula-relative-dates}
+### Formulas and relative date ranges {#formula-relative-dates}
 
-Se você tiver selecionado datas relativas, todas as fórmulas de datas usarão a data inicial do painel como ponto de partida.
+If you have relative dates selected, all date formulas will use the panel's start date as the starting point.
 
-### Calendários personalizados e intervalos de datas relativos {#custom-calendar-formulas}
+### Custom calendars and relative date ranges {#custom-calendar-formulas}
 
-Ao usar um calendário personalizado com base em semanas e adicionar meses ou anos, a fórmula calcula a diferença de dias no período especificado. A data real pode ser diferente devido a essa diferença. A fórmula escolhe o dia baseado no mesmo local do calendário personalizado. Por exemplo, a terceira sexta-feira da terceira semana em um calendário personalizado.
+When you use a week-based custom calendar and you add months or years, the formula calculates the offset of the day in the given period. The actual date may be different because of the offset. The formula chooses the day landing in the same place in the custom calendar. For example, the third Friday of the third week in a custom calendar.
 
-### Sobre segmentos que usam datas contínuas e intervalos de datas relativos ao painel {#segments-relative-dates}
+### About segments that use rolling dates and relative panel date ranges {#segments-relative-dates}
 
-Se você criar um segmento ou usar um segmento com uma data contínua, por exemplo, os últimos 7 dias ou as últimas 2 semanas, e clicar na pré-visualização do segmento, a data contínua será iniciada a partir de *Hoje* em vez da data inicial do painel. Como resultado, as informações da pré-visualização do segmento não corresponderão às que você verá ao usar o segmento na tabela. A pré-visualização é afetada, não o segmento propriamente dito.
+If you build a segment or use a segment with a rolling date, for example, the Last 7 Days or the Last 2 Weeks, and you click on the segment preview, it will start the rolling date from *Today* instead of the panel start date. As a result the preview for the segment will not match when you actually use the segment in the table. The preview is impacted, not the segment itself. 
 
-## Diretrizes para intervalos de datas e visualizações do painel {#guidelines-panel-dates}
+## Guidelines for panel date ranges and previews {#guidelines-panel-dates}
 
-* A partir da versão de fevereiro, as visualizações de componentes e dados serão baseadas no intervalo de datas do painel e não nos últimos 90 dias.
-* Todos os componentes listados no painel esquerdo estarão disponíveis com base no intervalo de datas do painel.
-* Todas as visualizações de data nos construtores de métrica calculada e de segmento serão baseadas no intervalo de datas do painel, a menos que sejam acessadas pelos gerentes de componente, que não têm um painel associado; neste caso, elas ainda serão baseadas nos últimos 90 dias.
-* Quaisquer visualizações de dados exibirão dados ou componentes com base no intervalo de datas do painel.
+* Starting with the February release, component and data previews will be based on the panel date range and not the last 90 days. 
+* All components listed in the left rail will be available based on the panel date range. 
+* All date previews in the segment and calculated metric builders will be based on the panel date range (unless accessed from the component managers, which do not have an associated panel, they will still be based on the last 90 days). 
+* Any data previews will display data or components based on the panel date range.
+
+-->

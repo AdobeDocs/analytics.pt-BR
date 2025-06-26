@@ -4,15 +4,20 @@ title: Desativar a detecção de anomalias
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 58689d03-6801-4be2-88ec-af2d2c82e098
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 100%
+source-wordcount: '33'
+ht-degree: 45%
 
 ---
 
 # Desativar a detecção de anomalias
 
-Você pode desativar a detecção de anomalias ao nível da coluna acessando as configurações de coluna e desmarcando **[!UICONTROL Anomalias]**.
+Você pode desativar a detecção de anomalias ao nível da coluna.
 
-![](assets/turnoff_anomalies.png)
+1. Selecione ![Configuração](/help/assets/icons/Setting.svg) na coluna.
+   ![](assets/turn-off-anomalies.png)
+
+1. Desmarque **[!UICONTROL Mostrar anomalias]**.
+
+

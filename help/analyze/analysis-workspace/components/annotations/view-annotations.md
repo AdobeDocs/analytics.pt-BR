@@ -4,39 +4,63 @@ description: Como visualizar anotações no Espaço de trabalho.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '215'
+ht-degree: 88%
 
 ---
 
 # Exibir anotações
 
-As anotações se manifestam de forma um pouco diferente, dependendo se abrangem um único dia ou um intervalo de datas.
+As anotações se manifestam de forma um pouco diferente, dependendo de onde são exibidas e se abrangem um único dia ou um intervalo de datas.
 
-## Exibir anotações em gráficos de linha ou tabelas
+## Exibir anotações no Workspace
 
-| Data | Aparência |
+| Tipo de<br/>visualização | Descrição |
 | --- | --- |
-| **Dia único** | ![](assets/single-day.png)<p>Ao passar o mouse sobre a anotação, é possível visualizar os detalhes, editá-la selecionando o ícone de caneta ou excluí-la:<p> ![](assets/hover.png) |
-| **Intervalo de datas** | O ícone muda, e quando você passa o mouse sobre ele, o intervalo de datas é exibido.<p>![](assets/multi-day.png)<p>Ao selecioná-la no gráfico de linhas, os metadados da anotação são exibidos e você pode editá-los ou excluí-los:![](assets/multi-hover.png)<p>Em uma tabela, um ícone é exibido em cada data no intervalo de datas.<p>![](assets/multi-day-table.png) |
-| **Sobreposição de anotações** | Em dias que tenham mais de uma anotação vinculada a eles, o ícone aparece com a cor cinza.<p>![](assets/grey.png)<p>Ao passar o mouse sobre o ícone cinza, todas as anotações sobrepostas são exibidas:<p>![](assets/overlap.png) |
+| **Linha **<br/>**Dia único** | Ao selecionar ![Criar anotação](/help/assets/icons/Annotate.svg) em uma visualização de linha, você verá um pop-up com os detalhes da anotação.<br/>![Anotação de dia único](assets/annotation-single-day.png)<br/>Para editar a anotação no [Criador de anotações](create-annotations.md#annotation-builder), selecione ![Editar](/help/assets/icons/Edit.svg). Para excluir a anotação, clique em ![Excluir](/help/assets/icons/Delete.svg). |
+| **Linha **<br/>**Intervalo de datas** | Ao selecionar ![AnnotateRange](/help/assets/icons/AnnotateRange.svg), você verá um pop-up com os detalhes da anotação e uma linha na parte inferior indicando o intervalo de datas.<br/>![Intervalo de anotações](assets/annotation-range.png)Para editar a anotação no [Criador de anotações](create-annotations.md#annotation-builder), clique em ![Editar](/help/assets/icons/Edit.svg). Para excluir a anotação, clique em ![Excluir](/help/assets/icons/Delete.svg). |
+| **Tabela de forma livre** | Em uma tabela de forma livre, você pode acessar todas as anotações por meio do botão de anotações na parte superior direita da visualização. Selecione ![Criar anotação](/help/assets/icons/Annotate.svg) para ver uma lista de rolagem de todas as anotações.<br/>![Tabela de anotações](assets/annotations-table.png)<br/>Em cada anotação, é possível selecionar ![Editar](/help/assets/icons/Edit.svg) para editar a anotação no [Criador de anotações](create-annotations.md#annotation-builder) e ![Excluir](/help/assets/icons/Delete.svg) para excluir a anotação. |
 
 {style="table-layout:auto"}
 
-## Exibir anotações em um arquivo PDF
+## Visualizar anotações em um PDF
 
-Como não é possível passar o mouse sobre os ícones em um arquivo PDF, esse arquivo (após a exportação) fornece notas explicativas na parte inferior de um painel. Exemplo:
+Ao baixar ou enviar um projeto como um PDF, as anotações são resumidas na seção Resumo de anotações.
+
+![Visualização de um arquivo .pdf com destaque para as explicações sobre as anotações.](assets/annotations-pdf.png)
+
+
+<!--
+# View annotations
+
+Annotations manifest slightly differently, depending on whether they span a single day or a date range.
+
+## View annotations in Line charts or Tables
+
+| Date | Appearance |
+| --- | --- |
+| **Single day** |   ![](assets/single-day.png)<p>When you hover over the annotation, you can see its details, you can edit it by selecting the pen icon, or you can delete it:<p> ![](assets/hover.png) |
+| **Date range** |  The icon changes and when you hover over it, the date range appears.<p>![](assets/multi-day.png)<p>When you select it in the line chart, the annotation metadata appear, and you can edit or delete it:![](assets/multi-hover.png)<p>In a table, an icon appears on every date in the date range.<p>![](assets/multi-day-table.png)|
+| **Overlapping annotations** | On days that have more than one annotation tied to them, the icon appears in a grey color.<p>![](assets/grey.png)<p>When you hover over the grey icon, all overlapping annotations appear:<p>![](assets/overlap.png) |
+
+{style="table-layout:auto"}
+
+## View annotations in a .pdf file
+
+Since you cannot hover over icons in a .pdf file, this file (after export) provides notes of explanations at the bottom of a panel. Here is an example:
 
 ![](assets/ann-pdf.png)
 
-## Exibir anotações com dados sem tendência
+## View annotations with non-trended data
 
-Às vezes, a anotação é mostrada com dados sem tendências, mas vinculada a uma dimensão específica. Nesse caso, elas aparecem somente em um resumo de anotação no canto inferior direito. Veja um exemplo:
+Sometimes annotation are shown with non-trended data, but tied to a specific dimension. In that case, they appear only in a summary annotation in the bottom right corner. Here is an example:
 
 ![](assets/non-date.png)
 
-O gráfico de resumo é exibido em todos os tipos de visualização no canto, não apenas em tabelas de forma livre sem tendência e números de resumo. Também aparece em visualizações como [!UICONTROL Rosca], [!UICONTROL Fluxo], [!UICONTROL Fallout], [!UICONTROL Coorte] e assim por diante.
+The summary chart appears in all visualization types in the corner, not just in non-trended freeform tables and summary numbers. It also appears in visualizations like [!UICONTROL Donut], [!UICONTROL Flow],[!UICONTROL Fallout],[!UICONTROL Cohort], and so on.
 
 ![](assets/ann-summary.png)
+
+-->

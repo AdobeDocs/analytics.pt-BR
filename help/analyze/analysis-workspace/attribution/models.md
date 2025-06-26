@@ -4,83 +4,108 @@ description: Como diferentes tipos de atribuição dividem crédito entre itens 
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 94%
+source-wordcount: '94'
+ht-degree: 45%
 
 ---
 
-# Modelos de atribuição e janelas de pesquisa
+# Modelos de atribuição, contêineres e janelas de pesquisa
 
-O conceito de atribuição no Adobe Analytics requer dois componentes:
+O conceito de atribuição no Adobe Analytics envolve três componentes:
 
 * **Modelo de atribuição:** o modelo descreve a distribuição de conversões nas ocorrências de um grupo. Por exemplo, primeiro ou último contato.
-* **Janela de retrospectiva de atribuição:** descreve quais agrupamentos de ocorrências são considerados para cada modelo. Por exemplo, visita ou visitante.
+* **Contêiner**: o contêiner define o escopo da atribuição ou como agrupar as ocorrências para cada modelo.
+* **Janela de retrospectiva de atribuição:** a janela de retrospectiva descreve o número de dias para retrospectiva do modelo escolhido.
+
 
 ## Modelos de atribuição
 
-| Ícone da interface do usuário | Modelo de atribuição | Definição | Quando usar |
-| --- | --- | --- | --- |
-| ![Último contato](assets/last_touch1.png) | Último contato | Dá 100% de crédito ao ponto de contato mais recente antes da conversão. | É o modelo de atribuição mais básico e comum. É utilizado com frequência para conversões com um ciclo de curto consideração. O modelo Último contato é usado por equipes responsáveis por gerenciar marketing de pesquisa ou analisar palavras-chave de pesquisa interna. |
-| ![Primeiro contato](assets/first_touch.png) | Primeiro contato | Dá 100% de crédito ao primeiro ponto de contato visto na janela de retrospectiva de atribuição. | Também é um modelo de atribuição comum e útil para analisar canais de marketing com o fim de impulsionar a percepção da marca ou a conquista de clientes. O modelo Primeiro contato é usado com frequência por equipes de marketing de exibição ou de marketing social, mas também é útil para avaliar a eficiência das recomendações locais de produtos. |
-| ![Mesmo contato](assets/same_touch.png) | Mesmo contato | Dá 100% de crédito à ocorrência em que ocorreu a conversão. Se o ponto de contato e a conversão não estiverem relacionados com a mesma ocorrência, o ponto de contato será agrupado em “Nenhum”. | Este modelo é útil para avaliar o conteúdo ou a experiência do usuário apresentados no momento da conversão. Equipes de produto ou de design geralmente usam esse modelo para avaliar a eficácia de uma página na qual ocorre a conversão. |
-| ![Linear](assets/linear.png) | Linear | Dá crédito igual a todos os pontos de contato que resultem em uma conversão. | Este modelo é útil para conversões com ciclos de consideração mais longos ou experiências do usuário que requerem um engajamento do cliente mais frequente. A atribuição linear é usada com frequência por equipes de produtos com base em assinatura ou responsáveis por medir a eficácia de notificações de aplicativos móveis. |
-| ![Forma de U](assets/u_shaped.png) | Forma de U | Dá crédito de 40% à primeira interação, de 40% à última interação, e divide os 20% restantes para os pontos de contato entre as duas. Para conversões com um só ponto de contato, o crédito é de 100%. Para conversões com dois pontos de contato, o crédito é de 50% para ambos. | É um ótimo modelo para quem valoriza as interações que introduziram ou concluíram uma conversão, mas ainda quer reconhecer as interações de assistência. O modelo em Forma de U é usado com frequência por equipes que têm uma abordagem mais equilibrada, mas desejam atribuir mais crédito a canais que introduziram ou concluíram uma conversão. |
-| ![Forma de J](assets/j_shaped.png) | Forma de J | Dá crédito de 60% à última interação, de 20% à primeira interação, e divide os 20% restantes para os pontos de contato entre as duas. Para conversões com um só ponto de contato, o crédito é de 100%. Para conversões com dois pontos de contato, o crédito é de 75% para a última interação e de 25% para a primeira. | Esse modelo é excelente para quem prioriza a descoberta e a conclusão de conversões, mas quer se concentrar em interações de conclusão. A atribuição em Forma de J é frequentemente usada por equipes com uma abordagem mais equilibrada, que desejam atribuir mais crédito a canais que concluíram uma conversão. |
-| ![Forma de J invertido](assets/inverse_j.png) | J invertido | Dá 60% de crédito ao primeiro ponto de contato, 20% de crédito ao último ponto de contato e divide os 20% restantes para os pontos de contato entre os dois. Para conversões com um só ponto de contato, o crédito é de 100%. Para conversões com dois pontos de contato, o crédito é de 75% para a primeira interação e de 25% para a última. | Esse modelo é ideal para quem prioriza a descoberta e a conclusão de conversões, mas quer focalizar a descoberta de interações. A atribuição em forma de J invertido é frequentemente usada por equipes com uma abordagem mais equilibrada, que desejam atribuir mais crédito a canais que iniciaram uma conversão. |
-| ![Personalizado](assets/custom.png) | Personalizado | Permite que você especifique os pesos que deseja atribuir ao primeiro, ao último e ao resto de pontos de contato. Os valores especificados são regularizados para 100% mesmo se os números inseridos, quando somados, não resultarem em 100. Para conversões com um só ponto de contato, o crédito é de 100%. Para interações com dois pontos de contato, o parâmetro intermediário é ignorado. O primeiro e o último ponto de contato são normalizados para 100% e o crédito é atribuído em conformidade. | Esse modelo é perfeito para quem quer controle total sobre seu modelo de atribuição e tem necessidades específicas que outros modelos de atribuição não atendem. |
-| ![Declínio de tempo](assets/time_decay.png) | Declínio de tempo | Segue um declínio exponencial com um parâmetro personalizado de meia-vida e padrão de 7 dias. O peso de cada canal depende da quantidade de tempo decorrido entre a iniciação do ponto de contato e a conversão final. A fórmula usada para determinar o crédito é `2^(-t/halflife)`, em que `t` é o tempo entre um ponto de contato e uma conversão. Todos os pontos de contato são normalizados para 100%. | Ideal para equipes que fazem publicidade em vídeos ou marketing para eventos com data predeterminada. Quanto mais tarde ocorrer uma conversão após um evento de marketing, menos crédito será dado. |
-| ![Participação](assets/participation.png) | Participação | Dá 100% de crédito a todos os pontos de contato exclusivos. O número total de conversões aumenta em comparação com outros modelos de atribuição. A participação remove a duplicação de canais que são vistos várias vezes. | Excelente para identificar a quem os clientes são expostos com frequência em uma determinada interação. As organizações de mídia usam esse modelo frequentemente para calcular a velocidade do conteúdo. As varejistas geralmente usam esse modelo para identificar as partes do site que são essenciais para a conversão. |
-| ![Algorítmico](assets/algorithmic.png) | [Algorítmico](algorithmic.md) | Usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. | Útil para ajudar a evitar adivinhações ou heurística ao escolher o modelo de atribuição correto para sua empresa. |
+{{attribution-models-details}}
 
-## Janelas de retrospectiva
 
-As janelas de retrospectiva representam quanto tempo uma conversão deve retroceder para incluir pontos de contato. Os modelos de atribuição que dão mais crédito às primeiras interações veem diferenças maiores ao exibir diferentes janelas de retrospectiva.
+## Containers
 
-* **Janela de retrospectiva de visita:** retroage até o início de uma visita em que ocorreu uma conversão. As janelas de retrospectiva de visita são pequenas, pois não consideram nada além da visita. As janelas de retrospectiva de visita respeitam a definição de visita modificada em conjuntos de relatórios virtuais.
+{{attribution-container}}
 
-* **Janela de retrospectiva do visitante:** verifica todas as visitas até o primeiro dia do mês do intervalo de datas atual. As janelas de retrospectiva do visitante são amplas, pois podem abranger muitas visitas. A pesquisa de Visitante considera todos os valores do início do mês do intervalo de datas do relatório. Por exemplo, se o intervalo de datas de um relatório for de 15 a 30 de setembro, o intervalo de datas da retrospectiva do visitante será de 1º a 30 de setembro.
 
-* **Janela de pesquisa personalizada:** permite expandir a janela de atribuição além do intervalo de datas do relatórios até um máximo de 90 dias. As janelas de pesquisa personalizadas são avaliadas em cada conversão no período do relatórios. Por exemplo, para uma conversão que ocorre em 20 de fevereiro, uma janela de pesquisa de 10 dias avaliaria todos os pontos de contato de dimensão de 10 a 20 de fevereiro no modelo de atribuição.
+## Janela de pesquisa
 
->[!BEGINSHADEBOX]
-
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Janela de pesquisa personalizada](https://video.tv.adobe.com/v/40043?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
-
->[!ENDSHADEBOX]
+{{attribution-lookback-window}}
 
 
 ## Exemplo
 
-Considere o exemplo a seguir:
+{{attribution-example}}
 
-1. Em 15 de setembro, um visitante chega ao seu site através de um anúncio de pesquisa pago e depois sai.
-2. Em 18 de setembro, o visitante chega ao seu site novamente através de um link de mídia social que recebeu de um amigo. Eles adicionam vários itens ao carrinho, mas não compram nada.
-3. Em 24 de setembro, sua equipe de marketing envia um email com um cupom para alguns dos itens em seu carrinho. Eles aplicam o cupom, mas visitam vários outros sites para ver se existem outros cupons disponíveis. Eles encontram outro cupom por meio de um anúncio de exibição e, em seguida, fazem uma compra de US$ 50.
 
-Dependendo da janela de retrospectiva e do modelo de atribuição, os canais recebem crédito diferente. Veja a seguir alguns exemplos:
+<!--
+## Attribution models
 
-* Usando o modelo **primeiro contato** e uma **janela de retrospectiva de visita**, a atribuição considera somente a terceira visita. Entre email e exibição, o email foi o primeiro, então o email recebe 100% de crédito pela compra de US$ 50.
-* Usando o modelo **primeiro contato** e uma **janela de retrospectiva de visitante**, a atribuição considera todas as três visitas. A pesquisa paga foi a primeira, então ela recebe 100% de crédito pela compra de US$ 50.
-* Usando o modelo **linear** e uma **janela de retrospectiva de visita**, o crédito é dividido entre email e exibição. Ambos os canais recebem um crédito de US$ 25 dólares.
-* Usando o modelo **linear** e uma **janela de retrospectiva de visitante**, o crédito é dividido entre pesquisa paga, redes sociais, email e exibição. Cada canal recebe um crédito de US$ 12,50 por esta compra.
-* Usando o modelo em **Forma de J** e uma **janela de retrospectiva de visitante**, o crédito é dividido entre pesquisa paga, redes sociais, email e exibição.
-   * O crédito será de 60% para a exibição (US$ 30).
-   * De 20% para a pesquisa paga (US$ 10).
-   * Os 20% restantes são divididos entre redes sociais e email (US$ 5 para cada).
-* Usando o modelo **Declínio de tempo** e uma **janela de pesquisa de visitante**, o crédito é dividido entre pesquisa paga, redes sociais, email e exibição. Usando a meia-vida padrão de 7 dias:
-   * Intervalo de 0 dias entre o ponto de contato de exibição e a conversão. `2^(-0/7) = 1`
-   * Intervalo de 0 dias entre o ponto de contato do email e a conversão. `2^(-0/7) = 1`
-   * Intervalo de 6 dias entre o ponto de contato social e a conversão. `2^(-6/7) = 0.552`
-   * Intervalo de 9 dias entre o ponto de contato de pesquisa paga e a conversão. `2^(-9/7) = 0.41`
-   * A normalização desses valores resulta no seguinte:
-      * Exibição: 33,8%, crédito de US$ 16,88
-      * Email: 33,8%, crédito de US$ 16,88
-      * Redes sociais: 18,6%, crédito de US$ 9,32
-      * Pesquisa paga: 13,8%, crédito de US$ 6,92
-* Usando a **Participação** e uma **janela de retrospectiva de visitante**, os US$ 50,00 totais são atribuídos à pesquisa paga, redes sociais, email e exibição. Se você visualizar a receita como um relatório de tendências em vez de um relatório classificado, verá os US$ 50 em cada dia respectivo em que o visitante entrou em contato com um determinado canal de marketing.
+| UI icon | Attribution model | Definition | When to use |
+| --- | --- | --- | --- |
+| ![Last Touch](assets/last_touch1.png) | Last Touch | Gives 100% credit to the touch point occurring most recently before conversion. | The most basic and common attribution model. It is frequently used for conversions with a short consideration cycle. Last Touch is commonly used by teams managing search marketing or analyzing internal search keywords. |
+| ![First Touch](assets/first_touch.png) | First Touch | Gives 100% credit to the touch point first seen in the attribution lookback window. | Another common attribution model useful for analyzing marketing channels intended to drive brand awareness or customer acquisition. It is frequently used by display or social marketing teams, but is also great for assessing onsite product recommendation effectiveness. |
+| ![Same Touch](assets/same_touch.png) | Same Touch | Gives 100% credit to the very hit where the conversion occurred. If a touch point does not happen on the same hit as a conversion, It is bucketed under "None". | A helpful model when evaluating the content or user experience that was presented immediately at the time of conversion. Product or design teams often use this model to assess the effectiveness of a page where conversion happens. |
+| ![Linear](assets/linear.png) | Linear | Gives equal credit to every touch point seen leading up to a conversion. | Useful for conversions with longer consideration cycles or user experiences that need more frequent customer engagement. It is often used by teams measuring mobile app notification effectiveness or with subscription-based products. |
+| ![U-Shaped](assets/u_shaped.png) | U-Shaped | Gives 40% credit to the first interaction, 40% credit to the last interaction, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 50% credit is given to both. | A great model for those who value interactions that introduced or closed a conversion, but still want to recognize assisting interactions. U-Shaped attribution is commonly used by teams who take a more balanced approach but want to give more credit to channels that found or closed a conversion. |
+| ![J-Shaped](assets/j_shaped.png) | J-Shaped | Gives 60% credit to the last interaction, 20% credit to the first interaction, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 75% credit is given to the last interaction, and 25% credit is given to the first. | This model is great for those who prioritize finders and closers, but want to focus on closing interactions. J-Shaped attribution is frequently used by teams who take a more balanced approach and want to give more credit to channels that closed a conversion. |
+| ![Inverse J-Shaped](assets/inverse_j.png) | Inverse J | Gives 60% credit to the first touch point, 20% credit to the last touch point, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 75% credit is given to the first interaction, and 25% credit is given to the last. | This model is ideal for those who prioritize finders and closers, but want to focus on finding interactions. Inverse J attribution is used by teams who take a more balanced approach and want to give more credit to channels that initiated a conversion. |
+| ![Custom](assets/custom.png) | Custom | Allows you to specify the weights you want to give to first touch points, last touch points, and any touch points in between. Values specified are normalized to 100% even if the custom numbers entered do not add to 100. For conversions with a single touch point, 100% credit is given. For interactions with two touch points, the middle parameter is ignored. The first and last touch points are then normalized to 100%, and credit is assigned accordingly. | This model is perfect for those who want full control over their attribution model and have specific needs that other attribution models do not fulfill. |
+| ![Time Decay](assets/time_decay.png) | Time-Decay | Follows an exponential decay with a custom half-life parameter, where the default is 7 days. The weight of each channel depends on the amount of time that passed between the touch point initiation and the eventual conversion. The formula used to determine credit is `2^(-t/halflife)`, where `t` is the amount of time between a touch point and a conversion. All touch points are then normalized to 100%. | Great for teams who regularly run video advertising or who market against events with a predetermined date. The longer a conversion happens after a marketing event, the less credit is given. |
+| ![Participation](assets/participation.png) | Participation | Gives 100% credit to all unique touch points. The total number of conversions is inflated compared to other attribution models. Participation deduplicates channels that are seen multiple times. | Excellent for understanding how often customers are exposed to a given interaction. Media organizations frequently use this model to calculate content velocity. Retail organizations often use this model to understand which parts of their site are critical to conversion. |
+| ![Algorithmic](assets/algorithmic.png) | [Algorithmic](algorithmic.md) |  Uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. | Useful to help avoid guesswork or heuristics when choosing the right attribution model for your business.  |
+
+## Lookback windows
+
+A lookback window is the amount of time a conversion should look back to include touch points. Attribution models that give more credit to first interactions see larger differences when viewing different lookback windows.
+
+* **Visit lookback window:** Looks back up to the beginning of a the visit where a conversion happened. Visit lookback windows are narrow, as they don't look beyond the visit. Visit lookback windows respect the modified visit definition in virtual report suites.
+
+* **Visitor lookback window:** Looks at all visits back up to the 1st of the month of the current date range. Visitor lookback windows are wide, as they can span many visits. Visitor lookback considers all values from the beginning of the month of the report's date range. For example, if the report date range is September 15 - September 30, the visitor lookback date range includes September 1 - September 30.
+
+* **Custom lookback window:** Allows you to expand the attribution window beyond the reporting date range, up to a maximum of 90 days. Custom lookback windows are evaluated on each conversion in the reporting period. For example, for a conversion occurring on February 20, a lookback window of 10 days would evaluate all dimension touchpoints from February 10 - February 20 in the attribution model.
+
+>[!BEGINSHADEBOX]
+  
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
+  
+>[!ENDSHADEBOX]
+
+
+## Example
+
+Consider the following example:
+
+1. On September 15, a visitor arrives to your site through a paid search advertisement, then leaves.
+2. On September 18, the visitor arrives to your site again through a social media link they got from a friend. They add several items to their cart, but do not purchase anything.
+3. On September 24, your marketing team sends them an email with a coupon for some of the items in their cart. They apply the coupon, but visit several other sites to see if any other coupons are available. They find another through a display ad, then ultimately make a purchase for $50.
+
+Depending on your lookback window and attribution model, channels receive different credit. The following are some notable examples:
+
+* Using **first touch** and a **visit lookback window**, attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase.
+* Using **first touch** and a **visitor lookback window**, attribution looks at all three visits. Paid search was first, so it gets 100% credit for the $50 purchase.
+* Using **linear** and a **visit lookback window**, credit is divided between email and display. Both of these channels each get $25 credit.
+* Using **linear** and a **visitor lookback window**, credit is divided between paid search, social, email, and display. Each channel gets $12.50 credit for this purchase.
+* Using **J-shaped** and a **visitor lookback window**, credit is divided between paid search, social, email, and display.
+  * 60% credit is given to display, for $30.
+  * 20% credit is given to paid search, for $10.
+  * The remaining 20% is divided between social and email, giving $5 to each.
+* Using **Time Decay** and a **visitor lookback window**, credit is divided between paid search, social, email, and display. Using the default 7-day half-life:
+  * Gap of 0 days between display touch point and conversion. `2^(-0/7) = 1`
+  * Gap of 0 days between email touch point and conversion. `2^(-0/7) = 1`
+  * Gap of 6 days between social touch point and conversion. `2^(-6/7) = 0.552`
+  * Gap of 9 days between paid search touch point and conversion. `2^(-9/7) = 0.41`
+  * Normalizing these values results in the following:
+    * Display: 33.8%, getting $16.88
+    * Email: 33.8% getting $16.88
+    * Social: 18.6%, getting $9.32
+    * Paid Search: 13.8%, getting $6.92
+* Using **Participation** and a **visitor lookback window**, the full $50 is attributed to paid search, social, email, and display. If you view revenue as a trended report instead of a ranked report, you would see the $50 on each respective day that the visitor touched a given marketing channel.
 
 >[!TIP]
 >
->Outros eventos de conversão, como pedidos ou eventos personalizados, também são divididos se o crédito pertencer a mais de um canal. Por exemplo, se dois canais contribuem para um evento personalizado usando um modelo de atribuição Linear, ambos os canais obtêm 0,5 do evento personalizado. Essas frações de evento são somadas em todas as visitas e em seguida arredondadas para o número inteiro mais próximo para o relatório.
+>Other conversion events, such as orders or custom events, are also divided if credit belongs to more than one channel. For example, if two channels contribute to a custom event using a Linear attribution model, both channels get 0.5 of the custom event. These event fractions are summed across all visits, then rounded to the nearest integer for reporting.
+
+-->

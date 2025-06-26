@@ -3,10 +3,10 @@ title: Analisar Canais de marketing
 description: Saiba como usar dimensões de Canais de marketing no Workspace.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 95%
+source-wordcount: '405'
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Para maximizar a eficácia dos canais de marketing para atribuição e análise da jornada do cliente, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Para maximizar a eficiência dos Canais de marketing para Atribuição e Adobe Analytics, publicamos algumas [práticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Admins do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 

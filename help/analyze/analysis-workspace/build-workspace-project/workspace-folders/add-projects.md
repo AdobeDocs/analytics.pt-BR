@@ -4,70 +4,120 @@ keywords: Analysis Workspace
 title: Adicionar pastas ao Espaço de trabalho
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
+source-git-commit: 83345d6fa51253e7c316cd1b2ebee2f4f82e9d00
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 93%
 
 ---
 
-# Adicionar projetos a pastas
 
-Você pode adicionar projetos a uma pasta na exibição de tabela ou de uma pasta.
+# Adicionar ou mover projetos para pastas
+
+É possível adicionar ou mover projetos para uma pasta diretamente da [lista de projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
+
+## Mover projetos para uma pasta
 
 >[!NOTE]
 >
->Somente administradores do Analytics podem adicionar projetos à pasta da empresa ou criar um novo projeto e salvá-lo nela
+>Quando um(a) admin move um projeto para a pasta da empresa, essa pasta é compartilhada com todos, mesmo que os privilégios compartilhados existentes sejam restritos. Quando um(a) admin move um projeto para fora da pasta da empresa, os privilégios compartilhados existentes são reaplicados.
+>
 
-## Na exibição de tabela {#table-view}
+Para mover projetos para uma pasta da [lista de projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list):
 
-Adicione projetos a uma pasta na exibição de tabela na página inicial.
+1. Selecione ![SelectBox](/help/assets/icons/SelectBox.svg) um ou mais projetos que você deseja mover para uma pasta.
 
-1. Selecione um ou mais projetos que deseja adicionar a uma pasta.
+1. Selecione ![FolderAddTo](/help/assets/icons/FolderAddTo.svg) **Mover para** na lista de [ações](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) possíveis. A caixa de diálogo **[!UICONTROL Selecionar pasta]** é exibida.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+1. Selecione um nome de pasta no menu suspenso **[!UICONTROL Pasta]**. O menu suspenso permite percorrer a hierarquia de pastas para selecionar uma subpasta em qualquer nível.
 
-1. Selecione **Mover para**.
+   ![A visualização Selecionar pasta mostrando o menu suspenso e as subpastas disponíveis.](../assets/add-projects.png)
 
-   A caixa de diálogo Selecionar pasta é exibida.
+1. Selecione **[!UICONTROL Mover]**.
 
-1. No menu suspenso, selecione a pasta para onde deseja mover os projetos selecionados.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
-
-1. Selecione **Mover**.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
    Os projetos selecionados são adicionados à pasta.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
 
-   A página de destino do Espaço de trabalho agora mostra a pasta que contém (3) projetos.
+## Adicionar projetos a uma pasta
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+Para adicionar projetos a uma pasta da [lista de projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list):
 
-## De dentro de uma pasta {#inside-folder}
+1. Selecione ![SelectBox](/help/assets/icons/SelectBox.svg) a pasta à qual deseja adicionar projetos.
 
-Você também pode adicionar projetos de dentro de uma pasta usando o link de reticências.
+1. Selecione ![ProjectAdd](/help/assets/icons/ProjectAdd.svg) **Adicionar projetos** na lista de [ações](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) possíveis. A caixa de diálogo **[!UICONTROL Selecionar pasta]** é exibida.
 
-1. Selecione e abra uma pasta na exibição de tabela.
+1. Selecione um ou mais projetos em [!UICONTROL *Selecionar projetos para adicionar à pasta*].
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+   ![A visualização Selecionar pasta mostrando o menu suspenso e as subpastas disponíveis.](../assets/add-projects-folder.png)
 
-1. Selecione o ícone de reticências (**...**) no canto superior direito.
+1. Selecione **[!UICONTROL Adicionar]**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-1. Clique em **Adicionar projetos** e selecione o projeto que deseja adicionar na lista suspensa.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
+>[!NOTE]
+>
+>Somente admins podem adicionar projetos à pasta da empresa ou criar um novo projeto e salvá-lo nessa pasta
 
 
-1. (Opcional) Selecione projetos adicionais na lista suspensa para adicionar vários projetos.
+<!--
+# Add Projects to Folders
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
+You can add projects to a folder in the table view or from within a folder.
 
-1. Clique em **Adicionar** para adicionar os projetos à pasta.
+>[!NOTE]
+>
+>Only Analytics administrators can add projects to the Company Folder or create a new project and save it to the Company Folder
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
+## From the table view {#table-view}
+
+Add projects to a folder from the table view on the home page.
+
+1.  Select one or more projects that you want to add to a folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+
+1.  Select **Move to**. 
+
+    The Select Folder dialogue is displayed.
+
+1.  In the drop-down menu, select the folder where you want to move the selected projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
+
+1.  Select **Move**.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
+
+    The selected projects are added to the folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
+
+    The Workspace landing page now shows the folder contains (3) projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+
+## From inside a folder {#inside-folder}
+
+You can also add projects from inside a folder using the ellipses link.
+
+1.  Select and open a folder from the table view.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+
+1.  Select the **...** ellipsis icon in the upper-right.
+   
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
+
+1.  Select **Add projects** and select the project that you want to add from the drop-down list.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
+
+    
+1.  (Optional) Select additional projects from the drop-down list to add multiple projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
+
+1.  Select **Add** to add the projects to the folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
+
+-->

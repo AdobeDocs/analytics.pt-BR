@@ -3,10 +3,10 @@ description: Nem todos os segmentos criados no Construtor de segmentos são comp
 title: Compatibilidade de segmentos de Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 95%
+ht-degree: 81%
 
 ---
 
@@ -45,14 +45,14 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
   </tr> 
   <tr> 
    <td> <b>Dimensões</b> </td> 
-   <td>Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, há suporte para essas dimensões somente no Analysis Workspace, no Reports &amp; Analytics: 
+   <td>Arraste e solte uma dimensão no campo <span class="uicontrol"> Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, há suporte para essas dimensões somente no Analysis Workspace, no Reports &amp; Analytics: 
     <ul> 
      <li>Servidor de entrada </li> 
      <li>Categoria de entrada </li> 
      <li>Data de entrada </li> 
      <li>Toda a classificação da página de pesquisa </li> 
     </ul> </td> 
-   <td> Arraste e solte uma dimensão no campo <span class="uicontrol">Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são suportadas somente no Data Warehouse: 
+   <td> Arraste e solte uma dimensão no campo <span class="uicontrol"> Definições</span> do Construtor de segmentos para descobrir mais sobre a compatibilidade do produto. Por exemplo, essas dimensões são suportadas somente no Data Warehouse: 
     <ul> 
      <li>Endereço IP </li> 
      <li>URL da página </li> 
