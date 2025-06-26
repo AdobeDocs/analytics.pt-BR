@@ -3,14 +3,14 @@ description: Permite usar o segmento em atividades de marketing na biblioteca de
 title: Publicar segmentos no Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 63%
+source-wordcount: '1363'
+ht-degree: 58%
 
 ---
 
-# Publicar segmentos na Experience Cloud {#publish-segments}
+# Publicar segmentos {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
@@ -23,14 +23,14 @@ ht-degree: 63%
 >abstract="Os segmentos criados na biblioteca de públicos-alvo estão disponíveis instantaneamente e não dependem das atualizações do Analytics."
 
 
-A publicação de um segmento do Adobe Analytics no Experience Cloud permite que você use o segmento para atividade de marketing no [!DNL Audience Manager] e em outros canais de ativação, incluindo o [!DNL Advertising Cloud], [!DNL Target] e [!DNL Campaign] do Adobe.
+Você pode publicar um segmento do Adobe Analytics na Experience Cloud para usar o segmento em atividades de marketing no [!DNL Audience Manager] e em outros canais de ativação, incluindo o [!DNL Advertising Cloud], [!DNL Target] e [!DNL Campaign] da Adobe.
 
 Você pode publicar segmentos do Analytics no Experience Cloud em menos de 8 horas. Use esses segmentos para ativar públicos-alvo no Audience Manager para todos os destinos downstream.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar segmentos](https://video.tv.adobe.com/v/37055?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar segmentos](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -68,8 +68,8 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 1. No Adobe Analytics, vá para **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**
 1. Selecione **[!UICONTROL Adicionar]** para criar um novo segmento.
    ![Publicar na Experience Cloud](assets/publish-ec.png)
-1. Forneça um título e uma descrição para o segmento. Esses campos são obrigatórios antes de salvar.
-1. Na seção **[!UICONTROL Publicação do Experience Cloud]**, selecione a opção, **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**.
+1. Forneça um título e uma descrição para o segmento. Esses campos são obrigatórios antes de salvar o segmento.
+1. Na seção **[!UICONTROL Publicação do Experience Cloud]**, selecione a opção **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**.
 
    >[!IMPORTANT]
    >
@@ -79,14 +79,17 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 | Elemento | Descrição |
 |---|---|
 | **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]** | Quando essa opção é ativada, o título e a definição do segmento (ou seja, o público-alvo da shell, como muitas vezes é usado em plataformas de anúncios) são compartilhados com a Experience Cloud instantaneamente, enquanto a associação do segmento é avaliada e compartilhada a cada 4 horas. <br> Quando esse público-alvo é associado a uma atividade no [!DNL Target], por exemplo, o [!DNL Analytics] começa a enviar IDs para os visitantes que se qualificaram para esse público-alvo da Experience Cloud e do [!DNL Target]. Nesse momento, o nome do público-alvo e os dados correspondentes começam a ser exibidos na página [!DNL Audience Library] no Experience Cloud. </br> |
-| **[!UICONTROL Janela de criação de público-alvo]** | O período selecionado é usado para criar o público-alvo com base no calendário rotativo. Por exemplo, &quot;Últimos 30 dias&quot; (padrão) inclui visitantes que se qualificaram para o público-alvo nos últimos 30 dias a partir da data de hoje (NÃO a partir da data original quando o segmento foi criado). |
+| **[!UICONTROL Janela de criação de público-alvo]** | O período selecionado é usado para criar o público-alvo com base no calendário rotativo. Por exemplo, **[!UICONTROL Últimos 30 dias]** (padrão) inclui visitantes que se qualificaram para o público-alvo nos últimos 30 dias a partir da data de hoje (NÃO a partir da data original quando o segmento foi criado). |
 | **[!UICONTROL Criar na biblioteca de público-alvo]** | Os segmentos criados e publicados podem ser disponibilizados sem latência na página [!DNL Audience Library] do Experience Cloud. Eles não dependem das atualizações do Analytics. Esses segmentos não contam com o limite de 75 segmentos publicados. |
 | **[!UICONTROL x de 75 Publicados]** | Mostra o número de segmentos publicados no Experience Cloud. Clique no link para ver uma lista de segmentos publicados e seu conjunto de relatórios associado e o proprietário. |
 | **[!UICONTROL Salvar]** | Salva este segmento. |
 
 ## Cancelar a publicação ou excluir segmentos
 
-Para excluir um segmento publicado no Experience Cloud, é necessário cancelar a publicação primeiro. Para cancelar a publicação de um segmento, basta **desmarcar** a caixa de seleção usada para publicá-lo.
+>[!CAUTION]
+>
+>Para excluir um segmento publicado no Experience Cloud, é necessário cancelar a publicação do segmento primeiro. Para cancelar a publicação de um segmento, basta desmarcar **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**.
+
 
 >[!NOTE]
 >
@@ -100,9 +103,7 @@ Para exibir segmentos publicados:
 
 1. No Adobe Analytics, vá para **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
 
-1. Exiba a coluna **[!UICONTROL Publicado]**. **[!UICONTROL Sim]** nesta coluna indica que o segmento foi publicado no Experience Cloud. **[!UICONTROL Não]** indica que não.
-
-   ![Publicar status](assets/publish-status.png)
+1. Exiba a coluna **[!UICONTROL Publicado]**. **[!UICONTROL Sim]** nesta coluna indica que o segmento foi publicado no Experience Cloud. **[!UICONTROL Não]** indica que o segmento não foi publicado.
 
 ## Recuperar a [!DNL Audience Manager] UUID
 
