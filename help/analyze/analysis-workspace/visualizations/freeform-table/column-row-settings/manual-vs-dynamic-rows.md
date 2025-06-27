@@ -58,7 +58,7 @@ As linhas dinâmicas e estáticas se comportam de maneira diferente na linha tot
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reordenar linhas estáticas](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reordenar linhas estáticas](https://video.tv.adobe.com/v/33843?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
