@@ -4,9 +4,9 @@ title: Criar métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1500'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -38,13 +38,13 @@ A caixa de diálogo **[!UICONTROL Criador de métricas calculadas]** é usada pa
 
    | Elemento | Descrição |
    | --- | --- |
-   | **[!UICONTROL Conjunto de relatórios]** | Você pode selecionar o conjunto de relatórios para a métrica calculada.  A métrica calculada definida está disponível nos projetos do Workspace com base no conjunto de relatórios selecionado. |
+   | **[!UICONTROL Conjunto de relatórios]** | Você pode selecionar o conjunto de relatórios para a métrica calculada.  A métrica calculada que você define está disponível nos projetos do Espaço de trabalho com base no conjunto de relatórios selecionado. |
    | **[!UICONTROL Métrica somente do projeto]** | Uma caixa de informações aparece na parte superior desta caixa de diálogo ao editar uma métrica calculada que foi criada para um único projeto, conforme descrito em [Criar métricas calculadas para um único projeto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). <p>Se quiser disponibilizar essa métrica calculada para todos os projetos, selecione a opção **[!UICONTROL Disponibilizar essa métrica para todos os seus projetos e adicioná-la à sua lista de componentes]**.</p> |
    | **[!UICONTROL Título]** ![Obrigatório](/help/assets/icons/Required.svg) | Nomeie a métrica calculada, por exemplo, como `Conversion Rate`. |
    | **[!UICONTROL Descrição]** | Forneça uma descrição para o segmento, por exemplo, `Calculated metric to define the conversion rate.` Não há necessidade de descrever a fórmula para a métrica calculada, pois a fórmula já é disponibilizada automaticamente em [!UICONTROL Resumo]. |
    | **[!UICONTROL Formato]** | Selecione um formato para a métrica calculada: você pode selecionar entre **[!UICONTROL Decimal]**, **[!UICONTROL Hora]**, **[!UICONTROL Porcentagem]** e **[!UICONTROL Moeda]**. |
    | **[!UICONTROL Casas decimais]** | Especifique a quantidade de casas decimais para o formato selecionado. Habilitado somente quando o formato selecionado é “Decimal”, “Moeda” ou “Porcentagem”. |
-   | **[!UICONTROL Exibir tendência ascendente como]** | Especifique se uma tendência de alta da métrica calculada será exibida como ▲ **[!UICONTROL Boa (Verde)]** ou como ▼ **[!UICONTROL Ruim (Vermelho)]**. |
+   | **[!UICONTROL Exibir tendência ascendente como]** | Especifique se uma tendência ascendente da métrica calculada é exibida como ▲ **[!UICONTROL Boa (Verde)]** ou como ▼ **[!UICONTROL Ruim (Vermelho)]**. |
    | **[!UICONTROL Moeda]** | Especifique a moeda da métrica calculada. Habilitado somente quando o formato selecionado é “Moeda”. |
    | **[!UICONTROL Tags]** | Para organizar a métrica calculada, crie ou aplique uma ou mais tags. Comece a digitar para encontrar as tags existentes que você pode selecionar. Ou pressione **[!UICONTROL ENTER]** para adicionar uma nova tag. Selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover uma tag. |
    | **[!UICONTROL Pré-visualizar]** | A visualização abrange os últimos 90 dias e é uma maneira de medir se você definiu a sua métrica corretamente. |
@@ -53,7 +53,7 @@ A caixa de diálogo **[!UICONTROL Criador de métricas calculadas]** é usada pa
 
 1. Para verificar se a definição da sua métrica calculada está correta, use a **[!UICONTROL Visualização]** atualizada constantemente dos resultados da métrica calculada. A **[!UICONTROL Visualização]** abrange os últimos 90 dias e avalia continuamente a definição da sua métrica calculada.
 
-   A **[!UICONTROL compatibilidade de produto]** indica a compatibilidade da métrica calculada com as funcionalidades do Adobe Analytics. Consulte [Compatibilidade de métrica](/help/components/c-calcmetrics/cm-compatibility.md) para obter mais informações.
+   A **[!UICONTROL Compatibilidade do produto]** indica a compatibilidade da métrica calculada com as funcionalidades do Adobe Analytics. Consulte [Compatibilidade da métrica](/help/components/c-calcmetrics/cm-compatibility.md) para obter mais informações.
 
 1. Selecione:
    * Clique em **[!UICONTROL Salvar]** para salvar a métrica calculada.
@@ -124,7 +124,7 @@ Use o conceito de um container de segmento para criar uma [métrica segmentada]
 * Para adicionar um container de segmento a partir de uma dimensão:
 
    1. Arraste e solte um componente ![Dimensões](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensões]** do painel de componentes para **[!UICONTROL Arraste e solte métricas, dimensões, itens de dimensão, segmentos e/ou funções aqui]**. Você pode usar a ![Pesquisa](/help/assets/icons/Search.svg) na barra de componentes para procurar componentes específicos.
-   1. No pop-up **[!UICONTROL Criar segmento a partir do Dimension]**, defina a condição do segmento. Selecione um valor na lista de operadores ou insira um valor. Por exemplo, **[!UICONTROL Mês]** **[!UICONTROL é igual a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+   1. No pop-up **[!UICONTROL Criar segmento a partir da dimensão]**, defina a condição para o segmento. Selecione um valor na lista de operadores ou insira um valor. Por exemplo, **[!UICONTROL Mês]** **[!UICONTROL é igual a]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
    1. Selecione **[!UICONTROL Concluído]**. Um container de segmento é adicionado à **[!UICONTROL Definição]**.
 
 
@@ -133,12 +133,12 @@ Use o conceito de um container de segmento para criar uma [métrica segmentada]
    * Arraste e solte um componente ![Segmentação](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]** do painel de componentes para **[!UICONTROL Arraste e solte métricas, dimensões, itens de dimensão, segmentos e/ou funções aqui]**. Você pode usar a ![Pesquisa](/help/assets/icons/Search.svg) na barra de componentes para pesquisar segmentos específicos.
 Isso adiciona automaticamente um container de segmento à **[!UICONTROL Definição]** usando o nome do segmento.
 
-   * Arraste e solte um componente ![Segmentação](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** do painel componentes em um contêiner genérico. O container será transformado em um container de segmento.
+   * Arraste e solte um componente de ![Segmentação](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmento]** do painel de componentes em um container genérico. O container será transformado em um container de segmento.
 
    * Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Adicionar]** de dentro de um container:
 
-      1. Selecione **[!UICONTROL Segmento]**. Um container de segmento é adicionado à **[!UICONTROL Definição]**.
-      1. No novo contêiner de segmento, selecione um segmento no menu suspenso [!UICONTROL *Selecionar...*].
+      1. Selecione **[!UICONTROL Segmento]**.  Um container de segmento é adicionado à **[!UICONTROL Definição]**.
+      1. No novo container de segmento, selecione um segmento no menu suspenso [!UICONTROL *Selecionar...*].
 
   >[!TIP]
   >
@@ -150,7 +150,7 @@ Para remover um segmento de um container:
 
 * Selecione ![Fechar](/help/assets/icons/Close.svg) ao lado do nome do segmento.
 
-Consulte [Métricas segmentadas](metrics-with-segments.md) para obter mais detalhes e exemplos.
+Consulte [Métricas segmentadas](metrics-with-segments.md) para obter mais detalhes e exemplos.
 
 #### Container de função
 
@@ -164,7 +164,7 @@ Para adicionar um container de função, é possível usar:
 * Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Adicionar]** em um container:
 
    1. Selecione **[!UICONTROL Função]**.
-   1. No contêiner, selecione uma função do menu suspenso [!UICONTROL *Selecionar...*].
+   1. No container, selecione uma função no menu suspenso [!UICONTROL *Selecionar...*].
 
 O container de função recebe o nome do componente de função. Por exemplo, ![Função](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (metric)]**. Selecione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para exibir uma janela pop-up com detalhes sobre a função. Escolha **[!UICONTROL Saiba mais]** para obter mais informações sobre a função.
 
@@ -186,7 +186,7 @@ Para excluir um container, selecione ![Fechar](/help/assets/icons/Close.svg) no 
 >[!MORELIKETHIS]
 >
 >[Usar funções](cm-using-functions.md)
->&#x200B;>[Segmentos ](/help/components/segmentation/seg-overview.md)
+>>[Segmentos ](/help/components/segmentation/seg-overview.md)
 >
 
 
@@ -226,14 +226,14 @@ The following image and accompanying table explain some of the main areas and fe
 | 8 | **Definition:** This is where you drag in metrics/calculated metrics, segments, and/or functions to build the calculated metric. <ul><li>If you drag in a calculated metric, it will expand its metric definition automatically. </li> <li>You can nest definitions with containers. However, unlike segment containers, these containers function like a math expression and determine the order of operations. </li> </ul>  |
 | 9 | **Operator:** Divided by ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is the default operator, plus there are the +, -, and x operators. |
 | 10 | **Preview:** Provides a quick read on any possible errors. The preview covers the last 90 days. This is a way of initially gauging whether you have selected the right components for your metric. An unexpected result would mean you need to take a second look at the metric definition.  |
-| 11 | **Product compatibility:** Product compatibility shows you whether the metric is compatible with <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=pt-BR"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p>  |
+| 11 | **Product compatibility:** Product compatibility shows you whether the metric is compatible with <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p>  |
 | 12 | **Add:** For all types of calculated metrics, you can add containers and static numbers to the definition. For advanced calculated metrics, you can also add segments and functions. <ul><li>Containers function like a math expression and determine the order of operations. So anything in a container will get processed before the next operation.</li><li>Dragging a segment onto a container segments everything in that container. (Advanced calculated metrics only)</li><li>You can stack multiple segments in a container.</li></ul> |
 | 13 | **Gear icon (Metric Type, Attribution):** Selecting the gear icon next to a metric lets you specify the <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metric type and attribution models </a>. |
 | 14 | **New:** Lets you create a new component, such as a new segment (which takes you to the <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder </a>.) |
 | 15 | **Search Components:** This search bar lets you search for dimensions, metrics, segments (advanced calculated metrics only), and functions (advanced calculated metrics only). |
 | 16 | **List of Dimensions:** Rather than leaving the Calculated Metric Builder in order to build a simple segment (in the Segment Builder), e.g. "Page = Homepage", you can drag in Page and select Homepage directly from the Calculated Metric Builder.<p>This results in a much more streamlined workflow for creating segmented calculated metrics.</p> |
 | 17 | **List of Metrics:** Metrics come in 3 categories: <ul> <li>Standard metrics (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Calculated metrics ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Metrics templates ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - at the bottom of the list. </li> </ul> <p>When you hover over a metric, you can see the Info icon to the right of it: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Clicking this icon gives you the following information: </p><ul> <li>The formula of how it is calculated. </li><li>A preview trend of the metric. </li><li>An edit (pencil) icon <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> at the top right that will take you to the Calculated Metrics Builder where you can edit this calculated metric. </li></ul> |
-| 18 | **List of Segments:** (Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=pt-BR"  > More... </a> |
+| 18 | **List of Segments:** (Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > More... </a> |
 | 19 | **List of Functions:** (Advanced calculated metrics only) Functions are divided into two lists: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basic </a> (used most often) and <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Advanced </a>. |
 | 20 | **Report Suite selector:** Lets you switch to a different report suite. |
 

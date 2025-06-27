@@ -4,9 +4,9 @@ title: Tipo de métrica e atribuição
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ Você pode configurar o tipo de métrica e o [modelo de atribuição](#attributi
 
      | Tipo de métrica | Definição |
      |---|---|
-     | **[!UICONTROL Padrão]** | Se uma fórmula consistir de uma única métrica padrão, ela exibirá dados idênticos à sua métrica não calculada equivalente. Métricas padrão são úteis ao criar métricas calculadas específicas para cada item da linha.  <p>Por exemplo, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Pedidos]** ![Dividir](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Visitas]** pega os pedidos de um item de linha específico e divide pelo número de visitas do item de linha específico. |
-     | **[!UICONTROL Total geral]** | Use o **[!UICONTROL Total geral]** para informar o período de relatórios em cada item da linha. Se uma fórmula consistir em uma única métrica de total geral, a métrica calculada exibirá o mesmo número de total geral em cada item da linha. As métricas de total geral são úteis quando você deseja criar métricas calculadas que se comparam aos dados totais. <p>Por exemplo, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Pedidos]** ![Dividir](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Total de Visitas]** mostra a proporção de pedidos com relação a todas as visitas, não apenas visitas ao item de linha específico. Neste exemplo, você especifica **[!UICONTROL Total geral]** para a métrica ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Visitas]** em sua métrica calculada, o que automaticamente a transformará em ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Total de visitas]**. |
+     | **[!UICONTROL Padrão]** | Se uma fórmula consistir de uma única métrica padrão, ela exibirá dados idênticos à sua métrica não calculada equivalente. Métricas padrão são úteis ao criar métricas calculadas específicas para cada item da linha.  <p>Por exemplo, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Pedidos]** ![Dividir](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Visitas]** pega os pedidos daquele item de linha específico e os divide pelo número de visitas daquele item de linha específico. |
+     | **[!UICONTROL Total geral]** | Use o **[!UICONTROL Total geral]** para informar o período de relatórios em cada item da linha. Se uma fórmula consistir em uma única métrica de total geral, a métrica calculada exibirá o mesmo número de total geral em cada item da linha. As métricas de total geral são úteis quando você deseja criar métricas calculadas que se comparam aos dados totais. <p>Por exemplo, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Pedidos]** ![Dividir](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Visitas totais]** mostra a proporção de pedidos em relação a todas as visitas, não apenas as visitas ao item de linha específico. Neste exemplo, você especifica **[!UICONTROL Total geral]** para a métrica ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Visitas]** na sua métrica calculada, que a transformará automaticamente em ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Total de visitas]**. |
 
    * Especifique a **[!UICONTROL atribuição]**.
 
@@ -33,15 +33,15 @@ Você pode configurar o tipo de métrica e o [modelo de atribuição](#attributi
          * Desabilitar a opção **[!UICONTROL Usar modelo de atribuição não padrão]** para usar o modelo de atribuição de coluna padrão, que é Último contato, com uma janela de pesquisa de 30 dias.
          * Habilitar a opçã o **[!UICONTROL Usar modelo de atribuição não padrão]**. Na caixa de diálogo **[!UICONTROL Modelo de atribuição de coluna]**,
 
-            * Selecione um **[!UICONTROL Modelo]** dos [modelos de atribuição](#attribution-models).
-            * Selecione um **[!UICONTROL Contêiner]** nas opções de [contêiner](#container).
-            * Selecione uma **[!UICONTROL Janela de retrospectiva]** nas opções da [janela de retrospectiva](#lookback-window). Se você selecionar **[!UICONTROL Tempo personalizado]**, será possível definir o período de **[!UICONTROL Minuto(s)]** até **[!UICONTROL Trimestre(s)]**.
+            * Selecione um **[!UICONTROL Modelo]** nos [modelos de atribuição](#attribution-models).
+            * Selecione um **[!UICONTROL Container]** nas opções de [container](#container).
+            * Selecione uma **[!UICONTROL Janela de retrospectiva]** nas opções da [janela de retrospectiva](#lookback-window). Se você selecionar **[!UICONTROL Hora personalizada]**, poderá definir o período em **[!UICONTROL Minuto(s)]** até **[!UICONTROL Trimestre(s)]**.
 
       1. Selecione **[!UICONTROL Aplicar]** para aplicar o modelo de atribuição não padrão. Selecione Cancelar para cancelar.
 
      Se você já tiver definido um modelo de atribuição não padrão, selecione **[!UICONTROL Editar]** para modificar a seleção.
 
-Consulte [Exemplo](#example) para obter um exemplo de uso de um modelo de atribuição, contêiner e janela de retrospectiva.
+Consulte [Exemplo](#example) para ver um exemplo de uso de um modelo de atribuição, container e janela de pesquisa.
 
 
 ## Modelos de atribuição {#attribution-models}
