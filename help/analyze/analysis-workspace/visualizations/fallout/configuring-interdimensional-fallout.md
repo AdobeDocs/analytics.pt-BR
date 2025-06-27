@@ -1,13 +1,13 @@
 ---
-description: O recurso de Fallout no Analysis Workspace permite combinar dimensões e métricas como pontos de contato em funis e fluxos de trabalho. Isso fornece maior flexibilidade ao definir as etapas de usuário que deseja investigar.
-title: Fallout multidimensional
+description: Saiba como a visualização de fallout no Analysis Workspace permite combinar dimensões e métricas como pontos de contato em funis e fluxos de trabalho. Entenda como isso oferece mais flexibilidade ao definir as etapas de usuário que você deseja investigar.
+title: Fallout interdimensional
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 21%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 21%
 
 O recurso de Fallout no Analysis Workspace permite combinar dimensões e métricas como pontos de contato em funis e fluxos de trabalho. Os fallouts oferecem mais flexibilidade ao definir as etapas de usuário que você deseja investigar.
 
+Por exemplo, além de uma dimensão Página, é possível adicionar outros itens de dimensão (como um nome de dispositivo específico da dimensão Nome do dispositivo) a uma visualização de Fallout. A combinação de dimensões permite visualizar como as páginas e determinadas ações interagem nos caminhos dos clientes.
+
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fallout multidimensional](https://video.tv.adobe.com/v/30793?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fallout multidimensional](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

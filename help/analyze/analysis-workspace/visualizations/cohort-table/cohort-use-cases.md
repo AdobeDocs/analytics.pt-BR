@@ -1,26 +1,26 @@
 ---
-description: Exemplos de casos de uso da análise de coorte.
+description: Saiba mais sobre alguns exemplos de casos de uso para análise de coorte.
 keywords: Analysis Workspace
 title: Casos de uso da análise de coorte
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
-# Casos de uso da [!UICONTROL análise de coorte]
+# Casos de uso da análise de coorte
 
 Exemplos de casos de uso da [!UICONTROL análise de coorte].
 
-## Caso de uso sobre interação com o aplicativo {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
+## Caso de uso sobre interação com o aplicativo
 
 Suponha que você queira analisar o modo como os usuários usam o aplicativo instalado. Eles instalam e nunca usam o aplicativo? Eles usam por um tempo e depois desistem? Ou eles continuam usando ao longo do tempo?
 
-Você pode criar uma [!UICONTROL análise de coorte] de seis meses:
+Você pode criar uma análise de coorte de seis meses.
 
 **Granularidade**: mensalmente, de janeiro a junho de 2015
 
@@ -30,7 +30,7 @@ Você pode criar uma [!UICONTROL análise de coorte] de seis meses:
 
 Visitantes não contam como *`engaged`* nos meses seguintes, a menos que estejam em uma sessão ou, pelo menos, iniciem o aplicativo. A [!UICONTROL análise de coorte] mostraria padrões de uso em que sempre *`App Install`* ocorre no Mês 0. Você pode notar que o uso diminui no Mês 2, independentemente de quando os usuários instalaram o aplicativo. (Para os usuários que instalaram o aplicativo em janeiro de 2015, o Mês 2 é março de 2015. Para quem instalou o aplicativo em fevereiro de 2015, o mês 2 é abril de 2015 e assim por diante.) Essa análise permite enviar um email ou uma mensagem por push a todos os usuários durante o segundo mês após a instalação do aplicativo, para que lembrem de usar o aplicativo.
 
-## Caso de uso de assinatura {#section_FDECB16766CF415BB84AE46BA491FB5F}
+## Caso de uso de assinatura
 
 Você trabalha na Adobe.com e oferece uma assinatura gratuita da Creative Cloud. O objetivo é que os usuários atualizem da versão gratuita para a versão de avaliação de 30 dias ou, em última análise, para a versão paga.
 

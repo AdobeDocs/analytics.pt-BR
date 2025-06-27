@@ -1,13 +1,13 @@
 ---
-description: Use a visualização de rosca em um projeto do Espaço de trabalho.
+description: Saiba como usar a visualização de rosca para mostrar dados como partes ou segmentos de um todo.
 title: Rosca
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 86%
 
 ---
 
@@ -30,14 +30,14 @@ _Este artigo é sobre a visualização de rosca no_ ![AdobeAnalytics](/help/asse
 >[!ENDSHADEBOX]
 
 
-Semelhante ao gráfico de pizza, a visualização de ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL rosca]** exibe os dados como partes ou filtros de um todo. Use a visualização de rosca ao comparar porcentagens de um total, normalmente em um pequeno número de itens.
+Semelhante ao gráfico de pizza, a visualização de ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL rosca]** exibe os dados como partes ou filtros de um todo. Use uma visualização de rosca ao comparar porcentagens de um total, normalmente com um pequeno número de itens.
 
-![Um gráfico de rosca exibindo os dados como partes ou filtros de um todo.](assets/donut.png)
+![Um gráfico de rosca mostrando dados como partes ou filtros de um todo.](assets/donut.png)
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionar uma visualização de rosca](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionar uma visualização de rosca](https://video.tv.adobe.com/v/334309/?quality=12){target=&#34;_blank&#34;} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionar u
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

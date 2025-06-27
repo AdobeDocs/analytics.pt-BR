@@ -1,52 +1,64 @@
 ---
-description: Saiba como remover projetos de pastas
+description: Saiba como remover projetos do Analysis Workspace.
 keywords: Analysis Workspace
-title: Remover projetos de pastas
+title: Remover Projetos
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 6fad2afb2b5792b6d6fbf8d94fff37b92cc18bda
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
-# Excluir projetos
+# Remover projetos
 
-Para remover um projeto de uma pasta, você pode mover o projeto para outro local ou excluí-lo.
+
+Consulte [Ações em Gerenciar projetos](../freeform-overview.md#actions) sobre como remover projetos da Analysis Workspace.
+
+
+
+<!-- Is this article still needed; not in the TOC anymore
+
+
+# Delete projects
+
+To remove a project from a folder, you can move the project to another location or delete the project.
 
 >[!NOTE]
 >
->Quando um Administrador move um projeto para a Pasta da empresa, a pasta é compartilhada com todos mesmo se os privilégios compartilhados originais foram restritos. Quando um Administrador move um projeto para fora da Pasta da empresa, os privilégios de compartilhamento originais ou anteriores são respeitados.
+>When an Admin moves a project to the Company Folder, the folder is shared with everyone even if the original shared privileges were restricted. When an Admin moves a project out of the Company Folder, the original or previous sharing privileges are respected.
 
-## Mover um projeto {#move-project-in-folder}
+## Move a project {#move-project-in-folder}
 
-Você pode mover projetos de uma pasta para outra pasta que você criou.
+You can move projects from one folder to another folder that you created.
 
-1. Em uma pasta de projeto, selecione o ícone de reticências **...** ao lado do nome do projeto.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Selecionar **Mover para** e selecione uma pasta para onde mover o projeto.
+1. Select **Move to** and then select a folder to move the project to.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-1. Clique em **Mover**.
+1. Click **Move**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-   Uma notificação confirma que o projeto foi movido.
+    A toast confirms that the project was moved.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## Excluir um projeto de uma pasta de projeto {#delete-project-in-folder}
+## Delete a project from a project folder {#delete-project-in-folder}
 
-Ao excluir um projeto de uma pasta, ele é removido do sistema após 180 dias. Durante os 180 dias após a exclusão, ainda será possível acessar um projeto excluído por meio da interface da Web se tiverem um URL do projeto.
+When you delete a project from a folder, it gets purged from the system after 180 days. During the 180 days after deletion, users can still access a deleted project via the Web interface if they have a URL to the project.
 
-1. Em uma pasta de projeto, clique no ícone de reticências **...** ao lado do nome do projeto.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Clique em **Excluir**.
+1. Select **Delete**.
 
-1. Uma janela de confirmação solicita que você confirme a exclusão.
+1. A confirmation window asks you to confirm the deletion.
+
+-->

@@ -1,13 +1,13 @@
 ---
-description: Uma visão geral de como usar modelos no Analysis Workspace.
+description: Saiba como usar modelos no Analysis Workspace.
 title: Usar modelos
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '18671'
-ht-degree: 100%
+source-wordcount: '18669'
+ht-degree: 99%
 
 ---
 
@@ -957,7 +957,7 @@ Estes são os modelos disponíveis:
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-messaging"
 >title="Visualize dados de desempenho de mensagens no aplicativo e por push."
->abstract="**Isso pode ajudar** a entender melhor como as pessoas estão usando os recursos de mensagens no aplicativo, bem como a eficiência com que as notificações por push estão direcionando o tráfego para o aplicativo.<br/>**Com base no que aprender, poderá** fazer várias coisas, como melhorar a experiência de notificações por push e mensagens no aplicativo."
+>abstract="**Isso pode ajudar** a entender melhor como as pessoas estão usando os recursos de mensagens no aplicativo, bem como a eficiência com que as notificações por push estão direcionando o tráfego para o aplicativo.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a experiência de notificações por push e mensagens no aplicativo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1017,7 +1017,7 @@ Estes são os modelos disponíveis:
 | **Dispositivos móveis** > **Uso de aplicativos móveis** | Veja o número de usuários, inicializações e primeiras inicializações do aplicativo, bem como a duração média das sessões.<p>**Isso pode ajudar** a entender melhor o quanto o aplicativo está sendo usado.  </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar o desempenho do aplicativo para adequá-lo ao nível de uso.</p><!-- This template uses the --> |
 | **Dispositivos móveis** > **Jornadas de aplicativos móveis** | Veja os principais padrões de uso do aplicativo móvel. <p>**Isso pode ajudar** a entender melhor como as pessoas estão usando o aplicativo.  </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a transição de pessoas de uma tela à outra para direcionar os fluxos de trabalho mais comuns. </p><!-- This template uses the --> |
 | **Dispositivos móveis** > **Métricas do aplicativo móvel** | Veja algumas das métricas mais comuns do aplicativo móvel. <p>**Isso pode ajudar** a entender melhor o desempenho básico do aplicativo móvel.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a integridade e o desempenho geral do aplicativo.</p><!-- This template uses the --> |
-| **Dispositivos móveis** > **Mensagens do aplicativo móvel** | Visualize dados de desempenho de mensagens no aplicativo e por push.<p>**Isso pode ajudar** a entender melhor como as pessoas estão usando os recursos de mensagens no aplicativo, bem como a eficiência com que as notificações por push estão direcionando o tráfego para o aplicativo.</p><p>**Com base no que aprender, poderá** fazer várias coisas, como melhorar a experiência de notificações por push e mensagens no aplicativo.</p><!-- This template uses the --> |
+| **Dispositivos móveis** > **Mensagens do aplicativo móvel** | Visualize dados de desempenho de mensagens no aplicativo e por push.<p>**Isso pode ajudar** a entender melhor como as pessoas estão usando os recursos de mensagens no aplicativo, bem como a eficiência com que as notificações por push estão direcionando o tráfego para o aplicativo.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a experiência de notificações por push e mensagens no aplicativo.</p><!-- This template uses the --> |
 | **Dispositivos móveis** > **Desempenho do aplicativo móvel** | Veja o desempenho do aplicativo e onde usuários estão com problemas. <p>**Isso pode ajudar** a entender se as pessoas que usam o aplicativo estão encontrando lentidão ou um desempenho reduzido. </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como corrigir problemas existentes ou melhorar o desempenho do aplicativo antes que eles ocorram.</p><!-- This template uses the --> |
 | **Dispositivos móveis** > **Retenção de aplicativo móvel** | Veja quais são os usuários mais fiéis do aplicativo e o que fazem nele. <p>**Isso pode ajudar** a entender melhor como os usuários mais fiéis estão usando o aplicativo.</p><p>**Com base no que aprender, poderá** fazer várias coisas, como melhorar os esforços de marketing para os recursos que seus usuários mais fiéis estão usando.</p><!-- This template uses the --> |
 | **Bots** | Veja as visualizações de página e as tendências sobre o tráfego de bots no site. <p>**Isso pode ajudar** a entender melhor o quanto do tráfego de bots está sendo filtrado nos relatórios, de acordo com as regras de bot configuradas.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como continuar a monitorar a atividade de bots para identificar novos padrões.</p><!-- This template uses the --> |

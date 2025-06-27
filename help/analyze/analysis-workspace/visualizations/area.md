@@ -1,14 +1,14 @@
 ---
-description: A visualização de área é parecida com um gráfico de linhas, mas com uma área colorida embaixo da linha.
-title: Área e área empilhada
+description: Saiba mais sobre a área e a visualização de área empilhada.
+title: Área e empilhado
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '204'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -34,9 +34,9 @@ A visualização de área tem as opções padrão e empilhada.
 <!-- markdownlint-enable MD034 -->
 
 
-A visualização de ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL área]** é parecida com um gráfico de linhas, mas com uma área colorida abaixo da linha. Adicione um gráfico de área quando tiver diversas métricas e desejar visualizar a área expressa pela interseção de duas ou mais métricas.
+A visualização de ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Área]** é como um gráfico de linhas, mas apresenta uma área colorida abaixo da linha. Adicione um gráfico de área quando tiver diversas métricas e quiser visualizar a área expressa pela interseção de duas ou mais métricas.
 
-![Visualização de área mostrando várias métricas](assets/area.png)
+![Visualização de área, mostrando várias métricas](assets/area.png)
 
 ## Área empilhada {#area-stacked}
 
@@ -50,17 +50,17 @@ A visualização de ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL
 <!-- markdownlint-enable MD034 -->
 
 
-A visualização de ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL área empilhada]** é semelhante a uma área, mas cada série inicia sobre a série anterior.
+A visualização de ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Área empilhada]** é como um gráfico de área, mas cada série começa acima da série anterior.
 
-![Área empilhada mostrando cada série sobre a série anterior.](assets/area-stacked.png)
+![Área empilhada, mostrando cada série acima da série anterior.](assets/area-stacked.png)
 
 Use a opção **[!UICONTROL 100% empilhada]** em ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Configurações]** para transformar o gráfico em uma visualização 100% empilhada.
 
-![Área empilhada mostrando uma visualização 100% empilhada.](assets/area-stacked100.png)
+![Área empilhada, mostrando uma visualização 100% empilhada.](assets/area-stacked100.png)
 
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

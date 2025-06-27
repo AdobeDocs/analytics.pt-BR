@@ -1,13 +1,13 @@
 ---
 title: Vários conjuntos de relatórios
-description: Saiba como e por que criar projetos no Espaço de trabalho com vários conjuntos de relatórios
+description: Saiba como trabalhar com vários conjuntos de relatórios em um único projeto do Analysis Workspace.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 75%
+ht-degree: 71%
 
 ---
 
@@ -24,7 +24,7 @@ Esse recurso é útil se você deseja:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vários conjuntos de relatórios](https://video.tv.adobe.com/v/37063?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vários conjuntos de relatórios](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

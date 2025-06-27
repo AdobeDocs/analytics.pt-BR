@@ -1,13 +1,13 @@
 ---
-title: Itens de dimensão dinâmicos vs estáticos em tabelas de forma livre
-description: Como interagir com itens de dimensão dinâmicos e estáticos em tabelas.
+title: Itens Dinâmicos E Estáticos Do Dimension
+description: Saiba como usar itens de dimensão dinâmicos versus estáticos em tabelas de forma livre no Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ As linhas dinâmicas e estáticas se comportam de maneira diferente na linha tot
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reordenar linhas estáticas](https://video.tv.adobe.com/v/33843?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reordenar linhas estáticas](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

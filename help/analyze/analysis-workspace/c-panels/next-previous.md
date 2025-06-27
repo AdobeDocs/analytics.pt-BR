@@ -1,35 +1,27 @@
 ---
-description: Um painel que mostra os itens de dimensão anteriores ou seguintes de uma dimensão específica.
-title: Painel Item seguinte ou anterior
+description: Entenda como usar o painel Item seguinte ou anterior que mostra os itens de dimensão anteriores ou seguintes para uma dimensão específica.
+title: Painel Item Seguinte Ou Anterior
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
-workflow-type: ht
-source-wordcount: '469'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 94%
 
 ---
 
-# Painel Item seguinte ou anterior {#next-or-previous-item-panel}
-
-<!-- markdownlint-disable MD034 -->
+# Painel Próximo item ou anterior {#next-or-previous-item-panel}
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
->title="Item seguinte ou anterior"
+>title="Próximo item ou anterior"
 >abstract="Crie um painel para entender as dimensões anteriores de onde as pessoas vêm ou a próxima dimensão que as pessoas acessam."
-
-<!-- markdownlint-disable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="Item anterior ou seguinte"
 >abstract="Analise quais são os lugares mais comuns de onde os visitantes vieram ou para onde irão em seguida.<br/><br/>**Dimensão**: selecione uma dimensão. Por exemplo, **Página**.<br/>**item de dimensão**: selecione um item de dimensão específico. Por exemplo, **Página inicial**.<br/>**Direção**: selecione **Próximo** para ver os itens de dimensão imediatamente a seguir ao item de dimensão selecionado. Selecione **Anterior** para ver os itens de dimensão que antecedem o item de dimensão selecionado.<br/>**Contêiner**: selecione **Sessão** para ver os itens de dimensão anteriores/seguintes na mesma sessão ou selecione **Pessoa** para ver o item de dimensão anterior/seguinte para a mesma pessoa."
-
-<!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
@@ -41,9 +33,9 @@ O painel **[!UICONTROL Item seguinte ou anterior]** contém várias tabelas e vi
 
 ## Usar
 
-Para usar um painel **[!UICONTROL Item seguinte ou anterior]**:
+Para usar um painel **[!UICONTROL Próximo item ou anterior]**:
 
-1. Crie um painel **[!UICONTROL Item seguinte ou anterior]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
+1. Criar um painel **[!UICONTROL Próximo item ou anterior]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
 
 1. Especifique a [entrada](#panel-input) do painel.
 
@@ -51,16 +43,16 @@ Para usar um painel **[!UICONTROL Item seguinte ou anterior]**:
 
 ### Entrada do painel
 
-É possível configurar o painel [!UICONTROL Item seguinte ou anterior] usando estas configurações de entrada:
+Você pode configurar o painel [!UICONTROL Próximo ou item anterior] usando estas configurações de entrada:
 
-![Painel Item seguinte ou anterior](assets/next-or-previous-item.png)
+![Painel Próximo item ou anterior](assets/next-or-previous-item.png)
 
 | Entrada | Descrição |
 | --- | --- |
-| **[!UICONTROL Dimensão]** | Selecione a dimensão cujos itens seguintes ou anteriores você deseja conhecer. |
+| **[!UICONTROL Dimensão]** | Selecione a dimensão para a qual deseja explorar os itens seguintes ou anteriores. |
 | **[!UICONTROL Item de dimensão]** | Selecione o item de dimensão específico no centro da consulta seguinte/anterior. |
-| **[!UICONTROL Direção]** | Especifique se você está procurando pelo item de dimensão [!UICONTROL seguinte] ou [!UICONTROL anterior]. |
-| **[!UICONTROL Container]** | Selecione o container [!UICONTROL Sessão] ou [!UICONTROL Pessoa] (padrão) para determinar o escopo da consulta. |
+| **[!UICONTROL Direção]** | Especifique se você está procurando pelo item de dimensão [!UICONTROL Próximo] ou [!UICONTROL Anterior]. |
+| **[!UICONTROL Contêiner]** | Selecione o container [!UICONTROL Sessão] ou [!UICONTROL Pessoa] (padrão) para determinar o escopo da sua consulta. |
 
 {style="table-layout:auto"}
 
@@ -68,16 +60,16 @@ Selecione **[!UICONTROL Criar]** para criar o painel.
 
 ### Saída do painel
 
-O painel [!UICONTROL Item seguinte ou anterior] retorna um conjunto avançado de dados e visualizações para ajudar a entender melhor quais ocorrências seguem ou precedem itens de dimensão específicos.
+O painel [!UICONTROL Próximo item ou anterior] retorna um conjunto avançado de dados e visualizações para ajudar você a entender melhor quais ocorrências seguem ou precedem itens de dimensão específicos.
 
-![Saída do painel seguinte/anterior](assets/next-or-previous-item-output.png)
+![Saída do painel Próximo/anterior](assets/next-or-previous-item-output.png)
 
 
 | Visualização | Descrição |
 | --- | --- |
-| **[!UICONTROL Barra horizontal]** | Lista os itens seguintes (ou anteriores) com base no item de dimensão selecionado. Passar o mouse sobre uma barra individual destacará o item correspondente na tabela de forma livre. |
-| **[!UICONTROL Número do resumo]** | Número de resumo de alto nível de todas as ocorrências de itens de dimensão seguintes ou anteriores do mês atual (até o momento). |
-| **[!UICONTROL Tabela de forma livre]** | Lista os itens seguintes (ou anteriores), em um formato de tabela, com base no item de dimensão selecionado. Por exemplo, quais eram as páginas mais populares (por ocorrências) que as pessoas visitaram depois (ou antes) da página inicial ou da página do espaço de trabalho. |
+| **[!UICONTROL Barra horizontal]** | Lista os próximos itens (ou anteriores) com base no item de dimensão selecionado. Passar o mouse sobre uma barra individual destacará o item correspondente na tabela de forma livre. |
+| **[!UICONTROL Número do resumo]** | Número de resumo de alto nível de todas as ocorrências de itens de dimensão anteriores ou seguintes do mês atual (até o momento). |
+| **[!UICONTROL Tabela de forma livre]** | Lista os próximos itens (ou anteriores) com base no item de dimensão selecionado em um formato de tabela. Por exemplo, quais eram as páginas mais populares (por ocorrências) às quais as pessoas foram depois (ou antes) da página inicial ou da página do espaço de trabalho. |
 
 {style="table-layout:auto"}
 

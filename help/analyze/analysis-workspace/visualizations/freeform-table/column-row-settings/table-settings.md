@@ -1,14 +1,14 @@
 ---
-description: As configurações de linha variam de acordo com qual componente foi arrastado para a tabela.
+description: Saiba como usar configurações de linha e como as configurações de linha variam de acordo com qual componente você arrastou para uma tabela de forma livre no Analysis Workspace.
 title: Configurações de linha
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações de linha e coluna em uma tabela de forma livre](https://video.tv.adobe.com/v/328504/?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurações de linha e coluna em uma tabela de forma livre](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -49,8 +49,8 @@ As opções de menu de contexto a seguir estão disponíveis ao selecionar o cab
 
 | Opção | Descrição |
 | --- | --- |
-| **[!UICONTROL Copiar seleção para a área de transferência]** | Copia a seleção da visualização para a área de transferência. |
-| **[!UICONTROL Baixar itens como CSV (*nome da dimensão*)]** | Baixe imediatamente os itens de dimensão (até um máximo de 50.000) da visualização para o dispositivo local. Há um limite de 50.000 itens de dimensão para a dimensão selecionada. |
+| **[!UICONTROL Copiar seleção para a área de transferência]** | Copiar a seleção da visualização para a área de transferência. |
+| **[!UICONTROL Baixar itens como CSV (*nome da dimensão*)]** | Baixe imediatamente os itens de dimensão (até um máximo de 50.000) da visualização no dispositivo local. Há um limite de 50.000 itens de dimensão para a dimensão selecionada. |
 | **[!UICONTROL Baixar seleção como CSV]** | Baixe imediatamente os itens de dimensão da visualização para o dispositivo local. |
 | **[!UICONTROL Criar hiperlinks para todos os itens de dimensão]** | Cria hiperlinks para todos os itens de dimensão. Consulte [Hiperlinks para dimensões em uma tabela de forma livre](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Editar hiperlinks de todos os itens de dimensão]** | Edita hiperlinks em todos os itens de dimensão. Consulte [Hiperlinks para dimensões em uma tabela de forma livre](../freeform-table-hyperlinks.md) |
@@ -92,4 +92,4 @@ As opções adicionais de menu de contexto a seguir estão disponíveis ao selec
 
 ## Modificar altura da linha
 
-Você pode definir a densidade da exibição de um projeto como **[!UICONTROL Compacta]**, **[!UICONTROL Confortável]** e **[!UICONTROL Expandida]**. [Saiba mais](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
+Você pode definir a [densidade da exibição](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) de um projeto como **[!UICONTROL Compacto]**, **[!UICONTROL Confortável]** e **[!UICONTROL Expandido]**.

@@ -1,14 +1,14 @@
 ---
-description: Use a visualização de barra em um projeto do Workspace.
-title: Barra e barra empilhada
+description: Saiba como usar a visualização de barras e barras empilhadas no Analysis Workspace.
+title: Barra E Barra Empilhada
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,11 @@ A visualização de barra tem uma opção padrão e a empilhada.
 <!-- markdownlint-enable MD034 -->
 
 
-A visualização de ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL barra]** mostra barras verticais que representam vários valores em uma ou mais métricas.
+A visualização de ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Barra]** mostra barras verticais que representam vários valores em uma ou mais métricas.
 
-![Visualização de barra vertical exibindo várias métricas, incluindo Exibições de página, Visitas, Entradas e Saídas.](assets/bar.png)
+![Visualização de barra vertical, mostrando várias métricas, incluindo visualizações da página, visitas, entradas e saídas.](assets/bar.png)
 
-Um menu suspenso de granularidade nas configurações de visualização permite alterar uma visualização de tendência (por exemplo, linha, barra) de diária para semanal, mensal etc.
+Um menu suspenso de granularidade nas configurações de visualização permite alterar uma visualização de tendências (por exemplo, linha, barra) de diária para semanal, mensal etc.
 
 ## Barra empilhada {#bar-stacked}
 
@@ -52,9 +52,9 @@ Um menu suspenso de granularidade nas configurações de visualização permite 
 <!-- markdownlint-enable MD034 -->
 
 
-A visualização de ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL barra empilhada]** é como um gráfico de barras, mas com barras em série empilhadas umas sobre as outras.
+A visualização de ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Barra empilhada]** é como um gráfico de barras, mas apresenta barras em série empilhadas umas sobre as outras.
 
-![Gráfico de barras empilhadas exibindo várias métricas.](assets/bar-stacked.png)
+![Gráfico de barras empilhadas, mostrando várias métricas.](assets/bar-stacked.png)
 
 Use a opção **[!UICONTROL 100% empilhada]** em ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Configurações]** para transformar o gráfico em uma visualização 100% empilhada.
 
@@ -63,6 +63,6 @@ Use a opção **[!UICONTROL 100% empilhada]** em ![Setting](/help/assets/icons/S
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

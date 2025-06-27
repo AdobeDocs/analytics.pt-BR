@@ -1,13 +1,13 @@
 ---
-description: Insights rápidos é uma ferramenta para novos usuários do Workspace que os orienta na criação de tabelas e visualizações de dados
-title: Painel do Insights rápidos
+description: Entenda como usar o painel Quick insights para orientá-lo na criação de tabelas e visualizações de dados no Analysis Workspace.
+title: Painel do Quick Insights
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 97%
 
 ---
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326702/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

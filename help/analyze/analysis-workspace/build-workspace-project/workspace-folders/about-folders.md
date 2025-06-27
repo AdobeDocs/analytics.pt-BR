@@ -1,21 +1,21 @@
 ---
-description: Saiba mais sobre Pastas no Espaço de trabalho
+description: Saiba como organizar projetos em pastas no Analysis Workspace.
 keywords: Analysis Workspace
-title: Visão geral das pastas
+title: Visão geral de pastas
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
 # Visão geral das pastas
 
-As pastas no Adobe Analytics ficam disponíveis na página de aterrissagem do Workspace quando você seleciona [Mostrar pastas e projetos](../freeform-overview.md#show-selector).
-
 As pastas do espaço de trabalho ajudam a organizar e categorizar seus projetos. Com a funcionalidade de pastas, é possível criar pastas e subpastas para gerenciar os projetos.
+
+As pastas no Adobe Analytics ficam disponíveis na página de aterrissagem do Workspace quando você seleciona [Mostrar pastas e projetos](../freeform-overview.md#show-selector).
 
 Há dois tipos de pastas no espaço de trabalho: a pasta da empresa e as pastas pessoais. Uma pasta compartilhada da empresa permite que admins criem e compartilhem conteúdo com todos os usuários do espaço de trabalho.
 

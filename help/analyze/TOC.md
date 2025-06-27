@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 98%
+source-wordcount: '896'
+ht-degree: 97%
 
 ---
 
@@ -31,15 +31,15 @@ ht-degree: 98%
       + [Criar projetos](analysis-workspace/build-workspace-project/create-projects.md)
       + [Abrir projetos](analysis-workspace/build-workspace-project/open-projects.md)
       + [Salvar projetos](analysis-workspace/build-workspace-project/save-projects.md)
-      + [Índice do projeto](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
+      + [Índice ](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Pastas no espaço de trabalho {#workspace-folders}
          + [Visão geral das pastas](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Criar pastas e subpastas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Criar pastas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Gerenciar pastas](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [Adicionar ou mover projetos para pastas](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Adicionar ou mover projetos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Modelos](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Vários conjuntos de relatórios](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [Teclas de atalho (atalhos)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [Teclas de atalho](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Paletas de cores](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Densidade da exibição](analysis-workspace/build-workspace-project/view-density.md)
    + Modelos {#templates}
@@ -75,62 +75,62 @@ ht-degree: 98%
          + [Editar entradas de componente no dicionário de dados](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [Monitorar a integridade do dicionário de dados](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualizações {#visualizations}
-      + [Visão geral das visualizações](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [Visão geral](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gerenciar fontes de dados](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tabela de forma livre {#freeform-table}
-         + [Tabela de forma livre](analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [Criar hiperlinks para dimensões em uma tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Visão geral](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Criar hiperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Configurações de coluna e linha {#column-row-settings}
             + [Configurações de coluna](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configurações de linha](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [Itens dinâmicos vs. estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filtrar e classificar tabelas de forma livre](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totais do espaço de trabalho](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+            + [Itens dinâmicos e estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Filtrar e classificar](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totais](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabela de coorte {#cohort-table}
-         + [O que é a análise de coorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [Configurar um relatório de análise de coorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Casos de uso da análise de coorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Visão geral](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [Configurar](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [Casos de uso](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
-         + [Visão geral de fallout](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [Configurar uma visualização de fallout](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Fallout multidimensional](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [Aplicar segmentos na análise de fallout](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [Visão geral](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [Configurar](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Fallout interdimensional](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Aplicar segmentos](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Fluxo {#flow}
-         + [Visão geral do Fluxo](analysis-workspace/visualizations/c-flow/flow.md)
-         + [Configurar uma visualização de fluxo](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [Visão geral](analysis-workspace/visualizations/c-flow/flow.md)
+         + [Configurar](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Fluxos interdimensionais](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Área e área empilhada](analysis-workspace/visualizations/area.md)
       + [Barra e barra empilhada](analysis-workspace/visualizations/bar.md)
-      + [Gráfico em marcadores](analysis-workspace/visualizations/bullet-graph.md)
-      + [Gráfico de combinação](analysis-workspace/visualizations/combo-charts.md)
+      + [Marcador](analysis-workspace/visualizations/bullet-graph.md)
+      + [Combinado](analysis-workspace/visualizations/combo-charts.md)
       + [Rosca](analysis-workspace/visualizations/donut.md)
       + [Histograma](analysis-workspace/visualizations/histogram.md)
-      + [Barra horizontal e Barra horizontal empilhada](analysis-workspace/visualizations/horizontal-bar.md)
+      + [Barra horizontal (empilhada)](analysis-workspace/visualizations/horizontal-bar.md)
       + [Resumo da métrica principal](analysis-workspace/visualizations/key-metric.md)
       + [Linha](analysis-workspace/visualizations/line.md)
       + [Mapa](analysis-workspace/visualizations/map-visualization.md)
       + [Gráfico de dispersão](analysis-workspace/visualizations/scatterplot.md)
       + [Cabeçalho de seção](/help/analyze/analysis-workspace/visualizations/section-header.md)
-      + [Número do resumo e alteração do resumo](analysis-workspace/visualizations/summary-number-change.md)
+      + [Número do resumo e alteração](analysis-workspace/visualizations/summary-number-change.md)
       + [Texto](analysis-workspace/visualizations/text.md)
       + [Mapa de árvore](analysis-workspace/visualizations/treemap.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
    + Painéis {#panels}
-      + [Visão geral dos painéis](analysis-workspace/c-panels/panels.md)
-      + [Painel Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
-      + [Painel de atribuição](analysis-workspace/c-panels/attribution.md)
-      + [Painel em branco](analysis-workspace/c-panels/blank-panel.md)
-      + [Painel de forma livre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Painel Audiência média por minuto de mídia](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Painel Visualizadores simultâneos de mídia](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Painel Tempo gasto com a reprodução da mídia](analysis-workspace/c-panels/media-playback-time-spent.md)
-      + [Painel Item anterior ou seguinte](analysis-workspace/c-panels/next-previous.md)
-      + [Painel Resumo da página](analysis-workspace/c-panels/page-summary.md)
-      + [Painel Insights rápidos](analysis-workspace/c-panels/quickinsight.md)
-      + Painel de comparação de segmentos {#segment-comparison}
-         + [Visão geral da comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [Casos de uso de comparação de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
-         + [Testes estatísticos usados na comparação entre segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
+      + [Visão geral](analysis-workspace/c-panels/panels.md)
+      + [Em branco](analysis-workspace/c-panels/blank-panel.md)
+      + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
+      + [Atribuição](analysis-workspace/c-panels/attribution.md)
+      + [Forma livre](analysis-workspace/c-panels/freeform-panel.md)
+      + [Média de público-alvo por minuto de mídia](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [Visualizadores simultâneos de mídia](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Tempo gasto com a reprodução da mídia](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [Próximo item ou anterior](analysis-workspace/c-panels/next-previous.md)
+      + [Resumo da página](analysis-workspace/c-panels/page-summary.md)
+      + [Insights rápidos](analysis-workspace/c-panels/quickinsight.md)
+      + Comparação de segmentos  {#segment-comparison}
+         + [Visão geral](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [Casos de uso](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [Testes estatísticos usados](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Preparar, compartilhar e programar projetos {#curate-share}
       + [Visão geral](analysis-workspace/curate-share/send-schedule-files.md)
       + [Preparar projetos do](analysis-workspace/curate-share/curate.md)

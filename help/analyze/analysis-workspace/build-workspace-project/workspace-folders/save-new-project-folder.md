@@ -1,28 +1,34 @@
 ---
-description: Saiba como salvar projetos em pastas no Espaço de trabalho
+description: Saiba como salvar um novo projeto em uma pasta no Analysis Workspace.
 keywords: Analysis Workspace
-title: Como salvar projetos em pastas
+title: Salvar Um Novo Projeto Em Uma Pasta
 feature: Workspace Basics
 exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 100%
+source-wordcount: '35'
+ht-degree: 5%
 
 ---
 
 # Salvar um novo projeto em uma pasta
 
-Para salvar um novo projeto em uma pasta específica, selecione o nome da pasta na janela de diálogo Salvar projeto.
+Consulte [Salvar projetos](../save-projects.md#save) para obter mais informações.
 
-1. No Workspace, crie um novo projeto.
+<!-- Not in TOC anymore; irrelevant article
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
+To save a new project to a specific folder, select the folder name in the Save project dialogue window.
 
-1. Na caixa de diálogo **Projeto** > **Salvar**, selecione um nome de pasta no menu suspenso Pasta.
+1. In Workspace, create a new project.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
-1. Clique em **Salvar**.
+1. In the **Project** > **Save** dialogue, select a folder name from the Folder drop-down menu.
 
-   O projeto é salvo na pasta selecionada.
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+
+1. Click **Save**.
+
+    The project is saved in the selected folder.
+
+-->

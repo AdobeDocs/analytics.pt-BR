@@ -1,13 +1,13 @@
 ---
-description: Use a visualização de fallout em um projeto do Espaço de trabalho.
-title: Visão geral de fallout
+description: Saiba como usar a visualização de fallout no Analysis Workspace.
+title: Visão geral do fallout
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ _Este artigo é sobre a visualização de fallout no_ ![AdobeAnalytics](/help/as
 
 >[!ENDSHADEBOX]
 
-As visualizações de Fallout oferecem mais opções para criar relatórios de fallout. Os relatórios de fallout mostram onde os visitantes saíram e continuaram em uma sequência predefinida de páginas.
+Uma visualização de ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** mostra onde os visitantes saíram e de onde continuaram em uma sequência predefinida de páginas.
 
 
 >[!BEGINSHADEBOX]
@@ -37,6 +37,8 @@ As visualizações de Fallout oferecem mais opções para criar relatórios de f
 Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de fallout](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
+
+
 
 
 As visualizações de fallout permitem

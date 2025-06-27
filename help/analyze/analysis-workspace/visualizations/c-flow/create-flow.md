@@ -1,13 +1,13 @@
 ---
-description: Use a visualização de fluxo em um projeto do Espaço de trabalho.
-title: Configurar uma visualização de fluxo
+description: Saiba como configurar a visualização de fluxo no Analysis Workspace
+title: Configurar Uma Visualização De Fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 100%
+source-wordcount: '1658'
+ht-degree: 95%
 
 ---
 
@@ -69,11 +69,9 @@ ht-degree: 100%
 >abstract="Esse campo só pode ser definido na criação inicial. Para atualizar esse campo, selecione **[!UICONTROL Redefinir]** para criar uma nova Visualização de fluxo."
 
 
+As visualizações de fluxo ajudam você a entender a jornada originada de um evento de conversão específico em seu site ou aplicativo. Ou que leva a um evento de conversão específico. A visualização rastreia um caminho pelas suas dimensões (e itens de dimensão) ou métricas.
 
-As visualizações de fluxo permitem entender a jornada decorrente ou que leva a um evento de conversão específico em seu site ou aplicativo. Elas rastreiam um caminho pelas suas dimensões (e itens de dimensão) ou métricas. 
-
-As visualizações de fluxo permitem definir o início ou o fim do caminho no qual você possui interesse ou analisar todos os caminhos que levam a uma dimensão ou item de dimensão.
-
+Você pode configurar o início ou o fim do caminho em que está interessado. Ou analisar todos os caminhos que fluem por uma dimensão ou item de dimensão.
 ![Nova interface de fluxo](assets/new-flow.png)
 
 ## Usar
@@ -204,8 +202,8 @@ No exemplo abaixo, **todas** as ocorrências de *Categoria principal do produto*
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização em um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

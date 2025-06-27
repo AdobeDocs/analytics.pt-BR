@@ -1,13 +1,13 @@
 ---
-description: Saiba como criar pastas e subpastas no Espaço de trabalho
+description: Saiba como criar pastas e subpastas no Analysis Workspace.
 keywords: Analysis Workspace
 title: Criar pastas
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '115'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ Para criar uma nova pasta,
 
 1. Na caixa de diálogo **[!UICONTROL Criar nova pasta]**, insira um nome para a nova pasta. Por exemplo: `Second Week Reports`.
 
-1. Selecione ou insira novas tags utilizando o menu suspenso **[!UICONTROL Tags]**.
+1. Selecione marcas ou insira novas marcas no menu suspenso **[!UICONTROL Marcas]**.
 
    ![Criar nova pasta](../assets/create-new-folder.png)
 

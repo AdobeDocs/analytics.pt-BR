@@ -1,13 +1,13 @@
 ---
-description: Saiba mais sobre os painéis de forma livre
+description: Saiba como usar painéis de forma livre com uma tabela de forma livre como estado inicial para o seu projeto do Analysis Workspace.
 title: Painel de forma livre
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 84%
 
 ---
 
@@ -24,9 +24,9 @@ Um **[!UICONTROL painel de forma livre]** é um painel em branco com uma visuali
 
 ## Usar
 
-Para usar um **[!UICONTROL painel de forma livre]**:
+Para usar um **[!UICONTROL Painel de forma livre]**:
 
-1. Crie um **[!UICONTROL painel de forma livre]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
+1. Crie um **[!UICONTROL Painel de forma livre]**.  Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
 
    ![O painel de forma livre padrão exibindo um painel em branco com uma tabela de forma livre.](assets/freeform-panel.png)
 
@@ -36,6 +36,6 @@ Para usar um **[!UICONTROL painel de forma livre]**:
 >[!MORELIKETHIS]
 >
 >[Criar um painel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Guia de componentes do Analytics](/help/components/home.md)
->[Visualização da tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Guia de componentes do Analytics](/help/components/home.md)
+>>[Visualização da tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

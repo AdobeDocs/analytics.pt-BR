@@ -1,17 +1,17 @@
 ---
-title: Gráfico de dispersão
-description: Uma visualização que mostra a relação entre até três métricas.
+title: Dispersão
+description: Use a visualização de dispersão para mostrar a relação entre até três métricas.
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 92%
 
 ---
 
-# Gráfico de dispersão {#scatter}
+# Dispersão {#scatter}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -30,7 +30,7 @@ _Este artigo é sobre a visualização de dispersão_ no ![AdobeAnalytics](/help
 >[!ENDSHADEBOX]
 
 
-A visualização de ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL dispersão]** mostra a relação entre itens de dimensão e até três métricas. A visualização requer três componentes e permite visualizar até quatro componentes.
+A visualização de ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL dispersão]** mostra a relação entre itens de dimensão e até três métricas. A visualização requer três componentes e permite a visualização de até quatro componentes.
 
 * O componente de linha (geralmente uma dimensão) representa cada ponto no gráfico. Linhas diferentes são exibidas como pontos coloridos distintos.
 * A coluna mais à esquerda (geralmente uma métrica) representa a posição do ponto no eixo Y (vertical).
@@ -38,12 +38,12 @@ A visualização de ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UIC
 * A terceira coluna determina o raio do ponto.
 * Todas as colunas subsequentes em uma tabela de forma livre são ignoradas pela visualização do gráfico de dispersão.
 
-![Exemplo de gráfico de dispersão exibindo vários itens de dimensão ](assets/scatter.png)
+![Exemplo de gráfico de dispersão, mostrando vários itens de dimensão ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de gráfico de dispersão](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [VIsualização de dispersão](https://video.tv.adobe.com/v/334459/?quality=12){target=&#34;_blank&#34;} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -51,6 +51,6 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizaç
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

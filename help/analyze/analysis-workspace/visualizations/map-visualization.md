@@ -1,14 +1,14 @@
 ---
-description: Use a visualização de mapa em um projeto do Espaço de trabalho.
+description: Use a visualização de mapa para plotar dados em uma visualização de mapa geográfico
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ A visualização de ![Globo](/help/assets/icons/Globe.svg) **[!UICONTROL mapa]**
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de mapa no Analysis Workspace](https://video.tv.adobe.com/v/30791/?quality=12&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de mapa no Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -119,8 +119,8 @@ Para definir configurações para a visualização, selecione ![Configuração](
 | Configuração | Descrição |
 |--- |--- |
 | **[!UICONTROL Tipo de mapa]** | |
-| [!UICONTROL Propagação] | Faz a plotagem de eventos usando propagações. Um gráfico de propagação é um gráfico de muitas variáveis, que é um cruzamento entre um gráfico de dispersão e um gráfico de área proporcional. Essa exibição é o padrão. |
-| Mapa de calor | Faz a plotagem de eventos usando um mapa de calor. Um mapa de calor é uma representação gráfica de dados onde os valores individuais contidos em uma matriz são representados como cores. |
+| **[!UICONTROL Bolhas] | Faz a plotagem de eventos usando propagações. Um gráfico de propagação é um gráfico de muitas variáveis, que é um cruzamento entre um gráfico de dispersão e um gráfico de área proporcional. Essa exibição é o padrão. |
+| [!UICONTROL Mapa de calor] | Faz a plotagem de eventos usando um mapa de calor. Um mapa de calor é uma representação gráfica de dados onde os valores individuais contidos em uma matriz são representados como cores. |
 | **[!UICONTROL Estilos]** | |
 | [!UICONTROL Tema de cores] | Mostra o esquema de cor do mapa de calor e das propagações. Você pode optar por Coral, Vermelho, Verde ou Azul. O padrão é Coral. |
 | [!UICONTROL Estilo do mapa] | É possível escolher entre Básico, Ruas, Brilhante, Claro, Escuro e Satélite. |
@@ -132,7 +132,7 @@ Para definir configurações para a visualização, selecione ![Configuração](
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/35004/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

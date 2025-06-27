@@ -1,17 +1,17 @@
 ---
-description: Permite ver a comparação ou a medição de um valor em relação a outros intervalos de desempenho (metas).
-title: Gráfico de marcadores
+description: Saiba como usar a visualização de marcadores no Analysis Workspace. A visualização de marcadores permite que você compare ou meça em relação a outros intervalos de desempenho (metas).
+title: Marcador
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 90%
 
 ---
 
-# Gráfico de marcadores {#bullet-graph}
+# Gráfico em marcadores {#bullet-graph}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -39,29 +39,29 @@ _Este artigo é sobre a visualização de marcador no_ ![AdobeAnalytics](/help/a
 
 A visualização de ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL marcador]** mostra como uma métrica se compara ou é medida em relação aos intervalos de desempenho (metas).
 
-![Visualização do gráfico de marcadores](assets/bullet.png)
+![Visualização de gráfico de marcadores](assets/bullet.png)
 
-O gráfico de marcadores apresenta uma única medida principal (por exemplo, receita acumulada no ano atual) e permite que você informe intervalos qualitativos de desempenho (por exemplo, em comparação com uma receita alvo). É possível especificar intervalos de meta altos, médios e baixos É possível especificar intervalos de meta em ![Configuração](/help/assets/icons/Setting.svg) **[!UICONTROL Configurações]**.
+O gráfico de marcadores apresenta uma só medida principal (por exemplo, receita acumulada no ano atual) e permite que você informe intervalos qualitativos de desempenho (por exemplo, em comparação com uma receita alvo). Você pode especificar intervalos de metas altos, médios e baixos. Você pode especificar intervalos de metas em ![Configuração](/help/assets/icons/Setting.svg) **[!UICONTROL Configurações]**.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização do gráfico de marcadores](https://video.tv.adobe.com/v/30760/?quality=12/?quality=12&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de gráfico com marcadores](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target=&#34;_blank&#34;} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 ## Configurações 
 
-É possível definir configurações específicas para uma visualização de [!UICONTROL marcador].
+Você pode definir configurações específicas para uma visualização de [!UICONTROL Marcador].
 
 | Configuração | Descrição |
 |---|---|
-| **[!UICONTROL Opções de marcador]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta intermediária]** e **[!UICONTROL Meta baixa]** na visualização de [!UICONTROL marcador]. <br/>**[!UICONTROL Meta alta ]**é a meta principal que você almeja.**[!UICONTROL  Meta baixa ]**e**[!UICONTROL  Meta intermediária ]**são intervalos abaixo da Meta alta. Observação: quando a opção**[!UICONTROL  Porcentagens ]**estiver marcada, insira metas como números inteiros. Por exemplo: `20` se a sua meta for vinte por cento. |
+| **[!UICONTROL Opções de marcador]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta intermediária]** e **[!UICONTROL Meta baixa]** na visualização de [!UICONTROL Marcador]. <br/>**[!UICONTROL Meta alta ]**é a meta principal que você está almejando.**[!UICONTROL  Meta baixa ]**e**[!UICONTROL  Meta intermediária ]**criam intervalos abaixo da Meta alta. Observação: quando a opção**[!UICONTROL  Porcentagens ]**estiver marcada, insira metas como números inteiros. Por exemplo: `20` se a sua meta for vinte por cento. |
 
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

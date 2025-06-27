@@ -1,14 +1,14 @@
 ---
-description: Esta visualização mostra barras horizontais que representam vários valores de uma ou mais métricas.
-title: Barra horizontal e barra horizontal empilhada
+description: Saiba como usar barras horizontais para representar vários valores em uma ou mais métricas.
+title: Barra Horizontal E Barra Horizontal Empilhada
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 89%
 
 ---
 
@@ -33,9 +33,9 @@ A visualização de barra horizontal tem as opções padrão e empilhada.
 
 <!-- markdownlint-enable MD034 -->
 
-A visualização de ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL barra horizontal]** mostra barras horizontais que representam diversos valores em uma ou mais métricas.
+A visualização ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barra horizontal]** mostra barras horizontais que representam vários valores em uma ou mais métricas.
 
-![Barra horizontal que mostra métricas como Exibições de página, Velocidade da página, Visitas, Entradas e Saídas.](assets/horizontal-bar.png)
+![Barra horizontal mostrando métricas incluindo exibições de página, velocidade de página, visitas, entradas e saídas.](assets/horizontal-bar.png)
 
 
 ## Barra horizontal empilhada {#horizontal-bar-stacked}
@@ -50,19 +50,19 @@ A visualização de ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.
 <!-- markdownlint-enable MD034 -->
 
 
-A visualização de ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL barra horizontal empilhada]** é semelhante à de [!UICONTROL barra horizontal], mas as barras da série aparecem empilhadas.
+A visualização ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL Barra horizontal empilhada]** é como a [!UICONTROL Barra horizontal], mas as barras da série aparecem empilhadas.
 
-![Uma barra horizontal empilhada que mostra Exibições de Página, Visitas, Entradas e Saídas.](assets/horizontal-bar-stacked.png)
+![Uma barra horizontal empilhada mostrando exibições de página, visitas, entradas e saídas.](assets/horizontal-bar-stacked.png)
 
-Use a opção **[!UICONTROL 100% empilhada]** em ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Configurações]** para transformar o gráfico em uma visualização 100% empilhada.
+Use a opção **[!UICONTROL 100% empilhado]** em ![Configurações](/help/assets/icons/Setting.svg) **[!UICONTROL Configurações]** para transformar o gráfico em uma visualização 100% empilhada.
 
-![Barra horizontal 100% empilhada](assets/horizontal-bar-stacked100.png)
+![Barra horizontal empilhada 100%](assets/horizontal-bar-stacked100.png)
 
 
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização em um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

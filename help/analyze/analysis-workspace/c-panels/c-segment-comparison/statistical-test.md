@@ -1,14 +1,14 @@
 ---
-description: Cada um dos principais gráficos de comparação mostra uma pontuação de diferenças que é calculada de acordo com diversos testes estatísticos, dependendo da comparação que é feita. No entanto, independentemente do teste que for usado, a pontuação de diferenças é exibida como um valor entre 0 e 1.
+description: Saiba como os testes estatísticos são usados na comparação entre segmentos.
 keywords: Analysis Workspace;Segment IQ
-title: Testes estatísticos usados na comparação entre segmentos
+title: Testes Estatísticos Usados Na Comparação De Segmentos
 feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '477'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 95%
 
 ---
 

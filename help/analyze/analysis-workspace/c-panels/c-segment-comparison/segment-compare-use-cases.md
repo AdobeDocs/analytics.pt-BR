@@ -5,14 +5,14 @@ keywords: Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
-# Casos de uso do Segment IQ
+# Casos de uso de comparação de segmentos
 
 O painel de comparação de segmentos é um recurso amplamente usado no Analysis Workspace. Com esse recurso, os clientes muitas vezes descobrem novas maneiras de extrair insights. Veja a seguir vários casos de uso bem-sucedidos.
 
@@ -60,7 +60,7 @@ Uma importante empresa de serviços B2B queria entender o tipo de tráfego que a
 
 > *“Descobrimos que a probabilidade de receber mensagens de “Produto esgotado” era 6 vezes maior para compradores de Fitbits, por isso pedimos mais Fitbits rapidamente e evitamos ficar sem estoque.”*
 
-**Cenário:** uma grande varejista online estava interessada em saber como um dos melhores produtos de datas festivas, o Fitbit, estava sendo vendido e o que fazia com que os compradores do Fitbit fossem únicos comparados aos outros clientes. A equipe foi capaz de apenas clicar com o botão direito no item da linha &quot;Fitbit&quot; no relatório de produto e executar uma análise IQ de segmento rapidamente. Eles descobriram que os usuários que compravam fitbit estavam 6 vezes mais suscetíveis a receber uma mensagem de &quot;fora de estoque&quot; que qualquer outro cliente. Após a análise, a equipe de marketing foi capaz de direcionar esses visitantes para suas lojas tradicionais enquanto eles aguardavam o departamento de compra pedir mais Fitbits para serem enviados. Como resultado, a varejista evitou mais mensagens de “produto esgotado” e pode satisfazer as demandas de datas festivas.
+**Cenário:** uma grande varejista online estava interessada em saber como um dos melhores produtos de datas festivas, o Fitbit, estava sendo vendido e o que fazia com que os compradores do Fitbit fossem únicos comparados aos outros clientes. A equipe de marketing pôde simplesmente clicar com o botão direito do mouse no item de linha &quot;Fitbit&quot; em seu relatório de produtos e executar rapidamente uma análise de QI de segmento. O que eles descobriram foi que a probabilidade de receber mensagens de &quot;Produto esgotado&quot; era 6 vezes maior para compradores de Fitbits do que para qualquer outro cliente. Após a análise, a equipe de marketing foi capaz de direcionar esses visitantes para suas lojas tradicionais enquanto eles aguardavam o departamento de compra pedir mais Fitbits para serem enviados. Como resultado, a varejista evitou mais mensagens de “produto esgotado” e pode satisfazer as demandas de datas festivas.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |

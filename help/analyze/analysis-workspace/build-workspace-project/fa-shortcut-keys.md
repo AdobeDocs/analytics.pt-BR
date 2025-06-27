@@ -1,26 +1,28 @@
 ---
-description: Interações de teclado, teclas de atalho e comportamentos para apontar e clicar disponíveis no Analysis Workspace.
+description: Saiba como usar interações de teclado, teclas de atalho e comportamentos para apontar e clicar disponíveis no Analysis Workspace.
 keywords: Analysis Workspace
-title: Teclas de atalho (atalhos)
+title: Teclas de atalho
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 92%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
-# Teclas de atalho (atalhos)
+# Teclas de atalho
+
+Há teclas de atalho (atalhos do teclado) disponíveis no Analysis Workspace para simplificar a navegação, análise e democratização.
 
 Observe que é possível usar os seguintes símbolos do teclado:
 
-- **⇧** para **[!UICONTROL **&#x200B; Shift &#x200B;**]**.
-- **⌘** para **[!UICONTROL **&#x200B; cmd &#x200B;**]** (command).
-- **⌃** para **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (control).
-- **⌥** para **[!UICONTROL **&#x200B; opt &#x200B;**]** (option).
-- **⎇** para **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternar).
+- **⇧** para **[!UICONTROL ** Shift **]**.
+- **⌘** para **[!UICONTROL ** cmd **]** (command).
+- **⌃** para **[!UICONTROL ** ctrl **]** (control).
+- **⌥** para **[!UICONTROL ** opt **]** (option).
+- **⎇** para **[!UICONTROL ** alt **]** (alternar).
 
 ## Ações de navegação
 

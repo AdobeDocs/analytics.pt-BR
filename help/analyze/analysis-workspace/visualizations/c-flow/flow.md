@@ -1,14 +1,14 @@
 ---
-description: Use a visualização de fluxo em um projeto do Espaço de trabalho.
-title: Visão geral do Fluxo
+description: Saiba como usar a visualização de fluxo em uma Analysis Workspace.
+title: Visão geral do fluxo
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 95%
 
 ---
 
@@ -35,23 +35,24 @@ _Este artigo é sobre a visualização de fluxo no_ ![AdobeAnalytics](/help/asse
 
 >[!ENDSHADEBOX]
 
-O recurso Fluxo mostra os caminhos do cliente pelos seus sites e aplicativos.
+O recurso ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Fluxo]** mostra os caminhos do cliente pelos seus sites e aplicativos.
 
-Ele permite:
+Com a visualização, é possível:
 
-* Visualizar a jornada do cliente pelo seu site ou aplicativo
-* Analisar para onde os clientes vão antes e depois de pontos de verificação específicos, como a entrada, uma dimensão específica ou a saída
-* Criar segmentos, designando um ponto específico em um determinado caminho
+* Visualizar a jornada do cliente pelo seu site ou aplicativo.
+* Analisar aonde os clientes vão antes e depois de pontos de verificação específicos, como a entrada, uma dimensão específica ou a saída.
+* Crie segmentos designando um ponto específico em um caminho escolhido.
+
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de fluxo](https://video.tv.adobe.com/v/3412492?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de fluxo](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
-## Fluxos interdimensionais {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## Fluxos interdimensionais
 
 É possível mostrar o [fluxo entre dimensões](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por exemplo, você pode combinar páginas e departamentos em um diagrama. Neste caso, o fluxo pode ir da página inicial à página Masculino e, em seguida, para o departamento de Sapatos.
 
@@ -67,7 +68,7 @@ Cada coluna pode exibir uma dimensão diferente. Arraste uma dimensão e solte e
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidades adicionais na visualização de fluxo](https://video.tv.adobe.com/v/30779?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidades adicionais na visualização de fluxo](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
