@@ -7,7 +7,7 @@ user-guide-description: Gerencie dados usando componentes como segmentos, métri
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -198,8 +198,8 @@ ht-degree: 96%
       + [Usar segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
    + Referência do segmento {#segment-reference}
       + [Operadores](segmentation/seg-reference/seg-operators.md)
-      + [Compatibilidade de segmentos do Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
-      + [Direitos do segmento por função](segmentation/seg-reference/seg-rights.md)
+      + [Compatibilidade de segmentos do Data warehouse](segmentation/seg-reference/seg-compatibility.md)
+      + [Direitos de segmento por função](segmentation/seg-reference/seg-rights.md)
       + [Solução de problemas](segmentation/seg-reference/c-troubleshooting.md)
    + [Perguntas frequentes sobre segmentos herdados](segmentation/seg-transition.md)
    + [Práticas recomendadas](segmentation/best-practices.md)
