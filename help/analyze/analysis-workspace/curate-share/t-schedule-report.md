@@ -1,20 +1,20 @@
 ---
-description: Envie um projeto do Analysis Workspace por email ou agende sua entrega.
+description: Saiba como enviar um projeto do Analysis Workspace diretamente ou de acordo com um agendamento para entrega por email.
 keywords: Analysis Workspace
-title: Agendar projetos
+title: Enviar E Agendar Projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 32%
+source-wordcount: '491'
+ht-degree: 28%
 
 ---
 
-# Enviar arquivos para outras pessoas
+# Enviar e agendar
 
-Você pode enviar relatórios do Adobe Analytics como arquivos para usuários selecionados por email. Você pode enviar arquivos ad hoc ou pode configurar arquivos para serem enviados de acordo com uma programação. Os arquivos podem ser enviados no formato CSV ou PDF.
+Você pode enviar projetos Adobe Analytics como arquivos para usuários selecionados por email. Você pode enviar arquivos ad hoc ou pode configurar arquivos para serem enviados de acordo com uma programação. Os arquivos podem ser enviados no formato CSV ou PDF.
 
 As tags aplicadas ao projeto são automaticamente aplicadas à exportação.
 
@@ -24,7 +24,7 @@ Outros métodos de exportação de dados do Adobe Analytics também estão dispo
 
 ## Enviar arquivo
 
-Para enviar um arquivo aos recipients por email:
+Para enviar um arquivo ad-hoc a recipients por email:
 
 1. Selecione **[!UICONTROL Compartilhar] > [!UICONTROL Enviar arquivo]**.
 1. Especifique o tipo de arquivo:

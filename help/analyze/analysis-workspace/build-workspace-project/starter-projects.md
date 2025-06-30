@@ -1,19 +1,19 @@
 ---
-description: Saiba como criar rapidamente um projeto com base em cenários de relatórios comuns usando modelos no Analysis Workspace.
-title: Modelos
+description: Saiba como iniciar rapidamente um projeto com base em cenários de relatórios comuns usando modelos no Analysis Workspace.
+title: Iniciar Projetos Rapidamente
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 37%
+source-wordcount: '75'
+ht-degree: 24%
 
 ---
 
-# Modelos
+# Iniciar um projeto rapidamente
 
-Os modelos (ou modelos de empresa) no Analysis Workspace fornecem insights rápidos sobre os cenários de relatórios mais comuns.
+Você pode iniciar rapidamente um projeto com painéis e visualizações relevantes. Para fazer isso, use modelos (ou modelos de empresa) no Analysis Workspace. Os modelos fornecem insights rápidos sobre os cenários de relatórios mais comuns.
 
 Para obter informações sobre como usar modelos no Adobe Analytics, consulte os seguintes recursos:
 

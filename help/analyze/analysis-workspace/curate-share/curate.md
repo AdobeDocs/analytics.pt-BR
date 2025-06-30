@@ -1,14 +1,14 @@
 ---
-description: A preparação permite limitar os componentes antes de compartilhar um projeto.
+description: Saiba como preparar projetos no Analysis Workspace. A preparação limita o acesso a componentes antes de compartilhar um projeto.
 keywords: Preparação do Analysis Workspace
-title: Preparar projetos do
+title: Preparar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 65%
+source-wordcount: '532'
+ht-degree: 60%
 
 ---
 
@@ -22,7 +22,7 @@ A preparação permite limitar os componentes (dimensões, métricas, segmentos,
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Preparar projetos](https://video.tv.adobe.com/v/30771?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Preparar projetos](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +35,6 @@ Se um projeto tiver vários conjuntos de relatórios, você verá um destino de 
 1. (Opcional) Para adicionar mais componentes, arraste os componentes que deseja compartilhar do painel esquerdo para a área de soltar **[!UICONTROL Preparar componentes]** da exibição de dados.
 1. Selecione **[!UICONTROL Concluído]**.
 
-A preparação também pode ser aplicada no menu [!UICONTROL Compartilhar] selecionando **[!UICONTROL Preparar e Compartilhar]**. Essa opção organiza automaticamente o projeto para os componentes em uso no projeto. Você pode adicionar outros componentes seguindo as etapas acima.
 
 ![](assets/curation-field.png)
 
@@ -52,7 +51,7 @@ Para remover a preparação do projeto e restaurar o conjunto completo de compon
 
 ## Preparação de conjunto de relatórios virtuais
 
-Para fazer a preparação no nível do conjunto de relatórios, de modo que ela se aplique a vários projetos de uma vez, você pode [preparar os componentes em um conjunto de relatórios virtuais](https://experienceleague.adobe.com/pt-br/docs/analytics/components/virtual-report-suites/vrs-components).
+Para fazer a preparação no nível do conjunto de relatórios, de modo que ela se aplique a vários projetos de uma vez, você pode [preparar os componentes em um conjunto de relatórios virtuais](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
 >
@@ -72,6 +71,6 @@ Observação: as funções de visualização que não são de administração n�
 
 | Tipo de preparação | Administradores | Proprietário do projeto não administrativo ou função de edição | Função duplicada que não é de administração |
 |---|---|---|---|
-| Conjunto de relatórios virtuais preparado | Todos os componentes do conjunto de relatórios virtual não preparado | Componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela | Componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela |
-| Projeto preparado | Todos os componentes de projeto não preparados | Todos os componentes de projeto não preparados | Componentes de projeto não preparados de propriedade desta função ou compartilhados com ela |
-| Projeto preparado em um conjunto de relatórios virtuais preparado | Todos os componentes não preparados, mostrados em **[!UICONTROL Componentes de projetos não preparados]** e **[!UICONTROL Componentes de conjuntos de relatórios virtuais não preparados]** | Todos os componentes de projetos não preparados E componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela | Conjunto de relatórios virtuais e componentes de projetos não preparados que esta função possui ou que foram compartilhados com ela |
+| **Conjunto de relatórios virtuais preparado** | Todos os componentes do conjunto de relatórios virtual não preparado | Componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela | Componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela |
+| **Projeto preparado** | Todos os componentes de projeto não preparados | Todos os componentes de projeto não preparados | Componentes de projeto não preparados de propriedade desta função ou compartilhados com ela |
+| **Projeto preparado em um conjunto de relatórios virtuais preparado** | Todos os componentes não preparados, mostrados em **[!UICONTROL Componentes de projetos não preparados]** e **[!UICONTROL Componentes de conjuntos de relatórios virtuais não preparados]** | Todos os componentes de projetos não preparados E componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela | Conjunto de relatórios virtuais e componentes de projetos não preparados que esta função possui ou que foram compartilhados com ela |

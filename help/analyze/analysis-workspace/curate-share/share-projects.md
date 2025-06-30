@@ -1,14 +1,14 @@
 ---
-description: Compartilhamento de projetos e funções de projeto no Espaço de trabalho
+description: Saiba como compartilhar funções de projeto e projeto no Workspace
 keywords: Compartilhamento no Analysis Workspace
-title: Compartilhar projetos
+title: Compartilhamento de projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 97%
+source-wordcount: '1976'
+ht-degree: 96%
 
 ---
 
@@ -41,12 +41,12 @@ Qualquer [preparação](curate.md) feita antes do compartilhamento será refleti
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar projetos](https://video.tv.adobe.com/v/40035?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar projetos](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
-## Compartilhar com usuários e grupos do Analysis Workspace em sua organização {#Add}
+## Compartilhar com usuários e grupos em sua organização {#Add}
 
 É possível compartilhar um projeto com usuários ou grupos do Adobe Analytics em sua organização. Ao compartilhar um projeto conforme descrito nesta seção, os usuários com os quais você compartilha já devem ter uma conta do Adobe Analytics.
 
@@ -157,7 +157,7 @@ Para compartilhar o link do projeto com os usuários em sua organização:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar um link com qualquer pessoa](https://video.tv.adobe.com/v/3452457?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar um link com qualquer pessoa](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ Você pode compartilhar os componentes integrados que fazem parte do seu projeto
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar componentes inseridos](https://video.tv.adobe.com/v/30805?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar componentes inseridos](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
