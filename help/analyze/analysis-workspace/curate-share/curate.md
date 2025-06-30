@@ -51,7 +51,7 @@ Para remover a preparação do projeto e restaurar o conjunto completo de compon
 
 ## Preparação de conjunto de relatórios virtuais
 
-Para fazer a preparação no nível do conjunto de relatórios, de modo que ela se aplique a vários projetos de uma vez, você pode [preparar os componentes em um conjunto de relatórios virtuais](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
+Para fazer a preparação no nível do conjunto de relatórios, de modo que ela se aplique a vários projetos de uma vez, você pode [preparar os componentes em um conjunto de relatórios virtuais](https://experienceleague.adobe.com/pt-br/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
 >
