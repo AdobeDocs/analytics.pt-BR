@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 96%
 
 ---
@@ -131,14 +131,14 @@ ht-degree: 96%
          + [Visão geral](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Testes estatísticos usados](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Preparar e compartilhar projetos {#curate-share}
+   + Preparar e compartilhar {#curate-share}
       + [Visão geral](analysis-workspace/curate-share/send-schedule-files.md)
       + [Preparar projetos do](analysis-workspace/curate-share/curate.md)
       + [Compartilhar projetos](analysis-workspace/curate-share/share-projects.md)
-      + [Criar links compartilháveis](analysis-workspace/curate-share/shareable-links.md)
+      + [Links compartilháveis](analysis-workspace/curate-share/shareable-links.md)
       + [Projetos somente leitura](analysis-workspace/curate-share/view-only-projects.md)
-      + [Baixar projetos](analysis-workspace/curate-share/download-send.md)
-      + [Enviar e agendar projetos](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Baixar](analysis-workspace/curate-share/download-send.md)
+      + [Enviar e agendar](analysis-workspace/curate-share/t-schedule-report.md)
    + Atribuição {#attribution}
       + [Visão geral da atribuição](analysis-workspace/attribution/overview.md)
       + [Modelos de atribuição e janelas de pesquisa](analysis-workspace/attribution/models.md)

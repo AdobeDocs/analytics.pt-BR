@@ -5,14 +5,14 @@ title: Enviar E Agendar Projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 28%
 
 ---
 
-# Enviar e agendar
+# Enviar e agendar projetos
 
 Você pode enviar projetos Adobe Analytics como arquivos para usuários selecionados por email. Você pode enviar arquivos ad hoc ou pode configurar arquivos para serem enviados de acordo com uma programação. Os arquivos podem ser enviados no formato CSV ou PDF.
 
