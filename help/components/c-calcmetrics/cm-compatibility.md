@@ -6,7 +6,7 @@ exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 61%
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
 >title="Compatibilidade do produto"
->abstract="Um pequeno número de critérios de métrica disponíveis não é compatível com todas as ferramentas do Adobe Analytics. As ferramentas compatíveis com a métrica estão indicadas nesta lista. Para tornar uma métrica compatível com todas as ferramentas do Adobe Analytics, tente editar os critérios."
+>abstract="Uma pequena quantidade de critérios de métrica disponíveis não é compatível com todas as ferramentas do Adobe Analytics. As ferramentas compatíveis com a métrica estão indicadas nesta lista. Para tornar uma métrica compatível com todas as ferramentas do Adobe Analytics, tente editar os critérios."
 
 Este artigo explica as três opções de compatibilidade de produto.
 

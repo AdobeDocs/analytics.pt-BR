@@ -7,7 +7,7 @@ exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 68%
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Dicionário de dados"
->abstract="O Dicionário de dados ajuda usuários e administradores a rastrear e entender melhor os componentes em seus ambientes do Analytics. <br/>Os administradores do Analytics são responsáveis por preparar informações sobre cada componente no Dicionário de Dados."
+>abstract="O dicionário de dados ajuda usuários e administradores a acompanhar e entender melhor os componentes em seus ambientes do Analytics. <br/>Os admins do Analytics são responsáveis por organizar as informações sobre cada componente no Dicionário de dados."
 
 <!-- markdownlint-enable MD034 -->
 
