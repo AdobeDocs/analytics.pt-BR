@@ -1,12 +1,12 @@
 ---
 title: Práticas recomendadas de atribuição
-description: Quais são as práticas recomendadas para decidir um modelo de atribuição?
+description: Entenda as práticas recomendadas para decidir sobre qual modelo de atribuição usar.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 75%
+source-wordcount: '422'
+ht-degree: 74%
 
 ---
 
@@ -53,7 +53,7 @@ Nesse caso, você usaria o [modelo de atribuição Inverse J-shape&quot;](/help/
 
 Suponha que sua hipótese seja: *&quot;Em um setor específico (como o de viagens), a janela de atribuição é de 60 ou 90 dias, não 30 dias, porque os clientes fazem muita pesquisa antes de comprar um produto.*&quot;
 
-Nesse caso, você alteraria sua [janela de retrospectiva](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/attribution/models) para 90 dias.
+Nesse caso, você alteraria sua [janela de retrospectiva](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) para 90 dias.
 
 ## Usar atribuição algorítmica
 
@@ -63,4 +63,4 @@ Se você ainda não tiver um modelo de atribuição que forneça respostas satis
 
 * Talvez seja necessário usar os serviços de um cientista de dados, em vez de depender apenas do Analysis Workspace.
 * Você pode confiar em dados brutos, como os feeds de dados da Adobe.
-* Considere usar o [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por exemplo, se desejar considerar seus dados de impressões.
+* Considere usar o [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por exemplo, se desejar considerar seus dados de impressões.

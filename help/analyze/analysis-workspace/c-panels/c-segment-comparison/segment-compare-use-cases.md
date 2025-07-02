@@ -5,10 +5,10 @@ keywords: Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 93%
+source-wordcount: '850'
+ht-degree: 18%
 
 ---
 
@@ -18,19 +18,19 @@ O painel de comparação de segmentos é um recurso amplamente usado no Analysis
 
 ## Caso de uso 1: comparar a implementação em dispositivos móveis e em desktop
 
-> *“Comparamos o número de ocorrências diárias de um site ao de outro site e rapidamente encontramos um número de inconsistências na marcação. Dessa forma, evitamos problemas de dados antes o lançamento do produto.”*
+> *&quot;Você comparou ocorrências de um site a outro site e rapidamente encontrou várias inconsistências de marcação. Dessa forma, você evitou problemas de dados antes o lançamento do produto.&quot;*
 
-Um gerente de produto responsável por um site para dispositivos móveis e um site para desktop tinha a tarefa de verificar se as tags eram consistentes entre as duas versões. Para não perder nada importante, ele usou o painel de comparação de segmentos para comparar as ocorrências vindas do site para dispositivos móveis com as vindas do site para desktop. Ele observou que não havia eventos de check-out no site para dispositivos móveis e colocou as tags corretas antes do lançamento do site. Como resultado, o gerente de produto evitou um desastre nos dados, porque o site para dispositivos móveis não tinha registrado nenhuma conversão.
+Você é responsável por um site para dispositivos móveis e um site para desktop, e tem a tarefa de garantir que as tags sejam consistentes entre as duas versões. Para não perder nada importante, use o painel de comparação de segmentos para comparar as ocorrências vindas do site para dispositivos móveis com as vindas do site para desktop. Você percebe que não há eventos de check-out no site para dispositivos móveis e coloca as tags corretas antes do lançamento do site. Como resultado, você evita um desastre nos dados porque o site para dispositivos móveis não está registrando conversões.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
 | Contêiner de ocorrências em que o Tipo de dispositivo móvel é Celular ou Tablet | Todos os outros |
 
-## Caso de uso 2: comparar clientes que utilizam um certo recurso com aqueles que não o utilizam
+## Caso de uso 2: comparar clientes que usam um determinado recurso com clientes que não o usam
 
-> *“Descobrimos que os clientes que utilizavam nosso recurso de comparação de produto eram 10% mais passíveis de conversão. Movemos esses clientes para o início da página e os pedidos aumentaram em 4%!”*
+> *&quot;Você descobriu que os clientes que utilizavam o recurso de comparação de produto eram 10% mais passíveis de conversão. Você moveu a comparação de produtos para o início da página e os pedidos aumentaram em 4%!&quot;*
 
-Uma equipe de otimização de um site de varejo queria entender melhor os usuários que estavam interagindo com o recurso de comparação de produto lançado recentemente. A equipe usou o painel de comparação de segmentos para comparar os usuários que usaram o recurso de comparação de produtos com todos os outros usuários do site. Eles identificaram rápido várias diferenças importantes, incluindo a probabilidade 10% maior de que esses usuários comprassem um produto. Assim, a equipe de otimização do site decidiu testar o recurso de comparação de produto com destaque no topo da página.
+Uma equipe de otimização de um site de varejo deseja entender melhor os usuários que estão interagindo com o recurso de comparação de produto lançado recentemente. Eles usam o painel de comparação de segmentos para comparar usuários que usam o recurso de comparação de produtos com todos os outros usuários do site. Eles identificam rapidamente várias diferenças importantes, incluindo a probabilidade 10% maior de que esses usuários comprem um produto. A equipe de otimização do site decide testar o recurso de comparação de produto com mais destaque na parte superior da página.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
@@ -38,9 +38,9 @@ Uma equipe de otimização de um site de varejo queria entender melhor os usuár
 
 ## Caso de uso 3: comparar visitantes da seção de notícias do site com visitantes de outras seções do site
 
-> *“Descobrimos que os visitantes em nossa nova seção de notícias eram duas vezes mais prováveis de assistir os comerciais do vídeo, então adicionamos mais opções de vídeo àquela seção. Vivenciamos um aumento de 7% de comerciais de vídeo assistidos!”*
+> *&quot;Você descobriu que a probabilidade dos visitantes da sua seção de notícias assistir a comerciais de vídeo era duas vezes maior, então adicionou mais opções de vídeo àquela seção. Você experimentou um aumento de 7% de comerciais de vídeo assistidos!&quot;*
 
-Uma grande empresa de comunicação estava procurando formas de aumentar a participação do público na seção de notícias. Eles criaram um segmento de visitantes da seção de notícias do site para entender melhor o público dessa seção. Eles descobriram de maneira imediata que a probabilidade de assistir aos vídeos de anúncio era duas vezes maior nos usuários dessa seção do que nos visitantes de qualquer outra seção do site. A equipe de vídeo então elaborou uma seção de vídeos recomendados no painel lateral do site e conseguiram um aumento de 7% na visualização de vídeos de anúncio.
+Uma grande empresa de publicação de mídia procura maneiras de melhorar o engajamento do público-alvo na seção de notícias. Eles criam um segmento de visitantes que visitam a seção de notícias do site para entender melhor o público de notícias. Eles percebem imediatamente que a probabilidade de assistir aos vídeos de anúncio é duas vezes maior nos usuários dessa seção do que nos visitantes de qualquer outra seção do site. A equipe de vídeo elaborou uma seção de vídeos recomendados no painel lateral do site de notícias e obteve um aumento de 7% na visualização de anúncios de vídeo.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
@@ -48,9 +48,9 @@ Uma grande empresa de comunicação estava procurando formas de aumentar a parti
 
 ## Caso de uso 4: comparar visitantes vindos de ferramentas de pesquisa paga com todos os outros
 
-> *“A probabilidade de realizar uma venda adicional para visitantes vindos de ferramentas de pesquisa era 3 vezes maior do que para o resto. Por isso, aumentamos nosso investimento em palavras-chave específicas e conseguimos um aumento de 56% nas vendas adicionais.”*
+> *&quot;A probabilidade de realizar uma venda adicional para visitantes vindos de mecanismos de pesquisa era 3 vezes maior do que para o resto. Como resultado, você aumentou seu investimento em palavras-chave específicas e obteve um aumento de 56% nas vendas adicionais.&quot;*
 
-Uma importante empresa de serviços B2B queria entender o tipo de tráfego que as palavras-chave de pesquisa pagas estavam levando para o site da empresa. A pesquisa paga não resultou em muitas conversões diretas e o executivo de marketing estava considerando diminuir o orçamento. A equipe de marketing criou um segmento de visitantes que chegavam ao site por meio de pesquisa paga e os comparou com os outros visitantes usando o painel de comparação de segmentos. Eles descobriram que, embora a probabilidade de conversão direta desses visitantes não fosse alta, a probabilidade de venda adicional relacionada com um serviço adquirido anteriormente era 3 vezes maior. Com esses dados, a equipe de marketing foi capaz de focar o orçamento apenas nas palavras-chave relativas à venda adicional e tiveram um aumento de 56% nas vendas adicionais de serviços.
+Uma importante empresa de serviços B2B deseja entender o tipo de tráfego que as palavras-chave de pesquisa pagas estão levando para o site da empresa. A pesquisa paga não resultou em várias conversões diretas e o executivo de marketing considera diminuir o orçamento. A equipe de marketing cria um segmento de visitantes que chegam ao site por meio de pesquisa paga e comparam esse segmento com todos os outros visitantes usando o painel de comparação de segmentos. Eles descobrem que, embora a probabilidade de conversão direta desses visitantes não seja alta, a probabilidade de venda adicional relacionada com um serviço adquirido anteriormente é 3 vezes maior. A equipe de marketing foca seu orçamento apenas nas palavras-chave relacionadas à venda adicional e observa um aumento de 56% nas vendas adicionais de serviços.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
@@ -58,9 +58,9 @@ Uma importante empresa de serviços B2B queria entender o tipo de tráfego que a
 
 ## Caso de uso 5: comparar compradores de Fitbit com todos os outros
 
-> *“Descobrimos que a probabilidade de receber mensagens de “Produto esgotado” era 6 vezes maior para compradores de Fitbits, por isso pedimos mais Fitbits rapidamente e evitamos ficar sem estoque.”*
+> *&quot;Você descobriu que a probabilidade de receber mensagens de &quot;Produto esgotado&quot; era 6 vezes maior para compradores de Fitbits do que para o resto. Então você rapidamente pediu mais Fitbits e evitou ficar sem estoque!&quot;*
 
-**Cenário:** uma grande varejista online estava interessada em saber como um dos melhores produtos de datas festivas, o Fitbit, estava sendo vendido e o que fazia com que os compradores do Fitbit fossem únicos comparados aos outros clientes. A equipe de marketing pôde simplesmente clicar com o botão direito do mouse no item de linha &quot;Fitbit&quot; em seu relatório de produtos e executar rapidamente uma análise de QI de segmento. O que eles descobriram foi que a probabilidade de receber mensagens de &quot;Produto esgotado&quot; era 6 vezes maior para compradores de Fitbits do que para qualquer outro cliente. Após a análise, a equipe de marketing foi capaz de direcionar esses visitantes para suas lojas tradicionais enquanto eles aguardavam o departamento de compra pedir mais Fitbits para serem enviados. Como resultado, a varejista evitou mais mensagens de “produto esgotado” e pode satisfazer as demandas de datas festivas.
+**Cenário:** uma importante retailer online está interessada em saber como um dos melhores produtos de datas festivas, o Fitbit, está sendo vendido e o que torna os compradores do Fitbit únicos comparados aos outros clientes. A equipe de marketing pode selecionar o item de linha Fitbit no relatório de produtos e executar rapidamente uma análise de comparação de segmentos no menu de contexto. O que eles descobrem é que os usuários que compram Fitbits têm 6 vezes mais chances de receber uma mensagem de &quot;Produto esgotado&quot; do que qualquer outro cliente. Após uma análise mais aprofundada, a equipe de marketing é capaz de direcionar esses visitantes para suas lojas tradicionais enquanto eles esperam que o departamento de compra solicite mais Fitbits para serem enviados. Como resultado, a retailer evita mais mensagens de &quot;Produto esgotado&quot; e é capaz de atender mais da demanda nos feriados.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |

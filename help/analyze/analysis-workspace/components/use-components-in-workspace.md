@@ -1,13 +1,13 @@
 ---
-description: Saiba como adicionar componentes a um projeto no Analysis Workspace
-title: Usar componentes no Analysis Workspace
+description: Saiba como usar componentes em um projeto no Analysis Workspace
+title: Usar Componentes No Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 97%
+source-wordcount: '953'
+ht-degree: 80%
 
 ---
 
@@ -32,7 +32,7 @@ Consulte a [Visão geral dos componentes](/help/analyze/analysis-workspace/compo
 1. Role a tela até encontrar ou pesquise o componente que deseja adicionar e arraste-o até um painel ou visualização dentro do projeto.
 
 1. Opcionalmente, é possível arrastar um componente para a zona de destino de segmentos no cabeçalho de um painel. Ao usar o recurso de arrastar e soltar, o componente é definido como um segmento e aplicado a todo o conteúdo dentro do painel.
-Para obter informações sobre como usar a zona de destino do segmento em um painel para segmentar o painel, consulte [Zona de destino](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) na [Visão geral de painéis](/help/analyze/analysis-workspace/c-panels/panels.md).
+Para obter informações sobre como você pode usar a área de destino do segmento em um painel para segmentar o seu painel, consulte a [Área de destino](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) na [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 1. Para obter mais informações, consulte as seguintes seções:
 
@@ -97,7 +97,7 @@ Você pode usar segmentos no Analysis Workspace de qualquer uma das seguintes ma
 
 * Adicionar segmentos a um painel
 Ao adicionar segmentos a um painel, os segmentos se aplicam a todo o conteúdo do painel.
-Para obter informações sobre como usar a zona de destino de segmentos em um painel para segmentar o painel, consulte [Zona de destino](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) na [Visão geral de painéis](/help/analyze/analysis-workspace/c-panels/panels.md).
+Para obter informações sobre como você pode usar a área de destino do segmento em um painel para segmentar o seu painel, consulte a [Área de destino](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) na [Visão geral dos painéis](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 * Adicionar segmentos a uma visualização
 Ao adicionar segmentos a uma coluna em uma tabela de forma livre, os segmentos se aplicam a todo o conteúdo na coluna da tabela. Você também pode adicionar segmentos como parte de uma visualização de fallout.
@@ -108,13 +108,13 @@ Ao definir componentes como [métricas calculadas](/help/components/c-calcmetric
 
 ### Adicionar intervalos de datas a um projeto
 
-[Intervalos de datas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) determinam o intervalo de tempo do relatório no Analysis Workspace e podem ser aplicados a um ou mais painéis em um projeto e também a algumas visualizações (como a tabela de forma livre).
+[Intervalos de datas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) determinam o período de relatório no Analysis Workspace. E um intervalo de dados pode ser aplicado a painéis em um projeto e também a algumas visualizações (como a Tabela de forma livre).
 
 Cada painel inclui um intervalo de datas por padrão. Há várias maneiras de atualizar um intervalo de datas para um painel. Uma maneira de atualizar um intervalo de datas para um painel no Analysis Workspace é arrastar um componente de intervalo de datas do painel esquerdo:
 
 1. Opcionalmente, é possível adicionar um intervalo de datas ao seu projeto no Analysis Workspace, conforme descrito em [Adicionar componentes a um projeto](#add-components-to-a-project).
 
-1. Arraste e solte um intervalo de datas do painel esquerdo no:
+1. Arraste e solte um intervalo de datas no painel esquerdo em:
 
    * Intervalo de datas atual, para modificar o intervalo de datas do painel.
 
@@ -126,7 +126,7 @@ Para obter mais informações sobre como usar e gerenciar intervalos de datas no
 
 ## Informações de componentes
 
-Passe o mouse sobre qualquer componente para exibir ![Mais informações](/help/assets/icons/InfoOutline.svg). Quando selecionado, um pop-up é exibido com informações adicionais sobre o componente.
+Passe o mouse sobre qualquer componente para exibir ![Mais informações](/help/assets/icons/InfoOutline.svg). Quando você seleciona ![InfoOutline](/help/assets/icons/InfoOutline.svg), um pop-up é exibido com informações adicionais sobre o componente.
 
 ![Informações de componentes](assets/component-info.png)
 

@@ -1,13 +1,13 @@
 ---
-description: A separação de tempo coleta o carimbo de data e hora de ocorrências coletadas e o divide em dimensões mais significativas, como "Horas do dia" ou "Dias de semana".
+description: Saiba mais sobre como as dimensões de separação de tempo capturam o carimbo de data e hora de eventos coletados e o dividem em dimensões mais significativas, como Hora do dia ou Dia da semana.
 title: Dimensões de separação de tempo
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '238'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ A separação de tempo coleta o carimbo de data e hora de ocorrências coletadas
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=parting dimensions](https://video.tv.adobe.com/v/30809?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=parting dimensions](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

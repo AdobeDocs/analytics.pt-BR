@@ -1,35 +1,32 @@
 ---
-description: Casos de uso de criação e gerenciamento de alertas.
-title: Alertas - Casos de uso
+description: Revise alguns casos de uso para criar e gerenciar alertas.
+title: Casos de uso de alertas
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '66'
-ht-degree: 100%
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 20%
 
 ---
 
-# Alertas - Casos de uso
+# Casos de uso de alerta
 
-É possível criar alertas conforme descrito em [Criar alertas](/help/components/c-alerts/alert-builder.md).
+É possível criar alertas conforme descrito em [Criar alertas](alert-builder.md).
 
 As seções a seguir ilustram exemplos de casos de uso que você deve considerar ao criar alertas.
 
-## Criar alertas simples filtrados por dois segmentos {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## Filtrar alertas
 
-<!-- 
+Você pode criar alertas simples usando segmentos. Por exemplo, defina um alerta sobre o número de sessões para pessoas que visitam a página inicial por meio de uma sessão de aplicativo móvel.
 
-Update screenshots for better readability.
 
- -->
-
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## Consolidar (empilhar) alertas em vez de criar vários alertas {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Empilhar alertas
 
-O empilhamento de alertas combina os alertas para que você não receba vários alertas separados.
+Você pode consolidar (empilhar) alertas em vez de criar vários alertas. O empilhamento de alertas combina os alertas para que você não receba vários alertas separados. No exemplo abaixo, um alerta é enviado quando um dos limites de métrica é acionado.
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

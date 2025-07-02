@@ -1,26 +1,24 @@
 ---
-title: Journey IQ
-description: Entenda os recursos que compõem Journey IQ, um conjunto de recursos que fazem parte do Adobe Analytics.
+title: Recursos de gerenciamento de jornadas
+description: Saiba mais sobre os recursos que ajudam você a entender a experiência do cliente e a jornada do cliente.
 role: User, Admin
 exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
 feature: Visualizations
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: bbf0f690ffdc1fc6e6666b99b6455613b691d2be
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 13%
 
 ---
 
-# Journey IQ
+# Recursos de gerenciamento de jornadas
 
-O Journey IQ é um conjunto de recursos que fornecem visualizações e configurações fáceis de usar e totalmente personalizáveis para entender melhor a experiência do cliente. Ele permite medir cada ponto de contato da jornada do cliente, inclusive entre canais. Use esses recursos para entender melhor onde reconectar com os clientes, mantê-los fiéis e personalizar sua experiência ao longo do caminho.
+O Adobe Analytics tem um conjunto de recursos que fornecem visualizações e configurações fáceis de usar e totalmente personalizáveis para entender a experiência do cliente. Esses recursos permitem medir cada ponto de contato na jornada de um cliente, mesmo entre canais. Use esses recursos para entender onde reconectar com os clientes, mantê-los fiéis e personalizar suas experiências ao longo do caminho.
 
-## Recursos
+Os recursos de gerenciamento de jornadas são:
 
-O Journey IQ inclui os seguintes recursos:
-
-* [Análise de coorte:](visualizations/cohort-table/cohort-analysis.md) permite visualizar a retenção e o engajamento dos clientes para identificar onde ocorre o abandono.
-* [Sessões sensíveis ao contexto:](../../components/vrs/vrs-report-time-processing.md) é possível alterar a definição de visitas, incluir o prazo para sua expiração e impedir que ocorrências em segundo plano iniciem uma nova visita. Usa um recurso chamado processamento de tempo de relatórios, parte dos conjuntos de relatórios virtuais.
+* [Análise de coorte:](visualizations/cohort-table/cohort-analysis.md) visualize a retenção e o engajamento dos clientes para identificar onde ocorre o abandono.
+* [Sessões sensíveis ao contexto:](../../components/vrs/vrs-report-time-processing.md) é possível alterar a definição de visitas, incluir o prazo para sua expiração e impedir que ocorrências em segundo plano iniciem uma nova visita. As sessões sensíveis ao contexto usam um recurso chamado processamento de tempo de relatório, parte dos conjuntos de relatórios virtuais.
 * [Análise de fluxo:](visualizations/c-flow/flow.md) permite identificar para onde os usuários se dirigem depois da visita e de onde vieram.
-* [Análise de fallout:](visualizations/fallout/fallout-flow.md) para registrar quando os clientes se desconectam e identificar para onde vão.
-* [Análise entre dispositivos:](../../components/cda/overview.md) para mesclar o comportamento em vários dispositivos de maneira contínua e identificar melhor quais são os pontos de contato em cada dispositivo.
+* [Análise de fallout](visualizations/fallout/fallout-flow.md): capturar quando um cliente se desconecta e saber para onde vai.
+* [Análise entre dispositivos:](../../components/cda/overview.md) mescla o comportamento em vários dispositivos para entender os pontos de contato do cliente em cada dispositivo.

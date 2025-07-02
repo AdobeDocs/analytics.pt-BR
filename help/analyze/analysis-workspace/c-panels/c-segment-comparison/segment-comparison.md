@@ -5,10 +5,10 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '584'
+ht-degree: 64%
 
 ---
 
@@ -28,21 +28,21 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Painel de comparação de segmentos"
->abstract="Compare rapidamente dois segmentos em todos os pontos de dados para encontrar automaticamente diferenças relevantes.<br/><br/>**Parâmetros &#x200B;**<br/>**Adicionar um segmento**: o primeiro segmento que você deseja analisar.<br/>**Comparar com**: o segundo segmento com o qual você deseja comparar. Isso será preenchido automaticamente com *Todos os outros*, que é o inverso do seu primeiro segmento. É possível substituir por um segmento diferente, se desejar.<br/>**Configurações avançadas**: a capacidade de excluir componentes de serem analisados na comparação de segmentos."
+>abstract="Compare rapidamente dois segmentos em todos os pontos de dados para encontrar automaticamente diferenças relevantes.<br/><br/>**Parâmetros **<br/>**Adicionar um segmento**: o primeiro segmento que você deseja analisar.<br/>**Comparar com**: o segundo segmento com o qual você deseja comparar, que é preenchido automaticamente com *Todos os outros* (o inverso do seu primeiro segmento). Você pode substituir *Todos os outros* por um segmento diferente, se desejar.<br/>**Configurações avançadas**: a capacidade de excluir componentes de serem analisados na comparação de segmentos."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel de comparação de segmentos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artigo é sobre o painel de comparação de segmentos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-O painel de comparação de segmentos é uma ferramenta do [Segment IQ](../../segment-iq.md) que descobre as diferenças estatisticamente mais significativas entre um número ilimitado de segmentos. Esse recurso é repetido por meio de uma análise automatizada de todas as dimensões e métricas a que você tem acesso. A análise descobre as principais características dos segmentos de público-alvo que estão liderando os indicadores de desempenho (KPIs) da sua empresa e permite que você veja o nível de sobreposição entre quaisquer segmentos.
+O painel de comparação de segmentos mostra as diferenças estatisticamente mais importantes entre um número ilimitado de segmentos. Esse recurso é repetido por meio de uma análise automatizada de todas as dimensões e métricas a que você tem acesso. A análise descobre as principais características dos segmentos de público-alvo que estão liderando os indicadores de desempenho (KPIs) da sua empresa e permite que você veja quantos segmentos se sobrepõem.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação de segmentos](https://video.tv.adobe.com/v/33252?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação de segmentos](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -68,8 +68,8 @@ Para usar um painel de **[!UICONTROL Atribuição]**:
 
 | Entrada | Descrição |
 | --- | --- |
-| **[!UICONTROL Adicionar um segmento]** | Selecione a dimensão com a qual deseja comparar. |
-| **[!UICONTROL Comparar com]** | Selecione a dimensão que deseja usar para comparar o segmento selecionado inicialmente. Caso não selecione um segmento específico, o segmento padrão **[!UICONTROL Todos os outros]** será usado. |
+| **[!UICONTROL Adicionar um segmento]** | Selecione a dimensão que deseja comparar. |
+| **[!UICONTROL Comparar com]** | Selecione a dimensão que deseja usar para comparar o segmento selecionado inicial. Caso não selecione um segmento específico, o segmento padrão **[!UICONTROL Todos os outros]** será usado. |
 | **[!UICONTROL Mostrar/ocultar configurações avançadas]** | Selecione **[!UICONTROL Mostrar configurações avançadas]** para configurar **[!UICONTROL componentes excluídos]** e selecione **[!UICONTROL Ocultar configurações avançadas]** para ocultar **[!UICONTROL componentes excluídos]**. |
 | **[!UICONTROL Componentes excluídos]** | Componentes que é possível especificar para exclusão, como **[!UICONTROL Dimensões]**, **[!UICONTROL Métricas]** ou **[!UICONTROL Segmentos]**.<br><ul><li>Arraste e solte uma ou mais dimensões, métricas ou segmentos dos containers para o container **[!UICONTROL Componentes excluídos]**.</li><li>Para remover um componente, escolha o tipo (**[!UICONTROL Dimensões]**, **[!UICONTROL Métricas]** ou **[!UICONTROL Segmentos]**) e selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg). Para remover todos os componentes, selecione **[!UICONTROL Limpar tudo]**.</li><li>Para definir a seleção atual de dimensões, métricas e segmentos como padrão, selecione **[!UICONTROL Definir como padrão]**.</li></ul> |
 
@@ -77,16 +77,16 @@ Selecione **[!UICONTROL Criar]** para criar o painel.
 
 ### Saída do painel
 
-Quando o Adobe Analytics terminar de analisar os dois segmentos desejados, os painéis de saída mostrarão os resultados em várias visualizações:
+Quando o Adobe Analytics terminar de analisar os dois segmentos desejados, os painéis de saída mostrarão os resultados por meio de várias visualizações:
 
 ![Comparação de segmentos de saída do painel](assets/segment-comparison-output.png)
 
 | Visualização | Descrição |
 |---|---|
 | **[!UICONTROL Tamanho e sobreposição]** | Ilustra com uma visualização de [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) os tamanhos comparativos de cada segmento selecionado e o quanto se sobrepõem uns aos outros. |
-| **[!UICONTROL Visitantes únicos do primeiro segmento]** | Uma visualização de [número de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) exibindo os visitantes únicos do primeiro segmento (no exemplo, Visitas de página única) |
-| **[!UICONTROL Visitantes únicos do 2º segmento]** | Uma visualização de [número de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) exibindo os visitantes únicos do segundo segmento (no exemplo, Primeiras visitas) |
-| **[!UICONTROL Principais métricas em relação a segmentos]** | Uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) exibindo as métricas principais dos segmentos selecionados. |
+| **[!UICONTROL Visitantes únicos do primeiro segmento]** | Uma visualização [Número do resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) mostrando os visitantes únicos para o primeiro segmento (no exemplo Visitas de página única) |
+| **[!UICONTROL Visitantes únicos do 2º segmento]** | Uma visualização [Número do resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) mostrando os visitantes únicos para o segundo segmento (no exemplo Novas visitas) |
+| **[!UICONTROL Principais métricas em relação a Segmentos]** | Uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) exibindo as métricas principais dos segmentos selecionados. |
 | **[!UICONTROL Métrica ao longo do tempo por segmento]** | Uma visualização de [linha](/help/analyze/analysis-workspace/visualizations/line.md) exibindo as métricas ao longo do tempo para os segmentos selecionados. |
 | **[!UICONTROL Principais itens de dimensão em relação a segmentos]** | Uma [tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) exibindo os itens de dimensão mistos para os segmentos selecionados. |
 | **[!UICONTROL Itens de dimensão por segmentos]** | Uma visualização de [barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) exibindo os itens de dimensão por segmento. |

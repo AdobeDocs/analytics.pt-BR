@@ -1,19 +1,19 @@
 ---
-title: Anotações do Cartão de pontuação para dispositivos móveis
-description: Saiba como destacar anotações nos Cartões de pontuação para dispositivos móveis.
+title: Anotações móveis
+description: Saiba como destacar anotações nos cartões de pontuação móveis.
 role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 94%
+source-wordcount: '305'
+ht-degree: 93%
 
 ---
 
 
-# Compartilhar anotações em cartões de pontuação para dispositivos móveis
+# Anotações do cartão de pontuação para dispositivos móveis
 
 É possível exibir anotações criadas no espaço de trabalho em cartões de pontuação móveis. As anotações dos cartões de pontuação móveis permitem compartilhar nuances de dados contextuais e insights sobre sua organização e campanhas.
 
@@ -40,7 +40,7 @@ Quando as anotações estão habilitadas, os ícones de anotação ficam visíve
 
 ![Criador de cartões de pontuação com destaque para os ícones de anotação.](assets/annotations-scorecard.png)
 
-Quando esses ícones estão visíveis, não é possível visualizar completamente ou interagir com as anotações na tela do criador. Use o ícone de ![círculo de reprodução](/help/assets/icons/PlayCircle.svg)**&#x200B;** para visualizar e interagir com as anotações conforme elas aparecem no aplicativo.
+Quando esses ícones estão visíveis, não é possível visualizar completamente ou interagir com as anotações na tela do criador. Use o ícone de ![círculo de reprodução](/help/assets/icons/PlayCircle.svg)**** para visualizar e interagir com as anotações conforme elas aparecem no aplicativo.
 
 As cores da anotação são selecionadas após criar a anotação no espaço de trabalho. As anotações em cinza indicam a presença de mais de uma anotação.
 

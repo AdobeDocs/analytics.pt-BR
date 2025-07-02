@@ -1,17 +1,17 @@
 ---
-description: Visualize os valores principais de uma dimensão antes de usá-la em um projeto.
+description: Saiba como visualizar detalhes e os principais valores de uma dimensão no Analysis Workspace.
 title: Visualizar dimensões
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 21%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
-# Visualizar dimensões no Analysis Workspace
+# Visualizar dimensões
 
 Você pode usar as [informações do componente](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) de um componente para mostrar os itens principais de uma dimensão.
 

@@ -1,26 +1,24 @@
 ---
-title: Visão geral do Segment IQ
-description: Saiba mais sobre o Segment IQ do Adobe Analytics e como ele pode ajudar sua organização.
+title: Recursos de comparação de segmentos
+description: Saiba mais sobre os recursos no Adobe Analytics para comparar segmentos.
 keywords: Analysis Workspace;Segment IQ
 role: User, Admin
 exl-id: 8b8f63ae-2697-474d-9c51-5d90d31f55ef
 feature: Visualizations
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 2%
 
 ---
 
-# Visão geral do Segment IQ
+# Recursos de comparação de segmentos
 
-Os analistas podem passar horas ou até dias pesquisando diferenças relevantes entre segmentos nas métricas e dimensões da sua organização. Essa análise não é apenas tediosa e demorada, mas também incerta, porque você nunca pode ter a certeza de que a diferença principal de um segmento passou despercebida, o que poderia causar um grande impacto nos seus esforços de marketing direcionado.
+Os analistas podem passar horas ou até dias pesquisando diferenças relevantes entre segmentos nas métricas e dimensões de uma organização. Essa análise é tediosa e demorada. Você também pode perder a principal diferença de um segmento, o que pode causar um impacto significativo nos seus esforços de marketing direcionado.
 
-Muitas organizações tiveram sucesso usando recursos viabilizados pelo Segment IQ. Consulte [Casos de uso de comparação de segmentos](c-panels/c-segment-comparison/segment-compare-use-cases.md) para descobrir cenários do mundo real que proporcionam insights valiosos para organizações.
+Os [Casos de uso de comparação de segmentos](c-panels/c-segment-comparison/segment-compare-use-cases.md) para cenários do mundo real ajudam as organizações a obter insights valiosos sobre segmentos e como eles se comparam.
 
-## Recursos
+Os recursos de comparação de segmentos são:
 
-O Segment IQ inclui os seguintes recursos:
-
-* [Painel de comparação de segmentos:](c-panels/c-segment-comparison/segment-comparison.md) principal Segment IQ. Arraste dois segmentos para o painel e exiba um relatório abrangente que mostra as diferenças estatisticamente significativas e as sobreposições entre os dois públicos.
+* [Painel de comparação de segmentos:](c-panels/c-segment-comparison/segment-comparison.md) permite que você arraste dois segmentos para o painel e exiba um relatório abrangente que mostre diferenças estatisticamente significativas e sobreposições entre os dois públicos.
 * [Comparação de segmentos no fallout:](visualizations/fallout/compare-segments-fallout.md) veja como públicos diferentes se comparam entre si no contexto de uma visualização de fallout.

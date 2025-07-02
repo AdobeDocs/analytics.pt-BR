@@ -4,7 +4,7 @@ description: Descreve cada campo no modelo CDA no Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 93%
@@ -32,8 +32,8 @@ A Adobe oferece um modelo para ver dados essenciais de desempenho entre disposit
    * Taxa de logon: quanto mais usuários entrarem no site, mais a Adobe poderá identificar e compilar visitantes entre dispositivos. Os sites com uma taxa de logon baixa também têm taxas de compactação baixas.
    * Cobertura da Experience Cloud ID: somente os visitantes com uma ECID podem ser compilados. Uma porcentagem menor de visitantes do site que usam uma ECID está correlacionada a taxas de compactação mais baixas.
    * Uso de vários dispositivos: se os visitantes do site não usarem vários dispositivos, você poderá ver taxas de compactação mais baixas.
-   * Granularidade do relatório: a compactação por dia geralmente é menor do que a compactação por mês ou ano. As chances de um indivíduo usar vários dispositivos se tornam menores em um único dia do que em mais de um mês inteiro. A segmentação, a filtragem ou o uso de dimensões de detalhamento também podem mostrar uma taxa de compactação menor.
+   * Granularidade do relatório: a compactação por dia geralmente é menor do que a compactação por mês ou ano. As chances de uma pessoa usar vários dispositivos se tornam menores em um único dia do que em mais de um mês inteiro. A segmentação, a filtragem ou o uso de dimensões de detalhamento também podem mostrar uma taxa de compactação menor.
 * **Segmentos com base em pessoas**: contém uma lista suspensa de segmentos que permite exibir dados específicos do dispositivo. Esse painel incentiva a experimentação com segmentos para ver como a inclusão ou exclusão de tipos de dispositivos afetam os relatórios.
 * **Análise da jornada entre dispositivos**: fornece relatórios de fluxo e fallout de acordo com o tipo de dispositivo.
-* **Atribuição entre dispositivos**: combine os recursos de Jornada IQ e Atribuição.
+* **Atribuição entre dispositivos**: combine os recursos de análise entre dispositivos e atribuição.
 * **Outras dicas e truques**: tópicos úteis sobre o CDA que permitem que você o aproveite ao máximo.

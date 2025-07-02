@@ -3,10 +3,10 @@ title: Visão geral das métricas
 description: Visualize quantidades de itens ou dados da dimensão ao longo do tempo.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 89%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 100%
 
 As métricas permitem quantificar os itens de dimensão para, por exemplo, ver quais páginas do site têm mais visualizações de página. Também é possível analisar as métricas ao longo do tempo para ver quantos pedidos os visitantes fazem no site a cada dia. Um relatório básico mostra linhas de valores da sequência de caracteres (dimensão) em relação a uma coluna de valores numéricos (métrica).
 
-Por exemplo, ao combinar a dimensão &quot;Página&quot; com a métrica &quot;Visitas&quot;, é possível obter um relatório classificado que mostra as páginas mais visitadas:
+Por exemplo, se você combinasse a dimensão **[!UICONTROL Página]** com a métrica **[!UICONTROL Visitas]**, obteria um relatório classificado que mostraria suas páginas mais visitadas:
 
-| `Page` | `Visits` |
-| --- | --- |
-| `Home page` | `800` |
-| `Product page` | `500` |
-| `Purchase page` | `100` |
+| Página | Visitas |
+| --- | ---: |
+| Página inicial | 800 |
+| Página do produto | 500 |
+| Página de compra | 100 |
+
+{style="table-layout:fixed"}
 
 Se não for possível localizar a página de ajuda de uma determinada métrica, ela provavelmente se trata de um [evento personalizado](custom-events.md) ou uma [métrica calculada](../c-calcmetrics/cm-overview.md).
 

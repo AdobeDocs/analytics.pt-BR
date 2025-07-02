@@ -1,13 +1,13 @@
 ---
 title: Visão geral da atribuição
-description: O conceito de atribuição de crédito de um evento bem-sucedido a vários itens de dimensão.
+description: Saiba mais sobre o conceito de atribuição de crédito de um evento bem-sucedido a vários itens de dimensão.
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 89%
+source-wordcount: '489'
+ht-degree: 81%
 
 ---
 
@@ -53,32 +53,32 @@ A atribuição compreende os seguintes recursos:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribuição em tabelas de forma livre](https://video.tv.adobe.com/v/33016?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribuição em tabelas de forma livre](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribuição em métricas calculadas](https://video.tv.adobe.com/v/30759?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribuição em métricas calculadas](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usando o painel Atribuição](https://video.tv.adobe.com/v/33012?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usando o painel Atribuição](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionando comparações lado a lado de modelos de atribuição](https://video.tv.adobe.com/v/327798?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionando comparações lado a lado de modelos de atribuição](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 ## Ferramentas do Adobe Analytics que não oferecem suporte para atribuição
 
-Todas as ferramentas que não são compatíveis com a API Analytics 2.0, como o Report Builder, não são compatíveis com a atribuição.
+Qualquer ferramenta que não seja compatível com a API do Analytics 2.0, como o [Report Builder herdado](/help/analyze/legacy-report-builder/home.md), não será compatível com a Atribuição.
