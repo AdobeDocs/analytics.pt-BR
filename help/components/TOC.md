@@ -5,9 +5,9 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -201,7 +201,7 @@ ht-degree: 97%
       + [Compatibilidade de segmentos do Data warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Direitos de segmento por função](segmentation/seg-reference/seg-rights.md)
       + [Solução de problemas](segmentation/seg-reference/c-troubleshooting.md)
-   + [Perguntas frequentes sobre segmentos herdados](segmentation/seg-transition.md)
+   + [Perguntas frequentes sobre segmentos legados](segmentation/seg-transition.md)
    + [Práticas recomendadas](segmentation/best-practices.md)
 + Métricas calculadas {#calculated-metrics}
    + [Visão geral](c-calcmetrics/cm-overview.md)
@@ -229,7 +229,7 @@ ht-degree: 97%
       + [Funções básicas](c-calcmetrics/cm-reference/cm-functions.md)
       + [Funções avançadas](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Compatibilidade de métrica](c-calcmetrics/cm-compatibility.md)
-      + [Direitos baseados em função](c-calcmetrics/cm-role-based-rights.md)
+      + [Direitos baseados na função](c-calcmetrics/cm-role-based-rights.md)
       + [Totais de métricas calculadas](c-calcmetrics/cm-totals.md)
       + [Métricas calculadas padrão](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Conjuntos de relatórios virtuais {#virtual-report-suites}

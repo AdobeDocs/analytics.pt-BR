@@ -1,13 +1,13 @@
 ---
-description: O Dicionário de dados no Analysis Workspace permite que os usuários catalogem e acompanhem os vários componentes do Analysis Workspace, incluindo o uso pretendido, que está aprovado, quais são duplicatas e assim por diante.
+description: O dicionário de dados do Analysis Workspace permite que usuários cataloguem e monitorem os diversos componentes no Analysis Workspace, incluindo seu uso pretendido, quais estão aprovados, quais são duplicatas e assim por diante.
 title: Visão geral do dicionário de dados
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Dicionário de dados"
->abstract="O dicionário de dados ajuda usuários e administradores a acompanhar e entender melhor os componentes em seus ambientes do Analytics. <br/>Os admins do Analytics são responsáveis por organizar as informações sobre cada componente no Dicionário de dados."
+>abstract="O dicionário de dados ajuda usuários e admins a monitorar e entender melhor os componentes em seu ambiente do Analytics. <br/>Admins do Analytics são responsáveis por organizar as informações sobre cada componente no dicionário de dados."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ Os administradores do Analytics são responsáveis por preparar informações so
 
 >[!BEGINSHADEBOX]
 
-Consulte o ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dicionário de dados do Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dicionário de dados do Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -43,13 +43,13 @@ O dicionário de dados ajuda os usuários a entender melhor cada componente que 
 
 As informações disponíveis no dicionário de dados incluem:
 
-* A função de um componente e o uso pretendido.
+* Função e uso pretendido de um componente.
 
-* Componentes normalmente usados com o que você está visualizando.
+* Componentes normalmente usados com o componente que você está visualizando.
 
 * Componentes semelhantes ao que você está visualizando.
 
-* Se um componente é aprovado pelo administrador do sistema.
+* Se um componente foi aprovado pelo(a) admin do sistema.
 
 Para obter informações sobre como acessar o Dicionário de dados e obter detalhes sobre as informações que ele contém, consulte [Exibir informações de componente no Dicionário de dados](view-data-dictionary.md).
 
@@ -57,7 +57,7 @@ Para obter informações sobre como acessar o Dicionário de dados e obter detal
 
 O dicionário de dados ajuda os administradores do sistema a acompanhar e preparar os componentes em seu ambiente do Analytics.
 
-Os administradores do Analytics podem usar o Dicionário de dados para estas finalidades:
+Admins do Analytics podem usar o dicionário de dados para estas finalidades:
 
 * Identificar componentes duplicados que precisam ser consolidados.
 
@@ -88,9 +88,9 @@ Para obter informações detalhadas sobre as várias opções disponíveis no Di
 
 ## Atualizar e preparar o Dicionário de dados
 
-Os administradores do Adobe Analytics são responsáveis por manter um Dicionário de Dados íntegro para sua organização, conforme descrito em [Monitorar integridade do dicionário de dados](monitor-data-dictionary-health.md).
+Admins do Adobe Analytics são responsáveis por manter a integridade do dicionário de dados na sua organização, conforme descrito em [Monitorar a integridade do dicionário de dados](monitor-data-dictionary-health.md).
 
-Como parte desse processo, os administradores do Adobe Analytics podem editar informações sobre cada componente no dicionário de dados, conforme descrito em [Editar entradas de componentes no Dicionário de Dados](edit-entries-data-dictionary.md).
+Como parte desse processo, admins do Adobe Analytics podem editar informações sobre cada componente no dicionário de dados, conforme descrito em [Editar entradas de componentes no dicionário de dados](edit-entries-data-dictionary.md).
 
 ## Mover, minimizar ou fechar o dicionário de dados
 
