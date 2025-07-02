@@ -7,7 +7,7 @@ user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o
 source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 96%
       + Calendário e intervalos de datas {#calendar-date-ranges}
          + [Visão geral](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Criar intervalos de datas ](analysis-workspace/components/calendar-date-ranges/create.md)
-         + [Gerenciar intervalos de dados](analysis-workspace/components/calendar-date-ranges/manage.md)
+         + [Gerenciar intervalos de datas](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [Comparação de datas](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
          + [Exemplos](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + Dicionário de dados {#data-dictionary}
@@ -136,7 +136,7 @@ ht-degree: 96%
       + [Preparar projetos do](analysis-workspace/curate-share/curate.md)
       + [Compartilhar projetos](analysis-workspace/curate-share/share-projects.md)
       + [Links compartilháveis](analysis-workspace/curate-share/shareable-links.md)
-      + [Projetos somente leitura](analysis-workspace/curate-share/view-only-projects.md)
+      + [Projetos somente de leitura](analysis-workspace/curate-share/view-only-projects.md)
       + [Baixar](analysis-workspace/curate-share/download-send.md)
       + [Enviar e agendar](analysis-workspace/curate-share/t-schedule-report.md)
    + Atribuição {#attribution}
@@ -172,9 +172,9 @@ ht-degree: 96%
    + [Trabalhar com segmentos](report-builder/work-with-segments.md)
    + [Filtrar dimensões](report-builder/filter-dimensions.md)
    + [Gerenciar blocos de dados](report-builder/manage-reportbuilder.md)
-   + [Agendar pastas de trabalho para email](report-builder/schedule-reportbuilder.md)
-   + [Agendar pastas de trabalho para exportações em nuvem](/help/analyze/report-builder/report-builder-export.md)
-   + [Gerenciar pastas de trabalho agendadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
+   + [Programar pastas de trabalho para email](report-builder/schedule-reportbuilder.md)
+   + [Programar pastas de trabalho para exportações na nuvem](/help/analyze/report-builder/report-builder-export.md)
+   + [Gerenciar pastas de trabalho programadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Rótulos restritos](report-builder/restricted-labels.md)
    + [Configurações do Report Builder](report-builder/report-builder-settings.md)
 + Report Builder legado {#legacy-report-builder}
