@@ -22,12 +22,12 @@ Como uma Empresa de turismo, é possível sobrescrever com rapidez preferências
 
 ## Modelo de semelhanças {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-Como um Editor multimídia, você pode comparar seus públicos de terceiros usando a [Comparação de segmentos](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) para entender as principais características diferenciais. Essa comparação ajuda a criar segmentos primários de alto valor para usar no direcionamento.
+Como um Editor multimídia, você pode comparar seus públicos de terceiros usando a [Comparação de segmentos](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) para entender as principais características diferenciais. Essa comparação ajuda a criar segmentos primários de alto valor para usar no direcionamento.
 
 ## Análise de cliente potencial {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-Como um vendedor B2B, agora é possível analisar o comportamento de seu possível público-alvo de clientes potenciais pouco antes de realizarem uma compra, usando a [segmentação sequencial](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build), que ajuda a compreender quais ações impulsionam a conversão.
+Como um vendedor B2B, agora é possível analisar o comportamento de seu possível público-alvo de clientes potenciais pouco antes de realizarem uma compra, usando a [segmentação sequencial](https://experienceleague.adobe.com/pt-br/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build), que ajuda a compreender quais ações impulsionam a conversão.
 
 ## Direcionamento demográfico {#section_F034DB721A06419283DBD29D4A1B444B}
 
-Como um Resort de turismo, é possível usar [Histogramas na Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/histogram) para ver compras separadas por faixa etária. Os histogramas ajudam a encontrar o público-alvo correto para direcionar cada uma de suas propriedades de resort.
+Como um Resort de turismo, é possível usar [Histogramas na Analysis Workspace](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/visualizations/histogram) para ver compras separadas por faixa etária. Os histogramas ajudam a encontrar o público-alvo correto para direcionar cada uma de suas propriedades de resort.
