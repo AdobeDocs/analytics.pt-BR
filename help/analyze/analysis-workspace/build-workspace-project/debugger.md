@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: Depurador de projetos
 role: User
-source-git-commit: e7aaafc95f60c71744cfeb3c59310d8ba2ea2576
+exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
+source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 4%
 
 ---
@@ -54,7 +55,7 @@ Para usar o depurador para uma visualização específica:
 
    * **[!UICONTROL Solicitar carimbo de data/hora]**
    * **[!UICONTROL Carimbo de data/hora de resposta]**
-   * **[!UICONTROL Tempo de solicitação]**
+   * **[!UICONTROL Solicitar horário]**
    * **[!UICONTROL Tempo na fila]**
    * **[!UICONTROL Tempo de processamento do servidor]**
    * **[!UICONTROL Tempo de pesquisa]**
@@ -74,7 +75,7 @@ Para usar o depurador para uma visualização específica:
    * JSON (resposta)
    * Solicitação de cURL
 
-1. Use ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar para a área de transferência]**&#x200B;d abaixo de **[!UICONTROL Solicitação de cURL]** para copiar a solicitação para a área de transferência.
+1. Use ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar para a área de transferência]** abaixo de **[!UICONTROL cURL Solicitar]** para copiar a solicitação para a área de transferência.
 1. Passe o mouse sobre qualquer uma das áreas de texto **[!UICONTROL Solicitação]** ou **[!UICONTROL Resposta]** para revelar e selecione ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar para a área de transferência]** para copiar o conteúdo dessa área de texto (XML ou JSON) para a área de transferência.
 
 1. Troque qualquer informação que você tenha copiado e que o Suporte da Adobe solicitou para solucionar problemas de visualização em seu projeto do Analysis Workspace.
@@ -95,6 +96,3 @@ Para desativar o depurador:
 1. Selecione **[!UICONTROL Ajuda]** > **[!UICONTROL Desabilitar depurador]** no menu de projetos do Analysis Workspace.
 1. Selecione **[!UICONTROL OK]** na caixa de diálogo **[!UICONTROL Desabilitar depurador]**.
 1. Confirme quando o navegador solicitar que você recarregue a página ou o site.
-
-
-
