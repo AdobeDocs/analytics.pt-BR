@@ -4,9 +4,9 @@ title: Fallout interdimensional
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ Por exemplo, além de uma dimensão Página, é possível adicionar outros itens
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fallout multidimensional](https://video.tv.adobe.com/v/30793?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fallout multidimensional](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

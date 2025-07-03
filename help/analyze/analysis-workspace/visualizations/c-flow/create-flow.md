@@ -4,10 +4,10 @@ title: Configurar Uma Visualização De Fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '1658'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -108,7 +108,7 @@ Você pode configurar o início ou o fim do caminho em que está interessado. Ou
    | **[!UICONTROL Limitar à primeira/última ocorrência]** | Limite os caminhos àqueles que começam ou terminam com a primeira ou última ocorrência de uma dimensão, item ou métrica. Consulte [Limitar à primeira/última ocorrência](#example-scenario-for-limit-to-firstlast-occurrence) para obter uma explicação mais detalhada. |
    | **[!UICONTROL Número de colunas]** | O número de colunas que você deseja no diagrama de fluxo. É possível especificar um máximo de cinco colunas. |
    | **[!UICONTROL Itens expandidos por coluna]** | O número de itens que você deseja em cada coluna. É possível especificar no máximo 10 itens expandidos por coluna. |
-   | **[!UICONTROL Container de fluxo]** | É possível alternar entre **[!UICONTROL Sessões]** e **[!UICONTROL Pessoa]** para analisar o caminho definido. Essas configurações ajudam a entender o engajamento de uma pessoa no nível da pessoa (em sessões) ou a restringir a análise a uma única sessão. |
+   | **[!UICONTROL Container de fluxo]** | Você pode alternar entre **[!UICONTROL Visita]** e **[!UICONTROL Visitante]** para analisar a definição de caminho. Essas configurações ajudam você a entender o envolvimento de um visitante no nível do visitante (em várias visitas) ou restringir a análise a uma única visita. |
 
    >[!IMPORTANT]
    >
@@ -195,15 +195,15 @@ No exemplo abaixo, **todas** as ocorrências de *Categoria principal do produto*
 
   No exemplo abaixo, apenas as **últimas** ocorrências de *Categoria principal do produto* e *Adicionar ao carrinho* em cada etapa do fluxo são incluídas.
   ![Limitado, iniciar](assets/limitonlast.png)
-* As séries utilizadas diferem de acordo com o container. Se estiver usando o container **[!UICONTROL Pessoa]**, a série de eventos será a sessão. Se estiver usando o container **[!UICONTROL Sessão]**, a série de eventos serão todos os eventos de um determinado usuário no intervalo de datas fornecido.
+* As séries utilizadas diferem de acordo com o container. Se estiver usando o contêiner **[!UICONTROL Visitante]**, a série de eventos será as visitas. Se estiver usando o contêiner **[!UICONTROL Visitante]**, a série de eventos será todas as ocorrências de um determinado usuário no intervalo de datas fornecido.
 * A opção **[!UICONTROL Limitar à primeira/última ocorrência]** pode ser definida nas configurações avançadas ao usar uma métrica ou item de dimensão nos campos **[!UICONTROL Inicia com]** ou **[!UICONTROL Termina com]**.
 
 
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização em um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

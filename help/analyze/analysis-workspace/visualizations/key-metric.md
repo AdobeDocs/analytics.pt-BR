@@ -4,10 +4,10 @@ title: Resumo da métrica principal
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '948'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre a visualização de resumo da métrica principal no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Resumo da métrica principal](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) para ver a versão do_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre a visualização de resumo da métrica principal no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Resumo da métrica principal](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) para ver a versão do_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ Esta visualização aborda vários casos de uso comuns, incluindo:
    | **[!UICONTROL Métrica]** | Selecione a métrica que deseja examinar. Todas as métricas são compatíveis. |
    | **[!UICONTROL Intervalo de datas principal]** | O intervalo de datas atual da tabela de forma livre.<p>Escolha qualquer intervalo de datas disponível na visualização de dados.</p> <p>Escolha [!UICONTROL **Intervalo de datas do painel**] se quiser usar o mesmo intervalo de datas que está sendo usado no painel onde a visualização está localizada.</p> |
    | **[!UICONTROL Intervalo de datas de comparação]** | O intervalo de datas com o qual você deseja comparar o intervalo de datas principal. |
-   | **[!UICONTROL Filtro (opcional)]** | Qualquer filtro relevante para este resumo. |
+   | **[!UICONTROL Segmento (opcional)]** | Qualquer segmento de seu interesse para este resumo. |
 
    {style="table-layout:auto"}
 
@@ -114,19 +114,18 @@ Como parte das configurações de visualização, configurações específicas d
 
 ## Editar visualização
 
-Após criar a visualização, ainda é possível editar a configuração original.
+Após criar a visualização, é possível editar a configuração original.
 
-1. Clique no ícone de lápis no canto superior direito da visualização (ao lado do ícone de engrenagem de configurações).
+1. Selecione ![Editar](/help/assets/icons/Edit.svg) no canto superior direito da visualização.
 
-   ![Ícone de edição de visualização](assets/edit-icon.png)
 
-   Você será levado de volta à visualização da configuração original.
+   Você foi levado de volta à [exibição de configuração](#configure) original.
 
-1. Altere a métrica, o intervalo de datas principal, o intervalo de datas de comparação ou o filtro, como preferir.
+1. Altere a métrica, o intervalo de datas principal, o intervalo de datas de comparação ou o segmento, como preferir.
 
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 

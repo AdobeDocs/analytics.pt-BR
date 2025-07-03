@@ -4,14 +4,14 @@ title: Marcador
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '270'
 ht-degree: 90%
 
 ---
 
-# Gráfico em marcadores {#bullet-graph}
+# Marcador {#bullet}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -33,7 +33,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre a visualização de marcador no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Marcador](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre a visualização de marcador no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Marcador](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ O gráfico de marcadores apresenta uma só medida principal (por exemplo, receit
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de gráfico com marcadores](https://video.tv.adobe.com/v/30760/?quality=12/?quality=12&captions=por_br){target=&#34;_blank&#34;} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de gráfico com marcadores](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -56,12 +56,12 @@ Você pode definir configurações específicas para uma visualização de [!UIC
 
 | Configuração | Descrição |
 |---|---|
-| **[!UICONTROL Opções de marcador]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta intermediária]** e **[!UICONTROL Meta baixa]** na visualização de [!UICONTROL Marcador]. <br/>**[!UICONTROL Meta alta &#x200B;]**&#x200B;é a meta principal que você está almejando.**[!UICONTROL &#x200B; Meta baixa &#x200B;]**&#x200B;e&#x200B;**[!UICONTROL &#x200B; Meta intermediária &#x200B;]**&#x200B;criam intervalos abaixo da Meta alta. Observação: quando a opção&#x200B;**[!UICONTROL &#x200B; Porcentagens &#x200B;]**&#x200B;estiver marcada, insira metas como números inteiros. Por exemplo: `20` se a sua meta for vinte por cento. |
+| **[!UICONTROL Opções de marcador]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta intermediária]** e **[!UICONTROL Meta baixa]** na visualização de [!UICONTROL Marcador]. <br/>**[!UICONTROL Meta alta ]**é a meta principal que você está almejando.**[!UICONTROL  Meta baixa ]**e**[!UICONTROL  Meta intermediária ]**criam intervalos abaixo da Meta alta. Observação: quando a opção**[!UICONTROL  Porcentagens ]**estiver marcada, insira metas como números inteiros. Por exemplo: `20` se a sua meta for vinte por cento. |
 
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

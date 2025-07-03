@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: a0b2fba6696b7caec510be30909cfbb4b5618521
 workflow-type: tm+mt
-source-wordcount: '6374'
+source-wordcount: '6443'
 ht-degree: 99%
 
 ---
@@ -25,6 +25,11 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **Julho de 2025** | |
+| Depurador | Novo artigo sobre como ativar, usar e desativar o depurador de projetos no Analysis Workspace. |
+| Revisar e atualizar | Revisão e atualização da documentação do Analysis Workspace. Quando apropriado, a documentação agora está sincronizada com a documentação do Customer Journey Analytics no Analysis Workspace. |
+| **Junho de 2025** | |
+| Novos atalhos | Os novos atalhos de teclado do Analysis Workspace agora permitem [mover painéis do Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) para cima e para baixo em um projeto. |
 | **Março de 2025** |  |
 | Inventário do Analytics | O [Inventário do Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/analytics-inventory) fornece uma visão geral abrangente do seu ambiente do Adobe Analytics, incluindo o número de projetos e componentes, conjuntos de relatórios, usuários e muito mais. |
 | Guia de atualização do Customer Journey Analytics | Permite gerar um [guia passo a passo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) para atualizar do Adobe Analytics para o Customer Journey Analytics. |
@@ -167,7 +172,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=pt-BR). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/classifications/sets/overview) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |

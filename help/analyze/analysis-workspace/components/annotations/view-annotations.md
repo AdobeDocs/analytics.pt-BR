@@ -1,12 +1,12 @@
 ---
 title: Exibir anotações
-description: Como visualizar anotações no Analysis Workspace.
+description: Saiba como visualizar anotações no Analysis Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '217'
 ht-degree: 84%
 
 ---
@@ -19,8 +19,8 @@ As anotações se manifestam de forma um pouco diferente, dependendo de onde sã
 
 | Tipo de<br/>visualização | Descrição |
 | --- | --- |
-| **Linha &#x200B;**<br/>**Dia único** | Ao selecionar ![Criar anotação](/help/assets/icons/Annotate.svg) em uma visualização de linha, você verá um pop-up com os detalhes da anotação.<br/>![Anotação de dia único](assets/annotation-single-day.png)<br/>Para editar a anotação no [Criador de anotações](create-annotations.md#annotation-builder), selecione ![Editar](/help/assets/icons/Edit.svg). Para excluir a anotação, clique em ![Excluir](/help/assets/icons/Delete.svg). |
-| **Linha &#x200B;**<br/>**Intervalo de datas** | Ao selecionar ![AnnotateRange](/help/assets/icons/AnnotateRange.svg), você verá um pop-up com os detalhes da anotação e uma linha na parte inferior indicando o intervalo de datas.<br/>![Intervalo de anotações](assets/annotation-range.png)Para editar a anotação no [Criador de anotações](create-annotations.md#annotation-builder), clique em ![Editar](/help/assets/icons/Edit.svg). Para excluir a anotação, clique em ![Excluir](/help/assets/icons/Delete.svg). |
+| **Linha **<br/>**Dia único** | Ao selecionar ![Criar anotação](/help/assets/icons/Annotate.svg) em uma visualização de linha, você verá um pop-up com os detalhes da anotação.<br/>![Anotação de dia único](assets/annotation-single-day.png)<br/>Para editar a anotação no [Criador de anotações](create-annotations.md#annotation-builder), selecione ![Editar](/help/assets/icons/Edit.svg). Para excluir a anotação, clique em ![Excluir](/help/assets/icons/Delete.svg). |
+| **Linha **<br/>**Intervalo de datas** | Ao selecionar ![AnnotateRange](/help/assets/icons/AnnotateRange.svg), você verá um pop-up com os detalhes da anotação e uma linha na parte inferior indicando o intervalo de datas.<br/>![Intervalo de anotações](assets/annotation-range.png)Para editar a anotação no [Criador de anotações](create-annotations.md#annotation-builder), clique em ![Editar](/help/assets/icons/Edit.svg). Para excluir a anotação, clique em ![Excluir](/help/assets/icons/Delete.svg). |
 | **Tabela de forma livre** | Em uma tabela de forma livre, você pode acessar todas as anotações por meio do botão de anotações na parte superior direita da visualização. Selecione ![Criar anotação](/help/assets/icons/Annotate.svg) para ver uma lista de rolagem de todas as anotações.<br/>![Tabela de anotações](assets/annotations-table.png)<br/>Em cada anotação, é possível selecionar ![Editar](/help/assets/icons/Edit.svg) para editar a anotação no [Criador de anotações](create-annotations.md#annotation-builder) e ![Excluir](/help/assets/icons/Delete.svg) para excluir a anotação. |
 
 {style="table-layout:auto"}

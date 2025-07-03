@@ -1,13 +1,13 @@
 ---
-description: Os administradores podem adicionar descrições para componentes em um conjunto de relatórios ou usando o dicionário de dados.
+description: Saiba como os administradores podem adicionar descrições aos componentes usando um conjunto de relatórios ou o dicionário de dados.
 title: Adicionar descrições de componentes
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 42%
+source-wordcount: '232'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,7 @@ Você pode adicionar descrições aos componentes em um conjunto de relatórios.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionar descrições de componentes](https://video.tv.adobe.com/v/39723?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionar descrições de componentes](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Para obter informações gerais sobre o Dicionário de dados, consulte [Visão g
 >[!MORELIKETHIS]
 >
 >[Configurações do componente de Relatório](/help/components/vrs/vrs-components.md)
->&#x200B;>[Entradas do componente do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Entradas do componente do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

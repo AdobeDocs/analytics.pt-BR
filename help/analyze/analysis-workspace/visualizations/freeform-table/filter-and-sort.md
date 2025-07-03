@@ -1,17 +1,17 @@
 ---
 description: Saiba como filtrar e classificar tabelas de forma livre no Analysis Workspace.
-title: Filtrar E Classificar Tabelas
+title: Filtrar e Classificar
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '832'
 ht-degree: 98%
 
 ---
 
-# Filtrar e classificar tabelas de forma livre
+# Filtrar e classificar
 
 As tabelas de forma livre do Analysis Workspace são a base para a análise interativa de dados. Sendo assim, elas podem conter milhares de linhas de informação. Filtrar e classificar os dados pode ser essencial para encontrar as informações mais importantes de maneira eficiente.
 

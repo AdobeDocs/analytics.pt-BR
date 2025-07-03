@@ -1,12 +1,12 @@
 ---
-description: Saiba como criar e usar segmentos no Analysis Workspace.
+description: Saiba como criar e usar segmentos no Analysis Workspace e no Adobe Analytics.
 title: Visão geral de segmentos
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '306'
 ht-degree: 34%
 
 ---
@@ -27,7 +27,7 @@ Você pode criar e usar segmentos no Analysis Workspace e no Customer Journey An
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using segments in Analysis Workspace](https://video.tv.adobe.com/v/30818?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using segments in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Você pode criar diferentes tipos de segmentos no Analysis Workspace:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Outros métodos para aplicar segmentos](https://video.tv.adobe.com/v/33854?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Outros métodos para aplicar segmentos](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

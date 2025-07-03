@@ -1,17 +1,17 @@
 ---
 description: Saiba como usar a paleta de cores de visualização no Analysis Workspace.
-title: Paleta de cores de visualização
+title: Paletas de cores de visualização
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
-# Paleta de cores de visualização {#visualization-color-palette}
+# Paletas de cores de visualização {#visualization-color-palette}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -71,7 +71,7 @@ Keep in mind:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/30812?quality=12&learn=on&captions=por_br){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

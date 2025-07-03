@@ -1,10 +1,10 @@
 ---
-description: Entenda o que são métricas e como usá-las no Adobe Analytics.
+description: Entenda o que são métricas e como usá-las no Analysis Workspace.
 title: Métricas
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 21%
@@ -41,7 +41,7 @@ As métricas podem ser usadas de várias maneiras no Analysis Workspace. Para ob
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](https://video.tv.adobe.com/v/328569?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Para criar uma métrica calculada para um único projeto:
 
    * [!UICONTROL **Alteração de porcentagem**]: cria uma nova coluna que mostra a alteração de porcentagem entre as duas colunas selecionadas.
 
-[Métricas calculadas: métricas sem implementação](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[Métricas calculadas: métricas sem implementação](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Comparar métricas com diferentes modelos de atribuição
@@ -119,7 +119,7 @@ Veja um vídeo sobre este tópico:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Média cumulativa](https://video.tv.adobe.com/v/35046?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Média cumulativa](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
