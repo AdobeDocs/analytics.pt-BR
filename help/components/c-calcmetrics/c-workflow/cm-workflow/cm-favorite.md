@@ -1,12 +1,12 @@
 ---
-description: Outra maneira de organizá-los para facilitar o uso é marcar as métricas calculadas como favoritos.
-title: Marcar métricas calculadas como favoritas
+description: Organize métricas calculadas marcando-as como favoritos.
+title: Marcar Métricas Calculadas Como Favoritos
 feature: Calculated Metrics
 exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 9%
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-description: Entenda como usar o painel Quick insights para orientá-lo na criação de tabelas e visualizações de dados no Analysis Workspace.
+description: Entenda como usar o painel Quick insights para orientá-lo na criação de tabelas e visualizações de forma livre no Analysis Workspace.
 title: Painel do Quick Insights
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 97%
+source-wordcount: '1149'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Insights rápidos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel de insights rápidos](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre o painel Insights rápidos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel de insights rápidos](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Ao começar a usar o [!UICONTROL Analysis Workspace] pela primeira vez, você po
 * onde criar um filtro,
 * e muito mais.
 
-Para ajudar com essas questões, o painel [!UICONTROL Insights rápidos] usa um algoritmo que apresenta as dimensões, métricas, segmentos e intervalos de datas mais populares que sua empresa usa. Este algoritmo se baseia no uso de componentes de dados da sua própria empresa no [!UICONTROL Analysis Workspace]. Você verá dimensões, métricas e segmentos marcados como [!UICONTROL POPULAR] na lista suspensa, como mostrado aqui:
+Para ajudar nessas perguntas, o [!UICONTROL Quick insights] usa um algoritmo que apresenta as dimensões, as métricas, os segmentos e os intervalos de datas mais usados pela sua empresa. Este algoritmo se baseia no uso de componentes de dados da sua própria empresa no [!UICONTROL Analysis Workspace]. Você verá dimensões, métricas e segmentos marcados como [!UICONTROL POPULAR] na lista suspensa, como mostrado aqui:
 
 ![O painel Insights rápidos.](assets/popular-tag.png)
 
@@ -59,10 +59,10 @@ Veja a seguir alguns dos termos básicos que você precisa conhecer. Cada tabela
 |---|---|
 | **[!UICONTROL Dimensão]** | Dimensões são descrições ou características de dados de métricas que podem ser visualizadas, analisadas e comparadas em um projeto. São valores não numéricos e datas que se dividem em itens de dimensão. Por exemplo, *navegador* ou *página* são dimensões. |
 | **[!UICONTROL Item de dimensão]** | Os itens de dimensão são valores individuais para uma dimensão. Por exemplo, itens da dimensão de navegador seriam *Chrome*, *Firefox*, *Edge* ou outros. |
-| **[!UICONTROL Métrica]** | Métricas são informações quantitativas sobre a atividade da pessoa, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, pedidos, receita e assim por diante. |
+| **[!UICONTROL Métrica]** | As métricas são informações quantitativas sobre a atividade do visitante, como exibições, click-throughs, recarregamentos, tempo médio gasto, unidades, ordens, receita, e assim por diante. |
 | **[!UICONTROL Visualização]** | O espaço de trabalho oferece [várias visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para criar representações visuais dos seus dados. Como gráficos de barras, gráficos de rosca, histogramas, gráficos de linhas, mapas, gráficos de dispersão, entre outros. |
 | **[!UICONTROL Detalhamento de dimensão]** | Um detalhamento de dimensão é uma forma de detalhar uma dimensão com outras dimensões. Por exemplo, você pode analisar os Estados Unidos por dispositivos móveis para obter o número de visitas em dispositivos móveis por estado. Também é possível detalhar dispositivos móveis por tipos de dispositivos móveis, por regiões, por campanhas internas e muito mais. |
-| **[!UICONTROL Segmentos]** | Os segmentos permitem identificar subconjuntos de pessoas com base em características ou interações no site. Por exemplo, é possível criar segmentos de [!UICONTROL visitantes] com base em <li>atributos: tipo de navegador, dispositivo, número de visitas, país, gênero ou</li><li>interações: campanhas, pesquisa por palavra-chave, mecanismo de pesquisa ou</li><li>saídas e entradas: visitantes do Facebook, uma página de destino definida, um domínio referenciador ou</li><li> variáveis personalizadas: campos de formulário, categorias definidas, ID do cliente. |
+| **[!UICONTROL Segmentos]** | Os segmentos permitem identificar subconjuntos de visitantes de acordo com características ou interações de site. Por exemplo, é possível criar segmentos de [!UICONTROL visitantes] com base em <li>atributos: tipo de navegador, dispositivo, número de visitas, país, gênero ou</li><li>interações: campanhas, pesquisa por palavra-chave, mecanismo de pesquisa ou</li><li>saídas e entradas: visitantes do Facebook, uma página de destino definida, um domínio referenciador ou</li><li> variáveis personalizadas: campos de formulário, categorias definidas, ID do cliente. |
 
 ## Usar
 
@@ -94,7 +94,7 @@ Você pode especificar os blocos de construção de três maneiras:
 
 * Arraste e solte os componentes a partir do painel esquerdo.
 * Comece a digitar em um dos campos de blocos de construção. Após encontrar a entrada, o campo de blocos de construção é preenchido automaticamente com valores possíveis.
-* Especifique uma lista suspensa de blocos de construção (por exemplo, `Country` em **[!UICONTROL Analisar]**) e pesquise na lista de valores possíveis (usando ![ChevronRight](/help/assets/icons/ChevronRight.svg)) para encontrar o valor que deseja usar (por exemplo, **[!UICONTROL Código do país]**).
+* Especifique uma lista suspensa de blocos de construção (por exemplo, **[!UICONTROL País]** em **[!UICONTROL Analisar]**) e pesquise a lista de valores possíveis (usando ![ChevronRight](/help/assets/icons/ChevronRight.svg)) para o valor que deseja usar (por exemplo, **[!UICONTROL Código do país]**).
 
 Selecione **[!UICONTROL Limpar]** para limpar todos os campos de entrada.
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326702/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

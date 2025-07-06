@@ -1,18 +1,18 @@
 ---
-description: Saiba mais sobre os recursos de segmentação na Analysis Workspace.
-title: Recursos de segmentação na Analysis Workspace
+description: Saiba mais sobre os recursos avançados de segmentação no Analysis Workspace.
+title: Recursos avançados
 feature: Segmentation
 exl-id: d8bf7d36-32d7-4652-b744-7cc915d94b79
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 48%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
-# Recursos de segmentação na Analysis Workspace
+# Recursos avançados
 
-Além do [uso padrão de segmentos](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) no Analysis Workspace, os seguintes recursos estão disponíveis:
+Além do [uso padrão de segmentos](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) no Analysis Workspace, os seguintes recursos específicos estão disponíveis:
 
 * [Comparação de segmentos ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 

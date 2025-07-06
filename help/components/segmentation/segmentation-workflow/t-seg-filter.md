@@ -1,12 +1,12 @@
 ---
-description: Filtrar por tags, proprietários e outros filtros (Mostrar tudo, Meu, Compartilhado comigo, Favoritos e Aprovado).
+description: Saiba como filtrar segmentos por tags, proprietários e outros filtros.
 title: Filtrar segmentos
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 36%
+source-wordcount: '168'
+ht-degree: 29%
 
 ---
 

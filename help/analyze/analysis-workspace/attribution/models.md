@@ -1,31 +1,31 @@
 ---
-title: Modelos De Atribuição, Contêineres E Janelas De Pesquisa
-description: Como diferentes tipos de atribuição dividem crédito entre itens de dimensão.
+title: Componentes de atribuição
+description: Saiba mais sobre os componentes que definem a atribuição.
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 40%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
-# Modelos de atribuição, contêineres e janelas de pesquisa
+# Componentes de atribuição
 
 O conceito de atribuição no Adobe Analytics envolve três componentes:
 
-* **Modelo de atribuição:** o modelo descreve a distribuição de conversões nas ocorrências de um grupo. Por exemplo, primeiro ou último contato.
-* **Contêiner**: o contêiner define o escopo da atribuição ou como agrupar as ocorrências para cada modelo.
-* **Janela de retrospectiva de atribuição:** a janela de retrospectiva descreve o número de dias para retrospectiva do modelo escolhido.
+* **Modelo de atribuição:** O [modelo](#attribution-model) descreve a distribuição de conversões nas ocorrências de um grupo. Por exemplo, primeiro ou último contato.
+* **Contêiner**: o [contêiner](#container) define o escopo da atribuição ou como agrupar as ocorrências para cada modelo.
+* **Janela de retrospectiva de atribuição:** A [janela de retrospectiva](#lookback-window) descreve o número de dias para retrospectiva do modelo escolhido.
 
 
-## Modelos de atribuição
+## Modelo de atribuição
 
 {{attribution-models-details}}
 
 
-## Containers
+## Container
 
 {{attribution-container}}
 
@@ -69,7 +69,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/40043?quality=12&learn=on&captions=por_br){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

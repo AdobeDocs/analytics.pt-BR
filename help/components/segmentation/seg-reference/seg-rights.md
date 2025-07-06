@@ -1,16 +1,16 @@
 ---
-description: Gráfico de comparação usando segmentos entre administradores e não administradores.
+description: Saiba mais sobre as diferenças entre administradores e não administradores para usar e gerenciar segmentos.
 title: Direitos do segmento por função
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 
-# Direitos do segmento por função
+# Direitos de segmento por função
 
 A funcionalidade do segmento difere principalmente entre usuários de nível administrativo e não administradores.
 

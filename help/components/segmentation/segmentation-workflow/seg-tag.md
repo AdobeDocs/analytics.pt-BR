@@ -1,9 +1,9 @@
 ---
-description: No Gerenciador de segmentos, a marcação de segmentos permite que você os organize.
+description: Saiba como marcar segmentos para permitir que você organize segmentos.
 title: Marcar segmentos
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%

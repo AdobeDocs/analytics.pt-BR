@@ -4,10 +4,10 @@ description: Saiba como usar e interpretar o painel de atribuição no Analysis 
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 97%
+source-wordcount: '698'
+ht-degree: 94%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Painel de atribuição"
->abstract="Compare e visualize modelos de atribuição rapidamente usando qualquer dimensão e métrica de conversão.<br/><br/>**Parâmetros &#x200B;**<br/>**Canal**<br/> A dimensão à qual atribuir. Essa dimensão pode ser canais de marketing, campanhas ou qualquer outra dimensão.<br/>**Modelos**<br/> O modelo determina como o crédito é atribuído aos pontos de contato.<br/>**Janela de pesquisa**<br/> Essa configuração determina a janela de atribuição de dados que será aplicada a cada conversão."
+>abstract="Compare e visualize modelos de atribuição rapidamente usando qualquer dimensão e métrica de conversão.<br/><br/>**Parâmetros **<br/>**Canal**<br/> A dimensão à qual atribuir. Essa dimensão pode ser canais de marketing, campanhas ou qualquer outra dimensão.<br/>**Modelos**<br/> O modelo determina como o crédito é atribuído aos pontos de contato.<br/>**Janela de pesquisa**<br/> Essa configuração determina a janela de atribuição de dados que será aplicada a cada conversão."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Painel do Attribution IQ"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel de atribuição no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/attribution) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre o painel de atribuição no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/attribution) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Você pode configurar o painel de Atribuição usando estas configurações de e
 
    ![A janela Painel de atribuição mostrando várias dimensões e métricas selecionadas.](assets/attribution-panel.png)
 
-1. Selecione um ou mais [modelos de atribuição](#attribution-models) dos **[!UICONTROL Modelos incluídos]** e uma [janela de retrospectiva](#lookback-window) da **[!UICONTROL Janela de retrospectiva]** que você deseja usar para comparação.
+1. Selecione um ou mais [modelos de atribuição](#attribution-models) de **[!UICONTROL modelos incluídos]**, o [contêiner](#container) de **[!UICONTROL Contêiner]** e uma [janela de pesquisa](#lookback-window) de **[!UICONTROL janela de pesquisa]** que você deseja usar para comparação.
 
 1. Selecione **[!UICONTROL Criar]** para criar as visualizações no painel.
 
@@ -88,7 +88,7 @@ As visualizações a seguir fazem parte do resultado do painel.
 * **Desempenho com tendência**: mostra a tendência das conversões atribuídas para o item de dimensão principal. Selecionar outras linhas na tabela de forma livre adjacente atualizará a visualização para refletir a seleção.
 * **Fluxo**: permite ver com quais canais a interação é mais comum e em que ordem isso acontece na jornada de uma pessoa.
 
-## Modelos de atribuição
+## Modelo de atribuição
 
 {{attribution-models-details}}
 
@@ -96,7 +96,7 @@ As visualizações a seguir fazem parte do resultado do painel.
 
 {{attribution-container}}
 
-## Janela de pesquisa
+## Janela de retrospectiva
 
 {{attribution-lookback-window}}
 
@@ -114,7 +114,7 @@ As visualizações a seguir fazem parte do resultado do painel.
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/33012/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Create an attribution panel
 

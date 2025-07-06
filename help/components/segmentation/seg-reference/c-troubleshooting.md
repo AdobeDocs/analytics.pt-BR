@@ -1,16 +1,18 @@
 ---
-description: Solucione e corrija problemas relacionados a segmentos.
-title: Solução de problemas de segmentação
+description: Saiba como solucionar e corrigir problemas relacionados a segmentos.
+title: Solução de problemas
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 50%
+source-wordcount: '181'
+ht-degree: 42%
 
 ---
 
-# Solução de problemas de segmentação
+# Solução de problemas
+
+Este artigo lista alguns problemas comuns com segmentos e como solucionar esses problemas.
 
 <!-- Looks like this is not part anymore of the current UI.
 

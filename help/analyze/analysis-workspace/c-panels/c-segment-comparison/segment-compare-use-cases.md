@@ -5,26 +5,29 @@ keywords: Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 18%
+source-wordcount: '853'
+ht-degree: 15%
 
 ---
 
 # Casos de uso de comparação de segmentos
 
-O painel de comparação de segmentos é um recurso amplamente usado no Analysis Workspace. Com esse recurso, os clientes muitas vezes descobrem novas maneiras de extrair insights. Veja a seguir vários casos de uso bem-sucedidos.
+O painel de comparação de segmentos é um recurso amplamente usado no Analysis Workspace. Os clientes frequentemente descobrem novas maneiras de gerar insights com o ao usar o painel. Encontre abaixo alguns casos de uso típicos
 
-## Caso de uso 1: comparar a implementação em dispositivos móveis e em desktop
+## Caso de uso 1: comparar a implementação em dispositivos móveis e em desktops
 
 > *&quot;Você comparou ocorrências de um site a outro site e rapidamente encontrou várias inconsistências de marcação. Dessa forma, você evitou problemas de dados antes o lançamento do produto.&quot;*
 
-Você é responsável por um site para dispositivos móveis e um site para desktop, e tem a tarefa de garantir que as tags sejam consistentes entre as duas versões. Para não perder nada importante, use o painel de comparação de segmentos para comparar as ocorrências vindas do site para dispositivos móveis com as vindas do site para desktop. Você percebe que não há eventos de check-out no site para dispositivos móveis e coloca as tags corretas antes do lançamento do site. Como resultado, você evita um desastre nos dados porque o site para dispositivos móveis não está registrando conversões.
+Você é responsável por um site para dispositivos móveis e um site para desktop e tem a tarefa de garantir que as tags sejam consistentes entre as duas versões. Para não perder nada importante, use o painel de comparação de segmentos para comparar as ocorrências vindas do site para dispositivos móveis com as vindas do site para desktop. Você percebe que não há eventos de check-out no site para dispositivos móveis e coloca as tags corretas antes do lançamento do site. Como resultado, você evita um desastre nos dados porque o site para dispositivos móveis não está registrando conversões.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
 | Contêiner de ocorrências em que o Tipo de dispositivo móvel é Celular ou Tablet | Todos os outros |
+
+{style="table-layout:fixed"}
+
 
 ## Caso de uso 2: comparar clientes que usam um determinado recurso com clientes que não o usam
 
@@ -36,6 +39,9 @@ Uma equipe de otimização de um site de varejo deseja entender melhor os usuár
 |--- |--- |
 | Contêiner de visitantes com o evento personalizado (ferramenta de comparação de preços) | Todos os outros |
 
+{style="table-layout:fixed"}
+
+
 ## Caso de uso 3: comparar visitantes da seção de notícias do site com visitantes de outras seções do site
 
 > *&quot;Você descobriu que a probabilidade dos visitantes da sua seção de notícias assistir a comerciais de vídeo era duas vezes maior, então adicionou mais opções de vídeo àquela seção. Você experimentou um aumento de 7% de comerciais de vídeo assistidos!&quot;*
@@ -45,6 +51,9 @@ Uma grande empresa de publicação de mídia procura maneiras de melhorar o enga
 | Segmento 1 | Segmento 2 |
 |--- |--- |
 | Contêiner de visitantes em que a Seção do site é “Notícias” | Todos os outros |
+
+{style="table-layout:fixed"}
+
 
 ## Caso de uso 4: comparar visitantes vindos de ferramentas de pesquisa paga com todos os outros
 
@@ -56,12 +65,17 @@ Uma importante empresa de serviços B2B deseja entender o tipo de tráfego que a
 |--- |--- |
 | Contêiner de visitante em que Tipo de referenciador é Pesquisa paga | Todos os outros |
 
+{style="table-layout:fixed"}
+
+
 ## Caso de uso 5: comparar compradores de Fitbit com todos os outros
 
-> *&quot;Você descobriu que a probabilidade de receber mensagens de &quot;Produto esgotado&quot; era 6 vezes maior para compradores de Fitbits do que para o resto. Então você rapidamente pediu mais Fitbits e evitou ficar sem estoque!&quot;*
+> *&quot;Você descobriu que a probabilidade de receber mensagens de &quot;Produto esgotado&quot; era 6 vezes maior para compradores de Fitbits do que para o resto. Assim, você rapidamente pediu mais Fitbits e evitou ficar sem estoque!&quot;*
 
 **Cenário:** uma importante retailer online está interessada em saber como um dos melhores produtos de datas festivas, o Fitbit, está sendo vendido e o que torna os compradores do Fitbit únicos comparados aos outros clientes. A equipe de marketing pode selecionar o item de linha Fitbit no relatório de produtos e executar rapidamente uma análise de comparação de segmentos no menu de contexto. O que eles descobrem é que os usuários que compram Fitbits têm 6 vezes mais chances de receber uma mensagem de &quot;Produto esgotado&quot; do que qualquer outro cliente. Após uma análise mais aprofundada, a equipe de marketing é capaz de direcionar esses visitantes para suas lojas tradicionais enquanto eles esperam que o departamento de compra solicite mais Fitbits para serem enviados. Como resultado, a retailer evita mais mensagens de &quot;Produto esgotado&quot; e é capaz de atender mais da demanda nos feriados.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
 | Contêiner de visitante em que existe a seção Pedidos e a dimensão personalizada Marca é FitBit | Todos os outros |
+
+{style="table-layout:fixed"}

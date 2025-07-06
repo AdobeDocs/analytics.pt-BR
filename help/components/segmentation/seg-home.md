@@ -1,19 +1,19 @@
 ---
-description: O Adobe Analytics permite construir, gerenciar, compartilhar e aplicar segmentos avançados de público-alvo em seus relatórios usando os recursos do Analytics, a Adobe Experience Cloud, o Adobe Target e outros produtos integrados da Adobe.
+description: Entenda como o Adobe Analytics permite criar, gerenciar, compartilhar e aplicar segmentos avançados de público-alvo em seus relatórios usando os recursos do Analytics, o Adobe Experience Cloud, o Adobe Target e outros produtos integrados da Adobe.
 keywords: segmentação;segmentos
-title: Segmentação do Analytics
+title: Visão geral da segmentação
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
-source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 80%
 
 ---
 
-# Segmentação do Analytics
+# Visão geral da segmentação
 
-O Adobe Analytics permite construir, gerenciar, compartilhar e aplicar segmentos avançados de público-alvo em seus relatórios usando os recursos do Analytics, a Adobe Experience Cloud, o Adobe Target e outros produtos integrados da Adobe.
+O Adobe Analytics permite criar, gerenciar, compartilhar e aplicar segmentos de público-alvo avançados e focados em seus relatórios usando os recursos do Analytics, a Adobe Experience Cloud, o Adobe Target e outros produtos integrados da Adobe.
 
 A segmentação analítica inclui o [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) para construir segmentos e executar um pré-teste, e o [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) para coletar, marcar, aprovar, definir segurança e compartilhar segmentos em sua organização.
 

@@ -1,14 +1,14 @@
 ---
 title: Visão geral do painel de comparação de segmentos
-description: Saiba como usar o painel de comparação de segmentos no Analysis Workspace.
+description: Saiba como usar o painel de comparação de segmentos para comparar segmentos no Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 64%
+source-wordcount: '588'
+ht-degree: 63%
 
 ---
 
@@ -28,21 +28,21 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Painel de comparação de segmentos"
->abstract="Compare rapidamente dois segmentos em todos os pontos de dados para encontrar automaticamente diferenças relevantes.<br/><br/>**Parâmetros &#x200B;**<br/>**Adicionar um segmento**: o primeiro segmento que você deseja analisar.<br/>**Comparar com**: o segundo segmento com o qual você deseja comparar, que é preenchido automaticamente com *Todos os outros* (o inverso do seu primeiro segmento). Você pode substituir *Todos os outros* por um segmento diferente, se desejar.<br/>**Configurações avançadas**: a capacidade de excluir componentes de serem analisados na comparação de segmentos."
+>abstract="Compare rapidamente dois segmentos em todos os pontos de dados para encontrar automaticamente diferenças relevantes.<br/><br/>**Parâmetros **<br/>**Adicionar um segmento**: o primeiro segmento que você deseja analisar.<br/>**Comparar com**: o segundo segmento com o qual você deseja comparar, que é preenchido automaticamente com *Todos os outros* (o inverso do seu primeiro segmento). Você pode substituir *Todos os outros* por um segmento diferente, se desejar.<br/>**Configurações avançadas**: a capacidade de excluir componentes de serem analisados na comparação de segmentos."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel de comparação de segmentos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artigo é sobre o painel de comparação de segmentos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-O painel de comparação de segmentos mostra as diferenças estatisticamente mais importantes entre um número ilimitado de segmentos. Esse recurso é repetido por meio de uma análise automatizada de todas as dimensões e métricas a que você tem acesso. A análise descobre as principais características dos segmentos de público-alvo que estão liderando os indicadores de desempenho (KPIs) da sua empresa e permite que você veja quantos segmentos se sobrepõem.
+O painel de comparação de segmentos mostra as diferenças estatisticamente mais importantes entre um número ilimitado de segmentos. Esse recurso é repetido por meio de uma análise automatizada de todas as dimensões e métricas a que você tem acesso. A comparação descobre as principais características dos segmentos de público-alvo que estão liderando os indicadores de desempenho (KPIs) da sua empresa e permite que você veja quantos segmentos se sobrepõem.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação de segmentos](https://video.tv.adobe.com/v/33252?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação de segmentos](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

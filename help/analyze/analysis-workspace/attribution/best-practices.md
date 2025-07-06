@@ -3,10 +3,10 @@ title: Práticas recomendadas de atribuição
 description: Entenda as práticas recomendadas para decidir sobre qual modelo de atribuição usar.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 74%
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ Você poderia então fazer uma análise de topo e fundo de funil para expandir s
 
 ### Análise de topo de funil
 
-Os canais de análise de funil superior são usados para criar percepção da marca ou do produto. Por exemplo, o objetivo da maioria das publicidades de TV é a percepção de marca. Você pode usar o [modelo de atribuição “Time decay”](/help/analyze/analysis-workspace/attribution/models.md), já que as pessoas esquecerão sobre seu anúncio de TV com o passar do tempo.
+Os canais de análise de funil superior são usados para criar percepção da marca ou do produto. Por exemplo, o objetivo da maioria das publicidades de TV é a percepção de marca. Você pode usar o [modelo de atribuição de declínio de tempo](/help/analyze/analysis-workspace/attribution/models.md), já que as pessoas esquecerão seu anúncio de TV ao longo do tempo.
 
 ### Análise de fundo de funil
 
@@ -47,13 +47,13 @@ A finalidade dessa etapa é validar a sua hipótese.
 
 Suponha que sua hipótese seja: &quot;*Meu canal de primeiro contato tem mais impacto na conversão do que meu canal de último contato.*&quot;
 
-Nesse caso, você usaria o [modelo de atribuição Inverse J-shape&quot;](/help/analyze/analysis-workspace/attribution/models.md) para testar essa hipótese. Esse modelo concede 60% do crédito ao primeiro ponto de contato.
+Nesse caso, você usaria o [modelo de atribuição Inverse J-shape](/help/analyze/analysis-workspace/attribution/models.md) para testar essa hipótese. Esse modelo concede 60% do crédito ao primeiro ponto de contato.
 
 **Exemplo 2**
 
 Suponha que sua hipótese seja: *&quot;Em um setor específico (como o de viagens), a janela de atribuição é de 60 ou 90 dias, não 30 dias, porque os clientes fazem muita pesquisa antes de comprar um produto.*&quot;
 
-Nesse caso, você alteraria sua [janela de retrospectiva](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/attribution/models) para 90 dias.
+Nesse caso, você alteraria sua [janela de retrospectiva](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) para 90 dias.
 
 ## Usar atribuição algorítmica
 
@@ -63,4 +63,4 @@ Se você ainda não tiver um modelo de atribuição que forneça respostas satis
 
 * Talvez seja necessário usar os serviços de um cientista de dados, em vez de depender apenas do Analysis Workspace.
 * Você pode confiar em dados brutos, como os feeds de dados da Adobe.
-* Considere usar o [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por exemplo, se desejar considerar seus dados de impressões.
+* Considere usar o [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por exemplo, se desejar considerar seus dados de impressões.

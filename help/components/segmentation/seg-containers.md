@@ -1,20 +1,20 @@
 ---
 description: Saiba mais sobre os diferentes containers de segmentação e como usá-los
 keywords: segmentação;segmentos
-title: Containers de segmento
+title: Contêineres de segmentos
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '3563'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
 
 # Containers de segmento
 
-Um segmento define condições para filtrar um(a) visitante com base nos atributos do(a) visitante ou nas interações com seu site. Para definir as condições em um segmento, você define regras para filtrar visitantes com base nas características de visitante e/ou nas características de navegação. Para detalhar ainda mais os dados do visitante, você pode filtrar com base em visitantes específicos e/ou ocorrências de visualização de página para cada visitante. O Construtor de segmentos fornece uma arquitetura simples para construir esses subconjuntos e aplicar regras como contêineres aninhados e hierárquicos Visitante, Visita ou Ocorrência.
+Um segmento define condições para filtrar um visitante com base nos atributos ou interações do visitante com o site. Para definir as condições em um segmento, você define regras para filtrar visitantes com base nas características de visitante e/ou nas características de navegação. Para detalhar ainda mais os dados do visitante, você pode filtrar com base em visitantes específicos e/ou ocorrências de visualização de página para cada visitante. O Construtor de segmentos fornece uma arquitetura simples para construir esses subconjuntos e aplicar regras como contêineres aninhados e hierárquicos Visitante, Visita ou Ocorrência.
 
 A arquitetura de contêiner empregada no [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) define:
 
@@ -47,7 +47,7 @@ Cada container permite que você relate o histórico do(a) visitante, as intera�
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/3429097?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

@@ -1,12 +1,12 @@
 ---
-title: Práticas recomendadas de segmentação
-description: Crie segmentos ideais que retornam dados com eficiência.
+title: Práticas recomendadas
+description: Conheça algumas práticas recomendadas de segmentação.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 62%
+source-wordcount: '303'
+ht-degree: 60%
 
 ---
 
@@ -16,7 +16,7 @@ Segmentos complexos geralmente são necessários para obter os dados desejados. 
 
 ## Usar somente o operador `Contains` como último recurso
 
-O operador [**[!UICONTROL Contém &#x200B;]**](/help/components/segmentation/seg-reference/seg-operators.md) é um dos recursos de processamento mais intensos na segmentação, pois o operador precisa analisar todo o conteúdo de cada valor. Considere o uso de outros operadores, como&#x200B;**[!UICONTROL &#x200B; Começa com &#x200B;]**&#x200B;ou&#x200B;**[!UICONTROL &#x200B; Termina com &#x200B;]**, se os valores desejados estiverem no início ou no fim de uma cadeia de caracteres.
+O operador [**[!UICONTROL Contém ]**](/help/components/segmentation/seg-reference/seg-operators.md) é um dos recursos de processamento mais intensos na segmentação, pois o operador precisa analisar todo o conteúdo de cada valor. Considere o uso de outros operadores, como**[!UICONTROL  Começa com ]**ou**[!UICONTROL  Termina com ]**, se os valores desejados estiverem no início ou no fim de uma cadeia de caracteres.
 
 Se um operador **[!UICONTROL Contém]** em um segmento retornar um grande número de resultados, o tempo limite do relatório normalmente é excedido. Por exemplo, se você criou um segmento em que **[!UICONTROL Referenciador]** **[!UICONTROL é igual a]** `"."`, o segmento pesquisa o conteúdo de cada valor. Considere usar o operador **[!UICONTROL Existe]**.
 

@@ -1,13 +1,13 @@
 ---
-description: Entenda como usar o painel Item seguinte ou anterior que mostra os itens de dimensão anteriores ou seguintes para uma dimensão específica.
+description: Entenda como usar o painel Item seguinte ou anterior que mostra os itens seguintes ou anteriores para uma dimensão específica.
 title: Painel Item Seguinte Ou Anterior
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 94%
+source-wordcount: '476'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Item seguinte ou anterior no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel Item seguinte ou anterior](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/next-previous)) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre o painel Item seguinte ou anterior no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel Item seguinte ou anterior](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/next-previous)) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ Você pode configurar o painel [!UICONTROL Próximo ou item anterior] usando e
 | **[!UICONTROL Dimensão]** | Selecione a dimensão para a qual deseja explorar os itens seguintes ou anteriores. |
 | **[!UICONTROL Item de dimensão]** | Selecione o item de dimensão específico no centro da consulta seguinte/anterior. |
 | **[!UICONTROL Direção]** | Especifique se você está procurando pelo item de dimensão [!UICONTROL Próximo] ou [!UICONTROL Anterior]. |
-| **[!UICONTROL Contêiner]** | Selecione o container [!UICONTROL Sessão] ou [!UICONTROL Pessoa] (padrão) para determinar o escopo da sua consulta. |
+| **[!UICONTROL Contêiner]** | Selecione o contêiner **[!UICONTROL Visita]** ou **[!UICONTROL Visitante]** (padrão) para determinar o escopo da sua consulta. |
 
 {style="table-layout:auto"}
 

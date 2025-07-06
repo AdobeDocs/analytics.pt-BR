@@ -1,12 +1,12 @@
 ---
-description: Segmentar métricas individuais permite comparar métricas em um mesmo relatório.
+description: Saiba como segmentar métricas individuais que permitem fazer comparações de métricas na mesma visualização.
 title: Métricas segmentadas
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 4%
+source-wordcount: '462'
+ht-degree: 1%
 
 ---
 

@@ -1,11 +1,11 @@
 ---
-description: A página Métricas calculadas oferece várias formas de cuidar de métricas, como compartilhar, filtrar, marcar, aprovar, copiar, excluir e marcar como favoritos.
-title: Gerenciador de métricas calculadas
+description: Saiba como compartilhar, filtrar, marcar, aprovar, copiar, excluir métricas calculadas e marcar métricas calculadas como favoritos.
+title: Gerenciar métricas calculadas
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 29%
 
 ---

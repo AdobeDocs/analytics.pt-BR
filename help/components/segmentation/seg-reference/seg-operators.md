@@ -1,22 +1,22 @@
 ---
-description: O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados.
-title: Operadores de comparação para segmentos
+description: Saiba como usar os operadores no construtor de segmentos para comparar e restringir valores.
+title: Operadores
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 47%
+source-wordcount: '1191'
+ht-degree: 45%
 
 ---
 
 # Operadores de comparação para segmentos
 
-O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados. Existem três categorias de operadores: Padrão, Data Warehouse e Contagem distinta.
+O Construtor de segmentos permite que você compare e restrinja valores com os operadores selecionados. Há três categorias de operadores: [Padrão](#standard-operators), [Data Warehouse](#data-warehouse-operators) e [Contagem distinta](#distinct-count-operators).
 
 Dependendo do operador selecionado:
 
-* Você pode inserir um valor
+* Você pode inserir um valor.
 * Você pode inserir parte de um valor e selecionar em um menu suspenso (se disponível).
 * Selecione imediatamente um valor no menu suspenso (se disponível).
 
@@ -46,13 +46,13 @@ Por exemplo, você tem um nome de página chamado *Meu produto divertido*.
 | **[!UICONTROL contém tudo]** | Retorna itens comparados às subsequências de caracteres, incluindo diversos valores unidos. Por exemplo, inserir `Search Results` com este operador para a dimensão **[!UICONTROL Nome da Página]** corresponderia a *Resultados da Pesquisa* e *Resultados da Pesquisa*, mas não a *Pesquisa* ou *Resultados* individualmente. A regra corresponderia a *Pesquisa* E *Resultados* encontrados juntos. O campo de entrada desse operador é delimitado por espaços (100 palavras). |
 | **[!UICONTROL não contém todos os]** | Identifica itens comparados com subsequências de caracteres, incluindo vários valores agrupados, e retorna somente itens sem esses valores. Por exemplo, inserir `Search Results` com este operador para a dimensão **[!UICONTROL Nome da Página]** identificará *Resultados da Pesquisa* e *Resultados da Pesquisa* (mas não *Pesquisa* ou *Resultados* individualmente) e excluirá esses itens. O campo de entrada desse operador é delimitado por espaços (100 palavras). |
 | **[!UICONTROL contém qualquer um dos]** | Retorna itens comparados às subsequências de caracteres, incluindo diversos valores unidos ou identificados de forma independente. Por exemplo, inserir `Search Results` com este operador corresponderia a *Resultados da Pesquisa*, *Resultados da Pesquisa*, *Pesquisa* e *Resultados*. Corresponderia a *Pesquisa* OU a *Resultados* encontrados juntos ou de forma independente. O campo de entrada desse operador é delimitado por espaços (100 palavras). |
-| **[!UICONTROL não contém nenhum de]** | Identifica itens baseados em subsequências e retorna os valores que não contêm essas subsequências. Pode ter diversos valores reunidos ou valores identificados de maneira independente. Por exemplo, inserir `Search Results` para a dimensão **[!UICONTROL Nome da Página]** corresponderia a *Resultado da Pesquisa* s, *Resultados da Pesquisa* h*, *Pesquisa* e *Resultados* em que a *Pesquisa* ou o *Resultado* são encontrados juntos ou independentemente. Em seguida, os itens que possuíssem essas subsequências seriam excluídos. O campo de entrada desse operador é delimitado por espaços (100 palavras). |
+| **[!UICONTROL não contém nenhum de]** | Identifica itens baseados em subsequências e retorna os valores que não contêm essas subsequências. Pode ter diversos valores reunidos ou valores identificados de maneira independente. Por exemplo, inserir `Search Results` para a dimensão **[!UICONTROL Nome da Página]** corresponderia a *Resultado da Pesquisa* s, *Resultados da Pesquisa*, *Pesquisa* e *Resultados* onde *Pesquisa* ou *Resultado* são encontrados juntos ou independentemente. Em seguida, os itens que possuíssem essas subsequências seriam excluídos. O campo de entrada desse operador é delimitado por espaços (100 palavras). |
 | **[!UICONTROL iniciar com]** | Retorna itens que iniciam com o valor da cadeia de caracteres inserido. |
 | **[!UICONTROL não inicia com]** | Retorna todos os itens que não iniciam com o valor da cadeia de caracteres inserido. Este é o inverso do operador **[!UICONTROL inicia com]**. |
 | **[!UICONTROL termina com]** | Retorna itens que terminam com o valor da cadeia de caracteres inserido. |
 | **[!UICONTROL não termina com]** | Retorna todos os itens que não terminam com o valor da cadeia de caracteres inserido. Este é o inverso do operador **[!UICONTROL termina com]**. |
-| **[!UICONTROL corresponde]** | Retorna itens correspondentes com base no valor numérico ou de sequência. A cláusula **[!UICONTROL matches]** diferencia maiúsculas de minúsculas no Adobe Analytics e no Customer Journey Analytics. **Observação**: use este operador quando estiver usando recursos de curinga [3&rbrace;. ](#wildcards) Exemplos de recurso de curinga:<ul><li>`a*e` corresponde a `ae`, `abcde`, `adobe` e `a whole sentence`</li><li>`adob*` corresponde a `adobe`, `adobe analytics` e `adobo recipe`</li><li>`*dobe` corresponde a `dobe`, `adobe` e `cute little dobe`</li></ul> |
-| **[!UICONTROL não corresponde a]** | Retorna todos os itens que não contêm a correspondência exata do valor inserido. Observação: use este operador quando utilizar recursos de curinga [1&rbrace;.](#wildcards) |
+| **[!UICONTROL corresponde]** | Retorna itens correspondentes com base no valor numérico ou de sequência. A cláusula **[!UICONTROL matches]** diferencia maiúsculas de minúsculas no Adobe Analytics e no Customer Journey Analytics. **Observação**: use este operador quando estiver usando recursos de curinga [3}. ](#wildcards) Exemplos de recurso de curinga:<ul><li>`a*e` corresponde a `ae`, `abcde`, `adobe` e `a whole sentence`</li><li>`adob*` corresponde a `adobe`, `adobe analytics` e `adobo recipe`</li><li>`*dobe` corresponde a `dobe`, `adobe` e `cute little dobe`</li></ul> |
+| **[!UICONTROL não corresponde a]** | Retorna todos os itens que não contêm a correspondência exata do valor inserido. Observação: use este operador quando utilizar recursos de curinga [1}.](#wildcards) |
 | **[!UICONTROL existe]** | Retorna o número de itens que existem. Por exemplo, se você avaliar a dimensão **[!UICONTROL Páginas não encontradas]** usando o operador **[!UICONTROL existe]**, o número de páginas de erro que existe é retornado. |
 | **[!UICONTROL não existe]** | Retorna todos os itens que não existem. Por exemplo, se você avaliar a dimensão **[!UICONTROL Páginas não encontradas]** usando o operador **[!UICONTROL não existe]**, o número de páginas nas quais esse erro não existia é retornado. |
 

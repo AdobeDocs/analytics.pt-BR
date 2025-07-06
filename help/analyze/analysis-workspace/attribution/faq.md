@@ -1,20 +1,21 @@
 ---
-title: Perguntas frequentes sobre Atribuição
+title: Perguntas Frequentes Sobre Atribuição
 description: Obtenha respostas para perguntas frequentes sobre atribuição.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 87%
+source-wordcount: '1188'
+ht-degree: 85%
 
 ---
 
-# Perguntas frequentes sobre Atribuição
+# Perguntas frequentes
 
+Estas são as respostas para perguntas frequentes sobre atribuição.
 
-+++## O que é o item da linha “Nenhum” ao usar a atribuição?
++++## O que é o item de linha **[!UICONTROL Nenhum]** ao usar a atribuição?
 
 O item de linha “Nenhum” é um item “catch-all” (global) que representa todas as conversões que ocorreram sem nenhum ponto de contato na janela de retrospectiva. Para reduzir o número de conversões atribuídas ao item de linha &quot;Nenhum&quot;, tente usar uma janela de pesquisa personalizada com um período de pesquisa mais longo.
 
@@ -23,7 +24,7 @@ O item de linha “Nenhum” é um item “catch-all” (global) que representa 
 
 +++## Por que às vezes vejo datas fora da janela de relatórios ao usar modelos de atribuição?
 
-Algumas métricas baseadas em visitas, como [Entradas](/help/components/metrics/entries.md) ou [Taxa de rejeição](/help/components/metrics/bounce-rate.md), podem atribuir dados a um período anterior ao intervalo de datas de início da janela de relatórios. Essa situação se deve aos modelos de atribuição que usam uma janela de pesquisa, que determina a aparência da atribuição anterior para conceder crédito por métricas. O cenário mais comum é quando as visitas abrangem a meia-noite. Por exemplo:
+Algumas métricas baseadas em visitas, como [Entradas](/help/components/metrics/entries.md) ou [Taxa de rejeição](/help/components/metrics/bounce-rate.md), podem atribuir dados a um período anterior à data inicial do intervalo da janela de relatórios. Essa situação se deve aos modelos de atribuição que usam uma janela de pesquisa, que determina a aparência da atribuição anterior para conceder crédito por métricas. O cenário mais comum é quando as visitas abrangem a meia-noite. Por exemplo:
 
 1. Um usuário visita sua página inicial às 23h55 do dia 7 de setembro.
 1. Eles visitam várias páginas, a última às 12h05 em 8 de setembro.
@@ -44,12 +45,13 @@ Neste exemplo, Entradas e Taxa de rejeição não exibiriam dados de 31 de agost
 +++
 
 
-+++## Quando devo usar uma retrospectiva de visita, visitante ou atribuição personalizada?
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
++++## When should I use a visit, visitor, or custom attribution lookback?
 
-A escolha da retrospectiva de atribuição depende do seu caso de uso. Se as conversões normalmente levam mais tempo do que uma visita única, recomenda-se a retrospectiva de visitante ou personalizada. As janelas de retrospectiva personalizadas são recomendadas para ciclos de conversão mais longos, pois são o único tipo que pode extrair dados anteriores à janela de relatórios.
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++## Como comparar props e eVars ao usar a atribuição?
 

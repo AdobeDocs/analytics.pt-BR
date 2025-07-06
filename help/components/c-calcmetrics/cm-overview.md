@@ -1,21 +1,21 @@
 ---
-description: Métricas calculadas e métricas calculadas avançadas são métricas personalizadas que podem ser criadas a partir de métricas existentes.
-keywords: Métricas calculadas;métricas calculadas avançadas
-title: Métricas calculadas e métricas calculadas avançadas
+description: Saiba mais sobre métricas calculadas que você pode criar a partir de métricas existentes.
+keywords: 'Métricas calculadas '
+title: Visão geral das métricas calculadas
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 91%
 
 ---
 
 # Visão geral das métricas calculadas
 
-Métricas calculadas e personalizadas que você pode criar a partir de métricas existentes. 
+Calculadas são métricas personalizadas que podem ser criadas a partir de métricas existentes.
 
-As métricas calculadas oferecem uma maneira altamente flexível de criar, gerenciar e selecionar métricas. As métricas calculadas permitem que profissionais de marketing, gerentes de produtos e analistas façam perguntas sobre os dados sem precisar alterar a implementação do [!DNL Analytics].
+As métricas calculadas são métricas personalizadas que podem ser criadas a partir de métricas existentes. As métricas calculadas oferecem uma maneira flexível de criar, gerenciar e preparar métricas personalizadas que permitem analisar seus dados sem a necessidade de alterar a implementação.
 
 As métricas calculadas estão disponíveis em cada pacote do [!DNL Analytics], mas o pacote do Adobe Analytics Foundation para Experience Cloud limita-se a métricas calculadas básicas, incluindo [tipos de formato (decimal, hora, porcentagem, moeda)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [alterações de alocação (padrão, linear, participação etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [tipos de métrica (padrão, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) e [operadores básicos](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (adicionar, subtrair, multiplicar e dividir).
 
@@ -59,13 +59,13 @@ Alguns recursos do [!DNL Analytics] não permitem o uso de métricas calculadas:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/32608?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas em segmentos](https://video.tv.adobe.com/v/32603?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas em segmentos](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

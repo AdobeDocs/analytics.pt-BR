@@ -1,12 +1,12 @@
 ---
-description: Segmentos sequenciais são criados por meio do operador THEN, em vez de AND ou OR. THEN implica que um critério de segmento ocorre, seguido de outro. Por padrão, um segmento sequencial identifica todos os dados correspondentes, mostrados no filtro "Incluir todos". Segmentos sequenciais podem ser filtrados ainda mais para um subconjunto de ocorrências correspondentes que usam as opções "Somente antes da sequência" e "Somente após da sequência".
-title: Construir segmentos sequenciais
+description: Saiba mais sobre segmentos sequenciais que usam o operador THEN para definir uma sequência de condições de segmento.
+title: SegmentosSequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
+source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 6%
+source-wordcount: '2375'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Além disso, é possível restringir os segmentos sequenciais a uma duração de
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentação sequencial](https://video.tv.adobe.com/v/32592?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentação sequencial](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ Para aplicar restrições de tempo ao operador **[!UICONTROL Then]**:
 1. Selecione ![Relógio](/help/assets/icons/Clock.svg).
 1. Selecione **[!UICONTROL Dentro]** ou **[!UICONTROL Depois]** no menu de contexto.
 1. Especifique um período (**[!UICONTROL Minuto]**, **[!UICONTROL Hora]**, até **[!UICONTROL Anos]**).
-1. Selecione a ![Divisa](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *número *]**&#x200B;para abrir um pop-up que permita digitar ou especificar um número usando&#x200B;**[!UICONTROL -]**&#x200B;ou&#x200B;**[!UICONTROL +]**.
+1. Selecione a ![Divisa](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *número *]**para abrir um pop-up que permita digitar ou especificar um número usando**[!UICONTROL -]**ou**[!UICONTROL +]**.
 
 Para remover uma restrição de tempo, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -97,7 +97,7 @@ Alguns exemplos de uso das restrições de tempo.
 
 ##### Operador [!UICONTROL Depois]
 
-Identifique os visitantes que visitaram uma página e depois outra página somente após duas semanas. Por exemplo, os visitantes que visitaram a página inicial, mas as mulheres | Página de sapatos só depois de duas semanas.
+Identifique os visitantes que visitaram uma página e depois outra página somente após duas semanas. Por exemplo, visitantes que visitaram a página inicial, mas a variável Mulheres | Página de sapatos só depois de duas semanas.
 
 ![Sequência após](assets/sequence-after.png)
 
@@ -113,7 +113,7 @@ Se uma exibição de página da Página inicial ocorrer em 1 de junho de 2024 à
 
 ##### [!UICONTROL Depois] mas [!UICONTROL Dentro] operador
 
-Identifique os visitantes que visitaram uma página e, em seguida, visitaram outra página após duas semanas, mas dentro de um mês. Por exemplo, os visitantes que visitaram a Página inicial e depois após duas semanas e dentro de um mês as mulheres | Página de sapatos.
+Identifique os visitantes que visitaram uma página e, em seguida, visitaram outra página após duas semanas, mas dentro de um mês. Por exemplo, os visitantes que visitaram a Página inicial e, em seguida, após duas semanas e dentro de um mês, as mulheres | Página de sapatos.
 
 ![Sequência após, mas dentro de](assets/sequence-afterbutwithin.png)
 
@@ -134,7 +134,7 @@ Os exemplos de sequências a seguir correspondem ou não:
 
 | Sequência | ![AprovarRejeitar](/help/assets/icons/ApproveReject.svg) |
 |--- | :---: |
-| Página `Women \| Shoes` seguida pela página `Checkout \| Thank You` | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) |
+| Página `Women \| Shoes` seguida pela página `Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | Página `Women \| Shoes` seguida pela página `Women \| Tops` seguida pela página `Checkout \| Thank You` | ![RemoverCírculo](/help/assets/icons/RemoveCircle.svg) |
 
 ## [!UICONTROL Incluir]
@@ -153,8 +153,8 @@ Os exemplos de sequências a seguir correspondem ou não:
 
 | | Sequência | ![AprovarRejeitar](/help/assets/icons/ApproveReject.svg) |
 |---:|--- | --- |
-| 1 | `Women \| Shoes` então `Checkout \| Thank You` na mesma visita | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) |
-| 2 | `Women \| Shoes` então `Men \| Shoes` então `Checkout \| Thank You` (em diferentes visitas) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) |
+| 1 | `Women \| Shoes` então `Checkout \| Thank You` na mesma visita | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes` então `Men \| Shoes` então `Checkout \| Thank You` (em diferentes visitas) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 3 | `Checkout \| Thank You` então `Women \| Shoes` | ![RemoverCírculo](/help/assets/icons/RemoveCircle.svg) |
 
 ### [!UICONTROL Somente antes da sequência] e [!UICONTROL Somente depois da sequência]
@@ -169,17 +169,17 @@ Considere uma definição que especifique uma sequência de um componente com cr
 
 | B Então D | A | B | C | D | E | F |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Incluir todos | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) |
-| Somente antes da sequência | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
-| Somente após sequência |  |  |  | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) |
+| Incluir todos | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| Somente antes da sequência | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| Somente após sequência |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 
 
 | B Então D (ocorre várias vezes) | A | B | C | D | B | C | D | E |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Incluir todos | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) |
-| Somente antes da sequência | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
-| Somente após sequência |  |  |  | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) | ![CírculoDeMarcaDeSeleção](/help/assets/icons/CheckmarkCircle.svg) |
+| Incluir todos | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| Somente antes da sequência | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| Somente após sequência |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 #### Exemplo
 
@@ -213,7 +213,7 @@ Veja abaixo exemplos de uso de [!UICONTROL Excluir].
 
 #### [!UICONTROL Excluir] dentro de
 
-Identifique os visitantes que visitaram uma página, não visitaram outra página e visitaram outra página. Você exclui o contêiner usando ![Configuração](/help/assets/icons/Setting.svg) [!UICONTROL Exclusão]. Um contêiner excluído é identificado por uma barra vermelha fina à esquerda.
+Identifique os visitantes que visitaram uma página, não visitaram outra página e visitaram outra página. Você exclui o contêiner usando ![Configuração](/help/assets/icons/Setting.svg) [!UICONTROL Exclusão]. Uma barra vermelha fina à esquerda identifica um container excluído.
 
 ![Excluir sequência](assets/sequence-exclude.png)
 
@@ -238,7 +238,7 @@ Identifique os visitantes que visitaram uma página, mas nunca visitaram outras 
 >
 >Um [!UICONTROL Grupo lógico] só pode ser definido em um segmento sequencial, o que significa que o operador [!UICONTROL Then] é usado no contêiner.
 
-O Grupo lógico permite agrupar as condições em um único ponto de verificação de segmento sequencial. Como parte da sequência, a lógica definida no contêiner identificado como Grupo lógico é avaliada após qualquer ponto de verificação sequencial anterior e antes de qualquer ponto de verificação sequencial posterior.
+O grupo lógico permite agrupar condições em um único ponto de verificação de segmento sequencial. Como parte da sequência, a lógica definida no contêiner identificado como Grupo lógico é avaliada após qualquer ponto de verificação sequencial anterior e antes de qualquer ponto de verificação sequencial posterior.
 
 As condições no próprio Grupo lógico podem ser cumpridas em qualquer ordem. Por outro lado, os contêineres não sequenciais (ocorrência, visita, visitante) não exigem que suas condições sejam atendidas na sequência geral, produzindo possíveis resultados não intuitivos, se usados com um operador **[!UICONTROL Then]**.
 
@@ -273,13 +273,13 @@ Identifique os visitantes que visitaram uma página ou outra página e, em segui
 
 #### [!UICONTROL Excluir] [!UICONTROL E]
 
-Identifique os visitantes que visitaram uma página e explicitamente não visitaram um conjunto de outras páginas, mas visitaram outra página. Por exemplo, os visitantes que visitaram a página inicial do, não visitaram a página Homens ou Mulheres, mas visitaram a página Crianças.
+Identifique os visitantes que visitaram uma página e explicitamente não visitaram um conjunto de outras páginas, mas visitaram outra página. Por exemplo, os visitantes que visitaram a página inicial e não visitaram a página Homens ou Mulheres, mas visitaram a página Crianças.
 
 ![Excluir grupo lógico e](assets/logicgroup-exclude-and.png)
 
 #### [!UICONTROL Excluir] [!UICONTROL Ou]
 
-Identifique os visitantes que visitaram uma página e explicitamente não visitaram nenhuma página de um conjunto de páginas, mas visitaram outra página. Por exemplo, os visitantes que visitaram a página inicial do, não visitaram a página Homens e mulheres, mas visitaram a página Crianças.
+Identifique os visitantes que visitaram uma página e explicitamente não visitaram nenhuma página de um conjunto de páginas, mas visitaram outra página. Por exemplo, os visitantes que visitaram a Página inicial e não visitaram a página Homens e mulheres, mas visitaram a página Crianças.
 
 ![Excluir grupo lógico e](assets/logicgroup-exclude-or.png)
 
@@ -302,4 +302,4 @@ Como exemplo final, você deseja identificar os visitantes que aprenderam sobre 
 
 >[!MORELIKETHIS]
 >
-> * [Dominando Lógica Sequencial no AA e no CJA: Introdução ao THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=pt)
+> * [Dominando Lógica Sequencial no AA e no CJA: Introdução ao THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
