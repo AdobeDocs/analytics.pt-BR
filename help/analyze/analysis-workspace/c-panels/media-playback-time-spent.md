@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Tempo gasto com a reprodução de mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel de tempo gasto com a reprodução de mídia](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre o painel Tempo gasto com a reprodução de mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel de tempo gasto com a reprodução de mídia](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _Este artigo é sobre o painel Tempo gasto com a reprodução de mídia no_ ![Ad
 >[!NOTE]
 >
 >O painel Público médio a cada minuto de mídia está disponível somente para clientes que compraram o complemento Coleção de mídia de streaming para o Adobe Analytics.
->>Entre em contato com o(a) representante de vendas ou com a equipe de contas da Adobe para obter mais informações.
+>&#x200B;>Entre em contato com o(a) representante de vendas ou com a equipe de contas da Adobe para obter mais informações.
 >
 
 O painel **[!UICONTROL Tempo gasto com a reprodução de mídia]** permite analisar a reprodução ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de detalhar e comparar. 
@@ -125,8 +125,8 @@ A única métrica que pode ser usada nesse painel é Tempo gasto com a reproduç
 >[!MORELIKETHIS]
 >
 >[Criar um painel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[Painel de público-alvo médio a cada minuto de mídia](average-minute-audience-panel.md)
->>[Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md)
+>&#x200B;>[Painel de público-alvo médio a cada minuto de mídia](average-minute-audience-panel.md)
+>&#x200B;>[Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md)
 >
 
 <!--
