@@ -1,13 +1,13 @@
 ---
-description: Use o calendário e os intervalos de dados para especificar intervalos de datas no Analysis Workspace.
+description: Use o calendário e os intervalos de datas para especificar intervalos de datas no Analysis Workspace.
 title: Visão geral dos intervalos de datas
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,8 +38,8 @@ Ou você pode usar um intervalo de datas em uma tabela de forma livre como uma m
 Você usa um intervalo de datas da mesma forma que [usaria qualquer componente](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components). Você arrasta o intervalo de datas do painel do componente ![Calendário](/help/assets/icons/Calendar.svg) **[!UICONTROL Intervalos de datas]** e solta o componente em:
 
 - **[!UICONTROL Calendário]**: você pode ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL Substituir]** a configuração do calendário atual pelo intervalo de datas.
-- **Cabeçalho da coluna de métrica**: você pode ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL Substituir]** a métrica, ![Add](/help/assets/icons/Add.svg)**[!UICONTROL Adicionar &#x200B;]**&#x200B;o intervalo de datas como uma métrica ou ![Filter](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B; Filtrar &#x200B;]**&#x200B;a métrica, usando o componente de intervalo de datas.
-- **Cabeçalho da coluna de dimensão**: você pode ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL Substituir]** as dimensões atuais. A nova dimensão agora é **[!UICONTROL Intervalos de datas]**. Quando a dimensão é “Intervalos de datas”, você pode ![Add](/help/assets/icons/Add.svg)**[!UICONTROL Adicionar &#x200B;]**&#x200B;outros intervalos de datas como itens de dimensão.
+- **Cabeçalho da coluna de métrica**: você pode ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL Substituir]** a métrica, ![Add](/help/assets/icons/Add.svg)**[!UICONTROL Adicionar ]**o intervalo de datas como uma métrica ou ![Filter](/help/assets/icons/Filter.svg)**[!UICONTROL  Filtrar ]**a métrica, usando o componente de intervalo de datas.
+- **Cabeçalho da coluna de dimensão**: você pode ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL Substituir]** as dimensões atuais. A nova dimensão agora é **[!UICONTROL Intervalos de datas]**. Quando a dimensão é “Intervalos de datas”, você pode ![Add](/help/assets/icons/Add.svg)**[!UICONTROL Adicionar ]**outros intervalos de datas como itens de dimensão.
 - **Item de dimensão**: você pode fazer o ![Breakdown](/help/assets/icons/Breakdown.svg) **[!UICONTROL Detalhamento]** do item de dimensão específico segundo o intervalo de datas.
 
 Você também pode adicionar uma coluna de intervalo de datas diretamente a uma visualização de tabela de forma livre:
@@ -97,7 +97,7 @@ In the calendar, you can specify dates and date ranges, or select a preset.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/30814?quality=12&learn=on&captions=por_br){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -112,7 +112,7 @@ The first click on a calendar starts a date range selection. The second click co
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=pt-BR) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Setting | Description |
 |--- |--- |

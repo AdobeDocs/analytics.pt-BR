@@ -4,9 +4,9 @@ description: Visualize quantidades de itens ou dados da dimensão ao longo do te
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 
 As métricas permitem quantificar os itens de dimensão para, por exemplo, ver quais páginas do site têm mais visualizações de página. Também é possível analisar as métricas ao longo do tempo para ver quantos pedidos os visitantes fazem no site a cada dia. Um relatório básico mostra linhas de valores da sequência de caracteres (dimensão) em relação a uma coluna de valores numéricos (métrica).
 
-Por exemplo, se você combinasse a dimensão **[!UICONTROL Página]** com a métrica **[!UICONTROL Visitas]**, obteria um relatório classificado que mostraria suas páginas mais visitadas:
+Por exemplo, se você tiver combinado a dimensão **[!UICONTROL Página]** com a métrica **[!UICONTROL Visitas]**, obterá um relatório classificado que mostra as suas páginas mais visitadas:
 
 | Página | Visitas |
 | --- | ---: |

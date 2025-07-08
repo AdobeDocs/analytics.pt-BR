@@ -1,12 +1,12 @@
 ---
-description: Entenda como usar a tp de alertas para permitir o controle detalhado de notificações e a integração com a detecção de anomalias.
-title: Visão geral de alertas
+description: Entenda como usar alertas para obter um controle granular das notificações e uma integração com a detecção de anomalias.
+title: Visão geral dos alertas
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
