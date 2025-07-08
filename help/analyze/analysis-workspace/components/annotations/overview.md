@@ -1,5 +1,5 @@
 ---
-title: Visão geral de anotações
+title: Visão geral das anotações
 description: Saiba como usar anotações no Analysis Workspace.
 role: User, Admin
 solution: Analytics
@@ -8,11 +8,11 @@ exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
-# Visão geral sobre as anotações
+# Visão geral das anotações
 
 As anotações permitem que você comunique nuances e insights de dados contextuais de forma eficaz para outras partes interessadas na sua organização. Com as anotações, é possível vincular eventos de calendário a dimensões e métricas específicas. Você pode anotar uma data ou intervalo de datas com problemas de dados conhecidos, feriados, lançamentos de campanhas etc. Em seguida, é possível exibir graficamente os eventos e verificar se as campanhas ou outros eventos afetaram o tráfego no site, o uso do aplicativo móvel, a receita ou qualquer outra métrica.
 
@@ -67,7 +67,7 @@ Keep this in mind:
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
-However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=pt-BR).
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 ## Turn annotations on or off {#annotations-on-off}
 

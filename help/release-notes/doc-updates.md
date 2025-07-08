@@ -98,7 +98,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Melhoria na documentação das regras de bots | Informações atualizadas em [Noções básicas e configuração de regras de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) para maior clareza.<p>As melhorias incluem:</p> <ul><li>O título do artigo foi atualizado para ser mais descritivo</li><li>Melhor organização das informações</li><li>Foram adicionadas etapas para indicar informações baseadas em tarefas</li><li>Foram adicionados mais detalhes sobre os requisitos de arquivos CSV ao fazer upload das regras de bots</li></ul> |
 | Nova seção Relatórios | Adição de uma nova seção Relatórios que inclui informações sobre como [usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md) e [criar modelos empresariais](/help/analyze/analysis-workspace/templates/create-templates.md). |
 | Atualizações na documentação de Detecção de anomalias e Análise de contribuição | A documentação de Detecção de anomalias e Análise de contribuição estava localizada anteriormente em uma seção sobre o Virtual Analyst. Foram feitas as seguintes alterações: <ul><li>O termo Virtual Analyst foi removido da documentação.</li><li>A seção sobre [Detecção de anomalias](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) foi movida para diretamente abaixo da seção do Analysis Workspace.</li><li>A documentação de Análise de contribuição foi mesclada à documentação de Detecção de anomalias.</li></ul> |
-| &quot;Attribution IQ&quot; alterado para &quot;Atribuição&quot; | Todas as instâncias de “Attribution IQ” foram alteradas para “[Atribuição](/help/analyze/analysis-workspace/attribution/overview.md)” em toda a documentação. |
+| “Attribution IQ” alterado para “Atribuição” | Todas as instâncias de “Attribution IQ” foram alteradas para “[Atribuição](/help/analyze/analysis-workspace/attribution/overview.md)” em toda a documentação. |
 | **Novembro de 2023** | |
 | Atualizações do tópico de ativação/habilitação do Activity Map | Conteúdo do [SDK da Web](/help/analyze/activity-map/getting-started.md) (manual e pela extensão de tags do Adobe Experience Platform) adicionado. |
 | **Outubro de 2023** | |
@@ -172,7 +172,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=pt-BR). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/classifications/sets/overview) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
@@ -329,7 +329,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 1 de outubro de 2019 | Novo artigo em [Totais do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR#cja-workspace). |
 | 28 de setembro de 2019 | Novos artigos sobre [variáveis de configuração para a implementação do Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 19 de setembro de 2019 | Documentação de segmentação revisada para explicar os [Containers do grupo lógico](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=pt-BR#logic-group-containers). |
-| 12 de setembro de 2019 | Nova documentação para [Análise entre dispositivos](/help/components/cda/overview.md) |
+| 12 de setembro de 2019 | Nova documentação do [Analytics entre dispositivos](/help/components/cda/overview.md) |
 | 12 de setembro de 2019 | Atualize o documento [Totais de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=pt-BR). |
 | 28 de agosto de 2019 | Novo artigo sobre [Aplicativos da Web progressivos (PWAs) para o Analytics](/help/technotes/pwa.md). |
 | 8 de agosto de 2019 | Novo artigo em [Totais de métricas calculadas](/help/components/c-calcmetrics/cm-totals.md). |

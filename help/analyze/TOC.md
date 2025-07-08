@@ -7,7 +7,7 @@ user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 96%
          + [Criar anotações](analysis-workspace/components/annotations/create-annotations.md)
          + [Gerenciar anotações](analysis-workspace/components/annotations/manage-annotations.md)
          + [Exibir anotações](analysis-workspace/components/annotations/view-annotations.md)
-         + [Anotações do cartão de pontuação para dispositivos móveis](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [Anotações de cartões de pontuação de dispositivos móveis](analysis-workspace/components/annotations/mobile-annotations.md)
       + Dimensões {#dimensions}
          + [Visualizar dimensões](analysis-workspace/components/dimensions/view-dimensions.md)
          + [Analisar dimensões](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -139,14 +139,14 @@ ht-degree: 96%
       + [Criar links compartilháveis](analysis-workspace/curate-share/shareable-links.md)
       + [Projetos somente de leitura](analysis-workspace/curate-share/view-only-projects.md)
       + [Baixar](analysis-workspace/curate-share/download-send.md)
-      + [Enviar e agendar](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Enviar e programar](analysis-workspace/curate-share/t-schedule-report.md)
    + Atribuição {#attribution}
       + [Visão geral da atribuição](analysis-workspace/attribution/overview.md)
-      + [Modelo, contêiner e janela de pesquisa](analysis-workspace/attribution/models.md)
+      + [Modelo, container e janela de retrospectiva](analysis-workspace/attribution/models.md)
       + [Atribuição algorítmica](analysis-workspace/attribution/algorithmic.md)
       + [Práticas recomendadas](analysis-workspace/attribution/best-practices.md)
       + [Perguntas frequentes](analysis-workspace/attribution/faq.md)
-   + [Gerenciamento de jornadas](analysis-workspace/journey-iq.md)
+   + [Gerenciamento de jornada](analysis-workspace/journey-iq.md)
    + [Comparação de segmentos ](analysis-workspace/segment-iq.md)
    + Detecção de anomalias {#anomaly-detection}
       + [Visão geral](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
