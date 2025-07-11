@@ -7,7 +7,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 6cec1085093404235e29319db984d4389c68c31e
 workflow-type: tm+mt
 source-wordcount: '3461'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ Você pode gerenciar as configurações do Analysis Workspace e seus componentes
 
 >[!BEGINSHADEBOX]
 
-Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciar preferências](https://video.tv.adobe.com/v/3429987/?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciar preferências](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ Você pode personalizar as preferências gerais de todos os novos projetos criad
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="Exige autenticação da Experience Cloud"
->abstract="Quando habilitado, as pessoas que recebem acesso a um projeto da opção **[!UICONTROL Compartilhar com qualquer pessoa]** no Analysis Workspace devem se autenticar usando suas credenciais do Experience Cloud."
+>abstract="Quando habilitado, as pessoas que receberem acesso a um projeto por meio da opção **[!UICONTROL Compartilhar com qualquer pessoa]** do Analysis Workspace precisarão autenticar-se com as credenciais da Experience Cloud."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -101,12 +101,12 @@ Clique nos títulos de preferência vinculados para obter mais informações e c
 | Seção | Preferência | Opções |
 | --- | --- | --- |
 | **Exibir** | | |
-|  | [Densidade da exibição](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Escolha quanto conteúdo será exibido na tela, reduzindo o preenchimento vertical do painel à esquerda, em tabelas de forma livre e de coorte. <ul><li>Compacto</li><li>Confortável</li><li>Expandido (padrão)</li></ul> |
+|  | [Densidade da exibição](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Escolha quanto conteúdo será exibido na tela, reduzindo o preenchimento vertical do painel à esquerda, em tabelas de forma livre e de coorte. <ul><li>Compacto</li><li>Confortável</li><li>Expandido (padrão)</li></ul> |
 | | [Paleta de cores](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) | Escolha as paletas de cores de visualização usadas no Analysis Workspace.<ul><li>**Paleta categórica**: aplicada a muitas visualizações no Analysis Workspace. Cada cor representa um valor categórico distinto. Escolha entre as opções fornecidas pela Adobe ou insira uma paleta personalizada definida por valores hexadecimais delimitados por vírgulas.</li><li>**Paleta divergente**: aplicada à tabela de coorte no Analysis Workspace. Esta paleta contém um significado numérico com dois extremos e uma linha de base no meio.</li><li>**Paleta sequencial**: aplicada à análise guiada de Tendências de frequência (barra empilhada). Esta paleta contém um significado numérico do claro para o escuro.</li></ul> |
 | **Dados** | | |
-|  | [Conjunto de relatórios](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/panels) | Escolha de onde as tabelas e as visualizações derivam seus dados. <ul><li>Mais recente (padrão)</li><li>Conjunto de relatórios específico selecionado em uma lista</li></ul> |
-|  | [Calendário](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/panels) | Selecione de uma lista de: <ul><li>Intervalos fornecidos pela Adobe (o padrão é Este mês)</li><li>Intervalos definidos pelo cliente</li></ul> |
-|  | [Tipo de painel](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/panels) | <ul><li>Forma livre (padrão)</li><li>Em branco</li><li>Insights rápidos</li></ul> |
+|  | [Conjunto de relatórios](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | Escolha de onde as tabelas e as visualizações derivam seus dados. <ul><li>Mais recente (padrão)</li><li>Conjunto de relatórios específico selecionado em uma lista</li></ul> |
+|  | [Calendário](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | Selecione de uma lista de: <ul><li>Intervalos fornecidos pela Adobe (o padrão é Este mês)</li><li>Intervalos definidos pelo cliente</li></ul> |
+|  | [Tipo de painel](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | <ul><li>Forma livre (padrão)</li><li>Em branco</li><li>Insights rápidos</li></ul> |
 |  | Contar instâncias repetidas | Especifica se as instâncias repetidas devem ser contadas nos relatórios. Por exemplo, essa configuração (quando ativada) trata várias exibições de página consecutivas para a mesma página como várias exibições de página. Com essa opção desativada, eles contam como uma única visualização de página. <p>**Observação:** essa configuração afeta apenas determinadas métricas (como Visitas de página única) e não se aplica a visualizações de Fluxo ou Fallout.</p> |
 |  | Formato de número | <ul><li>1.000,00 (padrão)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Caractere separador do CSV | <ul><li>Vírgula (padrão)</li><li>Ponto e vírgula</li><li>Dois-pontos</li><li>Estágio</li><li>Ponto</li><li>Espaço</li><li>Tabulação</li></ul> |
@@ -117,12 +117,12 @@ Clique nos títulos de preferência vinculados para obter mais informações e c
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showanomalies"
 >title="Mostrar anomalias"
->abstract="Selecionar **[!UICONTROL Mostrar anomalias]** executa automaticamente a detecção de anomalias na primeira coluna de métrica adicionada a uma visualização de tabela de forma livre de série temporal."
+>abstract="Selecionar a opção **[!UICONTROL Mostrar anomalias]** executa automaticamente a detecção de anomalias na primeira coluna de métrica adicionada a uma visualização de tabela de forma livre de série temporal."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showforecast"
 >title="Mostrar previsão"
->abstract="Selecionar **[!UICONTROL Mostrar previsão]** prevê automaticamente a primeira coluna de métrica adicionada a uma visualização de tabela de forma livre de série temporal."
+>abstract="Selecionar **[!UICONTROL Mostrar previsão]** prevê automaticamente a primeira coluna de métrica adicionada a uma visualização de tabela de forma livre de série temporal."
 
 
 >[!CONTEXTUALHELP]
