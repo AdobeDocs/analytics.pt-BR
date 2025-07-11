@@ -41,7 +41,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 
 ## Pré-requisitos
 
-* Verifique se o conjunto de relatórios em que você está salvando este segmento está [habilitado para o Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish). Caso contrário, não será possível publicá-lo no Experience Cloud.
+* Verifique se o conjunto de relatórios em que você está salvando este segmento está [habilitado para o Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/analytics/components/segmentation/segmentation-workflow/seg-publish). Caso contrário, não será possível publicá-lo no Experience Cloud.
 * Verifique se sua organização está usando Experience Cloud IDs.
 * Antes de publicar segmentos, o Administrador precisa atribuir a permissão [!UICONTROL Publicação de segmentos] a um perfil de produto no [Admin Console](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/administration/admin-tool-experience-cloud) e adicionar você ao perfil de produto.
 
@@ -50,7 +50,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 * **Limites do conjunto de relatórios**: você pode publicar até 75 segmentos por conjunto de relatórios. Este limite é aplicado. Se você já tiver 75 segmentos publicados, não poderá publicar segmentos adicionais até cancelar a publicação de segmentos suficientes para ficar abaixo do limite de 75 segmentos.
 * **Limites de associação**: públicos-alvo compartilhados com a [!DNL Experience Cloud] a partir do Adobe Analytics não podem exceder 20 milhões de membros únicos.
 * **Privacidade dos dados**: os públicos-alvo não são filtrados com base no estado de autenticação de um visitante. Um visitante pode conseguir navegar em seu site em estados de autenticação e de não autenticação. As ações que ocorrem quando um visitante não é autenticado ainda podem fazer com que um visitante seja incluído em um público-alvo. Revise a [privacidade da Adobe Experience Cloud](https://www.adobe.com/br/privacy/experience-cloud.html) para entender todas as implicações de privacidade do compartilhamento de público-alvo.
-* Para uma discussão sobre as **diferenças entre segmentos em [!DNL Adobe Analytics] e[!DNL Audience Manager]**, consulte [Entender os segmentos no Analytics e no Audience Manager](https://experienceleague.adobe.com/en/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments).
+* Para uma discussão sobre as **diferenças entre segmentos em [!DNL Adobe Analytics] e[!DNL Audience Manager]**, consulte [Entender os segmentos no Analytics e no Audience Manager](https://experienceleague.adobe.com/pt-br/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments).
 
 ## Linha do tempo de publicação do segmento
 
@@ -127,14 +127,14 @@ As capturas de tela a seguir mostram como recuperar a UUID do Adobe Audience Man
 
 1. Inicie as Ferramentas de desenvolvedor do Chrome antes de carregar uma página
 1. Carregue a página e marque Aplicativos > Cookies. A UUID do Adobe Audience Manager deve ser definida no repositório de terceiros
-Cookie demdex ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) no exemplo abaixo). O demdex de campo é o conjunto de UUIDs do Adobe Audience Manager
+Cookie demdex ([adobe.demdex.net](https://experienceleague.adobe.com/pt-br/docs/audience-manager/user-guide/reference/demdex-calls) no exemplo abaixo). O demdex de campo é o conjunto de UUIDs do Adobe Audience Manager
 no navegador (`35721780439475290181087231320657663953` no exemplo abaixo).
 
    ![Ferramentas de desenvolvedor do Google Chrome](assets/devtools.png)
 
 ## Usar [!UICONTROL Visualizador de perfil do visitante] do Audience Manager
 
-A UUID do Adobe Audience Manager no navegador é usada por padrão quando o [!UICONTROL Visualizador de Perfil do Visitante] é carregado. Se você verificar as realizações de características de outros usuários, insira uma UUID no campo UUID e clique em [!UICONTROL Atualizar]. Consulte o [Visualizador de perfil do visitante](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) para obter mais informações.
+A UUID do Adobe Audience Manager no navegador é usada por padrão quando o [!UICONTROL Visualizador de Perfil do Visitante] é carregado. Se você verificar as realizações de características de outros usuários, insira uma UUID no campo UUID e clique em [!UICONTROL Atualizar]. Consulte o [Visualizador de perfil do visitante](https://experienceleague.adobe.com/pt-br/docs/audience-manager/user-guide/features/visitor-profile-viewer) para obter mais informações.
 
 ## Exibir as características do segmento em [!DNL Audience Manager]
 
