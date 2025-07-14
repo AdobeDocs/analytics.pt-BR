@@ -1,15 +1,15 @@
 ---
-title: O que é o hub Report Builder no Adobe Analytics
+title: O que é o hub do Report Builder no Adobe Analytics
 description: Descreve os componentes do Hub do Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: d3d74042f6c282db490483393f4b58cddd6b1525
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 51%
+source-wordcount: '489'
+ht-degree: 54%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 51%
 
 Use o hub do Report Builder para criar, atualizar, excluir e gerenciar blocos de dados.
 
-O hub Report Builder contém os botões Criar, Gerenciar e Programar, o painel COMANDOS e o painel EDIÇÃO RÁPIDA.
+O hub do Report Builder contém os botões Criar, Gerenciar e Agendar, o painel COMANDOS e o painel EDIÇÃO RÁPIDA.
 
 <img src="./assets/hub51.png" alt="O Hub do Report Builder"/>
 
@@ -25,10 +25,6 @@ O hub Report Builder contém os botões Criar, Gerenciar e Programar, o painel C
 ## Botões Criar, Gerenciar e Agendar
 
 Use os botões Criar, Gerenciar e Programar para criar novos blocos de dados, gerenciar blocos de dados existentes ou programar blocos de dados.
-
->[!NOTE]
->
->O agendamento da pasta de trabalho para esta versão do Report Builder no Adobe Analytics ainda não foi lançado, mas estará disponível no início de 2025. Agora você pode começar a usar pastas de trabalho que não exigem agendamento.
 
 ## Painel COMANDOS
 
@@ -50,7 +46,7 @@ Use o painel COMANDOS para acessar comandos compatíveis com as células selecio
 
 Ao selecionar um ou mais blocos de dados em uma planilha, o Report Builder exibe o painel EDIÇÃO RÁPIDA. Você pode usar o painel EDIÇÃO RÁPIDA para alterar parâmetros em um único bloco de dados ou alterar parâmetros em vários blocos de dados ao mesmo tempo.
 
-![O painel Edição Rápida no Report Builder](./assets/hub2.png)
+![Painel Edição Rápida no Report Builder](./assets/hub2.png)
 
 As alterações feitas usando as seções Edição rápida se aplicam a todos os blocos de dados selecionados.
 
@@ -62,7 +58,7 @@ Quando você altera o conjunto de relatórios, todos os blocos de dados na sele�
 
 Para alterar o conjunto de relatórios, selecione um novo conjunto de relatórios no menu suspenso.
 
-![O Hub Report Builder mostrando o menu suspenso do conjunto de relatórios.](./assets/image16.png)
+![O Hub do Report Builder mostrando o menu suspenso do conjunto de relatórios.](./assets/image16.png)
 
 ### Intervalo de datas
 
