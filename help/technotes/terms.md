@@ -3,7 +3,7 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -45,7 +45,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Link personalizado:** um tipo de ocorrência que contém dados de exibição que não sejam de página. Consulte a [função s.tl()](../implement/vars/functions/tl-method.md) no guia do usuário Implementar. Consulte também Hit.
 * **Atributos do cliente:** um recurso da Experience Cloud que permite o upload de dados de atributos. Consulte [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR) no guia do usuário dos Serviços principais.
 * **Servidor de coleta de dados:** servidores da Adobe que recebem e processam dados. As solicitações de imagem são enviadas aos servidores de coleta de dados da Adobe para uso nos relatórios.
-* **Data connectors:** uma solução de desenvolvimento desativada que permite a terceiros automatizar o carregamento de dados no Adobe Analytics. Os clientes desse terceiro podem usar um conector de dados para enriquecer seus dados no Adobe Analytics. Substituído pelo [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE).
+* **Data connectors:** uma solução de desenvolvimento desativada que permite a terceiros automatizar o carregamento de dados no Adobe Analytics. Os clientes desse terceiro podem usar um conector de dados para enriquecer seus dados no Adobe Analytics. Substituído pelo [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Feed de dados:** uma exportação de dados brutos que lista cada hit como uma linha e variáveis como colunas separadas. Usado mais frequentemente para exportar dados do Adobe Analytics para um banco de dados de terceiros. Consulte [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) no guia do usuário Exportar.
 * **Camada de dados:** Uma [camada de dados](/help/implement/prepare/data-layer.md) é uma estrutura de objetos do JavaScript no site que contém os valores de variáveis usados na implementação do Analytics. Isso permite maior controle e manutenção simplificada ao atribuir valores às variáveis do Analytics.
 * **Fontes de dados:** permite que um usuário carregue dados de um arquivo no Adobe Analytics. O arquivo normalmente é extraído de um site FTP. Consulte [Data Sources](/help/import/data-sources/overview.md) no guia do usuário Importar.
@@ -84,7 +84,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Persistência:** um conceito abstrato para variáveis de conversão que permite a vinculação entre um valor variável e um evento que ocorre em hits separados. Consulte também Expiração.
 * **Chamada do servidor primário:** nome alternativo para solicitação de imagem ou hit, usado principalmente no contexto de marcação e cobrança de vários conjuntos. Quando o mesmo hit é enviado para vários conjuntos de relatórios, o primeiro conjunto de relatórios é uma chamada de servidor primário enquanto o restante são chamadas de servidor secundário. Esta regra se aplica a todos os tipos de hits, incluindo exibição de página e rastreamento de link. Consulte também Chamadas de servidor secundário.
 * **Regras de processamento:** pode se referir a:
-   * Regras de processamento, uma forma de alterar a coleta de dados usando determinadas regras no Admin Console. Consulte [Regras de Processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) no guia do usuário Administração
+   * Regras de processamento, uma forma de alterar a coleta de dados usando determinadas regras no Admin Console. Consulte [Regras de Processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) no guia do usuário Administração
    * Regras de processamento de canal de marketing, um conjunto de regras que determina a qual canal de marketing um hit pertence. Consulte [Regras de Processamento do canal de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) no guia do usuário Administração
 * **Prop:** consulte Variável de tráfego.
 * **Relatório classificado:** um formato de relatório que normalmente segue uma dimensão com uma métrica. Esse tipo de relatório permite que você veja os principais itens, como as páginas mais visualizadas do site. Consulte também Relatório de tendências.
@@ -110,7 +110,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Usuário suportado:** consulte Delegado de suporte ao cliente.
 * **Variável de tráfego:** também conhecida como props. Armazena um valor personalizado para um único hit. As versões anteriores do Adobe Analytics davam valor único às props, mas as melhorias na plataforma tornam as variáveis de tráfego personalizadas amplamente desnecessárias. A Adobe recomenda usar variáveis de conversão personalizadas (eVars) na maioria dos casos. Consulte a dimensão [Prop](/help/components/dimensions/prop.md) no guia do usuário Componentes.
 * **Relatório de tendências:** um formato de relatório que normalmente mostra vários intervalos de datas com uma métrica. Esse tipo de relatório permite que você veja como uma métrica é executada ao longo do tempo. Consulte também Relatório classificado.
-* **Visitante único**: representa o número de indivíduos únicos que visitaram seu site. Um visitante único pode ter várias visitas. Consulte a métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) no guia do usuário Componentes.
+* **Visitante único**: representa o número de pessoas únicas que visitaram seu site. Um visitante único pode ter várias visitas. Consulte a métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) no guia do usuário Componentes.
 * **Conjunto de relatórios virtuais:** um contêiner virtual de dados que faz referência a um conjunto de relatórios normal e permite o refinamento de dados. Os dados não são enviados a um conjunto de relatórios virtual; em vez disso, os dados são enviados a um conjunto de relatórios normal e um conjunto de relatórios virtual é construído a partir desses dados coletados. Consulte [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md) no guia do usuário Componentes.
 * **Visita:** representa o número de sessões únicas que ocorreram no site. Consulte a métrica [Visitas](/help/components/metrics/visits.md) no guia do usuário Componentes.
 * **Regra VISTA:** Lógica personalizada criada pela Adobe a pedido de um cliente para copiar, analisar ou filtrar dados do lado do servidor. Normalmente, as regras VISTA acarretam custos adicionais. Consulte também Regras de processamento.

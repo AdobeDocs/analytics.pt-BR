@@ -4,7 +4,7 @@ description: Descreve o que é uma colisão de hash e como ela pode ocorrer.
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 6%
@@ -42,6 +42,6 @@ Semelhante ao [paradoxo de aniversário](https://en.wikipedia.org/wiki/Birthday_
 A maioria das colisões de hash ocorre com dois valores incomuns, que não têm impacto significativo nos relatórios. Mesmo que um hash colida com um valor comum e incomum, o resultado é insignificante. No entanto, em casos raros em que dois valores populares experimentam uma colisão de hash, é possível ver seu efeito claramente. A Adobe recomenda o seguinte para reduzir seu efeito nos relatórios:
 
 * **Alterar intervalo de datas**: as tabelas de hash mudam a cada mês. Alterar o intervalo de datas para abranger outro mês pode dar a cada valor hashes diferentes que não colidem.
-* **Reduza o número de valores únicos**: você pode ajustar sua implementação ou usar [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para ajudar a reduzir o número de valores únicos que uma dimensão coleta. Por exemplo, se a dimensão coletar um URL, você poderá remover cadeias de caracteres de consulta ou protocolo.
+* **Reduza o número de valores únicos**: você pode ajustar sua implementação ou usar [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) para ajudar a reduzir o número de valores únicos que uma dimensão coleta. Por exemplo, se a dimensão coletar um URL, você poderá remover cadeias de caracteres de consulta ou protocolo.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

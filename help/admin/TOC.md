@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: 0bed2622f54bf2f46aa57dbfad7bd55a61d6c7d0
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 98%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 100%
    + [Logs](admin/logs.md)
    + Gerenciador de atividades de relatórios {#reporting-activity-manager}
       + [Visão geral](admin/reporting-activity-manager/reporting-activity-overview.md)
-      + [Exibir atividade de relatórios](admin//reporting-activity-manager/reporting-activity.md)
-      + [Cancelar solicitações de relatórios](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
+      + [Exibir atividade de relatório](admin//reporting-activity-manager/reporting-activity.md)
+      + [Cancelar solicitações de geração de relatórios](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
    + Migração de componentes {#component-migration}
       + [Preparar para migração](admin/component-migration/prepare-component-migration.md)
       + [Fluxo de trabalho de migração](admin/component-migration/component-migration.md)
@@ -47,27 +47,13 @@ ht-degree: 100%
             + Detecção de pesquisa paga {#paid-search-detection}
                + [Visão geral da detecção de pesquisa paga](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configurar a detecção de pesquisa paga](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + Regras de processamento {#c-processing-rules}
-               + [Visão geral das regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + Regras de processamento {#c-processing-rules-configuration}
-                  + [Como as regras de processamento funcionam](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-                  + [Criar regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-                  + [Exibir as regras de processamento ativas](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-                  + [Exibir o histórico das regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-                  + [Restaurar as regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-                  + [Cópia das regras de processamento para outro conjunto de relatórios](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-                  + [Dimensões disponíveis para as regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
-               + Exemplos de regras de processamento {#processing-rules-examples}
-                  + [Exemplos de regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-                  + [Preenchimento de uma ID de campanha a partir de um parâmetro da cadeia de caracteres de consulta](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-                  + [Definir o evento de exibição de produto na página Visão geral do produto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-                  + [Adicionar uma subcategoria pela concatenação da categoria e do nome da página](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-                  + [Limpar valores em um relatório](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-                  + [Preencher termos de pesquisa interna usando um parâmetro da cadeia de caracteres de consulta](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-                  + [Copiar uma variável de dados de contexto para uma eVar](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-                  + [Definir um evento usando uma variável de dados de contexto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-                  + [Remover um evento de uma ocorrência](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-               + [Dicas e truques para regras de processamento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + Regras de processamento {#processing-rules}
+               + [Visão geral](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+               + [Interface](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
+               + [Visualizar histórico](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)
+               + [Copiar regras](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
+               + [Dimensões e métricas disponíveis](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
+               + [Casos de uso](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-use-cases.md)
             + Regras de bot {#bot-removal}
                + [Remoção de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [Noções básicas e configuração de regras de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
@@ -77,7 +63,7 @@ ht-degree: 100%
             + [Configuração de carimbos de data e hora](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + Encaminhamento pelo lado do servidor {#server-side-forwarding}
                + [Visão geral do encaminhamento pelo lado do servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
-               + [Conformidade com o GDPR/ePrivacy e o encaminhamento pelo lado do servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
+               + [Conformidade com o RGPD/ePrivacy e o encaminhamento pelo lado do servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
                + [Requisitos do encaminhamento pelo lado do servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
                + [Referência de dados e de código do encaminhamento pelo lado do servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
                + [Como verificar a implementação do encaminhamento pelo lado do servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
