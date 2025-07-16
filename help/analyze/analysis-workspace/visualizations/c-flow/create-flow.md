@@ -4,10 +4,10 @@ title: Configurar Uma Visualização De Fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
 workflow-type: tm+mt
-source-wordcount: '1658'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -138,7 +138,9 @@ Para detalhar ainda mais os dados, você tem várias opções:
 
 * O diagrama de fluxo é interativo. Passe o mouse sobre o diagrama para alterar os detalhes exibidos.
 
-* Ao clicar em um nó no diagrama, os detalhes dele são exibidos. Clique no nó novamente para recolhê-lo.
+* Quando você seleciona um nó no diagrama, os detalhes dele são exibidos. Clique no nó novamente para recolhê-lo.
+
+  Deixar vários nós expandidos em uma visualização de fluxo pode afetar o tempo do relatório. Como diretriz geral, não mais do que 10 nós devem permanecer expandidos em um determinado momento.
 
   ![Exemplo de diagrama de fluxo interativo mostrando detalhes do nó.](assets/node-details.png)
 
@@ -202,8 +204,8 @@ No exemplo abaixo, **todas** as ocorrências de *Categoria principal do produto*
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização em um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 
