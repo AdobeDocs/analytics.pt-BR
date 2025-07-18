@@ -5,10 +5,10 @@ title: Exemplo de intervalos de datas personalizados
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
+source-git-commit: 8cca98257aeb89226863beed69b4785166141b0c
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 4%
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Você deseja definir um intervalo de datas personalizado que define dois meses a
 
 +++ Detalhes
 
-Você deseja definir um intervalo de datas que defina o período entre o dia atual uma semana atrás até o final da mesma semana passada. Por exemplo, se hoje for quarta-feira, 11 de setembro de 2024. Você deseja um intervalo de datas de quarta-feira, 4 de setembro de 2024, a sábado, 7 de setembro de 2024. Setembro
+Você deseja definir um intervalo de datas que defina o período entre o dia atual uma semana atrás até o final da mesma semana passada. Por exemplo, se hoje for quarta-feira, 11 de setembro de 2024. Você deseja um intervalo de datas de quarta-feira, 4 de setembro de 2024, a sábado, 7 de setembro de 2024.
 
 ![Exemplo de intervalo de datas](assets/date-range-example.png)
 
