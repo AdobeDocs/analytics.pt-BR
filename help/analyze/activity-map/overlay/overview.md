@@ -1,18 +1,18 @@
 ---
-description: Saiba mais sobre a extensão Activity Map e como navegar em sua interface.
-title: interface de extensão do Activity Map
+description: Saiba mais sobre a extensão do Activity Map e como navegar em sua interface.
+title: Interface de extensão do Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
 
-# interface de extensão do Activity Map
+# Interface de extensão do Activity Map
 
 A interface de extensão do Activity Map é composta de duas partes:
 
@@ -22,7 +22,7 @@ A interface de extensão do Activity Map é composta de duas partes:
 
 ## Painel superior
 
-O painel superior contém os controles básicos para a sobreposição de Activity Map.
+O painel superior contém os controles básicos para a sobreposição do Activity Map.
 
 ![Sobreposição](../assets/overlay.png)
 
@@ -30,7 +30,7 @@ Ele oferece as seguintes configurações:
 
 * **Modo de exibição Padrão/Dinâmico**: alterna entre modo de exibição padrão e modo de exibição dinâmico.
    * Exibição padrão: mostra a sobreposição com base em dados históricos.
-   * Visualização em tempo real: mostra a sobreposição com base nos dados em tempo real. O seletor de datas muda para uma lista suspensa que permite alterar a granularidade dos dados em tempo real.
+   * Visualização em tempo real: mostra a sobreposição com base nos dados em tempo real. O seletor de datas muda para um menu suspenso que permite alterar a granularidade dos dados em tempo real.
 * **Seletor de métrica**: permite alterar a métrica relatada pela sobreposição. Apenas [!UICONTROL Cliques de link] estarão disponíveis se você tiver a exibição em tempo real selecionada.
 * **Seletor de segmentos**: permite selecionar um [segmento](/help/components/segmentation/seg-overview.md), exibindo um subconjunto de dados dentro da sobreposição. Os segmentos não estão disponíveis na visualização em tempo real.
 * **Tipo de visualização de sobreposição**: permite que você altere como a sobreposição visualiza a classificação dos links.
@@ -46,10 +46,10 @@ O cabeçalho desse painel contém as seguintes configurações:
 * **[!UICONTROL Mostrar configurações]**: abre um menu para configurações que você pode alterar (ícone de engrenagem):
    * **[!UICONTROL Configurações]**: abre as [Configurações](settings.md) da extensão.
    * **[!UICONTROL Ajuda]**: abre a documentação para o Experience League (esta página).
-   * **[!UICONTROL comunidade do Adobe]**: abre a [comunidade do Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=pt).
+   * **[!UICONTROL Comunidade Adobe]**: abre a [comunidade Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=pt).
    * **[!UICONTROL Sobre]**: exibe a versão da extensão.
    * **[!UICONTROL Logout]**: encerra sua sessão da extensão, exigindo que você entre novamente.
-* **[!UICONTROL Encerrar Activity Map]**: fecha todas as sobreposições da extensão (ícone X).
+* **[!UICONTROL Sair do Activity Map]**: fecha todas as sobreposições da extensão (ícone X).
 
 ## Sobreposição de página
 
@@ -72,7 +72,7 @@ O painel inferior mostra uma exibição agregada dos links exibidos na sobreposi
 
 O relatório **[!UICONTROL Links na página]** mostra um relatório básico do espaço de trabalho com as seguintes configurações:
 
-* A dimensão [link](/help/components/dimensions/activity-map-link.md) do Activity Map
+* A dimensão [Link do Activity Map](/help/components/dimensions/activity-map-link.md)
 * A métrica [Ocorrências](/help/components/metrics/occurrences.md) (rotulada como **[!UICONTROL Cliques de link]**)
 * O valor de [Página](/help/components/dimensions/page.md) atual aplicado como um segmento
 

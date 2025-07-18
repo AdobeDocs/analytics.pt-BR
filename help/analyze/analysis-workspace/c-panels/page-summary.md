@@ -4,10 +4,10 @@ title: Painel Resumo da página
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 96%
+source-wordcount: '642'
+ht-degree: 90%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Painel de resumo da página"
->abstract="Revise rapidamente algumas das métricas de alto nível, bem como o movimento de e para uma página específica.<br/><br/>**Parâmetros &#x200B;**<br/>**Adicionar um item da dimensão página**: abra o painel de componentes, localize a dimensão Página e expanda-a clicando na cenoura para ver os itens de dimensão. Em seguida, arraste e solte a página específica sobre a qual deseja ter conhecimento no construtor. Após arrastar e soltar o item de dimensão, o relatório será preenchido automaticamente com informações importantes sobre a página."
+>abstract="Revise rapidamente algumas das métricas de alto nível, bem como o movimento de e para uma página específica.<br/><br/>**Parâmetros **<br/>**Adicionar um item da dimensão página**: abra o painel de componentes, localize a dimensão Página e expanda-a clicando na cenoura para ver os itens de dimensão. Em seguida, arraste e solte a página específica sobre a qual deseja ter conhecimento no construtor. Após arrastar e soltar o item de dimensão, o relatório será preenchido automaticamente com informações importantes sobre a página."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel de resumo da página no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artigo é sobre o painel de resumo da página no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ Para usar um painel de **[!UICONTROL resumo da página]**:
 
 | Entrada | Descrição |
 | --- | --- |
-| **[!UICONTROL Página]** | Selecione uma dimensão de página para a página cujas estatísticas principais você deseja verificar. |
+| **[!UICONTROL Página]** | Selecione uma dimensão de página para a qual você deseja explorar as principais estatísticas. Por exemplo, **[!UICONTROL página inicial]** para explorar estatísticas da Página inicial. Use o menu suspenso para selecionar uma página ou comece a digitar (por exemplo, `home`) para procurar páginas rapidamente. |
 
 {style="table-layout:auto"}
 
