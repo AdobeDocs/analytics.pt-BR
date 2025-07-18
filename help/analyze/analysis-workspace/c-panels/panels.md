@@ -79,7 +79,7 @@ Para criar um painel:
 
 ## Conjunto de relatórios
 
-Cada painel é associado a um [conjunto de relatórios](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado pelo nome ![Dados](/help/assets/icons/Data.svg) **[!UICONTROL *do conjunto de relatórios *]**no menu suspenso, localizado no canto superior direito do painel.
+Cada painel é associado a um [conjunto de relatórios](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado pelo nome ![Dados](/help/assets/icons/Data.svg) **[!UICONTROL *do conjunto de relatórios *]**&#x200B;no menu suspenso, localizado no canto superior direito do painel.
 
 Ao criar um novo painel, o conjunto de relatórios padrão se baseia no conjunto de relatórios do painel que você utilizou pela última vez no projeto do Analysis Workspace.
 
