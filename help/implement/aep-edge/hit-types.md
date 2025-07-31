@@ -33,4 +33,4 @@ Além de diferenciar exibições de página e cliques em links, a seguinte lógi
 | `xdm.eventType = click` ou `xdm.eventType = decisioning.propositionInteract` e `xdm._experience.decisioning` e nenhum `web.webInteraction.type` | considera a carga uma chamada **A4T**. |
 | `xdm.eventType = click` ou `xdm.eventType = decisioning.propositionInteract` e nenhum `xdm._experience.decisioning` e nenhum `web.webInteraction.type` | O elimina a carga e ignora os dados. |
 
-Consulte o [Grupo de campos de esquema de extensão completa de ExperienceEvent do Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) para mais informações.
+Consulte o [Grupo de campos de esquema de extensão completa de ExperienceEvent do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) para mais informações.
