@@ -1,18 +1,18 @@
 ---
 description: Saiba como definir intervalos de datas personalizados no Analysis Workspace.
 keywords: Analysis Workspace
-title: Exemplo de intervalos de datas personalizados
+title: Exemplos de intervalos de datas personalizados
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 source-git-commit: 8cca98257aeb89226863beed69b4785166141b0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Exemplo de intervalos de datas personalizados
+# Exemplos de intervalos de datas personalizados
 
 Este artigo mostra mais exemplos de intervalos de datas personalizados.
 
@@ -22,18 +22,18 @@ Este artigo mostra mais exemplos de intervalos de datas personalizados.
 
 +++ Detalhes
 
-Você deseja definir um intervalo de datas personalizado que define dois meses atrás. Use uma das predefinições.
+Você deseja definir um intervalo de datas personalizado que abrange os últimos dois meses. Use uma das predefinições.
 
-![Últimos 2 meses atrás](assets/date-range-example-simple.png)
+![Há dois meses](assets/date-range-example-simple.png)
 
 +++
 
 
-## Em andamento até o final da semana passada
+## Contínuo até o final da semana passada
 
 +++ Detalhes
 
-Você deseja definir um intervalo de datas que defina o período entre o dia atual uma semana atrás até o final da mesma semana passada. Por exemplo, se hoje for quarta-feira, 11 de setembro de 2024. Você deseja um intervalo de datas de quarta-feira, 4 de setembro de 2024, a sábado, 7 de setembro de 2024.
+Você deseja definir um intervalo de datas que abrange o período entre o dia atual na semana passada até o final dessa mesma semana. Por exemplo, se hoje for quarta-feira, 11 de setembro de 2024. O intervalo de datas desejado abrange desde quarta-feira, 4 de setembro de 2024, até sábado, 7 de setembro de 2024.
 
 ![Exemplo de intervalo de datas](assets/date-range-example.png)
 

@@ -4,9 +4,9 @@ title: Métricas calculadas padrão
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
 source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Veja a seguir uma lista de cada métrica calculada fornecida pela Adobe, com sua
 
 >[!TIP]
 >
->Use o [Dicionário de Dados](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) para inspecionar com mais detalhes a definição de uma métrica calculada padrão e os componentes individuais que compõem essa definição.
+>Use o [Dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) para inspecionar com mais detalhes a definição de uma métrica calculada padrão e os componentes individuais que compõem essa definição.
 >
 
 
