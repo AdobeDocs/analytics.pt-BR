@@ -4,9 +4,9 @@ description: Saiba mais sobre o fluxo de trabalho geral do uso de fontes de dado
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: 1d905aa47b4573a35012d56c0cf70fbc944bc972
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '397'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 As fontes de dados de ID de transação são uma variação das fontes de dados de resumo que permitem unir dados online e offline. Ela requer o uso da variável [`transactionID`](/help/implement/vars/page-vars/transactionid.md) na implementação do Analytics.
 
-* Se uma linha em um arquivo de fontes de dados incluir uma ID de transação que corresponda a uma ID de transação já coletada pelo AppMeasurement, as dimensões e métricas serão anexadas à ocorrência online.
+* Se uma linha em um arquivo de fontes de dados incluir uma ID de transação que corresponda a uma ID de transação já coletada pela AppMeasurement, as dimensões e métricas serão anexadas à ocorrência online.
 * Se uma linha em um arquivo de origens de dados incluir uma ID de transação que não contenha uma correspondência, a linha será tratada de forma semelhante às origens de dados de resumo.
 
 >[!NOTE]
@@ -27,12 +27,11 @@ Ao enviar uma ocorrência online que contém um valor [`transactionID`](/help/im
 As fontes de dados de ID de transação têm as seguintes propriedades:
 
 * Os dados online devem ser coletados e processados primeiro. Se uma fonte de dados de ID de transação for carregada antes de um conjunto de relatórios processar uma ocorrência correspondente a essa ID de transação, os dados não serão vinculados.
-* As IDs de transação coletadas por meio do AppMeasurement expiram após 25 meses.
+* As IDs de transação coletadas pelo AppMeasurement expiram após 25 meses.
 * As fontes de dados carregadas com uma ID de transação expirada são tratadas de forma semelhante aos dados carregados sem uma ID de transação.
-* Se a mesma variável for incluída na ocorrência online e na fonte de dados da ID de transação, o valor da fonte de dados da ID de transação será usado.
+* Se a mesma variável for incluída na ocorrência online e na fonte de dados da ID de transação, o valor da fonte de dados da ID de transação será usado na ocorrência da fonte de dados da transação.
 * Se uma variável for incluída em uma ocorrência online, mas não em uma ocorrência de fonte de dados de ID de transação correspondente, a variável de ocorrência online será preservada.
 * Se você definir a mesma ID de transação em várias ocorrências online, somente a primeira ocorrência será alterada com dados de uma fonte de dados de ID de transação correspondente.
-* Se você definir a mesma ID de transação em várias linhas de fonte de dados para as mesmas dimensões, o item de dimensão mais recente será usado.
 
 Por exemplo:
 
@@ -52,4 +51,4 @@ Por exemplo:
    * `eVar3` é igual a `bird`
    * `events` é igual a `event2`
 
-O valor de eVar 1 `blue` e a métrica `event1` não estão presentes no relatório, pois a ocorrência da ID de transação substituiu esses respectivos valores.
+O valor de eVar1 `blue` e a métrica `event1` não estão presentes no relatório, pois a ocorrência da ID de transação substituiu esses respectivos valores.
