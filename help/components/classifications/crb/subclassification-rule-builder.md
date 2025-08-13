@@ -3,7 +3,7 @@ description: Use subclassificações com o construtor de regras de classificaç�
 title: Subclassificações e o Construtor de regras
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -11,6 +11,8 @@ ht-degree: 66%
 ---
 
 # Subclassificações e o construtor de regras (herdado)
+
+{{classification-rulebuilder-deprecation}}
 
 É possível combinar o Construtor de regras de classificação com subclassificações se você garantir que cada subclassificação tenha um valor principal.
 
@@ -61,7 +63,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    Exemplo:
 
-   | Chave | Canal | Código de campanha ampla | Código de campanha&Hat;Tipo de campanha | Código de campanha&Hat;Diretor de campanha | ... |
+   | Chave | Canal | Código de campanha ampla | Código de campanha&amp;Hat;Tipo de campanha | Código de campanha&amp;Hat;Diretor de campanha | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marca | Suzanne |  |
    | &#42; |  | 222 | Marca | Frank |  |

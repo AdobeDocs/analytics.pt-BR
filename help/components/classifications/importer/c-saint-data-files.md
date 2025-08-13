@@ -3,7 +3,7 @@ description: O importador permite que você faça upload em massa de dados de cl
 title: Arquivos de dados de classificação
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 90%
@@ -11,6 +11,8 @@ ht-degree: 90%
 ---
 
 # Arquivos de dados de classificação (herdados)
+
+{{classification-importer-deprecation}}
 
 O importador permite que você faça upload em massa de dados de classificação para relatórios de análise em um arquivo. A importação exige um formato de arquivo específico para fazer upload de dados de maneira bem-sucedida.
 

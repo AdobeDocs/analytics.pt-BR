@@ -3,7 +3,7 @@ title: Solução de problemas do importador de classificação
 description: Problemas comuns de upload ao usar o importador de classificação.
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 96%
@@ -11,6 +11,8 @@ ht-degree: 96%
 ---
 
 # Solução de problemas do importador de classificação
+
+{{classification-importer-deprecation}}
 
 Os problemas mais comuns ao fazer upload de dados de classificação para a Adobe.
 

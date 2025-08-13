@@ -3,7 +3,7 @@ description: Definições de elementos de interface nas páginas no Construtor d
 title: Regras de classificação - definições
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 94%
@@ -11,6 +11,8 @@ ht-degree: 94%
 ---
 
 # Definições de regra de classificação (herdada)
+
+{{classification-rulebuilder-deprecation}}
 
 Definições de elementos de interface nas páginas no Construtor de regras de classificação.
 

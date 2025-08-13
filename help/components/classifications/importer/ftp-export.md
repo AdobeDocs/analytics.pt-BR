@@ -3,7 +3,7 @@ title: Exportação de dados de classificação via FTP
 description: A exportação de FTP oferece mais flexibilidade com downloads de conjuntos de dados, incluindo o download de dados de vários conjuntos de relatórios e o download de arquivos de conjuntos de dados com mais de 50.000 linhas de dados
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 99%
@@ -11,6 +11,8 @@ ht-degree: 99%
 ---
 
 # Exportação de FTP (herdado)
+
+{{classification-importer-deprecation}}
 
 A opção FTP oferece mais flexibilidade ao fazer download de conjuntos de dados, incluindo a capacidade de fazer download de dados de vários conjuntos de relatórios, bem como de arquivos de conjuntos de dados com mais de 50.000 linhas de dados. Antes de baixar os dados de classificação via FTP, crie uma conta FTP.
 

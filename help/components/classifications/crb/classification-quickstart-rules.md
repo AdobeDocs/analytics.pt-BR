@@ -3,7 +3,7 @@ description: As regras de classificação buscam regularmente termos não classi
 title: Regras de classificação
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 90%
@@ -11,6 +11,8 @@ ht-degree: 90%
 ---
 
 # Regras de classificação (herdadas)
+
+{{classification-rulebuilder-deprecation}}
 
 As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
 
@@ -133,7 +135,7 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |---|---|---|---|
-| Expressão regular | &Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
+| Expressão regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
 
 **Sintaxe**
 

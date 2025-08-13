@@ -3,7 +3,7 @@ description: Em vez de manter e fazer upload das classificações sempre que seu
 title: Fluxo de trabalho do criador de regras de classificação
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 86%
@@ -12,11 +12,13 @@ ht-degree: 86%
 
 # Visão geral do construtor de regras de classificação (herdado)
 
+{{classification-rulebuilder-deprecation}}
+
 Em vez de manter e fazer upload das classificações sempre que seus códigos de acompanhamento forem alterados, é possível criar classificações automáticas baseadas em regras e aplicá-las em vários conjuntos de relatórios. As regras são processadas durante intervalos frequentes, dependendo do seu volume de tráfico relacionado de classificação.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Construtor de regras de classificação](https://video.tv.adobe.com/v/3434379?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Construtor de regras de classificação](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
