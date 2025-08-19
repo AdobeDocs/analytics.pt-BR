@@ -1,20 +1,20 @@
 ---
-title: Métricas principais de mídia de transmissão
+title: Métricas principais dos serviços de mídia de transmissão
 description: Métricas disponíveis ao habilitar o [!UICONTROL Media Core] para um conjunto de relatórios.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
 
-# Métricas principais de mídia de transmissão
+# Métricas principais dos serviços de mídia de transmissão
 
-*Esta página descreve as métricas disponíveis quando você habilita o [!UICONTROL Media Core] para um conjunto de relatórios. Consulte [dimensões principais de mídia de streaming](../dimensions/sm-core.md) para ver as dimensões disponíveis.*
+*Esta página descreve as métricas disponíveis quando você habilita o [!UICONTROL Media Core] para um conjunto de relatórios. Consulte [Dimensões principais dos serviços de mídia de streaming](../dimensions/sm-core.md) para ver as dimensões disponíveis.*
 
-As métricas principais de mídia de transmissão fornecem a funcionalidade básica de relatórios para dados coletados por meio de bibliotecas de coleção de mídia de transmissão. O uso destas métricas requer a **[!UICONTROL Coleção de Mídia de Streaming de Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
+As métricas principais dos serviços de mídia de transmissão fornecem funcionalidade básica de relatórios para dados coletados por meio de bibliotecas de coleção de serviços de mídia de transmissão. O uso dessas métricas exige o **[!UICONTROL Complemento de mídia do Adobe Analytics para streaming]**. Entre em contato com a equipe de conta da Adobe para obter mais detalhes.
 
 Quando você habilita o **[!UICONTROL Media Core]** em [Media Reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), as seguintes métricas estão disponíveis:
 

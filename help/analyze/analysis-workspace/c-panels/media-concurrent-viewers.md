@@ -4,10 +4,10 @@ description: Saiba como usar e interpretar o painel Visualizadores simultâneos 
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 98%
+source-wordcount: '1241'
+ht-degree: 95%
 
 ---
 
@@ -35,16 +35,16 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Visualizadores simultâneos de mídia no_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel Visualizadores simultâneos de mídia](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre o painel Visualizadores simultâneos de mídia no_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel Visualizadores simultâneos de mídia](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->O painel Público médio a cada minuto de mídia está disponível somente para clientes que compraram o complemento Coleção de mídia de streaming para o Adobe Analytics.
+>O painel Público-alvo médio por minuto de mídia está disponível somente para clientes que compraram o complemento Adobe Analytics para mídia de streaming.
 >
->Entre em contato com o(a) representante de vendas ou com a equipe de contas da Adobe para obter mais informações.
+>Entre em contato com o representante de vendas da Adobe ou com a equipe de conta da Adobe para obter mais informações.
 >
 
 O painel **[!UICONTROL Visualizadores simultâneos de mídia]** permite a análise de visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de detalhar e comparar.  
@@ -56,7 +56,7 @@ No Analysis Workspace, Visualizadores simultâneos é o número de visitantes ú
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [painel Visualizadores simultâneos de mídia](https://video.tv.adobe.com/v/342840?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [painel Visualizadores simultâneos de mídia](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Para usar um painel **[!UICONTROL Visualizadores simultâneos de mídia]**:
 
 1. Cria um painel **[!UICONTROL Visualizadores simultâneos de mídia]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
 
-1. Selecione uma exibição de dados para o painel que tenha componentes configurados da Coleção de mídia de transmissão.
+1. Selecione uma visualização de dados para o painel que tem componentes configurados no complemento Adobe Analytics para mídia de streaming.
 
 1. Especifique a [entrada](#panel-input) do painel.
 
@@ -131,8 +131,8 @@ Uma tabela de forma livre não está disponível nessa visualização.  Para exi
 >[!MORELIKETHIS]
 >
 >[Criar um painel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Painel de tempo gasto na reprodução de mídia](media-playback-time-spent.md)
->&#x200B;>[Painel de média de público-alvo por minuto de mídia](average-minute-audience-panel.md)
+>>[Painel de tempo gasto na reprodução de mídia](media-playback-time-spent.md)
+>>[Painel de média de público-alvo por minuto de mídia](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342840/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

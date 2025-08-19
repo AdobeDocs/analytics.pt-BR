@@ -1,20 +1,20 @@
 ---
-title: Métricas de qualidade de mídia de transmissão
+title: Métricas de qualidade de serviços de mídia de transmissão
 description: Métricas disponíveis ao habilitar a [!UICONTROL Qualidade de mídia] para um conjunto de relatórios.
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
 
-# Métricas de qualidade de mídia de transmissão
+# Métricas de qualidade de serviços de mídia de transmissão
 
-*Esta página descreve as métricas disponíveis quando você habilita a [!UICONTROL Qualidade de Mídia] para um conjunto de relatórios. Consulte [dimensões de qualidade de streaming de mídia](../dimensions/sm-quality.md) para ver as dimensões disponíveis.*
+*Esta página descreve as métricas disponíveis quando você habilita a [!UICONTROL Qualidade de Mídia] para um conjunto de relatórios. Consulte [Dimensões de qualidade dos serviços de mídia de streaming](../dimensions/sm-quality.md) para ver as dimensões disponíveis.*
 
-As métricas de qualidade de mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleção de dados por meio de bibliotecas de coleção de mídia de transmissão. O uso destas métricas requer a **[!UICONTROL Coleção de Mídia de Streaming de Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
+As métricas de qualidade dos serviços de mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleta de dados por meio de bibliotecas de serviços de mídia de transmissão. O uso dessas métricas exige o **[!UICONTROL Complemento de mídia do Adobe Analytics para streaming]**. Entre em contato com a equipe de conta da Adobe para obter mais detalhes.
 
 Quando você habilita a **[!UICONTROL Qualidade de mídia]** em [Relatórios de mídia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), as seguintes métricas estão disponíveis:
 
@@ -31,4 +31,4 @@ Quando você habilita a **[!UICONTROL Qualidade de mídia]** em [Relatórios de 
 | Fluxos afetados por quedas de quadros | Um booleano que é acionado quando qualquer quadro é descartado durante uma sessão de reprodução. | Fechamento de mídia | `a.media.qoe.droppedFrames` |
 | Fluxos afetados pelo erro | Um booleano que é acionado quando um vídeo apresenta um erro a qualquer momento durante uma sessão de reprodução. | Fechamento de mídia | `a.media.qoe.error` |
 | Eventos de erro | Um número inteiro que representa o número total de erros encontrados durante uma sessão de reprodução. | Fechamento de mídia | `a.media.qoe.errorCount` |
-| Hora de início | O tempo gasto para iniciar um vídeo, em milissegundos. Adobe converte e armazena esse valor em segundos. | Fechamento de mídia | `a.media.qoe.timeToStart` |
+| Hora de início | O tempo gasto para iniciar um vídeo, em milissegundos. O Adobe converte e armazena esse valor em segundos. | Fechamento de mídia | `a.media.qoe.timeToStart` |

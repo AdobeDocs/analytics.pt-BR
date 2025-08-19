@@ -4,10 +4,10 @@ description: Saiba como usar e interpretar o painel Tempo gasto com a reproduç�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 98%
+source-wordcount: '1167'
+ht-degree: 90%
 
 ---
 
@@ -34,22 +34,23 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Tempo gasto com a reprodução de mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel de tempo gasto com a reprodução de mídia](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre o painel Tempo gasto com a reprodução de mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel de tempo gasto com a reprodução de mídia](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->O painel Público médio a cada minuto de mídia está disponível somente para clientes que compraram o complemento Coleção de mídia de streaming para o Adobe Analytics.
->&#x200B;>Entre em contato com o(a) representante de vendas ou com a equipe de contas da Adobe para obter mais informações.
+>O painel Público-alvo médio por minuto de mídia está disponível somente para clientes que compraram o complemento Adobe Analytics para mídia de streaming.
+>
+>Entre em contato com o representante de vendas da Adobe ou com a equipe de conta da Adobe para obter mais informações.
 >
 
 O painel **[!UICONTROL Tempo gasto com a reprodução de mídia]** permite analisar a reprodução ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de detalhar e comparar. 
 
 No Analysis Workspace, o tempo gasto com a reprodução é a quantidade de tempo gasta com a visualização de fluxos de mídia em um ponto específico no tempo. Inclui pausa, buffer e inicialização.
 
-Clientes que adquiriram o complemento Coleção de mídia de streaming podem analisar o tempo gasto com a reprodução para obter insights valiosos sobre a qualidade do conteúdo e o engajamento do visualizador. E para ajudar na solução de problemas ou no planejamento de volume ou escala.
+Os clientes que compraram o complemento Adobe Analytics para mídia de streaming podem analisar o tempo de reprodução gasto para obter um insight valioso em qualidade de conteúdo e envolvimento do visualizador. E para ajudar na solução de problemas ou no planejamento de volume ou escala.
 
 O tempo gasto com a reprodução pode ajudar a entender:
 
@@ -69,7 +70,7 @@ Para usar um painel **[!UICONTROL Tempo gasto com a reprodução da mídia]**:
 
 1. Crie um painel **[!UICONTROL Tempo gasto com a reprodução da mídia]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
 
-1. Selecione uma exibição de dados para o painel que tenha componentes configurados da Coleção de mídia de transmissão.
+1. Selecione uma visualização de dados para o painel que tem componentes configurados no complemento Adobe Analytics para mídia de streaming.
 
 1. Especifique a [entrada](#panel-input) do painel.
 
@@ -87,7 +88,7 @@ Você pode configurar o painel Tempo gasto com a reprodução de mídia usando e
 | Números de resumo do painel | Para visualizar os detalhes de data ou hora do tempo gasto com a reprodução, um número de resumo está disponível. O Máximo mostra detalhes para a simultaneidade de pico. O Mínimo mostra detalhes para o vale. O total soma o tempo total gasto com a reprodução para a seleção. O padrão do painel mostra somente o Máximo, mas você pode alterá-lo para mostrar Mínimo, Total ou qualquer combinação dos três.<br>Se você estiver usando detalhamentos, um número de resumo será exibido para cada um. |
 | Detalhamento por séries | Opcionalmente, é possível detalhar a visualização por filtros, dimensões, itens de dimensão ou intervalos de datas.<p>- É possível exibir até 10 linhas por vez. Os detalhamentos são limitados a um único nível.</p><p>- Ao arrastar uma dimensão, os itens de dimensão principais serão selecionados automaticamente com base no intervalo de datas do painel selecionado.</p>- Para comparar intervalos de datas, arraste dois ou mais intervalos de datas para o filtro de detalhamento por séries. |
 | Formato de tempo | É possível visualizar o tempo gasto com a reprodução em `Hours:Minutes:Seconds` (padrão) ou em `Minutes` (que é exibido em números inteiros, arredondados em 0,5). |
-| Exibição da sequência de data | Se você inseriu pelo menos dois filtros de intervalo de datas como detalhamentos por série, verá as opções Sobreposição (padrão) ou Sequencial. “Sobreposição” exibe as linhas com uma origem comum no eixo x para que evoluam em paralelo, enquanto que “Sequencial” exibe as linhas com suas origens específicas no eixo x. Se os dados se alinharem (por exemplo, o filtro 1 termina às 20:44 e o filtro 2 começa às 8:45), as linhas serão exibidas em sequência. |
+| Exibição da sequência de data | Se você inseriu pelo menos dois filtros de intervalo de datas como detalhamentos por série, verá as opções Sobreposição (padrão) ou Sequencial. “Sobreposição” exibe as linhas com uma origem comum no eixo x para que evoluam em paralelo, enquanto que “Sequencial” exibe as linhas com suas origens específicas no eixo x. Se os dados se alinharem (por exemplo, o filtro 1 termina às 20h e o filtro 2 começa às 20h), as linhas serão exibidas em sequência.:44:45 |
 
 
 ![A exibição padrão do Tempo gasto com a reprodução de mídia.](assets/mpts_default_view.png)
@@ -125,8 +126,8 @@ A única métrica que pode ser usada nesse painel é Tempo gasto com a reproduç
 >[!MORELIKETHIS]
 >
 >[Criar um painel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Painel de público-alvo médio a cada minuto de mídia](average-minute-audience-panel.md)
->&#x200B;>[Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md)
+>>[Painel de público-alvo médio a cada minuto de mídia](average-minute-audience-panel.md)
+>>[Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md)
 >
 
 <!--

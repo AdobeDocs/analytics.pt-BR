@@ -3,9 +3,9 @@ title: Compatibilidade de dimensões do Analytics
 description: Referência para dimensões e relatórios do Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 60%
 
 ---
@@ -18,7 +18,7 @@ Esta página lista [dimensões](overview.md) compatíveis com seus respectivos r
 >
 >Nomes personalizados de variáveis, classificações e atributos de visitante são omitidos nesta lista. Esses itens de dimensão são específicos de conjuntos de relatórios individuais.
 
-## Dimension compatível com o Analysis Workspace
+## Dimensões compatíveis com o Analysis Workspace
 
 | Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
 |---|---|
@@ -130,7 +130,7 @@ Esta página lista [dimensões](overview.md) compatíveis com seus respectivos r
 | [Protocolos de Rede Móvel](mobile-dimensions.md) | `mobilenetprotocols` |
 | [Push To Talk Para Dispositivos Móveis](mobile-dimensions.md) | `mobilepushtotalk` |
 | [Mês](month.md) | `daterangemonth` |
-| [Mês do Ano](month-of-year.md) | `timepartmonthofyear` |
+| [Mês do ano](month-of-year.md) | `timepartmonthofyear` |
 | [Tipos de sistema operacional](operating-system-types.md) | `operatingsystemgroup` |
 | [Pesquisa paga](paid-search.md) | `paidsearch` |
 | [Suporte a Cookies Persistentes](persistent-cookie-support.md) | `persistentcookie` |
@@ -157,7 +157,7 @@ Esta página lista [dimensões](overview.md) compatíveis com seus respectivos r
 
 ## Dimensões com reconhecimento de conteúdo compatíveis com o Analysis Workspace
 
-### Vídeo (a coleção de mídia de streaming)
+### Vídeo (Serviços de mídia de transmissão)
 
 | Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
 |--- |--- |
@@ -279,10 +279,10 @@ O Adobe Social foi descontinuado.
 
 | Nome da dimensão (visível na interface do usuário do Analytics) | ID da dimensão (usada em solicitações de API) |
 |--- |--- |
-| [Link Por Região](activity-map-link-by-region.md) Do Activity Map | `clickmaplinkbyregion` |
+| [Link Do Activity Map Por Região](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
 | [Região do Activity Map](activity-map-region.md) | `clickmapregion` |
-| [Activity Map Link](activity-map-link.md) | `clickmaplink` |
-| [Activity Map Página](activity-map-page.md) | `clickmappage` |
+| [Link do Activity Map](activity-map-link.md) | `clickmaplink` |
+| [Página do Activity Map](activity-map-page.md) | `clickmappage` |
 
 ### Integração Nielsen
 

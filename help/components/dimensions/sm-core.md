@@ -1,20 +1,20 @@
 ---
-title: Dimensões principais de mídia de transmissão
+title: Dimensões principais dos serviços de mídia de transmissão
 description: Dimensões disponíveis ao habilitar o [!UICONTROL Media Core] para um conjunto de relatórios.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 10%
+source-wordcount: '416'
+ht-degree: 9%
 
 ---
 
-# Dimensões principais de mídia de transmissão
+# Dimensões principais dos serviços de mídia de transmissão
 
-*Esta página descreve as dimensões disponíveis quando você habilita o [!UICONTROL Media Core] para um conjunto de relatórios. Consulte [Métricas principais de streaming de mídia](../metrics/sm-core.md) para ver as métricas disponíveis.*
+*Esta página descreve as dimensões disponíveis quando você habilita o [!UICONTROL Media Core] para um conjunto de relatórios. Consulte [Métricas principais dos serviços de mídia de streaming](../metrics/sm-core.md) para ver as métricas disponíveis.*
 
-As dimensões principais de mídia de transmissão fornecem funcionalidade básica de relatórios para dados coletados por meio de bibliotecas de coleção de mídia de transmissão. O uso dessas dimensões requer a **[!UICONTROL Coleção de Mídia de Streaming de Adobe]**. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
+As dimensões principais dos serviços de mídia de transmissão fornecem funcionalidade básica de relatórios para dados coletados por meio de bibliotecas de serviços de mídia de transmissão. O uso dessas dimensões requer o **[!UICONTROL Complemento de mídia do Adobe Analytics para streaming]**. Entre em contato com a equipe de conta da Adobe para obter mais detalhes.
 
 Quando você habilita o **[!UICONTROL Media Core]** em [Media Reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), as seguintes dimensões estão disponíveis:
 
