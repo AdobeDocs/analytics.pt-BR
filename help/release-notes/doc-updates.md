@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6505'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Agosto de 2025** | |
-| Avisos de descontinuação | Adicionados avisos de descontinuação aos artigos nas seções [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) e [Importador de classificação](/help/components/classifications/importer/c-working-with-saint.md). |
+| Avisos de descontinuação | Avisos de descontinuação foram adicionados aos artigos nas seções [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) e [Importador de classificações](/help/components/classifications/importer/c-working-with-saint.md). |
 | **Julho de 2025** | |
 | Regras de processamento | A documentação das regras de processamento foi refeita por completo e agora fornece mais detalhes sobre a interface e os casos de uso atuais. |
 | Depurador | Novo artigo sobre como habilitar, usar e desabilitar o depurador de projetos no Analysis Workspace. |
@@ -176,7 +176,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=pt-BR). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/classifications/sets/overview) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
