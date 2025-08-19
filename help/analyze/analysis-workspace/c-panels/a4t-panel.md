@@ -27,13 +27,13 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Painel do Analytics for Target"
->abstract="Analisar atividades e experiências do Target no Analysis Workspace.<br/><br>**Parâmetros **<br/>**Atividade do Target**: a atividade do Target que será analisada.<br/>**Experiência de controle**: experiência de controle da atividade do Target selecionada.<br/>**Métrica de normalização**: visitantes, visitas ou impressões. Essa métrica (também chamada de metodologia de contagem) torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”.<br/>**Métricas de sucesso**: até 3 métricas de sucesso padrão (não calculadas) para analisar a atividade do Target."
+>abstract="Analisar atividades e experiências do Target no Analysis Workspace.<br/><br>**Parâmetros &#x200B;**<br/>**Atividade do Target**: a atividade do Target que será analisada.<br/>**Experiência de controle**: experiência de controle da atividade do Target selecionada.<br/>**Métrica de normalização**: visitantes, visitas ou impressões. Essa métrica (também chamada de metodologia de contagem) torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”.<br/>**Métricas de sucesso**: até 3 métricas de sucesso padrão (não calculadas) para analisar a atividade do Target."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Analytics for Target do_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel de experimentação](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) para obter informações sobre como comparar diferentes variações de experiências de usuário, marketing ou mensagens no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_Este artigo é sobre o painel Analytics for Target do_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel de experimentação](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) para obter informações sobre como comparar diferentes variações de experiências de usuário, marketing ou mensagens no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
