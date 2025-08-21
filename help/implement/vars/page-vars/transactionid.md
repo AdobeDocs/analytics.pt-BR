@@ -4,24 +4,22 @@ description: Use essa variável para vincular dados online e offline.
 feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fc52bfaa13f7fc93ef53aa49746d432676b3d55f
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 89%
+source-wordcount: '405'
+ht-degree: 75%
 
 ---
 
 # transactionID
 
-A variável `transactionID` atribui uma identificação exclusiva a uma transação para que a ocorrência possa se vincular aos dados carregados por meio de Fontes de dados. Essa variável é importante quando você deseja usar dados de outros canais e quer vinculá-los aos dados coletados com o AppMeasurement.
+A variável `transactionID` identifica exclusivamente uma transação para que a ocorrência possa fornecer valores de dimensão aos dados carregados por meio de [fontes de dados de ID de transação](/help/import/data-sources/transactionid.md). Essa variável é importante nos casos em que você deseja preencher os dados do canal offline com valores coletados dos dados do canal online.
 
 >[!NOTE]
 >
 >Antes de usar essa variável, verifique se o [!UICONTROL Armazenamento da ID de transação] em um conjunto de relatórios está ativado. Consulte [Configurações gerais da conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) no Guia do usuário de administração para obter mais informações.
 
-Quando você configura `transactionID` em uma ocorrência, a Adobe captura uma &quot;imagem&quot; de todas as variáveis do Analytics definidas ou mantidas até o momento. Os dados carregados por meio das Fontes de Dados com um ID de transação correspondente são permanentemente vinculados a esses valores de variáveis.
-
-O Adobe lembra de todos os valores de IDs de transação (vinculados e desvinculados) por até 25 meses.
+Quando você configura `transactionID` em uma ocorrência, a Adobe captura uma &quot;imagem&quot; de todas as variáveis do Analytics definidas ou mantidas até o momento. Consulte [Fontes de dados de ID de transação](/help/import/data-sources/transactionid.md) para obter a lista de dimensões incluídas no instantâneo. O Adobe lembra de todos os valores de IDs de transação (vinculados e desvinculados) por até 25 meses.
 
 ## ID de transação usando o SDK da Web
 
