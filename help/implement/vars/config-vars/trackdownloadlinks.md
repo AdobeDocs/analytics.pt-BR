@@ -4,14 +4,14 @@ description: Ative ou desative o rastreamento automático de links para links de
 feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 59%
+source-wordcount: '336'
+ht-degree: 50%
 
 ---
 
-# trackDownLoadLinks
+# trackDownloadLinks
 
 A Adobe oferece a capacidade de rastrear links de download sem definir manualmente o método [`tl()`](../functions/tl-method.md) para cada link de download. Ative essa variável se desejar usar o rastreamento automático de links para links de download.
 
@@ -28,7 +28,7 @@ Use a caixa de seleção [!UICONTROL Habilitar coleta de dados de cliques] ao co
 
 ## Ativar ou desativar a coleção de cliques que implementa manualmente o Web SDK
 
-Configurar o SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR#clickCollectionEnabled). O campo é do tipo booleano e determina se os dados associados aos cliques em links são coletados automaticamente. O valor padrão é `true`. Defina esse valor como `false` se desejar desabilitar o rastreamento automático de links. Essa configuração lida com o rastreamento automático de links para links de download e de saída.
+Configurar o SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). O campo é do tipo booleano e determina se os dados associados aos cliques em links são coletados automaticamente. O valor padrão é `true`. Defina esse valor como `false` se desejar desabilitar o rastreamento automático de links. Essa configuração lida com o rastreamento automático de links para links de download e de saída.
 
 ```json
 alloy("configure", {
@@ -49,7 +49,7 @@ Clique na caixa de seleção para ativar o rastreamento automático de link de d
 
 ## s.trackDownloadLinks no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-`s.trackDownloadLinks` é uma variável do tipo booleano que ativa ou desativa o rastreamento automático de link de download. Se você não quiser rastrear links de download, ou se preferir chamar manualmente o método `tl()` para rastrear downloads, defina essa variável como `false`.
+`s.trackDownloadLinks` é uma variável do tipo booleano que ativa ou desativa o rastreamento automático de link de download. Se você não quiser rastrear links de download, ou se preferir chamar manualmente o método `tl()` para rastrear downloads, defina essa variável como `false`. A variável [linkDownloadFileTypes](linkdownloadfiletypes.md) também deve ser definida para que o rastreamento automático de link de download funcione.
 
 ```js
 s.trackDownloadLinks = true;
