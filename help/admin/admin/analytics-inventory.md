@@ -7,7 +7,7 @@ exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -40,7 +40,7 @@ O objetivo do inventário do Analytics é ajudá-lo a responder às seguintes pe
 
 ## Permissões
 
-O Inventário do Analytics está disponível para usuários com privilégios de Administrador de produto do Adobe Analytics no [Adobe Admin Console](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-console/admin-roles-in-analytics).
+O Inventário do Analytics está disponível para usuários com privilégios de Administrador de produto do Adobe Analytics no [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
 
 ## Acessar inventário do Analytics
 
@@ -81,7 +81,7 @@ Nesta versão inicial, você pode ver números resumidos do inventário para pro
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-data-config"
 >title="Configuração e coleta de dados"
->abstract="Esta seção mostra o número de conjuntos de relatórios no ambiente do Adobe Analytics, bem como o acesso aos serviços de mídia de transmissão."
+>abstract="Esta seção mostra o número de conjuntos de relatórios no seu ambiente do Adobe Analytics, bem como o seu acesso a serviços de mídia de streaming."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -112,10 +112,10 @@ As respostas dessas perguntas fornecerão uma boa ideia sobre quais conjuntos de
    | Ocorrências (últimos 90 dias) | A métrica “Ocorrências” exibe o número de ocorrências em que uma determinada dimensão foi definida ou mantida. Quantas ocorrências esse conjunto de relatórios recebeu nos últimos 90 dias? |
    | Métricas | Quantas métricas estão definidas neste conjunto de relatórios? |
    | Dimensões | Quantas dimensões estão definidas neste conjunto de relatórios? |
-   | Analytics for Target (A4T) habilitado | [Oculto por padrão] Este conjunto de relatórios está habilitado para o [Analytics for Target](https://experienceleague.adobe.com/pt-br/docs/target/using/integrate/a4t/a4t)? |
+   | Analytics for Target (A4T) habilitado | [Oculto por padrão] Este conjunto de relatórios está habilitado para o [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
    | Canais de marketing habilitados | [Oculto por padrão] Este conjunto de relatórios está habilitado para [Canais de marketing](https://experienceleague.adobe.com/pt-br/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
    | Conector de origem habilitado | Este conjunto de relatórios está habilitado para o [Adobe Analytics Source Connector para dados do conjunto de relatórios](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/analytics) no Adobe Experience Platform? Em outras palavras, esse conjunto de relatórios pode ser migrado para o Customer Journey Analytics usando o Analytics Source Connector? |
-   | Tipo de calendário | [Oculto por padrão] Para obter mais informações, consulte [Calendários Personalizados](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Tipo de calendário | [Oculto por padrão] Para obter mais informações, consulte [Calendários Personalizados](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### Analisar dimensões
 

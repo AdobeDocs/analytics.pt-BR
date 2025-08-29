@@ -28,12 +28,12 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Painel de comparação de segmentos"
->abstract="Compare rapidamente todos os pontos de dados de dois segmentos para encontrar diferenças relevantes automaticamente.<br/><br/>**Parâmetros &#x200B;**<br/>**Adicionar um segmento**: o primeiro segmento que você deseja analisar.<br/>**Comparar com**: o segundo segmento com o qual você deseja comparar, que é preenchido automaticamente com *Todos os outros* (o oposto do seu primeiro segmento). É possível substituir *Todos os outros* por um segmento diferente, se você quiser.<br/>**Configurações avançadas**: a capacidade de excluir componentes de serem analisados na comparação de segmentos."
+>abstract="Compare rapidamente todos os pontos de dados de dois segmentos para encontrar diferenças relevantes automaticamente.<br/><br/>**Parâmetros **<br/>**Adicionar um segmento**: o primeiro segmento que você deseja analisar.<br/>**Comparar com**: o segundo segmento com o qual você deseja comparar, que é preenchido automaticamente com *Todos os outros* (o oposto do seu primeiro segmento). É possível substituir *Todos os outros* por um segmento diferente, se você quiser.<br/>**Configurações avançadas**: a capacidade de excluir componentes de serem analisados na comparação de segmentos."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel de comparação de segmentos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artigo é sobre o painel de comparação de segmentos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ O painel de comparação de segmentos mostra as diferenças estatisticamente mai
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação de segmentos](https://video.tv.adobe.com/v/33252?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação de segmentos](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
