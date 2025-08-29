@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
-workflow-type: ht
-source-wordcount: '6506'
-ht-degree: 100%
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+workflow-type: tm+mt
+source-wordcount: '6520'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Agosto de 2025** | |
+| Os nomes dos feeds de dados devem ser exclusivos | Esclarecimento sobre por que [os nomes dos feeds de dados devem ser exclusivos](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique). |
 | Avisos de descontinuação | Avisos de descontinuação foram adicionados aos artigos nas seções [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) e [Importador de classificações](/help/components/classifications/importer/c-working-with-saint.md). |
 | **Julho de 2025** | |
 | Regras de processamento | A documentação das regras de processamento foi refeita por completo e agora fornece mais detalhes sobre a interface e os casos de uso atuais. |
@@ -176,7 +177,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=pt-BR). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/classifications/sets/overview) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |

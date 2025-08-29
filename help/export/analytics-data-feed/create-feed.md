@@ -3,9 +3,9 @@ title: Criar um feed de dados
 description: Saiba como criar um feed de dados e sobre as informações de arquivo a serem fornecidas ao Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4128'
 ht-degree: 53%
 
 ---
@@ -33,12 +33,12 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Nome**] | O nome do feed de dados. Deve ser único dentre o conjunto de relatórios e deve ter, no máximo, 255 caracteres. |
+   | [!UICONTROL **Nome**] | O nome do feed de dados. Deve ser único no conjunto de relatórios selecionado e deve ter até 255 caracteres. [Saiba mais](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
    | [!UICONTROL **Conjunto de relatórios**] | O conjunto de relatórios no qual o feed de dados se baseia. Se vários feeds de dados forem criados para o mesmo conjunto de relatórios, eles deverão ter definições de colunas diferentes. Somente conjuntos de relatórios de origem são compatíveis com feeds de dados; os conjuntos de relatórios virtuais não são compatíveis. |
    | [!UICONTROL **Enviar email ao concluir**] | O endereço de email a ser notificado quando um feed terminar o processamento. O endereço de email deve estar formatado corretamente. |
    | [!UICONTROL **Intervalo de feed**] | Selecione **Diariamente** para preenchimento retroativo ou dados históricos. Os feeds diários contêm dados de um dia inteiro, da meia-noite à meia-noite no fuso horário do conjunto de relatórios. Selecione **Por hora** para continuar os dados (Diariamente também está disponível para continuar os feeds, se você preferir). Os feeds por hora contêm dados de uma hora. |
    | [!UICONTROL **Atraso no processamento**] | Aguarde um determinado tempo antes de processar um arquivo de feed de dados. Um atraso pode ser útil para dar às implementações móveis uma oportunidade para que os dispositivos offline fiquem online e enviem dados. Ele também pode ser usado para acomodar os processos do lado do servidor de sua organização ao gerenciar arquivos processados anteriormente. Na maioria dos casos, não é necessário atrasar. Um feed pode ser atrasado em até 120 minutos. |
-   | [!UICONTROL **Datas de início e término**] | A data de início indica a data em que você deseja que o feed de dados comece. Para iniciar imediatamente o processamento do feeds de dados para dados históricos, defina essa data como qualquer data no passado quando os dados estiverem sendo coletados. As datas de início e término são baseadas no fuso horário do conjunto de relatórios. |
+   | [!UICONTROL **Datas de início e término**] | A data de início indica a data em que você deseja que o feed de dados comece. Para iniciar imediatamente o processamento do feeds de dados para dados históricos, defina essa data como qualquer data no passado quando os dados estiverem sendo coletados. As datas inicial e final são baseadas no fuso horário do conjunto de relatórios. |
    | [!UICONTROL **Feed contínuo**] | Essa caixa de seleção remove a data de término, permitindo que um feed seja executado indefinidamente. Quando um feed terminar de processar dados históricos, ele aguarda que os dados terminem de coletar por uma determinada hora ou dia. Quando a hora ou o dia atual terminar, o processamento será iniciado após o atraso especificado. |
 
 1. Na seção [!UICONTROL **Destino**], no menu suspenso [!UICONTROL **Tipo**], selecione o destino para o qual deseja enviar os dados.

@@ -4,10 +4,10 @@ keywords: Feed de dados;coluna pré;coluna pós;diferencia maiúsculas de minús
 title: Perguntas frequentes sobre feeds de dados
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 98%
+source-wordcount: '1463'
+ht-degree: 84%
 
 ---
 
@@ -17,9 +17,19 @@ Perguntas frequentes sobre feeds de dados.
 
 ## Os nomes dos feeds devem ser exclusivos? {#unique}
 
-Os nomes de arquivos do feed de dados são criados a partir da ID do conjunto de relatórios e data. Qualquer par de feeds configurados para a mesma RSID (ID do conjunto de relatórios) e data terá o mesmo nome de arquivo. Se esses feeds forem entregues na mesma localização, um arquivo sobreporá o outro. Para evitar uma sobreposição de arquivos, não é possível criar um feed com potencial para sobrepor um feed já existente na mesma localização.
+O Adobe Analytics não impede que os arquivos de feed de dados sejam substituídos.
 
-Tentar criar um feed quando já existe outro com o mesmo nome de arquivo resulta em uma mensagem de erro. Considere as seguintes soluções alternativas:
+Para evitar que os arquivos de feed de dados sejam substituídos, recomendamos que todos os arquivos de feed de dados enviados para o mesmo local tenham nomes de arquivo exclusivos.
+
+Os nomes de arquivos do feed de dados são compostos das seguintes características do feed de dados:
+
+* ID do conjunto de relatórios (RSID)
+
+* Data de exportação
+
+Qualquer par de feeds configurados para a mesma RSID e datas tem o mesmo nome de arquivo. Se esses feeds forem entregues na mesma localização, um arquivo substituirá o outro.
+
+Para evitar uma substituição de arquivo, considere as seguintes soluções alternativas:
 
 * Alterar o caminho de entrega
 * Alterar as datas, se possível
@@ -67,11 +77,11 @@ Exemplo: um novo Feed de dados é criado em 9 de março de 2021, e os dados de 1
 
 ## Qual é o impacto do horário de verão nos feeds de dados por hora? {#dst}
 
-Em alguns fusos horários, a hora será alterada duas vezes por ano devido às definições do horário de verão. Os feeds de dados seguem o fuso horário em que o conjunto de relatórios é configurado. Se o fuso horário do conjunto de relatórios não seguir o horário de verão, a entrega do arquivo continuará normalmente como qualquer outro dia. Se o fuso horário do conjunto de relatórios seguir o horário de verão, a entrega do arquivo será alterada para a hora em que ocorreu a alteração de horário (normalmente às 2h).
+Em alguns fusos horários, a hora será alterada duas vezes por ano devido às definições do horário de verão. Os feeds de dados seguem o fuso horário em que o conjunto de relatórios é configurado. Se o fuso horário do conjunto de relatórios não seguir o horário de verão, a entrega do arquivo continuará normalmente como qualquer outro dia. Se o fuso horário do conjunto de relatórios seguir o horário de verão, a entrega do arquivo será alterada para a hora em que ocorreu a alteração de horário (normalmente às 2:00 AM).
 
-Ao fazer as transições de horário padrão -> horário de verão (“Spring Forward”, horário adiantado na primavera), o cliente obterá somente 23 arquivos. O horário ignorado na transição do horário de verão é omitido. Por exemplo, se a transição ocorrer às 2h, os clientes obterão um arquivo à 1h e outro às 3h. Não haverá arquivo às 2h, visto que o horário padrão de 2h torna-se o horário de verão de 3h.
+Ao fazer as transições de horário padrão -> horário de verão (“Spring Forward”, horário adiantado na primavera), o cliente obterá somente 23 arquivos. O horário ignorado na transição do horário de verão é omitido. Por exemplo, se a transição ocorrer às 2h, os clientes obterão um arquivo por 1:00 hora e outro por 3:00 hora. Não há arquivo 2:00 porque, no horário padrão 2:00, ele se torna o horário de verão 3:00.
 
-Ao fazer as transições de horário de verão -> horário padrão, (“Fall Back”, horário de outono atrasado), o cliente obterá os 24 arquivos. Contudo, o horário de transição incluirá o equivalente a horas de dados. Por exemplo, se a transição ocorrer às 2h, o arquivo para 1h será atrasado em uma hora, mas conterá os dados para duas horas. Ele conterá os dados do horário de verão de 1h às 2h do horário padrão (que teria sido 3h do horário de verão). O próximo arquivo começa às 2h do horário padrão.
+Ao fazer as transições de horário de verão -> horário padrão, (“Fall Back”, horário de outono atrasado), o cliente obterá os 24 arquivos. Contudo, o horário de transição incluirá o equivalente a horas de dados. Por exemplo, se a transição ocorrer às 2:00 am, o arquivo para 1:00 será atrasado em uma hora, mas conterá os dados para duas horas. Ele contém dados do horário de verão de 1:00 a 2:00 do horário padrão (que teria sido 3:00 do horário de verão). O próximo arquivo começa em 2:00 STD.
 
 ## Como o Analytics lida com falhas de transferência de FTP? {#ftp-failure}
 
