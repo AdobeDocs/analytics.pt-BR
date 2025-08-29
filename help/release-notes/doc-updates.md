@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6506'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 Atualizações de conteúdo do conjunto de documentação do Adobe Analytics desde janeiro de 2019.
 
 * Para obter informações sobre o [!UICONTROL Customer Journey Analytics], acesse [aqui](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=pt-BR).
-* Para obter informações sobre os serviços de streaming de mídia da Adobe, consulte [Medição de áudio e vídeo no Analytics](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).
+* Para obter informações sobre os serviços de mídia de streaming, consulte [Medição de áudio e vídeo no Analytics](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).
 
 ## Detalhes sobre as principais atualizações da documentação
 
@@ -67,7 +67,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Atualização da documentação do gerenciamento de feeds de dados | As informações em [Gerenciar feeds de dados](/help/export/analytics-data-feed/df-manage-feeds.md) foram atualizadas para aumentar a clareza. <p>As atualizações incluem:</p><ul><li>Seções separadas foram criadas para várias tarefas a fim de facilitar a busca e o consumo de informações.</li><li>Adição de informações sobre alterações no comportamento dos feeds ao vivo que são reativados. Essas alterações estão atualmente com disponibilidade limitada e ainda não estão disponíveis para todos os clientes.</li><li>Adição de informações declarando que os feeds de dados devem ter o status Ativo antes de serem excluídos.</li> |
 | Mensagens de erro comuns atualizadas | Atualizações secundárias feitas nas [mensagens de erro comuns](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Junho de 2024** | |
-| Nome do produto atualizado que se refere aos recursos dos serviços de mídia de transmissão | As instâncias do “Media Analytics” e da “Mídia de streaming” foram substituídas pelo nome “Complemento da Coleção de mídia de streaming” e “Coleção de mídia de streaming” ao se referirem ao conjunto de recursos de mídia de streaming que coletam dados de mídia de streaming e os exibem no Analysis Workspace. <p>Essas atualizações estão disponíveis na documentação do Adobe Analytics, bem como na documentação da [Coleção de mídia de streaming](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).</p> |
+| Nome do produto atualizado que se refere aos recursos de mídia de streaming | As instâncias do “Media Analytics” e da “Mídia de streaming” foram substituídas pelo nome “Complemento da Coleção de mídia de streaming” e “Coleção de mídia de streaming” ao se referirem ao conjunto de recursos de mídia de streaming que coletam dados de mídia de streaming e os exibem no Analysis Workspace. <p>Essas atualizações estão disponíveis na documentação do Adobe Analytics, bem como na documentação da [Coleção de mídia de streaming](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).</p> |
 | Melhoria na documentação de alertas | Documentação atualizada e aprimorada sobre alertas. Essas atualizações incluem informações sobre [criação de alertas](/help/components/c-alerts/alert-builder.md), [gerenciamento de alertas](/help/components/c-alerts/alert-manager.md) e [informações gerais](/help/components/c-alerts/intellligent-alerts.md). |
 | Obsoleto `cookieDomainPeriods` | Agora que o AppMeasurement detecta automaticamente o domínio correto para definir os cookies, a variável [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) está obsoleta. |
 | Remoção da documentação do Data Connectors | A página do fim da vida útil do Data Connectors foi movida para [Produtos Descontinuados](https://experienceleague.adobe.com/pt-br/docs/discontinued/using/data-connectors). |
@@ -176,7 +176,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=pt-BR). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/classifications/sets/overview) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
