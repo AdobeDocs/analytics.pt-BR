@@ -3,10 +3,10 @@ title: eVar (dimensão)
 description: Uma dimensão personalizada que você pode usar nos relatórios.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: ec077b3404c6bff1198fae30a2d25321de8a58cd
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 82%
+source-wordcount: '851'
+ht-degree: 77%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 82%
 
 *Esta página de ajuda descreve como as eVars funcionam como uma [dimensão](overview.md). Para obter informações sobre como implementar eVars, consulte [eVars](/help/implement/vars/page-vars/evar.md) no guia de usuário Implementar.*
 
-As eVars são variáveis personalizadas que podem ser usadas da maneira que você desejar. Se você tiver um [documento de design de solução](/help/implement/prepare/solution-design.md), a maioria das dimensões específicas da sua organização acabarão sendo [!UICONTROL eVars]. Consulte [visão geral dos Dimension](overview.md) para obter mais informações.
+As eVars são [dimensões](overview.md) personalizadas que podem ser usadas da maneira que você desejar. Se você tiver um [documento de design de solução](/help/implement/prepare/solution-design.md), a maioria das dimensões específicas da sua organização acabarão sendo [!UICONTROL eVars].
 
-Por padrão, as eVars persistem além da ocorrência em que estão definidas. Consulte as seções [Como as eVars funcionam](#how-evars-work) e [Como as eVars se vinculam às métricas](#how-evars-tie-to-metrics) abaixo para obter detalhes sobre como a persistência de eVar opera na arquitetura Adobe. É possível personalizar a expiração e a alocação delas na seção [Variáveis de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) das [!UICONTROL Configurações do conjunto de relatórios]. A imagem a seguir mostra um exemplo de definições de eVar na interface Variáveis de conversão:
+Por padrão, as eVars persistem além da ocorrência em que estão definidas. Consulte as seções [Como as eVars funcionam](#how-evars-work) e [Como as eVars se vinculam às métricas](#how-evars-tie-to-metrics) abaixo para obter detalhes sobre como a persistência do eVar opera na arquitetura do Adobe. Você pode habilitar, desabilitar ou personalizar a expiração e a alocação em [Variáveis de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) nas [!UICONTROL configurações do conjunto de relatórios]. A imagem a seguir mostra um exemplo de definições do eVar na interface Variáveis de conversão:
 
 ![Exemplos de eVar](assets/evars-sample.png)
 
 O número de eVars disponíveis depende do seu contrato com a Adobe. Até 250 eVars estarão disponíveis se seu contrato com a Adobe permitir.
 
-A caixa (alta ou baixa) usada nos relatórios é baseada no primeiro valor enviado em determinado mês do calendário. O caso pode mudar dependendo da janela de relatório e do caso de um valor de eVar coletado primeiro durante esse tempo.
+A caixa (alta ou baixa) usada nos relatórios é baseada no primeiro valor enviado em determinado mês do calendário. O caso pode mudar dependendo da janela de relatórios e do caso de um valor de eVar coletado primeiro durante esse tempo.
 
 ## Preencher eVars com dados
 
@@ -49,7 +49,7 @@ Eventos bem-sucedidos e eVars são frequentemente definidos em momentos diferent
 
 1. Um visitante chega ao seu site na home page.
 2. Eles pesquisam por &quot;gatos&quot; usando a pesquisa interna do site. Sua implementação usa eVar1 para pesquisa interna.
-3. Eles visualizam um produto e avançam para o processo de finalização.
+3. Eles visualizam um produto e avançam para o processo de check-out.
 
 Uma versão simplificada dos dados brutos seria semelhante ao seguinte:
 
