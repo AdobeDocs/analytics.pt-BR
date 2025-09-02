@@ -3,10 +3,10 @@ title: Guia de exportação do Analytics
 description: Este manual descreve maneiras de retirar dados do Adobe Analytics usando feeds de dados e o Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '179'
-ht-degree: 100%
+source-git-commit: 68114921b40ffebd89e2843ad0f0cf44812cb13b
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 90%
 
 ---
 
@@ -16,10 +16,8 @@ ht-degree: 100%
 
 Este guia descreve maneiras de retirar dados do Adobe Analytics. O serviço inclui:
 
-* **Feeds de dados:** receba uma exportação por hora ou por dia de dados brutos. Cada linha é uma ocorrência individual e cada coluna é uma variável. Os feeds de dados geralmente são enviados para [destinos na nuvem](/help/export/analytics-data-feed/create-feed.md).
-* **Data Warehouse:** use um assistente de solicitações para recuperar uma saída de planilha de dados. O Data Warehouse usa uma arquitetura de processamento diferente para permitir qualquer número de linhas e de valores únicos. As solicitações do data warehouse normalmente são enviadas para [destinos na nuvem](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* **FTP e SFTP:** FTP e SFTP são compatíveis, mas não são mais recomendados. Em vez disso, exporte dados para destinos na nuvem.
-
+* **Feeds de dados:** receba uma exportação por hora ou por dia de dados brutos. Cada linha é uma ocorrência individual e cada coluna é uma variável. Normalmente, os feeds de dados são enviados para [destinos da nuvem](/help/export/analytics-data-feed/create-feed.md). Contas FTP e SFTP herdadas estão disponíveis, mas não são recomendadas.
+* **Data Warehouse:** use um assistente de solicitações para recuperar uma saída de planilha de dados. O Data Warehouse usa uma arquitetura de processamento diferente para permitir qualquer número de linhas e de valores únicos. As solicitações do data warehouse normalmente são enviadas para [destinos na nuvem](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Contas FTP e SFTP herdadas estão disponíveis, mas não são recomendadas.
 
 >[!BEGINSHADEBOX]
 
@@ -32,7 +30,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão gera
 
 * [Referência da coluna Feed de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
 * [Data Warehouse](data-warehouse/data-warehouse.md)
-* [Exportar para FTP](ftp-and-sftp/ftp-overview.md)
+* [Configurar um destino de relatório para uma solicitação do data warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 
 ## Mais guias do usuário do Analytics
 
@@ -40,7 +38,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão gera
 
 ## Principais recursos do Analytics
 
-* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/pt-br?support-solution=Analytics&amp;lang=pt-BR#support)
+* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&lang=pt-BR#support)
 * [Comunidade do Adobe Analytics na Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
 * [Experience League](https://experienceleague.adobe.com/pt-br)
