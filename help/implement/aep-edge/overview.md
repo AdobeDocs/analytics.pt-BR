@@ -4,10 +4,10 @@ description: Visão geral do uso de dados XDM da Experience Platform no Adobe An
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
+source-git-commit: 0ea86e7628e3cebe6f5fe1c4f584da1186b8cb83
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 17%
+source-wordcount: '510'
+ht-degree: 16%
 
 ---
 
@@ -17,17 +17,19 @@ A rede de borda da Adobe Experience Platform permite enviar dados destinados a v
 
 ## Como o Adobe Analytics lida com os dados da rede de borda
 
+Como os dados enviados para a Edge Network e o AppMeasurement operam de forma diferente, a carga do Edge Network determina como o Adobe Analytics lida com a ocorrência. Consulte [Tipos de evento do Edge Network no Adobe Analytics](hit-types.md) para obter mais informações.
+
 Os dados enviados para o Adobe Experience Platform Edge Network podem seguir três formatos: **Objeto XDM**, **Objeto de dados** e **Dados de contexto**. Quando um fluxo de dados encaminha dados para o Adobe Analytics, eles são traduzidos em um formato que o Adobe Analytics pode manipular.
 
 ## objeto `xdm`
 
-Siga os esquemas que você cria com base no [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR) (Experience Data Model). O XDM oferece flexibilidade sobre quais campos são definidos como parte dos eventos. Se quiser usar um esquema predefinido específico do Adobe Analytics, você pode adicionar o [grupo de campos do esquema do Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) ao seu esquema. Depois de adicionado, é possível preencher esse esquema usando o objeto `xdm` no Web SDK para enviar dados a um conjunto de relatórios. Quando os dados chegam à Edge Network, eles traduzem o objeto XDM em um formato que a Adobe Analytics entende.
+Siga os esquemas que você cria com base no [XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) (Experience Data Model). O XDM oferece flexibilidade sobre quais campos são definidos como parte dos eventos. Se quiser usar um esquema predefinido específico do Adobe Analytics, você pode adicionar o [grupo de campos do esquema do Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) ao seu esquema. Depois de adicionado, é possível preencher esse esquema usando o objeto `xdm` no Web SDK para enviar dados a um conjunto de relatórios. Quando os dados chegam à Edge Network, eles traduzem o objeto XDM em um formato que a Adobe Analytics entende.
 
 Consulte [Mapeamento de variável de objeto XDM para o Adobe Analytics](xdm-var-mapping.md) para obter uma referência completa de campos XDM e como eles são mapeados para variáveis do Analytics.
 
 >[!TIP]
 >
->Se você planeja mudar para o [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing) no futuro, a Adobe recomenda não usar o grupo de campos de esquema do Adobe Analytics. Em vez disso, a Adobe recomenda [criar seu próprio esquema](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) e usar o mapeamento de sequência de dados para preencher as variáveis do Analytics desejadas. Essa estratégia não bloqueia você em um esquema de props e eVars quando estiver pronto para migrar para o Customer Journey Analytics.
+>Se você planeja mudar para o [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) no futuro, a Adobe recomenda não usar o grupo de campos de esquema do Adobe Analytics. Em vez disso, a Adobe recomenda [criar seu próprio esquema](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) e usar o mapeamento de sequência de dados para preencher as variáveis do Analytics desejadas. Essa estratégia não bloqueia você em um esquema de props e eVars quando estiver pronto para migrar para o Customer Journey Analytics.
 
 ## objeto `data`
 
