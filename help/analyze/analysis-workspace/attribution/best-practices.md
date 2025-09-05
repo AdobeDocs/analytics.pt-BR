@@ -63,4 +63,4 @@ Se você ainda não tiver um modelo de atribuição que forneça respostas satis
 
 * Talvez seja necessário usar os serviços de um cientista de dados, em vez de depender apenas do Analysis Workspace.
 * Você pode confiar em dados brutos, como os feeds de dados da Adobe.
-* Considere usar o [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por exemplo, se desejar considerar seus dados de impressões.
+* Considere usar o [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por exemplo, se desejar considerar seus dados de impressões.

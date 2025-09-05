@@ -101,7 +101,7 @@ Para criar uma métrica calculada para um único projeto:
 
    * [!UICONTROL **Alteração de porcentagem**]: cria uma nova coluna que mostra a alteração de porcentagem entre as duas colunas selecionadas.
 
-[Métricas calculadas: Métricas sem implementação](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[Métricas calculadas: Métricas sem implementação](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Comparar métricas com diferentes modelos de atribuição

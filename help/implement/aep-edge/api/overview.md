@@ -15,7 +15,7 @@ ht-degree: 35%
 
 Normalmente, você usa a API do Edge Network do Experience Platform para coletar dados do lado do servidor, em vez de do lado do cliente, e ao coletar dados de dispositivos como dispositivos IoT, decodificadores de sinais e aplicativos de desktop. Em seguida, você envia esses dados para a rede da Edge e para serviços como o Adobe Analytics.
 
-Considere também a API do Edge Network quando precisar que dados confidenciais sejam coletados com segurança e autenticados na rede. Consulte [Autenticação](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) para obter mais informações.
+Considere também a API do Edge Network quando precisar que dados confidenciais sejam coletados com segurança e autenticados na rede. Consulte [Autenticação](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=pt-BR) para obter mais informações.
 
 Uma visão geral de alto nível das tarefas de implementação:
 
@@ -48,7 +48,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>4</td>
 <td><b>Implemente e teste a coleta de dados</b> usando as APIs de coleta de dados de evento único e de dados de evento em lote.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR">Coleta de dados de evento único</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Coleta de dados de evento em lote</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR">Coleta de dados de evento único</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=pt-BR">Coleta de dados de evento em lote</a>
 </tr>
 
 <td>5</td>
