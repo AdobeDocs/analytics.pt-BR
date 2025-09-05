@@ -18,7 +18,7 @@ A divisão de tempo coleta o carimbo de data e hora de ocorrências coletadas e 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensões de separação de tempo](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensões de separação de tempo](https://video.tv.adobe.com/v/30809?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

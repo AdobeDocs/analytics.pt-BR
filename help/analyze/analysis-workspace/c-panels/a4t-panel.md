@@ -42,7 +42,7 @@ O painel Analytics for Target permite analisar as atividades e experiências do 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Painel do Analytics for Target](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Painel do Analytics for Target](https://video.tv.adobe.com/v/326713?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
