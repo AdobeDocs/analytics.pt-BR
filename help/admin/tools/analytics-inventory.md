@@ -112,7 +112,7 @@ As respostas dessas perguntas fornecerão uma boa ideia sobre quais conjuntos de
    | Ocorrências (últimos 90 dias) | A métrica “Ocorrências” exibe o número de ocorrências em que uma determinada dimensão foi definida ou mantida. Quantas ocorrências esse conjunto de relatórios recebeu nos últimos 90 dias? |
    | Métricas | Quantas métricas estão definidas neste conjunto de relatórios? |
    | Dimensões | Quantas dimensões estão definidas neste conjunto de relatórios? |
-   | Analytics for Target (A4T) habilitado | [Oculto por padrão] Este conjunto de relatórios está habilitado para o [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Analytics for Target (A4T) habilitado | [Oculto por padrão] Este conjunto de relatórios está habilitado para o [Analytics for Target](https://experienceleague.adobe.com/pt-br/docs/target/using/integrate/a4t/a4t)? |
    | Canais de marketing habilitados | [Oculto por padrão] Este conjunto de relatórios está habilitado para [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md)? |
    | Conector de origem habilitado | Este conjunto de relatórios está habilitado para o [Adobe Analytics Source Connector para dados do conjunto de relatórios](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/analytics) no Adobe Experience Platform? Em outras palavras, esse conjunto de relatórios pode ser migrado para o Customer Journey Analytics usando o Analytics Source Connector? |
    | Tipo de calendário | [Oculto por padrão] Para obter mais informações, consulte [Calendários Personalizados](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |
