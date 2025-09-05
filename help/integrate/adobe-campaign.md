@@ -4,9 +4,9 @@ title: Como integrar relatórios do Adobe Campaign Standard ao Adobe Analytics?
 feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '511'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 Para obter mais informações sobre como configurar essa integração, acesse a [documentação do Adobe Campaign](https://helpx.adobe.com/br/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->Este artigo se aplica apenas aos relatórios do Adobe Campaign **Standard**. Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/analytics/integration/analytics-to-campaign-classic) para adicionar os relatórios do Adobe Campaign **Classic**.
+>Este artigo se aplica apenas aos relatórios do Adobe Campaign **Standard**. Clique [aqui](/help/integrate/analytics-to-campaign-classic.md) para adicionar os relatórios do Adobe Campaign **Classic**.
 
 Esta integração entre o Adobe Analytics e o Adobe Campaign Standard:
 
@@ -31,10 +31,10 @@ Esta integração entre o Adobe Analytics e o Adobe Campaign Standard:
 
 ## Etapa 1. Habilitar os relatórios do Adobe Campaign Standard {#section_C685EF10505045708A6536BB13F6CD58}
 
-Para visualizar os dados do Campaign Standard no Analytics, primeiro é necessário ativar os relatórios do Campaign no Gerenciador do conjunto de relatórios.
+Para visualizar os dados do Campaign Standard no Analytics, primeiro é necessário habilitar os relatórios do Campaign no Gerenciador do conjunto de relatórios.
 
 1. Navegue até  **[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjuntos de relatórios]** > **`<select report suite>`** > **[!UICONTROL Editar configurações]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Relatórios do Adobe Campaign]** .
-1. Clique em **[!UICONTROL Ativar relatórios do Campaign]**.
+1. Clique em **[!UICONTROL Habilitar relatórios do Campaign]**.
 
    ![](assets/enable-campaign.png)
 

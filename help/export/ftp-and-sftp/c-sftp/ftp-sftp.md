@@ -4,9 +4,9 @@ keywords: ftp;sftp
 title: Protocolo de transferência segura de arquivo - visão geral
 feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '218'
 ht-degree: 88%
 
 ---
@@ -19,9 +19,9 @@ O SFTP é um protocolo seguro para transferência de dados, e garante que ningu�
 
 Isto significa que os servidores da Adobe “forçam” o envio do arquivo para os servidores. Essencialmente, nós enviamos os arquivos para o end point.
 
-O [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) e o [Feed de dados do Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=pt-BR) podem enviar dados por SFTP.
+O [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) e o [Feed de dados do Analytics](/help/export/analytics-data-feed/data-feed-overview.md) podem enviar dados por SFTP.
 
-Report Builder **não pode** enviar dados via SFTP.
+O Report Builder **não pode** enviar dados via SFTP.
 
 ## Envio próprio {#section_FA29FAEF02FE40B8B32452146A036F48}
 

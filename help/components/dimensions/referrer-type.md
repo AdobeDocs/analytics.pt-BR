@@ -3,7 +3,7 @@ title: Tipo de referenciador
 description: O tipo de referenciador dependendo a origem do visitante.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 825cded49c0ff456925e522ae2d0660b09ea6edd
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -16,7 +16,7 @@ A [dimensão](overview.md) de &quot;Tipo de referenciador&quot; informa em quais
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência a várias tabelas de pesquisa internas da Adobe. Cada valor se baseia no [referenciador](referrer.md) da ocorrência, que depende dos [Filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Verifique se a dimensão do referenciador e os filtros de URL internos estão configurados corretamente.
+Essa dimensão faz referência a várias tabelas de pesquisa internas da Adobe. Cada valor se baseia no [referenciador](referrer.md) da ocorrência, que depende dos [Filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Verifique se a dimensão do referenciador e os filtros de URL internos estão configurados corretamente.
 
 ## Itens de dimensão
 
@@ -35,7 +35,7 @@ A lista a seguir faz referência à tabela de pesquisa &quot;Redes sociais&quot;
 
 >[!NOTE]
 >
->Essa lista é diferente da lista padrão de redes sociais nas [Regras de processamento de canal de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+>Essa lista é diferente da lista padrão de redes sociais nas [Regras de processamento de canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

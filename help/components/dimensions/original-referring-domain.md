@@ -3,7 +3,7 @@ title: Domínio referenciador original
 description: O primeiro domínio referenciador no qual um visitante estava antes de clicar para acessar o site.
 feature: Dimensions
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 95%
@@ -16,14 +16,14 @@ A [dimensão](overview.md) de &#39;Domínio referenciador original&#39; informa 
 
 >[!IMPORTANT]
 >
->Você deve configurar os [Filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
+>Você deve configurar os [Filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
 
 ## Preencher esta dimensão com dados
 
 Essa dimensão requer configuração na interface do Analytics e na implementação.
 
 * Em sua implementação, essa dimensão recupera dados da [`r` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `document.referrer` no navegador. Se você utilizar uma biblioteca do AppMeasurement (por meio de tags na Adobe Experience Platform ), essa dimensão funcionará imediatamente. Se um método de coleta de dados diferente do AppMeasurement for utilizado (por meio da API), inclua o parâmetro da sequência de consulta `r` em solicitações de imagem.
-* Na interface do Analytics, é necessário configurar os [Filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) do conjunto de relatórios. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
+* Na interface do Analytics, é necessário configurar os [Filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) do conjunto de relatórios. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
 
 A Adobe mantém o domínio referenciador original por toda a vida útil do visitante. Se um visitante sair e clicar em um link em um domínio diferente a qualquer momento, o novo valor não será registrado. Se quiser ver novos valores, consulte [Domínio referenciador](referring-domain.md).
 

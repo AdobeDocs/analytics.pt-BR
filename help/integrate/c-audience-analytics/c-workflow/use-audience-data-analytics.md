@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Usar os dados de público-alvo no Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '568'
 ht-degree: 89%
 
 ---
@@ -26,7 +26,7 @@ No Analysis Workspace, os segmentos do Adobe Audience Manager aparecem como duas
 
 ## Comparação de segmentos {#compare}
 
-A [Comparação de segmentos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=pt-BR) encontra as diferenças estatísticas mais relevantes entre dois segmentos. Dados de Públicos-alvo podem ser usados na Comparação de segmentos de duas maneiras: 1) como os 2 segmentos sendo comparados, e 2) como itens na tabela “Itens de dimensão principais”.
+A [Comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) encontra as diferenças estatísticas mais relevantes entre dois segmentos. Dados de Públicos-alvo podem ser usados na Comparação de segmentos de duas maneiras: 1) como os 2 segmentos sendo comparados, e 2) como itens na tabela “Itens de dimensão principais”.
 
 1. Acesse **[!UICONTROL Workspace]** e selecione a visualização **[!UICONTROL Comparação de segmentos]** no painel esquerdo.
 
@@ -43,21 +43,21 @@ A [Comparação de segmentos](https://experienceleague.adobe.com/docs/analytics/
 
 ## Jornada do cliente (Fluxo) na Analysis Workspace {#flow}
 
-Os dados de segmento do Adobe Audience Manager são passados para o Analytics ocorrência por ocorrência, e representam a associação de público-alvo de um visitante naquele período específico. Ou seja, um visitante pode se encaixar em um segmento (ex. “Percepção”) e depois se classificar para um segmento mais qualificado (ex. “Consideração”). Use [Fluxo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=pt-BR) na Analysis Workspace para visualizar a jornada feita por um cliente entre públicos-alvo.
+Os dados de segmento do Adobe Audience Manager são passados para o Analytics ocorrência por ocorrência, e representam a associação de público-alvo de um visitante naquele período específico. Ou seja, um visitante pode se encaixar em um segmento (ex. “Percepção”) e depois se classificar para um segmento mais qualificado (ex. “Consideração”). Use [Fluxo](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) na Analysis Workspace para visualizar a jornada feita por um cliente entre públicos-alvo.
 
 1. Acesse **[!UICONTROL Workspace]** e selecione a visualização **[!UICONTROL Fluxo]** no painel esquerdo.
 
 1. Arraste a dimensão [!UICONTROL Nome de público-alvo] ao construtor de Fluxo.
 1. Clique em **[!UICONTROL Criar]**.
-1. (Opcional): arraste qualquer outra dimensão para a visualização de Fluxo para criar um [Fluxo interdimensional](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html?lang=pt-BR).
+1. (Opcional): arraste qualquer outra dimensão para a visualização de Fluxo para criar um [Fluxo interdimensional](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md).
 
 ![](assets/flow-aamaudiences.png)
 
-Públicos-alvo também podem ser usados em [visualizações de Fallout](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=pt-BR).
+Públicos-alvo também podem ser usados em [visualizações de Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 ## Visualização de Venn na Analysis Workspace {#venn}
 
-[Visualizações de Venn](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=pt-BR) mostram a sobreposição entre até 3 segmentos.
+[Visualizações de Venn](/help/analyze/analysis-workspace/visualizations/venn.md) mostram a sobreposição entre até 3 segmentos.
 
 1. Acesse **[!UICONTROL Workspace]** e selecione a visualização **[!UICONTROL Venn]** no painel esquerdo.
 

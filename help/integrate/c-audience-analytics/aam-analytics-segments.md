@@ -3,9 +3,9 @@ description: O Analytics e o Audience Manager usam segmentos. Entretanto, um seg
 title: Entender os segmentos no Analytics e no Audience Manager
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '719'
 ht-degree: 91%
 
 ---
@@ -16,7 +16,7 @@ O Analytics e o Audience Manager usam segmentos. Entretanto, um segmento do Anal
 
 ## Segmentos do Audience Manager {#aam-segments}
 
-Um segmento Audience Manager é um grupo de visitantes (IDs de usuário) que se qualificam para um conjunto de características definidas unidas por regras lógicas. Há quatro critérios que determinam se um visitante (ID de usuário) é parte de um segmento no Audience Manager:
+Um segmento do Audience Manager é um grupo de visitantes (IDs de usuário) que se qualificam para um conjunto de características definidas unidas por regras lógicas. Há quatro critérios que determinam se um visitante (ID de usuário) é parte de um segmento no Audience Manager:
 
 * Regras definidas nos próprios segmentos e as características que constituem cada segmento. Essas regras definem as condições que uma ID de usuário tem que atender ou exibir para qualificar-se para um segmento.
 * Modelagem algorítmica. Usuários que qualificam-se para um segmento específico podem ser qualificados para outros segmentos com base no modelo e na análise algorítmica.
@@ -45,4 +45,4 @@ Um segmento do Analytics é um mecanismo de filtragem para dados em seus relató
 
   Contrariamente, no Analytics, visitantes podem ser incluídos ou excluídos de um segmento com base no intervalo de datas do relatório. Por exemplo, suponhamos que um único visitante fez uma compra no mês anterior. No Adobe Audience Manager, esse visitante seria incluído em um segmento &quot;comprador&quot;, independentemente do intervalo de datas. No Analytics, um relatório baseado nesse mês não incluiria o visitante no segmento. Entretanto, um relatório com base nesse mês e no mês anterior incluiria o visitante no segmento.
 
-Consulte o [Guia de segmentação do Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=pt-BR) para obter mais informações.
+Consulte o [Guia de segmentação do Analytics](/help/components/segmentation/seg-home.md) para obter mais informações.

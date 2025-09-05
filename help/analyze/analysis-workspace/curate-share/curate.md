@@ -1,20 +1,20 @@
 ---
-description: Saiba como preparar projetos no Analysis Workspace. A preparação limita o acesso a componentes antes de compartilhar um projeto.
+description: Saiba como preparar projetos no Analysis Workspace. A preparação limita o acesso a componentes antes de você compartilhar um projeto.
 keywords: Preparação do Analysis Workspace
 title: Preparar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 60%
+source-wordcount: '531'
+ht-degree: 80%
 
 ---
 
 # Preparar projetos do
 
-A preparação permite limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) antes de compartilhar um projeto. Quando um recipient abre o projeto, ele vê um conjunto limitado de componentes que você preparou para eles. A preparação é uma etapa opcional, mas recomendada, antes de compartilhar um projeto.
+A preparação permite limitar os componentes (dimensões, métricas, segmentos, intervalos de datas) antes de compartilhar um projeto. Ao abrir o projeto, o destinatário verá um conjunto limitado de componentes que você preparou. A preparação é uma etapa opcional, mas recomendada, antes de compartilhar um projeto.
 
 >[!NOTE]
 > Os perfis de produto são o principal mecanismo que controla os componentes que um usuário pode ver. Eles são gerenciados por meio do Adobe Experience Cloud Admin Console. A Preparação é um filtro secundário.
@@ -22,43 +22,43 @@ A preparação permite limitar os componentes (dimensões, métricas, segmentos,
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Preparar projetos](https://video.tv.adobe.com/v/30771?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Preparar projetos](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 ## Aplicar preparação de projeto
 
-1. Selecione **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar Dados do Projeto]**.
-Os componentes usados no projeto são adicionados automaticamente.
+1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar dados do projeto]**.
+Os componentes usados no projeto serão adicionados automaticamente.
 Se um projeto tiver vários conjuntos de relatórios, você verá um destino de preparação para cada conjunto de relatórios no projeto.
-1. (Opcional) Para adicionar mais componentes, arraste os componentes que deseja compartilhar do painel esquerdo para a área de soltar **[!UICONTROL Preparar componentes]** da exibição de dados.
-1. Selecione **[!UICONTROL Concluído]**.
+1. (Opcional) Para adicionar outros componentes, arraste os que deseja compartilhar do painel esquerdo até a zona de destino **[!UICONTROL Preparar componentes]** da visualização de dados.
+1. Selecione **[!UICONTROL Concluído]**. 
 
 
 ![](assets/curation-field.png)
 
-Quando um recipient abre um projeto preparado, ele só vê o conjunto preparado de componentes que você definiu:
+Ao abrir um projeto preparado, o destinatário verá apenas o conjunto preparado de componentes que você definiu:
 
 
 ## Remover preparação do projeto
 
 Para remover a preparação do projeto e restaurar o conjunto completo de componentes no painel esquerdo:
 
-1. Selecione **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar Dados do Projeto]**.
-1. Selecione **[!UICONTROL Remover Preparação]**.
-1. Selecione **[!UICONTROL Concluído]**.
+1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar dados do projeto]**.
+1. Clique em **[!UICONTROL Remover preparação]**.
+1. Selecione **[!UICONTROL Concluído]**. 
 
 ## Preparação de conjunto de relatórios virtuais
 
-Para fazer a preparação no nível do conjunto de relatórios, de modo que ela se aplique a vários projetos de uma vez, você pode [preparar os componentes em um conjunto de relatórios virtuais](https://experienceleague.adobe.com/pt-br/docs/analytics/components/virtual-report-suites/vrs-components).
+Para fazer a preparação no nível do conjunto de relatórios, de modo que ela se aplique a vários projetos de uma vez, você pode [preparar os componentes em um conjunto de relatórios virtuais](/help/components/vrs/vrs-components.md).
 
 >[!NOTE]
 >
 > A preparação do conjunto de relatórios virtuais é sempre aplicada antes da preparação do projeto. Mesmo que seu projeto preparado inclua determinados componentes, eles serão filtrados se o conjunto de relatórios virtuais preparado não incluir esses componentes.
 > 
 
-## Opções de curadoria de componentes
+## Opções de preparação de componentes
 
 Em um projeto com curadoria ou conjunto de relatórios virtual, o recipient tem a opção de **[!UICONTROL Mostrar todos]** componentes no painel esquerdo. [!UICONTROL Mostrar tudo] revela conjuntos diferentes de componentes, dependendo dos seguintes fatores:
 

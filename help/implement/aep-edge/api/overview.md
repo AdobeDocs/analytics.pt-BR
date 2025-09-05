@@ -4,7 +4,7 @@ description: Use a API Edge Network do Adobe Experience Platform para enviar dad
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 35%
@@ -15,7 +15,7 @@ ht-degree: 35%
 
 Normalmente, você usa a API do Edge Network do Experience Platform para coletar dados do lado do servidor, em vez de do lado do cliente, e ao coletar dados de dispositivos como dispositivos IoT, decodificadores de sinais e aplicativos de desktop. Em seguida, você envia esses dados para a rede da Edge e para serviços como o Adobe Analytics.
 
-Considere também a API do Edge Network quando precisar que dados confidenciais sejam coletados com segurança e autenticados na rede. Consulte [Autenticação](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=pt-BR) para obter mais informações.
+Considere também a API do Edge Network quando precisar que dados confidenciais sejam coletados com segurança e autenticados na rede. Consulte [Autenticação](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) para obter mais informações.
 
 Uma visão geral de alto nível das tarefas de implementação:
 
@@ -30,7 +30,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>1</td>
 <td>Certifique-se de que você <b>definiu um conjunto de relatórios</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>
@@ -48,7 +48,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>4</td>
 <td><b>Implemente e teste a coleta de dados</b> usando as APIs de coleta de dados de evento único e de dados de evento em lote.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR">Coleta de dados de evento único</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=pt-BR">Coleta de dados de evento em lote</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR">Coleta de dados de evento único</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Coleta de dados de evento em lote</a>
 </tr>
 
 <td>5</td>

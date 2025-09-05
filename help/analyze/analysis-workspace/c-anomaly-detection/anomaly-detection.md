@@ -4,9 +4,9 @@ title: Visão geral da Detecção de anomalias
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1292'
 ht-degree: 69%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Detecção de anomalias](https://video.tv.adobe.com/v/30757?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Detecção de anomalias](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Exemplos de anomalias que você pode investigar incluem:
 * Picos em eventos de buffer de vídeo
 * Picos em taxas de vídeo baixas
 
-A Detecção de anomalias e a [Análise de contribuição](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection) são fluxos de trabalho principais no Analysis Workspace. Você pode executar a Análise de contribuição em relação a qualquer anomalia diária e incorporar o resultado ao projeto do Analysis Workspace.
+A Detecção de anomalias e a [Análise de contribuição](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) são fluxos de trabalho principais no Analysis Workspace. Você pode executar a Análise de contribuição em relação a qualquer anomalia diária e incorporar o resultado ao projeto do Analysis Workspace.
 
 O algoritmo de detecção de anomalias do Analysis Workspace inclui
 
@@ -61,7 +61,7 @@ para métricas selecionadas em segmentos convergentes do público.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análise de contribuição](https://video.tv.adobe.com/v/30767?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análise de contribuição](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +97,7 @@ O número de execuções por empresa é limitado por tokens mensais gerados com 
 | Por que a Adobe apresentou os tokens? | A Análise de contribuição é um dos recursos mais importantes do Adobe Analytics. Com um pequeno número de execuções completas por mês (em vez de apenas 3 dimensões para alguns produtos do Analytics), você pode ver o que a Análise de contribuição completa e ilimitada pode fazer por você. |
 | Como funcionam os tokens na Análise de contribuição? Custa um token para carregar um projeto com uma Análise de contribuição já existente ou apenas ao executar uma nova? | Cada logon da empresa (não de cada usuário) recebe um certo número de tokens por mês, que permitem executar Análises de contribuição completas no Analysis Workspace.  Cada vez que uma nova Análise de contribuição for gerada, um token é pago. Carregar projetos com Análises de contribuição pré-executadas não custa um token. |
 | Se os tokens da minha empresa acabaram e minha empresa deseja executar Análises de contribuição adicionais, o que fazer? | É possível atualizar para outro produto do Adobe Analytics, por exemplo do Standard (2 tokens mensais) para o Ultimate (20 tokens mensais). Não é possível comprar mais tokens. Você deve atualizar dentro da estrutura de pacotes existente. |
-| Como restringir o acesso à Análise de contribuição? | Por padrão, somente os administradores têm acesso para executar Análises de contribuição. No entanto, os administradores podem conceder acesso a outros usuários criando um grupo de permissões no [Adobe Admin Console](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-console/home). Conceda permissão de uso da Análise de contribuição somente aos usuários com uma razão legítima para usá-la e que não abusarão de seu acesso. A permissão é chamada [!UICONTROL Análise de contribuição] em [!UICONTROL Ferramentas do conjunto de relatórios]. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
+| Como restringir o acesso à Análise de contribuição? | Por padrão, somente os administradores têm acesso para executar Análises de contribuição. No entanto, os administradores podem conceder acesso a outros usuários criando um grupo de permissões no [Adobe Admin Console](/help/admin/admin-console/home.md). Conceda permissão de uso da Análise de contribuição somente aos usuários com uma razão legítima para usá-la e que não abusarão de seu acesso. A permissão é chamada [!UICONTROL Análise de contribuição] em [!UICONTROL Ferramentas do conjunto de relatórios]. [Saiba mais](/help/admin/admin-console/permissions/report-suite-tools.md) |
 | Como posso saber a quantos tokens minha empresa tem direito por mês e quantos tokens minha empresa usou no mês atual? | Acesse [!UICONTROL Administrador] > [!UICONTROL Todos os administradores] > [!UICONTROL Página inicial das configurações da empresa] > [!UICONTROL Exibir níveis de acesso ao recurso]. Procurar em<ul><li>Análise de contribuição: número de tokens de uso mensais</li><li>Análise de contribuição: número de tokens de uso usados neste mês</li></ul> |
 
 ## Direitos de Detecção de anomalias e Análise de contribuição

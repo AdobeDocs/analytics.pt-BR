@@ -3,7 +3,7 @@ title: Visitantes com Experience Cloud ID
 description: O número de visitantes únicos que usam o serviço da Adobe Experience Cloud ID.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Visitantes com Experience Cloud ID
 
-A [métrica](overview.md) de &quot;Visitantes com ID de Experience Cloud&quot; mostra o número de visitantes únicos identificados por Adobe usando o [serviço de ID de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). Essa métrica pode ser útil para comparar com a métrica [Visitantes únicos](unique-visitors.md) e garantir que a maioria dos visitantes do site usem o serviço de ID. Se uma grande parte dos visitantes não usar os cookies do serviço de ID, pode haver um problema na implementação.
+A [métrica](overview.md) de &quot;Visitantes com Experience Cloud ID&quot; mostra o número de visitantes únicos identificados pela Adobe que usam o [serviço Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). Essa métrica pode ser útil para comparar com a métrica [Visitantes únicos](unique-visitors.md) e garantir que a maioria dos visitantes do site usem o serviço de ID. Se uma grande parte dos visitantes não usar os cookies do serviço de ID, pode haver um problema na implementação.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ A [métrica](overview.md) de &quot;Visitantes com ID de Experience Cloud&quot; m
 
 ## Como essa métrica é calculada
 
-Essa métrica tem como base a métrica [Visitantes únicos](unique-visitors.md), mas inclui somente indivíduos identificados utilizando a `mid` sequência de consulta (com base no cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR)).
+Essa métrica tem como base a métrica [Visitantes únicos](unique-visitors.md), mas inclui somente pessoas identificadas utilizando a `mid` sequência de consulta (com base no cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR)).
 
 ## Depurar a configuração da Experience Cloud ID
 
@@ -30,7 +30,7 @@ Arraste os &quot;Visitantes com Experience Cloud ID&quot; lado a lado com a dime
 
 ![Comparação de visitantes únicos](assets/metric-mcvid1.png)
 
-Nesse exemplo, perceba que cada página tem o mesmo número de “Visitantes únicos” quanto de “Visitantes com Experience Cloud ID”. No entanto, o número total de “Visitantes únicos” é maior que o número total de Visitantes com Experience Cloud ID. Você pode criar uma [métrica calculada](../c-calcmetrics/cm-overview.md) para descobrir quais páginas não estão configurando o serviço de ID. É possível utilizar a seguinte definição:
+Nesse exemplo, perceba que cada página tem o mesmo número de “Visitantes únicos” quanto de “Visitantes com Experience Cloud ID”. No entanto, o número total de “Visitantes únicos” é maior que o número total de Visitantes com Experience Cloud ID. Você pode criar uma [métrica calculada](../calculated-metrics/cm-overview.md) para descobrir quais páginas não estão configurando o serviço de ID. É possível utilizar a seguinte definição:
 
 ![Definição de métrica calculada](assets/metric-mcvid2.png)
 

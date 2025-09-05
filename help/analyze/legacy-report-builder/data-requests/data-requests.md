@@ -4,9 +4,9 @@ title: Solicitação de dados - Etapa 1 do assistente de solicitações
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 90%
 
 ---
@@ -23,7 +23,7 @@ No Assistente de solicitações: etapa 1, selecione o conjunto de relatórios, o
 
 1. **Seletor de intervalo**: Permite selecionar uma ID de conjunto de relatórios a partir de uma célula no Excel. Consulte [Selecionar Conjuntos de Relatórios](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segmento**: Segmentos são subconjuntos personalizados de dados, ou dados filtrados por regras criadas por você. Segmentos têm por base acessos, visitas e visitantes. Consulte o [Guia de segmentação do Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/components/segmentation/seg-home) para obter mais informações sobre segmentos.
+1. **Segmento**: Segmentos são subconjuntos personalizados de dados, ou dados filtrados por regras criadas por você. Segmentos têm por base acessos, visitas e visitantes. Consulte o [Guia de segmentação do Analytics](/help/components/segmentation/seg-home.md) para obter mais informações sobre segmentos.
 
    Por exemplo, você pode executar um [!UICONTROL Relatório de páginas] e, em seguida, aplicar um segmento de Visitantes em primeira visita.
 

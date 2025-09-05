@@ -6,7 +6,7 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 hidefromtoc: true
 role: Developer
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -18,17 +18,17 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > Este artigo fornece aos **clientes do Adobe Analytics que (estão planejando) implementar o Adobe Analytics** em seu site instruções sobre como fornecer links para opção de não participação aos usuários do site. <p><p>
-> Se você está **visitando um site que implementou o Adobe Analytics** e deseja recusar, **<span style="color:red">este artigo NÃO é para você</span>**. Consulte [Opções de privacidade de Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.
+<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Se você está **visitando um site que implementou o Adobe Analytics** e deseja recusar, **<span style="color:red">este artigo NÃO é para você</span>**. Consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.
 
-Alguns visitantes do site preferem não ter suas informações de navegação incluídas no conjunto de dados. O Adobe oferece a capacidade de fornecer aos visitantes do seu site um meio de optar pela não participação em suas informações que estão sendo analisadas.
+Alguns visitantes do site preferem não ter suas informações de navegação incluídas no conjunto de dados. O Adobe oferece a capacidade de fornecer aos visitantes do seu site uma maneira de optar pela não participação em suas informações que estão sendo analisadas.
 
-Os links para opção de não participação são uma maneira de permitir que os visitantes do site omitam seus dados nos relatórios do Analytics. Esses links são limitados às implementações do AppMeasurement; a Adobe recomenda usar o [serviço de Opt-in da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR). O serviço de Opt-in é mais robusto e funciona em vários produtos da Adobe Experience Cloud, incluindo Adobe Analytics e AppMeasurement.
+Os links para opção de não participação são uma maneira de permitir que os visitantes do site omitam seus dados nos relatórios do Analytics. Esses links são limitados às implementações do AppMeasurement; em vez disso, a Adobe recomenda usar o [serviço de Opt-in da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR). O serviço de Opt-in é mais robusto e funciona em vários produtos da Adobe Experience Cloud, incluindo Adobe Analytics e AppMeasurement.
 
-Quando um visitante atinge um URL de opção de não participação, ele é solicitado a instalar um cookie de opção de não participação. Se um usuário optar por não ser rastreado e um cookie de opção de não participação for definido, o AppMeasurement continuará enviando dados para o Adobe. No entanto, esses dados não serão processados ou incluídos nos relatórios.
+Quando um visitante atinge um URL de opção de não participação, ele é solicitado a instalar um cookie de opção de não participação. Se um usuário optar por não ser rastreado e um cookie de opção de não participação for definido, a AppMeasurement continuará enviando dados para a Adobe. No entanto, esses dados não serão processados ou incluídos nos relatórios.
 
 >[!TIP]
 >
->A Adobe também oferece configurações de privacidade por conjunto de relatórios. Consulte [Configurações de privacidade](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md) no guia do usuário Administração.
+>A Adobe também oferece configurações de privacidade por conjunto de relatórios. Consulte [Configurações de privacidade](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md) no guia do usuário Administração.
 
 ## URL de não participação
 
@@ -44,7 +44,7 @@ A página de opção de não participação da organização depende do valor da
    1. No servidor da Web, abra o arquivo AppMeasurement.js usado no site em um editor de código ou texto.
    1. Observe o valor da variável `trackingServer`.
 
-* Usando o [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=pt-BR):
+* Usando o [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Navegue até seu site usando o navegador Chrome.
    1. Abra o Experience Cloud Debugger e acesse a guia [!UICONTROL Rede].
    1. Observe o valor [!UICONTROL URL de solicitação - Nome do host].

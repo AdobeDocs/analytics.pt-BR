@@ -1,13 +1,13 @@
 ---
-description: Obtenha respostas sobre perguntas comuns sobre o Analysis Workspace.
+description: Obtenha respostas para perguntas comuns sobre o Analysis Workspace.
 title: Perguntas frequentes
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 98%
+source-wordcount: '552'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Como o Analysis Workspace é uma ferramenta de relatórios, ela não exerce impa
 +++
 
 +++Quantos conjuntos de relatórios podem ser exibidos em um projeto do Analysis Workspace?
-Agora você pode criar projetos no Analysis Workspace usando dados de [vários conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=pt-BR).
+Agora você pode criar projetos no Analysis Workspace usando dados de [vários conjuntos de relatórios](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md).
 +++
 
 +++Como você implementa o Analysis Workspace?
@@ -43,19 +43,19 @@ Consulte [Otimizar o desempenho](/help/analyze/analysis-workspace/workspace-faq/
 
 +++
 
-+++Como os dados entram no seu projeto do Analysis Workspace?
++++Como os dados entram em seu projeto do Analysis Workspace?
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dados no Analysis Workspace](https://video.tv.adobe.com/v/33848?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dados no Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 +++
 
-+++Como posso rastrear o uso do Workspace?
++++Como posso monitorar o uso do Espaço de trabalho?
 
 Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rastreamento por log](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 +++
 
-+++Quando arrasto uma métrica, vejo a mensagem “Dados inválidos”. Como posso resolver esse problema?
++++Quando eu arrasto uma métrica, vejo &quot;Dados inválidos&quot;. Como posso resolver esse problema?
 
 Dados inválidos significa que a Adobe não pode retornar dados usando a combinação de dimensões e métricas usadas no relatório. Por exemplo, duas métricas empilhadas uma sobre a outra não podem retornar como dados, pois não há como exibir duas métricas desse modo. Em vez disso, coloque as métricas lado a lado.
 
@@ -68,11 +68,11 @@ Se você criar um relatório de espaço de trabalho com êxito, mas não houver 
 * Verifique novamente o conjunto de relatórios e veja se ele está preenchido com dados.
 * Se você aplicar um segmento no seu relatório, os critérios do segmento podem não corresponder a nenhum dado. Tente remover o segmento ou ajustar a definição do segmento.
 * Verifique o intervalo de datas no canto superior direito e verifique se ele está definido como um valor que você esperaria.
-* Acesse seu site e use o [Depurador](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR) para verificar se os dados estão sendo coletados.
+* Acesse seu site e use o [Depurador](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home) para verificar se os dados estão sendo coletados.
 
 
 +++
 
-+++Como usuário somente de leitura, que ações posso executar no Analysis Workspace?
++++Como usuário somente leitura, que ações posso executar no Analysis Workspace?
 Quando um projeto é compartilhado como somente leitura, todas as funções e recursos de edição são completamente desabilitados, e os destinatários só podem alterar o menu suspenso para aplicar um filtro ao painel de forma predefinida.
 +++

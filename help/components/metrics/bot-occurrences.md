@@ -3,7 +3,7 @@ title: Ocorrências de bot
 description: O número de ocorrências que corresponderam às regras de bot.
 feature: Metrics
 exl-id: 94cbbee4-8455-48b1-b804-534ed8fccdc9
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Ocorrências de bot
 
-A [métrica](overview.md) de &#39;Ocorrências de bot&#39; mostra o número de ocorrências que corresponderam às [Regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+A [métrica](overview.md) de &#39;Ocorrências de bot&#39; mostra o número de ocorrências que corresponderam às [Regras de bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md).
 
 Como o relatório de bot é separado do restante dos dados do conjunto de relatórios, essa métrica funciona somente com as seguintes dimensões:
 

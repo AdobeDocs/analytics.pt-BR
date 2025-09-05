@@ -3,7 +3,7 @@ title: Domínio de referência
 description: O domínio global no qual um visitante estava antes de clicar para acessar o site.
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 97%
@@ -16,7 +16,7 @@ A [dimensão](overview.md) do &#39;Domínio de referência&#39; informa em quais
 
 >[!IMPORTANT]
 >
->Você deve configurar os [Filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
+>Você deve configurar os [Filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
 
 O mesmo relatório pode mostrar resultados diferentes entre o Analysis Workspace e o Data Warehouse. O Analysis Workspace informa o domínio de referência para cada página individual, excluindo valores que correspondem a filtros internos de URL. O Data Warehouse informa somente o primeiro domínio de referência da visita e ignora filtros internos de URL.
 
@@ -25,7 +25,7 @@ O mesmo relatório pode mostrar resultados diferentes entre o Analysis Workspace
 Essa dimensão precisa ser configurada na interface do Analytics e os dados em solicitações de imagem.
 
 * Em sua implementação, essa dimensão recupera dados da [`r` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `document.referrer` no navegador. Se você utilizar uma biblioteca do AppMeasurement (por meio de tags na Adobe Experience Platform ), essa dimensão funcionará imediatamente. Se um método de coleta de dados diferente do AppMeasurement for utilizado (por meio da API), inclua o parâmetro da sequência de consulta `r` em solicitações de imagem.
-* Na interface do Analytics, é necessário configurar os [Filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) do conjunto de relatórios. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
+* Na interface do Analytics, é necessário configurar os [Filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) do conjunto de relatórios. Falhas ao configurar filtros de URL internos podem incluir domínios internos e impedir que domínios externos apareçam.
 
 A Adobe mantém o domínio referenciador para uma visita. Se um visitante sair e clicar em um link para acessar o site por um domínio diferente em uma única visita, o novo valor será atualizado e persistirá no restante da visita. Se desejar ver apenas o valor original, consulte [Domínio de Referência Original](original-referring-domain.md).
 

@@ -3,10 +3,10 @@ title: Política de retenção de dados
 description: Uma política de retenção de dados determina por quanto tempo a Adobe armazena os dados.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Quando os dados excederem sua política de retenção de dados, a Adobe mantém 
 
 ## Exibir/gerenciar a política atual de retenção de dados
 
-A caixa de diálogo Governança de dados em [!UICONTROL Ferramentas do] administrador fornecem uma visão geral de quais conjuntos de relatórios foram configurados para governança de dados. Ele também indica se eles foram mapeados para uma organização do Experience Cloud e se uma política de retenção de dados está em vigor para este conjunto de relatórios. [Mais informações](/help/admin/admin/c-data-governance/an-gdpr-workflow.md)
+A caixa de diálogo Governança de dados em [!UICONTROL Ferramentas do] administrador fornecem uma visão geral de quais conjuntos de relatórios foram configurados para governança de dados. Também indica se eles foram mapeados para uma organização da Experience Cloud e se uma política de retenção de dados está em vigor para este conjunto de relatórios.
 
 ## Perguntas frequentes
 
@@ -47,7 +47,7 @@ Sua empresa, na qualidade de controlador de dados, pode identificar as partes en
 
 +++ Como calculo a janela de retenção de dados?
 
-A política de retenção de dados define uma janela rolante de retenção de dados na qual os dados concluídos podem ser visualizados e relatados. A data de início da retenção de dados é determinada pela data atual menos o período de retenção de dados. A data final da retenção de dados é determinada pela data atual. Os dados são incluídos na janela de retenção de dados se o carimbo de data e hora dos dados estiver entre a data inicial e a data final.
+A política de retenção de dados define uma janela rolante de retenção de dados na qual os dados concluídos podem ser visualizados e relatados. A data inicial da retenção de dados é determinada pela data atual menos o período de retenção de dados. A data final da retenção de dados é determinada pela data atual. Os dados são incluídos na janela de retenção de dados se o carimbo de data e hora dos dados estiver entre a data inicial e a data final.
 
 +++
 

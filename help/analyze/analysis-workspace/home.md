@@ -4,8 +4,8 @@ description: Saiba mais sobre o Analysis Workspace, a principal ferramenta de an
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 06e66118888f5dfcefb484d429bf5421861fb92e
-workflow-type: ht
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ O Analysis Workspace permite criar análises rapidamente para coletar insights e
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do Analysis Workspace](https://video.tv.adobe.com/v/35802/?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -90,7 +90,7 @@ Consulte as tabelas abaixo para obter uma visão geral dos menus disponíveis.
 | **[!UICONTROL Painel em branco]** | **[!UICONTROL *opt+b *]** | **[!UICONTROL *alt+b *]** | Insere um [painel em branco](/help/analyze/analysis-workspace/c-panels/blank-panel.md). |
 | **[!UICONTROL Visualizadores simultâneos de mídia]** | **[!UICONTROL *opt+h *]** | **[!UICONTROL *alt+h *]** | Insere um painel [Visualizadores simultâneos de mídia](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md). |
 | **[!UICONTROL Tempo gasto com a reprodução da mídia]** | **[!UICONTROL *opt+i *]** | **[!UICONTROL *alt+i *]** | Insere um painel [Tempo gasto com a reprodução da mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). |
-| **[!UICONTROL Público médio a cada minuto de mídia]** | **[!UICONTROL *opt+m *]** | **[!UICONTROL *alt+m *]** | Insere um painel [Público médio por minuto de mídia](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md). |
+| **[!UICONTROL Público-alvo médio a cada minuto de mídia]** | **[!UICONTROL *opt+m *]** | **[!UICONTROL *alt+m *]** | Insere um painel [Público-alvo médio por minuto de mídia](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md). |
 | **[!UICONTROL Atribuição]** | **[!UICONTROL *opt+e *]** | **[!UICONTROL *alt+e *]** | Insere um painel de [Atribuição](/help/analyze/analysis-workspace/c-panels/attribution.md). |
 | **[!UICONTROL Forma livre]** | **[!UICONTROL *opt+a *]** | **[!UICONTROL *alt+a *]** | Insere um painel de [Forma livre](/help/analyze/analysis-workspace/c-panels/freeform-panel.md). |
 | **[!UICONTROL Insights rápidos]** | **[!UICONTROL *opt+j *]** | **[!UICONTROL *alt+j *]** | Insere um painel [Insights rápidos](/help/analyze/analysis-workspace/c-panels/quickinsight.md). |
@@ -103,7 +103,7 @@ Consulte as tabelas abaixo para obter uma visão geral dos menus disponíveis.
 | **[!UICONTROL Componentes]** | Atalho do Mac | Atalho do Windows | Descrição |
 |---|---|---|---|
 | **[!UICONTROL Criar segmento...]** | **[!UICONTROL *shift+cmd+e *]** | **[!UICONTROL *shift+ctrl+e *]** | Criar um novo [segmento](/help/components/segmentation/segmentation-workflow/seg-create.md). |
-| **[!UICONTROL Criar métrica...]** | **[!UICONTROL *shift+cmd+c *]** | **[!UICONTROL *shift+ctrl+c *]** | Cria uma nova [métrica calculada](/help/components/c-calcmetrics/cm-overview.md). |
+| **[!UICONTROL Criar métrica...]** | **[!UICONTROL *shift+cmd+c *]** | **[!UICONTROL *shift+ctrl+c *]** | Cria uma nova [métrica calculada](/help/components/calculated-metrics/cm-overview.md). |
 | **[!UICONTROL Criar intervalo de datas...]** | **[!UICONTROL *shift+cmd+d *]** | **[!UICONTROL *shift+ctrl+d *]** | Criar um novo [intervalo de datas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | **[!UICONTROL Criar anotação...]** | **[!UICONTROL *shift+cmd+o *]** | **[!UICONTROL *shift+ctrl+o *]** | Cria uma nova [anotação](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 | **[!UICONTROL Atualizar componentes]** | **[!UICONTROL *opt+shift+r *]** | **[!UICONTROL *alt+shift+r *]** | Atualiza os componentes no projeto. |
@@ -168,7 +168,7 @@ Analysis Workspace allows you to build analyses quickly to gather insights and t
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis workspace overview](https://video.tv.adobe.com/v/35802/?quality=12&learn=on&captions=por_br){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis workspace overview](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -311,8 +311,8 @@ When you finish building out the project and it's gathering actionable insights,
 ## Additional resources {#resources}
 
 - The [Learning landing](/help/getting-started/landing.md#learning) page in Customer Journey Analytics. This page is  great way to become acquainted with Analysis Workspace. Especially the Learning Workspace Fundamental. This template walks you through common terminology and steps for building your first analysis in Workspace
-- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/overview).
-- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/pt-br/docs/release-notes/experience-cloud/current) for updates about new features.
+- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
+- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) for updates about new features.
 
 
 
@@ -326,7 +326,7 @@ The following video provides a brief overview with examples of what is possible.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace overview](https://video.tv.adobe.com/v/35802/?quality=12&learn=on&captions=por_br){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace overview](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -351,7 +351,7 @@ Following are some of the key features available in Analysis Workspace:
 
 **Panels** are used to organize your analysis within a project and can contain many tables & visualizations. Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. On the far left rail, select the top **[!UICONTROL Panels]** icon to see a full list of panels available.
 
-To learn more about panels, see [Panels overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=pt-BR).
+To learn more about panels, see [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 ![](assets/build-panels.png)
 
@@ -359,7 +359,7 @@ To learn more about panels, see [Panels overview](https://experienceleague.adobe
 
 **Visualizations**, such as a bar or line chart, can be used to visually bring data to life. On the far left rail, select the middle **[!UICONTROL Visualizations]** icon to see the full list of visualizations available. 
 
-To learn more about visualizations, see [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=pt-BR).
+To learn more about visualizations, see [Visualizations overview](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 ![](assets/build-visualizations.png)
 
@@ -415,8 +415,8 @@ When you finish building out the project and it's gathering actionable insights,
 
 ## Additional resources {#resources}
 
-* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=pt-BR).
-* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=pt-BR#analytics) for updates about new features.
+* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
+* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) for updates about new features.
 * A great way to become acquainted with Analysis Workspace is through the Analysis Workspace Training Tutorial template. This template walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial:
   1. On the [!UICONTROL **Workspace**] tab in Adobe Analytics, select **[!UICONTROL Learning]** on the left.
   1. Select **[!UICONTROL Open Tutorial]**.

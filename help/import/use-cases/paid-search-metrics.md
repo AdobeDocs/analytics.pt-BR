@@ -3,9 +3,9 @@ title: Importar métricas de pesquisa paga
 description: Etapas para configurar o Adobe Analytics para rastrear suas métricas de pesquisa paga (por exemplo, Google Ads, Microsoft Advertising etc.) usando Fontes de dados.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1204'
 ht-degree: 90%
 
 ---
@@ -28,7 +28,7 @@ As etapas explicam como configurar uma importação única de dados de pagamento
 
 Nosso primeiro passo é preparar o Adobe Analytics para receber as métricas. Para fazer isso, você precisa configurar alguns eventos bem-sucedidos.
 
-[!UICONTROL Eventos bem-sucedidos] são ações que podem ser rastreadas. Você determina o que é um [!UICONTROL evento bem-sucedido]. Para fins de métricas de rastreamento de [!UICONTROL pesquisa paga], é desejável configurar [!UICONTROL eventos bem-sucedidos] em torno de [!UICONTROL cliques], [!UICONTROL impressões] e [!UICONTROL custo total], e ativar [!UICONTROL códigos de rastreamento].
+[!UICONTROL Eventos bem-sucedidos] são ações que podem ser rastreadas. Você determina o que é um [!UICONTROL evento bem-sucedido]. Para fins de métricas de rastreamento de [!UICONTROL pesquisa paga], é desejável configurar [!UICONTROL eventos bem-sucedidos] em torno de [!UICONTROL cliques], [!UICONTROL impressões] e [!UICONTROL custo total], e habilitar [!UICONTROL códigos de rastreamento].
 
 1. Vá para **[!UICONTROL Adobe Analytics > Administrador > Conjuntos de relatórios]**.
 1. Selecione um conjunto de relatórios.
@@ -43,7 +43,7 @@ Nosso primeiro passo é preparar o Adobe Analytics para receber as métricas. Pa
 1. Clique em Salvar.
 Você deve receber uma mensagem informando que seus salvamentos foram aprovados.
 1. Navegue até **[!UICONTROL Administrador > Conjuntos de relatórios > Editar configurações > Conversão > Variáveis de conversão]**.
-1. Ative os códigos de rastreamento marcando a caixa de seleção ao lado de **[!UICONTROL Código de rastreamento]** em **[!UICONTROL Campanha > Variável de campanha]**.
+1. Habilite os códigos de rastreamento marcando a caixa de seleção ao lado de **[!UICONTROL Código de rastreamento]** em **[!UICONTROL Campanha > Variável de campanha]**.
 
    ![Variável de campanha](assets/campaign-variable.png)
 
@@ -66,7 +66,7 @@ O [!UICONTROL Assistente de ativação da Fonte de dados] exibe:
 1. Clique em **[!UICONTROL Próximo]** e nomeie a fonte de dados. Este nome aparecerá no Gerenciador de fonte de dados.
 1. Aceite o contrato de serviço e clique em **[!UICONTROL Próximo]**.
 1. Selecione as três métricas padrão: [!UICONTROL Impressões], [!UICONTROL Cliques] e [!UICONTROL Custo total] e clique em **[!UICONTROL Próximo]**.
-1. Agora &quot;mapeie&quot; esta nova fonte de dados para os eventos personalizados que criamos em [Eventos bem-sucedidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
+1. Agora &quot;mapeie&quot; esta nova fonte de dados para os eventos personalizados que criamos em [Eventos bem-sucedidos](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md).
 
    ![Mapeamento](assets/data-source-mapping.png)
 
@@ -118,7 +118,7 @@ Retorne ao assistente da Fonte de dados para obter instruções e faça upload d
 
 Adicionar métricas calculadas será útil ao tomar decisões de pagamento por clique.
 
-Por exemplo, você poderia adicionar estas [métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=pt-BR#calculated-metrics):
+Por exemplo, você poderia adicionar estas [métricas calculadas](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics):
 
 | Nome | Fórmula | Tipo de métrica | Descrição |
 | --- | --- | --- | --- |

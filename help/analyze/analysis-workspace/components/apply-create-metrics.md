@@ -4,10 +4,10 @@ title: Métricas
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ A Adobe oferece vários tipos de métricas para uso no Analysis Workspace:
 
 * **Métricas padrão**: a maioria das métricas usadas em projetos é padrão. Os exemplos incluem [Visualizações de Página](/help/components/metrics/page-views.md), [Receita](/help/components/metrics/revenue.md)ou [Eventos personalizados](/help/components/metrics/custom-events.md). Consulte [Visão geral das métricas](/help/components/metrics/overview.md) no guia do usuário Componentes para obter mais informações.
 
-* **Métricas calculadas** ![Calculadora](/help/assets/icons/Calculator.svg): métricas definidas pelo usuário baseadas em métricas padrão, números estáticos ou funções algorítmicas. As métricas calculadas definidas pelo usuário mostram um ícone de calculadora na lista de componentes disponíveis. Consulte [Visão geral das métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) no guia do usuário Componentes para obter mais informações.
+* **Métricas calculadas** ![Calculadora](/help/assets/icons/Calculator.svg): métricas definidas pelo usuário baseadas em métricas padrão, números estáticos ou funções algorítmicas. As métricas calculadas definidas pelo usuário mostram um ícone de calculadora na lista de componentes disponíveis. Consulte [Visão geral das métricas calculadas](/help/components/calculated-metrics/cm-overview.md) no guia do usuário Componentes para obter mais informações.
 
 * **Modelos de métrica calculada** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): métricas definidas pela Adobe que se comportam de forma semelhante às métricas calculadas. É possível usá-los como estão nos projetos do Workspace ou salvar uma cópia para personalizar sua lógica. Os modelos de métrica calculada mostram um ícone da Adobe na lista de componentes disponíveis.
 
@@ -41,7 +41,7 @@ As métricas podem ser usadas de várias maneiras no Analysis Workspace. Para ob
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](https://video.tv.adobe.com/v/328569?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Há várias maneiras de criar métricas calculadas. O método escolhido determin
 
 ### Criar métricas calculadas para todos os projetos
 
-Você pode usar o [construtor de métrica calculada](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) para [criar métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md). Quando criadas dessa forma, as métricas calculadas ficam disponíveis na lista de componentes e podem ser usadas em projetos em toda a organização.
+Você pode usar o [construtor de métrica calculada](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) para [criar métricas calculadas](/help/components/calculated-metrics/workflow/cm-workflow.md). Quando criadas dessa forma, as métricas calculadas ficam disponíveis na lista de componentes e podem ser usadas em projetos em toda a organização.
 
 
 ### Criar métricas calculadas para um único projeto
@@ -79,15 +79,15 @@ Para criar uma métrica calculada para um único projeto:
 
    Quando uma única coluna é selecionada, as seguintes opções estão disponíveis:
 
-   * [!UICONTROL **Média**]: cria uma nova coluna que mostra o valor médio no conjunto de elementos de dimensão para a coluna. Os valores da coluna usam a função [Média](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean).
+   * [!UICONTROL **Média**]: cria uma nova coluna que mostra o valor médio no conjunto de elementos de dimensão para a coluna. Os valores da coluna usam a função [Média](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean).
 
-   * [!UICONTROL **Mediana**]: cria uma nova coluna que mostra o valor mediano no conjunto de elementos de dimensão para a coluna. Os valores da coluna usam a função [Mediana](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median).
+   * [!UICONTROL **Mediana**]: cria uma nova coluna que mostra o valor mediano no conjunto de elementos de dimensão para a coluna. Os valores da coluna usam a função [Mediana](/help/components/calculated-metrics/cm-reference/cm-functions.md#median).
 
-   * [!UICONTROL **Coluna máx**]: cria uma nova coluna que mostra o maior valor no conjunto de elementos de dimensão para a coluna. Os valores da coluna usam a função [Máximo da Coluna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum).
+   * [!UICONTROL **Coluna máx**]: cria uma nova coluna que mostra o maior valor no conjunto de elementos de dimensão para a coluna. Os valores da coluna usam a função [Máximo da Coluna](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum).
 
-   * [!UICONTROL **Coluna mín**]: cria uma nova coluna que mostra o menor valor no conjunto de elementos de dimensão para a coluna. Os valores da coluna usam a função [Mínimo da Coluna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
+   * [!UICONTROL **Coluna mín**]: cria uma nova coluna que mostra o menor valor no conjunto de elementos de dimensão para a coluna. Os valores da coluna usam a função [Mínimo da Coluna](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **Soma da coluna**]: cria uma nova coluna que adiciona todos os valores numéricos de uma métrica em uma coluna (entre os elementos de uma dimensão). Os valores da coluna usam a função [Soma da Coluna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
+   * [!UICONTROL **Soma da coluna**]: cria uma nova coluna que adiciona todos os valores numéricos de uma métrica em uma coluna (entre os elementos de uma dimensão). Os valores da coluna usam a função [Soma da Coluna](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum).
 
    Quando duas colunas são selecionadas, as seguintes opções estão disponíveis:
 
@@ -101,7 +101,7 @@ Para criar uma métrica calculada para um único projeto:
 
    * [!UICONTROL **Alteração de porcentagem**]: cria uma nova coluna que mostra a alteração de porcentagem entre as duas colunas selecionadas.
 
-[Métricas calculadas: métricas sem implementação](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[Métricas calculadas: Métricas sem implementação](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Comparar métricas com diferentes modelos de atribuição
@@ -119,7 +119,7 @@ Veja um vídeo sobre este tópico:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Média cumulativa](https://video.tv.adobe.com/v/35046?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Média cumulativa](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

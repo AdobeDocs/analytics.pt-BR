@@ -3,8 +3,8 @@ title: Visão geral das métricas
 description: Visualize quantidades de itens ou dados da dimensão ao longo do tempo.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: ht
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Por exemplo, se você tiver combinado a dimensão **[!UICONTROL Página]** com a
 
 {style="table-layout:fixed"}
 
-Se não for possível localizar a página de ajuda de uma determinada métrica, ela provavelmente se trata de um [evento personalizado](custom-events.md) ou uma [métrica calculada](../c-calcmetrics/cm-overview.md).
+Se não for possível localizar a página de ajuda de uma determinada métrica, ela provavelmente se trata de um [evento personalizado](custom-events.md) ou uma [métrica calculada](../calculated-metrics/cm-overview.md).
 
 * Se a métrica for um evento personalizado, consulte um administrador do Analytics em sua organização ou o [documento de design de solução ](/help/implement/prepare/solution-design.md)do conjunto de relatórios.
 * Se a métrica for uma métrica calculada, clique no ícone de informações para determinar sua fórmula.

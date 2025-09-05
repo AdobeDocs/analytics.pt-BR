@@ -3,7 +3,7 @@ title: Métricas de capítulo de serviços de mídia de streaming
 description: Métricas disponíveis ao habilitar [!UICONTROL Capítulos de mídia] para um conjunto de relatórios.
 feature: Metrics
 exl-id: bef379d5-9dc9-404f-8197-1ba66d11299d
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 As métricas de capítulo dos serviços de mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleção de dados por meio de bibliotecas de coleção de serviços de mídia de transmissão. O uso dessas métricas exige o **[!UICONTROL Complemento de mídia do Adobe Analytics para streaming]**. Entre em contato com a equipe de conta da Adobe para obter mais detalhes.
 
-Ao habilitar **[!UICONTROL Capítulos da mídia]** em [Relatórios de mídia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), as seguintes métricas estarão disponíveis:
+Ao habilitar **[!UICONTROL Capítulos da mídia]** em [Relatórios de mídia](/help/admin/tools/manage-rs/edit-settings/media-management.md), as seguintes métricas estarão disponíveis:
 
 | Nome da métrica | Descrição | Enviado com | Variável de dados de contexto |
 | --- | --- | --- | --- |

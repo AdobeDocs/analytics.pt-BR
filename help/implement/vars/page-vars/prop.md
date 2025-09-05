@@ -4,7 +4,7 @@ description: Variáveis personalizadas que podem ser usadas na implementação.
 feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 85%
@@ -53,11 +53,11 @@ s.prop1 = "Example custom value";
 
 ## Props de lista
 
-Props de lista são uma configuração aplicada a props que permitem que a variável armazene muitos valores na mesma ocorrência. Se essa configuração não estiver ativada ou se o delimitador errado for usado, a variável será tratada como um valor único.
+Props de lista são uma configuração aplicada a props que permitem que a variável armazene muitos valores na mesma ocorrência. Se essa configuração não estiver habilitada ou se o delimitador errado for usado, a variável será tratada como um valor único.
 
 ### Configurar props de lista
 
-Ativar propriedade de lista em [Variáveis de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) em configurações do conjunto de relatórios. Verifique se o delimitador desejado está configurado corretamente. A Adobe não fornece um delimitador padrão.
+Habilitar propriedade de lista em [Variáveis de tráfego](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) em configurações do conjunto de relatórios. Verifique se o delimitador desejado está configurado corretamente. A Adobe não fornece um delimitador padrão.
 
 >[!TIP]
 >

@@ -3,7 +3,7 @@ title: Consentimento da plataforma de publicidade
 description: Consulte a configuração para consentimento de publicidade para provedores de anúncios de terceiros.
 feature: Dimensions
 exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
-source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -52,10 +52,10 @@ Os caracteres além do primeiro e do segundo caracteres são ignorados no moment
 Você pode usar os dados de consentimento de anúncio coletados:
 
 * Feeds de dados: os dados de consentimento do anúncio estão disponíveis na `dataprivacydmaconsent` [coluna](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
-* Relatórios de Data Warehouse: os dados de consentimento do anúncio estão disponíveis usando a dimensão **[!UICONTROL Consentimento da plataforma de publicidade]**.
+* Relatórios do Data Warehouse: os dados de consentimento do anúncio estão disponíveis usando a dimensão **[!UICONTROL Consentimento da plataforma de anúncio]**.
 
 Sua organização determina a lógica para implementar essa variável de dados de contexto. O valor não persiste além da ocorrência à qual está definido, portanto, você deve definir a variável de dados de contexto em cada página.
 
 Ao enviar dados de publicidade do Adobe Analytics via Adobe Advertising como eventos de conversão para o Google, consulte a equipe do Adobe Advertising para ajudar na integração.
 
-Para obter mais informações, consulte [Relatórios de privacidade](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).
+Para obter mais informações, consulte [Relatórios de privacidade](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md).

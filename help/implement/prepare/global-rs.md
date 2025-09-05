@@ -4,7 +4,7 @@ description: Entenda as vantagens e os requisitos para usar um conjunto de relat
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
@@ -22,8 +22,8 @@ A Adobe recomenda implementar um conjunto de relatórios global na maioria dos c
 * **Dados agregados:** os conjuntos de relatórios globais permitem que você veja os eventos de KPI e de sucesso nos sites. A segmentação e os conjuntos de relatórios virtuais podem ser usados para exibir dados específicos do site.
 * **Suporte para o Cross-Device Analytics:** O CDA exige um conjunto de relatórios que coleta dados de vários lugares, como sites e aplicativos móveis. Dispositivos separados podem unir dados se implementados corretamente. Consulte [Cross-Device Analytics](../../components/cda/overview.md) no guia do usuário de Componentes para obter mais informações.
 * **Não há necessidade de mais de um conjunto de relatórios:** todos os dados podem ser coletados em um único conjunto de relatórios, portanto, é menos provável que um desenvolvedor envie dados erroneamente para o conjunto de relatórios incorreto.
-* **Não há necessidade de rollups:** os rollups são um recurso bastante antigo que agrega dados individuais do conjunto de relatórios diariamente. Os rollups não cancelam a duplicação de dados de visita ou de visitante, o que pode resultar em números maiores. Consulte [Rollups](../../admin/admin/c-manage-report-suites/rollup-report-suite.md) no Guia do usuário de administração para obter mais informações.
-* **Poupe tempo**: os projetos da Workspace, as classificações, os segmentos e as métricas calculadas são vinculados ao mesmo conjunto de relatórios global. Os administradores gastam menos tempo gerenciando esses componentes e o controle de dados.
+* **Não há necessidade de rollups:** os rollups são um recurso bastante antigo que agrega dados individuais do conjunto de relatórios diariamente. Os rollups não cancelam a duplicação de dados de visita ou de visitante, o que pode resultar em números maiores. Consulte [Rollups](../../admin/tools/manage-rs/rollup-report-suite.md) no Guia do usuário de administração para obter mais informações.
+* **Poupe tempo**: os projetos da Workspace, as classificações, os segmentos e as métricas calculadas são vinculados ao mesmo conjunto de relatórios global. Os administradores gastam menos tempo gerenciando esses componentes e em governança de dados.
 * **Atribuição mais precisa entre marcas:** se uma visita começar em um site, em seguida, clicar em outro de seus sites antes de acionar um evento bem-sucedido, a atribuição será coletada com precisão. Por exemplo, um visitante clica em um link de pesquisa paga e chega ao site A. Em seguida, clica em um link para o site B e faz uma compra. Um conjunto de relatórios global atribui corretamente a compra para a pesquisa paga.
 * **Implementação simplificada:** como todas as marcas/sites enviam dados para o mesmo conjunto de relatórios, suas implementações em cada site são alinhadas. Esse controle imposto garante que uma dimensão ou métrica específica seja salva na mesma eVar ou evento. Os administradores, testadores, proprietários do gerenciamento de tags e analistas se beneficiam dessa simplificação.
 
@@ -35,7 +35,7 @@ A Adobe recomenda implementar um conjunto de relatórios global na maioria dos c
 
 Use as diretrizes gerais a seguir para entender o processo de implementação de um conjunto de relatórios global.
 
-1. Criar o conjunto de relatórios global no Adobe Analytics. Consulte [Criar um conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) no Guia do usuário de administração para obter mais informações.
+1. Criar o conjunto de relatórios global no Adobe Analytics. Consulte [Criar um conjunto de relatórios](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md) no Guia do usuário de administração para obter mais informações.
 1. Trabalhe com equipes em sua organização responsáveis por cada domínio. Muitas equipes têm requisitos de relatórios específicos para a área de negócios.
 1. Registre e agregue todos esses requisitos em um [documento de design da solução](solution-design.md). Se as equipes tiverem requisitos semelhantes para uma dimensão, poderão usar a mesma variável personalizada. Por exemplo, se o site A e B exigirem uma dimensão de navegação estrutural, as implementações de ambos os sites podem enviar esses dados por meio da eVar1.
 
@@ -58,4 +58,4 @@ O processo de mover uma implementação existente em vários sites para um únic
 ## Páginas relacionadas
 
 [Mudança da marcação de vários conjuntos para um conjunto de relatórios global e virtual](../../components/vrs/vrs-considerations.md)
-[Comparação de rollups e conjuntos de relatórios globais](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)
+[Comparação de rollups e conjuntos de relatórios globais](../../admin/tools/manage-rs/rollup-report-suite.md)

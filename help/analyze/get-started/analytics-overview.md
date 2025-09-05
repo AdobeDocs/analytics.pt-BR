@@ -4,9 +4,9 @@ short-description: Conheça os principais recursos, casos de uso comuns e as pri
 title: Visão geral do Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '459'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introduçã
 >[!ENDSHADEBOX]
 
 
-Caso tenha dúvidas sobre qual ferramenta usar, consulte [Qual ferramenta do Adobe Analytics devo usar?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=pt-BR).
+Caso tenha dúvidas sobre qual ferramenta usar, consulte [Qual ferramenta do Adobe Analytics devo usar?](/help/analyze/get-started/which-analytics-tool.md).
 
 ## Vá além com o Customer Journey Analytics
 

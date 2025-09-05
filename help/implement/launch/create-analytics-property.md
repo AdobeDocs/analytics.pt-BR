@@ -4,7 +4,7 @@ description: Crie um espaço para personalizar como os dados são coletados, usa
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 97%
@@ -15,9 +15,9 @@ ht-degree: 97%
 
 As tags na Adobe Experience Platform permitem integrar soluções da Experience Cloud em seu site (incluindo o Analytics). Esta página descreve especificamente como um administrador de tags pode configurar uma implementação básica do Adobe Analytics corretamente.
 
-## Pré-requisitos 
+## Pré-requisitos
 
-[Criar um conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): criar um silo para que os dados do Analytics sejam coletados.
+[Criar um conjunto de relatórios](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md): criar um silo para que os dados do Analytics sejam coletados.
 
 ## Criar uma propriedade de tag e instalar extensões essenciais
 

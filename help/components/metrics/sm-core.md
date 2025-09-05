@@ -3,7 +3,7 @@ title: Métricas principais dos serviços de mídia de transmissão
 description: Métricas disponíveis ao habilitar o [!UICONTROL Media Core] para um conjunto de relatórios.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 1%
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 As métricas principais dos serviços de mídia de transmissão fornecem funcionalidade básica de relatórios para dados coletados por meio de bibliotecas de coleção de serviços de mídia de transmissão. O uso dessas métricas exige o **[!UICONTROL Complemento de mídia do Adobe Analytics para streaming]**. Entre em contato com a equipe de conta da Adobe para obter mais detalhes.
 
-Quando você habilita o **[!UICONTROL Media Core]** em [Media Reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), as seguintes métricas estão disponíveis:
+Quando você habilita o **[!UICONTROL Media Core]** em [Media Reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), as seguintes métricas estão disponíveis:
 
 | Nome da métrica | Descrição | Enviado com | Variável de dados de contexto |
 | --- | --- | --- | --- |
-| Público médio a cada minuto | A quantidade total de tempo gasto em um determinado conteúdo, dividida por sua duração para todas as suas sessões de reprodução.<br>`[Time spent] / [Media length]` | Fechamento de mídia | `a.media.averageMinuteAudience` |
+| Público-alvo médio a cada minuto | A quantidade total de tempo gasto em um determinado conteúdo, dividida por sua duração para todas as suas sessões de reprodução.<br>`[Time spent] / [Media length]` | Fechamento de mídia | `a.media.averageMinuteAudience` |
 | Conteúdo completo | Acionado quando um conteúdo é concluído. Essa métrica não significa necessariamente que eles visualizaram todo o conteúdo; eles podem ter pulado para frente. Isso só significa que eles atingiram o fim do conteúdo. | `a.media.complete` |
 | Fluxos afetados pausados | Um booleano que é acionado se uma ou mais pausas ocorreram durante a reprodução do conteúdo. | Fechamento de mídia | `a.media.pause` |
 | Pausar eventos | A contagem de pausas que ocorreram durante uma sessão de reprodução. | Fechamento de mídia | `a.media.pauseCount` |

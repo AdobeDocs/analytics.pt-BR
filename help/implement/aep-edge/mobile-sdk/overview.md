@@ -4,7 +4,7 @@ description: Use a extensão SDK móvel na coleção de dados da Adobe Experienc
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 99%
@@ -34,7 +34,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>1</td>
 <td>Certifique-se de que você <b>definiu um conjunto de relatórios</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>
@@ -45,7 +45,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <td>3</td>
 <td><b>Adicionar um serviço do Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
 </tr>
 
 <tr>
@@ -95,7 +95,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>1</td>
 <td>Certifique-se de que você <b>definiu um conjunto de relatórios</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>

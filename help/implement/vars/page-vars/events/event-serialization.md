@@ -4,7 +4,7 @@ description: Ajude a desduplicar métricas em seu site.
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -21,7 +21,7 @@ A serialização de eventos é um processo de implementação de medidas, usado 
 
 ## Configurar serialização de eventos
 
-Primeiro, defina a [!UICONTROL Gravação de evento único] como [!UICONTROL Usar a ID de evento] nas configurações do conjunto de relatórios. Consulte [Evento bem-sucedido](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) no Guia do usuário de administração.
+Primeiro, defina a [!UICONTROL Gravação de evento único] como [!UICONTROL Usar a ID de evento] nas configurações do conjunto de relatórios. Consulte [Evento bem-sucedido](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) no Guia do usuário de administração.
 
 Ao usar IDs de evento, a desduplicação ocorre nos seguintes níveis:
 
@@ -66,4 +66,4 @@ s.events = "event1:ABC123";
 s.events = "event1:ABC123,event2:ABC123";
 ```
 
-Se uma serialização de eventos estiver ativada, mas não contiver uma ID de serialização, o evento sempre será contado.
+Se uma serialização de eventos estiver habilitada, mas não contiver uma ID de serialização, o evento sempre será contado.

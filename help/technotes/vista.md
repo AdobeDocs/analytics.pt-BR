@@ -3,7 +3,7 @@ title: Regras VISTA no Adobe Analytics
 description: Saiba mais sobre as regras VISTA e seus recursos.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%
@@ -17,12 +17,12 @@ As regras VISTA são uma forma alternativa de modificação de dados personaliza
 Alguns casos de uso comuns de regras VISTA incluem:
 
 * Copie uma ocorrência do Analytics de um conjunto de relatórios para outro, alterando, opcionalmente, os dados para o conjunto de relatórios copiado
-* Exclusão de IP personalizado que excede os casos de uso oferecidos por [Excluir por IP](/help/admin/admin/exclude-ip.md)
+* Exclusão de IP personalizado que excede os casos de uso oferecidos por [Excluir por IP](/help/admin/tools/exclude-ip.md)
 * Modificar de forma condicional ou global qualquer valor de variável
 * Duplicação de valores de variável para outras variáveis
 * Faça upload de arquivos para um site Adobe FTP que possa afetar os valores das variáveis
 
-Muitos casos de uso para regras VISTA já são oferecidos por [Regras de processamento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md), [Regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md) ou simplesmente atualizando a implementação do Adobe Analytics. A Adobe recomenda as regras VISTA somente como último recurso.
+Muitos casos de uso para regras VISTA já são oferecidos por [Regras de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [Regras de bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md) ou simplesmente atualizando a implementação do Adobe Analytics. A Adobe recomenda as regras VISTA somente como último recurso.
 
 >[!IMPORTANT]
 >

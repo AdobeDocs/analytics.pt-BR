@@ -3,7 +3,7 @@ title: Personalização de relatórios no Adobe Analytics
 description: Saiba como personalizar relatórios no Adobe Analytics
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 94%
@@ -68,8 +68,8 @@ Para criar uma métrica calculada:
 4. Depois que a métrica calculada contiver a fórmula desejada, clique em Salvar para voltar ao espaço de trabalho.
 5. Arraste a métrica calculada recém-definida para o espaço de trabalho.
 
-   Saiba mais sobre [Métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) no guia do usuário Componentes.
+   Saiba mais sobre [Métricas calculadas](/help/components/calculated-metrics/cm-overview.md) no guia do usuário Componentes.
 
 ## Alertas personalizados
 
-Os alertas estão disponíveis em ambas as plataformas. No Adobe Analytics, use o menu de navegação do cabeçalho e acesse *[!UICONTROL Componentes]* > *[!UICONTROL Alertas]*. Consulte [Visão geral dos alertas](/help/components/c-alerts/intellligent-alerts.md) no Guia do usuário de componentes para obter mais informações.
+Os alertas estão disponíveis em ambas as plataformas. No Adobe Analytics, use o menu de navegação do cabeçalho e acesse *[!UICONTROL Componentes]* > *[!UICONTROL Alertas]*. Consulte [Visão geral dos alertas](/help/components/alerts/alerts-overview.md) no Guia do usuário de componentes para obter mais informações.

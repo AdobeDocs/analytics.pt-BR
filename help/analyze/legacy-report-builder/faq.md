@@ -4,9 +4,9 @@ title: Perguntas frequentes do Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '450'
 ht-degree: 100%
 
 ---
@@ -37,4 +37,4 @@ O Report Builder aceita pastas de trabalho até os seguintes limites:
 
 ## Como saber se tenho acesso ao Report Builder? {#access}
 
-Você precisa receber permissão de acesso ao Report Builder do administrador do Adobe Analytics. O administrador configura perfis de produto no [Adobe Admin Console](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-console/home). Peça à sua administração para conceder acesso a você.
+Você precisa receber permissão de acesso ao Report Builder do administrador do Adobe Analytics. O administrador configura perfis de produto no [Adobe Admin Console](/help/admin/admin-console/home.md). Peça à sua administração para conceder acesso a você.

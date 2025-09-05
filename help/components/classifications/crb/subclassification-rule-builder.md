@@ -3,7 +3,7 @@ description: Use subclassificações com o construtor de regras de classificaç�
 title: Subclassificações e o Construtor de regras
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -42,7 +42,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    Exemplo:
 
-   ![Informações da etapa](/help/admin/admin/assets/sub_class_create.png)
+   ![Informações da etapa](/help/admin/tools/assets/sub_class_create.png)
 
 1. No [Construtor de regras de classificações](/help/components/classifications/crb/classification-rule-builder.md), classifique a chave de subclassificação do código de rastreamento original.
 
@@ -63,7 +63,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    Exemplo:
 
-   | Chave | Canal | Código de campanha ampla | Código de campanha&Hat;Tipo de campanha | Código de campanha&Hat;Diretor de campanha | ... |
+   | Chave | Canal | Código de campanha ampla | Código de campanha&amp;Hat;Tipo de campanha | Código de campanha&amp;Hat;Diretor de campanha | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marca | Suzanne |  |
    | &#42; |  | 222 | Marca | Frank |  |

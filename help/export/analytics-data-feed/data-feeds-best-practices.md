@@ -4,7 +4,7 @@ keywords: Feed de dados;práticas recomendadas;pico de tráfego;por hora;ftp
 title: Práticas recomendadas e informações gerais
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 84%
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 A seguir você encontra algumas das práticas recomendadas para processamento e entrega de feed de dados.
 
-* Certificar-se de comunicar quaisquer picos de tráfego previstos antecipadamente. A latência afeta diretamente o tempo de processamento dos feeds de dados. Consulte [Agendar um pico de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) no Guia do usuário do Administrador.
+* Certificar-se de comunicar quaisquer picos de tráfego previstos antecipadamente. A latência afeta diretamente o tempo de processamento dos feeds de dados. Consulte [Agendar um pico de tráfego](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) no Guia do usuário do Administrador.
 
 * Os feeds de dados não contêm um contrato de nível de serviço, a menos que explicitamente declarado em seu contrato com a Adobe. Normalmente, os feeds são entregues dentro de várias horas após a janela do relatório ser aprovada. No entanto, ocasionalmente pode levar até 12 horas ou mais.
 

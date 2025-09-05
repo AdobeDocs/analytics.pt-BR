@@ -1,17 +1,17 @@
 ---
-title: Implementação do Adobe Analytics com AppMeasurement para JavaScript
+title: Implementar o Adobe Analytics com AppMeasurement para JavaScript
 description: Saiba como implementar o Adobe Analytics usando JavaScript sem um sistema de gerenciamento de tags.
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 42%
 
 ---
 
-# Implementação do Adobe Analytics com AppMeasurement para JavaScript
+# Implementar o Adobe Analytics com AppMeasurement para JavaScript
 
 O AppMeasurement para JavaScript tem sido um método comum para implementar o Adobe Analytics. No entanto, com o aumento da popularidade dos sistemas de Tag Management, é recomendado usar [tags na Adobe Experience Platform](../launch/overview.md).
 
@@ -26,15 +26,15 @@ Uma visão geral de alto nível das tarefas de implementação:
 </tr>
 
 <tr>
-<td>1</td><td>Verifique se você <b>definiu um conjunto de relatórios</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
+<td>1</td><td>Verifique se você <b>definiu um conjunto de relatórios</b></td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Baixe o código JavaScript necessário para o AppMeasurement</b> do Gerenciador de Códigos. Descompacte o arquivo.</td><td><a href="../../admin/admin/code-manager-admin.md">Gerenciador de código</a></td>
+<td>2</td><td><b>Baixe o código JavaScript necessário para o AppMeasurement</b> do Gerenciador de Códigos. Descompacte o arquivo.</td><td><a href="../../admin/tools/code-manager-admin.md">Gerenciador de código</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>Adicionar <code>AppMeasurement.js</code> ao arquivo de modelo do site</b>. O código contém as bibliotecas necessárias para enviar dados para o Adobe.
+<td>3</td><td><b>Adicionar <code>AppMeasurement.js</code> ao arquivo de modelo do site</b>. O código contém as bibliotecas necessárias para enviar dados para a Adobe.
 
 ```html
 <head>
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Enviar os dados para o Adobe usando o método <code>t()</code></b>, quando todas as variáveis de página forem definidas.
+<td>6</td><td><b>Enviar os dados para a Adobe usando o método <code>t()</code></b>, quando todas as variáveis de página forem definidas.
 
 ```js
 s.t();

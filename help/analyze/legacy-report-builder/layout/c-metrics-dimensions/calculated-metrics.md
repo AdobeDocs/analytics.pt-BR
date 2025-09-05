@@ -4,9 +4,9 @@ title: Métricas calculadas
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 78%
 
 ---
@@ -15,19 +15,19 @@ ht-degree: 78%
 
 {{legacy-arb}}
 
-O Report Builder 5.2 e superior suporta as métricas calculadas do Adobe Analytics. Todas as métricas calculadas agora têm uma ID global: elas não estão mais restritas a um conjunto de relatórios.
+O Report Builder 5.2 e superior oferece suporte às métricas calculadas do Adobe Analytics. Todas as métricas calculadas agora têm uma ID global: elas não estão mais restritas a um conjunto de relatórios.
 
 >[!NOTE]
 >
 >As pastas de trabalho atuais talvez indiquem solicitações com as IDs da métrica herdada. Ao usar o Report Builder 5.2, essas IDs da métrica herdada serão convertidas para a nova ID global. Se você compartilhar essa pasta de trabalho com um usuário do Report Builder v5.1 ou anterior, ele não conseguirá visualizar as métricas calculadas.
 
-Para saber mais sobre como criar e gerenciar métricas calculadas com o novo Construtor e gerenciador de métricas calculadas, consulte o Guia de [Métricas Calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=pt-BR).
+Para saber mais sobre como criar e gerenciar métricas calculadas com o novo Construtor e gerenciador de métricas calculadas, consulte o Guia de [Métricas Calculadas](/help/components/calculated-metrics/cm-overview.md).
 
 Na etapa 2 do Assistente de solicitação, você pode filtrar e aplicar as métricas calculadas.
 
 ## Filtrar métricas calculadas {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtre** métricas calculadas clicando no ícone Filtrar: ![Captura de tela das opções de Filtro mostrando os campos Aplicativo, Usuário, Projeto.](/help/admin/admin/assets/filter.png)
+**Filtre** métricas calculadas clicando no ícone Filtrar: ![Captura de tela das opções de Filtro mostrando os campos Aplicativo, Usuário, Projeto.](/help/admin/tools/assets/filter.png)
 
 A caixa de diálogo Filtros avançados é preenchida com as métricas padrão e calculadas.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '2964'
+source-wordcount: '2962'
 ht-degree: 88%
 
 ---
@@ -11,10 +11,10 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->Um novo e simplificado [Report Builder](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/rb-overview) foi lançado em 16 de outubro de 2024. Ele é compatível com Mac, Windows e navegadores da Web.
->&#x200B;>Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/report-builder/convert-workbooks) para a nova Report Builder.
+>Um novo e simplificado [Report Builder](/help/analyze/report-builder/rb-overview.md) foi lançado em 16 de outubro de 2024. Ele é compatível com Mac, Windows e navegadores da Web.
+>>Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para a nova Report Builder.
 
-## Anúncio do fim da vida útil do Reports & Analytics {#ra-eol}
+## Anúncio do fim da vida útil do Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >

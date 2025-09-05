@@ -4,7 +4,7 @@ title: Guia executivo de painéis do Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 92%
@@ -110,7 +110,7 @@ Para usar painéis:
 
 1. Para aplicar um filtro de segmento ao Scorecard, toque no menu suspenso de filtros e selecione um segmento que foi configurado pelo curador. [Os Filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=pt-BR) no aplicativo funcionam da mesma forma que no Analytics Workspace.
 
-   ![Filtro de segmentos](/help/admin/admin/assets/filter.png)
+   ![Filtro de segmentos](/help/admin/tools/assets/filter.png)
 
 1. Obter atualizações do Scorecard. Se um Scorecard não incluir todas as métricas ou detalhamentos em que você possa estar interessado, entre em contato com a equipe do Analytics para atualizar o Scorecard. Depois da atualização, puxe o cartão para baixo na tela para atualizá-lo e carregar os dados adicionados recentemente.
 

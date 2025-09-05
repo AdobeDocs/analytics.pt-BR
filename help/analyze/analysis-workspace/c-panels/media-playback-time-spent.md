@@ -4,9 +4,9 @@ description: Saiba como usar e interpretar o painel Tempo gasto com a reproduç�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1166'
 ht-degree: 90%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Tempo gasto com a reprodução de mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel de tempo gasto com a reprodução de mídia](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre o painel Tempo gasto com a reprodução de mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel de tempo gasto com a reprodução de mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -126,8 +126,8 @@ A única métrica que pode ser usada nesse painel é Tempo gasto com a reproduç
 >[!MORELIKETHIS]
 >
 >[Criar um painel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Painel de público-alvo médio a cada minuto de mídia](average-minute-audience-panel.md)
->&#x200B;>[Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md)
+>>[Painel de público-alvo médio a cada minuto de mídia](average-minute-audience-panel.md)
+>>[Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md)
 >
 
 <!--

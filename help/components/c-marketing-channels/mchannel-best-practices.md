@@ -3,9 +3,9 @@ title: Práticas recomendadas para implementar os canais de marketing do Adobe A
 description: Atualização de práticas recomendadas de uso de canais de marketing com a atribuição e o Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '587'
 ht-degree: 97%
 
 ---
@@ -28,19 +28,19 @@ Recomendamos usar a [Atribuição](/help/analyze/analysis-workspace/attribution
 
 * A configuração das dimensões do canal de marketing e do detalhe de canal de marketing estabelece pontos de contato a serem avaliados, de acordo com cada instância de canal de marketing.
 * Para análise de métrica, sua organização deve se alinhar em um ou mais modelos de atribuição. Salve métricas personalizadas com esse modelo para reutilização fácil.
-* Por padrão, os dados são alocados usando Último contato e a configuração do Período de envolvimento do visitante. Os modelos de métricas de atribuição oferecem mais controle sobre as janelas de pesquisa e mais variedade, incluindo a [atribuição algorítmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=pt-BR#analysis-workspace).
+* Por padrão, os dados são alocados usando Último contato e a configuração do Período de envolvimento do visitante. Os modelos de métricas de atribuição oferecem mais controle sobre as janelas de pesquisa e mais variedade, incluindo a [atribuição algorítmica](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Prática recomendada nº 2: nenhuma definição de canal de Atualização direta e de Sessão
 
 Os canais de atualização direta e interna/de sessão não são recomendados para uso com modelos de atribuição personalizados.
 
-E se sua organização já tiver as opções de Atualização direta e de Sessão configuradas? Nesse caso, recomendamos que você [crie uma classificação](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) para Primeiro contato/Último contato e deixe os canais de atualização direta e de sessão sem classificação. A dimensão classificada produzirá os mesmos resultados da Atribuição, como se esses canais nunca tivessem sido configurados.
+E se sua organização já tiver as opções de Atualização direta e de Sessão configuradas? Nesse caso, recomendamos que você [crie uma classificação](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) para Primeiro contato/Último contato e deixe os canais de atualização direta e de sessão sem classificação. A dimensão classificada produzirá os mesmos resultados da Atribuição, como se esses canais nunca tivessem sido configurados.
 
 ![](assets/direct-session-refresh.png)
 
 ## Prática recomendada nº 3: habilitar a substituição de canal de último toque para todos os canais
 
-Modelos de atribuição personalizados usados com a dimensão Canal de marketing no Workspace funcionam melhor quando essa configuração é ativada. Habilitar essa configuração faz com que uma Instância de Canal de marketing seja contabilizada quando um novo canal/detalhe for encontrado. Você deve habilitar essa opção para todos os canais, exceto os de atualização direta ou interna/de sessão, que não são mais recomendados para uso com modelos de atribuição personalizados.
+Modelos de atribuição personalizados usados com a dimensão Canal de marketing no Workspace funcionam melhor quando essa configuração é habilitada. Habilitar essa configuração faz com que uma Instância de Canal de marketing seja contabilizada quando um novo canal/detalhe for encontrado. Você deve habilitar essa opção para todos os canais, exceto os de atualização direta ou interna/de sessão, que não são mais recomendados para uso com modelos de atribuição personalizados.
 
 ![](assets/override.png)
 
@@ -50,6 +50,6 @@ Definir o período de Engajamento do visitante com o valor mínimo de “1 dia�
 
 ![](assets/expiration.png)
 
-## Prática recomendada nº 5: as Regras de processamento de canais de marketing devem existir somente para canais ativados
+## Prática recomendada nº 5: as Regras de processamento de canais de marketing devem existir somente para canais habilitados
 
-Remova todas as Regras de processamento de canal de marketing para canais desativados. As regras devem existir somente para Canais de marketing que estejam marcados como ativados.
+Remova todas as Regras de processamento de canal de marketing para canais desativados. As regras devem existir somente para Canais de marketing que estejam marcados como habilitados.

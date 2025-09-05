@@ -3,7 +3,7 @@ title: Referenciador
 description: O URL no qual um visitante estava antes de clicar para acessar seu site.
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 96%
@@ -16,7 +16,7 @@ A [dimensão](overview.md) de &quot;Referenciador&quot; relata em quais URLs os 
 
 >[!IMPORTANT]
 >
->Você deve configurar os [filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir URLs internos ou impedir que URLs externos apareçam.
+>Você deve configurar os [filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) do conjunto de relatórios para utilizar essa dimensão. Falhas ao configurar filtros de URL internos podem incluir URLs internos ou impedir que URLs externos apareçam.
 
 O mesmo relatório pode mostrar resultados diferentes entre o Analysis Workspace e o Data Warehouse. O Analysis Workspace informa o referenciador de cada página individual, excluindo valores que correspondem a filtros internos de URL. O Data Warehouse informa somente o primeiro referenciador da visita e ignora filtros internos de URL.
 
@@ -25,7 +25,7 @@ O mesmo relatório pode mostrar resultados diferentes entre o Analysis Workspace
 Essa dimensão precisa ser configurada na interface do Analytics e os dados em solicitações de imagem.
 
 * Em sua implementação, essa dimensão recupera dados da [`r` sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement coleta esses dados usando a variável JavaScript `document.referrer` no navegador. Você pode usar a substituição da variável [`referrer`](/help/implement/vars/page-vars/referrer.md) para configurá-la manualmente. Se você utilizar uma biblioteca do AppMeasurement (por meio de tags na Adobe Experience Platform ), essa dimensão funcionará imediatamente. Se um método de coleta de dados diferente do AppMeasurement for utilizado (por meio da API), inclua o parâmetro da sequência de consulta `r` em solicitações de imagem.
-* Na interface do Analytics, é necessário configurar os [Filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) do conjunto de relatórios. Falhas ao configurar filtros de URL internos podem incluir URLs internos ou impedir que URLs externos apareçam.
+* Na interface do Analytics, é necessário configurar os [Filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) do conjunto de relatórios. Falhas ao configurar filtros de URL internos podem incluir URLs internos ou impedir que URLs externos apareçam.
 
 ## Itens de dimensão
 

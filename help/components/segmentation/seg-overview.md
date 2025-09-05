@@ -1,12 +1,12 @@
 ---
-description: Entenda como os segmentos permitem identificar subconjuntos de visitantes com base em características ou interações de site.
+description: Entenda como os segmentos permitem identificar subconjuntos de visitantes com base em características ou interações no site.
 title: 'Sobre os segmentos '
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 98%
+source-wordcount: '987'
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Os segmentos sequenciais permitem que você identifique visitantes com base na n
 
 | Visita um | Visita dois | Visita três |
 |---|---|---|
-| Na primeira visita, o(a) visitante foi para a página de destino principal (A), excluiu a página da campanha (B) e visualizou a página do produto (C). | Na segunda visita, o(a) visitante foi novamente para a página de destino principal (A), excluiu a página da campanha (B), foi novamente para a página do produto (C) e, em seguida, foi para a nova página (D). | Na terceira visita, o(a) visitante entrou e seguiu o mesmo caminho da primeira e da segunda visita; em seguida, excluiu a página (F) para ir diretamente para a página de produto direcionada (G). |
+| Na primeira visita, o(a) visitante foi para a página de destino principal (A), excluiu a página da campanha (B) e visualizou a página do produto (C). | Na segunda visita, o(a) visitante foi novamente para a página de destino principal (A), excluiu a página da campanha (B), foi novamente para a página do produto (C) e, em seguida, foi para a nova página (D). | Na terceira visita, o(a) visitante entrou e seguiu o mesmo caminho da primeira e da segunda visita; em seguida, excluiu a página (F) para ir diretamente para a página do produto direcionada (G). |
 
 Os segmentos sequenciais podem ser baseados nos seguintes valores de ocorrência:
 
@@ -240,7 +240,7 @@ Este vídeo oferece uma visão geral breve do que são os containers de segmento
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/3429097?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -249,7 +249,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers 
 
 +++ **Quais direitos e privilégios são necessários para que eu possa usar, criar e gerenciar segmentos?**
 
-Por padrão, todos os usuários podem criar e editar segmentos pessoais. Contudo, os administradores podem escolher quem deve ter [permissões para criar segmentos](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-console/home) e quem pode atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
+Por padrão, todos os usuários podem criar e editar segmentos pessoais. Contudo, os administradores podem escolher quem deve ter [permissões para criar segmentos](/help/admin/admin-console/home.md) e quem pode atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
 
 Os administradores podem editar qualquer segmento e compartilhar segmentos com grupos e todos na organização. [Direitos de segmento por função](/help/components/segmentation/seg-reference/seg-rights.md)
 

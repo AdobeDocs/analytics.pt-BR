@@ -3,7 +3,7 @@ title: Recusa no gerenciamento de consentimento
 description: Veja quais configurações de privacidade um visitante recusou.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 93%
@@ -28,6 +28,6 @@ Sua organização determina a lógica para implementar essas variáveis de dados
 
 Os itens de dimensão incluem os três valores a seguir:
 
-* **`SSF`**: o visitante recusou o [Encaminhamento pelo lado do servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md). Esse item de dimensão está presente quando a variável de dados de contexto `cm.ssf` é igual a `1`. Consulte [Visão geral da privacidade de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=pt-BR) no guia do usuário do Audience Manager para obter mais informações. A ocorrência não é encaminhada ao Adobe Audience Manager.
+* **`SSF`**: o visitante recusou o [Encaminhamento pelo lado do servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md). Esse item de dimensão está presente quando a variável de dados de contexto `cm.ssf` é igual a `1`. Consulte [Visão geral da privacidade de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=pt-BR) no guia do usuário do Audience Manager para obter mais informações. A ocorrência não é encaminhada ao Adobe Audience Manager.
 * **`DMP`**: ol visitante recusou o compartilhamento nas plataformas de gerenciamento de dados. Esse item de dimensão está presente quando a variável de dados de contexto `opt.dmp` é igual a `N`. Semelhante a `SSF`, a ocorrência não é encaminhada ao Adobe Audience Manager.
 * **`SELL`**: o visitante recusou o compartilhamento ou a venda dos dados a terceiros. Essa dimensão está presente quando a variável de dados de contexto `opt.sell` é igual a `N`.

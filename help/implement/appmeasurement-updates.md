@@ -4,9 +4,9 @@ description: Notas de versão cumulativas do AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2729'
 ht-degree: 85%
 
 ---
@@ -71,7 +71,7 @@ Data de lançamento: **11 de outubro de 2021**
 
 Data de lançamento: **7 de setembro de 2021**
 
-* Essa atualização faz com que `opt.dmp` e `opt.sell` sempre sejam incluídas no rastreamento de links. Consulte o [Relatório de privacidade](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) no guia do usuário de administração para obter mais informações.
+* Essa atualização faz com que `opt.dmp` e `opt.sell` sempre sejam incluídas no rastreamento de links. Consulte o [Relatório de privacidade](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) no guia do usuário de administração para obter mais informações.
 
 ## Versão 2.22.1
 
@@ -313,7 +313,7 @@ Data de lançamento: **21 de julho de 2016**
 
 * Inclusão da API de Visitante 1.6.0.
 * Correção de um problema que fazia com que [!DNL AppMeasurement] chamasse o método ofuscado errado na API do visitante. (AN-126006)
-* Correção de um problema que causava o erro [!DNL JavaScript]: &quot;Atributo válido apenas na v:image&quot;. (AN-124009)
+* Correção de um problema que causava o erro [!DNL JavaScript]: &quot;Atributo válido apenas na v:image&quot;. (AN-124009)
 
 ## Versão 1.6.1
 

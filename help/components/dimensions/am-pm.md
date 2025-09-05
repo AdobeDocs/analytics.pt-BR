@@ -3,16 +3,16 @@ title: AM/PM
 description: Determina se a ocorrência aconteceu durante as horas AM ou PM.
 feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 86%
+source-wordcount: '121'
+ht-degree: 64%
 
 ---
 
 # AM/PM
 
-A [dimensão](overview.md) de &#39;AM/PM&#39; fornece informações sobre se a ocorrência aconteceu durante as horas AM ou PM. O horário da ocorrência tem como base o [fuso horário do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+A [dimensão](overview.md) de &quot;AM/PM&quot; fornece o insight sobre se a ocorrência aconteceu durante as horas AM ou PM. O horário da ocorrência tem como base o [fuso horário do conjunto de relatórios](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
 
 ## Preencher esta dimensão com dados
 

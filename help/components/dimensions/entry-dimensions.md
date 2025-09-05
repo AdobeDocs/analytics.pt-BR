@@ -4,7 +4,7 @@ description: Lista dimensões de entrada e seu uso.
 keywords: página de entrada, seção de entrada no site, servidor de entrada, insight personalizado de entrada
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 75%
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 *Esta página de ajuda descreve como as entradas funcionam como uma [dimensão](overview.md). Para obter informações sobre como as entradas funcionam como uma métrica, consulte a [métrica Entradas](../metrics/entries.md).*
 
-As dimensões de entrada são [baseadas em visitas](../metrics/visits.md). Elas registram o primeiro item de dimensão e o mantêm por toda a duração dessa visita. As dimensões de entrada estão disponíveis para todas as variáveis com definição de caminho ativada em [Variáveis de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios.
+As dimensões de entrada são [baseadas em visitas](../metrics/visits.md). Elas registram o primeiro item de dimensão e o mantêm por toda a duração dessa visita. As dimensões de entrada estão disponíveis para todas as variáveis com definição de caminho habilitada em [Variáveis de tráfego](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios.
 
 >[!TIP]
 >Se quiser ver dados com base na primeira ocorrência de uma visita em vez do primeiro valor visto em uma visita, você pode usar um [segmento](/help/components/segmentation/seg-overview.md). Use um contêiner de ocorrências em que [Profundidade da ocorrência](hit-depth.md) seja igual a 1 e use esse segmento com a variável desejada.

@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 73%
@@ -18,13 +18,13 @@ ht-degree: 73%
 
 Você pode filtrar pelas dimensões que adiciona à grade de rótulos de linhas. Os filtros restringem os dados retornados pelas solicitações e podem ser aplicados a partir de layouts pivô ou personalizados. Quando você configura a filtragem de dimensões a partir do layout dinâmico, pode especificar, adicionalmente, o número de entradas da célula.
 
-O formulário de filtro selecionado é preenchido com base no elemento e na métrica selecionada na solicitação Report Builder.
+O formulário de filtro selecionado é preenchido com base no elemento e na métrica selecionada na solicitação do Report Builder.
 
 ## Definir filtro - valores e caracteres especiais {#section_15840216A4044C40974945FAA435AD93}
 
 Informações sobre filtros no painel **[!UICONTROL Filtro mais popular]** > **[!UICONTROL Definir filtro]**.
 
-![Captura de tela mostrando a caixa de diálogo Definir Filtro com opções para Filtrar por Aplicativo, Usuário e Projeto.](/help/admin/admin/assets/filter.png)
+![Captura de tela mostrando a caixa de diálogo Definir Filtro com opções para Filtrar por Aplicativo, Usuário e Projeto.](/help/admin/tools/assets/filter.png)
 
 As seguintes tabelas fornecem exemplos e informações sobre filtros:
 
@@ -75,7 +75,7 @@ As seguintes tabelas fornecem exemplos e informações sobre filtros:
    <td colname="col3"> <p> <span class="term"> abc</span> é retornado e nada mais. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Não é igual </p> </td> 
+   <td colname="col1"> <p>Não é igual a </p> </td> 
    <td colname="col02"> <p>Retorno qualquer item que não corresponde exatamente à entrada. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
    <td colname="col3"> <p>Não corresponde a <span class="term"> a</span>. </p> <p>Corresponde a <span class="term"> a b c</span>. </p> <p>Corresponde a <span class="term"> abc</span>. </p> </td> 

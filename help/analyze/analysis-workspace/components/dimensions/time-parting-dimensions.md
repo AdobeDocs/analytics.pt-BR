@@ -4,9 +4,9 @@ title: Dimensões de separação de tempo
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ A divisão de tempo coleta o carimbo de data e hora de ocorrências coletadas e 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensões de separação de tempo](https://video.tv.adobe.com/v/30809?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensões de separação de tempo](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ As dimensões de separação de tempo são baseadas no fuso horário do conjunto
 
 >[!NOTE]
 >
->As dimensões de separação de tempo só estão disponíveis no Analysis Workspace. Para usar dimensões de separação de tempo em outras soluções do Analysis Workspace, é possível implementar o [plug-in getTimeParting](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html?lang=pt-BR).
+>As dimensões de separação de tempo só estão disponíveis no Analysis Workspace. Para usar dimensões de separação de tempo em outras soluções do Analysis Workspace, é possível implementar o [plug-in getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 
 As dimensões de separação de tempo no Analysis Workspace incluem:
 

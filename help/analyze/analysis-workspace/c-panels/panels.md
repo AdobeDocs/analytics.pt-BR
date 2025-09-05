@@ -4,9 +4,9 @@ title: Visão geral dos painéis
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
-workflow-type: ht
-source-wordcount: '2229'
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+workflow-type: tm+mt
+source-wordcount: '2228'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Os seguintes tipos de painel estão disponíveis no Analysis Workspace para o [!
 | [Atribuição](attribution.md) | Compare e visualize modelos de atribuição rapidamente usando qualquer dimensão e métrica de conversão. |
 | [Analytics for Target](a4t-panel.md) | Analisar atividades e experiências do Target no Analysis Workspace. |
 | [Forma livre](freeform-panel.md) | Realize comparações e detalhamentos ilimitados e, em seguida, adicione visualizações para obter uma visão ampla dos dados. |
-| [Público médio a cada minuto de mídia](average-minute-audience-panel.md) | Analise o público médio por minuto de um conteúdo específico ou ao longo de um período personalizado. |
+| [Público-alvo médio a cada minuto de mídia](average-minute-audience-panel.md) | Analise o público-alvo médio por minuto de um conteúdo específico ou ao longo de um período personalizado. |
 | [Visualizadores simultâneos de mídia](media-concurrent-viewers.md) | Analise os visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de criar um detalhamento e comparar. |
 | [Tempo gasto com a reprodução da mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analise o tempo de reprodução gasto para entender onde ocorrem os picos de simultaneidade ou as desistências. |
 | [Próximo item ou anterior](next-previous.md) | Mostra as páginas seguintes ou anteriores que as pessoas acessam. |
@@ -91,11 +91,11 @@ Você pode gerenciar um painel das seguintes maneiras:
 
 ## Conjunto de relatórios
 
-Cada painel é associado a um [conjunto de relatórios](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado pelo nome ![Dados](/help/assets/icons/Data.svg) **[!UICONTROL *do conjunto de relatórios *]**no menu suspenso, localizado no canto superior direito do painel.
+Cada painel é associado a um [conjunto de relatórios](/help/admin/tools/manage-rs/report-suites-admin.md), identificado pelo nome ![Dados](/help/assets/icons/Data.svg) **[!UICONTROL *do conjunto de relatórios *]**no menu suspenso, localizado no canto superior direito do painel.
 
 Ao criar um novo painel, o conjunto de relatórios padrão se baseia no conjunto de relatórios do painel que você utilizou pela última vez no projeto do Analysis Workspace.
 
-Em um projeto, é possível usar um ou [vários conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=pt-BR), dependendo dos casos de uso de análise. 
+Em um projeto, é possível usar um ou [vários conjuntos de relatórios](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md), dependendo dos casos de uso de análise. 
 
 A lista dos conjuntos de relatórios é classificada de acordo com a relevância, a qual a Adobe define levando em conta quão recentemente e frequentemente o pacote foi usado pelo usuário atual e com que frequência o pacote é usado na organização.
 
@@ -173,7 +173,7 @@ Além dos segmentos, também é possível arrastar outros tipos de componentes d
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos suspensos](https://video.tv.adobe.com/v/30816?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos suspensos](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -255,7 +255,7 @@ As seguintes opções estão disponíveis:
 
 ## Configuração
 
-Alguns painéis (como [!UICONTROL Atribuição], [!UICONTROL Experimentação], [!UICONTROL Público médio por minuto de mídia] e outros) têm uma caixa de diálogo de configuração para ajudar você a criar a visualização. Use a opção ![Editar](/help/assets/icons/Edit.svg) na parte superior do painel para acessar e alterar a configuração.
+Alguns painéis (como [!UICONTROL Atribuição], [!UICONTROL Experimentação], [!UICONTROL Público-alvo médio por minuto de mídia] e outros) têm uma caixa de diálogo de configuração para ajudar você a criar a visualização. Use a opção ![Editar](/help/assets/icons/Edit.svg) na parte superior do painel para acessar e alterar a configuração.
 
 ![Configurar um painel](/help/analyze/analysis-workspace/c-panels/assets/configure-panel.png)
 
@@ -284,7 +284,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=pt-BR) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 
@@ -348,7 +348,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=pt-BR) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 

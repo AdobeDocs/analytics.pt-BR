@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Guia de ferramentas do Adobe Analytics {#analyze}
 
 + [Guia de ferramentas do Analytics](home.md)
-+ [Notas de versão do Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=pt-BR)
++ [Notas de versão do Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/release-notes/latest)
 + Introdução ao Adobe Analytics {#admin-overview}
    + [Visão geral do Analytics](get-started/analytics-overview.md)
    + [Introdução (por função)](get-started/get-started-by-role.md)
@@ -225,7 +225,7 @@ ht-degree: 100%
       + Métricas e dimensões {#metrics-dimension}
          + [Visão geral de Métricas e dimensões](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [Adicionar métricas e dimensões](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
-         + [Métricas calculadas](legacy-report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
+         + [Métricas calculadas ](legacy-report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
          + [Combinar métricas de tráfego e comércio na mesma solicitação](legacy-report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
          + [Permissões de acesso do usuário para dimensões e métricas](legacy-report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [Alterar métricas - Definições de campo](legacy-report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)

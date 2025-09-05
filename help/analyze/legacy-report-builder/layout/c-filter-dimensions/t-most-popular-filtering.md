@@ -5,7 +5,7 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 89%
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 Filtros de classificação e condicionais que você configura usando lógica booleana com expressões de pesquisa E/OU.
 
-Os filtros mais populares são filtros de expressão que você configura usando lógica booleana com condições E/OU, como [!UICONTROL Página não contém &#x200B;]*`<product name>`* com condições ou grupos de condições como [!UICONTROL Inclui tudo], [!UICONTROL Inclui qualquer] ou [!UICONTROL Exclui tudo]. É possível [salvar](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) essas expressões para outra solicitação nessa ou em outras pastas de trabalho.
+Os filtros mais populares são filtros de expressão que você configura usando lógica booleana com condições E/OU, como [!UICONTROL Página não contém ]*`<product name>`* com condições ou grupos de condições como [!UICONTROL Inclui tudo], [!UICONTROL Inclui qualquer] ou [!UICONTROL Exclui tudo]. É possível [salvar](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) essas expressões para outra solicitação nessa ou em outras pastas de trabalho.
 
 **Para criar um filtro mais popular**
 
@@ -26,7 +26,7 @@ Os filtros mais populares são filtros de expressão que você configura usando 
 
 1. No [!UICONTROL Assistente de solicitações: etapa 2], clique no link ao lado da dimensão na grade e, em seguida, escolha **[!UICONTROL Filtro]**.
 
-   ![Captura de tela mostrando a caixa de diálogo Definir Filtro com opções para Filtrar por Aplicativo, Usuário e Projeto.](/help/admin/admin/assets/filter.png)
+   ![Captura de tela mostrando a caixa de diálogo Definir Filtro com opções para Filtrar por Aplicativo, Usuário e Projeto.](/help/admin/tools/assets/filter.png)
 
 1. No formulário [!UICONTROL Escolher página], habilite **[!UICONTROL Mais popular]** e, então, configure as seguintes opções:
 

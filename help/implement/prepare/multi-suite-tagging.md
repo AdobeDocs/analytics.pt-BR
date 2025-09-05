@@ -4,7 +4,7 @@ title: Implementação de marcação de vários relatórios
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 93%
@@ -13,9 +13,9 @@ ht-degree: 93%
 
 # Implementação de marcação de vários relatórios
 
-A [marcação de vários relatórios](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) permite enviar solicitações de imagem não apenas para um conjunto de relatórios global, mas também para conjuntos de relatórios secundários individuais, de modo que você possa fornecer subconjuntos de dados do conjunto de relatórios global de sua empresa a diferentes usuários finais.
+A [marcação de vários relatórios](/help/admin/tools/manage-rs/rollup-report-suite.md) permite enviar solicitações de imagem não apenas para um conjunto de relatórios global, mas também para conjuntos de relatórios secundários individuais, de modo que você possa fornecer subconjuntos de dados do conjunto de relatórios global de sua empresa a diferentes usuários finais.
 
-Para implementar a marcação de vários relatórios, você deve incluir a ID de conjunto de relatórios (RSID) para o conjunto de relatórios global e também as RSIDs para os conjuntos de relatórios secundários aplicáveis no código de rastreamento de suas páginas da web e aplicativos.
+Para implementar a marcação de vários relatórios, você deve incluir a ID de conjunto de relatórios (RSID) para o conjunto de relatórios global e também as RSIDs para os conjuntos de relatórios filhos aplicáveis no código de rastreamento de suas páginas da web e aplicativos.
 
 * Para implementações de tags da Adobe Experience Platform, especifique cada um dos conjuntos de relatórios para a [[!DNL Analytics] extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=pt-BR).
 
@@ -27,7 +27,7 @@ Para implementar a marcação de vários relatórios, você deve incluir a ID de
 >
 > A prática recomendada é listar primeiro o conjunto de relatórios global ou a ID de conjunto de relatórios.
 
-A marcação de vários relatórios incorre em várias chamadas de servidor para cada solicitação de imagem: uma chamada principal para o conjunto de relatórios global e uma chamada secundária para cada conjunto de relatórios secundário.
+A marcação de vários relatórios incorre em várias chamadas de servidor para cada solicitação de imagem: uma chamada principal para o conjunto de relatórios global e uma chamada secundária para cada conjunto de relatórios filho.
 
 >[!NOTE]
 >

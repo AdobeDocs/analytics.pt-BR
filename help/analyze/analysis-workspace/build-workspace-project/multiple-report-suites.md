@@ -4,9 +4,9 @@ description: Saiba como trabalhar com vários conjuntos de relatórios em um ún
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ Esse recurso é útil se você deseja:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vários conjuntos de relatórios](https://video.tv.adobe.com/v/37063?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vários conjuntos de relatórios](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ Você pode reconhecer o painel ativo pela borda azul clara ao redor dele. Basta 
    ![](assets/incompat-rs.png)
 
    Você tem três opções para lidar com essa incompatibilidade:
-   * Ativar as dimensões/métricas necessárias.
+   * Habilitar as dimensões/métricas necessárias.
    * Alterar o conjunto de relatórios.
    * Continuar com alguns componentes ausentes. Isso resultará em componentes sem nenhum dado e/ou em visualizações em branco.
 
@@ -71,6 +71,6 @@ Você pode reconhecer o painel ativo pela borda azul clara ao redor dele. Basta 
 
 1. (Opcional) Você também pode ir para outros construtores de componentes do Analytics e garantir que eles passaram a mostrar um rótulo de conjunto de relatórios que indica
 
-   * Onde um segmento será criado: [Construtor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=pt-BR).
-   * Onde uma métrica calculada será criada: [Construtor de métrica calculada](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=pt-BR).
-   * Onde um alerta será criado: [Construtor de alertas](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=pt-BR).
+   * Onde um segmento será criado: [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md).
+   * Onde uma métrica calculada será criada: [Construtor de métrica calculada](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
+   * Onde um alerta será criado: [Construtor de alertas](/help/components/alerts/alert-builder.md).

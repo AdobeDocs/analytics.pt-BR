@@ -1,13 +1,13 @@
 ---
 description: Saiba como compartilhar funções de projeto e projeto no Workspace
 keywords: Compartilhamento no Analysis Workspace
-title: Compartilhamento de projetos
+title: Compartilhar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1974'
 ht-degree: 96%
 
 ---
@@ -41,12 +41,12 @@ Qualquer [preparação](curate.md) feita antes do compartilhamento será refleti
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar projetos](https://video.tv.adobe.com/v/40035?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar projetos](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
-## Compartilhar com usuários e grupos em sua organização {#Add}
+## Compartilhar com usuários e grupos da sua organização {#Add}
 
 É possível compartilhar um projeto com usuários ou grupos do Adobe Analytics em sua organização. Ao compartilhar um projeto conforme descrito nesta seção, os usuários com os quais você compartilha já devem ter uma conta do Adobe Analytics.
 
@@ -107,7 +107,7 @@ Se houver alterações não salvas, será solicitado que salve o projeto primeir
 
    Ou
 
-   Clique em **[!UICONTROL Preparar e compartilhar]** para fazer a preparação do projeto automaticamente. (Se o projeto já tiver sido compartilhado, selecione **[!UICONTROL Preparar e atualizar]**.) Saiba mais sobre a [preparação de projetos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=pt-BR).
+   Clique em **[!UICONTROL Preparar e compartilhar]** para fazer a preparação do projeto automaticamente. (Se o projeto já tiver sido compartilhado, selecione **[!UICONTROL Preparar e atualizar]**.) Saiba mais sobre a [preparação de projetos](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 ## Compartilhar um link de um projeto
 
@@ -115,7 +115,7 @@ Ao compartilhar um link conforme descrito nesta seção, considere o seguinte:
 
 * Os destinatários que usam o link precisam fazer logon no Adobe Analytics antes de obter acesso ao projeto.
 
-* Se uma função não for atribuída a um recipient e ele receber um [link compartilhável](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=pt-BR) para o projeto, ele receberá uma função por padrão. Administradores recebem **[!UICONTROL Editar original]** e os não administradores recebem **[!UICONTROL Editar cópia]**.
+* Se uma função não for atribuída a um recipient e ele receber um [link compartilhável](/help/analyze/analysis-workspace/curate-share/shareable-links.md) para o projeto, ele receberá uma função por padrão. Administradores recebem **[!UICONTROL Editar original]** e os não administradores recebem **[!UICONTROL Editar cópia]**.
 
 Para compartilhar o link do projeto com os usuários em sua organização:
 
@@ -157,7 +157,7 @@ Para compartilhar o link do projeto com os usuários em sua organização:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar um link com qualquer pessoa](https://video.tv.adobe.com/v/3452457?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar um link com qualquer pessoa](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -176,7 +176,7 @@ Para compartilhar um projeto do Analysis Workspace com pessoas que não têm ace
 
    Selecionar essa opção cria um link para o projeto que pode ser compartilhado com qualquer pessoa. Você pode desabilitar o acesso ao projeto a qualquer momento desativando essa opção.
 
-   O proprietário do projeto também é o proprietário deste link. A propriedade do link pode ser transferida para outro usuário somente quando a propriedade do projeto é transferida, conforme descrito em [Transferir ativos do usuário ou definir expirações da conta](/help/admin/admin/user-management2/users-assets.md) no Guia de administração do Analytics.
+   O proprietário do projeto também é o proprietário deste link. A propriedade do link pode ser transferida para outro usuário somente quando a propriedade do projeto é transferida, conforme descrito em [Transferir ativos do usuário ou definir expirações da conta](/help/admin/tools/user-management/users-assets.md) no Guia de administração do Analytics.
 
 1. Escolha se deseja habilitar a seguinte opção de segurança (esta opção pode ser controlada pela administração do Analytics):
 
@@ -212,7 +212,7 @@ Você pode compartilhar os componentes integrados que fazem parte do seu projeto
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar componentes inseridos](https://video.tv.adobe.com/v/30805?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartilhar componentes inseridos](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

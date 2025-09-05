@@ -3,7 +3,7 @@ description: Saiba como gerenciar projetos agendados.
 title: Projetos agendados
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 41%
@@ -35,8 +35,8 @@ A lista de projetos agendados ➊ exibe colunas para:
 | **[!UICONTROL Frequência]** | Com que frequência deseja que esse projeto programado seja enviado a um ou mais recipients. |
 | **[!UICONTROL Tempo de execução]** | Em que hora do dia esse projeto programado será enviado. |
 | **[!UICONTROL Número de consultas]** | O número de consultas relativas a este projeto. |
-| **[!UICONTROL Intervalo de datas mais longo]** | O intervalo de datas mais longo definido para o projeto agendado. Esse valor pode ser relevante para investigar problemas de desempenho. Consulte [Gerente de Atividades de Relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) para obter mais informações. |
-| **[!UICONTROL Número de consultas]** | O número de consultas executadas para o projeto agendado. Esse valor pode ser relevante para investigar problemas de desempenho. Consulte [Gerente de Atividades de Relatórios](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) para obter mais informações. |
+| **[!UICONTROL Intervalo de datas mais longo]** | O intervalo de datas mais longo definido para o projeto agendado. Esse valor pode ser relevante para investigar problemas de desempenho. Consulte [Gerente de Atividades de Relatórios](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) para obter mais informações. |
+| **[!UICONTROL Número de consultas]** | O número de consultas executadas para o projeto agendado. Esse valor pode ser relevante para investigar problemas de desempenho. Consulte [Gerente de Atividades de Relatórios](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) para obter mais informações. |
 
 
 Você pode usar ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para configurar quais colunas exibir.

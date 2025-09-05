@@ -4,9 +4,9 @@ description: Saiba como as dicas do cliente substituirão gradualmente o usuári
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1174'
 ht-degree: 84%
 
 ---
@@ -25,13 +25,13 @@ O Google divide as dicas do cliente de usuário-agente em duas categorias: dicas
 
 A partir de outubro de 2022, novas versões dos navegadores Chromium iniciaram o “congelamento” da versão do sistema operacional representada na string do usuário-agente. A versão do sistema operacional é uma dica de alta entropia, portanto, para manter a precisão da versão do sistema operacional em seus relatórios, é necessário configurar a biblioteca de coleção para coletar essas dicas de alta entropia. Com o tempo, outras informações do dispositivo do usuário-agente serão congeladas, o que exigirá que as dicas do cliente mantenham a precisão do relatório do dispositivo.
 
-As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics a partir de 27 de fevereiro de 2023 e concluídas em 2 de março de 2023. Atualmente, o AppMeasurement e o SDK da Web são compatíveis com a coleção de dados de dicas, mas esta não será usada na pesquisa de dispositivo até meados de fevereiro. Conforme observado abaixo, a versão do sistema operacional foi congelada a partir de outubro, mas devido a um lançamento gradual e ao fato de muitos agentes de usuário já fornecerem uma versão do sistema operacional congelada (veja mais [aqui](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR)), estimamos que isso afetará &lt;3% dos visitantes do Chrome.
+As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics a partir de 27 de fevereiro de 2023 e concluídas em 2 de março de 2023. Atualmente, o AppMeasurement e o SDK da Web são compatíveis com a coleção de dados de dicas, mas esta não será usada na pesquisa de dispositivo até meados de fevereiro. Conforme observado abaixo, a versão do sistema operacional foi congelada a partir de outubro, mas devido a um lançamento gradual e ao fato de muitos agentes de usuário já fornecerem uma versão do sistema operacional congelada (veja mais [aqui](/help/components/dimensions/operating-systems.md)), estimamos que isso afetará &lt;3% dos visitantes do Chrome.
 
 >[!NOTE]
 >
-> Desde janeiro de 2023, algumas versões dos sistemas operacionais Mac e Windows são representadas incorretamente no agente do usuário, mas corretamente representadas em dicas de cliente de alta entropia. Consulte [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR) para obter mais informações.
+> Desde janeiro de 2023, algumas versões dos sistemas operacionais Mac e Windows são representadas incorretamente no agente do usuário, mas corretamente representadas em dicas de cliente de alta entropia. Consulte [Sistema operacional](/help/components/dimensions/operating-systems.md) para obter mais informações.
 
-O Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira habilitar a coleção de dicas de alta entropia.
+O Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), talvez você queira habilitar a coleção de dicas de alta entropia.
 
 ## Perguntas frequentes
 
@@ -43,7 +43,7 @@ Esta [publicação do blog do Google](https://web.dev/user-agent-client-hints/) 
 
 +++**Como habilitar a coleção de dicas do cliente?**
 
-As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assimiladas para a obtenção de informações do dispositivo e do navegador. As versões mais recentes do SDK da Web (começando com a 2.12.0) e do AppMeasurement (começando com a 2.23.0) podem ser configuradas para coletar dicas de alta entropia por meio de suas respectivas extensões de Tags ou diretamente por meio de uma opção de configuração. Consulte as instruções para o [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR#enabling-high-entropy-client-hints) e o [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=pt-BR).
+As dicas de baixa entropia são fornecidas automaticamente pelo navegador e assimiladas para a obtenção de informações do dispositivo e do navegador. As versões mais recentes do SDK da Web (começando com a 2.12.0) e do AppMeasurement (começando com a 2.23.0) podem ser configuradas para coletar dicas de alta entropia por meio de suas respectivas extensões de Tags ou diretamente por meio de uma opção de configuração. Consulte as instruções para o [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR#enabling-high-entropy-client-hints) e o [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
 
 Para ambas as bibliotecas, a coleção de dicas de alta entropia é **desativada por padrão**.
 
@@ -91,15 +91,15 @@ Os campos de dispositivo disponíveis para relatório não serão alterados. Os 
 
 Esses campos são obtidos diretamente do usuário-agente, mas o usuário-agente pode ser usado para ajudar a obter valores para outros campos relacionados ao dispositivo, dependendo dos detalhes do dispositivo.
 
-* [Navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=pt-BR)
-* [Tipo de navegador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=pt-BR)
-* [Sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=pt-BR)
-* [Tipos de sistema operacional](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=pt-BR)
-* [Dispositivo móvel e tipo de dispositivo móvel](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=pt-BR)
+* [Navegador](/help/components/dimensions/browser.md)
+* [Tipo de navegador](/help/components/dimensions/browser-type.md)
+* [Sistema operacional](/help/components/dimensions/operating-systems.md)
+* [Tipos de sistema operacional](/help/components/dimensions/operating-system-types.md)
+* [Dispositivo móvel e tipo de dispositivo móvel](/help/components/dimensions/mobile-dimensions.md)
 
 +++
 
-+++**Que partes do usuário-agente estão sendo “congeladas” e quando?**
++++**Que partes do usuário-agente estão sendo “congeladas” e quando?** 
 
 Consulte a [linha do tempo publicada pelo Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Esta situação pode estar sujeita a alterações.
 
@@ -157,8 +157,8 @@ Consulte a [documentação do esquema](https://github.com/adobe/xdm/blob/master/
 
 +++
 
-+++**O encaminhamento pelo lado do servidor do Adobe Audience Manager será compatível com as dicas do cliente?**
++++**O encaminhamento pelo lado do servidor do Adobe Audience Manager será compatível com as dicas do cliente?** 
 
-Sim. As dicas do cliente serão incluídas nos dados encaminhados ao Adobe Audience Manager. Observe que o Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR), talvez você queira habilitar a coleção de dicas de alta entropia.
+Sim. As dicas do cliente serão incluídas nos dados encaminhados ao Adobe Audience Manager. Observe que o Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), talvez você queira habilitar a coleção de dicas de alta entropia.
 
 +++

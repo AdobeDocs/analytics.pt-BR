@@ -3,7 +3,7 @@ title: Dimensões principais dos serviços de mídia de transmissão
 description: Dimensões disponíveis ao habilitar o [!UICONTROL Media Core] para um conjunto de relatórios.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 As dimensões principais dos serviços de mídia de transmissão fornecem funcionalidade básica de relatórios para dados coletados por meio de bibliotecas de serviços de mídia de transmissão. O uso dessas dimensões requer o **[!UICONTROL Complemento de mídia do Adobe Analytics para streaming]**. Entre em contato com a equipe de conta da Adobe para obter mais detalhes.
 
-Quando você habilita o **[!UICONTROL Media Core]** em [Media Reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), as seguintes dimensões estão disponíveis:
+Quando você habilita o **[!UICONTROL Media Core]** em [Media Reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md), as seguintes dimensões estão disponíveis:
 
 | Nome da dimensão | Descrição | Enviado com | Variável de dados de contexto |
 | --- | --- | --- | --- |

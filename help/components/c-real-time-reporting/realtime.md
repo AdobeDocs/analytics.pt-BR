@@ -4,7 +4,7 @@ title: Visão geral do relatório em tempo real
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 89%
@@ -17,7 +17,7 @@ O relatório em tempo real exibe o tráfego da página da Web e classifica as vi
 
 >[!NOTE]
 >
->O relatório Tempo real não requer implementações ou marcações adicionais. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, consulte [Configuração de relatórios em tempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>O relatório Tempo real não requer implementações ou marcações adicionais. Ele impulsiona sua implantação já existente do Adobe Analytics. Para configurar relatórios em tempo real, consulte [Configuração de relatórios em tempo real](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
 
 ## Acessar relatórios em tempo real
 
@@ -31,7 +31,7 @@ O relatório em tempo real exibe o tráfego da página da Web e classifica as vi
 
 O Tempo real responde as seguintes questões: Quais são os assuntos mais falados do meu site, e por quê? Permite que você, enquanto profissional de marketing, possa responder de maneira rápida e gerenciar ativamente o desempenho de seu conteúdo de marketing e de suas campanhas. Os dados em tempo real relatados possui menos de dois minutos de latência e é atualizado automaticamente em um intervalo de um em um minuto.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report-realtime.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report-realtime.png)
 
 O painel inclui as métricas de alta frequência do Adobe Analytics e as análises do site da Web para reportar visualmente o tráfego e as visualizações de notícias dinâmicas e sites de varejo na página. A análise em tempo real entende as tendências em seus dados de minuto a minuto, segundos após o início da coleta. Coleciona e envia dados para uma interface que é atualizada automaticamente, através da correlação em tempo real, do rastreamento de conteúdo e da conversão.
 

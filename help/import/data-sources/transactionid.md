@@ -4,7 +4,7 @@ description: Use valores armazenados de uma ocorrência online para enriquecer o
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 0a65114d598b7c6d2871a2446ad4d574b9ca44bb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 8%
@@ -17,7 +17,7 @@ As fontes de dados de ID de transação são uma variação das fontes de dados 
 
 >[!NOTE]
 >
->Antes de usar fontes de dados de ID de transação, você deve primeiro habilitá-lo em [Configurações Gerais da Conta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) para o conjunto de relatórios desejado.
+>Antes de usar fontes de dados de ID de transação, você deve primeiro habilitá-lo em [Configurações Gerais da Conta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) para o conjunto de relatórios desejado.
 
 ## Como funciona
 
@@ -32,7 +32,7 @@ Ao enviar uma ocorrência online que contém a variável de implementação `tra
 * [Dias antes da primeira compra](/help/components/dimensions/days-before-first-purchase.md)
 * [Dias desde a última compra](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* Dimensões específicas de recursos habilitadas nas [configurações do conjunto de relatórios](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) que se comportam de forma semelhante às eVars. As dimensões específicas de recursos que se comportam de forma semelhante às props não são incluídas.
+* Dimensões específicas de recursos habilitadas nas [configurações do conjunto de relatórios](/help/admin/tools/manage-rs/report-suites-admin.md) que se comportam de forma semelhante às eVars. As dimensões específicas de recursos que se comportam de forma semelhante às props não são incluídas.
 * [Variáveis da Lista](/help/implement/vars/page-vars/list.md)
 * [Canal de marketing](/help/components/dimensions/marketing-channel.md)
 * [Detalhes do canal de marketing](/help/components/dimensions/marketing-detail.md)

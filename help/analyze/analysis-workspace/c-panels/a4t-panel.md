@@ -4,9 +4,9 @@ title: Painel Analytics For Target
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1130'
 ht-degree: 97%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Painel do Analytics for Target"
->abstract="Analisar atividades e experiências do Target no Analysis Workspace.<br/><br>**Parâmetros &#x200B;**<br/>**Atividade do Target**: a atividade do Target que será analisada.<br/>**Experiência de controle**: experiência de controle da atividade do Target selecionada.<br/>**Métrica de normalização**: visitantes, visitas ou impressões. Essa métrica (também chamada de metodologia de contagem) torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”.<br/>**Métricas de sucesso**: até 3 métricas de sucesso padrão (não calculadas) para analisar a atividade do Target."
+>abstract="Analisar atividades e experiências do Target no Analysis Workspace.<br/><br>**Parâmetros **<br/>**Atividade do Target**: a atividade do Target que será analisada.<br/>**Experiência de controle**: experiência de controle da atividade do Target selecionada.<br/>**Métrica de normalização**: visitantes, visitas ou impressões. Essa métrica (também chamada de metodologia de contagem) torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”.<br/>**Métricas de sucesso**: até 3 métricas de sucesso padrão (não calculadas) para analisar a atividade do Target."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Analytics for Target do_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel de experimentação](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) para obter informações sobre como comparar diferentes variações de experiências de usuário, marketing ou mensagens no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artigo é sobre o painel Analytics for Target do_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel de experimentação](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) para obter informações sobre como comparar diferentes variações de experiências de usuário, marketing ou mensagens no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ O painel Analytics for Target permite analisar as atividades e experiências do 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Painel do Analytics for Target](https://video.tv.adobe.com/v/326713?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Painel do Analytics for Target](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -85,12 +85,12 @@ Cada tabela de forma livre mostra as seguintes colunas de métrica:
 | **[!UICONTROL Métrica de sucesso]** | A métrica de sucesso selecionada no painel de entrada. |
 | **[!UICONTROL Índice de conversão]** | Métrica de sucesso/Métrica de normalização. |
 | **[!UICONTROL Aumento]** | Compara o índice de conversão de cada experiência com a experiência de controle. Observação: o aumento é uma *métrica bloqueada* nas experiências do Target. Ela não pode ser detalhada nem usada com outras dimensões. |
-| **[!UICONTROL Aumento (inferior)]** | Esse valor representa o pior aumento que uma experiência variante pode ter sobre o controle, com um intervalo de confiança de 95%.<br>Consulte os arquivos do Excel [Cálculos estatísticos](https://experienceleague.adobe.com/pt-br/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Calculadora de confiança completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=pt-BR) para obter mais informações. |
-| **[!UICONTROL Aumento (médio)]** | Esse valor representa o ponto médio de aumento que uma experiência variante pode ter sobre o controle, com um intervalo de confiança de 95%. <br>Consulte os arquivos do Excel [Cálculos estatísticos](https://experienceleague.adobe.com/pt-br/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Calculadora de confiança completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=pt-BR) para obter mais informações. |
-| **[!UICONTROL Aumento (superior)]** | Esse valor representa o melhor aumento que uma experiência variante pode ter sobre o controle, com um intervalo de confiança de 95%.<br>Consulte os arquivos do Excel [Cálculos estatísticos](https://experienceleague.adobe.com/pt-br/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Calculadora de confiança completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=pt-BR) para obter mais informações. |
-| **[!UICONTROL Confiança]** | O teste t dos alunos calcula o nível de confiança, o que indica a probabilidade de os resultados serem duplicados se o teste fosse executado novamente. Um intervalo de formatação condicional fixo de 75%/85%/95% foi aplicado à métrica. Essa formatação pode ser personalizada, se necessário, em Configurações de coluna. Observação: a confiança é uma “métrica bloqueada” para as experiências do Target; ela não pode ser desmembrada nem usada com outras dimensões.<br>Consulte os arquivos do Excel [Cálculos estatísticos](https://experienceleague.adobe.com/pt-br/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Calculadora de confiança completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=pt-BR) para obter mais informações. |
+| **[!UICONTROL Aumento (inferior)]** | Esse valor representa o pior aumento que uma experiência variante pode ter sobre o controle, com um intervalo de confiança de 95%.<br>Consulte os arquivos do Excel [Cálculos estatísticos](https://experienceleague.adobe.com/pt-br/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Calculadora de confiança completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) para obter mais informações. |
+| **[!UICONTROL Aumento (médio)]** | Esse valor representa o ponto médio de aumento que uma experiência variante pode ter sobre o controle, com um intervalo de confiança de 95%. <br>Consulte os arquivos do Excel [Cálculos estatísticos](https://experienceleague.adobe.com/pt-br/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Calculadora de confiança completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) para obter mais informações. |
+| **[!UICONTROL Aumento (superior)]** | Esse valor representa o melhor aumento que uma experiência variante pode ter sobre o controle, com um intervalo de confiança de 95%.<br>Consulte os arquivos do Excel [Cálculos estatísticos](https://experienceleague.adobe.com/pt-br/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Calculadora de confiança completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) para obter mais informações. |
+| **[!UICONTROL Confiança]** | O teste t dos alunos calcula o nível de confiança, o que indica a probabilidade de os resultados serem duplicados se o teste fosse executado novamente. Um intervalo de formatação condicional fixo de 75%/85%/95% foi aplicado à métrica. Essa formatação pode ser personalizada, se necessário, em Configurações de coluna. Observação: a confiança é uma “métrica bloqueada” para as experiências do Target; ela não pode ser desmembrada nem usada com outras dimensões.<br>Consulte os arquivos do Excel [Cálculos estatísticos](https://experienceleague.adobe.com/pt-br/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Calculadora de confiança completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) para obter mais informações. |
 
-Assim como em qualquer painel no Analysis Workspace, é possível incrementar a análise adicionando tabelas e [visualizações](https://experienceleague.adobe.com/pt-br/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations) que ajudarão a analisar suas atividades do Adobe Target. Também é possível aplicar um segmento no nível do painel ou na tabela de forma livre. Observe que, se o adicionar à tabela de forma livre, você deverá sobrepô-lo na tabela inteira para preservar os cálculos de aumento e confiança. Os segmentos de nível de coluna não são suportados no momento.
+Assim como em qualquer painel no Analysis Workspace, é possível incrementar a análise adicionando tabelas e [visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) que ajudarão a analisar suas atividades do Adobe Target. Também é possível aplicar um segmento no nível do painel ou na tabela de forma livre. Observe que, se o adicionar à tabela de forma livre, você deverá sobrepô-lo na tabela inteira para preservar os cálculos de aumento e confiança. Os segmentos de nível de coluna não são suportados no momento.
 
 Use ![Editar](/help/assets/icons/Edit.svg) para reconfigurar e recriar o painel.
 

@@ -4,7 +4,7 @@ keywords: ausência de dados;lento
 title: Disponibilidade e latência de dados
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Normalmente, você pode esperar ver dados completos em relatórios 2 horas depoi
 
 Cada servidor de coleção de dados captura e processa dados analíticos brutos e, então, carrega os dados em lotes a cada hora para fins de relatório. O processo de transferência normalmente leva 30 minutos, de modo que a latência normal para o tráfego que ocorre logo depois de o processo de upload anterior ser concluído é de cerca de 90 minutos (60 minutos até ocorrer o upload do próximo lote e 30 minutos para a transferência e exibição do arquivo). No caso do tráfego que ocorrer pouco antes de um upload, a latência de dados chegar a 30 minutos (0 minutos até ocorrer o upload do próximo lote e 30 minutos para a transferência e exibição do arquivo).
 
-Se necessário, o Atendimento ao cliente da Adobe pode ativar uploads de dados em lote de 30 minutos (e não a cada hora) para seus conjuntos de relatórios mais usados.
+Se necessário, o Atendimento ao cliente da Adobe pode habilitar uploads de dados em lote de 30 minutos (e não a cada hora) para seus conjuntos de relatórios mais usados.
 
 ## Contribuidores para a latência
 
@@ -42,7 +42,7 @@ Alguns recursos na Adobe Experience Cloud vêm com uma latência inata além do 
 
 Há várias estratégias para impedir a latência ou reduzir o tempo de recuperação quando ocorre:
 
-* **Notifique a Adobe sobre picos de tráfego esperados:** embora seja impossível antecipar cada pico de tráfego no site, pode haver casos em que você espera receber um aumento significativo no tráfego. Os exemplos incluem um período de um feriado particularmente bem-sucedido ou pouco depois de promover uma grande campanha. Nesses casos, a Adobe fornece uma maneira de sua organização nos informar sobre os aumentos de tráfego esperados possibilitando a alocação de recursos de processamento adicionais para seu conjunto de relatórios. Consulte [Agendar um pico de tráfego](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) no guia do usuário de Administração para saber como notificar a Adobe sobre aumento de tráfego.
+* **Notifique a Adobe sobre picos de tráfego esperados:** embora seja impossível antecipar cada pico de tráfego no site, pode haver casos em que você espera receber um aumento significativo no tráfego. Os exemplos incluem um período de um feriado particularmente bem-sucedido ou pouco depois de promover uma grande campanha. Nesses casos, a Adobe fornece uma maneira de sua organização nos informar sobre os aumentos de tráfego esperados possibilitando a alocação de recursos de processamento adicionais para seu conjunto de relatórios. Consulte [Agendar um pico de tráfego](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) no guia do usuário de Administração para saber como notificar a Adobe sobre aumento de tráfego.
 * **Considere processar a carga ao ativar novos recursos:** alguns recursos requerem mais processamento do que outros. Quanto mais recursos são ativados em um conjunto de relatórios, mais difícil será a recuperação da latência. Ao ativar recursos em um conjunto de relatórios, lembre-se de que os seguintes recursos aumentam a quantidade de dados para processamento:
 
    * Implementação de mais de 20 eventos na mesma página
@@ -50,7 +50,7 @@ Há várias estratégias para impedir a latência ou reduzir o tempo de recupera
    * Mais de 20 valores nos produtos disponíveis
    * Serialização de eventos
 
-* Ativar a Filtragem de bot IAB: a [Filtragem de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) pode reduzir bastante a latência se o conjunto de relatórios for frequentado por bots ou crawlers. É recomendado usar a lista de bot IAB, já que é atualizada e mantida pelo [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Um usuário pode personalizar suas próprias regras de bot para complementar as da IAB.
+* Habilitar a Filtragem de bot IAB: a [Filtragem de bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) pode reduzir bastante a latência se o conjunto de relatórios for frequentado por bots ou crawlers. É recomendado usar a lista de bot IAB, já que é atualizada e mantida pelo [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Um usuário pode personalizar suas próprias regras de bot para complementar as da IAB.
 
 ## Como lidar com a latência
 

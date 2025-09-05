@@ -3,7 +3,7 @@ title: Suporte a componentes no Data Warehouse
 description: Saiba quais dimensões e métricas adicionais estão disponíveis no Data Warehouse e o que não é suportado.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 45%
@@ -67,7 +67,7 @@ Algumas dimensões e métricas não são suportadas no Data Warehouse.
    * Recargas
    * Acesso único
    * Métricas de ‘tempo gasto’
-* Métricas de participação (conforme descrito em [Criar uma métrica de &quot;Participação&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* Métricas de participação (conforme descrito em [Criar uma métrica de &quot;Participação&quot;](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md))
 
 ### Dimensões compatíveis de uma maneira diferente (formatação de data não padrão)
 

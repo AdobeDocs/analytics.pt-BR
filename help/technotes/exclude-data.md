@@ -4,7 +4,7 @@ description: Saiba mais sobre os vários métodos de exclusão de dados antes e 
 exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 96%
@@ -19,9 +19,9 @@ A exclusão de dados é usada com frequência para impedir que os esforços de t
 
 Os métodos a seguir são maneiras de excluir dados nos relatórios do Analytics depois que os servidores de coleção de dados do Adobe recebem solicitações de imagem. Os dados excluídos por meio desses métodos ainda contam para chamadas de servidor faturáveis.
 
-* **Excluir por IP**: o Adobe Analytics oferece a funcionalidade básica de excluir dados de endereços IP ou intervalos em um conjunto de relatórios. Consulte [Excluir por IP](/help/admin/admin/exclude-ip.md) no Guia do usuário do administrador.
-* **Regras de bot**: as regras de bot recebem tráfego de strings conhecidas do agente do usuário do bot e as excluem dos relatórios do Analytics. Os dados excluídos por meio de regras de bot são colocados no relatório Bots. Regras de bot personalizadas podem ser criadas para excluir dados adicionais. Consulte [Regras de bot](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) no Guia do usuário administrador.
-* **Regras VISTA**: dependendo das necessidades da sua organização, as ocorrências que correspondem aos seus requisitos são enviadas para outro conjunto de relatórios dedicado ao recebimento de dados excluídos. As regras VISTA geralmente são usadas em relação a endereços IP, mas não estão limitadas a eles. Você pode usar qualquer dimensão para incluir ou excluir dados em conjuntos de relatórios. As regras VISTA estão sujeitas a custos adicionais; entre em contato com sua equipe de conta da Adobe para obter detalhes.
+* **Excluir por IP**: o Adobe Analytics oferece a funcionalidade básica de excluir dados de endereços IP ou intervalos em um conjunto de relatórios. Consulte [Excluir por IP](/help/admin/tools/exclude-ip.md) no Guia do usuário do administrador.
+* **Regras de bot**: as regras de bot recebem tráfego de strings conhecidas do agente do usuário do bot e as excluem dos relatórios do Analytics. Os dados excluídos por meio de regras de bot são colocados no relatório Bots. Regras de bot personalizadas podem ser criadas para excluir dados adicionais. Consulte [Regras de bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) no Guia do usuário administrador.
+* **Regras VISTA**: dependendo das necessidades da sua organização, as ocorrências que correspondem aos seus requisitos são enviadas para outro conjunto de relatórios dedicado ao recebimento de dados excluídos. As regras VISTA geralmente são usadas em relação a endereços IP, mas não estão limitadas a eles. Você pode usar qualquer dimensão para incluir ou excluir dados em conjuntos de relatórios. As regras VISTA estão sujeitas a custos adicionais; entre em contato com a equipe de conta da Adobe para obter detalhes.
 * **Cookies de recusa**: todos os visitantes do seu site podem recusar voluntariamente o rastreamento no Adobe Analytics visitando uma página específica do seu servidor de rastreamento. Consulte [Implementar links de opção de não participação](/help/implement/js/opt-out.md) no guia do usuário de implementação.
 
 >[!TIP]

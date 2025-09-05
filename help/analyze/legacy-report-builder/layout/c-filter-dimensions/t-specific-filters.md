@@ -5,7 +5,7 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 91%
@@ -24,7 +24,7 @@ Você pode pesquisar por itens de dimensão específicos criando um filtro que c
 
 1. Crie ou edite uma solicitação e então acesse o [!UICONTROL Assistente de solicitações: etapa 2].
 
-   ![Captura de tela mostrando o Filtro por opções: Aplicativo, Usuário e Projeto.](/help/admin/admin/assets/filter.png)
+   ![Captura de tela mostrando o Filtro por opções: Aplicativo, Usuário e Projeto.](/help/admin/tools/assets/filter.png)
 
 1. No [!UICONTROL Assistente de solicitações: etapa 2], clique no link ao lado da dimensão na grade e, em seguida, escolha **[!UICONTROL Filtro]**.
 
@@ -40,6 +40,6 @@ Você pode pesquisar por itens de dimensão específicos criando um filtro que c
    * **A partir da lista:** Permite selecionar dados de uma lista à qual você pode adicionar dados.
 1. Se você habilitar **[!UICONTROL A partir da lista]**, selecione quaisquer itens listados disponíveis ou clique em **[!UICONTROL Adicionar]**.
 
-   Ao cllicar em **[!UICONTROL Adicionar]**, o formulário [!UICONTROL Selecionar a partir da lista] exibe uma lista de itens de dimensão disponíveis para o intervalo de dados da solicitação atual, limitado aos primeiros 10.000 itens. Você pode pesquisar nesses itens ou clicar em **[!UICONTROL Mais...]** para exibir o [!UICONTROL Formulário Pesquisar], que permite criar uma pesquisa mais detalhada das dimensões.
+   Ao clicar em **[!UICONTROL Adicionar]**, o formulário [!UICONTROL Selecionar a partir da lista] exibe uma lista de itens de dimensão disponíveis para o intervalo de dados da solicitação atual, limitado aos primeiros 10.000 itens. Você pode pesquisar nesses itens ou clicar em **[!UICONTROL Mais...]** para exibir o [!UICONTROL Formulário Pesquisar], que permite criar uma pesquisa mais detalhada das dimensões.
 1. Em [!UICONTROL Selecionar da lista], clique em **[!UICONTROL OK]**.
 1. No formulário [!UICONTROL Escolher página], salve seu filtro Específico se desejar e, em seguida, clique em **[!UICONTROL OK]**.

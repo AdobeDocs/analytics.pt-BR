@@ -4,7 +4,7 @@ description: Saiba como começar a usar o Adobe Analytics, os tipos de função 
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: a7cc0efe42ff7dc4aacc841156e25e3cab6b82f4
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 96%
@@ -29,7 +29,7 @@ Considere as seguintes funções principais ao usar o Adobe Analytics:
 * **Administrador de Produto:** Um Administrador de Produto gerencia um produto no Admin Console, bem como direitos de usuário a esse produto.
 * **Administradores do Perfil do produto:** esses usuários podem adicionar ou remover usuários a um perfil de produto, ajustar itens de permissões em seu perfil de produto e atribuir ou remover perfis de produto a grupos de usuários. Os administradores de perfil de produto não têm acesso total ao Adobe Analytics. No entanto, eles são ideais para líderes ou gerentes de equipes que precisam apenas conceder e gerenciar acesso ao Adobe Analytics para sua equipe. Para obter mais informações sobre perfis de produtos, consulte [Perfis de produto para o Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md).
 * **Administrador de Suporte**: também conhecido como usuários com suporte, eles não têm privilégios adicionais na interface do Analytics. Em vez disso, recebem privilégios adicionais ao se comunicarem com o Atendimento ao cliente da Adobe. Esses usuários também são quase sempre administradores do Analytics, pois ajudam o Atendimento ao cliente a solucionar problemas com eles. Identifique pelo menos um administrador do Analytics responsável por facilitar as interações entre os usuários finais e o Atendimento ao cliente da Adobe.
-* **Proprietários do site:** esses indivíduos ou equipes são responsáveis pela codificação e desenvolvimento do site. Eles não exigem contas, mas querem trabalhar com os administradores de coleção de dados para obter o código da tag e implementá-lo em seu site.
+* **Proprietários do site:** essas pessoas ou equipes são responsáveis pela codificação e desenvolvimento do site. Eles não exigem contas, mas querem trabalhar com os administradores de coleção de dados para obter o código da tag e implementá-lo em seu site.
 * **Usuários finais:** esses usuários normalmente visualizam relatórios e procuram respostas para perguntas comerciais. Os administradores do Analytics concedem a esses usuários permissões para trabalhar no produto.
 
 ## Conceder acesso completo ao administrador do produto para o Analytics
@@ -42,7 +42,7 @@ Para conceder acesso ao Adobe Analytics a você mesmo ou a outros:
 1. Clique na guia **[!UICONTROL Produtos]** na parte superior. Todos os produtos comprados pela sua organização estão à esquerda. Clique em **[!UICONTROL Adobe Analytics]** e depois no botão **[!UICONTROL Novo botão]**.
 1. Nomeie esse perfil como “Acesso total de administrador do Analytics” e clique em **[!UICONTROL Próximo]** > **[!UICONTROL Salvar]**.
 1. Na página Perfis de produto, clique no perfil recém-criado e depois clique na guia **[!UICONTROL Permissões]**.
-1. Clique em um dos itens de linha de permissão. Se a **[!UICONTROL Inclusão automática]** estiver disponível, ative-a. Se a **[!UICONTROL Inclusão automática]** não estiver disponível, clique em **[!UICONTROL Adicionar tudo]**. Ambas as opções movem todos os itens de permissão para a coluna direita.
+1. Clique em um dos itens de linha de permissão. Se a **[!UICONTROL Inclusão automática]** estiver disponível, habilite-a. Se a **[!UICONTROL Inclusão automática]** não estiver disponível, clique em **[!UICONTROL Adicionar tudo]**. Ambas as opções movem todos os itens de permissão para a coluna direita.
 1. Clique em **[!UICONTROL Salvar]**.
 Repita a etapa acima para todas as categorias de permissão.
 1. Depois que todas as categorias de permissão forem concedidas ao perfil, volte para a página Produtos clicando em **[!UICONTROL Produto]** na parte superior.
@@ -59,7 +59,7 @@ O acesso de administrador de produto para Coleção de dados na Experience Platf
 1. Clique na guia **[!UICONTROL Produtos]** na parte superior. Todos os produtos comprados pela sua organização estão à esquerda. Clique em **[!UICONTROL Experience Platform Launch]** e em **[!UICONTROL Novo perfil]**.
 1. Nomeie esse perfil como &quot;Acesso completo de administrador à coleção de dados&quot; e clique em **[!UICONTROL Concluído]**.
 1. Na página **[!UICONTROL Perfis de produto]**, clique no perfil recém-criado e depois clique na guia **[!UICONTROL Permissões]**.
-1. Clique em um dos itens de linha de permissão. Se a **[!UICONTROL Inclusão automática]** estiver disponível, ative-a. Se a Inclusão automática não estiver disponível, clique em **[!UICONTROL Adicionar tudo]**. Ambas as opções movem todos os itens de permissão para a coluna direita.
+1. Clique em um dos itens de linha de permissão. Se a **[!UICONTROL Inclusão automática]** estiver disponível, habilite-a. Se a Inclusão automática não estiver disponível, clique em **[!UICONTROL Adicionar tudo]**. Ambas as opções movem todos os itens de permissão para a coluna direita.
 1. Clique em **[!UICONTROL Salvar]**. Repita a etapa acima para todas as categorias de permissão.
 1. Quando todas as categorias de permissão forem concedidas ao perfil, volte para a página Visão geral clicando em **[!UICONTROL Visão geral]** na parte superior.
 1. No bloco [!UICONTROL Experience Platform Launch], clique em **[!UICONTROL Atribuir usuários]**.
@@ -72,7 +72,7 @@ Para obter informações sobre como atribuir usuários como administradores de p
 
 ## Próximas etapas
 
-[Criar um conjunto de relatórios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): faça com que o administrador do Analytics faça logon na ferramenta e crie um conjunto de relatórios para a coleção de dados
+[Criar um conjunto de relatórios](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md): faça com que o administrador do Analytics faça logon na ferramenta e crie um conjunto de relatórios para a coleção de dados
 
 [Criar uma propriedade de tag do Analytics](/help/implement/launch/create-analytics-property.md): peça ao administrador da Coleção de dados que faça logon na ferramenta e crie uma propriedade para implementar no site
 
@@ -84,7 +84,7 @@ Após a assinatura de um contrato
 
 1. A equipe de provisionamento da Adobe prepara-se para a criação da conta.
 
-1. O primeiro administrador recebe um email com credenciais de logon antes da data de início do contrato.
+1. O primeiro administrador recebe um email com credenciais de logon antes da data inicial do contrato.
 
 >[!IMPORTANT]
 >

@@ -1,13 +1,13 @@
 ---
 description: Saiba mais sobre os recursos de suporte de acessibilidade no Analysis Workspace.
-title: Acessibilidade No Analysis Workspace
+title: Acessibilidade no Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ O [!UICONTROL Analysis Workspace] fornece algumas ferramentas que o tornam acess
 A navegação no [!UICONTROL Analysis Workspace] funciona de cima para baixo e da esquerda para a direita. Os seguintes elementos de navegação facilitam a acessibilidade:
 
 * A tecla **[!UICONTROL Tab]** ativa atalhos de referência, permitindo a movimentação entre seções maiores dentro do espaço de trabalho. No painel esquerdo, **[!UICONTROL Tab]** também permite mover-se de uma opção arrastável para a próxima.
-* A ◀︎ e a ▶︎ se movem entre elementos individuais depois que a tecla **[!UICONTROL Tab]** realçou um elemento.
+* Os botões ◀ e ▶ possibilitam a movimentação entre elementos individuais depois que a tecla **[!UICONTROL Tab]** realça um elemento.
 * Pressionar a tecla **[!UICONTROL F6]** leva você até o primeiro painel no projeto e move-se entre as visualizações desse painel. Em seguida, ela leva você até o próximo painel no projeto e o processo se repete.
 * Aplicamos indicadores de foco para que os usuários de teclado com visão tenham uma indicação clara de qual elemento da interface está selecionado. O indicador é uma borda azul que realça o painel em foco. Além disso, a funcionalidade recém-selecionada é destacada com um plano de fundo cinza, bem como a seleção dentro da funcionalidade. No exemplo, [!UICONTROL Componentes] e a dimensão Página foram selecionados recentemente.
 
@@ -55,7 +55,7 @@ O [!UICONTROL Analysis Workspace] possui uma interface de arrastar e soltar. No 
 
 ### Atalhos de teclado (teclas de atalho)
 
-O [!UICONTROL Analysis Workspace] oferece um conjunto avançado de [atalhos de teclado (teclas de atalho)](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para um fluxo de trabalho mais simples.
+O [!UICONTROL Analysis Workspace] oferece um vasto conjunto de [atalhos de teclado (teclas de atalho)](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para facilitar o fluxo de trabalho. 
 
 ## Suporte para leitores de tela e ampliadores de tela
 
@@ -118,7 +118,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 ### Keyboard shortcuts (hotkeys) 
 
-[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=pt-BR) for a more seamless workflow. Some common shortcuts for navigation, analysis creation, and insight democratization are listed below. 
+[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for a more seamless workflow. Some common shortcuts for navigation, analysis creation, and insight democratization are listed below. 
 
 #### Navigation
 
@@ -160,7 +160,7 @@ A screen reader reads text that appears on the computer screen. It also reads no
 
 [!UICONTROL Analysis Workspace] strives for WCAG 2.1 AA conformance, including requirements for color contrast. 
 
-In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=pt-BR). 
+In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md). 
 
 ## Required field validation in component builders 
 

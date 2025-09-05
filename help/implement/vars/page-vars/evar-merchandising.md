@@ -5,9 +5,9 @@ feature: Appmeasurement Implementation
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '573'
 ht-degree: 90%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 90%
 
 *Esta página de ajuda descreve como implementar as eVars de merchandising. Para obter informações sobre como as eVars de merchandising funcionam como uma dimensão, consulte [eVars (dimensão de merchandising)](/help/components/dimensions/evar-merchandising.md) no guia do usuário dos Componentes.*
 
-Para ver em detalhes como as eVars de merchandising funcionam, consulte [eVars de merchandising e métodos de descoberta de produtos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=pt-BR).
+Para ver em detalhes como as eVars de merchandising funcionam, consulte [eVars de merchandising e métodos de descoberta de produtos](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
 
 ## Configurar eVars nas configurações do conjunto de relatórios
 
-Antes de usar as eVars em sua implementação, configure-as com a sintaxe desejada nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
+Antes de usar as eVars em sua implementação, configure-as com a sintaxe desejada nas configurações do conjunto de relatórios. Consulte [Variáveis de conversão](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) no Guia de administração.
 
 >[!WARNING]
 >
@@ -28,7 +28,7 @@ Antes de usar as eVars em sua implementação, configure-as com a sintaxe deseja
 
 ## Implementar utilizando a sintaxe do produto
 
-Quando a “Sintaxe do produto” estiver ativada, a categoria de merchandising será preenchida diretamente na variável `products`, portanto, não é necessário selecionar ou configurar um evento compulsório. Esse é o método recomendado e que deve ser utilizado, salvo quando o valor não estiver disponível para definição em `products` quando o evento bem-sucedido ocorrer.
+Quando a “Sintaxe do produto” estiver habilitada, a categoria de merchandising será preenchida diretamente na variável `products`, portanto, não é necessário selecionar ou configurar um evento compulsório. Esse é o método recomendado e que deve ser utilizado, salvo quando o valor não estiver disponível para definição em `products` quando o evento bem-sucedido ocorrer.
 
 ```js
 // The bare minimum to set a merchandising eVar with product syntax

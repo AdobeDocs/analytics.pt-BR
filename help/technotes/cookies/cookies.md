@@ -4,9 +4,9 @@ description: Saiba como as medidas de prevenção de rastreamento afetam cookies
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '1908'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Este documento explica como as principais medidas de prevenção de rastreamento
 ## Como os navegadores limitam o uso de cookies?
 
 >[!NOTE]
->O [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=pt-BR#cda) e o [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR#comparing-cja-to-traditional-adobe-analytics) podem unir cookies usando uma ID de pessoa, como uma ID de logon com hash, se disponível.
+>O [Cross-Device Analytics](/help/components/cda/overview.md#cda) e o [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR#comparing-cja-to-traditional-adobe-analytics) podem unir cookies usando uma ID de pessoa, como uma ID de logon com hash, se disponível.
 
 ### Limitações de cookies de terceiros
 
@@ -178,4 +178,4 @@ Se sua empresa for afetada pela prevenção de rastreamento de ITP, considere as
 >[!MORELIKETHIS]
 >
 >[Opções para atenuar o efeito das limitações de cookies do navegador](cookieless.md)
->[O impacto da nova Estrutura de transparência de rastreamento de aplicativos da Apple no Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=pt)
+>>[O impacto da nova Estrutura de transparência de rastreamento de aplicativos da Apple no Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=pt)

@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Perguntas frequentes sobre o Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1090'
 ht-degree: 31%
 
 ---
@@ -19,7 +19,7 @@ Respostas a perguntas que você pode se fazer ao implantar o Audience Analytics.
 
 +++ Como faço para saber se tenho Informações de identificação pessoal (PII) nos dados do Analytics? E se sim, o que devo fazer sobre isso?
 
-Se você tiver emails/endereços/etc em uma prop ou eVar, considere colocar os dados em hash durante a coleta. Se seu país considera endereços IP como PII, [ative a ofuscação de IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=pt-BR). Fale com o administrador do Analytics para ver o que você está coletando. Converse com o departamento jurídico para saber o que eles consideram sobre PII.
+Se você tiver emails/endereços/etc em uma prop ou eVar, considere colocar os dados em hash durante a coleta. Se seu país considera endereços IP como PII, [ative a ofuscação de IP](/help/admin/tools/exclude-ip.md). Fale com o administrador do Analytics para ver o que você está coletando. Converse com o departamento jurídico para saber o que eles consideram sobre PII.
 
 +++
 
@@ -27,7 +27,7 @@ Se você tiver emails/endereços/etc em uma prop ou eVar, considere colocar os d
 
 Isso não se aplica ao envio de dados do Adobe Analytics para o Adobe Audience Manager. Pergunte a si mesmo:
 
-* Você compartilhará um segmento compartilhado do Analytics com uma dimensão MCA de volta ao Experience Cloud?
+* Você compartilhará um segmento compartilhado do Analytics com uma dimensão MCA de volta para a Experience Cloud?
 
 * Você está exportando (por meio de feeds de dados) para um sistema de Business Intelligence (BI) usado para esse propósito?
 
@@ -107,7 +107,7 @@ Em todos os lugares; eles são tratados como qualquer outra dimensão coletada n
 
 +++ Por que vejo &quot;Limite de público-alvo atingido&quot; no meu relatório do Analytics? (Observação: isso também será representado como ID de público-alvo = -1 e `::max_audiences_exceeded::` no Data Warehouse)
 
-Por padrão, a integração de Audience Analytics para o Adobe Audience Manager envia todos os segmentos para os quais um visitante está qualificado, por ocorrência, para o Analytics. Se um visitante pertencer a mais de 150 segmentos do Adobe Audience Manager em uma única ocorrência, os **150 segmentos qualificados mais recentemente** serão enviados ao Analytics, enquanto a lista restante será truncada. Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada, e é exibido como “Limite de público-alvo atingido” na dimensão Nome de público-alvo e “-1” na dimensão ID de público-alvo.
+Por padrão, a integração do Audience Analytics para o Adobe Audience Manager envia todos os segmentos para os quais um visitante se qualifica, com base em cada ocorrência, para o Analytics. Se um visitante pertencer a mais de 150 segmentos do Adobe Audience Manager em uma única ocorrência, os **150 segmentos qualificados mais recentemente** serão enviados ao Analytics, enquanto a lista restante será truncada. Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada, e é exibido como “Limite de público-alvo atingido” na dimensão Nome de público-alvo e “-1” na dimensão ID de público-alvo.
 
 Mesmo sendo improvável que um visitante seja qualificado para mais de 150 segmentos em uma única ocorrência, há uma pequena chance de isso ocorrer. Se você encontrar o erro “Limite de público-alvo atingido” em seu relatório, há duas opções:
 
@@ -135,7 +135,7 @@ Sim. Na configuração de destino do Adobe Audience Manager, você verá apenas 
 
 Somente conjuntos mapeados para a sua Organização Experience Cloud podem ser habilitados.
 
-Para obter mais perguntas frequentes sobre esse tópico, consulte [Perguntas frequentes sobre o encaminhamento pelo lado do servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md).
+Para obter mais perguntas frequentes sobre esse tópico, consulte [Perguntas frequentes sobre o encaminhamento pelo lado do servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
 +++
 
@@ -155,7 +155,7 @@ Consulte [Entender os segmentos no Analytics e no Audience Manager](/help/integr
 
 +++ Qual é a diferença entre os atributos do cliente e os dados do cliente integrados no Adobe Audience Manager?
 
-Os atributos do cliente não são baseados em tempo; eles são aplicados retroativamente e prosseguem. Os dados integrados do Adobe Audience Manager são baseados em tempo e somente progressivos. Além disso, os atributos do cliente são uma tabela de pesquisa para IDs de visitante do Experience Cloud, enquanto a integração do Adobe Audience Manager são dados compilados em cada ocorrência para um visitante.
+Os atributos do cliente não são baseados em tempo; eles são aplicados retroativamente e prosseguem. Os dados integrados do Adobe Audience Manager são baseados em tempo e somente progressivos. Além disso, os atributos do cliente são uma tabela de pesquisa para IDs de visitante do Experience Cloud, enquanto a integração do Adobe Audience Manager é de dados compilados em cada ocorrência para um visitante.
 
 +++
 

@@ -4,10 +4,10 @@ title: Visão geral de segmentos
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 34%
+source-wordcount: '304'
+ht-degree: 43%
 
 ---
 
@@ -20,14 +20,14 @@ Você pode criar e usar segmentos no Analysis Workspace e no Customer Journey An
 | --- | --- | --- | --- |
 | Segmento de lista de componentes | Veja como [criar um segmento](/help/components/segmentation/segmentation-workflow/seg-create.md). | Todos os projetos do Espaço de trabalho | Para segmentos mais complexos, segmentos sequenciais |
 | Segmento rápido | [Construtor de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Somente projeto, mas pode salvar e adicionar à lista de segmentos. | Pode ser usado para segmentos de regra única ad hoc (com arrastar e soltar) ou para adicionar/editar várias regras (clicando no ícone de Segmento ) |
-| Segmento calculado com base em métricas | [Construtor de métrica calculada](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=pt-BR) | Para métrica calculada individual | Aplicar segmentos na definição da métrica |
-| Segmento baseado no conjunto de relatórios virtual | [Construtor do conjunto de relatórios virtual](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=pt-BR) | Para um conjunto de relatórios virtual individual | Aplicar segmentos na definição do conjunto de relatórios virtual |
+| Segmento calculado com base em métricas | [Construtor de métrica calculada](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | Para métrica calculada individual | Aplicar segmentos na definição da métrica |
+| Segmento baseado no conjunto de relatórios virtual | [Construtor do conjunto de relatórios virtual](/help/components/vrs/c-workflow-vrs/vrs-create.md) | Para um conjunto de relatórios virtual individual | Aplicar segmentos na definição do conjunto de relatórios virtual |
 
 ## Vídeos
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using segments in Analysis Workspace](https://video.tv.adobe.com/v/30818?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using segments in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Você pode criar diferentes tipos de segmentos no Analysis Workspace:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Outros métodos para aplicar segmentos](https://video.tv.adobe.com/v/33854?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Outros métodos para aplicar segmentos](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -65,8 +65,8 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Outros mét
 
 A comparação de segmentos inclui os seguintes recursos:
 
-* [Painel de comparação de segmentos:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) permite que você arraste dois segmentos para o painel e exiba um relatório abrangente que mostre diferenças estatisticamente significativas e sobreposições entre os dois públicos.
-* [Comparação de segmentos no fallout:](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) veja como públicos diferentes se comparam entre si no contexto de uma visualização de fallout.
+* [Painel de comparação de segmentos:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) permite arrastar dois segmentos para o painel e ver um relatório abrangente que mostra as diferenças estatisticamente significativas e as sobreposições entre os dois públicos-alvo.
+* [Comparação de segmentos no fallout:](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) veja como públicos-alvos diferentes se comparam entre si no contexto de uma visualização de fallout.
 
 
 

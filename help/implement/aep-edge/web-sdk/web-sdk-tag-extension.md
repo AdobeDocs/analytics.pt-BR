@@ -1,43 +1,43 @@
 ---
-title: Enviar dados para a Adobe Analytics usando a extensão de tag do SDK da Web
+title: Enviar dados para a Adobe Analytics usando a extensão de tag da Web SDK
 description: Comece com uma implementação limpa da Coleção de dados do Adobe Experience Platform para enviar dados para a Adobe Analytics usando o XDM e o grupo de campos do Adobe Analytics ExperienceEvent.
 exl-id: 235b3d68-92dd-4ca4-8889-1e1f2d83f47e
-source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1040'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
-# Enviar dados para a Adobe Analytics usando a extensão de tag do SDK da Web
+# Enviar dados para a Adobe Analytics usando a extensão de tag da Web SDK
 
-Esse caminho de implementação envolve uma nova instalação do SDK da Web usando tags na Coleção de dados da Adobe Experience Platform. Outros caminhos de implementação são abordados em páginas separadas:
+Esse caminho de implementação envolve uma nova instalação do Web SDK usando tags na Coleção de dados da Adobe Experience Platform. Outros caminhos de implementação são abordados em páginas separadas:
 
-* [Biblioteca JavaScript do SDK da Web](web-sdk-javascript-library.md): uma instalação do SDK da Web atualizada usando a biblioteca JavaScript do SDK da Web (`alloy.js`). Semelhante à abordagem de extensão de tag do SDK da Web (esta página), exceto que você gerencia a implementação por conta própria em vez de usar a interface do usuário de tags. Ele requer o grupo de campos Adobe Analytics ExperienceEvent, que inclui variáveis típicas do Analytics para serem incluídas no esquema XDM.
-* [Extensão do Analytics para a extensão do SDK da Web](analytics-extension-to-web-sdk.md): adote uma abordagem suave e metódica para mover da extensão de marcas da Adobe Analytics para a extensão de marcas do SDK da Web. Essa abordagem elimina a necessidade de usar o XDM até que sua organização esteja pronta para usar os serviços da Adobe Experience Platform, como o Customer Journey Analytics. Use o objeto `data` em vez do objeto `xdm` para enviar dados ao Adobe.
-* AppMeasurement [Biblioteca JavaScript do SDK da Web](appmeasurement-to-web-sdk.md): uma abordagem suave e metódica para migrar para o SDK da Web, exceto por não usar marcas. Em vez disso, você remove manualmente a biblioteca de coleta de dados do Adobe Analytics (`AppMeasurement.js`) e a substitui pela biblioteca JavaScript do SDK da Web (`alloy.js`).
+* [Biblioteca JavaScript do Web SDK](web-sdk-javascript-library.md): uma nova instalação do Web SDK usando a biblioteca JavaScript do Web SDK (`alloy.js`). Semelhante à abordagem de extensão de tag do Web SDK (esta página), exceto que você gerencia a implementação por conta própria em vez de usar a interface do usuário de tags. Ele requer o grupo de campos Adobe Analytics ExperienceEvent, que inclui variáveis típicas do Analytics para serem incluídas no esquema XDM.
+* [Extensão do Analytics para a extensão do Web SDK](analytics-extension-to-web-sdk.md): adote uma abordagem suave e metódica para mover da extensão de marcas da Adobe Analytics para a extensão de marcas do Web SDK. Essa abordagem elimina a necessidade de usar o XDM até que sua organização esteja pronta para usar os serviços da Adobe Experience Platform, como o Customer Journey Analytics. Use o objeto `data` em vez do objeto `xdm` para enviar dados ao Adobe.
+* [Biblioteca JavaScript do AppMeasurement para Web SDK](appmeasurement-to-web-sdk.md): uma abordagem suave e metódica para migrar para o Web SDK, exceto por não usar marcas. Em vez disso, você remove manualmente a biblioteca de coleta de dados do Adobe Analytics (`AppMeasurement.js`) e a substitui pela biblioteca JavaScript do Web SDK (`alloy.js`).
 
 ## Vantagens e desvantagens desse caminho de implementação
 
-O uso da extensão SDK da Web para enviar dados para a Adobe Analytics tem vantagens e desvantagens. Avalie cuidadosamente cada opção para decidir qual abordagem é a melhor para sua organização.
+O uso da extensão Web SDK para enviar dados para o Adobe Analytics tem vantagens e desvantagens. Avalie cuidadosamente cada opção para decidir qual abordagem é a melhor para sua organização.
 
 | Vantagens | Desvantagens |
 | --- | --- |
-| <ul><li>**Abordagem mais direta**: esse caminho de implementação é o mais simples e geralmente o caminho recomendado para novas implementações do SDK da Web. Se você não tiver uma implementação atual do Adobe Analytics com a qual se preocupar, preencha os campos XDM do SDK da Web aplicáveis.</li><li>**Esquema predefinido**: se sua organização não tiver uma necessidade para seu próprio esquema, você pode simplesmente usar o esquema direcionado para a Adobe Analytics. Esse conceito se aplica mesmo quando você avança em direção ao Customer Journey Analytics; o conceito de props e eVars não se aplica ao Customer Journey Analytics, mas você pode continuar usando props e eVars como dimensões personalizadas simples.</li><li>**Gerenciar marcas sem a intervenção do desenvolvedor**: as marcas permitem gerenciar a implementação sem solicitar que os desenvolvedores façam alterações de código na implementação. Seus desenvolvedores instalam o script do carregador de tags e você tem controle total sobre como os dados são coletados.</li></ul> | <ul><li>**Bloqueado para usar um esquema específico**: quando sua organização mudar para o Customer Journey Analytics, você deve optar por continuar usando o esquema do Adobe Analytics ou migrar para o esquema de sua própria organização (que seria um conjunto de dados separado). Se a sua organização quiser evitar o esquema do Adobe Analytics e a migração para um conjunto de dados separado ao mudar para o Customer Journey Analytics, o Adobe recomenda um dos dois métodos a seguir:<ul><li>Usar o objeto `data`: o objeto `data` permite enviar dados para a Adobe Analytics sem estar em conformidade com um esquema XDM. Depois que o esquema da sua organização for criado, você poderá usar o mapeamento de sequência de dados para mapear campos de objeto `data` para o XDM. A [extensão do Analytics para a extensão do SDK da Web](analytics-extension-to-web-sdk.md) e a [biblioteca JavaScript do AppMeasurement para o SDK da Web](appmeasurement-to-web-sdk.md) usam este objeto `data`.</li><li>Ignorar totalmente o Adobe Analytics: se estiver implementando o SDK da Web, você pode enviar esses dados para um conjunto de dados na Adobe Experience Platform para uso no Customer Journey Analytics. Você pode usar qualquer esquema que desejar; a Adobe Analytics não está envolvida nesse fluxo de trabalho e, portanto, não requer o grupo de campos Adobe Analytics ExperienceEvent. Este método incorre no menor montante de dívida técnica, mas também deixa a Adobe Analytics totalmente fora de contexto.</li></ul></ul> |
+| <ul><li>**Abordagem mais direta**: esse caminho de implementação é o mais simples e geralmente o caminho recomendado para novas implementações do Web SDK. Se você não tiver uma implementação atual do Adobe Analytics com a qual se preocupar, preencha os campos XDM aplicáveis do Web SDK.</li><li>**Esquema predefinido**: se sua organização não tiver uma necessidade para seu próprio esquema, você pode simplesmente usar o esquema direcionado para a Adobe Analytics. Esse conceito se aplica mesmo quando você avança em direção ao Customer Journey Analytics; o conceito de props e eVars não se aplica ao Customer Journey Analytics, mas você pode continuar usando props e eVars como dimensões personalizadas simples.</li><li>**Gerenciar marcas sem a intervenção do desenvolvedor**: as marcas permitem gerenciar a implementação sem solicitar que os desenvolvedores façam alterações de código na implementação. Seus desenvolvedores instalam o script do carregador de tags e você tem controle total sobre como os dados são coletados.</li></ul> | <ul><li>**Bloqueado para usar um esquema específico**: quando sua organização mudar para o Customer Journey Analytics, você deve optar por continuar usando o esquema do Adobe Analytics ou migrar para o esquema de sua própria organização (que seria um conjunto de dados separado). Se a sua organização quiser evitar o esquema do Adobe Analytics e a migração para um conjunto de dados separado ao migrar para o Customer Journey Analytics, a Adobe recomenda um dos dois métodos a seguir:<ul><li>Usar o objeto `data`: o objeto `data` permite enviar dados para a Adobe Analytics sem estar em conformidade com um esquema XDM. Depois que o esquema da sua organização for criado, você poderá usar o mapeamento de sequência de dados para mapear campos de objeto `data` para o XDM. A [extensão do Analytics para a extensão do Web SDK](analytics-extension-to-web-sdk.md) e a [biblioteca JavaScript do AppMeasurement para o Web SDK](appmeasurement-to-web-sdk.md) usam este objeto `data`.</li><li>Ignorar totalmente o Adobe Analytics: se estiver implementando a Web SDK, você poderá enviar esses dados para um conjunto de dados na Adobe Experience Platform para uso no Customer Journey Analytics. Você pode usar qualquer esquema que desejar; a Adobe Analytics não está envolvida nesse fluxo de trabalho e, portanto, não requer o grupo de campos Adobe Analytics ExperienceEvent. Este método incorre no menor montante de dívida técnica, mas também deixa a Adobe Analytics totalmente fora de contexto.</li></ul></ul> |
 
 >[!IMPORTANT]
 >
->Esse método de implementação exige que você use um esquema configurado para o Adobe Analytics. Se sua organização planeja usar seu próprio esquema com o Customer Journey Analytics no futuro, o uso do esquema do Adobe Analytics pode criar confusão para administradores de dados ou arquitetos. Há várias opções para atenuar esse obstáculo:
+>Esse método de implementação exige que você use um esquema configurado para o Adobe Analytics. Se sua organização planejar usar seu próprio esquema com a Customer Journey Analytics no futuro, o uso do esquema da Adobe Analytics poderá criar confusão para administradores de dados ou arquitetos. Há várias opções para atenuar esse obstáculo:
 >
->* Você pode usar o esquema do Adobe Analytics no CJA. Observe que o CJA não tem um conceito de props ou eVars; eles são tratados como qualquer outro campo de esquema. Observe também que o uso do esquema do Adobe Analytics no CJA pode dificultar o uso de outros serviços de plataforma, como o Adobe Journey Optimizer ou o Real-time Customer Data Platform.
+>* Você pode usar o esquema do Adobe Analytics no CJA. Observe que o CJA não tem um conceito de props ou eVars; eles são tratados como qualquer outro campo de esquema. Observe também que o uso do esquema do Adobe Analytics no CJA pode dificultar o uso de outros serviços de plataforma, como o Adobe Journey Optimizer ou o Real-Time Customer Data Platform.
 >* Você pode usar o objeto de dados, de modo semelhante a um fluxo de trabalho de migração. Observe que o uso do objeto de dados exige o mapeamento de cada campo de objeto de dados para um campo de esquema XDM.
 >* Você pode ignorar completamente a implementação do Adobe Analytics e enviar dados para o Adobe Experience Platform usando seu próprio esquema. Essa abordagem é ideal a longo prazo e permite que sua organização comece a usar o Customer Journey Analytics.
 
-## Etapas necessárias para implementar a extensão de tag do SDK da Web
+## Etapas necessárias para implementar a extensão de tag do Web SDK
 
 Uma visão geral de alto nível das tarefas de implementação:
 
-![Como implementar o Adobe Analytics usando o fluxo de trabalho de extensão do SDK da Web, conforme descrito nesta seção.](../../assets/websdk-extension-annotated.png)
+![Como implementar o Adobe Analytics usando o fluxo de trabalho de extensão do Web SDK, conforme descrito nesta seção.](../../assets/websdk-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -48,7 +48,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>1</td>
 <td>Certifique-se de que você <b>definiu um conjunto de relatórios</b>.</td>
-<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
+<td><a href="/help/admin/tools/manage-rs/report-suites-admin.md">Gerenciador do conjunto de relatórios</a></td>
 </tr>
 
 <tr>
@@ -72,13 +72,13 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>5</td> 
 <td><b>Adicionar um serviço Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics e para quais conjuntos de relatórios especificamente.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
 </tr>
 
 <tr>
 <td>6</td>
-<td><b>Criar uma propriedade de tag</b>. Propriedades são contêineres abrangentes usados para referenciar dados de gerenciamento de tags.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=pt-BR#for-web">Criar ou configurar uma propriedade de tag para a web</a></td>
+<td><b>Criar uma propriedade de marca</b>. As propriedades são contêineres abrangentes usados para fazer referência aos dados do gerenciamento de tags.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">Criar ou configurar uma propriedade de tag para a web</a></td>
 </tr>
 
 <tr>
@@ -90,7 +90,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>8</td>
 <td><b>Iterar, validar e publicar</b> para produção. Incorpore o código para incluir a propriedade da tag nas páginas do site. Em seguida, use elementos de dados, regras, entre outros, para personalizar sua implementação.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=pt-BR#embed-code">Código de inserção</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=pt-BR">Visão geral da publicação</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Código de inserção</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=pt-BR">Visão geral da publicação</a></td>
 </tr>
 
 </table>

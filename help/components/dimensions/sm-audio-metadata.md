@@ -3,7 +3,7 @@ title: Dimensões de metadados de áudio dos serviços de mídia de transmissão
 description: Dimensões disponíveis ao habilitar [!UICONTROL Metadados de áudio] para um conjunto de relatórios.
 feature: Dimensions
 exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 8%
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 Os serviços e dimensões de mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleta de dados por meio de bibliotecas de serviços de mídia de transmissão. O uso dessas dimensões requer o **[!UICONTROL Complemento de mídia do Adobe Analytics para streaming]**. Entre em contato com a equipe de conta da Adobe para obter mais detalhes.
 
-Quando você habilita os **[!UICONTROL Metadados de áudio]** em [Relatórios de mídia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), as seguintes dimensões estão disponíveis:
+Quando você habilita os **[!UICONTROL Metadados de áudio]** em [Relatórios de mídia](/help/admin/tools/manage-rs/edit-settings/media-management.md), as seguintes dimensões estão disponíveis:
 
 | Nome da dimensão | Descrição | Enviado com | Variável de dados de contexto |
 | --- | --- | --- | --- |

@@ -4,7 +4,7 @@ keywords: Implementação do Analytics
 title: Redirecionamentos e aliases
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 99%
@@ -41,8 +41,8 @@ Considere a seguinte situação hipotética na qual o usuário não encontra um 
 Redirecionamentos podem fazer com que o navegador apague a URL de referência verdadeira. Considere a seguinte situação
 
 1. O usuário aponta seu navegador para `https://www.google.com`, digita *passagens aéreas com desconto* no campo de pesquisa e clica no botão **[!UICONTROL Pesquisar]**.
-1. A barra de endereços da janela do navegador exibe os termos de pesquisa que o usuário digitou no campo de pesquisa `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Observe que os termos de pesquisa foram incluídos nos parâmetros da sequência de consulta do URL após `https://www.google.com/search?`. O navegador também exibe uma página que contém os resultados da pesquisa, incluindo um link para um de seus nomes de domínio, [!DNL https://www.flytohawaiiforfree.com/]. Esse domínio *personalizado* é configurado para direcionar o usuário para `https://www.example.com/`.
-1. O usuário clica no link `https://www.flytohawaiiforfree.com/` e é redirecionado pelo servidor para o site principal, `https://www.example.com`. Quando o redirecionamento acontece, os dados que são importantes para a coleta de dados do [!DNL Analytics] são perdidos, porque o navegador apaga a URL de referência. Assim, as informações da pesquisa original usadas nos relatórios do [!DNL Analytics] (por exemplo, [!UICONTROL Domínios de Referência], [!UICONTROL Mecanismos de Busca] e [!UICONTROL Palavras-chave de Pesquisa]) são perdidas.
+1. A barra de endereços da janela do navegador exibe os termos de pesquisa que o usuário digitou no campo de pesquisa `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Observe que os termos de pesquisa foram incluídos nos parâmetros da sequência de consulta do URL após `https://www.google.com/search?`. O navegador também exibe uma página que contém os resultados da pesquisa, incluindo um link para um de seus nomes de domínio, [!DNL https://www.flytohawaii.example/]. Esse domínio *personalizado* é configurado para direcionar o usuário para `https://www.example.com/`.
+1. O usuário clica no link `https://www.flytohawaii.example/` e é redirecionado pelo servidor para o site principal, `https://www.example.com`. Quando o redirecionamento acontece, os dados que são importantes para a coleta de dados do [!DNL Analytics] são perdidos, porque o navegador apaga a URL de referência. Assim, as informações da pesquisa original usadas nos relatórios do [!DNL Analytics] (por exemplo, [!UICONTROL Domínios de Referência], [!UICONTROL Mecanismos de Busca] e [!UICONTROL Palavras-chave de Pesquisa]) são perdidas.
 
 ## Implementar redirecionamentos {#implement}
 
@@ -52,7 +52,7 @@ Completando as etapas a seguir, as informações que o referenciador original pa
 
 ## Configurar código JavaScript de substituição do referenciador {#override}
 
-O trecho de código abaixo mostra duas variáveis do JavaScript, *`s_referrer`* e *`s_pageURL`*. Este código é colocado na página inicial final do redirecionamento.
+O trecho de código abaixo mostra duas variáveis do JavaScript, `s.referrer` e `s.pageURL`. Este código é colocado na página inicial final do redirecionamento.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -101,7 +101,7 @@ Normalmente, o [!DNL Analytics] obtém o URL de referência pela propriedade [!U
 Portanto, a versão final da página inicial precisaria conter o seguinte código para corrigir os problemas apresentados na situação de &quot;passagens aéreas com desconto&quot;.
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -110,7 +110,7 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## Verificar o referenciador com o Adobe Debugger {#verify}
@@ -135,8 +135,8 @@ Essas variáveis serão representadas como os parâmetros a seguir no [Experienc
   </tr> 
   <tr> 
    <td> <p>URL da página </p> </td> 
-   <td> <p> <span class="filepath">https://www.flytohawaiiforfree.com</span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>Esse valor será exibido no DigitalPulse Debugger, se a variável <span class="varname"> pageURL </span> for usada. </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>Esse valor será exibido no DigitalPulse Debugger, se a variável <span class="varname"> pageURL </span> for usada. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>URL da página inicial final </p> </td> 
@@ -157,7 +157,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 

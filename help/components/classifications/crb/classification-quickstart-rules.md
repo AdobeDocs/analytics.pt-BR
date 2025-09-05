@@ -3,9 +3,9 @@ description: As regras de classificação buscam regularmente termos não classi
 title: Regras de classificação
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '1970'
 ht-degree: 90%
 
 ---
@@ -59,8 +59,6 @@ about_classification_rules.xml
 
 ## Informações importantes sobre as Regras
 
-* Especifique [permissões de grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=pt-BR) para classificações em [!UICONTROL Ferramentas Administrativas].
-
 * **Expressões regulares**: a ajuda está disponível em [Expressões regulares nas regras de classificação](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Conjuntos de relatórios**: não é possível escolher uma classificação até que pelo menos um conjunto de relatórios esteja selecionado. Não é possível aplicar o conjunto de relatórios até que você tenha criado o conjunto de regras e atribuído uma variável.
@@ -84,7 +82,7 @@ Ao ativar regras, é possível substituir classificações existentes. Nas situa
 
   É possível substituir classificações ao [adicionar e ativar](/help/components/classifications/crb/classification-quickstart-rules.md) uma regra e ao ativar uma integração de conectores de dados. (para Data Connectors, as regras são criadas por parceiros no Dev Center e exibidas no [!UICONTROL Criador de regras de classificação]).
 
-* Uma tecla classificada não tiver aparecido nos dados após um período especificado ao substituir uma tecla, mesmo após ativar [Substituir classificações de](/help/components/classifications/crb/classification-rule-definitions.md).
+* Uma tecla classificada não tiver aparecido nos dados após um período especificado ao substituir uma tecla, mesmo após habilitar [Substituir classificações de](/help/components/classifications/crb/classification-rule-definitions.md).
 * A chave não está classificada, e nunca deve ser passada para o [!DNL Adobe Analytics] após o período iniciado há cerca de um mês.
 
   >[!NOTE]
@@ -135,7 +133,7 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |---|---|---|---|
-| Expressão regular | &Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
+| Expressão regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
 
 **Sintaxe**
 
@@ -393,7 +391,7 @@ Para validar e ativar regras de classificação:
 
    ![](assets/overwrite_keys.png)
 
-1. (Opcional) Para substituir as classificações, ative a seleção **[!UICONTROL Substituir classificações de]** &lt;*selection*>.
+1. (Opcional) Para substituir as classificações, habilite a seleção **[!UICONTROL Substituir classificações de]** &lt;*selection*>.
 
    Essa opção permite que você substitua classificações existentes para teclas afetadas.
 

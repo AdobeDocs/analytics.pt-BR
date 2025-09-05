@@ -3,7 +3,7 @@ title: Relatórios de aquisição no Adobe Analytics
 description: Saiba como criar relatórios baseados em aquisição usando a Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 99%
@@ -74,7 +74,7 @@ Consulte a dimensão [Domínio de referência](/help/components/dimensions/refer
 
 A Adobe usa um recurso na Analysis Workspace chamado Advertising Analytics para trazer dados de publicidade e pesquisa de várias plataformas, incluindo o Google.
 
-O recurso de análise de publicidade exige configuração para retornar dados. Consulte a [Ajuda do Advertising Analytics ](/help/integrate/c-advertising-analytics/overview.md)para obter detalhes sobre como ativar essas dimensões adicionais na Analysis Workspace.
+O recurso de análise de publicidade exige configuração para retornar dados. Consulte a [Ajuda do Advertising Analytics ](/help/integrate/c-advertising-analytics/overview.md)para obter detalhes sobre como habilitar essas dimensões adicionais na Analysis Workspace.
 
 ## Relatórios Social
 
@@ -127,7 +127,7 @@ O relatório Campanhas está disponível na Analysis Workspace usando a dimensã
 
 ## Campanhas - Palavras-chave pagas
 
-O relatório de palavras-chave pagas mostra o desempenho de cada palavra-chave depois que um visitante clica em um link de pesquisa paga a partir de um mecanismo de pesquisa. A dimensão **Palavras-chave de pesquisa - Pagas** está disponível na Analysis Workspace, mas requer uma configuração única da detecção de pesquisa paga para coletar dados. Consulte [Detecção de pesquisa paga](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) no guia do usuário Administração para obter detalhes sobre a configuração.
+O relatório de palavras-chave pagas mostra o desempenho de cada palavra-chave depois que um visitante clica em um link de pesquisa paga a partir de um mecanismo de pesquisa. A dimensão **Palavras-chave de pesquisa - Pagas** está disponível na Analysis Workspace, mas requer uma configuração única da detecção de pesquisa paga para coletar dados. Consulte [Detecção de pesquisa paga](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md) no guia do usuário Administração para obter detalhes sobre a configuração.
 
 1. No menu Componentes, localize a dimensão **Palavra-chave de pesquisa - Paga** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
