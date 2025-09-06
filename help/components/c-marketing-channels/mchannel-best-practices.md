@@ -3,10 +3,10 @@ title: Práticas recomendadas para implementar os canais de marketing do Adobe A
 description: Atualização de práticas recomendadas de uso de canais de marketing com a atribuição e o Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 97%
+source-wordcount: '653'
+ht-degree: 81%
 
 ---
 
@@ -34,9 +34,13 @@ Recomendamos usar a [Atribuição](/help/analyze/analysis-workspace/attribution
 
 Os canais de atualização direta e interna/de sessão não são recomendados para uso com modelos de atribuição personalizados.
 
-E se sua organização já tiver as opções de Atualização direta e de Sessão configuradas? Nesse caso, recomendamos que você [crie uma classificação](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) para Primeiro contato/Último contato e deixe os canais de atualização direta e de sessão sem classificação. A dimensão classificada produzirá os mesmos resultados da Atribuição, como se esses canais nunca tivessem sido configurados.
+E se sua organização já tiver as opções de Atualização direta e de Sessão configuradas? Nesse caso, a Adobe recomenda que você [crie uma classificação](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) para Primeiro contato/Último contato e deixe os canais de Atualização direta e de Sessão sem classificação. A dimensão classificada produz resultados de Atribuição semelhantes ao caso em que esses canais nunca foram configurados.
 
 ![](assets/direct-session-refresh.png)
+
+Se você desativar esses canais e remover suas regras de processamento de canal de marketing, os resultados serão um pouco diferentes da abordagem de classificação. O valor `None` representa visitas que não correspondem a nenhuma regra de processamento de canal de marketing. Podem aparecer diferenças quando uma visita correspondente a nenhum canal segue uma visita que corresponde a um canal.
+
+Você ainda pode usar modelos de atribuição personalizados para aplicar janelas de pesquisa e modelos de atribuição em ambos os casos.
 
 ## Prática recomendada nº 3: habilitar a substituição de canal de último toque para todos os canais
 
