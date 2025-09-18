@@ -58,4 +58,4 @@ O processo de mover uma implementação existente em vários sites para um únic
 >[!MORELIKETHIS]
 >
 >[Mudança da marcação de vários conjuntos para um conjunto de relatórios global e virtual](../../components/vrs/vrs-considerations.md)
->>[Comparando rollups e conjuntos de relatórios globais](../../admin/tools/manage-rs/rollup-report-suite.md)
+>&#x200B;>[Comparando rollups e conjuntos de relatórios globais](../../admin/tools/manage-rs/rollup-report-suite.md)
