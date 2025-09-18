@@ -4,7 +4,7 @@ title: 'Sobre os segmentos '
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -240,7 +240,7 @@ Este vídeo oferece uma visão geral breve do que são os containers de segmento
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/3429097?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

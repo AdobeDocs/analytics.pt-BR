@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Consulte [Otimizar o desempenho](/help/analyze/analysis-workspace/workspace-faq/
 
 +++Como os dados entram em seu projeto do Analysis Workspace?
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dados no Analysis Workspace](https://video.tv.adobe.com/v/33848?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dados no Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 +++
 
@@ -55,7 +55,7 @@ Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rastreamento
 
 +++
 
-+++Quando eu arrasto uma métrica, vejo &quot;Dados inválidos&quot;. Como posso resolver esse problema?
++++Quando arrasto uma métrica, vejo a mensagem “Dados inválidos”. Como posso resolver esse problema?
 
 Dados inválidos significa que a Adobe não pode retornar dados usando a combinação de dimensões e métricas usadas no relatório. Por exemplo, duas métricas empilhadas uma sobre a outra não podem retornar como dados, pois não há como exibir duas métricas desse modo. Em vez disso, coloque as métricas lado a lado.
 
@@ -73,6 +73,6 @@ Se você criar um relatório de espaço de trabalho com êxito, mas não houver 
 
 +++
 
-+++Como usuário somente leitura, que ações posso executar no Analysis Workspace?
-Quando um projeto é compartilhado como somente leitura, todas as funções e recursos de edição são completamente desabilitados, e os destinatários só podem alterar o menu suspenso para aplicar um filtro ao painel de forma predefinida.
++++Como usuário somente de leitura, que ações posso executar no Analysis Workspace?
+Quando um projeto é compartilhado como somente de leitura, todas as funções e recursos de edição são completamente desabilitados, e os destinatários só podem alterar o menu suspenso para aplicar um filtro ao painel de forma predefinida.
 +++

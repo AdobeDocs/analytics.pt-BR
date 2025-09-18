@@ -5,16 +5,16 @@ user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
 source-git-commit: 325a42c080290509309e90c9127138800d5ac496
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Guia do administrador do Adobe Analytics {#admin}
 
-+ [Guia de administração do Analytics](home.md)
++ [Guia do administrador do Analytics](home.md)
 + [Notas de versão do Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/release-notes/latest)
 + Adobe Admin Console {#admin-console}
    + [Visão geral](admin-console/home.md)

@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6461'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 Atualizações de conteúdo do conjunto de documentação do Adobe Analytics desde janeiro de 2019.
 
-* Para obter informações sobre o [!UICONTROL Customer Journey Analytics], acesse [aqui](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=pt-BR).
+* Para obter informações sobre o [!UICONTROL Customer Journey Analytics], acesse [aqui](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing).
 * Para obter informações sobre os serviços de mídia de streaming, consulte [Medição de áudio e vídeo no Analytics](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).
 
 ## Detalhes sobre as principais atualizações da documentação
@@ -177,7 +177,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](/help/technotes/client-hints.md). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](/help/components/classifications/sets/overview.md) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
@@ -224,7 +224,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 21 de outubro de 2021 | Nova documentação sobre o painel [Tempo gasto na reprodução de mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) no Analysis Workspace. |
 | 7 de outubro de 2021 | Nova documentação sobre [visualizações para cartões de pontuação móveis](/help/analyze/mobile-app/create-scorecard.md#apply-visualizations) |
 | **Agosto de 2021** |  |
-| 18 de agosto de 2021 | Estrutura de nível superior revisada e consolidada para uma única [Página de aterrisagem](https://experienceleague.adobe.com/docs/analytics.html?lang=pt-BR) |
+| 18 de agosto de 2021 | Estrutura de nível superior revisada e consolidada para uma única [Página de aterrisagem](https://experienceleague.adobe.com/pt-br/docs/analytics) |
 | 18 de agosto de 2021 | Novo tópico em [A4T e conjuntos de relatórios virtuais](/help/components/vrs/vrs-a4t.md) |
 | 18 de agosto de 2021 | Novo tópico em [Práticas recomendadas de atribuição](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 de agosto de 2021 | Novo tópico sobre [Contar instâncias repetidas](/help/components/metrics/count-repeat-instances.md) |
@@ -313,7 +313,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 4 de fevereiro de 2020 | Substituição completa do [guia de usuário de implementação](/help/implement/home.md). |
 | 22 de janeiro de 2020 | Atualização da página Freeform Table para incluir informações sobre o novo [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | **Janeiro de 2020** | |
-| 24 de janeiro de 2020 | Atualizações na página [Configurações de linha](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=pt-BR#cja-workspace) no Espaço de trabalho. |
+| 24 de janeiro de 2020 | Atualizações na página [Configurações de linha](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings#cja-workspace) no Espaço de trabalho. |
 | 16 de janeiro de 2020 | Nova documentação sobre o [Construtor de tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). Com o Construtor de tabela habilitado, você pode arrastar e soltar em muitas dimensões, detalhamentos, métricas e segmentos para criar tabelas que respondam a perguntas comerciais mais complexas. Os dados não serão atualizados imediatamente. Em vez disso, as atualizações ocorrem depois que você clica em **[!UICONTROL Criar]**, economizando tempo depois de saber qual tabela deseja criar. Além disso, esse recurso oferece:<ul><li>**Visualização**: é possível visualizar o formato de uma tabela antes de gastar tempo para renderizar dados reais.</li><li>**Configurações flexíveis de linhas e detalhamento**: você pode definir seus níveis de linha e detalhamento para cada linha de dimensão. Anteriormente, o Espaço de trabalho impunha padrões que não podiam ser alterados até que os dados fossem retornados.</li><li>**Detalhamento por posição**: é possível definir linhas de dimensão para sempre _detalhar por posição_ em vez de _por item específico_ (o padrão).</li><li>**Ordenação manual de linha estática**: é possível ordenar manualmente linhas estáticas para que as linhas da tabela sejam exibidas exatamente como você precisa. Anteriormente, as linhas estáticas podiam ser classificadas somente por uma coluna de métrica ou alfabeticamente.</li></ul> |
 | 13 de janeiro de 2020 | Adição de [cookies do Adobe Analytics e do navegador](/help/technotes/cookies/cookies.md). |
 | 13 de janeiro de 2020 | A página [Qual ferramenta do Adobe Analytics devo usar](/help/analyze/get-started/which-analytics-tool.md) foi modificada. |
@@ -325,13 +325,13 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 19 de dezembro de 2020 | O [limite de armazenamento de dados padrão FTP](/help/export/ftp-and-sftp/ftp-limits.md) foi alterado para 10 GB. |
 | 29 de novembro de 2019 | Reformulação da [Documentação do feed de dados](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de novembro de 2019 | Novo tópico sobre Fim da vida útil para aplicar restrições de logon de IP. |
-| 21 de novembro de 2019 | Nova documentação definida para [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=pt-BR). |
+| 21 de novembro de 2019 | Nova documentação definida para [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing). |
 | 21 de novembro de 2019 | Atualização de [Perguntas frequentes sobre o fluxo de trabalho do Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-faqs.md) para indicar a disponibilidade no LiveStream. |
 | 25 de outubro de 2019 | Atualização da página [Principais conceitos do Adobe Analytics](/help/technotes/terms.md). |
-| 10 de outubro de 2019 | Atualização dos totais das tabelas de forma livre: agora incluem dois totais, um **[!UICONTROL Total da tabela]** e um **[!UICONTROL Total geral]**. As contas de linhas totais da tabela para os [filtros de relatório](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) foram aplicadas. Anteriormente, somente a segmentação afetava os totais. [Saiba mais](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>Além disso, as opções **[!UICONTROL Mostrar Totais]** e **[!UICONTROL Mostrar Total Geral]** foram adicionadas às **[!UICONTROL Configurações de Coluna]**.<br/>Com essa alteração nos totais das tabelas de forma livre, as visualizações dependentes serão atualizadas (ex: visualizações de **[!UICONTROL Número de resumo]** interligadas), bem como dados CSV e PDF exportados. |
+| 10 de outubro de 2019 | Atualização dos totais das tabelas de forma livre: agora incluem dois totais, um **[!UICONTROL Total da tabela]** e um **[!UICONTROL Total geral]**. As contas de linhas totais da tabela para os [filtros de relatório](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) foram aplicadas. Anteriormente, somente a segmentação afetava os totais. [Saiba mais](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>Além disso, as opções **[!UICONTROL Mostrar totais]** e **[!UICONTROL Mostrar total geral]** foram adicionadas às **[!UICONTROL Configurações de coluna]**.<br/>Com essa alteração nos totais das tabelas de forma livre, as visualizações dependentes serão atualizadas (ex: visualizações de **[!UICONTROL Número de resumo]** vinculadas), bem como dados CSV e PDF exportados. |
 | 10 de outubro de 2019 | No espaço de trabalho, a capacidade de remover facilmente “Não especificado (Nenhum)” foi adicionada como uma opção de filtros de relatório. |
 | 10 de outubro de 2019 | No Espaço de trabalho, os componentes de granularidade violeta (minuto, hora, dia, semana, mês, trimestre, ano) foram descontinuados. **Nenhuma ação** precisa ser executada se você tiver usado anteriormente um dos componentes de tempo violeta.<br/>Com essa alteração, a seção **[!UICONTROL Tempo]** violeta, além disso, foi renomeada para **[!UICONTROL Intervalos de datas]**. |
-| 1 de outubro de 2019 | Novo artigo em [Totais do Espaço de trabalho](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=pt-BR#cja-workspace). |
+| 1 de outubro de 2019 | Novo artigo em [Totais do Espaço de trabalho](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals#cja-workspace). |
 | 28 de setembro de 2019 | Novos artigos sobre [variáveis de configuração para a implementação do Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 19 de setembro de 2019 | Documentação de segmentação revisada para explicar os [Containers do grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md#logic-group-containers). |
 | 12 de setembro de 2019 | Nova documentação do [Analytics entre dispositivos](/help/components/cda/overview.md) |
