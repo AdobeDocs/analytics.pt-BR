@@ -4,7 +4,7 @@ description: Aumente a confiabilidade de capturar solicitações de rastreamento
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -19,7 +19,7 @@ Quando você chama [`t()`](t-method.md) ou [`tl()`](tl-method.md) em uma página
 
 >[!TIP]
 >
->O carimbo de data e hora das solicitações em buffer é compartilhado com a página para a qual os dados são enviados. Se quiser obter mais precisão no segundo exato em que uma solicitação armazenada em buffer for registrada, você poderá definir a variável de página [`timestamp`](../page-vars/timestamp.md) antes de armazenar a solicitação em buffer. Se você usar essa variável, verifique se [Os carimbos opcionais de data e hora](/help/technotes/timestamps-optional.md) estão habilitados. Caso contrário, todas as ocorrências com carimbos de data e hora serão perdidas permanentemente!
+>O carimbo de data e hora das solicitações em buffer é compartilhado com a página para a qual os dados são enviados. Se quiser obter mais precisão no segundo exato em que uma solicitação armazenada em buffer for registrada, você poderá definir a variável de página [`timestamp`](../page-vars/timestamp.md) antes de armazenar a solicitação em buffer. Se você usar essa variável, verifique se [Os carimbos opcionais de data e hora](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) estão habilitados. Caso contrário, todas as ocorrências com carimbos de data e hora serão perdidas permanentemente!
 
 ## Limitações
 

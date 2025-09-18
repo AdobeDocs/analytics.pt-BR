@@ -4,9 +4,9 @@ title: Perguntas frequentes sobre governança de dados
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2040'
 ht-degree: 99%
 
 ---
@@ -63,7 +63,7 @@ Ainda assim, há algumas maneiras de testar o processamento da privacidade de da
 
 * Uma opção é configurar uma Organização da Experience Cloud separada que contenha somente conjuntos de relatórios de teste. Use essa organização da Experience Cloud para realizar testes de Privacidade de dados e sua organização normal da Experience Cloud para processamentos de Privacidade de dados.
 
-* Outra opção é atribuir namespaces diferentes a IDs nos conjuntos de relatórios de teste, os quais devem se diferenciar daqueles em seus conjuntos de relatórios de produção. Por exemplo, você pode adicionar prefixos “qa-” a cada namespace nos conjuntos de relatórios de teste. Ao enviar solicitações de Privacidade de dados com apenas namespaces com o prefixo &quot;qa&quot;, essas solicitações só são executadas em relação aos conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo &quot;qa&quot;, elas eram aplicadas aos conjuntos de relatórios de produção. **Essa é a abordagem recomendada, a menos que você use os namespaces de visitorId, AAID, ECID ou customVisitorId. Esses namespaces são codificados e não é possível especificar nomes alternativos para eles em seus conjuntos de relatórios de teste.**
+* Outra opção é atribuir namespaces diferentes a IDs nos conjuntos de relatórios de teste, os quais devem se diferenciar daqueles em seus conjuntos de relatórios de produção. Por exemplo, você pode adicionar prefixos “qa-” a cada namespace nos conjuntos de relatórios de teste. Ao enviar solicitações de Privacidade de dados com apenas namespaces com o prefixo &quot;qa&quot;, essas solicitações só são executadas em relação aos conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo &quot;qa&quot;, elas eram aplicadas aos conjuntos de relatórios de produção. **Esta é a abordagem recomendada, a menos que você use os namespaces `visitorId`, AAID, ECID ou `customVisitorId`. Esses namespaces são codificados e não é possível especificar nomes alternativos para eles em seus conjuntos de relatórios de teste.**
 
 +++
 

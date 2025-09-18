@@ -1,14 +1,14 @@
 ---
-description: A identificação de visitantes em vários dispositivos ajuda você a conectar visitantes em vários dispositivos. A identificação de visitantes entre dispositivos usa a variável de ID de visitante, s.visitorID, para associar um usuário em dispositivos.
+description: A identificação de visitantes em vários dispositivos ajuda você a conectar visitantes em vários dispositivos.
 keywords: Implementação do Analytics
 subtopic: Visitors
 title: Usuários do Connect em vários dispositivos
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '383'
 ht-degree: 95%
 
 ---
@@ -32,4 +32,4 @@ Depois que o cliente se conecta a cada dispositivo, todos são vinculados ao mes
 Usar suas próprias IDs de visitante personalizadas oferece mais controle sobre como os visitantes são identificados, mas há limitações.
 
 * **A desduplicação do visitante não é retroativa**: se um visitante acessar o site pela primeira vez e, em seguida, se autenticar, dois visitantes únicos serão contados. Um visitante único é contado para a ID genérica do Analytics gerada automaticamente e outro para a ID de visitante personalizada ao fazer logon. Essa duplicação de visitantes únicos ocorre sempre que um visitante usa um novo dispositivo ou apaga os cookies.
-* **Incompatibilidade com o serviço da Experience Cloud ID**: desde a introdução da identificação de visitantes entre dispositivos, a Adobe lançou maneiras mais avançadas e confiáveis de rastrear visitantes em todos os dispositivos. Esses novos métodos de identificação não são compatíveis com a substituição da ID de visitante personalizada. Se você planeja usar o ID Service ou Cross-Device Analytics (CDA), o Adobe recomenda não usar a variável `visitorID`.
+* **Incompatibilidade com o serviço da Experience Cloud ID**: desde a introdução da identificação de visitantes entre dispositivos, a Adobe lançou maneiras mais avançadas e confiáveis de rastrear visitantes em todos os dispositivos. Esses novos métodos de identificação não são compatíveis com a substituição da ID de visitante personalizada. Se você planeja usar o ID Service ou Cross-Device Analytics (CDA), a Adobe recomenda não usar a variável `visitorID`.

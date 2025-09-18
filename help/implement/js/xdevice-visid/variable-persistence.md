@@ -5,10 +5,10 @@ title: Atribuição e persistência
 feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Quando os perfis do visitante forem combinados depois de serem associados com a mesma variável de ID do visitante, a atribuição não será alterada no conjunto de dados histórico.
 
-* Quando a variável `s.visitorID` for definida e enviada para uma ocorrência, a Adobe verificará se outros perfis de visitantes possuem uma ID do visitante similar.
+* Quando a variável `visitorID` for definida e enviada para uma ocorrência, o Adobe verificará se outros perfis de visitantes possuem uma ID do visitante similar.
 * Se existir, o perfil do visitante que já está no sistema é usado a partir desse ponto, e o perfil do visitante anterior não é mais usado.
 * Se nenhuma ID do visitante similar for encontrada, um novo perfil será criado.
 
@@ -33,12 +33,12 @@ O exemplo abaixo representa como os dados são enviados para o Adobe Analytics q
 * `eVar16` expira em 1 dia e `evar17` expira ao final da visita.
 * A coluna `post_visitor_id` representa o perfil gerenciado pelo Adobe Analytics. As colunas de publicação são normalmente vistas em feeds de dados. Consulte [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) no guia do usuário Exportar.
 * As colunas `post_evar16` e `post_evar17` exibem a persistência de eVars.
-* `cust_visid` representa um valor definido em `s.visitorID`.
+* `cust_visid` representa um valor definido em `visitorID`.
 * Cada fileira corresponde a uma &quot;ocorrência&quot;, uma solicitação enviada para os servidores do Adobe Analytics responsáveis pela coleta de dados.
 
 ![Exemplo 1 entre dispositivos](assets/xdevice_first.jpg)
 
-Na primeira conexão de dados com um valor `s.visitorID` inédito (o `u999` acima), um novo perfil foi criado. Valores persistentes do antigo perfil são transferidos para o novo perfil.
+Na primeira conexão de dados com um valor `visitorID` inédito (o `u999` acima), um novo perfil foi criado. Valores persistentes do antigo perfil são transferidos para o novo perfil.
 
 * eVars definidas para expirar ao final da visita não são copiadas para o perfil autenticado. Observe que o valor `car` acima não é persistente.
 * eVars definidas para expirar por outras medidas serão copiadas para o perfil autenticado. Observe que o valor `apple` é persistente.

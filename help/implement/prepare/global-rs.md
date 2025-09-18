@@ -4,10 +4,10 @@ description: Entenda as vantagens e os requisitos para usar um conjunto de relat
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Use as diretrizes gerais a seguir para entender o processo de implementação de
    >Verifique se determinada variável personalizada é usada de forma semelhante nos domínios. Não use a mesma eVar ou evento para fins diferentes em seus sites.
 1. Verifique se cada domínio tem uma camada de dados para simplificar a coleta de dados. Os dados ainda podem ser coletados sem uma camada de dados, mas a confiabilidade e a longevidade de sua implementação diminuem, especialmente quando o site passa por reformulações.
 1. Use tags na Adobe Experience Platform para implementar o Analytics. Sites diferentes provavelmente exigirão elementos de dados diferentes. Use regras específicas de cada domínio para garantir que cada elemento de dados seja preenchido corretamente e, em seguida, atribua esses elementos de dados às respectivas eVars e eventos. Consulte a [visão geral das tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR).
-1. Inclua o [Serviço da Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) e use a função [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=pt-BR). Essa função une os dados do visitante quando os usuários clicam de um domínio para outro.
+1. Inclua o [Serviço de ID da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) e use a função [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=pt-BR). Essa função une os dados do visitante quando os usuários clicam de um domínio para outro.
 
 ## Modificar uma implementação existente com um conjunto de relatórios global
 
@@ -55,7 +55,7 @@ O processo de mover uma implementação existente em vários sites para um únic
 3. Siga as etapas acima (crie um conjunto de relatórios, reúna os requisitos de relatório em um documento de design de solução e estabeleça uma camada de dados em cada site). Ao implementar tags na Adobe Experience Platform, valide sua implementação usando uma versão de desenvolvimento do site.
 4. Depois de confirmar que a implementação está funcionando no desenvolvimento, coloque a implementação de tags em funcionamento na data limite.
 
-## Páginas relacionadas
-
-[Mudança da marcação de vários conjuntos para um conjunto de relatórios global e virtual](../../components/vrs/vrs-considerations.md)
-[Comparação de rollups e conjuntos de relatórios globais](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[!MORELIKETHIS]
+>
+>[Mudança da marcação de vários conjuntos para um conjunto de relatórios global e virtual](../../components/vrs/vrs-considerations.md)
+>>[Comparando rollups e conjuntos de relatórios globais](../../admin/tools/manage-rs/rollup-report-suite.md)
