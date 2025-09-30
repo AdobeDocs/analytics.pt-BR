@@ -4,10 +4,10 @@ title: Configurar Uma Visualização De Fallout
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 75c1585f88d9d3adcf66632c52cecf2a97fa2632
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 95%
+source-wordcount: '836'
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ Não há limite para o número de etapas que é possível adicionar ou o número
    >
    >Para unir vários segmentos, utilize o operador AND, mas para unir vários itens, como itens de dimensão e métricas, utilize OR.
 
-   ![Os pontos de contato Página: rolo da câmera e Página: câmera destacados. ](assets/fallout-or.png)
+   ![A Página:CamerRoll ou Página: pontos de contato da câmera destacados.](assets/fallout-or.png)
 
 1. Também é possível **restringir pontos de contato individuais ao próximo evento** (em vez de *eventualmente*) no caminho. Embaixo de cada ponto de contato há um seletor com as opções **[!UICONTROL Caminho eventual]** e **[!UICONTROL Próximo evento]**, conforme mostrado aqui:
 
@@ -50,8 +50,8 @@ Não há limite para o número de etapas que é possível adicionar ou o número
 
    | Opção | Descrição |
    |---|---|
-   | **[!UICONTROL Caminho eventual]** (padrão) | Contagem de pessoas que *eventualmente* chegarão na próxima página do caminho, mas não necessariamente no próximo evento. |
-   | **[!UICONTROL Próximo evento]** | Contagem de pessoas que chegarão na próxima página do caminho no próximo evento. |
+   | **[!UICONTROL Caminho eventual]** (padrão) | São contados os visitantes que *eventualmente* chegarão à próxima página do caminho, mas não necessariamente no próximo evento. |
+   | **[!UICONTROL Próximo evento]** | São contados os visitantes que chegarão à próxima página do caminho no próximo evento. |
 
 
 ## Configurações 
@@ -74,14 +74,14 @@ Como parte da visualização, há opções específicas do menu de contexto disp
 | **[!UICONTROL Tendência de ponto de contato]** | Veja os dados de tendência de um ponto de contato em um gráfico de linha, com alguns dados de detecção de anomalias pré-construídos. |
 | **[!UICONTROL Tendência de ponto de contato (%)]** | Calcula a tendência da porcentagem total de fallout. |
 | **[!UICONTROL Tendência de todos os pontos de contato (%)]** | Exibe a tendência de todas as porcentagens de pontos de contato do fallout (exceto **[!UICONTROL Todas as pessoas]**, se incluso) no mesmo gráfico. |
-| **[!UICONTROL Detalhar o fallthrough neste ponto de contato]** | Visualize o que as pessoas fizeram entre dois pontos de contato (este e o próximo) se continuaram até o próximo ponto de contato. Isso cria uma tabela de forma livre, mostrando suas dimensões. Você pode substituir dimensões e outros elementos da tabela. |
-| **[!UICONTROL Detalhar fallout neste ponto de contato]** | Veja o que as pessoas que não entraram no funil fizeram imediatamente depois da etapa selecionada. |
+| **[!UICONTROL Detalhar o fallthrough neste ponto de contato]** | Visualize o que os visitantes fizeram entre dois pontos de contato (este ponto de contato e o próximo ponto de contato), se continuaram até o próximo ponto de contato. Isso cria uma tabela de forma livre, mostrando suas dimensões. É possível substituir dimensões e outros elementos da tabela. Por exemplo, uma tabela rotulada como **[!UICONTROL Fallthrough: Todos os visitantes > Página é igual a qualquer página inicial]** e contém **[!UICONTROL Página]** como a dimensão e **[!UICONTROL Visitantes únicos]** segmentado pelo [segmento rápido somente de projeto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: Todos os visitantes > Página é igual a qualquer página inicial]** como a métrica. Inspecione o segmento para entender como o segmento de fallthrough é determinado. |
+| **[!UICONTROL Detalhar fallout neste ponto de contato]** | Veja o que os visitantes que não passaram pela funnel fizeram imediatamente após a etapa selecionada. Isso cria uma tabela de forma livre, mostrando suas dimensões. É possível substituir dimensões e outros elementos da tabela. Por exemplo, uma tabela rotulada como **[!UICONTROL Fallout: Todos os visitantes > Página é igual a qualquer página inicial]** e contém **[!UICONTROL Página]** como a dimensão e **[!UICONTROL Visitantes únicos]** segmentado pelo [segmento rápido somente de projeto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: Todos os visitantes > Página é igual a qualquer um do segmento inicial]** como a métrica. Inspecione o segmento para entender como o segmento de fallout é determinado. |
 | **[!UICONTROL Criar segmentos a partir do ponto de contato]** | Crie um novo segmento a partir do ponto de contato selecionado. |
 
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
