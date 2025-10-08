@@ -5,18 +5,22 @@ title: Enviar E Agendar Projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 28%
+source-wordcount: '498'
+ht-degree: 25%
 
 ---
 
 # Enviar e agendar projetos
 
-Você pode enviar projetos Adobe Analytics como arquivos para usuários selecionados por email. Você pode enviar arquivos ad hoc ou pode configurar arquivos para serem enviados de acordo com uma programação. Os arquivos podem ser enviados no formato CSV ou PDF.
+Você pode enviar projetos Adobe Analytics como arquivos para usuários selecionados por email. Você pode enviar arquivos ad hoc ou pode configurar arquivos para serem enviados de acordo com um agendamento.
 
-As tags aplicadas ao projeto são automaticamente aplicadas à exportação.
+Considere o seguinte ao enviar arquivos:
+
+* Os arquivos podem ser enviados no formato CSV ou PDF.
+
+* As tags aplicadas ao projeto são automaticamente aplicadas à exportação.
 
 Outros métodos de exportação de dados do Adobe Analytics também estão disponíveis, conforme descrito em [Visão geral da exportação](/help/export/home.md).
 
@@ -38,7 +42,7 @@ Para enviar um arquivo ad-hoc a recipients por email:
 
 ## Programar exportação de arquivo {#schedule}
 
-Para enviar um arquivo por email de acordo com um agendamento para os recipients
+Para enviar um arquivo por email de acordo com um agendamento para os recipients:
 
 1. Selecione **[!UICONTROL Compartilhar] > [!UICONTROL Agendar exportação de arquivo]**.
 1. Especifique o tipo de arquivo:
