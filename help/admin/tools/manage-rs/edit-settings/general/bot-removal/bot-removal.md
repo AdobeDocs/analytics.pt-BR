@@ -87,7 +87,7 @@ Defina pelo menos um lembrete mensal para identificar e filtrar novos bots, talv
 
 >[!MORELIKETHIS]
 >
->* [Bloqueio de bot melhor (Parte 1): Noções básicas](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
->* [Bloqueio de bot melhor (Parte 2): Identificando bots e utilizando CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
->* [Melhor Bloqueio De Bots (Parte 3): O Controlador De Ocorrências](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+>* [Bloqueio de bot melhor (Parte 1): Noções básicas](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=pt)
+>* [Bloqueio de bot melhor (Parte 2): Identificando bots e utilizando CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=pt)
+>* [Melhor Bloqueio De Bots (Parte 3): O Controlador De Ocorrências](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=pt)
 

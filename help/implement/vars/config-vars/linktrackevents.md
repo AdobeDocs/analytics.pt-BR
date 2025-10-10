@@ -19,7 +19,7 @@ Essa variável não é usada para chamadas de exibição de página (método [`t
 
 ## Determine quais eventos do Analytics incluir em um evento XDM usando o Web SDK
 
-O Web SDK não exclui determinados campos para chamadas de rastreamento de link. No entanto, você pode usar o retorno de chamada `onBeforeEventSend` para limpar ou definir os campos desejados antes que os dados sejam enviados para a Adobe. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do Web SDK para obter mais informações.
+O Web SDK não exclui determinados campos para chamadas de rastreamento de link. No entanto, você pode usar o retorno de chamada `onBeforeEventSend` para limpar ou definir os campos desejados antes que os dados sejam enviados para a Adobe. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#modifying-events-globally) na documentação do Web SDK para obter mais informações.
 
 ## Eventos em chamadas de rastreamento de link que usam a extensão do Adobe Analytics
 

@@ -67,4 +67,4 @@ Ao criar ou editar regras de processamento, considere o seguinte:
 
 >[!MORELIKETHIS]
 >
->![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mapear variáveis de dados de contexto em props e eVars com regras de processamento](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
+>![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mapear variáveis de dados de contexto em props e eVars com regras de processamento](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}

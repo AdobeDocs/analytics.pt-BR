@@ -20,7 +20,7 @@ A variável `ActivityMap.link` permite substituir a lógica usada pelo Activity 
 
 ## Substituição de valores de link usando o Web SDK
 
-Você pode usar o retorno de chamada [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar a carga do Web SDK ou cancelar o envio de dados.
+Você pode usar o retorno de chamada [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar a carga do Web SDK ou cancelar o envio de dados.
 
 ## Substituição de link usando a extensão do Adobe Analytics
 
