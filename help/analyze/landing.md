@@ -17,7 +17,7 @@ A página de destino do Adobe Analytics reúne o [!DNL Analysis Workspace] e o [
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de destino do Adobe Analytics](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de destino do Adobe Analytics](https://video.tv.adobe.com/v/3409141/?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

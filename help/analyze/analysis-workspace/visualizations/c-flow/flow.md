@@ -47,7 +47,7 @@ Com a visualização, é possível:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de fluxo](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de fluxo](https://video.tv.adobe.com/v/3412492?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Cada coluna pode exibir uma dimensão diferente. Arraste uma dimensão e solte e
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidades adicionais na visualização de fluxo](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidades adicionais na visualização de fluxo](https://video.tv.adobe.com/v/30779?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

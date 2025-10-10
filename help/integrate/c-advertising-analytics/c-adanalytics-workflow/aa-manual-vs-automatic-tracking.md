@@ -18,7 +18,7 @@ O tipo de rastreamento determina como a implementação do Adobe Analytics rastr
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33013/?quality=12&captions=por_br)
 
 -->
 

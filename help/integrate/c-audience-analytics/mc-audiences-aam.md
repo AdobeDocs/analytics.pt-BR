@@ -20,7 +20,7 @@ Com a integração do Audience Analytics em vigor, é possível incorporar dados
 
 >[!BEGINSHADEBOX]
 
-Assista a ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Assista a ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/40736?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

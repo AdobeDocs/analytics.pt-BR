@@ -97,7 +97,7 @@ In the calendar, you can specify dates and date ranges, or select a preset.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/30814?quality=12&learn=on&captions=por_br){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

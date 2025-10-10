@@ -17,7 +17,7 @@ Conjuntos de relatórios virtuais podem ser curados para incluir e excluir compo
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Curadoria de componentes](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Curadoria de componentes](https://video.tv.adobe.com/v/3425526?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

@@ -115,19 +115,19 @@ As opções do [menu de contexto](../freeform-analysis-visualizations.md#context
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do construtor de tabelas de forma livre](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do construtor de tabelas de forma livre](https://video.tv.adobe.com/v/33844?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros de tabela de forma livre](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros de tabela de forma livre](https://video.tv.adobe.com/v/30784?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totais da tabela de forma livre](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totais da tabela de forma livre](https://video.tv.adobe.com/v/32735?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

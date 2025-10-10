@@ -49,4 +49,4 @@ ht-degree: 90%
 
 Veja um vídeo que mostra o processo:
 
-https://video.tv.adobe.com/v/25445/?quality=12
+https://video.tv.adobe.com/v/40104/?quality=12&captions=por_br
