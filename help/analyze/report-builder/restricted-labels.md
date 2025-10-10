@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: aa2182f9-a140-4239-b2fb-f723e2767260
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 49%
@@ -26,7 +27,7 @@ Para obter mais informações, consulte [Adobe Analytics e governança de dados]
 
 ## Exibir dados restritos no Report Builder
 
-Duas políticas definidas por Adobe são exibidas no Adobe Analytics e afetam os relatórios, downloads e compartilhamento:
+Duas políticas definidas pela Adobe são exibidas no Adobe Analytics e afetam os relatórios, downloads e compartilhamento:
 
 * Política Forçar análise
 * Política Forçar download

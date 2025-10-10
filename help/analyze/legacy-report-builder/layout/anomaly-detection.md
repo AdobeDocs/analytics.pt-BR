@@ -62,7 +62,7 @@ O Report Builder aplica esses valores às métricas selecionadas. Por exemplo, s
 
 **Como a detecção de anomalias é calculada**
 
-A detecção de anomalias utiliza um período de treinamento para calcular, aprender e relatar os dados de previsão de intervalo por dia. Este período de treinamento é o período histórico que identifica aquilo que é normal e aquilo que é anômalo, e aplica o que aprendeu ao período do relatório. Em relatórios de marketing, estão disponíveis os períodos de treinamento de 30, 60 e 90 dias. No Report Builder, estão disponíveis 30 dias.
+A detecção de anomalias utiliza um período de treinamento para calcular, aprender e relatar os dados de previsão de intervalo por dia. Este período de treinamento é o período histórico que identifica aquilo que é normal e aquilo que é anômalo, e aplica o que aprendeu ao período do relatório. Em relatórios de marketing, estão disponíveis os períodos de treinamento de 30, 60 e 90 dias. No Report Builder, 30 dias estão disponíveis.
 
 O período de treinamento não é necessariamente o mesmo que o período do relatório selecionado. Um gráfico do relatório exibe o intervalo de datas especificado no calendário.
 

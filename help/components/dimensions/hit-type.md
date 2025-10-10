@@ -12,7 +12,7 @@ ht-degree: 84%
 
 # Tipo de ocorrência
 
-A [dimensão](overview.md) do &quot;Tipo de ocorrência&quot; determina se um aplicativo móvel estava em primeiro ou segundo plano quando a ocorrência foi enviada para os servidores de coleta de dados do Adobe. Essa dimensão só é relevante para conjuntos de relatórios que contêm dados para aplicativos móveis. Os dados do navegador coletados pelo AppMeasurement sempre relatam a ocorrência como “Primeiro plano”.
+A [dimensão](overview.md) do &quot;Tipo de ocorrência&quot; determina se um aplicativo móvel estava em primeiro ou segundo plano quando a ocorrência foi enviada para os servidores de coleta de dados da Adobe. Essa dimensão só é relevante para conjuntos de relatórios que contêm dados para aplicativos móveis. Os dados do navegador coletados pelo AppMeasurement sempre relatam a ocorrência como “Primeiro plano”.
 
 ## Preencher esta dimensão com dados
 

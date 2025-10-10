@@ -20,7 +20,7 @@ Essa métrica conta o número de ocorrências em que `scOpen` existe na variáve
 
 ## Diferença entre &quot;Carrinhos&quot;, &quot;Visualizações do carrinho&quot; e &quot;Adições ao carrinho&quot;
 
-Como as métricas &quot;Carrinhos&quot;, &quot;Visualizações de carrinho&quot; e &quot;Adições ao carrinho&quot; são eventos que exigem implementação, sua organização decide a diferença exata entre essas métricas. No entanto, o Adobe projetou essas métricas para a seguinte lógica:
+Como as métricas &quot;Carrinhos&quot;, &quot;Visualizações de carrinho&quot; e &quot;Adições ao carrinho&quot; são eventos que exigem implementação, sua organização decide a diferença exata entre essas métricas. No entanto, a Adobe projetou essas métricas para a seguinte lógica:
 
 * A métrica “Carrinhos” é acionada apenas uma vez por compra quando um visitante adiciona seu primeiro produto ao carrinho de compras.
 * A métrica &quot;Visualizações do carrinho&quot; é acionada sempre que um visitante exibe seu carrinho de compras.

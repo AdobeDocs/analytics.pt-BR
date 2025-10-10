@@ -15,7 +15,7 @@ ht-degree: 91%
 
 {{plug-in}}
 
-O plug-in `getTimeBetweenEvents` permite rastrear a quantidade de tempo entre dois eventos do Analytics, incluindo o carrinho de compras e eventos personalizados. É útil para rastrear a quantidade de tempo que um processo de finalização leva para ser concluído, ou para qualquer outro processo que você deseja medir o tempo. Este plug-in é desnecessário se não houver nenhum processo de conversão cujo tempo de execução você queira medir.
+O plug-in `getTimeBetweenEvents` permite rastrear a quantidade de tempo entre dois eventos do Analytics, incluindo o carrinho de compras e eventos personalizados. É útil para rastrear a quantidade de tempo que um processo de check-out leva para ser concluído, ou para qualquer outro processo que você deseja medir o tempo. Este plug-in é desnecessário se não houver nenhum processo de conversão cujo tempo de execução você queira medir.
 
 ## Instale o plug-in usando a extensão Web SDK ou Web SDK
 
@@ -62,10 +62,10 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 A função `getTimeBetweenEvents` usa os seguintes argumentos:
 
-* **`ste`** (obrigatório, string): iniciar eventos de cronômetro. Uma string delimitada por vírgulas composta por eventos do Analytics para os quais deve-se &quot;iniciar o cronômetro&quot;.
-* **`rt`** (obrigatório, booleano): reinicie a opção de cronômetro. Defina como `true` se você deseja reiniciar o cronômetro toda vez que a variável `events` contiver um evento de início de cronômetro. Defina como `false` se não quiser que o cronômetro seja reiniciado quando detectar um evento de início de cronômetro.
-* **`stp`** (obrigatório, string): eventos de parada de cronômetro. Uma string delimitada por vírgulas composta por eventos do Analytics para os quais deve-se &quot;Parar o cronômetro&quot;.
-* **`res`** (obrigatório, booleano): opção para reiniciar o cronômetro. Defina para `true` se quiser gravar o tempo corrido pelo cronômetro e reiniciá-lo depois que ele parar. Defina como `false` se você deseja gravar a hora, mas não deseja parar o cronômetro. Se estiver definido como `false`, o cronômetro continua sendo executado depois que a variável de eventos registra um evento stop.
+* **`ste`** (obrigatório, string): iniciar eventos de temporizador. Uma string delimitada por vírgulas composta por eventos do Analytics para os quais deve-se &quot;iniciar o temporizador&quot;.
+* **`rt`** (obrigatório, booleano): reinicie a opção de temporizador. Defina como `true` se você deseja reiniciar o temporizador toda vez que a variável `events` contiver um evento de início de temporizador. Defina como `false` se não quiser que o temporizador seja reiniciado quando detectar um evento de início de temporizador.
+* **`stp`** (obrigatório, string): eventos de parada de cronômetro. Uma string delimitada por vírgulas composta por eventos do Analytics para os quais deve-se &quot;Parar o temporizador&quot;.
+* **`res`** (obrigatório, booleano): opção para reiniciar o temporizador. Defina para `true` se quiser gravar o tempo corrido pelo temporizador e reiniciá-lo depois que ele parar. Defina como `false` se você deseja gravar a hora, mas não deseja parar o temporizador. Se estiver definido como `false`, o cronômetro continua sendo executado depois que a variável de eventos registra um evento de interrupção.
 
   >[!TIP]
   >
@@ -83,7 +83,7 @@ A função `getTimeBetweenEvents` usa os seguintes argumentos:
       * Qualquer coisa entre uma hora e um dia é arredondada para o referencial de 1/4 de hora que estiver mais próximo. Por exemplo, 2,25 horas, 3,5 horas
       * Qualquer coisa maior que um dia é arredondada para o valor referencial de dia que estiver mais próximo. Por exemplo, 1 dia, 3 dias, 9 dias
 * **`bml`** (opcional, número): a quantidade de tempo do referencial de arredondamento de acordo com o formato do argumento `fmt`. Por exemplo, se o argumento `fmt` for `"s"` e esse argumento for `2`, o valor de retorno será arredondado para o referencial de 2 segundos que estiver mais próximo. Se o argumento `fmt` for `"m"` e esse argumento for `0.5`, o valor de retorno será arredondado para o referencial de meio minuto que estiver mais próximo.
-* **`rte`** (opcional, string): string delimitada por vírgulas com eventos do Analytics que removem ou excluem o cronômetro. O padrão é não ter valor.
+* **`rte`** (opcional, string): string delimitada por vírgulas com eventos do Analytics que removem ou excluem o temporizador. O padrão é não ter valor.
 
 A chamada dessa função retorna um número inteiro que representa o tempo decorrido entre o evento de início de cronômetro e o evento de parada de cronômetro no formato desejado.
 

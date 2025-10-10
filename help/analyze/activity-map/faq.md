@@ -1,19 +1,19 @@
 ---
 title: Perguntas frequentes sobre o Activity Map
-description: Perguntas frequentes sobre o Activity Map.
+description: Perguntas frequentes relacionadas ao Activity Map.
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 15%
+ht-degree: 22%
 
 ---
 
 # Perguntas frequentes sobre o Activity Map
 
-Perguntas frequentes sobre o Activity Map.
+Perguntas frequentes relacionadas ao Activity Map.
 
 +++Como conceder permissões ao Activity Map?
 
@@ -23,11 +23,11 @@ Os [itens de permissão](/help/admin/admin-console/permissions/product-profile.m
 
 * **[!UICONTROL Ferramentas do Analytics]** > **[!UICONTROL Activity Map]**
 * **[!UICONTROL Ferramentas do Analytics]** > **[!UICONTROL Publicação de segmentos]**
-* **[!UICONTROL Dimension]** > **[!UICONTROL Alcance de rolagem do Activity Map]**
-* **[!UICONTROL Dimension]** > **[!UICONTROL Link Activity Map Por Região]**
-* **[!UICONTROL Dimension]** > **[!UICONTROL Região Activity Map]**
-* **[!UICONTROL Dimension]** > **[!UICONTROL Link Activity Map]**
-* **[!UICONTROL Dimension]** > **[!UICONTROL Página Activity Map]**
+* **[!UICONTROL Dimensões]** > **[!UICONTROL Alcance de rolagem do Activity Map]**
+* **[!UICONTROL Dimensões]** > **[!UICONTROL Link Do Activity Map Por Região]**
+* **[!UICONTROL Dimensões]** > **[!UICONTROL Região da Activity Map]**
+* **[!UICONTROL Dimensões]** > **[!UICONTROL Link do Activity Map]**
+* **[!UICONTROL Dimensões]** > **[!UICONTROL Página do Activity Map]**
 
 Consulte [Permissões de perfil de produto para Ferramentas do Analytics](/help/admin/admin-console/permissions/analytics-tools.md) para obter mais informações.
 
@@ -51,7 +51,7 @@ A cada poucos segundos, o Activity Map verifica a página da Web em busca de alt
 
 +++O Activity Map fornece dados sobre links que são visualizados, mas não clicados?
 
-Não, o Adobe não rastreia automaticamente os links que só foram exibidos.
+Não, a Adobe não rastreia automaticamente os links que só foram exibidos.
 
 +++
 
@@ -63,7 +63,7 @@ O Activity Map é compatível com a versão mais recente da maioria dos navegado
 
 +++O Activity Map aumenta as chamadas do servidor?
 
-O Activity Map não envia chamadas de servidor sozinho. Em vez disso, as variáveis de dados de contexto de Activity Map são incluídas com chamadas de exibição de página do Analytics na página subsequente. No entanto, algumas versões anteriores do Activity Map no SDK da Web enviam uma chamada separada para dados Activity Map. Se você estiver na versão mais recente do Web SDK, os dados de Activity Map serão mesclados com o evento a seguir.
+O Activity Map não envia chamadas de servidor sozinho. Em vez disso, as variáveis de dados de contexto do Activity Map são incluídas com chamadas de exibição de página do Analytics na página subsequente. No entanto, algumas versões anteriores do Activity Map no Web SDK enviam uma chamada separada para os dados do Activity Map. Se você estiver na versão mais recente do Web SDK, os dados do Activity Map serão mesclados com o evento a seguir.
 
 +++
 
@@ -82,7 +82,7 @@ Alguns links, como aqueles contidos em menus, estão ocultos na página. Como re
 
 +++Como o Activity Map funciona com páginas que usam vários conjuntos de relatórios?
 
-Por padrão, o Activity Map usa o conjunto de relatórios associado à primeira tag na página. É possível selecionar um conjunto de relatórios diferente por meio da guia **[!UICONTROL Configurações de Activity Map]** > **[!UICONTROL Outros]**.
+Por padrão, o Activity Map usa o conjunto de relatórios associado à primeira tag na página. Você pode selecionar um conjunto de relatórios diferente na guia **[!UICONTROL Configurações do Activity Map]** > **[!UICONTROL Outros]**.
 
 +++
 
@@ -112,12 +112,12 @@ Todos os dados mostrados se baseiam nas exibições de página.
 
 +++Posso exportar dados do Activity Map por meio de feeds de dados?
 
-Sim. As [colunas do feed de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) que o Activity Map usa são:
+Sim. As [colunas do feed de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) que a Activity Map usa são:
 
-* Link Activity Map: `clickmaplink`
-* Página de Activity Map: `clickmappage`
+* Link para o Activity Map: `clickmaplink`
+* Página do Activity Map: `clickmappage`
 * Região do Activity Map: `clickmapregion`
-* Link Activity Map por região: `clickmaplinkbyregion`
+* Link do Activity Map por região: `clickmaplinkbyregion`
 
 +++
 
@@ -129,7 +129,7 @@ Não, os segmentos não funcionam no modo Online.
 
 +++O Activity Map é compatível com os conjuntos de relatórios virtuais?
 
-Sim. No entanto, devido às limitações do conjunto de relatórios virtual, o modo Activity Map Live não é compatível com os conjuntos de relatórios virtuais.
+Sim. No entanto, devido às limitações do conjunto de relatórios virtuais, o modo Online do Activity Map não é compatível com os conjuntos de relatórios virtuais.
 
 +++
 
@@ -138,9 +138,9 @@ Sim. No entanto, devido às limitações do conjunto de relatórios virtual, o m
 O método para desativar o Activity Map depende do seu tipo de implementação:
 
 * **Extensão do Web SDK**: nas configurações de extensão, desmarque as caixas **[!UICONTROL Coletar cliques internos em links]**, **[!UICONTROL Coletar cliques em links externos]** e **[!UICONTROL Coletar cliques em links de download]**.
-* **Biblioteca JavaScript do Web SDK**: Defina [`clickCollectionEnabled`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) como `false`.
+* **Biblioteca JavaScript do Web SDK**: Defina [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) como `false`.
 * **Extensão do Analytics**: nas configurações de extensão, desmarque a caixa denominada **[!UICONTROL Usar Activity Map]**.
-* **AppMeasurement**: remova ou comente o módulo Activity Map em `AppMeasurement.js` ou substitua a chamada de função de módulo por um corpo vazio:
+* **AppMeasurement**: remova ou comente o módulo Activity Map em `AppMeasurement.js` ou substitua a chamada de função do módulo por um corpo vazio:
 
   ```js
   function AppMeasurement_Module_ActivityMap() {}
@@ -148,7 +148,7 @@ O método para desativar o Activity Map depende do seu tipo de implementação:
 
 +++
 
-+++Quais são os requisitos do sistema para usar a sobreposição de Activity Map?
++++Quais são os requisitos do sistema para usar a sobreposição do Activity Map?
 
 Você pode usar a versão mais recente do Chrome, Edge ou Firefox com a extensão Activity Map.
 
@@ -159,13 +159,13 @@ Você pode usar a versão mais recente do Chrome, Edge ou Firefox com a extensã
 Considere os seguintes cenários em que dados de identificação pessoal podem ser coletados usando o Activity Map:
 
 * **Links de email**: se for possível clicar em um endereço de email para abrir o cliente de email do usuário, o Activity Map poderá coletar o endereço de email que foi clicado.
-* **Links da ID de usuário**: depois que um visitante faz logon, o Activity Map pode registrar todos os links que contenham a ID de usuário do visitante.
+* **Links da ID de usuário**: depois que um visitante faz logon, a Activity Map pode registrar todos os links que contenham a ID de usuário do visitante.
 * **Links de informações confidenciais**: para instituições financeiras, informações confidenciais, como número de conta, poderão ser rastreadas se forem um link e os visitantes clicarem neles.
-* **Links contendo informações pessoais**: em sites da área de saúde, os links podem conter informações pessoais. Se um visitante clicar nesses links, o Activity Map coletará o texto do link.
+* **Links contendo informações pessoais**: em sites da área de saúde, os links podem conter informações pessoais. Se um visitante clicar nesses links, a Activity Map coletará o texto do link.
 
 +++
 
-+++Que dados o Activity Map rastreia por padrão?
++++Quais dados o Activity Map rastreia por padrão?
 
 O Activity Map rastreia os seguintes elementos:
 
@@ -179,7 +179,7 @@ O Activity Map rastreia os seguintes elementos:
 
 +++Quais são alguns exemplos de links que o Activity Map rastreia automaticamente?
 
-Veja a seguir alguns exemplos em que o Activity Map tem todas as informações necessárias para rastrear um link.
+A seguir estão alguns exemplos em que o Activity Map tem todas as informações necessárias para rastrear um link.
 
 ```html
 <a href="home.html">Home</a>

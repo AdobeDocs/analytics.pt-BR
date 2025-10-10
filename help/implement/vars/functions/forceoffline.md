@@ -17,7 +17,7 @@ O método `forceOffline()` permite substituir o estado do AppMeasurement detecta
 
 >[!WARNING]
 >
->Use essa função somente quando [`trackOffline`](../config-vars/trackoffline.md) estiver ativada. Usar essa função fora do rastreamento offline pode causar perda de dados.
+>Use essa função somente quando [`trackOffline`](../config-vars/trackoffline.md) estiver habilitada. Usar essa função fora do rastreamento offline pode causar perda de dados.
 
 O AppMeasurement detecta automaticamente o estado online do dispositivo. Você pode usar o método `forceOffline()` para forçar o AppMeasurement a tratar ocorrências como se o dispositivo estivesse offline. Esse método não aceita argumentos e não retorna nenhum valor. Seu único objetivo é substituir o estado online no AppMeasurement.
 

@@ -1,6 +1,6 @@
 ---
 title: Pessoas
-description: O número de indivíduos únicos, geralmente com vários dispositivos.
+description: O número de pessoas únicas, geralmente com vários dispositivos.
 feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
 source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669

@@ -18,7 +18,7 @@ O tipo de rastreamento determina como a implementação do Adobe Analytics rastr
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/33013/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
@@ -37,7 +37,7 @@ Observe que, para configurar uma conta de mecanismo de pesquisa com o tipo **[!U
 
 >[!IMPORTANT]
 >
->Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/pt-br/docs/id-service/using/reference/csp).
+>Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Rastreamento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +98,7 @@ A sequência de caracteres que precisa ser adicionada a sua conta do Microsoft A
 
 >[!IMPORTANT]
 >
->O _`<Advertising Analytics ID>`_valor (em **negrito**&#x200B;abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. É possível obter sua sequência de caracteres da ID de conta específica na tela da conta, na seção &quot;Rastreamento&quot;.
+>O _`<Advertising Analytics ID>`_valor (em **negrito**abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. É possível obter sua sequência de caracteres da ID de conta específica na tela da conta, na seção &quot;Rastreamento&quot;.
 
 **Sequência de caracteres de rastreamento de campanhas:**
 

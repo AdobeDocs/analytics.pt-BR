@@ -67,7 +67,7 @@ Esses segmentos são migrados como modelos de segmentos no Construtor de segment
 * Não compradores
 * Compradores
 * Novas visitas
-* Visitas de sites sociais
+* Visitas de redes sociais
 * Visitas de mais de 10 minutos*
 * Visitas com mais de cinco visitas anteriores*
 * Visitas do Facebook*
@@ -90,7 +90,7 @@ Os segmentos existentes que usam a lógica alterada conforme descrito neste docu
 
 +++
 
-+++ **O que devo fazer com segmentos duplicados que possuem o mesmo nome, mas podem ter definições diferentes?**
++++ **O que devo fazer com segmentos duplicados que possuem o mesmo nome, mas podem ter definições diferentes?** 
 Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode acabar descobrindo que possui vários segmentos com o mesmo nome. Você deve:
 
 * Renomeie os segmentos com o mesmo nome, mas com diferentes definições, ou

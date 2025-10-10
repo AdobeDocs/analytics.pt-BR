@@ -6,7 +6,7 @@ exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1720'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Para obter um gráfico de linhas de visitantes únicos:
 
 1. Clique no ícone Exibições à esquerda e arraste a exibição em Linha para o espaço de trabalho acima da tabela de forma livre vazia.
 2. Clique no ícone Componentes à esquerda e arraste a métrica **Visitante únicos** até o espaço menor chamado &#39;Solte uma métrica aqui&#39;.
-3. Se desejar uma granularidade diferente, arraste o intervalo de datas desejado (por exemplo, **Dia**, **Semana**, **Mês** etc.) na parte superior do cabeçalho da dimensão de data existente.
+3. Se desejar uma granularidade diferente, arraste o intervalo de datas desejado (por exemplo, **Dia**, **Semana**, **Mês** etc.) para cima do cabeçalho da dimensão de data existente.
 
 Consulte [Visitantes únicos](/help/components/metrics/unique-visitors.md) no guia do usuário Componentes para obter detalhes sobre como a Adobe calcula visitantes únicos.
 

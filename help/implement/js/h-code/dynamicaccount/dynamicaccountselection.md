@@ -1,6 +1,6 @@
 ---
 title: dynamicAccountSelection
-description: A variável dynamicAccountSelection ativa ou desativa a seleção de conta dinâmica.
+description: A variável dynamicAccountSelection habilita ou desabilita a seleção de conta dinâmica.
 feature: Implementation Basics
 exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
 role: Developer
@@ -15,7 +15,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->As contas dinâmicas são compatíveis apenas com implementações JavaScript herdadas (Código H). Essas variáveis não são compatíveis com as bibliotecas de AppMeasurements atuais ou com a Coleção de dados da Adobe Experience Platform.
+>As contas dinâmicas são compatíveis apenas com implementações JavaScript herdadas (Código H). Essas variáveis não são compatíveis com as bibliotecas AppMeasurement atuais ou com a Coleção de dados da Adobe Experience Platform.
 
 A variável `dynamicAccountSelection` é um booleano que determina se a seleção dinâmica da conta é usada.
 

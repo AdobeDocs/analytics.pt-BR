@@ -21,7 +21,7 @@ Assim que a biblioteca de tags for enviada para produção, a empresa poderá co
 
 ## Valide a implementação de desenvolvimento usando o Experience Cloud Debugger
 
-O depurador de Experience Cloud é uma extensão que mostra todas as tags de Experience Cloud presentes em uma página.
+O Experience Cloud Debugger é uma extensão que mostra todas as tags do Experience Cloud presentes em uma página.
 
 1. Instale a extensão do [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou do Firefox.
 2. Navegue até o site de desenvolvimento em que você implementou as tags.
@@ -39,7 +39,7 @@ Depois de validar que os dados estão sendo exibidos, você pode enviar a implem
 1. Clique na lista suspensa da biblioteca novamente (agora na coluna Enviado) e selecione **[!UICONTROL Build para Preparo]**.
 1. Após alguns instantes, a luz amarela na biblioteca fica verde, indicando uma criação bem-sucedida.
 1. Clique na lista suspensa da biblioteca novamente e selecione **[!UICONTROL Aprovar para publicação]**.
-1. Clique na lista suspensa da biblioteca novamente (agora na coluna [!UICONTROL Aprovado]) e selecione **[!UICONTROL Criar e Publish para produção]**.
+1. Clique na lista suspensa da biblioteca novamente (agora na coluna [!UICONTROL Aprovado]) e selecione **[!UICONTROL Criar e publicar para produção]**.
 1. Vá para a guia Ambientes e clique em **[!UICONTROL Ambiente de produção]**.
 1. Copie o código de instalação da produção e forneça-o aos proprietários do site. Solicite que eles implementem esse código no ambiente de produção do site.
 
@@ -59,7 +59,7 @@ Enquanto estiver no site, abra o console de desenvolvedor do navegador (normalme
 * Não há erros de JavaScript no console. Trabalhe com os proprietários do site da empresa para garantir que todos os erros de JS sejam resolvidos.
 * O código do cabeçalho está implementado corretamente: verifique se o código do cabeçalho está dentro da tag `<head>` e se o arquivo existe.
 * A biblioteca do AppMeasurement existe: navegue diretamente para a origem de JS para verificar se o arquivo de JS contém o código. Caso contrário, verifique se cada ambiente foi criado e se a biblioteca foi publicada no respectivo ambiente.
-* Extensões que interferem: algumas extensões, como bloqueadores de anúncios, podem impedir que as solicitações de imagem sejam acionadas. Desative todas as extensões que possam impedir o envio de dados para o Adobe.
+* Extensões que interferem: algumas extensões, como bloqueadores de anúncios, podem impedir que as solicitações de imagem sejam acionadas. Desative todas as extensões que possam impedir o envio de dados para a Adobe.
 
 ## Próximas etapas
 

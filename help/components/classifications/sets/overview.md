@@ -18,13 +18,13 @@ Conjuntos de classificações fornecem uma única interface para gerenciar class
 
 Você deve ser um administrador de produto ou pertencer a um perfil de produto que contenha o item de permissão [!UICONTROL Ferramentas do Conjunto de relatórios] > [!UICONTROL Classificações] para ver este item de menu. Observe que enquanto as interfaces anteriores de gerenciamento de classificação estão no menu [!UICONTROL Admin], os conjuntos de classificação estão no menu [!UICONTROL Componentes].
 
-## Melhorias
+## Aprimoramentos
 
 A arquitetura de back-end lançada com os conjuntos de classificação contém várias melhorias notáveis:
 
 * Redução do tempo de processamento (72 horas → 24 horas)
 * Uma interface do usuário reprojetada para gerenciar classificações
-* A opção de usar os dados de classificação na Adobe Experience Platform no futuro por meio do [Conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/classifications)
+* A opção de usar os dados de classificação na Adobe Experience Platform no futuro por meio do [Conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
 A arquitetura de back-end lançada com os conjuntos de classificação também contém várias alterações importantes:
 

@@ -16,7 +16,7 @@ ht-degree: 73%
 
 Cada plataforma do Analytics tem diferentes maneiras de coletar, manipular e armazenar dados. Em vez de migrar dados históricos, a Adobe recomenda estabelecer uma data limite clara para começar a coletar e usar dados no Adobe Analytics. As datas limites usadas com frequência são o início de um ano fiscal, o início de um ano civil ou o início de um mês. Se os usuários quiserem exibir dados históricos, eles poderão fazer logon na plataforma de terceiros para obter necessidades específicas de relatórios históricos.
 
-Se a organização estiver convencida de que os dados históricos foram transmitidos para o Adobe, entre em contato com a equipe de conta do Adobe. Um consultor de implementação pode trabalhar com a organização para traduzir uma exportação de dados do Google Analytics em uma fonte de dados que pode ser assimilada pelos servidores de coleta de dados da Adobe.
+Se a organização estiver convencida de que os dados históricos foram transmitidos para o Adobe, entre em contato com a equipe de conta da Adobe. Um consultor de implementação pode trabalhar com a organização para traduzir uma exportação de dados do Google Analytics em uma fonte de dados que pode ser assimilada pelos servidores de coleta de dados da Adobe.
 
 Para mover dados históricos, recomendamos usar o [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR), que pode trazer qualquer fonte de dados omnicanal.
 

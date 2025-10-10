@@ -40,9 +40,9 @@ Para atualizar o Report Builder
 1. (Opcional) Marque a caixa de seleção **[!UICONTROL Atualizar quando uma nova versão estiver disponível]**. Futuramente, isso iniciará o processo de atualização automaticamente quando uma nova versão estiver disponível.
 1. Quando a tela de configuração aparecer, clique em **[!UICONTROL Avançar >]**.
 
-   ![Captura de tela mostrando a tela Configuração do Report Builder.](assets/setup.png)
+   ![Captura de tela mostrando a tela Instalação do Report Builder.](assets/setup.png)
 
-1. Quando a atualização estiver concluída, faça logon novamente no Report Builder.
+1. Depois que a atualização for concluída, faça logon novamente no Report Builder.
 
 ## Instruções de atualização manual {#section_27A0200010DC4747A718F1A65B180599}
 

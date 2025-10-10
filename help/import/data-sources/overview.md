@@ -17,7 +17,7 @@ As fontes de dados do Adobe Analytics permitem importar dados online e offline a
 
 1. Sua organização coleta dados de outras fontes. Os exemplos incluem dados de pré-clique, dados da central de atendimento ou informações sobre transações que ocorreram fora do site.
 1. Os dados são formatados de uma forma que o Adobe Analytics entende usando um arquivo de texto delimitado por tabulação.
-1. Você carrega o arquivo de texto em um site FTP fornecido pelo Adobe, juntamente com um arquivo `.fin` que o acompanha.
+1. Você carrega o arquivo de texto para um site FTP fornecido pela Adobe, juntamente com um arquivo `.fin` que o acompanha.
 1. O Adobe assimila o arquivo de texto e exibe esses dados junto com dimensões e métricas coletadas no site.
 
 Há dois tipos gerais de fontes de dados que o Adobe oferece. Todos os modelos de fontes de dados são baseados em um destes dois tipos:
@@ -27,7 +27,7 @@ Há dois tipos gerais de fontes de dados que o Adobe oferece. Todos os modelos d
 
 **Fontes de dados de processamento completo** não são mais oferecidas como tipo de fonte de dados a partir de 25 de março de 2021. Consulte o [Anúncio do fim da vida útil](full-processing-eol.md) para obter mais informações.
 
-O Adobe também oferece a [API de fontes de dados](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), que permite criar fontes de dados e carregar dados sem usar a interface do usuário do produto ou um local FTP.
+A Adobe também oferece a [API de fontes de dados](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), que permite criar fontes de dados e carregar dados sem usar a interface do usuário do produto ou um local FTP.
 
 ## Próximas etapas
 

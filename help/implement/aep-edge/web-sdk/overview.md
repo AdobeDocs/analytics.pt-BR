@@ -1,6 +1,6 @@
 ---
 title: Implementar o Adobe Analytics usando o SDK da Web da Adobe Experience Platform
-description: Use o SDK da Web para enviar dados para a Adobe Analytics.
+description: Use o Web SDK para enviar dados ao Adobe Analytics.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -13,14 +13,14 @@ ht-degree: 40%
 
 # Implementar o Adobe Analytics usando o SDK da Web da Adobe Experience Platform
 
-Você pode usar o [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=pt-BR) para enviar dados ao Adobe Analytics. Há dois métodos principais para implementar o SDK da Web e cada método tem dois tipos de implementação:
+Você pode usar o [SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) para enviar dados ao Adobe Analytics. Há dois métodos principais para implementar o Web SDK, e cada método tem dois tipos de implementação:
 
-| | **Migrar do AppMeasurement** | **Implementação do SDK da Web limpo** |
+| | **Migrar do AppMeasurement** | **Implementação do Clean Web SDK** |
 | --- | --- | --- |
-| **Usar marcas** | [Migrar da extensão do Analytics para a extensão do SDK da Web](analytics-extension-to-web-sdk.md) | [Enviar dados para a Adobe Analytics usando a extensão SDK da Web](web-sdk-tag-extension.md) |
-| **Usar JavaScript** | [Migrar do AppMeasurement para a biblioteca JavaScript do SDK da Web](appmeasurement-to-web-sdk.md) | [Enviar dados para a Adobe Analytics usando a biblioteca JavaScript do SDK da Web](web-sdk-javascript-library.md) |
+| **Usar marcas** | [Migrar da extensão do Analytics para a extensão do Web SDK](analytics-extension-to-web-sdk.md) | [Enviar dados para o Adobe Analytics usando a extensão do Web SDK](web-sdk-tag-extension.md) |
+| **Usar JavaScript** | [Migrar do AppMeasurement para a biblioteca JavaScript da Web SDK](appmeasurement-to-web-sdk.md) | [Enviar dados para a Adobe Analytics usando a biblioteca JavaScript da Web SDK](web-sdk-javascript-library.md) |
 
-Se sua organização exigir uma nova implementação do SDK da Web e planeja usar o Customer Journey Analytics no futuro, o Adobe recomenda uma implementação limpa do SDK da Web usando seu próprio esquema. Consulte [Assimilar dados por meio do SDK da Web da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) no guia do usuário Customer Journey Analytics.
+Se sua organização exigir uma nova implementação do Web SDK e planejar usar o Customer Journey Analytics no futuro, a Adobe recomenda uma implementação limpa do Web SDK usando seu próprio esquema. Consulte [Assimilar dados por meio do Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) no guia do usuário do Customer Journey Analytics.
 
 ## Recursos adicionais
 

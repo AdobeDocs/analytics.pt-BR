@@ -17,7 +17,7 @@ Depois que sua organização tiver estabelecido e implementado uma camada de dad
 
 ## Pré-requisitos
 
-[Criar uma camada de dados](../prepare/data-layer.md): verifique se existe uma camada de dados no site. Embora você possa mapear qualquer objeto JavaScript ou extrair elementos CSS diretamente da página, a Adobe recomenda essa prática como último recurso. Se o layout do site mudar, os seletores de CSS usados ns tags deixarão de funcionar, causando perda de dados.
+[Criar uma camada de dados](../prepare/data-layer.md): verifique se existe uma camada de dados no site. Embora você possa mapear qualquer objeto JavaScript ou extrair elementos CSS diretamente da página, a Adobe recomenda essa prática como último recurso. Se o layout do site mudar, os seletores de CSS usados nas tags deixarão de funcionar, causando perda de dados.
 
 ## Usar tags para criar elementos de dados
 

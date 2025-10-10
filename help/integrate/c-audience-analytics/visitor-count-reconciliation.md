@@ -43,7 +43,7 @@ As métricas de visitante são:
  </tbody> 
 </table>
 
-Preenchimento de segmentos do Adobe Audience Manager em tempo real e Visitantes do Analytics com ID de Experience Cloud usada nos relatórios de Audience Analytics serão os mais semelhantes. Entretanto, no futuro, devido a vários fatores, haverá leves discrepâncias entre eles. São fatores contribuidores:
+Preenchimento de segmentos do Adobe Audience Manager em tempo real e Visitantes do Analytics com Experience Cloud ID usados em relatórios do Audience Analytics serão os mais semelhantes. Entretanto, no futuro, devido a vários fatores, haverá leves discrepâncias entre eles. São fatores contribuidores:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 

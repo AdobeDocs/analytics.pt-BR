@@ -23,10 +23,10 @@ Se você pretende implementar o Cross-Device Analytics usando a compilação em 
 
 >[!WARNING]
 >
->O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de ativar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
+>O não cumprimento de todos os pré-requisitos pode gerar a incapacidade de habilitar o Cross-Device Analytics ou resultados inadequados ao compilar os dados.
 
 * Todos os pré-requisitos estão listados na [página de visão geral](overview.md).
-* Sua implementação deve definir uma prop ou eVar que identifique exclusivamente um indivíduo sempre que possível, como quando um usuário faz logon ou abre um email. Esse requisito se aplica a todas as plataformas, incluindo aplicativos móveis, se usados.<br/>Evite atribuir um valor padrão a esta prop ou eVar. Quando 2.000 ou mais dispositivos diferentes recebem o mesmo valor padrão, a pessoa é adicionada a uma lista de &quot;pessoas inválidas&quot; e esses eventos são descartados do conjunto de relatórios virtual habilitado para CDA, resultando em análise incorreta.
+* Sua implementação deve definir uma prop ou eVar que identifique exclusivamente uma pessoa sempre que possível, como quando um usuário faz logon ou abre um email. Esse requisito se aplica a todas as plataformas, incluindo aplicativos móveis, se usados.<br/>Evite atribuir um valor padrão a esta prop ou eVar. Quando 2.000 ou mais dispositivos diferentes recebem o mesmo valor padrão, a pessoa é adicionada a uma lista de &quot;pessoas inválidas&quot; e esses eventos são descartados do conjunto de relatórios virtual habilitado para CDA, resultando em análise incorreta.
 * Comunique a variável de identificação desejada à sua equipe de conta da Adobe quando provisionado para a compilação em campo.
 
 ## Limitações específicas da compilação em campo

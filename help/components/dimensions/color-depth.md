@@ -24,4 +24,4 @@ Os itens de dimensão incluem o número de cores aceito pelo dispositivo. Os val
 
 >[!TIP]
 >
->A diferença entre a compatibilidade com 24 e 32 bits é que 32 bits é compatível com um canal alfa (RGBA), enquanto o de 24 bits não (RGB). Consulte [Intensidade de cor](https://pt.wikipedia.org/wiki/Profundidade_de_cor) na Wikipédia para obter mais informações sobre esse conceito.
+>A diferença entre a compatibilidade com 24 e 32 bits é que 32 bits é compatível com um canal alpha (RGBA), enquanto o de 24 bits não (RGB). Consulte [Intensidade de cor](https://pt.wikipedia.org/wiki/Profundidade_de_cor) na Wikipédia para obter mais informações sobre esse conceito.

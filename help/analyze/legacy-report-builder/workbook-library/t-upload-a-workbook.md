@@ -22,7 +22,7 @@ A [!UICONTROL Biblioteca de pastas de trabalho] permite fazer upload de uma past
 
 >[!NOTE]
 >
->Somente pastas de trabalho com solicitações Report Builder podem ser carregadas. Além disso, você pode distribuir relatórios do Report Builder para pessoas que não o usam. (Os usuários não são solicitados a fazer logon para ver os dados.)
+>Somente pastas de trabalho com solicitações do Report Builder podem ser carregadas. Além disso, você pode distribuir relatórios do Report Builder para pessoas que não o usam. (Os usuários não são solicitados a fazer logon para ver os dados.)
 
 1. Crie e execute uma solicitação.
 1. Depois que tiver salvado o relatório, clique em **[!UICONTROL Compartilhar]**.

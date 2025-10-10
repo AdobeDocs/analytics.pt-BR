@@ -25,7 +25,7 @@ Para alterar os itens de dimensão retornados para cada dimensão
 
 1. Clique em **[!UICONTROL Editar bloco de dados]** no painel COMANDOS.
 
-1. Clique em **[!UICONTROL Avançar]** para exibir a guia Dimension.
+1. Clique em **[!UICONTROL Avançar]** para exibir a guia Dimensões.
 
 1. Clique no ícone **...** ao lado do nome de um componente na tabela.
 
@@ -179,6 +179,6 @@ Sua seleção pode conter células vazias ou células com valores que não corre
 
 Na guia **[!UICONTROL Dimensões]**, clique no ícone de divisa ao lado do nome de uma dimensão para exibir a lista de itens de dimensão.
 
-![A guia Dimension e a lista de dimensões.](./assets/dimensions_chevron.png)
+![A guia Dimensões e a lista de dimensões.](./assets/dimensions_chevron.png)
 
 Você pode arrastar e soltar itens na **[!UICONTROL Tabela]** ou clicar duas vezes em um nome de item para adicioná-lo ao construtor de **[!UICONTROL Tabelas]**.

@@ -22,4 +22,4 @@ No layout personalizado, é possível transformar uma coluna de métrica em um g
 1. Clique com o botão direito do mouse na coluna com o valor da métrica.
 1. Selecione **[!UICONTROL Alterar exibição de saída]** e, em seguida, o tipo de micrográfico e a exibição de porcentagem desejada.
 
-   Report Builder altera a exibição na coluna para corresponder à sua seleção.
+   O Report Builder altera a exibição na coluna para corresponder à sua seleção.

@@ -1,11 +1,11 @@
 ---
-description: O dicionário de dados do Analysis Workspace permite que usuários cataloguem e monitorem os diversos componentes no Analysis Workspace, incluindo seu uso pretendido, quais estão aprovados, quais são duplicatas e assim por diante.
+description: O dicionário de dados do Analysis Workspace permite que os usuários monitorem e criem um catálogo dos diversos componentes no Analysis Workspace, incluindo seu uso pretendido, quais estão aprovados, quais são duplicatas e assim por diante.
 title: Visão geral do dicionário de dados
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 100%
 

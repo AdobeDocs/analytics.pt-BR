@@ -18,9 +18,9 @@ A [métrica](overview.md) de &quot;Instâncias&quot; mostra o número de vezes q
 
 De todas as ocorrências em um conjunto de relatórios, inclua somente ocorrências que definam explicitamente um item de dimensão na solicitação de imagem. Algumas dimensões, como [eVars](../dimensions/evar.md), persistem além da ocorrência em que estão definidas. Métricas como [Visualizações de página](page-views.md) e [Ocorrências](occurrences.md) contam valores iniciais e persistentes. Essa métrica não conta valores persistentes.
 
-Por exemplo, um visitante chega ao seu site e usa pesquisa interna. Você rastreia a pesquisa interna em eVar 1. Depois de usar a pesquisa interna uma vez, eles visitam mais cinco páginas antes de sair.
+Por exemplo, um visitante chega ao seu site e usa pesquisa interna. Você rastreia a pesquisa interna no eVar1. Depois de usar a pesquisa interna uma vez, eles visitam mais cinco páginas antes de sair.
 
-Ao exibir um relatório no Workspace, você veria uma instância do eVar1 e seis ocorrências. Uma instância conta na página de resultados da pesquisa, enquanto a métrica de ocorrências conta o valor inicial e os valores persistentes subsequentes.
+Se estiver visualizando um relatório no Workspace, você verá uma instância do eVar1 e seis ocorrências. Uma instância conta na página de resultados da pesquisa, enquanto a métrica de ocorrências conta o valor inicial e os valores persistentes subsequentes.
 
 ## Comparar a métricas semelhantes
 

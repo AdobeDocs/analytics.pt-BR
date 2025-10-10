@@ -17,6 +17,6 @@ ht-degree: 37%
 >
 >As informações a seguir estão relacionadas aos tipos de destino FTP e SFTP. FTP e SFTP são tipos de destino herdados. Ao configurar um feed de dados, você deve usar um tipo de destino de nuvem, que é mais seguro. Para obter mais informações sobre como configurar os tipos de destino da nuvem para um Feed de dados, consulte [Criar um Feed de dados](/help/export/analytics-data-feed/create-feed.md).
 
-É possível configurar dados de Adobe para serem enviados a uma conta FTP externa usando o SFTP.
+É possível configurar dados do Adobe para serem enviados a uma conta FTP externa usando o SFTP.
 
 Para obter mais informações, consulte [Criar um Feed de Dados](/help/export/analytics-data-feed/create-feed.md).

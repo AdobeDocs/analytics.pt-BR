@@ -16,14 +16,14 @@ A [dimensão](overview.md) de &quot;DMA dos EUA&quot; informa a área de mercado
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. O Adobe faz parceria com a Nielsen para manter pesquisas entre o endereço IP e o DMA.
+Essa dimensão faz referência às regras de pesquisa internas da Adobe. O valor de pesquisa se baseia no endereço IP enviado com a ocorrência. A Adobe faz parceria com a Nielsen para manter pesquisas entre o endereço IP e o DMA.
 
 * Para implementações do AppMeasurement, essa dimensão funciona imediatamente.
-* Para implementações do SDK da Web, habilite a [!UICONTROL Pesquisa Geográfica] ao [configurar uma sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-br).
+* Para implementações do Web SDK, habilite a [!UICONTROL Pesquisa Geográfica] ao [configurar uma sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-br).
 
 ## Itens de dimensão
 
-Os itens de Dimension incluem os códigos DMA e DMA do visitante. O código de 3 dígitos não é um CEP, mas sim o código DMA da Nielsen. Os valores de exemplo incluem `"Dallas-Ft. Worth (623)"`, `"New York (501)"` ou `"Los Angeles (803)"`. O item de dimensão `"No Metro (0)"` inclui todo o tráfego internacional fora dos Estados Unidos.
+Os itens da Dimension incluem os códigos DMA e DMA do visitante. O código de 3 dígitos não é um CEP, mas sim o código DMA da Nielsen. Os valores de exemplo incluem `"Dallas-Ft. Worth (623)"`, `"New York (501)"` ou `"Los Angeles (803)"`. O item de dimensão `"No Metro (0)"` inclui todo o tráfego internacional fora dos Estados Unidos.
 
 ## Diferenças entre a localização informada e a real
 

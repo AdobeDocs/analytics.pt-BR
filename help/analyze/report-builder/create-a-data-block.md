@@ -51,7 +51,7 @@ Configure os parâmetros do bloco de dados inicial para o local do bloco de dado
 
 Para criar o bloco de dados, selecione componentes do relatório e personalize o layout.
 
-1. Adicionar Dimension, métricas e segmentos.
+1. Adicionar dimensões, métricas e segmentos.
 
    Rolar as listas de componentes ou usar o campo **[!UICONTROL Pesquisa]** para localizar os componentes. Arraste e solte componentes no painel Tabela ou clique duas vezes em um nome de componente na lista para adicionar automaticamente o componente ao painel Tabela.
 
@@ -61,7 +61,7 @@ Para criar o bloco de dados, selecione componentes do relatório e personalize o
    - Os componentes Data são adicionados à seção Coluna.
    - Os componentes de Segmento são adicionados à seção Segmentos.
 
-   **Data inicial como Dimension**
+   **Data de início como Dimension**
 
    Defina a **[!UICONTROL Data inicial]** como uma dimensão para identificar claramente a data inicial do bloco de dados. Isso é útil se você tiver um relatório agendado regularmente com um intervalo de datas em andamento ou se tiver um intervalo de datas não convencional e precisar estar claro sobre a data de início.
 

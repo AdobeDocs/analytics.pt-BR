@@ -30,7 +30,7 @@ Para obter mais informações, consulte as seguintes seções:
 
 ## Selecionar um intervalo de células {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
-No [!UICONTROL Assistente de solicitações: etapa 2], quando você ativa o [!UICONTROL Layout personalizado] para uma solicitação com detecção de tendência, pode mapear a solicitação para um intervalo de células.
+No [!UICONTROL Assistente de solicitações: etapa 2], quando você habilita o [!UICONTROL Layout personalizado] para uma solicitação com detecção de tendência, pode mapear a solicitação para um intervalo de células.
 
 Clique no **[!UICONTROL Seletor de Intervalo]** ![select_cell_icon.png](assets/select_cell_icon.png) ao lado do item que você deseja mapear.
 

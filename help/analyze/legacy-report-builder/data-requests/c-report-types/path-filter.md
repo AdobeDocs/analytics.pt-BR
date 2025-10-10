@@ -50,7 +50,7 @@ Esse exemplo usa Caminhos de seção do site.
 
    ![](assets/select_a_pattern.png)
 
-   Alguns desses padrões são específicos do Report Builder: Padrão do Próximo Item do Caminho de Entrada, Padrão do Próximo Item do Caminho de Saída, Padrão do Próximo Item.
+   Alguns desses padrões são específicos do Report Builder: Padrão de Próximo Item do Caminho de Entrada, Padrão de Próximo Item do Caminho de Saída, Padrão do Próximo Item.
 
 ## Para editar um padrão predefinido
 

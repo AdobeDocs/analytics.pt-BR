@@ -22,13 +22,13 @@ Há várias opções de configuração disponíveis ao criar uma solicitação d
 
    ![Botão para adicionar uma solicitação](assets/dw-add-request.png)
 
-   A página Nova solicitação de Data Warehouse é exibida.
+   A página Nova solicitação do Data Warehouse é exibida.
 
    ![Guia de configurações gerais](assets/dw-general-settings.png)
 
 ## Concluir a solicitação
 
-Várias guias estão disponíveis ao criar uma solicitação de Data Warehouse. Para obter informações sobre as várias opções de configuração em cada guia, consulte os seguintes artigos:
+Várias guias estão disponíveis ao criar uma solicitação Data Warehouse. Para obter informações sobre as várias opções de configuração em cada guia, consulte os seguintes artigos:
 
 * [Configurações gerais](/help/export/data-warehouse/create-request/dw-general-settings.md)
 

@@ -12,7 +12,7 @@ ht-degree: 16%
 
 # Suporte a várias moedas
 
-O Adobe oferece vários níveis de conversão de moeda para que sua organização possa alcançar a moeda desejada em muitos relatórios. Ocorre uma conversão em três níveis:
+A Adobe oferece vários níveis de conversão de moeda para que sua organização possa alcançar a moeda desejada em muitos relatórios. Ocorre uma conversão em três níveis:
 
 ## Nível da página
 

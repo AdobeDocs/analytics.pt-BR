@@ -1,5 +1,5 @@
 ---
-description: Você pode salvar filtros ou outros parâmetros no Report Builder e usá-los em outras planilhas ou pastas de trabalho. Esses parâmetros são salvos no Analytics para garantir que estejam disponíveis para outros usuários de Report Builder em outros computadores.
+description: Você pode salvar filtros ou outros parâmetros no Report Builder e usá-los em outras planilhas ou pastas de trabalho. Esses parâmetros são salvos no Analytics para garantir que estejam disponíveis para outros usuários do Report Builder em outros computadores.
 title: Filtros salvos
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 {{legacy-arb}}
 
-Você pode salvar filtros ou outros parâmetros no Report Builder e usá-los em outras planilhas ou pastas de trabalho. Esses parâmetros são salvos no Analytics para garantir que estejam disponíveis para outros usuários de Report Builder em outros computadores.
+Você pode salvar filtros ou outros parâmetros no Report Builder e usá-los em outras planilhas ou pastas de trabalho. Esses parâmetros são salvos no Analytics para garantir que estejam disponíveis para outros usuários do Report Builder em outros computadores.
 
 Você salva os filtros no formulário [!UICONTROL Escolher página] quando cria os filtros. Para obter um exemplo desse procedimento, consulte [Filtros específicos](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 

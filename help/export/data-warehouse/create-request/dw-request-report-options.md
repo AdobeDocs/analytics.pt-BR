@@ -22,7 +22,7 @@ Para configurar opções de relatório para uma solicitação Data Warehouse:
 
    Para obter detalhes adicionais, consulte [Criar uma solicitação do data warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Na página Nova solicitação de Data Warehouse, selecione a guia [!UICONTROL **Opções de relatório**].
+1. Na página Nova solicitação do Data Warehouse, selecione a guia [!UICONTROL **Opções de relatório**].
 
    ![Guia de destino do relatório](assets/dw-report-options.png) <!-- update screenshot to include Sort by metrics -->
 
@@ -30,7 +30,7 @@ Para configurar opções de relatório para uma solicitação Data Warehouse:
 
    | Opção | Função |
    |---------|----------|
-   | [!UICONTROL **Nome do arquivo**] | Identifica o relatório. <p>Se qualquer um dos caracteres especiais a seguir for usado no nome do arquivo, a solicitação não poderá ser salva: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &grave; { } \| ~</code> </p><p>O caractere % pode ser usado somente se for seguido por &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, da seguinte maneira: <code>%R</code>, <code>%rsid</code>, e <code>%id</code>.</p> |
+   | [!UICONTROL **Nome do arquivo**] | Identifica o relatório. <p>Se qualquer um dos caracteres especiais a seguir for usado no nome do arquivo, a solicitação não poderá ser salva: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>O caractere % pode ser usado somente se for seguido por &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, da seguinte maneira: <code>%R</code>, <code>%rsid</code>, e <code>%id</code>.</p> |
    | [!UICONTROL **Anexar intervalo de datas do relatório ao nome do arquivo**] | Adiciona o intervalo de datas ao nome do arquivo do relatório. <p>Por exemplo, se você solicitar dados de 1º de maio de 2024 até 7 de maio de 2024, o nome do arquivo incluirá o intervalo de datas de 20240501 a 20240507.</p> |
    | [!UICONTROL **CSV**] | Fornece relatórios em um formato de arquivo CSV para exibição de dados em uma planilha. |
    | [!UICONTROL **Tableau (TDE)**] | Fornece relatórios em um formato de arquivo de Extração de dados do Tableau (TDE), que pode ser usado para visualizar dados e criar camadas de dados adicionais no Tableau. |
@@ -39,7 +39,7 @@ Para configurar opções de relatório para uma solicitação Data Warehouse:
    | [!UICONTROL **Início dos comentários do relatório**] | Adicione comentários que você deseja incluir no relatório. Os comentários aparecem no início do relatório. |
    | [!UICONTROL **Classificar por métricas**] | Fornece relatórios classificados e detalhados no Data Warehouse, classificados por valor de métrica decrescente. A classificação por métrica facilita a interpretação dos relatórios do Data Warehouse, além de facilitar a comparação deles com outros relatórios de exibição de detalhamento do Analytics.<p>Para obter mais informações, consulte [Classificar por métrica](/help/export/data-warehouse/sorting-by-metric.md).</p> |
    | [!UICONTROL **Enviar um arquivo de manifesto**] | Inclui metadados sobre os arquivos incluídos no relatório.<!-- What kind of metadata is included in the manifest file? --> |
-   | [!UICONTROL **Enviar um arquivo de assinatura digital**] | Permite aos destinatários do relatório verificar se o arquivo veio do Adobe e se não foi alterado. |
+   | [!UICONTROL **Enviar um arquivo de assinatura digital**] | Permite que os destinatários do relatório verifiquem se o arquivo veio do Adobe e se não foi alterado. |
    | [!UICONTROL **Enviar um arquivo vazio quando não houver dados no relatório**] | Envia um relatório mesmo quando ele não contém dados. |
 
    {style="table-layout:auto"}

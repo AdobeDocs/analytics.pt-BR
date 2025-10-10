@@ -54,7 +54,7 @@ A Adobe recomenda usar a métrica **Visitas** para essa dimensão.
 
 ## Conteúdo do site - Páginas de saída
 
-O relatório Páginas de saída mostra as páginas principais que se tornaram a última página da visita de um indivíduo. Ele está disponível na Analysis Workspace com o mesmo nome.
+O relatório Páginas de saída mostra as páginas principais que se tornaram a última página da visita de uma pessoa. Ele está disponível na Analysis Workspace com o mesmo nome.
 
 1. No menu Componentes, localize a dimensão **Página de saída** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.

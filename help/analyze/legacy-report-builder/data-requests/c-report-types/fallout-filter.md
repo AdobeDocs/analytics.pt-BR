@@ -23,7 +23,7 @@ Esse exemplo mostra o relatório Fallout de página.
 1. Selecione o conjunto de relatórios apropriado.
 1. Na visualização de árvore na esquerda, selecione **[!UICONTROL Caminhos]** > **[!UICONTROL Página]** > **[!UICONTROL Fallout de página]**.
 
-   ![Captura de tela mostrando a exibição de árvore do Windows para o diretório Report Builder. Fallout de Página selecionado.](assets/page_fallout.png)
+   ![Captura de tela mostrando a exibição de árvore do Windows para o diretório do Report Builder. Fallout de Página selecionado.](assets/page_fallout.png)
 
 1. Configure os [intervalos de datas](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md) apropriados.
 1. Clique em **[!UICONTROL Próximo]**.
@@ -37,7 +37,7 @@ Esse exemplo mostra o relatório Fallout de página.
 1. Decida se deseja selecionar a partir de várias células ou de uma lista.
 1. Se você selecionar de uma lista, clique em **[!UICONTROL Adicionar]** para selecionar pontos de verificação a fim de adicionar ao caminho de fallout. Você pode definir entre 3 e 8 pontos de verificação. (Pesquisa por elementos disponíveis ao clicar em **[!UICONTROL Mais]**.)
 
-   Para obter mais informações sobre como refinar o filtro, consulte [Filtrar Dimension](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md).
+   Para obter mais informações sobre como refinar o filtro, consulte [Dimensões do Filtro](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md).
 
 1. Mova **[!UICONTROL Elementos disponíveis]** da coluna esquerda para a direita ao selecioná-los e clicar na seta laranja.
 1. Clique em **[!UICONTROL OK]** três vezes, em seguida, clique em **[!UICONTROL Concluir]**.

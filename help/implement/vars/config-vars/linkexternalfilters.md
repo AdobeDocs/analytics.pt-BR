@@ -13,9 +13,9 @@ ht-degree: 91%
 
 # linkExternalFilters
 
-O AppMeasurement oferece a capacidade de rastrear automaticamente links que apontam para fora do site. Se [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) ou [`clickCollectionEnabled`](trackexternallinks.md) (SDK da Web) estiver ativado, uma solicitação de imagem será enviada à Adobe assim que o visitante clicar em um link para sair do site. As variáveis `linkExternalFilters` e [`linkInternalFilters`](linkinternalfilters.md) determinam quais links são considerados internos/externos.
+O AppMeasurement oferece a capacidade de rastrear automaticamente links que apontam para fora do site. Se [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) ou [`clickCollectionEnabled`](trackexternallinks.md) (SDK da Web) estiver habilitado, uma solicitação de imagem será enviada à Adobe assim que o visitante clicar em um link para sair do site. As variáveis `linkExternalFilters` e [`linkInternalFilters`](linkinternalfilters.md) determinam quais links são considerados internos/externos.
 
-Se essa variável tiver um valor, o rastreamento automático do link de saída se comportará como uma lista de permissões. Se um clique em um link não corresponder a algum valor `linkExternalFilters`, ele não será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. Se o [`linkLeaveQueryString`](linkleavequerystring.md) estiver ativado, a sequência de consulta também será examinada.
+Se essa variável tiver um valor, o rastreamento automático do link de saída se comportará como uma lista de permissões. Se um clique em um link não corresponder a algum valor `linkExternalFilters`, ele não será considerado um link de saída. O URL inteiro é examinado em relação a essa variável. Se o [`linkLeaveQueryString`](linkleavequerystring.md) estiver habilitado, a sequência de consulta também será examinada.
 
 >[!TIP]
 >

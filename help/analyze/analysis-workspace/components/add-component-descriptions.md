@@ -31,7 +31,7 @@ Você pode adicionar descrições aos componentes em um conjunto de relatórios.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionar descrições de componentes](https://video.tv.adobe.com/v/39723?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adicionar descrições de componentes](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Para obter informações gerais sobre o Dicionário de dados, consulte [Visão g
 >[!MORELIKETHIS]
 >
 >[Configurações do componente de Relatório](/help/components/vrs/vrs-components.md)
->&#x200B;>[Entradas do componente do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Entradas do componente do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

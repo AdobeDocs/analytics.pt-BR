@@ -19,7 +19,7 @@ Você pode definir uma visita da maneira que quiser sem alterar os dados subjace
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessões sensíveis ao contexto](https://video.tv.adobe.com/v/3428478?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessões sensíveis ao contexto](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ Uma ocorrência em segundo plano é um tipo de ocorrência enviada para o Analyt
 
 Os exemplos a seguir descrevem a lógica usada para determinar quando uma visita começa e termina para um visitante quando a configuração “Impedir ocorrências em segundo plano de iniciar uma nova visita” está ou não habilitada para um conjunto de relatórios virtual.
 
-**Se “Impedir ocorrências em segundo plano de iniciar uma nova visita” não estiver ativado:**
+**Se “Impedir ocorrências em segundo plano de iniciar uma nova visita” não estiver habilitado:**
 
 Se esse recurso não estiver habilitado para um conjunto de relatórios virtual, as ocorrência em segundo plano serão tratadas como qualquer outro tipo, o que significa que iniciarão novas visitas e agirão exatamente como ocorrências em primeiro plano. Por exemplo, se uma ocorrência em segundo plano ocorrer menos de 30 minutos (o tempo limite padrão de sessão para um conjunto de relatórios) antes de um conjunto de ocorrências em primeiro plano, a ocorrência em segundo plano fará parte da sessão.
 
@@ -47,7 +47,7 @@ Se a ocorrência em segundo plano ocorrer mais de 30 minutos antes de qualquer o
 
 ![](assets/nogood2.jpg)
 
-**Se “Impedir ocorrências em segundo plano de iniciar uma nova visita” estiver ativado:**
+**Se “Impedir ocorrências em segundo plano de iniciar uma nova visita” estiver habilitado:**
 
 Os exemplos a seguir ilustram o comportamento das ocorrências em segundo plano quando esse recurso está habilitado.
 

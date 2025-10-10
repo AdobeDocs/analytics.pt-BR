@@ -76,7 +76,7 @@ Em algumas situações, é possível que várias pessoas façam logon no mesmo d
 
 +++ Como o CDA lida com situações em que uma única pessoa tem MUITOS dispositivos/ECIDs?
 
-Em algumas situações, um usuário individual pode ser associado a um grande número de ECIDs. Isso pode ocorrer se o indivíduo usar muitos navegadores ou aplicativos e pode ser exacerbado se ele limpar os cookies com frequência ou usar o modo de navegação privado ou incognitivo do navegador.
+Em algumas situações, um usuário individual pode ser associado a um grande número de ECIDs. Isso pode ocorrer se a pessoa usar muitos navegadores ou aplicativos e pode ser exacerbado se ela limpar os cookies com frequência ou usar o modo de navegação privado ou incognitivo do navegador.
 
 * **Se estiver usando um gráfico de dispositivos**, o CDA limita o número de ECIDs vinculadas a determinada ID de usuário a 50. Se uma ID de usuário estiver associada a muitas ECIDs, o gráfico de dispositivos presumirá que a ID de usuário é inválida e removerá o cluster associado a essa ID de usuário. A ID de usuário é adicionada a uma lista de bloqueios para evitar que ela seja adicionada a algum cluster no futuro. O resultado no relatório é que a ID do usuário não é compilada entre os dispositivos.
 * **Se estiver usando a compilação em campo**, o número de dispositivos é irrelevante em favor da prop/eVar que você escolher para ajudar a identificar os usuários conectados. Um único usuário pode pertencer a qualquer número de dispositivos sem afetar a capacidade do CDA de compilar entre os dispositivos.
@@ -104,7 +104,7 @@ Consulte [Dispositivos exclusivos](/help/components/metrics/unique-devices.md) p
 
 Sim. O Analysis Workspace usa a API 2.0 para solicitar dados dos servidores da Adobe e você pode visualizar chamadas de API usadas pela Adobe para criar seus próprios relatórios:
 
-1. Enquanto estiver conectado no Analysis Workspace, acesse [!UICONTROL Ajuda] > [!UICONTROL Ativar depurador].
+1. Enquanto estiver conectado no Analysis Workspace, acesse [!UICONTROL Ajuda] > [!UICONTROL Habilitar depurador].
 2. Clique no ícone de depuração no painel desejado e selecione a visualização e a hora da solicitação.
 3. Localize a solicitação JSON, que você pode usar na chamada de API para a Adobe.
 
@@ -112,7 +112,7 @@ Sim. O Analysis Workspace usa a API 2.0 para solicitar dados dos servidores da A
 
 +++ O Análise entre dispositivos pode unir visitantes únicos. É possível compilar visitas?
 
-Sim. Se um indivíduo enviar ocorrências de dois dispositivos separados dentro do tempo limite de visita do conjunto de relatórios virtual (30 minutos por padrão), eles serão agrupados na mesma visita.
+Sim. Se uma pessoa enviar ocorrências de dois dispositivos separados dentro do tempo limite de visita do conjunto de relatórios virtual (30 minutos por padrão), eles serão agrupados na mesma visita.
 
 +++
 
@@ -145,7 +145,7 @@ A partir de 1 de maio de 2022, qualquer nova implementação do CDA será limita
 
 +++ Se a minha ID de organização tiver várias empresas em diferentes regiões, é possível habilitar o CDA para todas elas?
 
-Não. Para a mesma ID de organização, somente uma região pode ter o CDA ativado.
+Não. Para a mesma ID de organização, somente uma região pode ter o CDA habilitado.
 
 +++
 

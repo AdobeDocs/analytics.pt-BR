@@ -6,8 +6,8 @@ exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 78%
+source-wordcount: '777'
+ht-degree: 76%
 
 ---
 
@@ -79,7 +79,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 A função `getVisitNum` usa os seguintes argumentos:
 
 * **`rp`** (opcional, número inteiro OU string): o número de dias antes da redefinição do contador do número de visitas.  O valor padrão é `365` quando um valor não está definido.
-   * Quando esse argumento é `"w"`, o contador é reiniciado no final da semana (neste sábado, às 23:59)
+   * Quando esse argumento é `"w"`, o contador é reiniciado no final da semana (neste sábado, às 23:00 horas):59
    * Quando esse argumento é `"m"`, o contador é redefinido no final do mês (o último dia deste mês)
    * Quando esse argumento é `"y"`, o contador é reiniciado no final do ano (31 de dezembro)
 * **`erp`** (opcional, booleano): Quando o argumento `rp` é um número, esse argumento determina se a expiração do número de visitas deve ser estendida. Se definido como `true`, as ocorrências subsequentes do site redefinirão o contador de número de visitas. Se definido como `false`, as ocorrências subsequentes do site serão estendidas quando o contador de número de visitas é redefinido. O padrão é `true`. Esse argumento não é válido quando o argumento `rp` é uma string.

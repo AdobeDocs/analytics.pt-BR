@@ -13,7 +13,7 @@ ht-degree: 63%
 
 # doPlugins
 
-A variável `doPlugins` atua como uma &quot;última chamada&quot; para definir valores na implementação. É o local ideal para fazer chamadas para [Métodos de plug-in](../plugins/impl-plugins.md) e definir quaisquer variáveis desejadas antes do envio de uma solicitação de imagem. Se a [`usePlugins`](../config-vars/useplugins.md) estiver ativada, ela será executada automaticamente antes que qualquer tipo de solicitação de imagem seja compilada e enviada para a Adobe, incluindo:
+A variável `doPlugins` atua como uma &quot;última chamada&quot; para definir valores na implementação. É o local ideal para fazer chamadas para [Métodos de plug-in](../plugins/impl-plugins.md) e definir quaisquer variáveis desejadas antes do envio de uma solicitação de imagem. Se a [`usePlugins`](../config-vars/useplugins.md) estiver habilitada, ela será executada automaticamente antes que qualquer tipo de solicitação de imagem seja compilada e enviada para a Adobe, incluindo:
 
 * Todas as chamadas de exibição de página ([`t()`](t-method.md))
 * Todas as chamadas de rastreamento de link ([`tl()`](tl-method.md)), incluindo links de download automático e links de saída
@@ -32,7 +32,7 @@ Em vez de `doPlugins`, o Web SDK usa `onBeforeEventSend` com funcionalidade seme
 
 ## Use o `onBeforeEventSend` para implementar manualmente o Web SDK
 
-Em vez de `doPlugins`, o Web SDK usa `onBeforeEventSend` com funcionalidade semelhante. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#modifying-events-globally) na documentação do Web SDK para obter mais informações.
+Em vez de `doPlugins`, o Web SDK usa `onBeforeEventSend` com funcionalidade semelhante. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do Web SDK para obter mais informações.
 
 ```js
 // Set the trackingCode XDM field to "New value"

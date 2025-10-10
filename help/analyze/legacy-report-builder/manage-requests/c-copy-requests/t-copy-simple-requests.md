@@ -8,7 +8,7 @@ exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -38,6 +38,6 @@ Para copiar uma solicitação simples
    >
    >Somente as solicitações são copiadas, não o conteúdo das células. Se você tiver outras informações que não se baseie em solicitações, mas que sejam relevantes à compreensão dos dados exibidos nas células (como cabeçalhos de colunas de tabelas ou identificadores de linhas), use os comandos padrão Copiar e Colar do Excel.
 
-   Visto que o Excel usa diferentes áreas de transferência para copiar conteúdos de células e para copiar solicitações, você pode copiar tanto conteúdos de células que não sejam solicitações quanto solicitações executando comandos Copiar/Colar e Copiar solicitações/Colar solicitações em série. No entanto, se você aplicar formatação a solicitações na planilha e, em seguida, copiar e colar, o Report Builder reproduzirá a formatação original (como bordas, fontes etc.) na região de colagem.
+   Visto que o Excel usa diferentes áreas de transferência para copiar conteúdos de células e para copiar solicitações, você pode copiar tanto conteúdos de células que não sejam solicitações quanto solicitações executando comandos Copiar/Colar e Copiar solicitações/Colar solicitações em série. No entanto, se você aplicar formatação a solicitações na planilha e, em seguida, copiar e colar, o Report Builder reproduzirá a formatação original (como bordas, fontes, etc.) na região de colagem.
 
    Modificar uma solicitação que você tenha copiado ou recortado para a área de transferência antes de colá-la remove a solicitação da área de transferência. Portanto, para manter a solicitação em seu estado original, não a modifique entre o momento de sua cópia e o de sua colagem.

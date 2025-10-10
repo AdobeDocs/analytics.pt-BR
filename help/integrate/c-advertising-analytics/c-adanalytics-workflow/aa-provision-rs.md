@@ -12,7 +12,7 @@ ht-degree: 47%
 
 # Habilitar conjunto de relatórios para o Advertising Analytics
 
-Para ver dados de pesquisa do Advertising Analytics no Analytics, é necessário configurar cada conjunto de relatórios mapeados por Experience Cloud para os relatórios do Advertising Analytics.
+Para ver dados de pesquisa do Advertising Analytics no Analytics, é necessário configurar cada conjunto de relatórios mapeados para Experience Cloud para os relatórios do Advertising Analytics.
 
 1. Navegue até **[!UICONTROL Admin]** > **[!UICONTROL Conjuntos de relatórios]**.
 
@@ -23,7 +23,7 @@ Para ver dados de pesquisa do Advertising Analytics no Analytics, é necessário
 
    >[!IMPORTANT]
    >
-   >A ID do AMO se refere à variável do Adobe Advertising Cloud (também conhecida como Adobe Media Optimizer) na qual os dados de pesquisa serão inseridos.
+   >A ID do AMO se refere à variável da Adobe Advertising Cloud (também conhecida como Adobe Media Otimizer) na qual os dados de pesquisa serão inseridos.
 
 1. Selecione **[!UICONTROL Não está familiarizado com o Advertising Analytics? Clique aqui para saber mais]** para obter mais informações sobre o Advertising Analytics.
 

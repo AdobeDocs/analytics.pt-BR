@@ -21,17 +21,17 @@ Depois de criar e configurar uma propriedade de tag, as bibliotecas estarão pro
 
 ## Criar adaptadores e ambientes
 
-As tags acomodam muitos workflows organizacionais na implantação do código. Siga estas etapas para criar os componentes mínimos necessários para uma implementação do Analytics. Como administrador de tags, você pode trabalhar na empresa para estabelecer o fluxo de trabalho correto para implantar as soluções da Adobe.
+As tags acomodam muitos fluxos de trabalho organizacionais na implantação do código. Siga estas etapas para criar os componentes mínimos necessários para uma implementação do Analytics. Como administrador de tags, você pode trabalhar na empresa para estabelecer o fluxo de trabalho correto para implantar as soluções da Adobe.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade da tag que pretende implementar no site.
 3. Clique em **[!UICONTROL Hosts]** e em **[!UICONTROL Adicionar Host]**.
-4. Nomeie-o como `"Adobe managed"` e selecione **[!UICONTROL Gerenciado por Adobe]** na lista suspensa de tipos. Clique em Salvar.
+4. Nomeie-o como `"Adobe managed"` e selecione **[!UICONTROL Gerenciado pela Adobe]** na lista suspensa de tipos. Clique em Salvar.
 5. Navegue até **[!UICONTROL Ambientes]** e clique em **[!UICONTROL Adicionar ambiente]**.
-6. Selecione **[!UICONTROL Desenvolvimento]**, nomeie-o como `"Dev Environment"` e selecione o host gerenciado de Adobe na lista suspensa. Clique em **[!UICONTROL Salvar]**.
+6. Selecione **[!UICONTROL Desenvolvimento]**, nomeie-o como `"Dev Environment"` e selecione o host gerenciado pelo Adobe na lista suspensa. Clique em **[!UICONTROL Salvar]**.
 7. Uma janela modal é exibida mostrando as Instruções de instalação da Web. Retornaremos a esta janela posteriormente; clique em **[!UICONTROL Fechar]** por enquanto.
-8. Clique em **[!UICONTROL Adicionar ambiente]**, selecione **[!UICONTROL Preparo]**, nomeie-o como `"Staging Environment"` e selecione o host gerenciado de Adobe. Clique em **[!UICONTROL Criar]** e feche a janela modal de instruções de instalação.
-9. Clique novamente em **[!UICONTROL Adicionar ambiente]**, selecione **[!UICONTROL Produção]**, nomeie-o como `"Production Environment"` e selecione o host gerenciado de Adobe. Clique em **[!UICONTROL Criar]** e feche a janela modal de instruções de instalação.
+8. Clique em **[!UICONTROL Adicionar ambiente]**, selecione **[!UICONTROL Preparo]**, nomeie-o como `"Staging Environment"` e selecione o host gerenciado pelo Adobe. Clique em **[!UICONTROL Criar]** e feche a janela modal de instruções de instalação.
+9. Clique novamente em **[!UICONTROL Adicionar ambiente]**, selecione **[!UICONTROL Produção]**, nomeie-o como `"Production Environment"` e selecione o host gerenciado pelo Adobe. Clique em **[!UICONTROL Criar]** e feche a janela modal de instruções de instalação.
 
 ## Criar uma biblioteca de desenvolvimento
 

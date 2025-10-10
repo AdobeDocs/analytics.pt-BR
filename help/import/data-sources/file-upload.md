@@ -1,5 +1,5 @@
 ---
-title: Carregar arquivo de fontes de dados no Adobe
+title: Fazer upload do arquivo de fontes de dados para o Adobe
 description: O processo para carregar um arquivo de fontes de dados no Adobe Analytics para assimilação.
 exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
 feature: Data Sources
@@ -11,9 +11,9 @@ ht-degree: 1%
 
 ---
 
-# Carregar arquivo de fontes de dados no Adobe
+# Fazer upload do arquivo de fontes de dados para o Adobe
 
-O envio de um arquivo de fontes de dados para o Adobe envolve um fluxo de trabalho de FTP autenticado típico. Você pode usar o Windows Explorer, Finder ou um cliente FTP dedicado para fazer upload dos arquivos desejados no local FTP do Adobe.
+O envio de um arquivo de fontes de dados para a Adobe envolve um fluxo de trabalho de FTP autenticado típico. Você pode usar o Windows Explorer, o Finder ou um cliente FTP dedicado para fazer upload dos arquivos desejados para o local FTP da Adobe.
 
 Localize as credenciais de FTP no [Gerenciador de fontes de dados](manage.md). Cada fonte de dados tem um link para suas **[!UICONTROL Informações de FTP]**. Cada local FTP é dedicado a essa fonte de dados específica; não é possível usar o mesmo local FTP para várias fontes de dados.
 
@@ -33,7 +33,7 @@ Depois que o arquivo de fonte de dados e o arquivo `.fin` forem carregados no si
 
 ## Processamento do pedido
 
-Se você fizer upload de vários arquivos ao mesmo tempo no site FTP, o Adobe os assimilará em ordem alfanumérica. Se sua organização exigir que os arquivos sejam assimilados em uma ordem específica, verifique se os nomes dos arquivos são nomeados alfanumericamente.
+Se você fizer upload de vários arquivos ao mesmo tempo no site FTP, a Adobe os assimilará em ordem alfanumérica. Se sua organização exigir que os arquivos sejam assimilados em uma ordem específica, verifique se os nomes dos arquivos são nomeados alfanumericamente.
 
 ## Tempo de processamento
 

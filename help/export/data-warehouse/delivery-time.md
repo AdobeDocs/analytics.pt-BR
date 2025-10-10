@@ -39,4 +39,4 @@ Se você precisar desses tipos de relatórios em tempo hábil, considere as segu
 
 * **Analysis Workspace**: embora os itens de dimensão ilimitados não estejam disponíveis, ele inclui quase todos os outros casos de uso que o Data Warehouse oferece.
 * **Feed de dados**: pega todos os dados brutos em um conjunto de relatórios diariamente e os envia para um destino na nuvem. Em seguida, você pode importar os dados para seu próprio banco de dados e executar queries para obter os dados necessários.
-* **Solução de serviços de engenharia personalizados**: os Serviços de engenharia da Adobe podem fornecer uma solução personalizada para sua organização a um custo adicional. Entre em contato com a equipe de conta do Adobe para obter mais detalhes.
+* **Solução de serviços de engenharia personalizados**: os Serviços de engenharia da Adobe podem fornecer uma solução personalizada para sua organização a um custo adicional. Entre em contato com a equipe de conta da Adobe para obter mais detalhes.

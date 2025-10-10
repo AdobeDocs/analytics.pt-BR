@@ -30,7 +30,7 @@ ht-degree: 90%
 
 1. No formulário do [!UICONTROL Gerenciador de solicitações], selecione duas ou mais solicitações e, em seguida, clique em **[!UICONTROL Editar várias]**.
 
-   O formulário [!UICONTROL Editar várias solicitações] exibe colunas de informações:[!UICONTROL &#x200B; Por conjunto de relatórios], [!UICONTROL Por segmento], [!UICONTROL Por métrica], [!UICONTROL Por intervalo de datas e granularidade] e [!UICONTROL Por grupo].
+   O formulário [!UICONTROL Editar várias solicitações] exibe colunas de informações:[!UICONTROL  Por conjunto de relatórios], [!UICONTROL Por segmento], [!UICONTROL Por métrica], [!UICONTROL Por intervalo de datas e granularidade] e [!UICONTROL Por grupo].
 1. Para agrupar a exibição de solicitações, clique em qualquer das seguintes opções:
 
    * **Por conjunto de relatórios:** agrupa a exibição de solicitações por conjunto de relatórios.
@@ -49,4 +49,4 @@ ht-degree: 90%
 
 Veja um vídeo que mostra o processo:
 
-https://video.tv.adobe.com/v/40104/?quality=12&captions=por_br
+https://video.tv.adobe.com/v/25445/?quality=12

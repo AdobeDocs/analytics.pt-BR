@@ -14,7 +14,7 @@ ht-degree: 33%
 
 A [métrica](overview.md) de &#39;Eventos de página&#39; mostra o número de vezes que qualquer chamada de rastreamento de link foi feita. Essa métrica é útil para entender quais páginas têm o conteúdo mais envolvente. A medição dessa métrica é mais útil quando há a possibilidade de um visitante executar uma ação na página sem navegar até uma nova página.
 
-Por exemplo, em uma jornada típica de um site de comércio eletrônico, um visitante pode ter várias interações em uma única página. Uma implementação típica do Analytics tem essas interações configuradas como uma chamada de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)), enquanto uma chamada de exibição de página ([`t()`](/help/implement/vars/functions/t-method.md)) é reservada para o carregamento da página inicial. Esse método de implementação fornece um rastreamento de eventos aprimorado que fornece informações sobre quais interações ocorrem antes que um visitante continue sua jornada.
+Por exemplo, em uma jornada típica de um site de comércio eletrônico, um visitante pode ter várias interações em uma única página. Uma implementação típica do Analytics tem essas interações configuradas como uma chamada de rastreamento de link ([`tl()`](/help/implement/vars/functions/tl-method.md)), enquanto uma chamada de exibição de página ([`t()`](/help/implement/vars/functions/t-method.md)) é reservada para o carregamento da página inicial. Esse método de implementação fornece um rastreamento de eventos aprimorado que fornece à insight informações sobre quais interações ocorrem antes de um visitante continuar sua jornada.
 
 ## Como essa métrica é calculada
 

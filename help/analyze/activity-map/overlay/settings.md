@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Definir configurações do Activity Map
 
-O painel Configuração de Activity Map permite modificar as configurações e propriedades para todos os tipos de visualizações de sobreposição.
+O painel Configuração do Activity Map permite modificar as configurações e propriedades para todos os tipos de visualizações de sobreposição.
 
 **[!UICONTROL Sobreposição de Activity Map]** > **Mostrar configurações (ícone de engrenagem)** > **[!UICONTROL Configurações]**
 

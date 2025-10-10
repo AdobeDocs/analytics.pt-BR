@@ -1,6 +1,6 @@
 ---
 description: O nome do link clicado.
-title: Link para o Activity Map
+title: Link do Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Dimensions
 role: User, Admin
@@ -12,13 +12,13 @@ ht-degree: 8%
 
 ---
 
-# Link para o Activity Map
+# Link do Activity Map
 
-O &#39;Link de Activity Map&#39; [dimensão](overview.md) exibe os links mais populares que foram clicados. É possível usar essa dimensão para comparar quais links do site são mais usados, independentemente de onde os links foram clicados.
+O &#39;Link do Activity Map&#39; [dimensão](overview.md) exibe os links mais populares que foram clicados. É possível usar essa dimensão para comparar quais links do site são mais usados, independentemente de onde os links foram clicados.
 
 ## Preencher esta dimensão com dados
 
-Esta dimensão recupera dados da [Variável de dados de contexto](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`. Se sua implementação usar [Activity Map](/help/analyze/activity-map/overview.md), essa variável de dados de contexto coletará dados automaticamente quando os links forem clicados.
+Esta dimensão recupera dados da [Variável de dados de contexto](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`. Se sua implementação usa o [Activity Map](/help/analyze/activity-map/overview.md), esta variável de dados de contexto coleta dados automaticamente quando os links são clicados.
 
 Para um determinado link que foi clicado, o Activity Map pesquisa o seguinte (em ordem):
 
@@ -29,8 +29,8 @@ Para um determinado link que foi clicado, o Activity Map pesquisa o seguinte (em
 1. O atributo `src` para imagens
 1. O atributo `action` para formulários
 
-Se o elemento clicado não contiver nenhum dos critérios acima, o Activity Map não coletará dados para esse clique.
+Se o elemento clicado não contiver nenhum dos critérios acima, a Activity Map não coletará dados para esse clique.
 
 ## Itens de dimensão
 
-Os itens de Dimension incluem o texto do link ou outros atributos de link nos quais os visitantes clicam. A estrutura do site e a implementação da organização determinam os valores exatos coletados.
+Os itens do Dimension incluem o texto do link ou outros atributos de link nos quais os visitantes clicam. A estrutura do site e a implementação da organização determinam os valores exatos coletados.

@@ -13,13 +13,13 @@ ht-degree: 4%
 
 # Fim da vida útil do processamento completo de fontes de dados
 
-Historicamente, as fontes de dados de processamento completo permitiram que as organizações enviassem dados de nível de ocorrência para a Adobe Analytics. Esses dados foram processados da mesma forma que os dados coletados por meios tradicionais de coleta de dados, como o AppMeasurement. Em 2020, o Adobe lançou a [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), que executa as mesmas funções das fontes de dados de processamento completo, mas com recursos adicionais. Esta página fornece detalhes sobre a funcionalidade adicional fornecida pela API de inserção de dados em massa e descreve as diferenças nos formatos de arquivo.
+Historicamente, as fontes de dados de processamento completo permitiram que as organizações enviassem dados de nível de ocorrência para a Adobe Analytics. Esses dados eram processados da mesma forma que os dados coletados por meios tradicionais de coleta de dados, como o AppMeasurement. Em 2020, o Adobe lançou a [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), que executa as mesmas funções das fontes de dados de processamento completo, mas com recursos adicionais. Esta página fornece detalhes sobre a funcionalidade adicional fornecida pela API de inserção de dados em massa e descreve as diferenças nos formatos de arquivo.
 
 Em 25 de março de 2021, o Adobe impediu a criação de novas conexões de fontes de dados de processamento completo. Em 31 de janeiro de 2022, todos os serviços de dados de processamento completo foram desativados.
 
 ## Principais diferenças entre as fontes de dados de processamento completo e a API de inserção de dados em massa
 
-* A inserção de dados em massa permite enviar vários arquivos para processamento paralelo. Os Grupos de visitantes garantem a continuidade do visitante e a atribuição de eVar.
+* A inserção de dados em massa permite enviar vários arquivos para processamento paralelo. Os Grupos de visitantes garantem a continuidade do visitante e a atribuição do eVar.
 * A inserção de dados em massa tem recursos de validação de dados e tratamento de erros, removendo parte do trabalho administrativo de envio de dados de ocorrência.
 * A inserção de dados em massa é compatível com vários métodos de identificação de ID de visitante.
 * A inserção de dados em massa tem alguns campos obrigatórios adicionais: Uma coluna de identificação de visitante, um `pageName` (ou equivalente a link), `reportSuiteID`, `timestamp` e `userAgent`.
@@ -33,12 +33,12 @@ As seguintes variáveis foram introduzidas na inserção de dados em massa, que 
 
 * **`aamlh`**: dica de localização do Adobe Audience Manager.
 * **`contextData.key`**: [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md).
-* **`customerID`**: variáveis do serviço de ID de Experience Cloud. Inclui o `id`, `authState` e `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR) variáveis. Inclui `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
+* **`customerID`**: variáveis do serviço da Experience Cloud ID. Inclui o `id`, `authState` e `isMCSeed`.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variáveis. Inclui `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
 * **`ipaddress`**: o endereço IP do visitante.
 * **`language`**: A dimensão [Idioma](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Listar variáveis](/help/implement/vars/page-vars/list.md).
-* **`marketingCloudVisitorID`**: o ID do Experience Cloud do visitante.
+* **`marketingCloudVisitorID`**: a Experience Cloud ID do visitante.
 * **`tnta`**: carga de dados de destino usada em integrações do [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=pt-BR).
 * **`trackingServer`**: A variável [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
 * **`transactionID`**: A variável [`transactionID`](/help/implement/vars/page-vars/transactionid.md).

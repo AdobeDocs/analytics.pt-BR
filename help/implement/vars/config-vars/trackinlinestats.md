@@ -20,7 +20,7 @@ ht-degree: 28%
 
 O ClickMap é um recurso removido do Adobe Analytics que coleta dados sobre onde os visitantes clicam e no que clicam. O recurso foi substituído por [Activity Map](/help/analyze/activity-map/overview.md).
 
-Quando ativado, o AppMeasurement coleta informações sobre o link e envia esses dados na próxima solicitação de imagem. As informações de cada clique são armazenadas em um cookie rotulado como `s_sq`.
+Quando habilitado, o AppMeasurement coleta informações sobre o link e envia esses dados na próxima solicitação de imagem. As informações de cada clique são armazenadas em um cookie rotulado como `s_sq`.
 
 ## Ativar o ClickMap usando a extensão do Adobe Analytics
 

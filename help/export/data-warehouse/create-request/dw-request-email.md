@@ -10,7 +10,7 @@ ht-degree: 38%
 
 ---
 
-# Configurar um email de notificação para uma solicitação de Data Warehouse
+# Configurar um email de notificação para uma solicitação do Data Warehouse
 
 Há várias opções de configuração disponíveis ao criar uma solicitação do data warehouse. As informações a seguir descrevem como configurar um email de notificação para a solicitação.
 
@@ -22,7 +22,7 @@ Para configurar um email de notificação para uma solicitação do Data Warehou
 
    Para obter detalhes adicionais, consulte [Criar uma solicitação do data warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Na página Nova solicitação de Data Warehouse, selecione a guia [!UICONTROL **Email de notificação**].
+1. Na página Nova solicitação do Data Warehouse, selecione a guia [!UICONTROL **Email de notificação**].
 
    ![Guia Destino do relatório](assets/dw-notification-email.png)
 
@@ -35,6 +35,6 @@ Para configurar um email de notificação para uma solicitação do Data Warehou
 
    {style="table-layout:auto"}
 
-1. Selecione [!UICONTROL **Salvar solicitação**] para salvar a solicitação de relatório de Data Warehouse.
+1. Selecione [!UICONTROL **Salvar solicitação**] para salvar a solicitação de relatório do Data Warehouse.
 
    Agora é possível exportar dados para a conta e o local configurados.

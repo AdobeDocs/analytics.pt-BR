@@ -100,7 +100,7 @@ Baixe [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) ou r
 +++
 
 +++**Tipo de sistema operacional**
-Baixe o [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) ou referencie os cabeçalhos abaixo.
+Baixe [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) ou referencie os cabeçalhos abaixo.
 
 `os`
 `Operating System Type`

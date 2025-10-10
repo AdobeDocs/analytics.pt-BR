@@ -16,7 +16,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->Se você já implementou o Serviço de ID de visitante do Experience Cloud, o Período de carência não é aplicável e não deve ser ativado.
+>Se você já implementou o Serviço de ID de visitante da Experience Cloud, o Período de carência não é aplicável e não deve ser ativado.
 
 A migração do visitante é um processo no qual os cookies de ID do visitante (s_vi) são migrados de um domínio para outro.
 
@@ -54,7 +54,7 @@ A tabela a seguir lista as tarefas exigidas para a migração do visitante:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Mais de 6 horas depois da alteração de configuração</b>: atualize as variáveis <code> s.trackingServer</code> e <code> s.trackingServerSecure</code> no código JavaScript do Analytics para usar os novos servidores de coleta de dados. </p> </td> 
-   <td colname="col3"> <p>Depois de fazer essa alteração, use o <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR"> Experience Cloud Debugger</a> para verificar se a solicitação de imagem do Analytics vai para o servidor de coleção de dados atualizado. </p> </td> 
+   <td colname="col3"> <p>Depois de fazer essa alteração, use o <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home"> Experience Cloud Debugger</a> para verificar se a solicitação de imagem do Analytics vai para o servidor de coleção de dados atualizado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Depois de atualizar o código do Analytics</b>: teste o site para verificar se o redirecionamento do domínio de coleta dos dados anterior está ocorrendo. </p> </td> 
@@ -70,6 +70,6 @@ A tabela a seguir lista as tarefas exigidas para a migração do visitante:
 | Tarefa | Descrição |
 |--- |--- |
 | Para começar: entre em contato com o Atendimento ao cliente com os domínios que você deseja migrar e o período de migração que você deseja habilitar (30, 60 ou 90 dias). Certifique-se de incluir os domínios não seguros e seguros. | Crie uma lista com a sintaxe exata dos domínios para os quais você deseja migrar e dos quais deseja migrar.<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>Os nomes de host de migração são configurados no servidor de coleção de dados da Adobe. O Atendimento ao cliente informará quando a alteração ocorre para que você possa planejar a próxima etapa. |
-| Mais de 6 horas depois da alteração de configuração: atualize as variáveis `s.trackingServer` e `s.trackingServerSecure` no código JavaScript do Analytics para usar os novos servidores de coleta de dados. | Depois de fazer essa alteração, use o [Experience Cloud debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR) para verificar se a solicitação de imagem do Analytics vai para o servidor de coleta de dados atualizado. |
+| Mais de 6 horas depois da alteração de configuração: atualize as variáveis `s.trackingServer` e `s.trackingServerSecure` no código JavaScript do Analytics para usar os novos servidores de coleta de dados. | Depois de fazer essa alteração, use o [Experience Cloud debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home) para verificar se a solicitação de imagem do Analytics vai para o servidor de coleta de dados atualizado. |
 | Imediatamente após atualizar seu código do Analytics: teste seu site para verificar se o redirecionamento para o domínio de coleta de dados anterior está ocorrendo. | Use um [monitor de pacotes](../implement/validate/packet-monitor.md) para verificar se, quando você acessar o site pela primeira vez ou após apagar os cookies, é possível visualizar dois códigos de status HTTP 302 (redirecionar) antes do código do status HTTP 200 (OK). Em caso de falha de qualquer um dos redirecionamentos, entre em contato imediatamente com o Atendimento ao cliente para verificar se a migração está configurada corretamente. |
 | Para todo o período de migração: mantenha o registro DNS do nome de host anterior ativo. | O nome de host anterior deve ser resolvido através de DNS ou a migração do cookie não ocorrerá. |

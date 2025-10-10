@@ -6,7 +6,7 @@ exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 source-git-commit: 03502f42473791bec930cc688c0b7905acf12de6
 workflow-type: tm+mt
 source-wordcount: '1655'
-ht-degree: 64%
+ht-degree: 66%
 
 ---
 
@@ -24,7 +24,7 @@ Várias [!UICONTROL &#39;tempo gasto&#39;] [métricas](overview.md) e dimensões
 | [!UICONTROL Tempo gasto/usuário (Estado)] | Aproximadamente *Total de segundos gastos do aplicativo móvel/visitantes únicos do aplicativo móvel*<br> Representa a quantidade média de tempo que os visitantes do aplicativo móvel interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). **Observação**: esta métrica não pode ser calculada independentemente porque o denominador desta função é uma métrica interna. | Analysis Workspace |
 | [[!UICONTROL Tempo médio gasto no site] (Segundos)](average-time-on-site.md) | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não se limita apenas a médias de &quot;sites&quot;, como o nome sugere. Consulte a seção &quot;Como o tempo gasto é calculado&quot; para obter mais informações sobre as sequências.<br>**Observação**: esta métrica muito provavelmente será diferente do &quot;Tempo gasto por visita&quot; em nível de item de dimensão devido às diferenças no denominador do cálculo. | Analysis Workspace, Report Builder (mostrado em minutos) |
 | [[!UICONTROL Tempo médio no site]](average-time-on-site.md) | Esta é a mesma métrica que *Tempo médio no site (Segundos)*, exceto formatada como Tempo (`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL Tempo médio gasto na página] | Métrica descontinuada.<br> Em vez disso, o Adobe recomenda que você use [[!UICONTROL Tempo médio gasto no site]](average-time-on-site.md) se o tempo médio para um item de dimensão for necessário. | Report Builder (quando uma dimensão está na solicitação) |
+| [!UICONTROL Tempo médio gasto na página] | Métrica descontinuada.<br> Em vez disso, a Adobe recomenda que você use [[!UICONTROL Tempo médio gasto no site]](average-time-on-site.md) se o tempo médio para um item de dimensão for necessário. | Report Builder (quando uma dimensão está na solicitação) |
 
 ## Dimensões de tempo gasto
 
@@ -76,7 +76,7 @@ No exemplo abaixo, o termo de pesquisa &quot;classificados&quot; está associado
 
 +++
 
-+++Que métrica é apropriada para a dimensão de [!UICONTROL Tempo gasto na página - granular]?
++++Qual métrica é apropriada para a dimensão de [!UICONTROL Tempo gasto na página - granular]?
 
 Qualquer métrica. A dimensão mostra o tempo gasto na ocorrência exata em que o evento ocorreu. Um tempo gasto maior significa que um visitante permaneceu mais tempo na página (ocorrência) em que o evento ocorreu.
 
@@ -84,7 +84,7 @@ Qualquer métrica. A dimensão mostra o tempo gasto na ocorrência exata em que 
 
 +++
 
-+++Como o [!UICONTROL Tempo médio gasto no site] difere de [!UICONTROL Tempo gasto por visita]?
++++Qual a diferença entre o [!UICONTROL Tempo médio gasto no site] e o [!UICONTROL Tempo gasto por visita]?
 
 A diferença é o denominador na métrica:
 

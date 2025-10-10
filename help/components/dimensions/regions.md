@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Regiões
 
-A [dimensão](overview.md) de &quot;Regiões&quot; informa a região geográfica do visitante. É uma área geográfica menor do que um país e maior do que uma cidade. Em alguns países, uma região é um estado, ou município. Em outras áreas, é um país constituinte, departamento ou região metropolitana. O uso dessa dimensão é valioso se você quiser informações mais granulares que [países](countries.md), mas não tão granulares quanto [cidades](cities.md).
+A [dimensão](overview.md) de &quot;Regiões&quot; informa a região geográfica do visitante. É uma área geográfica menor do que um país e maior do que uma cidade. Em alguns países, uma região é um estado, província ou distrito. Em outras áreas, é um país constituinte, departamento ou região metropolitana. O uso dessa dimensão é valioso se você quiser informações mais granulares que [países](countries.md), mas não tão granulares quanto [cidades](cities.md).
 
 ## Preencher esta dimensão com dados
 

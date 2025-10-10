@@ -30,4 +30,4 @@ A Adobe mantém a largura do navegador para uma visita. Se a largura do navegado
 
 ## Itens de dimensão
 
-Os itens de Dimension incluem todas as larguras do navegador coletadas, classificadas em grupos predefinidos. Por exemplo, se a largura do navegador de uma ocorrência for `1280`, então ela será agrupada no item de dimensão `1200 to 1299`.
+Os itens do Dimension incluem todas as larguras do navegador coletadas, classificadas em grupos predefinidos. Por exemplo, se a largura do navegador de uma ocorrência for `1280`, então ela será agrupada no item de dimensão `1200 to 1299`.

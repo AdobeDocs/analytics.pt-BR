@@ -6,7 +6,7 @@ feature: Curate and Share
 source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -46,9 +46,9 @@ Quando estiver preparado para lidar com um evento, você poderá [se comunicar c
 
 Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisar e comunicar variações nos seus dados](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
-* **0:27**: Excluir dados usando a segmentação
+* **0:27**: excluir dados usando a segmentação
 * **2:55**: Comparar um evento a intervalos anteriores
-* **8:42**: Derivar dados usando métricas calculadas
+* **8:42**: derivar dados usando métricas calculadas
 * **11:46**: Comunicar o impacto aos usuários
 
 >[!ENDSHADEBOX]

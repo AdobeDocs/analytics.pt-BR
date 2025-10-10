@@ -1,5 +1,5 @@
 ---
-description: Etapas administrativas para ativar relatórios do AEM Assets no Analytics.
+description: Etapas administrativas para habilitar relatórios do AEM Assets no Analytics.
 title: Como criar relatórios do AEM Assets no Adobe Analytics
 feature: Report Suite Settings
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Relatórios do AEM Assets
 
-Etapas administrativas para ativar relatórios do AEM Assets no Analytics.
+Etapas administrativas para habilitar relatórios do AEM Assets no Analytics.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Conjunto de relatórios]** > **`<select report suite>`** > **[!UICONTROL Editar configurações]** > **[!UICONTROL AEM]** > **[!UICONTROL Relatórios do AEM Assets]**
 

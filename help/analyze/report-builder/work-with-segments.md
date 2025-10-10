@@ -65,7 +65,7 @@ Para editar segmentos usando o painel Edição rápida
 
 1. Clique em **[!UICONTROL Aplicar]** para salvar as alterações e retornar ao painel do hub.
 
-   Report Builder exibe uma mensagem para confirmar as alterações no segmento aplicado.
+   O Report Builder exibe uma mensagem para confirmar as alterações no segmento aplicado.
 
 ### Substituir um segmento
 

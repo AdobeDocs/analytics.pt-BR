@@ -1,6 +1,6 @@
 ---
 title: Check-outs
-description: O número de ocorrências em que um visitante iniciou o processo de finalização.
+description: O número de ocorrências em que um visitante iniciou o processo de check-out.
 feature: Metrics
 exl-id: 747f2244-efc6-473f-bc0c-a5898cc8a717
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f

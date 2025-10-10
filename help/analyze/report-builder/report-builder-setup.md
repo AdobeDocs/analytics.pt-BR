@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 68%
@@ -18,7 +19,7 @@ Você pode acessar rapidamente o Report Builder usando o menu Suplemento do Exce
 
 ## Requisitos
 
-O Report Builder para Adobe Analytics é suportado nos seguintes sistemas operacionais e navegadores da web.
+O Report Builder para Adobe Analytics é compatível com os seguintes sistemas operacionais e navegadores da Web.
 
 ### macOS
 
@@ -75,7 +76,7 @@ Entre em contato com a equipe de TI ou de segurança para solicitar aprovação 
 
 Depois de instalar o Suplemento Report Builder, o ícone de Report Builder é exibido na faixa de opções da guia Página inicial, do Excel.
 
-![O ícone de Report Builder no Excel](./assets/rb_app_icon.png)
+![O ícone do Report Builder no Excel](./assets/rb_app_icon.png)
 
 ## Fazer logon no Report Builder
 

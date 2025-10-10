@@ -6,7 +6,7 @@ feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
 source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1694'
 ht-degree: 31%
 
 ---
@@ -237,7 +237,7 @@ As 16 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de ass
 
 +++
 
-+++Blob do Azure
++++Azure Blob
 
 O data warehouse é compatível com destinos do Azure Blob. Requer um contêiner, uma conta e uma chave. A Amazon criptografa automaticamente os dados em repouso. Os dados são descriptografados automaticamente ao baixá-los. Consulte [Criar uma conta de armazenamento](https://docs.microsoft.com/pt-br/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nos documentos do Microsoft Azure para obter mais informações.
 

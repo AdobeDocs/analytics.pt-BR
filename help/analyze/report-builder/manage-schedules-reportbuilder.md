@@ -5,14 +5,15 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
+exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
+source-git-commit: 6ec04fcc250b2858987ac7d70255310be910386f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
 
 ---
 
-# Gerenciar pastas de trabalho agendadas
+# Gerenciar pastas de trabalho programadas
 
 Você pode agendar um compartilhamento de pasta de trabalho por email ou exportando para um destino de nuvem, conforme descrito nos seguintes artigos:
 
@@ -72,5 +73,3 @@ Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir quais co
    * Um ![AlertRed](/help/assets/icons/AlertRed.svg) indica que ocorreu um erro.
 
 Como alternativa, você pode selecionar ![Histórico](/help/assets/icons/History.svg) para uma ou mais pastas de trabalho selecionadas na guia **[!UICONTROL Pastas de Trabalho]**. Esta ação mostra a guia **[!UICONTROL Histórico]** com uma lista filtrada por sua seleção. Selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover um filtro.
-
-

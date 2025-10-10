@@ -1,6 +1,6 @@
 ---
 title: trackOffline
-description: Ative ou desative o rastreamento offline, o que altera a forma como o AppMeasurement coleta dados.
+description: Habilite ou desabilite o rastreamento offline, o que altera a forma como o AppMeasurement coleta dados.
 feature: Appmeasurement Implementation
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 role: Admin, Developer
@@ -19,9 +19,9 @@ A variável `trackOffline` determina se você deseja usar o rastreamento offline
 
 >[!WARNING]
 >
->Você deve configurar seu conjunto de relatórios para aceitar ocorrências com carimbo de data e hora antes de habilitar essa variável. Se um conjunto de relatórios não aceitar ocorrências com carimbo de data e hora e essa variável estiver ativada, esses dados serão perdidos e não poderão ser recuperados.
+>Você deve configurar seu conjunto de relatórios para aceitar ocorrências com carimbo de data e hora antes de habilitar essa variável. Se um conjunto de relatórios não aceitar ocorrências com carimbo de data e hora e essa variável estiver habilitada, esses dados serão perdidos e não poderão ser recuperados.
 
-Quando ativado, o AppMeasurement usa o seguinte processo para enviar dados para a Adobe:
+Quando habilitado, o AppMeasurement usa o seguinte processo para enviar dados para a Adobe:
 
 * Ao compilar uma solicitação de imagem, um parâmetro de string de consulta de carimbo de data e hora é incluído.
 * Se o dispositivo não conseguir acessar os servidores de coleta de dados da Adobe, a ocorrência será armazenada localmente no dispositivo.
@@ -39,7 +39,7 @@ Não há um campo dedicado na extensão do Adobe Analytics para o uso dessa vari
 
 ## s.trackOffline no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-A variável `s.trackOffline` é do tipo booliano e ativa ou desativa o rastreamento offline. O valor padrão é `false`. Defina esse valor como `true` se desejar ativar o rastreamento offline.
+A variável `s.trackOffline` é do tipo booliano e habilita ou desabilita o rastreamento offline. O valor padrão é `false`. Defina esse valor como `true` se desejar habilitar o rastreamento offline.
 
 ```js
 s.trackOffline = true;

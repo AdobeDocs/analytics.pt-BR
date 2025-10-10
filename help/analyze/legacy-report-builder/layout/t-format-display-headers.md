@@ -35,9 +35,9 @@ Você pode dar um nome ao seu relatório e configurar como exibir os cabeçalhos
 
    **Exibir cabeçalhos de linha e coluna:** Adiciona uma linha e uma coluna para exibir estes itens.
 
-   Na versão 3.11, você poderia exibir um cabeçalho para cada item. A versão 4 exibe todos esses itens ou nenhum deles. Se você criou uma solicitação na versão 3.11 e a abriu na versão 4.x, o Report Builder solicita na Etapa 2 que você atualize o intervalo por uma célula para itens cujo cabeçalho esteja faltando.
+   Na versão 3.11, você poderia exibir um cabeçalho para cada item. A versão 4 exibe todos esses itens ou nenhum deles. Se você tiver criado uma solicitação na versão 3.11 e abri-la na versão 4.x, o Report Builder solicitará na Etapa 2 a atualização do intervalo por uma célula para itens cujo cabeçalho esteja faltando.
 
-   **Alterar cabeçalhos para filtros automáticos do Excel:** Disponível somente se os cabeçalhos de linha e colunas são exibidos. Essa configuração cria um filtro automático do Excel e o anexa aos retornos de Report Builder de dados para essa solicitação.
+   **Alterar cabeçalhos para filtros automáticos do Excel:** Disponível somente se os cabeçalhos de linha e colunas são exibidos. Essa configuração cria um filtro automático do Excel e o anexa aos dados que o Report Builder retorna para essa solicitação.
 
    >[!NOTE]
    >

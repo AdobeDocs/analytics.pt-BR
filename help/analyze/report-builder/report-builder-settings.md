@@ -21,17 +21,17 @@ Para alterar as configurações do Report Builder
 
 1. Clique no ícone de **Configurações**.
 
-1. Faça alterações para Ativar o modo offline, selecione um Idioma ou ative as configurações do log de Solução de problemas.
+1. Faça alterações para Habilitar o modo offline, selecione um Idioma ou habilite as configurações do log de Solução de problemas.
 
 1. Clique em **Aplicar**.
 
-   ![configurações de Report Builder.](./assets/image38.png)
+   ![configurações do Report Builder.](./assets/image38.png)
 
 ## Modo offline
 
 Ao criar e editar um bloco de dados no modo off-line, os dados não são recuperados. Em vez disso, os dados de simulação são usados para que você possa criar e editar rapidamente um bloco de dados sem esperar a execução da solicitação. Quando você voltar a ficar online, o comando *Atualizar bloco de dados* ou o comando *Atualizar todos os blocos de dados* atualiza os blocos de dados criados com os dados reais.
 
-Para ativar o modo off-line
+Para habilitar o modo off-line
 
 1. Clique no ícone de **[!UICONTROL Configurações]**.
 
@@ -51,7 +51,7 @@ Para selecionar o idioma usado na interface do Report Builder
 
 1. Selecione um idioma no menu suspenso **[!UICONTROL Idioma]**.
 
-   Painel de intervalo de datas ![Report Builder mostrando a lista Idioma com inglês selecionado.](./assets/image39.png)
+   ![Painel de intervalo de datas do Report Builder mostrando a lista Idioma com inglês selecionado.](./assets/image39.png)
 
 1. Clique em **[!UICONTROL Aplicar].**
 

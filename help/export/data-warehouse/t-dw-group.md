@@ -1,6 +1,6 @@
 ---
 description: Saiba mais sobre as etapas que descrevem como os administradores podem habilitar o acesso aos relatórios do Data Warehouse para usuários.
-title: Gerenciar permissões de Data Warehouse
+title: Gerenciar permissões do Data Warehouse
 feature: Data Warehouse
 solution: Analytics
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333

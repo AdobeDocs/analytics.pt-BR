@@ -15,7 +15,7 @@ ht-degree: 58%
 
 Para configurar a transferência segura com FTP:
 
-1. (Condicional) Se você deseja configurar a transferência segura com servidores FTP Adobe:
+1. (Condicional) Se desejar configurar a transferência segura com os servidores FTP da Adobe:
 
    1. Solicite uma conta FTP hospedada pela Adobe (cota de 50 MB).
 

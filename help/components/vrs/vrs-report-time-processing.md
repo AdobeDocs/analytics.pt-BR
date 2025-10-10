@@ -26,13 +26,13 @@ Durante o processamento de dados do Analytics, os dados fluem do pipeline de col
 
 ![Pipeline de processamento de tempo do relatório](assets/google2.jpg)
 
-Esta arquitetura de processamento permite opções de relatórios muito mais flexíveis. Por exemplo, você pode alterar o período de tempo limite da visita para qualquer período desejado de forma não destrutiva e essas alterações são refletidas na persistência do eVar e nos contêineres do segmento para o período de geração de relatório completo. Além disso, você pode criar qualquer número de conjuntos de relatórios virtuais, cada um com diferentes opções de Processamento de tempo do relatório com base em um mesmo conjunto de relatórios base, sem alterar os dados no conjunto de relatórios base.
+Esta arquitetura de processamento permite opções de relatórios muito mais flexíveis. Por exemplo, você pode alterar o período de tempo limite da visita para qualquer período desejado de forma não destrutiva, e essas alterações são refletidas na persistência do eVar e nos contêineres de segmento para o período completo do relatório. Além disso, você pode criar qualquer número de conjuntos de relatórios virtuais, cada um com diferentes opções de Processamento de tempo do relatório com base em um mesmo conjunto de relatórios base, sem alterar os dados no conjunto de relatórios base.
 
 O [!UICONTROL Processamento de tempo do relatório] também permite que o Analytics evite que ocorrências em segundo plano iniciem novas visitas e que o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR) inicie uma nova visita sempre que um evento de inicialização de aplicativo for acionado.
 
 ## Opções de configuração
 
-As seguintes opções de configuração estão disponíveis atualmente para conjuntos de relatórios virtuais com o Processamento de tempo do relatório ativado:
+As seguintes opções de configuração estão disponíveis atualmente para conjuntos de relatórios virtuais com o Processamento de tempo do relatório habilitado:
 
 * **[!UICONTROL Tempo limite de visita]:** a configuração de tempo limite de visita define a quantidade de inatividade que um visitante único deve ter antes que uma nova visita seja iniciada automaticamente. O padrão é 30 minutos. Por exemplo, se o tempo limite de visita for definido para 15 minutos, um novo grupo de visitas será criado para cada sequência de ocorrências coletadas, separadas por 15 minutos de inatividade. Essa configuração afeta não apenas a sua visita, mas também a forma como os contêineres do segmento de visitas são avaliados e a lógica de expiração de visita para todas as eVars que expiram na visita. Diminuir o tempo limite de visita provavelmente aumentará o número total de visitas em seus relatórios, ao passo que aumentar o tempo limite provavelmente diminuirá o número total de visitas em seus relatórios.
 * **[!UICONTROL Configurações de visita de aplicativos móveis]:** para conjuntos de relatórios que contenham dados gerados por aplicativos móveis por meio dos [SDKs móveis da Adobe Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR), estão disponíveis configurações de visita adicionais. Essas configurações não são destrutivas e afetam somente as ocorrências que foram coletadas por meio dos SDKs móveis. Essas configurações não têm impacto nos dados coletados fora do SDK móvel.
@@ -58,7 +58,7 @@ Além disso, o Processamento de tempo do relatório somente processa os dados pr
 As seguintes dimensões e métricas não são compatíveis com o Processamento de tempo do relatório:
 
 * **Analytics for Target**
-* **Analytics para dimensões/métricas do Advertising Cloud**
+* **Dimensões/métricas do Analytics para Advertising Cloud**
 * **eVars do contador**
 * [**Dias Antes da Primeira Compra**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Dias desde a última compra**](/help/components/dimensions/days-since-last-purchase.md)
@@ -77,7 +77,7 @@ As seguintes dimensões e métricas não são compatíveis com o Processamento d
 
 Veja abaixo uma lista das dimensões e métricas afetadas, dependendo das configurações de Processamento de tempo do relatório selecionadas:
 
-* Se &quot;Impedir ocorrências em segundo plano de iniciar uma nova visita&quot; estiver ativado, as seguintes alterações ocorrerão. Consulte [Sessões sensíveis ao contexto](vrs-mobile-visit-processing.md) para obter mais informações.
+* Se &quot;Impedir ocorrências em segundo plano de iniciar uma nova visita&quot; estiver habilitado, as seguintes alterações ocorrerão. Consulte [Sessões sensíveis ao contexto](vrs-mobile-visit-processing.md) para obter mais informações.
    * [**Rejeições**](/help/components/metrics/bounces.md) / [**Taxa de Rejeição:**](/help/components/metrics/bounce-rate.md) ocorrências em segundo plano que não são seguidas por uma ocorrência em primeiro plano não são consideradas uma rejeição e não contribuem para a taxa de rejeição.
    * [**Tempo gasto em segundos por visita:**](/help/components/metrics/time-spent-per-visit.md) somente visitas que incluem ocorrências em primeiro plano contribuem para essa métrica.
    * **Tempo gasto por visita:** somente visitas que incluem ocorrências em primeiro plano contribuem para essa métrica.
@@ -87,7 +87,7 @@ Veja abaixo uma lista das dimensões e métricas afetadas, dependendo das config
 * [**Visitas:**](/help/components/metrics/visits.md) as visitas refletem as configurações do conjunto de relatórios virtual, que podem ser diferentes do conjunto de relatório base.
 * **Eventos serializados com IDs de evento:** os eventos que usam Serialização de eventos com uma ID de evento só são desduplicados para eventos que ocorrem dentro do intervalo de datas do relatório para um visitante. Esses eventos não são desduplicados em todas as datas ou visitantes globalmente, devido à janela de datas Processamento de tempo do relatório.
 * **Compras** / [**Receita**](/help/components/metrics/revenue.md) / [**Pedidos**](/help/components/metrics/orders.md) / [**Unidades:**](/help/components/metrics/units.md) quando a ID de compra é usada, essas métricas são apenas desduplicadas para as IDs de compra duplicadas que ocorrem dentro do intervalo de datas do relatório para um visitante, em vez de em todas as datas ou visitantes globalmente, devido à janela de datas do Processamento de tempo de relatório.
-* [**eVars que não sejam de merchandising**](/help/components/dimensions/evar.md) / **eVars reservadas:** Os valores definidos em um eVar persistem apenas se o valor tiver sido definido dentro do intervalo de datas do relatório devido à janela de datas do Processamento de tempo de relatório. Além disso, as expirações baseadas em tempo podem expirar uma hora antes ou depois se a persistência abranger uma mudança de horário de verão.
+* [**eVars que não sejam de merchandising**](/help/components/dimensions/evar.md) / **eVars reservadas:** Os valores definidos em uma eVar persistem apenas se o valor tiver sido definido dentro do intervalo de datas do relatório devido à janela de datas do Processamento de tempo de relatório. Além disso, as expirações baseadas em tempo podem expirar uma hora antes ou depois se a persistência abranger uma mudança de horário de verão.
 * [**eVars de merchandising**](/help/components/dimensions/evar-merchandising.md) / **eVars reservadas:** Consulte acima. Além disso, para a sintaxe de conversão, onde a vinculação é definida como “qualquer evento”, é usado “qualquer ocorrência” no lugar disso.
 * [**Tipo de ocorrência:**](/help/components/dimensions/hit-type.md) essa dimensão especifica se uma ocorrência está em primeiro ou em segundo plano.
-* **Dimension com (tráfego baixo) ou &quot;Únicos excedidos&quot;:** O item de linha (tráfego baixo) é determinado de forma um pouco diferente ao usar o Processamento de tempo de relatório, e não há garantia de correspondência com o que é observado nos relatórios no Conjunto de relatórios base. Não há garantias de que os itens de linha de Dimension que não fazem parte do Tráfego baixo representem 100% dos dados desse item de linha. Essas diferenças podem se tornar mais pronunciadas quanto maior o número de valores únicos existentes em uma dimensão.
+* **Dimensões com (tráfego baixo) ou &quot;Únicos excedidos&quot;:** o item de linha (tráfego baixo) é determinado de forma um pouco diferente ao usar o Processamento de tempo de relatório, e não há garantia de correspondência com o que é observado nos relatórios no Conjunto de relatórios base. Não há garantias de que os itens de linha do Dimension que não fazem parte do Tráfego baixo representem 100% dos dados desse item de linha. Essas diferenças podem se tornar mais pronunciadas quanto maior o número de valores únicos existentes em uma dimensão.

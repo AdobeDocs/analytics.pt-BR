@@ -35,7 +35,7 @@ Embora seja de certa forma incomum em relatórios, “Outros” pode ocorrer em 
 “Desconhecido” pode ocorrer sob diversas circunstâncias:
 
 * **Ocorrências que não são de navegador na visualização dos relatórios de Tecnologia:** se uma biblioteca do AppMeasurement não puder determinar se um recurso é compatível, &quot;Desconhecido&quot; será exibido no relatório.
-* **Uso de segmentos onde os componentes não estão acessíveis:** verifique se as variáveis usadas em um segmento estão ativadas e se os usuários podem acessá-las. Se um usuário não tiver acesso a um componente de segmento, ou se uma variável estiver desativada, “Desconhecido” será exibido.
+* **Uso de segmentos onde os componentes não estão acessíveis:** verifique se as variáveis usadas em um segmento estão habilitadas e se os usuários podem acessá-las. Se um usuário não tiver acesso a um componente de segmento, ou se uma variável estiver desativada, “Desconhecido” será exibido.
 
 ## Filtragem desses valores em relatórios {#filter}
 

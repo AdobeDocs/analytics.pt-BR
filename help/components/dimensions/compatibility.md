@@ -45,7 +45,7 @@ Esta página lista [dimensões](overview.md) compatíveis com seus respectivos r
 | [Link de saída](exit-link.md) | `exitlink` |
 | [Canal de Primeiro Contato](first-touch-channel.md) | `firsttouchchannel` |
 | [Detalhes do canal de primeiro contato](first-touch-detail.md) | `firsttouchchanneldetail` |
-| [Java ativado](java-enabled.md) | `javaenabled` |
+| [Java habilitado](java-enabled.md) | `javaenabled` |
 | [Idioma](language.md) | `language` |
 | [Canal de Último Contato](last-touch-channel.md) | `lasttouchchannel` |
 | [Detalhes do Canal de Último Contato](last-touch-detail.md) | `lasttouchchanneldetail` |

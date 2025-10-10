@@ -1,5 +1,5 @@
 ---
-description: Todos os relatórios marcados e relatórios de painel agora são listados como dimensões na Etapa 1 do assistente de solicitações e podem ser importados como solicitações Report Builder.
+description: Todos os relatórios marcados e relatórios de painel agora são listados como dimensões na Etapa 1 do assistente de solicitações e podem ser importados como solicitações do Report Builder.
 title: Importar relatórios marcados e reportlets de painel
 feature: Report Builder
 role: User, Admin
@@ -15,7 +15,7 @@ ht-degree: 72%
 
 {{legacy-arb}}
 
-Todos os relatórios marcados e relatórios de painel agora são listados como dimensões na Etapa 1 do assistente de solicitações e podem ser importados como solicitações Report Builder.
+Todos os relatórios marcados e relatórios de painel agora são listados como dimensões na Etapa 1 do assistente de solicitações e podem ser importados como solicitações do Report Builder.
 
 Ao selecionar um relatório marcado, o Assistente de solicitação preenche todas as dimensões e métricas que definem esse relatório marcado. O intervalo de datas, a granularidade e o segmento selecionado também são atualizados com base no marcador selecionado.
 

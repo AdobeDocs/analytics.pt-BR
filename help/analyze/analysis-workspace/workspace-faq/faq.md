@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Consulte [Otimizar o desempenho](/help/analyze/analysis-workspace/workspace-faq/
 
 +++Como os dados entram em seu projeto do Analysis Workspace?
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dados no Analysis Workspace](https://video.tv.adobe.com/v/33848?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dados no Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 +++
 

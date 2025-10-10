@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 85%
+source-wordcount: '712'
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,7 @@ Se um visitante executar qualquer uma dessas ações, uma nova visita se inicia:
 Se um visitante executar qualquer uma dessas ações, uma nova visita **não** será iniciada, contanto que haja menos de 30 minutos entre ocorrências consecutivas:
 
 * Fecha o navegador e, em seguida, acessa o site novamente
-* Reinicializa o computador, abre o mesmo navegador e acessa o site novamente
+* Reinicia o computador, abre o mesmo navegador e acessa o site novamente
 * Transição para uma rede diferente, como desconectar de uma docking station de rede com fio para uma rede sem fio
 * Navega pelo site em várias guias. Se um visitante alternar entre guias, cada ocorrência contará como parte da mesma visita.
 
@@ -50,7 +50,7 @@ Se um visitante executar qualquer uma dessas ações, uma nova visita **não** s
 
 ## Visitas que abrangem um limite de data
 
-Uma visita conta para cada período envolvido. Por exemplo, se você tiver um visitante que começa a navegar no seu site na segunda-feira às 11h45, em seguida, envia sua última solicitação de imagem na terça-feira às 12h10, você verá uma visita atribuída tanto à segunda quanto à terça-feira. No entanto, a métrica de visita total é desduplicada, mostrando uma única visita para o intervalo de datas do projeto.
+Uma visita conta para cada período envolvido. Por exemplo, se você tiver um visitante que começa a navegar no seu site na segunda-feira às 23h00, em seguida, envia sua última solicitação de imagem na terça-feira às 12h10, você verá uma visita atribuída tanto à segunda quanto à terça-feira. :45:10 No entanto, a métrica de visita total é desduplicada, mostrando uma única visita para o intervalo de datas do projeto.
 
 ## Visitas em uma dimensão em relação ao total de visita
 

@@ -22,7 +22,7 @@ Como o Adobe Analytics usa uma biblioteca JavaScript para compilar e enviar uma 
 A Adobe criou dois métodos para implementar o Adobe Analytics em páginas que usam o AMP. Ambos usam a tag HTML `<amp-analytics>`. Consulte [amp-analytics](https://amp.dev/pt_br/documentation/components/amp-analytics) na documentação da AMP para obter mais informações.
 
 * **Usar o `"adobeanalytics"` modelo**: construir a solicitação do Analytics diretamente na página
-* **Usar o `"analytics_nativeConfig"` modelo**: usar um iframe que contenha o mesmo código de AppMeasurement implantado no site normal
+* **Usar o `"analytics_nativeConfig"` modelo**: usar um iframe que contenha o mesmo código AppMeasurement implantado no site normal
 
 A tabela a seguir compara estes dois métodos:
 

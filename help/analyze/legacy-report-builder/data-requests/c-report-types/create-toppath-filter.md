@@ -17,7 +17,7 @@ ht-degree: 62%
 
 Descreve como criar relatórios de caminho com filtros predefinidos.
 
-O Report Builder não oferece relatórios de caminho como relatórios independentes, mas você pode criá-los por meio dos menus de contexto **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Caminho]**. Os relatórios a seguir estão disponíveis:
+A Report Builder não oferece relatórios de caminho como relatórios independentes, mas você pode criá-los por meio dos menus de contexto **[!UICONTROL Adicionar solicitação dependente]** > **[!UICONTROL Caminho]**. Os relatórios a seguir estão disponíveis:
 
 * Caminho > Fallout da página
 * Caminho > Caminho de entrada

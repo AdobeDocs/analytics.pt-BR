@@ -20,9 +20,9 @@ Informações de ajuda para entender a função dos botões na barra de ferramen
 
 Após instalar o Report Builder e iniciar o Excel, clique em **[!UICONTROL Suplementos]**.
 
-![ícones da barra de ferramentas do Report Builder](assets/report_builder_toolbar.png)
+![Ícones da barra de ferramentas do Report Builder](assets/report_builder_toolbar.png)
 
-**Entrar:** Exibe o formulário [!UICONTROL Logon] para que você possa entrar com suas credenciais ou como um usuário diferente. Ele também exibe o nome da sua empresa após o logon. Consulte [Entrar Com Report Builder](/help/analyze/legacy-report-builder/setup/login.md).
+**Entrar:** Exibe o formulário [!UICONTROL Logon] para que você possa entrar com suas credenciais ou como um usuário diferente. Ele também exibe o nome da sua empresa após o logon. Consulte [Logon no Report Builder](/help/analyze/legacy-report-builder/setup/login.md).
 
 **Criar:** Inicia o [!UICONTROL Assistente de solicitações]. Se você não tiver feito logon, será solicitado a fazê-lo. Consulte [Solicitações de Dados](/help/analyze/legacy-report-builder/data-requests/data-requests.md).
 
@@ -34,7 +34,7 @@ Após instalar o Report Builder e iniciar o Excel, clique em **[!UICONTROL Suple
 
 **Agendar:** Permite agendar relatórios para envio de acordo com a hora e o formato de arquivo que você define. Consulte [Agendar solicitações de relatório](/help/analyze/legacy-report-builder/schedule-report-requests.md).
 
-**Biblioteca:** Inicia a [!UICONTROL Biblioteca de Pastas de Trabalho] para que você possa carregar uma pasta de trabalho do Excel Report Builder que deseja compartilhar. Também é possível baixar e editar pastas de trabalho compartilhadas. Consulte [Usar a Biblioteca de pastas de trabalho](/help/analyze/legacy-report-builder/workbook-library/t-upload-a-workbook.md).
+**Biblioteca:** Inicia a [!UICONTROL Biblioteca de Pastas de Trabalho] para que você possa carregar uma pasta de trabalho do Report Builder Excel que deseja compartilhar. Também é possível baixar e editar pastas de trabalho compartilhadas. Consulte [Usar a Biblioteca de pastas de trabalho](/help/analyze/legacy-report-builder/workbook-library/t-upload-a-workbook.md).
 
 **Opções:** Permite especificar se você deseja ser perguntado quanto à **[!UICONTROL Data de início]** (Agora) ao atualizar solicitações, e permite ativar o registro em log para fins de solução de problemas. Consulte [Opções](/help/analyze/legacy-report-builder/options.md).
 

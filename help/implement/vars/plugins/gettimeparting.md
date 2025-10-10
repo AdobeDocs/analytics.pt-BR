@@ -154,7 +154,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 ### 5.0 (17 de abril de 2018)
 
 * Versão pontual (recompilada, menor tamanho de código)
-* Foi removida a necessidade do parâmetro `tpDST`, já que as datas de início/término do horário de verão agora são detectadas automaticamente
+* Foi removida a necessidade do parâmetro `tpDST`, já que as datas inicial/final do horário de verão agora são detectadas automaticamente
 
 >[!CAUTION]
 >

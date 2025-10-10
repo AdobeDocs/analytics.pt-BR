@@ -21,7 +21,7 @@ O depurador de projetos ajuda você e o Suporte da Adobe a solucionar problemas 
 >Para usar o depurador, você deve ter acesso de **Editar** ou **Copiar** ao projeto.
 >
 
-## Ativar o depurador
+## Habilitar o depurador
 
 >[!IMPORTANT]
 >

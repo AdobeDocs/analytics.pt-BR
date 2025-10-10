@@ -16,7 +16,7 @@ A [dimensão](overview.md) de &#39;Suporte a cookies&#39; informa se o navegador
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão coleta dados da [`k`sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement tenta definir um cookie chamado `s_cc`, e então detecta se o cookie existe. O resultado é o valor do parâmetro da sequência de consulta `Y` (se o navegador aceitar e tiver cookies ativados) ou `N` (se o navegador tiver cookies desativados). Se você utilizar o AppMeasurement (por meio de tags na Adobe Experience Platform ), essa dimensão funcionará automaticamente. Se você utilizar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), inclua o `k` parâmetro da sequência de consulta em cada ocorrência com um valor de `Y` ou `N`.
+Essa dimensão coleta dados da [`k`sequência de consulta](/help/implement/validate/query-parameters.md) em solicitações de imagem. O AppMeasurement tenta definir um cookie chamado `s_cc`, e então detecta se o cookie existe. O resultado é o valor do parâmetro da sequência de consulta `Y` (se o navegador aceitar e tiver cookies habilitados) ou `N` (se o navegador tiver cookies desabilitados). Se você utilizar o AppMeasurement (por meio de tags na Adobe Experience Platform ), essa dimensão funcionará automaticamente. Se você utilizar um método de coleta de dados fora do AppMeasurement (por exemplo, por meio da API), inclua o `k` parâmetro da sequência de consulta em cada ocorrência com um valor de `Y` ou `N`.
 
 ## Itens de dimensão
 

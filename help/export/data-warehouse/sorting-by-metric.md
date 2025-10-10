@@ -1,5 +1,5 @@
 ---
-description: Saiba como a classificação por métrica facilita a interpretação e a comparação dos relatórios de Data Warehouse com outras exibições de relatórios de detalhamento do Analytics.
+description: Saiba como a classificação por métrica facilita a interpretação e a comparação dos relatórios do Data Warehouse com outras exibições de relatórios de detalhamento do Analytics.
 title: Classificar por métrica
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b

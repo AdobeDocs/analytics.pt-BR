@@ -63,10 +63,10 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 A função `getTimeToComplete` usa os seguintes argumentos:
 
-* **`sos`** (opcional, string): defina como `"start"` quando quiser iniciar o cronômetro. Defina como `"stop"` quando quiser parar o cronômetro. O padrão é `"start"`.
+* **`sos`** (opcional, string): defina como `"start"` quando quiser iniciar o temporizador. Defina como `"stop"` quando quiser parar o temporizador. O padrão é `"start"`.
 * **`cn`** (opcional, string): o nome do cookie que armazenará o tempo inicial. O padrão é `"s_gttc"`.
-* **`exp`** (opcional, número inteiro): o número de segundos, horas ou dias (dependendo do argumento `tp` de separação de tempo) em que o cookie (e o cronômetro) expira. O padrão é 30 minutos.
-* **`tp`** (opcional, string): a string de separação de tempo em que o cookie (e o cronômetro) expira, usada com o argumento `exp`. Defina como “d” para dias, “h” para horas ou “s” para segundos. Se isso não for definido, a expiração do cookie (e do cronômetro) é de 30 minutos, independentemente do valor do argumento `exp` estar definido.
+* **`exp`** (opcional, número inteiro): o número de segundos, horas ou dias (dependendo do argumento `tp` de separação de tempo) em que o cookie (e o temporizador) expira. O padrão é 30 minutos.
+* **`tp`** (opcional, string): a string de separação de tempo em que o cookie (e o temporizador) expira, usada com o argumento `exp`. Defina como “d” para dias, “h” para horas ou “s” para segundos. Se isso não for definido, a expiração do cookie (e do temporizador) é de 30 minutos, independentemente do valor do argumento `exp` estar definido.
 
 Chamar essa função retorna uma string que contém o número de dias, horas, minutos e/ou segundos decorridos entre a ação `"start"` e a ação `"stop"`.
 

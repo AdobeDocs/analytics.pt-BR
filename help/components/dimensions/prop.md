@@ -36,7 +36,7 @@ Como as props contêm strings personalizadas na implementação, sua organizaç�
 
 As props, por padrão, não diferenciam maiúsculas de minúsculas. Se você enviar o mesmo valor em letra maiúscula ou minúscula (por exemplo, `"DOG"` e `"Dog"`), o Analysis Workspace os agrupará no mesmo item de dimensão. É utilizada a forma do primeiro valor observado no início do mês do relatórios. O Data Warehouse mostra o primeiro valor encontrado durante o período de solicitação.
 
-É possível fazer com que qualquer prop diferencie maiúsculas e minúsculas. Você também pode desativar a diferenciação entre maiúsculas e minúsculas para qualquer prop depois que ela estiver ativada. Entre em contato com o Atendimento ao cliente da Adobe com a ID do conjunto de relatórios e as variáveis desejadas para alterar a diferenciação entre maiúsculas e minúsculas.
+É possível fazer com que qualquer prop diferencie maiúsculas e minúsculas. Você também pode desabilitar a diferenciação entre maiúsculas e minúsculas para qualquer prop depois que ela estiver habilitada. Entre em contato com o Atendimento ao cliente da Adobe com a ID do conjunto de relatórios e as variáveis desejadas para alterar a diferenciação entre maiúsculas e minúsculas.
 
 >[!WARNING]
 >
@@ -48,6 +48,6 @@ A Adobe recomenda usar eVars na maioria dos casos. As exceções a essa declara�
 
 * Você pode usar props em relatórios em tempo real. As eVars levam pelo menos 30 minutos para serem exibidas no relatórios.
 * Props podem se tornar propriedades de lista, que aceitam vários valores na mesma ocorrência. Variáveis de lista são variáveis separadas e há apenas três variáveis de lista disponíveis.
-* Quando você ativa a definição de caminho em uma prop, as dimensões [Entrada](entry-dimensions.md) e [Saída](exit-dimensions.md) ficam disponíveis imediatamente. Se quiser dimensões de entrada e saída para eVars, crie um segmento manualmente.
+* Quando você habilita a definição de caminho em uma prop, as dimensões [Entrada](entry-dimensions.md) e [Saída](exit-dimensions.md) ficam disponíveis imediatamente. Se quiser dimensões de entrada e saída para eVars, crie um segmento manualmente.
 
 Consulte [eVar](evar.md) para obter mais comparações entre props e eVars.

@@ -108,6 +108,6 @@ Você também pode enviar a pasta de trabalho apenas uma vez.
 
 1. Clique em **Enviar agora**.
 
-## Gerenciar pastas de trabalho agendadas
+## Gerenciar pastas de trabalho programadas
 
 Para obter informações sobre como gerenciar pastas de trabalho já agendadas, consulte [Gerenciar pastas de trabalho agendadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

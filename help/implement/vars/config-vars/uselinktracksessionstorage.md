@@ -13,7 +13,7 @@ ht-degree: 86%
 
 # useLinkTrackSessionStorage
 
-Se sua organização usar o rastreamento de link, o AppMeasurement usará o cookie `s_sq` para transmitir informações entre as ocorrências. Algumas configurações de site entram em conflito com este cookie. Se você quiser usar o armazenamento de sessão do navegador para rastreamento de link e dados do Activity Map em vez de um cookie, ative essa variável.
+Se sua organização usar o rastreamento de link, o AppMeasurement usará o cookie `s_sq` para transmitir informações entre as ocorrências. Algumas configurações de site entram em conflito com este cookie. Se você quiser usar o armazenamento de sessão do navegador para rastreamento de link e dados do Activity Map em vez de um cookie, habilite essa variável.
 
 O uso do armazenamento de sessão de um navegador para o rastreamento de link apresenta várias limitações:
 

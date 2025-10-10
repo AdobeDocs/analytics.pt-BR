@@ -13,13 +13,13 @@ ht-degree: 62%
 
 # useBeacon
 
-A maioria dos navegadores modernos inclui o método nativo `navigator.sendBeacon()`. Ele envia de forma assíncrona uma pequena quantidade de dados por HTTP para um servidor web. O AppMeasurement pode usar o método `navigator.sendBeacon()` se a variável `useBeacon` estiver ativada. É útil para links de saída e outras situações nas quais você deseja enviar informações antes que a página seja descarregada.
+A maioria dos navegadores modernos inclui o método nativo `navigator.sendBeacon()`. Ele envia de forma assíncrona uma pequena quantidade de dados por HTTP para um servidor web. O AppMeasurement pode usar o método `navigator.sendBeacon()` se a variável `useBeacon` estiver habilitada. É útil para links de saída e outras situações nas quais você deseja enviar informações antes que a página seja descarregada.
 
-Se `useBeacon` estiver ativado, a próxima ocorrência enviada para a Adobe usará o método `navigator.sendBeacon()` do navegador em vez de uma solicitação de imagem `GET` padrão. Essa variável se aplica às solicitações de imagem [`s.t()`](../functions/t-method.md) e [`s.tl()`](../functions/tl-method.md). Ela requer o AppMeasurement versão 2.17.0 ou superior.
+Se `useBeacon` estiver habilitado, a próxima ocorrência enviada para a Adobe usará o método `navigator.sendBeacon()` do navegador em vez de uma solicitação de imagem `GET` padrão. Essa variável se aplica às solicitações de imagem [`s.t()`](../functions/t-method.md) e [`s.tl()`](../functions/tl-method.md). Ela requer o AppMeasurement versão 2.17.0 ou superior.
 
 >[!TIP]
 >
->O AppMeasurement ativa `useBeacon` automaticamente para solicitações de imagem de link de saída.
+>O AppMeasurement habilita `useBeacon` automaticamente para solicitações de imagem de link de saída.
 
 A variável `useBeacon` é ignorada quando o visitante usa um navegador sem suporte a `navigator.sendBeacon()`. O uso dessa variável exige o AppMeasurement 2.16.0 ou posterior.
 
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-Consulte [Usando a API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#using-the-sendbeacon-api) na documentação do Web SDK para obter mais informações.
+Consulte [Usando a API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) na documentação do Web SDK para obter mais informações.
 
 ## Usar beacon usando a extensão do Adobe Analytics
 

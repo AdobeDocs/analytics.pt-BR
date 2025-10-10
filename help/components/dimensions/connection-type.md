@@ -28,7 +28,7 @@ Essa dimensão usa uma combinação da [`ct` sequência de consulta](/help/imple
 
 Os itens de dimensão incluem `LAN/Wifi`, `Mobile Carrier`, `Modem` e `Not Specified`.
 
-* **`LAN/Wifi`**: O visitante se conectou à Internet através de uma linha fixa ou ponto de conexão Wi-Fi.
+* **`LAN/Wifi`**: O visitante se conectou à Internet através de uma linha fixa ou ponto de acesso Wi-Fi.
 * **`Mobile Carrier`**: o visitante se conectou à Internet por meio de uma operadora de celular.
 * **`Modem`**: O visitante se conectou à Internet por meio de um modem em um navegador Internet Explorer não compatível.
 * **`Not Specified`**: a ocorrência não tinha um tipo de conexão.

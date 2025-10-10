@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ As informações a seguir instruem a equipe de curadoria de dados do Adobe Analy
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Criador de cartões de pontuação móveis](https://video.tv.adobe.com/v/38149?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Criador de cartões de pontuação móveis](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ Um cartão de pontuação do Adobe Analytics exibe as principais visualizações
 
 ![Exemplo de scorecard](assets/intro_scorecard.png)
 
-Ao realizar a curadoria deste cartão de pontuação, é possível usar o criador de cartões de pontuação para configurar quais blocos serão exibidos no cartão para o consumidor executivo. Você também configura como as exibições detalhadas ou os detalhamentos podem ser ajustados ao tocar nos blocos. A interface do criador de cartões de pontuação é mostrada abaixo:
+Ao realizar a curadoria deste cartão de pontuação, é possível usar o criador de cartões de pontuação para configurar quais blocos serão exibidos no cartão para o consumidor executivo. Você também configura como as exibições detalhadas ou os detalhamentos podem ser ajustados quando os blocos forem tocados. A interface do criador de cartões de pontuação é mostrada abaixo:
 
 ![Criador de cartões de pontuação](assets/scorecard_builder.png)
 
@@ -130,7 +130,7 @@ A configuração é *on* por padrão. Desmarque a opção se não quiser exibir 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizações](https://video.tv.adobe.com/v/3445771?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizações](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -201,12 +201,12 @@ Cada dimensão adicionada ao slide de detalhes será exibida em uma lista suspen
 
 ## Personalizar slides de detalhes {#customize-detail-slide}
 
-Os slides de detalhes personalizados permitem ter ainda mais controle sobre quais informações você compartilha com seu público.
+Os slides de detalhes personalizados permitem ter ainda mais controle sobre quais informações você compartilha com seu público-alvo.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Exibições de detalhes personalizadas](https://video.tv.adobe.com/v/3417879?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Exibições de detalhes personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -361,17 +361,17 @@ Para compartilhar o cartão de pontuação com um usuário executivo:
 
 ![Compartilhar_Scorecards](assets/new_share.png)
 
-Depois de compartilhar um cartão de pontuação, os recipients podem acessá-lo nos painéis do Analytics. Se você fizer alterações subsequentes no cartão de pontuação usando o criador de cartões de pontuação, elas serão atualizadas automaticamente no cartão compartilhado. Os usuários executivos verão as alterações depois de atualizar o cartão de pontuação no aplicativo.
+Depois de compartilhar um cartão de pontuação, os recipients podem acessá-lo nos painéis do Analytics. Se você fizer alterações subsequentes no cartão de pontuação no criador de cartões de pontuação, elas serão atualizadas automaticamente no cartão de pontuação compartilhado. Os usuários executivos verão as alterações após atualizar o cartão de pontuação no aplicativo.
 
-Se você atualizar o cartão de pontuação adicionando novos componentes, é recomendado compartilhar o cartão de pontuação novamente (e marcar a opção **[!UICONTROL Compartilhar componentes integrados]**) para garantir que seus usuários executivos tenham acesso a essas mudanças.
+Se você atualizar o cartão de pontuação adicionando novos componentes, será possível compartilhar o cartão de pontuação novamente (e marcar a opção **[!UICONTROL Compartilhar componentes integrados]**) para garantir que seus usuários executivos tenham acesso a essas mudanças.
 
 ### Compartilhar cartões de pontuação usando um link compartilhável {#shareable-link}
 
-Usar um link compartilhável facilita o compartilhamento de um cartão de pontuação por meio de um email, documento ou aplicativo de mensagem de texto. O link compartilhável permite que destinatários abram o cartão de pontuação no desktop ou no aplicativo móvel de painéis. O uso de deep links compartilháveis torna ainda mais fácil compartilhar projetos e aumentar o engajamento das partes interessadas.
+Usar um link compartilhável facilita o compartilhamento de um cartão de pontuação em um email, documento ou aplicativo de mensagem de texto. O link compartilhável permite que os destinatários abram o cartão de pontuação no desktop ou no aplicativo móvel do painel. Deep linking compartilháveis facilitam ainda mais o compartilhamento de projetos e impulsionam o engajamento com as partes interessadas.
 
 Para compartilhar um cartão de pontuação usando um link compartilhável
 
-1. Clique no menu **[!UICONTROL Compartilhar]** e selecione **[!UICONTROL Compartilhar cartão de pontuação]**.
+1. Clique no menu **[!UICONTROL Compartilhar]** e selecione **[!UICONTROL Compartilhar scorecard]**.
 
    ![Compartilhar_Scorecards](assets/share-scorecard.png)
 

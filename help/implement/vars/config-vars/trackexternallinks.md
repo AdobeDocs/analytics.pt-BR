@@ -1,6 +1,6 @@
 ---
 title: trackExternalLinks
-description: Ative ou desative o rastreamento automático de links para links de saída.
+description: Habilite ou desabilite o rastreamento automático de links para links de saída.
 feature: Appmeasurement Implementation
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 role: Admin, Developer
@@ -13,9 +13,9 @@ ht-degree: 60%
 
 # trackExternalLinks
 
-A Adobe oferece a capacidade de rastrear links externos sem definir manualmente o método [`tl()`](../functions/tl-method.md) para cada link de saída. Ative essa variável se desejar usar o rastreamento automático de links para links de saída.
+A Adobe oferece a capacidade de rastrear links externos sem definir manualmente o método [`tl()`](../functions/tl-method.md) para cada link de saída. Habilite essa variável se desejar usar o rastreamento automático de links para links de saída.
 
-Quando ativado, o AppMeasurement compara qualquer URL de link clicado com valores em [`linkInternalFilters`](linkinternalfilters.md) e [`linkExternalFilters`](linkexternalfilters.md). Se houver uma correspondência, uma chamada de rastreamento de link de saída será acionada automaticamente.
+Quando habilitado, o AppMeasurement compara qualquer URL de link clicado com valores em [`linkInternalFilters`](linkinternalfilters.md) e [`linkExternalFilters`](linkexternalfilters.md). Se houver uma correspondência, uma chamada de rastreamento de link de saída será acionada automaticamente.
 
 ## Ativar ou desativar a coleção de cliques usando a extensão Web SDK
 
@@ -28,7 +28,7 @@ Use a caixa de seleção [!UICONTROL Habilitar coleta de dados de cliques] ao co
 
 ## Ativar ou desativar a coleção de cliques que implementa manualmente o Web SDK
 
-Configurar o SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR#clickCollectionEnabled). O campo é do tipo booleano e determina se os dados associados aos cliques em links são coletados automaticamente. O valor padrão é `true`. Defina esse valor como `false` se desejar desabilitar o rastreamento automático de links. Essa configuração lida com o rastreamento automático de links para links de download e de saída.
+Configurar o SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). O campo é do tipo booleano e determina se os dados associados aos cliques em links são coletados automaticamente. O valor padrão é `true`. Defina esse valor como `false` se desejar desabilitar o rastreamento automático de links. Essa configuração lida com o rastreamento automático de links para links de download e de saída.
 
 ```json
 alloy("configure", {
@@ -45,11 +45,11 @@ Rastrear links externos é uma caixa de seleção na opção [!UICONTROL Rastrea
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Rastrear links externos].
 
-Clique na caixa de seleção para ativar o rastreamento automático de links de saída.
+Clique na caixa de seleção para habilitar o rastreamento automático de links de saída.
 
 ## s.trackExternalLinks no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-`s.trackExternalLinks` é uma variável do tipo booleano que ativa ou desativa o rastreamento automático de links de saída. Se você não quiser rastrear links externos, ou se preferir chamar manualmente o método `tl()` para rastrear links de saída, defina essa variável como `false`.
+`s.trackExternalLinks` é uma variável do tipo booleano que habilita ou desabilita o rastreamento automático de links de saída. Se você não quiser rastrear links externos, ou se preferir chamar manualmente o método `tl()` para rastrear links de saída, defina essa variável como `false`.
 
 ```js
 s.trackExternalLinks = true;

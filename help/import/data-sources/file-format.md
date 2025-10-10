@@ -42,7 +42,7 @@ Ao fazer upload de arquivos de origem de dados, os cabeçalhos de coluna são ob
 | Dimensão | Cabeçalho da fonte de dados |
 | --- | --- |
 | [Categoria](/help/components/dimensions/category.md) | `Category` |
-| [eVar 1 - eVar 250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
+| [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
 | [Canal de marketing](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
 | [Detalhes do canal de marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [Produto](/help/components/dimensions/product.md) | `Product` |
@@ -52,7 +52,7 @@ Ao fazer upload de arquivos de origem de dados, os cabeçalhos de coluna são ob
 
 {style="table-layout:auto"}
 
-Dimension e métricas entram na mesma linha de cabeçalho.
+Dimensões e métricas na mesma linha de cabeçalho.
 
 | Métrica | Cabeçalho da fonte de dados |
 | --- | --- |
@@ -68,7 +68,7 @@ Dimension e métricas entram na mesma linha de cabeçalho.
 
 {style="table-layout:auto"}
 
-O Adobe não oferece suporte a fontes de dados para outras dimensões ou métricas. Se forem necessárias variáveis além das listadas nas tabelas acima, considere usar a [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/).
+A Adobe não oferece suporte a fontes de dados para outras dimensões ou métricas. Se forem necessárias variáveis além das listadas nas tabelas acima, considere usar a [API de inserção de dados em massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/).
 
 ## Data
 
@@ -81,12 +81,12 @@ A omissão de horas/minutos/segundos define automaticamente o carimbo de data e 
 
 Um único arquivo de fonte de dados suporta até 90 dias únicos. Se quiser incluir mais de 90 dias únicos em um upload, divida seus dados em vários arquivos.
 
-## dados de Dimension e métrica
+## Dimension e dados de métrica
 
 Valores subsequentes à data em cada linha contêm os dados que você deseja fazer upload. Cada linha corresponde a esse respectivo carimbo de data e hora. Verifique se existe o mesmo número de guias em cada linha. As colunas podem estar em qualquer ordem; verifique se os dados em cada linha estão alinhados aos cabeçalhos na parte superior. A quantidade máxima de dados que uma única linha pode ter é de 4096 bytes.
 
-Os dados de Dimension não podem conter ponto e vírgula (`;`). As linhas que contêm ponto e vírgula são ignoradas.
+Os dados do Dimension não podem conter ponto e vírgula (`;`). As linhas que contêm ponto e vírgula são ignoradas.
 
 ## Próximas etapas
 
-[Carregamento de arquivo](file-upload.md): saiba mais sobre o processo de carregamento de arquivo de fontes de dados para assimilação por Adobe.
+[Carregamento de arquivo](file-upload.md): saiba mais sobre o processo de carregamento de um arquivo de fontes de dados para assimilação pelo Adobe.

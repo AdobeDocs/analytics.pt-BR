@@ -36,7 +36,7 @@ A opção **[!UICONTROL Da célula]** permite referenciar datas inseridas em cé
 
 Você tem a opção de excluir o hoje em qualquer intervalo de datas selecionado.
 
-Report Builder ![Painel de edição rápida com o calendário selecionado e Excluir hoje selecionado.](./assets/image17.png)
+![Painel de edição rápida do Report Builder com o calendário selecionado e Excluir hoje selecionado.](./assets/image17.png)
 
 ## Usar o calendário
 
@@ -48,7 +48,7 @@ Inserção de datas diretamente no campo de intervalo de datas
 
 1. Clique no campo de intervalo de datas ao lado do ícone do calendário.
 
-1. Insira datas de início e término para seu intervalo de datas.
+1. Insira datas inicial e final para seu intervalo de datas.
 
 ### Calendário
 
@@ -56,13 +56,13 @@ Para selecionar datas usando o calendário
 
 1. Clique no ícone de calendário para exibir um calendário mensal.
 
-1. Clique em uma data de início.
+1. Clique em uma data inicial.
 
-1. Clique em uma data de término.
+1. Clique em uma data final.
 
 Para definir um intervalo de datas invertido, clique primeiro na data final e, em seguida, clique na data inicial.
 
-Painel de intervalo de datas ![Report Builder mostrando o calendário, a data de término e a data de início selecionada.](./assets/image18.png)
+![Painel de intervalo de datas do Report Builder mostrando o calendário, a data final e a data inicial selecionadas.](./assets/image18.png)
 
 ### Menu suspenso Predefinição
 
@@ -74,9 +74,9 @@ A opção Datas em andamento permite selecionar um intervalo de datas usando dat
 
 1. Selecionar **Usar datas do acumulado**.
 
-1. Selecione uma expressão em andamento para a data de início e/ou de término.
+1. Selecione uma expressão em andamento para a data inicial e/ou final.
 
-   Painel de intervalo de datas ![Report Builder mostrando Usar datas do acumulado selecionadas e a expressão do acumulado.](./assets/image19.png)
+   ![Painel de intervalo de datas do Report Builder mostrando Usar datas do acumulado selecionadas e a expressão do acumulado.](./assets/image19.png)
 
    **Início do** — Permite selecionar o início de um dia, semana, mês, trimestre ou ano.
 
@@ -86,11 +86,11 @@ A opção Datas em andamento permite selecionar um intervalo de datas usando dat
 
 1. Escolha dia, semana, mês, trimestre ou ano como o período do acumulado.
 
-   Painel de intervalo de datas ![Report Builder mostrando o dia atual selecionado.](./assets/image20.png)
+   ![Painel de intervalo de datas do Report Builder mostrando o dia atual selecionado.](./assets/image20.png)
 
 1. Adicione ou subtraia dias, semanas, meses, trimestres ou anos a partir da data em andamento.
 
-   Painel de intervalo de datas ![Report Builder mostrando o dia atual mais 14 dias selecionados.](./assets/image21.png)
+   ![Painel de intervalo de datas do Report Builder mostrando o dia atual mais 14 dias selecionados.](./assets/image21.png)
 
 1. Clique em Próximo para definir o intervalo de dados.
 
@@ -175,11 +175,11 @@ Quando selecionada, a opção **Excluir hoje** exclui o dia atual de todos os mo
 
 A lista a seguir descreve formatos válidos de intervalo de datas.
 
-- As datas de início e término devem estar no seguinte formato: AAAA-MM-DD
+- As datas inicial e final devem estar no seguinte formato: AAAA-MM-DD
 
-- A data de início deve ser anterior ou igual à data de término. Ambas as datas podem ser definidas para o futuro.
+- A data inicial deve ser anterior ou igual à data final. Ambas as datas podem ser definidas para o futuro.
 
-- Ao usar datas em andamento, a data de início deve ser hoje ou no passado. Deve ser no passado se **Excluir hoje** estiver marcada.
+- Ao usar datas em andamento, a data inicial deve ser hoje ou no passado. Deve ser no passado se **Excluir hoje** estiver marcada.
 
 - É possível criar um intervalo de datas estático para o futuro. Por exemplo, talvez seja necessário definir uma data futura para um lançamento de campanha de marketing na próxima semana. Essa opção cria um monitoramento de pasta de trabalho para uma campanha antecipadamente.
 

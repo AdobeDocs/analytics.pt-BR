@@ -19,7 +19,7 @@ Além disso, é possível restringir os segmentos sequenciais a uma duração de
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentação sequencial](https://video.tv.adobe.com/v/32592?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentação sequencial](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ Para aplicar restrições de tempo ao operador **[!UICONTROL Then]**:
 1. Selecione ![Relógio](/help/assets/icons/Clock.svg).
 1. Selecione **[!UICONTROL Dentro]** ou **[!UICONTROL Depois]** no menu de contexto.
 1. Especifique um período (**[!UICONTROL Minuto]**, **[!UICONTROL Hora]**, até **[!UICONTROL Anos]**).
-1. Selecione a ![Divisa](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *número *]**&#x200B;para abrir um pop-up que permita digitar ou especificar um número usando&#x200B;**[!UICONTROL -]**&#x200B;ou&#x200B;**[!UICONTROL +]**.
+1. Selecione a ![Divisa](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *número *]**para abrir um pop-up que permita digitar ou especificar um número usando**[!UICONTROL -]**ou**[!UICONTROL +]**.
 
 Para remover uma restrição de tempo, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -101,7 +101,7 @@ Identifique os visitantes que visitaram uma página e depois outra página somen
 
 ![Sequência após](assets/sequence-after.png)
 
-Se ocorrer uma exibição de página da Página inicial em 1 de junho de 2024 às 00:01, será exibida uma exibição de página para a Página mulheres | Os sapatos corresponderão, desde que essa exibição de página ocorra após 15 de junho de 2024 às 00:01.
+Se ocorrer uma exibição de página da Página inicial em 1º de junho de 2024 às 00:01, será exibida uma exibição de página para a Página Mulheres | Os sapatos corresponderão desde que essa exibição de página ocorra após 15 de junho de 2024 00:01.
 
 ##### Operador [!UICONTROL Within]
 
@@ -109,7 +109,7 @@ Identifique os visitantes que visitaram uma página e depois outra página dentr
 
 ![Sequência em](assets/sequence-within.png)
 
-Se uma exibição de página da Página inicial ocorrer em 1 de junho de 2024 às 12h01, uma exibição de página para a Página inicial será exibida para Mulheres | Os sapatos corresponderão, desde que essa exibição de página ocorra antes de 15 de junho de 2024 às 12h16.
+Se uma exibição de página da Página inicial ocorrer em 1 de junho de 2024 às 12:01, uma exibição de página para a página Mulheres | Os sapatos corresponderão, desde que essa exibição de página ocorra antes de 15 de junho de 2024 12:16.
 
 ##### [!UICONTROL Depois] mas [!UICONTROL Dentro] operador
 
@@ -117,7 +117,7 @@ Identifique os visitantes que visitaram uma página e, em seguida, visitaram out
 
 ![Sequência após, mas dentro de](assets/sequence-afterbutwithin.png)
 
-Qualquer visitante que acesse a página inicial em 1 de junho de 2024 e que retorne para visitar as mulheres | Página de sapatos após 15 de junho de 2019 às 00:01, mas antes de 1 de julho de 2019, qualifique-se para o segmento.
+Qualquer visitante que acesse a página inicial em 1 de junho de 2024 e que retorne para visitar as mulheres | Página de sapatos após 15 de junho de 2019 00:01, mas antes de 1 de julho de 2019, qualifique-se para o segmento.
 
 
 ### Restrições de [!UICONTROL Ocorrência], [!UICONTROL Visita] e [!UICONTROL Dimension]
@@ -302,4 +302,4 @@ Como exemplo final, você deseja identificar os visitantes que aprenderam sobre 
 
 >[!MORELIKETHIS]
 >
-> * [Dominando Lógica Sequencial no AA e no CJA: Introdução ao THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=pt)
+> * [Dominando Lógica Sequencial no AA e no CJA: Introdução ao THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

@@ -1,6 +1,6 @@
 ---
 title: trackDownloadLinks
-description: Ative ou desative o rastreamento automático de links para links de download.
+description: Habilite ou desabilite o rastreamento automático de links para links de download.
 feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
@@ -13,9 +13,9 @@ ht-degree: 50%
 
 # trackDownloadLinks
 
-A Adobe oferece a capacidade de rastrear links de download sem definir manualmente o método [`tl()`](../functions/tl-method.md) para cada link de download. Ative essa variável se desejar usar o rastreamento automático de links para links de download.
+A Adobe oferece a capacidade de rastrear links de download sem definir manualmente o método [`tl()`](../functions/tl-method.md) para cada link de download. Habilite essa variável se desejar usar o rastreamento automático de links para links de download.
 
-Quando ativado, o AppMeasurement compara qualquer URL de link clicado com os valores em [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Se houver uma correspondência, uma chamada de rastreamento de link de download será acionada automaticamente.
+Quando habilitado, o AppMeasurement compara qualquer URL de link clicado com os valores em [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Se houver uma correspondência, uma chamada de rastreamento de link de download será acionada automaticamente.
 
 ## Ativar ou desativar a coleção de cliques usando a extensão Web SDK
 
@@ -28,7 +28,7 @@ Use a caixa de seleção [!UICONTROL Habilitar coleta de dados de cliques] ao co
 
 ## Ativar ou desativar a coleção de cliques que implementa manualmente o Web SDK
 
-Configurar o SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR#clickCollectionEnabled). O campo é do tipo booleano e determina se os dados associados aos cliques em links são coletados automaticamente. O valor padrão é `true`. Defina esse valor como `false` se desejar desabilitar o rastreamento automático de links. Essa configuração lida com o rastreamento automático de links para links de download e de saída.
+Configurar o SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). O campo é do tipo booleano e determina se os dados associados aos cliques em links são coletados automaticamente. O valor padrão é `true`. Defina esse valor como `false` se desejar desabilitar o rastreamento automático de links. Essa configuração lida com o rastreamento automático de links para links de download e de saída.
 
 ```json
 alloy("configure", {
@@ -45,11 +45,11 @@ Rastrear links de download é uma caixa de seleção na opção [!UICONTROL Rast
 3. Vá até a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]**, no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Rastreamento de link], que revela a caixa de seleção [!UICONTROL Rastrear links de download].
 
-Clique na caixa de seleção para ativar o rastreamento automático de link de download.
+Clique na caixa de seleção para habilitar o rastreamento automático de link de download.
 
 ## s.trackDownloadLinks no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-`s.trackDownloadLinks` é uma variável do tipo booleano que ativa ou desativa o rastreamento automático de link de download. Se você não quiser rastrear links de download, ou se preferir chamar manualmente o método `tl()` para rastrear downloads, defina essa variável como `false`. A variável [linkDownloadFileTypes](linkdownloadfiletypes.md) também deve ser definida para que o rastreamento automático de link de download funcione.
+`s.trackDownloadLinks` é uma variável do tipo booleano que habilita ou desabilita o rastreamento automático de link de download. Se você não quiser rastrear links de download, ou se preferir chamar manualmente o método `tl()` para rastrear downloads, defina essa variável como `false`. A variável [linkDownloadFileTypes](linkdownloadfiletypes.md) também deve ser definida para que o rastreamento automático de link de download funcione.
 
 ```js
 s.trackDownloadLinks = true;

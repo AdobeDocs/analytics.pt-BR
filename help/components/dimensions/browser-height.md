@@ -30,4 +30,4 @@ A Adobe mantém a altura do navegador por uma visita. Se a altura do navegador f
 
 ## Itens de dimensão
 
-Os itens de Dimension incluem todas as alturas do navegador coletadas, classificadas em grupos predefinidos. Por exemplo, se a altura do navegador de uma ocorrência for `720`, então ela será agrupada no item de dimensão `700 to 799`.
+Os itens do Dimension incluem todas as alturas do navegador coletadas, classificadas em grupos predefinidos. Por exemplo, se a altura do navegador de uma ocorrência for `720`, então ela será agrupada no item de dimensão `700 to 799`.

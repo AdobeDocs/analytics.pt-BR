@@ -22,7 +22,7 @@ Visualize detalhes de um status de solicitação e use as descrições de campo 
 
 O [!UICONTROL Gerenciador de Solicitações] fornece uma exibição detalhada do status de todas as solicitações que você criou para todas as planilhas ou apenas uma planilha da pasta de trabalho ativa. Você também pode adicionar, editar, atualizar e excluir uma solicitação. Normalmente, essas funções estão associadas ao [!UICONTROL Assistente de Solicitações] e ao [!UICONTROL Gerenciador de Solicitações] quando você clica com o botão direito do mouse em uma célula disponível na planilha do Excel que contém solicitações anteriores.
 
-O [!UICONTROL Gerenciador de solicitações] é exibido ao clicar em **[!UICONTROL Gerenciar]** ![](assets/edit_request.gif) na barra de ferramentas do Report Builder.
+O [!UICONTROL Gerenciador de Solicitações] é exibido ao clicar em **[!UICONTROL Gerenciar]** ![](assets/edit_request.gif) na barra de ferramentas do Report Builder.
 
 >[!NOTE]
 >

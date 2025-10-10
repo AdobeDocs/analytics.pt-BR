@@ -51,7 +51,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`code_ver`** | Versão da API ou SDK cliente usada para compilar e enviar a solicitação de imagem. | char(16) |
 | **`color`** | ID de Intensidade de cor com base no valor da coluna `c_color`. Faz referência à tabela de pesquisa `color_depth.tsv`. | smallint unsigned |
 | **`connection_type`** | Uma ID numérica que representa o tipo de conexão. A dimensão [Tipo de conexão](/help/components/dimensions/connection-type.md). Faz referência à tabela de pesquisa `connection_type.tsv`. | tinyint unsigned |
-| **`cookies`** | A dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md).<br>Y: Ativado<br>N: Desativado<br>U: Desconhecido | char(1) |
+| **`cookies`** | A dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md).<br>Y: Habilitado<br>N: Desabilitado<br>U: Desconhecido | char(1) |
 | **`country`** | Uma ID numérica que representa o país do visitante. Faz referência à tabela de pesquisa `country.tsv`. | smallint unsigned |
 | **`ct_connect_type`** | Relacionado à coluna `connection_type`. Os valores mais comuns são LAN/Wifi, Operadora de celular e Modem. | char(20) |
 | **`curr_factor`** | Determina a posição decimal da moeda e é usado para conversão de moedas. Por exemplo, USD usa duas casas decimais, então esse valor de coluna seria `2`. | tinyint |
@@ -92,7 +92,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`ip`** | O endereço IPv4, com base no cabeçalho HTTP da solicitação de imagem. Mutualmente exclusivo de `ipv6`; se essa coluna contiver um endereço IP não ofuscado, `ipv6` está em branco. | char(20) |
 | **`ipv6`** | O endereço IPv6 compactado, se disponível. Mutualmente exclusivo de `ip`; se essa coluna contiver um endereço IP não ofuscado, `ip` está em branco. | varchar(40) |
 | **`j_jscript`** | A versão do JavaScript suportada pelo navegador. | char(5) |
-| **`java_enabled`** | O [[!UICONTROL Java habilitado]](/help/components/dimensions/java-enabled.md). <br>Y: Ativado <br>N: Desativado <br>U: Desconhecido | char(1) |
+| **`java_enabled`** | O [[!UICONTROL Java habilitado]](/help/components/dimensions/java-enabled.md). <br>Y: Habilitado <br>N: Desabilitado <br>U: Desconhecido | char(1) |
 | **`javascript`** | Uma ID de pesquisa da versão do JavaScript, com base em `j_jscript`. Faz referência à tabela de pesquisa `javascript_version`. | tinyint unsigned |
 | **`language`** | Uma ID numérica que representa o idioma do visitante. Faz referência à tabela de pesquisa `languages.tsv`. | smallint unsigned |
 | **`last_hit_time_gmt`** | Carimbo de data e hora (em horário UNIX®) da ocorrência anterior. Usado para calcular a dimensão [[!UICONTROL Dias desde a última visita]](/help/components/dimensions/days-since-last-visit.md). | int |
@@ -410,4 +410,4 @@ A lista de colunas a seguir não é usada, foi removida ou não contém valor no
 >[!MORELIKETHIS]
 >
 >[Mapeamento da variável de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[Mapeamento da variável de objeto de dados](/help/implement/aep-edge/data-var-mapping.md)
+>>[Mapeamento da variável de objeto de dados](/help/implement/aep-edge/data-var-mapping.md)
