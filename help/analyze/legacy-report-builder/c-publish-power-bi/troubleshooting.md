@@ -40,7 +40,7 @@ Essas são as principais razões pelas quais visualizações quebradas podem oco
 >[!IMPORTANT]
 >
 >O Report Builder requer um administrador para autorizar o acesso aos recursos da organização. Se precisar de acesso, peça a um administrador que conceda permissão.
->> Um Administrador do Microsoft pode examinar a configuração *Usuários podem registrar o aplicativo*, localizada em: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Ative Diretory]** > **[!UICONTROL As configurações de usuário permitem opções]**. Se essa opção estiver definida como **Não**, o administrador poderá registrar esses tipos de aplicativos.
+>&#x200B;> Um Administrador do Microsoft pode examinar a configuração *Usuários podem registrar o aplicativo*, localizada em: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Ative Diretory]** > **[!UICONTROL As configurações de usuário permitem opções]**. Se essa opção estiver definida como **Não**, o administrador poderá registrar esses tipos de aplicativos.
 
 Os usuários podem conceder o Acesso fazendo logon em sua [conta do Microsoft Power BI](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
 

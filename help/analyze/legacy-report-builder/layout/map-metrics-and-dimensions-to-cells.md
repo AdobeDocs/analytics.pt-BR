@@ -24,8 +24,8 @@ Se, por engano, você mapear locais incompatíveis na planilha, o Report Builder
 
 Para obter mais informações, consulte as seguintes seções:
 
-* [Selecionar um intervalo de células ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [Técnicas para selecionar células ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [Selecionar um intervalo de células &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [Técnicas para selecionar células &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [Problemas ao mapear](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Selecionar um intervalo de células {#section_1E37FB46DA194FB7A1050B8833A48AC6}

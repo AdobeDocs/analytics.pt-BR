@@ -16,7 +16,7 @@ A [métrica](overview.md) de &#39;Ocorrências de bot&#39; mostra o número de o
 
 Como o relatório de bot é separado do restante dos dados do conjunto de relatórios, essa métrica funciona somente com as seguintes dimensões:
 
-* [Nome do bot ](../dimensions/bot-name.md)
+* [Nome do bot &#x200B;](../dimensions/bot-name.md)
 * [Página](../dimensions/page.md)
 * Dimensões com base em tempo (por exemplo, [Dia](../dimensions/day.md), [Semana](../dimensions/week.md) ou [Mês](../dimensions/month.md))
 

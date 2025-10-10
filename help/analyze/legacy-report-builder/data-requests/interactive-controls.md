@@ -38,7 +38,7 @@ Os controles interativos foram criados em resposta a um fluxo de trabalho comum,
 1. Na Etapa 1 da seleção do Assistente de solicitações, por exemplo, o relatório **[!UICONTROL Página]**.
 1. Ao lado do menu suspenso **[!UICONTROL Datas utilizadas mais comuns]**, clique no ícone **[!UICONTROL Configurações de controle]**:
 
-   ![Captura de tela da Etapa 1 do Assistente de solicitações, destacando o ícone Configurações de Controle. ](assets/date_range_control.png)
+   ![Captura de tela da Etapa 1 do Assistente de solicitações, destacando o ícone Configurações de Controle. &#x200B;](assets/date_range_control.png)
 
 1. Na caixa de diálogo Configurações de controle, selecione todos os itens do intervalo de datas que você deseja exibir no controle interativo. Além disso, especifique a localização da célula superior esquerda do controle.
 

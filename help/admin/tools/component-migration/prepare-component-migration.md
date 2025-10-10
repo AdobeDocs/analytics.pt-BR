@@ -103,7 +103,7 @@ Remova esses elementos do projeto do Adobe Analytics antes de migrar o projeto p
 
 * [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
 
-* [Comparação de segmentos ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+* [Comparação de segmentos &#x200B;](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 * [Público-alvo médio por minuto de mídia](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
 

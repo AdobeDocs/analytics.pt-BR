@@ -74,7 +74,7 @@ Consulte a dimensão [Domínio de referência](/help/components/dimensions/refer
 
 A Adobe usa um recurso na Analysis Workspace chamado Advertising Analytics para trazer dados de publicidade e pesquisa de várias plataformas, incluindo o Google.
 
-O recurso de análise de publicidade exige configuração para retornar dados. Consulte a [Ajuda do Advertising Analytics ](/help/integrate/c-advertising-analytics/overview.md)para obter detalhes sobre como habilitar essas dimensões adicionais na Analysis Workspace.
+O recurso de análise de publicidade exige configuração para retornar dados. Consulte a [Ajuda do Advertising Analytics &#x200B;](/help/integrate/c-advertising-analytics/overview.md)para obter detalhes sobre como habilitar essas dimensões adicionais na Analysis Workspace.
 
 ## Relatórios Social
 

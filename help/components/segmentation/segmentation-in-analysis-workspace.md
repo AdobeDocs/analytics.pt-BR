@@ -14,7 +14,7 @@ ht-degree: 11%
 
 Além do [uso padrão de segmentos](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) no Analysis Workspace, os seguintes recursos específicos estão disponíveis:
 
-* [Comparação de segmentos ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+* [Comparação de segmentos &#x200B;](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 * [Aplicar segmentos na análise de fallout](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
 

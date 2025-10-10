@@ -14,7 +14,7 @@ ht-degree: 96%
 
 Embora o Adobe Analytics e o Google Analytics sejam ferramentas do Analytics, a forma como os dados são coletados e processados entre plataformas é muito diferente. Use esta página para entender algumas das principais diferenças em como determinadas dimensões e métricas são coletadas e por que elas podem exibir números diferentes em relatórios semelhantes.
 
-## [!UICONTROL Taxa de rejeição ]
+## [!UICONTROL Taxa de rejeição &#x200B;]
 
 A [!UICONTROL Taxa de devolução] é um KPI comum usado para ajudar a medir a eficácia e a relevância das páginas de aterrissagem na maioria das ferramentas de análise. Isso geralmente é definido como visitas que entram no site, mas não incluem um clique para outra página.
 
