@@ -4,17 +4,16 @@ title: Filtrar e Classificar
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 3daac356a1d3f90572ab8b627dfeedfc6575cbbc
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 98%
+source-wordcount: '1123'
+ht-degree: 72%
 
 ---
 
 # Filtrar e classificar
 
 As tabelas de forma livre do Analysis Workspace são a base para a análise interativa de dados. Sendo assim, elas podem conter milhares de linhas de informação. Filtrar e classificar os dados pode ser essencial para encontrar as informações mais importantes de maneira eficiente.
-
 
 ## Filtrar tabelas
 
@@ -26,9 +25,9 @@ Os filtros do Analysis Workspace ajudam você a encontrar as informações mais 
 
 Você pode usar vários métodos para filtrar linhas de uma tabela de forma livre.
 
-- Excluir linhas específicas de uma tabela
-- Aplicar filtros a uma tabela
-- Usar filtros de público-alvo
+* Excluir linhas específicas de uma tabela
+* Aplicar filtros a uma tabela
+* Usar filtros de segmento
 
 Leia como cada método afeta [os totais da tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -90,6 +89,38 @@ Para filtrar dados em tabelas de forma livre:
    | [!UICONTROL **Sempre excluir itens**] | Especifique o nome de qualquer item que deseja excluir dos dados filtrados. |
 
 1. Selecione **[!UICONTROL Aplicar]** para filtrar os dados. Selecione **[!UICONTROL Limpar]** para limpar todos os campos de entrada. Selecione **[!UICONTROL Cancelar]** para cancelar e fechar a caixa de diálogo. <br/>Um ícone colorido de ![Filtro](/help/assets/icons/FilterColored.svg) **Filtro** indica e exibe detalhes quando um filtro é aplicado à tabela.
+
+### Incluir critérios de filtro em dados de tendências em gráficos de sparkline e visualizações de linha {#include-filter-criteria}
+
+Todos os critérios de filtro de pesquisa aplicados à dimensão da tabela para uma tabela de forma livre são sempre incluídos em minigráficos.
+
+Além dos minigráficos, você pode configurar critérios de filtro para serem incluídos em visualizações de linha conectada. (Por padrão, os critérios de filtro não estão incluídos nas visualizações de linha. As visualizações de linha exibem dados para a linha selecionada na tabela conectada. Se nenhuma linha for selecionada, os dados somente para a primeira dimensão da tabela conectada serão mostrados.)
+
+Para obter mais informações sobre minigráficos e visualizações de linha, consulte [Exibir dados de tendência para uma tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md).
+
+#### Configurar visualizações de linha para incluir critérios de filtro
+
+1. Selecione o minigráfico no cabeçalho da coluna de métrica.
+
+   Quando a célula do minigráfico é selecionada, ela é exibida em cinza escuro. Isso indica que os critérios de filtro estão incluídos na visualização de linha conectada. Os critérios de filtro são aplicados como um segmento na coluna. <!--show how to see it? Show what the segment looks like when it's applied? -->
+
+   ![minigráfico selecionado](assets/table-sparkline-selected.png)
+
+#### Entender quando os totais da coluna podem ser imprecisos
+
+Os totais da coluna podem não ser exatos nos seguintes cenários:
+
+* Quando componentes estáticos são usados na coluna à esquerda e os totais da [coluna são calculados como uma soma das linhas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+
+  Se os itens de linha contiverem dados sobrepostos nesse cenário, os totais da coluna serão imprecisos.
+
+  Por exemplo, se você adicionar segmentos estáticos à coluna esquerda e, em seguida, adicionar Usuários como uma métrica na coluna direita, alguns desses usuários podem fazer parte de mais de um dos segmentos estáticos. Nesse caso, a Workspace não desduplica os usuários para cada segmento estático. Isso pode resultar em um número maior de usuários totais, pois alguns usuários podem ser contados mais de uma vez.
+
+* Ao usar dimensões de vários valores
+
+>[!NOTE]
+>
+>O gráfico de minigráficos e de linhas ainda reflete os totais precisos nesses cenários.
 
 
 ## Classificar tabelas
