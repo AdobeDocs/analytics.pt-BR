@@ -3,10 +3,10 @@ title: Tipo de referenciador
 description: O tipo de referenciador dependendo a origem do visitante.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '500'
+ht-degree: 88%
 
 ---
 
@@ -24,10 +24,34 @@ Os itens de dimensão incluem o tipo de referenciador da ocorrência. Valores es
 
 * **Digitado/Marcado**: não existem dados do referenciador para a ocorrência.
 * **Mecanismos de pesquisa**: o referenciador veio de um mecanismo de pesquisa reconhecido que inclui uma sequência de consulta de palavra-chave.
+* **Ferramentas de IA de conversa**: o referenciador veio de uma ferramenta de IA de conversa reconhecida.
 * **Redes sociais:**: os dados do referenciador pertenciam a uma rede social reconhecida pela Adobe.
 * **Outros sites**: os dados do referenciador não pertenciam a um mecanismo de pesquisa ou rede social reconhecida pela Adobe.
+* **Nenhum JavaScript**: o referenciador veio de um navegador que não tinha o JavaScript habilitado.
 * **Disco rígido**: o referenciador é originado de uma cópia local de uma página da Web no disco rígido do visitante.
 * **Email**: o referenciador é originado de um URL com um protocolo de `imap://` ou `mail://`. Não inclui serviços de email online, pois eles normalmente utilizam o protocolo `https://`.
+
+### Ferramentas de IA de conversa
+
+A lista a seguir faz referência à tabela de pesquisa &quot;Ferramentas de IA de conversa&quot; que o Adobe usa. A Adobe oferece essa lista como cortesia para os clientes do Adobe Analytics. Se você quiser que a Adobe adicione um domínio a esta lista, peça para um representante de suporte da sua organização entrar em contato com o Atendimento ao cliente.
+
+* `https://chatgpt.com`
+* `https://chat.com`
+* `https://chat.openai.com`
+* `https://gemini.google.com`
+* `https://copilot.microsoft.com`
+* `https://m365.cloud.microsoft`
+* `https://perplexity.ai`
+* `https://labs.perplexity.ai`
+* `https://playground.perplexity.ai`
+* `https://claude.ai`
+* `https://grok.com`
+* `https://komo.ai`
+* `https://phind.com`
+* `https://poe.com`
+* `https://blackbox.ai`
+* `https://chat.mistral.ai`
+* `https://meta.ai`
 
 ### Redes sociais
 

@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notas técnicas do Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Navegue em uma knowledge base que contém artigos úteis que não pertencem a uma ferramenta ou componente específico do Analytics.
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
    + [Perguntas frequentes](ga-to-aa/faq.md)
    + [Diferenças de processamento entre plataformas](ga-to-aa/processing-differences.md)
    + [Comparar dados a produtos de terceiros](ga-to-aa/compare-data.md)
++ [Analisar o tráfego de IA](/help/technotes/ai-traffic.md)
 + Analisar dados afetados por eventos {#event}
    + [Analisar dados afetados pela visão geral dos eventos](event/overview.md)
    + [Solução de problemas de picos/quedas nos dados](event/spikes-drops.md)
