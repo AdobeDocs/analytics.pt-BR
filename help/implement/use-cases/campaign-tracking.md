@@ -20,7 +20,7 @@ Se a sua organização quiser rastrear o desempenho e o índice de click-through
 1. [Configurar ou ajustar a implementação do Adobe Analytics para incluir dados de código de rastreamento](#include-campaign-variables-in-your-implementation)
 1. [Exibir os relatórios no Analysis Workspace](#view-the-reports-in-analysis-workspace)
 
-O [Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) pode ajudar a simplificar cada uma dessas etapas para agregar mais valor aos seus esforços de marketing. Entre em contato com o(a) representante de vendas da Adobe para obter mais informações.
+O [Adobe Campaign](https://business.adobe.com/br/products/campaign/adobe-campaign.html) pode ajudar a simplificar cada uma dessas etapas para agregar mais valor aos seus esforços de marketing. Entre em contato com o(a) representante de vendas da Adobe para obter mais informações.
 
 ## Estabelecer um processo de geração de código de rastreamento
 
