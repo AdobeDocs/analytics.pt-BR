@@ -133,7 +133,7 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |---|---|---|---|
-| Expressão regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
+| Expressão regular | &Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
 
 **Sintaxe**
 
