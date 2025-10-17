@@ -1,12 +1,12 @@
 ---
-description: As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
+description: As regras de classificação procuram regularmente por termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionam os termos automaticamente às tabelas de dados de classificação. Também é possível usar as regras de classificação para substituir chaves existentes.
 title: Regras de classificação
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
 workflow-type: tm+mt
 source-wordcount: '1970'
-ht-degree: 90%
+ht-degree: 61%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 90%
 
 {{classification-rulebuilder-deprecation}}
 
-As regras de classificação buscam regularmente termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionarão automaticamente os termos em suas tabelas de dados de classificação. Além disso, é possível usar regras de classificação para substituir teclas existentes.
+As regras de classificação procuram regularmente por termos não classificados. Se uma correspondência de regra for encontrada, as regras adicionam os termos automaticamente às tabelas de dados de classificação. Também é possível usar as regras de classificação para substituir chaves existentes.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Construtor de regras de classificação]**
 
-O Construtor de regras permite criar um *conjunto de regras de classificação*, que é uma lista de *regras de classificação*. Uma regra corresponde a critérios especificados por você e realiza uma ação.
+O Construtor de regras permite criar um *conjunto de regras de classificação*, que é uma lista de *regras de classificação*. Uma regra corresponde aos critérios especificados e, em seguida, executa uma ação.
 
-As regras de classificação são úteis para:
+As regras de classificação são convenientes para:
 
 * **Email** e **Anúncios de exibição**: crie regras de classificação para agrupar campanhas de anúncio de exibição individuais; assim, será possível conhecer o desempenho das campanhas de exibição em comparação às campanhas de email.
 
@@ -49,38 +49,38 @@ about_classification_rules.xml
 
  -->
 
-* [Informações importantes sobre as regras](/help/components/classifications/crb/classification-rule-builder.md)
-* [Quando as regras não classificam as teclas?](/help/components/classifications/crb/classification-rule-builder.md)
+* [Informações importantes sobre regras](/help/components/classifications/crb/classification-rule-builder.md)
+* [Quando as Regras Não Classificam as Chaves?](/help/components/classifications/crb/classification-rule-builder.md)
 * [Sobre a prioridade das regras](/help/components/classifications/crb/classification-quickstart-rules.md)
 
 >[!NOTE]
 >
 >O [!UICONTROL Construtor de regras] não aceita classificações numéricas 2.
 
-## Informações importantes sobre as Regras
+## Informações importantes sobre regras
 
 * **Expressões regulares**: a ajuda está disponível em [Expressões regulares nas regras de classificação](/help/components/classifications/crb/classification-quickstart-rules.md).
 
-* **Conjuntos de relatórios**: não é possível escolher uma classificação até que pelo menos um conjunto de relatórios esteja selecionado. Não é possível aplicar o conjunto de relatórios até que você tenha criado o conjunto de regras e atribuído uma variável.
+* **Conjuntos de relatórios**: não é possível escolher uma classificação até que pelo menos um conjunto de relatórios seja selecionado. Não é possível aplicar o conjunto de relatórios até que você tenha criado o conjunto de regras e atribuído uma variável.
 
-  Ao testar o conjunto de regras, use as chaves (a variável que está sendo classificada) do relatório para ver como serão impactadas pelo conjunto de regras. (A [chave](/help/components/classifications/importer/c-saint-data-files.md) é a variável que está sendo classificada, ou a primeira coluna na tabela de upload de classificação.)
+  Ao testar o conjunto de regras, use as chaves (a variável que está sendo classificada) do relatório para ver como elas serão afetadas pelo conjunto de regras. (A [chave](/help/components/classifications/importer/c-saint-data-files.md) é a variável que está sendo classificada, ou a primeira coluna na tabela de upload de classificação.)
 
 * **Prioridade das regras**: se uma tecla corresponde a várias regras que definem a mesma classificação (na coluna [!UICONTROL Definir classificação]), a última regra que corresponde a classificação será usada. Consulte [Sobre a prioridade das regras](/help/components/classifications/crb/classification-quickstart-rules.md).
 
-* **Limites no número de regras**: não há limite de definição para o número de regras que podem ser criadas. Contudo, um grande número de regras pode afetar o desempenho do navegador.
-* **Processamento**: regras são processadas durante intervalos frequentes, dependendo do seu volume de tráfico relacionado de classificação.
+* **Limites no número de regras**: não existe limite definido para o número de regras que você pode criar. No entanto, um grande número de regras pode afetar o desempenho do navegador.
+* **Processando**: as regras são processadas em intervalos frequentes, dependendo do volume de tráfego relacionado à classificação.
 
-  As regras ativas processam a cada quatro horas, examinando os dados de classificação normalmente de um mês. As regras verificam automaticamente novos valores e carregam as classificações utilizando o importador.
+  As regras ativas são processadas a cada quatro horas, examinando os dados de classificação normalmente após um mês. As regras verificam automaticamente novos valores e fazem upload das classificações usando o importador.
 
 * **Substituição de classificações existentes**: consulte [Quando as regras não classificam as teclas?](/help/components/classifications/crb/classification-quickstart-rules.md) Se necessário, é possível excluir ou remover as classificações existentes usando o importador.
 
-## Quando as regras não classificam as teclas?
+## Quando As Regras Não Classificam As Chaves?
 
-Ao ativar regras, é possível substituir classificações existentes. Nas situações a seguir, uma regra de classificação não classifica uma [chave](/help/components/classifications/importer/c-saint-data-files.md)(variável) se:
+Quando você ativa regras, pode substituir classificações existentes. Nas situações a seguir, uma regra de classificação não classifica uma [chave](/help/components/classifications/importer/c-saint-data-files.md)(variável) se:
 
 * A tecla já estiver classificada e você não selecionar [Substituir classificações de](/help/components/classifications/crb/classification-rule-definitions.md).
 
-  É possível substituir classificações ao [adicionar e ativar](/help/components/classifications/crb/classification-quickstart-rules.md) uma regra e ao ativar uma integração de conectores de dados. (para Data Connectors, as regras são criadas por parceiros no Dev Center e exibidas no [!UICONTROL Criador de regras de classificação]).
+  É possível substituir classificações ao [adicionar e ativar](/help/components/classifications/crb/classification-quickstart-rules.md) uma regra e ao ativar uma integração de conectores de dados. (Para conectores de dados, as regras são criadas por parceiros no Centro de Desenvolvimento e exibidas no [!UICONTROL Construtor de Regras de Classificação].)
 
 * Uma tecla classificada não tiver aparecido nos dados após um período especificado ao substituir uma tecla, mesmo após habilitar [Substituir classificações de](/help/components/classifications/crb/classification-rule-definitions.md).
 * A chave não está classificada, e nunca deve ser passada para o [!DNL Adobe Analytics] após o período iniciado há cerca de um mês.
@@ -93,7 +93,7 @@ Ao ativar regras, é possível substituir classificações existentes. Nas situa
 
 ## Expressões regulares em regras de classificação {#regex-in-classification-rules}
 
-Use as expressões regulares para a valores de strings formatados consistentemente com uma classificação. Por exemplo, você pode criar uma classificação com base em caracteres específicos em um código de rastreamento. Você pode corresponder caracteres, palavras ou padrões de caracteres específicos.
+Use expressões regulares para corresponder valores de sequência de caracteres formatados consistentemente a uma classificação. Por exemplo, é possível criar uma classificação a partir de caracteres específicos em um código de rastreamento. Você pode corresponder caracteres específicos, palavras ou padrões de caracteres.
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ As partes do código de rastreamento que deseja classificar são:
 
 Expressão regular: `^(.+)\:(.+)\:(.+)$`
 
-Como a expressão regular correlaciona-se à ID da campanha:
+Como a expressão regular se correlaciona à ID da campanha:
 
 ![](assets/regex.png)
 
@@ -133,20 +133,20 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 | Selecionar tipo de regra | Inserir os critérios de correspondência | Definir a classificação | Para |
 |---|---|---|---|
-| Expressão regular | &Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
+| Expressão regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data da campanha | $3 |
 
 **Sintaxe**
 
-| Expressão regular | Sequência ou resultado da correspondência | Correlação dos grupos de correspondência |
+| Expressão regular | Resultado de Correspondência ou String | Grupos de correspondência correspondentes |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: JuneSale `$3`: 20XX0601 |
-| Construção da sintaxe | `^` = inicia a linha () = agrupa caracteres e permite extrair os caracteres correspondentes nos parênteses.  `(.+)` = captura um ( . ) caractere e ( + ) não mais  \ = início de uma string.  `$` = indica que o caractere anterior (ou grupo de caracteres) é o último na linha. |
+| Construção da sintaxe | `^` = inicia a linha () = agrupa caracteres e permite extrair os caracteres correspondentes nos parênteses.  `(.+)` = captura um ( . ) caractere e ( + ) não mais  \ = início de uma string.  `$` = indica que o caractere anterior (ou grupo de caracteres) é o último na linha. | |
 
 Consulte [Expressões regulares - Tabela de referência](/help/components/classifications/crb/classification-quickstart-rules.md) para obter informações sobre o que significam caracteres em uma expressão regular.
 
 ## Expressão regular - Classificação de um caractere específico {#section_5D300C03FA484BADACBFCA983E738ACF}
 
-Uma maneira de usar uma expressão regular é para classificar um caractere específico em uma sequência de caracteres. Por exemplo, suponha que o seguinte código de rastreamento possua dois caracteres importantes:
+Uma maneira de usar uma expressão regular é classificar um caractere específico em uma cadeia de caracteres. Por exemplo, digamos que o código de rastreamento a seguir contenha dois caracteres importantes:
 
 Chave de Exemplo: `4s3234`
 
@@ -166,9 +166,9 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 
 ## Expressões regulares - Correspondência de códigos de rastreamento de duração variável {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
-Esse exemplo mostra como identificar caracteres específicos entre delimitadores de dois pontos quando houver códigos de rastreamento de durações variáveis. A Adobe recomenda usar uma expressão regular para cada código de rastreamento.
+Esse exemplo mostra como identificar caracteres específicos entre delimitadores de dois pontos quando você tem códigos de rastreamento de comprimentos variados. A Adobe recomenda usar uma expressão regular para cada código de rastreamento.
 
-Teclas de amostra:
+Chaves de amostra:
 
 * `a:b`
 * `a:b:c`
@@ -201,7 +201,7 @@ Expressão regular:
 
 `^(?!.*13.*).*$`
 
-Sequências do teste:
+Cadeias de caracteres de teste:
 
 ```
 a:b:
@@ -224,7 +224,7 @@ Neste resultado, `a:b:1313` não indica uma correspondência.
 
 | Expressão | Descrição |
 |---|---|
-| `(?ms)` | Faz com que toda a expressão regular corresponda à entrada de múltiplas linhas, permitindo que o caractere curinga . corresponda com qualquer caractere de nova linha (newline) |
+| `(?ms)` | Faz com que toda a expressão regular corresponda a uma entrada de várias linhas, permitindo o . curinga para corresponder a qualquer caractere de nova linha |
 | (`?i`) | Toda a expressão regular não distingue letras maiúsculas de minúsculas |
 | [`abc`] | Um caractere único de: a, b ou c |
 | [`^abc`] | Qualquer caractere único exceto: a, b ou c |
@@ -255,7 +255,7 @@ Um bom recurso para testar a validade da expressão regular é [https://rubular.
 
 ## Sobre a prioridade das regras
 
-Se houver correspondência de uma tecla com várias regras e a tecla definir a mesma coluna de classificação mostrada na coluna [!UICONTROL Definir classificação], a última regra será usada. Dessa forma, você talvez queira classificar o mais importante por último no seu conjunto de regras.
+Se uma tecla corresponder a várias regras e definir a mesma coluna de classificação mostrada na coluna [!UICONTROL Definir Classificação], a última regra será usada. Dessa forma, você pode querer classificar o mais importante por último em seu conjunto de regras.
 
 <!-- 
 
@@ -263,15 +263,15 @@ rule_priority.xml
 
  -->
 
-Se você criar várias regras que não compartilhem a mesma classificação, a ordem de processamento não terá importância.
+Se você criar várias regras que não compartilham a mesma classificação, a ordem de processamento não será importante.
 
-O que vem depois de um exemplo de regra de termo de pesquisa que classifica os tipos de pesquisa de um atleta:
+O que segue um exemplo de regra de termo de pesquisa que classifica os tipos de pesquisa para um atleta:
 
 | Número da regra | Tipo de regra | Corresponder | Definir a classificação | Para |
 |---|---|---|---|---|
 | 1 | Contém | Cowboys | Tipo de pesquisa | Equipe |
 | 2 | Contém | Fantasia | Tipo de pesquisa | Fantasia |
-| 3 | Contém | Romo | Tipo de pesquisa | Jogador |
+| 3 | Contém | Romo | Tipo de pesquisa | Player |
 
 Se um usuário pesquisar por *`Cowboys fantasy Tony Romo`*, o termo *`Player`* será classificado, pois ele corresponde à última classificação fornecida mostrada na coluna Definir Classificação.
 
@@ -321,9 +321,9 @@ Para adicionar ou editar uma regra de classificação:
 
 1. Especifique se deseja substituir os valores existentes:
 
-   | **As regras substituem quaisquer valores existentes** | (Configuração padrão) Sempre substitua as chaves de classificação existentes, inclusive as classificações carregadas pelo importador (SAINT). |
+   | **As regras substituem quaisquer valores existentes** | (Configuração padrão) Sempre substituir chaves de classificação, inclusive classificações carregadas por meio do importador (SAINT). |
    |---|---|
-   | **As regras substituem somente os valores não definidos** | Preencha apenas as células em branco (não definidas). Classificações existentes não serão alteradas. |
+   | **As regras substituem apenas valores não definidos** | Preencher apenas células em branco (não definidas). As classificações existentes não serão alteradas. |
 
 1. [Defina a regra ou as regras](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
 
@@ -363,10 +363,10 @@ Para testar um conjunto de regras de classificação:
 
 1. Digite ou cole as teclas de teste no campo [!UICONTROL Teclas de amostra].
 
-   As teclas de amostra incluem:
+   Os exemplos de chaves incluem:
 
    * Códigos de rastreamento
-   * Palavras ou frases de pesquisa
+   * Palavras-chave ou frases de pesquisa
 
    Consulte [Expressões regulares em regras de classificação](/help/components/classifications/crb/classification-quickstart-rules.md) para obter informações sobre o teste de expressões regulares.
 1. Clique em **[!UICONTROL Executar teste]**.
@@ -393,6 +393,6 @@ Para validar e ativar regras de classificação:
 
 1. (Opcional) Para substituir as classificações, habilite a seleção **[!UICONTROL Substituir classificações de]** &lt;*selection*>.
 
-   Essa opção permite que você substitua classificações existentes para teclas afetadas.
+   Essa opção permite substituir as classificações existentes por teclas afetadas.
 
-   Consulte a [Página de regras](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) para obter uma definição dessa opção.
+   Consulte [Página de regras](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) para obter uma definição desta opção.
