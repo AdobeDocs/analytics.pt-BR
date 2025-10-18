@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0193dea6870266a2fe8b557cb8ee6b9907c1bd71
+source-git-commit: 1aa23ebe6adf01798e172563993df107789520ae
 workflow-type: tm+mt
-source-wordcount: '6482'
-ht-degree: 100%
+source-wordcount: '6504'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **outubro de 2025** | |
+| Melhorias adicionais na identificação do visitante | Adição da seção [Identificação do visitante](/help/implement/id/overview.md), que descreve a maneira recomendada de identificar visitantes em todos os tipos de implementação. |
 | **Setembro de 2025** | |
 | Melhorias na identificação do visitante | Esclarecimento das práticas recomendadas sobre identificação de visitante, com foco na finalidade das variáveis [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) e [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) no AppMeasurement. |
 | **Agosto de 2025** | |
@@ -163,7 +165,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Calendários e intervalos de datas do Espaço de trabalho | Conteúdo atualizado para descrever intervalos de datas relativas, atualizações de cálculo de fórmulas e alterações na interface do calendário. Consulte [Sobre intervalos de datas relativas do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Cartões de pontuação para dispositivos móveis | Nova seção de documentação para descrever como mostrar e ocultar intervalos de datas de comparação. Consulte [Mostrar intervalos de datas de comparação](/help/analyze/mobile-app/create-scorecard.md) no Customer Journey Analytics. |
 | API 1.4 | O [API do Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) recebeu uma reescrita completa e agora está publicado no Adobe Developer. |
-| Rastreamento em tipos de implementação | Atualizado o caso de uso [Rastrear em tipos diferentes de implementação](../implement/use-cases/cross-type-implementation.md) para acomodar o serviço de ID da Experience Cloud. |
+| Rastreamento em tipos de implementação | Atualizado o caso de uso [Rastrear em tipos diferentes de implementação](../implement/id/cross-type-implementation.md) para acomodar o serviço de ID da Experience Cloud. |
 | **Janeiro de 2023** | |
 | Filtrar e classificar tabelas | Conteúdo atualizado (incluindo a adição de procedimentos e a explicação das opções disponíveis) no artigo [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Este artigo foi renomeado de “Paginação, filtragem e classificação de tabelas”. |
 | Pastas | Páginas dedicadas para [Gerenciamento de pastas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
@@ -179,7 +181,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](/help/technotes/client-hints.md). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](/help/components/classifications/sets/overview.md) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
@@ -356,6 +358,6 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 14 de março de 2019 | Atualização importante em Coleção de dados regionais. |
 | 7 de fevereiro de 2019 | Pequena atualização nas configurações de “Substituir o último octeto dos endereços IP por 0” e “Obfuscação de IP” nas [Configurações gerais da conta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
 | 1 de fevereiro de 2019 | Atualização importante no plug-in de implementação [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
-| 17 de janeiro de 2019 | [Análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) — as principais melhorias na análise de coorte permitem:<ul><li>Aplicar uma inclusão de segmento e retornar métricas separadamente. </li><li>Exibir alteração (churn) em vez de retenção.</li><li>Exibir tabelas de latência (tempo decorrido antes e depois de um evento de inclusão).</li><li>Personalizar dimensão de coorte (para agrupar visitantes com base em uma eVar, não somente no tempo).</li><li>Executar um cálculo acumulado de coorte: calcule a retenção/abandono com base em um período anterior, não na coorte original. </li><li>Adicionar várias métricas em campos de inclusão e de resultados, além de aplicar segmentos. (As métricas calculadas não são aceitas)</li></ul> |
+| 17 de janeiro de 2019 | [Análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) — as principais melhorias na análise de coorte permitem:<ul><li>Aplique uma inclusão de segmento e retorne métricas separadamente. </li><li>Mostrar churn em vez de retenção.</li><li>Mostrar tabelas de latência (tempo decorrido antes e depois de um evento de inclusão).</li><li>Personalizar a dimensão de coorte (para agrupar visitantes com base em uma eVar, não apenas no tempo).</li><li>Executar um cálculo acumulado de coorte: calcule a retenção/abandono com base em um período anterior, não na coorte original. </li><li>Adicione várias métricas em campos de inclusão e retorno, bem como aplique segmentos. (Métricas calculadas não são suportadas)</li></ul> |
 | 17 de janeiro de 2019 | [Exibir densidade](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Essa nova configuração permite ver mais dados em uma só tela ao reduzir o preenchimento vertical do painel à esquerda em tabelas de forma livre e de coorte. Acessível em Projeto > Informações e configurações do projeto. |
 | 17 de janeiro de 2019 | [Compatível com variáveis de vários valores no Attribution](/help/analyze/analysis-workspace/attribution/overview.md). Algumas dimensões no Analytics podem conter vários valores em uma única ocorrência, como listVars, a variável do produto, propriedades de lista ou eVars de merchandising. O Analysis Workspace permite aplicar o Attribution a qualquer um desses tipos de variáveis no nível de ocorrência. |

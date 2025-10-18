@@ -3,10 +3,10 @@ title: Visitantes únicos
 description: O número de IDs de visitantes únicos.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
+source-git-commit: f26f406848ab26092738089aac64ed9b4fc08019
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 95%
+source-wordcount: '172'
+ht-degree: 83%
 
 ---
 
@@ -22,30 +22,4 @@ O Analysis Workspace trata visitantes únicos com base na granularidade do relat
 
 ## Como essa métrica é calculada
 
-Essa métrica conta o número de IDs de visitante único para um determinado item de dimensão. Ela usa vários mecanismos avançados para identificar visitantes únicos, já que há várias maneiras de identificá-los. A tabela a seguir lista a forma como um visitante é identificado, juntamente com sua prioridade. Algumas ocorrências podem ter vários métodos de identificação de visitantes; nestes casos, é utilizado o método de prioridade mais alta.
-
-| Pedido usado | Parâmetro do query (método de coleta) | Apresentar quando |
-| --- | --- | --- |
-| 1 | `vid` | A variável [`visitorID`](/help/implement/vars/config-vars/visitorid.md) está definida. |
-| 2 | `aid` | O Visitante tem um cookie [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente. Definido em implementações sem ou antes da implementação do serviço de ID do visitante. |
-| 3 | `mid` | O Visitante tem um cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente. Defina as implementações usando o [serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). A Adobe recomenda usar o serviço de ID para todas as implementações, quando possível. |
-| 4 | `fid` | O Visitante tem um cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente, ou se `aid` e `mid` não puderem ser definidos por algum motivo. |
-| 5 | Endereço IP, Agente do usuário, Endereço IP de gateway | Último recurso para identificar um visitante único se o navegador do visitante não aceitar cookies. |
-
->[!NOTE]
->
->Cada ID de visitante do Analytics está vinculada a um perfil nos servidores da Adobe. Os perfis do visitante são excluídos depois de pelo menos 13 meses de inatividade, independentemente de qualquer expiração de cookie da ID do visitante.
-
-## Comportamento que afeta a contagem de visitantes únicos
-
-Identificadores de visitante único normalmente são armazenados em um cookie de navegador. Um novo visitante único é contado se executar qualquer um dos seguintes procedimentos:
-
-* Limpa o cache a qualquer momento
-* Abre um navegador diferente no mesmo computador. Um visitante único é contado por navegador.
-* A mesma pessoa que navega no seu site em diferentes dispositivos. Um visitante único separado é contado por dispositivo. Você pode usar a [Análise entre dispositivos](../cda/overview.md) para combinar visitantes usando a métrica [Pessoas](people.md).
-* Abre uma sessão de navegação privada (como a guia Incógnito do Chrome).
-
-Um novo visitante único *não* é contado, desde que o identificador do cookie seja preservado:
-
-* Fecha o navegador por um período estendido
-* Atualiza o navegador para a versão mais recente
+Essa métrica conta o número de IDs de visitante exclusivas para um determinado item de dimensão. Consulte [Visão geral da identificação do visitante](/help/implement/id/overview.md) para obter mais informações sobre como a Adobe Analytics identifica visitantes únicos.
