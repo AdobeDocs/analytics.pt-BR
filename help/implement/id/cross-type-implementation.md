@@ -4,10 +4,10 @@ description: Use diferentes tipos de implementação e rastreie os visitantes fa
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 64%
+source-wordcount: '377'
+ht-degree: 59%
 
 ---
 
@@ -29,4 +29,4 @@ Se você usar mais de um tipo de implementação (como AppMeasurement e solicita
 | Serviço de ID da Experience Cloud | Implementação [`VisitorAPI.js`](appmeasurement.md) | Usar a [extensão do Experience Cloud ID Service](analytics-extension.md) | [Incluído nativamente](alloy.md) | [Incluído nativamente](web-sdk-extension.md) | Fazer uma [chamada separada para o Serviço de ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html?lang=pt-BR) para obter a ID desejada e incluir `mid` na cadeia de caracteres de consulta |
 | Domínio do Edge | A variável [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) | [!UICONTROL Servidor de Rastreamento SSL] na seção [!UICONTROL Geral] ao [Configurar a extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=pt-BR) | A propriedade `edgeDomain` ao [Configurar o SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR) | O campo [!UICONTROL Domínio do Edge] ao [Configurar a extensão](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=pt-BR) | O `hostname` do URL de solicitação de imagem |
 
-Se qualquer uma dessas variáveis não for consistente em todos os tipos de implementação, a Adobe os considerará como visitantes separados. Se os visitantes não forem acompanhados perfeitamente em todos os tipos de implementação do site, o motivo mais comum é que o Serviço de ID está configurado incorretamente. Certifique-se de que cada tipo de implementação obtenha corretamente a mesma Experience Cloud ID (`mid`) em seu site.
+Se qualquer uma dessas variáveis não for consistente em cada tipo de implementação, a Adobe poderá considerá-las como visitantes separados. Se os visitantes não forem acompanhados perfeitamente em todos os tipos de implementação do site, o motivo mais comum é que o Serviço de ID está configurado incorretamente. Certifique-se de que cada tipo de implementação obtenha corretamente a mesma Experience Cloud ID (`mid`) em seu site.

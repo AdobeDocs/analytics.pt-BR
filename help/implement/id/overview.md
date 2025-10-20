@@ -1,10 +1,10 @@
 ---
 title: Identificação do visitante no Adobe Analytics
 description: Saiba como identificar visitantes no Adobe Analytics usando as práticas recomendadas mais recentes.
-source-git-commit: 5bd1914dc52c664348f30793761f0fc347343156
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 17%
+source-wordcount: '509'
+ht-degree: 12%
 
 ---
 
@@ -15,7 +15,7 @@ A identificação do visitante é essencial para o valor que o Adobe Analytics o
 A identificação do visitante no Adobe Analytics consiste nos seguintes componentes:
 
 * Identificador do lado do cliente: normalmente armazenado em um cookie próprio. As implementações que dependem de cookies de terceiros são menos consistentes com a identificação do visitante devido aos padrões modernos de privacidade do navegador.
-* Identificador do lado do servidor: cada ID de visitante do Analytics está vinculada a um perfil nos servidores da Adobe. Os perfis do visitante são excluídos depois de pelo menos 13 meses de inatividade, independentemente de qualquer expiração de cookie da ID do visitante.
+* Identificador do lado do servidor: cada ID de visitante do Analytics está vinculada a um perfil nos servidores da Adobe. Esses perfis de visitante são o que permite a persistência em variáveis como [eVars](/help/components/dimensions/evar.md). Os perfis são excluídos depois de pelo menos 13 meses de inatividade, independentemente de qualquer expiração de cookie da ID de visitante.
 
 ## Ordem de identificação de operações do Adobe Analytics
 
@@ -24,17 +24,17 @@ Quando o Adobe recebe uma ocorrência, as seguintes verificações são feitas e
 | Pedido usado | Parâmetros de consulta | Apresentar quando |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | A variável [`visitorID`](/help/implement/vars/config-vars/visitorid.md) está definida. |
-| **2<sup>nd</sup>** | `aid` | O visitante tem um cookie [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente. Definido em implementações sem ou antes da implementação do serviço de ID do visitante. |
-| **3<sup>rd</sup>** | `mid` | O visitante tem um cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente. Defina as implementações usando o [serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). A Adobe recomenda usar o serviço de ID para todas as implementações, quando possível. |
-| **4<sup>th</sup>** | `fid` | O visitante tem um cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=pt-BR) existente, ou se `aid` e `mid` não puderam ser definidos por algum motivo. |
+| **2<sup>nd</sup>** | `aid` | O visitante tem um cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) existente. Definido em implementações sem ou antes da implementação do serviço de ID do visitante. |
+| **3<sup>rd</sup>** | `mid` | O visitante tem um cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) existente. Defina as implementações usando o [serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). A Adobe recomenda usar o serviço de ID para todas as implementações, quando possível. |
+| **4<sup>th</sup>** | `fid` | O visitante tem um cookie [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) existente, ou se `aid` e `mid` não puderam ser definidos por algum motivo. |
 | **5<sup>th</sup>** | Endereço IP, Agente do usuário, Endereço IP de gateway | Usado como último recurso para identificar um visitante único se o navegador do visitante não aceitar cookies. |
 
 ## Comportamento que afeta a contagem de visitantes únicos
 
-Identificadores de visitante único normalmente são armazenados em um cookie de navegador. Um novo visitante único é contado se qualquer uma das seguintes situações ocorrer:
+Identificadores de visitante único normalmente são armazenados em um cookie de navegador. Um novo visitante único é contado se um visitante executar qualquer uma das seguintes ações:
 
 * Limpa os cookies a qualquer momento. Um visitante único é contado para uma ocorrência cada vez que o cache é limpo.
-* Os cookies de ID do visitante expiram devido às configurações de privacidade do navegador. Muitos navegadores modernos incluem uma forma de prevenção de rastreamento.
+* Os cookies de ID do visitante expiram devido às configurações de privacidade do navegador. Alguns navegadores incluem métodos de prevenção de rastreamento que limitam a duração dos cookies.
 * Abre um navegador diferente no mesmo computador. Um visitante único é contado por navegador.
 * Abre uma sessão de navegação privada (como a guia Incógnito do Chrome). Um visitante único é contado por sessão de navegação depois que todas as guias são fechadas.
 * Visita seu site em diferentes dispositivos. Um visitante único é contado por dispositivo.
