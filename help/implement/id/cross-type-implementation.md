@@ -4,10 +4,10 @@ description: Use diferentes tipos de implementação e rastreie os visitantes fa
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 59%
+ht-degree: 58%
 
 ---
 
@@ -23,10 +23,10 @@ Se você usar mais de um tipo de implementação (como AppMeasurement e solicita
 >
 >Todos os tipos de implementações devem usar o mesmo tipo de identificação de visitante (ID do Analytics herdada ou Serviço de ID de visitante). A Adobe recomenda usar o Serviço de ID de visitante em todas as implementações, quando possível.
 
-| Variável | AppMeasurement | Extensão do Analytics | Web SDK (Alloy) | Extensão da tag do SDK da web | Solicitação de imagem codificada |
-| --- | --- | --- | --- | --- | --- |
-| ID do conjunto de relatórios | Argumento de cadeia de caracteres em [`s_gi`](../vars/functions/s-gi.md) | [!UICONTROL Conjuntos de relatórios] na seção [!UICONTROL Gerenciamento de biblioteca] quando [Configurar a extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=pt-BR) | Adicione o Adobe Analytics como um serviço ao [Configurar uma sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR) | Adicione o Adobe Analytics como um serviço ao [Configurar uma sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR) | Parte do URL `pathname` (após `/b/ss/`) |
-| Serviço de ID da Experience Cloud | Implementação [`VisitorAPI.js`](appmeasurement.md) | Usar a [extensão do Experience Cloud ID Service](analytics-extension.md) | [Incluído nativamente](alloy.md) | [Incluído nativamente](web-sdk-extension.md) | Fazer uma [chamada separada para o Serviço de ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html?lang=pt-BR) para obter a ID desejada e incluir `mid` na cadeia de caracteres de consulta |
-| Domínio do Edge | A variável [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) | [!UICONTROL Servidor de Rastreamento SSL] na seção [!UICONTROL Geral] ao [Configurar a extensão](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=pt-BR) | A propriedade `edgeDomain` ao [Configurar o SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=pt-BR) | O campo [!UICONTROL Domínio do Edge] ao [Configurar a extensão](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=pt-BR) | O `hostname` do URL de solicitação de imagem |
+| Variável | Extensão da tag do SDK da web | Web SDK (Alloy) | Extensão do Analytics | AppMeasurement | Solicitação de imagem codificada |
+|---|---|---|---|---|---|
+| ID do conjunto de relatórios | Adicione o Adobe Analytics como um serviço ao [Configurar uma sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure) | Adicione o Adobe Analytics como um serviço ao [Configurar uma sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure) | [!UICONTROL Conjuntos de relatórios] na seção [!UICONTROL Gerenciamento de biblioteca] quando [Configurar a extensão](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) | Argumento de cadeia de caracteres em [`s_gi`](../vars/functions/s-gi.md) | Parte do URL `pathname` (após `/b/ss/`) |
+| Serviço de ID da Experience Cloud | [Incluído nativamente](web-sdk-extension.md) | [Incluído nativamente](alloy.md) | Usar a [extensão do Experience Cloud ID Service](analytics-extension.md) | Implementação [`VisitorAPI.js`](appmeasurement.md) | Fazer uma [chamada separada para o Serviço de ID](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration) para obter a ID desejada e incluir `mid` na cadeia de caracteres de consulta |
+| Domínio do Edge | O campo [!UICONTROL Domínio do Edge] ao [Configurar a extensão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) | A propriedade `edgeDomain` ao [Configurar o SDK da Web](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) | [!UICONTROL Servidor de Rastreamento SSL] na seção [!UICONTROL Geral] ao [Configurar a extensão](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) | A variável [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) | O `hostname` do URL de solicitação de imagem |
 
-Se qualquer uma dessas variáveis não for consistente em cada tipo de implementação, a Adobe poderá considerá-las como visitantes separados. Se os visitantes não forem acompanhados perfeitamente em todos os tipos de implementação do site, o motivo mais comum é que o Serviço de ID está configurado incorretamente. Certifique-se de que cada tipo de implementação obtenha corretamente a mesma Experience Cloud ID (`mid`) em seu site.
+Se qualquer uma dessas variáveis não for consistente em cada tipo de implementação, a Adobe provavelmente as considerará como visitantes separados. Se os visitantes não forem acompanhados perfeitamente em todos os tipos de implementação do site, o motivo mais comum é que o Serviço de ID está configurado incorretamente. Certifique-se de que cada tipo de implementação obtenha corretamente a mesma Experience Cloud ID (`mid`) em seu site.

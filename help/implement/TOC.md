@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Guia de implementação do Analytics
 breadcrumb-title: Guia de Implementação
 user-guide-description: Conheça maneiras de implementar o Adobe Analytics. Personalize quais dados são coletados para aproveitar ao máximo os dados do Analytics.
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 94%
@@ -133,10 +133,10 @@ ht-degree: 94%
    + [Módulo de integração](vars/integrate.md)
 + Identificação do visitante {#id}
    + [Visão geral](id/overview.md)
-   + [Utilização do AppMeasurement](id/appmeasurement.md)
-   + [Uso da extensão do Analytics](id/analytics-extension.md)
-   + [Utilização do Web SDK (Alloy)](id/alloy.md)
    + [Utilização da extensão do Web SDK](id/web-sdk-extension.md)
+   + [Utilização do Web SDK (Alloy)](id/alloy.md)
+   + [Uso da extensão do Analytics](id/analytics-extension.md)
+   + [Utilização do AppMeasurement](id/appmeasurement.md)
    + [Migração para o Serviço de ID do visitante](id/migration.md)
    + [Rastrear em tipos de implementação](id/cross-type-implementation.md)
 + Preparação para implementar o Adobe Analytics {#prepare}

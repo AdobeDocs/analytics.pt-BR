@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notas técnicas do Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Navegue em uma knowledge base que contém artigos úteis que não pertencem a uma ferramenta ou componente específico do Analytics.
-source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,5 +66,4 @@ ht-degree: 98%
 + [Solução de problemas de logon](troubleshoot-login.md)
 + [Solução de problemas de logout](troubleshoot-sessions.md)
 + [Não especificado, outro e desconhecido](unspecified.md)
-+ [Migração de visitante](visitor-migration.md)
 + [Regras VISTA](vista.md)
