@@ -19,7 +19,7 @@ Você pode definir uma visita da maneira que quiser sem alterar os dados subjace
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessões sensíveis ao contexto](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessões sensíveis ao contexto](https://video.tv.adobe.com/v/3428478?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
