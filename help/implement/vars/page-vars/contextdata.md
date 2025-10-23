@@ -4,10 +4,10 @@ description: As variáveis de dados de contexto permitem definir variáveis pers
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 68%
+source-wordcount: '595'
+ht-degree: 64%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 68%
 As variáveis de dados de contexto permitem definir variáveis personalizadas em cada página que podem ser lidas pelas regras de processamento. Em vez de atribuir valores explicitamente às variáveis do Analytics em seu código, você pode enviar dados em variáveis de dados de contexto. As regras de processamento então capturam os valores das variáveis de dados de contexto e os transmitem às respectivas variáveis do Analytics. Consulte [Regras de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) no Guia do usuário de administração.
 
 As variáveis de dados de contexto são úteis para as equipes de desenvolvimento coletarem dados em elementos nomeados em vez de coletar nas variáveis numeradas. Por exemplo, em vez de solicitar que as equipes de desenvolvimento atribuam o autor da página a `eVar10`, você pode solicitar que elas o atribuam a `s.contextData["author"]`. Um administrador do Analytics em sua organização pode criar regras de processamento para mapear variáveis de dados de contexto como variáveis do Analytics para relatórios. No fim, as equipes de desenvolvimento só se preocupariam com as variáveis de dados de contexto em vez das muitas variáveis de página que o Adobe oferece.
+
+O tamanho máximo de todas as variáveis de dados de contexto combinadas (incluindo chaves e valores) é de 32 KB.
 
 ## Variáveis de dados de contexto que usam o SDK da Web
 
@@ -54,7 +56,7 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * As variáveis de dados de contexto válidas contêm somente caracteres alfanuméricos, sublinhados e pontos. A Adobe não garante a coleta de dados nas regras de processamento se você incluir outros caracteres, como hifens.
-* Não inicie variáveis de dados de contexto com `"a."`. Este prefixo está reservado e é usado pela Adobe. Por exemplo, não use `s.contextData["a.InstallEvent"]`.
+* Não inicie variáveis de dados de contexto com o prefixo `"a."`. Este prefixo está reservado e é usado pela Adobe. Por exemplo, não use `s.contextData["a.InstallEvent"]`.
 * As variáveis de dados de contexto não diferenciam maiúsculas de minúsculas. As variáveis `s.contextData["example"]` e `s.contextData["EXAMPLE"]` são idênticas.
 * Uma única chave não pode conter mais de um valor. Se você quiser usar variáveis de dados de contexto para variáveis de vários valores, concatene todos os valores usando um delimitador (normalmente uma vírgula) e passe-o para uma [propriedade de lista](prop.md#list-props) ou para uma [variável de lista](list.md) usando regras de processamento.
 
