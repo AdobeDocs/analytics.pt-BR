@@ -1,8 +1,8 @@
 ---
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
 workflow-type: tm+mt
-source-wordcount: '2962'
-ht-degree: 88%
+source-wordcount: '2997'
+ht-degree: 87%
 
 ---
 # Trechos
@@ -12,9 +12,9 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >Um novo e simplificado [Report Builder](/help/analyze/report-builder/rb-overview.md) foi lançado em 16 de outubro de 2024. Ele é compatível com Mac, Windows e navegadores da Web.
->&#x200B;>Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para a nova Report Builder.
+>>Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para a nova Report Builder.
 
-## Anúncio do fim da vida útil do Reports & Analytics {#ra-eol}
+## Anúncio do fim da vida útil do Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -87,13 +87,14 @@ Um modelo de atribuição determina quais itens de dimensão recebem crédito po
 
 Um container de atribuição define o escopo desejado para a atribuição. As opções disponíveis são:
 
-* **Visita**: verifica as conversões do escopo do contêiner de visitas.
+* **Visita**: verifica as conversões do escopo do contêiner de visitas. Quando **[!UICONTROL Visita]** é selecionada, a [janela de retrospectiva de atribuição](#atribution-lookback-window) é automaticamente definida como **[!UICONTROL Janela de relatórios]** e não pode ser alterada.
 * **Visitante**: verifica as conversões do escopo do contêiner de visitantes.
 
 ## Janela de retrospectiva de atribuição {#attribution-lookback-window}
 
 As janelas de retrospectiva representam quanto tempo uma conversão deve retroceder para incluir pontos de contato. Se um item de dimensão for definido fora da janela de retrospectiva, o valor não será incluído em nenhum cálculo de atribuição.
 
+* **[!UICONTROL Janela de relatórios]**: retroage até o início da janela de relatórios a partir de quando a conversão ocorreu.
 * **14 dias**: retroage até 14 dias a partir do momento em que a conversão ocorreu.
 * **30 dias**: retroage até 30 dias a partir do momento em que a conversão ocorreu.
 * **60 dias**: retroage até 60 dias a partir do momento em que a conversão ocorreu.
