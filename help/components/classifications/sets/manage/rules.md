@@ -15,7 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >Os conjuntos de classificações ainda não aceitam regras. A funcionalidade Regras será adicionada à interface dos conjuntos de classificação antes que a funcionalidade herdada do construtor de regras fique indisponível.
->>Se você precisar de regras para classificações, continue usando o [Construtor de regras de classificações](/help/components/classifications/crb/classification-rule-builder.md).
+>&#x200B;>Se você precisar de regras para classificações, continue usando o [Construtor de regras de classificações](/help/components/classifications/crb/classification-rule-builder.md).
 
 
 <!--
