@@ -3,7 +3,7 @@ title: Esquema do conjunto de classificações
 description: Saiba como visualizar e editar o esquema para um conjunto de classificações individual.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 4%
@@ -14,10 +14,10 @@ ht-degree: 4%
 
 O esquema é a lista de classificações que você deseja aplicar às dimensões principais definidas para o conjunto de classificações. Por exemplo, se você tiver definido o produto como a dimensão principal e esse campo contiver um SKU de produto, você usará o esquema para adicionar classificações como nome do produto, cor do produto, tamanho do produto e muito mais.
 
-Para definir o esquema para um conjunto de classificações:
+Para editar o esquema de um conjunto de classificações:
 
 1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione o conjunto de classificações no qual deseja editar o esquema.
-1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _conjunto de classificações_]**, selecione a guia Esquema. Essa guia consiste nos seguintes elementos de interface:
+1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _conjunto de classificações_]**, selecione a guia **[!UICONTROL Esquema]**. Essa guia consiste nos seguintes elementos de interface:
 
    ![Conjuntos de classificações - esquema](assets/classification-sets-schema.png)
 
@@ -61,7 +61,7 @@ Para adicionar uma nova classificação, selecione ![Adicionar](/help/assets/ico
 
 ![Conjuntos de classificações - Adicionar classificação ao esquema](assets/classification-sets-schema-add-classification.png)
 
-Na caixa de diálogo **[!UICONTROL Adicionar uma nova classificação para _conjunto de classificações_]**, digite o **[!UICONTROL Nome da Classificação]**&#x200B;e selecione **[!UICONTROL Adicionar]**. A classificação é adicionada à lista.
+Na caixa de diálogo **[!UICONTROL Adicionar uma nova classificação para _conjunto de classificações_]**, digite o **[!UICONTROL Nome da Classificação]**e selecione **[!UICONTROL Adicionar]**. A classificação é adicionada à lista.
 
 
 
@@ -170,7 +170,7 @@ Na caixa de diálogo **[!UICONTROL Associar / Atualizar Local de Assimilação p
 
 1. Para notificar os usuários sobre a conclusão dos trabalhos de assimilação, insira endereços de email, separados por vírgula, para **[!UICONTROL Email(s) a notificar quando os trabalhos de assimilação forem concluídos (separados por vírgula)]**.
 1. Selecione **[!UICONTROL Validar]**. A conexão com o local da nuvem é validada.
-1. Se a validação for bem-sucedida, você verá uma mensagem em caixa de informações que mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione&#x200B;**[!UICONTROL &#x200B; Salvar &#x200B;]**&#x200B;se tiver criado a conexão com a nuvem. Caso contrário, selecione&#x200B;**[!UICONTROL &#x200B; Atualizar &#x200B;]**. Ou selecione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar a configuração do local da nuvem.
+1. Se a validação for bem-sucedida, você verá uma mensagem em caixa de informações que mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione**[!UICONTROL  Salvar ]**se tiver criado a conexão com a nuvem. Caso contrário, selecione**[!UICONTROL  Atualizar ]**. Ou selecione**[!UICONTROL  Cancelar ]**para cancelar a configuração do local da nuvem.
 
 
 ## Barra de ação
@@ -182,7 +182,7 @@ A barra de ações mostra as ações disponíveis para o conjunto de classifica�
 | ![Procurar](/help/assets/icons/Browse.svg) | **[!UICONTROL Adicionar Pesquisa]** | Adicione um conjunto de classificações como uma pesquisa (subclassificação).<br/>Na tabela **[!UICONTROL Anexar pesquisa]**: <ol><li>Selecione uma classificação de pesquisa no menu suspenso **[!UICONTROL Nome da Classificação]**.</li><li>Selecione **[!UICONTROL Adicionar]**.</li></ol>A classificação de pesquisa é adicionada à classificação e listada na coluna **[!UICONTROL Classificado por]** usando a ID interna. |
 | ![RemoverCírculo](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remover Pesquisa]** | Remova um conjunto de classificações como uma pesquisa. Para excluir a pesquisa permanentemente da classificação, na caixa de diálogo de confirmação **[!UICONTROL Remover _conjunto de classificações_ da _classificação_]**, selecione **[!UICONTROL Excluir]**. |
 | ![Renomear](/help/assets/icons/Rename.svg) | **[!UICONTROL Renomear]** | Renomeie uma classificação. Na caixa de diálogo **[!UICONTROL Renomear: _classificação_]**, digite um novo nome e selecione **[!UICONTROL Renomear]**. |
-| ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir um conjunto de classificações. A caixa de diálogo **[!UICONTROL Excluir _classificação_]**&#x200B;é exibida. Selecione **[!UICONTROL Excluir]**&#x200B;para excluir o conjunto de classificações. |
+| ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir um conjunto de classificações. A caixa de diálogo **[!UICONTROL Excluir _classificação_]**é exibida. Selecione **[!UICONTROL Excluir]**para excluir o conjunto de classificações. |
 
 
 <!--

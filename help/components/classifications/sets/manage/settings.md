@@ -3,10 +3,10 @@ title: Configurações do conjunto de classificações
 description: Entenda como criar ou editar um conjunto de classificações.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 2%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -14,19 +14,26 @@ ht-degree: 2%
 
 É possível editar as configurações iniciais de um conjunto de classificações.
 
-No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione o conjunto de classificações no qual deseja editar as configurações.
+Para editar as configurações de um conjunto de classificações:
 
-Na guia **[!UICONTROL Configurações]** da caixa de diálogo **[!UICONTROL Conjunto de Classificações: _título do conjunto de classificações_]**, onde apropriado:
+1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione o conjunto de classificações no qual deseja editar o esquema.
+1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _conjunto de classificações_]**, selecione a guia **[!UICONTROL Configurações]**.
 
-![Conjuntos de classificações - configurações](assets/classification-sets-settings.png)
+1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _conjunto de classificações_]**, onde apropriado:
 
-1. Edite o **[!UICONTROL Nome]**.
-1. Editar uma **[!UICONTROL Descrição (opcional)]**.
-1. Edite a lista de endereços de email (separador de vírgulas) em **[!UICONTROL Notificação de problemas]**. Esses usuários são notificados por email sobre quaisquer problemas.
-1. Adicione uma ou mais **[!UICONTROL Marcas (opcional)]** ao conjunto de classificações. Selecione uma marca existente do menu suspenso **[!UICONTROL Marcas]** ou insira uma nova marca. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para remover uma marca.
-1. Edite as **[!UICONTROL Assinaturas]**.
-   * Você pode definir várias combinações do **[!UICONTROL Conjunto de relatórios]** e do **[!UICONTROL Dimension]** para um conjunto de classificações.
-   * Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir uma combinação do **[!UICONTROL Conjunto de Relatórios]** e do **[!UICONTROL Key Dimension]**.
+   ![Conjuntos de classificações - configurações](assets/classification-sets-settings.png)
+
+   1. Edite o **[!UICONTROL Nome]**.
+   1. Editar uma **[!UICONTROL Descrição (opcional)]**.
+   1. Edite a lista de endereços de email (separador de vírgulas) em **[!UICONTROL Notificação de problemas]**. Esses usuários são notificados por email sobre quaisquer problemas.
+   1. Adicione uma ou mais **[!UICONTROL Marcas (opcional)]** ao conjunto de classificações. Selecione uma marca existente do menu suspenso **[!UICONTROL Marcas]** ou insira uma nova marca. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para remover uma marca.
+   1. Edite as **[!UICONTROL Assinaturas]**.
+      * Você pode definir várias combinações do **[!UICONTROL Conjunto de relatórios]** e do **[!UICONTROL Dimension]** para um conjunto de classificações.
+      * Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir uma combinação do **[!UICONTROL Conjunto de Relatórios]** e do **[!UICONTROL Key Dimension]**.
+
+      Consulte [Criar um conjunto de classificações](create.md) para obter mais detalhes.
+
+   1. Selecione **[!UICONTROL Salvar]** para salvar as configurações. Selecione **[!UICONTROL Cancelar]** para cancelar.
 
 
 <!--
