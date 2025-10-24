@@ -1,23 +1,23 @@
 ---
-description: Formatos de arquivo compatíveis com conjuntos de classificações
+description: Entender os vários formatos de arquivo compatíveis com os conjuntos de classificação
 title: Formatos de arquivo do conjunto de classificações
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
-source-git-commit: c642664ecca24d9fc555944fb2b449f30eac879d
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1038'
 ht-degree: 1%
 
 ---
 
 # Formatos de arquivo do conjunto de classificações
 
-Os conjuntos de classificações são compatíveis com vários formatos de arquivo para o upload em massa de dados de classificação. Cada formato tem requisitos específicos para uploads de dados bem-sucedidos.
+Os conjuntos de classificações são compatíveis com vários formatos de arquivo para fazer upload de dados de classificação. Cada formato tem requisitos específicos para uploads de dados bem-sucedidos.
 
-Depois que o arquivo for formatado corretamente de acordo com essas especificações, você poderá carregá-lo por meio da interface ou API dos conjuntos de classificação. Para obter instruções detalhadas de upload:
+Depois que o arquivo for formatado corretamente de acordo com essas especificações, você poderá fazer upload dos dados por meio da interface ou API dos conjuntos de classificações. Para obter instruções detalhadas de upload:
 
-* **Carregamento de Navegador**: Consulte [Esquema](manage/schema.md)
-* **Carregamento de API**: consulte [API de classificações do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
+* **Carregamento do navegador**: consulte [Carregar](manage/schema.md#upload) na interface [Esquema](manage/schema.md) para obter um conjunto de classificação.
+* **Carregamento da API**: consulte a [API de classificações do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
 
 Os conjuntos de classificações são compatíveis com os seguintes formatos de arquivo:
 
@@ -33,7 +33,7 @@ Todos os formatos de arquivo devem atender aos seguintes requisitos:
 * **Limites de caracteres**: valores de classificação individuais têm um limite máximo de 255 bytes.
 * **Requisitos de chave**: os valores de chave não podem estar vazios nem conter somente espaços em branco. Se houver chaves duplicadas, a última ocorrência será usada.
 
-+++**Detalhes do formato JSON**
++++ Detalhes do formato JSON
 
 O formato de arquivo JSON segue as convenções para Linhas JSON (JSONL). O arquivo deve conter um objeto JSON por linha, em que cada objeto representa um único registro de classificação.
 
@@ -77,7 +77,7 @@ Todos os nomes de campos JSON (`key`, `data`, `action`, `enc`) diferenciam maiú
 {"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
 ```
 
-**Excluir toda a chave:**
+**Excluir uma chave inteira:**
 
 ```json
 {"key": "product999", "action": "delete-key"}
@@ -93,7 +93,7 @@ Todos os nomes de campos JSON (`key`, `data`, `action`, `enc`) diferenciam maiú
 
 +++
 
-+++**Detalhes do formato CSV**
++++ Detalhes do formato CSV
 
 Os arquivos CSV (valores separados por vírgula) usam vírgulas para separar campos de dados de classificação.
 
@@ -115,7 +115,7 @@ product456,"Running Shoes",Brand B,Sports,79.99
 product789,"Winter Jacket",Brand C,Clothing,149.99
 ```
 
-**Excluir toda a chave:**
+**Excluir uma chave inteira:**
 
 ```csv
 Key,Product Name,Brand,Category,Price
@@ -132,31 +132,32 @@ product456,,~empty~,~empty~,79.99
 
 ### Regras de formatação CSV
 
-* Os campos que contêm vírgulas devem estar entre aspas duplas
-* Os campos que contêm aspas duplas devem escapar das aspas duplicando-as (`""`)
-* Campos vazios representam valores nulos para essa classificação
-* Espaços à esquerda e à direita em torno de campos são cortados automaticamente
-* Caracteres especiais (guias, novas linhas) em campos entre aspas são preservados
+* Os campos que contêm vírgulas devem ser colocados entre aspas duplas.
+* Os campos que contêm aspas duplas devem escapar das aspas, duplicando-as (`""`).
+* Campos vazios representam valores nulos para essa classificação.
+* Espaços à esquerda e à direita em torno de campos são cortados automaticamente.
+* Caracteres especiais (guias, novas linhas) em campos entre aspas são preservados.
 
 **Excluir operações:**
+
 * Use `~deletekey~` em qualquer campo para excluir a chave inteira e todos os seus dados de classificação
 * Use `~empty~` em campos específicos para excluir apenas esses valores de classificação (deixa outros campos intactos)
 * Ao usar o `~empty~`, você pode misturar exclusões com atualizações no mesmo arquivo
 
 +++
 
-+++**Detalhes do formato TSV/TAB**
++++ Detalhes dos formatos TSV e TAB
 
 Os arquivos TSV (Valores separados por tabulação) e TAB usam caracteres de tabulação para separar campos de dados de classificação.
 
-### Estrutura TSV/TAB
+### Estrutura TSV e TAB
 
-* **Linha de cabeçalho**: a primeira linha deve conter cabeçalhos de coluna e a primeira coluna deve ser a coluna de chave. As colunas subsequentes devem corresponder aos nomes no esquema do conjunto de classificações
-* **Linhas de dados**: cada linha subsequente contém dados de classificação
-* **Delimitadores**: os campos são separados por caracteres de tabulação (`\t`)
-* **Citações**: geralmente, nenhuma citação é necessária, mas algumas implementações dão suporte a campos citados
+* **Linha de cabeçalho**: a primeira linha deve conter cabeçalhos de coluna e a primeira coluna deve ser a coluna de chave. As colunas subsequentes devem corresponder aos nomes no esquema do conjunto de classificações.
+* **Linhas de dados**: cada linha subsequente contém dados de classificação.
+* **Delimitadores**: os campos são separados por caracteres de tabulação (`\t`).
+* **Quoting**: geralmente não é necessário citar, mas algumas implementações dão suporte a campos citados.
 
-### Exemplos de TSV/TAB
+### Exemplos de TSV e TAB
 
 **Dados básicos de classificação:**
 
@@ -167,7 +168,7 @@ product456    Running Shoes    Brand B    Sports    79.99
 product789    Winter Jacket    Brand C    Clothing    149.99
 ```
 
-**Excluir toda a chave:**
+**Excluir uma chave inteira:**
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -184,16 +185,17 @@ product456        ~empty~    ~empty~    79.99
 
 ### Regras de formatação TSV/TAB
 
-* Os campos são separados por caracteres de tabulação única
-* Campos vazios (guias consecutivas) representam valores nulos
-* Normalmente, nenhuma citação especial é necessária
-* Espaços à esquerda e à direita são preservados
-* Caracteres de nova linha em campos devem ser evitados
+* Os campos são separados por caracteres de tabulação única.
+* Campos vazios (guias consecutivas) representam valores nulos.
+* Normalmente, nenhuma citação especial é necessária.
+* Os espaços à esquerda e à direita são preservados.
+* Caracteres de nova linha em campos devem ser evitados.
 
 **Excluir operações:**
-* Use `~deletekey~` em qualquer campo para excluir a chave inteira e todos os seus dados de classificação
-* Use `~empty~` em campos específicos para excluir apenas esses valores de classificação (deixa outros campos intactos)
-* Ao usar o `~empty~`, você pode misturar exclusões com atualizações no mesmo arquivo
+
+* Use `~deletekey~` em qualquer campo para excluir a chave inteira e todos os seus dados de classificação.
+* Use `~empty~` em campos específicos para excluir apenas esses valores de classificação (deixa outros campos intactos).
+* Ao usar o `~empty~`, você pode misturar exclusões com atualizações no mesmo arquivo.
 
 +++
 
@@ -203,31 +205,31 @@ Problemas comuns de upload e soluções:
 
 ### Erros gerais de formato de arquivo
 
-* **Formato de arquivo inválido**: verifique se a extensão de arquivo corresponde ao formato de conteúdo (.json, .csv, .tsv ou .tab).
-* **&quot;Cabeçalho desconhecido&quot;**: os nomes de colunas devem corresponder ao esquema do conjunto de classificações (aplica-se a todos os formatos).
+* **Formato de arquivo inválido**: verifique se a extensão de arquivo corresponde ao formato de conteúdo (`.json`, `.csv`, `.tsv` ou `.tab`).
+* **Cabeçalho desconhecido**: os nomes das colunas devem corresponder ao esquema do conjunto de classificações (aplica-se a todos os formatos).
 
-### Erros específicos de CSV/TSV
+### Erros específicos de CSV e TSV
 
-* **&quot;A primeira coluna deve ser a chave&quot;**: verifique se o arquivo CSV/TSV tem uma linha de cabeçalho adequada com a coluna de chave primeiro.
-* **&quot;São necessários no mínimo dois itens de cabeçalho&quot;**: arquivos CSV/TSV devem ter pelo menos uma coluna &quot;Key&quot; e uma coluna de classificação.
-* **&quot;A primeira coluna de cabeçalho deve ser chamada de &#39;Key&#39;&quot;**: o primeiro cabeçalho de coluna deve ser exatamente &quot;Key&quot; (K maiúsculo, diferencia maiúsculas de minúsculas).
-* **&quot;Cabeçalhos em branco não são permitidos&quot;**: todos os cabeçalhos de colunas CSV/TSV devem ter nomes.
-* **&quot;O número de colunas não correspondeu aos cabeçalhos&quot;**: cada linha de dados CSV/TSV deve ter o mesmo número de campos que a linha de cabeçalho.
-* **&quot;Documento malformado&quot;**: verificar citação CSV, separação de guias adequada em arquivos TSV etc.
+* **A primeira coluna deve ser a chave**: verifique se o arquivo CSV ou TSV tem uma linha de cabeçalho adequada com a coluna de chave primeiro.
+* **São necessários no mínimo dois itens de cabeçalho**: arquivos CSV ou TSV devem ter pelo menos uma coluna `Key` e uma coluna de classificação.
+* **A primeira coluna de cabeçalho deve ser chamada de &#39;Key&#39;**: o primeiro cabeçalho de coluna deve ser exatamente `Key` (maiúscula `K`, diferencia maiúsculas de minúsculas).
+* **Não são permitidos cabeçalhos em branco**: todos os cabeçalhos de colunas CSV/TSV devem ter nomes.
+* **O número de colunas não correspondeu aos cabeçalhos**: cada linha de dados CSV ou TSV deve ter o mesmo número de campos que a linha de cabeçalho.
+* **&quot;Documento malformado**: verifique a citação de CSV, a separação de guias adequada em arquivos TSV e muito mais.
 
 ### Erros específicos de JSON
 
-* **&quot;A chave é um campo obrigatório&quot;**: todos os registros JSON devem ter um campo `"key"` não vazio (minúsculas, diferencia maiúsculas de minúsculas).
-* **&quot;Os dados são um campo obrigatório ao usar action=update&quot;**: as ações de atualização JSON devem incluir um campo `"data"`.
-* **&quot;Os dados são um campo obrigatório ao usar action=delete-field&quot;**: as ações delete-field JSON devem especificar quais campos serão excluídos no campo `"data"`.
-* **&quot;Os dados não devem estar presentes ao usar action=delete-key&quot;**: as ações delete-key JSON não podem incluir um campo `"data"`.
-* **&quot;Codificação sem suporte&quot;**: use apenas valores de codificação com suporte no campo `"enc"` (utf8, UTF8, latin1, LATIN1).
+* **A chave é um campo obrigatório**: todos os registros JSON devem ter um campo `"key"` não vazio (minúsculas, diferencia maiúsculas de minúsculas).
+* **Os dados são um campo obrigatório ao usar action=update**: as ações de atualização JSON devem incluir um campo `"data"`.
+* **Os dados são um campo obrigatório ao usar action=delete-field**: as ações delete-field JSON devem especificar quais campos serão excluídos no campo `"data"`.
+* **Os dados não devem estar presentes ao usar action=delete-key**: as ações delete-key JSON não podem incluir um campo `"data"`.
+* **Codificação sem suporte**: use apenas valores de codificação com suporte no campo `"enc"` (`utf8`, `UTF8`, `latin1`, `LATIN1`).
 * **Sintaxe JSON inválida**: verifique se o arquivo JSON está formatado corretamente seguindo as convenções JSONL. Verifique também se há formatação JSON geral, aspas ausentes, vírgulas, colchetes etc.
 
 ### Erros de limite de tamanho
 
-* **&quot;A chave excede o tamanho máximo&quot;**: chaves individuais não podem exceder 255 bytes.
-* **&quot;O valor da coluna excede o tamanho máximo&quot;**: valores de classificação individuais não podem exceder 255 bytes.
+* **A chave excede o tamanho máximo**: chaves individuais não podem exceder 255 bytes.
+* **O valor da coluna excede o tamanho máximo**: valores de classificação individuais não podem exceder 255 bytes.
 
 ## Práticas recomendadas
 

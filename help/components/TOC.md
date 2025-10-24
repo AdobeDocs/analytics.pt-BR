@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -264,16 +264,16 @@ ht-degree: 100%
    + Conjuntos de classificação {#sets}
       + [Visão geral](classifications/sets/overview.md)
       + [Arquivos de dados](classifications/sets/data-files.md)
-      + Gerenciar conjuntos de classificação {#manage}
-         + [Gerenciador de conjuntos de classificação](classifications/sets/manage/set-manager.md)
-         + [Criar um conjunto de classificação](classifications/sets/manage/create.md)
-         + [Configurações do conjunto de classificação](classifications/sets/manage/settings.md)
-         + [Esquema do conjunto de classificação](classifications/sets/manage/schema.md)
-         + [Regras do conjunto de classificação](classifications/sets/manage/rules.md)
-      + [Gerenciador de processos do conjunto de classificação](classifications/sets/job-manager.md)
-      + Consolidações de conjuntos de classificação {#consolidations}
-         + [Gerenciador de consolidações](classifications/sets/consolidations/manage.md)
-         + [Processo de consolidação](classifications/sets/consolidations/process.md)
+      + Conjuntos de classificação {#manage}
+         + [Gerenciar](classifications/sets/manage/set-manager.md)
+         + [Criar e editar](classifications/sets/manage/create.md)
+         + [Configurações ](classifications/sets/manage/settings.md)
+         + [Esquema](classifications/sets/manage/schema.md)
+         + [Regras](classifications/sets/manage/rules.md)
+      + [Processos de classificação](classifications/sets/job-manager.md)
+      + Consolidações de classificação {#consolidations}
+         + [Gerenciar](classifications/sets/consolidations/manage.md)
+         + [Criar e editar](classifications/sets/consolidations/process.md)
    + Construtor de regras de classificação (legado){#classifications-rulebuilder}
       + [Visão geral](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de regras de classificação](classifications/crb/classification-rule-set.md)
