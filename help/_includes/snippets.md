@@ -1,5 +1,5 @@
 ---
-source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
+source-git-commit: d6e51ae2668bc25edea76640cdd97abef184fa3e
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Um novo e simplificado [Report Builder](/help/analyze/report-builder/rb-overview.md) foi lançado em 16 de outubro de 2024. Ele é compatível com Mac, Windows e navegadores da Web.
->&#x200B;>Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para a nova Report Builder.
+>>Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para a nova Report Builder.
 
-## Anúncio do fim da vida útil do Reports & Analytics {#ra-eol}
+## Anúncio do fim da vida útil do Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -113,9 +113,9 @@ Dependendo do modelo de atribuição, o container e os canais recebem créditos 
 
 | Modelo | Container | Janela de retrospectiva | Explicação |
 |---|---|---|---|
-| Primeiro contato | Visita | 30 dias | A atribuição analisa somente a terceira visita. Entre email e exibição, o email foi o primeiro, portanto, o email recebe 100% de crédito pela compra de US$ 50. |
+| Primeiro contato | Visita | Janela de relatórios | A atribuição analisa somente a terceira visita. Entre email e exibição, o email foi o primeiro, portanto, o email recebe 100% de crédito pela compra de US$ 50. |
 | Primeiro contato | Visitante | 30 dias | A atribuição analisa as três visitas. A pesquisa paga foi a primeira, portanto recebe 100% de crédito pela compra de US$ 50. |
-| Linear | Visita | 30 dias | O crédito é dividido entre email e exibição. Ambos os canais recebem um crédito de US$ 25. |
+| Linear | Visita | Janela de relatórios | O crédito é dividido entre email e exibição. Ambos os canais recebem um crédito de US$ 25. |
 | Linear | Visitante | 30 dias | O crédito é dividido entre pesquisa paga, redes sociais, email e exibição. Cada canal recebe um crédito de US$ 12,50 pela compra. |
 | Forma de J | Visitante | 30 dias | O crédito é dividido entre pesquisa paga, redes sociais, email e exibição.<ul><li>O crédito será de 60% para a exibição (US$ 30).</li><li>De 20% para a pesquisa paga (US$ 10).</li><li>Os 20% restantes são divididos entre redes sociais e email (US$ 5 para cada).</li></ul> |
 | Declínio de tempo | Visitante | 30 dias | <ul><li>Intervalo de 0 dias entre o ponto de contato de exibição e a conversão. `2^(-0/7) = 1`</li><li>Intervalo de 0 dias entre o ponto de contato de email e a conversão. `2^(-0/7) = 1`</li><li>Intervalo de seis dias entre o ponto de contato de rede social e a conversão. `2^(-6/7) = 0.552`</li><li>Intervalo de nove dias entre o ponto de contato de pesquisa paga e a conversão. `2^(-9/7) = 0.41`</li>A normalização desses valores resulta no seguinte:<ul><li>Exibição: 33,8%, crédito de US$ 16,88</li><li>Email: 33,8%, crédito de US$ 16,88</li><li>Redes sociais: 18,6%, crédito de US$ 9,32</li><li>Pesquisa paga: 13,8%, crédito de US$ 6,92</li></ul></li></ul> |
