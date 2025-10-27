@@ -75,7 +75,7 @@ Para editar uma consolidação de classificação, na interface principal do Ado
 1. Selecione **[!UICONTROL Conjuntos de classificações]** no menu **[!UICONTROL Componentes]**.
 1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Consolidações]**.
 1. No gerenciador **[!UICONTROL Conjuntos de classificações Consolidações]**:
-   1. Selecione o nome da consolidação de classificação. A caixa de diálogo **[!UICONTROL Consolidação: _nome da consolidação de classificação_]**é exibida. A aparência e as ações disponíveis dependem do status atual da consolidação e se você ainda tem a opção de modificar a consolidação de classificação.
+   1. Selecione o nome da consolidação de classificação. A caixa de diálogo **[!UICONTROL Consolidação: _nome da consolidação de classificação_]**&#x200B;é exibida. A aparência e as ações disponíveis dependem do status atual da consolidação e se você ainda tem a opção de modificar a consolidação de classificação.
 
       | Ações disponíveis | Descrição |
       |---|---|
