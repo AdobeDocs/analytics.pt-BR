@@ -3,9 +3,9 @@ title: Criar conjuntos de classificações
 description: Saiba como criar campos e descrições disponíveis ao criar um conjunto de classificações.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ Você [cria](#create-a-classification-set) e [edita](#edit-a-classification-set)
 
 ## Criar um conjunto de classificação
 
-Para criar um conjunto de classificações, na interface principal:
+Para criar um conjunto de classificações:
 
-1. Selecione **[!UICONTROL Componentes]** na interface principal e **[!UICONTROL Conjuntos de classificações]**.
+1. Selecione **[!UICONTROL Componentes]** na barra de menu superior do Adobe Analytics e selecione **[!UICONTROL Conjuntos de classificações]**.
 1. Em **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Conjuntos de classificações]**.
 1. Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**.
 1. Na caixa de diálogo **[!UICONTROL Adicionar novo conjunto de classificações]**:
@@ -42,9 +42,9 @@ Para criar um conjunto de classificações, na interface principal:
 
 ## Editar um conjunto de classificações
 
-Para editar um conjunto de classificações, na interface principal:
+Para editar um conjunto de classificações:
 
-1. Selecione **[!UICONTROL Componentes]** na interface principal e **[!UICONTROL Conjuntos de classificações]**.
+1. Selecione **[!UICONTROL Componentes]** na barra de menu superior do Adobe Analytics e selecione **[!UICONTROL Conjuntos de classificações]**.
 1. Em **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Conjuntos de classificações]**.
 1. Selecione o título do seu conjunto de classificações.
 1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _título do conjunto de classificações_]**, você pode definir as [configurações](settings.md) e o [esquema](schema.md) para o conjunto de classificações.

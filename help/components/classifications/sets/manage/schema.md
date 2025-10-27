@@ -3,9 +3,9 @@ title: Esquema do conjunto de classificações
 description: Saiba como visualizar e editar o esquema para um conjunto de classificações individual.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1412'
 ht-degree: 4%
 
 ---
@@ -16,6 +16,9 @@ O esquema é a lista de classificações que você deseja aplicar às dimensões
 
 Para editar o esquema de um conjunto de classificações:
 
+
+1. Selecione **[!UICONTROL Componentes]** na barra de menu superior do Adobe Analytics e selecione **[!UICONTROL Conjuntos de classificações]**.
+1. Em **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Conjuntos de classificações]**.
 1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione o conjunto de classificações no qual deseja editar o esquema.
 1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _conjunto de classificações_]**, selecione a guia **[!UICONTROL Esquema]**. Essa guia consiste nos seguintes elementos de interface:
 
@@ -61,7 +64,7 @@ Para adicionar uma nova classificação, selecione ![Adicionar](/help/assets/ico
 
 ![Conjuntos de classificações - Adicionar classificação ao esquema](assets/classification-sets-schema-add-classification.png)
 
-Na caixa de diálogo **[!UICONTROL Adicionar uma nova classificação para _conjunto de classificações_]**, digite o **[!UICONTROL Nome da Classificação]**&#x200B;e selecione **[!UICONTROL Adicionar]**. A classificação é adicionada à lista.
+Na caixa de diálogo **[!UICONTROL Adicionar uma nova classificação para _conjunto de classificações_]**, digite o **[!UICONTROL Nome da Classificação]**e selecione **[!UICONTROL Adicionar]**. A classificação é adicionada à lista.
 
 
 
@@ -108,7 +111,7 @@ Na caixa de diálogo **[!UICONTROL Baixar dados para _conjunto de classificaçõ
 1. Para selecionar quais dados retornar, selecione uma opção em **[!UICONTROL Dados Retornados]**.
 
    * **[!UICONTROL Todos os valores]** retorna todos os valores dos dados de classificação atuais.
-   * **[!UICONTROL Qualquer coluna vazia]** retorna uma coluna com valores de chave para os dados de classificação existentes. E colunas sem valor para dados de classificação para os quais não existe valor.
+   * **[!UICONTROL Qualquer coluna vazia]** retorna uma coluna com valores de chave para os dados de classificação existentes. E colunas sem valor para dados de classificação para os quais não existem valores.
    * **[!UICONTROL Todas as colunas vazias]** retorna uma coluna de chave com valores para os dados de classificação existentes. E colunas sem valor para dados de classificação.
 1. Para selecionar o [formato de arquivo](/help/components/classifications/sets/data-files.md#general-file-requirements) dos dados de classificação baixados, selecione uma opção no menu suspenso **[!UICONTROL Formato de Arquivo]**. As opções são:
 
@@ -122,7 +125,7 @@ Na caixa de diálogo **[!UICONTROL Baixar dados para _conjunto de classificaçõ
    * **[!UICONTROL Latino-1]**.
 
 
-1. Selecione **[!UICONTROL Baixar]** para baixar os dados de classificação. Você pode encontrar o arquivo baixado no diretório de download padrão do seu navegador, e o arquivo é intitulado <code><i>Conjunto de classificações</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se o arquivo já existir, um número de sequência <code>(<i>x</i>)</code> é adicionado ao nome do arquivo.<br/>Se você tiver especificado opções que não retornam dados, verá uma caixa de diálogo **[!UICONTROL Aviso]** que informa a alteração das opções de intervalo de datas e dados retornados.
+1. Selecione **[!UICONTROL Baixar]** para baixar os dados de classificação. Você pode encontrar o arquivo baixado no diretório de download padrão do seu navegador, e o arquivo é intitulado <code><i>Conjunto de classificações</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se o arquivo já existir, um número de sequência <code>(<i>x</i>)</code> é adicionado ao nome do arquivo.<br/>Se você tiver especificado opções que não retornam dados, verá uma caixa de diálogo **[!UICONTROL Aviso]** para informá-lo de alterar as opções de intervalo de datas e dados retornados.
 
 
 ### Modelo
@@ -156,7 +159,13 @@ Na caixa de diálogo **[!UICONTROL Associar / Atualizar Local de Assimilação p
 
 1. Para selecionar um local da nuvem, selecione uma opção em **[!UICONTROL Conta da Localização]**. Somente [contas de localização de tipos de conta com suporte que permitem a importação de dados de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts) são mostradas. Para criar uma nova conta, selecione **[!UICONTROL Nova conta]**.
 1. Para selecionar um local, selecione uma opção de **[!UICONTROL Local]**. Somente os locais dos tipos de conta selecionados para a importação de dados de classificação são mostrados. Para criar um novo local, selecione **[!UICONTROL Novo local]**.
-1. Para selecionar um delimitador, selecione uma opção em **[!UICONTROL Delimitador de lista]**. As opções são:
+
+   >[!IMPORTANT]
+   >
+   >O local que você criar ou selecionar deve conter um **[!UICONTROL Prefixo]** (pasta) no **[!UICONTROL Bloco]** para hospedar os arquivos de dados de classificação. Por exemplo, uma pasta chamada `files`. A hospedagem de arquivos na raiz de um bucket não funciona com a maioria dos locais da nuvem.
+   >
+
+1. Para selecionar um delimitador, selecione uma opção no menu suspenso **[!UICONTROL Delimitador de lista]**. As opções são:
    * **[!UICONTROL Vírgula,]**
    * **[!UICONTROL Ponto e vírgula ;]**
    * **[!UICONTROL Dois-pontos:]**
@@ -170,7 +179,13 @@ Na caixa de diálogo **[!UICONTROL Associar / Atualizar Local de Assimilação p
 
 1. Para notificar os usuários sobre a conclusão dos trabalhos de assimilação, insira endereços de email, separados por vírgula, para **[!UICONTROL Email(s) a notificar quando os trabalhos de assimilação forem concluídos (separados por vírgula)]**.
 1. Selecione **[!UICONTROL Validar]**. A conexão com o local da nuvem é validada.
-1. Se a validação for bem-sucedida, você verá uma mensagem em caixa de informações que mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione&#x200B;**[!UICONTROL &#x200B; Salvar &#x200B;]**&#x200B;se tiver criado a conexão com a nuvem. Caso contrário, selecione&#x200B;**[!UICONTROL &#x200B; Atualizar &#x200B;]**. Ou selecione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar a configuração do local da nuvem.
+1. Se a validação for bem-sucedida, você verá uma mensagem em caixa de informações que mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione**[!UICONTROL  Salvar ]**se tiver criado a conexão com a nuvem. Caso contrário, selecione**[!UICONTROL  Atualizar ]**. Ou selecione**[!UICONTROL  Cancelar ]**para cancelar a configuração do local da nuvem.
+
+Ao fazer upload de arquivos no local da nuvem, em 15 minutos o arquivo é detectado e enviado como um trabalho de importação. O resultado desse trabalho de importação é relatado no [Gerenciador de trabalhos de classificações](/help/components/classifications/sets/job-manager.md). Se você for adicionado à lista de usuários para notificar sobre a conclusão de trabalhos de assimilação, também receberá mensagens de email.
+
+Por exemplo:
+
+![Conjuntos de classificações - email de validação do trabalho](assets/job-failed-validation.png){width="400"}
 
 
 ## Barra de ação
@@ -182,7 +197,7 @@ A barra de ações mostra as ações disponíveis para o conjunto de classifica�
 | ![Procurar](/help/assets/icons/Browse.svg) | **[!UICONTROL Adicionar Pesquisa]** | Adicione um conjunto de classificações como uma pesquisa (subclassificação).<br/>Na tabela **[!UICONTROL Anexar pesquisa]**: <ol><li>Selecione uma classificação de pesquisa no menu suspenso **[!UICONTROL Nome da Classificação]**.</li><li>Selecione **[!UICONTROL Adicionar]**.</li></ol>A classificação de pesquisa é adicionada à classificação e listada na coluna **[!UICONTROL Classificado por]** usando a ID interna. |
 | ![RemoverCírculo](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remover Pesquisa]** | Remova um conjunto de classificações como uma pesquisa. Para excluir a pesquisa permanentemente da classificação, na caixa de diálogo de confirmação **[!UICONTROL Remover _conjunto de classificações_ da _classificação_]**, selecione **[!UICONTROL Excluir]**. |
 | ![Renomear](/help/assets/icons/Rename.svg) | **[!UICONTROL Renomear]** | Renomeie uma classificação. Na caixa de diálogo **[!UICONTROL Renomear: _classificação_]**, digite um novo nome e selecione **[!UICONTROL Renomear]**. |
-| ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir um conjunto de classificações. A caixa de diálogo **[!UICONTROL Excluir _classificação_]**&#x200B;é exibida. Selecione **[!UICONTROL Excluir]**&#x200B;para excluir o conjunto de classificações. |
+| ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir um conjunto de classificações. A caixa de diálogo **[!UICONTROL Excluir _classificação_]**é exibida. Selecione **[!UICONTROL Excluir]**para excluir o conjunto de classificações. |
 
 
 <!--
