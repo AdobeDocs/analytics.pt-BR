@@ -3,10 +3,10 @@ title: Criar conjuntos de classificações
 description: Saiba como criar campos e descrições disponíveis ao criar um conjunto de classificações.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 2%
+source-wordcount: '442'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,10 @@ Para criar um conjunto de classificações:
 
          * Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir uma combinação do **[!UICONTROL Conjunto de Relatórios]** e do **[!UICONTROL Key Dimension]**.
 
-        Se você adicionar uma combinação do **[!UICONTROL Conjunto de relatórios]** e da **[!UICONTROL Chave do Dimension]** que já existe em outro conjunto de classificações, você verá um alerta vermelho abaixo da combinação. Você pode selecionar **[!UICONTROL Adicionar ao existente]** para abrir o outro conjunto de classificações e [adicionar classificações ao esquema](schema.md) para esse outro conjunto de classificações ou alterar a dimensão.
+        Se você adicionar uma combinação do **[!UICONTROL Conjunto de relatórios]** e da **[!UICONTROL Chave do Dimension]** que já existe em outro conjunto de classificações, uma mensagem vermelha será exibida abaixo da combinação.
+É possível:
+         * Selecione **[!UICONTROL Adicionar ao existente]** para abrir o outro conjunto de classificações e [adicionar classificações ao esquema](schema.md) para esse outro conjunto de classificações.
+         * Altere o **[!UICONTROL Conjunto de relatórios]** e a **[!UICONTROL Dimension de chaves]** para uma combinação que ainda não tenha feito a assinatura de outro conjunto de classificações.
       * **[!UICONTROL Pesquisa]**. Geralmente chamada de subclassificação ou secundária, uma tabela de pesquisa é uma classificação de uma classificação principal. Uma pesquisa consiste em metadados sobre um valor de classificação, em vez da dimensão original. Por exemplo, uma dimensão de *Produto* pode ter uma classificação principal de *Código de cor*. Uma tabela de pesquisa com o *Nome da cor* poderia ser anexada ao *Código de cor* para explicar cada código de cor.
 1. Selecione **[!UICONTROL Salvar]** para salvar o conjunto de classificações. Selecione **[!UICONTROL Cancelar]** para cancelar a definição.
 1. Para definir o esquema para o conjunto de classificação, selecione o conjunto de classificações recém-criado no gerenciador **[!UICONTROL Conjuntos de Classificações]** para [editar o conjunto de classificações](#edit-a-classification-set).
@@ -46,8 +49,8 @@ Para editar um conjunto de classificações:
 
 1. Selecione **[!UICONTROL Componentes]** na barra de menu superior do Adobe Analytics e selecione **[!UICONTROL Conjuntos de classificações]**.
 1. Em **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Conjuntos de classificações]**.
-1. Selecione o título do seu conjunto de classificações.
-1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _título do conjunto de classificações_]**, você pode definir as [configurações](settings.md) e o [esquema](schema.md) para o conjunto de classificações.
+1. Selecione o nome do seu conjunto de classificações.
+1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _nome do conjunto de classificações_]**, você pode definir as [configurações](settings.md) e o [esquema](schema.md) para o conjunto de classificação.
 1. Depois de concluído, selecione **[!UICONTROL Salvar]** para salvar suas alterações. Selecione **[!UICONTROL Cancelar]** para cancelar.
 
 

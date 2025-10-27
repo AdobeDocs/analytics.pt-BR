@@ -3,9 +3,9 @@ title: Criar E Editar Consolidações De Classificação
 description: Explica como criar, validar, executar, aprovar e cancelar consolidações de classificação.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Para editar uma consolidação de classificação, na interface principal do Ado
 1. Selecione **[!UICONTROL Conjuntos de classificações]** no menu **[!UICONTROL Componentes]**.
 1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Consolidações]**.
 1. No gerenciador **[!UICONTROL Conjuntos de classificações Consolidações]**:
-   1. Selecione o título da consolidação de classificação. A caixa de diálogo Consolidação: consolidação de classificação é exibida. A aparência e as ações disponíveis dependem do status atual da consolidação e se você ainda tem a opção de modificar a consolidação de classificação.
+   1. Selecione o nome da consolidação de classificação. A caixa de diálogo **[!UICONTROL Consolidação: _nome da consolidação de classificação_]**é exibida. A aparência e as ações disponíveis dependem do status atual da consolidação e se você ainda tem a opção de modificar a consolidação de classificação.
 
       | Ações disponíveis | Descrição |
       |---|---|
