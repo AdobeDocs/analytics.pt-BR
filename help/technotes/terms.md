@@ -3,7 +3,7 @@ title: Termos usados no Adobe Analytics
 description: Glossário do Adobe Analytics, que define termos comuns usados.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -85,7 +85,7 @@ Use este glossário para entender o contexto de muitos termos que o Adobe Analyt
 * **Chamada do servidor primário:** nome alternativo para solicitação de imagem ou hit, usado principalmente no contexto de marcação e cobrança de vários conjuntos. Quando o mesmo hit é enviado para vários conjuntos de relatórios, o primeiro conjunto de relatórios é uma chamada de servidor primário enquanto o restante são chamadas de servidor secundário. Esta regra se aplica a todos os tipos de hits, incluindo exibição de página e rastreamento de link. Consulte também Chamadas de servidor secundário.
 * **Regras de processamento:** pode se referir a:
    * Regras de processamento, uma forma de alterar a coleta de dados usando determinadas regras no Admin Console. Consulte [Regras de Processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) no guia do usuário Administração
-   * Regras de processamento de canal de marketing, um conjunto de regras que determina a qual canal de marketing um hit pertence. Consulte [Regras de Processamento do canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) no guia do usuário Administração
+   * Regras de processamento de canal de marketing, um conjunto de regras que determina a qual canal de marketing um hit pertence. Consulte [Regras de Processamento do canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) no guia do usuário Administração
 * **Prop:** consulte Variável de tráfego.
 * **Relatório classificado:** um formato de relatório que normalmente segue uma dimensão com uma métrica. Esse tipo de relatório permite que você veja os principais itens, como as páginas mais visualizadas do site. Consulte também Relatório de tendências.
 * **Tempo real:** exibe as variáveis configuradas assim que são coletadas com pouca ou nenhuma latência. Consulte [Relatórios em tempo real](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) no guia do usuário Administração

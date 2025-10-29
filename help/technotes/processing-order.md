@@ -3,7 +3,7 @@ title: Ordem de processamento dos dados no Adobe Analytics
 description: Saiba a ordem dos componentes e serviços que processam dados no Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 90%
@@ -35,7 +35,7 @@ Quando os dados chegam ao Adobe Analytics, os seguintes recursos ajustam os dado
 3. [**Regras de bot**](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md): aplique a filtragem de bot padrão ou personalizada para excluir esses dados dos relatórios.
 4. [**Regras de processamento**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md): regras personalizadas aplicadas aos seus dados pela sua organização. Inclui o mapeamento de [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md) à respectiva variável.
 5. **Regras VISTA**: regras flexíveis personalizadas aplicadas aos seus dados por um consultor do Adobe. As regras VISTA podem ser executadas antes ou depois das regras de processamento, dependendo das necessidades da organização. A maioria das regras VISTA geralmente é executada após as regras de processamento, mas cada organização é configurada de forma diferente. Entre em contato com a equipe de conta da Adobe para obter mais informações sobre as regras VISTA existentes.
-6. [**Regras de processamento de canal de marketing**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md): você pode usar [Regras de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) para preparar dados para uso nas regras de processamento do Canal de marketing.
+6. [**Regras de processamento de canal de marketing**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md): você pode usar [Regras de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) para preparar dados para uso nas regras de processamento do Canal de marketing.
 7. **Dados de geolocalização**: dimensões que dependem da pesquisa de endereço IP (por exemplo, a variável [Países](/help/components/dimensions/countries.md) ) são preenchidas.
 8. [**Ofuscação de IP**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): se sua organização optou por ofuscar endereços IP em dados brutos, isso será feito após a conclusão de todas as outras funções de processamento.
 

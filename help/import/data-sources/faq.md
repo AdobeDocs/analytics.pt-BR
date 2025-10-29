@@ -4,7 +4,7 @@ description: Perguntas frequentes sobre fontes de dados.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 7%
@@ -31,7 +31,7 @@ Os dados carregados pelas fontes de dados n찾o afetam de forma alguma as [Exibi�
 N찾o. Dados carregados por meio de fontes de dados:
 
 * N찾o passa pelas [Regras de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
-* N찾o passa pelas [Regras de processamento de canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+* N찾o passa pelas [Regras de processamento de canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
 * N찾o passa pelas [regras VISTA](/help/technotes/vista.md)
 +++
 
