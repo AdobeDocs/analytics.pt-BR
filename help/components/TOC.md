@@ -5,9 +5,9 @@ user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
 source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
    + [Consentimento da plataforma de publicidade](dimensions/ad-consent.md)
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nome do bot &#x200B;](dimensions/bot-name.md)
+   + [Nome do bot ](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -267,10 +267,10 @@ ht-degree: 98%
       + Conjuntos de classificação {#manage}
          + [Gerenciar](classifications/sets/manage/set-manager.md)
          + [Criar e editar](classifications/sets/manage/create.md)
-         + [Configurações &#x200B;](classifications/sets/manage/settings.md)
+         + [Configurações ](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
          + [Regras](classifications/sets/manage/rules.md)
-      + [Processos de classificação](classifications/sets/job-manager.md)
+      + [Trabalhos de classificação](classifications/sets/job-manager.md)
       + Consolidações de classificação {#consolidations}
          + [Gerenciar](classifications/sets/consolidations/manage.md)
          + [Criar e editar](classifications/sets/consolidations/process.md)
