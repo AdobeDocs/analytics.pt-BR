@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b1c22031b9254ff077dfdc04ab90ab231b504299
+source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
 workflow-type: tm+mt
-source-wordcount: '6543'
+source-wordcount: '6565'
 ht-degree: 99%
 
 ---
@@ -27,6 +27,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | --- | --- |
 | **Novembro de 2025** | |
 | Considerações importantes sobre regras VISTA | Atualização das considerações importantes sobre as [regras do Vista](/help/technotes/vista.md). |
+| Adição da ID da coluna de dados para ferramentas de IA conversacional | Adicionada a [ID de referência da coluna de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) para ferramentas de IA de conversação na coluna ref_type. |
 | **Outubro de 2025** | |
 | Conjuntos de classificação | Atualizações na documentação [Conjuntos de classificação](/help/components/classifications/sets/overview.md). |
 | Configuração de atribuição | Atualizações adicionais para refletir as novas opções de configuração de atribuição para modelo, container e janela de retrospectiva. |
@@ -84,7 +85,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Informações necessárias ao usar restrições de política organizacional com a Google Cloud Platform em feeds de dados e data warehouse | Adição de ID da organização da Google Cloud Platform pertencente à Adobe à documentação de [feeds de dados](/help/export/analytics-data-feed/create-feed.md) e [data warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Essas informações são necessárias somente para organizações que estejam usando as [Restrições de política da organização](https://cloud.google.com/storage/docs/org-policy-constraints) na Google Cloud Platform.</p> |
 | Documentação sobre a adição de componentes a projetos | Adição de informações gerais sobre como [adicionar os vários tipos de componente a projetos no Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Atualização da documentação do Advertising Analytics | Atualização da documentação em conformidade com as atualizações feitas na interface do usuário do [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
-| Mapear explicitamente variáveis de objeto XDM para variáveis de dados de contexto | A capacidade de o [&#x200B; definir explicitamente variáveis de dados de contexto usando o mapeamento de variáveis de objetos de XDM foi documentada](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
+| Mapear explicitamente variáveis de objeto XDM para variáveis de dados de contexto | A capacidade de o [ definir explicitamente variáveis de dados de contexto usando o mapeamento de variáveis de objetos de XDM foi documentada](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Nova documentação para atualização do Adobe Analytics para o Customer Journey Analytics | Para organizações que estão atualizando do Adobe Analytics para o Customer Journey Analytics, há várias opções de atualização e várias considerações a serem levadas em conta com base na implementação atual do Adobe Analytics em uma organização e nas metas de longo prazo.<p>Novos recursos de documentação agora estão disponíveis para ajudar você a entender melhor:</p><ul><li>Os vários caminhos de atualização existentes</li><li>Quais caminhos de atualização estão disponíveis com base na implementação atual do Adobe Analytics de uma organização</li><li>As vantagens e desvantagens de cada caminho de atualização</li><li>Orientação passo a passo para cada caminho de atualização</li><li>Considerações para manuseio de dados históricos</li><li>E muito mais.</li></ul><p>[Introdução à atualização para o Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Atualização da documentação sobre intervalos de datas personalizados | Capturas de tela e procedimentos atualizados relacionados à [criação de intervalos de datas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para corresponder aos recursos e ao design atuais do produto. |
 | **Abril de 2024** | |
@@ -185,7 +186,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](/help/technotes/client-hints.md). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](/help/components/classifications/sets/overview.md) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
