@@ -25,7 +25,7 @@ Alguns campos de objetos de dados também oferecem suporte ao respectivo [valor 
 
 ## Mapeamento de campo do objeto de dados
 
-Atualizações anteriores nesta tabela podem ser encontradas no [histórico de confirmações desta página no GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). De maneira semelhante às variáveis do AppMeasurement, todos os campos de objetos de dados fazem distinção entre maiúsculas e minúsculas.
+Atualizações anteriores nesta tabela podem ser encontradas no [histórico de confirmações desta página no GitHub](https://github.com/AdobeDocs/analytics.pt-BR/commits/main/help/implement/aep-edge/data-var-mapping.md). De maneira semelhante às variáveis do AppMeasurement, todos os campos de objetos de dados fazem distinção entre maiúsculas e minúsculas.
 
 | Caminho do campo de objeto de dados | Variável e descrição do Analytics |
 | --- | --- |
