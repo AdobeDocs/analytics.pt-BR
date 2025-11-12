@@ -30,7 +30,7 @@ Para configurar opções de relatório para uma solicitação Data Warehouse:
 
    | Opção | Função |
    |---------|----------|
-   | [!UICONTROL **Nome do arquivo**] | Identifica o relatório. <p>Se qualquer um dos caracteres especiais a seguir for usado no nome do arquivo, a solicitação não poderá ser salva: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>O caractere % pode ser usado somente se for seguido por &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, da seguinte maneira: <code>%R</code>, <code>%rsid</code>, e <code>%id</code>.</p> |
+   | [!UICONTROL **Nome do arquivo**] | Identifica o relatório. <p>Se qualquer um dos caracteres especiais a seguir for usado no nome do arquivo, a solicitação não poderá ser salva: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &grave; { } \| ~</code> </p><p>O caractere % pode ser usado somente se for seguido por &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, da seguinte maneira: <code>%R</code>, <code>%rsid</code>, e <code>%id</code>.</p> |
    | [!UICONTROL **Anexar intervalo de datas do relatório ao nome do arquivo**] | Adiciona o intervalo de datas ao nome do arquivo do relatório. <p>Por exemplo, se você solicitar dados de 1º de maio de 2024 até 7 de maio de 2024, o nome do arquivo incluirá o intervalo de datas de 20240501 a 20240507.</p> |
    | [!UICONTROL **CSV**] | Fornece relatórios em um formato de arquivo CSV para exibição de dados em uma planilha. |
    | [!UICONTROL **Tableau (TDE)**] | Fornece relatórios em um formato de arquivo de Extração de dados do Tableau (TDE), que pode ser usado para visualizar dados e criar camadas de dados adicionais no Tableau. |
