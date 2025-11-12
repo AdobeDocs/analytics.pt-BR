@@ -3,10 +3,10 @@ description: Entenda como criar segmentos usando a opção de arrastar e soltar 
 title: Criar segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1847'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -376,11 +376,11 @@ Um logotipo da Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) id
  <tbody> 
   <tr> 
    <td colname="col1"> Abandonar carrinho </td> 
-   <td colname="col2">Visualizar dados para visitantes que adicionaram itens aos carrinhos, mas não fizeram nenhum pedido. Na definição do segmento, o container é Visita. </td> 
+   <td colname="col2">Visualize os dados de visitantes que adicionaram itens aos carrinhos, mas não fizeram pedidos. Na definição do segmento, o container é Visita. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Novas visitas </td> 
-   <td colname="col2">Exibição de dados para visitantes que visitaram [1] uma vez no máximo. Na definição do segmento, o container é Visita. </p> </td> 
+   <td colname="col2">Visualize dados de visitantes que visitaram no máximo uma [1] vez. Na definição do segmento, o container é Visita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Não compradores </td> 
@@ -404,7 +404,7 @@ Um logotipo da Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) id
   </tr> 
   <tr> 
    <td colname="col1"> Visitas em única página </td> 
-   <td colname="col2"> Exibir dados de visitas onde você visualiza um valor de página única, embora você possa enviar várias visualizações de página durante essa visita. Visitas de página única com eventos de link de saída são incluídas no segmento.  </td> 
+   <td colname="col2"> Visualize dados de visitas em que você vê um único valor de página, mesmo que você possa enviar várias exibições de página durante a visita. Visitas de página única com eventos de link de saída são incluídas no segmento.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Produto visualizado não adicionado ao carrinho </td> 

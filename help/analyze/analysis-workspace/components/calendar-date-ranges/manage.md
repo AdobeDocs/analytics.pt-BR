@@ -4,10 +4,10 @@ description: Entenda como gerenciar intervalos de datas no Analysis Workspace.
 feature: Date Ranges
 role: User
 exl-id: 48cda13f-ec4d-43fa-be24-51e2ab6044dd
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ O gerenciador de Intervalos de datas tem os seguintes elementos de interface:
 A lista de intervalos de datas ➊ exibe todos os intervalos de datas. A lista tem as seguintes colunas:
 
 | Coluna | Descrição |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Selecione para favorecer ![Star](/help/assets/icons/Star.svg) ou desfavorecer ![StarOutline](/help/assets/icons/StarOutline.svg) um intervalo de datas. |
 | **[!UICONTROL Título e descrição]** | Para editar o título e a descrição, selecione o link de título, que abre o [Criador de intervalo de datas](create.md#date-range-builder). |
 | **[!UICONTROL Proprietário]** | O proprietário do intervalo de datas. |

@@ -4,7 +4,7 @@ description: Saiba como criar hiperlinks para itens de dimensão em uma tabela d
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 98%
@@ -27,7 +27,7 @@ Essa funcionalidade é particularmente útil ao criar hiperlinks para os seguint
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hiperlinks para dimensão](https://video.tv.adobe.com/v/3445788?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hiperlinks para dimensão](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

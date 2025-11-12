@@ -4,10 +4,10 @@ title: Exemplos de rotulagem
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
@@ -19,12 +19,12 @@ Suponha que você tenha os seguintes dados de ocorrência:
 
 * A primeira linha contém os rótulos para cada variável.
 * A segunda linha é o nome da variável. Se tiver um rótulo de ID, ele conterá o namespace atribuído entre parênteses.
-* Os dados de ocorrência começam na terceira linha.
+* Os dados de hit começam na terceira linha.
 
 | Rótulos | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
 | **Nome da variável** <br> **(Namespace)** | **MyProp1** <br> **(usuário)** | **ID de visitante** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
-| Dados de ocorrência | Mary | 77 | A | M | X |
+| Dados de hit | Mary | 77 | A | M | X |
 | | Mary | 88 | B | N | Y |
 | | Mary | 99 | C | O | Z |
 | | John | 77 | D | P | W |
@@ -42,12 +42,13 @@ No nosso exemplo, o arquivo de resumo contém os valores indicados na tabela aba
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valores da API</th>
-    <th rowspan="2">Tipo de arquivo<br/>de resumo<br/>retornado</th>
+    <th>Tipo de arquivo<br/>de resumo<br/>retornado</th>
     <th colspan="5" style="text-align:center">Dados no Arquivo de acesso do resumo</th>
   </tr>
   <tr>
     <th>Namespace/ID</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>ID de visitante</th>
     <th>MyEvar1</th>
@@ -97,7 +98,7 @@ No nosso exemplo, o arquivo de resumo contém os valores indicados na tabela aba
   <tr>
     <td>dispositivo</td>
     <td>não presente</td>
-    <td>77, 88</td>
+    <td>77,88</td>
     <td>A,B,C</td>
     <td>N, P</td>
     <td>U, W</td>
@@ -138,7 +139,7 @@ No nosso exemplo, o arquivo de resumo contém os valores indicados na tabela aba
     <td>55, 77</td>
     <td>não presente</td>
     <td>M, P, R</td>
-    <td>W, X</td>
+    <td>L, X</td>
   </tr>
 </table>
 

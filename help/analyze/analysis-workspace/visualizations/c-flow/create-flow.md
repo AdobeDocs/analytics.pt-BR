@@ -4,10 +4,10 @@ title: Configurar Uma Visualização De Fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1685'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -130,13 +130,13 @@ Suponhamos que você queira rastrear o caminho que os usuários percorreram para
 
 ## Configurar
 
-Um resumo da configuração de fluxo é exibido na parte superior das visualizações. Os caminhos no diagrama são proporcionais. Caminhos com maior atividade aparecem mais grossos.
+Um resumo da configuração de fluxo é exibido na parte superior das visualizações. Os caminhos no diagrama são proporcionais. Caminhos com mais atividade parecem mais grossos.
 
 ![Exemplo de saída de fluxo mostrando a configuração Termina com Visitas, Dimensão de definição de caminho: Página e Container de fluxo: visitantes.](assets/flow-output.png)
 
 Para detalhar ainda mais os dados, você tem várias opções:
 
-* O diagrama de fluxo é interativo. Passe o mouse sobre o diagrama para alterar os detalhes exibidos.
+* O diagrama de fluxo é interativo. Passe o mouse sobre o diagrama para alterar os detalhes mostrados.
 
 * Quando você seleciona um nó no diagrama, os detalhes dele são exibidos. Clique no nó novamente para recolhê-lo.
 
@@ -167,7 +167,7 @@ Use um menu de contexto em qualquer nó na visualização de fluxo com as seguin
 
 | Opção | Descrição |
 |--- |--- |
-| **[!UICONTROL Concentre-se neste nó]** | Altere o foco para o nó selecionado. O nó de foco é exibido no centro do diagrama de fluxo. |
+| **[!UICONTROL Concentre-se neste nó]** | Altere o foco para o nó selecionado. O nó de foco aparece no centro do diagrama de Fluxo. |
 | **[!UICONTROL Começar de novo]** | Retorna ao criador de diagrama de forma livre, no qual é possível criar um novo diagrama de fluxo. |
 | **[!UICONTROL Criar um filtro para este caminho]** | Criar um filtro. Essa seleção leva ao criador de filtros, onde é possível configurar o novo filtro. |
 | **[!UICONTROL Detalhamento]** | Detalhe o nó por Dimensões, Métricas ou Tempo disponíveis. |
@@ -176,7 +176,7 @@ Use um menu de contexto em qualquer nó na visualização de fluxo com as seguin
 | **[!UICONTROL Tendência]** | Crie um diagrama de tendências para o nó. |
 | **[!UICONTROL Mostrar próxima coluna]** / **[!UICONTROL Mostrar coluna anterior]** | Revela a próxima coluna (direita) ou a coluna anterior (esquerda) da visualização. |
 | **[!UICONTROL Ocultar coluna]** | Oculta a coluna selecionada da visualização. |
-| **[!UICONTROL Expandir toda a coluna]** | Expanda uma coluna para exibir todos os nós. Por padrão, somente os cinco principais nós são exibidos. |
+| **[!UICONTROL Expandir toda a coluna]** | Expanda uma coluna para mostrar todos os nós. Por padrão, somente os cinco nós principais são exibidos. |
 | **[!UICONTROL Criar público-alvo a partir da seleção]** | Cria um público-alvo com base na coluna selecionada. |
 | **[!UICONTROL Recolher toda a coluna]** | Ocultar todos os nós em uma coluna. |
 
@@ -204,8 +204,8 @@ No exemplo abaixo, **todas** as ocorrências de *Categoria principal do produto*
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização em um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 
@@ -312,7 +312,7 @@ Above each column, a filter appears when you hover over it. By selecting the fil
 | [!UICONTROL Breakdown] | Break the node down by available Dimensions, Metrics, or Time. |
 | [!UICONTROL Trend] | Create a trended diagram for the node. |
 | Show next column / Show previous column | Reveals the next (right) or previous (left) column of the visualization. |
-| Hide column | Hides the selected column from the visualization. | 
+| Hide column | Hides the selected column from the visualization. |
 | [!UICONTROL Expand entire column] | Expand a column to show all nodes. By default, only the top five nodes display. |
 
 ## Example scenario for 'limit to first/last occurrence'

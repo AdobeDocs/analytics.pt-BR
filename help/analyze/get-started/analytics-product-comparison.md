@@ -3,9 +3,9 @@ description: Requisitos de sistema e comparação do Analysis Workspace, Reports
 title: Comparação e requisitos de produtos do Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -26,13 +26,13 @@ Para obter informações sobre qual produto do Adobe Analytics usar, consulte [Q
 | **Inclusão dos dados do filtro de bot do administrador** <br> [Saiba mais](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | Não | Sim - relatório de bot separado | Não | Não | Não |
 | **Baixo tráfego (únicos excedidos) aparece** <br> [Saiba mais](/help/technotes/low-traffic.md) | Sim | Sim | Não | Não | Sim |
 | **Limite de linha visível (antes da paginação)** | 400 | 50000 | Ilimitado | Ilimitado | 50000 |
-| **Vários conjuntos de relatórios** | [Sim](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sim | Não | Sim | Não | Sim |
+| **Vários conjuntos de relatórios** | [Sim](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sim | Não | Sim | Não |
 | **Quantidade de detalhamentos** | Ilimitado | Até 2 | Ilimitado | Ilimitado | Ilimitado, executar em vários queries |
 | **Segmentação** <br> [Saiba mais](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sim | Sim | Sim, com [limitações](/help/components/segmentation/seg-reference/seg-compatibility.md) | Não | Sim |
 | **Métricas calculadas** <br> [Saiba mais](/help/components/calculated-metrics/cm-overview.md) | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Sim, com Atribuição | Sim | Não | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canais de marketing** <br> [Saiba mais](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sim | Sim | Sim | Sim - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sim |
 | **Análise de coorte** | [Sim](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Sim | Não | Não | Não |
-| **Atribuição** | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limitado | Não | Não | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Não |
+| **Atribuição** | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limitado | Não | Não | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Preparação** <br> [Saiba mais](/help/analyze/analysis-workspace/curate-share/curate.md) | Sim: conjunto de relatórios de projeto e virtuais | Não | Não | Não | Sim: somente conjunto de relatórios virtuais |
 | **Compartilhamento de projeto** <br> [Saiba mais](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sim, com funções de projeto | Sim | Não | Não | Não |
 | **Delivery programado** | Sim | Sim | Sim | Sim | Não |

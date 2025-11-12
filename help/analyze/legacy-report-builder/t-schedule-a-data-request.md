@@ -5,10 +5,10 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 96%
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ Por exemplo, você pode programar a entrega imediata de pastas de trabalho ou co
 >[!NOTE]
 >
 >A &quot;Hora de entrega&quot;/&quot;Hora do dia&quot; inserida pelo usuário especifica a hora em que a pasta de trabalho deve começar a ser processada, não a hora em que ela será realmente entregue. O tempo real em que a pasta de trabalho será entregue baseia-se principalmente no tempo necessário para o processamento (pastas de trabalho complexas e grandes demoram mais para serem processadas do que pastas de trabalho mais simples). Por exemplo, se uma pasta de trabalho levar 15 minutos para ser processada, o tempo de entrega real será de pelo menos 15 minutos depois do &quot;Tempo de entrega&quot;/&quot;Hora do dia&quot; especificado originalmente.
->&#x200B;>Além disso, há vários outros fatores que podem aumentar ainda mais o atraso, antes que a pasta de trabalho seja realmente entregue:
+>Além disso, há vários outros fatores que podem aumentar ainda mais o atraso, antes que a pasta de trabalho seja realmente entregue:
 >
 > * **A execução de várias programações diferentes do mesmo tipo ao mesmo tempo** pode sobrecarregar o sistema. O sistema de programação permite que algumas (5-10) pastas de trabalho de qualquer tipo sejam executadas simultaneamente, de modo que, quando mais de 5-10 estiverem programadas ao mesmo tempo, algumas precisarão aguardar a conclusão de outras pastas de trabalho na fila para que possam começar a processar. Esse problema pode ser atenuado pela programação de pastas de trabalho de uma empresa em horários escalonados ao longo do dia ou da hora, e não simultaneamente.
 > * Além do tipo de pasta de trabalho específico, as pastas de trabalho também aguardarão na fila, se a empresa tiver **mais de 15 a 20 de qualquer tipo de pasta de trabalho programadas ao mesmo tempo (em todos os tipos diferentes de pasta de trabalho)**. Esse problema pode ser resolvido alternando os horários de agendamento, em vez de executar muitos exatamente ao mesmo tempo.
@@ -48,12 +48,12 @@ Por exemplo, você pode programar a entrega imediata de pastas de trabalho ou co
 
 | Campo | Descrição |
 |--- |--- |
-| Selecionar relatório | O nome da pasta de trabalho. Para novos relatórios agendados, este campo é preenchido com o nome da pasta de trabalho ativa. |
-| Selecionar | Exibe a página Selecionar relatório. Você pode selecionar um relatório do servidor (onde todas as pastas de trabalho previamente agendadas estão armazenadas), ou de sua máquina local. Se você selecionar uma pasta de trabalho na unidade local no formato .xls, o sistema converterá o arquivo em .xlsx. Como parte da conversão, o arquivo é aberto no Excel e ativado. Se a pasta de trabalho selecionada para o relatório agendado tiver o mesmo nome de arquivo da pasta de trabalho aberta no momento no Excel, o sistema selecionará o arquivo local em vez do arquivo carregado previamente. Se você selecionar um relatório do repositório de agendamento, uma cópia da pasta de trabalho será criada no servidor, com seu nome de arquivo atualizado com 1 e o relatório agendado recém-criado usará a pasta de trabalho copiada. |
-| Personalizar | Permite a personalização do formato de data. |
-| Para | Exibe seu Catálogo de endereços do Outlook, se aplicável. |
+| Selecionar relatório | O nome da pasta de trabalho. Para novos relatórios agendados, esse campo é preenchido com o nome da pasta de trabalho ativa. |
+| Selecionar | Exibe a página Selecionar relatório. Você pode selecionar um relatório do servidor (onde todas as pastas de trabalho previamente agendadas estão armazenadas), ou de sua máquina local. Se você selecionar uma pasta de trabalho na unidade local no formato .xls, o sistema converterá o arquivo em .xlsx. Como parte da conversão, o arquivo é aberto no Excel e ativado. Se a pasta de trabalho selecionada para o relatório agendado tiver o mesmo nome de arquivo que a pasta de trabalho atualmente aberta no Excel, o sistema selecionará o arquivo local em vez do arquivo carregado anteriormente. Se você selecionar um relatório do repositório de agendamento, uma cópia da pasta de trabalho será criada no servidor, com seu nome de arquivo atualizado com 1 e o relatório agendado recém-criado usará a pasta de trabalho copiada. |
+| Personalizar | Permite personalizar o formato de data. |
+| Para | Exibe o Catálogo de Endereços do Outlook, se aplicável. |
 | Enviar para: Email | O destinatário do e-mail da pasta de trabalho. |
-| Power BI | Consulte [Publicação de pasta de trabalho no Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) para mais informações. |
+| Power BI | Consulte [Publicar pasta de trabalho no Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) para obter mais informações. |
 | Assunto | Uma descrição definida pelo usuário. |
 | Agendamento | Permite especificar quando enviar a pasta de trabalho. (Imediatamente, a cada hora, diariamente, semanalmente, mensalmente e anualmente.) |
 
@@ -64,16 +64,16 @@ Por exemplo, você pode programar a entrega imediata de pastas de trabalho ou co
 | Campo | Descrição |
 |--- |--- |
 | Guia **Agendamento** |  |
-| Hora de entrega | Permite programar o relatório imediatamente ou para um momento posterior. A hora do dia é relativa ao fuso horário especificado no computador. |
-| Padrão de recorrência | Envia a pasta de trabalho com base em suas seleções. |
+| Hora de entrega | Permite programar o relatório imediatamente ou para um momento posterior. A hora do dia é relativa ao fuso horário especificado em seu computador. |
+| Padrão de Recorrência | Envia a pasta de trabalho com base em suas seleções. |
 | Intervalo de recorrência | Permite especificar quando começar e parar de receber a pasta de trabalho.   Observação: programar um relatório no primeiro dia de qualquer período corrente (semana, mês, trimestre ou ano) retorna dados somente para o primeiro dia. |
 | Guia **Opções de arquivo** |  |
 | Formato do arquivo | Permite selecionar um formato de entrega do Excel 2007 (.xlsx) ou 2003 (.xls), .pdf, .csv, .mht, .txt e .xml. |
-| Destino do arquivo | Especifica Email ou FTP. As opções na página mudam, dependendo da sua seleção. Para FTP, você precisa garantir que o host esteja disponível externamente. |
-| Idioma do conteúdo do arquivo | Especifica o idioma a ser usado na carta de apresentação. Você pode selecionar chinês (simplificado ou tradicional), alemão, francês, japonês, coreano, português brasileiro ou espanhol. |
+| Destino do arquivo | Especifica email ou FTP. As opções na página mudam, dependendo da sua seleção. Para FTP, você deve garantir que o host esteja disponível externamente. |
+| Idioma do Conteúdo do Arquivo | Especifica o idioma que deseja usar para a carta de apresentação. Você pode selecionar chinês (simplificado ou tradicional), alemão, francês, japonês, coreano, português do Brasil ou espanhol. |
 | Guia **Opções de publicação** |  |
 | Publicação no Power BI | <ul><li>Publicar pasta de trabalho no Power BI</li><li>Publicar todas as solicitações do Report Builder como conjuntos de dados do Power BI</li><li>Publicar todas as tabelas formatadas como conjuntos de dados do Power BI</li></ul> |
-| Rotule esse relatório do Power BI como | Detalhes da rotulação |
+| Rotular este relatório do Power BI como | Detalhes da rotulagem |
 
 1. Clique em **[!UICONTROL OK]** e, em seguida, clique em **[!UICONTROL Sair]**.
 

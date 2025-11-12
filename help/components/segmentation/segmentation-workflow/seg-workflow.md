@@ -3,10 +3,10 @@ description: Saiba mais sobre um fluxo de trabalho sugerido para criar segmentos
 title: Visão geral do fluxo de trabalho de segmentação
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 47%
+ht-degree: 40%
 
 ---
 
@@ -17,7 +17,7 @@ Este artigo descreve uma sugestão de fluxo de trabalho para criar segmentos com
 
 | Etapa | Ação | Detalhes |
 |:--:|---|---|
-| 1 | [Planejar segmentos](/help/components/segmentation/segmentation-workflow/seg-plan.md) | Você fez todas as perguntas apropriadas antes de construir segmentos e configurar um ambiente de gerenciamento de segmentos? Você projetou o segmento tendo em mente a finalidade desejada e o uso distinto? <br/>Consulte a [Lista de verificação de planejamento de segmento](seg-plan.md) para obter ajuda sobre como planejar e organizar seus segmentos. |
+| 1 | [Planejar segmentos](/help/components/segmentation/segmentation-workflow/seg-plan.md) | Você fez todas as perguntas certas antes de criar segmentos e configurar um ambiente de gerenciamento de segmentos? Você projetou o segmento tendo em mente a finalidade desejada e o uso distinto? <br/>Consulte a [Lista de verificação de planejamento de segmento](seg-plan.md) para obter ajuda sobre como planejar e organizar seus segmentos. |
 | 2 | [Criar segmentos](seg-create.md) | Use as várias opções disponíveis para criar um novo segmento. |
 | 3 | [Construir segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Crie e edite segmentos para usar em todos os recursos do Analytics. <br/>Consulte [Criar Segmentos Sequenciais](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) para saber como criar segmentos com o operador THEN. |
 | 4 | [Marcar segmentos](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Marque segmentos para facilitar a organização e o compartilhamento. Consulte como planejar e atribuir tags para pesquisas e organização simples e avançada. |

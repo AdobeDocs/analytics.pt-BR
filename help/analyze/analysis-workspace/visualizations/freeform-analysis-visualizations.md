@@ -5,7 +5,7 @@ title: Visão geral das visualizações
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 88%
@@ -16,13 +16,13 @@ ht-degree: 88%
 
 O Workspace oferece várias visualizações que permitem criar representações visuais dos seus dados. Como gráficos de barras, gráficos de rosca, histogramas, gráficos de linhas, mapas, gráficos de dispersão, entre outros.
 
-## Tipos
+##  Tipos
 
 Os seguintes tipos de visualização estão disponíveis no Analysis Workspace:
 
 
 | Ícone | Nome | Descrição |
-| :---: | --- | ---| 
+| :---: | --- | ---|
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [Área](/help/analyze/analysis-workspace/visualizations/area.md) | Uma visualização de gráfico de área. Semelhante a um gráfico de linhas, mas apresenta uma área colorida abaixo da linha. Use um gráfico de área quando você tiver diversas métricas e desejar visualizar a área expressa pela interseção de duas ou mais métricas. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barra](/help/analyze/analysis-workspace/visualizations/bar.md) | A visualização de gráfico de barras mostra barras verticais que representam vários valores em uma ou mais métricas. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barra empilhada](/help/analyze/analysis-workspace/visualizations/bar.md) | A visualização de gráfico de barras empilhadas mostra barras verticais que representam vários valores em uma ou mais métricas. |
@@ -116,7 +116,7 @@ Além disso, é possível renomear rótulos de legenda para ajudá-lo a tornar a
 
 Para editar um rótulo de legenda:
 
-1. Clique com o botão direito do mouse em uma das etiquetas de legenda.
+1. Clique com o botão direito do mouse em um dos rótulos de legenda.
 1. Clique em **[!UICONTROL Editar rótulo]**.
 
    ![Um rótulo de legenda e a opção “Editar rótulo”.](assets/edit-label.png)
@@ -263,6 +263,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/30761/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->

@@ -4,10 +4,10 @@ description: Saiba como as dicas do cliente substituirão gradualmente o usuári
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -64,14 +64,14 @@ Observe que fullVersionList não está coletado no momento porque a versão prin
 A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 
 | Dica | Descrição | Alta ou baixa entropia | Exemplo |
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | Sec-CH-UA | Navegador e versão significativa | Baixa | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixa | `true` |
 | Sec-CH-UA-Platform | Sistema operacional/plataforma | Baixa | `"Android"` |
 | Arquitetura do | Arquitetura do site | Alta | `"arm"` |
 | bitness | Bitness da arquitetura | Alto | `"64"` |
 | fullVersionList | Lista de marcas com suas versões | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| model | Modelo do dispositivo | Alta | `"Pixel 3"` |
+| modelo | Modelo do dispositivo | Alta | `"Pixel 3"` |
 | platformVersion | Versão do sistema operacional/plataforma | Alta | `"10"` |
 
 * As dicas de baixa entropia são coletadas por meio do cabeçalho da solicitação.

@@ -4,10 +4,10 @@ title: Usar modelos
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '18674'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 Os modelos (ou modelos da empresa) do Analysis Workspace fornecem insights rápidos sobre os casos de relatórios mais comuns. Confira abaixo alguns exemplos de perguntas às quais você pode responder com modelos:
 
-* Quantas pessoas visitam o seu site
-* Quantos desses visitantes são visitantes únicos (contados somente uma vez)
-* Como eles chegaram até o site (se os visitantes seguiram um link ou chegaram diretamente ao site)
-* Quais palavras-chave os visitantes usaram para pesquisar pelo conteúdo do site
-* Por quanto tempo os visitantes permaneceram em uma página específica ou no site
-* Em quais links o visitante clicou e quando ele deixou o site
-* Quais canais de marketing são os mais eficazes na geração de receita ou eventos de conversão
-* Quanto tempo foi utilizado ao assistir a um vídeo
-* Quais navegadores e dispositivos eles utilizaram para visitar seu site
+* Quantas pessoas visitam seu site
+* Quantos desses visitantes são visitantes únicos (contados apenas uma vez)
+* Como eles chegaram ao site (como se eles seguissem um link ou chegassem lá diretamente)
+* Quais palavras-chave os visitantes usaram para pesquisar o conteúdo do site
+* Por quanto tempo os visitantes permaneceram em uma determinada página ou em todo o site
+* Quais links os visitantes clicaram e quando saíram do site
+* Quais canais de marketing são mais eficazes para gerar receita ou eventos de conversão
+* Quanto tempo eles gastaram assistindo a um vídeo
+* Quais navegadores e dispositivos eles usaram para visitar seu site
 
 As informações a seguir descrevem como acessar e utilizar modelos a partir da guia [!UICONTROL Modelos] do Analysis Workspace.
 
@@ -260,7 +260,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 Estes são os modelos disponíveis:
 
 | Nome do modelo | Por que usar este modelo <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
-| --- | --- | 
+| --- | --- |
 | [!UICONTROL **Tutorial de treinamento**] | Saiba mais sobre a terminologia e as etapas comuns do Analysis Workspace para criar a sua primeira análise |
 | [!UICONTROL **Páginas**] | <!--duplicated in Engagement section--> Identifique as páginas mais e menos populares. <p>**Isso pode ajudar** a entender melhor o seu público-alvo e o tipo de informação em que estão mais interessados(as).</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar metadados de página para aumentar a visibilidade de páginas com menos exibições ou aprimorar o conteúdo das páginas mais exibidas.</p><p>Este modelo usa a [dimensão Página](/help/components/dimensions/page.md) e a métrica [Exibições de página](/help/components/metrics/page-views.md).</p> |
 | [!UICONTROL **Exibições de página**] | <!--duplicated in Engagement section--> Veja o número total de exibições da página. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a entender melhor como o tráfego no site pode estar aumentando ou diminuindo com o tempo.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente por comparar o tráfego do site antes e depois do início da campanha. Ou você pode comparar o tráfego em feriados de ano a ano.</p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e a métrica [Exibições de página](/help/components/metrics/page-views.md).</p> |
@@ -485,7 +485,7 @@ Estes são os modelos disponíveis:
 Os seguintes modelos estão disponíveis:
 
 | Nome do modelo | Por que usar este modelo <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
-| --- | --- | 
+| --- | --- |
 | [!UICONTROL **Métricas principais**] | <!--duplicated in Most popular section--> Visualize um relatório que mostra as métricas de exibições da página, visitas e visitantes únicos lado a lado. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a comparar essas métricas importantes para obter uma visão mais completa do número de pessoas únicas que visitam o site, o número de vezes que as páginas foram visitadas e o número de sessões.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar o número médio de páginas que cada pessoa visualizou ao visitar o site em uma determinada semana ou mês e como isso mudou durante certos períodos do ano ou antes e depois da realização de campanhas de marketing. </p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e as métricas [Exibições de página](/help/components/metrics/page-views.md), [Visitas](/help/components/metrics/visits.md) e [Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
 | [!UICONTROL **Exibições de página**] | <!--duplicated in Most popular section-->Veja o número total de exibições da página. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a entender melhor como o tráfego no site pode estar aumentando ou diminuindo com o tempo.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente por comparar o tráfego do site antes e depois do início da campanha. Ou você pode comparar o tráfego em feriados de ano a ano.</p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e a [métrica Exibições de página](/help/components/metrics/page-views.md).</p> |
 | [!UICONTROL **Páginas**] | <!--duplicated in Most popular section-->Identifique as páginas mais e menos populares. <p>**Isso pode ajudar** a entender melhor o seu público-alvo e o tipo de informação em que estão mais interessados(as).</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar metadados de página para aumentar a visibilidade de páginas com menos exibições ou aprimorar o conteúdo das páginas mais exibidas.</p><p>Este modelo usa a [dimensão Página](/help/components/dimensions/page.md) e a métrica [Exibições de página](/help/components/metrics/page-views.md).</p> |
@@ -613,7 +613,7 @@ Os seguintes modelos estão disponíveis:
 Estes são os modelos disponíveis:
 
 | Nome do modelo | Por que usar este modelo <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
-| --- | --- | 
+| --- | --- |
 | [!UICONTROL **Funil de conversão de produtos**] | Visualize a conversão de produtos em uma visualização de funil que mostra carrinhos, check-outs e pedidos. É possível ver também porcentagens de conversão, médias de receita, médias de unidade e médias de pedido.<p>**Isso pode ajudar** a entender melhor como as pessoas progridem e abandonam durante o processo de conversão.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aprimorar o site para facilitar um processo de check-out mais fluido.</p> |
 | **Produtos** | Confira quais produtos estão impulsionando as métricas principais, como os mais vendidos ou os mais visualizados. <p>**Isso pode ajudar** a entender melhor quais produtos são mais bem-sucedidos.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar os fundos destinados a produtos bem-sucedidos e diminuir os de produtos de menor sucesso.</p><p>Esse modelo usa a métrica Pedidos e a dimensão Produto. |
 | **Desempenho do produto** | Veja quais produtos têm o melhor desempenho.<p>**Isso pode ajudar** a entender melhor quais produtos são mais bem-sucedidos.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar os fundos destinados a produtos bem-sucedidos e diminuir os de produtos de menor sucesso.</p><p>Este modelo usa as métricas “Exibições do produto”, “Adições ao carrinho”, “Pedidos”, “Receita” e “Unidades”. Ele também usa a dimensão Produto. |
@@ -982,7 +982,7 @@ Estes são os modelos disponíveis:
 Estes são os modelos disponíveis:
 
 | Nome do modelo | Por que usar este modelo <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
-| --- | --- | 
+| --- | --- |
 | [!UICONTROL **Métrica Pessoas**] | Veja o número de pessoas que estão interagindo com a sua marca. <p>**Isso pode ajudar** a entender melhor as tendências de uso do site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como medir a eficácia dos esforços recentes de marketing em gerar novos visitantes para o site.</p> |
 | **Perfil do visitante** > **Visão geral da localização** | Tenha uma visão geral da localização do visitante em uma visualização de mapa.<p>**Isso pode ajudar** a entender melhor onde estão os visitantes que acessam o site.  </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como concentrar os recursos de marketing nos locais em que observar maior interesse e oportunidades.</p><!-- This template uses the --> |
 | **Perfil do visitante** > **Segmentação geográfica** > **Países geográficos** | Veja o país de origem das pessoas que visitam o site.<p>**Isso pode ajudar** a entender melhor quais são os principais países de origem de visitantes do site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nesses países ou garantir que a experiência do site seja ideal em países com diferentes idiomas nativos.</p><p>Este modelo usa a dimensão Países. </p> |
@@ -1202,7 +1202,7 @@ Estes são os modelos disponíveis:
 Estes são os modelos disponíveis:
 
 | Nome do modelo | Por que usar este modelo <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
-| --- | --- | 
+| --- | --- |
 | [!UICONTROL **Canais de marketing**] > [!UICONTROL **Relatório de visão geral de canal**] | Por meio da atribuição personalizada, este modelo mostra como visitantes chegam ao seu site.<p>**Isso pode ajudar** a entender melhor quais dos seus canais de marketing são mais eficazes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o investimento em canais de marketing eficazes e livrar-se de canais de marketing menos eficazes.</p><p>Este modelo usa a dimensão ID (variáveis/canal de marketing) e a métrica Receita.</p> |
 | [!UICONTROL **Canais de marketing**] > [!UICONTROL **Primeiro canal de contato**] | Veja o primeiro canal de marketing com o qual um visitante corresponde durante seu período de engajamento (30 dias, por padrão). <p>**Isso pode ajudar** a entender melhor quais canais de marketing geram o tráfego inicial para o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão Primeiro canal de contato.</p> |
 | [!UICONTROL **Canais de marketing**] > [!UICONTROL **Detalhes do primeiro canal de contato**] | Veja os detalhes do primeiro canal de marketing que um(a) visitante utiliza durante o seu período de engajamento (30 dias por padrão).<p>**Isso pode ajudar** a entender melhor o que contribuiu para que a visita ocorresse por meio daquele canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão Detalhes do primeiro canal de contato.</p> |
@@ -1267,7 +1267,7 @@ Estes são os modelos disponíveis:
 Estes são os modelos disponíveis:
 
 | Nome do modelo | Por que usar este modelo <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
-| --- | --- | 
+| --- | --- |
 | [!UICONTROL **Operadora de celular**] | Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão “Operadora de celular”.</p> |
 | **Dispositivos** | Veja a marca e o modelo dos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais dispositivos móveis são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar a renderização do site para os dispositivos móveis mais comuns.</p><p>Este modelo usa a dimensão “Nome do dispositivo móvel”.</p> |
 | **Tipo de dispositivo** | Veja os tipos de dispositivos móveis que as pessoas usam para acessar o site, como celulares e tablets.<p>**Isso pode ajudar** a entender melhor os vários tipos de dispositivo móvel usados para acessar o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar o site para os tipos de dispositivo móvel mais usados.</p><p>Este modelo usa a dimensão “Tipo de dispositivo móvel”.</p> |

@@ -3,10 +3,10 @@ description: Explica os preparativos necessários para migrar componentes e proj
 title: Preparar-se para migrar componentes e projetos do Adobe Analytics para o Customer Journey Analytics
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '863'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -27,21 +27,21 @@ Antes de migrar seus projetos e componentes associados, primeiro siga as etapas 
 
    * Para usar o conector de origem do Adobe Analytics, é necessário:
 
-      1. [Configurar conjuntos de relatórios para assimilação na Adobe Experience Platform e no Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=pt-BR#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Configurar conjuntos de relatórios para assimilação na Adobe Experience Platform e no Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [Assimilar e usar os dados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=pt-BR)
 
    * Para usar o SDK da Web, é necessário:
 
-      1. [Configurar conjuntos de relatórios para assimilação na Adobe Experience Platform e no Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=pt-BR#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Configurar conjuntos de relatórios para assimilação na Adobe Experience Platform e no Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Assimilar dados via Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=pt-BR)
+      1. [Assimilar dados via Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. Crie uma [conexão](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=pt-BR) e [exibição de dados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=pt-BR) com os dados assimilados.
+1. Crie uma [conexão](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) e [exibição de dados](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=pt-BR) com os dados assimilados.
 
 1. Verifique se os usuários no Customer Journey Analytics estão provisionados para as visualizações de dados em que os dados estão sendo mapeados.
 
-   Para obter mais informações, consulte [Permissões do Customer Journey Analytics no Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=pt-BR#customer-journey-analytics-permissions-in-admin-console) em [Controle de acesso do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=pt-BR).
+   Para obter mais informações, consulte [Permissões do Customer Journey Analytics no Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) em [Controle de acesso do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
    A guia Permissões faz parte de cada perfil de produto no Admin Console. Você pode adicionar usuários a perfis de produtos específicos. Em seguida, você atribui direitos a visualizações de dados específicas e especifica quais permissões os usuários em um perfil de produto têm.
 
@@ -103,7 +103,7 @@ Remova esses elementos do projeto do Adobe Analytics antes de migrar o projeto p
 
 * [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
 
-* [Comparação de segmentos &#x200B;](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+* [Comparação de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 * [Público-alvo médio por minuto de mídia](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
 
@@ -129,14 +129,14 @@ Remova esses elementos do projeto do Adobe Analytics antes de migrar o projeto p
 ### Dimensões que devem ser mapeadas manualmente
 
 * averagepagetime
-* pagetimeseconds
-* singlepagevisits
+* pagetimesseconds
+* singlepagevisitors
 * visitnumber
 * timeprior
-* timespent
+* tempo gasto
 * categoria
 * connectiontype
-* customerloyalty
+* customerfidelização
 * customlink
 * downloadlink
 * exitlink
@@ -176,7 +176,7 @@ Remova esses elementos do projeto do Adobe Analytics antes de migrar o projeto p
 * customlinkinstances
 * downloadlinkinstances
 * darkvisitors
-* singlepagevisits
+* singlepagevisitors
 * singlevaluevisitors
 * visitorhomepage
 * visitorsmcvisid

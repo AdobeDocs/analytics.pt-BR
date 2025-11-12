@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar locais de importação e exportação na nuvem
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -219,10 +219,10 @@ As 16 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de ass
 * us-west-1
 * us-west-2
 * ap-south-1
-* ap-northeast-2
+* ap-nordeste-2
 * ap-southeast-1
 * ap-southeast-2
-* ap-northeast-1
+* ap-nordeste-1
 * ca-central-1
 * eu-central-1
 * eu-west-1

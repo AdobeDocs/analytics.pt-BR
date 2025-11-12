@@ -3,7 +3,7 @@ description: Entenda como usar o gerenciador de segmentos para gerenciar segment
 title: Gerenciar segmentos
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 16%
@@ -34,7 +34,7 @@ O Gerenciador de segmentos tem os seguintes elementos de interface:
 A lista de segmentos ➊ exibe todos os segmentos que você possui, os segmentos que foram segmentados para todos os seus projetos e os segmentos que foram compartilhados com você. A lista tem as seguintes colunas:
 
 | Coluna | Descrição |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Selecione para favorecer ![Star](/help/assets/icons/Star.svg) ou desfavorecer ![StarOutline](/help/assets/icons/StarOutline.svg) um segmento. Ver [Marcar segmento como favorito](t-seg-favorite.md) |
 | **[!UICONTROL Título e descrição]** | Para editar o segmento, selecione o link de título, que abre o [Construtor de segmentos](seg-build.md). Um segmento compartilhado é indicado com ![Compartilhamento](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Conjunto de relatórios]** | O conjunto de relatórios ao qual esse segmento se aplica. |
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=pt-BR) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

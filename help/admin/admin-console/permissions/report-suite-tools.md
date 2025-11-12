@@ -4,10 +4,10 @@ description: Entenda cada item de permissão em Ferramentas do conjunto de relat
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 1dba07de2836699ceaad31b4bd3149c169c51211
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 78%
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ Esta tabela lista todos os itens de permissões em Ferramentas de conjunto de re
 | Item de permissão das Ferramentas do conjunto de relatórios | Descrição |
 |------|------|
 | [!UICONTROL Resumo da conta] | Concede acesso a Geral > Configurações gerais de conta no Gerenciador de conjunto de relatórios. |
-| [!UICONTROL Configuração do Advertising Analytics] | Permite que os usuários configurem conjuntos de relatórios que serão provisionados para o Advertising Analytics. |
+| [!UICONTROL Configuração do Advertising Analytics] | Permite que os usuários configurem conjuntos de relatórios a serem provisionados para o Advertising Analytics. |
 | [!UICONTROL Detecção de anomalias] | Concede acesso à Detecção de anomalias na Analysis Workspace. |
 | [!UICONTROL Páginas de bot] | Não usado. |
 | [!UICONTROL Bots] | Não usado. |
@@ -37,7 +37,7 @@ Esta tabela lista todos os itens de permissões em Ferramentas de conjunto de re
 | [!UICONTROL Métricas padrão] | Concede acesso a Configurações individuais do Conjunto de relatórios > Métricas padrão no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Excluir por endereço IP] | Concede acesso a Administração > Excluir por IP na navegação superior do Analytics. |
 | [!UICONTROL Métodos de descoberta] | Concede acesso a Conversão > Métodos de descoberta no Gerenciador de conjunto de relatórios. |
-| [!UICONTROL Variáveis de lista &#x200B;] | Concede acesso a Conversão > Variáveis de lista no Gerenciador de conjunto de relatórios. |
+| [!UICONTROL Variáveis de lista ] | Concede acesso a Conversão > Variáveis de lista no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Personalização de menu] | Concede acesso a Geral > Personalizar menus no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Meus Relatórios Recomendados] | Não usado. |
 | [!UICONTROL Pesquisa paga] | Concede acesso a Geral > Detecção de pesquisa paga no Gerenciador de conjunto de relatórios. |

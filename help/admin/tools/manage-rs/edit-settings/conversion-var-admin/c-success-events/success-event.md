@@ -5,10 +5,10 @@ title: Visão geral dos eventos bem-sucedidos
 feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 54%
+ht-degree: 26%
 
 ---
 
@@ -16,25 +16,25 @@ ht-degree: 54%
 
 Eventos bem-sucedidos (também conhecidos como eventos de conversão ou eventos personalizados) são ações que podem ser rastreadas. Você determina o que é um evento bem-sucedido. Por exemplo, se um visitante comprar um item, o evento de compra pode ser considerado o evento bem-sucedido.
 
-Para obter uma visão geral em vídeo sobre eventos de sucesso, consulte [Introdução a eventos de conversão](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) no guia de tutoriais do Analytics.
+Para obter uma visão geral em vídeo sobre eventos de sucesso, consulte [Introdução a eventos de conversão](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) no guia de tutoriais do Analytics.
 
 ## Exemplos de evento bem-sucedido
 
-Há muitas formas de eventos de sucesso, dependendo do tipo de site da Web. Vários exemplos incluem:
+Há vários tipos de eventos bem-sucedidos, dependendo do tipo de site. Vários exemplos incluem:
 
-* **Vendas**: exibição de produto, check-out, compra
-* **Mídia**: assinatura, assinatura de concurso, exibição de página, exibição de vídeo
+* **Varejo**: exibição de produto, check-out, compra
+* **Mídia**: assinatura, inscrição em concurso, exibição de página, exibição de vídeo
 * **Finanças**: envio de aplicativo, logon, uso de ferramentas de autoatendimento
-* **Viagem**: reserva (compra), campanha interna (click-through), busca (preços do itinerário)
-* **Telecomunicações**: compra, clientes em potencial, uso de ferramentas de autoatendimento
-* **Alta tecnologia**: download de white-paper, RFP, preenchimento de formulário, solicitações de suporte
-* **Automotivo**: submissão de cliente em potencial, solicitação de cotação, download de panfleto
+* **Viagem**: Reserva (compra), campanha interna (click-through), pesquisa (itinerário de preços)
+* **Telecomunicações**: compra, clientes potenciais, uso de ferramentas de autoatendimento
+* **Alta tecnologia**: download de white-paper, RFP, preenchimento de formulários, solicitações de suporte
+* **Automotivo**: envio de clientes potenciais, solicitação de cotação, download de folheto
 
 A variável [s.events](/help/implement/vars/page-vars/events/event-serialization.md) define um evento bem-sucedido.
 
 ## Configurar os eventos bem-sucedidos
 
-Você pode configurar as variáveis de Evento usadas no site. É possível adicionar até 1000 eventos bem-sucedidos. Os eventos 81-1.000 funcionam somente se você estiver usando o código H22 ou superior.
+Você pode configurar as variáveis de Evento usadas no site. Você pode adicionar até 1.000 eventos de sucesso. Os eventos 81-1.000 funcionam somente se você estiver usando o código H22 ou superior.
 
 Para configurar eventos bem-sucedidos:
 
@@ -48,19 +48,19 @@ Para configurar eventos bem-sucedidos:
 
 1. Na coluna **[!UICONTROL Nome]**, marque a caixa de seleção ao lado do item para habilitar a edição e, em seguida, especifique o nome desejado.
 
-   Dê nomes significativos aos eventos bem-sucedidos usados em seu site. Por exemplo, se event1 for usado para controlar registros, altere o nome aqui, de modo que event1 seja representado como a métrica &quot;Registros&quot; em todos os relatórios de Conversão.
+   Dê nomes significativos para os eventos de sucesso usados em seu site. Por exemplo, se event1 for usado para rastrear registros, altere o nome aqui para que event1 seja representado como a métrica &quot;Registros&quot; em todos os relatórios de Conversão.
 
 1. Na coluna **[!UICONTROL Tipo]**, marque a caixa de seleção ao lado do item para habilitar a lista suspensa e, em seguida, selecione o tipo desejado.
 
    >[!IMPORTANT]
    >
-   >Considere o seguinte ao alterar o tipo de evento:<ul><li>Você pode alterar o tipo de evento entre contador e numérico sem perder acesso aos dados capturados anteriormente.</li><li>Ao alterar tipos de evento para ou partir de um evento de moeda, uma mensagem é exibida declarando que os dados históricos não estão disponíveis no relatório. Tipos de evento diferentes usam tabelas de dados separadas e não podem ser usados ao mesmo tempo. Alguns dados históricos podem ser restaurados se o usuário reverter o tipo de evento. No entanto, os dados coletados após a alteração inicial não estarão disponíveis.</li></ul>
+   >Considere o seguinte ao alterar o tipo de evento:<ul><li>Você pode alterar o tipo de evento entre contador e numérico sem perder acesso aos dados capturados anteriormente.</li><li>Ao alterar tipos de evento para ou partir de um evento de moeda, uma mensagem é exibida declarando que os dados históricos não estão disponíveis no relatório. Tipos de evento diferentes usam tabelas de dados separadas e não podem ser usados simultaneamente. Alguns dados históricos podem ser restaurados se o usuário reverter o tipo de evento. No entanto, os dados coletados após a alteração inicial não estarão disponíveis.</li></ul>
 
-   O tipo selecionado determina se o evento é um evento de contador (padrão), numérico ou de moeda. <p>Os eventos contadores são usados para registrar um evento a tempo.</p><p>Eventos numéricos são usados para relatar números não relacionados a moeda, como o número de cupons usados em um pedido.</p> <p>Os eventos de moeda registram um número decimal, como imposto ou remessa. O valor transmitido para eventos de moeda será convertido da moeda da página para a moeda de base do conjunto de relatórios mediante ao recebimento. Eventos de moeda são usados para acompanhar encargos de impostos e remessa. Para obter mais detalhes sobre o uso de eventos de moeda, entre em contato com um representante da Adobe.<p>Eventos numéricos e de moeda permitem incrementar métricas como mais de uma.</p><p>Eventos usados no tipo de Padrão de Fontes de dados devem ser eventos numéricos ou de moeda.</p>
+   O tipo selecionado determina se o evento é um evento de contador (padrão), numérico ou de moeda. <p>Os eventos contadores são usados para registrar um evento a tempo.</p><p>Eventos numéricos são usados para relatar números não relacionados a moeda, como o número de cupons usados em um pedido.</p> <p>Os eventos de moeda registram um número decimal, como imposto ou remessa. O valor transmitido para eventos de moeda é convertido da moeda da página para a moeda base do conjunto de relatórios no recebimento. Os eventos de moeda são usados para rastrear impostos e encargos de remessa. Para obter detalhes sobre o uso de eventos de moeda, entre em contato com um representante da Adobe.<p>Eventos numéricos e de moeda permitem incrementar métricas como mais de uma.</p><p>Os eventos usados no tipo Padrão das Fontes de Dados devem ser numéricos ou de moeda.</p>
 
 1. Na coluna **[!UICONTROL Polaridade]**, marque a caixa de seleção e, no menu suspenso, escolha se uma tendência acima para essa métrica é boa ou ruim.
 
-   isso permite indicar se o Adobe Analytics deve considerá-lo bom ou ruim se um determinado evento personalizado (métrica) aumentar. Ela ativa indicadores direcionais (setas) para diversas métricas para adicionar contexto (por exemplo, comparações entre semanas).  Exemplos: se &quot;Bugs enviados&quot; aumentar semana após semana, o Adobe Analytics deve considerar isso bom ou ruim? Um aumento nos Registros de email provavelmente é bom. Mas um aumento em Erros no envio do formulário provavelmente é ruim.  Na Analysis Workspace, a polaridade é aplicada: à formatação condicional da tabela de forma livre, às visualizações de alteração de resumo e ao esquema de cor positivo/negativo da visualização de mapa.
+   isso permite indicar se o Adobe Analytics deve considerá-lo bom ou ruim se um determinado evento personalizado (métrica) aumentar. Ela ativa indicadores direcionais (setas) para diversas métricas para adicionar contexto (por exemplo, comparações entre semanas).  Exemplos: se &quot;Bugs enviados&quot; aumentar semana após semana, a Adobe Analytics deve considerar isso bom ou ruim? Um aumento nos Registros de email provavelmente é bom. Mas um aumento em Erros no envio do formulário provavelmente é ruim.  No Analysis Workspace, a polaridade é aplicada a: formatação condicional da Tabela de forma livre, visualizações de Alteração de resumo e o esquema de cores Positivo/Negativo da visualização do Mapa.
 
 1. Na coluna **[!UICONTROL Visibilidade]**, marque a caixa de seleção e, no menu suspenso, escolha ocultar métricas padrão (incorporadas), eventos personalizados e eventos incorporados no Menu, Seletores de métricas, Construtor de métricas calculadas e o Construtor de segmentos.
 
@@ -68,10 +68,10 @@ Para configurar eventos bem-sucedidos:
 
    As seguintes configurações estão disponíveis:
 
-   | Configuração | Visível em | Não visível em |
+   | Configuração | Visível em | Não visível no |
    |---------|----------|---------|
    | [!UICONTROL **Visível em qualquer lugar**] | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | N/D |
-   | [!UICONTROL **Construtores**] | <ul><li>Construtor de segmentos</li><li>Criador de métricas calculada</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Construtores**] | <ul><li>Construtor de segmentos</li><li>Criador de métricas calculada</li><li>Analysis Workspace</li></ul> |  |
    | [!UICONTROL **Oculto em qualquer lugar**] | N/A | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
 
 1. Na coluna [!UICONTROL **Descrição**], marque a caixa de seleção e forneça uma descrição.

@@ -4,10 +4,10 @@ description: Saiba mais sobre funções básicas de métricas calculadas.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1868'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ O [Construtor de métricas calculadas](/help/components/calculated-metrics/workf
 
 ## Funções de tabela versus funções de linha
 
-Uma função de tabela exibe um resultado igual para cada linha da tabela. Uma função de linha exibe um resultado diferente para cada linha da tabela.
+Uma função de tabela é aquela em que a saída é a mesma para cada linha da tabela. Uma função de linha é aquela em que a saída é diferente para cada linha da tabela.
 
 Quando aplicável e relevante, uma função é anotada com o tipo de função: [!BADGE Tabela]{type="Neutral"} ou [!BADGE Linha]{type="Neutral"}
 
@@ -499,7 +499,7 @@ Para calcular uma variação, considere uma coluna inteira de números. Nessa li
 
 1. Adicione-o ao total.
 
-Quando você iterar por toda a coluna, terá um total único. Depois, divida o total pelo número de itens na coluna. Esse número é a variação da coluna. É um número único. No entanto, é exibido como uma coluna de números.
+Quando você iterar por toda a coluna, terá um total único. Em seguida, você divide esse total pelo número de itens na coluna. Esse número é a variação da coluna. É um único número. No entanto, é exibido como uma coluna de números.
 
 No exemplo da seguinte coluna de três itens:
 

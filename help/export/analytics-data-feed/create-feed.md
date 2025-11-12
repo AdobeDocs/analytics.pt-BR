@@ -3,7 +3,7 @@ title: Criar um feed de dados
 description: Saiba como criar um feed de dados e sobre as informações de arquivo a serem fornecidas ao Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3583bb7dfc2fce083a41432680ef3933eb9582
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '4227'
 ht-degree: 51%

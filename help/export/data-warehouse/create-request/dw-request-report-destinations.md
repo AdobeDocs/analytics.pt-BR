@@ -3,7 +3,7 @@ description: Etapas que descrevem como criar uma solicitação do data warehouse
 title: Configurar um destino de relatório para uma solicitação do data warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 82%
@@ -246,10 +246,10 @@ As 16 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de ass
 * us-west-1
 * us-west-2
 * ap-south-1
-* ap-northeast-2
+* ap-nordeste-2
 * ap-southeast-1
 * ap-southeast-2
-* ap-northeast-1
+* ap-nordeste-1
 * ca-central-1
 * eu-central-1
 * eu-west-1

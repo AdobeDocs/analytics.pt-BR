@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar contas de importação e exportação na nuvem
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 56%
+ht-degree: 55%
 
 ---
 
@@ -175,10 +175,10 @@ Para configurar uma conta de importação ou exportação na nuvem:
    * us-west-1
    * us-west-2
    * ap-south-1
-   * ap-northeast-2
+   * ap-nordeste-2
    * ap-southeast-1
    * ap-southeast-2
-   * ap-northeast-1
+   * ap-nordeste-1
    * ca-central-1
    * eu-central-1
    * eu-west-1

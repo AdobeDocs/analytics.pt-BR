@@ -1,5 +1,5 @@
 ---
-source-git-commit: e1feb14b72956133f3d04a514a3446733e7a2af5
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '2999'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Um novo e simplificado [Report Builder](/help/analyze/report-builder/rb-overview.md) foi lançado em 16 de outubro de 2024. Ele é compatível com Mac, Windows e navegadores da Web.
->&#x200B;>Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para a nova Report Builder.
+>Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para a nova Report Builder.
 
-## Anúncio do fim da vida útil do Reports & Analytics {#ra-eol}
+## Anúncio do fim da vida útil do Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Um container de atribuição define o escopo desejado para a atribuição. As op
 
 As janelas de retrospectiva representam quanto tempo uma conversão deve retroceder para incluir pontos de contato. Se um item de dimensão for definido fora da janela de retrospectiva, o valor não será incluído em nenhum cálculo de atribuição.
 
-* **[!UICONTROL Janela de relatórios]**: retroage até o início da janela de relatórios a partir de quando a conversão ocorreu.
+* **[!UICONTROL Janela de relatórios]**: analisa o período desde o início da janela de relatório até o momento em que a conversão ocorreu.
 * **14 dias**: retroage até 14 dias a partir do momento em que a conversão ocorreu.
 * **30 dias**: retroage até 30 dias a partir do momento em que a conversão ocorreu.
 * **60 dias**: retroage até 60 dias a partir do momento em que a conversão ocorreu.
