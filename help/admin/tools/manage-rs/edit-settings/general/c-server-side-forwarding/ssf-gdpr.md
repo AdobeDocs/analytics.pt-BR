@@ -4,10 +4,10 @@ title: Conformidade com o RGPD/ePrivacy e o encaminhamento pelo lado do servidor
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 55%
+ht-degree: 47%
 
 ---
 
@@ -25,22 +25,22 @@ O encaminhamento pelo lado do servidor é bidirecional, o que significa que quan
 
 ## Detalhes da implementação {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
-Dependendo do seu método de implementação, siga estas etapas.
+Dependendo do método de implementação, siga estas etapas.
 
 | Método de implementação | Etapas |
 |--- |--- |
-| Tags na Adobe Experience Platform | Supondo que a extensão do Adobe Analytics esteja instalada, adicione a seguinte definição de variável de dados de contexto ao editor de código personalizado na configuração Ação de uma Regra: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: configure a variável de dados de contexto e defina-a como 1 se um cliente não consentir com o marketing direcionado. Ajuste a variável `contextdata` como *0* para clientes que consentiram com marketing direcionado. |
-| AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
+| Tags na Adobe Experience Platform | Supondo que a extensão do Adobe Analytics esteja instalada, adicione a seguinte definição de variável de dados de contexto ao editor de código personalizado na configuração Ação de uma Regra: <br/>`s.contextData['cm.ssf'] = '1'` <br/>Observação: configure a variável de dados de contexto e defina-a como 1 se um cliente não consentir com o marketing direcionado. Ajuste a variável `contextdata` como *0* para clientes que consentiram com marketing direcionado. |
+| AppMeasurement | Adicione a definição da variável contextdata ao arquivo AppMeasurement.js: <br/>`s.contextData['cm.ssf'] = '1'` <br/>Observação: defina a variável contextdata e ajuste-a para 1 se um cliente não consentir com marketing direcionado. Ajuste a variável contextdata para 0 para clientes que consentiram com marketing direcionado. |
 
 ## Criação de relatórios (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 Você pode usar o Adobe Analytics para relatar quanto do seu tráfego é baseado em consentimento e como resultado foi encaminhado pelo lado do servidor, versus quanto do seu tráfego não é baseado em consentimento e não foi encaminhado para o Adobe Audience Manager.
 
-Para configurar esse tipo de relatório, mapeie a nova variável de contexto para uma variável personalizada de tráfego (prop) por meio de regras de processamento. Para fazer isso
+Para configurar esse tipo de relatório, mapeie a nova variável de contexto para uma variável de tráfego personalizada (prop) por meio de regras de processamento. Para fazer isso
 
 1. Implemente a variável &quot;cm.ssf&quot; (conforme mostrado acima.)
-1. [Habilite a prop.](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
-1. Use regras de processamento para mapear a variável de contexto para a prop.
+1. [Habilitar a propriedade](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
+1. Use as regras de processamento para mapear a variável de contexto para a prop.
 
    1. Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Conjuntos de relatórios]** e, em seguida, selecione um conjunto de relatórios.
    1. Clique em **[!UICONTROL Editar conjunto de relatório]** > **[!UICONTROL Geral]** > **[!UICONTROL Regras de processamento]**.
