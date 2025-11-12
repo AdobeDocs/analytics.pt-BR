@@ -3,10 +3,10 @@ title: Criar um feed de dados
 description: Saiba como criar um feed de dados e sobre as informações de arquivo a serem fornecidas ao Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: af3583bb7dfc2fce083a41432680ef3933eb9582
 workflow-type: tm+mt
-source-wordcount: '4140'
-ht-degree: 53%
+source-wordcount: '4227'
+ht-degree: 51%
 
 ---
 
@@ -19,7 +19,25 @@ Ao criar um feed de dados, você fornece ao Adobe:
 
 Antes de criar um feed de dados, é importante ter uma compreensão básica dos feeds de dados e garantir que você atenda a todos os pré-requisitos. Para obter mais informações, consulte [Visão geral dos feeds de dados](data-feed-overview.md).
 
-## Criar e configurar um feed de dados
+## Criar e configurar um feed de dados {#create-and-configure-data-feed}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_os_strings"
+>title="Substituir cadeias de caracteres do sistema operacional"
+>abstract="Esta opção limpa a saída de dados detectando as sequências de caracteres a seguir inseridas nos dados do cliente e substituindo-as por um espaço: <br/>Windows: CRLF, CR ou TAB<br/>Mac e Linux: \n, \r ou \t"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_export_file"
+>title="Manifesto"
+>abstract="Escolha se deseja incluir um arquivo de manifesto com cada entrega de feed de dados. Os arquivos de manifesto contêm informações para cada arquivo incluído no feed de dados. Ao enviar dados do feed de dados em um único pacote, você também pode optar por incluir um arquivo de finalização, mas os arquivos manifest são recomendados. "
+
+<!-- markdownlint-enable MD034 -->
 
 1. Faça logon em [experiencecloud.adobe.com](https://experiencecloud.adobe.com) usando as credenciais da Adobe ID.
 1. Selecione o ícone de 9 quadrados no canto superior direito e selecione [!UICONTROL **Analytics**].
@@ -421,10 +439,10 @@ As 16 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de ass
 * us-west-1
 * us-west-2
 * ap-south-1
-* ap-northeast-2
+* ap-nordeste-2
 * ap-southeast-1
 * ap-southeast-2
-* ap-northeast-1
+* ap-nordeste-1
 * ca-central-1
 * eu-central-1
 * eu-west-1
