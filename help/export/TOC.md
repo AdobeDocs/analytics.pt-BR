@@ -6,8 +6,8 @@ breadcrumb-title: Guia de exportação
 user-guide-description: Saiba mais sobre como usar os feeds de dados e o Data Warehouse para recuperar os resultados de dados.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
       + [Feeds de dados](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Relatórios entregues do Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Relatórios entregues do Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
-      + [Envolvimentos de serviços de engenharia com FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
+      + [Engajamento de serviços de engenharia com FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
    + [Limites FTP e retenção de dados](ftp-and-sftp/ftp-limits.md)
    + [Excluir dados e contas FTP](ftp-and-sftp/ftp-delete.md)
    + [Restaurar contas e dados FTP excluídos](ftp-and-sftp/ftp-restore.md)

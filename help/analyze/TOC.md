@@ -7,7 +7,7 @@ user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o
 source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
       + [Criar projetos](analysis-workspace/build-workspace-project/create-projects.md)
       + [Abrir projetos](analysis-workspace/build-workspace-project/open-projects.md)
       + [Salvar projetos](analysis-workspace/build-workspace-project/save-projects.md)
-      + [Índice &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
+      + [Índice](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Pastas no espaço de trabalho {#workspace-folders}
          + [Visão geral](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Criar pastas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -66,7 +66,7 @@ ht-degree: 99%
          + [Segmentos rápidos](analysis-workspace/components/segments/quick-segments.md)
       + Intervalos de datas {#calendar-date-ranges}
          + [Visão geral](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [Criar intervalos de datas &#x200B;](analysis-workspace/components/calendar-date-ranges/create.md)
+         + [Criar intervalos de datas](analysis-workspace/components/calendar-date-ranges/create.md)
          + [Gerenciar intervalos de datas](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [Comparação de datas](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
          + [Exemplos](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
@@ -81,7 +81,7 @@ ht-degree: 99%
       + Tabela de forma livre {#freeform-table}
          + [Visão geral](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Criar hiperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
-         + [Exibir dados de tendência](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Exibir dados de tendências](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
          + [Filtrar e classificar](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totais](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Configurações de coluna e linha {#column-row-settings}
@@ -129,7 +129,7 @@ ht-degree: 99%
       + [Próximo item ou anterior](analysis-workspace/c-panels/next-previous.md)
       + [Resumo da página](analysis-workspace/c-panels/page-summary.md)
       + [Insights rápidos](analysis-workspace/c-panels/quickinsight.md)
-      + Comparação de segmentos  {#segment-comparison}
+      + Comparação de segmentos {#segment-comparison}
          + [Visão geral](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Testes estatísticos usados](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -148,7 +148,7 @@ ht-degree: 99%
       + [Práticas recomendadas](analysis-workspace/attribution/best-practices.md)
       + [Perguntas frequentes](analysis-workspace/attribution/faq.md)
    + [Gerenciamento de jornada](analysis-workspace/journey-iq.md)
-   + [Comparação de segmentos &#x200B;](analysis-workspace/segment-iq.md)
+   + [Comparação de segmentos](analysis-workspace/segment-iq.md)
    + Detecção de anomalias {#anomaly-detection}
       + [Visão geral](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Exibir anomalias](analysis-workspace/c-anomaly-detection/view-anomalies.md)
@@ -192,7 +192,7 @@ ht-degree: 99%
       + [Solicitação de dados - Etapa 1 do assistente de solicitações](legacy-report-builder/data-requests/data-requests.md)
       + [Criar uma solicitação de dados](legacy-report-builder/data-requests/t-create-a-data-request.md)
       + Conjuntos de relatórios {#report-suites}
-         + [Selecione um conjunto de relatórios &#x200B;](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [Selecione um conjunto de relatórios](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
          + [Seleção de um conjunto de relatórios a partir de uma solicitação existente no Excel](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Usar o Excel para localizar uma ID de conjunto de relatórios](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Gerenciar segmentos](legacy-report-builder/data-requests/segmentation.md)
@@ -226,7 +226,7 @@ ht-degree: 99%
       + Métricas e dimensões {#metrics-dimension}
          + [Visão geral de Métricas e dimensões](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [Adicionar métricas e dimensões](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
-         + [Métricas calculadas &#x200B;](legacy-report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
+         + [Métricas calculadas](legacy-report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
          + [Combinar métricas de tráfego e comércio na mesma solicitação](legacy-report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
          + [Permissões de acesso do usuário para dimensões e métricas](legacy-report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [Alterar métricas - Definições de campo](legacy-report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
