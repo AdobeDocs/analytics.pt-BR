@@ -3,7 +3,7 @@ title: Visão geral dos conjuntos de classificações
 description: Saiba como usar conjuntos de classificações para gerenciar dados de classificação. Entenda como os conjuntos de classificações diferem das classificações herdadas.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 11%
@@ -77,7 +77,7 @@ O fluxo de trabalho para conjuntos de classificação geralmente envolve as segu
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
-No arquivo de dados de classificação, você faz referência à dimensão principal de cada conjunto de relatórios (por exemplo: **[!UICONTROL ID do Produto]** e **[!UICONTROL SKU do Produto]**) usando o `Key`. E você faz referência a cada classificação usando o **[!UICONTROL Nome da Classificação]** (por exemplo, `Category` ou `Color`).
+   No arquivo de dados de classificação, você faz referência à dimensão principal de cada conjunto de relatórios (por exemplo: **[!UICONTROL ID do Produto]** e **[!UICONTROL SKU do Produto]**) usando o `Key`. E você faz referência a cada classificação usando o **[!UICONTROL Nome da Classificação]** (por exemplo, `Category` ou `Color`).
 
 1. [Carregue](/help/components/classifications/sets/manage/schema.md#upload) o arquivo que contém os dados de classificação no esquema do conjunto de classificações.
 
@@ -96,7 +96,7 @@ A arquitetura de back-end lançada com conjuntos de classificação contém vár
 
 * Tempo de processamento reduzido (de 72 horas para 24 horas).
 * Uma interface de usuário reprojetada para gerenciar classificações.
-* A opção para usar dados de classificação no Adobe Experience Platform por meio do [conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* A opção para usar dados de classificação no Adobe Experience Platform por meio do [conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 A arquitetura de back-end lançada com conjuntos de classificação também contém várias alterações:
 
