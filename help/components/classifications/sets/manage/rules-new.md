@@ -4,7 +4,7 @@ description: Saiba como usar regras de conjuntos de classificação para definir
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
+source-git-commit: bccb3409875336a092ab641ad69b866b43621984
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 11%
