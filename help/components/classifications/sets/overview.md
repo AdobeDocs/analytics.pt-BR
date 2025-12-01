@@ -3,10 +3,10 @@ title: Visão geral dos conjuntos de classificações
 description: Saiba como usar conjuntos de classificações para gerenciar dados de classificação. Entenda como os conjuntos de classificações diferem das classificações herdadas.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
+source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 11%
+source-wordcount: '950'
+ht-degree: 9%
 
 ---
 
@@ -17,15 +17,28 @@ Conjuntos de classificações fornecem uma única interface para gerenciar class
 
 ## Conjuntos de classificações em relação a classificações herdadas
 
-A principal diferença entre os conjuntos de classificações e as classificações herdadas é a relação das classificações com um conjunto de relatórios.
+A principal diferença entre os conjuntos de classificação e as classificações herdadas é que eles combinam todas as funcionalidades em uma interface, na qual as classificações herdadas dependem de três interfaces.
 
-Nas classificações herdadas, cada classificação é vinculada diretamente a um conjunto de relatórios. Classificações muito semelhantes (por exemplo, para um catálogo de produtos) são replicadas quando usadas em vários conjuntos de relatórios.
+### Classificações herdadas
 
-![Classificação herdada](manage/assets/classifications-legacy.svg)
+![Classificação herdada](./assets/classifications-legacy.svg)
 
-Nos conjuntos de classificações, você define assinaturas de conjuntos de relatórios e combinações de dimensões principais. Por exemplo, uma classificação de catálogo de produtos aplicável a vários conjuntos de relatórios e baseada em uma dimensão de produto (SKU), você só precisa definir uma vez como um conjunto de classificações. E, dentro desse conjunto de classificações, você configura vários conjuntos de relatórios e combinações principais de dimensões para se inscrever nesse conjunto de classificações.
+Nas classificações herdadas, as classificações ![Esquema](/help/assets/icons2/Schema.svg) (como para tráfego, conversões, canais de marketing e muito mais) têm suas próprias dimensões (chave ![Chave](/help/assets/icons2/Key.svg)). Você define essas classificações como parte das [configurações do conjunto de relatórios](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).
 
-![Conjuntos de classificações](manage/assets/classifications-sets.svg)
+Você define as regras ![BidRule](/help/assets/icons/BidRule.svg) separadamente em conjuntos de regras como parte da interface do [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md). Nessa interface, você associa um conjunto de regras a um ou mais conjuntos de relatórios.
+
+Use o [Importador de classificação](/help/components/classifications/importer/c-working-with-saint.md) para baixar um modelo ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), para importar classificações ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) ou exportar classificações ![Download](/help/assets/icons/Download.svg) de uma combinação de conjunto de relatórios - chave (conjunto de dados).
+
+
+### Conjuntos de classificação
+
+![Conjuntos de classificações](./assets/classifications-sets.svg)
+
+Os conjuntos de classificações combinam todas as interfaces de classificação herdadas em uma só. Cada conjunto de classificações define:
+
+* Uma ou mais assinaturas, que são a combinação de um conjunto de relatórios ![Dados](/help/assets/icons2/Data.svg) e a dimensão ![Chave](/help/assets/icons2/Key.svg) (chave), que você deseja classificar. Se quiser classificar produtos com base em um SKU de produto, você poderá definir todos os conjuntos de relatórios com uma dimensão SKU de produto aplicável. E não é necessário replicar classificações em conjuntos de relatórios como na interface de classificações herdada.
+* Uma lista de classificações ![Esquema](/help/assets/icons2/Schema.svg) (esquema) para a chave. Por exemplo, para classificações de produtos, é possível especificar a categoria, a cor, o tamanho, o gênero e muito mais. Depois de definir suas classificações, é possível baixar um modelo ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), carregar dados de classificação ![UploadToCloud](/help/assets/icons/UploadToCloud.svg), baixar dados de classificação ![Download](/help/assets/icons/Download.svg) e muito mais.
+* Uma ou mais regras ![BidRule](/help/assets/icons/BidRule.svg) para dar suporte às classificações.
 
 
 Para acessar **[!UICONTROL Conjuntos de classificações]** pelo menu **[!UICONTROL Componentes]** na interface do Adobe Analytics, você deve ser um administrador de produto ou pertencer a um perfil de produto que contenha o item de permissão [!UICONTROL Ferramentas de Conjunto de Relatórios] > [!UICONTROL Classificações]. Observe que as interfaces herdadas do gerenciamento de classificação estão disponíveis no menu **[!UICONTROL Admin]**.
@@ -81,6 +94,8 @@ O fluxo de trabalho para conjuntos de classificação geralmente envolve as segu
 
 1. [Carregue](/help/components/classifications/sets/manage/schema.md#upload) o arquivo que contém os dados de classificação no esquema do conjunto de classificações.
 
+1. Configure [regras](manage/rules.md) para classificar automaticamente os dados recebidos e os dados do passado.
+
 1. [Automatize](/help/components/classifications/sets/manage/schema.md#automate) o processo de atualizações do catálogo de produtos que você deseja ver refletidas nos dados de classificação por meio do uso de um local na nuvem.
 
 1. [Baixe](/help/components/classifications/sets/manage/schema.md#download) seus dados de classificação para validar o conteúdo.
@@ -96,7 +111,7 @@ A arquitetura de back-end lançada com conjuntos de classificação contém vár
 
 * Tempo de processamento reduzido (de 72 horas para 24 horas).
 * Uma interface de usuário reprojetada para gerenciar classificações.
-* A opção para usar dados de classificação no Adobe Experience Platform por meio do [conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* A opção para usar dados de classificação no Adobe Experience Platform por meio do [conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 A arquitetura de back-end lançada com conjuntos de classificação também contém várias alterações:
 
