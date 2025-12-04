@@ -3,16 +3,25 @@ title: Ocorrências com atraso de chegada
 description: Saiba como os feeds de dados tratam as ocorrências que chegam tarde.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 81cbb115d50e1f55a67aac8b107749d0a5a5928b
+source-git-commit: 5816868d3899d2938330471d1e59757141b16c69
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 85%
+source-wordcount: '363'
+ht-degree: 70%
 
 ---
 
-# Ocorrências com atraso de chegada
+# Ocorrências com atraso de chegada {#late-arriving-hits}
 
-Os dados históricos podem chegar depois que uma tarefa de feed de dados terminar o processamento de uma determinada hora ou dia, por exemplo, por meio de ocorrências com carimbos de data e hora ou fontes de dados. As ocorrências posteriores são uma configuração de personalização de backend fornecida pela Adobe para ajudar a incluir esses dados nos feeds de dados.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_late_hits"
+>title="Permitir ocorrências de chegada tardia"
+>abstract="Selecione essa opção para incluir dados que chegaram depois que o trabalho de feed de dados terminou de processar dados na frequência de relatório definida (diariamente, a cada hora ou a cada 15 minutos). Com essa opção ativada, sempre que um feed de dados processa dados, ele verifica todas as ocorrências atrasadas que chegaram e as reúne com o próximo arquivo de feed de dados enviado."
+
+<!-- markdownlint-enable MD034 -->
+
+Os dados históricos podem chegar depois que um processo de feed de dados terminar o processamento de uma determinada hora ou dia, por exemplo, por meio de ocorrências com carimbos de data e hora ou fontes de dados. As ocorrências posteriores são uma configuração de personalização de backend fornecida pela Adobe para ajudar a incluir esses dados nos feeds de dados.
 
 ## Como as ocorrências de chegada tardias funcionam
 
