@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '2991'
 ht-degree: 87%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 87%
 >Um novo e simplificado [Report Builder](/help/analyze/report-builder/rb-overview.md) foi lançado em 16 de outubro de 2024. Ele é compatível com Mac, Windows e navegadores da Web.
 >Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para a nova Report Builder.
 
-## Anúncio do fim da vida útil do Reports & Analytics {#ra-eol}
+## Anúncio do fim da vida útil do Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -194,7 +194,7 @@ Use as informações a seguir para escolher a visualização que melhor atende �
 
 >[!WARNING]
 >
->O importador de classificação está obsoleto e não estará mais acessível após **31 de agosto de 2026**. Alterne para a experiência de [Conjuntos de classificação](/help/components/classifications/sets/overview.md) para garantir a funcionalidade contínua.
+>O importador de classificação será substituído em **31 de agosto de 2026**. Alterne para usar a experiência [Conjuntos de classificações](/help/components/classifications/sets/overview.md) para garantir a funcionalidade contínua.
 >
 
 
@@ -203,6 +203,6 @@ Use as informações a seguir para escolher a visualização que melhor atende �
 
 >[!WARNING]
 >
->O construtor de regras de classificação está obsoleto e não estará mais acessível após **31 de agosto de 2026**. Alterne para a experiência de [Conjuntos de classificação](/help/components/classifications/sets/overview.md), uma vez disponíveis, para garantir a funcionalidade contínua.
+>O construtor de regras de classificação será descontinuado em **31 de agosto de 2026**. Alterne para usar a [experiência de conjuntos de classificação](/help/components/classifications/sets/manage/rules.md), uma vez disponível, para garantir a funcionalidade contínua.
 >
 
