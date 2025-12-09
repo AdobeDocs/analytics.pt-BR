@@ -4,9 +4,9 @@ description: Saiba como usar regras de conjuntos de classificação para definir
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: badd606b708778f7f839756c6de7b6118d366a67
+source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1673'
 ht-degree: 10%
 
 ---
@@ -233,10 +233,14 @@ Você deseja definir uma regra para atribuir valores às classificações **[!UI
 
 >[!ENDTABS]
 
++++
+
 
 ### Dividir
 
 Divide o valor da dimensão principal, com base em um token, em uma ou mais classificações.
+
++++ Detalhes
 
 #### Entrada necessária
 
@@ -257,6 +261,8 @@ Você deseja definir uma regra que divide os valores da dimensão principal Camp
 ![Regra - Dividir resultados de Teste](assets/rule-split-test.png)
 
 >[!ENDTABS]
+
++++
 
 
 #### Tabela de referência {#section_0211DCB1760042099CCD3ED7A665D716}
