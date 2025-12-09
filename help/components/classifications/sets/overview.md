@@ -3,7 +3,7 @@ title: Visão geral dos conjuntos de classificações
 description: Saiba como usar conjuntos de classificações para gerenciar dados de classificação. Entenda como os conjuntos de classificações diferem das classificações herdadas.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
+source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -21,13 +21,14 @@ A principal diferença entre os conjuntos de classificação e as classificaçõ
 
 ### Classificações herdadas
 
-![Classificação herdada](./assets/classifications-legacy.svg)
+![Classificação herdada](/help/components/classifications/sets/assets/classifications-legacy.svg)
 
 Nas classificações herdadas, as classificações ![Esquema](/help/assets/icons2/Schema.svg) (como para tráfego, conversões, canais de marketing e muito mais) têm suas próprias dimensões (chave ![Chave](/help/assets/icons2/Key.svg)). Você define essas classificações como parte das [configurações do conjunto de relatórios](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).
 
 Você define as regras ![BidRule](/help/assets/icons/BidRule.svg) separadamente em conjuntos de regras como parte da interface do [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md). Nessa interface, você associa um conjunto de regras a um ou mais conjuntos de relatórios.
 
 Use o [Importador de classificação](/help/components/classifications/importer/c-working-with-saint.md) para baixar um modelo ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), para importar classificações ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) ou exportar classificações ![Download](/help/assets/icons/Download.svg) de uma combinação de conjunto de relatórios - chave (conjunto de dados).
+
 
 
 ### Conjuntos de classificação
@@ -111,7 +112,7 @@ A arquitetura de back-end lançada com conjuntos de classificação contém vár
 
 * Tempo de processamento reduzido (de 72 horas para 24 horas).
 * Uma interface de usuário reprojetada para gerenciar classificações.
-* A opção para usar dados de classificação no Adobe Experience Platform por meio do [conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* A opção para usar dados de classificação no Adobe Experience Platform por meio do [conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 A arquitetura de back-end lançada com conjuntos de classificação também contém várias alterações:
 
