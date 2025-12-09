@@ -4,10 +4,10 @@ description: Saiba como usar regras de conjuntos de classificação para definir
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
+source-git-commit: badd606b708778f7f839756c6de7b6118d366a67
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 11%
+source-wordcount: '1672'
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 As regras são usadas para oferecer suporte a classificações automáticas em cenários nos quais a dimensão principal é alterada constantemente. A atualização de classificações por meio de upload ou automação torna-se um processo complicado ou deixa de ser uma classificação adequada para novos valores de dimensão. Por exemplo, campanhas internas, códigos de rastreamento ou SKUs de produtos. A dimensão deve conter valores que permitam aplicar uma ou mais regras para que você possa derivar dados de classificação dos valores.
 
-Você define regras no contexto de um conjunto de classificações, o que implica que as regras são aplicadas (quando ativadas) a todos os conjuntos de relatórios e combinações de dimensões principais que estão inscritos no conjunto de classificações. Essa implementação é um pouco diferente de como o construtor de regras de classificação herdado funciona. No Construtor de regras de classificação, é possível definir uma ou mais regras como parte de um conjunto de regras separadamente e, em seguida, associar o conjunto de regras a um ou mais conjuntos de relatórios. Na nova interface, as regras no conjunto de classificações também são chamadas de conjunto de regras, mas são definidas na mesma interface em que você configura outros atributos do conjunto de classificações.
+As regras são definidas no contexto de um conjunto de classificações. Esse contexto implica que as regras são aplicadas (quando ativadas) a todos os conjuntos de relatórios e combinações de dimensões principais que estão inscritos no conjunto de classificações. Essa implementação é um pouco diferente de como o construtor de regras de classificação herdado funciona. No Construtor de regras de classificação, defina uma ou mais regras como parte de um conjunto de regras separadamente e associe o conjunto de regras a um ou mais conjuntos de relatórios. Na nova interface, as regras no conjunto de classificações também são chamadas de conjunto de regras. No entanto, os conjuntos de regras são definidos na mesma interface em que você configura outros atributos do conjunto de classificações.
 
 
 Para definir um conjunto de regras para um conjunto de classificações:
@@ -28,7 +28,7 @@ Para definir um conjunto de regras para um conjunto de classificações:
 
    * Se você estiver acessando a interface **[!UICONTROL Regras]** pela primeira vez para um conjunto de classificação ou decidir até o momento continuar a usar a interface herdada do construtor de regras, será exibida uma caixa de diálogo que permite selecionar como começar. As opções são:
 
-      * **Migrar regras existentes**. Importe as regras de classificação atuais e continue a trabalhar com essas regras na nova interface. As regras existentes serão preservadas e convertidas no novo formato.
+      * **Migrar regras existentes**. Importe as regras de classificação atuais e continue a trabalhar com essas regras na nova interface. As regras existentes são preservadas e convertidas no novo formato.
          * Selecione **[!UICONTROL Migrar regras]** para continuar.
          * Na caixa de diálogo **[!UICONTROL Confirmar migração]**, leia as implicações da migração.
             * Selecione **[!UICONTROL Migrar regras]** para confirmar a migração. Após a conclusão da migração, use a [Interface do conjunto de regras](#rule-set-interface) para criar novas regras e editar as regras migradas existentes.
@@ -48,9 +48,15 @@ Para definir um conjunto de regras para um conjunto de classificações:
 
 
 
-## Interface do conjunto de regras
+## Interface do conjunto de regras {#rule-set-interface}
 
-Ao criar ou editar regras, use a interface do Conjunto de regras.
+>[!CONTEXTUALHELP]
+>id="classificationsets_rules_samplekeys"
+>title="Chaves de amostra"
+>abstract="Digite ou cole as teclas de teste para testar o conjunto de regras. Cada linha é um valor principal separado. Selecione **[!UICONTROL Testar Conjunto de Regras]** para mostrar uma caixa de diálogo com os resultados."
+
+
+Para criar ou editar regras, use a interface de conjunto de regras.
 
 ![Interface do conjunto de regras](assets/rulesets-ui.png)
 
@@ -72,7 +78,7 @@ Cada regra individual é definida no conjunto de regras na interface Regra. A in
 | | Descrição |
 |---|---|
 | 1 | O nome da função selecionada e a entrada inserida para a função. |
-| 2 | A entrada da função selecionada. A entrada depende da função selecionada. Por exemplo, para a função Regular Expression, a entrada é uma expressão regular e, para a função Split, a entrada é um token. Insira a entrada apropriada para a função específica. Por exemplo, `^(.+)\:(.+)\:(.+)$` para uma expressão regular que identifica três classificações em um código de campanha interno. |
+| 2 | A entrada da função selecionada. A entrada depende da função selecionada. Por exemplo, para a função **[!UICONTROL Expressão regular]**, a entrada é uma expressão regular. E para a função **[!UICONTROL Split]**, a entrada é um token. Insira a entrada apropriada para a função específica. Por exemplo, `^(.+)\:(.+)\:(.+)$` para uma expressão regular que identifica três classificações em um código de campanha interno. |
 | 3 | Cada operação define uma classificação específica como um valor. <br/>Selecione uma classificação no menu suspenso **[!UICONTROL Definir Classificação]** e insira um valor para **[!UICONTROL a]**. <br/>Use ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir uma operação da lista. |
 | 4 | Selecione ![Adicionar](/help/assets/icons/Add.svg) **[!UICONTROL Adicionar operação]** para adicionar outra operação à função. |
 | 5 | Selecione ![Divisa](/help/assets/icons2/ChevronDown.svg) para recolher a regra. Selecione ![ChevronLeft](/help/assets/icons/ChevronLeft.svg) para expandir a regra.<br/>Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir a regra. |
@@ -94,7 +100,7 @@ Insira um valor para **[!UICONTROL Começa com]**. Por exemplo: `em`.
 
 #### Caso de uso
 
-Você deseja definir uma regra para atribuir automaticamente `Email` como um valor à classificação **[!UICONTROL Canal]** quando o valor da dimensão principal Campanha interna começar com `em` (por exemplo: `em:FY2025:Summer Sale`).
+Você deseja definir uma regra para atribuir `Email` como o valor para a classificação **[!UICONTROL Canal]** quando o valor da dimensão principal Campanha interna começar com `em` (por exemplo: `em:FY2025:Summer Sale`).
 
 >[!BEGINTABS]
 
@@ -124,7 +130,7 @@ Insira um valor para **[!UICONTROL Termina com]**. Por exemplo: `2025`.
 
 #### Caso de uso
 
-Você deseja definir uma regra para atribuir automaticamente `2025` como um valor à classificação **[!UICONTROL Ano]** quando o valor da dimensão principal Campanha Interna contiver `2025` (por exemplo: `em:Summer Sale:FY2025`).
+Você deseja definir uma regra para atribuir `2025` como valor à classificação **[!UICONTROL Ano]** quando o valor da dimensão principal Campanha Interna contiver `2025` (por exemplo: `em:Summer Sale:FY2025`).
 
 >[!BEGINTABS]
 
@@ -153,7 +159,7 @@ Digite um valor para **[!UICONTROL Contém]**. Por exemplo: `Winter`.
 
 #### Caso de uso
 
-Você deseja definir uma regra para atribuir automaticamente `Winter Sale` como um valor à classificação **[!UICONTROL Type]** quando o valor da dimensão principal Campanha Interna contiver com `Winter` (por exemplo: `fb:Winter:FY2024`).
+Você deseja definir uma regra para atribuir `Winter Sale` como um valor à classificação **[!UICONTROL Type]** quando o valor da dimensão principal Campanha Interna contiver com `Winter` (por exemplo: `fb:Winter:FY2024`).
 
 
 >[!BEGINTABS]
@@ -171,30 +177,30 @@ Você deseja definir uma regra para atribuir automaticamente `Winter Sale` como 
 +++
 
 
-### Corresponder
+### Corresponde 
 
-Define uma classificação com base em um valor específico que a dimensão principal corresponde.
+Define uma classificação com base em um valor específico que corresponde ao valor da dimensão principal.
 
 +++ Detalhes 
 
 #### Entrada necessária
 
-Insira um valor para **[!UICONTROL Correspondência]**. Por exemplo: `em:FY2025:Summer`.
+Insira um valor para **[!UICONTROL Correspondências]**. Por exemplo: `em:Summer:2025`.
 
 #### Caso de uso
 
-Você deseja definir uma regra para atribuir automaticamente `Email` como valor à classificação **[!UICONTROL Canal]**, `Summer Sale`como valor à classificação **[!UICONTROL Tipo]** e `2025` à classificação **[!UICONTROL Ano]** quando o valor da dimensão principal Campanha Interna corresponder a `em:FY2025:Summer`.
+Você deseja definir uma regra para atribuir `Email` como valor à classificação **[!UICONTROL Canal]**, `Summer Sale` como valor à classificação **[!UICONTROL Tipo]** e `2025` à classificação **[!UICONTROL Ano]**. Mas somente quando o valor da dimensão principal Campanha interna corresponde a `em:Summer:2025`.
 
 
 >[!BEGINTABS]
 
 >[!TAB Regra]
 
-![Regra - Corresponde](assets/rule-match.png)
+![Regra - Corresponde](assets/rule-matches.png)
 
 >[!TAB Resultados de teste]
 
-![Regra - Corresponde](assets/rule-match.png)
+![Regra - Corresponde](assets/rule-matches-test.png)
 
 >[!ENDTABS]
 
@@ -213,7 +219,7 @@ Insira um valor para **[!UICONTROL Expressão regular]**. Por exemplo: `^(.+)\:(
 
 #### Caso de uso
 
-Você deseja definir uma regra para atribuir valores automaticamente às classificações **[!UICONTROL Canal]**, **[!UICONTROL Tipo]** e **[!UICONTROL Ano]** aplicando a expressão regular `^(.+)\:(.+)\:FY(.+)$` e usando grupos de correspondência (`$1`, `$2` e `$3`) aos valores da dimensão principal Campanha Interna.
+Você deseja definir uma regra para atribuir valores às classificações **[!UICONTROL Canal]**, **[!UICONTROL Tipo]** e **[!UICONTROL Ano]** aplicando a expressão regular `^(.+)\:(.+)\:FY(.+)$` e usando grupos de correspondência (`$1`, `$2` e `$3`) aos valores da dimensão principal Campanha Interna.
 
 >[!BEGINTABS]
 
@@ -228,12 +234,37 @@ Você deseja definir uma regra para atribuir valores automaticamente às classif
 >[!ENDTABS]
 
 
+### Dividir
+
+Divide o valor da dimensão principal, com base em um token, em uma ou mais classificações.
+
+#### Entrada necessária
+
+Insira um valor para **[!UICONTROL Split]**. Por exemplo: `:`.
+
+#### Caso de uso
+
+Você deseja definir uma regra que divide os valores da dimensão principal Campanha Interna para as classificações **[!UICONTROL Canal]**, **[!UICONTROL Tipo]** e **[!UICONTROL Ano]** com base no `:` **[!UICONTROL Token]**.
+
+>[!BEGINTABS]
+
+>[!TAB Regra]
+
+![Regra - Dividir](assets/rule-split.png)
+
+>[!TAB Resultados de teste]
+
+![Regra - Dividir resultados de Teste](assets/rule-split-test.png)
+
+>[!ENDTABS]
+
+
 #### Tabela de referência {#section_0211DCB1760042099CCD3ED7A665D716}
 
 | Expressão regular | Descrição |
 |---|---|
-| `(?ms)` | Faz com que toda a expressão regular corresponda a uma entrada de várias linhas, permitindo o . curinga para corresponder a qualquer caractere de nova linha |
-| `(?i)` | Toda a expressão regular não distingue letras maiúsculas de minúsculas |
+| `(?ms)` | Corresponder toda a expressão regular a uma entrada de várias linhas, permitindo que o curinga `.` corresponda a qualquer caractere de nova linha |
+| `(?i)` | Fazer a correspondência com toda a expressão regular para não diferenciar maiúsculas de minúsculas |
 | `[abc]` | Um caractere único de: a, b ou c |
 | `[^abc]` | Qualquer caractere único exceto: a, b ou c |
 | `[a-z]` | Qualquer caractere único no intervalo a-z |
@@ -264,9 +295,14 @@ Você deseja definir uma regra para atribuir valores automaticamente às classif
 
 ## Prioridade da regra
 
-Se um valor de dimensão principal for correspondido a várias regras e os conjuntos de regras contiverem regras com a mesma operação Definir classificação, a última regra determinará o valor da classificação. Portanto, você deve classificar a operação Definir classificação mais importante como parte da última regra no conjunto de regras.
+A última regra determina o valor da classificação se:
 
-Se você criar várias regras que não compartilham a mesma operação Definir classificação, a ordem de processamento não será importante.
+* Um valor de dimensão principal corresponde a várias regras.
+* O conjunto de regras contém regras com a mesma operação **[!UICONTROL Definir Classificação]**.
+
+Portanto, você deve classificar a operação **[!UICONTROL Definir Classificação]** mais importante como parte da última regra em seu conjunto de regras.
+
+Se você criar várias regras que não compartilham a mesma operação **[!UICONTROL Definir Classificação]**, a ordem de processamento não será importante.
 
 
 ### Exemplo
