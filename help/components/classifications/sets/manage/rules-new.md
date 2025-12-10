@@ -4,9 +4,9 @@ description: Saiba como usar regras de conjuntos de classificação para definir
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
+source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1661'
 ht-degree: 10%
 
 ---
@@ -296,7 +296,6 @@ Você deseja definir uma regra que divide os valores da dimensão principal Camp
 | `a{3,}` | 3 ou mais de a |
 | `a{3,6}` | Entre 3 e 6 de a |
 
-+++
 
 
 ## Prioridade da regra
@@ -313,11 +312,22 @@ Se você criar várias regras que não compartilham a mesma operação **[!UICON
 
 ### Exemplo
 
-Você deseja classificar com a classificação **[!UICONTROL Tipo]** como os usuários pesquisam por um atleta usando a sequência de pesquisa como dimensão principal. Por exemplo, usando esse conjunto de regras:
+Você deseja classificar com a classificação **[!UICONTROL Tipo]** como os usuários pesquisam por uma equipe, tipo genérico ou player usando a sequência de pesquisa como dimensão principal. Por exemplo, usando esse conjunto de regras:
 
-![Prioridade de regras](assets/rule-priority.png)
++++ Detalhes
 
-* Quando um usuário pesquisa por `Cowboys Fantasy Tony Romo`, `Romo` é classificado como **[!UICONTROL Tipo]**.
-* Quando um usuário pesquisa por `Cowboys Fantasy Tony Romeo`, `Fantasy` é classificado como **[!UICONTROL Tipo]**.
-* Quando um usuário pesquisa por `Cowboys vs. Broncos`, `Team` é classificado como **[!UICONTROL Tipo]**.
+
+>[!BEGINTABS]
+
+>[!TAB Regra]
+
+![Regra - Prioridade](assets/rule-priority.png)
+
+>[!TAB Resultados de teste]
+
+![Regra - Resultados de teste de prioridade](assets/rule-priority-test.png)
+
+>[!ENDTABS]
+
++++ 
 
