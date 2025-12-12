@@ -4,9 +4,9 @@ title: Visão geral do Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '623'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ O Activity Map como conceito é composto por vários componentes importantes:
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Altere o atributo que preenche a dimensão Região do Activity Map.
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Personalize a lógica que o Activity Map usa para preencher a dimensão Link do Activity Map.
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Personalize a lógica que o Activity Map usa para preencher a dimensão Região do Activity Map.
-* **Sobreposição**: uma extensão de navegador que permite ver os dados de cliques sobrepostos no site. Consulte [interface de extensão do Activity Map](overlay/overview.md) para obter mais informações.
+* **Sobreposição**: uma extensão de navegador que permite ver os dados de cliques sobrepostos no site. Consulte [interface de extensão do Activity Map](overlay/overview.md) para obter mais informações. Este recurso não está disponível para implementações do Web SDK.
 * **Dimensões**: além da extensão de sobreposição, o Activity Map fornece várias dimensões que você pode usar no Analysis Workspace.
    * [Link do Activity Map](/help/components/dimensions/activity-map-link.md): o nome do link clicado.
    * [Região do Activity Map](/help/components/dimensions/activity-map-region.md): o nome da região clicada.
@@ -37,7 +37,7 @@ O Activity Map como conceito é composto por vários componentes importantes:
 
 * **Mapas de calor**: o Activity Map gera mapas de calor que exibem as áreas mais clicadas ou interagidas de uma página da Web. Os mapas de calor usam codificação de cores para representar o nível de engajamento, permitindo que você identifique pontos de acesso e priorize a atenção a áreas de alto impacto. Essas informações podem ser valiosas para otimizar botões, links, formulários ou quaisquer outros elementos interativos do call-to-action.
 
-* **Relatórios de sobreposição**: os relatórios de sobreposição no Activity Map fornecem métricas de clique detalhadas para elementos específicos em uma página da Web. Ao entender as taxas de click-through e os níveis de engajamento de elementos individuais, você pode ajustar as estratégias de design e conteúdo para aprimorar as experiências do usuário.
+* **Relatórios de sobreposição**: os relatórios de sobreposição no Activity Map fornecem métricas de clique detalhadas para elementos específicos em uma página da Web. Ao entender as taxas de click-through e os níveis de engajamento de elementos individuais, você pode ajustar as estratégias de design e conteúdo para aprimorar as experiências do usuário. Este recurso não está disponível para implementações do Web SDK.
 
 * **Análise de segmento**: você pode analisar o comportamento do usuário com base em diferentes segmentos, como fontes de tráfego, demografia ou personas. Ao segmentar os dados, você pode descobrir insights valiosos em grupos de usuários específicos, permitindo experiências personalizadas e estratégias de marketing direcionadas.
 
