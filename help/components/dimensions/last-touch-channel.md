@@ -1,12 +1,12 @@
 ---
 title: Canal de último contato
-description: O canal de marketing mais recente durante o período de envolvimento do visitante.
+description: O canal de marketing mais recente durante o período de engajamento do visitante.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 31c3f83f1142a4ba92a390e35ca8dcae66dfa660
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +25,10 @@ Se você quiser definir essa dimensão com um valor específico, siga os seguint
 * Defina o item de dimensão desejado como um canal no Gerenciador de canais de marketing em Configurações do conjunto de relatórios.
 * Defina uma regra de processamento de canal de marketing que contenha os critérios desejados para a ocorrência.
 * A ocorrência do visitante em seu site deve corresponder aos critérios descritos na regra de processamento do canal de marketing.
+
+>[!TIP]
+>
+>O uso desta dimensão com métricas que usam a [atribuição de participação](/help/analyze/analysis-workspace/attribution/models.md) pode atribuir crédito a `None` quando outros modelos de atribuição não o fazem. As métricas de participação exigem uma [instância](../metrics/instances.md) do canal de marketing dentro da janela de relatórios para receber crédito. Se o canal de marketing foi definido inicialmente fora da janela de relatórios e apenas o valor persistente existe dentro da janela de relatórios, as métricas de participação atribuem crédito a `None`. Outros modelos de atribuição atribuem crédito ao valor persistente. Caso deseje evitar a atribuição a `None` neste cenário, considere usar um modelo de atribuição de não participação.
 
 ## Itens de dimensão
 
