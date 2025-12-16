@@ -3,9 +3,9 @@ title: Configurações do conjunto de classificações
 description: Entenda como criar ou editar um conjunto de classificações.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Para editar as configurações de um conjunto de classificações:
 
    1. Edite o **[!UICONTROL Nome]**.
    1. Editar uma **[!UICONTROL Descrição (opcional)]**.
-   1. Edite a lista de endereços de email (separador de vírgulas) em **[!UICONTROL Notificação de problemas]**. Esses usuários são notificados por email sobre quaisquer problemas.
+   1. Edite a lista de endereços de email (separados por vírgula) em **[!UICONTROL Notificação de problemas]**. Esses usuários recebem um email quando ocorrem um ou mais problemas.
    1. Adicione uma ou mais **[!UICONTROL Marcas (opcional)]** ao conjunto de classificações. Selecione uma marca existente do menu suspenso **[!UICONTROL Marcas]** ou insira uma nova marca. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para remover uma marca.
    1. Edite as **[!UICONTROL Assinaturas]**.
       * Você pode definir várias combinações do **[!UICONTROL Conjunto de relatórios]** e do **[!UICONTROL Dimension]** para um conjunto de classificações.

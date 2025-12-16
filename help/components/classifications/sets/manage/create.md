@@ -3,9 +3,9 @@ title: Criar conjuntos de classificações
 description: Saiba como criar campos e descrições disponíveis ao criar um conjunto de classificações.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '439'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ Para criar um conjunto de classificações:
 
          * Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir uma combinação do **[!UICONTROL Conjunto de Relatórios]** e do **[!UICONTROL Key Dimension]**.
 
-        Se você adicionar uma combinação do **[!UICONTROL Conjunto de relatórios]** e da **[!UICONTROL Chave do Dimension]** que já existe em outro conjunto de classificações, uma mensagem vermelha será exibida abaixo da combinação.
+        Se você adicionar uma combinação do **[!UICONTROL Conjunto de relatórios]** e da **[!UICONTROL Chave do Dimension]** que já existe em outro conjunto de classificações, uma mensagem em vermelho será exibida.
 É possível:
          * Selecione **[!UICONTROL Adicionar ao existente]** para abrir o outro conjunto de classificações e [adicionar classificações ao esquema](schema.md) para esse outro conjunto de classificações.
          * Altere o **[!UICONTROL Conjunto de relatórios]** e a **[!UICONTROL Dimension de chaves]** para uma combinação que ainda não tenha feito a assinatura de outro conjunto de classificações.

@@ -3,7 +3,7 @@ title: Visão geral dos conjuntos de classificações
 description: Saiba como usar conjuntos de classificações para gerenciar dados de classificação. Entenda como os conjuntos de classificações diferem das classificações herdadas.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -12,12 +12,12 @@ ht-degree: 9%
 
 # Visão geral dos conjuntos de classificação
 
-Conjuntos de classificações fornecem uma única interface para gerenciar classificações e regras. Este fluxo de trabalho combina a criação de classificações nas configurações do conjunto de relatórios com o [Importador de classificação](/help/components/classifications/sets/manage/set-manager.md). O resultado é uma única interface intuitiva para criar e gerenciar dados de classificação.
+Conjuntos de classificações fornecem uma única interface para gerenciar classificações e regras. Este fluxo de trabalho combina a criação de classificações em [Configurações do conjunto de relatórios](/help/admin/tools/manage-rs/report-suites-admin.md) com o [Importador de classificação](/help/components/classifications/sets/manage/set-manager.md). O resultado é uma única interface intuitiva para criar e gerenciar dados de classificação.
 
 
 ## Conjuntos de classificações em relação a classificações herdadas
 
-A principal diferença entre os conjuntos de classificação e as classificações herdadas é que eles combinam todas as funcionalidades em uma interface, na qual as classificações herdadas dependem de três interfaces.
+A principal diferença entre os conjuntos de classificação e as classificações herdadas é que os conjuntos de classificação combinam todas as funcionalidades em uma interface, na qual as classificações herdadas dependem de três interfaces.
 
 ### Classificações herdadas
 
@@ -60,8 +60,8 @@ O fluxo de trabalho para conjuntos de classificação geralmente envolve as segu
 
    | Conjunto de relatórios | Dimensão principal |
    |---|---|
-   | Report Suite 1 | Identificação do produto |
-   | Report Suite 2 | SKU do produto |
+   | Conjunto de relatórios 1 | Identificação do produto |
+   | Conjunto de relatórios 2 | SKU do produto |
 
 1. [Adicione as classificações](/help/components/classifications/sets/manage/schema.md#add) identificadas ao esquema do conjunto de classificações. Por exemplo:
 
@@ -112,7 +112,7 @@ A arquitetura de back-end lançada com conjuntos de classificação contém vár
 
 * Tempo de processamento reduzido (de 72 horas para 24 horas).
 * Uma interface de usuário reprojetada para gerenciar classificações.
-* A opção para usar dados de classificação no Adobe Experience Platform por meio do [conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* A opção para usar dados de classificação no Adobe Experience Platform por meio do [conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 A arquitetura de back-end lançada com conjuntos de classificação também contém várias alterações:
 
