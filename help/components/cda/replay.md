@@ -4,10 +4,10 @@ description: Entenda o conceito de “repetição” no Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '491'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ O Cross-Device Analytics faz duas passagens de dados em um conjunto de relatóri
 
 ## Tabela de exemplo
 
-As tabelas a seguir ilustram como ambos os métodos do CDA ([Compilação em campo](field-based-stitching.md) e [Gráfico de dispositivos](device-graph.md)) calculam o número de pessoas únicas:
+As tabelas a seguir ilustram como a ([Compilação em campo](field-based-stitching.md) calcula o número de pessoas únicas:
 
 ### Compilação em tempo real
 
@@ -30,27 +30,19 @@ Assim que uma ocorrência é coletada, o CDA tenta compilá-la em dispositivos c
 
 *Dados como aparecem no dia em que são coletados:*
 
-| Carimbo de data e hora | ECID | eVar1 ou CustomerID | Explicação da ocorrência | Métrica Pessoas (cumulativa) usando o Gráfico de dispositivos | Métrica Pessoas (cumulativa) usando a Compilação em campo |
-| --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | Bob no seu computador desktop, não autenticado | `1` (246) | `1` (246) |
-| `2` | `246` | `Bob` | Bob faz logon em seu desktop | `1` (246) | `2` (246 e Bob) |
+| Carimbo de data e hora | ECID | eVar1 ou CustomerID | Explicação da ocorrência | Métrica Pessoas (cumulativa) usando a compilação em campo |
+| --- | --- | --- | --- | --- | 
+| `1` | `246` | - | Bob no seu computador desktop, não autenticado | `1` (246) |
+| `2` | `246` | `Bob` | Bob faz logon em seu desktop | `2` (246 e Bob) |
 | `3` | `3579` | - | Bob no seu dispositivo móvel, não autenticado | `2` (246 e 3579) | `3` (246, Bob e 3579) |
-| `4` | `3579` | `Bob` | Bob faz logon no dispositivo móvel | `2` (246 e 3579) | `3` (246, Bob e 3579) |
-| `5` | `246` | - | Bob acessa seu site novamente no desktop, não autenticado | `2` (246 e 3579) | `3` (246, Bob e 3579) |
-| `6` | `246` | `Bob` | Bob faz logon novamente via desktop | `2` (246 e 3579) | `3` (246, Bob e 3579) |
-| `7` | `3579` | - | Bob acessa seu site novamente em um dispositivo móvel | `2` (246 e 3579) | `3` (246, Bob e 3579) |
-| `8` | `3579` | `Bob` | Bob faz logon novamente via celular | `2` (246 e 3579) | `3` (246, Bob e 3579) |
+| `4` | `3579` | `Bob` | Bob faz logon no dispositivo móvel | `3` (246, Bob e 3579) |
+| `5` | `246` | - | Bob acessa seu site novamente no desktop, não autenticado | | `3` (246, Bob e 3579) |
+| `6` | `246` | `Bob` | Bob faz logon novamente via desktop | `3` (246, Bob e 3579) |
+| `7` | `3579` | - | Bob acessa seu site novamente em um dispositivo móvel | `3` (246, Bob e 3579) |
+| `8` | `3579` | `Bob` | Bob faz logon novamente via celular | `3` (246, Bob e 3579) |
 
 As ocorrências não autenticadas e autenticadas em novos dispositivos são contadas como pessoas separadas (temporariamente).
-
-* **Se estiver usando o gráfico de dispositivos**, as ocorrências não autenticadas em dispositivos reconhecidos serão colocadas em ponto ativo depois que um cluster for publicado pelo gráfico de dispositivos. A publicação em cluster leva de três horas a duas semanas.
-
-  Uma terceira pessoa cumulativa também é adicionada quando um cluster é publicado. Essa terceira pessoa representa o próprio cluster, além dos dispositivos individuais. Este terceiro “indivíduo” permanece até que os dados sejam repetidos.
-
-  A atribuição não funciona em dispositivos até que um cluster seja publicado e, mesmo assim, somente pontos ativos da publicação em diante. No exemplo acima, nenhuma das ocorrências é compilada em dispositivos ainda. A atribuição entre dispositivos em ocorrências existentes não funciona até após a repetição da compilação.
-* **Se estiver usando a compilação em campo,** as ocorrências não autenticadas em dispositivos reconhecidos serão compiladas em tempo real a partir desse ponto.
-
-  A atribuição funciona assim que a variável personalizada de identificação se vincula a um dispositivo. No exemplo acima, todas as ocorrências, exceto as 1 e 3, são compiladas em tempo real (todas usam o identificador `Bob`). A atribuição funciona nas ocorrências 1 e 3 após a repetição da compilação.
+As ocorrências não autenticadas em dispositivos reconhecidos são compiladas em tempo real a partir desse ponto. A atribuição funciona assim que a variável personalizada de identificação se vincula a um dispositivo. No exemplo acima, todas as ocorrências, exceto as 1 e 3, são compiladas em tempo real (todas usam o identificador `Bob`). A atribuição funciona nas ocorrências 1 e 3 após a repetição da compilação.
 
 >[!NOTE]
 >
@@ -67,13 +59,13 @@ Se um dispositivo enviar dados inicialmente sem autenticação e fizer logon, o 
 
 *Os mesmos dados após a repetição:*
 
-| Carimbo de data e hora | ECID | eVar1 ou CustomerID | Explicação da ocorrência | Métrica Pessoas (cumulativa) usando o Gráfico de dispositivos | Métrica Pessoas (cumulativa) usando a Compilação em campo |
-| --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | Bob no seu computador desktop, não autenticado | `1` (Cluster1) | `1` (Bob) |
-| `2` | `246` | `Bob` | Bob faz logon em seu desktop | `1` (Cluster1) | `1` (Bob) |
-| `3` | `3579` | - | Bob no seu dispositivo móvel, não autenticado | `1` (Cluster1) | `1` (Bob) |
-| `4` | `3579` | `Bob` | Bob faz logon no dispositivo móvel | `1` (Cluster1) | `1` (Bob) |
-| `5` | `246` | - | Bob acessa seu site novamente no desktop, não autenticado | `1` (Cluster1) | `1` (Bob) |
-| `6` | `246` | `Bob` | Bob faz logon novamente via desktop | `1` (Cluster1) | `1` (Bob) |
-| `7` | `3579` | - | Bob acessa seu site novamente em um dispositivo móvel | `1` (Cluster1) | `1` (Bob) |
-| `8` | `3579` | `Bob` | Bob faz logon novamente via celular | `1` (Cluster1) | `1` (Bob) |
+| Carimbo de data e hora | ECID | eVar1 ou CustomerID | Explicação da ocorrência | Métrica Pessoas (cumulativa) usando a compilação em campo |
+| --- | --- | --- | --- | --- |
+| `1` | `246` | - | Bob no seu computador desktop, não autenticado | `1` (Bob) |
+| `2` | `246` | `Bob` | Bob faz logon em seu desktop | `1` (Bob) |
+| `3` | `3579` | - | Bob no seu dispositivo móvel, não autenticado | `1` (Bob) |
+| `4` | `3579` | `Bob` | Bob faz logon no dispositivo móvel | `1` (Bob) |
+| `5` | `246` | - | Bob acessa seu site novamente no desktop, não autenticado | `1` (Bob) |
+| `6` | `246` | `Bob` | Bob faz logon novamente via desktop | `1` (Bob) |
+| `7` | `3579` | - | Bob acessa seu site novamente em um dispositivo móvel | `1` (Bob) |
+| `8` | `3579` | `Bob` | Bob faz logon novamente via celular | `1` (Bob) |

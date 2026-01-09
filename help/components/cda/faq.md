@@ -4,10 +4,10 @@ description: Perguntas frequentes sobre o Análise entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 98%
+source-wordcount: '1699'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,6 @@ A compilação entre dispositivos do CDA ocorre em dois processos simultâneos.
 
 * O segundo processo é chamado de “repetição”. Durante a repetição, o CDA recua no tempo e reafirma os dados históricos, quando possível, em uma janela de pesquisa especificada. Essa janela de pesquisa é de 1 dia ou 7 dias, dependendo de como você solicitou a configuração do CDA. Durante a repetição, o CDA tenta reafirmar as ocorrências em que a pessoa era anteriormente desconhecida.
 
-* **Se estiver usando um gráfico de dispositivos**, a Adobe mantém os mapeamentos do gráfico de dispositivos por aproximadamente seis meses. Uma ECID que não tenha atividade por mais de seis meses é removida do gráfico. Os dados já compilados no CDA não são afetados, mas as ocorrências subsequentes dessa ECID serão tratadas como uma nova pessoa.
 
 +++
 
@@ -65,20 +64,12 @@ Os clientes que já usam a ID de visitante personalizada podem atualizar para o 
 
 +++
 
-+++ Como o gráfico de dispositivos trata os dispositivos compartilhados?
 
-Em algumas situações, é possível que várias pessoas façam logon no mesmo dispositivo. Os exemplos incluem um dispositivo compartilhado em casa, PCs compartilhados em uma biblioteca ou um quiosque em uma loja de varejo.
-
-* **Se estiver usando um gráfico de dispositivos**, a capacidade de lidar com dispositivos compartilhados é limitada. O gráfico de dispositivos usa um algoritmo para determinar a propriedade de um “cluster” e pode ser alterado sempre que o cluster for publicado. Os usuários do dispositivo compartilhado estão sujeitos ao cluster ao qual pertencem.
-* **Se estiver usando a compilação em campo**, a prop ou eVar escolhida para ajudar a identificar usuários conectados substituirá outros identificadores. Os dispositivos compartilhados são considerados pessoas separadas, mesmo se forem originários do mesmo dispositivo.
-
-+++
 
 +++ Como o CDA lida com situações em que uma única pessoa tem MUITOS dispositivos/ECIDs?
 
 Em algumas situações, um usuário individual pode ser associado a um grande número de ECIDs. Isso pode ocorrer se a pessoa usar muitos navegadores ou aplicativos e pode ser exacerbado se ela limpar os cookies com frequência ou usar o modo de navegação privado ou incognitivo do navegador.
 
-* **Se estiver usando um gráfico de dispositivos**, o CDA limita o número de ECIDs vinculadas a determinada ID de usuário a 50. Se uma ID de usuário estiver associada a muitas ECIDs, o gráfico de dispositivos presumirá que a ID de usuário é inválida e removerá o cluster associado a essa ID de usuário. A ID de usuário é adicionada a uma lista de bloqueios para evitar que ela seja adicionada a algum cluster no futuro. O resultado no relatório é que a ID do usuário não é compilada entre os dispositivos.
 * **Se estiver usando a compilação em campo**, o número de dispositivos é irrelevante em favor da prop/eVar que você escolher para ajudar a identificar os usuários conectados. Um único usuário pode pertencer a qualquer número de dispositivos sem afetar a capacidade do CDA de compilar entre os dispositivos.
 
 +++
@@ -112,7 +103,7 @@ Sim. O Analysis Workspace usa a API 2.0 para solicitar dados dos servidores da A
 
 +++ O Análise entre dispositivos pode unir visitantes únicos. É possível compilar visitas?
 
-Sim. Se uma pessoa enviar ocorrências de dois dispositivos separados dentro do tempo limite de visita do conjunto de relatórios virtual (30 minutos por padrão), eles serão agrupados na mesma visita.
+Sim. Se uma pessoa enviar ocorrências de dois dispositivos separados dentro do tempo-limite de visita do conjunto de relatórios virtual (30 minutos por padrão), eles serão agrupados na mesma visita.
 
 +++
 

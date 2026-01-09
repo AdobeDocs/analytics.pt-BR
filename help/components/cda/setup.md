@@ -4,10 +4,10 @@ description: Configure um conjunto de relatórios virtual para habilitar o CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 87%
+source-wordcount: '525'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ Depois que todos os pré-requisitos forem atendidos, use as seguintes etapas par
 
 >[!IMPORTANT]
 >
->Todos os pré-requisitos devem ser atendidos antes de seguir essas etapas. Se todos os pré-requisitos não forem atendidos, o recurso não estará disponível ou não funcionará. Consulte a [página de visão geral](overview.md) e o método de união desejado ([União com base em arquivo](field-based-stitching.md) ou [gráfico de dispositivos](device-graph.md), respectivamente) para ver os pré-requisitos e as limitações.
+>Todos os pré-requisitos devem ser atendidos antes de seguir essas etapas. Se todos os pré-requisitos não forem atendidos, o recurso não estará disponível ou não funcionará. Consulte a [página de visão geral](overview.md) e o método de compilação desejado ([Compilação em campo](field-based-stitching.md) ) para obter os pré-requisitos e as limitações.
 
 ## &#x200B;1. Abra um tíquete no Atendimento ao cliente para provisionar o CDA em seu conjunto de relatórios entre dispositivos
 
@@ -27,7 +27,7 @@ O CDA é provisionado em seu conjunto de relatórios entre dispositivos pela eng
 
 * Sua ID organizacional da Adobe Experience Cloud (uma sequência alfanumérica terminando em @AdobeOrg)
 * A ID de conjunto de relatórios para o conjunto de relatórios entre dispositivos que você deseja habilitar com o CDA
-* Qual método de CDA você deseja usar (Compilação em campo ou Gráfico de dispositivos Adobe)
+* Qual método de CDA você deseja usar (Compilação em campo)
 * Se você pretende usar a costura baseada em campo, a propriedade ou eVar que contém a ID do usuário
 * Sua preferência por frequência de repetição e duração da retrospectiva. As opções incluem uma repetição uma vez por semana com uma janela de retrospectiva de sete dias ou uma repetição todos os dias com uma janela de retrospectiva de um dia.
 O padrão é a repetição semanal com uma janela de retrospectiva de 7 dias. Neste caso, os dados da última semana estão sujeitos a alterações (uma vez que estão sendo progressivamente compilados e atualizados).
