@@ -4,7 +4,7 @@ description: Saiba como usar e interpretar o painel Visualizadores simultâneos 
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 95%
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Visualizadores simultâneos de mídia no_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel Visualizadores simultâneos de mídia](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre o painel Visualizadores simultâneos de mídia no_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Painel Visualizadores simultâneos de mídia](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ No Analysis Workspace, Visualizadores simultâneos é o número de visitantes ú
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [painel Visualizadores simultâneos de mídia](https://video.tv.adobe.com/v/342840?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [painel Visualizadores simultâneos de mídia](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Para usar um painel **[!UICONTROL Visualizadores simultâneos de mídia]**:
 
 1. Cria um painel **[!UICONTROL Visualizadores simultâneos de mídia]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
 
-1. Selecione uma visualização de dados para o painel que tem componentes configurados no complemento Adobe Analytics para mídia de streaming.
+1. Selecione um conjunto de relatórios para o painel que tem componentes configurados no complemento Adobe Analytics para mídia de streaming.
 
 1. Especifique a [entrada](#panel-input) do painel.
 
@@ -131,8 +131,8 @@ Uma tabela de forma livre não está disponível nessa visualização.  Para exi
 >[!MORELIKETHIS]
 >
 >[Criar um painel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Painel de tempo gasto na reprodução de mídia](media-playback-time-spent.md)
->&#x200B;>[Painel de média de público-alvo por minuto de mídia](average-minute-audience-panel.md)
+>[Painel de tempo gasto na reprodução de mídia](media-playback-time-spent.md)
+>[Painel de média de público-alvo por minuto de mídia](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342840/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

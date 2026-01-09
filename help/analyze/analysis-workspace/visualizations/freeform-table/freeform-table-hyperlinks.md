@@ -4,10 +4,10 @@ description: Saiba como criar hiperlinks para itens de dimensão em uma tabela d
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Essa funcionalidade é particularmente útil ao criar hiperlinks para os seguint
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hiperlinks para dimensão](https://video.tv.adobe.com/v/3445788?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hiperlinks para dimensão](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Considere o seguinte ao criar hiperlinks para um ou mais itens de dimensão:
 
 * Os hiperlinks criados são armazenados na tabela de forma livre no projeto do Analysis Workspace. Os hiperlinks não persistem ao usar a mesma dimensão ou itens de dimensão em outra tabela ou em outro projeto.
 
-* Se você alterar a exibição de dados da tabela de forma livre, todos os hiperlinks criados para dimensões ou itens de dimensão na tabela ainda estarão disponíveis. Essa funcionalidade pressupõe que a dimensão ainda existe na exibição de dados.
+* Se você alterar o conjunto de relatórios da tabela de forma livre, todos os hiperlinks criados para dimensões ou itens de dimensão na tabela ainda estarão disponíveis. Essa funcionalidade pressupõe que a dimensão ainda existe no conjunto de relatórios.
 
 * A validade dos URLs não é verificada ao criar o hiperlink. Se você
 

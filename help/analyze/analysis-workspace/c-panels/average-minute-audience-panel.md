@@ -4,7 +4,7 @@ description: Saiba como usar e interpretar o painel Público-alvo médio por min
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 92%
@@ -27,13 +27,13 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Média de público-alvo por minuto de mídia"
->abstract="Mostra o desempenho de conteúdo de mídia específico ou ao longo de um período personalizado.<br/><br/>**Parâmetros gerais &#x200B;**<br/>**Calcular métrica para**: selecione a métrica a ser usada para o painel. Selecione **Conteúdo específico** para analisar a audiência média por minuto de um conteúdo ou evento específico com base na duração do conteúdo. **Selecione um período personalizado** para analisar como a audiência média por minuto muda ao longo de um período personalizado selecionado.<br/>**Dimensão do relatório**: selecione para relatar por **Nome do vídeo** da dimensão da **ID do conteúdo**. Disponível somente quando você seleciona Conteúdo específico como a métrica.<br/>**Granularidade**: selecione a granularidade para os relatórios. Disponível somente quando você seleciona Período personalizado como a métrica.<br/>**Filtrar conteúdo por (opcional)**: selecione um programa, temporada, episódio ou selecione uma dimensão personalizada para filtrar o conteúdo.<br/><br/>**Configurações avançadas &#x200B;**<br/>**Configurações de tabela**: selecione se deseja mostrar valores de cálculo na tabela.<br/>**Métrica de tempo gasto**: selecione a métrica de tempo gasto que deseja usar para o cálculo de conteúdo específico. Disponível somente quando você seleciona Conteúdo específico como a métrica."
+>abstract="Mostra o desempenho de conteúdo de mídia específico ou ao longo de um período personalizado.<br/><br/>**Parâmetros gerais **<br/>**Calcular métrica para**: selecione a métrica a ser usada para o painel. Selecione **Conteúdo específico** para analisar a audiência média por minuto de um conteúdo ou evento específico com base na duração do conteúdo. **Selecione um período personalizado** para analisar como a audiência média por minuto muda ao longo de um período personalizado selecionado.<br/>**Dimensão do relatório**: selecione para relatar por **Nome do vídeo** da dimensão da **ID do conteúdo**. Disponível somente quando você seleciona Conteúdo específico como a métrica.<br/>**Granularidade**: selecione a granularidade para os relatórios. Disponível somente quando você seleciona Período personalizado como a métrica.<br/>**Filtrar conteúdo por (opcional)**: selecione um programa, temporada, episódio ou selecione uma dimensão personalizada para filtrar o conteúdo.<br/><br/>**Configurações avançadas **<br/>**Configurações de tabela**: selecione se deseja mostrar valores de cálculo na tabela.<br/>**Métrica de tempo gasto**: selecione a métrica de tempo gasto que deseja usar para o cálculo de conteúdo específico. Disponível somente quando você seleciona Conteúdo específico como a métrica."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta o painel Audiência média por minuto da mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_.<br/>_Consulte o [painel de audiência média por minuto da mídia](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) para a_ versão ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta o painel Audiência média por minuto da mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_.<br/>_Consulte o [painel de audiência média por minuto da mídia](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) para a_ versão ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ Para usar um painel **[!UICONTROL Média de público-alvo por minuto de mídia]*
 
 1. Crie um painel **[!UICONTROL Média de público-alvo por minuto de mídia]**. Para obter informações sobre como criar um painel, consulte [Criar um painel](panels.md#create-a-panel).
 
-1. Selecione uma visualização de dados para o painel que tem componentes configurados no complemento Adobe Analytics para mídia de streaming.
+1. Selecione um conjunto de relatórios para o painel que tem componentes configurados no complemento Adobe Analytics para mídia de streaming.
 
 1. Especifique a [entrada](#panel-input) do painel.
 
@@ -128,7 +128,7 @@ Use as configurações de entrada descritas nesta seção para configurar o pain
 
    | Opção | Descrição |
    |---------|------------|
-   | **[!UICONTROL Configurações da tabela]** | A configuração padrão mostra os valores de cálculo na tabela, que mostra o numerador e o denominador do público-alvo médio por minuto como as colunas anteriores na tabela. Desmarcar essa opção remove essas duas colunas, deixando somente o público-alvo médio por minuto ao lado do período. |
+   | **[!UICONTROL Configurações da tabela]** | A configuração padrão exibe os valores de cálculo na tabela, que mostra o numerador e o denominador do público-alvo médio por minuto como as colunas anteriores na tabela. Desmarcar essa opção remove essas duas colunas, deixando somente o público-alvo médio por minuto ao lado do período. |
 
 1. Selecione [!UICONTROL **Criar**] para concluir a criação do painel Média de público-alvo por minuto de mídia.
 
@@ -187,8 +187,8 @@ O painel Média de público-alvo por minuto de mídia usa apenas a métrica de m
 >[!MORELIKETHIS]
 >
 > [Criar um painel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md)
-> &#x200B;> [Painel de tempo gasto com a reprodução da mídia](media-playback-time-spent.md)
+> [Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md)
+> [Painel de tempo gasto com a reprodução da mídia](media-playback-time-spent.md)
 >
 
 

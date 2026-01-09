@@ -5,10 +5,10 @@ title: Preparar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 80%
+ht-degree: 71%
 
 ---
 
@@ -22,7 +22,7 @@ A preparação permite limitar os componentes (dimensões, métricas, segmentos,
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Preparar projetos](https://video.tv.adobe.com/v/30771?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Preparar projetos](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Preparar pr
 1. Clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Preparar dados do projeto]**.
 Os componentes usados no projeto serão adicionados automaticamente.
 Se um projeto tiver vários conjuntos de relatórios, você verá um destino de preparação para cada conjunto de relatórios no projeto.
-1. (Opcional) Para adicionar outros componentes, arraste os que deseja compartilhar do painel esquerdo até a zona de destino **[!UICONTROL Preparar componentes]** da visualização de dados.
+1. (Opcional) Para adicionar mais componentes, arraste os componentes que deseja compartilhar do painel esquerdo para a área de soltar **[!UICONTROL Preparar componentes]** do conjunto de relatórios.
 1. Selecione **[!UICONTROL Concluído]**. 
 
 
@@ -69,8 +69,8 @@ Em um projeto com curadoria ou conjunto de relatórios virtual, o recipient tem 
 
 Observação: as funções de visualização que não são de administração não têm acesso ao painel esquerdo em um projeto, por isso, foram omitidas da tabela abaixo.
 
-| Tipo de preparação | Administradores | Proprietário do projeto não administrativo ou função de edição | Função duplicada que não é de administração |
+| Tipo de curadoria | Administradores | Proprietário do projeto não administrativo ou função de edição | Função duplicada que não é de administração |
 |---|---|---|---|
 | **Conjunto de relatórios virtuais preparado** | Todos os componentes do conjunto de relatórios virtual não preparado | Componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela | Componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela |
-| **Projeto preparado** | Todos os componentes de projeto não preparados | Todos os componentes de projeto não preparados | Componentes de projeto não preparados de propriedade desta função ou compartilhados com ela |
+| **Projeto preparado** | Todos os componentes de projeto não preparados | Todos os componentes de projeto não preparados | Componentes de projeto não preparados dessa função ou que foram compartilhados com ela |
 | **Projeto preparado em um conjunto de relatórios virtuais preparado** | Todos os componentes não preparados, mostrados em **[!UICONTROL Componentes de projetos não preparados]** e **[!UICONTROL Componentes de conjuntos de relatórios virtuais não preparados]** | Todos os componentes de projetos não preparados E componentes do conjunto de relatórios virtuais não preparado que esta função possui ou que foram compartilhados com ela | Conjunto de relatórios virtuais e componentes de projetos não preparados que esta função possui ou que foram compartilhados com ela |

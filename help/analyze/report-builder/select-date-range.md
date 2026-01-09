@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -66,7 +66,7 @@ Para definir um intervalo de datas invertido, clique primeiro na data final e, e
 
 ### Menu suspenso Predefinição
 
-O menu suspenso predefinido inclui um conjunto padrão de intervalos de datas predefinidos, além de componentes de intervalo de datas, para uma visualização de dados que você salvou ou para uma visualização de dados que foi compartilhada com você.
+O menu suspenso predefinido inclui um conjunto padrão de intervalos de datas predefinidos e componentes de intervalo de datas para um conjunto de relatórios salvo ou para um conjunto de relatórios que foi compartilhado com você.
 
 ### Datas do acumulado
 
