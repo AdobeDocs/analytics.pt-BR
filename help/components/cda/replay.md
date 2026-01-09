@@ -4,9 +4,9 @@ description: Entenda o conceito de “repetição” no Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 89%
 
 ---
@@ -34,9 +34,9 @@ Assim que uma ocorrência é coletada, o CDA tenta compilá-la em dispositivos c
 | --- | --- | --- | --- | --- | 
 | `1` | `246` | - | Bob no seu computador desktop, não autenticado | `1` (246) |
 | `2` | `246` | `Bob` | Bob faz logon em seu desktop | `2` (246 e Bob) |
-| `3` | `3579` | - | Bob no seu dispositivo móvel, não autenticado | `2` (246 e 3579) | `3` (246, Bob e 3579) |
+| `3` | `3579` | - | Bob no seu dispositivo móvel, não autenticado | `3` (246, Bob e 3579) |
 | `4` | `3579` | `Bob` | Bob faz logon no dispositivo móvel | `3` (246, Bob e 3579) |
-| `5` | `246` | - | Bob acessa seu site novamente no desktop, não autenticado | | `3` (246, Bob e 3579) |
+| `5` | `246` | - | Bob acessa seu site novamente no desktop, não autenticado | `3` (246, Bob e 3579) |
 | `6` | `246` | `Bob` | Bob faz logon novamente via desktop | `3` (246, Bob e 3579) |
 | `7` | `3579` | - | Bob acessa seu site novamente em um dispositivo móvel | `3` (246, Bob e 3579) |
 | `8` | `3579` | `Bob` | Bob faz logon novamente via celular | `3` (246, Bob e 3579) |
