@@ -3,9 +3,9 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6bbaf402199d3fadbfad0729533b4668bb7035e3
+source-git-commit: 69aa42b1949944b59740222073635be72c4bd6ab
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1225'
 ht-degree: 49%
 
 ---
