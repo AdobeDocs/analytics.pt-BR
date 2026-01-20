@@ -100,7 +100,7 @@ Clique nos títulos de preferência vinculados para obter mais informações e c
 
 >[!IMPORTANT]
 >
->Não é mais possível definir o formato do número na seção **[!UICONTROL Projeto e Análises]** > **[!UICONTROL Dados]** de **[!UICONTROL Preferências do usuário]**. O formato do número é determinado automaticamente pelo [idioma padrão configurado](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) para o usuário conectado.
+>Não é mais possível definir o formato do número na seção **[!UICONTROL Projeto e Análises]** > **[!UICONTROL Dados]** de **[!UICONTROL Preferências do usuário]**. O formato do número é determinado automaticamente pelo [idioma padrão configurado](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/browser-language) para o usuário conectado.
 >
 
 | Seção | Preferência | Opções |

@@ -33,7 +33,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **Janeiro de 2026** | |
-| Preferências do usuário: formato de número | Não é mais possível definir o formato do número na seção **[!UICONTROL Projeto e Análises]** > **[!UICONTROL Dados]** de **[!UICONTROL Preferências do usuário]**. O formato do número é determinado automaticamente pelo [idioma padrão configurado](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) para o usuário conectado. |
+| Preferências do usuário: formato de número | Não é mais possível definir o formato do número na seção **[!UICONTROL Projeto e Análises]** > **[!UICONTROL Dados]** de **[!UICONTROL Preferências do usuário]**. O formato do número é determinado automaticamente pelo [idioma padrão configurado](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/browser-language) para o usuário conectado. |
 | **Novembro de 2025** | |
 | Considerações importantes sobre regras VISTA | Atualização das considerações importantes sobre as [regras Vista](/help/technotes/vista.md). |
 | Adição da ID da coluna de dados para ferramentas de IA conversacional | Adicionada a [ID de referência da coluna de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) para ferramentas de IA de conversação na coluna ref_type. |
@@ -195,7 +195,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](/help/technotes/client-hints.md). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](/help/components/classifications/sets/overview.md) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |
