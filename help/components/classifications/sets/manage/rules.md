@@ -2,7 +2,7 @@
 title: Regras de conjuntos de classificações
 description: Saiba como usar regras de conjuntos de classificação para definir regras para dados de classificação.
 feature: Classifications
-source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
+source-git-commit: 685110ea30be8b87f63a8d944902669544516667
 workflow-type: tm+mt
 source-wordcount: '1682'
 ht-degree: 13%
