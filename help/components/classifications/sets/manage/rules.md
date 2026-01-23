@@ -2,9 +2,9 @@
 title: Regras de conjuntos de classificações
 description: Saiba como usar regras de conjuntos de classificação para definir regras para dados de classificação.
 feature: Classifications
-source-git-commit: 685110ea30be8b87f63a8d944902669544516667
+source-git-commit: 1a07d14d11e3353c5f45fb26463168a75fe11ddf
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1683'
 ht-degree: 13%
 
 ---
@@ -12,9 +12,11 @@ ht-degree: 13%
 
 # Regras de conjuntos de classificação
 
-As regras são usadas para oferecer suporte a classificações automáticas em cenários nos quais a dimensão principal é alterada constantemente. A atualização de classificações por meio de upload ou automação torna-se um processo complicado ou deixa de ser uma classificação adequada para novos valores de dimensão. Por exemplo, campanhas internas, códigos de rastreamento ou SKUs de produtos. A dimensão deve conter valores que permitam aplicar uma ou mais regras para que você possa derivar dados de classificação dos valores.
+As regras são usadas para oferecer suporte a classificações automáticas em cenários nos quais a dimensão principal é alterada constantemente. A atualização de classificações por meio do [upload](/help/components/classifications/sets/manage/schema.md#upload) ou da [automação](/help/components/classifications/sets/manage/schema.md#automate) torna-se um processo complicado ou atrasa a classificação adequada para novos valores de dimensão. Por exemplo, campanhas internas, códigos de rastreamento ou SKUs de produtos.
 
-As regras são definidas no contexto de um conjunto de classificações. Esse contexto implica que as regras são aplicadas (quando ativadas) a todos os conjuntos de relatórios e combinações de dimensões principais que estão inscritos no conjunto de classificações. Essa implementação é um pouco diferente de como o construtor de regras de classificação herdado funciona. No Construtor de regras de classificação, defina uma ou mais regras como parte de um conjunto de regras separadamente e associe o conjunto de regras a um ou mais conjuntos de relatórios. Na nova interface, as regras no conjunto de classificações também são chamadas de conjunto de regras. No entanto, os conjuntos de regras são definidos na mesma interface em que você configura outros atributos do conjunto de classificações.
+A dimensão deve conter valores que permitam aplicar uma ou mais regras para que você possa derivar dados de classificação dos valores da dimensão.
+
+As regras são definidas no contexto de um conjunto de classificações. Esse contexto implica que as regras são aplicadas (quando ativadas) a todos os conjuntos de relatórios e combinações de dimensões principais que estão inscritos no conjunto de classificações. Essa implementação é diferente de como o construtor de regras de classificação herdado funciona. No Construtor de regras de classificação, é possível definir uma ou mais regras como parte de um conjunto de regras separadamente e, em seguida, associar o conjunto de regras a um ou mais conjuntos de relatórios. Na nova interface, as regras no conjunto de classificações também são chamadas de conjunto de regras. No entanto, os conjuntos de regras são definidos na mesma interface em que você configura outros atributos do conjunto de classificações.
 
 
 Para definir um conjunto de regras para um conjunto de classificações:
