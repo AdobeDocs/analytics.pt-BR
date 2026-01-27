@@ -3,7 +3,7 @@ title: Configurações do conjunto de classificações
 description: Entenda como criar ou editar um conjunto de classificações.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: 7e966bc91bb774ade739bd27cfe04447f6542746
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Para editar as configurações de um conjunto de classificações:
       * Você pode definir várias combinações do **[!UICONTROL Conjunto de relatórios]** e do **[!UICONTROL Dimension]** para um conjunto de classificações.
       * Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir uma combinação do **[!UICONTROL Conjunto de Relatórios]** e do **[!UICONTROL Key Dimension]**.
 
-      Consulte [Criar um conjunto de classificações](create.md) para obter mais detalhes.
+      Consulte [Criar um conjunto de classificações](/help/components/classifications/sets/create.md) para obter mais detalhes.
 
    1. Selecione **[!UICONTROL Salvar]** para salvar as configurações. Selecione **[!UICONTROL Cancelar]** para cancelar.
 

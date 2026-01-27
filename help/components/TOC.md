@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: 1f97365ada0a182f743b6d920b0605232e030aec
+source-git-commit: 50700a4ee1d836516a96be3816d4c777c4172ce5
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -26,7 +26,7 @@ ht-degree: 99%
    + [Consentimento da plataforma de publicidade](dimensions/ad-consent.md)
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nome do bot &#x200B;](dimensions/bot-name.md)
+   + [Nome do bot ](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -264,10 +264,10 @@ ht-degree: 99%
    + Conjuntos de classificação {#sets}
       + [Visão geral](classifications/sets/overview.md)
       + [Arquivos de dados](classifications/sets/data-files.md)
-      + [Criar e editar](classifications/sets/manage/create.md)
-      + [Gerenciar](classifications/sets/manage/set-manager.md)
+      + [Criar e editar](classifications/sets/create.md)
+      + [Gerenciar](classifications/sets/set-manager.md)
       + Conjunto de classificações {#set}
-         + [Configurações &#x200B;](classifications/sets/manage/settings.md)
+         + [Configurações ](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
          + [Regras](classifications/sets/manage/rules.md)
       + [Processos de classificação](classifications/sets/job-manager.md)

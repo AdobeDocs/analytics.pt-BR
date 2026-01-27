@@ -3,7 +3,7 @@ title: Visão geral dos conjuntos de classificações
 description: Saiba como usar conjuntos de classificações para gerenciar dados de classificação. Entenda como os conjuntos de classificações diferem das classificações herdadas.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Visão geral dos conjuntos de classificação
 
-Conjuntos de classificações fornecem uma única interface para gerenciar classificações e regras. Este fluxo de trabalho combina a criação de classificações em [Configurações do conjunto de relatórios](/help/admin/tools/manage-rs/report-suites-admin.md) com o [Importador de classificação](/help/components/classifications/sets/manage/set-manager.md). O resultado é uma única interface intuitiva para criar e gerenciar dados de classificação.
+Conjuntos de classificações fornecem uma única interface para gerenciar classificações e regras. Este fluxo de trabalho combina a criação de classificações em [Configurações do conjunto de relatórios](/help/admin/tools/manage-rs/report-suites-admin.md) com o [Importador de classificação](/help/components/classifications/sets/set-manager.md). O resultado é uma única interface intuitiva para criar e gerenciar dados de classificação.
 
 
 ## Conjuntos de classificações em relação a classificações herdadas
@@ -46,7 +46,7 @@ Para acessar **[!UICONTROL Conjuntos de classificações]** pelo menu **[!UICONT
 
 Os conjuntos de classificações consistem em três áreas funcionais:
 
-* [**[!UICONTROL Conjuntos de classificações]**](manage/set-manager.md): criar, editar e excluir conjuntos de classificações.
+* [**[!UICONTROL Conjuntos de classificações]**](set-manager.md): criar, editar e excluir conjuntos de classificações.
 * [**[!UICONTROL Trabalhos]**](job-manager.md): exibir o status dos trabalhos dos conjuntos de classificações.
 * [**[!UICONTROL Consolidações]**](consolidations/manage.md): combinar vários conjuntos de classificações em um único conjunto de classificações.
 
@@ -56,7 +56,7 @@ Os conjuntos de classificações consistem em três áreas funcionais:
 O fluxo de trabalho para conjuntos de classificação geralmente envolve as seguintes etapas:
 
 1. Considere para quais conjuntos de relatórios e combinações de dimensões você deseja criar um conjunto de classificações. Um exemplo é definir um conjunto de classificações de produtos que você cria para qualquer conjunto de relatórios para o qual deseja classificar produtos com mais detalhes. Por exemplo, detalhes como categoria e cor.
-1. [Crie um conjunto de classificações](/help/components/classifications/sets/manage/create.md) com assinaturas para um ou mais conjuntos de relatórios e combinações de dimensões principais que identificam produtos. Por exemplo:
+1. [Crie um conjunto de classificações](/help/components/classifications/sets/create.md) com assinaturas para um ou mais conjuntos de relatórios e combinações de dimensões principais que identificam produtos. Por exemplo:
 
    | Conjunto de relatórios | Dimensão principal |
    |---|---|
@@ -112,7 +112,7 @@ A arquitetura de back-end lançada com conjuntos de classificação contém vár
 
 * Tempo de processamento reduzido (de 72 horas para 24 horas).
 * Uma interface de usuário reprojetada para gerenciar classificações.
-* A opção para usar dados de classificação no Adobe Experience Platform por meio do [conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* A opção para usar dados de classificação no Adobe Experience Platform por meio do [conector de origem do Adobe Analytics para dados de classificação](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 A arquitetura de back-end lançada com conjuntos de classificação também contém várias alterações:
 
