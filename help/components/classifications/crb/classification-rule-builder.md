@@ -18,7 +18,7 @@ Em vez de manter e fazer upload de classificações toda vez que os códigos de 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Construtor de regras de classificação](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Construtor de regras de classificação](https://video.tv.adobe.com/v/3434379?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
