@@ -1,12 +1,12 @@
 ---
-description: Em vez de manter e fazer upload das classificações sempre que seus códigos de acompanhamento forem alterados, é possível criar classificações automáticas baseadas em regras e aplicá-las em vários conjuntos de relatórios. As regras são processadas durante intervalos frequentes, dependendo do seu volume de tráfico relacionado de classificação.
+description: Em vez de manter e fazer upload de classificações toda vez que os códigos de rastreamento são alterados, você pode criar classificações automáticas baseadas em regras e aplicá-las a vários conjuntos de relatórios. As regras são processadas em intervalos frequentes, dependendo do volume de tráfego relacionado à classificação.
 title: Fluxo de trabalho do criador de regras de classificação
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: 1f97365ada0a182f743b6d920b0605232e030aec
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 86%
+ht-degree: 67%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 86%
 
 {{classification-rulebuilder-deprecation}}
 
-Em vez de manter e fazer upload das classificações sempre que seus códigos de acompanhamento forem alterados, é possível criar classificações automáticas baseadas em regras e aplicá-las em vários conjuntos de relatórios. As regras são processadas durante intervalos frequentes, dependendo do seu volume de tráfico relacionado de classificação.
+Em vez de manter e fazer upload de classificações toda vez que os códigos de rastreamento são alterados, você pode criar classificações automáticas baseadas em regras e aplicá-las a vários conjuntos de relatórios. As regras são processadas em intervalos frequentes, dependendo do volume de tráfego relacionado à classificação.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Construtor de regras de classificação](https://video.tv.adobe.com/v/3434379?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Construtor de regras de classificação](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -38,14 +38,14 @@ Essa é a **solução alternativa** para quem têm mais de 10 milhões de valore
 
 Veja as etapas de alto nível que você deve seguir para implementar as regras de classificação:
 
-| Etapa | Local de execução | Descrição |
+| Etapa | Onde Executado | Descrição |
 |--- |--- |--- |
 | Etapa 1 (pré-requisito): configurar seu esquema de classificação. | [!UICONTROL Administrador] > [!UICONTROL Conjuntos de Relatórios] > [!UICONTROL Editar Configurações] > [!UICONTROL Classificações de Tráfego] ou [!UICONTROL Classificações de Conversão] | Escolha uma variável e defina as classificações a serem usadas para ela. <br>As variáveis devem ter pelo menos uma coluna de classificação criada antes de serem disponibilizadas para uso nas regras.<br>Quando as classificações estiverem habilitadas, pode-se usar o importador e o construtor de regras para classificar valores específicos. |
 | Etapa 2: [criar um conjunto de regras](classification-rule-set.md). | [!UICONTROL Administração] > [!UICONTROL Construtor de regras de classificação] > [!UICONTROL Adicionar conjunto de regras] | Um conjunto de regras é um grupo de regras de classificação para uma variável específica. |
 | Etapa 3: configurar conjuntos de relatórios e variáveis. | [!UICONTROL Construtor de regras de classificação] > &lt;seu conjunto de regras> | Aplique o conjunto de regras a conjuntos de relatórios e variáveis. |
 | Etapa 4: [adicionar as regras de classificação ao conjunto](classification-quickstart-rules.md). | [!UICONTROL Construtor de regras de classificação] > &lt;seu conjunto de regras> | Corresponda uma condição a uma classificação e especificar a ação que aplicará à regra.  Familiarize-se com as informações em [Como as regras são processadas](classification-quickstart-rules.md). |
-| Etapa 5: [testar um conjunto de regras de classificação](classification-quickstart-rules.md) | [!DNL Testing Page] | Você desejará testar a validação das regras editando-as no modo de Rascunho. No modo de Rascunho, não é possível executar regras.<br>Essa etapa é importante ao usar [expressões regulares](classification-quickstart-rules.md). |
-| Etapa 6: [ativar regras válidas](classification-rule-definitions.md). | [!DNL Rules Page] | Depois que as regras estiverem válidas, ative o conjunto de regras.  É possível substituir teclas existentes, se necessário. Consulte [Como as regras são processadas](classification-quickstart-rules.md). |
+| Etapa 5: [testar um conjunto de regras de classificação](classification-quickstart-rules.md) | [!DNL Testing Page] | Você poderá testar as regras para validação editando-as no modo Rascunho. No modo Rascunho, as regras não podem ser executadas.<br>Essa etapa é importante ao usar [expressões regulares](classification-quickstart-rules.md). |
+| Etapa 6: [ativar regras válidas](classification-rule-definitions.md). | [!DNL Rules Page] | Depois que as regras estiverem válidas, ative o conjunto de regras.  Você pode substituir chaves existentes, se necessário. Consulte [Como as regras são processadas](classification-quickstart-rules.md). |
 | Etapa 7 (opcional): [excluir regras indesejadas](classification-rule-definitions.md). | [!DNL Rules Page] | Excluir regras indesejadas de um conjunto.<br>Observação: a exclusão de regras não exclui dados classificados e carregados. Consulte [Excluir dados de classificação](/help/components/classifications/importer/t-delete-classification-data.md) se precisar excluir dados classificados. |
 
 >[!NOTE]
@@ -57,3 +57,4 @@ Veja as etapas de alto nível que você deve seguir para implementar as regras d
 **Blog**: para obter mais informações sobre esse recurso, consulte o Blog de marketing digital: [Classificações com base em regras](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
 **Vídeo**: assista ao vídeo [Visão geral de classificações](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html?lang=pt-BR).
+
