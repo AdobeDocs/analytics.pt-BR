@@ -3,7 +3,7 @@ title: Criar E Editar Consolidações De Classificação
 description: Explica como criar, validar, executar, aprovar e cancelar consolidações de classificação.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Para criar uma consolidação de classificação, na interface principal do Adob
 
       A lista esquerda **[!UICONTROL Conjunto de Classificações do Source]** foi preenchida com conjuntos de classificações semelhantes à lista de classificações selecionada e disponíveis para consolidação. A lista direita é preenchida automaticamente com o conjunto de classificações ![Chave](/help/assets/icons/Key.svg) selecionado. Esse conjunto de base definiu o esquema geral e sempre tem prioridade em qualquer conflito de mesclagem.
 
-   1. Selecione os conjuntos de classificações que deseja consolidar na lista à esquerda e solte os conjuntos selecionados na lista à direita abaixo do ![Conjunto de classificações &#x200B;](/help/assets/icons/Key.svg)base **[!UICONTROL _selecionado_]**.
+   1. Selecione os conjuntos de classificações que deseja consolidar na lista à esquerda e solte os conjuntos selecionados na lista à direita abaixo do ![Conjunto de classificações ](/help/assets/icons/Key.svg)base **[!UICONTROL _selecionado_]**.
 
       Os conjuntos de classificações adicionais são consolidados em ordem crescente quando você executa a consolidação. Se uma chave existir em vários conjuntos adicionais, o valor da chave do conjunto de classificação de classificação superior será usado. Se uma chave existir no conjunto base ![Key](/help/assets/icons/Key.svg) e em qualquer conjunto adicional, o valor do conjunto base será usado.
 
@@ -77,14 +77,24 @@ Drag the desired classification sets from the available column on the left to th
 
 -->
 
-## Editar uma consolidação
+## Editar uma consolidação {#edit-a-classification}
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Incompatibilidade"
+>abstract="A porcentagem de incompatibilidades de chave quando o valor no conjunto de classificações consolidado não corresponde ao conjunto de classificações de origem."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Ausente"
+>abstract="A porcentagem de chaves no conjunto de classificações consolidadas, mas não no conjunto de classificações de origem."
 
 Para editar uma consolidação de classificação, na interface principal do Adobe Analytics:
 
 1. Selecione **[!UICONTROL Conjuntos de classificações]** no menu **[!UICONTROL Componentes]**.
 1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Consolidações]**.
 1. No gerenciador **[!UICONTROL Conjuntos de classificações Consolidações]**:
-   1. Selecione o nome da consolidação de classificação. A caixa de diálogo **[!UICONTROL Consolidação: _nome da consolidação de classificação_]**&#x200B;é exibida. A aparência e as ações disponíveis dependem do status atual da consolidação e se você ainda tem a opção de modificar a consolidação de classificação.
+   1. Selecione o nome da consolidação de classificação. A caixa de diálogo **[!UICONTROL Consolidação: _nome da consolidação de classificação_]**é exibida. A aparência e as ações disponíveis dependem do status atual da consolidação e se você ainda tem a opção de modificar a consolidação de classificação.
 
       | Ações disponíveis | Descrição |
       |---|---|
@@ -124,18 +134,7 @@ Para executar uma consolidação de classificação:
 1. Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para fechar a caixa de diálogo.
 
 
-### Aprovar {#approve}
-
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_mismatch"
->title="Incompatibilidade"
->abstract="A porcentagem de incompatibilidades de chave quando o valor no conjunto de classificações consolidado não corresponde ao conjunto de classificações de origem."
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_absent"
->title="Ausente"
->abstract="A porcentagem de chaves no conjunto de classificações consolidadas, mas não no conjunto de classificações de origem."
+### Aprovar
 
 Depois que uma consolidação de classificação for executada com êxito, o status da consolidação será ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Aguardando Aprovação]**. A aprovação de uma consolidação de classificações substitui os conjuntos de classificações individuais pelo conjunto de classificações consolidado e os conjuntos de classificações individuais são removidos.
 

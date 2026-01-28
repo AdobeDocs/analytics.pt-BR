@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -26,7 +26,7 @@ ht-degree: 99%
    + [Consentimento da plataforma de publicidade](dimensions/ad-consent.md)
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nome do bot &#x200B;](dimensions/bot-name.md)
+   + [Nome do bot ](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -267,13 +267,13 @@ ht-degree: 99%
       + [Criar e editar](classifications/sets/create.md)
       + [Gerenciar](classifications/sets/set-manager.md)
       + Conjunto de classificações {#set}
-         + [Configurações &#x200B;](classifications/sets/manage/settings.md)
+         + [Configurações ](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
          + [Regras](classifications/sets/manage/rules.md)
       + [Processos de classificação](classifications/sets/job-manager.md)
       + Consolidações de classificação {#consolidations}
-         + [Gerenciar](classifications/sets/consolidations/manage.md)
          + [Criar e editar](classifications/sets/consolidations/process.md)
+         + [Gerenciar](classifications/sets/consolidations/manage.md)
    + Classificações herdadas {#legacy-classifications}
       + Construtor de regras de classificação {#classifications-rulebuilder}
          + [Visão geral](classifications/crb/classification-rule-builder.md)
