@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: bc07745771f6e1b1228f4d77ff8e89130b90ebef
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 99%
+source-wordcount: '736'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
    + [Consentimento da plataforma de publicidade](dimensions/ad-consent.md)
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nome do bot &#x200B;](dimensions/bot-name.md)
+   + [Nome do bot ](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -267,7 +267,7 @@ ht-degree: 99%
       + [Criar e editar](classifications/sets/create.md)
       + [Gerenciar](classifications/sets/set-manager.md)
       + Conjunto de classificações {#set}
-         + [Configurações &#x200B;](classifications/sets/manage/settings.md)
+         + [Configurações ](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
          + [Regras](classifications/sets/manage/rules.md)
       + [Processos de classificação](classifications/sets/job-manager.md)
@@ -275,7 +275,7 @@ ht-degree: 99%
          + [Criar e editar](classifications/sets/consolidations/process.md)
          + [Gerenciar](classifications/sets/consolidations/manage.md)
    + Classificações herdadas {#legacy-classifications}
-      + Construtor de regras de classificação {#classifications-rulebuilder}
+      + Criador de regras de classificação {#classifications-rulebuilder}
          + [Visão geral](classifications/crb/classification-rule-builder.md)
          + [Conjuntos de regras](classifications/crb/classification-rule-set.md)
          + [Regras](classifications/crb/classification-quickstart-rules.md)
@@ -284,7 +284,7 @@ ht-degree: 99%
       + Importador de classificação {#classifications-importer}
          + [Visão geral](classifications/importer/c-working-with-saint.md)
          + [Arquivos de dados](classifications/importer/c-saint-data-files.md)
-         + [Excluir dados de classificação](classifications/importer/t-delete-classification-data.md)
+         + [Excluir dados](classifications/importer/t-delete-classification-data.md)
          + [Modelo](classifications/importer/c-download-saint-data.md)
          + [Importação de navegador](classifications/importer/browser-import.md)
          + [Exportação do navegador](classifications/importer/browser-export.md)
