@@ -26,7 +26,7 @@ ht-degree: 98%
    + [Consentimento da plataforma de publicidade](dimensions/ad-consent.md)
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nome do bot ](dimensions/bot-name.md)
+   + [Nome do bot &#x200B;](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -267,7 +267,7 @@ ht-degree: 98%
       + [Criar e editar](/help/components/classifications/sets/create.md)
       + [Gerenciar](/help/components/classifications/sets/set-manager.md)
       + Conjunto de classificações {#set}
-         + [Configurações ](classifications/sets/manage/settings.md)
+         + [Configurações &#x200B;](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
          + [Regras](classifications/sets/manage/rules.md)
       + [Processos de classificação](classifications/sets/job-manager.md)
