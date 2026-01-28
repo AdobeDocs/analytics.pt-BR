@@ -4,14 +4,14 @@ title: Filtrar e Classificar
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: e288365f2c984b64ae8c16ce023a7a0357a0e2b7
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 72%
+source-wordcount: '1577'
+ht-degree: 50%
 
 ---
 
-# Filtrar e classificar
+# Filtrar e classificar tabelas de forma livre
 
 As tabelas de forma livre do Analysis Workspace são a base para a análise interativa de dados. Sendo assim, elas podem conter milhares de linhas de informação. Filtrar e classificar os dados pode ser essencial para encontrar as informações mais importantes de maneira eficiente.
 
@@ -125,6 +125,91 @@ Os totais da coluna podem não ser exatos nos seguintes cenários:
 
 ## Classificar tabelas
 
-Você pode classificar os dados de uma tabela de forma livre por qualquer coluna no Analysis Workspace que seja uma dimensão ou uma métrica. Uma seta indica como os dados são classificados (**↓** em ordem decrescente ou **↑** crescente).
+Você pode classificar os dados de uma tabela de forma livre pelos seguintes tipos de colunas no Analysis Workspace:
 
-![Classificação](assets/sorting.gif)
+* Quaisquer colunas de métrica
+
+* Quaisquer colunas de dimensão (exceto para dimensões baseadas em sequência)
+
+Você pode até mesmo classificar por várias colunas ao mesmo tempo.
+
+Por padrão, as dimensões são classificadas em ordem crescente e as métricas são classificadas em ordem decrescente.
+
+## Classificar tabelas por uma única coluna
+
+Ao classificar os dados de uma única coluna conforme descrito nesta seção, qualquer [classificação avançada](#sort-tables-by-multiple-columns-advanced-sorting) aplicada à tabela é removida.
+
+Para classificar dados em tabelas por uma única coluna:
+
+1. Passe o mouse sobre o cabeçalho da coluna que você deseja classificar, em seguida, selecione o ícone **Classificar** ![Classificar](/help/assets/icons/SortOrderDown.svg) quando ele aparecer.
+
+   ![Menu suspenso Classificar](assets/sort-dropdown-menu.png)
+
+1. Selecione **[!UICONTROL Crescente]** ou **[!UICONTROL Decrescente]**.
+
+   O ícone de classificação permanece visível quando a classificação é aplicada à coluna. Uma seta indica como os dados são classificados (![Classificar](/help/assets/icons/SortOrderUp.svg) para crescente ou ![Classificar](/help/assets/icons/SortOrderDown.svg) para decrescente).
+
+## Classificar tabelas por várias colunas (Classificação avançada)
+
+{{release-limited-testing-section}}
+
+### Aplicar classificação a várias colunas
+
+Para classificar dados em tabelas por várias colunas:
+
+1. Passe o mouse sobre o cabeçalho de qualquer coluna que você deseja classificar, em seguida, selecione o ícone **Classificar** ![Classificar](/help/assets/icons/SortOrderDown.svg) quando ele aparecer.
+
+   ![Menu suspenso Classificar](assets/sort-dropdown-menu.png)
+
+1. Selecione **[!UICONTROL Classificação avançada]**.
+
+   ![Caixa de diálogo de classificação avançada](assets/sort-advanced-dialog.png)
+
+1. Na caixa de diálogo Classificação avançada, siga um destes procedimentos:
+
+   * Adicione colunas que ainda não estão sendo classificadas selecionando o botão **[!UICONTROL Adicionar coluna de classificação]**.
+
+   * Remova as colunas que você não deseja mais classificar selecionando o ícone **Remover** ![Remover](/help/assets/icons/Close.svg).
+
+   * Arraste as colunas para cima ou para baixo na lista para ajustar a prioridade de classificação.
+
+     Para obter mais informações, consulte [Prioridade de classificação](#sort-priority).
+
+   * Altere o valor de classificação, selecionando **[!UICONTROL Crescente]** ou **[!UICONTROL Decrescente]** no menu suspenso.
+
+   * Selecione uma coluna diferente selecionando o menu drop-down nome da coluna.
+
+1. Selecione **[!UICONTROL Aplicar]**.
+
+O ícone de classificação permanece visível quando a classificação é aplicada a uma coluna. Uma seta indica como os dados são classificados (![Classificar](/help/assets/icons/SortOrderUp.svg) para crescente ou ![Classificar](/help/assets/icons/SortOrderDown.svg) para decrescente).
+
+![exemplo de multiclassificação](assets/dimensions-multiple-sort.png)
+
+### Prioridade de classificação
+
+Quando você classifica dados para várias colunas, os dados são classificados de acordo com a prioridade atribuída a cada coluna. A numeração de prioridade é exibida ao lado do ícone de classificação ![ícone de prioridade de classificação](assets/sort-priority-icon.png).
+
+A coluna com a prioridade primária decide a ordem principal; a coluna com a prioridade secundária decide a ordem quando as linhas têm o mesmo valor na coluna primária; a coluna com a prioridade terciária decide a ordem quando as linhas têm o mesmo valor nas colunas primária e secundária; e assim por diante.
+
+Por exemplo, considere uma tabela com as seguintes colunas:
+
+* Dia (dimensão)
+
+* Exibições de página (métrica)
+
+* Visitas (métrica)
+
+* Velocidade do conteúdo (métrica)
+
+Você pode atribuir uma prioridade de classificação a cada coluna, da seguinte maneira:
+
+| Nome da coluna (componente) | Tipo de componente | Prioridade de classificação |
+|---------|----------|---------|
+| Dia | Dimensão | 1 |
+| Exibições de página | Métrica | 2 |
+| Visitas | Métrica | 3 |
+| Velocidade do conteúdo | Métrica | 4 |
+
+Ao atribuir uma prioridade de classificação a cada coluna, é possível controlar exatamente como os dados são exibidos na tabela. Neste exemplo, as informações são classificadas primeiro por dia, em seguida por Exibições de página, por Visitas e, por fim, pela Velocidade do conteúdo.
+
+![exemplo de multiclassificação](assets/dimensions-multiple-sort.png)
