@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: 5109dc297f1b930258e4cffa8ca4325cf369ca6e
+source-git-commit: 993bef6137bbcda98cb6f09f9e8644db44e7d8cb
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
    + [Consentimento da plataforma de publicidade](dimensions/ad-consent.md)
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nome do bot &#x200B;](dimensions/bot-name.md)
+   + [Nome do bot ](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -261,13 +261,13 @@ ht-degree: 98%
    + [Casos de uso](alerts/alerts-use-cases.md)
 + Classificações {#classifications}
    + [Visão geral das classificações](classifications/classifications-overview.md)
-   + Conjuntos de classificação {#sets}
+   + Conjuntos de classificações {#sets}
       + [Visão geral](classifications/sets/overview.md)
       + [Arquivos de dados](classifications/sets/data-files.md)
-      + [Criar e editar](/help/components/classifications/sets/create.md)
-      + [Gerenciar](/help/components/classifications/sets/set-manager.md)
+      + [Criar e editar](/help/components/classifications/sets/create-set.md)
+      + [Gerenciar](/help/components/classifications/sets/manage-sets.md)
       + Conjunto de classificações {#set}
-         + [Configurações &#x200B;](classifications/sets/manage/settings.md)
+         + [Configurações ](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
          + [Regras](classifications/sets/manage/rules.md)
       + [Processos de classificação](classifications/sets/job-manager.md)
