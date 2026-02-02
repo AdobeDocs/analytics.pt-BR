@@ -1,55 +1,57 @@
 ---
-title: Como selecionar um conjunto de relatórios no Report Builder
-description: Descreve como selecionar conjuntos de relatórios no Adobe Report Builder
+title: Selecionar Um Conjunto De Relatórios No Report Builder
+description: Saiba como selecionar um conjunto de relatórios no Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
-source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
+source-git-commit: 6f7de360ac24261eabb46c6cfce99449261706de
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 2%
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
-# Selecione um conjunto de relatórios 
+# Selecione um conjunto de relatórios
 
-Você pode selecionar um conjunto de relatórios na lista suspensa ou selecionar um conjunto de relatórios em uma célula e atualizar automaticamente seu bloco de dados com um novo conjunto de relatórios.
+Você pode selecionar um conjunto de relatórios no menu suspenso ou selecionar um conjunto de relatórios em uma célula e atualizar automaticamente seu bloco de dados com um novo conjunto de relatórios.
 
-**Selecionar conjunto de relatórios da célula**
+## Selecionar conjunto de relatórios de uma célula
 
-Selecionar um conjunto de relatórios de uma célula facilita a atualização de blocos de dados usando conjuntos de relatórios diferentes. Se sua organização tiver vários conjuntos de relatórios semelhantes ou idênticos entre si em termos de estrutura, em vez de criar relatórios totalmente novos com blocos de dados separados, você poderá atualizar blocos de dados com um conjunto de relatórios selecionado de uma célula. Isso também é útil se você tiver formatos de blocos de dados complicados que incluem componentes e layouts personalizados.
+Selecionar um conjunto de relatórios de uma célula facilita a atualização de blocos de dados usando conjuntos de relatórios diferentes. Em vez de criar relatórios totalmente novos com blocos de dados separados, você pode atualizar blocos de dados com um conjunto de relatórios selecionado de uma célula.
 
-Para selecionar um conjunto de relatórios de uma célula, primeiro crie um bloco de dados e atribua vários conjuntos de relatórios a uma célula fora do bloco de dados. Em seguida, use o conjunto de relatórios do painel de células para atualizar seus blocos de dados de conjuntos de relatórios diferentes.
+Selecionar um conjunto de relatórios de uma célula é útil quando você tem:
 
-1. Criar um bloco de dados.
-Para obter informações sobre como criar um bloco de dados, consulte [Criar um Bloco de Dados](/help/analyze/report-builder/create-a-data-block.md).
+* Vários conjuntos de relatórios que são semelhantes ou idênticos entre si na estrutura.
+* Formatos de blocos de dados complicados que incluem componentes e layouts personalizados.
 
-1. Clique no *ícone de célula* na seção **[!UICONTROL conjuntos de relatórios]**.
+Para selecionar um conjunto de relatórios de uma célula, primeiro crie um bloco de dados e atribua vários conjuntos de relatórios a uma célula fora do bloco de dados. Em seguida, use o **[!UICONTROL Conjunto de relatórios do painel]** para atualizar seus blocos de dados de conjuntos de relatórios diferentes.
 
-1. Selecione um local de célula para adicionar os conjuntos de relatórios à célula selecionada.
+1. Criar um bloco de dados. Para obter informações sobre como criar um bloco de dados, consulte [Criar um bloco de dados](/help/analyze/report-builder/create-a-data-block.md).
 
-   Talvez você queira selecionar uma célula distante o suficiente das células do bloco de dados para que elas não se sobreponham.
+1. Selecione ![DataViewSelector](/help/assets/icons/DataViewSelector.svg) em **[!UICONTROL Report Suites]**.
 
-1. Confirme o local da célula selecionada.
+1. Selecione uma célula usando ![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg) fora do bloco de dados.
 
-1. Selecione os conjuntos de relatórios que deseja atribuir à célula.
+1. Adicione um ou mais conjuntos de relatórios da **[!UICONTROL Selecione conjuntos de relatórios para adicionar ao conjunto de relatórios da célula]** usando o recurso arrastar e soltar. Como alternativa, você pode selecionar duas vezes um conjunto de relatórios para adicioná-lo à lista **[!UICONTROL Conjuntos de relatórios incluídos]**.
 
-1. Clique em **Aplicar**.
+   * Você pode usar a ![Pesquisa](/help/assets/icons/Search.svg) **[!UICONTROL _Selecionar conjuntos de relatórios_]** para procurar conjuntos de relatórios.
+   * Use ![MaisPequeno](/help/assets/icons/MoreSmall.svg) para abrir um menu de contexto e mover conjuntos de relatórios para cima ou para baixo na lista **[!UICONTROL Conjuntos de relatórios incluídos]**.
+   * Use ![CrossSize75](/help/assets/icons/CrossSize75.svg) para excluir um conjunto de relatórios da lista **[!UICONTROL Conjuntos de relatórios incluídos]**.
 
-   Ao concluir o bloco de dados, você pode atualizar o bloco de dados usando um conjunto de relatórios diferente da célula selecionada.
+   ![Selecionar conjunto de relatórios de uma célula](assets/dataviews-from-a-cell.png){zoomable="yes"}
 
-   **Alterar o conjunto de relatórios da célula**
+1. Selecione **[!UICONTROL Aplicar]** para aplicar os conjuntos de relatórios selecionados à célula selecionada.
 
-1. Clique no local da célula do conjunto de relatórios escolhido na Etapa 3.
 
-   Um menu suspenso listando os conjuntos de relatórios selecionados anteriormente na Etapa 5 é exibido.
+## Alterar o conjunto de relatórios de uma célula
 
-1. Selecione um conjunto de relatórios diferente na lista suspensa.
+1. Selecione o local da célula do conjunto de relatórios em sua planilha.
+1. No hub do Report Builder, selecione o link **[!UICONTROL Conjuntos de relatórios da célula]** em **[!UICONTROL Edição rápida]**.
+1. Selecione um conjunto de relatórios no menu suspenso **[!UICONTROL Conjunto de relatórios]**.
 
-1. (Opcional) **Selecione Atualizar bloco(s) de dados** após a alteração.
+   ![Alterar conjunto de relatórios de uma célula](assets/change-data-view-from-cell.png){zoomable="yes"}
+1. Opcional, selecione **[!UICONTROL Atualizar bloco(s) de dados após a alteração]**.
 
-1. Clique em **Aplicar**.
-
-   O Report Builder atualiza o bloco de dados com o conjunto de relatórios escolhido.
+1. Selecione **[!UICONTROL Aplicar]**. O Report Builder atualiza o bloco de dados com base no conjunto de relatórios selecionado.

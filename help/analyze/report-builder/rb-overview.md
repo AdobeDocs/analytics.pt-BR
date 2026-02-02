@@ -1,21 +1,38 @@
 ---
 title: Visão geral do Report Builder
-description: Descreve a funcionalidade do Report Builder
+description: Saiba mais sobre a funcionalidade do Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: 10deaf5370661bbe5058b65e4f6b6339e54d878c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 72%
 
 ---
 
 # Visão geral do Report Builder
 
-O novo complemento de Javascript do Report Builder que estava disponível inicialmente apenas no Customer Journey Analytics agora também está sendo introduzido no Adobe Analytics. Esta nova versão oferece vários benefícios:
+O Report Builder permite criar, editar e atualizar relatórios personalizados com facilidade, usando dados do Adobe Analytics. Com a interface de arrastar e soltar simples e flexível do Report Builder, você pode criar consultas de dados complexas e relatórios personalizados de dados do Adobe Analytics, tudo dentro do Excel.
+
+Com o Report Builder para Adobe Analytics, você pode:
+
+- Faça referência às células existentes da planilha para obter a ordem perfeita de linhas, o intervalo de datas ou o segmento.
+- Crie datas personalizadas usando calendário, referências de célula ou matemática de datas.
+- Projete tabelas e visualizações com ferramentas de formatação familiares do Excel.
+
+O Report Builder para Adobe Analytics é um complemento do Microsoft Excel. O suplemento está disponível nas seguintes plataformas:
+
+- macOS
+- Windows
+- Navegadores da web
+
+
+## Report Builder legado
+
+Este Report Builder substitui o [suplemento herdado do Report Builder](/help/analyze/legacy-report-builder/home.md) e tem vários benefícios:
 
 - Encontre insights no Excel de forma mais rápida e fácil, com fluxos de trabalho aprimorados para criação e gerenciamento de blocos de dados, incluindo maior flexibilidade dos blocos de dados
 - Multiplataformas: não é mais necessário fazer logon na sua VM para usar o Report Builder, pois ele agora é compatível com PC, Mac e Excel Online
@@ -24,15 +41,8 @@ O novo complemento de Javascript do Report Builder que estava disponível inicia
 
 Os usuários da ferramenta Report Builder herdada podem [converter pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para o novo Report Builder.
 
-O Report Builder permite criar, editar e atualizar relatórios personalizados com facilidade, usando dados do Adobe Analytics. Com a interface de arrastar e soltar simples e flexível do Report Builder, você pode criar consultas de dados complexas e relatórios personalizados de dados do Adobe Analytics, tudo dentro do Excel.
 
-Com o Report Builder, você pode:
-
-- Referenciar células de planilhas existentes para obter a ordem perfeita de linhas, intervalo de datas ou filtro
-- Criar datas personalizadas usando calendário, referências de células ou matemática de data
-- Criar tabelas e visualizações com as ferramentas de formatação conhecidas do Excel
-
-## Usando o Report Builder herdado e o novo lado a lado
+### Usar ambas as versões lado a lado
 
 Você ainda pode usar ambas as versões do Report Builder, com as seguintes ressalvas:
 
@@ -40,17 +50,10 @@ Você ainda pode usar ambas as versões do Report Builder, com as seguintes ress
 - Você ainda pode usar o Report Builder herdado nas pastas de trabalho herdadas e o novo Report Builder nas novas pastas de trabalho.
 - Além disso, você pode [converter automaticamente pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para o formato do novo Report Builder. Antes de fazer isso, duplique e renomeie o arquivo.
 
-## Recursos herdados do Report Builder não são compatíveis com o novo Report Builder
+### Recursos herdados do Report Builder não suportados
 
-Ao comparar a funcionalidade do Report Builder herdado com o novo complemento do Report Builder, algumas funcionalidades herdadas não estão mais disponíveis:
+Não há suporte[ para alguns ](convert-workbooks.md#legacy-report-builder-features-not-supported)recursos do Report Builder herdado nesta Report Builder.
 
-- Solicitações em tempo real
-
-- Relatório de caminho/fallout
-
-- Opção de FTP para relatórios programados
-
-- Métricas de visitantes. As métricas a seguir serão convertidas em “visitantes únicos”, mesmo que o resultado do relatório não seja uma correspondência exata: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` e `visitorsyearly`. Isso também se aplica a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` e `mobilevisitorsyearly`.
 
 ## Casos de uso comuns
 
@@ -68,13 +71,13 @@ Ao comparar a funcionalidade do Report Builder herdado com o novo complemento do
 
 >[!IMPORTANT]
 >
->Este vídeo de visão geral mostra a interface do usuário do Report Builder no Customer Journey Analytics. Algumas interfaces do usuário e terminologias variam. Fora isso, a experiência do usuário é idêntica.
+>Este vídeo de visão geral mostra a interface do usuário do Report Builder no Customer Journey Analytics. Algumas interfaces de usuário e terminologias diferem quando você usa o Report Builder no Adobe Analytics. Fora isso, a experiência do usuário é idêntica.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do Report Builder](https://video.tv.adobe.com/v/3452585?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
-Você pode baixar o Report Builder da [Microsoft Store](https://appsource.microsoft.com/pt-br/product/office/WA200003101?tab=Overview).
+Você pode baixar o Report Builder da Adobe Analytics na [Microsoft Store](https://appsource.microsoft.com/pt-br/product/office/WA200003101?tab=Overview).

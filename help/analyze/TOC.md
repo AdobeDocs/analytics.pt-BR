@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
-source-git-commit: 340baffc3c870ffec136a0800f71a293099e4d9f
+source-git-commit: 288ca753157a6ed388a37a1ef01481cd83191b85
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -177,7 +177,6 @@ ht-degree: 100%
    + [Programar pastas de trabalho para email](report-builder/schedule-reportbuilder.md)
    + [Programar pastas de trabalho para exportações na nuvem](/help/analyze/report-builder/report-builder-export.md)
    + [Gerenciar pastas de trabalho programadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
-   + [Rótulos restritos](report-builder/restricted-labels.md)
    + [Configurações do Report Builder](report-builder/report-builder-settings.md)
 + Report Builder legado {#legacy-report-builder}
    + [Ajuda do Report Builder legado da Adobe](legacy-report-builder/home.md)

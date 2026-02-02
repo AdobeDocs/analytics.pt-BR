@@ -1,23 +1,22 @@
 ---
-title: Exportar relatórios do Report Builder
-description: Descreve como exportar dados do Report Builder para destinos seguros
+title: Exportar Relatórios Do Report Builder
+description: Saiba como exportar dados do Report Builder para destinos seguros.
 role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 5829482b-3a5e-416b-9c82-404face30b29
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: da7b4568fcdb03ff97437879e84a1ed45749494d
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 30%
+source-wordcount: '1257'
+ht-degree: 33%
 
 ---
 
 # Agendar pastas de trabalho exportando para destinos na nuvem
 
-Você pode exportar pastas de trabalho do Adobe Analytics do Report Builder para provedores de nuvem como Google, Azure e Amazon.
 
-Como alternativa, você pode compartilhar pastas de trabalho com outras pessoas usando o email, conforme descrito em [Agendar pastas de trabalho para compartilhamento por email](/help/analyze/report-builder/schedule-reportbuilder.md).
+Você pode exportar pastas de trabalho do Customer Journey Analytics do Report Builder para provedores de nuvem como Google, Azure e Amazon.
 
 [As vantagens de exportar relatórios do Report Builder para a nuvem](#advantages-of-exporting-to-the-cloud) incluem a capacidade de usar relatórios em ferramentas de terceiros ou combiná-los com dados externos.
 
@@ -33,6 +32,10 @@ Use o processo a seguir ao exportar pastas de trabalho do Report Builder para a 
 
 1. [Exportar um relatório do Report Builder](#export-a-report-from-report-builder)
 
+1. Acesse dados na sua conta da nuvem e [Gerencie exportações na Adobe](/help/components/locations/configure-import-locations.md)
+
+![O processo de exportação descrito nas etapas 1 a 4.](assets/report-builder-export-process.png)
+
 ## Exportar um relatório do Report Builder
 
 >[!NOTE]
@@ -47,11 +50,7 @@ Para exportar relatórios do Report Builder:
 
 1. Selecione [!UICONTROL **Agendar**].
 
-<!-- add screenshot -->
-
 1. Na guia **[!UICONTROL Pastas de Trabalho]**, selecione o ícone de adição para criar um novo agendamento
-
-   ![Guia Agendamentos do Report Builder](assets/report-builder-schedule-cloud.png)
 
    Ou
 
@@ -59,15 +58,17 @@ Para exportar relatórios do Report Builder:
 
 1. No painel direito do [!UICONTROL **Adobe Report Builder**], especifique as seguintes informações para continuar criando um novo agendamento:
 
+   ![Guia Agendamentos do Report Builder](assets/report-builder-schedule-cloud.png)
+
    | Nome do campo | Função |
    |---------|----------|
    | **[!UICONTROL Arquivo]** | Exibe o arquivo de pasta de trabalho selecionado para exportação no momento. Selecione o ícone da pasta de trabalho ![TableSelect](/help/assets/icons/TableSelect.svg) ao lado do nome do arquivo para escolher a pasta de trabalho atual se ela ainda não estiver selecionada. |
    | **[!UICONTROL Nome do arquivo]** <!--should be File name --> | Permite alterar o nome do arquivo antes de exportar a pasta de trabalho.<p>O nome de arquivo da pasta de trabalho é padronizado como o nome da pasta de trabalho</p> |
-   | **[!UICONTROL Tipo de arquivo]** | Escolha o tipo do arquivo exportado. Você pode escolher Excel, PDF ou CSV.<p>Ao selecionar **[!UICONTROL CSV]**, saiba que a pasta de trabalho agendada é enviada como um anexo ZIP. Algumas administrações de e-mail corporativas podem bloquear e-mails com anexos ZIP. Você verá um aviso adequadamente.</p> |
-   | **[!UICONTROL Anexar carimbo de data/hora ao nome do arquivo]** | Selecione essa opção para incluir um carimbo de data e hora da exportação no nome do arquivo exportado. |
+   | **[!UICONTROL Tipo de arquivo]** | Escolha o tipo do arquivo exportado. Você pode escolher Excel, PDF ou CSV. <p>Ao selecionar **[!UICONTROL CSV]**, saiba que a pasta de trabalho agendada é enviada como um anexo ZIP. Algumas administrações de e-mail corporativas podem bloquear e-mails com anexos ZIP. Você verá um aviso adequadamente.</p> |
+   | **[!UICONTROL Anexar carimbo de data/hora ao nome do arquivo]** | Selecione essa opção para anexar um carimbo de data e hora ao nome do arquivo para identificar a data em que a pasta de trabalho foi atualizada. Um carimbo de data e hora é útil para ver qual versão de uma pasta de trabalho foi enviada em uma data específica. Quando selecionado, você pode escolher entre: |
    | **[!UICONTROL Visualização do nome do arquivo]** <!--should be File name preview --> | Mostra uma visualização de como o nome do arquivo aparecerá após a exportação. |
    | **[!UICONTROL Proteger a pasta de trabalho com senha]** | Especifique uma senha para proteger o arquivo exportado para que somente as pessoas com a senha possam acessá-lo. <p>As senhas devem ter pelo menos 8 caracteres e conter pelo menos 1 número e 1 caractere especial (como `!`,`@`,`#` e `$`).</p> |
-   | **[!UICONTROL Email]** | Selecione essa opção para enviar o arquivo para um endereço de email específico. Para obter mais informações sobre esta opção, consulte [Agendar pastas de trabalho por compartilhamento por email](/help/analyze/report-builder/schedule-reportbuilder.md). |
+   | **[!UICONTROL Email]** | Selecione essa opção para enviar o arquivo para um endereço de email específico. Para obter mais informações, consulte [Agendar pastas de trabalho compartilhando por email](schedule-reportbuilder.md). |
    | **[!UICONTROL Outras entregas]** | Selecione esta opção para enviar o arquivo para uma conta de nuvem e, em seguida, use os menus suspensos **[!UICONTROL Conta]** e **[!UICONTROL Local]** descritos abaixo para selecionar a conta e o local. |
    | **[!UICONTROL Conta]** | Selecione a conta de exportação para a nuvem à qual deseja enviar os dados. <p>Ou, se ainda não tiver configurado uma conta na nuvem que deseja usar, é possível configurar uma nova conta:<ol><li>Selecione [!UICONTROL **Adicionar conta**] e especifique as seguintes informações:<ul><li>[!UICONTROL **Nome da conta de localização**]: especifique um nome para a conta de localização. Esse nome aparece ao criar uma localização </li><li>[!UICONTROL **Descrição da conta de localização**]: insira uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. </li><li>**[!UICONTROL Disponibilizar a conta para todos os usuários na sua organização]**: selecione esta opção para permitir que outros usuários na sua organização usem a conta. Considere o seguinte ao compartilhar contas:<ul><li>As contas compartilhadas não podem ter o compartilhamento cancelado.</li><li>As contas compartilhadas podem ser editadas somente pelo proprietário da conta.</li><li>Qualquer pessoa pode criar um local para a conta compartilhada.</li></ul></li><li>[!UICONTROL **Tipo de conta**]: selecione o tipo de conta de nuvem para a qual você está exportando. Os tipos de conta disponíveis são Amazon S3 Role ARN, Google Cloud Platform, Azure SAS e Azure RBAC.</li></ul><li>Para concluir a configuração da sua conta, continue com a Etapa 6 em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md) e expanda a seção que corresponde ao [!UICONTROL **Tipo de conta**] selecionado. <p>Os seguintes tipos de conta estão disponíveis:</p><ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
    | **[!UICONTROL Localização]** | Selecione a localização na conta aonde deseja que os dados de exportação sejam enviados.<p>Ou, se ainda não tiver configurado a localização que deseja usar na conta selecionada, você pode configurar uma nova localização:<ol><li>Selecione [!UICONTROL **Adicionar localização**] e especifique as seguintes informações: <ul><li>[!UICONTROL **Nome**]: o nome da localização.</li><li>[!UICONTROL **Descrição**]: insira uma breve descrição da localização para ajudar a diferenciá-la de outras localizações na conta.</li><li>**[!UICONTROL Disponibilizar a localização a todos os usuários na sua organização]**: selecione esta opção para permitir que outros usuários na sua organização usem a localização. Considere o seguinte ao compartilhar contas:<ul><li>Os locais compartilhados não podem ter o compartilhamento cancelado.</li><li>Os locais compartilhados podem ser editados somente pelo proprietário da conta.</li><li>Os locais podem ser compartilhados somente se a conta à qual o local está associado também for compartilhada.</li></ul></li><li>[!UICONTROL **Conta de localização**]: selecione a conta na qual deseja criar a localização.</li></ul><li>Para concluir a configuração da sua localização, continue com o link abaixo que corresponda ao tipo de conta selecionado no campo [!UICONTROL **Conta de localização**]:<ul><li>[Amazon S3 Role ARN](/help/components/locations/configure-import-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/locations/configure-import-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/locations/configure-import-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/locations/configure-import-locations.md#azure-rbac)</li></ul> |
@@ -82,7 +83,6 @@ Para exportar relatórios do Report Builder:
 
    Os dados são enviados à conta da nuvem especificada com a frequência especificada.
 
-   Você verá uma janela de confirmação na parte inferior do hub do Report Builder e a pasta de trabalho agendada será listada na guia Pastas de trabalho.
 
 ## Vantagens de exportar para a nuvem
 
@@ -113,15 +113,3 @@ Verifique se os blocos de dados, o ambiente e as permissões atendem aos seguint
 * **Blocos de dados:** Todos os blocos de dados devem incluir pelo menos um componente para uma coluna, linha ou valor.
 
 * **Ambiente:** verifique se os [Endereços IP](/help/technotes/ip-addresses.md) e [Domínios](/help/technotes/domains.md) usados pela Adobe Analytics são permitidos por meio do firewall da organização.
-
-
-<!--
-## Manage exports
-
-After data is exported from Analysis Workspace, you can edit, re-export, duplicate, tag, or delete existing exports, as described in [Manage exports](/help/components/exports/manage-exports.md). 
-
--->
-
-## Gerenciar pastas de trabalho programadas
-
-Para obter informações sobre como gerenciar pastas de trabalho já agendadas, consulte [Gerenciar pastas de trabalho agendadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
