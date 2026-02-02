@@ -52,7 +52,7 @@ Você ainda pode usar ambas as versões do Report Builder, com as seguintes ress
 
 ### Recursos herdados do Report Builder não suportados
 
-Não há suporte[ para alguns ](convert-workbooks.md#legacy-report-builder-features-not-supported)recursos do Report Builder herdado nesta Report Builder.
+Não há suporte[&#x200B; para alguns &#x200B;](convert-workbooks.md#legacy-report-builder-features-not-supported)recursos do Report Builder herdado nesta Report Builder.
 
 
 ## Casos de uso comuns
