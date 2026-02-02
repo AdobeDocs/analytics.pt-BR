@@ -76,7 +76,7 @@ Não há suporte[&#x200B; para alguns &#x200B;](convert-workbooks.md#legacy-repo
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do Report Builder](https://video.tv.adobe.com/v/3452585?captions=por_br&quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
