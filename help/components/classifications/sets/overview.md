@@ -3,9 +3,9 @@ title: Visão geral dos conjuntos de classificações
 description: Saiba como usar conjuntos de classificações para gerenciar dados de classificação. Entenda como os conjuntos de classificações diferem das classificações legadas.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
+source-git-commit: e1ccd006336f10b8f843d59cfdcd220064524349
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -123,8 +123,3 @@ A arquitetura de back-end lançada com os conjuntos de classificação também c
 >[!IMPORTANT]
 >
 >O desempenho dos conjuntos de classificação depende principalmente do número de valores de chave exclusiva que contêm dados. Tenha cuidado quando tiver variáveis que contêm grandes números de valores únicos. Esse cuidado se aplica especialmente ao combinar variáveis de vários conjuntos de relatórios e dimensões em um único conjunto de classificação.
-
-## Limitações
-
-* Os conjuntos de classificações ainda não aceitam regras. A funcionalidade Regras é adicionada à interface dos conjuntos de classificação antes que a funcionalidade [construtor de regras legada](/help/components/classifications/crb/classification-rule-builder.md) fique indisponível.
-* Não há migração de regras e configurações de classificação legadas para conjuntos de classificação. Um utilitário de migração é adicionado à interface dos conjuntos de classificação antes que a funcionalidade de classificação legada fique indisponível.
