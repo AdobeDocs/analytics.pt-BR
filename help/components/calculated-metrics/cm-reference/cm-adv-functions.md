@@ -4,9 +4,9 @@ description: Saiba mais sobre funções de métricas calculadas avançadas.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: b04625391d5d0d6a6a8c7780115bf5b3029af3bb
 workflow-type: tm+mt
-source-wordcount: '5020'
+source-wordcount: '4807'
 ht-degree: 98%
 
 ---
@@ -228,29 +228,29 @@ CDF-Z(-3) ? 0.0013499
 | metric | A métrica que você deseja arredondar |
 
 
-## Confiança {#confidence}
+<!-- Only available in CJA 
 
-<!-- markdownlint-disable MD034 -->
+## Confidence {#confidence}
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
->title="Confiança"
->abstract="Calcule a confiança válida a qualquer momento usando o método WASKR, conforme descrito em [Teorema central do limite uniforme no tempo e sequências de confiança assintótica](https://arxiv.org/pdf/2103.06476)."
-
-<!-- markdownlint-enable MD034 -->
+>title="Confidence"
+>abstract="Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476)."
 
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-Calcule a confiança válida a qualquer momento usando o método WASKR, conforme descrito em [Teorema central do limite uniforme no tempo e sequências de confiança assintótica](https://arxiv.org/pdf/2103.06476).
+Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476).
 
-Confiança é uma medida probabilística sobre quantos indícios existem de que uma determinada variante é a mesma que a variante de controle. Uma confiança maior indica menos evidência para o pressuposto de que as variantes de controle e de não controle têm desempenho igual.
+Confidence is a probabilistic measure of how much evidence there is that a given variant is the same as the control variant. A higher confidence indicates less evidence for the assumption that control and non-control variant have equal performance. 
 
-| Argumento | Descrição |
+| Argument | Description |
 | --- | --- |
-| normalizing-container | A base (pessoas, sessões ou eventos) sobre a qual um teste será executado. |
-| success-metric | A métrica, ou as métricas, com as quais um usuário está comparando variantes. |
-| control | A variante com a qual todas as outras variantes do experimento estão sendo comparadas. Insira o nome do item de dimensão da variante de controle. |
-| significance-threshold | O limite nesta função é definido como 95% por padrão. |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
+| significance-threshold | The threshold in this function is set to a default of 95%. |
+
+-->
 
 
 ## Confiança (Inferior) {#confidence-lower}
@@ -728,25 +728,24 @@ Menor ou igual a. A saída é 0 (falso) ou 1 (verdadeiro).
 `Metric 1 <= Metric 2`
 
 
+<!-- Only available in CJA 
 
-## Elevação (#lift)
+## Lift (#lift)
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
->title="Aumento"
->abstract="O aumento da proporção em comparação ao valor de controle."
+>title="Lift"
+>abstract="The lift of the ratio compared to the control value."
 
-<!-- markdownlint-enable MD034 -->
 
-| Argumento | Descrição |
+| Argument | Description |
 | --- | --- |
-| normalizing-container | A base (pessoas, sessões ou eventos) sobre a qual um teste será executado. |
-| success-metric | A métrica, ou as métricas, com as quais um usuário está comparando variantes. |
-| control | A variante com a qual todas as outras variantes do experimento estão sendo comparadas. Insira o nome do item de dimensão da variante de controle. |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 
-
+-->
 
 ## Regressão linear: coeficiente de correlação {#linear-regression-correlation-coefficient}
 
