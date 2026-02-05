@@ -36,7 +36,7 @@ Os recursos a seguir ajudam você a entender o fluxo de trabalho básico de obte
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar pela interface do feed de dados](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para assistir um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar pela interface do feed de dados](https://video.tv.adobe.com/v/3428567?captions=por_br&quality=12&learn=on){target="_blank"} para assistir um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
