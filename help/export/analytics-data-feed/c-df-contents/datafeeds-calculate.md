@@ -1,13 +1,13 @@
 ---
 description: Descreve como calcular métricas comuns usando feeds de dados.
-keywords: Feed de dados;tarefa;métrica;coluna pré;coluna pós;bots;filtragem de data;sequência de eventos;comum;fórmulas
+keywords: Feed de dados;processo;métrica;coluna pré;coluna pós;bots;filtragem de data;sequência de eventos;comum;fórmulas
 title: Calcular métricas
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Descreve como calcular métricas comuns usando feeds de dados.
 
 >[!NOTE]
 >
->As ocorrências normalmente excluídas do Analysis Workspace são incluídas nos feeds de dados. Considere adicionar as seguintes condições às suas consultas se elas forem relevantes:
+>As ocorrências normalmente excluídas do Analysis Workspace são incluídas nos feeds de dados. Considere adicionar as seguintes condições às consultas, se elas forem relevantes:
 >
 >* **`exclude_hit`**: o Analysis Workspace inclui apenas dados em que `exclude_hit = 0`.
->* **`customer_perspective`**: o Analysis Workspace inclui apenas dados em que `customer_perspective = 0`, a menos que você use um conjunto de relatórios virtual que inclua ocorrências em segundo plano móveis.
->* **`hit_source`**: dados de fontes de dados podem conter diferenças entre dados brutos e o Analysis Workspace. Se quiser excluir ocorrências de fontes de dados, exclua todas as linhas nas quais `hit_source = 5,7,8,9`.
+>* **`customer_perspective`**: o Analysis Workspace inclui apenas dados em que `customer_perspective = 0`, a menos que você use um conjunto de relatórios virtual que inclua ocorrências de plano de fundo móveis.
+>* **`hit_source`**: dados de fontes de dados podem conter diferenças entre dados brutos e o Analysis Workspace. Se deseja excluir ocorrências de fontes de dados, exclua todas as linhas com `hit_source = 5,7,8,9`.
 
 ## Exibições de página
 
@@ -38,11 +38,11 @@ Descreve como calcular métricas comuns usando feeds de dados.
 
 >[!TIP]
 >
->Irregularidades na Internet, irregularidades no sistema ou o uso de IDs de visitante personalizados raramente podem usar os mesmos valores `visit_num` para diferentes visitas. Embora seja opcional, use `visit_start_time_gmt` ao contar visitas para garantir que essas visitas sejam contadas.
+>Irregularidades na Internet, irregularidades no sistema ou o uso de IDs de visitante personalizados raramente podem usar os mesmos valores `visit_num` para diferentes visitas. Embora opcional, use `visit_start_time_gmt` ao contar visitas para garantir que essas visitas sejam contadas.
 
 ## Visitantes
 
-Todos os métodos que a Adobe usa para identificar visitantes únicos (ID de visitante personalizada, serviço da Experience Cloud ID etc.) são calculados como um valor em `post_visid_high` e `post_visid_low`. A concatenação dessas duas colunas pode ser usada como padrão para identificar visitantes únicos, independentemente de como eles foram identificados como um visitante único. Se você quiser entender qual método a Adobe usou para identificar um visitante único, use a coluna `post_visid_type`.
+Todos os métodos que a Adobe usa para identificar visitantes únicos (ID de visitante personalizada, serviço de ID da Experience Cloud, etc.) são calculados como um valor em `post_visid_high` e `post_visid_low`. A concatenação dessas duas colunas pode ser usada como padrão para identificar visitantes únicos, independentemente de como eles foram identificados como um visitante único. Se você quiser entender qual método a Adobe usou para identificar um visitante único, use a coluna `post_visid_type`.
 
 1. Concatenar `post_visid_high` e `post_visid_low`.
 2. Conte o número exclusivo de valores.

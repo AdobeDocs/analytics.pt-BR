@@ -4,9 +4,9 @@ description: Saiba mais sobre o fluxo de trabalho de Canais de marketing, a conf
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 68%
 >
 >Admins do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
-Os Canais de marketing são usados para fornecer informações sobre como os visitantes chegam ao site. Você pode personalizar suas Regras de processamento de canal de marketing com base nos canais que deseja acompanhar e como deseja acompanhá-los.
+Os Canais de marketing são usados para fornecer informações sobre como os visitantes chegam ao site. É possível personalizar as regras de processamento de canal de marketing com base nos canais que você deseja rastrear e na forma como deseja rastreá-los.
 
 Os Canais de marketing giram em torno de métricas de Primeiro e último toque, que são componentes de métricas de conversão padrão.
 
@@ -31,8 +31,8 @@ Definir os canais que você usa é um dos componentes mais importantes dos Canai
 * Você está usando uma pesquisa paga?
 * Você está usando campanhas por email? Você está usando várias campanhas de email que gostaria de rastrear separadamente?
 * Você possui afiliadas que direcionam o tráfego para seu site? Existem afiliadas que você deseja rastrear individualmente?
-* Existem campanhas externas que seriam vantajosas em rastrear separadamente?
-* Deseja agregar todos os sites de rede social ou há algum que você deseja rastrear individualmente?
+* Há campanhas externas que seria vantajoso acompanhar separadamente?
+* Você deseja agregar todos os sites de redes sociais ou há algum que você deseja rastrear individualmente?
 * Existem outros canais que podem afetar a conversão que você deseja rastrear?
 
 Você pode encontar uma lista de canais recomendados em [Perguntas frequentes e exemplos](/help/components/c-marketing-channels/c-faq.md). Crie uma lista de canais que deseja usar para facilitar a habilitação e definição dos canais durante sua criação.
@@ -47,7 +47,7 @@ Consulte [Adicionar canais de marketing](/help/admin/tools/manage-rs/edit-settin
 
 >[!NOTE]
 >
->Se os Canais de marketing não tiverem sido configurados anteriormente, a [configuração automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md) será exibida. Esta configuração fornece vários canais pré-configurados que você pode personalizar. A Adobe recomenda usar essas regras como um template. No entanto, se você já tiver definições de canal sólidas, ignore a configuração automática.
+>Se os Canais de marketing não tiverem sido configurados anteriormente, a [configuração automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md) será exibida. Esta configuração fornece vários canais pré-configurados que você pode personalizar. A Adobe recomenda usar essas regras como modelo. No entanto, se você já tiver definições de canal sólidas, ignore a configuração automática.
 
 ![](assets/step3_icon.png) Configure e refine todas as regras de canais na página [!UICONTROL Regras de processamento de Canal de marketing].
 
@@ -55,11 +55,11 @@ Após criar os canais na página [!UICONTROL Gerenciador de canais de marketing]
 
 Consulte [Regras de processamento de canais de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
-Se canais foram criados na configuração automática, as regras nesses canais são definidas. Você pode modificá-los para atender às suas necessidades.
+Se os canais foram criados na configuração automática, as regras nesses canais já estão definidas. Você pode modificá-los para atender às suas necessidades.
 
 ## Configuração automática para canais de marketing {#run-auto-setup}
 
-O Relatório de canal de marketing vem com uma página de configuração, que é utilizada uma única vez, como introdução. Ele fornece diversos canais de marketing que podem ser utilizados para acompanhamento. É possível ignorar essa configuração inicial se você não encontrar problemas em criar canais e regras. No entanto, a Adobe recomenda que você permita que o assistente crie os canais para você. A configuração automática permite visualizar como as regras são construídas, ou editá-las conforme necessário. Você pode desativar ou excluir os canais predefinidos a qualquer momento.
+O Relatório de canal de marketing vem com uma página de configuração, que é utilizada uma única vez, como introdução. Ele fornece diversos canais de marketing que podem ser utilizados para acompanhamento. É possível ignorar essa configuração inicial se você não encontrar problemas em criar canais e regras. No entanto, a Adobe recomenda que você permita que o assistente crie os canais para você. A configuração automática permite visualizar como as regras são construídas, ou editá-las conforme necessário. Você pode desabilitar ou excluir os canais predefinidos a qualquer momento.
 
 Como executar a configuração automática para os Canais de marketing.
 
@@ -71,7 +71,7 @@ Como executar a configuração automática para os Canais de marketing.
 
    >[!NOTE]
    >
-   >A página [!UICONTROL Canais de marketing: configuração automática] é exibida automaticamente quando você acessa os aplicativos de configuração de canal nas Ferramentas de administração. (Consulte [Gerenciador de canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Esta página não será exibida se o conjunto de relatórios contiver um ou mais canais de marketing. Não é possível acessar essa página novamente, a menos que você selecione outro conjunto de relatórios que não contenha canais de marketing.
+   >A página [!UICONTROL Canais de marketing: configuração automática] é exibida automaticamente quando você acessa os aplicativos de configuração de canal nas Ferramentas de administração. (Consulte [Gerenciador de canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Esta página não é exibida se o seu conjunto de relatórios tiver um ou mais canais de marketing. Não é possível acessar esta página novamente, a menos que você selecione outro conjunto de relatórios que não tenha canais de marketing.
 
 1. Certifique-se de que os canais que deseja criar estejam selecionados.
 
@@ -81,7 +81,7 @@ Como executar a configuração automática para os Canais de marketing.
 
 ## Aplicar configurações do conjunto de relatório de modelo a múltiplos conjuntos de relatório
 
-Como usar um conjunto de relatórios principal como um modelo para testar a configuração do canal de marketing. Para economizar tempo, aplique esse modelo a um ou mais conjuntos de relatório de produção em uma atualização em massa. Execute essa tarefa para canais e conjuntos de regras separadamente.
+Como usar um conjunto de relatórios principal como modelo para testar a configuração do canal de marketing. Para economizar tempo, aplique esse modelo a um ou mais conjuntos de relatório de produção em uma atualização em massa. Execute essa tarefa para canais e conjuntos de regras separadamente.
 
 >[!NOTE]
 >

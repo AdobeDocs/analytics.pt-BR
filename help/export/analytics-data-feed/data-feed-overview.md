@@ -1,13 +1,13 @@
 ---
-description: Saiba como usar feeds de dados para obter dados brutos do Adobe Analytics. Descubra os pré-requisitos para usar os feeds de dados a seguir.
+description: Saiba como usar feeds de dados para obter dados brutos do Adobe Analytics. Descubra os pré-requisitos para usar os feeds de dados e o que fazer a seguir.
 keywords: sequência de cliques;feed de dados;datafeed;Feed de dados
 title: Visão geral do feed de dados do Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ Os recursos a seguir ajudam você a entender o fluxo de trabalho básico de obte
 * [Práticas recomendadas de feed de dados](/help/export/analytics-data-feed/data-feeds-best-practices.md): práticas recomendadas para criar e gerenciar feeds de dados.
 * [Criar um feed de dados](create-feed.md): Detalhes técnicos para criar um feed de dados, explicando campos individuais com mais detalhes
 * [Gerenciar feeds de dados](df-manage-feeds.md): Saiba mais sobre como navegar na interface do feed de dados
-* [Conteúdo do feed de dados](c-df-contents/datafeeds-contents.md): Entenda o que está dentro do arquivo compactado <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Conteúdo do feed de dados](c-df-contents/datafeeds-contents.md): entenda o que está dentro do arquivo compactado<!-- Is this still the output users can download from the destination? I aske Jun. -->
 * [Definições de coluna de dados](c-df-contents/datafeeds-reference.md): uma lista abrangente de todas as colunas disponíveis.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar pela interface do feed de dados](https://video.tv.adobe.com/v/3428567?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar pela interface do feed de dados](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para assistir um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar pel
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Localizar a ID do feed de dados](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Localizar a ID do feed de dados](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} para assistir um vídeo de demonstração.
 
 >[!ENDSHADEBOX]

@@ -1,18 +1,18 @@
 ---
 description: Esta seção descreve os arquivos encontrados na entrega do feed de dados.
-keywords: Feed de dados;tarefa;conteúdo;manifesto;arquivo;pesquisa;dados de ocorrência;conteúdo de delivery
+keywords: Feed de dados;processo;conteúdo;manifesto;arquivo;pesquisa;dados de ocorrência;conteúdo de delivery
 subtopic: data feeds
 title: Conteúdos do feed de dados - visão geral
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1002'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Conteúdos do feed de dados - visão geral
+# Conteúdo do feed de dados: visão geral
 
 As seções a seguir descrevem como acessar e entender os arquivos encontrados na entrega de um feed de dados.
 
@@ -28,7 +28,7 @@ Para acessar o conteúdo de um feed de dados:
 
 1. Descompacte o arquivo compactado usando um programa compatível com extensões de arquivo `.tar.gz`.
 
-1. Abra o arquivo `hit_data.tsv` na planilha ou no aplicativo de banco de dados preferido para ver os dados brutos desse dia. —>
+1. Abra o arquivo `hit_data.tsv` em sua planilha ou aplicativo de banco de dados preferido para visualizar os dados brutos daquele dia. -->
 
 ## Arquivo manifest {#feed-manifest}
 
@@ -65,9 +65,9 @@ Datafeed-Manifest-Version: 1.0
  Record-Count: 611
 ```
 
-Todo arquivo de manifesto contém um cabeçalho, que indica o número total de arquivos de pesquisa, arquivos de dados e o número total de registros em todos os arquivos de dados. Esse cabeçalho é seguido por várias seções com informações de cada arquivo incluído na entrega do feed de dados.
+Todo arquivo de manifesto contém um cabeçalho, que indica o número total de arquivos de pesquisa, arquivos de dados e o número total de registros em todos os arquivos de dados. Esse cabeçalho é seguido por várias seções que contêm informações para cada arquivo incluído na entrega do feed de dados.
 
-Alguns feeds são configurados para receber um arquivo `.fin` em vez de um manifesto `.txt`. O `.fin` indica que o carregamento foi concluído, mas os metadados que ele contém estão em um formato antigo.
+Alguns feeds são configurados para receber um arquivo `.fin` em vez de um manifesto `.txt`. O `.fin` indica que o upload foi concluído, mas os metadados que ele contém estão em um formato antigo.
 
 ## Arquivos de pesquisa
 
@@ -81,24 +81,24 @@ Os arquivos de pesquisa são entregues em conjunto em um zip compactado, o qual 
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**: Uma única linha contendo os cabeçalhos de coluna para `hit_data.tsv`.
-* **`browser.tsv`**: Mapeia a ID do navegador (a coluna de feed `browser`) para o nome amigável do navegador.
-* **`browser_type.tsv`**: Mapeia a ID do navegador (a coluna de feed `browser`) para o tipo de navegador.
-* **`color_depth.tsv`**: Mapeia a ID de intensidade de cor (a coluna de feed `color`) para a intensidade de cor.
-* **`connection_type.tsv`**: Mapeia a ID do tipo de conexão (a coluna de feed `connection_type`) para o tipo de conexão.
-* **`country.tsv`**: Mapeia a ID do país (a coluna de feed `country`) para o nome do país.
-* **`javascript_version.tsv`**: Mapeia a ID da versão do JavaScript (a coluna de feed `javascript`) para a versão do JavaScript.
-* **`languages.tsv`**: Mapeia a ID do idioma (a coluna de feed `language`) para o idioma.
-* **`operating_systems.tsv`**: Mapeia a ID do sistema operacional (a coluna de feed `os`) para o nome do sistema operacional.
-* **`plugins.tsv`**: Mapeia as IDs do plug-in (a coluna de feed `plugin`) para cada nome de plug-in respectivo.
-* **`resolution.tsv`**: Mapeia a ID de resolução (a coluna de feed `resolution`) para a resolução do monitor.
-* **`referrer_type.tsv`**: Mapeia a ID de tipo de referenciador (a coluna de feed `ref_type`) para o tipo de referenciador.
-* **`search_engines.tsv`**: Mapeia a ID do mecanismo de pesquisa (a coluna de feed `search_engine`) para o nome do mecanismo de pesquisa.
+* **`column_headers.tsv`**: uma única linha contendo os cabeçalhos de coluna para `hit_data.tsv`.
+* **`browser.tsv`**: mapeia a ID do navegador (a coluna de feed `browser`) para o nome amigável do navegador.
+* **`browser_type.tsv`**: mapeia a ID do navegador (a coluna de feed `browser`) para o tipo de navegador.
+* **`color_depth.tsv`**: mapeia a ID de intensidade de cor (a coluna de feed `color`) para a intensidade de cor.
+* **`connection_type.tsv`**: mapeia a ID do tipo de conexão (a coluna de feed `connection_type`) para o tipo de conexão.
+* **`country.tsv`**: mapeia a ID do país (a coluna de feed `country`) para o nome do país.
+* **`javascript_version.tsv`**: mapeia a ID da versão do JavaScript (a coluna de feed `javascript`) para a versão do JavaScript.
+* **`languages.tsv`**:mapeia a ID do idioma (a coluna de feed `language`) para o idioma.
+* **`operating_systems.tsv`**: mapeia a ID do sistema operacional (a coluna de feed `os`) para o nome do sistema operacional.
+* **`plugins.tsv`**: mapeia as IDs do plug-in (a coluna de feed `plugin`) para cada nome de plug-in respectivo.
+* **`resolution.tsv`**: mapeia a ID de resolução (a coluna de feed `resolution`) para a resolução do monitor.
+* **`referrer_type.tsv`**: mapeia a ID de tipo de referenciador (a coluna de feed `ref_type`) para o tipo de referenciador.
+* **`search_engines.tsv`**: mapeia a ID do mecanismo de pesquisa (a coluna de feed `search_engine`) para o nome do mecanismo de pesquisa.
 * **`event.tsv`**: Mapeia cada ID de evento (a coluna de feed `event_list`) para seu respectivo nome de evento.
 
 ## Arquivos de dados de hit
 
-Os dados de hit são fornecidos em um arquivo `hit_data.tsv`. A quantidade de dados nesse arquivo é determinada pelo formato de entrega (por hora ou por dia e, ainda, em único arquivo ou vários arquivos). Esse arquivo contém somente os dados de hit. Os cabeçalhos da coluna são entregues separadamente com os arquivos de pesquisa. Cada linha desse arquivo contém uma única chamada de servidor.
+Os dados de hit são fornecidos em um arquivo `hit_data.tsv`. A quantidade de dados nesse arquivo é determinada pelo formato de entrega (por hora ou por dia e arquivos únicos ou múltiplos). Este arquivo contém apenas dados de ocorrência. Os cabeçalhos de coluna são entregues separadamente com os arquivos de pesquisa. Cada linha neste arquivo contém uma única chamada de servidor.
 
 Os arquivos entregues pela Adobe variam com base no tipo de feed de dados configurados. Todos os arquivos são codificados usando o ISO-8859-1.
 
@@ -107,7 +107,7 @@ Os arquivos entregues pela Adobe variam com base no tipo de feed de dados config
 * `[YYYY-mm-dd]` refere-se ao dia de início do feed de dados.
 * `[HHMMSS]` é usado somente em feeds por hora e refere-se à hora inicial para a qual o feed de dados é usado.
 * `[compression_suffix]` refere-se ao tipo de compactação usado. Normalmente, os feeds de dados são compactados em `tar.gz` ou `zip` arquivos.
-* `[format_suffix]` refere-se ao tipo de formato de arquivo. Normalmente, o formato do arquivo de feed de dados é `.tsv`.
+* `[format_suffix]` refere-se ao tipo de formato de arquivo. Normalmente, o formato de arquivo do feed de dados é `.tsv`.
 
 ### Por dia, único arquivo
 
@@ -135,11 +135,11 @@ Quando extraído, o arquivo de dados contém um único `hit_data.tsv` arquivo co
 
 ### Por hora, vários arquivos
 
-Depois que os dados forem coletados por uma hora, você receberá um ou mais arquivos de dados compactados e um arquivo manifest. Os arquivos de dados são nomeados como:
+Depois que os dados forem coletados por uma hora, você receberá um ou mais arquivos de dados compactados e um arquivo manifest. Os arquivos de dados são nomeados da seguinte forma:
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Quando extraído, cada arquivo de dados contém um único arquivo `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` que contém aproximadamente 2 GB de dados descompactados, bem como arquivos de pesquisa para quaisquer colunas necessárias.
+Quando extraído, cada arquivo de dados contém um único arquivo `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` que tem aproximadamente 2 GB de dados não compactados, bem como arquivos de pesquisa para quaisquer colunas necessárias.
 
 ## Tamanho do arquivo de dados
 

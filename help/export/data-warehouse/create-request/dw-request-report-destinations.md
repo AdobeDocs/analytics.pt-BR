@@ -4,9 +4,9 @@ title: Configurar um destino de relatório para uma solicitação do data wareho
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1980'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Para obter informações sobre como começar a criar uma solicitação, bem como
 
 >[!NOTE]
 >
->Considere o seguinte ao configurar um destino de relatório:
+>Considere o seguinte ao configurar um destino de relatórios:
 >
 >* Recomendamos o uso de uma conta na nuvem ou de um email como destino do seu relatório. [Contas de FTP e SFTP herdadas](#legacy-destinations) estão disponíveis, mas não são recomendadas.
 >
->* Todas as contas em nuvem configuradas anteriormente estão disponíveis para uso no data warehouse. Você pode configurar contas em nuvem de qualquer uma das seguintes maneiras:
+>* Todas as contas em nuvem configuradas anteriormente estão disponíveis para uso no data warehouse. É possível configurar contas na nuvem de qualquer das seguintes maneiras:
 >
 >   * Ao configurar [feeds de dados](/help/export/analytics-data-feed/create-feed.md)
 >   
@@ -48,7 +48,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
    >[!NOTE]
    >
-   >As contas estão disponíveis somente se você as tiver configurado ou se tiverem sido compartilhadas com uma organização da qual você faça parte.
+   >As contas estarão disponíveis para você somente se as configurou ou se elas foram compartilhadas com uma organização da qual faça parte.
    >
    >A opção [!UICONTROL **Mostrar todos os destinos**] está disponível para administradores do sistema. Habilite essa opção se desejar ter acesso a todas as contas e locais que foram criados por qualquer usuário na organização.
 
@@ -66,7 +66,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
 1. (Condicional) Se você não tiver acesso a uma conta na nuvem já configurada no Adobe Analytics, será possível configurá-la:
 
-   1. Selecione o menu suspenso [!UICONTROL **Conta**] e selecione [!UICONTROL **Adicionar conta**].
+   1. Selecione o menu suspenso [!UICONTROL **Conta**] e escolha [!UICONTROL **Adicionar conta**].
 
    1. Na caixa de diálogo Adicionar conta, especifique as seguintes informações:
 
@@ -74,18 +74,18 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
       |---------|----------|
       | [!UICONTROL **Nome da conta de localização**] | O nome da conta de localização. Esse nome aparece ao criar uma localização |
       | [!UICONTROL **Descrição da conta de localização**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. |
-      | [!UICONTROL **Disponibilizar a conta para todos os usuários em sua organização**] | Habilite essa opção para permitir que outros usuários em sua organização usem a conta.<p>Considere o seguinte ao compartilhar contas:</p><ul><li>As contas compartilhadas não podem ter o compartilhamento cancelado.</li><li>As contas compartilhadas podem ser editadas somente pelo proprietário da conta.</li><li>Qualquer pessoa pode criar um local para a conta compartilhada.</li></ul> |
-      | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta de cada tipo, com os vários locais necessários contidos nessa conta.<p>Os administradores do sistema podem limitar os tipos de conta que os usuários podem criar, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</p> |
+      | [!UICONTROL **Disponibilize a conta para todos os usuários da organização**] | Habilite essa opção para permitir que outros usuários na organização usem a conta.<p>Considere o seguinte ao compartilhar contas:</p><ul><li>As contas compartilhadas não podem ter o compartilhamento cancelado.</li><li>As contas compartilhadas podem ser editadas somente pelo proprietário da conta.</li><li>Qualquer pessoa pode criar um local para a conta compartilhada.</li></ul> |
+      | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta de cada tipo, com os vários locais necessários contidos nessa conta.<p>Os admins do sistema podem limitar os tipos de conta que os usuários criam, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o admin do sistema.</p> |
 
-   1. Na seção [!UICONTROL **Propriedades da conta**], especifique informações específicas para o tipo de conta selecionado.
+   1. Na seção [!UICONTROL **Propriedades da conta**], insira as informações específicas do tipo de conta selecionado.
 
-      Para obter instruções de configuração, expanda a seção abaixo que corresponde ao [!UICONTROL **Tipo de conta**] selecionado. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
+      Para obter instruções de configuração, expanda a seção abaixo que corresponde ao [!UICONTROL **Tipo de conta**] selecionada. (Tipos adicionais de contas herdadas também estão disponíveis, mas não são recomendados.)
 
       **Tipos de conta**
 
       +++Amazon S3 Role ARN
 
-      **OBSERVAÇÃO:** ao usar o Amazon S3 com Data Warehouse, somente a criptografia SSE-S3 é suportada.
+      **OBSERVAÇÃO:** ao usar o Amazon S3 com Data Warehouse, somente a criptografia SSE-S3 é compatível.
 
       Para configurar uma conta do Amazon S3 Role ARN, especifique as seguintes informações:
 
@@ -109,7 +109,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       +++
 
-      +++Azure SAS
+      +++SAS do Azure
 
       Para configurar uma conta do Azure SAS, especifique as seguintes informações:
 
@@ -117,15 +117,15 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
       |---------|----------|
       | [!UICONTROL **ID do aplicativo**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **ID do locatário**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **URI do cofre de chaves**] | <p>O caminho para o token SAS no cofre de chaves do Azure.  Para configurar o Azure SAS, você deve armazenar um token SAS como um segredo usando o Cofre de Chaves do Azure. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Depois que o URI do cofre de chaves for criado, adicione uma política de acesso no Cofre de Chaves para conceder permissão ao aplicativo do Azure que você criou. Para obter informações, consulte a [documentação do Microsoft Azure sobre como atribuir uma política de acesso do cofre de chaves](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>Ou</p><p>Se você quiser conceder uma função de acesso diretamente sem criar uma política de acesso, consulte a [documentação do Microsoft Azure sobre como atribuir funções do Azure usando o portal do Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal). Isso adiciona a atribuição de função para a ID do aplicativo acessar o URI do cofre de chaves. </p> |
-      | [!UICONTROL **Nome secreto do cofre de chaves**] | O nome secreto criado ao adicionar o segredo ao Cofre de Chaves do Azure. No Microsoft Azure, essas informações estão localizadas no Cofre de Chaves que você criou, na página de configurações do **Cofre de Chaves**. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+      | [!UICONTROL **URI do cofre de chaves**] | <p>O caminho para o token SAS no cofre de chaves do Azure.  Para configurar a SAS do Azure, é necessário armazenar um token SAS como um segredo com o Azure Key Vault. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Após o URI do cofre de chaves ser criado, adicione uma política de acesso ao cofre de chaves para conceder permissão ao aplicativo do Azure que você criou. Para obter informações, consulte a [documentação do Microsoft Azure sobre como atribuir uma política de acesso do cofre de chaves](https://learn.microsoft.com/pt-br/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>Ou</p><p>Se quiser conceder uma função de acesso diretamente sem criar uma política de acesso, consulte a [documentação do Microsoft Azure sobre como atribuir funções do Azure com o portal do Azure](https://learn.microsoft.com/pt-br/azure/role-based-access-control/role-assignments-portal). Isso adiciona a atribuição de função para a ID do aplicativo acessar o URI do cofre de chaves. </p> |
+      | [!UICONTROL **Nome do segredo do cofre de chaves**] | O nome secreto criado ao adicionar o segredo no Azure Key Vault. No Microsoft Azure, essas informações se localizam no cofre de chaves criado, na página de configurações do **Cofre de chaves**. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
       | [!UICONTROL **Segredo da conta de localização**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Certificados e segredos** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
       {style="table-layout:auto"}
 
       +++   
 
-      +++Azure RBAC
+      +++RBAC do Azure
 
       Para configurar uma conta do Azure RBAC, especifique as seguintes informações:
 
@@ -143,7 +143,7 @@ Configure o destino para o qual enviar os relatórios do data warehouse.
 
       >[!NOTE]
       >
-      >Contas de email podem ser usadas apenas com [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md). (Contas de email sem suporte no [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Conjuntos de classificações](/help/components/classifications/sets/overview.md)).
+      >Contas de email podem ser usadas apenas com [Feeds de dados](/help/export/analytics-data-feed/create-feed.md). (Contas de email não são compatíveis com o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Conjuntos de classificações](/help/components/classifications/sets/overview.md)).
 
       Para configurar uma conta do Azure RBAC, especifique as seguintes informações:
 
@@ -246,10 +246,10 @@ As 16 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de ass
 * us-west-1
 * us-west-2
 * ap-south-1
-* ap-nordeste-2
+* ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2
-* ap-nordeste-1
+* ap-northeast-1
 * ca-central-1
 * eu-central-1
 * eu-west-1

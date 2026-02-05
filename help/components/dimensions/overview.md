@@ -1,12 +1,12 @@
 ---
 title: Visão geral de dimensões
-description: Saiba o que são dimensões e como são usadas no Adobe Analytics.
+description: Saiba o que são dimensões e como elas são usadas no Adobe Analytics.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

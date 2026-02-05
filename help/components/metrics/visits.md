@@ -1,12 +1,12 @@
 ---
 title: Visitas
-description: Saiba mais sobre a métrica Visitas no Analytics. Veja como ele é calculado, os comportamentos que o afetam, como alterar sua definição e muito mais.
+description: Saiba mais sobre a métrica Visitas no Analytics. Veja como ela é calculada, os comportamentos que a afetam, como alterar sua definição e muito mais.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Uma visita não necessariamente coincide com uma sessão do navegador devido aos
 
 Se um visitante executar qualquer uma dessas ações, uma nova visita se inicia:
 
-* Exclui os cookies no meio da sessão e continua a navegar no site
+* Exclui os cookies durante a sessão e continua a navegar no seu site
 * Deixa o site aberto em uma guia por mais de 30 minutos e continua navegando
 * Abre um navegador diferente e navega até seu site no mesmo computador
 * A mesma pessoa que navega no site em dispositivos diferentes
@@ -45,12 +45,12 @@ Se um visitante executar qualquer uma dessas ações, uma nova visita **não** s
 
 É possível alterar a definição de uma visita para um horário que não ultrapasse 30 minutos.
 
-* Para [Conjuntos de relatórios virtuais](../vrs/vrs-about.md), é possível alterar o tempo limite da visita (tempo entre ocorrências que causa o início de uma nova visita) usando a lista suspensa [!UICONTROL Tempo limite da visita]. Você pode alterar o tempo limite da visita para qualquer valor razoável.
-* Para conjuntos de relatórios padrão, entre em contato com o Atendimento ao cliente para solicitar que o tempo limite da visita (tempo entre as ocorrências que fazem com que uma nova visita seja iniciada) seja reduzido para um determinado conjunto de relatórios. O tempo limite de visita dos conjuntos de relatórios padrão não pode exceder 30 minutos, portanto, você só pode reduzi-lo.
+* Para [Conjuntos de relatórios virtuais](../vrs/vrs-about.md), é possível alterar o tempo limite da visita (tempo entre ocorrências que causam o início de uma nova visita) usando a lista suspensa [!UICONTROL Tempo limite da visita]. Você pode alterar o tempo-limite da visita para qualquer valor razoável.
+* Para conjuntos de relatórios padrão, entre em contato com o Atendimento ao cliente para solicitar que o tempo limite da visita (tempo entre as ocorrências que fazem com que uma nova visita seja iniciada) seja reduzido para um determinado conjunto de relatórios. O tempo limite da visita dos conjuntos de relatórios padrão não pode exceder 30 minutos, portanto, você só pode reduzi-lo.
 
 ## Visitas que abrangem um limite de data
 
-Uma visita conta para cada período envolvido. Por exemplo, se você tiver um visitante que começa a navegar no seu site na segunda-feira às 23h00, em seguida, envia sua última solicitação de imagem na terça-feira às 12h10, você verá uma visita atribuída tanto à segunda quanto à terça-feira. :45:10 No entanto, a métrica de visita total é desduplicada, mostrando uma única visita para o intervalo de datas do projeto.
+Uma visita conta para cada período envolvido. Por exemplo, se um visitante começar a navegar no seu site na segunda-feira às 23:45h, e enviar sua última solicitação de imagem na terça-feira à 0:10h, você verá uma visita atribuída tanto à segunda-feira quanto à terça-feira. No entanto, a métrica de visita total é desduplicada, mostrando uma única visita para o intervalo de datas do projeto.
 
 ## Visitas em uma dimensão em relação ao total de visita
 

@@ -4,7 +4,7 @@ title: 'Sobre os segmentos '
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Os segmentos podem ter por base os seguintes valores:
 
 - Visitantes com base em atributos: tipo de navegador, dispositivo, número de visitas, país, gênero.
 - Visitantes com base em interações: campanhas, pesquisa por palavras-chave, mecanismo de pesquisa.
-- Visitantes com base em saídas e entradas: visitantes do Facebook, uma página inicial definida e um domínio de referência.
+- Visitantes com base em saídas e entradas: visitantes do Facebook, uma página de destino definida e um domínio de referência.
 - Visitantes com base em variáveis personalizadas: campos do formulário, categorias definidas, ID do cliente.
 
 Ao criar segmentos de público-alvo no construtor de segmentos, é possível definir condições utilizando os operadores [!UICONTROL AND] e [!UICONTROL OR] entre os containers.
@@ -108,7 +108,7 @@ Ao criar segmentos de público-alvo no construtor de segmentos, é possível def
 
 Esse tipo de segmento filtra conjuntos de dados com base em características unidas por meio de operadores [!UICONTROL AND] e [!UICONTROL OR].
 
-- É possível [aplicar vários segmentos a um relatório ou projeto](/help/components/segmentation/segmentation-workflow/t-seg-apply.md).
+- Você pode [aplicar vários segmentos a um relatório ou projeto](/help/components/segmentation/segmentation-workflow/t-seg-apply.md).
 - Os segmentos são universais para todos os conjuntos de relatórios.
 - O [Construtor de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) simplifica a criação de segmentos.
 - O [Gerenciador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md) permite configurar [fluxos de trabalho](/help/components/segmentation/segmentation-workflow/seg-workflow.md) com recursos de compartilhamento, marcação, verificação e aprovação de segmentos.
@@ -130,7 +130,7 @@ O painel esquerdo “Componentes” mostra segmentos criados por você e pela su
 
 ## Segmentos sequenciais {#sequential}
 
-Os segmentos sequenciais permitem que você identifique visitantes com base na navegação e visualização de página no site, o que fornece um segmento de ações e interações definidas. Os segmentos sequenciais ajudam você a identificar o que um visitante gosta e o que um visitante evita. Ao construir segmentos sequenciais, o operador [!UICONTROL THEN] é usado para definir e organizar a navegação do visitante.
+Os segmentos sequenciais permitem identificar visitantes de acordo com a navegação e exibição de página no site, o que fornece um segmento de ações e interações definidas. Os segmentos sequenciais ajudam você a identificar o que um visitante gosta e o que um visitante evita. Ao construir segmentos sequenciais, o operador [!UICONTROL THEN] é usado para definir e organizar a navegação do visitante.
 
 | Visita um | Visita dois | Visita três |
 |---|---|---|
@@ -240,7 +240,7 @@ Este vídeo oferece uma visão geral breve do que são os containers de segmento
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/3429097?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -249,9 +249,9 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Containers 
 
 +++ **Quais direitos e privilégios são necessários para que eu possa usar, criar e gerenciar segmentos?**
 
-Por padrão, todos os usuários podem criar e editar segmentos pessoais. Contudo, os administradores podem escolher quem deve ter [permissões para criar segmentos](/help/admin/admin-console/home.md) e quem pode atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com qualquer outro usuário do Analytics.
+Por padrão, todos os usuários podem criar e editar segmentos pessoais. No entanto, os administradores podem decidir quem deve ter [permissões para criar segmentos](/help/admin/admin-console/home.md) e podem atribuí-los a grupos específicos. Esses segmentos podem ser compartilhados diretamente com outro usuário do Analytics.
 
-Os administradores podem editar qualquer segmento e compartilhar segmentos com grupos e todos na organização. [Direitos de segmento por função](/help/components/segmentation/seg-reference/seg-rights.md)
+Os administradores podem editar qualquer segmento e compartilhar segmentos com grupos e com todos na organização. [Direitos de segmento por função](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 

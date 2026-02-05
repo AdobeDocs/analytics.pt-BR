@@ -5,43 +5,43 @@ exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
 source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 # Implementar o Adobe Analytics com a rede de borda da Adobe Experience Platform
 
-A rede de borda da Adobe Experience Platform permite enviar dados destinados a vários produtos a um local centralizado. A rede de borda encaminha as informações apropriadas para os produtos desejados. Esse conceito permite consolidar os esforços de implementação, especialmente abrangendo várias soluções de dados. O Adobe Analytics é um dos produtos para os quais você pode enviar dados usando a Edge Network.
+A rede de borda da Adobe Experience Platform permite enviar dados destinados a vários produtos a um local centralizado. A rede de borda encaminha as informações apropriadas para os produtos desejados. Esse conceito permite consolidar os esforços de implementação, especialmente englobando várias soluções de dados. O Adobe Analytics é um dos produtos para os quais você pode enviar dados usando a Edge Network.
 
-## Como o Adobe Analytics lida com os dados da rede de borda
+## Como o Adobe Analytics lida com os dados do Edge Network
 
-Como os dados enviados para a Edge Network e o AppMeasurement operam de forma diferente, a carga do Edge Network determina como o Adobe Analytics lida com a ocorrência. Consulte [Tipos de evento do Edge Network no Adobe Analytics](hit-types.md) para obter mais informações.
+Como os dados enviados para a Edge Network e o AppMeasurement operam de forma diferente, o conteúdo da Edge Network determina como o Adobe Analytics lida com a ocorrência. Consulte [Tipos de evento da Edge Network no Adobe Analytics](hit-types.md) para obter mais informações.
 
-Os dados enviados para o Adobe Experience Platform Edge Network podem seguir três formatos: **Objeto XDM**, **Objeto de dados** e **Dados de contexto**. Quando um fluxo de dados encaminha dados para o Adobe Analytics, eles são traduzidos em um formato que o Adobe Analytics pode manipular.
+Os dados enviados para a Edge Network da Adobe Experience Platform podem seguir três formatos: **Objeto XDM**, **Objeto de dados** e **Dados de contexto**. Quando um fluxo de dados encaminha dados para o Adobe Analytics, eles são traduzidos para um formato que o Adobe Analytics consegue processar.
 
-## objeto `xdm`
+## Objeto `xdm`
 
-Siga os esquemas que você cria com base no [XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) (Experience Data Model). O XDM oferece flexibilidade sobre quais campos são definidos como parte dos eventos. Se quiser usar um esquema predefinido específico do Adobe Analytics, você pode adicionar o [grupo de campos do esquema do Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) ao seu esquema. Depois de adicionado, é possível preencher esse esquema usando o objeto `xdm` no Web SDK para enviar dados a um conjunto de relatórios. Quando os dados chegam à Edge Network, eles traduzem o objeto XDM em um formato que a Adobe Analytics entende.
+Siga os esquemas que você cria com base no [XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) (Experience Data Model). O XDM oferece flexibilidade sobre quais campos são definidos como parte dos eventos. Se quiser usar um esquema predefinido específico do Adobe Analytics, você pode adicionar o [grupo de campos do esquema de eventos de experiência do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) ao seu esquema. Depois de adicionado, é possível preencher esse esquema usando o objeto `xdm` no SDK da Web para enviar dados a um conjunto de relatórios. Quando os dados chegam à Edge Network, eles traduzem o objeto XDM em um formato que o Adobe Analytics entende.
 
 Consulte [Mapeamento de variável de objeto XDM para o Adobe Analytics](xdm-var-mapping.md) para obter uma referência completa de campos XDM e como eles são mapeados para variáveis do Analytics.
 
 >[!TIP]
 >
->Se você planeja mudar para o [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing) no futuro, a Adobe recomenda não usar o grupo de campos de esquema do Adobe Analytics. Em vez disso, a Adobe recomenda [criar seu próprio esquema](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) e usar o mapeamento de sequência de dados para preencher as variáveis do Analytics desejadas. Essa estratégia não bloqueia você em um esquema de props e eVars quando estiver pronto para migrar para o Customer Journey Analytics.
+>Se você planeja mudar para o [Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-landing) no futuro, a Adobe recomenda não usar o grupo de campos de esquema do Adobe Analytics. Em vez disso, a Adobe recomenda [criar seu próprio esquema](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) e usar o mapeamento de sequência de dados para preencher as variáveis do Analytics desejadas. Com essa estratégia você não fica preso a um esquema de props e eVars quando estiver pronto para migrar para o Customer Journey Analytics.
 
-## objeto `data`
+## Objeto `data`
 
-Como alternativa ao uso do objeto `xdm`, você pode usar o objeto `data`. O objeto de dados é direcionado para implementações que atualmente usam o AppMeasurement, tornando a atualização para o Web SDK muito mais fácil. O Edge Network detecta a presença de campos específicos do Adobe Analytics sem a necessidade de estar em conformidade com um esquema.
+Como alternativa ao uso do objeto `xdm`, você pode usar o objeto `data`. O objeto de dados é direcionado para implementações que atualmente usam o AppMeasurement, tornando a atualização para o SDK da Web muito mais fácil. A Edge Network detecta a presença de campos específicos do Adobe Analytics sem a necessidade de se adequar a um esquema.
 
 Consulte [Mapeamento de variáveis de objetos de dados para o Adobe Analytics](data-var-mapping.md) para obter uma referência completa dos campos de objetos de dados e como eles são mapeados para variáveis do Analytics.
 
 ## Variáveis de dados de contexto
 
-Envie dados para a Edge Network em qualquer formato desejado. Todos os campos que não são mapeados automaticamente para `xdm` ou `data` campos de objeto são incluídos como [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md) quando encaminhados para o Adobe Analytics. Em seguida, você deve usar [Regras de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) para mapear os campos desejados para as respectivas variáveis do Analytics.
+Envie dados para a Edge Network em qualquer formato desejado. Todos os campos que não são mapeados automaticamente para campos de objeto `xdm` ou `data` são incluídos como [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md) quando encaminhados para o Adobe Analytics. Em seguida, você deve usar [Regras de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) para mapear os campos desejados para as respectivas variáveis do Analytics.
 
-Por exemplo, se você tivesse um esquema XDM personalizado com aparência semelhante ao seguinte:
+Por exemplo, se você tivesse um esquema XDM personalizado com a seguinte aparência:
 
 ```json
 {
@@ -65,7 +65,7 @@ Por exemplo, se você tivesse um esquema XDM personalizado com aparência semelh
 }
 ```
 
-Em seguida, esses campos seriam as chaves de dados de contexto disponíveis na interface Regras de processamento:
+Esses campos seriam as chaves de dados de contexto disponíveis na interface Regras de processamento:
 
 ```javascript
 a.x.key // value
@@ -79,4 +79,4 @@ a.x.objectarray.1.ad2 // 60x240
 a.x.objectarray.2.ad3 // 600x50
 ```
 
-O tamanho máximo para uma determinada carga de variável de dados de contexto (incluindo chaves e valores) é de 32 KB. Você pode reduzir o tamanho dessa carga ajustando campos relevantes para que sejam reconhecidos pelo Adobe Analytics nos objetos [`xdm`](xdm-var-mapping.md) ou [`data`](data-var-mapping.md).
+O tamanho máximo para um determinado conteúdo de variável de dados de contexto (incluindo chaves e valores) é de 32 KB. Você pode reduzir o tamanho desse conteúdo ajustando campos relevantes para que sejam reconhecidos pelo Adobe Analytics nos objetos [`xdm`](xdm-var-mapping.md) ou [`data`](data-var-mapping.md).

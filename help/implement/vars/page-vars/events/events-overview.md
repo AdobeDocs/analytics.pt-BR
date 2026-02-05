@@ -5,9 +5,9 @@ feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Se estiver usando o [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md), o
 >
 >Se um evento for definido em `productListItems` (por exemplo, `productListItems._experience.analytics.event1.value`) e o evento ainda não estiver nesse campo, ele será adicionado automaticamente a esse campo.
 
-Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), todos os eventos usarão `data.__adobe.analytics.events`, seguindo a sintaxe da cadeia de caracteres do AppMeasurement. Se você definir esse campo, todos os eventos definidos no objeto XDM serão substituídos e não enviados para o Adobe Analytics.
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), todos os eventos usarão `data.__adobe.analytics.events`, seguindo a sintaxe da string do AppMeasurement. Se você definir esse campo, todos os eventos definidos no objeto XDM serão substituídos e não serão enviados para o Adobe Analytics.
 
 ## Evento usando a extensão do Adobe Analytics
 
@@ -48,21 +48,21 @@ Você pode definir eventos ao configurar a extensão do Analytics (variáveis gl
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Definir Variáveis].
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Eventos].
 
 Vários recursos estão disponíveis:
 
-* Uma lista suspensa que permite selecionar o evento a ser incluído
+* Uma lista suspensa permite selecionar o evento a incluir
 * um campo de texto opcional para serialização. Consulte [Serialização de eventos](event-serialization.md) para obter mais informações.
-* Um campo de texto opcional para um valor de evento. Você pode incluir moeda para eventos de moeda, ou um número inteiro para eventos que não sejam de moeda para incrementá-lo várias vezes. Por exemplo, selecionar `event1` na lista suspensa e incluir `10` neste campo incrementa `event1` por 10 nos relatórios.
+* Um campo de texto opcional para um valor de evento. Você pode incluir moeda para eventos de moeda, ou um número inteiro para eventos que não sejam de moeda para incrementá-lo várias vezes. Por exemplo, selecionar `event1` na lista suspensa e incluir `10` neste campo incrementa `event1` em 10 no relatório.
 * Um botão para adicionar outro evento. Você pode adicionar quantos eventos desejar a uma única regra dentro do razoável.
 
 ## s.events no AppMeasurement e no editor de código personalizado da extensão do Analytics
 
-A variável `s.events` é uma string que contém uma lista de eventos delimitada por vírgulas para inclusão na ocorrência. A variável permite até 64k bytes, permitindo efetivamente quantos eventos forem necessários para uma ocorrência. Os valores válidos incluem:
+A variável `s.events` é uma string que contém uma lista de eventos delimitada por vírgulas para inclusão na ocorrência. A variável permite até 64 KB, permitindo efetivamente quantos eventos forem necessários para uma ocorrência. Os valores válidos incluem:
 
-* `event1` e `event1000`: eventos personalizados, definidos como você desejar. Registre como você usa cada evento no [documento de design de solução](../../../prepare/solution-design.md) da sua organização. O número de eventos disponíveis depende do contrato do Analytics de sua organização. A maioria das organizações com contratos não herdados tem 1000 eventos personalizados disponíveis. Entre em contato com a equipe de conta da Adobe se não tiver certeza de quantos eventos personalizados estão disponíveis para você.
+* `event1` e `event1000`: eventos personalizados, definidos como você desejar. Registre como você usa cada evento no [documento de design de solução](../../../prepare/solution-design.md) da sua organização. O número de eventos disponíveis depende do contrato do Analytics de sua organização. A maioria das organizações com contratos não herdados tem 1000 eventos personalizados disponíveis. Entre em contato com a Equipe de contas da Adobe se não tiver certeza de quantos eventos personalizados estão disponíveis para você.
 * `purchase`: incrementa a métrica [&quot;Pedidos&quot;](/help/components/metrics/orders.md) em 1 e obtém valores definidos na variável `products` para calcular [&quot;Unidades&quot;](/help/components/metrics/units.md) e [&quot;Receita&quot;](/help/components/metrics/revenue.md). Consulte [Evento de compra](event-purchase.md) para obter mais informações.
 * `prodView`: incrementa a métrica [“Visualizações de produto”](/help/components/metrics/product-views.md).
 * `scOpen`: incrementa a métrica [“Carrinhos”](/help/components/metrics/carts.md).

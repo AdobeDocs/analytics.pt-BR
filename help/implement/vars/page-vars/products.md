@@ -5,9 +5,9 @@ feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -19,16 +19,16 @@ A variável `products` rastreia produtos e propriedades associadas a eles. Norma
 >
 >Se essa variável for definida em uma ocorrência sem a [`events`](events/events-overview.md) variável, a métrica [Visualizações de produto](/help/components/metrics/product-views.md) será incrementada em 1. Defina os eventos apropriados em cada ocorrência com a variável `products`.
 
-## Produtos que usam o Web SDK
+## Produtos que usam o SDK da Web
 
 Se estiver usando o [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), os produtos serão mapeados para as seguintes variáveis:
 
-* Categoria mapeada para `xdm.productListItems[].productCategories[].categoryID`. Ele usa o primeiro item na matriz `productCategories[]`. `lineItemId` também mapeia corretamente, mas a Adobe recomenda `categoryID`, pois é o XDM padrão. Se ambos os campos XDM estiverem presentes, `lineItemId` terá prioridade.
+* Categoria mapeada para `xdm.productListItems[].productCategories[].categoryID`. Usa o primeiro item na matriz `productCategories[]`. `lineItemId` também mapeia corretamente, mas a Adobe recomenda `categoryID`, pois é o XDM padrão. Se ambos os campos XDM estiverem presentes, `lineItemId` terá prioridade.
 * Produto mapeado para `xdm.productListItems[].SKU` ou `xdm.productListItems[].name`. Se ambos os campos XDM estiverem presentes, `xdm.productListItems[].SKU` será usado.
 * A quantidade está mapeada para `xdm.productListItems[].quantity`.
-* Preço mapeado para `xdm.productListItems[].priceTotal`.
+* O preço está mapeado para `xdm.productListItems[].priceTotal`.
 * As eVars de merchandising são mapeadas de `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependendo de qual eVar você deseja vincular a um produto.
-* Os eventos de merchandising são mapeados de `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, dependendo do evento que você deseja vincular a um produto. Se você definir um evento em um desses campos, ele será automaticamente incluído na sequência de caracteres [event](events/events-overview.md) enviada ao Adobe Analytics.
+* Os eventos de merchandising são mapeados de `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, dependendo do evento que você deseja vincular a um produto. Se você definir um evento em um desses campos, ele será automaticamente incluído na string [event](events/events-overview.md) enviada ao Adobe Analytics.
 
 ```json
 {
@@ -53,7 +53,7 @@ Se estiver usando o [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md
 }
 ```
 
-Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), a variável products usará `data.__adobe.analytics.products` após a sintaxe do AppMeasurement. Se você definir esse campo, quaisquer produtos definidos no objeto XDM serão substituídos e não enviados para o Adobe Analytics.
+Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapping.md), a variável products usará `data.__adobe.analytics.products` após a sintaxe do AppMeasurement. Se você definir esse campo, quaisquer produtos definidos no objeto XDM serão substituídos e não serão enviados para o Adobe Analytics.
 
 ```json
 {
@@ -67,9 +67,9 @@ Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapp
 }
 ```
 
-## Produtos que usam a extensão Adobe Analytics
+## Produtos que usam a extensão do Adobe Analytics
 
-Não há um campo dedicado na Coleção de dados da Adobe Experience Platform para definir essa variável; no entanto, várias extensões de terceiros podem ajudar.
+Não existe um campo específico na coleção de dados da Adobe Experience Platform para definir essa variável; no entanto, existem diversas extensões de terceiros que podem ajudar.
 
 1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 2. Clique na propriedade de tag desejada.
@@ -78,7 +78,7 @@ Não há um campo dedicado na Coleção de dados da Adobe Experience Platform pa
 
 Você pode usar uma dessas extensões ou usar o editor de código personalizado abaixo, que está após a sintaxe do AppMeasurement.
 
-## s.products no AppMeasurement e no editor de código personalizado da extensão do Analytics
+## s.products no AppMeasurement e no editor de código personalizado da extensão Analytics
 
 A variável `s.products` é uma string que contém vários campos delimitados por produto. Delimite cada campo com um ponto e vírgula (`;`) na sequência de caracteres.
 
@@ -94,7 +94,7 @@ A variável `s.products` é uma string que contém vários campos delimitados po
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Essa variável suporta vários produtos na mesma ocorrência. Ela é valiosa para carrinhos de compras e compras que contêm vários produtos. O comprimento máximo para toda a cadeia de caracteres `products` é de 64k bytes. Separe cada produto usando uma vírgula (`,`) na string.
+Essa variável suporta vários produtos na mesma ocorrência. Ela é valiosa para carrinhos de compras e compras que contêm vários produtos. O comprimento máximo para toda a string `products` é de 64 KB. Separe cada produto usando uma vírgula (`,`) na string.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
