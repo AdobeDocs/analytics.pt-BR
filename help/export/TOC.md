@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Saiba mais sobre como usar os feeds de dados e o Data Warehouse para recuperar os resultados de dados.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
       + [Pesquisas dinâmicas](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [Pesquisa de eVar de merchandising](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caracteres especiais](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
-      + [Ocorrências com atraso de chegada](analytics-data-feed/c-df-contents/late-arriving-hits.md)
+      + [Ocorrências de chegada tardia](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Perguntas frequentes sobre o feed de dados](analytics-data-feed/df-faq.md)
    + [Práticas recomendadas do feed de dados](analytics-data-feed/data-feeds-best-practices.md)
    + [Solução de problemas com feeds de dados](analytics-data-feed/troubleshooting.md)

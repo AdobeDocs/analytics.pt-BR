@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar locais de importação e exportação na nuvem
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 30%
+source-wordcount: '1703'
+ht-degree: 33%
 
 ---
 
@@ -59,7 +59,9 @@ Para obter informações sobre como exibir e excluir locais existentes, consulte
    | [!UICONTROL **Disponibilizar a localização a todos os usuários em sua organização**] | Habilite essa opção para permitir que outros usuários em sua organização usem o local.<p>Considere o seguinte ao compartilhar locais:</p><ul><li>Os locais compartilhados não podem ter o compartilhamento cancelado.</li><li>Os locais compartilhados podem ser editados somente pelo proprietário do local.</li><li>Os locais podem ser compartilhados somente se a conta à qual o local está associado também for compartilhada.</li></ul> |
    | [!UICONTROL **Conta da localização**] | Selecione a conta de localização na qual deseja criar esta localização. Para obter informações sobre como criar uma conta, consulte [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md). |
 
-1. Para preencher o formulário para configurar a localização, continue com a seção abaixo que corresponde ao tipo de conta selecionado no campo [!UICONTROL **Contas de localização**]. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
+1. Para concluir o formulário para configurar o local, continue com [Configurar um local](#configure-a-location). Use as informações na seção que corresponde ao tipo de conta selecionado no campo [!UICONTROL **Contas de localização**]. (Tipos adicionais de contas herdadas também estão disponíveis, mas não são recomendados.)
+
+## Configurar um local
 
 ### Amazon S3 Role ARN
 
@@ -69,7 +71,7 @@ Para configurar um local ARN de função do Amazon S3, especifique as seguintes 
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Balde**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. <p>Certifique-se de que o usuário ARN fornecido pelo Adobe tenha a permissão `S3:PutObject` para carregar arquivos nesse bucket. </p><p>Os nomes dos blocos precisam cumprir regras de nomenclatura específicas. Por exemplo, eles precisam conter entre 3 e 63 caracteres, só podem conter letras minúsculas, números, pontos (.) e hifens (-), e precisam começar e terminar com uma letra ou número. [Uma lista completa de regras de nomenclatura está disponível na documentação do AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Bloco**] | O bucket da conta do Amazon S3 para o qual você deseja enviar os dados do Adobe Analytics. <p>Certifique-se de que o usuário ARN fornecido pelo Adobe tenha a permissão `S3:PutObject` para carregar arquivos nesse bucket. </p><p>Os nomes dos blocos precisam cumprir regras de nomenclatura específicas. Por exemplo, eles precisam conter entre 3 e 63 caracteres, só podem conter letras minúsculas, números, pontos (.) e hifens (-), e precisam começar e terminar com uma letra ou número. [Uma lista completa de regras de nomenclatura está disponível na documentação do AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Prefixo**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
    {style="table-layout:auto"}
@@ -93,7 +95,7 @@ Para configurar um local da Google Cloud Platform, especifique as seguintes info
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Balde**] | O bucket da conta GCP para o qual você deseja que os dados do Adobe Analytics sejam enviados. Verifique se você concedeu permissão ao Principal fornecido pela Adobe para fazer upload de arquivos para esse bucket. |
+   | [!UICONTROL **Bloco**] | O bucket da conta GCP para o qual você deseja que os dados do Adobe Analytics sejam enviados. Verifique se você concedeu permissão ao Principal fornecido pela Adobe para fazer upload de arquivos para esse bucket. |
    | [!UICONTROL **Prefixo**] | A pasta dentro do bucket onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, folder_name/ |
 
    {style="table-layout:auto"}
@@ -142,7 +144,7 @@ Para configurar um local do Azure RBAC, especifique as seguintes informações:
    | Campo | Função |
    |---------|----------|
    | [!UICONTROL **Conta**] | A conta de armazenamento do Azure. |
-   | [!UICONTROL **Contêiner**] | O container na conta especificada para onde você deseja enviar os dados do Adobe Analytics. Conceda permissões para fazer upload de arquivos para o aplicativo do Azure que você criou anteriormente. |
+   | [!UICONTROL **Container**] | O container na conta especificada para onde você deseja enviar os dados do Adobe Analytics. Conceda permissões para fazer upload de arquivos para o aplicativo do Azure que você criou anteriormente. |
    | [!UICONTROL **Prefixo**] | A pasta no container onde você deseja inserir os dados. Especifique um nome de pasta e adicione uma barra invertida depois do nome para criar a pasta. Por exemplo, `folder_name/` |
 
    {style="table-layout:auto"}
@@ -180,7 +182,7 @@ Esses tipos de contas herdadas estão disponíveis apenas ao exportar dados com 
 
 +++FTP
 
-Os dados do feed de dados podem ser entregues para um local FTP hospedado na Adobe ou no cliente. Especifique o diretório Use o campo de caminho para colocar arquivos de feed em uma pasta.
+Os dados do feed de dados podem ser entregues em um local FTP da Adobe ou hospedado pelo cliente. Especifique o diretório Use o campo de caminho para colocar arquivos de feed em uma pasta.
 
 | Campo | Função |
 |---------|----------|
@@ -219,10 +221,10 @@ As 16 regiões AWS padrão a seguir são compatíveis (usando o algoritmo de ass
 * us-west-1
 * us-west-2
 * ap-south-1
-* ap-nordeste-2
+* ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2
-* ap-nordeste-1
+* ap-northeast-1
 * ca-central-1
 * eu-central-1
 * eu-west-1

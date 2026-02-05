@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar contas de importação e exportação na nuvem
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 55%
+source-wordcount: '1583'
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->Considere o seguinte ao criar e editar contas: <ul><li>Os administradores do sistema podem impedir que os usuários criem contas, conforme descrito em [Configurar se os usuários poderão criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</li><li>Uma conta só pode ser editada pelo usuário que a criou ou por um administrador do sistema.</li></ul>
+>Considere o seguinte ao criar e editar contas: <ul><li>Os administradores do sistema podem impedir que os usuários criem contas, conforme descrito em [Configurar se os usuários poderão criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o admin do sistema.</li><li>Uma conta só pode ser editada pelo usuário que a criou ou por um administrador do sistema.</li></ul>
 
 É possível configurar uma conta na nuvem usada para qualquer uma ou todas as seguintes finalidades:
 
@@ -30,7 +30,7 @@ Você precisa configurar o Adobe Analytics com as informações necessárias par
 
 Para obter informações sobre como exibir e excluir contas existentes, consulte [Gerenciador de locais](/help/components/locations/locations-manager.md).
 
-Para configurar uma conta de importação ou exportação na nuvem:
+## Começar a criar ou editar uma conta na página de contas
 
 1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Locais**].
 1. Na página [!UICONTROL Locais], selecione a guia [!UICONTROL **Contas de locais**].
@@ -46,18 +46,24 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    A caixa de diálogo [!UICONTROL **Adicionar conta**] é exibida.
 
+1. Continuar com [Configurar uma conta de localização](#configure-a-location-account).
+
+## Configurar uma conta de localização
+
+Para configurar uma conta de importação ou exportação na nuvem depois de começar a criá-la ou editá-la:
+
 1. Especifique as seguintes informações:
 
    | Campo | Função |
    |---------|----------|
    | [!UICONTROL **Nome da conta de localização**] | O nome da conta de localização. Esse nome aparece ao criar uma localização |
    | [!UICONTROL **Descrição da conta de localização**] | Forneça uma breve descrição da conta para ajudar a diferenciá-la de outras contas do mesmo tipo. |
-   | [!UICONTROL **Disponibilizar a conta para todos os usuários em sua organização**] | Habilite essa opção para permitir que outros usuários em sua organização usem a conta.<p>Considere o seguinte ao compartilhar contas:</p><ul><li>As contas compartilhadas não podem ter o compartilhamento cancelado.</li><li>As contas compartilhadas podem ser editadas somente pelo proprietário da conta.</li><li>Qualquer pessoa pode criar um local para a conta compartilhada.</li></ul> |
-   | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta de cada tipo, com os vários locais necessários contidos nessa conta.<p>Os administradores do sistema podem limitar os tipos de conta que os usuários podem criar, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o administrador do sistema.</p> |
+   | [!UICONTROL **Disponibilize a conta para todos os usuários da organização**] | Habilite essa opção para permitir que outros usuários na organização usem a conta.<p>Considere o seguinte ao compartilhar contas:</p><ul><li>As contas compartilhadas não podem ter o compartilhamento cancelado.</li><li>As contas compartilhadas podem ser editadas somente pelo proprietário da conta.</li><li>Qualquer pessoa pode criar um local para a conta compartilhada.</li></ul> |
+   | [!UICONTROL **Tipo de conta**] | Selecione o tipo de conta na nuvem. Recomendamos ter uma única conta de cada tipo, com os vários locais necessários contidos nessa conta.<p>Os admins do sistema podem limitar os tipos de conta que os usuários criam, conforme descrito em [Configurar se os usuários podem criar contas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Se você não puder criar contas conforme descrito nesta seção, entre em contato com o admin do sistema.</p> |
 
-1. Na seção [!UICONTROL **Propriedades da conta**], especifique informações específicas para o tipo de conta selecionado.
+1. Na seção [!UICONTROL **Propriedades da conta**], insira as informações específicas do tipo de conta selecionado.
 
-   Para obter instruções de configuração, expanda a seção abaixo que corresponde ao [!UICONTROL **Tipo de conta**] selecionado. (Tipos de conta herdada adicionais também estão disponíveis, mas não são recomendados.)
+   Para obter instruções de configuração, expanda a seção abaixo que corresponde ao [!UICONTROL **Tipo de conta**] selecionada. (Tipos adicionais de contas herdadas também estão disponíveis, mas não são recomendados.)
 
    **Tipos de conta**
 
@@ -87,7 +93,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    +++
 
-   +++Azure SAS
+   +++SAS do Azure
 
    Para configurar uma conta do Azure SAS, especifique as seguintes informações:
 
@@ -95,15 +101,15 @@ Para configurar uma conta de importação ou exportação na nuvem:
    |---------|----------|
    | [!UICONTROL **ID do aplicativo**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **ID do locatário**] | Copie essa ID do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Visão geral** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **URI do cofre de chaves**] | <p>O caminho para o token SAS no cofre de chaves do Azure.  Para configurar o Azure SAS, você deve armazenar um token SAS como um segredo usando o Cofre de Chaves do Azure. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Depois que o URI do cofre de chaves for criado, adicione uma política de acesso no Cofre de Chaves para conceder permissão ao aplicativo do Azure que você criou. Para obter informações, consulte a [documentação do Microsoft Azure sobre como atribuir uma política de acesso do cofre de chaves](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-   | [!UICONTROL **Nome secreto do cofre de chaves**] | O nome secreto criado ao adicionar o segredo ao Cofre de Chaves do Azure. No Microsoft Azure, essas informações estão localizadas no Cofre de Chaves que você criou, na página de configurações do **Cofre de Chaves**. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+   | [!UICONTROL **URI do cofre de chaves**] | <p>O caminho para o token SAS no cofre de chaves do Azure.  Para configurar a SAS do Azure, é necessário armazenar um token SAS como um segredo com o Azure Key Vault. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Após o URI do cofre de chaves ser criado, adicione uma política de acesso ao cofre de chaves para conceder permissão ao aplicativo do Azure que você criou. Para obter informações, consulte a [documentação do Microsoft Azure sobre como atribuir uma política de acesso do cofre de chaves](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+   | [!UICONTROL **Nome secreto do cofre de chaves**] | O nome secreto criado ao adicionar o segredo no Azure Key Vault. No Microsoft Azure, essas informações se localizam no cofre de chaves criado, na página de configurações do **Cofre de chaves**. Para obter informações, consulte a [documentação do Microsoft Azure sobre como definir e recuperar um segredo do cofre de chaves do Azure](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
    | [!UICONTROL **Segredo da conta de localização**] | Copie o segredo do aplicativo do Azure que você criou. No Microsoft Azure, essas informações se localizam na guia **Certificados e segredos** do aplicativo. Para obter mais informações, consulte a [documentação do Microsoft Azure sobre como registrar um aplicativo na plataforma de identidade da Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
    {style="table-layout:auto"}
 
    +++   
 
-   +++Azure RBAC
+   +++RBAC do Azure
 
    Para configurar uma conta do Azure RBAC, especifique as seguintes informações:
 
@@ -139,7 +145,7 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    +++FTP
 
-   Os dados do feed de dados podem ser entregues para um local FTP hospedado na Adobe ou no cliente. Requer um host FTP, nome de usuário e senha. Use o campo de caminho para colocar arquivos de feed em uma pasta. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir.
+   Os dados do feed de dados podem ser entregues em um local FTP da Adobe ou hospedado pelo cliente. Requer um host FTP, nome de usuário e senha. Use o campo de caminho para colocar arquivos de feed em uma pasta. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir.
 
    | Campo | Função |
    |---------|----------|
@@ -154,7 +160,14 @@ Para configurar uma conta de importação ou exportação na nuvem:
 
    +++SFTP
 
-   O suporte SFTP para feeds de dados está disponível. Exige que um host SFTP, nome de usuário e site de destino contenham uma chave pública RSA ou DSA válida. Você pode baixar a chave pública apropriada ao criar o feed.
+   O suporte SFTP para feeds de dados está disponível. Isso requer que um host SFTP, nome de usuário e site de destino contenham uma chave pública RSA ou DSA válida. Você pode baixar a chave pública apropriada ao criar o feed.
+
+   Ao baixar a chave pública RSA ou DSA para feeds de dados, siga um destes procedimentos:
+
+   * Renomeie o arquivo de chave pública baixado para `authorized_keys` e carregue o arquivo para sua pasta `.ssh` no servidor SFTP.
+
+   * Se você tiver um arquivo `authorized_keys` existente que já contenha outras chaves, adicione a chave fornecida pelo Adobe ao seu arquivo `authorized_keys` existente, certificando-se de não substituir suas chaves existentes.
+
 
    +++
 
@@ -175,10 +188,10 @@ Para configurar uma conta de importação ou exportação na nuvem:
    * us-west-1
    * us-west-2
    * ap-south-1
-   * ap-nordeste-2
+   * ap-northeast-2
    * ap-southeast-1
    * ap-southeast-2
-   * ap-nordeste-1
+   * ap-northeast-1
    * ca-central-1
    * eu-central-1
    * eu-west-1
