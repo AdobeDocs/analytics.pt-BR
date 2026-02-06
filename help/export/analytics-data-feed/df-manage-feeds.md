@@ -3,10 +3,10 @@ title: Gerenciar feeds de dados
 description: Saiba como navegar na interface do feed de dados. Descubra como criar, editar e visualizar um feed de dados.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 728e807764901ad2bd6834339e5e75348dd5a988
+source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 20%
+source-wordcount: '1277'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ O gerenciador de feed de dados permite criar, editar e excluir feeds de dados pa
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciamento do feed de dados](https://video.tv.adobe.com/v/3428567?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciamento do feed de dados](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -28,7 +28,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciamen
 1. Selecione o ícone de 9 quadrados no canto superior direito e escolha [!UICONTROL **Analytics**].
 1. Na barra de navegação superior, acesse [!UICONTROL **Admin**] > [!UICONTROL **Feeds de dados**].
 
-   Os feeds de dados de todos os conjuntos de relatórios aos quais você tem acesso são exibidos. Ou, se nenhum feed for configurado, a página exibirá um botão [!UICONTROL Criar novo feed de dados].
+   Os feeds de dados de todos os conjuntos de relatórios aos quais você tem acesso são exibidos. Ou, se nenhum feed for configurado, a página exibirá um botão **[!UICONTROL Criar feed de dados]**.
 
    ![Gerenciador de feed de dados](assets/data-feed-manager.png)
 
@@ -64,9 +64,11 @@ O botão **[!UICONTROL Criar feed de dados]** permite criar um novo feed. Consul
 
    * No campo de pesquisa, comece digitando o nome de um feed. Somente os feeds correspondentes são mostrados na lista de feeds disponíveis.
 
+     ![Pesquisar](assets/search.png)
+
    * Na extremidade esquerda, selecione o ícone de filtro para mostrar ou ocultar as opções de filtragem. Os filtros são organizados por categoria, incluindo **[!UICONTROL Conjuntos de relatórios]**, **[!UICONTROL Proprietário]**, **[!UICONTROL Status]** e **[!UICONTROL Marcas]**. É possível recolher ou expandir categorias de filtragem. Marque a caixa de seleção ao lado de qualquer filtro que deseja aplicar.
 
-     ![Filtro](assets/filters.png)
+     ![Filtro](assets/jobs-filter.png)
 
 ## Exibir trabalhos do feed de dados
 
@@ -74,9 +76,7 @@ O botão **[!UICONTROL Criar feed de dados]** permite criar um novo feed. Consul
 
 1. Selecione a guia [!UICONTROL **Trabalhos**] para exibir trabalhos individuais criados por cada um dos feeds.
 
-   Ou
-
-   Para exibir o histórico de trabalho de feeds de dados específicos, marque a caixa de seleção ao lado de um feed de dados e selecione [!UICONTROL **Histórico de trabalho**].
+1. (Opcional) Para exibir o histórico de trabalho de feeds de dados específicos, marque a caixa de seleção ao lado de um feed de dados e selecione [!UICONTROL **Histórico de trabalho**].
 
    Para obter mais informações, consulte [Gerenciar trabalhos do feed de dados](df-manage-jobs.md).
 
@@ -86,7 +86,7 @@ O botão **[!UICONTROL Criar feed de dados]** permite criar um novo feed. Consul
 
 1. Marque a caixa de seleção ao lado do feed de dados que você deseja copiar e selecione [!UICONTROL **Copiar**].
 
-   Isso leva você a [criar um novo feed](create-feed.md) com todas as configurações do feed atual. Essa opção não estará visível se mais de um feed de dados for selecionado.
+   Isso leva você a [criar um novo feed](create-feed.md) com todas as configurações do feed atual. A opção para copiar não estará visível se mais de um feed de dados for selecionado.
 
    Ao atualizar a seção [!UICONTROL **Destino**] de um feed de dados que você está copiando, você pode escolher uma conta e um local diferentes para usar no novo feed de dados nos campos suspensos [!UICONTROL **Conta**] e [!UICONTROL **Local**].
 
@@ -96,7 +96,7 @@ O botão **[!UICONTROL Criar feed de dados]** permite criar um novo feed. Consul
 
 ## Pausar um feed de dados
 
-Quando você pausa um feed de dados, ele para de processar o feed, definindo seu status como [!UICONTROL Inativo].
+Quando você pausa um feed de dados, ele para de processar o feed, definindo seu status como **[!UICONTROL Inativo]**.
 
 Quando você reativa o feed depois de pausá-lo, os dados durante o tempo em que ele foi pausado são processados para feeds de preenchimento retroativo, mas não para feeds em tempo real. Para obter mais informações, consulte [Ativar um feed de dados](#activate-a-data-feed).
 
@@ -124,7 +124,7 @@ Para ativar um feed de dados:
 
 ## Excluir um feed de dados
 
-Quando você exclui um feed de dados, seu status é definido como [!UICONTROL Excluído]. Os feeds de dados devem ter um status Ativo antes de serem excluídos.
+Quando você exclui um feed de dados, seu status é definido como [!UICONTROL Excluído]. Os feeds de dados devem ter um status de [!UICONTROL Ativo] antes de serem excluídos.
 
 Para excluir um feed de dados:
 
@@ -132,31 +132,40 @@ Para excluir um feed de dados:
 
 1. Marque a caixa de seleção ao lado do feed de dados que você deseja excluir e selecione [!UICONTROL **Excluir**].
 
-## Configurar colunas no gerenciador de feed de dados
+## Classificar e personalizar colunas no gerenciador de feed de dados
 
-Cada feed criado mostra várias colunas fornecendo informações sobre ele. Selecione um cabeçalho de coluna para classificá-lo em ordem crescente. Selecione um cabeçalho de coluna novamente para classificá-lo em ordem decrescente. Se não conseguir ver uma coluna específica, clique no ícone de coluna no canto superior direito.
+Cada feed de dados mostra várias colunas com informações sobre o feed. Você pode classificar as informações em cada coluna e personalizar as colunas exibidas.
 
-![Ícone de coluna](assets/cols.jpg)
+### Classificar colunas
 
-As seguintes colunas estão disponíveis:
+Selecione um cabeçalho de coluna para classificá-lo em ordem crescente. Selecione um cabeçalho de coluna novamente para classificá-lo em ordem decrescente.
 
-* **Nome do feed**: coluna obrigatória. Exibe o nome do feed.
-* **ID do feed**: exibe a ID do feed, um identificador exclusivo.
-* **Conjunto de relatórios**: o conjunto de relatórios do qual o feed faz referência aos dados.
-* **ID do conjunto de relatórios**: o identificador exclusivo do conjunto de relatórios.
-* **Colunas de dados**: quais colunas de dados estão ativas para o feed. Na maioria dos casos, há colunas demais para exibir nesse formato.
-* **Intervalo**: indica se o feed é por hora ou por dia.
-* **Tipo de destino**: o tipo de destino do feed. Por exemplo, Amazon S3, GCP ou Azure.
-* **Host de Destino**: o local onde o arquivo é colocado.
-* **Proprietário**: a conta do usuário que criou o feed.
-* **Status**: o status do feed.
-   * Ativo: o feed é operacional.
-   * Aprovação pendente: em algumas circunstâncias, um feed requer a aprovação da Adobe antes de começar a gerar processos.
-   * Excluído: o feed é excluído.
-   * Concluído: o feed terminou de ser processado. Um feed concluído pode ser editado, suspenso ou cancelado.
-   * Pendente: o feed é criado, mas ainda não está ativo. Os feeds permanecem nesse estado por um curto período de transição.
-   * Inativo: equivalente a um estado &quot;pausado&quot; ou &quot;em espera&quot;. Para obter informações sobre o que acontece com feeds de preenchimento retroativo e feeds em tempo real quando um feed inativo é reativado, consulte [Ativar um feed de dados](#activate-a-data-feed).
-* **Última modificação**: a data em que o feed foi modificado pela última vez. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
-* **Data inicial**: a data do primeiro processo para este feed. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
-* **Data final**: a data do último processo para este feed. Os feeds de dados em andamento não têm uma data final.
+### Personalizar colunas
+
+Para ajustar as colunas visíveis na tabela:
+
+1. Selecione o ícone de coluna ![Ícone de coluna](assets/customize-columns-icon.png) no canto superior direito.
+
+1. Na caixa de diálogo Personalizar tabela, selecione cada coluna que deseja exibir e desmarque cada coluna que deseja ocultar.
+
+   As seguintes colunas estão disponíveis:
+
+   * **Nome do feed**: coluna obrigatória. Exibe o nome do feed.
+   * **ID do feed**: exibe a ID do feed, um identificador exclusivo.
+   * **Conjunto de relatórios**: o conjunto de relatórios do qual o feed faz referência aos dados.
+   * **ID do conjunto de relatórios**: o identificador exclusivo do conjunto de relatórios.
+   * **Intervalo**: indica se o feed é por hora ou por dia.
+   * **Tipo de destino**: o tipo de destino do feed. Por exemplo, Amazon S3, GCP ou Azure.
+   * **Destino**: o local onde o arquivo é colocado.
+   * **Proprietário**: a conta do usuário que criou o feed.
+   * **Status**: o status do feed.
+      * Ativo: o feed é operacional.
+      * Aprovação pendente: em algumas circunstâncias, um feed requer a aprovação da Adobe antes de começar a gerar processos.
+      * Excluído: o feed é excluído.
+      * Concluído: o feed terminou de ser processado. Um feed concluído pode ser editado, suspenso ou cancelado.
+      * Pendente: o feed é criado, mas ainda não está ativo. Os feeds permanecem nesse estado por um curto período de transição.
+      * Inativo: equivalente a um estado &quot;pausado&quot; ou &quot;em espera&quot;. Para obter informações sobre o que acontece com feeds de preenchimento retroativo e feeds em tempo real quando um feed inativo é reativado, consulte [Ativar um feed de dados](#activate-a-data-feed).
+   * **Última modificação**: a data em que o feed foi modificado pela última vez. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
+   * **Data de início**: a data do primeiro trabalho para este feed. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
+   * **Data de término**: a data do último trabalho para este feed. Os feeds de dados em andamento não têm uma data final.
 

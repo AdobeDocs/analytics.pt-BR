@@ -3,9 +3,9 @@ title: Criar um feed de dados
 description: Saiba como criar um feed de dados e sobre as informações de arquivos a serem fornecidas à Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2137'
 ht-degree: 26%
 
 ---
@@ -15,7 +15,10 @@ ht-degree: 26%
 Ao criar um feed de dados, você fornece à Adobe:
 
 * As informações sobre o destino para onde os arquivos de dados brutos serão enviados
+
 * Os dados para inclusão em cada arquivo
+
+* A frequência com que o feed de dados deve ser enviado (incluindo a janela de pesquisa se você optar por incluir ocorrências de chegada tardia)
 
 Antes de criar um feed de dados, é importante ter uma compreensão básica dos feeds de dados e garantir o atendimento de todos os pré-requisitos. Para obter mais informações, consulte: [Visão geral dos feeds de dados](data-feed-overview.md).
 
@@ -81,7 +84,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
    | [!UICONTROL **Substituir cadeias de caracteres do sistema operacional**] | Ao coletar dados, alguns caracteres (como novas linhas) podem causar problemas. Selecione essa opção para remover esses caracteres dos arquivos de feed.<p>Essa opção detecta as seguintes sequências de caracteres incorporadas nos dados do cliente e as substitui por um espaço:</p> <ul><li>**Windows:** CRLF, CR ou TAB</li><li>**Mac e Linux:** \n, \r ou \t</li></ul> |
    | [!UICONTROL **Habilitar pesquisas dinâmicas**] | As pesquisas dinâmicas permitem que você receba arquivos de pesquisa adicionais no feed de dados que, de outra forma, não estarão disponíveis. Essa configuração permite que as seguintes tabelas de pesquisa sejam enviadas com cada arquivo de feed de dados:<ul><li> **Nome da operadora**</li><li>**Atributos móveis**</li><li>**Tipo de sistema operacional**</li></ul><p>Para obter mais informações, consulte [Pesquisas dinâmicas](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
    | **Permitir ocorrências de chegada atrasadas** | Os dados históricos podem chegar depois que uma tarefa de feed de dados terminar o processamento de uma determinada hora ou dia, por exemplo, por meio de ocorrências com carimbos de data e hora ou fontes de dados.<p>Selecione essa opção para incluir dados que chegaram depois que o trabalho de feed de dados terminou de processar dados na frequência de relatório definida (geralmente diária ou a cada hora). Com essa opção ativada, sempre que um feed de dados processa dados, ele verifica todas as ocorrências atrasadas que chegaram e as reúne com o próximo arquivo de feed de dados enviado.</p><p>Para obter mais informações, consulte [Ocorrências de chegada tardia](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
-   | **Janela de pesquisa** (para ocorrências de chegada tardia) | Esta opção é exibida quando a opção **[!UICONTROL Permitir ocorrências de atraso]** está habilitada. Selecione a janela de retrospectiva para limitar o intervalo de tempo de ocorrências atrasadas incluídas. Selecione **[!UICONTROL Ilimitado]** se quiser permitir todas as ocorrências de chegada atrasadas, independentemente do atraso. Você pode escolher um intervalo predefinido, como **[!UICONTROL 1 hora]**, **[!UICONTROL 2 horas]**, **[!UICONTROL 1 semana]**, **[!UICONTROL 2 semanas]** e assim por diante. Ou selecione **[!UICONTROL Janela de pesquisa personalizada]** e, no campo **[!UICONTROL Pesquisa personalizada]**, especifique uma janela de pesquisa com duração máxima de 26.280 horas. |
+   | **Janela de pesquisa** (para ocorrências de chegada tardia) | Esta opção é exibida quando a opção **[!UICONTROL Permitir ocorrências de chegada tardia]** está habilitada. Selecione a janela de retrospectiva para limitar o intervalo de tempo de ocorrências atrasadas incluídas. Selecione **[!UICONTROL Ilimitado]** se quiser permitir todas as ocorrências de chegada atrasadas, independentemente do atraso. Você pode escolher um intervalo predefinido, como **[!UICONTROL 1 hora]**, **[!UICONTROL 2 horas]**, **[!UICONTROL 1 semana]**, **[!UICONTROL 2 semanas]** e assim por diante. Ou selecione **[!UICONTROL Janela de pesquisa personalizada]** e, no campo **[!UICONTROL Pesquisa personalizada]**, especifique uma janela de pesquisa com duração máxima de 26.280 horas. |
 
 1. Na seção [!UICONTROL **Estrutura de dados**], no campo **[!UICONTROL Conjunto de relatórios]**, selecione o conjunto de relatórios de origem que contém os dados que você deseja exportar. <p>Considere o seguinte ao selecionar um conjunto de relatórios:</p> <ul><li>Se vários feeds de dados forem criados para o mesmo conjunto de relatórios, cada feed de dados deverá ter definições de coluna diferentes.</li><li>Somente conjuntos de relatórios de origem são compatíveis com feeds de dados; os conjuntos de relatórios virtuais não são compatíveis.</li><li>A lista de colunas disponíveis depende da empresa de logon à qual o conjunto de relatórios selecionado pertence. Se você alterar o conjunto de relatórios, a lista de colunas disponíveis poderá ser alterada. </li></ul>
 
@@ -135,7 +138,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
    | Campo | Função |
    |---------|----------|
    | [!UICONTROL **Conta**] | Realize uma das seguintes ações:<ul><li>**Usar uma conta existente:** Selecione o menu suspenso ao lado do campo **[!UICONTROL Conta]**. Ou comece digitando o nome da conta e selecione-o no menu suspenso. <p>As contas estão disponíveis somente se você as configurar ou se forem compartilhadas com uma organização da qual você faz parte.</p></li><li>**Criar uma nova conta:** Selecione **[!UICONTROL Adicionar novo]** abaixo do campo **[!UICONTROL Conta]**. Para obter informações sobre como configurar a conta, consulte [Configurar uma conta de localização](/help/components/locations/configure-import-accounts.md#configure-a-location-account) em [Configurar contas de importação e exportação na nuvem](/help/components/locations/configure-import-accounts.md).</li></ul> |
-   | [!UICONTROL **Localização**] | Realize uma das seguintes ações:<ul><li>**Usar um local existente:** Selecione o menu suspenso ao lado do campo **[!UICONTROL Local]**. Ou comece digitando o nome do local e selecione-o no menu suspenso.</li><li>**Criar um novo local:** Selecione **[!UICONTROL Adicionar novo]** abaixo do campo **[!UICONTROL Local]**. Para obter informações sobre como configurar o local, consulte [Configurar um local](/help/components/locations/configure-import-locations.md#configure-a-location) em [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md). |
+   | [!UICONTROL **Localização**] | Realize uma das seguintes ações:<ul><li>**Usar um local existente:** Selecione o menu suspenso ao lado do campo **[!UICONTROL Local]**. Ou comece digitando o nome do local e selecione-o no menu suspenso.</li><li>**Criar um novo local:** Selecione **[!UICONTROL Adicionar novo]** abaixo do campo **[!UICONTROL Local]**. Para obter informações sobre como configurar o local, consulte [Configurar um local](/help/components/locations/configure-import-locations.md#configure-a-location) em [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md).</li></ul> |
    | [!UICONTROL **Notificar quando concluído**] | Especifique um ou mais endereços de email nos quais uma notificação deve ser entregue após o feed de dados ser enviado com êxito ou após uma falha no envio. Vários endereços de email devem ser separados por vírgula. |
 
 1. Selecione **[!UICONTROL Salvar]**.
@@ -146,13 +149,13 @@ Os modelos permitem reutilizar as mesmas colunas para feeds de dados futuros que
 
 Ao gerenciar modelos, você pode criar novos modelos, usar modelos já criados, copiar modelos, editar modelos e excluir modelos.
 
-[!UICONTROL **Administrador**] > [!UICONTROL **Feeds de dados**] > **[!UICONTROL Gerenciar modelos]**
+**[!UICONTROL Administrador]** > **[!UICONTROL Feeds de dados]** > **[!UICONTROL Gerenciar modelos]**
 
 ![Gerenciar modelos de coluna](assets/data-feed-template-manage.png)
 
 ### Criar um modelo de coluna
 
-Ao criar vários feeds de dados que usam as mesmas colunas, a Adobe recomenda criar modelos de coluna. Qualquer modelo de coluna que você criar poderá ser usado por qualquer pessoa em sua organização.
+Ao criar vários feeds de dados que usam as mesmas colunas, a Adobe recomenda criar modelos de coluna. Todos os modelos de coluna que você criar estarão disponíveis para uso por qualquer pessoa em sua organização.
 
 Para criar um modelo de coluna:
 
