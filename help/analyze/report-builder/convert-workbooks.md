@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: d7832dc56eb680f57a6875cf32e29fd5a8858098
+source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Como parte da mudança para uma nova funcionalidade do Report Builder, você pod
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converter pastas de trabalho](https://video.tv.adobe.com/v/3446187?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converter pastas de trabalho](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -38,13 +38,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converter p
 
 Para abrir uma pasta de trabalho herdada, é possível:
 
-* Abra uma pasta de trabalho herdada diretamente do computador local ou da rede. Quando a pasta de trabalho herdada estiver aberta no Excel:
-
-   1. Selecione ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** na barra de faixa do Excel.
-   1. Selecione **[!UICONTROL Logon]** e faça logon no Report Builder.
-   1. Em seguida [converta a pasta de trabalho herdada](#convert-a-workbook).
-
-* Abra uma pasta de trabalho herdada agendada na guia **[!UICONTROL Agendamento]** no [hub do Report Builder](report-builder-hub.md). Para fazer isso:
+* Abra uma pasta de trabalho herdada agendada na guia **[!UICONTROL Agendamento]** no [hub do Report Builder](report-builder-hub.md). Esse é o método preferido para pastas de trabalho herdadas programadas. Você tem a opção de usar o agendamento associado à pasta de trabalho herdada assim que [agendar a pasta de trabalho herdada convertida](#schedule-a-converted-legacy-workbook).
 
    1. Abra o Excel e selecione ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** na barra de faixa do Excel.
 
@@ -56,6 +50,13 @@ Para abrir uma pasta de trabalho herdada, é possível:
       ![Aparências de trabalho herdadas](assets/upgrade-legacy-schedule.png)
 
    1. Selecione ![SelectBox](/help/assets/icons/SelectBox.svg) a pasta de trabalho agendada que você deseja converter da lista e selecione ![Download](/help/assets/icons/Download.svg). A pasta de trabalho é baixada e aberta em uma nova janela no Excel. Agora você pode [converter a pasta de trabalho herdada do Report Builder](#convert-a--workbook).
+
+
+* Abra uma pasta de trabalho herdada diretamente do computador local ou da rede. Ao usar esse método, você não tem a opção de usar o agendamento que pode estar associado à pasta de trabalho herdada. <br/>Quando a pasta de trabalho herdada estiver aberta no Excel:
+
+   1. Selecione ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** na barra de faixa do Excel.
+   1. Selecione **[!UICONTROL Logon]** e faça logon no Report Builder.
+   1. Em seguida [converta a pasta de trabalho herdada](#convert-a-workbook).
 
 
 ## Converter uma pasta de trabalho herdada
@@ -89,14 +90,14 @@ Para converter sua pasta de trabalho herdada:
 
      ![Pasta de trabalho de relatório de atualização do Excel Report Builder](assets/upgrade-report.png)
 
-Agora você pode [gerenciar o bloco de dados](/help/analyze/report-builder/manage-reportbuilder.md).
+Agora você pode [gerenciar os blocos de dados](/help/analyze/report-builder/manage-reportbuilder.md) na pasta de trabalho. Esses blocos de dados são o resultado da atualização e da substituição de solicitações herdadas do Report Builder.
 
 
 ## Agendar uma pasta de trabalho herdada convertida
 
 Você tem a opção de usar os detalhes do agendamento da pasta de trabalho herdada que você baixou e abriu na guia **[!UICONTROL Agendamento]** no hub do Report Builder. Essa opção não está disponível para pastas de trabalho herdadas com detalhes de agendamento que você abre no computador local ou na rede.
 
-1. Agendar uma pasta de trabalho. Para programar uma pasta de trabalho herdada convertida com uma programação herdada:
+1. Para programar uma pasta de trabalho herdada convertida com uma programação herdada:
 
    * Selecione **[!UICONTROL Enviar pasta de trabalho]** no hub do Report Builder ou
    * Selecione **[!UICONTROL Pasta de trabalho de agendamento]** na guia **[!UICONTROL Pastas de trabalho]**, disponível na guia **[!UICONTROL Agendamentos]**, no Report Builder.
