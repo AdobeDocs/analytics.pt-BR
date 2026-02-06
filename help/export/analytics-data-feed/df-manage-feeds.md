@@ -3,7 +3,7 @@ title: Gerenciar feeds de dados
 description: Saiba como navegar na interface do feed de dados. Descubra como criar, editar e visualizar um feed de dados.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 728e807764901ad2bd6834339e5e75348dd5a988
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 20%
@@ -17,7 +17,7 @@ O gerenciador de feed de dados permite criar, editar e excluir feeds de dados pa
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciamento do feed de dados](https://video.tv.adobe.com/v/3428567?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciamento do feed de dados](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ O botão **[!UICONTROL Criar feed de dados]** permite criar um novo feed. Consul
 
    Ou
 
-   Para exibir trabalhos para feeds de dados específicos, marque a caixa de seleção ao lado de um ou mais feeds de dados e selecione [!UICONTROL **Histórico de trabalhos**].
+   Para exibir o histórico de trabalho de feeds de dados específicos, marque a caixa de seleção ao lado de um feed de dados e selecione [!UICONTROL **Histórico de trabalho**].
 
    Para obter mais informações, consulte [Gerenciar trabalhos do feed de dados](df-manage-jobs.md).
 
