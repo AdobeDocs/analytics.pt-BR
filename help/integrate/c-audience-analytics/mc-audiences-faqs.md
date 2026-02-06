@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Perguntas frequentes sobre o Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 31%
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ Isso não se aplica ao envio de dados do Adobe Analytics para o Adobe Audience M
 
 * Você compartilhará um segmento compartilhado do Analytics com uma dimensão MCA de volta para a Experience Cloud?
 
-* Você está exportando (por meio de feeds de dados) para um sistema de Business Intelligence (BI) usado para esse propósito?
+* Você está exportando (por exemplo, por meio de feeds de dados) para um sistema Business Intelligence (BI) usado para esses fins?
 
 +++
 
@@ -43,7 +43,7 @@ Consulte [Configurar um destino do Analytics no Adobe Audience Manager](https://
 
 +++ Depois de criar e salvar um destino do Analytics, quanto tempo leva até que os dados sejam exibidos nos conjuntos de relatórios selecionados?
 
-Pode demorar algumas horas para preencher seus conjuntos de relatórios com novos dados.
+Pode levar várias horas para que seus conjuntos de relatórios sejam preenchidos com novos dados.
 
 +++
 
@@ -53,27 +53,27 @@ Um destino do Analytics desaparece da seção de Mapeamentos de destino de um se
 
 +++
 
-Terei acesso a todas as informações do Adobe Audience Manager no Analytics agora?
++++ Terei acesso a todas as informações do Adobe Audience Manager no Analytics agora?
 
-Não, você terá acesso somente a dados relacionados a pessoas que visitam seu site durante ou depois da habilitação do Audience Manager Audiences e durante/depois da qualificação de segmentos.
+Não, somente dados relacionados às pessoas que chegam ao seu site durante ou após a ativação dos Públicos-alvo da Audience Manager e durante/após a qualificação do segmento.
 
 +++
 
 +++ Isso fornecerá um público endereçável total por segmento?
 
-Não necessariamente. Isso indica a quantidade de visitantes no segmento que acessaram o site durante ou após a qualificação de segmentos.
+Na verdade não. Ele informará o número de visitantes nesse segmento que acessaram o site durante ou após a qualificação do segmento.
 
 +++
 
 +++ Como isso difere do destino de cookie herdado para o Analytics?
 
-Segmentos são qualificados e retornados em tempo real, na mesma ocorrência. Nomes amigáveis são exibidos automaticamente.
+Segmentos são qualificados e retornados em tempo real, na mesma ocorrência. Os nomes amigáveis são exibidos automaticamente.
 
 +++
 
 +++ E se alguns dos meus conjuntos de relatórios tiverem dados pessoais e outros não?&lt;
 
-Dica: crie dois destinos; adicione os conjuntos de relatórios com dados pessoais a um destino e os conjuntos de relatórios sem dados pessoais ao outro destino.
+Dica: Criar dois destinos - adicione os conjuntos de relatórios de dados pessoais a um destino e os conjuntos de relatórios de dados não pessoais ao outro.
 
 +++
 
@@ -113,13 +113,13 @@ Mesmo sendo improvável que um visitante seja qualificado para mais de 150 segme
 
 * Opção 1: continue permitindo que a integração funcione no estado pronto para uso, enviando os 150 segmentos qualificados mais recentemente para um visitante específico.
 
-* Opção 2: no Adobe Audience Manager, escolha os 150 segmentos mais importantes para sua empresa na integração. Em seguida, o Adobe Audience Manager verifica os visitantes em relação apenas a esses 150 segmentos. A desvantagem dessa abordagem é que você receberá somente esses 150 segmentos por todos os visitantes. Por outro lado, a abordagem da Opção 1 pode fornecer segmentos ilimitados devido à natureza “por ocorrência” da integração.
+* Opção 2: no Adobe Audience Manager, escolha os 150 segmentos mais importantes para sua empresa na integração. Em seguida, o Adobe Audience Manager verifica os visitantes em relação apenas a esses 150 segmentos. A desvantagem dessa abordagem é que você recebe apenas esses 150 segmentos em todos os visitantes. Por outro lado, a abordagem da Opção 1 pode fornecer segmentos ilimitados devido à natureza da integração por ocorrência.
 
 +++
 
 +++ As chamadas de servidor adicionais serão cobradas do Analytics por essa integração?
 
-Não. Os públicos-alvo da Adobe Audience Manager são incorporados ao lado do servidor de ocorrências do Analytics. Isso não causa chamadas de servidor adicionais para o Analytics (primário ou secundário).
+Não. Os públicos-alvo da Adobe Audience Manager são incorporados ao lado do servidor de ocorrências do Analytics. Isso não gera chamadas de servidor adicionais para o Analytics (primário ou secundário).
 
 +++
 
@@ -161,6 +161,6 @@ Os atributos do cliente não são baseados em tempo; eles são aplicados retroat
 
 +++ E quanto às abordagens herdadas para esse problema, por exemplo, o beta antigo ou os destinos de cookies do plug-in do Consulting?
 
-Recomendamos que você implemente a nova integração e remova as anteriores.
+Recomendamos que você implemente a nova integração e remova destinos antigos.
 
 +++
