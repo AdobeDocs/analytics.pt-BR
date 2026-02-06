@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre o Advertising Analytics.
 title: Perguntas frequentes sobre análises de publicidade
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 35%
+ht-degree: 11%
 
 ---
 
@@ -54,7 +54,7 @@ Qualquer conta de mecanismo de pesquisa compatível passará para o Advertising 
 
 +++ Eu possuo o SKU correto, mas não consigo acessar o Advertising Analytics. Por quê? 
 
-O Advertising Analytics está disponível somente para administradores do Adobe Analytics; no entanto, os administradores podem conceder acesso a não administradores. Entre em contato com seu administrador para obter os direitos de acesso.
+O Advertising Analytics está disponível somente para administradores do Adobe Analytics; no entanto, os administradores podem conceder acesso a não administradores. Entre em contato com o administrador para obter direitos de acesso.
 
 +++
 
@@ -93,13 +93,15 @@ Você obterá
 
 +++ É possível detalhar meus dados do Advertising Analytics por outros dados do Analytics (métricas/dimensões)? 
 
-Não, os dados brutos de pesquisa entrarão como um conjunto de dados independente. Contudo, há uma versão de Instâncias dos dados de clique que pode ser detalhada por outros dados do Analytics.
+Não, os dados brutos de pesquisa entrarão como um conjunto de dados independente. No entanto, há uma versão de Instâncias dos dados de cliques que podem ser analisadas por outros dados do Analytics.
+
++++
 
 +++ Qual é a definição dos vários indicadores de status para minhas contas (Pendente, Ativo, Pausado etc.)? Cada um desses indicadores de status identifica o estágio do ciclo de vida de cada conta de mecanismo de pesquisa. 
 
 * [!UICONTROL Pendente]
-* [!UICONTROL Pausado] significa que a conta já tinha sido configurada mas foi colocada em um estado de inatividade.
-* [!UICONTROL Ativo] significa que a conta foi totalmente configurada e está transferindo os dados de pesquisa.
+* [!UICONTROL Pausado] significa que a conta foi configurada anteriormente, mas foi colocada em estado inativo.
+* [!UICONTROL Ativo] significa que a conta foi totalmente configurada e está enviando dados de pesquisa.
 
 +++
 
@@ -128,17 +130,17 @@ Os dados de pesquisa são extraídos dos mecanismos de pesquisa por volta das 6h
 
 +++
 
-+++ O que pode ser *capturado antes do clique*? Trazemos impressões, custo, posição média etc, mesmo sem o clique?
++++ O que pode ser *capturado antes do clique*? Trazemos impressões, custo, posição média, etc. mesmo sem o clique?
 
-A ID do AMO capturará as métricas do mecanismo de pesquisa: Impressões, Custo, Cliques, Posição média e Pontuação de qualidade média. Se não houver nenhum clique, mas houver impressões, os dados de impressão/posição/pontuação de qualidade serão enviados para o Analytics. Normalmente, se não houver cliques também não há custo.
+A ID do AMO capturará as métricas do mecanismo de pesquisa: Impressões, Custo, Cliques, Posição média e Pontuação de qualidade média. Se não houver cliques, mas houver impressões, os dados de pontuação de impressão/posição/qualidade ainda serão enviados para o Analytics. Normalmente, se não houver cliques, então também não há custo.
 
 +++
 
-+++ Em que nível esses dados estão sendo capturados? *Visitante? Ocorrência?* 
++++ Em que nível esses dados estão sendo capturados? *Visitante? Hit?* 
 
-As métricas do mecanismo de pesquisa são capturadas no nível de ocorrência e conectadas à ID do AMO (e suas classificações). São dados de nível de resumo e não são conectados a visitas/visitantes. Sendo assim, as métricas do mecanismo de pesquisa só podem ser usadas em segmentos do escopo de nível de ocorrência e que são baseados na ID do AMO (ou em suas classificações).
+As métricas do mecanismo de pesquisa são capturadas no nível de ocorrência e conectadas à ID do AMO (e suas classificações). São dados de nível de resumo e não estão conectados a visitas/visitantes. Dessa forma, as métricas do mecanismo de pesquisa só podem ser usadas em segmentos que são de escopo de nível de ocorrência e se baseiam na ID do AMO (ou suas classificações).
 
-A ID do AMO também é capturada na página de aterrissagem na ocorrência dessa página (que a conecta à visita/ao visitante) e persiste em downstream para obter crédito de outras métricas do Analytics (até que expire ou seja substituída por uma nova ID do AMO). É totalmente incorporada ao conjunto de dados, como qualquer outra eVar.
+A ID do AMO também é capturada na página de aterrissagem na ocorrência dessa página (que a conecta à visita/visitante) e persistirá downstream para obter crédito por outras métricas do Analytics (até expirar ou ser substituída por uma nova ID do AMO). Ele é totalmente incorporado ao conjunto de dados como qualquer outro eVar.
 
 +++
 
@@ -148,9 +150,9 @@ A classificação da Plataforma de anúncio captura estes valores: &quot;Google 
 
 +++
 
-+++ A métrica &quot;Custo AMO&quot; é o custo pago por cada palavra-chave/anúncio, conforme relatado pelo mecanismo de pesquisa. Esse é o Custo líquido ou o Custo bruto? 
++++ A métrica &quot;Custo AMO&quot; é o custo pago por cada palavra-chave/anúncio, conforme relatado pelo mecanismo de pesquisa. É este Custo líquido ou Custo bruto? 
 
-&quot;Custo AMO&quot; é apenas o custo pago aos mecanismos de pesquisa. Ele não inclui taxas de plataforma para agência ou otimização/gerenciamento de pesquisa.
+&quot;Custo AMO&quot; é apenas o custo pago aos mecanismos de pesquisa. Não inclui quaisquer taxas de agência ou de plataforma de otimização/gestão de pesquisa.
 
 +++
 
@@ -163,18 +165,18 @@ Não, atualmente não temos planos para esses outros canais no roteiro.
 
 ## Rastreamento automático vs. manual {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Ao configurar minha conta do Advertising, ele declara que o *rastreamento automático* pode levar a consequências não intencionais. Que tipos de consequências pode ocorrer? 
++++ Ao configurar minha conta do Advertising, ele declara que o *rastreamento automático* pode levar a consequências não intencionais. Que tipos de consequências podem ocorrer? 
 
-O modo automático tenta anexar parâmetros de URL ao final dos modelos de rastreamento/URLs de destino no formato correto. No entanto, é sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página inicial final. O modo automático pode inserir palavras-chave ao URL de aterrissagem, e seu servidor da Web pode não ser compatível com palavras-chave com caracteres especiais.
+O modo automático tenta anexar parâmetros de URL ao final dos modelos de rastreamento/URLs de destino no formato correto. No entanto, é sua responsabilidade garantir que os parâmetros de URL adicionados persistam corretamente na página inicial final. O modo automático pode inserir palavras-chave no URL de aterrissagem, e seu servidor da Web pode não ser compatível com palavras-chave com caracteres especiais.
 
 +++
 
 +++ Se eu configurar o Rastreamento manual ou automático inicialmente, posso alternar para o outro modo de rastreamento posteriormente? Quais são as implicações? 
 
-Sim, você pode alternar os modos de rastreamento, mas precisa remover a lógica de rastreamento antiga antes de fazer a alteração. Isso pode resultar em inatividade do rastreamento no dia que a alteração for feita (especialmente se estiver mudando do manual para o automático). Assim, recomendamos não alternar, a menos que seja absolutamente necessário.
+Sim, você pode alternar os modos de rastreamento, mas precisa remover a lógica de rastreamento antiga antes de fazer a alteração. Isso pode resultar em algum tempo de inatividade do rastreamento no dia em que o switch é feito (especialmente se mudar de manual para automático). Assim, recomendamos não alternar, a menos que seja absolutamente necessário.
 
 * Alternância de Manual para Automático: remova as adições manuais aos modelos de rastreamento e alterne a alternância na interface do usuário do Advertising Analytics de manual para Automático e salve a configuração. Observe que pode levar várias horas para que o sistema preencha os códigos de rastreamento automático.
 
-* Alternância de Automático para Manual: atualize a alternância de manual para automático na interface de configuração do Advertising Analytics e implante os códigos de rastreamento manual o mais rápido possível. Ao implantar os códigos de rastreamento manual, se você encontrar os códigos de rastreamento automático nos modelos de rastreamento do mecanismo de pesquisa, remova-os.
+* Alternância de Automático para Manual: atualize a alternância de manual para automático na interface de configuração do Advertising Analytics e implante os códigos de rastreamento manual o mais rápido possível. Ao implantar os códigos de rastreamento manual, se você vir os códigos de rastreamento automático nos modelos de rastreamento do Mecanismo de pesquisa, remova-os.
 
 +++

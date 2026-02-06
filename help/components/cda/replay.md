@@ -4,7 +4,7 @@ description: Entenda o conceito de “repetição” no Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 89%
@@ -31,7 +31,7 @@ Assim que uma ocorrência é coletada, o CDA tenta compilá-la em dispositivos c
 *Dados como aparecem no dia em que são coletados:*
 
 | Carimbo de data e hora | ECID | eVar1 ou CustomerID | Explicação da ocorrência | Métrica Pessoas (cumulativa) usando a compilação em campo |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob no seu computador desktop, não autenticado | `1` (246) |
 | `2` | `246` | `Bob` | Bob faz logon em seu desktop | `2` (246 e Bob) |
 | `3` | `3579` | - | Bob no seu dispositivo móvel, não autenticado | `3` (246, Bob e 3579) |
