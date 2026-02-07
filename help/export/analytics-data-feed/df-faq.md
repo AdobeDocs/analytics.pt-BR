@@ -4,10 +4,10 @@ keywords: Feed de dados;coluna pré;coluna pós;diferencia maiúsculas de minús
 title: Perguntas frequentes sobre feeds de dados
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 470ab0dfa76681d73f847ba9c2aecaf64804540c
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 84%
+source-wordcount: '1488'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Para evitar que os arquivos de feed de dados sejam substituídos, recomendamos q
 
 Os nomes de arquivos do feed de dados são compostos das seguintes características do feed de dados:
 
-* ID do conjunto de relatórios (RSID)
+* ID de conjunto de relatórios (RSID)
 
 * Data de exportação
 
@@ -33,11 +33,11 @@ Para evitar uma substituição de arquivo, considere as seguintes soluções alt
 
 * Alterar o caminho de entrega
 * Alterar as datas, se possível
-* Alterar o conjunto de relatórios, se possível
+* Altere o conjunto de relatórios, se possível
 
 ## Quando os dados são processados? {#processed}
 
-Antes de processar dados por dia ou por hora, os feeds de dados aguardam até que todas os hits inseridos na coleta de dados no período (dia ou hora) tenham sido gravados no data warehouse. Depois que isso ocorre, os feeds de dados coletam os dados com carimbos de data e hora que correspondem ao período, compactando-os e reenviando-os via FTP. Nos feeds por hora, os arquivos são normalmente gravados no data warehouse dentro de 15 a 30 minutos depois da hora, mas não há um período de tempo definido. Se não houver dados com carimbos de data e hora correspondentes ao período, o processo tenta novamente o próximo período. O processo do feed de dados atual usa o campo `date_time` para determinar quais hits pertencem à hora. Esse campo se baseia no fuso horário do conjunto de relatórios.
+Antes de processar dados por dia ou por hora, os feeds de dados aguardam até que todas os hits inseridos na coleta de dados no período (dia ou hora) tenham sido gravados no data warehouse. Depois que isso ocorre, os feeds de dados coletam os dados com carimbos de data e hora que correspondem ao período, compactando-os e reenviando-os via FTP. Para feeds por hora, os arquivos normalmente são gravados no data warehouse de 15 a 30 minutos após a hora, mas não há período definido. Se não houver dados com carimbos de data e hora que correspondam ao período, o processo tentará novamente no próximo período. O processo do feed de dados atual usa o campo `date_time` para determinar quais hits pertencem à hora. Esse campo se baseia no fuso horário do conjunto de relatórios.
 
 ## Qual é a diferença entre colunas com um prefixo `post_` e colunas sem um prefixo `post_`? {#post}
 
@@ -67,33 +67,33 @@ Em quase todos os casos, a concatenação de `hitid_high` e `hitid_low` identifi
 
 ## Por que as informações estão faltando na coluna de domínio para algumas operadoras? {#domain}
 
-Algumas operadoras de celular (tais como T-Mobile e O1) não fornecem mais informações de domínio de pesquisas de DNS Reverso. Sendo assim, os dados não estão disponíveis para relatório de domínio.
+Algumas operadoras de celular (como T-Mobile e O1) não fornecem mais informações de domínio para pesquisas de DNS reverso. Portanto, esses dados não estão disponíveis para relatórios de domínio.
 
-## Por que não posso extrair arquivos &quot;por hora&quot; de dados que têm mais de sete dias? {#hourly}
+## Por que não posso extrair de forma confiável arquivos por hora para datas mais antigas? {#hourly}
 
-Para dados com mais de 7 dias, os arquivos &quot;Por hora&quot; de um dia são combinados em um único arquivo &quot;Diariamente&quot;.
+Para otimizar o armazenamento e o processamento, a Adobe consolida regularmente exportações por hora em arquivos diários. Devido à forma como e quando essas consolidações são executadas, a saída por hora para datas com mais de 10 dias não é previsível. Para uma determinada data, é possível ver uma combinação de arquivos por hora para algumas horas e um arquivo diário consolidado para outros. Os dados consolidados em um arquivo diário normalmente são atribuídos à hora `00`, o que pode deixar outras horas em branco quando essas horas são solicitadas diretamente.
 
-Exemplo: um novo Feed de dados é criado em 9 de março de 2021, e os dados de 1º de janeiro de 2021 a 9 de março são entregues como &quot;Por hora&quot;. No entanto, os arquivos &quot;Por hora&quot; anteriores a 2 de março de 2021 são combinados em um único arquivo &quot;Diário&quot;. Você pode extrair arquivos &quot;Por hora&quot; somente de dados com menos de sete dias a partir da data de criação. Nesse caso, de 2 de março a 9 de março.
+Para preenchimentos retroativos com mais de 10 dias, a Adobe recomenda usar a granularidade diária para garantir resultados completos e previsíveis. Se você precisar solicitar granularidade por hora para dias mais antigos, sempre inclua a hora `00` em sua solicitação para evitar a ausência de dados consolidados por hora.
 
 ## Qual é o impacto do horário de verão nos feeds de dados por hora? {#dst}
 
 Em alguns fusos horários, a hora será alterada duas vezes por ano devido às definições do horário de verão. Os feeds de dados seguem o fuso horário em que o conjunto de relatórios é configurado. Se o fuso horário do conjunto de relatórios não seguir o horário de verão, a entrega do arquivo continuará normalmente como qualquer outro dia. Se o fuso horário do conjunto de relatórios seguir o horário de verão, a entrega do arquivo será alterada para a hora em que ocorreu a alteração de horário (normalmente às 2:00 AM).
 
-Ao fazer as transições de horário padrão -> horário de verão (“Spring Forward”, horário adiantado na primavera), o cliente obterá somente 23 arquivos. O horário ignorado na transição do horário de verão é omitido. Por exemplo, se a transição ocorrer às 2h, os clientes obterão um arquivo por 1:00 hora e outro por 3:00 hora. Não há arquivo 2:00 porque, no horário padrão 2:00, ele se torna o horário de verão 3:00.
+Ao fazer as transições de horário padrão -> horário de verão (primavera em diante), você receberá 23 arquivos. O horário ignorado na transição do horário de verão é omitido. Por exemplo, se a transição ocorrer às 2:00 AM, você obterá um arquivo por 1:00 hora e um arquivo por 3:00 hora. Não há arquivo 2:00 porque, no horário padrão 2:00, ele se torna o horário de verão 3:00.
 
-Ao fazer as transições de horário de verão -> horário padrão, (“Fall Back”, horário de outono atrasado), o cliente obterá os 24 arquivos. Contudo, o horário de transição incluirá o equivalente a horas de dados. Por exemplo, se a transição ocorrer às 2:00 am, o arquivo para 1:00 será atrasado em uma hora, mas conterá os dados para duas horas. Ele contém dados do horário de verão de 1:00 a 2:00 do horário padrão (que teria sido 3:00 do horário de verão). O próximo arquivo começa em 2:00 STD.
+Ao fazer as transições de horário de verão -> horário padrão (fallback), você receberá 24 arquivos. Contudo, o horário de transição incluirá o equivalente a horas de dados. Por exemplo, se a transição ocorrer às 2:00 AM, o arquivo para 1:00 será atrasado em uma hora, mas conterá os dados para duas horas. Ele contém dados do horário de verão de 1:00 a 2:00 do horário padrão (que teria sido 3:00 do horário de verão). O próximo arquivo começa em 2:00 STD.
 
 ## Como o Analytics lida com falhas de transferência de FTP? {#ftp-failure}
 
 Se uma transferência FTP falhar (devido a um logon negado, uma conexão perdida, um erro de cota excedida ou outro problema), a Adobe tentará automaticamente se conectar e enviar os dados até três vezes. Se a falha continuar, o feed é marcado como falho e um email de notificação é enviado.
 
-Se uma transferência falhar, você poderá executar uma tarefa novamente até que seja concluída com sucesso.
+Se uma transferência falhar, você poderá executar um processo novamente até que seja concluído com sucesso.
 
 Se tiver problemas para que um feed de dados seja exibido no site FTP, consulte [Solução de problemas com feeds de dados](troubleshooting.md).
 
-## Como faço para reenviar um trabalho? {#resend}
+## Como faço para reenviar um processo? {#resend}
 
-Depois de verificar/corrigir o problema de entrega, execute novamente o trabalho para obter os arquivos.
+Depois de verificar/corrigir o problema de entrega, execute novamente o processo para obter os arquivos.
 
 ## Qual é a configuração BucketOwnerFullControl para feeds de dados do Amazon S3? {#BucketOwnerFullControl}
 
