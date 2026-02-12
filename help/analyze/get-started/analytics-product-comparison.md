@@ -3,10 +3,10 @@ description: Requisitos de sistema e comparação do Analysis Workspace, Reports
 title: Comparação e requisitos de produtos do Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: c4cd152d021615e32a690f0591575639c3939dbc
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 68%
 
 ---
 
@@ -38,3 +38,4 @@ Para obter informações sobre qual produto do Adobe Analytics usar, consulte [Q
 | **Delivery programado** | Sim | Sim | Sim | Sim | Não |
 | **Destinos do delivery** | Email | Email, FTP, SFTP, [publicação no Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC e Email | Amazon S3, Azure RBAC, Azure SAS e Google Cloud Platform | - |
 | **Processamento de tempo de relatório do conjunto de relatórios virtuais** <br> [Saiba mais](/help/components/vrs/vrs-report-time-processing.md) | Sim | Não | Não | Não | Sim |
+| **Relatórios de geografia e tecnologia** | Sim <p>Usa valores médios em vez de campos de publicação. A lógica de primeira ocorrência é baseada em `post_cust_hit_time_gmt` em vez de `visit_page_num=1`. Os resultados podem diferir de outras ferramentas se o IP for alterado no meio da visita, as ocorrências chegarem fora de ordem ou as visitas cruzarem os limites do mês.</p> | Sim <p>Usa valores médios em vez de campos de publicação. A lógica de primeira ocorrência é baseada em `post_cust_hit_time_gmt` em vez de `visit_page_num=1`. Os resultados podem diferir de outras ferramentas se o IP for alterado no meio da visita, as ocorrências chegarem fora de ordem ou as visitas cruzarem os limites do mês.</p> | Sim <p>Usa valores de postagem e `visit_page_num=1` para determinar a primeira ocorrência da visita. Aplica o valor da primeira ocorrência a todas as ocorrências na visita para essas dimensões.</p> | Sim <p>Usa valores de postagem e `visit_page_num=1` para determinar a primeira ocorrência da visita. Aplica o valor da primeira ocorrência a todas as ocorrências na visita para essas dimensões.</p> | Sim <p>Usa valores médios em vez de campos de publicação. A lógica de primeira ocorrência é baseada em `post_cust_hit_time_gmt` em vez de `visit_page_num=1`. Os resultados podem diferir de outras ferramentas se o IP for alterado no meio da visita, as ocorrências chegarem fora de ordem ou as visitas cruzarem os limites do mês.</p> |
