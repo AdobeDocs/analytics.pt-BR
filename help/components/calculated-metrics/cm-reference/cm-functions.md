@@ -4,9 +4,9 @@ description: Saiba mais sobre funções básicas de métricas calculadas.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2579f33a57b2dfaf6d63470f42286bf782675c68
+source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3600'
 ht-degree: 49%
 
 ---
@@ -93,7 +93,7 @@ Retorna o maior valor em um conjunto de elementos de dimensão para uma coluna d
 
 >[!TIP]
 >
->Use uma instrução [IF](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) para realçar o item de melhor desempenho no seu detalhamento.
+>Use uma instrução [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) para realçar o item de melhor desempenho no seu detalhamento.
 >
 
 ## Mínimo da coluna {#column-minimum}
@@ -123,7 +123,7 @@ Retorna o menor valor em um conjunto de elementos de dimensão para uma coluna d
 
 >[!TIP]
 >
->Use uma instrução [IF](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) para realçar o item de menor desempenho no seu detalhamento.
+>Use uma instrução [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) para realçar o item de menor desempenho no seu detalhamento.
 >
 
 
@@ -205,9 +205,9 @@ Adiciona todos os valores numéricos de uma métrica em uma coluna (nos elemento
 |---|---|
 | métrica | O exponente aplicado à base e. |
 
-**Caso de uso**: elevar um número ou uma métrica a uma potência especificada, como elevar ao quadrado um valor ou aplicar um fator de crescimento exponencial. Isso é útil ao modelar tendências de crescimento ou dimensionar uma métrica exponencialmente.
+**Caso de uso**: Eleva *e* à potência de um determinado número ou métrica. Isso é útil ao modelar tendências de crescimento ou dimensionar uma métrica exponencialmente.
 
-**No Construtor de Métricas Calculadas**: Use **Expoente** com uma métrica e um valor de potência. Por exemplo: **Expoente**(*Visitas*, 2) agrupa a métrica *Visitas*.
+**No Construtor de Métrica Calculada**: Use **Expoente** com uma métrica. Por exemplo: **Expoente**(*Visitas*) eleva *e* à potência da métrica *Visitas*.
 
 >[!TIP]
 >
