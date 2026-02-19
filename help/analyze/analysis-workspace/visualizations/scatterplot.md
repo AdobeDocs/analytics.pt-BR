@@ -3,10 +3,10 @@ title: Dispersão
 description: Saiba como criar e interpretar visualizações de dispersão no Analysis Workspace para analisar relações entre itens de dimensão e até três métricas.
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 48c7fb29424948ee8142a2ce32d95cd9b52d7b85
+source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 63%
+source-wordcount: '231'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 63%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre a visualização de dispersão_ no ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Dispersão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre a visualização de dispersão_ no ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Dispersão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ A visualização ![DispersãoGráfico](/help/assets/icons/GraphScatter.svg) **[!
 * A terceira coluna determina o raio do ponto.
 * Todas as colunas subsequentes em uma tabela de forma livre são ignoradas pela visualização do gráfico de dispersão.
 
-![Exemplo de gráfico de dispersão, mostrando vários itens de dimensão &#x200B;](assets/scatter.png)
+![Exemplo de gráfico de dispersão, mostrando vários itens de dimensão ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
@@ -49,7 +49,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [VIsualiza�
 
 >[!NOTE]
 >
->Quando você [configura a legenda para ser visível]&#x200B;(/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings na dispersão), a legenda só é exibida quando a fonte de dados contém um número limitado de itens de dimensão (selecionados).
+>Quando você [configura a legenda para ser visível](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings) na dispersão, a legenda só é exibida quando a fonte de dados contém um número limitado de itens de dimensão (selecionados).
 
 
 >[!MORELIKETHIS]
