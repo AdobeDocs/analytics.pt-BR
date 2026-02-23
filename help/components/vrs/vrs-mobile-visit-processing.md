@@ -3,9 +3,9 @@ description: As Sessões sensíveis ao contexto em conjuntos de relatórios virt
 title: Sessões sensíveis ao contexto
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 50f04ed366bf973fac43a29d6291afb017eb1f85
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1578'
 ht-degree: 24%
 
 ---
@@ -19,7 +19,7 @@ Você pode definir uma visita da maneira que quiser sem alterar os dados subjace
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessões sensíveis ao contexto](https://video.tv.adobe.com/v/3428478?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessões sensíveis ao contexto](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -109,13 +109,13 @@ Se *t1* for maior que o tempo limite e *t2* for menor que o tempo limite, a ocor
 
 ![](assets/nogoodexample3-4.jpg)
 
-Exemplo 4: em cenários em que uma série de ocorrências em segundo plano ocorrem dentro do tempo limite de uma visita do conjunto de relatórios virtual, as ocorrências formam uma “visita em segundo plano” invisível que não é contabilizada na contagem de visitas e não pode ser acessada usando um contêiner de segmentação de visitas.
+Exemplo 4: em cenários em que uma série de ocorrências em segundo plano ocorrem dentro do tempo-limite de uma visita do conjunto de relatórios virtual, as ocorrências formam uma “visita em segundo plano” invisível que não é contabilizada na contagem de visitas e não pode ser acessada usando um contêiner de segmentação de visitas.
 
 ![](assets/nogoodexample4.jpg)
 
 Mesmo que isso não seja considerado uma visita, qualquer conjunto de eVars com expiração de visita manterá seus valores para a outra ocorrência em segundo plano nesta “visita em segundo plano”.
 
-Exemplo 5: para cenários em que várias ocorrências em segundo plano ocorrem sucessivamente após uma série de ocorrências em primeiro plano, é possível (dependendo da configuração de tempo limite) que as ocorrências em segundo plano mantenham uma visita ativa por mais tempo do que o tempo limite. Por exemplo, se *t1* e *t2* juntos forem maiores que o tempo limite de visita do conjunto de relatórios virtual, mas individualmente menores que o tempo limite, a visita ainda se estenderá para incluir ambas as ocorrências em segundo plano:
+Exemplo 5: para cenários em que várias ocorrências em segundo plano ocorrem sucessivamente após uma série de ocorrências em primeiro plano, é possível (dependendo da configuração de tempo-limite) que as ocorrências em segundo plano mantenham uma visita ativa por mais tempo do que o tempo-limite. Por exemplo, se *t1* e *t2* juntos forem maiores que o tempo limite de visita do conjunto de relatórios virtual, mas individualmente menores que o tempo limite, a visita ainda se estenderá para incluir ambas as ocorrências em segundo plano:
 
 ![](assets/nogoodexample5.jpg)
 

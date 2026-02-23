@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 93%
+source-wordcount: '509'
+ht-degree: 63%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta as visualizações Número do resumo e Alteração do resumo no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Número do resumo e alteração do resumo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para a_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versão deste artigo._
+_Este artigo documenta as visualizações Número do resumo e Alteração do resumo no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Número do resumo e alteração do resumo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para a_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versão deste artigo._
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de número do resumo e alteração do resumo](https://video.tv.adobe.com/v/335564/?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de número do resumo e alteração do resumo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/summary-number-and-summary-change-visualizations-2021){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -39,10 +39,10 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizaç
 
 Use a visualização de  ![Summarize](/help/assets/icons/123.svg) **[!UICONTROL Número do resumo]** para realçar um número grande que é importante em um projeto. Essa visualização comporta-se das seguintes maneiras, usando a fonte de dados associada:
 
-* Seleciona o total da coluna caso nenhuma célula esteja selecionada.
-* Se alguma célula estiver selecionada, mostra o resumo dessa célula.
-* Se mais de uma célula estiver selecionada, mostra a primeira célula selecionada.
-* Se a coluna estiver selecionada, escolhe o primeiro valor de célula na coluna.
+* Seleciona o total da coluna se nenhuma célula for selecionada.
+* Se uma única célula for selecionada, ela mostrará o resumo dessa célula.
+* Se mais de uma célula for selecionada, ela mostrará a primeira célula selecionada.
+* Se a coluna for selecionada, ela escolherá o primeiro valor de célula na coluna.
 
 ![Visualização de número do resumo](asses/../assets/summary-number.png)
 
@@ -73,12 +73,12 @@ The green and red color of the Summary Change can be controlled through [custom 
 
 Essa visualização se comporta das seguintes maneiras:
 
-* Se nenhuma célula estiver selecionada, compara os dois primeiros valores de célula na coluna.
-* Se uma célula estiver selecionada, exibe 0, pois compara o valor da célula a ele mesmo.
-* Se duas células estiverem selecionadas, a primeira célula selecionada é tomada como o numerador e a segunda como o denominador.
-* Se mais de duas células estiverem selecionadas, considera apenas as duas primeiras para comparação.
-* Se um intervalo de células estiver selecionado, compara a primeira com a última célula selecionada no intervalo.
-* Se a coluna estiver selecionada, compara o primeiro valor a si mesmo, mostrando uma alteração de 0.
+* Se nenhuma célula for selecionada, ela comparará os dois primeiros valores da célula na coluna.
+* Se uma célula for selecionada, ela mostrará 0, porque compara o valor da célula a si mesma.
+* Se forem selecionadas duas células, toma-se a primeira célula selecionada como numerador e a segunda como denominador.
+* Se mais de duas células forem selecionadas, ele só considerará as duas primeiras para comparação.
+* Se um intervalo de células for selecionado, ele compara a primeira às últimas células selecionadas no intervalo.
+* Se a coluna for selecionada, ela comparará o primeiro valor a si mesma, o que mostra uma alteração de 0.
 
 
 ![Visualização de alteração do resumo, mostrando o delta entre dois números.](assets/summary-change.png)
@@ -95,6 +95,6 @@ Como parte das configurações de visualização, existem **[!UICONTROL Opções
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

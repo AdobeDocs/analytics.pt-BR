@@ -1,23 +1,23 @@
 ---
-description: Uma explicação de como a página de aterrissagem reúne o Analysis Workspace e o Reports & Analytics em uma única interface e ponto de acesso sob o comando do Workspace.
-title: Página de aterrissagem do Adobe Analytics
+description: Uma explicação de como a página de destino reúne o Analysis Workspace e o Reports & Analytics em uma única interface e ponto de acesso sob o comando do Workspace.
+title: Página de destino do Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 100%
+source-wordcount: '1461'
+ht-degree: 99%
 
 ---
 
-# Página de aterrissagem do Adobe Analytics
+# Página de destino do Adobe Analytics
 
 A página de destino do Adobe Analytics reúne o [!DNL Analysis Workspace] e o [!DNL Reports & Analytics] (descontinuado) em uma única interface e ponto de acesso sob a estrutura do [!DNL Workspace]. Ela apresenta uma página inicial do gerente de projeto, uma seção modelos e uma seção de aprendizado para ajudar a começar de forma eficaz.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de destino do Adobe Analytics](https://video.tv.adobe.com/v/3409141/?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de destino do Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -87,7 +87,7 @@ As colunas disponíveis são:
 | Ícone Informações (i) | Exibe as seguintes informações sobre um projeto: Tipo, Função do projeto, Proprietário, Descrição e com quem ele é compartilhado. Também indica quem pode [editar ou duplicar](/help/analyze/analysis-workspace/curate-share/share-projects.md) o projeto. |
 | Reticências (...) | Exibe as ações de gerenciamento de projeto que você pode executar: **Excluir**, **Compartilhar**, **Renomear**, **Copiar**, **Remover**, **Mover para cima**, **Mover para baixo**, **Tag**, **Aprovar**, **Exportar CSV** e **Mover para**. Talvez você não tenha permissões para executar todas as ações listadas. |
 | MOSTRAR: Pastas e projetos ou todos os projetos | Altera a configuração de exibição na tabela para mostrar pastas e projetos de acordo com a organização da pasta **ou** mostrar todos os seus projetos em uma lista não organizada. |
-| &lt; (Botão voltar) | Retorna à configuração de página inicial mais recente em um projeto do Espaço de trabalho ou em um relatório. A configuração da página que você tinha quando saiu da página inicial persistirá quando você retornar. |
+| &lt; (Botão voltar) | Retorna à configuração de página de destino mais recente em um projeto do Espaço de trabalho ou em um relatório. A configuração da página que você tinha quando saiu da página de destino persistirá quando você retornar. |
 
 ## Acesse a guia [!UICONTROL Modelos] {#navigate-reports}
 
@@ -118,14 +118,14 @@ Use a página Aprendizagem do Adobe Analytics para saber mais sobre recursos e c
 
 ## Definir sua página de destino {#set-landing}
 
-Os usuários podem definir sua página de aterrissagem preferencial.
+Os usuários podem definir sua página de destino preferencial.
 
 1. Vá até Analytics > [!UICONTROL Componentes] > [!UICONTROL Preferências] > [!UICONTROL Geral].
-1. Marque a página de aterrissagem que você prefere:
+1. Marque a página de destino que você prefere:
 
-   ![Definir página de aterrissagem](assets/landing-pref.png)
+   ![Definir página de destino](assets/landing-pref.png)
 
-## Perguntas frequentes sobre a página de aterrissagem {#landing-faq}
+## Perguntas frequentes sobre a página de destino {#landing-faq}
 
 | Pergunta | Resposta |
 | --- | --- |
@@ -133,4 +133,4 @@ Os usuários podem definir sua página de aterrissagem preferencial.
 | O trabalho que eu realizo na interface do programa beta é transferido para a experiência do [!UICONTROL Espaço de trabalho] de produção? | Sim, qualquer trabalho realizado no beta é transferido para a experiência antiga/atual do [!UICONTROL Espaço de trabalho.] |
 | Meus favoritos anteriores do Reports &amp; Analytics são transferidos? | Não, eles NÃO são transferidos. No entanto, todos os favoritos de projetos do [!UICONTROL Espaço de trabalho] são transferidos. |
 | Há um número máximo de projetos que eu posso fixar? | Não, não há limite para o número de projetos que você pode fixar. |
-| Os administradores podem designar essa página de aterrissagem para seus usuários? | Não, os administradores não podem designar a página de aterrissagem em nome de seus usuários. Os usuários individuais devem ativar o botão de alternância. |
+| Os administradores podem designar essa página de destino para seus usuários? | Não, os administradores não podem designar a página de destino em nome de seus usuários. Os usuários individuais devem ativar o botão de alternância. |

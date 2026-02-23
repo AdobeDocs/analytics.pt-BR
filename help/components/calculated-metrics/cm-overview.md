@@ -1,13 +1,13 @@
 ---
 description: Saiba mais sobre métricas calculadas que você pode criar a partir de métricas existentes.
-keywords: 'Métricas calculadas '
+keywords: Métricas calculadas
 title: Visão geral das métricas calculadas
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 99%
 
 ---
 
@@ -59,13 +59,13 @@ Alguns recursos do [!DNL Analytics] não permitem o uso de métricas calculadas:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/32608?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas em segmentos](https://video.tv.adobe.com/v/32603?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas em segmentos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[Criar métricas](/help/components/calculated-metrics/workflow/cm-workflow.md)
->>[Criar métricas](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
->>[Usar funções](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+>[Criar métricas](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>[Usar funções](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >

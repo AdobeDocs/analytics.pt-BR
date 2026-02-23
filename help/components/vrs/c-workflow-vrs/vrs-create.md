@@ -4,10 +4,10 @@ keywords: Conjunto de relatórios virtuais
 title: Criar conjuntos de relatórios virtuais
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 62%
+source-wordcount: '675'
+ht-degree: 50%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 62%
 Antes de começar a criar conjuntos de relatórios virtuais, lembre-se das informações a seguir.
 
 * Usuários não administradores não podem ver o relatório virtual se adapta ao gerenciador.
-* Os conjuntos de relatórios virtuais não podem ser compartilhados. O “Compartilhamento” é efetuado por grupos/permissões.
+* Os conjuntos de relatórios virtuais não podem ser compartilhados. O &quot;compartilhamento&quot; é feito por meio de grupos/permissões.
 * No gerenciador de Conjuntos de relatórios virtuais, você pode exibir apenas seus próprios conjuntos de relatórios virtuais. É necessário clicar em &quot;mostrar tudo&quot; para exibir o restante.
 
 1. Navegue até **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de relatórios virtuais]**.
@@ -30,12 +30,12 @@ Na guia [!UICONTROL Configurações], defina essas configurações e clique em *
 
 | Elemento | Descrição |
 | --- |--- |
-| Nome | O nome do conjunto de relatórios virtual não é herdado do conjunto de relatórios pai e não deve ser distinto. |
-| Descrição | Adicione uma boa descrição para beneficiar seus usuários comerciais. |
-| Tags | É possível adicionar tags para organizar seus conjuntos de relatórios. |
-| Origem | O conjunto de relatórios do qual este conjunto de relatórios virtual herda as seguintes configurações. A maioria dos níveis e recursos do serviço (por exemplo, configurações de eVar, Regras de processamento, Classificações e assim por diante) são herdados. Para alterar essas configurações herdadas em um Conjunto de relatórios virtual, é necessário editar o conjunto de relatórios pai (Administrador > Conjuntos de relatórios). |
+| Nome | O nome do conjunto de relatórios virtual não é herdado do conjunto de relatórios pai e deve ser diferente. |
+| Descrição | Adicione uma boa descrição para beneficiar seus usuários empresariais. |
+| Tags | Você pode adicionar tags para organizar seus conjuntos de relatórios. |
+| Origem | O conjunto de relatórios do qual esse conjunto de relatórios virtual herda as configurações a seguir. A maioria dos níveis de serviço e recursos (por exemplo, configurações do eVar, Regras de processamento, Classificações e assim por diante) são herdados. Para alterar essas configurações herdadas em um Conjunto de relatórios virtual, é necessário editar o conjunto de relatórios pai (Administrador > Conjuntos de relatórios). |
 | Fuso horário | A escolha de um fuso horário é opcional. Se você escolher um fuso horário, ele será salvo junto com o Conjunto de relatórios virtual. Se não escolher um, o fuso horário do conjunto de relatórios principal é usado.  Ao editar um Conjunto de relatórios virtual, o fuso horário salvo com o Conjunto de relatórios virtual é exibido no seletor suspenso. Se o conjunto de relatórios virtual tiver sido criado antes da adição do suporte a fuso horário, o fuso horário do conjunto de relatórios principal será mostrado no seletor suspenso. |
-| Segmentos | Você pode adicionar um segmento ou empilhá-los.   Observação: ao empilhar dois segmentos, eles são unidos por padrão por uma instrução AND. Isso não pode ser alterado para uma instrução OR. Ao tentar excluir ou modificar um segmento usado em um conjunto de relatórios virtuais, você receberá um aviso. |
+| Segmentos | Você pode adicionar um segmento ou empilhá-los.   Observação: ao empilhar dois segmentos, eles são unidos por padrão por uma instrução AND. Isso não pode ser alterado para uma instrução OR. Ao tentar excluir ou modificar um segmento usado em um conjunto de relatórios virtuais, será exibido um aviso. |
 
 ## Configurar as definições de visita
 
@@ -46,16 +46,16 @@ Na guia [!UICONTROL Definição de visita], defina essas configurações e cliqu
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar uma definição de visita](https://video.tv.adobe.com/v/3428478?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar uma definição de visita](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 | Elemento | Descrição |
 | --- |--- |
 | **Configurar definição de visita** |  |
-| Habilitar processamento de tempo do relatório | Use o processamento do tempo do relatório para alterar a duração padrão do tempo limite da visita. Essas configurações não são destrutivas e se aplicam apenas ao Analysis Workspace. [Saiba mais](/help/components/vrs/vrs-report-time-processing.md) |
-| Tempo limite de visita | Define a quantidade de inatividade que um visitante único deve ter antes que uma nova visita seja iniciada automaticamente. Essa quantidade afetará a métrica de visitas, o contêiner do segmento de visitas e as eVars que expiram na visita. |
-| Iniciar nova visita com evento | Inicia uma nova sessão quando qualquer um dos eventos especificados é acionado, independentemente de o tempo limite da sessão expirar. |
+| Habilitar processamento de tempo do relatório | Use o processamento do tempo do relatório para alterar a duração padrão do tempo-limite da visita. Essas configurações não são destrutivas e se aplicam apenas ao Analysis Workspace. [Saiba mais](/help/components/vrs/vrs-report-time-processing.md) |
+| Tempo-limite de visita | Define a quantidade de inatividade que um visitante único deve ter antes que uma nova visita seja iniciada automaticamente. Essa quantidade afetará a métrica de visitas, o contêiner do segmento de visitas e as eVars que expiram na visita. |
+| Iniciar nova visita com evento | Inicia uma nova sessão quando qualquer um dos eventos especificados é acionado, independentemente do fato de uma sessão ter expirado. |
 | **Configurações de visita em aplicativos para dispositivos móveis** | Modifique como as visitas são definidas para ocorrências de aplicativos para dispositivos móveis coletados pelos SDKs para dispositivos móveis da Adobe. Essas configurações não são destrutivas e se aplicam somente ao Analysis Workspace. |
 | Impedir que ocorrências de segundo plano iniciem uma nova visita | Evita que as ocorrências de segundo plano iniciem uma nova visita e aumentem as métricas de visitas e visitantes únicos. |
 | Iniciar uma nova visita a cada inicialização do aplicativo | Inicia uma nova sessão quando ocorre uma inicialização do aplicativo. [Saiba mais](/help/components/vrs/vrs-mobile-visit-processing.md) |

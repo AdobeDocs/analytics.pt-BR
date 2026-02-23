@@ -4,10 +4,10 @@ title: Fallout interdimensional
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
@@ -18,17 +18,11 @@ O recurso de Fallout no Analysis Workspace permite combinar dimensões e métric
 
 Por exemplo, além de uma dimensão Página, é possível adicionar outros itens de dimensão (como um nome de dispositivo específico da dimensão Nome do dispositivo) a uma visualização de Fallout. A combinação de dimensões permite visualizar como as páginas e determinadas ações interagem nos caminhos dos clientes.
 
->[!BEGINSHADEBOX]
-
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fallout multidimensional](https://video.tv.adobe.com/v/30793?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
-
->[!ENDSHADEBOX]
-
 Por exemplo, além de uma dimensão Página, é possível adicionar outros itens de dimensão (como um nome de dispositivo específico da dimensão Nome do dispositivo) a uma visualização de Fallout. A combinação de dimensões permite visualizar como as páginas e determinadas ações interagem nos caminhos dos clientes.
 
 ![O modo de exibição Todas as Visitas mostrando várias dimensões como pontos de contato.](assets/fallout-otherdimension.png)
 
-O fallout é atualizado de forma dinâmica e permite ver os fallouts em várias dimensões.
+O fallout é atualizado dinamicamente e permite visualizar o fallout em várias dimensões.
 
 Você também pode adicionar métricas. Por exemplo, você pode adicionar a métrica Chamada para mostrar apenas caminhos para usuários para os quais existem chamadas e que entraram em contato com a central de atendimento:
 

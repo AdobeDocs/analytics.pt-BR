@@ -1,13 +1,13 @@
 ---
-description: As regras de bot permitem que você remova o tráfego que é gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode fornecer uma medida mais precisa da atividade do usuário no seu site.
+description: As regras de bot permitem remover o tráfego gerado pelos spiders e bots conhecidos de seu conjunto de relatórios. A remoção do tráfego de bot pode fornecer uma medida mais precisa da atividade do usuário no seu site.
 title: Noções básicas e configuração de regras de bots
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 68%
+source-wordcount: '1669'
+ht-degree: 39%
 
 ---
 
@@ -17,7 +17,7 @@ As regras de bot permitem remover o tráfego do conjunto de relatórios gerado p
 
 Depois que as regras de bot são definidas, todo o tráfego de entrada é comparado às regras definidas. O tráfego que corresponde a qualquer uma dessas regras não é coletado no conjunto de relatórios e não está incluído nas métricas de tráfego.
 
-Remover o tráfego de robô normalmente reduz o volume do tráfego e as métricas de conversão. Muitos clientes acham que a remoção do tráfego de bot resulta em maiores taxas de conversão e em aumentos em outras métricas de usabilidade.
+A remoção do tráfego de bot normalmente reduz o volume de tráfego e as métricas de conversão. Muitos clientes acham que a remoção do tráfego de bot resulta em maiores taxas de conversão e em aumentos em outras métricas de usabilidade.
 
 Os dados do tráfego de bot são armazenados em um repositório separado para exibição nos relatórios de Páginas de bots e Bots.
 
@@ -29,12 +29,12 @@ Os dados do tráfego de bot são armazenados em um repositório separado para ex
 
 >[!IMPORTANT]
 >
->Antes de remover o tráfego de bot, você deve entrar em contato com as partes interessadas para garantir que elas possam fazer os ajustes necessários nos principais indicadores de desempenho, como resultado dessa mudança. Se possível, recomendamos que, antes, seja removido o tráfego de robô de um report suite pequeno, para estimar o potencial impacto.
+>Antes de remover o tráfego de bot, comunique-se com as partes interessadas para garantir que elas possam fazer os ajustes necessários nos indicadores-chave de desempenho como resultado dessa alteração. Se possível, recomendamos que, antes, seja removido o tráfego de robô de um report suite pequeno, para estimar o potencial impacto.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurar regras de bot](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurar regras de bot](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -85,17 +85,17 @@ As regras de bot personalizadas são definidas usando os seguintes tipos de cond
 
 * Agente do usuário
 * Endereço IP
-* Intervalo de IP
+* Intervalo IP
 
-Várias condições podem ser definidas para uma única regra. Várias condições são correspondidas usando &quot;ou&quot;. Por exemplo, se você fornece um valor para Agente do usuário e Endereço IP, o tráfego é considerado tráfego de bot se uma das condições for atendida.
+Várias condições podem ser definidas para uma única regra. Várias condições são correspondidas usando &quot;ou&quot;. Por exemplo, se você fornecer um valor para Agente do usuário e Endereço IP, o tráfego será considerado tráfego de bot se uma das condições for atendida.
 
 ### Agente do usuário
 
 Uma condição Agente do usuário verifica o valor do agente do usuário para ver se ele **[!UICONTROL começa com]** ou **[!UICONTROL contém]** a string especificada. Caso seja selecionado **[!UICONTROL contém]**, a subsequência é encontrada se houver qualquer ocorrência dela no agente do usuário.
 
-Valores opcionais podem ser inseridos na lista **[!UICONTROL não contém]** para definir valores que o agente do usuário não deve conter para uma correspondência acertada. Vários valores podem ser especificados por meio da inclusão de um valor por linha. Se o agente do usuário atender os critérios especificados na string de correspondência, mas também contiver uma string na lista de não contém, não é considerado uma correspondência.
+Valores opcionais podem ser inseridos na lista **[!UICONTROL não contém]** para definir valores que o agente do usuário não deve conter para uma correspondência acertada. Vários valores podem ser especificados incluindo um valor por linha. Se o agente do usuário atender aos critérios especificados na sequência de correspondência, mas também contiver uma sequência na lista não contém, ele não será considerado uma correspondência.
 
-O campo **[!UICONTROL contém]** limita-se a 100 caracteres. A lista de não contém é limitada a 255 caracteres, menos um caractere separador para cada nova linha. (É igual ao número de strings - 1. Se você especificar 4 *não contém* cadeias de caracteres, serão necessários 3 caracteres separadores.) Todas as correspondências de cadeias de caracteres não diferenciam maiúsculas de minúsculas.
+O campo **[!UICONTROL contém]** limita-se a 100 caracteres. A lista não contém limita-se a 255 caracteres menos um caractere separador para cada nova linha. (É igual ao número de cadeias de caracteres - 1. Se você especificar 4 *não contém* cadeias de caracteres, serão necessários 3 caracteres separadores.) Todas as correspondências de cadeias de caracteres não diferenciam maiúsculas de minúsculas.
 
 ### Endereço IP (inclusive correspondências curingas)
 
@@ -118,7 +118,7 @@ Forneça os valores inicial e final do intervalo de endereços IP que deseja enc
 
 ## Fazer upload de regras de bot
 
-Para as regras de bot de importação em massa, é possível fazer upload do arquivo CSV que define as regras.
+Para importar regras de bot em massa, você pode carregar um arquivo CSV que define as regras.
 
 1. Para começar o processo de carregar regras de bot para um conjunto de relatórios, consulte [Atualizar ou carregar regras de bot](#update-or-upload-bot-rules).
 
@@ -128,24 +128,24 @@ Para as regras de bot de importação em massa, é possível fazer upload do arq
    |--- |--- |---|---|---|---|
    | Nome do bot | Início do IP | IP Fim | Regra<br>(contém ou começa com)</br> | Inclusão do agente do usuário | Exclusão de Agente do Usuário<br>(limite de 255 caracteres)</br> |
 
-   É possível definir três tipos de regras de bot:
+   Você pode definir três tipos de regras de bot:
 
    * O agente do usuário contém ou começa com
    * Endereço IP único ou correspondência curinga
    * Correspondência de intervalo de IP
 
-   Cada linha no arquivo de importação pode conter apenas uma das seguintes definições:
+   Cada linha no arquivo de importação pode conter apenas uma das seguintes definições de bot:
 
    >[!NOTE]
    >
-   >   Para encontrar um bot usando uma combinação de regras juntas a um OU (por exemplo, agente do usuário ou endereço IP), forneça um nome idêntico para todas as regras que deseja combinar no campo de nome do bot. Correspondências AND não são suportadas.
+   >   Para corresponder a um bot usando uma combinação de regras unidas com um OR (por exemplo, agente do usuário ou endereço IP), forneça um nome idêntico para todas as regras que deseja combinar no campo de nome do bot. Correspondências AND não são suportadas.
 
 
-   * **O agente do usuário contém ou começa com**: Forneça uma única sequência de agente do usuário para corresponder na coluna Incluir agente. Especifique o tipo de correspondência que deseja fazer colocando *contém* ou *começa com* no campo Regra de correspondência do agente. Um valor opcional pode ser incluído na coluna Excluir agente, o qual define uma ou mais strings delimitadas por traço (`|`) que o agente não contém. As correspondências de string não distinguem maiúsculas de minúsculas. As colunas IP início e IP fim devem estar vazias.
+   * **O agente do usuário contém ou começa com**: forneça uma única cadeia de agente do usuário que corresponda na coluna Inclusão de Agente. Especifique o tipo de correspondência que deseja realizar colocando *contém* ou *começa com* no campo Regra de Correspondência do Agente. Um valor opcional pode ser incluído na coluna Excluir agente, o qual define uma ou mais strings delimitadas por traço (`|`) que o agente não contém. As correspondências de cadeias de caracteres não diferenciam maiúsculas de minúsculas. As colunas Início de IP e Fim de IP devem estar vazias.
 
    * **Endereço IP único ou correspondência curinga**: para corresponder a um único endereço IP (`10.10.10.1`) ou endereço IP curinga (`10.10.*.*`), coloque o mesmo valor nas colunas Início de IP e Fim de IP. Regra de correspondência, Incluir agente e Excluir agente devem estar vazios.
 
-   * **Correspondência de intervalo de IP**: Defina um intervalo de endereços IP usando as colunas IP início e IP fim. Os curingas podem ser usados para a correspondência dos intervalos de IP, por exemplo de `10.10.10.*` para `10.10.20.*`. Regra de correspondência, Incluir agente e Excluir agente devem estar vazios.
+   * **Correspondência de intervalo de IP**: defina um intervalo de endereços IP usando as colunas Início de IP e Fim de IP. Os curingas podem ser usados para a correspondência dos intervalos de IP, por exemplo de `10.10.10.*` para `10.10.20.*`. Regra de correspondência, Incluir agente e Excluir agente devem estar vazios.
 
 1. Na página Regras de bot no Gerenciador de conjunto de relatórios, ao lado da área [!UICONTROL **Selecionar arquivo de bot CSV a ser importado**], selecione [!UICONTROL **Escolher arquivo**] e, em seguida, selecione o arquivo CSV que define as regras de bot que você deseja importar.
 
@@ -173,7 +173,7 @@ As regras de bot são aplicadas a todos os dados de análises. Os dados removido
 
 As regras VISTA são aplicadas após as Regras de bots. Consulte [Pedido de processamento](/help/technotes/processing-order.md) no Guia do usuário da Technotes.
 
-**Processamento de visita de alta ocorrência:** se houver mais de 100 ocorrências em uma visita, o relatório determinará se o tempo da visita em segundos é menor que ou igual ao número de ocorrências na visita. Nessa situação, devido ao custo de processar visitas longas e intensas, o relatório recomeçará com uma nova visita. Visitas de alta ocorrência são normalmente causadas por ataques de bot e não são consideradas como uma navegação do visitante normal.
+**Processamento de Visita de Alta Ocorrência:** Se mais de 100 ocorrências ocorrerem em uma visita, o relatório determinará se o tempo da visita em segundos é menor ou igual ao número de ocorrências na visita. Nessa situação, devido ao custo de processar visitas longas e intensas, os relatórios começam novamente com uma nova visita. As visitas de alta ocorrência normalmente são causadas por ataques de bot e não são consideradas navegação normal do visitante.
 
 >[!NOTE]
 >
@@ -181,8 +181,8 @@ As regras VISTA são aplicadas após as Regras de bots. Consulte [Pedido de proc
 
 ## Impacto da ofuscação de IP na filtragem de bot {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
-A lista de bots IAB é baseada unicamente no agente do usuário; portanto, a filtragem com base na lista não é afetada por configurações de ofuscação de IP. Para a filtragem de bots não IAB (regras personalizadas), o IP pode fazer parte dos critérios de filtragem. Se os bots de filtragem utilizam IP, a filtragem de bots ocorre depois que o último octeto é removido (se a configuração está habilitada), mas antes de outras opções de ofuscação de IP, como excluir o IP ou substituí-lo por uma ID exclusiva.
+A lista de bot IAB é baseada exclusivamente no agente do usuário, portanto, a filtragem baseada nessa lista não é afetada pelas configurações de ofuscação de IP. Para filtragem de bot não IAB (regras personalizadas), o IP pode fazer parte dos critérios de filtragem. Se os bots de filtragem utilizam IP, a filtragem de bots ocorre depois que o último octeto é removido (se a configuração está habilitada), mas antes de outras opções de ofuscação de IP, como excluir o IP ou substituí-lo por uma ID exclusiva.
 
 Se a ofuscação de IP estiver ativada, a exclusão de IP ocorrerá antes de o endereço IP ser ofuscado, de modo que os clientes não precisam fazer qualquer alteração ao ativar a ofuscação de IP.
 
-Se o último octeto for removido, isso ocorrerá antes da filtragem de IP. Assim, o último octeto será substituído por um 0, e as regras de exclusão de IP devem ser atualizadas para corresponder os endereços IP com um zero no final. O &#42; correspondente deve corresponder a 0.
+Se o último octeto for removido, isso será feito antes da filtragem de IP. Assim, o último octeto será substituído por um 0, e as regras de exclusão de IP devem ser atualizadas para corresponder os endereços IP com um zero no final. O &#42; correspondente deve corresponder a 0.

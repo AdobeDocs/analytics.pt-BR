@@ -1,23 +1,23 @@
 ---
-description: Conjuntos de relatórios virtuais podem ser curados para incluir e excluir componentes na Analysis Workspace.
+description: Os conjuntos de relatórios virtuais podem ser gerenciados para incluir e excluir componentes no Analysis Workspace.
 title: Curadoria de componentes do conjunto de relatórios virtual
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 92%
+source-wordcount: '415'
+ht-degree: 40%
 
 ---
 
 # Curadoria de componentes do conjunto de relatórios virtual
 
-Conjuntos de relatórios virtuais podem ser curados para incluir e excluir componentes na Analysis Workspace.
+Os conjuntos de relatórios virtuais podem ser gerenciados para incluir e excluir componentes no Analysis Workspace.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Curadoria de componentes](https://video.tv.adobe.com/v/3425526?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Curadoria de componentes](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ Para permitir a curadoria de componentes,
    >* [!UICONTROL Activity Map]
    >* API em relatórios do Analytics
 
-   Uma vez verificado, você pode adicionar os componentes que deseja incluir no conjunto de relatórios virtual, arrastando os componentes aplicáveis da coluna “componentes excluídos” para a coluna “componentes incluídos”. Os componentes que podem ser incluídos e excluídos são:
+   Depois de marcado, você pode adicionar os componentes que gostaria de incluir no conjunto de relatórios virtual arrastando os componentes aplicáveis da coluna &quot;componentes excluídos&quot; para a coluna &quot;componentes incluídos&quot;. Os componentes que podem ser incluídos e excluídos são:
 
    * Dimensões
    * Métricas
@@ -61,17 +61,17 @@ Para permitir a curadoria de componentes,
 
 ## Renomear componentes {#section_0F7CD9F684FE4765BC00A2AFED56550E}
 
-Você pode alterar os nomes de exibição dos componentes incluídos especificamente para o conjunto de relatórios virtual. Por exemplo, se você quiser incluir o Nome da página no conjunto de relatórios virtual, mas quiser renomeá-lo para algo no contexto dos dispositivos móveis, poderá fazer isso nas Telas do aplicativo. O novo nome é exibido na Analysis Workspace sempre que este conjunto de relatórios virtual é usado.
+Você pode alterar os nomes de exibição dos componentes incluídos específicos do conjunto de relatórios virtual. Por exemplo, se você deseja incluir o Nome da página no conjunto de relatórios virtual, mas deseja renomeá-lo para um contexto mais móvel, é possível alterá-lo para App Screens. O novo nome é exibido no Analysis Workspace sempre que esse conjunto de relatórios virtual é usado.
 
 ![](assets/vrs-rename-component.png)
 
-Na Analysis Workspace, clique no ícone de informações de qualquer componente incluído para revelar o nome original do componente renomeado:
+No Analysis Workspace, clique no ícone de informações de qualquer componente incluído para revelar o nome original do componente renomeado:
 
 ![](assets/vrs-aw-renamed.png)
 
 ## Grupos de componentes {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
-Use grupos de componentes para criar adições de componentes em massa ao seu conjunto de relatórios virtual. Por exemplo, se você quiser importar um conjunto padrão de componentes específicos da análise de aplicativos móveis, selecione o grupo de aplicativos móveis. Um conjunto correspondente de dimensões e métricas (já renomeadas) é adicionado automaticamente à lista de Incluídos do conjunto de relatórios virtual.
+Use grupos de componentes para fazer adições de componentes em massa ao conjunto de relatórios virtual. Por exemplo, se você quiser importar um conjunto padrão de componentes específicos para a análise de aplicativos móveis, selecione o grupo de aplicativos móveis. Um conjunto correspondente de dimensões e métricas (já renomeado) é adicionado automaticamente à lista Incluídos do conjunto de relatórios virtual.
 
 ![](assets/vrs-comp-grp.png)
 

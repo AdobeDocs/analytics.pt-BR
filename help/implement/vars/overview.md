@@ -5,9 +5,9 @@ keywords: appmeasurement,variáveis,vars,configuração,página,implementação
 feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: ht
-source-wordcount: '385'
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+workflow-type: tm+mt
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ A Adobe oferece várias maneiras de implementar o Adobe Analytics. Cada página 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuração de variáveis](https://video.tv.adobe.com/v/31172?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuração de variáveis](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-variables-in-the-admin-console){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

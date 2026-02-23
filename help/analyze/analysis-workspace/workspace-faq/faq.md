@@ -4,10 +4,10 @@ title: Perguntas frequentes
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '554'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Não é necessária nenhuma implementação específica. O Analysis Workspace es
 +++
 
 +++Posso usar o Analysis Workspace para Data Warehouse?
-O Analysis Workspace não é recomendado para a exportação de dados em massa. É um espaço de trabalho de visualização que cria projetos de análise semelhantes ao painel.
+O Analysis Workspace não é recomendado para a exportação de dados em massa. É um espaço de trabalho de visualização que cria projetos de análise semelhantes a painéis.
 +++
 
 +++Como posso otimizar o desempenho do Analysis Workspace?
@@ -45,13 +45,13 @@ Consulte [Otimizar o desempenho](/help/analyze/analysis-workspace/workspace-faq/
 
 +++Como os dados entram em seu projeto do Analysis Workspace?
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dados no Analysis Workspace](https://video.tv.adobe.com/v/33848?quality=12&learn=on&captions=por_br){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dados no Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} para assistir a um vídeo de demonstração.
 
 +++
 
 +++Como posso monitorar o uso do Espaço de trabalho?
 
-Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rastreamento por log](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rastreamento por log](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} para assistir a um vídeo de demonstração.
 
 +++
 

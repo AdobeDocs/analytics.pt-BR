@@ -3,9 +3,9 @@ description: Em vez de manter e fazer upload de classificações toda vez que os
 title: Fluxo de trabalho do criador de regras de classificação
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 1f97365ada0a182f743b6d920b0605232e030aec
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 67%
 
 ---
@@ -18,7 +18,7 @@ Em vez de manter e fazer upload de classificações toda vez que os códigos de 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Construtor de regras de classificação](https://video.tv.adobe.com/v/3434379?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Construtor de regras de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/classifications/using-the-classification-rule-builder){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
