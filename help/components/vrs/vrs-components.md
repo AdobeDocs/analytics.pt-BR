@@ -17,7 +17,7 @@ Os conjuntos de relatórios virtuais podem ser gerenciados para incluir e exclui
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Curadoria de componentes](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Curadoria de componentes](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

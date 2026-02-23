@@ -27,4 +27,4 @@ Este capítulo explica os conceitos que você precisa entender sobre permissões
 
 Assista à demonstração em vídeo a seguir para saber como adicionar um administrador no Adobe Analytics:
 
-[Adicionar um administrador no Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}
+[Adicionar um administrador no Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}

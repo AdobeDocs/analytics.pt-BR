@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Detecção de anomalias](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Detecção de anomalias](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ de métricas selecionadas em segmentos convergentes do público-alvo.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análise de contribuição](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análise de contribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -119,17 +119,17 @@ Abaixo há uma lista dos direitos de Detecção de anomalias e Análise de contr
    <td colname="col3" colsep="1"> <p>Nenhum token </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  >Select</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/br/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  >Select</a> </p> </td> 
    <td colname="col2"> <p>Somente granularidade diária </p> </td> 
    <td colname="col3"> <p>Nenhum token </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/br/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>Sim </p> </td> 
    <td colname="col3"> <p>10 tokens por mês </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/br/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Sim </p> </td> 
    <td colname="col3"> <p>20 tokens por mês </p> </td> 
   </tr> 
@@ -154,7 +154,7 @@ Abaixo há uma lista dos direitos de Detecção de anomalias e Análise de contr
    <td colname="col3"> <p>2 tokens por mês </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete, <a href="https://business.adobe.com/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete, <a href="https://business.adobe.com/br/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>Sim </p> </td> 
    <td colname="col3"> <p>Tokens ilimitados </p> </td> 
   </tr> 

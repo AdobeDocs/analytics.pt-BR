@@ -46,7 +46,7 @@ Na guia [!UICONTROL Definição de visita], defina essas configurações e cliqu
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar uma definição de visita](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar uma definição de visita](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

@@ -19,7 +19,7 @@ Além disso, é possível restringir os segmentos sequenciais a uma duração de
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentação sequencial](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentação sequencial](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -302,4 +302,4 @@ Como exemplo final, você deseja identificar os visitantes que aprenderam sobre 
 
 >[!MORELIKETHIS]
 >
-> * [Dominando Lógica Sequencial no AA e no CJA: Introdução ao THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [Dominando Lógica Sequencial no AA e no CJA: Introdução ao THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=pt)

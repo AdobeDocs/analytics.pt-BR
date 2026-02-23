@@ -20,7 +20,7 @@ Com a integração do Audience Analytics em vigor, é possível incorporar dados
 
 >[!BEGINSHADEBOX]
 
-Assista a ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} para ver um vídeo de demonstração.
+Assista a ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
