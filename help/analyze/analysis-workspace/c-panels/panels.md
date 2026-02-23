@@ -26,7 +26,7 @@ Os seguintes tipos de painel estão disponíveis no Analysis Workspace para o [!
 | [Analytics for Target](a4t-panel.md) | Analisar atividades e experiências do Target no Analysis Workspace. |
 | [Forma livre](freeform-panel.md) | Realize comparações e detalhamentos ilimitados e, em seguida, adicione visualizações para obter uma visão ampla dos dados. |
 | [Público-alvo médio a cada minuto de mídia](average-minute-audience-panel.md) | Analise o público-alvo médio por minuto de um conteúdo específico ou ao longo de um período personalizado. |
-| [Visualizadores simultâneos de mídia ](media-concurrent-viewers.md) | Analise os visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de criar um detalhamento e comparar. |
+| [Visualizadores simultâneos de mídia &#x200B;](media-concurrent-viewers.md) | Analise os visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de criar um detalhamento e comparar. |
 | [Tempo gasto com a reprodução da mídia](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analise o tempo de reprodução gasto para entender onde ocorrem os picos de simultaneidade ou as desistências. |
 | [Próximo item ou anterior](next-previous.md) | Mostra as páginas seguintes ou anteriores que as pessoas acessam. |
 | [Insights rápidos](quickinsight.md) | Crie rapidamente uma tabela de forma livre e uma visualização de acompanhamento para analisar e descobrir insights mais rapidamente. |
@@ -91,7 +91,7 @@ Você pode gerenciar um painel das seguintes maneiras:
 
 ## Conjunto de relatórios
 
-Cada painel é associado a um [conjunto de relatórios](/help/admin/tools/manage-rs/report-suites-admin.md), identificado pelo nome ![Dados](/help/assets/icons/Data.svg) **[!UICONTROL *do conjunto de relatórios *]**no menu suspenso, localizado no canto superior direito do painel.
+Cada painel é associado a um [conjunto de relatórios](/help/admin/tools/manage-rs/report-suites-admin.md), identificado pelo nome ![Dados](/help/assets/icons/Data.svg) **[!UICONTROL *do conjunto de relatórios *]**&#x200B;no menu suspenso, localizado no canto superior direito do painel.
 
 Ao criar um novo painel, o conjunto de relatórios padrão se baseia no conjunto de relatórios do painel que você utilizou pela última vez no projeto do Analysis Workspace.
 
