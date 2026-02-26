@@ -3,9 +3,9 @@ title: Esquema do conjunto de classificações
 description: Saiba como visualizar e editar o esquema para um conjunto de classificações individual.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: e89d67d60313867a18b4d2a1e4e7a0e7da5dc31a
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1579'
 ht-degree: 4%
 
 ---
@@ -64,7 +64,7 @@ Para adicionar uma nova classificação, selecione ![Adicionar](/help/assets/ico
 
 ![Conjuntos de classificações - Adicionar classificação ao esquema](assets/classification-sets-schema-add-classification.png)
 
-Na caixa de diálogo **[!UICONTROL Adicionar uma nova classificação para _nome do conjunto de classificações_]**, digite o **[!UICONTROL Nome da Classificação]**&#x200B;e selecione **[!UICONTROL Adicionar]**. A classificação é adicionada à lista.
+Na caixa de diálogo **[!UICONTROL Adicionar uma nova classificação para _nome do conjunto de classificações_]**, digite o **[!UICONTROL Nome da Classificação]**e selecione **[!UICONTROL Adicionar]**. A classificação é adicionada à lista.
 
 
 
@@ -156,15 +156,28 @@ Na caixa de diálogo **[!UICONTROL Baixar modelo para _nome do conjunto de class
 >id="classificationsets_schema_automate_locationaccount"
 >title="Conta de localização"
 >abstract="Lista de contas de localização de tipos de conta que oferecem suporte à importação de dados de classificação. Selecione **[!UICONTROL Nova conta]** para criar uma nova conta de localização."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=pt-BR" text="Configurar contas de importação e exportação na nuvem"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configurar contas de importação e exportação na nuvem"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Localização"
 >abstract="Lista de locais na conta de localização selecionada que oferecem suporte à importação de dados de classificação. Selecione **[!UICONTROL Novo local]** para criar um novo local."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=pt-BR" text="Configurar locais de importação e exportação na nuvem"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configurar locais de importação e exportação na nuvem"
 
+É possível automatizar a assimilação de dados de classificação por meio da configuração e do uso da conta da nuvem e dos locais da nuvem.
+
+
+
+>[!IMPORTANT]
+>A automação da assimilação de classificação de contas na nuvem exige que você (ou o administrador de rede) especifique intervalos de endereço IP para permitir a assimilação de dados na rede. Configure um ou mais intervalos de endereço IP dependendo da localização dos data centers do Analytics que você usa.
+>
+>| Local do data center do Analytics | Adicionar este intervalo de endereços IP a um incluo na lista de permissões na rede |
+>|---|---:|
+>| Pacífico Noroeste | `52.254.104.0/22` |
+>| Londres | `51.138.16.0/22` |
+>| Singapura | `20.40.0.0/14 ` |
+>
 
 Para automatizar a assimilação da classificação, selecione ![Engrenagem](/help/assets/icons/Gear.svg) **[!UICONTROL Automatizar]**.
 
@@ -194,7 +207,7 @@ Na caixa de diálogo **[!UICONTROL Associar / Atualizar Local de Assimilação p
 
 1. Para notificar os usuários sobre a conclusão dos trabalhos de assimilação, insira endereços de email, separados por vírgula, para **[!UICONTROL Email(s) a notificar quando os trabalhos de assimilação forem concluídos (separados por vírgula)]**.
 1. Selecione **[!UICONTROL Validar]**. A conexão com o local da nuvem é validada.
-1. Se a validação for bem-sucedida, você verá uma mensagem em caixa de informações que mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione&#x200B;**[!UICONTROL &#x200B; Salvar &#x200B;]**&#x200B;se tiver criado a conexão com a nuvem. Caso contrário, selecione&#x200B;**[!UICONTROL &#x200B; Atualizar &#x200B;]**. Ou selecione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar a configuração do local da nuvem.
+1. Se a validação for bem-sucedida, você verá uma mensagem em caixa de informações que mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione**[!UICONTROL  Salvar ]**se tiver criado a conexão com a nuvem. Caso contrário, selecione**[!UICONTROL  Atualizar ]**. Ou selecione**[!UICONTROL  Cancelar ]**para cancelar a configuração do local da nuvem.
 
 Ao fazer upload de arquivos no local da nuvem, em 15 minutos o arquivo é detectado e enviado como um trabalho de importação. O resultado desse trabalho de importação é relatado no [Gerenciador de trabalhos de classificações](/help/components/classifications/sets/job-manager.md). Se você for adicionado à lista de usuários para notificar sobre a conclusão de trabalhos de assimilação, também receberá mensagens de email.
 
@@ -210,6 +223,6 @@ A barra de ações mostra as ações disponíveis para a classificação selecio
 | Ícone | Ação | Descrição |
 |---|---|---|
 | ![Procurar](/help/assets/icons/Browse.svg) | **[!UICONTROL Adicionar Pesquisa]** | Adicione um conjunto de classificações como uma pesquisa (subclassificação).<br/>Na tabela **[!UICONTROL Anexar pesquisa]**: <ol><li>Selecione uma classificação de pesquisa no menu suspenso **[!UICONTROL Nome da Classificação]**.</li><li>Selecione **[!UICONTROL Adicionar]**.</li></ol>A classificação de pesquisa é adicionada à classificação e listada na coluna **[!UICONTROL Classificado por]** usando a ID interna. |
-| ![RemoverCírculo](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remover Pesquisa]** | Remova um conjunto de classificações como uma pesquisa. Para excluir a pesquisa permanentemente da classificação, na caixa de diálogo de confirmação **[!UICONTROL Remover _conjunto de classificações_ da _classificação_]**, selecione **[!UICONTROL Excluir]**. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remover Pesquisa]** | Remova um conjunto de classificações como uma pesquisa. Para excluir a pesquisa permanentemente da classificação, na caixa de diálogo de confirmação **[!UICONTROL Remover _conjunto de classificações_ da _classificação_]**, selecione **[!UICONTROL Excluir]**. |
 | ![Renomear](/help/assets/icons/Rename.svg) | **[!UICONTROL Renomear]** | Renomeie o **[!UICONTROL Nome da Classificação]** de uma classificação. Na caixa de diálogo **[!UICONTROL Renomear: _nome da classificação_]**, digite um novo nome e selecione **[!UICONTROL Renomear]**. |
-| ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir uma classificação. A caixa de diálogo **[!UICONTROL Excluir _nome da classificação_]**&#x200B;é exibida. Selecione **[!UICONTROL Excluir]**&#x200B;para excluir a classificação. |
+| ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir uma classificação. A caixa de diálogo **[!UICONTROL Excluir _nome da classificação_]**é exibida. Selecione **[!UICONTROL Excluir]**para excluir a classificação. |
