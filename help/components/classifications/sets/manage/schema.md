@@ -156,14 +156,14 @@ Na caixa de diálogo **[!UICONTROL Baixar modelo para _nome do conjunto de class
 >id="classificationsets_schema_automate_locationaccount"
 >title="Conta de localização"
 >abstract="Lista de contas de localização de tipos de conta que oferecem suporte à importação de dados de classificação. Selecione **[!UICONTROL Nova conta]** para criar uma nova conta de localização."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configurar contas de importação e exportação na nuvem"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=pt-BR" text="Configurar contas de importação e exportação na nuvem"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Localização"
 >abstract="Lista de locais na conta de localização selecionada que oferecem suporte à importação de dados de classificação. Selecione **[!UICONTROL Novo local]** para criar um novo local."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configurar locais de importação e exportação na nuvem"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=pt-BR" text="Configurar locais de importação e exportação na nuvem"
 
 É possível automatizar a assimilação de dados de classificação por meio da configuração e do uso da conta da nuvem e dos locais da nuvem.
 
