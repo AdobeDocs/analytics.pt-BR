@@ -3,23 +3,32 @@ title: Gerenciar feeds de dados
 description: Saiba como navegar na interface do feed de dados. Descubra como criar, editar e visualizar um feed de dados.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1310'
 ht-degree: 15%
 
 ---
 
-# Gerenciar feeds de dados
+# Gerenciar feeds de dados {#manage-data-feeds}
 
 O gerenciador de feed de dados permite criar, editar e excluir feeds de dados para sua organização. Se você tiver permissões para acessar o gerenciador de feed de dados, poderá gerenciar feeds de dados para todos os conjuntos de relatórios visíveis a você.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciamento do feed de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciamento do feed de dados](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_manager"
+>title="Gerenciar feeds de dados"
+>abstract="Você pode exibir, criar e gerenciar feeds de dados nesta página. Procure feeds por nome ou ID ou selecione o ícone de filtro para exibir os filtros disponíveis."
+
+<!-- markdownlint-enable MD034 -->
 
 
 ## Exibir feeds de dados
@@ -62,7 +71,7 @@ O botão **[!UICONTROL Criar feed de dados]** permite criar um novo feed. Consul
 
 1. Use a pesquisa ou os filtros para localizar um feed específico.
 
-   * No campo de pesquisa, comece digitando o nome de um feed. Somente os feeds correspondentes são mostrados na lista de feeds disponíveis.
+   * No campo de pesquisa, comece digitando o nome ou a ID de um feed. Somente os feeds correspondentes são mostrados na lista de feeds disponíveis.
 
      ![Pesquisar](assets/search.png)
 

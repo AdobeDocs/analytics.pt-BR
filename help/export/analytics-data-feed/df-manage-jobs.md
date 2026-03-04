@@ -3,18 +3,27 @@ title: Gerenciar tarefas do feed de dados
 description: Saiba como gerenciar trabalhos individuais em feeds de dados. Navegue pela interface, use filtros e pesquisa e localize definições de coluna.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 11%
+source-wordcount: '541'
+ht-degree: 8%
 
 ---
 
-# Gerenciar processos de feed de dados
+# Gerenciar processos de feed de dados {#manage-data-feed-jobs}
 
 Os trabalhos são tarefas individuais que geram um arquivo compactado. Eles são criados e governados por feeds.
 
 Você pode visualizar o histórico de trabalhos de cada feed de dados, reenviar trabalhos ou reprocessar trabalhos.
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_job_history"
+>title="Histórico de tarefas do feed de dados"
+>abstract="Você pode exibir uma lista de trabalhos do feed de dados para um determinado feed de dados nesta página. Procure processos por ID de solicitação ou Data de início do período de solicitação. As informações sobre cada tarefa são mostradas nas colunas disponíveis. Você também pode reenviar um processo com os mesmos dados ou reprocessar os dados de origem de um processo antes de reenviá-lo."
+
+<!-- markdownlint-enable MD034 -->
 
 ## Exibir o histórico de tarefas de um feed de dados
 
@@ -68,6 +77,8 @@ Para reenviar um ou mais trabalhos do feed de dados:
 
 1. Marque a caixa de seleção ao lado do feed de dados que contém os trabalhos que você deseja reenviar e selecione [!UICONTROL **Histórico de trabalhos**].
 
+1. (Opcional) No campo de pesquisa, pesquise por ID de solicitação ou data de início do período de solicitação para pesquisar a lista de trabalhos do feed de dados.
+
 1. Marque a caixa de seleção ao lado de um ou mais trabalhos de feed de dados e selecione **[!UICONTROL Reenviar]**. <!-- What does the status need to be? Error, ... -->
 
    ![Reprocessar trabalho do feed de dados](assets/data-feed-job-resend.png)
@@ -81,6 +92,8 @@ Para reprocessar um ou mais trabalhos do feed de dados:
 1. No Adobe Analytics, selecione [!UICONTROL **Administrador**] > [!UICONTROL **Feeds de dados**].
 
 1. Marque a caixa de seleção ao lado do feed de dados que contém os trabalhos que você deseja reprocessar e selecione [!UICONTROL **Histórico de trabalhos**].
+
+1. (Opcional) No campo de pesquisa, pesquise por ID de solicitação ou data de início do período de solicitação para pesquisar a lista de trabalhos do feed de dados.
 
 1. Marque a caixa de seleção ao lado de um ou mais trabalhos de feed de dados e selecione **[!UICONTROL Reprocessar]**. <!-- What does the status need to be? Error, ... -->
 
