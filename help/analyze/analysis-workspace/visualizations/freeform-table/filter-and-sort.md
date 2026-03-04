@@ -4,10 +4,10 @@ title: Filtrar e Classificar
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e288365f2c984b64ae8c16ce023a7a0357a0e2b7
+source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -151,8 +151,6 @@ Para classificar dados em tabelas por uma única coluna:
 
 ## Classificar tabelas por várias colunas (Classificação avançada)
 
-{{release-limited-testing-section}}
-
 ### Aplicar classificação a várias colunas
 
 Para classificar dados em tabelas por várias colunas:
@@ -187,7 +185,7 @@ O ícone de classificação permanece visível quando a classificação é aplic
 
 ### Prioridade de classificação
 
-Quando você classifica dados para várias colunas, os dados são classificados de acordo com a prioridade atribuída a cada coluna. A numeração de prioridade é exibida ao lado do ícone de classificação ![ícone de prioridade de classificação](assets/sort-priority-icon.png).
+Ao classificar dados para várias colunas, os dados são classificados de acordo com a prioridade atribuída a cada coluna. A numeração de prioridade é exibida ao lado do ícone de classificação ![ícone de prioridade de classificação](assets/sort-priority-icon.png).
 
 A coluna com a prioridade primária decide a ordem principal; a coluna com a prioridade secundária decide a ordem quando as linhas têm o mesmo valor na coluna primária; a coluna com a prioridade terciária decide a ordem quando as linhas têm o mesmo valor nas colunas primária e secundária; e assim por diante.
 
@@ -206,7 +204,7 @@ Você pode atribuir uma prioridade de classificação a cada coluna, da seguinte
 | Nome da coluna (componente) | Tipo de componente | Prioridade de classificação |
 |---------|----------|---------|
 | Dia | Dimensão | 1 |
-| Exibições de página | Métrica | 2 |
+| Visualizações de página | Métrica | 2 |
 | Visitas | Métrica | 3 |
 | Velocidade do conteúdo | Métrica | 4 |
 

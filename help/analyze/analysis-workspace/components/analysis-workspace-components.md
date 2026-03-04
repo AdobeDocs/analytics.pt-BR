@@ -4,7 +4,7 @@ description: Saiba quais componentes o Adobe Analytics oferece e como usar os co
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
@@ -110,8 +110,6 @@ Você pode pesquisar, filtrar e classificar a lista de componentes no painel esq
 4. Também é possível classificar a lista de componentes, conforme descrito em [Classificar a lista de componentes](#sort-the-component-list).
 
 ### Classificar
-
-<!-- {{release-limited-testing-section}}-->
 
 1. (Opcional) Aplique filtros à lista de componentes, conforme descrito em [Filtrar a lista de componentes](#filter-the-component-list).
 
