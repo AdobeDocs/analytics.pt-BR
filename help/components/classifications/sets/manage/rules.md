@@ -6,7 +6,7 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1683'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -53,7 +53,7 @@ Para definir um conjunto de regras para um conjunto de classificações:
 >[!CONTEXTUALHELP]
 >id="classificationsets_rules_samplekeys"
 >title="Chaves de amostra"
->abstract="Digite ou cole as teclas de teste para testar o conjunto de regras. Cada linha é um valor principal separado. Selecione **[!UICONTROL Testar Conjunto de Regras]** para mostrar uma caixa de diálogo com os resultados."
+>abstract="Digite ou cole as chaves de teste para testar o conjunto de regras. Cada linha é um valor de chave separado. Selecione **[!UICONTROL Testar conjunto de regras]** para mostrar uma caixa de diálogo com os resultados."
 
 
 Para criar ou editar regras, use a interface de conjunto de regras.

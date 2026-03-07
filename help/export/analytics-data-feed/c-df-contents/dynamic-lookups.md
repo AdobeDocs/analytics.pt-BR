@@ -6,7 +6,7 @@ feature: Data Feeds
 source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -18,14 +18,14 @@ As pesquisas dinâmicas permitem que você receba arquivos de pesquisa adicionai
 * **Atributos do dispositivo móvel**: fornece contexto adicional para a coluna `mobile_id`, incluindo todos os recursos rastreados para cada dispositivo móvel. O nome de arquivo incluído é `mobile_attributes.tsv`.
 * **Tipo de sistema operacional**: fornece um contexto alternativo para a coluna `os`. `operating_systems.tsv` e `operating_system_type.tsv` usam a coluna `os` como chave, no entanto, somente `operating_system_type.tsv` é uma pesquisa dinâmica.
 
-## Ativar pesquisas dinâmicas {#enable-dynamic-lookups}
+## Habilitar pesquisas dinâmicas {#enable-dynamic-lookups}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
->title="Ativar pesquisas dinâmicas"
->abstract="Selecione essa opção para receber arquivos de pesquisa adicionais no feed de dados que não estarão disponíveis. Essa configuração permite que as seguintes tabelas de pesquisa sejam enviadas com cada arquivo de feed de dados:<ul><li>Nome da operadora</li><li>Atributos de dispositivos móveis</li><li>Tipo de sistema operacional</li></ul>"
+>title="Habilitar pesquisas dinâmicas"
+>abstract="Selecione essa opção para receber arquivos de pesquisa adicionais no feed de dados que, de outras formas, não estariam disponíveis. Essa configuração permite que as seguintes tabelas de pesquisa sejam enviadas com cada arquivo de feed de dados:<ul><li>Nome da operadora</li><li>Atributos de dispositivos móveis</li><li>Tipo de sistema operacional</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

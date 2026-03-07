@@ -18,7 +18,7 @@ Você pode gerenciar as configurações do Analysis Workspace e seus componentes
 
 >[!BEGINSHADEBOX]
 
-Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciar preferências](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para assistir a um vídeo de demonstração.
+Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciar preferências](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Clique nos títulos de preferência vinculados para obter mais informações e c
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -135,7 +135,7 @@ Clique nos títulos de preferência vinculados para obter mais informações e c
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Métrica de tabela padrão"
->abstract="Selecione a métrica padrão para usar em tabelas de forma livre. Se o conjunto de relatórios selecionado não contiver a métrica padrão selecionada, a tabela alternará automaticamente para outra métrica principal."
+>abstract="Selecione a métrica padrão para usar em tabelas de forma livre. Se o conjunto de relatórios selecionado não contiver a métrica padrão escolhida, a tabela alternará automaticamente para outra métrica principal."
 
 
 Você pode personalizar as preferências da tabela de forma livre para todos os novos projetos criados no Analysis Workspace. Para obter informações sobre como acessar essas preferências, consulte [Atualizar preferências](#update-preferences).

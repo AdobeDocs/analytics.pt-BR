@@ -6,7 +6,7 @@ exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 21%
+ht-degree: 41%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_late_hits"
->title="Permitir ocorrências de chegada tardia"
->abstract="Selecione essa opção para incluir dados que chegaram depois que o trabalho de feed de dados terminou de processar dados na frequência de relatório definida (geralmente diária ou a cada hora). Com essa opção ativada, sempre que um feed de dados processa dados, ele verifica todas as ocorrências atrasadas que chegaram e as reúne com o próximo arquivo de feed de dados enviado."
+>title="Permitir ocorrências tardias"
+>abstract="Selecione essa opção para incluir dados que chegaram depois que o feed de dados terminou de processar dados dentro da frequência de relatório definida (geralmente, a cada dia ou a cada hora). Com essa opção habilitada, toda vez que um feed de dados processar os dados, ele verificará todas as ocorrências atrasadas que chegaram e as reunirá no próximo arquivo de feed de dados enviado."
 
 <!-- markdownlint-enable MD034 -->
 
