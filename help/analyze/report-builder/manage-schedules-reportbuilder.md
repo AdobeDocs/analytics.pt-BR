@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
-source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
+source-git-commit: 6f55f750fa7243a445057dfb47d31d7cdeaed5dc
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 3%
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
 
@@ -29,14 +29,19 @@ Você pode exibir e gerenciar todas as pastas de trabalho agendadas na guia **[!
 
 1. Selecione **[!UICONTROL Agendar]** no hub do Report Builder
 
-1. Selecione a guia **[!UICONTROL Pastas de trabalho]**. Você verá uma lista de todas as pastas de trabalho agendadas.
+1. Selecione a guia **[!UICONTROL Pastas de trabalho]**. Você verá uma lista de todas as pastas de trabalho agendadas. (Como alternativa, você pode selecionar a guia **[!UICONTROL Herdado]** para exibir uma lista de pastas de trabalho herdadas que precisam ser migradas para o novo Report Builder.)
 
    ![Pasta de trabalho agendada](assets/scheduled-workbooks.png){zoomable="yes"}
 
-   Você pode passar o mouse sobre o ícone para ver o status de uma pasta de trabalho agendada.
+1. Siga um destes procedimentos:
 
-   Use a ![Pesquisa](/help/assets/icons/Search.svg) para procurar pastas de trabalho agendadas específicas.
-Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir quais colunas mostrar.
+   * Passe o mouse sobre o ícone para ver o status de uma pasta de trabalho agendada.
+
+   * No campo de pesquisa ![Pesquisa](/help/assets/icons/Search.svg), procure pastas de trabalho agendadas específicas.
+
+   * Selecione o ícone de coluna ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir quais colunas serão exibidas.
+
+   * Selecione o ícone de filtro ![Ícone de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) e [!UICONTROL **Mostrar tudo**] para mostrar todas as pastas de trabalho agendadas de uma determinada organização.
 
 1. Selecione uma ou mais pastas de trabalho.
 
@@ -48,7 +53,7 @@ Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir quais co
    |---|---|
    | ![Editar](/help/assets/icons/Edit.svg) | Edite o agendamento de uma pasta de trabalho selecionada. |
    | ![Histórico](/help/assets/icons/History.svg) | Mostrar o histórico de pastas de trabalho selecionadas. |
-   | ![Pausar](/help/assets/icons/Pause.svg) | Pausar o agendamento das pastas de trabalho selecionadas. |
+   | ![Pause](/help/assets/icons/Pause.svg) | Pausar o agendamento das pastas de trabalho selecionadas. |
    | ![Reproduzir](/help/assets/icons/Play.svg) | Retomar o agendamento das pastas de trabalho selecionadas. |
    | ![Baixar](/help/assets/icons/Download.svg) | Baixe a pasta de trabalho selecionada em uma nova pasta de trabalho. |
    | ![Excluir](/help/assets/icons/Delete.svg) | Exclua o cronograma das pastas de trabalho selecionadas. |
