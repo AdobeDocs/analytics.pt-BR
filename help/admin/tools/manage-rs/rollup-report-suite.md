@@ -4,7 +4,7 @@ title: Conjuntos de relatórios globais
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 95%
@@ -31,9 +31,10 @@ A Adobe recomenda implementar um conjunto de relatórios global na maioria dos c
 
   Para usar conjuntos de relatórios virtuais, implemente um conjunto de relatórios global e analise os dados para criar conjuntos de relatórios virtuais com segmentos específicos aplicados e com permissões de grupo específicas. É possível criar conjuntos de relatórios virtuais no Gerenciador de conjuntos de relatórios virtuais ([!UICONTROL Componentes] > [!UICONTROL Conjuntos de relatórios virtuais]). Consulte “[Fluxo de trabalho dos conjuntos de relatórios virtuais](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)” para obter mais informações.
 
-O uso de conjuntos de relatórios virtuais em vez da marcação de vários relatórios é geralmente uma prática recomendada, mas conjuntos de relatórios virtuais têm algumas limitações. Consulte “[Considerações sobre os conjuntos de relatórios virtuais e a marcação de vários relatórios](/help/components/vrs/vrs-considerations.md)” para determinar qual abordagem de conjunto de relatórios é a melhor opção para suas necessidades comerciais. Para obter uma comparação detalhada entre os conjuntos de relatórios virtuais e a funcionalidade de marcação de vários relatórios, consulte [Conjuntos de relatórios virtuais vs. marcação de vários relatórios](/help/components/vrs/vrs-about.md).
+O uso de conjuntos de relatórios virtuais em vez da marcação de vários relatórios é geralmente uma prática recomendada, mas conjuntos de relatórios virtuais têm algumas limitações. Consulte “[Considerações sobre os conjuntos de relatórios virtuais e a marcação de vários relatórios](/help/components/vrs/vrs-considerations.md)” para determinar qual abordagem de conjunto de relatórios é a melhor opção para suas necessidades empresariais. Para uma comparação detalhada dos conjuntos de relatórios virtuais e da funcionalidade de marcação de vários conjuntos, consulte [Conjuntos de relatórios virtuais vs. marcação de vários conjuntos](/help/components/vrs/vrs-about.md).
 
-<!---## Rollup reports
+<!--
+## Rollup reports
 
 >[!NOTE]
 >
@@ -73,4 +74,4 @@ Limitations of Rollup Reports {#limitations-rollups}
 
 **Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.-->

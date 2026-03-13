@@ -1,9 +1,9 @@
 ---
-description: Saiba como compartilhar, filtrar, marcar, aprovar, copiar, excluir métricas calculadas e marcar métricas calculadas como favoritos.
-title: Gerenciar métricas calculadas
+description: Saiba como compartilhar, filtrar, marcar, aprovar, copiar, excluir métricas calculadas e marcar métricas calculadas como favoritas.
+title: Gerenciar Métricas Calculadas
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 28%
@@ -12,22 +12,22 @@ ht-degree: 28%
 
 # Gerenciar métricas calculadas
 
-Você pode compartilhar, filtrar, marcar, aprovar, renomear, copiar, excluir, exportar métricas calculadas e marcar métricas calculadas como favoritas de uma interface de gerenciamento central de [!UICONTROL Métricas calculadas]. Para gerenciar métricas calculadas:
+Você pode compartilhar, filtrar, marcar, aprovar, renomear, copiar, excluir, exportar métricas calculadas e marcar métricas calculadas como favoritas de uma interface de gerenciamento central de [!UICONTROL métricas calculadas]. Para gerenciar métricas calculadas:
 
 
-* Selecione **[!UICONTROL Componentes]** na interface principal e **[!UICONTROL Métricas calculadas]**.
+* Selecione **[!UICONTROL Componentes]** na interface principal e, em seguida, selecione **[!UICONTROL Métricas calculadas]**.
 
 
 ## Gerenciador de métricas calculadas
 
-O gerenciador de métricas calculadas tem os seguintes elementos de interface:
+O gerenciador de métricas Calculadas tem os seguintes elementos de interface:
 
 
-![Interface de métricas calculadas](assets/calculated-metrics-manager.png)
+![Interface de métricas calculada](assets/calculated-metrics-manager.png)
 
 ### Lista de métricas calculadas
 
-A lista de métricas calculadas ➊ exibe todas as suas métricas calculadas ou as que foram compartilhadas com você. A lista tem as seguintes colunas:
+A lista de métricas calculadas ➊ exibe todas as métricas calculadas que você possui ou que foram compartilhadas com você. A lista tem as seguintes colunas:
 
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 
@@ -37,10 +37,10 @@ A lista de métricas calculadas ➊ exibe todas as suas métricas calculadas ou 
 | **[!UICONTROL Título e descrição]** | Para editar a métrica calculada, selecione o link de título, que abrirá o [Criador de métricas calculadas](c-build-metrics/cm-build-metrics.md). Uma métrica calculada compartilhada é indicada com ![Compartilhamento](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Conjunto de relatórios]** | Os conjuntos de relatórios aos quais esta métrica calculada se aplica. |
 | **[!UICONTROL Proprietário]** | Proprietário da métrica calculada. Como usuário, você só vê as anotações que possui ou as que são compartilhadas com você. |
-| **[!UICONTROL Tags]** | Lista as tags dessa métrica calculada. |
+| **[!UICONTROL Tags]** | Lista as tags desta métrica calculada. |
 | **[!UICONTROL Compartilhado com]** | Lista com quantos indivíduos ou grupos você compartilhou a métrica calculada. Selecione para abrir a caixa de diálogo **[!UICONTROL Compartilhar métrica calculada]**. Consulte [Compartilhar métricas calculadas](cm-sharing.md) para obter mais informações. |
-| **[!UICONTROL Data de modificação]** | A data e a hora em que a métrica calculada foi modificada pela última vez. |
-| **[!UICONTROL Usado em]** | Mostra onde as métricas calculadas estão sendo usadas atualmente e quantas vezes elas estão sendo usadas em cada área. <p>Por exemplo, se a métrica calculada estiver sendo usada em 40 projetos e 2 alertas, o valor dessa coluna será exibido como [!UICONTROL **42 componentes**]. <p>Selecione o valor desta coluna para ver o detalhamento de onde as métricas calculadas estão sendo usadas (por exemplo, [!UICONTROL **Projetos (40)**], [!UICONTROL **Scorecards para dispositivos móveis (2)**]). Além disso, é possível visualizar a lista de itens em que as métricas calculadas estão sendo usadas. Por exemplo, para ver a lista de projetos nos quais eles estão sendo usados, selecione o link [!UICONTROL **Projetos (40)**].</p><p>Cada uma das áreas a seguir mostra o número de instâncias de métricas calculadas que estão sendo usadas nessa área:</p> <ul><li>[!UICONTROL **Projetos**]<p>Contém métricas calculadas que foram [criadas no construtor de métricas calculadas](c-build-metrics/cm-build-metrics.md) e que estão disponíveis para todos os projetos.</p></li><li>[!UICONTROL **Componentes ad hoc**]<p>Contém métricas calculadas que foram [criadas como métricas calculadas rápidas](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) e que estão disponíveis somente em um único projeto.</p></li><li>[!UICONTROL **Projetos programados**]</li><li>[!UICONTROL **Cartões de pontuação para dispositivos móveis**]</li><li>[!UICONTROL **Anotações**]</li><li>[!UICONTROL **Report Builder**]<p>Selecionar essa opção baixa um arquivo CSV com as seguintes colunas de dados:</p><ul><li>Nome do criador de relatórios</li><li>Último acesso</li><li>ID do usuário do IMS que acessou pela última vez</li><li>Nome do usuário que acessou pela última vez</li></ul></li></ul><p>Essas informações podem ajudar você a determinar se um componente é valioso para os usuários em sua organização, onde é usado e se precisa ser excluído ou modificado.</p><p>Considere o seguinte ao visualizar esta coluna:</p><ul><li>Estas informações estão disponíveis apenas para os administradores do sistema.</li><li>A coluna [!UICONTROL **Usado em**] não é exibida por padrão. Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para configurar a exibição desta coluna.</li><li>Estas informações não incluem o uso da API ou do data warehouse.</li><li>Se não houver dados nesta coluna para um determinado componente, mas ela tiver uma data [!UICONTROL **Última utilização**], o componente pode ter sido usado em uma análise sem ser salvo.</li><li>As informações de uso disponíveis são a partir de setembro de 2023.</li></ul><p>É possível usar o [Dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) junto com estas informações para ajudar a acompanhar e entender melhor como os componentes estão sendo usados na sua organização.</p> |
+| **[!UICONTROL Data de modificação]** | A data e a hora da última modificação da métrica calculada. |
+| **[!UICONTROL Usado em]** | Mostra onde as métricas calculadas estão sendo usadas no momento e quantas vezes elas estão sendo usadas em cada área. <p>Por exemplo, se a métrica calculada estiver sendo usada em 40 projetos e 2 alertas, o valor desta coluna será exibido como [!UICONTROL **42 componentes**]. <p>Selecione o valor desta coluna para ver o detalhamento de onde as métricas calculadas estão sendo usadas (por exemplo, [!UICONTROL **Projetos (40)**], [!UICONTROL **Scorecards para dispositivos móveis (2)**]). Além disso, é possível visualizar a lista de itens em que as métricas calculadas estão sendo usadas. Por exemplo, para ver a lista de projetos nos quais eles estão sendo usados, selecione o link [!UICONTROL **Projetos (40)**].</p><p>Cada uma das áreas a seguir mostra o número de instâncias de métricas calculadas que estão sendo usadas nessa área:</p> <ul><li>[!UICONTROL **Projetos**]<p>Contém métricas calculadas que foram [criadas no construtor de métricas calculadas](c-build-metrics/cm-build-metrics.md) e estão disponíveis para todos os projetos.</p></li><li>[!UICONTROL **Componentes ad hoc**]<p>Contém métricas calculadas que foram [criadas como métricas calculadas rápidas](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) e que estão disponíveis somente em um único projeto.</p></li><li>[!UICONTROL **Projetos programados**]</li><li>[!UICONTROL **Cartões de pontuação para dispositivos móveis**]</li><li>[!UICONTROL **Anotações**]</li><li>[!UICONTROL **Report Builder**]<p>Selecionar essa opção baixa um arquivo CSV, com as seguintes colunas de dados:</p><ul><li>Nome do criador de relatórios</li><li>Último acesso</li><li>ID do usuário do IMS que acessou pela última vez</li><li>Nome do usuário que acessou pela última vez</li></ul></li></ul><p>Essas informações podem ajudá-lo a determinar se um componente é importante para os usuários em sua organização, onde é usado e se precisa ser excluído ou modificado.</p><p>Considere o seguinte ao visualizar esta coluna:</p><ul><li>Estas informações estão disponíveis apenas para os administradores do sistema.</li><li>A coluna [!UICONTROL **Usado em**] não é exibida por padrão. Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para configurar a exibição desta coluna.</li><li>Estas informações não incluem o uso da API ou do data warehouse.</li><li>Se não houver dados nesta coluna para um determinado componente, mas ela tiver uma data [!UICONTROL **Última utilização**], o componente pode ter sido usado em uma análise sem ser salvo.</li><li>As informações de uso disponíveis são a partir de setembro de 2023.</li></ul><p>É possível usar o [Dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) junto com estas informações para ajudar a acompanhar e entender melhor como os componentes estão sendo usados na sua organização.</p> |
 | **[!UICONTROL Última utilização]** | Quando a métrica calculada foi usada pela última vez. |
 
 {style="table-layout:auto"}
@@ -49,17 +49,17 @@ Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar quai
 
 ### Barra de ação
 
-É possível executar ações em filtros usando a barra de ações ➋. A barra de ação contém as seguintes ações:
+Você pode executar ações em filtros usando a barra de ações ➋. A barra de ação contém as seguintes ações:
 
 | Ícone | Ação | Descrição |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Adicionar]** | Adicione outras métricas calculadas, usando o [Criador de métricas calculadas](c-build-metrics/cm-build-metrics.md). |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Adicionar]** | Adicione outras métricas calculadas usando o [Construtor de métricas calculado](c-build-metrics/cm-build-metrics.md). |
 | ![Pesquisar](/help/assets/icons/Search.svg) | [!UICONTROL *Pesquisar por título*] | Quando nenhuma métrica calculada for selecionada na lista, procure por filtros usando esse campo de pesquisa. |
 | ![Rótulo](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Marcar as métricas calculadas selecionadas. Na caixa de diálogo **[!UICONTROL Marcar métrica calculada]**, selecione ou desmarque as marcas da métrica calculada selecionada. Selecione **[!UICONTROL Salvar]** para salvar as marcas das métricas calculadas selecionadas. Consulte [Marcar métricas calculadas](cm-tagging.md) para obter mais informações. |
 | ![Compartilhar](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Compartilhar]** | Compartilhar as métricas calculadas selecionadas. Na caixa de diálogo **[!UICONTROL Compartilhar métricas calculadas]**, você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar pessoas físicas ou grupos* ou selecionar **[!UICONTROL Organização]** ou **[!UICONTROL Grupos]**. Selecione **[!UICONTROL Salvar]** para salvar os detalhes de compartilhamento das métricas calculadas selecionadas. Consulte [Compartilhar métricas calculadas](cm-sharing.md) para obter mais informações. |
-| ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir as métricas calculadas selecionadas. Será solicitada uma confirmação. |
+| ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Deleta as métricas calculadas selecionadas. Será solicitada uma confirmação. |
 | ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Renomear]** | Renomear uma única métrica calculada selecionada. Quando selecionada, você pode renomear a métrica calculada em linha. |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Aprovar]** | Aprove as métricas calculadas selecionadas. Consulte [Aprovar métricas calculadas](cm-approving.md). |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Aprovar]** | Aprovar as métricas calculadas selecionadas. Consulte [Aprovar métrica calculada](cm-approving.md). |
 | ![Copiar](/help/assets/icons/Copy.svg) | **[!UICONTROL Copiar]** | Copie as métricas calculadas selecionadas. Novas métricas calculadas são criadas com o mesmo nome e sufixo `(Copy)` |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar para CSV]** | Exportar as métricas calculadas para um arquivo `Calculated  metric List.csv`. |
 
@@ -69,11 +69,12 @@ A barra de filtros ➌ mostra os filtros ativos aplicados do painel de filtros �
 
 ### Painel de filtro
 
-Você pode filtrar a lista de métricas calculadas usando o ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** do painel esquerdo ➍. O painel de filtros exibe o tipo de filtro e o número de métricas calculadas que respeitam o filtro específico. Selecione ![Filtro](/help/assets/icons/Filter.svg) para alternar a exibição do painel de filtros.
+Você pode filtrar a lista de métrica calculada usando o ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** painel esquerdo ➍. O painel de filtros exibe o tipo de filtro e o número de métricas calculadas que respeitam o filtro específico. Selecione ![Filtro](/help/assets/icons/Filter.svg) para alternar a exibição do painel de filtros.
 
 Consulte [Filtrar a lista de métricas calculadas](cm-filter.md) para obter mais informações.
 
-<!-- OLD CONTENT
+<!--
+OLD CONTENT
 
 The Calculated metrics page offers many ways of curating metrics, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 

@@ -4,7 +4,7 @@ title: Baixar Projetos E Dados
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 281dbf68c7a3f1afc35d775c731904bd9c413d6a
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 25%
@@ -68,7 +68,7 @@ A opção **[!UICONTROL Copiar para a área de transferência]** do menu de cont
 >Você pode usar a tecla de atalho **_cmd + c_** (macOS) ou **_ctrl + c_** (Windows) para copiar sua seleção para a área de transferência. Em seguida, use o **_cmd + v_** (macOS) ou o **_ctrl + v_** (Windows) para colar os dados.
 
 
-![A opção de “Copiar seleção para a área de transferência”. &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
+![A opção de “Copiar seleção para a área de transferência”. ](assets/copy-clipboard.png){zoomable="yes"}
 
 ## Baixar dados em uma visualização como um arquivo CSV {#download-data}
 
@@ -78,7 +78,8 @@ Para fazer isso:
 
 * No cabeçalho de qualquer tabela ou visualização, selecione **[!UICONTROL Baixar dados como CSV]** no menu de contexto. Isso baixa os dados exibidos na tabela ou na fonte de dados subjacente de uma visualização como CSV. 
 
-<!-- Only relevant as soon as CJA supports Map visualization 
+<!--
+Only relevant as soon as CJA supports Map visualization 
   >[!NOTE]
   >
   >  Note: the Map visualization does not support this option.
@@ -117,8 +118,8 @@ Os seguintes recursos de uma tabela de forma livre são aplicados ao arquivo bai
 
 À medida que o arquivo é baixado, você vê as seguintes notificações:
 
-* Um **[!UICONTROL _Nome de tabela _-_Dimension _.csv azul foi solicitado._x _% concluído]**&#x200B;indicando o progresso. Para cancelar o download a qualquer momento, selecione **[!UICONTROL Cancelar download]**. Selecione ![CrossSize100](/help/assets/icons/CrossSize100.svg) se desejar fechar a mensagem, o que não cancela o download.
-* Uma notificação de conclusão **[!UICONTROL _do nome da tabela _-_Dimension _.csv foi baixada]**&#x200B;assim que o download do arquivo foi concluído. O arquivo é baixado na pasta de downloads configurada para o seu navegador.
+* Um **[!UICONTROL _Nome de tabela _-_Dimension _.csv azul foi solicitado._x _% concluído]**indicando o progresso. Para cancelar o download a qualquer momento, selecione **[!UICONTROL Cancelar download]**. Selecione ![CrossSize100](/help/assets/icons/CrossSize100.svg) se desejar fechar a mensagem, o que não cancela o download.
+* Uma notificação de conclusão **[!UICONTROL _do nome da tabela _-_Dimension _.csv foi baixada]**assim que o download do arquivo foi concluído. O arquivo é baixado na pasta de downloads configurada para o seu navegador.
 
 Se solicitar mais de um download por vez, você receberá uma notificação de que cada download adicional será enfileirado até que o download anterior seja concluído.
 
@@ -237,6 +238,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=pt-BR) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

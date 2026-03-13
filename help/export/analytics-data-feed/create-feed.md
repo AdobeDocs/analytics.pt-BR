@@ -3,7 +3,7 @@ title: Criar um feed de dados
 description: Saiba como criar um feed de dados e sobre as informações de arquivos a serem fornecidas à Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 32%
@@ -201,7 +201,8 @@ Para criar um modelo de coluna:
 <!-- why would you want to do this? -->
 
 
-<!-- I don't think we need anything after this, but saving here just in case:
+<!--
+I don't think we need anything after this, but saving here just in case:
 
 1. In the [!UICONTROL **Feed Information**] section, complete the following fields:
    

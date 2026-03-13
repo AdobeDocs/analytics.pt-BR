@@ -4,7 +4,7 @@ title: Filtrar e Classificar
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 51%
@@ -45,14 +45,16 @@ Para excluir linhas específicas de uma tabela de forma livre:
 
    Mantenha pressionada a tecla ***shift*** para selecionar um intervalo de linhas, ou mantenha pressionada a tecla ***cmd*** (no Mac) ou a tecla ***ctrl*** (no Windows) para selecionar várias linhas.
 
-<!--### Right-click > Delete selected rows
+<!--
+### Right-click > Delete selected rows
 
 Note: this option does not seem to work. AN-338422
 
 1. Select 1 or more rows. 
 1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
 
-   This action will remove the rows from the table and apply a table filter.-->
+   This action will remove the rows from the table and apply a table filter.
+-->
 
 
 ### Aplicar um filtro simples ou avançado a uma tabela
@@ -90,7 +92,7 @@ Para filtrar dados em tabelas de forma livre:
 
 1. Selecione **[!UICONTROL Aplicar]** para filtrar os dados. Selecione **[!UICONTROL Limpar]** para limpar todos os campos de entrada. Selecione **[!UICONTROL Cancelar]** para cancelar e fechar a caixa de diálogo. <br/>Um ícone colorido de ![Filtro](/help/assets/icons/FilterColored.svg) **Filtro** indica e exibe detalhes quando um filtro é aplicado à tabela.
 
-### Incluir critérios de filtro em dados de tendências em gráficos de sparkline e visualizações de linha {#include-filter-criteria}
+### Incluir critérios de filtro em dados de tendência em minigráficos e visualizações de linha {#include-filter-criteria}
 
 Todos os critérios de filtro de pesquisa aplicados à dimensão da tabela para uma tabela de forma livre são sempre incluídos em minigráficos.
 
@@ -110,13 +112,13 @@ Para obter mais informações sobre minigráficos e visualizações de linha, co
 
 Os totais da coluna podem não ser exatos nos seguintes cenários:
 
-* Quando componentes estáticos são usados na coluna à esquerda e os totais da [coluna são calculados como uma soma das linhas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+* Quando componentes estáticos são usados na coluna esquerda e os totais da [coluna são calculados como uma soma das linhas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
 
   Se os itens de linha contiverem dados sobrepostos nesse cenário, os totais da coluna serão imprecisos.
 
-  Por exemplo, se você adicionar segmentos estáticos à coluna esquerda e, em seguida, adicionar Usuários como uma métrica na coluna direita, alguns desses usuários podem fazer parte de mais de um dos segmentos estáticos. Nesse caso, a Workspace não desduplica os usuários para cada segmento estático. Isso pode resultar em um número maior de usuários totais, pois alguns usuários podem ser contados mais de uma vez.
+  Por exemplo, se você adicionar segmentos estáticos à coluna esquerda e, em seguida, adicionar Usuários como uma métrica na coluna direita, alguns desses usuários poderão fazer parte de mais de um dos segmentos estáticos. Nesse caso, o Workspace não desduplica os usuários de cada segmento estático. Isso pode resultar em um número maior do total de usuários, pois alguns usuários podem ser contados mais de uma vez.
 
-* Ao usar dimensões de vários valores
+* Ao usar dimensões com valores múltiplos
 
 >[!NOTE]
 >
@@ -127,11 +129,11 @@ Os totais da coluna podem não ser exatos nos seguintes cenários:
 
 Você pode classificar os dados de uma tabela de forma livre pelos seguintes tipos de colunas no Analysis Workspace:
 
-* Quaisquer colunas de métrica
+* Qualquer coluna de métrica
 
-* Quaisquer colunas de dimensão (exceto para dimensões baseadas em sequência)
+* Quaisquer colunas de dimensão (exceto para dimensões baseadas em cadeia de caracteres)
 
-Você pode até mesmo classificar por várias colunas ao mesmo tempo.
+Você pode classificar por várias colunas ao mesmo tempo.
 
 Por padrão, as dimensões são classificadas em ordem crescente e as métricas são classificadas em ordem decrescente.
 
@@ -187,13 +189,13 @@ O ícone de classificação permanece visível quando a classificação é aplic
 
 Ao classificar dados para várias colunas, os dados são classificados de acordo com a prioridade atribuída a cada coluna. A numeração de prioridade é exibida ao lado do ícone de classificação ![ícone de prioridade de classificação](assets/sort-priority-icon.png).
 
-A coluna com a prioridade primária decide a ordem principal; a coluna com a prioridade secundária decide a ordem quando as linhas têm o mesmo valor na coluna primária; a coluna com a prioridade terciária decide a ordem quando as linhas têm o mesmo valor nas colunas primária e secundária; e assim por diante.
+A coluna com a prioridade principal decide a ordem principal; a coluna com a prioridade secundária decide a ordem quando as linhas têm o mesmo valor na coluna principal; a coluna com a prioridade terciária decide a ordem quando as linhas têm o mesmo valor nas colunas principal e secundária; e assim por diante.
 
 Por exemplo, considere uma tabela com as seguintes colunas:
 
 * Dia (dimensão)
 
-* Exibições de página (métrica)
+* Views de Página (métrica)
 
 * Visitas (métrica)
 
@@ -208,6 +210,6 @@ Você pode atribuir uma prioridade de classificação a cada coluna, da seguinte
 | Visitas | Métrica | 3 |
 | Velocidade do conteúdo | Métrica | 4 |
 
-Ao atribuir uma prioridade de classificação a cada coluna, é possível controlar exatamente como os dados são exibidos na tabela. Neste exemplo, as informações são classificadas primeiro por dia, em seguida por Exibições de página, por Visitas e, por fim, pela Velocidade do conteúdo.
+Atribuindo uma prioridade de classificação a cada coluna, você pode controlar exatamente como os dados são exibidos na tabela. Neste exemplo, as informações são classificadas primeiro por Dia, depois por Exibições de página, depois por Visitas e, por fim, pela Velocidade do conteúdo.
 
 ![exemplo de multiclassificação](assets/dimensions-multiple-sort.png)

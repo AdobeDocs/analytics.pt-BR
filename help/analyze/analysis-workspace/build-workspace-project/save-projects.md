@@ -1,10 +1,10 @@
 ---
 description: Saiba mais sobre as diferentes opções para salvar seus projetos no Analysis Workspace.
-title: Salvar Projetos
+title: Salvar projetos
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 95%
@@ -88,7 +88,8 @@ Para salvar um projeto manualmente, com o projeto aberto no Analysis Workspace, 
   Você pode salvar o projeto em uma pasta diferente. O projeto original não será afetado.
 
 
-<!-- Cannot find this option in CJA 
+<!--
+Cannot find this option in CJA 
 | **[!UICONTROL Save as template]** | Save your project as a [custom template](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
@@ -106,15 +107,15 @@ Todos os projetos no Analysis Workspace são salvos automaticamente a cada 2 min
 
 O Analysis Workspace solicita que você salve novos projetos manualmente ao alternar para outro projeto, fechar a guia do navegador e assim por diante.
 
-Se, por qualquer motivo, você perder o acesso a um projeto recém-criado inesperadamente antes de salvá-lo manualmente, uma versão de recuperação do seu projeto será salva na página inicial do Analysis Workspace, em uma pasta chamada **[!UICONTROL Projetos recuperados (últimos 7 dias)]**. Restaure o projeto recuperado e salve-o manualmente no local desejado.
+Se, por qualquer motivo, você perder o acesso a um projeto recém-criado inesperadamente antes de salvá-lo manualmente, uma versão de recuperação do seu projeto será salva na página de destino do Analysis Workspace, em uma pasta chamada **[!UICONTROL Projetos recuperados (últimos 7 dias)]**. Restaure o projeto recuperado e salve-o manualmente no local desejado.
 
 Para restaurar um projeto recuperado:
 
 1. Acesse a pasta **[!UICONTROL Projetos recuperados (últimos 7 dias)]** na página de destino do Analysis Workspace.
 
 <!-- 
-     ![The list of folders highlighting the Recovered Project folder.](assets/recovered-folder.png)
-  -->
+   ![The list of folders highlighting the Recovered Project folder.](assets/recovered-folder.png)
+-->
 
 1. Abra o projeto e salve-o no local desejado.
 
@@ -158,7 +159,8 @@ Se o navegador travar ou se o tempo-limite da sessão for atingido, na próxima 
 Para **novos** projetos que nunca foram salvos, as alterações não salvas não são recuperáveis.
 
 
-<!-- Shouldn't this belong to another page?  Moved it to a new open projects page
+<!--
+Shouldn't this belong to another page?  Moved it to a new open projects page
 
 
 ## Open previously saved version
@@ -175,7 +177,6 @@ To open a previously saved version of a project:
    [!UICONTROL Timestamp] and [!UICONTROL Editor] are shown, in addition to [!UICONTROL Notes] if they were added when the [!UICONTROL Editor] saved. Versions without notes are stored for 90 days; versions with notes are stored for 1 year.
 1. Select a previous version and click **[!UICONTROL Load]**.
    The previous version then loads with a notification. The previous version does not become the current saved version of your project until you click **[!UICONTROL Save]**. If you navigate away from the loaded version, when you return, you will see the last saved version of the project.
-
 -->
 
 
@@ -271,5 +272,4 @@ To open a previous version of a project:
    [!UICONTROL Timestamp] and [!UICONTROL Editor] are shown, in addition to [!UICONTROL Notes] if they were added when the [!UICONTROL Editor] saved. Versions without notes are stored for 90 days; versions with notes are stored for 1 year.
 1. Select a previous version and click **[!UICONTROL Load]**.
    The previous version then loads with a notification. The previous version does not become the current saved version of your project until you click **[!UICONTROL Save]**. If you navigate away from the loaded version, when you return, you will see the last saved version of the project. 
-
 -->

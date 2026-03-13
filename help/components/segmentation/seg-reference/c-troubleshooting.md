@@ -3,10 +3,10 @@ description: Saiba como solucionar e corrigir problemas relacionados a segmentos
 title: Solução de problemas
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 42%
+ht-degree: 6%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 42%
 
 Este artigo lista alguns problemas comuns com segmentos e como solucionar esses problemas.
 
-<!-- Looks like this is not part anymore of the current UI.
+<!--
+Looks like this is not part anymore of the current UI.
 
 ## Error: "Incompatible elements in this segment" {#incompatible}
 
@@ -22,7 +23,6 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 * Save the segment in a different folder 
 * Remove or change the incompatible portions of the segment.
-
 -->
 
 ## Por que o meu segmento não retorna dados? {#no-data}
@@ -30,19 +30,19 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 Possíveis motivos:
 
 * Aninhamento reverso - por exemplo, aninhando um contêiner de ![Usuário](/help/assets/icons/User.svg) **[!UICONTROL Visitante]** em um contêiner de ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Visita]**.
-* O relatório não oferece suporte para a segmentação.
-* Nenhum dado corresponde ao critério de segmentação.
+* O relatório não suporta segmentação.
+* Não há dados que correspondam aos critérios de segmentação.
 
 ## Por que não consigo ver o segmento que criei no Gerenciador de segmentos? {#invisible}
 
 Possíveis motivos:
 
 * Algumas dimensões estão disponíveis somente no Data Warehouse e não no Gerenciador de segmentos.
-* O segmento é marcado somente para um conjunto de relatórios específico.
+* O segmento é verificado somente para um conjunto de relatórios específico.
 * Um segmento compartilhado pode ter sido excluído por outro usuário.
 * Não foi possível carregar os segmentos devido a um problema no data center ou no cache do navegador.
 * O segmento não foi salvo.
-* O endereço IP pode estar bloqueado na extremidade do usuário.
+* O endereço IP pode ser bloqueado no final do usuário.
 
 ## Por que os dados exibidos após a aplicação de um segmento parecem incorretos? {#page-data}
 

@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: cbf448d668df0fc7795b3b5f385bd3d362dc492e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 26%
@@ -37,11 +37,11 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agendar pas
 
 Para programar uma pasta de trabalho:
 
-1. Selecione **[!UICONTROL Agendar]** no hub do Report Builder para criar um agendamento para que você possa distribuir automaticamente um arquivo de pasta de trabalho do Excel (.xlsx) para um indivíduo ou grupo.
+1. Selecione **[!UICONTROL Agendar]** no hub de Report Builder para criar um agendamento para que você possa distribuir automaticamente um arquivo Excel de pasta de trabalho (.xlsx) para um indivíduo ou um grupo.
 
    ![Selecione o botão Agendar para criar um agendamento.](./assets/schedule.png){zoomable="yes"}
 
-1. Selecione **[!UICONTROL Agendar pasta de trabalho]** ou ![Adicionar](/help/assets/icons/Add.svg) para criar uma nova pasta de trabalho agendada.
+1. Selecione **[!UICONTROL Agendar Pasta de Trabalho]** ou ![Adicionar](/help/assets/icons/Add.svg) para criar uma nova pasta de trabalho agendada.
 
    ![A janela Agendar pastas de trabalho.](./assets/schedule-workbook.png){zoomable="yes"}
 
@@ -74,7 +74,8 @@ Na seção **[!UICONTROL Arquivo]**, forneça detalhes sobre o tipo de arquivo, 
    * **[!UICONTROL Formato ISO de data]**, que resulta na anexação de `YYYY-MM-DD` ao nome de arquivo.
    * **[!UICONTROL Formato ISO de data + carimbo de data/hora]**, que resulta na anexação de `YYYY-MM-DD_HH-MM-SS` ao nome de arquivo.
 
-<!-- Does no longer seem to be an option? 
+<!--
+Does no longer seem to be an option? 
 1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
 
     When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.
@@ -82,7 +83,7 @@ Na seção **[!UICONTROL Arquivo]**, forneça detalhes sobre o tipo de arquivo, 
     ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){zoomable="yes"}{width="55%"}
 -->
 
-1. Digite uma senha em **[!UICONTROL Proteger a pasta de trabalho com senha]**. Uma senha válida exige pelo menos 8 caracteres, um número e um caractere especial. Selecione ![VisibilityOff](/help/assets/icons/VisibilityOff.svg) para exibir a senha e ![Visibility](/help/assets/icons/Visibility.svg) para ocultar a senha (padrão).
+1. Insira uma senha em **[!UICONTROL Proteger a pasta de trabalho com senha]**. Uma senha válida requer pelo menos 8 caracteres, um número e um caractere especial. Selecione ![VisibilityOff](/help/assets/icons/VisibilityOff.svg) para exibir a senha e ![Visibility](/help/assets/icons/Visibility.svg) para ocultar a senha (padrão).
 
 
 ### Email
@@ -106,7 +107,7 @@ Na seção **[!UICONTROL Agendar]**, você pode definir o agendamento para envia
 
 1. Selecione **[!UICONTROL Mostrar opções de agendamento]** para definir um agendamento.
 
-1. Insira uma data de início em **[!UICONTROL A partir de]**. Como alternativa, selecione ![Calendário](/help/assets/icons/Calendar.svg) para escolher uma data de início no calendário.
+1. Insira uma data de início em **[!UICONTROL Começando em]**. Como alternativa, selecione ![Calendário](/help/assets/icons/Calendar.svg) para escolher uma data de início no calendário.
 
 1. Insira uma data de término em **[!UICONTROL Terminando em]**. Como alternativa, selecione ![Calendário](/help/assets/icons/Calendar.svg) para escolher uma data de término no calendário.
 
@@ -127,9 +128,9 @@ Na seção **[!UICONTROL Agendar]**, você pode definir o agendamento para envia
 Para enviar a pasta de trabalho:
 
 * Se você não tiver definido um agendamento usando **[!UICONTROL Mostrar opções de agendamento]**, selecione **[!UICONTROL Enviar agora]** para enviar a pasta de trabalho por email imediatamente.
-* Se você tiver definido um agendamento usando **[!UICONTROL Mostrar opções de agendamento]**, selecione **[!UICONTROL Enviar de acordo com o agendamento]** para enviar a pasta de trabalho por email usando o agendamento definido.
+* Se você definiu um agendamento usando **[!UICONTROL Mostrar opções de agendamento]**, selecione **[!UICONTROL Enviar no agendamento]** para enviar a pasta de trabalho por email usando o agendamento que você definiu.
 
-Em ambos os casos, você verá uma notificação de confirmação na parte inferior do hub do Report Builder.
+Em ambos os casos, você verá uma caixa de informações de confirmação na parte inferior do hub de Report Builder.
 
 Para cancelar o envio da pasta de trabalho, selecione **[!UICONTROL Cancelar]**.
 
