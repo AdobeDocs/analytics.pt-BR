@@ -185,7 +185,7 @@ CARDS
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Integre o [Adobe Experience League](https://experienceleague.adobe.com/?lang=pt-BR) para acessar a [documentação](https://experienceleague.adobe.com/en/docs/analytics?lang=pt-BR), os [tutoriais](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/overview) e muito mais para ajudá-lo a ter sucesso.
+Integre o [Adobe Experience League](https://experienceleague.adobe.com/pt-br?lang=pt-BR) para acessar a [documentação](https://experienceleague.adobe.com/pt-br/docs/analytics?lang=pt-BR), os [tutoriais](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/overview) e muito mais para ajudá-lo a ter sucesso.
 
 
 ## Adobe Admin Console
@@ -204,7 +204,7 @@ Integre o [Gerenciamento de Usuários do Adobe Admin Console](https://adminconso
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Integre o Adobe Experience League para [levantar um caso de suporte, revisar casos ativos e passados](https://experienceleague.adobe.com/home#support).
+Integre o Adobe Experience League para [levantar um caso de suporte, revisar casos ativos e passados](https://experienceleague.adobe.com/home?lang=pt-BR#support).
 
 
 ## Adobe Analytics
@@ -217,7 +217,7 @@ Sua jornada no Adobe Analytics começa com a integração das configurações co
 
 Após concluir a integração com a Adobe Analytics e as plataformas de suporte, considere explorar os seguintes recursos para aprofundar sua compreensão e aprimorar suas habilidades:
 
-1. [Introdução ao Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Compreender e criar Conjuntos de Relatórios](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
-3. [Documentação do Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics?lang=pt-BR)
+1. [Introdução ao Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [Compreender e criar Conjuntos de Relatórios](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+3. [Documentação do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics?lang=pt-BR)
 4. [Tutoriais e vídeos do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/overview)
