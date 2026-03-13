@@ -29,7 +29,7 @@ CARDS
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476889/?captions=por_br&format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -67,7 +67,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476889/?captions=por_br&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -183,7 +183,7 @@ CARDS
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476889/?captions=por_br&learn=on&enablevpops)
 
 Integre o [Adobe Experience League](https://experienceleague.adobe.com/pt-br?lang=pt-BR) para acessar a [documentação](https://experienceleague.adobe.com/pt-br/docs/analytics?lang=pt-BR), os [tutoriais](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/overview) e muito mais para ajudá-lo a ter sucesso.
 
