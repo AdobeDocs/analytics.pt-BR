@@ -4,42 +4,50 @@ title: Página de destino do Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 6b291ec1f9477bf814a26da35138449bfcb013a0
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 99%
+source-wordcount: '1488'
+ht-degree: 87%
 
 ---
 
 # Página de destino do Adobe Analytics
 
-A página de destino do Adobe Analytics reúne o [!DNL Analysis Workspace] e o [!DNL Reports & Analytics] (descontinuado) em uma única interface e ponto de acesso sob a estrutura do [!DNL Workspace]. Ela apresenta uma página inicial do gerente de projeto, uma seção modelos e uma seção de aprendizado para ajudar a começar de forma eficaz.
+A landing page do Adobe Analytics inclui as seguintes subguias:
+
+**[!UICONTROL Projetos]**: designs personalizados que combinam componentes de dados, tabelas e visualizações que você criou ou que outra pessoa criou e compartilhou com você. [!UICONTROL Projetos] também se refere a projetos em branco e scorecards para dispositivos móveis em branco.
+
+**[!UICONTROL Modelos]**: inclui modelos fornecidos pela Adobe e quaisquer modelos específicos para sua organização.
+
+**[!UICONTROL Aprendizado]**: contém tutoriais, tutoriais e links para vídeos de participação ativa.
+
+![Painel esquerdo da página de aterrissagem do AA](assets/aa-landing-page-left-rail.png)
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de destino do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de destino do Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
+## Projetos {#navigate-projects}
 
+A seção **[!UICONTROL Projetos]** no painel esquerdo serve como página inicial da guia [!UICONTROL **Workspace**].
 
-A página de destino do Adobe Analytics é composta pelas seguintes subguias: Projetos, Modelos e Aprendizagem.
+Para acessar projetos no Adobe Analytics:
+
+1. Clique na guia [!UICONTROL **Espaço de trabalho**].
+
+1. Selecione [!UICONTROL **Projetos**] no painel esquerdo.
+
+A seção Projetos exibe a pasta Empresa, quaisquer pastas pessoais que você criou, seus projetos do Workspace e cartões de pontuação móveis. Use esta página para visualizar, criar e modificar pastas, projetos e cartões de pontuação para dispositivos móveis. Consulte [Projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) para obter mais informações.
 
 **[!UICONTROL Projetos]** são designs personalizados que combinam componentes de dados, tabelas e visualizações que você criou ou que outra pessoa criou e compartilhou com você. [!UICONTROL Projetos] também se refere a projetos em branco e scorecards para dispositivos móveis em branco.
 
-**[!UICONTROL Modelos]** inclui modelos fornecidos pela Adobe e qualquer modelo específico para sua organização.
-
-A guia **[!UICONTROL Aprendizagem]** contém orientações práticas em vídeo, tutoriais e links para a documentação.
-
-## Navegue até a guia [!UICONTROL Projetos] {#navigate-projects}
-
-A guia [!UICONTROL Projetos] serve como a página inicial do [!UICONTROL espaço de trabalho]. Ela exibe a pasta da empresa, qualquer pasta pessoal criada, projetos e cartões de pontuação móveis. Use esta página para exibir, criar e modificar pastas, projetos e cartões de pontuação para dispositivos móveis. Para obter mais informações, consulte [Sobre pastas no Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
-
-![Exibindo todos](assets/landing-all2.png)
-
 >[!NOTE]
 >
->Várias das seguintes configurações persistem durante a sessão e entre sessões. Por exemplo, a guia selecionada, os filtros selecionados, as colunas selecionadas e a direção de classificação da coluna. Os resultados da pesquisa não são persistentes.
+>Várias das configurações a seguir persistem entre as sessões. Por exemplo, a guia selecionada, os segmentos selecionados, as colunas selecionadas e a direção de classificação da coluna. Os resultados da pesquisa não persistem.
+
+Consulte [Projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) para obter mais informações.
 
 ### Personalizar colunas da tabela
 
@@ -89,9 +97,15 @@ As colunas disponíveis são:
 | MOSTRAR: Pastas e projetos ou todos os projetos | Altera a configuração de exibição na tabela para mostrar pastas e projetos de acordo com a organização da pasta **ou** mostrar todos os seus projetos em uma lista não organizada. |
 | &lt; (Botão voltar) | Retorna à configuração de página de destino mais recente em um projeto do Espaço de trabalho ou em um relatório. A configuração da página que você tinha quando saiu da página de destino persistirá quando você retornar. |
 
-## Acesse a guia [!UICONTROL Modelos] {#navigate-reports}
+## Modelos {#navigate-reports}
 
-Para obter informações sobre como usar modelos no Adobe Analytics, consulte os seguintes recursos:
+Para acessar modelos no Adobe Analytics:
+
+1. Clique na guia [!UICONTROL **Espaço de trabalho**].
+
+1. Na seção [!UICONTROL **Modelos**] no painel esquerdo, você pode selecionar modelos do Adobe ou modelos da empresa.
+
+Para obter informações sobre o uso de modelos, consulte os seguintes recursos:
 
 * [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md)
 
@@ -101,7 +115,7 @@ Para obter informações sobre como usar modelos no Adobe Analytics, consulte os
 
 A página Aprendizagem contém tours práticos em vídeo, tutoriais e links para a documentação.
 
-Use a página Aprendizagem do Adobe Analytics para saber mais sobre recursos e casos de uso iniciantes, intermediários ou avançados no Adobe Analytics.
+Use a página Aprendizado no Adobe Analytics para saber mais sobre recursos e casos de uso iniciantes, intermediários ou avançados no Adobe Analytics.
 
 ### Acessar a página Aprendizagem
 
@@ -120,8 +134,8 @@ Use a página Aprendizagem do Adobe Analytics para saber mais sobre recursos e c
 
 Os usuários podem definir sua página de destino preferencial.
 
-1. Vá até Analytics > [!UICONTROL Componentes] > [!UICONTROL Preferências] > [!UICONTROL Geral].
-1. Marque a página de destino que você prefere:
+1. No Adobe Analytics, selecione [!UICONTROL **Componentes**] > [!UICONTROL **Preferências**] > [!UICONTROL **Geral**].
+1. Selecione a página de aterrissagem desejada.
 
    ![Definir página de destino](assets/landing-pref.png)
 
