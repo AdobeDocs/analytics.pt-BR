@@ -4,10 +4,10 @@ description: Saiba como as dicas do cliente substituirão gradualmente o usuári
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8861dc27f9353d00ef3cf62568822c74d6e70d25
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 83%
+source-wordcount: '1147'
+ht-degree: 77%
 
 ---
 
@@ -25,11 +25,7 @@ O Google divide as dicas do cliente de usuário-agente em duas categorias: dicas
 
 A partir de outubro de 2022, novas versões dos navegadores Chromium iniciaram o “congelamento” da versão do sistema operacional representada na string do usuário-agente. A versão do sistema operacional é uma dica de alta entropia, portanto, para manter a precisão da versão do sistema operacional em seus relatórios, é necessário configurar a biblioteca de coleção para coletar essas dicas de alta entropia. Com o tempo, outras informações do dispositivo do usuário-agente serão congeladas, o que exigirá que as dicas do cliente mantenham a precisão do relatório do dispositivo.
 
-As dicas do cliente serão incorporadas ao processo de pesquisa de dispositivo do Analytics a partir de 27 de fevereiro de 2023 e concluídas em 2 de março de 2023. Atualmente, o AppMeasurement e o SDK da Web são compatíveis com a coleção de dados de dicas, mas esta não será usada na pesquisa de dispositivo até meados de fevereiro. Conforme observado abaixo, a versão do sistema operacional foi congelada a partir de outubro, mas devido a um lançamento gradual e ao fato de muitos agentes de usuário já fornecerem uma versão do sistema operacional congelada (veja mais [aqui](/help/components/dimensions/operating-systems.md)), estimamos que isso afetará &lt;3% dos visitantes do Chrome.
-
->[!NOTE]
->
-> Desde janeiro de 2023, algumas versões dos sistemas operacionais Mac e Windows são representadas incorretamente no agente do usuário, mas corretamente representadas em dicas de cliente de alta entropia. Consulte [Sistema operacional](/help/components/dimensions/operating-systems.md) para obter mais informações.
+As dicas do cliente foram incorporadas ao processo de pesquisa de dispositivo do Analytics em 2 de março de 2023. Essa alteração se aplica às implementações do AppMeasurement e do Web SDK.
 
 O Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), talvez você queira habilitar a coleção de dicas de alta entropia.
 
@@ -162,3 +158,10 @@ Consulte a [documentação do esquema](https://github.com/adobe/xdm/blob/master/
 Sim. As dicas do cliente serão incluídas nos dados encaminhados ao Adobe Audience Manager. Observe que o Adobe Audience Manager requer que dicas de alta entropia sejam coletadas para preservar a funcionalidade completa. Se estiver usando o [encaminhamento pelo lado do servidor para o Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), talvez você queira habilitar a coleção de dicas de alta entropia.
 
 +++
+
++++**Por que vejo um número de versão de navegador igual a 999.99?**
+
+Os clientes às vezes realizam testes com números de versão inválidos de navegador ou sistema operacional de dispositivo, que podem ser qualquer número acima de 100.000. Para evitar grandes contagens de números de versão inválidos de navegador ou sistema operacional de dispositivo em um determinado dia, os números de versão acima de 100.000 são agrupados e fixados no número de versão 999.99.
+
++++
+
