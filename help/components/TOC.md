@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 99%
+source-wordcount: '745'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +25,11 @@ ht-degree: 99%
    + [Região do Activity Map](dimensions/activity-map-region.md)
    + [Consentimento da plataforma de publicidade](dimensions/ad-consent.md)
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
+   + [ID do AMO](dimensions/amo-id.md)
+   + [AMO EF ID](dimensions/amo-ef-id.md)
+   + [ID de clique de anúncios Meta do AMO](dimensions/amo-meta-id.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nome do bot &#x200B;](dimensions/bot-name.md)
+   + [Nome do bot ](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -120,7 +123,7 @@ ht-degree: 99%
    + [Código postal](dimensions/zip-code.md)
 + Métricas {#metrics}
    + [Visão geral das métricas](metrics/overview.md)
-   + [Contar instâncias repetidas](metrics/count-repeat-instances.md)
+   + [Métricas do Advertising](metrics/amo-metrics.md)
    + [Profundidade média da página](metrics/average-page-depth.md)
    + [Média de exibições de página por visita](metrics/average-page-views-per-visit.md)
    + [Duração média da sessão](metrics/average-session-length.md)
@@ -267,7 +270,7 @@ ht-degree: 99%
       + [Criar e editar](/help/components/classifications/sets/create-set.md)
       + [Gerenciar](/help/components/classifications/sets/manage-sets.md)
       + Conjunto de classificação {#set}
-         + [Configurações &#x200B;](classifications/sets/manage/settings.md)
+         + [Configurações ](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
          + [Regras](classifications/sets/manage/rules.md)
       + [Processos de classificação](classifications/sets/job-manager.md)

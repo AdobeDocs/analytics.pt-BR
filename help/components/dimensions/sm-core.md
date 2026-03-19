@@ -3,10 +3,10 @@ title: Dimensões principais dos serviços de mídia de transmissão
 description: Dimensões disponíveis ao habilitar o [!UICONTROL Media Core] para um conjunto de relatórios.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 7%
+source-wordcount: '437'
+ht-degree: 6%
 
 ---
 
@@ -28,6 +28,7 @@ Quando você habilita o **[!UICONTROL Media Core]** em [Media Reporting](/help/a
 | **[!UICONTROL Segmento de conteúdo]** | O intervalo que descreve a parte do conteúdo que foi exibida, em minutos. O segmento é calculado como os valores mín. e máx. do indicador de reprodução durante a sessão de reprodução. | Fechamento de mídia | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
 | **[!UICONTROL Tipo de conteúdo]** | O tipo de conteúdo. Os valores válidos incluem `song`, `podcast`, `audiobook`, `radio`, `VoD`, `Live`, `Linear`, `UGC`, `DVoD` ou um valor personalizado. | Início da mídia, Fechamento da mídia | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
 | **[!UICONTROL Caminho da mídia]** | O caminho que o visitante tomou para alcançar o conteúdo. | Início da mídia | `a.media.path` | |
+| **[!UICONTROL ID da sessão de mídia]** | Identifica uma instância de um fluxo de conteúdo exclusivo para uma reprodução individual. | Início da mídia, Fechamento da mídia | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
 | **[!UICONTROL Tipo de fluxo]** | O tipo de fluxo. Os valores válidos incluem `audio` e `video`. | Início da mídia, Fechamento da mídia | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
 
 Além das dimensões acima, o Adobe cria automaticamente as seguintes dimensões de classificação. Você deve fazer upload dos dados de classificação para visualizar relatórios que usam essas dimensões.
