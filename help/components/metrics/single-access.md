@@ -12,7 +12,7 @@ ht-degree: 15%
 
 # Acesso único
 
-A **[!UICONTROL métrica]** de [ de Acesso único](overview.md) mostra o número de visitas em que a dimensão de relatório aplicável continha apenas um único valor para uma visita inteira. É a versão mais ampla e específica da dimensão de [[!UICONTROL Visitas em única página]](single-page-visits.md). Essa métrica é útil no contexto de qualquer dimensão em que você deseja ver o valor de uma dimensão quando ele foi definido apenas uma vez durante uma visita.
+A **[!UICONTROL métrica]** de [&#x200B; de Acesso único](overview.md) mostra o número de visitas em que a dimensão de relatório aplicável continha apenas um único valor para uma visita inteira. É a versão mais ampla e específica da dimensão de [[!UICONTROL Visitas em única página]](single-page-visits.md). Essa métrica é útil no contexto de qualquer dimensão em que você deseja ver o valor de uma dimensão quando ele foi definido apenas uma vez durante uma visita.
 
 ## Como essa métrica é calculada
 

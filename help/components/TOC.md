@@ -29,7 +29,7 @@ ht-degree: 98%
    + [AMO EF ID](dimensions/amo-ef-id.md)
    + [ID de clique de anúncios Meta do AMO](dimensions/amo-meta-id.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nome do bot ](dimensions/bot-name.md)
+   + [Nome do bot &#x200B;](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -270,7 +270,7 @@ ht-degree: 98%
       + [Criar e editar](/help/components/classifications/sets/create-set.md)
       + [Gerenciar](/help/components/classifications/sets/manage-sets.md)
       + Conjunto de classificação {#set}
-         + [Configurações ](classifications/sets/manage/settings.md)
+         + [Configurações &#x200B;](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
          + [Regras](classifications/sets/manage/rules.md)
       + [Processos de classificação](classifications/sets/job-manager.md)
