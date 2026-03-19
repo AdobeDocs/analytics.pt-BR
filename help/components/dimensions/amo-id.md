@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # ID do AMO
 
-A **[!UICONTROL ID do AMO]** é uma coleção de identificadores concatenados usados em integrações do Adobe Advertising. Os valores armazenados nessa dimensão são organizados automaticamente em dimensões de classificação separadas e mais legíveis para uso nos relatórios do Analytics. A dimensão é criada automaticamente ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
+A **[!UICONTROL ID do AMO]** é uma coleção de identificadores concatenados usados em integrações do Adobe Advertising. Os valores armazenados nessa dimensão são organizados automaticamente em dimensões de classificação separadas e mais legíveis para uso nos relatórios do Analytics. A dimensão é criada automaticamente ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/integrations/analytics/overview).
 
 ## Preencher esta dimensão com dados
 
@@ -133,7 +133,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## Classificações
 
-Ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview), as classificações a seguir são criadas automaticamente. Os valores de classificação são mantidos automaticamente pela integração.
+Ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/integrations/analytics/overview), as classificações a seguir são criadas automaticamente. Os valores de classificação são mantidos automaticamente pela integração.
 
 | Classificação | Descrição | DSP | Pesquisar,<br>Social, &amp;<br>Commerce |
 | --- | --- | :---: | :---: |
