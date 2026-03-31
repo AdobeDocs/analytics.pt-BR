@@ -3,10 +3,10 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0900b9adb801bec4d433c57d83ac117efbe78168
+source-git-commit: c86e1ef4a93591e7623fe5a9f2f9d92529773516
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 52%
+source-wordcount: '1318'
+ht-degree: 51%
 
 ---
 
@@ -20,6 +20,7 @@ Essas notas de versão abordam o período de lançamento de março de 2026. As v
 
 | Recurso e descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ---- |
+| **Detalhamento do painel**<br/> A área de lançamento de um painel agora oferece o recurso adicional para [analisar](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) (em vez de segmentar) um painel baseado em uma dimensão. | quarta-feira, 31 de março de 2026 | quarta-feira, 31 de março de 2026 |
 | **Classificar tabelas por várias colunas** <br/>Agora é possível classificar os dados de uma tabela de forma livre por várias colunas no Analysis Workspace, sejam elas dimensões ou métricas.<p>Ao classificar dados para várias colunas, os dados são classificados de acordo com a prioridade atribuída a cada coluna. A numeração de prioridade é exibida ao lado do ícone de classificação.</p><p>Para obter mais informações, consulte [Filtrar e classificar tabelas de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).</p> | quinta-feira, 28 de janeiro de 2026 | quinta-feira, 4 de março de 2026 <p>(Planejado originalmente para 18 de fevereiro de 2026)</p> |
 | **Report Builder: visibilidade de administrador para todas as pastas de trabalho agendadas**<br/> O suplemento do Report Builder Excel inclui uma nova opção de filtro que permite que os administradores vejam todas as pastas de trabalho agendadas para uma determinada organização, independentemente de quem as agendou. Essa opção de filtro está disponível somente para administradores do Analytics. Está disponível nas guias Pasta de trabalho e Herdado ao exibir pastas de trabalho programadas.<p>A capacidade de exibir todas as pastas de trabalho agendadas é especialmente útil ao migrar pastas de trabalho entre equipes distribuídas, pois permite que os administradores localizem facilmente todas as pastas de trabalho herdadas antes de migrá-las.</p><p>Anteriormente, os administradores podiam visualizar somente as pastas de trabalho agendadas, não aquelas agendadas por outros usuários.</p><p>Para obter mais informações, consulte [Pastas de trabalho agendadas gerenciadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md).</p> | | quarta-feira, 10 de março de 2026 |
 | **Atualização para a função distinta de contagem aproximada**<br/> O algoritmo probabilístico HLL usado na função distinta de contagem aproximada será atualizado em breve. A saída resultante para números que utilizam essa função pode mudar ligeiramente de números históricos, da seguinte maneira:</p><ul><li>Ao contar quantidades muito pequenas de valores únicos, os resultados serão aprimorados para usar contagens exatas em vez de usar estimativas.</li><li>Ao contar qualquer coisa maior, as estimativas de contagem manterão a mesma precisão de antes dessa atualização (as estimativas são precisas dentro de 5% do número exato, 95% do tempo).</li></ul><p>Para obter mais informações sobre a função Contagem distinta aproximada, consulte [Contagem distinta aproximada](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct) em [Funções avançadas](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)</p> | | quarta-feira, 10 de março de 2026 |
