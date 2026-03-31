@@ -19,7 +19,7 @@ Para editar as configurações de um conjunto de classificações:
 1. Selecione **[!UICONTROL Componentes]** na barra de menu superior do Adobe Analytics e selecione **[!UICONTROL Conjuntos de classificações]**.
 1. Em **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Conjuntos de classificações]**.
 1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione o conjunto de classificações no qual deseja editar o esquema.
-1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _conjunto de classificações_]**, selecione a guia **[!UICONTROL Configurações]**para editar configurações:
+1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _conjunto de classificações_]**, selecione a guia **[!UICONTROL Configurações]**&#x200B;para editar configurações:
 
    ![Conjuntos de classificações - configurações](assets/classification-sets-settings.png)
 
