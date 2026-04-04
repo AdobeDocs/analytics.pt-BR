@@ -18,7 +18,7 @@ Determine possíveis motivos pelos quais uma tarefa pode não ser processada ou 
 
 Se você tiver um feed de dados que opera com êxito por hora ou por dia, mas que falhou recentemente, verifique cada um dos seguintes itens:
 
-* Use a [Ferramenta Adobe Status](https://status.adobe.com/pt_BR/experience_cloud) para determinar se há alguma janela de manutenção programada ou problemas de disponibilidade. Se houver um problema conhecido no momento, a Adobe processará automaticamente os feeds de dados agendados assim que o serviço for restaurado.
+* Use a [Ferramenta Adobe Status](https://status.adobe.com/pt-br/pt_BR/experience_cloud) para determinar se há alguma janela de manutenção programada ou problemas de disponibilidade. Se houver um problema conhecido no momento, a Adobe processará automaticamente os feeds de dados agendados assim que o serviço for restaurado.
 * Certifique-se de que haja espaço disponível suficiente no site FTP. Se o site FTP ficar sem espaço em disco, exclua alguns arquivos do servidor para abrir espaço para novos arquivos.
 * Se não houver problemas conhecidos e o site FTP tiver espaço em disco suficiente, você poderá reenviar o feed de dados.
 

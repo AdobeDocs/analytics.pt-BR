@@ -25,7 +25,7 @@ As quedas de tráfego são categorizadas em duas seções: dados parciais e zero
 * **Latência do conjunto de relatórios**: ocasionalmente, um conjunto de relatórios pode apresentar [latência](../latency.md) devido a vários fatores. Vários problemas de latência são resolvidos em horas. Se você estiver preocupado com um conjunto de relatórios específico, entre em contato com o Atendimento ao cliente da Adobe e informe a ID do conjunto de relatórios afetado.
 * **Remoção da implementação**: às vezes, quando uma organização altera ou reestrutura a implementação de seu site, a reimplementação do Analytics é ignorada. Trabalhe com desenvolvedores em sua organização para reimplementar o código em seu site.
 * **Problema de interface/cache do Analytics**: em raras ocasiões, o cache de um navegador contém dados inválidos que fazem com que todos os relatórios retornem zeros. Limpe os cookies e o cache do navegador para resolver o problema. Se a limpeza dos cookies/cache não funcionar, entre em contato com o Atendimento ao cliente com o relatório e o intervalo de datas ausentes; eles podem duplicar o problema e fornecer informações adicionais.
-* **Disponibilidade do Analytics**: verifique [status.adobe.com](https://status.adobe.com/products/1173/pt) se há problemas com a coleta ou o processamento de dados.
+* **Disponibilidade do Analytics**: verifique [status.adobe.com](https://status.adobe.com/br/products/1173/pt) se há problemas com a coleta ou o processamento de dados.
 
 ### Possíveis causas da ausência parcial ou tráfego diminuído
 

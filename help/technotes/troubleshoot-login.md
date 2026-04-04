@@ -20,7 +20,7 @@ O Adobe Analytics usa vários métodos de autenticação para fazer logon:
 
 **Se você acessar o Analytics regularmente e começar a encontrar problemas ao fazer logon aleatoriamente, limpar os cookies e o cache do navegador resolverá a maioria dos problemas.**
 
-Ocasionalmente, problemas de disponibilidade podem afetar a capacidade de fazer logon. Verifique em [status.adobe.com](https://status.adobe.com) se há incidentes abertos. Caso contrário, use a seção apropriada, dependendo do método de autenticação da organização.
+Ocasionalmente, problemas de disponibilidade podem afetar a capacidade de fazer logon. Verifique em [status.adobe.com](https://status.adobe.com/pt-br) se há incidentes abertos. Caso contrário, use a seção apropriada, dependendo do método de autenticação da organização.
 
 ## Adobe ID
 
