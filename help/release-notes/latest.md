@@ -3,45 +3,44 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 89cc33528d3907d955a543f3e43774a1065e149a
+source-git-commit: 5dde5298f522d6045f8872c878f6796dcfa0f710
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 46%
+source-wordcount: '1086'
+ht-degree: 60%
 
 ---
 
-# Notas de versão atuais do Adobe Analytics (março de 2026)
+# Notas de versão atuais do Adobe Analytics (abril de 2026)
 
-**Última atualização**: quinta-feira, 11 de março de 2026
+**Última atualização**: sexta-feira, 9 de abril de 2026
 
-Essas notas de versão abordam o período de lançamento de março de 2026. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Dessa forma, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+Essas notas de versão abordam o período de lançamento de abril de 2026. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Dessa forma, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 ## Novos recursos ou melhorias {#features}
 
 | Recurso e descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ---- |
-| **Detalhamento do painel**<br/> A área de lançamento de um painel agora oferece o recurso adicional para [analisar](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) (em vez de segmentar) um painel baseado em uma dimensão. | quarta-feira, 31 de março de 2026 | quarta-feira, 31 de março de 2026 |
-| **Classificar tabelas por várias colunas** <br/>Agora é possível classificar os dados de uma tabela de forma livre por várias colunas no Analysis Workspace, sejam elas dimensões ou métricas.<p>Ao classificar dados para várias colunas, os dados são classificados de acordo com a prioridade atribuída a cada coluna. A numeração de prioridade é exibida ao lado do ícone de classificação.</p><p>Para obter mais informações, consulte [Filtrar e classificar tabelas de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).</p> | quinta-feira, 28 de janeiro de 2026 | quinta-feira, 4 de março de 2026 <p>(Planejado originalmente para 18 de fevereiro de 2026)</p> |
-| **Report Builder: visibilidade de administrador para todas as pastas de trabalho agendadas**<br/> O suplemento do Report Builder Excel inclui uma nova opção de filtro que permite que os administradores vejam todas as pastas de trabalho agendadas para uma determinada organização, independentemente de quem as agendou. Essa opção de filtro está disponível somente para administradores do Analytics. Está disponível nas guias Pasta de trabalho e Herdado ao exibir pastas de trabalho programadas.<p>A capacidade de exibir todas as pastas de trabalho agendadas é especialmente útil ao migrar pastas de trabalho entre equipes distribuídas, pois permite que os administradores localizem facilmente todas as pastas de trabalho herdadas antes de migrá-las.</p><p>Anteriormente, os administradores podiam visualizar somente as pastas de trabalho agendadas, não aquelas agendadas por outros usuários.</p><p>Para obter mais informações, consulte [Pastas de trabalho agendadas gerenciadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md).</p> | | quarta-feira, 10 de março de 2026 |
-| **Atualização para a função distinta de contagem aproximada**<br/> O algoritmo probabilístico HLL usado na função distinta de contagem aproximada será atualizado em breve. A saída resultante para números que utilizam essa função pode mudar ligeiramente de números históricos, da seguinte maneira:</p><ul><li>Ao contar quantidades muito pequenas de valores únicos, os resultados serão aprimorados para usar contagens exatas em vez de usar estimativas.</li><li>Ao contar qualquer coisa maior, as estimativas de contagem manterão a mesma precisão de antes dessa atualização (as estimativas são precisas dentro de 5% do número exato, 95% do tempo).</li></ul><p>Para obter mais informações sobre a função Contagem distinta aproximada, consulte [Contagem distinta aproximada](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct) em [Funções avançadas](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)</p> | | quarta-feira, 10 de março de 2026 |
-| **Tutorial prático para o Analysis Workspace**<br/> Um novo tutorial prático está disponível para orientar novos usuários sobre as noções básicas de uso de painéis, visualizações e componentes no Analysis Workspace. <p>Para obter mais informações, consulte [Página de aterrissagem do Adobe Analytics](/help/analyze/landing.md).</p> | | quinta-feira, 18 de março de 2026 |
-| **Melhorias na visualização de Fallout**<br/> A visualização de Fallout inclui os seguintes aprimoramentos:<ul><li>Uma experiência de arrastar e soltar aprimorada.<br/>Basta passar o mouse sobre um ponto de contato e arrastá-lo para um novo local dentro da visualização.<br/>Anteriormente, você tinha que clicar no ícone de edição no ponto de contato antes de arrastá-lo.</li><li>Linguagem mais clara ao combinar pontos de contato usando a função arrastar e soltar.<br/>Ao arrastar um ponto de contato para outro, o texto &quot;Combinar&quot; é exibido, indicando que os dois pontos de contato estão sendo combinados.<br/>Anteriormente, &quot;Adicionar&quot; texto era exibido, independentemente do ponto de contato estar sendo movido para um novo local dentro da visualização ou combinado com outro ponto de contato.</li><li>Dicas de ferramentas reprojetadas.<br/>As dicas de ferramentas exibidas ao passar o mouse sobre um ponto de contato são mais intuitivas e legíveis.</li><li>Um menu de contexto mais visível.<br/>As dicas de ferramentas incluem uma nova opção &quot;Clique para analisar&quot;, que fornece acesso conveniente ao menu de contexto do ponto de contato.<br/>Anteriormente, o menu de contexto estava disponível somente ao clicar com o botão direito do mouse em um ponto de contato.</li></ul><p>Para obter mais informações, consulte [Configurar uma visualização de fallout](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md).</p> | | quinta-feira, 25 de março de 2026 |
-| **Aplicar um detalhamento a um painel**<br/> Agora é possível aplicar um detalhamento a um painel. Ao aplicar um detalhamento no nível do painel, o detalhamento é aplicado a todas as colunas em todas as tabelas de forma livre no painel. | Março de 2026 | Maio de 2026 |
+| **Melhorias no Activity Map**<br/> O Activity Map inclui as seguintes melhorias:</p><ul><li>Suporte para a extensão de sobreposição do Activity Map com implementações do Web SDK do Adobe Analytics.</li><li>Suporte para rastreamento de SDK da Web (quando o rastreamento vai para o Analytics).</li><li>Estilo atualizado na interface do usuário.</li></ul><p>(Link para a documentação a seguir).</p> | | Abril de 2026 |
+| **Servidores MCP para Adobe Analytics** <br/>Agora é possível vincular o Adobe Analytics aos seus fluxos de trabalho de agente existentes usando o MCP (Model Context Protocol). Você pode solicitar relatórios e insights usando a linguagem natural.<p>(Link para a documentação a seguir).</p> | | Final de abril de 2026 |
 | **Serviços de mídia de streaming: Suporte a dados de agendamento** <br/>Agora você pode carregar dados agendados de conteúdo de mídia de streaming ao vivo anterior de forma a rastrear a audiência com mais facilidade e precisão.<p>Veja a seguir alguns exemplos de conteúdo ao vivo que são compatíveis com o upload de dados de programação:</p><ul><li>Plataformas FAST (TV com suporte a anúncios gratuitos)</li><li>Transmissões locais</li><li>Esportes ao vivo</li></ul><p>O upload de dados de programação permite acompanhar os dados de de número de visualizadores de programas individuais que foram executados durante o período designado no arquivo de upload. É possível até coletar dados do número de visualizadores para tópicos ou segmentos de programa específicos.</p><p>Esses recursos estão disponíveis independentemente de como você implementou a coleta de mídias de transmissão.</p><p>Anteriormente, era difícil vincular com precisão uma determinada sessão a programas específicos ao analisar o conteúdo ao vivo e não era possível vincular uma determinada sessão a tópicos ou segmentos de programa individuais.</p><p>Para obter mais informações, consulte [Fazer upload de dados de agendamento para rastrear conteúdo ao vivo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 29 de outubro de 2025 | Primeiro semestre de 2026<p>(Planejado originalmente para lançamento em 29 de outubro de 2025)</p> |
+| **Formatação de intervalo de datas da API adicional**<br/> Dois novos formatos agora têm suporte para especificar intervalos de datas nas solicitações de relatório da API do Analytics 2.0. Isso inclui uma fórmula de data e um formato misto. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | Março de 2026 |
+| **Dimensão opcional em solicitações de relatório de API**<br/> Não é necessário um objeto de dimensão em solicitações de API de relatório. Se nenhuma dimensão for especificada, a resposta mostrará os dados de um relatório de Totais. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | Março de 2026 |
+| **Relatório da API avançada com tendência de data**<br/> Novo Guia do Relatório Avançado com tendência de data da API do Adobe Analytics 2.0. Crie relatórios avançados de API de tendência de data usando comparações e segmentos de intervalo de datas. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced/) | | Março de 2026 |
 
 ## Correções no Adobe Analytics
 
 **Activity Map**:
-**Analysis Workspace**: AN-440336, AN-440216, AN-440121, AN-438445, AN-438216, AN-437856, AN-437776, AN-437765, AN-437365, AN-432793, AN-432094, AN-431557, AN-431200, AN-429621, AN-429424, AN-427973, AN-426089, AN-425883, AN-424359
-**Classificações**: AN-440143, AN-439891, AN-439844, AN-438994, AN-438057, AN-438052, AN-437986, AN-437896, AN-435387, AN-435335, AN-435150, AN-433050, AN-432062, AN-431873, AN-429642
-**Feeds de dados e Data Warehouse**: AN-439441, AN-437086, AN-433064, AN-432121, AN-431755, AN-428239, AN-427049, AN-425036, AN-424972, AN-423509, AN-335417, AN-283958, AN-256948
-**Migração**:
-**Exportações**: AN-432030
-**Report Builder**: AN-437895, AN-437083, AN-434288, AN-434209, AN-433224, AN-430622
-**Relatórios**: AN-434545, AN-431206, AN-428043
+**Analysis Workspace**: AN-442813, AN-442410, AN-441943, AN-441717, AN-434855, AN-431409, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
+**Classificações**: AN-443453, AN-443275, AN-443148, AN-442906, AN-442232, AN-442207, AN-442148, AN-442133, AN-441937, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441149, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440511, AN-440496, AN-432100
+**Feeds de dados e Data Warehouse**: AN-442211, AN-441719, AN-441183, AN-441011, AN-440625, AN-438953
+**Migração**: AN-442467, AN-440380, AN-440357
+**Exportações**:
+**Report Builder**: AN-441136, AN-438147, AN-425150
+**Relatórios**: AN-441506, AN-440919, AN-440545, AN-440300
+**Conjuntos de relatórios**: AN-439429, AN-439423, AN-430988
 **Relatórios agendados**:
 **Segmentação**:
-**Outros**: AN-440076, AN-434783, AN-434542, AN-434233, AN-433368, AN-432138, AN-431322, AN-431012, AN-429067, AN-423285
+**Outros**: AN-423359, AN-406242, AN-397985
 
 
 ## Avisos de fim da vida útil (EOL) {#eol}
