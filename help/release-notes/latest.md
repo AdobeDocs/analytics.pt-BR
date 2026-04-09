@@ -3,10 +3,10 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5dde5298f522d6045f8872c878f6796dcfa0f710
+source-git-commit: 7a245e2c24e8763c93150aa5b9f3ac2d197f6f1f
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 60%
+source-wordcount: '1041'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,6 @@ Essas notas de versão abordam o período de lançamento de abril de 2026. As ve
 
 | Recurso e descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ---- |
-| **Melhorias no Activity Map**<br/> O Activity Map inclui as seguintes melhorias:</p><ul><li>Suporte para a extensão de sobreposição do Activity Map com implementações do Web SDK do Adobe Analytics.</li><li>Suporte para rastreamento de SDK da Web (quando o rastreamento vai para o Analytics).</li><li>Estilo atualizado na interface do usuário.</li></ul><p>(Link para a documentação a seguir).</p> | | Abril de 2026 |
 | **Servidores MCP para Adobe Analytics** <br/>Agora é possível vincular o Adobe Analytics aos seus fluxos de trabalho de agente existentes usando o MCP (Model Context Protocol). Você pode solicitar relatórios e insights usando a linguagem natural.<p>(Link para a documentação a seguir).</p> | | Final de abril de 2026 |
 | **Serviços de mídia de streaming: Suporte a dados de agendamento** <br/>Agora você pode carregar dados agendados de conteúdo de mídia de streaming ao vivo anterior de forma a rastrear a audiência com mais facilidade e precisão.<p>Veja a seguir alguns exemplos de conteúdo ao vivo que são compatíveis com o upload de dados de programação:</p><ul><li>Plataformas FAST (TV com suporte a anúncios gratuitos)</li><li>Transmissões locais</li><li>Esportes ao vivo</li></ul><p>O upload de dados de programação permite acompanhar os dados de de número de visualizadores de programas individuais que foram executados durante o período designado no arquivo de upload. É possível até coletar dados do número de visualizadores para tópicos ou segmentos de programa específicos.</p><p>Esses recursos estão disponíveis independentemente de como você implementou a coleta de mídias de transmissão.</p><p>Anteriormente, era difícil vincular com precisão uma determinada sessão a programas específicos ao analisar o conteúdo ao vivo e não era possível vincular uma determinada sessão a tópicos ou segmentos de programa individuais.</p><p>Para obter mais informações, consulte [Fazer upload de dados de agendamento para rastrear conteúdo ao vivo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 29 de outubro de 2025 | Primeiro semestre de 2026<p>(Planejado originalmente para lançamento em 29 de outubro de 2025)</p> |
 | **Formatação de intervalo de datas da API adicional**<br/> Dois novos formatos agora têm suporte para especificar intervalos de datas nas solicitações de relatório da API do Analytics 2.0. Isso inclui uma fórmula de data e um formato misto. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | Março de 2026 |
