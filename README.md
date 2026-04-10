@@ -46,7 +46,7 @@ Consulte o [Guia do colaborador dos documentos da Adobe](https://experienceleagu
 
 ## Como usar o Markdown para formatar seu tópico
 
-Todos os artigos neste repositório usam GitHub flavored markdown. Se não estiver familiarizado com a marcação, consulte [Sintaxe básica de gravação e formatação](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) nos documentos do GitHub.
+Todos os artigos neste repositório usam GitHub flavored markdown. Se você não estiver familiarizado com a marcação, consulte [Sintaxe básica de gravação e formatação](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) nos documentos do GitHub.
 
 ## Rótulos
 
