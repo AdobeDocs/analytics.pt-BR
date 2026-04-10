@@ -4,9 +4,8 @@ description: Saiba como criar e implementar links para opção de não participa
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
-hidefromtoc: true
 role: Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -18,7 +17,7 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > Este artigo fornece aos **clientes do Adobe Analytics que (estão planejando) implementar o Adobe Analytics** em seu site instruções sobre como fornecer links para opção de não participação aos usuários do site. <p><p>
-><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Se você está **visitando um site que implementou o Adobe Analytics** e deseja recusar, **<span style="color:red">este artigo NÃO é para você</span>**. Consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.
+> Se você está **visitando um site que implementou o Adobe Analytics** e deseja recusar, **<span style="color:red">este artigo NÃO é para você</span>**. Consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.
 
 Alguns visitantes do site preferem não ter suas informações de navegação incluídas no conjunto de dados. O Adobe oferece a capacidade de fornecer aos visitantes do seu site uma maneira de optar pela não participação em suas informações que estão sendo analisadas.
 
