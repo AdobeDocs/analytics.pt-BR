@@ -130,7 +130,7 @@ Para usar um modelo de atribuição não padrão com uma métrica no Analysis Wo
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colunas dinâmicas](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colunas dinâmicas](https://video.tv.adobe.com/v/33021?captions=por_br&quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
