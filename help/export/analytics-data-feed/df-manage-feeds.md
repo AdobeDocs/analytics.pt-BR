@@ -17,7 +17,7 @@ O gerenciador de feed de dados permite criar, editar e excluir feeds de dados pa
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciamento do feed de dados](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciamento do feed de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

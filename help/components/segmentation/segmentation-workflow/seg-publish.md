@@ -30,7 +30,7 @@ Você pode publicar segmentos do Analytics no Experience Cloud em menos de 8 hor
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar segmentos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar segmentos](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -127,14 +127,14 @@ As capturas de tela a seguir mostram como recuperar a UUID do Adobe Audience Man
 
 1. Inicie as Ferramentas de desenvolvedor do Chrome antes de carregar uma página
 1. Carregue a página e marque Aplicativos > Cookies. The Adobe Audience Manager UUID should be set in the third-party
-Demdex cookie ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) in the example below). The field demdex is the Adobe Audience Manager UUID set
+Demdex cookie ([adobe.demdex.net](https://experienceleague.adobe.com/pt-br/docs/audience-manager/user-guide/reference/demdex-calls) in the example below). The field demdex is the Adobe Audience Manager UUID set
 on the browser (`35721780439475290181087231320657663953` in the example below).
 
    ![Ferramentas de desenvolvedor do Google Chrome](assets/devtools.png)
 
 ## Usar [!UICONTROL Visualizador de perfil do visitante] do Audience Manager
 
-The Adobe Audience Manager UUID on the browser is by default when [!UICONTROL Visitor Profile Viewer] is loaded. If you verify trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Consulte o [Visualizador de perfil do visitante](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) para obter mais informações.
+The Adobe Audience Manager UUID on the browser is by default when [!UICONTROL Visitor Profile Viewer] is loaded. If you verify trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Consulte o [Visualizador de perfil do visitante](https://experienceleague.adobe.com/pt-br/docs/audience-manager/user-guide/features/visitor-profile-viewer) para obter mais informações.
 
 ## Exibir as características do segmento em [!DNL Audience Manager]
 

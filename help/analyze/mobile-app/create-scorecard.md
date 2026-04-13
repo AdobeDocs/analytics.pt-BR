@@ -25,7 +25,7 @@ As informações a seguir instruem a equipe de curadoria de dados do Adobe Analy
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Criador de cartões de pontuação móveis](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Criador de cartões de pontuação móveis](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +130,7 @@ A configuração é *on* por padrão. Desmarque a opção se não quiser exibir 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizações](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizações](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Os slides de detalhes personalizados permitem ter ainda mais controle sobre quai
 
 >[!BEGINSHADEBOX]
 
-Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Exibições de detalhes personalizadas](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} para ver um vídeo de demonstração.
+Confira ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Exibições de detalhes personalizadas](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Por exemplo, se focar no tráfego na Web, sua métrica mais importante pode ser 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Criar histórias de dados](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Criar histórias de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
