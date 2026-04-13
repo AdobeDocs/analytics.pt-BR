@@ -24,7 +24,7 @@ Para definir um conjunto de regras para um conjunto de classificações:
 1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
 1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to define the rules.
-1. In the **[!UICONTROL Classification Set: _classification set name_]**dialog, select the **[!UICONTROL Rules]**tab.
+1. In the **[!UICONTROL Classification Set: _classification set name_]**&#x200B;dialog, select the **[!UICONTROL Rules]**&#x200B;tab.
 
    * If you are accessing the **[!UICONTROL Rules]** interface for the first time for a classification set, or decided so far to continue to use the legacy rules builder interface, you are presented with a dialog that allows you to select how to get started. As opções são:
 

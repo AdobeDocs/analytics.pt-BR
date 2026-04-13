@@ -64,7 +64,7 @@ Para adicionar uma nova classificação, selecione ![Adicionar](/help/assets/ico
 
 ![Classification sets - Add classification to schema](assets/classification-sets-schema-add-classification.png)
 
-In the **[!UICONTROL Add a new classification for _classification set name_]**dialog, enter the **[!UICONTROL Classification Name]**and select **[!UICONTROL Add]**. The classification is added to the list.
+In the **[!UICONTROL Add a new classification for _classification set name_]**&#x200B;dialog, enter the **[!UICONTROL Classification Name]**&#x200B;and select **[!UICONTROL Add]**. The classification is added to the list.
 
 
 
@@ -134,7 +134,7 @@ Para baixar um modelo para dados de classificação, selecione ![DocumentFragmen
 
 ![Esquema dos conjuntos de classificações - Baixar modelo](assets/classification-sets-schema-download-template.png)
 
-In the **[!UICONTROL Download template for _classification set name_]**dialog:
+In the **[!UICONTROL Download template for _classification set name_]**&#x200B;dialog:
 
 1. To select the [file format](/help/components/classifications/sets/data-files.md#general-file-requirements) of the downloaded classification data, select an option from the **[!UICONTROL File Format]** drop-down menu. As opções são:
 
@@ -183,7 +183,7 @@ To automate the ingestion of classification, select ![Gear](/help/assets/icons/G
 
 ![Classification sets schema - Automate](assets/classification-sets-schema-automate.png)
 
-In the **[!UICONTROL Associate / Update Ingest Location for _classification set name_]**dialog:
+In the **[!UICONTROL Associate / Update Ingest Location for _classification set name_]**&#x200B;dialog:
 
 1. Para selecionar um local da nuvem, selecione uma opção em **[!UICONTROL Conta da Localização]**. Somente [contas de localização de tipos de conta com suporte que permitem a importação de dados de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts) são mostradas. Para criar uma nova conta, selecione **[!UICONTROL Nova conta]**.
 1. Para selecionar um local, selecione uma opção de **[!UICONTROL Local]**. Somente os locais dos tipos de conta selecionados para a importação de dados de classificação são mostrados. Para criar um novo local, selecione **[!UICONTROL Novo local]**.
@@ -207,7 +207,7 @@ In the **[!UICONTROL Associate / Update Ingest Location for _classification set 
 
 1. Para notificar os usuários sobre a conclusão dos trabalhos de assimilação, insira endereços de email, separados por vírgula, para **[!UICONTROL Email(s) a notificar quando os trabalhos de assimilação forem concluídos (separados por vírgula)]**.
 1. Selecione **[!UICONTROL Validar]**. A conexão com o local da nuvem é validada.
-1. Se a validação for bem-sucedida, você verá uma mensagem em caixa de informações que mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione**[!UICONTROL  Salvar ]**se tiver criado a conexão com a nuvem. Caso contrário, selecione**[!UICONTROL  Atualizar ]**. Or select**[!UICONTROL  Cancel ]**to cancel the configuration of the cloud location.
+1. Se a validação for bem-sucedida, você verá uma mensagem em caixa de informações que mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione&#x200B;**[!UICONTROL &#x200B; Salvar &#x200B;]**&#x200B;se tiver criado a conexão com a nuvem. Caso contrário, selecione&#x200B;**[!UICONTROL &#x200B; Atualizar &#x200B;]**. Or select&#x200B;**[!UICONTROL &#x200B; Cancel &#x200B;]**&#x200B;to cancel the configuration of the cloud location.
 
 When you upload files to the cloud location, within 15 minutes the file is detected and submitted as an import job. The result of that import job is reported in the [Classifications job manager](/help/components/classifications/sets/job-manager.md). If you are added to the list of users to notify about the completion of ingest jobs, you also receive email messages.
 
@@ -225,4 +225,4 @@ The action bar shows actions available for the selected classification. As opç�
 | ![Browse](/help/assets/icons/Browse.svg) | **[!UICONTROL Adicionar Pesquisa]** | Adicione um conjunto de classificações como uma pesquisa (subclassificação).<br/>Na tabela **[!UICONTROL Anexar pesquisa]**: <ol><li>Selecione uma classificação de pesquisa no menu suspenso **[!UICONTROL Nome da Classificação]**.</li><li>Selecione **[!UICONTROL Adicionar]**.</li></ol>A classificação de pesquisa é adicionada à classificação e listada na coluna **[!UICONTROL Classificado por]** usando a ID interna. |
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remover Pesquisa]** | Remova um conjunto de classificações como uma pesquisa. Para excluir a pesquisa permanentemente da classificação, na caixa de diálogo de confirmação **[!UICONTROL Remover _conjunto de classificações_ da _classificação_]**, selecione **[!UICONTROL Excluir]**. |
 | ![Renomear](/help/assets/icons/Rename.svg) | **[!UICONTROL Renomear]** | Renomeie o **[!UICONTROL Nome da Classificação]** de uma classificação. Na caixa de diálogo **[!UICONTROL Renomear: _nome da classificação_]**, digite um novo nome e selecione **[!UICONTROL Renomear]**. |
-| ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir uma classificação. A caixa de diálogo **[!UICONTROL Excluir _nome da classificação_]**é exibida. Selecione **[!UICONTROL Excluir]**para excluir a classificação. |
+| ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir uma classificação. A caixa de diálogo **[!UICONTROL Excluir _nome da classificação_]**&#x200B;é exibida. Selecione **[!UICONTROL Excluir]**&#x200B;para excluir a classificação. |
