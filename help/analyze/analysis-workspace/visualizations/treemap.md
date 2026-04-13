@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre a visualização de mapa de árvore no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Mapa de árvore](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/treemap) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo é sobre a visualização de mapa de árvore no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Mapa de árvore](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/treemap) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Com um mapa de árvore, você pode ver padrões que seriam difíceis de detectar
 
 >[!BEGINSHADEBOX]
 
-Veja ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de mapa de árvore](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} para ver um vídeo de demonstração.
+Veja ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de mapa de árvore](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

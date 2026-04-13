@@ -1,5 +1,5 @@
 ---
-description: Usar o inventário do Analytics
+description: Use the Analytics Inventory
 title: Inventário do Analytics
 feature: Admin Tools
 role: Admin
@@ -7,7 +7,7 @@ exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 22%
+ht-degree: 19%
 
 ---
 
@@ -34,9 +34,9 @@ O objetivo do inventário do Analytics é ajudá-lo a responder às seguintes pe
 
    * Você deve fazer alguma consolidação de ativos como parte do processo?
 
-   * Qual deve ser a sequência de atualização para seus ativos?
+   * What should the upgrade sequence be for your assets?
 
-   * Quais conjuntos de relatórios você deve atualizar primeiro ou último?
+   * Which report suites should you upgrade first or last?
 
 ## Permissões
 
@@ -44,15 +44,15 @@ O Inventário do Analytics está disponível para usuários com privilégios de 
 
 ## Acessar inventário do Analytics
 
-1. Clique em **[!UICONTROL Inventário do Analytics]** no menu **[!UICONTROL Admin]**. Ou vá para **[!UICONTROL Todos os administradores]** > **[!UICONTROL Inventário do Analytics]**.
+1. Click **[!UICONTROL Analytics Inventory]** in the **[!UICONTROL Admin]** menu. Ou vá para **[!UICONTROL Todos os administradores]** > **[!UICONTROL Inventário do Analytics]**.
 
-![Menu-inventário-do-Analytics](assets/an-inventory-menu.png)
+![Analytics-Inventory-menu](assets/an-inventory-menu.png)
 
-1. A tela principal mostra um inventário abrangente do seu ambiente do Adobe Analytics:
+1. The main screen shows a comprehensive inventory of your Adobe Analytics environment:
 
-   ![Tela principal do inventário](assets/an_inventory.png)
+   ![Main inventory screen](assets/an_inventory.png)
 
-   Especificamente, essa tela mostra:
+   Specifically, this screen shows:
 
    * O número total de projetos do Analysis Workspace e do Scorecard para dispositivos móveis ativos nesta organização, em todos os usuários.
    * O número total de segmentos e métricas calculadas que estão ativos nesta organização, em todos os usuários.
@@ -91,14 +91,14 @@ A exibição de conjuntos de relatórios mostra todos os conjuntos de relatório
 
 * Quais conjuntos de relatórios receberam mais ocorrências nos últimos 90 dias?
 * Quais conjuntos de relatórios não receberam visitas nos últimos 90 dias?
-* Quais conjuntos de relatórios têm o maior número de dimensões definidas?
-* Quais conjuntos de relatórios têm o maior número de métricas definidas?
+* What report suites have the largest number of dimension defined?
+* What report suites have the largest number of metrics defined?
 
-As respostas dessas perguntas fornecerão uma boa ideia sobre quais conjuntos de relatórios são os melhores candidatos para a migração.
+The answers to these questions will give you a good idea as to which report suites are the best candidates for migration.
 
 >[!NOTE]
 >
->Essa tabela é preenchida lentamente, com um valor de célula por vez.
+>This table populates slowly, one cell value at a time.
 
 
 1. Para analisar conjuntos de relatórios, navegue até **[!UICONTROL Configuração e coleção de dados]** > **[!UICONTROL Conjuntos de relatórios]** e clique em **[!UICONTROL Analisar]**.
@@ -108,11 +108,11 @@ As respostas dessas perguntas fornecerão uma boa ideia sobre quais conjuntos de
    | Elemento | Descrição |
    | --- | --- |
    | Nome | O nome do conjunto de relatórios |
-   | ID | A ID do conjunto de relatórios (rsid). Especifica uma ID única que pode conter somente caracteres alfanuméricos. Essa ID não pode ser alterada depois de criada. A Adobe define o prefixo da ID necessário e ele não pode ser alterado. |
-   | Ocorrências (últimos 90 dias) | A métrica “Ocorrências” exibe o número de ocorrências em que uma determinada dimensão foi definida ou mantida. Quantas ocorrências esse conjunto de relatórios recebeu nos últimos 90 dias? |
-   | Métricas | Quantas métricas estão definidas neste conjunto de relatórios? |
-   | Dimensões | Quantas dimensões estão definidas neste conjunto de relatórios? |
-   | Analytics for Target (A4T) habilitado | [Oculto por padrão] Este conjunto de relatórios está habilitado para o [Analytics for Target](https://experienceleague.adobe.com/pt-br/docs/target/using/integrate/a4t/a4t)? |
+   | ID | The report suite ID (rsid). Especifica uma ID exclusiva que pode conter somente caracteres alfanuméricos. Essa ID não pode ser alterada após ser criada. O Adobe define o prefixo da ID necessário e ele não pode ser alterado. |
+   | Ocorrências (últimos 90 dias) | A métrica “Ocorrências” exibe o número de ocorrências em que uma determinada dimensão foi definida ou mantida. How many hits did this report suite receive in the last 90 days? |
+   | Métricas | How many metrics are defined in this report suite? |
+   | Dimensões | How many dimensions are defined in this report suite? |
+   | Analytics for Target (A4T) habilitado | [Oculto por padrão] Este conjunto de relatórios está habilitado para o [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
    | Canais de marketing habilitados | [Oculto por padrão] Este conjunto de relatórios está habilitado para [Canais de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md)? |
    | Conector de origem habilitado | Este conjunto de relatórios está habilitado para o [Adobe Analytics Source Connector para dados do conjunto de relatórios](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/analytics) no Adobe Experience Platform? Em outras palavras, esse conjunto de relatórios pode ser migrado para o Customer Journey Analytics usando o Analytics Source Connector? |
    | Tipo de calendário | [Oculto por padrão] Para obter mais informações, consulte [Calendários Personalizados](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |
@@ -122,15 +122,15 @@ As respostas dessas perguntas fornecerão uma boa ideia sobre quais conjuntos de
 Essa tela fornece uma exibição detalhada de todas as dimensões definidas para um conjunto de relatórios específico. Nessa visualização, você pode responder às seguintes perguntas:
 
 * Quais dimensões estão ativadas para este conjunto de relatórios?
-* Quais são os dez principais itens de dimensão dos últimos 90 dias para esta dimensão?
+* What are the top ten dimension items for the last 90 days for this dimension?
 
 1. Clique no link **[!UICONTROL Dimensões]** na página Conjunto de relatórios.
 
    | Elemento | Descrição |
    | --- | --- |
-   | Nome | O nome da dimensão |
-   | ID | A ID da dimensão. |
-   | Tipo | O tipo de dimensão. Os valores possíveis incluem Conversão, Tráfego, Navegação, Fontes de tráfego, Clientes, Data ou dimensões específicas do produto Adobe, como AEM, Público-alvo, Adobe Campaign, Aplicativo móvel etc. |
+   | Nome | The name of the dimension |
+   | ID | The dimension ID. |
+   | Tipo | The type of dimension. Os valores possíveis incluem Conversão, Tráfego, Navegação, Fontes de tráfego, Clientes, Data ou dimensões específicas do produto Adobe, como AEM, Público-alvo, Adobe Campaign, Aplicativo móvel etc. |
    | Descrição | Nem todas as dimensões têm descrições. |
    | Conector de origem habilitado | Essa dimensão está habilitada para o [Adobe Analytics Source Connector para dados do conjunto de relatórios](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/analytics) no Adobe Experience Platform? Em outras palavras, essa dimensão pode ser migrada para o Customer Journey Analytics usando o Analytics Source Connector? |
 
@@ -149,8 +149,8 @@ Essa tela fornece uma exibição detalhada de todas as métricas definidas para 
 
    | Elemento | Descrição |
    | --- | --- |
-   | Nome | O nome da métrica |
-   | ID | A ID da métrica. |
+   | Nome | The name of the metric |
+   | ID | The metric ID. |
    | Tipo | O tipo de métrica. Os valores possíveis incluem Conversão, Tráfego, Navegação, Fontes de tráfego, Clientes, Data ou dimensões específicas do produto Adobe, como AEM, Público-alvo, Adobe Campaign, Aplicativo móvel etc. |
    | Descrição | Nem todas as dimensões têm descrições. |
    | Conector de origem habilitado | Essa métrica está habilitada para o [Adobe Analytics Source Connector para dados do conjunto de relatórios](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/analytics) no Adobe Experience Platform? Em outras palavras, essa métrica pode ser migrada para o Customer Journey Analytics usando o Analytics Source Connector? |
@@ -163,7 +163,7 @@ Essa tela fornece uma exibição detalhada de todas as métricas definidas para 
 
 1. O arquivo .csv aparecerá na pasta Downloads.
 
-1. Abra-o e salve-o com um aplicativo de planilha em seu dispositivo.
+1. Open and save it with a spreadsheet application on your device.
 
 >[!NOTE]
 >
@@ -175,7 +175,7 @@ Essa tela fornece uma exibição detalhada de todas as métricas definidas para 
 * Você pode pesquisar a tabela.
 * No painel à esquerda, clique no ícone Filtro para filtrar por &quot;Tipo&quot;. Ou clique em **[!UICONTROL Ocultar Filtro]**.
 * Você pode ordenar todas as colunas em ordem crescente/decrescente (ordem de coluna única somente).
-* Você pode clicar em itens na navegação estrutural para navegar para outra tela.
+* You can click items in the breadcrumb to navigate to another screen.
 
 ## Gerenciamento de usuários {#user-management}
 

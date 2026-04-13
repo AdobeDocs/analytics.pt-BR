@@ -1,6 +1,6 @@
 ---
 description: Saiba mais sobre como usar o Gerenciador de atividades de relatórios para diagnosticar e corrigir problemas de capacidade durante o pico dos relatórios.
-title: Gerenciador de Atividades de relatórios
+title: Gerenciador de atividades de relatórios
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
@@ -74,7 +74,7 @@ Para obter mais informações sobre o Gerenciador de atividades de relatórios, 
 
 1. Selecione o título vinculado ao conjunto de relatórios cujos detalhes você deseja exibir.
 
-   Os dados de atividade de relatório estão disponíveis para o conjunto de relatórios selecionado.
+   Os dados de atividade de relatório são exibidos para o conjunto de relatórios selecionado.
 
    <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
 

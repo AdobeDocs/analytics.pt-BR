@@ -439,7 +439,7 @@ Igual. A saída é 0 (falso) ou 1 (verdadeiro).
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabela]{type="Neutral"} Regressão exponencial: Y = b * exp(aX). Retorna o coeficiente de correlação.
+[!BADGE Table]{type="Neutral"} Exponential regression: Y = b * exp(aX). Retorna o coeficiente de correlação.
 
 
 | Argumento | Descrição |
@@ -462,7 +462,7 @@ Igual. A saída é 0 (falso) ou 1 (verdadeiro).
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Linha]{type="Neutral"} Regressão exponencial: Y = b * exp(aX). Retorna Y.
+[!BADGE Row]{type="Neutral"} Exponential regression: Y = b * exp(aX). Retorna Y.
 
 
 | Argumento | Descrição |
@@ -486,7 +486,7 @@ Igual. A saída é 0 (falso) ou 1 (verdadeiro).
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabela]{type="Neutral"} Regressão exponencial: Y = b * exp(aX). Retorna b.
+[!BADGE Table]{type="Neutral"} Exponential regression: Y = b * exp(aX). Retorna b.
 
 | Argumento | Descrição |
 |---|---|
@@ -509,7 +509,7 @@ Igual. A saída é 0 (falso) ou 1 (verdadeiro).
 ![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabela]{type="Neutral"} Regressão exponencial: Y = b * exp(aX). Retorna a.
+[!BADGE Table]{type="Neutral"} Exponential regression: Y = b * exp(aX). Retorna a.
 
 
 | Argumento | Descrição |
@@ -1473,9 +1473,9 @@ Retorna a tangente do ângulo especificado. Se o ângulo estiver em graus, multi
 | metric | A métrica para a qual você deseja obter a pontuação Z |
 | include_zeros | Se os valores zero devem ser incluídos nos cálculos ou não |
 
-Uma pontuação Z de 0 (zero) significa que a pontuação é igual à média. A pontuação Z pode ser positiva ou negativa, indicando se está acima ou abaixo da média e por quantos desvios padrão.
+Uma pontuação Z de 0 (zero) significa que a pontuação é igual à média. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations.
 
-A equação da pontuação Z é:
+The equation for Z-score is:
 
 ![](assets/z_score.png)
 
