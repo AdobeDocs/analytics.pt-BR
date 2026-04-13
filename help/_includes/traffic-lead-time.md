@@ -1,10 +1,10 @@
 ---
-description: A Adobe exige um aviso prévio para novas configurações da conta, picos e aumento de tráfego. O hardware deve ser alocado antes para minimizar a latência e os possíveis problemas no sistema geral.
+description: A Adobe exige aviso prévio para novas configurações de conta, picos de tráfego e aumentos de tráfego. O hardware deve ser alocado com antecedência para minimizar a latência e possíveis impactos adversos ao sistema geral.
 title: Tempo de lead necessário para aumentos de tráfego
 feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -12,13 +12,13 @@ ht-degree: 100%
 
 # Tempo de lead necessário para aumentos de tráfego
 
-A Adobe exige um aviso prévio para novas configurações da conta, picos e aumento de tráfego. O hardware deve ser alocado antes para minimizar a latência e os possíveis problemas no sistema geral.
+A Adobe exige aviso prévio para novas configurações de conta, picos de tráfego e aumentos de tráfego. O hardware deve ser alocado com antecedência para minimizar a latência e possíveis impactos adversos ao sistema geral.
 
 >[!IMPORTANT]
 >
 > A Adobe não pode acomodar solicitações de alteração de tráfego de &quot;espaço reservado&quot;. Salvo indicação contrária, siga ao máximo o lead time sugerido, incluindo não enviar um alerta muito cedo.
 
-Use as diretrizes a seguir para determinar com quanta antecedência você deve enviar um alerta de tráfego:
+Use as diretrizes a seguir para determinar com que antecedência você deve enviar um alerta de tráfego:
 
 ## Prazo para alocação do hardware
 
@@ -52,14 +52,14 @@ Use as diretrizes a seguir para determinar com quanta antecedência você deve e
 
 Outros itens que devem ser considerados:
 
-* Se você tiver vários conjuntos de relatórios começando a aumentar que sejam somados aos números listados acima, o lead time é aplicado como o total do tráfego previsto para cada um deles.
-* Tenha as seguintes informações em mãos ao enviar uma alteração de tráfego:
+* Se você tiver vários conjuntos de relatórios sendo iniciados ou aumentando, cujo total corresponda aos números listados acima, o lead time se aplica como a soma do tráfego esperado para cada um deles.
+* Tenha as seguintes informações disponíveis para enviar uma alteração de tráfego:
 
    * ID do conjunto de relatórios
    * Estimativa de ocorrências por dia
    * Data de ativação
 
-* Os Alertas do cliente também são necessários quando o tráfego é reduzido ou um conjunto de relatórios é substituído.
+* Os Alertas do cliente também são necessários quando o tráfego diminuir ou um conjunto de relatórios for descontinuado.
 
 ## Cancelamento da alocação de hardware devido ao tráfego não realizado
 

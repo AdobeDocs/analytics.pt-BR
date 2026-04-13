@@ -1,8 +1,8 @@
 ---
 source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3047'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 # Trechos
@@ -11,14 +11,14 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Uma [Report Builder](/help/analyze/report-builder/rb-overview.md) nova e simplificada está disponível desde 16 de outubro de 2024. Esse Report Builder é compatível com macOS, Windows e navegadores da Web e pode ser usado com Adobe Analytics e Customer Journey Analytics.
->Esta versão herdada do complemento do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para a nova Report Builder.
+>Um [Report Builder](/help/analyze/report-builder/rb-overview.md) novo e simplificado está disponível desde 16 de outubro de 2024. Esse Report Builder é compatível com macOS, Windows e navegadores da Web e pode ser usado com o Adobe Analytics e o Customer Journey Analytics.
+>Esta versão legada do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho legadas](/help/analyze/report-builder/convert-workbooks.md) para o novo Report Builder.
 
-## Anúncio do fim da vida útil do Reports & Analytics {#ra-eol}
+## Anúncio do fim da vida útil do Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
->A partir de **17 de janeiro de 2024**, a Adobe descontinuou o Reports &amp; Analytics, juntamente com os relatórios e recursos que o acompanham. Naquele momento, o Reports &amp; Analytics e todos os seus relatórios e agendamentos pararam de funcionar. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Para obter informações, consulte [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md).
+>Em **17 de janeiro de 2024**, a Adobe descontinuou o Reports &amp; Analytics e seus relatórios e recursos associados. Naquele momento, o Reports &amp; Analytics, bem como todos os seus relatórios e agendamentos, pararam de funcionar. Os relatórios, as visualizações e as tecnologias subjacentes que alimentam o Reports &amp; Analytics não atendem mais aos padrões de tecnologia da Adobe. A maioria dos recursos do Reports &amp; Analytics está disponível no Analysis Workspace. Para obter informações, consulte [Usar modelos](/help/analyze/analysis-workspace/templates/use-templates.md).
 > 
 >Desde o lançamento do Analysis Workspace em 2015, a funcionalidade e os recursos do Reports &amp; Analytics foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. Este aviso explica o processo do fim da vida útil.
 >
@@ -61,9 +61,9 @@ ht-degree: 86%
 >A funcionalidade descrita nesta seção só está disponível para clientes existentes que já têm uma licença para a funcionalidade. A funcionalidade não é mais oferecida como um complemento para clientes existentes ou novos.
 >
 
-## Customer Journey Analytics de demonstração em vídeo {#videocja}
+## Demonstração em vídeo do Customer Journey Analytics {#videocja}
 
-Este vídeo demonstra a funcionalidade usando o Customer Journey Analytics. No entanto, a funcionalidade está disponível de forma semelhante no Adobe Analytics. Observe sempre as diferenças de terminologia entre o Adobe Analytics e o Customer Journey Analytics (por exemplo, *visitas* em contraste com *sessões*).
+Este vídeo demonstra a funcionalidade usando o Customer Journey Analytics. No entanto, essa funcionalidade está disponível de forma semelhante no Adobe Analytics. Observe sempre as diferenças de terminologia entre o Adobe Analytics e o Customer Journey Analytics (por exemplo, *visitas* em contraste com *sessões*).
 
 
 ## Modelos de atribuição {#attribution-models-details}
@@ -90,8 +90,8 @@ Um modelo de atribuição determina quais itens de dimensão recebem crédito po
 
 Um container de atribuição define o escopo desejado para a atribuição. As opções disponíveis são:
 
-* **Visita**: verifica as conversões do escopo do contêiner de visitas. Quando **[!UICONTROL Visita]** é selecionada, a [janela de retrospectiva de atribuição](#atribution-lookback-window) é automaticamente definida como **[!UICONTROL Janela de relatórios]** e não pode ser alterada.
-* **Visitante**: verifica as conversões do escopo do contêiner de visitantes.
+* **Visita**: analisa as conversões a partir do escopo do container de visita. Quando a opção **[!UICONTROL Visita]** está selecionada, a [Janela de retrospectiva de atribuição](#atribution-lookback-window) é automaticamente definida como **[!UICONTROL Janela de relatório]** e não pode ser alterada.
+* **Visitante**: analisa as conversões a partir do escopo do container de visitante.
 
 ## Janela de retrospectiva de atribuição {#attribution-lookback-window}
 
@@ -135,7 +135,7 @@ Use as informações a seguir para escolher a visualização que melhor atende �
 |---------|----------|---------|---------|
 | **Sequência predefinida de páginas** | Sim</br>Combina análise predefinida e exploratória. O caminho eventual é usado ao usar nós predefinidos no caminho (os visitantes são contados desde que eventualmente se movam de um nó predefinido para o outro). Os próximos nós imediatos (não eventuais) também podem ser mostrados. | Sim</br>O caminho pode ser um caminho eventual ou pode ser restrito ao próximo ponto de contato | Não |
 | **Sequência exploratória de páginas (análise ad hoc)** | Sim</br>Combina análise predefinida e exploratória. O caminho eventual é usado ao usar nós predefinidos no caminho (os visitantes são contados desde que eventualmente se movam de um nó predefinido para o outro). Os próximos nós imediatos (não eventuais) também podem ser mostrados. | Limitado</br>Permite clicar com o botão direito do mouse e exibir o fallout imediato em uma tabela de forma livre. | Sim</br>Somente análise exploratória. Sempre em uma instância de dimensão entre nós. Isso significa que cada nó mostra o próximo ponto de contato imediato (não eventual) ao longo do caminho. |
-| **Mostra onde as pessoas saíram (desistiram) e continuaram (permaneceram)** | Sim</br>Mostra para jornadas predefinidas e exploratórias | Sim</br>Mostra jornadas predefinidas | Sim</br>Mostra jornadas exploratórias |
+| **Mostra onde as pessoas saíram (desistiram) e continuaram (permaneceram)** | Sim</br>Mostra jornadas predefinidas e exploratórias | Sim</br>Mostra jornadas predefinidas | Sim</br>Mostra jornadas exploratórias |
 | **Jornadas lineares** | Sim | Sim | Não |
 | **Jornadas não lineares com vários pontos de entrada e caminhos** | Sim | Não | Sim |
 | **Métrica principal** | Qualquer métrica, incluindo métricas calculadas | Somente sessões ou pessoas | Somente ocorrências (visualizações de caminho) |
@@ -143,7 +143,7 @@ Use as informações a seguir para escolher a visualização que melhor atende �
 | **Suporte a componentes em nós ou pontos de contato** | Métricas, itens de dimensão, filtros e intervalos de datas. | Métricas, itens de dimensão, filtros e intervalos de datas. | Somente itens de dimensão (exceto para os pontos de contato inicial e final) |
 | **Comparar filtros** | Não | Sim<p>Fazer comparações lado a lado de dois filtros diferentes no mesmo relatório.</p> | Não |
 | **Interação de componentes de arrastar e soltar** | Sim | Sim | Não |
-| **Jornadas do Adobe Journey Optimizer** | Sim</br>Abrir jornadas do Journey Optimizer para análise e personalização mais profundas | Não | Não |
+| **Jornadas do Adobe Journey Optimizer** | Sim</br>Abra jornadas do Journey Optimizer para realizar análises e personalizações mais profundas | Não | Não |
 
 {style="table-layout:auto"}
 
@@ -160,7 +160,7 @@ Use as informações a seguir para escolher a visualização que melhor atende �
 
 | Conjunto de relatórios | Descrição |
 |---|---|
-| ![Republicar conjunto](/help/assets/filter-reportsuite.png){width="300"} | A seção **[!UICONTROL Conjunto de relatórios]** permite filtrar por conjuntos de relatórios. <ul><li>Você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar conjuntos de relatórios* para procurar conjuntos de relatórios que você possa usar para filtrar.</li><li>É possível selecionar mais de um conjunto de relatórios. Os conjuntos de relatórios disponíveis dependem das seleções feitas em outras seções no painel de filtro.</li><li>Os números indicam:<ul><li>**(2)**: o número de conjuntos de relatórios selecionados (se um ou mais conjuntos de relatórios estiverem selecionados).</li><li>**3︎⃣**: o número de conjuntos de relatórios disponíveis para os itens resultantes do filtro atual.</li><li>4︎⃣: o número de itens associados ao conjunto de relatórios específico.</li></ul></li></ul> |
+| ![Conjunto de relatórios](/help/assets/filter-reportsuite.png){width="300"} | A seção **[!UICONTROL Conjunto de relatórios]** permite filtrar por conjuntos de relatórios. <ul><li>Você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar conjuntos de relatórios* para encontrar os conjuntos de relatórios que pode usar para filtrar.</li><li>É possível selecionar mais de um conjunto de relatórios. Os conjuntos de relatórios disponíveis dependem das seleções feitas em outras seções no painel de filtro.</li><li>Os números indicam:<ul><li>**(2)**: o número de conjuntos de relatórios selecionados (se um ou mais conjuntos de relatórios forem escolhidos).</li><li>**3︎⃣**: o número de conjuntos de relatórios disponíveis para os itens resultantes do filtro atual.</li><li>4︎⃣: o número de itens associados ao conjunto de relatórios específico.</li></ul></li></ul> |
 
 ## Seção de filtro de status habilitado {#enabledstatusfiltersection}
 
@@ -193,11 +193,11 @@ Use as informações a seguir para escolher a visualização que melhor atende �
 | ![Intervalo de datas](/help/assets/filter-daterange.png){width="300"} | A seção Intervalo de datas aplicado permite filtrar um intervalo de datas aplicado aos itens.<ol><li>Selecione um intervalo de datas.</li><li>No pop-up do calendário, defina um intervalo de datas ou selecione uma das predefinições disponíveis.<br>Como alternativa, também é possível especificar um intervalo de datas diretamente na seção Intervalo de datas do painel Filtro.</li></ol><ul><li>Os números indicam:<ul><li>**(1)**: o número de intervalos de datas modificados a partir das predefinições padrão.</li><li>**5︎⃣**: o número de intervalos de datas disponíveis para os itens resultantes do filtro atual.</li></ul> |
 
 
-## Descontinuação do importador de classificação {#classification-importer-deprecation}
+## Descontinuação do importador de classificações {#classification-importer-deprecation}
 
 >[!WARNING]
 >
->O importador de classificação será substituído em **31 de agosto de 2026**. Alterne para usar a experiência [Conjuntos de classificações](/help/components/classifications/sets/overview.md) para garantir a funcionalidade contínua.
+>O importador de classificação será descontinuado em **31 de agosto de 2026**. Altere para utilizar a experiência de [Conjuntos de classificação](/help/components/classifications/sets/overview.md) e garantir o funcionamento contínuo.
 >
 
 
@@ -206,7 +206,7 @@ Use as informações a seguir para escolher a visualização que melhor atende �
 
 >[!WARNING]
 >
->O construtor de regras de classificação será descontinuado em **28 de fevereiro de 2027**. Alterne para usar a experiência [Regras de conjuntos de classificação](/help/components/classifications/sets/manage/rules.md), quando disponível, para garantir a funcionalidade contínua.
+>O construtor de regras de classificação será descontinuado em **28 de fevereiro de 2027**. Altere para usar a experiência [Regras de conjuntos de classificações](/help/components/classifications/sets/manage/rules.md), uma vez disponíveis, para garantir a funcionalidade contínua.
 >
 
 
