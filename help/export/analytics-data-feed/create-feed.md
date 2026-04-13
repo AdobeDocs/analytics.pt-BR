@@ -59,7 +59,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
 1. Na barra de navegação superior, acesse [!UICONTROL **Admin**] > [!UICONTROL **Feeds de dados**].
 
-1. Selecione [!UICONTROL **Criar feed de dados**].
+1. Select [!UICONTROL **Create data feed**].
 
    Uma página é exibida com as seguintes categorias: [!UICONTROL **Detalhes**], [!UICONTROL **Formatação de dados**], [!UICONTROL **Estrutura de dados**], [!UICONTROL **Agenda**] e [!UICONTROL **Destino**].
 
@@ -69,19 +69,19 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Nome**] | O nome do feed de dados. Os nomes devem ser exclusivos no conjunto de relatórios selecionado e podem ter até 255 caracteres. [Saiba mais](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **Tags**] | Aplique tags ao feed de dados para facilitar a categorização. Você pode filtrar por marcas conforme descrito em [Filtrar e pesquisar a lista de feeds de dados](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) em [Gerenciar feeds de dados](/help/export/analytics-data-feed/df-manage-feeds.md). |
-   | [!UICONTROL **Descrição**] | Especifique uma descrição para o feed de dados. A descrição adicionada fica visível ao editar o feed de dados. |
+   | [!UICONTROL **Nome**] | O nome do feed de dados. Names must be unique within the selected report suite, and can be up to 255 characters in length. [Saiba mais](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
+   | [!UICONTROL **Tags**] | Apply any tags to the data feed for easier categorization. You can filter on tags as described in [Filter and search the list of data feeds](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [Manage data feeds](/help/export/analytics-data-feed/df-manage-feeds.md). |
+   | [!UICONTROL **Descrição**] | Specify a description for the data feed. The description you add is visible when editing the data feed. |
 
-1. Na seção [!UICONTROL **Data formatting**], especifique as seguintes informações:
+1. In the [!UICONTROL **Data formatting**] section, specify the following information:
 
    | Campo | Função |
    |---------|----------|
    | [!UICONTROL **Formato de compactação**] | O tipo de compactação usado. **Gzip** gera arquivos no formato `.tar.gz`. **Zip** gera arquivos no formato `.zip`. |
    | [!UICONTROL **Tipo de empacotamento**] | Selecione [!UICONTROL **Vários arquivos**] para a maioria dos feeds de dados. Essa opção faz a paginação dos dados em partes descompactadas de 2 GB. (Se a opção [!UICONTROL **Vários arquivos**] estiver selecionada e os dados descompactados para a janela de relatórios forem menores que 2 GB, um arquivo será enviado.) Selecionar **Arquivo único** gera o arquivo `hit_data.tsv` em um arquivo único e potencialmente massivo. |
-   | [!UICONTROL **Manifesto**] | Escolha se deseja incluir um arquivo de manifesto com cada entrega de feed de dados. <p>Você pode escolher entre as seguintes opções:</p><ul><li>**[!UICONTROL Arquivo de manifesto]**: contém informações para cada arquivo incluído no feed de dados.</li><li>**[!UICONTROL Arquivo de finalização (Herdado)]**: indica que o feed de dados foi concluído com êxito. Nenhuma outra informação é incluída. Essa opção é adequada para feeds existentes que originalmente usavam essa opção e que precisam ser reprocessados. Ela está disponível somente ao enviar dados do feed de dados em um único pacote. </li><li>**[!UICONTROL Nenhum]**: nenhum arquivo foi incluído</li></ul> |
-   | [!UICONTROL **Enviar manifesto mesmo sem dados**] | Determina se a Adobe deve entregar um [arquivo de manifesto](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) para o destino quando nenhum dado for coletado para um intervalo do feed. Se você selecionar **Arquivo de manifesto**, receberá um arquivo de manifesto semelhante ao seguinte quando nenhum dado for coletado:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
-   | [!UICONTROL **Substituir cadeias de caracteres do sistema operacional**] | Ao coletar dados, alguns caracteres (como novas linhas) podem causar problemas. Selecione essa opção para remover esses caracteres dos arquivos de feed.<p>Essa opção detecta as seguintes sequências de caracteres incorporadas nos dados do cliente e as substitui por um espaço:</p> <ul><li>**Windows:** CRLF, CR ou TAB</li><li>**Mac e Linux:** \n, \r ou \t</li></ul> |
+   | [!UICONTROL **Manifesto**] | Escolha se deseja incluir um arquivo de manifesto com cada entrega de feed de dados. <p>Você pode escolher entre as seguintes opções:</p><ul><li>**[!UICONTROL Arquivo de manifesto]**: contém informações para cada arquivo incluído no feed de dados.</li><li>**[!UICONTROL Arquivo de finalização (Herdado)]**: indica que o feed de dados foi concluído com êxito. No other information is included. This option is suitable for existing feeds that originally used this option that need to be reprocessed. It is available only when sending data feed data in a single package. </li><li>**[!UICONTROL None]**: No file is included</li></ul> |
+   | [!UICONTROL **Send manifest even when no data**] | Determina se a Adobe deve entregar um [arquivo de manifesto](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) para o destino quando nenhum dado for coletado para um intervalo do feed. If you select **Manifest file**, you receive a manifest file similar to the following when no data is collected:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **Substituir cadeias de caracteres do sistema operacional**] | Ao coletar dados, alguns caracteres (como novas linhas) podem causar problemas. Selecione essa opção para remover esses caracteres dos arquivos de feed.<p>Essa opção detecta as seguintes sequências de caracteres incorporadas nos dados do cliente e as substitui por um espaço:</p> <ul><li>**Windows:** CRLF, CR, or TAB</li><li>**Mac and Linux:** \n, \r, or \t</li></ul> |
    | [!UICONTROL **Habilitar pesquisas dinâmicas**] | As pesquisas dinâmicas permitem que você receba arquivos de pesquisa adicionais no feed de dados que, de outra forma, não estarão disponíveis. Essa configuração permite que as seguintes tabelas de pesquisa sejam enviadas com cada arquivo de feed de dados:<ul><li> **Nome da operadora**</li><li>**Atributos móveis**</li><li>**Tipo de sistema operacional**</li></ul><p>Para obter mais informações, consulte [Pesquisas dinâmicas](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
    | **Permitir ocorrências de chegada atrasadas** | Os dados históricos podem chegar depois que uma tarefa de feed de dados terminar o processamento de uma determinada hora ou dia, por exemplo, por meio de ocorrências com carimbos de data e hora ou fontes de dados.<p>Selecione essa opção para incluir dados que chegaram depois que o feed de dados terminou de processar dados dentro da frequência de relatório definida (geralmente, a cada dia ou a cada hora). Com essa opção habilitada, toda vez que um feed de dados processar os dados, ele verificará todas as ocorrências atrasadas que chegaram e as reunirá no próximo arquivo de feed de dados enviado.</p><p>Para obter mais informações, consulte [Ocorrências de chegada tardia](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
    | **Janela de pesquisa** (para ocorrências de chegada tardia) | Esta opção é exibida quando a opção **[!UICONTROL Permitir ocorrências de chegada tardia]** está habilitada. Selecione a janela de retrospectiva para limitar o intervalo de tempo de ocorrências atrasadas incluídas. Selecione **[!UICONTROL Ilimitado]** se quiser permitir todas as ocorrências de chegada atrasadas, independentemente do atraso. Você pode escolher um intervalo predefinido, como **[!UICONTROL 1 hora]**, **[!UICONTROL 2 horas]**, **[!UICONTROL 1 semana]**, **[!UICONTROL 2 semanas]** e assim por diante. Ou selecione **[!UICONTROL Janela de pesquisa personalizada]** e, no campo **[!UICONTROL Pesquisa personalizada]**, especifique uma janela de pesquisa com duração máxima de 26.280 horas. |
@@ -90,7 +90,7 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
 1. Use um dos métodos a seguir ou ambos para determinar quais colunas de dados incluir no feed:
 
-   * **Adicionar colunas individualmente:** Na seção **[!UICONTROL Disponível]** à esquerda, selecione as colunas que deseja incluir e **[!UICONTROL Incluir]**. Todas as colunas de dados no Adobe Analytics estão disponíveis. Você pode selecionar várias colunas mantendo a tecla **[!UICONTROL Shift]** pressionada, ou mantendo a tecla **[!UICONTROL Command]** (no macOS) ou **[!UICONTROL Ctrl]** (no Windows) pressionada. Clique em **[!UICONTROL Adicionar tudo]** para incluir todas as colunas em um feed de dados.
+   * **Adicionar colunas individualmente:** Na seção **[!UICONTROL Disponível]** à esquerda, selecione as colunas que deseja incluir e **[!UICONTROL Incluir]**. All data columns in Adobe Analytics are available. You can select multiple columns by holding **[!UICONTROL Shift]**, or by holding **[!UICONTROL Command]** (on macOS) or **[!UICONTROL Ctrl]** (on Windows). Clique em **[!UICONTROL Adicionar tudo]** para incluir todas as colunas em um feed de dados.
 
      As colunas adicionadas aparecem na seção **[!UICONTROL Incluídos]** à direita.
 
@@ -98,21 +98,21 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
      Todas as colunas incluídas no modelo aparecem na seção **[!UICONTROL Incluídos]** à direita.
 
-1. (Opcional) Para criar um modelo de coluna baseado no feed de dados que você está criando no momento, selecione **[!UICONTROL Salvar como modelo]**, especifique um nome para o modelo e selecione **[!UICONTROL Salvar]**. Essa opção é útil se você planeja criar feeds de dados adicionais que incluem as mesmas colunas.
+1. (Optional) To create a column template that is based on the data feed that you are currently creating, select **[!UICONTROL Save as template]**, specify a name for the template, then select **[!UICONTROL Save]**. This option is useful if you plan to create additional data feeds that include the same columns.
 
-   ![Criar modelo de coluna ao criar um feed de dados](assets/data-feed-template-create2.png)
+   ![Create column template while creating a data feed](assets/data-feed-template-create2.png)
 
-1. (Opcional) Para baixar uma lista de colunas incluídas no formato .csv, selecione **[!UICONTROL Baixar colunas]**. Essa opção pode ser útil para feeds de dados que tenham um grande número de colunas.
+1. (Optional) To download a list of included columns in .csv format, select **[!UICONTROL Download columns]**. This option can be useful for data feeds that have a large number of columns.
 
-1. Na seção [!UICONTROL **Agendar**], especifique as seguintes informações:
+1. In the [!UICONTROL **Schedule**] section, specify the following information:
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Frequência**] | Selecione a frequência com que o feed de dados deve ser enviado. As opções disponíveis são preenchidas dinamicamente com base na configuração do conjunto de relatórios. <p>As seguintes opções estão disponíveis com frequência:</p><ul><li>**Diariamente**: os feeds contêm dados de um dia inteiro, da meia-noite à meia-noite no fuso horário do conjunto de relatórios. Use essa opção para preenchimento retroativo ou dados históricos, ou para continuar com os feeds.</li><li>**Por hora**: os feeds contêm dados de uma hora. Use esta opção para continuar os feeds.</li></ul><p>Uma frequência de exportação de 15 minutos é possível, mas não está disponível por padrão. Para que essa opção fique disponível em seu ambiente, primeiro entre em contato com o Atendimento ao cliente da Adobe e solicite que seu conjunto de relatórios faça exportações a cada 15 minutos.</p> |
-   | [!UICONTROL **Atraso no processamento**] | Escolha se deve aguardar um determinado período antes de processar um arquivo de feed de dados. Um atraso pode ser útil para dar às implementações móveis uma oportunidade para que os dispositivos offline fiquem online e enviem dados. Ele também pode ser usado para acomodar os processos do lado do servidor de sua organização ao gerenciar arquivos processados anteriormente. Na maioria dos casos, não é necessário atrasar. Você pode atrasar um feed em até 8 horas (480 minutos) ou ainda mais se selecionar uma quantidade personalizada de tempo (9.999 minutos de atraso, ou cerca de 1 semana). |
-   | [!UICONTROL **Feed contínuo**] | Quando selecionada, essa opção remove a data de término, permitindo que um feed seja executado indefinidamente. Quando um feed terminar de processar dados históricos, ele aguarda que os dados terminem de coletar por uma determinada hora ou dia. Quando a hora ou o dia atual terminar, o processamento será iniciado após o atraso especificado. |
-   | [!UICONTROL **Data de início**] | Especifique a data em que deseja que o feed de dados comece. Para iniciar imediatamente o processamento de feeds de dados para dados históricos, defina essa data como qualquer data no passado quando os dados estiverem sendo coletados. A data de início é baseada no fuso horário do conjunto de relatórios. |
-   | [!UICONTROL **Data final**] | Especifique a data em que deseja que o feed de dados termine. A data de término é baseada no fuso horário do conjunto de relatórios. |
+   | [!UICONTROL **Frequência**] | Select how often the data feed should be sent. The options that are available are dynamically populated based on your report suite configuration. <p>The following options are commonly available:</p><ul><li>**Diariamente**: os feeds contêm dados de um dia inteiro, da meia-noite à meia-noite no fuso horário do conjunto de relatórios. Use essa opção para preenchimento retroativo ou dados históricos, ou para continuar com os feeds.</li><li>**Por hora**: os feeds contêm dados de uma hora. Use esta opção para continuar os feeds.</li></ul><p>Uma frequência de exportação de 15 minutos é possível, mas não está disponível por padrão. Para que essa opção fique disponível em seu ambiente, primeiro entre em contato com o Atendimento ao cliente da Adobe e solicite que seu conjunto de relatórios faça exportações a cada 15 minutos.</p> |
+   | [!UICONTROL **Atraso no processamento**] | Escolha se deve aguardar um determinado período antes de processar um arquivo de feed de dados. Um atraso pode ser útil para dar às implementações móveis uma oportunidade para que os dispositivos offline fiquem online e enviem dados. Ele também pode ser usado para acomodar os processos do lado do servidor de sua organização ao gerenciar arquivos processados anteriormente. Na maioria dos casos, não é necessário atrasar. You can delay a feed by up to 8 hours (480 minutes), or even longer if you select a custom amount of time (9,999 minutes of delay, or about 1 week). |
+   | [!UICONTROL **Feed contínuo**] | When selected, this option removes the end date, allowing a feed to run indefinitely. Quando um feed terminar de processar dados históricos, ele aguarda que os dados terminem de coletar por uma determinada hora ou dia. When the current hour or day concludes, processing begins after the specified delay. |
+   | [!UICONTROL **Data de início**] | Specify the date when you want the data feed to begin. Para iniciar imediatamente o processamento de feeds de dados para dados históricos, defina essa data como qualquer data no passado quando os dados estiverem sendo coletados. The start date is based on the report suite&#39;s time zone. |
+   | [!UICONTROL **Data final**] | Specify the date when you want the data feed to end. The end date is based on the report suite&#39;s time zone. |
 
 1. Na seção [!UICONTROL **Destino**], configure o destino para onde deseja que os dados sejam enviados.
 
@@ -120,8 +120,8 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
    >
    >Considere o seguinte ao configurar um destino de relatórios:
    >
-   >* A Adobe recomenda usar uma conta em nuvem para o destino do seu relatório. [Contas FTP e SFTP herdadas](#legacy-destinations) estão disponíveis, mas não são recomendadas.
-   >* Todas as contas em nuvem configuradas anteriormente estão disponíveis para uso nos feeds de dados. É possível configurar contas na nuvem de qualquer das seguintes maneiras:
+   >* Adobe recommends using a cloud account for your report destination. [Contas FTP e SFTP herdadas](#legacy-destinations) estão disponíveis, mas não são recomendadas.
+   >* Any cloud accounts that you previously configured are available to use for data feeds. É possível configurar contas na nuvem de qualquer das seguintes maneiras:
    >
    >   * Ao configurar contas na nuvem para o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
    >   
@@ -143,9 +143,9 @@ Antes de criar um feed de dados, é importante ter uma compreensão básica dos 
 
 1. Selecione **[!UICONTROL Salvar]**.
 
-## Gerenciar modelos de coluna
+## Manage column templates
 
-Os modelos permitem reutilizar as mesmas colunas para feeds de dados futuros que você criar.
+Templates allow you to reuse the same columns for future data feeds that you create.
 
 Ao gerenciar modelos, você pode criar novos modelos, usar modelos já criados, copiar modelos, editar modelos e excluir modelos.
 
@@ -153,9 +153,9 @@ Ao gerenciar modelos, você pode criar novos modelos, usar modelos já criados, 
 
 ![Gerenciar modelos de coluna](assets/data-feed-template-manage.png)
 
-### Criar um modelo de coluna
+### Create a column template
 
-Ao criar vários feeds de dados que usam as mesmas colunas, a Adobe recomenda criar modelos de coluna. Todos os modelos de coluna que você criar estarão disponíveis para uso por qualquer pessoa em sua organização.
+When creating multiple data feeds that use the same columns, Adobe recommends that you create column templates. Todos os modelos de coluna que você criar estarão disponíveis para uso por qualquer pessoa em sua organização.
 
 Para criar um modelo de coluna:
 
@@ -183,19 +183,19 @@ Para criar um modelo de coluna:
 
 ### Copiar um modelo de coluna
 
+1. In Adobe Analytics, go to [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**] > **[!UICONTROL Manage templates]**.
+
+1. Select the template that you want to copy, then select **[!UICONTROL Copy]**.
+
+1. In the **[!UICONTROL Template name]** field, specify a name for the template.
+
+1. Make any additional changes, then select **[!UICONTROL Save]**.
+
+### Delete column templates
+
 1. No Adobe Analytics, vá para [!UICONTROL **Admin**] > [!UICONTROL **Feeds de dados**] > **[!UICONTROL Gerenciar modelos]**.
 
-1. Selecione o modelo que você deseja copiar e selecione **[!UICONTROL Copiar]**.
-
-1. No campo **[!UICONTROL Nome do modelo]**, especifique um nome para o modelo.
-
-1. Faça alterações adicionais e selecione **[!UICONTROL Salvar]**.
-
-### Excluir modelos de coluna
-
-1. No Adobe Analytics, vá para [!UICONTROL **Admin**] > [!UICONTROL **Feeds de dados**] > **[!UICONTROL Gerenciar modelos]**.
-
-1. Selecione um ou mais modelos que deseja excluir e selecione **[!UICONTROL Excluir]**.
+1. Select one or more templates that you want to delete, then select **[!UICONTROL Delete]**.
 
 
 <!-- why would you want to do this? -->

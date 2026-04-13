@@ -1,6 +1,6 @@
 ---
-description: Saiba mais sobre a área e a visualização de área empilhada.
-title: Área e empilhado
+description: Learn about the Area and the Area stacked visualization.
+title: Area And Stacked
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
@@ -61,6 +61,6 @@ Use a opção **[!UICONTROL 100% empilhada]** em ![Setting](/help/assets/icons/S
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

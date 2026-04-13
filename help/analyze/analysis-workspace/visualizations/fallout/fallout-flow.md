@@ -1,6 +1,6 @@
 ---
-description: Saiba como usar a visualização de fallout no Analysis Workspace.
-title: Visão geral do fallout
+description: Learn how to use the fallout visualization in Analysis Workspace.
+title: Fallout Overview
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
@@ -41,20 +41,20 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizaç
 
 
 
-As visualizações de fallout permitem
+Fallout visualizations let you
 
 * Fazer comparações lado a lado de dois segmentos diferentes no mesmo relatório
 * Arrastar, soltar e reorganizar as etapas do funil (pontos de contato).
-* Combinar valores de diferentes dimensões e métricas
-* Criar um relatório de fallout multidimensional
-* Identifique para onde os clientes vão imediatamente depois de sair
+* Mix and match values from different dimensions and metrics
+* Create a multi-dimensional fallout report
+* Identify where customers go immediately after falling out
 
 O Fallout exibe as taxas de conversão e de fallout entre cada etapa ou ponto de contato em uma sequência.
 
-Por exemplo, você pode rastrear os pontos de fallout de um visitante durante um processo de compra. Basta selecionar um ponto de contato inicial e um ponto de contato de conclusão e adicionar pontos de contato intermediários para criar um caminho de navegação do site. Mas você também pode fazer fallouts multidimensionais.
+For example, you can track a visitor&#39;s fallout points during a purchase process. Just select a beginning touchpoint and a conclusion touchpoint, and add intermediate touchpoints to create a website navigation path. But you can also do multi-dimensional fallouts.
 
-Uma visualização de fallout é útil para analisar:
+A fallout visualization is useful for analyzing:
 
 * Taxas de conversão por meio de processos específicos no site (como um processo de compra ou registro).
-* Fluxos de tráfego gerais e de escopo mais amplo: das pessoas que visualizaram a página inicial, esse fluxo mostra quantos passaram a realizar uma pesquisa e, em seguida, quantos deles acabaram observando um item específico.
-* Correlações entre eventos no site. As correlações mostram a porcentagem de pessoas que observaram sua política de privacidade que compraram um produto.
+* General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item.
+* Correlations between events on your site. Correlations show what percentage of people who looked at your privacy policy went on to purchase a product.

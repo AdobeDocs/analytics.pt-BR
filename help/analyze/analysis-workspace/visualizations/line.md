@@ -1,5 +1,5 @@
 ---
-description: Use a visualização de linha para visualizar conjuntos de dados de tendências (com base no tempo).
+description: Use the line visualization to visualize trended (time-based) datasets.
 title: Linha
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
@@ -43,7 +43,7 @@ Como parte das [configurações de visualização](freeform-analysis-visualizati
 |---|---|
 | **[!UICONTROL Granularidade]** | Selecione na lista suspensa de granularidade para alterar uma visualização de tendência de diária para semanal, mensal etc. A granularidade também é atualizada na tabela da fonte de dados. |
 | **[!UICONTROL Mostrar mín.]** <br/>**[!UICONTROL Mostrar máx.]** | É possível sobrepor um rótulo de valores mínimo e máximo para realçar os valores mínimo e máximo de uma métrica. Observação: os valores mín./máx. são derivados dos pontos de dados visíveis na visualização, não do conjunto completo de valores de uma dimensão.<br/>![Uma sobreposição com o rótulo de valores mínimo e máximo.](assets/min-max-labels.png) |
-| **[!UICONTROL Mostrar linha de tendências]** | É possível optar por adicionar uma regressão ou linha de tendências de média móvel à sua série de linhas. As linhas de tendências ajudam a descrever um padrão mais claro nos dados. Uma vez selecionadas, escolha um modelo na lista. Consulte [Modelos](#models) para obter uma visão geral e uma descrição dos modelos disponíveis.<br/>![Linha de tendências linear](assets/show-linear-trendline.png).<p>**DICA** Recomenda-se que linhas de tendência sejam aplicadas a dados que não incluem hoje (dados parciais) ou datas futuras. As datas de hoje ou futuras distorcem a linha de tendências. No entanto, se você precisar incluir datas futuras, remova zeros dos dados para evitar distorções nesses dias. Para isso, acesse a tabela de fontes de dados da visualização, escolha a coluna de métrica e habilite a opção **[!UICONTROL Configurações de coluna]** > **[!UICONTROL Interpretar zero como nenhum valor]**.</p> |
+| **[!UICONTROL Mostrar linha de tendências]** | É possível optar por adicionar uma regressão ou linha de tendências de média móvel à sua série de linhas. As linhas de tendências ajudam a descrever um padrão mais claro nos dados. Uma vez selecionadas, escolha um modelo na lista. Consulte [Modelos](#models) para obter uma visão geral e uma descrição dos modelos disponíveis.<br/>![Linha de tendências linear](assets/show-linear-trendline.png).<p>**TIP** It is recommended that trendlines be applied to data that does not include today (partial data) or future dates. As datas de hoje ou futuras distorcem a linha de tendências. No entanto, se você precisar incluir datas futuras, remova zeros dos dados para evitar distorções nesses dias. Para isso, acesse a tabela de fontes de dados da visualização, escolha a coluna de métrica e habilite a opção **[!UICONTROL Configurações de coluna]** > **[!UICONTROL Interpretar zero como nenhum valor]**.</p> |
 
 ### Modelos
 

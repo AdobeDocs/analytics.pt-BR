@@ -21,17 +21,17 @@ A dimensão deve conter valores que permitam aplicar uma ou mais regras para que
 
 Para definir um conjunto de regras para um conjunto de classificações:
 
-1. Selecione **[!UICONTROL Componentes]** na barra de menu superior do Adobe Analytics e selecione **[!UICONTROL Conjuntos de classificações]**.
-1. Em **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Conjuntos de classificações]**.
-1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione o conjunto de classificações para o qual deseja definir as regras.
-1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _nome do conjunto de classificações_]**, selecione a guia **[!UICONTROL Regras]**.
+1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
+1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
+1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to define the rules.
+1. In the **[!UICONTROL Classification Set: _classification set name_]**&#x200B;dialog, select the **[!UICONTROL Rules]**&#x200B;tab.
 
-   * Se você estiver acessando a interface **[!UICONTROL Regras]** pela primeira vez para um conjunto de classificação ou decidir até o momento continuar a usar a interface herdada do construtor de regras, será exibida uma caixa de diálogo que permite selecionar como começar. As opções são:
+   * If you are accessing the **[!UICONTROL Rules]** interface for the first time for a classification set, or decided so far to continue to use the legacy rules builder interface, you are presented with a dialog that allows you to select how to get started. As opções são:
 
       * **Migrar regras existentes**. Importe as regras de classificação atuais e continue a trabalhar com essas regras na nova interface. As regras existentes são preservadas e convertidas no novo formato.
          * Selecione **[!UICONTROL Migrar regras]** para continuar.
          * Na caixa de diálogo **[!UICONTROL Confirmar migração]**, leia as implicações da migração.
-            * Selecione **[!UICONTROL Migrar regras]** para confirmar a migração. Após a conclusão da migração, use a [Interface do conjunto de regras](#rule-set-interface) para criar novas regras e editar as regras migradas existentes.
+            * Select **[!UICONTROL Migrate rules]** to confirm the migration. Após a conclusão da migração, use a [Interface do conjunto de regras](#rule-set-interface) para criar novas regras e editar as regras migradas existentes.
             * Selecione **[!UICONTROL Cancelar]** para cancelar a migração
 
       * **Iniciar novo**. Crie novas regras de classificação do zero, usando o novo construtor de regras. Escolha esta opção se você deseja reformular a sua lógica de classificação ou começar do zero com novas regras de classificação.
@@ -78,7 +78,7 @@ Cada regra individual é definida no conjunto de regras na interface Regra. A in
 | | Descrição |
 |---|---|
 | 1 | O nome da função selecionada e a entrada inserida para a função. |
-| 2 | A entrada da função selecionada. A entrada depende da função selecionada. Por exemplo, para a função **[!UICONTROL Expressão regular]**, a entrada é uma expressão regular. E para a função **[!UICONTROL Split]**, a entrada é um token. Insira a entrada apropriada para a função específica. Por exemplo, `^(.+)\:(.+)\:(.+)$` para uma expressão regular que identifica três classificações em um código de campanha interno. |
+| 2 | The input for the selected function. The input depends on the selected function. For example, for the **[!UICONTROL Regular expression]** function, the input is a regular expression. And for the **[!UICONTROL Split]** function, the input is a token. Enter the appropriate input for the specific function. For example, `^(.+)\:(.+)\:(.+)$` for a regular expression that identifies three classifications in an internal campaign code. |
 | 3 | Cada operação define uma classificação específica como um valor. <br/>Selecione uma classificação no menu suspenso **[!UICONTROL Definir Classificação]** e insira um valor para **[!UICONTROL a]**. <br/>Use ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir uma operação da lista. |
 | 4 | Selecione ![Adicionar](/help/assets/icons/Add.svg) **[!UICONTROL Adicionar operação]** para adicionar outra operação à função. |
 | 5 | Selecione ![Divisa](/help/assets/icons2/ChevronDown.svg) para recolher a regra. Selecione ![ChevronLeft](/help/assets/icons/ChevronLeft.svg) para expandir a regra.<br/>Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir a regra. |
@@ -209,13 +209,13 @@ Você deseja definir uma regra para atribuir `Email` como valor à classificaç�
 
 ### Expressão regular
 
-Define uma ou mais classificações com base em uma expressão regular aplicada ao valor da dimensão principal.
+Sets one or more classifications based on a regular expression applied to the key dimension value.
 
 +++ Detalhes 
 
 #### Entrada necessária
 
-Insira um valor para **[!UICONTROL Expressão regular]**. Por exemplo: `^(.+)\:(.+)\:FY(.+)$`.
+Enter a value for **[!UICONTROL Regular Expression]**. Por exemplo: `^(.+)\:(.+)\:FY(.+)$`.
 
 #### Caso de uso
 
@@ -313,10 +313,10 @@ Se você criar várias regras que não compartilham a mesma operação **[!UICON
 
 ### Exemplo
 
-Você deseja classificar com a classificação **[!UICONTROL Tipo]** como os usuários pesquisam por um atleta usando a sequência de pesquisa como dimensão principal. Por exemplo, usando esse conjunto de regras:
+You want to classify with the classification **[!UICONTROL Type]** how users search for an athlete using the search string as the key dimension. For example, using this rule set:
 
-![Prioridade de regras](assets/rule-priority.png)
+![Rules priority](assets/rule-priority.png)
 
-* Quando um usuário pesquisa por `Cowboys Fantasy Tony Romo`, `Romo` é classificado como **[!UICONTROL Tipo]**.
-* Quando um usuário pesquisa por `Cowboys Fantasy Tony Romeo`, `Fantasy` é classificado como **[!UICONTROL Tipo]**.
-* Quando um usuário pesquisa por `Cowboys vs. Broncos`, `Team` é classificado como **[!UICONTROL Tipo]**.
+* When a user searches for `Cowboys Fantasy Tony Romo`, `Romo` is classified as **[!UICONTROL Type]**.
+* When a user searches for `Cowboys Fantasy Tony Romeo`, `Fantasy` is classified as **[!UICONTROL Type]**.
+* When a user searches for `Cowboys vs. Broncos`, `Team` is classified as **[!UICONTROL Type]**.

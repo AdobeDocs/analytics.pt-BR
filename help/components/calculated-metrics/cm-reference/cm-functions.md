@@ -177,7 +177,7 @@ Adiciona todos os valores numéricos de uma métrica em uma coluna (nos elemento
 |---|---|
 | métrica | A métrica que deseja contar. |
 
-**Caso de uso**: conte o número de pontos de dados incluídos em um cálculo, como o número de dias em um intervalo de datas ou o número de produtos em um detalhamento. Isso ajuda quando é necessário saber quantos itens contribuem para um valor agregado.
+**Use case**: Count the number of data points included in a calculation, such as the number of days in a date range or the number of products in a breakdown. This helps when you need to know how many items contribute to an aggregated value.
 
 **No Construtor de Métrica Calculada**: Aplique **Count** a uma métrica como *Visitas* ou *Receita* para retornar o número total de linhas (ou pontos de dados) incluídos no detalhamento ou intervalo de datas atual.
 
@@ -207,11 +207,11 @@ Adiciona todos os valores numéricos de uma métrica em uma coluna (nos elemento
 
 **Caso de uso**: Eleva *e* à potência de um determinado número ou métrica. Isso é útil ao modelar tendências de crescimento ou dimensionar uma métrica exponencialmente.
 
-**No Construtor de Métrica Calculada**: Use **Expoente** com uma métrica. Por exemplo: **Expoente**(*Visitas*) eleva *e* à potência da métrica *Visitas*.
+**No Construtor de Métrica Calculada**: Use **Expoente** com uma métrica. For example: **Exponent**(*Visits*) raises *e* to the power of the *Visits* metric.
 
 >[!TIP]
 >
->Combine com **Logaritmo** para modelagem avançada ou para suavizar dados altamente variáveis ao comparar padrões de crescimento.
+>Combine with **Logarithm** for advanced modeling or to smooth out highly variable data when comparing growth patterns.
 >
 
 
@@ -236,13 +236,13 @@ Adiciona todos os valores numéricos de uma métrica em uma coluna (nos elemento
 | métrica | A métrica para a qual você deseja obter a média. |
 | include_zeros | Se os valores zero devem ser incluídos nos cálculos. |
 
-**Caso de uso**: calcule a média aritmética de um conjunto de valores, como a receita diária média ou o número médio de visitas por campanha. Isso ajuda a estabelecer uma linha de base para comparar valores individuais em um conjunto de dados.
+**Use case**: Calculate the arithmetic average of a set of values, such as the average daily revenue or the average number of visits per campaign. This helps establish a baseline for comparing individual values within a dataset.
 
-**No Construtor de Métrica Calculada**: Aplique a **Média** a uma métrica como *Receita* ou *Visitas* para retornar o valor médio em todos os pontos de dados no detalhamento ou intervalo de datas selecionado.
+**In the Calculated Metric Builder**: Apply **Mean** to a metric like *Revenue* or *Visits* to return the average value across all data points in the selected breakdown or date range.
 
 >[!TIP]
 >
->Use para entender as tendências gerais de desempenho ou combine-as com **Desvio Padrão** para medir a consistência em relação à média.
+>Use to understand overall performance trends, or combine it with **Standard Deviation** to measure consistency around the average.
 >
 
 ## Mediana {#median}
@@ -297,7 +297,7 @@ Retorna o resto após dividir x por y usando a divisão euclidiana.
 | metric_X | A primeira métrica que você deseja dividir. |
 | metric_Y | A segunda métrica que você deseja dividir. |
 
-**Caso de uso**: retornar o restante após dividir um número por outro. Isso pode ser útil para padrões cíclicos ou repetitivos, como identificar todos os dias ou fazer uma campanha em sequência.
+**Use case**: Return the remainder after dividing one number by another. This can be useful for cyclical or repeating patterns, such as identifying every nth day or campaign in a sequence.
 
 **No Construtor de Métrica Calculada**: Use **Módulo** com duas entradas numéricas. Por exemplo: **Modulo**(*Número do Dia*, 7) retorna o restante após dividir o número do dia por sete, o que pode ajudar a agrupar os dados por semana.
 
@@ -346,11 +346,11 @@ MODULO(MODULO(x,y)+y,y)
 
 **Caso de uso**: identifique o valor abaixo do qual determinada porcentagem de pontos de dados cai, como o 90º percentil da receita diária ou exibições de página. Isso ajuda a medir a distribuição e detectar outliers de alto desempenho.
 
-**No Construtor de Métricas Calculadas**: Aplique **Percentil** a uma métrica como *Receita* ou *Visitas* e especifique o valor do percentil desejado (por exemplo, **Percentil**(*Receita*, 90)). O resultado mostra o limite abaixo do qual 90% dos pontos de dados estão.
+**In the Calculated Metric Builder**: Apply **Percentile** to a metric like *Revenue* or *Visits*, and specify the desired percentile value (for example, **Percentile**(*Revenue*, 90)). The result shows the threshold that 90% of data points fall below.
 
 >[!TIP]
 >
->Use o para definir benchmarks de desempenho ou filtrar dias, campanhas ou produtos com melhor desempenho.
+>Use to set performance benchmarks or to filter for top-performing days, campaigns, or products.
 >
 
 ## Operador de potência {#power-operator}
@@ -431,7 +431,7 @@ Arredondar sem um parâmetro *numérico* é igual a arredondar com um parâmetro
 | Argumento | Descrição |
 |---|---|
 | metric | A métrica que deseja arredondar. |
-| número | Quantos dígitos à direita do separador decimal devem retornar. (Se negativo, retorna zeros à esquerda do separador decimal). |
+| number | Quantos dígitos à direita do separador decimal devem retornar. (Se negativo, retorna zeros à esquerda do separador decimal). |
 
 **Caso de uso**: simplifique os resultados numéricos arredondando-os para um número especificado de casas decimais. Isso é útil para criar visualizações mais limpas ou facilitar a leitura das métricas calculadas nos relatórios.
 
@@ -466,9 +466,9 @@ ROUND( 314.15, -2) = 300
 
 Retorna a contagem de linhas referente a uma determinada coluna (o número de elementos únicos relatados em uma dimensão). *Únicos excedidos* é contado como 1.
 
-**Caso de uso**: conte o número total de linhas retornadas em um detalhamento ou conjunto de dados, como o número de dias, campanhas ou produtos incluídos em um relatório. Isso ajuda a entender quantos itens contribuem para sua análise.
+**Caso de uso**: conte o número total de linhas retornadas em um detalhamento ou conjunto de dados, como o número de dias, campanhas ou produtos incluídos em um relatório. This helps understand how many items contribute to your analysis.
 
-**No Construtor de Métrica Calculada**: Aplique **Contagem de Linhas** para retornar o número total de linhas no detalhamento ou segmento atual. Por exemplo, ao exibir *Receita* por *Produto*, **Contagem de Linhas** retorna o número de produtos exibidos.
+**No Construtor de Métrica Calculada**: Aplique **Contagem de Linhas** para retornar o número total de linhas no detalhamento ou segmento atual. For example, when viewing *Revenue* by *Product*, **Row Count** returns the number of products shown.
 
 >[!TIP]
 >
@@ -610,13 +610,13 @@ A soma das colunas em cada linha.
 | | A métrica para a qual você deseja obter o desvio padrão. |
 | include_zeros | Se os valores zero devem ser incluídos nos cálculos. |
 
-**Caso de uso**: meça quantos valores variam da média, como avaliar a consistência da receita diária ou das visitas ao longo do tempo. Isso ajuda a identificar a volatilidade, a estabilidade ou flutuações incomuns no desempenho.
+**Use case**: Measure how much values vary from the average, such as evaluating how consistent daily revenue or visits are over time. This helps identify volatility, stability, or unusual fluctuations in performance.
 
-**No Construtor de Métrica Calculada**: Aplique **Desvio Padrão** a uma métrica como *Receita* ou *Visitas* para calcular a distribuição de valores dentro do detalhamento ou intervalo de datas selecionado. Por exemplo: **Desvio Padrão**(*Receita*) mostra quanta receita diária se desvia da média.
+**In the Calculated Metric Builder**: Apply **Standard Deviation** to a metric like *Revenue* or *Visits* to calculate the spread of values within the selected breakdown or date range. For example: **Standard Deviation**(*Revenue*) shows how much daily revenue deviates from the mean.
 
 >[!TIP]
 >
->Use com *Média* para detectar anomalias ou comparar a consistência de desempenho entre campanhas, produtos ou segmentos.
+>Use with *Mean* to detect anomalies or compare the consistency of performance across campaigns, products, or segments.
 >
 
 ## Variância {#variance}
@@ -639,13 +639,13 @@ A soma das colunas em cada linha.
 | métrica | A métrica para a qual você deseja obter a variação. |
 | include_zeros | Se os valores zero devem ser incluídos nos cálculos. |
 
-**Caso de uso**: meça até que ponto os valores em um conjunto de dados se distribuem pela média, como analisar quanta receita diária ou duração da sessão varia ao longo do tempo. Isso ajuda a quantificar o grau de consistência ou flutuação no desempenho.
+**Use case**: Measure how far values in a dataset spread out from the mean, such as analyzing how much daily revenue or session duration varies over time. This helps quantify the degree of consistency or fluctuation in performance.
 
-**No Construtor de Métrica Calculada**: Aplique **Variação** a uma métrica como *Receita* ou *Tempo gasto por visita* para calcular o desvio médio quadrático da média. Por exemplo: **Variance**(*Revenue*) mostra quantos valores de receita diferem da média no intervalo selecionado.
+**In the Calculated Metric Builder**: Apply **Variance** to a metric like *Revenue* or *Time Spent per Visit* to calculate the average squared deviation from the mean. For example: **Variance**(*Revenue*) shows how much revenue values differ from the average over the selected range.
 
 >[!TIP]
 >
->Use com o **Desvio Padrão** para entender melhor a variabilidade dos dados e identificar áreas de desempenho imprevisível.
+>Use with **Standard Deviation** to better understand data variability and identify areas of unpredictable performance.
 >
 
 A equação de VARIAÇÃO é:

@@ -1,5 +1,5 @@
 ---
-description: Saiba como visualizar dados de comparação no Analysis Workspace, criando comparações com o mês passado, o ano passado e assim por diante.
+description: Learn how to visualize comparison data in Analysis Workspace, such as building comparisons to last month, last year, and so on.
 title: Combinado
 feature: Visualizations
 role: User, Admin
@@ -99,6 +99,6 @@ Este é um exemplo de um gráfico de combinação com as funções Média cumula
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

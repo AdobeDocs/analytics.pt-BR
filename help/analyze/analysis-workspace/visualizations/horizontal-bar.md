@@ -1,6 +1,6 @@
 ---
-description: Saiba como usar barras horizontais para representar vários valores em uma ou mais métricas.
-title: Barra Horizontal E Barra Horizontal Empilhada
+description: Learn how to use horizontal bars to represent various values across one or more metrics.
+title: Horizontal Bar And Horizontal Bar Stacked
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
@@ -62,7 +62,7 @@ Use a opção **[!UICONTROL 100% empilhado]** em ![Configurações](/help/ass
 >[!MORELIKETHIS]
 >
 >[Adicionar uma visualização em um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
