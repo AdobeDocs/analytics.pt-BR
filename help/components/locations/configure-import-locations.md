@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configurar locais de importação e exportação na nuvem
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
+source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1711'
 ht-degree: 33%
 
 ---
@@ -78,7 +78,7 @@ Para configurar um local ARN de função do Amazon S3, especifique as seguintes 
 
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md) ou o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md), o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou o [Report Builder](/help/analyze/report-builder/report-builder-export.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
    Os dados importados não são excluídos do destino da nuvem após serem importados.
 
@@ -102,7 +102,7 @@ Para configurar um local da Google Cloud Platform, especifique as seguintes info
 
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md) ou o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md), o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou o [Report Builder](/help/analyze/report-builder/report-builder-export.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
    Os dados importados não são excluídos do destino da nuvem após serem importados.
 
@@ -126,7 +126,7 @@ Para configurar um local do Azure SAS, especifique as seguintes informações:
 
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md) ou o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md), o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou o [Report Builder](/help/analyze/report-builder/report-builder-export.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
    Os dados importados não são excluídos do destino da nuvem após serem importados.
 
@@ -151,7 +151,7 @@ Para configurar um local do Azure RBAC, especifique as seguintes informações:
 
 1. Selecione [!UICONTROL **Salvar**].
 
-   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md) ou o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
+   Agora você pode importar ou exportar dados para ou da conta e do local configurados. Para exportar dados, use os [Feeds de Dados](/help/export/analytics-data-feed/create-feed.md), o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou o [Report Builder](/help/analyze/report-builder/report-builder-export.md). Para importar dados, use [Conjuntos de classificações](/help/components/classifications/sets/overview.md).
 
    Os dados importados não são excluídos do destino da nuvem após serem importados.
 
