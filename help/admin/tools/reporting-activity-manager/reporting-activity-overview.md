@@ -4,16 +4,14 @@ title: Visão geral do gerenciador de atividades de relatórios
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
 
 # Visão geral do gerenciador de atividades de relatórios
-
-O [!UICONTROL Gerenciador de atividades de relatórios] está disponível para administradores.
 
 Se a sua organização sofrer uma queda do desempenho dos relatórios durante o pico de relatórios, o gerenciador de atividades de relatórios permitirá que você faça um autodiagnóstico e corrija problemas de capacidade sem a intervenção do atendimento ao cliente da Adobe. Você pode gerenciar facilmente as filas de relatórios em uma mesma interface e agir imediatamente para melhorar a experiência dos usuários.
 
