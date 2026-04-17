@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar contas de importação e exportação na nuvem
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
+source-git-commit: abdb37626f8f81a1a8a57bb818565856af3a3714
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 68%
+source-wordcount: '1597'
+ht-degree: 66%
 
 ---
 
@@ -145,14 +145,19 @@ Para configurar uma conta de importação ou exportação na nuvem depois de com
 
    +++FTP
 
-   Os dados do feed de dados podem ser entregues em um local FTP da Adobe ou hospedado pelo cliente. Requer um host FTP, nome de usuário e senha. Use o campo de caminho para colocar arquivos de feed em uma pasta. As pastas já devem existir; os feeds exibem um erro se o caminho especificado não existir.
+   >[!IMPORTANT]
+   >
+   >O FTP não deve ser usado porque os dados fluem pela Internet em texto sem formatação.
+
+
+   Os dados do feed de dados podem ser entregues em um local FTP da Adobe ou hospedado pelo cliente. Requer um host FTP, nome de usuário e senha.
 
    | Campo | Função |
    |---------|----------|
-   | [!UICONTROL **Host**] | Insira o URL de destino FTP desejado. Por exemplo, `ftp.adobe.com`. |
-   | [!UICONTROL **Caminho**] | Pode ser deixado em branco. |
+   | [!UICONTROL **Nome do host**] | Insira o URL de destino FTP desejado. Por exemplo, `ftp.adobe.com`. |
+   | [!UICONTROL **Port**] | Pode ser deixado em branco. Use este campo para colocar arquivos de feed em uma pasta. As pastas já devem existir; os feeds exibem um erro se a porta especificada não existir. |
    | [!UICONTROL **Nome de usuário**] | Insira o nome de usuário para fazer logon no site FTP. |
-   | [!UICONTROL **Senha e senha de confirmação**] | Digite a senha para fazer logon no site FTP. |
+   | [!UICONTROL **Segredo da conta de localização**] | Digite a senha (secreta) para fazer logon no site FTP. |
 
    {style="table-layout:auto"}
 
@@ -160,9 +165,9 @@ Para configurar uma conta de importação ou exportação na nuvem depois de com
 
    +++SFTP
 
-   O suporte SFTP para feeds de dados está disponível. Isso requer que um host SFTP, nome de usuário e site de destino contenham uma chave pública RSA ou DSA válida. Você pode baixar a chave pública apropriada ao criar o feed.
+   O suporte SFTP para feeds de dados está disponível. Isso requer que um host SFTP, nome de usuário e site de destino contenham uma chave pública RSA ou ed25519 válida. Você pode baixar a chave pública apropriada ao criar o feed.
 
-   Ao baixar a chave pública RSA ou DSA para feeds de dados, siga um destes procedimentos:
+   Ao baixar a chave pública RSA ou ed25519 para feeds de dados, siga um destes procedimentos:
 
    * Renomeie o arquivo de chave pública baixado para `authorized_keys` e carregue o arquivo para sua pasta `.ssh` no servidor SFTP.
 
@@ -208,7 +213,7 @@ Para configurar uma conta de importação ou exportação na nuvem depois de com
 
    +++Azure Blob
 
-   O Data Warehouse oferece suporte aos destinos do Azure Blob. Requer um contêiner, uma conta e uma chave. A Amazon criptografa automaticamente os dados em repouso. Os dados são descriptografados automaticamente ao baixá-los. Consulte [Criar uma conta de armazenamento](https://docs.microsoft.com/pt-br/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nos documentos do Microsoft Azure para obter mais informações.
+   O Data Warehouse é compatível com destinos do Azure Blob. Requer um contêiner, uma conta e uma chave. A Amazon criptografa automaticamente os dados em repouso. Os dados são descriptografados automaticamente ao baixá-los. Consulte [Criar uma conta de armazenamento](https://docs.microsoft.com/pt-br/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) nos documentos do Microsoft Azure para obter mais informações.
 
    >[!NOTE]
    >
