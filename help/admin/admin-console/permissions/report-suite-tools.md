@@ -37,7 +37,7 @@ Esta tabela lista todos os itens de permissões em Ferramentas de conjunto de re
 | [!UICONTROL Métricas padrão] | Concede acesso a Configurações individuais do Conjunto de relatórios > Métricas padrão no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Excluir por endereço IP] | Concede acesso a Administração > Excluir por IP na navegação superior do Analytics. |
 | [!UICONTROL Métodos de descoberta] | Concede acesso a Conversão > Métodos de descoberta no Gerenciador de conjunto de relatórios. |
-| [!UICONTROL Variáveis de lista ] | Concede acesso a Conversão > Variáveis de lista no Gerenciador de conjunto de relatórios. |
+| [!UICONTROL Variáveis de lista &#x200B;] | Concede acesso a Conversão > Variáveis de lista no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Personalização de menu] | Concede acesso a Geral > Personalizar menus no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Meus Relatórios Recomendados] | Não usado. |
 | [!UICONTROL Pesquisa paga] | Concede acesso a Geral > Detecção de pesquisa paga no Gerenciador de conjunto de relatórios. |
