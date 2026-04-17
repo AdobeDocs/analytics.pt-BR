@@ -4,10 +4,10 @@ description: Entenda cada item de permissão em Ferramentas do conjunto de relat
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 76%
+source-wordcount: '622'
+ht-degree: 72%
 
 ---
 
@@ -46,7 +46,7 @@ Esta tabela lista todos os itens de permissões em Ferramentas de conjunto de re
 | [!UICONTROL Relatório em tempo real] | Concede acesso a Envolvimento > Tempo real em modelos do Adobe. |
 | [!UICONTROL Administradores do Gerenciador de Atividades de Relatórios] | Não usado. |
 | [!UICONTROL Acesso ao Gerenciador de Atividades de Relatórios] | Não usado. |
-| [!UICONTROL Gerenciamento do Conjunto de Relatórios] | Concede acesso ao Gerenciador de conjunto de relatórios, mas não permite alterações. |
+| [!UICONTROL Gerenciamento do Conjunto de Relatórios] | Concede acesso ao Gerenciador de conjunto de relatórios. Permite a criação de conjuntos de relatórios, mas não concede acesso a nenhum item em &quot;[!UICONTROL Editar Configurações]&quot;. Consulte também [[!UICONTROL Acesso à interface do administrador dos conjuntos de relatórios]](analytics-tools.md). |
 | [!UICONTROL Visitas de Retorno] | Não usado. |
 | [!UICONTROL Reportlet de Resumo da Empresa do Painel de R&amp;A] | Não usado. |
 | [!UICONTROL Reportlet Externo do Painel de R&amp;A] | Não usado. |
@@ -60,5 +60,3 @@ Esta tabela lista todos os itens de permissões em Ferramentas de conjunto de re
 | [!UICONTROL Variáveis de tráfego] | Concede acesso a Tráfego > Variáveis de tráfego no Gerenciador de conjunto de relatórios. |
 | [!UICONTROL Visitante único] | Concede acesso a Conversão > Variável de visitante único. Normalmente não é usado em implementações modernas. |
 | [!UICONTROL Filtros do URL] | Concede acesso a Geral > Filtros de URL interno no Gerenciador de conjunto de relatórios. |
-
-{style="table-layout:auto"}
