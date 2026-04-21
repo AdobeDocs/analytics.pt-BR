@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guia de administração do Analytics
 breadcrumb-title: Guia de administração
 user-guide-description: Saiba mais sobre as tarefas administrativas do Analytics, como gerenciar usuários e produtos no Admin Console da Experience Cloud, configurar conjuntos de relatórios e muito mais.
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
-workflow-type: ht
-source-wordcount: '491'
+source-git-commit: b7839e58e9ac279b3b3ce35c591b67daaeac1b87
+workflow-type: tm+mt
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
@@ -160,4 +160,3 @@ ht-degree: 100%
          + [Migrar contas de usuário do Analytics para Enterprise e Federated IDs](tools/user-management/user-migration/migrate-enterprise.md)
          + [Desabilitar logons herdados](tools/user-management/user-migration/t-disable-legacy-login.md)
          + [APIs afetadas pela migração](tools/user-management/user-migration/developer.md)
-+ [API de administração](https://developer.adobe.com/analytics-apis/docs/2.0/)
