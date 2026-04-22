@@ -3,16 +3,16 @@ title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7a245e2c24e8763c93150aa5b9f3ac2d197f6f1f
+source-git-commit: 907f510e02a0f5cb378c139a20cc147304ad0d70
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1103'
+ht-degree: 91%
 
 ---
 
 # Notas de versão atuais do Adobe Analytics (abril de 2026)
 
-**Última atualização**: 9 de abril de 2026
+**Última atualização**: quinta-feira, 22 de abril de 2026
 
 Essas notas de versão abrangem o período de lançamento de abril de 2026. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Dessa forma, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
@@ -20,7 +20,7 @@ Essas notas de versão abrangem o período de lançamento de abril de 2026. As v
 
 | Recurso e descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ---- |
-| **Servidores MCP para o Adobe Analytics** <br/>Agora é possível vincular o Adobe Analytics aos fluxos de trabalho agênticos existentes com o MCP (Model Context Protocol). É possível solicitar relatórios e insights usando linguagem natural.<p>(Link para a documentação a seguir).</p> | | Final de abril de 2026 |
+| **Servidores MCP para Adobe Analytics** <br/>Os servidores MCP (Model Context Protocol) do Analytics permitem conectar um cliente MCP com suporte ao Adobe Analytics. Depois de conectado, o cliente MCP poderá invocar ferramentas específicas do produto para recuperar dados, executar consultas ou executar operações compatíveis como parte de um fluxo de trabalho AGENT ou LLM. Para obter mais informações, consulte [Servidores MCP do Analytics](https://developer.adobe.com/analytics-mcp/docs/).<p>Se você usou esses servidores MCP durante o período beta, observe que há URLs diferentes entre os endpoints beta e de produção. Verifique se todos os workflows de agente criados durante o período beta foram atualizados para usar os endpoints de produção antes de 31 de maio.</p> | | quinta-feira, 29 de abril de 2026 |
 | **Serviços de mídia de streaming: compatibilidade com dados de programação** <br/>Agora é possível fazer upload de dados de programação de conteúdo ao vivo anterior de mídia de streaming para acompanhar o número de visualizadores de forma mais fácil e precisa.<p>Veja a seguir alguns exemplos de conteúdo ao vivo que são compatíveis com o upload de dados de programação:</p><ul><li>Plataformas FAST (TV com suporte a anúncios gratuitos)</li><li>Transmissões locais</li><li>Esportes ao vivo</li></ul><p>O upload de dados de programação permite acompanhar os dados de de número de visualizadores de programas individuais que foram executados durante o período designado no arquivo de upload. É possível até coletar dados do número de visualizadores para tópicos ou segmentos de programa específicos.</p><p>Esses recursos estão disponíveis independentemente de como você implementou a coleta de mídias de transmissão.</p><p>Anteriormente, era difícil vincular com precisão uma determinada sessão a programas específicos ao analisar o conteúdo ao vivo e não era possível vincular uma determinada sessão a tópicos ou segmentos de programa individuais.</p><p>Para obter mais informações, consulte [Fazer upload de dados de agendamento para rastrear conteúdo ao vivo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 29 de outubro de 2025 | Primeiro semestre de 2026<p>(Planejado originalmente para lançamento em 29 de outubro de 2025)</p> |
 | **Formatação adicional do intervalo de datas da API**<br/> Dois novos formatos agora são compatíveis com a especificação de intervalos de datas nas solicitações de relatório de API do Analytics 2.0. Isso inclui uma fórmula de data e um formato misto. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | Março de 2026 |
 | **Dimensão opcional nas solicitações de relatório da API**<br/> Não é necessário um objeto de dimensão nas solicitações da API de relatório. Se nenhuma dimensão for especificada, a resposta mostrará os dados de um relatório de Totais. [Saiba mais](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | Março de 2026 |
