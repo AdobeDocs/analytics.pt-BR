@@ -4,25 +4,25 @@ keywords: ftp;sftp
 title: Configurar contas FTP - visão geral
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 92%
+source-wordcount: '314'
+ht-degree: 17%
 
 ---
 
-# Configurar contas FTP - visão geral
+# Configurar contas FTP ou SFTP - visão geral
 
-Configuração e uso de contas FTP hospedadas pela Adobe.
+Configurar e usar contas FTP ou SFTP hospedadas pela Adobe.
 
-A Adobe mantém clusters FTP altamente disponíveis e de alto desempenho que foram projetados para melhorar a confiabilidade da transferência de arquivo e garantir o alto desempenho.
+A Adobe mantém clusters FTP ou SFTP altamente disponíveis e de alto desempenho projetados especificamente para melhorar a confiabilidade da transferência de arquivos e, ao mesmo tempo, garantir alto desempenho.
 
-Os clientes da Adobe recebem notificações de manutenção por meio do processo padrão, já que os eventos de manutenção são agendados. Para garantir que os sistemas FTP da Adobe funcionem conforme o esperado e continuem a oferecer uma transferência de dados confiável, segura e de alto desempenho, a Adobe exige que as seguintes diretrizes sejam cumpridas:
+Os clientes da Adobe recebem notificações de manutenção por meio de seu processo padrão, já que os eventos de manutenção são programados. Para garantir que os sistemas FTP ou SFTP da Adobe funcionem conforme projetado e continuem a fornecer transferências de dados seguras, confiáveis e de alto desempenho, a Adobe solicita a adesão às seguintes diretrizes:
 
-* A maioria das contas FTP da Adobe (classificações, fontes de dados e outros) são ativadas automaticamente quando o recurso em questão é configurado. O Atendimento ao cliente da Adobe pode configurar uma nova conta FTP de feed de dados e de envio geral de arquivos para você. Este processo é realizado para garantir a segurança e o espaço disponível para a conta FTP.
-* Os usuários devem remover da conta FTP os dados entregues pela Adobe assim que eles forem transferidos com sucesso para seus sistemas.
-* Informe à Adobe quando as contas FTP não forem mais necessárias para que elas possam ser desativadas.
+* A maioria das contas FTP ou SFTP da Adobe (classificações, fontes de dados e outras) é ativada automaticamente quando o recurso especificado é configurado. Para contas de feed de dados e de entrega de arquivos gerais, o Atendimento ao cliente da Adobe pode configurar uma nova conta FTP ou SFTP para você. Esse processo está em vigor para garantir a segurança e o espaço disponíveis para a conta FTP ou SFTP.
+* Os usuários devem remover os dados entregues pela Adobe à conta FTP ou SFTP depois que os dados forem transferidos com êxito para seus sistemas.
+* Notifique a Adobe quando contas FTP ou SFTP não forem mais necessárias, para que elas possam ser desativadas.
 
 O nome do host FTP da Adobe é `ftp://ftp.omniture.com` ou `ftp://ftp2.omniture.com`.
 
-Esta informação, assim como o nome de usuário e a senha, deve ser fornecida dentro da [!UICONTROL Experience Cloud] (para classificações e fontes de dados) ou pelo representante da Adobe responsável pela configuração da conta, conforme sua solicitação. Caso não saiba qual endereço FTP usar, entre em contato com a equipe de conta da Adobe, que poderá fornecer o endereço correto. Além disso, para contas de classificações e fontes de dados, não há um horário específico para o processamento dos arquivos FTP. A Adobe usa um script que pesquisa constantemente as contas FTP atrás de um novo processamento de arquivos. Os arquivos enviados para estas contas são processados o mais rápido possível.
+Esta informação, assim como o nome de usuário e a senha, deve ser fornecida dentro da [!UICONTROL Experience Cloud] (para classificações e fontes de dados) ou pelo representante da Adobe responsável pela configuração da conta, conforme sua solicitação. Se você não souber o endereço FTP ou SFTP a ser usado, entre em contato com a equipe de conta da Adobe, que poderá fornecer o endereço correto. Além disso, para contas de classificações e fontes de dados, a Adobe não tem uma hora específica do dia em que os arquivos FTP ou SFTP são processados. Em vez disso, o Adobe usa um script que pesquisa constantemente contas FTP ou SFTP para o processo de novos arquivos. Os arquivos carregados nessas contas são processados o mais rápido possível.

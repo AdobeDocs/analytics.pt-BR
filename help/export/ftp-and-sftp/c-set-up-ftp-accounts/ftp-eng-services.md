@@ -4,18 +4,18 @@ keywords: ftp;sftp
 title: Envolvimentos de serviços de engenharia com FTP
 feature: FTP Export
 exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 90%
+source-wordcount: '156'
+ht-degree: 71%
 
 ---
 
-# Envolvimentos de serviços de engenharia com FTP
+# Envolvimentos de serviços de engenharia com FTP ou SFTP
 
-Muitos dos envolvimentos dos serviços de engenharia da Adobe estão relacionados à troca de dados, o que geralmente requer um FTP.
+Muitos dos envolvimentos dos serviços de engenharia da Adobe envolvem a troca de dados, o que geralmente requer FTP ou SFTP.
 
-Esses envolvimentos incluem [!UICONTROL DB VISTA] e projetos personalizados.
+Esses compromissos incluem o [!UICONTROL DB VISTA] e projetos personalizados.
 
 Para obter informações sobre limites FTP e retenção de dados, consulte [Limites FTP e retenção de dados](/help/export/ftp-and-sftp/ftp-limits.md).
 
