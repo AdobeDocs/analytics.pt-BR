@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referência da coluna de dados
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: fd5a38ca3c621e67f7a670f361e73b439ce9861a
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
 source-wordcount: '3652'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -73,7 +73,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`post_`** | **`ef_id`** | A ID EF, usada em integrações do Adobe Advertising. | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | Variáveis personalizadas 1-250. Usado nas dimensões [eVar](/help/components/dimensions/evar.md). Cada organização usa eVars de forma diferente. O melhor lugar para obter mais informações sobre como a organização preenche as respectivas eVars seria em um [documento de design de solução](/help/implement/prepare/solution-design.md) específico para a organização. | varchar(255) |
 | **`post_`** | **`event_list`** | Lista separada por vírgulas de IDs numéricas que representam eventos acionados na ocorrência. Inclui eventos comerciais e [eventos personalizados 1-1000](/help/components/metrics/custom-events.md). Usa a pesquisa `event.tsv`. | text |
-| | **`exclude_hit`** | Um sinalizador que determina se a ocorrência é excluída dos relatórios. A coluna `visit_num` não é incrementada para hits excluídos.<br>1: Não usado. Parte de um recurso raspado.<br>2: Não usado. Parte de um recurso raspado.<br>3: Não está mais em uso. Exclusão de agente usuário<br>4: exclusão com base no endereço IP<br>5: faltam informações essenciais do hit, como `page_url`, `pagename`, `page_event` ou `event_list`<br>6: o JavaScript não processou corretamente o hit<br>7: exclusão específica da conta, como em regras VISTA<br>8: não usada. Exclusão específica da conta alternativa.<br>9: Não usado. Parte de um recurso raspado.<br>10: Código monetário inválido<br>11: Falta um carimbo na ocorrência ou um conjunto de relatórios no carimbo, ou uma ocorrência continha um carimbo em um conjunto de relatórios sem carimbo<br>12: Não usado. Parte de um recurso raspado.<br>13: Não usado. Parte de um recurso raspado.<br>14: Ocorrência do Target que não corresponde a uma ocorrência do Analytics<br>15: Não usado no momento.<br>16: Ocorrência da Advertising Cloud que não correspondeu a uma ocorrência do Analytics | tinyint unsigned |
+| | **`exclude_hit`** | Um sinalizador que determina se a ocorrência é excluída dos relatórios. A coluna `visit_num` não é incrementada para hits excluídos.<br>1: Não usado. Parte de um recurso raspado.<br>2: Não usado. Parte de um recurso raspado.<br>3: Não está mais em uso. Exclusão de agente usuário<br>4: exclusão com base no endereço IP<br>5: faltam informações essenciais do hit, como `page_url`, `pagename`, `page_event` ou `event_list`<br>6: o JavaScript não processou corretamente o hit<br>7: exclusão específica da conta, como em regras VISTA<br>8: não usada. Exclusão específica da conta alternativa.<br>9: Não usado. Parte de um recurso raspado.<br>10: Código monetário inválido<br>11: Falta um carimbo na ocorrência ou um conjunto de relatórios no carimbo, ou uma ocorrência continha um carimbo em um conjunto de relatórios sem carimbo<br>12: Não usado. Parte de um recurso raspado.<br>13: Não usado. Parte de um recurso raspado.<br>14: Ocorrência do Target que não corresponde a uma ocorrência do Analytics<br>15: Não usado no momento.<br>16: ocorrência do Adobe Advertising que não correspondeu a uma ocorrência do Analytics | tinyint unsigned |
 | | **`first_hit_pagename`** | A dimensão [Página de entrada original](/help/components/dimensions/entry-dimensions.md). O nome da página de entrada original do visitante. | varchar(100) |
 | | **`first_hit_page_url`** | O primeiro URL do visitante. | varchar(255) |
 | | **`first_hit_referrer`** | O primeiro URL referenciador do visitante. | varchar(255) |
@@ -214,7 +214,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`post_`** | **`videoepisode`** | A dimensão Serviços de mídia de streaming por [episódio](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
 | **`post_`** | **`videofeedtype`** | A dimensão Serviços de mídia de streaming por [Tipo de feed de mídia](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
 | **`post_`** | **`videogenre`** | A dimensão Serviços de mídia de streaming por [Gênero](/help/components/dimensions/sm-video-metadata.md). Essa dimensão permite vários valores delimitados por vírgula na mesma ocorrência. | text |
-| **`post_`** | **`videolength`** | A dimensão Serviços de mídia de streaming por [duração do conteúdo (variável)](/help/components/dimensions/sm-core.md). | número inteiro |
+| **`post_`** | **`videolength`** | A dimensão Serviços de mídia de streaming por [duração do conteúdo (variável)](/help/components/dimensions/sm-core.md). | inteiro |
 | **`post_`** | **`videomvpd`** | A dimensão Serviços de mídia de streaming por [MVPD](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
 | **`post_`** | **`videoname`** | A dimensão serviços de mídia de streaming por [nome do conteúdo (variável)](/help/components/dimensions/sm-core.md). | varchar(255) |
 | **`post_`** | **`videonetwork`** | A dimensão Serviços de mídia de streaming por [rede](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |

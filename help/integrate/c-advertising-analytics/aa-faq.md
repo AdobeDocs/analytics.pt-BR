@@ -3,10 +3,10 @@ description: Perguntas frequentes sobre o Advertising Analytics.
 title: Perguntas frequentes sobre análises de publicidade
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 11%
+source-wordcount: '1276'
+ht-degree: 10%
 
 ---
 
@@ -14,11 +14,9 @@ ht-degree: 11%
 
 ## Acesso/Direitos {#access}
 
-+++ Preciso ser um cliente do Adobe Advertising Cloud ou do Adobe Advertising Cloud (AMO) para acessar essa funcionalidade?
++++ Preciso ser um cliente do Adobe Advertising para acessar essa funcionalidade?
 
-Não, essa funcionalidade está disponível para clientes que não são da Advertising Cloud ou do AMO.
-
-Os clientes do AMO podem aproveitar da integração Analytics-AMO existente; eles não poderão usar o Advertising Analytics.
+Não, essa funcionalidade está disponível para clientes que não são da Advertising. Os clientes da Adobe Advertising podem aproveitar a integração existente entre o Analytics e o Advertising.
 
 +++
 
@@ -46,9 +44,9 @@ Não, o Advertising Analytics usa um tipo de fonte de dados especial que não im
 
 +++
 
-+++ Se eu já usar o Advertising Cloud/AMO, ainda posso usar a funcionalidade do Advertising Analytics?
++++ Se eu já usar o Adobe Advertising, ainda posso usar a funcionalidade do Advertising Analytics?
 
-Qualquer conta de mecanismo de pesquisa compatível passará para o Advertising Analytics e será exibida como somente leitura. Todas as edições ou atualizações devem ser tratadas na Advertising Cloud/AMO.
+Qualquer conta de mecanismo de pesquisa compatível passará para o Advertising Analytics e será exibida como somente leitura. Todas as edições ou atualizações devem ser tratadas no Advertising.
 
 +++
 
@@ -74,20 +72,20 @@ Depois de fazer logon no Adobe Analytics, navegue até [!UICONTROL Admin]. Em se
 
 +++ Como os dados são coletados e transmitidos para o Analytics? 
 
-O Advertising Analytics utiliza uma série de APIs personalizadas para transmitir dados de mecanismos de pesquisa por meio da Adobe Advertising Cloud para o Analytics.
+O Advertising Analytics utiliza uma série de APIs personalizadas para transmitir dados de mecanismos de pesquisa pelo Adobe Advertising para o Adobe Analytics.
 
 +++
 
 +++ Quais dados de pesquisa eu obtenho com essa integração? 
 
-Você obterá
+Você obtém:
 
 * Impressões
 * Cliques
 * Custos
 * Pontuação de qualidade
-* Posição média diretamente dos mecanismos de pesquisa, bem como
-* Instâncias de ID do AMO (instâncias de clique).
+* Posição média diretamente dos mecanismos de pesquisa
+* Instâncias de ID do AMO (instâncias de clique)
 
 +++
 

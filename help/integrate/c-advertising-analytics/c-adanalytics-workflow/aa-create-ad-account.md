@@ -3,10 +3,10 @@ title: Como configurar uma conta publicitária no Advertising Analytics
 description: Este artigo explica como criar novas contas publicitárias e mapear várias contas a vários conjuntos de relatórios.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 21%
+source-wordcount: '648'
+ht-degree: 13%
 
 ---
 
@@ -14,39 +14,39 @@ ht-degree: 21%
 
 Os administradores do Adobe Analytics podem criar novas contas publicitárias e mapear várias contas a vários conjuntos de relatórios (1 : 1, 1 : muitos, muitos : muitos).
 
-Além disso, os administradores podem [conceder acesso a não administradores](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) para configuração de contas publicitárias.
+Administrators can also [grant access to non-admins](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) for setting up advertising accounts.
 
 <!--
 ![](assets/aa_accounts.png)
 -->
 
 1. No Adobe Analytics, navegue até **[!UICONTROL Admin]** > **[!UICONTROL Contas publicitárias]**.
-1. (Somente para primeiro uso) Aceite os termos do Contrato de Licença do Usuário Final.
-1. Selecione **[!UICONTROL + Adicionar]**.
-1. A caixa de diálogo [!UICONTROL Nova configuração do mecanismo de pesquisa] é exibida.
+1. (First-time use only) Accept the terms of the End User License Agreement.
+1. Select **[!UICONTROL + Add]**.
+1. The [!UICONTROL New search engine setting] dialog displays.
 
    ![](assets/aa-new-se-account.png)
 
-1. Preencha as **[!UICONTROL Configurações do mecanismo de pesquisa]** seguindo estas diretrizes:
+1. Fill in the **[!UICONTROL search engine Settings]** following these guidelines:
 
    | Configuração | Descrição |
    | --- | --- |
    | **[!UICONTROL Tipo]** | Você tem duas opções: **[!UICONTROL Google Adwords]** e **[!UICONTROL Bing Ads]**. Observação: o Yahoo Gemini foi absorvido pelo Microsoft em 31 de março de 2019. Como consequência, a opção de conta de publicidade do Yahoo Gemini não está mais disponível. |
-   | Nome da conta | Você pode optar por definir esse nome de conta como qualquer nome que lhe convenha.  Nome da conta é o nome amigável da conta que aparece na interface do usuário do. |
-   | Token de OAuth | **Observação**: OAuth é um padrão aberto para delegação de acesso, geralmente usado como uma maneira de conceder a sites ou aplicativos da Web o acesso a informações em sites, sem fornecer senhas. Você percebe que é roteado para um URL de terceiros (efrontier.com). O Adobe usa o Adobe Media Otimizer para potencializar o processo de autenticação OAuth para todos os três mecanismos de pesquisa. Se você usa o Internet Explorer 11 (ou anterior), não será possível recuperar o token OAuth para qualquer um dos três mecanismos de pesquisa. Em vez disso, use outro navegador da Web.<p>Selecione **[!UICONTROL Recuperar token]** para iniciar o processo de autenticação OAuth2. Você será solicitado a fazer logon em sua conta de pesquisa do Google Ads ou Microsoft Advertising usando suas credenciais. Dependendo da sua escolha, o processo será um pouco diferente: <ul><li>Anúncios do Google: fornecer a ID de conta da Google</li><li>Microsoft Advertising: forneça sua ID de conta e a ID de conta do gerente.</li></ul>Consulte [Localizar ID da Conta](aa-locate-account-id.md) para obter mais informações sobre essas IDs. Depois de fazer logon, o campo **[!UICONTROL token do OAuth]** será exibido como **[!UICONTROL Recuperado]**. |
+   | Nome da conta | You can choose to set this account name to any name that suits you.  Account name is the friendly name of the account that appears in the UI. |
+   | OAuth Token | **Note**: OAuth is an open standard for access delegation, commonly used as a way to grant web sites or applications access to information on web sites but without providing passwords. You notice that you get routed to a third-party URL (efrontier.com). Adobe uses Adobe Media Optimizer to power the OAuth authentication process for all three search engines. If you use Internet Explorer 11 (or earlier), you are unable to retrieve the Oauth token for any of the three search engines. Em vez disso, use outro navegador da Web.<p>Select **[!UICONTROL Retrieve Token]** to launch the OAuth2 authentication process. Você será solicitado a fazer logon em sua conta de pesquisa do Google Ads ou Microsoft Advertising usando suas credenciais. Dependendo da sua escolha, o processo será um pouco diferente: <ul><li>Anúncios do Google: fornecer a ID de conta da Google</li><li>Microsoft Advertising: forneça sua ID de conta e a ID de conta do gerente.</li></ul>Refer to [Locate your Account ID](aa-locate-account-id.md) for information on these IDs. Depois de fazer logon, o campo **[!UICONTROL token do OAuth]** será exibido como **[!UICONTROL Recuperado]**. |
 
-1. Na seção **[!UICONTROL Rastreamento]**, forneça informações sobre como rastrear os dados usando a implementação do Adobe Analytics. O rastreamento é uma etapa necessária para aumentar os dados do Adobe Analytics corretamente com os dados do mecanismo de pesquisa.
-Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo as instruções a seguir:
+1. In the **[!UICONTROL Tracking]** section, you provide information on how to track the data using your Adobe Analytics implementation. Tracking is a required step to augment the Adobe Analytics data properly with the search engine data.
+Fill in the **[!UICONTROL Tracking Settings]** following these guidelines:
 
    | Configuração | Descrição |
    | --- | --- |
-   | Tipo | <ul><li>**Automático**: permite que o mecanismo da Advertising Cloud decida como os parâmetros de rastreamento são anexados aos modelos de rastreamento/URLs de destino do. [!UICONTROL O Rastreamento automático de tipos] é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.<br>**Importante:** para configurar uma conta de mecanismo de pesquisa com [!UICONTROL Rastreamento de Tipo Automático], você será responsável pelas seguintes ações:<ul><li>O parâmetro e valor `s_kwcid` são adicionados aos modelos de rastreamento da conta ou às URLs da página de aterrissagem na conta que está sendo adicionada. O parâmetro e valor são inseridos no final do URL. Pode ser necessária uma ação adicional se o servidor Web exigir um determinado par de `key=value` no final da URL. Ou é necessária uma atualização para dar suporte a qualquer novo par `key=value` na URL. **Observação**: saiba se você deve adicionar este parâmetro à sua [Política de Segurança de Conteúdo](https://experienceleague.adobe.com/pt-br/docs/id-service/using/reference/csp).</li><li>Além disso, palavras-chave podem ser inseridas no URL inicial como parte do valor `s_kwcid`. Se as palavras-chave contiverem caracteres especiais ou símbolos, confirme se o servidor da Web é compatível com esses caracteres. Um exemplo de caracteres especiais comuns é `+`, que é usado em palavras-chave de &quot;Grande correspondência modificada&quot;.</li></ul></li><li>**Manual**: permite gerenciar como os parâmetros de rastreamento são adicionados aos modelos de rastreamento/URLs de destino do mecanismo de pesquisa. [Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
+   | Tipo | <ul><li>**Auto**: Lets the Adobe Advertising engine decide how the tracking parameters are appended to the &#39;s tracking templates/destination URLs. [!UICONTROL Auto Type Tracking] is the simplest approach, but may not result in the best integrated dataset.<br>**Importante:** para configurar uma conta de mecanismo de pesquisa com [!UICONTROL Rastreamento de Tipo Automático], você será responsável pelas seguintes ações:<ul><li>O parâmetro e valor `s_kwcid` são adicionados aos modelos de rastreamento da conta ou às URLs da página de aterrissagem na conta que está sendo adicionada. O parâmetro e valor são inseridos no final do URL. Pode ser necessária uma ação adicional se o servidor Web exigir um determinado par de `key=value` no final da URL. Ou é necessária uma atualização para dar suporte a qualquer novo par `key=value` na URL. **Observação**: saiba se você deve adicionar este parâmetro à sua [Política de Segurança de Conteúdo](https://experienceleague.adobe.com/pt-br/docs/id-service/using/reference/csp).</li><li>Além disso, palavras-chave podem ser inseridas no URL inicial como parte do valor `s_kwcid`. If the keywords contain special characters or symbols, please confirm that your web server can support those characters. An example of a common special characters is `+`, which is used in &quot;Broad Match Modified&quot; keywords.</li></ul></li><li>**Manual**: Lets you manage how the tracking parameters are added to the search engine&#39;s tracking templates/destination URLs. [Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. Selecione **[!UICONTROL Salvar]**.
-1. Um aviso de isenção de responsabilidade exibe uma lista de avisos. Confirme que leu e compreende este contrato. Marque a caixa de seleção e selecione **[!UICONTROL OK]**.
+1. A disclaimer displays a list of caveats. Confirm that you have read and you understand this agreement. Select the checkbox, then select **[!UICONTROL OK]**.
 
-   Agora você é encaminhado para a [interface do usuário de gerenciamento](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) das contas publicitárias, onde sua conta recém-criada deve estar listada.
+   Agora você é levado para a [Interface do usuário de gerenciamento](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) das Contas do Advertising, onde sua conta recém-criada deve ser listada.
 
 >[!NOTE]
 >
->É necessário esperar pelo menos 24 horas até que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics.
+>Espere pelo menos 24 horas até que os dados do mecanismo de pesquisa comecem a preencher os relatórios do Analytics.

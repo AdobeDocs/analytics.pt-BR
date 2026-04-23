@@ -3,10 +3,10 @@ title: Relatórios de comportamento no Adobe Analytics
 description: Saiba como criar relatórios de comportamento no Adobe Analytics
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 98%
+source-wordcount: '802'
+ht-degree: 95%
 
 ---
 
@@ -43,9 +43,9 @@ Como alternativa, a Adobe fornece vários espaços de trabalho pré-criados cham
 
 O relatório de detalhamento de conteúdo permite observar o tráfego da página por estrutura de URL. É necessária uma implementação adicional para uso na Analysis Workspace. A Adobe recomenda trabalhar com um consultor de implementação para garantir que esses dados sejam coletados com precisão.
 
-## Conteúdo do site - Páginas iniciais
+## Conteúdo do site - Páginas de destino
 
-O relatório de páginas iniciais mostra as principais páginas iniciais do site. As páginas iniciais estão disponíveis na Analysis Workspace como a dimensão **Página de entrada**.
+O relatório de páginas de destino mostra as principais páginas de destino do site. As páginas de destino estão disponíveis na Analysis Workspace como a dimensão **Página de entrada**.
 
 1. No menu Componentes, localize a dimensão **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
@@ -87,4 +87,4 @@ Como esse recurso requer alterações de implementação, a Adobe recomenda trab
 
 ## Relatórios do editor
 
-Semelhante ao modo como o Google exige uma conexão com o Google Ad Manager, a Adobe oferece um produto dedicado para fornecer informações chamado Adobe Advertising Cloud. Se a organização estiver interessada em usar esse produto, entre em contato com a equipe de conta da Adobe.
+Semelhante ao modo como o Google requer uma conexão com o Google Ad Manager, o Adobe oferece um produto dedicado para fornecer o insight chamado Adobe Advertising. Se a organização estiver interessada em usar esse produto, entre em contato com a equipe de conta da Adobe.

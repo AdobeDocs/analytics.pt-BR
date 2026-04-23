@@ -1,12 +1,12 @@
 ---
-description: Learn how to publish segments for marketing activity in Audience Library, Target, and Audience Manager.
-title: Publish Segments
+description: Saiba como publicar segmentos para atividade de marketing na Biblioteca de público-alvo, no Target e no Audience Manager.
+title: Publicar segmentos
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 47%
+source-wordcount: '1349'
+ht-degree: 43%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 47%
 >abstract="Os segmentos criados na biblioteca de públicos-alvo estão disponíveis instantaneamente e não dependem das atualizações do Analytics."
 
 
-Você pode publicar um segmento do Adobe Analytics na Experience Cloud. Assim, você pode usar o segmento para atividade de marketing em [!DNL Audience Manager] e em outros canais de ativação, incluindo [!DNL Advertising Cloud], [!DNL Target] e [!DNL Campaign].
+Você pode publicar um segmento do Adobe Analytics na Experience Cloud. Assim, você pode usar o segmento para atividade de marketing no Audience Manager e em outros canais de ativação, incluindo Advertising, Target e Campaign.
 
 Você pode publicar segmentos do Analytics no Experience Cloud em menos de 8 horas. Use esses segmentos para ativar públicos-alvo no Audience Manager para todos os destinos downstream.
 
@@ -49,8 +49,8 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 
 * **Limites do conjunto de relatórios**: você pode publicar até 75 segmentos por conjunto de relatórios. Este limite é aplicado. Se você já tiver 75 segmentos publicados, não poderá publicar segmentos adicionais até cancelar a publicação de segmentos suficientes para ficar abaixo do limite de 75 segmentos.
 * **Limites de associação**: públicos-alvo compartilhados com a [!DNL Experience Cloud] a partir do Adobe Analytics não podem exceder 20 milhões de membros únicos.
-* **Privacidade dos dados**: os públicos-alvo não são filtrados com base no estado de autenticação de um visitante. A visitor might be able to browse your site in un-authenticated and authenticated states. Actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Revise a [privacidade da Adobe Experience Cloud](https://www.adobe.com/br/privacy/experience-cloud.html) para entender todas as implicações de privacidade do compartilhamento de público-alvo.
-* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and[!DNL Audience Manager]**, see [Understand segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
+* **Privacidade dos dados**: os públicos-alvo não são filtrados com base no estado de autenticação de um visitante. Um visitante pode conseguir navegar em seu site em estados de autenticação e de não autenticação. As ações que ocorrem quando um visitante não é autenticado ainda podem fazer com que um visitante seja incluído em um público-alvo. Revise a [privacidade da Adobe Experience Cloud](https://www.adobe.com/br/privacy/experience-cloud.html) para entender todas as implicações de privacidade do compartilhamento de público-alvo.
+* Para uma discussão sobre as **diferenças entre segmentos em [!DNL Adobe Analytics] e[!DNL Audience Manager]**, consulte [Entender os segmentos no Analytics e no Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
 
 ## Linha do tempo de publicação do segmento
 
@@ -65,39 +65,39 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 
 ## Publicar segmentos no [!UICONTROL Construtor de segmentos]
 
-1. In Adobe Analytics, go to **[!UICONTROL Components]** > **[!UICONTROL Segments]**
-1. Select **[!UICONTROL Add]** to create a new segment.
+1. No Adobe Analytics, vá para **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**
+1. Selecione **[!UICONTROL Adicionar]** para criar um novo segmento.
    ![Publicar na Experience Cloud](assets/publish-ec.png)
-1. Provide a title and a description for the segment. These fields are required before you can save the segment.
-1. In the **[!UICONTROL Experience Cloud publishing]** section, select the option **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
+1. Forneça um título e uma descrição para o segmento. Esses campos são obrigatórios antes de salvar o segmento.
+1. Na seção **[!UICONTROL Publicação do Experience Cloud]**, selecione a opção **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**.
 
    >[!IMPORTANT]
    >
-   >Make sure that you monitor **[!UICONTROL Visitors with Experience Cloud ID]** in the **[!UICONTROL Data Preview]** instead of the **[!UICONTROL Unique Visitors]**  when you compare Adobe Analytics numbers to Audience Manager numbers.
+   >Monitore **[!UICONTROL Visitantes com Experience Cloud ID]** na **[!UICONTROL Visualização de Dados]** em vez dos **[!UICONTROL Visitantes únicos]** ao comparar números Adobe Analytics com números Audience Manager.
    >
 
 | Elemento | Descrição |
 |---|---|
 | **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]** | Quando essa opção está ativada, o título e a definição do segmento são compartilhados com a Experience Cloud instantaneamente, enquanto a associação do segmento é avaliada e compartilhada a cada 4 horas. <br> Quando esse público-alvo é associado a uma atividade no [!DNL Target], por exemplo, o [!DNL Analytics] começa a enviar IDs para os visitantes que se qualificaram para esse público-alvo da Experience Cloud e do [!DNL Target]. Nesse momento, o nome do público-alvo e os dados correspondentes começam a ser exibidos na página [!DNL Audience Library] no Experience Cloud. </br> |
-| **[!UICONTROL Janela de criação de público-alvo]** | The time frame that you select is used to create the audience on a rolling-calendar basis. Por exemplo, **[!UICONTROL Últimos 30 dias]** (padrão) inclui visitantes que se qualificaram para o público-alvo nos últimos 30 dias a partir da data de hoje (NÃO a partir da data original quando o segmento foi criado). |
+| **[!UICONTROL Janela de criação de público-alvo]** | O período selecionado é usado para criar o público-alvo com base no calendário rotativo. Por exemplo, **[!UICONTROL Últimos 30 dias]** (padrão) inclui visitantes que se qualificaram para o público-alvo nos últimos 30 dias a partir da data de hoje (NÃO a partir da data original quando o segmento foi criado). |
 | **[!UICONTROL Criar na biblioteca de público-alvo]** | Os segmentos criados e publicados podem ser disponibilizados sem latência na página [!DNL Audience Library] do Experience Cloud. Eles não dependem das atualizações do Analytics. Esses segmentos não contam com o limite de 75 segmentos publicados. |
-| **[!UICONTROL x de 75 Publicados]** | The number of segments that you have published to Experience Cloud. Clique no link para ver uma lista de segmentos publicados e seu conjunto de relatórios associado e o proprietário. |
+| **[!UICONTROL x de 75 Publicados]** | O número de segmentos publicados no Experience Cloud. Clique no link para ver uma lista de segmentos publicados e seu conjunto de relatórios associado e o proprietário. |
 | **[!UICONTROL Salvar]** | Salva este segmento. |
 
 ## Cancelar a publicação ou excluir segmentos
 
 >[!CAUTION]
 >
->To delete a segment that has been published to Experience Cloud, you have to unpublish the segment first. To unpublish a segment, just unselect **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
+>Para excluir um segmento publicado no Experience Cloud, é necessário cancelar a publicação do segmento primeiro. Para cancelar a publicação de um segmento, basta desmarcar **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**.
 
 
 >[!NOTE]
 >
->**Não é possível** cancelar a publicação de um segmento que está em uso por qualquer uma das seguintes soluções da Adobe: [!DNL Analytics] (no [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (para cliente do [!DNL Core Service] e [!DNL Audience Manager]) e todos os outros parceiros externos (para clientes do [!DNL Audience Manager]). Você **pode** cancelar a publicação de um segmento em uso pelo [!DNL Target].
+>Você **não pode** cancelar a publicação de um segmento que está em uso por qualquer uma das seguintes soluções da Adobe: Analytics (no Audience Analytics), Campaign, Advertising (para clientes do Core Service e Audience Manager) e todos os outros parceiros externos (para clientes do Audience Manager). Você **pode** cancelar a publicação de um segmento em uso pelo Target.
 
-## View the publishing status of segments
+## Exibir o status de publicação de segmentos
 
-The maximum number of publishable Adobe Analytics segments is 75.
+O número máximo de segmentos do Adobe Analytics publicáveis é 75.
 
 Para exibir segmentos publicados:
 
@@ -118,23 +118,23 @@ As capturas de tela a seguir mostram como recuperar a UUID do Adobe Audience Man
 
 1. Baixe e instale o [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) na loja na Web do Chrome.
 1. Inicie o depurador ao carregar uma página.
-1. Scroll to the Audience Manager section and find the Adobe Audience Manager UUID set on the current browser page
-(`35721780439475290181087231320657663953` in the example below)
+1. Role até a seção Audience Manager e localize a UUID do Adobe Audience Manager definida na página atual do navegador
+(`35721780439475290181087231320657663953` no exemplo abaixo)
 
    ![Depurador](assets/aepdebugger.png)
 
 ### Método 2: usar as ferramentas de desenvolvedor do Chrome (ou as ferramentas de desenvolvedor de outro navegador)
 
 1. Inicie as Ferramentas de desenvolvedor do Chrome antes de carregar uma página
-1. Carregue a página e marque Aplicativos > Cookies. The Adobe Audience Manager UUID should be set in the third-party
-Demdex cookie ([adobe.demdex.net](https://experienceleague.adobe.com/pt-br/docs/audience-manager/user-guide/reference/demdex-calls) in the example below). The field demdex is the Adobe Audience Manager UUID set
-on the browser (`35721780439475290181087231320657663953` in the example below).
+1. Carregue a página e marque Aplicativos > Cookies. A UUID do Adobe Audience Manager deve ser definida no repositório de terceiros
+Cookie demdex ([adobe.demdex.net](https://experienceleague.adobe.com/pt-br/docs/audience-manager/user-guide/reference/demdex-calls) no exemplo abaixo). O demdex de campo é o conjunto de UUIDs do Adobe Audience Manager
+no navegador (`35721780439475290181087231320657663953` no exemplo abaixo).
 
    ![Ferramentas de desenvolvedor do Google Chrome](assets/devtools.png)
 
 ## Usar [!UICONTROL Visualizador de perfil do visitante] do Audience Manager
 
-The Adobe Audience Manager UUID on the browser is by default when [!UICONTROL Visitor Profile Viewer] is loaded. If you verify trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Consulte o [Visualizador de perfil do visitante](https://experienceleague.adobe.com/pt-br/docs/audience-manager/user-guide/features/visitor-profile-viewer) para obter mais informações.
+A UUID do Adobe Audience Manager no navegador é usada por padrão quando o [!UICONTROL Visualizador de Perfil do Visitante] é carregado. Se você verificar as realizações de características de outros usuários, insira uma UUID no campo UUID e clique em [!UICONTROL Atualizar]. Consulte o [Visualizador de perfil do visitante](https://experienceleague.adobe.com/pt-br/docs/audience-manager/user-guide/features/visitor-profile-viewer) para obter mais informações.
 
 ## Exibir as características do segmento em [!DNL Audience Manager]
 
@@ -151,11 +151,11 @@ No Adobe Audience Manager, a lista de visitantes com ECIDs para um determinado s
 
 ## Exibir o segmento em [!DNL Adobe Target]
 
-The **[!UICONTROL Publish this segment to the Experience Cloud]** allows the segment to be available within the Adobe Target&#39;s custom audience library. Um segmento criado no Analytics ou no Audience Manager pode ser usado em atividades no Target. Por exemplo, é possível criar atividades de campanha baseadas nas métricas de conversão do Analytics e nos segmentos de público-alvo criados no Analytics.
+O **[!UICONTROL Publicar este segmento no Experience Cloud]** permite que o segmento fique disponível na biblioteca de público-alvo personalizada do Adobe Target. Um segmento criado no Analytics ou no Audience Manager pode ser usado em atividades no Target. Por exemplo, é possível criar atividades de campanha baseadas nas métricas de conversão do Analytics e nos segmentos de público-alvo criados no Analytics.
 
-In Adobe Target:
+No Adobe Target:
 
-1. Select **[!UICONTROL Audiences]**.
+1. Selecione **[!UICONTROL Públicos]**.
 1. Na página **[!UICONTROL Públicos-alvo]**, localize o público-alvo proveniente da [!DNL Experience Cloud]. Esses públicos-alvo estão disponíveis para uso em atividades [!DNL Target].
 
    ![Públicos-alvo](assets/target-audiences.png)

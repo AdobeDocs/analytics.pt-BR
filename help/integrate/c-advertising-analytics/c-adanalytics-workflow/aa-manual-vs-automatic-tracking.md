@@ -3,7 +3,7 @@ description: O tipo de rastreamento determina como a implementação do Adobe An
 title: Tipo de rastreamento
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 25%
@@ -26,7 +26,7 @@ Há suporte para dois modos de rastreamento: [!UICONTROL Automático] e [!UICONT
 
 ## Acompanhamento [!UICONTROL Automático] {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-O rastreamento [!UICONTROL Automático] permite que o mecanismo da Advertising Cloud decida como os dados do mecanismo de pesquisa devem ser tratados. O rastreamento automático é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.
+O rastreamento [!UICONTROL Automático] permite que o mecanismo do Adobe Advertising decida como os dados do mecanismo de pesquisa devem ser tratados. O rastreamento automático é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.
 
 Como consequência, você precisa marcar uma caixa de seleção de confirmação ao selecionar **[!UICONTROL Automático]** antes de salvar a configuração da conta.
 
