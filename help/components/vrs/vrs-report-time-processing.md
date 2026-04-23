@@ -43,7 +43,7 @@ As seguintes opções de configuração estão disponíveis atualmente para conj
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Iniciando uma nova visita com o evento](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Iniciando uma nova visita com o evento](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
