@@ -3,16 +3,16 @@ title: Esquema do conjunto de classificações
 description: Saiba como visualizar e editar o esquema para um conjunto de classificações individual.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1617'
 ht-degree: 7%
 
 ---
 
 # Esquema do conjunto de classificação
 
-O esquema é a lista de classificações que você deseja aplicar às dimensões principais definidas para o conjunto de classificações. Por exemplo, se você tiver definido o produto como a dimensão principal e esse campo contiver um SKU de produto, você usará o esquema para adicionar classificações como nome do produto, cor do produto, tamanho do produto e muito mais.
+O esquema é a lista de classificações que você deseja aplicar às dimensões principais definidas para o conjunto de classificações. Por exemplo, se você tiver definido o produto como a dimensão principal e esse campo contiver um SKU de produto, use o esquema para adicionar classificações como nome do produto, cor e tamanho.
 
 Para editar o esquema de um conjunto de classificações:
 
@@ -36,8 +36,8 @@ A lista de classificações tem as seguintes colunas:
 | Coluna | Descrição |
 |---|---|
 | **[!UICONTROL Nome da Classificação]** | O nome fornecido para a classificação. |
-| **[!UICONTROL Identity Name]** | The derived name by the system for the classification. This name is a read-only value and you can use the Identity name |
-| **[!UICONTROL Classified By]** | If used, a link to the lookup classification set that is used to classify this classification. |
+| **[!UICONTROL Nome da Identidade]** | O nome derivado do sistema para a classificação. Esse nome é um valor somente leitura e você pode usar o Nome de identidade |
+| **[!UICONTROL Classificado por]** | Se usada, um link para o conjunto de classificações de pesquisa usado para classificar essa classificação. |
 
 
 ## Pesquisar
@@ -51,29 +51,29 @@ As seguintes ações estão disponíveis como botões na parte superior da lista
 | Ícone | Ação | Descrição |
 |---|---|---|
 | ![Adicionar](/help/assets/icons/Add.svg) | **[!UICONTROL Adicionar]** | [Adicionar uma classificação](#add) à lista. |
-| ![CarregarParaNuvem](/help/assets/icons/UploadToCloud.svg) | **[!UICONTROL Upload]** | [Upload a JSON, CSV, TSV, or TAB file](#upload). |
-| ![Baixar](/help/assets/icons/Download.svg) | **[!UICONTROL Baixar]** | [Download classification data](#download). |
+| ![CarregarParaNuvem](/help/assets/icons/UploadToCloud.svg) | **[!UICONTROL Carregar]** | [Carregar um arquivo JSON, CSV, TSV ou TAB](#upload). |
+| ![Baixar](/help/assets/icons/Download.svg) | **[!UICONTROL Baixar]** | [Baixar dados de classificação](#download). |
 | ![FragmentoDocumento](/help/assets/icons/DocumentFragment.svg) | **[!UICONTROL Modelo]** | [Baixe um modelo](#template) para dados de classificação. |
 | ![Histórico](/help/assets/icons/History.svg) | **[!UICONTROL Histórico do Trabalho]** | Mostrar o [gerenciador de trabalhos do conjunto de classificações](/help/components/classifications/sets/job-manager.md), filtrado para o conjunto de classificações selecionado. |
-| ![Gear](/help/assets/icons/Gear.svg) | **[!UICONTROL Automate]** | [Automate the ingestion of classification data](#automate) through the use of a cloud location. |
+| ![Engrenagem](/help/assets/icons/Gear.svg) | **[!UICONTROL Automatizar]** | [Automatize a assimilação de dados de classificação](#automate) por meio do uso de um local na nuvem. |
 
 
 ### Adicionar
 
 Para adicionar uma nova classificação, selecione ![Adicionar](/help/assets/icons/Add.svg) **[!UICONTROL Adicionar]**.
 
-![Classification sets - Add classification to schema](assets/classification-sets-schema-add-classification.png)
+![Conjuntos de classificações - Adicionar classificação ao esquema](assets/classification-sets-schema-add-classification.png)
 
-In the **[!UICONTROL Add a new classification for _classification set name_]**&#x200B;dialog, enter the **[!UICONTROL Classification Name]**&#x200B;and select **[!UICONTROL Add]**. The classification is added to the list.
+Na caixa de diálogo **[!UICONTROL Adicionar uma nova classificação para _nome do conjunto de classificações_]**, digite o **[!UICONTROL Nome da Classificação]**&#x200B;e selecione **[!UICONTROL Adicionar]**. A classificação é adicionada à lista.
 
 
 
 ### Carregar
 
-To import classification data into the schema for a classification, select ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) **[!UICONTROL Upload]**.
+Para importar dados de classificação para o esquema de uma classificação, selecione ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) **[!UICONTROL Upload]**.
 
 
-![Classification sets - Schema upload a file](assets/classification-sets-schema-upload-file.png)
+![Conjuntos de classificação - Carregamento de esquema um arquivo](assets/classification-sets-schema-upload-file.png)
 
 1. Na caixa de diálogo **[!UICONTROL Adicionar novas classificações]**:
 
@@ -91,11 +91,11 @@ To import classification data into the schema for a classification, select ![Upl
    | ![SelectBox](/help/assets/icons/SelectBox.svg) **[!UICONTROL Substituir dados em conflito?]** | 1234 | verde | azul | azul |
    | ![Quadrado](/help/assets/icons2/Square.svg) **[!UICONTROL Substituir dados em conflito?]** | 1234 | verde | azul | verde |
 
-1. Selecione **[!UICONTROL Aplicar]**. An alert is displayed if columns are not present as classifications in the existing schema set. Those columns are added as new classifications when you confirm the upload.
+1. Selecione **[!UICONTROL Aplicar]**. Um alerta é exibido se as colunas não estiverem presentes como classificações no conjunto de esquemas existente. Essas colunas são adicionadas como novas classificações ao confirmar o upload.
 
-   ![Classification set - Upload classifications alert](assets/classification-sets-schema-upload-file-preview-alert.png)
+   ![Conjunto de classificações - Carregar alerta de classificações](assets/classification-sets-schema-upload-file-preview-alert.png)
 
-   Select **[!UICONTROL Confirm Upload]** to confirm the upload. Select **[!UICONTROL Cancel Upload]** to cancel the upload.
+   Selecione **[!UICONTROL Confirmar carregamento]** para confirmar o carregamento. Selecione **[!UICONTROL Cancelar Carregamento]** para cancelar o carregamento.
 
 
 ### Baixar
@@ -107,25 +107,25 @@ Para baixar dados de classificação, selecione ![Baixar](/help/assets/icons/Dow
 Na caixa de diálogo **[!UICONTROL Baixar dados para _nome do conjunto de classificações_]**:
 
 1. Insira o número de **[!UICONTROL Linhas]** que você deseja baixar. Por exemplo: `10000`.
-1. To select the period for which you want to download rows of classification data, enter a start and end data for **[!UICONTROL Download Rows Received Between]**. Or use ![Calendar](/help/assets/icons/Calendar.svg) to use a calendar popup to select the period.
+1. Para selecionar o período para o qual deseja baixar linhas de dados de classificação, insira uma data de início e término para **[!UICONTROL Baixar linhas recebidas entre]**. Ou use o ![Calendário](/help/assets/icons/Calendar.svg) para usar um pop-up de calendário para selecionar o período.
 1. Para selecionar quais dados retornar, selecione uma opção em **[!UICONTROL Dados Retornados]**.
 
    * **[!UICONTROL Todos os valores]** retorna todos os valores dos dados de classificação atuais.
    * **[!UICONTROL Qualquer coluna vazia]** retorna uma coluna com valores de chave para os dados de classificação existentes. E colunas sem valor para dados de classificação para os quais não existem valores.
-   * **[!UICONTROL Todas as colunas vazias]** retorna uma coluna de chave com valores para os dados de classificação existentes. And columns with no value for classification data.
-1. To select the [file format](/help/components/classifications/sets/data-files.md#general-file-requirements) of the downloaded classification data, select an option from the **[!UICONTROL File Format]** drop-down menu. As opções são:
+   * **[!UICONTROL Todas as colunas vazias]** retorna uma coluna de chave com valores para os dados de classificação existentes. E colunas sem valor para dados de classificação.
+1. Para selecionar o [formato de arquivo](/help/components/classifications/sets/data-files.md#general-file-requirements) dos dados de classificação baixados, selecione uma opção no menu suspenso **[!UICONTROL Formato de Arquivo]**. As opções são:
 
    * **[!UICONTROL JSON]**.
-   * **[!UICONTROL Comma separated values]** (CSV).
-   * **[!UICONTROL Excel tab separated values]** (TSV or TAB).
+   * **[!UICONTROL Valores separados por vírgula]** (CSV).
+   * **[!UICONTROL Valores separados por tabulação do Excel]** (TSV ou TAB).
 
-1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) to when the file is downloaded, select an option from the File-Encoding drop-down menu. As opções são:
+1. Para selecionar a [codificação do arquivo](/help/components/classifications/sets/data-files.md#general-file-requirements) para quando o arquivo for baixado, 2. Para selecionar a [codificação do arquivo](/help/components/classifications/sets/data-files.md#general-file-requirements) quando o arquivo for baixado, selecione uma opção no menu suspenso Codificação do Arquivo. As opções são:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latino-1]**.
 
 
-1. Selecione **[!UICONTROL Baixar]** para baixar os dados de classificação. Você pode encontrar o arquivo baixado no diretório de download padrão do seu navegador, e o arquivo é intitulado <code><i>Conjunto de classificações</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. If the file already exists, a sequence number <code>(<i>x</i>)</code> is added to the file name.<br/>If you have specified options that do not return any data, you see a **[!UICONTROL Notice]** dialog to inform you to change the options for date range and data returned.
+1. Selecione **[!UICONTROL Baixar]** para baixar os dados de classificação. Você pode encontrar o arquivo baixado no diretório de download padrão do seu navegador, e o arquivo é intitulado <code><i>Conjunto de classificações</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se o arquivo já existir, um número de sequência <code>(<i>x</i>)</code> é adicionado ao nome do arquivo.<br/>Se você tiver especificado opções que não retornam dados, verá uma caixa de diálogo **[!UICONTROL Aviso]** para informá-lo de alterar as opções de intervalo de datas e dados retornados.
 
 
 ### Modelo
@@ -134,19 +134,19 @@ Para baixar um modelo para dados de classificação, selecione ![DocumentFragmen
 
 ![Esquema dos conjuntos de classificações - Baixar modelo](assets/classification-sets-schema-download-template.png)
 
-In the **[!UICONTROL Download template for _classification set name_]**&#x200B;dialog:
+Na caixa de diálogo **[!UICONTROL Baixar modelo para _nome do conjunto de classificações_]**:
 
-1. To select the [file format](/help/components/classifications/sets/data-files.md#general-file-requirements) of the downloaded classification data, select an option from the **[!UICONTROL File Format]** drop-down menu. As opções são:
+1. Para selecionar o [formato de arquivo](/help/components/classifications/sets/data-files.md#general-file-requirements) dos dados de classificação baixados, selecione uma opção no menu suspenso **[!UICONTROL Formato de Arquivo]**. As opções são:
 
-   * **[!UICONTROL Comma separated values]**.
-   * **[!UICONTROL Excel tab separated values]**.
+   * **[!UICONTROL Valores separados por vírgula]**.
+   * **[!UICONTROL Valores separados por tabulação do Excel]**.
 
-1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) to when the file is downloaded, select an option from the File-Encoding drop-down menu. As opções são:
+1. Para selecionar a [codificação do arquivo](/help/components/classifications/sets/data-files.md#general-file-requirements) para quando o arquivo for baixado, selecione uma opção no menu suspenso Codificação de Arquivo. As opções são:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latino-1]**.
 
-1. Selecione **[!UICONTROL Baixar]** para baixar o modelo de dados de classificação. Você pode encontrar o arquivo baixado no diretório de download padrão do seu navegador, e ele é intitulado <code><i>Conjunto de classificações</i>.<i>csv</i>|<i>tsv</i></code>. Se o arquivo já existir, um número de sequência <code>(<i>x</i>)</code> é adicionado ao nome do arquivo.
+1. Selecione **[!UICONTROL Baixar]** para baixar o modelo de dados de classificação. Você pode encontrar o arquivo baixado no diretório de download padrão do seu navegador. O arquivo é intitulado <code><i>Conjunto de Classificações</i>.<i>csv</i>|<i>tsv</i></code>. Se o arquivo já existir, um número de sequência <code>(<i>x</i>)</code> é adicionado ao nome do arquivo.
 
 
 ### Automatizar {#automate}
@@ -167,8 +167,6 @@ In the **[!UICONTROL Download template for _classification set name_]**&#x200B;d
 
 É possível automatizar a assimilação de dados de classificação por meio da configuração e do uso da conta da nuvem e dos locais da nuvem.
 
-
-
 >[!IMPORTANT]
 >A automação da assimilação de classificação de contas na nuvem exige que você (ou o administrador de rede) especifique intervalos de endereço IP para permitir a assimilação de dados na rede. Configure um ou mais intervalos de endereço IP dependendo da localização dos data centers do Analytics que você usa.
 >
@@ -179,11 +177,11 @@ In the **[!UICONTROL Download template for _classification set name_]**&#x200B;d
 >| Singapura | `20.40.0.0/14 ` |
 >
 
-To automate the ingestion of classification, select ![Gear](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.
+Para automatizar a assimilação da classificação, selecione ![Engrenagem](/help/assets/icons/Gear.svg) **[!UICONTROL Automatizar]**.
 
-![Classification sets schema - Automate](assets/classification-sets-schema-automate.png)
+![Esquema dos conjuntos de classificações - Automatizar](assets/classification-sets-schema-automate.png)
 
-In the **[!UICONTROL Associate / Update Ingest Location for _classification set name_]**&#x200B;dialog:
+Na caixa de diálogo **[!UICONTROL Associar / Atualizar Local de Assimilação para _nome do conjunto de classificações_]**:
 
 1. Para selecionar um local da nuvem, selecione uma opção em **[!UICONTROL Conta da Localização]**. Somente [contas de localização de tipos de conta com suporte que permitem a importação de dados de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts) são mostradas. Para criar uma nova conta, selecione **[!UICONTROL Nova conta]**.
 1. Para selecionar um local, selecione uma opção de **[!UICONTROL Local]**. Somente os locais dos tipos de conta selecionados para a importação de dados de classificação são mostrados. Para criar um novo local, selecione **[!UICONTROL Novo local]**.
@@ -198,31 +196,35 @@ In the **[!UICONTROL Associate / Update Ingest Location for _classification set 
    * **[!UICONTROL Ponto e vírgula ;]**
    * **[!UICONTROL Dois-pontos:]**
    * **[!UICONTROL Barra vertical |]**
-   * **[!UICONTROL Space]**
+   * **[!UICONTROL Espaço]**
    * **[!UICONTROL Guia]**
-1. To select the [file encoding](/help/components/classifications/sets/data-files.md#general-file-requirements) when the file is downloaded, select an option from the **[!UICONTROL File Encoding]** drop-down menu. As opções são:
+1. Para selecionar a [codificação do arquivo](/help/components/classifications/sets/data-files.md#general-file-requirements) quando o arquivo for baixado, selecione uma opção no menu suspenso **[!UICONTROL Codificação do Arquivo]**. As opções são:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latino-1]**.
 
 1. Para notificar os usuários sobre a conclusão dos trabalhos de assimilação, insira endereços de email, separados por vírgula, para **[!UICONTROL Email(s) a notificar quando os trabalhos de assimilação forem concluídos (separados por vírgula)]**.
-1. Selecione **[!UICONTROL Validar]**. A conexão com o local da nuvem é validada.
-1. Se a validação for bem-sucedida, você verá uma mensagem em caixa de informações que mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione&#x200B;**[!UICONTROL &#x200B; Salvar &#x200B;]**&#x200B;se tiver criado a conexão com a nuvem. Caso contrário, selecione&#x200B;**[!UICONTROL &#x200B; Atualizar &#x200B;]**. Or select&#x200B;**[!UICONTROL &#x200B; Cancel &#x200B;]**&#x200B;to cancel the configuration of the cloud location.
+1. Selecione **[!UICONTROL Validar]**. A conexão com o local da nuvem foi validadaSe a validação for bem-sucedida, uma mensagem em caixa de informações será exibida exibindo o ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validação de local bem-sucedida. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione&#x200B;**[!UICONTROL &#x200B; Salvar &#x200B;]**&#x200B;se tiver criado a conexão com a nuvem. Caso contrário, selecione&#x200B;**[!UICONTROL &#x200B; Atualizar &#x200B;]**. Ou selecione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar a configuração do local da nuvem.
 
-When you upload files to the cloud location, within 15 minutes the file is detected and submitted as an import job. The result of that import job is reported in the [Classifications job manager](/help/components/classifications/sets/job-manager.md). If you are added to the list of users to notify about the completion of ingest jobs, you also receive email messages.
+Ao fazer upload de arquivos no local da nuvem, em 15 minutos o arquivo é detectado e enviado como um trabalho de importação. O resultado desse trabalho de importação é relatado no [Gerenciador de trabalhos de classificações](/help/components/classifications/sets/job-manager.md). Se você for adicionado à lista de usuários para notificar sobre a conclusão de trabalhos de assimilação, também receberá mensagens de email.
 
 Por exemplo:
 
 ![Conjuntos de classificações - email de validação do trabalho](assets/job-failed-validation.png){width="400"}
 
+>[!IMPORTANT]
+>
+>Remova os arquivos do local da nuvem manualmente ou usando uma política de rotação de arquivos depois que os arquivos forem importados e processados com êxito. Caso contrário, os arquivos serão reimportados e processados na próxima tarefa de importação.
+
+
 
 ## Barra de ação
 
-The action bar shows actions available for the selected classification. As opções disponíveis são:
+A barra de ações mostra as ações disponíveis para a classificação selecionada. As opções disponíveis são:
 
 | Ícone | Ação | Descrição |
 |---|---|---|
-| ![Browse](/help/assets/icons/Browse.svg) | **[!UICONTROL Adicionar Pesquisa]** | Adicione um conjunto de classificações como uma pesquisa (subclassificação).<br/>Na tabela **[!UICONTROL Anexar pesquisa]**: <ol><li>Selecione uma classificação de pesquisa no menu suspenso **[!UICONTROL Nome da Classificação]**.</li><li>Selecione **[!UICONTROL Adicionar]**.</li></ol>A classificação de pesquisa é adicionada à classificação e listada na coluna **[!UICONTROL Classificado por]** usando a ID interna. |
+| ![Procurar](/help/assets/icons/Browse.svg) | **[!UICONTROL Adicionar Pesquisa]** | Adicione um conjunto de classificações como uma pesquisa (subclassificação).<br/>Na tabela **[!UICONTROL Anexar pesquisa]**: <ol><li>Selecione uma classificação de pesquisa no menu suspenso **[!UICONTROL Nome da Classificação]**.</li><li>Selecione **[!UICONTROL Adicionar]**.</li></ol>A classificação de pesquisa é adicionada à classificação e listada na coluna **[!UICONTROL Classificado por]** usando a ID interna. |
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remover Pesquisa]** | Remova um conjunto de classificações como uma pesquisa. Para excluir a pesquisa permanentemente da classificação, na caixa de diálogo de confirmação **[!UICONTROL Remover _conjunto de classificações_ da _classificação_]**, selecione **[!UICONTROL Excluir]**. |
 | ![Renomear](/help/assets/icons/Rename.svg) | **[!UICONTROL Renomear]** | Renomeie o **[!UICONTROL Nome da Classificação]** de uma classificação. Na caixa de diálogo **[!UICONTROL Renomear: _nome da classificação_]**, digite um novo nome e selecione **[!UICONTROL Renomear]**. |
 | ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir uma classificação. A caixa de diálogo **[!UICONTROL Excluir _nome da classificação_]**&#x200B;é exibida. Selecione **[!UICONTROL Excluir]**&#x200B;para excluir a classificação. |
