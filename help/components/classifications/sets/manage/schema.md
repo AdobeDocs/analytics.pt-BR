@@ -3,9 +3,9 @@ title: Esquema do conjunto de classificações
 description: Saiba como visualizar e editar o esquema para um conjunto de classificações individual.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
+source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1605'
 ht-degree: 7%
 
 ---
@@ -119,7 +119,7 @@ Na caixa de diálogo **[!UICONTROL Baixar dados para _nome do conjunto de classi
    * **[!UICONTROL Valores separados por vírgula]** (CSV).
    * **[!UICONTROL Valores separados por tabulação do Excel]** (TSV ou TAB).
 
-1. Para selecionar a [codificação do arquivo](/help/components/classifications/sets/data-files.md#general-file-requirements) para quando o arquivo for baixado, 2. Para selecionar a [codificação do arquivo](/help/components/classifications/sets/data-files.md#general-file-requirements) quando o arquivo for baixado, selecione uma opção no menu suspenso Codificação do Arquivo. As opções são:
+1. Para selecionar a [codificação do arquivo](/help/components/classifications/sets/data-files.md#general-file-requirements) quando o arquivo for baixado, selecione uma opção no menu suspenso **[!UICONTROL Codificação de Arquivo]**. As opções são:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latino-1]**.
