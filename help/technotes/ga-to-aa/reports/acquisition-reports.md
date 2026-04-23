@@ -3,10 +3,10 @@ title: Relatórios de aquisição no Adobe Analytics
 description: Saiba como criar relatórios baseados em aquisição usando a Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 99%
+source-wordcount: '1574'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Consulte as seguintes páginas no guia do usuário Componentes para obter mais i
 ## Todo o tráfego - Referências
 
 * A dimensão principal **Origem** está disponível na Analysis Workspace como a dimensão **Domínio de referência**.
-* A dimensão principal **Página inicial** está disponível na Analysis Workspace como a dimensão **Página de entrada**.
+* A dimensão principal **Página de destino** está disponível na Analysis Workspace como a dimensão **Página de entrada**.
 
 1. No menu Componentes, localize a dimensão **Domínio de referência** ou **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
@@ -74,7 +74,7 @@ Consulte a dimensão [Domínio de referência](/help/components/dimensions/refer
 
 A Adobe usa um recurso na Analysis Workspace chamado Advertising Analytics para trazer dados de publicidade e pesquisa de várias plataformas, incluindo o Google.
 
-O recurso de análise de publicidade exige configuração para retornar dados. Consulte a [Ajuda do Advertising Analytics &#x200B;](/help/integrate/c-advertising-analytics/overview.md)para obter detalhes sobre como habilitar essas dimensões adicionais na Analysis Workspace.
+O recurso de análise de publicidade exige configuração para retornar dados. Consulte a [Ajuda do Advertising Analytics ](/help/integrate/c-advertising-analytics/overview.md)para obter detalhes sobre como habilitar essas dimensões adicionais na Analysis Workspace.
 
 ## Relatórios Social
 
@@ -90,9 +90,9 @@ O relatório Referências de rede mostra quais domínios de rede social direcion
 2. No menu Componentes, localize o segmento **Visitas de sites sociais** e arraste até a pequena área acima da tabela de forma livre chamada &#39;Solte um segmento aqui&#39;.
 3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
 
-### Social - Páginas de aterrissagem
+### Social - Páginas de destino
 
-O relatório de páginas de aterrissagem mostra em quais páginas os visitantes chegaram depois de clicar em um link por meio de uma rede social. Esses dados estão disponíveis na Analysis Workspace usando a dimensão **Página de entrada** e o segmento **Visitas de sites sociais**.
+O relatório de páginas de destino mostra em quais páginas os visitantes chegaram depois de clicar em um link por meio de uma rede social. Esses dados estão disponíveis na Analysis Workspace usando a dimensão **Página de entrada** e o segmento **Visitas de sites sociais**.
 
 1. No menu Componentes, localize a dimensão **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. No menu Componentes, localize o segmento **Visitas de sites sociais** e arraste até a pequena área acima da tabela de forma livre chamada &#39;Solte um segmento aqui&#39;.
@@ -141,4 +141,4 @@ O relatório de palavras-chave orgânicas mostra o desempenho de cada palavra-ch
 
 ## Análise de custo
 
-Este relatório mostra os dados de desempenho de visita, custo e receita dos canais de marketing pagos. A Adobe fornece um produto dedicado para oferecer informações chamado Adobe Advertising Cloud. Se a organização estiver interessada em usar esse produto, entre em contato com a equipe de conta da Adobe.
+Este relatório mostra os dados de desempenho de visita, custo e receita dos canais de marketing pagos. Adobe Advertising, a separate product, provides this functionality. If your organization is interested in using this product, contact your Adobe Account Team.

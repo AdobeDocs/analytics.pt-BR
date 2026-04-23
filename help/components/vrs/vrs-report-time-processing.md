@@ -5,9 +5,9 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 39%
 
 ---
@@ -43,7 +43,7 @@ As seguintes opções de configuração estão disponíveis atualmente para conj
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Iniciando uma nova visita com o evento](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Iniciando uma nova visita com o evento](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -58,12 +58,12 @@ Além disso, o Processamento de tempo de relatório processa apenas os dados pro
 As seguintes dimensões e métricas não são compatíveis com o Processamento de tempo do relatório:
 
 * **Analytics for Target**
-* **Dimensões/métricas do Analytics para Advertising Cloud**
+* [**Dimensões/métricas do Advertising**](/help/components/dimensions/amo-id.md)
 * **eVars do contador**
 * [**Dias Antes da Primeira Compra**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Dias desde a última compra**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Dias desde a última visita**](/help/components/dimensions/days-since-last-visit.md)
-* **Página de entrada original**
+* [**Página de entrada original**](/help/components/dimensions/entry-dimensions.md)
 * **eVars de alocação linear**
 * **Listar Vars**
 * [**Dimensões de Canais de marketing**](/help/components/dimensions/marketing-channel.md)
