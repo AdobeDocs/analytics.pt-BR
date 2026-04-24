@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+index: true
+source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
@@ -56,7 +57,7 @@ ht-degree: 100%
          + [Criar anotações](analysis-workspace/components/annotations/create-annotations.md)
          + [Gerenciar anotações](analysis-workspace/components/annotations/manage-annotations.md)
          + [Exibir anotações](analysis-workspace/components/annotations/view-annotations.md)
-         + [Anotações de cartões de pontuação de dispositivos móveis](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [Anotações de cartão de pontuação](analysis-workspace/components/annotations/mobile-annotations.md)
       + Dimensões {#dimensions}
          + [Visualizar dimensões](analysis-workspace/components/dimensions/view-dimensions.md)
          + [Analisar dimensões](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -174,8 +175,8 @@ ht-degree: 100%
    + [Trabalhar com segmentos](report-builder/work-with-segments.md)
    + [Filtrar dimensões](report-builder/filter-dimensions.md)
    + [Gerenciar blocos de dados](report-builder/manage-reportbuilder.md)
-   + [Programar pastas de trabalho para email](report-builder/schedule-reportbuilder.md)
-   + [Programar pastas de trabalho para exportações na nuvem](/help/analyze/report-builder/report-builder-export.md)
+   + [Agendar pastas de trabalho para email](report-builder/schedule-reportbuilder.md)
+   + [Agendar pastas de trabalho para exportações na nuvem](/help/analyze/report-builder/report-builder-export.md)
    + [Gerenciar pastas de trabalho programadas](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Configurações do Report Builder](report-builder/report-builder-settings.md)
 + Report Builder legado {#legacy-report-builder}
