@@ -3,10 +3,10 @@ title: Requisitos de segurança para servidores FTP e SFTP
 description: Saiba mais sobre os requisitos de segurança para servidores FTP e SFTP.
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 9067b57a7436656b6776de08e8411ee0a87f2b20
+source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
 workflow-type: tm+mt
-source-wordcount: '1881'
-ht-degree: 2%
+source-wordcount: '1933'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Esta página aborda os requisitos de segurança para servidores FTP e SFTP exist
 >
 >Considere as seguintes situações antes de concluir as etapas deste artigo.
 >
->* **A Adobe recomenda fazer a transição para um destino de nuvem moderno, em vez de atualizar para SFTP, se possível.**
+>* **A Adobe recomenda a transição para um destino de nuvem moderno, em vez de atualizar para SFTP, se possível.**
 >FTP e SFTP são tipos de destino herdados. Em vez de atualizar contas FTP para SFTP e girar senhas SFTP conforme descrito neste artigo, a Adobe recomenda mudar para um tipo de destino de nuvem moderno (como Amazon S3, Google Cloud Platform ou Azure). Esses destinos em nuvem oferecem um nível mais alto de segurança. Para obter mais informações, consulte [Configurar contas de importação e exportação da nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts).
 >
 >* **Se as contas FTP e SFTP forem usadas exclusivamente para Classificações, migre para os conjuntos de Classificações.**
@@ -211,7 +211,7 @@ Edite cada solicitação agendada do Data Warehouse configurada com o destino FT
 
 1. Na página do Data Warehouse, selecione a solicitação que deseja editar.
 
-   ![Gerenciar uma solicitação](assets/dw-manage-request.png)
+   ![Gerenciar uma solicitação](/help/technotes/assets/dw-manage-request.png)
 
 1. Selecione [!UICONTROL **Editar**].
 
