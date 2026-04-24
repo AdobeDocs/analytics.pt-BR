@@ -3,7 +3,7 @@ title: Requisitos de segurança para servidores FTP e SFTP
 description: Saiba mais sobre os requisitos de segurança para servidores FTP e SFTP.
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
+source-git-commit: 94059a3b7d667fafe1900a4a9c82ed931d769df1
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Esta página aborda os requisitos de segurança para servidores FTP e SFTP exist
 >FTP e SFTP são tipos de destino herdados. Em vez de atualizar contas FTP para SFTP e girar senhas SFTP conforme descrito neste artigo, a Adobe recomenda mudar para um tipo de destino de nuvem moderno (como Amazon S3, Google Cloud Platform ou Azure). Esses destinos em nuvem oferecem um nível mais alto de segurança. Para obter mais informações, consulte [Configurar contas de importação e exportação da nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts).
 >
 >* **Se as contas FTP e SFTP forem usadas exclusivamente para Classificações, migre para os conjuntos de Classificações.**
->Se sua conta FTP ou SFTP for usada exclusivamente para Classificações, você deverá migrar do **Importador de classificações** para os **Conjuntos de classificações**, em vez de atualizar contas FTP para SFTP e girar senhas SFTP conforme descrito neste artigo. O importador de classificação será substituído e não estará mais acessível após **31 de agosto de 2026**. Para obter mais informações, consulte [Visão geral dos conjuntos de classificação](https://experienceleague.adobe.com/pt-br/docs/analytics/components/classifications/sets/overview).
+>Se sua conta FTP ou SFTP for usada exclusivamente para Classificações, você deverá migrar do **Importador de classificações** para os **Conjuntos de classificações**, em vez de atualizar contas FTP para SFTP e girar senhas SFTP conforme descrito neste artigo. O importador de classificação será substituído e não estará mais acessível após **31 de agosto de 2026**. Para obter mais informações, consulte [Visão geral dos conjuntos de classificação](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview).
 
 ## Pré-requisitos
 
@@ -177,7 +177,7 @@ Pode ser um servidor FTP hospedado pela Adobe ou seu próprio servidor FTP.
 
 1. Repita esse processo para cada conta SFTP criada.
 
-Para obter instruções detalhadas, consulte [Configurar locais de importação e exportação da nuvem](https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-locations).
+Para obter instruções detalhadas, consulte [Configurar locais de importação e exportação da nuvem](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations).
 
 ### Etapa 3: Editar feeds de dados e solicitações do Data Warehouse para usar o novo destino SFTP
 
@@ -211,7 +211,7 @@ Edite cada solicitação agendada do Data Warehouse configurada com o destino FT
 
 1. Na página do Data Warehouse, selecione a solicitação que deseja editar.
 
-   ![Gerenciar uma solicitação](/help/technotes/assets/dw-manage-request.png)
+   ![Gerenciar uma solicitação](assets/dw-manage-request.png)
 
 1. Selecione [!UICONTROL **Editar**].
 
