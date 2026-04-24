@@ -3,7 +3,7 @@ title: Requisitos de segurança para servidores FTP e SFTP
 description: Saiba mais sobre os requisitos de segurança para servidores FTP e SFTP.
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
+source-git-commit: 94059a3b7d667fafe1900a4a9c82ed931d769df1
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 3%
@@ -211,7 +211,7 @@ Edite cada solicitação agendada do Data Warehouse configurada com o destino FT
 
 1. Na página do Data Warehouse, selecione a solicitação que deseja editar.
 
-   ![Gerenciar uma solicitação](/help/technotes/assets/dw-manage-request.png)
+   ![Gerenciar uma solicitação](assets/dw-manage-request.png)
 
 1. Selecione [!UICONTROL **Editar**].
 
