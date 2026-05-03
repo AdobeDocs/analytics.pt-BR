@@ -5,8 +5,8 @@ feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 8%
+source-wordcount: '545'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode visualizar o histórico de trabalhos de cada feed de dados, reenviar 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
 >title="Histórico de tarefas do feed de dados"
->abstract="Você pode exibir uma lista de trabalhos do feed de dados para um determinado feed de dados nesta página. Procure processos por ID de solicitação ou Data de início do período de solicitação. As informações sobre cada tarefa são mostradas nas colunas disponíveis. Você também pode reenviar um processo com os mesmos dados ou reprocessar os dados de origem de um processo antes de reenviá-lo."
+>abstract="É possível exibir uma lista de trabalhos do feed de dados para um feed específico nesta página. Pesquise trabalhos por ID de solicitação ou Data de início do período de solicitação. As informações sobre cada trabalho são mostradas nas colunas disponíveis. Também é possível reenviar um trabalho com os mesmos dados ou reprocessar os dados de origem de um trabalho antes de reenviá-lo."
 
 <!-- markdownlint-enable MD034 -->
 
