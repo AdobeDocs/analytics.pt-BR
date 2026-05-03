@@ -1,12 +1,12 @@
 ---
-title: Manage Data Feeds
-description: Learn how to navigate the data feed interface. Find out how to create, edit, and view a data feed.
+title: Gerenciar feeds de dados
+description: Saiba como navegar na interface do feed de dados. Descubra como criar, editar e visualizar um feed de dados.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 15%
+source-wordcount: '1329'
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gerenciamen
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_manager"
 >title="Gerenciar feeds de dados"
->abstract="Você pode exibir, criar e gerenciar feeds de dados nesta página. Procure feeds por nome ou ID ou selecione o ícone de filtro para exibir os filtros disponíveis."
+>abstract="É possível exibir, criar e gerenciar feeds de dados nesta página. Procure feeds por nome ou ID, ou selecione o ícone de filtro para exibir as opções disponíveis."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -49,15 +49,15 @@ O botão **[!UICONTROL Criar feed de dados]** permite criar um novo feed. Consul
 
 1. No Adobe Analytics, selecione [!UICONTROL **Administrador**] > [!UICONTROL **Feeds de dados**].
 
-1. Localize o feed de dados que deseja editar. To locate a data feed, you can [filter and search the list of data feeds](#filter-and-search-the-list-of-data-feeds).
+1. Localize o feed de dados que deseja editar. Para localizar um feed de dados, você pode [filtrar e pesquisar a lista de feeds de dados](#filter-and-search-the-list-of-data-feeds).
 
-1. Select the data feed in the [!UICONTROL **Feed name**] column.
+1. Selecione o feed de dados na coluna [!UICONTROL **Nome do feed**].
 
-1. Make any desired changes to the data feed.
+1. Faça as alterações desejadas no feed de dados.
 
-   For information about data feed options, see [Create and configure a data feed](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed) in [Create a data feed](/help/export/analytics-data-feed/create-feed.md).
+   Para obter informações sobre opções de feed de dados, consulte [Criar e configurar um feed de dados](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed) em [Criar um feed de dados](/help/export/analytics-data-feed/create-feed.md).
 
-   When updating the [!UICONTROL **Destination**] section for a data feed that you are editing, you can choose a different account and location to use for the new data feed in the [!UICONTROL **Account**] and [!UICONTROL **Location**] drop-down fields.
+   Ao atualizar a seção [!UICONTROL **Destino**] de um feed de dados que você está editando, você pode escolher uma conta e um local diferentes para usar no novo feed de dados nos campos suspensos [!UICONTROL **Conta**] e [!UICONTROL **Local**].
 
    Contas e locais podem ser editados conforme descrito em [Configurar contas de importação e exportação da nuvem](/help/components/locations/configure-import-accounts.md) e [Configurar locais de importação e exportação da nuvem](/help/components/locations/configure-import-locations.md). A edição de uma conta ou local afeta todos os itens associados a essa conta ou local.
 
@@ -85,17 +85,17 @@ O botão **[!UICONTROL Criar feed de dados]** permite criar um novo feed. Consul
 
 1. Selecione a guia [!UICONTROL **Trabalhos**] para exibir trabalhos individuais criados por cada um dos feeds.
 
-1. (Optional) To view the job history for specific data feeds, select the checkbox next to a data feed, then select [!UICONTROL **Job history**].
+1. (Opcional) Para exibir o histórico de trabalho de feeds de dados específicos, marque a caixa de seleção ao lado de um feed de dados e selecione [!UICONTROL **Histórico de trabalho**].
 
-   For more information, see [Manage data feed jobs](df-manage-jobs.md).
+   Para obter mais informações, consulte [Gerenciar trabalhos do feed de dados](df-manage-jobs.md).
 
-## Copy a data feed
+## Copiar um feed de dados
 
 1. No Adobe Analytics, selecione [!UICONTROL **Administrador**] > [!UICONTROL **Feeds de dados**].
 
-1. Select the checkbox next to the data feed that you want to copy, then select [!UICONTROL **Copy**].
+1. Marque a caixa de seleção ao lado do feed de dados que você deseja copiar e selecione [!UICONTROL **Copiar**].
 
-   This takes you to [create a new feed](create-feed.md) with all settings of the current feed. A opção para copiar não estará visível se mais de um feed de dados for selecionado.
+   Isso leva você a [criar um novo feed](create-feed.md) com todas as configurações do feed atual. A opção para copiar não estará visível se mais de um feed de dados for selecionado.
 
    Ao atualizar a seção [!UICONTROL **Destino**] de um feed de dados que você está copiando, você pode escolher uma conta e um local diferentes para usar no novo feed de dados nos campos suspensos [!UICONTROL **Conta**] e [!UICONTROL **Local**].
 
@@ -117,13 +117,13 @@ Para pausar um feed de dados:
 
 ## Ativar um feed de dados
 
-You can activate feeds that are inactive.
+Você pode ativar feeds que estão inativos.
 
-When a feed is reactivated, data might not be automatically processed for the time that the feed was inactive. Whether the data is processed depends on whether it is a backfill feed or a live feed:
+Quando um feed é reativado, os dados podem não ser processados automaticamente pelo tempo em que o feed ficou inativo. Se os dados são processados depende de se são um feed de preenchimento retroativo ou um feed ativo:
 
-* **Backfill feeds** (feeds that process only historical data) resume processing data from where they stopped, backfilling any dates if necessary.
+* **Os feeds de preenchimento retroativo** (feeds que processam apenas dados históricos) retomam o processamento de dados de onde pararam, preenchendo retroativamente quaisquer datas, se necessário.
 
-* **Live feeds** resume processing data from the time they are activated. Isso significa que os dados não são processados durante o tempo em que o feed foi pausado até o momento em que foi ativado. Se você precisar dos dados durante esse período, é necessário configurar um preenchimento retroativo.
+* **Feeds em tempo real** retomam o processamento dos dados a partir do momento em que são ativados. Isso significa que os dados não são processados durante o tempo em que o feed foi pausado até o momento em que foi ativado. Se você precisar dos dados durante esse período, é necessário configurar um preenchimento retroativo.
 
 Para ativar um feed de dados:
 
@@ -155,11 +155,11 @@ Para ajustar as colunas visíveis na tabela:
 
 1. Selecione o ícone de coluna ![Ícone de coluna](assets/customize-columns-icon.png) no canto superior direito.
 
-1. In the Customize table dialog, select each column you want to view and deselect each column you want to hide.
+1. Na caixa de diálogo Personalizar tabela, selecione cada coluna que deseja exibir e desmarque cada coluna que deseja ocultar.
 
    As seguintes colunas estão disponíveis:
 
-   * **Feed name**: Required column. Exibe o nome do feed.
+   * **Nome do feed**: coluna obrigatória. Exibe o nome do feed.
    * **ID do feed**: exibe a ID do feed, um identificador exclusivo.
    * **Conjunto de relatórios**: o conjunto de relatórios do qual o feed faz referência aos dados.
    * **ID do conjunto de relatórios**: o identificador exclusivo do conjunto de relatórios.
@@ -173,8 +173,8 @@ Para ajustar as colunas visíveis na tabela:
       * Excluído: o feed é excluído.
       * Concluído: o feed terminou de ser processado. Um feed concluído pode ser editado, suspenso ou cancelado.
       * Pendente: o feed é criado, mas ainda não está ativo. Os feeds permanecem nesse estado por um curto período de transição.
-      * Inativo: equivalente a um estado &quot;pausado&quot; ou &quot;em espera&quot;. For information about what happens with backfill feeds and live feeds when an inactive feed is reactivated, see [Activate a data feed](#activate-a-data-feed).
-   * **Last modified**: The date the feed was last modified. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
+      * Inativo: equivalente a um estado &quot;pausado&quot; ou &quot;em espera&quot;. Para obter informações sobre o que acontece com feeds de preenchimento retroativo e feeds em tempo real quando um feed inativo é reativado, consulte [Ativar um feed de dados](#activate-a-data-feed).
+   * **Última modificação**: a data em que o feed foi modificado pela última vez. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
    * **Data de início**: a data do primeiro trabalho para este feed. A data e a hora são mostradas no fuso horário do conjunto de relatórios com deslocamento GMT.
    * **Data de término**: a data do último trabalho para este feed. Os feeds de dados em andamento não têm uma data final.
 
