@@ -4,9 +4,9 @@ description: Acompanhe a atividade de visitantes novos e repetidos.
 feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+source-git-commit: 53f44c09cd68fce618f08ea0042c411cfc6d1681
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '681'
 ht-degree: 71%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 71%
 
 {{plug-in}}
 
-O plug-in `getNewRepeat` permite determinar se um visitante do site é um novo visitante ou um visitante repetido dentro de um número desejado de dias. A Adobe recomenda usar esse plug-in se você quiser identificar os visitantes como &quot;novos&quot; usando um número personalizado de dias. Este plug-in é desnecessário se os segmentos &#39;[!UICONTROL Novos visitantes]&#39; e &#39;[!UICONTROL Visitantes repetidos]&#39; na Analysis Workspace atenderem às necessidades da sua organização.
+O plug-in `getNewRepeat` permite determinar se um visitante do site é um novo visitante ou um visitante repetido dentro de um número desejado de dias. A Adobe recomenda usar esse plug-in se você quiser identificar os visitantes como &quot;novos&quot; usando um número personalizado de dias. Este plug-in é desnecessário se os segmentos [!UICONTROL Novas Visitas] e [!UICONTROL Visitas de Retorno] na Analysis Workspace atenderem às necessidades da sua organização.
 
 ## Instale o plug-in usando a extensão Web SDK
 
