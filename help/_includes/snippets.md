@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
-workflow-type: ht
-source-wordcount: '3047'
-ht-degree: 100%
+source-git-commit: 851e0aaa0b19e95dca057dbc30d9466a897145a6
+workflow-type: tm+mt
+source-wordcount: '3044'
+ht-degree: 98%
 
 ---
 # Trechos
@@ -82,7 +82,7 @@ Um modelo de atribuição determina quais itens de dimensão recebem crédito po
 | ![J invertido](/help/assets/icons/AttributeInverseJ.svg) | J invertido | Dá 60% de crédito ao primeiro ponto de contato, 20% de crédito ao último ponto de contato e divide os 20% restantes para os pontos de contato entre os dois. Para conversões com um só ponto de contato, o crédito é de 100%. Para conversões com dois pontos de contato, o crédito é de 75% para a primeira interação e de 25% para a última. Semelhante à “Forma de J”, esse modelo de atribuição favorece a primeira e a última interação, mas com foco maior na primeira interação. |
 | ![Declínio de tempo](/help/assets/icons/AttributeTimeDecay.svg) | Declínio de tempo | Segue um declínio exponencial com um parâmetro personalizado de meia-vida e padrão de 7 dias. O peso de cada canal depende da quantidade de tempo decorrido entre a iniciação do ponto de contato e a conversão final. A fórmula usada para determinar o crédito é `2^(-t/halflife)`, em que `t` é o tempo entre um ponto de contato e uma conversão. Todos os pontos de contato são normalizados para 100%. Ideal para cenários em que você deseja medir a atribuição em relação a um evento específico e significativo. Quanto mais tempo uma conversão demorar para ocorrer após esse evento, menos crédito será dado. |
 | ![Personalizado](/help/assets/icons/AttributeCustom.svg) | Personalizado | Permite especificar o peso que você deseja dar ao primeiro ponto de contato, ao último ponto de contato e a pontos de contato intermediários. Os valores especificados são regularizados para 100% mesmo se os números inseridos, quando somados, não resultarem em 100. Para conversões com um só ponto de contato, o crédito é de 100%. Para interações com dois pontos de contato, o parâmetro intermediário é ignorado. O primeiro e o último ponto de contato são normalizados para 100% e o crédito é atribuído em conformidade. Este modelo é ideal para analistas que desejam controle total sobre seu modelo de atribuição e têm necessidades específicas que outros modelos de atribuição não atendem. |
-| ![Algorítmico](/help/assets/icons/AttributeAlgorithmic.svg) | Algorítmico | Usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. O algoritmo usado para atribuição é baseado no Harsanyi Dividend da teoria dos jogos cooperativos. O dividendo de Harsanyi é uma generalização da solução de valor de Shapley (batizada de Lloyd Shapley, economista vencedor do Nobel) para distribuir crédito entre os jogadores em um jogo com contribuições desiguais para o resultado.<br>Em alto nível, a atribuição é calculada como uma aliança de jogadores aos quais um excedente deve ser distribuído equitativamente. A distribuição excedente de cada aliança é determinada de acordo com o excedente anteriormente criado por cada subaliança (ou itens de dimensão participantes anteriores) de forma recursiva. Para mais detalhes, veja os documentos originais de John Harsanyi e Lloyd Shapley:<br>Shapley, Lloyd S. (1953). Um valor para jogos em pessoa. *Contribuições para a Teoria dos Jogos, 2(28)*, 307-317.<br>Harsanyi, John C. (1963).  Um modelo de negociação simplificado para o jogo cooperativo entre pessoas. *International Economic Review 4(2)*, 194-220. |
+| ![Algorítmico](/help/assets/icons/AttributeAlgorithmic.svg) | Algorítmico | Usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. O algoritmo usado para atribuição é baseado no Harsanyi Dividend da teoria dos jogos cooperativos. O dividendo de Harsanyi é uma generalização da solução de valor de Shapley (batizada de Lloyd Shapley, economista vencedor do Nobel) para distribuir crédito entre os jogadores em um jogo com contribuições desiguais para o resultado.<br>Em alto nível, a atribuição é calculada como uma aliança de jogadores aos quais um excedente deve ser distribuído equitativamente. A distribuição excedente de cada aliança é determinada de acordo com o excedente anteriormente criado por cada subaliança (ou itens de dimensão participantes anteriores) de forma recursiva. Para obter mais detalhes, consulte os documentos originais de John Harsanyi e Lloyd Shapley:<br>Shapley, Lloyd S. (1953). Um valor para jogos em pessoa. *Contribuições para a Teoria dos Jogos, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). Um modelo de negociação simplificado para o jogo cooperativo entre pessoas. *International Economic Review 4(2)*, 194-220. |
 
 {style="table-layout:auto"}
 
@@ -143,7 +143,6 @@ Use as informações a seguir para escolher a visualização que melhor atende �
 | **Suporte a componentes em nós ou pontos de contato** | Métricas, itens de dimensão, filtros e intervalos de datas. | Métricas, itens de dimensão, filtros e intervalos de datas. | Somente itens de dimensão (exceto para os pontos de contato inicial e final) |
 | **Comparar filtros** | Não | Sim<p>Fazer comparações lado a lado de dois filtros diferentes no mesmo relatório.</p> | Não |
 | **Interação de componentes de arrastar e soltar** | Sim | Sim | Não |
-| **Jornadas do Adobe Journey Optimizer** | Sim</br>Abra jornadas do Journey Optimizer para realizar análises e personalizações mais profundas | Não | Não |
 
 {style="table-layout:auto"}
 
@@ -190,7 +189,7 @@ Use as informações a seguir para escolher a visualização que melhor atende �
 
 | Intervalo de datas aplicado | Descrição |
 |---|---|
-| ![Intervalo de datas](/help/assets/filter-daterange.png){width="300"} | A seção Intervalo de datas aplicado permite filtrar um intervalo de datas aplicado aos itens.<ol><li>Selecione um intervalo de datas.</li><li>No pop-up do calendário, defina um intervalo de datas ou selecione uma das predefinições disponíveis.<br>Como alternativa, também é possível especificar um intervalo de datas diretamente na seção Intervalo de datas do painel Filtro.</li></ol><ul><li>Os números indicam:<ul><li>**(1)**: o número de intervalos de datas modificados a partir das predefinições padrão.</li><li>**5︎⃣**: o número de intervalos de datas disponíveis para os itens resultantes do filtro atual.</li></ul> |
+| ![Intervalo de datas](/help/assets/filter-daterange.png){width="300"} | A seção Intervalo de datas aplicado permite filtrar um intervalo de datas aplicado aos itens.<ol><li>Selecione um intervalo de datas.</li><li>No pop-up do calendário, defina um intervalo de datas ou selecione uma das predefinições disponíveis.<br>Como alternativa, você também pode especificar um intervalo de datas diretamente na seção Intervalo de datas do painel Filtro.</li></ol><ul><li>Os números indicam:<ul><li>**(1)**: o número de intervalos de datas modificados a partir das predefinições padrão.</li><li>**5︎⃣**: o número de intervalos de datas disponíveis para os itens resultantes do filtro atual.</li></ul> |
 
 
 ## Descontinuação do importador de classificações {#classification-importer-deprecation}
