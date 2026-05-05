@@ -14,7 +14,7 @@ ht-degree: 98%
 >Um [Report Builder](/help/analyze/report-builder/rb-overview.md) novo e simplificado está disponível desde 16 de outubro de 2024. Esse Report Builder é compatível com macOS, Windows e navegadores da Web e pode ser usado com o Adobe Analytics e o Customer Journey Analytics.
 >Esta versão legada do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho legadas](/help/analyze/report-builder/convert-workbooks.md) para o novo Report Builder.
 
-## Anúncio do fim da vida útil do Reports &amp; Analytics {#ra-eol}
+## Anúncio do fim da vida útil do Reports & Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
