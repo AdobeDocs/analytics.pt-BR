@@ -5,10 +5,10 @@ user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
 index: true
-source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
+source-git-commit: 24c05a7f323198716486519e2de6ef70fa19fc10
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 99%
 
 ---
 
@@ -103,6 +103,10 @@ ht-degree: 100%
          + [Visão geral](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurar](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Fluxos interdimensionais](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+      + Tela da jornada {#journey-canvas}
+         + {hide-from-toc}[Visão geral](analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + {hide-from-toc}[Configurar](analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+         + {hide-from-toc}[Solução de problemas](analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [Área (empilhada)](analysis-workspace/visualizations/area.md)
       + [Barra (empilhada)](analysis-workspace/visualizations/bar.md)
       + [Marcador](analysis-workspace/visualizations/bullet-graph.md)
