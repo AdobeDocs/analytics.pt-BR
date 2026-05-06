@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**deste artigo._
+_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;deste artigo._
 
 >[!ENDSHADEBOX]
 
