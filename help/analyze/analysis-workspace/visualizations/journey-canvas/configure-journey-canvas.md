@@ -4,7 +4,7 @@ title: Configurar a visualização de uma tela de jornada
 feature: Visualizations
 hide: true
 role: User, Admin
-source-git-commit: fee3fe30f695c0ef151e998abe45c54c3bce9d31
+source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
 workflow-type: tm+mt
 source-wordcount: '5614'
 ht-degree: 96%
@@ -15,9 +15,11 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;deste artigo._
+_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**deste artigo._
 
 >[!ENDSHADEBOX]
+
+{{release-limited-testing}}
 
 A Visualização de tela da jornada permite analisar e obter insights profundos sobre as jornadas fornecidas aos usuários e clientes.
 
