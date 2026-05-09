@@ -4,10 +4,10 @@ title: Painel Resumo da página
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Painel de resumo da página"
->abstract="Revise rapidamente algumas das métricas de alto nível, bem como o movimento de e para uma página específica.<br/><br/>**Parâmetros &#x200B;**<br/>**Adicionar um item da dimensão página**: abra o painel de componentes, localize a dimensão Página e expanda-a clicando na cenoura para ver os itens de dimensão. Em seguida, arraste e solte a página específica sobre a qual deseja ter conhecimento no construtor. Após arrastar e soltar o item de dimensão, o relatório será preenchido automaticamente com informações importantes sobre a página."
+>abstract="Analise rapidamente algumas das métricas de alto nível, bem como o movimento de e para uma página específica.<br/><br/>**Parâmetros &#x200B;**<br/>**Adicionar um item de dimensão de página**: abra o painel de componentes, localize a dimensão Página e expanda-a clicando na seta para ver os itens de dimensão. Em seguida, arraste e solte a página específica sobre a qual deseja ter conhecimento no construtor. Após arrastar e soltar o item de dimensão, o relatório será preenchido automaticamente com informações importantes sobre a página."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel de resumo da página no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artigo documenta o painel de resumo de Página no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Não há painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -90,8 +90,8 @@ O painel de [!UICONTROL resumo da página] retorna um conjunto avançado de mét
 | **[!UICONTROL Tempo gasto na página]** | Uma visualização de [barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) que mostra o tempo gasto nesta página. |
 | **[!UICONTROL Visitas em uma única página]** | Um [número de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que mostra o número de exibições de página em que esta página foi a única visitada. |
 | **[!UICONTROL Recarregamentos]** | Um [número de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que mostra a quantidade de vezes que um item de dimensão estava presente durante um recarregamento. A atualização do navegador por um(a) visitante é a maneira mais comum de acionar um recarregamento. |
-| **[!UICONTROL Entradas]** | Um [número de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que mostra a quantidade de vezes que um determinado item de dimensão foi capturado como o primeiro valor em uma visita.  |
-| **[!UICONTROL Saídas]** | Um [número de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que mostra a quantidade de vezes que um determinado item de dimensão foi capturado como o último valor em uma visita.  |
+| **[!UICONTROL Entradas]** | Um [número de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que mostra a quantidade de vezes que um determinado item de dimensão foi capturado como o primeiro valor em uma visita. |
+| **[!UICONTROL Saídas]** | Um [número de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que mostra a quantidade de vezes que um determinado item de dimensão foi capturado como o último valor em uma visita. |
 | **[!UICONTROL Fluxo]** | Uma visualização de [fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) com a página selecionada como ponto focal. É possível aprofundar a análise dos dados da mesma forma que em qualquer visualização de [fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style="table-layout:auto"}

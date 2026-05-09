@@ -1,13 +1,13 @@
 ---
-description: Learn how to visualize comparison data in Analysis Workspace, such as building comparisons to last month, last year, and so on.
+description: Saiba como visualizar dados de comparação no Analysis Workspace, criando comparações com o mês passado, o ano passado e assim por diante.
 title: Combinado
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 96%
+source-wordcount: '618'
+ht-degree: 95%
 
 ---
 

@@ -4,10 +4,10 @@ title: Painel Analytics For Target
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 97%
+source-wordcount: '1287'
+ht-degree: 93%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Painel do Analytics for Target"
->abstract="Analisar atividades e experiências do Target no Analysis Workspace.<br/><br>**Parâmetros &#x200B;**<br/>**Atividade do Target**: a atividade do Target que será analisada.<br/>**Experiência de controle**: experiência de controle da atividade do Target selecionada.<br/>**Métrica de normalização**: visitantes, visitas ou impressões. Essa métrica (também chamada de metodologia de contagem) torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”.<br/>**Métricas de sucesso**: até 3 métricas de sucesso padrão (não calculadas) para analisar a atividade do Target."
+>abstract="Analisar atividades e experiências do Target no Analysis Workspace.<br/><br>**Parâmetros &#x200B;**<br/>**Atividade do Target**: a atividade do Target analisada.<br/>**Experiência de controle**: experiência de controle da atividade do Target selecionada.<br/>**Métrica de normalização**: visitantes, visitas ou impressões. Essa métrica (também chamada de metodologia de contagem) torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”.<br/>**Métricas de sucesso**: até 3 métricas de sucesso padrão (não calculadas) para analisar a atividade do Target."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Analytics for Target do_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel de experimentação](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) para obter informações sobre como comparar diferentes variações de experiências de usuário, marketing ou mensagens no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artigo documenta o painel do Analytics for Target no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte o [painel de experimentação](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) para obter informações sobre como comparar diferentes variações de experiências de usuário, marketing ou mensagens no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Para usar um painel do **[!UICONTROL Analytics for Target]**:
 | Configuração | Descrição |
 |---|---|
 | **[!UICONTROL Atividade do Target]** | Selecione a partir de uma lista de atividades do Target. A lista é preenchida com os últimos 6 meses de atividades que tiveram pelo menos uma ocorrência. Se não vir uma atividade na lista, ela pode ter mais de 6 meses. Ela também pode ser adicionada pelo painel esquerdo, que tem um período de retrospectiva de até 18 meses. |
-| **[!UICONTROL Experiência de controle]** | Selecione a experiência de controle.  |
+| **[!UICONTROL Experiência de controle]** | Selecione a experiência de controle. |
 | **[!UICONTROL Métrica de normalização]** | Selecione Visitantes, Visitas ou Impressões. [!UICONTROL Visitantes] é recomendado para a maioria dos casos de uso de análise. Essa métrica (também chamada de metodologia de contagem) torna-se o denominador do cálculo do incentivo. Além disso, afeta a maneira como os dados são agregados antes da aplicação do cálculo “confidence”. |
 | **[!UICONTROL Métricas de sucesso]** | Selecione até três eventos de sucesso padrão (não calculados) no menu suspenso ou arraste e solte métricas da seção correspondente do painel Componentes. Cada métrica tem uma tabela e uma visualização dedicadas no painel renderizado. |
 

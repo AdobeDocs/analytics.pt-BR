@@ -3,7 +3,7 @@ title: Pesquisas dinâmicas
 description: Saiba mais sobre o que são pesquisas dinâmicas e como ativá-las. Inclui operadoras, atributos móveis e tipos de sistema operacional.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 20%

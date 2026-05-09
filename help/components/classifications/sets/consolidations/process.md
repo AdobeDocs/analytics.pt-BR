@@ -3,10 +3,10 @@ title: Criar E Editar Consolidações De Classificação
 description: Explica como criar, validar, executar, aprovar e cancelar consolidações de classificação.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 9%
+source-wordcount: '998'
+ht-degree: 10%
 
 ---
 
@@ -38,7 +38,7 @@ Para criar uma consolidação de classificação, na interface principal do Adob
 
       A lista esquerda **[!UICONTROL Conjunto de Classificações do Source]** foi preenchida com conjuntos de classificações semelhantes à lista de classificações selecionada e disponíveis para consolidação. A lista direita é preenchida automaticamente com o conjunto de classificações ![Chave](/help/assets/icons/Key.svg) selecionado. Esse conjunto de base definiu o esquema geral e sempre tem prioridade em qualquer conflito de mesclagem.
 
-   1. Selecione os conjuntos de classificações que deseja consolidar na lista à esquerda e solte os conjuntos selecionados na lista à direita abaixo do ![Conjunto de classificações &#x200B;](/help/assets/icons/Key.svg)base **[!UICONTROL _selecionado_]**.
+   1. Selecione os conjuntos de classificações que deseja consolidar na lista à esquerda e solte os conjuntos selecionados na lista à direita abaixo do ![Conjunto de classificações **[[!UICONTROL _base]](/help/assets/icons/Key.svg) selecionado_]**.
 
       Os conjuntos de classificações adicionais são consolidados em ordem crescente quando você executa a consolidação. Se uma chave existir em vários conjuntos adicionais, o valor da chave do conjunto de classificação de classificação superior será usado. Se uma chave existir no conjunto base ![Key](/help/assets/icons/Key.svg) e em qualquer conjunto adicional, o valor do conjunto base será usado.
 
@@ -103,7 +103,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
 
 -->
 
-### Executar 
+### Executar
 
 Depois que uma consolidação de classificação for validada com êxito, você poderá executar a consolidação.
 
@@ -127,7 +127,7 @@ Para aprovar uma consolidação do conjunto de classificações:
    * **[!UICONTROL Incompatibilidade]**: a porcentagem de linhas em que os valores de chave não correspondem ao conjunto de classificações de origem. Se a porcentagem de incompatibilidade for alta, a incompatibilidade pode ser uma indicação de que os dados de classificação são muito diferentes. Verifique e certifique-se de que os conjuntos de classificações selecionados tenham dados de classificação semelhantes.
    * **[!UICONTROL Ausente]**: a porcentagem de linhas em que os valores de chave estão no conjunto de classificações ![Chave](/help/assets/icons/Key.svg), mas não no conjunto de classificações de origem. Todas as linhas ausentes são adicionadas ao conjunto de classificações consolidado.
 
-1. Se a consolidação de classificação estiver pronta para aprovação, selecione ![Marca de seleção](/help/assets/icons/Checkmark.svg) **[!UICONTROL Aprovar]**. Uma **[!UICONTROL Aprovar Consolidação?A caixa de diálogo]** solicita confirmação. Selecione **[!UICONTROL Aprovar]** para aprovar a consolidação. Selecione **[!UICONTROL Cancelar]** para cancelar.
+1. Se a consolidação de classificação estiver pronta para aprovação, selecione ![Marca de seleção](/help/assets/icons/Checkmark.svg) **[!UICONTROL Aprovar]**. Uma **[!UICONTROL Aprovar Consolidação?]** A caixa de diálogo solicita confirmação. Selecione **[!UICONTROL Aprovar]** para aprovar a consolidação. Selecione **[!UICONTROL Cancelar]** para cancelar.
 
 Depois de aprovado, o conjunto de classificações consolidado é criado. O status está definido como **[!UICONTROL Concluído]**.
 

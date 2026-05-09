@@ -3,10 +3,10 @@ title: Esquema do conjunto de classificações
 description: Saiba como visualizar e editar o esquema para um conjunto de classificações no Adobe Analytics. Adicione, carregue, baixe ou automatize dados de classificação usando locais na nuvem.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 7%
+source-wordcount: '1654'
+ht-degree: 9%
 
 ---
 
@@ -124,7 +124,7 @@ Na caixa de diálogo **[!UICONTROL Baixar dados para _nome do conjunto de classi
    * **[!UICONTROL Latino-1]**.
 
 
-1. Selecione **[!UICONTROL Baixar]** para baixar os dados de classificação. Você pode encontrar o arquivo baixado no diretório de download padrão do seu navegador, e o arquivo é intitulado <code><i>Conjunto de classificações</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se o arquivo já existir, um número de sequência <code>(<i>x</i>)</code> é adicionado ao nome do arquivo.<br/>Se você tiver especificado opções que não retornam dados, verá uma caixa de diálogo **[!UICONTROL Aviso]** para informá-lo de alterar as opções de intervalo de datas e dados retornados.
+1. Selecione **[!UICONTROL Baixar]** para baixar os dados de classificação. Você pode encontrar o arquivo baixado no diretório de download padrão do seu navegador, e o arquivo é intitulado <code><i>Conjunto de Classificações</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se o arquivo já existir, um número de sequência <code>(<i>x</i>)</code> é adicionado ao nome do arquivo.<br/>Se você tiver especificado opções que não retornam dados, verá uma caixa de diálogo **[!UICONTROL Aviso]** para informá-lo de alterar as opções de intervalo de datas e dados retornados.
 
 
 ### Modelo

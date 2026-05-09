@@ -4,10 +4,10 @@ description: Use o cabeçalho da seção para inserir um cabeçalho de seção n
 feature: Visualizations
 role: User
 exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 83%
+source-wordcount: '108'
+ht-degree: 58%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 83%
 >[!BEGINSHADEBOX]
 
 
-_Este artigo é sobre a visualização do cabeçalho de seção no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Cabeçalho de seção](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/section-header) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta a visualização de cabeçalho de Seção na_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte o [Cabeçalho de seção](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/section-header) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
 
-Para identificar e organizar seções em um painel, insira uma visualização de ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL cabeçalho de seção]** em qualquer lugar do painel.
+Para identificar e articular seções em um painel, você pode inserir uma visualização de ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL Cabeçalho de seção]** em qualquer lugar em um painel.
 
 ![Cabeçalho de seção](/help/analyze/analysis-workspace/visualizations/assets/section-header.png)
 

@@ -1,13 +1,13 @@
 ---
-description: Learn how to synchronize freeform table or a data source to the corresponding visualization.
+description: Saiba como sincronizar uma tabela de forma livre ou uma fonte de dados para a visualização correspondente.
 keywords: Analysis Workspace;Sincronizar visualização com a fonte de dados
 title: Gerenciar fontes de dados
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 89%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 89%
 >abstract="Selecione a opção **[!UICONTROL Mostrar tabela]** para gerar uma nova fonte de dados para a visualização atual, separada da fonte de dados original."
 
 
-Synchronizing visualizations lets you control which freeform table or data source corresponds to a visualization.
+A sincronização de visualizações permite controlar qual tabela de forma livre ou fonte de dados corresponde a uma visualização.
 
 
 >[!TIP]
@@ -65,7 +65,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source sett
 
 | Opção | Descrição |
 |--- |--- |
-| **[!UICONTROL Fonte de dados]** | Select the data source on which the visualization is based, from the drop-down menu. |
+| **[!UICONTROL Fonte de dados]** | Selecione a fonte de dados em que a visualização se baseia no menu suspenso. |
 | **[!UICONTROL Visualizações vinculadas]** | Lista todas as visualizações vinculadas. Aplica-se à fonte de dados (tabela de forma livre). |
 | **[!UICONTROL Mostrar fonte de dados]** | Permite mostrar ou ocultar a fonte de dados (tabela de forma livre) que corresponde à visualização. |
 | **[!UICONTROL Bloquear seleção]** | Selecione esta opção para bloquear a visualização ![LockClosed](/help/assets/icons/LockClosed.svg) dos dados atualmente selecionados na tabela de dados correspondente. Uma vez habilitada, escolhe entre:  <ul><li>**Posições selecionadas**: a visualização está bloqueada nas **posições** selecionadas na tabela de dados correspondente. Essas posições continuarão a ser visualizadas, mesmo se os itens específicos nessas posições forem alterados (por exemplo, devido a classificação ou filtragem). Por exemplo, selecione esta opção se quiser mostrar os cinco principais nomes de campanha listados na fonte de dados nesta visualização o tempo todo. Não importa quais nomes de campanha apareçam.</li> <li>**Itens selecionados**: a visualização está bloqueada nos **itens** específicos atualmente selecionados na tabela de dados correspondente. Esses itens continuarão a ser visualizados, mesmo que as suas classificações sejam alteradas na tabela. Por exemplo, selecione esta opção se quiser mostrar os mesmos cinco nomes de campanha específicos listados na fonte de dados nesta visualização o tempo todo. Não importa a classificação desses nomes de campanha.</li></ul>Se a visualização estiver bloqueada para dados que não estão mais visíveis na tabela de dados conectada, você poderá gerar uma nova tabela. Selecione a opção **[!UICONTROL Mostrar tabela]** para gerar uma nova fonte de dados para a visualização atual, separada da fonte de dados original. |

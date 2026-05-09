@@ -4,10 +4,10 @@ title: Configurar Uma Visualização De Fluxo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 85%
+source-wordcount: '1691'
+ht-degree: 84%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
 >title="Incluir repetições"
->abstract="As visualizações de fluxo são baseadas em instâncias de uma dimensão. Essa configuração oferece a opção de incluir ou excluir instâncias repetidas, por exemplo, recarregamentos de página. "
+>abstract="As visualizações de fluxo são baseadas em instâncias de uma dimensão. Essa configuração oferece a opção de incluir ou excluir instâncias repetidas, por exemplo, recarregamentos de página."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_limit_occurrence"
@@ -203,7 +203,7 @@ No exemplo abaixo, **todas** as ocorrências de *Categoria principal do produto*
 
 >[!MORELIKETHIS]
 >
->[Adicionar uma visualização em um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menu de contexto da visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

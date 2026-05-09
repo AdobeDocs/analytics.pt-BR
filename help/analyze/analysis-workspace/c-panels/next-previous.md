@@ -4,10 +4,10 @@ title: Painel Item Seguinte Ou Anterior
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 88%
+source-wordcount: '471'
+ht-degree: 85%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="Item anterior ou seguinte"
->abstract="Analise quais são os lugares mais comuns de onde os visitantes vieram ou para onde irão em seguida.<br/><br/>**Dimensão**: selecione uma dimensão. Por exemplo, **Página**.<br/>**item de dimensão**: selecione um item de dimensão específico. Por exemplo, **Página inicial**.<br/>**Direção**: selecione **Próximo** para ver os itens de dimensão imediatamente a seguir ao item de dimensão selecionado. Selecione **Anterior** para ver os itens de dimensão que antecedem o item de dimensão selecionado.<br/>**Contêiner**: selecione **Sessão** para ver os itens de dimensão anteriores/seguintes na mesma sessão ou selecione **Pessoa** para ver o item de dimensão anterior/seguinte para a mesma pessoa."
+>abstract="Analise quais são os locais mais comuns de onde os visitantes vieram anteriormente ou para onde irão em seguida.<br/><br/>**Dimensão**: selecione uma dimensão. Por exemplo **Página**.<br/>**Item de dimensão**: selecione um item de dimensão específico. Por exemplo **Página inicial**.<br/>**Direção**: selecione **Próximo** para ver os itens de dimensão imediatamente seguintes ao item de dimensão selecionado. Selecione **Anterior** para ver os itens de dimensão anteriores ao item de dimensão selecionado.<br/>**Container**: selecione **Sessão** para ver os itens de dimensão seguintes/anteriores na mesma sessão ou selecione **Pessoa** para ver o item de dimensão seguinte/anterior para a mesma pessoa."
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Item seguinte ou anterior no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte o [Painel do item seguinte ou anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) da_ versão ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta o painel Item seguinte ou anterior no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel Item seguinte ou anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) para a versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 

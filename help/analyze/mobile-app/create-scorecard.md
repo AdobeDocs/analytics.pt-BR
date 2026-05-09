@@ -4,10 +4,10 @@ title: Criar e compartilhar cartões de pontuação móveis
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '2528'
-ht-degree: 99%
+source-wordcount: '2614'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Um cartão de pontuação do Adobe Analytics exibe as principais visualizações
 
 ![Exemplo de scorecard](assets/intro_scorecard.png)
 
-Ao realizar a curadoria deste cartão de pontuação, é possível usar o criador de cartões de pontuação para configurar quais blocos serão exibidos no cartão para o consumidor executivo. Você também configura como as exibições detalhadas ou os detalhamentos podem ser ajustados quando os blocos forem tocados. A interface do criador de cartões de pontuação é mostrada abaixo:
+Como curador deste cartão de pontuação, você pode usar o criador de cartões de pontuação para configurar quais blocos aparecem no cartão de pontuação para o consumidor executivo. Você também configura como as exibições detalhadas ou os detalhamentos podem ser ajustados quando os blocos forem tocados. A interface do criador de cartões de pontuação é mostrada abaixo:
 
 ![Criador de cartões de pontuação](assets/scorecard_builder.png)
 
@@ -68,7 +68,7 @@ Para implementar o modelo de cartão de pontuação:
 
    ![Seleção de conjunto de relatórios](assets/properties_save.png)
 
-1. Para adicionar um novo bloco ao cartão de pontuação, arraste uma métrica do painel esquerdo e solte-a na área **[!UICONTROL Arraste e solte as métricas aqui]**. Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
+1. Para adicionar um novo bloco ao cartão de pontuação, arraste uma métrica do painel esquerdo e solte-a na zona **[!UICONTROL Arraste e solte métricas aqui]**. Também é possível inserir uma métrica entre dois blocos usando um fluxo de trabalho semelhante.
 
    ![Adicionar blocos](assets/build_list.png)
 
@@ -170,7 +170,7 @@ Esta visualização mostra barras horizontais que representam vários valores de
 
 ### Remover os itens de dimensão [!UICONTROL Não especificados]
 
-Se desejar remover itens de dimensão [!UICONTROL Não especificados] dos dados, faça o seguinte:
+Caso queira remover itens de dimensões [!UICONTROL Não especificados] dos seus dados, faça o seguinte:
 
 1. Selecione o bloco correto.
 1. No painel direito, em **[!UICONTROL Drill-ins]**, selecione a seta para a direita ao lado do item de dimensão do qual você deseja remover itens **[!UICONTROL Não especificados]**.
@@ -342,7 +342,7 @@ Você pode visualizar como o cartão de pontuação será exibido e funcionará 
 
 Para nomear o cartão de pontuação, clique no namespace no canto superior esquerdo da tela e digite o novo nome.
 
-![Nomear_Scorecards](assets/new_name.png)
+![Nomeação_Scorecards](assets/new_name.png)
 
 ## Compartilhar um cartão de pontuação {#share}
 
@@ -377,9 +377,9 @@ Para compartilhar um cartão de pontuação usando um link compartilhável
 
 1. Copie o link e cole-o em um email, documento ou aplicativo de mensagens instantâneas.
 
-   Quando um destinatário usar um aplicativo de desktop ou navegador para abrir o link, o projeto de cartão de pontuação móvel será aberto no Workspace.
+   Quando um destinatário usa um aplicativo de desktop ou navegador para abrir o link, o projeto de cartão de pontuação para dispositivos móveis é aberto no Workspace.
 
    Quando um destinatário abrir o link em um dispositivo móvel, o cartão de pontuação será aberto diretamente no aplicativo de painéis do Analytics.
 
-   Se o destinatário não baixou o aplicativo móvel, ocorrerá um redirecionamento para a lista de aplicativos na App Store ou na Google Play Store, onde será possível baixá-lo.
+   Se um destinatário não tiver baixado o aplicativo móvel, ele será direcionado para a lista de aplicativos na App Store ou na Google Play Store, onde poderá baixá-lo.
 

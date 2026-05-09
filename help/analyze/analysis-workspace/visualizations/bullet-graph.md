@@ -4,10 +4,10 @@ title: Marcador
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 90%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre a visualização de marcador no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Marcador](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta a visualização de Marcador na_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte o [Marcador](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
-A visualização de ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL marcador]** mostra como uma métrica se compara ou é medida em relação aos intervalos de desempenho (metas).
+A visualização ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Marcador]** mostra como uma métrica se compara ou mede em relação a intervalos de desempenho (metas).
 
 ![Visualização de gráfico de marcadores](assets/bullet.png)
 
@@ -50,7 +50,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualiza
 >[!ENDSHADEBOX]
 
 
-## Configurações 
+## Configurações
 
 Você pode definir configurações específicas para uma visualização de [!UICONTROL Marcador].
 

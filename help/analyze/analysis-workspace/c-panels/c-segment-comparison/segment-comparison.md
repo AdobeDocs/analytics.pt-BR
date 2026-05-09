@@ -5,10 +5,10 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 74%
+source-wordcount: '601'
+ht-degree: 65%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Painel de comparação de segmentos"
->abstract="Compare rapidamente todos os pontos de dados de dois segmentos para encontrar diferenças relevantes automaticamente.<br/><br/>**Parâmetros &#x200B;**<br/>**Adicionar um segmento**: o primeiro segmento que você deseja analisar.<br/>**Comparar com**: o segundo segmento com o qual você deseja comparar, que é preenchido automaticamente com *Todos os outros* (o oposto do seu primeiro segmento). É possível substituir *Todos os outros* por um segmento diferente, se você quiser.<br/>**Configurações avançadas**: a capacidade de excluir componentes de serem analisados na comparação de segmentos."
+>abstract="Compare rapidamente dois segmentos em todos os pontos de dados para encontrar automaticamente diferenças relevantes.<br/><br/>**Parâmetros &#x200B;**<br/>**Adicione um segmento**: o primeiro segmento que você deseja analisar.<br/>**Comparar com**: o segundo segmento com o qual você deseja comparar, que é preenchido automaticamente com *Todos os outros* (o oposto do seu primeiro segmento). É possível substituir *Todos os outros* por um segmento diferente, se você quiser.<br/>**Configurações avançadas**: a capacidade de excluir componentes de serem analisados na comparação de segmentos."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel de comparação de segmentos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Não há um painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artigo documenta o painel de comparação de segmentos no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Não há painel equivalente no_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -64,7 +64,7 @@ Para usar um painel **[!UICONTROL Comparação de segmentos]**:
 
 É possível configurar o painel de [!UICONTROL comparação de segmentos] usando essas definições de entrada:
 
-![Painel de entrada de comparação de segmentos](assets/segment-comparison-input.png) 
+![Painel de entrada de comparação de segmentos](assets/segment-comparison-input.png)
 
 | Entrada | Descrição |
 | --- | --- |

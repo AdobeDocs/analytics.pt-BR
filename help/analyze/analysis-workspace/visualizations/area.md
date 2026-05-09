@@ -1,14 +1,14 @@
 ---
-description: Learn about the Area and the Area stacked visualization.
-title: Area And Stacked
+description: Saiba mais sobre a área e a visualização de área empilhada.
+title: Área e empilhado
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '205'
+ht-degree: 78%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre as visualizações de área e área empilhada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Área e área empilhada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/area) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta as visualizações de Área e Área empilhada em_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Área e área empilhada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/area) para a versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
-A visualização de área tem as opções padrão e empilhada.
+A visualização de área tem uma opção padrão e uma opção empilhada.
 
 ## Área {#area}
 

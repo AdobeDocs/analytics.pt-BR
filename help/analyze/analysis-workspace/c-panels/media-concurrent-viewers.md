@@ -4,10 +4,10 @@ description: Saiba como usar e interpretar o painel Visualizadores simultâneos 
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 95%
+source-wordcount: '1264'
+ht-degree: 85%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="Visualizadores simultâneos de mídia"
->abstract="Analise visualizadores simultâneos ao longo do tempo, visualize o pico de simultaneidade ou faça o detalhamento e compare.<br/><br>**Granularidade**: selecione o período pelo qual exibir visualizadores simultâneos.<br/>**Números de resumo do painel**:<br/>opção para mostrar números de resumo com detalhes de data ou hora para cada linha. O máximo mostra detalhes para a simultaneidade de pico. O mínimo mostra detalhes para o vale.<br/>**Detalhamento de série (opcional)**: divide a visualização por segmentos, dimensões, itens de dimensão ou intervalos de datas. Visualize até 10 linhas por vez. Os detalhamentos são limitados a um único nível."
+>abstract="Analise visualizadores simultâneos ao longo do tempo, exiba o pico de simultaneidade ou analise e compare.<br/><br>**Granularidade**: selecione o período para exibir os visualizadores simultâneos.<br/>**Números de resumo do painel**:<br/>opção para mostrar números de resumo com detalhes de data ou hora para cada linha. O máximo mostra detalhes para a simultaneidade de pico. O mínimo mostra detalhes para o vale.<br/>**Detalhamento de série (opcional)**: divide a visualização por segmentos, dimensões, itens de dimensão ou intervalos de datas. Visualize até 10 linhas por vez. Os detalhamentos são limitados a um único nível."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre o painel Visualizadores simultâneos de mídia no_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Painel Visualizadores simultâneos de mídia](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta o painel Visualizadores simultâneos de mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**._<br/>_Consulte o [painel Visualizadores simultâneos de mídia](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ _Este artigo é sobre o painel Visualizadores simultâneos de mídia no_ ![Adobe
 >Entre em contato com o representante de vendas da Adobe ou com a equipe de conta da Adobe para obter mais informações.
 >
 
-O painel **[!UICONTROL Visualizadores simultâneos de mídia]** permite a análise de visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de detalhar e comparar.  
+O painel **[!UICONTROL Visualizadores simultâneos de mídia]** permite a análise de visualizadores simultâneos ao longo do tempo, com detalhes sobre o pico de simultaneidade e a capacidade de detalhar e comparar.
 
 Você pode analisar visualizadores simultâneos para entender onde ocorreu o pico de simultaneidade ou onde ocorreram quedas para fornecer insights valiosos sobre a qualidade do conteúdo e o engajamento do visualizador. E para ajudar na solução de problemas ou no planejamento de volume ou escala.
 
@@ -82,7 +82,7 @@ Você pode configurar o painel Visualizadores simultâneos de mídia usando esta
 |---|---|
 | **[!UICONTROL Intervalo de datas do painel]** | O padrão do intervalo de datas do painel é Hoje.  Você pode editá-lo para exibir um único dia ou muitos meses de cada vez. <br> <br>Essa visualização é limitada a 1440 linhas de dados (por exemplo, 24 horas na granularidade no nível de minuto).  Se um intervalo de datas e combinação de granularidade resultar em mais de 1440 linhas, a granularidade será atualizada automaticamente para acomodar todo o intervalo de datas. |
 | **[!UICONTROL Granularidade]** | O padrão de granularidade é Minuto.<br>Essa visualização é limitada a 1440 linhas de dados (por exemplo, 24 horas na granularidade no nível de minuto).  Se um intervalo de datas e combinação de granularidade resultar em mais de 1440 linhas, a granularidade será atualizada automaticamente para acomodar todo o intervalo de datas. |
-| **[!UICONTROL Números de resumo do painel]** | Para visualizar os detalhes de data ou hora de visualizadores simultâneos, um número de resumo está disponível. O Máximo mostra detalhes para a simultaneidade de pico. O **[!UICONTROL Mínimo]** mostra detalhes para o período de baixa. O padrão do painel mostra somente Máximo, mas você pode alterá-lo para mostrar Mínimo ou Máximo e Mínimo.<br><br>Se você estiver usando detalhamentos, um número de resumo será exibido para cada um. |
+| **[!UICONTROL Números de resumo do painel]** | Para visualizar os detalhes de data ou hora de visualizadores simultâneos, um número de resumo está disponível. O Máximo mostra detalhes para a simultaneidade de pico. O **[!UICONTROL Mínimo]** mostra detalhes para o período de baixa.  O padrão do painel mostra somente Máximo, mas você pode alterá-lo para mostrar Mínimo ou Máximo e Mínimo.<br><br>Se estiver usando detalhamentos, um número de resumo será exibido para cada um. |
 | **[!UICONTROL Detalhamento por séries]** | Opcionalmente, é possível detalhar a visualização por filtros, dimensões, itens de dimensão ou intervalos de datas.<br>É possível exibir até 10 linhas por vez. Os detalhamentos são limitados a um único nível.<br>Ao arrastar uma dimensão, os itens de dimensão principais serão selecionados automaticamente com base no intervalo de datas do painel selecionado.<br>Para comparar intervalos de datas, arraste dois ou mais intervalos de datas para o filtro de detalhamento por séries. |
 
 Aqui está um exemplo do painel configurado para granularidade de **[!UICONTROL Minuto]**, com números de resumo de **[!UICONTROL Máximo apenas]**. E detalhado por **[!UICONTROL Outros]**, **[!UICONTROL Tabela]**, **[!UICONTROL Celular]**, **[!UICONTROL Console de jogos]**, **[!UICONTROL Player de mídia]**, **[!UICONTROL Decodificador de sinais]**, **[!UICONTROL Televisão]**.
@@ -131,7 +131,7 @@ Uma tabela de forma livre não está disponível nessa visualização.  Para exi
 >[!MORELIKETHIS]
 >
 >[Criar um painel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Painel de tempo gasto na reprodução de mídia](media-playback-time-spent.md)
+>[Painel de tempo gasto com a reprodução da mídia](media-playback-time-spent.md)
 >[Painel de média de público-alvo por minuto de mídia](average-minute-audience-panel.md)
 >
 <!--

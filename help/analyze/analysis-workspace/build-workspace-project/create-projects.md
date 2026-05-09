@@ -4,10 +4,10 @@ title: Criar projetos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 81%
+source-wordcount: '408'
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ Os [projetos](/help/analyze/analysis-workspace/build-workspace-project/freeform-
 
 1. Selecione **Projeto do espaço de trabalho em branco** para criar o projeto usando um navegador.
 
-   Consulte [Cartão de pontuação para dispositivos móveis em branco](/help/analyze/mobile-app/curator.md) para obter mais informações sobre como criar um projeto de Cartão de pontuação para dispositivos móveis que você pode compartilhar com outras partes interessadas usando um aplicativo para dispositivos móveis.
+   Consulte [Cartão de pontuação móvel em branco](/help/analyze/mobile-app/curator.md) para obter mais informações sobre como criar um projeto de cartão de pontuação para dispositivos móveis que você pode compartilhar com outras partes interessadas usando um aplicativo móvel.
 
 1. Selecione [!UICONTROL **Criar**].
 
@@ -50,12 +50,12 @@ Agora que você criou um projeto do espaço de trabalho em branco, certifique-se
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
 >title="Contar instâncias repetidas"
->abstract="Especifica se as instâncias repetidas devem ser contadas nos relatórios.<br/><br/>Observação: essa configuração não se aplica às visualizações de fluxo ou fallout."
+>abstract="Especifica se as instâncias repetidas são contadas nos relatórios.<br/><br/>Observação: essa configuração não se aplica às visualizações de fluxo ou fallout."
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
 >title="Contar instâncias repetidas"
->abstract="Especifica se as instâncias repetidas devem ser contadas nos relatórios.<br/>Observação: essa configuração não se aplica às visualizações de fluxo ou fallout."
+>abstract="Especifica se as instâncias repetidas são contadas nos relatórios.<br/>Observação: essa configuração não se aplica às visualizações de fluxo ou fallout."
 
 
 >[!CONTEXTUALHELP]

@@ -4,10 +4,10 @@ description: Saiba como definir preferências gerais e de projeto para usuários
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '3457'
-ht-degree: 99%
+source-wordcount: '3534'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ Você pode atualizar as preferências da empresa que se aplicam a todos os usuá
 | **Guia modelos** | | |
 |  | Ocultar guia de modelos | Oculta a guia Modelos para todos os usuários da organização. |
 | **Compartilhamento de projeto** | | |
-| | Permitir compartilhamento apenas com usuários do espaço de trabalho | Quando esta opção está habilitada, os usuários da sua organização não podem ver a opção **[!UICONTROL Compartilhar com qualquer pessoa]** no menu **[!UICONTROL Compartilhar]**. Os usuários não podem compartilhar projetos com pessoas que não tenham uma conta do Analysis Workspace na sua organização, conforme descrito em [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).<br/>Essa opção é desabilitada por padrão para todas as organizações, exceto para clientes que têm uma licença do Healthcare Shield. <p>Considere o seguinte ao habilitar ou desabilitar essa opção:<ul><li>Ao habilitá-la, as pessoas que anteriormente receberam acesso a um projeto por meio da opção **[!UICONTROL Compartilhar com qualquer pessoa]** não poderão mais acessar o projeto.</li><li>Se esta opção for habilitada (para permitir o compartilhamento somente com usuários do espaço de trabalho) e depois desabilitada (para permitir o compartilhamento com qualquer pessoa), as pessoas que receberam acesso a um projeto anteriormente por meio da opção **[!UICONTROL Compartilhar com qualquer pessoa]** não recuperarão automaticamente o acesso ao projeto. Neste caso, o usuário que compartilhou o projeto deve habilitar a opção [!UICONTROL **O link está ativo**] disponível ao compartilhar um projeto com qualquer pessoa **([!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com qualquer pessoa]**), conforme descrito em [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>**Para clientes com uma licença do Healthcare Shield:** essa opção está habilitada por padrão e não pode ser desabilitada. Antes de desabilitar esta opção para que os usuários possam usar a opção **[!UICONTROL Compartilhar com qualquer pessoa]**, você primeiro precisa adicionar a permissão [!UICONTROL Compartilhar links de projeto com qualquer pessoa] (localizada em [!UICONTROL Ferramentas de relatórios]) no Adobe Admin Console. Após adicionar a permissão, você poderá desabilitar essa opção e, em seguida, aceitar o aviso legal resultante. Para obter informações sobre como adicionar uma permissão no Admin Console, consulte [Gerenciar permissões de produto no Admin Console](https://helpx.adobe.com/br/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
+| | Permitir compartilhamento apenas com usuários do espaço de trabalho | Quando esta opção está habilitada, os usuários da sua organização não podem ver a opção **[!UICONTROL Compartilhar com qualquer pessoa]** no menu **[!UICONTROL Compartilhar]**. Os usuários não podem compartilhar projetos com pessoas que não têm uma conta da Analysis Workspace em sua organização, conforme descrito em [Compartilhar um projeto com qualquer pessoa (sem logon necessário)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).<br/>Essa opção é desabilitada por padrão para todas as organizações, exceto para clientes que possuem o Healthcare Shield licenciado. <p>Considere o seguinte ao habilitar ou desabilitar essa opção:<ul><li>Ao habilitá-la, as pessoas que anteriormente receberam acesso a um projeto por meio da opção **[!UICONTROL Compartilhar com qualquer pessoa]** não poderão mais acessar o projeto.</li><li>Se esta opção for habilitada (para permitir o compartilhamento somente com usuários do espaço de trabalho) e depois desabilitada (para permitir o compartilhamento com qualquer pessoa), as pessoas que receberam acesso a um projeto anteriormente por meio da opção **[!UICONTROL Compartilhar com qualquer pessoa]** não recuperarão automaticamente o acesso ao projeto. Neste caso, o usuário que compartilhou o projeto deve habilitar a opção [!UICONTROL **O link está ativo**] disponível ao compartilhar um projeto com qualquer pessoa **([!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com qualquer pessoa]**), conforme descrito em [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>**Para clientes com uma licença do Healthcare Shield:** essa opção está habilitada por padrão e não pode ser desabilitada. Antes de desabilitar esta opção para que os usuários possam usar a opção **[!UICONTROL Compartilhar com qualquer pessoa]**, você primeiro precisa adicionar a permissão [!UICONTROL Compartilhar links de projeto com qualquer pessoa] (localizada em [!UICONTROL Ferramentas de relatórios]) no Adobe Admin Console. Após adicionar a permissão, você poderá desabilitar essa opção e, em seguida, aceitar o aviso legal resultante. Para obter informações sobre como adicionar uma permissão no Admin Console, consulte [Gerenciar permissões de produto no Admin Console](https://helpx.adobe.com/br/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
 | | Exige autenticação da Experience Cloud | Quando essa opção estiver habilitada, as pessoas que receberem acesso a um projeto pela opção **[!UICONTROL Compartilhar com qualquer pessoa]** no Analysis Workspace deverão se autenticar usando suas credenciais da Experience Cloud.<p>Após habilitar essa opção, sempre que um usuário compartilhar um projeto usando **[!UICONTROL Compartilhar com qualquer pessoa]**, a opção **[!UICONTROL Exigir autenticação da Experience Cloud]** será habilitada na caixa de diálogo de compartilhamento e não poderá ser desabilitada pelo usuário que está compartilhando o projeto. Para obter informações sobre como os usuários podem compartilhar projetos com qualquer pessoa, consulte [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link). <p> <p>Considere o seguinte ao habilitar essa opção: <ul><li>Ao habilitar esta opção, todos os projetos que foram compartilhados anteriormente com a opção **[!UICONTROL Compartilhar com qualquer pessoa]** sem habilitar [!UICONTROL Exigir autenticação da Experience Cloud] serão desativados.<p>Se esta opção for habilitada (para exigir autenticação da Experience Cloud) e depois desabilitada (para permitir que qualquer pessoa com o link acesse o projeto), as pessoas que receberam acesso a um projeto anteriormente por meio da opção **[!UICONTROL Compartilhar com qualquer pessoa]** não recuperarão automaticamente o acesso ao projeto. Neste caso, o usuário que compartilhou o projeto deve habilitar a opção [!UICONTROL O link está ativo] disponível ao compartilhar um projeto com qualquer pessoa **([!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com qualquer pessoa]** > **[!UICONTROL O link está ativo]**), conforme descrito em [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>Essa opção só estará disponível se o recurso de logon único (SSO) estiver implementado em sua organização. Para obter informações sobre como admins de sistema podem habilitar o SSO na sua organização, consulte [Configuração de identidade e logon único](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html).</p><p>Se o SSO estiver configurado na sua organização, verifique se há algum tipo de criação automática de contas implementado no console. Normalmente, isso é configurado por um(a) admin de sistema, conforme descrito em [Habilitar criação automática de conta](https://helpx.adobe.com/br/enterprise/using/automatic-account-creation.html).</li><li>Se sua organização tiver uma licença do Healthcare Shield, essa opção será habilitada por padrão e não poderá ser desabilitada.</li></ul> |
 
 {style="table-layout:auto"}
@@ -80,17 +80,17 @@ Você pode atualizar as preferências da empresa que se aplicam a todos os usuá
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_categoricalpalette"
 >title="Paleta categórica"
->abstract="Aplicado a muitas visualizações no Analysis Workspace e em análises guiadas. Cada cor representa um valor categórico diferente."
+>abstract="Aplicada a muitas visualizações no Analysis Workspace e na análise guiada. Cada cor representa um valor categórico distinto."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_divergingpalette"
 >title="Paleta divergente"
->abstract="Aplicado à tabela de coorte no Analysis Workspace e em análises guiadas de crescimento de usuários. Esta paleta possui um significado numérico com dois extremos e uma linha de base no meio."
+>abstract="Aplicada à tabela de coorte no Analysis Workspace e na análise guiada de crescimento de usuários. Esta paleta contém um significado numérico com dois extremos e uma linha de base no meio."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_sequentialpalette"
 >title="Paleta sequencial"
->abstract="Aplicado à análise guiada de tendências de frequência (barras empilhadas). Esta paleta possui um significado numérico que vai do claro ao escuro."
+>abstract="Aplicada à análise guiada de tendências de frequência (barra empilhada). Esta paleta contém um significado numérico do claro para o escuro."
 
 Você pode personalizar as preferências do projeto para todos os novos projetos criados no Analysis Workspace. Para obter informações sobre como acessar essas preferências, consulte [Atualizar preferências](#update-preferences).
 
@@ -116,7 +116,7 @@ Clique nos títulos de preferência vinculados para obter mais informações e c
 |  | [Tipo de painel](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>Forma livre (padrão)</li><li>Em branco</li><li>Insights rápidos</li></ul> |
 |  | Formato de número | <ul><li>1.000,00 (padrão)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Contar instâncias repetidas | Especifica se as instâncias repetidas devem ser contadas nos relatórios. Por exemplo, essa configuração (quando ativada) trata várias exibições de página consecutivas para a mesma página como várias exibições de página. Com essa opção desativada, eles contam como uma única visualização de página. <p>**Observação:** essa configuração afeta apenas determinadas métricas (como Visitas de página única) e não se aplica a visualizações de Fluxo ou Fallout.</p> |
-|  | Caractere separador do CSV | <ul><li>Vírgula (padrão)</li><li>Ponto e vírgula</li><li>Dois-pontos</li><li>Estágio</li><li>Ponto</li><li>Espaço</li><li>Tabulação</li></ul> |
+|  | Caractere separador de CSV | <ul><li>Vírgula (padrão)</li><li>Ponto e vírgula</li><li>Dois pontos</li><li>Estágio</li><li>Período</li><li>Espaço</li><li>Tabulação</li></ul> |
 |  | Mostrar anotações | Escolha se as anotações estão visíveis em seus projetos. Para obter mais informações sobre anotações, consulte [Visão geral de anotações](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
 ## Preferências da tabela de forma livre {#freeform-table-preferences}
@@ -213,24 +213,24 @@ Clique nos títulos da seção vinculada para obter mais informações e context
 | | Mostrar linhas cintilantes | Mostrar ou ocultar gráficos de linha na parte inferior do gráfico. Quando oculta, a legenda será alterada para não mais fazer referência visual às linhas. |
 | | Mostrar máximo e mínimo em sparklines | Mostrar valores mínimos e máximos em gráficos de linha primários e de comparação. |
 | | Mostrar comparação | Mostrar dados de comparação. Quando ocultos, o gráfico de linhas de comparação e os objetos de alteração de resumo não aparecem na visualização. |
-| | Opções de valor numérico | Na seção [!UICONTROL **Resumo das métricas principais**] <ul><li>Mostrar variação percentual</li><li>Mostrar diferença bruta</li>Diferença bruta entre o valor total da métrica no intervalo de datas principal e o intervalo de datas secundário</ul> |
+| | Opções de valor numérico | Na seção [!UICONTROL **Resumo das métricas principais**] <ul><li>Exibir mudança percentual</li><li>Mostrar diferença bruta</li>Diferença bruta entre o valor total da métrica no intervalo de datas principal e o intervalo de datas secundário</ul> |
 | **[Fallout](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
-| | Container | Alterne entre Visita e Visitante para analisar a definição do caminho do visitante. O padrão é Visitante. Essas configurações ajudam você a entender o engajamento no nível dos visitantes (ao longo das visitas) ou restringir a análise a uma só visita. <p>As opções disponíveis são as seguintes:</p> <ul><li>Visita</li><li>Visitante</li></ul> |
+| | Container | Alterne entre Visita e Visitante para analisar a definição do caminho do visitante. O padrão é Visitante. Essas configurações ajudam você a entender o engajamento no nível dos visitantes (ao longo das visitas) ou restringir a análise a uma só visita. <p>As seguintes opções estão disponíveis:</p> <ul><li>Visita</li><li>Visitante</li></ul> |
 | **[Fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
-| | Contêiner | Na seção [!UICONTROL **Fluxo**] <ul><li>Visita</li><li>Visitante</li></ul> |
+| | Container | Na seção [!UICONTROL **Fluxo**] <ul><li>Visita</li><li>Visitante</li></ul> |
 | | Rótulos de quebra de linha | Normalmente, os rótulos nos Elementos de fluxo são truncados para não poluir visualmente a tela, mas é possível tornar todos os rótulos visíveis ao selecionar esta caixa. Padrão = desmarcado. |
 | | Incluir instâncias repetidas | As visualizações de fluxo são baseadas em instâncias de uma dimensão. Essa configuração oferece a opção de incluir ou excluir instâncias repetidas, por exemplo, recarregamentos de página. No entanto, as repetições não podem ser removidas das Visualizações de fluxo que incluem dimensões com vários valores, como listVars, listProps, s.product, eVars de merchandising etc. Padrão = desmarcado. |
 | | Mostrar dicas de ferramentas | Determina se dicas de ferramentas, que contêm dados de nós, são exibidas quando você passa o mouse sobre nós individuais em uma visualização de fluxo. |
 | | Número de colunas | Determina quantas colunas você deseja incluir no diagrama de Fluxo. |
 | | Itens expandidos por coluna | Quantos itens você deseja em cada coluna. |
 | **Gráficos empilhados** | | |
-| | 100% empilhada | Essa configuração de visualizações de área empilhada, barra empilhada ou barra horizontal empilhada transforma o gráfico em uma visualização “100% empilhada”.  <p>Para obter mais informações, consulte [Barra e barras empilhadas](/help/analyze/analysis-workspace/visualizations/bar.md).</p> |
+| | 100% empilhada | Essa configuração de visualizações de área empilhada, barra empilhada ou barra horizontal empilhada transforma o gráfico em uma visualização “100% empilhada”. <p>Para obter mais informações, consulte [Barra e barras empilhadas](/help/analyze/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md)** | | |
 | | Número de grupos | Escolha o número de intervalos de dados (grupos) na visualização. O número máximo de grupos é 50. <p>Para obter mais informações, consulte [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md).</p> |
 | | Método de contagem | Escolha entre as seguintes opções: <ul><li>Ocorrência</li><li>Visita</li><li>Visitante</li></ul> <p>Por exemplo, quando usado com visualizações de página, você pode escolher visualizações de página por visitante, por visita ou por ocorrência. Para ocorrências, “Ocorrências” é usada como a métrica do eixo “y” na tabela de forma livre.</p> |
 | **[Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | Dimensão da plotagem | <ul><li>Latitude/longitude móvel</li><li>Dimensão geográfica</li></ul> |
-| | Tipo de mapa | <ul><li>Propagações</li><li>Mapa de calor</li></ul> |
+| | Tipo de mapa | <ul><li>Bolhas</li><li>Mapa de calor</li></ul> |
 | | Tema de cores | Escolha entre Coral, Vermelhos, Verdes, Azuis, Mapa de calor e Positivo/Negativo. |
 | | Estilo do mapa | Escolha entre Básico, Ruas, Brilhante, Claro, Escuro e Satélite. |
 | **[Alteração de resumo](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
@@ -251,7 +251,7 @@ Clique nos títulos da seção vinculada para obter mais informações e context
 | **[Dispersão](/help/analyze/analysis-workspace/visualizations/scatterplot.md)** | | |
 | | Porcentagens | Exibe valores em porcentagens para as visualizações de dispersão. |
 | | Legenda visível | Permite ocultar o texto detalhado da legenda para a visualização de dispersão. |
-| | Limite máximo de itens | Reduz o número de itens no eixo X na visualização de dispersão. Isso pode ser útil se você tiver um conjunto de dados grande. |
+| | Limite máximo de itens | Reduz o número de itens no eixo X da visualização de dispersão. Isso pode ser útil se você tiver um conjunto de dados grande. |
 | | Ancorar o eixo Y em zero | Se todos os valores representados no gráfico estiverem consideravelmente acima de zero, a configuração padrão do gráfico tornará a parte inferior do eixo y DIFERENTE DE ZERO. Se você marcar esta caixa, o eixo y será forçado a zero (e o gráfico será redesenhado). |
 
 ## Restaurar preferências padrão

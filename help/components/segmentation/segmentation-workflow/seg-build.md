@@ -3,9 +3,9 @@ description: Entenda como criar segmentos usando a opção de arrastar e soltar 
 title: Criar segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '1870'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilidade do produto"
->abstract="Uma quantidade reduzida de critérios de segmento disponíveis não é compatível com todas as ferramentas do Adobe Analytics. As ferramentas compatíveis com o segmento são indicadas nesta lista. Para tornar um segmento compatível com todas as ferramentas do Adobe Analytics, edite seus critérios."
+>abstract="Uma pequena quantidade de critérios de segmento disponíveis não é compatível com todas as ferramentas do Adobe Analytics. As ferramentas compatíveis com o segmento estão indicadas nesta lista. Para tornar um segmento compatível com todas as ferramentas do Adobe Analytics, edite seus critérios."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -50,8 +50,8 @@ A caixa de diálogo **[!UICONTROL Construtor de segmentos]** é usada para cri
    | **[!UICONTROL Segmento somente de projeto]** | Uma caixa de informações para explicar que o segmento só fica visível no projeto onde foi criado. E que o segmento não foi adicionado à lista de componentes. Habilite a opção **[!UICONTROL Tornar este segmento disponível para todos os seus projetos e adicioná-lo à sua lista de componentes]** para alterar essa configuração. Esta caixa de informações só fica visível quando você cria um [segmento rápido](seg-quick.md) e transforma as informações do segmento rápido em um segmento regular usando a opção **[!UICONTROL Abrir construtor]** na interface [!UICONTROL Segmento rápido]. |
    | **[!UICONTROL Título]** ![Obrigatório](/help/assets/icons/Required.svg) | Nomeie o segmento, por exemplo, `Last month mobile visitors`. |
    | **[!UICONTROL Descrição]** | Forneça uma descrição para o segmento, por exemplo, `Segment to define the mobile customers for the last month`. |
-   | **[!UICONTROL Tags]** | Organize o segmento criando ou aplicando uma ou mais tags. Comece a digitar para encontrar as tags existentes que você pode selecionar. Ou pressione **[!UICONTROL ENTER]** para adicionar uma nova tag. Selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover uma tag. |
-   | **[!UICONTROL Definição]** ![obrigatória](/help/assets/icons/Required.svg) | Defina o segmento usando o [Criador de definições](#definition-builder). |
+   | **[!UICONTROL Tags]** | Organize o segmento criando ou aplicando uma ou mais tags. Comece a digitar para encontrar as tags existentes que você pode selecionar. Ou pressione **[!UICONTROL ENTER]** para adicionar uma nova tag. Selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover uma tag. |
+   | **[!UICONTROL Definição]** ![Obrigatória](/help/assets/icons/Required.svg) | Defina o segmento usando o [Criador de definições](#definition-builder). |
 
    {style="table-layout:auto"}
 
