@@ -35,7 +35,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta o painel Visualizadores simultâneos de mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_Consulte o [painel Visualizadores simultâneos de mídia](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
+_Este artigo documenta o painel Visualizadores simultâneos de mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**._<br/>_Consulte o [painel Visualizadores simultâneos de mídia](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
