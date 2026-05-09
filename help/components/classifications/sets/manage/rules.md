@@ -3,10 +3,10 @@ title: Regras de conjuntos de classificações
 description: Saiba como usar regras de conjuntos de classificação para definir regras para dados de classificação.
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 15%
+source-wordcount: '1692'
+ht-degree: 13%
 
 ---
 
@@ -21,27 +21,27 @@ A dimensão deve conter valores que permitam aplicar uma ou mais regras para que
 
 Para definir um conjunto de regras para um conjunto de classificações:
 
-1. Select **[!UICONTROL Components]** from the Adobe Analytics top menu bar, then select **[!UICONTROL Classification sets]**.
-1. In **[!UICONTROL Classification Sets]**, select the **[!UICONTROL Classification Sets]** tab.
-1. In the **[!UICONTROL Classifications Sets]** manager, select the classification set for which you want to define the rules.
-1. In the **[!UICONTROL Classification Set: _classification set name_]**&#x200B;dialog, select the **[!UICONTROL Rules]**&#x200B;tab.
+1. Selecione **[!UICONTROL Componentes]** na barra de menu superior do Adobe Analytics e selecione **[!UICONTROL Conjuntos de classificações]**.
+1. Em **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Conjuntos de classificações]**.
+1. No gerenciador **[!UICONTROL Conjuntos de classificações]**, selecione o conjunto de classificações para o qual deseja definir as regras.
+1. Na caixa de diálogo **[!UICONTROL Conjunto de classificações: _nome do conjunto de classificações_]**, selecione a guia **[!UICONTROL Regras]**.
 
-   * If you are accessing the **[!UICONTROL Rules]** interface for the first time for a classification set, or decided so far to continue to use the legacy rules builder interface, you are presented with a dialog that allows you to select how to get started. As opções são:
+   * Se você estiver acessando a interface **[!UICONTROL Regras]** pela primeira vez para um conjunto de classificação ou decidir até o momento continuar a usar a interface herdada do construtor de regras, será exibida uma caixa de diálogo que permite selecionar como começar. As opções são:
 
       * **Migrar regras existentes**. Importe as regras de classificação atuais e continue a trabalhar com essas regras na nova interface. As regras existentes são preservadas e convertidas no novo formato.
          * Selecione **[!UICONTROL Migrar regras]** para continuar.
          * Na caixa de diálogo **[!UICONTROL Confirmar migração]**, leia as implicações da migração.
-            * Select **[!UICONTROL Migrate rules]** to confirm the migration. Após a conclusão da migração, use a [Interface do conjunto de regras](#rule-set-interface) para criar novas regras e editar as regras migradas existentes.
+            * Selecione **[!UICONTROL Migrar regras]** para confirmar a migração. Após a conclusão da migração, use a [Interface do conjunto de regras](#rule-set-interface) para criar novas regras e editar as regras migradas existentes.
             * Selecione **[!UICONTROL Cancelar]** para cancelar a migração
 
-      * **Iniciar novo**. Crie novas regras de classificação do zero, usando o novo construtor de regras. Escolha esta opção se você deseja reformular a sua lógica de classificação ou começar do zero com novas regras de classificação.
+      * **Iniciar novo**. Crie novas regras de classificação do zero usando o novo construtor de regras. Selecione essa opção se desejar reprojetar a lógica de classificação ou começar a usar novas regras de classificação.
          * Selecione **[!UICONTROL Criar novas regras]** para continuar.
          * Na caixa de diálogo **[!UICONTROL Confirmar reinício]**, leia as implicações de um novo início.
             * Selecione **[!UICONTROL Iniciar novo]** para confirmar uma nova inicialização e descartar todas as regras existentes. Use a [Interface do conjunto de regras](#rule-set-interface) para criar novas regras.
             * Selecione **[!UICONTROL Cancelar]** para cancelar.
 
 
-      * **Usar interface herdada**. Continue usando a interface anterior do construtor de regras. Você pode migrar para a nova experiência a qualquer momento, quando desejar.
+      * **Usar interface herdada**. Continue a usar a interface anterior do construtor de regras. Você pode migrar para a nova experiência a qualquer momento quando estiver pronto.
          * Selecione **[!UICONTROL Ir para a interface herdada]** para continuar. Você é direcionado para a interface herdada **[!UICONTROL Construtor de regras de classificação]**.
 
    * Se já tiver migrado regras ou criado novas regras para um conjunto de classificações, você acabará diretamente na interface do Conjunto de regras.
@@ -63,7 +63,7 @@ Para criar ou editar regras, use a interface de conjunto de regras.
 | | Nome | Descrição |
 |---|---|---|
 | 1 | **[!UICONTROL Funções]** | Use a área **[!UICONTROL Funções]** para selecionar e arrastar e soltar suas funções no construtor de conjuntos de regras. |
-| 2 | **Construtor de conjunto de regras** | Crie o conjunto de regras usando uma ou mais regras. Uma regra é a implementação de uma função e sempre associada a apenas uma função. Uma função pode ter vários operadores. Crie uma regra arrastando e soltando uma função no construtor de conjuntos de regras. O tipo de função define a interface da regra. <br/>Consulte a [Interface de regra](#rule-interface) para obter mais informações.<br/>É possível inserir funções em qualquer lugar, e as funções são executadas em sequência para determinar os valores finais das classificações.<br/>Use **[!UICONTROL Recolher tudo]** para recolher todas as regras e use **[!UICONTROL Expandir tudo]** para expandir todas as regras. |
+| 2 | **Construtor de conjunto de regras** | Crie o conjunto de regras usando uma ou mais regras. Uma regra é a implementação de uma função e sempre associada a apenas uma função. Uma função pode ter vários operadores. Crie uma regra arrastando e soltando uma função no construtor de conjuntos de regras. O tipo de função define a interface da regra. <br/>Consulte [Interface da regra](#rule-interface) para mais informações.<br/>É possível inserir funções em qualquer lugar, e as funções são executadas em sequência para determinar os valores finais das classificações.<br/>Use **[!UICONTROL Recolher tudo]** para recolher todas as regras e use **[!UICONTROL Expandir tudo]** para expandir todas as regras. |
 | 3 | **[!UICONTROL Status]** | Mostrar o status e a última data de modificação do conjunto de regras. <br/>Selecione **[!UICONTROL Ativar]** para ativar o conjunto de regras. <br/>Selecione **[!UICONTROL Desativar]** para desativar o conjunto de regras. |
 | 4 | **[!UICONTROL Pesquisa]** | Especifique a janela de retrospectiva para o conjunto de regras.<br/>Selecione uma opção (de 1 mês a 6 meses) no menu suspenso.<br/>Selecione **[!UICONTROL Executar pesquisa]** para executar uma pesquisa usando o período de pesquisa selecionado. |
 | 5 | **[!UICONTROL Opções de teste]** | Use valores de dimensão de chave de amostra para testar as classificações: <ul><li>Adicione ou cole valores na área de texto **[!UICONTROL Chaves de amostra]**.<br/>Verifique **[!UICONTROL Lembrar chaves de exemplo]** para garantir que as chaves de exemplo persistam em diferentes usos da interface do conjunto de regras.</li><li>Selecione **[!UICONTROL Testar conjunto de regras]** para testar seu conjunto de regras.</li></ul> |
@@ -78,7 +78,7 @@ Cada regra individual é definida no conjunto de regras na interface Regra. A in
 | | Descrição |
 |---|---|
 | 1 | O nome da função selecionada e a entrada inserida para a função. |
-| 2 | The input for the selected function. The input depends on the selected function. For example, for the **[!UICONTROL Regular expression]** function, the input is a regular expression. And for the **[!UICONTROL Split]** function, the input is a token. Enter the appropriate input for the specific function. For example, `^(.+)\:(.+)\:(.+)$` for a regular expression that identifies three classifications in an internal campaign code. |
+| 2 | A entrada da função selecionada. A entrada depende da função selecionada. Por exemplo, para a função **[!UICONTROL Expressão regular]**, a entrada é uma expressão regular. E para a função **[!UICONTROL Split]**, a entrada é um token. Insira a entrada apropriada para a função específica. Por exemplo, `^(.+)\:(.+)\:(.+)$` para uma expressão regular que identifica três classificações em um código de campanha interno. |
 | 3 | Cada operação define uma classificação específica como um valor. <br/>Selecione uma classificação no menu suspenso **[!UICONTROL Definir Classificação]** e insira um valor para **[!UICONTROL a]**. <br/>Use ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir uma operação da lista. |
 | 4 | Selecione ![Adicionar](/help/assets/icons/Add.svg) **[!UICONTROL Adicionar operação]** para adicionar outra operação à função. |
 | 5 | Selecione ![Divisa](/help/assets/icons2/ChevronDown.svg) para recolher a regra. Selecione ![ChevronLeft](/help/assets/icons/ChevronLeft.svg) para expandir a regra.<br/>Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para excluir a regra. |
@@ -177,7 +177,7 @@ Você deseja definir uma regra para atribuir `Winter Sale` como um valor à clas
 +++
 
 
-### Corresponde 
+### Corresponde
 
 Define uma classificação com base em um valor específico que corresponde ao valor da dimensão principal.
 
@@ -209,13 +209,13 @@ Você deseja definir uma regra para atribuir `Email` como valor à classificaç�
 
 ### Expressão regular
 
-Sets one or more classifications based on a regular expression applied to the key dimension value.
+Define uma ou mais classificações com base em uma expressão regular aplicada ao valor da dimensão principal.
 
 +++ Detalhes 
 
 #### Entrada necessária
 
-Enter a value for **[!UICONTROL Regular Expression]**. Por exemplo: `^(.+)\:(.+)\:FY(.+)$`.
+Insira um valor para **[!UICONTROL Expressão regular]**. Por exemplo: `^(.+)\:(.+)\:FY(.+)$`.
 
 #### Caso de uso
 
@@ -313,10 +313,10 @@ Se você criar várias regras que não compartilham a mesma operação **[!UICON
 
 ### Exemplo
 
-You want to classify with the classification **[!UICONTROL Type]** how users search for an athlete using the search string as the key dimension. For example, using this rule set:
+Você deseja classificar com a classificação **[!UICONTROL Tipo]** como os usuários pesquisam por um atleta usando a sequência de pesquisa como dimensão principal. Por exemplo, usando esse conjunto de regras:
 
-![Rules priority](assets/rule-priority.png)
+![Prioridade de regras](assets/rule-priority.png)
 
-* When a user searches for `Cowboys Fantasy Tony Romo`, `Romo` is classified as **[!UICONTROL Type]**.
-* When a user searches for `Cowboys Fantasy Tony Romeo`, `Fantasy` is classified as **[!UICONTROL Type]**.
-* When a user searches for `Cowboys vs. Broncos`, `Team` is classified as **[!UICONTROL Type]**.
+* Quando um usuário pesquisa por `Cowboys Fantasy Tony Romo`, `Romo` é classificado como **[!UICONTROL Tipo]**.
+* Quando um usuário pesquisa por `Cowboys Fantasy Tony Romeo`, `Fantasy` é classificado como **[!UICONTROL Tipo]**.
+* Quando um usuário pesquisa por `Cowboys vs. Broncos`, `Team` é classificado como **[!UICONTROL Tipo]**.

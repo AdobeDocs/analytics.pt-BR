@@ -5,10 +5,10 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 91%
+source-wordcount: '193'
+ht-degree: 72%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre a visualização de mapa de árvore no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Mapa de árvore](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/treemap) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta a visualização de Mapa de árvore no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Treemap](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/treemap) para a versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
-Use uma visualização de ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL mapa de árvore]** para exibir dados hierárquicos (estruturados em árvore) como um conjunto de retângulos aninhados.
+Use uma visualização de ![Gráfico de árvore](/help/assets/icons/GraphTree.svg) **[!UICONTROL Mapa de árvore]** para exibir dados hierárquicos (estruturados em árvore) como um conjunto de retângulos aninhados.
 
 Cada galho da árvore recebe um retângulo, que é empilhado com retângulos menores representando os sub-galhos.
 
@@ -40,7 +40,7 @@ Com um mapa de árvore, você pode ver padrões que seriam difíceis de detectar
 
 >[!BEGINSHADEBOX]
 
-Veja ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de mapa de árvore](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} para ver um vídeo de demonstração.
+Veja ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de mapa de árvore](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

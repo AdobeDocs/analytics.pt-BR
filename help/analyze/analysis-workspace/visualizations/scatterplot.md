@@ -3,10 +3,10 @@ title: Dispersão
 description: Saiba como criar e interpretar visualizações de dispersão no Analysis Workspace para analisar relações entre itens de dimensão e até três métricas.
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 65%
+source-wordcount: '252'
+ht-degree: 52%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre a visualização de dispersão_ no ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Dispersão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta a exibição de Dispersão no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Dispersão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) para a versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -37,12 +37,12 @@ A visualização ![DispersãoGráfico](/help/assets/icons/GraphScatter.svg) **[!
 * A terceira coluna determina o raio do ponto.
 * Todas as colunas subsequentes em uma tabela de forma livre são ignoradas pela visualização do gráfico de dispersão.
 
-![Exemplo de gráfico de dispersão, mostrando vários itens de dimensão &#x200B;](assets/scatter.png)
+![Exemplo de gráfico de dispersão, mostrando vários itens de dimensão ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [VIsualização de dispersão](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [VIsualização de dispersão](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

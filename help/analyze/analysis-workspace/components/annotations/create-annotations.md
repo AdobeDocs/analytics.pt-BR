@@ -1,13 +1,13 @@
 ---
-title: Create Annotations
-description: Learn how to create annotations in Analysis Workspace.
+title: Criar anotações
+description: Saiba como criar anotações no Analysis Workspace.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 93%
+source-wordcount: '862'
+ht-degree: 86%
 
 ---
 
@@ -22,13 +22,13 @@ Você pode criar uma anotação das seguintes maneiras:
 
 ![Criar uma anotação](assets/create-annotation.png)
 
-* **A**.  Na interface principal, selecione **[!UICONTROL Componentes]** e **[!UICONTROL Anotações]**. Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Adicionar]**] no gerenciador de [[!UICONTROL Anotações]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
-* **B**. Em um projeto do espaço de trabalho, no menu de contexto da visualização, selecione **[!UICONTROL Criar anotação a partir da seleção]**.
-* **C**.  Em um projeto do espaço de trabalho, no menu de contexto do gráfico de linha, selecione **[!UICONTROL Anotar seleção]**.
-* **D**. Em um projeto do espaço de trabalho, selecione **[!UICONTROL Componentes]** no menu e **[!UICONTROL Criar anotação]**.
+* **A**. Na interface principal, selecione **[!UICONTROL Componentes]** e selecione **[!UICONTROL Anotações]**. Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Adicionar]**] no gerenciador de [[!UICONTROL Anotações]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
+* **B**. Em um projeto do Workspace, no menu de contexto de uma visualização, selecione **[!UICONTROL Criar anotação a partir da seleção]**.
+* **C**. Em um projeto do Workspace, no menu de contexto em um gráfico de linhas, selecione **[!UICONTROL Anotar Seleção]**.
+* **D**. Em um projeto do Workspace, selecione **[!UICONTROL Componentes]** no menu e selecione **[!UICONTROL Criar anotação]**.
 * **E**.  Em um projeto do espaço de trabalho, use o atalho **[!UICONTROL Ctrl+Shift+O]** (Windows) ou **[!UICONTROL Shift+Command+O]** (macOS)
 
-To define the annotation, you use the [[!UICONTROL Annotation builder]](#annotation-builder).
+Para definir a anotação, use o [[!UICONTROL Construtor de anotações]](#annotation-builder).
 
 
 
@@ -37,7 +37,7 @@ To define the annotation, you use the [[!UICONTROL Annotation builder]](#annotat
 >[!CONTEXTUALHELP]
 >id="components_annotations_details"
 >title="Detalhes da anotação"
->abstract="As anotações permitem comunicar com eficácia nuances de dados contextuais e insights à sua organização. Elas permitem vincular eventos de calendário a dimensões ou métricas específicas. "
+>abstract="As anotações permitem comunicar com eficácia nuances de dados contextuais e insights à sua organização. Elas permitem vincular eventos de calendário a dimensões ou métricas específicas."
 
 >[!CONTEXTUALHELP]
 >id="components_annotations_scope"
@@ -65,7 +65,7 @@ A caixa de diálogo **[!UICONTROL Criador de anotações]** é usada para criar 
 
    | Elemento | Descrição |
    | --- | --- |
-   | **[!UICONTROL Conjunto de relatórios]** | You can select the report suite for the annotation. The annotation you define is available as an annotation in the Workspace projects based on the selected report suite. This selection is overruled when you have enabled [!UICONTROL Apply to all report suites]. |
+   | **[!UICONTROL Conjunto de relatórios]** | É possível selecionar o conjunto de relatórios para a anotação. A anotação definida está disponível como uma anotação nos projetos do Workspace com base no conjunto de relatórios selecionado. Esta seleção é anulada quando você habilitou [!UICONTROL Aplicar a todos os conjuntos de relatórios]. |
    | **[!UICONTROL Anotação somente de projeto]** | Uma caixa de informações para explicar que a anotação que você cria só é visível no projeto do espaço de trabalho em que você está trabalhando. Habilite a opção **[!UICONTROL Disponibilizar esta anotação em todos os projetos]** para tornar a anotação visível para todos os projetos. Essa caixa de informações só é visível ao criar uma anotação de dentro de um projeto do espaço de trabalho. |
    | **[!UICONTROL Título]** ![Obrigatório](/help/assets/icons/Required.svg) | Nomeie a anotação, por exemplo, como `Needs further investigation`. |
    | **[!UICONTROL Descrição]** | Forneça uma descrição para a anotação, por exemplo, `We never expected such a fluctuation in numbers.`. |

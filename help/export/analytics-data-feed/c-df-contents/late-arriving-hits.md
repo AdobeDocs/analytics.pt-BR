@@ -3,10 +3,10 @@ title: Ocorrências de chegada tardia
 description: Saiba como os feeds de dados tratam as ocorrências que chegam tarde.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 41%
+source-wordcount: '317'
+ht-degree: 48%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 41%
 
 ## Entenda as ocorrências de chegada tardia
 
-Os dados históricos podem chegar depois que uma tarefa de feed de dados terminar o processamento de uma determinada hora ou dia, por exemplo, por meio de ocorrências com carimbos de data e hora ou fontes de dados.
+Os dados históricos podem chegar depois que um processo de feed de dados terminar o processamento de uma determinada hora ou dia, por exemplo, por meio de ocorrências com carimbos de data e hora ou fontes de dados.
 
 Quando um feed de dados normalmente processa dados, ele só procura os dados em sua janela de relatório (normalmente a hora ou o dia mais recente). Se os dados chegarem depois que um feed terminar de processar essa janela de relatório, esses dados nunca serão incluídos em nenhum feed de dados.
 

@@ -4,10 +4,10 @@ description: Saiba como usar tabelas de forma livre, que são a base para a aná
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 97%
+source-wordcount: '878'
+ht-degree: 88%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre a visualização da tabela de forma livre no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Tabela de forma livre](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) para ver a versão do_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta a visualização da tabela de forma livre no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte a [tabela de forma livre](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) para a versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
 
-No Analysis Workspace, a visualização de ![Tabela](/help/assets/icons/Table.svg) **[!UICONTROL tabela de forma livre]** é a base para a análise de dados interativa. Você pode arrastar e soltar uma combinação de [componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) em linhas e colunas para criar uma tabela personalizada para sua análise. À medida que cada componente é solto, a tabela é atualizada imediatamente, para que você possa analisar e pesquisar com mais detalhes de maneira rápida.
+No Analysis Workspace, uma Visualização de ![Tabela](/help/assets/icons/Table.svg) **[!UICONTROL tabela de forma livre]** é a base para a análise interativa de dados. Você pode arrastar e soltar uma combinação de [componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) em linhas e colunas para criar uma tabela personalizada para sua análise. À medida que cada componente é solto, a tabela é atualizada imediatamente, para que você possa analisar e pesquisar com mais detalhes de maneira rápida.
 
 ![Tabela de forma livre mostrando componentes em linhas e colunas, incluindo visitas e pedidos online de várias páginas da web.](assets/opening-section.png)
 
@@ -49,7 +49,7 @@ A maneira mais rápida de criar uma tabela é soltar os componentes diretamente 
 
 Se preferir adicionar vários componentes à tabela primeiro e então renderizar os dados, selecione **[!UICONTROL Habilitar construtor de tabela]**. Com o construtor habilitado, você pode arrastar e soltar dimensões, detalhamentos, métricas e filtros para criar tabelas que respondam a perguntas mais complexas. Atualizações de dados após selecionar **[!UICONTROL Criar]**.
 
-![Um Construtor de tabela de forma livre exibindo &#x200B;](assets/table-builder.png)
+![Um Construtor de tabela de forma livre exibindo ](assets/table-builder.png)
 
 ## Interações
 
@@ -74,7 +74,7 @@ Se preferir adicionar vários componentes à tabela primeiro e então renderizar
 * Várias ações estão disponíveis no [menu de contexto](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu). O menu fornece ações diferentes, com base na seleção do cabeçalho, das linhas ou das colunas da tabela.
 
 
-## Configurações 
+## Configurações
 
 Selecione ![Configuração](/help/assets/icons/Setting.svg) para exibir as **[!UICONTROL Configurações da tabela]**. As seguintes [configurações](../freeform-analysis-visualizations.md#settings) de visualização específicas estão disponíveis:
 
@@ -85,7 +85,7 @@ Selecione ![Configuração](/help/assets/icons/Setting.svg) para exibir as **[!U
 | **[!UICONTROL Visualizações vinculadas]**. | Lista todas as visualizações vinculadas. |
 | **[!UICONTROL Exibir fonte de dados]** | Quando desmarcada, a tabela de forma livre que funciona como fonte de dados para a visualização fica oculta no Workspace. |
 
-### Configurações 
+### Configurações
 
 | Opção | Descrição |
 |---|---|
@@ -98,16 +98,16 @@ As opções do [menu de contexto](../freeform-analysis-visualizations.md#context
 
 | Opção | Descrição |
 | --- | --- |
-| **[!UICONTROL Inserir visualização copiada]**&#x200B;n | Colar (inserir) uma visualização copiada em outro lugar dentro do projeto ou em um projeto totalmente diferente. |
+| **[!UICONTROL Inserir visualização copiada]**n | Colar (inserir) uma visualização copiada em outro lugar dentro do projeto ou em um projeto totalmente diferente. |
 | **[!UICONTROL Copiar dados para a área de transferência]** | Copiar dados da visualização para a área de transferência. |
 | **[!UICONTROL Copiar seleção para a área de transferência]** | Copiar a seleção da visualização para a área de transferência. |
 | **[!UICONTROL Baixar itens como CSV (*nome da dimensão*)]** | Baixe imediatamente os itens de dimensão (até um máximo de 50.000) da visualização no dispositivo local. Até 50 mil itens de dimensão para a dimensão selecionada. |
 | **[!UICONTROL Copiar visualização]** | Copiar a visualização, para que você possa inseri-la em outro lugar dentro do projeto ou em um projeto totalmente diferente. |
-| **[!UICONTROL Baixar dados como CSV]** | Baixe imediatamente os dados exibidos da visualização para o dispositivo local. |
+| **[!UICONTROL Baixar dados como CSV]** | Baixe imediatamente os dados exibidos da visualização no dispositivo local. |
 | **[!UICONTROL Duplicar visualização]** | Fazer uma duplicata exata da visualização. |
 | **[!UICONTROL Editar descrição]** | Adicionar (ou editar) uma descrição em texto para a visualização. Consulte [Texto](../text.md). |
 | **[!UICONTROL Obter link da visualização]** | Copiar e compartilhar um link diretamente para a visualização. Uma caixa de diálogo “Compartilhar link” exibe o link. Selecione “Copiar” para copiar o link para a área de transferência. |
-| **[!UICONTROL Começar de novo]** | Exclui a configuração da visualização atual para que seja possível reconfigurá-la do zero. |
+| **[!UICONTROL Começar de novo]** | Excluir a configuração da visualização atual, para que você possa reconfigurá-la do zero. |
 
 
 
@@ -115,19 +115,19 @@ As opções do [menu de contexto](../freeform-analysis-visualizations.md#context
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do construtor de tabelas de forma livre](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do construtor de tabelas de forma livre](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros de tabela de forma livre](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-filters){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros de tabela de forma livre](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-filters){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totais da tabela de forma livre](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-totals-in-analysis-workspace){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totais da tabela de forma livre](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-totals-in-analysis-workspace){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

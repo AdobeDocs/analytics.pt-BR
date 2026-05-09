@@ -1,13 +1,13 @@
 ---
-description: Learn how to use the fallout visualization in Analysis Workspace.
-title: Fallout Overview
+description: Saiba como usar a visualização de fallout no Analysis Workspace.
+title: Visão geral do fallout
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 43%
+source-wordcount: '289'
+ht-degree: 36%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo é sobre a visualização de fallout no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Fallout](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) para ver a versão do_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta a visualização de Fallout no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Fallout](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) para a versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -34,27 +34,27 @@ Uma visualização de ![ConversionFunnel](/help/assets/icons/ConversionFunnel.sv
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de fallout](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização de fallout](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
 
 
 
-Fallout visualizations let you
+As visualizações de fallout permitem
 
 * Fazer comparações lado a lado de dois segmentos diferentes no mesmo relatório
 * Arrastar, soltar e reorganizar as etapas do funil (pontos de contato).
-* Mix and match values from different dimensions and metrics
-* Create a multi-dimensional fallout report
-* Identify where customers go immediately after falling out
+* Combinar valores de diferentes dimensões e métricas
+* Criar um relatório de fallout multidimensional
+* Identifique para onde os clientes vão imediatamente depois de sair
 
 O Fallout exibe as taxas de conversão e de fallout entre cada etapa ou ponto de contato em uma sequência.
 
-For example, you can track a visitor&#39;s fallout points during a purchase process. Just select a beginning touchpoint and a conclusion touchpoint, and add intermediate touchpoints to create a website navigation path. But you can also do multi-dimensional fallouts.
+Por exemplo, você pode rastrear os pontos de fallout de um visitante durante um processo de compra. Basta selecionar um ponto de contato inicial e um ponto de contato de conclusão e adicionar pontos de contato intermediários para criar um caminho de navegação do site. Mas você também pode fazer fallouts multidimensionais.
 
-A fallout visualization is useful for analyzing:
+Uma visualização de fallout é útil para analisar:
 
 * Taxas de conversão por meio de processos específicos no site (como um processo de compra ou registro).
-* General, wider-scope traffic flows: Of the people who saw the home page, this flow shows how many went on to perform a search, and then how many of them eventually went on to look at a specific item.
-* Correlations between events on your site. Correlations show what percentage of people who looked at your privacy policy went on to purchase a product.
+* Fluxos de tráfego gerais e de escopo mais amplo: das pessoas que visualizaram a página inicial, esse fluxo mostra quantos passaram a realizar uma pesquisa e, em seguida, quantos deles acabaram observando um item específico.
+* Correlações entre eventos no site. As correlações mostram a porcentagem de pessoas que observaram sua política de privacidade que compraram um produto.

@@ -4,14 +4,14 @@ description: Entenda como criar um intervalo de datas que você pode usar no Ana
 feature: Date Ranges
 role: User
 exl-id: 62ce2ca5-4df1-43bf-88ce-3c9f106f4a59
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '540'
 ht-degree: 94%
 
 ---
 
-# Criar intervalos de datas 
+# Criar intervalos de datas
 
 Qualquer pessoa pode criar um intervalo de datas personalizado. Um intervalo de datas pode ser criado das seguintes maneiras:
 
@@ -53,7 +53,7 @@ A caixa de diálogo **[!UICONTROL Novo intervalo de datas]** ou **[!UICONTROL Ed
 
 1. Especifique um **[!UICONTROL Título]** para o intervalo de datas Por exemplo, **[!UICONTROL Trimestral]**.
 1. Opcionalmente, especifique uma **[!UICONTROL Descrição]**.
-1. Organize o segmento criando ou aplicando uma ou mais **[!UICONTROL Marcas]**. Comece a digitar para encontrar as tags existentes que você pode selecionar. Ou pressione **[!UICONTROL ENTER]** para adicionar uma nova tag. Selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover uma tag.
+1. Organize o segmento criando ou aplicando uma ou mais **[!UICONTROL Marcas]**. Comece a digitar para encontrar as tags existentes que você pode selecionar. Ou pressione **[!UICONTROL ENTER]** para adicionar uma nova tag. Selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover uma tag. |
 1. Selecione um **[!UICONTROL Intervalo de datas]**, escolhendo primeiro a data inicial e, em seguida, a data final.
 Também é possível selecionar uma **[!UICONTROL predefinição]** no menu suspenso [!UICONTROL *Selecionar uma predefinição*].
 
@@ -67,7 +67,7 @@ Também é possível selecionar uma **[!UICONTROL predefinição]** no menu susp
      ![Datas contínuas](assets/rolliing-dates.png)
 
       1. Selecione **[!UICONTROL Início de]**, **[!UICONTROL Fim de]** ou **[!UICONTROL Dia fixo]**.
-      1. Ao selecionar **[!UICONTROL Início de]** ou **[!UICONTROL Fim de]**, você pode criar uma expressão completa. Por exemplo: **[!UICONTROL Fim do]** **[!UICONTROL trimestre atual]** **[!UICONTROL menos]** `20` **[!UICONTROL dias]**.  Escolha o valor apropriado para cada parte individual da expressão.
+      1. Ao selecionar **[!UICONTROL Início de]** ou **[!UICONTROL Fim de]**, você pode criar uma expressão completa. Por exemplo: **[!UICONTROL Fim do]** **[!UICONTROL trimestre atual]** **[!UICONTROL menos]** `20` **[!UICONTROL dias]**. Escolha o valor apropriado para cada parte individual da expressão.
          * Selecione um valor para o atual. Por exemplo, **[!UICONTROL trimestre atual]**.
          * Selecione um valor para o cálculo adicional. Por exemplo, **[!UICONTROL menos]**.
          * Após definir um cálculo adicional, especifique um valor. Por exemplo, `20`.
