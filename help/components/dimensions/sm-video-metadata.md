@@ -3,31 +3,44 @@ title: Dimensões de metadados de vídeo de serviços de mídia de transmissão
 description: Dimensões disponíveis ao habilitar [!UICONTROL Metadados de vídeo] para um conjunto de relatórios.
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/Xgz-L8hPTQCfW6n-OEaw7u-8qNEGaXGVZTg3IBRbfKw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: 197
+ht-degree: 0%
 
 ---
 
 # Dimensões de metadados de vídeo de serviços de mídia de transmissão
 
-*Esta página descreve as dimensões disponíveis quando você habilita os [!UICONTROL Metadados de vídeo] para um conjunto de relatórios. Consulte [Métricas de metadados de vídeo de serviços de mídia de streaming](../metrics/sm-video-metadata.md) para obter as métricas disponíveis.*
+As dimensões de metadados de vídeo dos serviços de mídia de transmissão fornecem funcionalidade de relatório complementar para dados coletados por meio de bibliotecas de coleção de mídia de transmissão. Essas dimensões exigem o **[!UICONTROL Complemento Adobe Analytics para mídia de streaming]**. Entre em contato com a equipe de conta da Adobe para obter mais detalhes.
 
-Os serviços e dimensões de mídia de transmissão fornecem funcionalidade de relatórios complementar para a coleta de dados por meio de bibliotecas de coleta de serviços de mídia de transmissão. O uso dessas dimensões requer o **[!UICONTROL Complemento Adobe Analytics para mídia de streaming]**. Entre em contato com a equipe de conta da Adobe para obter mais detalhes.
+Para usar essas dimensões, habilite os **[!UICONTROL Metadados de vídeo]** em [[!UICONTROL Relatórios de mídia]](/help/admin/tools/manage-rs/edit-settings/media-management.md) para o conjunto de relatórios.
 
-Quando você habilita os **[!UICONTROL Metadados de vídeo]** em [Relatórios de mídia](/help/admin/tools/manage-rs/edit-settings/media-management.md), as seguintes dimensões estão disponíveis:
+As seguintes dimensões estão disponíveis:
 
-| Nome da dimensão | Descrição | Enviado com | Variável de dados de contexto | Campo XDM |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Carregamentos de anúncio]** | O tipo de anúncio carregado. | | `a.media.adLoad` | `xdm.mediaCollection.`<br>`sessionDetails.adLoad` |
-| **[!UICONTROL Parte do dia]** | A hora do dia em que o conteúdo foi transmitido ou reproduzido. Qualquer valor de string é suportado. | Início da mídia, Fechamento da mídia | `a.media.dayPart` | `xdm.mediaCollection.`<br>`sessionDetails.dayPart`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.dayPart` |
-| **[!UICONTROL Episódio]** | O número do episódio. | Início da mídia, Fechamento da mídia | `a.media.episode` | `xdm.mediaCollection.`<br>`sessionDetails.episode`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.episode` |
-| **[!UICONTROL Tipo de feed de mídia]** | O tipo de feed. | Início da mídia, Fechamento da mídia | `a.media.feed` | `xdm.mediaCollection.`<br>`sessionDetails.feed`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.feed` |
-| **[!UICONTROL Gênero]** | O tipo ou agrupamento de conteúdo conforme definido pelo produtor do conteúdo. Essa dimensão suporta vários valores, delimitados por vírgulas. | Início da mídia, Fechamento da mídia | `a.media.genre` | `xdm.mediaCollection.`<br>`sessionDetails.genre`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.genreList` |
-| **[!UICONTROL MVPD]** | O MVPD conforme fornecido pela autenticação Adobe. | Início da mídia, Fechamento da mídia | `a.media.pass.mvpd` | `xdm.mediaCollection.`<br>`sessionDetails.mvpd`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.mvpd` |
-| **[!UICONTROL Rede]** | O nome da rede ou do canal. | Início da mídia, Fechamento da mídia | `a.media.network` | `xdm.mediaCollection.`<br>`sessionDetails.network`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.network` |
-| **[!UICONTROL Temporada]** | O número da temporada do programa. | Início da mídia, Fechamento da mídia | `a.media.season` | `xdm.mediaCollection.`<br>`sessionDetails.season`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.season` |
-| **[!UICONTROL Programa]** | O nome do programa ou da série. | Início da mídia, Fechamento da mídia | `a.media.show` | `xdm.mediaCollection.`<br>`sessionDetails.show`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.show` |
-| **[!UICONTROL Mostrar tipo]** | Um número inteiro que representa o tipo de conteúdo.<br>`0`: Episódio completo<br>`1`: Pré-visualização ou trailer<br>`2`: Clipe<br>`3`: Outro | Início da mídia, Fechamento da mídia | `a.media.type` | `xdm.mediaCollection.`<br>`sessionDetails.showType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.showType` |
+* [!UICONTROL Carregamentos de anúncio]
+* [[!UICONTROL Parte do dia]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)
+* [[!UICONTROL Episódio]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)
+* [[!UICONTROL Tipo de feed de mídia]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)
+* [[!UICONTROL Gênero]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)
+* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
+* [[!UICONTROL Rede]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)
+* [[!UICONTROL Temporada]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
+* [[!UICONTROL Programa]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)
+* [[!UICONTROL Mostrar tipo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)
 
+Consulte [Métricas de metadados de vídeo de serviços de mídia de streaming](../metrics/sm-video-metadata.md) para obter as métricas correspondentes.
