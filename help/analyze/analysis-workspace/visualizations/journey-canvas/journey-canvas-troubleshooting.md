@@ -2,9 +2,8 @@
 description: Saiba como usar a visualização da tela de Jornada no Analysis Workspace para analisar jornadas do usuário, fallout e conversões de vários caminhos.
 title: Solução de problemas da tela da jornada
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%

@@ -5,10 +5,10 @@ user-guide-title: Guia de ferramentas do Analytics
 breadcrumb-title: Guia de ferramentas
 user-guide-description: Saiba como usar as ferramentas do Analytics, incluindo o Analysis Workspace, os painéis do Analytics, o Report Builder, o Report Builder legado e o Activity Map.
 index: true
-source-git-commit: 24c05a7f323198716486519e2de6ef70fa19fc10
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,9 +104,9 @@ ht-degree: 99%
          + [Configurar](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Fluxos interdimensionais](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + Tela da jornada {#journey-canvas}
-         + {hide-from-toc}[Visão geral](analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
-         + {hide-from-toc}[Configurar](analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
-         + {hide-from-toc}[Solução de problemas](analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
+         + [Visão geral](analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + [Configurar](analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+         + [Solução de problemas](analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [Área (empilhada)](analysis-workspace/visualizations/area.md)
       + [Barra (empilhada)](analysis-workspace/visualizations/bar.md)
       + [Marcador](analysis-workspace/visualizations/bullet-graph.md)
