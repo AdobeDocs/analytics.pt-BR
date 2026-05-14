@@ -4,27 +4,14 @@ description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7c04b33e94152be8826005cb9617cb49dadbdcb9
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
-source-wordcount: 1340
-ht-degree: 62%
+source-wordcount: 1365
+ht-degree: 61%
 
 ---
 
@@ -39,7 +26,7 @@ Essas notas de versão abordam o período de lançamento de maio de 2026. As ver
 | Recurso e descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ---- |
 | **Servidores MCP para Adobe Analytics** <br/>Os servidores MCP (Model Context Protocol) do Analytics permitem conectar um cliente MCP com suporte ao Adobe Analytics. Depois de conectado, o cliente MCP poderá invocar ferramentas específicas do produto para recuperar dados, executar consultas ou executar operações compatíveis como parte de um fluxo de trabalho AGENT ou LLM. Para obter mais informações, consulte [Servidores MCP do Analytics](https://developer.adobe.com/analytics-mcp/docs/).<p>Se você usou esses servidores MCP durante o período beta, observe que há URLs diferentes entre os endpoints beta e de produção. Verifique se todos os workflows de agente criados durante o período beta foram atualizados para usar os endpoints de produção antes de 31 de maio.</p> | | 5 de maio de 2026 |
-| **Tela do Jornada no Adobe Analytics** <br/>A tela do Jornada é uma visualização no Analysis Workspace que permite obter insights profundos sobre uma jornada de usuário definida ao analisar como as pessoas avançam ou saem da jornada. Ele permite criar um gráfico flexível de nós e setas representando qualquer combinação de eventos, itens de dimensão e segmentos incluídos na jornada. Os dados são atualizados à medida que você arrasta nós para a tela ou reorganiza os eventos e as condições da jornada.<p>A tela de Jornada estava disponível anteriormente somente para o Customer Journey Analytics.</p><p>(O link da documentação será disponibilizado em breve).<!--To learn more about Journey canvas in Adobe Analytics, see Journey canvas overview. To learn how to build a Journey canvas visualization in Adobe Analytics, see Configure Journey canvas.--></p> | 18 de maio de 2026 | 5 de junho de 2026 |
+| **Tela do Jornada no Adobe Analytics** <br/>A tela do Jornada é uma visualização no Analysis Workspace que permite obter insights profundos sobre uma jornada de usuário definida ao analisar como as pessoas avançam ou saem da jornada. Ele permite criar um gráfico flexível de nós e setas representando qualquer combinação de eventos, itens de dimensão e segmentos incluídos na jornada. Os dados são atualizados à medida que você arrasta nós para a tela ou reorganiza os eventos e as condições da jornada.<p>A tela de Jornada estava disponível anteriormente somente para o Customer Journey Analytics.</p><p>Para saber mais sobre a tela do Jornada no Adobe Analytics, consulte [visão geral da tela do Jornada](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>Para saber como criar uma visualização da tela de Jornada no Adobe Analytics, consulte [Configurar tela de Jornada](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | 18 de maio de 2026 | 5 de junho de 2026 |
 | **Guia de relatórios da API de modelo de atribuição** <br/>Um novo Guia de relatório do Modelo de atribuição da API do Adobe Analytics 2.0 está disponível. O guia aborda como incluir dados do objeto de modelo de atribuição nos relatórios da API do Dimension.<p>Para obter mais informações, consulte [modelos de atribuição da API do Dimension](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel).</p> | | Maio de 2026 |
 | **Serviços de mídia de streaming: compatibilidade com dados de programação** <br/>Agora é possível fazer upload de dados de programação de conteúdo ao vivo anterior de mídia de streaming para acompanhar o número de visualizadores de forma mais fácil e precisa.<p>Veja a seguir alguns exemplos de conteúdo ao vivo que são compatíveis com o upload de dados de programação:</p><ul><li>Plataformas FAST (TV com suporte a anúncios gratuitos)</li><li>Transmissões locais</li><li>Esportes ao vivo</li></ul><p>O upload de dados de programação permite acompanhar os dados de de número de visualizadores de programas individuais que foram executados durante o período designado no arquivo de upload. É possível até coletar dados do número de visualizadores para tópicos ou segmentos de programa específicos.</p><p>Esses recursos estão disponíveis independentemente de como você implementou a coleta de mídias de transmissão.</p><p>Anteriormente, era difícil vincular com precisão uma determinada sessão a programas específicos ao analisar o conteúdo ao vivo e não era possível vincular uma determinada sessão a tópicos ou segmentos de programa individuais.</p><p>Para obter mais informações, consulte [Fazer upload de dados de agendamento para rastrear conteúdo ao vivo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 29 de outubro de 2025 | Primeiro semestre de 2026<p>(Planejado originalmente para lançamento em 29 de outubro de 2025)</p> |
 

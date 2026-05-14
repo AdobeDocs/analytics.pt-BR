@@ -2,9 +2,8 @@
 description: Saiba como usar a visualização da tela de Jornada no Analysis Workspace para analisar jornadas do usuário, fallout e conversões de vários caminhos.
 title: Solução de problemas da tela da jornada
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -15,7 +14,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte a [visão geral da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting) da versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;deste artigo._
+_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte a [visão geral da tela de Jornada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting) da versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**deste artigo._
 
 >[!ENDSHADEBOX]
 
