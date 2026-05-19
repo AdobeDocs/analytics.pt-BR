@@ -4,10 +4,25 @@ description: Saiba como alterar seus dados focados em dispositivos para focados 
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+TQID: https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 56%
+source-wordcount: 837
+ht-degree: 54%
 
 ---
 
@@ -55,7 +70,7 @@ O Análise entre dispositivos é um recurso inovador e robusto, mas tem limitaç
 * Os conjuntos de relatórios do Adobe Analytics não podem mapear para mais de uma ID de organização. Como o Cross-Device Analytics compila dispositivos em um conjunto de relatórios específico, o Cross-Device Analytics não pode ser usado para compilar dados em várias IDs de organização.
 * O Cross-Device Analytics usa um pipeline de processamento complexo, com vários componentes dependentes. Esse pipeline é executado em paralelo com o fluxo de trabalho básico de relatórios do Analytics. Você pode esperar uma incompatibilidade de dados de aproximadamente 1% para o número total de ocorrências entre o conjunto de relatórios original e o conjunto de relatórios virtual do Cross-Device Analytics.
 * O Análise entre dispositivos usa um conjunto de relatórios virtual e um processamento de tempo de relatório, que têm suas próprias limitações. Por exemplo, no momento, eles não são compatíveis com as variáveis de canais de marketing. Consulte [Conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md) e [Processamento de tempo de relatório](/help/components/vrs/vrs-report-time-processing.md) para obter mais informações sobre essas limitações.
-* O Gráfico privado aproveita as mesmas sincronizações de ID que as sincronizações de ID usadas pelo recurso [Atributos do cliente](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/services/customer-attributes/attributes) encontrado na Experience Cloud e na Adobe Analytics. No entanto, os conjuntos de relatórios virtuais do Cross-Device Analytics (com base no gráfico privado ou na compilação em campo) não são compatíveis com o restante da funcionalidade de Atributos do cliente. Em outras palavras, as dimensões baseadas em atributos do cliente não estão disponíveis para uso com os conjuntos de relatórios virtuais do Cross-Device Analytics.
+* O Gráfico privado aproveita as mesmas sincronizações de ID que as sincronizações de ID usadas pelo recurso [Atributos do cliente](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/services/customer-attributes/attributes) encontrado no CX Enterprise e no Adobe Analytics. No entanto, os conjuntos de relatórios virtuais do Cross-Device Analytics (com base no gráfico privado ou na compilação em campo) não são compatíveis com o restante da funcionalidade de Atributos do cliente. Em outras palavras, as dimensões baseadas em atributos do cliente não estão disponíveis para uso com os conjuntos de relatórios virtuais do Cross-Device Analytics.
 * No momento, o Cross-Device Analytics não é compatível com o A4T.
 * Não há suporte para a API 1.4. Os conectores do Power BI e do Report Builder dependem da API 1.4 e, portanto, não são compatíveis com o CDA.
 * O monitoramento ativo do processo de compilação do Cross-Device Analytics pelo Adobe está limitado apenas aos conjuntos de relatórios de produção.

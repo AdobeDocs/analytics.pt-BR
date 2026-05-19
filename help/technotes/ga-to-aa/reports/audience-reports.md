@@ -3,9 +3,27 @@ title: Relatórios de público-alvo no Adobe Analytics
 description: Saiba como criar relatórios baseados no público-alvo usando a Analysis Workspace.
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+TQID: https://experienceleague.adobe.com/9CG4aXbANCD-8saZxlTfL4egFSMvf3IGfu4Jf17Dvfg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6
+  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: 1723
 ht-degree: 97%
 
 ---
@@ -24,7 +42,7 @@ Para obter um gráfico de linhas de visitantes únicos:
 
 1. Clique no ícone Exibições à esquerda e arraste a exibição em Linha para o espaço de trabalho acima da tabela de forma livre vazia.
 2. Clique no ícone Componentes à esquerda e arraste a métrica **Visitante únicos** até o espaço menor chamado &#39;Solte uma métrica aqui&#39;.
-3. Se desejar uma granularidade diferente, arraste o intervalo de datas desejado (por exemplo, **Dia**, **Semana**, **Mês** etc.) para cima do cabeçalho da dimensão de data existente.
+3. Se desejar uma granularidade diferente, arraste o intervalo de datas desejado (por exemplo, **Dia**, **Semana**, **Mês** etc.) na parte superior do cabeçalho da dimensão de data existente.
 
 Consulte [Visitantes únicos](/help/components/metrics/unique-visitors.md) no guia do usuário Componentes para obter detalhes sobre como a Adobe calcula visitantes únicos.
 
@@ -59,7 +77,7 @@ O relatório Explorador de usuários permite que um analista visualize visitas i
 
 Os dados demográficos e de interesses fornecem informações sobre a idade, o gênero e os interesses dos usuários do site. Esses dados são coletados pelo Google por meio das habilidades de rastreamento entre sites.
 
-Dados demográficos e de interesse não são coletados automaticamente pela Adobe. No entanto, se sua organização obtiver esses dados, você poderá usar os atributos do cliente, um recurso da Plataforma Adobe Experience Cloud. Ele permite o controle total da organização de dados por atributos, e não se limita a apenas demografia ou interesses.
+Dados demográficos e de interesse não são coletados automaticamente pela Adobe. No entanto, se sua organização obtiver esses dados, você poderá usar os atributos do cliente, um recurso do Adobe CX Enterprise. Ele permite o controle total da organização de dados por atributos, e não se limita a apenas demografia ou interesses.
 
 Consulte Ajuda dos atributos do cliente para obter mais informações.
 
@@ -70,7 +88,7 @@ O relatório de idioma geográfico mostra o tráfego do site pela configuração
 Para criar um relatório de idioma:
 
 1. No menu Componentes, localize a dimensão **Idioma** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 Consulte a dimensão [Idioma](/help/components/dimensions/language.md) no guia do usuário Componentes para obter mais informações.
 
@@ -99,7 +117,7 @@ Para criar um relatório novo vs. de visitas recorrentes:
 
 1. No menu Componentes, localize o segmento **Novas visitas** e arraste-o até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;. Observe que **Novas visitas** é um segmento, enquanto o Workspace normalmente usa dimensões para representar linhas.
 2. Localize o segmento **Visitas de recorrentes** e arraste-o até a parte superior do cabeçalho da linha Segmentos. Isso adiciona o segmento como uma dimensão abaixo de Novas Visitas, permitindo uma fácil comparação.
-3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 Se desejar um gráfico de linha:
 
@@ -112,7 +130,7 @@ Se desejar um gráfico de linha:
 O relatório de frequência e recenticidade é aproximadamente igual à dimensão **Número de visitas** na Analysis Workspace.
 
 1. No menu Componentes, localize a dimensão **Número de visitas** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 Consulte a dimensão [Número da visita](/help/components/dimensions/visit-number.md) no guia do usuário Componentes para obter mais informações.
 
@@ -121,7 +139,7 @@ Consulte a dimensão [Número da visita](/help/components/dimensions/visit-numbe
 O relatório de engajamento é aproximadamente igual à dimensão **Tempo gasto por visita - Classificado**.
 
 1. No menu Componentes, localize a dimensão **Tempo gasto por visita - Classificado** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 Consulte a dimensão [Tempo gasto por visita](/help/components/dimensions/time-spent-per-visit.md) no guia do usuário Componentes para obter mais informações.
 
@@ -136,7 +154,7 @@ Há várias dimensões principais disponíveis no relatório Navegador e SO.
 * A dimensão principal **Versão do Flash** não está disponível no Adobe Analytics, no entanto, esses dados podem ser coletados por uma eVar, se desejar.
 
 1. No menu Componentes, localize a dimensão desejada anotada acima e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 Consulte as seguintes páginas no guia do usuário Componentes para obter mais informações sobre as respectivas dimensões:
 
@@ -150,7 +168,7 @@ Consulte as seguintes páginas no guia do usuário Componentes para obter mais i
 O relatório de rede é aproximadamente igual à dimensão **Domínio**.
 
 1. No menu Componentes, localize a dimensão **Domínio** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 Consulte a dimensão [Domínio](/help/components/dimensions/domain.md) no guia do usuário Componentes para obter mais informações.
 

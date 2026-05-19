@@ -4,10 +4,21 @@ description: Implementar o Adobe Analytics nas páginas Instant Articles do Face
 feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/S2ljH7WOuX6qvYplo-6k-MXw6FKG-vhk78EiGQFiImg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: 470
+ht-degree: 88%
 
 ---
 
@@ -28,7 +39,7 @@ O fluxo de trabalho abrangente para implementar o Adobe Analytics é o seguinte:
 
 ### Etapa 1: criar uma página `stats.html`
 
-O HTML de exemplo abaixo pode ser usado para capturar dados de estatística dos artigos instantâneos. Normalmente, este artigo seria hospedado em um dos servidores da sua empresa. Cada vez que um Instant Article é carregado, ele carrega o arquivo em um iframe, que aciona o envio de dados para a Adobe.
+O exemplo de HTML abaixo pode ser usado para capturar estatísticas dos artigos instantâneos. Normalmente, esse arquivo seria hospedado em um dos servidores Web da empresa. Cada vez que um Instant Article é carregado, ele carrega o arquivo em um iframe, que aciona o envio de dados para a Adobe.
 
 ```html
 <html>
@@ -93,4 +104,4 @@ O exemplo a seguir mostra diversas variáveis personalizadas incluídas em uma c
 
 ## Instant Articles do Facebook e privacidade
 
-Enquanto a página de HTML do Analytics estiver hospedada no seu servidor da Web, a Adobe pode oferecer suporte à política de privacidade nos Instant Articles do Facebook. Se um usuário optar por não ser rastreado no site principal, ele também deixará de ser rastreado em todos os Instant Articles do Facebook. A página de utilitários também oferece suporte ao Adobe Experience Cloud Identity Service para que você possa integrar os dados do Instant Article do Facebook ao restante da Experience Cloud.
+Enquanto a página de HTML do Analytics estiver hospedada no seu servidor da Web, a Adobe pode oferecer suporte à política de privacidade nos Instant Articles do Facebook. Se um usuário optar por não ser rastreado no site principal, ele também deixará de ser rastreado em todos os Instant Articles do Facebook. A página de utilitários também oferece suporte ao Adobe Experience Cloud Identity Service para que você possa integrar os dados do Instant Article do Facebook ao restante da CX Enterprise.

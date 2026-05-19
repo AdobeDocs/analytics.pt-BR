@@ -4,10 +4,31 @@ keywords: Conjunto de relatórios virtuais
 title: Considerações sobre Conjuntos de relatórios virtuais e Marcação de vários conjuntos
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 79%
+source-wordcount: 1657
+ht-degree: 72%
 
 ---
 
@@ -17,19 +38,19 @@ Os conjuntos de relatórios virtuais permitem exibir dados de um conjunto de rel
 
 Em muitos casos, você pode usar conjuntos de relatórios virtuais para substituir a marcação de vários conjuntos. Alternar para conjuntos de relatórios virtuais pode efetivamente remover a necessidade de [chamadas de servidor secundárias](/help/admin/tools/server-call-usage/overage-overview.md). Por exemplo, sua organização tem 6 sites diferentes, cada um enviando dados para seu próprio conjunto de relatórios, bem como um conjunto de relatórios global combinado. Cada site recebe uma chamada de servidor secundária; um para o conjunto de relatórios de marca individual e um segundo para o conjunto de relatórios global. Em vez disso, você pode enviar dados de todos os sites exclusivamente para o conjunto de relatórios global e, em seguida, usar vários conjuntos de relatórios virtuais para separar cada marca.
 
-Substituir a marcação de vários conjuntos pelo conjunto de relatórios global e virtual permite simplificar sua implementação do Adobe Analytics e reduzir o consumo de chamada do servidor, o que é uma prática recomendada. No entanto, há algumas limitações importantes dos Conjuntos de relatórios virtuais que devem ser consideradas. As orientações a seguir podem ajudá-lo a decidir se a melhor opção para você é implementar os conjuntos de relatórios virtuais integrados em um conjunto de relatórios global.
+Substituir a marcação de vários conjuntos pelo conjunto de relatórios global e virtual permite simplificar sua implementação do Adobe Analytics e reduzir o consumo de chamada do servidor, o que é uma prática recomendada. No entanto, há algumas limitações importantes dos Conjuntos de relatórios virtuais que devem ser consideradas. As diretrizes a seguir podem ajudar você a decidir se a implementação de conjuntos de relatórios virtuais criados em um conjunto de relatórios global é a abordagem correta para você.
 
 ## Diretrizes
 
-Se não tiver certeza se os casos de uso descritos se aplicam a você e a sua organização, consulte outros administradores do Adobe Analytics ou a equipe de conta da Adobe. Eles podem ajudar a avaliar suas necessidades corporativas e recomendar a melhor opção.
+Se não tiver certeza se os casos de uso descritos se aplicam a você e a sua organização, consulte outros administradores do Adobe Analytics ou a equipe de conta da Adobe. Eles podem ajudar a avaliar suas necessidades empresariais e recomendar a melhor opção.
 
 Tenha as seguintes considerações em mente ao determinar se deve usar a marcação de vários conjuntos ou conjuntos de relatórios virtuais:
 
-### Publicar segmentos na Adobe Experience Cloud
+### Publicação de segmentos no Adobe CX Enterprise
 
-O compartilhamento de segmentos na Adobe Experience Cloud não é suportado para os conjuntos de relatórios virtuais. Os usuários que desejam compartilhar um segmento na Experience Cloud devem ter acesso ao conjunto de relatórios de origem.
+O compartilhamento de segmentos no Adobe CX Enterprise não é compatível com os conjuntos de relatórios virtuais. Os usuários que desejam compartilhar um segmento no CX Enterprise devem ter acesso ao conjunto de relatórios de origem.
 
-Os segmentos ainda não podem ser publicados na Adobe Experience Cloud a partir de um conjunto de relatórios virtual para personalização e direcionamento. Todos os usuários que publicam segmentos precisam acessar o conjunto de relatórios de origem para este propósito. Por exemplo, seus usuários podem ter acesso somente a dados de suas regiões geográficas, mas você quer que eles consigam criar e compartilhar segmentos a partir do Adobe Analytics na Adobe Experience Cloud para direcionamento no Adobe Target. Nesse caso, a Adobe recomenda usar marcação de vários conjuntos. Se você não se importar com o acesso dos usuários ao conjunto de relatórios global ou se não precisar publicar segmentos para uso em outras soluções, os conjuntos de relatórios virtuais poderão ser usados.
+Os segmentos ainda não podem ser publicados no Adobe CX Enterprise a partir de um conjunto de relatórios virtual para personalização e direcionamento. Todos os usuários que publicam segmentos precisam acessar o conjunto de relatórios de origem para este propósito. Por exemplo, você deseja que os usuários tenham acesso somente aos dados de suas regiões geográficas, mas deseja que eles consigam criar e compartilhar segmentos do Adobe Analytics no Adobe CX Enterprise para direcionamento no Adobe Target. Nesse caso, a Adobe recomenda usar marcação de vários conjuntos. Se você não se importar com o acesso dos usuários ao conjunto de relatórios global ou se não precisar publicar segmentos para uso em outras soluções, os conjuntos de relatórios virtuais poderão ser usados.
 
 ### Limites únicos (tráfego baixo)
 
@@ -61,7 +82,7 @@ Por exemplo, você tem dois sites, A e B, ambos enviando dados para um conjunto 
 
 Os conjuntos de relatórios virtuais não são relatados em uma moeda diferente do conjunto de relatórios no qual eles são baseados. O Adobe Analytics permite a conversão monetária ao executar relatórios, mas a taxa de câmbio tem por base o dia atual (mesmo para dados históricos).
 
-Se sua organização fizer a análise em uma única moeda, isso não causará problemas. No entanto, se tiver uma necessidade significativa de negócios por diferentes equipes regionais que precisam visualizar a receita em sua própria moeda local, considere usar a marcação de vários conjuntos.
+Se sua organização fizer a análise em uma única moeda, isso não causará problemas. No entanto, se tiver uma necessidade empresarial significativa por diferentes equipes regionais que precisam visualizar a receita em sua própria moeda local, considere usar a marcação de vários conjuntos.
 
 ### Feeds de dados
 

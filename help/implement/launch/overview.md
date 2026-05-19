@@ -4,10 +4,21 @@ description: Saiba como implementar o Adobe Analytics usando tags e a extensão 
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 79%
+source-wordcount: 396
+ht-degree: 69%
 
 ---
 
@@ -17,7 +28,7 @@ Durante a vida útil do Adobe Analytics, a Adobe ofereceu vários diferentes mé
 
 Tags na Adobe Experience Platform é uma solução de gerenciamento de tags que permite implantar o código do Analytics junto com outros requisitos de marcação. A Adobe oferece integrações com outras soluções e produtos e permite implantar código personalizado. Todas essas tarefas podem ser realizadas sem depender de equipes de desenvolvimento na organização para atualizar o código no site.
 
-Todos os clientes com um contrato ativo do Adobe Experience Cloud podem usar Tags. Se não tiver certeza se tem acesso, entre em contato com um dos administradores de sistema da Experience Cloud na organização.
+Todos os clientes com um contrato Adobe CX Enterprise ativo podem usar Tags. Se não tiver certeza se tem acesso, entre em contato com um dos administradores do sistema CX Enterprise da sua organização.
 
 Uma visão geral de alto nível das tarefas de implementação:
 
@@ -58,7 +69,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 
 <tr>
 <td>5</td>
-<td><b>Implante em um ambiente de desenvolvimento</b>: tenha um ambiente em que você possa interagir com o desenvolvimento de tags.</td>
+<td><b>Implantar em um ambiente de desenvolvimento</b>. Ter um ambiente em que você possa interagir com o desenvolvimento de tags.</td>
 <td><a href="./deploy-dev.md">Implantar uma implementação do Analytics em um ambiente de desenvolvimento</td>
 </tr>
 

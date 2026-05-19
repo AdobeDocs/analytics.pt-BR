@@ -3,10 +3,23 @@ description: Entenda como criar segmentos usando a opção de arrastar e soltar 
 title: Criar segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '1870'
-ht-degree: 96%
+source-wordcount: 1869
+ht-degree: 94%
 
 ---
 
@@ -56,7 +69,7 @@ A caixa de diálogo **[!UICONTROL Construtor de segmentos]** é usada para cri
    {style="table-layout:auto"}
 
 1. Para verificar se a definição do seu segmento está correta, use a visualização constantemente atualizada dos resultados do segmento no canto superior direito.
-1. Para publicar seu segmento na Experience Cloud, selecione **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**. Consulte [Publicar segmentos na Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) para obter mais informações.
+1. Para publicar seu segmento no CX Enterprise, selecione **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**. Consulte [Publicar segmentos no CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md) para obter mais informações.
 1. Selecione:
    * **[!UICONTROL Salvar]** para salvar o segmento.
    * **[!UICONTROL Salvar como]** para salvar uma cópia do segmento.
@@ -257,7 +270,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Comparison]** operator: You can compare and constrain values using selected operators.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
-1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
 1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.

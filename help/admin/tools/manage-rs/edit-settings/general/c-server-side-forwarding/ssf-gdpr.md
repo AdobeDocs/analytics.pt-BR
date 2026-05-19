@@ -4,20 +4,32 @@ title: Conformidade com o RGPD/ePrivacy e o encaminhamento pelo lado do servidor
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/Q4HJtRLxJvr4fy7bF5jxCW2FLH5sdKCU6rAUzN0yNv0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 47%
+source-wordcount: 588
+ht-degree: 40%
 
 ---
 
 # Conformidade com o RGPD/ePrivacy e o encaminhamento pelo lado do servidor
 
-Esta seção explica as melhorias feitas ao encaminhamento pelo lado do servidor que foram solicitadas pelo [regulamento de conformidade de cookies da UE](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+e+tecnologias+semelhantes), que entrou em vigor em 30 de setembro de 2017.
+Esta seção explica as melhorias feitas ao encaminhamento pelo lado do servidor que foram solicitadas pelo [regulamento de conformidade de cookies da UE](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies), que entrou em vigor em 30 de setembro de 2017.
 
-O encaminhamento pelo lado do servidor é usado para compartilhar dados do Adobe Analytics com outras [!DNL Experience Cloud Solutions], como o Audience Manager, em tempo real. Quando habilitado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados a outras soluções da Experience Cloud e, consequentemente, que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
+O encaminhamento pelo lado do servidor é usado para compartilhar dados do Adobe Analytics com outras soluções CX Enterprise, como o Audience Manager, em tempo real. Quando ativado, o encaminhamento pelo lado do servidor também permite que o Analytics envie dados para outras soluções da CX Enterprise e que essas soluções enviem dados para o Analytics durante o processo de coleta de dados.
 
-Anteriormente, o encaminhamento pelo lado do servidor não tinha uma maneira de delinear entre eventos/ocorrências de consentimento e pré-consentimento. A partir de 1º de novembro de 2018, você, como controlador de dados (cliente do Adobe Analytics), terá a opção de restringir os dados pré-consentimento do Adobe Analytics e impedir que sejam encaminhados para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, impede que essas ocorrências sejam enviadas para a Adobe Audience Manager até que o consentimento seja recebido.
+Anteriormente, o encaminhamento pelo lado do servidor não tinha uma maneira de delinear entre eventos/ocorrências de consentimento e pré-consentimento. A partir de 1º de novembro de 2018, você, como controlador de dados (cliente do Adobe Analytics), terá a opção de restringir os dados pré-consentimento do Adobe Analytics e impedir que sejam encaminhados para o Adobe Audience Manager. Uma nova variável de contexto de implementação permite sinalizar ocorrências onde o consentimento não foi recebido. A variável, quando definida, evita que essas ocorrências sejam enviadas para o Adobe Audience Manager até que o consentimento seja recebido.
 
 Quando esta nova variável de contexto, `cm.ssf=1`, existir em uma ocorrência, ela é sinalizada e não é encaminhada pelo lado do servidor ao Adobe Audience Manager. Por outro lado, se essa sequência de caracteres não aparecer em uma ocorrência, a ocorrência será encaminhada para o Adobe Audience Manager.
 

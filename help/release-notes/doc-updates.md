@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '7327'
+source-wordcount: '7326'
 ht-degree: 95%
 
 ---
@@ -321,7 +321,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | 28 de abril de 2020 | Adição de documentação para a métrica [Content Velocity](/help/components/metrics/content-velocity.md). |
 | 16 de abril de 2020 | Documentação sobre como criar automaticamente [!UICONTROL Tabelas de forma livre] de um estado em branco. Anteriormente, não era possível soltar componentes diretamente em um projeto em branco ou em um painel em branco; primeiro você tinha que adicionar uma tabela de forma livre. Agora é possível soltar componentes diretamente em um projeto ou painel em branco, e uma Tabela de forma livre será criada automaticamente em um formato recomendado. Além disso, foram feitos aprimoramentos no modo como tipos de componentes mistos (por exemplo, dimensões e métricas) são tratados quando colocados em uma [!UICONTROL tabela de forma livre] em branco. |
 | **Março de 2020** |  |
-| 12 de março de 2020 | Adição de atualizações para [Publicar segmentos na Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
+| 12 de março de 2020 | Adicionadas atualizações de [Publicar segmentos no CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 de março de 2020 | Atualizações da latência de montagem da CDA. |
 | 12 de março de 2020 | Suporte para vários conjuntos de relatórios no Espaço de trabalho. Agora é possível trazer dados de vários conjuntos de relatórios para um único projeto para visualização lado a lado. [Saiba mais...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
 | 12 de março de 2020 | Modelo do tutorial de treinamento no Espaço de trabalho. Esse novo modelo padrão mostra as terminologias e etapas comuns para criar sua primeira análise no Espaço de trabalho. Está disponível como modelo padrão no modal Novo projeto e substitui o projeto de amostra atual para novos usuários que não têm outros projetos na lista. [Saiba mais...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |

@@ -4,10 +4,26 @@ description: O domínio usado para enviar dados para a Adobe por HTTPS.
 feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
-source-git-commit: 7918b18e73618368543a996ca121b64b7afb33ab
+TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 13%
+source-wordcount: 830
+ht-degree: 17%
 
 ---
 
@@ -76,8 +92,8 @@ O valor usado para `trackingServerSecure` (ou `edgeDomain`) depende de vários f
 
 **Se não estiver participando do programa de certificado**, defina o valor como um subdomínio de `data.adobedc.net`. A Adobe recomenda usar a ID da empresa de sua organização para fins de consistência. Por exemplo, `example.data.adobedc.net`. Use as seguintes etapas para determinar a ID da empresa:
 
-1. Faça logon em [experience.adobe.com](https://experience.adobe.com) usando suas credenciais da Adobe ID.
-1. Em qualquer lugar na interface do Experience Cloud, pressione `[Cmd]` + `[I]` (iOS) ou `[Ctrl]` + `[I]` (Windows).
+1. Faça logon no [Adobe CX Enterprise](https://experience.adobe.com) usando suas credenciais da Adobe ID.
+1. Em qualquer lugar na interface do CX Enterprise, pressione `[Cmd]` + `[I]` (iOS) ou `[Ctrl]` + `[I]` (Windows).
 1. Um **[!UICONTROL Depurador de dados do usuário]** é exibido. Selecione a guia **[!UICONTROL Organizações atribuídas]**.
 1. Expanda a organização IMS desejada.
 1. Localize o campo **[!UICONTROL Locatário]**. Este valor é o subdomínio recomendado de `data.adobedc.net` para ser usado.

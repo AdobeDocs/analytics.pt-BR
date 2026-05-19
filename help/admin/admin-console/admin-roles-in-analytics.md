@@ -4,10 +4,22 @@ description: Saiba como começar a usar o Adobe Analytics, os tipos de função 
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/zw5i-IcWrh9hlcYExqh8Wkukxa5dBlmF34oDbScnwBQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 96%
+source-wordcount: 1155
+ht-degree: 90%
 
 ---
 
@@ -17,10 +29,10 @@ O Adobe Analytics é compatível com vários tipos de administradores. Os admini
 
 >[!NOTE]
 >
->Antes que qualquer usuário possa receber funções no Adobe Analytics, ele deve ser atribuído como primeiro administrador na Experience Cloud. O primeiro administrador pode, então, provisionar usuários na organização com outras funções principais, conforme descrito neste artigo. Para obter mais informações sobre o primeiro administrador, consulte [Guia do primeiro administrador do Adobe Analytics](/help/admin/admin-console/first-admin-guide.md).
+>Para que qualquer usuário possa receber atribuições no Adobe Analytics, ele deve ser atribuído como primeiro administrador no CX Enterprise. O primeiro administrador pode, então, provisionar usuários na organização com outras funções principais, conforme descrito neste artigo. Para obter mais informações sobre o primeiro administrador, consulte [Guia do primeiro administrador do Adobe Analytics](/help/admin/admin-console/first-admin-guide.md).
 
 
-## Principais funções na Experience Cloud e no Adobe Analytics
+## Principais funções na CX Enterprise e na Adobe Analytics
 
 Considere as seguintes funções principais ao usar o Adobe Analytics:
 
@@ -76,9 +88,9 @@ Para obter informações sobre como atribuir usuários como administradores de p
 
 [Criar uma propriedade de tag do Analytics](/help/implement/launch/create-analytics-property.md): peça ao administrador da Coleção de dados que faça logon na ferramenta e crie uma propriedade para implementar no site
 
-Antes que qualquer usuário possa receber funções no Adobe Analytics, ele deve ser atribuído como primeiro administrador na Experience Cloud. O primeiro administrador pode, então, provisionar usuários na organização com outras funções principais, conforme descrito neste artigo.
+Para que qualquer usuário possa receber atribuições no Adobe Analytics, ele deve ser atribuído como primeiro administrador no CX Enterprise. O primeiro administrador pode, então, provisionar usuários na organização com outras funções principais, conforme descrito neste artigo.
 
-Um primeiro administrador é o ponto de partida para permitir que o restante da organização use cada solução da Experience Cloud.
+Um primeiro administrador é o ponto de partida para permitir que o restante da organização use cada solução CX Enterprise.
 
 Após a assinatura de um contrato
 

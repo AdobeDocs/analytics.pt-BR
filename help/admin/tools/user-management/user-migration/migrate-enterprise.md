@@ -4,10 +4,19 @@ title: Migrar contas de usuário do Analytics para Enterprise e Federated IDs
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 97%
+source-wordcount: 769
+ht-degree: 71%
 
 ---
 
@@ -15,34 +24,34 @@ ht-degree: 97%
 
 Como migrar contas de usuário do Analytics como Enterprise ou Federated IDs para o Adobe Admin Console.
 
-## Pré-requisitos  {#prereqs}
+## Pré-requisitos {#prereqs}
 
 Pré-requisitos para gerenciar usuários no Adobe Admin Console.
 
-Para novos domínios e diretórios, siga os passos para:
+Para novos domínios e diretórios, siga as etapas para:
 
 * Configurar um diretório
 * Configurar domínios
-* Vincular domínios em diretórios
+* Vincular domínios a diretórios
 
 Consulte [Configurar um sistema de identidade](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html) para obter ajuda.
 
-Se um diretório já foi criado em outra organização por outra unidade comercial ou equipe, siga os passos em [confiabilidade de diretório](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html#Directorytrusting) para estabelecer o diretório na organização que você está usando para o Analytics.
+Se um diretório já tiver sido criado em outra organização por outra unidade de negócios ou equipe, siga as etapas em [confiabilidade de diretório](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html#Directorytrusting) para estabelecer o diretório na organização que você está usando para o Analytics.
 
 ## Migrar contas do usuário para Enterprise e Federated IDs {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 Neste procedimento, você poderá:
 
-* Baixar uma lista de login do usuário de **[!UICONTROL Analytics]** > **[!UICONTROL Usuários e ativos do Analytics]**.
+* Baixe uma lista de logon de usuário em **[!UICONTROL Analytics]** > **[!UICONTROL Analytics Users &amp; Assets]**.
 
-* Baixar uma lista de usuários atuais em **[!UICONTROL Admin Console]** > **[!UICONTROL Usuários]**.
+* Baixe uma lista de usuários atuais do **[!UICONTROL Admin Console]** > **[!UICONTROL Usuários]**.
 
 * Compare as listas (procurando duplicatas para evitar sobrescrever os dados da conta no Adobe Admin Console).
 * Carregue um [!DNL .csv] concluído (em **[!UICONTROL Admin Console]** > **[!UICONTROL Usuários]**) com Enterprise ID ou Federated ID de usuários para o Adobe Admin Console.
 
-Se precisar migrar contas de usuário com Adobe ID para uma Enterprise ID ou Federated ID, contate o Atendimento ao cliente da Adobe e solicite uma [mudança de identidade de usuário em massa](https://helpx.adobe.com/br/enterprise/using/bulk-operations.html).
+Se precisar migrar as contas de usuário existentes do Adobe ID para uma Enterprise ID ou Federated ID, entre em contato com o Atendimento ao cliente da Adobe e solicite uma [troca de identidade de usuário em massa](https://helpx.adobe.com/br/enterprise/using/bulk-operations.html).
 
-**Para migrar contas do usuário**
+**Para migrar contas de usuário**
 
 1. Baixe o arquivo de logins do usuário do Analytics ([!DNL User Logins List.tab]) no Gerenciamento de usuários do Analytics usando um dos seguintes métodos (dependendo se você já migrou os usuários).
    1. *Antes de migrar,* vá até **[!UICONTROL Admin]** > **[!UICONTROL Gerenciamento de usuários (herdado)]** > **[!UICONTROL Editar usuários]** e clique em **[!UICONTROL Baixar relatório]**.
@@ -81,7 +90,7 @@ Se precisar migrar contas de usuário com Adobe ID para uma Enterprise ID ou Fed
 
       >[!IMPORTANT]
       >
-      >Caso encontre duplicatas, exclua todas no arquivo [!DNL User Logins List.csv] do Analytics. Essa etapa ajuda a impedir a sobreposição de permissões do usuário da Experience Cloud no Adobe Admin Console e fornece uma lista de contas para migração.
+      >Caso encontre duplicatas, exclua todas no arquivo [!DNL User Logins List.csv] do Analytics. Esta etapa ajuda a impedir a substituição de permissões de usuário do CX Enterprise existentes no Adobe Admin Console e fornece uma lista de contas para migração.
 
 1. Baixe o modelo CSV no Adobe Admin Console:
    1. Na guia Usuários, clique em **[!UICONTROL Adicionar usuários ao CSV]** e **[!UICONTROL Baixar modelo CSV]**.
@@ -149,8 +158,8 @@ Para obter mais informações sobre os campos no arquivo [!DNL .csv], consulte o
 
    ![Informações da etapa](/help/admin/tools/user-management/user-migration/assets/migrate-as-enterprise.png)
 
-   Ao clicar em **[!UICONTROL Migrar]**, o usuário é vinculado à conta da Enterprise ID/Federated ID no Adobe Admin Console. As permissões da conta de usuário herdada no Analytics correspondem às permissões concedidas ao login da Enterprise/Federated ID em **[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL Perfis de produto]**. A ID do usuário exibida no bucket de Migração concluída. Você pode desabilitar o acesso ao [!DNL my.omniture.com] herdado.
+   Ao clicar em **[!UICONTROL Migrar]**, o usuário é vinculado à conta da Enterprise ID/Federated ID no Adobe Admin Console. As permissões da conta de usuário herdada no Analytics corresponderão às permissões concedidas ao logon Enterprise/Federated ID em **[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL Perfis de Produto]**. A ID do usuário exibida no bucket de Migração concluída. Você pode desabilitar o acesso ao [!DNL my.omniture.com] herdado.
 
    Depois de migrar os usuários, o status na coluna Status da migração muda de **[!UICONTROL Não iniciado]** para **[!UICONTROL Migrado]**.
 
-   Os usuários da Adobe ID que aparecem na ferramenta de migração também podem ser migrados no processo. Eles ainda devem fazer logon com a Adobe ID até a identidade ser trocada. Contate o atendimento ao cliente da Adobe para obter ajuda com uma troca de identidade.
+   Os usuários do Adobe ID que aparecem na ferramenta de migração também podem ser migrados nesse processo. Eles ainda devem fazer logon com a Adobe ID até que uma troca de identidade seja executada. Entre em contato com o Atendimento ao cliente da Adobe para obter ajuda com uma troca de identidade.

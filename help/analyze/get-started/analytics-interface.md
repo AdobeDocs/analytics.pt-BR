@@ -3,10 +3,10 @@ description: Informações gerais sobre o Adobe Analytics, incluindo informaçõ
 title: Noções básicas da interface do Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 95%
+source-wordcount: '1993'
+ht-degree: 93%
 
 ---
 
@@ -45,8 +45,8 @@ A guia [!UICONTROL Componentes] inclui recursos que ajudam a ajustar e potencial
 
    | Recurso do produto | Função | Mais informações |
    |---------|----------|----------|
-   | Segmentos | O Adobe Analytics permite criar, gerenciar, compartilhar e aplicar segmentos de público-alvo avançados e focados em seus relatórios usando os recursos do Analytics, a Adobe Experience Cloud, o Adobe Target e outros produtos integrados da Adobe. | [Segmentação do Analytics](/help/components/segmentation/seg-home.md) |
-   | Métricas calculadas  | Métricas calculadas e métricas calculadas avançadas (ou derivadas) são métricas personalizadas que podem ser criadas a partir de métricas já existentes.  Elas permitem que os profissionais de marketing, gerentes de produto e analistas façam perguntas sobre os dados sem precisarem alterar a implementação do Analytics. | [Métricas calculadas e métricas calculadas avançadas](/help/components/calculated-metrics/cm-overview.md) |
+   | Segmentos | O Adobe Analytics permite criar, gerenciar, compartilhar e aplicar segmentos avançados de público-alvo em seus relatórios usando os recursos do Analytics, o Adobe CX Enterprise, o Adobe Target e outros produtos integrados da Adobe. | [Segmentação do Analytics](/help/components/segmentation/seg-home.md) |
+   | Métricas calculadas | Métricas calculadas e métricas calculadas avançadas (ou derivadas) são métricas personalizadas que podem ser criadas a partir de métricas já existentes.  Elas permitem que os profissionais de marketing, gerentes de produto e analistas façam perguntas sobre os dados sem precisarem alterar a implementação do Analytics. | [Métricas calculadas e métricas calculadas avançadas](/help/components/calculated-metrics/cm-overview.md) |
    | Intervalos de datas | O Analysis Workspace inclui uma lista de intervalos de datas padrão que podem ser usados ao criar análises. Além disso, é possível criar intervalos de datas personalizados e disponibilizá-los para usuários e usuárias no Analysis Workspace. | [Criar intervalos de datas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Conjuntos de relatórios virtuais | Os conjuntos de relatórios virtuais segmentam seus dados do Adobe Analytics para que você possa controlar o acesso a cada segmento. | [Visão geral dos conjuntos de relatórios virtuais](/help/components/vrs/vrs-about.md) |
    | Alertas | Os alertas permitem um controle mais granular sobre os alertas e integram a detecção de anomalias com o sistema de alertas. | [Visão geral de alertas](/help/components/alerts/alerts-overview.md) |
@@ -74,7 +74,7 @@ A guia [!UICONTROL Componentes] inclui recursos que ajudam a ajustar e potencial
    |---------|----------|----------|
    | Data Warehouse | O Data Warehouse refere-se à cópia dos dados do Analytics para fins de armazenamento e relatórios personalizados, que podem ser executados ao filtrar os dados. <p>O Gerenciador de solicitações permite visualizar, duplicar e priorizar novamente as solicitações.</p> | [Gerenciar solicitações do Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | O Activity Map é projetado para classificar a atividade do link com o uso de sobreposições visuais e fornecer a disponibilização de um painel de análise em tempo real para monitorar o engajamento do público-alvo em suas páginas da Web. Ele permite configurar diferentes exibições para identificar visualmente a aceleração da atividade de clientes, quantificar as iniciativas de marketing e agir conforme as necessidades e os comportamentos do público-alvo. | [Visão geral do Activity Map](/help/analyze/activity-map/overview.md) |
-   | Recommendations Classic | Recommendations é um recurso do Adobe Target que exibe automaticamente produtos, serviços ou conteúdo que podem ser do interesse de seus visitantes, com base em atividades anteriores, preferências ou outros critérios. | [Recommendations](https://experienceleague.adobe.com/pt-br/docs/target/using/recommendations/recommendations) |
+   | Recommendations Classic | Recomendações é um recurso do Adobe Target que exibe automaticamente produtos, serviços ou conteúdo que podem ser do interesse de seus visitantes, com base em atividades anteriores, preferências ou outros critérios. | [Recomendações](https://experienceleague.adobe.com/pt-br/docs/target/using/recommendations/recommendations) |
    | Search &amp; Promote | Não há mais suporte para este recurso. |  |
    | Mobile Services | Não há mais suporte para este recurso. |  |
    | Painéis do Analytics (aplicativo móvel) | O aplicativo de painéis do Adobe Analytics fornece insights a qualquer hora e em qualquer lugar. Por meio do aplicativo, os usuários e usuárias podem visualizar cartões de pontuação intuitivos criados com a interface de desktop do Adobe Analytics. | O aplicativo de painéis do Adobe Analytics na iOS App Store ou no Google Play Store |
@@ -103,7 +103,7 @@ A guia Administrador inclui recursos e opções de configuração para administr
    | Conjuntos de relatórios | Permite definir as regras que controlam como os dados são processados em um conjunto de relatórios. | [Gerenciador do conjunto de relatórios](/help/admin/tools/manage-rs/report-suites-admin.md) |
    | Usuários e ativos do Analytics | O gerenciamento de usuários e ativos foi movido para o Adobe Admin Console. Use o Adobe Admin Console para começar a gerenciar permissões para usuários e usuárias do Adobe Analytics. | [Analytics no Adobe Admin Console](/help/admin/admin-console/home.md) |
    | Importador de classificação | Use o importador para enviar suas classificações para o Adobe Analytics. Você também pode exportar os dados para atualização antes de uma importação. | [Visão geral do importador de classificações](/help/components/classifications/importer/c-working-with-saint.md) |
-   | Criador de regras de classificação | Em vez de manter e fazer upload das classificações cada vez em que seus códigos de rastreamento forem alterados, é possível criar classificações automáticas baseadas em regras e aplicá-las em vários conjuntos de relatórios.  | [Fluxo de trabalho do criador de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) |
+   | Criador de regras de classificação | Em vez de manter e fazer upload das classificações cada vez em que seus códigos de rastreamento forem alterados, é possível criar classificações automáticas baseadas em regras e aplicá-las em vários conjuntos de relatórios. | [Fluxo de trabalho do criador de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) |
    | Fontes de dados | Use o gerenciador de fonte de dados para criar, editar ou desativar fontes de dados. Também é possível usar essa interface para acompanhar o status dos arquivos enviados para os locais FTP de fontes de dados. | [Gerenciar fontes de dados](/help/import/data-sources/manage.md) |
    | Gerenciador de código | O Gerenciador de código permite baixar o código da coleção de dados para plataformas móveis e da Web | [Gerenciador de código](/help/admin/tools/code-manager-admin.md) |
    | Gerenciamento de tráfego | A página Gerenciamento de tráfego permite especificar as alterações esperadas no volume de tráfego. Essas configurações permitem que a Adobe aloque os recursos apropriados para garantir que seu tráfego possa ser rastreado e processado em tempo hábil. | [Visão geral do gerenciamento de tráfego](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
@@ -118,7 +118,7 @@ A guia Administrador inclui recursos e opções de configuração para administr
    | Gerenciador de segurança | O Gerenciador de segurança permite controlar o acesso aos dados de relatório. As opções incluem senhas fortes, expiração de senha, restrições de logon de IP e restrições de domínio de email. | [Gerenciador de segurança](/help/admin/tools/company/security-manager.md) |
    | Serviços web | As APIs de serviços da web fornecem acesso programático a relatórios de marketing e a outros serviços do conjunto que permitem duplicar e aumentar a funcionalidade disponível na interface do Analytics. | [Serviços web](/help/admin/tools/company/web-services-admin.md) |
    | Relatórios do Report Builder | Gerenciar a licença atribuída aos usuários do Report Builder. | [Relatórios do Report Builder](/help/admin/tools/company/report-builder-reports-admin.md) |
-   | Serviço de logon único | Na Adobe Experience Cloud, o logon único é implementado por meio do Admin Console. | [Analytics no Adobe Admin Console](/help/admin/admin-console/home.md) |
+   | Serviço de logon único | O logon único no Adobe CX Enterprise é implementado por meio da Admin Console. | [Analytics no Adobe Admin Console](/help/admin/admin-console/home.md) |
    | Ocultar conjuntos de relatórios | Permite ocultar um conjunto de relatórios na interface do Adobe Analytics se você não quiser mais que ele esteja disponível para você e seus usuários ou usuárias. | [Ocultar conjuntos de relatórios](/help/admin/tools/company/c-hide-report-suites.md) |
 
    {style="table-layout:auto"}

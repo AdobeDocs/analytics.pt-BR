@@ -4,10 +4,24 @@ title: Exibir/gerenciar a rotulagem de privacidade para a governança de dados
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: 815
+ht-degree: 90%
 
 ---
 
@@ -17,7 +31,7 @@ A caixa de diálogo **[!UICONTROL Rotulagem de privacidade para governança de d
 
 ## Exibir rótulos de privacidade {#view-privacy}
 
-1. Faça logon na Adobe Experience Cloud.
+1. Faça logon no Adobe CX Enterprise.
 2. Navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL Configuração e coleta de dados]** > **[!UICONTROL Governança de dados]**.
 
    >[!NOTE]
@@ -55,11 +69,11 @@ Se quiser aplicar as mesmas configurações de privacidade de dados a mais de um
 
    >[!IMPORTANT]
    >
-   >Lembre-se de que todos os conjuntos de relatórios selecionados precisam ser mapeados para a organização da Experience Cloud.
+   >Lembre-se de que todos os conjuntos de relatórios selecionados devem ser mapeados para a sua organização CX Enterprise.
 
    Ao copiar os rótulos de uma variável ou um conjunto de variáveis para um conjunto de relatórios diferente, a cópia é encaminhada para a variável na posição correspondente do conjunto de relatórios de destino. Para Componentes padrão, Variáveis de lista e Eventos bem-sucedidos, os rótulos serão copiados para a variável com o **mesmo nome** no conjunto de relatórios de destino.
 
-   No entanto, para variáveis de conversão (eVars) e dimensões de tráfego (props), a cópia vai para a variável com o **mesmo número** no conjunto de relatórios de destino. Por exemplo, eVar12 será copiada para eVar12 em todos os conjuntos de relatórios de destino. Os nomes dessas variáveis serão ignorados ao determinar o destino da cópia. Se a variável correspondente não estiver ativada no conjunto de relatórios de destino, ocorrerá um falha na cópia dessa variável.
+   No entanto, para variáveis de conversão (eVars) e dimensões de tráfego (props), a cópia vai para a variável com o **mesmo número** no conjunto de relatórios de destino. Por exemplo, eVar12 será copiada para eVar12 em todos os conjuntos de relatórios de destino. Os nomes dessas variáveis serão ignorados ao determinar o destino da cópia. Se a variável correspondente não estiver ativada no conjunto de relatórios de destino, a cópia falhará para essa variável.
 
    Ao copiar os rótulos de classificações definidos para uma variável, eles serão copiados para uma classificação na variável correspondente do conjunto de relatórios de destino (como eVar7 a eVar7) que tenha um nome idêntico à classificação copiada. Caso contrário, ocorrerá uma falha na cópia dos rótulos dessa classificação.
 
@@ -74,7 +88,7 @@ Se quiser aplicar as mesmas configurações de privacidade de dados a mais de um
 
 ## Exportar para um arquivo .csv {#export-csv}
 
-É possível baixar um arquivo CSV contendo todas as definições de rótulo atuais para todas as variáveis dos conjuntos de relatórios selecionados. Recomendamos que a equipe jurídica analise suas escolhas de rotulagem, e essa opção facilita esta revisão. Em vez de precisar executar a análise enquanto estiver conectado à interface do usuário na Governança de dados, você pode compartilhar o arquivo CSV com a equipe.
+É possível baixar um arquivo CSV que contém todas as definições de rótulo atuais de todas as variáveis para os conjuntos de relatórios selecionados. Recomendamos que sua equipe jurídica analise suas opções de rotulagem e essa opção facilita a análise. Em vez de precisar executar a análise enquanto estiver conectado à interface do usuário na Governança de dados, você pode compartilhar o arquivo CSV com a equipe.
 
 1. Clique em **[!UICONTROL Exportar CSV]** na parte superior direita e essa caixa de diálogo é exibida:
 

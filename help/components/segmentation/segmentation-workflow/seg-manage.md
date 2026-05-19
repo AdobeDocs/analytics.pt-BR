@@ -3,9 +3,17 @@ description: Entenda como usar o gerenciador de segmentos para gerenciar segment
 title: Gerenciar segmentos
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: 567
 ht-degree: 16%
 
 ---
@@ -41,7 +49,7 @@ A lista de segmentos ➊ exibe todos os segmentos que você possui, os segmentos
 | **[!UICONTROL Proprietário]** | O proprietário do segmento. Como usuário, você só pode ver os segmentos que possui ou as anotações compartilhadas com você. |
 | **[!UICONTROL Tags]** | As tags desse segmento. |
 | **[!UICONTROL Compartilhado com]** | Com quantos indivíduos ou grupos você compartilhou o segmento. Selecione para abrir a caixa de diálogo **[!UICONTROL Compartilhar componente]**. Consulte [Compartilhar segmentos](t-seg-share.md) para obter mais informações. |
-| **[!UICONTROL Publicado]** | Se o [segmento é publicado](seg-publish.md) no Experience Cloud. |
+| **[!UICONTROL Publicado]** | Se o [segmento é publicado](seg-publish.md) no CX Enterprise. |
 | **[!UICONTROL Data de modificação]** | A data e a hora em que o segmento foi modificado pela última vez. |
 
 Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar quais colunas deseja exibir.

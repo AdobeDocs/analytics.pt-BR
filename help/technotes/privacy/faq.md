@@ -4,10 +4,27 @@ title: Perguntas frequentes sobre governança de dados
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+TQID: https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 99%
+source-wordcount: 2101
+ht-degree: 85%
 
 ---
 
@@ -15,7 +32,7 @@ ht-degree: 99%
 
 +++ **Como o Adobe Analytics lida com solicitações de acesso e exclusão de usuários finais (titulares de dados) validadas pelos clientes (controladores de dados)?**
 
-Quando várias regras de privacidade de dados (RGPD, CCPA) entram em vigor, o Adobe Analytics permite o processamento de solicitações verificadas enviadas pelos controladores de dados à API da privacidade de dados da Experience Cloud, para permitir um processo mais automatizado. A API da privacidade de dados da Adobe foi desenvolvida para ajudar a processar as solicitações de direitos individuais (por exemplo, solicitações de acesso e exclusão) dos dados de clientes armazenados nas soluções da Adobe Experience Cloud. Ela é flexível e escalável de acordo com o número de solicitações de acesso e exclusão de dados que sua empresa recebe dos titulares de dados.
+Quando várias regras da Privacidade de dados (GDPR, CCPA) entrarem em vigor, o Adobe Analytics suportará o processamento de solicitações verificadas, enviadas pelos Controladores de dados para a API da Privacidade de dados corporativa do CX para permitir um processo mais automatizado. A API da Privacidade de dados da Adobe foi projetada para ajudar a processar as solicitações de direitos individuais (por exemplo, o acesso e a exclusão de solicitações) para os dados de clientes armazenados nas soluções da Adobe CX Enterprise. Ela é flexível e escalável de acordo com o número de solicitações de acesso e exclusão de dados que sua empresa recebe dos titulares de dados.
 
 Além disso, a API do Privacy Service permite que o cliente verifique o status de atendimento das solicitações de acesso e exclusão de dados. Para obter mais detalhes, consulte a documentação da [API do Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
@@ -31,7 +48,7 @@ Como processadora de dados, a Adobe deve fornecer uma assistência razoável ao 
 
 +++ **Como os clientes da Adobe (controladores de dados) saberão quais solicitações de privacidade de dados mapear para quais IDs do Adobe Analytics para o processamento da privacidade de dados?**
 
-Os controladores de dados determinam como resolver a identidade de solicitações dos titulares de dados. Considere a implantação da tag de recuperação de ID da privacidade de dados da Adobe. Suas equipes de desenvolvimento economizam tempo usando nossa tag de recuperação de ID da privacidade de dados para capturar IDs de usuário (IDs de cookies). Em seguida, elas podem usar nossa API de privacidade de dados para enviar essas IDs de usuários às soluções relevantes da Adobe Experience Cloud para o processamento de solicitações de privacidade de dados. A API da privacidade de dados pode oferecer suporte a uma grande variedade de IDs de clientes em várias soluções da Adobe.
+Os controladores de dados determinam como resolver a identidade de solicitações dos titulares de dados. Considere a implantação da tag de recuperação de ID da privacidade de dados da Adobe. Suas equipes de desenvolvimento economizam tempo usando nossa tag de recuperação de ID da privacidade de dados para capturar IDs de usuário (IDs de cookies). Eles podem usar nossa API da Privacidade de dados para enviar essas IDs de usuário para as soluções relevantes na Adobe CX Enterprise para o processamento de solicitações de Privacidade de dados. A API da privacidade de dados pode oferecer suporte a uma grande variedade de IDs de clientes em várias soluções da Adobe.
 
 Se um titular de dados enviar uma solicitação junto com um identificador (variável personalizada: prop ou eVar), o Adobe Analytics verificará todo o histórico retido dos dados coletados para o identificador especificado. Para obter mais detalhes sobre como configurar as IDs personalizadas armazenadas em props ou eVars do Analytics, consulte [a documentação do Analytics sobre namespaces](/help/admin/tools/privacy-labeling/namespaces.md).
 
@@ -57,11 +74,11 @@ Para obter mais informações sobre rótulos de governança de dados, consulte [
 
 Normalmente, os clientes do Analytics configuram alguns conjuntos de relatórios de teste para verificar a funcionalidade antes que ela seja disponibilizada para o público em geral. Sites ou aplicativos em pré-produção enviam dados a esses conjuntos de relatórios de teste/desenvolvimento/controle de qualidade para avaliar o funcionamento do código quando este for lançado, antes que o tráfego real seja enviado para os conjuntos de relatórios de produção.
 
-No entanto, com uma configuração normal, o processamento de solicitação do GDPR não pode ser testado primeiro nesses conjuntos de relatórios de teste, antes de aplicar solicitações a conjuntos de relatórios de produção. O motivo disso é que uma solicitação de privacidade de dados é aplicada automaticamente a todos os conjuntos de relatórios na organização da Experience Cloud, o que geralmente engloba todos os conjuntos de relatórios da sua empresa.
+No entanto, com uma configuração normal, o processamento de solicitação do GDPR não pode ser testado primeiro nesses conjuntos de relatórios de teste, antes de aplicar solicitações a conjuntos de relatórios de produção. Isso ocorre porque uma solicitação de Privacidade de dados é aplicada automaticamente a todos os conjuntos de relatórios na organização da CX Enterprise, que geralmente engloba todos os conjuntos de relatórios da sua empresa.
 
 Ainda assim, há algumas maneiras de testar o processamento da privacidade de dados antes de aplicá-la a todos os seus conjuntos de relatórios:
 
-* Uma opção é configurar uma Organização da Experience Cloud separada que contenha somente conjuntos de relatórios de teste. Use essa organização da Experience Cloud para realizar testes de Privacidade de dados e sua organização normal da Experience Cloud para processamentos de Privacidade de dados.
+* Uma opção é configurar uma organização CX Enterprise separada que contenha somente conjuntos de relatórios de teste. Use essa organização da CX Enterprise para realizar testes de Privacidade de dados e sua organização normal da CX Enterprise para o processamento da Privacidade de dados.
 
 * Outra opção é atribuir namespaces diferentes a IDs nos conjuntos de relatórios de teste, os quais devem se diferenciar daqueles em seus conjuntos de relatórios de produção. Por exemplo, você pode adicionar prefixos “qa-” a cada namespace nos conjuntos de relatórios de teste. Ao enviar solicitações de Privacidade de dados com apenas namespaces com o prefixo &quot;qa&quot;, essas solicitações só são executadas em relação aos conjuntos de relatórios de teste. Posteriormente, quando você enviava solicitações sem o prefixo &quot;qa&quot;, elas eram aplicadas aos conjuntos de relatórios de produção. **Esta é a abordagem recomendada, a menos que você use os namespaces `visitorId`, AAID, ECID ou `customVisitorId`. Esses namespaces são codificados e não é possível especificar nomes alternativos para eles em seus conjuntos de relatórios de teste.**
 
@@ -77,7 +94,7 @@ Para obter uma apresentação passo a passo de preparação das regras da privac
 
 O RGPD e a CCPA são boas oportunidades para reconsiderar suas estratégias e práticas de gerenciamento de consentimento. Isso inclui determinar quando o consentimento é necessário e pensar na proposta de valor para o usuário. Considere a proposta de valor para a privacidade do cliente, que pode ajudar a impulsionar a conversão e a fidelidade. O espaço de gerenciamento de consentimento (por exemplo, ferramentas, padrões, práticas recomendadas) está evoluindo rapidamente e é uma área a ser observada. Para minimizar o impacto no engajamento do usuário, os controladores devem trabalhar com os fornecedores neste espaço, bem como com seus consultores jurídicos, para garantir que estejam seguindo as leis e orientações emergentes sobre consentimento e cookies. Uma boa estratégia é considerar a “privacidade experiencial” usando uma experiência sobre a marca que seja contextualmente relevante e que defina a proposta de valor de suas atividades de coleta de dados.
 
-Como controlador de dados, você é responsável por obter o consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por implementar um [mecanismo de recusa](https://www.adobe.com/br/privacy/opt-out.html#customeruse) no seu site. Isso permite que seus titulares de dados possam recusar as coletas de dados futuras da Adobe Experience Cloud.
+Como controlador de dados, você é responsável por obter o consentimento explícito de seus titulares de dados antes de coletar dados sobre eles (possivelmente incluindo dados do Adobe Analytics) e por implementar um [mecanismo de recusa](https://www.adobe.com/br/privacy/opt-out.html#customeruse) no seu site. Isso permite que seus titulares de dados optem por não participar da coleta de dados futura da Adobe CX Enterprise.
 
 +++
 
@@ -107,7 +124,7 @@ Considere também casos em que os funcionários baixaram relatórios do Adobe An
 
 A [API de dados do Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) foi fornecida para ajudar a atender à solicitações de privacidade de dados, que são sensíveis ao tempo. A Adobe não oferece suporte à utilização dessa API para outros propósitos, visto que isso poderia afetar a pontualidade da Adobe no que diz respeito ao atendimento de solicitações de privacidade de dados de alta prioridade iniciadas por usuários, provenientes de outros clientes da Adobe.
 
-Pedimos que você não use a API da privacidade de dados para outros propósitos, como eliminar dados enviados por acidente para grandes grupos de visitantes. Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso.
+Pedimos que você não use a API da privacidade de dados para outros propósitos, como eliminar dados enviados por acidente para grandes grupos de visitantes. Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. Na próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições do eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso.
 
 Entre em contato com a equipe de contas da Adobe para coordenar com a nossa equipe de consultores de arquitetura e engenharia uma análise mais aprofundada e fornecer um nível de iniciativa para remover qualquer problemas de PII ou de dados.
 
@@ -117,7 +134,7 @@ Entre em contato com a equipe de contas da Adobe para coordenar com a nossa equi
 
 A [API de dados do Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) foi fornecida para ajudar a atender solicitações de privacidade de dados, que são sensíveis ao tempo. A Adobe não oferece suporte à utilização dessa API para outros propósitos, visto que isso poderia afetar a pontualidade da Adobe no que diz respeito ao atendimento de solicitações de privacidade de dados de alta prioridade iniciadas por usuários, provenientes de outros clientes da Adobe. Pedimos que você não use a API da privacidade de dados para outros propósitos, como eliminar dados enviados por acidente para grandes grupos de visitantes.
 
-Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. A próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições de eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso.
+Além disso, esteja ciente de que os usuários que têm uma ocorrência excluída (atualizada ou em anonimato) como o resultado de uma solicitação de exclusão da Privacidade de dados terão as informações de estado redefinidas. Na próxima vez que o visitante retornar ao site, ele será um novo visitante. Todas as atribuições do eVar serão iniciadas novamente, assim como informações como números de visita, referenciadores, primeira página visitada etc. Esse efeito colateral não é desejável para situações em que você deseja limpar campos de dados, e realça o motivo pelo qual a API da Privacidade de dados é imprópria para este uso.
 
 Entre em contato com a equipe de contas da Adobe para coordenar com a nossa equipe de consultores de arquitetura e engenharia uma análise mais aprofundada e fornecer um nível de iniciativa para remover qualquer problemas de PII ou de dados.
 
@@ -126,5 +143,5 @@ Entre em contato com a equipe de contas da Adobe para coordenar com a nossa equi
 Recursos adicionais da Privacidade de dados:
 
 * [Termos comuns do RGPD](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf)
-* [Pacote de atendimento](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf) da Privacidade de dados da Experience Cloud
+* [Pacote de atendimento](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf) da Privacidade de dados corporativos do CX
 * [Publicação do blog](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/) sobre privacidade experiencial

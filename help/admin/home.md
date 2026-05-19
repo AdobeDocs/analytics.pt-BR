@@ -4,10 +4,23 @@ description: Ajuda administrativa para administradores do Adobe Analytics, inclu
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 65e1bfb6793f2e5be3d025214f4797edd6e316a1
-workflow-type: ht
-source-wordcount: '315'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/cHTZXklRrRyFVRmUb2dDiZ4Pnt0-la3PrGaJFFEa2QM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+workflow-type: tm+mt
+source-wordcount: 353
+ht-degree: 92%
 
 ---
 
@@ -26,7 +39,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introduçã
 
 No momento, o Adobe Analytics tem duas áreas para administradores:
 
-* Adobe Admin Console: use essa área para provisionar ferramentas da Experience Cloud e gerenciar permissões de usuário. Está localizado em [adminconsole.adobe.com](https://adminconsole.adobe.com).
+* Adobe Admin Console: use essa área para provisionar ferramentas do CX Enterprise e gerenciar permissões de usuário. Está localizado em [adminconsole.adobe.com](https://adminconsole.adobe.com).
 * Ferramentas do administrador do Analytics: use essa área para gerenciar conjuntos de relatórios e variáveis. Ele pode ser acessado ao clicar em [!UICONTROL Admin] no cabeçalho superior do Adobe Analytics.
 
 Este guia abrange:
@@ -48,6 +61,6 @@ Este guia não aborda muitos dos recursos genéricos oferecidos pelo Adobe Admin
 ## Principais recursos do Analytics
 
 * [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/pt-br?support-solution=Analytics&lang=pt-BR#support)
-* [Comunidade do Adobe Analytics na Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
+* [Comunidade do Adobe Analytics no Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
 * [Experience League](https://experienceleague.adobe.com/pt-br)

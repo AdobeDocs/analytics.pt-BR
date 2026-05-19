@@ -4,10 +4,29 @@ description: Saiba mais sobre o Analysis Workspace, a principal ferramenta de an
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/etNwY5Q1n5Mv2olhGc1qyNAxAkv1o-mTh2O9JZe0QfM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 99%
+source-wordcount: 1422
+ht-degree: 96%
 
 ---
 
@@ -119,7 +138,7 @@ Consulte as tabelas abaixo para obter uma visão geral dos menus disponíveis.
 | Ajuda | Descrição |
 |---|---|
 | **[!UICONTROL Vídeos]** | Abre o canal do YouTube do Customer Journey Analytics em uma nova guia do navegador. |
-| **[!UICONTROL Documentação de ajuda]** | Abre a documentação (a que você está lendo agora) em uma nova guia do navegador. |
+| **[!UICONTROL Documentação de ajuda]** | Abra a documentação (na verdade, você está lendo agora mesmo...) em uma nova guia do navegador. |
 | **[!UICONTROL Fórum de ajuda]** | Abre o fórum das comunidades do Adobe Analytics na Experience League em uma nova guia do navegador. |
 | **[!UICONTROL Teclas de atalho]** | Mostra uma visão geral das teclas de atalho que você pode usar no espaço de trabalho. |
 | **[!UICONTROL Habilitar o depurador]** | Habilita o depurador. Seu projeto será recarregado. |
@@ -136,7 +155,7 @@ A sincronização de visualizações permite controlar qual tabela de dados ou f
 
 Para começar a usar o Analysis Workspace:
 
-1. Faça logon na [Adobe Experience Cloud](https://experience.adobe.com).
+1. Faça logon no [Adobe CX Enterprise](https://experience.adobe.com) usando suas credenciais da Adobe ID.
 1. Selecione **[!UICONTROL Customer Journey Analytics]** no alternador de aplicativos ![App](/help/assets/icons/Apps.svg) na parte superior direita da interface.
 1. A página **[!UICONTROL Projetos]** do Analysis Workspace é exibida por padrão. Se um projeto específico for selecionado para você ou se você estiver trabalhando nele recentemente, esse projeto será mostrado por padrão.
 
@@ -157,4 +176,4 @@ Quando você terminar de criar o projeto e a coleta de insights acionáveis come
 ## Recursos adicionais {#resources}
 
 - A Adobe oferece centenas de [tutoriais de treinamento em vídeo do Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/overview).
-- Consulte [Notas da versão do Adobe Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/release-notes/experience-cloud/current) para saber mais sobre novos recursos.
+- Consulte as [notas de versão do Adobe CX Enterprise](https://experienceleague.adobe.com/pt-br/docs/release-notes/experience-cloud/current) para obter atualizações sobre novos recursos.

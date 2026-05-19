@@ -30,10 +30,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 2843
-ht-degree: 71%
+source-wordcount: 2885
+ht-degree: 55%
 
 ---
 
@@ -192,12 +192,12 @@ Data de lançamento: **11 de fevereiro de 2019**
 
 Data de lançamento: **20 de setembro de 2018**
 
-Esta versão garante que a biblioteca [!DNL AppMeasurement] envie cookies corretamente para todos os tipos de conexão.
+Esta versão garante que a biblioteca do AppMeasurement envie cookies corretamente para todos os tipos de conexão.
 
-* [!DNL AppMeasurement] bloqueia transmissões de cookies durante a POST. (AN-165538)
+* O AppMeasurement bloqueia transmissões de cookies durante a POST. (AN-165538)
 * Descartar suporte para XDomainRequest. (AN-165733)
-* Reduza [!DNL AppMeasurement]o tempo de vida do cookie padrão do de cinco para dois anos. (AN-158572)
-* Remover o Módulo de mídia do Gerenciador de código ([!DNL AppMeasurement]) (AN-166590)
+* Reduza o tempo de vida do cookie padrão do AppMeasurement de cinco para dois anos. (AN-158572)
+* Remover o Módulo de mídia do Gerenciador de código ( AppMeasurement) (AN-166590)
 
 ## Versão 2.9.0
 
@@ -205,9 +205,9 @@ Data de lançamento: **24 de maio de 2018**
 
 >[!NOTE]
 >
->A API de visitante 3.0 ou superior é necessária para clientes que usam o serviço de ID [!DNL Experience Cloud]. A Adobe recomenda atualizar para a versão mais recente da API de visitante sempre que as bibliotecas de código associadas forem atualizadas ( [!DNL at.js], [!DNL AppMeasurement.js], e assim por diante).
+>A API de visitante 3.0 ou superior é necessária para clientes que usam o serviço da Experience Cloud ID. A Adobe recomenda atualizar para a versão mais recente da API de visitante sempre que as bibliotecas de código associadas forem atualizadas ( `at.js`, `AppMeasurement.js`, e assim por diante).
 
-* Atualização do [!DNL AppMeasurement] para usar a interface de Visitante atualizada para solicitar IDs. (AN-151483)
+* Atualização do AppMeasurement para usar a interface de Visitante atualizada para solicitar IDs. (AN-151483)
 * Correção de um problema que fazia com que o cookie de rastreamento de link continuasse sendo gravado mesmo depois da desativação do rastreamento de link. (AN-156332)
 * Correção de um problema onde `registerPreTrackCallback` e `registerPostTrackCallback` interrompem a assinatura da função de callback ao serem chamados várias vezes. (AN-158566)
 
@@ -215,9 +215,9 @@ Data de lançamento: **24 de maio de 2018**
 
 Data de lançamento: **12 de abril de 2018**
 
-* Atualização do [!DNL AppMeasurement] para usar a interface de visitante atualizada para solicitar IDs. (AN-151483)
+* Atualize o AppMeasurement para usar a interface de visitante atualizada para solicitar IDs. (AN-151483)
 * O cookie de rastreamento de link continua sendo gravado assim que o rastreamento de link é desativado. (AN-156332)
-* Reduza [!DNL AppMeasurement]o tempo de vida do cookie padrão do de cinco para dois anos. (AN-158572)
+* Reduza o tempo de vida do cookie padrão do AppMeasurement de cinco para dois anos. (AN-158572)
 
 ## Versão 2.8.1
 
@@ -231,9 +231,9 @@ Data de lançamento: **15 de março de 2018**
 
 Re-compilação da API de visitante 3.1.0 (AN-159524), que inclui as correções de erros: (CORE-11390, CORE-10634)
 
-* Compilar VAPI v3.1 com [!DNL AppMeasurement] v2.8. (AN-158353)
+* Compilar VAPI v3.1 com AppMeasurement v2.8. (AN-158353)
 * Refatore a criação do ponto de extremidade da coleção de dados para facilitar o compartilhamento. (AN-156647)
-* Adicionar solicitação de métricas de sincronização completa para o [!DNL AppMeasurement]. (AN-158343)
+* Adicionar solicitação de métricas de sincronização completa para o AppMeasurement. (AN-158343)
 
 ## Versão 2.7.0
 
@@ -247,13 +247,13 @@ Data de lançamento: **18 de janeiro de 2018**
 
 Data de lançamento: **9 de novembro de 2017**
 
-Correção de um problema no qual a biblioteca [!DNL AppMeasurement] nem sempre definia a combinação de contas correta quando s_gl é chamada. (AN-152153)
+Correção de um problema em que a biblioteca da AppMeasurement nem sempre definia a combinação de contas correta quando s_gl é chamada. (AN-152153)
 
 ## Versão 2.5.0
 
 Data de lançamento: **21 de setembro de 2017**
 
-* Inclusão de [!DNL dil.js 6.12] (módulo do [!DNL Audience Manager])
+* Inclusão de `dil.js` 6.12 (módulo Audience Manager)
 * Inclusão da API de Visitante 2.5.0.
 
 ## Versão 2.4.0
@@ -274,7 +274,7 @@ Data de lançamento: **20 de julho de 2017**
 
 Data de lançamento: **8 de junho de 2017**
 
-* Adição do suporte para várias ordens de instanciação do [!DNL AppMeasurement]. (AN-138237)
+* Adição do suporte para várias ordens de instanciação do AppMeasurement. (AN-138237)
 * Inclusão da versão 2.2.0 da API do visitante. (AN-144042)
 
 ## Versão 2.1.0
@@ -307,39 +307,39 @@ Data de lançamento: **19 de janeiro de 2017**
 Atualizado em: **11 novembro de 2016**
 
 * Inclui a API de Visitante 1.10.1.
-* Atualização do módulo [!DNL Audience Manager] com o Demdex Integration Library (DIL) 6.6. (AN-132065)
+* Atualize o módulo do Audience Manager com a Biblioteca de integração Demdex (DIL) 6.6. (AN-132065)
 * Inclusão da API de Visitante 1.9.0. (AN-132072)
-* Atualizar [!DNL AppMeasurement] [!DNL Audience Manager] Módulo com DIL 6.5 e configurações adicionais (AN-129411)
+* Atualizar o módulo Audience Manager do AppMeasurement com o DIL 6.5 e configurações adicionais (AN-129411)
 * Inclusão da API de Visitante 1.8.0 (AN-129887)
 
 ## Versão 1.6.4
 
 Atualizado em: **18 de agosto de 2016**
 
-* Atualização do [!DNL AppMeasurement] para ler e gravar cookies AMCV. (AN-127098)
+* Atualização do AppMeasurement para ler e gravar cookies AMCV. (AN-127098)
 * Inclusão da API de Visitante 1.7.0.
 
 >[!NOTE]
 >
->Consulte também as notas de versão a seguir para o [!DNL JavaScript] versão 1.6.3, que inclui requisitos atualizados para o serviço Experience Cloud ID.
+>Consulte também as notas de versão a seguir para o JavaScript versão 1.6.3, que inclui requisitos atualizados para o serviço Experience Cloud ID.
 
 ## Versão 1.6.3
 
 Atualizado em: **4 de agosto de 2016**
 
-* Correção de um problema em que [!DNL AppMeasurement] encerrava prematuramente as conexões de solicitação. (AN-126448)
+* Correção de um problema em que o AppMeasurement encerrava prematuramente as conexões de solicitação. (AN-126448)
 
 >[!IMPORTANT]
 >
->A versão 1.6.0 do serviço da [!DNL Experience Cloud] ID *requer* [!DNL AppMeasurement] o para [!DNL JavaScript] versão 1.6.3 ou superior. Se você deseja atualizar para a versão 1.6.0 do serviço da Experience Cloud ID, verifique se está usando o AppMeasurement 1.6.3 ou superior.
+>A versão 1.6.0 do serviço da Experience Cloud ID *requer* o AppMeasurement para JavaScript versão 1.6.3 ou superior. Se você deseja atualizar para a versão 1.6.0 do serviço da Experience Cloud ID, verifique se está usando o AppMeasurement 1.6.3 ou superior.
 
 ## Versão 1.6.2
 
 Data de lançamento: **21 de julho de 2016**
 
 * Inclusão da API de Visitante 1.6.0.
-* Correção de um problema que fazia com que [!DNL AppMeasurement] chamasse o método ofuscado errado na API do visitante. (AN-126006)
-* Correção de um problema que causava o erro [!DNL JavaScript]: &quot;Atributo válido apenas na v:image&quot;. (AN-124009)
+* Correção de um problema que fazia com que AppMeasurement chamasse o método ofuscado errado na API do visitante. (AN-126006)
+* Correção de um problema que causava o erro de JavaScript: &quot;Atributo válido apenas na v:image&quot;. (AN-124009)
 
 ## Versão 1.6.1
 
@@ -352,8 +352,8 @@ Data de lançamento: **16 de junho de 2016**
 
 Data de lançamento: **21 de abril de 2016**
 
-* O módulo de Activity Map [!DNL AppMeasurement] foi integrado ao módulo padrão [!DNL AppMeasurement], portanto, é necessário consultar apenas um arquivo [!DNL .js]. Além disso, o rastreamento do Activity Map é ativado por padrão. (AN-112689)
-* Correção de um problema de truncamento que ocorria com a ordem das variáveis da cadeia de caracteres de consulta em [!DNL AppMeasurement], para que *`pageURLRest`* fosse o último. (AN-114647)
+* O módulo AppMeasurement Activity Map foi integrado ao módulo padrão AppMeasurement, portanto, é necessário consultar apenas um arquivo `.js`. Além disso, o rastreamento do Activity Map é ativado por padrão. (AN-112689)
+* Correção de um problema de truncamento que ocorria com a ordem das variáveis da sequência de consulta no AppMeasurement, para que *`pageURLRest`* fosse o último. (AN-114647)
 
 ## Versão 1.5.4
 
@@ -366,7 +366,7 @@ Data de lançamento: **17 de março de 2016**
 
 Data de lançamento: **21 de janeiro de 2016**
 
-* Correção da manipulação do módulo [!DNL Audience Manager] quando os POSTs são usados para rastrear chamadas. (AN-115381)
+* Correção da manipulação do módulo Audience Manager quando os POSTs são usados para rastrear chamadas. (AN-115381)
 * O restante do URL (&quot;-g&quot;) da página foi movido para o final da solicitação de rastreamento da cadeia de caracteres de consulta. (AN-114647)
 
 ## Versão 1.5.2
@@ -381,7 +381,7 @@ Data de lançamento: **5 de novembro de 2015**
 Data de lançamento: **17 de setembro de 2015**
 
 * Inclusão da API de Visitante 1.5.2
-* Atualização do módulo [!DNL Audience Manager] para usar Adobe Audience Manager DIL 6.2 - getCustomer IDs do VisitorAPI.js e transmitir a chamada /event para a Adobe Audience Manager. (AN-104978)
+* Atualização do módulo do Audience Manager para usar Adobe Audience Manager DIL 6.2 - getCustomer IDs do VisitorAPI.js e transmitir a chamada /event para o Adobe Audience Manager. (AN-104978)
 
 ## Versão 1.5
 
@@ -402,7 +402,7 @@ Data de lançamento: **21 de maio de 2015**
 
 >[!NOTE]
 >
->**Problema conhecido**: nas integrações de módulo da API de visitante / [!DNL AppMeasurement] [!DNL Audience Manager] há duas solicitações de publicação do iFrame de destino feitas no IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. O comportamento correto, conforme observado em outros navegadores, é o de carregar apenas `//fast.<subdomain>.demdex.net/dest5.html`.
+>**Problema conhecido**: nas integrações da API de visitante / do Módulo Audience Manager do AppMeasurement, há duas solicitações de publicação do iFrame de destino feitas no IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` e `//fast.<subdomain>.demdex.net/dest4.html`. O comportamento correto, conforme observado em outros navegadores, é o de carregar apenas `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versão 1.4.4
 
@@ -450,7 +450,7 @@ Data de lançamento: **18 de setembro de 2014**
 
   >[!IMPORTANT]
   >
-  >Em uma chamada do [!DNL Analytics], para usar o método POST em vez do método GET no [!DNL AppMeasurement] (um método de correção de [URLs truncadas no IE](https://helpx.adobe.com/br/analytics/kb/shortening-image-request-urls.html)), é necessário usar a implantação do Serviço de ID de visitante mais recente da Experience Cloud.
+  >Em uma chamada do Analytics, para usar o método `POST` em vez do método `GET` no AppMeasurement (um método de correção de [URLs truncadas no IE](/help/implement/js/troubleshooting.md)), é necessário usar a implementação do Serviço de ID de Visitante mais recente da CX Enterprise.
 
 ## Versão 1.4
 
@@ -468,20 +468,20 @@ Data de lançamento: **21 de agosto de 2014**
 
 Data de lançamento: **19 de junho de 2014**
 
-* Corrigido o uso das bandeiras de conclusão e espera para os campos da API do visitante, como a [!DNL Analytics]ID do visitante do antiga, que gerava erros.
+* Corrigido o uso das bandeiras de conclusão e espera para os campos da API do visitante, como a ID do visitante do Analytics herdada, que gerava erros.
 * Suporte para novos recursos no serviço de ID do visitante 1.3.
 
 ## Versão 1.3.1
 
 Data de lançamento: **22 de maio de 2014**
 
-* [!DNL AppMeasurement]A função [!DNL JavaScript] `s_gi` do para não encontrava instâncias corretamente criadas com o código H `s_gi`. Observe que esse problema afetou apenas algumas implementações de marcação dupla, onde o [!DNL AppMeasurement] para [!DNL JavaScript] e o código H estavam na mesma página com instâncias separadas, e `s_gi` era usado para encontrar instâncias por conjunto de relatórios.
+* A função `s_gi` do AppMeasurement para JavaScript não localizou instâncias corretamente criadas com o código H `s_gi`. Observe que esse problema afetou apenas algumas implementações de marcação dupla, onde o AppMeasurement para JavaScript e o código H estavam na mesma página com instâncias separadas, e `s_gi` estava sendo usado para encontrar instâncias por conjunto de relatórios.
 
 ## Versão 1.3
 
 Data de lançamento: **17 de abril de 2014**
 
-* Suporte para [Serviço de ID de visitante da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
+* Suporte para o [Serviço de ID de visitante corporativo do CX](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
 
 ## Versão 1.2.4
 
@@ -499,7 +499,7 @@ Data de lançamento: **20 de fevereiro de 2014**
 
 Data de lançamento: **6 de fevereiro de 2014**
 
-* Correção de um problema de compatibilidade com o módulo DIL [!DNL Audience Manager]. [!DNL Audience Manager] Os clientes do também devem atualizar para a versão 4.8 do módulo DIL.
+* Correção de um problema de compatibilidade com o módulo Audience Manager DIL. Os clientes do Audience Manager também devem atualizar para a versão 4.8 do módulo DIL.
 
 ## Versão 1.2.1
 
@@ -531,7 +531,7 @@ Data de lançamento: **18 de setembro de 2013**
 Data de lançamento: **15 de agosto de 2013**
 
 * Acrescentamos suporte para implantação através do Tag Management da Adobe.
-* Correção de um problema que impedia que variáveis de hierarquia fossem definidas no objeto [!DNL AppMeasurement].
+* Correção de um problema que impedia que variáveis de hierarquia fossem definidas no objeto AppMeasurement.
 
 ## Versão 1.0.2
 
@@ -549,7 +549,7 @@ Data de lançamento: **18 de julho de 2013**
 
 Data de lançamento: **23 de maio de 2013**
 
-Uma nova biblioteca de [!DNL JavaScript] [!DNL AppMeasurement] está disponível no Gerenciador de código. Essa biblioteca oferece a mesma funcionalidade principal de [!DNL s_code.js], mas é mais leve e rápida de usar em sites móveis e para desktop.
+Uma nova biblioteca AppMeasurement do JavaScript agora está disponível no Gerenciador de código. Essa biblioteca oferece a mesma funcionalidade principal de `s_code.js`, mas é mais leve e rápida de usar em sites móveis e para desktop.
 
 * De 3 a 7 vezes mais rápido que o código H.25.
 * Apenas 21k descompactados e 8k gzipados (o código H.25 é 33k descompactados e 13k gzipados).

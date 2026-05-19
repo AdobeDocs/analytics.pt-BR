@@ -1,27 +1,39 @@
 ---
-description: A cada ID para a qual você deseja poder pesquisar, é atribuído um namespace, que é uma sequência de caracteres personalizada que identifica essa ID em qualquer variável em que for usada em todos os conjuntos de relatórios.
+description: A cada ID que você deseja pesquisar é atribuído um namespace, que é uma sequência personalizada que identifica essa ID em qualquer variável, onde ela é usada em todos os seus conjuntos de relatórios.
 title: Namespaces
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: 942
+ht-degree: 65%
 
 ---
 
 # Namespaces
 
-A cada ID para a qual você deseja poder pesquisar, é atribuído um namespace, que é uma sequência de caracteres personalizada que identifica essa ID em qualquer variável em que for usada em todos os conjuntos de relatórios.
+A cada ID que você deseja pesquisar é atribuído um namespace, que é uma sequência personalizada que identifica essa ID em qualquer variável, onde ela é usada em todos os seus conjuntos de relatórios.
 
 A sequência de caracteres do namespace é usada para identificar os campos que você deseja pesquisar ao fornecer uma ID como parte de uma solicitação de Privacidade de dados. Quando uma solicitação de Privacidade de dados for enviada, ela incluirá uma seção JSON especificando as IDs dos titulares de dados que devem ser usadas. Várias IDs podem ser incluídas como parte de uma única solicitação de um titular de dados. O JSON inclui:
 
-* Um campo de “namespace” contendo a sequência de caracteres do namespace.
-* Um campo de “type” que, para a maioria das solicitações do Adobe Analytics, contém o valor “analytics”.
-* Um campo de “value” contendo a ID que o Analytics deve pesquisar nas variáveis de namespace associadas a cada um dos conjuntos de relatórios.
+* Um campo &quot;namespace&quot; que contém a cadeia de caracteres do namespace.
+* Um campo &quot;tipo&quot; que, para a maioria das solicitações do Adobe Analytics, contém o valor &quot;analytics&quot;.
+* Um campo &quot;valor&quot; contendo a ID que o Analytics deve pesquisar nas variáveis de namespace associadas de cada um dos conjuntos de relatórios.
 
-Consulte a [documentação da API de privacidade de dados da Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview) para mais detalhes e uma [lista de namespaces de identidade padrão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulte [Criar uma tarefa de acesso/exclusão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/privacy-jobs#access-delete) para obter um exemplo de solicitação.
+Consulte a [Documentação da API da Privacidade de dados corporativos do CX](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview) para obter mais detalhes e uma [lista de namespaces de identidade padrão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulte [Criar um processo de acesso/exclusão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/privacy-jobs#access-delete) para obter um exemplo de solicitação.
 
 ## ID de cookies
 
@@ -35,7 +47,7 @@ Cookie herdado de rastreamento do Analytics, também conhecido como a Adobe Anal
 }
 ```
 
-O valor deve ser especificado como dois números hexadecimais separados por um traço. Todos os dígitos hexadecimais que são caracteres alfabéticos devem ser especificados usando letras maiúsculas. Os valores hexadecimais não devem ter zeros à esquerda (observe a diferença em relação ao mesmo valor especificado na forma obsoleta, onde zeros à esquerda eram obrigatórios).
+O valor deve ser especificado como dois números hexadecimais separados por um traço. Todos os dígitos hexadecimais que são caracteres alfabéticos devem ser especificados usando letras maiúsculas. Os valores hexadecimais não devem ter zeros à esquerda (observe a diferença do mesmo valor especificado no formulário obsoleto, em que os zeros à esquerda são obrigatórios).
 
 Também é aceitável usar `"namespaceId": 10` em vez de ou além de `"namespace": "AAID"`, e você pode ver outros produtos da Adobe usarem esse formulário.
 
@@ -49,7 +61,7 @@ Também é aceitável usar `"namespaceId": 10` em vez de ou além de `"namespace
 }
 ```
 
-O valor deve ser especificado como dois números hexadecimais de 16 dígitos ou dois números decimais de 19 dígitos. Os números devem ser separados por um traço (-), sublinhado (_) ou dois pontos (:). Zeros à esquerda devem ser adicionados se um dos dois números não tiver dígitos suficientes.
+O valor deve ser especificado como dois números hexadecimais de 16 dígitos ou como dois números decimais de 19 dígitos. Os números devem ser separados por traço, sublinhado ou dois-pontos. Zeros à esquerda devem ser adicionados se um dos dois números não tiver dígitos suficientes.
 
 ## Cookie do serviço de identidade
 
@@ -106,7 +118,7 @@ O namespace também é predefinido para a ID de visitante personalizada.
 
 Para IDs em variáveis de conversão ou de tráfego personalizadas (props ou eVars), identifique a variável com um rótulo ID-DEVICE ou ID-PERSON, depois atribua seu próprio nome de namespace a esse tipo de ID. Consulte [Fornecer um namespace ao rotular uma variável como ID-DEVICE ou ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)
 
-Também é possível ver os namespaces definidos anteriormente para outras variáveis ou conjuntos de relatórios e reutilizá-los, para que um mesmo namespace possa ser facilmente usado em todos os conjuntos de relatórios que armazenam esse tipo de ID. Também é possível atribuir o mesmo namespace a várias variáveis em um conjunto de relatórios. Por exemplo, alguns clientes armazenam uma ID do CRM em uma variável de tráfego e em uma variável de conversão (dependendo da página, às vezes, somente em uma delas ou em ambas) e podem atribuir o namespace “ID do CRM” às duas variáveis.
+Você também pode ver os namespaces definidos anteriormente para outras variáveis ou conjuntos de relatórios e reutilizar um deles, para que o mesmo namespace possa ser usado facilmente para todos os seus conjuntos de relatórios que armazenam esse tipo de ID. Também é possível atribuir o mesmo namespace a várias variáveis em um conjunto de relatórios. Por exemplo, alguns clientes armazenam uma ID do CRM em uma variável de tráfego e uma variável de conversão (dependendo da página, às vezes ela está em uma ou outra, ou ambas) e podem atribuir o namespace &quot;ID do CRM&quot; a ambas as variáveis.
 
 >[!TIP]
 >

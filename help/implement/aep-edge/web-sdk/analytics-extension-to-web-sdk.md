@@ -2,9 +2,19 @@
 title: Migração da extensão de tag do Adobe Analytics para a extensão de tag da Web SDK
 description: Atualize a implementação do Analytics nas tags de Coleção de dados da Adobe Experience Platform para usar a extensão Web SDK.
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
-source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
+TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: 1731
 ht-degree: 6%
 
 ---
@@ -38,7 +48,7 @@ As etapas a seguir contêm objetivos concretos a serem atingidos. Clique em cada
 
 Crie um fluxo de dados na Coleção de dados da Adobe Experience Platform. Ao enviar dados para esse fluxo de dados, ele encaminha dados para a Adobe Analytics. No futuro, esse mesmo fluxo de dados encaminha dados para o Customer Journey Analytics.
 
-1. Navegue até [experience.adobe.com](https://experience.adobe.com) e faça logon usando suas credenciais.
+1. Navegue até [Adobe CX Enterprise](https://experience.adobe.com) e faça logon usando suas credenciais.
 1. Use a página inicial ou o seletor de produto no canto superior direito para navegar até **[!UICONTROL Coleção de dados]**.
 1. Na navegação à esquerda, selecione **[!UICONTROL Datastreams]**.
 1. Selecione **[!UICONTROL Novo fluxo de dados]**.
@@ -128,7 +138,7 @@ As etapas acima se aplicam apenas às regras que definem valores. As etapas a se
    * [!UICONTROL Tipo]: Para `s.t()`, use **[!UICONTROL Exibições de Página de Detalhes da Página da Web]**. Para `s.tl()`, use **[!UICONTROL Cliques de Link de Interação na Web]**. Se você usar [`s.tl()`](../../vars/functions/tl-method.md), também deverá incluir os seguintes campos no objeto de dados. Estes campos estão listados em [!UICONTROL Propriedades adicionais] ao executar a configuração da ação [!UICONTROL Atualizar variável]:
       * [Nome do link](../../vars/functions/tl-method.md)
       * [Tipo de link](../../vars/functions/tl-method.md)
-      * [URL do link](../../vars/config-vars/linkurl.md)
+      * [URL de link](../../vars/config-vars/linkurl.md)
 1. Selecione **[!UICONTROL Manter alterações]**.
 1. Repita essas etapas para cada configuração de ação que usa o Adobe Analytics para enviar um beacon.
 

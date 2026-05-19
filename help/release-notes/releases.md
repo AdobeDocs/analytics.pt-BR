@@ -3,10 +3,18 @@ description: Explica a estratégia de lançamento contínuo de recursos para o A
 title: Versões de recursos do Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/gDUf5ZiM-DUiG52nlMIFMbXc4NPNTI7bLrugWGicjgI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+workflow-type: tm+mt
+source-wordcount: 395
+ht-degree: 90%
 
 ---
 
@@ -20,9 +28,9 @@ O [!UICONTROL Analysis Workspace] usa sinalizadores de recursos (também conheci
 
 * **Teste limitado**: uma versão em fases começa com testes feitos por usuários internos da Adobe. Ela é então disponibilizada para um pequeno grupo de contas de clientes para garantir que o recurso atenda às necessidades e expectativas do cliente.
 
-* **Início da implantação**: a implantação de uma versão em fases começa com a fase de teste limitado. A versão é redimensionada de 0% a 100% de disponibilidade aos clientes ao longo de alguns meses. A implementação em fases acontece no nível da Organização da Experience Cloud, de modo que todos os usuários autorizados em uma organização recebem a mesma experiência.
+* **Início da implantação**: a implantação de uma versão em fases começa com a fase de teste limitado. A versão é redimensionada de 0% a 100% de disponibilidade aos clientes ao longo de alguns meses. A implementação em fases acontece no nível da organização corporativa CX, de modo que todos os usuários autorizados em uma organização recebem a mesma experiência.
 
-* **Disponibilidade Geral (GA)**: o recurso está disponível para 100% das organizações da Experience Cloud autorizadas e a versão do recurso está concluída.
+* **Disponibilidade Geral (GA)**: o recurso está disponível para 100% das organizações CX Enterprise autorizadas e a versão do recurso está concluída.
 
 Com cada versão de recurso, a linha do tempo do início da implantação até a disponibilidade geral pode variar. O objetivo é manter os lançamentos breves, para que, dentro de 2 meses do início da implantação, um recurso já seja disponibilizado de maneira geral.
 

@@ -4,10 +4,19 @@ description: Saiba mais sobre o fluxo de trabalho para implementar o Código H n
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/tcREdTxSH3L5XcCcu3W1aEQySJSDyAzrlQgyrutcUds
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: 388
+ht-degree: 73%
 
 ---
 
@@ -33,11 +42,11 @@ ht-degree: 100%
    >
    >O código H exige que o script `s_code.js` seja chamado dentro da tag `<body>`. Isso é diferente de outros métodos de implementação, a maioria dos quais requer referências de script na tag `<head>`.
 1. **Definir variáveis específicas da página em cada página**: cada página deve ter variáveis individuais definidas, como nome de página ou eVars. As variáveis individuais geralmente são definidas com uma tag `<script>` em linha em cada página.
-1. **Usar o depurador para verificar a coleta de dados**: baixe e instale o [Experience Cloud Debugger](../../validate/debugger.md) para garantir que os dados sejam enviados para a Adobe e que as variáveis de página sejam definidas corretamente.
+1. **Use o depurador para verificar a coleta de dados**: baixe e instale o [CX Enterprise Debugger](../../validate/debugger.md) para garantir que os dados sejam enviados para a Adobe e que as variáveis de página sejam definidas corretamente.
 
 ## Armazenamento em cache
 
-O arquivo JavaScript é armazenado em cache no navegador do visitante depois que é carregado inicialmente, e também é feito o download não mais do que uma ver por sessão. O download não ocorre em todas as páginas, embora o arquivo seja usado por todas as páginas do site. Na maioria dos sites, os usuários têm em média mais do que algumas visualizações de página por sessão. Portanto, a transferência do JavaScript usado várias vezes neste arquivo pode resultar em menos download de dados em geral.
+O arquivo JavaScript é armazenado em cache no navegador do visitante após ser carregado inicialmente e geralmente é baixado não mais do que uma vez por sessão. O arquivo não é baixado em cada página, mesmo que seja usado por todas as páginas do site. Na maioria dos sites, os usuários têm em média mais do que algumas exibições de página por sessão. Portanto, transferir o JavaScript que é usado várias vezes neste arquivo pode resultar em menos download de dados em geral.
 
 ## Compactação do Código H
 

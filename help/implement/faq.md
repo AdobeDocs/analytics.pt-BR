@@ -23,10 +23,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 512
-ht-degree: 100%
+source-wordcount: 511
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Perguntas frequentes sobre a implantação e links para mais informações.
 
 ## Qual é a diferença entre a ID de visitante da Experience Cloud e a ID de visitante do Analytics?
 
-O Serviço de identidade atribui um identificador exclusivo e persistente que pode ser compartilhado entre outras soluções na Experience Cloud. A ID de visitante do Analytics é usada somente pelo Analytics. A Adobe recomenda usar o Serviço de ID de visitante da Experience Cloud na implementação.
+O Identity Service atribui um identificador exclusivo e persistente que pode ser compartilhado entre outras soluções na CX Enterprise. A ID de visitante do Analytics é usada somente pelo Analytics. A Adobe recomenda usar o Serviço de ID de visitante da Experience Cloud na implementação.
 
 ## Como implementar o rastreamento de vídeo Heartbeat?
 

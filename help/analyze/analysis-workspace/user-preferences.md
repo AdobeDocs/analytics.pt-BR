@@ -4,10 +4,31 @@ description: Saiba como definir preferências gerais e de projeto para usuários
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/ay8-2uOuI5cJpQc7Yn9aZAKZasw4WFo7qumDyyXhq8g
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '3534'
-ht-degree: 97%
+source-wordcount: 3534
+ht-degree: 92%
 
 ---
 
@@ -54,8 +75,8 @@ Você pode personalizar as preferências gerais de todos os novos projetos criad
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
->title="Exige autenticação da Experience Cloud"
->abstract="Quando habilitada, as pessoas que recebem acesso a um projeto pela opção **[!UICONTROL Compartilhar com qualquer pessoa]** no Analysis Workspace, devem se autenticar usando suas credenciais da Experience Cloud."
+>title="Exigir autenticação do CX Enterprise"
+>abstract="Quando habilitado, as pessoas que recebem acesso a um projeto da opção **[!UICONTROL Compartilhar com qualquer pessoa]** no Analysis Workspace devem se autenticar usando suas credenciais do CX Enterprise."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -71,7 +92,7 @@ Você pode atualizar as preferências da empresa que se aplicam a todos os usuá
 |  | Ocultar guia de modelos | Oculta a guia Modelos para todos os usuários da organização. |
 | **Compartilhamento de projeto** | | |
 | | Permitir compartilhamento apenas com usuários do espaço de trabalho | Quando esta opção está habilitada, os usuários da sua organização não podem ver a opção **[!UICONTROL Compartilhar com qualquer pessoa]** no menu **[!UICONTROL Compartilhar]**. Os usuários não podem compartilhar projetos com pessoas que não têm uma conta da Analysis Workspace em sua organização, conforme descrito em [Compartilhar um projeto com qualquer pessoa (sem logon necessário)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).<br/>Essa opção é desabilitada por padrão para todas as organizações, exceto para clientes que possuem o Healthcare Shield licenciado. <p>Considere o seguinte ao habilitar ou desabilitar essa opção:<ul><li>Ao habilitá-la, as pessoas que anteriormente receberam acesso a um projeto por meio da opção **[!UICONTROL Compartilhar com qualquer pessoa]** não poderão mais acessar o projeto.</li><li>Se esta opção for habilitada (para permitir o compartilhamento somente com usuários do espaço de trabalho) e depois desabilitada (para permitir o compartilhamento com qualquer pessoa), as pessoas que receberam acesso a um projeto anteriormente por meio da opção **[!UICONTROL Compartilhar com qualquer pessoa]** não recuperarão automaticamente o acesso ao projeto. Neste caso, o usuário que compartilhou o projeto deve habilitar a opção [!UICONTROL **O link está ativo**] disponível ao compartilhar um projeto com qualquer pessoa **([!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com qualquer pessoa]**), conforme descrito em [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>**Para clientes com uma licença do Healthcare Shield:** essa opção está habilitada por padrão e não pode ser desabilitada. Antes de desabilitar esta opção para que os usuários possam usar a opção **[!UICONTROL Compartilhar com qualquer pessoa]**, você primeiro precisa adicionar a permissão [!UICONTROL Compartilhar links de projeto com qualquer pessoa] (localizada em [!UICONTROL Ferramentas de relatórios]) no Adobe Admin Console. Após adicionar a permissão, você poderá desabilitar essa opção e, em seguida, aceitar o aviso legal resultante. Para obter informações sobre como adicionar uma permissão no Admin Console, consulte [Gerenciar permissões de produto no Admin Console](https://helpx.adobe.com/br/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
-| | Exige autenticação da Experience Cloud | Quando essa opção estiver habilitada, as pessoas que receberem acesso a um projeto pela opção **[!UICONTROL Compartilhar com qualquer pessoa]** no Analysis Workspace deverão se autenticar usando suas credenciais da Experience Cloud.<p>Após habilitar essa opção, sempre que um usuário compartilhar um projeto usando **[!UICONTROL Compartilhar com qualquer pessoa]**, a opção **[!UICONTROL Exigir autenticação da Experience Cloud]** será habilitada na caixa de diálogo de compartilhamento e não poderá ser desabilitada pelo usuário que está compartilhando o projeto. Para obter informações sobre como os usuários podem compartilhar projetos com qualquer pessoa, consulte [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link). <p> <p>Considere o seguinte ao habilitar essa opção: <ul><li>Ao habilitar esta opção, todos os projetos que foram compartilhados anteriormente com a opção **[!UICONTROL Compartilhar com qualquer pessoa]** sem habilitar [!UICONTROL Exigir autenticação da Experience Cloud] serão desativados.<p>Se esta opção for habilitada (para exigir autenticação da Experience Cloud) e depois desabilitada (para permitir que qualquer pessoa com o link acesse o projeto), as pessoas que receberam acesso a um projeto anteriormente por meio da opção **[!UICONTROL Compartilhar com qualquer pessoa]** não recuperarão automaticamente o acesso ao projeto. Neste caso, o usuário que compartilhou o projeto deve habilitar a opção [!UICONTROL O link está ativo] disponível ao compartilhar um projeto com qualquer pessoa **([!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com qualquer pessoa]** > **[!UICONTROL O link está ativo]**), conforme descrito em [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>Essa opção só estará disponível se o recurso de logon único (SSO) estiver implementado em sua organização. Para obter informações sobre como admins de sistema podem habilitar o SSO na sua organização, consulte [Configuração de identidade e logon único](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html).</p><p>Se o SSO estiver configurado na sua organização, verifique se há algum tipo de criação automática de contas implementado no console. Normalmente, isso é configurado por um(a) admin de sistema, conforme descrito em [Habilitar criação automática de conta](https://helpx.adobe.com/br/enterprise/using/automatic-account-creation.html).</li><li>Se sua organização tiver uma licença do Healthcare Shield, essa opção será habilitada por padrão e não poderá ser desabilitada.</li></ul> |
+| | Exigir autenticação do CX Enterprise | Quando esta opção está habilitada, as pessoas que recebem acesso a um projeto da opção **[!UICONTROL Compartilhar com qualquer pessoa]** no Analysis Workspace devem se autenticar usando suas credenciais do CX Enterprise.<p>Após habilitar esta opção, sempre que um usuário compartilhar um projeto usando a opção de compartilhamento **[!UICONTROL Compartilhar com qualquer um]**, a opção de compartilhamento **[!UICONTROL Exigir autenticação do CX Enterprise]** será habilitada na caixa de diálogo de compartilhamento e não poderá ser desabilitada pelo usuário que está compartilhando o projeto. Para obter informações sobre como os usuários podem compartilhar projetos com qualquer pessoa, consulte [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link). <p> <p>Considere o seguinte ao habilitar essa opção: <ul><li>Quando você habilita esta opção, todos os projetos que foram compartilhados anteriormente com a opção de compartilhamento **[!UICONTROL Compartilhar com qualquer um]** e que não têm a opção de compartilhamento [!UICONTROL Exigir autenticação do CX Enterprise] habilitada, são desativados.<p>Se essa opção estiver habilitada (para exigir a autenticação do CX Enterprise) e depois desabilitada (para permitir que qualquer pessoa com o link acesse o projeto), as pessoas que anteriormente receberam acesso a um projeto por meio da opção de compartilhamento **[!UICONTROL Compartilhar com qualquer pessoa]** não recuperarão automaticamente o acesso ao projeto. Neste caso, o usuário que compartilhou o projeto deve habilitar a opção [!UICONTROL O link está ativo] disponível ao compartilhar um projeto com qualquer pessoa **([!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com qualquer pessoa]** > **[!UICONTROL O link está ativo]**), conforme descrito em [Compartilhar um projeto com qualquer pessoa (sem necessidade de logon)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>Essa opção só estará disponível se o recurso de logon único (SSO) estiver implementado em sua organização. Para obter informações sobre como admins de sistema podem habilitar o SSO na sua organização, consulte [Configuração de identidade e logon único](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html).</p><p>Se o SSO estiver configurado na sua organização, verifique se há algum tipo de criação automática de contas implementado no console. Normalmente, isso é configurado por um(a) admin de sistema, conforme descrito em [Habilitar criação automática de conta](https://helpx.adobe.com/br/enterprise/using/automatic-account-creation.html).</li><li>Se sua organização tiver uma licença do Healthcare Shield, essa opção será habilitada por padrão e não poderá ser desabilitada.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -268,7 +289,7 @@ Você pode restaurar todas as preferências do usuário para os padrões do sist
 
 Se preferir ter um fundo escuro para a interface de usuário do Customer Journey Analytics, é possível alternar para [!UICONTROL Tema escuro].
 
-1. Clique no ícone de usuário da Experience Cloud na parte superior direita.
+1. Selecione o ícone do usuário do CX Enterprise na parte superior direita.
 
    ![tema escuro](assets/dark-theme.png)
 

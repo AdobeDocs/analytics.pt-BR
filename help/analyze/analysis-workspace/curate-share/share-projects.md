@@ -5,10 +5,28 @@ title: Compartilhar projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 94%
+source-wordcount: 2059
+ht-degree: 88%
 
 ---
 
@@ -60,9 +78,9 @@ Você pode compartilhar uma função específica com usuários ou grupos ou comp
 
 Ao compartilhar uma função de projeto específica com usuários e grupos em sua organização, considere o seguinte:
 
-* As funções do projeto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar cópia]** e **[!UICONTROL Somente leitura]**) estão vinculadas ao usuário e à ID específica do projeto. As funções do projeto são independentes das permissões de usuário gerenciadas no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR).
+* As funções do projeto (**[!UICONTROL Editar original]**, **[!UICONTROL Editar cópia]** e **[!UICONTROL Somente leitura]**) estão vinculadas ao usuário e à ID específica do projeto. As funções do projeto são independentes das permissões de usuário gerenciadas no [Admin Console do Adobe CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR).
 
-* No Adobe Analytics, os grupos são definidos por perfis de produtos no [Admin Console da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR). Os administradores podem compartilhar com qualquer grupo, incluindo “Todos”. Os não administradores podem compartilhar com grupos dos quais são membros, mas não com “Todos”.
+* No Adobe Analytics, os grupos são definidos por perfis de produtos no [Admin Console do Adobe CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=pt-BR). Os administradores podem compartilhar com qualquer grupo, incluindo “Todos”. Os não administradores podem compartilhar com grupos dos quais são membros, mas não com “Todos”.
 
 * Um usuário que é colocado em várias funções sempre obtém a melhor experiência. Isso pode ocorrer se um usuário for adicionado como pessoa e como parte de um grupo. Por exemplo, se uma pessoa receber a função **[!UICONTROL Editar original]** como indivíduo e a função de **[!UICONTROL Somente leitura]** como membro de um grupo, ele receberá uma experiência de projeto **[!UICONTROL Editar original]**.
 
@@ -131,8 +149,8 @@ Para compartilhar o link do projeto com os usuários em sua organização:
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="Exige autenticação da Experience Cloud"
->abstract="A sua organização exige que usuários façam logon na Experience Cloud para usar este link."
+>title="Exigir autenticação do CX Enterprise"
+>abstract="Sua organização exige que os usuários façam logon no CX Enterprise para usar esse link."
 
 É possível conceder [acesso de somente leitura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) a projetos do Analysis Workspace para pessoas que não têm acesso ao Adobe Analytics. Isso pode incluir:
 
@@ -180,15 +198,15 @@ Para compartilhar um projeto do Analysis Workspace com pessoas que não têm ace
 
 1. Escolha se deseja habilitar a seguinte opção de segurança (esta opção pode ser controlada pela administração do Analytics):
 
-   * **[!UICONTROL Exigir autenticação da Experience Cloud]:**
+   * **[!UICONTROL Exigir autenticação do CX Enterprise]:**
 
-     Quando essa opção está habilitada, os únicos usuários que podem acessar o projeto são aqueles que podem fazer logon na organização da Adobe Experience Cloud onde o projeto que você está compartilhando foi criado. No entanto, usuários com os quais você compartilha não precisam ter acesso ao Adobe Analytics.
+     Quando essa opção está habilitada, os únicos usuários que podem acessar o projeto são aqueles que podem fazer logon na organização corporativa do Adobe CX em que o projeto que você está compartilhando foi criado. No entanto, usuários com os quais você compartilha não precisam ter acesso ao Adobe Analytics.
 
      Os administradores do Analytics podem configurar essa preferência para a empresa, conforme descrito em [Preferências](/help/analyze/analysis-workspace/user-preferences.md). É possível encontrar os seguintes cenários, dependendo de como a administração configurou essa opção:
 
       * Se essa opção não estiver visível, a administração do Analytics não habilitou esse recurso.
 
-      * Se essa opção estiver habilitada e esmaecida, a administração do Analytics exigirá autenticação da Experience Cloud para qualquer pessoa que acessar os projetos do Analysis Workspace.
+      * Se essa opção estiver ativada e esmaecida, o administrador do Analytics exigirá a autenticação do CX Enterprise para qualquer pessoa que acessar os projetos da Analysis Workspace.
 
 1. Ao lado do campo **[!UICONTROL Compartilhar com qualquer pessoa (sem necessidade de fazer logon)]**, clique no ícone **Copiar link**![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) para copiar o link para a área de transferência do seu sistema.
 

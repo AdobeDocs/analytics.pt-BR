@@ -4,10 +4,26 @@ description: Use o Adobe Analytics para rastrear seus esforços de marketing.
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: 583
+ht-degree: 98%
 
 ---
 
@@ -46,14 +62,14 @@ Se a organização ainda não configurou o rastreamento de campanha, você pode 
 
 Se sua organização coleta strings de consulta `utm`, você pode optar por:
 
-* Enviar todas as strings de consulta `utm` por meio da dimensão Código de rastreamento como valores concatenados.  Em seguida, é possível usar [Regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) para criar dimensões adicionais com foco em cada parâmetro `utm`. Esse método tem uma curva de aprendizado mais complexa, mas não usa eVars extras.
+* Enviar todas as strings de consulta `utm` por meio da dimensão Código de rastreamento como valores concatenados. Em seguida, é possível usar [Regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) para criar dimensões adicionais com foco em cada parâmetro `utm`. Esse método tem uma curva de aprendizado mais complexa, mas não usa eVars extras.
 * Enviar cada string de consulta `utm` em uma [eVar](/help/components/dimensions/evar.md) separada. Esse método é mais simples de se implementar no geral, mas requer o uso de eVars extras.
 
 ## Exibir os relatórios no Analysis Workspace
 
 Depois de configurar corretamente a implementação para coletar dados do código de rastreamento, é possível visualizar os relatórios no Analysis Workspace.
 
-1. Faça logon na [Adobe Experience Cloud](https://experience.adobe.com) e selecione [!UICONTROL Adobe Analytics].
+1. Faça logon no [Adobe CX Enterprise](https://experience.adobe.com) e selecione [!UICONTROL Adobe Analytics].
 1. Crie um [projeto do espaço de trabalho](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 1. Na lista de componentes à esquerda, arraste a dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md) para a tela do espaço de trabalho.
 1. Arraste a métrica desejada, como [Visitas](/help/components/metrics/visits.md) ou [Pedidos](/help/components/metrics/orders.md) à direita da tela do espaço de trabalho.

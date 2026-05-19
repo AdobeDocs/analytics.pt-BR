@@ -4,10 +4,33 @@ description: Introdução ao uso da sobreposição e das dimensões do Activity 
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
-workflow-type: ht
-source-wordcount: '872'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/Wt30b3LTZWyzAQFOKqkqBdWH2Ifatq5FLp-Z0z7nktA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
+workflow-type: tm+mt
+source-wordcount: 933
+ht-degree: 97%
 
 ---
 
@@ -38,7 +61,7 @@ A coleta de dados do Activity Map exige a extensão v2.23 ou posterior do **[!UI
 
 A definição **[!UICONTROL Coleta de dados de cliques]** lida com a coleta de dados do Activity Map e é normalmente habilitada por padrão. É possível verificar e se certificar de que a opção está habilitada nas configurações da extensão:
 
-1. Faça logon em [experience.adobe.com](https://experience.adobe.com)
+1. Faça logon no [Adobe CX Enterprise](https://experience.adobe.com) usando suas credenciais da Adobe ID.
 1. Selecione **[!UICONTROL Coleta de dados]** no menu de acesso rápido ou no seletor de produtos no canto superior direito.
 1. Selecione **[!UICONTROL Tags]** menu de navegação à esquerda.
 1. Selecione a tag desejada para editar.
@@ -72,11 +95,11 @@ alloy("configure", {
 
 A configuração **[!UICONTROL Usar Activity Map]** lida com a coleta de dados do Activity Map e é normalmente habilitada por padrão. Está disponível para todas as extensões de tags v1.9.0 ou posterior. É possível verificar e se certificar de que a opção está habilitada nas configurações da extensão:
 
-1. Faça logon em [experience.adobe.com](https://experience.adobe.com)
+1. Faça logon no [Adobe CX Enterprise](https://experience.adobe.com) usando suas credenciais da Adobe ID.
 1. Selecione **[!UICONTROL Coleta de dados]** no menu de acesso rápido ou no seletor de produtos no canto superior direito.
 1. Selecione **[!UICONTROL Tags]** menu de navegação à esquerda.
 1. Selecione a tag desejada para editar.
-1. Selecione **[!UICONTROL Extensões]** no menu de navegação esquerdo.
+1. Selecione **[!UICONTROL Extensões]** no menu de navegação à esquerda.
 1. Selecione **[!UICONTROL Adobe Analytics]** na lista de extensões instaladas e escolha **[!UICONTROL Configurar]** à direita.
 1. Verifique se a caixa de seleção **[!UICONTROL Usar Activity Map]** está habilitada.
 1. Selecione **[!UICONTROL Salvar]**.

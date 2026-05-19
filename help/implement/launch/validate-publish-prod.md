@@ -4,10 +4,25 @@ description: Saiba como usar tags da Adobe Experience Platform para implantar o 
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+TQID: https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 72%
+source-wordcount: 635
+ht-degree: 65%
 
 ---
 
@@ -19,13 +34,13 @@ Assim que a biblioteca de tags for enviada para produção, a empresa poderá co
 
 [Implante a implementação do Analytics no ambiente de desenvolvimento](deploy-dev.md): uma implementação do Analytics deve ser publicada no ambiente de desenvolvimento para que esta página possa ser seguida.
 
-## Valide a implementação de desenvolvimento usando o Experience Cloud Debugger
+## Valide sua implementação de desenvolvimento usando o CX Enterprise Debugger
 
-O Experience Cloud Debugger é uma extensão que mostra todas as tags do Experience Cloud presentes em uma página.
+O CX Enterprise Debugger é uma extensão que mostra todas as tags do CX Enterprise presentes em uma página.
 
 1. Instale a extensão do [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou do Firefox.
 2. Navegue até o site de desenvolvimento em que você implementou as tags.
-3. Clique no ícone do Adobe Experience Cloud Debugger no navegador.
+3. Clique no ícone do Adobe CX Enterprise Debugger no navegador.
 4. Se estiver tudo implementado corretamente, você verá o conteúdo no Adobe Analytics, nas tags e no serviço de ID de visitante da Adobe Experience Cloud.
 
 ## Implante a implementação de desenvolvimento para preparo/produção
@@ -47,7 +62,7 @@ Depois de validar que os dados estão sendo exibidos, você pode enviar a implem
 
 Confirme se você está vendo os dados na versão ao vivo do site e comece a coleta de dados oficial do Adobe Analytics.
 
-1. Depois de confirmar com os proprietários do site que eles enviaram o código da tag para produção, navegue até a página inicial do site no Chrome e abra o [!UICONTROL Depurador da Adobe Experience Cloud].
+1. Depois de confirmar com os proprietários do site que eles enviaram o código da tag para produção, navegue até a página inicial do site no Chrome e abra o Adobe CX Enterprise Debugger.
 2. Se tudo estiver funcionando, você verá dados semelhantes aos seus testes no ambiente de desenvolvimento. Neste ponto, você está coletando dados no site e agora pode começar a usar o Adobe Analytics para relatórios.
 
 ## Solução de problemas
