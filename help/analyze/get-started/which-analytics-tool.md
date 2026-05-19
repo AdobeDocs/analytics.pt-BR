@@ -43,7 +43,7 @@ Para obter mais informações sobre comparações de produtos do Adobe Analytics
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação das ferramentas](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparação das ferramentas](https://video.tv.adobe.com/v/30585?captions=por_br&quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
