@@ -3,10 +3,16 @@ description: Entenda como gerenciar segmentos herdados.
 title: Perguntas frequentes sobre segmentos herdados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+TQID: https://experienceleague.adobe.com/P1EFVQMiTkCoZd-rak9jJgNz-AbgjnhMd6sWlIAKhsk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 57%
+source-wordcount: 1440
+ht-degree: 27%
 
 ---
 
@@ -20,7 +26,7 @@ Este artigo responde às perguntas frequentes sobre as práticas recomendadas pa
 
 Os segmentos existentes continuam a funcionar como antes. Os relatórios que têm esses segmentos aplicados continuam a funcionar corretamente.
 
-A maioria dos segmentos pré-definidos e de conjunto são migrados como modelos de segmento no Construtor de segmentos. Os modelos de segmento são usados para criar rapidamente segmentos personalizados com públicos-alvo comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser salvos facilmente em um segmento personalizado.
+A maioria dos segmentos pré-definidos e de conjunto são migrados como modelos de segmento no Construtor de segmentos. Os modelos de segmento são usados para criar rapidamente segmentos personalizados com públicos-alvo comuns. Os modelos de segmento não podem ser aplicados diretamente a um relatório, mas podem ser facilmente salvos em um segmento personalizado.
 
 Os modelos de segmento são marcados com um ícone especial ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) no Construtor de segmentos.
 
@@ -30,11 +36,11 @@ Os modelos de segmento são marcados com um ícone especial ![AdobeLogoSmall](/h
 
 +++ **O que aconteceu com os relatórios agendados com segmentos aplicados?**
 
-Os relatórios agendados continuar a funcionar apropriadamente com os segmentos definidos.
+Os relatórios agendados continuam a ser executados corretamente com os segmentos definidos.
 
-Ao excluir um segmento, os relatórios e painéis agendados com esse segmento aplicado continuam a funcionar normalmente, ou seja, o segmento ou painel continua a usar o segmento excluído.
+Quando você exclui um segmento, os relatórios agendados e os painéis de controle que têm esse segmento aplicado continuam a funcionar normalmente, ou seja, o segmento ou painel de controle continua a usar o segmento excluído.
 
-Os relatórios agendados não são atualizados quando você edita um segmento com o mesmo nome. Exemplo: imagine que você tem 2 segmentos com o mesmo nome em conjuntos de relatórios diferentes:
+Os relatórios agendados não são atualizados ao editar um segmento com o mesmo nome. Este é um exemplo: Suponhamos que você tenha dois segmentos com o mesmo nome em conjuntos de relatórios diferentes:
 
 ![](assets/duplicate_seg_names.png)
 
@@ -62,14 +68,14 @@ Esses segmentos são migrados como modelos de segmentos no Construtor de segment
 
 +++
 
-+++ **O que aconteceu com os segmentos da Experience Cloud (Suite):**
++++ **O que aconteceu com os segmentos do CX Enterprise (Suite):**
 
 * Não compradores
 * Compradores
 * Novas visitas
 * Visitas de redes sociais
 * Visitas de mais de 10 minutos*
-* Visitas com mais de cinco visitas anteriores*
+* Visitas com mais 5 visitas anteriores*
 * Visitas do Facebook*
 
 A maioria desses segmentos (exceto os marcados com um asterisco *) foram migrados como modelos de segmento para o construtor de segmentos. Além disso, vários novos modelos de segmento foram adicionados.
@@ -84,7 +90,7 @@ Segmentos **Admin** são migrados para a nova interface de segmento e exibidos c
 
 O proprietário desses segmentos está definido como o administrador com a conta mais antiga de usuários administradores. No entanto, todos os administradores podem excluir, editar e compartilhar esses segmentos.
 
-A interface de gerenciamento de segmento no Admin Console, onde os administradores criaram e gerenciaram esses segmentos globais, não está mais disponível. Os administradores agora devem usar o novo construtor de segmentos para criar segmentos e compartilhá-los com os grupos ou indivíduos apropriados, ou com todos.
+A interface de gerenciamento de segmentos na Admin Console em que os administradores criaram e gerenciaram esses segmentos globais não está mais disponível. Agora, os administradores devem usar o novo construtor de segmentos para criar segmentos e compartilhá-los com grupos ou indivíduos apropriados ou com todos.
 
 Os segmentos existentes que usam a lógica alterada conforme descrito neste documento continuam a funcionar corretamente, embora os segmentos devam ser atualizados para que possam ser salvos novamente. Por exemplo, se você tiver um segmento existente no qual **[!UICONTROL Estados dos EUA]** **[!UICONTROL contém]** `New York`, esse segmento continuará a funcionar corretamente. Na próxima vez que você editar o segmento, precisará atualizar o segmento para usar o tipo enumerado com uma condição **[!UICONTROL igual a]**.
 
@@ -93,17 +99,17 @@ Os segmentos existentes que usam a lógica alterada conforme descrito neste docu
 +++ **O que devo fazer com segmentos duplicados que possuem o mesmo nome, mas podem ter definições diferentes?** 
 Agora que os segmentos funcionam em vários conjuntos de relatórios, você pode acabar descobrindo que possui vários segmentos com o mesmo nome. Você deve:
 
-* Renomeie os segmentos com o mesmo nome, mas com diferentes definições, ou
-* Exclua os segmentos que não são mais necessários.
+* Renomeie segmentos que tenham o mesmo nome, mas definições diferentes, ou
+* Exclua segmentos que não são mais necessários.
 
 +++
 
 +++ **O que a Adobe recomenda em relação à limpeza de segmentos?**
 
-* Marque todos os segmentos com uma tag legada.
-* Analise todos os seus segmentos.
-* Quando apropriado, adicione-os à biblioteca de segmentos.
-* Aprovar segmentos canônicos.
+* Marcar todos os segmentos com tag herdada.
+* Revise os segmentos que você tem.
+* Adicione-os à biblioteca de segmentos onde aplicável.
+* Aprove segmentos que são canônicos.
 * Marque os segmentos de acordo com as [práticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
@@ -121,29 +127,29 @@ As seguintes dicas ajudam a migrar dimensões comuns:
 
 A tabela a seguir contém uma lista de dimensões que foram renomeadas no Construtor de segmentos.
 
-| Nome da nova dimensão | Nome anterior | Notas |
+| Novo nome do Dimension | Nome anterior | Notas |
 |--- |--- |--- |
-| Tipos de sistema operacional | Novo | Adicionado no segundo trimestre de 2015. |
-| Largura do navegador - Classificada | Largura da janela do navegador | Essa dimensão é compatível com todas as interfaces e é dividida em uma lista enumerada de intervalos em vez dos valores inteiros específicos. Se você precisar segmentar valores específicos, use a versão granular dessa dimensão em um segmento do Data Warehouse. |
-| Altura do navegador - Classificada | Altura da janela do navegador | Essa dimensão é compatível com todas as interfaces e é dividida em uma lista enumerada de intervalos em vez dos valores inteiros específicos. Se você precisar segmentar valores específicos, use a versão granular dessa dimensão em um segmento do Data Warehouse. |
-| Largura do navegador - Granular | Largura da janela do navegador | Essa dimensão foi renomeada e agora é compatível somente com o Data Warehouse. Ao definir segmentos compatíveis com todas as interfaces, use o tipo enumerado, Largura de navegador - Classificado. |
-| Altura do navegador - Granular | Altura da janela do navegador | Essa dimensão foi renomeada e agora é compatível somente com o Data Warehouse. Ao definir segmentos compatíveis com todas as interfaces, use o tipo enumerado, Altura do navegador - Classificado. |
+| Tipos de sistema operacional | Novo | Adicionado na primavera de 2015. |
+| Largura do navegador - Classificada | Largura da janela do navegador | Essa dimensão é compatível com todas as interfaces e é dividida em uma lista enumerada de intervalos, em vez de valores inteiros específicos. Se você precisar segmentar valores específicos, use a versão granular dessa dimensão em um segmento do Data Warehouse. |
+| Altura do navegador - Classificada | Altura da janela do navegador | Essa dimensão é compatível com todas as interfaces e é dividida em uma lista enumerada de intervalos, em vez de valores inteiros específicos. Se você precisar segmentar valores específicos, use a versão granular dessa dimensão em um segmento do Data Warehouse. |
+| Largura do navegador – Granular | Largura da janela do navegador | Essa dimensão foi renomeada e agora é compatível somente com o Data Warehouse. Ao definir segmentos compatíveis com todas as interfaces, use o tipo enumerado, Largura do navegador - Classificada. |
+| Altura do navegador – Granular | Altura da janela do navegador | Essa dimensão foi renomeada e agora é compatível somente com o Data Warehouse. Ao definir segmentos compatíveis com todas as interfaces, use o tipo enumerado, Altura do navegador - Classificada. |
 | Suporte a cookies | Cookies | - |
 | Intensidade de cor | Intensidade de cor do monitor | - |
-| - | &quot;Aplicativo - *&quot; | Os prefixos &quot;Aplicativo - &quot; foram removidos de vários tipos de dimensão. Como os dados de aplicativo móvel são normalmente capturados em um conjunto de relatórios que não contém dados da Web, esses prefixos não são necessários. |
-| Página de entrada original | Página de entrada original | - |
-| Java ativado | Java | - |
-| Extensão máx. do URL do navegador para dispositivo móvel | Extensão do URL do navegador remoto | - |
-| Decoração de correio para dispositivo móvel | Suporte a email de decoração remoto | - |
+| - | &quot;Aplicativo - *&quot; | os prefixos &quot;App -&quot; foram removidos de vários tipos de dimensão. Como os dados do aplicativo móvel geralmente são capturados em um conjunto de relatórios que não contém dados da Web, esses prefixos não foram necessários. |
+| Página de entrada original | Página de Entrada Original | - |
+| Java habilitado | Java | - |
+| Extensão máx. do URL do navegador para dispositivo móvel | Extensão do URL do Navegador Remoto | - |
+| Decoração de correio para dispositivo móvel | Suporte a E-mail de Decoração Remoto | - |
 | Dispositivo móvel | Nome do dispositivo móvel | - |
 | Extensão max do marcador de dispositivo móvel | Extensão Max do URL do Marcador Remoto | - |
 | Extensão máx. de email móvel | Extensão Max do URL do Email Remoto | - |
-| sistema operacional do dispositivo móvel (obsoleto) | Sistema operacional móvel | Use a dimensão do Sistema operacional e, em vez disso, aplique a visitas de segmentos de dispositivos móveis. |
+| sistema operacional do dispositivo móvel (obsoleto) | SO Móvel | Em vez disso, use a dimensão Sistema operacional e aplique uma visita de segmentos de dispositivos móveis. |
 | Push To Talk para dispositivo móvel | PTT Remoto | - |
-| Visualizações da Pesquisa de Opinião | Total de visualizações da pesquisa | - |
-| Respostas da Pesquisa de Opinião | Total de respostas da pesquisa | - |
+| Exibições da pesquisa | Total de visualizações da pesquisa | - |
+| Respostas da pesquisa | Total de Respostas da Pesquisa | - |
 | Profundidade da visita | Comprimento do caminho | - |
-| Código postal | CEP/Código postal | - |
+| Código postal | CEP | - |
 
 {style="table-layout:auto"}
 
@@ -151,13 +157,13 @@ A tabela a seguir contém uma lista de dimensões que foram renomeadas no Constr
 
 As dimensões baseadas em cadeia de caracteres com um conjunto de valores conhecido foram alteradas para os tipos enumerados. Ao criar um segmento usando essas dimensões, a lista é pré-preenchida com todos os valores conhecidos e o único operador com suporte é **[!UICONTROL igual a]**. Essa população de valores permite segmentar rapidamente os valores exatos que você estava procurando sem selecionar valores não intencionais ao usar uma correspondência menos restritiva.
 
-As seguintes dimensões foram alteradas para listas enumeradas:
+As seguintes dimensões foram alteradas para listas discriminadas:
 
 | Nome da dimensão | Nome da dimensão | Nome da dimensão |
 | --- | --- | --- |
-| fabricante do dispositivo móvel | comprimento de email remoto | intensidade de cor |
+| fabricante do dispositivo móvel | tamanho do email móvel | intensidade de cor |
 | tamanho da tela do dispositivo móvel | número do dispositivo móvel | resolução do monitor |
-| altura da tela do dispositivo móvel | Push To Talk para dispositivo móvel | plugin |
+| altura da tela do dispositivo móvel | Push To Talk para dispositivo móvel | plug-in |
 | Suporte a cookie em dispositivo móvel | Decoração de correio para dispositivo móvel | sistema operacional |
 | Suporte a imagem em dispositivo móvel | serviços de informação para dispositivos móveis | tipo de referenciador |
 | intensidade de cor de dispositivo móvel | tipo de dispositivo móvel | mecanismo de pesquisa |
@@ -165,10 +171,10 @@ As seguintes dimensões foram alteradas para listas enumeradas:
 | suporte a vídeo em dispositivo móvel | navegador | país geográfico |
 | drm móvel | tipo de conexão | região geográfica |
 | protocolos de rede para dispositivo móvel | operadora de celular | cidade geográfica |
-| sistema operacional móvel | cookie | dma geográfico |
+| so móvel | cookie | geo dma |
 | java VM para dispositivo móvel | fidelização do cliente | cookie persistente |
-| tamanho do marcador remoto | java ativado | pesquisa paga |
-| extensão do URL remoto | idioma |  |
+| tamanho do marcador de página móvel | java ativado | pesquisa paga |
+| comprimento do url móvel | idioma |  |
 
 ## Alterações nas dimensões com base em número inteiro com valores conhecidos {#integer-based-dims}
 

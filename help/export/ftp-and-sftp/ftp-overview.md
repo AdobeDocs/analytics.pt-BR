@@ -1,24 +1,27 @@
 ---
 description: Saiba como usar FTP e SFTP para transferir arquivos entre computadores e servidores.
 keywords: ftp;sftp
-title: Usar o FTP e SFTP com a Adobe Experience Cloud
+title: Usar FTP e SFTP com o Adobe CX Enterprise
 feature: FTP Export
 exl-id: 03111429-6a32-4d0a-bf3c-9ca658de1684
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+TQID: https://experienceleague.adobe.com/W39ve3nF5Hd69iTVvI0lbgt6JRQ67IpzEG018UYso2s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 87%
+source-wordcount: 124
+ht-degree: 24%
 
 ---
 
-# Usar o FTP e SFTP com a Adobe Experience Cloud
+# Usar FTP e SFTP com o Adobe CX Enterprise
 
 Saiba como usar FTP e SFTP para transferir arquivos entre computadores e servidores.
 
-Maneiras de usar o FTP com as soluções e produtos da Adobe:
+Maneiras de usar o FTP com soluções e produtos da Adobe:
 
-* Faça upload dos conjuntos de dados das classificações de grande porte para o Analytics.
-* Faça upload dos atributos do cliente para a Experience Cloud e use-os nas soluções.
-* Use o Analytics para criar e gerenciar as fontes de dados baseadas em FTP, que impulsionam a transferência de arquivos do FTP para importar dados off-line e de histórico na [!UICONTROL Experience Cloud].
+* Fazer upload de grandes conjuntos de dados de classificação para o Analytics.
+* Faça upload dos atributos do cliente para o CX Enterprise para uso nas soluções.
+* Use o Analytics para criar e gerenciar as fontes de dados baseadas em FTP, que impulsionam a transferência de arquivos do FTP para importar dados off-line e de histórico na empresa CX
 
-Esses artigos não necessariamente orientam você pelas etapas de uso do FTP com cada produto. Ele mostra as práticas recomendadas para o uso do FTP com a Adobe.
+Esses artigos não necessariamente orientam você pelas etapas de uso do FTP com cada produto. Em vez disso, ele recomenda as práticas recomendadas para usar o FTP com o Adobe.

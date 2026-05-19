@@ -2,10 +2,14 @@
 title: Migração do AppMeasurement para o Web SDK
 description: Atualize sua implementação do Adobe Analytics da biblioteca JavaScript do AppMeasurement para a biblioteca JavaScript do Web SDK.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: 05690cc8c1ea0364cbab86f35666df1cc1b13e69
+TQID: https://experienceleague.adobe.com/dJCkKVutHsNHw-jJNMh2LNZe90jIsZYkKu4Q02gNT1k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 7%
+source-wordcount: 1434
+ht-degree: 9%
 
 ---
 
@@ -38,7 +42,7 @@ As etapas a seguir contêm objetivos concretos a serem atingidos. Clique em cada
 
 Crie um fluxo de dados na Coleção de dados da Adobe Experience Platform. Ao enviar dados para esse fluxo de dados, ele encaminha dados para a Adobe Analytics. No futuro, esse mesmo fluxo de dados encaminha dados para o Customer Journey Analytics.
 
-1. Navegue até [experience.adobe.com](https://experience.adobe.com) e faça logon usando suas credenciais.
+1. Navegue até [Adobe CX Enterprise](https://experience.adobe.com) e faça logon usando suas credenciais.
 1. Use a página inicial ou o seletor de produto no canto superior direito para navegar até **[!UICONTROL Coleção de dados]**.
 1. Na navegação à esquerda, selecione **[!UICONTROL Datastreams]**.
 1. Selecione **[!UICONTROL Novo fluxo de dados]**.
@@ -61,9 +65,9 @@ Referencie a versão mais recente de `alloy.js` para que suas chamadas de métod
 
 +++**3. Configurar o Web SDK**
 
-Configure sua implementação para apontar para a sequência de dados criada na etapa anterior usando o comando [`configure`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/overview) do Web SDK. O comando `configure` deve ser definido em todas as páginas, para que você possa incluí-lo junto com o código de instalação da biblioteca.
+Configure sua implementação para apontar para a sequência de dados criada na etapa anterior usando o comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) do Web SDK. O comando `configure` deve ser definido em todas as páginas, para que você possa incluí-lo junto com o código de instalação da biblioteca.
 
-Use as propriedades [`datastreamId`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/datastreamid) e [`orgId`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/orgid) no comando `configure` do Web SDK:
+Use as propriedades [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) e [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) no comando `configure` do Web SDK:
 
 * Defina o `datastreamId` com a ID de sequência de dados recuperada da etapa anterior.
 * Defina o `orgId` para a organização IMS da sua organização.
@@ -75,7 +79,7 @@ alloy("configure", {
 });
 ```
 
-Opcionalmente, é possível definir outras propriedades no comando [`configure`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/overview), dependendo dos requisitos de implementação da organização.
+Opcionalmente, é possível definir outras propriedades no comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview), dependendo dos requisitos de implementação da organização.
 
 +++
 
@@ -116,7 +120,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. Atualizar chamadas de método para usar o Web SDK**
 
-Atualize todas as instâncias nas quais você chama [`s.t()`](../../vars/functions/t-method.md) e [`s.tl()`](../../vars/functions/tl-method.md), substituindo-as pelo comando [`sendEvent`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/sendevent/overview). Há três cenários a serem considerados:
+Atualize todas as instâncias nas quais você chama [`s.t()`](../../vars/functions/t-method.md) e [`s.tl()`](../../vars/functions/tl-method.md), substituindo-as pelo comando [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview). Há três cenários a serem considerados:
 
 * **Rastreamento de exibição de página**: substitua a chamada de rastreamento de exibição de página pelo comando `sendEvent` do Web SDK:
 
@@ -128,7 +132,7 @@ Atualize todas as instâncias nas quais você chama [`s.t()`](../../vars/functio
   alloy("sendEvent", dataObj);
   ```
 
-* **Rastreamento automático de links**: a propriedade de configuração [`clickCollectionEnabled`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada por padrão. Ela define automaticamente as variáveis de rastreamento de link corretas para enviar dados ao Adobe Analytics. Para desabilitar o rastreamento automático de links, defina esta propriedade como `false` no comando [`configure`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Rastreamento automático de links**: a propriedade de configuração [`clickCollectionEnabled`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada por padrão. Ela define automaticamente as variáveis de rastreamento de link corretas para enviar dados ao Adobe Analytics. Para desabilitar o rastreamento automático de links, defina esta propriedade como `false` no comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
 
 * **Rastreamento manual de links**: o Web SDK não tem comandos separados entre chamadas pageview e não pageview. Forneça essa distinção no objeto de carga.
 

@@ -4,10 +4,16 @@ description: Estabeleça lógica sobre como a implementação determina o conjun
 feature: Implementation Basics
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/qqkQoYsBWdTDOIkNfregm4k11CoDEl3dOJ3HNCMIo3s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 94%
+source-wordcount: 268
+ht-degree: 89%
 
 ---
 
@@ -59,4 +65,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * Se nenhuma regra for correspondente, o conjunto de relatórios padrão em `s_account` será usado.
 * Se a página for salva no disco rígido de uma pessoa ou traduzida por um mecanismo de tradução baseado na Web (como as páginas traduzidas do Google), a seleção de conta dinâmica provavelmente não funcionará.
 * As regras `dynamicAccountSelection` se aplicam à seção do URL especificada em `dynamicAccountMatch`.
-* Use o [!DNL Adobe Experience Cloud Debugger] para testar o conjunto de relatórios de destino.
+* Use o Adobe CX Enterprise Debugger para testar o conjunto de relatórios de destino.

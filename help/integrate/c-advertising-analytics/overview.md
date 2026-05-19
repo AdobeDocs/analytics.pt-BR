@@ -3,10 +3,16 @@ description: Descubra tudo o que você pode fazer com o Advertising Analytics, i
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/BY9Zpnhu8FzGDHePD-MuWtyMWOuJKRgC-wTr42-rlyU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 7%
+source-wordcount: 1132
+ht-degree: 8%
 
 ---
 
@@ -37,7 +43,7 @@ Essa integração destina-se aos seguintes públicos-alvo:
 
 O Analytics tem duas permissões que são concedidas automaticamente a administradores do Analytics. Administradores podem optar por conceder essas permissões a não administradores.
 
-| Permissão | Definição | Conceder permissões se você estiver conectado à Adobe Experience Cloud |
+| Permissão | Definição | Conceder permissão se você estiver conectado ao Adobe CX Enterprise |
 | --- | --- | --- |
 | Gerenciamento do Advertising Analytics | Permite que os usuários configurem/editem/visualizem contas de pesquisa de publicidade. | Faça logon em [adminconsole.adobe.com](https://adminconsole.adobe.com) > [!UICONTROL Produtos] > [!UICONTROL Adobe Analytics] > [!UICONTROL Perfil de Produto] > [!UICONTROL guia Permissões] > [!UICONTROL Ferramentas do Analytics] > [!UICONTROL Gerenciamento do Advertising Analytics] |
 | Configuração do Advertising Analytics | Permite que os usuários configurem conjuntos de relatórios a serem provisionados para o Advertising Analytics. | Faça logon em [adminconsole.adobe.com](https://adminconsole.adobe.com) > [!UICONTROL Produtos] > [!UICONTROL Adobe Analytics] > [!UICONTROL Perfil do Produto] > [!UICONTROL guia Permissões] > [!UICONTROL Ferramentas do Analytics] > [!UICONTROL Configuração do Advertising Analytics] |

@@ -3,10 +3,15 @@ title: Solução de problemas de sessões no Adobe Analytics
 description: Saiba mais sobre como resolver problemas ao desconectar-se do Adobe Analytics.
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+TQID: https://experienceleague.adobe.com/b8dTBhP3a6FZSmABKtQKTp9XkmYIjfS5--Vbzl6xRGE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 99%
+source-wordcount: 367
+ht-degree: 80%
 
 ---
 
@@ -20,7 +25,7 @@ Quase todos os problemas de sessões se originam da rede corporativa personaliza
 
 Muitas organizações implantam recursos de rede adicionais para melhorar a segurança, como servidores de proxy ou firewalls. Às vezes, essas personalizações podem interferir na capacidade de manter uma sessão ativa no Adobe Analytics.
 
-Para determinar se a rede corporativa à qual você está conectado está causando problemas quando você usa o Adobe Analytics, use suas credenciais de logon da Experience Cloud em um dispositivo fora da rede corporativa. Exemplos de dispositivos podem ser: conectar-se pela sua rede doméstica ou pelo plano de dados de um dispositivo móvel. Se você conseguir transitar de uma página para outra sem ter sido desconectado, a rede de sua organização provavelmente será o motivo de ser desconectado do Adobe Analytics.
+Para determinar se a rede corporativa à qual você está conectado está causando problemas com o uso do Adobe Analytics, use suas credenciais de logon do CX Enterprise em um dispositivo fora da rede corporativa. Exemplos de dispositivos podem ser: conectar-se pela sua rede doméstica ou pelo plano de dados de um dispositivo móvel. Se você conseguir transitar de uma página para outra sem ter sido desconectado, a rede de sua organização provavelmente será o motivo de ser desconectado do Adobe Analytics.
 
 ## Problemas de proxy {#proxy}
 

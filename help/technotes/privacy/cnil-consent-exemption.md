@@ -4,10 +4,15 @@ title: Quais são as diretrizes da CNIL para consentimento e cookies do usuário
 feature: Data Governance
 role: Admin
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/DNqDZWOm1buhq-vLG3io11v-s-7SAXfb6W3A9VAOtXw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 100%
+source-wordcount: 769
+ht-degree: 91%
 
 ---
 
@@ -19,7 +24,7 @@ As Diretrizes fornecem uma isenção limitada do requisito de consentimento (“
 
 * 25 meses de retenção máxima.  Você pode revisar suas configurações atuais de retenção de dados em [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Governança de dados].  [Retenção de dados](/help/technotes/data-retention.md)
 * Desative cookies de terceiros na ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=pt-BR#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=pt-BR#id-service-api) e [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=pt-BR#id-service-api)
-* Limite de cookies de 13 meses.  Você pode substituir a expiração do cookie do Analytics usando a variável `cookieLifetime`.  Os cookies da Experience Cloud, incluindo o Analytics e a ECID, estendem a data de expiração do cookie com cada visita.  Para definir uma expiração de cookie estática e não cumulativa, é possível: (1) gravar o código personalizado para definir uma data na qual excluir o cookie ou (2) usar sua CMP para controlar a data da redefinição do cookie.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) e [Cookies da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=pt-BR#ec-cookies)
+* Limite de cookies de 13 meses.  Você pode substituir a expiração do cookie do Analytics usando a variável `cookieLifetime`. Os cookies do CX Enterprise, incluindo o Analytics e a ECID, estendem a data de expiração do cookie com cada visita.  Para definir uma expiração de cookie estática e não cumulativa, você pode: (1) gravar o código personalizado para definir uma data na qual excluir o cookie ou (2) usar sua CMP para controlar a data da redefinição do cookie.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) e [CX Enterprise Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=pt-BR#ec-cookies)
 * Escopo limitado. O escopo do cookie deve ser limitado a um único site ou aplicativo. [Cookies do navegador](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * Anonimização. Torne anônimo o último octeto do endereço IP. [Configurações gerais da conta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * Oculte a ID de visitante dos relatórios.  Por padrão, as IDs de visitante não estão visíveis no Adobe Workspace e no Adobe Reports and Analytics.  As IDs de visitante estão disponíveis nos Feeds de dados e no Data Warehouse.  O acesso aos feeds de dados e ao data warehouse pode ser limitado pelas [Permissões de acesso no Admin Console](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/administration/admin-getting-started) e pela [Referência de coluna do feed de dados](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
@@ -35,7 +40,7 @@ As seguintes considerações adicionais são aplicáveis:
 * O Adobe Analytics opera centros de processamento de dados nos Estados Unidos, Reino Unido e Singapura para fornecer flexibilidade a todos os clientes para que possam coletar, processar e armazenar seus dados regionalmente. Ao realizar a configuração inicial do Adobe Analytics, os clientes selecionam o local do centro de processamento de dados desejado. Os dados dos clientes são armazenados na região selecionada para o produto principal do Analytics.
 * Considere coletar o status de aceitação em uma variável do Analytics para separar os dados de aceitação dos dados de rejeição para segmentação, conjuntos de relatórios virtuais ou rotear para pontos finais separados.
 * Nenhuma medição fora do site ou aplicativo sem consentimento prévio, por exemplo, nenhuma campanha fora do site, campanhas de email ou iFrames.
-* A coleta de informações pessoais em variáveis não é permitida sem consentimento. [Controlar atividades da Experience Cloud com base no consentimento do usuário](https://experienceleague.adobe.com/pt-br/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent#implementing-opt-in-on-the-page)
+* A coleta de informações pessoais em variáveis não é permitida sem consentimento. [Controlar atividades corporativas da CX com base no consentimento do usuário](https://experienceleague.adobe.com/pt-br/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent#implementing-opt-in-on-the-page)
 * Os dados só devem ser utilizados para produzir estatísticas anônimas, sem combinação com outros dados.
 * Os dados não são usados para ações de referência cruzada.
 * Os dados de geolocalização do GPS não são coletados.

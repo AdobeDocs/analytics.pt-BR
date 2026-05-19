@@ -4,10 +4,16 @@ description: Use os itens de permissão das Ferramentas do Analytics para conced
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
 role: Admin
-source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
+TQID: https://experienceleague.adobe.com/ksQBbvkW4IlqqenSnciCc3rxrKlUzN4rokYJ1fLm7SY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f2ebe32aed6555a81f9d51e10a297679df5b8d4c
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 62%
+source-wordcount: 552
+ht-degree: 58%
 
 ---
 
@@ -48,7 +54,7 @@ Os itens de permissão das Ferramentas do Analytics concedem acesso aos recursos
 | [!UICONTROL Acesso aos Reports &amp; Analytics] | Não usado. |
 | [!UICONTROL Segurança] | Concede acesso a Administrador > Configurações da empresa > Gerenciador de segurança. |
 | [!UICONTROL Criação de segmentos] | Concede a capacidade de criar e compartilhar segmentos em todos os recursos do Analytics. |
-| [!UICONTROL Publicação de segmento] | Concede a capacidade de tornar um segmento um público-alvo da Experience Cloud ao criar ou editar um segmento. |
+| [!UICONTROL Publicação de segmento] | Concede a capacidade de tornar um segmento um público-alvo do CX Enterprise ao criar ou editar um segmento. |
 | [!UICONTROL Uso de chamadas do servidor] | Concede acesso a Administrador > Uso de chamada de servidor. |
 | [!UICONTROL Compartilhar Links de Projeto com Qualquer Pessoa] | Concede a capacidade de conceder acesso somente leitura a projetos do Analysis Workspace a pessoas que não têm acesso ao Adobe Analytics. |
 | [!UICONTROL Suporte] | Concede acesso a Administrador > Configurações da empresa > Informações de suporte. |

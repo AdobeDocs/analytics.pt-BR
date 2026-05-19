@@ -4,10 +4,16 @@ description: Lista todos os parâmetros da cadeia de caracteres de consulta usad
 feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+workflow-type: tm+mt
+source-wordcount: 725
+ht-degree: 92%
 
 ---
 
@@ -17,8 +23,8 @@ A tabela a seguir lista todos os parâmetros da cadeia de caracteres de consulta
 
 | Parâmetro | Variável de implementação do Analytics | Descrição |
 | --- | --- | --- |
-| `aamlh` | Nenhum | Dica de localização do Audience Manager. Usada na integração do perfil compartilhado da Experience Cloud. |
-| `aamb` | Nenhum | Blob do Audience Manager. Usado na integração do perfil compartilhado da Experience Cloud. |
+| `aamlh` | Nenhum | Dica de localização do Audience Manager. Usado na integração do Perfil compartilhado corporativo CX. |
+| `aamb` | Nenhum | Blob do Audience Manager. Usado na integração do Perfil compartilhado corporativo CX. |
 | `aid` | Nenhum | ID de visitante do Analytics. |
 | `AQB` | Nenhum | Indica o início a cadeia de caracteres de uma solicitação de imagem. |
 | `AQE` | Nenhum | Indica o fim de uma solicitação de imagem e significa que a solicitação não foi truncada. |
@@ -49,7 +55,7 @@ A tabela a seguir lista todos os parâmetros da cadeia de caracteres de consulta
 | `k` | Nenhum | Usada na dimensão [Suporte a cookies](/help/components/dimensions/cookie-support.md). |
 | `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | Variáveis da Lista. |
 | `lrt` | Nenhum | O &quot;tempo da última solicitação&quot;, que é o tempo de ida e volta para a última solicitação, em milissegundos. Ele é enviado somente quando mais de uma solicitação está saindo de uma página ou quando a página é um aplicativo de página única (SPA). |
-| `mid` | Nenhum | ID de visitante da Experience Cloud. |
+| `mid` | Nenhum | ID de visitante corporativo CX. |
 | `ndh` | Nenhum | Sinalizador que indica se a solicitação de imagem se originou no AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Ajuda a determinar onde os cookies são definidos. |
 | `oid` | [`s_objectID`](../vars/page-vars/s-objectid.md) | Identificador de objeto da última página. Usado no Activity Map. |
@@ -73,7 +79,7 @@ A tabela a seguir lista todos os parâmetros da cadeia de caracteres de consulta
 | `server` | [`server`](../vars/page-vars/server.md) | Dimensão do [Servidor](/help/components/dimensions/server.md). |
 | `sv` | [`server`](../vars/page-vars/server.md) | Encurtar para a cadeia de caracteres de consulta `server`. |
 | `state` | [`state`](../vars/page-vars/state.md) | Dimensão de estado. |
-| `t` | Nenhum | Data/hora da ocorrência gerada. Usa o formato `dd/mm/yyyy hh:mm:ss w o`.<br>- `dd/mm/yyyy hh:mm:ss` é data/hora no JavaScript. O mês `0` é janeiro, enquanto o mês `11` é dezembro.<br>- `w` é o dia da semana. `0` é domingo, enquanto `6` é sábado.<br>- `o` é o desvio GMT negativo em minutos. Por exemplo, `420` é GMT-7. |
+| `t` | Nenhum | Data/hora da ocorrência gerada. Usa o formato `dd/mm/yyyy hh:mm:ss w o`.<br>- `dd/mm/yyyy hh:mm:ss` é data/hora no JavaScript. O mês `0` é janeiro, enquanto o mês `11` é dezembro.<br>- `w` é o dia da semana. `0` é domingo, enquanto `6` é sábado.<br>- `o` é o deslocamento GMT negativo em minutos. Por exemplo, `420` é GMT-7. |
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | O carimbo de data e hora personalizado definido com a ocorrência. Normalmente é usado para rastreamento offline. |
 | `v` | Nenhum | Usada na dimensão [Habilitada para Java](/help/components/dimensions/java-enabled.md). |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). |

@@ -4,10 +4,16 @@ title: Configurar usuários executivos com o aplicativo
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+TQID: https://experienceleague.adobe.com/mejoGlgRAOHkpBAXtlVef4LcheWPXtg9TT7hHYIPtHU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: 755
+ht-degree: 96%
 
 ---
 
@@ -17,7 +23,7 @@ Em alguns casos, os usuários executivos podem precisar de assistência adiciona
 
 ## Garantir que os usuários do aplicativo tenham acesso ao Adobe Analytics
 
-1. Configure novos usuários no [Admin Console da Experience Cloud](/help/admin/admin-console/permissions/product-profile.md).
+1. Configure novos usuários no [CX Enterprise Admin Console](/help/admin/admin-console/permissions/product-profile.md).
 
 1. Para compartilhar cartões de pontuação, você deve conceder permissões aos usuários do aplicativo para acessar componentes do cartão de pontuação, como o Analysis Workspace, os conjuntos de relatórios nos quais os cartões de pontuação são baseados, bem como segmentos, métricas e dimensões.
 
@@ -54,7 +60,7 @@ Após o download e a instalação, os usuários executivos podem fazer logon no 
 
    A tela **[!UICONTROL Escolher uma empresa]** é exibida. Essa tela lista as empresas de logon às quais o usuário executivo pertence.
 
-1. Faça com que eles toquem no nome da empresa de logon ou na Experience Cloud Org que se aplica ao cartão de pontuação que você compartilhou.
+1. Faça com que eles toquem no nome da empresa de logon ou na CX Enterprise Org que se aplica ao cartão de pontuação que você compartilhou.
 
    A lista do cartão de pontuação mostra todos os cartões de pontuação que foram compartilhados com o executivo na empresa de logon.
 

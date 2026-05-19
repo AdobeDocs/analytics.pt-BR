@@ -4,10 +4,15 @@ title: Página de destino do Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 6b291ec1f9477bf814a26da35138449bfcb013a0
+TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 87%
+source-wordcount: 1511
+ht-degree: 85%
 
 ---
 
@@ -25,7 +30,7 @@ A landing page do Adobe Analytics inclui as seguintes subguias:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de destino do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de destino do Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +40,7 @@ A seção **[!UICONTROL Projetos]** no painel esquerdo serve como página inicia
 
 Para acessar projetos no Adobe Analytics:
 
-1. Clique na guia [!UICONTROL **Espaço de trabalho**].
+1. Selecione a guia [!UICONTROL **Workspace**].
 
 1. Selecione [!UICONTROL **Projetos**] no painel esquerdo.
 
@@ -85,7 +90,7 @@ As colunas disponíveis são:
 | [!UICONTROL Projeto do Espaço de trabalho] | Cria um [Projeto do Espaço de trabalho](/help/analyze/analysis-workspace/home.md) em branco para que você desenvolva e crie. |
 | [!UICONTROL Cartão de pontuação para dispositivos móveis] | Cria um [cartão de pontuação para dispositivos móveis](/help/analyze/mobile-app/curator.md) para que você desenvolva e crie. |
 | [!UICONTROL Abrir tutorial de treinamento] | Abre o tutorial de treinamento do Espaço de trabalho que o orienta pelo processo de criação de um novo projeto inicial em um tutorial passo a passo. |
-| [!UICONTROL Abrir notas de versão] | Abre a seção Adobe Analytics das notas de versão mais recentes do Adobe Experience Cloud. |
+| [!UICONTROL Abrir notas de versão] | Abre a seção Adobe Analytics das notas de versão mais recentes do Adobe CX Enterprise. |
 | Ícone Filtrar | Filtra por tags, conjuntos de relatórios, proprietários, tipos e outros filtros (Meus, Compartilhados comigo, Favoritos e Aprovados) |
 | Barra de pesquisa | Pesquisa todas as colunas na tabela. |
 | Caixa de seleção | Seleciona um ou mais projetos para exibir as ações de gerenciamento de projetos que você pode executar: **Excluir**, **Compartilhar**, **Renomear**, **Copiar**, **Remover**, **Mover para cima**, **Mover para baixo**, **Tag**, **Aprovar**, **Exportar CSV** e **Mover para**. Talvez você não tenha permissões para executar todas as ações listadas. |
@@ -101,7 +106,7 @@ As colunas disponíveis são:
 
 Para acessar modelos no Adobe Analytics:
 
-1. Clique na guia [!UICONTROL **Espaço de trabalho**].
+1. Selecione a guia [!UICONTROL **Workspace**].
 
 1. Na seção [!UICONTROL **Modelos**] no painel esquerdo, você pode selecionar modelos do Adobe ou modelos da empresa.
 

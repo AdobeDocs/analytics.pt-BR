@@ -3,10 +3,15 @@ title: Ordem de processamento dos dados no Adobe Analytics
 description: Saiba a ordem dos componentes e serviços que processam dados no Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: 6c947812d4fd8bc2ee951a5933c6e3b6d8ca1a6b
+TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 35%
+source-wordcount: 1106
+ht-degree: 37%
 
 ---
 
@@ -25,7 +30,7 @@ Antes de os dados serem enviados para a Adobe, eles normalmente são compilados 
 * **Marcas na Coleção de Dados da Adobe Experience Platform**: um arquivo JavaScript referenciado em cada página, contendo regras criadas na interface da Coleção de Dados. A extensão do Adobe Analytics oferece uma maneira mais fácil de implementar o AppMeasurement. A extensão Web SDK oferece uma maneira mais fácil de implementar o SDK da Web.
 * **API**: o AppMeasurement e o Edge Network oferecem métodos programáticos para enviar dados para o Adobe. A AppMeasurement oferece a [API de Inserção de Dados](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) e a [API de Inserção de Dados em Massa](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/); a Edge Network oferece a [API de coleção de dados](https://developer.adobe.com/data-collection-apis/docs/).
 
-Se você enviar dados para a Edge Network, poderá configurá-los para encaminhá-los para a Adobe Analytics (bem como para muitas outras soluções da Adobe Experience Cloud). Independentemente do método de implementação, os dados de hit coletados chegam aos servidores de processamento da Adobe Analytics em um formato que pode ser analisado.
+Se você enviar dados para a Edge Network, poderá configurá-los para encaminhá-los para a Adobe Analytics (bem como para muitas outras soluções Adobe CX Enterprise). Independentemente do método de implementação, os dados de hit coletados chegam aos servidores de processamento da Adobe Analytics em um formato que pode ser analisado.
 
 ## Pré-processamento na coleção do Adobe Analytics
 

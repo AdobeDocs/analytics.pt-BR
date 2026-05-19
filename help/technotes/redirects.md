@@ -1,27 +1,32 @@
 ---
-description: Os redirecionamentos apontam o navegador para um novo local sem interação com usuário. Eles são executados tanto no navegador Web (redirecionamento do lado do cliente) como no servidor Web (redirecionamento do lado do servidor).
+description: Os redirecionamentos apontam o navegador para um novo local sem interação com usuário. Eles são executados no navegador da Web (redirecionamento do lado do cliente) ou no servidor da Web (redirecionamento do lado do servidor).
 keywords: Implementação do Analytics
 title: Redirecionamentos e aliases
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 99%
+source-wordcount: 1139
+ht-degree: 87%
 
 ---
 
 # Redirecionamentos e aliases
 
-Os redirecionamentos apontam o navegador para um novo local sem interação com usuário. Eles são executados tanto no navegador Web (redirecionamento do lado do cliente) como no servidor Web (redirecionamento do lado do servidor).
+Os redirecionamentos apontam o navegador para um novo local sem interação com usuário. Eles são executados no navegador da Web (redirecionamento do lado do cliente) ou no servidor da Web (redirecionamento do lado do servidor).
 
 ## Redirecionamentos e aliases {#aliases}
 
-Os redirecionamentos apontam o navegador para um novo local sem interação com usuário. Eles são executados tanto no navegador Web (redirecionamento do lado do cliente) como no servidor Web (redirecionamento do lado do servidor).
+Os redirecionamentos apontam o navegador para um novo local sem interação com usuário. Eles são executados no navegador da Web (redirecionamento do lado do cliente) ou no servidor da Web (redirecionamento do lado do servidor).
 
-Como os redirecionamentos não necessitam de qualquer interação com o usuário, eles geralmente são executados sem que o usuário jamais perceba. A única coisa que indica que um redirecionamento ocorreu é a barra de endereços do navegador. A barra de endereços exibe uma URL diferente do link que o navegador solicitou inicialmente.
+Como os redirecionamentos não necessitam de qualquer interação com o usuário, eles geralmente são executados sem que o usuário jamais perceba. A única coisa que indica que um redirecionamento ocorreu é a barra de endereços do navegador. A barra de endereços exibe um URL diferente do link solicitado inicialmente pelo navegador.
 
-Embora existam apenas dois tipos de redirecionamentos, eles podem ser implementados de várias maneiras. Por exemplo, redirecionamentos do lado do cliente podem ocorrer por que a página da Web para a qual um usuário apontou seu navegador contém script ou código HTML especial que redireciona o navegador para outra URL. Redirecionamentos do lado do servidor podem ocorrer porque a página contém script do lado do servidor ou porque o servidor Web foi configurado para apontar o usuário para outra URL.
+Embora existam apenas dois tipos de redirecionamentos, eles podem ser implementados de várias maneiras. Por exemplo, redirecionamentos do lado do cliente podem ocorrer por que a página da Web para a qual um usuário apontou seu navegador contém script ou código HTML especial que redireciona o navegador para outra URL. Redirecionamentos do lado do servidor podem ocorrer porque a página contém script do lado do servidor ou porque o servidor Web foi configurado para apontar o usuário para outro URL.
 
 ## Analytics e redirecionamentos {#aa-redirects}
 
@@ -52,7 +57,7 @@ Completando as etapas a seguir, as informações que o referenciador original pa
 
 ## Configurar código JavaScript de substituição do referenciador {#override}
 
-O trecho de código abaixo mostra duas variáveis do JavaScript, `s.referrer` e `s.pageURL`. Este código é colocado na página inicial final do redirecionamento.
+O trecho de código abaixo mostra duas variáveis do JavaScript, `s.referrer` e `s.pageURL`. Este código é colocado na página de destino final do redirecionamento.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -90,7 +95,7 @@ if(tempVar)
 
 ## Modificar o mecanismo de redirecionamento {#modify}
 
-Como o navegador tira a URL de referência, você deve configurar o mecanismo que manipula o redirecionamento (por exemplo, o servidor Web, o código do lado do servidor, o código do lado do cliente) para repassar as informações originais do referenciador. Caso você também queira gravar a URL do link alias, ela também deve ser repassada para a página inicial final. Use a variável *`s_pageURL`* para substituir a URL atual.
+Como o navegador tira a URL de referência, você deve configurar o mecanismo que manipula o redirecionamento (por exemplo, o servidor Web, o código do lado do servidor, o código do lado do cliente) para repassar as informações originais do referenciador. Caso você também queira gravar a URL do link alias, ela também deve ser repassada para a página de destino final. Use a variável *`s_pageURL`* para substituir a URL atual.
 
 Como há muitas maneiras de implementar um redirecionamento, você precisará verificar com seu grupo de operações Web ou parceiro de publicidade on-line para identificar os mecanismos específicos que executam redirecionamentos em seu site.
 
@@ -98,7 +103,7 @@ Como há muitas maneiras de implementar um redirecionamento, você precisará ve
 
 Normalmente, o [!DNL Analytics] obtém o URL de referência pela propriedade [!UICONTROL document.referrer] do navegador, e o URL atual da propriedade [!UICONTROL document.location]. Ao transmitir os valores para as variáveis *`referrer`* e *`pageURL`*, é possível substituir o processamento padrão. Passando um valor para a variável do referenciador, você diz ao [!DNL Analytics] para ignorar as informações do referenciador na propriedade [!UICONTROL document.referrer] e usar um valor alternativo que você definir.
 
-Portanto, a versão final da página inicial precisaria conter o seguinte código para corrigir os problemas apresentados na situação de &quot;passagens aéreas com desconto&quot;.
+Portanto, a versão final da página de destino precisaria conter o seguinte código para corrigir os problemas apresentados na situação de &quot;passagens aéreas com desconto&quot;.
 
 ```js
 <script language="JavaScript" src="AppMeasurement.js"></script> 
@@ -117,19 +122,19 @@ s.pageURL="https://www.flytohawaii.example"
 
 Faça um teste para verificar se o referenciador, o URL de origem (*`s_server`*) e as variáveis de campanha estão sendo capturados.
 
-Essas variáveis serão representadas como os parâmetros a seguir no [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=pt-BR).
+Essas variáveis serão representadas como os seguintes parâmetros no [CX Enterprise Debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
   <tr> 
    <th class="entry"> </th> 
-   <th class="entry"> <b>URL ou Valor da String de Consulta</b> </th> 
-   <th class="entry"> <b>Valor como mostrado no DigitalPulse Debugger</b> </th> 
+   <th class="entry"> <b>Valor da URL ou da Cadeia de Caracteres de Consulta</b> </th> 
+   <th class="entry"> <b>Valor conforme mostrado no DigitalPulse Debugger</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>Referenciador Original </p> </td> 
+   <td> <p>Referenciador original </p> </td> 
    <td> <p> <span class="filepath">https://www.google.com/search%3F hl%3Den %26ie%3DUTF826q%3 Ddiscount%2Bairline%2Btickets</span> </p> </td> 
    <td> <p> <span class="filepath"> r=https:/ref=www.google.com/search?hl=en&amp;ie=UTF -8&amp;q=discount+airline+tickets </span> </p> </td> 
   </tr> 
@@ -139,7 +144,7 @@ Essas variáveis serão representadas como os parâmetros a seguir no [Experienc
    <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>Esse valor será exibido no DigitalPulse Debugger, se a variável <span class="varname"> pageURL </span> for usada. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>URL da página inicial final </p> </td> 
+   <td> <p>URL da página de destino final </p> </td> 
    <td> <p> <span class="filepath">https://www.example.com</span> </p> </td> 
    <td> <p>Esse valor NÃO será exibido no DigitalPulse Debugger, se a variável <span class="varname"> pageURL </span> for usada. </p> </td> 
   </tr> 

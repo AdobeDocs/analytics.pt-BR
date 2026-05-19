@@ -3,10 +3,15 @@ title: Solucionar problemas de logon no Adobe Analytics
 description: Etapas a serem seguidas quando não for possível fazer logon no Adobe Analytics.
 feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+TQID: https://experienceleague.adobe.com/akXZpx8BUywqvI2NGvk9dqIBL-pHEAza1-I05pC89io
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 100%
+source-wordcount: 607
+ht-degree: 88%
 
 ---
 
@@ -14,19 +19,19 @@ ht-degree: 100%
 
 O Adobe Analytics usa vários métodos de autenticação para fazer logon:
 
-* Adobe ID por meio da Experience Cloud
+* Adobe ID por meio do CX Enterprise
 * ID herdada do Analytics
 * Logon único
 
 **Se você acessar o Analytics regularmente e começar a encontrar problemas ao fazer logon aleatoriamente, limpar os cookies e o cache do navegador resolverá a maioria dos problemas.**
 
-Ocasionalmente, problemas de disponibilidade podem afetar a capacidade de fazer logon. Verifique em [status.adobe.com](https://status.adobe.com/pt-br) se há incidentes abertos. Caso contrário, use a seção apropriada, dependendo do método de autenticação da organização.
+Ocasionalmente, problemas de disponibilidade podem afetar a capacidade de fazer logon. Verifique em [status.adobe.com](https://status.adobe.com) se há incidentes abertos. Caso contrário, use a seção apropriada, dependendo do método de autenticação da organização.
 
 ## Adobe ID
 
-Solucione problemas ao fazer logon no Adobe Analytics usando a Experience Cloud.
+Solucione problemas ao fazer logon no Adobe Analytics usando o CX Enterprise.
 
-1. Navegue até [experience.adobe.com](https://experience.adobe.com). Se você não conseguir acessar esse site, talvez sua organização não permita esse domínio por meio do firewall. Fale com a equipe de TI da sua organização para obter permissão. Consulte [IPs e domínios usados na Adobe Experience Cloud](https://helpx.adobe.com/br/analytics/kb/adobe-ip-addresses.html) para obter informações úteis para fornecer à sua equipe de TI.
+1. Navegue até [Adobe CX Enterprise](https://experience.adobe.com). Se você não conseguir acessar esse site, talvez sua organização não permita esse domínio por meio do firewall. Fale com a equipe de TI da sua organização para obter permissão. Consulte [Endereços IP usados pelo Adobe Analytics](/help/technotes/ip-addresses.md) para obter informações úteis para fornecer à sua equipe de TI.
 
 2. Autentique usando a Adobe ID: clique em **[!UICONTROL Fazer logon com uma Adobe ID]**. Se não conseguir fazer logon, verifique se seu endereço de email foi digitado corretamente. Caso contrário, clique em **[!UICONTROL Redefinir senha]** e siga as instruções para redefinir a senha da Adobe ID.
 
@@ -42,7 +47,7 @@ Se a limpeza dos cookies/cache do navegador não resolver o problema, peça a um
 
 >[!IMPORTANT]
 >
->As etapas a seguir para redefinir a senha de um usuário se aplicam apenas às IDs do Analytics herdadas, não à Adobe ID. Se sua organização usar a Adobe ID, você poderá gerenciar contas de usuário em [adminconsole.adobe.com](https://adminconsole.adobe.com).
+>As etapas a seguir para redefinir a senha de um usuário se aplicam apenas às IDs do Analytics herdadas, não à Adobe ID. Se sua organização usar o Adobe ID, você poderá gerenciar contas de usuário em [adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Faça logon no Adobe Analytics com uma conta que tenha direitos administrativos.
 2. Navegue até **[!UICONTROL Administrador]** > **[!UICONTROL Todos os administradores]** > **[!UICONTROL User Management]**.

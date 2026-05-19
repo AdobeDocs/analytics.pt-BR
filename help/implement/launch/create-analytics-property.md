@@ -4,16 +4,20 @@ description: Crie um espaço para personalizar como os dados são coletados, usa
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/x3NtfziIBWYyzUcbWk6QUjLjgTJBhdmyNl5KqfLXkdg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 97%
+source-wordcount: 520
+ht-degree: 91%
 
 ---
 
 # Criar uma propriedade de tag do Adobe Analytics
 
-As tags na Adobe Experience Platform permitem integrar soluções da Experience Cloud em seu site (incluindo o Analytics). Esta página descreve especificamente como um administrador de tags pode configurar uma implementação básica do Adobe Analytics corretamente.
+As tags na Adobe Experience Platform permitem integrar soluções CX Enterprise em seu site (incluindo o Analytics). Esta página descreve especificamente como um administrador de tags pode configurar uma implementação básica do Adobe Analytics corretamente.
 
 ## Pré-requisitos
 
@@ -29,7 +33,7 @@ As propriedades são contêineres abrangentes que você usa para gerenciar tags.
 1. Clique na propriedade de tag recém-criada para inserir as configurações.
 1. Clique na guia **[!UICONTROL Extensões]** e, em seguida, clique em **[!UICONTROL Catálogo]**.
 1. Localize &quot;Serviço da Experience Cloud ID&quot; e clique em **[!UICONTROL Instalar]**.
-1. Todas as configurações, incluindo a Experience Cloud Organization ID, já devem ser preenchidas. Clique em **[!UICONTROL Salvar]**.
+1. Todas as configurações, incluindo a ID da organização corporativa da CX, já devem ser preenchidas. Clique em **[!UICONTROL Salvar]**.
 1. De volta ao catálogo de extensões, localize o Adobe Analytics e clique em **[!UICONTROL Instalar]**.
 
 Veja a documentação completa da [Extensão do Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=pt-BR) para obter informações mais detalhadas.

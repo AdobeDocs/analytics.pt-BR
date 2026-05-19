@@ -3,9 +3,15 @@ title: Transição de uma plataforma de análise de terceiros para o Adobe Analy
 description: Saiba mais sobre os principais conceitos para obter relatórios, direcionados para usuários familiarizados com outras plataformas, como o Google Analytics.
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+TQID: https://experienceleague.adobe.com/rXnzE2or--dCD8c-NqjcnPK-pQbTLKTxLV9XtI0t-PU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: 334
 ht-degree: 81%
 
 ---
@@ -16,7 +22,7 @@ Este guia apresenta tipos de relatórios comuns que ajudam você a saber mais so
 
 O Google Analytics e o Adobe Analytics são plataformas avançadas para obter informações importantes sobre o desempenho do site. Cada uma tem sua própria arquitetura de processamento e interface do usuário, proporcionando vantagens exclusivas a cada uma. Este guia foi projetado para ajudar a familiarizar um usuário experiente com o Google Analytics em relação ao Adobe Analytics.
 
-No Adobe Analytics, a forma principal de extrair relatórios básicos após fazer logon na Adobe Experience Cloud é usar o **Analysis Workspace**. O menu à esquerda permite que o usuário arraste e solte componentes para criar seu próprio relatório. Ele oferece mais liberdade para atender às necessidades exatas de relatórios. Os usuários experientes na criação de painéis do Google Analytics e relatórios personalizados podem achar esse layout familiar.
+No Adobe Analytics, a forma principal de extrair relatórios básicos após fazer logon no Adobe CX Enterprise é usar o **Analysis Workspace**. O menu à esquerda permite que o usuário arraste e solte componentes para criar seu próprio relatório. Ele oferece mais liberdade para atender às necessidades exatas de relatórios. Os usuários experientes na criação de painéis do Google Analytics e relatórios personalizados podem achar esse layout familiar.
 
 ## Caminho de aprendizagem recomendado
 

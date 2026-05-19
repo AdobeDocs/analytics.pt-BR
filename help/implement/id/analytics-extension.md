@@ -1,10 +1,15 @@
 ---
 title: Identificação do visitante usando a extensão de tag do Adobe Analytics
 description: Identifique corretamente os visitantes ao implementar a extensão de tag da Adobe Analytics.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+exl-id: de534c69-0f43-45eb-86da-20d3cd3f363d
+TQID: https://experienceleague.adobe.com/bdm2phkscnH9bSiQqK9K--ySTLguGaf-WLgEc3TL6H8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: 499
+ht-degree: 2%
 
 ---
 
@@ -16,7 +21,7 @@ A extensão de tag da Adobe Analytics permite implementar o AppMeasurement usand
 
 Para usar o Serviço de ID de visitante usando a extensão de tag da Adobe Analytics, inclua a extensão de tag do Serviço da Experience Cloud ID na propriedade de tag.
 
-1. Faça logon em [experience.adobe.com](https://experience.adobe.com) usando suas credenciais da Adobe ID.
+1. Faça logon no [Adobe CX Enterprise](https://experience.adobe.com) usando suas credenciais da Adobe ID.
 1. Navegue até **[!UICONTROL Coleção de dados]** > **[!UICONTROL Marcas]**.
 1. Localize a propriedade de tag desejada.
 1. Navegue até **[!UICONTROL Extensões]** e selecione a guia **[!UICONTROL Catálogo]**.
@@ -30,9 +35,9 @@ A extensão de tag obtém automaticamente sua ID da organização IMS, portanto,
 >
 >A Adobe recomenda não usar esse método para identificar visitantes.
 
-Se a sua organização não usar a extensão de tag do Serviço de ID de visitante, a extensão de tag da Adobe Analytics usará sua própria forma de identificação do visitante. Quando um visitante chega ao seu site pela primeira vez, a extensão verifica se há um cookie [`s_vi`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics). Este cookie é definido no domínio correspondente ao **[!UICONTROL Servidor de Rastreamento SSL]** (para HTTPS) ou ao **[!UICONTROL Servidor de Rastreamento]** (para HTTP) ao [configurar a extensão de tag](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/analytics/overview).
+Se a sua organização não usar a extensão de tag do Serviço de ID de visitante, a extensão de tag da Adobe Analytics usará sua própria forma de identificação do visitante. Quando um visitante chega ao seu site pela primeira vez, a extensão verifica se há um cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Este cookie é definido no domínio correspondente ao **[!UICONTROL Servidor de Rastreamento SSL]** (para HTTPS) ou ao **[!UICONTROL Servidor de Rastreamento]** (para HTTP) ao [configurar a extensão de tag](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/analytics/overview).
 
-* Se você participar do [Programa de certificado gerenciado](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/adobe-managed-cert), o servidor de rastreamento normalmente será um domínio próprio, tornando os cookies do `s_vi` originais.
+* Se você participar do [Programa de certificado gerenciado](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), o servidor de rastreamento normalmente será um domínio próprio, tornando os cookies do `s_vi` originais.
 * Se você não participar do programa de certificado Gerenciado, o servidor de rastreamento normalmente é um subdomínio de `adobedc.net`, `omtrdc.net` ou `2o7.net`, tornando o cookie `s_vi` um cookie de terceiros. Devido aos padrões modernos de privacidade do navegador, os cookies de terceiros são rejeitados pela maioria dos navegadores. Depois de rejeitado, o AppMeasurement tenta definir um cookie de fallback primário (`fid`).
 
 Se você definiu corretamente o [!UICONTROL Servidor de Rastreamento SSL], nenhuma outra medida de identificação de visitante será necessária.
