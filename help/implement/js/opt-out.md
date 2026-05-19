@@ -58,7 +58,7 @@ A página de opção de não participação da organização depende do valor da
    1. No servidor da Web, abra o arquivo AppMeasurement.js usado no site em um editor de código ou texto.
    1. Observe o valor da variável `trackingServer`.
 
-* Usando o [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
+* Usando o [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=pt-BR):
    1. Navegue até seu site usando o navegador Chrome.
    1. Abra o CX Enterprise Debugger e acesse a [!UICONTROL guia Rede].
    1. Observe o valor [!UICONTROL URL de solicitação - Nome do host].

@@ -71,9 +71,9 @@ Referencie a versão mais recente de `alloy.js` para que suas chamadas de métod
 
 +++**3. Configurar o Web SDK**
 
-Configure sua implementação para apontar para a sequência de dados criada na etapa anterior usando o comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) do Web SDK. O comando `configure` deve ser definido em todas as páginas, para que você possa incluí-lo junto com o código de instalação da biblioteca.
+Configure sua implementação para apontar para a sequência de dados criada na etapa anterior usando o comando [`configure`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/overview) do Web SDK. O comando `configure` deve ser definido em todas as páginas, para que você possa incluí-lo junto com o código de instalação da biblioteca.
 
-Use as propriedades [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) e [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) no comando `configure` do Web SDK:
+Use as propriedades [`datastreamId`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/datastreamid) e [`orgId`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/orgid) no comando `configure` do Web SDK:
 
 * Defina o `datastreamId` com a ID de sequência de dados recuperada da etapa anterior.
 * Defina o `orgId` para a organização IMS da sua organização.
@@ -85,7 +85,7 @@ alloy("configure", {
 });
 ```
 
-Opcionalmente, é possível definir outras propriedades no comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview), dependendo dos requisitos de implementação da organização.
+Opcionalmente, é possível definir outras propriedades no comando [`configure`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/overview), dependendo dos requisitos de implementação da organização.
 
 +++
 
@@ -126,7 +126,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. Atualizar chamadas de método para usar o Web SDK**
 
-Atualize todas as instâncias nas quais você chama [`s.t()`](../../vars/functions/t-method.md) e [`s.tl()`](../../vars/functions/tl-method.md), substituindo-as pelo comando [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview). Há três cenários a serem considerados:
+Atualize todas as instâncias nas quais você chama [`s.t()`](../../vars/functions/t-method.md) e [`s.tl()`](../../vars/functions/tl-method.md), substituindo-as pelo comando [`sendEvent`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/sendevent/overview). Há três cenários a serem considerados:
 
 * **Rastreamento de exibição de página**: substitua a chamada de rastreamento de exibição de página pelo comando `sendEvent` do Web SDK:
 
@@ -138,7 +138,7 @@ Atualize todas as instâncias nas quais você chama [`s.t()`](../../vars/functio
   alloy("sendEvent", dataObj);
   ```
 
-* **Rastreamento automático de links**: a propriedade de configuração [`clickCollectionEnabled`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada por padrão. Ela define automaticamente as variáveis de rastreamento de link corretas para enviar dados ao Adobe Analytics. Para desabilitar o rastreamento automático de links, defina esta propriedade como `false` no comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Rastreamento automático de links**: a propriedade de configuração [`clickCollectionEnabled`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada por padrão. Ela define automaticamente as variáveis de rastreamento de link corretas para enviar dados ao Adobe Analytics. Para desabilitar o rastreamento automático de links, defina esta propriedade como `false` no comando [`configure`](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/configure/overview).
 
 * **Rastreamento manual de links**: o Web SDK não tem comandos separados entre chamadas pageview e não pageview. Forneça essa distinção no objeto de carga.
 

@@ -26,7 +26,7 @@ ht-degree: 32%
 
 Algumas configurações de firewall bloqueiam endereços IP dos servidores de coleção de dados da Adobe ou dos servidores responsáveis por acessar os dados do Você pode usar essa lista de intervalos para alterar as configurações de firewall da sua organização para permitir acesso e enviar dados de dentro da organização.
 
-Todos os endereços IP usados pelo Adobe Analytics fazem parte dos [endereços IP usados pelo CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), com exceção do pacote complementar para Otimização de desempenho na China.
+Todos os endereços IP usados pelo Adobe Analytics fazem parte dos [endereços IP usados pelo CX Enterprise](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/ip-addresses), com exceção do pacote complementar para Otimização de desempenho na China.
 
 ## Endereços IP de Otimização de desempenho da China
 
@@ -48,6 +48,6 @@ Os servidores de coleta de dados regionais na China usam os seguintes endereços
 
 >[!MORELIKETHIS]
 >
->[Endereços IP usados pelo CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>[Endereços IP usados pelo CX Enterprise](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Domínios usados pelo Adobe Analytics](domains.md)
