@@ -4,10 +4,15 @@ description: O número de vezes que um item de dimensão não foi alterado em um
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
 TQID: https://experienceleague.adobe.com/9rDXvGopDNEhkh6cA-JmkwazYWagbMDo1g7yZ2n-gLI
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 484
@@ -17,7 +22,7 @@ ht-degree: 19%
 
 # Acesso único
 
-A **[!UICONTROL métrica [de]** de Acesso único](overview.md) mostra o número de visitas em que a dimensão de relatório aplicável continha apenas um único valor para uma visita inteira. É a versão mais ampla e específica da dimensão de [[!UICONTROL Visitas em única página]](single-page-visits.md). Essa métrica é útil no contexto de qualquer dimensão em que você deseja ver o valor de uma dimensão quando ele foi definido apenas uma vez durante uma visita.
+A **[[!UICONTROL métrica [de]** de Acesso único]](overview.md) mostra o número de visitas em que a dimensão de relatório aplicável continha apenas um único valor para uma visita inteira. É a versão mais ampla e específica da dimensão de [[!UICONTROL Visitas em única página]](single-page-visits.md). Essa métrica é útil no contexto de qualquer dimensão em que você deseja ver o valor de uma dimensão quando ele foi definido apenas uma vez durante uma visita.
 
 ## Como essa métrica é calculada
 
