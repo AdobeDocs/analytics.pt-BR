@@ -4,13 +4,27 @@ title: Baixar Projetos E Dados
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: 1131
 ht-degree: 25%
 
 ---
-
 
 # Baixar projetos e dados
 
@@ -76,7 +90,7 @@ As opções Baixar como CSV no menu de contexto permitem baixar uma tabela de da
 
 Para fazer isso:
 
-* No cabeçalho de qualquer tabela ou visualização, selecione **[!UICONTROL Baixar dados como CSV]** no menu de contexto. Isso baixa os dados exibidos na tabela ou na fonte de dados subjacente de uma visualização como CSV. 
+* No cabeçalho de qualquer tabela ou visualização, selecione **[!UICONTROL Baixar dados como CSV]** no menu de contexto. Isso baixa os dados exibidos na tabela ou na fonte de dados subjacente de uma visualização como CSV.
 
 <!--
 Only relevant as soon as CJA supports Map visualization 

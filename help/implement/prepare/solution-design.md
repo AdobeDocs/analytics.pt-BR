@@ -4,10 +4,25 @@ description: Saiba o que é um documento de design da solução e como usá-lo n
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/OLSxdEz9--Xe8bCRH6-TimsPloUUdesg4-wrBNL3uPU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 97%
+source-wordcount: 698
+ht-degree: 76%
 
 ---
 
@@ -21,7 +36,7 @@ Um documento de design da solução (também conhecido como referência de desig
 
 ## Propriedade e localização do documento de projeto
 
-* **Determine quem na empresa será responsável pela manutenção do documento de design da solução.** Essa função pode ser de um funcionário ou uma equipe. Preserve a manutenção de design da solução independentemente das alterações de função ou reestruturações da empresa. Este é um documento dinâmico e deve ser devidamente mantido.
+* **Determine quem na organização será responsável pela manutenção do documento de design da solução.** Essa função pode ser de um funcionário ou uma equipe. Preserve a manutenção de design da solução independentemente das alterações de função ou reestruturações da empresa. Este é um documento dinâmico e deve ser devidamente mantido.
 * **Determine onde ficará o documento da solução.** Não existe o melhor lugar para colocar os documentos de design da solução, mas normalmente eles ficam em um local interno amplamente acessível. Os exemplos incluem uma planilha compartilhada ou um espaço de trabalho colaborativo como o SharePoint ou um wiki interno. Não precisa ser editável para todos, mas é útil para quem podem acessar os relatórios para, pelo menos, poder visualizá-los.
 
 ## Definir requisitos comerciais
@@ -29,7 +44,7 @@ Um documento de design da solução (também conhecido como referência de desig
 Ao determinar quais dados coletar, é fácil dizer &quot;tudo&quot;, no entanto, isso pode se tornar rapidamente difícil de gerenciar e pode até fornecer menos valor do que coletar quantidades mais concisas de dados.
 
 1. **Determine os indicadores-chave de desempenho.** O que você deseja que os visitantes façam? A resposta dessa pergunta varia de acordo com o setor e a vertical, podendo ser várias. Os exemplos incluem compras, registros ou cliques em anúncios.
-1. **Descubra os dados mais importantes a coletar.** Faça perguntas comerciais para as quais você deseja obter respostas específicas. As respostas dessas perguntas fornecem informações sobre como melhorar os KPIs.
+1. **Descubra os dados mais importantes a serem coletados.** Faça perguntas comerciais para as quais você deseja obter respostas específicas. As respostas dessas perguntas fornecem informações sobre como melhorar os KPIs.
 1. **Faça essas perguntas e determine quais são as necessidades de rastreamento.** Agrupe-as em dimensões e métricas.
    * Dimensões são variáveis que contêm texto. Os exemplos incluem o termo de pesquisa interna, a categoria do produto ou o nome de uma área em que um visitante clicou.
    * As métricas são eventos específicos que você deseja que um visitante faça - quando eles realizam uma ação desejada, o número aumenta em um. Os exemplos incluem enviar um pedido, assinar um boletim informativo ou enviar uma resposta de pesquisa.

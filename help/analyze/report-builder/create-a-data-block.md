@@ -6,10 +6,19 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
-source-git-commit: ff1722416fe5062d16c12185d17271ebc2d6b624
+TQID: https://experienceleague.adobe.com/RDgK9vgflGZC0HWd1GD-9nmBNdsJAHYEWt4jrmLGw5w
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 20%
+source-wordcount: 773
+ht-degree: 21%
 
 ---
 
@@ -69,7 +78,7 @@ Para criar o bloco de dados, selecione componentes do relatório e personalize o
    - Os componentes do Dimension são adicionados à seção ![TableSelectRow](/help/assets/icons/TableSelectRow.svg) **[!UICONTROL Row]** ou à seção ![TableSelectColumn](/help/assets/icons/TableSelectColumn.svg) **[!UICONTROL Column]** se você já tiver uma dimensão nas colunas.
    - Os componentes de data são adicionados à seção ![TableSelectColumn](/help/assets/icons/TableSelectColumn.svg) **[!UICONTROL Column]**.
    - Componentes de segmento são adicionados à seção ![Segmentação](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]**.
-   - Os componentes de métricas são adicionados à seção ![Valores](/help/assets/icons/Event.svg) de **[!UICONTROL de]** Eventos.
+   - Os componentes de métricas são adicionados à seção ![Valores ]&#x200B;**de (/help/assets/icons/Event.svg) de** Eventos.
 
 1. Organize os itens no painel Tabela para personalizar o layout do bloco de dados.
 
@@ -113,9 +122,9 @@ Para criar o bloco de dados, selecione componentes do relatório e personalize o
 
 >[!MORELIKETHIS]
 >
->[Selecione um conjunto de relatórios](select-report-suite.md)
+>[Selecionar um conjunto de relatórios](select-report-suite.md)
 >[Selecionar um intervalo de datas](select-date-range.md)
->[Filtrar dimensões](filter-dimensions.md)
+>[Filtragem de dimensões](filter-dimensions.md)
 >[Trabalhar com segmentos](work-with-segments.md)
 >
 

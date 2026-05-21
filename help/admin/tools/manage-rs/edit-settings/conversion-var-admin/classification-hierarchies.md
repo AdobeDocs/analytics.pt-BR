@@ -5,10 +5,19 @@ title: Hierarquias de classificação
 feature: Classifications
 role: Admin
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/GWTGMWRF8q0jaqolSi67YOvv727bC9ter5k8rXu6AV4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 97%
+source-wordcount: 307
+ht-degree: 38%
 
 ---
 
@@ -20,15 +29,15 @@ A página Hierarquias de classificação permite definir hierarquias de classifi
 
 ## Hierarquias de classificação {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
-A página [!UICONTROL Hierarquias de classificação] permite definir hierarquias de classificação que você pode usar para criar relatórios de [!UICONTROL Hierarquia] com o mesmo nome.
+A página [!UICONTROL Hierarquias de Classificação] permite definir hierarquias de classificação que você pode usar para criar relatórios de [!UICONTROL Hierarquia] com o mesmo nome.
 
-Um relatório de [!UICONTROL Hierarquia] permite realizar uma busca detalhada em conjuntos de dados cada vez mais refinados, com base na hierarquia de classificação, de modo a facilitar a visualização da relação entre os dados.
+Um relatório de [!UICONTROL Hierarquia] permite detalhar conjuntos de dados cada vez mais refinados, com base na hierarquia de classificação, para que você possa visualizar mais facilmente as relações de dados.
 
-Você pode criar hierarquias de classificação para páginas da Web, campanhas, produtos ou qualquer outra variável do relatório. O relatório Hierarquia exibe unidades, pedidos e receita para cada uma das classificações de variáveis na hierarquia.
+É possível criar hierarquias de classificação para páginas da Web, campanhas, produtos ou qualquer outra variável de relatório. O relatório Hierarquia exibe unidades, ordens e receita para cada uma das classificações de variáveis na hierarquia.
 
-Por exemplo, se uma hierarquia de Produto incluir Vestuário > Vestuário masculino > Camisas > Camisas polo > Camisas polo GG, o relatório Hierarquia exibirá dados de vendas da classificação Vestuário. Você pode então aprofundar-se para ver dados sobre Vestuário masculino, Camisas, Camisas polo e Camisas polo GG. Hierarquias de classificação permitem identificar rapidamente como cada classificação na hierarquia contribui para o desempenho de Vestuário.
+Por exemplo, se uma hierarquia de Produto incluir Roupas > Roupas masculinas > Camisas Polo > XL Polo Shirts, o relatório Hierarquia exibirá os dados de vendas para a classificação Vestuário. Em seguida, você pode detalhar para ver dados sobre roupas masculinas, camisas, camisas polo e camisetas XL Polo. As hierarquias de classificação permitem identificar rapidamente como cada classificação na hierarquia contribui para o desempenho da vestuário.
 
-Crie as classificações antes de adicioná-las à hierarquia.
+Crie as classificações antes de adicioná-las a uma hierarquia.
 
 ## Criar uma hierarquia de classificação {#task_3805EBCACC844261A7125D63D772CCDF}
 
@@ -40,5 +49,5 @@ Crie as classificações antes de adicioná-las à hierarquia.
    A lista de classificações exibe automaticamente as classificações disponíveis para a variável selecionada.
 1. Arraste uma classificação para o campo **[!UICONTROL Arraste a nova raiz de hierarquia aqui]** para incluí-la na hierarquia de classificação.
 
-   Arraste as classificações para a hierarquia na ordem em que deseja que sejam exibidas na hierarquia. A primeira classificação é a raiz da hierarquia, a segunda é a primeira subclassificação e assim por diante.
+   Arraste as classificações para a hierarquia na ordem em que você deseja que elas apareçam na hierarquia. A primeira classificação é a raiz da hierarquia, a segunda classificação é a primeira subclassificação e assim por diante.
 1. Clique em **[!UICONTROL Salvar]**.

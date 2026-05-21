@@ -3,10 +3,21 @@ description: Definições de elementos de interface nas páginas no Construtor d
 title: Regras de classificação - definições
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/8SDdKOvF-Mk9jQCb7YWXt0NCl0dspfscnHL02y1cxKM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 94%
+source-wordcount: 861
+ht-degree: 56%
 
 ---
 
@@ -18,7 +29,7 @@ Definições de elementos de interface nas páginas no Construtor de regras de c
 
 ## Página Regras
 
-Essa página exibe as regras em um conjunto de regras.
+Esta página exibe as regras em um conjunto de regras.
 
 ![](assets/classification_rules_page.png)
 
@@ -34,11 +45,11 @@ Essa página exibe as regras em um conjunto de regras.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Selecionar Conjuntos de relatórios e variáveis </p> </td> 
-   <td colname="col2"> <p><b>Conjunto de relatórios</b> </p> <p>Os conjuntos de relatórios ao quais o conjunto de regras é aplicado. </p> <p><b>Variável</b> </p> <p>É possível aplicar somente uma variável ao criar um conjunto de regras de classificação. Se deseja criar vários conjuntos de regras para uma variável, você deve aplicar cada conjunto de regras a vários conjuntos de relatórios. </p> <p>Observação: você pode usar somente as variáveis que você acessou nos seus conjuntos de relatórios. As variáveis serão exibidas no painel <span class="wintitle">Novo conjunto de regras</span> somente após terem pelo menos uma classificação definida para aquelas variáveis. </p> <p> É possível criar classificações em uma variável em <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Conjuntos de relatório</span> &gt; <span class="uicontrol">Tráfego</span> &gt; <span class="uicontrol">Classificações de tráfego</span> (ou <span class="uicontrol">Conversão</span> &gt; <span class="uicontrol">Classificações de conversão</span>). Depois, selecione a variável e clique em <span class="uicontrol">Adicionar classificação</span>. </p> <p>Consulte <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >Classificações de tráfego</a> e <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >Classificações de conversão</a> na Ajuda de administração. </p> </td> 
+   <td colname="col2"> <p><b>Conjunto de relatórios</b> </p> <p>Os conjuntos de relatórios aos quais o conjunto de regras se aplica. </p> <p><b>Variável</b> </p> <p>É possível aplicar apenas uma variável ao criar um conjunto de regras de classificação. Se quiser criar vários conjuntos de regras para uma variável, aplique cada conjunto de regras a vários conjuntos de relatórios. </p> <p>Observação: você pode usar somente as variáveis que você acessou nos seus conjuntos de relatórios. As variáveis serão exibidas no painel <span class="wintitle">Novo conjunto de regras</span> somente após terem pelo menos uma classificação definida para aquelas variáveis. </p> <p> É possível criar classificações em uma variável em <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Conjuntos de relatório</span> &gt; <span class="uicontrol">Tráfego</span> &gt; <span class="uicontrol">Classificações de tráfego</span> (ou <span class="uicontrol">Conversão</span> &gt; <span class="uicontrol">Classificações de conversão</span>). Depois, selecione a variável e clique em <span class="uicontrol">Adicionar classificação</span>. </p> <p>Consulte <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >Classificações de tráfego</a> e <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >Classificações de conversão</a> na Ajuda de administração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Ativar</span> </p> </td> 
-   <td colname="col2"> <p>Valida e ativa uma regra. As regras ativas processam diariamente, examinando os dados de classificação normalmente de um mês. As regras verificam automaticamente novos valores e carregam as classificações. </p> </td> 
+   <td colname="col2"> <p>Valida e ativa uma regra. As regras ativas são processadas diariamente, examinando os dados de classificação normalmente há um mês. As regras verificam novos valores automaticamente e fazem upload das classificações. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Desativar</span> </p> </td> 
@@ -50,14 +61,14 @@ Essa página exibe as regras em um conjunto de regras.
   </tr> 
   <tr> 
    <td colname="col1"> <p>As regras substituem quaisquer valores existentes </p> </td> 
-   <td colname="col2"> <p> (Configuração padrão) Sempre substitua as chaves de classificação existentes, inclusive as classificações carregadas pelo importador (SAINT). </p> </td> 
+   <td colname="col2"> <p> (Configuração padrão) Sempre substituir chaves de classificação, inclusive classificações carregadas por meio do importador (SAINT). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>As regras substituem apenas valores não definidos </p> </td> 
-   <td colname="col2"> <p>Preencha apenas as células em branco (não definidas). Classificações existentes não serão alteradas. </p> </td> 
+   <td colname="col1"> <p>As regras substituem valores não definidos </p> </td> 
+   <td colname="col2"> <p>Preencher apenas células em branco (não definidas). As classificações existentes não serão alteradas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Janela de lookback </p> </td> 
+   <td colname="col1"> <p>Janela de retrospectiva </p> </td> 
    <td colname="col2"> <p>Quando você ativa e valida regras, pode especificar se as regras devem substituir classificações existentes por teclas afetadas. (Somente as teclas classificadas que tenham passado no <span class="keyword">Adobe Analytics</span> dentro do período especificado por você são afetadas). </p> <p>Se você não especificar uma <span class="term"> janela de lookback</span>, as regras visualizam aproximadamente um mês antes (dependendo do dia do mês). As classificações existentes nunca são substituídas, a menos que você ative essa opção. </p> <p><b>Dev Center</b>: Os parceiros podem criar regras de classificação no <span class="wintitle">Dev Center</span>. Essas regras são implantadas quando o cliente ativa uma integração. No <span class="wintitle">Dev Center</span>, a opção <span class="uicontrol">Sobrescrever desde</span> permite que o parceiro especifique se o cliente poderá determinar o valor sobrescrito quando ativar ou editar uma integração. </p> <p>Consulte <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >Como as regras são processadas</a> para mais informações sobre o processamento de regras. </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +77,7 @@ Essa página exibe as regras em um conjunto de regras.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Rascunho</span> </td> 
-   <td colname="col2"> Permite especificar que uma regra está no modo de rascunho. O status de rascunho permite testar a regra antes de executá-la. </td> 
+   <td colname="col2"> Permite especificar que uma regra está no modo de rascunho. O status Rascunho permite testar a regra antes de executá-la. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Duplicar</span> </td> 
@@ -82,7 +93,7 @@ Essa página exibe as regras em um conjunto de regras.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ação da classificação</span> </td> 
-   <td colname="col2"> <p>Especifica a ação a ser tomada quando a Condição de correspondência ocorrer. </p> <p>Por exemplo, você define um Nome de campanha como $2, que identifica a posição 2 em um código de rastreamento como o Nome da campanha. </p> </td> 
+   <td colname="col2"> <p>Especifica a ação a ser tomada quando ocorrer a Condição de correspondência. </p> <p>Por exemplo, você define um Nome de campanha como $2, que identifica a posição 2 em um código de rastreamento como o Nome da campanha. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
@@ -90,7 +101,7 @@ Essa página exibe as regras em um conjunto de regras.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Selecionar tipo de regra</span> </td> 
-   <td colname="col2"> <p>Cada conjunto de regras aplica-se a uma variável específica. As seleções válidas são: </p> 
+   <td colname="col2"> <p>Cada conjunto de regras se aplica a uma variável específica. As seleções válidas são: </p> 
     <ul id="ul_6A8E06BB4AF2402B99C215823CB3D59D"> 
      <li id="li_5C702D4F460841D38A59621A5161A3BC">Começa com </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">Termina com </li> 
@@ -100,7 +111,7 @@ Essa página exibe as regras em um conjunto de regras.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Inserir os critérios de correspondência</span> </td> 
-   <td colname="col2"> O padrão de texto que você está procurando em uma tecla. Esses critérios podem ser termos de pesquisa, caracteres ou expressão regular. </td> 
+   <td colname="col2"> O padrão de texto que você está procurando em uma chave. Esses critérios podem ser termos de pesquisa, caracteres ou expressão regular. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Definir a classificação</span> </td> 
@@ -108,18 +119,18 @@ Essa página exibe as regras em um conjunto de regras.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Para</span> </td> 
-   <td colname="col2"> O valor que deseja especificar para a coluna de classificação selecionada se os critérios de correspondência forem atendidos. </td> 
+   <td colname="col2"> O valor que você deseja especificar para a coluna de classificação selecionada se os critérios de correspondência forem atendidos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Filtro </td> 
-   <td colname="col2"> Permite procurar regras. </td> 
+   <td colname="col2"> Permite pesquisar por regras. </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Página Expressão regular {#section_C932A5469E774841B2229965A154163C}
 
-É possível editar expressões regulares na página [!UICONTROL Expressão regular].
+Você pode editar expressões regulares na página [!UICONTROL Expressão regular].
 
 ![](assets/regex_tracking_code.png)
 
@@ -127,19 +138,19 @@ Essa página exibe as regras em um conjunto de regras.
 
 | Elemento | Descrição |
 |---|---|
-| Tecla de amostra | A sequência de teste a ser usada. Por exemplo, você pode criar uma classificação com base em caracteres específicos em um código de rastreamento. Você pode corresponder caracteres, palavras ou padrões de caracteres específicos. |
-| Corresponder grupos | Mostra como a expressão regular corresponde aos caracteres de ID da campanha, tornando possível classificar uma posição na ID da campanha. |
-| Corresponder resultado | Exibe as partes de uma sequência que corresponde com êxito à expressão regular. |
+| Tecla de amostra | A cadeia de caracteres de teste a ser usada. Por exemplo, é possível criar uma classificação a partir de caracteres específicos em um código de rastreamento. Você pode corresponder caracteres específicos, palavras ou padrões de caracteres. |
+| Corresponder grupos | Mostra como a expressão regular corresponde aos caracteres da ID da campanha, para que você possa classificar uma posição na ID da campanha. |
+| Corresponder resultado | Exibe as partes de uma string que correspondem com sucesso à expressão regular. |
 
 Consulte [Expressões regulares em regras de classificação](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## Página de testes {#section_EC926F97901C4E65901413F9683AA70A}
 
-Essa página permite testar as regras em um conjunto.
+Esta página permite testar as regras em um conjunto.
 
 **Definições**
 
 | Elemento | Descrição |
 |---|---|
-| Executar teste | Ao testar o conjunto de regras, use as teclas do relatório para ver como serão impactadas pelo conjunto de regras. |
+| Executar teste | Ao testar o conjunto de regras, use as chaves do relatório para ver como elas serão afetadas pelo conjunto de regras. |
 | Filtro | Filtra os valores no painel [!UICONTROL Resultados]. |

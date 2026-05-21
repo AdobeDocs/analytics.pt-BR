@@ -1,19 +1,34 @@
 ---
-description: Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As classificações também são suportadas, caso você as tenha definido.
+description: Lista métricas e dimensões compatíveis com relatórios em tempo real. Classificações também são aceitas, se você as tiver definido.
 title: Visão geral de métricas e dimensões em tempo real compatíveis
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+TQID: https://experienceleague.adobe.com/ytZc5-5SJKR84AjcaBcWT2NobNwaZwX8JZe74vvdOus
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 94%
+source-wordcount: 115
+ht-degree: 46%
 
 ---
 
 # Métricas e dimensões em tempo real compatíveis
 
-Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As classificações também são suportadas, caso você as tenha definido.
+Lista métricas e dimensões compatíveis com relatórios em tempo real. Classificações também são aceitas, se você as tiver definido.
 
 ## Métricas suportadas {#section_514ED8B382494C47BFC0657894D1AF94}
 
@@ -26,7 +41,7 @@ Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As c
 * Adições ao carrinho
 * Remoções do carrinho
 * Instâncias
-* Eventos personalizados de 1-100 (caso habilitados no conjunto de relatórios)
+* Eventos personalizados 1-100 (se ativado no conjunto de relatórios)
 
 ## Dimensões suportadas {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
@@ -34,15 +49,15 @@ Lista as métricas e dimensões suportadas pelos relatórios em tempo real. As c
 * Palavra-chave de pesquisa
 * Mecanismo de pesquisa
 * Domínio de referência
-* País de GeoSegmentation
-* Região de GeoSegmentation
-* Cidade de GeoSegmentation
-* DMA dos EUA de GeoSegmentation
+* País de segmentação geográfica
+* Região de segmentação geográfica
+* Cidade de segmentação geográfica
+* DMA dos EUA de geossegmentação
 * Produto
 * Servidor
 * Seção do site
 * Código de rastreamento
 * Link Personalizado
-* Download de arquivo
+* Download de Arquivo
 * Link de saída
 * Variáveis de Insight personalizado (props) 1-75 (se habilitado no conjunto de relatórios)

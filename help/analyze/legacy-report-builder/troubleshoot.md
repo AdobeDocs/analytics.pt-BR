@@ -5,10 +5,23 @@ uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/al9ySg7-3MCg-NZgdci4bDs4B9jNzpdBxlgBTrew2Hs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 63%
+source-wordcount: 1427
+ht-degree: 45%
 
 ---
 
@@ -26,7 +39,7 @@ Isso causa um problema de compatibilidade futura: depois de convertido em v5.1, 
 
 O problema ocorre ao abrir uma pasta de trabalho ARB v5.1 com a solicitação de classificação:
 
-* Ao abrir uma pasta de trabalho, você receberá o seguinte aviso: &quot;Esta pasta de trabalho foi salva pela última vez com o Report Builder v5.1. Essa versão apresentou alguns recursos incompatíveis com a versão do Report Builder instalada no computador. É recomendado atualizar para a versão mais recente do Report Builder antes de atualizar esta pasta de trabalho&quot;.
+* Ao abrir uma pasta de trabalho, você receberá o seguinte aviso: &quot;Esta pasta de trabalho foi salva pela última vez usando o Report Builder v5.1. Esta versão apresentou alguns recursos incompatíveis com a versão do Report Builder instalada neste computador. É recomendado atualizar para a versão mais recente do Report Builder antes de atualizar esta pasta de trabalho&quot;.
 * Se você clicar com o botão direito em uma solicitação de ARB com classificação, os menus de contexto do Report Builder (editar solicitação, adicionar solicitação dependente...) não aparecerão.
 * Se você executar Atualizar tudo, clicando no terceiro botão ou atualizando um conjunto de solicitações do formulário Gerenciador de solicitações, a solicitação de classificação será executada sem erros. No entanto, os valores de classificações não serão gravados.
 * Você ainda pode editar a solicitação abrindo o Gerenciador de solicitações e indo de linha para linha, até que alcance a solicitação correta.
@@ -64,7 +77,7 @@ Os seguintes fatores podem aumentar a complexidade do pedido e resultar em um pr
 
   | Horário de Agendamento | 1h - 2h | 2h - 7h | 7h - 18h | 18h - Meia-noite |
   |--- |--- |--- |--- |--- |
-  | Uso do Report Builder | Silencioso | Muito ocupado | Uso do lado do cliente.<br>Maiores volumes de usuários atualizando e solicitando para &quot;Enviar imediatamente&quot;.<br>Além disso, verifique se a fila da API é apagada ao programar tempo limite da pasta de trabalho. | Não ocupado |
+  | Uso do Report Builder | Silencioso | Muito ocupado | Uso do lado do cliente.<br>Maiores volumes de usuários atualizando e solicitando para &quot;Enviar imediatamente&quot;.<br>Além disso, verifique se a fila da API é apagada ao agendar o tempo limite da pasta de trabalho. | Não ocupado |
 
 * **Limites de tempo**: qualquer relatório agendado atinge o limite de tempo após quatro horas. O sistema tenta programar mais três vezes, possivelmente resultando em uma falha. (Geralmente, quanto maior o conjunto de dados, mais demorado será a execução.) Estes podem ser vistos nos relatórios de [!DNL Analytics] e no Report Builder:
 
@@ -76,12 +89,12 @@ Esta seção inclui uma lista de exemplos de mensagens de erro que podem ocorrer
 >
 >Este é um exemplo de mensagens de erro, não uma lista exaustiva. Para obter mais informações sobre como solucionar erros, contate o administrador.
 
-* **Esse recurso pode ser aplicado somente a uma pasta de trabalho aberta.**: Se nenhuma pasta de trabalho (documentos de planilhas) estiver aberta no Excel e você clicar em um dos ícones na barra de ferramentas do Report Builder, esta mensagem será exibida. Além disso, a barra de ferramentas fica desativada até que você abra uma planilha. No entanto, você pode clicar no ícone de ajuda on-line enquanto a barra de ferramentas ainda estiver ativada sem causar esse erro.
-* **Saia primeiro do [!UICONTROL Assistente de solicitações] antes de ativar o [!UICONTROL Gerenciador de solicitações].**: Embora o [!UICONTROL Gerenciador de solicitações] e o [!UICONTROL Assistente de solicitações] estejam vinculados funcionalmente, não é possível começar a trabalhar com o [!UICONTROL Gerenciador de solicitações] antes de concluir ou cancelar as ações iniciadas no [!UICONTROL Assistente de solicitações].
-* **Não há solicitações associada a esse intervalo.**: Esta mensagem de erro ocorre se você clicar no botão [!UICONTROL Da planilha] no [!UICONTROL Gerenciador de solicitações] quando uma célula da planilha não contiver nenhuma solicitação. Para identificar quais células na planilha têm solicitações, clique nas solicitações individuais listadas na tabela no [!UICONTROL Gerenciador de Solicitações]. Se uma solicitação estiver associada a células, as células aparecerão realçadas quando a solicitação for selecionada na tabela.
-* **O intervalo selecionado não é válido. Selecione outro intervalo.**: Se uma célula da planilha for selecionada e já houver uma solicitação mapeada para ela, este erro ocorrerá. Exclua a solicitação mapeada para as células ou escolha outro intervalo de células para mapear. Quando quiser excluir células, é importante localizar as que contenham solicitações e excluir as solicitações antes de excluir as células (removendo linhas ou colunas).
-* **Saia da célula do Excel onde está o foco antes de usar esse recurso.**: Caso esteja no *modo de edição* em uma célula do Excel e clique em um dos ícones do Report Builder, esta mensagem de erro será exibida. O modo de edição em uma célula do Excel significa que a célula está selecionada e o cursor aparece dentro dela. Você também está no modo de edição em uma célula do Excel quando digita diretamente na barra de [!UICONTROL Fórmula] ou na [!UICONTROL Caixa de Nome] na parte superior do Excel.
-* **O intervalo selecionado faz interseção com o intervalo de outra solicitação. Altere sua seleção.**: Se você já tiver mapeado um conjunto de células para a planilha, este erro será exibido.
+* **Este recurso só pode ser aplicado a uma pasta de trabalho aberta.**: se nenhuma pasta de trabalho (documentos de planilhas) estiver aberta no Excel e você clicar em um dos ícones na barra de ferramentas do Report Builder, esta mensagem será exibida. Além disso, a barra de ferramentas fica desativada até que você abra uma planilha. No entanto, você pode clicar no ícone de ajuda on-line enquanto a barra de ferramentas ainda estiver ativada sem causar esse erro.
+* **Saia primeiro do [!UICONTROL Assistente de Solicitações]antes de ativar o [!UICONTROL Gerenciador de Solicitações].**: Embora o [!UICONTROL Gerenciador de Solicitações] e o [!UICONTROL Assistente de Solicitações] estejam vinculados funcionalmente, não é possível começar a trabalhar com o [!UICONTROL Gerenciador de Solicitações] antes de concluir ou cancelar as ações iniciadas no [!UICONTROL Assistente de Solicitações].
+* **Não há nenhuma solicitação associada a este intervalo.**: Esta mensagem de erro ocorre se você clicar no botão [!UICONTROL Da Planilha] no [!UICONTROL Gerenciador de Solicitações] quando uma célula da planilha não contiver solicitações. Para identificar quais células na planilha têm solicitações, clique nas solicitações individuais listadas na tabela no [!UICONTROL Gerenciador de Solicitações]. Se uma solicitação estiver associada a células, as células aparecerão realçadas quando a solicitação for selecionada na tabela.
+* **O intervalo selecionado não é válido. Selecione outro Intervalo.**: se uma célula da planilha for selecionada e já houver uma solicitação mapeada para ela, este erro ocorrerá. Exclua a solicitação mapeada para as células ou escolha outro intervalo de células para mapear. Quando quiser excluir células, é importante localizar as que contenham solicitações e excluir as solicitações antes de excluir as células (removendo linhas ou colunas).
+* **Saia da Célula do Excel onde está o foco antes de usar este recurso.**: Se você estiver no *modo de edição* em uma célula do Excel e clicar em um dos ícones do Report Builder, esta mensagem de erro será exibida. O modo de edição em uma célula do Excel significa que a célula está selecionada e o cursor aparece dentro dela. Você também está no modo de edição em uma célula do Excel quando digita diretamente na barra de [!UICONTROL Fórmula] ou na [!UICONTROL Caixa de Nome] na parte superior do Excel.
+* **O intervalo selecionado faz interseção com o intervalo de outra solicitação. Altere sua seleção.**: se você já tiver mapeado um conjunto de células para a planilha, este erro será exibido.
 * **Reparos na pasta de trabalho (Registros removidos: Fórmula de /xl/calcChain.xml parte)**: às vezes, as fórmulas de uma pasta de trabalho são corrompidas ao salvar ou transferir. Quando o arquivo é aberto, o Excel tenta executar essas fórmulas e falha. Você pode resolver esse problema removendo `calcChain.xml` da planilha, forçando o Excel a atualizar seus cálculos de fórmula.
    1. Renomeie a extensão de arquivo da pasta de trabalho de `.xlsx` para `.zip`.
    2. Descompacte o conteúdo e abra a pasta `/xl/`.

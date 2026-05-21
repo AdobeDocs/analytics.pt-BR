@@ -3,10 +3,24 @@ description: As regras de classificação procuram regularmente por termos não 
 title: Regras de classificação
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
+TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 61%
+source-wordcount: 1978
+ht-degree: 58%
 
 ---
 
@@ -72,7 +86,7 @@ about_classification_rules.xml
 
   As regras ativas são processadas a cada quatro horas, examinando os dados de classificação normalmente após um mês. As regras verificam automaticamente novos valores e fazem upload das classificações usando o importador.
 
-* **Substituição de classificações existentes**: consulte [Quando as regras não classificam as teclas?](/help/components/classifications/crb/classification-quickstart-rules.md) Se necessário, é possível excluir ou remover as classificações existentes usando o importador.
+* **Substituindo classificações existentes**: consulte [Quando as Regras Não Classificam as Chaves?](/help/components/classifications/crb/classification-quickstart-rules.md) Se necessário, é possível excluir ou remover as classificações existentes usando o importador.
 
 ## Quando As Regras Não Classificam As Chaves?
 
@@ -140,7 +154,7 @@ No [!UICONTROL Construtor de regras], configure a regra da seguinte maneira:
 | Expressão regular | Resultado de Correspondência ou String | Grupos de correspondência correspondentes |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: JuneSale `$3`: 20XX0601 |
-| Construção da sintaxe | `^` = inicia a linha () = agrupa caracteres e permite extrair os caracteres correspondentes nos parênteses.  `(.+)` = captura um ( . ) caractere e ( + ) não mais  \ = início de uma string.  `$` = indica que o caractere anterior (ou grupo de caracteres) é o último na linha. | |
+| Construção da sintaxe | `^` = inicia a linha () = agrupa caracteres e permite extrair os caracteres correspondentes nos parênteses.  `(.+)` = captura um ( . ) caractere e ( + ) não mais \ = início de uma string.  `$` = indica que o caractere anterior (ou grupo de caracteres) é o último na linha. | |
 
 Consulte [Expressões regulares - Tabela de referência](/help/components/classifications/crb/classification-quickstart-rules.md) para obter informações sobre o que significam caracteres em uma expressão regular.
 

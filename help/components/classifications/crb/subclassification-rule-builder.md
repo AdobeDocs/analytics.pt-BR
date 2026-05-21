@@ -3,10 +3,22 @@ description: Use subclassificações com o construtor de regras de classificaç�
 title: Subclassificações e o Construtor de regras
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/Qlqt3scXHVUv6EODq57zzaF2007Vvf5x324CHjrsNE0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 66%
+source-wordcount: 403
+ht-degree: 47%
 
 ---
 
@@ -26,13 +38,13 @@ Assume o seguinte código de rastreamento:
 
 `channel:broad_campaign:creative`
 
-Uma hierarquia de classificação permite aplicar uma classificação a uma classificação (chamada de *`sub-classification`*). Ou seja, você pode utilizar o importador como um banco de dados de relações com várias tabelas. Uma tabela mapeia códigos de rastreamento completos e o outro mapeia essas teclas para outras tabelas.
+Uma hierarquia de classificação permite aplicar uma classificação a uma classificação (chamada de *`sub-classification`*). Ou seja, você pode usar o importador como um banco de dados relacional, com várias tabelas. Uma tabela mapeia os códigos completos de rastreamento para as chaves do e outra mapeia essas chaves para outras tabelas.
 
 ![](assets/sub_class_table.png)
 
-Depois que essa estrutura estiver estabelecida, você poderá usar o [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) para carregar arquivos pequenos que atualizam apenas as tabelas de pesquisa (as tabelas verde e vermelha na imagem anterior). Em seguida, você pode utilizar o construtor de regras para manter a tabela de classificação principal atualizada.
+Depois que essa estrutura estiver estabelecida, você poderá usar o [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) para carregar arquivos pequenos que atualizam apenas as tabelas de pesquisa (as tabelas verde e vermelha na imagem anterior). Em seguida, você pode usar o construtor de regras para manter a tabela de classificação principal atualizada.
 
-A seguinte tarefa descreve como fazer isso.
+A tarefa a seguir descreve como fazer isso.
 
 ## Configurar subclassificações usando o Construtor de regras
 
@@ -63,7 +75,7 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    Exemplo:
 
-   | Chave | Canal | Código de campanha ampla | Código de campanha&Hat;Tipo de campanha | Código de campanha&Hat;Diretor de campanha | ... |
+   | Chave | Canal | Código de campanha ampla | Código de campanha ampla&Hat;Tipo de campanha | Código de campanha ampla&Hat;Diretor de campanha | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marca | Suzanne |  |
    | &#42; |  | 222 | Marca | Frank |  |
@@ -72,4 +84,4 @@ Exemplo de etapas que descrevem como você pode fazer upload de subclassificaç�
 
    Esse arquivo é carregado quando, por exemplo, um novo *`Broad Campaign code`* é introduzido. Esse arquivo seria aplicado aos valores classificados anteriormente. Da mesma forma, se você criar uma nova subclassificação (como *`Creative Theme`* como uma subclassificação de *`Creative code`*), você fará upload somente do arquivo de subclassificação, em vez do arquivo de classificação inteiro.
 
-   Em relatórios, essas subclassificações funcionam exatamente como classificações de nível superior. Isso diminui a responsabilidade administrativa necessária para usá-las.
+   Para o relatório, essas subclassificações funcionam exatamente como classificações de nível superior. Isso diminui a responsabilidade administrativa necessária para usá-las.

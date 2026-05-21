@@ -4,9 +4,21 @@ description: Saiba como gerenciar anotações no Analysis Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/eBokOX3-Zn7bzy8FYdAO-iEGQOCmAtJ4H57hvCLjawc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: 766
 ht-degree: 88%
 
 ---
@@ -42,7 +54,7 @@ A lista de anotações ➊ exibe todas as anotações que você possui, as anota
 | **[!UICONTROL Intervalo de datas aplicado]** | A data ou o intervalo de datas ao qual essa anotação se aplica. |
 | **[!UICONTROL Tags]** | As tags dessa anotação. |
 | **[!UICONTROL Compartilhado com]** | As pessoas ou grupos com os quais você compartilhou a anotação. Selecione para abrir a caixa de diálogo **[!UICONTROL Compartilhar componente]**. |
-| **[!UICONTROL Data de modificação]** | Mostra a data e a hora em que a anotação foi modificada pela última vez. |
+| **[!UICONTROL Data de modificação]** | Exibe a data e a hora em que a anotação foi modificada pela última vez. |
 
 {style="table-layout:auto"}
 
@@ -107,7 +119,7 @@ Use o [Criador de anotações](/help/analyze/analysis-workspace/components/annot
 
 O seguinte se aplica ao compartilhar anotações ou trabalhar com anotações que foram compartilhadas com você:
 
-* As anotações somente de projeto pertencentes a um projeto que você compartilhou com outros usuários também aparecem para esses usuários. Os usuários não podem editar ou excluir essas anotações somente de projeto.
+* As anotações somente de projeto pertencentes a um projeto que você compartilhou com outros usuários também são exibidos para esses usuários. Os usuários não podem editar ou excluir essas anotações somente de projeto.
 * Se você salvar uma anotação e compartilhá-la diretamente com um usuário, esse usuário poderá editar e excluir a anotação somente se tiver direitos de admin.
 
 * As anotações criadas em um projeto que foi compartilhado com você aparecerão somente nesse projeto. Se a anotação for compartilhada diretamente com você, ela aparecerá em todos os projetos nos quais ela pode ser exibida.
