@@ -91,7 +91,7 @@ Não há suporte[&#128279;](convert-workbooks.md#legacy-report-builder-features-
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão geral do Report Builder](https://video.tv.adobe.com/v/3452585?captions=por_br&quality=12&learn=on){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
