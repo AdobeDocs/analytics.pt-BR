@@ -4,9 +4,14 @@ description: Saiba mais sobre funções básicas de métricas calculadas.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/0IC-0OshuRgClzQ56xAGIZhsCeCrFH9b5ZIo-s5iv-c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: 3642
 ht-degree: 49%
 
 ---
@@ -93,7 +98,7 @@ Retorna o maior valor em um conjunto de elementos de dimensão para uma coluna d
 
 >[!TIP]
 >
->Use uma instrução [IF](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) para realçar o item de melhor desempenho no seu detalhamento.
+>Use uma instrução [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) para realçar o item de melhor desempenho no seu detalhamento.
 >
 
 ## Mínimo da coluna {#column-minimum}
@@ -123,7 +128,7 @@ Retorna o menor valor em um conjunto de elementos de dimensão para uma coluna d
 
 >[!TIP]
 >
->Use uma instrução [IF](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) para realçar o item de menor desempenho no seu detalhamento.
+>Use uma instrução [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) como **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) para realçar o item de menor desempenho no seu detalhamento.
 >
 
 

@@ -4,14 +4,10 @@ description: Saiba mais sobre os motivos pelos quais uma tarefa de feed de dados
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 TQID: https://experienceleague.adobe.com/JkayhoeQk24AwoDkz25lvZBzq-xNcFjW6l-cN-TwuKk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: null
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 471
 ht-degree: 95%
@@ -26,7 +22,7 @@ Determine possíveis motivos pelos quais um processo pode não funcionar nem ent
 
 Se você tiver um feed de dados que opera com êxito por hora ou por dia, mas que falhou recentemente, verifique cada um dos seguintes itens:
 
-* Use a [Ferramenta Adobe Status](https://status.adobe.com/pt-br/pt_BR/experience_cloud) para determinar se há alguma janela de manutenção programada ou problemas de disponibilidade. Se houver um problema conhecido no momento, a Adobe processará automaticamente os feeds de dados agendados assim que o serviço for restaurado.
+* Use a [Ferramenta Adobe Status](https://status.adobe.com/pt_BR/experience_cloud) para determinar se há alguma janela de manutenção programada ou problemas de disponibilidade. Se houver um problema conhecido no momento, a Adobe processará automaticamente os feeds de dados agendados assim que o serviço for restaurado.
 * Certifique-se de que haja espaço disponível suficiente no site FTP. Se o site FTP ficar sem espaço em disco, exclua alguns arquivos do servidor para abrir espaço para novos arquivos.
 * Se não houver problemas conhecidos e o site FTP tiver espaço em disco suficiente, você poderá reenviar o feed de dados.
 

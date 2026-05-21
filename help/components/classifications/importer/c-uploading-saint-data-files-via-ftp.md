@@ -3,10 +3,16 @@ description: Como fazer upload de arquivos de dados via FTP.
 title: Importação de FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/CMHQpWtGl14Z7kHaZ7ufp6-tDIfQ-pCEzSI47XMi-pA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 72%
+source-wordcount: 727
+ht-degree: 40%
 
 ---
 
@@ -36,17 +42,17 @@ Os seguintes limites recomendados são importantes.
 >
 >Ter muitos arquivos pequenos ou arquivos grandes únicos pode criar carga de processamento desnecessária nos servidores de processamento. A Adobe recomenda dividir arquivos grandes em blocos de 50 MB e combinar arquivos pequenos.
 
-A configuração inicial preenche a base de dados de classificações com um grande conjunto de dados originais ou reestrutura as classificações, em vez de reclassificar algumas linhas ou adicionar linhas.
+A configuração inicial preenche o banco de dados de classificações com um grande conjunto de dados originais ou reestrutura as classificações, em vez de reclassificar algumas linhas ou adicionar linhas.
 
-Após um upload inicial em um conjunto de relatórios (para determinada variável ou relatório), a Adobe recomenda fazer upload apenas de linhas novas e atualizadas em importações subsequentes. As linhas que não estão sendo alteradas devem ser omitidas nos uploads futuros.
+Após um upload inicial em um conjunto de relatórios (para uma determinada variável ou relatório), a Adobe recomenda fazer upload somente de linhas novas e atualizadas em importações subsequentes. As linhas que não estão sendo alteradas devem ser omitidas dos uploads futuros.
 
-Cada novo valor de chave que você carrega é descontado do total de únicos que você tem disponível para aquela variável no mês.
+Cada novo valor de chave carregado conta em relação aos únicos para essa variável do mês.
 
-Se você excedeu seus únicos do mês, você não verá os dados de classificações correspondentes para os únicos que excederam os valores no relatório. É possível ver essas classificações no Data Warehouse.
+Se você tiver excedido seus únicos no mês, não verá os dados de classificação correspondentes para os valores excedidos de únicos no relatório. É possível ver essas classificações no Data Warehouse.
 
 >[!NOTE]
 >
->O tempo necessário para processar um arquivo de dados de classificação varia de acordo com o tamanho do arquivo e o número atual de arquivos processados pelos servidores da Adobe. O processamento dos arquivos de dados geralmente não levam mais de 72 horas.
+>O tempo necessário para processar um arquivo de dados de classificação varia de acordo com o tamanho do arquivo e o número atual de arquivos processados pelos servidores da Adobe. O processamento de arquivos de dados geralmente não leva mais de 72 horas.
 
 ## Criar uma conta FTP
 
@@ -62,12 +68,12 @@ Veja [FTP e sFTP](/help/export/ftp-and-sftp/ftp-overview.md) para detalhes adici
    | Elemento | Descrição |
    |---|---|
    | **Nome** | O nome da conta FTP. |
-   | **Conjunto de dados a ser classificado** | Na lista suspensa, selecione o conjunto de dados (variável do relatório de marketing) que você deseja classificar. |
-   | **Selecionar Conjuntos de Relatórios** | Selecione os conjuntos de relatórios nos quais deseja classificar o conjunto de dados selecionado. Para selecionar vários conjuntos de relatórios, as classificações de cada conjunto de relatórios selecionado devem ser idênticas. |
-   | **Substituir Dados em Conflitos** | Selecione essa opção para substituir os dados duplicados. Esta opção é útil se você deseja atualizar classificações existentes. Se você estiver na [última arquitetura de classificação](../sets/overview.md), essa configuração sempre estará habilitada. |
+   | **Conjunto de dados a ser classificado** | Na lista suspensa, selecione o conjunto de dados (variável de relatório de marketing) que deseja classificar. |
+   | **Selecionar Conjuntos de Relatórios** | Selecione os conjuntos de relatórios nos quais você deseja classificar o conjunto de dados selecionado. Para selecionar vários conjuntos de relatórios, as classificações de cada um dos conjuntos de relatórios selecionados devem ser idênticas. |
+   | **Substituir Dados em Conflitos** | Selecione esta opção para substituir dados duplicados. Essa opção é útil se você estiver atualizando classificações existentes. Se você estiver na [última arquitetura de classificação](../sets/overview.md), essa configuração sempre estará habilitada. |
    | **Após a Conclusão da Importação** | Selecione essa opção para exportar automaticamente o conjunto de dados atualizado para a mesma conta FTP depois de especificar o endereço de email para receber notificações sobre essa conta FTP depois que a importação for concluída. Se você estiver na [última arquitetura de classificação](../sets/overview.md), essa opção não estará disponível. |
-   | **Destinatário da Notificação** | Especifique o endereço de email para receber notificações sobre essa conta FTP. |
-   | **Autorizar** | (Obrigatório) Autoriza a Adobe a importar automaticamente todos os arquivos de dados enviados para a nova conta FTP. |
+   | **Destinatário da Notificação** | Especifique o endereço de email para receber notificações sobre esta conta FTP. |
+   | **Autorizar** | (Obrigatório) Autoriza o Adobe a importar automaticamente todos os arquivos de dados enviados para a nova conta FTP. |
 
 1. Clique em **[!UICONTROL Salvar]**.
 
@@ -92,6 +98,6 @@ Para importar classificações via FTP:
 
    O arquivo é um arquivo vazio que tem o mesmo nome de seu arquivo de dados, com uma extensão de nome de arquivo `.fin`. Por exemplo, se seu arquivo de dados é `classdata1.tab`, o nome do arquivo é `classdata1.fin` .fin.
 
-Em intervalos regulares, a Adobe recupera os arquivos de dados carregados que têm um arquivo FIN associado. A Adobe os importa para dentro dos conjuntos de relatórios e conjuntos de dados especificados na configuração da conta FTP.
+Em intervalos regulares, o Adobe recupera arquivos de dados carregados que tenham um arquivo FIN associado. O Adobe os importa para os conjuntos de relatórios e conjuntos de dados especificados na configuração da conta FTP.
 
 Depois que o Adobe Analytics ler e processar os arquivos carregados na pasta FTP, os arquivos serão automaticamente removidos do site FTP.

@@ -4,10 +4,15 @@ description: (Descontinuado) Implementar variáveis de hierarquia no Adobe Analy
 feature: Appmeasurement Implementation
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/ngX4oPKy0XWEb-9xLpxSAdoAqZmfsMM8rbEH2-llHX4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 93%
+source-wordcount: 354
+ht-degree: 98%
 
 ---
 
@@ -35,7 +40,7 @@ Você pode definir hierarquias ao configurar a extensão do Analytics (variávei
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Definir Variáveis].
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Hierarquia].
 
 Você pode definir um valor de hierarquia como uma string estática ou fazer referência a um elemento de dados. Também é possível definir o delimitador desejado. Verifique se o delimitador definido aqui corresponde ao que foi definido nas configurações do conjunto de relatórios.

@@ -5,12 +5,9 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 TQID: https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-source-git-commit: null
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 726
 ht-degree: 100%
@@ -49,11 +46,11 @@ Para mais informações sobre como os usuários podem criar um projeto com base 
 
 ## Editar ou excluir um modelo
 
-Os administradores podem editar ou excluir os modelos da empresa.
+Admins podem editar ou excluir modelos de empresa.
 
 1. No Analysis Workspace, selecione a guia [!UICONTROL **Workspace**] e escolha os modelos **[!UICONTROL _login _company_name_]**.
 
-1. Se você estiver visualizando modelos no modo de exibição em colunas ![ícone do modo de exibição de colunas](assets/column-view-icon.png):
+1. Se estiver visualizando modelos em uma exibição de coluna ![ícone de exibição de coluna](assets/column-view-icon.png):
 
    1. Acesse o modelo que deseja editar ou excluir, e selecione o ícone de informações ao lado do nome do modelo.
 

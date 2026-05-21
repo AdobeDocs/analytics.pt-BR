@@ -4,10 +4,14 @@ description: Crie funções de retorno de chamada após enviar uma ocorrência p
 feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/jL-4dheXUBOdrkCxVfq3CpWrTOgwjvEDWZ-Eg-sL2y0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 55%
+source-wordcount: 435
+ht-degree: 54%
 
 ---
 
@@ -29,7 +33,7 @@ Cada vez que chama a variável `registerPreTrackCallback`, você faz com que ess
 
 O Web SDK não pode conectar uma função após a compilação de dados, mas antes do envio para o Adobe. No entanto, você pode usar `onBeforeEventSend` para registrar uma função para ser executada antes que os dados sejam enviados.
 
-1. Faça logon na interface da [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na interface da [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** em [!UICONTROL Adobe Experience Platform Web SDK].
 1. Em [!UICONTROL Coleção de dados], clique no botão **[!UICONTROL Editar em antes de enviar o código de retorno de chamada]**.
@@ -37,7 +41,7 @@ O Web SDK não pode conectar uma função após a compilação de dados, mas ant
 
 ## Pré-rastrear retorno de chamada implementando manualmente o Web SDK
 
-O Web SDK não pode conectar uma função após a compilação de dados, mas antes do envio para o Adobe. No entanto, você pode usar `onBeforeEventSend` para registrar uma função para ser executada antes que os dados sejam enviados, semelhante a `doPlugins`. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=pt-BR#modifying-events-globally) na documentação do Web SDK para obter mais informações.
+O Web SDK não pode conectar uma função após a compilação de dados, mas antes do envio para o Adobe. No entanto, você pode usar `onBeforeEventSend` para registrar uma função para ser executada antes que os dados sejam enviados, semelhante a `doPlugins`. Consulte [Modificando eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) na documentação do Web SDK para obter mais informações.
 
 ```js
 // Set the trackingCode XDM field to "New value"

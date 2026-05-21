@@ -4,10 +4,15 @@ keywords: ftp;sftp
 title: Protocolo de transferência segura de arquivo - visão geral
 feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/kJYtQSuxz-2NMUYqZb01wsr6ltQQbD5itpPYYzsmlCM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 88%
+source-wordcount: 220
+ht-degree: 80%
 
 ---
 
@@ -17,7 +22,7 @@ O SFTP é um protocolo seguro para transferência de dados, e garante que ningu�
 
 ## Entrega por push {#section_A47831BB1DCA490BB57F0940617AA506}
 
-Isto significa que os servidores da Adobe “forçam” o envio do arquivo para os servidores. Essencialmente, nós enviamos os arquivos para o end point.
+Isso significa que os servidores da Adobe &quot;enviam&quot; o arquivo para seus servidores. Basicamente, nós o levamos ao seu ponto final.
 
 O [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) e o [Feed de dados do Analytics](/help/export/analytics-data-feed/data-feed-overview.md) podem enviar dados por SFTP.
 

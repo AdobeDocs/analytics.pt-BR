@@ -4,9 +4,14 @@ description: (Obsoleto) Ajude a AppMeasurement a determinar onde armazenar cooki
 feature: Appmeasurement Implementation
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/bsJTIAuqcWoXWWus0oPME9LEwEMaiCGjd1ChmCuSjKY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 394
 ht-degree: 18%
 
 ---
@@ -32,7 +37,7 @@ A variável `cookieDomainPeriods` ajudou a AppMeasurement a determinar onde defi
 >
 >Não considere subdomínios para essa variável. Por exemplo, não defina `cookieDomainPeriods` no URL de exemplo `store.toys.example.com`. A AppMeasurement reconhece que os cookies são armazenados no `example.com`, mesmo em URLs com vários subdomínios.
 
-Para implementações no AppMeasurement v2.26.x ou posterior, o cookie [`s_ac`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics) é usado para ajudar a determinar automaticamente o domínio do cookie correto. A biblioteca tenta primeiro gravar um cookie, incluindo dois períodos de domínio. Se a configuração desse cookie falhar, ele tentará novamente, incluindo mais períodos de domínio até que seja bem-sucedido. Este cookie é excluído imediatamente depois de definido.
+Para implementações no AppMeasurement v2.26.x ou posterior, o cookie [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) é usado para ajudar a determinar automaticamente o domínio do cookie correto. A biblioteca tenta primeiro gravar um cookie, incluindo dois períodos de domínio. Se a configuração desse cookie falhar, ele tentará novamente, incluindo mais períodos de domínio até que seja bem-sucedido. Este cookie é excluído imediatamente depois de definido.
 
 ## Períodos de domínio de cookie usando o Web SDK
 

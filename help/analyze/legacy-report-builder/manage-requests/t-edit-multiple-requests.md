@@ -5,10 +5,14 @@ uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/Qwd6RD0nq7mnMte5UFJVDuLqzqnKGHoOHlm-kYqtsog
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 52%
+source-wordcount: 328
+ht-degree: 49%
 
 ---
 
@@ -30,7 +34,7 @@ ht-degree: 52%
 
 1. No formulário do [!UICONTROL Gerenciador de solicitações], selecione duas ou mais solicitações e, em seguida, clique em **[!UICONTROL Editar várias]**.
 
-   O formulário [!UICONTROL Editar várias solicitações] exibe colunas de informações:[!UICONTROL &#x200B; Por conjunto de relatórios], [!UICONTROL Por segmento], [!UICONTROL Por métrica], [!UICONTROL Por intervalo de datas e granularidade] e [!UICONTROL Por grupo].
+   O formulário [!UICONTROL Editar várias solicitações] exibe colunas de informações:[!UICONTROL  Por conjunto de relatórios], [!UICONTROL Por segmento], [!UICONTROL Por métrica], [!UICONTROL Por intervalo de datas e granularidade] e [!UICONTROL Por grupo].
 1. Para agrupar a exibição de solicitações, clique em qualquer das seguintes opções:
 
    * **Por conjunto de relatórios:** agrupa a exibição de solicitações por conjunto de relatórios.
@@ -49,4 +53,4 @@ ht-degree: 52%
 
 Veja um vídeo que mostra o processo:
 
-https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
+https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

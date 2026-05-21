@@ -3,9 +3,15 @@ title: Relatórios de comportamento no Adobe Analytics
 description: Saiba como criar relatórios de comportamento no Adobe Analytics
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/pNdyXgcpZ9TWU2WFnXTlkDeeFv3exefKSJRF6CbB2Nc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: 805
 ht-degree: 95%
 
 ---
@@ -32,7 +38,7 @@ O relatório de fluxo de comportamento pode ser recriado usando a exibição Flu
 O relatório de páginas mostra o desempenho de páginas individuais no site.
 
 1. No menu Componentes, localize a dimensão **Páginas** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 Como alternativa, a Adobe fornece vários espaços de trabalho pré-criados chamados de modelos. O modelo Consumo de conteúdo (Web) fornece um valor semelhante ao relatório de todas as páginas.
 
@@ -48,7 +54,7 @@ O relatório de detalhamento de conteúdo permite observar o tráfego da página
 O relatório de páginas de destino mostra as principais páginas de destino do site. As páginas de destino estão disponíveis na Analysis Workspace como a dimensão **Página de entrada**.
 
 1. No menu Componentes, localize a dimensão **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 A Adobe recomenda usar a métrica **Visitas** para essa dimensão.
 
@@ -57,7 +63,7 @@ A Adobe recomenda usar a métrica **Visitas** para essa dimensão.
 O relatório Páginas de saída mostra as páginas principais que se tornaram a última página da visita de uma pessoa. Ele está disponível na Analysis Workspace com o mesmo nome.
 
 1. No menu Componentes, localize a dimensão **Página de saída** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 A Adobe recomenda usar a métrica **Visitas** para essa dimensão.
 
