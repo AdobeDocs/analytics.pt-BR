@@ -5,10 +5,23 @@ title: Dimensões e métricas disponíveis para as regras de processamento
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 10%
+source-wordcount: 721
+ht-degree: 15%
 
 ---
 
@@ -27,7 +40,7 @@ As dimensões e métricas disponíveis que você pode ler e gravar usando as reg
 
 | Atributo | Status de leitura/gravação | Descrição |
 | --- | --- | --- |
-| **URL da página** | Leitura + gravação | A dimensão [URL da Página](/help/components/dimensions/page-url.md). As ocorrências de rastreamento de link removem essa dimensão antes de atingir as regras de processamento. Se você inserir novamente um valor de URL de página usando regras de processamento, a ocorrência será considerada uma [Exibição de página](/help/components/metrics/page-views.md), em vez de um [Evento de página](/help/components/metrics/page-events.md). A Adobe recomenda verificar se há um valor na dimensão da página antes de modificá-la. |
+| **URL da página** | Leitura + gravação | A dimensão [URL da página](/help/components/dimensions/page-url.md). As ocorrências de rastreamento de link removem essa dimensão antes de atingir as regras de processamento. Se você inserir novamente um valor de URL de página usando regras de processamento, a ocorrência será considerada uma [Exibição de página](/help/components/metrics/page-views.md), em vez de um [Evento de página](/help/components/metrics/page-events.md). A Adobe recomenda verificar se há um valor na dimensão da página antes de modificá-la. |
 | **Nome da página** | Leitura + gravação | A dimensão [Página](/help/components/dimensions/page.md). As ocorrências de rastreamento de link removem essa dimensão antes de atingir as regras de processamento. Se você inserir novamente um valor de página usando regras de processamento, a ocorrência será considerada uma [Exibição de página](/help/components/metrics/page-views.md), em vez de um [Evento de página](/help/components/metrics/page-events.md). A Adobe recomenda verificar se há um valor na dimensão da página antes de modificá-la. |
 | **ID do conjunto de relatórios** | Somente leitura | O conjunto de relatórios no qual a regra de processamento é executada. Esse conjunto de relatórios pode ser diferente do conjunto de relatórios enviado originalmente pelo AppMeasurement, como ao usar as regras VISTA. |
 | **Versão do código AppMeasurement** | Somente leitura | A versão da biblioteca de AppMeasurement usada para gerar a solicitação de imagem. |
@@ -49,11 +62,11 @@ As dimensões e métricas disponíveis que você pode ler e gravar usando as reg
 
 | Variável | Status de leitura/gravação | Descrição |
 | --- | --- | --- |
-| **eVar 1-250** | Leitura + gravação | [eVar](/help/components/dimensions/evar.md) dimensões. |
+| **eVar 1-250** | Leitura + gravação | Dimensões de [eVar](/help/components/dimensions/evar.md). |
 | **Campaign** | Leitura + gravação | A dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). |
 | **ID de compra** | Leitura + gravação | A variável de implementação [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
 | **Estado** | Leitura + gravação | (Descontinuado) A variável de implementação [`state`](/help/implement/vars/page-vars/state.md). |
-| **CEP** | Leitura + gravação | A dimensão [CEP](/help/components/dimensions/zip-code.md). |
+| **CEP** | Leitura + gravação | A dimensão [Código postal](/help/components/dimensions/zip-code.md). |
 | **Código de moeda** | Leitura + gravação | A variável de implementação [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANTE: se você definir essa variável com um valor inválido, a ocorrência será descartada. |
 | **ID da transação** | Leitura + gravação | A variável de implementação [`transactionID`](/help/import/data-sources/transactionid.md). |
 
@@ -64,7 +77,7 @@ As dimensões e métricas disponíveis que você pode ler e gravar usando as reg
 
 | Variável | Status de leitura/gravação | Descrição |
 | --- | --- | --- |
-| **Prop 1-75** | Leitura + gravação | [Prop](/help/components/dimensions/prop.md) dimensões. |
+| **Prop 1-75** | Leitura + gravação | Dimensões [prop](/help/components/dimensions/prop.md). |
 | **Hierarquia 1-5** | Leitura + gravação | (Desativado) [Hierarquia](/help/components/dimensions/hierarchy.md) dimensões. |
 | **Servidor** | Leitura + gravação | A dimensão [Servidor](/help/components/dimensions/server.md). |
 | **Canal** | Leitura + gravação | A dimensão [Seção do site](/help/components/dimensions/site-section.md). |

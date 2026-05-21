@@ -4,10 +4,23 @@ keywords: excluir conjunto de relatórios
 title: Ocultar conjuntos de relatórios
 feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/vu-fl3k9toNX8sdSjPO-VASOVab0Ut-sYcP-BHQ4SOQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: 223
+ht-degree: 57%
 
 ---
 
@@ -15,9 +28,9 @@ ht-degree: 100%
 
 Permite ocultar conjuntos de relatórios na interface do usuário do Adobe Analytics.
 
-Se desejar que um conjunto de relatórios fique indisponível para você e seus usuários, você poderá ocultá-lo. Dentre as possíveis razões pelas quais você pode desejar ocultar um conjunto de relatórios, estão as alterações de implementação ou a criação errada de um conjunto de relatórios por terceiros.
+Se não quiser mais que um conjunto de relatórios esteja disponível para você e seus usuários, oculte-o da exibição. As possíveis razões pelas quais você pode querer ocultar um conjunto de relatórios incluem alterações de implementação ou alguém criando um conjunto de relatórios por engano.
 
-Ocultar um conjunto de relatórios evita que ele seja exibido no menu suspenso do seletor de conjuntos de relatórios, nas Ferramentas administrativas ou em qualquer outro lugar onde os conjuntos de relatórios sejam exibidos. Torna os dados dos conjuntos de relatórios inacessíveis por meio das interfaces do Adobe Analytics, até que o conjunto seja exibido novamente.
+Ocultar um conjunto de relatórios impede que ele seja exibido no menu suspenso do seletor do conjunto de relatórios, nas Ferramentas administrativas ou em qualquer outro lugar em que os conjuntos de relatórios sejam exibidos. Isso torna os dados do conjunto de relatórios inacessíveis por meio das interfaces do Adobe Analytics até que o conjunto de relatórios seja desoculto.
 
 >[!IMPORTANT]
 >

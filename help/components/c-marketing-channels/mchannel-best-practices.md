@@ -3,10 +3,23 @@ title: Práticas recomendadas para implementar os canais de marketing do Adobe A
 description: Atualização de práticas recomendadas de uso de canais de marketing com a atribuição e o Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
+TQID: https://experienceleague.adobe.com/mKq-l0nm-MFJjcvWoIwUfQ2QM-dYD6VlcfH-CszsUv8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 81%
+source-wordcount: 669
+ht-degree: 78%
 
 ---
 
@@ -28,7 +41,7 @@ Recomendamos usar a [Atribuição](/help/analyze/analysis-workspace/attribution
 
 * A configuração das dimensões do canal de marketing e do detalhe de canal de marketing estabelece pontos de contato a serem avaliados, de acordo com cada instância de canal de marketing.
 * Para análise de métrica, sua organização deve se alinhar em um ou mais modelos de atribuição. Salve métricas personalizadas com esse modelo para reutilização fácil.
-* Por padrão, os dados são alocados usando Último contato e a configuração do Período de envolvimento do visitante. Os modelos de métricas de atribuição oferecem mais controle sobre as janelas de pesquisa e mais variedade, incluindo a [atribuição algorítmica](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
+* Por padrão, os dados são alocados usando Último contato e a configuração do Período de engajamento do visitante. Os modelos de métricas de atribuição oferecem mais controle sobre as janelas de pesquisa e mais variedade, incluindo a [atribuição algorítmica](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Prática recomendada nº 2: nenhuma definição de canal de Atualização direta e de Sessão
 
@@ -48,7 +61,7 @@ Modelos de atribuição personalizados usados com a dimensão Canal de marketing
 
 ![](assets/override.png)
 
-## Prática recomendada nº 4: minimizar o período de envolvimento do visitante
+## Prática recomendada nº 4: minimizar o período de engajamento do visitante
 
 Definir o período de Engajamento do visitante com o valor mínimo de “1 dia” reduz a probabilidade de valores persistentes. Como os modelos de atribuição personalizados (AIQ) permitem janelas de pesquisa flexíveis, recomendamos definir o valor mínimo para minimizar o impacto dessa configuração.
 

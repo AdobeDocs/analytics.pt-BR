@@ -5,10 +5,20 @@ title: Enviar E Agendar Projetos
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
+TQID: https://experienceleague.adobe.com/b6x-yGgHk-RHGPfRMpmBJc2cQTMSrb-VRxJi62Tj0Hc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 25%
+source-wordcount: 502
+ht-degree: 26%
 
 ---
 
@@ -37,7 +47,7 @@ Para enviar um arquivo ad-hoc a recipients por email:
 1. (Opcional) Use **[!UICONTROL Descrição]** para adicionar uma descrição a ser incluída no email.
 1. Adicione recipients ou grupos. Você também pode inserir endereços de email.
 1. (Opcional) Selecione **[!UICONTROL Mostrar opções de agendamento]** para [agendar uma exportação de arquivo](#schedule-file-export).
-1. Clique em **[!UICONTROL Enviar Agora]**. Selecione **[!UICONTROL Cancelar]** para cancelar.
+1. Clique em **[!UICONTROL Enviar agora]**. Selecione **[!UICONTROL Cancelar]** para cancelar.
 
 
 ## Programar exportação de arquivo {#schedule}

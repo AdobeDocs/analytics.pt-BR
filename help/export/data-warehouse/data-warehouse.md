@@ -4,10 +4,24 @@ title: Visão geral do Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/Vkn9mWvBzaiIBf1KYIEUK8cRwTuzw41MT-v-thMBg38
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 285
+ht-degree: 86%
 
 ---
 
@@ -35,7 +49,7 @@ O Data Warehouse compacta automaticamente no formato ZIP qualquer arquivo com ma
 
 ## Acesso
 
-A Adobe habilita o data warehouse somente para usuários com nível de admin e para conjuntos de relatórios específicos. (Pode ser habilitado para conjuntos de relatórios globais e secundários, mas não para conjuntos de relatórios de rollup.) O admin pode criar um grupo que tenha acesso ao Data Warehouse e associar usuários não admins a esse grupo.
+A Adobe habilita o data warehouse somente para usuários com nível de admin e para conjuntos de relatórios específicos. (Pode ser ativado para conjuntos de relatórios globais e secundários, mas não para conjuntos de relatórios de rollup.) O administrador pode criar um grupo que tenha acesso ao Data Warehouse e, em seguida, associar usuários de nível não administrador a esse grupo.
 
 Consulte [Gerenciar permissões do data warehouse](/help/export/data-warehouse/t-dw-group.md).
 

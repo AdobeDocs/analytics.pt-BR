@@ -3,10 +3,23 @@ description: Entenda por que nem todos os segmentos criados no Construtor de seg
 title: Compatibilidade de segmentos de Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+TQID: https://experienceleague.adobe.com/7CrArNYD-8ZXVpfO86d1l42ySkTuv8V04PWJFeNWx3s
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 80%
+source-wordcount: 345
+ht-degree: 58%
 
 ---
 
@@ -25,8 +38,8 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
  <tbody> 
   <tr> 
    <td > <b>Excluir container</b> </td> 
-   <td> Suportado em qualquer nível </td> 
-   <td> Suportado somente em casos especiais no nível superior </td> 
+   <td> Compatível em qualquer nível </td> 
+   <td> Compatível somente em casos especiais no nível superior </td> 
   </tr> 
   <tr> 
    <td> <b>Segmentos sequenciais</b> </td> 
@@ -41,7 +54,7 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
   <tr> 
    <td> <b>Contêineres aninhados</b> </td> 
    <td> Suportado </td> 
-   <td> Algumas limitações (elas devem reduzir em escopo, por exemplo, visitantes podem conter ocorrências, mas não o contrário) </td> 
+   <td> Algumas limitações (elas devem diminuir no escopo; por exemplo, os visitantes podem conter ocorrências, mas não o contrário) </td> 
   </tr> 
   <tr> 
    <td> <b>Dimensões</b> </td> 
@@ -65,13 +78,13 @@ Nem todos os segmentos criados no Construtor de segmentos são compatíveis com 
      <li>Dia do mês </li> 
      <li>Dia da semana </li> 
      <li>Dia do ano </li> 
-     <li>Unidade corporativa de entrada </li> 
-     <li>Entrada (Todas as dimensões com Entrada, exceto Página de entrada) </li> 
-     <li>Saída (Todas as dimensões com Saída, exceto Link de saída e Página de saída) </li> 
-     <li>Hierarquia (Todas as dimensões com Hierarquia) </li> 
+     <li>Unidade de negócios básica </li> 
+     <li>Entrada (Todas as dimensões que começam com Entrada, exceto Página de Entrada) </li> 
+     <li>Sair (Todas as dimensões que começam com Sair, exceto Link de saída e Página de saída) </li> 
+     <li>Hierarquia (Todas as dimensões que começam com Hierarquia) </li> 
      <li>Profundidade da ocorrência </li> 
      <li>Tipo de ocorrência </li> 
-     <li>Hora e Dia </li> 
+     <li>Hora do dia </li> 
      <li>Mês do ano </li> 
      <li>Páginas não encontradas </li> 
      <li>Pesquisa paga </li> 

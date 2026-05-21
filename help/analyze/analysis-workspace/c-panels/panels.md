@@ -4,10 +4,31 @@ title: Visão Geral Dos Painéis No Analysis Workspace
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f290b859f6e41de15bc115c8f4e90b616c9a1d8c
+TQID: https://experienceleague.adobe.com/VmKuk8QK2OTHkHxEL-Ptu7qvwVnq-0a1yvqftpofHvw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '2769'
-ht-degree: 42%
+source-wordcount: 2858
+ht-degree: 40%
 
 ---
 
@@ -95,7 +116,7 @@ Cada painel é associado a um [conjunto de relatórios](/help/admin/tools/manage
 
 Ao criar um novo painel, o conjunto de relatórios padrão se baseia no conjunto de relatórios do painel que você utilizou pela última vez no projeto do Analysis Workspace.
 
-Em um projeto, é possível usar um ou [vários conjuntos de relatórios](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md), dependendo dos casos de uso de análise. 
+Em um projeto, é possível usar um ou [vários conjuntos de relatórios](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md), dependendo dos casos de uso de análise.
 
 A lista dos conjuntos de relatórios é classificada de acordo com a relevância, que a Adobe define com base na recente e frequente utilização do conjunto pelo usuário atual. E com que frequência o conjunto é usado na organização.
 
@@ -228,14 +249,14 @@ Para qualquer componente de métrica, segmento ou intervalo de datas em que voc�
 
 Para qualquer componente de *dimensão* que você solta **enquanto mantém**, um menu suspenso de segmentos é criado. Esse menu suspenso permite filtrar o painel com base nos itens disponíveis para os itens de dimensão ignorados (menu suspenso de segmentos [static](#static)) ou componente de dimensão (menu suspenso de segmentos [dynamic](#dynamic)). Para configurar o menu suspenso explicitamente para filtrar um painel usando segmentos:
 
-* Selecione ![Detalhamento](/help/assets/icons/Breakdown.svg) e selecione ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Segmento]** | **[!UICONTROL Filtra os dados no painel]** no menu de contexto do componente ❾.
+* Selecione ![Detalhamento](/help/assets/icons/Breakdown.svg) e selecione ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Segmento]** | **[!UICONTROL Filtra os dados no painel]** do menu de contexto do componente ❾.
 
 
 #### Detalhar um painel
 
 Para qualquer componente de *dimensão* que você solta **enquanto mantém**, um menu suspenso de segmentos é criado. Você pode configurar esse menu suspenso para dividir o painel com base nos itens disponíveis para os itens de dimensão ignorados (menu suspenso de detalhamento [estático](#static)) ou componente de dimensão (menu suspenso de detalhamento [dinâmico](#dynamic)). Para configurar explicitamente o menu suspenso para dividir um painel usando detalhamentos:
 
-* Selecione ![Filtro](/help/assets/icons/Filter.svg) e selecione ![Detalhamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Detalhamento]** | **[!UICONTROL Detalhe os dados no painel]** no menu de contexto do componente ❾.
+* Selecione ![Filtro](/help/assets/icons/Filter.svg) e selecione ![Detalhamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Detalhamento]** | **[!UICONTROL Analisa os dados no painel]** no menu de contexto do componente ❾.
 
 >[!IMPORTANT]
 >

@@ -4,9 +4,21 @@ description: Perguntas frequentes relacionadas ao Activity Map.
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
+TQID: https://experienceleague.adobe.com/Bpcg3brrcxd9D6O3vFfhdZ7evCrJfarsKSzlOcYCMUg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: 1123
 ht-degree: 22%
 
 ---
@@ -96,9 +108,9 @@ O Activity Map verifica a presença do Adobe Analytics por até 20 segundos apó
 
 O Activity Map verifica se ocorreram alterações no estado da página da Web a cada dois segundos, como:
 
-* Conteúdo HTML que se tornou visível
-* Conteúdo HTML que está oculto
-* Novo conteúdo HTML que foi inserido
+* Conteúdo do HTML que se tornou visível
+* Conteúdo do HTML oculto
+* Novo conteúdo HTML inserido
 
 Se o conteúdo estiver oculto ou exibido, a extensão alterará automaticamente o estado dos links afetados (e, portanto, as sobreposições), de oculto para exibido ou vice-versa. Se novo conteúdo for inserido, o aplicativo recuperará os links associados, extrairá os dados de análise e adicionará sobreposições para esses links.
 

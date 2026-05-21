@@ -4,10 +4,19 @@ title: Visão geral das ferramentas administrativas
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/d0Te8mu0EXefzcOXBayaWoZmU2y1I8VLqc8o00FddKE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 16%
+source-wordcount: 254
+ht-degree: 21%
 
 ---
 
@@ -25,7 +34,7 @@ Consulte a hierarquia de conteúdo no lado esquerdo da página para ir para qual
 
 >[!WARNING]
 >
->Não abra várias guias Administração no mesmo navegador. Isso pode acabar salvando de forma não intencional as configurações no conjunto de relatórios errado. Por exemplo, se você precisar comparar conjuntos de regras e copiá-los para um novo conjunto de relatórios, sugerimos que você abra um novo navegador ou tire uma captura de tela para comparar conjuntos de regras.
+>Não abra várias guias Administração no mesmo navegador. Isso pode fazer com que você salve as configurações inadvertidamente no conjunto de relatórios errado. Por exemplo, se você precisar comparar conjuntos de regras e copiá-los para um novo conjunto de relatórios, sugerimos que você abra um novo navegador ou tire uma captura de tela para comparar conjuntos de regras.
 
 Para acessar as ferramentas administrativas, navegue até **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**.
 

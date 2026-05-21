@@ -5,10 +5,32 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/8KQR--atWQyHnqEpiphe7-hGz-WNgOeOsbCLcTKPn-o
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 39%
+source-wordcount: 1354
+ht-degree: 40%
 
 ---
 
@@ -58,17 +80,17 @@ Além disso, o Processamento de tempo de relatório processa apenas os dados pro
 As seguintes dimensões e métricas não são compatíveis com o Processamento de tempo do relatório:
 
 * **Analytics for Target**
-* [**Dimensões/métricas do Advertising**](/help/components/dimensions/amo-id.md)
+* [**dimensões/métricas do Advertising**](/help/components/dimensions/amo-id.md)
 * **eVars do contador**
 * [**Dias Antes da Primeira Compra**](/help/components/dimensions/days-before-first-purchase.md)
-* [**Dias desde a última compra**](/help/components/dimensions/days-since-last-purchase.md)
+* [**Dias Desde a Última Compra**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Dias desde a última visita**](/help/components/dimensions/days-since-last-visit.md)
 * [**Página de entrada original**](/help/components/dimensions/entry-dimensions.md)
 * **eVars de alocação linear**
 * **Listar Vars**
 * [**Dimensões de Canais de marketing**](/help/components/dimensions/marketing-channel.md)
-* [**Domínio referenciador original**](/help/components/dimensions/original-referring-domain.md)
-* [**Frequência de retorno**](/help/components/dimensions/return-frequency.md)
+* [**Domínio de Referência Original**](/help/components/dimensions/original-referring-domain.md)
+* [**Frequência de Retorno**](/help/components/dimensions/return-frequency.md)
 * [**Acesso único**](/help/components/metrics/single-access.md)
 * **Fontes de Dados de ID de Transação**
 * [**Número da visita**](/help/components/dimensions/visit-number.md)

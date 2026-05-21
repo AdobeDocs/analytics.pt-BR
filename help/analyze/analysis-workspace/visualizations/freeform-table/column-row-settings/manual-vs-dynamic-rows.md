@@ -4,10 +4,23 @@ description: Saiba como usar itens de dimensão dinâmicos versus estáticos em 
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/hP5X4gRBiRB1wmGziYT25iGS-Enpuu0C--3qeGxrvb4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 94%
+source-wordcount: 576
+ht-degree: 80%
 
 ---
 
@@ -21,9 +34,9 @@ Os itens de dimensão dinâmicos mudam com o tempo e dependem da métrica que es
 
 Ao soltar uma dimensão em uma tabela de forma livre, linhas dinâmicas são retornadas. As linhas dinâmicas representam os principais itens correspondentes à dimensão de uma determinada métrica e período. Também é possível soltar uma dimensão em colunas de tabela de forma livre. A dimensão se expande automaticamente para os 5 itens de dimensão principais.
 
-Por exemplo, ao arrastar a dimensão Tipo de navegador para a tabela, os principais itens de dimensão do Tipo de navegador (por exemplo, Microsoft, Apple, Google etc.) retornam dinamicamente às linhas da tabela. Se forem soltos em uma coluna, os 5 principais itens da dimensão Tipo de navegador retornarão dinamicamente.
+Por exemplo, ao arrastar a dimensão Tipo de navegador para a tabela, os principais itens de dimensão Tipo de navegador (por exemplo, Microsoft, Apple, Google etc.) retornam dinamicamente às linhas da tabela. Se forem soltos em uma coluna, os 5 principais itens da dimensão Tipo de navegador retornarão dinamicamente.
 
-Os itens de dimensão dinâmicos possuem as opções ![Filtro](/help/assets/icons/Filter.svg) e ![Fechar](/help/assets/icons/Close.svg) para a filtragem de linhas, mas **não** possuem uma opção de bloqueio ![LockClosed](/help/assets/icons/LockClosed.svg). <!--do they have the lock icon? --> Ao clicar em ![Fechar](/help/assets/icons/Close.svg) ao lado de um item de dimensão dinâmico, um filtro é aplicado automaticamente. Para obter mais informações sobre como aplicar filtros a tabelas, consulte [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Os itens de dimensão dinâmicos têm a opção de filtro de linha ![Filtro](/help/assets/icons/Filter.svg) e um ![Fechamento](/help/assets/icons/Close.svg), e **não** têm um bloqueio ![BloqueioFechado](/help/assets/icons/LockClosed.svg) presente. <!--do they have the lock icon? --> Ao clicar em ![Fechar](/help/assets/icons/Close.svg) ao lado de um item de dimensão dinâmico, um filtro é aplicado automaticamente. Para obter mais informações sobre como aplicar filtros a tabelas, consulte [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
 ![Uma tabela de forma livre com destaque para o ícone de filtro.](assets/dynamic-items.png)
@@ -32,7 +45,7 @@ Os itens de dimensão dinâmicos possuem as opções ![Filtro](/help/assets/icon
 
 Os itens de dimensão estáticos não mudam com o tempo; são componentes fixos que são sempre retornados em uma tabela de forma livre. Os itens de dimensão estáticos são usados quando você deseja sempre analisar o mesmo item, sejam campanhas específicas ou dias específicos da semana.
 
-Sempre que você selecionar e soltar manualmente valores de componentes específicos (dimensão, métrica, filtro, intervalo de datas) em uma tabela, o resultado será uma lista estática de linhas ou colunas. 
+Sempre que você selecionar e soltar manualmente valores de componentes específicos (dimensão, métrica, filtro, intervalo de datas) em uma tabela, o resultado será uma lista estática de linhas ou colunas.
 
 Por exemplo, ao arrastar sobre itens específicos de Tipo de navegador, como Microsoft e Apple, esses 2 itens específicos sempre são puxados para a tabela.
 

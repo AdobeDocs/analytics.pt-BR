@@ -3,10 +3,20 @@ title: Exportação de dados de classificação via FTP
 description: A exportação de FTP oferece mais flexibilidade com downloads de conjuntos de dados, incluindo o download de dados de vários conjuntos de relatórios e o download de arquivos de conjuntos de dados com mais de 50.000 linhas de dados
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 68%
+source-wordcount: 632
+ht-degree: 64%
 
 ---
 
@@ -45,8 +55,8 @@ Essas etapas descrevem como exportar (fazer download) classificações no Adobe 
 | [!UICONTROL Selecione o número de linhas] | Especifique quantas linhas de dados serão exportadas.<ul><li>Selecione **[!UICONTROL Tudo]** para fazer download de todos os dados do relatório.</li><li>Selecione **[!UICONTROL Limitar linhas de dados a]** se deseja especificar uma certa quantidade de linhas para baixar.</li></ul> |
 | [!UICONTROL Filtrar por data de recebimento] | (Opcional) Filtre os dados pela data em que foram recebidos. Especifique o intervalo de datas para o qual deseja baixar os dados. |
 | [!UICONTROL Aplicar filtro de dados] | (Opcional) Filtre o conjunto de dados por critérios de dados. É possível filtrar o download para incluir linhas de dados com um valor específico ou linhas de dados com valores de colunas não atribuídos (classificação). |
-| [!UICONTROL Filtro de datas] | (Opcional) Filtre os dados por dados da campanha. Você pode baixar dados apenas de campanhas ativas ou selecionar campanhas que começam (ou terminam) em um intervalo de datas específico. |
+| [!UICONTROL Filtro de datas] | (Opcional) Filtre dados pelos dados da campanha.Você pode baixar dados somente de campanhas ativas ou selecionar campanhas que comecem (ou terminem) em um intervalo de datas específico. |
 | [!UICONTROL Exportar numérico 2] | É possível importar classificações numéricas 2 para o sistema por meio do importador. As classificações numéricas 2 são úteis para variáveis que mudam ao longo do tempo para itens diferentes, como valores de custo e orçamento para o relatório Canal de Marketing. |
 | [!UICONTROL Conta FTP] | Especifique as informações do servidor FTP em que deseja que a Adobe faça download do arquivo de dados, incluindo a porta e nome de host, caminho para o diretório de destino, nome de usuário e senha. |
 | [!UICONTROL Notificação] | Especifique o endereço de email para receber notificações sobre esse download do FTP. |
-| [!UICONTROL Codificação] | Selecione a codificação de caracteres para o arquivo de dados. O formato de codificação padrão é UTF-8 ou ISO-8859-1, baseado na codificação que foi enviada para classificação. UTF-8 para UTF-16 converte suas classificações codificadas UTF-8 para codificação UTF-16. O ISO-8859-1 para UTF-16 converte suas classificações codificadas em ISO-8859-1 para codificação UTF-16.<br>**Observação:** se você optar por converter para UTF-16, a codificação de origem deverá corresponder à codificação do carregamento original, ou você poderá obter resultados inesperados. Recomendamos codificar todos os arquivos carregados em UTF-8 sem BOM. |
+| [!UICONTROL Codificação] | Selecione a codificação de caracteres para o arquivo de dados. O formato de codificação padrão é UTF-8 ou ISO-8859-1, baseado na codificação que foi enviada para classificação. UTF-8 para UTF-16 converte suas classificações codificadas UTF-8 para codificação UTF-16. O ISO-8859-1 para UTF-16 converte suas classificações codificadas em ISO-8859-1 para codificação UTF-16.<br>**Observação:** Se você optar por converter para UTF-16, a codificação de origem deverá corresponder à codificação do carregamento original ou você poderá obter resultados inesperados. Recomendamos codificar todos os arquivos carregados em UTF-8 sem BOM. |

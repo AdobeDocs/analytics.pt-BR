@@ -5,10 +5,23 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+TQID: https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 4%
+source-wordcount: 567
+ht-degree: 2%
 
 ---
 
@@ -25,7 +38,7 @@ Altere as configurações gerais da extensão e as sobreposições.
 * **[!UICONTROL Empresas]**: mostra a organização atual do Analytics na qual você está conectado.
 * **[!UICONTROL Nome da página]**: mostra o nome da página atual.
 * **[!UICONTROL Idioma]**: altera o idioma para rótulos de extensão do Activity Map. Essa configuração não altera o conteúdo do site nem os nomes dos links nos relatórios. Os idiomas suportados incluem inglês, francês, chinês (simplificado), chinês (tradicional), alemão, japonês, coreano, espanhol e português.
-* **[!UICONTROL Sobreposições de rótulo com]**: determina o texto da bolha ou do gradiente. A configuração padrão é [!UICONTROL Rank]. As opções incluem: 
+* **[!UICONTROL Sobreposições de rótulo com]**: determina o texto da bolha ou do gradiente. A configuração padrão é [!UICONTROL Rank]. As opções incluem:
    * **[!UICONTROL Nenhum rótulo]**: nenhum texto nos rótulos, tornando-os caixas coloridas
    * **[!UICONTROL Valor]**: exibe o número de cliques em links ([Ocorrências](/help/components/metrics/occurrences.md))
    * **[!UICONTROL Percentual]**: exibe a proporção de cliques em links em comparação ao número total de cliques em links na página
@@ -51,6 +64,6 @@ Ajuste as configurações para a exibição padrão.
 ## Configurações em tempo real
 
 * **[!UICONTROL Exibir primeiros]**: exibe o primeiro número de ganhadores ou perdedores com base na lista suspensa numérica à esquerda.
-* **[!UICONTROL Excluir inferior (%)]**: filtre a porcentagem inferior das alterações de link para exibir somente os links com dados suficientes para mostrar ganhos ou perdas relevantes. A porcentagem é calculada com base no número de links na página. Por exemplo, filtrar os 10% inferiores de uma lista de 200 links filtraria os 20 links inferiores.
+* **[!UICONTROL Excluir inferior (%)]**: filtre a porcentagem inferior das alterações de link para exibir somente os links com dados suficientes para mostrar ganhos ou perdas relevantes. A porcentagem é calculada com base no número de links nessa página. Por exemplo, filtrar os 10% inferiores de uma lista de 200 links filtraria os 20 links inferiores.
 * **[!UICONTROL Dados de atualização automática]**: determina se os dados do Analytics mostrados na sobreposição são atualizados automaticamente quando um novo período é calculado.
 * **[!UICONTROL Período de atualização automática]**: quando marcado, atualiza a página a cada nova recuperação de dados para que os links na página sejam sincronizados mais estreitamente com os dados coletados.

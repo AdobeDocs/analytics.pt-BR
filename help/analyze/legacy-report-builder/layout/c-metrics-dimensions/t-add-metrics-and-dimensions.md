@@ -5,10 +5,20 @@ uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 feature: Report Builder
 role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/nKf59WLxvtYrcyR-mQ8oM41rUDLl3qpkwbujRDBV27A
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 38%
+source-wordcount: 585
+ht-degree: 14%
 
 ---
 
@@ -23,11 +33,11 @@ Etapas para adicionar métricas e dimensões a uma solicitação.
 
    ![Captura de tela mostrando o Assistente de solicitações: etapa 2 com uma seta apontando da lista de métricas para a seção de exibição de página desejada.](assets/adding_metrics.png)
 
-   Quando você adiciona métricas, elas não são removidas da guia [!UICONTROL Métricas], porque você pode exibir as métricas várias vezes em uma solicitação. Por exemplo, você pode exibir o subtotal da métrica além de cada valor. No entanto, a lista de métricas disponíveis muda toda vez que você adiciona ou remove uma dimensão.
+   Ao adicionar métricas, elas não são removidas da guia [!UICONTROL Métricas], pois você pode exibir métricas várias vezes em uma solicitação. Por exemplo, você pode exibir o subtotal da métrica além de cada valor. No entanto, a lista de métricas disponíveis muda sempre que você adiciona ou remove uma dimensão.
 
-   É possível adicionar métricas somente à seção de layout [!UICONTROL Métricas]. As métricas adicionadas ao layout do [!UICONTROL Rótulo de coluna] como [!UICONTROL Cabeçalho de métrica]. Se você transferir um [!UICONTROL Cabeçalho de métrica] de um [!UICONTROL Layout de coluna] para [!UICONTROL Layout de linha], ele é exibido lá e usado como métrica e análise.
+   É possível adicionar métricas somente à seção de layout [!UICONTROL Métricas]. As métricas foram adicionadas ao layout [!UICONTROL Rótulo da Coluna] como um [!UICONTROL Cabeçalho de Métrica]. Se você mover um [!UICONTROL Cabeçalho de Métrica] do [!UICONTROL Layout da Coluna] para o [!UICONTROL Layout da Linha], ele será exibido lá e usado como uma métrica de detalhamento.
 
-   Observe que uma barra de pesquisa aparece na guia Métricas, logo acima da lista de Métricas.
+   Observe que uma barra de Pesquisa é exibida na guia Métricas, logo acima da lista Métrica.
 
    ![Captura de tela mostrando a barra de pesquisa Métricas.](assets/search_bar_metric.png)
 
@@ -46,12 +56,12 @@ O termo de pesquisa não é limpo:
 * Ao arrastar e soltar (ou clicar duas vezes) um item de métrica da lista para que ele seja adicionado ao Painel Layout dinâmico/Métricas de layout personalizadas.
 * Ao remover itens de métrica do Painel Layout dinâmico/Métrica de layout personalizado.
 * Ao clicar na guia Dimension, retorne à guia Métrica.
-* Ao chamar outros subformulários (modal ou não modal) que ao sair retornarão para a Etapa 2 do assistente de solicitações. Os exemplos de formulários são
+* Ao chamar outros subformulários (modal ou não modal) que ao sair retornarão para a Etapa 2 do assistente de solicitações. Exemplos desses formulários são
 
-   * Formulários de filtro de dimensão
-   * Formulários de formatação por intervalos de datas
-   * Formulário de opções de formato
-   * Formulário de texto anterior-posterior
+   * Dimension Filter Forms
+   * Forms de formatação de intervalo de datas
+   * Formulário de Opções de Formato
+   * Prefixar-Incluir Formulário de Texto
    * Formulário de localização do intervalo de saída
 
 ## Classificar uma solicitação por métrica
@@ -76,6 +86,6 @@ Para classificar uma solicitação por métrica
 
 1. Modifique métricas e dimensões configurando opções e filtros de [formato](/help/analyze/legacy-report-builder/layout/t-format-display-headers.md).
 1. Clique em **[!UICONTROL Concluir]**.
-No exemplo a seguir, dimensões estão relacionadas à métrica [!UICONTROL Página]. A dimensão [!UICONTROL Domínio de Referência] cria um relatório de detalhamento entre [!UICONTROL Página] e [!UICONTROL Domínio de Referência]. A guia [!UICONTROL Dimensão] é atualizada apenas com as dimensões que você pode adicionar a um relatório de detalhamento.
+No exemplo a seguir, dimensões estão relacionadas à métrica [!UICONTROL Página]. A dimensão [!UICONTROL Domínio de Referência] cria um relatório de detalhamento entre [!UICONTROL Página] e [!UICONTROL Domínio de Referência]. A guia [!UICONTROL Dimension] é atualizada somente com dimensões que você pode adicionar a um relatório de detalhamento.
 
    ![Captura de tela mostrando as dimensões relacionadas à métrica.](assets/page_pageview_02.png)

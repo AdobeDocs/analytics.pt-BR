@@ -4,10 +4,23 @@ title: Editar entradas no Dicionário de dados
 feature: Components
 role: Admin
 exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+TQID: https://experienceleague.adobe.com/qik-sXUm4ldjmWLyjowFcz0EVYDWU9ex0dyPsE-BiRU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 88%
+source-wordcount: 1207
+ht-degree: 89%
 
 ---
 
@@ -23,7 +36,7 @@ Para editar um componente no Dicionário de dados:
 
    A janela do dicionário de dados é exibida.
 
-   ![Visualização do administrador do Dicionário de dados](assets/data-dictionary-admin.png)
+   ![Visualização de administrador do dicionário de dados](assets/data-dictionary-admin.png)
 
 1. Verifique se o conjunto de relatórios correto está selecionado no menu suspenso. Por padrão, o conjunto de relatórios em que você já está é exibido.
 
@@ -46,7 +59,7 @@ Para editar um componente no Dicionário de dados:
    | **[!UICONTROL Descrição ausente]** | Somente os componentes que ainda não têm uma descrição no campo Descrição. Essa opção está disponível somente para administradores. |
    | **[!UICONTROL Mostrar duplicatas]** | <p>Somente componentes que tenham o mesmo nome ou a mesma definição de outro componente no Conjunto de relatórios selecionado. Nomes ou definições precisam ser correspondências exatas para serem mostradas como duplicatas.</p><p>Essa opção está disponível somente para administradores.</p><p>**OBSERVAÇÃO:** para definições, isso inclui os componentes criados por você assim como os fornecidos pela Adobe. Para os nomes, isso atualmente inclui apenas os componentes criados por você e não os fornecidos pela Adobe. A exibição de nomes duplicados para componentes fornecidos pela Adobe será adicionada em uma versão posterior.</p> |
    | **[!UICONTROL Sem dados recentes]** | Somente componentes que não coletaram dados nos últimos 90 dias. Essa opção está disponível somente para administradores. |
-   | **[!UICONTROL Criado por Adobe]** <!-- I don't see this option--> | Mostrar somente componentes que foram criados pelo Adobe.  Por exemplo, Adobe Target. Os componentes que foram criados por um administrador ou outro usuário em sua organização não são mostrados. |
+   | **[!UICONTROL Criado por Adobe]** <!-- I don't see this option--> | Mostrar somente componentes que foram criados pela Adobe.  Por exemplo, Adobe Target. Os componentes que foram criados por um administrador ou outro usuário em sua organização não são mostrados. |
 
    {style="table-layout:auto"}
 
@@ -75,7 +88,7 @@ Para editar um componente no Dicionário de dados:
    | **[!UICONTROL Semelhante a]** | <p>Mostra componentes com nomes semelhantes ao componente que você está visualizando.</p><p>Até 5 componentes são mostrados nos 5 tipos de componentes principais: métrica, métrica calculada, dimensão, segmento e intervalo de datas.</p><p>Somente os componentes que você tem acesso para exibir são mostrados.</p><p>Qualquer componente duplicado em seu conjunto de relatórios também será exibido aqui. Os administradores do Analytics devem identificar e remover todos os componentes duplicados, conforme descrito em [Monitorar integridade do dicionário de dados](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Os administradores podem preparar os componentes que os usuários veem nesta seção selecionando os componentes desejados nos campos suspensos **[!UICONTROL Sempre incluir]** e **[!UICONTROL Sempre excluir]**. Antes de preparar os componentes que os usuários veem, aplique primeiro o filtro **Mostrar tudo** para garantir que você veja todos os componentes que não estão sendo compartilhados com você.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**OBSERVAÇÃO:** atualmente, a seção **Semelhante a** inclui apenas componentes criados por você e não os fornecidos pela Adobe. Os componentes fornecidos pela Adobe serão adicionados em uma versão posterior.</p> |
    | **[!UICONTROL Tags]** | Mostra todas as tags aplicadas ao componente. Os usuários com acesso de administrador podem adicionar tags ao editar o componente. |
    | **[!UICONTROL Tipo de componente]** | Lista o tipo de componente, seja uma dimensão, uma métrica, um segmento ou um intervalo de datas. |
-   | **[!UICONTROL Criado por]** | Mostra o nome do usuário que criou o componente. |
+   | **[!UICONTROL Criado por]** | Exibe o nome do usuário que criou o componente. |
    | **[!UICONTROL Pré-visualizar]** | Mostra uma pré-visualização de como o componente é exibido no Analysis Workspace. |
    | **[!UICONTROL Data da última modificação]** | Exibe o dia em que o componente foi modificado pela última vez. Esta seção é exibida durante a visualização de segmentos, métricas calculadas e intervalos de datas. |
 

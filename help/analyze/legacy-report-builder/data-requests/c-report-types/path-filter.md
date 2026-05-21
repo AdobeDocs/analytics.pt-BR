@@ -4,10 +4,19 @@ title: Filtrar relatório de caminho com o Assistente de solicitação
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/DQ75Rl9mhTocg9aDfBfTYvwUZxb875iEynjc7BCcy90
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 62%
+source-wordcount: 427
+ht-degree: 57%
 
 ---
 
@@ -17,7 +26,7 @@ ht-degree: 62%
 
 Descreve as etapas envolvidas na aplicação de filtros para um relatório de definição de caminho.
 
-Esse exemplo usa Caminhos de seção do site.
+Este exemplo usa Caminhos de seção do site.
 
 1. No Report Builder da Adobe, clique em **[!UICONTROL Criar]** para abrir o Assistente de solicitação.
 1. Selecione o conjunto de relatórios apropriado.
@@ -56,7 +65,7 @@ Esse exemplo usa Caminhos de seção do site.
 
 É possível editar um padrão predefinido depois de selecionar um padrão.
 
-1. Continuando nas etapas acima, selecione o padrão. Por exemplo, selecione o **[!UICONTROL Padrão de saída de site]**:
+1. Continuando nas etapas acima, selecione o padrão. Por exemplo, selecione o **[!UICONTROL Padrão de Saída de Site]**:
 
    ![Captura de tela destacando o padrão selecionado.](assets/exited_site_pattern.png)
 

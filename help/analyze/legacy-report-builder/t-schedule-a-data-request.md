@@ -5,10 +5,25 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/CPg94k8G-tLWRvgdYHLz1UP2p1gJ7ad1g39rFtMWAG4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 81%
+source-wordcount: 972
+ht-degree: 77%
 
 ---
 
@@ -48,8 +63,8 @@ Por exemplo, você pode programar a entrega imediata de pastas de trabalho ou co
 
 | Campo | Descrição |
 |--- |--- |
-| Selecionar relatório | O nome da pasta de trabalho. Para novos relatórios agendados, esse campo é preenchido com o nome da pasta de trabalho ativa. |
-| Selecionar | Exibe a página Selecionar relatório. Você pode selecionar um relatório do servidor (onde todas as pastas de trabalho previamente agendadas estão armazenadas), ou de sua máquina local. Se você selecionar uma pasta de trabalho na unidade local no formato .xls, o sistema converterá o arquivo em .xlsx. Como parte da conversão, o arquivo é aberto no Excel e ativado. Se a pasta de trabalho selecionada para o relatório agendado tiver o mesmo nome de arquivo que a pasta de trabalho atualmente aberta no Excel, o sistema selecionará o arquivo local em vez do arquivo carregado anteriormente. Se você selecionar um relatório do repositório de agendamento, uma cópia da pasta de trabalho será criada no servidor, com seu nome de arquivo atualizado com 1 e o relatório agendado recém-criado usará a pasta de trabalho copiada. |
+| Selecionar Relatório | O nome da pasta de trabalho. Para novos relatórios agendados, esse campo é preenchido com o nome da pasta de trabalho ativa. |
+| Selecionar | Exibe a página Selecionar relatório. Você pode selecionar um relatório do servidor (onde todas as pastas de trabalho previamente agendadas estão armazenadas), ou de sua máquina local. Se você selecionar uma pasta de trabalho na unidade local no formato .xls, o sistema converterá o arquivo em .xlsx. Como parte da conversão, o arquivo é aberto no Excel e ativado. Se a pasta de trabalho selecionada para o relatório agendado tiver o mesmo nome de arquivo que a pasta de trabalho atualmente aberta no Excel, o sistema selecionará o arquivo local em vez do arquivo carregado anteriormente. Se você selecionar um relatório do repositório de agendamento, uma cópia da pasta de trabalho será criada no servidor, com seu nome de arquivo atualizado com 1. O relatório agendado recém-criado usa a pasta de trabalho copiada. |
 | Personalizar | Permite personalizar o formato de data. |
 | Para | Exibe o Catálogo de Endereços do Outlook, se aplicável. |
 | Enviar para: Email | O destinatário do e-mail da pasta de trabalho. |

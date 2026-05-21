@@ -4,10 +4,19 @@ title: Como copiar solicitações referenciais
 feature: Report Builder
 role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/A-ef3rd0b7WMBRqBgmxFWpa35x8R7qYF1dMkF5gx5Ec
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 80%
+source-wordcount: 533
+ht-degree: 40%
 
 ---
 
@@ -23,7 +32,7 @@ Para propagar ou copiar e colar solicitações referenciais na planilha:
 
 * Os dados produzidos pela solicitação devem conter uma célula cujo valor depende de uma solicitação em outra célula (usando um filtro de detalhamento ou correspondência) ou dependente de um filtro que recebe entrada de dados inseridos em uma célula.
 
-Também é possível criar solicitações que fazem referência a filtros de entrada a partir de solicitações em diferentes planilhas, mas não em pastas de trabalho diferentes. Por exemplo, uma solicitação na Planilha 2 pode usar um conjunto de relatórios de uma determinada célula na Planilha 1 e um intervalo de datas de uma célula em uma solicitação na Planilha 2. A nova saída pode ser colocada em qualquer uma das duas planilhas ou em uma nova planilha na mesma pasta de trabalho. Quando você cola uma solicitação relativa, se um filtro de entrada residir em uma planilha diferente daquela em que a saída da solicitação copiada está localizada, o filtro será colado como um filtro absoluto.
+Também é possível criar solicitações que fazem referência a filtros de entrada a partir de solicitações em diferentes planilhas, mas não em pastas de trabalho diferentes. Por exemplo, uma solicitação na Planilha 2 pode usar um conjunto de relatórios de uma determinada célula na Planilha 1 e um intervalo de datas de uma célula em uma solicitação na Planilha 2. A nova saída pode ser colocada em uma planilha ou em uma nova planilha na mesma pasta de trabalho. Quando você cola uma solicitação relativa, se um filtro de entrada reside em uma planilha diferente da planilha na qual a saída da solicitação copiada está localizada, o filtro é colado como um filtro absoluto.
 
 >[!NOTE]
 >
@@ -42,6 +51,6 @@ Também é possível criar solicitações que fazem referência a filtros de ent
 
    Ao colar solicitações que incluem uma célula de entrada, as opções em [!UICONTROL Colar solicitações] incluem:
 
-   **Usar célula de entrada absoluta:** Cola uma cópia da solicitação (ou solicitações) e a formatação associada com as células selecionadas na região de colagem realçada. A célula de entrada (a célula a que uma das solicitações originais faz referência) não é colada. Em vez disso, a célula de entrada permanece na mesma posição de antes.
+   **Usar Célula de Entrada Absoluta:** Cola uma cópia da(s) solicitação(ões) e da formatação associada às células selecionadas na área de colagem que você realçar. A célula de entrada (a célula a que uma das solicitações originais faz referência) não é colada. Em vez disso, a célula de entrada permanece na mesma posição de antes.
 
-   **Usar célula de entrada relativa:** Cola uma cópia da solicitação (ou solicitações) e a formatação associada com as células selecionadas na região de colagem realçada, incluindo uma cópia da célula de entrada. O relacionamento espacial das solicitações com a célula de entrada é o mesmo que nas solicitações originais. Entretanto, enquanto as células recém-coladas agora têm uma cópia das solicitações, inicialmente elas não têm conteúdo. Isso acontece porque quando a célula de entrada é recriada na operação de colagem, nenhum dado é associado à célula de entrada. Para exibir dados para a solicitação ou solicitações recém-coladas, você precisa inserir um valor na célula de entrada e, em seguida, atualizar as solicitações.
+   **Usar Célula de Entrada Relativa:** Cola uma cópia da(s) solicitação(ões) e da formatação associada às células selecionadas na área de colagem selecionada, incluindo uma cópia da célula de entrada. O relacionamento espacial das solicitações com a célula de entrada é o mesmo que nas solicitações originais. Entretanto, enquanto as células recém-coladas agora têm uma cópia das solicitações, inicialmente elas não têm conteúdo. Isso acontece porque quando a célula de entrada é recriada na operação de colagem, nenhum dado é associado à célula de entrada. Para exibir dados para as solicitações recém-coladas, você deve inserir um valor na célula de entrada e, em seguida, atualizar as solicitações.

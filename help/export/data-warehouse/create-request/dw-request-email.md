@@ -1,11 +1,17 @@
 ---
-description: Etapas que descrevem como criar uma solicitação do data warehouse.
+description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
 title: Configurar opções de relatório para uma solicitação Data Warehouse
 feature: Data Warehouse
 exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/JGkMN9uvaTb2fovcpEpNeP3mr6xWsOSKNF2GfhAGp3Q
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: 211
 ht-degree: 38%
 
 ---

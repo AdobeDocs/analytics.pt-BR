@@ -5,10 +5,22 @@ uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/ZAVAW4NN9WCHCdj-ZPXDOflV4oC0-WPbClzkdlrf3JM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 74%
+source-wordcount: 563
+ht-degree: 38%
 
 ---
 
@@ -40,11 +52,11 @@ O [!UICONTROL Gerenciador de Solicitações] é exibido ao clicar em **[!UICONTR
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Todas as planilhas </p> </td> 
-   <td colname="col2"> <p>Exibe solicitações de todas as planilhas na pasta de trabalho ativa. Para exibir solicitações de planilhas específicas, desative esta opção. Se você desativar esta opção, deverá clicar em uma guia Planilha na parte inferior do relatório do Excel para exibir as solicitações associadas a essa planilha no <span class="wintitle">Gerenciador de solicitações</span>. O rótulo ao lado da caixa de seleção indica qual planilha da pata de trabalho está em foco. </p> </td> 
+   <td colname="col2"> <p>Exibe solicitações de todas as planilhas na pasta de trabalho ativa. Para exibir solicitações de planilhas específicas, desative esta opção. Se você desativar esta opção, deverá clicar em uma guia Planilha na parte inferior do relatório do Excel para exibir as solicitações associadas a essa planilha no <span class="wintitle">Gerenciador de solicitações</span>. O rótulo ao lado da caixa de seleção indica qual planilha da pasta de trabalho tem o foco no momento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Planilha </p> </td> 
-   <td colname="col2"> <p>Exibe o nome das planilhas em uma pasta de trabalho. </p> </td> 
+   <td colname="col2"> <p>Exibe o nome das planilhas na pasta de trabalho. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Conjunto de relatórios </p> </td> 
@@ -64,7 +76,7 @@ O [!UICONTROL Gerenciador de Solicitações] é exibido ao clicar em **[!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adicionar </p> </td> 
-   <td colname="col2"> <p>Exibe a caixa de diálogo do Assistente de solicitações. Consulte <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Criar uma solicitação de dados</a>. </p> </td> 
+   <td colname="col2"> <p>Exibe a caixa de diálogo Assistente de solicitações. Consulte <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Criar uma solicitação de dados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Editar </p> </td> 
@@ -72,23 +84,23 @@ O [!UICONTROL Gerenciador de Solicitações] é exibido ao clicar em **[!UICONTR
   </tr> 
   <tr> 
    <td colname="col1"> <p>Excluir </p> </td> 
-   <td colname="col2"> <p>Exclui solicitações. Você pode excluir várias solicitações selecionadas. Também pode excluir uma solicitação na lista selecionando-a e pressionando Del no teclado. </p> </td> 
+   <td colname="col2"> <p>Exclui solicitações. Você pode excluir várias solicitações selecionadas. Você também pode excluir uma solicitação na lista selecionando a solicitação e pressionando Excluir no teclado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Selecionar Todas </p> </td> 
-   <td colname="col2"> <p>Seleciona todas as solicitações. O <span class="wintitle">Gerenciador de solicitações</span> exibe o número de solicitações que você selecionou na parte inferior da lista de solicitações. </p> </td> 
+   <td colname="col2"> <p>Selecionar todas as solicitações. O <span class="wintitle">Gerenciador de solicitações</span> exibe o número de solicitações que você selecionou na parte inferior da lista de solicitações. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Da célula </p> </td> 
-   <td colname="col2"> <p>Obtém dados para uma solicitação a partir da planilha. Se uma solicitação estiver associada à célula selecionada no momento na planilha ativa, a solicitação associada é selecionada. </p> </td> 
+   <td colname="col1"> <p>Da Célula </p> </td> 
+   <td colname="col2"> <p>Obtém dados para uma solicitação da planilha. Se uma solicitação estiver associada à célula selecionada no momento na planilha ativa, a solicitação associada na lista será selecionada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Atualizar </p> </td> 
    <td colname="col2"> <p>Atualiza uma única solicitação ou uma seleção de solicitações. (Consulte <a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   > Atualizar uma solicitação</a>.) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Atualizar Lista </p> </td> 
-   <td colname="col2"> <p>Atualiza todas as solicitações exibidas. Quando você atualiza todas as solicitações, o tempo que leva para atualizar as informações do servidor no relatório é diretamente proporcional à complexidade das solicitações no relatório. Para relatórios muito grandes, atualizar todas as solicitações pode levar vários minutos. Por isso, você pode querer atualizar as solicitações mais urgentes individualmente e selecionar <span class="wintitle">Atualizar tudo</span> em outro momento menos urgente. </p> <p> <p>Observação: recomenda-se verificar os resultados com frequência no <span class="wintitle">Gerenciador de solicitações</span> se você atualizar uma planilha que contém várias solicitações. Se ocorrer uma falha da solicitação, a mensagem de erro na coluna de diagnóstico ajuda a identificar a fonte do erro. Embora muitas vezes uma mensagem de erro seja exibida quando há falhas de solicitação, observe que, às vezes, nenhuma mensagem é gerada. Você poderá notar que uma atualização não atualiza os dados em uma célula que contém uma referência, ou remove os dados da célula. </p> </p> </td> 
+   <td colname="col1"> <p>Atualizar lista </p> </td> 
+   <td colname="col2"> <p>Atualiza todas as solicitações exibidas. Quando você atualiza todas as solicitações, o tempo que leva para atualizar as informações do servidor no relatório é diretamente proporcional à complexidade das solicitações no relatório. Para relatórios muito grandes, atualizar todas as solicitações pode levar vários minutos. Por isso, você pode querer atualizar as solicitações mais urgentes individualmente e selecionar <span class="wintitle">Atualizar tudo</span> em outro momento menos urgente. </p> <p> <p>Observação: recomenda-se verificar os resultados com frequência no <span class="wintitle">Gerenciador de solicitações</span> se você atualizar uma planilha que contém várias solicitações. Se ocorrer uma falha de solicitação, a mensagem de erro na coluna de diagnóstico o ajudará a identificar a origem do erro. Embora, na maioria dos casos, uma mensagem de erro seja exibida quando uma solicitação falha, observe que, ocasionalmente, nenhuma mensagem de erro é gerada. Você pode notar que uma atualização não atualiza os dados em uma célula que contém uma referência ou que uma atualização remove os dados da célula. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

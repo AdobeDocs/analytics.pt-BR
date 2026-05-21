@@ -4,13 +4,26 @@ keywords: segmentação;segmentos
 title: Contêineres de segmentos
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '3564'
-ht-degree: 68%
+source-wordcount: 3545
+ht-degree: 69%
 
 ---
-
 
 # Containers de segmentos
 
@@ -59,7 +72,7 @@ O container Visitante inclui cada visita e exibição de página de visitante em
 Os contêineres de visitantes podem incluir valores com base no histórico geral do visitante:
 
 - Dias Antes da Primeira Compra
-- Página de entrada original
+- Página de Entrada Original
 - Domínios de referência originais
 
 ## Container de Visita
@@ -76,7 +89,7 @@ Os contêineres de visita incluem valores com base na ocorrência por visita:
 
 ## Container de Ocorrência
 
-O container de Ocorrência define quais ocorrências de página você deseja incluir ou excluir de um segmento. O container de Ocorrência é o mais restrito dos containers disponíveis e permite identificar cliques e exibições de página específicas nas quais uma condição é “verdadeira”. Você pode exibir um único código de rastreamento ou isolar o comportamento em uma seção específica do site. Você também pode apontar um valor específico quando uma ação ocorre, como o canal de marketing quando um pedido foi feito.
+O container de Ocorrência define quais ocorrências de página você deseja incluir ou excluir de um segmento. O container de Ocorrência é o mais restrito dos containers disponíveis e permite identificar cliques e exibições de página específicas nas quais uma condição é “verdadeira”. Você pode exibir um único código de rastreamento ou isolar o comportamento em uma seção específica do site. Talvez você também queira identificar um valor específico quando uma ação ocorre, como quando um pedido é feito no canal de marketing.
 
 Os contêineres de ocorrência incluem valores com base em detalhamentos de página única:
 
@@ -242,7 +255,7 @@ A única exceção a essa hierarquia de containers é ao usar o [container de G
 
 Os containers permitem filtrar dados diferentes de forma diferente com base em valores de relatórios ao detalhar segmentos e aplicá-los a relatórios.
 
-Os dados capturados em cada nível da hierarquia de Visitantes > Visitas > Contêineres de ocorrência afetam a maneira como você constrói seus segmentos. Se você aplicar o mesmo segmento ao mesmo relatório usando o mesmo conjunto de dados, obterá valores diferentes com base no container a partir do qual você gerou o relatório. Fatores como o nível de relatório de container e a persistência de valores em ocorrências podem resultar em grandes alterações na precisão dos relatórios. 
+Os dados capturados em cada nível da hierarquia de Visitantes > Visitas > Contêineres de ocorrência afetam a maneira como você constrói seus segmentos. Se você aplicar o mesmo segmento ao mesmo relatório usando o mesmo conjunto de dados, obterá valores diferentes com base no container a partir do qual você gerou o relatório. Fatores como o nível de relatório de container e a persistência de valores em ocorrências podem resultar em grandes alterações na precisão dos relatórios.
 
 ### Dados básicos de contêiner {#container-data}
 

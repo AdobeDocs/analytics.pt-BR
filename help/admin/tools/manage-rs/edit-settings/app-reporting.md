@@ -3,10 +3,34 @@ description: Ative dimensões e métricas para usar no rastreamento de aplicativ
 title: Relatório do aplicativo
 feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/oF-tETs2-MWjSLoo5bVUmrr2nS4N1o2shD4DkMDAVLU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: c77ba355-6681-41fe-b719-563d3f507fdb
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 13%
+source-wordcount: 543
+ht-degree: 11%
 
 ---
 
@@ -50,7 +74,7 @@ Quando você habilita os [!UICONTROL Relatórios de Aplicativos], as seguintes d
 * [!UICONTROL Versão do Sistema Operacional (SDK)]
 * [!UICONTROL Resolução (SDK)]
 
-As métricas a seguir estão disponíveis:
+As seguintes métricas estão disponíveis:
 
 * [!UICONTROL Tempo da ação no aplicativo]
 * [!UICONTROL Tempo da ação total]
@@ -67,7 +91,7 @@ As dimensões [!UICONTROL Rastreamento de localização] são usadas para as seg
 
 * Rastrear dados de latitude e longitude
 * Identificar, criar e visualizar pontos de interesse específicos. Os pontos de interesse devem ser definidos no arquivo de configuração do SDK móvel.
-* Rastrear beacons bluetooth (UUID, maior, menor e proximidade).
+* Rastrear sinais do bluetooth (UUID, maior, menor e proximidade).
 
 Quando você habilita o [!UICONTROL Rastreamento de localização], as seguintes dimensões estão disponíveis:
 
@@ -98,13 +122,13 @@ Quando você habilita o [!UICONTROL Voice and Chatbots], as seguintes dimensões
 * [!UICONTROL Resposta do Aplicativo de Voz]
 * [!UICONTROL Idioma de Voz]
 
-As métricas a seguir estão disponíveis:
+As seguintes métricas estão disponíveis:
 
 * [!UICONTROL Fim da Sessão de Voz]
 * [!UICONTROL Erro de Voz]
 * [!UICONTROL Palavras de voz]
 
-## Relatórios e atribuição herdados para ocorrências em segundo plano
+## Relatórios e atribuições herdados para ocorrências em segundo plano
 
 Relatórios herdados significa que as ocorrências geradas quando um aplicativo está em segundo plano são tratadas como ocorrências em primeiro plano regulares. Elas são exibidas nos relatórios e afetam a atribuição. Normalmente, essa configuração herdada é desejável para manter a consistência com implementações herdadas.
 

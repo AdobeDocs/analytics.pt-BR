@@ -4,10 +4,16 @@ keywords: ftp;sftp
 title: Feeds de dados
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
+TQID: https://experienceleague.adobe.com/SWXC-g3KTGuKiT0CBFfptUSBigs8pgkPVdRLzWhl6z4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 82%
+source-wordcount: 331
+ht-degree: 25%
 
 ---
 
@@ -19,8 +25,8 @@ ht-degree: 82%
 
 Os feeds de dados são uma exportação dos dados de sequência de cliques recebidos pela Adobe que oferecem os [Feeds de dados](/help/export/analytics-data-feed/data-feed-overview.md) padrão e personalizado.
 
-Se você adquiriu o Adobe Data Warehouse, os [!UICONTROL Feeds de dados padrão] podem configurar seus próprios feeds de dados do Analytics. Eles podem ser enviados para qualquer conta FTP (pode ser uma conta configurada pela Adobe ou uma conta FTP externa). Os serviços de engenharia da Adobe oferecem [!UICONTROL feeds de dados] personalizados que podem ser enviados utilizando praticamente qualquer meio.
+Se você adquiriu o Adobe Data Warehouse, os [!UICONTROL Feeds de dados padrão] podem configurar seus próprios feeds de dados do Analytics. Eles podem ser enviados para qualquer conta FTP (configurada pela Adobe ou um FTP externo). Os Serviços de Engenharia da Adobe oferecem [!UICONTROL Feeds de Dados] personalizados que podem ser enviados por praticamente qualquer meio.
 
-[!UICONTROL Feed de dados] contas FTP permitem 10 GB (por padrão). Todas as contas FTP possuem 50 MB por padrão. Quando os clientes estão usando a conta FTP para uso individual, usuários com grandes quantidades de tráfego podem encher essas contas rapidamente. Quando uma conta FTP está cheia, não é possível inserir mais nenhum arquivo. Desse modo, os arquivos enviados para uma conta FTP ([!UICONTROL feeds de dados], solicitações de data warehouse e etc) não são entregues. Este é um dos motivos pelos quais é importante gerenciar sua conta FTP da Adobe removendo arquivos que foram recebidos e baixados.
+[!UICONTROL Feed de dados] contas FTP permitem 10 GB (por padrão). Todas as outras contas FTP padrão têm 50 MB por padrão. Nos casos em que os clientes estão usando a conta FTP para o uso pretendido adequado, alguns usuários com quantidades altas de tráfego podem preencher rapidamente essas contas. Quando uma conta FTP está cheia, nenhum arquivo adicional pode ser enviado para ela. Desse modo, os arquivos enviados para uma conta FTP ([!UICONTROL feeds de dados], solicitações de data warehouse e etc) não são entregues. É por isso que é importante gerenciar a conta FTP da Adobe removendo os arquivos recebidos e baixados.
 
-Quando uma conta FTP estiver cheia, você deverá baixar e remover os arquivos atuais para que a Adobe saiba que o espaço foi liberado. A Adobe poderá, então, reenviar os arquivos que não foram entregues. Algumas ferramentas, como o data warehouse, permitem que os usuários reenviem esses arquivos. O reenvio não requer o envolvimento da Adobe. Se a sua conta FTP fica cheia com frequência, entre em contato com o Atendimento ao cliente da Adobe, que poderá sugerir alternativas de envio que incluem o aumento do espaço de FTP e a cota do número do arquivo na conta.
+Quando uma conta FTP estiver cheia, você deverá baixar e remover os arquivos atuais e informar à Adobe que o espaço foi limpo. O Adobe pode reenviar arquivos que não foram entregues. Algumas ferramentas, como o Data Warehouse, permitem que os usuários reenviem esses arquivos. O reenvio pode não exigir envolvimento da Adobe. Se a sua conta FTP parece estar enchendo com frequência, entre em contato com o Atendimento ao cliente da Adobe, que pode sugerir alternativas de entrega que podem incluir o aumento da cota de espaço e número de arquivo FTP na conta.

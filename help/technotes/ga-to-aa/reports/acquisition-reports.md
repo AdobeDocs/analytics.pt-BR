@@ -3,9 +3,21 @@ title: Relatórios de aquisição no Adobe Analytics
 description: Saiba como criar relatórios baseados em aquisição usando a Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/vomv0E3B57KG8zEf-Iycpq7TXh2f-WjtXTEf2JpO20Q
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: 1580
 ht-degree: 98%
 
 ---
@@ -27,7 +39,7 @@ Esta página supõe que o usuário tenha um conhecimento básico sobre o uso do 
 Mostra uma exibição agregada de todos os canais que os visitantes usam para acessar o site.
 
 1. No menu Componentes, localize a dimensão **Canal de marketing** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 ## Todo o tráfego - Mapas de árvores
 
@@ -35,7 +47,7 @@ Mostra um mapa de árvore do tráfego de canal. Este relatório é semelhante a 
 
 1. Clique no ícone Exibições à esquerda e arraste a exibição Mapa de árvore para o espaço de trabalho acima da tabela de forma livre vazia.
 2. Clique no ícone Componentes à esquerda e arraste a dimensão **Canal de marketing** até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 4. Observe que métricas adicionais criam mapas de árvore adicionais. Se desejar apenas um mapa de árvore:
    1. Clique na célula superior da métrica desejada para representar o mapa de árvore.
    2. Clique com a tecla Shift pressionada na última célula da mesma coluna de métrica para realçar a coluna de azul. Se feito corretamente, um mapa de árvore estará presente na exibição.
@@ -52,7 +64,7 @@ Relatórios de origem e médio mostram os domínios que direcionaram o tráfego 
 * A dimensão principal **Palavra-chave** está disponível na Analysis Workspace como a dimensão **Pesquisar palavra-chave**.
 
 1. No menu Componentes, localize a dimensão desejada anotada acima e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 Consulte as seguintes páginas no guia do usuário Componentes para obter mais informações sobre as respectivas dimensões:
 
@@ -66,7 +78,7 @@ Consulte as seguintes páginas no guia do usuário Componentes para obter mais i
 * A dimensão principal **Página de destino** está disponível na Analysis Workspace como a dimensão **Página de entrada**.
 
 1. No menu Componentes, localize a dimensão **Domínio de referência** ou **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 Consulte a dimensão [Domínio de referência](/help/components/dimensions/referring-domain.md) no guia do usuário Componentes para obter mais informações.
 
@@ -88,7 +100,7 @@ O relatório Referências de rede mostra quais domínios de rede social direcion
 
 1. No menu Componentes, localize a dimensão **Domínio de referência** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. No menu Componentes, localize o segmento **Visitas de sites sociais** e arraste até a pequena área acima da tabela de forma livre chamada &#39;Solte um segmento aqui&#39;.
-3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 ### Social - Páginas de destino
 
@@ -96,7 +108,7 @@ O relatório de páginas de destino mostra em quais páginas os visitantes chega
 
 1. No menu Componentes, localize a dimensão **Página de entrada** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
 2. No menu Componentes, localize o segmento **Visitas de sites sociais** e arraste até a pequena área acima da tabela de forma livre chamada &#39;Solte um segmento aqui&#39;.
-3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+3. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 ### Social - Conversões
 
@@ -123,22 +135,22 @@ O relatório Campanhas está disponível na Analysis Workspace usando a dimensã
 É possível coletar parâmetros de UTM no Adobe Analytics usando variáveis personalizadas (eVars). A Adobe recomenda trabalhar com um consultor de implementação para garantir que os valores do código de rastreamento sejam coletados com precisão no Adobe Analytics.
 
 1. No menu Componentes, localize a dimensão **Código de rastreamento** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 ## Campanhas - Palavras-chave pagas
 
 O relatório de palavras-chave pagas mostra o desempenho de cada palavra-chave depois que um visitante clica em um link de pesquisa paga a partir de um mecanismo de pesquisa. A dimensão **Palavras-chave de pesquisa - Pagas** está disponível na Analysis Workspace, mas requer uma configuração única da detecção de pesquisa paga para coletar dados. Consulte [Detecção de pesquisa paga](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md) no guia do usuário Administração para obter detalhes sobre a configuração.
 
 1. No menu Componentes, localize a dimensão **Palavra-chave de pesquisa - Paga** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 ## Campanhas - Palavras-chave orgânicas
 
 O relatório de palavras-chave orgânicas mostra o desempenho de cada palavra-chave depois que um visitante clica em um link de pesquisa orgânica a partir de um mecanismo de pesquisa. A dimensão **Palavras-chave de pesquisa - Natural** está disponível na Analysis Workspace. Observe que se a detecção de pesquisa paga não estiver configurada, essa dimensão coleta palavras-chave pagas e naturais.
 
 1. No menu Componentes, localize a dimensão **Palavra-chave de pesquisa - Natural** e arraste-a até a grande área da tabela de forma livre chamada &#39;Solte uma dimensão aqui&#39;.
-2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada métrica respectiva.
+2. Arraste as métricas desejadas para o espaço de trabalho ao lado da métrica **Ocorrências** criada automaticamente. Consulte o [Guia de tradução de métricas](common-metrics.md) para saber detalhes sobre como obter cada respectiva métrica.
 
 ## Análise de custo
 
-Este relatório mostra os dados de desempenho de visita, custo e receita dos canais de marketing pagos. Adobe Advertising, a separate product, provides this functionality. If your organization is interested in using this product, contact your Adobe Account Team.
+Este relatório mostra os dados de desempenho de visita, custo e receita dos canais de marketing pagos. O Adobe Advertising, um produto separado, fornece essa funcionalidade. Se a organização estiver interessada em usar esse produto, entre em contato com a equipe de conta da Adobe.

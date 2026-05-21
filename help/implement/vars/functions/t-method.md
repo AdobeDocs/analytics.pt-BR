@@ -4,10 +4,20 @@ description: Envie uma chamada de rastreamento de exibição de página para a A
 feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/xDA52lSi35dDd4zgvT3gt1Ufgbc-LTvLL84UEN2dQp8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 56%
+source-wordcount: 469
+ht-degree: 55%
 
 ---
 
@@ -41,7 +51,7 @@ A Adobe recebe a solicitação de imagem e analisa o cabeçalho da solicitação
 
 Use uma Ação para configurar o envio de dados do evento XDM para o Adobe. A sequência de dados recebe esses dados, aplica os mapeamentos configurados e encaminha esses dados para a Adobe Analytics se for um serviço adicionado a essa sequência de dados.
 
-1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 1. Em [!UICONTROL Ações], clique na Ação desejada ou clique no ícone **&#39;+&#39;** para adicionar uma ação.

@@ -3,9 +3,20 @@ title: Comparar datas afetadas por um evento a intervalos anteriores
 description: Saiba mais sobre o impacto de um evento, como um problema de implementação ou interrupção, comparando-o às tendências anteriores.
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
 feature: Curate and Share
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+TQID: https://experienceleague.adobe.com/g9-IhtHCTJQ0C7wF-FxwHkYuH7QnOLtEvH20JwBz0lE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: 627
 ht-degree: 0%
 
 ---
@@ -71,6 +82,6 @@ Se você quiser analisar mais detalhadamente as alterações de porcentagem acim
 
    ![Segmentos do construtor de tabela](assets/table_builder_segments.png)
 
-4. Clique em **[!UICONTROL Build]**. Na tabela resultante, é possível visualizar os intervalos afetados em relação à semana, mês e ano anteriores em qualquer segmento desejado.
+4. Clique em **[!UICONTROL Criar]**. Na tabela resultante, é possível visualizar os intervalos afetados em relação à semana, mês e ano anteriores em qualquer segmento desejado.
 
    ![Tabela concluída](assets/table_builder_finished.png)

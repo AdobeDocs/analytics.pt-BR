@@ -3,10 +3,23 @@ title: Como o Tempo gasto é calculado no Adobe Analytics
 description: Uma página agregada de dimensões e métricas de tempo gasto.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 03502f42473791bec930cc688c0b7905acf12de6
+TQID: https://experienceleague.adobe.com/kooM00bX8ASPWbIIf7wOO-rwcFEqxGt7DefLea5BC6E
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 66%
+source-wordcount: 1659
+ht-degree: 52%
 
 ---
 
@@ -22,18 +35,18 @@ Várias [!UICONTROL &#39;tempo gasto&#39;] [métricas](overview.md) e dimensões
 | [[!UICONTROL Tempo gasto por visita] (Segundos)](time-spent-per-visit.md) | Aproximadamente *Total de segundos gastos / (rejeições de visita)*<br> Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico durante cada visita. **Observação**: esta métrica não pode ser calculada independentemente porque o denominador desta função é uma métrica interna. | Analysis Workspace |
 | [[!UICONTROL Tempo gasto por visitante] (Segundos)](time-spent-per-visitor.md) | Aproximadamente *Total de segundos gastos / visitante único*<br> Representa a quantidade média de tempo que os visitantes interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). **Observação**: esta métrica não pode ser calculada independentemente porque o denominador desta função é uma métrica interna. | Analysis Workspace |
 | [!UICONTROL Tempo gasto/usuário (Estado)] | Aproximadamente *Total de segundos gastos do aplicativo móvel/visitantes únicos do aplicativo móvel*<br> Representa a quantidade média de tempo que os visitantes do aplicativo móvel interagem com um item de dimensão específico ao longo da vida do visitante (duração do cookie). **Observação**: esta métrica não pode ser calculada independentemente porque o denominador desta função é uma métrica interna. | Analysis Workspace |
-| [[!UICONTROL Tempo médio gasto no site] (Segundos)](average-time-on-site.md) | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não se limita apenas a médias de &quot;sites&quot;, como o nome sugere. Consulte a seção &quot;Como o tempo gasto é calculado&quot; para obter mais informações sobre as sequências.<br>**Observação**: esta métrica muito provavelmente será diferente do &quot;Tempo gasto por visita&quot; em nível de item de dimensão devido às diferenças no denominador do cálculo. | Analysis Workspace, Report Builder (mostrado em minutos) |
+| [[!UICONTROL Tempo médio gasto no site] (Segundos)](average-time-on-site.md) | Representa a quantidade total de tempo que os visitantes interagem com um item de dimensão específico, por sequência com um item de dimensão. Não se limita apenas a médias de &quot;sites&quot;, como o nome sugere. Consulte a seção &quot;Como o Tempo gasto é calculado&quot; para obter mais informações sobre as sequências.<br>**Observação**: esta métrica muito provavelmente será diferente do &quot;Tempo gasto por visita&quot; em nível de item de dimensão devido às diferenças no denominador do cálculo. | Analysis Workspace, Report Builder (mostrado em minutos) |
 | [[!UICONTROL Tempo médio no site]](average-time-on-site.md) | Esta é a mesma métrica que *Tempo médio no site (Segundos)*, exceto formatada como Tempo (`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL Tempo médio gasto na página] | Métrica descontinuada.<br> Em vez disso, a Adobe recomenda que você use [[!UICONTROL Tempo médio gasto no site]](average-time-on-site.md) se o tempo médio para um item de dimensão for necessário. | Report Builder (quando uma dimensão está na solicitação) |
+| [!UICONTROL Tempo médio gasto na página] | Métrica obsoleta.<br> Em vez disso, a Adobe recomenda que você use [[!UICONTROL Tempo médio gasto no site]](average-time-on-site.md) se o tempo médio para um item de dimensão for necessário. | Report Builder (quando uma dimensão está na solicitação) |
 
 ## Dimensões de tempo gasto
 
 | Dimensão | Definição | Disponível em |
 | --- | --- | --- |
 | [[!UICONTROL Tempo gasto por visita - granular]](../dimensions/time-spent-per-visit.md) | O tempo total gasto durante a visita, truncado no segundo mais próximo e aplicado a cada ocorrência que fez parte da visita. Esta é uma dimensão em nível de visitas. | Analysis Workspace |
-| [[!UICONTROL Tempo gasto por visita - sementado]](../dimensions/time-spent-per-visit.md) | A dimensão granular segmentada em 9 intervalos diferentes. Esta é uma dimensão em nível de visitas. Os intervalos incluem:<ul><li>Menos de 1 minuto</li><li>1 a 5 minutos</li><li>5 a 10 minutos</li><li>10 a 30 minutos</li><li>30 a 60 minutos</li><li>1 a 2 horas</li><li>2 a 5 horas</li><li>5 a 10 horas</li><li>10 a 15 horas</li></ul>**Observação**: não poderá haver turnos maiores que esses, pois uma visita expira após 12 horas de atividade. | Analysis Workspace, Report Builder |
+| [[!UICONTROL Tempo gasto por visita - sementado]](../dimensions/time-spent-per-visit.md) | A dimensão granular é classificada em 9 intervalos diferentes. Esta é uma dimensão em nível de visitas. Os intervalos incluem:<ul><li>Menos de um minuto</li><li>1-5 minutos</li><li>5-10 minutos</li><li>10-30 minutos</li><li>30 a 60 minutos</li><li>1 a 2 horas</li><li>2 a 5 horas</li><li>5 a 10 horas</li><li>10 a 15 horas</li></ul>**Observação**: não poderá haver turnos maiores que esses, pois uma visita expira após 12 horas de atividade. | Analysis Workspace, Report Builder |
 | [[!UICONTROL Tempo gasto na página - granular]](../dimensions/time-spent-on-page.md) | O tempo total gasto em cada ocorrência, truncado no segundo mais próximo. É uma dimensão em nível de ocorrência e inclui exibições de página e eventos de link. Apesar do nome, não está limitado à dimensão &quot;página&quot;. | Analysis Workspace |
-| [[!UICONTROL Tempo gasto na página - segmentado]](../dimensions/time-spent-on-page.md) | A dimensão granular segmentada em 10 intervalos diferentes; entretanto, a dimensão segmentada somente conta exibições de página (e exclui eventos de links). Essa é uma dimensão em nível de ocorrências. Os intervalos incluem:<ul><li>menos de 15 segundos</li><li>15 a 29 minutos</li><li>30 a 59 minutos</li><li>1 a 3 minutos</li><li>3 a 5 minutos</li><li>5 a 10 minutos</li><li>10 a 15 minutos</li><li>15 a 20 minutos</li><li>20 a 30 minutos</li><li>mais de 30 minutos</li></ul> | Analysis Workspace |
+| [[!UICONTROL Tempo gasto na página - segmentado]](../dimensions/time-spent-on-page.md) | A dimensão granular é classificada em 10 intervalos diferentes; no entanto, a dimensão classificada conta apenas exibições de página (e exclui eventos de link). Esta é uma dimensão em nível de ocorrência. Os intervalos incluem:<ul><li>menos de 15 segundos</li><li>de 15 a 29 segundos</li><li>de 30 a 59 segundos</li><li>de 1 a 3 minutos</li><li>de 3 a 5 minutos</li><li>de 5 a 10 minutos</li><li>de 10 a 15 minutos</li><li>de 15 a 20 minutos</li><li>de 20 a 30 minutos</li><li>mais de 30 minutos</li></ul> | Analysis Workspace |
 
 ## Como o tempo gasto é calculado
 
@@ -126,7 +139,7 @@ Suponha que o seguinte conjunto de chamadas de servidor seja para um único visi
 | **Nome da página** | Início | - | Produto | Início | Página inicial (recarregar) | Carrinho | Confirmação de pedido |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (conjunto) | A (distribuir para a frente) | não definido | B (conjunto) | B (conjunto) | A (conjunto) | C (conjunto) |
-| **segundos gastos da prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
+| **segundos gastos de prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
 |  |  |  |  |  |  |  |  |
 | **eVar1** | Vermelho (definido) | Vermelho (persistente) | (expirado) | Azul (definido) | Azul (definido) | Azul (persistente) | Vermelho (definido) |
 | **Segundos gastos da eVar1** | 30 | 50 | - | 10 | 40 | 60 | - |
@@ -138,13 +151,13 @@ Com base na tabela acima, as métricas de Tempo gasto são calculadas da seguint
 | A | 30+50+60=140 | 140/1=140 | 140/1=140 | 2 | 140/2=70 |
 | B | 10+40=50 | 50/1=50 | 50/1=50 | 1 | 50/1=50 |
 | C | 0 | 0 | 0 | 0 | 0 |
-| Tempo não atribuído | 100 | - | - | - | - |
+| Hora não atribuída | 100 | - | - | - | - |
 
 | eVar1 | Total de segundos gastos | Tempo gasto por visita | Tempo gasto por visitante | Contagem de sequências | Tempo médio gasto no site |
 |---|---|---|---|---|---|
 | Vermelho | 30+50=80 | 80/1=80 | 80/1=80 | 1 | 80/1=80 |
 | Azul | 10+40+60=110 | 110/1=110 | 110/1=110 | 1 | 110/1=110 |
-| Tempo não atribuído | 100 | - | - | - | - |
+| Hora não atribuída | 100 | - | - | - | - |
 
 Tempo gasto por visita (granular): 290
 Tempo gasto na página (granular): 10, 30, 40, 50, 60, 100
@@ -155,7 +168,7 @@ Algumas observações adicionais em apoio ao exemplo:
 
 * &quot;Segundos gastos&quot; é a diferença entre o carimbo de data e hora da ocorrência atual e o da próxima ocorrência. Como resultado, a última ocorrência da visita (e rejeições) não tem tempo gasto.
 
-* Uma &quot;sequência&quot; é um conjunto consecutivo de ocorrências em que uma determinada variável contém o mesmo valor (seja por definição, expansão para a frente ou persistente). Por exemplo, prop1 &quot;A&quot; tem duas sequências: ocorrências 1 e 2 e ocorrência 6. Os valores na última ocorrência da visita não iniciam uma nova sequência porque a última ocorrência não tinha tempo gasto. Tempo médio gasto no site usa as sequências no denominador.
+* Uma &quot;sequência&quot; é um conjunto consecutivo de ocorrências em que uma determinada variável contém o mesmo valor (seja por definição, expansão para a frente ou persistente). Por exemplo, prop1 &quot;A&quot; tem duas sequências: ocorrências 1 e 2 e ocorrência 6. Os valores na última ocorrência da visita não iniciam uma nova sequência porque a última ocorrência não tem tempo gasto. Tempo médio gasto no site usa sequências no denominador.
 
    * Para calcular apenas o tempo gasto, as props são &quot;expandidas para a frente&quot; a partir das ocorrências de página para ocorrências de link subsequentes, conforme mostrado acima para prop1 na ocorrência 2. Isso permite que o valor definido para prop1 na ocorrência 1 (&quot;A&quot;) acumule o tempo gasto na ocorrência 2.
 

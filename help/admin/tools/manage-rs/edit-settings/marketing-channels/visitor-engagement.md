@@ -5,10 +5,17 @@ title: Expiração de canal de marketing
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/Og6HFSObiTqFg-HRqVzQWWnaGP0J--cJ9N8wvfuKsJc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: 393
+ht-degree: 82%
 
 ---
 
@@ -32,7 +39,7 @@ Exemplo:
 
 * Dia 1: o usuário acessa o site em Exibir. Os canais de primeiro e último toque serão definidos como Exibir.
 * Dia 2: o usuário acessa o site em Pesquisa natural. O primeiro toque permanece como Exibir e o Último toque é definido como Pesquisa natural.
-* Dia 35: o usuário não visitou o site há 33 dias e retorna usando a guia que havia aberto em seu navegador. Presumindo uma janela de envolvimento de 30 dias, a janela teria fechado e os cookies do Canal de marketing estariam expirados. O canal de primeiro e último toque será redefinido e definido como Atualização da sessão desde que o usuário tenha vindo de um URL interno.
+* Dia 35: o usuário não visitou o site há 33 dias e retorna usando a guia que havia aberto em seu navegador. Presumindo uma janela de engajamento de 30 dias, a janela teria fechado e os cookies do Canal de marketing estariam expirados. O canal de primeiro e último toque será redefinido e definido como Atualização da sessão desde que o usuário tenha vindo de um URL interno.
 
 ## Configurações de expiração do canal de marketing
 
@@ -40,9 +47,9 @@ As configurações de expiração consistem no seguinte:
 
 | Campo | Definição |
 |--- |--- |
-| Dias de inatividade | O número de dias que devem decorrer antes que o envolvimento de primeiro toque de um visitante expire. O valor padrão é 30. |
+| Dias de Inatividade | O número de dias que devem decorrer antes que o envolvimento de primeiro contato de um visitante expire. O valor padrão é 30. |
 | Nunca | O período de envolvimento do visitante não expira. |
-| Redefinição de canal | Expira todos os períodos de envolvimento do visitante.  Se você precisar redefinir todos os dados de canal de marketing, poderá expirar todos os períodos de envolvimento de visitantes. Talvez seja preciso redefinir os dados se suas regras de processamento tiverem sido previamente configuradas de maneira incorreta. Todos os valores de canais de primeiro e último toque expirarão imediatamente e serão redefinidos quando os visitantes retornarem. |
+| Redefinição de canal | Expira todos os períodos de engajamento do visitante.  Se precisar redefinir todos os dados de canal de marketing, você pode expirar todos os períodos de engajamento do visitante. Talvez seja necessário redefinir os dados se as regras de processamento tiverem sido configuradas incorretamente anteriormente. Todos os valores do canal de primeiro e último toque expirarão imediatamente e serão redefinidos quando os visitantes retornarem. |
 
 ## Definir a expiração do canal de marketing {#define-expiration}
 

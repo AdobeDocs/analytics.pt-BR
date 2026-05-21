@@ -4,10 +4,20 @@ title: Como editar métricas em várias solicitações
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/epK-BLSIpnZV1-0eqPxb2aGXSbon4Oc1mRDnRljpCxI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 28%
+source-wordcount: 598
+ht-degree: 6%
 
 ---
 
@@ -22,9 +32,9 @@ Adicionar, remover ou substituir métricas em uma solicitação pré-existente o
 Ao adicionar métricas, considere as seguintes diretrizes:
 
 * Métricas podem ser adicionadas somente a solicitações de Layout dinâmico.
-Se algumas das solicitações selecionadas forem Layouts personalizados, as métricas não serão adicionadas. Se o layout for personalizado, o Report Builder não saberá onde colocar a nova métrica na planilha.
+Se algumas das solicitações selecionadas forem Layouts personalizados, as métricas não poderão ser adicionadas. Se o layout for personalizado, o Report Builder não saberá onde colocar a nova métrica na planilha.
 * Se você selecionar somente solicitações de Layout personalizado, a opção **[!UICONTROL Adicionar métricas]** não estará disponível.
-* A adição de métricas aumenta o tamanho de uma solicitação e pode fazer com que seja sobreposta a outra solicitação. Verifique se a solicitação tem espaço suficiente para adicionar métricas.
+* A adição de métricas aumenta o tamanho de uma solicitação e pode fazer com que seja sobreposta a outra solicitação. Verifique se a solicitação tem espaço suficiente para a adição de métricas.
 * Se a métrica adicionada já estiver presente em uma das solicitações selecionadas, ela não será adicionada a essa solicitação.
 
 Para adicionar uma ou mais métricas
@@ -47,7 +57,7 @@ Ao substituir métricas, considere as seguintes diretrizes:
    * **Em um Layout Dinâmico**, se uma solicitação de layout dinâmico gerar datas, visitas, visitantes, dados exclusivos diários e *visitantes* for substituída por *receitas*, o layout atualizado da solicitação será: data, visita, receita e dados exclusivos diários.
    * **Em um Layout Personalizado**, se a métrica *visitantes* foi gerada na célula F11, o layout de solicitação atualizado mostrará *receita* na mesma célula F11.
 
-* Se a métrica substituída tiver uma operação aplicada (média, texto pré-pendente, texto pós-pendente, micrográfico), essas operações também serão aplicadas à nova métrica.
+* Se a métrica substituída tiver alguma operação aplicada a ela (média, texto pré-pendente, texto pós-pendente, micrográfico), essas operações também serão aplicadas à nova métrica.
 
 Para substituir uma métrica
 
@@ -76,4 +86,4 @@ Para remover métricas
    ![Captura de tela mostrando a opção Editar Grupo e Remover Métrica(s) selecionada.](assets/remove_metric.png)
 
 1. Selecione uma ou mais métricas para remover da solicitação.
-1. Atualize a solicitação. Serão exibidos dados offline até que você atualize.
+1. Atualize a solicitação. Até a atualização, você verá dados offline.

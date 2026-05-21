@@ -1,14 +1,23 @@
 ---
-description: As abreviações de tempo se referem a uma data determinada que dá início a um período, e não a um intervalo de dias. Um intervalo de dias é expresso pela especificação das datas inicial e final de duas abreviações de tempo (ou termos).
+description: As abreviações de tempo se referem a uma data específica em que um período começa, não a um intervalo de dias. Um intervalo de dias é expresso especificando uma data de início e uma data de término para duas abreviações de tempo (ou termos).
 title: Abreviações de datas
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 feature: Report Builder
 role: User, Admin
 exl-id: f2d19f3f-c663-4fa4-b6c1-fe0dcdfffe63
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/5lc9LqQZXB7bHZEjuOR4QmhaJF3O89VmmXWz1rFHtiQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 86%
+source-wordcount: 146
+ht-degree: 25%
 
 ---
 
@@ -16,7 +25,7 @@ ht-degree: 86%
 
 {{legacy-arb}}
 
-As abreviações de tempo se referem a uma data determinada que dá início a um período, e não a um intervalo de dias. Um intervalo de dias é expresso especificando uma data de início e uma data de término para abreviações ou termos de duas vezes.
+As abreviações de tempo se referem a uma data específica em que um período começa, não a um intervalo de dias. Um intervalo de dias é expresso especificando uma data de início e uma data de término para abreviações ou termos de duas vezes.
 
 Para obter informações sobre o uso da sintaxe apropriada, consulte [Notas de sintaxe](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
 

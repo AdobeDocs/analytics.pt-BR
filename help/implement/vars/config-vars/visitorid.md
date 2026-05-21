@@ -4,10 +4,21 @@ description: Use uma ID de visitante personalizada.
 feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: de98bf68c57f5453b6662f6e6e57312d8fd3e642
+TQID: https://experienceleague.adobe.com/NVNZ5qIzAa3ztoH2JIHxpGGskQAATqA0EUOZbspauzY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 19%
+source-wordcount: 510
+ht-degree: 20%
 
 ---
 
@@ -46,7 +57,7 @@ Consulte [Identificação do visitante no Adobe Analytics](../../id/overview.md)
 3. Vá para a guia [!UICONTROL Extensões] e selecione o botão **[!UICONTROL Configurar]** no Adobe Analytics.
 4. Expanda a opção [!UICONTROL Cookies], que revela o campo [!UICONTROL ID de visitante].
 
-Atribua esse campo ao elemento de dados que contém sua ID de visitante personalizada. **Não defina este campo como um valor estático único para todos os visitantes.** Use um elemento de dados que resolve por visitante e permanece constante em todas as ocorrências.
+Atribua esse campo ao elemento de dados que contém sua ID de visitante personalizada. **Não defina este campo como um valor estático único para todos os visitantes.** Use um elemento de dados que resolva por visitante e permaneça constante em todas as ocorrências.
 
 ## s.visitorID no AppMeasurement e no editor de código personalizado da extensão do Analytics
 

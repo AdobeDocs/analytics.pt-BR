@@ -3,10 +3,25 @@ title: Eventos personalizados
 description: O número de ocorrências em que um evento personalizado existe.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/1D8ONiUuG3T6DqM7HygbBbf0Y4ja5ej1Hfy8-hKo0yg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 83%
+source-wordcount: 223
+ht-degree: 91%
 
 ---
 
@@ -24,6 +39,6 @@ Os eventos personalizados são calculados de forma diferente dependendo de seu t
 * **Eventos numéricos**: soma o valor numérico atribuído ao evento na variável `events`.
 * **Eventos de moeda**: aplica a conversão de moeda em relação à taxa de câmbio do dia e soma o valor numérico atribuído a cada ocorrência na variável `events`.
 
-O número de eventos disponíveis depende do contrato do Analytics de sua organização. A maioria das organizações com contratos não herdados tem 1000 eventos personalizados disponíveis. Entre em contato com a equipe de conta da Adobe se não tiver certeza de quantos eventos personalizados estão disponíveis para você.
+O número de eventos disponíveis depende do contrato do Analytics de sua organização. A maioria das organizações com contratos não herdados tem 1000 eventos personalizados disponíveis. Entre em contato com a Equipe de contas da Adobe se não tiver certeza de quantos eventos personalizados estão disponíveis para você.
 
 A Adobe recomenda que você registre como utiliza cada evento no [documento de design de soluções](/help/implement/prepare/solution-design.md) da sua organização.

@@ -4,9 +4,19 @@ title: Filtrar e Classificar
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/KdxCXtqVLrAOSHSp90t6Qmiz7v91eTgeSK-U4EjKc4U
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: 1585
 ht-degree: 51%
 
 ---
@@ -92,7 +102,7 @@ Para filtrar dados em tabelas de forma livre:
 
 1. Selecione **[!UICONTROL Aplicar]** para filtrar os dados. Selecione **[!UICONTROL Limpar]** para limpar todos os campos de entrada. Selecione **[!UICONTROL Cancelar]** para cancelar e fechar a caixa de diálogo. <br/>Um ícone colorido de ![Filtro](/help/assets/icons/FilterColored.svg) **Filtro** indica e exibe detalhes quando um filtro é aplicado à tabela.
 
-### Incluir critérios de filtro em dados de tendência em minigráficos e visualizações de linha {#include-filter-criteria}
+### Incluir critérios de filtro em dados de tendências em gráficos de sparkline e visualizações de linha {#include-filter-criteria}
 
 Todos os critérios de filtro de pesquisa aplicados à dimensão da tabela para uma tabela de forma livre são sempre incluídos em minigráficos.
 
@@ -112,13 +122,13 @@ Para obter mais informações sobre minigráficos e visualizações de linha, co
 
 Os totais da coluna podem não ser exatos nos seguintes cenários:
 
-* Quando componentes estáticos são usados na coluna esquerda e os totais da [coluna são calculados como uma soma das linhas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+* Quando componentes estáticos são usados na coluna à esquerda e os totais da [coluna são calculados como uma soma das linhas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
 
   Se os itens de linha contiverem dados sobrepostos nesse cenário, os totais da coluna serão imprecisos.
 
-  Por exemplo, se você adicionar segmentos estáticos à coluna esquerda e, em seguida, adicionar Usuários como uma métrica na coluna direita, alguns desses usuários poderão fazer parte de mais de um dos segmentos estáticos. Nesse caso, o Workspace não desduplica os usuários de cada segmento estático. Isso pode resultar em um número maior do total de usuários, pois alguns usuários podem ser contados mais de uma vez.
+  Por exemplo, se você adicionar segmentos estáticos à coluna esquerda e, em seguida, adicionar Usuários como uma métrica na coluna direita, alguns desses usuários podem fazer parte de mais de um dos segmentos estáticos. Nesse caso, a Workspace não desduplica os usuários para cada segmento estático. Isso pode resultar em um número maior de usuários totais, pois alguns usuários podem ser contados mais de uma vez.
 
-* Ao usar dimensões com valores múltiplos
+* Ao usar dimensões de vários valores
 
 >[!NOTE]
 >
@@ -129,11 +139,11 @@ Os totais da coluna podem não ser exatos nos seguintes cenários:
 
 Você pode classificar os dados de uma tabela de forma livre pelos seguintes tipos de colunas no Analysis Workspace:
 
-* Qualquer coluna de métrica
+* Quaisquer colunas de métrica
 
-* Quaisquer colunas de dimensão (exceto para dimensões baseadas em cadeia de caracteres)
+* Quaisquer colunas de dimensão (exceto para dimensões baseadas em sequência)
 
-Você pode classificar por várias colunas ao mesmo tempo.
+Você pode até mesmo classificar por várias colunas ao mesmo tempo.
 
 Por padrão, as dimensões são classificadas em ordem crescente e as métricas são classificadas em ordem decrescente.
 
@@ -189,13 +199,13 @@ O ícone de classificação permanece visível quando a classificação é aplic
 
 Ao classificar dados para várias colunas, os dados são classificados de acordo com a prioridade atribuída a cada coluna. A numeração de prioridade é exibida ao lado do ícone de classificação ![ícone de prioridade de classificação](assets/sort-priority-icon.png).
 
-A coluna com a prioridade principal decide a ordem principal; a coluna com a prioridade secundária decide a ordem quando as linhas têm o mesmo valor na coluna principal; a coluna com a prioridade terciária decide a ordem quando as linhas têm o mesmo valor nas colunas principal e secundária; e assim por diante.
+A coluna com a prioridade primária decide a ordem principal; a coluna com a prioridade secundária decide a ordem quando as linhas têm o mesmo valor na coluna primária; a coluna com a prioridade terciária decide a ordem quando as linhas têm o mesmo valor nas colunas primária e secundária; e assim por diante.
 
 Por exemplo, considere uma tabela com as seguintes colunas:
 
 * Dia (dimensão)
 
-* Views de Página (métrica)
+* Exibições de página (métrica)
 
 * Visitas (métrica)
 
@@ -206,10 +216,10 @@ Você pode atribuir uma prioridade de classificação a cada coluna, da seguinte
 | Nome da coluna (componente) | Tipo de componente | Prioridade de classificação |
 |---------|----------|---------|
 | Dia | Dimensão | 1 |
-| Visualizações de página | Métrica | 2 |
+| Page Views | Métrica | 2 |
 | Visitas | Métrica | 3 |
 | Velocidade do conteúdo | Métrica | 4 |
 
-Atribuindo uma prioridade de classificação a cada coluna, você pode controlar exatamente como os dados são exibidos na tabela. Neste exemplo, as informações são classificadas primeiro por Dia, depois por Exibições de página, depois por Visitas e, por fim, pela Velocidade do conteúdo.
+Ao atribuir uma prioridade de classificação a cada coluna, é possível controlar exatamente como os dados são exibidos na tabela. Neste exemplo, as informações são classificadas primeiro por dia, em seguida por Exibições de página, por Visitas e, por fim, pela Velocidade do conteúdo.
 
 ![exemplo de multiclassificação](assets/dimensions-multiple-sort.png)

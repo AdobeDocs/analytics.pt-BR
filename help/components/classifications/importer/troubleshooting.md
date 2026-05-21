@@ -3,10 +3,22 @@ title: Solução de problemas do importador de classificação
 description: Problemas comuns de upload ao usar o importador de classificação.
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/YDa--mPqMNfRfRT-xUYTj6jJVEFf2HXWSUtELvuBpy4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 96%
+source-wordcount: 875
+ht-degree: 92%
 
 ---
 
@@ -27,9 +39,9 @@ As classificações requerem um tipo e um formato específicos de arquivo para q
 * **Uso de extensões em letras maiúsculas**: as extensões em letras maiúsculas (como `fileupload.TXT`) não funcionam. Renomeie o arquivo com uma extensão em letras minúsculas (`fileupload.txt`).
 * **Codificação de caractere incompatível**: verifique se a codificação do upload de classificação salvo corresponde à codificação original quando o modelo foi baixado. Se você carregar um arquivo UTF-16 quando ele foi originalmente codificado em UTF-8, os uploads produzirão resultados inesperados. A Adobe recomenda fazer upload de arquivos usando UTF-8 sem marcas de ordem de byte.
 
-## Conteúdos de arquivo inválidos
+## Conteúdo de arquivo inválido
 
-Se o arquivo de upload estiver formatado corretamente, o carregador tentará importar a maior quantidade possível de linhas. Alguns problemas comuns com os dados de classificação:
+Se o arquivo de upload estiver formatado corretamente, o carregador tentará importar quantas linhas válidas forem possíveis. Alguns problemas comuns com os dados de classificação:
 
 * **As linhas já foram classificadas**: ao tentar fazer upload de linhas que já foram classificadas com o mesmo valor, o importador retorna linhas que não tiveram efeito. Esse resultado é esperado, já que as classificações não reclassificam um valor principal com a mesma classificação. É uma notificação em vez de um erro. Não é preciso se preocupar se você não alterar todas as linhas em um arquivo de exportação. O Adobe recomenda fazer upload somente de linhas alteradas.
 * **O cabeçalho não corresponde à variável que está sendo carregada**: se você baixar um modelo de classificação para a dimensão Código de rastreamento e tentar carregá-lo para uma classificação eVar, haverá uma falha. Use somente arquivos de exportação para as variáveis específicas das quais eles foram exportados.
@@ -38,8 +50,8 @@ Se o arquivo de upload estiver formatado corretamente, o carregador tentará imp
 * **Guias adicionais no arquivo carregado**: certas vezes, ao editar os arquivos de classificação, uma guia adicional pode ser incluída acidentalmente. Cada linha requer um número idêntico de guias para ser processada corretamente. Para verificar se há guias extras no arquivo, realce todo o texto em um editor de texto simples e verifique se nenhuma linha tem espaço extra no final.
 * **Existem valores principais duplicados no arquivo**: cada valor principal pode ter somente uma classificação por coluna. Se você tentar classificar o mesmo valor várias vezes, o importador emitirá um erro.
 * **Existem subclassificações configuradas incorretamente**: se houver subclassificações, verifique o seguinte:
-   * Todos os valores de subclassificações possuem um valor de classificação principal
-   * Duas classificações não fazem referência ao mesmo valor de classificação principal
+   * Todos os valores de subclassificação têm um valor de classificação principal
+   * Nenhuma subclassificação faz referência ao mesmo valor de classificação principal
 * **Incompatibilidade de coluna**: você poderá receber a mensagem de erro *&quot;A chave na linha tem muitas colunas&quot;* se houver um número inválido de colunas em uma linha específica. Por exemplo, você tem três colunas em seu upload de classificação e a variável tem apenas uma única classificação. Valide o arquivo de upload para garantir que o número de colunas não seja maior do que o número de classificações configuradas para essa variável.
 
 ## Solução de problemas de importações de FTP

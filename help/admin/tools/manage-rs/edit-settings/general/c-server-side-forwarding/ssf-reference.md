@@ -4,10 +4,21 @@ title: Referência de dados e de código do encaminhamento pelo lado do servidor
 feature: Report Suite Settings
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/DuHi1F4wU6EfxGe8s9EWZ54TX7KnkN3MmAOUE8a9oqw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 97%
+source-wordcount: 561
+ht-degree: 89%
 
 ---
 
@@ -17,7 +28,7 @@ Uma lista detalhada e descrições das variáveis de configuração, cabeçalhos
 
 ## Variáveis de configuração {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parâmetros com o prefixo `d_*` identificam pares de valores-chave especiais em nível de sistema usados pelos [servidores de coleta de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=pt-BR) (DCS). Consulte também [Atributos suportados para chamadas de API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=pt-BR).
+Parâmetros com o prefixo `d_*` identificam pares de valores-chave especiais em nível de sistema usados pelos [servidores de coleta de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=pt-BR) (DCS). Consulte também [Atributos compatíveis para chamadas de API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=pt-BR).
 
 | Parâmetro | Descrição |
 |--- |--- |
@@ -43,7 +54,7 @@ Além disso, um sinal `h_ip` é gerado pelo IP do host que envia a solicitação
 
 ## Sinais definidos pelo cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Consulte também [Atributos suportados para chamadas de API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=pt-BR).
+Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Consulte também [Atributos compatíveis com chamadas de API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=pt-BR).
 
 | Sinal | Descrição |
 | --- |--- |
@@ -54,12 +65,12 @@ Parâmetros com o prefixo `c_` identificam variáveis definidas pelo cliente. Co
 | `c_colorDepth` | Especificado como uma cor de 16 ou 32 bits. |
 | `c_connectionType` | Especifica o tipo de conexão. As opções incluem:<ul><li>modem</li><li>lan</li></ul> |
 | `c_contextData.*` | Exemplos:<ul><li>AppMeasurement: `s.contextData`</li><li>[category] = &quot;news&quot;;</li><li>Sinal: `c_contextData.category=news`</li></ul> |
-| `c_cookiesEnabled` | Especifica se cookies podem ser habilitados. As opções incluem: sim, não, desconhecido |
+| `c_cookiesEnabled` | Especifica se os cookies podem ser ativados. As opções incluem: sim, não, desconhecido |
 | `c_currencyCode` | Tipo de moeda usada na transação. |
 | `c_evar#` | eVars personalizadas |
 | `c_events` | Definido por `s.events`. |
 | `c_hier#` | Variáveis de hierarquia personalizadas. |
-| `c_javaEnabled` | Especifica se o Java pode ser habilitado. As opções incluem: sim, não, desconhecido |
+| `c_javaEnabled` | Especifica se o Java pode ser ativado. As opções incluem: sim, não, desconhecido |
 | `c_javaScriptVersion` | Versão do JavaScript compatível com um navegador. |
 | `c_latitude` | Latitude numérica |
 | `c_linkClick` | As opções incluem: personalizado, download, saída |
