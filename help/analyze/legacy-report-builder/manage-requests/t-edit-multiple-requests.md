@@ -59,4 +59,4 @@ ht-degree: 49%
 
 Veja um vídeo que mostra o processo:
 
-https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
+https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
