@@ -1,35 +1,41 @@
 ---
-description: Fornece configurações comuns para um site que oferece artigos e vídeos de suporte a produtos.
+description: Fornece configurações comuns para um site que fornece artigos e vídeos de suporte ao produto.
 title: Mídia de suporte
 feature: Report Suite Settings
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/SwCS1uNaOifhg6BD83qqDBZeJ86qn7J3JYgIZEiMRnY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: 182
+ht-degree: 51%
 
 ---
 
 # Mídia de suporte
 
-Fornece configurações comuns para um site que oferece artigos e vídeos de suporte a produtos.
+Fornece configurações comuns para um site que fornece artigos e vídeos de suporte ao produto.
 
 | Variáveis de conversão | Tipo | Sub-relações | Alocação | Expiração | `s_code`variável |
 |---|---|---|---|---|---|
 | Promoção interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar1` |
 | Termos de pesquisa interna | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar2` |
-| Evento tipo self-service | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar3` |
+| Tipo de Evento de Autoatendimento | Sequência de caracteres | Básica | Mais recente (último) | Visita | `evar3` |
 
-Não há eventos bem-sucedidos configurados por este modelo de conjunto de relatórios.
+Nenhum evento bem-sucedido está configurado por este modelo de conjunto de relatórios.
 
 | Variáveis de Insight personalizado | `s_code`variável |
 |---|---|
 | Seguro/não seguro | `prop1` |
 | Propriedade de tráfego 2 - 5 | `prop2, prop3, prop4, prop5` |
 
-A seguinte tabela contém uma lista de eventos padrão de comércio. A configuração inicial desses eventos é idêntica em todos os modelos de conjunto de relatórios. Os eventos com uma variável s_code de N/A não precisam ser definidos, eles serão fornecidos automaticamente.
+A tabela a seguir contém uma lista dos eventos padrão de comércio. A configuração inicial desses eventos é idêntica em todos os modelos de conjunto de relatórios. Eventos com uma variável s_code de N/D não precisam ser definidos, eles são fornecidos automaticamente.
 
-| Eventos padrão de comércio | Tipo | `s_code`variável |
+| Eventos padrão do Commerce | Tipo | `s_code`variável |
 |---|---|---|
 | Receita | Contador | `purchase` |
 | Pedidos | Contador | `purchase` |

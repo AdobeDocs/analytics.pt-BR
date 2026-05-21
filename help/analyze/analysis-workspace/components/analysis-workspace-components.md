@@ -4,9 +4,15 @@ description: Saiba quais componentes o Adobe Analytics oferece e como usar os co
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
+TQID: https://experienceleague.adobe.com/JSXJRs6kWPgiKkG2Gp0ElMAb9fnEFxAQ9jyigwUZssQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79eid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 941
 ht-degree: 100%
 
 ---
@@ -101,7 +107,7 @@ Você pode pesquisar, filtrar e classificar a lista de componentes no painel esq
    | ![Estrela](/help/assets/icons/Star.svg) | **[!UICONTROL Favoritos]** | Mostrar somente componentes que estão na lista de Favoritos. <br/>Para obter informações sobre como adicionar componentes à lista de favoritos, consulte [Gerenciar componentes](#manage-components). |
    | ![Dimensões](/help/assets/icons/Dimensions.svg) | **[!UICONTROL Dimensões]** | Mostrar somente componentes que são dimensões. |
    | ![Evento](/help/assets/icons/Event.svg) | **[!UICONTROL Métricas]** | Mostrar somente componentes que são métricas. |
-   | ![Segmentação](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segmentos]** | Mostrar somente componentes que são segmentos.  |
+   | ![Segmentação](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segmentos]** | Mostrar somente componentes que são segmentos. |
    | ![Calendário](/help/assets/icons/Calendar.svg) | **[!UICONTROL Intervalos de datas]** | Mostrar somente componentes que são intervalos de datas. |
    | ![Rótulo](/help/assets/icons/Label.svg) | **[!UICONTROL *Nome da tag *]** | Mostrar somente componentes com as tags específicas selecionadas. Há uma tag dedicada disponível para o modelo da Adobe, que são as [métricas calculadas padrão](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md) da Adobe. |
 

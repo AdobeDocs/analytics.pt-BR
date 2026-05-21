@@ -4,10 +4,16 @@ description: Um aprofundamento nos conceitos por trás das eVars de merchandisin
 feature: Admin Tools
 role: Admin
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/ualdvwO-ym7q9XtStQQ4GIHUJ5-P6pv3MXd-z5JWvOs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '5279'
-ht-degree: 95%
+source-wordcount: 5323
+ht-degree: 94%
 
 ---
 
@@ -115,9 +121,9 @@ Se a configuração Alocação de um eVar padrão for igual a &quot;Mais recente
 
 #### Configuração de alocação de eVar de merchandising (compulsório)
 
-Como mencionado anteriormente, todas as eVars de merchandising com Sintaxe de variável de conversão têm somente a alocação &quot;Mais recente (último)&quot;.  Assim, a configuração Alocação de eVars de merchandising não determina quais valores são inseridos na coluna post_evar, pois um visitante continua usando o site. Em vez disso, essa configuração determina qual valor de eVar se vincula a um produto e como esses produtos alocam os eventos de sucesso de volta aos valores de eVar aos quais estão vinculados.
+Como mencionado anteriormente, todas as eVars de merchandising com Sintaxe de variável de conversão têm somente a alocação &quot;Mais recente (último)&quot;. Assim, a configuração Alocação de eVars de merchandising não determina quais valores são inseridos na coluna post_evar, pois um visitante continua usando o site. Em vez disso, essa configuração determina qual valor de eVar se vincula a um produto e como esses produtos alocam os eventos de sucesso de volta aos valores de eVar aos quais estão vinculados.
 
-O seguinte acontece quando a configuração Alocação de eVar de merchandising (ou seja, vinculação) é definida como “Valor original (primeiro)”: qualquer produto definido com a coluna post_evar e que não tenha sido previamente vinculado à eVar &quot;pré-processada&quot; correspondente da coluna post_evar será vinculado ao valor contido na coluna post_evar. Esse vínculo entre o valor da eVar e o produto nunca será alterado até que a eVar expire de acordo com as definições de “Expirar após” nas configurações do Conjunto de relatórios.
+O seguinte acontece quando a configuração Alocação de eVar de merchandising (ou seja, vinculação) é definida como “Valor original (primeiro)”: qualquer produto definido com a coluna post_evar e que não tenha sido previamente vinculado à eVar &quot;pré-processada&quot; correspondente da coluna post_evar será vinculado ao valor contido na coluna post_evar.  Esse vínculo entre o valor da eVar e o produto nunca será alterado até que a eVar expire de acordo com as definições de “Expirar após” nas configurações do Conjunto de relatórios.
 
 Sempre que uma solicitação de imagem atender aos critérios que, de outra forma, vinculariam um produto já vinculado ao valor do eVar definido mais recentemente, a configuração &quot;Valor original (primeiro)&quot; forçará os servidores de coleta de dados do Adobe Analytics a ignorar quaisquer tentativas adicionais. O oposto acontece com eVars de merchandising com a configuração Alocação (vinculação) igual a &quot;Mais recente (último)&quot;. Sempre que uma solicitação de imagem atender aos critérios que vinculam um produto a um eVar de merchandising, o produto se vinculará (e se vinculará novamente) ao valor mais recente passado para o eVar ou ao valor que está (sempre) contido na coluna `post_evar`.
 
@@ -196,7 +202,7 @@ s.products=";sandal123;1;79.95";
 s.events="purchase";
 ```
 
-Os seguintes valores teriam uma ordem, uma unidade e US$ 79,95 da receita atribuída a eles:
+Os seguintes valores teriam um pedido, uma unidade e US$ 79,95 da receita atribuída a eles:
 
 * Valor da eVar2 de &quot;sandals&quot;
 * Valor de eVar1 de &quot;pesquisa interna de palavra-chave&quot;
@@ -206,9 +212,9 @@ Os seguintes valores teriam uma ordem, uma unidade e US$ 79,95 da receita atribu
 
 Essa é a atribuição correta, que não é um problema. Em vez disso, o grande dilema dessa abordagem é determinar como e quando definir as eVars de método de descoberta de produto.
 
-Na maioria dos casos com a Sintaxe de produto, as eVars de método de descoberta de produto precisariam ser definidas em uma página de detalhes do produto, em vez de na página em que o método de descoberta foi realmente usado (por exemplo, na página de resultados de pesquisa de palavra-chave, na página de navegação, na página de aterrissagem da campanha interna etc.). É razoável supor que um produto não foi realmente &quot;encontrado&quot; até que um visitante interaja com um produto em algum grau. Dessa forma, essas eVars (usando Sintaxe de produto) não devem ser definidas na página de método de descoberta, pois vários produtos são (geralmente) exibidos nessas páginas. Queremos vincular o valor do método de descoberta somente aos produtos com os quais o visitante interagiu.
+Na maioria dos casos com a Sintaxe de produto, as eVars de método de descoberta de produto precisariam ser definidas em uma página de detalhes do produto, em vez de na página em que o método de descoberta foi realmente usado (por exemplo, na página de resultados de pesquisa de palavra-chave, na página de navegação, na página de destino da campanha interna etc.). É razoável supor que um produto não foi realmente &quot;encontrado&quot; até que um visitante interaja com um produto em algum grau. Dessa forma, essas eVars (usando Sintaxe de produto) não devem ser definidas na página de método de descoberta, pois vários produtos são (geralmente) exibidos nessas páginas. Queremos vincular o valor do método de descoberta somente aos produtos com os quais o visitante interagiu.
 
-Além disso, ao visualizar uma página de método de descoberta, os visitantes podem ter a capacidade de clicar em um link que os leva para uma página de detalhes do produto individual ou adicionar um produto individual ao carrinho diretamente da página de método de descoberta. Usando nosso exemplo de palavra-chave de pesquisa &quot;sandals&quot;, se um visitante adicionar o produto &quot;sandal123&quot; ao carrinho diretamente de uma página de resultados de pesquisa por palavra-chave, o código para capturar a adição do carrinho (por meio do evento onClick do botão Adicionar ao carrinho etc.) teria que ser gerado dinamicamente no momento em que a adição do carrinho ocorrer ou &quot;codificado&quot; diretamente por meio do código da página ou de um sistema de gerenciamento de tags.  Independentemente disso, o código a ser acionado em tais casos seria semelhante a:
+Além disso, ao visualizar uma página de método de descoberta, os visitantes podem ter a capacidade de clicar em um link que os leva para uma página de detalhes do produto individual ou adicionar um produto individual ao carrinho diretamente da página de método de descoberta. Usando nosso exemplo de palavra-chave de pesquisa &quot;sandals&quot;, se um visitante adicionar o produto &quot;sandal123&quot; ao carrinho diretamente de uma página de resultados de pesquisa por palavra-chave, o código para capturar a adição do carrinho (por meio do evento onClick do botão Adicionar ao carrinho etc.) precisará ser gerado dinamicamente no momento em que a adição do carrinho ocorrer ou &quot;codificado&quot; diretamente por meio do código da página ou de um sistema de gerenciamento de tags.  Independentemente disso, o código a ser acionado em tais casos seria semelhante a:
 
 ```js
 s.linkTrackVars="products,events";
@@ -300,7 +306,7 @@ Não há necessidade de se preocupar com a transmissão de dados para cada pági
 
 Como explicado anteriormente, todas as eVars de merchandising que usam a Sintaxe de variável de conversão têm a configuração Alocação de &quot;Mais recente (último)&quot;. Depois que um eVar é definido como qualquer valor, esse valor persiste em todas as ocorrências subsequentes (por meio da coluna post_evar). Ela persiste até ser definida como um valor diferente ou até que o eVar expire. Assim, qualquer produto com o qual qualquer pessoa interage depois que os eVars são definidos, se ainda não tiverem sido vinculados a esses eVars, vincula-se aos valores &quot;Mais recente (último)&quot; passados ao eVar.
 
-Usando nosso exemplo acima, o valor `eVar2` de &quot;sandals&quot; e o valor de eVar1 de &quot;pesquisa interna de palavra-chave&quot; etc. persiste em todas as páginas visualizadas depois que a pesquisa por palavra-chave ocorreu. Eles persistem até que os eVars sejam substituídos por outros valores. Digamos que um visitante clique em um link da página de detalhes do produto da ID de produto &quot;sandal123&quot; na página de resultados da pesquisa por palavra-chave.  Em seguida, a ID de produto &quot;sandal123&quot; (se ainda não tiver sido vinculada) é vinculada a cada um dos valores contidos nas colunas post_evar ou aos valores de eVar que foram coletados da página anterior (resultados de pesquisa).
+Usando nosso exemplo acima, o valor `eVar2` de &quot;sandals&quot; e o valor eVar1 de &quot;pesquisa interna de palavra-chave&quot; etc. persistem em todas as páginas visualizadas após a realização da pesquisa por palavra-chave. Eles persistem até que os eVars sejam substituídos por outros valores. Digamos que um visitante clique em um link da página de detalhes do produto da ID de produto &quot;sandal123&quot; na página de resultados da pesquisa por palavra-chave.  Em seguida, a ID de produto &quot;sandal123&quot; (se ainda não tiver sido vinculada) é vinculada a cada um dos valores contidos nas colunas post_evar ou aos valores de eVar que foram coletados da página anterior (resultados de pesquisa).
 
 Há mais um item a ser reconsiderado na Sintaxe de variável de conversão. Os eventos de vinculação devem ser configurados para vincular um valor de eVar a um produto. Simplesmente definir um eVar de merchandising (em sua própria variável) com um produto (na variável products ) em uma solicitação de imagem do Adobe Analytics não vincula necessariamente o valor do eVar ao produto.  Em vez disso, a configuração Evento de vinculação de merchandising, que é definida no Gerenciador de conjunto de relatórios, determina os critérios que vinculam um valor de eVar a um produto
 

@@ -4,10 +4,16 @@ description: Siga estas etapas para garantir que sua implementação permaneça 
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/C57qRRa4-WDgJDgvtLebgy-0DAPvMUreSrGfuA67N4o
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 68%
+source-wordcount: 535
+ht-degree: 62%
 
 ---
 
@@ -47,7 +53,7 @@ Avalie a situação e faça um plano para corrigir os dados. Em seguida, faça a
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisar a implementação](https://video.tv.adobe.com/v/3440174?quality=12&learn=on&captions=por_br){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisar a implementação](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

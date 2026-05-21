@@ -2,10 +2,16 @@
 title: Enviar dados para a Adobe Analytics usando a extensão de tag da Web SDK
 description: Comece com uma implementação limpa da Coleção de dados do Adobe Experience Platform para enviar dados para a Adobe Analytics usando o XDM e o grupo de campos do Adobe Analytics ExperienceEvent.
 exl-id: 235b3d68-92dd-4ca4-8889-1e1f2d83f47e
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/vh7cGIHcgDgnUpzs-Vx-Tw98gqCp78peAfrApr9Jol8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 16%
+source-wordcount: 1102
+ht-degree: 18%
 
 ---
 
@@ -72,13 +78,13 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>5</td> 
 <td><b>Adicionar um serviço Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics e para quais conjuntos de relatórios especificamente.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>Criar uma propriedade de marca</b>. As propriedades são contêineres abrangentes usados para fazer referência aos dados do gerenciamento de tags.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=pt-BR#for-web">Criar ou configurar uma propriedade de tag para a web</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">Criar ou configurar uma propriedade de tag para a web</a></td>
 </tr>
 
 <tr>
@@ -90,7 +96,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td>8</td>
 <td><b>Iterar, validar e publicar</b> para produção. Incorpore o código para incluir a propriedade da tag nas páginas do site. Em seguida, use elementos de dados, regras, entre outros, para personalizar sua implementação.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=pt-BR#embed-code">Código de inserção</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=pt-BR">Visão geral da publicação</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Código de inserção</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=pt-BR">Visão geral da publicação</a></td>
 </tr>
 
 </table>

@@ -3,10 +3,16 @@ description: Vários relatórios do Adobe Analytics podem mostrar Não especific
 title: Não especificado, Nenhum, Outros e Desconhecido nos relatórios
 feature: Analytics Basics
 exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
-source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
+TQID: https://experienceleague.adobe.com/JWT1oVZ-3Qcg9IxtPcEw9R9b8WHpe0O5GhDb3q-l7jo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 96%
+source-wordcount: 527
+ht-degree: 88%
 
 ---
 
@@ -28,11 +34,11 @@ Vários relatórios do Adobe Analytics podem mostrar “Não especificado”, �
 Embora seja de certa forma incomum em relatórios, “Outros” pode ocorrer em várias circunstâncias:
 
 * **As páginas são acionadas fora dos filtros internos de URL:** esse valor está existe para ajudar a proteger contra fraude de dados, como no caso de outra organização roubar seu código fonte e o implementá-lo no próprio site. Para corrigir esse problema, verifique se todos os URLs nos quais seu código está implementado correspondem aos filtros de URL nas configurações do conjunto de relatórios.
-* **Visitante usando um navegador não utilizado frequentemente:** no relatório Tipos de navegador, “Outros” aparece como um detalhamento de visitantes usando um navegador de tipo incomum. Existem diversas organizações que produzem navegadores. Todos os navegadores que organizações maiores não criaram são classificados em “Outros” para evitar a desorganização do relatório.
+* **Visitantes que usam um navegador pouco usado:** No relatório de Tipos de Navegador, &quot;Outros&quot; será exibido como um detalhamento se os visitantes estiverem usando um navegador que não é um tipo de navegador popular. Há muitas organizações que produzem navegadores. Todos os navegadores que organizações maiores não criaram são classificados em “Outros” para evitar a desorganização do relatório.
 
-## “Desconhecido” nos relatórios {#unknown}
+## &quot;Desconhecido&quot; nos relatórios {#unknown}
 
-“Desconhecido” pode ocorrer sob diversas circunstâncias:
+&quot;Desconhecido&quot; pode ocorrer em várias circunstâncias:
 
 * **Ocorrências que não são de navegador na visualização dos relatórios de Tecnologia:** se uma biblioteca do AppMeasurement não puder determinar se um recurso é compatível, &quot;Desconhecido&quot; será exibido no relatório.
 * **Uso de segmentos onde os componentes não estão acessíveis:** verifique se as variáveis usadas em um segmento estão habilitadas e se os usuários podem acessá-las. Se um usuário não tiver acesso a um componente de segmento, ou se uma variável estiver desativada, “Desconhecido” será exibido.

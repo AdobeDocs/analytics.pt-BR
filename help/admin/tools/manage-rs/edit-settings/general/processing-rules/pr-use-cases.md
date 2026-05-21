@@ -5,10 +5,15 @@ title: Casos de uso de regras de processamento
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
+TQID: https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 24%
+source-wordcount: 832
+ht-degree: 21%
 
 ---
 
@@ -29,7 +34,7 @@ O exemplo a seguir pega a variável de dados de contexto `search_term` e coloca 
 | Conjunto de regras | Valor |
 | --- | --- |
 | Condição | `search_term` (Dados de contexto) está definido |
-| Ação | [!UICONTROL Substituir o valor de &#x200B;] eVar3 por `search_term` (Dados de contexto) |
+| Ação | [!UICONTROL Substituir o valor de ] eVar3 por `search_term` (Dados de contexto) |
 
 ![Captura de tela da interface de regras de processamento mostrando o uso de uma variável de dados de contexto](assets/set-context-data.png)
 
@@ -39,9 +44,9 @@ O exemplo a seguir preenche várias variáveis com variáveis de dados de contex
 
 | Conjunto de regras | Valor |
 | --- | --- |
-| Ação | [!UICONTROL Substituir o valor de &#x200B;] eVar55 por `spa.billing_customer_name` (Dados de contexto) |
-| Ação | [!UICONTROL Substituir o valor de &#x200B;] Prop7 por `testhierarchy` (Dados de contexto), se `testhierarchy` (Dados de contexto) estiver definido |
-| Ação | [!UICONTROL Substituir o valor de &#x200B;] eVar8 por `spa.ims_org` (Dados de contexto) |
+| Ação | [!UICONTROL Substituir o valor de ] eVar55 por `spa.billing_customer_name` (Dados de contexto) |
+| Ação | [!UICONTROL Substituir o valor de ] Prop7 por `testhierarchy` (Dados de contexto), se `testhierarchy` (Dados de contexto) estiver definido |
+| Ação | [!UICONTROL Substituir o valor de ] eVar8 por `spa.ims_org` (Dados de contexto) |
 
 ![Captura de tela da interface de regras de processamento mostrando como definir condicionalmente um valor](assets/add-conditional.png)
 
@@ -68,7 +73,7 @@ A definição de regra a seguir define um evento em cada ocorrência que contém
 
 +++Preenchimento de uma variável usando um parâmetro da cadeia de caracteres de consulta
 
-É possível preencher uma variável usando um parâmetro da string de consulta. Na maioria dos casos, você normalmente ajusta sua implementação para obter os valores da sequência de consulta desejados. No entanto, se você não conseguir ajustar facilmente sua implementação para coletar esses dados, as regras de processamento serão uma alternativa adequada. Se um erro de digitação ou problema semelhante impedir o preenchimento do valor, a variável poderá ser preenchida por regras de processamento.
+É possível preencher uma variável usando um parâmetro da string de consulta. Na maioria dos casos, você normalmente ajusta sua implementação para obter os valores da sequência de consulta desejados. No entanto, se você não conseguir ajustar facilmente sua implementação para coletar esses dados, as regras de processamento serão uma alternativa adequada. Se um erro de digitação ou um problema semelhante impedir que o valor seja preenchido, é possível preencher a variável usando regras de processamento.
 
 Sempre verifique se um valor está vazio ou contém o valor esperado antes de substituí-lo.
 
@@ -108,7 +113,7 @@ Você pode usar a opção de concatenar para preencher valores combinando outros
 | Conjunto de regras | Valor |
 | --- | --- |
 | Condição | Nenhum (Sempre executar) |
-| Ação | [!UICONTROL Substituir o valor de &#x200B;] eVar1 por [!UICONTROL Valor Concatenado] Categoria + Nome da Página |
+| Ação | [!UICONTROL Substituir o valor de ] eVar1 por [!UICONTROL Valor Concatenado] Categoria + Nome da Página |
 
 ![Captura de tela da interface de regras de processamento mostrando um valor concatenado](assets/add-subcategory-using-concat.png)
 
@@ -133,8 +138,8 @@ A Adobe recomenda usar a opção de correspondência mais restritiva possível p
 
 Você pode remover ou descartar um evento específico de uma ocorrência usando regras de processamento sem alterar a implementação do. Se você definir o evento com o valor personalizado `0`, o evento não contará.
 
-| Conjunto de regras | Valor |
-| Condição | Nenhum (Sempre executar) |
+| Conjunto de regras Valor | |
+| Condição | Nenhum (sempre executar) |
 | Ação | [!UICONTROL Definir evento] Evento1 como [!UICONTROL Valor personalizado] `0` |
 
 ![Captura de tela da interface de regras de processamento mostrando como remover um evento](assets/remove_event.png)

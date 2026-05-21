@@ -3,10 +3,16 @@ title: Importar métricas de pesquisa paga
 description: Etapas para configurar o Adobe Analytics para rastrear suas métricas de pesquisa paga (por exemplo, Google Ads, Microsoft Advertising etc.) usando Fontes de dados.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 90%
+source-wordcount: 1216
+ht-degree: 77%
 
 ---
 
@@ -70,8 +76,8 @@ O [!UICONTROL Assistente de ativação da Fonte de dados] exibe:
 
    ![Mapeamento](assets/data-source-mapping.png)
 
-1. Escolha as dimensões de dados
-Marque a caixa ao lado de Códigos de rastreamento e clique em **[!UICONTROL Próximo]**.
+1. Escolher dimensões de dados
+Marque a caixa ao lado de Códigos de Acompanhamento e clique em **[!UICONTROL Avançar]**.
 1. Mapear dimensões de dados.
 Mapeie a dimensão de dados importada (atributo) para o atributo do Adobe Analytics no qual você deseja armazená-la. Pode ser uma dimensão padrão ou um eVar. Depois de clicar em **[!UICONTROL Próximo]**, os mapeamentos resultantes são mostrados no resumo:
 
@@ -90,7 +96,7 @@ Etapas semelhantes a essas funcionam para o Google Ads, Microsoft Advertising e 
 ### Exportar dados
 
 1. Faça logon em sua conta PPC e crie um novo relatório ou exportação.
-Certifique-se de que a exportação inclua os seguintes campos: data, URL de destino (página de aterrissagem), impressões, cliques e custo. A exportação pode incluir outros campos, mas você os excluirá das etapas abaixo.
+Certifique-se de que a exportação inclua os seguintes campos: data, URL de destino (página de destino), impressões, cliques e custo. A exportação pode incluir outros campos, mas você os excluirá das etapas abaixo.
 1. Se possível, salve o relatório como um `.csv` ou arquivo delimitado por tabulação. Isso facilitará o trabalho com ele nas etapas a seguir.
 1. Abra o arquivo no Microsoft Excel.
 
@@ -101,10 +107,10 @@ Certifique-se de que a exportação inclua os seguintes campos: data, URL de des
 1. Para isolar os códigos de rastreamento dos URLs de destino:
 a. Copie e cole dados de todas as colunas.
 b. Clique em **[!UICONTROL Dados > Texto para colunas]**.
-c. Na Etapa 1 do assistente, certifique-se que **[!UICONTROL Delimitado]** esteja selecionado e clique em **[!UICONTROL Próximo]**.
-d. Na Etapa 2 do assistente, especifique o delimitador dependendo de como você criou seus URLs (seja ? ou &amp;) e clique em **[!UICONTROL Próximo]**.
+c. Na Etapa 1 do assistente, verifique se **[!UICONTROL Delimitado]** está selecionado e clique em **[!UICONTROL Avançar]**.
+d) Na Etapa 2 do assistente, especifique o delimitador dependendo de como você criou seus URLs (seja ? ou &amp;) e clique em **[!UICONTROL Próximo]**.
 e. Na Etapa 3 do assistente, visualize seus dados e verifique se uma das colunas é &quot;trackingcodename=trackingcode&quot;. Se você tiver variáveis adicionais, repita essas etapas (usando &amp; como delimitador).
-f. Exclua todas as colunas, exceto códigos de rastreamento, impressões, cliques e custo. Adicione uma nova coluna chamada Data e organize suas colunas na seguinte ordem: Data :: Código de rastreamento :: Impressões :: Cliques :: Custo.
+f) Exclua todas as colunas, exceto códigos de rastreamento, impressões, cliques e custo. Adicione uma nova coluna chamada Data e organize suas colunas na seguinte ordem: Data :: Código de rastreamento :: Impressões :: Cliques :: Custo.
 1. Adicione esses dados ao modelo que você baixou na seção &quot;Configurar fontes de dados&quot; acima.
 Agora você está pronto para fazer upload do arquivo.
 
@@ -122,8 +128,8 @@ Por exemplo, você poderia adicionar estas [métricas calculadas](/help/componen
 
 | Nome | Fórmula | Tipo de métrica | Descrição |
 | --- | --- | --- | --- |
-| Exibições de página por visita | Exibições de página/visitas | Numérico | Quando aplicado no nível de site: mostra o número médio de páginas por visita. Quando aplicado no relatório Páginas mais populares: exibe o número médio de vezes que uma página foi visualizada por visita. |
-| Valor médio de pedido | Receita/pedidos | Moeda | Exibe a receita média por pedido. |
+| Exibições de página por visita | Exibições de página/visitas | Numérico | Quando aplicado em um nível de site: mostra o número médio de páginas por visita. Quando aplicado no relatório Páginas mais populares: mostra o número médio de vezes que uma página específica foi exibida por visita. |
+| Valor médio de pedido | Receita/Pedidos | Moeda | Mostra a receita média por pedido. |
 | Receita por visita | Receita/visita | Moeda | Exibe a receita média por visita. |
 | Índice de click-through (CTR) | Cliques/impressões | Numérico | Medir a proporção de cliques para impressões de um anúncio online ou campanha de marketing por email. |
 | Lucro | Receita - Custo | Moeda | Mostra a receita de uma campanha menos o custo. |

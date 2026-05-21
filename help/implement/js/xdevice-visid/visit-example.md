@@ -6,10 +6,14 @@ title: Exemplo de identificação de visitante entre dispositivos
 feature: Implementation Basics
 exl-id: c68bb745-29de-48e3-8731-d714503a2447
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/ZYFxZyY5ZzmM064d2vx-8Ek-LftVwhxSsvLkzE9mgCI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: 386
+ht-degree: 77%
 
 ---
 
@@ -21,15 +25,15 @@ ht-degree: 100%
 
 O exemplo a seguir ilustra como a identificação de visitantes entre dispositivos funciona usando uma amostra de chamadas de servidor enviadas em uma interação comum com o cliente.
 
-| Chamada do servidor | Ação | Cookie da ID do visitante | Variável da ID do visitante | ID efetiva do visitante | Número de página da visita | Número da visita |
+| Chamada de servidor | Ação | Cookie da ID de visitante | Variável de ID de visitante | ID efetiva do visitante | Número de visitas à página | Número da visita |
 |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Um visitante clica em um link em um email de marketing e visita seu site, usando seu computador pessoal. Esse visitante já visitou o site 7 outras vezes no passado. | 1 | - | 1 | 1 | 8 |
-| 2-8 | Visita 7 páginas adicionais no seu site. | 1 | - | 1 | 2-8 | 8 |
-| 9 | Autentifica no computador pessoal. | 1 | CID1 | CID1 | 9 <br>(Este é o primeiro hit do CID1, por isso ele assume o controle e continua no perfil do visitante a partir da ID de visitante 1.) | 8 |
-| 10 | Visita uma página adicional. | 1 | CID1 | CID1 | 10 | 8 |
-| 11 | Abre o site em seu laptop, no escritório. O visitante não visitou o site antes de utilizar esse dispositivo. | 2 | - | 2 | 1 | 1 |
-| 12 | Autentifica em laptop. | 2 | CID1 | CID1 | 1 | 9 |
-| 13 | Visualiza 1 página adicional. | 2 | CID1 | CID1 | 2 | 9 |
+| 1 | Um visitante clica em um link em um email de marketing e visita seu site do computador doméstico. Este visitante visitou o site 7 outras vezes no passado. | 1 | - | 1 | 1 | 8 |
+| 2-8 | Visita 7 páginas adicionais em seu site. | 1 | - | 1 | 2-8 | 8 |
+| 9 | É autenticado no computador doméstico. | 1 | CID1 | CID1 | 9 <br>(Este é o primeiro hit do CID1, por isso ele assume o controle e continua no perfil do visitante a partir da ID de visitante 1.) | 8 |
+| 10 | Visita 1 página adicional. | 1 | CID1 | CID1 | 10 | 8 |
+| 11 | Abre o site a partir do laptop no escritório. Este visitante não visitou o site antes de usar este dispositivo. | 2 | - | 2 | 1 | 1 |
+| 12 | É autenticado no laptop. | 2 | CID1 | CID1 | 1 | 9 |
+| 13 | Visualizações 1 página adicional. | 2 | CID1 | CID1 | 2 | 9 |
 
 ## Contagem de visitas
 

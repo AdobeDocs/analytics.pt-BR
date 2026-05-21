@@ -1,12 +1,17 @@
 ---
-description: Saiba mais sobre como usar o Gerenciador de atividades de relatórios para diagnosticar e corrigir problemas de capacidade durante o pico dos relatórios.
+description: Saiba mais sobre como usar o gerenciador de atividades de relatórios para diagnosticar e corrigir problemas de capacidade durante os horários de pico de relatórios.
 title: Visão geral do gerenciador de atividades de relatórios
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
+TQID: https://experienceleague.adobe.com/ooOVEtcjfU99QHDkVKE3DDEWHkkcvScBtpL6SFE7POc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 264
 ht-degree: 100%
 
 ---
@@ -21,7 +26,7 @@ O gerenciador de atividades de relatórios oferece os seguintes benefícios:
 
 * Permite monitorar e gerenciar a capacidade de gerar relatórios para cada conjunto de relatórios na organização.
 * Informa, em tempo real, sobre a capacidade atual de geração de relatórios em seus conjuntos de relatórios.
-* Fornece informações de relatórios detalhadas sobre solicitações de relatórios atuais, quer estejam na fila ou em andamento.
+* Fornece informações detalhadas de consulta de relatórios sobre solicitações de geração de relatórios atuais, estejam elas na fila ou em andamento.
 * Permite otimizar a fila de relatórios, priorizando algumas e cancelando outras solicitações de relatórios para liberar capacidade. Responde a perguntas como: este relatório é necessário neste momento, ou posso cancelá-lo em favor de relatórios mais urgentes?
 * Permite restringir solicitações futuras por um período especificado. Você pode restringir solicitações específicas, restringir todas as solicitações de um usuário específico ou solicitações associadas a um projeto específico.
 
@@ -31,7 +36,7 @@ Para gerenciar a atividade de relatórios, você deve ter a permissão de admin 
 
 ![permissão](/help/admin/tools/assets/rep-mgr-permission.png)
 
-## Exibir atividade de relatórios
+## Exibir atividade de relatório
 
 Para mais informações sobre como exibir a atividade de relatórios no gerenciador de atividades de relatórios, consulte [Exibir atividade de relatórios no gerenciador de atividades de relatórios](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 

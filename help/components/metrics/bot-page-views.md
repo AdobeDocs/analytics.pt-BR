@@ -3,9 +3,15 @@ title: Exibições de página de bot
 description: O número de exibições de página que corresponderam às regras de bot.
 feature: Metrics
 exl-id: d6699880-3faa-4df9-ad49-c7998f6ce45b
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/Y0r2fzF87dep4NsrbJGCC9OnqBHrZozCh2DovNc90KQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 125
 ht-degree: 11%
 
 ---
@@ -16,7 +22,7 @@ A [métrica](overview.md) de &#39;Exibições de página de bot&#39; mostra o n�
 
 Como o relatório de bot é separado do restante dos dados do conjunto de relatórios, essa métrica funciona somente com as seguintes dimensões:
 
-* [Nome do bot &#x200B;](../dimensions/bot-name.md)
+* [Nome do bot](../dimensions/bot-name.md)
 * [Página](../dimensions/page.md)
 * Dimensões com base em tempo (por exemplo, [Dia](../dimensions/day.md), [Semana](../dimensions/week.md) ou [Mês](../dimensions/month.md))
 

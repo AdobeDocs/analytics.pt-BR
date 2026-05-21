@@ -1,12 +1,16 @@
 ---
 description: Entenda como usar alertas para obter um controle granular das notificações e uma integração com a detecção de anomalias.
-title: Visão geral dos alertas
+title: Visão geral de alertas
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+TQID: https://experienceleague.adobe.com/FDzJzBjxMc-EkhW0k0NiENt-g53sRnzXQDs1XQWFseI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 54%
+source-wordcount: 435
+ht-degree: 53%
 
 ---
 
@@ -28,7 +32,7 @@ Os alertas inteligentes permitem:
    * Alterações nas métricas em uma porcentagem específica.
    * Métricas acima, abaixo ou igual a um valor específico. (disponível somente para clientes do Adobe Analytics com um pacote Select, Prime ou Ultimate)
 
-Este [tutorial em vídeo](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/data-science/intelligent-alerts) fornece uma visão geral básica dos alertas.
+Este [tutorial em vídeo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts) fornece uma visão geral básica dos alertas.
 
 
 ## Pesquisa de anomalias para alertas
@@ -52,10 +56,10 @@ Para obter informações sobre como criar alertas no Adobe Analytics, consulte [
 
 >[!IMPORTANT]
 >
->Usar dados com carimbo de data e hora para criar alertas pode fazer com que os alertas acionem incorretamente. A Adobe recomenda o uso de dados sem carimbo de data/hora para criar alertas.
+>Usar dados com carimbo de data e hora para criar alertas pode fazer com que os alertas disparem incorretamente. A Adobe recomenda o uso de dados sem carimbo de data/hora para criar alertas.
 
 ## Gerenciar alertas
 
-Você pode gerenciar alertas existentes no gerenciador de alertas. É possível executar várias tarefas de gerenciamento em alertas, como aplicar tags, renomear, excluir e mais.
+Você pode gerenciar alertas existentes no gerenciador de alertas. Você pode executar várias tarefas de gerenciamento de alertas, como marcar, renomear, excluir e muito mais.
 
 Para obter mais informações sobre como gerenciar alertas existentes no Adobe Analytics, consulte [Gerenciar alertas](/help/components/alerts/alert-manager.md).

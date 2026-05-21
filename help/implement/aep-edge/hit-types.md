@@ -4,9 +4,15 @@ description: Como o Adobe Analytics interpreta os eventos recebidos da Edge Netw
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 31085025-9c38-4375-8dfb-4fded6542ca7
-source-git-commit: 0096a53505b3b1bc925c813c2c6c11ee3c7ee0c0
-workflow-type: ht
-source-wordcount: '425'
+TQID: https://experienceleague.adobe.com/Bf-OnlQu7TFYb1V4uKCVVoQkaPP4MuhyVWSdgjlZ6e8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 478
 ht-degree: 100%
 
 ---
@@ -83,7 +89,7 @@ A Edge Network usa a seguinte lógica para determinar as [exibições de página
 | O conteúdo do objeto de dados contém... | Adobe Analytics... |
 |---|---|
 | `data.__adobe.analytics.pageName` ou `data.__adobe.analytics.pageURL` (não `data.__adobe.analytics.linkType`) | considera o conteúdo uma **exibição de página** |
-| `data.__adobe.analytics.linkType` e (`data.__adobe.analytics.linkName` ou `data.__adobe.analytics.linkURL`) | considera o conteúdo um **evento de link** <br/>Também define `data.__adobe.analytics.pageName` e `data.__adobe.analytics.pageURL` como `null` |
+| `data.__adobe.analytics.linkType` e (`data.__adobe.analytics.linkName` ou `data.__adobe.analytics.linkURL`) | consideram o conteúdo um **evento de link** <br/>Também definem `data.__adobe.analytics.pageName` e `data.__adobe.analytics.pageURL` como `null` |
 | nenhum `data.__adobe.analytics.linkType` e nenhum `data.__adobe.analytics.pageName` e nenhum `data.__adobe.analytics.pageURL` | solta o conteúdo e ignora os dados |
 
 +++Exibição de página mínima usando campos `data`

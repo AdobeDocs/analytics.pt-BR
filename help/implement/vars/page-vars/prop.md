@@ -4,10 +4,16 @@ description: Variáveis personalizadas que podem ser usadas na implementação.
 feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/m1zwGOg7Fw26KdnqjqrOSekG8AehjIVsLKWMeaJfPY0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: e4f5f438-eabb-4c54-9133-b817e3d125f5id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 85%
+source-wordcount: 623
+ht-degree: 87%
 
 ---
 
@@ -38,7 +44,7 @@ Você pode definir props ao configurar a extensão do Analytics (variáveis glob
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Definir Variáveis].
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Props].
 
 Você pode definir uma prop a um valor ou um elemento de dados. Também é possível copiar o valor de outra variável do Analytics.

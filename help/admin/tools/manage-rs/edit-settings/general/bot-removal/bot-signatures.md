@@ -4,10 +4,14 @@ description: Reconheça os identificadores comuns de bots.
 feature: Bot Removal
 role: Admin
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/5pfpWlD50DyOhSADhRnchl-bclDhdpFFS5mjl0M9AoQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: 536
+ht-degree: 94%
 
 ---
 
@@ -65,7 +69,7 @@ O usuário não faz logon em nenhum ponto de sua visita e suas eVars de identifi
 
 ## Nenhum KPI na visita
 
-Os bots normalmente não adicionam produtos a um carrinho de compras nem fazem check-out. Na maioria das vezes, eles não enviam formulários de cliente potencial ou outros eventos de sucesso; alguns bots enviam formulários HTML simples.
+Os bots normalmente não adicionam produtos a um carrinho de compras nem fazem check-out. Na maioria das vezes, eles não enviam formulários de cliente potencial ou outros eventos de sucesso, mas alguns bots enviam formulários simples do HTML. &#x200B;
 
 ## Sequência de consulta específica presente
 
@@ -73,6 +77,6 @@ Os bots normalmente não adicionam produtos a um carrinho de compras nem fazem c
 
 ## Endereços IP originados de plataformas de computação distribuída
 
-Os serviços de hospedagem na Web, como Amazon Web Services ou Google Cloud, podem ser usados como farms de bots. Estes endereços IP têm alto risco de serem bots:
+Os serviços de hospedagem na Web, como Amazon Web Services ou Google Cloud, podem ser usados como farms de bots. Esses endereços IP têm alto risco de serem bots:
 &#x200B;
 * [Google Cloud](https://cloud.google.com/compute/): o endereço IP começa com `&#x200B;35.199` ou `35.194&#x200B;`

@@ -5,9 +5,13 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/UG-cNvOpiJSiGfnUSvzDgWq-HemBgcHcgSebJCFtaD8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: 230
 ht-degree: 55%
 
 ---
@@ -26,7 +30,7 @@ ht-degree: 55%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a visualização de Venn na_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Venn](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/venn) para a versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta a visualização de Venn na_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Venn](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/venn) para a versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +58,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização Venn](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualização Venn](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 

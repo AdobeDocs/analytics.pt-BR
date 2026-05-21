@@ -3,10 +3,16 @@ title: Analisar Canais de marketing
 description: Saiba como usar dimensões de Canais de marketing no Workspace.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/XWjRuwOusH-TsOb5rzG8rAIkye3faYxfZzyQOMrav3Q
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 90%
+source-wordcount: 435
+ht-degree: 77%
 
 ---
 
@@ -18,7 +24,7 @@ ht-degree: 90%
 >
 >Admins do Analytics podem gerenciar os canais de marketing de suas organizações, conforme descrito em [Gerenciar canais de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
-Você provavelmente quer saber qual de seus canais de marketing é o mais eficiente, e para quem, para que você possa direcionar seus esforços e receber um melhor retorno sobre o investimento feito em marketing. No Adobe Analytics, as dimensões e métricas dos Canais de marketing no Workspace são uma das ferramentas que podem ajudar você a rastrear a influência de canais diferentes em seus pedidos, receita etc. e fornecer insights úteis sobre o canal. Estas são as dimensões e métricas que você pode usar relacionadas aos Canais de marketing:
+Você provavelmente quer saber qual de seus canais de marketing é o mais eficiente, e para quem, para que você possa direcionar seus esforços e receber um melhor retorno sobre o investimento feito em marketing. No Adobe Analytics, as dimensões e métricas dos Canais de marketing no Workspace são uma das ferramentas que podem ajudar você a rastrear a influência de canais diferentes em seus pedidos, receita etc., e fornecer insights de canal úteis. Estas são as dimensões e métricas que você pode usar relacionadas aos Canais de marketing:
 
 ![](assets/mc-dims.png)
 

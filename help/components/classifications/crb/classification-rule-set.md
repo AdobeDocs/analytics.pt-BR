@@ -1,12 +1,17 @@
 ---
-description: Um conjunto de regras é um grupo de regras de classificação para uma variável específica. Você aplica uma variável ao conjunto de regras. Se deseja criar vários conjuntos de regras para uma variável, você deve aplicar cada conjunto de regras a vários conjuntos de relatórios.
+description: Um conjunto de regras é um grupo de regras de classificação para uma variável específica. Aplique uma variável ao conjunto de regras. Se quiser criar vários conjuntos de regras para uma variável, aplique cada conjunto de regras a vários conjuntos de relatórios.
 title: Conjuntos de regras de classificação
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 89%
+source-wordcount: 407
+ht-degree: 49%
 
 ---
 
@@ -16,13 +21,13 @@ ht-degree: 89%
 
 *Esta página explica os conjuntos de regras de classificação como parte do [Construtor de regras de classificação](classification-rule-builder.md). Consulte [Conjuntos de classificação](../sets/overview.md) para obter o método atual de classificação de dados no Adobe Analytics.*
 
-Um conjunto de regras é um grupo de regras de classificação para uma variável específica. Você aplica uma variável ao conjunto de regras. Se deseja criar vários conjuntos de regras para uma variável, você deve aplicar cada conjunto de regras a vários conjuntos de relatórios.
+Um conjunto de regras é um grupo de regras de classificação para uma variável específica. Aplique uma variável ao conjunto de regras. Se quiser criar vários conjuntos de regras para uma variável, aplique cada conjunto de regras a vários conjuntos de relatórios.
 
 ## Página do criador de regras de classificação {#section_C60B0888C76D49C596EF19F11808B718}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administração]** > **[!UICONTROL Construtor de regras de classificação]**
 
-Os campos e opções a seguir encontram-se disponíveis no [!UICONTROL Construtor de regras de classificações].
+Os campos e opções a seguir estão disponíveis no [!UICONTROL Construtor de regras de classificação].
 
 <table id="table_A5D92409969747E39E041216A5AA32CD"> 
  <thead> 
@@ -38,11 +43,11 @@ Os campos e opções a seguir encontram-se disponíveis no [!UICONTROL Construto
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regras </p> </td> 
-   <td colname="col2"> Exibe o número de regras incluídas no conjunto. </td> 
+   <td colname="col2"> Exibe o número de regras contidas no conjunto. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Status </p> </td> 
-   <td colname="col2"> Exibe o status da atividade do conjunto de regras, como Rascunho ou Ativo. As regras ativas processam diariamente, examinando os dados de classificação normalmente de um mês. As regras verificam automaticamente novos valores e carregam as classificações. </td> 
+   <td colname="col2"> Exibe o status da atividade do conjunto de regras, como Rascunho ou Ativo. As regras ativas são processadas diariamente, examinando os dados de classificação normalmente há um mês. As regras verificam novos valores automaticamente e fazem upload das classificações. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Última alteração </p> </td> 
@@ -76,7 +81,7 @@ Atribua um nome ao conjunto de regras de classificação, aplique a variável e 
 
 1. Clique em **[!UICONTROL Selecionar Conjuntos de relatórios e variáveis]**.
 
-   A lista de conjunto de relatórios e variáveis é preenchida com todas as variáveis classificadas disponíveis em todos os conjuntos de relatórios em sua empresa de logon. Uma única variável em um conjunto de relatórios pode pertencer a somente um conjunto de regras.
+   O conjunto de relatórios e a lista de variáveis são preenchidos com todas as variáveis classificadas disponíveis em todos os conjuntos de relatórios na sua empresa de logon. Uma única variável em um conjunto de relatórios pode pertencer a apenas um conjunto de regras.
 
    Consulte *`Variable`* nas definições da página [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-definitions.md) para obter mais informações.
 1. Especifique os conjuntos de relatórios e as variáveis disponíveis para uso e clique em **[!UICONTROL Salvar]**.

@@ -3,10 +3,13 @@ title: Guia de exportação do Analytics
 description: Este manual descreve maneiras de retirar dados do Adobe Analytics usando feeds de dados e o Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 68114921b40ffebd89e2843ad0f0cf44812cb13b
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/s9Izwb6M-vKB-1aH3l8nN-bS3KFmEA5CL8-YPn79gKA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 219
+ht-degree: 94%
 
 ---
 
@@ -38,7 +41,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visão gera
 
 ## Principais recursos do Analytics
 
-* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/pt-br?support-solution=Analytics&lang=pt-BR#support)
-* [Comunidade do Adobe Analytics na Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
+* [Entre em contato com o Atendimento ao cliente](https://experienceleague.adobe.com/?support-solution=Analytics&lang=pt-BR#support)
+* [Comunidade do Adobe Analytics no Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=pt)
 * [Recursos do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=pt)
 * [Experience League](https://experienceleague.adobe.com/pt-br)

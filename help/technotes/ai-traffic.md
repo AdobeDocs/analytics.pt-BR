@@ -2,10 +2,16 @@
 description: Entenda como criar relatórios sobre o tráfego de chatbots de IA
 title: Analisar tráfego de chatbots de IA
 feature: Metrics, Data Configuration and Collection
-source-git-commit: d16214865a037efe41b9f95682758daa577a12ed
+exl-id: 0b013b7d-02a2-405d-bdd6-c991f0baac8e
+TQID: https://experienceleague.adobe.com/lyzSP-7iZ8Y5XiTG1t7Axsg1f5AJf6BbcZbu7MmkwWU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 0%
+source-wordcount: 643
+ht-degree: 2%
 
 ---
 
@@ -50,11 +56,10 @@ Você pode usar a dimensão Tipo de referenciador no Analysis Workspace para ana
 
 * Fluxos de trabalho de agente
 
-A dimensão Tipo de referenciador inclui o [Item de dimensão de ferramentas da IA de conversa](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Esse item de dimensão inclui uma lista predefinida de chatbots de IA.
+A dimensão Tipo de referenciador inclui o [Item de dimensão de ferramentas da IA de conversa](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Este item de dimensão inclui uma lista predefinida de chatbots de IA.
 
 Para obter mais informações, consulte [Tipo de referenciador](/help/components/dimensions/referrer-type.md).
 
 ### Analisar o tráfego de IA usando a detecção de bot
 
 Você pode usar a detecção de bot no Analysis Workspace para analisar o tráfego de IA proveniente do pré-treinamento.
-

@@ -3,10 +3,16 @@ title: Perguntas frequentes sobre canais de marketing
 description: Perguntas frequentes para canais de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 100%
+source-wordcount: 1524
+ht-degree: 86%
 
 ---
 
@@ -22,16 +28,16 @@ Perguntas frequentes para canais de marketing.
 
 ## Meus códigos de acompanhamento não seguem um padrão, e existem milhares deles que devem especificados para meu canal Afiliados.
 
-* Use o processo de eliminação. Se os seus canais Email e Afiliados usam o mesmo parâmetro de sequência de consulta, mas você dispõe de apenas alguns códigos de acompanhamento de email, especifique os códigos de acompanhamento de email em um conjunto de regras que definam email. Em seguida, classifique todos os outros códigos de acompanhamento com *`affiliates.`*
-* Em seu sistema de email, inclua um parâmetro da sequência de consulta para todos os URLs de página inicial, como *`&ch=eml`*. Crie um conjunto de regras que detecte se o parâmetro de consulta ch é igual a *`eml`*. Se não contiver *`eml`*, será um afiliado.
+* Use o processo de eliminação. Se os canais de Email e Afiliados usarem o mesmo parâmetro de sequência de consulta, mas você tiver apenas alguns códigos de rastreamento de email, será possível especificar os códigos de rastreamento de email em um conjunto de regras que definem o email. Em seguida, classifique todos os outros códigos de acompanhamento com *`affiliates.`*
+* Em seu sistema de email, inclua um parâmetro da sequência de consulta para todos os URLs de página de destino, como *`&ch=eml`*. Crie um conjunto de regras que detecte se o parâmetro de consulta ch é igual a *`eml`*. Se não contiver *`eml`*, será um afiliado.
 
 ## Os domínios referenciadores contêm mais dados que eu esperava.
 
-Os domínios de referência podem estar próximos demais do topo da lista de regras de processamento. Eles devem ser um dos últimos (ou os últimos) conjuntos de regras, porque a ordem de processamento é importante.
+Os domínios referenciadores podem estar muito altos na lista de regras de processamento. Ela deve ser um dos últimos (ou últimos) conjuntos de regras, pois a ordem de processamento é importante.
 
 ## Criei uma regra que corresponde a um parâmetro de sequência de consulta e que não está funcionando.
 
-Certifique-se de que o nome do parâmetro esteja especificado nos campos de parâmetro da sequência de consulta (normalmente um valor alfanumérico). Além disso, certifique-se de que o valor de parâmetro está especificado após o operador, conforme mostrado no exemplo a seguir em uma regra de email.
+Verifique se o nome do parâmetro está especificado nos campos de parâmetro da string de consulta (normalmente um valor alfanumérico). Além disso, verifique se o valor do parâmetro é especificado após o operador, como mostrado no exemplo a seguir de uma regra de email.
 
 ![](assets/example_email.png)
 
@@ -41,7 +47,7 @@ Você possui uma regra que corresponde ao tráfego interno. Observe que essas re
 
 ## Como faço para depurar o tráfego exibido em Nenhum canal identificado no relatório?
 
-As regras são processadas em ordem. Se não houver correspondência com critérios específicos, as ocorrências são incluídas em uma de três categorias:
+As regras são processadas em ordem. Se nenhum critério específico tiver sido correspondido, as ocorrências se encaixarão em uma das três categorias:
 
 1. Nenhum referenciador (visita direta).
 
@@ -49,7 +55,7 @@ As regras são processadas em ordem. Se não houver correspondência com critér
 
 3. Erro de processamento na página.
 
-Verifique se você dispõe de canais para essas três possibilidades. Por exemplo, criar regras que indiquem:
+Certifique-se de ter um canal para essas três possibilidades. Por exemplo, crie regras que digam:
 
 1. **[!UICONTROL Referenciador]** e **[!UICONTROL Não Existe]** e **[!UICONTROL É a Primeira Página da Visita]**. (Consulte [Direto.](/help/components/c-marketing-channels/c-faq.md))
 
@@ -69,7 +75,7 @@ A intersecção onde primeiro é igual ao último toque é a diagonal da tabela.
 
 ## Motivos para Nenhum canal identificado {#no-channel-identified}
 
-Quando as regras não capturam dados ou se as regras não estão configuradas corretamente, o relatório exibe os dados na linha [!UICONTROL Nenhum Canal Identificado] do relatório. É possível criar um conjunto de regras chamado *Outros*, por exemplo, no fim da sua ordem de processamento, que também identifica o tráfego interno, como segue.
+Quando as regras não capturam dados ou se as regras não estão configuradas corretamente, o relatório exibe os dados na linha [!UICONTROL Nenhum Canal Identificado] do relatório. Você pode criar um conjunto de regras chamado *Outros*, por exemplo, no final da ordem de processamento, que também identifica o tráfego interno.
 
 ![](assets/example_other.png)
 
@@ -77,17 +83,17 @@ Esse tipo de regra é uma forma geral de garantir que o tráfego de canal sempre
 
 >[!NOTE]
 >
->Ainda pode haver algum tráfego de canal que caiba na categoria Nenhum canal identificado. Por exemplo: um visitante entra no site, marca uma página e, na mesma visita, retorna à página por meio do marcador. Como não é a primeira página da visita, o tráfego não irá para o canal Direto nem para o canal Outro, pois não há um domínio de referência.
+>Ainda pode haver algum tráfego de canal que caiba na categoria Nenhum canal identificado. Por exemplo: um visitante acessa o site e marca uma página e, na mesma visita, acessa a página por meio do marcador. Como essa não é a primeira página da visita, não será exibida no canal Direto nem no canal Outro porque não há um domínio de referência.
 
 ## Motivos para interno (Atualização da sessão) {#internal}
 
 O último contato interno (atualização da sessão) só pode ocorrer se também tiver sido o primeiro contato. Consulte “Relacionamento entre o primeiro e o último contato” acima. Os cenários abaixo explicam como a Atualização de sessão pode ser um canal de primeiro contato.
 
-* **Sessão expirada**: um visitante acessa o site e, em seguida, deixa a guia aberta no navegador para uso em uma data futura. O período de envolvimento do visitante expira (ou ele exclui voluntariamente os cookies) e ele usa a guia aberta para visitar o site novamente. Como o URL de referência é um domínio interno, a visita será classificada como Atualização de sessão.
+* **Sessão expirada**: um visitante acessa o site e, em seguida, deixa a guia aberta no navegador para uso em uma data futura. O período de engajamento do visitante expira (ou ele exclui voluntariamente os cookies) e ele usa a guia aberta para visitar o site novamente. Como o URL de referência é um domínio interno, a visita será classificada como Atualização de sessão.
 
 * **Nem todas as páginas do site são marcadas**: um visitante acessa a Página A, que não está marcada, em seguida se move para a página B, que está marcada. A página A seria vista como o referenciador interno e a visita seria classificada como Atualização de sessão.
 
-* **Redirecionamentos**: se um redirecionamento não for configurado para transferir os dados do referenciador até a nova página inicial, os dados do referenciador de entrada real serão perdidos e agora a página de redirecionamento (provavelmente uma página interna) será exibida como o domínio de referência. A visita será classificada como Atualização de sessão.
+* **Redirecionamentos**: se um redirecionamento não for configurado para transferir os dados do referenciador até a nova página de destino, os dados do referenciador de entrada real serão perdidos e agora a página de redirecionamento (provavelmente uma página interna) será exibida como o domínio de referência. A visita será classificada como Atualização de sessão.
 
 * **Tráfego entre domínios**: um visitante se move de um domínio que é acionado para o Conjunto A, para um segundo domínio que é acionado para o Conjunto B. Se no Conjunto B, os filtros internos de URL incluírem o primeiro domínio, a visita no Conjunto B será registrada como Interna, já que os Canais de marketing a veem como uma nova visita no segundo conjunto. A visita será classificada como Atualização de sessão.
 
@@ -99,7 +105,7 @@ A seguir, um exemplo de Interno (atualização de sessão) sendo definido como c
 
 * Dia 1: o usuário acessa o site em Exibir. Os canais de primeiro e último toque serão definidos como Exibir.
 * Dia 2: o usuário acessa o site em Pesquisa natural. O primeiro toque permanece como Exibir e o Último toque é definido como Pesquisa natural.
-* Dia 35: o usuário não visitou o site há 33 dias e retorna usando a guia que havia aberto em seu navegador. Presumindo uma janela de envolvimento de 30 dias, a janela teria fechado e os cookies do Canal de marketing estariam expirados. O canal de primeiro e último toque será redefinido e definido como Atualização da sessão desde que o usuário tenha vindo de um URL interno.
+* Dia 35: o usuário não visitou o site há 33 dias e retorna usando a guia que havia aberto em seu navegador. Presumindo uma janela de engajamento de 30 dias, a janela teria fechado e os cookies do Canal de marketing estariam expirados. O canal de primeiro e último toque será redefinido e definido como Atualização da sessão desde que o usuário tenha vindo de um URL interno.
 
 ## Por que alguns canais permanecem inalterados após a mudança das regras de processamento do canal de marketing?
 

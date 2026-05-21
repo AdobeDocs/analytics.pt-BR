@@ -5,10 +5,14 @@ subtopic: data feeds
 title: Conteúdos do feed de dados - visão geral
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
-workflow-type: ht
-source-wordcount: '1002'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/IdxgEr1M2GtCmLy8PNAbX6UqDaTi9kGld7EbNBFvQUY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 1004
+ht-degree: 98%
 
 ---
 
@@ -28,7 +32,7 @@ Para acessar o conteúdo de um feed de dados:
 
 1. Descompacte o arquivo compactado usando um programa compatível com extensões de arquivo `.tar.gz`.
 
-1. Abra o arquivo `hit_data.tsv` em sua planilha ou aplicativo de banco de dados preferido para visualizar os dados brutos daquele dia. -->
+1. Abra o arquivo `hit_data.tsv` na planilha ou no aplicativo de banco de dados preferido para ver os dados brutos desse dia. -->
 
 ## Arquivo manifest {#feed-manifest}
 

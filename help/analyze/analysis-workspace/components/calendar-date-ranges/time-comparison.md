@@ -4,10 +4,15 @@ title: Comparação de datas
 feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: 768
+ht-degree: 95%
 
 ---
 
@@ -17,7 +22,7 @@ A comparação de datas do Analysis Workspace permite selecionar qualquer coluna
 
 ## Comparar períodos
 
-A análise demanda contexto, o qual normalmente é fornecido por um período anterior. Por exemplo, a pergunta: *Como está o desempenho atual comparado a esse mesmo período no ano passado?* é fundamental para entender os negócios da sua empresa. A comparação de datas inclui automaticamente uma coluna de *diferença*, que mostra a porcentagem de mudanças em comparação com um período específico.
+A análise demanda contexto, o qual normalmente é fornecido por um período anterior. Por exemplo, a pergunta *Quão melhor ou pior você está fazendo agora em comparação com este período do ano passado?* é fundamental para entender sua empresa. A comparação de datas inclui automaticamente uma coluna de *diferença*, que mostra a porcentagem de mudanças em comparação com um período específico.
 
 1. Crie uma [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) com qualquer dimensão e métrica que deseja comparar ao longo de um período.
 1. Defina o período no painel ou coluna para determinar o intervalo da comparação e se é uma comparação de tempo contínua ou fixa.
@@ -53,7 +58,7 @@ A análise demanda contexto, o qual normalmente é fornecido por um período ant
 
 ## Adicionar uma coluna de período para comparação
 
-Agora é possível adicionar um período a cada coluna de uma tabela, permitindo adicionar um período diferente do definido no seu calendário. 
+Agora é possível adicionar um período a cada coluna de uma tabela, permitindo adicionar um período diferente do definido no seu calendário.
 
 1. Clique com o botão direito do mouse em uma coluna na tabela e selecione **[!UICONTROL Adicionar coluna de período]**.
 
@@ -63,7 +68,7 @@ Agora é possível adicionar um período a cada coluna de uma tabela, permitindo
 
    | Opção | Descrição |
    |---|---|
-   | **[!UICONTROL *x* semanas/meses/trimestres/anos anteriores a este intervalo de datas]** | Adicione uma coluna com a semana, mês etc. imediatamente antes desse intervalo de datas. |
+   | **[!UICONTROL *x* semanas/meses/trimestres/anos anteriores a este intervalo de datas]** | Adicione uma coluna com a semana/mês/etc. imediatamente antes desse intervalo de datas. |
    | **[!UICONTROL Estas *x* semanas/meses/trimestres/anos do ano passado até este intervalo de datas]** | Adicione o mesmo intervalo de datas um ano atrás. |
    | **[!UICONTROL Intervalo de datas personalizado até este intervalo de datas]** | Permite criar um intervalo de datas personalizado. |
 
@@ -81,7 +86,7 @@ Agora é possível adicionar um período a cada coluna de uma tabela, permitindo
 
 ## Alinhar as datas das colunas para que comecem na mesma linha
 
-É possível alinhar as datas de cada coluna para que todas iniciem na mesma linha. 
+É possível alinhar as datas de cada coluna para que todas iniciem na mesma linha.
 
 Por exemplo, suponhamos que você fez uma comparação diária entre a última semana (terminando em 5 de outubro de 2024) e a semana anterior. Por padrão, a coluna esquerda iniciará em 22 de setembro, e a coluna da direita, em 29 de setembro.
 
@@ -106,7 +111,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

@@ -4,9 +4,13 @@ description: Altere os valores de mais de uma variável do Analytics de cada vez
 feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/Nn-JbnMXOQLi8DFh46lCLRjgTtn6RQE6mq2riP5Tqe8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 712
 ht-degree: 83%
 
 ---
@@ -141,7 +145,7 @@ manageVars("cleanStr");
 * Remove espaços em branco encontrados no início e no fim do valor
 * Substitui aspas simples esquerda/direita por uma aspa simples reta (`'`)
 * Substitui caracteres de tabulação e caracteres de nova linha por espaços
-* Substitui todos os espaços duplos (ou triplos etc.) por espaços únicos
+* Substitui todos os espaços duplos (ou triplos etc.) espaços com espaços únicos
 
 ## Histórico da versão
 

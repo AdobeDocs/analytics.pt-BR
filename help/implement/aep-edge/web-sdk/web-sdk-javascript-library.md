@@ -2,9 +2,15 @@
 title: Enviar dados para a Adobe Analytics usando a biblioteca JavaScript da Web SDK
 description: Comece com uma implementação limpa do Web SDK para enviar dados para a Adobe Analytics usando a biblioteca do JavaScript.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/ABGykiS-qco3XECUtZqQpR2m-d1yXsLbaRQRXg0ObO4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: 1129
 ht-degree: 18%
 
 ---
@@ -66,7 +72,7 @@ Uma visão geral de alto nível das tarefas de implementação:
 <tr>
 <td> 4</td>
 <td><b>Instalar a versão independente pré-criada</b>. Você pode fazer referência à biblioteca (<code>alloy.js</code>) na CDN diretamente na sua página ou baixá-la e hospedá-la na sua própria infraestrutura. Como alternativa, você pode usar o pacote NPM.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=pt-BR">Instalar a versão independente pré-criada</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=pt-BR">Usar o pacote NPM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">Instalar a versão independente pré-criada</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">Usar o pacote NPM</a></td>
 </tr>
 
 <tr>
@@ -76,21 +82,21 @@ Uma visão geral de alto nível das tarefas de implementação:
 </tr>
 
 <td>6</td>
-<td><b>Adicionar um serviço do Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics e para quais conjuntos de relatórios especificamente.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
+<td><b>Adicionar um serviço Adobe Analytics</b> à sua sequência de dados. Esse serviço controla se e como os dados são enviados para o Adobe Analytics e para quais conjuntos de relatórios especificamente.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Adicionar o serviço Adobe Analytics a uma sequência de dados</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Configurar o SDK da Web</b>. Verifique se a biblioteca instalada na etapa 4 está configurada corretamente com a ID da sequência de dados (anteriormente conhecida como id de configuração de borda (<code>datastreamId</code>)), id da organização (<code>orgId</code>) e outras opções disponíveis. Garanta o mapeamento adequado das variáveis. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=pt-BR">Configurar o Web SDK</a><br/><a href="../xdm-var-mapping.md">mapeamento de variável de objeto XDM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurar o Web SDK</a><br/><a href="../xdm-var-mapping.md">mapeamento de variável de objeto XDM</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Executar comandos</b> e/ou <b>rastrear eventos</b>. Depois que o código base tiver sido implementado em sua página da Web, você poderá começar a executar comandos e rastrear eventos com o SDK.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=pt-BR">Enviar eventos</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Enviar eventos</a></td>
 </tr>
 
 <tr>

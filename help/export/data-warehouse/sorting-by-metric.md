@@ -3,31 +3,36 @@ description: Saiba como a classificação por métrica facilita a interpretaçã
 title: Classificar por métrica
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
+TQID: https://experienceleague.adobe.com/YPqL6i9RWACubLdf2ywm8xuPyeQkZ30L6rO6FAbhpJI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 92%
+source-wordcount: 337
+ht-degree: 17%
 
 ---
 
 # Classificar por métrica
 
-Oferece relatórios classificados e detalhados no Data Warehouse, organizados pelo valor de métrica decrescente.
+Fornece relatórios classificados e detalhados no Data Warehouse, classificados por valor de métrica decrescente.
 
-A classificação por métrica facilita a interpretação dos relatórios do Data Warehouse, além de facilitar a comparação deles com outros relatórios de exibição de detalhamento do Analytics.
+A classificação por métrica facilita a interpretação dos relatórios do Data Warehouse e a comparação desses relatórios com outras exibições de relatórios de detalhamento do Analytics.
 
-Abaixo, você verá como ocorre a reorganização de linhas de um relatório do Data Warehouse por meio da ativação da opção “Classificação de métricas”.
+A seguir, é mostrado como ativar a opção &quot;Classificação de métricas&quot; reorganizará as linhas em um relatório do Data Warehouse.
 
-Há quatro maneiras de organizar os relatórios do Data Warehouse com a “Classificação de métricas”, com base em como foram configurados a granularidade de data, dimensões de relatórios ou métricas, e se “Linhas máximas” foi definido:
+Há quatro maneiras possíveis para os relatórios do Data Warehouse serem organizados com &quot;Classificação de métricas&quot;, com base em como a granularidade da data, as dimensões de relatório ou as métricas são configuradas e se &quot;Máximo de linhas&quot; está definido:
 
-* **Layout 1**: os itens da linha são organizados em ordem alfabética (padrão). Se “Linhas máximas” estiver definido, somente as primeiras N linhas serão incluídas no relatório.
-* **Layout 2**: o Data Warehouse aplica uma classificação de métrica em todas as linhas do relatório. Resultados iguais no primeiro valor de métrica são detalhados pela segunda métrica, e então pela terceira, e assim por diante. No caso de todas as métricas coincidirem, é aplicada a ordem alfabética padrão de detalhamento de itens de linha.
-* **Layout 3**: similar ao Layout 2, entretanto, somente as N linhas superiores (ou seja, o número definido em “linhas máximas”) são exibidas no relatório.
-* **Layout 4**: similar ao Layout 2, com a exceção de que os itens de cada intervalo de granularidade de data são agrupados e classificados de acordo com os respectivos intervalos de data.
+* **Layout 1**: os itens de linha são classificados em ordem de dicionário (padrão). Se &quot;Máximo de linhas&quot; estiver definido, somente as primeiras N linhas serão fornecidas no relatório.
+* **Layout 2**: o Data Warehouse aplica uma classificação de métrica em todas as linhas do relatório. Os vínculos no primeiro valor de métrica são quebrados pela segunda métrica e, em seguida, pela terceira e assim por diante. Quando todas as métricas são vinculadas, a ordem padrão do dicionário dos itens de linha de detalhamento é aplicada.
+* **Layout 3**: como Layout 2, com apenas as N linhas principais (ou seja, o número definido em &quot;número máximo de linhas&quot;) sendo emitido no relatório.
+* **Layout 4**: como Layout 2, com a exceção de que os itens de linha para cada período de granularidade de data são agrupados e classificados dentro desse intervalo de tempo respectivo.
 
-Consulte a coluna “Layout do relatório” nesta tabela para determinar como “Classificação de métricas” interage com outras opções de relatórios do Data Warehouse.
+Consulte a coluna &quot;Layout do relatório&quot; nesta tabela para determinar como &quot;Classificação de métricas&quot; interage com outras opções de relatórios do Data Warehouse.
 
-| Classificar por métrica? | Tem métricas? | Tem detalhamento? | Granularidade de data? | Conjunto máximo de linhas? | Layout do relatório |
+| Classificar por métrica? | Tem métricas? | Têm Detalhamentos? | Granularidade de data? | Máximo de linhas definido? | Layout do relatório |
 |---|---|---|---|---|---|
 | Não | Sim ou Não | Sim ou Não | Sim ou Não | Sim ou Não | 1 |
 | Sim | Não | Sim ou Não | Sim ou Não | Sim ou Não | 1 |

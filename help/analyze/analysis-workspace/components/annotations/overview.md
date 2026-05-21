@@ -5,16 +5,22 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+TQID: https://experienceleague.adobe.com/kVm6VfN3c-u3V2GHMz59QuB2uGi4DEozs1i-h4pJZOg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 95%
+source-wordcount: 320
+ht-degree: 82%
 
 ---
 
 # Visão geral de anotações
 
-As anotações permitem que você comunique nuances e insights de dados contextuais de forma eficaz para outras partes interessadas na sua organização. Com as anotações, é possível vincular eventos de calendário a dimensões e métricas específicas. Você pode anotar uma data ou intervalo de datas com problemas de dados conhecidos, feriados, lançamentos de campanhas etc. Em seguida, é possível exibir graficamente os eventos e verificar se as campanhas ou outros eventos afetaram o tráfego no site, o uso do aplicativo móvel, a receita ou qualquer outra métrica.
+As anotações permitem que você comunique nuances e insights de dados contextuais de forma eficaz para outras partes interessadas na sua organização. Com as anotações, é possível vincular eventos de calendário a dimensões e métricas específicas. Você pode anotar uma data ou intervalo de datas com problemas de dados conhecidos, feriados, lançamentos de campanhas etc. Em seguida, você pode exibir graficamente os eventos e ver se as campanhas ou outros eventos afetaram o tráfego do site, o uso do aplicativo móvel, a receita ou qualquer outra métrica.
 
 Por exemplo, digamos que você esteja compartilhando projetos com sua organização. Caso ocorra uma queda acentuada nos seus visitantes únicos, e possível criar uma anotação de **Redução de visitantes** e incluí-la no escopo do conjunto de relatórios inteiro. Ao visualizar qualquer conjunto de relatórios que inclua essa data, os usuários verão a anotação em seus projetos, junto com seus dados.
 

@@ -3,10 +3,16 @@ title: Dimensões de análise de voz
 description: Dimensões de análise de voz
 feature: Dimensions
 exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/OZ-lQkbS8hsv8ywUUa2BQoH40nfklRkJNd9SlEVkmEI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 4%
+source-wordcount: 133
+ht-degree: 16%
 
 ---
 
@@ -16,9 +22,9 @@ Quando você habilita o [!UICONTROL Voice and Chatbots] no [[!UICONTROL Applicat
 
 | Nome da dimensão | Descrição | Variável de dados de contexto |
 | --- | --- | --- |
-| Tipo de Erro de Voz | O tipo de erro encontrado. | `a.voiceerrortype` |
-| Idioma de voz | O idioma em que o usuário interage com o aplicativo de voz. | `a.voicelanguage` |
-| Intenção de voz | O comando que o usuário pretende executar. | `a.voiceintent` |
+| Tipo de erro de voz | O tipo de erro encontrado. | `a.voiceerrortype` |
+| Idioma da voz | O idioma em que o usuário interage com o aplicativo de voz. | `a.voicelanguage` |
+| Propósito de voz | O comando que o usuário pretende executar. | `a.voiceintent` |
 | Resposta do aplicativo de voz | A resposta que o aplicativo de voz retornou ao usuário. | `a.voiceappresponse` |
 | Autenticação de voz | O estado autenticado do usuário ao interagir com o aplicativo de voz. | `a.voiceauthentication` |
 | ID do ponto de interesse | A ID do ponto de interesse. | `a.loc.poi.id` |

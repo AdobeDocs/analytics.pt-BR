@@ -4,9 +4,13 @@ keywords: page;event;page_event;post_page_event
 title: Pesquisa de evento da página
 feature: Data Feeds
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
-source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
-workflow-type: ht
-source-wordcount: '226'
+TQID: https://experienceleague.adobe.com/QAGYKNnpMl2tM6BRux7BBL-YFpMTgUIXsHT-9bGKWnA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: null
+workflow-type: tm+mt
+source-wordcount: 226
 ht-degree: 100%
 
 ---
@@ -28,7 +32,7 @@ Tabela de pesquisa para determinar o tipo de uma ocorrência com base no valor d
 | `31` | `76` | Início de mídia |
 | `32` | `77` | Atualizações de mídia (sem processamento de outras variáveis) |
 | `33` | `78` | Atualizações de mídia (com processamento de outras variáveis) |
-| `40` | `80` | Pesquisa |
+| `40` | `80` | Survey |
 | `50` | `50` | Início da mídia de streaming |
 | `51` | `51` | Fechamento da mídia de streaming |
 | `52` | `52` | Navegação da mídia de streaming |

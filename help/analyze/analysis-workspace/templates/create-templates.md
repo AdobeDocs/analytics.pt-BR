@@ -4,9 +4,12 @@ title: Criar e gerenciar modelos
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 726
 ht-degree: 100%
 
 ---
@@ -33,8 +36,8 @@ Para criar um novo modelo que possa ser usado por pessoas da mesma empresa:
    |---------|----------|
    | **[!UICONTROL Nome]** | Forneça um nome descritivo para o modelo. |
    | **[!UICONTROL Descrição]** | Forneça uma breve descrição do modelo que liste suas finalidades. |
-   | **[!UICONTROL Por que usar este modelo]** | Forneça uma breve explicação para informar as pessoas da organização sobre como o modelo pode ser usado. Essa explicação aparece na página Visualização do modelo. |
-   | **[!UICONTROL Casos de uso]** | Escolha quaisquer casos de uso que se apliquem a este modelo. É possível selecionar vários casos de uso: **[!UICONTROL Engajamento]**, **[!UICONTROL Conversão]**, **[!UICONTROL Público-alvo]** e **[!UICONTROL Aquisição]**. <p>As opções escolhidas determinam onde o modelo é exibido e quais filtros são aplicados aos usuários que o acessam por meio da página Modelos da organização.</p> |
+   | **[!UICONTROL Por que usar este modelo]** | Forneça uma breve explicação para informar as pessoas da organização sobre como o modelo pode ser usado. Essa explicação será exibida na página de visualização do modelo. |
+   | **[!UICONTROL Casos de uso]** | Escolha qualquer caso de uso que se aplique ao modelo. É possível selecionar vários casos de uso: **[!UICONTROL Engajamento]**, **[!UICONTROL Conversão]**, **[!UICONTROL Público-alvo]** e **[!UICONTROL Aquisição]**. <p>As seleções escolhidas determinam onde o modelo será exibido e quais filtros serão aplicados aos usuários que o acessarem na página de modelos da organização.</p> |
    | **[!UICONTROL Tags]** | Especifique as tags que deseja aplicar ao modelo, se for o caso. As pessoas podem filtrar a lista de modelos pelas tags adicionadas. |
 
 1. Selecione [!UICONTROL **Salvar como modelo**].
@@ -43,11 +46,11 @@ Para mais informações sobre como os usuários podem criar um projeto com base 
 
 ## Editar ou excluir um modelo
 
-Admins podem editar ou excluir modelos de empresa.
+Os administradores podem editar ou excluir os modelos da empresa.
 
-1. No Analysis Workspace, selecione a guia [!UICONTROL **Workspace**] e escolha os modelos **[!UICONTROL _login_company_name _]**.
+1. No Analysis Workspace, selecione a guia [!UICONTROL **Workspace**] e escolha os modelos **[!UICONTROL _login _company_name_]**.
 
-1. Se estiver visualizando modelos em uma exibição de coluna ![ícone de exibição de coluna](assets/column-view-icon.png):
+1. Se você estiver visualizando modelos no modo de exibição em colunas ![ícone do modo de exibição de colunas](assets/column-view-icon.png):
 
    1. Acesse o modelo que deseja editar ou excluir, e selecione o ícone de informações ao lado do nome do modelo.
 
@@ -63,9 +66,9 @@ Admins podem editar ou excluir modelos de empresa.
 
    1. Localize o modelo que deseja editar ou excluir.
 
-      ![Exibição de cartão de modelo de empresa](assets/company-template-cards.png)
+      ![Exibição em cartões dos modelos da empresa](assets/company-template-cards.png)
 
-   1. Selecione o ícone Mais e escolha **[!UICONTROL Editar]** ou **[!UICONTROL Excluir]**.
+   1. Selecione o ícone de mais e clique em **[!UICONTROL Editar]** ou **[!UICONTROL Excluir]**.
 
       ![Editar ou excluir cartões dos modelos da empresa](assets/company-template-card-edit-delete.png)
 
@@ -79,8 +82,8 @@ Admins podem editar ou excluir modelos de empresa.
    |---------|----------|
    | **[!UICONTROL Nome]** | Forneça um nome descritivo para o modelo. |
    | **[!UICONTROL Descrição]** | Forneça uma breve descrição do modelo que liste suas finalidades. |
-   | **[!UICONTROL Por que usar este modelo]** | Forneça uma breve explicação para informar as pessoas da organização sobre como o modelo pode ser usado. Essa explicação aparece na página Visualização do modelo. |
-   | **[!UICONTROL Casos de uso]** | Escolha quaisquer casos de uso que se apliquem a este modelo. É possível selecionar vários casos de uso: **[!UICONTROL Engajamento]**, **[!UICONTROL Conversão]**, **[!UICONTROL Público-alvo]** e **[!UICONTROL Aquisição]**. <p>As opções escolhidas determinam onde o modelo é exibido e quais filtros são aplicados aos usuários que o acessam por meio da página Modelos da organização.</p> |
+   | **[!UICONTROL Por que usar este modelo]** | Forneça uma breve explicação para informar as pessoas da organização sobre como o modelo pode ser usado. Essa explicação será exibida na página de visualização do modelo. |
+   | **[!UICONTROL Casos de uso]** | Escolha qualquer caso de uso que se aplique ao modelo. É possível selecionar vários casos de uso: **[!UICONTROL Engajamento]**, **[!UICONTROL Conversão]**, **[!UICONTROL Público-alvo]** e **[!UICONTROL Aquisição]**. <p>As seleções escolhidas determinam onde o modelo será exibido e quais filtros serão aplicados aos usuários que o acessarem na página de modelos da organização.</p> |
    | **[!UICONTROL Tags]** | Especifique as tags que deseja aplicar ao modelo, se for o caso. As pessoas podem filtrar a lista de modelos pelas tags adicionadas. |
 
 1. Selecione [!UICONTROL **Salvar como modelo**].
@@ -109,9 +112,9 @@ Os administradores podem renomear, marcar e aprovar os modelos da empresa.
 
    Você também pode excluir um modelo conforme descrito em [Editar ou excluir modelos](#edit-or-delete-templates).
 
-1. (Opcional) Para retornar à exibição normal, no painel de filtros, desmarque a opção **[!UICONTROL Modelos de empresa]**.
+1. (Opcional) Para retornar à exibição normal, no painel de filtros, desmarque **[!UICONTROL Modelos da empresa]**.
 
-## Acessar um modelo de empresa
+## Acessar um modelo da empresa
 
 Assim como nos modelos fornecidos pela Adobe, os usuários da organização podem acessar os modelos criados pelos administradores.
 
@@ -119,7 +122,7 @@ Para mais informações sobre como acessar um modelo da empresa, consulte [Acess
 
 ## Ocultar a guia “Modelos” {#hide-reports}
 
-Admins podem ocultar a guia Modelos para todos os usuários em sua organização.
+Os administradores podem ocultar a guia “Modelos” para todos os usuários de sua organização.
 
 1. Acesse **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Preferências]** > **[!UICONTROL Empresa]**.
 1. Selecione a opção **[!UICONTROL Ocultar a guia Modelos]**.

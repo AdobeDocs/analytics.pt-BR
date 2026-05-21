@@ -6,9 +6,14 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/57Kc6Mgv1-HwWIEjxYj-zEjJSSIqHMxn5-KHxAeVsUQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: 908
 ht-degree: 26%
 
 ---
@@ -37,11 +42,11 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agendar pas
 
 Para programar uma pasta de trabalho:
 
-1. Selecione **[!UICONTROL Agendar]** no hub de Report Builder para criar um agendamento para que você possa distribuir automaticamente um arquivo Excel de pasta de trabalho (.xlsx) para um indivíduo ou um grupo.
+1. Selecione **[!UICONTROL Agendar]** no hub do Report Builder para criar um agendamento para que você possa distribuir automaticamente um arquivo de pasta de trabalho do Excel (.xlsx) para um indivíduo ou grupo.
 
    ![Selecione o botão Agendar para criar um agendamento.](./assets/schedule.png){zoomable="yes"}
 
-1. Selecione **[!UICONTROL Agendar Pasta de Trabalho]** ou ![Adicionar](/help/assets/icons/Add.svg) para criar uma nova pasta de trabalho agendada.
+1. Selecione **[!UICONTROL Agendar pasta de trabalho]** ou ![Adicionar](/help/assets/icons/Add.svg) para criar uma nova pasta de trabalho agendada.
 
    ![A janela Agendar pastas de trabalho.](./assets/schedule-workbook.png){zoomable="yes"}
 
@@ -83,7 +88,7 @@ Does no longer seem to be an option?
     ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){zoomable="yes"}{width="55%"}
 -->
 
-1. Insira uma senha em **[!UICONTROL Proteger a pasta de trabalho com senha]**. Uma senha válida requer pelo menos 8 caracteres, um número e um caractere especial. Selecione ![VisibilityOff](/help/assets/icons/VisibilityOff.svg) para exibir a senha e ![Visibility](/help/assets/icons/Visibility.svg) para ocultar a senha (padrão).
+1. Digite uma senha em **[!UICONTROL Proteger a pasta de trabalho com senha]**. Uma senha válida exige pelo menos 8 caracteres, um número e um caractere especial. Selecione ![VisibilityOff](/help/assets/icons/VisibilityOff.svg) para exibir a senha e ![Visibility](/help/assets/icons/Visibility.svg) para ocultar a senha (padrão).
 
 
 ### Email
@@ -107,7 +112,7 @@ Na seção **[!UICONTROL Agendar]**, você pode definir o agendamento para envia
 
 1. Selecione **[!UICONTROL Mostrar opções de agendamento]** para definir um agendamento.
 
-1. Insira uma data de início em **[!UICONTROL Começando em]**. Como alternativa, selecione ![Calendário](/help/assets/icons/Calendar.svg) para escolher uma data de início no calendário.
+1. Insira uma data de início em **[!UICONTROL A partir de]**. Como alternativa, selecione ![Calendário](/help/assets/icons/Calendar.svg) para escolher uma data de início no calendário.
 
 1. Insira uma data de término em **[!UICONTROL Terminando em]**. Como alternativa, selecione ![Calendário](/help/assets/icons/Calendar.svg) para escolher uma data de término no calendário.
 
@@ -128,9 +133,9 @@ Na seção **[!UICONTROL Agendar]**, você pode definir o agendamento para envia
 Para enviar a pasta de trabalho:
 
 * Se você não tiver definido um agendamento usando **[!UICONTROL Mostrar opções de agendamento]**, selecione **[!UICONTROL Enviar agora]** para enviar a pasta de trabalho por email imediatamente.
-* Se você definiu um agendamento usando **[!UICONTROL Mostrar opções de agendamento]**, selecione **[!UICONTROL Enviar no agendamento]** para enviar a pasta de trabalho por email usando o agendamento que você definiu.
+* Se você tiver definido um agendamento usando **[!UICONTROL Mostrar opções de agendamento]**, selecione **[!UICONTROL Enviar de acordo com o agendamento]** para enviar a pasta de trabalho por email usando o agendamento definido.
 
-Em ambos os casos, você verá uma caixa de informações de confirmação na parte inferior do hub de Report Builder.
+Em ambos os casos, você verá uma notificação de confirmação na parte inferior do hub do Report Builder.
 
 Para cancelar o envio da pasta de trabalho, selecione **[!UICONTROL Cancelar]**.
 

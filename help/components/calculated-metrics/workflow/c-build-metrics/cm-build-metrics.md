@@ -3,10 +3,15 @@ description: Saiba mais sobre o construtor de métricas calculadas que fornece u
 title: Criar métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/ds8aD51DynOEJ7uYZ5Id-kTng2JPN4nZYuMTaKj-ZvE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 100%
+source-wordcount: 1489
+ht-degree: 99%
 
 ---
 
@@ -46,7 +51,7 @@ A caixa de diálogo **[!UICONTROL Criador de métricas calculadas]** é usada pa
    | **[!UICONTROL Casas decimais]** | Especifique a quantidade de casas decimais para o formato selecionado. Habilitado somente quando o formato selecionado é “Decimal”, “Moeda” ou “Porcentagem”. |
    | **[!UICONTROL Exibir tendência ascendente como]** | Especifique se uma tendência ascendente da métrica calculada é exibida como ▲ **[!UICONTROL Boa (Verde)]** ou como ▼ **[!UICONTROL Ruim (Vermelho)]**. |
    | **[!UICONTROL Moeda]** | Especifique a moeda da métrica calculada. Habilitado somente quando o formato selecionado é “Moeda”. |
-   | **[!UICONTROL Tags]** | Para organizar a métrica calculada, crie ou aplique uma ou mais tags. Comece a digitar para encontrar as tags existentes que você pode selecionar. Ou pressione **[!UICONTROL ENTER]** para adicionar uma nova tag. Selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover uma tag. |
+   | **[!UICONTROL Tags]** | Para organizar a métrica calculada, crie ou aplique uma ou mais tags. Comece a digitar para encontrar as tags existentes que você pode selecionar. Ou pressione **[!UICONTROL ENTER]** para adicionar uma nova tag. Selecione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para remover uma tag. |
    | **[!UICONTROL Pré-visualizar]** | A visualização abrange os últimos 90 dias e é uma maneira de medir se você definiu a sua métrica corretamente. |
    | **[!UICONTROL Resumo]** | Exibe um resumo da definição da métrica calculada. <br/>Por exemplo: ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Total de pedidos]** ![Dividir](/help/assets/icons/Divide.svg) ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Sessões]**. |
    | **[!UICONTROL Definição]** ![Obrigatória](/help/assets/icons/Required.svg) | Defina o segmento usando o [Criador de definições](#definition-builder). |
@@ -137,7 +142,7 @@ Isso adiciona automaticamente um container de segmento à **[!UICONTROL Defini�
 
    * Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Adicionar]** de dentro de um container:
 
-      1. Selecione **[!UICONTROL Segmento]**.  Um container de segmento é adicionado à **[!UICONTROL Definição]**.
+      1. Selecione **[!UICONTROL Segmento]**. Um container de segmento é adicionado à **[!UICONTROL Definição]**.
       1. No novo container de segmento, selecione um segmento no menu suspenso [!UICONTROL *Selecionar...*].
 
   >[!TIP]

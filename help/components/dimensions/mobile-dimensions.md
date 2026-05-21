@@ -3,10 +3,16 @@ title: Dimensões de pesquisa móvel
 description: Dimensões baseadas no endereço IP e agente de usuário do dispositivo.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+TQID: https://experienceleague.adobe.com/X80x0MIx5gd16J20VU37fNSExDO2NSXPrHR8EKqsMqw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 100%
+source-wordcount: 961
+ht-degree: 95%
 
 ---
 
@@ -18,7 +24,7 @@ As [dimensões](overview.md) de pesquisa móvel fornecem insights sobre as propr
 
 ## Preencher essas dimensões com dados
 
-Essas dimensões se referem às regras de pesquisa internas da Adobe. 
+Essas dimensões se referem às regras de pesquisa internas da Adobe.
 
 * Para a dimensão [!UICONTROL Operadora de celular], a Adobe faz parceria com a [Digital Element](https://www.digitalelement.com/pt-pt/) usando o NetAcuity para manter pesquisas entre o endereço IP e a operadora de celular.
 * Para todas as outras dimensões móveis, a Adobe tem parcerias com o [DeviceAtlas](https://deviceatlas.com/) para manter pesquisas entre o agente de usuário e cada respectiva dimensão móvel.
@@ -54,7 +60,7 @@ A disponibilidade dessas dimensões depende do tipo de implementação:
 * **[!UICONTROL Sistema operacional para dispositivo móvel (obsoleto)]**: em vez disso, use a dimensão [Sistema operacional](operating-systems.md).
 * **[!UICONTROL “Push-to-talk” para dispositivo móvel]**: determina se o dispositivo aceita a função PTT (push-to-talk), o que permite que o dispositivo móvel se comporte de forma semelhante a um rádio bidirecional. Dispositivos mais novos normalmente não relatam esse recurso.
 * **[!UICONTROL Altura da tela do dispositivo móvel]**: a altura da tela, em pixels. iPhones sempre relatam `"480"` devido à incapacidade de determinar a versão do dispositivo iPhone. Consulte a seção abaixo sobre como determinar a versão do iPhone.
-* **[!UICONTROL Tamanho da tela do dispositivo móvel]**: as dimensões completas do dispositivo móvel em pixels. O tamanho de tela relatado não indica a orientação do dispositivo. Independentemente da orientação da tela, cada dispositivo possui uma resolução de tela fixa no relatório. O tamanho baseia-se na pesquisa que determina qual orientação é mais provável. É possível ver tamanhos como `"768x1024"` e `"1024x768"` no mesmo relatório, onde cada tamanho representa um ou mais dispositivos diferentes.
+* **[!UICONTROL Tamanho da tela do dispositivo móvel]**: as dimensões completas do dispositivo móvel em pixels. O tamanho de tela relatado não indica a orientação do dispositivo. Independentemente da orientação da tela, cada dispositivo tem uma resolução de tela fixa no relatório. Esse tamanho é baseado em pesquisas que determinam qual orientação é mais provável. É possível ver tamanhos como `"768x1024"` e `"1024x768"` no mesmo relatório, onde cada tamanho representa um ou mais dispositivos diferentes.
 * **[!UICONTROL Largura da tela do dispositivo móvel]**: a largura da tela, em pixels.
 * **[!UICONTROL Suporte de vídeo para dispositivo móvel]**: os formatos de arquivo de vídeo e os codecs aceitos pelo dispositivo móvel. Existem vários itens de dimensão para diferentes codecs de arquivos MP4 e 3GPP. Os valores nessa dimensão não são mutuamente exclusivos; uma única ocorrência pode atribuir a vários itens de dimensão.
 

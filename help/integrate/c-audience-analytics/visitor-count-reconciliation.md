@@ -3,10 +3,15 @@ description: Algumas métricas de visitante do Adobe Analytics e do Adobe Audien
 title: Diferenças na contagem de visitantes
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+TQID: https://experienceleague.adobe.com/ksfYYDZ6G9vH7WEZVh-JsN93Rl-jsZTe9-CQADSwnfI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 85%
+source-wordcount: 312
+ht-degree: 50%
 
 ---
 
@@ -30,27 +35,27 @@ As métricas de visitante são:
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=pt-BR"  > Adobe Audience Manager: preenchimento de segmentos em tempo real</a> </p> </td> 
-   <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros de seu segmento e acessaram suas propriedades durante o período de lookback. </p> </td> 
+   <td colname="col3"> <p>Contagem de dispositivos (Experience Cloud IDs) que eram membros do seu segmento e atingiram suas propriedades durante o período de pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analytics: Visitantes únicos </p> </td> 
-   <td colname="col3"> <p>Mostra o número de visitantes únicos que acessaram suas propriedades durante o período de criação do relatório. </p> </td> 
+   <td colname="col2"> <p>Analytics: visitantes únicos </p> </td> 
+   <td colname="col3"> <p>Mostra o número de visitantes únicos que acessaram suas propriedades durante a janela de relatórios. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analytics: Visitantes com Experience Cloud ID </p> </td> 
-   <td colname="col3"> <p>Mostra o número de visitantes únicos com uma Experience Cloud ID que acessaram suas propriedades durante o período de criação do relatório. </p> </td> 
+   <td colname="col2"> <p>Analytics: visitantes com Experience Cloud ID </p> </td> 
+   <td colname="col3"> <p>Mostra o número de visitantes únicos com uma Experience Cloud ID que atingiram suas propriedades durante a janela de relatórios. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Preenchimento de segmentos do Adobe Audience Manager em tempo real e Visitantes do Analytics com Experience Cloud ID usados em relatórios do Audience Analytics serão os mais semelhantes. Entretanto, no futuro, devido a vários fatores, haverá leves discrepâncias entre eles. São fatores contribuidores:
+Preenchimento de segmentos do Adobe Audience Manager em tempo real e Visitantes do Analytics com Experience Cloud ID usados em relatórios do Audience Analytics serão os mais semelhantes. Para o curto prazo, no entanto, devido a vários fatores, haverá pequenas discrepâncias entre eles. Os fatores que contribuem são:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Fator </th> 
    <th colname="col2" class="entry"> Adobe Audience Manager: preenchimento de segmentos em tempo real </th> 
-   <th colname="col3" class="entry"> Analytics: Visitantes com Experience Cloud ID </th> 
+   <th colname="col3" class="entry"> Analytics: visitantes com Experience Cloud ID </th> 
   </tr>
  </thead>
  <tbody> 
@@ -62,7 +67,7 @@ Preenchimento de segmentos do Adobe Audience Manager em tempo real e Visitantes 
   <tr> 
    <td colname="col1"> <p>Filtros personalizados </p> </td> 
    <td colname="col2"> <p>Não </p> </td> 
-   <td colname="col3"> <p>Sim, por exemplo filtros de IP, filtros de bot </p> </td> 
+   <td colname="col3"> <p>Sim, por exemplo, filtros IP, filtros de bot </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Limite de 150 segmentos </p> </td> 

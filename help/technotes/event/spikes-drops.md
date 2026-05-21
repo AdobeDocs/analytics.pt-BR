@@ -3,9 +3,14 @@ title: Solução de problemas de picos e quedas nos dados
 description: Saiba mais sobre as possíveis razões pelas quais você pode ver aumentos ou reduções drásticas nos relatórios de tendências.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: 856
 ht-degree: 100%
 
 ---
@@ -25,7 +30,7 @@ As quedas de tráfego são categorizadas em duas seções: dados parciais e zero
 * **Latência do conjunto de relatórios**: ocasionalmente, um conjunto de relatórios pode apresentar [latência](../latency.md) devido a vários fatores. Vários problemas de latência são resolvidos em horas. Se você estiver preocupado com um conjunto de relatórios específico, entre em contato com o Atendimento ao cliente da Adobe e informe a ID do conjunto de relatórios afetado.
 * **Remoção da implementação**: às vezes, quando uma organização altera ou reestrutura a implementação de seu site, a reimplementação do Analytics é ignorada. Trabalhe com desenvolvedores em sua organização para reimplementar o código em seu site.
 * **Problema de interface/cache do Analytics**: em raras ocasiões, o cache de um navegador contém dados inválidos que fazem com que todos os relatórios retornem zeros. Limpe os cookies e o cache do navegador para resolver o problema. Se a limpeza dos cookies/cache não funcionar, entre em contato com o Atendimento ao cliente com o relatório e o intervalo de datas ausentes; eles podem duplicar o problema e fornecer informações adicionais.
-* **Disponibilidade do Analytics**: verifique [status.adobe.com](https://status.adobe.com/br/products/1173/pt) se há problemas com a coleta ou o processamento de dados.
+* **Disponibilidade do Analytics**: verifique [status.adobe.com](https://status.adobe.com/products/1173/pt) se há problemas com a coleta ou o processamento de dados.
 
 ### Possíveis causas da ausência parcial ou tráfego diminuído
 

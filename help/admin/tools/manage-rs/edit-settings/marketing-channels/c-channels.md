@@ -5,10 +5,14 @@ title: Gerenciar canais de marketing
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 role: Admin
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/o-l-xrW6JQDjwjD5SZU-ZIX6sgo3unB5byiFnn1xyug
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 64%
+source-wordcount: 746
+ht-degree: 65%
 
 ---
 
@@ -74,8 +78,8 @@ Há várias configurações que podem ser aplicadas a cada canal na página [!UI
 | Campo | Definição |
 |--- |--- |
 | Habilitado | Ativa ou desativa esse canal de marketing. |
-| Nome do canal | O nome amigável do canal de marketing. |
-| Substituir canal de último contato | Permite escolher se deseja substituir um canal de último contato persistente existente pelo canal selecionado. Se você marcar essa caixa de seleção, qualquer canal (incluindo Direto e Interno) substituirá um canal de último toque existente. O resultado é uma conversão atribuída a um canal que pode não merecer o crédito. Por exemplo, essa opção pode garantir que o canal Direto não receba crédito pela conversão se o usuário tiver sido adquirido anteriormente por meio do canal de Pesquisa natural. |
+| Nome do Canal | O nome amigável do canal de marketing. |
+| Substituir Canal de Último Toque | Permite escolher se deseja substituir um canal de último contato persistente existente pelo canal selecionado. Se você marcar essa caixa de seleção, qualquer canal (incluindo Direto e Interno) substituirá um canal de último toque existente. O resultado é uma conversão atribuída a um canal que pode não merecer o crédito. Por exemplo, essa opção pode garantir que o canal Direto não receba crédito pela conversão se o usuário tiver sido adquirido anteriormente por meio do canal de Pesquisa natural. |
 | Detalhamento de canal | Permite dividir um canal por esse valor. É possível adicionar possíveis detalhamentos de canal (subcanais) ao criar [classificações de canais de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md). |
 | Tipo | Especifica como o usuário veio ao site. É possível selecionar online ou offline. Use os canais online para visitantes que acessam um mecanismo de pesquisa ou campanha por email. Os canais offline se aplicam a visitantes que encontraram seu site por meio de cupons de jornais ou anúncios de revistas. Em geral, os canais offline incluem dados importados por meio de Origens de Dados de relatórios. Consulte [Origens de Dados](/help/import/data-sources/overview.md). Consulte [Adicionar dados offline](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 
@@ -87,7 +91,7 @@ Há várias configurações que podem ser aplicadas a cada canal na página [!UI
 
 ## Definir regras de canal
 
-Antes de ser possível exibir canais e dados de canal no relatório, é preciso criar os canais e as regras subjacentes que processam os dados. Você também pode especificar quanto tempo você deseja que o [período de envolvimento do visitante](/help/admin/tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md) dure.
+Antes de ser possível exibir canais e dados de canal no relatório, é preciso criar os canais e as regras subjacentes que processam os dados. Você também pode especificar quanto tempo você deseja que o [período de engajamento do visitante](/help/admin/tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md) dure.
 
 A Adobe fornece vários canais predefinidos durante uma [configuração automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md) que você pode editar para atender às suas necessidades. Além disso, você pode modificar essa configuração e definir regras personalizadas nas [Regras de processamento de canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 

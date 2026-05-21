@@ -3,9 +3,14 @@ description: Entenda as considerações que você deve ter em mente antes de exc
 title: Excluir segmentos
 feature: Segmentation
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+TQID: https://experienceleague.adobe.com/G1gycXvzM-mMdpElmelyD204Ts-C2uua5X4rJMM3JNQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: 63
 ht-degree: 3%
 
 ---

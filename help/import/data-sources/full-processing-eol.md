@@ -4,10 +4,15 @@ description: Saiba mais sobre o anúncio do fim da vida útil para fontes de dad
 exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: https://experienceleague.adobe.com/3NSbjRWl0GsomjsEXo8XczQ1RWOPGpqW4OM2YeUo3Wk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 4%
+source-wordcount: 415
+ht-degree: 8%
 
 ---
 
@@ -34,7 +39,7 @@ As seguintes variáveis foram introduzidas na inserção de dados em massa, que 
 * **`aamlh`**: dica de localização do Adobe Audience Manager.
 * **`contextData.key`**: [Variáveis de dados de contexto](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: variáveis do serviço da Experience Cloud ID. Inclui o `id`, `authState` e `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR) variáveis. Inclui `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variáveis. Inclui `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
 * **`ipaddress`**: o endereço IP do visitante.
 * **`language`**: A dimensão [Idioma](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Listar variáveis](/help/implement/vars/page-vars/list.md).

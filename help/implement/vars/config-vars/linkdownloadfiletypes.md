@@ -4,10 +4,14 @@ description: Determine as extensões de arquivo que são automaticamente rastrea
 feature: Appmeasurement Implementation
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/xe-ClVo-348u2ash9QODi2hIdGrVv6sIeN739EfPZ7c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 55%
+source-wordcount: 419
+ht-degree: 57%
 
 ---
 
@@ -34,7 +38,7 @@ Se um link clicado corresponder aos critérios do link de saída e do link de do
 
 O campo de texto [!UICONTROL Qualificador de link de download] usa regex para determinar se um link clicado é qualificado para ser um link de download.
 
-1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/br/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Vá para a guia [!UICONTROL Extensões] e clique no botão **[!UICONTROL Configurar]** em [!UICONTROL Adobe Experience Platform Web SDK].
 1. Em [!UICONTROL Coleção de dados], defina o valor desejado no campo de texto **[!UICONTROL Qualificador de link de download]**.

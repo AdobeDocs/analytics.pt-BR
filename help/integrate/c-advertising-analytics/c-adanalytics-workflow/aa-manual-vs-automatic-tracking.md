@@ -3,9 +3,15 @@ description: O tipo de rastreamento determina como a implementação do Adobe An
 title: Tipo de rastreamento
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/QKLoFYVeGTZyOPsFKWPVUtmQ7oyYTnw05s47XIn6n8c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 584
 ht-degree: 25%
 
 ---
@@ -18,7 +24,7 @@ O tipo de rastreamento determina como a implementação do Adobe Analytics rastr
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -37,7 +43,7 @@ Observe que, para configurar uma conta de mecanismo de pesquisa com o tipo **[!U
 
 >[!IMPORTANT]
 >
->Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/pt-br/docs/id-service/using/reference/csp).
+>Saiba se você deve adicionar o parâmetro `s_kwcid` à sua [Política de segurança de conteúdo](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Rastreamento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +104,7 @@ A sequência de caracteres que precisa ser adicionada a sua conta do Microsoft A
 
 >[!IMPORTANT]
 >
->O _`<Advertising Analytics ID>`_valor (em **negrito**&#x200B;abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. É possível obter sua sequência de caracteres da ID de conta específica na tela da conta, na seção &quot;Rastreamento&quot;.
+>O _`<Advertising Analytics ID>`_valor (em **negrito**abaixo) é genérico e **deve ser substituído por sua sequência de caracteres da ID de conta específica**. É possível obter sua sequência de caracteres da ID de conta específica na tela da conta, na seção &quot;Rastreamento&quot;.
 
 **Cadeia de Caracteres de Rastreamento para Campanhas:**
 

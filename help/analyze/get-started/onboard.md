@@ -1,25 +1,30 @@
 ---
 title: Integração do Adobe Analytics
-description: Bem-vindo à série de integração da experiência digital do Adobe Analytics! Integrar-se às principais plataformas de Adobe que oferecem suporte à Adobe Analytics para ajudar você e sua organização a ter sucesso.
+description: Bem-vindo à série de integração da experiência digital do Adobe Analytics. Integre as principais plataformas da Adobe compatíveis com o Adobe Analytics para ajudar no seu sucesso e da sua organização.
 role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 7%
+source-wordcount: 573
+ht-degree: 13%
 
 ---
 
 # Integração do Adobe Analytics
 
-Bem-vindo à série de integração da experiência digital do Adobe Analytics!
+Bem-vindo à série de integração da experiência digital do Adobe Analytics.
 
 O Adobe Analytics permite que as organizações reúnam dados e obtenham insights acionáveis de qualquer interação digital com clientes. Com análise detalhada, relatórios versáteis e inteligência preditiva, as organizações obtêm os insights necessários para criar melhores experiências de clientes.
 
-Sua jornada no Adobe Analytics começa com a integração das configurações corretas e o acesso do usuário. Os recursos abaixo simplificam a integração e facilitam o sucesso do Adobe Analytics para você e sua organização.
+A Jornada do Adobe Analytics começa com a integração das configurações certas e o acesso do usuário. Os recursos abaixo otimizam essa integração e facilitam o sucesso da sua empresa e de sua organização com o Adobe Analytics.
 
-Assista aos seguintes vídeos para concluir sua jornada de integração do Adobe Admin Console para Configuração de usuário e acesso ao Adobe Experience League para documentação e suporte e, por fim, o próprio Adobe Analytics.
+Assista aos vídeos a seguir para concluir a jornada de integração do Adobe Admin Console para Configuração de usuário e acesso ao Adobe Experience League para documentação e suporte e, finalmente, ao próprio Adobe Analytics.
 
 <!--
 CARDS
@@ -29,7 +34,7 @@ CARDS
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476889/?captions=por_br&format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -67,7 +72,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476889/?captions=por_br&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -77,7 +82,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="#adobe-experience-league" target="_blank" rel="referrer" title="Adobe Experience League">Adobe Experience League</a>
                     </p>
-                    <p class="is-size-6">Acesse a Adobe Experience League para acessar documentação, tutoriais e muito mais para ajudá-lo a ter sucesso.</p>
+                    <p class="is-size-6">Integre o Adobe Experience League para acessar a documentação, os tutoriais e muito mais para ajudá-lo a ter sucesso.</p>
                 </div>
                 <a href="#adobe-experience-league" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Integrado</span>
@@ -100,7 +105,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="#adobe-admin-console" target="_blank" rel="referrer" title="Adobe Admin Console">Adobe Admin Console</a>
                     </p>
-                    <p class="is-size-6">Faça logon no Adobe Admin Console para gerenciar os direitos do produto para sua organização. Adicione, remova ou modifique o acesso do usuário.</p>
+                    <p class="is-size-6">Integre o Adobe Admin Console para gerenciar os direitos do produto para sua organização. Adicionar, remover ou modificar o acesso do usuário.</p>
                 </div>
                 <a href="#adobe-admin-console" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Integrado</span>
@@ -121,7 +126,7 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#admin-console-user-management" target="_blank" rel="referrer" title="Gerenciamento de usuários do Adobe Admin Console">Gerenciamento de Usuários do Adobe Admin Console</a>
+                        <a href="#admin-console-user-management" target="_blank" rel="referrer" title="Gerenciamento de usuários do Adobe Admin Console">Gerenciamento de usuários do Adobe Admin Console</a>
                     </p>
                     <p class="is-size-6">Integre o Gerenciamento de usuários do Adobe Admin Console para gerenciar usuários, grupos e perfis. Saiba como atribuir uma função de Produto a um usuário ou grupo.</p>
                 </div>
@@ -135,8 +140,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="#raise-a-support-case" title="Levantar um caso de suporte" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476787/?format=jpeg&nocache=1763486440891" alt="Levantar um caso de suporte"
+                    <a href="#raise-a-support-case" title="Elevar um caso de suporte" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476787/?format=jpeg&nocache=1763486440891" alt="Elevar um caso de suporte"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -144,9 +149,9 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#raise-a-support-case" target="_blank" rel="referrer" title="Levantar um caso de suporte">Acionar um Caso de Suporte</a>
+                        <a href="#raise-a-support-case" target="_blank" rel="referrer" title="Elevar um caso de suporte">Acionar um Caso de Suporte</a>
                     </p>
-                    <p class="is-size-6">Incorpore-se à Adobe Experience League para abrir um caso de suporte, revisar casos ativos e passados.</p>
+                    <p class="is-size-6">Integre-se à Adobe Experience League para levantar um caso de suporte, revisar casos ativos e anteriores.</p>
                 </div>
                 <a href="#raise-a-support-case" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Integrado</span>
@@ -169,7 +174,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="#adobe-analytics" target="_blank" rel="referrer" title="Adobe Analytics">Adobe Analytics</a>
                     </p>
-                    <p class="is-size-6">Sua jornada no Adobe Analytics começa com a integração das configurações corretas e o acesso do usuário. Os recursos abaixo simplificam a integração e facilitam o sucesso do Adobe Analytics para você e sua organização.</p>
+                    <p class="is-size-6">A Jornada do Adobe Analytics começa com a integração das configurações certas e o acesso do usuário. Os recursos abaixo otimizam essa integração e facilitam o sucesso da sua empresa e de sua organização com o Adobe Analytics.</p>
                 </div>
                 <a href="#adobe-analytics" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Integrado</span>
@@ -183,41 +188,41 @@ CARDS
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476889/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Integre o [Adobe Experience League](https://experienceleague.adobe.com/pt-br?lang=pt-BR) para acessar a [documentação](https://experienceleague.adobe.com/pt-br/docs/analytics?lang=pt-BR), os [tutoriais](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/overview) e muito mais para ajudá-lo a ter sucesso.
+Integre o [Adobe Experience League](https://experienceleague.adobe.com/?lang=pt-BR) para acessar a [documentação](https://experienceleague.adobe.com/en/docs/analytics?lang=pt-BR), os [tutoriais](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/overview) e muito mais para ajudá-lo a ter sucesso.
 
 
 ## Adobe Admin Console
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476921/?learn=on&enablevpops)
 
-Inscreva-se no [Adobe Admin Console](https://adminconsole.adobe.com/br) para gerenciar os direitos do produto para sua Organização. Adicione, remova ou modifique o acesso do usuário.
+Integre o [Adobe Admin Console](https://adminconsole.adobe.com/br) para gerenciar os direitos do produto para sua Organização. Adicionar, remover ou modificar o acesso do usuário.
 
 ## Gerenciamento de usuários do Adobe Admin Console
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476898/?learn=on&enablevpops)
 
-Integre o [Gerenciamento de Usuários do Adobe Admin Console](https://adminconsole.adobe.com/redirect@AdobeOrg/users) para gerenciar usuários, grupos e perfis. Saiba como atribuir uma função de produto a um usuário ou grupo.
+Integre o [Gerenciamento de usuários do Adobe Admin Console](https://adminconsole.adobe.com/redirect@AdobeOrg/users) para gerenciar usuários, grupos e perfis. Saiba como atribuir uma função de Produto a um usuário ou grupo.
 
-## Levantar um caso de suporte
+## Elevar um caso de suporte
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Integre o Adobe Experience League para [levantar um caso de suporte, revisar casos ativos e passados](https://experienceleague.adobe.com/home?lang=pt-BR#support).
+Integre-se à Adobe Experience League para [levantar um caso de suporte, revisar casos ativos e anteriores](https://experienceleague.adobe.com/home#support).
 
 
 ## Adobe Analytics
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476772/?learn=on&enablevpops)
 
-Sua jornada no Adobe Analytics começa com a integração das configurações corretas e o acesso do usuário. Os recursos abaixo simplificam a integração e facilitam o sucesso do Adobe Analytics para você e sua organização.
+A Jornada do Adobe Analytics começa com a integração das configurações certas e o acesso do usuário. Os recursos abaixo otimizam essa integração e facilitam o sucesso da sua empresa e de sua organização com o Adobe Analytics.
 
 ## Próximas etapas
 
-Após concluir a integração com a Adobe Analytics e as plataformas de suporte, considere explorar os seguintes recursos para aprofundar sua compreensão e aprimorar suas habilidades:
+Após concluir a integração com o Adobe Analytics e as plataformas de suporte, considere explorar os seguintes recursos para aprofundar sua compreensão e aprimorar suas habilidades:
 
-1. [Introdução ao Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Compreender e criar Conjuntos de Relatórios](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
-3. [Documentação do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics?lang=pt-BR)
+1. [Introdução ao Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [Entender e criar conjuntos de relatórios](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+3. [Documentação do Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics?lang=pt-BR)
 4. [Tutoriais e vídeos do Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/overview)

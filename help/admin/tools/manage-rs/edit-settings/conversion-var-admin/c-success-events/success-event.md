@@ -5,10 +5,16 @@ title: Visão geral dos eventos bem-sucedidos
 feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/wOWG6t9fsrfkd4FE-BNkwIrPW6DEGxBKDc2XItyRaoc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 26%
+source-wordcount: 962
+ht-degree: 25%
 
 ---
 
@@ -16,7 +22,7 @@ ht-degree: 26%
 
 Eventos bem-sucedidos (também conhecidos como eventos de conversão ou eventos personalizados) são ações que podem ser rastreadas. Você determina o que é um evento bem-sucedido. Por exemplo, se um visitante comprar um item, o evento de compra pode ser considerado o evento bem-sucedido.
 
-Para obter uma visão geral em vídeo sobre eventos de sucesso, consulte [Introdução a eventos de conversão](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) no guia de tutoriais do Analytics.
+Para obter uma visão geral em vídeo sobre eventos de sucesso, consulte [Introdução a eventos de conversão](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) no guia de tutoriais do Analytics.
 
 ## Exemplos de evento bem-sucedido
 
@@ -72,7 +78,7 @@ Para configurar eventos bem-sucedidos:
    |---------|----------|---------|
    | [!UICONTROL **Visível em qualquer lugar**] | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> | N/D |
    | [!UICONTROL **Construtores**] | <ul><li>Construtor de segmentos</li><li>Criador de métricas calculada</li><li>Analysis Workspace</li></ul> |  |
-   | [!UICONTROL **Oculto em qualquer lugar**] | N/A | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
+   | [!UICONTROL **Oculto em qualquer lugar**] | N/D | <ul><li>Analysis Workspace</li><li>Construtor de segmentos</li><li>Criador de métricas calculada</li></ul> |
 
 1. Na coluna [!UICONTROL **Descrição**], marque a caixa de seleção e forneça uma descrição.
 1. Na coluna [!UICONTROL **Gravação de evento único**], marque a caixa de seleção e escolha no menu suspenso se deseja sempre gravar o evento.

@@ -3,10 +3,16 @@ description: Saiba mais sobre segmentos sequenciais que usam o operador THEN par
 title: SegmentosSequenciais
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/Wvy6Kl84IzHS1VpA0k0H2rUIGMgpDIhEuG4kK-qAwt4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2376'
-ht-degree: 3%
+source-wordcount: 2424
+ht-degree: 4%
 
 ---
 
@@ -19,7 +25,7 @@ Além disso, é possível restringir os segmentos sequenciais a uma duração de
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentação sequencial](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} para ver um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentação sequencial](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} para ver um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +84,7 @@ Para aplicar restrições de tempo ao operador **[!UICONTROL Then]**:
 1. Selecione ![Relógio](/help/assets/icons/Clock.svg).
 1. Selecione **[!UICONTROL Dentro]** ou **[!UICONTROL Depois]** no menu de contexto.
 1. Especifique um período (**[!UICONTROL Minuto]**, **[!UICONTROL Hora]**, até **[!UICONTROL Anos]**).
-1. Selecione a ![Divisa](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *número *]**&#x200B;para abrir um pop-up que permita digitar ou especificar um número usando&#x200B;**[!UICONTROL -]**&#x200B;ou&#x200B;**[!UICONTROL +]**.
+1. Selecione a ![Divisa](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *número *]**para abrir um pop-up que permita digitar ou especificar um número usando**[!UICONTROL -]**ou**[!UICONTROL +]**.
 
 Para remover uma restrição de tempo, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -88,7 +94,7 @@ A tabela abaixo explica com mais detalhes os operadores de restrição de tempo.
 |--- |--- |
 | **[!UICONTROL Depois]** | O operador [!UICONTROL After] é usado para especificar um limite mínimo na quantidade de tempo entre dois pontos de verificação. Ao definir os valores de After, o limite de tempo começa quando o segmento é aplicado. Por exemplo, se o operador [!UICONTROL After] estiver definido em um contêiner para identificar visitantes que visitaram a página A, mas não retornam para visitar a página B depois de um dia, esse dia começará quando o visitante sair da página A.  Para que o visitante seja incluído no segmento, no mínimo, 1440 minutos (um dia) devem se passar após sair da página A para visualizar a página B. |
 | **[!UICONTROL Dentro]** | O operador [!UICONTROL Within] é usado para especificar um limite máximo na quantidade de tempo entre dois pontos de verificação. Por exemplo, se o operador [!UICONTROL Within] estiver definido em um contêiner para identificar visitantes que visitam a página A e retornam para visitar a página B dentro de um dia, esse dia começará quando o visitante sair da página A. Para ser incluído no segmento, o visitante tem um tempo máximo de um dia antes de abrir a página B. Para que o visitante seja incluído no segmento, a abertura da página B deve ocorrer em no máximo 1440 minutos (um dia) após sair da página A para visualizar a página B. |
-| **[!UICONTROL Depois, mas Dentro]** | Ao usar ambos os operadores [!UICONTROL After] e [!UICONTROL Within], ambos os operadores iniciam e terminam em paralelo, não em sequência. <br/>Por exemplo, você compila um segmento com o contêiner definido como: `After = 1 Week(s) and Within = 2 Week(s)`.<br/>As condições para identificar visitantes neste segmento são atendidas somente entre uma e duas semanas. Ambas as condições são aplicadas a partir da primeira exibição de página. |
+| **[!UICONTROL Depois, mas Dentro]** | Ao usar ambos os operadores [!UICONTROL After] e [!UICONTROL Within], ambos os operadores iniciam e terminam em paralelo, não em sequência. <br/>Por exemplo, você constrói um segmento com o contêiner definido como: `After = 1 Week(s) and Within = 2 Week(s)`.<br/>As condições para identificar visitantes neste segmento são atendidas somente entre uma e duas semanas. Ambas as condições são aplicadas a partir da primeira exibição de página. |
 
 
 #### Exemplos
@@ -97,27 +103,27 @@ Alguns exemplos de uso das restrições de tempo.
 
 ##### Operador [!UICONTROL Depois]
 
-Identifique os visitantes que visitaram uma página e depois outra página somente após duas semanas. Por exemplo, visitantes que visitaram a página inicial, mas a variável Mulheres | Página de sapatos só depois de duas semanas.
+Identifique os visitantes que visitaram uma página e depois outra página somente após duas semanas. Por exemplo, visitantes que visitaram a página inicial, mas a variável Mulheres | Página de sapatos somente após duas semanas.
 
 ![Sequência após](assets/sequence-after.png)
 
-Se ocorrer uma exibição de página da Página inicial em 1º de junho de 2024 às 00:01, será exibida uma exibição de página para a Página Mulheres | Os sapatos corresponderão desde que essa exibição de página ocorra após 15 de junho de 2024 00:01.
+Se ocorrer uma exibição de página da Página inicial em 1º de junho de 2024 às 00:01, será exibida uma exibição de página para a Página Mulheres | Os sapatos serão iguais, desde que a exibição da página ocorra após 15 de junho de 2024 00:01.
 
 ##### Operador [!UICONTROL Within]
 
-Identifique os visitantes que visitaram uma página e depois outra página dentro de cinco minutos. Por exemplo, os visitantes que visitaram a página inicial e, em seguida, as mulheres | Página de sapatos em 5 minutos.
+Identifique os visitantes que visitaram uma página e depois outra página dentro de cinco minutos. Por exemplo, os visitantes que visitaram a página inicial e, em seguida, as mulheres | Sapatos página dentro de 5 minutos.
 
 ![Sequência em](assets/sequence-within.png)
 
-Se uma exibição de página da Página inicial ocorrer em 1 de junho de 2024 às 12:01, uma exibição de página para a página Mulheres | Os sapatos corresponderão, desde que essa exibição de página ocorra antes de 15 de junho de 2024 12:16.
+Se uma exibição de página da Página inicial ocorrer em 1 de junho de 2024 às 12:01, uma exibição de página para a página Mulheres | Os sapatos corresponderão se essa exibição de página ocorrer antes de 15 de junho de 2024 12:16.
 
 ##### [!UICONTROL Depois] mas [!UICONTROL Dentro] operador
 
-Identifique os visitantes que visitaram uma página e, em seguida, visitaram outra página após duas semanas, mas dentro de um mês. Por exemplo, os visitantes que visitaram a Página inicial e, em seguida, após duas semanas e dentro de um mês, as mulheres | Página de sapatos.
+Identifique os visitantes que visitaram uma página e, em seguida, visitaram outra página após duas semanas, mas dentro de um mês. Por exemplo, os visitantes que visitaram a Página inicial e, em seguida, após duas semanas e dentro de um mês, as mulheres | Página Sapatos.
 
 ![Sequência após, mas dentro de](assets/sequence-afterbutwithin.png)
 
-Qualquer visitante que acesse a página inicial em 1 de junho de 2024 e que retorne para visitar as mulheres | Página de sapatos após 15 de junho de 2019 00:01, mas antes de 1 de julho de 2019, qualifique-se para o segmento.
+Qualquer visitante que acesse a página inicial em 1 de junho de 2024 e que retorne para visitar as mulheres Página de | Sapatos após 15 de junho de 2019 00:01, mas antes de 1 de julho de 2019 qualifique-se para o segmento.
 
 
 ### Restrições de [!UICONTROL Ocorrência], [!UICONTROL Visita] e [!UICONTROL Dimension]
@@ -302,4 +308,4 @@ Como exemplo final, você deseja identificar os visitantes que aprenderam sobre 
 
 >[!MORELIKETHIS]
 >
-> * [Dominando Lógica Sequencial no AA e no CJA: Introdução ao THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=pt)
+> * [Dominando Lógica Sequencial no AA e no CJA: Introdução ao THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

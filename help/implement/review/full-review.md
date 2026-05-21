@@ -1,25 +1,31 @@
 ---
 title: Análise completa
-description: Analise sua implementação a cada seis meses para garantir o alinhamento contínuo com as necessidades de negócios e os KPIs.
+description: Analise sua implementação a cada seis meses para garantir o alinhamento contínuo com as necessidades empresariais e os KPIs.
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/YQL-V84ZWAr8NqRp1snYZBgl7-3iIhhxWkWh6KTFKNM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 80%
+source-wordcount: 404
+ht-degree: 73%
 
 ---
 
 # Análise completa (para analisar a implementação duas vezes por ano)
 
-Por que você deve analisar sua implementação a cada seis meses? Porque é necessário garantir que sua implementação permaneça alinhada às necessidades do negócio! Além disso, convém resolver qualquer problema de qualidade dos dados enquanto ele é pequeno e antes que se transforme em um grande problema de dados que possa minar a confiança das partes interessadas. Além dessas Análises completas a cada seis meses, você também deve fazer [Análises focadas](/help/implement/review/focused-review.md) após cada lançamento de site.
+Por que você deve analisar sua implementação a cada seis meses? Porque é necessário garantir que sua implementação permaneça alinhada às necessidades empresariais. Além disso, convém resolver qualquer problema de qualidade dos dados enquanto ele é pequeno e antes que se transforme em um grande problema de dados que possa minar a confiança das partes interessadas. Além dessas Análises completas a cada seis meses, você também deve fazer [Análises focadas](/help/implement/review/focused-review.md) após cada lançamento de site.
 
-## &#x200B;1. Certifique-se de que sua implementação ainda esteja totalmente alinhada às nossas necessidades de negócios
+## &#x200B;1. Verifique se sua implementação ainda está totalmente alinhada às nossas necessidades de negócios
 
-Conheça o proprietário da empresa e/ou os analistas para analisar as necessidades de negócios em constante mudança. Para quaisquer necessidades ou oportunidades de medição que não estejam sendo atendidas por sua implementação, descubra como atualizar seus KPIs e planos de medição. Lembre-se de registrar as alterações em seu [BRD e SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=pt-BR#implementation).
+Conheça o proprietário da empresa e/ou os analistas para analisar as necessidades empresariais em constante mudança. Para quaisquer necessidades ou oportunidades de medição que não estejam sendo atendidas por sua implementação, descubra como atualizar seus KPIs e planos de medição. Lembre-se de registrar as alterações em seu [BRD e SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=pt-BR#implementation).
 
-## &#x200B;2. Certifique-se de que suas métricas e variáveis ainda estejam funcionando bem
+## &#x200B;2. Verifique se suas métricas e variáveis ainda estão funcionando bem
 
 Analise rapidamente todas as suas métricas e variáveis, em ordem de importância para os negócios, para verificar se os dados estão sendo coletados corretamente. Comece com suas métricas e variáveis mais importantes: aquelas associadas aos [cinco principais KPIs](/help/implement/review/define-kpis.md#review). Para fazer isso:
 

@@ -1,12 +1,17 @@
 ---
-description: Etapas que descrevem como criar uma solicitação do data warehouse.
+description: Etapas que descrevem como criar uma solicitação do Data Warehouse.
 title: Configurações gerais de solicitação do Data Warehouse
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/-FIw9vHeGpDbpd09GgRQqgK-5-srLyNCjDCLLhPBEYI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 25%
+source-wordcount: 399
+ht-degree: 28%
 
 ---
 
@@ -31,7 +36,7 @@ Para definir configurações gerais para uma solicitação Data Warehouse:
    | Opção | Função |
    |---------|----------|
    | Nome da solicitação | Esse nome aparece na página principal do Data Warehouse ao gerenciar solicitações. |
-   | Intervalos de datas | Selecione o intervalo de datas a ser incluído no relatório. <p>Você pode escolher datas personalizadas ou um intervalo de datas predefinido. Os intervalos predefinidos são relativos à data em que o relatório é enviado.</p><p>As seguintes opções predefinidas estão disponíveis:</p><ul><li>Hoje</li><li>Ontem</li><li>Últimos 7 dias</li><li>Últimos 30 dias</li><li>Nesta semana</li><li>Semana passada</li><li>Últimas 2 semanas</li><li>Últimas 3 semanas</li><li>Últimas 4 semanas</li><li>Este mês</li><li>Último mês</li><li>Última hora</li></ul> |
+   | Intervalos de datas | Selecione o intervalo de datas a ser incluído no relatório. <p>Você pode escolher datas personalizadas ou um intervalo de datas predefinido. Os intervalos predefinidos são relativos à data em que o relatório é enviado.</p><p>As seguintes opções predefinidas estão disponíveis:</p><ul><li>Hoje</li><li>Ontem</li><li>Últimos 7 dias</li><li>Últimos 30 dias</li><li>Nessa semana</li><li>Semana passada</li><li>Últimas 2 semanas</li><li>Últimas 3 semanas</li><li>Últimas 4 semanas</li><li>Nesse mês</li><li>Último mês</li><li>Última hora</li></ul> |
    | Granularidade | A granularidade de tempo. Os valores válidos são Nenhum, Hora, Dia, Semana, Mês, Trimestre e Ano.<p>A granularidade do relatório requer mais tempo de processamento. Se você estiver relatando a granularidade mensal de um ano inteiro, seus relatórios serão processados muito mais rapidamente se você enviar uma solicitação de relatório para cada mês.</p><p>**Observação:** ao ser aplicada a granularidade em uma solicitação Data Warehouse, a coluna &#39;Data&#39; é adicionada ao relatório. Dependendo da granularidade selecionada, o formato de data muda, da seguinte maneira:</p><ul><li>**Granularidade horária**:<ul> <li>**Formato**: `mmmm d, yyyy` Hora `H`</li><li>**Exemplo**: 1º de janeiro, 20XX, Hora 0 </li></ul><li>**Granularidade diária**:<ul> <li>**Formato**: `mmmm d, yyyy`</li><li>**Exemplo**: 1º de janeiro, 20XX</li></ul><li>**Granularidade semanal**:<ul> <li>**Formato**: Semana `w, yyyy`</li><li>**Exemplo**: Semana 1, 20XX </li></ul><li>**Granularidade mensal**:<ul> <li>**Formato**: `mmmm yyyy`</li><li>**Exemplo**: 20XX de janeiro </li></ul><li>**Granularidade trimestral**:<ul> <li>**Formato**: `q` Trimestre `yyyy`</li><li>**Exemplo**: 1º trimestre de 20XX </li></ul><li>**Granularidade anual**:<ul> <li>**Formato**: `yyyy`</li><li>**Exemplo**: 20XX</li></ul> |
    | Disponibilize para usuários em sua organização | Todas as solicitações do data warehouse estão visíveis somente para você e qualquer administrador do sistema. Ative essa opção se desejar que a solicitação fique visível para todos em sua organização. <p>Habilitar essa opção é útil se você quiser que outros usuários em sua organização ajudem a criar ou atualizar a solicitação.</p> |
 

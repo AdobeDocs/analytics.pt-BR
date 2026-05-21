@@ -4,10 +4,16 @@ description: Para sites de comércio eletrônico, define a moeda em que a págin
 feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 98%
+source-wordcount: 952
+ht-degree: 96%
 
 ---
 
@@ -20,7 +26,7 @@ A conversão de moeda usa a seguinte lógica em cada ocorrência. Essas etapas s
 * Se `currencyCode` não estiver definido, a Adobe presume que todos os valores de moeda são a moeda do conjunto de relatórios. Consulte [Configurações gerais da conta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) nas configurações do conjunto de relatórios para ver a moeda do conjunto de relatórios.
 * Se `currencyCode` for definida e corresponder à moeda do conjunto de relatórios, nenhuma conversão de moeda será aplicada.
 * Se `currencyCode` estiver definida e for diferente da moeda do conjunto de relatórios, a Adobe aplicará uma conversão de moeda com base na taxa de câmbio do dia. A Adobe tem uma parceria com o [XE](https://xe.com) para converter moeda a cada dia. Todos os valores armazenados no conjunto de relatórios estão na moeda do conjunto de relatórios.
-* Se `currencyCode` contiver um valor inválido, **a ocorrência inteira será descartada, causando perda de dados.** Verifique se essa variável está definida corretamente sempre que for usada.
+* Se `currencyCode` estiver definido com um valor inválido, **a ocorrência inteira será descartada, causando perda de dados.** Verifique se essa variável está definida corretamente sempre que for usada.
 
 Essa variável não é mantida entre ocorrências. Verifique se essa variável está definida em todas as páginas que envolvam eventos de receita ou moeda que não correspondam à moeda padrão do conjunto de relatórios.
 

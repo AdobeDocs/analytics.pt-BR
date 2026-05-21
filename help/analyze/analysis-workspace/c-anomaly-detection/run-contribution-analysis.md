@@ -4,10 +4,16 @@ title: Executar análise de contribuição
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/gRnQxBkxEqtDdZ-zbgeg4Oe0MweTmqKwtThl3NYPpgs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 14%
+source-wordcount: 554
+ht-degree: 9%
 
 ---
 
@@ -60,7 +66,7 @@ As etapas para executar a Análise de contribuição são:
    * [Executar tendência de uma ou mais linhas](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [Adicionar novas visualizações](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [Criar alertas](/help/components/alerts/alerts-overview.md)
-   * [Crie ou compare segmentos.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+   * [Criar ou comparar segmentos.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]
 >
@@ -69,7 +75,7 @@ As etapas para executar a Análise de contribuição são:
 
 ## Excluir dimensões
 
-Talvez você queira excluir algumas dimensões da Análise de contribuição. Por exemplo, você pode não se preocupar sobre qualquer navegador ou dimensões relacionadas ao hardware, e deseja agilizar a análise os removendo.
+Talvez você queira excluir algumas dimensões da Análise de contribuição. Por exemplo, talvez você não se importe com nenhuma dimensão relacionada a navegador ou hardware e deseje acelerar a análise removendo-as.
 
 Para gerenciar a dimensão excluída:
 

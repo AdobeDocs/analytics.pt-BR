@@ -4,10 +4,15 @@ description: Implemente o Adobe Analytics em Assistentes digitais, como o Amazon
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/7OjV45T7dNKjgFkjdq8C-y4kISqd4kycvVDk5RyLF0s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 97%
+source-wordcount: 1284
+ht-degree: 86%
 
 ---
 
@@ -15,9 +20,9 @@ ht-degree: 97%
 
 Com os recentes avanços na computação em nuvem, aprendizado de máquina e processamento de linguagem natural, os assistentes digitais estão fazendo parte do cotidiano. Os consumidores estão começando a falar com os seus aparelhos e a esperar que eles compreendam e respondam de formas semelhantes às humanas. À medida que essas plataformas vão se consolidando, as marcas podem apresentar seus serviços aos consumidores dessa mesma forma realista. Por exemplo, os consumidores podem perguntar coisas como:
 
-* &quot;Alexa, pergunte ao meu carro quando será preciso trocar o óleo.&quot;
+* &quot;Alexa, pergunte ao meu carro quando ele precisa de uma troca de óleo.&quot;
 * &quot;Cortana, qual é o saldo da minha conta corrente?&quot;
-* &quot;Siri, transfira $20 para John pelo jantar de ontem à noite através do meu aplicativo bancário.&quot;
+* &quot;Siri, mande $20 para John pelo jantar de ontem à noite pelo meu aplicativo bancário.&quot;
 
 Esta página fornece uma visão geral de como usar melhor o Adobe Analytics para medir e otimizar esses tipos de experiências.
 
@@ -28,7 +33,7 @@ Esta página fornece uma visão geral de como usar melhor o Adobe Analytics para
 A maioria dos assistentes digitais atuais segue uma arquitetura de alto nível semelhante:
 
 1. **Dispositivo**: existe um dispositivo (como um Amazon Echo ou um telefone) com um microfone que permite ao usuário fazer uma pergunta.
-1. **Assistente digital**: esse dispositivo interage com o serviço que possibilita o assistente digital. É onde o discurso é convertido em intenções compreensíveis por máquina e os detalhes da solicitação são analisados. Quando a intenção do usuário é compreendida, o assistente digital passa a intenção e os detalhes da solicitação para o aplicativo, que a processa.
+1. **Assistente digital**: esse dispositivo interage com o serviço que possibilita o assistente digital. É onde o discurso é convertido em intenções compreensíveis por máquina e os detalhes da solicitação são analisados. Uma vez compreendida a intenção do usuário, o assistente digital transmite a intenção e os detalhes da solicitação para o aplicativo que lida com a solicitação.
 1. **&quot;Aplicativo&quot;**: pode ser um aplicativo no telefone ou um aplicativo de voz. O aplicativo é responsável por responder à solicitação. Ele responde ao assistente digital e o assistente digital responde ao usuário.
 
 ## Onde implementar o Analytics
@@ -89,9 +94,9 @@ Cache-Control: no-cache
 
 Como os assistentes digitais são conversacionais, eles geralmente seguem o conceito de uma sessão. Por exemplo:
 
-**Consumidor:** “Ok, Google, chame um táxi para mim”
+**Consumidor:** &quot;Ok Google, chame um táxi para mim&quot;
 
-**Google:** &quot;Claro, a que horas você gostaria?&quot;
+**Google:**: &quot;Claro, que horas você gostaria?&quot;
 
 **Consumidor:** &quot;8:30pm&quot;
 
@@ -130,13 +135,13 @@ Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
-## Parâmetros/Slots/Entidades
+## Parâmetros/slots/entidades
 
 Além da intenção, os assistentes digitais geralmente terão um conjunto de pares de valore/chave que fornecem os detalhes da intenção. Eles podem ser chamados de slots, entidades ou parâmetros. Por exemplo, &quot;Siri, transfira $20 para John pelo jantar de ontem à noite pelo meu aplicativo bancário&quot; teria os seguintes parâmetros:
 
 * Quem = John
-* Valor = 20
-* Porquê = Jantar
+* Quantia = 20
+* Por que = Jantar
 
 Normalmente, há um número finito deles no seu aplicativo. Para rastrear esses valores no Analytics, envie-os com as variáveis de dados de contexto e mapeie cada um dos parâmetros a uma eVar.
 
@@ -160,7 +165,7 @@ Cache-Control: no-cache
 
 ## Recursos do dispositivo
 
-Embora a maioria das plataformas não exponha o dispositivo ao qual o usuário falou, elas mostram os recursos do dispositivo. Por exemplo, Áudio, Tela, Vídeo etc. Essa informação é útil porque define os tipos de conteúdo que podem ser usados ao interagir com seus usuários. Ao medir os recursos do dispositivo, é melhor concatená-los (em ordem alfabética).
+Embora a maioria das plataformas não exponha o dispositivo ao qual o usuário falou, elas mostram os recursos do dispositivo. Por exemplo, Áudio, Tela, Vídeo etc. Essas informações são úteis porque definem os tipos de conteúdo que podem ser usados ao interagir com seus usuários. Ao medir os recursos do dispositivo, é melhor concatená-los (em ordem alfabética).
 
 Exemplo: `":Audio:Camera:Screen:Video:"`
 

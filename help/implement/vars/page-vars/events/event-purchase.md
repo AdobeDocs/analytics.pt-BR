@@ -4,10 +4,16 @@ description: Use o evento de compra para coletar dados das métricas "Pedidos", 
 feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/r-L330P6HA5qWBmEW-2LwECo-d3dhVK1ovWsfraErXE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 70%
+source-wordcount: 474
+ht-degree: 66%
 
 ---
 
@@ -65,7 +71,7 @@ Se estiver usando o [**objeto de dados**](/help/implement/aep-edge/data-var-mapp
 2. Clique na propriedade de tag desejada.
 3. Vá até a guia [!UICONTROL Regras] e clique na regra desejada (ou crie uma regra).
 4. Em [!UICONTROL Ações], clique em uma ação [!UICONTROL Adobe Analytics - Definir variáveis] ou clique no ícone “+”.
-5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de Ação] como [!UICONTROL Definir Variáveis].
+5. Defina a lista suspensa [!UICONTROL Extensão] como Adobe Analytics e o [!UICONTROL Tipo de ação] como [!UICONTROL Definir variáveis].
 6. Localize a seção [!UICONTROL Eventos] e defina a lista suspensa [!UICONTROL Eventos] como [!UICONTROL compra].
 
 Outras variáveis dependentes, como `products` e `purchaseID`, não têm campos dedicados na extensão do Analytics dentro da Coleção de dados da Adobe Experience Platform. Use o editor de código personalizado siga a sintaxe do AppMeasurement para essas variáveis.
@@ -87,5 +93,5 @@ s.events = "purchase,event1,event2";
 Quando você dispara um evento de compra, a Adobe verifica o seguinte:
 
 * A ocorrência contém a variável `purchaseID`? Caso não tenha, a Adobe usa informações da ocorrência para criar uma &quot;ID de compra temporária&quot;. Essa ID de compra temporária se aplica somente ao visitante da ocorrência. As 5 IDs de compra temporárias anteriores são armazenadas para cada ID de visitante por conjunto de relatórios.
-* A ID de compra temporária corresponde a qualquer uma das cinco últimas IDs de compra temporárias armazenadas? Neste caso, a solicitação de imagem é considerada como compra duplicada. Todas as variáveis de conversão, incluindo o evento de compra, não aparecem no relatório.
-* Se a variável `purchaseID` estiver definida, ela corresponderá a qualquer valor já coletado no conjunto de relatórios para todos os visitantes? Neste caso, a solicitação de imagem é considerada como compra duplicada. Todas as variáveis de conversão, incluindo o evento de compra, não aparecem no relatório.
+* A ID de compra temporária corresponde a qualquer uma das cinco últimas IDs de compra temporárias armazenadas? Em caso afirmativo, a solicitação de imagem é considerada uma compra duplicada. Todas as variáveis de conversão, incluindo o evento de compra, não aparecem no relatório.
+* Se a variável `purchaseID` estiver definida, ela corresponderá a qualquer valor já coletado no conjunto de relatórios para todos os visitantes? Em caso afirmativo, a solicitação de imagem é considerada uma compra duplicada. Todas as variáveis de conversão, incluindo o evento de compra, não aparecem no relatório.

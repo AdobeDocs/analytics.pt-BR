@@ -3,10 +3,15 @@ description: Um conjunto de relatórios define o relatório completo e independe
 title: Gerenciador do Conjunto de relatórios
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: 423
+ht-degree: 77%
 
 ---
 
@@ -20,7 +25,7 @@ Um conjunto de relatórios define o relatório completo e independente de qualqu
 
 * Um segmento global composto por números de vários sites para obter totais
 
-As soluções do Analytics agregam e informam sobre esses armazenamentos de dados. O Gerenciador de conjunto de relatórios da administração permite que você defina as regras que regulam o modo como os dados são processados em um conjunto de relatórios.
+As soluções do Analytics agregam e criam relatórios sobre esses armazenamentos de dados. O Gerenciador do conjunto de relatórios admin permite definir as regras que controlam como os dados são processados em um conjunto de relatórios.
 
 Ao fazer logon em qualquer solução do Adobe Analytics, você pode selecionar um conjunto de relatórios para usar (exceto ao usar rollups que combinam conjuntos de relatórios).
 
@@ -34,7 +39,7 @@ Para acessar um conjunto de relatórios:
 
 ## Descrições do Gerenciador de conjunto de relatórios {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conjunto de relatórios].
+A tabela a seguir descreve elementos da página [!UICONTROL Gerenciador de Conjunto de Relatórios].
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -54,11 +59,11 @@ A seguinte tabela descreve elementos na página [!UICONTROL Gerenciador de conju
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Pesquisar</span> </td> 
-   <td colname="col2"> Permite que você localize um conjunto de relatórios na Lista de conjunto de relatórios. A ferramenta de pesquisa inclui tanto a pesquisa básica baseada em nome quanto uma página de pesquisa avançada para pesquisas aprofundadas. </td> 
+   <td colname="col2"> Permite localizar um conjunto de relatórios específico na Lista de conjuntos de relatórios. A ferramenta de pesquisa inclui pesquisa básica baseada em nome e uma página de pesquisa avançada para pesquisas detalhadas. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Grupos</span> </td> 
-   <td colname="col2"> <p>Permite que você organize seus conjunto de relatórios em grupos personalizados. Você pode acessar rapidamente vários conjunto de relatórios que compartilham configurações similares, ou que normalmente você edita em conjunto. </p> </td> 
+   <td colname="col2"> <p>Permite organizar os conjuntos de relatórios em grupos personalizados. É possível acessar rapidamente vários conjuntos de relatórios que compartilham configurações semelhantes ou que você geralmente edita em conjunto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Pesquisas salvas</span> </td> 

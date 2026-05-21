@@ -5,16 +5,21 @@ title: Sumário
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/vnV6rTdycCWdHGpu88qBusubS8eKlcuIDGLhpMvVr-Q
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 89%
+source-wordcount: 244
+ht-degree: 90%
 
 ---
 
-# Índice 
+# Índice
 
-É possível exibir um índice para um projeto no Analysis Workspace, o que permite mover-se rapidamente entre quaisquer painéis e visualizações existentes no projeto.  O índice é especialmente útil ao visualizar projetos maiores que contêm vários painéis e visualizações.
+É possível exibir um índice para um projeto no Analysis Workspace, o que permite mover-se rapidamente entre quaisquer painéis e visualizações existentes no projeto. O índice é especialmente útil ao visualizar projetos maiores que contêm vários painéis e visualizações.
 
 >[!BEGINSHADEBOX]
 
@@ -46,7 +51,7 @@ Para exibir o índice de um projeto:
 
 >[!MORELIKETHIS]
 >
->* [Simplifique a navegação no painel com o novo recurso de índice do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=pt)
+>* [Simplifique a navegação no painel com o novo recurso de índice do Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
 
 
 
@@ -57,7 +62,7 @@ You can view a table of contents within each project in Analysis Workspace, allo
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

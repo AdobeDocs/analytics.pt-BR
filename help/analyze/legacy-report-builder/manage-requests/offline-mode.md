@@ -5,10 +5,14 @@ uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/HKk--fSRTABpRb8Q9yOeySHyAVSR-W2Ktzldmp7UeJQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 33%
+source-wordcount: 200
+ht-degree: 15%
 
 ---
 
@@ -26,8 +30,8 @@ Para ativar o modo offline
 
    ![Captura de tela da tela Opções com o modo offline selecionado.](assets/offline_mode.png)
 
-1. Marque a caixa de seleção ao lado de **[!UICONTROL Ativar o modo offline para criar e editar solicitações]**.
-1. No campo **[!UICONTROL Exibir dados de métrica como]**, insira os dados de espaço reservado os quais você deseja que retornem na solicitação. Por exemplo, digite &quot;1&quot;.
+1. Marque a caixa de seleção ao lado de **[!UICONTROL Ativar modo offline para criar e editar solicitações]**.
+1. No campo **[!UICONTROL Exibir Dados de Métrica como]**, insira os dados de espaço reservado que você deseja retornar na solicitação. Por exemplo, digite &quot;1&quot;.
 1. Clique em **[!UICONTROL OK]**.
 1. Crie e execute sua solicitação no modo off-line usando o Assistente de solicitação. A captura de tela a seguir mostra um exemplo de uma solicitação com &quot;1&quot; como os dados de espaço reservado.
 
