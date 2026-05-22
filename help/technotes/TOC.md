@@ -5,9 +5,9 @@ user-guide-title: Notas técnicas do Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Navegue em uma knowledge base que contém artigos úteis que não pertencem a uma ferramenta ou componente específico do Analytics.
 source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
-workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 
