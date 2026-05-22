@@ -2,16 +2,22 @@
 title: ID do AMO
 description: A ID do Adobe Media Otimizer, usada em integrações da Adobe Advertising.
 feature: Dimensions
-source-git-commit: 408d8db0d1e3c8301a066fe54d611ec7b8e3418a
+exl-id: 90642896-43dd-4ac0-bfb8-7fe34c0e0302
+TQID: 'https://experienceleague.adobe.com/SzHWYAzd9iYcd5AU86TVL6Bfca4UsuijV141jBuS0y8'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 3%
+source-wordcount: 793
+ht-degree: 2%
 
 ---
 
 # ID do AMO
 
-A **[!UICONTROL ID do AMO]** é uma coleção de identificadores concatenados usados em integrações do Adobe Advertising. Os valores armazenados nessa dimensão são organizados automaticamente em dimensões de classificação separadas e mais legíveis para uso nos relatórios do Analytics. A dimensão é criada automaticamente ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/integrations/analytics/overview).
+A **[!UICONTROL ID do AMO]** é uma coleção de identificadores concatenados usados em integrações do Adobe Advertising. Os valores armazenados nessa dimensão são organizados automaticamente em dimensões de classificação separadas e mais legíveis para uso nos relatórios do Analytics. A dimensão é criada automaticamente ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
 
 ## Preencher esta dimensão com dados
 
@@ -35,7 +41,7 @@ AC!{ad key}!{placement key}
 * **`ad key`**: identificador alfanumérico gerado pela Adobe Advertising para o anúncio.
 * **`placement key`**: identificador alfanumérico gerado pela Adobe Advertising para o posicionamento.
 
-Valor de exemplo:
+Exemplo de valor:
 
 ```text
 AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
@@ -133,30 +139,30 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## Classificações
 
-Ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/pt-br/docs/advertising/integrations/analytics/overview), as classificações a seguir são criadas automaticamente. Os valores de classificação são mantidos automaticamente pela integração.
+Ao habilitar a integração do [Analytics para Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview), as classificações a seguir são criadas automaticamente. Os valores de classificação são mantidos automaticamente pela integração.
 
 | Classificação | Descrição | DSP | Pesquisar,<br>Social, &amp;<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL Conta]** | O nome da conta. | &verificar; | &verificar; |
-| **[!UICONTROL Adicionar URL de exibição]** | O URL exibido no anúncio. | | &verificar; |
-| **[!UICONTROL Descrição do anúncio]** | A descrição do anúncio (DSP) ou o corpo do anúncio (Search, Social e Commerce). | &verificar; | &verificar; |
-| **[!UICONTROL URL de Destino do Anúncio]** | O URL de destino do anúncio. | | &verificar; |
-| **[!UICONTROL Grupo de anúncios]** | O nome do grupo de anúncios. | | &verificar; |
-| **[!UICONTROL Plataforma de publicidade]** | O nome do DSP de publicidade ou do mecanismo de pesquisa. | &verificar; | &verificar; |
-| **[!UICONTROL Título do anúncio]** | O tipo de anúncio (DSP) ou o título do anúncio (Search, Social e Commerce). | &verificar; | &verificar; |
-| **[!UICONTROL Tipo de anúncio]** | O tipo de anúncio, como `text`, `video`, `display` ou `native`. | &verificar; | &verificar; |
-| **[!UICONTROL Atributo da AdCloud 1]** -<br>**[!UICONTROL Atributo da AdCloud 5 &#x200B;]** | Classificações de espaço reservado reservadas para atributos personalizados futuros. Não está em uso no momento. | | |
-| **[!UICONTROL Campaign]** | O nome da campanha. | &verificar; | &verificar; |
-| **[!UICONTROL Nome da Experiência do Creative]** | Nome da experiência criativa associada à interação com o anúncio, representando um grupo de variações criativas usadas em testes ou personalização. | &verificar; | |
-| **[!UICONTROL Nome da Ramificação do Creative]** | Nome da ramificação em uma experiência criativa que representa uma variação ou um caminho específico no experimento criativo. | &verificar; | |
-| **[!UICONTROL ID da Ramificação do Creative]** | Identificador exclusivo atribuído a uma ramificação criativa em uma experiência criativa. | &verificar; | |
-| **[!UICONTROL Nome do Creative]** | Nome do ativo de criação do anúncio específico que foi distribuído ao usuário. | &verificar; | |
-| **[!UICONTROL Nome da variante do Creative]** | Nome da variante específica de um criativo usado em uma experiência ou ramificação criativa. | &verificar; | |
-| **[!UICONTROL Palavra-chave]** | A palavra-chave. | | &verificar; |
-| **[!UICONTROL Tipo de Correspondência de Palavra-chave]** | A palavra-chave e o tipo de correspondência. | | &verificar; |
-| **[!UICONTROL Tipo de aterrissagem]** | Se a entrada da página de aterrissagem era uma visualização ou um click-through. | &verificar; | &verificar; |
-| **[!UICONTROL Tipo de correspondência]** | O tipo de correspondência da pesquisa. | | &verificar; |
-| **[!UICONTROL Rede]** | RTB (DSP) ou o nome da rede de publicidade (Search, Social e Commerce). | &verificar; | &verificar; |
-| **[!UICONTROL Otimização]** | O nome do pacote (DSP) ou do portfólio (Search, Social e Commerce). | &verificar; | &verificar; |
-| **[!UICONTROL Posicionamento]** | O nome do posicionamento. | &verificar; | |
-| **[!UICONTROL Destino do produto]** | O público alvo do produto para um anúncio de lista de produtos. | | &verificar; |
+| **[!UICONTROL Conta]** | O nome da conta. | &amp;verificar; | &amp;verificar; |
+| **[!UICONTROL Adicionar URL de exibição]** | O URL exibido no anúncio. | | &amp;verificar; |
+| **[!UICONTROL Descrição do anúncio]** | A descrição do anúncio (DSP) ou o corpo do anúncio (Search, Social e Commerce). | &amp;verificar; | &amp;verificar; |
+| **[!UICONTROL URL de Destino do Anúncio]** | O URL de destino do anúncio. | | &amp;verificar; |
+| **[!UICONTROL Grupo de anúncios]** | O nome do grupo de anúncios. | | &amp;verificar; |
+| **[!UICONTROL Plataforma de publicidade]** | O nome do DSP de publicidade ou do mecanismo de pesquisa. | &amp;verificar; | &amp;verificar; |
+| **[!UICONTROL Título do anúncio]** | O tipo de anúncio (DSP) ou o título do anúncio (Search, Social e Commerce). | &amp;verificar; | &amp;verificar; |
+| **[!UICONTROL Tipo de anúncio]** | O tipo de anúncio, como `text`, `video`, `display` ou `native`. | &amp;verificar; | &amp;verificar; |
+| **[!UICONTROL Atributo da AdCloud 1]** -<br>**[!UICONTROL Atributo da AdCloud 5 ]** | Classificações de espaço reservado reservadas para atributos personalizados futuros. Não está em uso no momento. | | |
+| **[!UICONTROL Campaign]** | O nome da campanha. | &amp;verificar; | &amp;verificar; |
+| **[!UICONTROL Nome da Experiência do Creative]** | Nome da experiência criativa associada à interação com o anúncio, representando um grupo de variações criativas usadas em testes ou personalização. | &amp;verificar; | |
+| **[!UICONTROL Nome da Ramificação do Creative]** | Nome da ramificação em uma experiência criativa que representa uma variação ou um caminho específico no experimento criativo. | &amp;verificar; | |
+| **[!UICONTROL ID da Ramificação do Creative]** | Identificador exclusivo atribuído a uma ramificação criativa em uma experiência criativa. | &amp;verificar; | |
+| **[!UICONTROL Nome do Creative]** | Nome do ativo de criação do anúncio específico que foi distribuído ao usuário. | &amp;verificar; | |
+| **[!UICONTROL Nome da variante do Creative]** | Nome da variante específica de um criativo usado em uma experiência ou ramificação criativa. | &amp;verificar; | |
+| **[!UICONTROL Palavra-chave]** | A palavra-chave. | | &amp;verificar; |
+| **[!UICONTROL Tipo de Correspondência de Palavra-chave]** | A palavra-chave e o tipo de correspondência. | | &amp;verificar; |
+| **[!UICONTROL Tipo de aterrissagem]** | Se a entrada da página de aterrissagem era uma visualização ou um click-through. | &amp;verificar; | &amp;verificar; |
+| **[!UICONTROL Tipo de correspondência]** | O tipo de correspondência da pesquisa. | | &amp;verificar; |
+| **[!UICONTROL Rede]** | RTB (DSP) ou o nome da rede de publicidade (Search, Social e Commerce). | &amp;verificar; | &amp;verificar; |
+| **[!UICONTROL Otimização]** | O nome do pacote (DSP) ou do portfólio (Search, Social e Commerce). | &amp;verificar; | &amp;verificar; |
+| **[!UICONTROL Posicionamento]** | O nome do posicionamento. | &amp;verificar; | |
+| **[!UICONTROL Destino do produto]** | O público alvo do produto para um anúncio de lista de produtos. | | &amp;verificar; |

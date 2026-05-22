@@ -1,33 +1,38 @@
 ---
 title: Perguntas Frequentes Sobre Atribuição
-description: Obtenha respostas às perguntas frequentes sobre atribuição.
+description: Obtenha respostas para perguntas frequentes sobre atribuição.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: 'https://experienceleague.adobe.com/2rsPhh5Y-Fxf8fvG4skU59bO72FM2x7Zdecwh1sVVsY'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: 1210
 ht-degree: 71%
 
 ---
 
 # Perguntas frequentes
 
-Veja a seguir as respostas para perguntas frequentes sobre atribuição.
+Estas são as respostas para perguntas frequentes sobre atribuição.
 
 +++## O que é o item de linha **[!UICONTROL Nenhum]** ao usar a atribuição?
 
-O item de linha “Nenhum” é um item “catch-all” (global) que representa todas as conversões que ocorreram sem nenhum ponto de contato na janela de retrospectiva. Para reduzir o número de conversões atribuídas ao item de linha “Nenhum”, tente usar uma Janela de pesquisa personalizada com um período de pesquisa mais longo.
+O item de linha “Nenhum” é um item “catch-all” (global) que representa todas as conversões que ocorreram sem nenhum ponto de contato na janela de retrospectiva. Para reduzir o número de conversões atribuídas ao item de linha &quot;Nenhum&quot;, tente usar uma janela de pesquisa personalizada com um período de pesquisa mais longo.
 
 +++
 
 
-+++## Por que às vezes vejo datas fora da janela de relatório ao usar modelos de atribuição?
++++## Por que às vezes vejo datas fora da minha janela de relatórios ao usar modelos de atribuição?
 
 Algumas métricas baseadas em visitas, como [Entradas](/help/components/metrics/entries.md) ou [Taxa de rejeição](/help/components/metrics/bounce-rate.md), podem atribuir dados a um período anterior à data inicial do intervalo da janela de relatórios. Essa situação se deve aos modelos de atribuição que usam uma janela de pesquisa, que determina a aparência da atribuição anterior para conceder crédito por métricas. O cenário mais comum é quando as visitas abrangem a meia-noite. Por exemplo:
 
-1. Um usuário visita sua home page às 23h:55 do dia 7 de setembro.
-1. Eles visitam várias páginas, a última das quais ocorreu às 12:05 AM de 8 de setembro.
+1. Um usuário visita sua página inicial às 23h:55 do dia 7 de setembro.
+1. Eles visitam várias páginas, a última às 12:05 AM de 8 de setembro.
 1. Uma semana depois, você executa um relatório de tendências diárias com o intervalo de datas de 8 a 14 de setembro.
 
 Métricas baseadas em ocorrências, como [Visualizações de página](/help/components/metrics/page-views.md), produziriam a saída esperada; a tendência diária dos dados é de 8 a 14 de setembro. No entanto, as métricas baseadas em visitas também mostrariam a visita acima em 7 de setembro. A entrada atribuída à visita ocorreu em 7 de setembro, e a janela de pesquisa por padrão é de 1° a 31 de setembro.
@@ -36,8 +41,8 @@ A taxa de rejeição sempre mostra 0% em 7 de setembro neste exemplo. Essa métr
 
 Considere outro exemplo semelhante. A única diferença entre o exemplo a seguir e o acima são as datas:
 
-1. Um usuário visita sua home page às 23h:55 do dia 31 de agosto.
-1. Eles visitam várias páginas, a última das quais ocorreu às 12:05 AM de 1º de setembro.
+1. Um usuário visita sua página inicial às 23h:55 do dia 31 de agosto.
+1. Eles visitam várias páginas, a última às 12:05 AM de 1º de setembro.
 1. Uma semana depois, você executa um relatório de tendência diária com intervalo de datas de 1° a 7 de setembro.
 
 Neste exemplo, Entradas e Taxa de rejeição não exibiriam dados de 31 de agosto. A janela de pesquisa e a janela de relatórios iniciam no dia 1° de setembro, portanto os dados não podem ser atribuídos a partir do dia 31 de agosto.
@@ -54,7 +59,7 @@ The choice of attribution lookback depends on your use case. If conversions typi
 +++
 -->
 
-+++## Como os adereços e variáveis se comparam ao usar a atribuição?
++++## Como funciona a comparação de props e eVars na atribuição?
 
 A atribuição é recalculada no tempo de execução do relatório, portanto, não há diferença entre prop e eVar (ou qualquer outra dimensão) para fins de modelagem de atribuição. As props podem persistir usando qualquer janela de retrospectiva ou modelo de atribuição, e as configurações de alocação/expiração de eVar são ignoradas.
 
@@ -68,14 +73,14 @@ Não. Os modelos de atribuição usam o processamento de tempo do relatório, qu
 +++
 
 
-+++## Os modelos de atribuição só estarão disponíveis se eu estiver usando um conjunto de relatórios virtual com o processamento de tempo do relatório habilitado?
++++## Os modelos de atribuição estão disponíveis somente se uso um conjunto de relatórios virtual com o processamento de tempo ativado?
 
 Os modelos de atribuição estão disponíveis fora dos conjuntos de relatórios virtuais. Estes usam o processamento de tempo do relatório no backend, enquanto os modelos de atribuição estão disponíveis tanto para os conjuntos de relatórios padrão como para os conjuntos de relatórios virtuais.
 
 +++
 
 
-+++## Quais dimensões e métricas não são suportadas?
++++## Que dimensões e métricas são incompatíveis?
 
 O painel de atribuição é compatível com todas as dimensões. As métricas não compatíveis incluem as seguintes:
 
@@ -84,8 +89,8 @@ O painel de atribuição é compatível com todas as dimensões. As métricas n�
 * Visitas
 * Ocorrências
 * Exibições de página
-* Métricas A4T
-* Métricas de Tempo Gasto
+* Métricas do A4T
+* Métricas de tempo gasto
 * Rejeições
 * Taxa de rejeição
 * Entradas
@@ -107,13 +112,13 @@ Sim, as classificações são totalmente compatíveis.
 
 +++## A atribuição funciona com fontes de dados?
 
-Sim, a maioria das fontes de dados é compatível. A atribuição não é compatível com fontes de dados de nível de resumo porque elas não se vinculam a um identificador de visitante do Analytics. 
+Sim, a maioria das fontes de dados é compatível. A atribuição não é compatível com fontes de dados de nível de resumo porque elas não se vinculam a um identificador de visitante do Analytics.
 
-As fontes de dados de ID de transação são tratadas como qualquer outra ocorrência. As fontes de dados de ID de transação não usam o processamento especial normalmente utilizado nos relatórios tradicionais. Em outras palavras, ao usar o processamento de tempo do relatório, os acertos do ID da transação têm valores de eVar propagados dos acertos que ocorrem perto do carimbo de data e hora do hit do ID da transação. Os valores não são propagados de ocorrências ocorridas próximas ao momento da transação original.
+As fontes de dados de ID de transação são tratadas como qualquer outra ocorrência. As fontes de dados de ID de transação não usam o processamento especial normalmente utilizado nos relatórios tradicionais. Em outras palavras, ao usar o processamento de tempo do relatório, as ocorrências de ID de transação têm valores de eVar propagados a partir de ocorrências que ocorrem perto do carimbo de data e hora da ocorrência de ID de transação. Os valores não são propagados de ocorrências que ocorreram perto da hora da transação original.
 
-Quando possível, a atribuição depende do valor da coluna MID que é enviado dentro de um evento na fonte de dados, em vez de um valor persistente. O modelo de atribuição é aplicado em tempo real aos valores da coluna MID na fonte de dados. Por exemplo, quando você usa a [atribuição Last Touch](models.md), o modelo começa a partir de cada instância de uma métrica. E caminha para trás sequencialmente nas batidas até que o modelo atinja o último valor observado na coluna MID.
+Quando possível, a atribuição depende do valor da coluna MID enviado em um evento na fonte de dados, em vez de um valor persistente. O modelo de atribuição é aplicado em tempo real aos valores da coluna MID na fonte de dados. Por exemplo, ao usar a [atribuição Último contato](models.md), o modelo começa a partir de cada instância de uma métrica. E recua sequencialmente nas ocorrências até que o modelo atinja o último valor observado na coluna MID.
 
-Quando não for possível, a atribuição usará o valor MID no *registro anterior* da fonte de dados para avaliação. Esse registro anterior pode não ser ordenado sequencialmente pelo carimbo de data e hora, já que o AA não oferece suporte a dados fora de ordem.
+Quando não é possível, a atribuição usa o valor MID no *registro anterior* na fonte de dados para avaliação. Esse registro anterior pode não ser ordenado sequencialmente pelo carimbo de data e hora, já que o AA não oferece suporte a dados fora de ordem.
 
 Como os registros não são ordenados sequencialmente, os valores esperados da aplicação da persistência podem influenciar o tempo decorrido entre o carimbo de data e hora da ID de transação fornecido e a transação original.
 
@@ -136,7 +141,7 @@ Como as dimensões do canal de marketing dependem de uma definição de visita t
 +++
 
 
-+++## Como a atribuição funciona com variáveis de valores múltiplos, como variáveis de lista?
++++## Como a atribuição funciona com variáveis de vários valores, como vars de lista?
 
 Algumas dimensões do Analytics podem conter vários valores em uma só ocorrência. Exemplos comuns incluem list vars e a variável products.
 

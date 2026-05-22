@@ -3,19 +3,13 @@ title: Como configurar uma conta publicitária no Advertising Analytics
 description: Este artigo explica como criar novas contas publicitárias e mapear várias contas a vários conjuntos de relatórios.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-TQID: https://experienceleague.adobe.com/UAPEgVKZ4EW-GMvHGgz9tMHi36M2HazOuEBHOtJ1OUY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/UAPEgVKZ4EW-GMvHGgz9tMHi36M2HazOuEBHOtJ1OUY'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: fe0a7292-80bc-407a-b456-64170267d1ccid: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 660
 ht-degree: 13%
@@ -52,7 +46,7 @@ Preencha as **[!UICONTROL Configurações de rastreamento]** seguindo estas dire
 
    | Configuração | Descrição |
    | --- | --- |
-   | Tipo | <ul><li>**Automático**: permite que o mecanismo do Adobe Advertising decida como os parâmetros de rastreamento são anexados aos modelos de rastreamento/URLs de destino do. O [!UICONTROL Rastreamento de Tipo Automático] é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.<br>**Importante:** Para configurar uma conta de mecanismo de pesquisa com o [!UICONTROL Rastreamento de Tipo Automático], você será responsável pelas seguintes ações:<ul><li>O parâmetro e valor `s_kwcid` são adicionados aos modelos de rastreamento da conta ou às URLs da página de aterrissagem na conta que está sendo adicionada. O parâmetro e valor são inseridos no final do URL. Pode ser necessária uma ação adicional se o servidor Web exigir um determinado par de `key=value` no final da URL. Ou é necessária uma atualização para dar suporte a qualquer novo par `key=value` na URL. **Observação**: saiba se você deve adicionar este parâmetro à sua [Política de Segurança de Conteúdo](https://experienceleague.adobe.com/pt-br/docs/id-service/using/reference/csp).</li><li>Além disso, palavras-chave podem ser inseridas no URL inicial como parte do valor `s_kwcid`. Se as palavras-chave contiverem caracteres especiais ou símbolos, confirme se o servidor da Web é compatível com esses caracteres. Um exemplo de caracteres especiais comuns é `+`, que é usado em palavras-chave de &quot;Grande correspondência modificada&quot;.</li></ul></li><li>**Manual**: permite gerenciar como os parâmetros de rastreamento são adicionados aos modelos de rastreamento/URLs de destino do mecanismo de pesquisa. [Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
+   | Tipo | <ul><li>**Automático**: permite que o mecanismo do Adobe Advertising decida como os parâmetros de rastreamento são anexados aos modelos de rastreamento/URLs de destino do. O [!UICONTROL Rastreamento de Tipo Automático] é a abordagem mais simples, mas pode não resultar no melhor conjunto de dados integrado.<br>**Importante:** Para configurar uma conta de mecanismo de pesquisa com o [!UICONTROL Rastreamento de Tipo Automático], você será responsável pelas seguintes ações:<ul><li>O parâmetro e valor `s_kwcid` são adicionados aos modelos de rastreamento da conta ou às URLs da página de aterrissagem na conta que está sendo adicionada. O parâmetro e valor são inseridos no final do URL. Pode ser necessária uma ação adicional se o servidor Web exigir um determinado par de `key=value` no final da URL. Ou é necessária uma atualização para dar suporte a qualquer novo par `key=value` na URL. **Observação**: saiba se você deve adicionar este parâmetro à sua [Política de Segurança de Conteúdo](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).</li><li>Além disso, palavras-chave podem ser inseridas no URL inicial como parte do valor `s_kwcid`. Se as palavras-chave contiverem caracteres especiais ou símbolos, confirme se o servidor da Web é compatível com esses caracteres. Um exemplo de caracteres especiais comuns é `+`, que é usado em palavras-chave de &quot;Grande correspondência modificada&quot;.</li></ul></li><li>**Manual**: permite gerenciar como os parâmetros de rastreamento são adicionados aos modelos de rastreamento/URLs de destino do mecanismo de pesquisa. [Consulte estes exemplos de rastreamento manual de cada mecanismo de pesquisa](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. Selecione **[!UICONTROL Salvar]**.
 1. Um aviso de isenção de responsabilidade exibe uma lista de avisos. Confirme que leu e compreende este contrato. Marque a caixa de seleção e selecione **[!UICONTROL OK]**.
