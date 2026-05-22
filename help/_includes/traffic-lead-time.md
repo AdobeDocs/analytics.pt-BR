@@ -3,9 +3,12 @@ description: A Adobe exige aviso prévio para novas configurações de conta, pi
 title: Tempo de lead necessário para aumentos de tráfego
 feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: ht
-source-wordcount: '325'
+TQID: 'https://experienceleague.adobe.com/NJpOBQXD9CulN-UjbKnQiPzPWusWzLEo0RgvBioJe3I'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+workflow-type: tm+mt
+source-wordcount: 328
 ht-degree: 100%
 
 ---
@@ -16,7 +19,7 @@ A Adobe exige aviso prévio para novas configurações de conta, picos de tráfe
 
 >[!IMPORTANT]
 >
-> A Adobe não pode acomodar solicitações de alteração de tráfego de &quot;espaço reservado&quot;. Salvo indicação contrária, siga ao máximo o lead time sugerido, incluindo não enviar um alerta muito cedo.
+>A Adobe não pode acomodar solicitações de alteração de tráfego de &quot;espaço reservado&quot;. Salvo indicação contrária, siga ao máximo o lead time sugerido, incluindo não enviar um alerta muito cedo.
 
 Use as diretrizes a seguir para determinar com que antecedência você deve enviar um alerta de tráfego:
 

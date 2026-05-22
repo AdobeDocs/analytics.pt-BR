@@ -3,7 +3,7 @@ title: Métricas de rastreamento do estado do player dos serviços de mídia de 
 description: Métricas disponíveis ao habilitar o [!UICONTROL Rastreamento do estado do player] para um conjunto de relatórios.
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
-TQID: https://experienceleague.adobe.com/3juhc8fsLlyNTdeRNceLhE-LAEF9jLYiIF55YDeeUGU
+TQID: 'https://experienceleague.adobe.com/3juhc8fsLlyNTdeRNceLhE-LAEF9jLYiIF55YDeeUGU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 333
 ht-degree: 0%
@@ -29,11 +29,11 @@ Para usar essas métricas, ative o **[!UICONTROL Rastreamento do estado do playe
 
 As seguintes métricas estão disponíveis:
 
-* [[!UICONTROL Fluxos afetados pelas legendas ocultas]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-streams-impacted)
+* [[!UICONTROL Fluxos afetados pelas legendas ocultas]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/closed-captioning-streams-impacted)
 * [[!UICONTROL Contagens de legendas ocultas]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-count)
 * [[!UICONTROL Duração total das legendas ocultas]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-total-duration)
-* [[!UICONTROL Fluxos afetados pela tela cheia]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-streams-impacted)
-* [[!UICONTROL Contagens de tela inteira]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-count)
+* [[!UICONTROL Fluxos afetados pela tela cheia]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/full-screen-streams-impacted)
+* [[!UICONTROL Contagens de tela inteira]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/full-screen-count)
 * [[!UICONTROL Duração total da tela inteira]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-total-duration)
 * [[!UICONTROL Fluxos afetados pela função em foco]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/in-focus-streams-impacted)
 * [[!UICONTROL Contagens da função Em foco]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/in-focus-count)
