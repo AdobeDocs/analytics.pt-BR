@@ -29,11 +29,11 @@ Para usar essas métricas, ative o **[!UICONTROL Rastreamento do estado do playe
 
 As seguintes métricas estão disponíveis:
 
-* [[!UICONTROL Fluxos afetados pelas legendas ocultas]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-streams-impacted)
+* [[!UICONTROL Fluxos afetados pelas legendas ocultas]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/closed-captioning-streams-impacted)
 * [[!UICONTROL Contagens de legendas ocultas]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-count)
 * [[!UICONTROL Duração total das legendas ocultas]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-total-duration)
-* [[!UICONTROL Fluxos afetados pela tela cheia]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-streams-impacted)
-* [[!UICONTROL Contagens de tela inteira]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-count)
+* [[!UICONTROL Fluxos afetados pela tela cheia]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/full-screen-streams-impacted)
+* [[!UICONTROL Contagens de tela inteira]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/full-screen-count)
 * [[!UICONTROL Duração total da tela inteira]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-total-duration)
 * [[!UICONTROL Fluxos afetados pela função em foco]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/in-focus-streams-impacted)
 * [[!UICONTROL Contagens da função Em foco]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/in-focus-count)

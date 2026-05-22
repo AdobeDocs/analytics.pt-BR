@@ -36,9 +36,9 @@ As seguintes métricas estão disponíveis:
 * [[!UICONTROL Início do conteúdo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-starts)
 * [[!UICONTROL Marcadores de progresso]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)
 * [[!UICONTROL Resumo do conteúdo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes)
-* [[!UICONTROL Exibições do segmento de conteúdo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views)
+* [[!UICONTROL Exibições do segmento de conteúdo]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/content-segment-views)
 * [[!UICONTROL Início da mídia]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts)
-* [[!UICONTROL Tempo gasto com o conteúdo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent)
+* [[!UICONTROL Tempo gasto com o conteúdo]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/content-time-spent)
 * [[!UICONTROL Tempo de execução exclusivo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/unique-time-played)
 
 Consulte [Dimensões principais dos serviços de mídia de streaming](../dimensions/sm-core.md) para dimensões correspondentes.
