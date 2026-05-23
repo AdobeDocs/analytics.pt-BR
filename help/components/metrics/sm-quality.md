@@ -41,7 +41,7 @@ As seguintes métricas estão disponíveis:
 * [[!UICONTROL Desistências antes do início]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/drops-before-start)
 * [[!UICONTROL Quadros soltos]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frames)
 * [[!UICONTROL Fluxos afetados pelo quadro descartado]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
-* [[!UICONTROL Fluxos afetados pelo erro]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
+* [[!UICONTROL Fluxos afetados pelo erro]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
 * [[!UICONTROL Eventos de erro]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-events)
 * [[!UICONTROL Hora de início]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start)
 
