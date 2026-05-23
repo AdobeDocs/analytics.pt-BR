@@ -31,8 +31,8 @@ Para usar essas métricas, habilite **[!UICONTROL Capítulos da mídia]** em [[!
 
 As seguintes métricas estão disponíveis:
 
-* [[!UICONTROL Capítulo concluído]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-completes)
-* [[!UICONTROL Início do capítulo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-starts)
+* [[!UICONTROL Capítulo concluído]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/chapter-completes)
+* [[!UICONTROL Início do capítulo]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/chapter-starts)
 * [[!UICONTROL Tempo gasto com capítulo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
 
 Consulte [Dimensões do capítulo de serviços de mídia de streaming](../dimensions/sm-chapters.md) para dimensões correspondentes.
