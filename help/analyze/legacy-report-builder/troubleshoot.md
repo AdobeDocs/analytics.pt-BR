@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f571897740322c1f10255c54fbf745091752a507
 workflow-type: tm+mt
-source-wordcount: 1427
-ht-degree: 45%
+source-wordcount: 1471
+ht-degree: 44%
 
 ---
 
@@ -102,3 +102,10 @@ Esta seção inclui uma lista de exemplos de mensagens de erro que podem ocorrer
    4. Volte a compactar o conteúdo e altere a extensão de arquivo para `.xlsx`.
    5. Abra a pasta de trabalho no Excel e atualize todas as solicitações do Report Builder.
 * **As células do Excel associadas aos filtros de entrada ou ao intervalo de saída podem ter sido excluídas**: o Report Builder usa Nomes do Excel para anexar solicitações de dados a células. Se você excluir Nomes do Excel do Gerenciador de nomes, esse erro poderá ser exibido. As solicitações não poderão ser recuperadas se os Nomes do Excel forem excluídos. Se a pasta de trabalho foi agendada, você pode baixar uma cópia do Gerenciador de programação ou abrir cópias entregues anteriormente da pasta de trabalho.
+
+## Registrar solicitações
+
+Para registrar solicitações para fins de solução de problemas, no suplemento herdado do Report Builder:
+
+1. Selecionar **[!UICONTROL Opções]**
+1. Selecione **[!UICONTROL Registrar a solicitação do Report Builder no arquivo local (para solução de problemas)]**.<br/>As solicitações são armazenadas em um arquivo com carimbo de data local em um diretório **[!UICONTROL ReportBuilderLogs]** na pasta **[!UICONTROL Documentos]**.
