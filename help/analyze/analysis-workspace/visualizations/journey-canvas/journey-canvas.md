@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_button"
 >title="Tela de jornada"
->abstract="Mostra como as pessoas avançam ou abandonam uma série de pontos de contato. Use para jornadas com vários pontos de entrada e caminhos."
+>abstract="Mostra como as pessoas avançam ou abandonam uma série de pontos de contato. Use-a para jornadas com vários pontos de entrada e caminhos."
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_panel"
@@ -27,7 +27,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="Tela de jornada"
->abstract="Mostra como as pessoas avançam ou abandonam uma série de pontos de contato. Use para jornadas com vários pontos de entrada e caminhos."
+>abstract="Mostra como as pessoas avançam ou abandonam uma série de pontos de contato. Use-a para jornadas com vários pontos de entrada e caminhos."
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"

@@ -70,7 +70,7 @@ Consulte [Visão geral da tela de jornada](/help/analyze/analysis-workspace/visu
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_percentage_value"
 >title="Escolha como as porcentagens são calculadas"
->abstract="As porcentagens exibidas em cada nó se baseiam nas métricas primárias e secundárias configuradas. Você pode escolher se as porcentagens estão relacionadas ao nó inicial, ao nó anterior ou a todos os dados no conjunto de relatórios."
+>abstract="As porcentagens exibidas em cada nó se baseiam nas métricas primárias e secundárias configuradas. É possível escolher se as porcentagens estarão relacionadas ao nó inicial, ao nó anterior ou a todos os dados no conjunto de relatórios."
 
 <!-- markdownlint-enable MD034 -->
 
