@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 285
 ht-degree: 24%
@@ -69,3 +69,4 @@ A solução de problemas e a ajuda para resolver tíquetes de suporte permitem r
 
 1. Selecione ![Configuração](/help/assets/icons/Setting.svg).
 1. Selecione **[!UICONTROL Registrar bloco(s) de dados de solicitação do Report Builder no console da Web]**. <br/>As solicitações são enviadas para o console do navegador da Web. Consulte a documentação do seu navegador da Web para saber como abrir o log de console como parte das ferramentas de desenvolvedor do navegador da Web.
+

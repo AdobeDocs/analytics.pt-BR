@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1654
 ht-degree: 9%
@@ -26,7 +26,6 @@ ht-degree: 9%
 O esquema é a lista de classificações que você deseja aplicar às dimensões principais definidas para o conjunto de classificações. Por exemplo, se você tiver definido o produto como a dimensão principal e esse campo contiver um SKU de produto, use o esquema para adicionar classificações como nome do produto, cor e tamanho.
 
 Para editar o esquema de um conjunto de classificações:
-
 
 1. Selecione **[!UICONTROL Componentes]** na barra de menu superior do Adobe Analytics e selecione **[!UICONTROL Conjuntos de classificações]**.
 1. Em **[!UICONTROL Conjuntos de classificações]**, selecione a guia **[!UICONTROL Conjuntos de classificações]**.

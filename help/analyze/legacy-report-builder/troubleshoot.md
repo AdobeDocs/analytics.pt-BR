@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 44%
@@ -109,3 +109,4 @@ Para registrar solicitações para fins de solução de problemas, no suplemento
 
 1. Selecionar **[!UICONTROL Opções]**
 1. Selecione **[!UICONTROL Registrar a solicitação do Report Builder no arquivo local (para solução de problemas)]**.<br/>As solicitações são armazenadas em um arquivo com carimbo de data local em um diretório **[!UICONTROL ReportBuilderLogs]** na pasta **[!UICONTROL Documentos]**.
+
