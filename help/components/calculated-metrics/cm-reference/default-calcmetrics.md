@@ -36,7 +36,7 @@ Veja a seguir uma lista de cada métrica calculada fornecida pela Adobe, com sua
 >
 >É possível:
 >
-> * Adicione as métricas calculadas padrão para os serviços de mídia de transmissão, conforme descrito em [Métricas calculadas](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)
+> * Adicione as métricas calculadas padrão para os serviços de mídia de transmissão, conforme descrito em [Métricas calculadas](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/calculated-metrics)
 > * Crie métricas calculadas personalizadas a partir de métricas existentes, conforme descrito em [Métricas calculadas e métricas calculadas avançadas](/help/components/calculated-metrics/cm-overview.md).
 >
 

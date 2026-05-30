@@ -32,16 +32,16 @@ Para usar essas dimensões, habilite os **[!UICONTROL Capítulos da mídia]** em
 
 A seguinte dimensão está disponível:
 
-* [[!UICONTROL Capítulo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter)
+* [[!UICONTROL Capítulo]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/chapter)
 
 Além da dimensão acima, o Adobe cria automaticamente as seguintes dimensões de classificação. Você deve fazer upload dos dados de classificação para visualizar relatórios que usam essas dimensões.
 
 | Nome da classificação | Dimensão principal |
 | --- | --- |
-| [[!UICONTROL Originador]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL Conteúdo]](sm-core.md) |
-| [[!UICONTROL Comprimento do capítulo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL Capítulo] |
-| [[!UICONTROL Nome do capítulo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL Capítulo] |
-| [[!UICONTROL Deslocamento de capítulo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL Capítulo] |
-| [[!UICONTROL Posição do capítulo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL Capítulo] |
+| [[!UICONTROL Originador]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL Conteúdo]](sm-core.md) |
+| [[!UICONTROL Comprimento do capítulo]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL Capítulo] |
+| [[!UICONTROL Nome do capítulo]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL Capítulo] |
+| [[!UICONTROL Deslocamento de capítulo]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL Capítulo] |
+| [[!UICONTROL Posição do capítulo]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL Capítulo] |
 
 Consulte [Métricas de capítulo de serviços de mídia de streaming](../metrics/sm-chapters.md) para obter as métricas correspondentes.

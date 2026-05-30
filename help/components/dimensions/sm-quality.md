@@ -35,14 +35,14 @@ Para usar essas dimensões, habilite a **[!UICONTROL Qualidade de mídia]** em [
 
 As seguintes dimensões estão disponíveis:
 
-* [[!UICONTROL Taxa média de bits]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)
-* [[!UICONTROL Alterações na taxa de bits]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
-* [[!UICONTROL Eventos de buffer]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)
-* [[!UICONTROL Duração total do buffer]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)
-* [[!UICONTROL Quadros soltos]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)
-* [[!UICONTROL Erros]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors)
-* [[!UICONTROL IDs de erro externo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids)
-* [[!UICONTROL IDs de erro do Player SDK]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)
-* [[!UICONTROL Hora de início]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)
+* [[!UICONTROL Taxa média de bits]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/average-bitrate)
+* [[!UICONTROL Alterações na taxa de bits]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
+* [[!UICONTROL Eventos de buffer]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/buffer-events)
+* [[!UICONTROL Duração total do buffer]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)
+* [[!UICONTROL Quadros soltos]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/dropped-frames)
+* [[!UICONTROL Erros]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/errors)
+* [[!UICONTROL IDs de erro externo]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/external-error-ids)
+* [[!UICONTROL IDs de erro do Player SDK]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)
+* [[!UICONTROL Hora de início]](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/time-to-start)
 
 Consulte [Métricas de qualidade de serviços de mídia de streaming](../metrics/sm-quality.md) para obter as métricas correspondentes.
