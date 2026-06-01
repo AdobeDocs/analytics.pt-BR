@@ -25,7 +25,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 2059
+source-wordcount: 2046
 ht-degree: 88%
 
 ---
@@ -100,8 +100,8 @@ Para compartilhar uma função de projeto específica com usuários ou grupos na
 
    Ou
 
-   Para compartilhar somente um projeto individual, abra o projeto que deseja compartilhar e clique em **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Espaço de trabalho]**.
-Se houver alterações não salvas, será solicitado que salve o projeto primeiro.
+   Para compartilhar apenas um projeto individual, você pode abrir o projeto que deseja compartilhar e selecionar **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]**.
+Se houver alterações não salvas, você será solicitado a salvar seu projeto primeiro.
 
    A caixa de diálogo Compartilhar projeto é exibida. As seções [!UICONTROL **Compartilhar por link**] e [!UICONTROL **Configurações**] da caixa de diálogo estão visíveis somente ao compartilhar um único projeto.
 
@@ -149,8 +149,8 @@ Para compartilhar o link do projeto com os usuários em sua organização:
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="Exigir autenticação do CX Enterprise"
->abstract="Sua organização exige que os usuários façam logon no CX Enterprise para usar esse link."
+>title="Exigir autenticação da CX Enterprise"
+>abstract="Sua organização exige que os usuários façam logon na CX Enterprise para usar esse link."
 
 É possível conceder [acesso de somente leitura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) a projetos do Analysis Workspace para pessoas que não têm acesso ao Adobe Analytics. Isso pode incluir:
 

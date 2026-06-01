@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1850
+source-wordcount: 1841
 ht-degree: 91%
 
 ---
@@ -204,7 +204,7 @@ O painel Média de público-alvo por minuto de mídia usa apenas a métrica de m
 >
 > [Criar um painel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
 > [Painel de visualizadores simultâneos de mídia](media-concurrent-viewers.md)
-> [Painel de tempo gasto com a reprodução da mídia](media-playback-time-spent.md)
+> [Painel Tempo gasto com a reprodução da mídia](media-playback-time-spent.md)
 >
 
 
