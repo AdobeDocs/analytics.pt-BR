@@ -1,20 +1,27 @@
 ---
-source-git-commit: 851e0aaa0b19e95dca057dbc30d9466a897145a6
+source-git-commit: 8522c9129a88366fdc953d825c8935e4251487a0
 workflow-type: tm+mt
-source-wordcount: '3044'
-ht-degree: 98%
+source-wordcount: '3188'
+ht-degree: 93%
 
 ---
 # Trechos
 
-## Report Builder legado {#legacy-arb}
+## Fim da vida útil herdado do Report Builder {#legacy-arb}
+
+>[!WARNING]
+>
+>O Report Builder herdado será encerrado em junho de 2026. A partir de 1º de julho de 2026, as pastas de trabalho agendadas usando o Report Builder herdado não serão mais entregues. <ul><li>Você tem até 12 de agosto de 2026 para migrar suas pastas de trabalho do Report Builder herdado para o novo Report Builder. Consulte [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para obter informações detalhadas.</li><li>Com o fim da vida útil das APIs do Adobe Analytics 1.4, o suplemento herdado do Report Builder não estará mais disponível para download.</li><li>Após 12 de agosto de 2026, os clientes com pastas de trabalho que exigem migração precisarão entrar em contato com o suporte ao cliente para obter as pastas de trabalho originais. Estas pastas de trabalho precisarão ser migradas conforme documentado em [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md).</li></ul> Um [Report Builder](/help/analyze/report-builder/rb-overview.md) novo e simplificado está disponível desde 16 de outubro de 2024. Esse Report Builder é compatível com macOS, Windows e navegadores da Web e pode ser usado com o Adobe Analytics e o Customer Journey Analytics. Exportações programadas para um servidor FTP e Power BI não são mais compatíveis com o Report Builder. Os clientes que usam esses recursos no Report Builder herdado devem usar um [destino de nuvem para exportação](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations) no Report Builder.
+
+
+## Report Builder legado {#legacy-arb-old}
 
 >[!IMPORTANT]
 >
->Um [Report Builder](/help/analyze/report-builder/rb-overview.md) novo e simplificado está disponível desde 16 de outubro de 2024. Esse Report Builder é compatível com macOS, Windows e navegadores da Web e pode ser usado com o Adobe Analytics e o Customer Journey Analytics.
->Esta versão legada do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho legadas](/help/analyze/report-builder/convert-workbooks.md) para o novo Report Builder.
+>Uma [Report Builder](/help/analyze/report-builder/rb-overview.md) nova e simplificada está disponível desde 16 de outubro de 2024. Esse Report Builder é compatível com macOS, Windows e navegadores da Web e pode ser usado com Adobe Analytics e Customer Journey Analytics.
+>Esta versão de suplemento herdada do Report Builder ainda funciona. Você pode [converter suas pastas de trabalho herdadas](/help/analyze/report-builder/convert-workbooks.md) para a nova Report Builder.
 
-## Anúncio do fim da vida útil do Reports & Analytics {#ra-eol}
+## Anúncio do fim da vida útil do Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
