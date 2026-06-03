@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bdd7a704c94394d6f6cedfbc07988bde69993691
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 59%
+source-wordcount: 280
+ht-degree: 43%
 
 ---
 
@@ -42,3 +42,5 @@ Essa dimensão faz referência a uma tabela de pesquisa interna da Adobe. O valo
 Os itens de dimensão incluem os nomes e as versões do navegador usadas. Diferentes versões do mesmo navegador são itens de dimensão separados.
 
 Alguns itens de dimensão contêm `"(unknown version)"` em vez do número de versão. Esse item de dimensão faz referência a uma versão recente do navegador que a Adobe ainda não adicionou às tabelas de pesquisa. Como os navegadores são atualizados com frequência, o `"(unknown version)"` para um determinado navegador é comum e temporário. A Adobe normalmente atualiza as tabelas de pesquisa durante as versões de manutenção mensais.
+
+Alguns itens de dimensão contêm `.999` como o número de versão secundária, como `"Chrome 148.999"`. Esse valor indica que o Adobe não pôde determinar com confiança a versão secundária do navegador. Quando os navegadores Chrome ou Edge enviam solicitações sem [dicas do cliente](/help/technotes/client-hints.md), a versão secundária na cadeia de agente do usuário não é considerada confiável. Em vez de inflar itens de dimensão com versões secundárias potencialmente imprecisas, o Adobe substitui essas versões secundárias por `.999`. Da mesma forma, se qualquer navegador reportar um número de versão excepcionalmente alto (acima de 99999), o Adobe o normaliza para `999.999`.
