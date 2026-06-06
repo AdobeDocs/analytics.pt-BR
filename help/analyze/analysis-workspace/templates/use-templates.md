@@ -35,7 +35,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
 source-wordcount: 18746
 ht-degree: 99%
@@ -72,7 +72,7 @@ As informações a seguir descrevem como acessar e utilizar modelos a partir da 
 
    * Modelos da **[!UICONTROL _login _company_name_]**: mostra todos os modelos da empresa que foram criados para a sua organização.
 
-     Somente administradores podem criar modelos da empresa. Para obter mais informações sobre como criar um modelo de empresa, consulte [Criar e gerenciar modelos](/help/analyze/analysis-workspace/templates/create-templates.md).
+     Somente admins podem criar modelos de empresa. Para obter mais informações sobre como criar um modelo de empresa, consulte [Criar e gerenciar modelos](/help/analyze/analysis-workspace/templates/create-templates.md).
 
 1. Use uma das opções a seguir para alterar a exibição dos modelos disponíveis:
 
@@ -145,7 +145,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--unitsOvertimeReport"
+>id="aa-template--unitsovertimereport"
 >title="Visualize o número total de unidades compradas em todos os pedidos. Os dados são mostrados durante um período e comparados com períodos anteriores."
 >abstract="**Isso pode ajudar** a entender melhor como as vendas de unidades estão aumentando ou diminuindo com o tempo. Você pode aplicar um segmento para saber quais clientes ou regiões geográficas estão comprando a maior parte das unidades e quais são as tendências dessas vendas ao longo do tempo.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente ao comparar as vendas de unidades antes e depois do início da campanha. É possível também comparar as vendas de unidades durante feriados a cada ano.<br/>Este modelo usa a dimensão “Dia” e a métrica “Unidades”."
 
@@ -165,7 +165,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--pagesRankedReport"
+>id="template--pagesrankedreport"
 >title="Identifique as páginas mais e menos populares."
 >abstract="**Isso pode ajudar** a entender melhor o seu público-alvo e o tipo de informação em que estão mais interessados(as).<br/>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar metadados para aumentar a visibilidade de páginas menos visualizadas ou aprimorar o conteúdo das suas páginas mais visualizadas.<br/>Este modelo usa a dimensão “Página” e a métrica “Exibições da página”."
 
@@ -174,7 +174,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--pageViewsOvertimeReport"
+>id="template--pageviewsovertimereport"
 >title="Veja o número total de exibições da página. Os dados são mostrados durante um período e comparados com períodos anteriores. "
 >abstract="**Isso pode ajudar** a entender melhor como o tráfego no site pode estar aumentando ou diminuindo com o tempo.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente por comparar o tráfego do site antes e depois do início da campanha. Ou você pode comparar o tráfego em feriados de ano a ano.<br/>Este modelo usa a dimensão “Dia” e a métrica “Exibições da página”."
 
@@ -183,7 +183,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--visitsOvertimeReport"
+>id="template--visitsovertimereport"
 >title="Veja o número total de visitas. Os dados são mostrados durante um período e comparados com períodos anteriores."
 >abstract="**Isso pode ajudar** a entender melhor como o tráfego no site pode estar aumentando ou diminuindo com o tempo.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente por comparar o tráfego do site antes e depois do início da campanha. Ou você pode comparar o tráfego em feriados de ano a ano.<br/>Este modelo usa a dimensão “Dia” e a métrica “Visitas”."
 
@@ -192,7 +192,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--visitorsOvertimeReport"
+>id="template--visitorsovertimereport"
 >title="Veja o número total de visitantes únicos. Os dados são mostrados durante um período e comparados com períodos anteriores. "
 >abstract="**Isso pode ajudar** a entender melhor como o alcance e o tamanho do público-alvo do seu site estão aumentando ou diminuindo com o tempo ou em comparação com um período anterior.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se uma campanha de marketing iniciada recentemente teve êxito ao atrair novas pessoas para o site, comparando o número de visitantes únicos antes e depois do início da campanha. Também é possível comparar o número de pessoas que visitam o site durante os feriados a cada ano.<br/>Este modelo usa a dimensão Dia e a métrica Visitantes únicos. "
 
@@ -201,7 +201,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--keyMetricsReport"
+>id="template--keymetricsreport"
 >title="Visualize um relatório que mostra as métricas de exibições da página, visitas e visitantes únicos lado a lado. Os dados são mostrados durante um período e comparados com períodos anteriores."
 >abstract="**Isso pode ajudar** a comparar essas métricas importantes para obter uma visão mais completa do número de pessoas únicas que visitam o site, o número de vezes que as páginas foram visitadas e o número de sessões.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a quantidade média de páginas que cada pessoa visualizou ao visitar o site em uma determinada semana ou mês, e como ela mudou durante certos períodos do ano ou antes e depois da execução das campanhas de marketing. <br/>Este modelo usa a dimensão “Dia” e as métricas “Exibições da página”, “Visitas” e “Visitantes únicos”."
 
@@ -210,7 +210,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--siteSectionRankedReport"
+>id="template--sitesectionrankedreport"
 >title="Veja as seções mais populares ou de maior desempenho do seu site."
 >abstract="**Isso pode ajudar** a entender melhor quais seções do site são mais visitadas.<br>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar quais produtos ou serviços fornecidos geram mais interesse.<br/>Este modelo usa a dimensão “Seção do site” e a métrica “Visitas”."
 
@@ -237,7 +237,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--campaignRankedReport"
+>id="template--campaignrankedreport"
 >title="Veja os links que obtiveram mais êxito em gerar tráfego para o seu site."
 >abstract="**Isso pode ajudar** a entender melhor quais códigos de rastreamento (e os links aos quais estão associados) foram os mais usados para acessar o seu site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar a sua estratégia para adicionar links para o seu site.<br/>Este modelo usa a dimensão “Código de rastreamento” e a métrica “Visitas”."
 
@@ -246,7 +246,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--productsRankedReport"
+>id="template--productsrankedreport"
 >title="Veja o número de pedidos por produto. Os dados representam um determinado período."
 >abstract="**Isso pode ajudar** a entender quais produtos têm a maior ou menor demanda.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar as estratégias de marketing para promover produtos de alto desempenho ou para melhorar ou descontinuar produtos de baixo desempenho. Você também pode ajustar o inventário de produtos com base na análise dos dados.<br/>Este modelo usa a dimensão “Produto” e a métrica “Pedidos”."
 
@@ -255,7 +255,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--lastTouchChannelRankedReport"
+>id="template--lasttouchchannelrankedreport"
 >title="Veja os canais de marketing mais recentes utilizados por visitantes durante o período de engajamento (30 dias por padrão)."
 >abstract="**Isso pode ajudar** a entender quais canais de marketing foram mais eficazes para trazer pessoas ao site que resultou em conversões.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como alocar mais recursos a canais de alto desempenho ou reduzir a alocação de recursos para canais de baixo desempenho.<br/>Este modelo usa a dimensão “Canal de último contato” e a métrica “Visitantes únicos”."
 
@@ -264,7 +264,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--lastTouchChannelDetailRankedReport"
+>id="template--lasttouchchanneldetailrankedreport"
 >title="Veja os detalhes dos canais de marketing mais recentes utilizados por visitantes durante o período de engajamento (30 dias por padrão)."
 >abstract="**Isso pode ajudar** a entender quais canais de marketing foram mais eficazes para trazer pessoas ao site que resultou em conversões, bem como os detalhes desses canais de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como alocar mais recursos a canais de alto desempenho ou reduzir a alocação de recursos para canais de baixo desempenho.<br/>Este modelo usa a dimensão “Detalhes do canal de último contato” e a métrica “Visitantes únicos”. "
 
@@ -273,7 +273,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--revenueOvertimeReport"
+>id="template--revenueovertimereport"
 >title="Veja o valor monetário de todos os produtos comprados em todos os pedidos. Os dados são mostrados durante um período e comparados com períodos anteriores."
 >abstract="**Isso pode ajudar** a entender como a receita está aumentando ou diminuindo com o tempo. É possível combinar essa métrica com qualquer dimensão para saber quais itens de dimensão contribuíram para a receita.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como projetar a receita futura com base nas tendências anteriores. Também é possível adicionar outra dimensão, como a dimensão “Código de rastreamento”, para saber quais campanhas estão gerando mais receita.<br/>Este modelo usa a dimensão “Dia” e a métrica “Receita”."
 
@@ -282,7 +282,7 @@ Para acessar todos os modelos pré-criados disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--ordersOvertimeReport"
+>id="template--ordersovertimereport"
 >title="Veja o número total de eventos de compra. Os dados são mostrados durante um período e comparados com períodos anteriores."
 >abstract="**Isso pode ajudar** a entender melhor como o interesse pelos seus produtos e serviços está aumentando ou diminuindo com o tempo. Você pode aplicar um segmento para saber quais clientes ou regiões geográficas estão fazendo mais pedidos, e quais são as tendências desses pedidos ao longo do tempo.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente por comparar os pedidos antes e depois do início da campanha. Ou você pode comparar os pedidos feitos durante feriados a cada ano.<br/>Este modelo usa a dimensão “Dia” e a métrica “Pedidos”."
 
@@ -294,14 +294,14 @@ Estes são os modelos disponíveis:
 | --- | --- |
 | [!UICONTROL **Tutorial de treinamento**] | Saiba mais sobre a terminologia e as etapas comuns do Analysis Workspace para criar a sua primeira análise |
 | [!UICONTROL **Páginas**] | <!--duplicated in Engagement section--> Identifique as páginas mais e menos populares. <p>**Isso pode ajudar** a entender melhor o seu público-alvo e o tipo de informação em que estão mais interessados(as).</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar metadados de página para aumentar a visibilidade de páginas com menos exibições ou aprimorar o conteúdo das páginas mais exibidas.</p><p>Este modelo usa a [dimensão Página](/help/components/dimensions/page.md) e a métrica [Exibições de página](/help/components/metrics/page-views.md).</p> |
-| [!UICONTROL **Exibições de página**] | <!--duplicated in Engagement section--> Veja o número total de exibições da página. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a entender melhor como o tráfego no site pode estar aumentando ou diminuindo com o tempo.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente por comparar o tráfego do site antes e depois do início da campanha. Ou você pode comparar o tráfego em feriados de ano a ano.</p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e a [métrica Exibições de página](/help/components/metrics/page-views.md).</p> |
+| [!UICONTROL **Exibições de página**] | <!--duplicated in Engagement section--> Veja o número total de exibições da página. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a entender melhor como o tráfego no site pode estar aumentando ou diminuindo com o tempo.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente por comparar o tráfego do site antes e depois do início da campanha. Ou você pode comparar o tráfego em feriados de ano a ano.</p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e a métrica [Exibições de página](/help/components/metrics/page-views.md).</p> |
 | [!UICONTROL **Visitas**] | <!--duplicated in Engagement section--> Veja o número total de visitas. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a entender melhor como o tráfego no site pode estar aumentando ou diminuindo com o tempo.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente por comparar o tráfego do site antes e depois do início da campanha. Ou você pode comparar o tráfego em feriados de ano a ano.</p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e a [métrica Visitas](/help/components/metrics/visits.md).</p> |
 | [!UICONTROL **Visitantes**] | <!--duplicated in Engagement section--> Veja o número total de visitantes únicos. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a entender melhor como o alcance e o tamanho do público-alvo do seu site estão aumentando ou diminuindo com o tempo ou em comparação com um período anterior.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se uma campanha de marketing iniciada recentemente teve êxito ao atrair novas pessoas para o site, comparando o número de visitantes únicos antes e depois do início da campanha. Ou você pode comparar o número de pessoas que visitam o site durante os feriados a cada ano.</p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e a [métrica Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
-| [!UICONTROL **Métricas principais**] | <!--duplicated in Engagement section--> Visualize um relatório que mostra as métricas de exibições da página, visitas e visitantes únicos lado a lado. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a comparar essas métricas importantes para obter uma visão mais completa do número de pessoas únicas que visitam o site, o número de vezes que as páginas foram visitadas e o número de sessões.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar o número médio de páginas que cada pessoa visualizou ao visitar o site em uma determinada semana ou mês, e como isso mudou durante certos períodos do ano ou antes e depois que as campanhas de marketing foram executadas. </p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e as métricas [Exibições de página](/help/components/metrics/page-views.md), [Visitas](/help/components/metrics/visits.md) e [Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
+| [!UICONTROL **Métricas principais**] | <!--duplicated in Engagement section--> Visualize um relatório que mostra as métricas de exibições da página, visitas e visitantes únicos lado a lado. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a comparar essas métricas importantes para obter uma visão mais completa do número de pessoas únicas que visitam o site, o número de vezes que as páginas foram visitadas e o número de sessões.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar o número médio de páginas que cada pessoa visualizou ao visitar o site em uma determinada semana ou mês e como isso mudou durante certos períodos do ano ou antes e depois da realização de campanhas de marketing. </p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e as métricas [Exibições de página](/help/components/metrics/page-views.md), [Visitas](/help/components/metrics/visits.md) e [Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
 | [!UICONTROL **Seções do site**] | Veja as seções mais populares ou de maior desempenho do seu site. <p>**Isso pode ajudar** a entender melhor quais seções do site são mais visitadas.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar quais produtos ou serviços fornecidos geram mais interesse.</p> <p>Este modelo usa a [dimensão Seção do site](/help/components/dimensions/site-section.md) e a [métrica Visitas](/help/components/metrics/visits.md).</p> |
 | [!UICONTROL **Código de rastreamento**] | Veja os links que obtiveram mais êxito em gerar tráfego para o seu site. <p>**Isso pode ajudar** a entender melhor quais códigos de rastreamento (e os links aos quais estão associados) foram os mais usados para acessar o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar a sua estratégia para adicionar links para o seu site.</p><p>Este modelo usa a dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md) e a métrica [Visitas](/help/components/metrics/visits.md).</p> |
 | [!UICONTROL **Próxima página**] | Veja os lugares mais comuns que as pessoas acessam imediatamente após a visita de uma determinada página. <p>**Isso pode ajudar** a entender melhor o comportamento dos usuários após a visita de uma determinada página.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se o design ou layout da página pode ser otimizado para direcionar as pessoas a páginas mais desejáveis, como uma página para fazer uma compra ou deixar uma avaliação.</p> <p>Este modelo usa a dimensão “Página” e a métrica “Eventos”.</p> |
-| [!UICONTROL **Página anterior**] | Veja os lugares mais comuns que as pessoas acessam imediatamente antes de visitar uma determinada página. <p>**Isso pode ajudar** a entender melhor quais páginas direcionam mais tráfego para uma determinada página.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se as páginas que não estão aparecendo como páginas anteriores precisam de links mais evidentes para a página atual.</p><p>Este modelo usa a dimensão “Página” e a métrica “Eventos”.</p> |
+| [!UICONTROL **Página anterior**] | Veja os lugares mais comuns que as pessoas acessam imediatamente antes de visitar uma determinada página. <p>**Isso pode ajudar** a entender melhor quais páginas direcionam mais tráfego para uma determinada página.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se as páginas que não estão aparecendo como páginas anteriores precisam de links mais evidentes para a página atual.</p><p>Este modelo usa a dimensão Página e a métrica Eventos.</p> |
 | [!UICONTROL **Produtos**] | Veja o número de pedidos por produto. Os dados representam um determinado período. <p>**Isso pode ajudar** a entender quais produtos têm a maior ou menor demanda.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar as estratégias de marketing para promover produtos de alto desempenho ou para melhorar ou descontinuar produtos de baixo desempenho. Você também pode ajustar o inventário de produtos com base na análise dos dados.</p><p>Este modelo usa a [dimensão Produto](/help/components/dimensions/product.md) e a [métrica Pedidos](/help/components/metrics/orders.md).</p> |
 | [!UICONTROL **Canal de último contato**] | Veja os canais de marketing mais recentes utilizados por visitantes durante o período de engajamento (30 dias por padrão).<p>**Isso pode ajudar** a entender quais canais de marketing foram mais eficazes para trazer pessoas ao site que resultou em conversões.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como alocar mais recursos a canais de alto desempenho ou reduzir a alocação de recursos para canais de baixo desempenho.</p><p>Este modelo usa a [dimensão Canal de último contato](/help/components/dimensions/last-touch-channel.md) e a métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
 | [!UICONTROL **Detalhes do canal de último contato**] | Veja os detalhes dos canais de marketing mais recentes utilizados por visitantes durante o período de engajamento (30 dias por padrão).<p>**Isso pode ajudar** a entender quais canais de marketing foram mais eficazes para trazer pessoas ao site que resultou em conversões, bem como os detalhes desses canais de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como alocar mais recursos a canais de alto desempenho ou reduzir a alocação de recursos para canais de baixo desempenho.</p><p>Este modelo usa a [dimensão Detalhes do canal de último contato](/help/components/dimensions/last-touch-detail.md) e a [métrica Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
@@ -325,7 +325,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--timeSpentVisitOvertimeReport"
+>id="aa-template--timespentvisitovertimereport"
 >title="Visualize o tempo médio que os visitantes gastam no site durante cada visita. Os dados são mostrados durante um período e comparados com períodos anteriores."
 >abstract="**Isso pode ajudar** a entender melhor os níveis de engajamento dos visitantes e quanto tempo estão gastando no site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se as alterações no site resultam em visitantes permanecendo por mais tempo.<br/>Este modelo usa a dimensão &quot;Dia&quot; e a métrica &quot;Tempo gasto por visita&quot; (segundos)."
 
@@ -334,7 +334,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--timePriorRankedReport"
+>id="aa-template--timepriorrankedreport"
 >title="Visualize o tempo médio que os usuários gastam antes de um evento bem-sucedido."
 >abstract="**Isso pode ajudar** a entender melhor quanto tempo leva para que os visitantes realizem uma ação desejada, como fazer uma compra.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se as alterações no site melhoram a possibilidade dos visitantes gerarem rapidamente um evento bem-sucedido.<br/>Este modelo usa a dimensão &quot;Tempo anterior ao evento&quot; e a métrica “Visitantes únicos”."
 
@@ -343,7 +343,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--falloutReport"
+>id="aa-template--falloutreport"
 >title="Visualize onde as pessoas saem ou continuam por uma sequência predefinida de páginas."
 >abstract="**Isso pode ajudar** a entender melhor de onde as pessoas estão saindo da jornada do usuário.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como analisar taxas de conversão por meio de processos específicos no site (como um processo de compra ou registro) ou analisar correlações entre eventos no site. (Por exemplo, a porcentagem de pessoas que acessaram sua política de privacidade e compraram um produto.) Também é possível usar este modelo para fazer comparações lado a lado de dois segmentos diferentes no mesmo relatório.<br/>Este modelo usa a visualização de fallout."
 
@@ -388,7 +388,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--reloadsRankedReport"
+>id="aa-template--reloadsrankedreport"
 >title="Visualize o número de vezes que um item de dimensão estava presente durante um recarregamento. A atualização do navegador por um visitante é a maneira mais comum de acionar um recarregamento."
 >abstract="**Isso pode ajudar** a identificar em que momento podem estar ocorrendo problemas em uma determinada página que resultariam no recarregamento desta por visitantes.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar quais páginas têm problemas que precisam ser resolvidos.<br/>Este modelo usa a métrica “Recarregamentos”."
 
@@ -397,7 +397,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--timeSpentPageRankedReport"
+>id="aa-template--timespentpagerankedreport"
 >title="Visualize o tempo médio que os visitantes gastam no site durante cada visita. Os dados são mostrados durante um período e comparados com períodos anteriores."
 >abstract="**Isso pode ajudar** a entender melhor os níveis de engajamento dos visitantes e quanto tempo estão gastando no site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se as alterações no site resultam em visitantes permanecendo por mais tempo.<br/>Este modelo usa a dimensão &quot;Dia&quot; e a métrica &quot;Tempo gasto por visita&quot; (segundos)."
 
@@ -406,7 +406,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--entryPageOriginalRankedReport"
+>id="aa-template--entrypageoriginalrankedreport"
 >title="Veja as principais páginas que as pessoas acessam quando visitam o site pela primeira vez durante o tempo de vida de visitante."
 >abstract="**Isso pode ajudar** a saber quais páginas estão gerando mais tráfego para o site ou entender melhor as primeiras impressões que visitantes têm sobre o site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar a experiência inicial que as pessoas têm no site ou garantir que as páginas que as pessoas veem ao entrar no site sejam acolhedoras e forneçam os links necessários para outras áreas do site.<br/>Este modelo usa a métrica “Sessões”. Ele também usa a visualização de barra e a visualização de tabela de forma livre."
 
@@ -415,7 +415,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--singlePageVisitsRankedReport"
+>id="aa-template--singlepagevisitsrankedreport"
 >title="Visualize o número de visitas que consistiram em uma única página."
 >abstract="**Isso pode ajudar** a entender melhor os níveis de engajamento dos visitantes e quanto tempo estão gastando no site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se as alterações no site resultam em visitantes permanecendo por mais tempo.<br/>Este modelo usa a dimensão &quot;Visitas de página única&quot;."
 
@@ -424,7 +424,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--sitePerformanceOverview"
+>id="aa-template--siteperformanceoverview"
 >title="Visualizar dados de desempenho do site do Adobe Experience Manager."
 >abstract="**Isso pode ajudar você** a entender melhor a geração de valor do Adobe Experience Manager.<br/>**Com base no que aprender, você poderá** realizar várias ações, como otimizar as configurações do Experience Manager."
 
@@ -433,7 +433,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--formsPerformanceOverview"
+>id="aa-template--formsperformanceoverview"
 >title="Veja dados de desempenho do Adobe Experience Manager Forms."
 >abstract="**Isso pode ajudar você** a entender melhor a geração de valor do Adobe Experience Manager.<br/>**Com base no que aprender, você poderá** realizar várias ações, como otimizar as configurações do Experience Manager."
 
@@ -498,7 +498,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--entryPageRankedReport"
+>id="template--entrypagerankedreport"
 >title="Veja as principais páginas que as pessoas acessam quando visitam o site pela primeira vez."
 >abstract="**Isso pode ajudar** a saber quais páginas estão gerando mais tráfego para o site ou entender melhor as primeiras impressões que visitantes têm sobre o site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar a experiência inicial que as pessoas têm no site ou garantir que as páginas que as pessoas veem ao entrar no site sejam acolhedoras e forneçam os links necessários para outras áreas do site.<br/>Este modelo usa a métrica “Sessões”. Ele também usa a visualização de barra e a visualização de tabela de forma livre."
 
@@ -507,7 +507,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--exitPageRankedReport"
+>id="template--exitpagerankedreport"
 >title="Confira as principais páginas que as pessoas acessam imediatamente antes de sair do site."
 >abstract="**Isso pode ajudar** a entender melhor quais páginas estão afastando as pessoas do site. <br/>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar as páginas de saída comuns para otimizar a experiência que as pessoas têm antes de sair ou incluir conteúdo e links para incentivá-las a permanecerem no site.<br/>Este modelo usa a métrica “Sessões”. Ele também usa a visualização de barra e a visualização de tabela de forma livre."
 
@@ -517,7 +517,7 @@ Estes são os modelos disponíveis:
 
 | Nome do modelo | Por que usar este modelo <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Métricas principais**] | <!--duplicated in Most popular section--> Visualize um relatório que mostra as métricas de exibições da página, visitas e visitantes únicos lado a lado. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a comparar essas métricas importantes para obter uma visão mais completa do número de pessoas únicas que visitam o site, o número de vezes que as páginas foram visitadas e o número de sessões.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar o número médio de páginas que cada pessoa visualizou ao visitar o site em uma determinada semana ou mês, e como isso mudou durante certos períodos do ano ou antes e depois que as campanhas de marketing foram executadas. </p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e as métricas [Exibições de página](/help/components/metrics/page-views.md), [Visitas](/help/components/metrics/visits.md) e [Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
+| [!UICONTROL **Métricas principais**] | <!--duplicated in Most popular section--> Visualize um relatório que mostra as métricas de exibições da página, visitas e visitantes únicos lado a lado. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a comparar essas métricas importantes para obter uma visão mais completa do número de pessoas únicas que visitam o site, o número de vezes que as páginas foram visitadas e o número de sessões.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar o número médio de páginas que cada pessoa visualizou ao visitar o site em uma determinada semana ou mês e como isso mudou durante certos períodos do ano ou antes e depois da realização de campanhas de marketing. </p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e as métricas [Exibições de página](/help/components/metrics/page-views.md), [Visitas](/help/components/metrics/visits.md) e [Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
 | [!UICONTROL **Exibições de página**] | <!--duplicated in Most popular section-->Veja o número total de exibições da página. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a entender melhor como o tráfego no site pode estar aumentando ou diminuindo com o tempo.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente por comparar o tráfego do site antes e depois do início da campanha. Ou você pode comparar o tráfego em feriados de ano a ano.</p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e a [métrica Exibições de página](/help/components/metrics/page-views.md).</p> |
 | [!UICONTROL **Páginas**] | <!--duplicated in Most popular section-->Identifique as páginas mais e menos populares. <p>**Isso pode ajudar** a entender melhor o seu público-alvo e o tipo de informação em que estão mais interessados(as).</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar metadados de página para aumentar a visibilidade de páginas com menos exibições ou aprimorar o conteúdo das páginas mais exibidas.</p><p>Este modelo usa a [dimensão Página](/help/components/dimensions/page.md) e a métrica [Exibições de página](/help/components/metrics/page-views.md).</p> |
 | [!UICONTROL **Visitas**] | <!--duplicated in Most popular section-->Veja o número total de visitas. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a entender melhor como o tráfego no site pode estar aumentando ou diminuindo com o tempo.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a eficácia de uma campanha de marketing iniciada recentemente por comparar o tráfego do site antes e depois do início da campanha. Ou você pode comparar o tráfego em feriados de ano a ano.</p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e a [métrica Visitas](/help/components/metrics/visits.md).</p> |
@@ -532,7 +532,7 @@ Estes são os modelos disponíveis:
 | [!UICONTROL **Fallout**] | Visualize onde as pessoas saem ou continuam por uma sequência predefinida de páginas.<p>**Isso pode ajudar** a entender melhor de onde as pessoas estão saindo da jornada do usuário.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como analisar taxas de conversão por meio de processos específicos no site (como um processo de compra ou registro) ou analisar correlações entre eventos no site. (Por exemplo, a porcentagem de pessoas que acessaram sua política de privacidade e compraram um produto.) Também é possível usar este modelo para fazer comparações lado a lado de dois segmentos diferentes no mesmo relatório.</p> <p>Este modelo usa a [visualização de fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).</p> |
 | [!UICONTROL **Análise entre dispositivos**] | Visualize quais dispositivos as pessoas usaram em todos os pontos da jornada.<p>**Isso pode ajudar** a entender melhor quantas pessoas interagem com a sua marca, os tipos de dispositivos que usam e como o uso dos vários dispositivos afeta a experiência. Por exemplo, com que frequência as pessoas iniciam uma tarefa em um dispositivo móvel e depois vão para o desktop para concluí-la? Quais são os caminhos mais comuns que os usuários fazem de um dispositivo para outro? Onde eles desistem? Onde eles têm sucesso? E assim por diante.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar certas partes da jornada do usuário para uma experiência móvel.</p> <p>Este modelo usa a [visualização de fluxo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md), a [visualização de fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md), a [análise de coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), [a métrica Pessoas](/help/components/metrics/people.md) e a [métrica Dispositivos exclusivos](/help/components/metrics/unique-devices.md).</p> |
 | [!UICONTROL **Retenção na web**] | Visualize quem são seus usuários fiéis e o que estão fazendo no site.<p>**Isso pode ajudar** a entender melhor a quantidade de vezes que a pessoa média visita o site, a frequência com que retorna e o número de dias entre visitas recorrentes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como analisar qual conteúdo é mais eficaz em trazer pessoas de volta ao site.<p>Este modelo usa a [métrica Visitas](/help/components/metrics/visits.md) e a [métrica Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
-| [!UICONTROL **Consumo de mídia de streaming**] | Veja as tendências e as principais métricas de consumo de mídia de áudio em todos os dispositivos digitais.<p>**Isso pode ajudar** a entender melhor como visitantes estão consumindo conteúdo de áudio no site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como analisar qual conteúdo é mais consumido.<p>Este modelo usa a [métrica Visitas](/help/components/metrics/visits.md) e a [métrica Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
+| [!UICONTROL **Consumo de mídia de streaming**] | Veja as tendências e as principais métricas de consumo de mídia de áudio em todos os dispositivos digitais.<p>**Isso pode ajudar** a entender melhor como visitantes estão consumindo conteúdo de áudio no site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como analisar qual conteúdo é mais consumido.<p>Este modelo usa a [métrica Visitas](/help/components/metrics/visits.md) a [métrica Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
 | [!UICONTROL **Recenticidade, frequência e fidelização de mídia**] | Veja as tendências e as principais métricas de consumo de mídia em todos os dispositivos digitais.<p>**Isso pode ajudar** a entender melhor a quantidade de vezes que a pessoa média visita o site, a frequência com que retorna e o número de dias entre visitas recorrentes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como analisar qual conteúdo é mais eficaz em trazer pessoas de volta ao site.<p>Este modelo usa a [métrica Visitas](/help/components/metrics/visits.md) e a [métrica Visitantes únicos](/help/components/metrics/unique-visitors.md).</p> |
 | **[!UICONTROL Análise da página]** > [!UICONTROL **Resumo da página**] | Visualize o tempo médio que os visitantes gastam no site durante cada visita. Os dados são mostrados durante um período e comparados com períodos anteriores. <p>**Isso pode ajudar** a entender melhor os níveis de engajamento dos visitantes e quanto tempo estão gastando no site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar se as alterações no site resultam em visitantes permanecendo por mais tempo.</p><p>Este modelo usa a [dimensão Dia](/help/components/dimensions/day.md) e a [métrica Tempo gasto por visita (segundos)](/help/components/metrics/time-spent-per-visit.md).</p> |
 | **[!UICONTROL Análise de página]** > [!UICONTROL **Recarregamentos**] | Visualize o número de vezes que um item de dimensão estava presente durante um recarregamento. A atualização do navegador por um visitante é a maneira mais comum de acionar um recarregamento. <p>**Isso pode ajudar** a identificar em que momento podem estar ocorrendo problemas em uma determinada página que resultariam no recarregamento desta por visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar quais páginas têm problemas que precisam ser resolvidos.</p><p>Este modelo usa a [métrica Recarregamentos](/help/components/metrics/reloads.md).</p> |
@@ -552,7 +552,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--categoryRankedReport"
+>id="aa-template--categoryrankedreport"
 >title="Veja o número de visitas associado a cada categoria de produto no site. Isso é útil para implementações que usam a variável produtos e que desejam visualizar métricas sobre a categoria do produto. A dimensão que preenche este modelo pode ficar em branco se não houver produtos no site."
 >abstract="**Isso pode ajudar** a entender melhor os produtos mais vendidos ou os mais vistos. &lt;/br/>**Com base no que aprender, você poderá** fazer várias coisas, como medir a eficácia de uma campanha de marketing para um determinado produto.<br/>Este modelo usa a dimensão “Categoria” e a métrica “Visitas”. "
 
@@ -572,7 +572,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--productConversionReport"
+>id="template--productconversionreport"
 >title="Visualize a conversão de produtos em uma visualização de funil que mostra carrinhos, check-outs e pedidos. É possível ver também porcentagens de conversão, médias de receita, médias de unidade e médias de pedido."
 >abstract="**Isso pode ajudar** a entender melhor como as pessoas progridem e abandonam durante o processo de conversão.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como aprimorar o site para facilitar um processo de check-out mais fluido."
 
@@ -590,7 +590,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cartConversionReport"
+>id="template--cartconversionreport"
 >title="Veja o número de vezes que as pessoas executam eventos importantes de check-out, como adicionar itens ao carrinho, visualizar o carrinho, remover itens do carrinho e concluir o pagamento."
 >abstract="**Isso pode ajudar** a entender melhor quais partes do funil do processo de check-out levam à conversão e quais são mais propensos a abandono de carrinho.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como reduzir o atrito em determinadas etapas do processo de check-out.<br/>Este modelo usa"
 
@@ -599,7 +599,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cartsOvertimeReport"
+>id="template--cartsovertimereport"
 >title="Veja o número de pessoas que adicionaram um produto ao carrinho."
 >abstract="**Isso pode ajudar** a entender melhor o número de pessoas que adicionam um produto ao carrinho, em vez do número geral de produtos adicionados a um carrinho.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como medir a eficácia das páginas dos seus produtos.<br/>Este modelo usa a métrica “Carrinhos”."
 
@@ -608,7 +608,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cartViewsOvertimeReport"
+>id="template--cartviewsovertimereport"
 >title="Veja o número de vezes que as pessoas visualizaram seus carrinhos de compras."
 >abstract="**Isso pode ajudar** a entender melhor a experiência de check-out na tentativa de reduzir as taxas de abandono de carrinho ou analisar o tempo entre as adições ao carrinho e os check-outs de diferentes produtos.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como oferecer promoções para produtos que permanecem mais tempo no carrinho e têm um risco maior de abandono.<br/>Este modelo usa a métrica “Exibições do carrinho”."
 
@@ -617,7 +617,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cartAdditionsOvertimeReport"
+>id="template--cartadditionsovertimereport"
 >title="Veja o número de vezes que as pessoas adicionaram algo ao carrinho."
 >abstract="**Isso pode ajudar** a entender melhor a parte do funil de conversão na qual o interesse de clientes em um produto é alto o suficiente para que o adicionem ao carrinho.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar as recomendações de produto para clientes. Isso pode ser feito pela análise de quais produtos são adicionados com frequência aos mesmos carrinhos e pela sugestão de produtos relacionados com base em itens já presentes no carrinho."
 
@@ -626,7 +626,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cartRemovalsOvertimeReport"
+>id="template--cartremovalsovertimereport"
 >title="Veja o número de vezes que as pessoas removeram algo do carrinho."
 >abstract="**Isso pode ajudar** a entender melhor a parte do funil de conversão na qual clientes perdem o interesse no produto ou onde possam existir problemas no processo de check-out.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como remover possíveis barreiras que possam existir no processo de check-out, como uma experiência de usuário complicada.<br/>Este modelo usa a métrica “Remoções do carrinho”."
 
@@ -635,7 +635,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--purchaseConversionReport"
+>id="template--purchaseconversionreport"
 >title="Visualize a conversão de compras em uma visualização de funil que mostra sessões, carrinhos e pedidos. É possível ver também porcentagens de conversão, médias de receita, médias de unidade e médias de pedido."
 >abstract="**Isso pode ajudar** a entender melhor como as pessoas progridem e abandonam durante o processo de conversão.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como aprimorar o site para facilitar um processo de check-out mais fluido."
 
@@ -646,12 +646,12 @@ Estes são os modelos disponíveis:
 | Nome do modelo | Por que usar este modelo <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Funil de conversão de produtos**] | Visualize a conversão de produtos em uma visualização de funil que mostra carrinhos, check-outs e pedidos. É possível ver também porcentagens de conversão, médias de receita, médias de unidade e médias de pedido.<p>**Isso pode ajudar** a entender melhor como as pessoas progridem e abandonam durante o processo de conversão.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aprimorar o site para facilitar um processo de check-out mais fluido.</p> |
-| **Produtos** | Confira quais produtos estão impulsionando as métricas principais, como os mais vendidos ou os mais visualizados. <p>**Isso pode ajudar** a entender melhor quais produtos são mais bem-sucedidos.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar os fundos destinados a produtos bem-sucedidos e diminuir os de produtos de menor sucesso.</p><p>Este modelo usa a métrica “Pedidos” e a dimensão “Produto”. |
+| **Produtos** | Confira quais produtos estão impulsionando as métricas principais, como os mais vendidos ou os mais visualizados. <p>**Isso pode ajudar** a entender melhor quais produtos são mais bem-sucedidos.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar os fundos destinados a produtos bem-sucedidos e diminuir os de produtos de menor sucesso.</p><p>Esse modelo usa a métrica Pedidos e a dimensão Produto. |
 | **Desempenho do produto** | Veja quais produtos têm o melhor desempenho.<p>**Isso pode ajudar** a entender melhor quais produtos são mais bem-sucedidos.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar os fundos destinados a produtos bem-sucedidos e diminuir os de produtos de menor sucesso.</p><p>Este modelo usa as métricas “Exibições do produto”, “Adições ao carrinho”, “Pedidos”, “Receita” e “Unidades”. Ele também usa a dimensão “Produto”. |
 | **Categorias** | Veja o número de visitas associado a cada categoria de produto no site. Isso é útil para implementações que usam a variável produtos e que desejam visualizar métricas sobre a categoria do produto. A dimensão que preenche este modelo pode ficar em branco se não houver produtos no site.<p>**Isso pode ajudar** a entender melhor os produtos mais vendidos ou os mais vistos. </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como medir a eficácia de uma campanha de marketing para um determinado produto.</p><p>Este modelo usa a dimensão Categoria e a métrica Visitas. |
 | **Funis de conversão de carrinho** | Veja o número de vezes que as pessoas executam eventos importantes de check-out, como adicionar itens ao carrinho, visualizar o carrinho, remover itens do carrinho e concluir o pagamento. <p>**Isso pode ajudar** a entender melhor quais partes do funil do processo de check-out levam à conversão e quais são mais propensos a abandono de carrinho.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como reduzir o atrito em determinadas etapas do processo de check-out.</p><p>Este modelo usa a |
-| **Carrinhos** | Veja o número de pessoas que adicionaram um produto ao carrinho.<p>**Isso pode ajudar** a entender melhor o número de pessoas que adicionam um produto ao carrinho, em vez do número geral de produtos adicionados a um carrinho.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como medir a eficácia das páginas dos seus produtos.</p><p>Este modelo usa a métrica “Carrinhos”. |
-| **Exibições do carrinho** | Veja o número de vezes que as pessoas visualizaram seus carrinhos de compras. <p>**Isso pode ajudar** a entender melhor a experiência de check-out na tentativa de reduzir as taxas de abandono de carrinho ou analisar o tempo entre as adições ao carrinho e os check-outs de diferentes produtos.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como oferecer promoções para produtos que permanecem mais tempo no carrinho e têm um risco maior de abandono.</p><p>Este modelo usa a métrica “Exibições do carrinho”. |
+| **Carrinhos** | Veja o número de pessoas que adicionaram um produto ao carrinho.<p>**Isso pode ajudar** a entender melhor o número de pessoas que adicionam um produto ao carrinho, em vez do número geral de produtos adicionados a um carrinho.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como medir a eficácia das páginas dos seus produtos.</p><p>Este modelo usa a métrica Carrinhos. |
+| **Exibições do carrinho** | Veja o número de vezes que as pessoas visualizaram seus carrinhos de compras. <p>**Isso pode ajudar** a entender melhor a experiência de check-out na tentativa de reduzir as taxas de abandono de carrinho ou analisar o tempo entre as adições ao carrinho e os check-outs de diferentes produtos.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como oferecer promoções para produtos que permanecem mais tempo no carrinho e têm um risco maior de abandono.</p><p>Este modelo usa a métrica Exibições do carrinho. |
 | **Adições ao carrinho** | Veja o número de vezes que as pessoas adicionaram algo ao carrinho. <p>**Isso pode ajudar** a entender melhor a parte do funil de conversão na qual o interesse de clientes em um produto é alto o suficiente para que o adicionem ao carrinho.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar as recomendações de produto para clientes. Para isso, é possível analisar quais produtos são adicionados com frequência aos mesmos carrinhos e sugerir produtos relacionados com base em itens já presentes no carrinho. |
 | **Remoções do carrinho** | Veja o número de vezes que as pessoas removeram algo do carrinho.<p>**Isso pode ajudar** a entender melhor a parte do funil de conversão na qual clientes perdem o interesse no produto ou onde possam existir problemas no processo de check-out.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como remover possíveis barreiras que possam existir no processo de check-out, como uma experiência de usuário complicada.</p><p>Este modelo usa a métrica “Remoções do carrinho”. |
 | **Funil de conversão de compras** | Visualize a conversão de compras em uma visualização de funil que mostra sessões, carrinhos e pedidos. É possível ver também porcentagens de conversão, médias de receita, médias de unidade e médias de pedido.<p>**Isso pode ajudar** a entender melhor como as pessoas progridem e abandonam durante o processo de conversão.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aprimorar o site para facilitar um processo de check-out mais fluido.</p> |
@@ -703,7 +703,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--timeZoneRankedReport"
+>id="aa-template--timezonerankedreport"
 >title="Visualize os principais fusos horários dos visitantes que acessam o site."
 >abstract="**Isso pode ajudar** a entender melhor em quais fusos horários estão os seus visitantes.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar a manutenção do site para momentos em que um número menor de pessoas serão afetadas."
 
@@ -721,7 +721,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--domainRankedReport"
+>id="aa-template--domainrankedreport"
 >title="Visualize os principais domínios dos visitantes acessando o site."
 >abstract="**Isso pode ajudar** a entender melhor de quais organizações seus visitantes vêm.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como direcionar o conteúdo aos seus maiores clientes."
 
@@ -730,7 +730,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--topLevelDomainRankedReport"
+>id="aa-template--topleveldomainrankedreport"
 >title="Visualize os principais domínios dos visitantes acessando o site."
 >abstract="**Isso pode ajudar** a entender melhor de quais organizações seus visitantes vêm.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como direcionar o conteúdo aos seus maiores clientes."
 
@@ -739,7 +739,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--browserWidthRankedReport"
+>id="aa-template--browserwidthrankedreport"
 >title="Visualize as principais larguras de navegador que as pessoas usam para acessar o site."
 >abstract="**Isso pode ajudar** a entender melhor como o conteúdo é exibido para os visitantes.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as larguras de navegador mais comuns. Isso pode maximizar ações de controle de qualidade.<br/>Este modelo usa a dimensão “Navegador”."
 
@@ -748,7 +748,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--browserHeightRankedReport"
+>id="aa-template--browserheightrankedreport"
 >title="Visualize as principais alturas de navegador que as pessoas usam para acessar o site."
 >abstract="**Isso pode ajudar** a entender melhor como o conteúdo é exibido para os visitantes.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as alturas de navegador mais comuns. Isso pode maximizar ações de controle de qualidade.<br/>Este modelo usa a dimensão “Navegador”. "
 
@@ -757,7 +757,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--operatingSystemRankedReport"
+>id="aa-template--operatingsystemrankedreport"
 >title="Visualize o nome dos sistemas operacionais e a versão que as pessoas usam para acessar o site."
 >abstract="**Isso pode ajudar** a entender melhor os sistemas operacionais mais comuns e as versões que visitantes usam.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando os principais sistemas operacionais e versões. Isso pode maximizar ações de controle de qualidade."
 
@@ -766,7 +766,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--operatingSystemTypeRankedReport"
+>id="aa-template--operatingsystemtyperankedreport"
 >title="Visualize o nome dos sistemas operacionais que as pessoas usam para acessar o site."
 >abstract="**Isso pode ajudar** a entender melhor os sistemas operacionais mais comuns que visitantes usam.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando os principais sistemas operacionais. Isso pode maximizar ações de controle de qualidade."
 
@@ -775,7 +775,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--returnFrequencyRankedReport"
+>id="aa-template--returnfrequencyrankedreport"
 >title="Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site."
 >abstract="**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.<br/>Este modelo usa a dimensão “Operadora de celular”."
 
@@ -784,7 +784,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--returnVisitorsOvertimeReport"
+>id="aa-template--returnvisitorsovertimereport"
 >title="Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site."
 >abstract="**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.<br/>Este modelo usa a dimensão “Operadora de celular”."
 
@@ -793,7 +793,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--visitNumberRankedReport"
+>id="aa-template--visitnumberrankedreport"
 >title="Visualize quantas vezes um visitante visitou o site."
 >abstract="**Isso pode ajudar** a entender melhor como os visitantes estão engajados ao retornar ao site. Ela se aplica ao tempo de vida do visitante, independentemente do intervalo de datas do projeto.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar as campanhas de marketing para visitantes frequentes.<br/>Este modelo usa a dimensão &quot;Número da visita&quot;."
 
@@ -802,7 +802,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--customerLoyaltyRankedReport"
+>id="aa-template--customerloyaltyrankedreport"
 >title="Veja o número de visitantes do site que fizeram 0 compras anteriores, 1 compra anterior, 2 compras anteriores ou mais de 3 compras anteriores."
 >abstract="**Isso pode ajudar** a entender melhor como o site afeta o comportamento de compra.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como concentrar-se em visitantes que retornam para fazer uma compra, a fim de incentivar comportamentos semelhantes em novos(as) visitantes.<br/>Este modelo usa a dimensão &quot;Fidelização do cliente&quot;."
 
@@ -811,7 +811,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--daysBeforeFirstPurchaseRankedReport"
+>id="aa-template--daysbeforefirstpurchaserankedreport"
 >title="Veja o número de dias que se passaram entre a primeira vez que um(a) visitante chega ao site e o momento em que realiza uma compra. Por exemplo, se um visitante efetua uma compra um dia após a primeira visita, qualquer visita ou evento subsequente pertence ao item de dimensão “1 dia”."
 >abstract="**Isso pode ajudar** a entender melhor quanto tempo os visitantes levam para fazer uma compra.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar o site para incentivar aquisições mais rápidas.<br/>Este modelo usa a dimensão &quot;Dias antes da primeira compra&quot;."
 
@@ -820,7 +820,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--daysSinceLastPurchaseRankedReport"
+>id="aa-template--dayssincelastpurchaserankedreport"
 >title="Visualize a quantidade de tempo decorrido entre a ocorrência atual do visitante e sua compra mais recente no momento."
 >abstract="**Isso pode ajudar** a entender melhor o comportamento do visitante após comprar algo no site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar o site para incentivar compras subsequentes.<br/>Este modelo usa a dimensão &quot;Dias desde a última compra&quot;."
 
@@ -829,7 +829,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--mobileScreenSizeRankedReport"
+>id="aa-template--mobilescreensizerankedreport"
 >title="Visualize os principais tamanhos de tela de dispositivos móveis que as pessoas usam para acessar o site."
 >abstract="**Isso pode ajudar** a entender melhor como o conteúdo é exibido para visitantes.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando os tamanhos de tela de dispositivos móveis mais comuns. Isso pode maximizar ações de controle de qualidade."
 
@@ -838,7 +838,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--mobileScreenHeightRankedReport"
+>id="aa-template--mobilescreenheightrankedreport"
 >title="Visualize as principais alturas de tela de dispositivos móveis que as pessoas usam para acessar o site."
 >abstract="**Isso pode ajudar** a entender melhor como o conteúdo é exibido para visitantes.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as alturas de tela de dispositivos móveis mais comuns. Isso pode maximizar ações de controle de qualidade."
 
@@ -847,7 +847,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--mobileScreenWidthRankedReport"
+>id="aa-template--mobilescreenwidthrankedreport"
 >title="Visualize as principais larguras de tela de dispositivos móveis que as pessoas usam para acessar o site."
 >abstract="**Isso pode ajudar** a entender melhor como o conteúdo é exibido para visitantes.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as larguras de tela de dispositivos móveis mais comuns. Isso pode maximizar ações de controle de qualidade."
 
@@ -858,7 +858,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--countryGeoReport"
+>id="template--countrygeoreport"
 >title="Veja o país de origem das pessoas que visitam o site."
 >abstract="**Isso pode ajudar** a entender melhor quais são os principais países de origem de visitantes do site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nesses países ou garantir que a experiência do site seja ideal em países com diferentes idiomas nativos.<br/>Este modelo usa a dimensão “Países”."
 
@@ -867,7 +867,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--stateGeoReport"
+>id="template--stategeoreport"
 >title="Veja o estado (nos Estados Unidos) de origem das pessoas que visitaram o site. Ele é semelhante ao modelo “Regiões geográficas”, exceto pelo fato de ser específico para os Estados Unidos."
 >abstract="**Isso pode ajudar** a entender melhor os principais estados de origem dos usuários dos Estados Unidos que visitam o seu site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nesses estados.<br/>Este modelo utiliza a dimensão “Estados dos EUA”."
 
@@ -876,7 +876,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--regionGeoReport"
+>id="template--regiongeoreport"
 >title="Veja a região geográfica de origem de visitantes do site. Uma região é uma área geográfica menor que um país, mas maior que uma cidade. Em alguns países, uma região é um estado, província ou distrito. Em outras áreas, é um país constituinte, departamento ou região metropolitana. "
 >abstract="**Isso pode ajudar** a entender melhor as regiões de origem principais de visitantes do seu site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nessas regiões ou verificar se a experiência do site é ideal em regiões com diferentes idiomas nativos. <br/>Este modelo usa as dimensões “ID (variáveis/país geográfico)” e “Regiões”. "
 
@@ -885,7 +885,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--cityGeoReport"
+>id="template--citygeoreport"
 >title="Veja a cidade de origem de visitantes do site."
 >abstract="**Isso pode ajudar** a entender melhor as cidades de origem principais de visitantes do seu site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nessas cidades. <br/>Este modelo usa a dimensão “Cidades”"
 
@@ -894,7 +894,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--dmaGeoReport"
+>id="template--dmageoreport"
 >title="Veja as áreas de marketing designadas (DMAs) de origem de visitantes do site nos Estados Unidos."
 >abstract="**Isso pode ajudar** a entender melhor as regiões de origem principais de visitantes do seu site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nas regiões mais bem-sucedidas. "
 
@@ -903,7 +903,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--languageRankedReport"
+>id="template--languagerankedreport"
 >title="Veja os principais idiomas nos quais visitantes preferem visualizar o conteúdo."
 >abstract="**Isso pode ajudar** a entender melhor os idiomas preferidos de visitantes.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das atividades de localização ou campanhas de marketing nos idiomas mais populares.<br/>Este modelo usa a dimensão “Idioma”."
 
@@ -921,7 +921,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--browserRankedReport"
+>id="template--browserrankedreport"
 >title="Veja o nome e a versão dos principais navegadores que as pessoas usam para acessar o seu site."
 >abstract="**Isso pode ajudar** a entender melhor os navegadores mais comuns que visitantes usam.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site por testar novas versões dele nos principais navegadores. Isso pode maximizar ações de controle de qualidade.<br/>Este modelo usa a dimensão “Navegador”."
 
@@ -930,7 +930,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--browserTypeRankedReport"
+>id="template--browsertyperankedreport"
 >title="Veja os nomes das organizações que criaram os principais navegadores que as pessoas usam para acessar o seu site. Ele é diferente do modelo “Navegador”, pois não lista diferentes versões do mesmo navegador como itens de dimensão separados."
 >abstract="**Isso pode ajudar** a entender melhor os navegadores mais comuns que visitantes usam <br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site por testar novas versões dele nos principais navegadores. Isso pode maximizar os resultados do controle de qualidade. <br/>Esse modelo utiliza a dimensão “Tipo de navegador”. "
 
@@ -997,7 +997,7 @@ Estes são os modelos disponíveis:
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-performance-template"
 >title="Veja o desempenho do aplicativo e onde usuários estão com problemas."
->abstract="**Isso pode ajudar** a entender se as pessoas que usam o aplicativo estão encontrando lentidão ou desempenho degradado. <br/>**Com base no que aprender, você poderá** fazer várias coisas, como corrigir problemas existentes ou melhorar o desempenho do aplicativo antes que eles ocorram."
+>abstract="**Isso pode ajudar** a entender se as pessoas que usam o aplicativo estão encontrando lentidão ou um desempenho reduzido. <br/>**Com base no que aprender, você poderá** fazer várias coisas, como corrigir problemas existentes ou melhorar o desempenho do aplicativo antes que eles ocorram."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1016,40 +1016,40 @@ Estes são os modelos disponíveis:
 | --- | --- |
 | [!UICONTROL **Métrica Pessoas**] | Veja o número de pessoas que estão interagindo com a sua marca. <p>**Isso pode ajudar** a entender melhor as tendências de uso do site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como medir a eficácia dos esforços recentes de marketing em gerar novos visitantes para o site.</p> |
 | **Perfil do visitante** > **Visão geral da localização** | Tenha uma visão geral da localização do visitante em uma visualização de mapa.<p>**Isso pode ajudar** a entender melhor onde visitantes que estão visitando o site estão localizados. </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como concentrar os recursos de marketing nos locais em que observar maior interesse e oportunidades.</p><!-- This template uses the --> |
-| **Perfil do visitante** > **Segmentação geográfica** > **Países geográficos** | Veja o país de origem das pessoas que visitam o site.<p>**Isso pode ajudar** a entender melhor quais são os principais países de origem de visitantes do site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nesses países ou garantir que a experiência do site seja ideal em países com diferentes idiomas nativos.</p><p>Este modelo usa a dimensão “Países”. </p> |
-| **Perfil do visitante** > **Segmentação geográfica** > **Estados geográficos dos EUA** | Veja o estado (nos Estados Unidos) de origem das pessoas que visitaram o site. Ele é semelhante ao modelo “Regiões geográficas”, exceto pelo fato de ser específico para os Estados Unidos.<p>**Isso pode ajudar** a entender melhor os principais estados de origem dos usuários dos Estados Unidos que visitam o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nesses estados.</p><p>Este modelo utiliza a dimensão “Estados dos EUA”. </p> |
+| **Perfil do visitante** > **Segmentação geográfica** > **Países geográficos** | Veja o país de origem das pessoas que visitam o site.<p>**Isso pode ajudar** a entender melhor quais são os principais países de origem de visitantes do site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nesses países ou garantir que a experiência do site seja ideal em países com diferentes idiomas nativos.</p><p>Este modelo usa a dimensão Países. </p> |
+| **Perfil do visitante** > **Segmentação geográfica** > **Estados geográficos dos EUA** | Veja o estado (nos Estados Unidos) de origem das pessoas que visitaram o site. Ele é semelhante ao modelo “Regiões geográficas”, exceto pelo fato de ser específico para os Estados Unidos.<p>**Isso pode ajudar** a entender melhor os principais estados de origem dos usuários dos Estados Unidos que visitam o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nesses estados.</p><p>Este modelo utiliza a dimensão Estados dos EUA. </p> |
 | **Perfil do visitante** > **Segmentação geográfica** > **Regiões geográficas** | Veja a região geográfica de origem de visitantes do site. Uma região é uma área geográfica menor que um país, mas maior que uma cidade. Em alguns países, uma região é um estado, província ou distrito. Em outras áreas, é um país constituinte, departamento ou região metropolitana. <p>**Isso pode ajudar** a entender melhor as regiões de origem principais de visitantes do seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nessas regiões ou verificar se a experiência do site é ideal em regiões com diferentes idiomas nativos. </p><p>Este modelo usa as dimensões “ID (variáveis/país geográfico)” e “Regiões”. </p> |
 | **Perfil do visitante** > **Segmentação geográfica** > **Cidades geográficas** | Veja a cidade de origem de visitantes do site. <p>**Isso pode ajudar** a entender melhor as cidades de origem principais de visitantes do seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nessas cidades. </p><p>Este modelo usa a dimensão “Cidades”. </p> |
 | **Perfil do visitante** > **Segmentação geográfica** > **DMA geográfico dos EUA** | Veja as áreas de marketing designadas (DMAs) de origem de visitantes do site nos Estados Unidos.<p>**Isso pode ajudar** a entender melhor as regiões de origem principais de visitantes do seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como usar os dados para aumentar o foco das campanhas de marketing nas regiões mais bem-sucedidas. </p><!-- This template uses the --> |
-| **Perfil do visitante** > **Idiomas** | Veja os principais idiomas nos quais visitantes preferem visualizar o conteúdo. <p>**Isso pode ajudar** a entender melhor os idiomas preferidos de visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das atividades de localização ou campanhas de marketing nos idiomas mais populares.</p><p>Este modelo usa a dimensão “Idioma”.</p> |
+| **Perfil do visitante** > **Idiomas** | Veja os principais idiomas nos quais visitantes preferem visualizar o conteúdo. <p>**Isso pode ajudar** a entender melhor os idiomas preferidos de visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das atividades de localização ou campanhas de marketing nos idiomas mais populares.</p><p>Este modelo usa a dimensão Idioma.</p> |
 | **Perfil do visitante** > **Fusos horários** | Visualize os principais fusos horários dos visitantes que acessam o site. <p>**Isso pode ajudar** a entender melhor em quais fusos horários estão os seus visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar a manutenção do site para momentos em que um número menor de pessoas serão afetadas.</p> |
 | **Perfil do visitante** > **Domínios** | Visualize os principais domínios dos visitantes acessando o site. <p>**Isso pode ajudar** a entender melhor de quais organizações seus visitantes vêm.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como direcionar o conteúdo aos seus maiores clientes.</p> |
 | **Perfil do visitante** > **Domínios de nível superior** | Veja os domínios de nível superior de visitantes que acessam o site. <p>**Isso pode ajudar** a entender melhor de quais organizações seus visitantes vêm.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como direcionar o conteúdo aos seus maiores clientes.</p> |
 | **Perfil do visitante** > **Tecnologia** > **Visão geral da tecnologia** | Veja informações relacionadas às tecnologias que as pessoas usam para acessar o site, como sistemas operacionais, navegadores e dispositivos. <p>**Isso pode ajudar** a entender melhor quais tecnologias são usadas com mais frequência no acesso ao site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar o site para as tecnologias utilizadas.</p> |
-| **Perfil do visitante** > **Tecnologia** > **Navegadores** | Veja o nome e a versão dos principais navegadores que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor os navegadores mais comuns que visitantes usam.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site por testar novas versões dele nos principais navegadores. Isso pode maximizar ações de controle de qualidade.</p><p>Este modelo usa a dimensão Navegador. </p> |
-| **Perfil do visitante** > **Tecnologia** > **Tipos de navegador** | Veja os nomes das organizações que criaram os principais navegadores que as pessoas usam para acessar o seu site. Ele é diferente do modelo “Navegador”, pois não lista diferentes versões do mesmo navegador como itens de dimensão separados.<p>**Isso pode ajudar** a entender melhor os navegadores mais comuns que os visitantes usam.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site por testar novas versões dele nos principais navegadores. Isso pode maximizar ações de controle de qualidade. </p><p>Esse modelo usa a dimensão Tipo de navegador. </p> |
-| **Perfil do visitante** > **Tecnologia** > **Largura do navegador** | Visualize as principais larguras de navegador que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor como o conteúdo é exibido para os visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as larguras de navegador mais comuns. Isso pode maximizar ações de controle de qualidade.</p><p>Este modelo usa a dimensão Navegador. </p> |
-| **Perfil do visitante** > **Tecnologia** > **Altura do navegador** | Veja as principais alturas dos navegadores que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor como o conteúdo é exibido para os visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as alturas de navegador mais comuns. Isso pode maximizar ações de controle de qualidade.</p><p>Este modelo usa a dimensão Navegador. </p> |
+| **Perfil do visitante** > **Tecnologia** > **Navegadores** | Veja o nome e a versão dos principais navegadores que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor os navegadores mais comuns que visitantes usam.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site por testar novas versões dele nos principais navegadores. Isso pode maximizar os resultados do controle de qualidade.</p><p>Este modelo usa a dimensão Navegador. </p> |
+| **Perfil do visitante** > **Tecnologia** > **Tipos de navegador** | Veja os nomes das organizações que criaram os principais navegadores que as pessoas usam para acessar o seu site. Ele é diferente do modelo “Navegador”, pois não lista diferentes versões do mesmo navegador como itens de dimensão separados.<p>**Isso pode ajudar** a entender melhor os navegadores mais comuns que os visitantes usam.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site por testar novas versões dele nos principais navegadores. Isso pode maximizar os resultados do controle de qualidade. </p><p>Esse modelo usa a dimensão Tipo de navegador. </p> |
+| **Perfil do visitante** > **Tecnologia** > **Largura do navegador** | Visualize as principais larguras de navegador que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor como o conteúdo é exibido para os visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as larguras de navegador mais comuns. Isso pode maximizar os resultados do controle de qualidade.</p><p>Este modelo usa a dimensão Navegador. </p> |
+| **Perfil do visitante** > **Tecnologia** > **Altura do navegador** | Veja as principais alturas dos navegadores que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor como o conteúdo é exibido para os visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as alturas de navegador mais comuns. Isso pode maximizar os resultados do controle de qualidade.</p><p>Este modelo usa a dimensão Navegador. </p> |
 | **Perfil do visitante** > **Tecnologia** > **Sistema operacional** | Visualize o nome dos sistemas operacionais e a versão que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor os sistemas operacionais mais comuns e as versões que visitantes usam.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando os principais sistemas operacionais e versões. Isso pode maximizar ações de controle de qualidade.</p> |
 | **Perfil do visitante** > **Tecnologia** > **Tipos de sistema operacional** | Visualize o nome dos sistemas operacionais que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor os sistemas operacionais mais comuns que visitantes usam.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando os principais sistemas operacionais. Isso pode maximizar ações de controle de qualidade.</p> |
-| **Perfil de visitante** > **Tecnologia** > [!UICONTROL **Operadora de celular**] | Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão “Operadora de celular”.</p> |
-| **Retenção de visitantes** > **Frequência de retorno** | Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão “Operadora de celular”.</p> |
-| **Retenção de visitantes** > **Visitas de retorno** | Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão “Operadora de celular”.</p> |
+| **Perfil de visitante** > **Tecnologia** > [!UICONTROL **Operadora de celular**] | Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão Operadora de celular.</p> |
+| **Retenção de visitantes** > **Frequência de retorno** | Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão Operadora de celular.</p> |
+| **Retenção de visitantes** > **Visitas de retorno** | Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão Operadora de celular.</p> |
 | **Retenção de visitantes** > **Número de visitas** | Visualize quantas vezes um visitante visitou o site.<p>**Isso pode ajudar** a entender melhor como os visitantes estão engajados ao retornar ao site. Ela se aplica ao tempo de vida do visitante, independentemente do intervalo de datas do projeto.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como ajustar as campanhas de marketing para visitantes frequentes.</p><p>Este modelo usa a dimensão Número de visitas.</p> |
 | **Retenção de visitantes** > **Ciclo de vendas** > **Fidelização do cliente** | Veja o número de visitantes do site que fizeram 0 compras anteriores, 1 compra anterior, 2 compras anteriores ou mais de 3 compras anteriores. <p>**Isso pode ajudar** a entender melhor como o site afeta o comportamento de compra.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como concentrar-se em visitantes que retornam para fazer uma compra, a fim de incentivar comportamentos semelhantes em novos(as) visitantes.</p><p>Este modelo usa a dimensão Fidelização do cliente.</p> |
 | **Retenção de visitantes** > **Ciclo de vendas** > **Dias antes da primeira compra** | Veja o número de dias que se passaram entre a primeira vez que um(a) visitante chega ao site e o momento em que realiza uma compra. Por exemplo, se um(a) visitante efetua uma compra um dia após a primeira visita, qualquer visita ou evento subsequente pertence ao item de dimensão “1 dia”.<p>**Isso pode ajudar** a entender melhor quanto tempo os visitantes levam para fazer uma compra.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar o site para incentivar aquisições mais rápidas.</p><p>Este modelo usa a dimensão Dias antes da primeira compra.</p> |
 | **Retenção de visitantes** > **Ciclo de vendas** > **Dias desde a última compra** | Visualize a quantidade de tempo decorrido entre a ocorrência atual do visitante e sua compra mais recente no momento.<p>**Isso pode ajudar** a entender melhor o comportamento do visitante após comprar algo no site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como atualizar o site para incentivar compras subsequentes.</p><p>Este modelo usa a dimensão Dias desde a última compra.</p> |
-| **Dispositivos móveis** > **Dispositivos** | Veja a marca e o modelo dos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais dispositivos móveis são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar a renderização do site para os dispositivos móveis mais comuns.</p><p>Este modelo usa a dimensão “Nome do dispositivo móvel”.</p> |
-| **Dispositivos móveis** > **Tipo de dispositivo** | Veja os tipos de dispositivos móveis que as pessoas usam para acessar o site, como celulares e tablets.<p>**Isso pode ajudar** a entender melhor os vários tipos de dispositivos móveis usados para acessar o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar o site para os tipos de dispositivos móveis mais usados.</p><p>Este modelo usa a dimensão “Tipo de dispositivo móvel”.</p> |
-| **Dispositivos móveis** > **Fabricante** | Veja quais fabricantes produzem os dispositivos móveis que as pessoas usam para acessar o seu site, como Apple e Samsung.<p>**Isso pode ajudar** a entender melhor quais fabricantes são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de diferentes fabricantes para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão “Fabricante do dispositivo móvel”.</p> |
-| **Dispositivos móveis** > **Tamanho da tela** | Visualize os principais tamanhos de tela de dispositivos móveis que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor como o conteúdo é exibido para os visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando os tamanhos de tela de dispositivos móveis mais comuns. Isso pode maximizar ações de controle de qualidade.</p> |
-| **Dispositivos móveis** > **Altura da tela** | Visualize as principais alturas de tela de dispositivos móveis que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor como o conteúdo é exibido para os visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as alturas de tela de dispositivos móveis mais comuns. Isso pode maximizar ações de controle de qualidade.</p> |
-| **Dispositivos móveis** > **Largura da tela** | Visualize as principais larguras de tela de dispositivos móveis que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor como o conteúdo é exibido para os visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as larguras de tela de dispositivos móveis mais comuns. Isso pode maximizar ações de controle de qualidade.</p> |
+| **Dispositivos móveis** > **Dispositivos** | Veja a marca e o modelo dos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais dispositivos móveis são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar a renderização do site para os dispositivos móveis mais comuns.</p><p>Este modelo usa a dimensão Nome do dispositivo móvel.</p> |
+| **Dispositivos móveis** > **Tipo de dispositivo** | Veja os tipos de dispositivos móveis que as pessoas usam para acessar o site, como celulares e tablets.<p>**Isso pode ajudar** a entender melhor os vários tipos de dispositivos móveis usados para acessar o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar o site para os tipos de dispositivos móveis mais usados.</p><p>Este modelo usa a dimensão Tipo de dispositivo móvel.</p> |
+| **Dispositivos móveis** > **Fabricante** | Veja quais fabricantes produzem os dispositivos móveis que as pessoas usam para acessar o seu site, como Apple e Samsung.<p>**Isso pode ajudar** a entender melhor quais fabricantes são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de diferentes fabricantes para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão Fabricante do dispositivo móvel.</p> |
+| **Dispositivos móveis** > **Tamanho da tela** | Visualize os principais tamanhos de tela de dispositivos móveis que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor como o conteúdo é exibido para visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando os tamanhos de tela de dispositivos móveis mais comuns. Isso pode maximizar ações de controle de qualidade.</p> |
+| **Dispositivos móveis** > **Altura da tela** | Visualize as principais alturas de tela de dispositivos móveis que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor como o conteúdo é exibido para visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as alturas de tela de dispositivos móveis mais comuns. Isso pode maximizar ações de controle de qualidade.</p> |
+| **Dispositivos móveis** > **Largura da tela** | Visualize as principais larguras de tela de dispositivos móveis que as pessoas usam para acessar o site.<p>**Isso pode ajudar** a entender melhor como o conteúdo é exibido para visitantes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a qualidade do site ao testar novas versões dele usando as larguras de tela de dispositivos móveis mais comuns. Isso pode maximizar ações de controle de qualidade.</p> |
 | **Dispositivos móveis** > **Uso de aplicativos móveis** | Visualize o número de usuários, inicializações e primeiras inicializações no seu aplicativo, bem como a duração média das sessões.<p>**Isso pode ajudar** a entender melhor o quanto o aplicativo está sendo usado. </p><p>**Com base no que aprender, poderá** fazer várias coisas, como melhorar o desempenho do aplicativo para que possa haver o dimensionamento de acordo com a quantidade de uso.</p><!-- This template uses the --> |
 | **Dispositivos móveis** > **Jornadas de aplicativos móveis** | Visualize os principais padrões de uso do seu aplicativo móvel. <p>**Isso pode ajudar** a entender melhor como as pessoas estão usando o aplicativo. </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a forma como as pessoas podem passar de uma tela à outra para direcionar os fluxos de trabalho mais comuns. </p><!-- This template uses the --> |
-| **Dispositivos móveis** > **Métricas do aplicativo móvel** | Visualize algumas das métricas mais comuns do aplicativo móvel. <p>**Isso pode ajudar** a entender melhor o desempenho básico do aplicativo móvel.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a integridade e o desempenho geral do aplicativo.</p><!-- This template uses the --> |
+| **Dispositivos móveis** > **Métricas do aplicativo móvel** | Veja algumas das métricas mais comuns do aplicativo móvel. <p>**Isso pode ajudar** a entender melhor o desempenho básico do aplicativo móvel.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como avaliar a integridade e o desempenho geral do aplicativo.</p><!-- This template uses the --> |
 | **Dispositivos móveis** > **Mensagens do aplicativo móvel** | Visualize dados de desempenho de mensagens no aplicativo e por push.<p>**Isso pode ajudar** a entender melhor como as pessoas estão usando os recursos de mensagens no aplicativo, bem como a eficiência com que as notificações por push estão direcionando o tráfego para o aplicativo.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a experiência de notificações por push e mensagens no aplicativo.</p><!-- This template uses the --> |
-| **Dispositivos móveis** > **Desempenho do aplicativo móvel** | Visualize o desempenho do aplicativo e onde os usuários estão com problemas. <p>**Isso pode ajudar** a entender se as pessoas que usam o aplicativo estão encontrando lentidão ou desempenho degradado. </p><p>**Com base no que aprender, poderá** fazer várias coisas, como corrigir problemas existentes ou melhorar o desempenho do aplicativo antes que eles ocorram.</p><!-- This template uses the --> |
+| **Dispositivos móveis** > **Desempenho do aplicativo móvel** | Veja o desempenho do aplicativo e onde usuários estão com problemas. <p>**Isso pode ajudar** a entender se as pessoas que usam o aplicativo estão encontrando lentidão ou um desempenho reduzido. </p><p>**Com base no que aprender, poderá** fazer várias coisas, como corrigir problemas existentes ou melhorar o desempenho do aplicativo antes que eles ocorram.</p><!-- This template uses the --> |
 | **Dispositivos móveis** > **Retenção de aplicativo móvel** | Veja quais são os usuários mais fiéis do aplicativo e o que fazem nele. <p>**Isso pode ajudar** a entender melhor como os usuários mais fiéis estão usando o aplicativo.</p><p>**Com base no que aprender, poderá** fazer várias coisas, como melhorar os esforços de marketing para os recursos que seus usuários mais fiéis estão usando.</p><!-- This template uses the --> |
 | **Bots** | Veja as visualizações de página e as tendências sobre o tráfego de bots no site. <p>**Isso pode ajudar** a entender melhor o quanto do tráfego de bots está sendo filtrado nos relatórios, de acordo com as regras de bot configuradas.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como continuar a monitorar a atividade de bots para identificar novos padrões.</p><!-- This template uses the --> |
 
@@ -1069,7 +1069,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--advertisingAnalyticsPaidSearch"
+>id="aa-template--advertisinganalyticspaidsearch"
 >title="Visualize todos os dados de pesquisa paga do Google Ads e do Microsoft Advertising lado a lado."
 >abstract="**Isso pode ajudar** a entender melhor a quantidade de tráfego que está sendo enviada para o site e se os clientes estão sendo convertidos.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como estimar o custo/benefício de uma campanha publicitária."
 
@@ -1078,7 +1078,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa-template--searchEngineRankRankedReport"
+>id="aa-template--searchenginerankrankedreport"
 >title="Veja em qual página dos resultados da pesquisa um(a) visitante clicou para acessar o site. Por exemplo, se o site for exibido na segunda página dos resultados de pesquisa de um mecanismo de pesquisa, o item de dimensão para essa variável será Página de pesquisa 2."
 >abstract="**Isso pode ajudar** a entender melhor a classificação das suas páginas em resultados de pesquisa.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar sua estratégia de SEO para garantir que o conteúdo apareça na primeira página dos resultados de pesquisa."
 
@@ -1098,7 +1098,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--firstouchChannelRankedReport"
+>id="template--firstouchchannelrankedreport"
 >title="Veja o primeiro canal de marketing com o qual um visitante corresponde durante seu período de engajamento (30 dias, por padrão)."
 >abstract="**Isso pode ajudar** a entender melhor quais canais de marketing geram o tráfego inicial para o seu site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.<br/>Este modelo usa a dimensão “Canal de primeiro contato”."
 
@@ -1107,7 +1107,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--firstouchChannelDetailRankedReport"
+>id="template--firstouchchanneldetailrankedreport"
 >title="Veja os detalhes do primeiro canal de marketing que um(a) visitante utiliza durante o seu período de engajamento (30 dias por padrão)."
 >abstract="**Isso pode ajudar** a entender melhor o que contribuiu para que a visita ocorresse por meio daquele canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.<br/>Este modelo usa a dimensão “Detalhes do canal de primeiro contato”."
 
@@ -1116,7 +1116,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--campaignConversionReport"
+>id="template--campaignconversionreport"
 >title="Veja o número de cliques e check-outs das suas campanhas."
 >abstract="**Isso pode ajudar** a entender melhor como as campanhas de marketing estão impulsionando a conversão.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como determinar quais campanhas de marketing estão gerando maior ROI."
 
@@ -1143,7 +1143,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchKeywordRankedReport"
+>id="template--searchkeywordrankedreport"
 >title="Confira as palavras-chave de pesquisa que os visitantes usam para acessar o seu site, sejam elas pagas ou naturais."
 >abstract="**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site. <br/>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que estão gerando tráfego para o site.<br/>Este modelo usa a dimensão “Palavra-chave de pesquisa”."
 
@@ -1152,7 +1152,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchPaidKeywordRankedReport"
+>id="template--searchpaidkeywordrankedreport"
 >title="Veja as palavras-chave de pesquisa que visitantes usam para acessar o seu site que correspondem à detecção de pesquisa paga."
 >abstract="**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que estão gerando tráfego para o site. <br/>Este modelo usa a dimensão “Palavra-chave de pesquisa paga”. "
 
@@ -1161,7 +1161,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchNaturalKeywordRankedReport"
+>id="template--searchnaturalkeywordrankedreport"
 >title="Veja as palavras-chave de pesquisa que visitantes usam para acessar o seu site e que não correspondem à detecção de pesquisa paga."
 >abstract="**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que estão gerando tráfego para o site.<br/>Este modelo usa a dimensão “Palavra-chave de pesquisa natural”. "
 
@@ -1170,7 +1170,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchRankedReport"
+>id="template--searchrankedreport"
 >title="Confira os mecanismos de pesquisa que os visitantes usam para acessar o seu site, sejam eles pagos ou naturais."
 >abstract="**Isso pode ajudar** a entender melhor os mecanismos de pesquisa usados pelas pessoas que resultam em tráfego para o site. <br/>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco de SEO nos mecanismos de pesquisa que geram mais tráfego para o site.<br/>Este modelo usa a dimensão “Mecanismo de pesquisa”. "
 
@@ -1179,7 +1179,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchPaidRankedReport"
+>id="template--searchpaidrankedreport"
 >title="Veja os mecanismos de pesquisa que visitantes usam para acessar o seu site e que correspondem à detecção de pesquisa paga."
 >abstract="**Isso pode ajudar** a entender melhor os mecanismos de pesquisa usados pelas pessoas que resultam em tráfego para o site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco de SEO nos mecanismos de pesquisa que geram mais tráfego para o site. <br/>Este modelo usa a dimensão “Mecanismo de pesquisa paga”."
 
@@ -1188,7 +1188,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--searchNaturalRankedReport"
+>id="template--searchnaturalrankedreport"
 >title="Veja as palavras-chave de pesquisa que visitantes usam para acessar o seu site e que não correspondem à detecção de pesquisa paga."
 >abstract="**Isso pode ajudar** a entender melhor os mecanismos de pesquisa usados pelas pessoas que resultam em tráfego para o site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco de SEO nos mecanismos de pesquisa que geram mais tráfego para o site.<br/>Este modelo usa a dimensão “Mecanismo de pesquisa natural”."
 
@@ -1197,7 +1197,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--referringDomainRankedReport"
+>id="template--referringdomainrankedreport"
 >title="Veja em quais domínios as pessoas clicam para acessar o seu site."
 >abstract="**Isso pode ajudar** a entender quais sites de terceiros geram mais tráfego para o seu site. (Deve existir um link no site externo e o visitante deve clicar nele para exibir o item da dimensão.)<br/>**Com base no que aprender, é possível** realizar várias ações, como criar ou ajustar o conteúdo para melhor se alinhar aos interesses de visitantes que chegam dos principais domínios referenciadores. <br/>Este modelo usa a dimensão “Domínio referenciador”."
 
@@ -1206,7 +1206,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--referringDomainOriginalRankedReport"
+>id="template--referringdomainoriginalrankedreport"
 >title="Veja o primeiro domínio referenciador no qual as pessoas clicam para acessar o seu site. (Depois de definido, ele mantém o mesmo valor por toda a vida útil da ID do(a) visitante em questão.)"
 >abstract="**Isso pode ajudar** a entender melhor quais sites de terceiros originalmente geram tráfego para o seu site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como criar ou ajustar o conteúdo para melhor se alinhar aos interesses de visitantes provenientes dos principais domínios referenciadores originais. <br/>Este modelo usa a dimensão “Domínio referenciador original”."
 
@@ -1215,7 +1215,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--referrerRankedReport"
+>id="template--referrerrankedreport"
 >title="Veja em quais URLs os(as) visitantes estavam quando clicaram para acessar o seu site. (Deve haver um link no URL externo e o(a) visitante precisa clicar nele para que o item de dimensão seja exibido.)"
 >abstract="**Isso pode ajudar** a entender quais URLs específicos geram mais tráfego para o seu site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como criar ou ajustar o conteúdo para melhor se alinhar aos interesses de visitantes provenientes dos principais URLs. <br/>Este modelo usa a dimensão “Domínio referenciador”.</p>"
 
@@ -1224,7 +1224,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--referrerTypeRankedReport"
+>id="template--referrertyperankedreport"
 >title="Veja em quais canais genéricos os(as) visitantes clicaram para acessar o seu site. A Adobe mantém as regras de cada canal. Os possíveis canais incluem mecanismos de pesquisa, redes sociais, outros sites, disco rígido ou email."
 >abstract="**Isso pode ajudar** a entender melhor qual tipo de referenciador gera mais tráfego para o site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como criar ou ajustar o conteúdo para melhor se alinhar aos interesses de visitantes provenientes de um determinado canal.<br/>Este modelo usa a dimensão “Tipo de referenciador”."
 
@@ -1234,23 +1234,23 @@ Estes são os modelos disponíveis:
 
 | Nome do modelo | Por que usar este modelo <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Relatório de visão geral de canal**] | Por meio da atribuição personalizada, este modelo mostra como visitantes chegam ao seu site.<p>**Isso pode ajudar** a entender melhor quais dos seus canais de marketing são mais eficazes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o investimento em canais de marketing eficazes e livrar-se de canais de marketing menos eficazes.</p><p>Este modelo usa a dimensão “ID (variáveis/canal de marketing)” e a métrica “Receita”.</p> |
-| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Primeiro canal de contato**] | Veja o primeiro canal de marketing com o qual um visitante corresponde durante seu período de engajamento (30 dias, por padrão). <p>**Isso pode ajudar** a entender melhor quais canais de marketing geram o tráfego inicial para o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão “Canal de primeiro contato”.</p> |
-| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Detalhes do primeiro canal de contato**] | Veja os detalhes do primeiro canal de marketing que um(a) visitante utiliza durante o seu período de engajamento (30 dias por padrão).<p>**Isso pode ajudar** a entender melhor o que contribuiu para que a visita ocorresse por meio daquele canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão “Detalhes do canal de primeiro contato”.</p> |
-| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Último canal de contato**] | Confira o canal de marketing mais recente ao qual um visitante corresponde durante seu período de engajamento (30 dias, por padrão).<p>**Isso pode ajudar** a entender melhor quais canais de marketing geram o tráfego para o seu site que resulta em conversões.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão “Canal de último contato”.  </p> |
-| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Detalhes do último canal de contato**] | Confira os detalhes do canal de marketing mais recente ao qual um visitante corresponde durante seu período de engajamento (30 dias, por padrão).<p>**Isso pode ajudar** a entender melhor o que contribuiu para que a visita ocorresse por meio daquele canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes. </p><p>Este modelo usa a dimensão “Detalhes do canal de último contato”. </p> |
+| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Relatório de visão geral de canal**] | Por meio da atribuição personalizada, este modelo mostra como visitantes chegam ao seu site.<p>**Isso pode ajudar** a entender melhor quais dos seus canais de marketing são mais eficazes.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o investimento em canais de marketing eficazes e livrar-se de canais de marketing menos eficazes.</p><p>Este modelo usa a dimensão ID (variáveis/canal de marketing) e a métrica Receita.</p> |
+| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Primeiro canal de contato**] | Veja o primeiro canal de marketing com o qual um visitante corresponde durante seu período de engajamento (30 dias, por padrão). <p>**Isso pode ajudar** a entender melhor quais canais de marketing geram o tráfego inicial para o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão Primeiro canal de contato.</p> |
+| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Detalhes do primeiro canal de contato**] | Veja os detalhes do primeiro canal de marketing que um(a) visitante utiliza durante o seu período de engajamento (30 dias por padrão).<p>**Isso pode ajudar** a entender melhor o que contribuiu para que a visita ocorresse por meio daquele canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão Detalhes do primeiro canal de contato.</p> |
+| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Último canal de contato**] | Veja o canal de marketing mais recente com o qual um(a) visitante correspondeu durante o seu período de engajamento (30 dias, por padrão).<p>**Isso pode ajudar** a entender melhor quais canais de marketing geram o tráfego para o seu site que resulta em conversões.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes.</p><p>Este modelo usa a dimensão Último canal de contato.  </p> |
+| [!UICONTROL **Canais de marketing**] > [!UICONTROL **Detalhes do último canal de contato**] | Veja detalhes sobre o canal de marketing mais recente com o qual um(a) visitante correspondeu durante o seu período de engajamento (30 dias, por padrão)<p>**Isso pode ajudar** a entender melhor o que contribuiu para que a visita ocorresse por meio daquele canal de marketing. Por exemplo, se um visitante chegasse ao seu site e correspondesse ao canal de marketing &quot;Pesquisa paga”, você poderia usar os detalhes do canal para ver qual mecanismo de pesquisa foi usado ou qual palavra-chave foi pesquisada.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing em áreas mais eficazes. </p><p>Este modelo usa a dimensão “Detalhes do canal de último contato”. </p> |
 | [!UICONTROL **Campanhas**] > [!UICONTROL **Funil de conversão de campanhas**] | Veja o número de cliques e check-outs das suas campanhas. <p>**Isso pode ajudar** a entender melhor como as campanhas de marketing estão impulsionando a conversão.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como determinar quais campanhas de marketing estão gerando maior ROI.</p> |
 | [!UICONTROL **Campanhas**] > [!UICONTROL **Desempenho da campanha**] | Veja os detalhes do desempenho das suas campanhas de marketing.<p>**Isso pode ajudar** a entender melhor os vários indicadores de sucesso associados às campanhas, como receita, exibições de produtos, pedidos e assim por diante.</p><p>**Com base no que aprendeu, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing nas maiores fontes de receita. </p><p>Este modelo usa as métricas “Receita”, “Exibições do produto”, “Adições ao carrinho”, “Pedidos” e “Unidades”. Ele também usa as dimensões “Código de rastreamento” e “Domínio de referência”. </p> |
-| [!UICONTROL **Campanhas**] > [!UICONTROL **Código de rastreamento**] | Confira os nomes dos códigos de rastreamento no seu site. Você pode colocar links com diferentes valores de parâmetros de strings de consulta em diferentes lugares na internet.<p>**Isso pode ajudar** a entender melhor quais links foram os mais bem-sucedidos em termos de direcionar o tráfego para o seu site. Anexar strings de consulta de código de rastreamento é comum em emails, anúncios, publicações em redes sociais e outras atividades de marketing que a sua organização usa</p><p>**Com base no que aprendeu, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing nas maiores fontes de receita.</p><p>Este modelo usa a dimensão “Código de rastreamento”. </p> |
+| [!UICONTROL **Campanhas**] > [!UICONTROL **Código de rastreamento**] | Confira os nomes dos códigos de rastreamento no seu site. Você pode colocar links com diferentes valores de parâmetros de strings de consulta em diferentes lugares na internet.<p>**Isso pode ajudar** a entender melhor quais links foram os mais bem-sucedidos em termos de direcionar o tráfego para o seu site. Anexar strings de consulta de código de rastreamento é comum em emails, anúncios, publicações em redes sociais e outras atividades de marketing que a sua organização usa</p><p>**Com base no que aprendeu, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing nas maiores fontes de receita.</p><p>Este modelo usa a dimensão Código de rastreamento. </p> |
 | **Aquisição na web** | Veja como o seu site obtém visitantes.<p>**Isso pode ajudar** a entender melhor os vários fatores que levam à aquisição, como palavras-chave de pesquisa, domínio de referência e assim por diante.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing nos canais mais eficientes.</p><p>Este modelo usa as métricas “Taxa de rejeição” e “Rejeições”. Ele também usa as dimensões “Mecanismo de pesquisa”, “Palavra-chave de pesquisa”, “Página de entrada”, “Domínio de referência”, “Código de rastreamento” e “Referenciador”.  </p> |
 | **Aquisição por dispositivo móvel** | Veja como o site obtém visitantes em dispositivos móveis.<p>**Isso pode ajudar** a entender melhor os vários fatores que levam à aquisição, como palavras-chave de pesquisa, domínio de referência e assim por diante.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco das campanhas de marketing nos canais mais eficientes.</p><p>Este modelo usa as métricas “Taxa de rejeição” e “Rejeições”. Ele também usa as dimensões “Mecanismo de pesquisa”, “Palavra-chave de pesquisa”, “Página de entrada”, “Domínio de referência”, “Código de rastreamento” e “Referenciador”.  </p> |
 | **Advertising Analytics: pesquisa paga** | Visualize todos os dados de pesquisa paga do Google Ads e do Microsoft Advertising lado a lado. <p>**Isso pode ajudar** a entender melhor a quantidade de tráfego que está sendo enviada para o site e se os clientes estão sendo convertidos.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como estimar o custo/benefício de uma campanha publicitária.</p> |
-| **Palavras-chave de pesquisa: todas** | Confira as palavras-chave de pesquisa que os visitantes usam para acessar o seu site, sejam elas pagas ou naturais. <p>**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site. </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que geram tráfego para o site.</p><p>Este modelo usa a dimensão “Palavra-chave de pesquisa”. </p> |
+| **Palavras-chave de pesquisa: todas** | Confira as palavras-chave de pesquisa que os visitantes usam para acessar o seu site, sejam elas pagas ou naturais. <p>**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site. </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que geram tráfego para o site.</p><p>Este modelo usa a dimensão Palavra-chave de pesquisa. </p> |
 | **Palavras-chave de pesquisa: pagas** | Veja as palavras-chave de pesquisa que visitantes usam para acessar o seu site que correspondem à detecção de pesquisa paga.<p>**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que geram tráfego para o site. </p><p>Este modelo usa a dimensão “Palavra-chave de pesquisa: paga”. </p> |
-| **Palavras-chave de pesquisa: naturais** | Veja as palavras-chave de pesquisa que visitantes usam para acessar o seu site e que não correspondem à detecção de pesquisa paga.<p>**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que geram tráfego para o site.</p><p>Este modelo usa a dimensão “Palavra-chave de pesquisa: natural”. </p> |
+| **Palavras-chave de pesquisa: naturais** | Veja as palavras-chave de pesquisa que visitantes usam para acessar o seu site e que não correspondem à detecção de pesquisa paga.<p>**Isso pode ajudar** a entender melhor as palavras-chave que as pessoas usam em pesquisas que geram tráfego para o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como identificar e preencher lacunas de SEO entre as palavras-chave usadas e as que geram tráfego para o site.</p><p>Este modelo usa a dimensão Palavra-chave de pesquisa natural. </p> |
 | **Mecanismos de pesquisa: todos** | Confira os mecanismos de pesquisa que os visitantes usam para acessar o seu site, sejam eles pagos ou naturais. <p>**Isso pode ajudar** a entender melhor os mecanismos de pesquisa usados pelas pessoas que resultam em tráfego para o site. </p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco de SEO nos mecanismos de pesquisa que geram mais tráfego para o site.</p><p>Este modelo usa a dimensão “Mecanismo de pesquisa”. </p> |
 | **Mecanismos de pesquisa: pagos** | Veja os mecanismos de pesquisa que visitantes usam para acessar o seu site e que correspondem à detecção de pesquisa paga.<p>**Isso pode ajudar** a entender melhor os mecanismos de pesquisa usados pelas pessoas que resultam em tráfego para o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco de SEO nos mecanismos de pesquisa que geram mais tráfego para o site. </p><p>Este modelo usa a dimensão Mecanismo de pesquisa - pago. </p> |
-| **Mecanismos de pesquisa - natural** | Veja as palavras-chave de pesquisa que visitantes usam para acessar o seu site e que não correspondem à detecção de pesquisa paga.<p>**Isso pode ajudar** a entender melhor os mecanismos de pesquisa usados pelas pessoas que resultam em tráfego para o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco de SEO nos mecanismos de pesquisa que geram mais tráfego para o site.</p><p>Este modelo usa a dimensão Mecanismo de pesquisa - natural. </p> |
+| **Mecanismos de pesquisa - natural** | Veja as palavras-chave de pesquisa que visitantes usam para acessar o seu site e que não correspondem à detecção de pesquisa paga.<p>**Isso pode ajudar** a entender melhor os mecanismos de pesquisa usados pelas pessoas que resultam em tráfego para o site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como aumentar o foco de SEO nos mecanismos de pesquisa que geram mais tráfego para o site.</p><p>Este modelo usa a dimensão Mecanismo de pesquisa natural. </p> |
 | **Classificação de todas as páginas de pesquisa** | Veja em qual página dos resultados da pesquisa um(a) visitante clicou para acessar o site. Por exemplo, se o site for exibido na segunda página dos resultados de um mecanismo de pesquisa, o item de dimensão dessa variável será “Página de pesquisa 2”.<p>**Isso pode ajudar** a entender melhor a classificação das suas páginas em resultados de pesquisa.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como melhorar a estratégia de SEO para garantir que o seu conteúdo apareça na primeira página dos resultados de pesquisa. </p> |
 | **Domínios referenciadores** | Veja em quais domínios as pessoas clicam para acessar o seu site.<p>**Isso pode ajudar** a entender quais sites de terceiros geram mais tráfego para o seu site. (Deve haver um link no site externo e o(a) visitante precisa clicar nele para que o item de dimensão seja exibido.)</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como criar ou ajustar o conteúdo para melhor se alinhar aos interesses de visitantes provenientes dos principais domínios referenciadores. </p><p>Este modelo usa a dimensão Domínio referenciador. </p> |
 | **Domínios referenciadores originais** | Veja o primeiro domínio referenciador no qual as pessoas clicam para acessar o seu site. (Depois de definido, ele mantém o mesmo valor por toda a vida útil da ID do(a) visitante em questão.)<p>**Isso pode ajudar** a entender melhor quais sites de terceiros originalmente geram tráfego para o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como criar ou ajustar o conteúdo para melhorar o alinhamento com os interesses de visitantes provenientes dos principais domínios referenciadores originais. </p><p>Este modelo usa a dimensão Domínio referenciador original. </p> |
@@ -1262,7 +1262,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--mobileCarrierRankedReport"
+>id="template--mobilecarrierrankedreport"
 >title="Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site."
 >abstract="**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.<br/>Este modelo usa a dimensão “Operadora de celular”."
 
@@ -1271,7 +1271,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--mobileDeviceNameRankedReport"
+>id="template--mobiledevicenamerankedreport"
 >title="Veja a marca e o modelo dos dispositivos móveis que as pessoas usam para acessar o seu site."
 >abstract="**Isso pode ajudar** a entender melhor quais dispositivos móveis são mais usados pela sua base de usuários.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar a renderização do site para os dispositivos móveis mais comuns.<br/>Este modelo usa a dimensão “Nome do dispositivo móvel”."
 
@@ -1280,7 +1280,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--mobileDeviceTypeRankedReport"
+>id="template--mobiledevicetyperankedreport"
 >title="Veja os tipos de dispositivos móveis que as pessoas usam para acessar o site, como celulares e tablets."
 >abstract="**Isso pode ajudar** a entender melhor os vários tipos de dispositivo móvel usados para acessar o seu site.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar o site para os tipos de dispositivo móvel mais usados.<br/>Este modelo usa a dimensão “Tipo de dispositivo móvel”."
 
@@ -1289,7 +1289,7 @@ Estes são os modelos disponíveis:
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="template--mobileManufacturerRankedReport"
+>id="template--mobilemanufacturerrankedreport"
 >title="Veja quais fabricantes produzem os dispositivos móveis que as pessoas usam para acessar o seu site, como Apple e Samsung."
 >abstract="**Isso pode ajudar** a entender melhor quais fabricantes são mais usados pela sua base de usuários.<br/>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de diferentes fabricantes para garantir uma experiência de usuário fluida.<br/>Este modelo usa a dimensão “Fabricante do dispositivo móvel”."
 
@@ -1302,6 +1302,6 @@ Estes são os modelos disponíveis:
 | [!UICONTROL **Operadora de celular**] | Veja a empresa de telecomunicação que fornece conectividade de rede celular aos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais operadoras de celular são mais usadas pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de rede de diferentes operadoras para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão “Operadora de celular”.</p> |
 | **Dispositivos** | Veja a marca e o modelo dos dispositivos móveis que as pessoas usam para acessar o seu site.<p>**Isso pode ajudar** a entender melhor quais dispositivos móveis são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar a renderização do site para os dispositivos móveis mais comuns.</p><p>Este modelo usa a dimensão “Nome do dispositivo móvel”.</p> |
 | **Tipo de dispositivo** | Veja os tipos de dispositivos móveis que as pessoas usam para acessar o site, como celulares e tablets.<p>**Isso pode ajudar** a entender melhor os vários tipos de dispositivo móvel usados para acessar o seu site.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como otimizar o site para os tipos de dispositivo móvel mais usados.</p><p>Este modelo usa a dimensão “Tipo de dispositivo móvel”.</p> |
-| **Fabricante** | Veja quais fabricantes produzem os dispositivos móveis que as pessoas usam para acessar o seu site, como Apple e Samsung.<p>**Isso pode ajudar** a entender melhor quais fabricantes são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de diferentes fabricantes para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão “Fabricante do dispositivo móvel”.</p> |
+| **Fabricante** | Veja quais fabricantes produzem os dispositivos móveis que as pessoas usam para acessar o seu site, como Apple e Samsung.<p>**Isso pode ajudar** a entender melhor quais fabricantes são mais usados pela sua base de usuários.</p><p>**Com base no que aprender, você poderá** fazer várias coisas, como adaptar a entrega de conteúdo com base nos recursos de diferentes fabricantes para garantir uma experiência de usuário fluida.</p><p>Este modelo usa a dimensão Fabricante do dispositivo móvel.</p> |
 
 
