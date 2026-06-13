@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: 440
 ht-degree: 97%
 
 ---
@@ -49,11 +49,6 @@ Alguns dos principais recursos do Adobe Analytics incluem:
 * Relatório: a plataforma oferece uma variedade de opções de relatórios, incluindo relatórios agendados, relatórios ad hoc e painéis personalizáveis, que permitem que as empresas compartilhem insights com as partes interessadas e auxiliam a tomada de decisões orientadas por dados.
 
 Em resumo, o Adobe Analytics é uma solução de análise da Web eficiente que fornece às empresas as ferramentas necessárias para medir, analisar e otimizar suas atividades de marketing digital. Com dados em tempo real, análises avançadas e modelagem de atribuição, as empresas podem tomar decisões orientadas por dados que impulsionam a transformação digital e melhoram o ROI.
-
-
-## Artigos principais sobre notas técnicas
-
-* [Transição de uma plataforma de análise de terceiros para o Adobe Analytics](ga-to-aa/home.md)
 
 ## Mais guias do usuário do Analytics
 
