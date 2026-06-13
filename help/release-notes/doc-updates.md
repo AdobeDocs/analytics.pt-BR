@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
 workflow-type: tm+mt
-source-wordcount: 7326
+source-wordcount: 7375
 ht-degree: 94%
 
 ---
@@ -51,6 +51,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **junho de 2026** | |
+| Guia do GA para AA substituído | O guia do GA para AA fazia referência ao Universal Analytics, que foi encerrado em 2023. Um novo guia o substituiu, [Transição do Google Analytics 4 para o Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **maio de 2026** | |
 | Dimensões e métricas da mídia de transmissão | Atualizações significativas na documentação de mídia de transmissão. Os links para exemplos incluem [Dimensões principais dos serviços de mídia de streaming](/help/components/dimensions/sm-core.md) e [Métricas principais dos serviços de mídia de streaming](/help/components/metrics/sm-core.md). |
 | **Março de 2026** | |
