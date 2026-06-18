@@ -19,7 +19,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 1131
 ht-degree: 25%
@@ -35,7 +35,7 @@ Você pode baixar projetos e dados do Analysis Workspace no seu dispositivo loca
 
 Métodos adicionais para exportar dados do Adobe Analytics estão descritos no [Guia de exportação](/help/export/home.md).
 
-## Baixar um projeto como um arquivo PDF ou CSV {#download-project}
+## Baixar um projeto como um arquivo PDF ou CSV
 
 ![O menu suspenso “Projeto”, com as opções de “Baixar CSV” e “Baixar PDF” realçadas.](assets/download-project.png)
 
@@ -70,7 +70,7 @@ Para baixar um projeto como um arquivo PDF:
 
    O nome do arquivo é composto por *nome do projeto* - *nome do conjunto de relatórios* - *data*. Por exemplo, `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`.
 
-## Copiar dados em uma visualização para a área de transferência {#copy-data}
+## Copiar dados em uma visualização para a área de transferência
 
 A opção **[!UICONTROL Copiar para a área de transferência]** do menu de contexto permite copiar dados do Analysis Workspace rapidamente e colá-los em uma ferramenta de terceiros.
 
@@ -84,7 +84,7 @@ A opção **[!UICONTROL Copiar para a área de transferência]** do menu de cont
 
 ![A opção de “Copiar seleção para a área de transferência”. &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
 
-## Baixar dados em uma visualização como um arquivo CSV {#download-data}
+## Baixar dados em uma visualização como um arquivo CSV
 
 As opções Baixar como CSV no menu de contexto permitem baixar uma tabela de dados ou a fonte de dados de qualquer visualização como CSV.
 
@@ -103,7 +103,7 @@ Only relevant as soon as CJA supports Map visualization
 
 ![A opção de “Baixar dados como CSV”.](assets/download-data-as-csv.png)
 
-## Baixar itens como um arquivo CSV {#download-items}
+## Baixar itens como um arquivo CSV
 
 Se quiser analisar mais do que as 400 linhas de dados visíveis em uma tabela, selecione **Baixar itens como CSV (_Nome da Dimension_)** no menu de contexto do cabeçalho da tabela ou de qualquer linha. Esta opção exporta até 50 mil itens de dimensão (com base na classificação da tabela) para a dimensão selecionada, com opções de ordenação e filtros aplicados. Se você selecionar essa opção na parte superior da tabela, a primeira dimensão na tabela será exportada.
 
@@ -138,7 +138,7 @@ Os seguintes recursos de uma tabela de forma livre são aplicados ao arquivo bai
 Se solicitar mais de um download por vez, você receberá uma notificação de que cada download adicional será enfileirado até que o download anterior seja concluído.
 
 
-## Perguntas frequentes {#faq}
+## Perguntas frequentes
 
 | Pergunta | Resposta |
 | --- | --- |
@@ -156,7 +156,7 @@ There are several ways to export data from Analysis Workspace. The method you ch
 
 Exported data can be in the form of copied data, CSV, or PDF. A PDF is typically preferred if you want visualizations included in the file. CSV and copied data is preferred if you simply want plain-text data.
 
-## Download a project as CSV or PDF {#download-project}
+## Download a project as CSV or PDF
 
 Consider the following when downloading projects:
 
@@ -185,7 +185,7 @@ To download a project as a CSV or PDF file:
 1. (Conditional) If you chose to download a PDF, a message is shown after the project is ready to be downloaded. Click [!UICONTROL **Download**].
 1. Click the **[!UICONTROL Download this file]** icon and save the file to a folder of your choice.
 
-## Copy data to clipboard (hotkey: cmd + c) {#copy-data}
+## Copy data to clipboard (hotkey: cmd + c)
 
 The right-click option **[!UICONTROL Copy to clipboard]** lets you quickly copy data from Workspace and paste it in a third-party tool. 
 
@@ -198,7 +198,7 @@ The right-click option **[!UICONTROL Copy to clipboard]** lets you quickly copy 
 
 ![](assets/copy-selection.png)
 
-## Download data as CSV {#download-data}
+## Download data as CSV
 
 The right-click option **[!UICONTROL Download data as CSV]** allows you to download a table of data or the data source of any visualization as a CSV.
 
@@ -212,7 +212,7 @@ The right-click option **[!UICONTROL Download data as CSV]** allows you to downl
 
 ![](assets/download-data-viz.png)
 
-## Download items as CSV {#download-items}
+## Download items as CSV
 
 If you want to analyze more than the visible 400 rows of data in a table, right-click the table header or any row and select **Download items as CSV (_Dimension name_)**. This option exports up to 50,000 dimension items (based on the table sort) for the selected dimension, with filters and segments applied. If you chose this option from the top of the table, the first dimension in the table will be exported. While no limits are enforced in the freeform table, it is recommended that the Download items option be used in tables with less than 20 columns to ensure optimal performance.
 
@@ -246,7 +246,7 @@ If you request more than one download at a time, you will receive a notification
 
 ![](assets/toast.png)
 
-## FAQ {#faq}
+## FAQ
 
 | Question | Answer |
 | --- | --- |

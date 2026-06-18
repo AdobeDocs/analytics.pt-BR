@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 61%
@@ -31,7 +31,7 @@ ht-degree: 61%
 
 O Analysis Workspace oferece várias maneiras de compartilhar um projeto com seus usuários, incluindo a capacidade de obter um link para um projeto ou uma parte específica de um projeto. Alguns tipos de link exigem que o destinatário faça logon no Adobe Analytics antes de acessar o projeto, enquanto outros não.
 
-## Obter um link do projeto para compartilhar com outros usuários do Workspace {#project-link}
+## Obter um link do projeto para compartilhar com outros usuários do Workspace
 
 Para compartilhar um link com um projeto, vá para o projeto que deseja compartilhar e selecione ir para **[!UICONTROL Compartilhar]** > **[!UICONTROL Obter link do projeto]** (ou **[!UICONTROL Compartilhar]** > **[!UICONTROL Compartilhar com usuários do Workspace]** > **[!UICONTROL Compartilhar por link]**). Usuários com os quais você compartilha o link são solicitados a fazer logon.
 
@@ -43,7 +43,7 @@ Você pode compartilhar um link somente leitura para projetos do Analysis Worksp
 
 Para obter mais informações, consulte [Compartilhar com qualquer pessoa](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required).
 
-## Obter um painel ou link de visualização {#panel-link}
+## Obter um painel ou link de visualização
 
 Você também pode compartilhar um link para uma parte específica de um projeto, como um painel ou uma visualização individual. Às vezes, esse compartilhamento é chamado de intravinculação. Ele pode ser útil para chamar a atenção dos usuários para os principais insights do projeto.
 
@@ -68,7 +68,7 @@ Uma dica para aproveitar as várias opções de link é sempre incluir um índic
 
 Analysis Workspace offers many ways to share a project to your users, including the ability to get a link to a project or a specific part of a project. Some link types require the recipient to log in to Adobe Analytics before accessing the project, while others do not. 
 
-## Get a project link to share with other Workspace users {#project-link} 
+## Get a project link to share with other Workspace users
 
 To share a link to a project, go to the project you want to share, then select go to [!UICONTROL **Share**] > [!UICONTROL **Share with Workspace users**] > [!UICONTROL **Share by link**]. Users you share the link with are required to log in. 
 
@@ -80,7 +80,7 @@ You can share a read-only link to Analysis Workspace projects with people who do
 
 For more information, see "Share a project with anyone (no login required)" in the article [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
-## Get panel or visualization link {#panel-link} 
+## Get panel or visualization link
 
 You can also share a link to a specific part of a project, such as a panel or individual visualization. This is sometimes referred to as intra-linking. This can be useful to draw your users' attention to key insights within the project.  
 
