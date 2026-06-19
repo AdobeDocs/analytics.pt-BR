@@ -1,6 +1,6 @@
 ---
 title: Suporte a componentes no Data Warehouse
-description: Saiba quais dimensões e métricas adicionais estão disponíveis no Data Warehouse e o que não é suportado.
+description: Saiba quais dimensões e métricas estão disponíveis ao criar uma solicitação do Data Warehouse, quais não estão disponíveis e quais se comportam de forma diferente.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 TQID: https://experienceleague.adobe.com/NhSEyPN3093B9M0SngJluJdZScI2lXvRyHkXQd8gg-4
@@ -17,117 +17,81 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 580
-ht-degree: 47%
+source-wordcount: 362
+ht-degree: 11%
 
 ---
 
 # Suporte a componentes no Data Warehouse
 
-O processamento exclusivo na arquitetura do Data Warehouse permite que alguns componentes normalmente não estejam disponíveis em outros recursos do Adobe Analytics. Devido à sua arquitetura exclusiva, alguns componentes não estão disponíveis para uso em relatórios ou segmentos. Use esta página para entender o que pode ser usado e o que não pode ser usado.
+Esta página descreve as dimensões e métricas que você pode usar ao criar uma solicitação Data Warehouse. As seções incluem quais componentes estão disponíveis, quais não estão disponíveis e quais se comportam de forma diferente das outras ferramentas do Adobe Analytics.
 
-## Componentes exclusivos do Data Warehouse
+## Dimensões exclusivas do Data Warehouse
 
-Algumas dimensões e métricas que podem ser usadas no Data Warehouse não estão disponíveis ao usar outros recursos no Adobe Analytics.
+As seguintes dimensões podem ser usadas no Data Warehouse, mas não estão disponíveis em outros recursos do Adobe Analytics.
 
-### Dimensões suportadas exclusivamente
+* [[!UICONTROL ID de visitante da Experience Cloud]](/help/components/dimensions/experience-cloud-visitor-id.md)
+* [[!UICONTROL Endereço IP]](/help/components/dimensions/ip-address.md)
+* [[!UICONTROL URL da página]](/help/components/dimensions/page-url.md)
+* [[!UICONTROL ID de compra]](/help/components/dimensions/purchase-id.md)
+* [[!UICONTROL ID de visitante]](/help/components/dimensions/visitor-id.md)
 
-* **Experience Cloud ID**: para implementações que usam o Experience Cloud ID Service (ECID), um número de 128 bits que consiste em dois números concatenados de 64 bits preenchidos com 19 dígitos.
-* **URL da página**: a URL da página em que a ocorrência ocorreu.
-* **IDs de compra**: identificador exclusivo para uma compra, definido usando a variável purchaseID.
-* **ID do Visitante**: fornece o identificador exclusivo do visitante. Esse valor é igual ao valor concatenado de `visid_high` e `visid_low` colunas em feeds de dados. Consulte Referência [da coluna](../analytics-data-feed/c-df-contents/datafeeds-reference.md) Dados em Feeds de dados para obter mais informações.
+## Dimensões não suportadas
 
-### Métricas suportadas exclusivamente
+As seguintes dimensões não estão disponíveis em relatórios ou segmentos do Data Warehouse:
 
-* **Visitas**: essa métrica no contexto do Data Warehouse exclui visitas de cookies não persistentes.
-* **Visitas - Todos os visitantes**: essa métrica no contexto do Data Warehouse tem mais paridade com a métrica de visitas em outras ferramentas do Adobe Analytics.
+* [[!UICONTROL AM/PM]](/help/components/dimensions/am-pm.md)
+* Todas as dimensões de entrada, exceto [[!UICONTROL Página de entrada]](/help/components/dimensions/entry-dimensions.md) e [[!UICONTROL Página de entrada original]](/help/components/dimensions/entry-dimensions.md), que são permitidas
+* Todas as dimensões de saída, exceto [[!UICONTROL Página de Saída]](/help/components/dimensions/exit-dimensions.md) e [[!UICONTROL Link de Saída]](/help/components/dimensions/exit-link.md), que são permitidas
+* [[!UICONTROL Profundidade da ocorrência]](/help/components/dimensions/hit-depth.md)
+* [[!UICONTROL Frequência de Retorno]](/help/components/dimensions/return-frequency.md)
+* [[!UICONTROL Tempo antes do evento]](/help/components/dimensions/time-prior-to-event.md)
+* [[!UICONTROL Tempo gasto na página - Classificado]](/help/components/dimensions/time-spent-on-page.md)
+* [[!UICONTROL Tempo gasto por visita - Classificado]](/help/components/dimensions/time-spent-per-visit.md)
+* [[!UICONTROL Toda a classificação da página de pesquisa]](/help/components/dimensions/all-search-page-rank.md)
+* Variáveis de [[!UICONTROL Hierarquia]](/help/components/dimensions/overview.md#retired-dimensions)
+* [[!UICONTROL Tipo de ocorrência]](/help/components/dimensions/hit-type.md)
+* [[!UICONTROL Pesquisa paga]](/help/components/dimensions/paid-search.md)
+* [[!UICONTROL Visitas únicas à página]](/help/components/dimensions/single-page-visits.md)
+* [[!UICONTROL Motivo da desativação do rastreamento]](/help/components/dimensions/tracking-opt-out-reason.md)
+* [[!UICONTROL Estados dos EUA]](/help/components/dimensions/us-states.md)
 
-## Componentes não compatíveis com o Data Warehouse
+Algumas dimensões estão disponíveis em uma solicitação Data Warehouse, mas não podem ser usadas dentro de um segmento. Consulte [Compatibilidade de segmentos do Data Warehouse](segment-compatibility.md) para obter mais informações.
 
-Algumas dimensões e métricas não são suportadas no Data Warehouse.
+## Dimensões com formatação de data não padrão
 
->[!NOTE]
->
->Se uma dimensão ou métrica não for aceita no Data Warehouse, os segmentos que usam esses componentes também não serão aceitos. Sempre verifique a compatibilidade do produto ao criar ou editar um segmento.
+As seguintes dimensões baseadas em tempo são suportadas nos relatórios do Data Warehouse, mas sua saída usa um formato não padrão:
 
-### Dimensões não suportadas
+* [[!UICONTROL Ano]](/help/components/dimensions/year.md)
+* [[!UICONTROL Trimestre]](/help/components/dimensions/quarter.md)
+* [[!UICONTROL Mês]](/help/components/dimensions/month.md)
+* [[!UICONTROL Semana]](/help/components/dimensions/week.md)
+* [[!UICONTROL Dia]](/help/components/dimensions/day.md)
+* [[!UICONTROL Hora]](/help/components/dimensions/hour.md)
+* [[!UICONTROL Minuto]](/help/components/dimensions/minute.md)
 
-* AM/PM
-* Algumas dimensões baseadas em definição de caminho, incluindo:
-   * Todas as dimensões de entrada, exceto Página de entrada
-   * Todas as dimensões de saída, exceto Página de saída e Link de saída
-   * Profundidade da ocorrência
-   * Frequência de Retorno
-   * Tempo antes do evento
-   * Tempo gasto na página - Classificado
-   * Tempo gasto por visita - Classificado
-* Toda a classificação da página de pesquisa
-* Variáveis de hierarquia
-* Tipo de ocorrência
-* Páginas não encontradas (disponível como uma dimensão; não suportado para segmentação)
-* Pesquisa paga
-* Visitas em única página
-* Motivo da desativação do rastreamento
-* Estados dos Estados Unidos
+Os valores de data são gerados no formato `1YYMMDDHHMM`:
 
-### Métricas não suportadas
+* **Ano (AA)**: deslocamento em 1900. Adicione `1900` aos três primeiros dígitos. Por exemplo, `125` = ano **2025**.
+* **Mês**: baseado em zero. Janeiro = `00`, fevereiro = `01`, ..., dezembro = `11`.
 
-* Algumas métricas baseadas em definição de caminho, incluindo:
-   * Rejeições
-   * Entradas
-   * Saídas
-   * Recargas
-   * Acesso único
-   * Métricas de ‘tempo gasto’
-* Métricas de participação (conforme descrito em [Criar uma métrica de &quot;Participação&quot;](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md))
+Por exemplo, se o campo Faixa de Datas Semana mostrar `1260901`, o ano será 1900 + 126 = **2026** e o mês será 09 = **outubro**.
 
-### Dimensões compatíveis de uma maneira diferente (formatação de data não padrão)
+## Métricas definidas de forma diferente no Data Warehouse
 
-As seguintes dimensões baseadas em tempo são compatíveis:
+* **[[!UICONTROL Visitas]](/help/components/metrics/visits.md)**: exclui visitas de cookies não persistentes, diferentemente da métrica Visitas em outras ferramentas do Adobe Analytics.
+* **[[!UICONTROL Visitas - Todos os visitantes]](/help/components/metrics/visits.md)**: conta todos os visitantes, incluindo aqueles com cookies não persistentes, tornando-a o equivalente mais próximo da métrica padrão [!UICONTROL Visitas] usada em outro lugar no Adobe Analytics.
 
-* Ano
-* Trimestre
-* Mês
-* Semana
-* Dia
-* Hora
-* Minuto
+## Métricas não suportadas
 
-No entanto, a saída de datas não utiliza valores padrão ao usar essas dimensões.
+As seguintes métricas não estão disponíveis no Data Warehouse:
 
-Considere o seguinte ao calcular a saída de datas no Data Warehouse:
-
-* As dimensões de data são mostradas no seguinte formato: `1YYMMDDHHMM`
-
-* O ano (AA) é compensado por 1900. Isso significa que você adiciona `1900` aos três primeiros valores do campo de data.
-
-  Por exemplo, se o valor do campo Semana do intervalo de datas no Data Warehouse for `1250901`, você adicionaria de 1900 a 125, o que resultará no ano de 2025.
-
-* Todos os meses são baseados em zero, com janeiro sendo representado por 00, fevereiro por 01 e assim por diante, da seguinte forma:
-
-   * 00: janeiro
-   * 01: fevereiro
-   * 02: março
-   * 03: abril
-   * 04: maio
-   * 05: junho
-   * 06: julho
-   * 07: agosto
-   * 08: setembro
-   * 09: outubro
-   * 10: novembro
-   * 11: dezembro
-
-  Por exemplo, se o valor do campo Semana do intervalo de datas no Data Warehouse for `1250901`, o mês será representado como 09, o que indica outubro.
-
-
-
-
-## Segmentos como dimensões no Data Warehouse
-
-Quando você usa um segmento como uma dimensão no Data Warehouse, o relatório retorna uma coluna que contém `"0"` ou `"1"`:
-
-* **`"0"`**: o item de dimensão não atendeu aos critérios do segmento.
-* **`"1"`**: o item de dimensão atendeu aos critérios do segmento.
+* [[!UICONTROL Rejeições]](/help/components/metrics/bounces.md)
+* [[!UICONTROL Entradas]](/help/components/metrics/entries.md)
+* [[!UICONTROL Saídas]](/help/components/metrics/exits.md)
+* [[!UICONTROL Recarregamentos]](/help/components/metrics/reloads.md)
+* [[!UICONTROL Acesso único]](/help/components/metrics/single-access.md)
+* Qualquer métrica [[!UICONTROL Tempo gasto]](/help/components/metrics/time-spent.md)
+* Qualquer métrica usando um modelo de atribuição de [participação](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)

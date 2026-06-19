@@ -11,10 +11,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 42%
+source-wordcount: 251
+ht-degree: 39%
 
 ---
 
@@ -38,9 +38,11 @@ Para criar um relatório para uma solicitação Data Warehouse:
 
    Nem todos os segmentos criados no Construtor de segmentos são compatíveis com o Data Warehouse. Um erro é exibido ao escolher um conjunto de relatórios virtuais que contém segmentos incompatíveis.
 
-   Para obter uma lista das funções com suporte em um segmento, consulte [compatibilidade de segmentos do Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
+   Para obter as estruturas e dimensões de segmento com suporte em um segmento do Data Warehouse, consulte [compatibilidade de segmentos do Data Warehouse](/help/export/data-warehouse/segment-compatibility.md).
 
 1. Arraste segmentos, métricas e dimensões para o construtor. O relatório que você cria determina quais dados são incluídos na solicitação do Data Warehouse.
+
+   Para as dimensões e métricas disponíveis em uma solicitação, consulte o [Suporte a componentes no Data Warehouse](/help/export/data-warehouse/component-support.md).
 
 1. Continue configurando sua solicitação do Data Warehouse na guia [!UICONTROL **Destino do relatório**]. Para obter mais informações, consulte [Configuração de um destino de relatório para uma solicitação do Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 

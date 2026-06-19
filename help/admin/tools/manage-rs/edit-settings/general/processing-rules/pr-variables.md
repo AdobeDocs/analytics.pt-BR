@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 15%
+source-wordcount: 723
+ht-degree: 14%
 
 ---
 
@@ -64,21 +64,21 @@ As dimensões e métricas disponíveis que você pode ler e gravar usando as reg
 | --- | --- | --- |
 | **eVar 1-250** | Leitura + gravação | Dimensões de [eVar](/help/components/dimensions/evar.md). |
 | **Campaign** | Leitura + gravação | A dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). |
-| **ID de compra** | Leitura + gravação | A variável de implementação [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
-| **Estado** | Leitura + gravação | (Descontinuado) A variável de implementação [`state`](/help/implement/vars/page-vars/state.md). |
+| **ID de compra** | Leitura + gravação | A dimensão [ID de Compra](/help/components/dimensions/purchase-id.md). |
+| **Estado** | Leitura + gravação | (Desativado) A dimensão [Estado do visitante](/help/components/dimensions/overview.md#retired-dimensions). |
 | **CEP** | Leitura + gravação | A dimensão [Código postal](/help/components/dimensions/zip-code.md). |
 | **Código de moeda** | Leitura + gravação | A variável de implementação [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANTE: se você definir essa variável com um valor inválido, a ocorrência será descartada. |
 | **ID da transação** | Leitura + gravação | A variável de implementação [`transactionID`](/help/import/data-sources/transactionid.md). |
 
 >[!NOTE]
->O Adobe não oferece suporte à configuração da variável de implementação [`products`](/help/implement/vars/page-vars/products.md) usando regras de processamento.
+>A Adobe não oferece suporte à configuração da dimensão [Produto](/help/components/dimensions/product.md) usando regras de processamento.
 
 ## Variáveis de tráfego
 
 | Variável | Status de leitura/gravação | Descrição |
 | --- | --- | --- |
 | **Prop 1-75** | Leitura + gravação | Dimensões [prop](/help/components/dimensions/prop.md). |
-| **Hierarquia 1-5** | Leitura + gravação | (Desativado) [Hierarquia](/help/components/dimensions/hierarchy.md) dimensões. |
+| **Hierarquia 1-5** | Leitura + gravação | (Desativado) [Hierarquia](/help/components/dimensions/overview.md#retired-dimensions) dimensões. |
 | **Servidor** | Leitura + gravação | A dimensão [Servidor](/help/components/dimensions/server.md). |
 | **Canal** | Leitura + gravação | A dimensão [Seção do site](/help/components/dimensions/site-section.md). |
 

@@ -22,21 +22,21 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 164
-ht-degree: 84%
+ht-degree: 34%
 
 ---
 
 # Tipo de ocorrência
 
-A [dimensão](overview.md) do &quot;Tipo de ocorrência&quot; determina se um aplicativo móvel estava em primeiro ou segundo plano quando a ocorrência foi enviada para os servidores de coleta de dados da Adobe. Essa dimensão só é relevante para conjuntos de relatórios que contêm dados para aplicativos móveis. Os dados do navegador coletados pelo AppMeasurement sempre relatam a ocorrência como “Primeiro plano”.
+A [dimensão](overview.md) do &quot;Tipo de ocorrência&quot; determina se um aplicativo móvel estava em primeiro ou segundo plano quando a ocorrência foi enviada para os servidores de coleta de dados da Adobe. Essa dimensão só é relevante para conjuntos de relatórios que contêm dados para aplicativos móveis. Os dados do navegador coletados pelo AppMeasurement sempre relatam a ocorrência como `"Foreground"`.
 
 ## Preencher esta dimensão com dados
 
-Essa dimensão funciona imediatamente em todas as implementações do SDK móvel na versão 4.13.6 ou superior. Se você não usar o SDK móvel, todas as ocorrências serão listas no item de dimensão “Primeiro plano”. Se “Desativar os relatórios herdados e a atribuição para ocorrências em segundo plano” estiver marcado, as ocorrências em segundo plano serão exibidas apenas nos [Conjuntos de relatórios virtuais](../vrs/vrs-mobile-visit-processing.md).
+Essa dimensão funciona imediatamente em todas as implementações do SDK móvel na versão 4.13.6 ou superior. O Mobile SDK define a variável [`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md) (o parâmetro de consulta `cp`) para indicar se cada ocorrência ocorreu em primeiro ou segundo plano. Se você não usar o SDK móvel, todas as ocorrências serão listadas em `"Foreground"`. Se **[!UICONTROL Impedir ocorrências em segundo plano de iniciar uma nova visita]** for selecionado ao configurar um [Conjunto de relatórios virtual](../vrs/vrs-mobile-visit-processing.md), as ocorrências em segundo plano não aumentarão as [[!UICONTROL Visitas]](../metrics/visits.md) e [[!UICONTROL Visitantes únicos]](../metrics/unique-visitors.md).
 
 ## Itens de dimensão
 
-Os itens de dimensão incluem `"Foreground"` e `"Background"`. Qualquer ocorrência que não foi enviada em segundo plano de um aplicativo móvel pertence ao item de dimensão `"Foreground"`. Qualquer ocorrência enviada em que o aplicativo móvel estava em segundo plano pertence ao item de dimensão `"Background"`.
+Os itens de dimensão incluem `"Foreground"` e `"Background"`. As ocorrências em segundo plano só ocorrem em dispositivos móveis nos quais o aplicativo rastreado está em segundo plano.

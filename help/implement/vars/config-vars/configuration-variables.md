@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 65%
+source-wordcount: 385
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ As variáveis de configuração controlam como os dados são capturados e proces
 
 Em implementações que usam a extensão do Web SDK ou a extensão do Analytics, as variáveis de configuração normalmente são encontradas nas configurações da extensão:
 
-1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
+1. Faça logon em [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
 1. Clique na propriedade de tag desejada.
 1. Clique na guia [!UICONTROL Extensões] e em [!UICONTROL Configurar] na extensão.
 
@@ -44,3 +44,18 @@ Em implementações JavaScript que usam `AppMeasurement.js`, as variáveis de co
 >[!IMPORTANT]
 >
 >Verifique se todas as variáveis de configuração estão definidas antes de chamar um método de rastreamento ([`t()`](../functions/t-method.md) ou [`tl()`](../functions/tl-method.md)). Evite definir variáveis de configuração na função [`doPlugins()`](../functions/doplugins.md).
+
+## Variáveis de configuração desativadas
+
+As variáveis de configuração a seguir foram removidas. Eles estão documentados aqui para referência se você os encontrar em uma implementação herdada.
+
+* **`account`**: Determinado o conjunto de relatórios para o qual os dados foram enviados. O conjunto de relatórios agora é manipulado por meio da instanciação do objeto de rastreamento (o método [`s_gi()`](../functions/s-gi.md)). Use o método [`s.sa()`](../functions/sa-method.md) se precisar alterar o conjunto de relatórios depois que o objeto de rastreamento for instanciado.
+* **`cookieDomain`**: determinado o domínio no qual o AppMeasurement definiu cookies. As versões atuais do AppMeasurement detectam automaticamente o domínio de cookie correto, tornando essa variável obsoleta.
+* **`cookieDomainPeriods`**: ajudou a AppMeasurement a determinar onde armazenar cookies quando um domínio continha vários períodos. As versões atuais do AppMeasurement detectam automaticamente o domínio correto, tornando essa variável obsoleta.
+* **`fpCookieDomainPeriods`**: o equivalente próprio de `cookieDomainPeriods`, usado para definir cookies no local correto quando o sufixo de um domínio próprio continha um ponto extra (como `example.co.uk`). As versões atuais do AppMeasurement detectam automaticamente o domínio correto, tornando essa variável obsoleta.
+* **`trackingServer`**: O domínio usado para enviar dados para o Adobe por HTTP foi especificado. Está obsoleto em favor da coleção de dados segura em HTTPS. Use [`trackingServerSecure`](trackingserversecure.md) no lugar dela.
+* **`trackInlineStats`**: versões anteriores do [Activity Map](/help/analyze/activity-map/overview.md) habilitadas ou desabilitadas.
+* **`visitorMigrationKey`**: uma chave usada para migrar visitantes de cookies de terceiros para cookies próprios foi carregada. Ele foi removido porque as bibliotecas modernas definem um cookie de fallback primário (`fid`) e dependem do Serviço da Experience Cloud ID para identidade.
+* **`visitorMigrationServer`**: Especificado o servidor usado durante a migração de cookies de terceiros para cookies próprios.
+* **`visitorMigrationServerSecure`**: O equivalente HTTPS de `visitorMigrationServer`.
+* **`visitorNameSpace`**: ajudou a determinar o domínio do cookie de terceiros. Foi removido em favor do uso da variável [`trackingServerSecure`](trackingserversecure.md) para implementações que não usam o Serviço da Experience Cloud ID.

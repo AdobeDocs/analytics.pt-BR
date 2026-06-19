@@ -30,9 +30,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 2885
+source-wordcount: 2881
 ht-degree: 55%
 
 ---
@@ -57,7 +57,7 @@ Data de lançamento: **terça-feira, 12 de agosto de 2024**
 
 Data de lançamento: **terça-feira, 4 de março de 2024**
 
-* O AppMeasurement reconhece e utiliza automaticamente o domínio raiz para domínios de nível superior do código do país, que anteriormente exigiam configurações específicas de domínio de cookie. A atualização pode ter implicações devido a esse reconhecimento automático. Consulte [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) para obter mais informações.
+* O AppMeasurement reconhece e utiliza automaticamente o domínio raiz para domínios de nível superior do código do país, que anteriormente exigiam configurações específicas de domínio de cookie. A atualização pode ter implicações devido a esse reconhecimento automático.
 * A distribuição inclui a Biblioteca do serviço de identidade 5.5.0 e o Data Integration Library 9.6.
 
 ## Versão 2.25.0

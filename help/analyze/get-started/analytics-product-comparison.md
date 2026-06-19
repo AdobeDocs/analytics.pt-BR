@@ -27,7 +27,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 530
 ht-degree: 67%
@@ -52,7 +52,7 @@ Para obter informações sobre qual produto do Adobe Analytics usar, consulte [Q
 | **Limite de linha visível (antes da paginação)** | 400 | 50000 | Ilimitado | Ilimitado | 50000 |
 | **Vários conjuntos de relatórios** | [Sim](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sim | Não | Sim | Não |
 | **Quantidade de detalhamentos** | Ilimitado | Até 2 | Ilimitado | Ilimitado | Ilimitado, executar em vários queries |
-| **Segmentação** <br> [Saiba mais](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sim | Sim | Sim, com [limitações](/help/components/segmentation/seg-reference/seg-compatibility.md) | Não | Sim |
+| **Segmentação** <br> [Saiba mais](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sim | Sim | Sim, com [limitações](/help/export/data-warehouse/segment-compatibility.md) | Não | Sim |
 | **Métricas calculadas** <br> [Saiba mais](/help/components/calculated-metrics/cm-overview.md) | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Sim, com Atribuição | Sim | Não | Sim, com o [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canais de marketing** <br> [Saiba mais](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sim | Sim | Sim | Sim - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sim |
 | **Análise de coorte** | [Sim](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Sim | Não | Não | Não |

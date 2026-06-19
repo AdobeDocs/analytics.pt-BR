@@ -19,7 +19,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 512
 ht-degree: 0%
@@ -82,7 +82,7 @@ Depois de usar os recursos acima, a página de exemplo básica a seguir conterá
 >
 >A Adobe recomenda não usar esse método para identificar visitantes.
 
-Se sua organização não usar o Serviço de ID de visitante, a AppMeasurement usará sua própria forma de identificação do visitante. Quando um visitante chega ao seu site pela primeira vez, a biblioteca verifica se há um cookie [`s_vi`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics). Este cookie é definido no domínio correspondente a [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (para HTTPS) ou [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (para HTTP).
+Se sua organização não usar o Serviço de ID de visitante, a AppMeasurement usará sua própria forma de identificação do visitante. Quando um visitante chega ao seu site pela primeira vez, a biblioteca verifica se há um cookie [`s_vi`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics). Este cookie é definido no domínio correspondente a [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (para HTTPS) ou `trackingServer` (para HTTP).
 
 * Se você participar do [Programa de certificado gerenciado](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/adobe-managed-cert), o servidor de rastreamento normalmente será um domínio próprio, tornando os cookies do `s_vi` originais.
 * Se você não participar do programa de certificado gerenciado, o servidor de rastreamento normalmente é um subdomínio de `adobedc.net`, `omtrdc.net` ou `2o7.net`, tornando o cookie `s_vi` um cookie de terceiros. Devido aos padrões modernos de privacidade do navegador, os cookies de terceiros são rejeitados pela maioria dos navegadores. Depois de rejeitado, o AppMeasurement tenta definir um cookie de fallback primário (`fid`).

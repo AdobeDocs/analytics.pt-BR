@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de componentes do Analytics
 breadcrumb-title: Guia de componentes
 user-guide-description: Gerencie dados usando componentes como segmentos, métricas calculadas, conjuntos de relatórios virtuais, canais de marketing e classificações. Saiba mais sobre Analytics entre dispositivos.
-source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '774'
 ht-degree: 98%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 98%
    + [Toda a classificação da página de pesquisa](dimensions/all-search-page-rank.md)
    + [ID do AMO](dimensions/amo-id.md)
    + [AMO EF ID](dimensions/amo-ef-id.md)
-   + [ID de clique de anúncios Meta do AMO](dimensions/amo-meta-id.md)
+   + [ID de clique de anúncios do AMO Meta](dimensions/amo-meta-id.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nome do bot &#x200B;](dimensions/bot-name.md)
+   + [Nome do bot](dimensions/bot-name.md)
    + [Altura da janela do navegador](dimensions/browser-height.md)
    + [Tipo de navegador](dimensions/browser-type.md)
    + [Largura da janela do navegador](dimensions/browser-width.md)
@@ -59,14 +59,15 @@ ht-degree: 98%
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensões de saída](dimensions/exit-dimensions.md)
    + [Link de saída](dimensions/exit-link.md)
+   + [ID de visitante da Experience Cloud](dimensions/experience-cloud-visitor-id.md)
    + [Canal de primeiro contato](dimensions/first-touch-channel.md)
    + [Detalhes do canal de primeiro contato](dimensions/first-touch-detail.md)
-   + [Hierarquia](dimensions/hierarchy.md)
    + [Profundidade da ocorrência](dimensions/hit-depth.md)
    + [Tipo de ocorrência](dimensions/hit-type.md)
    + [Hora do dia](dimensions/hour-of-day.md)
    + [Hora](dimensions/hour.md)
    + [Estado identificado](dimensions/identified-state.md)
+   + [Endereço IP](dimensions/ip-address.md)
    + [Java habilitado](dimensions/java-enabled.md)
    + [Idioma](dimensions/language.md)
    + [Canal de último contato](dimensions/last-touch-channel.md)
@@ -89,6 +90,7 @@ ht-degree: 98%
    + [Suporte a cookie persistente](dimensions/persistent-cookie-support.md)
    + [Produto](dimensions/product.md)
    + [Prop](dimensions/prop.md)
+   + [ID de compra](dimensions/purchase-id.md)
    + [Trimestre do ano](dimensions/quarter-of-year.md)
    + [Trimestre](dimensions/quarter.md)
    + [Tipo de referenciador](dimensions/referrer-type.md)
@@ -117,6 +119,7 @@ ht-degree: 98%
    + [Dimensões de voz](dimensions/voice-dimensions.md)
    + [Profundidade da visita](dimensions/visit-depth.md)
    + [Número da visita](dimensions/visit-number.md)
+   + [ID de visitante](dimensions/visitor-id.md)
    + [Semana](dimensions/week.md)
    + [Dia da semana/Fim de semana](dimensions/weekday-weekend.md)
    + [Ano](dimensions/year.md)
@@ -201,7 +204,6 @@ ht-degree: 98%
       + [Usar segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
    + Referência {#segment-reference}
       + [Operadores](segmentation/seg-reference/seg-operators.md)
-      + [Compatibilidade de segmentos do Data warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Direitos de segmento por função](segmentation/seg-reference/seg-rights.md)
       + [Solução de problemas](segmentation/seg-reference/c-troubleshooting.md)
    + [Perguntas frequentes sobre segmentos legados](segmentation/seg-transition.md)
@@ -270,7 +272,7 @@ ht-degree: 98%
       + [Criar e editar](/help/components/classifications/sets/create-set.md)
       + [Gerenciar](/help/components/classifications/sets/manage-sets.md)
       + Conjunto de classificação {#set}
-         + [Configurações &#x200B;](classifications/sets/manage/settings.md)
+         + [Configurações](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
          + [Regras](classifications/sets/manage/rules.md)
       + [Processos de classificação](classifications/sets/job-manager.md)

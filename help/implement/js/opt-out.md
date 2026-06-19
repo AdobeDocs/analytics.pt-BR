@@ -21,10 +21,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 638
-ht-degree: 65%
+source-wordcount: 603
+ht-degree: 69%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
-> Este artigo fornece aos **clientes do Adobe Analytics que (estão planejando) implementar o Adobe Analytics** em seu site instruções sobre como fornecer links para opção de não participação aos usuários do site. <p><p>> Se você está **visitando um site que implementou o Adobe Analytics** e deseja recusar, **<span style="color:red">este artigo NÃO é para você</span>**. Consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.
+> Este artigo fornece aos **clientes do Adobe Analytics que (estão planejando) implementar o Adobe Analytics** em seu site instruções sobre como fornecer links para opção de não participação aos usuários do site. <p><p>> Se você estiver **visitando um site que implementou o Adobe Analytics** e quiser recusar, **<span style="color:red">este artigo NÃO é para você</span>**. Consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.
 
 Alguns visitantes do site preferem não ter suas informações de navegação incluídas no conjunto de dados. O Adobe oferece a capacidade de fornecer aos visitantes do seu site uma maneira de optar pela não participação em suas informações que estão sendo analisadas.
 
@@ -46,7 +46,7 @@ Quando um visitante atinge um URL de opção de não participação, ele é soli
 
 ## URL de não participação
 
-A página de opção de não participação da organização depende do valor da variável [`trackingServer`](../vars/config-vars/trackingserver.md) na implementação.
+A página de opção de não participação da organização depende do valor da variável [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) na implementação.
 
 * Na extensão do Analytics:
    1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.

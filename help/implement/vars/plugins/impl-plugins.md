@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 328
-ht-degree: 96%
+source-wordcount: 410
+ht-degree: 79%
 
 ---
 
@@ -53,3 +53,9 @@ Cada organização tem necessidades de implementação diferentes, de modo que v
 4. Valide sua implementação e publique.
 
 Muitas organizações chamam plug-ins usando a função [`doPlugins`](../functions/doplugins.md). Embora essa função não seja necessária, a Adobe considera usá-la uma prática recomendada. O AppMeasurement chama essa função antes de compilar e enviar uma solicitação de imagem, o que é ideal, pois vários plug-ins dependem de outras variáveis do Analytics.
+
+## Plug-ins desativados
+
+Os plug-ins a seguir foram removidos. Eles estão documentados aqui para referência se você os encontrar em uma implementação herdada.
+
+* **`getPageLoadTime`**: a quantidade de tempo que uma página levou para carregar totalmente usando o objeto de desempenho do JavaScript. Não há mais suporte porque seu código depende da interface [`PerformanceTiming`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming), que foi descontinuada na maioria dos navegadores modernos. Não há substituição direta e as instruções de instalação e o código do plug-in não estão mais disponíveis.

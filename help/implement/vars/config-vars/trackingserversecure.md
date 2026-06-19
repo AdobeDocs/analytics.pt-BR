@@ -20,16 +20,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 830
-ht-degree: 17%
+source-wordcount: 862
+ht-degree: 16%
 
 ---
 
 # trackingServerSecure
 
 A variável `trackingServerSecure` determina o domínio que o AppMeasurement usa para enviar dados para o Adobe por HTTPS. Se essa variável não estiver definida corretamente, sua implementação pode sofrer perda de dados.
+
+>[!NOTE]
+>
+>[`trackingServer`](configuration-variables.md#retired-configuration-variables) é uma variante removida desta variável. Especificou o domínio para dados enviados via HTTP; com a prevalência de HTTPS, use `trackingServerSecure`. Se `s.trackingServerSecure` estiver em branco, o AppMeasurement voltará ao valor `s.trackingServer`.
 
 Antes do [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home), essa variável também determinava onde os cookies de terceiros eram definidos. A Adobe recomenda usar o serviço de ID em todas as implementações, quando possível.
 
@@ -86,7 +90,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 O valor usado para `trackingServerSecure` (ou `edgeDomain`) depende de vários fatores:
 
 * Sua participação no [programa de certificados gerenciados pela Adobe](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/adobe-managed-cert)
-* Se você tiver o [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) implementado e configurado corretamente
+* Se você tiver o [serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) implementado e configurado corretamente
 
 **Se sua organização participar do programa de certificados gerenciados pela Adobe**, defina o valor para o domínio próprio que foi selecionado ao configurar o certificado. Normalmente, esse valor é um subdomínio de propriedade de sua organização. Por exemplo, `data.example.com`. Os registros CNAME na organização redirecionam esses dados para a Adobe.
 
@@ -108,7 +112,7 @@ A Adobe recomenda que essas informações sejam mantidas em um [documento de des
 
 ## Ramificações para não usar o serviço de ID de visitante
 
-A Adobe recomenda usar o [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) em todas as implementações. O serviço de ID pode ser implementado de várias maneiras diferentes:
+A Adobe recomenda usar o [serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) em todas as implementações. O serviço de ID pode ser implementado de várias maneiras diferentes:
 
 * As implementações manuais do AppMeasurement usam `VisitorAPI.js` e chamam o método `getInstance`. Consulte [Implementar o serviço de identidade da Experience Cloud para Analytics](https://experienceleague.adobe.com/pt-br/docs/id-service/using/implementation/setup-analytics) para obter mais informações.
 * As implementações que usam a extensão de tag da Adobe Analytics usam a [extensão de tag do serviço da Adobe Experience Cloud ID](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/id-service/overview). Depois de adicionada, nenhuma configuração adicional é necessária.

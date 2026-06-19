@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 70
-ht-degree: 100%
+source-wordcount: 148
+ht-degree: 47%
 
 ---
 
@@ -37,3 +37,10 @@ As listas a seguir são variáveis usadas frequentemente em implementações:
 * [`campaign`](campaign.md): Defina essa variável como um parâmetro de sequência de consulta para rastreamento de campanha.
 * [`events`](events/events-overview.md): Preencha as métricas para usar nos relatórios.
 * [`products`](products.md): Se você tiver um site de comércio eletrônico, defina essa variável quando um visitante visualizar ou comprar um produto.
+
+## Variáveis de página desativadas
+
+As variáveis de página a seguir foram removidas. Eles estão documentados aqui para referência se você os encontrar em uma implementação herdada.
+
+* **`hier`**: Variáveis de hierarquia implementadas (`hier1`-`hier5`) para capturar a estrutura de um site para relatórios. Ela foi removida e não é uma dimensão disponível no Analysis Workspace. Em vez disso, use [eVars](evar.md) e classificações.
+* **`state`**: Capturado o estado dos EUA no qual um visitante entrou, normalmente por meio de um formulário de envio ou de cobrança. Em vez disso, use a dimensão [[!UICONTROL Estados dos EUA]](/help/components/dimensions/us-states.md), que o Adobe preenche automaticamente a partir da localização geográfica do visitante.
