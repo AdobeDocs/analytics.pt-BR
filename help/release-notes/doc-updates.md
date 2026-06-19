@@ -6,35 +6,14 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 7375
-ht-degree: 94%
+source-wordcount: 7391
+ht-degree: 93%
 
 ---
 
@@ -52,6 +31,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Recurso | Descrição |
 | --- | --- |
 | **junho de 2026** | |
+| Atualização da referência da sequência de consulta | Revisões significativas em [Parâmetros de consulta de coleta de dados](/help/implement/validate/query-parameters.md). |
+| Segmentos no Data Warehouse | Atualização da [compatibilidade de segmento do Data Warehouse](/help/export/data-warehouse/segment-compatibility.md). |
 | Guia do GA para AA substituído | O guia do GA para AA fazia referência ao Universal Analytics, que foi encerrado em 2023. Um novo guia o substituiu, [Transição do Google Analytics 4 para o Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **maio de 2026** | |
 | Dimensões e métricas da mídia de transmissão | Atualizações significativas na documentação de mídia de transmissão. Os links para exemplos incluem [Dimensões principais dos serviços de mídia de streaming](/help/components/dimensions/sm-core.md) e [Métricas principais dos serviços de mídia de streaming](/help/components/metrics/sm-core.md). |
@@ -64,7 +45,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Adição de informações sobre o uso de relatórios geográficos e de tecnologia | Adição de informações sobre diferenças ao usar o [relatórios de geografia e tecnologia em vários produtos do Analytics](/help/analyze/get-started/analytics-product-comparison.md). |
 | **Janeiro de 2026** | |
 | Construtor de regras de conjuntos de classificação | Documentação para a nova funcionalidade [Construtor de regras em conjuntos de classificações](/help/components/classifications/sets/manage/rules.md). |
-| Gráfico de dispositivos | Removidas referências à [funcionalidade descontinuada do gráfico do dispositivo](https://experienceleague.adobe.com/pt-br/docs/discontinued/using/device-graph). |
+| Gráfico de dispositivos | Removidas referências à [funcionalidade descontinuada do gráfico do dispositivo](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
 
@@ -78,7 +59,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Configuração de atribuição | Atualizações adicionais para refletir as novas opções de configuração de atribuição para modelo, container e janela de retrospectiva. |
 | Melhorias adicionais na identificação de visitantes | Adicionada a seção [Identificação do visitante](/help/implement/id/overview.md), descrevendo a maneira recomendada de identificar visitantes em todos os tipos de implementação. |
 | **Setembro de 2025** | |
-| Melhorias na identificação do visitante | Esclarecimento das práticas recomendadas sobre identificação de visitante, com foco na finalidade das variáveis [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) e [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) no AppMeasurement. |
+| Melhorias na identificação do visitante | Esclarecimento das práticas recomendadas sobre identificação de visitante, com foco na finalidade das variáveis `trackingServer` e [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) no AppMeasurement. |
 | **Agosto de 2025** | |
 | Os nomes dos feeds de dados devem ser exclusivos | Esclarecimento sobre por que [os nomes dos feeds de dados devem ser exclusivos](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique). |
 | Avisos de descontinuação | Avisos de descontinuação foram adicionados aos artigos nas seções [Construtor de regras de classificação](/help/components/classifications/crb/classification-rule-builder.md) e [Importador de classificações](/help/components/classifications/importer/c-working-with-saint.md). |
@@ -92,7 +73,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Março de 2025** |  |
 | Inventário do Analytics | O [Inventário do Analytics](/help/admin/tools/analytics-inventory.md) fornece uma visão geral abrangente do seu ambiente do Adobe Analytics, incluindo o número de projetos e componentes, conjuntos de relatórios, usuários e muito mais. |
 | Guia de atualização do Customer Journey Analytics | Permite gerar um [guia passo a passo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) para atualizar do Adobe Analytics para o Customer Journey Analytics. |
-| Esclarecimento da formatação de data nas exportações do Data Warehouse | Os valores de dimensão baseados em tempo nas exportações do Data Warehouse têm uma formatação de data não padrão. Adição de informações para explicar como interpretar valores de data de exportações do Data Warehouse. <p>Consulte [Dimensões com suporte distinto (formatação de data não padrão)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) em [Suporte a componentes no Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
+| Esclarecimento da formatação de data nas exportações do Data Warehouse | Os valores de dimensão baseados em tempo nas exportações do Data Warehouse têm uma formatação de data não padrão. Adição de informações para explicar como interpretar valores de data de exportações do Data Warehouse. <p>Consulte [Dimensões com formatação de data não padrão](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting) em [Suporte a componentes no Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Atualização das informações sobre exclusões de IP | Adição de informações para explicar que as [exclusões de IP](/help/admin/tools/exclude-ip.md) podem levar até 5 minutos para entrar em vigor e que as alterações se aplicam apenas a novas ocorrências (os dados capturados antes da definição da exclusão não são afetados). <p>O layout do conteúdo também foi atualizado para melhorar a legibilidade.</p> |
 | **Fevereiro de 2025** |  |
 | Informações atualizadas sobre como pausar e reativar um feed de dados | Ao [pausar e reativar um feed de dados](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), o comportamento dos feeds dinâmicos foi esclarecido. O processamento de dados deixa de ocorrer a partir do momento em que o feed é pausado e só volta a ocorrer no momento em que ele é reativado. |
@@ -124,20 +105,20 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | **Junho de 2024** | |
 | Nome do produto atualizado que se refere aos recursos de mídia de streaming | As instâncias do “Media Analytics” e da “Mídia de streaming” foram substituídas pelo nome “Complemento da Coleção de mídia de streaming” e “Coleção de mídia de streaming” ao se referirem ao conjunto de recursos de mídia de streaming que coletam dados de mídia de streaming e os exibem no Analysis Workspace. <p>Essas atualizações estão disponíveis na documentação do Adobe Analytics, bem como na documentação da [Coleção de mídia de streaming](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).</p> |
 | Melhoria na documentação de alertas | Documentação atualizada e aprimorada sobre alertas. Essas atualizações incluem informações sobre [criação de alertas](/help/components/alerts/alert-builder.md), [gerenciamento de alertas](/help/components/alerts/alert-manager.md) e [informações gerais](/help/components/alerts/alerts-overview.md). |
-| Obsoleto `cookieDomainPeriods` | Agora que o AppMeasurement detecta automaticamente o domínio correto para definir os cookies, a variável [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) está obsoleta. |
+| Obsoleto `cookieDomainPeriods` | Agora que o AppMeasurement detecta automaticamente o domínio correto para definir os cookies, a variável [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) está obsoleta. |
 | Remoção da documentação do Data Connectors | A página do fim da vida útil do Data Connectors foi movida para [Produtos Descontinuados](https://experienceleague.adobe.com/pt-br/docs/discontinued/using/data-connectors). |
 | **Maio de 2024** | |
 | Informações necessárias ao usar restrições de política organizacional com a Google Cloud Platform em feeds de dados e data warehouse | Adição de ID da organização da Google Cloud Platform pertencente à Adobe à documentação de [feeds de dados](/help/export/analytics-data-feed/create-feed.md) e [data warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Essas informações são necessárias somente para organizações que estejam usando as [Restrições de política da organização](https://cloud.google.com/storage/docs/org-policy-constraints) na Google Cloud Platform.</p> |
 | Documentação sobre a adição de componentes a projetos | Adição de informações gerais sobre como [adicionar os vários tipos de componente a projetos no Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Atualização da documentação do Advertising Analytics | Atualização da documentação em conformidade com as atualizações feitas na interface do usuário do [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
-| Mapear explicitamente variáveis de objeto XDM para variáveis de dados de contexto | A capacidade de o [&#x200B; definir explicitamente variáveis de dados de contexto usando o mapeamento de variáveis de objetos de XDM foi documentada](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
+| Mapear explicitamente variáveis de objeto XDM para variáveis de dados de contexto | A capacidade de o [ definir explicitamente variáveis de dados de contexto usando o mapeamento de variáveis de objetos de XDM foi documentada](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Nova documentação para atualização do Adobe Analytics para o Customer Journey Analytics | Para organizações que estão atualizando do Adobe Analytics para o Customer Journey Analytics, há várias opções de atualização e várias considerações a serem levadas em conta com base na implementação atual do Adobe Analytics em uma organização e nas metas de longo prazo.<p>Novos recursos de documentação agora estão disponíveis para ajudar você a entender melhor:</p><ul><li>Os vários caminhos de atualização existentes</li><li>Quais caminhos de atualização estão disponíveis com base na implementação atual do Adobe Analytics de uma organização</li><li>As vantagens e desvantagens de cada caminho de atualização</li><li>Orientação passo a passo para cada caminho de atualização</li><li>Considerações para manuseio de dados históricos</li><li>E muito mais.</li></ul><p>[Introdução à atualização para o Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Atualização da documentação sobre intervalos de datas personalizados | Capturas de tela e procedimentos atualizados relacionados à [criação de intervalos de datas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para corresponder aos recursos e ao design atuais do produto. |
 | **Abril de 2024** | |
 | Remoção da documentação relacionada ao “Proprietário” nos conjuntos de classificação | O filtro e a coluna “Proprietário” foram removidos do [Gerenciador do conjunto de classificação](/help/components/classifications/sets/manage-sets.md) e o campo “Proprietário” foi removido das [Configurações do conjunto de classificação](/help/components/classifications/sets/manage/settings.md). <p>A documentação foi atualizada para remover este filtro, coluna e campo.</p> |
 | Seções recolhíveis removidas da documentação sobre como configurar locais de importação e exportação na nuvem | Seções recolhíveis removidas de [Configurar locais de importação e exportação na nuvem](/help/components/locations/configure-import-locations.md) para as informações que explicam os tipos de conta na nuvem. |
 | **Março de 2024** | |
-| Atualização do AppMeasurement | [Notas de versão](/help/implement/appmeasurement-updates.md) sobre a atualização v2.26.0 do AppMeasurement.<br/>Inclui referências e atualizações da [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) documentação de variáveis de configuração. |
+| Atualização do AppMeasurement | [Notas de versão](/help/implement/appmeasurement-updates.md) sobre a atualização v2.26.0 do AppMeasurement.<br/>Inclui referências e atualizações da [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) documentação de variáveis de configuração. |
 | A coluna “Usado em” disponibiliza informações de uso apenas a partir de setembro de 2023. | Esclarecimento de que as informações de uso relacionadas à coluna **Usado em** na [página de destino de projetos](/help/analyze/landing.md) mostram apenas dados a partir de setembro de 2023. |
 | **Fevereiro de 2024** | |
 | Atualizações de informações sobre o gerenciamento de solicitações do data warehouse | Esclarecimento de que, por padrão, os usuários podem visualizar somente as solicitações que criam durante o [gerenciamento do Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
@@ -174,7 +155,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | O conteúdo sobre gerenciamento de projetos programados foi movido | Um novo artigo no Guia de componentes do Analytics chamado [Projetos programados](/help/components/scheduled-projects-manager.md) foi criado. Este conteúdo estava anteriormente localizado no artigo [Agendar projetos](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) do Guia de ferramentas do Analytics. |
 | Comparação dos métodos de implementação | A documentação que compara os diferentes métodos de implementação foi atualizada. [Saiba mais](../implement/prepare/comparison.md) |
 | Esclarecimento sobre a configuração do SFTP para feeds de dados não necessitar do Atendimento ao cliente da Adobe | [Enviar dados da Adobe para uma conta FTP externa com SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) foi atualizado para esclarecer que os clientes não precisam entrar em contato com o Atendimento ao cliente da Adobe para configurar o SFTP para feeds de dados. <p>Também foi adicionada uma observação sobre o SFTP não ser mais recomendado e que os clientes devem usar um destino de nuvem ao configurar feeds de dados.</p> |
-| Melhorias na documentação da Coleção de mídia de streaming | Os seguintes aprimoramentos foram realizados na documentação da Coleção de mídia de streaming: <ul><li>Atualização da [visão geral](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview) para aumentar a clareza e incluir informações relacionadas ao Customer Journey Analytics.</li><li>A [visão geral de implementação](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/implementation/overview) foi atualizada para diferenciar claramente entre as implementações do Edge e as implementações somente do Analytics. Também incluímos diagramas para ilustrar os vários métodos de implementação.</li><li>Foram adicionados pré-requisitos específicos às [Implementações do Edge](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge) e [Implementações somente do Analytics](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics). Os [pré-requisitos gerais](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/getting-started/prereqs) também foram atualizados.</li><li>Tabelas atualizadas no artigo [Obter SDKs de mídia, extensões que usam tags e SDKs OTT](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/getting-started/download-sdks) para incluir novas colunas para *Soluções compatíveis* e *Método de implementação*.</li><li>Simplificação do conteúdo e da organização de artigos na área [Implementação](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/implementation/overview) da documentação. Isso incluiu categorizar implementações como implementações do Edge e implementações somente do Analytics.</li><li>Remoção de um nível extra de hierarquia que não era necessário em [Rastreamento](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/tracking/track-core-overview) e adição de redirecionamentos para URLs alterados nesta seção.</li><ul> |
+| Melhorias na documentação da Coleção de mídia de streaming | Os seguintes aprimoramentos foram realizados na documentação da Coleção de mídia de streaming: <ul><li>Atualização da [visão geral](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview) para aumentar a clareza e incluir informações relacionadas ao Customer Journey Analytics.</li><li>A [visão geral de implementação](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview) foi atualizada para diferenciar claramente entre as implementações do Edge e as implementações somente do Analytics. Também incluímos diagramas para ilustrar os vários métodos de implementação.</li><li>Foram adicionados pré-requisitos específicos às [Implementações do Edge](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge) e [Implementações somente do Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics). Os [pré-requisitos gerais](https://experienceleague.adobe.com/en/docs/media-analytics/using/getting-started/prereqs) também foram atualizados.</li><li>Tabelas atualizadas no artigo [Obter SDKs de mídia, extensões que usam tags e SDKs OTT](https://experienceleague.adobe.com/en/docs/media-analytics/using/getting-started/download-sdks) para incluir novas colunas para *Soluções compatíveis* e *Método de implementação*.</li><li>Simplificação do conteúdo e da organização de artigos na área [Implementação](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview) da documentação. Isso incluiu categorizar implementações como implementações do Edge e implementações somente do Analytics.</li><li>Remoção de um nível extra de hierarquia que não era necessário em [Rastreamento](https://experienceleague.adobe.com/en/docs/media-analytics/using/tracking/track-core-overview) e adição de redirecionamentos para URLs alterados nesta seção.</li><ul> |
 | **Julho de 2023** | |
 | API da Edge Network da Adobe Experience Platform | Foi adicionada uma documentação mais abrangente sobre quando e como implementar a coleta de dados com o Adobe Analytics, usando a [API da Edge Network da Adobe Experience Platform](../implement/aep-edge/api/overview.md). Por exemplo, implementação da coleção de dados com o Adobe Analytics em aplicativos de desktop, dispositivos IoT e conversores. |
 | ID global da empresa | Documentado [como encontrar a ID global da empresa](../admin/tools/company/web-services-admin.md) para a empresa do Analytics na qual você está conectado. Essa ID é necessária para as APIs do Analytics 2.0. |
@@ -231,7 +212,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Variáveis de gerenciamento de consentimento | Páginas dedicadas para a [Aceitação do gerenciamento de consentimento](/help/components/dimensions/cm-opt-in.md) e [Recusa do gerenciamento de consentimento](/help/components/dimensions/cm-opt-out.md). |
 | Atualização de várias moedas | As páginas referentes ao [Suporte a várias moedas](/help/implement/vars/config-vars/currencycode.md) foram atualizadas. |
 | **Outubro de 2022** |  |
-| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=pt-BR) |
+| Data Workbench | [Anúncio de fim da vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Dicas do cliente | Nova [visão geral e perguntas frequentes](/help/technotes/client-hints.md). |
 | Resumo da métrica principal | Novo tópico sobre a visualização do [Resumo da métrica principal](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de classificação | A nova experiência de [conjuntos de classificação](/help/components/classifications/sets/overview.md) do usuário oferece uma única interface para gerenciar classificações e regras e melhora a visibilidade dos dados de classificação de propriedade do cliente. |

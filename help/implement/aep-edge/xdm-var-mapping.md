@@ -5,20 +5,12 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/RQer9MEMvEkjecZ-0EkFyAQthPh7Vi9GmxtJcGGKDeI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 1955
 ht-degree: 76%
@@ -37,7 +29,7 @@ A maioria dos campos de objeto XDM nesta tabela corresponde a um [campo de objet
 
 ## Mapeamento de campos de objetos XDM
 
-As atualizações anteriores desta tabela podem ser encontradas no [histórico de confirmações desta página no GitHub](https://github.com/AdobeDocs/analytics.pt-BR/commits/main/help/implement/aep-edge/xdm-var-mapping.md).
+As atualizações anteriores desta tabela podem ser encontradas no [histórico de confirmações desta página no GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md).
 
 | Caminho de campo XDM | Variável e descrição do Analytics |
 | --- | --- |
@@ -85,7 +77,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | `xdm.environment.operatingSystem` | A dimensão de ciclo de vida móvel [Sistema operacional](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | Ajuda a definir a dimensão de ciclo de vida móvel [Versão do sistema operacional](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/). |
 | `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Define a respectiva dimensão da [eVar](/help/components/dimensions/evar.md). |
-| `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier5` | Define a respectiva dimensão da [Hierarquia](/help/components/dimensions/hierarchy.md). |
+| `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier5` | Define a respectiva dimensão da [Hierarquia](/help/components/dimensions/overview.md#retired-dimensions). |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Sobreposição do delimitador de propriedade de lista. O uso desse campo não é recomendado, pois o delimitador é recuperado automaticamente do [Administrador da variável de tráfego](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) nas configurações do conjunto de relatórios. O uso desse campo pode criar uma incompatibilidade entre o delimitador usado e o delimitador esperado pelo Analytics. |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Uma matriz de sequência de caracteres que contém os respectivos valores da [Propriedade de lista](../vars/page-vars/prop.md#list-props). |
 | `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena todas as strings `value` em cada matriz `list[]` à sua respectiva [variável de lista](../vars/page-vars/list.md). O delimitador é escolhido automaticamente com base no valor definido em [Configurações do conjunto de relatórios](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md). |
@@ -94,41 +86,41 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Aumenta a respectiva métrica de [Eventos personalizados](/help/components/metrics/custom-events.md) de acordo com o valor desejado. Cada evento reside no grupo principal de um conjunto de 100 grupos. Por exemplo, o campo para `event567` é `xdm._experience.analytics.event501to600.event567.value`. |
 | `xdm.identityMap.ECID[0].id` | A [ID do serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home). |
 | `xdm.marketing.trackingCode` | Define a dimensão [Código de rastreamento](/help/components/dimensions/tracking-code.md). |
-| `xdm.media.mediaTimed.completes.value` | A métrica de serviços de mídia de streaming [Conteúdo completo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/content-completes). |
+| `xdm.media.mediaTimed.completes.value` | A métrica de serviços de mídia de streaming [Conteúdo completo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes). |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`, `a.media.timePlayed`, `a.media.play` |
-| `xdm.media.mediaTimed.federated.value` | A métrica de serviços de mídia de streaming [Dados federados](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/federated-data). |
-| `xdm.media.mediaTimed.firstQuartiles.value` | A métrica de serviços de mídia de streaming [Marcador de progresso de 25%](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/progress-markers). |
-| `xdm.media.mediaTimed.mediaSegmentView.value` | A métrica de serviços de mídia de streaming [Visualizações de segmento de conteúdo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/content-segment-views). |
-| `xdm.media.mediaTimed.midpoints.value` | A métrica de serviços de mídia de streaming [Marcador de progresso de 50%](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/progress-markers). |
-| `xdm.media.mediaTimed.pauseTime.value` | A métrica de serviços de mídia de streaming [Duração total da pausa](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/total-pause-duration). |
-| `xdm.media.mediaTimed.pauses.value` | A métrica de serviços de mídia de streaming [Eventos de pausa](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/pause-events). |
-| `xdm.mediaCollection.sessionDetails.assetID` | A dimensão dos serviços de mídia de streaming [ID do ativo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/asset-id). |
-| `xdm.mediaCollection.sessionDetails.friendlyName` | A dimensão dos serviços de mídia de streaming [Nome do vídeo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content-name). |
-| `xdm.mediaCollection.sessionDetails.originator` | A dimensão dos serviços de mídia de streaming [Originador](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/originator). |
-| `xdm.mediaCollection.sessionDetails.episode` | A dimensão dos serviços de mídia de streaming [Episódio](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/episode). |
-| `xdm.mediaCollection.sessionDetails.genre` | A dimensão dos serviços de mídia de streaming [Gênero](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/genre). |
-| `xdm.mediaCollection.sessionDetails.rating` | A dimensão dos serviços de mídia de streaming [Classificação de conteúdo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content-rating). |
-| `xdm.mediaCollection.sessionDetails.season` | A dimensão dos serviços de mídia de streaming [Temporada](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/season). |
-| `xdm.mediaCollection.sessionDetails.name` | A dimensão dos serviços de mídia de streaming [ID de conteúdo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content). |
-| `xdm.mediaCollection.sessionDetails.show` | A dimensão de serviços de mídia de streaming [Programa](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/show). |
-| `xdm.mediaCollection.sessionDetails.showType` | A dimensão dos serviços de mídia de streaming [Tipo de programa](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/show-type). |
-| `xdm.mediaCollection.sessionDetails.length` | A dimensão dos serviços de mídia de streaming [Duração do vídeo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content-length). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | A dimensão dos serviços de mídia de streaming [ID da sessão de mídia](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/media-session-id). |
-| `xdm.mediaCollection.sessionDetails.channel` | A dimensão dos serviços de mídia de streaming [Canal de conteúdo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content-channel). |
-| `xdm.mediaCollection.sessionDetails.contentType` | A dimensão dos serviços de mídia de streaming [Tipo de conteúdo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content-type). |
-| `xdm.mediaCollection.sessionDetails.network` | A dimensão dos serviços de mídia de streaming [Rede](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/network). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | A dimensão dos serviços de mídia de streaming [Segmento de conteúdo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content-segment). |
-| `xdm.mediaCollection.sessionDetails.playerName` | A dimensão dos serviços de mídia de streaming [Nome do reprodutor de conteúdo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content-player-name). |
+| `xdm.media.mediaTimed.federated.value` | A métrica de serviços de mídia de streaming [Dados federados](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/federated-data). |
+| `xdm.media.mediaTimed.firstQuartiles.value` | A métrica de serviços de mídia de streaming [Marcador de progresso de 25%](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers). |
+| `xdm.media.mediaTimed.mediaSegmentView.value` | A métrica de serviços de mídia de streaming [Visualizações de segmento de conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views). |
+| `xdm.media.mediaTimed.midpoints.value` | A métrica de serviços de mídia de streaming [Marcador de progresso de 50%](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers). |
+| `xdm.media.mediaTimed.pauseTime.value` | A métrica de serviços de mídia de streaming [Duração total da pausa](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration). |
+| `xdm.media.mediaTimed.pauses.value` | A métrica de serviços de mídia de streaming [Eventos de pausa](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/pause-events). |
+| `xdm.mediaCollection.sessionDetails.assetID` | A dimensão dos serviços de mídia de streaming [ID do ativo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id). |
+| `xdm.mediaCollection.sessionDetails.friendlyName` | A dimensão dos serviços de mídia de streaming [Nome do vídeo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name). |
+| `xdm.mediaCollection.sessionDetails.originator` | A dimensão dos serviços de mídia de streaming [Originador](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator). |
+| `xdm.mediaCollection.sessionDetails.episode` | A dimensão dos serviços de mídia de streaming [Episódio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode). |
+| `xdm.mediaCollection.sessionDetails.genre` | A dimensão dos serviços de mídia de streaming [Gênero](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre). |
+| `xdm.mediaCollection.sessionDetails.rating` | A dimensão dos serviços de mídia de streaming [Classificação de conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating). |
+| `xdm.mediaCollection.sessionDetails.season` | A dimensão dos serviços de mídia de streaming [Temporada](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season). |
+| `xdm.mediaCollection.sessionDetails.name` | A dimensão dos serviços de mídia de streaming [ID de conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content). |
+| `xdm.mediaCollection.sessionDetails.show` | A dimensão de serviços de mídia de streaming [Programa](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show). |
+| `xdm.mediaCollection.sessionDetails.showType` | A dimensão dos serviços de mídia de streaming [Tipo de programa](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type). |
+| `xdm.mediaCollection.sessionDetails.length` | A dimensão dos serviços de mídia de streaming [Duração do vídeo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | A dimensão dos serviços de mídia de streaming [ID da sessão de mídia](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id). |
+| `xdm.mediaCollection.sessionDetails.channel` | A dimensão dos serviços de mídia de streaming [Canal de conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel). |
+| `xdm.mediaCollection.sessionDetails.contentType` | A dimensão dos serviços de mídia de streaming [Tipo de conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type). |
+| `xdm.mediaCollection.sessionDetails.network` | A dimensão dos serviços de mídia de streaming [Rede](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | A dimensão dos serviços de mídia de streaming [Segmento de conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment). |
+| `xdm.mediaCollection.sessionDetails.playerName` | A dimensão dos serviços de mídia de streaming [Nome do reprodutor de conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name). |
 | `xdm.mediaCollection.sessionDetails.appVersion` | A dimensão Versão do SDK dos serviços de mídia de transmissão. Consulte a [Visão geral dos serviços de mídia de streaming](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview). |
-| `xdm.mediaCollection.sessionDetails.feed` | A dimensão dos serviços de mídia de streaming [Tipo de feed de mídia](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/media-feed-type). |
-| `xdm.mediaCollection.sessionDetails.streamFormat` | A dimensão dos serviços de mídia de streaming [Formato de transmissão](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/stream-format). |
-| `xdm.media.mediaTimed.progress10.value` | A métrica de serviços de mídia de streaming [Marcador de progresso de 10%](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/progress-markers). |
-| `xdm.media.mediaTimed.progress95.value` | A métrica de serviços de mídia de streaming [Marcador de progresso de 95%](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/progress-markers). |
-| `xdm.mediaCollection.sessionDetails.hasResume` | A métrica de serviços de mídia de streaming [Resumos de conteúdo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/content-resumes). |
-| `xdm.media.mediaTimed.starts.value` | A métrica de serviços de mídia de streaming [Inícios de mídia](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/media-starts). |
-| `xdm.media.mediaTimed.thirdQuartiles.value` | A métrica de serviços de mídia de streaming [Marcador de progresso de 75%](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/progress-markers). |
-| `xdm.media.mediaTimed.timePlayed.value` | A métrica de serviços de mídia de streaming [Tempo gasto com conteúdo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/content-time-spent). |
-| `xdm.media.mediaTimed.totalTimePlayed.value` | A métrica de serviços de mídia de streaming [Tempo gasto com a mídia](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/metrics/media-time-spent). |
+| `xdm.mediaCollection.sessionDetails.feed` | A dimensão dos serviços de mídia de streaming [Tipo de feed de mídia](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type). |
+| `xdm.mediaCollection.sessionDetails.streamFormat` | A dimensão dos serviços de mídia de streaming [Formato de transmissão](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-format). |
+| `xdm.media.mediaTimed.progress10.value` | A métrica de serviços de mídia de streaming [Marcador de progresso de 10%](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers). |
+| `xdm.media.mediaTimed.progress95.value` | A métrica de serviços de mídia de streaming [Marcador de progresso de 95%](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers). |
+| `xdm.mediaCollection.sessionDetails.hasResume` | A métrica de serviços de mídia de streaming [Resumos de conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes). |
+| `xdm.media.mediaTimed.starts.value` | A métrica de serviços de mídia de streaming [Inícios de mídia](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts). |
+| `xdm.media.mediaTimed.thirdQuartiles.value` | A métrica de serviços de mídia de streaming [Marcador de progresso de 75%](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers). |
+| `xdm.media.mediaTimed.timePlayed.value` | A métrica de serviços de mídia de streaming [Tempo gasto com conteúdo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent). |
+| `xdm.media.mediaTimed.totalTimePlayed.value` | A métrica de serviços de mídia de streaming [Tempo gasto com a mídia](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent). |
 | `xdm.placeContext.geo._schema.latitude` | A latitude do visitante. Ajuda a definir as dimensões de [local do ciclo de vida do dispositivo móvel.](/help/components/dimensions/lifecycle-dimensions.md). |
 | `xdm.placeContext.geo._schema.longitude` | A longitude do visitante. Ajuda a definir as dimensões de [Local do ciclo de vida do dispositivo móvel.](/help/components/dimensions/lifecycle-dimensions.md). |
 | `xdm.placeContext.geo.postalCode` | A dimensão [Código postal](/help/components/dimensions/zip-code.md). |

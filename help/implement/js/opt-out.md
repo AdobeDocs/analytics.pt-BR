@@ -6,25 +6,15 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
 TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 638
-ht-degree: 65%
+source-wordcount: 603
+ht-degree: 69%
 
 ---
 
@@ -32,7 +22,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
-> Este artigo fornece aos **clientes do Adobe Analytics que (estão planejando) implementar o Adobe Analytics** em seu site instruções sobre como fornecer links para opção de não participação aos usuários do site. <p><p>> Se você está **visitando um site que implementou o Adobe Analytics** e deseja recusar, **<span style="color:red">este artigo NÃO é para você</span>**. Consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.
+> Este artigo fornece aos **clientes do Adobe Analytics que (estão planejando) implementar o Adobe Analytics** em seu site instruções sobre como fornecer links para opção de não participação aos usuários do site. <p><p>> Se você estiver **visitando um site que implementou o Adobe Analytics** e quiser recusar, **<span style="color:red">este artigo NÃO é para você</span>**. Consulte [Opções de privacidade do Adobe](https://www.adobe.com/br/privacy/opt-out.html) para controlar como o Adobe usa suas informações.
 
 Alguns visitantes do site preferem não ter suas informações de navegação incluídas no conjunto de dados. O Adobe oferece a capacidade de fornecer aos visitantes do seu site uma maneira de optar pela não participação em suas informações que estão sendo analisadas.
 
@@ -46,7 +36,7 @@ Quando um visitante atinge um URL de opção de não participação, ele é soli
 
 ## URL de não participação
 
-A página de opção de não participação da organização depende do valor da variável [`trackingServer`](../vars/config-vars/trackingserver.md) na implementação.
+A página de opção de não participação da organização depende do valor da variável [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) na implementação.
 
 * Na extensão do Analytics:
    1. Faça logon na [Coleção de dados da Adobe Experience Platform](https://experience.adobe.com/data-collection) usando suas credenciais da Adobe ID.
@@ -58,7 +48,7 @@ A página de opção de não participação da organização depende do valor da
    1. No servidor da Web, abra o arquivo AppMeasurement.js usado no site em um editor de código ou texto.
    1. Observe o valor da variável `trackingServer`.
 
-* Usando o [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=pt-BR):
+* Usando o [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Navegue até seu site usando o navegador Chrome.
    1. Abra o CX Enterprise Debugger e acesse a [!UICONTROL guia Rede].
    1. Observe o valor [!UICONTROL URL de solicitação - Nome do host].

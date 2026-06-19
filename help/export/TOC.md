@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guia de exportação do Analytics
 breadcrumb-title: Guia de exportação
 user-guide-description: Saiba mais sobre como usar os feeds de dados e o Data Warehouse para recuperar os resultados de dados.
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '271'
 ht-degree: 94%
 
 ---
@@ -49,6 +49,7 @@ ht-degree: 94%
    + [Classificar por métrica](data-warehouse/sorting-by-metric.md)
    + [Gerenciar solicitações do Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Componentes compatíveis com o Data Warehouse](data-warehouse/component-support.md)
+   + [Compatibilidade de segmentos do Data warehouse](data-warehouse/segment-compatibility.md)
    + [Práticas recomendadas do Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP e SFTP {#ftp-and-sftp}
    + [Usar FTP e SFTP com o Adobe CX Enterprise](ftp-and-sftp/ftp-overview.md)
