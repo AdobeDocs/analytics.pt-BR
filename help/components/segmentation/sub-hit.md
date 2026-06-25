@@ -3,11 +3,9 @@ title: Análise de sub-ocorrências
 description: Saiba como a análise de sub-ocorrência permite filtrar produtos individuais em uma ocorrência no Adobe Analytics, eliminando a sangria de atribuição nos relatórios de produtos.
 feature: Segmentation
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 68469e0359deed0d642b1d00d55259c33c410fd4
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -28,7 +26,7 @@ Na análise de sub-ocorrência, a lógica de exclusão se comporta de forma dife
 
 Você deseja medir a receita online somente da categoria Homens. Sem a análise de sub-ocorrência, a aplicação de um segmento para Homens inclui a receita de cada produto em qualquer pedido (ocorrência) que contenha pelo menos um produto com a categoria Homens. Com a análise de subocorrência, você define o escopo do filtro para o nível do produto e retorna somente a receita para produtos da categoria Homens.
 
-Também é possível medir a receita on-line de todas as outras categorias, exceto a categoria Homens.
+Também é possível medir a receita online de todas as outras categorias, exceto a categoria Homens.
 
 >[!BEGINTABS]
 
