@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 262
-ht-degree: 94%
+source-wordcount: 314
+ht-degree: 74%
 
 ---
 
@@ -36,6 +36,10 @@ Essa dimensão funciona imediatamente em todas as implementações. Se um conjun
 ## Itens de dimensão
 
 Os itens de dimensão incluem a string `"Hit Depth"` seguida por um número que representa o número de ocorrências na visita. O item de dimensão `"Hit Depth 1"` representa a primeira ocorrência da visita, enquanto o item de dimensão `"Hit Depth 8"` representa a 8ª ocorrência da visita.
+
+>[!NOTE]
+>
+>O Adobe Analytics registra carimbos de data e hora somente com precisão de segundo nível. Para ocorrências que compartilham o mesmo carimbo de data e hora em segundo lugar, o Adobe não pode garantir que a ordem refletida no relatório seja a mesma que a ordem em que as ocorrências ocorreram. Se a precisão de nível de milissegundo for uma prioridade para sua organização, considere usar o Customer Journey Analytics.
 
 ## Comparação com a profundidade da visita
 
