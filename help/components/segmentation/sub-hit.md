@@ -3,8 +3,10 @@ title: Análise de sub-ocorrências
 description: Saiba como a análise de sub-ocorrência permite filtrar produtos individuais em uma ocorrência no Adobe Analytics, eliminando a sangria de atribuição nos relatórios de produtos.
 feature: Segmentation
 hide: true
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
 source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
 workflow-type: tm+mt
 source-wordcount: 808
