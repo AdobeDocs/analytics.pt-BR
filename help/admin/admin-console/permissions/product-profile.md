@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
+source-git-commit: e681610c8238aa4940053a28ee60ea54492cba8b
 workflow-type: tm+mt
 source-wordcount: 686
 ht-degree: 62%
@@ -77,6 +77,6 @@ Os itens de permissão das ferramentas do Analytics concedem acesso a recursos q
 
 ## Desenvolvedores de perfil do produto
 
-Os desenvolvedores são semelhantes aos usuários, mas eles têm a capacidade de usar a API corporativa do CX no Adobe Developer. Consulte [Gerenciar desenvolvedores](https://helpx.adobe.com/br/enterprise/using/manage-developers.html) no guia do usuário Enterprise para obter mais informações. Se um usuário receber acesso de desenvolvedor para qualquer perfil, ele poderá acessar o Dev Console (console.adobe.io) e editar integrações do Adobe Analytics. As chamadas e respostas da API do Analytics autorizadas para o usuário dependem das permissões de rede de todos os perfis aos quais o usuário tem acesso de desenvolvedor.
+Os desenvolvedores são semelhantes aos usuários, mas eles têm a capacidade de usar as APIs da Experience Cloud no Adobe Developer. Consulte [Gerenciar desenvolvedores](https://helpx.adobe.com/br/enterprise/using/manage-developers.html) no guia do usuário Enterprise para obter mais informações. Se um usuário receber acesso de desenvolvedor para qualquer perfil, ele poderá acessar o Dev Console (console.adobe.io) e editar integrações do Adobe Analytics. As chamadas e respostas da API do Analytics autorizadas para o usuário dependem das permissões de rede de todos os perfis aos quais o usuário tem acesso de desenvolvedor.
 
 Por exemplo, com permissões de perfil que incluem todas as métricas, todas as dimensões e um conjunto de relatórios, um desenvolvedor pode tornar as chamadas de API relevantes para qualquer componente nesse conjunto de relatórios. Se o item de permissão Detecção de anomalias for adicionado, as respostas da API poderão incluir dados de anomalias. Como regra geral, se um perfil conceder acesso a um cenário na interface do Adobe Analytics, o acesso do desenvolvedor a um perfil definido de forma semelhante ativará as chamadas e respostas da API correspondentes.
