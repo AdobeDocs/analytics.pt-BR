@@ -3,7 +3,7 @@ description: Entenda como configurar uma visualização da tela de jornada.
 title: Configurar a visualização de uma tela de jornada
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '5783'
 ht-degree: 90%
@@ -583,5 +583,4 @@ Para incluir novamente um nó excluído na jornada:
 Para excluir setas entre nós na Tela de jornada:
 
 1. Em uma visualização Tela de jornada, selecione uma ou mais setas entre 2 nós que deseja excluir e clique com o botão direito do mouse em uma das setas selecionadas.
-
 1. Clique em [!UICONTROL **Excluir**].
