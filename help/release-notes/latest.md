@@ -2,46 +2,35 @@
 title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 72%
+source-wordcount: 998
+ht-degree: 56%
 
 ---
 
-# Notas de versão atuais do Adobe Analytics (junho de 2026)
+# Notas de versão atuais do Adobe Analytics (julho de 2026)
 
-**Última atualização**: 25 de junho de 2026
+**Última atualização**: 8 de julho de 2026
 
-Essas notas de versão abrangem o período de junho de 2026. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Dessa forma, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+Essas notas de versão abrangem o período de julho de 2026. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Dessa forma, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 ## Novos recursos ou melhorias {#features}
 
 | Recurso e descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ---- |
-| **Tela da jornada no Adobe Analytics** <br/>A Tela da jornada é uma visualização no Analysis Workspace que permite obter insights profundos sobre uma jornada do usuário definida ao analisar como as pessoas avançam ou abandonam a jornada. Ela permite criar um gráfico flexível de nós e setas representando qualquer combinação de eventos, itens de dimensão e segmentos incluídos na jornada. Os dados atualizam conforme se arrasta os nós para a tela ou se reorganiza os eventos e as condições da jornada.<p>A Tela da jornada estava disponível anteriormente apenas para o Customer Journey Analytics.</p><p>Para saber mais sobre a Tela da jornada no Adobe Analytics, consulte [Visão geral da Tela da jornada](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>Para saber como criar uma visualização da Tela da jornada no Adobe Analytics, consulte [Configurar Tela da jornada](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | 18 de maio de 2026 | 5 de junho de 2026 |
+| **Análise de subocorrência** <br/>A análise de subocorrência permite analisar os dados do produto em um nível mais granular do que o nível de ocorrência. Em vez de filtrar em ocorrências inteiras, você pode segmentar em produtos individuais nas ocorrências. Por exemplo, segmentar em uma categoria de produto específica sem incluir todos os outros produtos comprados na mesma ordem. | 8 de julho | Final de julho de 2026 |
+| **Guia de recursos de pesquisa de API do AA 2.0** <br/>Use recursos de pesquisa para [retornar um subconjunto de itens de dimensão em relatórios](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters). | | 1 de julho de 2026 |
+| **Automatização de relatórios recorrentes com APIs do AA** <br/>Configure relatórios recorrentes e automáticos do Analytics para o seu pipeline de dados com métricas novas em um agendamento com a [API de relatório](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring). | | 1 de julho de 2026 |
+| **Novos parâmetros de expansão para o AA** <br/>Use novos parâmetros de expansão da API do Dimension para recuperar campos de configuração do eVar para tipos de alocação, expirações, tipos de dados e merchandising. <p>Para obter mais informações, consulte a [Referência da API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) e o [manual de ponto de extremidade de dimensões](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/).</p> | | 1 de julho de 2026 |
 
 ### Correções no Adobe Analytics
 
