@@ -15,10 +15,10 @@ subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 371
-ht-degree: 66%
+source-wordcount: 375
+ht-degree: 58%
 
 ---
 
@@ -65,7 +65,7 @@ Como parte da visualização, configurações específicas do histograma estão 
 | **[!UICONTROL Grupo inicial]** | Determina com qual bloco o histograma começa. &quot;1&quot; é o padrão. Você pode definir números iniciais de 0 até o infinito (sem números negativos). |
 | **[!UICONTROL Grupos de métricas]** | Permite aumentar/diminuir o número de intervalos de dados (compartimentos). O número máximo de grupos é 50. |
 | **[!UICONTROL Tamanho do grupo de métricas]** | Permite definir o tamanho de cada intervalo. Por exemplo, você pode alterar o tamanho do intervalo de uma exibição de página para duas exibições de página. |
-| **[!UICONTROL Método de contagem]** | Selecione de **[!UICONTROL Pessoa]**, **[!UICONTROL Sessão]** ou **[!UICONTROL Evento]**. Por exemplo, exibições de página por visita, por visitante ou por evento. |
+| **[!UICONTROL Método de contagem]** | Selecione entre **[!UICONTROL Pessoa]**, **[!UICONTROL Sessão]**, **[!UICONTROL Evento]** ou **[!UICONTROL Produtos]** (para [análise de sub-ocorrência](/help/components/segmentation/sub-hit.md)). Por exemplo, exibições de página por sessão ou exibições de página por pessoa, exibições de página por evento ou exibição de página por produto. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -78,8 +78,5 @@ Como parte da visualização, configurações específicas do histograma estão 
 
 >[!MORELIKETHIS]
 >
->[Adicionar uma visualização a um painel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configurações de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu de contexto de visualização](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->[Usando histogramas para identificar valores de dados inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=pt)
+>[Adicionar uma visualização a um painelConfigurações de visualizaçãoMenu de contexto de visualizaçãoUsando histogramas para identificar valores de dados inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=pt)
 

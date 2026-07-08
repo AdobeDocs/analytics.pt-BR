@@ -20,10 +20,10 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 19%
+source-wordcount: 1292
+ht-degree: 17%
 
 ---
 
@@ -91,9 +91,9 @@ A área do cabeçalho determina o nome, o tipo e o escopo do segmento rápido. E
 | Elemento | Descrição |
 |---|---|
 | **[!UICONTROL Nome]** | O nome é derivado automaticamente da definição de segmento rápido. |
-| **[!UICONTROL Pessoas]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alerta](/help/assets/icons/Alert.svg) | Visualização visual dos dados resultantes do segmento rápido. Uma barra e uma porcentagem fornecem um insight sobre quanto dos dados gerais fazem parte do resultado do segmento rápido. Um ![Alerta](/help/assets/icons/AlertRed.svg) indica que o segmento rápido não retorna dados. |
+| **[!UICONTROL _Métrica_]** <br/>![CírculoDeMarcaDeVerificação](/help/assets/icons/CheckmarkCircle.svg) ![Alerta](/help/assets/icons/Alert.svg) | Visualizar os dados das métricas resultantes do segmento rápido. Uma barra e uma porcentagem fornecem um insight sobre quanto dos dados gerais fazem parte do resultado do segmento rápido. Um ![Alerta](/help/assets/icons/AlertRed.svg) indica que o segmento rápido não retorna dados. |
 | **[!UICONTROL Incluir]**<br/>**[!UICONTROL Excluir]** | Na lista suspensa ![DivisaAbaixo](/help/assets/icons/ChevronDown.svg), selecione se deseja incluir ou excluir os resultados do segmento rápido dos dados no painel. |
-| **[!UICONTROL Evento]**<br/>**[!UICONTROL Sessão]**<br/>**[!UICONTROL Pessoa]** | Selecione o escopo do segmento rápido no menu suspenso ![Divisa](/help/assets/icons/ChevronDown.svg). |
+| **[!UICONTROL Evento]**<br/>**[!UICONTROL Sessão]**<br/>**[!UICONTROL Pessoa]**<br/>**[!UICONTROL Produtos]** | Selecione o escopo do segmento rápido no menu suspenso ![Divisa](/help/assets/icons/ChevronDown.svg). Casos de uso de **[!UICONTROL Produtos]** para [análise de subocorrência](/help/components/segmentation/sub-hit.md).<ul><li>Ao arrastar uma dimensão de produto ou métrica de produto para o painel Segmento rápido, o sistema seleciona automaticamente o contêiner **[!UICONTROL Produtos]** e não usa o contêiner padrão **[!UICONTROL Ocorrência]**. Esse comportamento mantém o escopo do segmento para produtos individuais em vez da ocorrência inteira.</li><li>Ao arrastar os componentes de nível de produto e de nível de ocorrência para uma única regra de segmento, o sistema usa o contêiner de **[!UICONTROL Ocorrência]**, que é o contêiner compartilhado mais alto (menos granular). Se todos os componentes que fazem parte de uma regra de segmento forem de nível de produto, o contêiner **[!UICONTROL Produtos]** será usado.</li></ul> |
 
 ### Área de condição
 
