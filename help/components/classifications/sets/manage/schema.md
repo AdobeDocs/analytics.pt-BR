@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c1846b5fd063846eae6da1b1dc7b17659d0a1b14
+source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
 workflow-type: tm+mt
 source-wordcount: 1895
 ht-degree: 9%
@@ -226,7 +226,7 @@ Por exemplo:
 >Remova os arquivos do local da nuvem manualmente ou usando uma política de rotação de arquivos depois que os arquivos forem importados e processados com êxito. Caso contrário, os arquivos serão reimportados e reprocessados com base na data da última modificação do arquivo e usando um log de 30 dias. Veja o exemplo abaixo.
 >
 
-### Exemplo
+#### Exemplo
 
 Um arquivo de importação, chamado `import.csv`, foi criado e carregado em 1/5/2026, e atualizado e carregado em 16/6/2026. Quando o arquivo não for removido, em:
 
