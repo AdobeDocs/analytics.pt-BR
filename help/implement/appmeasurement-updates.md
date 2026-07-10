@@ -5,35 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2881
-ht-degree: 55%
+source-wordcount: 2880
+ht-degree: 54%
 
 ---
 
@@ -58,7 +38,7 @@ Data de lançamento: **terça-feira, 12 de agosto de 2024**
 Data de lançamento: **terça-feira, 4 de março de 2024**
 
 * O AppMeasurement reconhece e utiliza automaticamente o domínio raiz para domínios de nível superior do código do país, que anteriormente exigiam configurações específicas de domínio de cookie. A atualização pode ter implicações devido a esse reconhecimento automático.
-* A distribuição inclui a Biblioteca do serviço de identidade 5.5.0 e o Data Integration Library 9.6.
+* A distribuição inclui a Biblioteca 5.5.0 do serviço de ID de visitante e o Data Integration Library 9.6.
 
 ## Versão 2.25.0
 
@@ -178,7 +158,7 @@ Data de lançamento: **22 de fevereiro de 2019**
 
 * Atualização do módulo Gerenciamento de público-alvo DIL 9.1. (AN-175255)
 * A Política de Segurança GTM não permite o Módulo Activity Map. (AN-174679)
-* Aprimoramento do AppMeasurement para dar prioridade à opção de não participação, quando o Serviço de identidade não for aprovado na opção de não participação. (AN-175259)
+* Aprimoramento do AppMeasurement para aceitar a recusa quando o Serviço de ID de visitante não for aprovado na aceitação. (AN-175259)
 
 ## Versão 2.11.0
 
@@ -205,7 +185,7 @@ Data de lançamento: **24 de maio de 2018**
 
 >[!NOTE]
 >
->A API de visitante 3.0 ou superior é necessária para clientes que usam o serviço da Experience Cloud ID. A Adobe recomenda atualizar para a versão mais recente da API de visitante sempre que as bibliotecas de código associadas forem atualizadas ( `at.js`, `AppMeasurement.js`, e assim por diante).
+>A API de visitante 3.0 ou superior é necessária para clientes que usam o Serviço de ID de visitante. A Adobe recomenda atualizar para a versão mais recente da API de visitante sempre que as bibliotecas de código associadas forem atualizadas ( `at.js`, `AppMeasurement.js`, e assim por diante).
 
 * Atualização do AppMeasurement para usar a interface de Visitante atualizada para solicitar IDs. (AN-151483)
 * Correção de um problema que fazia com que o cookie de rastreamento de link continuasse sendo gravado mesmo depois da desativação do rastreamento de link. (AN-156332)
@@ -321,7 +301,7 @@ Atualizado em: **18 de agosto de 2016**
 
 >[!NOTE]
 >
->Consulte também as notas de versão a seguir para o JavaScript versão 1.6.3, que inclui requisitos atualizados para o serviço Experience Cloud ID.
+>Consulte também as notas de versão a seguir para o JavaScript versão 1.6.3, que inclui requisitos atualizados para o Serviço de ID de visitante.
 
 ## Versão 1.6.3
 
@@ -331,7 +311,7 @@ Atualizado em: **4 de agosto de 2016**
 
 >[!IMPORTANT]
 >
->A versão 1.6.0 do serviço da Experience Cloud ID *requer* o AppMeasurement para JavaScript versão 1.6.3 ou superior. Se você deseja atualizar para a versão 1.6.0 do serviço da Experience Cloud ID, verifique se está usando o AppMeasurement 1.6.3 ou superior.
+>A versão 1.6.0 do Serviço de ID de Visitante *requer* o AppMeasurement para JavaScript versão 1.6.3 ou superior. Se quiser atualizar para a versão 1.6.0 do Serviço de ID de visitante, verifique se está usando o AppMeasurement 1.6.3 ou superior.
 
 ## Versão 1.6.2
 
@@ -469,7 +449,7 @@ Data de lançamento: **21 de agosto de 2014**
 Data de lançamento: **19 de junho de 2014**
 
 * Corrigido o uso das bandeiras de conclusão e espera para os campos da API do visitante, como a ID do visitante do Analytics herdada, que gerava erros.
-* Suporte para novos recursos no serviço de ID do visitante 1.3.
+* Suporte para novos recursos no Serviço de ID do visitante 1.3.
 
 ## Versão 1.3.1
 
@@ -481,7 +461,7 @@ Data de lançamento: **22 de maio de 2014**
 
 Data de lançamento: **17 de abril de 2014**
 
-* Suporte para o [Serviço de ID de visitante corporativo do CX](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
+* Suporte para o [Serviço de ID do Visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home).
 
 ## Versão 1.2.4
 
@@ -512,7 +492,7 @@ Data de lançamento: **15 de novembro de 2013**
 Data de lançamento: **14 de novembro de 2013**
 
 * Adição de suporte para [medição de vídeo de heartbeat](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).
-* `VisitorAPI.js` foi adicionado para oferecer suporte ao [Serviço de ID do visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
+* `VisitorAPI.js` foi adicionado para oferecer suporte ao [Serviço de ID do visitante](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home).
 
 ## Versão 1.1.1
 

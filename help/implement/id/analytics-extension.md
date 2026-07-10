@@ -3,57 +3,48 @@ title: Identificação do visitante usando a extensão de tag do Adobe Analytics
 description: Identifique corretamente os visitantes ao implementar a extensão de tag da Adobe Analytics.
 exl-id: de534c69-0f43-45eb-86da-20d3cd3f363d
 TQID: 'https://experienceleague.adobe.com/i38Vo-39aUwJOp3HoS-bb2jqwSSV0oqeR0lkjOJqcgs'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 505
 ht-degree: 2%
 
 ---
 
 # Identificação do visitante usando a extensão de tag do Adobe Analytics
 
-A extensão de tag da Adobe Analytics permite implementar o AppMeasurement usando uma interface de gerenciamento de tags. Como essa extensão de tag é essencialmente do AppMeasurement, ela oferece métodos semelhantes para identificar visitantes e requer uma extensão de tag separada para o Serviço de ID do visitante.
+A extensão de tag da Adobe Analytics permite implementar o AppMeasurement usando uma interface de gerenciamento de tags. Como essa extensão de tag é essencialmente a AppMeasurement, ela oferece métodos semelhantes para identificar visitantes e requer uma extensão de tag separada para coletar a ECID.
 
 ## Identificação de visitantes usando o Serviço de ID de visitante (recomendado)
 
-Para usar o Serviço de ID de visitante usando a extensão de tag da Adobe Analytics, inclua a extensão de tag do Serviço da Experience Cloud ID na propriedade de tag.
+Para usar o Serviço de ID de visitante usando a extensão de tag da Adobe Analytics, inclua a extensão de tag do [!UICONTROL Serviço da Experience Cloud ID] (que implementa o Serviço de ID de visitante) na propriedade de tag.
 
 1. Faça logon no [Adobe CX Enterprise](https://experience.adobe.com) usando suas credenciais da Adobe ID.
 1. Navegue até **[!UICONTROL Coleção de dados]** > **[!UICONTROL Marcas]**.
 1. Localize a propriedade de tag desejada.
 1. Navegue até **[!UICONTROL Extensões]** e selecione a guia **[!UICONTROL Catálogo]**.
-1. Localize a extensão do **[!UICONTROL Experience Cloud ID Service]** e selecione **[!UICONTROL Instalar]**.
+1. Localize a extensão do **[!UICONTROL Serviço da Experience Cloud ID]** e selecione **[!UICONTROL Instalar]**.
 
 A extensão de tag obtém automaticamente sua ID da organização IMS, portanto, nenhuma configuração adicional é necessária.
 
-## Identificação de visitantes usando o cookie `s_vi` (Não recomendado)
+## Identificação de visitantes usando o cookie `s_vi` (não recomendado)
 
 >[!IMPORTANT]
 >
 >A Adobe recomenda não usar esse método para identificar visitantes.
 
-Se a sua organização não usar a extensão de tag do Serviço de ID de visitante, a extensão de tag da Adobe Analytics usará sua própria forma de identificação do visitante. Quando um visitante chega ao seu site pela primeira vez, a extensão verifica se há um cookie [`s_vi`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics). Este cookie é definido no domínio correspondente ao **[!UICONTROL Servidor de Rastreamento SSL]** (para HTTPS) ou ao **[!UICONTROL Servidor de Rastreamento]** (para HTTP) ao [configurar a extensão de tag](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/analytics/overview).
+Se sua organização não usar a extensão de tag do [!UICONTROL Experience Cloud ID Service], a extensão de tag da Adobe Analytics usará sua própria forma herdada de identificação de visitantes. Quando um visitante chega ao seu site pela primeira vez, a extensão verifica se há um cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Este cookie é definido no domínio correspondente ao **[!UICONTROL Servidor de Rastreamento SSL]** (para HTTPS) ou ao **[!UICONTROL Servidor de Rastreamento]** (para HTTP) ao [configurar a extensão de tag](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/analytics/overview).
 
-* Se você participar do [Programa de certificado gerenciado](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/adobe-managed-cert), o servidor de rastreamento normalmente será um domínio próprio, tornando os cookies do `s_vi` originais.
+* Se você participar do [Programa de certificado gerenciado](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), o servidor de rastreamento normalmente será um domínio próprio, tornando os cookies do `s_vi` originais.
 * Se você não participar do programa de certificado Gerenciado, o servidor de rastreamento normalmente é um subdomínio de `adobedc.net`, `omtrdc.net` ou `2o7.net`, tornando o cookie `s_vi` um cookie de terceiros. Devido aos padrões modernos de privacidade do navegador, os cookies de terceiros são rejeitados pela maioria dos navegadores. Depois de rejeitado, o AppMeasurement tenta definir um cookie de fallback primário (`fid`).
 
 Se você definiu corretamente o [!UICONTROL Servidor de Rastreamento SSL], nenhuma outra medida de identificação de visitante será necessária.
 
-## Identificando visitantes usando `visitorID` (Não recomendado)
+## Identificação de visitantes usando `visitorID` (não recomendado)
 
 >[!IMPORTANT]
 >
