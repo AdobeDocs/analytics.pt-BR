@@ -27,10 +27,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 96%
+source-wordcount: 885
+ht-degree: 95%
 
 ---
 
@@ -67,7 +67,7 @@ Use as diretrizes gerais a seguir para entender o processo de implementação de
    >Verifique se determinada variável personalizada é usada de forma semelhante nos domínios. Não use a mesma eVar ou evento para fins diferentes em seus sites.
 1. Verifique se cada domínio tem uma camada de dados para simplificar a coleta de dados. Os dados ainda podem ser coletados sem uma camada de dados, mas a confiabilidade e a longevidade de sua implementação diminuem, especialmente quando o site passa por reformulações.
 1. Use tags na Adobe Experience Platform para implementar o Analytics. Sites diferentes provavelmente exigirão elementos de dados diferentes. Use regras específicas de cada domínio para garantir que cada elemento de dados seja preenchido corretamente e, em seguida, atribua esses elementos de dados às respectivas eVars e eventos. Consulte a [visão geral das tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR).
-1. Inclua o [Serviço de ID da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) e use a função [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=pt-BR). Essa função une os dados do visitante quando os usuários clicam de um domínio para outro.
+1. Inclua o [Serviço de ID de Visitante da Adobe](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) e use a função [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=pt-BR). Essa função une os dados do visitante quando os usuários clicam de um domínio para outro.
 
 ## Modificar uma implementação existente com um conjunto de relatórios global
 
@@ -80,5 +80,4 @@ O processo de mover uma implementação existente em vários sites para um únic
 
 >[!MORELIKETHIS]
 >
->[Mudança da marcação de vários conjuntos para um conjunto de relatórios global e virtual](../../components/vrs/vrs-considerations.md)
->[Comparando rollups e conjuntos de relatórios globais](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[Mudança da marcação de vários conjuntos para um conjunto de relatórios global e virtualComparando rollups e conjuntos de relatórios globais](../../admin/tools/manage-rs/rollup-report-suite.md)

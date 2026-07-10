@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 470
-ht-degree: 88%
+source-wordcount: 468
+ht-degree: 89%
 
 ---
 
@@ -107,4 +107,4 @@ O exemplo a seguir mostra diversas variáveis personalizadas incluídas em uma c
 
 ## Instant Articles do Facebook e privacidade
 
-Enquanto a página de HTML do Analytics estiver hospedada no seu servidor da Web, a Adobe pode oferecer suporte à política de privacidade nos Instant Articles do Facebook. Se um usuário optar por não ser rastreado no site principal, ele também deixará de ser rastreado em todos os Instant Articles do Facebook. A página de utilitários também oferece suporte ao Adobe Experience Cloud Identity Service para que você possa integrar os dados do Instant Article do Facebook ao restante da CX Enterprise.
+Enquanto a página de HTML do Analytics estiver hospedada no seu servidor da Web, a Adobe pode oferecer suporte à política de privacidade nos Instant Articles do Facebook. Se um usuário optar por não ser rastreado no site principal, ele também deixará de ser rastreado em todos os Instant Articles do Facebook. A página de utilitários também oferece suporte ao Serviço de ID de visitante para que você possa integrar os dados do Instant Article do Facebook ao restante da CX Enterprise.

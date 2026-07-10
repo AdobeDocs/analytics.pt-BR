@@ -19,16 +19,16 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 512
-ht-degree: 0%
+source-wordcount: 519
+ht-degree: 1%
 
 ---
 
 # Identificação do visitante usando o AppMeasurement
 
-O AppMeasurement é a biblioteca JavaScript herdada do Adobe Analytics para coleta de dados. Embora o AppMeasurement por si só ofereça uma maneira nativa de identificar visitantes, muitos navegadores modernos rejeitam os cookies de terceiros que ele tenta definir. A Adobe recomenda usar o Serviço de ID de visitante da Adobe Experience Cloud em todas as implementações para estar em conformidade com os padrões modernos de privacidade do navegador. Todas as versões do AppMeasurement vêm com o `VisitorAPI.js`, a biblioteca de JavaScript usada para implementar o Serviço de ID de visitante.
+O AppMeasurement é a biblioteca JavaScript herdada do Adobe Analytics para coleta de dados. Embora o AppMeasurement por si só ofereça uma maneira nativa de identificar visitantes, muitos navegadores modernos rejeitam os cookies de terceiros que ele tenta definir. A Adobe recomenda usar o [Serviço de ID de visitante da Adobe](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) em todas as implementações para estar em conformidade com os padrões modernos de privacidade do navegador. Todas as versões do AppMeasurement vêm com o `VisitorAPI.js`, a biblioteca de JavaScript usada para implementar o Serviço de ID de visitante.
 
 ## Identificação de visitantes usando o Serviço de ID de visitante (recomendado)
 
@@ -82,7 +82,7 @@ Depois de usar os recursos acima, a página de exemplo básica a seguir conterá
 >
 >A Adobe recomenda não usar esse método para identificar visitantes.
 
-Se sua organização não usar o Serviço de ID de visitante, a AppMeasurement usará sua própria forma de identificação do visitante. Quando um visitante chega ao seu site pela primeira vez, a biblioteca verifica se há um cookie [`s_vi`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics). Este cookie é definido no domínio correspondente a [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (para HTTPS) ou `trackingServer` (para HTTP).
+Se sua organização não usar o Serviço de ID de visitante (`VisitorAPI.js`), a AppMeasurement usará sua própria forma herdada de identificação de visitantes. Quando um visitante chega ao seu site pela primeira vez, a biblioteca verifica se há um cookie [`s_vi`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics). Este cookie é definido no domínio correspondente a [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (para HTTPS) ou `trackingServer` (para HTTP).
 
 * Se você participar do [Programa de certificado gerenciado](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/adobe-managed-cert), o servidor de rastreamento normalmente será um domínio próprio, tornando os cookies do `s_vi` originais.
 * Se você não participar do programa de certificado gerenciado, o servidor de rastreamento normalmente é um subdomínio de `adobedc.net`, `omtrdc.net` ou `2o7.net`, tornando o cookie `s_vi` um cookie de terceiros. Devido aos padrões modernos de privacidade do navegador, os cookies de terceiros são rejeitados pela maioria dos navegadores. Depois de rejeitado, o AppMeasurement tenta definir um cookie de fallback primário (`fid`).

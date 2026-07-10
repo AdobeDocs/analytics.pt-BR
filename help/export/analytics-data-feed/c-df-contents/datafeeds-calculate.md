@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: 497
 ht-degree: 95%
 
 ---
@@ -53,7 +53,7 @@ Descreve como calcular métricas comuns usando feeds de dados.
 
 ## Visitantes
 
-Todos os métodos que a Adobe usa para identificar visitantes únicos (ID de visitante personalizada, serviço da Experience Cloud ID etc.) são todos calculados como um valor em `post_visid_high` e `post_visid_low`. A concatenação dessas duas colunas pode ser usada como padrão para identificar visitantes únicos, independentemente de como eles foram identificados como um visitante único. Se você quiser entender qual método a Adobe usou para identificar um visitante único, use a coluna `post_visid_type`.
+Todos os métodos que a Adobe usa para identificar visitantes únicos (ID de visitante personalizada, ECID etc.) são todos calculados como um valor em `post_visid_high` e `post_visid_low`. A concatenação dessas duas colunas pode ser usada como padrão para identificar visitantes únicos, independentemente de como eles foram identificados como um visitante único. Se você quiser entender qual método a Adobe usou para identificar um visitante único, use a coluna `post_visid_type`.
 
 1. Concatenar `post_visid_high` e `post_visid_low`.
 2. Conte o número exclusivo de valores.

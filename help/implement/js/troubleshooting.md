@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 93%
+source-wordcount: 686
+ht-degree: 89%
 
 ---
 
@@ -103,7 +103,7 @@ Esses dois valores de variável são considerados separados no Adobe Analytics. 
 
 As implementações que preenchem muitas variáveis com valores longos às vezes podem ser executadas em solicitações de imagem truncadas. Alguns navegadores mais antigos, como o Internet Explorer, impõem um limite de 2083 caracteres em URLs de solicitação de imagem. Se sua organização lidar com solicitações de imagem muito longas, tente o seguinte:
 
-* **Usar o serviço da Experience Cloud ID**: as bibliotecas do AppMeasurement 1.4.1 e posteriores enviam automaticamente solicitações de imagem usando o POST HTTP se forem muito longas. Os dados enviados usando esse método não são truncados independentemente do comprimento. Consulte [Serviço da Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) para obter mais informações.
+* **Use a versão mais recente do AppMeasurement**: as bibliotecas AppMeasurement 1.4.1 e posteriores enviam automaticamente solicitações de imagem usando HTTP POST se forem muito longas. Os dados enviados usando esse método não são truncados independentemente do comprimento.
 * **Usar regras de processamento**: as [as regras de processamento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) podem copiar valores de uma variável para outra. Esse método evita que você defina o mesmo valor em várias variáveis. Por exemplo:
 
   Sempre executar:<br>

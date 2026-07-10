@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 7391
+source-wordcount: 7390
 ht-degree: 93%
 
 ---
@@ -55,10 +55,10 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Atualização da referência da sequência de consulta | Revisões significativas em [Parâmetros de consulta de coleta de dados](/help/implement/validate/query-parameters.md). |
 | Segmentos no Data Warehouse | Atualização da [compatibilidade de segmento do Data Warehouse](/help/export/data-warehouse/segment-compatibility.md). |
 | Guia do GA para AA substituído | O guia do GA para AA fazia referência ao Universal Analytics, que foi encerrado em 2023. Um novo guia o substituiu, [Transição do Google Analytics 4 para o Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
-| **maio de 2026** | |
+| **Maio de 2026** | |
 | Dimensões e métricas da mídia de transmissão | Atualizações significativas na documentação de mídia de transmissão. Os links para exemplos incluem [Dimensões principais dos serviços de mídia de streaming](/help/components/dimensions/sm-core.md) e [Métricas principais dos serviços de mídia de streaming](/help/components/metrics/sm-core.md). |
 | **Março de 2026** | |
-| Detalhar um painel | Documentação sobre a [área de lançamento de um painel](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) reestruturada para oferecer suporte à nova funcionalidade [de detalhamento](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
+| Detalhar um painel | Documentação sobre a [área de soltar de um painel](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) reestruturada para oferecer suporte à nova funcionalidade [detalhar](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | Opção padrão identificada para ofuscação de IP para novos conjuntos de relatórios | Adição de informações declarando que **Remover endereço IP** é a [opção de ofuscação de IP padrão para novos conjuntos de relatórios](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
 | Revisão do pedido de processamento | Melhorias significativas na [Ordem de processamento no Adobe Analytics](/help/technotes/processing-order.md). |
 | Integração do Adobe Advertising | Adições de dimensões e métricas de integração do Adobe Advertising, incluindo [AMO ID](/help/components/dimensions/amo-id.md). |
@@ -217,7 +217,7 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 | Calendários e intervalos de datas do Espaço de trabalho | Conteúdo atualizado para descrever intervalos de datas relativas, atualizações de cálculo de fórmulas e alterações na interface do calendário. Consulte [Sobre intervalos de datas relativas do painel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Cartões de pontuação para dispositivos móveis | Nova seção de documentação para descrever como mostrar e ocultar intervalos de datas de comparação. Consulte [Mostrar intervalos de datas de comparação](/help/analyze/mobile-app/create-scorecard.md) no Customer Journey Analytics. |
 | API 1.4 | O [API do Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) recebeu uma reescrita completa e agora está publicado no Adobe Developer. |
-| Rastreamento em tipos de implementação | Atualizado o caso de uso [Rastrear em tipos diferentes de implementação](../implement/id/cross-type-implementation.md) para acomodar o serviço de ID da Experience Cloud. |
+| Rastreamento em tipos de implementação | Caso de uso [Rastrear em diferentes tipos de implementação](../implement/id/cross-type-implementation.md) atualizado para acomodar o Serviço de ID de visitante. |
 | **Janeiro de 2023** | |
 | Filtrar e classificar tabelas | Conteúdo atualizado (incluindo a adição de procedimentos e a explicação das opções disponíveis) no artigo [Filtrar e classificar tabelas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Anteriormente, o nome desse artigo era “Paginação, filtragem e classificação de tabelas”. |
 | Pastas | Páginas dedicadas para [Gerenciamento de pastas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |

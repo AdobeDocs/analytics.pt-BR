@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 91%
+source-wordcount: 519
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ As propriedades são contêineres abrangentes que você usa para gerenciar tags.
 1. Clique na propriedade de tag recém-criada para inserir as configurações.
 1. Clique na guia **[!UICONTROL Extensões]** e, em seguida, clique em **[!UICONTROL Catálogo]**.
 1. Localize &quot;Serviço da Experience Cloud ID&quot; e clique em **[!UICONTROL Instalar]**.
-1. Todas as configurações, incluindo a ID da organização corporativa da CX, já devem ser preenchidas. Clique em **[!UICONTROL Salvar]**.
+1. Todas as configurações, incluindo a ID da organização IMS, já devem ser preenchidas. Clique em **[!UICONTROL Salvar]**.
 1. De volta ao catálogo de extensões, localize o Adobe Analytics e clique em **[!UICONTROL Instalar]**.
 
 Veja a documentação completa da [Extensão do Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=pt-BR) para obter informações mais detalhadas.

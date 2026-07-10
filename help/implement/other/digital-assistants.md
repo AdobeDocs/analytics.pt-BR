@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1284
-ht-degree: 86%
+ht-degree: 81%
 
 ---
 
@@ -87,11 +87,11 @@ Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
-## Identificação de usuário/visitante
+## Identificação do visitante
 
-O Adobe Analytics usa o [Serviço de identidade da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR) para unir interações ao longo do tempo a mesma pessoa. A maioria dos assistentes digitais retorna um item `userID` que pode ser usado para manter a atividade para usuários diferentes. Na maioria dos casos, esse valor é o que você pode transmitir como um identificador exclusivo. Algumas plataformas retornam um identificador que tem mais de 100 caracteres. Nesses casos, a Adobe recomenda executar o hash do identificador exclusivo para um valor de comprimento fixo usando um algoritmo de hash padrão, como MD5 ou Sha1.
+O Adobe Analytics usa o [Serviço de ID de visitante da Adobe](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home) para unir interações ao longo do tempo a mesma pessoa. A maioria dos assistentes digitais retorna um item `userID` que pode ser usado para manter a atividade para usuários diferentes. Na maioria dos casos, esse valor é o que você pode transmitir como um identificador exclusivo. Algumas plataformas retornam um identificador que tem mais de 100 caracteres. Nesses casos, a Adobe recomenda que você coloque hash no identificador exclusivo para um valor de comprimento fixo usando um algoritmo de hash padrão, como MD5 ou SHA1.
 
-O uso do serviço de ID fornece maior valor ao mapear ECIDs em diferentes dispositivos (por exemplo, assistente da Web para dispositivos digitais). Se o aplicativo for móvel, use os SDKs da Experience Platform como estão e envie a ID do usuário usando o método `setCustomerID`. No entanto, se o aplicativo for um serviço, use a ID de usuário fornecida pelo serviço, como ECID, bem como a configuração na `setCustomerID`.
+Usar o Serviço de ID de visitante fornece mais valor ao mapear ECIDs em diferentes dispositivos (por exemplo, assistente da Web para dispositivos digitais). Se o aplicativo for móvel, use os SDKs da Experience Platform como estão e envie a ID do usuário usando o método `setCustomerID`. No entanto, se o aplicativo for um serviço, use a ID de usuário fornecida pelo serviço, como ECID, bem como a configuração na `setCustomerID`.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1

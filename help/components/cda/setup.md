@@ -13,9 +13,9 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: 535
 ht-degree: 82%
 
 ---
@@ -34,12 +34,11 @@ Depois que todos os pré-requisitos forem atendidos, use as seguintes etapas par
 
 O CDA é provisionado em seu conjunto de relatórios entre dispositivos pela engenharia da Adobe. Para iniciar esse processo, entre em contato com o Atendimento ao cliente e esteja preparado para fornecer as seguintes informações:
 
-* Sua ID de organização corporativa da Adobe CX (uma sequência alfanumérica terminando em @AdobeOrg)
+* Sua ID da organização IMS (uma sequência alfanumérica terminando com @AdobeOrg)
 * A ID de conjunto de relatórios para o conjunto de relatórios entre dispositivos que você deseja habilitar com o CDA
 * Qual método de CDA você deseja usar (Compilação em campo)
 * Se você pretende usar a costura baseada em campo, a propriedade ou eVar que contém a ID do usuário
-* Sua preferência por frequência de repetição e duração da retrospectiva. As opções incluem uma repetição uma vez por semana com uma janela de retrospectiva de sete dias ou uma repetição todos os dias com uma janela de retrospectiva de um dia.
-O padrão é a repetição semanal com uma janela de retrospectiva de 7 dias. Neste caso, os dados da última semana estão sujeitos a alterações (uma vez que estão sendo progressivamente compilados e atualizados).
+* Sua preferência por frequência de repetição e duração da retrospectiva. As opções incluem uma repetição uma vez por semana com uma janela de retrospectiva de sete dias ou uma repetição todos os dias com uma janela de retrospectiva de um dia.O padrão é a repetição semanal com uma janela de retrospectiva de 7 dias. Neste caso, os dados da última semana estão sujeitos a alterações (uma vez que estão sendo progressivamente compilados e atualizados).
 
 Depois que você fornecer essas informações ao Atendimento ao cliente, eles trabalharão com a engenharia da Adobe para habilitar o conjunto de relatórios escolhido para processamento do CDA.
 

@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 325
-ht-degree: 52%
+source-wordcount: 326
+ht-degree: 53%
 
 ---
 
@@ -37,7 +37,7 @@ O encaminhamento pelo lado do servidor funciona com o [Analytics](https://www.ad
 
 ## Requisitos de serviço
 
-O encaminhamento pelo lado do servidor requer o [Serviço de identidade](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR). O Identity Service fornece uma ID universal que identifica visitantes do site em todas as soluções do CX Enterprise. Você precisa implementar o serviço de ID para que o encaminhamento pelo lado do servidor funcione.
+O encaminhamento pelo lado do servidor requer o [Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/id-service/using/home). O Identity Service fornece uma ID universal que identifica visitantes do site em todas as soluções do CX Enterprise. Você precisa implementar o serviço de ID para que o encaminhamento pelo lado do servidor funcione.
 
 ## Versões de código
 
