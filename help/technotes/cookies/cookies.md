@@ -73,8 +73,8 @@ As políticas da ITP estão em constante evolução. Para obter as políticas ma
 Todos os cookies primários definidos pela Adobe e as bibliotecas JavaScript relacionadas são afetados pelas políticas de ITP:
 
 * [Cookies &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR)definidos pela biblioteca do serviço Adobe Experience Cloud Visitor ID (ECID)
-* O cookie herdado [&quot;s_vi&quot;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) do Analytics quando configurado com a coleção de dados primários usando um CNAME
-* O cookie herdado [&quot;s_fid&quot;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) do Analytics, que é o cookie de fallback usado quando &quot;s_vi&quot; não pode ser definido
+* O cookie herdado [&quot;s_vi&quot;](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics) do Analytics quando configurado com a coleção de dados primários usando um CNAME
+* O cookie herdado [&quot;s_fid&quot;](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics) do Analytics, que é o cookie de fallback usado quando &quot;s_vi&quot; não pode ser definido
 
 #### Qual é o impacto da ITP no Safari para o Analytics?
 

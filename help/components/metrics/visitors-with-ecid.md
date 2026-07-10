@@ -35,7 +35,7 @@ A [métrica](overview.md) de &#39;[!UICONTROL Visitantes com Experience Cloud ID
 
 ## Como essa métrica é calculada
 
-Essa métrica tem como base a métrica [Visitantes únicos](unique-visitors.md), mas inclui somente pessoas identificadas utilizando a `mid` sequência de consulta (com base no cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
+Essa métrica tem como base a métrica [Visitantes únicos](unique-visitors.md), mas inclui somente pessoas identificadas utilizando a `mid` sequência de consulta (com base no cookie [`s_ecid`](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/data-collection/cookies/analytics)).
 
 ## Depurar a configuração da ECID
 
