@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d5c4866332fcbc8195e59babd01abc95444ffac
+source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
 workflow-type: tm+mt
-source-wordcount: 959
-ht-degree: 59%
+source-wordcount: 922
+ht-degree: 61%
 
 ---
 
@@ -42,7 +42,7 @@ Essas notas de versão abrangem o período de julho de 2026. As versões do Adob
 | Recurso e descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ---- |
 | **Análise de subocorrência** <br/>A análise de subocorrência permite analisar os dados do produto em um nível mais granular do que o nível de ocorrência. Em vez de filtrar em ocorrências inteiras, você pode segmentar em produtos individuais nas ocorrências. <p>Por exemplo, você pode segmentar em uma categoria de produto específica sem incluir todos os outros produtos comprados na mesma ordem.</p><p>Para obter mais informações, consulte [Análise de subocorrência](/help/components/segmentation/sub-hit.md).</p> | 8 de julho | Final de julho de 2026 |
-| **Extensão do Activity Map: Atualização da interface e do suporte do Web SDK** <br/>As implementações do Web SDK do Adobe Analytics agora podem usar a extensão de sobreposição do Activity Map para exibir dados de cliques sobrepostos em seus sites.<p>Anteriormente, a extensão de sobreposição do Activity Map estava disponível somente para implementações do AppMeasurement.</p> <p>Além do suporte ao Web SDK, a extensão de sobreposição do Activity Map também inclui uma aparência atualizada.</p><p>(Link para a documentação a seguir).</p> | | Final de julho de 2026 |
+| **Extensão do Activity Map: atualização da interface** <br/>A extensão de sobreposição do Activity Map tem uma aparência atualizada, juntamente com melhorias subjacentes que oferecem suporte a aprimoramentos futuros.<p>(Link para a documentação a seguir).</p> | | Final de julho de 2026 |
 | **Guia de recursos de pesquisa de API do AA 2.0** <br/>Use recursos de pesquisa para [retornar um subconjunto de itens de dimensão em relatórios](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>Para obter mais informações, consulte [Pesquisar recursos](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) no manual de ponto de extremidade de relatórios no Adobe Developer. | | 1 de julho de 2026 |
 | **Automatização de relatórios recorrentes com APIs do AA** <br/>Configure relatórios recorrentes e automáticos do Adobe Analytics para o seu pipeline de dados com métricas novas em um agendamento com a API de relatórios. <p>Para obter mais informações, consulte o [manual de ponto de extremidade de automatização de relatórios recorrentes do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) no Adobe Developer.</p> | | 1 de julho de 2026 |
 | **Novos parâmetros de expansão para o AA** <br/>Use novos parâmetros de expansão da API do Dimension para recuperar campos de configuração do eVar para tipos de alocação, expirações, tipos de dados e merchandising. <p>Para obter mais informações, consulte a [Referência da API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) e o [manual de ponto de extremidade de dimensões](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) no Adobe Developer.</p> | | 1 de julho de 2026 |
