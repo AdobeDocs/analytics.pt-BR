@@ -3,10 +3,10 @@ description: Saiba como usar a tela de jornada no Analysis Workspace.
 title: Visão geral da tela da jornada
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 82f2811e559aa37ddda9e7d94f79889016b9782c
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 89%
+source-wordcount: '1118'
+ht-degree: 88%
 
 ---
 
@@ -49,6 +49,10 @@ Você pode [criar análises de jornadas do usuário](/help/analyze/analysis-wor
 [Os nós estão conectados](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) como um &quot;caminho eventual&quot;, o que significa que os visitantes são contados enquanto eventualmente se movem de um nó para outro, independentemente de quaisquer eventos que ocorram entre os dois nós. O tempo alocado para que os usuários percorram o caminho é determinado pela configuração do container.
 
 ![Tela da jornada](assets/journey-canvas.png)
+
+## Requisitos de acesso
+
+A tela de Jornada está disponível para clientes do Adobe Analytics [Prime](https://www.adobe.com/br/data-analytics-cloud/analytics/prime.html) e do [Ultimate](https://www.adobe.com/br/data-analytics-cloud/analytics/ultimate.html).
 
 ## Recursos principais
 
