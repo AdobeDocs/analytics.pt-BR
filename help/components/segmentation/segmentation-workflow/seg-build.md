@@ -4,22 +4,14 @@ title: Criar segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 85%
+source-wordcount: 1963
+ht-degree: 73%
 
 ---
 
@@ -28,7 +20,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilidade do produto"
->abstract="Uma pequena quantidade de critérios de segmento disponíveis não é compatível com todas as ferramentas do Adobe Analytics. As ferramentas compatíveis com o segmento estão indicadas nesta lista. Para tornar um segmento compatível com todas as ferramentas do Adobe Analytics, edite seus critérios."
+>abstract="Alguns critérios de segmento são incompatíveis com determinadas ferramentas do Adobe Analytics. As ferramentas compatíveis estão indicadas nesta lista. Edite seus critérios para garantir a compatibilidade."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +30,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Visualização de dados"
->abstract="Compara os dados deste segmento com os dados do conjunto de relatórios. A porcentagem de pré-visualização é baseada no número total dos **últimos 90 dias**.<br><br/>Se a visualização não estiver carregando, a conexão ainda pode estar preenchendo os dados."
+>abstract="Compara dados de segmento com dados de conjunto de relatórios. A porcentagem de visualização é baseada nos **últimos 90 dias**.<br><br/>Se a visualização não estiver carregando, sua conexão será preenchida retroativamente."
 
 
 A caixa de diálogo **[!UICONTROL Construtor de segmentos]** é usada para criar novos segmentos ou editar segmentos existentes. A caixa de diálogo é intitulada **[!UICONTROL Novo segmento]** ou **[!UICONTROL Editar segmento]** para segmentos que você cria ou gerencia no [[!UICONTROL Gerenciador de segmentos]](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -69,7 +61,7 @@ A caixa de diálogo **[!UICONTROL Construtor de segmentos]** é usada para cri
    {style="table-layout:auto"}
 
 1. Para verificar se a definição do seu segmento está correta, use a visualização constantemente atualizada dos resultados do segmento no canto superior direito.
-1. Para publicar seu segmento no CX Enterprise, selecione **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**. Consulte [Publicar segmentos no CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md) para obter mais informações.
+1. Para publicar seu segmento no CX Enterprise, selecione **[!UICONTROL Publicar este segmento na Experience Cloud (para *conjunto de relatórios*)]**. Para obter mais informações, consulte [Publicar segmentos no CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md).
 1. Selecione:
    * **[!UICONTROL Salvar]** para salvar o segmento.
    * **[!UICONTROL Salvar como]** para salvar uma cópia do segmento.
@@ -83,7 +75,7 @@ Use o construtor de definições para construir a definição de segmento. Nessa
 
 Você pode configurar o tipo e o escopo da sua definição:
 
-1. Para especificar o tipo de definição, especifique se deseja criar uma definição de inclusão ou exclusão. Selecione ![Configuração](/help/assets/icons/Setting.svg) **[!UICONTROL Opções]** e no menu suspenso **[!UICONTROL Incluir]** ou **[!UICONTROL Excluir]**.
+1. Para especificar o tipo da definição, especifique se deseja criar uma definição de inclusão ou exclusão. Selecione ![Configuração](/help/assets/icons/Setting.svg) **[!UICONTROL Opções]** e no menu suspenso **[!UICONTROL Incluir]** ou **[!UICONTROL Excluir]**.
 1. Para especificar o escopo da sua definição, selecione no menu suspenso **[!UICONTROL Incluir]** ou **[!UICONTROL Excluir]** se deseja que o escopo da definição seja **[!UICONTROL Ocorrências]**, **[!UICONTROL Visitas]**, **[!UICONTROL Visitantes]** ou **[!UICONTROL Produtos]**. Você usa **[!UICONTROL Produtos]** para [casos de uso de análise de sub-ocorrência](/help/components/segmentation/sub-hit.md).
 
 É sempre possível alterar essas configurações posteriormente.
@@ -122,7 +114,7 @@ Para excluir um componente:
 * Para adicionar um componente existente ao container, arraste e solte o componente no container.
 * Para adicionar outro componente ao container, arraste e solte um componente do painel de componentes no container. Use a linha de inserção azul como guia.
 * Para adicionar outro componente fora do container, arraste e solte um componente do painel de componentes fora do container, mas dentro do container da definição principal. Use a linha de inserção azul como guia.
-* Para modificar a lógica entre componentes em um container, entre containers ou entre um container e um componente, selecione a opção  apropriada entre **[!UICONTROL E]**, **[!UICONTROL Ou]** e **[!UICONTROL Então]**. Ao selecionar **[!UICONTROL Então]**, você transforma o segmento em um segmento sequencial. Veja [Criar segmento sequencial](seg-sequential-build.md) para mais informações.
+* Para modificar a lógica de componentes, contêineres ou suas combinações, selecione o **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** apropriado. Ao selecionar **[!UICONTROL Então]**, você transforma o segmento em um segmento sequencial. Veja [Criar segmento sequencial](seg-sequential-build.md) para mais informações.
 * Para alternar o nível de contêiner, selecione ![PáginaWeb](/help/assets/icons/WebPage.svg) **[!UICONTROL Ocorrências]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Visitas]**, ![Usuário](/help/assets/icons/User.svg) **[!UICONTROL Visitantes]** ou ![MostrarTodaCamada](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL Produtos]**.
 
 Você pode usar a ![Configuração](/help/assets/icons/Setting.svg) de um container para realizar as seguintes ações:
@@ -141,14 +133,14 @@ Ao arrastar os componentes de nível de produto e de nível de ocorrência para 
 
 ## Intervalos de datas
 
-Você pode criar segmentos que contêm intervalos de datas contínuos. Assim, é possível responder a perguntas sobre campanhas ou eventos em andamento. Por exemplo, você pode criar um segmento que inclua *todos que fizeram uma compra online nos últimos 60 dias*.
+Você pode criar segmentos que contêm intervalos de datas contínuos. Assim, é possível responder a perguntas sobre campanhas ou eventos em andamento. Por exemplo, você pode criar um segmento que inclua *todas as pessoas que fizeram uma compra online nos últimos 60 dias*.
 
 ![Segmentar usando intervalo de datas contínuo](assets/segment-rolling-date-range.png)
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de datas contínuos em segmentos](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} para assistir a um vídeo de demonstração.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de datas contínuos em segmentos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} para assistir a um vídeo de demonstração.
 
 >[!ENDSHADEBOX]
 
@@ -157,11 +149,11 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos 
 
 Você pode criar um segmento usando segmentos. Ao usar segmentos em um segmento, você pode otimizá-lo e reduzir a complexidade.
 
-Imagine que você deseja segmentar a combinação de canal de interação (5) e estados dos EUA (50). Você pode criar 250 segmentos, cada um para uma combinação exclusiva de tipo de dispositivo (celular x tablet) e um estado dos EUA. Para obter os usuários de tablets na Califórnia, você usaria um dos 250 segmentos:
+Considere um cenário em que você deseja segmentar na combinação do canal de interação (5) e dos estados dos EUA (50). Você pode criar 250 segmentos, cada um para uma combinação exclusiva de tipo de dispositivo (celular x tablet) e um estado dos EUA. Para obter os usuários do tablet na Califórnia, use um dos 250 segmentos:
 
 ![Segmento simples para Califórnia e tablet](assets/segment-ca-tablet-single.png)
 
-Ou você pode definir 55 segmentos: 50 segmentos para os estados dos EUA e 5 para os possíveis canais de interação. Em seguida, empilhe os segmentos para obter os mesmos resultados. Para obter os usuários de aplicativos móveis da Califórnia, você empilharia dois segmentos:
+Ou defina 55 segmentos: 50 segmentos para os estados dos EUA e 5 para os canais de interação possíveis. Para obter os mesmos resultados, empilhe os segmentos. Para obter os usuários do aplicativo móvel da Califórnia, empilhe dois segmentos:
 
 ![Segmento empilhado para CA e tablet](assets/segment-ca-tablet-stacked.png)
 
@@ -188,7 +180,7 @@ Ou você pode definir 55 segmentos: 50 segmentos para os estados dos EUA e 5 par
 
 
 
-Ao usar uma dimensão no Construtor de segmentos, você tem opções para especificar o modelo de atribuição para essa dimensão. O modelo de atribuição selecionado determina se os dados se qualificam para a condição especificada para o componente de dimensão.
+Ao usar uma dimensão no Construtor de segmentos, você tem a opção de especificar o modelo de atribuição dessa dimensão. O modelo de atribuição selecionado determina se os dados se qualificam para a condição especificada para o componente de dimensão.
 
 Selecione ![Configuração](/help/assets/icons/Setting.svg) dentro do componente de dimensão e escolha um dos modelos de atribuição na janela pop-up:
 
@@ -196,7 +188,7 @@ Selecione ![Configuração](/help/assets/icons/Setting.svg) dentro do componente
 |---|---|
 | **[!UICONTROL Modelo repetido (padrão)]** | Inclua a instância e os valores persistentes da dimensão para determinar a qualificação. |
 | **[!UICONTROL Instância]** | Inclua apenas valores de instância da dimensão para determinar a qualificação. |
-| **[!UICONTROL Instância não repetida]** | Inclua os valores de instância exclusiva (não repetida) da dimensão para determinar a qualificação. |
+| **[!UICONTROL Instância não repetida]** | Inclua os valores de instância exclusiva (não repetida) da dimensão para determinar a qualificação. Instância não repetitiva é o modelo aplicado no Fluxo quando instâncias repetidas são excluídas. |
 
 
 ![Modelo de atribuição na dimensão ao construir um segmento](assets/segment-dimension-attribution.png)
@@ -213,16 +205,11 @@ Como parte de uma definição de segmento, você especificou a seguinte condiç�
 A tabela abaixo explica, para cada modelo de atribuição, quais eventos de entrada são qualificados ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) para essa condição.
 
 
-| Página - Atribuição - <br/>*modelo de atribuição* de mulheres | Evento 1:<br/>Nome da página igual a<br/>Mulheres | Evento 2:<br/>Nome da página igual a<br/>Homens | Evento 3:<br/>Nome da página igual a<br/>Mulheres | Evento 4:<br/>Nome da página igual a<br/>Mulheres<br/>(que persistiram) | Evento 5:<br/>Nome da página igual a<br/>Check-out | Evento 6:<br/>Nome da página igual a<br/>Mulheres | Evento 7:<br/>Nome da página igual a<br/>Página inicial |
+| Página - Atribuição - <br/>*modelo de atribuição* de mulheres | Evento 1:<br/>Nome da página igual a<br/>Mulheres | Evento 2:<br/>Nome da página igual a<br/>Homens | Evento 3:<br/>Nome da página igual a<br/>Mulheres | Evento 4:<br/>Nome da página igual a<br/>Mulheres<br/>(que persistiram) | Evento 5:<br/>Nome da página igual a<br/>Check-out | Evento 6:<br/>Nome da página igual a<br/>Mulheres | Evento 7:<br/>Nome da Página igual a<br/>Mulher (definido explicitamente) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| Repetição (padrão) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) |
-| Instância | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) |
+| Repetição (padrão) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| Instância | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | Instância não repetida | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![Remover](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Remover](/help/assets/icons/Remove.svg) |
-
-Um exemplo de relatório sobre eventos usando os três segmentos ficaria assim:
-
-![Resultados do modelo de atribuição de segmentos](assets/segment-dimension-attribution-results.png)
-
 
 
 <!--
@@ -276,7 +263,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -337,7 +324,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -380,7 +367,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Modelos de segmento {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Os modelos de segmento são fornecidos para casos de uso de segmentação comuns, como **[!UICONTROL Primeiras visitas]** ou **[!UICONTROL Visitas de dispositivos móveis]**. Eles estão disponíveis em projetos do espaço de trabalho e no construtor de segmentos como blocos de construção para novos segmentos.
+Os modelos de segmento são fornecidos para casos de uso de segmentação comuns, como **[!UICONTROL Primeiras visitas]** ou **[!UICONTROL Visitas de dispositivos móveis]**. Eles estão disponíveis em projetos Workspace e no construtor de segmentos como blocos de construção para novos segmentos.
 
 Um logotipo da Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifica os modelos. Veja abaixo uma amostra dos modelos disponíveis:
 
