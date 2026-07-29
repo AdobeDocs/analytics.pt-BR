@@ -17,23 +17,23 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f1c344895b5ad9ff2db00d04c6e5873a0de1da31
 workflow-type: tm+mt
-source-wordcount: 768
-ht-degree: 95%
+source-wordcount: 804
+ht-degree: 71%
 
 ---
 
 # Comparação de datas
 
-A comparação de datas do Analysis Workspace permite selecionar qualquer coluna que contenha um intervalo de datas e criar uma comparação de datas comum, como: ano a ano, trimestre a trimestre, mês a mês etc.
+A comparação de datas no Analysis Workspace permite pegar qualquer coluna contendo um intervalo de datas e criar uma comparação de data comum, como: ano a ano, trimestre a trimestre ou mês a mês.
 
 ## Comparar períodos
 
-A análise demanda contexto, o qual normalmente é fornecido por um período anterior. Por exemplo, a pergunta *Quão melhor ou pior você está fazendo agora em comparação com este período do ano passado?* é fundamental para entender sua empresa. A comparação de datas inclui automaticamente uma coluna de *diferença*, que mostra a porcentagem de mudanças em comparação com um período específico.
+A análise requer contexto, e um período anterior geralmente fornece esse contexto. Por exemplo, a pergunta *Quão melhor ou pior você está fazendo agora em comparação com este período do ano passado?* é essencial para entender sua empresa. A comparação de datas inclui automaticamente uma coluna de *diferença*, que mostra a porcentagem de mudanças em comparação com um período específico.
 
 1. Crie uma [Tabela de forma livre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) com qualquer dimensão e métrica que deseja comparar ao longo de um período.
-1. Defina o período no painel ou coluna para determinar o intervalo da comparação e se é uma comparação de tempo contínua ou fixa.
+1. Para determinar o período de comparação e se é uma comparação de tempo variável ou fixa, defina o período no painel ou na coluna.
 
    Para criar uma comparação temporal contínua, defina o intervalo de datas do painel ou da coluna para um intervalo de datas contínuo (como **[!UICONTROL Últimos 7 dias]**, **[!UICONTROL Últimos 30 dias]** e assim por diante).
 
@@ -66,7 +66,7 @@ A análise demanda contexto, o qual normalmente é fornecido por um período ant
 
 ## Adicionar uma coluna de período para comparação
 
-Agora é possível adicionar um período a cada coluna de uma tabela, permitindo adicionar um período diferente do definido no seu calendário.
+Agora é possível adicionar um período a cada coluna na tabela. Isso permite adicionar um período diferente daquele definido para o seu calendário.
 
 1. Clique com o botão direito do mouse em uma coluna na tabela e selecione **[!UICONTROL Adicionar coluna de período]**.
 
@@ -96,20 +96,21 @@ Agora é possível adicionar um período a cada coluna de uma tabela, permitindo
 
 É possível alinhar as datas de cada coluna para que todas iniciem na mesma linha.
 
-Por exemplo, suponhamos que você fez uma comparação diária entre a última semana (terminando em 5 de outubro de 2024) e a semana anterior. Por padrão, a coluna esquerda iniciará em 22 de setembro, e a coluna da direita, em 29 de setembro.
+Por exemplo, você executa uma comparação dia a dia da última semana (terminando em 5 de outubro de 2024) e da semana anterior. Por padrão, a coluna da esquerda começa com 22 de setembro e a coluna da direita começa com 29 de setembro.
 
 ![Datas não alinhadas](assets/not-align-dates.png)
 
-É possível habilitar a opção **[!UICONTROL Alinhar datas de cada coluna para que todas comecem na mesma linha]** em [Configurações](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) para que a visualização da tabela de forma livre alinhe as datas das colunas de modo que comecem na mesma linha.
+É possível habilitar a opção **[!UICONTROL Alinhar datas de cada coluna para que todas comecem na mesma linha]** em [Configurações](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) para que a visualização da tabela de forma livre alinhe as datas das colunas de modo que comecem na mesma linha. A primeira coluna é usada para este alinhamento.
 
 ![](assets/align-dates.png)
 
 Considere o seguinte ao usar essa opção:
 
-* Essa configuração é habilitada por padrão para todos os novos projetos.
+* O sistema ativa essa configuração por padrão para todos os novos projetos.
 
 * Essa configuração se aplica a toda a tabela. Por exemplo, se você alterar essa configuração para um detalhamento na tabela, ela será aplicada à tabela inteira.
 
+* Quando essa configuração estiver ativada, pequenos rótulos de data aparecerão no canto superior direito de todas as células da coluna para anotar a célula com a data (e hora, quando relevante) apropriada.
 
 <!--
 # Date comparison

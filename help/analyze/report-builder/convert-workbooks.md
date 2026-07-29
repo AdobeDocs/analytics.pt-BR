@@ -22,16 +22,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b5f2841adb79c985720711ce2197bb1ec39e6821
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1219
 ht-degree: 1%
 
 ---
 
 # Converter pastas de trabalho herdadas do Report Builder
 
-O Report Builder herdado será encerrado em junho de 2026. Você deve migrar suas pastas de trabalho do Report Builder herdado para o novo Report Builder. O novo Report Builder oferece uma maneira conveniente de migrar rapidamente pastas de trabalho criadas com o Report Builder herdado.
+O Report Builder herdado será encerrado em junho de 2026. Migre suas pastas de trabalho do Report Builder herdado para o novo Report Builder. O novo Report Builder oferece uma maneira conveniente de migrar rapidamente as pastas de trabalho criadas com o Report Builder herdado.
 
 >[!IMPORTANT]
 >
@@ -56,23 +56,23 @@ Para abrir uma pasta de trabalho herdada, é possível:
 
 * Abra uma pasta de trabalho herdada agendada na guia **[!UICONTROL Agendamento]** no [hub do Report Builder](report-builder-hub.md). Esta ação é o método preferido para pastas de trabalho herdadas programadas. Você tem a opção de usar o agendamento associado à pasta de trabalho herdada assim que [agendar a pasta de trabalho herdada convertida](#schedule-a-converted-legacy-workbook).
 
-   1. Abra [!DNL Excel] e selecione ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** na barra de faixa [!DNL Excel].
+  1. Abra [!DNL Excel] e selecione ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** na barra de faixa [!DNL Excel].
 
-   1. Selecione **[!UICONTROL Logon]** e faça logon no Report Builder.
+  1. Selecione **[!UICONTROL Logon]** e faça logon no Report Builder.
 
-   1. Selecione **[!UICONTROL Agendar]** no [hub do Report Builder](report-builder-hub.md).
-   1. Selecione a guia **[!UICONTROL Herdado]**. A guia lista as pastas de trabalho agendadas baseadas no Report Builder herdadas que você criou.
+  1. Selecione **[!UICONTROL Agendar]** no [hub do Report Builder](report-builder-hub.md).
+  1. Selecione a guia **[!UICONTROL Herdado]**. A guia lista as pastas de trabalho agendadas baseadas no Report Builder herdadas que você criou.
 
-      ![Aparências de trabalho herdadas](assets/upgrade-legacy-schedule.png)
+     ![Aparências de trabalho herdadas](assets/upgrade-legacy-schedule.png)
 
-   1. Selecione ![SelectBox](/help/assets/icons/SelectBox.svg) a pasta de trabalho agendada que você deseja converter da lista e selecione ![Download](/help/assets/icons/Download.svg). A pasta de trabalho foi baixada e é aberta em uma nova janela em [!DNL Excel]. Agora você pode [converter a pasta de trabalho herdada do Report Builder](#convert-a--workbook).
+  1. Selecione ![SelectBox](/help/assets/icons/SelectBox.svg) a pasta de trabalho agendada que você deseja converter da lista e selecione ![Download](/help/assets/icons/Download.svg). A pasta de trabalho foi baixada e é aberta em uma nova janela [!DNL Excel]. Agora você pode [converter a pasta de trabalho herdada do Report Builder](#convert-a--workbook).
 
 
-* Abra uma pasta de trabalho herdada diretamente do computador local ou da rede. Ao usar esse método, você não tem a opção de usar o agendamento que pode estar associado à pasta de trabalho herdada. <br/>Quando a pasta de trabalho herdada estiver aberta em [!DNL Excel]:
+* Abra uma pasta de trabalho herdada diretamente do computador local ou da rede. Ao usar esse método, o agendamento associado à pasta de trabalho herdada não é oferecido a você. <br/>Quando a pasta de trabalho herdada estiver aberta em [!DNL Excel]:
 
-   1. Selecione ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** na barra de faixa de opções [!DNL Excel].
-   1. Selecione **[!UICONTROL Logon]** e faça logon no Report Builder.
-   1. Em seguida [converta a pasta de trabalho herdada](#convert-a-workbook).
+  1. Selecione ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** na barra de faixa de opções [!DNL Excel].
+  1. Selecione **[!UICONTROL Logon]** e faça logon no Report Builder.
+  1. Em seguida [converta a pasta de trabalho herdada](#convert-a-workbook).
 
 
 ## Converter uma pasta de trabalho herdada
@@ -116,17 +116,17 @@ Você tem a opção de usar os detalhes do agendamento da pasta de trabalho herd
 1. Para programar uma pasta de trabalho herdada convertida com uma programação herdada:
 
    * Selecione **[!UICONTROL Enviar pasta de trabalho]** no hub do Report Builder ou
-   * Selecione **[!UICONTROL Pasta de trabalho de agendamento]** na guia **[!UICONTROL Pastas de trabalho]**, disponível na guia **[!UICONTROL Agendamentos]**, no Report Builder.
+   * Selecione **[!UICONTROL Agendar pasta de trabalho]** na guia **[!UICONTROL Pastas de trabalho]** da guia **[!UICONTROL Agendamentos]** do Report Builder.
 
 1. Você pode usar os detalhes da programação da pasta de trabalho herdada como as configurações padrão da programação.
 
    ![Captura de tela de [!DNL Excel] opções de configurações de agendamento herdadas do Report Builder](assets/upgrade-legacy-schedule-convert.png)
 
    * Selecione **[!UICONTROL Usar]** para usar os detalhes do agendamento herdado. Os detalhes do agendamento são preenchidos previamente na interface [Enviar pasta de trabalho](schedule-reportbuilder.md#schedule-a-workbook).
-   * Selecione **[!UICONTROL Não usar]** para não usar os detalhes do cronograma herdado.
+   * Selecione **[!UICONTROL Não usar]** para evitar o uso de detalhes do agendamento herdado.
    * Selecione **[!UICONTROL Cancelar]** para cancelar.
 
-   Selecione **[!UICONTROL Remover metadados herdados do uso futuro]** para não usar os detalhes do agendamento herdado para esta pasta de trabalho no futuro.
+   Selecione **[!UICONTROL Remover metadados herdados de uso futuro]** para evitar o uso de detalhes do agendamento herdado para esta pasta de trabalho no futuro.
 
 
 ## Migrar do Report Builder herdado
@@ -143,22 +143,23 @@ Alguns recursos do Report Builder herdado não são compatíveis, parcialmente c
 
 * **Métricas de visitantes**. As métricas a seguir são convertidas em *visitantes únicos* na pasta de trabalho herdada convertida, mesmo que o resultado do relatório não seja uma correspondência exata: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` e `visitorsyearly`. Esta conversão também se aplica a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` e `mobilevisitorsyearly`.
 
+* **Granularidade**: o Report Builder não tem nenhuma opção específica para granularidade, como o Report Builder herdado. Para aplicar um nível de granularidade no relatório, use dimensões de data na solicitação.
 * **Reautenticação automática**. Ao abrir um novo arquivo [!DNL Excel], é necessário autenticar novamente explicitamente. Esta reautenticação é um recurso de segurança da funcionalidade [!DNL Office Add-ins].
 
 * **Copie uma planilha com um grupo de blocos de dados**. Para suportar a cópia de uma planilha que contém mais de um bloco de dados:
 
-   1. Selecione a guia da planilha na pasta de trabalho [!DNL Excel] que você deseja copiar.
-   1. No menu de contexto da guia, selecione **[!UICONTROL Mover ou Copiar...]**
-   1. Na caixa de diálogo **[!UICONTROL Mover ou Copiar]**:
-      1. Selecione para onde deseja copiar a planilha copiada.
-      1. Habilite **[!UICONTROL Criar uma cópia]**.
-      1. Selecione **[!UICONTROL OK]**.
-   1. Na planilha de origem:
-      1. Selecione o intervalo de células que abrange todos os blocos de dados.
-      1. Selecione ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar bloco de dados]** do [hub de Report Builder](/help/analyze/report-builder/report-builder-hub.md).
-   1. Na planilha de destino:
-      1. Selecione a célula na qual deseja colar o intervalo de células copiado.
-      1. Selecione ![Colar](/help/assets/icons/Paste.svg) **[!UICONTROL Colar bloco de dados]** do [hub do Report Builder](/help/analyze/report-builder/report-builder-hub.md).
+  1. Selecione a guia da planilha na pasta de trabalho [!DNL Excel] que você deseja copiar.
+  1. No menu de contexto da guia, selecione **[!UICONTROL Mover ou Copiar...]**
+  1. Na caixa de diálogo **[!UICONTROL Mover ou Copiar]**:
+     1. Selecione para onde deseja copiar a planilha copiada.
+     1. Habilite **[!UICONTROL Criar uma cópia]**.
+     1. Selecione **[!UICONTROL OK]**.
+  1. Na planilha de origem:
+     1. Selecione o intervalo de células que abrange todos os blocos de dados.
+     1. Selecione ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar bloco de dados]** do [hub de Report Builder](/help/analyze/report-builder/report-builder-hub.md).
+  1. Na planilha de destino:
+     1. Selecione a célula na qual deseja colar o intervalo de células copiado.
+     1. Selecione ![Colar](/help/assets/icons/Paste.svg) **[!UICONTROL Colar bloco de dados]** do [hub do Report Builder](/help/analyze/report-builder/report-builder-hub.md).
 
 * **Intervalo de datas**. O Report Builder não migra as opções de formatação de intervalo de datas **[!UICONTROL Mostrar período inicial e final como]** aplicadas a um rótulo de linha para um intervalo de datas no Report Builder herdado.
 
