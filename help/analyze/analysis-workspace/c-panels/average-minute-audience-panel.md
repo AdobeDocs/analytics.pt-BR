@@ -5,24 +5,14 @@ feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
 TQID: https://experienceleague.adobe.com/GLaMuksoyukAtzNERPR33hyZnTWCdGbBK3vpzGwllec
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
-source-wordcount: 1841
+source-wordcount: 1843
 ht-degree: 91%
 
 ---
@@ -43,13 +33,13 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="Média de público-alvo por minuto de mídia"
->abstract="Mostra o desempenho de conteúdo de mídia específico ou ao longo de um período personalizado.<br/><br/>**Parâmetros gerais &#x200B;**<br/>**Calcular métrica para**: selecione a métrica a ser usada para o painel. Selecione **Conteúdo específico** para analisar a audiência média por minuto de um conteúdo ou evento específico com base na duração do conteúdo. **Selecione um período personalizado** para analisar como a audiência média por minuto muda ao longo de um período personalizado selecionado.<br/>**Dimensão do relatório**: selecione para relatar por **Nome do vídeo** da dimensão da **ID do conteúdo**. Disponível somente quando você seleciona Conteúdo específico como a métrica. <br/>**Granularidade**: selecione a granularidade do relatório. Disponível somente quando você seleciona Período personalizado como a métrica.<br/>**Filtrar conteúdo por (opcional)**: selecione um programa, temporada, episódio ou selecione uma dimensão personalizada para filtrar o conteúdo.<br/><br/>**Configurações avançadas &#x200B;**<br/>**Configurações de tabela**: selecione se deseja mostrar valores de cálculo na tabela.<br/>**Métrica de tempo gasto**: selecione a métrica de tempo gasto que deseja usar para o cálculo de conteúdo específico. Disponível somente quando você seleciona Conteúdo específico como a métrica."
+>abstract="Mostra o desempenho de conteúdo de mídia específico ou ao longo de um período personalizado.<br/><br/>**Parâmetros gerais **<br/>**Calcular métrica para**: selecione a métrica a ser usada para o painel. Selecione **Conteúdo específico** para analisar a audiência média por minuto de um conteúdo ou evento específico com base na duração do conteúdo. **Selecione um período personalizado** para analisar como a audiência média por minuto muda ao longo de um período personalizado selecionado.<br/>**Dimensão do relatório**: selecione para relatar por **Nome do vídeo** da dimensão da **ID do conteúdo**. Disponível somente quando você seleciona Conteúdo específico como a métrica. <br/>**Granularidade**: selecione a granularidade do relatório. Disponível somente quando você seleciona Período personalizado como a métrica.<br/>**Filtrar conteúdo por (opcional)**: selecione um programa, temporada, episódio ou selecione uma dimensão personalizada para filtrar o conteúdo.<br/><br/>**Configurações avançadas **<br/>**Configurações de tabela**: selecione se deseja mostrar valores de cálculo na tabela.<br/>**Métrica de tempo gasto**: selecione a métrica de tempo gasto que deseja usar para o cálculo de conteúdo específico. Disponível somente quando você seleciona Conteúdo específico como a métrica."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta o painel Audiência média por minuto da mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_.<br/>_Consulte o [painel Audiência média por minuto da mídia](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** deste artigo._
+_Este artigo documenta o painel Audiência média por minuto da mídia no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_.<br/>_Consulte o [painel Audiência média por minuto da mídia](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) da versão_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -133,7 +123,7 @@ Use as configurações de entrada descritas nesta seção para configurar o pain
 
    | Opções | Descrição |
    |---------|------------|
-   | **[!UICONTROL Granularidade]** | A granularidade padrão é [!UICONTROL **5 minutos**], mas você pode escolher qualquer uma das granularidades que são usadas como denominador para a série temporal no período selecionado. Por exemplo, selecionar 12:00 pm até 12:30 pm com granularidade de 5 minutos retorna o público-alvo médio por minuto durante a meia hora completa, bem como seis linhas com o público-alvo médio por minuto para cada período de 5 minutos. Essas linhas são usadas como pontos de dados para o gráfico de série temporal. |
+   | **[!UICONTROL Granularidade]** | A granularidade padrão é [!UICONTROL **5 minutos**], mas você pode escolher qualquer uma das granularidades que são usadas como denominador para a série temporal no período selecionado. Por exemplo, selecionar 12h às 12h30 com granularidade de 5 minutos retorna o público-alvo médio por minuto durante a meia hora completa, bem como seis linhas com o público-alvo médio por minuto para cada período de 5 minutos. Essas linhas são usadas como pontos de dados para o gráfico de série temporal. |
    | [!UICONTROL **Filtrar conteúdo por (opcional)**] | Escolha como filtrar o conteúdo específico, dependendo da visualização desejada ou da maneira como seus dados estão estruturados. <ul>[!UICONTROL **Programa, temporada, episódio**]: exibe os programas disponíveis no menu suspenso, que você pode filtrar usando uma pesquisa (ou arrastando e soltando o nome do programa da coluna da esquerda). Você pode terminar a seleção ali para ver todas as estações do programa, ou você pode filtrar por estações individuais e por episódios individuais. Esta configuração mostra os dados para esses programas, temporadas ou episódios do período selecionado.</li><li>[!UICONTROL **Dimensão personalizada**]: se o nome do programa estiver em uma dimensão personalizada, você poderá encontrá-lo pesquisando no menu suspenso de dimensões (opcional) ou usando a pesquisa na coluna da esquerda. O item de dimensão é preenchido automaticamente com base nessa seleção e é tratado como um episódio.</li><li>[!UICONTROL **Nenhum**]: mostra todos os nomes de vídeos que têm dados de média de público-alvo por minuto para a seleção que você escolheu. (Essa opção está selecionada por padrão.)</li></ul> |
 
 1. Continue com as [configurações avançadas do período personalizado](#custom-time-period-advanced-settings) para definir as configurações avançadas.
