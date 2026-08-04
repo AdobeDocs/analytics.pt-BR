@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
 workflow-type: tm+mt
-source-wordcount: 7390
+source-wordcount: 7421
 ht-degree: 93%
 
 ---
@@ -51,6 +51,8 @@ Atualizações de conteúdo do conjunto de documentação do Adobe Analytics des
 
 | Recurso | Descrição |
 | --- | --- |
+| **agosto de 2026** | |
+| Adição de novas ferramentas de IA conversacional à dimensão Tipo de referenciador | A dimensão &quot;Tipo de referenciador&quot; agora inclui as [ferramentas de IA de conversação](/help/components/dimensions/referrer-type.md#conversational-ai-tools) adicionais na tabela de pesquisa que a Adobe usa:<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **junho de 2026** | |
 | Atualização da referência da sequência de consulta | Revisões significativas em [Parâmetros de consulta de coleta de dados](/help/implement/validate/query-parameters.md). |
 | Segmentos no Data Warehouse | Atualização da [compatibilidade de segmento do Data Warehouse](/help/export/data-warehouse/segment-compatibility.md). |

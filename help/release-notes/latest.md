@@ -2,6 +2,7 @@
 title: Notas de versão atuais do Adobe Analytics
 description: Visualizar as notas de versão atuais do Adobe Analytics
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -24,43 +25,45 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
+source-git-commit: 3516dded61a29a1137a554a5f3ebf46f7c81903f
 workflow-type: tm+mt
-source-wordcount: 922
-ht-degree: 61%
+source-wordcount: 1016
+ht-degree: 56%
 
 ---
 
-# Notas de versão atuais do Adobe Analytics (julho de 2026)
+# Notas de versão atuais do Adobe Analytics (agosto de 2026)
 
-**Última atualização**: 8 de julho de 2026
+**Última atualização**: 4 de agosto de 2026
 
-Essas notas de versão abrangem o período de julho de 2026. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Dessa forma, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+Essas notas de versão abrangem o período de agosto de 2026. As versões do Adobe Analytics operam em um [modelo de entrega contínua](releases.md) que permite uma abordagem mais escalável e em fases para a implantação de recursos. Dessa forma, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
 
 ## Novos recursos ou melhorias {#features}
 
 | Recurso e descrição | [Início da implantação](releases.md) | [Disponibilidade geral](releases.md) |
 | ----------- | ---------- | ---- |
-| **Análise de subocorrência** <br/>A análise de subocorrência permite analisar os dados do produto em um nível mais granular do que o nível de ocorrência. Em vez de filtrar em ocorrências inteiras, você pode segmentar em produtos individuais nas ocorrências. <p>Por exemplo, você pode segmentar em uma categoria de produto específica sem incluir todos os outros produtos comprados na mesma ordem.</p><p>Para obter mais informações, consulte [Análise de subocorrência](/help/components/segmentation/sub-hit.md).</p> | 8 de julho | Final de julho de 2026 |
-| **Extensão do Activity Map: atualização da interface** <br/>A extensão de sobreposição do Activity Map tem uma aparência atualizada, juntamente com melhorias subjacentes que oferecem suporte a aprimoramentos futuros.<p>(Link para a documentação a seguir).</p> | | Final de julho de 2026 |
-| **Guia de recursos de pesquisa de API do AA 2.0** <br/>Use recursos de pesquisa para [retornar um subconjunto de itens de dimensão em relatórios](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>Para obter mais informações, consulte [Pesquisar recursos](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) no manual de ponto de extremidade de relatórios no Adobe Developer. | | 1 de julho de 2026 |
-| **Automatização de relatórios recorrentes com APIs do AA** <br/>Configure relatórios recorrentes e automáticos do Adobe Analytics para o seu pipeline de dados com métricas novas em um agendamento com a API de relatórios. <p>Para obter mais informações, consulte o [manual de ponto de extremidade de automatização de relatórios recorrentes do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) no Adobe Developer.</p> | | 1 de julho de 2026 |
-| **Novos parâmetros de expansão para o AA** <br/>Use novos parâmetros de expansão da API do Dimension para recuperar campos de configuração do eVar para tipos de alocação, expirações, tipos de dados e merchandising. <p>Para obter mais informações, consulte a [Referência da API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) e o [manual de ponto de extremidade de dimensões](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) no Adobe Developer.</p> | | 1 de julho de 2026 |
+| **Extensão do Activity Map: atualização da interface** <br/>A extensão de sobreposição do Activity Map tem uma aparência atualizada, juntamente com melhorias subjacentes que oferecem suporte a aprimoramentos futuros.<p>Para obter informações sobre a extensão de sobreposição do Activity Map, consulte [interface de extensão do Activity Map](/help/analyze/activity-map/overlay/overview.md).</p> | | 5 de agosto de 2026<p>(Planejado originalmente para o final de julho)</p> |
+| **Use os dados do Analytics no LLM Optimizer**<br> Conecte o LLM Optimizer aos dados do Customer Journey Analytics da sua organização para que você possa medir como a descoberta orientada por IA se traduz em envolvimento real com o site e em resultados comerciais.<p>(Link para a documentação a seguir).</p> | | 14 de agosto de 2026 |
+| **Aprimoramentos na tela de Jornada**<br> Os seguintes aprimoramentos na tela de Jornada estão disponíveis:<ul><li>Compare a jornada a um intervalo de tempo anterior. Compare a jornada atual com a jornada 4 semanas antes, 2 trimestres antes, 1 ano antes ou com um intervalo de datas personalizado.</li><li>Para um nó selecionado, mostre os itens de dimensão principais que vêm após o nó selecionado em qualquer ponto da jornada. Use-a quando o nó selecionado for o evento principal na análise e você quiser ver o que as pessoas fazem em qualquer ponto depois.<p>Anteriormente, somente os nós imediatos principais podiam ser exibidos antes ou depois do nó selecionado. </p></li><li>Alterar a forma e o estilo das setas entre os nós. Arraste as setas entre os nós para alterar a forma (curvatura) da seta e clique com o botão direito do mouse em uma seta para alterar seu estilo para qualquer uma das seguintes opções: sólido, tracejado, pontilhado, tracejado-ponto ou animado.</li></ul><p></p>Para  mais informações, consulte [Configurar uma visualização da tela de jornada](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | 18 de agosto de 2026 |
+| **Planejador de migração: do Adobe Analytics para o Customer Journey Analytics**<br> O Planejador de migração fornece um assistente de migração que automatiza algumas das tarefas mais complexas e demoradas associadas a uma atualização do Adobe Analytics para o Customer Journey Analytics, incluindo a criação do esquema XDM e a migração do AppMeasurement ou da extensão (tags) do Analytics para o Experience Platform Web SDK. <p>(Link para a documentação a seguir).</p> | | Final de agosto ou setembro de 2026 |
+| **Referência de canais de marketing da API do Analytics**<br/> Use a referência de canais de marketing da API do Adobe Analytics 2.0 para recuperar informações de canais de marketing do Analytics. Consulte a [Referência de canais de marketing da API do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | 1 de agosto de 2026 |
+| **manual de ponto de extremidade de canais de marketing da API do Analytics**<br/> O manual de ponto de extremidade de canais de marketing da API do Adobe Analytics 2.0 fornece instruções e exemplos para usar o ponto de extremidade. Consulte o [Guia de endpoint de canais de marketing da API do Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels). | | 1 de agosto de 2026 |
+| **Perguntas frequentes sobre clientes com API EOL do Analytics 1.4**<br/> As perguntas frequentes sobre clientes com API EOL do Analytics 1.4 fornecem informações sobre o desenvolvimento recente da API 2.0 para ajudar os clientes que deixam as APIs 1.4. | | 10 de agosto de 2026 |
 
 ### Correções no Adobe Analytics
 
 **Activity Map**:
-**Analysis Workspace**: AN-449890, AN-457527, AN-451161, AN-459034, AN-458071, AN-458398
-**Classificações**: AN-453318, AN-456739, AN-455828, AN-455270, AN-460272, AN-459367, AN-459239, AN-458418, AN-458417
-**Feeds de dados e Data Warehouse**: AN-456945, AN-460700
+**Analysis Workspace**:
+**Classificações**:
+**Feeds de dados e Data Warehouse**:
 **Migração**:
 **Exportações**:
-**Report Builder**: AN-457533, AN-453683
-**Relatórios**: AN-447692, AN-451259, AN-455713
+**Report Builder**:
+**Relatórios**:
 **Conjuntos de relatórios**:
-**Relatórios agendados**: AN-450715
+**Relatórios agendados**:
 **Segmentação**:
-**Outros**: AN-453982, AN-455771
+**Outros**:
 
 ### Avisos de fim da vida útil (EOL) {#eol}
 
