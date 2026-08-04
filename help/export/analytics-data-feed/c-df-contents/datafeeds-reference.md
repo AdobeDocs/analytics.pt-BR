@@ -39,7 +39,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
-source-wordcount: 4148
+source-wordcount: 4163
 ht-degree: 78%
 
 ---
@@ -246,7 +246,7 @@ As atualizações anteriores desta tabela podem ser encontradas no [histórico d
 | **`post_`** | **`videoepisode`** | A dimensão Serviços de mídia de streaming por [episódio](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/episode). | varchar(255) |
 | **`post_`** | **`videofeedtype`** | A dimensão Serviços de mídia de streaming por [Tipo de feed de mídia](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/media-feed-type). | varchar(255) |
 | **`post_`** | **`videogenre`** | A dimensão Serviços de mídia de streaming por [Gênero](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/genre). Essa dimensão permite vários valores delimitados por vírgula na mesma ocorrência. | text |
-| **`post_`** | **`videolength`** | A dimensão Serviços de mídia de streaming por [duração do conteúdo (variável)](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content-length). | inteiro |
+| **`post_`** | **`videolength`** | A dimensão Serviços de mídia de streaming por [duração do conteúdo (variável)](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content-length). | número inteiro |
 | **`post_`** | **`videomvpd`** | A dimensão Serviços de mídia de streaming por [MVPD](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/mvpd). | varchar(255) |
 | **`post_`** | **`videoname`** | A dimensão serviços de mídia de streaming por [nome do conteúdo (variável)](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/content-name). | varchar(255) |
 | **`post_`** | **`videonetwork`** | A dimensão Serviços de mídia de streaming por [rede](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/reporting/dimensions/network). | varchar(255) |
