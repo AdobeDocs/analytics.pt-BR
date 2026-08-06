@@ -3,10 +3,10 @@ description: Entenda como configurar uma visualização da tela de jornada.
 title: Configurar a visualização de uma tela de jornada
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 9f5b9cdd90892f7efa65f09831daaf307e16c7d7
 workflow-type: tm+mt
-source-wordcount: '5783'
-ht-degree: 90%
+source-wordcount: '5926'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;deste artigo._
+_Este artigo documenta a visualização da tela de Jornada no_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Configurar uma visualização da tela de Jornada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para a versão _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**deste artigo._
 
 >[!ENDSHADEBOX]
 
@@ -69,6 +69,33 @@ Consulte [Visão geral da tela de jornada](/help/analyze/analysis-workspace/visu
 >id="aa_journeycanvas_percentage_value"
 >title="Escolha como as porcentagens são calculadas"
 >abstract="As porcentagens exibidas em cada nó se baseiam nas métricas primárias e secundárias configuradas. É possível escolher se as porcentagens estarão relacionadas ao nó inicial, ao nó anterior ou a todos os dados no conjunto de relatórios."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_arrow_settings"
+>title="Configurações de seta"
+>abstract="Escolha se deseja mostrar ou ocultar rótulos na tela de desenho. Rótulos são nomes personalizados criados na tela de Jornada."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_show_fallout"
+>title="Mostrar fallout"
+>abstract="Os dados de fallout mostram a porcentagem e o número de pessoas ou sessões em cada nó da jornada que nunca chegaram ao próximo nó da jornada. Eles podem ter executado outras ações no site, mas nunca atendem aos critérios definidos pelo próximo nó na jornada.<br/>Os dados de fallout mostram pessoas ou sessões (independentemente da métrica primária escolhida) e são baseados na configuração do contêiner da tela de Jornada."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_compare"
+>title="Comparar a"
+>abstract="O intervalo de datas usado para comparar os dados de jornada atuais com um período anterior. Quando você seleciona um intervalo de datas de comparação, cada nó na jornada mostra a alteração percentual entre o intervalo de datas atual e o intervalo de datas de comparação selecionado, com base na métrica principal. "
 
 <!-- markdownlint-enable MD034 -->
 
