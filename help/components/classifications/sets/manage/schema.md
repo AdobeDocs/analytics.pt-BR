@@ -14,16 +14,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
+source-git-commit: 852737398297f5317ab781f2c7dceb8ab72e7ee8
 workflow-type: tm+mt
-source-wordcount: 1895
+source-wordcount: 1937
 ht-degree: 9%
 
 ---
 
 # Esquema do conjunto de classificação
 
-O esquema é a lista de classificações que você deseja aplicar às dimensões principais definidas para o conjunto de classificações. Por exemplo, se você tiver definido o produto como a dimensão principal e esse campo contiver um SKU de produto, use o esquema para adicionar classificações como nome do produto, cor e tamanho.
+O esquema é a lista de classificações que você deseja aplicar às dimensões principais definidas para o conjunto de classificações. Por exemplo, se o produto for a dimensão principal, use o esquema para adicionar classificações como nome do produto, cor e tamanho.
 
 Para editar o esquema de um conjunto de classificações:
 
@@ -133,7 +133,7 @@ Na caixa de diálogo **[!UICONTROL Baixar dados para _nome do conjunto de classi
    * **[!UICONTROL Latino-1]**.
 
 
-1. Selecione **[!UICONTROL Baixar]** para baixar os dados de classificação. Você pode encontrar o arquivo baixado no diretório de download padrão do seu navegador, e o arquivo é intitulado <code><i>Conjunto de Classificações</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se o arquivo já existir, um número de sequência <code>(<i>x</i>)</code> é adicionado ao nome do arquivo.<br/>Se você tiver especificado opções que não retornam dados, verá uma caixa de diálogo **[!UICONTROL Aviso]** para informá-lo de alterar as opções de intervalo de datas e dados retornados.
+1. Selecione **[!UICONTROL Baixar]** para baixar os dados de classificação. Você pode encontrar o arquivo baixado no diretório de download padrão do seu navegador, e o arquivo é intitulado <code><i>Conjunto de Classificações</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se o arquivo existir, um número de sequência <code>(<i>x</i>)</code> é adicionado ao nome do arquivo.<br/>Se nenhum dado for retornado, uma caixa de diálogo **[!UICONTROL Aviso]** solicitará que você ajuste o intervalo de datas ou as opções de dados.
 
 
 ### Modelo
@@ -164,16 +164,16 @@ Na caixa de diálogo **[!UICONTROL Baixar modelo para _nome do conjunto de class
 >id="classificationsets_schema_automate_locationaccount"
 >title="Conta de localização"
 >abstract="Lista de contas de localização cujos tipos oferecem suporte à importação de dados de classificação. Selecione **[!UICONTROL Nova conta]** para criar uma nova conta de localização."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=pt-BR" text="Configurar contas de importação e exportação na nuvem"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-accounts" text="Configurar contas de importação e exportação na nuvem"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Localização"
 >abstract="Lista de locais, na conta de localização selecionada, que oferecem suporte à importação de dados de classificação. Selecione **[!UICONTROL Novo local]** para criar um novo local."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=pt-BR" text="Configurar locais de importação e exportação na nuvem"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/analytics/components/locations/configure-import-locations" text="Configurar locais de importação e exportação na nuvem"
 
-É possível automatizar a assimilação de dados de classificação por meio da configuração e do uso da conta da nuvem e dos locais da nuvem.
+É possível automatizar a assimilação de dados de classificação configurando e usando contas em nuvem e locais em nuvem.
 
 >[!IMPORTANT]
 >A automação da assimilação de classificação de contas na nuvem exige que você (ou o administrador de rede) especifique intervalos de endereço IP para permitir a assimilação de dados na rede. Configure um ou mais intervalos de endereço IP dependendo da localização dos data centers do Analytics que você usa.
@@ -212,7 +212,7 @@ Na caixa de diálogo **[!UICONTROL Associar / Atualizar Local de Assimilação p
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latino-1]**.
 
-1. Para notificar os usuários sobre a conclusão dos trabalhos de assimilação, insira endereços de email, separados por vírgula, para **[!UICONTROL Email(s) a notificar quando os trabalhos de assimilação forem concluídos (separados por vírgula)]**.
+1. Para notificar os usuários sobre a conclusão dos trabalhos de assimilação, insira endereços de email, separados por vírgula, para **[!UICONTROL Email(s) a serem notificados quando os trabalhos de assimilação forem concluídos (separados por vírgula)]**.
 1. Selecione **[!UICONTROL Validar]**. A conexão com o local da nuvem é validada. Se a validação for bem-sucedida, será exibida uma mensagem em caixa de informações exibindo ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Conexão com o armazenamento em nuvem verificada.]**<br/>Selecione&#x200B;**[!UICONTROL &#x200B; Salvar &#x200B;]**&#x200B;se tiver criado a conexão com a nuvem. Caso contrário, selecione&#x200B;**[!UICONTROL &#x200B; Atualizar &#x200B;]**. Ou selecione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar a configuração do local da nuvem.
 
 Ao fazer upload de arquivos no local da nuvem, em 15 minutos o arquivo é detectado e enviado como um trabalho de importação. O resultado desse trabalho de importação é relatado no [Gerenciador de trabalhos de classificações](/help/components/classifications/sets/job-manager.md). Se você for adicionado à lista de usuários para notificar sobre a conclusão de trabalhos de assimilação, também receberá mensagens de email.
@@ -223,7 +223,7 @@ Por exemplo:
 
 >[!IMPORTANT]
 >
->Remova os arquivos do local da nuvem manualmente ou usando uma política de rotação de arquivos depois que os arquivos forem importados e processados com êxito. Caso contrário, os arquivos serão reimportados e reprocessados com base na data da última modificação do arquivo e usando um log de 30 dias. Veja o exemplo abaixo.
+>Remova os arquivos do local da nuvem manualmente ou usando uma política de rotação de arquivos depois que os arquivos forem importados e processados com êxito. Caso contrário, os arquivos serão importados e processados novamente com base na data da última modificação do arquivo e usando um log de 30 dias. Veja o exemplo abaixo.
 >
 
 #### Exemplo
@@ -253,3 +253,30 @@ A barra de ações mostra as ações disponíveis para a classificação selecio
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remover Pesquisa]** | Remova um conjunto de classificações como uma pesquisa. Para excluir a pesquisa permanentemente da classificação, na caixa de diálogo de confirmação **[!UICONTROL Remover _conjunto de classificações_ da _classificação_]**, selecione **[!UICONTROL Excluir]**. |
 | ![Renomear](/help/assets/icons/Rename.svg) | **[!UICONTROL Renomear]** | Renomeie o **[!UICONTROL Nome da Classificação]** de uma classificação. Na caixa de diálogo **[!UICONTROL Renomear: _nome da classificação_]**, digite um novo nome e selecione **[!UICONTROL Renomear]**. |
 | ![Excluir](/help/assets/icons/Delete.svg) | **[!UICONTROL Excluir]** | Excluir uma classificação. A caixa de diálogo **[!UICONTROL Excluir _nome da classificação_]**&#x200B;é exibida. Selecione **[!UICONTROL Excluir]**&#x200B;para excluir a classificação. |
+
+
+## Dados não classificados
+
+Se você encontrar dados não classificados após uma importação que é exibida como `none` em seus relatórios, poderá renomear a chave de classificação `None`.
+
+1. [Baixe](#download) as classificações para um arquivo local.
+1. Adicione uma linha ao arquivo local e digite `~none~` na coluna Chave. Digite os nomes de classificação mais descritivos nas colunas apropriadas.
+
+   Por exemplo:
+
+   * JSON
+
+     ```json
+     {"key": "~none~", "enc": "DEFAULT", "action": "update", "data": {"Product Name": "Unknown Product Name", "Product Category": "Unknown Product Category"}}
+     ...
+     ```
+
+   * CSV:
+
+     ```csv
+     Key, Product Name, Product Category
+     ~none~, Unknown Product Name, Unknown Product Category
+     ...
+     ```
+
+1. [Carregar](#upload) os dados de volta para o Adobe Analytics.

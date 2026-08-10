@@ -76,11 +76,11 @@ A tabela abaixo descreve as dicas do cliente a partir de outubro de 2022.
 
 | Dica | Descrição | Alta ou baixa entropia | Exemplo |
 | --- | --- | --- | --- |
-| Sec-CH-UA | Navegador e versão significativa | Baixo | `"Google Chrome 84"` |
-| Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixo | `true` |
-| Sec-CH-UA-Platform | Sistema operacional/plataforma | Baixo | `"Android"` |
+| Sec-CH-UA | Navegador e versão significativa | Baixa | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Dispositivo móvel (verdadeiro ou falso) | Baixa | `true` |
+| Sec-CH-UA-Platform | Sistema operacional/plataforma | Baixa | `"Android"` |
 | Arquitetura do | Arquitetura do site | Alta | `"arm"` |
-| bitness | Bitness da arquitetura | Alta | `"64"` |
+| bitness | Bitness da arquitetura | Alto | `"64"` |
 | fullVersionList | Lista de marcas com suas versões | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
 | modelo | Modelo do dispositivo | Alta | `"Pixel 3"` |
 | platformVersion | Versão do sistema operacional/plataforma | Alta | `"10"` |

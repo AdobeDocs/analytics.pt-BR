@@ -62,9 +62,9 @@ Se você definiu corretamente o [!UICONTROL Servidor de Rastreamento SSL], nenhu
 Usar a variável **[!UICONTROL ID de visitante]** permite que sua organização conclua o controle independente de identificação de visitantes. Se você definir [!UICONTROL ID de visitante] usando um elemento de dados, observe as seguintes limitações:
 
 * Cada ocorrência deve conter o mesmo valor [!UICONTROL ID de visitante] para ser contado como um único visitante.
-   * Qualquer ocorrência que omita o elemento de dados [!UICONTROL ID de visitante] tenta automaticamente usar outro método de identificação de visitante, tratando-o como um visitante separado.
-   * Qualquer ocorrência que contenha um valor de [!UICONTROL ID de visitante] diferente de uma ocorrência anterior é tratada como um visitante separado.
-   * A Adobe não oferece uma maneira de compilar ocorrências usando diferentes IDs de visitante no Adobe Analytics.
+  * Qualquer ocorrência que omita o elemento de dados [!UICONTROL ID de visitante] tenta automaticamente usar outro método de identificação de visitante, tratando-o como um visitante separado.
+  * Qualquer ocorrência que contenha um valor de [!UICONTROL ID de visitante] diferente de uma ocorrência anterior é tratada como um visitante separado.
+  * A Adobe não oferece uma maneira de compilar ocorrências usando diferentes IDs de visitante no Adobe Analytics.
 * Públicos-alvo compartilhados, Analytics para Target e Atributos do cliente não são suportados com visitantes identificados usando a [!UICONTROL ID do visitante].
 
 Consulte [`visitorID`](/help/implement/vars/config-vars/visitorid.md) para obter instruções de implementação usando essa variável.
