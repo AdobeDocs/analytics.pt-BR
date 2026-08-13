@@ -5,18 +5,11 @@ feature: Processing Rules
 role: Admin
 exl-id: 897d2bb6-cc10-43b1-b436-20985d24d998
 TQID: https://experienceleague.adobe.com/Ah57YA-n9UY-OLwpdKSheSqm53nXa-KoTkPuX8CBTfU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 476
@@ -50,9 +43,9 @@ Cada regra de processamento contém as seguintes seções:
 * **Título da regra**: o rótulo da regra. Ela não afeta a lógica da regra de processamento, mas é importante para ajudar a rastrear o que a regra faz.
 * **Condição**: exibida como o texto, &quot;[!UICONTROL Se qualquer/todos os itens a seguir forem verdadeiros]&quot;. Se você não incluir uma condição, a regra sempre será executada em cada ocorrência.
 * **Ação**: se nenhuma condição existir, o texto será mostrado como, &quot;[!UICONTROL Sempre executar]&quot;. Se existir uma condição, o texto será mostrado como &quot;[!UICONTROL Faça o seguinte]&quot;. Se a condição acima for avaliada como `true`, cada ação listada nesta seção possivelmente será executada. Além da condição de uma regra, você pode _também_ anexar condições a ações individuais. As seguintes ações estão disponíveis:
-   * **[!UICONTROL Substituir valor de]**: substitui a variável desejada por outra variável, um valor estático ou um valor concatenado.
-   * **[!UICONTROL Excluir valor de]**: exclui o valor de variável desejado para essa ocorrência.
-   * **[!UICONTROL Definir evento]**: aciona o evento desejado. Normalmente, você define eventos com um valor personalizado de `1`; a definição de eventos com valores diferentes de `1` ou até mesmo a definição deles como valores definidos em variáveis de dados de contexto também é permitida.
+  * **[!UICONTROL Substituir valor de]**: substitui a variável desejada por outra variável, um valor estático ou um valor concatenado.
+  * **[!UICONTROL Excluir valor de]**: exclui o valor de variável desejado para essa ocorrência.
+  * **[!UICONTROL Definir evento]**: aciona o evento desejado. Normalmente, você define eventos com um valor personalizado de `1`; a definição de eventos com valores diferentes de `1` ou até mesmo a definição deles como valores definidos em variáveis de dados de contexto também é permitida.
 * **Ação de outra forma**: se existir uma condição, esta seção aparecerá como, &quot;[!UICONTROL Caso contrário, faça o seguinte]&quot;. Se a condição acima for avaliada como `false`, cada ação listada nesta seção possivelmente será executada. Esta seção segue as mesmas ações de regra descritas acima, incluindo a capacidade de substituir valores, excluir valores e definir eventos.
 * **Motivo**: registre quem solicitou a regra e do que ela depende. Ela não afeta a lógica da regra de processamento, mas é importante para ajudar a acompanhar por que a regra existe.
 

@@ -4,17 +4,10 @@ title: Valor de tráfego baixo no Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 TQID: https://experienceleague.adobe.com/LxgSEq4RMCwf38uY6HxfhQ7SZxw0e5nupJTAfA1gpbY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 938
@@ -63,8 +56,8 @@ Quando um item de dimensão escapa do bucket [!UICONTROL Tráfego baixo], as ins
 * A ID do conjunto de relatórios
 * A dimensão para a qual você deseja aumentar o limite
 * O primeiro e o segundo limites desejados:
-   * O primeiro limite (classificação inicial) é definido como **2.000.000** por padrão.
-   * O segundo limite (filtragem mais agressiva) está definido como **2,100,000** por padrão.
+  * O primeiro limite (classificação inicial) é definido como **2.000.000** por padrão.
+  * O segundo limite (filtragem mais agressiva) está definido como **2,100,000** por padrão.
 
 >[!IMPORTANT]
 >
@@ -79,5 +72,5 @@ Recursos diferentes tratam valores de [!UICONTROL Tráfego baixo] de maneiras di
 * **Data Warehouse:** na maioria dos casos, não há limite para o número de valores únicos nos relatórios do Data Warehouse. Sua arquitetura exclusiva permite o relatório de qualquer número de valores únicos. No entanto, os valores [!UICONTROL Tráfego baixo] ainda podem aparecer em alguns cenários limitados. Os exemplos incluem variáveis de lista, props de lista, eVars de merchandising e dimensões detalhadas de canal de marketing.
 * **Segmentação:** se os critérios do segmento incluírem uma dimensão com um número alto de valores únicos, os valores capturados em [!UICONTROL Tráfego baixo] não serão incluídos.
 * **Classificações:** os relatórios de classificação também estão sujeitos a limites únicos. Se um item de dimensão principal de uma classificação for incluído em [!UICONTROL Tráfego baixo], o valor não será classificado.
-   * Valores de [!UICONTROL Tráfego baixo] classificados por meio do importador podem ser visualizados no Data Warehouse. <!-- AN-115871 -->
-   * Valores de [!UICONTROL Tráfego baixo] classificados por meio do construtor de regras *não podem* ser exibidos no Data Warehouse. <!-- AN-122872 -->
+  * Valores de [!UICONTROL Tráfego baixo] classificados por meio do importador podem ser visualizados no Data Warehouse. <!-- AN-115871 -->
+  * Valores de [!UICONTROL Tráfego baixo] classificados por meio do construtor de regras *não podem* ser exibidos no Data Warehouse. <!-- AN-122872 -->
